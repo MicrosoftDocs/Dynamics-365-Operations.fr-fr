@@ -1,0 +1,54 @@
+---
+title: "Comptabilité du secteur public en France"
+description: "Cet article décrit la comptabilité du secteur public en France."
+author: rschloma
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+audience: Application User
+ms.reviewer: rschloma
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 19621
+ms.assetid: f6bfb9dd-c3a7-48d3-b31d-23e6f27c1323
+ms.search.region: France
+ms.search.industry: Public sector
+ms.author: brpotter
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: bec019d218d80ba059d5a1c232072f46b1ae3ee2
+ms.openlocfilehash: b8f32170ec27fb5b6a5da6a6af27db864c7bc114
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="public-sector-accounting-in-france"></a>Comptabilité du secteur public en France
+
+Cet article décrit la comptabilité du secteur public en France.
+
+<a name="prerequisites"></a>Conditions préalables
+-------------
+
+Les fonctionnalités dédiées au secteur public français sont disponibles lorsque les conditions suivantes sont remplies :
+
+-   La clé de configuration **Secteur public** et la sous-clé **Réglementation française** sont sélectionnées.
+-   L'option **Utiliser les règles comptables du secteur public français** est sélectionnée sur la page **Paramètres de budgétisation**.
+-   Le code pays/région par défaut est France.
+
+Les étapes de paramétrage supplémentaires pour les fonctionnalités spécifiques sont traitées dans l'article correspondant à chaque fonctionnalité.
+
+## <a name="french-public-sector-topics"></a>Rubriques relatives au secteur public français
+-   [Mandats de paiement](emea-fra-mandats-de-paiement.md) Le directeur utilise le mandat de paiement pour informer le comptable que l'organisation doit payer un montant spécifique à une autre entité et pour autoriser le comptable à payer ledit montant.
+-   [Mises en attente du paiement d'une facture fournisseur](emea-fra-vendor-invoice-payment-holds-public-sector.md) Les processus standard liés aux mises en attente du paiement de factures fournisseur ont été étendus pour les entités françaises du secteur public.
+-   [Titres de recette](emea-fra-titres-de-recette-public-sector.md) Le directeur utilise le titre de recette pour informer le comptable que l'organisation est autorisée à recouvrer un montant spécifique auprès d'une autre entité et autoriser le comptable à recouvrer ledit montant.
+-   [Engagements](emea-fra-commitments-public-sector.md) Les engagements permettent de réserver des montants budgétés afin qu'une organisation puisse explicitement effectuer le suivi des réservations budgétaires à des fins de gestion et de déclaration tout au long du cycle des dépenses.
+-   [Procurement and sourcing](emea-fra-procurement-sourcing-public-sector.md)
+    -   Les fonctionnalités standard associés aux contrats d'achat ont été étendues pour les entités françaises du secteur public.  Par exemple, vous pouvez créer des tranches et des lots, contrôler l'accès du département, gérer les certifications de fournisseur, et paramétrer les fournisseurs principaux, les fournisseurs secondaires, et les sous-traitants. Ces capacités vous permettent de répondre aux besoins du Code des marchés publics.
+    -   Pour répondre aux réglementations du secteur public en France, vous devez définir des seuils de dépenses pour les achats dans les catégories d'approvisionnement définies par la Clé de Contrôle Marché. A ** seuils de dépenses par catégorie ** la règle de stratégie utilisées avec des stratégies d'achat permet d'utiliser les attributs de date d'effet, les montants prévus du coût, et des montants des seuils afin de prendre en charge requise des pratiques d'approvisionnement, et pour garantir l'utilisation décisive et efficace des fonds publics.
+
+
+

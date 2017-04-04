@@ -1,0 +1,71 @@
+---
+title: Collaboration fournisseur avec des clients
+description: "Cette rubrique décrit comment utiliser la collaboration fournisseur dans Microsoft Dynamics 365 for Operations pour utiliser des CF et surveiller le stock de consignation."
+author: YuyuScheller
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart
+audience: Application User
+ms.search.scope: Operations, Core
+ms.custom: 221234
+ms.assetid: 6e69fb8b-6d3a-46ef-88cf-6d01212aa7c3
+ms.search.region: Global
+ms.author: mkirknel
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
+translationtype: Human Translation
+ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
+ms.openlocfilehash: 11cd2242b5a575ae87b0dbcf6f8ce268fcea5377
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="vendor-collaboration-with-customers"></a>Collaboration fournisseur avec des clients
+
+Cette rubrique décrit comment utiliser la collaboration fournisseur dans Microsoft Dynamics 365 for Operations pour utiliser des CF et surveiller le stock de consignation.
+
+Cette rubrique décrit comment utiliser la collaboration fournisseur avec les clients dans Microsoft Dynamics 365 for Operations. Il inclut des informations sur la procédure de contrôle et de répondre aux commandes fournisseur, et la procédure de contrôle le stock de consignation. Il est également possible d'utiliser la collaboration de fournisseur avec les factures. Pour plus d'informations, voir [collaboration de fournisseur de la facturation de l'espace de travail] (/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace).
+
+## <a name="working-with-purchase-orders"></a>Utilisation des commandes fournisseur
+L'espace de travail **Confirmation de commande fournisseur** vous permet de répondre aux CF soumises à vous pour révision. Il permet également d'afficher des informations sur les CF qui attendent une action du client, et les CF qui ont été confirmées, mais qui sont toujours en cours. Il existe trois listes dans l'espace de travail **Confirmation de commande fournisseur** :
+
+-   ** Commandes fournisseur pour révision ** - Cette position liste affiche qui ont été soumises à vous et attendent une réponse à vous. Lorsque vous répondiez, la CF disparaît de la liste. Si le client vous envoie une nouvelle version de la CF avant d'avoir répondu à la précédente, seule la dernière version s'affiche.
+-   **En attente d'une action du client** - Cette liste vous permet de visualiser les CF auxquelles vous avez répondu, mais qui n'ont pas encore été confirmées par le client. Si vous validez la CF, vous pouvez la surveiller dans cette liste jusqu'à ce que son statut passe à **Confirmée**. Si vous refusé la CF ou que vous l'acceptez avec des modifications, vous pouvez surveiller la CF ici jusqu'à ce que le client envoie une nouvelle version.
+-   **Commandes fournisseurs confirmées** - Cette liste contient toutes CF de votre compte ayant le statut **Confirmée**. Lorsque des produits ou services sont entièrement reçus par rapport à la CF, la CF disparaît de la liste.
+
+La liste suivante affiche les quatre pages que vous pouvez utiliser pour des commandes fournisseur, dont deux contiennent les mêmes informations que les listes de l'espace de travail :
+
+-   **Commandes fournisseur pour examen** (voir ci-dessus)
+-   **Historique des confirmations de commandes fournisseur** - Cette page contient toutes les CF et toutes les versions des CF envoyées au fournisseur, et toutes les réponses qui ont été renvoyées de la part du fournisseur.
+-   **Commandes fournisseurs confirmées** (voir-ci dessus)
+-   **Toutes les commandes fournisseur confirmées** - Cette page contient toutes les CF qui ont été confirmées, y compris celles où les produits ou services ont été reçus. Vous pouvez utiliser cette liste pour surveiller pour quelle CF vous pouvez envoyer des factures.
+
+### <a name="responding-to-purchase-orders"></a>Réponse aux commandes fournisseur
+
+Les commandes fournisseur auquel le client est envoyé à la révision sont visibles ** confirmation de commande fournisseur ** l'espace de travail et sur ** des commandes fournisseur pour révision ** la page. Une fois que vous ouvrez un fournisseur, vous pouvez choisir de l'accepter, de refuser le, ou d'accepter avec les modifications. Il peut y avoir des documents joints dans l'en-tête de la CF ou sur des lignes individuelles. Vous pouvez également associer des informations à votre réponse dans l'en-tête de la CF ou des lignes individuelles. Par exemple, vous pouvez proposer un article de remplacement pour l'une des lignes. Vous pouvez prévisualiser et imprimer la CF comme fichier PDF à l'aide de l'option **Aperçu/Imprimer**. Vous pouvez masquer ou afficher les colonnes de dimension suivantes à l'aide de l'action **Dimensions d'affichage** : site, entrepôt, couleur, taille, style, configuration. Si vous utilisez ** acceptez avec les modifications ** l'option, vous pouvez accepter ou rejeter des lignes. Vous pouvez également apporter les modifications suivantes aux lignes :
+
+-   Modifier les dates ou les quantités. Si vous souhaitez mettre à jour la date de livraison confirmée sur toutes les lignes, utilisez l'option **Mettre à jour la date de livraison** sur l'en-tête de la CF.
+-   Fractionner des lignes pour différentes dates de livraison ou quantités
+-   Remplcez un article. Pour ce faire, entrez une description d'article et votre numéro d'article dans le champ **Externe** dans la section **Détails de ligne**.
+
+Vous ne pouvez pas modifier les informations ou des frais de tarification, mais vous pouvez effectuer des suggestions pour modifier ces derniers avec des notes. Si votre client vous envoie une nouvelle version d'une CF, celle-ci un suffixe de version pour indiquer qu'il s'agit d'une version modifiée d'une CF qui a été précédemment communiquée. La page **Historique des confirmations de commandes fournisseur** vous permet de suivre l'historique de chaque commande.
+
+## <a name="monitoring-consignment-inventory"></a>Surveillance du stock de consignation
+Si vous utilisez le stock de consignation, vous pouvez utiliser l'interface de collaboration fournisseur pour afficher les informations sur les pages suivantes :
+
+-   ** Les commandes fournisseur consommant le stock de consignation ** - des commandes fournisseur pour le stock de consignation sont générées lorsque le client utilise la propriété du stock. Ces commandes fournisseur de consignation sont affichées uniquement sur la page **Commandes fournisseur consommant le stock de consignation**. Elles ne sont pas incluses dans la page **Toutes les commandes fournisseur confirmées**.
+-   **Produits reçus du stock de consignation** - Cette page affiche la liste de toutes les transactions dont la propriété des produits a été transférée à la société qui consomme le stock. Ces informations vous permettent de facturer le client.
+-   **Stock de consignation disponible** - Cette page affiche le stock de consignation disponible appartenant à votre société qui est disponible dans l'entrepôt du client.
+
+
+<a name="see-also"></a>Voir également :
+--------
+
+[Gérer les utilisateurs de la fonctionnalité de collaboration du fournisseur](manage-vendor-collaboration-users.md)
+
+

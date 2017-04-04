@@ -1,0 +1,248 @@
+---
+title: "Stratégies de travail d&quot;entrepôt"
+description: "Une nouvelle stratégie de travail d&quot;entrepôt est introduite dans Microsoft Dynamics AX 7.0.1 (mise à jour de mai 2016). Cette stratégie de travail contrôle si le travail d&quot;entrepôt est créé pour les processus d&quot;entrepôt pour la production."
+author: YuyuScheller
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: WHSWorkPolicy
+audience: Application User
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 196561
+ms.assetid: cbf48ec6-1836-48d5-ad66-a9b534af1786
+ms.search.region: Global
+ms.search.industry: Manufacturing
+ms.author: johanho
+ms.search.validFrom: 2016-05-31
+ms.dyn365.ops.version: AX 7.0.1
+translationtype: Human Translation
+ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
+ms.openlocfilehash: 5660e5c8e3329564fc4262b5ad4f2547347bbb1a
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="warehouse-work-policies"></a>Stratégies de travail d'entrepôt
+
+Une nouvelle stratégie de travail d'entrepôt est introduite dans Microsoft Dynamics AX 7.0.1 (mise à jour de mai 2016). Cette stratégie de travail contrôle si le travail d'entrepôt est créé pour les processus d'entrepôt pour la production.
+
+Cette stratégie de travail contrôle si le travail d'entrepôt est créé pour les processus d'entrepôt pour la production. Vous pouvez paramétrer la stratégie de travail à l'aide d'une combinaison de **types d'ordres d'exécution**, d'**emplacement de stockage**, et de **produit** Par exemple, le produit L0101 est déclaré terminé de sortir l'emplacement 001. Le produit fini ultérieurement est consommé dans un autre ordre de fabrication à l'emplacement 001 de sortie. Dans ce cas, vous pouvez paramétrer une stratégie de travail pour empêcher le travail pour le rangement de produit fini d'être créé lorsque vous déclarez le produit L0101 terminé de sortir l'emplacement 001. La stratégie de travail est une entité individuelle qui peut être décrite à l'aide des informations suivantes :
+
+-   **Nom de stratégie de travail **(identificateur unique de la stratégie de travail)
+-   **Types d'ordres d'exécution **et** Méthode de création de travail**
+-   **Emplacement de stockage**
+-   **Produits**
+
+## <a name="work-order-types"></a>Types d'ordre d'exécution
+Vous pouvez sélectionner un des types d'ordres d'exécution suivants :
+
+-   Rangement des produits finis
+-   Rangement des coproduits et des sous-produits
+-   Prélèvement de matières premières
+
+Le champ **Méthode de création de travail** a la valeur **Jamais**. Cette valeur indique que la stratégie de travail empêchera tout travail d'entrepôt d'être créé pour le type d'ordre d'exécution sélectionné.
+
+## <a name="inventory-locations"></a>Emplacement de stockage
+Vous pouvez sélectionner un emplacement auquel la stratégie de travail s'applique. Si aucun emplacement n'est associé à une stratégie de travail, la stratégie de travail ne s'applique à aucun processus. Sur la page **Emplacements**, vous pouvez également sélectionner ou annuler la sélection de la stratégie de travail pour un emplacement spécifique.
+
+## <a name="products"></a>Produits
+Vous pouvez sélectionner un produit auquel la stratégie de travail s'applique. Vous pouvez appliquer la stratégie de travail à tous les produits ou à des produits sélectionnés.
+
+## <a name="example"></a>Exemple
+Dans l'exemple suivant, il existe deux ordres de fabrication, PRD-001 et PRD-00*2*. L'ordre de fabrication PRD-001 a une opération qui est appelée **Assemblage**, où le produit SC1 est déclaré terminé à l'emplacement O1. L'ordre de fabrication PRD-002 a une opération qui est appelée **Peinture** et consomme le produit SC1 de l'emplacement O1. L'ordre de fabrication PRD-002 consomme également la matière première RM1 de l'emplacement O1. RM1 est stocké à l'emplacement d'entrepôt BULK-001 et sera prélevé à l'emplacement O1 par le travail d'entrepôt pour le prélèvement de matières premières. Le travail de prélèvement est généré lorsque la production de PRD-002 est lancée. 
+
+[![Warehouse work policies](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png) 
+
+Lorsque vous planifiez de configurer une stratégie de travail d'entrepôt pour ce scénario, vous devez prendre en compte les informations suivantes :
+
+-   Le travail d'entrepôt pour le rangement de produits finis n'est pas obligatoire lorsque vous déclarez le produit SC1 terminé dans l'ordre de fabrication PRD-001 à l'emplacement O1. Cela s'explique par le fait que l'opération de **Peinture** pour l'ordre de fabrication PRD-002 consomme SC1 au même emplacement.
+-   Le travail d'entrepôt pour le prélèvement de matières premières est requis pour déplacer la matière première RM1 de l'emplacement d'entrepôt BULK-001 vers l'emplacement O1.
+
+Voici un exemple de stratégie de travail que vous pouvez paramétrer, selon ces aspects.
+
+|                                         |                                                       |
+|-----------------------------------------|-------------------------------------------------------|
+|**Work policy name**<br>                 |**Work order types**<br>                               |
+| 01 Pas encore mis `                    |- Produit fini mis en détail<br>                           |
+|                                         |**Locations**<br>                                      |
+|                                         |- O1   |                                               |
+|                                         |**Products** <br>                                      |
+|                                         |- SC1                                                  |
+
+Les procédures suivantes fournissent des instructions pas-à-pas sur le paramétrage de la stratégie de travail d'entrepôt pour ce scénario. Un exemple de paramétrage expliquant comment déclarer un ordre de fabrication comme terminé à un emplacement qui n'est pas contrôlé par contenant est également décrit.
+
+## <a name="set-up-a-warehouse-work-policy"></a>Paramétrer une stratégie de travail d'entrepôt
+Les processus d'entrepôt n'incluent pas systématiquement les tâches d'entrepôt. En définissant une stratégie de travail, vous pouvez empêcher la création de tâche pour le prélèvement de matières premières et le rangement de produits finis pour un ensemble de produits à des emplacements spécifiques. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. 
+
+ÉTAPES (21)
+
+|     |                                                                            |
+|-----|----------------------------------------------------------------------------|
+| 1.  | Allez dans Gestion des entrepôts &gt; Paramétrage &gt; Travail &gt; Stratégies de travail.        |
+| 2.  | Cliquez sur Nouveau.                                                                 |
+| 3.  | Entrez Aucun travail de rangement dans le champ Nom de la stratégie de travail.                    |
+| 4.  | Cliquez sur Enregistrer.                                                                |
+| 5.  | Cliquez sur Ajouter.                                                                 |
+| 6.  | Dans la liste, marquer la ligne sélectionnée.                                        |
+| 7.  | Sélectionnez Rangement des produits finis dans le champ Type d'ordre d'exécution.            |
+| 8.  | Cliquez sur Ajouter.                                                                 |
+| 9.  | Dans la liste, marquer la ligne sélectionnée.                                        |
+| 10. | Sélectionnez Rangement des coproduits et des sous-produits dans le champ Type d'ordre d'exécution. |
+| 11. | Développez la section Emplacement de stockage.                                    |
+| 12. | Cliquez sur Ajouter.                                                                 |
+| 13 | Dans la liste, marquer la ligne sélectionnée.                                        |
+| 14. | Entrez 51 dans la liste Entrepôt.                                         |
+| 15. | Saisissez ou sélectionnez 001 dans le champ Emplacement.                              |
+| 16. | Développez la section Produits.                                               |
+| 17. | Sélectionnez Sélectionné dans le champ Sélection de produits.                         |
+| 18. | Cliquez sur Ajouter.                                                                 |
+| 19. | Dans la liste, marquer la ligne sélectionnée.                                        |
+| 20. | Entrez ou sélectionnez L0101 dans le champ Numéro d'article.                         |
+| 21. | Cliquez sur Enregistrer.                                                                |
+
+## <a name="report-a-production-order-as-finished-to-a-location-that-isnt-license-platecontrolled"></a>Déclarer un ordre de fabrication terminé à un emplacement qui n'est pas contrôlé par contenant
+Cette procédure présente un exemple de déclaration de fin à un emplacement qui ne fait pas l'objet d'un contrôle de contenant. Une stratégie de travail applicable correspond est une condition préalable pour cette tâche. La procédure précédente indiquait le paramétrage de la stratégie de travail. 
+
+ÉTAPES (25)
+
+<table>
+<tbody>
+<tr>
+<td colspan="3"><strong>Sous-tâche : définir un emplacement de sortie.</strong></td>
+</tr>
+<tr>
+<td></td>
+<td>1.</td>
+<td>Allez dans Administration d'organisation &gt; Ressources &gt; Groupes de ressources.</td>
+</tr>
+<tr>
+<td></td>
+<td>2.</td>
+<td>Sélectionnez le groupe de ressources 5102 dans la liste.</td>
+</tr>
+<tr>
+<td></td>
+<td>3.</td>
+<td>Cliquez sur Modifier.</td>
+</tr>
+<tr>
+<td></td>
+<td>4.</td>
+<td>Entrez 51 dans le champ Entrepôt de sortie.</td>
+</tr>
+<tr>
+<td></td>
+<td>5.</td>
+<td>Entrez 001 dans le champ Emplacement de sortie.</td>
+</tr>
+<tr>
+<td></td>
+<td>6.</td>
+<td>L'emplacement 001 n'est un emplacement qui fait l'objet d'un contrôle de contenant. Vous pouvez uniquement paramétrer un emplacement de sortie faisant l'objet d'un contrôle de contenant si une stratégie de travail applicable existe pour l'emplacement.</td>
+</tr>
+<tr>
+<td colspan="3"><strong>Sous-tâche : créer un ordre de fabrication et le déclarer comme terminé.</strong></td>
+</tr>
+<tr>
+<td></td>
+<td>1.</td>
+<td>Fermez la page.</td>
+</tr>
+<tr>
+<td></td>
+<td>2.</td>
+<td>Allez dans Contrôle de la production &gt; Ordres de fabrication &gt; Tous les ordres de fabrication.</td>
+</tr>
+<tr>
+<td></td>
+<td>3.</td>
+<td>Cliquez sur Nouvel ordre de fabrication.</td>
+</tr>
+<tr>
+<td></td>
+<td>4.</td>
+<td>Entrez L0101 dans le champ Numéro d'article.</td>
+</tr>
+<tr>
+<td></td>
+<td>5.</td>
+<td>Cliquez sur Créer.</td>
+</tr>
+<tr>
+<td></td>
+<td>6.</td>
+<td>Cliquez sur Ordre de fabrication dans le volet Actions.</td>
+</tr>
+<tr>
+<td></td>
+<td>7.</td>
+<td>Cliquez sur Estimer.</td>
+</tr>
+<tr>
+<td></td>
+<td>8.</td>
+<td>Cliquez sur OK.</td>
+</tr>
+<tr>
+<td></td>
+<td>9.</td>
+<td>Cliquez sur Démarrer.</td>
+</tr>
+<tr>
+<td></td>
+<td>10.</td>
+<td>Cliquez sur l'onglet Général.</td>
+</tr>
+<tr>
+<td></td>
+<td>11.</td>
+<td>Dans le champ Consommation de nomenclature automatique, sélectionnez Jamais.</td>
+</tr>
+<tr>
+<td></td>
+<td>12.</td>
+<td>Cliquez sur OK.</td>
+</tr>
+<tr>
+<td></td>
+<td>13.</td>
+<td>Cliquez sur Déclaration de fin.</td>
+</tr>
+<tr>
+<td></td>
+<td>14.</td>
+<td>Cliquez sur l'onglet Général.</td>
+</tr>
+<tr>
+<td></td>
+<td>15.</td>
+<td>Dans le champ Accepter les erreurs, sélectionnez Oui.</td>
+</tr>
+<tr>
+<td></td>
+<td>16.</td>
+<td>Cliquez sur OK.</td>
+</tr>
+<tr>
+<td></td>
+<td>17.</td>
+<td>Cliquez sur Entrepôt dans le volet Actions.</td>
+</tr>
+<tr>
+<td></td>
+<td>18.</td>
+<td>Cliquez sur Détails du travail.</td>
+</tr>
+<tr>
+<td></td>
+<td>19.</td>
+<td>Lorsque l'ordre de fabrication a été déclaré comme terminé, aucune tâche de rangement n'a été générée. Cela se produit car une stratégie de travail est définie et empêche la tâche d'être générée lorsque le produit L0101 est déclaré comme terminé à l'emplacement 001.</td>
+</tr>
+</tbody>
+</table>
+
+

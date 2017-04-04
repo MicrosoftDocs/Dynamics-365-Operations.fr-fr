@@ -1,0 +1,102 @@
+---
+title: "Paramètres d&quot;affichage de l&quot;appareil mobile de l&quot;entrepôt"
+description: "Cet article décrit comment définir l&quot;apparence d&quot;affichage d&quot;un appareil mobile, et comment mettre en correspondance les raccourcis clavier avec les contrôles, tels que les boutons."
+author: YuyuScheller
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: SysUserSetup, WHSRFColor, WHSRFColorPicker, WHSWorkUserDisplaySettings
+audience: Application User
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 29071
+ms.assetid: 931a02e8-b561-45e3-9c44-06b875ced1b4
+ms.search.region: Global
+ms.author: perlynne
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: afa59439e06aad9d669eb352a9837a013f447249
+ms.openlocfilehash: 721b293d1f8c76458ca510732f9bb94f003ac6e3
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="warehouse-mobile-device-display-settings"></a>Paramètres d'affichage de l'appareil mobile de l'entrepôt
+
+Cet article décrit comment définir l'apparence d'affichage d'un appareil mobile, et comment mettre en correspondance les raccourcis clavier avec les contrôles, tels que les boutons. 
+
+Cet article s'applique aux fonctionnalités « d'entreposage avancé » du module Gestion des entrepôts. Les appareils mobiles peuvent être utilisés pour de nombreuses tâches effectuées par les magasiniers.
+
+## <a name="specify-styles-and-map-keyboard-shortcuts"></a>Spécification des styles et mappage des raccourcis clavier
+Dans le cadre de la configuration des appareils mobiles, vous pouvez définir différentes mises en page pour l'écran des appareils mobiles. Pour ce faire, vous devez savoir le nom du fichier de feuilles de style en cascade (CSS) et du fichier ASPX (Active Server Page Extension). Les fichiers par défaut sont installés dans le cadre de l'installation du e paramétrage du portail des appareils mobiles d'entrepôt. Si vous ne connaissez pas les noms des fichiers, demandez à votre administrateur système. Vous pouvez définir un nouveau style sur la page **Paramètres d'affichage de l'appareil mobile** :
+
+-    Dans le champ **Fichier CSS**, entrez le nom de votre fichier CSS. Incluez l'extension du nom de fichier .css.
+-   Dans le champ **Vue des paramètres d'affichage de l'appareil mobile**, spécifiez le fichier ASPX. **N'incluez pas** l'extension de nom de fichier .aspx.
+
+Les fichiers CSS et ASPX doivent être situés dans un répertoire spécifique, de sorte que l'application Services Internet (IIS) puisse les charger. Il peut s'avérer utile de définir des fichiers CSS différents si vous exécutez la fonctionnalité d'appareil mobile dans des navigateurs différents ou sur différents types de matériel qui requièrent une contrôle de la mise en page différent. Les paramètres simples tels que la couleur d'arrière-plan, la police et la taille de police pour le texte, ainsi que la largeur et le fonctionnement des boutons, peuvent être facilement contrôlés par l'intermédiaire de différentes utilisations des fichiers CSS. Le fichier ASPX permet d'afficher le site mobile sur l'application côté serveur ASP.NET. Le fichier contrôle comment la structure globale du HTML est mise en page. Il est judicieux de personnaliser cette fonctionnalité uniquement si vous avez de sérieux problèmes structurels au niveau HTML et JavaScript, et que vous devez modifier ce code pour des appareils spécifiques. Pour mettre en correspondance les contrôles HTML de la page des appareils mobiles avec les raccourcis clavier, sur la page **Paramètres d'affichage de l'appareil mobile**, dans le champ **Raccourci clavier**, affectez les codes numériques aux touches. Vous pouvez utiliser le menu **Afficher des codes pour les raccourcis clavier** de l'appareil mobile pour rechercher les codes de caractères numériques. Notez que les mises en correspondance peuvent différer, en fonction du matériel utilisé. Vous devez utiliser la syntaxe suivante pour créer la mise en correspondance :
+
+&lt;contrôlez le code&gt;de =key&lt;nom de (&gt;nom de la&lt;clé)&gt;;
+
+Voici une explication des parties de la syntaxe :
+
+-   **&lt;nom de contrôle&gt;** – Nom du contrôle (par exemple, un bouton) qui est affiché en HTML.
+-   ** (&lt;nom de la&gt;clé) ** – Nom de la clé de clavier que vous créez le raccourci pour.
+-   **&lt;Code de clé&gt;** – Code numérique de caractères par la clé l'utilise comme raccourci.
+
+Voici un exemple :
+
+Cancel(Esc)=27; Full(F2)=113
+
+Sur toutes les pages qui incluent un bouton **Cancel**, le bouton sera associé à ce texte :
+
+**(Échap) Annuler**
+
+Appuyer sur la touche Échap du clavier actionnera le bouton **Annuler**. Pour appliquer les paramètres de style et de raccourci clavier à un appareil spécifique, vous devez créer une mise en correspondance dans le champ **Critères**. Vous devez utiliser une expression régulière .NET pour créer la mise en correspondance, et l'expression doit être constitué de trois sections séparées par une barre verticale (|), comme cela est illustré ici :
+
+Host&lt;permet de Request.UserHostAddress=user&gt;~Nom&lt;de l'hôte de HostName=user&gt;~Agent&lt;de Request.UserAgent=user&gt;
+
+Voici une explication des parties de l'expression :
+
+-   **&lt;host permet d'utilisateur&gt;** – une expression régulier .NET qui correspond à l'adresse IP du demandeur.
+-   **&lt;nom d'hôte d'utilisateur&gt;** – une expression régulier .NET qui correspond à celui de réseau du demandeur.
+-   **&lt;agent d'utilisateur&gt;** – une expression régulier .NET correspondant l'identificateur du navigateur que le demandeur utilise.
+
+L'exemple suivant permet l'utilisation d'Internet Explorer 8 :
+
+Request.UserHostAddress=.\*~HostName=.\*~Request.UserAgent=MSIE\\s8\\.0
+
+Vous pouvez utiliser le menu **Afficher la configuration serveur pour les paramètres d'affichage** sur l'appareil mobile pour rechercher des informations relatives au paramétrage.
+
+## <a name="define-text-colors-for-messages"></a>Définition des couleurs de texte pour les messages
+Vous pouvez utiliser la page **Couleurs de texte d'appareil mobile** pour contrôler les diverses couleurs utilisées dans les messages générés par le système, tels que les messages d'erreur. Par exemple, la couleur de texte peut indiquer l'objectif ou la gravité du message. Les types de messages suivants sont affichés :
+
+| Type de message | Description                                                                                                                                                                            |
+|--------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Valeur par défaut      | Les messages par défaut utilisent les paramètres de couleur par défaut pour tous les messages, comme cela est défini par le fichier CSS pour le portail des appareils mobiles d'entrepôt.                                                   |
+| Erreur        | Les messages d'erreur indiquent un problème que l'utilisateur doit résoudre avant d'être en mesure de poursuivre.                                                                                             |
+| Réussite      | Les messages de réussite confirment qu'une action a réussi.                                                                                                                                |
+| Avertissement      | Les messages d'avertissement informent le collaborateur de l'existence d'un problème, ou d'un problème potentiel s'il poursuit son action. Toutefois, le collaborateur n'est pas obligé de résoudre le problème pour continuer. |
+
+Pour sélectionner la couleur, sur la page **Sélectionner une couleur**, cliquez dans la palette ou tapez un code couleur hexadécimal.
+
+## <a name="define-the-date-format-to-use-on-mobile-devices"></a>Définir le format de date à utiliser sur les appareils mobiles
+Vous pouvez enrichir la liste des formats de date acceptés pour chaque installation. Cette capacité peut s'avérer utile si, par exemple, vous souhaitez fournir un format permettant à un collaborateur d'entrer plus facilement des dates sur un appareil mobile. Le format par défaut est déterminé par la langue par défaut de l'utilisateur, qui est spécifiée dans le champ **Langue** de la page **Options utilisateur**. (La même page permet également d'associer un employé avec un utilisateur spécifique de travail d'entrepôt.) ** note : ** Le portail des périphériques mobiles d'entrepôt n'utilise pas le paramètre ** format de date et d'heure et du numéro ** du champ sous ** des préférences de langue et de zone ** la page. Pour modifier un format de date, vous devez connaître les expressions régulières dans Microsoft .NET Framework. Pour plus d'informations, voir [Expressions régulières .Net Framework](http://go.microsoft.com/fwlink/?LinkId=391260). Pour définir les formats de date, modifiez le fichier de Dates.ini situé aux paramètres\\de contenu\\Dates.ini sur le serveur de portail des périphériques mobiles d'entrepôt. Ce fichier utilise des expressions régulières .NET pour spécifier le format de date. L'expression régulière doit contenir des sous-expressions qui créent des groupes nommés pour le jour, le mois et l'année (JJMMAA), comme l'indique l'exemple suivant :
+
+^ (?&lt;jour&gt;\\pour {2}) (?&lt;mois&gt;\\pour {2}) (?&lt;année&gt;\\pour {2} $)
+
+Chaque sous-expression nécessite un à deux chiffres pour le jour et le mois, et un à quatre chiffres pour l'année. Par exemple, la sous-expression suivante définit un groupe nommé pour une année, et nécessite entre 2 et 4 chiffres :
+
+(?&lt;année&gt;\\pour {2,4})
+
+Vous pouvez spécifier plusieurs expression dans le même fichier. Chaque expression doit être sur une ligne distincte. La première expression mise en correspondance est utilisée pour analyser la date.
+
+<a name="see-also"></a>Voir également :
+--------
+
+[Configuration of mobile devices for warehouse work](configure-mobile-devices-warehouse.md)
+
+
