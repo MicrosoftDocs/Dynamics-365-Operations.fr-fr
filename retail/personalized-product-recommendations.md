@@ -41,14 +41,14 @@ Des recommandations de produit sont activées pour les scénarios suivants du PD
 
 [proddetails d'![] (. /media/proddetails.png)](. /media/proddetails.png)
 
-1.  Sous ** transaction ** la page :
+2.  Sous ** transaction ** la page :
 
 -   Le moteur de recommandation suggère des articles selon la liste entière d'articles du panier.
 -   Si l'associer de magasin ajoute un client à la transaction, le moteur de recommandation fournit des recommandations personnelles dans l'historique de la transaction du client et la liste des articles du panier.
 
 ** Note ** pour afficher les recommandations sur ** transaction ** la page, le détaillant doit mettre la mise en page de l'écran à jour dans Dynamics 365 pour les opérations. ** Recommandations ** le contrôle doit être déposé en fonction ** transaction ** à la page. ![transactionscreenmultipleproductslargemessengersbag-5 [] (. /media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](. /media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
-1.  Sous ** détails sur le client ** la page :
+3.  Sous ** détails sur le client ** la page :
     -   Le moteur de recommandation suggère des articles de l'ID utilisateur et des articles de la liste des souhait du client.
 
 [customerdetailsrecommendations d'![] (. /media/customerdetailsrecommendations.png)](. /media/customerdetailsrecommendations.png)
