@@ -33,9 +33,8 @@ Les types de documents suivants peuvent être utilisés pour gérer le stock de 
 
 ## <a name="purchase-orders"></a>Commandes fournisseur
 Les commandes fournisseur sont créées au siège social. Si un entrepôt au détail est inclus dans l'en-tête de commande fournisseur, la commande peut être reçu au magasin à l'aide de le POS du Modern POS (MPOS) ou du cloud dans Microsoft Dynamics 365 pour les opérations - au détail. Une fois entrées, les quantités reçues au magasin peuvent être sauvegardées localement pour des modifications ultérieures. Les quantités peuvent aussi être validées et envoyées au siège social. Dans le siège social, les quantités reçues au magasin sont affichées dans Dynamics 365 pour les opérations, dans ** le Recevoir maintenant ** le champ sur la commande fournisseur.
-Ordres de transfert
----------------
 
+## <a name="transfer-orders"></a>Ordres de transfert
 Un ordre de transfert peut spécifier qu'un magasin particulier est un emplacement à partir duquel les articles peuvent être expédiés. Dans ce cas, l'ordre de transfert s'affiche au magasin comme une demande de prélèvement dans MPOS ou PDV de cloud. Après avoir été prélevées, les quantités demandées sont validées et envoyées au siège social. Dans le siège social, les quantités qui ont été prélevées au magasin sont affichées dans Dynamics 365 pour les opérations, dans ** expédier maintenant ** le champ sur l'ordre de transfert. Un ordre de transfert peut spécifier qu'un magasin particulier est un emplacement vers lequel les articles peuvent être expédiés. Dans ce cas, l'ordre de transfert s'affiche au magasin comme une demande la réception dans MPOS ou PDV de cloud. Une fois entrées, les quantités reçues au magasin peuvent être sauvegardées localement pour des modifications ultérieures. Les quantités peuvent aussi être validées et envoyées au siège social. Dans le siège social, les quantités reçues au magasin sont affichées dans Dynamics 365 pour les opérations, dans ** le Recevoir maintenant ** le champ sur l'ordre de transfert.
 
 ## <a name="stock-counts"></a>Inventaires
