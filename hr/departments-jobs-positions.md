@@ -56,10 +56,6 @@ Une tâche est un ensemble de tâches et de responsabilités attribuées à la p
 Vous pouvez créer des descriptifs de tâches qui décrivent les tâches de base devant être accomplies par un travailleur occupant un poste pour cette tâche. Le même descriptif peut être ajouté à plusieurs tâches, et les postes associés à ces tâches hériteront de ces descriptifs. Des exemples de tâches sont répertoriés dans le tableau suivant.
 
 <table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th>Mission</th>

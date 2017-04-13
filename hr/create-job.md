@@ -48,10 +48,10 @@ Vous utilisez les types de tâches pour regrouper des tâches similaires en cat�
 ## <a name="job-functions"></a>Fonctions
 Les jonctions de tâche décrivent les catégories fonctionnelles de haut niveau et associent des fonctions de niveau supérieur. Les fonctions ne sont pas requises. Vous pouvez utiliser les fonctions, avec les types de tâches, pour filtrer les régimes de rémunération pour des tâches spécifiques. Vous associez les fonctions et les types de tâches avec des régimes de rémunération en paramétrant des règles d'admissibilité dans ** des règles d'admissibilité ** la page. Vous pouvez ensuite joindre un ensemble de niveaux au régime de rémunération qui s'applique à la combinaison spécifique d'un type de tâche et une fonction que vous avez définis à l'aide d'une règle d'admissibilité. (Ces fonctions s'appliquent aux régimes de rémunération fixe et aux régimes de rémunération variable.) Toutefois, si vous comptez utiliser des fonctions de tâche lorsque vous paramétrez des règles d'admissibilité pour la gestion des rémunérations, vous devez paramétrer des fonctions de tâche avant de configurer des tâches. Le tableau suivant présente certains exemples les fonctions.
 
-| Mission           | Fonction de tâche      |
-|---------------|-------------------|
-| Responsable des ventes | Responsable à mi-niveau |
-| Comptable    | Professionnels     |
+| Mission           | Fonction de tâche         |
+|---------------|----------------------|
+| Responsable des ventes | Responsable à mi-niveau    |
+| Comptable    | Professionnels        |
 
 Vous gérez des fonctions de tâche à l'aide ** des fonctions de tâche ** de la page. Sous ** des fonctions de tâche ** la page, entrez un code d'identification et une brève description de la fonction.
 
