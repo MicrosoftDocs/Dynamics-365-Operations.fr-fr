@@ -1,0 +1,157 @@
+# [Cost management](cost-management/TOC.md)
+# [Inventory management](inventory/TOC.md)
+# Planification
+## Créer des prévisions de la demande
+### [Vue d’ensemble de prévision de la demande](master-planning/introduction-demand-forecasting.md)
+### [Paramétrer une prévision de la demande](master-planning/demand-forecasting-setup.md)
+### [Générer une ligne de base statistique de prévision](master-planning/generate-statistical-baseline-forecast.md)
+### [Effectuer un ajustement manuel dans la planification des prévisions](master-planning/manual-adjustments-baseline-forecast.md)
+### [Autoriser une prévision ajustée](master-planning/authorize-adjusted-forecast.md)
+### [Précision de prévision du moniteur](master-planning/monitor-forecast-accuracy.md)
+### [Supprimer les valeurs aberrantes à partir des données de transaction historiques](master-planning/remove-historical-outliers-calculating-demand-forecast.md)
+### [Reduction keys](master-planning/reduction-keys.md)
+## Plan général
+### [Messages d’action](master-planning/action-messages.md)
+### [Paramètres de couverture](master-planning/coverage-settings.md)
+### [Delays](master-planning/delays.md)
+### [Master plans](master-planning/master-plans.md)
+### [Plans généraux et la fonctionnalité multisite](master-planning/master-plan-multisite-functionality.md)
+#### [Plan de couverture de site, entrepôt obligatoire](master-planning/master-plan-site-coverage-warehouse-mandatory.md)
+#### [Planification de la couverture de site, entrepôt non obligatoire](master-planning/master-plan-site-coverage-warehouse-not-mandatory.md)
+#### [Planification de la couverture de site et d’entrepôt, entrepôt obligatoire](master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+#### [Planification de la couverture de site et d’entrepôt, entrepôt non obligatoire](master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+#### [Déterminer la version de nomenclature](master-planning/master-plan-bom-version-determined.md)
+### [Éclatement d’une version de nomenclature](master-planning/master-plan-explosion-bom-version.md)
+### [Maintain planned orders](master-planning/maintain-planned-orders.md)
+### [Suivi d’une explosion](master-planning/trace-explosion.md)
+# Approvisionnements
+## [Procurement and sourcing overview](procurement/procurement-sourcing-overview.md)
+## [Flux de travail d’approvisionnement](procurement/procurement-sourcing-workflows.md)
+## [Purchasing policies](procurement/purchase-policies.md)
+## [Procurement catalogs](procurement/procurement-catalogs.md)
+## [Purchase requisitions](procurement/purchase-requisitions-overview.md)
+### [Purchase requisition workflow](procurement/purchase-requisitions-workflow.md) 
+## [Demande de devis](procurement/request-quotations.md)
+## Commandes fournisseur
+### [Purchase order overview](procurement/purchase-order-overview.md)
+### [Create purchase orders](procurement/purchase-order-creation.md)
+### [Approuver et confirmer les commandes fournisseur](procurement/purchase-order-approval-confirmation.md)
+## Gestion et collaboration fournisseur
+### [Paramétrer et mettre à jour la collaboration fournisseur](procurement/set-up-maintain-vendor-collaboration.md)
+### [Gérer les utilisateurs de la fonctionnalité de collaboration du fournisseur](procurement/manage-vendor-collaboration-users.md)
+### [Paramétrer des comptes fournisseurs](procurement/set-up-vendor-accounts.md)
+### [Collaboration fournisseur avec des fournisseurs externes](procurement/vendor-collaboration-work-external-vendors.md)
+### [Collaboration fournisseur avec des clients](procurement/vendor-collaboration-work-customers-dynamics-365-operations.md)
+### [Collaborer avec des fournisseurs à l’aide du portail fournisseur](procurement/collaborate-vendors-vendor-portal.md)
+### [Espace de travail de fournisseur collaboration mobile](procurement/vendor-collaboration-mobile-workspace.md)
+### [Sécurité d’utilisateur du portail fournisseur](procurement/configure-security-vendor-portal-users.md)
+## Prix et remises
+### [Purchase agreements](procurement/purchase-agreements.md)
+## Accusés de réception et de facturation
+### [Accusé de réception de marchandises et commandes fournisseur](procurement/product-receipt-against-purchase-orders.md)
+### [Vue d'ensemble des factures fournisseur](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/operations/supply-chain/toc.json)
+### [Vendor posting profiles](/dynamics365/operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/operations/supply-chain/toc.json)
+# Gestion des informations sur les produits
+## Informations sur le produit
+### [Nomenclature et formule](production-control/bill-of-material-bom.md)
+### [BOM designer functionality](production-control/bom-designer-functionality.md)
+### [Product dimension](pim/product-dimensions.md)
+### [Numéro nomenclature des produits](pim/product-variant-identification-nomenclature.md)
+### [Aux produits de traduction Forum aux questions](pim/translations-product-related-information.md)
+### [Enregistrer le numéro de série dans le processus de vente](sales-marketing/register-serial-numbers-sales-process.md)
+### [Recherche de produit lors de la saisie de la commande](pim/search-products-product-variants.md)
+## Créer la configuration du produit
+### [Créer un modèle de configuration de produit](pim/build-product-configuration-model.md)
+### [Calcul de la FAQ de modèle de configuration de produit](pim/calculate-product-configuration-models.md)
+### [Règle de configuration](pim/configuration-rules.md)
+### [Dimension-based configuration](pim/dimension-based-product-configuration.md)
+### [Contrainte d’expression et contrainte de table](pim/expression-constraints-table-constraints-product-configuration-models.md)
+### [Réutiliser les configurations de produit](pim/reuse-product-configurations.md)
+### [Définir un modèle de configuration](pim/set-up-maintain-product-configuration-model.md)
+### [Contrainte de table définie par le système et défini par l’utilisateur](pim/system-defined-user-defined-table-constraints.md)
+# Contrôle de la production
+## Processus de production    
+### [Basé sur les activités de sous-traitance](production-control/activity-based-subcontracting.md)
+### [Batch attributes](production-control/batch-attributes.md)
+### [BOMs and formulas](production-control/bill-of-material-bom.md)
+### [BOM designer functionality](production-control/bom-designer-functionality.md)
+### [Consolidated batch orders](production-control/consolidated-batch-orders.md)
+### [Gérer le travail de sous-traitance de production](production-control/manage-subcontract-work-production.md)
+### [Mixed mode planning: Combine discrete, process, and lean sourcing](production-control/mixed-mode-plan.md)
+### [Processus de production](production-control/production-process-overview.md)
+### [Production setup requirements](production-control/production-set-up-requirements.md)
+### [Gammes et les opérations](production-control/routes-operations.md)
+## Ordres de fabrication
+### [Create production orders](production-control/create-production-orders.md)
+### [Paramètres de commande par défaut pour les dimensions et les variantes de produit](production-control/default-order-settings.md)
+### [Lancer des ordres de fabrication](production-control/release-production-orders.md)
+### [Inverser le statut d’ordre de fabrication](production-control/reverse-production-order-status.md)
+### [Rapport des nomenclatures comme terminées](production-control/report-boms-as-finished.md)
+### [Report production orders as finished](production-control/report-production-orders-as-finished.md)
+## Production au plus juste 
+### [Tableau de transfert kanban prise en charge de scanners à code barres](production-control/kanban-transfer-board-support-barcode-scanner.md) 
+### [Planification de lean manufacturing de kanban](production-control/lean-manufacturing-kanban-job-scheduling.md)
+### [Vue d’ensemble de la production au plus juste](production-control/lean-manufacturing-overview.md)
+### [Modèle d’une organisation de production au plus juste](production-control/lean-manufacturing-modeling-lean-organization.md)
+## Planifier des opérations et des tâches
+### [Allouer du temps à des tâches dans un lot de tâches](production-control/allocate-time-jobs-job-bundle.md)
+### [Job scheduling](production-control/job-scheduling.md)
+### [Operations scheduling options](production-control/operation-scheduling-options.md)
+### [Operations scheduling](production-control/operations-scheduling.md)
+## Ressources
+### [Operations resources](production-control/operations-resources.md)
+### [Resource capabilities](production-control/resource-capabilities.md)
+### [Time and attendance registration](production-control/time-attendance-registrations.md)
+## Contrôle et suivi de la production
+### [Material substitution in manufacturing](production-control/substitute-items-bom-lines.md)
+### [Calculer la consommation de matières](production-control/consumption.md)
+### [Production feedback](production-control/production-feedback.md)
+### [Production par défaut des ordres de production](production-control/production-order-defaults-manufacturing-execution.md)
+### [Production posting](cost-management/production-posting.md)
+### [Registration for manufacturing execution](production-control/registration-manufacturing-execution.md)
+# Ventes et marketing
+## [Marketing](sales-marketing/overview-sales-marketing.md)
+## Commandes client
+### [Order promising](sales-marketing/delivery-dates-available-promise-calculations.md)
+### [Order entry deadlines](sales-marketing/order-entry-deadlines.md)
+### [Direct deliveries](sales-marketing/direct-deliveries.md)
+### [Delivery schedules](sales-marketing/delivery-schedules.md)
+### [Numéros de série dans le processus de vente](sales-marketing/register-serial-numbers-sales-process.md)
+### [Réservation à partir du même lot](sales-marketing/reserve-same-batch-sales-order.md)
+## [Sales agreements](sales-marketing/sales-agreements.md)
+## Devis de vente
+### [Price simulation](sales-marketing/price-simulation.md)
+## Retours
+### [Sales returns](warehousing/sales-returns.md)
+# Gestion du transport
+## [Un nouveau moteur de transport](transportation/create-new-transportation-management-engine.md)
+## [Créer une feuille de chargement](transportation/create-bill-of-lading.md)
+## [Planifier des itinéraires de transport de fret](transportation/plan-freight-transportation-routes-multiple-stops.md)
+## [Planifier des charges à l’aide de la consolidation de point de transbordement](transportation/plan-loads-hub-consolidation.md)
+## [Rapprochement des frais de transport](transportation/reconcile-freight-transportation-management.md)
+## [Transportation management](transportation/transportation-management-overview.md)
+## [Moteur de transport](transportation/transportation-management-engines.md)
+# Gestion des entrepôts
+## Configuration 
+### [Travail de contrôle à l’aide des modèles de travail et les directives de l’emplacement](warehousing/control-warehouse-location-directives.md)
+### [Gestion des magasiniers](warehousing/manage-warehouse-workers.md)
+### [Configurer la mise en page](warehousing/warehouse-configuration.md)
+### [Warehouse work policies](warehousing/warehouse-work-policies.md)
+### [Stratégies d'unité de mesure et de stockage](warehousing/unit-measure-stocking-policies.md)
+## Prélèvement et conditionnement
+### [Matériaux d’emballage et les frais](warehousing/pack-materials-packing-material-fees.md)
+## Inventaire de stock
+### [Block inventory](inventory/inventory-blocking.md)
+### [Cycle counting](warehousing/cycle-counting.md)
+### [Inventory journal](inventory/inventory-journals.md)
+### [Inventory location](inventory/inventory-locations.md)
+### [Inventory status](inventory/inventory-statuses.md)
+### [Comptage des balises de stock](inventory/inventory-tag-counting.md)
+## Mise en conteneur 
+## Réapprovisionnement
+### [Réassort](warehousing/replenishment.md)
+## Appareils mobiles
+### [Configurer les noms de champ dans le stockage d’application](warehousing/configure-app-field-names-priorities-warehouse.md)
+### [Configurer des périphériques mobiles pour le travail de l’entrepôt](warehousing/configure-mobile-devices-warehouse.md)
+### [Portail de périphériques mobiles d’entrepôt (WMDP)](warehousing/warehouse-mobile-devices-portal.md)
+### [Paramètres d'affichage de l'appareil mobile de l'entrepôt](warehousing/change-warehouse-mobile-device-displays.md)

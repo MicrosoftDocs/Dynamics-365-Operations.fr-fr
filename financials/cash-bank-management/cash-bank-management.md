@@ -3,7 +3,7 @@ title: "Page d&quot;accueil de gestion de la trésorerie et de la banque"
 description: "Vous pouvez utiliser le module Gestion des fonds et des banques pour mettre à jour les comptes bancaires de l&quot;entité juridique et les instruments financiers qui y sont associés."
 author: twheeloc
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,9 +18,9 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 translationtype: Human Translation
-ms.sourcegitcommit: 00f022da597b1de2454e93123de31731c6a65962
-ms.openlocfilehash: eb3104ebebf0e94d91eb5b4df82900dccb5c75ea
-ms.lasthandoff: 03/31/2017
+ms.sourcegitcommit: efe4493396ac73ed07c00e96bb791735046e8e4d
+ms.openlocfilehash: 60a1c9d6b32c71bf921def1d4066841d9074d0cf
+ms.lasthandoff: 04/12/2017
 
 
 ---
@@ -47,12 +47,12 @@ Ces instruments incluent des bordereaux de remise, des chèques, des lettres de 
 
 ## <a name="accounts-payable-payments-and-settlements"></a>Paiements et règlements des Achats
 -   [Centralized payments for Accounts payable](../accounts-payable/centralized-payments-accounts-payable.md)
--   [Création de factures fournisseur à l'aide d'une proposition de paiement (]. /accounts-payable/create-vendor-payments-payment-proposal.md)
+-   [Créer des factures fournisseur à l’aide d’une proposition de paiement](../accounts-payable/create-vendor-payments-payment-proposal.md)
 -   [Reverse a vendor payment](../accounts-payable/reverse-vendor-payment.md)
 -   [Vendor payments for a partial amount](../accounts-payable/vendor-payments-partial-amount.md)
--   [Factures d'acompte et vue d'ensemble des acomptes (]. /accounts-payable/prepayments-invoices-vs-prepayments.md)
+-   [Vue d’ensemble des acomptes et les factures d’acompte](../accounts-payable/prepayments-invoices-vs-prepayments.md)
 -   [Scenario: Settle a partial vendor payment and settle the final payment in full before the discount date](../accounts-payable/settle-partial-vendor-payment-or-final-payment-before-discount.md)
--   [Scenario: Settle a partial vendor payment before the discount date with a final payment after the discount date](/accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
+-   [Scenario: Settle a partial vendor payment before the discount date with a final payment after the discount date](../accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
 -   [Scenario: Settle a partial vendor payment that has discounts on vendor credit notes](../accounts-payable/settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
 -   [Scenario: Settle a partial vendor payment that has multiple discount periods](../accounts-payable/settle-partial-vendor-payment-multiple-discount-periods.md)
 -   [Scenario: Take a discount that is more than the calculated discount for a vendor payment](../accounts-payable/take-discount-more-calculated-discount-vendor-payment.md)
@@ -63,10 +63,10 @@ Ces instruments incluent des bordereaux de remise, des chèques, des lettres de 
 -   [Customer payments for a partial amount](../accounts-receivable/customer-payments-partial-amount.md)
 -   [Reimburse customers](../accounts-receivable/reimburse-customers.md)
 -   [Scenario: Automatic settlement and prioritization](../accounts-receivable/automatic-settlement-prioritization.md)
--   [Scénario : Gestion l'escompte de règlement pour les trop-perçus (]. /cash-bank-management/cash-discount-handling-overpayments.md)
+-   [Scénario : Traitement des escomptes de caisse pour les trop-perçus](../cash-bank-management/cash-discount-handling-overpayments.md)
 -   [Scenario: Settle a partial customer payment and settle the final payment in full before the discount date](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
 -   [Scenario: Settle a partial customer payment before the discount date with a final payment after the discount date](../accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after.md)
 -   [Scenario: Settle a partial customer payment that has discounts on credit notes](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)
 -   [Scenario: Settle a partial customer payment that has multiple discount periods](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)
--   [Scénario : Paiement client de l'utilisation d'une pour régler la facture multiple qui couvrent plusieurs périodes de remise plusieurs (]. /accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+-   [Scénario : Utiliser un paiement client pour régler plusieurs factures qui couvrent plusieurs périodes de remise](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
 
