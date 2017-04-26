@@ -27,6 +27,9 @@ ms.lasthandoff: 04/12/2017
 
 # <a name="cash-and-bank-management-home-page"></a>Page d'accueil de gestion de la trésorerie et de la banque
 
+[!include[banner](../includes/banner.md)]
+
+
 Vous pouvez utiliser le module Gestion des fonds et des banques pour mettre à jour les comptes bancaires de l'entité juridique et les instruments financiers qui y sont associés. 
 
 Ces instruments incluent des bordereaux de remise, des chèques, des lettres de change et des billets à ordre. Vous pouvez également rapprocher les relevés bancaires et imprimer les données bancaires dans les états standard.
@@ -69,4 +72,6 @@ Ces instruments incluent des bordereaux de remise, des chèques, des lettres de 
 -   [Scenario: Settle a partial customer payment that has discounts on credit notes](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)
 -   [Scenario: Settle a partial customer payment that has multiple discount periods](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)
 -   [Scénario : Utiliser un paiement client pour régler plusieurs factures qui couvrent plusieurs périodes de remise](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+
+
 

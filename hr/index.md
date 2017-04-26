@@ -98,3 +98,5 @@ Vous pouvez concevoir et administrer des questionnaires afin de recueillir des i
 -   [View and evaluate the results of a questionnaire](evaluate-questionnaire-results.md)
 
 
+
+

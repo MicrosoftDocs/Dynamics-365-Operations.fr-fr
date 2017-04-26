@@ -55,3 +55,5 @@ Par exemple, vous pouvez lire les publications récentes sur :
 ## <a name="elearning-courses"></a>cours de formation en ligne
 Pour plus d’informations sur Microsoft Dynamics 365 pour les opérations de formation, consultez <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> portail de formation Microsoft Dynamics</a>. (nécessite un compte CustomerSource) 
 
+
+
