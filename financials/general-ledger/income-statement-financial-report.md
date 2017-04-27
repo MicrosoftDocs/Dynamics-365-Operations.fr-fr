@@ -1,6 +1,6 @@
 ---
 title: "Rapport financier du relevé des revenus"
-description: "Cet article décrit l&quot;état par défaut pour les résultats. Elle décrit également les blocs élémentaires associés à cet état."
+description: "Cet article décrit l&quot;état par défaut des comptes de résultats. Il décrit également les blocs de construction associés à cet état."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="income-statement-financial-report"></a>Rapport financier du relevé des revenus
 
-Cet article décrit l'état par défaut pour les résultats. Elle décrit également les blocs élémentaires associés à cet état. 
+[!include[banner](../includes/banner.md)]
+
+
+Cet article décrit l'état par défaut des comptes de résultats. Il décrit également les blocs de construction associés à cet état. 
 
 <a name="default-income-statement-report"></a>Rapport par défaut du relevé des revenus
 -------------------------------
@@ -61,10 +64,12 @@ Les définitions de colonne contiennent différents types de colonnes afin d'off
 <a name="see-also"></a>Voir également :
 --------
 
-[Financial reporting](financial-reporting-getting-started.md)
+[États financiers](financial-reporting-getting-started.md)
 
-[View financial reports](view-financial-reports.md)
+[Afficher les états financiers](view-financial-reports.md)
 
-[Blog financier de Dynamics Reportign (http://blogs.msdn.com/b/dynamics_financial_reporting/)]
+[États financiers Dynamics (blog)](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

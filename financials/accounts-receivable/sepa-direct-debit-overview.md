@@ -28,12 +28,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sepa-direct-debit-overview"></a>Vue d'ensemble du débit direct SEPA
 
+[!include[banner](../includes/banner.md)]
+
+
 L'Espace unique de paiement en euros (SEPA) est défini par la Commission européenne et stipule que tous les paiements électroniques sont considérés comme locaux, quel que soit le pays/la région où la personne, l'entreprise ou l'organisation et la banque sont localisées. Il n'existe aucune différence entre les paiements nationaux et transfrontières. Le SEPA inclut les 28 états membres de l'Union européenne (EU), ainsi que l'Islande, le Liechtenstein, la Norvège, la Suisse, Monaco et San Marin. Le SEPA permet de former un marché unique pour les transactions de paiement dans l'Espace économique européen. Enfin, le SEPA est supposé réduire le nombre de formats de paiement pour les banques, les entreprises et les personnes.   
 
-<a name="what-is-the-goal-of-sepa-direct-debits"></a>Quel est l'objectif des débits SEPA ?
+<a name="what-is-the-goal-of-sepa-direct-debits"></a>Quel est l'objectif des débits directs SEPA ?
 ---------------------------------------
 
-Un débit direct SEPA permet à un créditeur pour collecter les fonds le compte bancaire d'un client, à condition que un mandat signé ait été accordé par le client au créditeur. Le client signe un mandat qui autorise le créditeur à encaisser un paiement et demande à la banque du client de payer la créance. 
+Un débit direct SEPA permet à un créditeur d'encaisser des fonds à partir du compte bancaire d'un client, à condition que le client ait signé un mandat au créditeur. Le client signe un mandat qui autorise le créditeur à encaisser un paiement et demande à la banque du client de payer la créance. 
 
 Les débits directs SEPA créent, pour la première fois, un instrument de paiement qui peut être utilisé pour les débits nationaux et transfrontières dans l'ensemble des 32 pays/régions SEPA. 
 
@@ -60,7 +63,7 @@ Le modèle de débit direct SEPA B2B s'applique aux transactions d'entreprise à
 Oui. Vous pouvez utiliser le modèle COR1 pour des mandats de débit direct SEPA en Autriche, Belgique, Allemagne, France, Italie, Espagne, et aux Pays-Bas. Le schéma prévoit une période de notification préalable plus courte pour le recouvrement de débit direct du créditeur.
 
 ## <a name="what-are-international-bank-account-numbers-iban-and-bank-identifier-codes-bic"></a>Que sont les numéros de compte bancaire internationaux (IBAN) et les codes identificateur de banque (Bank Identifier Codes, BIC) ?
-Le numéro de compte bancaire international (IBAN) et le code identificateur de banque (BIC) permettent d'identifier n'importe quel compte dans les 32 pays/régions SEPA. Entrez le BIC dans le champ Code SWIFT et l'IBAN dans le champ IBAN. Les deux champs sont situés dans l'organisateur Identification supplémentaire sous l'onglet Compte en banque de la page Comptes bancaires. Cela vaut pour le compte bancaire du créditeur et celui du client.
+Le numéro de compte bancaire international (IBAN) et le code identificateur de banque (BIC) permettent d'identifier n'importe quel compte dans les 32 pays/régions SEPA. Entrez le code BIC dans le champ Code SWIFT et le code IBAN dans le champ IBAN. Les deux champs sont situés dans l'organisateur Identification supplémentaire sous l'onglet Compte en banque de la page Comptes bancaires. Cela vaut pour le compte bancaire du créditeur et celui du client.
 
 ## <a name="where-do-i-enter-creditor-identifiers-direct-debit-ids"></a>Où entrer les identificateurs de créditeur (ID de débit direct) ?
 Dans le SEPA, chaque créditeur est identifié par un identificateur unique de créditeur. Cet identificateur permet au client et à la banque du client de filtrer chaque débit direct, puis de traiter ou rejeter le débit direct en fonction des instructions du client. Les créditeurs doivent demander cet identificateur à leur banque. Entrez cet identificateur dans le champ ID débit direct du compte bancaire pour l'entité juridique.
@@ -69,7 +72,7 @@ Dans le SEPA, chaque créditeur est identifié par un identificateur unique de c
 Le client signe un mandat qui autorise le créditeur à encaisser un paiement et demande à la banque du client de payer la créance. Le client peut émettre le mandat imprimé ou par voie électronique. Par défaut, le mandat expire 36 mois après le dernier encaissement du débit direct.
 
 ## <a name="where-do-i-specify-the-sepa-direct-debit-file-format-iso-20022"></a>Où dois-je spécifier le format de fichier de débit direct SEPA (ISO 20022) ?
-Les formats de données SEPA sont basés sur les normes de message ISO 20022. Vous vérifierez la case à cocher électronique générique de génération d'états et sélectionnez le format de débit direct SEPA comme configuration de format d'exportation lorsque vous configurez les modes de paiement des ventes. Vous devez utiliser ce mode de paiement lorsque vous générez un fichier de paiement dans un journal des paiements client.
+Les formats de données SEPA sont basés sur les normes de message ISO 20022. Vous sélectionnerez la case États électroniques génériques et le format de débit direct SEPA comme configuration de format d'exportation lors de la configuration des modes de paiement de la comptabilité client. Vous devez utiliser ce mode de paiement lorsque vous générez un fichier de paiement dans un journal des paiements client.
 
 ## <a name="in-what-file-formats-can-i-generate-sepa-direct-debit-payment-files"></a>Dans quels formats de fichier est-ce que je peux générer des fichiers de paiement de débit direct SEPA ?
 Vous pouvez générer des fichiers de paiement électronique pour les débits directs SEPA dans les formats suivants :
@@ -78,6 +81,8 @@ Vous pouvez générer des fichiers de paiement électronique pour les débits di
 
 ## <a name="how-do-refunds-and-returns-work-with-sepa-direct-debits"></a>Comment les remboursements et les retours fonctionnent-ils avec les débits directs SEPA ?
 Dans les deux modèles de débit direct SEPA, les clients ont certains droits de remboursement. Le client peut rappeler toutes les transactions autorisées pendant une période de huit semaines après la date d'échéance sans donner de motif. Dans le cas de transactions non autorisées, la période est étendue à 13 mois après la date d'échéance. Les contrepassations de tous les paiements qui ont été effectuées sont accomplies manuellement à l'aide du bouton Annuler le paiement dans l'écran Transactions client.
+
+
 
 
 

@@ -42,22 +42,22 @@ Pour mettre à niveau vers la dernière version, voir [Processus de mise à nive
 <tr class="header">
 <th><strong>Lancer</strong></th>
 <th><strong><strong>Version</strong></strong></th>
-<th><strong><strong>Build number</strong></strong></th>
-<th><strong><strong>Availability</strong></strong></th>
+<th><strong><strong>Numéro de création</strong></strong></th>
+<th><strong><strong>Disponibilité</strong></strong></th>
 <th><strong><strong>Pour en savoir plus</strong></strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Plateforme Microsoft Dynamics 365 for Operations</td>
-<td>Mise à jour 4 de plateforme</td>
+<td>Mise à jour de la plateforme 4</td>
 <td>7.0.4425.16160</td>
-<td>Février 2017</td>
+<td>2017 février</td>
 <td><ol>
-<li>Aller <a href="https://roadmap.dynamics.com/">Calendrier de lancement de Dynamics 365</a>.</li>
-<li>Sélectionnez <strong>Nouveautés</strong> l'onglet.</li>
-<li>Dans <strong>Applications</strong> la section, sélectionnez <strong>Dynamics 365 pour les opérations</strong>.</li>
-<li>Dans <strong>Secteurs</strong> la section, sélectionnez <strong>Plateforme de cloud</strong>.</li>
+<li>Accédez au <a href="https://roadmap.dynamics.com/">Calendrier de lancement de Dynamics 365</a>.</li>
+<li>Sélectionnez l'onglet <strong>Nouveautés</strong>.</li>
+<li>Dans la section <strong>Applications</strong>, sélectionnez <strong>Dynamics 365 for Operations</strong>.</li>
+<li>Dans la section <strong>Secteurs</strong>, sélectionnez <strong>Plateforme de cloud</strong>.</li>
 </ol></td>
 </tr>
 <tr class="even">

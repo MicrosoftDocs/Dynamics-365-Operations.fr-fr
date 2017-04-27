@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="straight-line-service-life-depreciation"></a>Amortissement linéaire sur la durée de vie
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article donne une vue d'ensemble de la méthode d'amortissement linéaire sur la durée de vie restante.
 
 Lorsque vous paramétrez un profil d'amortissement des immobilisations et sélectionnez Durée de vie linéaire dans le champ Méthode de la page Profils d'amortissement, l'amortissement des immobilisations affectées à ce profil d'amortissement est basé sur la durée de vie totale de l'immobilisation. Le montant d'amortissement est généralement identique dans chaque période d'amortissement. 
@@ -98,9 +101,11 @@ La durée de vie de l'ajustement d'acquisition est identique à celle de l'immob
 | Année 3 | 14 000 / 5 = 2 800                        | 10 200 - 2 800 = 7 400                |
 | Année 4 | 14 000 / 5 = 2 800                        | 7 400 - 2 800 = 4 600                 |
 | Année 5 | 14 000 / 5 = 2 800                        | 4 600 - 2 800 = 1 800                 |
-| Année 6 | Autres 800\*                           | 1 800 – 800 = 1 000                   |
+| Année 6 | 800 restants\*                           | 1 800 – 800 = 1 000                   |
 
-\*car le montant restant est inférieur au montant d'amortissement, seul le montant restant moins la valeur résiduelle est pris.
+\*Comme le montant restant est inférieur au montant d'amortissement, seul le montant restant moins la valeur résiduelle est pris.
+
+
 
 
 

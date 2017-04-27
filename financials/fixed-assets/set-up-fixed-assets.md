@@ -1,9 +1,9 @@
 ---
-title: "Immobilisations de paramétrage"
+title: "Paramétrer les immobilisations"
 description: "Cette rubrique fournit une vue d&quot;ensemble du paramétrage du module Immobilisations."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-fixed-assets"></a>Immobilisations de paramétrage
+# <a name="set-up-fixed-assets"></a>Paramétrer les immobilisations
+
+[!include[banner](../includes/banner.md)]
+
 
 Cette rubrique fournit une vue d'ensemble du paramétrage du module Immobilisations.
 
@@ -43,9 +46,9 @@ Les immobilisations sont affectées à un groupe lors de leur création. Par dé
 Vous devez d'abord paramétrer les profils d'amortissement. Dans le profil d'amortissement, vous configurez la manière dont la valeur d'une immobilisation est amortie dans le temps. Vous devez définir la méthode d'amortissement, l'année d'amortissement (année civile ou exercice), et la fréquence d'amortissement.
 
 ## <a name="books"></a>Registres
-Après avoir paramétré les profils d'amortissement, vous devez créer les registres requis pour vos immobilisations. Chaque registre effecte le suivi d'un cycle de vie financier indépendant d'une immobilisation. Les registres peuvent être configurés pour valider les transactions associées dans la comptabilité. Cette configuration est le paramètre par défaut, car c'est généralement utilisée dans les états financiers d'entreprise. S'inscrit qui ne sont pas validées pour validation de comptabilité uniquement dans la comptabilité auxiliaire d'immobilisation et sont généralement utilisées à des fins de déclaration de taxe.
+Après avoir paramétré les profils d'amortissement, vous devez créer les registres requis pour vos immobilisations. Chaque registre effecte le suivi d'un cycle de vie financier indépendant d'une immobilisation. Les registres peuvent être configurés pour valider les transactions associées dans la comptabilité. Cette configuration est le paramètre par défaut, car elle est généralement utilisée pour générer les états financiers d'entreprise. Les registres qui ne sont pas validés dans la comptabilité se valident uniquement dans la comptabilité auxiliaire d'immobilisation et sont généralement utilisés à des fins de déclaration de taxe.
 
-Un profil d'amortissement principal est affecté à chaque registre. Les registres ont également un profil d'amortissement alternatif ou de basculement, si ce type de profil s'applique. Pour inclure automatiquement le registre d'immobilisations dans des exécutions d'amortissement, vous devez activer l'option Calculer l'amortissement. Si cette option n'est pas activée pour une immobilisation, la proposition d'amortissement ignore l'immobilisation.
+Un profil d'amortissement principal est affecté à chaque registre. Les registres ont également un profil d'amortissement alternatif ou de basculement, si ce type de profil s'applique. Pour inclure automatiquement le registre d'immobilisations dans des exécutions d'amortissement, vous devez activer l'option Calculer l'amortissement. Si cette option n'est pas sélectionnée pour une immobilisation, la proposition d'amortissement ignore l'immobilisation.
 
 Vous pouvez également paramétrer des registres dérivés. Les transactions dérivées spécifiées sont validées comme copie exacte de la transaction principale par rapport aux registres dérivés. Par conséquent, les transactions dérivées sont généralement définies pour les acquisitions et les cessions, pas pour les transactions d'amortissement.
 
@@ -62,14 +65,16 @@ Vous pouvez également définir des provisions spéciales pour amortissement, ou
 ## <a name="fixed-asset-parameters"></a>Paramètres d'immobilisation
 La dernière étape consiste à mettre à jour les paramètres des immobilisations.
 
-Le champ Seuil de capitalisation détermine les immobilisations qui sont amorties. Si une ligne d'achat est sélectionnée comme immobilisation, mais elle ne correspond pas le seuil de capitalisation, une immobilisation est toujours créée ou mise à jour, mais l'option d'amortissement de calculer est définie sur non Par conséquent, l'immobilisation n'est pas automatiquement amortie dans le cadre de les propositions d'amortissement.
+Le champ Seuil de capitalisation détermine les immobilisations qui sont amorties. Si une ligne d'achat est sélectionnée comme immobilisation, mais qu'elle ne correspond pas au seuil de capitalisation, une immobilisation est quand même créée ou mise à jour, mais l'option Calculer l'amortissement est définie sur Non. Par conséquent, l'immobilisation ne sera pas automatiquement amortie dans le cadre des propositions d'amortissement.
 
 L'option Créer automatiquement des montants d'ajustement d'amortissement avec cession est une option importante. Lorsque vous définissez cette option sur Oui, l'amortissement des immobilisations est ajusté automatiquement, selon les paramètres d'amortissement au moment de la cession d'immobilisations. Une autre option vous permet de déduire des escomptes de règlement de votre montant d'acquisition lorsque vous acquérez des immobilisations à l'aide d'une facture fournisseur.
 
-Sur l'organisateur Commandes fournisseur, vous pouvez configurer la manière les actifs sont créés dans le cadre du processus d'achat. La première option est Autoriser l'acquisition d'actifs à partir d'Achats. Si vous définissez cette option sur Oui, l'acquisition d'immobilisation se produit lorsque la facture est validée. Si vous définissez cette option sur Non, vous pouvez encore mettre une immobilisation sur une commande fournisseur (PO) et la facture, mais l'acquisition n'est pas validé. La validation doit être effectuée comme étape distincte du journal des immobilisations. L'immobilisation de créer au cours de l'option de validation de l'accusé de réception de marchandises ou de facture permet de créer une nouvelle immobilisation « activé » lors de la validation, afin qu'elle ne doit pas être paramétrée en tant qu'immobilisation avant la transaction. La dernière option, Vérifier la création des immobilisations au cours de la saisie des lignes ne s'applique qu'aux demandes d'achat.
+Sur l'organisateur Commandes fournisseur, vous pouvez configurer la manière les actifs sont créés dans le cadre du processus d'achat. La première option est Autoriser l'acquisition d'actifs à partir d'Achats. Si vous définissez cette option sur Oui, l'acquisition d'immobilisation se produit lorsque la facture est validée. Si vous définissez cette option sur Non, vous pouvez toujours placer une immobilisation sur une commande fournisseur (CF) et la facture, mais l'acquisition ne sera pas validée. La validation doit être effectuée comme étape distincte du journal des immobilisations. L'option Créer un actif lors de la validation de l'accusé de réception des marchandises ou de la facture vous permet de créer un actif « à la volée » lors de la validation, afin qu'il ne doive pas être paramétré en tant qu'immobilisation avant la transaction. La dernière option, Vérifier la création des immobilisations au cours de la saisie des lignes ne s'applique qu'aux demandes d'achat.
 
 Vous pouvez configurer les codes de motif afin qu'ils soient obligatoires pour modifier une immobilisation ou pour les transactions d'immobilisations spécifiques.
 
 Enfin, sous l'onglet Souches de numéros, vous définissez des souches de numéros pour les immobilisations. La souche de numéro d'immobilisation peut être remplacée par la souche de numéros du groupe d'immobilisations si elle a été spécifiée.
+
+
 
 

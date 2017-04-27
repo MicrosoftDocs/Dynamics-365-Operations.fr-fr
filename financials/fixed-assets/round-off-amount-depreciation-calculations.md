@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="round-off-amount-for-depreciation-calculations"></a>Montant arrondi pour les calculs d'amortissement
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article présente le champ Arrondir l'amortissement qui est indiqué dans les pages de paramétrage du registre.
 
-Les montants d'amortissement d'arrondi sont définis pour chaque caisse enregistreuse. Les montants d'amortissement d'arrondi sont utilisés dans le profil d'amortissement d'immobilisation qui indique le futurs amortissement et la valeur de l'immobilisation, ainsi que les propositions d'amortissement. Entrez le montant minimal de l'amortissement autorisé pour le registre. 
+Les montants d'amortissement arrondis sont définis pour chaque registre. Les montants d'amortissement arrondis sont utilisés dans le profil d'amortissement des immobilisations qui indique le prochain amortissement et la valeur de l'immobilisation, ainsi que dans les propositions d'amortissement. Entrez le montant minimal de l'amortissement autorisé pour le registre. 
 
 Indépendamment de l'arrondi paramétré, le montant d'amortissement de la dernière période d'amortissement n'est pas arrondi. À la fin de la dernière période d'amortissement, la valeur de l'immobilisation doit être nulle ou égale à la valeur de mise au rebut, si cette valeur est utilisée.
 
@@ -43,6 +46,8 @@ Un amortissement sans arrondi est calculé comme égal à 2 444,44. Selon la man
 | Arrondi 1,00   | 2 444,00            |
 | Arrondi 10,00  | 2 440,00            |
 | Arrondi 100,00 | 2 400,00            |
+
+
 
 
 

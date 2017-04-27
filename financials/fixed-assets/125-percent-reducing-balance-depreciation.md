@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="125-percent-reducing-balance-depreciation"></a>Amortissement dégressif de 125 %
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article donne une vue d'ensemble de la méthode d'amortissement dégressif de 125 %.
 
 Si vous définissez un profil d'amortissement d'immobilisation, puis sélectionnez **Amortissement dégressif de 125 %** dans le champ **Méthode** de la page **Profils d'amortissement**, les immobilisations affectées à ce profil d'amortissement sont amorties par le même pourcentage pour chaque période d'amortissement. Ce pourcentage est calculé sur la base de la durée de vie de l'immobilisation. Par exemple, si une immobilisation a une durée de vie de cinq ans, la valeur de pourcentage calculée est de 25 pourcent (125 % ÷ 5).
@@ -56,7 +59,7 @@ Si vous sélectionnez **Calendrier** comme année d'amortissement, les options s
 
 Si vous sélectionnez **Exercice** dans le champ **Année d'amortissement**, l'amortissement dégressif de 125 % est calculé sur la base de l'exercice du calendrier fiscal spécifié pour le registre, ou pour le calendrier fiscal sélectionné sur la page **Comptabilité**. Les calendriers fiscaux sont paramétrés sur la page **Calendriers fiscaux**. 
 
-Par exemple, pour l'exercice allant du 1er juillet au 30 juin, le calcul de l'amortissement commence le le 1er juillet. L'exercice peut avoir une longueur supérieure ou inférieure à 12 mois. L'amortissement est automatiquement ajusté en fonction de chaque période fiscale et la longueur de l'exercice suivant est déterminé par la définition des périodes fiscales sur la page **Calendriers fiscaux**. 
+Par exemple, pour l'exercice allant du 1er juillet au 30 juin, le calcul de l'amortissement commence le 1er juillet. L'exercice peut avoir une longueur supérieure ou inférieure à 12 mois. L'amortissement est automatiquement ajusté en fonction de chaque période fiscale et la longueur de l'exercice suivant est déterminé par la définition des périodes fiscales sur la page **Calendriers fiscaux**. 
 
 Si vous sélectionnez **Exercice** comme année d'amortissement, les options suivantes sont disponibles dans le champ **Fréquence** :
 
@@ -81,6 +84,8 @@ La méthode d'amortissement dégressif de 125 % divise 125 % par le nombre d'ann
 | Année 3 | 5 625 × 25 % = 1 406,25                        | (6 625 - 1 406,25) = 5 218,75 | (5 625 - 1 406,25) = 4 218,75         |
 
 > [!NOTE] 
-> Généralement, lorsque le montant calculé à l'aide de la méthode d'amortissement dégressif de 125% devient inférieur au montant qui aurait calculé à l'aide de la méthode linéaire, une conversion en méthode linéaire pour la durée de vie restante.
+> Généralement, si le montant calculé via la méthode d'amortissement dégressif de 125 % est inférieur au montant calculé via la méthode linéaire, passer à la méthode linéaire pour la durée de vie restante reste possible.
+
+
 
 

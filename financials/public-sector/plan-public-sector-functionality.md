@@ -1,6 +1,6 @@
 ---
-title: "Plan de la fonctionnalité Secteur public"
-description: "Cet article suggère les premières étapes à paramétrer la fonctionnalité Secteur public dans Microsoft Dynamics 365 pour les opérations."
+title: "Planifier pour la fonctionnalité Secteur public"
+description: "Cet article suggère les premières étapes pour paramétrer la fonctionnalité Secteur public dans Microsoft Dynamics 365 for Operations."
 author: rschloma
 manager: AnnBe
 ms.date: 2017-04-04
@@ -26,14 +26,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="plan-for-public-sector-functionality"></a>Plan de la fonctionnalité Secteur public
+# <a name="plan-for-public-sector-functionality"></a>Planifier pour la fonctionnalité Secteur public
 
-Cet article suggère les premières étapes à paramétrer la fonctionnalité Secteur public dans Microsoft Dynamics 365 pour les opérations.
+Cet article suggère les premières étapes pour paramétrer la fonctionnalité Secteur public dans Microsoft Dynamics 365 for Operations.
 
 <a name="what-should-i-do-first"></a>Que dois-je faire en premier lieu ?
 -----------------------
 
-Avant de commencer à ajuster les paramètres et à entrer vos données, vous devez considérer que Microsoft Dynamics 365 pour les modules d'opérations vous doit paramétrer pour votre organisation du secteur public. La fonctionnalité Secteur public est intégrée à Microsoft Dynamics suivant 365 pour les modules et les produits Microsoft d'opérations.
+Avant de commencer à ajuster les paramètres et à entrer vos données, vous devez prendre en compte les modules Microsoft Dynamics 365 for Operations que vous devez paramétrer pour votre organisation du secteur public. La fonctionnalité Secteur public est intégrée aux modules Microsoft Dynamics 365 for Operations et produits Microsoft suivants :
 
 ### <a name="accounts-payable"></a>Module Comptabilité fournisseur
 
@@ -49,7 +49,7 @@ Analyse de budget Analyse de budget pour les budgets révisés Analyse de budget
 
 ### <a name="french-regulatory-options"></a>Options de réglementation française
 
-** La note ** Pour plus d'informations sur les options de réglementation françaises, voir [comptabilité du secteur public en France] (/localizations/europe/public-sector-accounting-france.md). Les pages suivantes ne sont disponibles que si les trois conditions suivantes sont remplies :
+**Remarque** Pour plus d'informations sur les options de réglementation françaises, consultez [Comptabilité du secteur public en France](/localizations/europe/public-sector-accounting-france.md). Les pages suivantes ne sont disponibles que si les trois conditions suivantes sont remplies :
 
 -   La clé de configuration **Secteur public** est sélectionnée.
 -   La sous-clé de configuration **Réglementation française** est sélectionnée.
@@ -70,6 +70,6 @@ Type de certification Codes commande fournisseur de confirmation Montants des li
 <a name="see-also"></a>Voir également :
 --------
 
-[Fonctionnalité de secteur public] (public-sector-functionality.md)
+[Fonctionnalité Secteur public](public-sector-functionality.md)
 
 

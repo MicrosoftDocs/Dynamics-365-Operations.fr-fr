@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-assets-integration"></a>Intégration des immobilisations
 
+[!include[banner](../includes/banner.md)]
+
+
 Le module Immobilisations peut être intégré avec les modules Comptabilité, Gestion des stocks, Ventes et Achats. Vous pouvez également paramétrer le module Immobilisations en vue de son intégration avec les commandes fournisseur.
 
 <a name="general-ledger"></a>Comptabilité
@@ -82,7 +85,7 @@ L'intégration de chaque ligne de commande est activée sous l'onglet **Immobili
 ## <a name="project-management-and-accounting"></a>Gestion de projets et comptabilité ;
 Vous pouvez associer un projet comportant une immobilisation concernée par le projet. Vous pouvez également associer chaque phase, tâche ou sous-projet à une immobilisation différente. Une immobilisation peut être associé à chaque enregistrement de projet. Vous créez l'association lors de la saisie d'un numéro d'immobilisation dans le champ **Numéro d'immobilisation** de la page **Projets**. Le projet doit être de type **Interne** ou **Projet de coût**. 
 
-La page **Projets** permet également d'afficher des informations détaillées sur des immobilisations associées à des projets. Pour afficher l'enregistrement de l'immobilisation, cliquez sur le lien d'immobilisation dans l'organisateur **Paramétrage** pour ouvrir la page **Immobilisations**. Cliquez ensuite sur ** des projets ** &gt; ** tous les projets ** pour afficher les projets associés à l'immobilisation. 
+La page **Projets** permet également d'afficher des informations détaillées sur des immobilisations associées à des projets. Pour afficher l'enregistrement de l'immobilisation, cliquez sur le lien d'immobilisation dans l'organisateur **Paramétrage** pour ouvrir la page **Immobilisations**. Puis cliquez sur **Projets** &gt; **Tous les projets** pour consulter les projets associés à l'immobilisation. 
 
 En général, vous associez les immobilisations à des projets lorsque les projets sont liés à des tâches de gestion, de maintenance ou d'amélioration de l'immobilisation. À l'issue du projet, Axapta n'effectue aucun ajustement de revalorisation pour l'immobilisation. Par conséquent, si une augmentation est obligatoire, vous devez créer l'augmentation manuellement. 
 
@@ -90,6 +93,8 @@ Pour supprimer l'association entre un projet et une immobilisation, désactivez 
 
 Vous pouvez également identifier une immobilisation que vous créez ou fabriquez comme partie intégrante d'un projet d'estimation. À la fin d'un tel projet, vous avez la possibilité de valider automatiquement une transaction d'acquisition d'immobilisation.
 
-Pour plus d'informations, voir [acquérez les immobilisations via la fourniture] (acquire-assets-procurement.md)
+Pour plus d'informations, voir [Acquérir les actifs via l'approvisionnement](acquire-assets-procurement.md)
+
+
 
 

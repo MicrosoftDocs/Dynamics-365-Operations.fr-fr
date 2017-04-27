@@ -1,5 +1,5 @@
 ---
-title: "Règlement Priorité et automatiques"
+title: "Règlement automatique et attribution de priorités"
 description: "Cet article décrit la manière dont les transactions sont réglées si vous sélectionnez le Règlement automatique dans la page de paramètres de la Comptabilité client. Il décrit également comment le règlement automatique peut être utilisé en combinaison avec la priorité de paiement."
 author: twheeloc
 manager: AnnBe
@@ -26,11 +26,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="automatic-settlement-and-prioritization"></a>Règlement Priorité et automatiques
+# <a name="automatic-settlement-and-prioritization"></a>Règlement automatique et attribution de priorités
+
+[!include[banner](../includes/banner.md)]
+
 
 Cet article décrit la manière dont les transactions sont réglées si vous sélectionnez le Règlement automatique dans la page de paramètres de la Comptabilité client. Il décrit également comment le règlement automatique peut être utilisé en combinaison avec la priorité de paiement.
 
-Vous avez deux options lorsque vous réglez des paiements avec des factures et d'autres transactions. Vous pouvez sélectionner manuellement les transactions à régler, ou Microsoft Dynamics 365 pour les opérations peut sélectionner les transactions automatiquement à l'aide de la fonctionnalité de règlement automatique. Vous pouvez également personnaliser la manière dont les règlements automatiques sont traités à l'aide de l'option **Classer le règlement par ordre de priorité**. Toutes ces options font partie des paramètres de règlement définis sous ** des paramètres des ventes ** la page. La manière dont les transactions sont réglées automatiquement peut varier, en fonction de la méthode que vous utilisez pour le règlement automatique. Les méthodes disponibles sont les suivantes :
+Vous avez deux options lorsque vous réglez des paiements avec des factures et d'autres transactions. Vous pouvez sélectionner manuellement les transactions à régler ou Microsoft Dynamics 365 for Operations peut sélectionner les transactions automatiquement à l'aide de la fonctionnalité de règlement automatique. Vous pouvez également personnaliser la manière dont les règlements automatiques sont traités à l'aide de l'option **Classer le règlement par ordre de priorité**. Toutes ces options font partie des paramètres de règlement définis dans la page **Paramètres de la comptabilité client**. La manière dont les transactions sont réglées automatiquement peut varier, en fonction de la méthode que vous utilisez pour le règlement automatique. Les méthodes disponibles sont les suivantes :
 
 -   Priorité de règlement définie par l'utilisateur
 -   Règlement automatique par défaut
@@ -45,7 +48,7 @@ Les exemples de règlements présentés plus loin dans cet article sont basés s
 | Facture 1     | 15 août   | 100,00 | 2%14, Net 30        | 29 août          |                                                                                                                                                                                               |
 | Facture 2     | 1 septembre | 250,00 | 2%14, Net 30        | 15 septembre       |                                                                                                                                                                                               |
 | Facture 3     | 15 octobre  | 500,00 | 2% 14/Net 30        | 29 octobre         |                                                                                                                                                                                               |
-| Note d'intérêt | 15 octobre  | 7h00   |                     |                    | Cette note d'intérêt est pour la facture 1 et la facture 2. Le montant est calculé comme 2 % intérêt sur les montants sont 30 jours ou une file d'attente. Par exemple, 0,02 × (100,00 + 250,00) = 7,00. |
+| Note d'intérêt | 15 octobre  | 7h00   |                     |                    | Cette note d'intérêt concerne la facture 1 et la facture 2. Le montant calculé représente 2 % d'intérêts sur les montants qui sont en souffrance depuis 30 jours ou plus. Par exemple, 0,02 × (100,00 + 250,00) = 7,00. |
 
 ## <a name="userdefined-settlement-priority"></a>Priorité de règlement définie par l'utilisateur
 Si vous définissez **Utiliser la priorité pour les règlements automatiques** sur **Oui** dans la page **Paramètres de la comptabilité client**, la priorité de règlement définie dans la page **Priorité de règlement** est utilisée lorsque des transactions sont sélectionnées pour le règlement automatique. Pour cet exemple, la priorité de règlement suivante est définie :
@@ -77,6 +80,8 @@ En l'absence de priorité de règlement définie par l'utilisateur, les transact
 | Facture 2     | 9/1/2015   | 10002   | 250,00                         | 250,00           | 0,00    | USD      |
 | Facture 3     | 10/15/2015 |         | 500,00                         | 350,00           | 150,00  | USD      |
 | Note d'intérêt | 10/15/2015 |         | 7h00                           | 0,00             | 0,00    | USD      |
+
+
 
 
 

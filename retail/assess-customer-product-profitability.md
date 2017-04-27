@@ -1,6 +1,6 @@
 ---
 title: "Évaluer la rentabilité client et produit"
-description: "Cet article décrit comment utiliser la en mémoire et analyses en temps réel pour accéder, explorer, et d&quot;obtenir une analyse concernant les clients et la rentabilité de produits de votre Microsoft Dynamics 365 pour les données d&quot;opérations."
+description: "Cet article détaille la manière dont vous pouvez utiliser les analyses en mémoire et en temps réel pour accéder, explorer et obtenir un aperçu de la rentabilité client et produit, à partir de vos données Microsoft Dynamics 365 for Operations."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 52902
 ms.assetid: 1a77d04b-2985-4bee-9138-c216fe0483de
 ms.search.region: global
@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="assess-customer-and-product-profitability"></a>Évaluer la rentabilité client et produit
 
-Cet article décrit comment utiliser la en mémoire et analyses en temps réel pour accéder, explorer, et d'obtenir une analyse concernant les clients et la rentabilité de produits de votre Microsoft Dynamics 365 pour les données d'opérations. 
+[!include[banner](includes/banner.md)]
 
-Dans le cadre de Dynamics 365 pour les opérations, les utilisateurs peuvent trouver la rentabilité pour les clients du CSB (10 100) entre différents niveaux de la hiérarchie d'organisation, selon une des critères suivants :
+
+Cet article détaille la manière dont vous pouvez utiliser les analyses en mémoire et en temps réel pour accéder, explorer et obtenir un aperçu de la rentabilité client et produit, à partir de vos données Microsoft Dynamics 365 for Operations. 
+
+Dans le cadre de Dynamics 365 for Operations, les utilisateurs peuvent étudier la rentabilité des principaux clients (10 à 100) entre différents niveaux de la hiérarchie d'organisation, selon l'un des critères suivants :
 
 -   Montant des ventes
 -   Quantité
@@ -38,8 +41,8 @@ Dans le cadre de Dynamics 365 pour les opérations, les utilisateurs peuvent tr
 
 Pour cette évaluation, vous pouvez utiliser l'état prêt à l'emploi **Principaux clients**, que vous pouvez ouvrir à partir de l'un des emplacements suivants :
 
--   ** La gestion de Retail ** l'espace de travail Dynamics 365 pour les opérations &gt; ** au détail et le commerce ** &gt; ** des canaux ** &gt; ** gestion de Retail ** &gt; ** des états ** &gt; ** les clients de premier niveau signalent **
--   ** Les recherches et les états Dynamics ** section 365 pour les opérations &gt; ** au détail et le commerce ** &gt; ** des recherches et états ** &gt; ** les états de ventes ** &gt; ** l'état supérieur de clients **
+-   Espace de travail **Gestion du magasin de vente au détail** dans Dynamics 365 for Operations &gt; **Commerce et vente au détail** &gt; **Canaux** &gt; **Gestion du magasin de vente au détail** &gt; **États** &gt; **État des principaux clients**
+-   Section **Recherches et états** dans Dynamics 365 for Operations &gt; **Commerce et vente au détail** &gt; **Recherches et états** &gt; **États des ventes** &gt; **État des principaux clients**
 
 De même, les utilisateurs peuvent étudier la rentabilité des principaux produits (10 à 100) entre différents niveaux de la hiérarchie d'organisation, selon l'un des critères suivants :
 
@@ -50,8 +53,10 @@ De même, les utilisateurs peuvent étudier la rentabilité des principaux produ
 
 Pour cette évaluation, vous pouvez utiliser l'état prêt à l'emploi **Principaux produits**, que vous pouvez ouvrir à partir de l'un des emplacements suivants :
 
--   ** La gestion de Retail ** l'espace de travail Dynamics 365 pour les opérations &gt; ** au détail et le commerce ** &gt; ** des canaux ** &gt; ** gestion de Retail ** &gt; ** les états ** &gt; ** suivent l'état de produits **
--   ** La gestion de catégories et de produit ** l'espace de travail Dynamics 365 pour les opérations &gt; ** au détail et le commerce ** &gt; ** les produits et les catégories ** &gt; ** gestion de Retail ** &gt; ** des états ** &gt; ** les produits de premier niveau signalent **
--   ** Les recherches et les états Dynamics ** section 365 pour les opérations &gt; ** au détail et le commerce ** &gt; ** des recherches et états ** &gt; ** les états de ventes ** &gt; ** l'état supérieur de produits **
+-   Espace de travail **Gestion du magasin de vente au détail** dans Dynamics 365 for Operations &gt; **Commerce et vente au détail** &gt; **Canaux** &gt; **Gestion du magasin de vente au détail** &gt; **États** &gt; **État des principaux produits**
+-   Espace de travail **Gestion des catégories et des produits** dans Dynamics 365 for Operations &gt; **Commerce et vente au détail** &gt; **Produits et catégories** &gt; **Gestion du magasin de vente au détail** &gt; **États** &gt; **État des principaux produits**
+-   Section **Recherches et états** dans Dynamics 365 for Operations &gt; **Commerce et vente au détail** &gt; **Recherches et états** &gt; **États des ventes** &gt; **État des principaux produits**
+
+
 
 

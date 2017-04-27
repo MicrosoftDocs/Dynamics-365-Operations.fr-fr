@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-production-orders"></a>Créer des ordres de fabrication
 
+[!include[banner](../includes/banner.md)]
+
+
 Lors de la création d'un ordre de fabrication, une demande de lancement de fabrication d'un article est effectuée. L'ordre de fabrication contient des informations sur l'article à fabriquer, la quantité à fabriquer, ainsi que la date de fin de fabrication prévue. Il inclut également des informations sur les matières à consommer et quel processus suivre pour produire l'article.
 
 Un ordre de fabrication traverse les stades du cycle de vie de la production. Lorsqu'un ordre est créé, le statut **Créé** lui est affecté. Lorsqu'un ordre est terminé, le statut **Terminé** lui est affecté. Le paramétrage de chaque stade permet à un utilisateur de configurer chaque étape. Ce paramétrage peut être paramétré pour un seul utilisateur ou pour tous les utilisateurs.
@@ -40,6 +43,8 @@ Un ordre de fabrication peut être créé dans les scénarios suivants :
 -   Créé par l'exécution de planification principale selon les besoins en matériel.
 -   Créé directement à partir d'une ligne de commande client ou lorsqu'un ordre de fabrication de niveau supérieur est créé et estimé (approvisionnement invariable).
 -   Créé manuellement.
+
+
 
 
 

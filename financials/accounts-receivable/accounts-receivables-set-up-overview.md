@@ -28,12 +28,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-accounts-receivables-and-credit-and-collections"></a>Configuration des modules Comptabilité client et Crédit et relances
 
+[!include[banner](../includes/banner.md)]
+
+
 Configurez la Comptabilité client et les Crédit et relances pour assurer le suivi des factures et des paiements entrants des clients.
 
 Vous pouvez paramétrer des groupes de clients, des clients, des profils de validation, différentes options de paiement, des notes d'intérêt, des lettres de relance, des commissions, des paramètres concernant les clients, des frais, des livraisons et des destinations, des lettres de change, ainsi que d'autres types d'informations relatives à la comptabilité client, ainsi qu'aux crédits et relances.
 Le tableau suivant répertorie les pages qui prennent en charge la configuration et la mise à jour des modules Comptabilité client et Crédit et relances. Les entrées du tableau sont organisées par tâche, puis alphabétiquement par nom de page.
 
-| ! Note [] (https://i-technet.sec.s-msft.com/areas/global/content/clear.gif « note ») ** note **          |
+| ![Remarque](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Remarque")**Remarque**          |
 |--------------------------------------------------------------------------------------------------|
 | Certaines pages du tableau suivant nécessitent la configuration d'informations ou de paramètres pour y accéder. |
 
@@ -98,14 +101,16 @@ Le tableau suivant répertorie les pages qui prennent en charge la configuration
 |                                                      | Contacts client et paramètres d'e-mail | Permet de paramétrer les contacts des clients avec leurs adresses e-mail. Ces adresses figurent sur la page Recouvrements et seront utilisées pour créer les emails à envoyer aux clients. Paramétrez également un contact de recouvrement par défaut pour chaque client, qui s'affichera d'abord sur la page Recouvrements. |
 |                                                      | Regroupements de clients                       | Permet de paramétrer les regroupements de clients, qui sont des requêtes qui définissent un groupe de comptes client qui peuvent être affichés et gérés pour les processus liés aux recouvrements ou balances âgées.                                                                                                                           |
 |                                                      | Profil de validation client             | Permet de paramétrer les profils qui contrôlent la validation des transactions client dans la comptabilité.                                                                                                                                                                                      |
-|                                                      | Codes motif client                | Codes motifs de client de paramétrage.                                                                                                                                                                                                                                                    |
-|                                                      | Codes motif d'annulation client      | Codes motifs d'annulation client de paramétrage qui seront utilisés pour les transactions d'annulation.                                                                                                                                                                                             |
+|                                                      | Codes motif client                | Paramétrez les codes motif de client.                                                                                                                                                                                                                                                    |
+|                                                      | Codes de motif d'annulation client      | Paramétrez les codes de motif d'annulation client qui seront utilisés pour les transactions d'annulation.                                                                                                                                                                                             |
 |                                                      | Paramétrage d'écran                           | Permet de définir les paramètres de texte standard pour les devis, confirmations, prélèvements, bons de livraison, factures client, factures financières et notes d'intérêt.                                                                                                                               |
 |                                                      | Intérêts                             | Permet de paramétrer et de gérer les codes intérêt.                                                                                                                                                                                                                                                 |
-|                                                      | Les informations sur les impayés.                     | Permet de paramétrer les informations relatives aux impayés sur le compte bancaire à utiliser lorsqu'un paiement est marqué comme transaction impayée sur la page Recouvrements.                                                                                                                                              |
+|                                                      | Informations sur les impayés                     | Permet de paramétrer les informations relatives aux impayés sur le compte bancaire à utiliser lorsqu'un paiement est marqué comme transaction impayée sur la page Recouvrements.                                                                                                                                              |
 |                                                      | Informations sur le commercial              | Permet de paramétrer les adresses e-mail des commerciaux. Ces adresses figurent sur la page Recouvrements et vous permettent d'envoyer un e-mail à un commercial à partir de cette page.                                                                                                                |
 
  
-Pour plus d'informations, voir [Crédit et relances dans Ventes] (collections-credit-accounts-receivable.md).
+Pour plus d'informations, voir [Crédit et recouvrements dans la Comptabilité client](collections-credit-accounts-receivable.md).
+
+
 
 

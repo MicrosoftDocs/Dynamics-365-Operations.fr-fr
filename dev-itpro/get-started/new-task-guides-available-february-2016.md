@@ -1,6 +1,6 @@
 ---
-title: "Nouveaux guides de tâche (février 2016)"
-description: "Ce wiki répertorie les guides d&quot;emploi qui ont été lancés dans les bibliothèques de Microsoft BPM à partir de février 2016.  Les bibliothèques émises comprennent (février 2016) la bibliothèque unifiée par APQC pour Microsoft Dynamics 365 pour les opérations, et (février 2016) obtenir commencé."
+title: "Nouveaux guides des tâches (février 2016)"
+description: "Ce wiki répertorie les tâches qui ont été publiées dans les bibliothèques Microsoft BPM à compter de février 2016.  Les bibliothèques qui ont été publiées incluent la bibliothèque unifiée APQC (février 2016) pour Microsoft Dynamics 365 for Operations et Mise en route (février 2016)."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,14 +24,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="new-task-guides-february-2016"></a>Nouveaux guides de tâche (février 2016)
+# <a name="new-task-guides-february-2016"></a>Nouveaux guides des tâches (février 2016)
 
-Ce wiki répertorie les guides d'emploi qui ont été lancés dans les bibliothèques de Microsoft BPM à partir de février 2016.  Les bibliothèques émises comprennent (février 2016) la bibliothèque unifiée par APQC pour Microsoft Dynamics 365 pour les opérations, et (février 2016) obtenir commencé.
+Ce wiki répertorie les tâches qui ont été publiées dans les bibliothèques Microsoft BPM à compter de février 2016.  Les bibliothèques qui ont été publiées incluent la bibliothèque unifiée APQC (février 2016) pour Microsoft Dynamics 365 for Operations et Mise en route (février 2016).
 
-<a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-365-for-operations"></a>Les guides de tâche dans (février 2016) l'APQC ont unifié la bibliothèque pour Microsoft Dynamics 365 pour les opérations
+<a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-365-for-operations"></a>Guides de tâches dans la bibliothèque unifiée APQC (février 2016) pour Microsoft Dynamics 365 for Operations
 ---------------------------------------------------------------------------------
 
-(Février 2016) la bibliothèque unifiée par APQC contient les guides de tâche qui sont conçus pour être utilisés pour obtenir de l'aide à Dynamics 365 pour le lancement des opérations 7.0.0. Si vous avez besoin des versions localisées de ces guides de tâche, elles sont disponibles dans (mai 2016) la bibliothèque unifiée par APQC pour Microsoft Dynamics 365 pour les opérations. Pour plus d'informations sur la procédure de connexion du système d'aide dans une bibliothèque de guide de tâche, voir [route route avec aide] (help-overview.md).
+La bibliothèque unifiée APQC (février 2016) contient les guides de tâches qui sont destinés à être utilisés pour l’aide avec Dynamics 365 for Operations 7.0.0. Si vous avez besoin des versions localisées de ces guides de tâches, elles sont disponibles dans la bibliothèque unifiée APQC (mai 2016) pour Microsoft Dynamics 365 for Operations. Pour plus d’informations sur la façon de se connecter au système d’aide dans une bibliothèque de guide de tâche, voir [Prise en main de l'aide](help-overview.md).
 
 ### <a name="accounts-payable"></a>Module Comptabilité fournisseur
 
@@ -531,7 +531,7 @@ Ce wiki répertorie les guides d'emploi qui ont été lancés dans les biblioth�
 | Ajouter un calcul à un modèle de configuration de produit    | Général             |
 | Approuver un modèle de configuration de produit.                 | Général             |
 | Achever le paramétrage de base d'un produit générique lancé | Général             |
-| Créer un A.\\ dimensions financières produit générique basé sur les dimensions               | Général             |
+| Créer un produit générique \de dimension financière\fondé sur les dimensions               | Général             |
 | Créer une hiérarchie de classification de produit          | Général             |
 | Création d'un modèle de configuration de produit                  | Général             |
 | Création d'un produit générique                               | Général             |
@@ -544,7 +544,7 @@ Ce wiki répertorie les guides d'emploi qui ont été lancés dans les biblioth�
 | Tenir à jour la nomenclature d'un modèle de configuration de produit        | Général             |
 | Tenir à jour la gamme pour le modèle de configuration de produit                    | Général             |
 | Gérer les produits lancés                              | Général             |
-| Lancement A.\\ dimensions financières produit générique basé sur les dimensions              | Général             |
+| Lancer un produit générique \de dimension financière\fondé sur les dimensions              | Général             |
 | Transférer des données pour des modèles de produit                      | Général             |
 
  
@@ -718,10 +718,10 @@ Ce wiki répertorie les guides d'emploi qui ont été lancés dans les biblioth�
 <a name="see-also"></a>Voir également :
 --------
 
-[Nouveaux ou mis à jour guides de tâche (mai 2016)](new-updated-task-guides-available-may-2016.md)
+[Guides de tâches nouveaux ou mis à jour (mai 2016)](new-updated-task-guides-available-may-2016.md)
 
-[Nouveaux ou mis à jour guides de tâche (août 2016)](new-updated-task-guides-available-august-2016.md)
+[Guides de tâches nouveaux ou mis à jour (août 2016)](new-updated-task-guides-available-august-2016.md)
 
-[Nouveaux ou mis à jour guides de tâche (novembre 2016)](new-task-guides-november-2016.md)
+[Guides de tâches nouveaux ou mis à jour (novembre 2016)](new-task-guides-november-2016.md)
 
 

@@ -29,20 +29,23 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="preliminary-budgets-and-apportionments-in-the-public-sector"></a>Budgets préliminaires et répartitions dans le secteur public
 
+[!include[banner](../includes/banner.md)]
+
+
 Cette rubrique couvre la création d'un budget préliminaire, et le paramétrage de la budgétisation et du contrôle budgétaire pour les répartitions et un budget préliminaire. 
 
 Les sections suivantes de cette rubrique décrivent les fonctionnalités de budgétisation disponibles pour le secteur public.  Avant de lire cette rubrique, vous devez également lire [Budgétisation dans le secteur public](budgeting-public-sector.md).
 
--   Paramétrage de la budgétisation et du contrôle budgétaire pour les répartitions - Vous pouvez définir un ou plusieurs codes budget pour le type de budget de répartition et configurer le contrôle budgétaire pour les répartitions.
--   Paramétrage de la budgétisation et du contrôle budgétaire pour un budget préliminaire - Vous pouvez définir des codes budget pour le type de budget préliminaire et configurer le contrôle budgétaire pour les budgets préliminaires.
--   Créer, afficher, et contrepassation d'un budget préliminaire - Vous pouvez créer des écritures budgétaires préliminaires, ainsi que créer des écritures budgétaires d'origine.
+-   Paramétrage de la budgétisation et du contrôle budgétaire pour les répartitions - Vous pouvez définir un ou plusieurs codes budget pour le type de budget Répartition et configurer le contrôle budgétaire pour les répartitions.
+-   Paramétrage de la budgétisation et du contrôle budgétaire pour un budget préliminaire - Vous pouvez définir des codes budget pour le type de budget Préliminaire et configurer le contrôle budgétaire pour les budgets préliminaires.
+-   Création, affichage et contrepassation d'un budget préliminaire - Vous pouvez créer des écritures budgétaires préliminaires, ainsi que des écritures budgétaires d'origine.
 
 
 ## <a name="set-up-budgeting-and-budget-control-for-apportionments"></a>Paramétrage de la budgétisation et du contrôle budgétaire pour les répartitions
 Les répartitions représentent la part du budget d'origine qui a été approuvée pour les dépenses. Par exemple, une organisation peut disposer d'un budget d'origine de 1 000 000 € mais n'être autorisée à dépenser que 150 000 € au cours du premier trimestre de l'exercice. Vous pouvez enregistrer une écriture de registre budgétaire d'origine de 1 000 000 € pour l'exercice. Vous pouvez ensuite enregistrer une écriture de registre budgétaire de répartition de 150 000 € pour les trois premiers mois de l'exercice. Seuls les 150 000 € répartis peuvent être dépensés au cours du premier trimestre. 
 
 > [!NOTE] 
-> Vous ne pouvez pas répartir supérieure au montant budgétaire d'origine pour les valeurs de dimension financière. 
+> Vous ne pouvez pas répartir une somme supérieure au montant budgétaire d'origine pour les valeurs de dimensions financières. 
 
 Après avoir paramétré la budgétisation de base et le contrôle budgétaire, utilisez les procédures suivantes pour ajouter des informations sur les répartitions au niveau de la budgétisation de base et du contrôle budgétaire.
 
@@ -59,11 +62,11 @@ La page **Configuration du contrôle budgétaire** contient des options pour uti
 Dans la section **Fonds budgétaires disponibles**, lorsque vous sélectionnez l'option **N'utiliser que le montant réparti**, les autres options sous **Montants à additionner** deviennent indisponibles. En outre, le calcul des fonds budgétaires disponibles inclut uniquement les montants répartis dans les montants à additionner. Généralement, vous incluriez les dépenses réelles, les réservations budgétaires pour les engagements, les réservations budgétaires pour les engagements non confirmées, et les réservations budgétaires pour les engagements préalables dans les montants à soustraire. 
 
 > [!NOTE] 
-> Lorsque ** utiliser uniquement le montant réparti ** est sélectionné, le budget d'origine, les transferts, et les révisions sont toujours suivis sans pas utilisés dans le calcul. 
+> Lorsque vous sélectionnez l'option **N'utiliser que le montant réparti**, le budget d'origine, les transferts et les révisions sont toujours suivis sans toutefois être utilisés dans le calcul. 
 
 Dans la section **Documents et journaux**, lorsque vous sélectionnez **Demandes d'achat**, notez que les options pour les commandes fournisseur et les factures fournisseur sont automatiquement sélectionnées. 
 
-Après avoir défini des codes budget pour la budgétisation de base et configuré le contrôle budgétaire pour les répartitions, vous pouvez créer des écritures de registre budgétaires pour les types de budget d'origine et de répartition. Pour plus d'informations, voir « comment veux -je créer et d'afficher un budget préliminaire ? » plus loin dans cette rubrique.
+Après avoir défini des codes budget pour la budgétisation de base et configuré le contrôle budgétaire pour les répartitions, vous pouvez créer des écritures de registre budgétaires pour les types de budget d'origine et de répartition. Pour plus d'informations, voir « Comment créer et afficher un budget préliminaire ? » plus loin dans cette rubrique.
 
 ### <a name="tips"></a>Conseils
 
@@ -101,7 +104,7 @@ Utilisez des codes budget pour le type de budget préliminaire lorsque vous entr
 La page **Configuration du contrôle budgétaire** contient les options pour utiliser les budgets préliminaires. Dans la section **Fonds budgétaires disponibles**, sélectionnez l'option **Budget préliminaire**. Notez que vous devrez peut-être cliquer sur **Créer un brouillon** pour poursuivre. 
 
 > [!NOTE]
-> Si les budgets préliminaires sont inclus dans le calcul des fonds budgétaires disponibles, il est important de contrepasser les écritures de registre budgétaires préliminaires lorsque les écritures de registre budgétaires d'origine sont enregistrées dans les soldes budgétaires. Si les écritures de registre budgétaires associées à des codes budget préliminaire ne sont pas contrepassées, les types de budget préliminaire et d'origine sont ajoutés, ce qui surévalue le solde disponible. Pour plus d'informations, voir fais je entraîne un budget préliminaire ? » ultérieurement dans cet article. Dans la section **Documents et journaux**, lorsque vous sélectionnez l'option **Demandes d'achat**, notez que les options pour les commandes fournisseur et les factures fournisseur sont automatiquement sélectionnées.
+> Si les budgets préliminaires sont inclus dans le calcul des fonds budgétaires disponibles, il est important de contrepasser les écritures de registre budgétaires préliminaires lorsque les écritures de registre budgétaires d'origine sont enregistrées dans les soldes budgétaires. Si les écritures de registre budgétaires associées à des codes budget préliminaire ne sont pas contrepassées, les types de budget préliminaire et d'origine sont ajoutés, ce qui surévalue le solde disponible. Pour plus d'informations, voir « Comment contrepasser un budget préliminaire ? » plus loin dans cet article. Dans la section **Documents et journaux**, lorsque vous sélectionnez l'option **Demandes d'achat**, notez que les options pour les commandes fournisseur et les factures fournisseur sont automatiquement sélectionnées.
 
 
 ## <a name="create-view-and-reverse-a-preliminary-budget"></a>Création, affichage et contrepassation d'un budget préliminaire
@@ -120,8 +123,10 @@ Pour afficher des informations supplémentaires sur les budgets préliminaires, 
 
 ### <a name="how-do-i-reverse-a-preliminary-budget"></a>Comment contrepasser un budget préliminaire ?
 
-Lorsque vous créez une écriture budgétaire d'origine et que vous utilisez le modèle de budget et des valeurs de dimension qui contiennent des montants budgétaires préliminaires, ceux-ci peuvent être contrepassés. Par exemple, vous pouvez entrer un montant budgétaire préliminaire de $2.500 dans le compte général 50000. Ensuite, si vous entrez un montant budgétaire d'origine d'un montant dans le compte général 50000, le montant budgétaire préliminaire de $2.500 sera contrepassé. Le compte général 50000 afficherait un montant budgétaire de 10 000 €. 
+Lorsque vous créez une écriture budgétaire d'origine et que vous utilisez le modèle de budget et des valeurs de dimension qui contiennent des montants budgétaires préliminaires, ceux-ci peuvent être contrepassés. Par exemple, vous pouvez entrer un montant budgétaire préliminaire de 2 500 dollars dans le compte général 50 000. Par la suite, si vous entrez un montant budgétaire d'origine de 10 000 dollars dans le compte général 50 000, le montant budgétaire préliminaire de 2 500 dollars sera contrepassé. Le compte général 50000 afficherait un montant budgétaire de 10 000 €. 
 
 Vous pouvez afficher les écritures de registre budgétaires pour le budget d'origine en sélectionnant l'écriture de compte budgétaire dans l'organisateur **Écritures de compte budgétaires** de la page **Écriture de registre budgétaire**. Dans la barre de menus, cliquez sur **Informations associées**, puis sur **Écritures de registre budgétaires**.
+
+
 
 

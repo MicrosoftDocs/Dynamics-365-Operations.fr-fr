@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="centralized-payments-for-accounts-payable"></a>Paiements centralisés pour la comptabilité fournisseur
 
+[!include[banner](../includes/banner.md)]
+
+
 Les organisations qui comprennent plusieurs entités juridiques peuvent créer et gérer des paiements à l'aide d'une entité juridique unique qui assure la gestion de tous les paiements. Par conséquent, il n'est pas nécessaire d'entrer les mêmes paiements dans plusieurs entités juridiques. Cet article fournit des exemples décrivant la manière dont la validation des paiements centralisés est gérée dans divers scénarios.
 
 Les organisations qui comprennent plusieurs entités juridiques peuvent créer et gérer des paiements à l'aide d'une entité juridique qui assure la gestion de tous les paiements. Par conséquent, il n'est pas nécessaire d'entrer les mêmes paiements dans plusieurs entités juridiques. En outre, l'organisation gagne du temps, car le processus de paiement est simplifié.
@@ -66,14 +69,14 @@ Fabrikam East a une facture en cours pour le compte fournisseur 100, Fourth Coff
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Le paiement Fabrikam est réglé avec la facture Fabrikam East
 
-**Fabrikam posting**
+**Validation Fabrikam**
 
 | Compte                           | Montant de débit | Montant de crédit |
 |-----------------------------------|--------------|---------------|
 | Dû par Fabrikam East (Fabrikam) | 600,00       |               |
 | Achats (Fabrikam)       |              | 600,00        |
 
-**Fabrikam East posting**
+**Validation Fabrikam East**
 
 | Compte                          | Montant de débit | Montant de crédit |
 |----------------------------------|--------------|---------------|
@@ -99,14 +102,14 @@ Fabrikam East a une facture en cours pour le fournisseur 100, Fourth Coffee. La 
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Le paiement Fabrikam est réglé avec la facture Fabrikam East
 
-**Fabrikam posting**
+**Validation Fabrikam**
 
 | Compte                           | Montant de débit | Montant de crédit |
 |-----------------------------------|--------------|---------------|
 | Dû par Fabrikam East (Fabrikam) | 580,00       |               |
 | Achats (Fabrikam)       |              | 580,00        |
 
-**Fabrikam East posting**
+**Validation Fabrikam East**
 
 | Compte                          | Montant de débit | Montant de crédit |
 |----------------------------------|--------------|---------------|
@@ -137,7 +140,7 @@ Fabrikam East a une facture en cours pour le fournisseur 100, Fourth Coffee. Fab
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Le paiement Fabrikam est réglé avec la facture Fabrikam East
 
-**Fabrikam posting**
+**Validation Fabrikam**
 
 | Compte                           | Montant de débit            | Montant de crédit           |
 |-----------------------------------|-------------------------|-------------------------|
@@ -146,7 +149,7 @@ Fabrikam East a une facture en cours pour le fournisseur 100, Fourth Coffee. Fab
 | Perte réalisée (Fabrikam)          | 0,00 EUR / 12,90 USD    |                         |
 | Dû par Fabrikam East (Fabrikam) |                         | 0,00 EUR / 12,90 USD    |
 
-**Fabrikam East posting**
+**Validation Fabrikam East**
 
 | Compte                          | Montant de débit            | Montant de crédit           |
 |----------------------------------|-------------------------|-------------------------|
@@ -178,7 +181,7 @@ Fabrikam East a une facture en cours pour le fournisseur 100, Fourth Coffee. Un 
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Le paiement Fabrikam est réglé avec la facture Fabrikam East
 
-**Fabrikam posting**
+**Validation Fabrikam**
 
 | Compte                           | Montant de débit            | Montant de crédit           |
 |-----------------------------------|-------------------------|-------------------------|
@@ -187,7 +190,7 @@ Fabrikam East a une facture en cours pour le fournisseur 100, Fourth Coffee. Un 
 | Perte réalisée (Fabrikam)          | 0,00 EUR / 12,66 USD    |                         |
 | Dû par Fabrikam East (Fabrikam) |                         | 0,00 EUR / 12,66 USD    |
 
-**Fabrikam East posting**
+**Validation Fabrikam East**
 
 | Compte                          | Montant de débit            | Montant de crédit           |
 |----------------------------------|-------------------------|-------------------------|
@@ -199,7 +202,7 @@ Fabrikam East a une facture en cours pour le fournisseur 100, Fourth Coffee. Un 
 | Escompte de règlement (Fabrikam East)    |                         | 11,28 EUR / 13,61 USD   |
 
 ## <a name="example-5-vendor-credit-note-with-primary-payment"></a>Exemple 5 : avoir fournisseur avec paiement principal
-Fabrikam génère un paiement de 75,00 pour le fournisseur 3004, Fourth Coffee. Le paiement est réglé avec une facture en cours pour le fournisseur Fabrikam West 3004 et un avoir en cours pour le fournisseur Fabrikam East 100. Le paiement est sélectionné comme le paiement principal sur ** des transactions de règlement ** la page.
+Fabrikam génère un paiement de 75,00 pour le fournisseur 3004, Fourth Coffee. Le paiement est réglé avec une facture en cours pour le fournisseur Fabrikam West 3004 et un avoir en cours pour le fournisseur Fabrikam East 100. Le paiement est sélectionné comme paiement principal dans la page **Régler les transactions**.
 
 ### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a>La facture est validée chez Fabrikam West pour le fournisseur 3004
 
@@ -224,7 +227,7 @@ Fabrikam génère un paiement de 75,00 pour le fournisseur 3004, Fourth Coffee. 
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Le paiement Fabrikam est réglé avec une facture Fabrikam West et un avoir Fabrikam East
 
-**Fabrikam posting**
+**Validation Fabrikam**
 
 | Compte                           | Montant de débit | Montant de crédit |
 |-----------------------------------|--------------|---------------|
@@ -233,14 +236,14 @@ Fabrikam génère un paiement de 75,00 pour le fournisseur 3004, Fourth Coffee. 
 | Dû par Fabrikam West (Fabrikam) | 100,00       |               |
 | Achats (Fabrikam)       |              | 100,00        |
 
-**Fabrikam East posting**
+**Validation Fabrikam East**
 
 | Compte                           | Montant de débit | Montant de crédit |
 |-----------------------------------|--------------|---------------|
 | Dû par Fabrikam (Fabrikam East) | 25,00        |               |
 | Achats (Fabrikam East)  |              | 25,00         |
 
-**Fabrikam West posting**
+**Validation Fabrikam West**
 
 | Compte                          | Montant de débit | Montant de crédit |
 |----------------------------------|--------------|---------------|
@@ -248,7 +251,7 @@ Fabrikam génère un paiement de 75,00 pour le fournisseur 3004, Fourth Coffee. 
 | Dû à Fabrikam (Fabrikam West)  |              | 100,00        |
 
 ## <a name="example-6-vendor-credit-note-without-primary-payment"></a>Exemple 6 : avoir fournisseur sans paiement principal
-Fabrikam génère un paiement de 75,00 pour le fournisseur 3004, Fourth Coffee. Le paiement est réglé avec une facture en cours pour le fournisseur Fabrikam West 3004 et un avoir en cours pour le fournisseur Fabrikam East 100. Le paiement n'est pas sélectionnée comme le paiement principal dans ** des transactions de règlement ** la page.
+Fabrikam génère un paiement de 75,00 pour le fournisseur 3004, Fourth Coffee. Le paiement est réglé avec une facture en cours pour le fournisseur Fabrikam West 3004 et un avoir en cours pour le fournisseur Fabrikam East 100. Le paiement n'est pas sélectionné comme paiement principal dans la page **Régler les transactions**.
 
 ### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a>La facture est validée chez Fabrikam West pour le fournisseur 3004
 
@@ -273,21 +276,21 @@ Fabrikam génère un paiement de 75,00 pour le fournisseur 3004, Fourth Coffee. 
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Le paiement Fabrikam est réglé avec une facture Fabrikam West et un avoir Fabrikam East
 
-**Fabrikam posting**
+**Validation Fabrikam**
 
 | Compte                           | Montant de débit | Montant de crédit |
 |-----------------------------------|--------------|---------------|
 | Dû par Fabrikam West (Fabrikam) | 75,00        |               |
 | Achats (Fabrikam)       |              | 75,00         |
 
-**Fabrikam East posting**
+**Validation Fabrikam East**
 
 | Compte                                | Montant de débit | Montant de crédit |
 |----------------------------------------|--------------|---------------|
 | Dû par Fabrikam West (Fabrikam East) | 25,00        |               |
 | Achats (Fabrikam East)       |              | 25,00         |
 
-**Fabrikam West posting**
+**Validation Fabrikam West**
 
 | Compte                              | Montant de débit | Montant de crédit |
 |--------------------------------------|--------------|---------------|
@@ -295,6 +298,8 @@ Fabrikam génère un paiement de 75,00 pour le fournisseur 3004, Fourth Coffee. 
 | Dû à Fabrikam (Fabrikam West)      |              | 75,00         |
 | Achats (Fabrikam West)     | 25,00        |               |
 | Dû à Fabrikam East (Fabrikam West) |              | 25,00         |
+
+
 
 
 

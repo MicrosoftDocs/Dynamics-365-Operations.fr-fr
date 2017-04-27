@@ -1,5 +1,5 @@
 ---
-title: "Règlement d&quot;un paiement client partiel et le paiement final dans son intégralité avant la date d&quot;escompte"
+title: "Règlement d&quot;un paiement client partiel et règlement total du paiement final avant la date de remise"
 description: "Cet article fournit des scénarios qui indiquent comment enregistrer des paiements partiels pour un client et prendre des escomptes de règlement pendant la période d&quot;escompte de règlement."
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-customer-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Règlement d'un paiement client partiel et le paiement final dans son intégralité avant la date d'escompte
+# <a name="settle-a-partial-customer-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Règlement d'un paiement client partiel et règlement total du paiement final avant la date de remise
+
+[!include[banner](../includes/banner.md)]
+
 
 Cet article fournit des scénarios qui indiquent comment enregistrer des paiements partiels pour un client et prendre des escomptes de règlement pendant la période d'escompte de règlement.
 
-Fabrikam vend des marchandises au client 4028. Fabrikam offre un escompte de règlement de 1 % % si la facture est payée dans les 14 jours. Les factures doivent être réglées dans les 30 jours. Fabrikam propose également des escomptes de règlement sur des paiements partiels. Les paramètres de règlement sont situés sous ** des paramètres des ventes ** la page.
+Fabrikam vend des marchandises au client 4028. Fabrikam offre un escompte de règlement de 1 % si la facture est payée sous 14 jours. Les factures doivent être réglées dans les 30 jours. Fabrikam propose également des escomptes de règlement sur des paiements partiels. Les paramètres de règlement se trouvent dans la page **Paramètres de la comptabilité client**.
 
 ## <a name="customer-invoice"></a>Facture client
-Le 25 juin, Arnie entre et valide une facture de 1.000,00 pour le client 4028. Arnie peut afficher cette transaction sur la page **Transactions client**.
+Le 25 juin, Arnie entre et valide une facture de 1 000,00 pour le client 4028. Arnie peut afficher cette transaction sur la page **Transactions client**.
 
 | N° document   | Type de transaction | Date      | Facture | Montant au débit dans la devise de transaction | Montant au crédit dans la devise de transaction | Solde  | Devise |
 |-----------|------------------|-----------|---------|--------------------------------------|---------------------------------------|----------|----------|
@@ -63,14 +66,14 @@ Arnie clique sur l'onglet **Escompte de règlement** pour afficher le montant de
 | 7/25/2015          | 0,00                 | 1 000,00                       |
 
 ## <a name="partial-payment-by-using-the-enter-customer-payments-page"></a>Paiement partiel de 500,00 le 1er juillet à l'aide de la page Entrer les paiements client
-Le client 4028 propose un paiement de 500,00 le le 1er juillet. Pour entrer ce paiement, il ne cliquez pas sur ** des lignes **. Au lieu de cela, il enregistre le paiement en créant un journal des paiements, puis en ouvrant la page **Entrer les paiements client**. Il entre les informations de paiement et marque la facture qu'il a entrée. Lorsque Arnie entre **500,00** comme montant, il entre également **500,00** dans le champ **Montant à payer** de la grille. Puisque Fabrikam accorde un escompte de règlement pour les paiements partiels, il constate qu'un escompte de règlement partiel de 5,05 sera également prélevé. Le calcul de cette remise est de 500,00 ÷ 0,99 × 0,01 = 5,05. (Dans ce calcul, 500,00 est divisé par 0,99 %, car il y a une remise de 1 %. Par conséquent, le client paie 99 % de la facture. Le résultat est ensuite multiplié par le pourcentage de remise, soit 1 % ou 0,01. Si le client a la remise totale de 10,00, le montant qui doit être réglé est 990,00.) Les informations de remise s'affiche dans la grille en bas de ** saisie de paiements client ** la page.
+Le client 4028 envoie un paiement de 500,00 le 1er juillet. Pour entrer ce paiement, Arnie ne clique pas sur **Lignes**. Au lieu de cela, il enregistre le paiement en créant un journal des paiements, puis en ouvrant la page **Entrer les paiements client**. Il entre les informations de paiement et marque la facture qu'il a entrée. Lorsque Arnie entre **500,00** comme montant, il entre également **500,00** dans le champ **Montant à payer** de la grille. Puisque Fabrikam accorde un escompte de règlement pour les paiements partiels, il constate qu'un escompte de règlement partiel de 5,05 sera également prélevé. Le calcul de cette remise est de 500,00 ÷ 0,99 × 0,01 = 5,05. (Dans ce calcul, 500,00 est divisé par 0,99 %, car il y a une remise de 1 %. Par conséquent, le client paie 99 % de la facture. Le résultat est ensuite multiplié par le pourcentage de remise, soit 1 % ou 0,01. Si le client prend la remise totale de 10,00, le montant qui doit être réglé est 990,00.) Les informations de remise s'affichent dans la grille en bas de la page **Entrer les paiements client**.
 
 | Montant de l'escompte de règlement à accepter | Escompte de règlement appliqué | Montant à payer |
 |------------------------------|---------------------|---------------|
 | 5,05                         | 0,00                | 500,00        |
 
 ## <a name="partial-payment-by-using-the-journal-lines"></a>Paiement partiel à l'aide des lignes de journal
-Au lieu d'ouvrir la page **Entrer les paiements client** dans le journal des paiements, Arnie peut cliquer sur **Lignes** pour entrer un paiement. Le journal des paiements s'affiche, dans lequel il peut entrer une ligne pour le client 4028. Arnie ouvre ensuite la page **Régler les transactions** pour pouvoir marquer la facture pour règlement. Arnie marque la facture et remplace la valeur du champ **Montant à régler** par **500,00**. Il constate à nouveau que la valeur du champ **Montant de l'escompte de règlement** est de **10,00** pour la facture complète, et que la valeur du champ **Montant de l'escompte de règlement à accepter** est de **5,05**. Par conséquent, il règle 505,05 de cette facture.
+Au lieu d'ouvrir la page **Entrer les paiements client** dans le journal des paiements, Arnie peut cliquer sur **Lignes** pour entrer un paiement. Le journal des paiements s'affiche, dans lequel Arnie peut entrer une ligne pour le client 4028. Arnie ouvre ensuite la page **Régler les transactions** pour pouvoir marquer la facture pour règlement. Arnie marque la facture et remplace la valeur du champ **Montant à régler** par **500,00**. Il constate à nouveau que la valeur du champ **Montant de l'escompte de règlement** est de **10,00** pour la facture complète, et que la valeur du champ **Montant de l'escompte de règlement à accepter** est de **5,05**. Par conséquent, il règle 505,05 de cette facture.
 
 | Marquer     | Utiliser un escompte de règlement | N° document   | Compte | Date      | Date d'échéance  | Facture | Montant dans la devise de transaction | Devise | Montant à régler |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -143,6 +146,8 @@ Arnie valide ce journal et consulte les transactions client sur la page **Transa
 | DISC-10010 | Escompte de règlement    | 7/1/2015  |         |                                      | 5,00                                  | 0,00    | USD      |
 | ARP-10011  | Paiement          | 7/8/2015  |         |                                      | 495,00                                | 0,00    | USD      |
 | DISC-10011 | Escompte de règlement    | 7/8/2015  |         |                                      | 5,00                                  | 0,00    | USD      |
+
+
 
 
 

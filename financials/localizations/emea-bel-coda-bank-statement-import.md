@@ -1,6 +1,6 @@
 ---
 title: "Relevé bancaire CODA"
-description: "Cette rubrique fournit des informations sur le CODA, qui est un format d&quot;état utilisé dans le système bancaire électronique belge."
+description: "Cette rubrique contient des informations sur CODA, qui est un format d&quot;état utilisé par le système d&quot;opérations bancaires électroniques belge."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,34 +27,39 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="coda-bank-statement"></a>Relevé bancaire CODA
 
-Cette rubrique fournit des informations sur le CODA, qui est un format d'état utilisé dans le système bancaire électronique belge. 
+[!include[banner](../includes/banner.md)]
 
-Pour les importations belges de relevé bancaire, vous allez utiliser le format de fichier CODA. Cette fonction permet de contrôler les soldes d'ouverture et de fin de compte bancaire, et rapproche des règles importées de rapprochement des transactions basée.
 
-## <a name="import-transactions-from-a-bank-statement"></a>Transactions d'importation d'un relevé bancaire
-Pour importer un fichier de relevé bancaire pour un compte bancaire, procédez comme suit. ** Note ** : Avant d'importer un fichier de relevé bancaire, vous devez avoir déjà terminé ce qui suit :
+Cette rubrique contient des informations sur CODA, qui est un format d'état utilisé par le système d'opérations bancaires électroniques belge. 
 
--   Importez les configurations CODA des Lifecycle Services (LCS). Pour plus d'informations, voir [des configurations électroniques de génération d'états de téléchargement de Lifecycle Services] (/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
--   Sélectionnez la configuration importée CODA sur ** les paramètres CODA ** la page.
+Pour les importations de relevés bancaires belges, vous utiliserez le format de fichier CODA. Cette fonctionnalité permet de vérifier les soldes d'ouverture et de clôture d'un compte bancaire de société, et de rapprocher des transactions importées basées sur des règles de rapprochement.
 
-1.  Allez ** des comptes bancaires ** à la page.
-2.  Cliquez sur ** rapprochez ** &gt; ** CODA **.
-3.  Cliquez sur ** CODA ** &gt; ** importation à partir de fichier **, puis sélectionnez le chemin d'accès au fichier de relevé bancaire.
+## <a name="import-transactions-from-a-bank-statement"></a>Importer des transactions à partir d'un relevé bancaire
+Pour importer un fichier de relevé bancaire pour un compte bancaire, procédez comme suit. **Remarque** : avant d'importer un fichier de relevé bancaire, vous devez avoir déjà effectué les opérations suivantes :
 
-Après avoir importé des transactions, vous pouvez effectuer les actions suivantes sous ** relevé bancaire ** la page.
+-   Importer les configurations CODA à partir de Lifecycle Services (LCS). Pour plus d'informations, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
+-   Sélectionner la configuration CODA importée dans la page **Paramètres CODA**.
 
--   Vérifiez les soldes d'ouverture et de fin.
--   Permet d'afficher les transactions importées comme état du relevé bancaire que vous pouvez imprimer.
--   Permet d'afficher les transactions importées ayant des lignes supplémentaires, telles que les lignes dont le type est « aucune ». Cliquez sur ** détails &gt; CODA **.
+1.  Accédez à la page **Comptes bancaires**.
+2.  Cliquez sur **Rapprocher** &gt; **CODA**.
+3.  Cliquez sur **CODA** &gt; **Importer depuis le fichier**, puis sélectionnez le chemin d'accès au fichier de relevé bancaire.
 
-## <a name="process-imported-bank-statement-transactions"></a>Transactions de relevé bancaire importées par processus
-Procédez comme suit pour traiter les transactions de relevé bancaire.
+Après avoir importé les transactions, vous pouvez effectuer les actions suivantes dans la page **Relevé bancaire**.
 
-1.  Traiter les lignes détail (** CODA ** &gt; ** lignes détaillées de processus **). Démarrez correspondre automatique sur ** des définitions CODA **. Ces règles détermine le compte général, client, ou le compte fournisseur doivent être utilisé pour cette transaction. La comparaison est basé sur le code du groupe de transactions, le code catégorie du code transaction, et de transaction sont spécifiés dans le fichier CODA pour chaque transaction.
-2.  Les transactions avec un client et un type de compte fournisseur peuvent être mises en correspondance avec les factures. Le cas échéant, les transactions importées peuvent être modifiées manuellement à tout moment après qu'un traitement, avant de transférer dans la comptabilité.
-3.  S'il existe des transactions comportant des erreurs (en général, s'il n'existe aucune règle paramétrée), ces derniers peuvent être mentionnés le compte général particulier, spécifié sous ** les paramètres CODA ** la page (** CODA ** &gt; ** erreurs précises **).
-4.  Une fois toutes les transactions du relevé bancaire réglées, elles sont prêtes à être transférées au journal de comptabilité (** CODA ** &gt;** transfert vers la comptabilité **). Les paramètres de journal doivent être spécifiés pour le compte bancaire. Les journaux peuvent être ouverts sur ** des comptes bancaires ** la page pour l'enregistrement sélectionné en cliquant sur ** paramétrage ** &gt; ** le journal CODA **.
+-   Vérifier les soldes d'ouverture et de clôture.
+-   Afficher les transactions importées en tant qu'état de relevé bancaire que vous pouvez imprimer.
+-   Afficher les transactions importées contenant des lignes supplémentaires, telles que les lignes dont le type de compte est « Aucun ». Cliquez sur **CODA &gt; Détails**.
 
-Après traitement des transactions de relevé bancaire sont terminés, un journal comptable est créé et prêt pour la validation.
+## <a name="process-imported-bank-statement-transactions"></a>Traiter les transactions de relevé bancaire importées
+Effectuez les étapes suivantes pour traiter les transactions de relevé bancaire.
+
+1.  Traitez les lignes de détail (**CODA** &gt; **Traiter les lignes de détails**). Démarrez la mise en correspondance automatique en fonction des **Définitions CODA**. Ces règles déterminent le compte général, client ou fournisseur qui doit être utilisé pour cette transaction. La comparaison est basée sur le code du groupe de transactions, le code de transaction et le code de catégorie de transaction spécifiés dans le fichier CODA pour chaque transaction.
+2.  Les transactions avec un type de compte client et fournisseur peuvent être mises en correspondance avec les factures. Si nécessaire, les transactions importées peuvent être modifiées manuellement à tout moment après le traitement, avant de les transférer vers la comptabilité.
+3.  Si des transactions comportent des erreurs (en général, si aucune règle n'est paramétrée), celles-ci peuvent être mentionnées dans le compte général spécial, spécifié sur la page **Paramètres CODA** (**CODA** &gt; **Effacer les erreurs**).
+4.  Une fois que toutes les transactions du relevé bancaire sont réglées, elles sont prêtes à être transférées vers le journal de comptabilité (**CODA** &gt;**Transfert vers la comptabilité**). Les paramètres du journal doivent être spécifiés pour le compte bancaire. Les journaux peuvent être ouverts sur la page **Comptes bancaires** pour l'enregistrement sélectionné en cliquant sur **Paramétrage** &gt; **Journal CODA**.
+
+Une fois que le traitement des transactions de relevé bancaire est terminé, un journal de comptabilité est créé et prêt à être validé.
+
+
 
 

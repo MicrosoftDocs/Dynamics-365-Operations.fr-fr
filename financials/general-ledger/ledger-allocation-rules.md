@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="ledger-allocation-rules"></a>Règles d'affectation comptable
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article fournit des informations générales sur les règles de répartition comptable. Il décrit les différents composants de ces règles de répartition et les méthodes de répartition utilisables pour elles.
 
 Les règles de répartition comptable permettent de calculer et de générer automatiquement les journaux de répartition et les écritures de compte pour la répartition des soldes comptables ou des montants fixes. Les modes de répartition peuvent être variables ou fixes. Les modes de répartition suivants peuvent être utilisés pour les règles de répartition comptable :
@@ -42,10 +45,12 @@ Si Base est utilisé comme mode de répartition pour une règle de répartition,
 Chaque règle de répartition contient quatre composants : général, source, destination et contrepartie. Un composant supplémentaire, règles de base de répartition comptable, est nécessaire si Base est utilisé comme mode de répartition. Chaque composant fournit une partie essentielle des informations nécessaires pour traiter les répartitions.
 
 -   **Général** – Ce composant est l'endroit où l'utilisateur spécifie des options telles que le mode de répartition, les paramètres de la règle intersociétés et l'activation ou non de la règle.
--   **Source** – Ce composant est l'endroit où l'utilisateur spécifie les données source pour la répartition. La répartition peut être basé sur des soldes comptables (** source de données ** = ** comptabilité **) ou des montants fixes (** source de données ** = ** valeur fixe **). Lorsque **Source de données** est défini sur **Comptabilité**, les critères de filtre source doivent être définis pour la règle de répartition comptable (par exemple, pour les dépenses publicitaires).
+-   **Source** – Ce composant est l'endroit où l'utilisateur spécifie les données source pour la répartition. La répartition peut être basée sur les soldes comptables (**Source de données** = **Comptabilité**) ou des montants fixes (**Source de données** = **Valeur fixe**). Lorsque **Source de données** est défini sur **Comptabilité**, les critères de filtre source doivent être définis pour la règle de répartition comptable (par exemple, pour les dépenses publicitaires).
 -   **Destination** – Ce composant définit la manière dont le résultat du calcul de la répartition doit être distribué et comptabilisé. Par exemple, il peut y avoir une ligne de destination pour chaque département.
 -   **Contrepartie** – Ce composant définit la manière dont les comptes principaux et les dimensions doivent être déterminés pour les entrées de contrepartie qui soldent les entrées de destination. Les options définies par l'utilisateur sont généralement utilisées à la place des comptes et dimensions basés sur la source. Lorsque **Source de données** est défini sur **Valeur fixe**, **Source** ne peut pas être utilisé comme option.
 -   **Règles de base de répartition comptable** – Ces règles utilisent leurs propres critères de filtre source pour déterminer les soldes comptables à utiliser pour la répartition (par exemple, le produit par département). Chaque règle de base de répartition peut être utilisée avec plusieurs règles de répartition.
+
+
 
 
 

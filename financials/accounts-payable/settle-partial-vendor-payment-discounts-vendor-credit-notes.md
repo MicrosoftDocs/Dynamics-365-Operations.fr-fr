@@ -1,5 +1,5 @@
 ---
-title: "Règlement d&quot;un paiement partiel fournisseur ayant des remises sur les avoirs de fournisseur"
+title: "Régler un paiement partiel fournisseur ayant des remises sur les avoirs fournisseur"
 description: "Cet article vous fait parcourir les étapes d&quot;un scénario dans lequel un avoir est réglé grâce à une facture."
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-vendor-payment-that-has-discounts-on-vendor-credit-notes"></a>Règlement d'un paiement partiel fournisseur ayant des remises sur les avoirs de fournisseur
+# <a name="settle-a-partial-vendor-payment-that-has-discounts-on-vendor-credit-notes"></a>Régler un paiement partiel fournisseur ayant des remises sur les avoirs fournisseur
+
+[!include[banner](../includes/banner.md)]
+
 
 Cet article vous fait parcourir les étapes d'un scénario dans lequel un avoir est réglé grâce à une facture.
 
 Les fournisseurs de Fabrikam appliquent des escomptes de règlement sur les avoirs. Le fournisseur 3050 accorde à Fabrikam un escompte de règlement de 1 % si la facture est payée sous 14 jours.
 
 ## <a name="invoice-and-credit-memo"></a>Facture et avoir
-Le 29 juin, elle le crée une facture de 1.000,00 pour le fournisseur 3050. Le 2 juillet, elle crée un avoir pour 200,00. Dans la page **Fournisseurs**, April ouvre la page **Règlement des transactions**. Elle peut utiliser la page **Règlement des transactions** pour marquer l'avoir et la facture pour le règlement. Une remise de 2,00 % est calculée sur l'avoir. Par conséquent, la valeur totale de l'avoir est réduite à 198,00.
+Le 29 juin, April crée une facture de 1 000,00 pour le fournisseur 3050. Le 2 juillet, elle crée un avoir pour 200,00. Dans la page **Fournisseurs**, April ouvre la page **Règlement des transactions**. Elle peut utiliser la page **Règlement des transactions** pour marquer l'avoir et la facture pour le règlement. Une remise de 2,00 % est calculée sur l'avoir. Par conséquent, la valeur totale de l'avoir est réduite à 198,00.
 
 | Marquer                     | Utiliser un escompte de règlement | N° document   | Compte | Date      | Date d'échéance  | Facture | Montant dans la devise de transaction | Devise | Montant à régler |
 |--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -65,6 +68,8 @@ Elle peut revoir les transactions fournisseur dans la page **Transactions fourni
 | Inv-10071  |                  | 7/2/2015  | CR10071 | 200,00                               |                                       | 0,00    | USD      |
 | DISC-10071 |  Escompte de règlement   | 7/2/2015  |         | 2,00                                 |                                       | 0,00    | USD      |
 | DISC-10071 |  Escompte de règlement   | 7/2/2015  |         |                                      | 2,00                                  | 0,00    | USD      |
+
+
 
 
 

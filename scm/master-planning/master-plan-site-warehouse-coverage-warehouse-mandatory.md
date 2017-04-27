@@ -1,5 +1,5 @@
 ---
-title: "Planification de la demande pour la couverture de site et d&quot;entrepôt, entrepôt obligatoire"
+title: "Planification pour la couverture du site et de l&quot;entrepôt, entrepôt obligatoire"
 description: "Cette rubrique décrit comment un article disposant d&quot;un site et d&quot;un entrepôt comme dimensions de couverture est planifié. La dimension d&quot;entrepôt n&quot;est pas obligatoire."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="master-planning-for-site-and-warehouse-coverage-warehouse-mandatory"></a>Planification de la demande pour la couverture de site et d'entrepôt, entrepôt obligatoire
+# <a name="master-planning-for-site-and-warehouse-coverage-warehouse-mandatory"></a>Planification pour la couverture du site et de l'entrepôt, entrepôt obligatoire
+
+[!include[banner](../includes/banner.md)]
+
 
 Cette rubrique décrit comment un article disposant d'un site et d'un entrepôt comme dimensions de couverture est planifié. La dimension d'entrepôt n'est pas obligatoire.
 
@@ -38,10 +41,10 @@ Ce scénario de planification implique les conditions suivantes :
 -   Les dimensions de site et d'entrepôt sont définies pour la planification de la couverture. D'autres dimensions peuvent également être définies pour la planification de la couverture. Elles ne sont toutefois pas affectées par la fonctionnalité multisite.
 
 Le graphique suivant illustre l'exécution du calcul de planification. Les paramètres indiqués dans le graphique, et leurs emplacements, sont les suivants :
--   The warehouse is set to **Manual**. Cliquez sur ** entrepôts &gt; de répartition &gt; de stock Paramétrage &gt; de Gestion des stocks **. Dans l'organisateur **Planification**, voir le champ **Manuel**.
--   La couverture d'article est définie pour l'article. Cliquez sur ** produits lancés de produits &gt; de gestion&gt; des informations sur le produit **. Sélectionnez l'article, puis, dans le volet Actions, sous ** plan ** l'onglet, cliquez sur ** couverture de l'article **.
--   Des relations de rechargement sont définies pour l'entrepôt. Cliquez sur ** entrepôts &gt; de répartition &gt; de stock Paramétrage &gt; de Gestion des stocks **. Dans l'organisateur **Planification**, voir le groupe de champs **Entrepôt principal**.
--   Le type de commande par défaut est défini à Production, Commande fournisseur, ou Kanban. Cliquez sur ** produits lancés de produits &gt; de gestion&gt; des informations sur le produit **. Sélectionnez l'article, puis, dans le volet Actions, sous ** plan ** l'onglet, cliquez sur ** transférez les paramètres d'ordre **. Dans l'écran **Paramètres de commande par défaut**, voir le **Type de commande par défaut**.
+-   L'entrepôt est défini sur **Manuel**. Cliquez sur **Gestion des stocks &gt; Paramétrage &gt; Décomposition du stock &gt; Entrepôts**. Dans l'organisateur **Planification**, voir le champ **Manuel**.
+-   La couverture d'article est définie pour l'article. Cliquez sur **Gestion des informations sur les produits &gt; Produits &gt; Produits lancés**. Sélectionnez l'article, puis dans le volet Actions, sous l'onglet **Planifier**, cliquez sur **Couverture de l'article**.
+-   Des relations de rechargement sont définies pour l'entrepôt. Cliquez sur **Gestion des stocks &gt; Paramétrage &gt; Décomposition du stock &gt; Entrepôts**. Dans l'organisateur **Planification**, voir le groupe de champs **Entrepôt principal**.
+-   Le type de commande par défaut est défini à Production, Commande fournisseur, ou Kanban. Cliquez sur **Gestion des informations sur les produits &gt; Produits &gt; Produits lancés**. Sélectionnez l'article, puis dans le volet Actions, sous l'onglet **Planifier**, cliquez sur **Paramètres de commande par défaut**. Dans l'écran **Paramètres de commande par défaut**, voir le **Type de commande par défaut**.
 
 ![Couverture de l'entrepôt et du site de la demande en cas d'obligation](./media/multisitedemandexplosionscenarioforsiteandwarehousecoveragewarehousemandatory.jpg)
 
@@ -50,7 +53,7 @@ Le graphique suivant illustre l'exécution du calcul de planification. Les param
 <a name="see-also"></a>Voir également :
 --------
 
-[Master planning and multisite functionality](master-plan-multisite-functionality.md)
+[Planification et fonctionnalité multisite](master-plan-multisite-functionality.md)
 
 [Planification - couverture du site, entrepôt obligatoire](master-plan-site-coverage-warehouse-mandatory.md)
 
@@ -59,5 +62,7 @@ Le graphique suivant illustre l'exécution du calcul de planification. Les param
 [Planification - couverture du site et de l'entrepôt, entrepôt non obligatoire](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
 
 [Planification - Méthode de détermination de la version de nomenclature](master-plan-bom-version-determined.md)
+
+
 
 

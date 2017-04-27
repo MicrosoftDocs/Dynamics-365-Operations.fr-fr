@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reduction-keys"></a>Clés de réduction
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article fournit des exemples qui indiquent comment paramétrer une clé de réduction. Il inclut des informations sur les différents paramètres de clé de réduction et les résultats de chacun d'entre eux. Vous pouvez utiliser une clé de réduction pour définir la méthode permettant de réduire les besoins de prévision.
 
 <a name="example-1-percent---reduction-key-forecast-reduction-principle"></a>Exemple 1 : Pourcentage - principe de réduction prévisionnelle de la clé de réduction
@@ -58,7 +61,7 @@ Si vous lancez le calendrier des prévisions le 1er janvier, les besoins de pré
 | Avril                | 750                       |
 | Mai à décembre | 1 000                     |
 
-## <a name="example-2-transactions--reduction-key-forecast-reduction-principle"></a>Exemple 2 : Principe de réduction des prévisions de clé de réduction de transactions
+## <a name="example-2-transactions--reduction-key-forecast-reduction-principle"></a>Exemple 2 : Transactions  principe de réduction prévisionnelle de la clé de réduction
 Cet exemple décrit la manière dont les commandes réelles, qui se produisent durant les périodes définies par la clé de réduction, réduisent les besoins de prévision de la demande.
 
 -   Dans la page **Plans généraux**, dans le champ **Principe de réduction**, sélectionnez **Transactions - clé de réduction**.
@@ -82,7 +85,7 @@ Si vous utilisez les mêmes prévisions de la demande de 1 000 pièces par mois,
 | Avril                | 881                       |
 | Mai à décembre | 1 000                     |
 
-## <a name="example-3-transactions--dynamic-period-forecast-reduction-principle"></a>Exemple 3 : Principe dynamique de réduction des prévisions de période de transactions
+## <a name="example-3-transactions--dynamic-period-forecast-reduction-principle"></a>Exemple 3 : Transactions  principe de réduction prévisionnelle de la période dynamique
 Dans la plupart des cas, les systèmes sont paramétrés de telle sorte que les transactions réduisent la prévision de la demande durant des périodes prévisionnelles spécifiques : semaines, mois, etc. Ces périodes sont définies dans la clé de réduction. Toutefois, la durée entre deux lignes de prévision de la demande peut également *impliquer* une période.
 
 1.  Créez une prévision de la demande pour les dates et les quantités suivantes.
@@ -129,6 +132,8 @@ Voici un résumé de la réduction **Transactions - période dynamique** :
 <a name="see-also"></a>Voir également :
 --------
 
-[Master plans](master-plans.md)
+[Plans généraux](master-plans.md)
+
+
 
 

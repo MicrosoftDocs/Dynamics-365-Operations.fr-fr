@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="direct-deliveries"></a>Livraison directe
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article fournit des informations sur les livraisons directes. Les livraisons directes sont des livraisons expédiées directement du fournisseur au client.
 
 La livraison directe représente un gain en matière de délai de livraison et réduit les coûts associés au transport de stock car vous n'entreposez pas les produits dans votre entrepôt avant de les expédier au client.  
@@ -49,5 +52,7 @@ Si vous tentez de supprimer une ligne de commande client avec le type de livrais
 
 ## <a name="warehouse"></a>Entrepôt
 Lorsque vous créez une livraison directe, les articles que vous vendez n'arrivent jamais physiquement à votre entrepôt. Toutefois, vous devez toujours spécifier un entrepôt dans la ligne de commande client. De même, les besoins en matière de prélèvement peuvent être spécifiés dans le groupe de modèles d'article pour l'article. Toutefois, comme les articles n'arrivent jamais physiquement à votre entrepôt, ces besoins sont ignorés lorsque la commande client est une livraison directe.
+
+
 
 

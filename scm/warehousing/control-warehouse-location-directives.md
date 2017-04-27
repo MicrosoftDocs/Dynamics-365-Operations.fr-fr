@@ -1,5 +1,5 @@
 ---
-title: "Travail d&quot;entrepôt de contrôle à l&quot;aide de les modèles et des instructions du lieu de travail"
+title: "Contrôler le travail d&quot;entrepôt à l&quot;aide de modèles de travail et d&quot;instructions d&quot;emplacement"
 description: "Cet article décrit comment utiliser les modèles de travail et les instructions d&quot;emplacement pour déterminer comment et à quel endroit effectuer les travaux dans l&quot;entrepôt."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Travail d'entrepôt de contrôle à l'aide de les modèles et des instructions du lieu de travail
+# <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Contrôler le travail d'entrepôt à l'aide de modèles de travail et d'instructions d'emplacement
+
+[!include[banner](../includes/banner.md)]
+
 
 Cet article décrit comment utiliser les modèles de travail et les instructions d'emplacement pour déterminer comment et à quel endroit effectuer les travaux dans l'entrepôt.
 
@@ -40,7 +43,7 @@ Les paramètres dans la définition d'en-tête de travail peuvent être utilisé
 
 Les lignes de travail représentent les tâches physiques requises afin de traiter le travail. Par exemple, pour un processus sortant d'entrepôt, il peut y avoir une ligne de travail pour prélever les articles dans l'entrepôt et une autre ligne pour ranger ces articles dans une zone de transit. Il peut ensuite y avoir une ligne supplémentaire pour prélever les articles dans la zone de transit, et une autre ligne pour mettre les articles dans un camion dans le cadre du processus de chargement. Vous pouvez définir un *code directif *sur les lignes de modèle de travail. Un code directif est lié à une instruction d'emplacement et donc permet de garantir que le travail d'entrepôt est traité dans l'emplacement approprié de l'entrepôt. 
 
-Vous pouvez paramétrer une requête pour contrôler le moment où un modèle particulier de travail est utilisé. Par exemple, vous pouvez définir une limitation afin qu'un modèle spécifique puisse être utilisé pour le travail uniquement dans un entrepôt particulier. Sinon, vous pouvez avoir plusieurs modèles utilisés pour créer le travail pour le traitement de la commande client sortante, en fonction de l'origine des ventes. Le système utilise ** numéro de souche ** le champ pour déterminer l'ordre dans lequel les modèles disponibles de travail sont évalués dans. Par conséquent, si vous avez une requête très spécifique pour un modèle spécifique de travail, vous devez lui attribuer un petit numéro de souche. Cette requête sera alors évaluée avant d'autres requêtes plus générales. 
+Vous pouvez paramétrer une requête pour contrôler le moment où un modèle particulier de travail est utilisé. Par exemple, vous pouvez définir une limitation afin qu'un modèle spécifique puisse être utilisé pour le travail uniquement dans un entrepôt particulier. Sinon, vous pouvez avoir plusieurs modèles utilisés pour créer le travail pour le traitement de la commande client sortante, en fonction de l'origine des ventes. Le système utilise le champ **N° de souche** pour déterminer l'ordre dans lequel les modèles de travail disponibles sont évalués. Par conséquent, si vous avez une requête très spécifique pour un modèle particulier de travail, vous devez lui attribuer un faible numéro de souche. Cette requête sera alors évaluée avant d'autres requêtes plus générales. 
 
 Pour arrêter ou suspendre un processus de travail, vous pouvez utiliser le paramètre **Arrêter le travail** dans la ligne de travail. Dans ce cas, le collaborateur qui exécute le travail n'est pas invité à effectuer l'étape de la ligne de travail suivante. Pour passer à l'étape suivante, ce collaborateur ou un autre doit resélectionner le travail. Vous pouvez également séparer les tâches dans un travail en utilisant un autre *ID classe de travail *dans les lignes de modèle de travail.
 
@@ -53,12 +56,14 @@ Quant aux modèles de travail, vous pouvez paramétrer une requête pour déterm
 
 Les lignes d'instruction d'emplacement définissent des restrictions supplémentaires sur l'application des règles de recherche d'emplacement. Vous pouvez spécifier une quantité minimale et une quantité maximale auxquelles l'instruction doit s'appliquer, vous pouvez spécifier que l'instruction doit concerner une unité de stock spécifique. Par exemple, si l'unité de mesure est en palettes, les articles en palettes peuvent être rangés dans un emplacement spécifique. Vous pouvez également indiquer si la quantité peut être fractionnée entre plusieurs emplacements. Comme l'en-tête des instructions de l'emplacement, chaque ligne d'instruction d'emplacement possède un numéro de souche qui détermine l'ordre des lignes dans lequel les lignes sont évaluées. 
 
-Les instructions d'emplacement ont un niveau de détail supplémentaire : *actions d'instruction d'emplacement*. Vous pouvez définir plusieurs actions d'instruction d'emplacement pour chaque ligne. Là aussi, un numéro de souche est utilisé pour déterminer l'ordre des actions sont évaluées dans. À ce niveau, vous pouvez paramétrer une requête pour définir comment trouver le meilleur emplacement dans l'entrepôt. Vous pouvez également utiliser les paramètres **Stratégie **prédéfinis pour rechercher un emplacement optimal.
+Les instructions d'emplacement ont un niveau de détail supplémentaire : *actions d'instruction d'emplacement*. Vous pouvez définir plusieurs actions d'instruction d'emplacement pour chaque ligne. De nouveau, un numéro de souche est utilisé pour déterminer l'ordre dans lequel les actions sont évaluées. À ce niveau, vous pouvez paramétrer une requête pour définir la manière dont rechercher le meilleur emplacement dans l'entrepôt. Vous pouvez également utiliser les paramètres **Stratégie **prédéfinis pour rechercher un emplacement optimal.
 
 ### <a name="example-of-the-use-of-location-directives"></a>Exemple d'utilisation des instructions d'emplacement
 
 Pour cet exemple, nous examinerons un processus de commande fournisseur dans lequel l'instruction d'emplacement doit trouver une capacité libre dans un entrepôt pour des articles en stock qui viennent d'être enregistrés au quai de réception. Nous voulons d'abord essayer de trouver de la capacité libre dans l'entrepôt par la consolidation avec le stock disponible existant. Si la consolidation n'est pas possible, nous souhaitons alors trouver un emplacement vide. 
 
 Pour ce scénario, nous devons définir deux actions d'instruction d'emplacement. La première action dans l'ordre doit utiliser la stratégie **Consolider**, et la deuxième doit utiliser la stratégie **Emplacement vide sans travail entrant**. À moins de définir une troisième action pour gérer un scénario de dépassement de capacité, deux résultats sont possibles lorsqu'il n'y a plus de capacité dans l'entrepôt : le travail peut être créé même si aucun emplacement n'est défini, ou le processus de création de travail peut échouer. Les résultats sont déterminés par le paramétrage dans la page **Échecs d'instruction d'emplacement**, dans laquelle vous pouvez décider de sélectionner ou non l'option **Arrêter le travail à l'échec d'instruction d'emplacement** pour chaque type d'ordre de travail.
+
+
 
 

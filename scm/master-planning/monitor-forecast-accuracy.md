@@ -1,6 +1,6 @@
 ---
-title: "Précision de prévision de surveiller"
-description: "Cet article décrit les types de précision prévue à Microsoft Dynamics 365 pour les opérations, calcule et explique comment vous pouvez afficher les valeurs de précision."
+title: "Surveiller la précision de la prévision"
+description: "Cet article décrit les types de précision de prévision que Microsoft Dynamics 365 for Operations calcule, et explique comment vous pouvez afficher les valeurs de précision."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,23 +25,28 @@ ms.lasthandoff: 03/29/2017
 
 ---
 
-# <a name="monitor-forecast-accuracy"></a>Précision de prévision de surveiller
+# <a name="monitor-forecast-accuracy"></a>Surveiller la précision de la prévision
 
-Cet article décrit les types de précision prévue à Microsoft Dynamics 365 pour les opérations, calcule et explique comment vous pouvez afficher les valeurs de précision.
+[!include[banner](../includes/banner.md)]
 
-Dynamics 365 pour les opérations calcule les types suivants de précision prévue :
+
+Cet article décrit les types de précision de prévision que Microsoft Dynamics 365 for Operations calcule, et explique comment vous pouvez afficher les valeurs de précision.
+
+Dynamics 365 for Operations calcule les types de précision de prévision suivants :
 
 -   Précision de prévision historique, en comparant la prévision historique que la planification utilise à la demande historique. Pour afficher les valeurs (à la fois les valeurs absolues et les valeurs de pourcentage) pour la précision de prévision historique, cliquez sur **Afficher la précision** dans la page **Détails de prévision de la demande**.
 -   La précision estimée du modèle de prévision utilisé pour générer les prévisions. Vous pouvez afficher le pourcentage de précision sous **Détails du modèle - MAPE** dans la page **Détails de prévision de la demande**. 
 
-** Remarque : ** Si vous utilisez Dynamics 365 pour le service azuré de Machine Learning Microsoft de prévision de la demande d'opérations, le calcul de la précision modèle interne est basé sur l'ensemble de données de test. Pour spécifier la taille de l'ensemble de données de test, définissez ** POURCENTAGE RÉGLÉ\_de TAILLE\_\_de TEST ** le paramètre sous ** des paramètres de prévision de la demande ** la page. Par exemple, si vous définissez la valeur sur **20**, les derniers 20 % des données historiques seront utilisés pour calculer la précision du modèle interne.
+**Remarque :** si vous utilisez le service Microsoft Azure Machine Learning de prévision de la demande de Dynamics 365 for Operations, le calcul de la précision du modèle interne est basé sur l'ensemble de données de test. Pour spécifier la taille de l'ensemble de données de test, définissez le paramètre **TEST\_SET\_SIZE\_PERCENT** dans la page **Paramètres de prévision de la demande**. Par exemple, si vous définissez la valeur sur **20**, les derniers 20 % des données historiques seront utilisés pour calculer la précision du modèle interne.
 
 
 <a name="see-also"></a>Voir également :
 --------
 
-[Authorizing the adjusted forecast](authorize-adjusted-forecast.md)
+[Autorisation de la prévision ajustée](authorize-adjusted-forecast.md)
 
-[Remove outliers from historical transaction data when calculating a demand forecast](remove-historical-outliers-calculating-demand-forecast.md)
+[Supprimer les valeurs hors norme des données de transaction historiques lors du calcul d'une prévision de la demande](remove-historical-outliers-calculating-demand-forecast.md)
+
+
 
 

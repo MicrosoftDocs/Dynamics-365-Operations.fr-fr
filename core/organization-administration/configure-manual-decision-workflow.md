@@ -1,5 +1,5 @@
 ---
-title: "Configuration d&quot;une décision manuelle dans un workflow"
+title: "Configurer une décision manuelle dans un workflow"
 description: "Cette rubrique explique comment configurer les différentes propriétés d&quot;une décision manuelle."
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-a-manual-decision-in-a-workflow"></a>Configuration d'une décision manuelle dans un workflow
+# <a name="configure-a-manual-decision-in-a-workflow"></a>Configurer une décision manuelle dans un workflow
+
+[!include[banner](../includes/banner.md)]
+
 
 Cette rubrique explique comment configurer les différentes propriétés d'une décision manuelle.
 
@@ -95,8 +98,8 @@ Vous pouvez envoyer des notifications aux personnes lorsqu'une décision doit ê
 
 1.  Dans le volet gauche, cliquez sur **Notifications**.
 2.  Activez la case à cocher en regard des événements pour lesquels les notifications doivent être envoyées.
-    -   ** le choix 1\]\[** – L'utilisateur affecté a choisi ** Choix 1\]\[**.
-    -   ** le choix 2\]\[** – L'utilisateur affecté a choisi ** Choix 2\]\[**.
+    -   **\[[Choix 1\]** – L'utilisateur affecté a choisi **\[Choix 1\]**.
+    -   **\[[Choix 2\]** – L'utilisateur affecté a choisi **\[Choix 2\]**.
     -   **Déléguer** – L'utilisateur affecté a affecté la décision à un autre utilisateur.
     -   **Réaffecter** – L'utilisateur affecté n'a pas pris la décision dans le délai imparti.
 
@@ -148,10 +151,10 @@ Vous pouvez envoyer des notifications aux personnes lorsqu'une décision doit ê
     </tr>
     <tr class="odd">
     <td>Utilisateur</td>
-    <td>Microsoft Dynamics spécifique 365 pour les utilisateurs d'opérations</td>
+    <td>Utilisateurs Microsoft Dynamics 365 for Operations spécifiques</td>
     <td><ol>
     <li>Sélectionnez <strong>Utilisateur</strong>, puis cliquez sur l'onglet <strong>Utilisateur</strong>.</li>
-    <li><strong>Utilisateurs disponibles</strong> La liste inclut tous les Dynamics 365 pour les utilisateurs d'opérations. Sélectionnez les utilisateurs à qui envoyer les notifications, puis déplacez-les dans la liste <strong>Utilisateurs sélectionnés</strong>.</li>
+    <li>La liste <strong>Utilisateurs disponibles</strong> inclut tous les utilisateurs Dynamics 365 for Operations. Sélectionnez les utilisateurs à qui envoyer les notifications, puis déplacez-les dans la liste <strong>Utilisateurs sélectionnés</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -213,10 +216,10 @@ Procédez comme suit pour indiquer à qui affecter une décision manuelle.
     </tr>
     <tr class="even">
     <td>Utilisateur</td>
-    <td>Dynamics spécifique 365 pour les utilisateurs d'opérations</td>
+    <td>Utilisateurs Dynamics 365 for Operations spécifiques</td>
     <td><ol>
     <li>Sélectionnez <strong>Utilisateur</strong>, puis cliquez sur l'onglet <strong>Utilisateur</strong>.</li>
-    <li><strong>Utilisateurs disponibles</strong> La liste inclut tous les Dynamics 365 pour les utilisateurs d'opérations. Sélectionnez les utilisateurs à qui vous souhaitez affecter la décision, puis déplacez-les dans la liste <strong>Utilisateurs sélectionnés</strong>.</li>
+    <li>La liste <strong>Utilisateurs disponibles</strong> inclut tous les utilisateurs Dynamics 365 for Operations. Sélectionnez les utilisateurs à qui vous souhaitez affecter la décision, puis déplacez-les dans la liste <strong>Utilisateurs sélectionnés</strong>.</li>
     </ol></td>
     </tr>
     <tr class="odd">
@@ -235,7 +238,7 @@ Procédez comme suit pour indiquer à qui affecter une décision manuelle.
     <li>Dans la liste <strong>Nom de file d'attente</strong>, sélectionnez <strong>File d'attente conditionnelle</strong>.</li>
     </ol></li>
     </ol>
-    <strong>Remarque :</strong> cette option est utilisé que pour certaines workflows, tels que la gestion des incidents.</td>
+    <strong>Remarque :</strong> Cette option est utilisée uniquement pour certains workflows, tels que Gestion des dossiers.</td>
     </tr>
     </tbody>
     </table>
@@ -258,9 +261,9 @@ Si un utilisateur ne prend pas la décision dans le délai imparti, la décision
     |----------|----------------------------|
     | 1        | Affecter à : Donna           |
     | 2        | Affecter à : Erin            |
-    | 3        | Action finale : Choix 1\]\[ |
+    | 3        | Action finale : \[Choix 1\] |
 
-    Dans cet exemple, le système affecte la décision en retard à Donna. Si celle-ci ne prend pas la décision dans le délai imparti, le système affecte la décision à Erin. Si celle-ci ne prend pas la décision dans le délai imparti, le système sélectionne ** Choix 1\]\[** comme décision.
+    Dans cet exemple, le système affecte la décision en retard à Donna. Si celle-ci ne prend pas la décision dans le délai imparti, le système affecte la décision à Erin. Si celle-ci ne prend pas la décision dans le délai imparti, le système sélectionne le **\[Choix 1\]** comme décision.
 3.  Pour ajouter un utilisateur dans le chemin de réaffectation, cliquez sur **Ajouter une réaffectation**. Sélectionnez l'une des options du tableau suivant et suivez les étapes supplémentaires concernant l'option avant de passer à l'étape 4.
     <table>
     <colgroup>
@@ -303,10 +306,10 @@ Si un utilisateur ne prend pas la décision dans le délai imparti, la décision
     </tr>
     <tr class="odd">
     <td>Utilisateur</td>
-    <td>Dynamics spécifique 365 pour les utilisateurs d'opérations</td>
+    <td>Utilisateurs Dynamics 365 for Operations spécifiques</td>
     <td><ol>
     <li>Sélectionnez <strong>Utilisateur</strong>, puis cliquez sur l'onglet <strong>Utilisateur</strong>.</li>
-    <li><strong>Utilisateurs disponibles</strong> La liste inclut tous les Dynamics 365 pour les utilisateurs d'opérations. Sélectionnez les utilisateurs à qui réaffecter la décision, puis déplacez-les dans la liste <strong>Utilisateurs sélectionnés</strong>.</li>
+    <li>La liste <strong>Utilisateurs disponibles</strong> inclut tous les utilisateurs Dynamics 365 for Operations. Sélectionnez les utilisateurs à qui réaffecter la décision, puis déplacez-les dans la liste <strong>Utilisateurs sélectionnés</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -335,6 +338,8 @@ Si la décision doit être prise dans un certain délai, procédez comme suit. *
     -   **Années** – Permet de sélectionner le jour, la semaine et le mois limites pour prendre la décision. Par exemple, vous pouvez décider que la décision soit prise d'ici le vendredi de la troisième semaine de décembre.
 
 4.  Si le délai est dépassé, le système prend la décision. Dans la liste **Action**, sélectionnez l'option que le système doit sélectionner.
+
+
 
 
 

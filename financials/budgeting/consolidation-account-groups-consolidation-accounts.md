@@ -1,6 +1,6 @@
 ---
 title: "Groupes de comptes de consolidation et comptes de consolidation supplémentaires"
-description: "Cette rubrique fournit des informations sur les groupes de comptes de consolidation et des comptes de consolidation supplémentaires, et la elles sont utilisées dans Microsoft Dynamics 365 pour les opérations."
+description: "Cette rubrique fournit des informations sur les groupes de comptes de consolidation et les comptes de consolidation supplémentaires, et explique comment ils sont utilisés dans Microsoft Dynamics 365 for Operations."
 author: RobinARH
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,25 +26,30 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>Groupes de comptes de consolidation et comptes de consolidation supplémentaires
 
-Cette rubrique fournit des informations sur les groupes de comptes de consolidation et des comptes de consolidation supplémentaires, et la elles sont utilisées dans Microsoft Dynamics 365 pour les opérations.
+[!include[banner](../includes/banner.md)]
+
+
+Cette rubrique fournit des informations sur les groupes de comptes de consolidation et les comptes de consolidation supplémentaires, et explique comment ils sont utilisés dans Microsoft Dynamics 365 for Operations.
 
 <a name="consolidation-account-groups"></a>Groupes de comptes de consolidation
 ----------------------------
 
-Les groupes de comptes de consolidation vous permettent de créer des groupes de comptes à utiliser pour regrouper les données. Le plus souvent, un groupe de comptes de consolidation représente un plan de comptes gouvernement- mandaté ou met en correspondance les comptes à un groupe qui est défini par Retail Siège de la société. Vous pouvez trouver des groupes de comptes de consolidation dans ** paramétrage ** la zone ** des consolidations ** du module. Lorsque vous ajoutez un nouveau groupe, vous entrez un identificateur unique pour le groupe de comptes et un nom.
+Les groupes de comptes de consolidation permettent de créer des groupes de comptes à utiliser pour consolider les données. Le plus souvent, un groupe de comptes de consolidation représente un plan de comptes imposé par l'administration ou met en correspondance des comptes avec un groupe défini par le siège de la société. Vous pouvez rechercher des groupes de comptes de consolidation dans la zone **Paramétrage** du module **Consolidations**. Lorsque vous ajoutez un nouveau groupe, vous entrez un identificateur unique pour le groupe de comptes et un nom.
 
 ## <a name="additional-consolidation-accounts"></a>Comptes de consolidation supplémentaires
-Les comptes de consolidation supplémentaires permettent d'affecter un compte d'un plan de comptes existant à un groupe de comptes de consolidation. Vous pouvez spécifier une valeur et un nom de compte de consolidation. 
+Les comptes de consolidation supplémentaires permettent d'affecter un compte issu d'un plan de comptes existant à un groupe de comptes de consolidation. Vous pouvez ensuite spécifier une valeur et un nom de compte de consolidation. 
 
-Vous pouvez trouver des comptes de consolidation supplémentaires dans ** paramétrage ** la zone ** des consolidations ** du module. Lorsque vous créez un compte de consolidation, vous devez spécifier les informations suivantes :
+Vous pouvez rechercher des comptes de consolidation supplémentaires dans la zone **Paramétrage** du module **Consolidations**. Lorsque vous créez un compte de consolidation, vous devez spécifier les informations suivantes :
 
--   ** Compte principal ** – ce champ est une recherche cette présente tous les comptes principaux basées sur le plan de comptes sélectionné dans la page. Lorsque vous sélectionnez un compte, le nom est automatiquement entré dans ** nom du compte principal ** le champ.
--   ** Groupe de comptes de consolidation ** – Ce champ permet de spécifier le groupe auquel affecter le compte. Si vous consolidez de deux manières différentes, vous devez ajouter le même compte à chacun des quatre groupes de comptes de consolidation.
--   ** Compte de consolidation ** – Permet d'entrer la valeur du compte de consolidation. Cette valeur ne doit pas être un compte d'un plan de comptes. Ce peut être n'importe quelle valeur dont vous avez besoin.
--   ** Nom du compte de consolidation ** – Permet d'entrer le nom du compte comme vous souhaitez voir apparaître dans les recherches et des états.
--   ** Niveau de SAT ** – Ce champ est utilisé pour déclarer des relevés de compte aux administrations fiscales mexicaines. 
+-   **Compte principal** – Ce champ est une recherche qui affiche tous les comptes principaux basés sur le plan de comptes sélectionné dans la page. Lorsque vous sélectionnez un compte, le nom est automatiquement entré dans le champ **Nom du compte principal**.
+-   **Groupe de comptes de consolidation** – Ce champ permet de spécifier le groupe auquel affecter le compte. Si vous effectuez une consolidation de deux façons différentes, vous devez ajouter le même compte aux quatre groupes de comptes de consolidation.
+-   **Compte de consolidation** – Permet d'entrer la valeur du compte de consolidation. Cette valeur ne doit pas être un compte issu d'un plan de comptes. Il peut s'agir de n'importe quelle valeur de votre choix.
+-   **Nom du compte de consolidation** – Permet d'entrer le nom du compte tel qu'il doit apparaître dans les recherches et les états.
+-   **Niveau SAT** – Ce champ est utilisé pour déclarer des relevés de compte aux autorités fiscales mexicaines. 
 
-Lorsque vous avez terminé de créer les groupes de comptes de consolidation et comptes de consolidation supplémentaires, vous pouvez sélectionner le groupe dans le processus de consolidation en ligne.
+Lorsque vous avez terminé de créer vos groupes de comptes de consolidation et vos comptes de consolidation supplémentaires, vous pouvez sélectionner le groupe dans le processus Consolidation en ligne.
+
+
 
 
 

@@ -28,18 +28,21 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-tax-overview"></a>Vue d'ensemble de la taxe
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article offre une vue d'ensemble du système de taxes. Il explique les éléments du paramétrage de la taxe et comment ils fonctionnent ensemble.
 
 <a name="overview"></a>Vue d'ensemble
 --------
 
-La zone de taxe prend en charge de nombreux types de taxes indirectes, tels que la taxe, la taxe sur la valeur ajoutée (VAT), les marchandises et la taxe de services (GST), les frais basés sur une unité, et la retenue à la source. Ces taxes sont calculées et documentées lors de les transactions d'achat et de vente. Il elles, doivent être déclarées et payées à l'administration fiscale. 
+L'infrastructure de taxe prend en charge de nombreux types de taxes indirectes, tels que la taxe, la taxe sur la valeur ajoutée (VAT), la Taxe sur les Produits et Services (GST), les frais basés sur l'unité et la retenue à la source. Ces taxes sont calculées et documentées lors des transactions d'achat et de vente. Régulièrement, elles doivent être déclarées et payées à l'administration fiscale. 
 
 Le diagramme suivant indique les entités du paramétrage fiscal et comment elles sont liées.
 
-![TaxOverview [] (. /media/taxoverview1-300x209.jpg)](. /media/taxoverview1.jpg) 
+[![TaxOverview](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
 
-Pour chaque taxe qu'une société doit représenter, code taxe doit être défini. Un code taxe enregistre les taux et les règles de calcul de la taxe. 
+Pour chaque taxe qu'une société doit justifier, un code taxe doit être défini. Un code taxe enregistre les taux et les règles de calcul de la taxe. 
 
 Chaque code taxe doit être lié à une période de règlement de la taxe. Les périodes de règlement de la taxe définissent les intervalles auxquels la taxe doit être déclarée et payée à l'administration fiscale. Chaque période de règlement de la taxe doit être affectée à une administration fiscale. Une administration fiscale représente l'entité à laquelle la taxe est déclarée et payée. Elle définit également la structure de la déclaration de taxe. Les administrations fiscales peuvent être associées à des comptes fournisseur. 
 
@@ -69,17 +72,17 @@ Sur chaque transaction (ventes/lignes de document d'achat, journaux, etc.), vous
 Sur chaque transaction, vous pouvez rechercher la taxe calculée en ouvrant la page **Transaction de taxe**. Vous pouvez rechercher la taxe pour une ligne de document ou pour l'intégralité du document. Pour certains documents (par exemple, factures fournisseur et journaux des opérations diverses), vous pouvez ajuster la taxe calculée si le document d'origine présente des écarts de montants.
 
 ## <a name="sales-tax-settlement-and-reporting"></a>Règlement et déclaration de la taxe
-La taxe doit être déclarée et payée à l'administration fiscale à intervalles réglementés (mensuels, trimestriels, etc.). Microsoft Dynamics 365 pour les opérations fournit des fonctionnalités qui vous permet de régler la taxe pour l'intervalle et la contrepartie des soldes du compte de règlement de taxe, comme spécifié dans les groupes de validation dans la comptabilité. Vous pouvez accéder à cette fonctionnalité sur ** taxe de règlement et de valider ** la page. Vous devez spécifier la période de règlement de la taxe que la taxe doit être réglée. 
+La taxe doit être déclarée et payée à l'administration fiscale à intervalles réglementés (mensuels, trimestriels, etc.). Microsoft Dynamics 365 for Operations offre une fonctionnalité qui vous permet de régler les comptes de taxe pour l'intervalle et de compenser les soldes dans le compte de règlement de la taxe, tel que cela est spécifié dans les groupes de validation dans la comptabilité. Vous pouvez accéder à cette fonctionnalité depuis la page **Régler et valider la taxe**. Vous devez spécifier la période de règlement à laquelle la taxe doit être réglée. 
 
 Une fois la taxe payée, le solde du compte de règlement de la taxe doit être équilibré par rapport au compte bancaire. Si l'administration fiscale spécifiée pour la période de règlement de la taxe est liée à un compte fournisseur, le solde de taxe est validé en tant que facture fournisseur en cours et peut être inclus dans la proposition de paiement régulière.
 
 ## <a name="conditional-sales-tax"></a>Taxe sur les encaissements
 La taxe sur les encaissements est une taxe qui est proportionnelle au montant réel payé sur une facture. Inversement, la taxe standard est calculée au moment de la facturation. La taxe sur les encaissements doit être payée à l'administration fiscale lors de la validation du paiement, et non de la facture. Lorsque la facture est validée, la transaction doit être déclarée dans l'état du registre des taxes. Toutefois, la transaction doit être exclue de la déclaration de paiement de la taxe. 
 
-Si vous activez la case à cocher de taxe sur les encaissements dans l'écran Paramètres de comptabilité, aucune taxe ne peut être déduite jusqu'à ce que vous ayez réglé la facture. Il s'agit d'une obligation légale dans certains pays ou régions.
+Si vous activez la case à cocher Taxe sur les encaissements dans l'écran Comptabilité, aucune taxe ne peut être déduite jusqu'à ce que vous ayez réglé la facture. Il s'agit d'une obligation légale dans certains pays ou régions.
 
 > [!NOTE]
-> Lorsque vous activez la case à cocher de taxe sur les encaissements, vous devez paramétrer les codes taxe et groupes de taxe, et pouvez également créer des groupes de validation dans la comptabilité, pour prendre en charge la fonctionnalité. |
+> Si vous sélectionnez la case à cocher Taxe sur les encaissements, vous devez paramétrer les codes taxe et les groupes de taxe, et créer des groupes de validations dans la comptabilité afin de prendre en charge la fonctionnalité. |
 
 ###  <a name="example"></a>Exemple
 
@@ -90,5 +93,7 @@ Vous réglez les taxes chaque mois. Le 15 juin, vous créez une facture client d
 Généralement vous devez payer 2 500 EUR à l'administration fiscale lorsque la facture est validée en juin, même si vous n'avez pas reçu le paiement du client. 
 
 Toutefois, si vous utilisez une taxe sur les encaissements, vous payez l'administration fiscale lorsque vous recevez le paiement du client, le 30 juillet.
+
+
 
 

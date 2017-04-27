@@ -1,6 +1,6 @@
 ---
 title: "Contraintes de table définies par l&quot;utilisateur et par le système"
-description: "Cet article décrit les deux types de contraintes de table pour des composants dans un modèle de configuration de produit - défini par l&quot;utilisateur et défini par le système. Les contraintes de table représentent des matrices des combinaisons d&quot;attributs autorisées dans lesquelles chaque ligne définit un ensemble de valeurs d&quot;attribut possibles."
+description: "Cet article explique les deux types de contraintes de table pour les composants d&quot;un modèle de configuration de produit : définie par l&quot;utilisateur et définie par le système. Les contraintes de table représentent des matrices des combinaisons d&quot;attributs autorisées dans lesquelles chaque ligne définit un ensemble de valeurs d&quot;attribut possibles."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,7 +29,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="system-defined-and-user-defined-table-constraints"></a>Contraintes de table définies par l'utilisateur et par le système
 
-Cet article décrit les deux types de contraintes de table pour des composants dans un modèle de configuration de produit - défini par l'utilisateur et défini par le système. Les contraintes de table représentent des matrices des combinaisons d'attributs autorisées dans lesquelles chaque ligne définit un ensemble de valeurs d'attribut possibles.
+[!include[banner](../includes/banner.md)]
+
+
+Cet article explique les deux types de contraintes de table pour les composants d'un modèle de configuration de produit : définie par l'utilisateur et définie par le système. Les contraintes de table représentent des matrices des combinaisons d'attributs autorisées dans lesquelles chaque ligne définit un ensemble de valeurs d'attribut possibles.
 
 Les contraintes de table représentent les matrices des combinaisons d'attributs autorisées pour les composants d'un modèle de configuration de produit. Chaque ligne de la table définit un ensemble de valeurs d'attribut possibles. Il existe deux types de contraintes que vous pouvez déclarer dans un modèle de configuration de produit :
 
@@ -57,11 +60,13 @@ Une contrainte de table définie par le système crée une mise en correspondanc
 
 Lorsque vous créez une contrainte de table définie par le système, sélectionnez une table, définissez éventuellement la requête à utiliser, puis associez les types d'attributs aux champs de la table sélectionnée. Les types de champs doivent faire correspondre aux types des types d'attributs.  
 
-Avant qu'une contrainte de table puisse prendre effet sur un modèle de configuration de produit, la contrainte de table doit être incluse dans une contrainte de l'un des composants du modèle. La procédure est de créer une nouvelle contrainte, sélectionne le type de contrainte de table, puis sélectionnez la définition de contrainte de table à utiliser. Enfin, tous les champs de la contrainte de table doivent être mis en correspondance avec les attributs du modèle de configuration de produit.
+Avant qu'une contrainte de table puisse prendre effet dans un modèle de configuration de produit, elle doit être incluse dans une contrainte de l'un des composants du modèle. La procédure consiste à créer une nouvelle contrainte, sélectionner le type de contrainte de table, puis sélectionner la définition de contrainte de table à utiliser. Enfin, tous les champs de la contrainte de table doivent être mis en correspondance avec les attributs du modèle de configuration de produit.
 
 <a name="see-also"></a>Voir également :
 --------
 
 [Concepts clés en matière de modèles de configuration du produit](product-configuration-models.md)
+
+
 
 

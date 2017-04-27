@@ -1,5 +1,5 @@
 ---
-title: "Règlement d&quot;un paiement partiel client ayant des périodes de remise plusieurs"
+title: "Règlement d&quot;un paiement client partiel avec plusieurs périodes de remise"
 description: "Cet article décrit la manière dont les paiements client partiels sont réglés lorsqu&quot;il existe plusieurs périodes de remise."
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Règlement d'un paiement partiel client ayant des périodes de remise plusieurs
+# <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Règlement d'un paiement client partiel avec plusieurs périodes de remise
+
+[!include[banner](../includes/banner.md)]
+
 
 Cet article décrit la manière dont les paiements client partiels sont réglés lorsqu'il existe plusieurs périodes de remise.
 
-Fabrikam propose à son client 4031 deux périodes d'escompte de règlement. Le client bénéficie d'un escompte de règlement de 2 % si la facture est payée dans les cinq jours et d'un escompte de règlement de 1 % si la facture est payée dans les 14 jours. Fabrikam propose également des escomptes de règlement sur des paiements partiels. Les paramètres de règlement sont situés sous ** des paramètres des ventes ** la page.
+Fabrikam propose à son client 4031 deux périodes d'escompte de règlement. Le client bénéficie d'un escompte de règlement de 2 % si la facture est payée dans les cinq jours et d'un escompte de règlement de 1 % si la facture est payée dans les 14 jours. Fabrikam propose également des escomptes de règlement sur des paiements partiels. Les paramètres de règlement se trouvent dans la page **Paramètres de la comptabilité client**.
 
 ## <a name="invoice"></a>Facture
-Le 25 juin, Arnie entre et valide une facture de 1.000,00 pour le client 4031. Lorsqu'il vérifie les escomptes de règlement pour la facture, il constate que le client 4031 reçoit une remise de 20,00 % si la facture est payée avant le 30 juin. Si la facture est payée avant le 9 juillet, le client reçoit une remise de 10,00 %.
+Le 25 juin, Arnie entre et valide une facture de 1 000,00 pour le client 4031. Lorsqu'il vérifie les escomptes de règlement pour la facture, il constate que le client 4031 reçoit une remise de 20,00 % si la facture est payée avant le 30 juin. Si la facture est payée avant le 9 juillet, le client reçoit une remise de 10,00 %.
 
 | Date d'escompte de règlement | Montant de l'escompte de règlement | Montant dans la devise de transaction |
 |--------------------|----------------------|--------------------------------|
@@ -92,6 +95,8 @@ Le solde de la facture est désormais de 0,00. Arnie visualise les informations 
 | DISC-10030 |  Escompte de règlement   | 6/28/2015 |         |                                      | 6,00                                  | 0,00    | USD      |
 | ARP-10031  |  Paiement         | 7/8/2015  |         |                                      | 693,00                                | 0,00    | USD      |
 | DISC-1031  |  Escompte de règlement   | 7/8/2015  |         |                                      | 7h00                                  | 0,00    | USD      |
+
+
 
 
 

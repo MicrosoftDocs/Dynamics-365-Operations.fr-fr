@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="settlement-overview-for-centralized-payments"></a>Vue d'ensemble des règlements des paiements centralisés
 
+[!include[banner](../includes/banner.md)]
+
+
 Les organisations qui comprennent plusieurs entités juridiques peuvent créer et gérer des paiements à l'aide d'une entité juridique qui assure la gestion de tous les paiements. Cela élimine le besoin d'entrer la même transaction dans plusieurs entités juridiques et permet de gagner du temps en rationalisant le processus de proposition de paiement, le processus de règlement, la modification des transactions en cours et la modification des transactions clôturées pour les paiements centralisés. 
 
 Lorsqu'un paiement client ou fournisseur est entré dans une entité juridique et est réglé avec une facture entrée dans une autre entité juridique, le règlement applicable et les transactions d’échéance sont automatiquement générés pour chaque entité juridique. Un enregistrement de règlement est créé pour chaque combinaison de facture et de paiement dans la transaction. Un nouveau numéro document est affecté à chaque enregistrement de règlement, basé sur la série de numéros de souche de document de paiement spécifiée sur la page **Paramètres de la comptabilité client** pour les clients et sur la page **Paramètres de la comptabilité fournisseur** pour les fournisseurs. 
@@ -108,6 +111,8 @@ Pour les paiements fournisseur, les transactions d'échéance dans l'entité jur
 
 ## <a name="withholding-tax"></a>Retenue à la source
 Le compte fournisseur associé à la facture est utilisé pour déterminer si la retenue à la source doit être calculée. Si la retenue à la source s'applique, elle est calculée dans l'entité juridique associée à la facture. Si les entités juridiques utilisent différentes monnaies, c'est le taux de change de l'entité juridique associée à la facture qui est utilisé.
+
+
 
 
 

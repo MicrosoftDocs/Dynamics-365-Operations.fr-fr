@@ -26,11 +26,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-a-line-item-workflow"></a>Configuration d'un workflow pour ligne
 
+[!include[banner](../includes/banner.md)]
+
+
 Cette rubrique explique comment configurer un élément de workflow pour ligne.
 
 Pour configurer un élément de workflow pour ligne, dans l'éditeur de workflow, cliquez avec le bouton droit sur l'élément, puis cliquez sur **Propriétés** pour ouvrir la page **Propriétés**. Utilisez ensuite les procédures suivantes permettent de configurer les propriétés de l'élément de workflow pour ligne.
 
-## <a name="name-the-lineitem-workflow-element"></a>Saisie d'un nom pour l'élément de workflow de lineitem
+## <a name="name-the-lineitem-workflow-element"></a>Saisie d'un nom pour l'élément de workflow pour ligne
 Procédez comme suit pour entrer un nom pour l'élément de workflow pour ligne.
 
 1.  Dans le volet gauche, cliquez sur **Paramètres de base**.
@@ -50,6 +53,8 @@ Procédez comme suit pour indiquer si le même workflow est utilisé pour traite
     6.  Pour vérifier que l'ensemble de conditions que vous avez entrées est correctement paramétré, cliquez sur **Tester**. Sur la page **Condition de workflow de test**, sélectionnez un enregistrement dans la zone **Contrôler la condition**, puis cliquez sur **Tester**. Le système évalue l'enregistrement pour déterminer s'il répond aux conditions que vous avez spécifiées. Cliquez sur **OK** ou sur **Annuler** pour revenir à la page **Propriétés**.
 
     Sous l'onglet **Workflow**, sélectionnez le workflow à utiliser pour traiter les articles de lignes qui remplissent l'ensemble de conditions que vous avez définies.
+
+
 
 
 

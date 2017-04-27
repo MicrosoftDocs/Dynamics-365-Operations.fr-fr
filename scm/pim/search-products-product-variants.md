@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="search-for-products-and-product-variants-during-order-entry"></a>Recherche de produits et de variantes de produits lors de la saisie de commande
 
+[!include[banner](../includes/banner.md)]
+
+
 Utilisez le champ <strong>Numéro de l'article </strong>pour rechercher des produits et des variantes de produits lorsque vous créez manuellement une ligne de commande client ou une ligne de commande fournisseur.  Cela vous permet de rechercher rapidement des variantes de produits lorsque vous avez uniquement la chaîne de configuration ou l'une des dimensions de produit disponibles.
 
-Parfois, avoir trop d'un événement n'est pas la meilleure situation à être dans, et il est particulièrement réel si vous vendez un certain nombre de produits similaires, et vous tentez de vous souvenir des numéros d'article ou des noms de recherche de produit pour rechercher le produit de droite pour mettre en fonction d'une commande client. Vous pouvez utiliser ** numéro d'article ** le champ sur une ligne de commande client ou une ligne de commande fournisseur comme champ de recherche. Vous pouvez entrer n'importe quelle partie du nom, du numéro ou de la dimension d'un produit, et d'obtenir une recherche qui affiche tous les articles qui correspondent au mot de recherche.
+Parfois, avoir trop de quelque chose n'est pas le plus judicieux, et c'est particulièrement vrai si vous vendez un certain nombre de produits similaires, et que vous tentez de vous souvenir des numéros d'articles ou des noms de produits pour rechercher le produit à insérer dans une commande client. Vous pouvez utiliser le champ ** Numéro d'article** sur une ligne de commande client ou une ligne de commande fournisseur comme champ de recherche. Vous pouvez entrer n'importe quelle partie du nom, du numéro ou de la dimension d'un produit, et d'obtenir une recherche qui affiche tous les articles qui correspondent au mot de recherche.
 
 ## <a name="how-search-works"></a>Procédure de recherche
 Lorsque vous recherchez des produits ou des variantes de produits, il est important de bien comprendre comment la fonction de recherche permet de trouver les produits qui correspondent au texte que vous entrez. Les principales règles de recherche pour afficher des résultats de recherche sont :
@@ -42,7 +45,7 @@ Lorsque vous recherchez des produits ou des variantes de produits, il est import
 
 ### <a name="examples"></a>Exemples
 
-Les exemples suivants utilisent des produits et des variantes de produits pour illustrer comment la recherche est traitée dans des scénarios différents. ** Conditions préalables : ** Dessous ** ventes et paramètres &gt; de recherche &gt; de paramétrage de la &gt; recherche de marketing ** &gt; ** type de recherche **, sélectionnez ** correspondance totale ** l'option.
+Les exemples suivants utilisent des produits et des variantes de produits pour illustrer comment la recherche est traitée dans des scénarios différents. **Conditions préalables :** sous **Ventes et marketing &gt; Paramétrage &gt; Recherche &gt; Paramètres de recherche** &gt; **Type de recherche**, , sélectionnez l'option **Correspondance totale**.
 
 | Type de produit     | Nom du produit    | Afficher le numéro du produit | numéro d'article | Configuration |
 |------------------|-----------------|------------------------|-------------|---------------|
@@ -56,22 +59,22 @@ Si vous entrez « 05 » vous obtiendrez uniquement la deuxième variante de prod
 
 Si vous saisissez « parleur 05 » vous n'obtiendrez aucun résultat. Cela est dû au fait que la recherche recherche le texte complet entré. La recherche n'essaiera pas de trouver « parleur » et affinera les résultats à ceux contenant « 05 ».  
 
-Vous pouvez limiter le nombre de résultats de la recherche en utilisant ** nombre de résultats ** du champ sous ** des ventes et des paramètres &gt; de recherche &gt; de paramétrage de la &gt; recherche de marketing ** la page. Si vous définissez ce champ sur 0, tous les résultats de la recherche seront renvoyés. Si le définissez sur 10, par exemple, il renverra 10 résultats de recherche au maximum.
+Vous pouvez limiter le nombre de résultats de la recherche à l'aide du champ **Nombre de résultats** sur la page **Ventes et marketing &gt; Paramétrage &gt; Recherche &gt; Paramètres de recherche**. Si vous définissez ce champ sur 0, tous les résultats de la recherche seront renvoyés. Si le définissez sur 10, par exemple, il renverra 10 résultats de recherche au maximum.
 
 ## <a name="configure-the-product-search"></a>Configuration de la recherche de produit
-Avant de pouvoir utiliser la fonction de recherche de produit et de variante de produit, procédez comme suit pour configurer la recherche de produit. [![3 suit pour configurer recherche\_AXAppFall de produit (]. /media/3-steps-to-configure-product-search_axappfall.png)](. /media/3-steps-to-configure-product-search_axappfall.png)
+Avant de pouvoir utiliser la fonction de recherche de produit et de variante de produit, procédez comme suit pour configurer la recherche de produit. [![3 étapes pour configurer la recherche de produit\_AXAppFall](./media/3-steps-to-configure-product-search_axappfall.png)](./media/3-steps-to-configure-product-search_axappfall.png)
 
 ### <a name="step-1-include-all-the-relevant-product-and-product-variant-identifiers-and-dimensions-in-the-search-criteria"></a>Étape 1 : Inclure tous les produits et identificateurs et dimensions de variantes de produits appropriés dans les critères de recherche
 
 Parmi les identificateurs et dimensions de produits et de variantes de produits selon lesquels vous pouvez effectuer la recherche, il y a **Nom du produit, numéro d'article**, **Afficher le numéro de produit, la configuration, la couleur, la taille, le style, le nom de recherche, etc.**  
 
-Vont ** les ventes et les critères &gt; de paramétrage &gt; de la &gt; recherche de marketing ** à la page. La page **Critères de recherche** vous permet de définir des critères pour le client, le prospect, et la recherche de produit. Assurez-vous de filtrer la page à l'aide de critères de recherche de produit. Vous pouvez le faire en passant à **Produit** dans le menu de la page.  
+Accédez à la page **Ventes et marketing &gt; Paramétrage &gt; Recherche &gt; Critères de recherche**. La page **Critères de recherche** vous permet de définir des critères pour le client, le prospect, et la recherche de produit. Assurez-vous de filtrer la page à l'aide de critères de recherche de produit. Vous pouvez le faire en passant à **Produit** dans le menu de la page.  
 
-Pour ajouter le numéro de produit d'affichage aux critères de recherche, cliquez sur ** nouveau ** dans le menu de la page. Elle ajoute un nouvel enregistrement dans ** des critères de recherche ** la grille. Ouvrez la recherche de colonne **Nom de champ** et choisissez **DisplayProductNumber**. Pour ajouter la configuration du produit aux critères de recherche, créer un nouvel enregistrement dans ** des critères de recherche ** la grille et a choisi ** configId ** dans ** nom de champ ** la colonne. De la même manière, créez un enregistrement avec **Nom de champ** **InventColorId** pour la dimension de la couleur, **InventSizeId** pour la dimension de la taille, et **InventStyleId** pour la dimension du style.
+Pour ajouter le numéro de produit d'affichage aux critères de recherche, cliquez sur **Nouveau** dans le menu de la page. Cela ajoute un nouvel enregistrement dans la grille **Critères de recherche**. Ouvrez la recherche de colonne **Nom de champ** et choisissez **DisplayProductNumber**. Pour ajouter la configuration du produit aux critères de recherche, créez un enregistrement dans la grille **Critères de recherche ** et choisissez **configId** dans la colonne **Nom de champ**. De la même manière, créez un enregistrement avec **Nom de champ** **InventColorId** pour la dimension de la couleur, **InventSizeId** pour la dimension de la taille, et **InventStyleId** pour la dimension du style.
 
 ### <a name="step-2-populate-the-database-table-that-is-used-for-product-search"></a>Étape 2 : Remplir la table de la base de données utilisée pour la recherche de produit
 
-Sur la page **Critères de recherche**, cliquez sur le bouton **Mettre à jour les données de recherche**. Dans la boîte de dialogue **Mettre à jour les données de recherche**, assurez-vous que **Source** est défini sur **Produit**, puis cliquez sur **OK**. Le système regroupera dans une table tous les critères de recherche sélectionnés spécifiés à l'étape 1. Si vous avez de nombreux produits et variantes de produit, cette opération peut être tout à fait prolongée et vous pouvez recevoir un avertissement. Nous vous recommandons de planifier le remplissage de la table de recherche sur le serveur de traitement par lots à une heure où le serveur n'est pas trop occupé.  
+Sur la page **Critères de recherche**, cliquez sur le bouton **Mettre à jour les données de recherche**. Dans la boîte de dialogue **Mettre à jour les données de recherche**, assurez-vous que **Source** est défini sur **Produit**, puis cliquez sur **OK**. Le système regroupera dans un tableau tous les critères de recherche sélectionnés spécifiés à l'étape 1. Si vous avez de nombreux produits et variantes de produit, cette opération peut être assez longue et vous pouvez recevoir un avertissement. Nous vous recommandons de planifier le remplissage de la table de recherche sur le serveur de traitement par lots à une heure où le serveur n'est pas trop occupé.  
 
 Tant que la table n'est pas remplie, la recherche de produit ne fournit pas de résultats corrects. Si vous ne recevez aucun résultat de recherche, assurez-vous que cette table est remplie.  
 
@@ -79,8 +82,10 @@ La table ne doit être remplie que lorsque les critères de recherche sont modif
 
 ### <a name="step-3-enable-the-lookup-for-product-search-on-sales-and-purchase-order-lines"></a>Étape 3 : Activer la recherche de produit pour les lignes de commande client et lignes de commande fournisseur
 
-Vous pouvez activer cette fonctionnalité en allant en ** des ventes et des paramètres &gt; de recherche &gt; de paramétrage de la &gt; recherche de marketing ** et en définissant ** activez la recherche ** ** Oui ** sur ** général ** l'onglet.  
+Vous pouvez activer cette fonctionnalité en accédant à **Ventes et marketing &gt; Paramétrage &gt; Recherche &gt; Paramètres de recherche** et en définissant **Activer la recherche pour la recherche** sur **Oui** dans l'onglet **Général**.  
 
 Pour l'entrée de ligne de commande client, le comportement par défaut est d'ouvrir la page **Recherche de produit** lorsque vous commencez à taper dans le champ **Numéro d'article**, puis que vous appuyez sur la touche **Tabulation**. La page **Recherche de produit** modifie le contexte lors de la création de ligne de commande et peut être considérée comme inutilement intrusive. Si vous préférez obtenir les résultats de la recherche dans une recherche et ne pas perdre le contexte pendant la saisie de la ligne de commande, vous pouvez utiliser la recherche de recherche à la place. Si vous recherchez un produit ou une variante de produit, mais que vous ne sélectionnez rien dans la recherche et que vous appuyez sur la touche **Tabulation**, la page **Recherche de produit** s'affiche.
+
+
 
 

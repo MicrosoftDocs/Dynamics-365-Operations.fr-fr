@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Paramétrage des taux d'intérêt pour un code intérêt
 
+[!include[banner](../includes/banner.md)]
+
+
 Les codes intérêt contiennent des paramètres qui déterminent quand les intérêts sont facturés et comment ils sont calculés sur les comptes qui présentent des retards.
 
 Vous pouvez paramétrer un seul code intérêt et l'appliquer à plusieurs profils de validation client, codes de facturation ou à des lignes de factures spécifiques. Lorsque les détails du code intérêt sont modifiés, toutes les fonctionnalités qui utilisent le code appliquent automatiquement les modifications aux nouvelles transactions. Vous pouvez paramétrer deux types de taux pour chaque code intérêt :
@@ -44,17 +47,17 @@ Vous pouvez paramétrer des taux d'intérêt qui calculent un pourcentage spéci
 
 -   Le montant des intérêts s'applique à toutes les devises.
 -   Vous pouvez spécifier des limites du montant des intérêts facultatives.
--   ** Pourcentage ** est sélectionné ** ** dans ** Calculez les intérêts selon ** champ sous ** codes intérêt de paramétrage ** page.
+-   L'option **Pourcentage** est sélectionnée dans le champ **Calculer les intérêts sur base de** dans la page **Paramétrer les codes intérêt**.
 
-Par exemple, pour définir le code intérêt qui donne les intérêts 5 % pour tous les deux mois que le paiement de la facture dépasse la date d'échéance de la transaction, vous entrez 2 dans ** Calculez les intérêts chaque ** le champ et sélectionnez ** mois **.
+Par exemple, pour paramétrer un code intérêt qui évalue 5 % d'intérêts pour chaque période de deux mois après la date d'échéance de la transaction pour le paiement de la facture, entrez 2 dans le champ **Calculer les intérêts tous les** et sélectionnez **Mois**.
 
 ## <a name="interest-rates-based-on-amounts"></a>Taux d'intérêt basés sur des montants
 Vous pouvez paramétrer des taux d'intérêt qui calculent un montant spécifié par devise.
 -   Un montant des intérêts est spécifié pour chaque devise dans le code intérêt.
 -   Vous pouvez spécifier des limites du montant des intérêts facultatives.
--   ** Montant ** est sélectionné dans ** Calculez les intérêts selon ** champ sous ** codes intérêt de paramétrage ** page.
+-   L'option **Montant **est sélectionnée dans le champ **Calculer les intérêts sur base de** de la page **Paramétrer les codes intérêt**.
 
-Par exemple, pour définir le code intérêt qui évalue l'intérêt de 25,00 pour tous les 20 jours pendant lesquels le paiement de la facture dépasse la date d'échéance de la transaction, vous entrez 20 dans ** Calculez les intérêts chaque ** le champ et sélectionnez ** jour **.
+Par exemple, pour paramétrer un code intérêt qui évalue un intérêt de 25,00 pour chaque période de 20 jours après la date d'échéance de la transaction pour le paiement de la facture, entrez 20 dans le champ **Calculer les intérêts tous les** et sélectionnez **Jour**.
 
 ## <a name="interest-rates-based-on-ranges"></a>Taux d'intérêt basés sur des plages
 Vous pouvez paramétrer des taux d'intérêt qui varient selon le montant en retard, le nombre de jours de retard de paiement, ou le nombre de mois de retard de paiement.
@@ -67,13 +70,13 @@ Vous paramétrez un code intérêt qui évalue un intérêt une fois pour chaque
 | **Nom de champ**                  | **Valeur de champ** |
 |---------------------------------|-----------------|
 | **Code intérêt**               | 3M%ByAmt        |
-| **Calculer chaque intérêt**    | 3/Month         |
+| **Calculer chaque intérêt**    | 3/Mois         |
 | **Intérêts par tranche**           | Montant          |
 | **Calculer les intérêts sur base de** | Pourcentage      |
 
 Vous devez paramétrer les informations de tranches comme suit.
 
-| **From value** | **Interest value** |
+| **Valeur de début** | **Valeur des intérêts** |
 |----------------|--------------------|
 | 0              | 1                  |
 | 1,001          | 2                  |
@@ -94,7 +97,7 @@ Vous paramétrez un code intérêt qui évalue un intérêt une fois pour chaque
 
 Vous devez paramétrer les informations de tranches comme suit.
 
-| **From value** | **Interest value** |
+| **Valeur de début** | **Valeur des intérêts** |
 |----------------|--------------------|
 | 0              | 10                 |
 | 61             | 15                 |
@@ -109,13 +112,13 @@ Vous paramétrez un code intérêt qui évalue un intérêt une fois pour chaque
 | **Nom de champ**                  | **Valeur de champ** |
 |---------------------------------|-----------------|
 | **Code intérêt**               | 1M%ByMth        |
-| **Calculer chaque intérêt**    | 1/Month         |
+| **Calculer chaque intérêt**    | 1/Mois         |
 | **Intérêts par tranche**           | Mois          |
 | **Calculer les intérêts sur base de** | Pourcentage      |
 
 Vous devez paramétrer les informations de tranches comme suit.
 
-| **From value** | **Interest value** |
+| **Valeur de début** | **Valeur des intérêts** |
 |----------------|--------------------|
 | 0              | 1.5                |
 | 4              | 2                  |
@@ -125,5 +128,7 @@ Vous devez paramétrer les informations de tranches comme suit.
 Les codes intérêt sont soumis à la date d'effet. Si vous souhaitez modifier le taux d'intérêt, vous pouvez créer une **nouvelle version** effective à une date ultérieure.
 
 Pour afficher des versions différentes, vous pouvez utiliser la sélection de menu **À partir du** pour sélectionner la date limite. Vous pouvez également sélectionner **Afficher tous les enregistrements** pour afficher tous les codes intérêt sur la page.
+
+
 
 

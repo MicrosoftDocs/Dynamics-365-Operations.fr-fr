@@ -1,5 +1,5 @@
 ---
-title: "Configuration d&quot;une activité parallèle dans un workflow"
+title: "Configurer une activité parallèle dans un workflow"
 description: "Pour configurer une activité parallèle, exécutez les procédures suivantes dans l&quot;éditeur de workflow."
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,7 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-a-parallel-activity-in-a-workflow"></a>Configuration d'une activité parallèle dans un workflow
+# <a name="configure-a-parallel-activity-in-a-workflow"></a>Configurer une activité parallèle dans un workflow
 
 Pour configurer une activité parallèle, exécutez les procédures suivantes dans l'éditeur de workflow.
 
@@ -32,7 +32,7 @@ Une activité parallèle comprend des branches de workflow qui s'exécutent simu
 
 ## <a name="name-a-parallel-activity"></a>Saisie d'un nom pour une activité parallèle
 Procédez comme suit pour entrer un nom pour une activité parallèle.
-1.  Cliquez avec le bouton droit sur l'activité parallèle, puis cliquez sur ** des propriétés ** pour ouvrir ** des propriétés ** l'écran.
+1.  Cliquez avec le bouton droit sur l'activité parallèle, puis cliquez sur **Propriétés** pour ouvrir l'écran **Propriétés**.
 2.  Dans le volet gauche, cliquez sur **Paramètres de base**.
 3.  Dans le champ **Nom**, entrez un nom unique pour l'activité parallèle.
 4.  Cliquez sur **Fermer**.

@@ -1,6 +1,6 @@
 ---
 title: Types de journaux comptables
-description: "Cet article décrit les types de journaux que vous pouvez paramétrer pour les journaux financiers. La page de noms de journal pour paramétrer les journaux que vous pouvez utiliser dans tout Microsoft Dynamics 365 pour les opérations."
+description: "Cet article décrit les types de journaux que vous pouvez paramétrer pour les journaux financiers. Utilisez la page Noms de journal pour paramétrer les journaux que vous pouvez utiliser dans Microsoft Dynamics 365 for Operations."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="ledger-journal-types"></a>Types de journaux comptables
 
-Cet article décrit les types de journaux que vous pouvez paramétrer pour les journaux financiers. La page de noms de journal pour paramétrer les journaux que vous pouvez utiliser dans tout Microsoft Dynamics 365 pour les opérations.
+[!include[banner](../includes/banner.md)]
+
+
+Cet article décrit les types de journaux que vous pouvez paramétrer pour les journaux financiers. Utilisez la page Noms de journal pour paramétrer les journaux que vous pouvez utiliser dans Microsoft Dynamics 365 for Operations.
 
 | Type de journal                      | Objectif                                                                                                                                                                                                                                                                                                                                                     | Entrer les transactions sur cette page                                |
 |-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
@@ -55,11 +58,13 @@ Cet article décrit les types de journaux que vous pouvez paramétrer pour les j
 | Remises de billets à ordre            | Créer une remise de billet à ordre qui peut être envoyée à la banque de votre organisation.                                                                                                                                                                                                                                                                      | Journal des remises                                             |
 | Fournisseur - Paiements               | Créer des transactions de déboursement fournisseur.                                                                                                                                                                                                                                                                                                                    | Journal des paiements                                                |
 | Création des billets à ordre       | Créer des billets à ordre fournisseur comme mode de paiement. Pour utiliser ce type de journal, désactivez l'option **Créer et valider automatiquement le journal de création lors de la validation des factures** sur la page **Modes de paiement - fournisseurs**.                                                                                                                                          | Journal de création des billets à ordre                                   |
-| Registre des factures fournisseur. validation | Créer des transactions de facture fournisseur qui n'ont pas encore été validées dans un compte d'arrivée temporaire.                                                                                                                                                                                                                                                             | Registre de factures fournisseur excluant les détails de validation                  |
+| Registre de factures fournisseur hors comptabilité validation | Créer des transactions de facture fournisseur qui n'ont pas encore été validées dans un compte d'arrivée temporaire.                                                                                                                                                                                                                                                             | Registre de factures fournisseur excluant les détails de validation                  |
 | Registre de factures fournisseur               | Créer des transactions de registre de factures fournisseur.                                                                                                                                                                                                                                                                                                                    |                                                                |
 | Enregistrement de facture fournisseur          | Permet de valider les factures fournisseur qui figurent dans un journal.                                                                                                                                                                                                                                                                                                                 | Journal des factures                                                |
 | Renouvellement de billets à ordre     | Renouveler un billet à ordre préalablement réglé par la banque de votre organisation.                                                                                                                                                                                                                                                                      | Journal de renouvellement des billets à ordre                                 |
 | Règlement des billets à ordre des fournisseurs     | Créer des transactions de règlement de billets à ordre des fournisseurs.                                                                                                                                                                                                                                                                                                          | Journal des règlements des billets à ordre                                 |
+
+
 
 
 

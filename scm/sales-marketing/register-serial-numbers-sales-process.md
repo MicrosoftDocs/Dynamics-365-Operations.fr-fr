@@ -1,5 +1,5 @@
 ---
-title: "Numéros de série de la caisse enregistreuse dans le processus de vente"
+title: "Enregistrer des numéros de série dans le processus de vente"
 description: "Cet article explique comment vous pouvez enregistrer des numéros de série sur des bons de livraison ou des factures pendant le processus de vente. Cette fonctionnalité est utile si une société souhaite capturer des numéros de série à des fins de service et de garantie, sans avoir à mettre à jour des numéros de série dans le stock de la réception à la sortie."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="register-serial-numbers-in-the-sales-process"></a>Numéros de série de la caisse enregistreuse dans le processus de vente
+# <a name="register-serial-numbers-in-the-sales-process"></a>Enregistrer des numéros de série dans le processus de vente
+
+[!include[banner](../includes/banner.md)]
+
 
 Cet article explique comment vous pouvez enregistrer des numéros de série sur des bons de livraison ou des factures pendant le processus de vente. Cette fonctionnalité est utile si une société souhaite capturer des numéros de série à des fins de service et de garantie, sans avoir à mettre à jour des numéros de série dans le stock de la réception à la sortie.
 
@@ -65,7 +68,7 @@ Oui, vous pouvez effectuer une recherche sur la ligne de journal des bons de liv
 ## <a name="can-i-view-the-serialized-items-that-i-have-on-hand"></a>Puis-je afficher les articles fabriqués en série disponibles ?
 Non, vous ne pouvez pas afficher les articles fabriqués en série disponibles, car les numéros de série ne sont pas enregistrés pour les articles tant qu'ils ne sont pas vendus.
 
-## <a name="can-i-register-serial-numbers-for-catchweight-items"></a>Des que je peux enregistrer des numéros de série pour les articles de catchweight ?
+## <a name="can-i-register-serial-numbers-for-catchweight-items"></a>Est-ce que je peux enregistrer les numéros de série pour les articles de poids variable ?
 Non, vous ne pouvez pas enregistrer des numéros de série pour les articles de poids variable dans le processus de vente. Vous ne pouvez pas non plus affecter un produit défini comme article de poids variable à un groupe de dimensions de suivi paramétré pour utiliser des numéros de série uniquement lors du processus de vente.
 Puis-je enregistrer les numéros de série au point de vente au détail ?
 ------------------------------------------------
@@ -76,6 +79,8 @@ Oui, le point de vente au détail invitera l'utilisateur à saisir un numéro de
 Cette fonction est disponible pour tous les rôles pouvant tenir à jour des bons de livraison et des factures. Les responsabilités suivantes permettent aux collaborateurs de corriger les numéros de série, et d'enregistrer des entrées vides pour les numéros de série qui ne peuvent pas être affichés ou scannés :
 -   Tenir à jour les corrections des numéros
 -   Tenir à jour l'enregistrement des numéros de série illisibles
+
+
 
 
 

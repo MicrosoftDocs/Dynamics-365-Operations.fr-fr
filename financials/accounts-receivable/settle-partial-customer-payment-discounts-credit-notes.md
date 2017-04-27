@@ -1,5 +1,5 @@
 ---
-title: "Règlement d&quot;un paiement partiel client disposant de remises sur les avoirs"
+title: "Régler un paiement partiel client ayant des remises sur les avoirs"
 description: "Cet article vous fait parcourir les étapes d&quot;un scénario où un escompte de règlement est prélevé sur un avoir lorsque la facture d&quot;origine a également bénéficié d&quot;un escompte de règlement."
 author: twheeloc
 manager: AnnBe
@@ -26,11 +26,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Règlement d'un paiement partiel client disposant de remises sur les avoirs
+# <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Régler un paiement partiel client ayant des remises sur les avoirs
+
+[!include[banner](../includes/banner.md)]
+
 
 Cet article vous fait parcourir les étapes d'un scénario où un escompte de règlement est prélevé sur un avoir lorsque la facture d'origine a également bénéficié d'un escompte de règlement. 
 
-Fabrikam propose aux clients des escomptes de règlement sur les paiements partiels ainsi que sur les avoirs. Un escompte de règlement peut être appliqué à un avoir lorsque l'avoir est émis pour une facture sur laquelle le client a bénéficié d'un escompte de règlement. Au lieu d'accorder un crédit pour le montant total, vous pouvez créditer le solde du client pour un montant qui exclut le pourcentage d'escompte de règlement appliqué au client. Les paramètres de règlement sont situés sous ** des paramètres des ventes ** la page.
+Fabrikam propose aux clients des escomptes de règlement sur les paiements partiels ainsi que sur les avoirs. Un escompte de règlement peut être appliqué à un avoir lorsque l'avoir est émis pour une facture sur laquelle le client a bénéficié d'un escompte de règlement. Au lieu d'accorder un crédit pour le montant total, vous pouvez créditer le solde du client pour un montant qui exclut le pourcentage d'escompte de règlement appliqué au client. Les paramètres de règlement se trouvent dans la page **Paramètres de la comptabilité client**.
 
 ## <a name="invoice-and-credit-note"></a>Facture et avoir
 Le client 4035 a une facture de 1 000,00 et un avoir de 100,00. Pour chaque document, une remise de 1 % est appliquée s'il paie dans les 14 jours. Arnie peut afficher ces informations dans la page **Transactions client**.
@@ -59,5 +62,7 @@ Les informations de remise s'affichent au bas de la page **Règlement des transa
 | Montant de l'escompte de règlement à accepter | -1,00     |
 
 Le règlement sera de 100,00, et inclura un paiement de 99,00 et une remise de 1,00.
+
+
 
 

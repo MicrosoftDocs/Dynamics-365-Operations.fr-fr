@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="procurement-and-sourcing-in-the-public-sector-in-france"></a>Approvisionnements dans le secteur public en France
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article explique comment les fonctionnalités standard associées aux approvisionnements ont été étendues pour les entités françaises du secteur public. Ces fonctionnalités permettent de répondre aux besoins du Code des marchés publics. 
 
 <a name="set-spending-thresholds-by-procurement-category"></a>Définition de seuils de dépense par catégorie d'approvisionnement
@@ -54,10 +57,12 @@ Vous pouvez paramétrer des contrats d'achat de sorte que seuls les département
 ## <a name="manage-information-about-subcontractors-certifications-and-milestones-on-purchase-agreements"></a>Gestion des informations relatives aux sous-traitants, aux certifications et aux jalons dans les contrats d'achat
 Vous pouvez créer des classifications de contrat d'achat qui ajoutent des champs administratifs aux contrats d'achat qui utilisent la classification.
 
--   Pour ajouter des informations sur les sous-traitants aux contrats d'achat, sélectionnez ** les sous-traitants ** l'option dans la classification de contrat d'achat.  Les contrats d'achat peuvent avoir un fournisseur principal, des fournisseurs secondaires et des sous-traitants. Le fournisseur principal peut être affecté au contrat d'achat parent et un fournisseur secondaire ou un sous-traitant peut être affecté à des contrats enfants spécifiques.
+-   Pour ajouter aux contrats d'achat des informations relatives aux sous-traitants, sélectionnez l'option **Sous-traitants** dans la classification de contrat d'achat.  Les contrats d'achat peuvent avoir un fournisseur principal, des fournisseurs secondaires et des sous-traitants. Le fournisseur principal peut être affecté au contrat d'achat parent et un fournisseur secondaire ou un sous-traitant peut être affecté à des contrats enfants spécifiques.
 -   Pour ajouter aux contrats d'achat des informations relatives aux certifications pour les fournisseurs, sélectionnez l'option **Certifications** de la classification de contrat d'achat. Les informations de certification permettent de générer un état que vous pouvez utiliser pour vérifier que les fournisseurs répondent bien aux exigences en matière de certification.
 -   Pour ajouter aux contrats d'achat des informations relatives aux jalons et aux tâches, sélectionnez l'option **Activités** de la classification de contrat d'achat.
 
  
+
+
 
 

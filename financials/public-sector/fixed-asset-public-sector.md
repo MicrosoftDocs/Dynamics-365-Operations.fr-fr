@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-assets-in-the-public-sector"></a>Immobilisations dans le secteur public
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article décrit la fonctionnalité des immobilisations disponible pour le secteur public. 
 
 <a name="what-do-i-need-to-know-about-disposing-of-fixed-assets"></a>Que dois-je savoir à propos de la cession des immobilisations ?
@@ -40,11 +43,13 @@ Les organisations du secteur public peuvent utiliser les propositions de rebut e
 Les organisations du secteur public ont généralement besoin des écritures équilibrées pour la dimension financière utilisée pour désigner les fonds. Lorsque vous transférez des immobilisations entre les fonds, si la dimension de fonds exige des écritures équilibrées, vous devez renseigner les champs des comptes d'origine et de destination de la page des transferts d'immobilisation. 
 
 > [!NOTE] 
-> Ce n'est pas une propriété les immobilisations ou les fonds. En revanche, il s'agit d'une propriété de la dimension financière. Lorsque vous transférez une immobilisation, si une dimension financière associée à l'immobilisation exige des écritures équilibrées, vous devez renseigner les champs des comptes d'origine et de destination. 
+> Il ne s'agit pas d'une propriété des immobilisations ni des fonds. En revanche, il s'agit d'une propriété de la dimension financière. Lorsque vous transférez une immobilisation, si une dimension financière associée à l'immobilisation exige des écritures équilibrées, vous devez renseigner les champs des comptes d'origine et de destination. 
 
 Les comptes d'origine et de destination ne sont pas les comptes dans lesquels la valeur nette de l'immobilisation est conservée. En revanche, Les comptes d'origine et de destination sont les comptes principaux utilisés pour équilibrer les écritures dans les dimensions financières. Ils sont utilisés uniquement lorsqu'une dimension financière pour l'immobilisation exige un équilibrage. Le compte Prov. transfert présentera une entrée de débit, et le compte Dest. transfert présentera une entrée de crédit.
 
 Pour plus d'informations, voir [Fonds dans le secteur public](funds-public-sector.md).
+
+
 
 
 

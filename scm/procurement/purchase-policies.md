@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchasing-policies"></a>Politiques d'achat
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article fournit des informations sur les politiques d'achat. Une stratégie d'achat est une collection de règles qui contrôlent le processus de demande. Les stratégies d'achat permettent aux administrateurs de l'approvisionnement d'implémenter leur stratégie d'approvisionnement en créant une structure de stratégie qui est aligné sur les besoins d'achats stratégiques de l'organisation.
 
 Une stratégie d'achat est composée d'un ensemble de règles de stratégie. Lorsque vous définissez une règle de stratégie, vous commencez par sélectionner un type de règle. Ensuite, vous créez une règle pour le type de règle en définissant les paramètres et les dates de début et de fin de la règle.  
@@ -41,11 +44,11 @@ Selon la configuration de vos stratégies d'achat, plusieurs règles peuvent aff
 
 ### <a name="example-1-simple-purchasing-policy-configuration"></a>Exemple 1 : configuration d'une politique d'achat simple
 
-Les organisations qui sont petites et la boîte moins complexe paramètre des stratégies d'achat par entité juridique, et peuvent utiliser uniquement la hiérarchie d'organisation de sociétés.  
+Les petites entreprises moins complexes peuvent paramétrer des stratégies d'achat par entité juridique, et utiliser uniquement la hiérarchie d'organisation Sociétés.  
 
 Les besoins de la PME Fabrikam en matière d'achat sont relativement identiques dans l'ensemble de l'organisation. Les règles d'achat varient uniquement parmi leurs entités juridiques. Par exemple, les employés de Fabrikam Canada et ceux de Fabrikam États-Unis achètent des biens et services issus de différents catalogues et fournisseurs. Par conséquent, Fabrikam va paramétrer ses stratégies d'achat au niveau de l'entité juridique.  
 
-Pour cela, elle crée deux stratégies d'achat. La stratégie A s'applique à l'entité juridique américaine, 1111. La stratégie B s'applique à l'entité juridique canadienne, 2222. Lorsqu'un employé de l'entité juridique 1111 crée une demande d'achat, les règles de stratégie sont dérivées de la stratégie A. Par exemple, le catalogue de produits que l'employé voit est spécifié dans la règle de stratégie de catalogue pour la stratégie A.  
+Pour cela, elle crée deux stratégies d'achat. La stratégie A s'applique à l'entité juridique américaine, 1111. La stratégie B s'applique à l'entité juridique canadienne, 2222. Lorsqu'un employé de l'entité juridique 1111 crée une demande d'achat, les règles de stratégie sont dérivées de la stratégie A. Par exemple, le catalogue de produits que l'employé voit est spécifié dans la règle de stratégie de catalogue pour la stratégie A.  
 
 Lorsqu'un employé de l'entité juridique 2222 crée une demande d'achat, les règles de stratégie sont dérivées de la stratégie B.  
 
@@ -117,7 +120,7 @@ La règle de contrôle du réapprovisionnement est une règle facultative permet
 
 ### <a name="purchase-order-creation-and-demand-consolidation-rule"></a>Création d'une commande fournisseur et règle de consolidation de la demande
 
-La règle de création de commande fournisseur et de consolidation de la demande définit les règles de stratégie d'utiliser lorsqu'une commande fournisseur est générée d'une demande d'achat approuvée. Lorsque vous créez des règles de ce type, vous pouvez définir des options dans divers onglets :
+La règle de création des commandes fournisseur et de consolidation de la demande définit les règles de stratégie à utiliser lorsqu'une commande fournisseur est générée à partir d'une demande d'achat validée. Lorsque vous créez des règles de ce type, vous pouvez définir des options dans divers onglets :
 
 -   Sous l'onglet **Fractionnement de la commande fournisseur**, vous pouvez définir des critères indiquant dans quels cas il convient de fractionner les lignes d'une demande d'achat pour créer plusieurs commandes fournisseur.
 -   Sous l'onglet **Transfert de prix/remises**, vous pouvez définir quand recalculer l'accord de prix lorsqu'une commande fournisseur est créée :
@@ -126,7 +129,7 @@ La règle de création de commande fournisseur et de consolidation de la demande
 
     Vous pouvez également autoriser le demandeur à modifier la méthode transfert de prix et de remise pour des lignes de demande d'achat spécifiques, indépendamment de la règle de transfert de prix/remise définie. Sélectionnez l'option **Autoriser le remplacement manuel par ligne de demande d'achat** si vous souhaitez activer cette fonctionnalité.
 -   Sous l'onglet **Transfert de description de l'article**, vous pouvez transférer la description d'article de la demande d'achat lorsque celle-ci provient d'une demande de devis.
--   Sous l'onglet **Tolérance de prix**, vous pouvez identifier des règles de tolérance de prix pour que les demandes d'achat approuvées soient à nouveau transmises au processus de révision lorsque le prix d'un article du catalogue d'approvisionnement augmente. Définissez le montant maximal dont le montant net d'une ligne de la demande d'achat peut augmenter entre le moment où la demande d'achat est approuvée et le moment où la commande fournisseur est créée. Le montant net est calculé à l'aide de la formule suivante : frais divers d'unité de prix\] + d'achat de ÷ de × de quantité\[(prix unitaire – remise ()) lignes de demande d'achat du ÷ de 100 € (100 – % de remise) qui dépassent la tolérance de prix définie sont conservées pour être traitées manuellement. Les règles configurées sous l'onglet **Erreur lors du traitement** déterminent la façon dont les lignes de demande d'achat sont traitées.
+-   Sous l'onglet **Tolérance de prix**, vous pouvez identifier des règles de tolérance de prix pour que les demandes d'achat approuvées soient à nouveau transmises au processus de révision lorsque le prix d'un article du catalogue d'approvisionnement augmente. Définissez le montant maximal dont le montant net d'une ligne de la demande d'achat peut augmenter entre le moment où la demande d'achat est approuvée et le moment où la commande fournisseur est créée. Le montant net est calculé à l'aide de la formule suivante : (\[Quantité × (prix unitaire - remise) ÷ prix unitaire\] + Diverses charges liées à l'achat) × 100 - Pourcentage de la remise) ÷ 100 Les lignes de la demande d'achat qui dépassent la tolérance du prix que vous définissez sont conservées pour traitement manuel. Les règles configurées sous l'onglet **Erreur lors du traitement** déterminent la façon dont les lignes de demande d'achat sont traitées.
 -   Sous l'onglet **Erreur lors du traitement**, vous pouvez configurer la règle de traitement appliquée à une demande d'achat dont la validation a échoué lors de la création d'une commande fournisseur du fait d'une erreur de fournisseur ou de tolérance de prix. Permet de sélectionner l'une des options suivantes :
     -   **Aucune action** – Les lignes de demande d'achat restent sur la page **Publier les demandes d'achat approuvées**. Le statut des lignes de demande d'achat reste **Approuvé**. Toutefois, les erreurs doivent être résolues pour qu'une commande fournisseur soit générée pour toutes les lignes de demande d'achat.
     -   **Annuler la ligne de demande d'achat** - Les lignes de demande d'achat sont annulées. Si le demandeur souhaite demander ces lignes, il peut créer une demande d'achat pour les lignes annulées.
@@ -141,6 +144,8 @@ La règle de création de commande fournisseur et de consolidation de la demande
     -   **Ne pas autoriser la consolidation de la demande** : aucune ligne de demande d'achat approuvée ne peut être prise en compte pour une consolidation de demande. Cette option est sélectionnée par défaut et ne s'applique qu'aux lignes de demande d'achat qui requièrent le traitement manuel de la création des commandes fournisseur.
     -   **Toujours autoriser la consolidation de la demande** : toutes les lignes de demande d'achat approuvée peuvent être prises en compte pour une consolidation de demande. **Remarque :** Si vous sélectionnez l'option **Toujours autoriser la consolidation de la demande** sous l'onglet **Exiger la consolidation**, mais si vous sélectionnez l'option **Créer automatiquement des commandes fournisseur** sous l'onglet **Création manuelle des commandes fournisseur**, toutes les demandes d'achat sont conservées pour être traitées manuellement.
     -   **Autoriser la consolidation de la demande dans ces conditions** : permet de définir les critères déterminant si des lignes de demande d'achat approuvée peuvent être prises en compte pour une consolidation de demande. Vous pouvez définir les critères par catégorie d'approvisionnement et par fournisseur pour chaque type de ligne de demande d'achat. Si vous sélectionnez **Autoriser la consolidation de la demande dans ces conditions**, vous pouvez définir les critères par catégorie d'approvisionnement et par fournisseur pour chaque type de ligne de demande d'achat. Lorsque vous sélectionnez une catégorie d'approvisionnement, toutes ses sous-catégories sont également sélectionnées. Si vous sélectionnez l'option **Tout** pour un type de ligne spécifique, toutes les lignes de demande d'achat peuvent être prises en compte pour une consolidation de demande.
+
+
 
 
 

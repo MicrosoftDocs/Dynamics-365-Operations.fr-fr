@@ -1,6 +1,6 @@
 ---
 title: Questionnaires
-description: "Cette rubrique fournit des informations générales sur les questionnaires, et les liens vers d&quot;autres informations détaillées. Un questionnaire est un ensemble de questions utilisé pour collecter des informations à diverses fins. Vous pouvez concevoir, créer, distribuer et compléter des questionnaires, puis analyser leurs résultats."
+description: "Cette rubrique fournit des informations générales sur les questionnaires, et renvoie vers des informations plus détaillées. Un questionnaire est un ensemble de questions utilisé pour collecter des informations à diverses fins. Vous pouvez concevoir, créer, distribuer et compléter des questionnaires, puis analyser leurs résultats."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="questionnaires"></a>Questionnaires
 
-Cette rubrique fournit des informations générales sur les questionnaires, et les liens vers d'autres informations détaillées. Un questionnaire est un ensemble de questions utilisé pour collecter des informations à diverses fins. Vous pouvez concevoir, créer, distribuer et compléter des questionnaires, puis analyser leurs résultats. 
+[!include[banner](includes/banner.md)]
 
-Vous pouvez personnaliser un questionnaire pour se conformer aux conditions spécifiques à l'aide de plusieurs fonctions disponibles dans Microsoft Dynamics 365 pour les opérations. Voici quelques exemples d'utilisation des questionnaires :
+
+Cette rubrique fournit des informations générales sur les questionnaires, et renvoie vers des informations plus détaillées. Un questionnaire est un ensemble de questions utilisé pour collecter des informations à diverses fins. Vous pouvez concevoir, créer, distribuer et compléter des questionnaires, puis analyser leurs résultats. 
+
+Vous pouvez personnaliser un questionnaire pour l'adapter à vos besoins spécifiques à l'aide des diverses fonctionnalités disponibles dans Microsoft Dynamics 365 for Operations. Voici quelques exemples d'utilisation des questionnaires :
 
 -   tester les qualifications professionnelles des employés et des candidats ;
 -   évaluer si les participants aux cours ont appris le contenu des cours ;
@@ -42,9 +45,9 @@ Le tableau suivant fournit des liens vers des informations décrivant les tâche
 
 | Rubrique| description ;|
 |------|------------|
-| [Design a questionnaire](design-questionnaires.md)  | cet article fournit des informations sur la façon de concevoir un questionnaire. Le processus de création implique de définir des conditions préalables, des réponses et des questions, puis de les combiner en un questionnaire. |
-| [Distribute and complete a questionnaire](distribute-questionnaires.md)  | Cet article fournit des informations sur la façon de distribuer un questionnaire aux personnes interrogées et sur la manière de remplir les questionnaires.                                                                       |
-| [View and evaluate the results of a questionnaire](evaluate-questionnaire-results.md) | Cet article fournit des informations sur l'affichage et l'évaluation des résultats à partir des questionnaires remplis.                                                                                        |
+| [Concevoir un questionnaire](design-questionnaires.md)  | cet article fournit des informations sur la façon de concevoir un questionnaire. Le processus de création implique de définir des conditions préalables, des réponses et des questions, puis de les combiner en un questionnaire. |
+| [Distribuer et remplir un questionnaire](distribute-questionnaires.md)  | Cet article fournit des informations sur la façon de distribuer un questionnaire aux personnes interrogées et sur la manière de remplir les questionnaires.                                                                       |
+| [Afficher et évaluer les résultats d'un questionnaire](evaluate-questionnaire-results.md) | Cet article fournit des informations sur l'affichage et l'évaluation des résultats à partir des questionnaires remplis.                                                                                        |
 
 
 
@@ -55,6 +58,8 @@ Le tableau suivant fournit des liens vers des informations décrivant les tâche
 
 [Distribuer et remplir des questionnaires](distribute-questionnaires.md)
 
-[Affichage et évaluer les résultats des questionnaires] (evaluate-questionnaire-results.md)
+[Affichage et évaluation des résultats des questionnaire](evaluate-questionnaire-results.md)
+
+
 
 

@@ -1,6 +1,6 @@
 ---
-title: "Estimation de coût de contrôler l&quot;espace de travail mobile de Microsoft Dynamics 365 pour l&quot;application Opérations"
-description: "Le coût contrôlant l&quot;espace de travail mobile, responsables de centre de coût peuvent voir les performances de centre de coût à tout moment et n&quot;importe où."
+title: "Espace de travail mobile Contrôle des coûts pour l&quot;application Microsoft Dynamics 365 for Operations"
+description: "Avec l&quot;espace de travail mobile Contrôle des coûts, les responsables des centres de coût peuvent consulter les performances du centre de coût à tout moment et n&quot;importe où."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 2017-01-12 16 - 53 - 04
@@ -24,89 +24,89 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="cost-controlling-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Estimation de coût de contrôler l'espace de travail mobile de Microsoft Dynamics 365 pour l'application Opérations
+# <a name="cost-controlling-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Espace de travail mobile Contrôle des coûts pour l'application Microsoft Dynamics 365 for Operations
 
-Le coût contrôlant l'espace de travail mobile, responsables de centre de coût peuvent voir les performances de centre de coût à tout moment et n'importe où. 
+Avec l'espace de travail mobile Contrôle des coûts, les responsables des centres de coût peuvent consulter les performances du centre de coût à tout moment et n'importe où. 
 
 <a name="prerequisites"></a>Conditions préalables
 -------------
 
-| Logiciel requis                                                         | description ;                                                                                                                                                                   |
+| Logiciel requis                                                         | Description                                                                                                                                                                   |
 |----------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Disposer connaissances Microsoft Dynamics 365 pour la plateforme mobiles d'opérations | [Dynamics 365 pour plateforme mobile opérations] (/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)                                                              |
-| Dynamics 365 pour les opérations                                          | Assurez-vous que vous utilisez un environnement avec Microsoft Dynamics 365 pour la version 1611 d'opérations et Microsoft Dynamics pour la mise à jour 3 de plateforme Opérations (novembre 2016). |
-| Base de connaissances 3215650 de correctif                                                    | Installez le correctif pour activer des espaces de travail qui sont définis dans Microsoft Dynamics 365 pour les opérations.                                                                       |
-| Appareil mobile qui a Dynamics 365 pour l'application Opérations installée | Téléchargez Dynamics 365 pour l'application Opérations de votre magasin portable d'application.                                                                                                      |
+| En savoir plus sur la plateforme mobile Microsoft Dynamics 365 for Operations | [Plateforme mobile Dynamics 365 for Operations](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)                                                              |
+| Dynamics 365 for Operations                                          | Assurez-vous d'utiliser un environnement disposant de la version 1611 de Microsoft Dynamics 365 for Operations et de la mise à jour 3 de Microsoft Dynamics for Operations (novembre 2016). |
+| Correctif de la Base de connaissances 3215650                                                    | Installez le correctif pour activer les espaces de travail fournis dans Microsoft Dynamics 365 for Operations.                                                                       |
+| Appareil mobile sur lequel l'application Dynamics 365 for Operations est installée | Téléchargez l'application Dynamics 365 for Operations à partir de votre magasin d'application mobile.                                                                                                      |
 
 ## <a name="introduction"></a>Introduction
-Coût contrôlant l'espace de travail portable fournit une vue instantanée de la performance actuelle des centres de coût en comparant les coûts réels avec les coûts budgétés. Vous pouvez accéder aux statuts des éléments individuels de coût.
+L'espace de travail mobile Contrôle des coûts fournit une vue instantanée des performances actuelles des centres de coût en comparant les coûts réels aux coûts budgétés. Vous pouvez accéder aux statuts des éléments de coût individuels.
 
 ### <a name="example"></a>Exemple
 
-Un employé reçoit une invitation à une conférence internationale. L'organisation doit couvrir toutes les dépenses de déplacement. L'employé demande son manger s'il peut former la conférence. Il ouvre rapidement le coût contrôlant l'espace de travail de passer à son téléphone portable de voir s'il a le budget qu'{{il:for}} {{faut:for}} que l'employé participe à une conférence.
+Un employé reçoit une invitation à une conférence internationale. L'organisation doit couvrir tous les frais de déplacement. L'employé demande à son responsable s'il peut assister à la conférence. Le responsable ouvre rapidement l'espace de travail Contrôle des coûts sur son téléphone portable de voir s'il dispose du budget nécessaire.
 
 ### <a name="data-security"></a>Sécurité des données
 
-Les données dans le coût contrôlant l'espace de travail sont sécurisées par les informations d'identification de l'utilisateur. Seule à un responsable de centre de coût pour consulter les données pour son propre centre de coût. La sécurité de niveau d'accès est gérée dans le module de contrôle de gestion. Les comptables de coût définissent le coût contrôlant la configuration portable de l'espace de travail du module Contrôle de gestion. Une fois l'espace de travail ne soit émis à Microsoft Dynamics 365 pour l'application Opérations, il est disponible dans Dynamics 365 pour l'application de portable d'opérations. Cela garantit que tous les responsables du centre de coût dans la recherche d'organisation aux données dans le même formatent.
+Les données de l'espace de travail Contrôle des coûts sont sécurisées par les informations d'identification de l'utilisateur. Un responsable de centre de coût est uniquement autorisé à consulter les données de son propre centre de coût. La sécurité au niveau de l'accès est gérée dans le module Contrôle de gestion. Les contrôleurs de gestion définissent la configuration de l'espace de travail mobile Contrôle des coûts dans le module Contrôle de gestion. Une fois que l'espace de travail est publié sur l'application Microsoft Dynamics 365 for Operations, il est disponible dans l'application mobile Dynamics 365 for Operations. Ainsi, tous les responsables de centre de coût de l'organisation consultent les données au même format.
 
-### <a name="actions-views-and-links"></a>Actions, affichages, et liens
+### <a name="actions-views-and-links"></a>Actions, vues et liens
 
-Coût contrôlant l'espace de travail mobile de Dynamics 365 pour l'application Opérations fournit des actions, des vues, et les liens suivants :
+L'espace de travail mobile Contrôle des coûts pour l'application Dynamics 365 for Operations fournit les actions, les vues et les liens suivants :
 
 -   Actions 
-    -   Sélectionnez ** configurations ** pour prélever une mise en page.
-    -   Sélectionnez ** objets de coût ** pour prélever les centres de coût dans lesquels vous souhaitez des données de filtre. ** Remarque : ** La liste est affichée en fonction de l'accès accordé du module Contrôle de gestion.
+    -   Sélectionnez **Configurations** pour sélectionner une mise en page.
+    -   Sélectionnez **Objets de coût** pour sélectionner les centres de coût dans lesquels vous souhaitez filtrer les données. **Remarque :** la liste est affichée en fonction de l'accès accordé dans le module Contrôle de gestion.
 
 <!-- -->
 
--   Selon ce qui est sélectionné sous ** des actions ** et qui est paramétré dans le module Contrôle de gestion, vous pouvez afficher les informations suivantes dans les cartes. Notez que le montant est affiché dans le même format : Niveau unique, budget, écart, et écart %. 
-    -   Réel {{contre:vs}} le budget (période actuelle)
-    -   Réel {{contre:vs}} le budget révisé (période actuelle)
-    -   Réel {{contre:vs}} le budget (période précédente)
-    -   Réel {{contre:vs}} le budget révisé (période précédente)
-    -   Réel {{contre:vs}} le budget (Année en cours)
-    -   Réel {{contre:vs}} le budget révisé (Année en cours)
+-   Selon la sélection sous **Actions** et la configuration du module Contrôle de gestion, vous pouvez afficher les informations suivantes dans les cartes. Notez que le montant est affiché au même format : réel, budget, écart et écart en %. 
+    -   Réel/Budget (période actuelle)
+    -   Réel/Budget révisé (période actuelle)
+    -   Réel/Budget (période précédente)
+    -   Réel/Budget révisé (période précédente)
+    -   Réel/Budget (année en cours)
+    -   Réel/Budget révisé (année en cours)
 
 <!-- -->
 
 -   Liens
-    -   Détails de la période actuelle.
-    -   Détails de la période précédente.
-    -   Détails de l'année jusqu'à présent.
+    -   Détails pour la période actuelle.
+    -   Détails pour la période précédente.
+    -   Détails pour l'année en cours.
 
-Lorsque vous sélectionnez l'un des liens, une carte par élément de coût s'affiche. Montant dans les cartes est affiché dans le format suivant : Écart réel, de budget, de budget, écart % de budget, écart de budget révisé, de budget révisé, et écart % du budget révisé.  [![coût contrôlant] (. /media/cost-controlling.png)](. /media/cost-controlling.png)
+Lorsque vous sélectionnez l'un des liens, une carte par élément de coût s'affiche. Le montant des cartes est affiché au format suivant : réel, budget, écart budgétaire, écart budgétaire en %, budget révisé, écart budgétaire révisé et écart budgétaire révisé en %.  [![cost-controlling](./media/cost-controlling.png)](./media/cost-controlling.png)
 
 ## <a name="get-started"></a>Mise en route
-Procédez comme suit pour obtenir commencé à l'aide de l'application mobile de contrôle des coûts sur votre périphérique mobile.
+Suivez les étapes ci-après pour commencer à utiliser l'application mobile de contrôle des coûts sur votre appareil mobile.
 
-1.  Dans votre magasin portable d'application, chargez et installez Microsoft Dynamics 365 pour l'application Opérations.
-2.  Démarrez l'application de votre périphérique.
-3.  Permet d'entrer l'URL de Dynamics 365.
-4.  Entrez la société pour signer dans en. Par exemple, entrez ** USMF **.
-5.  La première fois que vous vous connectez, vous êtes invité à entrer le nom d'utilisateur et le mot de passe pour votre Microsoft Dynamics 365 pour le compte d'opérations. Entrez vos informations d'identification. Après avoir signer électroniquement dans, vous voyez des espaces de travail disponibles pour votre société.
+1.  Dans votre magasin d'application mobile, téléchargez et installez l'application Microsoft Dynamics 365 for Operations.
+2.  Démarrez l'application sur votre appareil.
+3.  Entrez votre URL Dynamics 365.
+4.  Entrez la société à laquelle vous vous connectez. Par exemple, entrez **USMF**.
+5.  Lorsque vous vous connectez pour la première fois, vous êtes invité à entrer le nom d'utilisateur et le mot de passe de votre compte Microsoft Dynamics 365 for Operations. Entrez vos informations d'identification. Une fois que vous êtes connecté, les espaces de travail disponibles pour votre société s'affichent.
 
-Pour afficher des espaces de travail de votre application mobile, vous devez d'abord envoyer des espaces de travail souhaités à Dynamics 365 pour l'application Opérations.
+Pour afficher les espaces de travail sur votre application mobile, vous devez d'abord publier les espaces de travail souhaités sur l'application Dynamics 365 for Operations.
 
-1.  Début Dynamics 365 pour les opérations.
-2.  Allez ** Administration du système ** &gt; ** au paramétrage ** &gt; ** des paramètres système **.
-3.  Sélectionnez ** de gérer l'application mobile **.
-4.  Sélectionnez l'espace de travail ** contrôler des coûts ** pour publier à la plateforme portable.
-5.  Sélectionnez ** publiez l'espace de travail **.
-6.  Permet d'actualiser le périphérique pour voir des espaces de travail émis.
+1.  Démarrez Dynamics 365 for Operations.
+2.  Accédez à **Administration système** &gt; **Paramétrage** &gt; **Paramètres système**.
+3.  Sélectionnez **Gérer l'application mobile**.
+4.  Sélectionnez l'espace de travail **Contrôle des coûts** pour le publier sur la plateforme mobile.
+5.  Sélectionnez **Publier l'espace de travail**.
+6.  Actualisez votre appareil pour afficher les espaces de travail publiés.
 
-## <a name="view-the-performance-of-your-cost-center"></a>Permet d'afficher les performances de votre centre de coût
-1.  Dans votre périphérique mobile, sélectionnez ** contrôler des coûts ** l'espace de travail.
-2.  Sélectionnez ** contrôler d'objet de coût **.
-3.  Cliquez sur ** actions **.
-4.  Cliquez sur ** sélectionnez la configuration ** pour sélectionner un coût contrôlant la mise en page.
-5.  Click **Done**.
-6.  Cliquez sur ** actions **.
-7.  Cliquez sur ** sélectionnez l'objet de coût ** pour sélectionner les centres de coût dans lesquelles vous avez obtenu l'accès.
-8.  Click **Done**.
-9.  Permet d'afficher les performances générales de votre centre de coût.
-10. Cliquez sur ** détails de la période actuelle **.
-11. Permet d'afficher les performances des éléments individuels de coût.
-12. Vous pouvez également rechercher les éléments spécifiques de coût.
+## <a name="view-the-performance-of-your-cost-center"></a>Afficher les performances de votre centre de coût
+1.  Sur votre appareil mobile, sélectionnez l'espace de travail **Contrôle des coûts**.
+2.  Sélectionnez **Contrôle des objets de coût**.
+3.  Cliquez sur **Actions**.
+4.  Cliquez sur **Sélectionner une configuration** pour sélectionner une mise en page de contrôle des coûts.
+5.  Cliquez sur **Terminé**.
+6.  Cliquez sur **Actions**.
+7.  Cliquez sur **Sélectionner un objet de coût** pour sélectionner les centres de coût auxquels vous êtes autorisé à accéder.
+8.  Cliquez sur **Terminé**.
+9.  Affichez les performances globales de votre centre de coût.
+10. Cliquez sur **Détails pour la période actuelle**.
+11. Affichez les performances des éléments de coût individuels.
+12. Vous pouvez également rechercher des éléments de coût spécifiques.
 
 
 

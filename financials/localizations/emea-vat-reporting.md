@@ -1,6 +1,6 @@
 ---
-title: "Génération d&quot;états de TVA pour Europe"
-description: "Cette rubrique fournit des informations générales sur le paramétrage et de générer la déclaration de (VAT) de taxe sur la valeur ajoutée pour certains pays européens."
+title: "Déclaration de TVA pour l&quot;Europe"
+description: "Cette rubrique fournit des informations générales sur le paramétrage et la génération de la déclaration de TVA pour certains pays européens."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 2017-04-04
@@ -25,11 +25,11 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="vat-reporting-for-europe"></a>Génération d'états de TVA pour Europe
+# <a name="vat-reporting-for-europe"></a>Déclaration de TVA pour l'Europe
 
-Cette rubrique fournit des informations générales sur le paramétrage et de générer la déclaration de (VAT) de taxe sur la valeur ajoutée pour certains pays européens.
+Cette rubrique fournit des informations générales sur le paramétrage et la génération de la déclaration de TVA pour certains pays européens.
 
-Cette rubrique fournit une approche générique à paramétrer et à générer la déclaration de TVA. Cette approche est commune à des utilisateurs aux entités juridiques implantées dans des pays/régions suivants :
+Cette rubrique fournit une approche générique du paramétrage et de la génération de la déclaration de TVA. Cette approche est commune pour les utilisateurs dans les entités juridiques des pays/régions suivants :
 
 -   Autriche
 -   Belgique
@@ -43,27 +43,27 @@ Cette rubrique fournit une approche générique à paramétrer et à générer l
 -   Suède
 
 ## <a name="vat-statement-overview"></a>Vue d'ensemble de la déclaration de TVA
-Le déclaration de TVA est basée sur les montants des transactions de taxe. Le processus de générer une déclaration de TVA fait partie du processus de paiement de la taxe, qui est implémenté par la fonction de taxe de règlement et de valider. Cette fonction permet de calculer la taxe due pour une période donnée. Le calcul du règlement inclut la taxe validée pour la période de règlement sélectionnée pour les transactions de taxe. Le processus pour calculer les données dans un relevé de TVA est basée sur la relation entre les codes taxe et les codes déclaration de taxe, où codes déclaration de taxe correspondent aux champs de relevés de TVA (ou des balises en XML). Pour chaque code taxe, codes déclaration de taxe doivent être définis pour chaque type de transaction, telles que des ventes soumises à taxe, les achats soumis à taxe, importation soumis à taxe. Ces le type de transactions sont décrits dans le champ [codes taxe pour la déclaration de TVA] (codes taxe de #Sales de déclaration de la TVA) section plus loin dans cette rubrique.
+La déclaration de TVA est basée sur les montants des transactions de taxe. Le processus de génération d'une déclaration de TVA fait partie du processus de paiement de la taxe, qui est implémenté via la fonction Régler et valider la taxe. Cette fonction calcule la taxe due pour une période donnée. Le calcul du règlement inclut la taxe validée pour la période de règlement sélectionnée pour les transactions de taxe. Le processus de calcul des données d'une déclaration de TVA est basé sur la relation entre les codes taxe et les codes déclaration de taxe, où les codes déclaration de taxe correspondent aux zones de déclaration de TVA (ou balises en XML). Pour chaque code taxe, des codes déclaration de taxe doivent être définis pour chaque type de transaction, par exemple les ventes imposables, les achats imposables, les importations imposables. Ces types de transactions sont décrits dans la section [Codes taxe pour la déclaration de TVA](#Sales tax codes for VAT reporting) plus loin dans cette rubrique.
 
-Pour chaque code déclaration de taxe, une présentation d'état spécifique doit être déterminée. En même temps, codes taxe sont liés à une administration fiscale particulière dans les périodes de règlement de la taxe. Pour chaque administration fiscale, une présentation d'état doit être déterminée. Ainsi, seules les codes déclaration de taxe avec la même présentation d'état paramétrée pour une administration fiscale en périodes de règlement de la taxe pour le code taxe pouvant être sélectionnés dans le paramétrage des états de code taxe. Une transaction de taxe a généré en validant une commande ou un journal, contient un code taxe, une source de taxe, une direction de la taxe, et les montants de transaction (montant et le montant de la taxe de la base de taxe dans la devise comptable, la devise de taxe, et la devise de la transaction). Selon la combinaison des attributs de transaction de taxe, montants des transactions constituent des montants totaux pour les codes déclaration de taxe spécifiés pour les codes taxe. L'illustration suivante présente la relation de données.
+Pour chaque code déclaration de taxe, une présentation d'état spécifique doit être déterminée. Les codes taxe sont également liés à une administration fiscale spécifique via des périodes de règlement de la taxe. Pour chaque administration fiscale, une présentation d'état doit être déterminée. Ainsi, seuls les codes déclaration de taxe avec la même présentation d'état paramétrée pour une administration fiscale dans les périodes de règlement de la taxe pour le code taxe peuvent être sélectionnés dans le paramétrage d'état du code taxe. Une transaction de taxe générée lors de la validation d'une commande ou d'un journal, contient un code taxe, une source de taxe, une direction de taxe et des montants de transaction (montant de base de la taxe et montant de la taxe dans la devise comptable, la devise de taxe et la devise de la transaction). Selon la combinaison d'attributs de transaction de taxe, les montants des transactions composent les montants totaux pour les codes déclaration de taxe spécifiés pour les codes taxe. La relation des données est illustrée dans le graphique ci-dessous :
 
 ![diagramme](./media/diagram4.jpg)
 
 ## <a name="vat-statement-setup"></a>Paramétrage de la déclaration de TVA
-Pour générer une déclaration de TVA vous devez paramétrer les suivantes.
+Pour générer une déclaration de TVA, vous devez paramétrer les éléments suivants.
 
 ### <a name="sales-tax-authorities-for-vat-reporting"></a>Administrations fiscales pour la déclaration de TVA
 
 <!---For general information about setting up a sales tax authority, see [Set up sales tax authorities](http://ax.help.dynamics.com/en/wiki/set-up-sales-tax-authorities/). -->
-Avant de paramétrer les codes déclaration de taxe, vous devez sélectionner la présentation d'état correcte pour l'administration fiscale. Sous ** des administrations fiscales ** page, dans ** général ** la section, sélectionnez un ** présentation d'état **. Cette mise en page sont utilisées lorsque vous paramétrez des codes déclaration de taxe.
+Avant de paramétrer les codes déclaration de taxe, vous devez sélectionner la présentation d'état correcte pour l'administration fiscale. Dans la page **Administrations fiscales**, dans la section **Général**, sélectionnez une **Présentation d'état**. Cette présentation sera utilisée lors du paramétrage des codes déclaration de taxe.
 
 ### <a name="sales-tax-reporting-codes"></a>Codes déclaration de taxe
 
-Codes déclaration de taxe sont des codes de zone dans la déclaration de TVA ou référencent des noms au format XML. Ces codes sont utilisés pour regrouper et de préparer des montants pour l'état. Lorsque vous configurez le format électronique de génération d'états de la déclaration de TVA, les noms des montants de résultat sont utilisés. Vous pouvez créer et tenir à jour les codes déclaration de taxe sur ** codes déclaration de taxe ** la page. Vous devez affecter à chaque code une présentation d'état. Après avoir créé les codes déclaration de taxe, vous pouvez choisir les codes dans ** état paramétré ** la section sur ** codes taxe ** la page. <!---For more information, see [Set up sales tax reporting codes](http://ax.help.dynamics.com/en/wiki/set-up-sales-tax-reporting-codes/) and [Sales tax reporting codes page (Field descriptions)](http://ax.help.dynamics.com/en/wiki/sales-tax-reporting-codes-page-field-descriptions/).-->
+Les codes déclaration de taxe sont des codes de zone dans la déclaration de TVA ou des noms de balise au format XML. Ces codes sont utilisés pour regrouper et préparer les montants pour l'état. Lorsque vous configurez le format de génération d'états électroniques de la déclaration de TVA, les noms des montants de résultat sont utilisés. Vous pouvez créer et tenir à jour les codes déclaration de taxe dans la page **Codes déclaration de taxe**. Vous devez affecter une présentation d'état à chaque code. Après avoir créé les codes déclaration de taxe, vous pouvez choisir les codes dans la section **Paramétrage d'état** de la page **Codes taxe**. <!---For more information, see [Set up sales tax reporting codes](http://ax.help.dynamics.com/en/wiki/set-up-sales-tax-reporting-codes/) and [Sales tax reporting codes page (Field descriptions)](http://ax.help.dynamics.com/en/wiki/sales-tax-reporting-codes-page-field-descriptions/).-->
 
 ### <a name="sales-tax-codes-for-vat-reporting"></a>Codes taxe pour la déclaration de TVA
 
- Les montants et les montants de taxe de base de transactions de taxe peuvent être regroupés sous des codes déclaration dans la déclaration de TVA (des balises XML ou des zones de déclaration). Vous pouvez configurer cela en associant les codes déclaration de taxe pour différents types de transaction pour les codes taxe sur ** codes taxe ** la page. Le tableau suivant décrit les types de transaction dans l'état paramétré pour les codes taxe. Le calcul comprend les transactions pour tous les types de sources à l'exception de la taxe.
+<!---For general information about setting up sales tax codes, see [Set up sales tax codes](http://ax.help.dynamics.com/en/wiki/set-up-sales-tax-codes/).--> Les montants de base et les montants de taxe des transactions de taxe peuvent être regroupés à l'aide de codes déclaration dans la déclaration de TVA (balises XML ou zones de déclaration). Pour ce faire, associez les codes déclaration de taxe pour différents types de transaction aux codes taxe dans la page **Codes taxe**. Le tableau suivant décrit les types de transaction dans le paramétrage d'état pour les codes taxe. Le calcul comprend les transactions pour tous les types de sources à l'exception de la taxe.
 
 <table>
 <colgroup>
@@ -72,202 +72,202 @@ Codes déclaration de taxe sont des codes de zone dans la déclaration de TVA ou
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><strong>Transaction type</strong></td>
-<td><strong>Description des transactions et montants à compter sur le type de transaction</strong></td>
+<td><strong>Type de transaction</strong></td>
+<td><strong>Description des transactions et des montants à comptabiliser sur le type de transaction</strong></td>
 </tr>
 <tr class="even">
-<td><strong>Ventes soumises</strong></td>
-<td>Somme de <strong>Montants de base de la taxe</strong> transactions de taxe qui répondent aux conditions suivantes :
+<td><strong>Ventes soumises à taxe</strong></td>
+<td>Somme des <strong>Montants de base de taxe</strong> des transactions de taxe qui remplissent les conditions suivantes :
 <ul>
-<li>La date de transaction se trouve dans la période sélectionnée</li>
-<li>La vente est locale (<strong>Direction de la taxe</strong> est <strong>Taxe collectée</strong>).</li>
-<li>La transaction <strong>Montant de base de taxe</strong> ou <strong>Montant de taxe</strong> &lt; le 0.</li>
+<li>La date de transaction se trouve dans la période sélectionnée/</li>
+<li>La vente est locale (la <strong>Direction de la taxe</strong> est <strong>Taxe collectée</strong>).</li>
+<li>Le <strong>Montant de base de taxe</strong> ou le <strong>Montant de taxe</strong> &lt; de la transaction est 0.</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Ventes détaxées</strong></td>
-<td>Somme de <strong>Montants de base de la taxe</strong> transactions de taxe qui répondent aux conditions suivantes :
+<td><strong>Vente détaxée</strong></td>
+<td>Somme des <strong>Montants de base de taxe</strong> des transactions de taxe qui remplissent les conditions suivantes :
 <ul>
 <li>La date de transaction se trouve dans la période sélectionnée.</li>
-<li>La vente est exporté (<strong>Direction de la taxe</strong> est <strong>Vente exonérée de TVA</strong>).</li>
-<li>La transaction <strong>Montant de base de taxe</strong> ou <strong>Montant de taxe</strong> &lt; le 0.</li>
+<li>La vente est de type exportation (la <strong>Direction de la taxe</strong> est <strong>Vente détaxée</strong>).</li>
+<li>Le <strong>Montant de base de taxe</strong> ou le <strong>Montant de taxe</strong> &lt; de la transaction est 0.</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>Sales tax payable</strong></td>
-<td>Somme de <strong>Montants de la taxe</strong> les transactions de taxe qui répondent aux conditions suivantes :
+<td><strong>Taxe collectée</strong></td>
+<td>Somme des <strong>Montants de taxe</strong> des transactions de taxe qui remplissent les conditions suivantes :
 <ul>
 <li>La date de transaction se trouve dans la période sélectionnée.</li>
-<li>La vente est locale (<strong>Direction de la taxe</strong> est <strong>Taxe collectée</strong>).</li>
-<li>La transaction <strong>Montant de base de taxe</strong> ou <strong>Montant de taxe</strong> &lt; le 0.</li>
+<li>La vente est locale (la <strong>Direction de la taxe</strong> est <strong>Taxe collectée</strong>).</li>
+<li>Le <strong>Montant de base de taxe</strong> ou le <strong>Montant de taxe</strong> &lt; de la transaction est 0.</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Taxable sales credit note</strong></td>
-<td>Somme de <strong>Montants de base de la taxe</strong> les transactions de taxe qui répondent aux conditions suivantes :
+<td><strong>Avoir soumis à taxe</strong></td>
+<td>Somme des <strong>Montants de base de taxe</strong> des transactions de taxe qui remplissent les conditions suivantes :
 <ul>
 <li>La date de transaction se trouve dans la période sélectionnée.</li>
-<li>La vente est locale (<strong>Direction de la taxe</strong> est <strong>Taxe collectée</strong>).</li>
-<li>La transaction <strong>Montant de base de taxe</strong> ou <strong>Montant de taxe</strong> &gt; le 0.</li>
+<li>La vente est locale (la <strong>Direction de la taxe</strong> est <strong>Taxe collectée</strong>).</li>
+<li>Le <strong>Montant de base de taxe</strong> ou le <strong>Montant de taxe</strong> &gt; de la transaction est 0.</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>Avoir exempté de ventes de télécopie</strong></td>
-<td>Somme de <strong>Montants de base de la taxe</strong> les transactions de taxe qui répondent aux conditions suivantes :
+<td><strong>Avoir sur vente exonéré de taxe</strong></td>
+<td>Somme des <strong>Montants de base de taxe</strong> des transactions de taxe qui remplissent les conditions suivantes :
 <ul>
 <li>La date de transaction se trouve dans la période sélectionnée.</li>
-<li>La vente est exporté (<strong>Direction de la taxe</strong> est <strong>Vente exonérée de TVA</strong>).</li>
-<li>La transaction <strong>Montant de base de taxe</strong> ou <strong>Montant de taxe</strong> &gt; le 0.</li>
+<li>La vente est de type exportation (la <strong>Direction de la taxe</strong> est <strong>Vente détaxée</strong>).</li>
+<li>Le <strong>Montant de base de taxe</strong> ou le <strong>Montant de taxe</strong> &gt; de la transaction est 0.</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Sales tax on sales credit note</strong></td>
-<td>Somme de <strong>Montants de la taxe</strong> les transactions de taxe qui répondent aux conditions suivantes :
+<td><strong>Taxe sur avoir sur vente</strong></td>
+<td>Somme des <strong>Montants de taxe</strong> des transactions de taxe qui remplissent les conditions suivantes :
 <ul>
 <li>La date de transaction se trouve dans la période sélectionnée.</li>
-<li>La vente est locale (<strong>Direction de la taxe</strong> est <strong>Taxe collectée</strong>).</li>
-<li>La transaction <strong>Montant de base de taxe</strong> ou <strong>Montant de taxe</strong> &gt; le 0.</li>
+<li>La vente est locale (la <strong>Direction de la taxe</strong> est <strong>Taxe collectée</strong>).</li>
+<li>Le <strong>Montant de base de taxe</strong> ou le <strong>Montant de taxe</strong> &gt; de la transaction est 0.</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>Taxable purchases</strong></td>
-<td>Somme de <strong>Montants de base de la taxe</strong> les transactions de taxe qui répondent aux conditions suivantes :
+<td><strong>Achats soumis à taxe</strong></td>
+<td>Somme des <strong>Montants de base de taxe</strong> des transactions de taxe qui remplissent les conditions suivantes :
 <ul>
 <li>La date de transaction se trouve dans la période sélectionnée.</li>
-<li>L'achat est locale (<strong>Direction de la taxe</strong> est <strong>Taxe déductible</strong>).</li>
-<li>La transaction <strong>Montant de base de taxe</strong> ou <strong>Montant de taxe</strong> &gt; le 0.</li>
+<li>L'achat est local (la <strong>Direction de la taxe</strong> est <strong>Taxe déductible</strong>).</li>
+<li>Le <strong>Montant de base de taxe</strong> ou le <strong>Montant de taxe</strong> &gt; de la transaction est 0.</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Tax-free purchase</strong></td>
-<td>Somme de <strong>Montants de base de la taxe</strong> les transactions de taxe qui répondent aux conditions suivantes :
+<td><strong>Achat détaxé</strong></td>
+<td>Somme des <strong>Montants de base de taxe</strong> des transactions de taxe qui remplissent les conditions suivantes :
 <ul>
 <li>La date de transaction se trouve dans la période sélectionnée.</li>
-<li>L'achat est importation (is)<strong>Direction de la taxe</strong>  <strong>Achats non taxés d'impôts</strong>.</li>
-<li>La transaction <strong>Montant de base de taxe</strong> ou <strong>Montant de taxe</strong> &gt; le 0.</li>
+<li>L'achat est de type importation (la <strong>Direction de la taxe</strong> est <strong>Achat détaxé</strong>).</li>
+<li>Le <strong>Montant de base de taxe</strong> ou le <strong>Montant de taxe</strong> &gt; de la transaction est 0.</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>Sales tax receivable</strong></td>
-<td>Somme de <strong>Montants de la taxe</strong> les transactions de taxe qui répondent aux conditions suivantes :
+<td><strong>Taxe déductible</strong></td>
+<td>Somme des <strong>Montants de taxe</strong> des transactions de taxe qui remplissent les conditions suivantes :
 <ul>
 <li>La date de transaction se trouve dans la période sélectionnée.</li>
-<li>L'achat est locale (<strong>Direction de la taxe</strong> est <strong>Taxe déductible</strong>).</li>
-<li>La transaction <strong>Montant de base de taxe</strong> ou <strong>Montant de taxe</strong> &gt; le 0.</li>
+<li>L'achat est local (la <strong>Direction de la taxe</strong> est <strong>Taxe déductible</strong>).</li>
+<li>Le <strong>Montant de base de taxe</strong> ou le <strong>Montant de taxe</strong> &gt; de la transaction est 0.</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Taxable purchase credit note</strong></td>
-<td>Somme de <strong>Montants de base de la taxe</strong> les transactions de taxe qui répondent aux conditions suivantes :
+<td><strong>Avoir sur achat soumis à taxe</strong></td>
+<td>Somme des <strong>Montants de base de taxe</strong> des transactions de taxe qui remplissent les conditions suivantes :
 <ul>
 <li>La date de transaction se trouve dans la période sélectionnée.</li>
-<li>L'achat est locale (<strong>Direction de la taxe</strong> est <strong>Taxe déductible</strong>).</li>
-<li>La transaction <strong>Montant de base de taxe</strong> ou <strong>Montant de taxe</strong> &lt; le 0.</li>
+<li>L'achat est local (la <strong>Direction de la taxe</strong> est <strong>Taxe déductible</strong>).</li>
+<li>Le <strong>Montant de base de taxe</strong> ou le <strong>Montant de taxe</strong> &lt; de la transaction est 0.</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>Tax exempt purchase credit note</strong></td>
-<td>Somme de <strong>Montants de base de la taxe</strong> les transactions de taxe qui répondent aux conditions suivantes :
+<td><strong>Avoir sur achat exonéré de taxe</strong></td>
+<td>Somme des <strong>Montants de base de taxe</strong> des transactions de taxe qui remplissent les conditions suivantes :
 <ul>
 <li>La date de transaction se trouve dans la période sélectionnée.</li>
-<li>L'achat est importation (is)<strong>Direction de la taxe</strong>  <strong>Achats non taxés d'impôts</strong>.</li>
-<li>La transaction <strong>Montant de base de taxe</strong> ou <strong>Montant de taxe</strong> &lt; le 0.</li>
+<li>L'achat est de type importation (la <strong>Direction de la taxe</strong> est <strong>Achat détaxé</strong>).</li>
+<li>Le <strong>Montant de base de taxe</strong> ou le <strong>Montant de taxe</strong> &lt; de la transaction est 0.</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Sales tax on purchase credit note</strong></td>
-<td>Somme de <strong>Montants de la taxe</strong> les transactions de taxe qui répondent aux conditions suivantes :
+<td><strong>Taxe sur avoir sur achat</strong></td>
+<td>Somme des <strong>Montants de taxe</strong> des transactions de taxe qui remplissent les conditions suivantes :
 <ul>
 <li>La date de transaction se trouve dans la période sélectionnée.</li>
-<li>L'achat est locale (<strong>Direction de la taxe</strong> est <strong>Taxe déductible</strong>).</li>
-<li>La transaction <strong>Montant de base de taxe</strong> ou <strong>Montant de taxe</strong> &lt; le 0.</li>
+<li>L'achat est local (la <strong>Direction de la taxe</strong> est <strong>Taxe déductible</strong>).</li>
+<li>Le <strong>Montant de base de taxe</strong> ou le <strong>Montant de taxe</strong> &lt; de la transaction est 0.</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>Taxable import</strong></td>
-<td>Somme de <strong>Montants de base de la taxe</strong> les transactions de taxe qui répondent aux conditions suivantes :
+<td><strong>Importation soumise à taxe</strong></td>
+<td>Somme des <strong>Montants de base de taxe</strong> des transactions de taxe qui remplissent les conditions suivantes :
 <ul>
 <li>La date de transaction se trouve dans la période sélectionnée.</li>
-<li><strong>Direction de la taxe</strong> est <strong>Taxe d'utilisation</strong></li>
-<li>La transaction <strong>Montant de base de taxe</strong> ou <strong>Montant de taxe</strong> &gt; le 0.</li>
+<li>La <strong>Direction de la taxe</strong> est <strong>Taxe d'utilisation</strong></li>
+<li>Le <strong>Montant de base de taxe</strong> ou le <strong>Montant de taxe</strong> &gt; de la transaction est 0.</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Offset taxable import</strong></td>
-<td>Somme contrepassée de <strong>Montants de base de la taxe</strong> les transactions de taxe qui répondent aux conditions suivantes :
+<td><strong>Contrepartie des importations soumises à taxe</strong></td>
+<td>Somme contrepassée des <strong>Montants de base de la taxe</strong> des transactions de taxe qui remplissent les conditions suivantes :
 <ul>
 <li>La date de transaction se trouve dans la période sélectionnée.</li>
-<li><strong>Direction de la taxe</strong> est <strong>Taxe d'utilisation</strong>.</li>
-<li>La transaction <strong>Montant de base de taxe</strong> ou <strong>Montant de taxe</strong> &gt; le 0.</li>
+<li>La <strong>Direction de la taxe</strong> est <strong>Taxe d'utilisation</strong>.</li>
+<li>Le <strong>Montant de base de taxe</strong> ou le <strong>Montant de taxe</strong> &gt; de la transaction est 0.</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>Taxable import credit note</strong></td>
-<td>Somme de <strong>Montants de base de la taxe</strong> les transactions de taxe qui répondent aux conditions suivantes :
+<td><strong>Avoir sur importation soumis à taxe</strong></td>
+<td>Somme des <strong>Montants de base de taxe</strong> des transactions de taxe qui remplissent les conditions suivantes :
 <ul>
 <li>La date de transaction se trouve dans la période sélectionnée.</li>
-e<li><strong>Direction de la taxe</strong> est <strong>Taxe d'utilisation</strong>.</li>
-<li>La transaction <strong>Montant de base de taxe</strong> ou <strong>Montant de taxe</strong> &lt; le 0.</li>
+e<li>La <strong>Direction de la taxe</strong> est <strong>Taxe d'utilisation</strong>.</li>
+<li>Le <strong>Montant de base de taxe</strong> ou le <strong>Montant de taxe</strong> &lt; de la transaction est 0.</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Offset taxable import credit note</strong></td>
-<td>Somme contrepassée de <strong>Montants de base de la taxe</strong> les transactions de taxe qui répondent aux conditions suivantes :
+<td><strong>Contrepartie des avoirs sur importations soumises à taxe</strong></td>
+<td>Somme contrepassée des <strong>Montants de base de la taxe</strong> des transactions de taxe qui remplissent les conditions suivantes :
 <ul>
 <li>La date de transaction se trouve dans la période sélectionnée.</li>
-<li>La direction de la taxe est <strong>Taxe d'utilisation</strong>.</li>
-d<li>La transaction <strong>Montant de base de taxe</strong> ou <strong>Montant de taxe</strong> &lt; le 0.</li>
+<li>La Direction de la taxe est <strong>Taxe d'utilisation</strong>.</li>
+d<li>Le <strong>Montant de base de taxe</strong> ou le <strong>Montant de taxe</strong> &lt; de la transaction est 0.</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>Use tax</strong></td>
-<td>Somme de <strong>Montants de la taxe</strong> les transactions de taxe qui répondent aux conditions suivantes :
+<td><strong>Taxe d'utilisation</strong></td>
+<td>Somme des <strong>Montants de taxe</strong> des transactions de taxe qui remplissent les conditions suivantes :
 <ul>
 <li>La date de transaction se trouve dans la période sélectionnée.</li>
-<li><strong>Direction de la taxe</strong> est <strong>Taxe d'utilisation</strong>.</li>
-<li>La transaction <strong>Montant de base de taxe</strong> ou <strong>Montant de taxe</strong> &gt; le 0.</li>
+<li>La <strong>Direction de la taxe</strong> est <strong>Taxe d'utilisation</strong>.</li>
+<li>Le <strong>Montant de base de taxe</strong> ou le <strong>Montant de taxe</strong> &gt; de la transaction est 0.</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Offset use tax</strong></td>
-<td>Somme contrepassée de <strong>Montants de la taxe</strong> les transactions de taxe qui répondent aux conditions suivantes :
+<td><strong>Contrepartie taxe d'utilisation</strong></td>
+<td>Somme contrepassée des <strong>Montants de taxe</strong> des transactions de taxe qui remplissent les conditions suivantes :
 <ul>
 <li>La date de transaction se trouve dans la période sélectionnée.</li>
-<li><strong>Direction de la taxe</strong> est <strong>Taxe d'utilisation</strong>.</li>
-<li>La transaction <strong>Montant de base de taxe</strong> ou <strong>Montant de taxe</strong> &gt; le 0.</li>
+<li>La <strong>Direction de la taxe</strong> est <strong>Taxe d'utilisation</strong>.</li>
+<li>Le <strong>Montant de base de taxe</strong> ou le <strong>Montant de taxe</strong> &gt; de la transaction est 0.</li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
 > [!NOTE]
-> Pour le tableau ci-dessus, l'on suppose que les critères suivants sont remplis : 
-> -   Montant de base de la taxe est un montant de transaction ** origine dans la devise comptable ** du champ.
-> -   Montant de la taxe est un montant de transition ** montant réel de la taxe dans la devise comptable ** du champ.
+> Pour le tableau ci-dessus, on suppose que les critères suivants sont remplis : 
+> -   Le montant de base de la taxe est un montant de transaction issu du champ **Origine dans la devise comptable**.
+> -   Le montant de la taxe est un montant de transition issu du champ **Montant réel de la taxe dans la devise comptable**.
 
-### <a name="configure-the-er-model-and-format-for-the-report"></a>Configurez le modèle et le format d'ER pour l'état
+### <a name="configure-the-er-model-and-format-for-the-report"></a>Configurer le modèle et le format ER pour l'état
 
-Vous pouvez utiliser (ER) de déclaration électronique pour configurer les relevés et l'état, et d'exporter différents formats électroniques de données sans modifier le code X++. Pour les informations supplémentaires :
+Vous pouvez utiliser les états électroniques pour configurer les déclarations et l'état, et pour exporter les données dans différents formats électroniques sans modifier le code X++. Pour des informations supplémentaires :
 
 -   [Vue d'ensemble des États électroniques](/dynamics365/operations/dev-itpro/dev-itpro/analytics/general-electronic-reporting)
 -   [Télécharger les configurations des états électroniques à partir de Lifecycle Services](/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
--   [Les besoins de localisation – Permet de créer une configuration de GER] (/dynamics365/operations/dev-itpro/analytics/electronic-reporting-configuration)
+-   [Exigences de localisation – Créer une configuration GER](/dynamics365/operations/dev-itpro/analytics/electronic-reporting-configuration)
 
-## <a name="countryspecific-resources-for-vat-statements"></a>Ressources Countryspecific de relevés de TVA
-Le déclaration de TVA pour chaque pays doit répondre aux exigences de la législation du pays. Il existe des modèles et des formats généraux prédéfinis des relevés de TVA pour les pays répertoriés dans le tableau suivant.
+## <a name="countryspecific-resources-for-vat-statements"></a>Ressources spécifiques au pays pour les déclarations de TVA
+La déclaration de TVA pour chaque pays doit répondre aux exigences de la législation du pays. Il existe des modèles et des formats généraux prédéfinis de déclarations de TVA pour les pays répertoriés dans le tableau suivant.
 
 
 | Pays        | Informations supplémentaires                                                          |
 |----------------|---------------------------------------------------------------------------------|
-| Autriche        |  [Détails de la déclaration de TVA pour l'Autriche] (emea-aut-vat-statement-details.md)         |
+| Autriche        |  [Détails de la déclaration de TVA pour l'Autriche](emea-aut-vat-statement-details.md)         |
 | Belgique        |                                                                                 |
-| République tchèque |  [Détails de relevé de TVA pour République tchèque emea-cze-vat-statement-details.md] ()   |
-| Estonie        |  [Détails de relevé de TVA pour l'Estonie emea-est-vat-statement-details.md] () |
+| République tchèque |  [Détails de la déclaration de TVA pour la République tchèque](emea-cze-vat-statement-details.md)   |
+| Estonie        |  [Détails de la déclaration de TVA pour l'Estonie](emea-est-vat-statement-details.md) |
 | Finlande        |                                                                                 |
 | Allemagne        |                                                                                 |
-| Italie          | [Détails de relevé de TVA pour l'Italie] (emea-ita-vat-statements-details.md)            |
-| Lettonie         | [Détails de relevé de TVA pour la Lettonie emea-lva-vat-statement-details.md] ()           |
-| Lituanie      | [Détails de relevé de TVA pour la Lithuanie] (emea-ltu-vat-statement-details.md)         |
+| Italie          | [Détails de la déclaration de TVA pour l'Italie](emea-ita-vat-statements-details.md)            |
+| Lettonie         | [Détails de la déclaration de TVA pour la Lettonie](emea-lva-vat-statement-details.md)           |
+| Lituanie      | [Détails de la déclaration de TVA pour la Lituanie](emea-ltu-vat-statement-details.md)         |
 | Pays-Bas    |                                                                                 |
 | Suède         |                                                                                 |
 

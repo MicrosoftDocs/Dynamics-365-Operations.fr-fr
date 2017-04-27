@@ -1,5 +1,5 @@
 ---
-title: "Paramétrez la fonctionnalité étendue de connexion pour le POS de cloud et le MPOS"
+title: "Paramétrer une fonctionnalité de connexion étendue pour Cloud POS et MPOS"
 description: "Ce wiki couvre les options de configuration de la connexion étendue pour Cloud POS et Retail Modern POS (MPOS)."
 author: josaw1
 manager: AnnBe
@@ -25,14 +25,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-extended-logon-functionality-for-cloud-pos-and-mpos"></a>Paramétrez la fonctionnalité étendue de connexion pour le POS de cloud et le MPOS
+# <a name="set-up-extended-logon-functionality-for-cloud-pos-and-mpos"></a>Paramétrer une fonctionnalité de connexion étendue pour Cloud POS et MPOS
 
 Ce wiki couvre les options de configuration de la connexion étendue pour Cloud POS et Retail Modern POS (MPOS).
 
 <a name="setting-up-extended-logon"></a>Paramétrage d'une connexion étendue
 =========================
 
-Vous pouvez trouver le paramétrage des masques de codes-barres ** au détail et commerce ** &gt; ** au canal paramétré ** &gt; ** la configuration ** &gt; ** des profils de PDV ** &gt; ** des profils de fonctionnalité **. L'organisateur **Fonctions** inclut les options suivantes relatives à la connexion étendue.
+Vous trouverez le paramétrage des masques de code-barres dans **Commerce et vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage du PDV** &gt; **Profils PDV** &gt; **Profils de fonctionnalités**. L'organisateur **Fonctions** inclut les options suivantes relatives à la connexion étendue.
 
 ### <a name="staff-bar-code-logon"></a>Connexion du personnel par code-barres
 
@@ -53,7 +53,7 @@ Lorsque l'option **La connexion du personnel par carte nécessite un mot de pass
 <a name="assigning-an-extended-logon"></a>Affectation d'une connexion étendue
 ===========================
 
-Par défaut, seuls les responsables peuvent affecter une connexion étendue aux collaborateurs. Pour affecter la connexion étendue, entrez à ** connexion étendue ** dans POS. Puis recherche d'un travailleur en entrant son ID opérateur dans le champ de recherche. Sélectionnez le collaborateur, puis cliquez sur **Affecter**. Sur la page suivante, faites glisser ou scannez la connexion étendue à affecter au collaborateur. Si cette opération permet une lecture correcte, le bouton **OK **devient disponible. Cliquez sur **OK** pour enregistrer la connexion étendue pour ce collaborateur.
+Par défaut, seuls les responsables peuvent affecter une connexion étendue aux collaborateurs. Pour affecter une connexion étendue, accédez à **Connexion étendue** dans le PDV. Recherchez ensuite un collaborateur en entrant son ID d'opérateur dans le champ de recherche. Sélectionnez le collaborateur, puis cliquez sur **Affecter**. Sur la page suivante, faites glisser ou scannez la connexion étendue à affecter au collaborateur. Si cette opération permet une lecture correcte, le bouton **OK **devient disponible. Cliquez sur **OK** pour enregistrer la connexion étendue pour ce collaborateur.
 
 <a name="deleting-an-extended-logon"></a>Suppression d'une connexion étendue
 ==========================

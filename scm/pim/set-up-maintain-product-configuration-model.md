@@ -1,5 +1,5 @@
 ---
-title: "Paramétrage d&quot;un modèle de configuration de produit"
+title: "Paramétrer un modèle de configuration de produit"
 description: "Cet article décrit les étapes de paramétrage et de création d&quot;un modèle de configuration de produit."
 author: YuyuScheller
 manager: AnnBe
@@ -27,13 +27,16 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-a-product-configuration-model"></a>Paramétrage d'un modèle de configuration de produit
+# <a name="set-up-a-product-configuration-model"></a>Paramétrer un modèle de configuration de produit
+
+[!include[banner](../includes/banner.md)]
+
 
 Cet article décrit les étapes de paramétrage et de création d'un modèle de configuration de produit.
 
 | Tâche                                                        | description ;                                                                                                                                                                                                                                                                                                                                                                                        |
 |-------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Créer un produit générique.                                    | Permet de créer un produit générique depuis la liste **Produit générique**. Lancez le produit générique à toutes les sociétés appropriées. Pour un produit générique utilisé comme version pour un modèle de configuration de produit ou comme sous-composant, ** configuration basée sur les contraintes ** doit être sélectionné comme technologie de configuration, et la dimension de configuration doit être sélectionné uniquement pour le groupe de dimensions de produit. |
+| Créer un produit générique.                                    | Permet de créer un produit générique depuis la liste **Produit générique**. Lancez le produit générique dans toutes les sociétés appropriées. Pour un produit générique utilisé comme version pour un modèle de configuration de produit ou comme sous-composant, **Configuration basée sur les contraintes** doit être sélectionné comme technologie de configuration, et la dimension de configuration doit être sélectionnée uniquement pour le groupe de dimensions de produit. |
 | Créer des composants.                                          | Permet de créer des composants sur la page **Composants**. Les composants sont les éléments constitutifs d'un modèle de configuration de produit et peuvent être réutilisés dans plusieurs modèles de configuration de produit.                                                                                                                                                                                                                      |
 | Créer des types d'attributs.                                     | Permet de créer des types d'attribut sur la page **Types d'attributs**. Les types d'attributs spécifient l'ensemble des types de données pour tous les attributs utilisés dans des modèles de configuration de produit. Les attributs dont la valeur est de type **Booléen**, **Texte** avec une liste fixe, et **Entier** avec des types de plage répertorient les valeurs disponibles lorsque vous configurez une variante de produit en fonction d'un modèle de configuration de produit.       |
 | Créer un modèle de configuration de produit.                       | Permet de créez un modèle de configuration de produit sur la page **Nouveau modèle de configuration de produits**.                                                                                                                                                                                                                                                                                                              |
@@ -47,6 +50,8 @@ Cet article décrit les étapes de paramétrage et de création d'un modèle de 
 | Tester un modèle de configuration de produits.                         | Permet de tester le modèle de configuration de produit depuis la page **Détails du modèle de configuration de produits basée sur les contraintes** ou la page **Liste des modèles de configuration de produits**. Le fait de tester des modèles de configuration de produit simule le processus de configuration du modèle de produit qui se produit pendant le traitement des commandes.                                                                                                |
 | Créer un modèle de modèle de configuration de produit.                | Permet de créer un modèle de configuration de produit sur la page **Modèles de configuration**. Un modèle de configuration inclut des valeurs pour les attributs du modèle de configuration de produit. Sélectionnez les valeurs d'attribut sur la page **Configurer la ligne**. Vous pouvez choisir de charger un modèle de modèle de configuration de produit pendant la configuration du modèle de produit.                                                   |
 | Configurer un article.                                          | Les modèles de configuration de produit peuvent être configurés à partir d'une commande client, d'un devis de vente, d'une commande fournisseur, ou d'un ordre de fabrication.                                                                                                                                                                                                                                                                           |
+
+
 
 
 

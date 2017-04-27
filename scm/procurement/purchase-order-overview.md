@@ -27,15 +27,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-order-overview"></a>Présentation des commandes fournisseur
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article fournit des informations générales sur les commandes fournisseur (CF) et des liens vers d’autres articles qui sont liés aux différentes étapes par lesquelles passe CF.
 
 Une commande fournisseur (CF) est un document qui représente un contrat avec un fournisseur pour acheter des biens ou des services. Ce document permet également de garder une trace des accusés de réception de marchandises qui sont effectuées vis-à-vis de la commande et, plus tard, la comptabilisation des factures fournisseur que le fournisseur facture par rapport à la commande.  
 
-La page **Commandes founisseur** contient une vue d’ensemble des commandes disponibles et vous permet de modifier celles-ci. Lorsque vous ouvrez une CF, vous pouvez sélectionner la vue **En-tête**, qui contient des informations spécifiées une seule fois pour chaque CF, telles que les détails du fournisseur. Vous pouvez également sélectionner la vue **Lignes**, dans laquelle vous pouvez modifier les lignes de commande. Généralement, vous basculerez entre ces deux vues comme vous modifiez la position. Les frais ne sont pas répertoriés directement sur ** des commandes fournisseur ** la page, mais sont accessibles via les menus dans l'en-tête et les lignes de commande.  
+La page **Commandes founisseur** contient une vue d’ensemble des commandes disponibles et vous permet de modifier celles-ci. Lorsque vous ouvrez une CF, vous pouvez sélectionner la vue **En-tête**, qui contient des informations spécifiées une seule fois pour chaque CF, telles que les détails du fournisseur. Vous pouvez également sélectionner la vue **Lignes**, dans laquelle vous pouvez modifier les lignes de commande. En règle générale, vous allez vous déplacer entre ces deux vues lorsque vous modifiez les CF. Les frais ne figurent pas directement sur la page **Commandes fournisseur**, mais ils sont accessibles via les menus de l’en-tête et des lignes de la commande.  
 
 Il existe de nombreux états, où vous pouvez afficher des informations sur les CF, les accusés de réception de marchandises et les factures fournisseur. Ces états sont trouvent dans les modules **Approvisionnements** et **Comptabilité fournisseur**.  
 
-Les espaces de travail **Préparation des commandes fournisseur** et **Réception et suivi de commande fournisseur** vous permettent d’afficher des listes des CF dans les différents états dans lesquels elles sont passés. Ils fournissent également un résumé des actions qui doivent être prises. L'espace de travail **Préparation des commandes fournisseur** se concentre sur la création et la révision de la CF, le traitement de la commande par approbation et la confirmation auprès du fournisseur. ** Réception et suivi de commande fournisseur ** l'espace de travail est concentré de traiter la réception des marchandises ou des services par rapport à la position. Il inclut les listes qui permettent d'analyse dans les réceptions en retard, ou qui vont bientôt dues pour la livraison par le fournisseur. Ces espaces de travail ne sont pas utilisés pour effectuer les activités de réception connexes qui sont effectuées dans l’entrepôt. Ces activités sont effectuées à l’aide de pages des modules **Gestion des stocks** et **Gestion des entrepôts**. Le traitement des factures fournisseur doit être effectué à l’aide de l'espace de travail **Saisie de facture fournisseur** et les paiements doivent être effectués à l’aide de l'espace de travail **Paiements fournisseur**.  
+Les espaces de travail **Préparation des commandes fournisseur** et **Réception et suivi de commande fournisseur** vous permettent d’afficher des listes des CF dans les différents états dans lesquels elles sont passés. Ils fournissent également un résumé des actions qui doivent être prises. L'espace de travail **Préparation des commandes fournisseur** se concentre sur la création et la révision de la CF, le traitement de la commande par approbation et la confirmation auprès du fournisseur. L'espace de travail **Réception et suivi de commande fournisseur** se concentre sur le traitement de la réception des marchandises ou des services par rapport aux CF. Il inclut des listes des réceptions qui sont en retard ou qui seront bientôt attendues du fournisseur. Ces espaces de travail ne sont pas utilisés pour effectuer les activités de réception connexes qui sont effectuées dans l’entrepôt. Ces activités sont effectuées à l’aide de pages des modules **Gestion des stocks** et **Gestion des entrepôts**. Le traitement des factures fournisseur doit être effectué à l’aide de l'espace de travail **Saisie de facture fournisseur** et les paiements doivent être effectués à l’aide de l'espace de travail **Paiements fournisseur**.  
 
 Les articles suivants fournissent une vue d’ensemble des diverses étapes par lesquelles passe une commande fournisseur :
 
@@ -45,7 +48,7 @@ Les articles suivants fournissent une vue d’ensemble des diverses étapes par 
 -   [Vue d'ensemble des factures fournisseur](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
 
 ## <a name="types-of-purchase-orders"></a>Types de commandes fournisseur
-Il existe trois types de poste. Lorsque vous créez un fournisseur, vous devez spécifier le type. Vous pouvez définir un type de commande par défaut pour les nouvelles commandes sur la page **Paramètres d’approvisionnement**.
+Il existe trois types de CF. Lorsque vous créez une CF, vous devez indiquer le type. Vous pouvez définir un type de commande par défaut pour les nouvelles commandes sur la page **Paramètres d’approvisionnement**.
 
 | Type de CF        | Description                                                                                                                                                                                                                                                                           |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -58,7 +61,7 @@ Les CF incluent plusieurs champs d’état indiquant la progression de la comman
 
 -   **Commande en cours** : Les commandes ont été créées et des quantités figurent sur la commande.
 -   **Reçue** : certaines des quantités ont été reçues, mais elles n’ont pas encore été facturées.
--   **Facturée** : la quantité totale sur la commande a été facturée. **Remarque :** si une commande a été *partiellement* facturée, ni le statut **Reçue** ni le statut **Facturée** n'est approprié. Par conséquent, la commande aura toujours le statut **Commande en cours**.
+-   **Facturée** : la quantité totale sur la commande a été facturée. **Remarque :** si une commande a été *partiellement* facturée, ni le statut **Reçue** ni le statut **Facturée** n'est approprié. Par conséquent, la commande aura toujours le statut **Commande en cours**.
 -   **Annulée** : une commande a été confirmée mais annulée ultérieurement. Par conséquent, cet état indique qu’il n'existe plus de quantités sur la commande.
 
 Le champ **Statut du document** vous permet de passer rapidement en revue la progression de la commande en ce qui concerne les documents qui ont été traités. Il affiche le statut du document terminé le plus récemment pour la commande. Les valeurs disponibles sont les suivantes :
@@ -80,12 +83,14 @@ Le champ **Statut d’approbation** est utilisé lorsqu'une CF passe par un proc
 <a name="see-also"></a>Voir également :
 --------
 
-[Purchase order creation](purchase-order-creation.md)
+[Création de commandes fournisseur](purchase-order-creation.md)
 
 [Approbation et confirmation de la commande fournisseur](purchase-order-approval-confirmation.md)
 
 [Accusé de réception de marchandises et commandes fournisseur](product-receipt-against-purchase-orders.md)
 
 [Vue d'ensemble des factures fournisseur](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+
+
 
 

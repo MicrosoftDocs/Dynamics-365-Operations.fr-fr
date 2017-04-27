@@ -27,12 +27,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="procurement-catalogs"></a>Catalogues d'approvisionnement
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article décrit, à un niveau supérieur, comment les acheteurs peuvent paramétrer et tenir à jour les catalogues d'approvisionnement. Des catalogues d'approvisionnement définissent les articles et les services que les employés de la société peuvent commander pour un usage interne.
 
 Les acheteurs peuvent créer et mettre à jour les catalogues des articles et services pouvant être achetés pour un usage interne dans une organisation. Une fois les catalogues paramétrés, les employés de la société peuvent créer des demandes d'achat pour effectuer des commandes à partir de ceux-ci. Les catalogues permettent d'appliquer des stratégies d'achat afin de s'assurer que les employés commandent uniquement les articles et les services autorisés pour leur entité juridique acheteuse. Lorsque vous créez un catalogue d'approvisionnement, vous devez prendre en compte les tâches suivantes :
 
 -   Configurez votre hiérarchie des catégories d'approvisionnement avant de créer le catalogue.
--   Déterminez les produits que vos employés peuvent commander. Vous pouvez afficher ou de masquer des produits spécifiques dans un nœud de catalogue, ou vous pouvez afficher ou de masquer tous les produits dans un nœud.
+-   Déterminez les produits que vos employés peuvent commander. Vous pouvez afficher ou masquer des produits spécifiques dans un nœud de catalogue, ou vous pouvez afficher ou masquer tous les produits d'un nœud.
 -   Déterminez le nombre de catalogues d'approvisionnement dont vous avez besoin. L'accès au catalogue d'approvisionnement est déterminé par la règle de stratégie de catalogue configurée pour l'entité juridique et la section auxquelles l'employé est affecté.
 
 Plusieurs facteurs déterminent les produits que les employés peuvent commander et les catégories d'approvisionnement qu'ils peuvent utiliser en créant des demandes d'achat :
@@ -52,7 +55,7 @@ Le tableau suivant décrit les tâches devant être effectuées avant qu'un ache
 ## <a name="setting-up-a-catalog"></a>Paramétrage d'un catalogue
 Une fois les conditions préalables remplies, vous pouvez paramétrer des catalogues. Vous pouvez créer un catalogue utilisé par l'ensemble de votre organisation ou plusieurs catalogues utilisés par les différentes divisions de votre organisation. Si vous créez un catalogue pour l'ensemble de votre organisation, l'accès au catalogue est contrôlé par vos règles de stratégie d'achat.  
 
-Le catalogue définit les produits disponibles lorsque des demandes d'achat sont créées, mais vous pouvez utiliser les règles de stratégie d'accès à la catégorie pour appliquer des restrictions supplémentaires. Comme les nœuds d'un catalogue sont des catégories d'approvisionnement, ils peuvent être supprimés par une règle de stratégie d'accès à la catégorie. Dans ce cas, les produits de cette catégorie ne sont pas disponibles pour les employés à utiliser dans les demandes. Vous pouvez définir des règles de stratégie d'accès à la catégorie sur ** des stratégies d'achat ** la page. Le tableau suivant décrit les tâches que vous devez effectuer pour paramétrer un catalogue.
+Le catalogue définit les produits disponibles lorsque des demandes d'achat sont créées, mais vous pouvez utiliser les règles de stratégie d'accès à la catégorie pour appliquer des restrictions supplémentaires. Comme les nœuds d'un catalogue sont des catégories d'approvisionnement, ils peuvent être supprimés par une règle de stratégie d'accès à la catégorie. Dans ce cas, les produits de cette catégorie ne peuvent pas être utilisés par les employés dans les demandes. Vous définissez des règles de stratégie d'accès à la catégorie dans la page **Stratégies d'achat**. Le tableau suivant décrit les tâches que vous devez effectuer pour paramétrer un catalogue.
 
 | Tâche                                                   | Rôle             | Description                                                                                                                                                                                                                                                                                                                  |
 |--------------------------------------------------------|------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -71,5 +74,7 @@ Les mises à jour sont publiées automatiquement ou manuellement, selon l'option
 --------
 
 [Paramétrage d'une hiérarchie des catégories d'approvisionnement (Guide de tâche)](http://ax.help.dynamics.com/en/wiki/set-up-a-procurement-category-hierarchy/)
+
+
 
 

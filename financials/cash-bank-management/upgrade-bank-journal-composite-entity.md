@@ -1,5 +1,5 @@
 ---
-title: "Mettez l&quot;entité à jour bancaire de composé de journal"
+title: "Mise à jour de l&quot;entité composite du journal des banques"
 description: "Les étapes suivantes sont requises pour ajouter le champ BankTransactionType supplémentaire au BankJournalEntity composite."
 author: twheeloc
 manager: AnnBe
@@ -24,20 +24,23 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="update-the-bank-journal-composite-entity"></a>Mettez l'entité à jour bancaire de composé de journal
+# <a name="update-the-bank-journal-composite-entity"></a>Mise à jour de l'entité composite du journal des banques
+
+[!include[banner](../includes/banner.md)]
+
 
 Les étapes suivantes sont requises pour ajouter le champ BankTransactionType supplémentaire au BankJournalEntity composite.
 
 Les étapes suivantes permettent d'ajouter le champ BankTransactionType supplémentaire au BankJournalEntity composite.
 
 1.  Compilez et de synchroniser les entités composites de journal des banques, entités, et tables intermédiaires suivantes :
-    -   L'entité composée\\BankJournalEntity
-    -   Entité\\BankJournalHeaderEntity
-    -   Entité\\BankJournalLineEntity
+    -   Composite Entity\\BankJournalEntity
+    -   Entity\\BankJournalHeaderEntity
+    -   Entity\\BankJournalLineEntity
     -   Table\\BankJournalHeaderStaging
     -   Table\\BankJournalLineStaging
 
-2.  Projets de données\\de gestion des données
+2.  Data management\\data projects
     -   Exposez le type **Transaction bancaire ** sur la mise en page **Données sources**.
         -   Format de données source = Élément XML
         -   Nom de l'entité = Journal des banques
@@ -49,6 +52,8 @@ Les étapes suivantes permettent d'ajouter le champ BankTransactionType supplém
             -   Vérifiez que le type de transaction bancaire est mappé entre Source et Intermédiaire.
 
 3.  Importez le nouveau relevé.
+
+
 
 
 

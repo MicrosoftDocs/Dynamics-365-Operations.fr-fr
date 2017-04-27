@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="performance-management-overview"></a>Vue d'ensemble de la gestion des performances
 
+[!include[banner](includes/banner.md)]
+
+
 Le processus de gestion des performances permet aux employés de documenter et de discuter de leurs performances avec leur responsable. Les responsables peuvent ensuite à leur tour faire des commentaires et fournir des instructions aux employés.  
 
 Comme le montre le diagramme suivant, il existe trois pages qui vous permettent de gérer le processus :
@@ -34,7 +37,7 @@ Comme le montre le diagramme suivant, il existe trois pages qui vous permettent 
 -   Objectifs
 -   Examen des performances
 
-Le diagramme suivant présente la manière dont les principaux composants de la gestion des performances sont liés les uns aux autres. [présentation du processus de performances![] (. /media/hcm_performanceoverviewdiagram-300x189.png)](. /media/hcm_performanceoverviewdiagram.png)    
+Le diagramme suivant présente la manière dont les principaux composants de la gestion des performances sont liés les uns aux autres. [![Vue d'ensemble du processus de performance](./media/hcm_performanceoverviewdiagram-300x189.png)](./media/hcm_performanceoverviewdiagram.png)    
 
 ## <a name="performance-journal"></a>Journal des performances
 En tant qu'employé, avant de terminer votre révision, vous devez souvent recueillir des informations sur les activités ou les événements qui ont contribué à votre réussite au cours d'une période de révision. Le journal des performances est le document où vous pouvez documenter les activités et les événements. Vous pouvez en outre créer de futures activités à accomplir pour vous aider à atteindre un objectif, à répondre aux exigences d'un programme de perfectionnement, ou à respecter un engagement en termes de performances. Les journaux de performances ne sont pas nécessaires pour créer des objectifs ou des entretiens d'évaluation des performances. 
@@ -132,7 +135,7 @@ Vous pouvez utiliser le workflow d'évaluation des collaborateurs pour contrôle
 Le workflow de révision des collaborateurs contient deux éléments :
 
 1.  Approbation de la révision. Ajoutez cet élément pour contrôler la modification du statut de **En cours** à **Prêt pour la révision**. Modifiez l'affectation pour utiliser la hiérarchie managériale où le niveau de directeur de ligne.Employé = 1.
-2.  Révision finale. Ajoutent cet élément pour contrôler la modification du statut de ** prête pour la révision ** ** révision finale **. Permet de modifier l'affectation pour utiliser la hiérarchie gestionnaire laquelle le niveau du Gestionnaire d'Employee.line = 1 si vous souhaitez le responsable pour approuver la révision finale. Remplacez l'affectation par Utilisateur du workflow si vous souhaitez que l'employé l'approuve. Si vous souhaitez que le responsable et l'employé l'approuvent, ajoutez deux étapes dans le workflow et effectuez l'affectation appropriée pour chaque étape dans l'ordre à suivre par les approbations.
+2.  Révision finale. Ajoutez cet élément pour contrôler la modification du statut de **Prêt pour la révision** à **Révision finale**. Modifiez l'affectation pour utiliser la hiérarchie managériale où le niveau de directeur de ligne.Employé = 1. si vous souhaitez que le responsable approuve la révision finale. Remplacez l'affectation par Utilisateur du workflow si vous souhaitez que l'employé l'approuve. Si vous souhaitez que le responsable et l'employé l'approuvent, ajoutez deux étapes dans le workflow et effectuez l'affectation appropriée pour chaque étape dans l'ordre à suivre par les approbations.
 
 ## <a name="setup"></a>Configuration
 Il existe trois pages qui vous permettent de paramétrer les informations requises pour l'exécution du processus de performances : la page **mesures**, la page **types de source du journal des performances** et la page **types de révision**.
@@ -148,5 +151,7 @@ Les types de source du journal des performances décrivent l'origine des journau
 ### <a name="review-types"></a>Types de révision
 
 Les types de révision des performances permettent de contrôler le comportement d'une révision. Vous pouvez activer ou désactiver le workflow pour une révision. Si la révision n'utilise pas de workflow, vous pouvez définir le statut par défaut utilisé lorsque la révision est créée. Vous pouvez également décider si l'employé, le responsable, ou les deux sont nécessaires pour valider la révision.
+
+
 
 

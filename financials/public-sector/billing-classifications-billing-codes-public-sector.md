@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="billing-classifications-and-billing-codes-in-the-public-sector"></a>Classifications de facturation et codes facturation dans le secteur public
 
+[!include[banner](../includes/banner.md)]
+
+
 Les organisations du secteur public peuvent utiliser les classifications de facturation et des codes de facturation pour gérer les factures financières. 
 
 <a name="billing-classifications"></a>Classifications de facturation
@@ -84,6 +87,8 @@ Lorsque les codes facturation doivent être mis à jour, il n'est pas nécessair
 
 ## <a name="can-i-assign-the-same-billing-code-to-more-than-one-billing-classification"></a>Puis-je affecter le même code facturation à plusieurs classification de facturation ?
 Non, mais il existe tout de même une manière d'obtenir les résultats dont vous avez besoin. Supposons que votre organisation utilise une classification de facturation distincte pour chaque département. Trois de ces départements ont besoin d'un code facturation pour des contrats de licence. Vous ne pouvez pas affecter un code facturation unique « Contrat de licence » à trois classifications de facturation, mais vous pouvez créer un ensemble de trois codes facturation identiques, puis en affecter un à chaque département.
+
+
 
 
 

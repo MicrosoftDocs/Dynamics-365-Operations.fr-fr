@@ -1,5 +1,5 @@
 ---
-title: Vue d&quot;ensemble de la production au plus juste
+title: "Présentation de lean manufacturing"
 description: "Cet article fournit une vue d&quot;ensemble et la description des fonctionnalités de lean manufacturing dans Microsoft Dynamics AX."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="lean-manufacturing-overview"></a>Vue d'ensemble de la production au plus juste
+# <a name="lean-manufacturing-overview"></a>Présentation de lean manufacturing
+
+[!include[banner](../includes/banner.md)]
+
 
 Cet article fournit une vue d'ensemble et la description des fonctionnalités de lean manufacturing dans Microsoft Dynamics AX.
 
@@ -49,7 +52,7 @@ Pour créer une base de lean manufacturing, modélisez les processus de fabricat
 
 ## <a name="using-kanbans-to-signal-demand-requirements"></a>Utilisation des kanbans pour signaler les besoins de demande
 Un système de traction ne produit des marchandises que lorsqu'elles sont nécessaires. Cette pratique réduit les délais de livraison et le stock excédentaire. Vous pouvez utiliser des kanbans pour planifier, suivre et traiter les demandes basées sur les flux de production. Pour créer une structure de kanbans, créez des règles de kanban qui définissent le moment de création des kanbans, ainsi que la façon dont les besoins sont satisfaits. Vous pouvez créer deux types de règles de kanban. Les règles de fabrication créent des tâches de kanban de traitement, et les règles de kanban de prélèvement créent des tâches de kanban de transfert. Vous pouvez définir les stratégies de réapprovisionnement suivantes :
--   **Nombre fixe** les règles de kanban sont liées à un nombre d'unités de manutention fixe, ce qui signifie que le nombre de kanbans actifs est constant. Dès que tous les produits d'un kanban sont consommés et les unités de manutention sont purgées manuellement, un kanban du même type est créé. Lorsque vous créez des règles de kanban de quantité fixe, vous pouvez calculer les quantités de kanban optimales et les quantités de produits utilisées. Le calcul prend en compte la prévision, la demande réelle des commandes en cours, le délai de réapprovisionnement des articles, et les demandes historiques.
+-   **Nombre fixe** les règles de kanban sont liées à un nombre d'unités de manutention fixe, ce qui signifie que le nombre de kanbans actifs est constant. Dès que tous les produits d'un kanban sont consommés et que les unités de manutention sont manuellement vidées, un nouveau kanban du même type est créé. Lorsque vous créez des règles de kanban de quantité fixe, vous pouvez calculer les quantités de kanban optimales et les quantités de produits utilisées. Le calcul prend en compte la prévision, la demande réelle des commandes en cours, le délai de réapprovisionnement des articles, et les demandes historiques.
 -   **Prévu** Les règles de kanban réapprovisionnent les besoins qui sont calculés par la planification. La planification génère des kanbans planifiés qui peuvent être confirmés comme kanbans.
 -   **Événement** Les règles de kanban réapprovisionnent les besoins émanant des lignes de commande, des lignes de nomenclature de production, des lignes de kanban ou des paramètres de stock minimal. Lorsque des kanbans d'événement sont générés, ils sont liés aux demandes source.
 
@@ -76,6 +79,8 @@ Les tâches de kanban sont totalement intégrées aux processus actuels pour les
 En outre, le lean manufacturing prend en charge les processus d'achat et de facturation pour les services référencés par des activités sous-traitées.
 -   Vous pouvez affecter des lignes de contrat d'achat et des services aux activités sous-traitées.
 -   Vous pouvez créer des commandes fournisseur et des avis de réception périodiques pour prendre en charge l'achat et la facturation des services.
+
+
 
 
 

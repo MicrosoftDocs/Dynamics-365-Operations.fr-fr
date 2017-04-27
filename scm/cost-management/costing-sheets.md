@@ -28,6 +28,9 @@ ms.lasthandoff: 03/29/2017
 
 # <a name="costing-sheets"></a>Feuilles de coûts
 
+[!include[banner](../includes/banner.md)]
+
+
 Le paramétrage de la feuille d'évaluation des coûts a deux objectifs. Premièrement, vous définissez le format d'affichage des informations des prix des marchandises vendues sur un article fabriqué ou un ordre de fabrication. L'affichage formaté est appelé feuille de coûts. Deuxièmement, vous définissez la base de calcul des coûts indirects. Le paramétrage de la feuille d'évaluation des coûts se base sur la fonctionnalité de groupe de coûts pour l'affichage d'informations et pour les formules de calcul des coûts indirects. Les deux objectifs du paramétrage de la feuille d'évaluation des coûts sont décrits dans cet article. 
 
 Une feuille de coûts est l'affichage formaté des informations sur le prix des marchandises vendues pour un article fabriqué ou un ordre de fabrication. Lorsque vous paramétrez une feuille de coûts, vous définissez le format des informations ainsi que la base de calcul des coûts indirects. Le paramétrage de la feuille de coûts se base sur les fonctionnalités de groupe de coûts pour l'affichage d'informations et pour les formules utilisées pour calculer les coûts indirects. Vous trouverez ci-dessous plus d'informations sur les deux objectifs du paramétrage de la feuille de coûts :
@@ -43,6 +46,8 @@ Deux stratégies de blocage pour une version d'évaluation des coûts détermine
 Après avoir défini le format de la feuille de coûts et les calculs des coûts indirects, vous devez effectuer une étape séparée pour vérifier et enregistrer les informations. La feuille de coûts représente un format à l'échelle de la société pour afficher de façon cohérente les informations sur le coût des marchandises vendues. 
 
 La feuille de coûts s'affiche dans la page **Calculer le coût de l'article**. La feuille de coûts peut être affichée pour l'enregistrement des coûts calculés d'un article fabriqué dans la page **Prix de l'article** ou pour un enregistrement de calcul spécifique à l'ordre dans la page **Résultats du calcul de nomenclature**. Elle peut également être affichée dans le cadre de la page **Calcul de prix** pour un ordre de fabrication.
+
+
 
 
 

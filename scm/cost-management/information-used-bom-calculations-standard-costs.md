@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="bom-calculations-with-standard-costs"></a>Calculs de nomenclature avec coûts standard
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Les informations sur l'article acheté utilisées dans le cadre du calcul de nomenclature pour un coût standard sont les suivantes :
@@ -78,6 +81,8 @@ Les informations de version d'évaluation des coûts utilisées dans le cadre du
 -   Le contenu de la version d'évaluation des coûts doit inclure des coûts − Le contenu doit inclure des coûts. Il peut éventuellement inclure des prix de vente afin de calculer les prix de vente suggérés pour les articles fabriqués.
 
 Plusieurs sources d'informations peuvent être spécifiées lors de l'élaboration d'un calcul de nomenclature. Il s'agit du site, de la date de calcul et de la version d'évaluation des coûts.
+
+
 
 
 

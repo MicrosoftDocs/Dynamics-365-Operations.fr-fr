@@ -1,5 +1,5 @@
 ---
-title: "Règlement d&quot;un paiement partiel fournisseur avant la date d&quot;escompte avec un paiement final après la date de remise"
+title: "Régler un paiement partiel fournisseur avant la date de remise avec un paiement final après la date de remise"
 description: "Cet article vous fait parcourir un scénario où plusieurs paiements partiels sont effectués, certains au cours de la période d&quot;escompte de règlement et d&quot;autres en dehors de la période d&quot;escompte de règlement."
 author: twheeloc
 manager: AnnBe
@@ -26,21 +26,24 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-vendor-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Règlement d'un paiement partiel fournisseur avant la date d'escompte avec un paiement final après la date de remise
+# <a name="settle-a-partial-vendor-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Régler un paiement partiel fournisseur avant la date de remise avec un paiement final après la date de remise
+
+[!include[banner](../includes/banner.md)]
+
 
 Cet article vous fait parcourir un scénario où plusieurs paiements partiels sont effectués, certains au cours de la période d'escompte de règlement et d'autres en dehors de la période d'escompte de règlement.
 
-Fabrikam achète des marchandises du fournisseur 3057. Fabrikam reçoit un escompte de règlement de 1 % % si la facture est payée dans les 14 jours. Les factures doivent être réglées dans les 30 jours. Le fournisseur offre également à Fabrikam des escomptes de règlement en cas de paiements partiels. Les paramètres de règlement sont situés sous ** des paramètres des achats ** la page.
+Fabrikam achète des marchandises au fournisseur 3057. Fabrikam reçoit un escompte de règlement de 1 % si la facture est payée sous 14 jours. Les factures doivent être réglées dans les 30 jours. Le fournisseur offre également à Fabrikam des escomptes de règlement en cas de paiements partiels. Les paramètres de règlement sont situés dans la page **Paramètres de la comptabilité fournisseur**.
 
 ## <a name="invoice-on-june-25"></a>Facture au 25 juin
-Le 25 juin, avril entre et valide une facture de 1.000,00 pour le fournisseur 3057. Elle peut consulter cette transaction sur la page **Transactions fournisseur**.
+Le 25 juin, April entre et valide une facture de 1 000,00 pour le fournisseur 3057. Elle peut consulter cette transaction sur la page **Transactions fournisseur**.
 
 | N° document   | Type de transaction | Date      | Facture | Montant au débit dans la devise de transaction | Montant au crédit dans la devise de transaction | Solde   | Devise |
 |-----------|------------------|-----------|---------|--------------------------------------|---------------------------------------|-----------|----------|
 | Inv-10020 | Facture          | 6/25/2015 | 10020   |                                      | 1 000,00                              | -1 000,00 | USD      |
 
 ## <a name="partial-payment-on-july-2"></a>Paiement partiel le 2 juillet
-Le 2 juillet, April souhaite régler 300,00 de cette facture. Le paiement peut prétendre à une remise, car Fabrikam prend des remises pour les paiements partiels. Par conséquent, April paie 297,00 et bénéficie d'une remise de 3,00. Elle crée un journal des paiements et entre une ligne pour le fournisseur 3057. Elle ouvre alors ** des transactions de règlement ** la page, afin qu'elle puisse marquer la facture pour règlement.
+Le 2 juillet, April souhaite régler 300,00 de cette facture. Le paiement peut prétendre à une remise, car Fabrikam prend des remises pour les paiements partiels. Par conséquent, April paie 297,00 et bénéficie d'une remise de 3,00. Elle crée un journal de paiement et entre une ligne pour le fournisseur 3057. Elle ouvre ensuite la page **Régler les transactions**, afin de pouvoir marquer la facture pour règlement.
 
 | Marquer     | Utiliser un escompte de règlement | N° document   | Compte | Date      | Date d'échéance  | Facture | Montant dans la devise de transaction | Devise | Montant à régler |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -91,7 +94,7 @@ Elle valide ensuite le paiement. Lorsqu'elle ouvre la page **Transactions fourni
 | APP-10021  | Paiement          | 7/15/2015 |         | 700,00                               |                                       | 0,00    | USD      |
 
 ## <a name="remaining-payment-on-july-15-use-cash-discount--always"></a>Paiement restant le 15 juillet, Utiliser un escompte de règlement = Toujours
-Si le fournisseur permet avril prendre une remise même si elle paie après la date de remise, elle peut modifier la valeur dans ** escompte de règlement d'utilisation ** le champ ** toujours **. ** Calculez les escomptes de règlement pour les paiements partiels ** le paramètre est ignoré, et la remise est prélevée. Le montant du paiement est de 693,00, et la remise est de 7,00, soit le montant restant.
+Si le fournisseur accorde à April une remise même si elle paie après la date de remise, elle peut modifier la valeur du champ **Utiliser un escompte de règlement** en **Toujours**. Le paramètre **Calculer les escomptes de règlement pour les paiements partiels** est remplacé et la remise est prise en compte. Le montant du paiement est de 693,00, et la remise est de 7,00, soit le montant restant.
 
 | Marquer     | Utiliser un escompte de règlement | N° document   | Compte | Date      | Date d'échéance  | Facture | Montant au débit dans la devise de transaction | Montant au crédit dans la devise de transaction | Devise | Montant à régler |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
@@ -116,6 +119,8 @@ Elle valide ensuite le paiement. Lorsqu'elle ouvre la page **Transactions fourni
 | DISC-10020 | Escompte de règlement    | 7/1/2015  |         | 3,00                                 |                                       | 0,00    | USD      |
 | APP-10021  | Paiement          | 7/15/2015 |         | 693,00                               |                                       | 0,00    | USD      |
 | DISC-10021 | Escompte de règlement    | 7/15/2015 |         | 7h00                                 |                                       | 0,00    | USD      |
+
+
 
 
 

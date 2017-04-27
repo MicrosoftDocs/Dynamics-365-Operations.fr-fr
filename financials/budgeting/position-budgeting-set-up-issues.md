@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="position-budgeting-troubleshooting"></a>Dépannage de la budgétisation de poste
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article contient les réponses aux questions que vous vous posez lorsque vous configurez la budgétisation du poste. Elle répond aux questions fréquemment posées sur la création des éléments de coût budgétaire, des groupes de rémunération, et des grilles de rémunération. 
 
 <a name="why-cant-i-find-the-forecast-position-page-in-human-resources"></a>Pourquoi est-ce que je ne parviens pas à trouver la page de poste de prévision du module Ressources humaines ?
@@ -58,6 +61,8 @@ Les dates de la ligne d'élément de coût du poste de prévision doivent se tro
 -   Les dates d'activation et de suppression du poste.
 -   Les dates d'activation et d'expiration de l'élément de coût budgétaire.
 -   Les dates de début et de fin du cycle budgétaire associé au processus de planification budgétaire du poste de prévision.
+
+
 
 
 

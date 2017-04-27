@@ -1,5 +1,5 @@
 ---
-title: Inverser le statut de l&quot;ordre de fabrication
+title: Inverser le statut d&quot;ordre de fabrication
 description: "Cette rubrique décrit la procédure pour contrepasser le statut de l&quot;ordre de fabrication."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="reverse-the-production-order-status"></a>Inverser le statut de l'ordre de fabrication
+# <a name="reverse-the-production-order-status"></a>Inverser le statut d'ordre de fabrication
+
+[!include[banner](../includes/banner.md)]
+
 
 Cette rubrique décrit la procédure pour contrepasser le statut de l'ordre de fabrication. 
 
@@ -49,5 +52,7 @@ Lorsque vous contrepassez le statut d'un ordre de fabrication de **Lancé** à *
 
 ## <a name="from-started-to-released"></a>Du statut Commencé au statut Lancé
 Lorsque vous contrepassez le statut d'un ordre de fabrication de **Commencé** à **Lancé**, tous les articles déclarés comme terminés sont redéfinis. Si du matériel a été prélevé ou si des livraisons entrantes ou sortantes ont été effectuées en production, ces paramètres sont contrepassés. Le champ **Statut du solde** des lignes de nomenclature de l'ordre de fabrication passe de **Terminé** à **Consommation de matières**. Si le délai a été enregistré ou si des quantités ont été déclarées comme terminées pour les opérations de la gamme de production, ces paramètres sont contrepassés. Le champ **Statut du solde** passe de **Terminé** à **Consommation de gamme** dans la gamme de production. Les paramètres de tous les articles validés comme étant en cours ou des travaux en cours sont contrepassés. Dans la page **Détails de l'ordre de fabrication**, les champs qui indiquent une quantité commencée ou déclarée comme terminée sont réinitialisés. Les dates pour ces transactions sont également réinitialisées.
+
+
 
 

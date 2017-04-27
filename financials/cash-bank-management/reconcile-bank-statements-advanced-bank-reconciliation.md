@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Rapprochement de relevés bancaires à l'aide du rapprochement bancaire avancé
 
+[!include[banner](../includes/banner.md)]
+
+
 La fonctionnalité de rapprochement bancaire avancée vous permet d'importer des relevés bancaires électroniques et de les rapprocher automatiquement avec des transactions bancaires dans Microsoft Dynamics 365 for Operations. Cette rubrique explique le processus de rapprochement.  
 
 <a name="import-an-electronic-bank-statement"></a>Importer un relevé bancaire électronique
@@ -74,7 +77,7 @@ Il existe trois méthodes pour mettre en correspondance ou pour rapprocher des t
 -   Mettre en correspondance les transactions avec une transaction de relevé bancaire de contrepassation.
 -   Marquer les transactions comme **Nouveau**, afin de les valider ultérieurement comme transactions bancaires dans Dynamics 365 for Operations.
 
-Pour rapprocher manuellement des transactions, sélectionnez les transactions dans ** des transactions de relevé bancaire ** la grille, sélectionne les transactions correspondantes dans ** des transactions bancaires d'opérations ** la grille, puis les clique sur ** correspondance **. Les transactions sélectionnées sont déplacées dans les grilles supérieures pour les opérations non rapprochées vers les grilles inférieures pour les transactions rapprochées. En outre, le total des montants rapprochés et non rapprochés sont mis à jour. Vous pouvez avoir des correspondances de transactions une à une, plusieurs-à-une et plusieurs-à-plusieurs. Les correspondances doivent suivre les règles de différences de dates autorisées et de mappage de type de transaction. Ces règles sont définies sur la page **Paramètres de gestion de la trésorerie et de la banque**.
+Pour mettre en correspondance des transactions manuellement, sélectionnez les transactions dans la grille **Transactions de relevé bancaire**, sélectionnez les transactions correspondantes dans la grille **Transactions bancaires Operations**, puis cliquez sur **Correspondance**. Les transactions sélectionnées sont déplacées dans les grilles supérieures pour les opérations non rapprochées vers les grilles inférieures pour les transactions rapprochées. En outre, le total des montants rapprochés et non rapprochés sont mis à jour. Vous pouvez avoir des correspondances de transactions une à une, plusieurs-à-une et plusieurs-à-plusieurs. Les correspondances doivent suivre les règles de différences de dates autorisées et de mappage de type de transaction. Ces règles sont définies sur la page **Paramètres de gestion de la trésorerie et de la banque**.
 
 Des différences minimes peuvent se produire pendant le rapprochement. Vous pouvez mettre en correspondance une transaction de relevé bancaire unique et une transaction bancaire Operations unique qui présentent des différences minimes si celles-ci sont comprises dans le montant de tolérance défini par le champ **Différence minime autorisée** sur le compte bancaire. Le montant est affiché dans le champ **Montant de la correction** de la transaction bancaire Operations mise en correspondance. Lorsque le rapprochement bancaire est marqué comme rapproché, les corrections sont automatiquement validées à l'aide du compte principal défini dans le type de transaction bancaire associé. Les corrections ne sont pas prises en charge pour les types de document **Chèque** et **Dépôt**. 
 
@@ -90,5 +93,7 @@ Une fois toutes les lignes du relevé traitées, vous devez marquer la feuille d
 
 ## <a name="post-new-transactions-that-are-associated-with-the-reconciliation"></a>Valider les transactions associées au rapprochement
 Les transactions de relevé bancaire qui vous avez marquées comme **Nouveau** sur la feuille de calcul de rapprochement sont validées sur la page **Relevé bancaire**. Sur la page **Relevé bancaire**, sélectionnez l'ID de relevé pour afficher les détails du relevé. Sur le menu **Comptabilité**, vous pouvez utiliser les options **Afficher les distributions** et **Afficher la comptabilité** pour afficher des détails sur les nouvelles transactions et les écritures comptables associées. Sélectionnez l'option **Valider** pour valider les lignes de relevé bancaire qui sont marquées comme **Nouveau** dans la comptabilité. Notez que la validation ne peut être effectuée qu’une seule fois par relevé bancaire.
+
+
 
 

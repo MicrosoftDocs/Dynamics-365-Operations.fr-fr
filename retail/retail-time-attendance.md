@@ -1,6 +1,6 @@
 ---
 title: "Pointage de vente au détail"
-description: "Cette rubrique décrit les scénarios pris en charge pour la gestion des heures et des présences dans Microsoft Dynamics 365 pour les opérations - au détail."
+description: "Cette rubrique décrit les scénarios pris en charge pour la gestion des heures et de la présence dans Microsoft Dynamics 365 for Operations - Vente au détail"
 author: MargoC
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 62813
 ms.assetid: 821994a6-cd29-45a3-a526-ce204064f080
 ms.search.region: global
@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="retail-time-and-attendance"></a>Pointage de vente au détail
 
-Cette rubrique décrit les scénarios pris en charge pour la gestion des heures et des présences dans Microsoft Dynamics 365 pour les opérations - au détail. 
+[!include[banner](includes/banner.md)]
 
-<a name="manage-worker-setup-and-scheduling"></a>Gérez le paramétrage et la planification de travailleur
+
+Cette rubrique décrit les scénarios pris en charge pour la gestion des heures et de la présence dans Microsoft Dynamics 365 for Operations - Vente au détail 
+
+<a name="manage-worker-setup-and-scheduling"></a>Gérer la configuration et la planification des collaborateurs
 ----------------------------------
 
 ### <a name="initial-configuration"></a>Configuration initiale
@@ -45,8 +48,8 @@ Pour plus d'informations sur les étapes de configuration, voir <https://technet
 
 ### <a name="retail-specific-configuration"></a>Configuration spécifique à la vente au détail
 
--   Activez un profil de fonctionnalité pour Horloge de pointage, pour les collaborateurs pour lesquels vous souhaitez activer les enregistrements d'heures. Cliquez sur ** fonctionnalité du PDV profils ** &gt; ** fonctions ** &gt; ** enregistrements d'heures du PDV ** &gt; ** activer les enregistrements d'heures **.
--   Configurez des groupes d'autorisations de point de vente (PDV) pour activer l'autorisation Afficher les entrées de l'horloge de pointage. Cette autorisation permet à l'utilisateur d'afficher les enregistrements d'horloge de pointage d'autres collaborateurs du magasin (et d'un autre magasin auquel l'utilisateur est associé, via le carnet d'adresses). Vous souhaitez peut-être activer cette autorisation pour un rôle de responsable mais pas pour un rôle de caissier. Cliquez sur ** groupes d'autorisations POS ** &gt; ** d'afficher les entrées de horodatage **.
+-   Activez un profil de fonctionnalité pour Horloge de pointage, pour les collaborateurs pour lesquels vous souhaitez activer les enregistrements d'heures. Cliquez sur **Profils de fonctionnalité des PDV** &gt; **Fonctions** &gt; **Enregistrement des heures des PDV** &gt; **Activer l'enregistrement des heures**.
+-   Configurez des groupes d'autorisations de point de vente (PDV) pour activer l'autorisation Afficher les entrées de l'horloge de pointage. Cette autorisation permet à l'utilisateur d'afficher les enregistrements d'horloge de pointage d'autres collaborateurs du magasin (et d'un autre magasin auquel l'utilisateur est associé, via le carnet d'adresses). Vous souhaitez peut-être activer cette autorisation pour un rôle de responsable mais pas pour un rôle de caissier. Cliquez sur **Groupes d'autorisations des PDV** &gt; **Afficher les entrées de l'horloge**.
 
 ## <a name="register-time"></a>Heure d'enregistrement
 ### <a name="cashier-and-non-cashier-time-registrations"></a>Enregistrements d'heures du caissier et de collaborateur autre que caissier
@@ -96,7 +99,7 @@ Pour plus d'informations sur les étapes de configuration, voir <https://technet
     </tbody>
     </table>
 
-    ![TimeClockStates [] (. /media/timeclockstates.png)](. /media/timeclockstates.png)
+    [![TimeClockStates](./media/timeclockstates.png)](./media/timeclockstates.png)
 -   Affichez le message de confirmation et validez que la durée d'activité actuelle est correcte.
 -   Journal :
     -   Cliquez sur **Journal** pour afficher l'activité d'horloge de pointage.
@@ -106,9 +109,9 @@ Pour plus d'informations sur les étapes de configuration, voir <https://technet
 <!-- -->
 
 -   Fuseaux horaires différents :
-    -   Si vous affichez l'heure à partir d'un autre emplacement (pour le journal du caissier, ou en utilisant **Afficher les entrées de l'horloge de pointage** pour un scénario de responsable), et que cet emplacement est dans un fuseau horaire différent, les enregistrements des heures proposés sont convertis dans votre fuseau horaire local. Par exemple, vous êtes responsable pour deux magasins, un en Arizona et l'autre dans le Nevada. Un caissier enregistre un pointage à l'arrivée à 9h00 du matin en Arizona. À ce moment, l'heure au Nevada est 8h00 du matin Par conséquent, si vous êtes dans le magasin du Nevada et que vous consultez les enregistrements des heures, l'enregistrement des heures est marqué comme 8h du matin.
+    -   Si vous affichez l'heure à partir d'un autre emplacement (pour le journal du caissier, ou en utilisant **Afficher les entrées de l'horloge de pointage** pour un scénario de responsable), et que cet emplacement est dans un fuseau horaire différent, les enregistrements des heures proposés sont convertis dans votre fuseau horaire local. Par exemple, vous êtes responsable de deux magasins, l'un en Arizona et l'autre dans le Nevada. Un caissier enregistre un pointage à l'arrivée à 9h00 du matin en Arizona. À ce moment, l'heure au Nevada est 8h00 du matin Par conséquent, si vous êtes dans le magasin du Nevada et que vous consultez les enregistrements des heures, l'enregistrement des heures est marqué comme 8h du matin.
 
-## <a name="view-worker-time-registrations"></a>Enregistrements du temps du travailleur de vue
+## <a name="view-worker-time-registrations"></a>Afficher les enregistrements des heures des collaborateurs
 ### <a name="view-worker-time-registrations-and-filter-by-store-or-activity-type"></a>Affichez les enregistrements des heures du collaborateur, et filtrez par magasin ou par type d'activité
 
 Sur le PDV :
@@ -117,8 +120,8 @@ Sur le PDV :
 -   Vous découvrez les activités d'enregistrement de l'horloge de pointage de tous les collaborateurs affectés aux magasins auxquels vous êtes également affecté.
 -   Vous pouvez utiliser des filtres par type d'activité et magasin pour filtrer les enregistrements des heures.
 
-## <a name="process-and-manage-time-registrations"></a>Traitement et gérez les enregistrements du temps
-Dynamics 365 pour les opérations - L'utilisateur au détail suit le workflow pour calculer, approuver, et transférer des enregistrements d'heures vers le salaire.
+## <a name="process-and-manage-time-registrations"></a>Traitement et gestion des enregistrements des heures
+L'utilisateur de Dynamics 365 for Operations - Vente au détail suit le workflow pour calculer, approuver et transférer les enregistrements des heures à la paie.
 
 ### <a name="primary-operations"></a>Opérations principales
 
@@ -132,5 +135,7 @@ Dynamics 365 pour les opérations - L'utilisateur au détail suit le workflow p
 -   Enregistrer des absences
 
 Pour plus d'informations sur le traitement des enregistrements de pointage, voir <https://technet.microsoft.com/en-us/library/aa573180.aspx>.
+
+
 
 

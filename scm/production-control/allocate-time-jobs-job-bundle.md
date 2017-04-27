@@ -1,5 +1,5 @@
 ---
-title: "Répartir le temps à des tâches dans un regroupement de tâches"
+title: "Répartir du temps aux tâches figurant dans un regroupement de tâches"
 description: "Dans Contrôle et suivi de la production, vous pouvez regrouper des tâches. Vous pouvez ensuite démarrer plusieurs tâches simultanément dans la page Liste de tâches."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="allocate-time-to-jobs-in-a-job-bundle"></a>Répartir le temps à des tâches dans un regroupement de tâches
+# <a name="allocate-time-to-jobs-in-a-job-bundle"></a>Répartir du temps aux tâches figurant dans un regroupement de tâches
+
+[!include[banner](../includes/banner.md)]
+
 
 Dans Contrôle et suivi de la production, vous pouvez regrouper des tâches. Vous pouvez ensuite démarrer plusieurs tâches simultanément dans la page Liste de tâches.
 
@@ -107,5 +110,7 @@ Supposons que les 3 tâches sont réalisées par un collaborateur dont le salair
 | Tâche 3 | (3,33 ÷ 5) × 12,00 EUR                 | 8,00 EUR                | 5 heures        | 40,00 EUR         |
 
 Le coût horaire corrigé et le temps de tâche sont validés dans le journal de production. **Remarque :** Si vous sélectionnez l'option **Catégorie de coûts** de l'onglet **Général** sur la page **Valeurs par défaut de l'ordre de fabrication**, le temps réel pour chaque tâche est transféré vers un journal de production, où le coût est appliqué à la catégorie de coûts de la tâche spécifique.
+
+
 
 

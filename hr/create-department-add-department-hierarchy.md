@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-a-department-and-associate-it-with-the-department-hierarchy"></a>Créer un département et l'associer à la hiérarchie des départements
 
+[!include[banner](includes/banner.md)]
+
+
 Un département est une unité opérationnelle qui représente une catégorie ou un domaine fonctionnel d'une organisation. Un département est responsable d'un domaine spécifique de l'organisation, par exemple les ventes, la comptabilité ou les ressources humaines. Les départements vous permettent de générer des états sur les domaines fonctionnels. Les départements peuvent avoir la responsabilité des résultats.
 
-Un département peut inclure un groupe de centres de coût. Des postes peuvent être affectés aux départements. Pour créer un département, cliquez sur ** Ressources humaines ** &gt; ** départements ** &gt; ** département **. Le tableau suivant décrit les champs disponibles.
+Un département peut inclure un groupe de centres de coût. Des postes peuvent être affectés aux départements. Pour créer un département, cliquez sur **Ressources humaines** &gt; **Départements** &gt; **Département**. Le tableau suivant décrit les champs disponibles.
 
 | Champ               | Description                                                                                                                                                                                                       |
 |---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -46,12 +49,14 @@ Un département peut inclure un groupe de centres de coût. Des postes peuvent �
 
 Pour ajouter un département à la hiérarchie des départements, procédez comme suit.
 
-1.  Cliquez sur ** Ressources humaines ** &gt; ** départements ** &gt; ** hiérarchie de département **.
+1.  Cliquez sur **Ressources humaines** &gt; **Départements** &gt; **Hiérarchie des départements**.
 2.  Cliquez sur **Modifier**, puis sélectionnez l'organisation à laquelle le département doit être affilié.
 3.  Cliquez sur **Insérer**, puis sélectionnez **Département** dans la liste.
 4.  Dans la liste des départements qui s'affiche, sélectionnez le département à ajouter à la hiérarchie.
 5.  Enregistrez vos modifications. Vous recevez un message indiquant qu'une version temporaire de la hiérarchie a été créée.
-6.  Lorsque vous êtes prêt, cliquez sur ** publiez ** dans le concepteur de hiérarchie. Vous pouvez entrer une date d'effet qui indique quand la hiérarchie doit être émise. Par exemple, pour ajouter un nouveau département au début de l'année civile suivante, définissez la date d'effet au 1er janvier de la nouvelle année civile. Les modifications apportées à la hiérarchie entreront en vigueur à cette date.
+6.  Lorsque vous êtes prêt, cliquez sur **Publier** dans le concepteur de hiérarchie. Vous pouvez entrer une date d'effet qui indique quand la hiérarchie doit être publiée. Par exemple, pour ajouter un nouveau département au début de l'année civile suivante, définissez la date d'effet au 1er janvier de la nouvelle année civile. Les modifications apportées à la hiérarchie entreront en vigueur à cette date.
+
+
 
 
 

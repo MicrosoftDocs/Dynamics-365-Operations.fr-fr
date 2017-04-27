@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="job-scheduling"></a>Planification de tâche
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article fournit des informations sur la planification des tâches, qui constitue une forme plus détaillée de planification que la planification d'opérations. La planification des tâches permet de programmer des tâches ou ordres d'atelier, et de contrôler l'environnement de fabrication.
 
 La planification des tâches permet de programmer des tâches ou ordres d'atelier, et de contrôler l'environnement de fabrication. Elle décompose chaque opération en tâches individuelles. Ces tâches sont ensuite affectées aux ressources opérationnelles qui les effectueront. La planification des tâches vous permet également de synchroniser toutes les tâches qui sont référencées par la tâche sélectionnée. Vous pouvez spécifier des date et heure de début et de fin pour la tâche, puis effectuer la planification. L'heure spécifiée peut être une heure de début ou de fin, en fonction de la direction de planification. Cette fonctionnalité est utile, par exemple, si une tâche ne peut être exécutée que sur une machine à la fois, ou pour optimiser la tâche qui est exécutée pour chaque ressource.
@@ -39,7 +42,7 @@ Le processus de planification des tâches inclut les tâches suivantes :
 -   Diviser les opérations en tâches.
 -   Programmer les tâches basées sur les dates et heures pour les ressources spécifiées pour l'opération associée.
 -   Calculer les heures de début et de fin de chaque tâche. Vous pouvez utiliser une capacité finie pour vous assurer qu'aucune heure ne se chevauche.
--   Déterminer sur quelles ressources du groupe de ressources exécuter la tâche. Cette tâche exige qu'un groupe de ressources est spécifié pour une opération. La planification des tâches sélectionne les ressources ou les groupes de ressources en fonction du délai le plus court et prend en compte les réservations précédentes sur les ressources.
+-   Déterminer sur quelles ressources du groupe de ressources exécuter la tâche. Cette tâche nécessite qu'un groupe de ressources soit spécifié pour une opération. La planification des tâches sélectionne les ressources ou les groupes de ressources en fonction du délai le plus court et prend en compte les réservations précédentes sur les ressources.
 -   Éclater les opérations en tâches lorsque vous exécutez la planification des tâches. Les tâches sont planifiées par date et heure dans l'ordre indiqué par la gamme de production. Le paramétrage de l'opération détermine quelles tâches sont éclatées au cours de la planification. Le groupe de gammes affecté à l'opération contrôle la génération ou non des tâches. Une tâche est générée uniquement si elle a une durée spécifique. Par exemple, une tâche de temps de transport est générée si un temps de transport est indiqué pour l'opération sélectionnée.
 
 ## <a name="scheduling-direction"></a>Direction de la planification
@@ -73,5 +76,7 @@ Des ressources sont affectées aux tâches lors de la planification des tâches.
 
 ## <a name="resource-efficiency"></a>Rendement des ressources
 La planification des tâches prend en compte les pourcentages de rendement spécifiés pour les ressources. Les pourcentages de rendement augmentent ou diminuent le temps réservé pour la ressource. Ainsi, le délai est également augmenté ou réduit. La formule suivante est utilisée pour le calcul : Planification du temps = Temps × 100 ÷ Pourcentage de rendement où le *Temps* inclut le temps d'exécution et le temps de réglage.
+
+
 
 

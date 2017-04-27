@@ -1,6 +1,6 @@
 ---
 title: "Plans généraux"
-description: "Utilisez les différents plans généraux pour prendre en charge les opérations de travail quotidiennes de votre société, simuler différentes stratégies de planification que vous souhaitez surveiller, et mettre en œuvre une stratégie de société, telles qu&quot;une stratégie sur la base de satisfaction client interne."
+description: "Utilisez différents plans généraux pour prendre en charge les opérations de travail quotidiennes de votre entreprise, simuler différentes stratégies de planification que vous souhaitez surveiller et mettre en œuvre une politique d&quot;entreprise, par exemple en ce qui concerne les performances internes ou la satisfaction des clients."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,7 +29,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="master-plans"></a>Plans généraux
 
-Utilisez les différents plans généraux pour prendre en charge les opérations de travail quotidiennes de votre société, simuler différentes stratégies de planification que vous souhaitez surveiller, et mettre en œuvre une stratégie de société, telles qu'une stratégie sur la base de satisfaction client interne. 
+[!include[banner](../includes/banner.md)]
+
+
+Utilisez différents plans généraux pour prendre en charge les opérations de travail quotidiennes de votre entreprise, simuler différentes stratégies de planification que vous souhaitez surveiller et mettre en œuvre une politique d'entreprise, par exemple en ce qui concerne les performances internes ou la satisfaction des clients. 
 
 Vous pouvez configurer des plans généraux dans la page **Plans généraux**.
 
@@ -50,8 +53,10 @@ Vous pouvez également définir le plan dynamique de démarrage de manière à c
 
 [Paramètres de couverture](coverage-settings.md)
 
-[Séparant la planification tactique et effective pour calcul PDP/MRP (http://blogs.msdn.com/b/axmfg/archive/2012/10/12/separating-tactical-and-operative-planning-for-master-scheduling.aspx)]
+[Division des planifications tactique et opérationnelle pour le calcul PDP/MRP](http://blogs.msdn.com/b/axmfg/archive/2012/10/12/separating-tactical-and-operative-planning-for-master-scheduling.aspx)
 
-[Planification : Utilisez un plan général statique et dynamique ou utiliser un plan ?] (https://community.dynamics.com/ax/b/msdynaxlessonslearned/archive/2014/01/16/master-planning-use-a-static-and-dynamic-master-plan-or-use-one-plan)
+[Planification : Utilisez un plan général statique et dynamique ou utilisez un plan ?](https://community.dynamics.com/ax/b/msdynaxlessonslearned/archive/2014/01/16/master-planning-use-a-static-and-dynamic-master-plan-or-use-one-plan)
+
+
 
 

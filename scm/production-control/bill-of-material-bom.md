@@ -1,6 +1,6 @@
 ---
 title: Nomenclatures et formules
-description: "Cet articles associées des informations sur les nomenclatures (BOMs) et les formules, qui font partie centrale de la définition des produits et des variantes de produit. Les nomenclatures et les formules spécifient les matières ou les ingrédients nécessaires pour un produit spécifique. Les formules indiquent également les co-produits et les sous-produits reçus dans le contexte de production spécifique."
+description: "Cet article fournit des informations sur les nomenclatures et les formules, qui sont un élément central de la définition des produits et des variantes de produit. Les nomenclatures et les formules spécifient les matières ou les ingrédients nécessaires pour un produit spécifique. Les formules spécifient également les coproduits et les sous-produits reçus dans un contexte de production spécifique."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,7 +29,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="bills-of-materials-and-formulas"></a>Nomenclatures et formules
 
-Cet articles associées des informations sur les nomenclatures (BOMs) et les formules, qui font partie centrale de la définition des produits et des variantes de produit. Les nomenclatures et les formules spécifient les matières ou les ingrédients nécessaires pour un produit spécifique. Les formules indiquent également les co-produits et les sous-produits reçus dans le contexte de production spécifique. 
+[!include[banner](../includes/banner.md)]
+
+
+Cet article fournit des informations sur les nomenclatures et les formules, qui sont un élément central de la définition des produits et des variantes de produit. Les nomenclatures et les formules spécifient les matières ou les ingrédients nécessaires pour un produit spécifique. Les formules spécifient également les coproduits et les sous-produits reçus dans un contexte de production spécifique. 
 
 <a name="bills-of-materials"></a>Nomenclatures
 ------------------
@@ -38,7 +41,7 @@ Une nomenclature définit les composants requis pour de la fabrication d'un prod
 
 Lorsqu'elle est combiné avec une gamme ou un flux de production qui décrivent les opérations et les ressources requises pour fabriquer un produit, la nomenclature forme la base du calcul du coût estimé du produit.  
 
-Une nomenclature est une entité individuelle décrite par les informations suivantes :
+Une nomenclature est une entité individuelle qui est décrite par les informations suivantes :
 
 -   L'ID nomenclature
 -   Nom de la nomenclature
@@ -49,7 +52,7 @@ Une nomenclature seule décrit un seul niveau identifié par un identificateur u
 
 ### <a name="formulas-co-products-and-by-products"></a>Formules, co-produits et sous-produits
 
-Une formule est un sous-type de nomenclature qui est généralement utilisé pour le traitement de la production. Outre les composants et les ingrédients, une formule décrit les coproduits et les sous-produits. Dans la version actuelle, les co-produits et les sous-produits pour la formule requiert la version de formule. Une formule est habituellement définie pour un produit fini spécifique (une formule ou un élément de planification) défini dans la version de formule.
+Une formule est un sous-type de nomenclature qui est généralement utilisé pour le traitement de la production. Outre les composants et les ingrédients, une formule décrit les coproduits et les sous-produits. Dans la version actuelle, la définition des coproduits et des sous-produits de la formule requiert la version de la formule. Une formule est généralement définie pour un produit fini spécifique (une formule ou un élément de planification) défini dans la version de la formule.
 
 ### <a name="boms-in-the-product-lifecycle"></a>Les nomenclatures dans le cycle de vie de produits
 
@@ -61,7 +64,7 @@ Dans le cycle de vie des produits, plusieurs types de nomenclature peuvent être
 -   **Nomenclature de production** – Il s'agit de la nomenclature réelle utilisée pour une production spécifique. Une nomenclature de production doit prendre en compte les ressources réelles qui permettent de fabriquer le produit. Lorsqu'un ordre de fabrication, un lot de commandes ou un kanban est créé, les différents niveaux des nomenclatures qui sont représentés par des fantômes sont réduits en un seul niveau et sont répartis sur les opérations de l'ordre.
 -   **Nomenclature d'évaluation des coûts** – Cette nomenclature est utilisée pour calculer le coût estimé d'un produit. Par exemple, vous pouvez utiliser une nomenclature d'évaluation des coûts lorsque le coût standard est utilisé ou lorsque le coût planifié estimé d'un produit donné est calculé. Les nomenclatures d'évaluation des coûts peuvent faire référence à un assortiment spécifique des matières et des ressources qu'il est prévu d'utiliser. Par conséquent, vous pouvez utiliser la nomenclature d'évaluation des coûts pour créer un coût estimé représentatif d'une période et éviter des écarts dans le temps.
 
-Les types de nomenclature utilisés réellement dans une implémentation dépendent de l'implémentation, ainsi que des scénarios métier et des besoins. Dans les implémentations simples, une nomenclature de planification, une nomenclature de production et une nomenclature d'évaluation des coûts peuvent être modélisées comme une seule nomenclature. Dans les environnements ayant de fréquentes modifications techniques et plusieurs gammes alternatives, un plus grand ensemble de types de nomenclature est probablement requis.
+Les types de nomenclature utilisés réellement dans une implémentation dépendent de l'implémentation, ainsi que des scénarios et des besoins de l'entreprise. Dans les implémentations simples, une nomenclature de planification, une nomenclature de production et une nomenclature d'évaluation des coûts peuvent être modélisées comme une seule nomenclature. Dans les environnements ayant de fréquentes modifications techniques et plusieurs gammes alternatives, un plus grand ensemble de types de nomenclature est probablement requis.
 
 ### <a name="approval-of-boms-and-formulas"></a>Approbation des nomenclatures et des formules
 
@@ -78,7 +81,7 @@ Avant qu'une version de nomenclature puisse être utilisée dans le processus de
 
 ### <a name="activation-of-the-default-bom-or-formula-version"></a>Activation de la nomenclature ou de la version de formule par défaut
 
-Pour définir une nomenclature ou une formule particulière comme version de nomenclature ou de formule par défaut, utilisée par la planification ou utilisées pour créer des ordres de fabrication, vous devez activer sa version. Lorsqu'une version est activée, l'unicité de la version pour les contraintes données (par exemple, la période, le site, ou quantité) est activée. Vous recevez un message d'erreur si la version que vous tentez d'activer les conflits avec une version déjà active. Vous devez alors désactiver la version en conflit ou modifier les contraintes de version (généralement la période) pour empêcher une activation ambiguë.
+Pour définir une nomenclature ou une formule particulière comme version de nomenclature ou de formule par défaut, utilisée par la planification ou utilisées pour créer des ordres de fabrication, vous devez activer sa version. Lorsqu'une version est activée, l'unicité de la version pour les contraintes données (par exemple, période, site ou quantité) est vérifiée. Vous recevez un message d'erreur si la version que vous tentez d'activer est en conflit avec une version qui est déjà active. Vous devez alors désactiver la version en conflit ou modifier les contraintes de version (généralement la période) pour empêcher une activation ambiguë.
 
 ### <a name="product-change-with-case-management"></a>Modification de produit avec gestion de dossier
 
@@ -114,5 +117,7 @@ Sélectionnez le type de ligne **Approvisionnement invariable** lorsque vous sou
 Sélectionnez le type de ligne **Vendor** si le processus de production utilise un sous-traitant et si vous souhaitez créer automatiquement une sous-production ou une commande fournisseur pour le sous-traitant.  
 
 **Remarque sur les opérations sous-traitées dans une nomenclature :** le service ou les travaux effectués par le sous-traitant doivent être créés comme article de service suivi dans le stock. Vous devez associer l'article de service à l'article parent comme une ligne de nomenclature. La gamme doit contenir une opération affectée à la ressource opérationnelle du sous-traitant.
+
+
 
 

@@ -59,5 +59,5 @@ Les restrictions suivantes s'appliquent lorsque vous créez des liens dans les d
 -   Vous pouvez affecter une définition de validation à n'importe quel type de transaction, mais ce dernier doit appartenir au même module que la définition de validation. Utilisez la page **Définitions de validation de transaction** pour afficher dans quel module se trouve un type de transaction.
 
 
-Pour plus d'informations, voir [exemples de définitions de validation] (/general-ledger/example-posting-definitions.md). 
+Pour plus d'informations, voir [Exemples de définitions de validation](/general-ledger/example-posting-definitions.md). 
 

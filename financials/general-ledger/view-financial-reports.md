@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="view-financial-reports"></a>Afficher les états financiers
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article décrit comment afficher et explorer des états financiers dans Microsoft Dynamics AX. Il inclut des informations sur les différentes options que vous pouvez appliquer à des états financiers pour modifier leur apparence et les données qu’ils incluent.
 
 <a name="financial-reporting-overview"></a>Présentation des états financiers
@@ -48,7 +51,7 @@ Vous pouvez modifier la date d'état, appliquer des filtres d'attribut et de dim
 
 -   Pour modifier la période de base et l'année de référence d'un état, sélectionnez une période de base et l'année de référence, puis cliquez sur **OK**.
 -   Pour appliquer des filtres d'attributs à un état, sélectionnez **Ajoutez un filtre d'attribut**. Sélectionnez l'attribut, entrez la valeur d'attribut, puis cliquez sur **OK**. Par exemple, si vous sélectionnez l'attribut **Catégorie de compte**, entrez **VENTES** comme valeur de l'attribut. Pour supprimer un filtre d'attributs, cliquez sur **Effacer**.
--   Pour appliquer des filtres de dimension à un rapport, sélectionnez ** ajoutez un filtre de dimension **. Permet de sélectionner la dimension, puis entrez l'ID de dimension ou sélectionnez la dimension dans la liste. Pour supprimer un filtre de dimension, cliquez sur **Effacer**.
+-   Pour appliquer des filtres de dimension à un état, sélectionnez **Ajouter un filtre de dimension**. Sélectionnez la dimension, puis entrez l'ID de dimension ou sélectionnez la dimension dans la liste. Pour supprimer un filtre de dimension, cliquez sur **Effacer**.
 -   Pour modifier le scénario dans un état **Réel versus budget**, sélectionnez un nouveau scénario, puis cliquez sur **OK**. Si le scénario sélectionné concerne une autre année, veillez à mettre à jour l'année de référence. Par exemple, si le scénario actuel est pour FY2015, et que vous sélectionnez un scénario qui concerne FY2016, vous devez modifier l'année de référence sur **2016**.
 
 Lorsque vous cliquez sur **OK**, toutes les options sélectionnées sont appliquées à l'état. Si vous décidez que vous ne souhaitez pas appliquer les options sélectionnées, cliquez sur **Annuler**.
@@ -66,7 +69,7 @@ Un état financier peut être affiché dans n'importe quelle devise, à tout mom
 Un état financier peut contenir des lignes spécifiques et les lignes récapitulatives. Les lignes spécifiques sont des lignes contenant les comptes principaux ou des dimensions. Les lignes récapitulatives sont des lignes de description, de total et de calcul. Pour afficher seulement les lignes récapitulatives d'un état, cliquez sur **Afficher**, puis sur **Lignes de synthèse uniquement**. L'état est réduit et affiche uniquement les lignes récapitulatives. Pour afficher les lignes spécifique avec les lignes récapitulatives, cliquez sur **Afficher**, puis de nouveau sur **Lignes de synthèse uniquement**.
 
 ## <a name="open-a-financial-report-from-a-previous-month"></a>Ouvrir un état financier d'un mois précédent
-Vous pouvez afficher les états pour le mois en cours ou les mois précédent sans régénérer l'état. Pour ouvrir l'état pour un mois précédent, cliquez sur ** affiche **, puis cliquez sur ** les états précédents **. Liste des mois précédent que l'état est généré pour s'affiche. Développez le mois pour lequel afficher l'état, sélectionnez la date, puis cliquez sur **OK**. L'état du mois précédent s'affiche. Pour revenir à l'état du mois en cours, cliquez que **Annuler**.
+Vous pouvez afficher les états pour le mois en cours ou les mois précédent sans régénérer l'état. Pour ouvrir l'état pour un mois précédent, cliquez sur **Afficher**, puis cliquer sur **États précédents**. La liste des mois précédent pour lesquels des états ont été générés s'affiche. Développez le mois pour lequel afficher l'état, sélectionnez la date, puis cliquez sur **OK**. L'état du mois précédent s'affiche. Pour revenir à l'état du mois en cours, cliquez que **Annuler**.
 
 ## <a name="print-a-financial-report"></a>Imprimer un état financier
 Pour imprimer un état financier, dans le Volet Action, cliquez sur **Imprimer**, puis suivez une ou plusieurs des étapes suivantes pour définir les options d'impression :
@@ -85,5 +88,7 @@ Pour exporter un état financier, dans le Volet Action, cliquez sur **Exporter**
 --------
 
 [Génération d'états financiers pour Microsoft Dynamics AX](/dynamics365/operations/dev-itpro/analytics/financial-reporting-intro)
+
+
 
 

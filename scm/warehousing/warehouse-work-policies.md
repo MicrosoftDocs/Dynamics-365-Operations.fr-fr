@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="warehouse-work-policies"></a>Stratégies de travail d'entrepôt
 
+[!include[banner](../includes/banner.md)]
+
+
 Une nouvelle stratégie de travail d'entrepôt est introduite dans Microsoft Dynamics AX 7.0.1 (mise à jour de mai 2016). Cette stratégie de travail contrôle si le travail d'entrepôt est créé pour les processus d'entrepôt pour la production.
 
-Cette stratégie de travail contrôle si le travail d'entrepôt est créé pour les processus d'entrepôt pour la production. Vous pouvez paramétrer la stratégie de travail à l'aide d'une combinaison de **types d'ordres d'exécution**, d'**emplacement de stockage**, et de **produit** Par exemple, le produit L0101 est déclaré terminé de sortir l'emplacement 001. Le produit fini ultérieurement est consommé dans un autre ordre de fabrication à l'emplacement 001 de sortie. Dans ce cas, vous pouvez paramétrer une stratégie de travail pour empêcher le travail pour le rangement de produit fini d'être créé lorsque vous déclarez le produit L0101 terminé de sortir l'emplacement 001. La stratégie de travail est une entité individuelle qui peut être décrite à l'aide des informations suivantes :
+Cette stratégie de travail contrôle si le travail d'entrepôt est créé pour les processus d'entrepôt pour la production. Vous pouvez paramétrer la stratégie de travail à l'aide d'une combinaison de **types d'ordres d'exécution**, d'**emplacement de stockage**, et de **produit** Par exemple, le produit L0101 est déclaré comme terminé à l'emplacement de sortie 001. Le produit fini est consommé ultérieurement dans un autre ordre de fabrication à l'emplacement de sortie 001. Dans ce cas, vous pouvez paramétrer une stratégie de travail pour empêcher de créer un travail pour ranger le produit fini lorsque vous déclarez le produit L0101 terminé à l'emplacement de sortie 001. La stratégie de travail est une entité individuelle qui peut être décrite à l'aide des informations suivantes :
 
 -   **Nom de stratégie de travail **(identificateur unique de la stratégie de travail)
 -   **Types d'ordres d'exécution **et** Méthode de création de travail**
@@ -55,7 +58,7 @@ Vous pouvez sélectionner un produit auquel la stratégie de travail s'applique.
 ## <a name="example"></a>Exemple
 Dans l'exemple suivant, il existe deux ordres de fabrication, PRD-001 et PRD-00*2*. L'ordre de fabrication PRD-001 a une opération qui est appelée **Assemblage**, où le produit SC1 est déclaré terminé à l'emplacement O1. L'ordre de fabrication PRD-002 a une opération qui est appelée **Peinture** et consomme le produit SC1 de l'emplacement O1. L'ordre de fabrication PRD-002 consomme également la matière première RM1 de l'emplacement O1. RM1 est stocké à l'emplacement d'entrepôt BULK-001 et sera prélevé à l'emplacement O1 par le travail d'entrepôt pour le prélèvement de matières premières. Le travail de prélèvement est généré lorsque la production de PRD-002 est lancée. 
 
-[![Warehouse work policies](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png) 
+[![Stratégies de travail d'entrepôt](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png) 
 
 Lorsque vous planifiez de configurer une stratégie de travail d'entrepôt pour ce scénario, vous devez prendre en compte les informations suivantes :
 
@@ -66,11 +69,11 @@ Voici un exemple de stratégie de travail que vous pouvez paramétrer, selon ces
 
 |                                         |                                                       |
 |-----------------------------------------|-------------------------------------------------------|
-|**Work policy name**<br>                 |**Work order types**<br>                               |
-| 01 Pas encore mis `                    |- Produit fini mis en détail<br>                           |
-|                                         |**Locations**<br>                                      |
+|**Nom de la stratégie de travail**<br>                 |**Types d'ordre d'exécution**<br>                               |
+| Pas de rangement de 01                         |- Rangement du produit fini<br>                           |
+|                                         |**Emplacements**<br>                                      |
 |                                         |- O1   |                                               |
-|                                         |**Products** <br>                                      |
+|                                         |**Produits** <br>                                      |
 |                                         |- SC1                                                  |
 
 Les procédures suivantes fournissent des instructions pas-à-pas sur le paramétrage de la stratégie de travail d'entrepôt pour ce scénario. Un exemple de paramétrage expliquant comment déclarer un ordre de fabrication comme terminé à un emplacement qui n'est pas contrôlé par contenant est également décrit.
@@ -244,5 +247,7 @@ Cette procédure présente un exemple de déclaration de fin à un emplacement q
 </tr>
 </tbody>
 </table>
+
+
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Syntaxe avancée de requête et de filtrage"
+title: "Syntaxe de requête et de filtrage avancé"
 description: "Cet article décrit les options de filtrage et de requête disponibles lorsque vous utilisez l&quot;opérateur de correspondances dans la boîte de dialogue Filtre/tri avancé."
 author: jasongre
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="advanced-filtering-and-query-syntax"></a>Syntaxe avancée de requête et de filtrage
+# <a name="advanced-filtering-and-query-syntax"></a>Syntaxe de requête et de filtrage avancé
+
+[!include[banner](../includes/banner.md)]
+
 
 Cet article décrit les options de filtrage et de requête disponibles lorsque vous utilisez l'opérateur de correspondances dans la boîte de dialogue Filtre/tri avancé.
 
@@ -52,79 +55,79 @@ Cet article décrit les options de filtrage et de requête disponibles lorsque v
 <td><em>valeur</em></td>
 <td>Égal à la valeur entrée</td>
 <td>Tapez la valeur à rechercher.</td>
-<td><strong>Smith</strong> recherche &quot;Smith&quot;.</td>
+<td><strong>Smith</strong> permet de rechercher &quot;Smith&quot;.</td>
 </tr>
 <tr class="even">
 <td>!<em>valeur</em> (point d'exclamation)</td>
 <td>Pas égal à la valeur entrée</td>
 <td>Tapez un point d'exclamation, puis la valeur à exclure.</td>
-<td><strong>! Smith</strong> permet &quot;de trouver toutes les valeurs sauf Smith&quot;.</td>
+<td><strong>!Smith</strong> permet de rechercher toutes les valeurs sauf &quot;Smith&quot;.</td>
 </tr>
 <tr class="odd">
 <td><em>valeur de début</em>..<em>valeur de fin</em> (deux points)</td>
 <td>Entre les deux valeurs séparées par deux points</td>
 <td>Tapez la valeur de début, puis deux points, puis la valeur de fin.</td>
-<td><strong>1..10</strong> permet de trouver toutes les valeurs comprises entre 1 et 10. Toutefois, dans un champ de chaîne, <strong>A.C permet</strong> permet de trouver toutes les valeurs commençant &quot;par A&quot; et &quot;B&quot;, et les valeurs qui sont précisément égale &quot;au C&quot;. Par exemple, cette requête ne &quot;trouveront pas le CA.&quot; Pour rechercher toutes les valeurs &quot;d'A*&quot; via &quot;C*&quot;, type <strong>A.D</strong>.</td>
+<td><strong>1..10</strong> permet de rechercher toutes les valeurs de 1 à 10. Cependant, dans un champ de chaîne, <strong>A..C</strong> permet de rechercher toutes les valeurs commençant par &quot;A&quot; et &quot;B&quot; et les valeurs égales à &quot;C&quot;. Par exemple, cette requête ne recherche pas la valeur &quot;Ca&quot;). Pour rechercher toutes les valeurs de &quot;A*&quot; à &quot;C*&quot;,tapez <strong>A..D</strong>.</td>
 </tr>
 <tr class="even">
 <td>..<em>valeur</em> (deux points)</td>
 <td>Inférieur ou égal à la valeur entrée</td>
 <td>Tapez deux points, puis la valeur.</td>
-<td><strong>. .1000</strong> recherche n'importe quel nombre qui est inférieur ou égal à 1000, tel &quot;que 100&quot;, &quot;999,95&quot;, et &quot;1.000&quot;.</td>
+<td><strong>..1 000</strong> permet de rechercher les nombres inférieurs ou égaux à 1 000, par exemple &quot;100&quot;, &quot;999,95&quot; et &quot;1 000&quot;.</td>
 </tr>
 <tr class="odd">
 <td><em>valeur</em>.. (deux points)</td>
 <td>Supérieur ou égal à la valeur entrée</td>
 <td>Tapez la valeur, puis deux points.</td>
-<td><strong>1000..</strong> recherche n'importe quel nombre supérieur ou égal à 1000, tel &quot;que 1.000&quot;, &quot;1.000,01&quot;, et &quot;1.000.000&quot;.</td>
+<td><strong>1000..</strong> permet de rechercher les nombres supérieurs ou égaux à 1 000, par exemple &quot;1 000&quot;, &quot;1 000,01&quot; et &quot;1 000 000&quot;.</td>
 </tr>
 <tr class="even">
-<td>&gt;<em>valeur</em> (supérieur à le signe)</td>
+<td>&gt;<em>valeur</em> (signe « supérieur à »)</td>
 <td>Supérieur à la valeur entrée</td>
-<td>Tapez un meilleur que chèque (<strong>&gt;</strong>) puis la valeur.</td>
-<td><strong>&gt;1 000</strong> contrôler tout valeur supérieure à 1000, tel &quot;que 1000,01&quot;, &quot;20.000&quot;, et &quot;1.000.000&quot;.</td>
+<td>Tapez le signe « supérieur à » (<strong>&gt;</strong>), puis la valeur.</td>
+<td><strong>&gt;1 000</strong> permet de rechercher les nombres supérieurs à 1 000, par &quot;1000,01&quot;, &quot;20 000&quot; et &quot;1 000 000&quot;.</td>
 </tr>
 <tr class="odd">
-<td>&lt;<em>valeur</em> (moins que le signe)</td>
+<td>&lt;<em>valeur</em> (signe « inférieur à »)</td>
 <td>Inférieur à la valeur entrée</td>
-<td>Tapez moins que chèque (<strong>&lt;</strong>) puis la valeur.</td>
-<td><strong>&lt;1 000</strong> contrôler tout valeur inférieure à 1000, tel &quot;que 999,99&quot;, &quot;1&quot;, et &quot;-200&quot;.</td>
+<td>Tapez le signe « inférieur à » (<strong>&lt;</strong>), puis la valeur.</td>
+<td><strong>&lt;1 000</strong> permet de rechercher les nombres inférieurs à 1 000, par exemple, &quot;999,99&quot;, &quot;1&quot; et &quot;-200&quot;.</td>
 </tr>
 <tr class="even">
 <td><em>valeur</em>* (astérisque)</td>
 <td>Commence par la valeur entrée</td>
-<td>Tapez la valeur de début puis un astérisque (<strong>*</strong>).</td>
-<td><strong>S*</strong> permet de trouver les chaînes commençant &quot;par S&quot;, tel &quot;que Stockholm&quot;, &quot;Sydney&quot;, et &quot;Saint-Nazaire&quot;.</td>
+<td>Tapez la valeur de début, puis un astérisque (<strong>*</strong>).</td>
+<td><strong>S*</strong> permet de rechercher les chaînes commençant par &quot;S&quot;, telles que &quot;Stockholm&quot;, &quot;Sydney&quot; et &quot;San Francisco&quot;.</td>
 </tr>
 <tr class="odd">
-<td>*<em>value</em> (asterisk)</td>
+<td>*<em>valeur</em> (astérisque)</td>
 <td>Finit par la valeur entrée</td>
 <td>Tapez un astérisque, puis la valeur de fin.</td>
-<td><strong>*east</strong> prend toute chaîne qui se termine par l'est&quot;, par exemple &quot;le "&quot; et &quot;les sud-est&quot;.</td>
+<td><strong>*est</strong> permet de rechercher les chaînes finissant par &quot;est&quot;, telles que &quot;nord-est&quot; et &quot;sud-est&quot;.</td>
 </tr>
 <tr class="even">
 <td>*<em>valeur</em>* (astérisque)</td>
 <td>Contenant la valeur entrée</td>
 <td>Tapez un astérisque, puis une valeur, puis un autre astérisque.</td>
-<td><strong>*th*</strong> permet de trouver les chaînes contenant &quot;th&quot;, comme &quot;le "&quot; et &quot;les sud-est&quot;.</td>
+<td><strong>**es**</strong> permet de rechercher les chaînes contenant &quot;es&quot;, telles que &quot;nord-est&quot; et &quot;sud-est&quot;.</td>
 </tr>
 <tr class="odd">
 <td>? (point d'interrogation)</td>
 <td>Contient un ou plusieurs caractères inconnus.</td>
 <td>Tapez un point d'interrogation à la place des caractères inconnus dans la valeur.</td>
-<td><strong>Sm ? Th</strong> recherche &quot;Smith&quot; et &quot;Smyth&quot;.</td>
+<td><strong>Sm?th</strong> permet de rechercher &quot;Smith&quot; et &quot;Smyth&quot;.</td>
 </tr>
 <tr class="even">
 <td><em>valeur</em>,<em>valeur</em> (virgule)</td>
 <td>Mise en correspondance des valeurs séparées par des virgules</td>
 <td>Tapez tous les critères et séparez-les par des virgules.</td>
-<td><strong>A, D, F, G</strong> trouver &quot;trouver&quot;&quot;10&quot;, &quot;20&quot;, 30 &quot;,&quot;<strong>10, 20, 30, 100</strong> 100 A &quot;, de D, de F, et de G&quot;.</td>
+<td><strong>A, D, F, G</strong> permet de rechercher &quot;A&quot;, &quot;D&quot;, &quot;F&quot; et &quot;G&quot;. <strong>10, 20, 30, 100</strong> permet de rechercher &quot;10, 20, 30, 100&quot;.</td>
 </tr>
 <tr class="odd">
 <td>(<span class="code">Instruction SQL</span>) (instructions SQL entre parenthèses)</td>
 <td>Correspond à une requête définie.</td>
 <td>Tapez une instruction SQL entre parenthèses comme requête.</td>
-<td><strong><span class="code">(source de données. Fieldname ! = &quot;A&quot;)</span></strong></td>
+<td><strong><span class="code">(data source.Fieldname != &quot;A&quot;)</span></strong></td>
 </tr>
 <tr class="even">
 <td>Ma</td>
@@ -137,7 +140,7 @@ Cet article décrit les options de filtrage et de requête disponibles lorsque v
 <td>Mise en correspondance de la valeur ou de la plage de valeurs spécifiées par les paramètres de la méthode <strong>SysQueryRangeUtil</strong></td>
 <td>Entrez une méthode <strong>SysQueryRangeUtil</strong> dont les paramètres spécifient la valeur ou la plage de valeurs.</td>
 <td><ol>
-<li>Cliquez <strong>Ventes</strong> &gt; <strong>Factures</strong> &gt; <strong>Factures client en cours</strong>sur.</li>
+<li>Cliquez sur <strong>Comptabilité client</strong> &gt; <strong>Factures</strong> &gt; <strong>Factures client en cours</strong>.</li>
 <li>Appuyez sur Ctrl+Maj+F3 pour ouvrir la page <strong>Recherche</strong>.</li>
 <li>Sous l'onglet <strong>Plage</strong>, cliquez sur <strong>Ajouter</strong>.</li>
 <li>Dans le champ <strong>Table</strong>, sélectionnez <strong>Transactions client en cours</strong>.</li>
@@ -228,6 +231,8 @@ Consultez le tableau de la section suivante pour obtenir des informations suppl�
 </tr>
 </tbody>
 </table>
+
+
 
 
 

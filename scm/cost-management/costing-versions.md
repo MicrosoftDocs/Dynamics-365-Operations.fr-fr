@@ -28,6 +28,9 @@ ms.lasthandoff: 03/29/2017
 
 # <a name="costing-versions"></a>Versions d'évaluation des coûts
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article fournit des informations sur les versions d'évaluation des coûts, comment les tenir à jour, et les types de données que vous pouvez y inclure. L'objectif principal d'une version d'évaluation de coûts est de contenir des enregistrements de coûts relatifs aux articles, des catégories de coûts et des formules de calcul pour les coûts indirects.
 
 Une version d'évaluation des coûts peut servir un ou plusieurs objectifs, en fonction des données contenues dans la version d'évaluation des coûts. L'objectif principal d'une version d'évaluation de coûts est de contenir des enregistrements de coûts relatifs aux articles, des catégories de coûts et des formules de calcul pour les coûts indirects. Une version d'évaluation de coûts peut contenir une série d'enregistrements de coûts standard ou une série d'enregistrements de coûts planifiés basés sur le type d'évaluation des coûts qui lui est attribué.
@@ -63,5 +66,7 @@ Le motif principal pour l'activation des données de prix d'achat est de défini
 Pour ce faire, vous devez d'abord définir un groupe de calcul de nomenclature qui contient un modèle de prix de revient pour le prix d'achat de l'article, puis affecter le groupe de calcul de nomenclature aux articles achetés. Vous devez ensuite utiliser un modèle de prix de revient pour le groupe de calcul de nomenclature lors des calculs de nomenclature qui utilisent des coûts planifiés afin de calculer le prix de vente des articles fabriqués. 
 
 Les enregistrements de prix d'achat des articles servent également d'informations de référence. En modifiant le statut d'un enregistrement de prix d'achat d'article pour le faire passer de **En attente** à **Actif**, vous pouvez mettre à jour le prix d'achat de base de l'article. Toutefois, le prix d'achat de base n'est pas spécifique à un site et peut être remplacé manuellement. Le prix d'achat de base de l'article sert de prix d'achat par défaut pour les commandes fournisseur.
+
+
 
 

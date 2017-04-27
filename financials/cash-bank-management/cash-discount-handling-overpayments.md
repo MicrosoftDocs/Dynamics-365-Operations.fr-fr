@@ -1,5 +1,5 @@
 ---
-title: "Gérer les escomptes de règlement pour les trop-perçus"
+title: "Traitement de l&quot;escompte de règlement pour les trop-perçus"
 description: "Cet article fournit des scénarios qui indiquent comment un paiement est assuré lorsque le client bénéficie d&quot;un escompte de règlement tout en payant un montant supérieur."
 author: twheeloc
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="handling-cash-discounts-for-overpayments"></a>Gérer les escomptes de règlement pour les trop-perçus
+# <a name="handling-cash-discounts-for-overpayments"></a>Traitement de l'escompte de règlement pour les trop-perçus
+
+[!include[banner](../includes/banner.md)]
+
 
 Cet article fournit des scénarios qui indiquent comment un paiement est assuré lorsque le client bénéficie d'un escompte de règlement tout en payant un montant supérieur. 
 
@@ -133,6 +136,8 @@ Le montant de l'escompte de règlement est réduit de 10,50 à 10,00. Le paiemen
 |--------------------------------------------------------------------------------------------------|--------------|---------------|
 | Escompte de règlement (le champ **Compte principal pour les remises client** sur la page **Escomptes de règlement**) | 10,50        |               |
 | Module Comptabilité client                                                                              |              | 10,50         |
+
+
 
 
 

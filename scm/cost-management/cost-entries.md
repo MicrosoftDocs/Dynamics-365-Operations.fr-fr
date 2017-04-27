@@ -40,7 +40,7 @@ Un événement de journal de transfert est enregistré. L'événement transfère
 
 ### <a name="example-2-cost-entries-are-created"></a>Exemple 2 : des écritures de coût sont créées
 
-Un événement de journal de transfert est enregistré. Événement transfère qu'une pièce de l'article A du site 1 au site 2. La dimension de stock du site est considérée comme faisant partie de l'objet de coût. Par conséquent, l'événement crée deux mouvements de stock et deux écritures de coût.
+Un événement de journal de transfert est enregistré. L'événement transfère une pièce de l'article A du site 1 au site 2. La dimension de stock de site est prise en considération dans l'objet de coût. Par conséquent, l'événement crée deux mouvements de stock et deux écritures de coût.
 
 ### <a name="example-3-one-cost-entry-is-created"></a>Exemple 3 : une écriture de coût est créée
 
@@ -59,11 +59,11 @@ La nouvelle page **Écritures de coût** permet d'afficher et contrôler les enr
 | 00002   | 20-01-2015 | Commande fournisseur | 100001 | 0000101 |               |               |          | 100,00  |
 | 00003   | 31-01-2015 | Ajustement     | 100001 | 0000101 |               |               |          | 15,00   |
 
-La page **Écritures de coût** active le filtrage par ID et date de document. ** Remarque : ** Les entrées de coût sont disponibles que pour [objets de coût] (cost-object.md) ou des produits lancés.
+La page **Écritures de coût** active le filtrage par ID et date de document. **Remarque :** les écritures de coût sont disponibles uniquement pour les [objets de coût](cost-object.md) ou les produits lancés.
 
 <a name="see-also"></a>Voir également :
 --------
 
-[Cost objects](cost-object.md)
+[Objets de coût](cost-object.md)
 
 

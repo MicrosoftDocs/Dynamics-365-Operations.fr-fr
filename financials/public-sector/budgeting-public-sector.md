@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="budgeting-in-the-public-sector"></a>Budgétisation dans le secteur public
 
+[!include[banner](../includes/banner.md)]
+
+
 Cette vue d'ensemble présente la fonctionnalité de budgétisation disponible pour le secteur public. Cela inclut l'analyse de budget, les budgets et les répartitions préliminaires, et les définitions de validation.
 
 <a name="what-are-the-prerequisites-to-setting-up-budgeting-in-the-public-sector"></a>Quelles sont les conditions préalables au paramétrage de la budgétisation dans le secteur public ?
@@ -54,12 +57,14 @@ Il est possible que vous deviez paramétrer les fonctionnalités de budgétisati
 <a name="see-also"></a>Voir également :
 --------
 
-[Budgeting](../budgeting/budgeting-overview.md)
+[Budgétisation](../budgeting/budgeting-overview.md)
 
 [Comptabilité fournisseur dans le secteur public](accounts-payable-public-sector.md)
 
-[Accounts receivable in the public sector](accounts-receivable-public-sector.md)
+[Comptabilité client dans le secteur public](accounts-receivable-public-sector.md)
 
-[General ledger in the public sector](general-ledger-public-sector.md)
+[Comptabilité dans le secteur public](general-ledger-public-sector.md)
+
+
 
 

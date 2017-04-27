@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="depreciation-methods-and-conventions"></a>Méthodes et conventions d'amortissement
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article fournit une vue d'ensemble des conventions d'amortissement et des méthodes d'amortissement prises en charge par Microsoft Dynamics AX.
 
 Vous pouvez sélectionner diverses méthodes et conventions d'amortissement. L'objet des méthodes est l'attribution de la valeur amortissable de l'immobilisation dans des périodes fiscales. La valeur amortissable de l'immobilisation correspond au prix d'acquisition, moins la valeur de mise au rebut, le cas échéant. 
@@ -66,26 +69,27 @@ Vous pouvez choisir parmi les méthodes d'amortissement suivantes.
 <a name="see-also"></a>Voir également :
 --------
 
-[Fixed asset depreciation](fixed-asset-depreciation.md)
+[Amortissement des immobilisations](fixed-asset-depreciation.md)
 
-[Straight line service life depreciation](Straight-line-service-life-depreciation.md)
+[Amortissement linéaire sur la durée de vie](Straight-line-service-life-depreciation.md)
 
-[Reducing balance depreciation](reduce-balance-depreciation.md)
+[Amortissement dégressif](reduce-balance-depreciation.md)
 
-[Manual depreciation](manual-depreciation.md)
+[Amortissement manuel](manual-depreciation.md)
 
-[Factor depreciation](factor-depreciation.md)
+[Amortissement paramétrable](factor-depreciation.md)
 
-[Consumption depreciation](consumption-depreciation.md)
+[Amortissement de consommation](consumption-depreciation.md)
 
-[Straight line life remaining depreciation](straight-line-life-remaining-depreciation.md)
+[Amortissement linéaire sur la durée de vie restante](straight-line-life-remaining-depreciation.md)
 
-Amortissement dégressif [125 %] (125 percent-reducing-balance-depreciation.md)
+[Amortissement dégressif de 125 %](125-percent-reducing-balance-depreciation.md)
 
-Amortissement dégressif [150 %] (150 percent-reducing-balance-depreciation.md)
+[Amortissement dégressif de 150 %](150-percent-reducing-balance-depreciation.md)
 
-Amortissement dégressif [175 %] (175 percent-reducing-balance-depreciation.md)
+[Amortissement dégressif de 175 %](175-percent-reducing-balance-depreciation.md)
 
-[200 percent reducing balance depreciation](200-percent-reducing-balance-depreciation.md)
+[Amortissement dégressif de 200 %](200-percent-reducing-balance-depreciation.md)
+
 
 

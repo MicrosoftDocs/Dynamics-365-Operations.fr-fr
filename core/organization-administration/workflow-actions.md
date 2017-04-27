@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="workflow-actions"></a>Actions de workflow
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article décrit les mesures que peut prendre chaque participant au processus d'approbation de workflow.
 
-Un workflow peut impliquer plusieurs groupes de personnes : l'expéditeur, les personnes affectées aux tâches, les décideurs, et les approbateurs. Par exemple, dans le workflow d'état de dépenses suivant, Sam est l'expéditeur, les membres de la file d'attente sont les personnes affectées aux tâches, John est décideur et Frank, Sue et Ann sont les approbateurs.   [workflow\_WithManualDecision d'![] (. /media/workflow_withmanualdecision.gif)](. /media/workflow_withmanualdecision.gif) Les sections suivantes expliquent les actions de workflow que chaque groupe peut exécuter.
+Un workflow peut impliquer plusieurs groupes de personnes : l'expéditeur, les personnes affectées aux tâches, les décideurs, et les approbateurs. Par exemple, dans le workflow d'état de dépenses suivant, Sam est l'expéditeur, les membres de la file d'attente sont les personnes affectées aux tâches, John est décideur et Frank, Sue et Ann sont les approbateurs.   [![Workflow\_WithManualDecision](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif)  Les sections suivantes expliquent les actions de workflow que chaque groupe peut effectuer.
 
 ## <a name="actions-that-an-originator-can-perform"></a>Actions qu'un expéditeur peut effectuer
 L'expéditeur commence une instance de workflow en soumettant un document pour traitement. Par exemple, pour que Sam puisse soumettre son état de dépenses, il doit cliquer sur le bouton **Soumettre** sur la page **État de dépenses**.
@@ -63,7 +66,7 @@ Parfois, un membre de la file d'attente des éléments de travail peut accepter 
 ## <a name="actions-that-a-decision-maker-can-perform"></a>Actions qu'un décideur peut effectuer
 En général, un document est affecté à un décideur lorsque ce dernier doit répondre à une question. Le plus souvent, la réponse à la question est **Oui** ou **Non** ou **Vrai** ou **Faux**. Si le décideur ne choisit pas l'une de ces réponses, il (ou elle) peut déléguer la décision.
 
-### <a name="choice-1-or-choice-2"></a>Choix 1 Choix 2\]\]\[ou \[
+### <a name="choice-1-or-choice-2"></a>\[Choix 1\] ou \[Choix 2\]
 
 Un décideur doit impérativement répondre à une question concernant le document. Le plus souvent, la réponse à la question est **Oui** ou **Non** ou **Vrai** ou **Faux**. Le choix de la réponse du décideur détermine la branche de workflow utilisée pour traiter le document. Supposons que l'état de dépenses de Sam soit affecté à John. John doit décider si les informations contenues dans le document nécessitent d'appeler le responsable de Sam. Si John décide qu'un appel est nécessaire, l'état de dépenses est affecté à Aretha, qui doit alors appeler le responsable de Sam. Si John décide qu'aucun appel n'est nécessaire, l'état de dépenses est affecté à Frank pour approbation.
 
@@ -89,5 +92,7 @@ Lorsqu'un approbateur délègue un document, ce dernier est affecté à un autre
 ### <a name="request-change"></a>Demander une modification
 
 Lorsqu'un approbateur demande la modification d'un document, ce dernier est renvoyé à l'expéditeur. Supposons que Sam ait envoyé un état de dépenses de 12 000 EUR, et que ce document soit affecté à Sue. Si Sue demande une modification, l'état de dépenses est renvoyé à Sam. Sam peut soumettre de nouveau l'état de dépenses. Il peut effectuer les modifications demandées d'abord, ou soumettre de nouveau la version d'origine de l'état de dépenses. S'il soumet de nouveau l'état de dépenses, celui-ci est renvoyé à Frank pour approbation, car Frank est le premier approbateur dans le processus d'approbation.
+
+
 
 

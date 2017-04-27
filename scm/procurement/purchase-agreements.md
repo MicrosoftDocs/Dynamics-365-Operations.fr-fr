@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-agreements"></a>Contrats d'achat
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article fournit des informations sur les contrats d'achat. Un contrat d'achat est un contrat par lequel une organisation s'engage à acheter une quantité ou un montant spécifique au moyen de plusieurs commandes fournisseur sur une certaine période. En échange de cet engagement, l'acheteur a droit à des prix spéciaux et des remises. 
 
 Les contrats d'achat peuvent s'appliquer à une quantité spécifique d'un produit, à un montant en devise spécifique d'un produit ou à un montant en devise spécifique de produits d'une catégorie d'approvisionnement. Les prix et les remises du contrat d'achat sont prioritaires sur tous les autres prix et remises indiqués dans les autres contrats commerciaux pouvant exister.  
@@ -70,7 +73,7 @@ La zone **Accord** indique la quantité totale ou le montant total pour lequel l
 Vous pouvez accéder aux lignes de CF et aux lignes de facture qui contribuent au calcul du traitement en sélectionnant l'action **Informations associées** dans les lignes ou l'en-tête d'un contrat d'achat.
 
 ## <a name="confirmations-and-version-history-for-purchase-agreements"></a>Confirmations et historique de version des contrats d'achat
-Lorsque vous confirmez un contrat d'achat, la version actuelle du contrat d'achat est enregistrée dans une table historique. Si vous modifiez le contrat d'achat, vous pouvez le confirmer de nouveau pour enregistrer une autre version du contrat d'achat dans l'historique. Si vous ne pas confirmer un contrat d'achat, vous pouvez continuer à l'utiliser pour créer la position. Toutefois, les informations sur l'historique du contrat d'achat n'est pas enregistrée. Vous pouvez prévisualiser ou imprimer toutes les versions de l'accord. Vous pouvez ensuite partager les révisions avec votre fournisseur pour obtenir l'approbation.
+Lorsque vous confirmez un contrat d'achat, la version actuelle du contrat d'achat est enregistrée dans une table historique. Si vous modifiez le contrat d'achat, vous pouvez le confirmer de nouveau pour enregistrer une autre version du contrat d'achat dans l'historique. Si vous ne confirmez pas un contrat d'achat, vous pouvez toujours l'utiliser pour créer des commandes fournisseur. Toutefois, les informations historiques pour le contrat d'achat ne sont pas enregistrées. Vous pouvez prévisualiser ou imprimer toutes les versions de l'accord. Vous pouvez ensuite partager les révisions avec votre fournisseur pour obtenir l'approbation.
 
 ## <a name="applying-purchase-agreements-in-the-ordering-process"></a>Application des contrats d'achat dans le processus de commande
 Lorsque vous créez un CF, vous pouvez y appliquer un contrat d'achat. Les informations des termes de l'accord, telles que les conditions de paiement, les conditions de livraison, ainsi que l'adresse de livraison, sont ensuite copiées dans l'en-tête du CF. Si le CF contient une ou plusieurs lignes pour les produits ou les catégories qui sont couvertes par le contrat d'achat, les prix et les remises du contrat d'achat sont utilisés pour ces lignes. Le montant ou la quantité de la ligne de commande est stocké sur l'engagement et contribue à l'exécution de l'engagement dans le contrat d'achat. La même commande fournisseur peut inclure aussi bien des lignes qui ne sont pas associées à un contrat d'achat que des lignes associées à un engagement pour un contrat d'achat.  
@@ -91,8 +94,10 @@ Vous pouvez copier les dimensions financières vers des en-têtes de document ou
 <a name="see-also"></a>Voir également :
 --------
 
-[Créer un contrat d'achat (Guide de tâche)](https://ax.help.dynamics.com/en/wiki/create-a-purchase-agreement/)
+[Sous-tâche : créer un contrat d'achat (Guide de tâche](https://ax.help.dynamics.com/en/wiki/create-a-purchase-agreement/)
 
-[Créer un ordre de lancement d'achat d'un contrat d'achat (Guide de tâche)](https://ax.help.dynamics.com/en/wiki/create-a-purchase-release-order-from-a-purchase-agreement/)
+[Création d'un ordre de lancement d'achat à partir d'un contrat d'achat (Guide de tâche](https://ax.help.dynamics.com/en/wiki/create-a-purchase-release-order-from-a-purchase-agreement/)
+
+
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Configuration d&quot;une étape d&quot;approbation dans un workflow"
+title: "Configurer une étape d&quot;approbation dans un workflow"
 description: "Cette rubrique explique comment configurer les propriétés d&quot;une étape d&quot;approbation."
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-an-approval-step-in-a-workflow"></a>Configuration d'une étape d'approbation dans un workflow
+# <a name="configure-an-approval-step-in-a-workflow"></a>Configurer une étape d'approbation dans un workflow
+
+[!include[banner](../includes/banner.md)]
+
 
 Cette rubrique explique comment configurer les propriétés d'une étape d'approbation.
 
@@ -124,10 +127,10 @@ Procédez comme suit pour indiquer à qui affecter la tâche d'approbation.
     </tr>
     <tr class="even">
     <td>Utilisateur</td>
-    <td>Microsoft Dynamics spécifique 365 pour les utilisateurs d'opérations</td>
+    <td>Utilisateurs Microsoft Dynamics 365 for Operations spécifiques</td>
     <td><ol>
     <li>Sélectionnez <strong>Utilisateur</strong>, puis cliquez sur l'onglet <strong>Utilisateur</strong>.</li>
-    <li><strong>Utilisateurs disponibles</strong> La liste inclut tous les Dynamics 365 pour les utilisateurs d'opérations. Sélectionnez les utilisateurs à qui vous souhaitez affecter l'étape, puis déplacez-les dans la liste <strong>Utilisateurs sélectionnés</strong>.</li>
+    <li>La liste <strong>Utilisateurs disponibles</strong> inclut tous les utilisateurs Dynamics 365 for Operations. Sélectionnez les utilisateurs à qui vous souhaitez affecter l'étape, puis déplacez-les dans la liste <strong>Utilisateurs sélectionnés</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -229,10 +232,10 @@ Si un utilisateur ne traite pas un document dans le délai imparti, le document 
     </tr>
     <tr class="odd">
     <td>Utilisateur</td>
-    <td>Dynamics spécifique 365 pour les utilisateurs d'opérations</td>
+    <td>Utilisateurs Dynamics 365 for Operations spécifiques</td>
     <td><ol>
     <li>Sélectionnez <strong>Utilisateur</strong>, puis cliquez sur l'onglet <strong>Utilisateur</strong>.</li>
-    <li><strong>Utilisateurs disponibles</strong> La liste inclut tous les Dynamics 365 pour les utilisateurs d'opérations. Sélectionnez les utilisateurs à qui réaffecter le document, puis déplacez-les dans la liste <strong>Utilisateurs sélectionnés</strong>.</li>
+    <li>La liste <strong>Utilisateurs disponibles</strong> inclut tous les utilisateurs Dynamics 365 for Operations. Sélectionnez les utilisateurs à qui réaffecter le document, puis déplacez-les dans la liste <strong>Utilisateurs sélectionnés</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -247,6 +250,8 @@ Si un utilisateur ne traite pas un document dans le délai imparti, le document 
 
 5.  Répétez les étapes 3 à 4 pour chaque utilisateur à ajouter au chemin de réaffectation. Vous pouvez modifier l'ordre des utilisateurs.
 6.  Si les utilisateurs du chemin de réaffectation ne répondent pas dans le délai imparti, le système traite automatiquement le document. Pour indiquer l'action exécutée par le système, sélectionnez la ligne **Action**, puis sélectionnez une action sous l'onglet **Terminer l'action**.
+
+
 
 
 

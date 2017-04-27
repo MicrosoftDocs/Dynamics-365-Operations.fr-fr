@@ -29,12 +29,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="security-roles-in-the-public-sector"></a>Rôles de sécurité dans le secteur public
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article décrit la fonctionnalité des rôles de sécurité du secteur public. Cette fonctionnalité inclut les rôles de chef de projet et d'acheteurs dans le secteur public.
 
-Tous les utilisateurs doivent être affectés au moins un rôle de sécurité ait accès à Microsoft Dynamics 365 pour les opérations. Les rôles de sécurité déterminent les responsabilités que les utilisateurs peuvent exercer et les parties de l'interface utilisateur qu'ils peuvent afficher.
+Pour que les utilisateurs puissent accéder à Microsoft Dynamics 365 for Operations, au moins un rôle de sécurité doit leur être affecté. Les rôles de sécurité déterminent les responsabilités que les utilisateurs peuvent exercer et les parties de l'interface utilisateur qu'ils peuvent afficher.
 
 ## <a name="what-are-the-prerequisites-for-assigning-security-roles-in-the-public-sector"></a>Quelles sont les conditions préalables à affecter des l'affectation des rôles de sécurité dans le secteur public ?
-Les utilisateurs doivent exister dans Microsoft Dynamics 365 pour les opérations avant de les affecter aux rôles. Même si vous utilisez l'affectation de rôle automatique, les utilisateurs eux-mêmes ne sont pas automatiquement ajoutés à Microsoft Dynamics 365 pour les opérations.
+Pour que vous puissiez affecter des utilisateurs à des rôles, ils doivent exister dans Microsoft Dynamics 365 for Operations. Même si vous utilisez l'affectation automatique des rôles, les utilisateurs eux-mêmes ne sont pas automatiquement ajoutés à Microsoft Dynamics 365 for Operations.
 
 ## <a name="which-roles-do-i-have-to-assign"></a>Quelles rôles dois-je affecter ?
 Une fois que les utilisateurs sont dans le système, il existe deux rôles que vous devrez peut-être paramétrer pour les organisations du secteur public :
@@ -44,15 +47,15 @@ Une fois que les utilisateurs sont dans le système, il existe deux rôles que v
 
 ### <a name="what-is-the-project-manager---public-sector-role"></a>Qu'est-ce que le rôle Gestionnaire de projets - Secteur public ?
 
-Le rôle de sécurité **Gestionnaire de projets - Secteur public** prend en charge les extensions de secteur public pour la gestion de projets. Affectez ce rôle en sus du rôle **Chef de projet** pour donner aux gestionnaires de projets l'accès à la fonctionnalité de gestion de projets. Par défaut, ce rôle de sécurité est affecté des fonctionnalités suivantes dans Microsoft Dynamics 365 pour les opérations.
+Le rôle de sécurité **Gestionnaire de projets - Secteur public** prend en charge les extensions de secteur public pour la gestion de projets. Affectez ce rôle en sus du rôle **Chef de projet** pour donner aux gestionnaires de projets l'accès à la fonctionnalité de gestion de projets. Par défaut, les responsabilités suivantes sont affectées à ce rôle de sécurité dans Microsoft Dynamics 365 for Operations.
 
 | Nom de droits de douane                                                         | Droit de douane (nom AOA)                           | Description du droit                                                                |
 |-------------------------------------------------------------------|-----------------------------------------|---------------------------------------------------------------------------------|
-| Se renseigner sur la progression des commandes fournisseur à facturer pour le secteur public | Le RPC de PurchOrderToInvoiceProgressInquire\_ | Répondre aux demandes de renseignements sur le statut du processus « de la commande fournisseur à la facture ». |
+| Se renseigner sur la progression des commandes fournisseur à facturer pour le secteur public | PurchOrderToInvoiceProgressInquire\_PSN | Répondre aux demandes de renseignements sur le statut du processus « de la commande fournisseur à la facture ». |
 
 ### <a name="what-is-the-purchasing-agent---public-sector-role"></a>Qu'est-ce que le rôle Agent des achats - Secteur public ?
 
-Le rôle de sécurité **Agent des achats - Secteur public** prend en charge les extensions de secteur public pour la gestion de projets. Affectez ce rôle en sus du rôle **Acheteurs** pour donner aux acheteurs l'accès à la fonctionnalité d'achat. Par défaut, ce rôle de sécurité est affecté des fonctionnalités suivantes dans Microsoft Dynamics 365 pour les opérations.
+Le rôle de sécurité **Agent des achats - Secteur public** prend en charge les extensions de secteur public pour la gestion de projets. Affectez ce rôle en sus du rôle **Acheteurs** pour donner aux acheteurs l'accès à la fonctionnalité d'achat. Par défaut, les responsabilités suivantes sont affectées à ce rôle de sécurité dans Microsoft Dynamics 365 for Operations.
 
 | Nom de droits de douane                                                       | Droit de douane (nom AOA)                            | Description du droit                                                                                        |
 |-----------------------------------------------------------------|------------------------------------------|---------------------------------------------------------------------------------------------------------|
@@ -69,7 +72,7 @@ Le rôle de sécurité **Agent des achats - Secteur public** prend en charge les
 | Mettre à jour les paramètres de gestion d'impression de configuration des achats               | PrintMgmtPurchaseSettingsMaintain        | Mettre à jour les paramètres de gestion d'impression pour le paramétrage des achats.                                                 |
 | Mettre à jour les paramètres de gestion d'impression des documents d'achats            | PrintMgmtPurchDocumentSettingsMaintain   | Mettre à jour les paramètres de gestion d'impression des documents d'achat.                                              |
 | Se renseigner sur les politiques d'achat                                | ProcPurchasingProcessInquire             | Répondre aux demandes de renseignements sur les stratégies régissant le processus d'achat.                                 |
-| Se renseigner sur les politiques d'achat pour le secteur public              | Le RPC de ProcPurchasingProcessInquire\_        | Répondre aux demandes de renseignements sur les stratégies du secteur public régissant le processus d'achat.                   |
+| Se renseigner sur les politiques d'achat pour le secteur public              | ProcPurchasingProcessInquire\_PSN        | Répondre aux demandes de renseignements sur les stratégies du secteur public régissant le processus d'achat.                   |
 | Approuver le contrat d'achat                                      | PurchaseAgreementWFMaintain              | Réviser et approuver les contrats d'achat dans un workflow.                                                   |
 | Tenir à jour les commandes fournisseur                                        | PurchOrderMaintain                       | Documenter et enregistrer les commandes fournisseur                                                                    |
 | Tenir à jour la consolidation des demandes d'achat                     | PurchReqConsolidationMaintain            | Mettre à jour le processus de consolidation des demandes d'achat.                                                |
@@ -98,6 +101,8 @@ Une fois les utilisateurs créés, vous les affectez à des rôles sur la page *
 <a name="see-also"></a>Voir également :
 --------
 
-[Role-based security](/dynamics365/operations/dev-itpro/sysadmin/role-based-security)
+[Sécurité basée sur les rôles](/dynamics365/operations/dev-itpro/sysadmin/role-based-security)
+
+
 
 

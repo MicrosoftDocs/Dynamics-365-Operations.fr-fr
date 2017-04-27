@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounts-receivable-in-the-public-sector"></a>Comptabilité client dans le secteur public
 
+[!include[banner](../includes/banner.md)]
+
+
 Cette rubrique décrit la fonctionnalité de Comptabilité client disponible pour le secteur public.
 
 <a name="how-do-i-set-accounts-receivable-parameters-for-the-public-sector"></a>Comment définir les paramètres de comptabilité client pour le secteur public ?
@@ -43,13 +46,13 @@ La plupart des paramètres de comptabilité client sont définis de la même man
     -   Le compte général associé au projet est automatiquement utilisé dans la facture financière. Pour autoriser les utilisateurs à modifier le compte général dans la facture financière et dans les répartitions comptables, sélectionnez l'option permettant d'autoriser la modification du numéro du compte général.
 
 ## <a name="how-do-i-control-the-settlement-order-for-accounts-receivable-transactions"></a>Comment contrôler l'ordre de règlement pour les transactions de comptabilité client ?
-Vous pouvez utiliser les classifications de facturation avec d'autres attributs de facturation pour contrôler l'ordre dans lequel vos transactions de ventes sont réglées dans. Pour plus d'informations, voir [Priorité de règlement dans le secteur public](settlement-priority-public-sector.md).
+Vous pouvez utiliser les classifications de facturation avec d'autres attributs de facturation pour contrôler l'ordre de règlement de vos transactions de comptabilité client. Pour plus d'informations, voir [Priorité de règlement dans le secteur public](settlement-priority-public-sector.md).
 
 ## <a name="is-there-an-easy-way-to-review-reimbursement-transactions"></a>Existe-t-il une manière simple d'examiner les transactions de remboursement ?
 Vous pouvez utiliser les classifications de facturation pour créer une transaction de remboursement distincte pour chaque classification de facturation. Lorsque vous procédez ainsi, les transactions de remboursement sont regroupées par l'écriture de type de validation de solde client et la classification de facturation. Pour plus d'informations, voir [Remboursements dans le secteur public](reimbursements-public-sector.md).
 
 ## <a name="where-are-the-trading-partner-codes-that-i-need-for-gfrs-and-facts-i-reporting"></a>Où sont les codes partenaire commercial dont j'ai besoin pour la génération d'états GFRS et FACTS I ?
-Les codes partenaire commercial, qui sont nécessaires dans le cadre de la génération d'états GFRS et FACTS I, sont établis par le ministère des Finances américain. Toute organisation qui respecte les règles du gouvernement des États-Unis sur la génération d'états pour la comptabilité client doit ajouter des codes de partenaire commercial à ses informations de compte client pour les agences avec lesquelles elle entretient des relations commerciales. Par exemple, si l'agence traite la commission commerciale fédérale, vous iriez au ** des codes partenaire commercial ** page et créez le code 29 partenaire commercial. Puis, dans la page de Détails du client pour le FTC, vous entrez 29 dans ** code partenaire commercial ** le champ.
+Les codes partenaire commercial, qui sont nécessaires dans le cadre de la génération d'états GFRS et FACTS I, sont établis par le ministère des Finances américain. Toute organisation qui respecte les règles du gouvernement des États-Unis sur la génération d'états pour la comptabilité client doit ajouter des codes de partenaire commercial à ses informations de compte client pour les agences avec lesquelles elle entretient des relations commerciales. Par exemple, si votre agence entretient des relations commerciales avec la Federal Trade Commission, accédez à la page **Codes partenaire commercial** et créez le code partenaire commercial 29. Ensuite, sur la page de détails du client pour la FTC, vous entrez 29 dans le champ **Code partenaire commercial**.
 
 ### <a name="i-created-default-financial-dimensions-for-a-customer-group-but-one-customer-in-the-group-needs-a-different-value-for-one-of-the-financial-dimensions-whats-the-easiest-way-to-handle-this"></a>J'ai créé des dimensions financières par défaut pour un groupe de clients, mais un client du groupe a besoin d'une valeur différente pour l'une des dimensions financières. Quelle est la manière la plus simple de procéder ?
 
@@ -61,6 +64,8 @@ Vous pouvez utiliser les définitions de validation pour créer des lignes de jo
 <a name="see-also"></a>Voir également :
 --------
 
-[Accounts receivable](..\accounts-receivable\accounts-receivable.md)
+[Comptabilité client](..\accounts-receivable\accounts-receivable.md)
+
+
 
 

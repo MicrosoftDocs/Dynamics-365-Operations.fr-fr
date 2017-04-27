@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>Calendriers fiscaux, exercices et périodes
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article présente des calendriers fiscaux, des exercices et des périodes et la manière de les utiliser pour les entités juridiques, les immobilisations et la budgétisation.
 
 Les calendriers fiscaux fournissent la structure de base de l'activité financière d'une organisation. Chaque calendrier fiscal inclut un ou plusieurs exercices constitués de plusieurs périodes. Les calendriers fiscaux peuvent être basés sur une année civile allant du 1er janvier au 31 décembre, ou sur les dates que vous sélectionnez. Par exemple, certaines organisations choisissent un calendrier fiscal qui commence le 1er juillet de l'année et se termine le 30 juin de l'année suivante. 
@@ -58,6 +61,8 @@ Les cycles budgétaires sont la durée pendant laquelle un budget est utilisé. 
 
 ## <a name="maintain-periods-for-your-organization"></a>Mise à jour des périodes pour votre organisation
 La page Calendrier comptable permet d'afficher les détails du calendrier fiscal, des exercices et des périodes utilisés par votre organisation. Vous pouvez également modifier le statut des périodes et sélectionner les utilisateurs pouvant valider les transactions de comptabilité dans les périodes. Par exemple, au début d'une nouvelle période, vous souhaitiez qu'un groupe d'utilisateurs termine la validation des transactions financières de la période précédente et que les autres groupes travaillent uniquement sur la nouvelle période.
+
+
 
 
 

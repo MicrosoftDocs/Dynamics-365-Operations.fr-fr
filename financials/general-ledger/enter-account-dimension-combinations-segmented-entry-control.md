@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="enter-account-and-dimension-combinations-segmented-entry-control"></a>Entrer des combinaisons de compte et de dimensions (contrôle d'accès segmenté)
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article décrit comment entrer des combinaisons de comptes et de dimensions ou de comptes généraux. L'expérience de saisie est souvent appelée « contrôle d'accès segmenté ».
 
-Les utilisateurs à entrer le compte et les combinaisons de dimensions dans différents pagine, tels que les pages pour les journaux des opérations diverses, la budgétisation, et des définitions de validation. Les combinaisons de compte et de dimensions valables dépendent des structures de compte affectées à la comptabilité et aux règles avancées affectées aux structures de compte. Lorsque les utilisateurs à entrer une combinaison, ils peuvent entrer manuellement les valeurs ou bénéficier d'un riche, expérience de recherche. Lorsque vous entrez le champ, vous pouvez commencer à entrer et il recherche la valeur et la description. Par exemple, si vous tapez 180 il rechercherez n'importe quelle valeur commençant par la combinaison de numéros. Vous pouvez saisir les disponibilités et elles recherche valeur quelconque ayant une description qui commence en espèces. Vous pouvez également utiliser un caractère générique, tel que Comptant ou \*180 \*pour rechercher si la valeur ou description contiennent les critères de recherche. 
+Les utilisateurs entrent des combinaisons de compte et de dimension dans diverses pages, telles que des pages de journaux généraux, de budgétisation et de définitions de validation. Les combinaisons de compte et de dimensions valables dépendent des structures de compte affectées à la comptabilité et aux règles avancées affectées aux structures de compte. Lorsque les utilisateurs entrent une combinaison, ils peuvent taper les valeurs manuellement ou tirer profit d'une riche expérience de recherche. Lorsque vous activez le champ, vous pouvez commencer à entrer votre saisie pour rechercher la valeur et la description. Par exemple, si vous tapez 180, le système recherche une valeur commençant par cette combinaison de chiffres. Vous pouvez également taper Disponibilités pour rechercher une valeur dont la description commence par Disponibilités. Vous pouvez également utiliser un caractère générique, tel que \*Disponibilités ou \*180 pour déterminer si la valeur ou la description contient les critères de recherche. 
 
 Le tableau suivant décrit les raccourcis clavier qui peuvent être utilisés lorsque la recherche est clôturée.
 
@@ -108,5 +111,7 @@ Le tableau suivant décrit les raccourcis clavier qui peuvent être utilisés lo
 </table>
 
  
+
+
 
 

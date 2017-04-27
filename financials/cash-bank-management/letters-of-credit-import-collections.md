@@ -28,12 +28,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="letters-of-credit-and-import-collections"></a>Lettres de crédit et relances d'importation
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article fournit des informations générales sur les lettres de crédit et des relances d'importation. Ces deux types de documents bancaires sont fréquemment utilisés pour l'achat et la vente de biens au-delà des frontières internationales.
 
 <a name="letters-of-credit"></a>Lettres de crédit
 -----------------
 
-Les lettres de crédit sont utilisées pour les transactions et la garantie internationales d'aide que des paiements. Une lettre de crédit est un accord émis par une banque, dans laquelle la banque accepte de garantir le paiement au nom d'un acheteur, à condition que les conditions de l'accord entre l'acheteur et le vendeur sont satisfaites. Une lettre de crédit (également appelée crédit documentaire (DC).
+Les lettres de crédit sont utilisées dans le cadre des transactions internationales pour garantir l'exécution des paiements. Une lettre de crédit est un accord émis par une banque, dans lequel la banque accepte de garantir le paiement au nom de l'acheteur, si les conditions de l'accord entre l'acheteur et le vendeur sont satisfaites. Une lettre de crédit est également appelée crédit documentaire.
 
 Pour une lettre de crédit d'importation, l'entité juridique est l'acheteur ou le candidat de la lettre de crédit. Pour une lettre de crédit d'exportation, l'entité juridique est le vendeur ou le bénéficiaire de la lettre de crédit. Les parties suivantes sont impliquées dans une lettre de crédit :
 
@@ -50,5 +53,7 @@ Une lettre de crédit peut être **révocable** ou **irrévocable**. La nature d
 Une relance d'importation est un accord entre la banque et l'exportateur (vendeur) dans lequel la banque accepte de transférer la documentation d'expédition à l'importateur international (acheteur). La banque est supposée transmettre la documentation d'expédition dès réception du paiement pour les biens expédiés au comptant ou dès réception via d'une lettre de change signée pour le paiement. 
 
 Une relance d'importation permet de garantir que le vendeur est payé lorsque l'acheteur récupère les documents d'expédition pour réceptionner la livraison des biens importés.
+
+
 
 

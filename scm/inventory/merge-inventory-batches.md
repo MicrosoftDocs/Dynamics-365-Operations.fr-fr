@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="merge-inventory-batches"></a>Fusionner les traitements par lots de stock
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article fournit des informations sur la manière de consolider au moins deux traitements par lots de stock dans un traitement par lots fusionné. 
 
 Lorsque vous fusionnez des traitements par lots, des calculs peuvent aider à optimiser les caractéristiques et les attributs de lot dans le traitement par lots fusionné. Une fois que vous avez sélectionné les traitements par lots sources, vous pouvez réviser et modifier le traitement par lots fusionné avant de le valider. Vous pouvez également transférer la fusion du traitement par lots vers un journal de stock pour approbation. Le stock peut ensuite être réservé ou validé directement à partir de ce journal de stock. Lorsque vous validez un traitement par lots fusionné, le stock est ajusté pour les traitements par lots sources et le traitement par lots fusionné.
@@ -48,7 +51,7 @@ Oui, il existe certaines choses que vous devez paramétrer avant d'utiliser les 
 <tbody>
 <tr class="odd">
 <td>Noms des journaux, stock</td>
-<td>Vous devez créer le nom de journal à utiliser par défaut lors de la validation des fusions de traitements par lots dans les journaux de stock. Facultatif mais recommandé : Vous pouvez spécifier que les réservations soient effectuées automatiquement lorsque la fusion de traitements par lots est transférée au journal de stock. Sinon, il existe un risque que le stock disponible soit modifié après que les détails de la fusion de traitements par lots ont été définis et le journal validé. Pour activer des réservations automatiques pour le nom de journal, sélectionnez <strong>Automatique</strong> dans <strong><strong>Réservation</strong></strong> le champ.</td>
+<td>Vous devez créer le nom de journal à utiliser par défaut lors de la validation des fusions de traitements par lots dans les journaux de stock. Facultatif mais recommandé : Vous pouvez spécifier que les réservations soient effectuées automatiquement lorsque la fusion de traitements par lots est transférée au journal de stock. Sinon, il existe un risque que le stock disponible soit modifié après que les détails de la fusion de traitements par lots ont été définis et le journal validé. Pour activer les réservations automatiques pour le nom de journal, sélectionnez  <strong>Automatique</strong>dans le champ <strong><strong>Réservation</strong></strong>.</td>
 </tr>
 <tr class="even">
 <td>Paramètres de gestion des stocks et des entrepôts</td>
@@ -134,9 +137,11 @@ La validation fonctionne de deux manières, selon que vous utilisez un processus
 -   **Transférer vers le journal** – Transfère les détails de la fusion de traitements par lots vers un nouveau journal de stock. Si vous avez définit des réservations automatiques, les quantités dans les traitements par lots sources sont réservées. Les détails de la fusion de traitements par lots ne peuvent pas être modifiés. Pour modifier la fusion de traitements par lots, vous devez supprimer le journal. Le journal peut servir de tâche qu'un autre employé devra effectuer ultérieurement. La réservation de la quantité de lot vers la ligne de journal est sécurisée. Cette répartition permet à un planificateur de qualité ou à un responsable d'entrepôt de créer des tâches pour son ou ses employé(s).
 -   **Valider la fusion des traitements par lots** – Valide la fusion des traitements par lots directement. Cette action peut être effectuée après la réalisation de la fusion physique.
 
-Vous pouvez approuver le journal de stock pour la fusion de traitements par lots depuis la page de liste **Toutes les fusions de traitements par lots**. Cliquez sur ** journal ** &gt; ** valider **. Une fois le journal validé, vous ne pouvez pas modifier les détails du traitement par lots fusionné. Après avoir transféré une fusion de traitements par lots vers un journal de stock, vous ne pouvez modifier les détails que si le journal est supprimé.
+Vous pouvez approuver le journal de stock pour la fusion de traitements par lots depuis la page de liste **Toutes les fusions de traitements par lots**. Cliquez sur **Journal** &gt; **Valider**. Une fois le journal validé, vous ne pouvez pas modifier les détails du traitement par lots fusionné. Après avoir transféré une fusion de traitements par lots vers un journal de stock, vous ne pouvez modifier les détails que si le journal est supprimé.
 
-## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Lorsque je aie fusionné un article de catchweight, pourquoi quel que je ne peux pas afficher les informations de catchweight dans le journal de stock ?
+## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Une fois que j'ai fusionné un article de poids variable, pourquoi est-ce que je ne peux pas afficher les informations de poids variable dans le journal de stock ?
 Vous pouvez fusionner des lots d'articles de poids variable comme tous les autres articles. Toutefois, les informations de poids variable ne sont pas affichées dans le journal de stock. Il est recommandé de vérifier les informations de poids variable avant de transférer la fusion de traitements par lots vers le journal de stock.
+
+
 
 

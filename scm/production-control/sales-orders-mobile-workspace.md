@@ -1,6 +1,6 @@
 ---
-title: "L&quot;espace de travail de passer de commandes client pour Microsoft Dynamics 365 pour l&quot;application Opérations"
-description: "Avec les commandes client l&quot;espace de travail mobile, vous pouvez restant à jour de vos commandes client n&quot;importe où et à tout moment."
+title: "Espace de travail mobile Commandes client pour l&quot;application Microsoft Dynamics 365 for Operations"
+description: "Avec l&quot;espace de travail mobile des commandes client, vous pouvez être informé de vos commandes client n&quot;importe où et à tout moment."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,93 +25,93 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="sales-orders-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>L'espace de travail de passer de commandes client pour Microsoft Dynamics 365 pour l'application Opérations
+# <a name="sales-orders-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Espace de travail mobile Commandes client pour l'application Microsoft Dynamics 365 for Operations
 
-Avec les commandes client l'espace de travail mobile, vous pouvez restant à jour de vos commandes client n'importe où et à tout moment. 
+Avec l'espace de travail mobile des commandes client, vous pouvez être informé de vos commandes client n'importe où et à tout moment. 
 
 <a name="prerequisites"></a>Conditions préalables
 -------------
 
 | Logiciel requis                                                         | description ;                                                                                                                                                                   |
 |----------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Disposer connaissances Microsoft Dynamics 365 pour la plateforme mobiles d'opérations | [Dynamics 365 pour plateforme mobile opérations] (/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)                                                              |
-| Dynamics 365 pour les opérations                                          | Assurez-vous que vous utilisez un environnement avec Microsoft Dynamics 365 pour la version 1611 d'opérations et Microsoft Dynamics pour la mise à jour 3 de plateforme Opérations (novembre 2016). |
-| Base de connaissances 3215650 de correctif                                                    | Installez le correctif pour activer des espaces de travail qui sont définis dans Microsoft Dynamics 365 pour les opérations.                                                                       |
-| Appareil mobile qui a Dynamics 365 pour l'application Opérations installée | Téléchargez Dynamics 365 pour l'application Opérations de votre magasin portable d'application.                                                                                                      |
+| En savoir plus sur la plateforme mobile Microsoft Dynamics 365 for Operations | [Plateforme mobile Dynamics 365 for Operations](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)                                                              |
+| Dynamics 365 for Operations                                          | Assurez-vous d'utiliser un environnement disposant de la version 1611 de Microsoft Dynamics 365 for Operations et de la mise à jour 3 de Microsoft Dynamics for Operations (novembre 2016). |
+| Correctif de la Base de connaissances 3215650                                                    | Installez le correctif pour activer les espaces de travail fournis dans Microsoft Dynamics 365 for Operations.                                                                       |
+| Appareil mobile sur lequel l'application Dynamics 365 for Operations est installée | Téléchargez l'application Dynamics 365 for Operations à partir de votre magasin d'application mobile.                                                                                                      |
 
 ## <a name="overview"></a>Vue d'ensemble
-Cet espace de travail portable accède Dynamics 365 pour l'application Opérations et vous permet d'afficher des informations détaillées sur chaque commande client, par exemple, de statut d'ordre, d'informations sur le contact client, et d'informations de contact de preneur de commande. L'espace de travail portable fournit une vue instantanée des commandes client. Vous pouvez afficher les commandes client par client, d'afficher toutes les commandes client, ou d'afficher des informations sur une commande client spécifique. L'espace de travail portable fournit deux vues pour vous aider à analyser les ordres de vente en profondeur.
+Cet espace de travail mobile accède à l'application Dynamics 365 for Operations et vous permet d'afficher des informations détaillées sur chaque commande client, comme le statut de la commande, les coordonnées du client et les coordonnées de la personne qui a pris la commande. L'espace de travail mobile fournit une vue instantanée des commandes client. Vous pouvez afficher les commandes client par client, afficher toutes les commandes client, ou afficher des informations sur une commande client spécifique. L'espace de travail mobile fournit deux vues pour vous aider à analyser les commandes client en profondeur.
 
-### <a name="view-all-sales-orders"></a>Permet d'afficher toutes les commandes client
+### <a name="view-all-sales-orders"></a>Afficher toutes les commandes client
 
 Cette vue répertorie toutes les commandes client.
 
--   Utilisez l'une des filtres suivants de sélectionner les commandes client à afficher.
-    -   Recherche par des commandes client
-    -   Recherche par compte client
-    -   Recherche par le nom du client
-    -   Recherche par statut
-    -   Recherche par statut de lancement
-    -   Recherche par date et l'heure de création
+-   Utilisez l'un des filtres suivants pour sélectionner les commandes client que vous souhaitez afficher.
+    -   Recherche par commande client
+    -   Rechercher par compte client
+    -   Recherche par nom de client
+    -   Rechercher par statut
+    -   Rechercher par statut de lancement
+    -   Recherche par date et heure de création
 
 <!-- -->
 
--   Après avoir sélectionné les commandes client, vous pouvez afficher les détails de commandes spécifiques. Spécifiquement, vous pouvez afficher :
-    -   Nom du client et informations d'adresse
-    -   Différentes dates de commande client, telles que la date d'expédition demandée et date d'expédition confirmée
-    -   Informations de contact du preneur d'ordre
-    -   Informations de contact du client
+-   Après avoir sélectionné les commandes client, vous pouvez afficher les détails de commandes spécifiques. En particulier, vous pouvez afficher :
+    -   le nom du client et les informations d'adresse
+    -   les différentes dates de la commande client, telles que la date d'expédition demandée et la date d'expédition confirmée
+    -   les coordonnées de la personne qui a pris la commande
+    -   les coordonnées du client
     -   Lignes de commande
-    -   Expéditions qui affiche quand et comment une commande client a été expédiée
+    -   Expéditions qui affichent quand et comment une commande client a été expédiée
 
-### <a name="view-orders-for-a-customer-"></a>Commandes de vue pour un client ** **
+### <a name="view-orders-for-a-customer-"></a>Afficher les commandes pour un client ** **
 
-Cette vue liste des commandes client par client.
+Cette vue répertorie les commandes client par client.
 
--   Utilisez l'une des filtres suivants d'afficher les commandes pour un client.
-    -   Recherche de nom
-    -   Recherche par compte
+-   Utilisez l'un des filtres suivants pour afficher les commandes pour un client.
+    -   Rechercher par nom
+    -   Rechercher par compte
 
 <!-- -->
 
 -   Après avoir sélectionné un client, vous pouvez afficher :
-    -   Nom du client et groupe
-    -   Informations de contact du client
-    -   Commandes client et détails sur le client sur les commandes client :
-        -   Nom du client et informations d'adresse
-        -   Différentes dates de commande client
-        -   Informations de contact du preneur d'ordre
-        -   Informations de contact du client
+    -   le nom et le groupe du client
+    -   les coordonnées du client
+    -   les commandes du client et les détails qui les concernent :
+        -   le nom du client et les informations d'adresse
+        -   les différentes dates de commande client
+        -   les coordonnées de la personne qui a pris la commande
+        -   les coordonnées du client
         -   Lignes de commande
-        -   Expéditions qui affiche quand et comment les commandes client a été expédiées
+        -   Expéditions qui affichent quand et comment une commande client a été expédiée
 
 ## <a name="get-started"></a>Mise en route
-Procédez comme suit pour obtenir commencé à l'aide de l'espace de travail de passer de commandes client dans votre périphérique mobile.
+Suivez les étapes ci-après pour commencer à utiliser l'espace de travail mobile des commandes client sur votre appareil mobile.
 
-1.  Dans votre magasin portable d'application, chargez et installez Microsoft Dynamics 365 pour l'application Opérations.
-2.  Démarrez l'application de votre périphérique.
-3.  Permet d'entrer l'URL de Dynamics 365.
-4.  Entrez la société pour signer dans en. Par exemple, entrez ** USMF **.
-5.  La première fois que vous vous connectez, vous êtes invité à entrer le nom d'utilisateur et le mot de passe pour votre Microsoft Dynamics 365 pour le compte d'opérations. Entrez vos informations d'identification. Après avoir signer électroniquement dans, vous voyez des espaces de travail disponibles pour votre société.
+1.  Dans votre magasin d'application mobile, téléchargez et installez l'application Microsoft Dynamics 365 for Operations.
+2.  Démarrez l'application sur votre appareil.
+3.  Entrez votre URL Dynamics 365.
+4.  Entrez la société à laquelle vous vous connectez. Par exemple, entrez **USMF**.
+5.  Lorsque vous vous connectez pour la première fois, vous êtes invité à entrer le nom d'utilisateur et le mot de passe de votre compte Microsoft Dynamics 365 for Operations. Entrez vos informations d'identification. Une fois que vous êtes connecté, les espaces de travail disponibles pour votre société s'affichent.
 
-Pour afficher des espaces de travail de votre application mobile, vous devez d'abord envoyer des espaces de travail souhaités à Dynamics 365 pour l'application Opérations.
+Pour afficher les espaces de travail sur votre application mobile, vous devez d'abord publier les espaces de travail souhaités sur l'application Dynamics 365 for Operations.
 
-1.  Début Dynamics 365 pour les opérations.
-2.  Allez ** Administration du système ** &gt; ** au paramétrage ** &gt; ** des paramètres système **.
-3.  Sélectionnez ** de gérer l'application mobile **.
-4.  Sélectionnez l'espace de travail pour publier à la plateforme portable.
-5.  Sélectionnez ** publiez l'espace de travail **.
-6.  Permet d'actualiser le périphérique pour voir des espaces de travail émis.
+1.  Démarrez Dynamics 365 for Operations.
+2.  Accédez à **Administration système** &gt; **Paramétrage** &gt; **Paramètres système**.
+3.  Sélectionnez **Gérer l'application mobile**.
+4.  Sélectionnez l'espace de travail pour le publier sur la plateforme mobile.
+5.  Sélectionnez **Publier l'espace de travail**.
+6.  Actualisez votre appareil pour afficher les espaces de travail publiés.
 
-## <a name="view-information-about-sales-orders-for-a-customer"></a>Permet d'afficher des informations sur les commandes client pour un client
-1.  Dans votre périphérique mobile, sélectionnez ** des commandes client ** l'espace de travail.
-2.  Sélectionnez ** commandes de vue pour un client **.
-3.  Utilisation ** compte ** ou ** nom du client ** les informations de trouver le client souhaité.
-4.  Sélectionnez le client.
-5.  Sélectionnez ** les informations de contact ** ou ** des commandes client **.
-6.  Si ** commandes client ** est sélectionné, la liste des commandes client pour le client s'affiche.
-7.  Sélectionnez ** commande client **.
-8.  Vous pouvez afficher des informations sur les lignes de commande client, d'expéditions, des informations sur le contact client, et les informations de contact de preneur de commande.
+## <a name="view-information-about-sales-orders-for-a-customer"></a>Afficher des informations sur les commandes client pour un client
+1.  Sur votre appareil mobile, sélectionnez l'espace de travail **Commandes client**.
+2.  Sélectionnez **Afficher les commandes pour un client**.
+3.  Utilisez les informations **Compte** ou **Nom du client** pour trouver le client souhaité.
+4.  Sélectionnez le client
+5.  Sélectionnez **Informations de contact** ou **Commandes client**.
+6.  Si **Commandes client** est sélectionné, une liste des commandes client du client s'affiche.
+7.  Sélectionnez **Commandes client**.
+8.  Vous pouvez ici afficher des informations sur les lignes de commande client, les expéditions, les informations de contact du client et les informations de contact de la personne qui a pris la commande.
 
 
 

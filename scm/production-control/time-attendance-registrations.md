@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="time-and-attendance-registration"></a>Enregistrement de Pointage
 
+[!include[banner](../includes/banner.md)]
+
+
 Les collaborateurs qualifiés pour l'enregistrement des heures peuvent entrer plusieurs types d'enregistrements d'heures : par exemple, le pointage à l'arrivée, le pointage à la sortie, l'enregistrement des activités indirectes et l'enregistrement des absences. Cet article décrit les enregistrements, leur calcul, leur approbation, et l'utilisation du workflow pour ajouter la structure et l'approbation automatisée au processus d'approbation des feuilles de temps. 
 
 <a name="registrations"></a>Enregistrements
@@ -62,7 +65,7 @@ Après le paramétrage, les travailleurs peuvent entrer plusieurs types d'enregi
 -   Activités indirectes, qui sont des activités non productives qu'un travailleur peut effectuer au cours d'une journée de travail. Il peut s'agir par exemple de réunions ou du nettoyage de leur espace de travail.
 -   Heures supplémentaires qui peuvent être enregistrées comme heures supplémentaires ou heures flexibles.
 
-## <a name="adding-clockout-registrations"></a>Ajouter des enregistrements de clockout
+## <a name="adding-clockout-registrations"></a>Ajout d'enregistrements de pointage à la sortie
 Si un travailleur oublie de pointer à la fin de sa journée de travail, l'enregistrement manquant peut être ajouté en exécutant un traitement par lots. Le système compare l'heure de pointage à l'arrivée et l'heure de pointage à la sortie en fonction du profil associé du travailleur, et insère automatiquement l'enregistrement de pointage à la sortie manquant pour correspondre à l'heure de fin du profil. Les enregistrements de pointage à l'arrivée et à la sortie sont essentiels pour le calcul et l'approbation ultérieurs des enregistrements d'heures avant leur transfert vers la paie.
 
 ## <a name="calculating-registrations"></a>Calcul des enregistrements
@@ -113,6 +116,8 @@ Les travailleurs dont les tâches ne nécessitent pas de commentaires immédiats
 -   consommation de temps.
 -   Frais du projet
 -   Articles du projet
+
+
 
 
 

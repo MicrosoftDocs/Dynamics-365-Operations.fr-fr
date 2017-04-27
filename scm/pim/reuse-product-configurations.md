@@ -1,5 +1,5 @@
 ---
-title: "Réutiliser les configurations de produit"
+title: "Réutiliser des configurations de produit"
 description: "Vous pouvez spécifier que vous souhaitez réutiliser automatiquement une configuration existante pour un produit. Ensuite, lorsqu&quot;un utilisateur a terminé une session de configuration, le système vérifie si une configuration qui correspond aux sélections effectuée par l&quot;utilisateur existe déjà. Si une configuration correspondante est trouvée, l&quot;ID configuration, la nomenclature correspondante et la gamme sont réutilisés."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="reuse-product-configurations"></a>Réutiliser les configurations de produit
+# <a name="reuse-product-configurations"></a>Réutiliser des configurations de produit
+
+[!include[banner](../includes/banner.md)]
+
 
 Vous pouvez spécifier que vous souhaitez réutiliser automatiquement une configuration existante pour un produit. Ensuite, lorsqu'un utilisateur a terminé une session de configuration, le système vérifie si une configuration qui correspond aux sélections effectuée par l'utilisateur existe déjà. Si une configuration correspondante est trouvée, l'ID configuration, la nomenclature correspondante et la gamme sont réutilisés.
 
@@ -41,5 +44,7 @@ Pour activer les configurations à réutiliser, vous devez spécifier les inform
 
 ## <a name="resetting-configuration-reuse"></a>Réinitialisation de la réutilisation de configuration
 Lorsque vous réinitialisez la réutilisation de configuration, les configurations précédemment créées ne sont plus prises en compte. Vous pouvez réinitialiser la réutilisation de configuration si la nomenclature ou la gamme a été modifiée, mais aucun attribut associé n'a été modifié. Vous réinitialisez la réutilisation de configuration sur l'organisateur **Général** du composant.
+
+
 
 

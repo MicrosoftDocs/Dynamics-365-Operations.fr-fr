@@ -1,6 +1,6 @@
 ---
-title: "Fonctions récemment ajoutés de modification de l&quot;enregistreur de tâches"
-description: "Si vous utilisez l&quot;enregistreur de tâches permet de créer des guides des tâches, vous pouvez modifier vos fichiers plus efficacement à l&quot;aide de la fonctionnalité décrite dans ce wiki."
+title: "Fonctions d&quot;édition récemment ajoutées dans l&quot;enregistreur de tâches"
+description: "Si vous utilisez l&quot;enregistreur de tâches pour créer des guides de tâches, vous pouvez modifier vos fichiers plus efficacement à l&quot;aide de la fonctionnalité décrite dans ce wiki."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,66 +25,66 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="recently-added-editing-features-in-task-recorder"></a>Fonctions récemment ajoutés de modification de l'enregistreur de tâches
+# <a name="recently-added-editing-features-in-task-recorder"></a>Fonctions d'édition récemment ajoutées dans l'enregistreur de tâches
 
-Si vous utilisez l'enregistreur de tâches permet de créer des guides des tâches, vous pouvez modifier vos fichiers plus efficacement à l'aide de la fonctionnalité décrite dans ce wiki.
+Si vous utilisez l'enregistreur de tâches pour créer des guides de tâches, vous pouvez modifier vos fichiers plus efficacement à l'aide de la fonctionnalité décrite dans ce wiki.
 
-Ces fonctions sont disponibles sur ** l'enregistreur &gt; de tâches de paramètres &gt; de modifier l'enregistrement ** le menu.
+Ces fonctions sont disponibles dans le menu **Paramètres &gt; Enregistreur de tâches &gt; Modifier l'enregistrement**.
 
--   Étapes insertion sans réenregistrer le fichier entier.
--   Permet de déplacer les étapes sous une sous-tâche sans réenregistrer le fichier entier.
--   Effondrez-vous en enregistrant les champs par nom et la description.
+-   Insérer des étapes sans réenregistrer le fichier entier
+-   Déplacer des étapes sous une sous-tâche sans réenregistrer le fichier entier
+-   Réduire le champ Nom et description de l'enregistrement
 
-## <a name="insert-steps-without-rerecording-the-entire-file"></a>Insérez les étapes sans réenregistrer le fichier entier
-Vous pouvez désormais ajouter une étape n'importe où d'un Guide de tâche sans jouer de retour ou réenregistrer le fichier entier.
+## <a name="insert-steps-without-rerecording-the-entire-file"></a>Insérer des étapes sans réenregistrer le fichier entier
+Vous pouvez désormais ajouter une étape n'importe où dans un guide de tâche sans avoir à relire ni réenregistrer le fichier entier.
 
-1.  Sélectionnez l'étape après laquelle vous souhaitez une nouvelle étape à ajouter. Assurez-vous que l'étape est mise en surbrillance.
+1.  Sélectionnez l'étape après laquelle vous souhaitez ajouter une nouvelle étape. Assurez-vous que l'étape est mise en surbrillance.
 
-Pour que l'enregistreur de tâches insère une étape, la page correcte en cours. La page appropriée est la page dans laquelle la nouvelle étape se produit. L'enregistreur de tâches a un mécanisme qui détermine ce qui est la page active, et désactivera la fonctionnalité si la page appropriée n'est pas en cours. 
+Pour que l'enregistreur de tâches insère une étape, la page appropriée doit être ouverte. La page appropriée est la page dans laquelle la nouvelle étape se produit. L'enregistreur de tâches a un mécanisme qui détermine ce qui est la page active, et désactivera la fonctionnalité si la page appropriée n'est pas ouverte. 
 
-![tg1 [] (. /media/tg1.png)](. /media/tg1.png) 
+[![tg1](./media/tg1.png)](./media/tg1.png) 
 
 
-Lorsque vous êtes sur la page appropriée, ** étape d'insertion ** devient disponible.
+Lorsque vous êtes sur la page appropriée, l'option **Insérer une étape** devient disponible.
 
-![tg2 [] (. /media/tg2-231x300.png)](. /media/tg2.png)
+[![tg2](./media/tg2-231x300.png)](./media/tg2.png)
 
-2. Cliquez sur ** étape d'insertion **.
+2. Cliquez sur **Insérer une étape**.
 
-Lorsque vous cliquez sur ** étape d'insertion **, l'enregistreur de tâches basculez vers le mode d'enregistrement. Toute action prise dans l'IU est désormais stockées et a apporté sur place comme suit.
+Lorsque vous cliquez sur **Insérer une étape**, l'enregistreur de tâches bascule en mode d'enregistrement. Toute action prise dans l'IU est désormais stockée et intégrée aux étapes.
 
-3. Cliquez sur ** arrêt **.
+3. Cliquez sur **Arrêter**.
 
-Vous pouvez répéter le processus, en ajoutant le nombre d'étapes ou déplaçant autant de sous tâches au besoin (voir ci-dessous pour les tâches sous).
+Vous pouvez répéter le processus, en ajoutant le nombre d'étapes ou déplaçant autant de sous tâches si nécessaire (voir ci-dessous pour les sous-tâches).
 
-4. Lorsque vous avez effectué modifiant le Guide de tâche, cliquez sur ** modification effectuée **, puis sélectionnez l'une des options d'enregistrer ou de publier le Guide de tâche.
+4. Lorsque vous avez terminé de modifier le guide de tâche, cliquez sur **Modification terminée**, puis sélectionnez l'une des options pour enregistrer ou publier le Guide de tâche.
 
-## <a name="move-steps-under-a-subtask-without-rerecording-the-entire-file"></a>Permet de déplacer les étapes sous une sous-tâche sans réenregistrer le fichier entier
-Vous pouvez déplacer des étapes sous une sous-tâche sans jouer de retour ou réenregistrer le fichier entier. Vous pouvez également déplacer l'étape de sous-tâche ou l'étape de sous-tâche de fin si vous souhaitez regrouper un bloc existant d'étapes.
+## <a name="move-steps-under-a-subtask-without-rerecording-the-entire-file"></a>Déplacer des étapes sous une sous-tâche sans réenregistrer le fichier entier
+Vous pouvez déplacer des étapes sous une sous-tâche sans relire ni réenregistrer le fichier entier. Vous pouvez également déplacer l'étape de la sous-tâche ou l'étape de la sous-tâche de fin si vous souhaitez regrouper un bloc d'étapes existant.
 
 1.  Sélectionnez l'étape ou l'étape de sous-tâche à déplacer. Assurez-vous que l'étape est mise en surbrillance.
-2.  Cliquez sur les points de suspension, puis cliquez sur ** déplacez l'étape après **.
+2.  Cliquez sur les points de suspension, puis cliquez sur **Déplacer une étape plus loin**.
 
-![tg3 [] (. /media/tg3.png)](. /media/tg3.png)
+[![tg3](./media/tg3.png)](./media/tg3.png)
 
-3. Sélectionne l'étape ou l'étape de sous-tâche que vous souhaitez déplacer l'étape ou l'étape de sous-tâche Suivant. L'enregistreur de tâches déplacera l'étape.
+3. Sélectionnez l'étape ou l'étape de sous-tâche après laquelle vous souhaitez déplacer l'étape ou l'étape de sous-tâche. L'enregistreur de tâches déplacera l'étape.
 
-4. Pour déplacer l'étape de sous-tâche de fin, sélectionnez -la, cliquez sur les points de suspension, cliquez sur ** déplacez l'étape après **, puis sélectionnez l'étape après laquelle vous souhaitez que l'étape de sous-tâche de fin pour être.
+4. Pour déplacer l'étape de la sous-tâche de fin, sélectionnez-la, cliquez sur les points de suspension, cliquez sur **Déplacer une étape plus loin**, puis sélectionnez l'étape après laquelle vous souhaitez que l'étape de la sous-tâche finale soit insérée.
 
-Si vous souhaitez que la première étape du Guide de tâche pour être compris dans une sous-tâche, créez une étape de sous-tâche comme deuxième étape, puis entrez la première étape dans celui-ci. Vous pouvez ajouter ou déplacer autant d'étapes ou sous tâches au besoin.
+Si vous souhaitez que la première étape du Guide de tâche soit comprise dans une sous-tâche, créez une étape de sous-tâche comme deuxième étape, puis insérez-y la première étape. Vous pouvez ajouter ou déplacer autant d'étapes ou sous tâches au besoin.
 
-5. Lorsque vous avez effectué modifiant le Guide de tâche, cliquez sur ** modification effectuée **, puis sélectionnez l'une des options d'enregistrer ou de publier le Guide de tâche.
+5. Lorsque vous avez terminé de modifier le guide de tâche, cliquez sur **Modification terminée**, puis sélectionnez l'une des options pour enregistrer ou publier le Guide de tâche.
 
-## <a name="collapse-recording-name-and-description"></a>Effondrement enregistrant le nom et la description
-Vous pouvez développer et réduire ** enregistrant le nom ** et ** enregistrer la description ** des champs. Lorsque ces champs sont réduits, des étapes seront visibles dans le volet de modification de l'enregistreur de tâches. 
+## <a name="collapse-recording-name-and-description"></a>Réduire le nom et la description de l'enregistrement
+Vous pouvez développer et réduire les champs **Nom de l'enregistrement** et **Description de l'enregistrement**. Lorsque ces champs sont réduits, des étapes seront visibles dans le volet de modification de l'enregistreur de tâches. 
 
-![tg4 [] (. /media/tg4-300x252.png)](. /media/tg4.png)  
+[![tg4](./media/tg4-300x252.png)](./media/tg4.png)  
 
 <a name="see-also"></a>Voir également :
 --------
 
 [Création d'une documentation ou d'une formation à l'aide d'enregistrements de tâche](/dynamics365/operations/dev-itpro/user-interface/task-recorder)
 
-[Référence rapide de l'enregistreur de tâches] (/dynamics365/operations/dev-itpro/user-interface/task-recorder-quick-reference)
+[Référence rapide de l'enregistreur de tâches](/dynamics365/operations/dev-itpro/user-interface/task-recorder-quick-reference)
 
 

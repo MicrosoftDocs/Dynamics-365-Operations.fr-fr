@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="consumption-depreciation"></a>Amortissement de consommation
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article donne une vue d'ensemble de la méthode de consommation de l'amortissement.
 
 Si vous paramétrez un profil d'amortissement pour des immobilisations et que vous sélectionnez **Consommation** dans le champ **Méthode** de la page **Profils d'amortissement**, les immobilisations affectées au profil d'amortissement sont basées sur leur utilisation. Vous n'êtes pas obligé de paramétrer des pourcentages et des intervalles sur la page **Profils d'amortissement**. Après avoir créé un profil d'amortissement qui utilise la méthode Consommation, vous pouvez paramétrer la méthode de plusieurs manières.
@@ -64,5 +67,7 @@ Le facteur suivant pour l'amortissement par consommation est paramétré pour le
 -   La quantité estimée de l'immobilisation est de 2 000.
 
 La proposition d'amortissement du 31 janvier est la suivante : Quantité estimée × Pourcentage x Amortissement à l'unité 2 000 × 0,10 × 1,5 = 300
+
+
 
 

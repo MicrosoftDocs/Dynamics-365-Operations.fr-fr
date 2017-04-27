@@ -1,6 +1,6 @@
 ---
-title: "Page &amp; d&quot;accueil de génération d&quot;états BI"
-description: "Cette rubrique répertorie les ressources &amp; de génération d&quot;états BI disponibles dans Microsoft Dynamics 365 pour les opérations."
+title: "Page d&quot;accueil BI et génération d&quot;états"
+description: "Cette rubrique répertorie les ressources BI et de génération d&quot;états disponibles dans Microsoft Dynamics 365 for Operations."
 author: sericks007
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,26 +24,29 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="bi-amp-reporting-home-page"></a>Page &amp; d'accueil de génération d'états BI
+# <a name="bi-amp-reporting-home-page"></a>Page d'accueil BI et génération d'états
 
-Cette rubrique répertorie les ressources &amp; de génération d'états BI disponibles dans Microsoft Dynamics 365 pour les opérations.
+[!include[banner](../includes/banner.md)]
+
+
+Cette rubrique répertorie les ressources BI et de génération d'états disponibles dans Microsoft Dynamics 365 for Operations. 
 
 <a name="working-with-aggregate-data"></a>Utilisation de données regroupées
 ---------------------------
 
--   [Analytics](analytics.md)
+-   [Analyse](analytics.md)
 -   [Les modèles globaux en temps réel en mémoire remplacent les cubes SSAS](..\migration-upgrade\in-memory-real-time-aggregate-models.md)
--   [Articles et utilisation données générales] (model-aggregate-data.md)
--   [Migration un cube mis à niveau en fonction de l'AX 2012 R3 de Dynamics au magasin d'entité (].\migration-mise à niveau\migrate-upgraded-cube-entity-store.md)
+-   [Modélisation et utilisation de données regroupées](model-aggregate-data.md)
+-   [Migration d'un cube de vente Dynamics AX 2012 R3 mis à niveau dans le magasin d'entité](..\migration-upgrade\migrate-upgraded-cube-entity-store.md)
 
-## <a name="self-service-reporting"></a>Génération d'états de paiement
--   [Power BI integration](power-bi-integration.md)
+## <a name="self-service-reporting"></a>Génération d'états libre service
+-   [Intégration Power BI](power-bi-integration.md)
 -   [Configuration de l'intégration Power BI pour les espaces de travail](configure-power-bi-integration.md)
 -   [Création d'un état Power BI à l'aide de données Microsoft Dynamics 365 for Operations](create-powerbi-report-data.md)
--   [Création d'un état BI Alimentation et un tableau de bord] (create-powerbi-report-dashboard.md)
--   [Contenu BI de courant de performance de canal de vente au détail] (retail-channel-performance-dashboard-power-bi-data.md)
--   [Contenu financier BI de courant de performances] (financial-performance-power-bi-content-pack.md)
--   [Les ventes et les performances de rentabilité actionnent le contenu BI] (sales-profitability-performance-content-pack.md)
+-   [Créer un état et un tableau de bord Power BI](create-powerbi-report-dashboard.md)
+-   [Contenu Power BI des performances du canal de vente au détail](retail-channel-performance-dashboard-power-bi-data.md)
+-   [Contenu Power BI des performances financières](financial-performance-power-bi-content-pack.md)
+-   [Contenu Power BI des performances de rentabilité et de vente](sales-profitability-performance-content-pack.md)
 -   [Utiliser une configuration de génération d'états électroniques pour fournir à Power BI des données Dynamics 365 for Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 
 ## <a name="building-embedded-analytical-experiences-in-the-dynamics-365-for-operations-client"></a>Création d'expériences analytiques intégrées au client Dynamics 365 for Operations
@@ -95,6 +98,8 @@ Cette rubrique répertorie les ressources &amp; de génération d'états BI disp
 -   [ER Utiliser les fichiers de gestion des documents dans les sorties de format (Partie 5 : Modifier et exécuter le format)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-5-modify-and-run-format/) (Guide de tâche)
 -   [ER Générer les documents électroniques pour les paiements à l'aide d'une configuration de format](http://ax.help.dynamics.com/en/wiki/generate-electronic-documents-for-payments-using-a-format-configuration/) (Guide de tâche)
 -   [ER Mettre à niveau votre format en adoptant la nouvelle version de base de ce format](http://ax.help.dynamics.com/en/wiki/upgrade-your-format-by-adopting-a-new-base-version-of-that-format/) (Guide de tâche)
+
+
 
 
 

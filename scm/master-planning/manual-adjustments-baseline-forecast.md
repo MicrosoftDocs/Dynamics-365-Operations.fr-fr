@@ -1,5 +1,5 @@
 ---
-title: "Permet d&quot;effectuer des ajustements manuels à la prévision de base"
+title: "Effectuer des ajustements manuels sur la prévision de base"
 description: "Cet article explique comment effectuer des ajustements manuels sur une prévision de base et afficher les détails de la prévision."
 author: YuyuScheller
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Permet d'effectuer des ajustements manuels à la prévision de base
+# <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Effectuer des ajustements manuels sur la prévision de base
+
+[!include[banner](../includes/banner.md)]
+
 
 Cet article explique comment effectuer des ajustements manuels sur une prévision de base et afficher les détails de la prévision. 
 
@@ -35,11 +38,11 @@ Avant d'effectuer des ajustements manuels, il est important que vous compreniez 
 ## <a name="grid-on-the-adjusted-demand-forecast-page"></a>Grille dans la page Ajustement de la prévision de demande
 La page **Ajustement de la prévision de demande** inclut une grille avec la structure suivante :
 
--   La première colonne affiche les articles, les clés de répartition par article, les sociétés, etc., pour lesquels cette prévision a été générée. Le sous-titre de la page fournit une description des dimensions de prévision existantes qui sont affichées dans la grille. Par exemple, si le sous-titre de la page est ** société/site/clé de répartition par article **, et une des en-têtes de ligne dans la grille est ** USMF/1/D\_Alloc **, les affiches de cette ligne la prévision pour la société d'USMF, le site 1, et ** D\_Alloc ** la clé de répartition par article.
+-   La première colonne affiche les articles, les clés de répartition par article, les sociétés, etc., pour lesquels cette prévision a été générée. Le sous-titre de la page fournit une description des dimensions de prévision existantes qui sont affichées dans la grille. Par exemple, si le sous-titre de la page est **Société / Site / Clé de répartition par article**, et qu'une des en-têtes de ligne dans la grille est **USMF / 1 / D\_Alloc**, la ligne indique la prévision pour la société USMF, le site 1, et la clé de répartition par article **D\_Alloc**.
 -   Les colonnes suivantes représentent les intervalles de prévision pour lesquels la prévision a été générée. Chaque en-tête de colonne est la permière date de l'intervalle de prévision que la colonne affiche.
 -   Les valeurs des cellules représentent la prévision pour un article, une clé de répartition par article, etc., pour cet intervalle de prévision spécifique.
 
-## <a name="forecast-aggregation-and-deaggregation"></a>Regroupement deaggregation et de prévision
+## <a name="forecast-aggregation-and-deaggregation"></a>Agrégation et désagrégation de prévision
 Le sous-titre de la page affiche le niveau d'agrégation de prévision. 
 
 Par exemple, si le sous-titre de la page est **Société/site/clé de répartition/numéro d'article/couleur/taille/configuration/style**, il n'existe aucune agrégation de prévision, et la prévision est indiquée au niveau de l'article et de ses dimensions. Pour modifier l'agrégation, utilisez la page **Modifier les dimensions de prévision**, que vous pouvez ouvrir à partir du menu de l'application. 
@@ -50,7 +53,7 @@ Si vous modifiez l'agrégation pour que la page affiche plus de données agrég�
 
 Par exemple, vous avez généré la prévision au niveau de l'article, mais vous savez que la demande de cet article augmentera sur tous les sites en raison d'une promotion ou d'un autre événement similaire. Dans ce cas, vous pouvez définir l'agrégation sur **Société/clé de répartition par article/article** sur la page **Modifier les dimensions de prévision**. Vous pouvez ajuster la prévision globale pour l'article dans l'ensemble des sites dans la grille **Ajustement de la prévision de demande**. Pour afficher l'effet de la modification sur tous les sites, ouvrez la page **Lignes de prévision de la demande**. Dans cette page, vous verrez une ligne pour l'article pour chaque site, la quantité de prévision ajustée, et la quantité de prévision d'origine. 
 
-Lorsque l'ajustement de la quantité prévue est effectué à un niveau agrégé, le système utilise la répartition pesées pour distribuer la modification entre les lignes ayant créé le regroupement. 
+Lorsque l'ajustement de la quantité prévue est effectué à un niveau agrégé, le système utilise une répartition pondérée pour répartir la modification entre les lignes qui créent l'agrégation. 
 
 Vous pouvez également effectuer des ajustements manuels dans la page **Lignes de prévision de la demande** en modifiant la valeur **Quantité totale** ou les cellules **Quantité** dans la grille de désagrégation.
 
@@ -69,15 +72,17 @@ La page **Détails de prévision de la demande** affiche les informations suivan
 **Remarques :**
 
 -   L'intervalle de confiance qui apparaît dans la section **Prévision** de la page représente la différence entre la limite supérieure de l'intervalle de confiance et la limite inférieure de l'intervalle de confiance. Pour afficher des valeurs pour les limites supérieures et inférieures, pointez sur le graphique dans la section **Prévisions et demandes historiques représentées graphiquement**.
--   Si vous utilisez Dynamics 365 pour le service azuré de Machine Learning Microsoft de prévision de la demande d'opérations, vous pouvez spécifier le pourcentage du niveau de confiance que la prévision qui est générée doit avoir. Un intervalle de confiance comporte une plage de valeurs qui constitue une bonne estimation des prévisions de la demande. Un pourcentage de niveau de confiance à 95 % indique qu'il existe un risque de 5 % que les prévisions de la demande se trouvent en dehors de l'intervalle de confiance.
+-   Si vous utilisez le service Microsoft Azure Machine Learning de prévision de la demande de Dynamics 365 for Operations, vous pouvez spécifier le pourcentage de niveau de confiance que la prévision générée doit avoir. Un intervalle de confiance comporte une plage de valeurs qui constitue une bonne estimation des prévisions de la demande. Un pourcentage de niveau de confiance à 95 % indique qu'il existe un risque de 5 % que les prévisions de la demande se trouvent en dehors de l'intervalle de confiance.
 
 Vous pouvez également effectuer des ajustements manuels de la prévision dans la page **Détails de prévision de la demande**, en modifiant les valeurs dans la ligne **Prévision** dans la section **Prévision**.
 
 <a name="see-also"></a>Voir également :
 --------
 
-[Monitoring forecast accuracy](monitor-forecast-accuracy.md)
+[Surveillance de la précision de la prévision](monitor-forecast-accuracy.md)
 
-[Generating a statistical baseline forecast](generate-statistical-baseline-forecast.md)
+[Génération de prévisions de base statistiques](generate-statistical-baseline-forecast.md)
+
+
 
 

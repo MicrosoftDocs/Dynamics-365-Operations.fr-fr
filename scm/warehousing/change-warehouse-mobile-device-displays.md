@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="warehouse-mobile-device-display-settings"></a>Paramètres d'affichage de l'appareil mobile de l'entrepôt
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article décrit comment définir l'apparence d'affichage d'un appareil mobile, et comment mettre en correspondance les raccourcis clavier avec les contrôles, tels que les boutons. 
 
 Cet article s'applique aux fonctionnalités « d'entreposage avancé » du module Gestion des entrepôts. Les appareils mobiles peuvent être utilisés pour de nombreuses tâches effectuées par les magasiniers.
@@ -39,13 +42,13 @@ Dans le cadre de la configuration des appareils mobiles, vous pouvez définir di
 
 Les fichiers CSS et ASPX doivent être situés dans un répertoire spécifique, de sorte que l'application Services Internet (IIS) puisse les charger. Il peut s'avérer utile de définir des fichiers CSS différents si vous exécutez la fonctionnalité d'appareil mobile dans des navigateurs différents ou sur différents types de matériel qui requièrent une contrôle de la mise en page différent. Les paramètres simples tels que la couleur d'arrière-plan, la police et la taille de police pour le texte, ainsi que la largeur et le fonctionnement des boutons, peuvent être facilement contrôlés par l'intermédiaire de différentes utilisations des fichiers CSS. Le fichier ASPX permet d'afficher le site mobile sur l'application côté serveur ASP.NET. Le fichier contrôle comment la structure globale du HTML est mise en page. Il est judicieux de personnaliser cette fonctionnalité uniquement si vous avez de sérieux problèmes structurels au niveau HTML et JavaScript, et que vous devez modifier ce code pour des appareils spécifiques. Pour mettre en correspondance les contrôles HTML de la page des appareils mobiles avec les raccourcis clavier, sur la page **Paramètres d'affichage de l'appareil mobile**, dans le champ **Raccourci clavier**, affectez les codes numériques aux touches. Vous pouvez utiliser le menu **Afficher des codes pour les raccourcis clavier** de l'appareil mobile pour rechercher les codes de caractères numériques. Notez que les mises en correspondance peuvent différer, en fonction du matériel utilisé. Vous devez utiliser la syntaxe suivante pour créer la mise en correspondance :
 
-&lt;contrôlez le code&gt;de =key&lt;nom de (&gt;nom de la&lt;clé)&gt;;
+&lt;control name&gt;(&lt;key name&gt;)=&lt;key code&gt;;
 
 Voici une explication des parties de la syntaxe :
 
--   **&lt;nom de contrôle&gt;** – Nom du contrôle (par exemple, un bouton) qui est affiché en HTML.
--   ** (&lt;nom de la&gt;clé) ** – Nom de la clé de clavier que vous créez le raccourci pour.
--   **&lt;Code de clé&gt;** – Code numérique de caractères par la clé l'utilise comme raccourci.
+-   **&lt;control name&gt;** – Le nom du contrôle, par exemple, un bouton, en HTML.
+-   **(&lt;key name&gt;)** – Le nom de la touche de clavier pour laquelle vous créez le raccourci.
+-   **&lt;Key code&gt;** – Le code de caractère numérique pour la touche à utiliser comme raccourci clavier.
 
 Voici un exemple :
 
@@ -57,17 +60,17 @@ Sur toutes les pages qui incluent un bouton **Cancel**, le bouton sera associé 
 
 Appuyer sur la touche Échap du clavier actionnera le bouton **Annuler**. Pour appliquer les paramètres de style et de raccourci clavier à un appareil spécifique, vous devez créer une mise en correspondance dans le champ **Critères**. Vous devez utiliser une expression régulière .NET pour créer la mise en correspondance, et l'expression doit être constitué de trois sections séparées par une barre verticale (|), comme cela est illustré ici :
 
-Host&lt;permet de Request.UserHostAddress=user&gt;~Nom&lt;de l'hôte de HostName=user&gt;~Agent&lt;de Request.UserAgent=user&gt;
+Request.UserHostAddress=&lt;user host address&gt;|HostName=&lt;user host name&gt;|Request.UserAgent=&lt;user agent&gt;
 
 Voici une explication des parties de l'expression :
 
--   **&lt;host permet d'utilisateur&gt;** – une expression régulier .NET qui correspond à l'adresse IP du demandeur.
--   **&lt;nom d'hôte d'utilisateur&gt;** – une expression régulier .NET qui correspond à celui de réseau du demandeur.
--   **&lt;agent d'utilisateur&gt;** – une expression régulier .NET correspondant l'identificateur du navigateur que le demandeur utilise.
+-   **&lt;user host address&gt;** – Une expression régulière .NET qui correspond à l'adresse IP du demandeur.
+-   **&lt;user host name&gt;** – Une expression régulière .NET qui correspond au nom de réseau du demandeur.
+-   **&lt;user agent&gt;** – Une expression régulière .NET qui correspond à l'identificateur du navigateur utilisé par le demandeur.
 
 L'exemple suivant permet l'utilisation d'Internet Explorer 8 :
 
-Request.UserHostAddress=.\*~HostName=.\*~Request.UserAgent=MSIE\\s8\\.0
+Request.UserHostAddress=.\*|HostName=.\*|Request.UserAgent=MSIE\\s8\\.0
 
 Vous pouvez utiliser le menu **Afficher la configuration serveur pour les paramètres d'affichage** sur l'appareil mobile pour rechercher des informations relatives au paramétrage.
 
@@ -84,19 +87,21 @@ Vous pouvez utiliser la page **Couleurs de texte d'appareil mobile** pour contr�
 Pour sélectionner la couleur, sur la page **Sélectionner une couleur**, cliquez dans la palette ou tapez un code couleur hexadécimal.
 
 ## <a name="define-the-date-format-to-use-on-mobile-devices"></a>Définir le format de date à utiliser sur les appareils mobiles
-Vous pouvez enrichir la liste des formats de date acceptés pour chaque installation. Cette capacité peut s'avérer utile si, par exemple, vous souhaitez fournir un format permettant à un collaborateur d'entrer plus facilement des dates sur un appareil mobile. Le format par défaut est déterminé par la langue par défaut de l'utilisateur, qui est spécifiée dans le champ **Langue** de la page **Options utilisateur**. (La même page permet également d'associer un employé avec un utilisateur spécifique de travail d'entrepôt.) ** note : ** Le portail des périphériques mobiles d'entrepôt n'utilise pas le paramètre ** format de date et d'heure et du numéro ** du champ sous ** des préférences de langue et de zone ** la page. Pour modifier un format de date, vous devez connaître les expressions régulières dans Microsoft .NET Framework. Pour plus d'informations, voir [Expressions régulières .Net Framework](http://go.microsoft.com/fwlink/?LinkId=391260). Pour définir les formats de date, modifiez le fichier de Dates.ini situé aux paramètres\\de contenu\\Dates.ini sur le serveur de portail des périphériques mobiles d'entrepôt. Ce fichier utilise des expressions régulières .NET pour spécifier le format de date. L'expression régulière doit contenir des sous-expressions qui créent des groupes nommés pour le jour, le mois et l'année (JJMMAA), comme l'indique l'exemple suivant :
+Vous pouvez enrichir la liste des formats de date acceptés pour chaque installation. Cette capacité peut s'avérer utile si, par exemple, vous souhaitez fournir un format permettant à un collaborateur d'entrer plus facilement des dates sur un appareil mobile. Le format par défaut est déterminé par la langue par défaut de l'utilisateur, qui est spécifiée dans le champ **Langue** de la page **Options utilisateur**. (La même page permet également d'associer un employé à un utilisateur spécifique de travail d'entrepôt.) **Remarque :** Le portail des appareils mobiles d'entrepôt n'utilise pas le paramètre du champ **Format de date, heure et nombre** de la page **Préférences de langue et paramètres locaux**. Pour modifier un format de date, vous devez connaître les expressions régulières dans Microsoft .NET Framework. Pour plus d'informations, voir [Expressions régulières .Net Framework](http://go.microsoft.com/fwlink/?LinkId=391260). Pour définir les formats de date, modifiez le fichier Dates.ini situé sous Content\\Settings\\Dates.ini sur le serveur du portail des appareils mobiles d'entrepôt. Ce fichier utilise des expressions régulières .NET pour spécifier le format de date. L'expression régulière doit contenir des sous-expressions qui créent des groupes nommés pour le jour, le mois et l'année (JJMMAA), comme l'indique l'exemple suivant :
 
-^ (?&lt;jour&gt;\\pour {2}) (?&lt;mois&gt;\\pour {2}) (?&lt;année&gt;\\pour {2} $)
+^(?&lt;day&gt;\\d{2})(?&lt;month&gt;\\d{2})(?&lt;year&gt;\\d{2})$
 
 Chaque sous-expression nécessite un à deux chiffres pour le jour et le mois, et un à quatre chiffres pour l'année. Par exemple, la sous-expression suivante définit un groupe nommé pour une année, et nécessite entre 2 et 4 chiffres :
 
-(?&lt;année&gt;\\pour {2,4})
+(?&lt;year&gt;\\d{2,4})
 
 Vous pouvez spécifier plusieurs expression dans le même fichier. Chaque expression doit être sur une ligne distincte. La première expression mise en correspondance est utilisée pour analyser la date.
 
 <a name="see-also"></a>Voir également :
 --------
 
-[Configuration of mobile devices for warehouse work](configure-mobile-devices-warehouse.md)
+[Configuration des appareils mobiles pour le travail d'entrepôt](configure-mobile-devices-warehouse.md)
+
+
 
 

@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-orders-for-a-project"></a>Commandes fournisseur pour un projet
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article décrit les différentes méthodes qui vous permettent de créer des commandes fournisseur pour un projet. La méthode que vous utilisez dépend de l'objectif de la commande fournisseur, la date à laquelle les articles achetés sont consommés et validés pour un projet.
 
-Dans Microsoft Dynamics 365 pour les opérations, vous pouvez utiliser de plusieurs méthodes pour créer des commandes fournisseur pour un projet. La méthode que vous utilisez dépend de l'objectif de la commande fournisseur, la date à laquelle les articles achetés sont consommés, et celle à laquelle ils sont validés pour un projet.
+Dans Microsoft Dynamics 365 for Operations, vous pouvez utiliser plusieurs méthodes pour créer des commandes fournisseur pour un projet. La méthode que vous utilisez dépend de l'objectif de la commande fournisseur, la date à laquelle les articles achetés sont consommés, et celle à laquelle ils sont validés pour un projet.
 
 ### <a name="methods-for-creating-a-purchase-order"></a>Méthodes de création d'une commande fournisseur
 
@@ -71,6 +74,8 @@ Utilisez l'une des méthodes suivantes pour créer des commandes fournisseur dan
 </table>
 
 > [!NOTE] 
-> Lorsque vous mettez la facture fournisseur ou à jour le bon de livraison, vous êtes invité à mettre à jour le bon de livraison sur la demande d'articles.
+> Lorsque vous mettez à jour la facture fournisseur ou le bon de livraison, vous êtes invité à mettre à jour le bon de livraison sur la demande d'articles.
+
+
 
 

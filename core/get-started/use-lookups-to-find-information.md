@@ -1,6 +1,6 @@
 ---
-title: Recherches d&quot;utilisation pour trouver des informations
-description: "Dans Microsoft Dynamics 365 pour les opérations, de nombreux champs ont des recherches qui vous aident facilement retrouver la valeur correcte ou souhaitée. Plusieurs améliorations ont été ajoutées aux recherches qui rendent ces contrôles plus utilisables et rendent les utilisateurs plus productives). Dans cette rubrique, vous vous renseignerez sur les nouvelles fonctions de recherche et recevez des conseils utiles pour obtenir l&quot;utilisation optimale règlement des recherches dans le système."
+title: Utiliser les recherches pour trouver des informations
+description: "Dans Microsoft Dynamics 365 for Operations, de nombreux champs sont pourvus d&quot;une option de recherche qui vous permettent de facilement retrouver la valeur correcte ou souhaitée. Plusieurs améliorations ont été ajoutées aux recherches qui rendent ces commandes plus faciles à utiliser et augmentent la productivité des utilisateurs. Dans cette rubrique, vous découvrirez les nouvelles fonctionnalités de recherche et recevrez des conseils utiles pour exploiter les recherches de manière optimale dans le système."
 author: jasongre
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,59 +24,64 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="use-lookups-to-find-information"></a>Recherches d'utilisation pour trouver des informations
+# <a name="use-lookups-to-find-information"></a>Utiliser les recherches pour trouver des informations
 
-Dans Microsoft Dynamics 365 pour les opérations, de nombreux champs ont des recherches qui vous aident facilement retrouver la valeur correcte ou souhaitée. Plusieurs améliorations ont été ajoutées aux recherches qui rendent ces contrôles plus utilisables et rendent les utilisateurs plus productives). Dans cette rubrique, vous vous renseignerez sur les nouvelles fonctions de recherche et recevez des conseils utiles pour obtenir l'utilisation optimale règlement des recherches dans le système.  
+[!include[banner](../includes/banner.md)]
 
-<a name="responsive-lookups"></a>Recherches confidentielles
+
+Dans Microsoft Dynamics 365 for Operations, de nombreux champs sont pourvus d'une option de recherche qui vous permettent de facilement retrouver la valeur correcte ou souhaitée. Plusieurs améliorations ont été ajoutées aux recherches qui rendent ces commandes plus faciles à utiliser et augmentent la productivité des utilisateurs. Dans cette rubrique, vous découvrirez les nouvelles fonctionnalités de recherche et recevrez des conseils utiles pour exploiter les recherches de manière optimale dans le système.  
+
+<a name="responsive-lookups"></a>Recherches réactives
 ------------------
 
-Dans les versions antérieures de Dynamics 365 pour les opérations, en interagissant à un contrôle de recherche, un utilisateur doit prendre une action explicite d'ouvrir le menu déroulant. Cela peut s'être produits en entrant un astérisque (\*) dans le contrôle pour filtrer la recherche selon la valeur actuelle du contrôle, cliquant sur le bouton de menu déroulant, ou en utilisant ** ALT **+** vers le bas flèche ** raccourci clavier. Les contrôles de recherche ont été modifiés des manières suivantes de la fonctionnalité mieux avec des pratiques actuelles Web :
+Dans les versions antérieures de Dynamics 365 for Operations, lors de l'interaction avec un contrôle de recherche, l'utilisateur devait réaliser une action explicite pour ouvrir le menu déroulant. Il pouvait s'agir de taper un astérisque (\*) dans le champ de contrôle pour ouvrir la recherche fondée sur la valeur en cours du contrôle, de cliquer sur le bouton du menu déroulant ou d'utiliser le raccourci clavier **Alt**+**Flèche bas**. Les contrôles de recherche ont été modifiés des manières suivantes afin de mieux correspondre aux pratiques Web actuelles :
 
--   Les menus déroulante de recherche s'ouvriront désormais automatiquement après une légère pause en tapant, avec le contenu de menu déroulant ont filtré selon la valeur du contrôle de recherche.
-    -   Notez que l'ancien comportement de l'ouverture automatique du déroulantes après avoir entré un astérisque (\*) a été désapprouvé.
--   Une fois le menu déroulant de recherche s'est ouvert, les éléments suivants se produit :
-    -   Le curseur restera dans le contrôle de recherche (au lieu de la vue se déplaçant dans le menu déroulant) et vous pouvez continuer à modifier la valeur du contrôle. Toutefois, l'utilisateur peut utiliser ** Supérieur croisée de la flèche ** et ** vers le bas flèche ** toujours modifier des lignes dans le menu déroulant, et entre sélectionnez la ligne actuelle dans le menu déroulant.
-    -   Le contenu du menu déroulant s'ajustera une fois les modifications soient apportées à la valeur du contrôle de recherche.
+-   Les menus déroulants de recherche s'ouvrent désormais automatiquement après une légère pause de la saisie, le contenu du menu déroulant étant filtré en fonction de la valeur du contrôle de recherche.
+    -   Notez que l'ancien comportement d'ouverture automatique du menu déroulant après saisie d'un astérisque (\*) est obsolète.
+-   Une fois le menu déroulant de recherche ouvert, les événements suivants se produisent :
+    -   Le curseur reste dans le contrôle de recherche (au lieu de se déplacer dans le menu déroulant), de sorte que vous pouvez continuer à modifier la valeur dans le contrôle. Toutefois, l'utilisateur peut utiliser les touches **Flèche haut** et **Flèche bas** pour changer de ligne dans le menu déroulant et la touche Entrée pour sélectionner la ligne en cours.
+    -   Le contenu du menu déroulant s'ajuste quand des modifications sont apportées à la valeur du contrôle de recherche.
 
-Par exemple, considérez un champ de recherche appelé ** ville **. 
+Par exemple, considérez un champ de recherche appelé **Ville**. 
 
-Lorsque la vue est dans ** ville ** le champ, vous pouvez commencer à rechercher la ville que vous souhaitez en tapant des lettres, " nord-est « col ».  Après avoir indépendamment de saisir, la recherche s'ouvre automatiquement, filtré à les villes qui commencent par « col ». 
+Lorsque le focus se trouve dans le champ **Ville**, vous pouvez commencer à rechercher la ville que vous souhaitez en tapant quelques lettres, telles que « col ».  Quand la saisie s'arrête, la recherche s'ouvre automatiquement ; son filtre sélectionne les villes dont le nom commence par « col ». 
 
-[typeaheadLookupExample d'![] (. /media/typeaheadlookupexample.png)](. /media/typeaheadlookupexample.png) 
+[![typeaheadLookupExample](./media/typeaheadlookupexample.png)](./media/typeaheadlookupexample.png) 
 
-À ce stade, le curseur est toujours dans le champ de recherche. Si vous passez de saisir ce qui signifie que la valeur est « colum », le contenu de recherche s'adapte automatiquement pour refléter la dernière valeur du contrôle. 
+À ce stade, le curseur est toujours dans le champ de recherche. Si vous poursuivez la saisie de sorte que la valeur soit « colum », le contenu de la recherche s'adapte automatiquement pour refléter la dernière valeur du contrôle. 
 
 ![updateFilterLookupExample](./media/updatefilterlookupexample.png) 
 
-Bien que la vue soit toujours dans le contrôle de recherche, vous pouvez également utiliser ** Supérieur croisée de la flèche ** ou ** vers le bas flèche ** des clés pour mettre la ligne en surbrillance à sélectionner. Si vous appuyez sur ** entrez ** la ligne en surbrillance est sélectionnée de la recherche et la valeur du contrôle est mise à jour. 
+Bien que le focus soit toujours dans le contrôle de recherche, vous pouvez également utiliser les touches **Flèche haut** ou **Flèche bas** pour mettre en surbrillance la ligne que vous souhaitez. Si vous appuyez sur la touche **Entrée**, la ligne en surbrillance est sélectionnée à partir de la recherche, et la valeur du contrôle est actualisée. 
 
 ![changingSelectionLookup](./media/changingselectionlookup.png)
 
-## <a name="typing-in-more-than-ids"></a>Saisir dans plus que les ID
-Lorsque vous entrez des données, il est naturel les utilisateurs tentent d'identifier une entité, telles qu'un client ou un fournisseur, en termes de nom et non un identificateur représentant l'entité. Dans la version actuelle de Dynamics 365 pour les opérations, de nombreux (mais toutes ses) recherches permettent désormais la saisie de données contextuelle. Cette fonction puissante permet à l'utilisateur pour remplir l'ID ou nom correspondant dans le contrôle de recherche. 
+## <a name="typing-in-more-than-ids"></a>Saisie d'éléments autres que des ID
+Lors de la saisie de données, il est naturel que les utilisateurs tentent d'identifier une entité, telles qu'un client ou un fournisseur, par son nom et non par un identifiant représentatif de l'entité. Dans la version actuelle de Dynamics 365 for Operations, de nombreuses recherches (mais pas toutes), permettent désormais la saisie de données contextuelles. Cette fonctionnalité puissante permet à l'utilisateur de saisir l'ID ou le nom correspondant dans le contrôle de recherche. 
 
-Par exemple, considérez ** compte client ** le champ lors de la création d'une commande client. Les ce champ affiche ** ID compte ** du client, mais un utilisateur préfèreraient généralement pour entrer ** nom du compte ** au lieu de l'** l'ID compte ** pour ce champ lors de la création d'une commande client, telles que « forêt vend en gros « au lieu de « US-003 ».
+Par exemple, pensez au champ **Compte client** lorsque vous créez une commande client. Ce champ affiche l'**ID compte** du client mais, en général, un utilisateur préfère saisir un **Nom du compte** au lieu d'un **ID compte** lorsqu'il crée une commande client ; par exemple, « Forest Wholesales » « au lieu de « US-003 ».
 
-Si l'utilisateur a commencé à entrer ** ID compte ** dans le contrôle de recherche, le menu déroulant s'ouvrirait automatiquement comme décrit dans la section précédente et l'utilisateur verra la recherche comme suit.
+Si l'utilisateur a commencé à entrer l'**ID compte** dans le contrôle de recherche, le menu déroulant s'ouvre automatiquement, comme décrit dans la section précédente, et l'utilisateur voit la recherche telle qu'elle est illustrée ci-dessous.
 
-[recherche contextuelle![lorsqu'un ID compte client est entré] (. /media/howtocontextuallookups-1.png)](. /media/howtocontextuallookups-1.png)
+[![Recherche contextuelle lors de la saisie d'un ID compte client](./media/howtocontextuallookups-1.png)](./media/howtocontextuallookups-1.png)
 
-Toutefois, l'utilisateur peut également désormais entrer le début de l'** nom du compte ** également. Si c'est détecté, l'utilisateur voit la recherche suivante. Notez comment ** nom ** la colonne est déplacée corresponde à la première colonne dans la recherche, et comment la recherche est triée et est filtré selon ** nom ** la colonne.
+Toutefois, l'utilisateur peut désormais entrer le début d'un **ID compte** également. S'il est détecté, l'utilisateur voit la recherche suivante. Notez comment la colonne **Nom** se déplace pour devenir la première colonne de la recherche, et comment la recherche est triée et filtrée d'après la colonne **Nom**.
 
-[recherche contextuelle![lorsqu'un nom du client est entré] (. /media/howtocontextuallookups-2.png)](. /media/howtocontextuallookups-2.png)
+[![Recherche contextuelle lors de la saisie d'un nom de client](./media/howtocontextuallookups-2.png)](./media/howtocontextuallookups-2.png)
 
-## <a name="using-grid-column-headers-for-more-advanced-filtering-and-sorting"></a>Utilisation des en-têtes de colonne de la grille pour filtrer et trier plus avancées
-Les améliorations de recherche abordées dans les deux sections précédentes améliorent considérablement la capacité à un utilisateur d'accéder aux lignes dans une recherche sur « commence par » la recherche du ** ID ** ou ** nom ** le champ de recherche. Toutefois, il existe des situations dans lesquelles filtrer plus avancé (ou trier) est nécessaire pour trouver la ligne appropriée. Dans ce cas, demande de l'utilisateur pour utiliser les options de filtrage et de tri dans les en-têtes de colonne de la grille dans la recherche. Par exemple, considérez un employé entre une ligne de commande client qui doit localiser droite « flexibles » comme produit. Saisir « flexibles » en ** numéro d'article ** le contrôle n'est pas utile, car il n'y a aucun nom de produit qui commencent par « flexibles ». 
+## <a name="using-grid-column-headers-for-more-advanced-filtering-and-sorting"></a>Utilisation des en-têtes de colonne de la grille pour un filtrage et un tri plus avancés
+Les perfectionnements de la recherche abordés dans les deux sections précédentes améliorent considérablement la capacité de l'utilisateur d'accéder aux lignes d'une recherche à partir d'une recherche « commence par » sur le champ **ID** ou **Nom**. Toutefois, il existe des situations dans lesquelles un filtrage (ou un tri) plus avancé est nécessaire pour trouver la ligne appropriée. Dans ces situations, l'utilisateur doit utiliser les options de filtrage et de tri dans les en-têtes de colonne de la grille dans la recherche. Par exemple, considérez un employé qui entre une ligne de commande client qui doit localiser le bon « câble » comme produit. Il n'est pas très utile de taper « câble » dans le contrôle **Numéro d'article**, car il n'existe aucun nom de produit commençant par « câble ». 
 
 ![emptyitemlookup](./media/emptyitemlookup.png) 
 
-Au lieu de cela, demande de l'utilisateur pour effacer la valeur du contrôle de recherche, pour ouvrir le menu déroulant de recherche, et pour filtrer le menu déroulant à l'aide de l'en-tête de colonne de la grille, comme illustré ci-dessous. Un utilisateur de la souris (ou contact) peut uniquement cliquer sur (ou contact) n'importe quelle en-tête de colonne pour accéder aux options de filtrage et de tri pour cette colonne. Pour un utilisateur de clavier, les besoins d'utilisateur simplement ont appuyer ** ALT **+** vers le bas ** ** flèche ** une seconde fois d'entrer la vue dans le menu déroulant, après quoi l'utilisateur peut passer à la colonne appropriée, puis appuyez sur CTRL ** **+** G ** pour ouvrir le menu déroulant d'en-tête de colonne de la grille. 
+Au lieu de cela, l'utilisateur doit effacer la valeur du contrôle de recherche, ouvrir le menu déroulant de recherche, puis filtrer le menu déroulant à l'aide de l'en-tête de colonne de la grille, comme illustré ci-dessous. Un utilisateur avec souris (ou tactile) peut uniquement cliquer sur (ou toucher) n'importe quel en-tête de colonne pour accéder aux options de filtrage et de tri pour cette colonne. Pour un utilisateur au clavier, il suffit d'appuyer sur **Alt**+**Flèche** **bas** une deuxième fois pour déplacer le focus dans le menu déroulant; après quoi l'utilisateur peut utiliser les tabulations jusqu'à la colonne souhaitée puis appuyer sur **Ctrl**+**G** pour ouvrir le menu déroulant de l'en-tête de colonne de grille. 
 
-[gridfilteritemlookup d'![] (. /media/gridfilteritemlookup.png)](. /media/gridfilteritemlookup.png) 
+[![gridfilteritemlookup](./media/gridfilteritemlookup.png)](./media/gridfilteritemlookup.png) 
 
-Une fois le filtre a été appliqué (voir l'image ci-après), l'utilisateur peut rechercher et sélectionner la ligne normalement. 
+Une fois le filtre appliqué (voir l'image ci-dessous), l'utilisateur peut rechercher et sélectionner la ligne comme normalement. 
 
 ![filtereditemlookup](./media/filtereditemlookup.png)
+
+
 
 

@@ -29,9 +29,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-order-codes-in-the-public-sector"></a>Codes de commande fournisseur dans le secteur public
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article fournit des informations sur les codes et les messages spéciaux pouvant être utilisés lors de la confirmation des commandes fournisseur. Une commande fournisseur de confirmation contourne le processus d'achat habituel.
 
-Cet article décrit la fonctionnalité de codes de commande fournisseur disponible pour le secteur public. Vous devez d'abord déterminer laquelle seront vos codes et messages. La page **Codes commande fournisseur de confirmation** permet de créer des codes et les messages spéciaux que vous pouvez utiliser avec les commandes fournisseur de confirmation. Une commande fournisseur de confirmation contourne le processus d'achat habituel. Par exemple, vous devez autoriser une commande non planifiée par l'intermédiaire d'un numéro de commande fournisseur au moment d'un achat, plutôt que via un document qui est fourni avant que l'article soit requis. 
+Cet article décrit la fonctionnalité de codes de commande fournisseur disponible pour le secteur public. Vous devez commencer par déterminer vos codes et messages. La page **Codes commande fournisseur de confirmation** permet de créer des codes et les messages spéciaux que vous pouvez utiliser avec les commandes fournisseur de confirmation. Une commande fournisseur de confirmation contourne le processus d'achat habituel. Par exemple, vous devez autoriser une commande non planifiée par l'intermédiaire d'un numéro de commande fournisseur au moment d'un achat, plutôt que via un document qui est fourni avant que l'article soit requis. 
 
 Après avoir paramétré les codes, vous pouvez les affecter aux commandes fournisseur sur la page **Toutes les commandes fournisseur**. 
 
@@ -42,5 +45,7 @@ Si vous affectez un code commande fournisseur de confirmation à une commande fo
 -   Vous pouvez créer des messages dans différentes langues. Cette fonctionnalité s'avère utile lorsque vous effectuez des achats auprès de fournisseurs implantés dans d'autres pays ou régions. Par exemple, votre organisation est implantée dans un pays ou une région anglophone et vous souhaitez créer un message en espagnol pour les commandes fournisseur de confirmation ayant **Confirmation** pour code de commande fournisseur de confirmation.
 
  
+
+
 
 

@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="manage-warehouse-workers"></a>Gestion des magasiniers
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article décrit la manière dont vous pouvez utiliser Microsoft Dynamics AX pour mieux contrôler et surveiller le travail qui est mené à bien par les employés dans vos entrepôts.
 
 Si vous utilisez la fonctionnalité de gestion des entrepôts, toutes les opérations des magasiniers sont appelées *travail*. Les travaux tels que le prélèvement, le déplacement, et l'inventaire du stock disponible sont enregistrés en utilisant des périphériques mobiles. Pour qu'un magasinier puisse effectuer le travail, il doit être associé à un collaborateur dans les Ressources humaines. Chaque compte de **Collaborateur** peut être associé à plusieurs utilisateurs de travail d'entrepôt. Ces utilisateurs de travail peuvent travailler dans différents entrepôts et avoir des niveaux d'accès différents aux menus du périphérique portable. Vous pouvez penser aux utilisateurs de travail d'entrepôt comme plusieurs connexions pour le collaborateur sélectionné. Chaque utilisateur de travail a un entrepôt par défaut, et des workflows spécifiques sont exposés par les articles de menus qui sont accessibles à cet utilisateur de travail. 
@@ -51,6 +54,8 @@ L'analyse du temps qui est utilisée pour traiter les éléments de travail perm
 
 -   **Main d'œuvre par utilisateur** – Cet état indique la productivité du collaborateur, par comparaison entre les durées réelles et les durées estimées.
 -   **Main d'œuvre par type de transaction de travail** – Vous pouvez utiliser cet état pour rechercher les inefficacités dans les processus spécifiques d'entrepôt. Par exemple, vous remarquez que les prélèvements pour les ordres de transfert prennent plus longtemps cette semaine que dans les semaines précédentes. Vous pouvez ensuite utiliser ces informations pour une étude ultérieure.
+
+
 
 
 

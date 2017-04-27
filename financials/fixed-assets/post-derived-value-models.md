@@ -1,5 +1,5 @@
 ---
-title: "Validation avec des registres dérivés"
+title: "Valider avec des registres dérivés"
 description: "Cet article décrit l&quot;utilisation des registres déduits."
 author: twheeloc
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="post-with-derived-books"></a>Validation avec des registres dérivés
+# <a name="post-with-derived-books"></a>Valider avec des registres dérivés
+
+[!include[banner](../includes/banner.md)]
+
 
 Cet article décrit l'utilisation des registres déduits.
 
@@ -49,11 +52,13 @@ Les informations suivantes décrivent le paramétrage des transactions d'acquisi
 
 Les registres peuvent alors être associés à des immobilisations spécifiques. 
 
-Si une acquisition est validée pour une immobilisation avec le modèle de valeur MV 1 du registre, elle est validée non seulement dans MV 1, mais aussi dans le registre des amortissements dérivé MV 2. registre. Le statut des deux livres d'actifs est mis à jour pour ouvrir.
+Si une acquisition est validée pour une immobilisation avec le registre MV 1, elle est validée non seulement dans MV 1, mais également dans le registre dérivé MV 2. Le statut des deux registres d'immobilisation est mis à jour sur Ouvert.
 
 > [!NOTE]                                                                                                         
 > Si vous n'utilisez pas de registre déduit, vous devez valider l'acquisition de l'immobilisation tant pour le registre MV 1 que pour le registre MV 2.
 
-Pour plus d'informations, voir registres dérivés [] (derived-books.md)
+Pour plus d'informations, voir [Registres dérivés](derived-books.md).
+
+
 
 

@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="acquire-assets-through-procurement"></a>Acquérir les actifs via l'approvisionnement
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article décrit comment paramétrer l'intégration entre Immobilisations et Comptabilité fournisseur pour créer automatiquement des immobilisations à partir de commandes fournisseur ou de factures fournisseur ou pour valider automatiquement des transactions d'acquisition et d'ajustement d'acquisition pour des immobilisations.
 
  Vous devez choisir l'une des méthodes d'intégration suivantes disponibles pour Immobilisations et Achats et l'utiliser pour toutes les immobilisations :
@@ -103,6 +106,8 @@ Voici des variations de ce scénario :
 -   En cas de réception d'une quantité partielle, aucune acquisition d'actif n'est créée pour la première facture fournisseur en raison des restrictions du groupe d'utilisateurs. Vous ne pouvez valider une acquisition pour la seconde facture fournisseur qui complète la quantité commandée que si une transaction d'acquisition a été entrée pour la première facture fournisseur et si vous êtes membre d'un groupe d'utilisateurs autorisé à valider des acquisitions.
 
 
-Pour plus d'informations, voir [intégration d'Immobilisations] (fixed-asset-integration.md).
+Pour plus d'informations, voir [Intégration des immobilisations](fixed-asset-integration.md).
+
+
 
 

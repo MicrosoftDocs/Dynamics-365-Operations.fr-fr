@@ -1,6 +1,6 @@
 ---
 title: "Amortissement dégressif fiscal"
-description: "Dégressif fiscal est une méthode d&quot;amortissement utilisée en France. Les montants sont calculés à l&quot;aide de la méthode d&quot;amortissement dégressif et de la méthode d&quot;amortissement restant linéaire. Le plus importante des deux montants d&quot;amortissement calculés est ensuite utilisé comme montant d&quot;amortissement dégressif dégressif fiscal."
+description: "La méthode d&quot;amortissement dégressif fiscal est une méthode d&quot;amortissement utilisée en France. Les montants d&quot;amortissement sont calculés à l&quot;aide de la méthode d&quot;amortissement dégressif et de la méthode d&quot;amortissement linéaire. Le plus grand des deux montants d&quot;amortissement calculés est ensuite utilisé comme montant d&quot;amortissement dégressif fiscal."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="rbsl-depreciation"></a>Amortissement dégressif fiscal
 
-Dégressif fiscal est une méthode d'amortissement utilisée en France. Les montants sont calculés à l'aide de la méthode d'amortissement dégressif et de la méthode d'amortissement restant linéaire. Le plus importante des deux montants d'amortissement calculés est ensuite utilisé comme montant d'amortissement dégressif dégressif fiscal.
+[!include[banner](../includes/banner.md)]
+
+
+La méthode d'amortissement dégressif fiscal est une méthode d'amortissement utilisée en France. Les montants d'amortissement sont calculés à l'aide de la méthode d'amortissement dégressif et de la méthode d'amortissement linéaire. Le plus grand des deux montants d'amortissement calculés est ensuite utilisé comme montant d'amortissement dégressif fiscal.
 
 La méthode d'amortissement dégressif fiscal (France) utilise toujours la période d'amortissement mensuelle dans le profil d'amortissement. Lorsque vous créez une immobilisation et affectez un modèle de valeur à l'aide de la méthode d'amortissement dégressif fiscal (France), la date de début de l'amortissement est toujours le premier jour du mois, et la date de fin est toujours la fin de l'exercice. Le montant d'amortissement dégressif est calculé à l'aide du pourcentage d'amortissement dégressif, qui est calculé en fonction des facteurs d'amortissement dégressif fiscal. Vous pouvez paramétrer les facteurs d'amortissement dégressif fiscal en fonction de la durée de vie de l'immobilisation sur la page **Facteurs dégressif fiscal**. Par exemple, vous pouvez définir les facteurs suivants :
 | Du       | Années | Mois | Facteur dégressif fiscal | Commentaire                                                                                                                     |
@@ -46,6 +49,8 @@ Lorsque vous créez une configuration **Groupe d'immobilisations/modèle de vale
 | 2020      | 143.47                            | 50.21                               | 143.47                                | 0,00               |
 | **Total** | **Non applicable**                | **Non applicable**                  | **1 000,00**                          | **Non applicable** |
 
-** Remarque : ** Si vous dépréciiez une immobilisation à l'aide de le logiciel d'immobilisation autre que Microsoft Dynamics 365 pour les opérations, vous devez valider l'acquisition et l'amortissement cumulé dans Dynamics 365 pour les opérations pour la période antérieure avoir commencé en utilisant Dynamics 365 pour les opérations. Par exemple, si vous avez commencé à utiliser Dynamics 365 pour les opérations le 1er janvier 2016, vous devez valider l'acquisition et l'amortissement cumulé dans Dynamics 365 pour les opérations de la période terminé le 31 décembre 2015. Après la validation de l'acquisition, vous devez modifier la date d'acquisition par la date correcte à partir de votre logiciel précédent et entrer la durée de vie restante de l'immobilisation. Vous pouvez ensuite amortir l'immobilisation normalement, à partir du 1er janvier 2016.
+**Remarque :** Si vous avez amorti une immobilisation à l'aide d'un logiciel d'immobilisation différent de Microsoft Dynamics 365 for Operations, vous devez valider l'acquisition et l'amortissement cumulé dans Dynamics 365 for Operations pour la période antérieure à l'utilisation de Dynamics 365 for Operations. Par exemple, si vous avez commencé à utiliser Dynamics 365 for Operations le 1er janvier 2016, vous devez valider l'acquisition et l'amortissement cumulé dans Dynamics 365 for Operations pour la période se terminant le 31 décembre 2015. Après la validation de l'acquisition, vous devez modifier la date d'acquisition par la date correcte à partir de votre logiciel précédent et entrer la durée de vie restante de l'immobilisation. Vous pouvez ensuite amortir l'immobilisation normalement, à partir du 1er janvier 2016.
+
+
 
 

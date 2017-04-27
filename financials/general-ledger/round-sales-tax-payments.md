@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-tax-payments-and-rounding-rules"></a>Règles d'arrondissement et de paiements de taxe
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article explique le fonctionnement du paramétrage de la règle d'arrondi sur les administrations fiscales et de l'arrondi du solde de taxe au cours de la tâche Régler et valider la taxe.
 
-Régulièrement, la taxe doit être déclarée et payée à l'administration fiscale. Pour ce faire exécuter le processus de taxe de règlement et de valider dans la page de taxe. La taxe pour une période est réglée par rapport à les comptes de taxe et le solde de taxe est validé sur le compte de règlement de la taxe. Le solde de la taxe, qui est validé sur le compte de règlement de la taxe, peut être arrondi comme requis par l'administration fiscale en définissant une règle d'arrondissement sur la page Taxe. 
+Régulièrement, la taxe doit être déclarée et payée à l'administration fiscale. Pour ce faire, exécutez le processus de règlement et de validation de la taxe sur la page Taxe. La taxe pour une période sera réglée pour des comptes de taxe et le solde de taxe sera validé dans le compte de règlement de la taxe. Le solde de la taxe, qui est validé sur le compte de règlement de la taxe, peut être arrondi comme requis par l'administration fiscale en définissant une règle d'arrondissement sur la page Taxe. 
 
 La différence d'arrondissement est validée sur le compte d'arrondissement de la taxe qui est sélectionné dans le champ Comptes pour transactions automatiques dans la comptabilité.
 
@@ -42,10 +45,10 @@ La taxe totale pour une période indique un solde de -98 765,43. L'entité jurid
 
 L'entité juridique veut utiliser une méthode d'arrondi qui arrondit le solde à l'entier le plus proche. L'utilisateur responsable de la comptabilité des taxes procède comme suit.
 
-1.  Administrations fiscales indirectes &gt; de taxe de taxes &gt; de taxe &gt; cliquez sur
+1.  Cliquez sur &gt; Taxes indirectes &gt; Taxe &gt; Administrations fiscales
 2.  Sur l'organisateur Général, sélectionnez Normal dans le champ Type d'arrondi.
 3.  Entrez un nombre dans le champ Arrondi, saisissez 1,00.
-4.  Au moment de payer les taxes à l'administration fiscale, ouvrez la page Régler et valider la taxe. (Taxe de règlement et &gt; validation de taxe de déclarations de taxe de cliquez sur.)
+4.  Au moment de payer les taxes à l'administration fiscale, ouvrez la page Régler et valider la taxe. (Cliquez sur &gt; Déclarations &gt; Taxe &gt; Régler et valider la taxe.)
 5.  Dans le compte de règlement de la taxe, le montant de l'impôt à payer de 98 765,43 est arrondi à 98 765.
 
 Le tableau suivant montre comment un montant de 98 765,43 est arrondi à l'aide de chaque méthode d'arrondi disponible dans le champ Type d'arrondi de la page Administrations fiscales.
@@ -61,6 +64,8 @@ Le tableau suivant montre comment un montant de 98 765,43 est arrondi à l'aide 
 > [!NOTE]                                                                                  
 > Si vous sélectionnez Avantage, l'arrondi est toujours à l'avantage de l'entité juridique. 
 
-Pour plus d'informations, voir [vue d'ensemble de taxe] (indirect-taxes-overview.md). 
+Pour plus d'informations, voir [Vue d'ensemble de la taxe](indirect-taxes-overview.md). 
+
+
 
 

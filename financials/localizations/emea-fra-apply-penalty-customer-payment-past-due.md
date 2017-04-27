@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="penalties-for-past-due-customer-payments-in-france"></a>Pénalités pour les paiements client en retard en France
 
+[!include[banner](../includes/banner.md)]
+
+
 En France, vous pouvez appliquer une pénalité lorsqu'un paiement client est en retard et vous pouvez imprimer le texte de récupération de la somme forfaitaire qui affiche le montant de pénalité qui doit être payé sur la facture ainsi que la date d'échéance du paiement. 
 
 <a name="what-is-lump-sum-recovery-text"></a>Qu'est-ce que le texte récupéré du montant forfaitaire ?
@@ -47,6 +50,8 @@ Lorsque vous avez paramétré l'impression du texte récupéré du montant forfa
 -   Factures financières
 -   Factures pro forma client
 -   Avoirs du client
+
+
 
 
 

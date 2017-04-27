@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="work-breakdown-structures"></a>Structures de répartition du travail
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Structures de répartition du travail Une structure de répartition du travail (WBS) est une description du travail qui sera effectué pour un projet. Il s'agit d'une hiérarchie des tâches qui représente la compréhension par l'équipe projet de la composition du travail, de son étendue, du coût et de la durée de chaque composant ou tâche. Une WBS a trois objectifs principaux :
@@ -39,17 +42,17 @@ Le degré de détail dans une WBS dépend du niveau de précision souhaité pour
 
 En revanche, les projets dans les secteurs tels que les médias et la publicité, le logiciel et l'infrastructure informatique ont tendance à être tous uniques en leur genre et la productivité dépend de l'expérience et de la qualification de la personne qui exécute la tâche. C'est pourquoi ces industries utilisent une WBS pour obtenir une approximation de la taille d'un projet, et non pour suivre la progression de ce projet en détail. 
 
-L'élaboration d'une WBS est un processus intensif qui est généralement effectué sur une longue période, et qui nécessite la collaboration et les informations d'un large éventail de personnes. Cette rubrique décrit comment utiliser des améliorations de WBS dans Microsoft Dynamics 365 pour les opérations répondent à vos exigences pour les estimations et suivi.
+L'élaboration d'une WBS est un processus intensif qui est généralement effectué sur une longue période, et qui nécessite la collaboration et les informations d'un large éventail de personnes. Cette rubrique décrit la manière dont vous pouvez utiliser les améliorations de la WBS dans Microsoft Dynamics 365 for Operations pour répondre à vos besoins pour les estimations et le suivi.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>Conditions préalables à la création d'une WBS
 Pour créer une WBS, vous devez pouvoir créer un planning de travail et estimer le coût du travail.
 
 ### <a name="prerequisites-for-creating-a-work-schedule"></a>Conditions préalables à la création d'un planning de travail
 
-Pour utiliser les capacités complètes de planification des fonctions de WBS, complétez le suivant :
+Pour utiliser les capacités complètes de planification des fonctionnalités de la WBS, réalisez le paramétrage suivant :
 
 1.  Paramétrer un calendrier par défaut et un calendrier de projet :
-    1.  Cliquez sur ** Gestion de projets et comptabilité ** &gt; ** paramétrage ** &gt; ** planification **. Dans le champ **Calendrier de travail par défaut**, spécifiez un calendrier par défaut. Cela sera le calendrier de travail par défaut pour tous les nouveaux projets créés.
+    1.  Cliquez sur **Gestion de projet et comptabilité** &gt; **Paramétrage** &gt; **Planification**. Dans le champ **Calendrier de travail par défaut**, spécifiez un calendrier par défaut. Cela sera le calendrier de travail par défaut pour tous les nouveaux projets créés.
     2.  Vous pouvez modifier le calendrier par défaut pour un projet spécifique. Dans la page des détails du projet, puis ensuite dans l'organisateur **Équipe de projet et planification**, mettez à jour le champ **Calendrier de planification** en sélectionnant un autre calendrier.
 
 2.  Paramétrez les jours de travail et les heures travaillées standard. Le calendrier que vous définissez comme calendrier de travail pour votre projet serez utilisé dans la WBS pour déterminer les informations suivantes :
@@ -57,13 +60,13 @@ Pour utiliser les capacités complètes de planification des fonctions de WBS, c
 -   Jours ouvrables et congés
 -   Nombre d'heures travaillées dans une journée
 
-Pour paramétrer des jours ouvrables et les heures de travail d'un calendrier, ou créer un calendrier, cliquez sur ** Administration d'organisation ** &gt; ** Courant ** &gt; ** calendriers **.
+Pour paramétrer les jours ouvrables et les heures travaillées pour un calendrier, ou pour créer un calendrier, cliquez sur **Administration d'organisation** &gt; **Commun** &gt; **Calendriers**.
 
 ### <a name="prerequisites-for-estimating-the-cost-of-work"></a>Conditions préalables à l'estimation du coût du travail
 
 Pour utiliser les capacités complètes d'estimation de coût de la WBS, vous devez paramétrer les coûts et les prix de vente pour les collaborateurs, les catégories de travail, les dépenses, les frais et les articles.
 
--   Pour paramétrer le prix de revient et de vente du travail, de dépense, les catégories de frais, cliquez sur ** Gestion de projets et comptabilité ** &gt; ** paramétrage ** &gt; ** prix **.
+-   Pour paramétrer le coût et le prix de vente du travail, les dépenses et les catégories de frais, cliquez sur **Gestion de projets et comptabilité** &gt; **Paramétrage** &gt; **Prix**.
 -   Pour paramétrer le coût et le prix de vente des articles, utilisez la page **Accords commerciaux** pour chaque article dans la page de liste **Produits lancés** dans le module Gestion des informations sur le produit.
 
 ## <a name="creating-a-wbs"></a>Création d'une WBS
@@ -73,11 +76,11 @@ La création d'une WBS implique trois activités :
 2.  **Planning de travail** – Estimez le temps nécessaire pour exécuter une tâche, définissez les interdépendances entre les tâches et sélectionnez les dates de début et de fin pour les tâches.
 3.  **Estimation de coût** – Estimez les coûts pour chaque tâche.
 
-Les sections suivantes présentent la manière dont les capacités de WBS peuvent vous aider à chacune de ces activités.
+Les sections suivantes présentent la manière dont les fonctionnalités de WBS peuvent vous aider dans chacune de ces activités.
 
 ### <a name="work-decomposition"></a>Décomposition du travail
 
-La création d'une décomposition du travail est généralement la première étape du processus de création d'une WBS. La fonctionnalité de WBS prend en charge les éléments de base suivants pour la répartition ou décomposition de travail. 
+La création d'une décomposition du travail est généralement la première étape du processus de création d'une WBS. La fonctionnalité de WBS prend en charge les éléments de base suivants pour la décomposition du travail. 
 
 **Tâche racine de projet** La tâche racine du projet est la tâche récapitulative de niveau supérieur du projet. Toutes les autres tâches de projet sont créées en dessous d'elle. Nom de la tâche racine est toujours défini comme le nom du projet. L'effort, les dates et la durée du nœud racine résument les valeurs correspondant aux tâches en dessous de la tâche racine. Vous ne pouvez pas modifier les propriétés du nœud racine ni les supprimer.
 
@@ -94,7 +97,7 @@ Actuellement, vous ne pouvez pas personnaliser la numérotation WBS.
 **Retrait d'une tâche** Lorsque vous appliquez un retrait à une tâche, elle devient enfant de la tâche qui la précède. Le numéro WBS de la nouvelle tâche enfant est recalculé automatiquement en fonction du numéro WBS de son nouveau parent. La tâche parent est désormais une tâche de synthèse ou de conteneur, et devient donc un regroupement de ses tâches constitutives. 
 
 > [!NOTE] 
-> Lorsque vous mettez des tâches en retrait sous une tâche qui était un nœud de feuille avant que l'opération de retrait la tâche, de nouvelles de synthèse perde ses propres dates, effort, et nombre de ressources. Elle utilise désormais une synthèse des valeurs de ses tâches constitutives. 
+> Lorsque vous appliquez un retrait à des tâches sous une tâche qui était un nœud terminal avant le retrait, la tâche se synthèse nouvellement créée perd ses propres valeurs de dates, effort et nombre de ressources. Elle utilise désormais une synthèse des valeurs de ses tâches constitutives. 
 
 **Retrait négatif d'une tâche** Lorsque vous appliquez un retrait négatif à une tâche, elle n'est plus une tâche constitutive de son parent. Le numéro WBS de cette tâche est recalculé automatiquement pour refléter le nouveau niveau de la tâche dans la hiérarchie. Les valeurs d'effort, de coût, et de dates de la tâche parent précédente sont recalculés pour exclure cette tâche. 
 
@@ -102,10 +105,10 @@ Actuellement, vous ne pouvez pas personnaliser la numérotation WBS.
 
 ### <a name="schedule-estimation"></a>Estimation de planification
 
-L'estimation de planification est généralement la deuxième étape de la création d'une WBS. Il est bon de réaliser l'estimation de planification après avoir créé les tâches. ** Structure de répartition du travail ** page dans Microsoft Dynamics 365 pour l'opération a deux sections. Le volet supérieur est destiné à l'estimation de planification, et le volet inférieur inclut un onglet **Coûts estimés et produits** que vous pouvez utiliser pour l'estimation de coût. 
+L'estimation de planification est généralement la deuxième étape de la création d'une WBS. Il est bon de réaliser l'estimation de planification après avoir créé les tâches. La page **Structure de répartition du travail** dans Microsoft Dynamics 365 for Operation comporte deux sections. Le volet supérieur est destiné à l'estimation de planification, et le volet inférieur inclut un onglet **Coûts estimés et produits** que vous pouvez utiliser pour l'estimation de coût. 
 **Dépendances entre les tâches** Dans une WBS, vous pouvez créer une relation de prédécesseur entre les tâches. Lorsque vous affectez des tâches de prédécesseur à une tâche, cette tâche ne peut commencer qu'une fois que toutes ses tâches de prédécesseur ont été terminées. La date de début prévue de la tâche est automatiquement définie à la dernière date de tous ses prédécesseurs. 
 
-** Tâche la planification dans Microsoft Dynamics 365 pour les opérations ** les facteurs suivants déterminent la planification des tâches de nœud de feuille :
+**Planification des tâches dans Microsoft Dynamics 365 for Operation** Les facteurs suivants déterminent la planification des tâches de nœud terminal :
 
 -   Prédécesseurs
 -   Effort
@@ -114,27 +117,27 @@ L'estimation de planification est généralement la deuxième étape de la créa
 
 La date de début d'une tâche de nœud terminal qui n'a pas de prédécesseur est automatiquement définie sur la date de début de la planification de projet. La durée d'une tâche de nœud terminal est toujours calculée comme le nombre de jours ouvrables entre sa date de début et sa date de fin. 
 
-Le **** de règles de planification de **** lorsque la présence automatique de planification est activée, les règles suivantes s'appliquent à la tâche de planification pour les tâches de nœud de feuille :
+****Règles de planification**** Lorsque l'aide de planification automatique est activée, les règles suivantes s'appliquent à la planification des tâches pour les tâches de nœud terminal :
 
 -   Les dates de début et de fin d'une tâche donnée doivent être des jours ouvrables, en fonction du calendrier de planification du projet.
 -   La date de début d'une tâche qui a des prédécesseurs est automatiquement définie à la dernière date de fin de tous ses prédécesseurs.
 -   L'effort d'une tâche est automatiquement calculé comme suit :
 
-Nombre de personnes de × de durée de numéro de × d'heures dans un jour de travail standard dans le calendrier du projet. 
+Nombre de personnes × Durée × Nombre d'heures dans un jour de travail standard dans le calendrier du projet. 
 
-Dans certains cas, vous pouvez souhaiter dévier de ces règles. Vous pouvez désactiver la planification automatique pour empêcher Microsoft Dynamics 365 pour les opérations automatiquement de définir ou de corriger les propriétés des tâches de nœud de feuille. Lorsque vous entrez des informations pour une tâche qui entraîne une violation d'une règle de planification, une icône d'erreur de planification s'affiche pour la tâche. Si vous ne souhaitez pas que les erreurs de planification s'affichent, cliquez sur **Les erreurs de planification sont affichées** pour désactiver la fonctionnalité. 
+Dans certains cas, vous pouvez souhaiter dévier de ces règles. Vous pouvez désactiver la planification automatique pour empêcher Microsoft Dynamics 365 for Operations de définir ou de corriger automatiquement les propriétés des tâches de nœud terminal. Lorsque vous entrez des informations pour une tâche qui entraîne une violation d'une règle de planification, une icône d'erreur de planification s'affiche pour la tâche. Si vous ne souhaitez pas que les erreurs de planification s'affichent, cliquez sur **Les erreurs de planification sont affichées** pour désactiver la fonctionnalité. 
 
 > [!NOTE] 
-> Les valeurs d'une tâche de synthèse ou de conteneur continuent à être calculées comme somme des valeurs des tâches constitutives, que l'assistance automatique de planification est tournée ou désactivation. 
+> Les valeurs pour une tâche de synthèse ou de conteneur continuent d'être calculées comme la somme des valeurs des tâches constitutives, indépendamment du fait que l'aide à la planification automatique est activée ou non. 
 
 **Corriger les erreurs de planification** Lorsque l'aide à la planification automatique est activée, peu d'erreurs de planification sont susceptibles de se produire. Toutefois, si vous désactivez l'aide à la planification automatique et l'activez ensuite à nouveau, des icônes d'erreur de planification peuvent apparaître dans la WBS. 
 
 **Corriger les erreurs de planification par tâche** Lorsque vous double-cliquez sur l'icône d'erreur de planification pour une tâche spécifique, une boîte de dialogue affiche toutes les erreurs de planification pour cette tâche. Vous pouvez choisir les erreurs de planification à corriger pour la tâche. 
 
-** La résolution toutes les erreurs de planification ** si vous souhaitez que Microsoft Dynamics 365 pour les opérations corriger les erreurs de planification dans le WBS, dans le volet Actions, cliquez sur ** de résoudre les différences de planification **. 
+**Résolution de toutes les erreurs de planification** Si vous souhaitez que Microsoft Dynamics 365 for Operations corrige toutes les erreurs de planification dans la WBS, dans le Volet Actions, cliquez sur **Corriger tous les écarts de planification**. 
 
 > [!NOTE] 
-> Cette fonction peut entraîner des modifications significatives au WBS. Les erreurs sont corrigées dans l'ordre suivant :
+> Cette fonction peut entraîner des modifications significatives de la WBS. Les erreurs sont corrigées dans l'ordre suivant :
 
 1.  L'effort estimé pour toutes les tâches est modifié pour qu'il soit égal à la capacité définie dans le calendrier de projet.
 2.  La date de début de chaque tâche est modifiée afin que la tâche commence après toutes ses tâches de prédécesseur sont terminées.
@@ -145,7 +148,7 @@ Dans certains cas, vous pouvez souhaiter dévier de ces règles. Vous pouvez dé
 Comme il a été indiqué précédemment dans ce document, vous entrez l'estimation de coût pour chaque tâche de nœud terminal à l'aide de l'onglet **Coûts estimés et produits** dans le volet inférieur de la page **Structure de répartition du travail**. 
 
 > [!NOTE] 
-> Vous ne pouvez pas modifier l'estimation des coûts pour une tâche de synthèse ou de conteneur. L'estimation de coût pour une tâche de synthèse est égale à la somme de l'estimation de coût de ses tâches de nœud terminal. Le coût total estimé pour chaque tâche est calculé comme la somme des montants de coût estimé pour les types de transactions suivants :
+> Vous ne pouvez pas modifier l'estimation de coût pour une tâche de synthèse ou de conteneur. L'estimation de coût pour une tâche de synthèse est égale à la somme de l'estimation de coût de ses tâches de nœud terminal. Le coût total estimé pour chaque tâche est calculé comme la somme des montants de coût estimé pour les types de transactions suivants :
 
 -   Main-d'œuvre
 -   Article ou matières
@@ -161,12 +164,12 @@ Lorsque vous estimez des coûts relatifs aux salaires, aux matières et aux dép
 
 **Estimation des dépenses et coûts matériels** L'onglet **Produit et coûts estimés** permet également d'estimer les dépenses et les coûts matériels d'une tâche, si vous avez besoin d'estimations. 
 
-Le prix de revient et de vente pour chaque ligne de travail ou d'estimation de dépense sont basées sur le paramétrage défini pour chaque catégorie dans les tables de tarification ** Gestion de projets et comptabilité ** &gt; ** au paramétrage ** &gt; ** tarification **. Pour les articles, le coût et le prix de vente des articles sont ajoutés par défaut à partir des articles ou des accords commerciaux dans la page **Produits lancés** dans le module Gestion des informations sur le produit.
+Le coût et le prix de vente pour chaque ligne d'estimation de travail ou de dépenses sont basées sur le paramétrage défini pour chaque catégorie dans les tables de tarification dans **Gestion de projets et comptabilité** &gt; **Paramétrage** &gt; **Tarification**. Pour les articles, le coût et le prix de vente des articles sont ajoutés par défaut à partir des articles ou des accords commerciaux dans la page **Produits lancés** dans le module Gestion des informations sur le produit.
 
 ## <a name="tracking-progress-on-the-wbs"></a>Suivi de l'avancement de la WBS
 Dans certains secteurs on suit la progression d'un projet avec une WBS à un niveau très granulaire, tandis que dans d'autres on suit la progression à un niveau plus élevé de la WBS. Cette section décrit la manière dont vous pouvez utiliser le suivi de WBS selon les besoins de votre projet. 
 
-Microsoft Dynamics 365 pour les opérations inclut trois points de vue pour le WBS d'un projet : la vue de planification, effort suivant la vue, coût suivant la vue.
+Microsoft Dynamics 365 for Operations comporte trois vues pour la WBS d'un projet : l'affichage Planification, l'affichage Suivi d'effort et l'affichage Suivi des coûts.
 
 ### <a name="planning-view"></a>Affichage Planification
 
@@ -177,7 +180,7 @@ La vue Planification affiche l'estimation prévue ou de référence du programme
 La vue Suivi d'effort affiche le suivi de la progression des tâches de la WBS. Elle compare les heures d'effort réellement cumulées pour une tâche aux heures d'effort prévues. Les formules suivantes donnent les valeurs dans la vue Suivi d'effort :
 
 -   Pourcentage de progression = Effort réel à ce jour ÷ Effort prévu de la tâche
--   Effort restant (également appelé comme \[Estimation-à- complet et ainsi de suite.\]) = nombre prévu et réel – Au
+-   L'effort restant (également appelé Estimation à terminer \[ETC\], Estimate-to-complete) = Effort prévu – Effort réel à ce jour
 -   Estimation à terminer (EAC, Estimate at complete) = Effort restant + Effort réel à ce jour
 -   Écart prévu pour l'effort = Effort prévu– EAC
 
@@ -188,7 +191,7 @@ La vue Suivi d'effort affiche une projection de l'écart d'effort pour la tâche
 
 **Nouvelle projection d'effort par le chef de projet** Parfois, un chef de projet ou une personne qui suit la progression d'un projet doit modifier les estimations d'origine d'une tâche. La tâche peut avancer plus vite ou plus lentement qu'initialement anticipé pour différentes raisons. Par exemple, son étendue a été réduite, ou les collaborateurs ont moins d'expérience qu'initialement prévu. Les projections sont la perception des estimations par le chef de projet, selon le statut actuel d'un projet. En général vous ne devez pas modifier les chiffres de référence, car une référence de projet représente un document publié pour le programme du projet et l'estimation des coûts qui a été accepté par toutes les parties prenantes du projet. 
 
-Il existe deux méthodes que les chefs de projet peuvent modifier l'effort sur les tâches suivantes :
+Il existe deux méthodes par lesquelles les chefs de projet peuvent modifier l'effort sur les tâches :
 
 -   Modifier l'effort restant qui est automatiquement défini pour mettre à jour l'effort restant réel de la tâche.
 -   Modifier le pourcentage de progression qui est automatiquement défini pour mettre à jour la progression réelle de la tâche.
@@ -222,7 +225,7 @@ La vue Suivi des coûts affiche une projection de l'écart de coût pour la tâc
 **Nouvelle projection du coût par le chef de projet** Les chefs de projet doivent utiliser le CTC pour réviser l'estimation initiale du coût d'une tâche. Le chef de projet peut modifier la valeur du CTC au coût nécessaire pour terminer la tâche. Si vous modifiez la valeur du CTC, le CTC, l'EAC, le pourcentage du coût consommé et l'écart de coût prévu sur une tâche sont recalculés. L'EAC, l'ETC et le pourcentage de coût consommé des tâches de synthèse sont également recalculés, et leur écart de coût prévu est mis à jour. 
 
 > [!NOTE] 
-> Lorsque vous modifiez l'effort d'une tâche de WBS dans l'effort suivant la vue, le CTC de la tâche, les EAC, le pourcentage du coût consommé, et l'écart de coût prévu tous sont recalculés dans le coût suivant la vue. Toutefois, les révisions de coût n'affectent pas les valeurs de la vue Suivi d'effort, car le coût par type de transaction (salaires, matières ou dépense) ou catégorie de projet n'est pas modifié. 
+> Lorsque vous modifiez l'effort pour une tâche de WBS dans la vue Suivi d'effort, le CTC, l'EAC, le pourcentage de coût consommé et l'écart de coût prévu tous sont recalculés dans la vue Suivi des coûts. Toutefois, les révisions de coût n'affectent pas les valeurs de la vue Suivi d'effort, car le coût par type de transaction (salaires, matières ou dépense) ou catégorie de projet n'est pas modifié. 
 
 **Révision de la projection pour les coûts des tâches de synthèse** Vous pouvez réviser les coûts des tâches de synthèse, et les calculs se produisent automatiquement dans l'ordre suivant :
 
@@ -236,24 +239,24 @@ Cliquez sur **Développer jusqu'au niveau** dans la vue Suivi des coûts pour d�
 
 ### <a name="earned-value-management"></a>Gestion de la valeur gagnée
 
-Vous pouvez utiliser la méthode (EVM) de valeur acquise pour suivre la progression d'un projet. Vous pouvez afficher les mesures de la valeur gagnée dans l'aperçu interactif du chef de projet. Le composant graphique de la valeur gagnée indique les valeurs organisées dans le temps de la valeur planifiée et du coût réel. La valeur gagnée à la date du jour est indiquée par un point. Les données organisées dans le temps de la valeur gagnée ne sont actuellement pas disponibles. 
+Vous pouvez utiliser la méthode EVM (Earned Value Method, méthode de la valeur gagnée) pour suivre la progression d'un projet. Vous pouvez afficher les mesures de la valeur gagnée dans l'aperçu interactif du chef de projet. Le composant graphique de la valeur gagnée indique les valeurs organisées dans le temps de la valeur planifiée et du coût réel. La valeur gagnée à la date du jour est indiquée par un point. Les données organisées dans le temps de la valeur gagnée ne sont actuellement pas disponibles. 
 
 La phase de temps sur le graphique de valeur gagnée est affichée en semaines ou en mois. Cette section décrit les trois piliers de l'EVM : valeur planifiée, valeur gagnée et coût réel. 
 
 **Valeur planifiée** La théorie EVM indique que le graphique de la valeur planifiée représente le taux auquel l'équipe du projet a prévu de gagner de la valeur sur le projet. 
 
-Microsoft Dynamics 365 pour les opérations utilise la règle de rémunération est 0:100 lorsque présente la valeur planifiée. Avec cette règle, la valeur de la tâche est validée à la tâche à partir de sa date de fin. Aucune valeur n'est validée tant que la tâche n'est pas terminée à 100 %. 
+Microsoft Dynamics 365 for Operations utilise la règle de gain 0:100 pour tracer la valeur planifiée. Avec cette règle, la valeur de la tâche est validée à la tâche à partir de sa date de fin. Aucune valeur n'est validée tant que la tâche n'est pas terminée à 100 %. 
 
 Dans le module gestion de projets et comptabilité, vous entrez la date de fin des nœuds terminaux et leur coût prévu. Lorsque le graphique de la valeur planifiée est affiché par semaine, la valeur planifiée est synthétisée par semaine pour toutes les tâches de nœud terminal pour toute la durée du projet. 
 
 **Valeur gagnée** La théorie EVM indique que le graphique de la valeur gagnée représente le taux auquel l'équipe du projet gagne réellement de la valeur sur le projet. 
 
-Microsoft Dynamics 365 pour les opérations utilise la règle de rémunération est 0:100 lorsque sa valeur acquise de traçages. Avec cette règle, la valeur de la tâche est validée à la tâche à partir de sa date de fin. Aucune valeur n'est validée tant que la tâche n'est pas terminée à 100 %. 
+Microsoft Dynamics 365 for Operations utilise la règle de gain 0:100 pour tracer la valeur gagnée. Avec cette règle, la valeur de la tâche est validée à la tâche à partir de sa date de fin. Aucune valeur n'est validée tant que la tâche n'est pas terminée à 100 %. 
 
 Quand la valeur gagnée est calculée, le pourcentage de progression de chaque tâche est pris en compte. Avec la règle de gain 0:100 , seules les tâches terminées dans une période donnée sont prises en compte dans le calcul de la valeur gagnée à la fin de cette période. La valeur gagnée sur le projet est calculée pour toutes les tâches terminées au moment où le graphique est créé. 
 
 > [!NOTE] 
-> Actuellement, le système pour le suivi du WBS n'a pas les structures de données pour enregistrer les pourcentages historiques de progression sur chaque tâche. Par conséquent, la valeur gagnée peut être déclarée uniquement à partir du moment où le cube est exécuté. Exécutez le cube régulièrement pour mettre à jour la valeur gagnée qui figure sur l'aperçu interactif. 
+> Actuellement, le système de suivi de la WBS n'a pas de structure de données pour enregistrer l'historique des pourcentages de progression sur chaque tâche. Par conséquent, la valeur gagnée peut être déclarée uniquement à partir du moment où le cube est exécuté. Exécutez le cube régulièrement pour mettre à jour la valeur gagnée qui figure sur l'aperçu interactif. 
 
 **Coût réel** La théorie EVM indique que le tracé du coût réel représente le taux auquel de l'argent est dépensé est en projet. 
 
@@ -274,7 +277,7 @@ Si le coût réel dépensé pour une période est supérieur à la valeur gagné
 Si le coût réel dépensé pour une période est inférieur à la valeur gagnée, il a été gagné plus d'argent qu'il n'en a été dépensé. Par conséquent, le projet est en dessous du budget.
 
 ## <a name="wbs-templates"></a>Modèles WBS
-Vous pouvez utiliser la fonctionnalité de modèles de WBS permet de créer des modèles standard pour les projets. Si les projets qu'offre votre société comporte beaucoup de travail reproductible, vous devez envisager de créer un modèle de WBS. 
+Utilisez la fonctionnalité des modèles de WBS pour créer des modèles standard pour les projets. Si les projets qu'offre votre société comporte beaucoup de travail reproductible, vous devez envisager de créer un modèle de WBS. 
 
 Vous pouvez créer un modèle de WBS pour la WBS d'un projet existant, de sorte que les connaissances et les bonnes pratiques que vous avez recueillies durant la planification de ce projet puissent être réutilisées à l'avenir sur les projets similaires. Toutefois, il n'est parfois pas judicieux d'enregistrer la WBS entière comme modèle. Par conséquent, vous pouvez également créer des modèles à partir de parties de la WBS d'un projet.
 
@@ -313,5 +316,7 @@ Effort = Nombre de ressources × Durée × Nombre d'heures dans un jour de trava
 Vous pouvez corriger toutes les erreurs de planification en même temps en cliquant sur **Corriger toutes les erreurs de planification**. 
 
 Sinon, vous pouvez corriger les erreurs de planification individuellement en cliquant sur l'icône d'avertissement pour chaque tâche.
+
+
 
 

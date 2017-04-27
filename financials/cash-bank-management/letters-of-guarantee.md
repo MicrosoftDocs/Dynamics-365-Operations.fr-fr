@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="letters-of-guarantee"></a>Lettres de garantie
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article fournit des informations sur les lettres de garantie. Dans une lettre de garantie, une banque s'engage à payer une somme d'argent spécifique à une personne si l'un des clients de la banque ne règle pas un paiement ou une obligation au bénéficiaire. 
 
 Une lettre de garantie représente l'accord d'une banque (le garant) de payer une somme d'argent définie à une autre personne (le bénéficiaire) si un client de la banque (le donneur d'ordre) ne règle pas un paiement ou une obligation au bénéficiaire. Les lettres de garantie ne sont pas cessibles. Elles ne s'appliquent qu'au bénéficiaire nommé dans l'accord. Le donneur d'ordre peut demander l'augmentation ou la diminution de la valeur d'une lettre de garantie, sous réserve des conditions stipulées dans l'accord. 
@@ -55,6 +58,8 @@ Le tableau suivant décrit les actions que vous pouvez effectuer sur une mettre 
 | Étendre              | Après avoir remis la lettre de garantie au bénéficiaire, cette action permet d'étendre la période de validité si nécessaire. |
 | Annuler              | Lorsque l'objet pour lequel la lettre de garantie a été demandée ne s'applique plus, cette action permet d'annuler l'accord.                  |
 | Liquider           | Lorsque le bénéficiaire présente la lettre de garantie à la banque, cette action permet d'effectuer le décaissement de la lettre.                      |
+
+
 
 
 

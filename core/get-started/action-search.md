@@ -1,6 +1,6 @@
 ---
 title: Recherche d&quot;actions
-description: "Cet article décrit la fonctionnalité de recherche d&quot;action dans Microsoft Dynamics 365 pour les opérations. La recherche d&quot;action vous aideront à rechercher et exécuter des actions sur une page."
+description: "Cet article décrit la fonctionnalité de recherche d&quot;actions dans Microsoft Dynamics 365 for Operations. La recherche d&quot;actions vous aide à rechercher et à exécuter des actions sur une page."
 author: jasongre
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,30 +26,33 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="action-search"></a>Recherche d'actions
 
-Cet article décrit la fonctionnalité de recherche d'action dans Microsoft Dynamics 365 pour les opérations. La recherche d'action vous aideront à rechercher et exécuter des actions sur une page.
+[!include[banner](../includes/banner.md)]
+
+
+Cet article décrit la fonctionnalité de recherche d'actions dans Microsoft Dynamics 365 for Operations. La recherche d'actions vous aide à rechercher et à exécuter des actions sur une page.
 
 <a name="introduction"></a>Introduction
 ------------
 
-Les pages de Microsoft Dynamics 365 pour les opérations exposent principalement des commandes sur des Volets Actions, le volet Actions standard qui apparaît en haut de la page et les barres d'outils qui apparaissent dans d'autres sections de la page. Dans les versions précédentes, une clé incline la fonction vous a autorisé rapidement accéder n'importe quel bouton dans un volet Actions en appuyant sur la touche ALT Ensuite des séries de lettres. 
+Les pages de Microsoft Dynamics 365 for Operations exposent principalement les commandes des volets Actions, le volet Actions standard qui apparaît en haut de la page et les barres d'outils qui apparaissent dans différentes sections de la page. Dans les versions précédentes, les fonctions des touches accélératrices vous permettent d'accéder rapidement à n'importe quel bouton du volet Actions en appuyant sur la touche Alt, puis sur des séries de lettres. 
 
-![keyTipsAX6 [] (. /media/keytipsax6.png)](. /media/keytipsax6.png) Toutefois, dans la version actuelle de Dynamics 365 pour des opérations, des touches accélératrices ne sont plus disponibles mais ont été remplacés par la fonction de recherche d'action. Cette nouvelle fonctionnalité permet de rechercher rapidement et d'exécuter un bouton à partir de n'importe quel Volet Actions visible.
+[![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png) Toutefois, dans la version actuelle de Dynamics 365 for Operations, les touches accélératrices ne sont plus disponibles mais sont remplacées par la fonctionnalité de recherche d'action. Cette nouvelle fonctionnalité permet de rechercher rapidement et d'exécuter un bouton à partir de n'importe quel Volet Actions visible.
 
 ## <a name="using-action-search"></a>Utilisation de la recherche d'actions
 Pour utiliser la fonctionnalité de recherche d'actions, procédez comme suit.
 
 1.  Dans le volet Actions, cliquez dans le champ **recherche d'actions**. (Le champ **recherche d'actions** contient une icône de loupe).
-2.  Tapez la totalité ou une partie du nom du bouton que vous souhaitez exécuter. Vous pouvez également rechercher à l'aide de les mots chemin du bouton du «  ». (Pour plus d'informations, voir la section suivante de cet article.) Généralement, un bouton apparaît proche du haut des résultats répertorient après avoir entré deux et quatre caractères.
+2.  Tapez l'ensemble ou une partie du nom du bouton que vous souhaitez exécuter. Vous pouvez également effectuer une recherche à l'aide de mots du « chemin d'accès » du bouton. (Pour plus d'informations, voir la section suivante de cet article). Généralement, un bouton s'affiche près du haut de la liste des résultats une fois que vous ayez tapé deux à quatre caractères.
 3.  Recherchez et exécutez le bouton dans la liste des résultats (à l'aide de la souris ou du clavier).
 
 Une fois le bouton exécuté, la vue retourne à votre dernière position dans la page, afin de pouvoir continuer à travailler. 
 
-[action-recherche-champ d'![] (. /media/action-search-field.png)](. /media/action-search-field.png)
+[![action-search-field](./media/action-search-field.png)](./media/action-search-field.png)
 
 Vous pouvez également commencer la recherche d'actions en appuyant sur Ctrl+/ ou Alt+Q. Appuyez sur le raccourci clavier de nouveau pour que la vue retourne sur votre dernière position dans la page.
 
 ## <a name="understanding-the-results-list"></a>Présentation de la liste des résultats
-Souvent, dans Dynamics 365 pour les opérations, vous devez connaître l'emplacement et le contexte d'un bouton pour comprendre totalement l'objectif de ce bouton. Par conséquent, les informations supplémentaires sont affichées pour chaque article dans la liste des résultats, afin d'inclure précisément les boutons apparaissent dans la liste. En particulier, le « chemin d'accès » du bouton est affiché. Ce chemin d'accès peut inclure les noms des éléments d'interface utilisateur suivants, le cas échéant :
+Souvent, dans Dynamics 365 for Operations, vous devez connaître l'emplacement et le contexte d'un bouton pour bien comprendre l'objet de ce bouton. Par conséquent, des informations supplémentaires sont affichées pour chaque élément de la liste des résultats, pour vous aider à savoir précisément quels boutons apparaissent dans la liste. En particulier, le « chemin d'accès » du bouton est affiché. Ce chemin d'accès peut inclure les noms des éléments d'interface utilisateur suivants, le cas échéant :
 
 -   Onglets du volet Actions
 -   Groupe de boutons
@@ -57,15 +60,17 @@ Souvent, dans Dynamics 365 pour les opérations, vous devez connaître l'emplac
 -   Séparateur de menu (si le bouton est à l'intérieur d'un groupe nommé à l'intérieur d'un bouton de menu)
 -   Groupe ou onglet dans la page (par exemple, le nom d'un organisateur)
 
-Par exemple, vous avez tapé **tot** dans le champ **recherche d'actions** et vous passez maintenant en revue la liste des résultats. La première entrée, pour un bouton nommé ** les totaux **, est mise en surbrillance. Un chemin du bouton ** commande client ** &gt; ** de vue ** est également affiché. ** Commande client ** la pièce du chemin correspond ** commande client ** à l'onglet dans le volet Actions, puis ** vue ** la pièce du chemin correspond ** vue ** dans le groupe sous cet onglet. De même, le chemin ** remise totale ** de le bouton (** vente ** &gt; ** calculez **) vous informe que ce bouton se trouve dans ** calculent ** groupe sous ** la vente ** onglet du volet Actions. Par conséquent, ces informations vous aide à inclure exactement que le bouton est déclenchée par la recherche d'action (si vous sélectionnez que bouton dans la liste des résultats). 
+Par exemple, vous avez tapé **tot** dans le champ **recherche d'actions** et vous passez maintenant en revue la liste des résultats. La première entrée, pour un bouton nommé **Totaux**, est mise en surbrillance. Un chemin d'accès du bouton **Commande client** &gt; **Afficher** est également affiché. La partie **Commande client** du chemin d'accès correspond à l'onglet **Commande client** dans le volet Actions, et la partie **Afficher** du chemin d'accès correspond au groupe **Afficher** sous cet onglet. De même, le chemin d'accès du bouton **Remise totale** (**Vendre** &gt; **Calculer**) vous informe que ce bouton est situé dans le groupe **Calculer** sous l'onglet **Vendre** du volet Actions. C'est pourquoi, ces informations vous permettent de comprendre précisément quel bouton sera déclenché par la recherche d'actions (si vous sélectionnez ce bouton dans la liste des résultats). 
 
-[action-recherche-champ-avec- données![] (. /media/action-search-field-with-data.png)](. /media/action-search-field-with-data.png) 
+[![action-search-field-with-data](./media/action-search-field-with-data.png)](./media/action-search-field-with-data.png) 
 
-Dans l'exemple précédent, la recherche d'action a donné les résultats du volet Actions standard en haut d'une page. Toutefois, la recherche d'actions montre également les résultats des barres d'outils visibles qui sont situées dans d'autres endroits de la page. Par exemple, vous recherchez pour ** stock disponible ** vous en appuyant sur le bouton situé dans ** des lignes de commande client ** l'organisateur. Dans ce cas, le chemin de boutons dans la liste des résultats (** des lignes de commande client ** &gt; ** stock ** &gt; ** vue **) vous indique que ce bouton se trouve sous ** vue ** l'en-tête sous ** stock ** le bouton de menu sur ** des lignes de commande client ** l'organisateur. 
+Dans l'exemple précédent, la recherche d'action a donné les résultats du volet Actions standard en haut d'une page. Toutefois, la recherche d'actions montre également les résultats des barres d'outils visibles qui sont situées dans d'autres endroits de la page. Par exemple, vous recherchez le bouton **Stock disponible** situé dans l'organisateur **Lignes de commande client**. Dans ce cas, le chemin d'accès du bouton dans la liste des résultats (**Lignes de commande client** &gt; **Stock** &gt; **Afficher**) vous informe que ce bouton est situé sous l'en-tête **Afficher** du bouton de menu **Stock** dans l'organisateur **Lignes de commande client**. 
 
-[stock disponible de![(]. réelles de /media/on - inventory.png)](. réelles de /media/on - inventory.png)
+[![on-hand-inventory](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
 
 ## <a name="action-search-vs-navigation-search"></a>Recherche d'actions/recherche de navigation
-Bien que la recherche d'action est effectuée pour rechercher et des actions d'exécution d'une page, il existe un mécanisme distinct de recherche pour rechercher et accéder aux pages dans Dynamics 365 pour les opérations. Pour plus d'informations sur cette fonction, voir [recherche de navigation] () navigation-search.md article.
+Alors que la recherche d'actions sert à rechercher et à exécuter des actions sur une page, il existe un mécanisme distinct pour rechercher des pages et les parcourir dans Dynamics 365 for Operations. Pour plus d'informations sur cette fonction, voir l'article [Recherche lors de la navigation](navigation-search.md).
+
+
 
 

@@ -1,6 +1,6 @@
 ---
-title: Contenu financier BI de courant de performances
-description: "Cette rubrique décrit Microsoft Dynamics 365 du pack financier de contenu de performances des opérations pour le projet BI de courant de Microsoft. Elle décrit le tableau de bord et les états inclus dans le pack de contenu, et fournit des informations sur le modèle de données et des entités utilisés pour établir Feature Pack de contenu."
+title: "Contenu Power BI des performances financières"
+description: "Cette rubrique décrit le pack de contenu Performances financières Microsoft Dynamics 365 for Operations pour Microsoft Power BI. Elle décrit le tableau de bord et les états inclus dans le pack de contenu, et fournit des informations sur le modèle de données et les entités qui ont permis de créer le pack de contenu."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,23 +24,26 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="financial-performance-power-bi-content"></a>Contenu financier BI de courant de performances
+# <a name="financial-performance-power-bi-content"></a>Contenu Power BI des performances financières
 
-Cette rubrique décrit Microsoft Dynamics 365 du pack financier de contenu de performances des opérations pour le projet BI de courant de Microsoft. Elle décrit le tableau de bord et les états inclus dans le pack de contenu, et fournit des informations sur le modèle de données et des entités utilisés pour établir Feature Pack de contenu.
+[!include[banner](../includes/banner.md)]
 
-<a name="accessing-the-content-pack"></a>Accéder Feature Pack de contenu
+
+Cette rubrique décrit le pack de contenu Performances financières Microsoft Dynamics 365 for Operations pour Microsoft Power BI. Elle décrit le tableau de bord et les états inclus dans le pack de contenu, et fournit des informations sur le modèle de données et les entités qui ont permis de créer le pack de contenu.
+
+<a name="accessing-the-content-pack"></a>Accès au pack de contenu
 --------------------------
 
-Deux versions du pack financier de contenu de performances sont disponibles. Une version est disponible à partir de Microsoft Dynamics Lifecycle Services (LCS), et d'autres est disponible dans PowerBI.com.
+Deux versions du pack de contenu Performances financières sont disponibles. Une version est disponible dans Microsoft Dynamics Lifecycle Services (LCS), et l'autre dans PowerBI.com.
 
--   ** Version qui est disponible dans des lettres de crédit : ** Le pack financier de contenu de performances qui est disponible à des lettres de crédit prend en charge Microsoft Dynamics 365 pour la version 1611 d'opérations. Recevez un pack de contenu de la bibliothèque partagé d'immobilisation dans des lettres de crédit. Pour plus d'informations sur le chargement le contenu comprimez- et connectez- le à votre Microsoft Dynamics 365 pour les données d'opérations, voir [contenu BI expérimentés dans des lettres de crédit Microsoft et de vos partenaires] (power-bi-content-microsoft-partners.md).
--   ** Version qui est disponible dans PowerBI.com : ** Le pack financier de contenu de performances disponible dans PowerBI.com prend en charge les versions 7,0 et 7.0.1 de Microsoft Dynamics AX. Pour plus d'informations sur la procédure de connexion et charger votre Dynamics 365 pour les données d'opérations, voir [contenu BI de courant d'accès de PowerBI.com] (power-bi-home-page.md).
+-   **Version disponible dans LCS :** le pack de contenu Performances financières disponible dans LCS prend en charge la version 1611 de Microsoft Dynamics 365 for Operations. Vous trouverez le pack de contenu dans la bibliothèque d'actifs partagés de LCS. Pour savoir comment télécharger le pack de contenu et le connecter à vos données Microsoft Dynamics 365 for Operations, voir [Contenu Power BI dans LCS de Microsoft et de vos partenaires](power-bi-content-microsoft-partners.md).
+-   **Version disponible dans PowerBI.com :** le pack de contenu Performances financières disponible dans PowerBI.com prend en charge les versions 7.0 et 7.0.1 de Microsoft Dynamics AX. Pour plus d'informations sur la procédure de connexion et de chargement de vos données Dynamics 365 for Operations, voir [Accéder au contenu Power BI depuis PowerBI.com](power-bi-home-page.md).
 
-## <a name="main-account-setup"></a>Paramétrage de compte principal
-Comme les organisations souhaitent passifs et les montants de produit à afficher sous forme de montants positifs dans les états, le paramétrage des comptes principaux dans Dynamics 365 pour les opérations est important. Pour que ces comptes principaux sont affichées comme montants positifs, le type de compte principal doit être défini ** passif ** ou ** produit **. Lorsque ces types de comptes sont utilisés, d'organigramme d'entreprise via le projet BI de courant de Microsoft renversera les signes et d'afficher les montants en tant que positif.
+## <a name="main-account-setup"></a>Paramétrage des comptes principaux
+Comme les organisations souhaitent que les passifs et les montants du produit apparaissent comme des montants positifs dans les états, le paramétrage des comptes principaux dans Dynamics 365 for Operations est important. Pour faire apparaître ces comptes principaux comme montants positifs, le type de compte principal doit être défini sur **Passif** ou **Produit**. Lorsque ces types de comptes sont utilisés, la génération d'états via Microsoft Power BI contrepasse les signes et affiche les montants comme positifs.
 
-## <a name="dashboard-and-reports-that-are-included-in-the-content-pack"></a>Aperçu interactif et états inclus dans le pack de contenu
-Après avoir connecté le pack de contenu à vos données Dynamics 365 for Operations, vos données financières s'affichent dans le tableau de bord et les états. Si ce n'est jamais utilisé le projet BI de courant de péremption, vous souhaitez plus {{à:about}} {{son:about}} sujet sous l'onglet [page guidée d'enseignement pour BI de courant] (https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Le tableau de bord contient les vignettes résumées des données basées sur les états sous-jacents. Chaque vignette contient des informations résumées pour l'année en cours dans toutes les sociétés d'une organisation. Voici certaines des vignettes :
+## <a name="dashboard-and-reports-that-are-included-in-the-content-pack"></a>Tableau de bord et états inclus dans le pack de contenu
+Après avoir connecté le pack de contenu à vos données Dynamics 365 for Operations, vos données financières s'affichent dans le tableau de bord et les états. Si vous n'avez jamais utilisé Microsoft Power BI auparavant, consultez la [Page d'apprentissage guidé pour Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData) pour en savoir plus. Le tableau de bord contient les vignettes résumées des données basées sur les états sous-jacents. Chaque vignette contient des informations résumées pour l'année en cours dans toutes les sociétés d'une organisation. Voici quelques-unes des vignettes :
 
 -   Espèces
 -   Produit total de cette année
@@ -56,13 +59,13 @@ Après avoir connecté le pack de contenu à vos données Dynamics 365 for Opera
 -   Marge bénéficiaire de cette année
 -   Dépenses réelles par rapport à celles budgétées – Toutes les sociétés
 
-Chaque vignette est subis suite à un état de prise en charge. Ces états contiennent des graphiques et des tables qui fournissent plus d'informations. Le tableau suivant décrit ces états.
+Chaque vignette est soutenue par un état de prise en charge. Ces états contiennent des graphiques et des tables qui fournissent plus d'informations. Le tableau suivant décrit ces états.
 
 | Etat                      | Les informations que l'état doit contenir                                                                                                                                                                                                                                                                                                          |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Analyse des disponibilités               | Disponibilités par entité juridique, disponibilités par trimestre, liquide de total, et disponibilités par compte ** note : ** ** Les disponibilités par le siège ** l'état n'inclut pas de solde d'ouverture dans le total du premier trimestre. Elle présente le total des transactions validées dans chaque trimestre.                                                                                |
+| Analyse des disponibilités               | Disponibilités par entité juridique, disponibilités par trimestre, disponibilités totales et disponibilités par compte **Remarque :** l'état **Disponibilités par trimestre** n'inclut pas les soldes d'ouverture dans le total du premier trimestre. Il présente le total des nouvelles transactions validées dans chaque trimestre.                                                                                |
 | Analyse du taux actuel      | Taux actuel par entité juridique, taux actuel par trimestre et soldes pour les immobilisations actuelles et le passif actuel.                                                                                                                                                                                                                              |
-| Analyse du taux rapide        | Ratio de trésorerie par entité juridique, ratio de trésorerie par trimestre, et soldes pour les disponibilités, Ventes, et les dettes d'exploitation                                                                                                                                                                                                                      |
+| Analyse du taux rapide        | Taux rapide par entité juridique, taux rapide par trimestre et soldes pour les disponibilités, comptabilité client et passif actuel                                                                                                                                                                                                                      |
 | Analyse du coût des marchandises vendues | Coût des marchandises vendues (COGS) par entité juridique, coût des marchandises vendues cette année et l'année dernière par trimestre, coût des marchandises vendues par entité juridique, coût des marchandises vendues totales et coût des marchandises vendues en pourcentage des ventes                                                                                                                                                                                   |
 | Analyse du fonds de roulement    | Fonds de roulement par entité juridique, fonds de roulement par trimestre, actifs actuels, passif en cours et fonds de roulement total                                                                                                                                                                                                                   |
 | Analyse des immobilisations et des créances     | Rendement du total des actifs et endettement sur total des actifs par entité juridique, ratio d'endettement sur total des actifs et rendement du total des actifs par trimestre jusqu'à présent, immobilisations et passif                                                                                                                                                                                     |
@@ -71,17 +74,17 @@ Chaque vignette est subis suite à un état de prise en charge. Ces états conti
 | Analyse des bénéfices           | Recettes budgétaires et réelles avant intérêts et taxes (EBIT) par entité juridique, EBIT de cette année et de l'année dernière, dépenses en pourcentage de produit, et dépenses budgétaires et réelles du produit                                                                                                                                                          |
 | Analyse du produit            | Produit total, recettes budgétaires et réelles par entité juridique, produit total de cette année et de l'année dernière, écart du budget de produit par entité juridique, et produit total de cette période et de la période passée                                                                                                                                                 |
 | Analyse des dépenses            | Dépenses totales, dépenses totales budgétaires et réelles par entité juridique, dépenses réelles et budgétaires par trimestre, dépenses totales par catégorie de compte, et taux de frais d'exploitation                                                                                                                                                                 |
-| Analyse de produit facturée     | Ventes totales, Ventes total par entité juridique, Ventes total par trimestre, et soldes des comptes de ventes ** note : ** Les états n'incluent pas les soldes d'ouverture des comptes généraux du module Ventes. Elles indiquent le total des transactions validées dans le module Ventes. |
+| Analyse de produit facturée     | Total de la comptabilité client, total de la comptabilité client par entité juridique, total de la comptabilité client par trimestre et soldes des comptes de comptabilité client **Remarque :** les états n'incluent pas les soldes d'ouverture pour les comptes généraux de la comptabilité client. Ils indiquent le total des nouvelles transactions validées dans la comptabilité client. |
 
 Les graphiques et les vignettes sur tous ces états peuvent être filtrés et épinglés au tableau de bord. Pour savoir comment filtrer et épingler dans Power BI, voir [Créer et configurer un tableau de bord](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Compréhension du modèle de données et des entités
-Les données qui remplissent tableau de bord et états dans le contenu financier de performances se compriment sont Dynamics 365 pour les données d'opérations. Les entités suivantes ont été utilisée comme base du pack de contenu : ** Entités de données générales **
+Les données qui remplissent le tableau de bord et les états du pack de contenu Performances financières proviennent de Dynamics 365 for Operations. Les entités suivantes ont été utilisées comme base du pack de contenu : **Entités de données agrégées**
 
--   ** GeneralLedgerActivities ** – cette entité regroupe les soldes comptables par catégorie de compte.
--   ** BudgetActivities ** – cette entité regroupe les soldes budgétaires par catégorie de compte.
+-   **GeneralLedgerActivities** – Cette entité regroupe les soldes comptables par catégorie de compte.
+-   **BudgetActivities** – Cette entité regroupe les soldes budgétaires par catégorie de compte.
 
-**Data entities**
+**Entités de données**
 
 -   FiscalCalendars
 -   MainAccounts
@@ -89,7 +92,7 @@ Les données qui remplissent tableau de bord et états dans le contenu financier
 -   Comptabilités
 -   ChartofAccounts
 
-Ces entités a été utilisée pour créer des mesures calculées dans le modèle de données. Les mesures calculées sont utilisées pour calculer les indicateurs de performance clé (KPIs) et les états utilisés dans l'établissement du pack de contenu. Par défaut, le pack de contenu fournit des données pour les trois dernières années et une année dans le futur. Pour inclure des calculs supplémentaires dans vos rapports et dans le tableau de bord, vous pouvez modifier le [classeur Microsoft Excel](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). Ce classeur est le modèle de données par défaut utilisé pour créer le pack de contenu. Une fois que vous avez apporté vos modifications, vous pouvez créer un pack de contenu et un tableau de bord de l'organisation contenant les informations que vous avez ajoutées.
+Ces entités ont été utilisées pour créer des mesures calculées dans le modèle de données. Les entités calculées sont utilisées pour calculer les indicateurs de performance clés (KPI) et les états utilisés dans le pack de contenu. Par défaut, le pack de contenu fournit des données pour les trois dernières années et une année dans le futur. Pour inclure des calculs supplémentaires dans vos rapports et dans le tableau de bord, vous pouvez modifier le [classeur Microsoft Excel](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). Ce classeur est le modèle de données par défaut utilisé pour créer le pack de contenu. Une fois que vous avez apporté vos modifications, vous pouvez créer un pack de contenu et un tableau de bord de l'organisation contenant les informations que vous avez ajoutées.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 Voici quelques liens utiles liés aux entités et à la création du contenu Power BI :
@@ -98,6 +101,8 @@ Voici quelques liens utiles liés aux entités et à la création du contenu Pow
 -   [Création de packs de contenu d'organisation](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 -   [Modélisation de données à l'aide de Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [Ajout de vignettes Power BI aux espaces de travail](configure-power-bi-integration.md)
+
+
 
 
 

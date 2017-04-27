@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="update-standard-costs-in-a-non-manufacturing-environment"></a>Mettre à jour des coûts standard dans un environnement hors fabrication
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article fournit des instructions pour mettre à jour les coûts standard dans un environnement hors fabrication.
 
 Les instructions suivantes supposent que vous utilisez une approche à deux versions pour mettre à jour les coûts standard. Dans cette approche, une version d'évaluation des coûts contient les coûts standard définis à l'origine pour la période bloquée et l'autre version d'évaluation des coûts contient les mises à jour incrémentielles. Chaque mise à jour est entrée comme un enregistrement de coûts inclus dans la deuxième version d'évaluation des coûts, avant d'être finalement activée. Une autre approche à une version consiste à utiliser les coûts standard définis à l'origine. L'approche à deux versions demande que vous définissiez une deuxième version d'évaluation des coûts. Voici les instructions pour définir cette version d'évaluation des coûts :
@@ -46,6 +49,8 @@ Pour corriger, ajuster ou mettre à jour les coûts standard de nouveaux article
 4.  Utilisez la page **Mise à jour de la version d'évaluation des coûts** pour modifier la balise de blocage afin d'autoriser l'activation des enregistrements de coûts en attente inclus dans la deuxième version d'évaluation des coûts.
 5.  Utilisez la page **Activer les prix** (que vous pouvez ouvrir à partir de la page **Mise à jour de la version d'évaluation des coûts**) pour activer tous les enregistrements de coûts d'article en attente inclus dans la deuxième version d'évaluation des coûts. Vous pouvez également activer les enregistrements des coûts en attente pour des articles individuels en cliquant sur le bouton **Activer les coûts en attente** dans la page **Prix d'article**.
 6.  Afin d'empêcher toute maintenance des données supplémentaire, utilisez la page **Paramétrage de la version d'évaluation des coûts** pour modifier les balises de blocage incluses dans la deuxième version d'évaluation des coûts. Les stratégies de blocage empêchent la saisie de nouveaux coûts en attente et l'activation de coûts en attente.
+
+
 
 
 

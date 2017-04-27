@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="convert-accounting-or-reporting-currencies"></a>Convertir des devises comptables ou de déclaration
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Une société qui doit modifier sa devise comptable ou sa devise de déclaration a deux options. La première option est de créer une société et de répartir à zéro. La deuxième option est d'exécuter le processus de conversion des devises comptables et de déclaration. Il s'agit d'un processus très long qui modifie chaque transaction dans le système. Des paramétrages sont également nécessaires avant d'exécuter le processus.
@@ -72,6 +75,8 @@ Après la conversion de devise, vous devez générer tous les états de rapproch
 -   Si la conversion de la devise comptable entraîne des différences d'arrondi, celles-ci ne sont pas validées à l'aide du N° document dans lequel elles ont été détectées, mais à l'aide du N° document entré pour les validations de conversion. Après la conversion, tous les états contrôlés par document et date incluent ces différences d'arrondi. Ce comportement est normal et peut être ignoré.
 -   Si les états de rapprochement client et fournisseur affichent une différence dans la ligne de total, et qu'aucune différence n'existait avant la conversion, cette différence doit être validée. Le compte est le compte collectif pour les clients et les fournisseurs. Le compte de contrepartie est le compte général pour les pertes ou les profits de conversion.
 
-Lorsque tous les journaux des écritures comptables ont été supprimés, vous pouvez journaliser les écritures comptables. Cliquez sur ** comptabilité ** &gt; ** périodique ** &gt; ** journaux ** &gt; ** journalisation **. Vous pouvez réévaluer les montants en devise étrangère après la conversion de devise, si la réévaluation est requise. Pour réévaluer les montants en devise étrangère, sélectionnez **Standard** dans la page **Méthode** pour la réévaluation.
+Lorsque tous les journaux des écritures comptables ont été supprimés, vous pouvez journaliser les écritures comptables. Cliquez sur **Comptabilité** &gt; **Périodique** &gt; **Journaux** &gt; **Journalisation**. Vous pouvez réévaluer les montants en devise étrangère après la conversion de devise, si la réévaluation est requise. Pour réévaluer les montants en devise étrangère, sélectionnez **Standard** dans la page **Méthode** pour la réévaluation.
+
+
 
 

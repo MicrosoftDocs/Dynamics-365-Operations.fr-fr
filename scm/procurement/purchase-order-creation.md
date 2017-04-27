@@ -33,7 +33,7 @@ Lorsque vous créez une commande fournisseur (CF), des informations générales 
 
 Vous pouvez également créer des CF en copiant des lignes à partir d’un autre document de CF ou d'une commande client. Dans ce cas, vous pouvez inverser le signe sur le stock, comme vous inverseriez le signe d’une facture pour indiquer le crédit.  
 
-Bien que vous puissiez créer manuellement les CF, elles sont plus généralement générées par d’autres processus. Les commandes peuvent être créés automatiquement en fonction d'autres documents, tels que des demandes. Sinon, ils peuvent être créés comme partie du processus de planification via la position prévue. Si vous utilisez des contrats d'achat, la position peut être créée par ** ordre de lancement ** l'action. Il existe également des méthodes plus avancées pour créer automatiquement une CF. Par exemple, les commandes peuvent être créées lorsque vous utilisez une livraison directe ou des chaînes de commandes intersociétés.
+Bien que vous puissiez créer manuellement les CF, elles sont plus généralement générées par d’autres processus. Les commandes peuvent être créés automatiquement en fonction d'autres documents, tels que des demandes. Sinon, elles peuvent être créées dans le cadre du processus de planification principale par le biais de CF planifiées. Si vous utilisez des contrats d'achat, les CF peuvent être créées par l'action **Lancer la commande**. Il existe également des méthodes plus avancées pour créer automatiquement une CF. Par exemple, les commandes peuvent être créées lorsque vous utilisez une livraison directe ou des chaînes de commandes intersociétés.
 
 ## <a name="creating-a-purchase-order-header"></a>Création de l'en-tête de commande fournisseur
 Lorsque vous créez une nouvelle CF, une boîte de dialogue apparaît, où vous pouvez entrer les informations les plus courantes pour l’en-tête de la CF. Lorsque vous cliquez sur **OK** pour fermer la boîte de dialogue, la commande est créée et vous pouvez ensuite spécifier des informations supplémentaires dans l’en-tête.  
@@ -84,7 +84,7 @@ Il se peut que vous deviez retarder l’achèvement d’une CF. Par exemple, vou
 <a name="see-also"></a>Voir également :
 --------
 
-[Purchase order overview](purchase-order-overview.md)
+[Présentation des commandes fournisseur](purchase-order-overview.md)
 
 [Approbation et confirmation de la commande fournisseur](purchase-order-approval-confirmation.md)
 

@@ -1,6 +1,6 @@
 ---
 title: "Vue d&quot;ensemble du contrôle budgétaire"
-description: "Cet article présente le contrôle budgétaire et fournit des informations pour vous aider à configurer le contrôle budgétaire dans Microsoft Dynamics 365 pour les opérations afin de pouvoir gérer les ressources financières."
+description: "Cet article présente le contrôle budgétaire et fournit des informations vous permettant de configurer le contrôle budgétaire dans Microsoft Dynamics 365 for Operations afin de pouvoir gérer les ressources financières."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,37 +26,40 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="budget-control-overview"></a>Vue d'ensemble du contrôle budgétaire
 
-Cet article présente le contrôle budgétaire et fournit des informations pour vous aider à configurer le contrôle budgétaire dans Microsoft Dynamics 365 pour les opérations afin de pouvoir gérer les ressources financières.
+[!include[banner](../includes/banner.md)]
+
+
+Cet article présente le contrôle budgétaire et fournit des informations vous permettant de configurer le contrôle budgétaire dans Microsoft Dynamics 365 for Operations afin de pouvoir gérer les ressources financières.
 
 <a name="overview"></a>Vue d'ensemble
 --------
 
-Le contrôle budgétaire dans Microsoft Dynamics 365 pour les opérations prend en charge la gestion des ressources financières d'une organisation via le plan de comptes, les workflows, les groupes d'utilisateurs, les documents source et les journaux, le calcul configurable des fonds disponibles, des cycles budgétaires, et les seuils. Lorsque les contrôles sont en place, une organisation peut planifier, mesurer, gérer et prévoir ses ressources financières au cours de son exercice. 
+Le contrôle budgétaire dans Microsoft Dynamics 365 for Operations prend en charge la gestion des ressources financières d'une organisation via le plan de comptes, les workflows, les groupes d'utilisateurs, les documents source et les journaux, le calcul des fonds disponibles configurable, les cycles budgétaires et les seuils. Lorsque les contrôles sont en place, une organisation peut planifier, mesurer, gérer et prévoir ses ressources financières au cours de son exercice. 
 
-Une fois les budgets ont été approuvés dans Dynamics 365 pour les opérations, vous pouvez utiliser des plans budgétaires de générer des écritures de registre budgétaires pour enregistrer le budget des dépenses pour une organisation. Sinon, vous pouvez créer ou importer des écritures de registre budgétaires d'un tiers échéancier au lieu d'utiliser la fonctionnalité de planification budgétaire. 
+Une fois les budgets approuvés dans Dynamics 365 for Operations, vous pouvez utiliser les plans budgétaires pour générer des écritures de registre budgétaires pour enregistrer le budget des dépenses pour une organisation. Sinon, vous pouvez créer ou importer des écritures de registre budgétaires depuis un programme tiers au lieu d'utiliser la fonctionnalité de planification de budget. 
 
 Les dépenses peuvent être enregistrées à l'aide des comptes principaux et des dimensions financières. Vous pouvez configurer le contrôle de la dépense globale pour répondre aux stratégies et aux exigences de l'organisation en regroupant des combinaisons de dimensions financières et de comptes principaux. 
 
 Le graphique suivant illustre la place du contrôle budgétaire dans les étapes du cycle budgétaire traditionnel.
 
-![BudgetingCycle [] (. /media/budgetingcycle-300x198.png)](. /media/budgetingcycle.png) 
+[![BudgetingCycle](./media/budgetingcycle-300x198.png)](./media/budgetingcycle.png) 
 
 Vous pouvez configurer le contrôle budgétaire en fonction de plusieurs facteurs :
 
 -   **Dimensions financières** - Quelles dimensions financières doivent être utilisées pour déclarer l'activité budgétaire et l'activité réelle, et quelles dimensions financières sont requises pour contrôler le budget ? Certaines combinaisons de dimensions spécifiques ou certains comptes principaux nécessitent-ils une attention particulière ? Par exemple, faut-il suivre l'activité budgétaire par rapport à l'activité réelle par centre de coût et programme ? Les dépenses de déplacement requièrent-elles une attention particulière ?
 -   **Temps** - Quel cadre temporel (période fiscale, période fiscale en cours, etc.) sera utilisé pour évaluer les fonds budgétaires disponibles ?
--   ** Documents sources ** – les documents sources doivent être évalués pour le contrôle budgétaire ? Les documents devraient-ils être évalués par ligne ou par N° document ?
+-   **Documents sources** – Quels documents source doivent être évalués à des fins de contrôle budgétaire ? Les documents doivent-ils être évalués par ligne ou par document ?
 -   **Calcul des fonds disponibles** - Les documents tels que les demandes d'achat (engagements préalables) et les commandes fournisseur (engagements) doivent-ils être pris en compte dans le calcul des fonds disponibles ? Les documents présentant le statut de Brouillon doivent-ils être pris en compte dans le calcul ?
 -   **Autorisation de dépassement** - Qui est autorisé à dépasser le budget disponible ?
 
-Le contrôle budgétaire est entièrement intégré dans Dynamics 365 pour les opérations. Par conséquent, vous pouvez évaluer le budget disponible pour les achats prévisionnels et les achats réels. Les demandes et les états budgétaires sont disponibles. Par conséquent, les utilisateurs peuvent évaluer le budget durant le cycle budgétaire, et faire les ajutsements requis sous la forme de révisions ou de transferts budgétaires. Un responsable du budget peut également exporter l'activité budgétaire et l'activité réelle dans Microsoft Excel pour une analyse et des prévisions plus pointues au besoin.
+Le contrôle budgétaire est entièrement intégré à Dynamics 365 for Operations. Par conséquent, vous pouvez évaluer le budget disponible pour les achats prévisionnels et les achats réels. Les demandes et les états budgétaires sont disponibles. Par conséquent, les utilisateurs peuvent évaluer le budget durant le cycle budgétaire, et faire les ajutsements requis sous la forme de révisions ou de transferts budgétaires. Un responsable du budget peut également exporter l'activité budgétaire et l'activité réelle dans Microsoft Excel pour une analyse et des prévisions plus pointues au besoin.
 
 ## <a name="configuring-budget-control"></a>Configuration du contrôle budgétaire
 ### <a name="budget-cycle-time-span"></a>Période de cycle budgétaire
 
 Une fois la budgétisation de base configurée, vous pouvez définir le moment ou les périodes de début et de fin de la budgétisation et du contrôle budgétaire sur la page **Période de cycle budgétaire**. Les cycles budgétaires correspondent souvent aux calendriers fiscaux, mais peuvent couvrir des exercices.
 
-Les étapes suivantes dans la configuration sont effectuées sous les différents onglets de ** configuration de contrôle budgétaire ** la page.
+Les prochaines étapes du processus de configuration sont terminées sur les différents onglets de la page **Configuration du contrôle budgétaire**.
 
 ### <a name="define-parameters"></a>Définir les paramètres
 
@@ -77,7 +80,7 @@ Ensuite, sur l'onglet **Autorisations de dépassement de budget**, vous pouvez s
 Ensuite, sous l'onglet **Fonds budgétaires disponibles**, vous pouvez définir la formule utilisée pour calculer les fonds budgétaires disponibles. Selon la manière dont une organisation gère ses ressources financières par précaution, ou selon les règlementations ou les exigences du secteur, le calcul peut inclure le brouillon ou des documents non validés. 
 
 > [!NOTE] 
-> Si le calcul est modifié dans un cycle budgétaire, les modifications n'affecteront aucun document en cours précédemment réussi les vérifications du contrôle budgétaire, et qui ont été validées ou remplis.
+> Si le calcul est modifié lors d'un cycle budgétaire, les modifications n'affecteront pas les documents qui ont pu passer précédemment des examens de contrôle budgétaire et qui ont été validés ou complétés.
 
 ### <a name="documents-and-journals"></a>Documents et journaux
 
@@ -96,7 +99,7 @@ Puis, sur la page **Affecter des modèles de budget**, il convient d'affecter de
 Puis, sur l'onglet **Définir les règles de contrôle budgétaire**, vous devez créer des règles spécifiques basées sur les dimensions financières qui sont activées pour le contrôle budgétaire. Par exemple, si une priorité est donnée aux dépenses ou à l'étendue des dépenses d'un département, vous pouvez utiliser les paramètres de cet onglet pour définir et évaluer ces dépenses. Vous pouvez définir différents seuils pour chaque règle de contrôle budgétaire. 
 
 > [!Important]
-> Le contrôle budgétaire est activé pour n'importe quel compte principal de ** de résultat **, ** dépense **, ** de produit, bilan, passif, de capitaux propres ** ou ** immobilisation ** de type. Si cet onglet contient une règle qui a des critères vides, le contrôle budgétaire est activé pour **toutes **les combinaisons de dimensions financières qui incluent des comptes principaux de ces types. Par conséquent, assurez-vous de créer des règles budgétaires de contrôle définissant uniquement les plages de combinaisons de dimensions financières où il est essentiel que le contrôle budgétaire soit activé.  
+> Le contrôle budgétaire est activé pour tout compte principal de type **Résultat**, **Dépense**, **Produit, Bilan, Passif, Capitaux propres** ou **Actif**. Si cet onglet contient une règle qui a des critères vides, le contrôle budgétaire est activé pour **toutes **les combinaisons de dimensions financières qui incluent des comptes principaux de ces types. Par conséquent, assurez-vous de créer des règles budgétaires de contrôle définissant uniquement les plages de combinaisons de dimensions financières où il est essentiel que le contrôle budgétaire soit activé.  
 
 ### <a name="select-main-accounts"></a>Sélectionner les comptes principaux
 
@@ -114,15 +117,17 @@ Si les messages d'avertissement de contrôle budgétaire sont supprimés pour le
 
 Une fois le contrôle budgétaire configuré, vous pouvez l'activer sur l'onglet **Activer le contrôle budgétaire**. La version brouillon sera ensuite validée.
 > [!Important]
-> Une fois le contrôle budgétaire est activé et actives, et après que les transactions sont validées, il ne peut pas être tourné arrondi du cours de l'exercice. Lorsque le contrôle budgétaire est désactivé, les activités ne sont pas enregistrées à des fins de contrôle budgétaire, et les vérifications budgétaires ne sont plus exécutées. Par conséquent, les documents qui ont déjà été validés ne peuvent refléter correctement aucun montant d'exonération ou solde figurant dans les recherches et les états concernant le contrôle budgétaire. Cela inclut les statistiques de contrôle budgétaire pour les documents et journaux en aval ou d'ajustement. 
+> Une fois le contrôle budgétaire activé et actif et une fois les transactions validées, il ne doit pas être désactivé en milieu d'année. Lorsque le contrôle budgétaire est désactivé, les activités ne sont pas enregistrées à des fins de contrôle budgétaire, et les vérifications budgétaires ne sont plus exécutées. Par conséquent, les documents qui ont déjà été validés ne peuvent refléter correctement aucun montant d'exonération ou solde figurant dans les recherches et les états concernant le contrôle budgétaire. Cela inclut les statistiques de contrôle budgétaire pour les documents et journaux en aval ou d'ajustement. 
 
 De plus, notez que les transactions, notamment les entrées de registre budgétaires, validées avant l'activation du contrôle budgétaire ne sont pas prises en compte dans le contrôle budgétaire. Par conséquent, il est recommandé de désactiver le contrôle budgétaire uniquement au début du nouveau cycle budgétaire. Vérifiez que les entrées de registre budgétaires contenant les soldes budgétaires de départ pour le contrôle budgétaire obtiennent des soldes mis à jour uniquement après l'activation du contrôle budgétaire. Tout document en cours (par exemple, une commande fournisseur) sera examiné pour connaître les fonds budgétaires disponibles et obtiendra une réservation budgétaire pour le contrôle budgétaire, lorsque l'utilisateur déclenche manuellement une vérification du contrôle budgétaire dans le document.
 
 ## <a name="using-budget-control"></a>Utilisation du contrôle budgétaire
 Une fois le contrôle budgétaire activé, les utilisateurs recevront des messages d'avertissement et d'erreur de contrôle budgétaire dans les documents et journaux configurés pour le contrôle budgétaire. N'oubliez pas, vous pouvez configurer le contrôle budgétaire afin que les utilisateurs soient prévenus lorsqu'ils dépassent les fonds budgétaires, mais puissent toujours confirmer ou valider la transaction. Les utilisateurs peuvent afficher les détails des contrôles budgétaires qui ont échoué sur la page **Erreurs ou avertissements du contrôle budgétaire**.   
 
-Dans cette page, les utilisateurs peuvent forer dans ** les statistiques de contrôle budgétaire par période ** la page pour afficher les détails et les réservations de disponibilité de budget pour une combinaison sélectionnée de dimension de contrôle budgétaire. Les utilisateurs peuvent également explorer la page **Statistiques de contrôle budgétaire **pour afficher la disponibilité budgétaire de toutes les combinaisons de dimensions financières utilisées dans le contrôle budgétaire. 
+Depuis cette page, les utilisateurs peuvent explorer la page **Statistiques du contrôle budgétaire par période** pour découvrir les détails concernant la disponibilité budgétaire et les réservations pour une combinaison de dimensions de contrôle budgétaire sélectionnée. Les utilisateurs peuvent également explorer la page **Statistiques de contrôle budgétaire **pour afficher la disponibilité budgétaire de toutes les combinaisons de dimensions financières utilisées dans le contrôle budgétaire. 
 
 Si le contrôle budgétaire est activé pour les commandes fournisseur, le responsable du budget peut utiliser l'espace de travail **Budgets comptables et prévisions** pour passer en revue la file d'attente de toutes les commandes fournisseur non confirmées avec des avertissements ou des erreurs du contrôle budgétaire. Si le responsable du budget est autorisé à dépasser le budget, il peut confirmer les commandes fournisseur directement dans l'espace de travail.    
+
+
 
 

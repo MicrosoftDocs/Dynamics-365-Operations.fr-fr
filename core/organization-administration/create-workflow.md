@@ -26,15 +26,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-a-workflow"></a>Création d'un workflow
 
+[!include[banner](../includes/banner.md)]
+
+
 Cette rubrique illustre la création d'un workflow.
 
 <a name="open-the-workflow-editor"></a>Ouverture de l'éditeur de workflow
 ------------------------
 
-Microsoft Dynamics 365 pour le module d'opérations dans lequel vous travaillez détermine les types de workflows que vous pouvez créer. Procédez comme suit pour sélectionner le type de workflow à créer et ouvrir l'éditeur de workflow.
+Le module Microsoft Dynamics 365 for Operations que vous utilisez détermine les types de workflows que vous pouvez créer. Procédez comme suit pour sélectionner le type de workflow à créer et ouvrir l'éditeur de workflow.
 
 1.  Ouvrez le module pour lequel vous souhaitez créer un workflow. Par exemple, pour créer un workflow pour les demandes d'achat, cliquez sur **Approvisionnements**.
-2.  Cliquez sur ** paramétrage ** &gt; ** workflows\] nom du module\[**.
+2.  Cliquez sur **Paramétrage** &gt; **\[Workflows de [nom du module\]**.
 3.  Sur la page de liste qui s'affiche, dans le volet Actions, cliquez sur **Nouveau**.
 4.  Sur la page **Créer un workflow**, sélectionnez le type de workflow à créer, puis cliquez sur **Créer un workflow**. L'éditeur de workflow s'affiche. Vous pouvez à présent utiliser les procédures suivantes pour concevoir le workflow.
 
@@ -75,6 +78,8 @@ Lorsque vous êtes prêts à enregistrer et à activer le workflow, procédez co
 3.  Si toutes les erreurs et les avertissements ont été résolus, la page **Activer le workflow** s'affiche. Permet de sélectionner l'une des options suivantes :
     -   Pour activer cette version du workflow, cliquez sur **Activer la nouvelle version**. Lorsqu'un workflow est activé, les utilisateurs peuvent y soumettre des documents pour traitement.
     -   Si vous ne souhaitez pas activer cette version, cliquez sur **Ne pas activer la nouvelle version**. Vous pouvez activer le workflow ultérieurement.
+
+
 
 
 

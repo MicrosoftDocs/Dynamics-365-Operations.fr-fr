@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="update-standard-costs-in-a-manufacturing-environment"></a>Mise à jour des coûts standard dans un environnement de fabrication
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article fournit des instructions sur la mise à jour des coûts standard dans un environnement de fabrication. 
 
 Les mises à jour peuvent refléter les nouveaux articles, les catégories de coûts ou les formules de calcul des coûts indirects. Elles peuvent également refléter des corrections et des modifications de coûts. Le type de mise à jour affecte les étapes nécessaires à exécuter pour mettre à jour les coûts standard, comme illustré dans les cas suivants :
@@ -43,5 +46,7 @@ Les mises à jour peuvent refléter les nouveaux articles, les catégories de co
 -   Calculez les coûts pour un nouvel article fabriqué sur la base de sa nomenclature définie, approuvée et active et de ses informations de gamme.
 
 Chaque cas nécessite un examen attentif de la façon de mettre à jour les coûts standard.
+
+
 
 

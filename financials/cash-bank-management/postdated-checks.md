@@ -1,6 +1,6 @@
 ---
 title: "Chèques postdatés"
-description: "Cet articles associées des informations sur la prise en charge des chèques postdatés dans Microsoft Dynamics 365 pour les opérations. Les chèques postdatés sont des chèques émis à des fins d&quot;émission ou de réception de paiements à une date future. Par conséquent, le chèque ne peut pas être encaissé avant la date spécifiée."
+description: "Cet article fournit des informations sur la prise en charge des chèques postdatés dans Microsoft Dynamics 365 for Operations. Les chèques postdatés sont des chèques émis à des fins d&quot;émission ou de réception de paiements à une date future. Par conséquent, le chèque ne peut pas être encaissé avant la date spécifiée."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="postdated-checks"></a>Chèques postdatés
 
-Cet articles associées des informations sur la prise en charge des chèques postdatés dans Microsoft Dynamics 365 pour les opérations. Les chèques postdatés sont des chèques émis à des fins d'émission ou de réception de paiements à une date future. Par conséquent, le chèque ne peut pas être encaissé avant la date spécifiée.
+[!include[banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 pour les opérations prend en charge le cycle de gestion complet pour les chèques postdatés dans les modules Ventes et Achats, comme indiqué dans le tableau suivant.
+
+Cet article fournit des informations sur la prise en charge des chèques postdatés dans Microsoft Dynamics 365 for Operations. Les chèques postdatés sont des chèques émis à des fins d'émission ou de réception de paiements à une date future. Par conséquent, le chèque ne peut pas être encaissé avant la date spécifiée.
+
+Microsoft Dynamics 365 for Operations prend en charge le cycle de gestion complet pour les chèques postdatés dans Comptabilité client et Comptabilité fournisseur, comme indiqué dans le tableau suivant.
 <table>
 <colgroup>
 <col width="50%" />
@@ -48,11 +51,11 @@ Microsoft Dynamics 365 pour les opérations prend en charge le cycle de gestion
 </tr>
 <tr class="even">
 <td>Enregistrement et validation d'un chèque postdaté pour un fournisseur</td>
-<td>Enregistrez les détails d'un chèque postdaté avant sa remise à un fournisseur. Si le paiement est validé, le passif du fournisseur est reconnu, mais le compte bancaire n'est pas encore crédit. Au lieu de cela, un compte de compensation est utilisé à cet effet.</td>
+<td>Enregistrez les détails d'un chèque postdaté avant sa remise à un fournisseur. Lorsque le paiement est validé, le passif du fournisseur est identifié, mais le compte bancaire n'est pas encore crédité. Au lieu de cela, un compte de compensation est utilisé à cet effet.</td>
 </tr>
 <tr class="odd">
 <td>Enregistrer et valider un chèque postdaté pour un client</td>
-<td>Enregistrez les informations relatives à un chèque postdaté reçu d'un client. Si le paiement est validé, le client déductible est crédit, mais le compte bancaire n'est pas encore débit. Au lieu de cela, un compte de compensation est utilisé à cet effet.</td>
+<td>Enregistrez les informations relatives à un chèque postdaté reçu d'un client. Lorsque le paiement est validé, le montant à recevoir du client est identifié, mais le compte bancaire n'est pas encore débité. Au lieu de cela, un compte de compensation est utilisé à cet effet.</td>
 </tr>
 <tr class="even">
 <td>Enregistrement et validation d'un chèque postdaté de remplacement pour un client ou un fournisseur</td>
@@ -71,15 +74,17 @@ Si votre chèque d'origine à un fournisseur ou émis par un client est perdu ou
 <td>Annulation d'un chèque postdaté pour un fournisseur</td>
 <td>Vous pouvez annuler un chèque postdaté validé dans les situations suivantes : - Le chèque est retourné par la banque.
 - Le chèque est appliqué à une facture incorrecte.
-- Un paiement au comptant est réglé par le chèque.
+- Le montant du chèque est réglé par un paiement en espèces.
 </td>
 </tr>
 <tr class="even">
-<td>Paiement d'arrêt pour un chèque postdaté</td>
-<td>Vous pouvez arrêter le paiement sur un chèque postdaté émis auprès d'un fournisseur pour diverses raisons (fonds insuffisants, modifications des conditions de l'accord avec le fournisseur, livraison de marchandises défectueuses par le fournisseur, retour de marchandises au fournisseur, etc.). Vous pouvez arrêter le paiement des chèques non compensés peut être arrêté.</td>
+<td>Arrêt du paiement d'un chèque postdaté</td>
+<td>Vous pouvez arrêter le paiement sur un chèque postdaté émis auprès d'un fournisseur pour diverses raisons (fonds insuffisants, modifications des conditions de l'accord avec le fournisseur, livraison de marchandises défectueuses par le fournisseur, retour de marchandises au fournisseur, etc.). Seul le paiement des chèques non compensés peut être arrêté.</td>
 </tr>
 </tbody>
 </table>
+
+
 
 
 

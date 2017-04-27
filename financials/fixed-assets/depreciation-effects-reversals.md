@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="depreciation-effects-with-reversals"></a>Effets d'amortissement avec contrepassations
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article traite des conséquences potentielles de la contrepassation d'une transaction d'immobilisation. 
 
 Vous pouvez contrepasser des transactions d’immobilisation et les transactions associées à une immobilisation. Vous pouvez également annuler une transaction contrepassée. 
@@ -90,6 +93,8 @@ L'amortissement est sous-évalué de 16,95 (983,62 - 966,67).
 <a name="see-also"></a>Voir également :
 --------
 
-[Fixed asset depreciation](fixed-asset-depreciation.md)
+[Amortissement des immobilisations](fixed-asset-depreciation.md)
+
+
 
 

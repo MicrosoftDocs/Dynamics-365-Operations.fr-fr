@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="update-standard-costs-for-a-new-manufactured-item"></a>Mettre à jour des coûts standard pour un nouvel article fabriqué
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article fournit des instructions pour mettre à jour les coûts standard pour un nouvel article fabriqué. 
 
 Les instructions suivantes supposent que vous utilisez une approche à deux versions pour mettre à jour les coûts standard. Dans cette approche, une première version d'évaluation des coûts contient les premiers coûts standard définis à l'origine pour la période bloquée et une deuxième version d'évaluation des coûts contient les mises à jour incrémentielles qui appartiennent aux nouveaux articles fabriqués. Les mises à jour incrémentielles sont entrées comme des enregistrements de coûts dans la deuxième version d'évaluation des coûts, avant d'être activées. L'approche à deux versions demande que vous définissiez une deuxième version d'évaluation des coûts. Voici les instructions pour définir cette version d'évaluation des coûts :
@@ -47,6 +50,8 @@ Pour ajouter de nouveaux articles de fabrication au cours de la période bloqué
 5.  Utilisez la page **Paramétrage de la version d'évaluation des coûts** pour modifier la balise de blocage afin d'autoriser l'activation des enregistrements de coûts en attente inclus dans la deuxième version d'évaluation des coûts.
 6.  Utilisez la page **Activer les prix** (que vous pouvez ouvrir à partir de la page **Mise à jour de la version d'évaluation des coûts**) pour activer tous les enregistrements de coût d'article en attente inclus dans la deuxième version d'évaluation des coûts. Vous pouvez également activer les enregistrements des coûts en attente pour des articles individuels en cliquant sur le bouton **Activer** dans la page **Prix de l'article**.
 7.  Utilisez la page **Paramétrage de la version d'évaluation des coûts** pour modifier les balises de blocage incluses dans la deuxième version d'évaluation des coûts afin d'empêcher toute maintenance des données supplémentaire. Les stratégies de blocage empêchent la saisie de nouveaux coûts en attente et l'activation de coûts en attente.
+
+
 
 
 

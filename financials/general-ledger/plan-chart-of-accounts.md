@@ -28,13 +28,16 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="plan-your-chart-of-accounts"></a>Planifier votre plan de comptes
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article fournit des informations vous permettant de planifier le plan de comptes de votre organisation.
 
 Pour suivre et tenir à jour les informations financières dans une organisation, vous pouvez paramétrer un plan de comptes. Un plan de comptes est un ensemble de comptes qui définit une structure financière. Pour suivre de façon plus approfondie les transactions dans ces comptes, vous pouvez ajouter des segments (appelés dimensions financières). Par exemple, un compte de dépenses peut inclure les dimensions financières nommées Département, Centre de coûts et Objectif. Des règles définies par l'utilisateur (appelées structures de compte et règles avancées), déterminent l'association des dimensions financières aux comptes principaux et aux autres dimensions financières, ainsi que les modalités de saisie des transactions. 
 
 Le plan de comptes est une liste structurée des comptes généraux d'une entité juridique. La liste permet de préparer les états financiers pour les administrations et les propriétaires. Les comptes sont regroupés en types de comptes, puis rassemblés dans de plus grandes catégories. Au niveau le plus général, les comptes sont regroupés par coûts et produits (comptes d'exploitation) et actifs et passifs (comptes de bilan). 
 
-Un plan de comptes peut être partagé et utilisé par les entités juridiques d'une organisation. Le plan de comptes utilisé par une entité juridique est défini sur ** comptabilité ** la page. 
+Un plan de comptes peut être partagé et utilisé par les entités juridiques d'une organisation. Le plan de comptes qui est utilisé par une entité juridique est défini sur la page **Comptabilité**. 
 
 Voici des facteurs dont vous devez tenir compte lorsque vous planifiez la structure du plan de comptes pour votre organisation :
 
@@ -48,10 +51,12 @@ Il est préférable de lier les comptes principaux aux catégories de compte pri
 
 Utilisez la page **Configurer les structures de compte** pour créer des structures de compte. Les structures de compte définissent les combinaisons valides. Les combinaisons, associées aux comptes principaux, forment un plan de comptes. 
 
-**Legal entity overrides** 
+**Remplacements des entités juridiques** 
 
-Tous les comptes principaux valides pour toutes les entités juridiques et certains peuvent uniquement être appropriés pour une période spécifique. Dans ce scénario, la section Remplacements des entités juridiques peut être utilisée pour identifier les sociétés pour lesquelles le compte principal doit être suspendu, le propriétaire et la période d'activité de la dimension. Les remplacements au niveau partagé ne peuvent pas être plus restrictifs que les remplacements au niveau de l'entité juridique.
+Seuls certains comptes principaux sont valides pour toutes les entités juridiques et certaines peuvent être appropriées uniquement pour une période spécifique. Dans ce scénario, la section Remplacements des entités juridiques peut être utilisée pour identifier les sociétés pour lesquelles le compte principal doit être suspendu, le propriétaire et la période d'activité de la dimension. Les remplacements au niveau partagé ne peuvent pas être plus restrictifs que les remplacements au niveau de l'entité juridique.
 
-Pour plus d'informations, voir dimensions financières [] (financial-dimensions.md).
+Pour plus d'informations, voir [Dimensions financières](financial-dimensions.md).
+
+
 
 

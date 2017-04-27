@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="positive-pay-overview"></a>Vue d'ensemble des paiements positifs
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article fournit des informations sur le paiement positif qui est utilisé pour générer une liste électronique de chèques devant être présentés à la banque. 
 
 Vous pouvez utiliser le paiement positif pour générer la liste électronique des chèques devant être présentés à la banque. Des fichiers de paiement positifs peuvent aider les banques à empêcher les fraudes par chèque. Paramétrez le paiement positif pour générer une liste électronique de chèques chaque fois que des chèques sont imprimés. Puis, lorsqu'un chèque est présenté à la banque, la banque le compare avec la liste des chèques que vous avez précédemment envoyés. Si le chèque correspond à un chèque de la liste, la banque le compense. Si le chèque ne correspond pas à un chèque dans la liste, la banque le conserve pour examen.
@@ -38,10 +41,12 @@ Les fichiers de paiement positifs sont créés à l'aide d'entités de données.
 
 Pour chaque compte bancaire pour lequel vous souhaitez générer des informations de paiement positif, vous devez affecter le format de paiement positif. Après avoir généré les paiements, vous pouvez générer un fichier de paiement positif pour une entité juridique unique et un compte bancaire unique. Sinon, vous pouvez générer des fichiers de paiement positif pour plusieurs entités juridiques et comptes bancaires en même temps. 
 
-Lorsque les chèques répertoriés dans un fichier de paiement positif ont été payés, vous recevez un numéro de confirmation de la banque. Vous pouvez ensuite confirmer le fichier de paiement positif dans Microsoft Dynamics 365 pour les opérations. 
+Lorsque les chèques répertoriés dans un fichier de paiement positif ont été payés, vous recevez un numéro de confirmation de la banque. Vous pouvez ensuite confirmer le fichier de paiement positif dans Microsoft Dynamics 365 for Operations. 
 
 Si vous devez modifier un fichier de paiement positif, vous pouvez le rappeler. Puis, pour chaque chèque présent dans un fichier de paiement positif, le champ qui indique si le chèque a été inclus dans un fichier de paiement positif est réinitialisé.
 
-Pour plus d'informations, voir [le paramétrage et génèrent des fichiers de paiement positif] (setup-generate-positive-pay-files.md).
+Pour plus d'informations, voir [Paramétrer et générer des fichiers de paiement positif](set-up-generate-positive-pay-files.md).
+
+
 
 

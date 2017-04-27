@@ -1,6 +1,6 @@
 ---
 title: "Vue d&quot;ensemble des modèles de configuration de produit"
-description: "Cet article définit les conditions et les concepts pertinents pour les modèles de configuration de produit. Les modèles de configuration de produit permettent de créer une structure générale de produit pouvant être utilisées pour configurer plusieurs des variantes de produit pour un produit unique."
+description: "Cet article définit les conditions et les concepts pertinents pour les modèles de configuration de produit. Les modèles de configuration de produit permettent de créer une structure de produit générale pouvant être utilisée pour configurer plusieurs variantes de produit pour un produit unique."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,7 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="product-configuration-models-overview"></a>Vue d'ensemble des modèles de configuration de produit
 
-Cet article définit les conditions et les concepts pertinents pour les modèles de configuration de produit. Les modèles de configuration de produit permettent de créer une structure générale de produit pouvant être utilisées pour configurer plusieurs des variantes de produit pour un produit unique.
+Cet article définit les conditions et les concepts pertinents pour les modèles de configuration de produit. Les modèles de configuration de produit permettent de créer une structure de produit générale pouvant être utilisée pour configurer plusieurs variantes de produit pour un produit unique.
 
 Des modèles de configuration de produit sont créés pour représenter une structure de produit générique. Après avoir paramétré un modèle de configuration de produit, vous pouvez configurer une variante de produit distinct avec une nomenclature et une gamme uniques. Les modèles de configuration de produit utilisent les contraintes déclaratives et les calculs impératifs pour gérer les relations et les restrictions entre différentes variantes de produit. Vous pouvez configurer des articles sur les commandes client, devis de vente, commandes fournisseur et ordres de fabrication. Le tableau suivant décrit les termes et les concepts basés sur les contraintes de table.
 <table>
@@ -69,16 +69,16 @@ Vous pouvez également spécifier une condition pour les attributs. Si la condit
 <li><strong>Texte</strong> avec ou sans liste fixe</li>
 <li><strong>Booléen</strong></li>
 </ul>
-Si le type d'attribut est <strong>Booléen</strong>, <strong>Entier</strong> avec une plage, ou <strong>Texte</strong> avec une liste fixe, l'ensemble de valeurs est disponible lorsqu'un modèle de configuration de produit est paramétré. <strong>Remarque :</strong> Le solveur de configuration de produit identifie uniquement les types d'attributs suivants : <strong>Booléen</strong>, <strong>Texte</strong> avec une liste fixe, et <strong>Entier</strong> avec une plage. Par conséquent, seuls ces types d'attributs peuvent être utilisés dans les contraintes et les conditions d'expression.</td>
+Si le type d'attribut est <strong>Booléen</strong>, <strong>Entier</strong> avec une plage, ou <strong>Texte</strong> avec une liste fixe, l'ensemble de valeurs est disponible lorsqu'un modèle de configuration de produit est paramétré. <strong>Remarque :</strong> Le solveur de configuration de produit identifie les types d'attributs suivants : <strong>Booléen</strong>, <strong>Texte</strong> avec une liste fixe, et <strong>Entier</strong> avec une plage. Par conséquent, seuls ces types d'attributs peuvent être utilisés dans les contraintes et les conditions d'expression.</td>
 </tr>
 <tr class="even">
 <td>Contraintes</td>
 <td>Les contraintes décrivent les restrictions de la configuration du modèle de produit. Les contraintes sont utilisées pour vous assurer que seules les valeurs valides sont sélectionnées lorsqu'un produit est configuré. Les contraintes peuvent être des contraintes d'expression ou des contraintes de table :
 <ul>
 <li>Les contraintes d'expression peuvent être utilisées uniquement pour le composant auquel elles sont associées. Les contraintes d'expression pour un composant peuvent référencer des attributs des sous-composants du composant. Le solveur de configuration de produit permet de résoudre les contraintes, vous devez utiliser la syntaxe de solveur lorsque vous entrez les contraintes. Pour plus d'informations, voir le lien de wiki sur les contraintes d'expression et de table.</li>
-<li>Les contraintes de table doivent être définis avant de pouvoir être appliquées à un composant dans un modèle de configuration de produit. Les contraintes de table peuvent être définies par l'utilisateur ou par le système définies. Une contrainte de table définie par l'utilisateur est un type de matrice pouvant être utilisé pour décrire l'ensemble des combinaisons pour les valeurs d'attribut définies par les types d'attributs. Par exemple, si des haut-parleurs sont fabriqués, la matrice de la contrainte de table définie par l'utilisateur peut avoir des colonnes pour les finitions et les grilles.</li>
+<li>Les contraintes de table doivent être définies avant d'être appliquées à un composant dans un modèle de configuration de produit. Les contraintes de table peuvent être définies par l'utilisateur ou le système. Une contrainte de table définie par l'utilisateur est un type de matrice pouvant être utilisé pour décrire l'ensemble des combinaisons pour les valeurs d'attribut définies par les types d'attributs. Par exemple, si des haut-parleurs sont fabriqués, la matrice de la contrainte de table définie par l'utilisateur peut avoir des colonnes pour les finitions et les grilles.</li>
 </ul>
-<strong>Exemple</strong> Les haut-parleurs sont disponibles dans quatre finitions : noir, chêne, bois de rose, et blanc. Les haut-parleurs peuvent avoir un des trois grils avant : Noir, métal ou, blanc. La fin noire est disponible pour tous les grils, mais les autres finitions sont limitées aux grils spécifiques. Le tableau suivant présente un exemple des informations affichées sous l'onglet <strong>Combinaisons autorisées</strong> sur la page <strong>Modifier une contrainte de table</strong>.
+<strong>Exemple</strong> Les haut-parleurs sont disponibles dans quatre finitions : noir, chêne, bois de rose, et blanc. Les haut-parleurs sont disponibles dans trois couleurs de grilles avant : noir, métal, ou blanc. La finition noire est disponible pour toutes les grilles, mais les autres finitions sont limitées à des grilles spécifiques. Le tableau suivant présente un exemple des informations affichées sous l'onglet <strong>Combinaisons autorisées</strong> sur la page <strong>Modifier une contrainte de table</strong>.
 <table>
 <thead>
 <tr class="header">
@@ -117,11 +117,11 @@ Si le type d'attribut est <strong>Booléen</strong>, <strong>Entier</strong> ave
 </tr>
 </tbody>
 </table>
-Une contrainte de table définie par le système sur représente une mise en correspondance entre un type d'attribut et un champ dans Dynamics 365 pour la table d'opérations. Une contrainte de table définie par le système sur les liens de façon dynamique le type d'attribut dans le champ. Le lien permet à l'attribut dans un modèle de configuration de produit pour refléter les données du champ dans Dynamics 365 pour la table d'opérations.</td>
+Une contrainte de table définie par le système constitue une mise en correspondance entre un attribut et un champ dans une table Microsoft Dynamics 365 for Operations. Une contrainte de table définie par le système lie dynamiquement le type d'attribut au champ. Le lien permet à l'attribut dans un modèle de configuration de produit de refléter les données du champ de la table Dynamics 365 for Operations.</td>
 </tr>
 <tr class="odd">
 <td>Calculs</td>
-<td>Les calculs représentent un supplément les contraintes. Vous pouvez utiliser un calcul pour exécuter des opérations arithmétiques sur les attributs de <strong>Décimal</strong> type <strong>Entier</strong> et, ou opérations logiques impliquant des attributs pour <strong>Texte</strong> exécuter une liste fixe et <strong>Booléen</strong> types. Un calcul a un attribut cible qui maintiendra le résultat de l'expression de calcul. L'expression de calcul est conçue à l'aide de l'éditeur d'expressions.</td>
+<td>Les calculs représentent un supplément aux contraintes. Vous pouvez utiliser un calcul pour effectuer des opérations arithmétiques sur les attributs de type <strong>Décimal</strong> et <strong>Entier</strong> ou les opérations logiques impliquant des attributs <strong>Texte</strong> avec une liste fixe et des types <strong>Booléens</strong>. Un calcul a un attribut cible qui maintiendra le résultat de l'expression de calcul. L'expression de calcul est conçue à l'aide de l'éditeur d'expressions.</td>
 </tr>
 <tr class="even">
 <td>Sous-composants</td>

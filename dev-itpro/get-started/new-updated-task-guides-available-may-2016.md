@@ -1,6 +1,6 @@
 ---
-title: "Nouveaux ou mis à jour guides de tâche (mai 2016)"
-description: "Cet article répertorie les nouveaux ou mis à jour guides d&quot;emploi qui ont été lancés dans la bibliothèque unifiée par APQC Microsoft (mai 2016 - Toutes les langues) pour Microsoft Dynamics AX. Aucune nouvelle Bibliothèque de mise en route n&quot;a été publiée."
+title: "Guides de tâches nouveaux ou mis à jour (mai 2016)"
+description: "Cet article répertorie les guides de tâches nouveaux ou mis à jour ont été publiés dans la bibliothèque unifiée APQC (mai 2016 - toutes les langues) de Microsoft pour Microsoft Dynamics AX. Aucune nouvelle Bibliothèque de mise en route n&quot;a été publiée."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,14 +24,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="new-or-updated-task-guides-may-2016"></a>Nouveaux ou mis à jour guides de tâche (mai 2016)
+# <a name="new-or-updated-task-guides-may-2016"></a>Guides de tâches nouveaux ou mis à jour (mai 2016)
 
-Cet article répertorie les nouveaux ou mis à jour guides d'emploi qui ont été lancés dans la bibliothèque unifiée par APQC Microsoft (mai 2016 - Toutes les langues) pour Microsoft Dynamics AX. Aucune nouvelle Bibliothèque de mise en route n'a été publiée. 
+[!include[banner](../includes/banner.md)]
 
-<a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[] () aux guides de tâche dans (mai 2016 - Toutes les langues) l'APQC ont unifié la bibliothèque pour Microsoft Dynamics AX
+
+Cet article répertorie les guides de tâches nouveaux ou mis à jour ont été publiés dans la bibliothèque unifiée APQC (mai 2016 - toutes les langues) de Microsoft pour Microsoft Dynamics AX. Aucune nouvelle Bibliothèque de mise en route n'a été publiée. 
+
+<a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()Guides de tâches dans la bibliothèque unifiée APQC (mai 2016 - toutes les langues) pour Microsoft Dynamics AX
 ------------------------------------------------------------------------------------------------
 
-(Mai 2016) la bibliothèque unifiée par APQC contient les guides de tâche qui sont conçus pour être utilisés pour obtenir de l'aide à Microsoft Dynamics AX la mise à jour le en mai 2016 et Microsoft Dynamics AX le lancement en février 2016. Les versions localisées aux guides d'emploi qui ont été lancés dans (février 2016) la bibliothèque unifiée par APQC sont disponibles dans cette bibliothèque. Pour plus d'informations sur la procédure de connexion du système d'aide dans une bibliothèque de guide de tâche, voir [route route avec aide] (help-overview.md). ** Remarque : ** Un astérisque (**\***) en regard de le titre d'une ligne de (BPM) de modeleur de processus entreprise indique que le Guide de tâche pour ce processus entreprise a été créé pour Dynamics AX la mise à jour le en mai 2016 et n'est pas pris en charge dans les versions précédentes de Microsoft Dynamics AX.
+La bibliothèque unifiée APQC (mai 2016) contient les guides de tâches qui sont destinés à être utilisés pour de l’aide avec la mise à jour de mai 2016 de Microsoft Dynamics AX et la version de février 2016 de Microsoft Dynamics AX. Des versions localisées des guides des tâches qui ont été publiés dans la bibliothèque unifiée APQC (février 2016) sont disponibles dans cette bibliothèque. Pour plus d’informations sur la façon de se connecter au système d’aide dans une bibliothèque de guide de tâche, voir [Prise en main de l'aide](help-overview.md). **Remarque :** un astérisque (**\***) en regard du titre d’une ligne de Concepteur de processus d'entreprise indique que le guide de tâche de ce processus a été créé pour la mise à jour de mai 2016 de Dynamics AX et qu’il n’est pas pris en charge dans les versions antérieures de Microsoft Dynamics AX.
 
 ### <a name="countryregion-functionality"></a>Fonctionnalité spécifique à un pays/une région
 
@@ -65,7 +68,7 @@ Cet article répertorie les nouveaux ou mis à jour guides d'emploi qui ont ét�
 | ER Concevoir une configuration pour générer des états au format OPENXML         | Général         |
 | ER Générer les documents électroniques pour les paiements à l'aide d'une configuration de format | Général         |
 | ER Charger une configuration à partir de Lifecycle Services                          | Général         |
-| **\***ER Select service provider                                           | Général         |
+| **\***ER Sélectionner un fournisseur de services                                           | Général         |
 | ER Mettre à niveau votre format en adoptant la nouvelle version de base de ce format      | Général         |
 | ER Charger une configuration dans Lifecycle Services                          | Général         |
 
@@ -126,7 +129,7 @@ Cet article répertorie les nouveaux ou mis à jour guides d'emploi qui ont ét�
 | Ligne BPM                                                 | Pays/région |
 |----------------------------------------------------------|----------------|
 | Créer un nouveau produit                                     | Général         |
-| Créer.\\ dimensions financières configurations de dimensions basées                    | Général         |
+| Créer ..\Configurations de dimension financière\basée sur les dimensions                    | Général         |
 | Créer des variantes de produits prédéfinies                       | Général         |
 | Créer des critères de sélection de prix de vente                    | Général         |
 | Entrez des commandes pour des produits configurables                   | Général         |
@@ -176,22 +179,24 @@ Cet article répertorie les nouveaux ou mis à jour guides d'emploi qui ont ét�
 | Ligne BPM                                                            | Pays/région |
 |---------------------------------------------------------------------|----------------|
 | Configurer le traitement de la vague                                           | Général         |
-| **\*** déclaration de fin à un emplacement commandé de vol non licence | Général         |
+| **\***Déclarer comme terminé à un emplacement qui ne fait pas l'objet d'un contrôle de contenant | Général         |
 | Paramétrer un processus de réapprovisionnement minimum/maximum                              | Général         |
 | Paramétrer la mise en conteneur                                             | Général         |
 | Paramétrer le processus d'emballage manuel                                               | Général         |
 | Définir des contraintes de transport pour un article                       | Général         |
-| **\***Set up warehouse work policies                                | Général         |
+| **\***Paramétrer les stratégies de travail d'entrepôt                                | Général         |
 
 
 
 <a name="see-also"></a>Voir également :
 --------
 
-[Nouveaux guides de tâche (février 2016)](new-task-guides-available-february-2016.md)
+[Nouveaux guides des tâches (février 2016)](new-task-guides-available-february-2016.md)
 
-[Nouveaux ou mis à jour guides de tâche (août 2016)](new-updated-task-guides-available-august-2016.md)
+[Guides de tâches nouveaux ou mis à jour (août 2016)](new-updated-task-guides-available-august-2016.md)
 
-[Nouveaux ou mis à jour guides de tâche (novembre 2016)](new-task-guides-november-2016.md)
+[Guides de tâches nouveaux ou mis à jour (novembre 2016)](new-task-guides-november-2016.md)
+
+
 
 

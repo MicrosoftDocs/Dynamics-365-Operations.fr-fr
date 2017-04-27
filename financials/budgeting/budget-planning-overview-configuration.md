@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="budget-planning-overview"></a>Vue d'ensemble de la planification de budget
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article présente la planification budgétaire et contient des informations qui vous aident à configurer la planification budgétaire et à paramétrer ses processus.
 
 <a name="overview-of-budget-planning"></a>Vue d'ensemble de la planification budgétaire
@@ -34,7 +37,7 @@ Cet article présente la planification budgétaire et contient des informations 
 
 Vous procédez à la planification budgétaire lorsque vous préparez les budgets qui seront implémentés par une organisation. Une organisation peut configurer la planification budgétaire, puis paramétrer les processus afférents pour répondre à ses stratégies, procédures et exigences en matière de préparation du budget. 
 
-Lorsque vous incluez les concepts et la terminologie qui sont utilisés dans Microsoft Dynamics 365 pour les opérations, il est plus simple que vous mis en œuvre la planification budgétaire dans votre organisation.
+Lorsque vous comprenez les concepts et la terminologie utilisés dans Microsoft Dynamics 365 for Operations, vous avez plus de facilité à implémenter la planification budgétaire dans votre organisation.
 
 ### <a name="key-terms"></a>Termes clés
 
@@ -44,7 +47,7 @@ Lorsque vous incluez les concepts et la terminologie qui sont utilisés dans Mic
 -   **Stades de planification budgétaire** : Les stades de planification budgétaire définissent les étapes qu'un plan budgétaire suit de son origine à l'approbation finale. Les stades de planification budgétaire sont organisés dans des workflows de planification budgétaire.
 -   **Workflows de planification budgétaire** : Les workflows de planification budgétaire sont composés et définissent les phases de planification budgétaire. Les workflows de planification budgétaire sont associés à des workflows de budgétisation. Les workflows de budgétisation sont des processus automatisés et manuels qui font passer les plans budgétaires dans les différents stades de la planification budgétaire.
 
-[terminologie de planification budgétaire d'![] (. /media/budgetplanning-terms-1024x504.png)](. /media/budgetplanning-terms.png)
+[![Terminologie relative à la planification budgétaire](./media/budgetplanning-terms-1024x504.png)](./media/budgetplanning-terms.png)
 
 ### <a name="common-tasks"></a>Tâches communes
 
@@ -55,7 +58,7 @@ Vous pouvez utiliser la planification budgétaire pour réaliser les tâches sui
 -   Transmettre automatiquement les plans budgétaires, ainsi que les feuilles de calcul, les justificatifs et autres pièces jointes pour qu'ils soient révisés et approuvés.
 -   Consolider plusieurs plans budgétaires situés à un niveau inférieur dans l'organisation dans un seul plan budgétaire parent situé à un niveau supérieur de l'organisation. Vous pouvez également élaborer un plan budgétaire unique à un niveau supérieur de l'organisation et allouer le budget à des niveaux inférieurs dans l'organisation.
 
-La planification budgétaire est intégrée à l'autre Microsoft Dynamics 365 pour les modules d'opérations. Par conséquent, vous pouvez apporter des informations relatives aux budgets précédents, dépenses réelles, immobilisations et ressources humaines. Étant donné que la planification budgétaire est également intégrée à Microsoft Excel et Microsoft Word, vous pouvez utiliser ces programmes pour exploiter vos données de planification budgétaire. Par exemple, un responsable du budget peut exporter la demande de budget d'un département dans une feuille de calcul Excel à partir d'un scénario de plan budgétaire. Les données peuvent être analysées, mises à jour et importées dans la feuille de calcul, puis publiées de nouveau dans les lignes du plan budgétaire.
+La planification budgétaire est intégrée à d'autres modules Microsoft Dynamics 365 for Operations. Par conséquent, vous pouvez apporter des informations relatives aux budgets précédents, dépenses réelles, immobilisations et ressources humaines. Étant donné que la planification budgétaire est également intégrée à Microsoft Excel et Microsoft Word, vous pouvez utiliser ces programmes pour exploiter vos données de planification budgétaire. Par exemple, un responsable du budget peut exporter la demande de budget d'un département dans une feuille de calcul Excel à partir d'un scénario de plan budgétaire. Les données peuvent être analysées, mises à jour et importées dans la feuille de calcul, puis publiées de nouveau dans les lignes du plan budgétaire.
 
 ## <a name="configuring-budget-planning"></a>Configuration de la planification budgétaire
 La page **Configuration de planification budgétaire** contient la plupart des paramètres nécessaires pour paramétrer la planification budgétaire. Les sections suivantes décrivent certains facteurs clé dont vous devez tenir compte lorsque vous configurez la planification budgétaire. Après avoir terminé la configuration, vous paramétrez les processus de planification budgétaire.
@@ -64,11 +67,11 @@ La page **Configuration de planification budgétaire** contient la plupart des p
 
 La première étape, facultative mais recommandée, consiste à créer un schéma qui explique la procédure de votre organisation concernant la formulation d'un budget. Vous pouvez utiliser n'importe quelle méthode pour créer ce schéma. L'illustration suivante présente un exemple générique, où des workflows de planification budgétaire distincts sont créés pour différents niveaux de l'organisation. Des stades sont définis dans chaque workflow, et des scénarios spécifiques sont affectés à chaque stade pour contenir les données du budget. Des tâches sont effectuées pour déplacer les données d'un stade au stade suivant. Par exemple, les montants peuvent être affectés ou agrégés pour différents comptes, approbations ou autres révisions. Dans cet exemple, le texte en italique indique un scénario non modifiable lors du stade, ou des données historiques ou approuvées lors d'un stade antérieur et qui ne doivent donc pas être modifiées. 
 
-[schéma générique de planification budgétaire d'![] (. /media/budgetplanninggenericschema-300x145.png)](. /media/budgetplanninggenericschema.png) 
+[![Schéma générique de la planification budgétaire](./media/budgetplanninggenericschema-300x145.png)](./media/budgetplanninggenericschema.png) 
 
-Dans l'exemple suivant, le siège social estime les montants de base du budget d'origine et les distribué aux départements des ventes. Les départements des ventes procèdent ensuite à une estimation et soumettent leurs prévisions au siège, où le responsable du budget regroupe et ajuste les prévisions. Enfin, le responsable du budget envoie les montants budgétaires ajustés au directeur financier pour révision, ajustements finaux et approbation. 
+Dans l'exemple suivant, le siège de l'entreprise établit une estimation des montants de base du budget initial et la distribue aux départements des ventes. Les départements des ventes procèdent ensuite à une estimation et soumettent leurs prévisions au siège, où le responsable du budget regroupe et ajuste les prévisions. Enfin, le responsable du budget envoie les montants budgétaires ajustés au directeur financier pour révision, ajustements finaux et approbation. 
 
-[exemple de schéma de planification budgétaire d'![] (. /media/budgetplanningexampleschema-300x145.png)](. /media/budgetplanningexampleschema.png)
+[![Exemple de schéma de planification budgétaire](./media/budgetplanningexampleschema-300x145.png)](./media/budgetplanningexampleschema.png)
 
 ###  <a name="organization-hierarchy-for-budget-planning"></a>Hiérarchie d'organisation pour la planification budgétaire
 
@@ -84,17 +87,17 @@ La planification du budget peut suivre l'un des deux modèles de sécurité pour
 
 Les workflows de planification budgétaire sont utilisés avec les workflows de budgétisation pour gérer la création et l'évolution des plans budgétaires.
 
-Un workflow de planification budgétaire est composé d'un ensemble ordonné de stades par lesquels un plan budgétaire passe. Chaque workflow de planification budgétaire est associé à un workflow de budgétisation. Les workflows de budgétisation sont l'un des types de workflow qui sont utilisés dans tout Microsoft Dynamics 365 pour les opérations. Le workflow de budgétisation transmet les plans budgétaires, ainsi que les feuilles de calcul, justifications et pièces jointes, au sein de votre organisation pour qu'ils soient révisés et approuvés. 
+Un workflow de planification budgétaire est composé d'un ensemble ordonné de stades par lesquels un plan budgétaire passe. Chaque workflow de planification budgétaire est associé à un workflow de budgétisation. Les workflows de budgétisation sont l'un des types de workflows utilisés dans Microsoft Dynamics 365 for Operations. Le workflow de budgétisation transmet les plans budgétaires, ainsi que les feuilles de calcul, justifications et pièces jointes, au sein de votre organisation pour qu'ils soient révisés et approuvés. 
 
 Vous créez le workflow de planification budgétaire dans la section **Stades de workflow** de la page **Configuration de la planification budgétaire**. Là, vous pouvez sélectionner les stades et le workflow de budgétisation qui sera utilisé, puis configurer également les paramètres supplémentaires. 
 
 Il est judicieux de créer un workflow de planification budgétaire pour chaque niveau d'une hiérarchie de budgétisation. Vous affectez un workflow de budgétisation qui contient les éléments qui correspondent aux stades du workflow de planification budgétaire. Dans l'exemple de schéma donné précédemment, un workflow de planification budgétaire serait créé pour les départements des ventes et un autre serait créé pour les sièges. Un workflow de budgétisation fait progresser les plans budgétaires d'un stade à un autre. 
 
-Vous créez le workflow de budgétisation pour la planification budgétaire dans la page **Workflows de budgétisation**. Le processus est semblable à traiter pour créer d'autres workflows dans Microsoft Dynamics 365 pour les opérations. L'illustration suivante présente un exemple de workflow au niveau du siège. 
+Vous créez le workflow de budgétisation pour la planification budgétaire dans la page **Workflows de budgétisation**. Le processus est semblable au processus de création d'autres workflows dans Microsoft Dynamics 365 for Operations. L'illustration suivante présente un exemple de workflow au niveau du siège. 
 
-[workflow de budgétisation d'![pour la planification budgétaire] (. /media/budgetingworkflowforbudgetplanning-300x300.png)](. /media/budgetingworkflowforbudgetplanning.png) 
+[![Workflow de budgétisation pour la planification budgétaire](./media/budgetingworkflowforbudgetplanning-300x300.png)](./media/budgetingworkflowforbudgetplanning.png) 
 
-Le workflow inclut des éléments pour la répartition aux départements des ventes et à le regroupement de leurs soumissions, la révision par le responsable du budget, l'approbation du CFO, et les transitions de stade entre chaque stade. 
+Le workflow comprend des éléments pour l'allocation aux départements des ventes et l'agrégation de leurs soumissions, la révision par le responsable du budget, l'approbation par le directeur financier et les transitions entre chaque stade. 
 
 Vous affectez le workflow de budgétisation à chaque workflow de planification budgétaire dans la section **Stades de workflow** de la page **Configuration de la planification budgétaire**.
 
@@ -112,8 +115,8 @@ Dans la planification budgétaire, vous pouvez répartir les montants ou les qua
 
 Les programmes de répartition allouent automatiquement des lignes de plan budgétaire lors du traitement du workflow. Vous pouvez effectuer des répartitions à l'aide de l'une des méthodes suivantes de la liste **Mode de répartition** :
 
--   **Répartir par le biais de périodes** : une clé de répartition par période permet d'affecter les lignes du plan budgétaire depuis le scénario de plan budgétaire source sur plusieurs périodes du scénario de destination. ** Remarque : ** Avant de répartir sur plusieurs périodes, vous devez paramétrer des clés de répartition par période dans la page de **** de catégories de répartition par période de ****.
--   **Répartition vers les dimensions** : Les lignes du plan budgétaire sont réparties depuis le scénario de plan budgétaire source sur plusieurs dimensions financières du scénario de destination. ** Remarque : ** Avant de répartir sur les dimensions, vous devez paramétrer des conditions de répartition budgétaire dans la page de **** de conditions de répartition budgétaire de ****.
+-   **Répartir par le biais de périodes** : une clé de répartition par période permet d'affecter les lignes du plan budgétaire depuis le scénario de plan budgétaire source sur plusieurs périodes du scénario de destination. **Remarque :** Avant de répartir sur plusieurs périodes, vous devez paramétrer des clés de répartition par période dans la page ****Catégories de répartition par période****.
+-   **Répartition vers les dimensions** : Les lignes du plan budgétaire sont réparties depuis le scénario de plan budgétaire source sur plusieurs dimensions financières du scénario de destination. **Remarque :** Avant de pouvoir effectuer la répartition sur plusieurs dimensions, vous devez paramétrer les conditions de répartition budgétaire sur la page ****Conditions de répartition budgétaire****.
 -   **Regroupement** : Les lignes du plan budgétaire sont regroupées depuis le scénario de plan budgétaire source des plans budgétaires associés vers le scénario de destination du plan budgétaire parent.
 -   **Répartir** : Les lignes du plan budgétaire sont réparties depuis le scénario de plan budgétaire source du plan budgétaire parent vers le scénario de destination des plans budgétaires associés.
 -   **Utiliser les règles de répartition comptable** : Les lignes de plan budgétaire sont réparties du scénario de plan budgétaire source vers le scénario de destination en fonction de la règle de répartition comptable sélectionnée.
@@ -123,15 +126,15 @@ Les programmes de répartition allouent automatiquement des lignes de plan budg�
 
 Les répartitions de stades sont utilisées pour répartir automatiquement des lignes de plan budgétaire lors du traitement du workflow. Lorsque les répartitions de stades sont utilisées, les lignes de plan budgétaire du scénario de destination peuvent être créées et modifiées sans l'intervention du préparateur ou du réviseur du plan budgétaire.
 
-Lorsque vous paramétrez une répartition de stades, vous associez le workflow et le stade de planification budgétaire au programme de répartition. Le workflow de planification budgétaire doit être associé à un workflow de budgétisation qui utilise la tâche de workflow automatisée par **** de répartition du stade de planification budgétaire de ****. Lorsque le workflow atteint le stade spécifié, la répartition s'effectue automatiquement. Cette tâche automatique peut servir à créer des lignes de plan budgétaire dans un nouveau scénario. 
+Lorsque vous paramétrez une répartition de stades, vous associez le workflow et le stade de planification budgétaire au programme de répartition. Le workflow de planification budgétaire doit être associé à un workflow de budgétisation utilisant la tâche de workflow automatique ****Répartition de stade de planification budgétaire****. Lorsque le workflow atteint le stade spécifié, la répartition s'effectue automatiquement. Cette tâche automatique peut servir à créer des lignes de plan budgétaire dans un nouveau scénario. 
 
 Dans l'exemple de schéma donné précédemment, une répartition est exécutée pour transférer les montants d'un plan budgétaire et de scénarios du stade Référence du siège vers un autre plan budgétaire et d'autres scénarios du stade Estimation du département des ventes. L'illustration suivante montre la section appropriée de l'exemple de schéma.
 
-[répartition de stade d'![] (. /media/stageallocation-204x300.png)](. /media/stageallocation.png) 
+[![Répartitions de stade](./media/stageallocation-204x300.png)](./media/stageallocation.png) 
 
-En outre, dans le schéma d'exemple, une agrégation est effectuée dans les régimes budgétaires et des scénarios dans le stade envoyé par département des ventes dans un plan parent du stade de cumul du siège social. L'illustration suivante montre la section appropriée de l'exemple de schéma.
+En outre, dans l'exemple de schéma, une agrégation est effectuée des plans budgétaires et des scénarios du stade Soumis du département des ventes vers un plan parent du stade repositionnement HQ. L'illustration suivante montre la section appropriée de l'exemple de schéma.
 
-[![Aggregation](./media/aggregation-109x300.png)](./media/aggregation.png)
+[![Regroupement](./media/aggregation-109x300.png)](./media/aggregation.png)
 
 ### <a name="priorities"></a>Priorités
 
@@ -149,9 +152,9 @@ Outre les colonnes des montants budgétaires, vous pouvez définir les colonnes 
 
 Pour l'exemple de schéma, vous voudrez peut-être créer des colonnes pour les scénarios Ventes PY, Contrats et Prévisions (l'illustration suivante montre la section appropriée du schéma). Vous pouvez ensuite éclater l'un de ces scénarios ou tous ces scénarios en différentes colonnes pour chaque trimestre de l'exercice, de sorte que le responsable du département Ventes puisse précisément entrer des montants de prévision pour chaque période.
 
-[![Columns](./media/columns.png)](./media/columns.png) 
+[![Colonnes](./media/columns.png)](./media/columns.png) 
 
-Vous devez également si chaque élément de mise en page (colonne) est modifiable, et s'il est disponible dans tous modèle de feuille de calcul qui est créé pour cette mise en page. Pour l'exemple de schéma, dans la mise en page utilisée pour le stade Estimation, les colonnes de prévision sont modifiables, alors que les colonnes de ventes PY et de contrats sont en lecture seule.
+Vous indiquez également si chaque élément de mise en page (colonne) est modifiable, et s'il est disponible dans n'importe quel modèle de feuille de calcul créé pour cette mise en page. Pour l'exemple de schéma, dans la mise en page utilisée pour le stade Estimation, les colonnes de prévision sont modifiables, alors que les colonnes de ventes PY et de contrats sont en lecture seule.
 
 ### <a name="templates"></a>Modèles
 
@@ -160,7 +163,7 @@ Dans la section **Mises en page** de la page **Configuration de planification bu
 Vous pouvez générer, afficher ou télécharger un modèle pour chaque mise en page. Lorsqu'un modèle est généré, la mise en page est verrouillée et ne peut pas être modifiée. Ce verrouillage aide à garantir que le format du modèle correspond à la mise en page du plan budgétaire et qu'il inclut les mêmes données. Une fois le modèle généré, il peut être affiché et modifié. Par exemple, vous pouvez ajouter des graphiques au modèle ou personnaliser davantage son apparence.
 
 > [!NOTE] 
-> Le modèle doit être enregistré sur un emplacement auquel l'utilisateur a accès, afin qu'il puisse être chargé de la mise en page après modification soit terminé. De cette manière, le modèle sera utilisé avec les plans budgétaires qui utilisent la mise en page.
+> Le modèle doit être enregistré dans un emplacement auquel l'utilisateur a accès, afin qu'il puisse être chargé vers la mise en page lorsque la modification est terminée. De cette manière, le modèle sera utilisé avec les plans budgétaires qui utilisent la mise en page.
 
 ### <a name="descriptions"></a>Description
 
@@ -184,6 +187,8 @@ Dans le menu **Actions**, vous pouvez également créer un processus en copiant 
 
 Une autre commande utile du menu **Actions** est **Afficher le statut de processus budgétaire**. Cette commande affiche graphiquement les plans budgétaires d'un processus, avec les données appropriées, comme le statut de workflow des plans, des synthèses par montant et par unité et la navigation en un clic vers les plans budgétaires.
 
-[![Budget planning process status](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
+[![Statut de processus de planification budgétaire](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
+
+
 
 

@@ -1,5 +1,5 @@
 ---
-title: Configuration d&quot;un processus d&quot;approbation dans un workflow
+title: Configurer un processus d&quot;approbation dans un workflow
 description: "La procédure suivante permet de configurer les propriétés du processus d&quot;approbation."
 author: sericks007
 manager: AnnBe
@@ -24,11 +24,11 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-an-approval-process-in-a-workflow"></a>Configuration d'un processus d'approbation dans un workflow
+# <a name="configure-an-approval-process-in-a-workflow"></a>Configurer un processus d'approbation dans un workflow
 
 La procédure suivante permet de configurer les propriétés du processus d'approbation.
 
-Pour configurer un processus d'approbation, dans l'éditeur de workflow, cliquez avec le bouton droit sur l'élément d'approbation, puis cliquez sur ** des propriétés ** pour ouvrir ** des propriétés ** l'écran.
+Pour configurer un processus d'approbation, dans l'éditeur de workflow, cliquez avec le bouton droit sur l'élément d'approbation, puis cliquez sur **Propriétés** pour ouvrir l'écran **Propriétés**.
 Saisie d'un nom pour le processus d'approbation
 -------------------------
 
@@ -40,7 +40,7 @@ Procédez comme suit pour entrer un nom pour le processus d'approbation.
 Vous pouvez configurer le système pour qu'il agisse automatiquement sur le document s'il répond à certaines conditions. Par exemple, le système peut approuver les états de dépenses dont le montant total est inférieur à USD 100. Procédez comme suit pour indiquer quand le système agit sur le document.
 1.  Dans le volet gauche, cliquez sur **Actions automatiques**.
 2.  Activez la case à cocher **Activer les actions automatiques**.
-3.  Click **Add condition**.
+3.  Cliquez sur **Ajouter une condition**.
 4.  Permet d'entrer une condition.
 5.  Entrez d'autres conditions, le cas échéant.
 6.  Pour vérifier que les conditions que vous avez entrées sont correctement configurées, procédez comme suit :
@@ -71,7 +71,7 @@ Vous pouvez envoyer des notifications aux personnes lorsqu'un document a été a
     4.  Cliquez sur **Insérer**
 
 7.  Pour ajouter des traductions de la notification, cliquez sur **Traductions**. Dans l'écran affiché, procédez comme suit :
-    1.  Click **Add**.
+    1.  Cliquez sur **Ajouter**.
     2.  Dans la liste affichée, sélectionnez la langue dans laquelle vous allez saisir le texte.
     3.  Entrez le texte dans la zone de texte **Texte traduit**.
     4.  Pour personnaliser le texte, insérez des espaces réservés.
@@ -112,11 +112,11 @@ Vous pouvez envoyer des notifications aux personnes lorsqu'un document a été a
     </ol></td>
     </tr>
     <tr class="odd">
-    <td><strong>User</strong></td>
-    <td>Microsoft Dynamics spécifique 365 pour les utilisateurs d'opérations</td>
+    <td><strong>Utilisateur</strong></td>
+    <td>Utilisateurs Microsoft Dynamics 365 for Operations spécifiques</td>
     <td><ol>
     <li>Sélectionnez <strong>Utilisateur</strong>, puis cliquez sur l'onglet <strong>Utilisateur</strong>.</li>
-    <li><strong>Utilisateurs disponibles</strong>: la liste inclut tous Microsoft Dynamics 365 pour les utilisateurs d'opérations. Sélectionnez les utilisateurs à qui envoyer les notifications, puis déplacez-les dans la liste <strong>Utilisateurs sélectionnés :</strong>.</li>
+    <li>La liste <strong>Utilisateurs disponibles</strong> inclut tous les utilisateurs Microsoft Dynamics 365 for Operations. Sélectionnez les utilisateurs à qui envoyer les notifications, puis déplacez-les dans la liste <strong>Utilisateurs sélectionnés :</strong>.</li>
     </ol></td>
     </tr>
     </tbody>

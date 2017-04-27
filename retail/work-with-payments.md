@@ -1,5 +1,5 @@
 ---
-title: Modes de paiement sur un centre d&quot;appels
+title: Modes de paiement dans un centre d&quot;appels
 description: "Cette rubrique décrit les différentes méthodes de paiement que vous pouvez utiliser dans un centre d’appels de Commerce et vente au détail."
 author: josaw1
 manager: AnnBe
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 92163
 ms.assetid: 8e738907-870b-466c-ab0c-07f4a4aa47f3
 ms.search.region: global
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="payment-methods-in-a-call-center"></a>Modes de paiement sur un centre d'appels
+# <a name="payment-methods-in-a-call-center"></a>Modes de paiement dans un centre d'appels
+
+[!include[banner](includes/banner.md)]
+
 
 Cette rubrique décrit les différentes méthodes de paiement que vous pouvez utiliser dans un centre d’appels de Commerce et vente au détail.
 
@@ -43,6 +46,8 @@ Si vous soumettez un paiement par carte de crédit depuis l'écran **Commande cl
 
 -   Les blocages de chèques permettent au personnel financier de traiter les commandes qui ont été placés en attente parce qu’un chèque a été utilisé comme mode de paiement et que le montant du seuil de blocage de chèque a été dépassé. Le blocage peut être lancé manuellement, ou il expire automatiquement à la fin de la période configurée.
 -   Vous pouvez définir des seuils au-dessus desquels les remboursements émis par chèques et cartes de crédit doivent être approuvés manuellement. Tout remboursement qui dépasse le seuil est ajouté à la file d'attente d'approbation. Après avoir approuvé le remboursement, la commande client de retour peut être facturée.
+
+
 
 
 

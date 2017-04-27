@@ -1,6 +1,6 @@
 ---
-title: "Sécurité utilisateur du portail fournisseur"
-description: "Cet article détaille la procédure de paramétrage de la sécurité pour les fournisseurs externes qui utilisent le portail Fournisseur. Ces informations ne s&quot;appliquent qu&quot;aux versions &amp; de février 2016 au mai 2016 de Dynamics AX."
+title: "Sécurité de l&quot;utilisateur du portail fournisseur"
+description: "Cet article détaille la procédure de paramétrage de la sécurité pour les fournisseurs externes qui utilisent le portail Fournisseur. Ces informations ne s&quot;appliquent qu&quot;aux versions de février 2016 et de mai 2016 de Dynamics AX."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,11 +25,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="vendor-portal-user-security"></a>Sécurité utilisateur du portail fournisseur
+# <a name="vendor-portal-user-security"></a>Sécurité de l'utilisateur du portail fournisseur
 
-Cet article détaille la procédure de paramétrage de la sécurité pour les fournisseurs externes qui utilisent le portail Fournisseur. Ces informations ne s'appliquent qu'aux versions &amp; de février 2016 au mai 2016 de Dynamics AX.
+[!include[banner](../includes/banner.md)]
 
-La fonctionnalité de portail fournisseur a été remplacée par la fonctionnalité étendue de collaboration du fournisseur dans Dynamics 365 pour la version 1611 d'opérations. Pour plus d'informations sur la sécurité pour la collaboration de fournisseurs, voir [le paramétrage et de tenir à jour la collaboration de fournisseur] (setup-maintain-vendor-collaboration.md). Le portail Fournisseur expose un ensemble limité d'informations sur les commandes fournisseur (CF) aux fournisseurs externes. Il est important de paramétrer correctement des autorisations utilisateur pour le portail Fournisseur dans Microsoft Dynamics AX, de sorte que les fournisseurs n'aient pas un accès involontaire aux informations supplémentaires dans votre installation de Dynamics AX. **Important :** à la différence d'autres utilisateurs, les fournisseurs externes ne doivent pas avoir le rôle **SystemUser**. Le rôle **SystemUser** octroie l'accès à un ensemble de privilèges qui ne sont pas appropriés aux utilisateurs externes.
+
+Cet article détaille la procédure de paramétrage de la sécurité pour les fournisseurs externes qui utilisent le portail Fournisseur. Ces informations ne s'appliquent qu'aux versions de février 2016 et de mai 2016 de Dynamics AX.
+
+La fonctionnalité de portail fournisseur a été remplacée par la fonctionnalité étendue de collaboration fournisseur dans la version 1611 de Dynamics 365 for Operations. Pour plus d'informations sur le paramétrage de la sécurité pour la collaboration fournisseur, voir [Paramétrer et mettre à jour la collaboration fournisseur](set-up-maintain-vendor-collaboration.md). Le portail Fournisseur expose un ensemble limité d'informations sur les commandes fournisseur (CF) aux fournisseurs externes. Il est important de paramétrer correctement des autorisations utilisateur pour le portail Fournisseur dans Microsoft Dynamics AX, de sorte que les fournisseurs n'aient pas un accès involontaire aux informations supplémentaires dans votre installation de Dynamics AX. **Important :** à la différence d'autres utilisateurs, les fournisseurs externes ne doivent pas avoir le rôle **SystemUser**. Le rôle **SystemUser** octroie l'accès à un ensemble de privilèges qui ne sont pas appropriés aux utilisateurs externes.
 
 ## <a name="setting-up-a-vendor-portal-user"></a>Paramétrage d'un utilisateur du portail Fournisseur
 Avant de créer un compte utilisateur pour une personne qui utilise le portail Fournisseur, vous devez paramétrer le fournisseur pour autoriser sa collaboration au portail Fournisseur. Utilisez le champ **Collaboration de commande fournisseur** sous l'onglet **Général** dans la page **Fournisseurs**. Les fournisseurs externes qui utilisent le portail Fournisseur doivent avoir le paramétrage suivant :
@@ -44,6 +47,8 @@ Si la même personne a besoin d'accéder au portail Fournisseur pour plusieurs c
 <a name="see-also"></a>Voir également :
 --------
 
-[Vendor collaboration](collaborate-vendors-vendor-portal.md)
+[Collaboration du fournisseur](collaborate-vendors-vendor-portal.md)
+
+
 
 

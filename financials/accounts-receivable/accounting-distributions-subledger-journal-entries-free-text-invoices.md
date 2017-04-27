@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounting-distributions-and-subledger-journal-entries-for-free-text-invoices"></a>Répartitions comptables et écritures de journal de comptabilité auxiliaire pour les factures financières
 
+[!include[banner](../includes/banner.md)]
+
+
 Les répartitions comptables permettent de définir la façon dont un montant sera pris en compte, par exemple, la manière dont le produit, la taxe ou les frais seront reportés sur une facture financière. Chaque montant qui doit être pris en compte lorsque la facture financière est journalisée aura une ou plusieurs répartitions comptables.
 
 <a name="accounting-distributions"></a>Répartitions comptables
@@ -35,7 +38,7 @@ Les répartitions comptables permettent de définir la façon dont un montant se
 
 Vous pouvez utiliser les boutons suivants de la page Facture financière pour afficher et éventuellement modifier les répartitions comptables pour chaque montant de la facture financière.
 
--   ** Répartissez les montants ** — d'afficher et de modifier les répartitions comptables pour une ligne individuelle et toutes les lignes enfants, telles que des taxes et des frais. Vous pouvez également afficher et modifier les répartitions comptables de la ligne enfant directement dans la page Transactions de taxe ou la page Transactions de frais.
+-   **Répartir les montants** : Permet d'afficher et de modifier les répartitions comptables pour une ligne individuelle et toutes les lignes enfants, telles que des taxes ou des frais. Vous pouvez également afficher et modifier les répartitions comptables de la ligne enfant directement dans la page Transactions de taxe ou la page Transactions de frais.
     -   Modifiez les montants d'en-tête de facture financière, comme les frais ou les arrondis de devise.
     -   Modifiez les montants de la ligne de facture financière.
 -   **Afficher les distributions** : Permet d'afficher les répartitions comptables pour toutes les lignes du document. Vous ne pouvez pas modifier les répartitions comptables de cette vue.
@@ -132,5 +135,7 @@ Il est impossible de créer des répartitions comptables pour les taxes tant que
 
 ## <a name="subledger-journals-for-free-text-invoices"></a>Journaux de comptabilité auxiliaires pour les factures financières
 Avant de valider une facture financière, vous pouvez afficher l'écriture de compte complète de la facture, qui inclut des débits et des crédits, pour vérifier que la facture est validée dans les comptes corrects. Cette vue de l'écriture de compte complète est appelée écriture de journal de comptabilité auxiliaire. Si l'écriture de journal de comptabilité auxiliaire est incorrecte lorsque vous en affichez un aperçu avant de journaliser la facture financière, vous ne pouvez pas la modifier. Vous devez plutôt modifier les répartitions comptables ou le profil de validation. Les répartitions comptables permettent de définir un côté de l'écriture de compte, de débit ou de crédit. L'écriture de compte de journal de comptabilité auxiliaire de contrepartie est créée à l'aide des profils de validation, par exemple le compte client ou la taxe.
+
+
 
 

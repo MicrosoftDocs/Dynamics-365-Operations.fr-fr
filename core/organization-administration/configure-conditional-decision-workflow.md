@@ -1,5 +1,5 @@
 ---
-title: "Configuration d&quot;une décision conditionnelle dans un workflow"
+title: "Configurer une décision conditionnelle dans un workflow"
 description: "La procédure suivante permet de configurer les propriétés d&quot;une décision conditionnelle."
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-a-conditional-decision-in-a-workflow"></a>Configuration d'une décision conditionnelle dans un workflow
+# <a name="configure-a-conditional-decision-in-a-workflow"></a>Configurer une décision conditionnelle dans un workflow
+
+[!include[banner](../includes/banner.md)]
+
 
 La procédure suivante permet de configurer les propriétés d'une décision conditionnelle.
 
@@ -38,7 +41,7 @@ Procédez comme suit pour entrer un nom pour une décision conditionnelle.
 ## <a name="set-conditions"></a> Définition des conditions
 Le système détermine la branche utilisée en évaluant si le document soumis répond à des conditions spécifiques.
 1.  Dans le volet gauche, cliquez sur **Paramètres de base**.
-2.  Click **Add condition**.
+2.  Cliquez sur **Ajouter une condition**.
 3.  Permet d'entrer une condition.
 4.  Entrez des conditions supplémentaires, si nécessaire.
 5.  Pour vérifier que les conditions que vous avez entrées sont correctement configurées, procédez comme suit :
@@ -46,6 +49,8 @@ Le système détermine la branche utilisée en évaluant si le document soumis r
     2.  Sélectionnez un enregistrement dans la zone **Contrôler la condition** de l'écran.
     3.  Cliquez sur **Tester**. Le système évalue l'enregistrement pour déterminer s'il répond aux conditions que vous avez spécifiées.
     4.  Cliquez sur **OK** ou sur **Annuler** pour revenir à l'écran **Propriétés**.
+
+
 
 
 

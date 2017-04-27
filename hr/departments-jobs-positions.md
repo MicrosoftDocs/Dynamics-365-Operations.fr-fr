@@ -1,5 +1,5 @@
 ---
-title: "Planifier votre personnel à l&quot;aide de les départements, les tâches, et des postes"
+title: "Organiser le personnel à l&quot;aide des départements, tâches et postes"
 description: "Les départements, les tâches et les postes sont des éléments d&quot;organisation qui sont tenus à jour au sein des Ressources humaines. Cette rubrique décrit des informations conceptuelles sur ces éléments."
 author: rschloma
 manager: AnnBe
@@ -26,22 +26,25 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="organize-your-workforce-using-departments-jobs-and-positions"></a>Planifier votre personnel à l'aide de les départements, les tâches, et des postes
+# <a name="organize-your-workforce-using-departments-jobs-and-positions"></a>Organiser le personnel à l'aide des départements, tâches et postes
+
+[!include[banner](includes/banner.md)]
+
 
 Les départements, les tâches et les postes sont des éléments d'organisation qui sont tenus à jour au sein des Ressources humaines. Cette rubrique décrit des informations conceptuelles sur ces éléments. 
 
 L'exemple suivant est utilisé pour illustrer les concepts décrits dans cette rubrique.
 
-|**Département**|**Position**|**Job**|
+|**Département**|**Poste**|**Tâche**|
 |---|---|---|
 |**Ventes**|Responsable des ventes (est)|Responsable des ventes|
 |**Ventes**|Responsable des ventes (ouest)|Responsable des ventes|
 |**Ventes**|Responsable des ventes (centre)|Responsable des ventes|
-|**Accounting**|Chef comptable|Responsable comptabilité|
-|**Accounting**|Comptabilité-A|Comptable|
-|**Human resources**|Directeur RH (est)|Directeur RH|
-|**Human resources**|Directeur RH (ouest)|Directeur RH|
-|**Human resources**|Directeur RH (centre)|Directeur RH|
+|**Comptabilité**|Chef comptable|Responsable comptabilité|
+|**Comptabilité**|Comptabilité-A|Comptable|
+|**Ressources humaines**|Directeur RH (est)|Directeur RH|
+|**Ressources humaines**|Directeur RH (ouest)|Directeur RH|
+|**Ressources humaines**|Directeur RH (centre)|Directeur RH|
 
  
  <a name="departments"></a>Départements
@@ -79,9 +82,9 @@ Vous pouvez créer des descriptifs de tâches qui décrivent les tâches de base
 
 ### <a name="job-functions"></a>Fonctions
 
-Les fonctions de tâche sont comme des descriptifs de tâches. Une fonction de tâche décrit une ou plusieurs tâches, devoirs ou responsabilités affectés à une tâche. Les fonctions de tâche peuvent être affectées aux tâches et servir à paramétrer et mettre en œuvre des règles d'admissibilité pour les régimes de rémunération. Les exemples des fonctions de tâche sont répertoriés dans le tableau suivant.
+Les fonctions de tâche sont comme des descriptifs de tâches. Une fonction de tâche décrit une ou plusieurs tâches, devoirs ou responsabilités affectés à une tâche. Les fonctions de tâche peuvent être affectées aux tâches et servir à paramétrer et mettre en œuvre des règles d'admissibilité pour les régimes de rémunération. Des exemples de fonctions de tâche sont répertoriés dans le tableau suivant.
 
-| Mission           | Fonction de tâche                                                |
+| Tâche           | Fonction de tâche                                                |
 |---------------|-------------------------------------------------------------|
 | Responsable des ventes | Gestion de personnes – gérer les personnes placés sous votre autorité.               |
 | Comptable    | Examen des états financiers – tenue à jour des données financières pour un ensemble de comptes. |
@@ -101,7 +104,7 @@ Utilisez les domaines de responsabilité pour indiquer les rôles, les processus
 <a name="positions"></a>Postes
 ----------
 
-Les postes sont un élément important du niveau inférieur d'une hiérarchie d'organisation. Un poste est une instance individuelle de tâche. Par exemple, le poste « , responsable des ventes (est), » est un seul des postes associé à la tâche, « responsable des ventes ». Les postes existent au sein d'un département et sont affectés aux travailleurs.
+Les postes sont un élément important du niveau inférieur d'une hiérarchie d'organisation. Un poste est une instance individuelle de tâche. Par exemple, le poste « Responsable des ventes (est) » est l'un des postes associé à la tâche « Responsable des ventes ». Les postes existent dans un département et sont affectées aux travailleurs.
 ### <a name="position-creation-and-maintenance"></a>Création et mise à jour de poste
 
 -   Vous pouvez afficher un historique des modifications relatives aux postes du système dans une page de liste facile d'accès.
@@ -161,6 +164,8 @@ Pour certains enregistrements, vous pouvez spécifier des modifications futures 
 </table>
 
 Vous pouvez modifier les informations mentionnées dans le tableau précédent pour un poste ou une tâche et spécifier une date à laquelle les modifications apportées au poste ou à la tâche doivent prendre effet. Par exemple, un poste peut uniquement être affecté à un travailleur, mais Sanjay Patel, affecté au poste de Comptable A, partira dans deux semaines. Olivier Renaud remplacera Sanjay Patel à son départ. Même si Sanjay est affecté au poste, vous pouvez y affecter Olivier Renaud afin que l'affectation soit effective seulement après le dernier jour de Sanjay.
+
+
 
 
 

@@ -28,11 +28,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="compensation-plans"></a>Régimes de rémunération
 
+[!include[banner](includes/banner.md)]
+
+
 Les gestionnaires de rémunération et avantages peuvent utiliser la gestion des rémunérations pour tenir à jour et traiter les régimes de rémunération fixes et variables des employés de l'organisation.
 
 ### <a name="introduction"></a>Introduction
 
-La gestion des rémunérations permet de contrôler la rémunération de base et les primes. Le salaire de base fixe et les augmentations pour mérite des employés sont gérés via les régimes de rémunération fixe. Le paiement des primes (primes liées aux résultats, options d'achat d'actions et octrois d'actions), ainsi que les primes exceptionnelles, est contrôlé via les régimes de rémunération variable. 
+La gestion des rémunérations est utilisée pour contrôler la rémunération de base et les primes. Le salaire de base fixe et les augmentations pour mérite d'un employé sont contrôlés via les régimes de rémunération fixe. Le paiement des primes (primes liées aux résultats, options d'achat d'actions et octrois d'actions), ainsi que les primes exceptionnelles, est contrôlé via les régimes de rémunération variable. 
 
 Vous pouvez associer les employés à un ou plusieurs de ces régimes. Pour prétendre à l'enregistrement dans un régime de rémunération, l'employé doit remplir les conditions suivantes :
 -   L'employé doit avoir une affectation de poste active.
@@ -54,7 +57,7 @@ Le tableau suivant répertorie les composants du processus de rémunération pou
 <td>Les actions de rémunération fixe ont deux objectifs :
 <ul>
 <li>Les actions peuvent spécifier le type d'informations qui doivent être enregistrées lorsque la rémunération d'un employé change. Par exemple, vous pouvez exiger que le motif d'une modification, telle qu'une promotion ou une rétrogradation, soit enregistré.</li>
-<li>Les actions peuvent s'assurer qu'un calcul s'applique lorsque des régimes de rémunération fixe sont traités.  Par exemple, les actions capitaux propres du type compareront les employés paient à la référence minimal point de réception pour le niveau sur l'employé et assurent l'employé est payée au moins un nombre minimum.</li>
+<li>Les actions permettent de garantir qu'un calcul est appliqué lorsque les régimes de rémunération fixe sont traités.  Par exemple, les actions de type Capitaux propres compareront le salaire des employés au point de référence minimal par rapport au niveau de l'employé et garantiront que l'employé est rémunéré au moins au niveau minimal.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -83,7 +86,7 @@ Le tableau suivant répertorie les composants du processus de rémunération pou
 </tr>
 <tr class="even">
 <td>Fréquences de paiement</td>
-<td>Les types de fréquences de paiement sont utilisées pour définir la période pendant laquelle la rémunération est spécifiée.  Par exemple, les applications de la fréquence de paiement vous comprenez si le montant de rémunération est spécifié comme salaire annuel comparatif un taux de salaire horaire. Les types de fréquences de paiement sont également utilisées pour paramétrer les facteurs de conversion pour convertir les montants de rémunération de mensuel, d'une semaine, deux fois par semaine et des fréquences de paiement horaires à une fréquence de paiement annuelle.</td>
+<td>Les fréquences de paiement permettent de définir la période pour laquelle la rémunération est spécifiée.  Par exemple, les fréquences de paiement vous aident à comprendre si le montant de rémunération est spécifié comme un salaire annuel ou comme un taux de salaire horaire. Les fréquences de paiement permettent également de paramétrer des facteurs de conversion pour convertir les montants de rémunération mensuelle, hebdomadaire, bi-hebdomadaire et horaire en paiement annuel.</td>
 </tr>
 <tr class="odd">
 <td>Régions de rémunération</td>
@@ -107,7 +110,7 @@ Le tableau suivant répertorie les composants du processus de rémunération pou
 </tr>
 <tr class="even">
 <td>Grilles de rémunération</td>
-<td>Les grilles de rémunération contiennent la structure de rémunération.  Les grilles de rémunération peuvent être utilisées par une ou plusieurs régimes de rémunération.</td>
+<td>Les grilles de rémunération contiennent la structure de rémunération.  Elles peuvent être utilisées par un ou plusieurs régimes de rémunération.</td>
 </tr>
 <tr class="odd">
 <td>Régime basé sur les résultats</td>
@@ -126,9 +129,11 @@ Un événement des traitements de données calcule les informations de rémunér
 <a name="compensation-events"></a>Événements de rémunération
 -------------------
 
-Chaque fois qu'un événement des traitements de données est exécuté, un événement de rémunération est créé.  Les événements de rémunération contiennent les résultats du processus de rémunération pour chaque employé inclus dans cet événement de processus.  Lorsque les calculs sont corrects, vous pouvez charger l'événement de rémunération pour mettre à jour les enregistrements de rémunération des employés affectés par l'événement de processus.
+Chaque fois qu'un événement de processus est exécuté, un événement de rémunération est créé.  Les événements de rémunération contiennent les résultats du processus de rémunération pour chaque employé inclus dans cet événement de processus.  Lorsque les calculs sont corrects, vous pouvez charger l'événement de rémunération pour mettre à jour les enregistrements de rémunération pour les employés affectés par l'événement de processus.
 
 ## <a name="recommendations"></a>Recommandations
 Après avoir exécuté un événement des traitements de données, vous pouvez recommander des ajustements au montant de la prime et à l'augmentation pour mérite d'un employé, sur la base des résultats du calcul de l'événement des traitements de données. Pour être en mesure d'émettre des recommandations pour les employés, vous devez autoriser les recommandations lorsque vous paramétrez les régimes de rémunération ou l'événement des traitements de données.
+
+
 
 

@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="transportation-management-overview"></a>Vue d'ensemble de la gestion du transport
 
+[!include[banner](../includes/banner.md)]
+
+
 Cette rubrique fournit une vue d'ensemble de la fonctionnalité de gestion du transport dans Microsoft Dynamics 365 for Operations.
 
 La Gestion du transport vous permet de gérer les transports de votre société et d'identifier les solutions utilisant des fournisseurs et des prestataires d'acheminement spécifiques pour les commandes entrantes et sortantes. Par exemple, vous pouvez identifier le parcours le plus rapide ou le moins cher pour une expédition. Le tableau suivant décrit les principaux scénarios utilisés pour la gestion du transport dans Microsoft Dynamics 365 for Operations.
@@ -67,19 +70,21 @@ La Gestion du transport vous permet de gérer les transports de votre société 
 ## <a name="planning-transportation-in-dynamics-365-for-operations"></a>Planifier le transport dans Dynamics 365 for Operations
 Dans Gestion du transport, la planification des transports peut être basée sur les commandes ou sur les expéditions créées selon ces commandes. Les expéditions existent toujours à un moment donné mais elles ne sont pas requises pour la planification des transports. Les ordres de transfert font partie du scénario sortant et peuvent être planifiés avec des commandes client. 
 
-![Dessin de charge](./media/Load-drawing1-1024x477.jpg)
+![Load drawing](./media/Load-drawing1-1024x477.jpg)
 
 ## <a name="inbound-transportation"></a>Transport entrant
-Lorsque vous commandez des articles à un fournisseur, et les articles doivent être livrés à votre entrepôt, vous pouvez réorganiser le transport des articles vous-même. Vous pouvez utiliser Dynamics 365 pour les opérations permettent d'organiser le transport et la réception de la charge entrants. La figure suivante indique le flux du processus entreprise de planification du transport pour un chargement entrant. 
+Lorsque vous commandez des articles à un fournisseur et que ces articles doivent être livrés à votre entrepôt, vous pouvez souhaiter organiser le transport des articles vous-même. Utilisez Dynamics 365 for Operations pour planifier le transport et la réception de la charge entrante. La figure suivante indique le flux du processus entreprise de planification du transport pour un chargement entrant. 
 
 ![Flux de processus entreprise pour le transport de chargement entrant](./media/Businessprocessflowforinboundloadtransportation.jpg)
 
 ## <a name="outbound-transportation"></a>Transport sortant
 Vous pouvez planifier et traiter une charge sortante pour expédier des articles spécifiques de l'entrepôt d'une société à un client. Utilisez Dynamics 365 for Operations pour planifier le transport et l'expédition d'une charge sortante. La figure suivante indique le flux du processus entreprise de planification et le traitement des charges sortantes pour l'expédition. 
 
-![Organisant et traitant les charges sortants](./media/Planningandprocessingoutboundloads.jpg)
+![Planification et traitement des charges sortantes](./media/Planningandprocessingoutboundloads.jpg)
 
 ## <a name="load-building"></a>Création de chargement
 Dynamics 365 for Operations fournit une stratégie de création de chargement qui est nommée Stratégie de création de chargement basée sur le volume. Cette stratégie vous permet d'utiliser les valeurs maximales spécifiées pour la hauteur et le poids dans le modèle de chargement, sinon vous pouvez remplacer les paramètres en entrant de nouvelles valeurs. Pour utiliser cette stratégie, sélectionnez-la dans le champ **Stratégie de création de chargement** dans l'organisateur **Paramétrage** sur la page **Atelier de création de chargement**. En outre, vous pouvez ajouter vos propres stratégies de création de chargement en créant une nouvelle classe dans l'arbre d'objets d'application (AOA).
+
+
 
 

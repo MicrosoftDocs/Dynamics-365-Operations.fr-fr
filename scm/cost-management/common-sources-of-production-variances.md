@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="common-sources-of-production-variances"></a>Sources courantes des écarts de production
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article décrit diverses sources typiques de chaque type d'écart de production. 
 
 Voici quelques sources typiques d'écart de **taille de lot** :
@@ -57,6 +60,8 @@ Voici quelques sources typiques d'écart d'une **substitution de production** :
 -   Vous ajoutez manuellement une opération à la gamme de production et déclarez cette opération comme étant consommée.
 -   Lorsque vous créez l'ordre de fabrication, vous sélectionnez une version de nomenclature différente de celle utilisée dans le calcul de coûts standard.
 -   Lorsque vous créez l'ordre de fabrication, vous sélectionnez une version de gamme différente de celle utilisée dans le calcul de coûts standard.
+
+
 
 
 

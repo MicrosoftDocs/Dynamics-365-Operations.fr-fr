@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="operations-scheduling"></a>Ordonnancement
 
+[!include[banner](../includes/banner.md)]
+
+
 Cette rubrique fournit des informations sur l'ordonnancement. Vous pouvez utiliser l'ordonnancement pour fournir une estimation globale du processus de production dans le temps.
 
 Vous pouvez planifier la production au niveau des opérations et des tâches. Contrairement à la planification de tâche, la planification d'opérations n'éclate pas les opérations de la gamme de production en tâches. Si vous souhaitez inclure davantage de détails dans la planification, tels que des informations sur la capacité actuelle, vous pouvez exécuter la planification des tâches après avoir exécuté l'ordonnancement. Vous pouvez également exécuter uniquement une planification de tâches. La planification des tâches concerne généralement la planification de tâches individuelles dans l'atelier et se déroule normalement immédiatement ou à court terme.
@@ -76,5 +79,7 @@ Si vous utilisez des matières limitées, la planification dépend également de
 --------
 
 [Options d'ordonnancement](operation-scheduling-options.md)
+
+
 
 

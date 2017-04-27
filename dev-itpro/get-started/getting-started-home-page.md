@@ -1,6 +1,6 @@
 ---
-title: Appartenance commencer
-description: "Démarrez ici à bord rapidement et découvrez Microsoft Dynamics 365 pour les opérations IU."
+title: "Où commencer"
+description: "Démarrez ici pour découvrir rapidement l&quot;interface utilisateur de Microsoft Dynamics 365 for Operations."
 eauthor: sericks007
 manager: AnnBe
 ms.date: 2015-12-11 15 - 19 - 40
@@ -26,44 +26,44 @@ ms.lasthandoff: 03/30/2017
 
 ---
 
-# <a name="where-to-start"></a>Appartenance commencer
+# <a name="where-to-start"></a>Où commencer
 
-Démarrez ici à bord rapidement et découvrez Microsoft Dynamics 365 pour les opérations IU.
+Démarrez ici pour découvrir rapidement l'interface utilisateur de Microsoft Dynamics 365 for Operations.
 
 ## <a name="onboarding"></a>Intégration
-Les ressources suivantes fournissent une vue d'ensemble de l'utilisation de votre partenaire pour obtenir onboarded à Dynamics 365 pour les opérations et d'utilisation Dynamics 365 pour les Lifecycle Services d'opérations. 
+Les ressources suivantes fournissent une vue d'ensemble du fonctionnement de votre partenaire Dynamics 365 for Operations et de l'utilisation de Dynamics 365 for Operations Lifecycle Services. 
 
-- [Voie rapide de Microsoft pour vue d'ensemble de Dynamics 365] (/dynamics365/operations/get-started/fasttrack-dynamics-365-overview) 
-- [Sign up for a subscription](../dev-tools/sign-up-preview-subscription.md) 
-- [Lifecycle Services (LCS) pour Microsoft Dynamics 365 pour les clients d'opérations (]. /lifecycle-services/lcs-works-lcs.md) 
-- [Comment les clients qui ont acheté Microsoft Dynamics 365 pour les opérations via un fournisseur de services de cloud peuvent obtenir la version de dépassement lieu de Dynamics 365 pour les opérations (2012]. /deployment/csp-download-customersource.md)
+- [Vue d'ensemble de Microsoft FastTrack for Dynamics 365](/dynamics365/operations/get-started/fasttrack-dynamics-365-overview) 
+- [Souscrire un abonnement](../dev-tools/sign-up-preview-subscription.md) 
+- [Lifecycle Services (LCS) pour les clients Microsoft Dynamics 365 for Operations](../lifecycle-services/lcs-works-lcs.md) 
+- [Comment les clients ayant acheté Microsoft Dynamics 365 for Operations via un fournisseur de services en cloud peuvent obtenir la version locale de Dynamics 365 for Operations 2012](../deployment/csp-download-customersource.md)
 
 ## <a name="user-interface"></a>Interface utilisateur
-Les ressources suivantes fournissent des informations sur Dynamics 365 pour l'expérience utilisateur d'opérations. 
--   [Nouveautés dans Dynamics 365 pour l'expérience utilisateur d'opérations (le mélange Office)](https://mix.office.com/watch/1ohsrrpsd02e1)
+Les ressources suivantes fournissent des informations sur l'expérience utilisateur Dynamics 365 for Operations. 
+-   [Nouveautés de l'expérience utilisateur Dynamics 365 for Operations (Office Mix)](https://mix.office.com/watch/1ohsrrpsd02e1)
 -   [Personnalisation de l'expérience de l'utilisateur](/dynamics365/operations/get-started/personalize-user-experience)
 -   [Configuration et filtrage des espaces de travail](/dynamics365/operations/get-started/configure-filter-workspaces)
--   [Navigation search](/dynamics365/operations/get-started/navigation-search)
+-   [Recherche de navigation](/dynamics365/operations/get-started/navigation-search)
 -   [Recherche d'actions](/dynamics365/operations/get-started/action-search)
--   [Keyboard shortcuts](/dynamics365/operations/get-started/shortcut-keys)
--   [Display pages side-by-side using the Open in New Window icon](/dynamics365/operations/get-started/display-pages-side-by-side)
--   [Advanced filtering and query options](/dynamics365/operations/get-started/advanced-filtering-query-options)
--   [Dynamics 365 pour FAQ client d'opérations] (/dynamics365/operations/get-started/client-faq)
--   [Modifier le drapeau ou le logo (Guide de tâche)](http://ax.help.dynamics.com/en/wiki/change-the-banner-or-logo/)
+-   [Raccourcis clavier](/dynamics365/operations/get-started/shortcut-keys)
+-   [Afficher côte à côte des pages à l'aide de l'icône Ouvrir dans une nouvelle fenêtre](/dynamics365/operations/get-started/display-pages-side-by-side)
+-   [Options de requête et de filtrage avancé](/dynamics365/operations/get-started/advanced-filtering-query-options)
+-   [FAQ sur le client Dynamics 365 for Operations](/dynamics365/operations/get-started/client-faq)
+-   [Modifier la bannière ou le logo (Guide de tâche)](http://ax.help.dynamics.com/en/wiki/change-the-banner-or-logo/)
 
 ## <a name="help-system"></a>Système d'aide
 Les ressources suivantes fournissent une vue d'ensemble du système d'aide et expliquent l'affichage des descriptions de champ.
 
--   [Getting started with Help](help-overview.md)
--   [Connect the Help system](help-connect.md)
--   [Comment afficher et exporter les descriptions de champ](/dynamics365/operations/get-started/view-export-field-descriptions)
--   [Dynamics 365 pour système d'aide d'opérations (fiche documentaire)](https://mbs.microsoft.com/customersource/Global/AX/learning/fact-sheets/msdaxhelpsystemfactsheet)
-
-### <a name="task-recordings-and-task-guides"></a>Enregistrement des tâches et guides de tâche
-
-L'enregistreur de tâches est Dynamics 365 pour l'outil d'opérations qui permet d'enregistrer les actions que vous rentrez l'interface utilisateur (UI). Lorsque vous créez un *enregistrement de tâche*, tous les événements exécutés par rapport au serveur sont enregistrés à mesure que vous les effectuez dans l'interface utilisateur. Ces événements incluent l'ajout de valeurs, la modification de paramètres, et la suppression de données. Un *guide de tâches* est une expérience interactive contrôlée et guidée, qui vous accompagne le long des étapes d'enregistrement d'une tâche. Vous pouvez ouvrir (ou *lire*) un guide de tâches à partir du système d'aide.
+-   [Mise en route avec l'aide](help-overview.md)
 -   [Connexion au système d'aide](help-connect.md)
--   [Enregistreur de tâches dans Dynamics 365 pour les opérations (]. /user-interface/task-recorder.md)
+-   [Comment afficher et exporter les descriptions de champ](/dynamics365/operations/get-started/view-export-field-descriptions)
+-   [Système d'aide de Dynamics 365 for Operations (fiche)](https://mbs.microsoft.com/customersource/Global/AX/learning/fact-sheets/msdaxhelpsystemfactsheet)
+
+### <a name="task-recordings-and-task-guides"></a>Enregistrements de tâches et guides de tâches
+
+L'enregistreur de tâches est un outil Dynamics 365 for Operations que vous pouvez utiliser pour enregistrer les mesures que vous prenez dans l'interface utilisateur (IU). Lorsque vous créez un *enregistrement de tâche*, tous les événements exécutés par rapport au serveur sont enregistrés à mesure que vous les effectuez dans l'interface utilisateur. Ces événements incluent l'ajout de valeurs, la modification de paramètres, et la suppression de données. Un *guide de tâches* est une expérience interactive contrôlée et guidée, qui vous accompagne le long des étapes d'enregistrement d'une tâche. Vous pouvez ouvrir (ou *lire*) un guide de tâches à partir du système d'aide.
+-   [Connexion au système d'aide](help-connect.md)
+-   [Enregistreur de tâches de Dynamics 365 for Operations](../user-interface/task-recorder.md)
 -   [Création d'une documentation ou d'une formation à l'aide d'enregistrements de tâche](../user-interface/task-recorder.md)
 -   [Nouveaux guides des tâche disponibles (février 2016)](new-task-guides-available-february-2016.md)
 
@@ -71,12 +71,12 @@ L'enregistreur de tâches est Dynamics 365 pour l'outil d'opérations qui perme
 <a name="see-also"></a>Voir également :
 --------
 
-[Créer de nouvelles bibliothèques de formation pour Dynamics 365 pour les opérations à l'intérieur de Lifecycle Services à l'aide de l'enregistreur de tâches (lien externe)](https://docs.com/mufife/163372c6-f366-4c5a-94fa-93e2c25f878a/creating-new-training-libraries-for-dynamics-ax)
+[Création de nouvelles bibliothèques de formation pour Dynamics 365 for Operations dans les Lifecycle Services à l’aide de l’enregistreur de tâches (lien externe)](https://docs.com/mufife/163372c6-f366-4c5a-94fa-93e2c25f878a/creating-new-training-libraries-for-dynamics-ax)
 
-[Nouveaux guides de tâche (février 2016)](new-task-guides-available-february-2016.md)
+[Nouveaux guides des tâches (février 2016)](new-task-guides-available-february-2016.md)
 
-[Nouveaux ou mis à jour guides de tâche (mai 2016)](new-updated-task-guides-available-may-2016.md)
+[Guides de tâches nouveaux ou mis à jour (mai 2016)](new-updated-task-guides-available-may-2016.md)
 
-[Nouveaux ou mis à jour guides de tâche (novembre 2016)](new-task-guides-november-2016.md)
+[Guides de tâches nouveaux ou mis à jour (novembre 2016)](new-task-guides-november-2016.md)
 
 

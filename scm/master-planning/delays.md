@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="delays"></a>Retards
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article fournit des informations sur les dates retardées de la planification. Une date retardée est une date d'échéance réaliste attribuée à une transaction si la date d'exécution la plus proche calculée par la planification est postérieure à la date demandée.
 
 La planification peut calculer la date d'exécution la plus proche pour une transaction, en fonction des délais, de la disponibilité des matières, de la disponibilité de la capacité et de divers paramètres de planification. 
@@ -41,11 +44,13 @@ Vous pouvez configurer la manière dont les retards sont calculés pour un group
 
 Dans la page **Paramètres de planification**, vous pouvez définir l'heure de début pour le calcul des retards. Si une commande est exécutée après cette heure, un retard d'une journée est ajouté à la date de retard de la commande. 
 
-** Remarque : ** Dans les versions précédentes, les retards calculés ont été appelés messages* de *futures, la date retardée a été appelée date* de *futures, et une transaction de retard est qualifiée de la transaction de *a qui était le futur set*.
+**Remarque :** Dans les versions précédentes, les retards calculés étaient appelés *messages de perspectives*, la date différée était appelée *date au plus tôt*, et une transaction différée était appelée *transaction définie dans le futur*.
 
 <a name="see-also"></a>Voir également :
 --------
 
 [Paramètres de couverture](coverage-settings.md)
+
+
 
 

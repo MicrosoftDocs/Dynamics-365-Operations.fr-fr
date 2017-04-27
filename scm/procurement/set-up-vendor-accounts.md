@@ -1,5 +1,5 @@
 ---
-title: "Comptes fournisseurs de paramétrage"
+title: "Paramétrer les comptes fournisseur"
 description: "Cette rubrique décrit les types d&quot;informations que vous devez spécifier lorsque vous créez un nouveau compte fournisseur."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-vendor-accounts"></a>Comptes fournisseurs de paramétrage
+# <a name="set-up-vendor-accounts"></a>Paramétrer les comptes fournisseur
+
+[!include[banner](../includes/banner.md)]
+
 
 Cette rubrique décrit les types d'informations que vous devez spécifier lorsque vous créez un nouveau compte fournisseur.
 
@@ -40,7 +43,7 @@ Lorsque vous créez un compte fournisseur, vous devez entrer des informations co
 -   Paramétrez la taxe, la livraison, la facture et les informations de paiement pour le fournisseur. Par défaut, ces paramètres sont copiés dans les documents que vous créez pour le fournisseur.
 -   Paramétrez des dimensions financières par défaut utilisées pour valider automatiquement les transactions avec le fournisseur dans les comptes financiers.
 
-Pour accélérer le processus de création des comptes fournisseur, vous pouvez créer des modèles. Pour créer un modèle, sous ** fournisseur ** page, dans le volet Actions, cliquez sur ** options ** &gt; ** les informations d'enregistrement **. Cliquez ensuite sur **Modèle de compte société**. Les modèles de compte société sont partagés avec d'autres utilisateurs.  
+Pour accélérer le processus de création des comptes fournisseur, vous pouvez créer des modèles. Pour créer un modèle, dans la page **Fournisseur**, dans le volet Actions, cliquez sur **Options** &gt; **Infos sur l'enregistrement**. Cliquez ensuite sur **Modèle de compte société**. Les modèles de compte société sont partagés avec d'autres utilisateurs.  
 
 Vous pouvez également créer un modèle utilisateur pour votre utilisation personnel. Vous ne pouvez pas supprimer un fournisseur associé à d'autres enregistrements, tels que des contacts ou des produits.
 
@@ -56,7 +59,7 @@ Pour chaque fournisseur, vous pouvez définir plusieurs adresses, chacune est ut
 ## <a name="vendor-contacts"></a>Contacts fournisseur
 Vous pouvez enregistrer des contacts pour un fournisseur. Ces contacts peuvent être utilisés sur des documents tels que des commandes fournisseur ou des demandes de devis.  
 
-Pour ajouter des contacts pour un fournisseur, sur ** tous les fournisseurs ** page, sous ** fournisseur ** onglet Paramétrage, ** ** au groupe, cliquez sur ** contacts ** &gt; ** d'ajouter des contacts **.  
+Pour ajouter des contacts pour un fournisseur, dans la page **Tous les fournisseurs**, sous l'onglet, **Fournisseur**, dans le groupe **Paramétrage**, cliquez sur **Contacts** &gt; **Ajouter des contacts**.  
 
 Vous pouvez créer des contacts fournisseur de toutes pièces. Sinon, vous pouvez copier les détails d'une autre personne déjà enregistrée dans Microsoft Dynamics 365 for Operations, et modifier les informations comme vous le souhaitez.  
 
@@ -64,7 +67,7 @@ Vous pouvez créer des contacts fournisseur de toutes pièces. Sinon, vous pouve
 
 Vous ne pouvez pas supprimer l'enregistrement d'une personne à contacter si le contact est référencé sur un document. Au lieu de cela, vous pouvez désactiver le contact.  
 
-Vous pouvez ajouter des contacts fournisseur à vos contacts personnels dans Microsoft Office 365. Toutefois, vous devez d'abord paramétrer la synchronisation entre Dynamics 365 pour les opérations et Office 365 dans la synchronisation de Microsoft Exchange Server et l'Assistant Paramétrage de Microsoft Outlook.
+Vous pouvez ajouter des contacts fournisseur à vos contacts personnels dans Microsoft Office 365. Toutefois, vous devez d'abord paramétrer la synchronisation entre Dynamics 365 for Operations et Office 365 dans la synchronisation de Microsoft Exchange Server et l'Assistant Paramétrage de Microsoft Outlook.
 
 ## <a name="vendors-in-different-legal-entities"></a>Fournisseurs dans plusieurs entités juridiques
 Si un fournisseur est enregistré pour une seule entité juridique de votre organisation, et que d'autres entités juridiques doivent enregistrer le même fournisseur, vous pouvez utiliser la page **Ajouter le fournisseur à une autre entité juridique** pour configurer le fournisseur pour qu'il exerce son activité avec une autre entité juridique. Vous devez sélectionner un groupe de fournisseurs, une devise et un statut de blocage pour le fournisseur dans l'entité juridique sélectionnée.  
@@ -101,5 +104,7 @@ Si vous devez effectuer des paiements vers un compte bancaire fournisseur, vous 
 Vous pouvez spécifier les comptes par défaut qui s'affichent automatiquement dans les journaux des factures fournisseur pour le fournisseur spécifié. Cette fonctionnalité peut être utile si vous payez généralement les même articles ou services auprès des mêmes fournisseurs. Si vous spécifiez un compte par défaut, vous pouvez entrer rapidement et efficacement des entrées de journal dans le journal des factures. Les comptes par défaut que vous spécifiez ne sont pas utilisés pour les commandes fournisseur ou les factures fournisseur entrées dans l'écran **Facture fournisseur**.  
 
 Vous devez sélectionner les comptes par défaut dans la page **Paramétrage du compte par défaut**, accessible à partir de l'onglet **Facture** dans l'enregistrement de fournisseur. Les comptes que vous sélectionnez ici s'affichent dans la liste filtrée des comptes du compte fournisseur lorsque vous entrez une entrée de journal. Vous pouvez définir l'un des comptes comme celui par défaut.
+
+
 
 

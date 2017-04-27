@@ -28,23 +28,26 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="order-promising"></a>Promesse de commande
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article fournit des informations sur les promesses de commande. Les promesses de commandes vous permettent de promettre de manière fiable des dates de livraison à vos clients et vous offre une certaine flexibilité pour pouvoir respecter ces dates.
 
 La promesse de commande calcule les premières dates d'expédition et de réception, et est basée sur la méthode de contrôle de la date de livraison et les jours de transport. Vous pouvez sélectionner parmi quatre méthodes de contrôle de la date de livraison :
 
--   ** Délai de vente ** – Le délai de vente est l'intervalle entre la création de la commande client et l'expédition d'articles. Le calcul de la date de livraison est basé sur un nombre de jours par défaut, et ne tient pas compte de la disponibilité en actions, la demande connue, ou l'approvisionnement prévisionnel.
--   ** À la vente (DAV) ** – Le DAV est la quantité d'un article disponible et peut être promis à un client une date spécifique. Le calcul de DAV inclut le stock non engagé, les délais, les réceptions et les sorties prévues.
+-   **Délai de vente** – Le délai de vente est le temps entre la création de la commande client et l'expédition des articles. Le calcul de la date de livraison est basé sur un nombre de jours par défaut, et ne prend pas en compte pas la disponibilité du stock, la demande connue ni l'approvisionnement prévu.
+-   **DAV (disponible à la vente)** –Le DAV correspond à la quantité d'un article qui est disponible et peut être promise à un client à une date spécifique. Le calcul de DAV inclut le stock non engagé, les délais, les réceptions et les sorties prévues.
 -   **DAV + Marge de sortie **– La date d'expédition correspond à la date DAV plus la marge de sortie de l'article. La marge de sortie est le temps nécessaire pour préparer les articles pour l'expédition.
 -   **CTP (capable-to-promise) **– La disponibilité est calculée par le biais de l'éclatement.
 
 ## <a name="atp-calculations"></a>Calculs DAV
-La quantité disponible à la vente est calculée en utilisant « DAV cumulé avec de la méthode de lecture anticipée ». L'avantage principal de ce mode de calcul DAV est qu'il peut traiter les cas où la somme de problèmes entre les réceptions est supérieur à la dernière réception (par exemple, lorsqu'une quantité d'une réception antérieure doit être utilisée pour répondre à une exigence). « Le DAV cumulé avec le mode de calcul de lecture anticipée » inclut tous les problèmes jusqu'à ce que la quantité de cumul à recevoir dépasse la quantité cumulée pour publier. Par conséquent, la méthode de calcul DAV évalue si une partie de la quantité d'une période antérieure peut être utilisée pour une période ultérieure.  
+La quantité DAV est calculée en utilisant la méthode « DAV cumulatif avec anticipation ». Le principal avantage de cette méthode de calcul du DAV est qu'elle peut gérer les cas où la somme des sorties entre les réceptions est supérieure à la dernière réception (par exemple lorsqu'une quantité d'une réception précédente doit être utilisée pour respecter une exigence). La méthode de calcul « DAV cumulatif avec anticipation » inclut toutes les sorties jusqu'à ce que la quantité cumulative à recevoir dépasse la quantité cumulative à sortir. Par conséquent, la méthode de calcul DAV évalue si une partie de la quantité d'une période antérieure peut être utilisée pour une période ultérieure.  
 
 La quantité DAV est le solde non engagé de stock de la première période. Généralement, elle est calculée pour chaque période pour laquelle une réception est prévue. Le programme calcule la période DAV en jours et la date actuelle comme la première date pour la quantité disponible à la vente. Au cours de cette première période, la quantité disponible à la vente inclut le stock disponible moins les commandes client qui sont dues et en retard.  
 
 DAC est calculé à l'aide des formules suivantes :  
 
-DAV = DAV pour la période précédente + les réceptions pour la période actuelle – Affiche pour la période actuelle – quantité nette de sortie pour chaque future période jusqu'à la période où la somme des réceptions pour toutes les périodes futures, jusqu'à la future période, dépasse la somme des sorties jusqu'à la future période.  
+DAV = DAV pour la période précédente + les réceptions pour la période actuelle – les sorties pour la période actuelle – la quantité nette de sortie pour chaque future période jusqu'à la période au cours de laquelle la somme des réceptions pour toutes les futures périodes, jusqu'à la future période incluse, soit supérieure à la somme des sorties, jusqu'à la future période incluse.  
 
 Lorsqu'il n'y a plus de sorties ou de réceptions à examiner, la quantité disponible à la vente pour les dates suivantes est la même que la dernière quantité disponible à la vente calculée.  
 
@@ -66,8 +69,10 @@ Un client appelle et souhaite commander 150 pièces du même produit. Lorsque vo
 
 Vous créez une ligne de commande client pour le produit et entrez la valeur **150** pour la quantité.  
 
-Étant donné que le contrôle de la date de livraison est DAV, les données DAV sont calculées de sorte à rechercher la date d'expédition la plus proche possible. En fonction de les paramètres, la commande fournisseur retardée et la commande client sont considérés, et la quantité résultant de la vente pour la date actuelle est 0. Demain, lorsque la commande fournisseur retardée doit être reçu, la quantité disponible est calculée comme plus de 0 (dans ce cas, elle est calculé comme 125). Toutefois, 10 jours entre la mise à jour, où la commande fournisseur supplémentaire pour 100 pièces est reçue, la quantité disponible est supérieure à 150.  
+Étant donné que le contrôle de la date de livraison est DAV, les données DAV sont calculées de sorte à rechercher la date d'expédition la plus proche possible. Selon les paramètres, la commande fournisseur et la commande client retardées sont prises en compte, et la quantité DAV qui en résulte pour la date actuelle est 0. Demain, lorsque la réception de la commande fournisseur retardée est prévue, la quantité DAV est calculée comme supérieure à 0 (dans ce cas, elle est calculée comme étant de 125). Toutefois, dans 10 jours à compter d'aujourd'hui, lorsque la réception de la commande fournisseur supplémentaire pour 100 pièces est prévue, la quantité DAV devient supérieure à 150.  
 
-Par conséquent, la date d'expédition est de 10 jours entre la mise à jour, selon le calcul DAV. Vous devez donc informer le client que la quantité demandée peut être livrée dans 10 jours.
+Par conséquent, la date d'expédition est définie sur 10 jours à compter d'aujourd'hui, selon le calcul DAV. Vous devez donc informer le client que la quantité demandée peut être livrée dans 10 jours.
+
+
 
 

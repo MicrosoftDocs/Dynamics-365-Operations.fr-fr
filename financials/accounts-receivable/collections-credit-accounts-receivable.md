@@ -1,6 +1,6 @@
 ---
-title: "Crédit et recouvrements dans le module Ventes"
-description: "Les informations de recouvrement Ventes sont gérées dans une vue centrale à l&quot;aide de Microsoft Dynamics 365 de la page de recouvrement d&quot;opérations. Les directeurs des crédits et perceptions peuvent utiliser cette vue centrale pour gérer les recouvrements. Les agents de recouvrement peuvent lancer le processus de recouvrement soit à partir des listes de clients générées à l&quot;aide de critères de recouvrement prédéfinis, soit à partir de la page Clients."
+title: "Crédit et recouvrements dans la Comptabilité client"
+description: "Les informations de recouvrement de la Comptabilité client sont gérées dans une vue centrale unique qui utilise la page Recouvrements de Microsoft Dynamics 365 for Operations. Les directeurs des crédits et perceptions peuvent utiliser cette vue centrale pour gérer les recouvrements. Les agents de recouvrement peuvent lancer le processus de recouvrement soit à partir des listes de clients générées à l&quot;aide de critères de recouvrement prédéfinis, soit à partir de la page Clients."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="credit-and-collections-in-accounts-receivable"></a>Crédit et recouvrements dans le module Ventes
 
-Les informations de recouvrement Ventes sont gérées dans une vue centrale à l'aide de Microsoft Dynamics 365 de la page de recouvrement d'opérations. Les directeurs des crédits et perceptions peuvent utiliser cette vue centrale pour gérer les recouvrements. Les agents de recouvrement peuvent lancer le processus de recouvrement soit à partir des listes de clients générées à l'aide de critères de recouvrement prédéfinis, soit à partir de la page Clients.
+[!include[banner](../includes/banner.md)]
+
+
+Les informations de recouvrement de la Comptabilité client sont gérées dans une vue centrale unique qui utilise la page Recouvrements de Microsoft Dynamics 365 for Operations. Les directeurs des crédits et perceptions peuvent utiliser cette vue centrale pour gérer les recouvrements. Les agents de recouvrement peuvent lancer le processus de recouvrement soit à partir des listes de clients générées à l'aide de critères de recouvrement prédéfinis, soit à partir de la page Clients.
 
 Avant de commencer à paramétrer ou utiliser des recouvrements, vous devez comprendre les concepts suivants :
 -   Les instantanés de balance âgée des clients contiennent des informations sur les balances âgées à un moment donné
@@ -55,9 +58,9 @@ Pour chaque plage âgée de la définition de plage âgée, un enregistrement d�
 Les regroupements de clients sont des requêtes qui définissent un groupe d'enregistrements client qui peuvent être affichés et gérés pour les processus liés aux recouvrements ou balances âgées. Les regroupements de clients permettent de filtrer des informations dans les pages de liste Soldes chronologiques, Activités de recouvrement et Dossiers de recouvrement. Vous pouvez également utiliser les regroupements de clients pour filtrer les comptes client inclus lors de la création des instantanés de balance âgée.
 
 ## <a name="collections-agents"></a>Agents de recouvrement
-Par défaut, Microsoft Dynamics 365 pour les utilisateurs d'opérations peut afficher toutes les informations client dans les pages de liste de recouvrement. Les enregistrements d'agents de recouvrement permettent de déterminer les regroupements de clients disponibles pour filtrer les informations dans les pages de liste de recouvrement et sur la page Recouvrements. 
+Par défaut, les utilisateurs de Microsoft Dynamics 365 for Operations peuvent afficher toutes les informations client dans les pages de liste de recouvrement. Les enregistrements d'agents de recouvrement permettent de déterminer les regroupements de clients disponibles pour filtrer les informations dans les pages de liste de recouvrement et sur la page Recouvrements. 
 
-Un agent de recouvrement est une personne qui travaille avec les clients pour s'assurer que les paiements sont collectés en temps voulu. Dans Microsoft Dynamics 365 pour les opérations, les agents de recouvrement sont des travailleurs affectés aux utilisateurs dans la page de paramétrage utilisateur.
+Un agent de recouvrement est une personne qui travaille avec les clients pour s'assurer que les paiements sont collectés en temps voulu. Dans Microsoft Dynamics 365 for Operations, les agents de recouvrement sont des collaborateurs paramétrés en tant qu'utilisateurs dans la page Paramétrage utilisateur.
 
 ## <a name="collections-list-pages"></a> Pages de liste Recouvrements 
 Les pages de liste suivantes permettent d'organiser les informations de recouvrement.
@@ -67,7 +70,7 @@ Les pages de liste suivantes permettent d'organiser les informations de recouvre
 
 > [!NOTE]
 > Vous devez créer un instantané de balance âgée avant d'afficher des informations dans ces pages de liste. Les informations sont affichées seulement pour les clients pour lesquels un instantané de balance âgée a été créé. Les enregistrements affichés sur la page de liste peuvent être filtrés comme suit :
-<li>Par défaut, Microsoft Dynamics 365 pour l'utilisateur d'opérations a accès à tous les clients pour lesquels un instantané de balance âgée.</li>
+<li>Par défaut, un utilisateur de Microsoft Dynamics 365 for Operations a accès à tous les clients associés à un instantané de balance âgée.</li>
 <li>Si des regroupements de clients existent, un utilisateur doit être paramétré en tant qu'agent de recouvrement pour les utiliser afin de filtrer les informations des pages de liste de recouvrement. Les informations sont limitées aux clients inclus dans le regroupement de clients sélectionné.</li>
 <li>Si un utilisateur est paramétré en tant qu'agent de recouvrement, seuls les regroupements sélectionnés pour celui-ci sont disponibles dans la page de liste. Si l'option Autoriser l'agent à voir tous les regroupements de clients est sélectionnée sur la page Agent de recouvrement pour l'agent de recouvrement, tous les regroupements sont disponibles pour celui-ci.</li>
 
@@ -75,7 +78,7 @@ Les pages de liste suivantes permettent d'organiser les informations de recouvre
 ## <a name="collections-page"></a> Page Recouvrements
 La page Recouvrements permet d'afficher, de gérer et d'utiliser les informations, les activités et les demandes de devis de recouvrement pour un client spécifique. 
 
-Le volet supérieur affiche les dossiers pour le client sélectionné. Le volet du milieu affiche les transactions pour le client. Le volet inférieur affiche les activités pour le client. Vous pouvez créer des demandes de devis de recouvrement pour suivre les informations de recouvrement pour une ou plusieurs transactions et activités. Les informations des volets supérieur et inférieur peuvent êtres filtrées par demande de devis. 
+Le volet supérieur affiche les incidents pour le client sélectionné. Le volet du milieu affiche les transactions pour le client. Le volet inférieur affiche les activités pour le client. Vous pouvez créer des demandes de devis de recouvrement pour suivre les informations de recouvrement pour une ou plusieurs transactions et activités. Les informations des volets supérieur et inférieur peuvent êtres filtrées par demande de devis. 
 
 Les récapitulatifs affichent les informations relatives aux balances âgées et à la limite de crédit pour le client sélectionné. Ces informations sont stockées dans l'instantané de balance âgée. Si nécessaire, vous pouvez mettre à jour l'instantané de balance âgée avec les informations actuelles. 
 
@@ -86,7 +89,7 @@ Vous pouvez exonérer, rétablir ou contrepasser l'intégralité des notes d'int
 
 Ces ajustements affectent uniquement les notes d'intérêt, et les intérêts et les commissions qu'elles incluent. Les procédures décrites dans la section « Création de transactions d'annulation en une seule étape » permettent d'annuler l'ensemble des frais dus par le client.
 
-## <a name="create-writeoff-transactions"></a>Création de transactions de radiation
+## <a name="create-writeoff-transactions"></a>Création de transactions d'annulation
 Vous pouvez annuler les créances irrécouvrables en cliquant sur Annuler dans l'écran Recouvrements, et dans les pages de liste Soldes chronologiques, Clients et Factures client en cours. 
 
 Lorsque vous annulez des transactions pour un client, celles-ci sont automatiquement marquées pour règlement. Le montant annulé dépend du montant net des transactions marquées. La transaction d'annulation est créée dans le journal des opérations diverses et peut contenir jusqu'à trois types de lignes de journal.
@@ -100,6 +103,8 @@ Traitement des paiements des impayés
 --------------------------------------------
 
 Vous pouvez traiter les paiements des impayés en cliquant sur Paiement des impayés sur la page Recouvrements. Lorsque vous cliquez sur ce bouton, le paiement est annulé. Si des frais d'impayés s'appliquent au client, une transaction de frais est créée dans le journal des paiements. Le montant des frais est basé sur les paramètres relatifs aux frais automatiques. Les frais automatiques qui s'appliquent aux paiements des impayés sont spécifiés par le groupe de frais sélectionné sur la page Comptes bancaires pour le compte bancaire concerné.
+
+
 
 
 

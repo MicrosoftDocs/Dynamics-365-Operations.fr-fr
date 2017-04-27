@@ -1,5 +1,5 @@
 ---
-title: "Appareils mobiles de paramétrage pour le travail d&quot;entrepôt"
+title: "Paramétrer des appareils mobiles pour un travail d&quot;entrepôt"
 description: "Cet article décrit la manière de configurer les options de menu utilisées par les collaborateurs d&quot;entrepôt pour travailler sur un appareil mobile."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-mobile-devices-for-warehouse-work"></a>Appareils mobiles de paramétrage pour le travail d'entrepôt
+# <a name="set-up-mobile-devices-for-warehouse-work"></a>Paramétrer des appareils mobiles pour un travail d'entrepôt
 
 Cet article décrit la manière de configurer les options de menu utilisées par les collaborateurs d'entrepôt pour travailler sur un appareil mobile.
 
@@ -35,7 +35,7 @@ Cet article décrit la manière de configurer les options de menu utilisées par
 -   Créer le travail qui sera effectué via un autre processus. Par exemple, la réception d'un article pour une commande fournisseur peut créer le travail de rangement pour un autre collaborateur.
 -   Effectuer un travail créé par un autre processus (travail existant), comme le travail de rangement créé lors de la réception d'un article pour une commande fournisseur.
 
-Pour créer une option de menu pour une activité ou une recherche, définissez ** mode ** le champ ** indirect **. Une liste ** code activité ** d'options devient alors disponible, afin de pouvoir sélectionner le type de la recherche ou d'activité à laquelle l'option de menu est destiné. Pour créer une option de menu pour générer le travail d'entrepôt, définissez ** mode ** le champ ** travail **. Une liste ** processus de création de travail ** d'options devient alors disponible. Pour créer une option de menu pour traiter le travail d'entrepôt existant, définissez le champ **Mode** sur **Travail**, puis définissez l'option **Utiliser un travail existant** sur **Oui**. ** Remarque : ** Les autres champs peuvent être disponibles pour les options de menu, en fonction de le mode que vous sélectionnez pour l'option de menu, et si l'option de menu est utilisée pour effectuer le travail existant. Pour plus d'informations sur les sélections supplémentaires du champ, voir la section « Options supplémentaires aux options de menu » plus loin dans cet article.
+Pour créer une option de menu pour une activité ou une recherche, définissez le champ **Mode** sur **Indirect**. La liste des options **Code activité** devient alors disponible pour vous permettre de sélectionner le type de recherche ou d'activité auquel l'option de menu s'applique. Pour créer une option de menu pour générer le travail d'entrepôt, définissez le champ **Mode** sur **Travail**. La liste des options **Processus de création de travail** devient alors disponible. Pour créer une option de menu pour traiter le travail d'entrepôt existant, définissez le champ **Mode** sur **Travail**, puis définissez l'option **Utiliser un travail existant** sur **Oui**. **Remarque :** des champs supplémentaires peuvent être disponibles pour les options de menu selon le mode sélectionné pour l'option de menu, et si l'option de menu est utilisée pour effectuer un travail existant. Pour plus d'informations sur les sélections de champs supplémentaires, voir la section « Options de menu supplémentaires » plus loin dans cet article.
 
 ## <a name="configure-menu-items-for-activities-and-inquiries"></a>Configurer des options de menu pour les activités et les recherches
 Si le champ **Mode** d'une option de menu est défini sur **Indirect**, vous pouvez créer une option de menu pour effectuer une activité ou une recherche générale qui ne crée pas de travail. Il peut s'agir par exemple de la réimpression des étiquettes de contenant ou d'une recherche sur les articles dans un emplacement. Le tableau suivant répertorie les options disponibles.
@@ -190,7 +190,7 @@ Vous pouvez paramétrer une option de menu qui crée un travail pour un autre co
 </table>
 
 ## <a name="configure-menu-items-to-process-existing-work"></a>Configurer des options de menu pour traiter le travail existant
-Outre la configuration des options de menu pour créer le travail d'entrepôt, vous pouvez paramétrer des options de menu pour traiter le travail qui a déjà été créé. Définissez le champ **Mode** sur **Travail**, puis sélectionnez l'option **Utiliser un travail existant**. Certaines options supplémentaires sont alors disponibles sur ** général ** l'onglet. Vous pouvez contrôler l'accès à l'option de menu en affectant un ou plusieurs classes de travail sur ** classe de travail ** l'organisateur. Les classes de travail définissent le travail que l'option de menu peut traiter. La classe de travail permet également d'autoriser l'accès à des rôles utilisateur spécifiques ou de séparer le traitement pour différents types d'opérations. Le tableau suivant décrit les options disponibles.
+Outre la configuration des options de menu pour créer le travail d'entrepôt, vous pouvez paramétrer des options de menu pour traiter le travail qui a déjà été créé. Définissez le champ **Mode** sur **Travail**, puis sélectionnez l'option **Utiliser un travail existant**. Certaines options supplémentaires deviennent alors disponibles sous l'onglet **Général**. Vous pouvez contrôler l'accès à l'option de menu en affectant une ou plusieurs classes de travail dans l'organisateur **Classe de travail**. Les classes de travail définissent le travail que l'option de menu peut traiter. La classe de travail permet également d'autoriser l'accès à des rôles utilisateur spécifiques ou de séparer le traitement pour différents types d'opérations. Le tableau suivant décrit les options disponibles.
 
 <table>
 
@@ -210,7 +210,7 @@ Outre la configuration des options de menu pour créer le travail d'entrepôt, v
 </tr>
 <tr class="even">
 <td>Dirigé par le système</td>
-<td>Microsoft Dynamics 365 pour les opérations contrôle le type de travail affecté à un travailleur et l'ordre que le travailleur effectue le travail dans. Lorsque vous sélectionnez cette option, vous pouvez cliquer <strong>travail Système-dirigé</strong> sur dans le volet Actions pour <strong>Système- dirigé tri l'ordre</strong> ouvrir la page, dans lequel vous pouvez paramétrer des critères de tri pour le travail. Les critères de tri contrôlent l'ordre que le travailleur effectue le travail dans. Vous pouvez ajouter autant de critères lorsque vous le souhaitez.</td>
+<td>Microsoft Dynamics 365 for Operations contrôle le type de travail affecté à un collaborateur et l'ordre dans lequel le collaborateur effectue le travail. Lorsque vous sélectionnez cette option, vous pouvez cliquer sur <strong>Travail dirigé par le système</strong> dans le volet Actions pour ouvrir la page <strong>Ordre de tri dirigé par le système</strong>, dans laquelle vous pouvez paramétrer les critères de tri pour le travail. Les critères de tri contrôlent l'ordre dans lequel le collaborateur réalise le travail. Vous pouvez ajouter autant de critères que nécessaire.</td>
 </tr>
 <tr class="odd">
 <td>Dirigé par l'utilisateur</td>
@@ -230,7 +230,7 @@ Outre la configuration des options de menu pour créer le travail d'entrepôt, v
 </tr>
 <tr class="even">
 <td>Utilisateur validé dirigé</td>
-<td>Le collaborateur sélectionne le travail à effectuer lorsque le travail est associé à une entité supérieure, telle qu'un chargement ou une expédition. Travailleur détermine l'ordre des articles sont prélevés dans. Si vous sélectionnez cette option, les champs suivants sont requis :
+<td>Le collaborateur sélectionne le travail à effectuer lorsque le travail est associé à une entité supérieure, telle qu'un chargement ou une expédition. Le collaborateur détermine l'ordre dans lequel les articles sont prélevés. Si vous sélectionnez cette option, les champs suivants sont requis :
 <ul>
 <li><strong>Champ Utilisateur validé dirigé</strong> – Sélectionnez le champ que le collaborateur numérise pour grouper le travail.</li>
 <li><strong>Étiquette d'utilisateur validé dirigé</strong> – Entrez le texte indiquant au collaborateur quoi numériser lorsque le travail de prélèvement est groupé par le système.</li>
@@ -271,7 +271,7 @@ Le tableau suivant décrit ces options.
 </tr>
 <tr class="even">
 <td>Ancrage</td>
-<td>Sélectionnez cette option pour permettre aux collaborateurs de spécifier un emplacement qui remplace l'emplacement intermédiaire ou de chargement suggéré. Tout le travail de rangement restant est dirigé vers le nouvel emplacement. Cette option est utile, par exemple, lorsqu'un collaborateur doit placer des articles de la commande 1 dans un emplacement intermédiaire dans le Quai 1, mais ne peut pas, car un chargement précédent n'a pas libéré l'emplacement. Au lieu d'attendre l'emplacement d'échelonnement du cross-docking 1 pour la validation, le travailleur peut choisir d'utiliser l'emplacement de transfert pour le cross-docking 2. Dans ce cas, le travailleur remplace l'emplacement suggéré d'échelonnement. L'emplacement de rangement de tous les articles restants pour l'ordre d'exécution est ensuite mis à jour avec l'emplacement intermédiaire du Quai 2. Si vous sélectionnez cette option, vous devez définir le champ <strong>Ancrer par</strong>.</td>
+<td>Sélectionnez cette option pour permettre aux collaborateurs de spécifier un emplacement qui remplace l'emplacement intermédiaire ou de chargement suggéré. Tout le travail de rangement restant est dirigé vers le nouvel emplacement. Cette option est utile, par exemple, lorsqu'un collaborateur doit placer des articles de la commande 1 dans un emplacement intermédiaire dans le Quai 1, mais ne peut pas, car un chargement précédent n'a pas libéré l'emplacement. Au lieu d'attendre que l'emplacement intermédiaire du Quai 1 devienne disponible, le collaborateur peut décider d'utiliser l'emplacement intermédiaire du Quai 2. Dans ce cas, il remplace l'emplacement intermédiaire suggéré. L'emplacement de rangement de tous les articles restants pour l'ordre d'exécution est ensuite mis à jour avec l'emplacement intermédiaire du Quai 2. Si vous sélectionnez cette option, vous devez définir le champ <strong>Ancrer par</strong>.</td>
 </tr>
 <tr class="odd">
 <td>Ancrer par</td>
@@ -380,7 +380,7 @@ Le tableau suivant décrit ces options.
 </tr>
 <tr class="odd">
 <td>Code modèle de travail</td>
-<td>Sélectionnez le modèle de travail qui crée le travail pour un processus. Par exemple, si un article d'une commande fournisseur, le travail de rangement sera généré selon le modèle de travail. Si vous ne sélectionnez pas un modèle de travail, Microsoft Dynamics 365 pour les opérations affecte un modèle de requête, selon des critères. Pour plus d'informations sur les modèles de travail, voir <a href="control-warehouse-location-directives.md">Contrôle du travail d'entrepôt à l'aide de modèles de travail et d'instructions d'emplacement</a>.</td>
+<td>Sélectionnez le modèle de travail qui crée le travail pour un processus. Par exemple, si vous recevez un article pour une commande fournisseur, le travail de rangement sera généré selon le modèle de travail. Si vous ne sélectionnez pas un modèle de travail, Microsoft Dynamics 365 for Operations affecte un modèle selon des critères de requête. Pour plus d'informations sur les modèles de travail, voir <a href="control-warehouse-location-directives.md">Contrôle du travail d'entrepôt à l'aide de modèles de travail et d'instructions d'emplacement</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -409,8 +409,8 @@ Le tableau suivant décrit les différents types de travail avec lesquels vous p
 
 [Paramètres d'affichage de l'appareil mobile de l'entrepôt](change-warehouse-mobile-device-displays.md)
 
-[Paramétrage une option du menu de périphérique mobile pour le travail de commande fournisseur de type (Guide de tâche)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order/)
+[Configurer une option de menu de périphérique portable pour terminer le travail du type commande fournisseur (guide de tâche)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order/)
 
-[Paramétrage une option du menu de périphérique mobile pour enregistrer articles reçus (Guide de tâche)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-to-register-received-items/)
+[Configurer une option de menu de périphérique portable pour enregistrer les articles reçus (guide de tâche)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-to-register-received-items/)
 
 

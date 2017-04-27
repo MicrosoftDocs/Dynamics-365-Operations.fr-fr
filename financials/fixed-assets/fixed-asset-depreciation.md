@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-asset-depreciation"></a>Amortissement des immobilisations
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article fournit une vue d'ensemble de l'amortissement des immobilisations.
 
 L'amortissement est une transaction périodique qui réduit généralement la valeur des immobilisations dans le bilan et est facturé comme une dépense dans le compte de résultat. Par conséquent, un compte principal est généralement utilisé pour créditer l'amortissement périodique dans le bilan. Un compte de contrepartie est un compte dans la partie résultat du plan de comptes.
@@ -51,6 +54,8 @@ Chaque registre possède un calendrier utilisé lorsque vous amortissez des immo
 
 Vous pouvez créer des calendriers partagés à l'aide de la page **Calendriers fiscaux** dans Comptabilité.
 
-Pour plus d'informations, voir [méthodes et conventions d'amortissement] (depreciation-methods-conventions.md).
+Pour plus d'informations, voir [Méthodes et conventions d'amortissement](depreciation-methods-conventions.md).
+
+
 
 

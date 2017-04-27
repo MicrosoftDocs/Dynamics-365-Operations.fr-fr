@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="project-contracts"></a>Contrats de projet
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article décrit les contrats de projet à créer pour divers types de projets et de sources de financement (et en fournit des exemples), ainsi que la manière de gérer les contrats et facturer les clients des projets dans Microsoft Dynamics 365 for Operations.
 
 Le type de projet que vous créez pour un contrat de projet détermine la méthode utilisée pour facturer les clients du projet. Vous pouvez modifier un contrat de projet et le projet qui lui est associé, mais vous ne pouvez pas modifier le type de projet. 
@@ -80,7 +83,7 @@ Le tableau suivant fournit des scénarios pour gérer la répartition de finance
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><strong>Scenario</strong></td>
+<td><strong>Scénario</strong></td>
 <td><strong>Source de financement </strong></td>
 <td><strong>Pourcentage de répartition </strong></td>
 <td><strong>Priorité de répartition </strong></td>
@@ -192,7 +195,7 @@ Le tableau suivant présente ce scénario plus en détail.
 <tbody>
 <tr class="odd">
 <td><strong>Vue </strong></td>
-<td><strong>Details</strong></td>
+<td><strong>Détails</strong></td>
 </tr>
 <tr class="even">
 <td>Règles de financement</td>
@@ -220,16 +223,16 @@ Le tableau suivant présente ce scénario plus en détail.
 </tr>
 <tr class="odd">
 <td>Transaction 2</td>
-<td><strong>Montant de la transaction :</strong> 5.000,00<strong>Le financement :</strong> La transaction est payée en fonction de les trois règles.<strong>Règle 1</strong>
+<td><strong>Montant de la transaction :</strong> 5 000,00<strong>Financement :</strong> la transaction est payée conformément aux trois règles.<strong>Règle 1</strong>
 <ul>
 <li>Source de financement 2 : 450,00</li>
 <li>Source de financement 3 : 450,00</li>
 </ul>
-<strong>Règle 2</strong>
+<strong>Règle 2</strong>
 <ul>
 <li>Source de financement 3 :: 250,00 (= 750,00 – 50,00 – 450,00)</li>
 </ul>
-<strong>Règle 3</strong>
+<strong>Règle 3</strong>
 <ul>
 <li>Source de financement 1 : 3 850,00 (= 5 000,00 – 450,00 – 450,00 – 250,00)</li>
 </ul></td>
@@ -339,5 +342,7 @@ Lorsque vous définissez le contrat de projet, vous convenez que le temps passé
 -   Vous créez une facture client à la fin de chaque mois du calendrier pendant la durée du projet.
 
 Durant le premier mois, un total de 800 heures sont enregistrées par les consultants. Le coût des fournitures de bureau facturées pour le projet s'élève à 2 000. Par conséquent, à la fin du mois, vous créez une facture de 122 000, qui englobe 800 heures à 150 de l'heure, plus 2 000 de fournitures de bureau.
+
+
 
 

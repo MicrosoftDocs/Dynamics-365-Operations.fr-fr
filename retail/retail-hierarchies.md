@@ -10,7 +10,7 @@ ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 15851
 ms.assetid: dfa11d41-2a0c-4cde-99b6-058c49176c94
 ms.search.region: global
@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="retail-hierarchies"></a>Hiérarchies des ventes au détail
 
+[!include[banner](includes/banner.md)]
+
+
 Cet article décrit les hiérarchies de ventes au détail dans Microsoft Dynamics AX.
 
 Vous pouvez créer une hiérarchie de catégories de vente au détail pour organiser les produits que vous vendez via vos canaux de vente au détail. Vous pouvez utiliser les hiérarchies des produits vendus au détail pour classer par catégorie ou regrouper les produits. Vous pouvez ensuite utiliser ces produits pour créer des assortiments de produits et des programmes de fidélisation des clients. Vous pouvez également affecter des attributs et des propriétés de produit, affecter une structure de tarification, inclure les produits dans des promotions de produit et utiliser les produits pour la génération d'états. Vous pouvez créer une hiérarchie de catégories de vente au détail pour représenter tous les produits et toutes les catégories dans votre organisation, puis utiliser cette hiérarchie de catégories à plusieurs fins. Sinon, vous pouvez créer plusieurs hiérarchies de catégories de vente au détail à des fins particulières, telles que les promotions de produit. Lorsque vous créez une hiérarchie des produits vendus au détail, vous devez affecter un type de hiérarchie de catégories pour identifier l'objectif de la hiérarchie de catégories. Par exemple, seules les hiérarchies de produit qui sont affectées au type **Hiérarchie de navigation de vente au détail** sont référencées lorsque vous parcourez les produits par catégorie en ligne ou dans le point de vente.
@@ -42,5 +45,7 @@ Le tableau suivant répertorie les types de hiérarchies de catégories de vente
 | Hiérarchie de navigation de vente au détail   | Utilisez ce type de hiérarchie pour regrouper et organiser les produits en catégories afin de pouvoir les parcourir en ligne ou dans un point de vente.                                                                                                                                                                                       |
 
 À l'aide d'une hiérarchie de catégories de vente au détail pour structurer vos produits, vous pouvez paramétrer et tenir à jour les attributs de produit et les propriétés au niveau de la catégorie. Ces attributs et propriétés incluent des paramètres pour les dimensions de produit et les paramètres du point de vente. Tous les produits que vous affectez aux catégories héritent automatiquement des attributs et des propriétés que vous définissez. Vous pouvez également copier en même temps les paramètres de propriété de tout produit pour plusieurs produits dans une catégorie sélectionnée.
+
+
 
 

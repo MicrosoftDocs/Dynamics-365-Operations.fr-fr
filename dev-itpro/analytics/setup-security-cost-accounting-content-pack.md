@@ -1,6 +1,6 @@
 ---
-title: "Sécurité de paramétrage pour le contenu BI de courant d&quot;analyse de contrôle de gestion"
-description: "Cette rubrique explique comment propager la sécurité de niveau d&quot;accès dans le contrôle de gestion à la sécurité au niveau de la ligne en BI de courant de Microsoft. Cette fonctionnalité permet de garantir que les utilisateurs peuvent afficher uniquement les données BI de courant qu&quot;ils sont autorisés à accéder à."
+title: "Paramétrer la sécurité du contenu Power BI Analyse du contrôle de gestion"
+description: "Cette rubrique explique comment propager la sécurité au niveau des accès dans le contrôle de gestion à la sécurité au niveau des lignes dans Microsoft Power BI. Cette fonctionnalité permet de garantir que les utilisateurs n&quot;affichent que les données Power BI auxquelles ils sont autorisés à accéder."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,38 +24,43 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Sécurité de paramétrage pour le contenu BI de courant d'analyse de contrôle de gestion
+# <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Paramétrer la sécurité du contenu Power BI Analyse du contrôle de gestion
 
-Cette rubrique explique comment propager la sécurité de niveau d'accès dans le contrôle de gestion à la sécurité au niveau de la ligne en BI de courant de Microsoft. Cette fonctionnalité permet de garantir que les utilisateurs peuvent afficher uniquement les données BI de courant qu'ils sont autorisés à accéder à.
+[!include[banner](../includes/banner.md)]
+
+
+Cette rubrique explique comment propager la sécurité au niveau des accès dans le contrôle de gestion à la sécurité au niveau des lignes dans Microsoft Power BI. Cette fonctionnalité permet de garantir que les utilisateurs n'affichent que les données Power BI auxquelles ils sont autorisés à accéder.
 
 <a name="overview"></a>Vue d'ensemble
 --------
 
-** Analyse de contrôle de gestion ** les utilisations de contenu BI de courant de Microsoft actionnent la sécurité au niveau de la ligne BI pour limiter l'accès d'un utilisateur. La sécurité est basée sur la hiérarchie organisationnelle de niveau d'accès qui est définie dans les paramètres de contrôle de gestion. Pour plus d'informations sur ** analyse de contrôle de gestion ** actionnez le contenu BI, voir [contenu BI de courant d'analyse de contrôle de gestion] (contrôle de gestion - analysis-content-pack.md).
+Le contenu **Analyse du contrôle de gestion** Microsoft Power BI utilise la sécurité au niveau des lignes de Power BI pour restreindre l'accès des utilisateurs. La sécurité est basée sur la hiérarchie organisationnelle au niveau des accès qui est définie dans les paramètres du contrôle de gestion. Pour plus d'informations sur le contenu Power BI **Analyse du contrôle de gestion**, voir [Contenu Power BI d'analyse du contrôle de gestion](cost-accounting-analysis-content-pack.md).
 
 ## <a name="setup"></a>Configuration
-Pour propager la sécurité de niveau d'accès pour activer le projet BI, le propriétaire du contenu BI de courant doit procéder comme suit. ** Remarque : ** L'utilisateur qui crée ** analyse de contrôle de gestion ** le contenu BI de courant devient automatiquement le propriétaire. Seul un propriétaire peut paramétrer la sécurité en BI de courant. En outre, jusqu'à ce qu'un propriétaire ajoute d'autres utilisateurs dans PowerBI.com, personne à moins que le propriétaire puisse afficher toutes les données dans ** analyse de contrôle de gestion ** actionnez le contenu du projet BI.
+Pour propager la sécurité au niveau des accès à Power BI, le propriétaire du contenu Power BI doit procéder comme suit. **Remarque :** l'utilisateur qui publie le contenu Power BI **Analyse du contrôle de gestion** en devient automatiquement le propriétaire. Seul un propriétaire peut paramétrer la sécurité dans Power BI. En outre, jusqu'à ce qu'un propriétaire ajoute d'autres utilisateurs sur PowerBI.com, personne sauf le propriétaire ne peut afficher de données dans le contenu Power BI **Analyse du contrôle de gestion**.
 
-1.  Émission du fichier de définition pour activer le projet BI.
-2.  Connexion à PowerBI.com.
-3.  Rechercher que l'ensemble de données pour ** analyse de contrôle de gestion ** actionnez le contenu du projet BI.
-4.  Permet d'ouvrir la page de sécurité. 
+1.  Publiez le fichier de définition sur Power BI.
+2.  Connectez-vous à PowerBI.com.
+3.  Cherchez le jeu de données pour le contenu Power BI **Analyse du contrôle de gestion**.
+4.  Ouvrez la page de sécurité. 
 
-    [![ouvrant la page de sécurité] (https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-1.png)] (https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-1.png)
+    [![Ouverture de la page de sécurité](https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-1.png)](https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-1.png)
 
-5.  ** Contrôleur d'objet de coût ** le rôle est déjà créé. Ajoutez d'autres membres qui font partie de la hiérarchie d'organisation de niveau d'accès de contrôle de gestion. 
+5.  Le rôle **Contrôleur d'objet de coût** est déjà créé. Ajoutez d'autres membres qui appartiennent à la hiérarchie organisationnelle au niveau des accès du contrôle de gestion. 
 
-    [![ajoutant membres] (https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-2.png)] (https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-2.png)
+    [![Ajout de membres](https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-2.png)](https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-2.png)
 
-Les utilisateurs qui sont ajoutés ** contrôleur d'objet de coût ** au rôle ne voient que les données qu'il leur permettent de consulter, selon la définition dans la hiérarchie organisationnelle de niveau d'accès de contrôle de gestion. ** Remarque : ** la sécurité au niveau de la ligne s'applique aux vignettes et aux états dans Microsoft Dynamics 365 pour les opérations qui sont intégrées du projet BI de courant.
+Les utilisateurs qui sont ajoutés au rôle **Contrôleur d'objet de coût** ne voient que les données auxquelles ils sont autorisés, conformément à la définition donnée dans la hiérarchie organisationnelle au niveau des accès du contrôle de gestion. **Remarque :** la sécurité au niveau des lignes s'applique aux vignettes et aux états dans Microsoft Dynamics 365 for Operations qui sont intégrés à partir de Power BI.
 
-## <a name="updating-security"></a>Mettre la sécurité à jour
-Si des mises à jour sont effectuées à la sécurité de niveau d'accès dans le contrôle de gestion, et si vous souhaitez le projet BI de courant pour refléter les mises à jour, vous devez mettre le magasin à jour d'entité pour ** analyse de contrôle de gestion ** actionnez le contenu du projet BI. Lorsque la mise à jour de magasin d'entité de Dynamics 365 pour les opérations, vous devez mettre des artefacts à jour sur PowerBI.com. Pour plus d'informations sur la création d'une mise à jour de magasin d'entité, voir [magasin d'entité de mise à jour power-bi-integration-entity-store.md#update-entity-store] (). Le propriétaire ** analyse de contrôle de gestion ** du contenu BI de courant vous devez également opérer une mise à jour de magasin d'entité si de nouveaux utilisateurs sont autorisés à accéder à la hiérarchie organisationnelle. En outre, le propriétaire doit ajouter les nouveaux utilisateurs ** évaluation des coûts le contrôleur d'objet ** au rôle dans PowerBI.com, de sorte que la sécurité au niveau de la ligne soit appliquée pour eux.
+## <a name="updating-security"></a>Mise à jour de la sécurité
+Si la sécurité au niveau des accès dans le contrôle de gestion subit des mises à jour et que vous souhaitez que Power BI en tienne compte, vous devez mettre à jour le magasin d'entités pour le contenu Power BI **Analyse du contrôle de gestion**. Une fois la mise à jour du magasin d'entités effectuée à partir de Dynamics 365 for Operations, vous devez mettre à jour les artefacts sur PowerBI.com. Pour plus d'informations sur la procédure de mise à jour d'un magasin d'entités, voir [Mettre à jour le magasin d'entités](power-bi-integration-entity-store.md#update-entity-store). Le propriétaire du contenu Power BI **Analyse du contrôle de gestion** doit également effectuer une mise à jour du magasin d'entités si de nouveaux utilisateurs obtiennent l'accès à la hiérarchie organisationnelle. En outre, le propriétaire doit ajouter les nouveaux utilisateurs au rôle **Contrôleur d'objet de coût** sur PowerBI.com, de sorte que la sécurité au niveau des lignes s'applique à eux.
 
-## <a name="disabling-security"></a>Désactiver la sécurité
-Nous considérons que votre organisation souhaite restreindre l'accès aux données. Si, pour quelque raison, les paramètres de sécurité sont désactivées lorsque vous exécutez le contrôle de gestion, le propriétaire doit ajouter des utilisateurs ** comptable de coût ** au rôle dans BI de courant à la place. Si vous modifiez la sécurité d'un rapport activé à un état Désactivé, il est utile de supprimer des utilisateurs ** évaluation des coûts le contrôleur d'objet ** du rôle. Et inversement si vous réactivez la sécurité. Les utilisateurs peuvent appartenir à deux rôles. L'accès courant est le syndicat des deux rôles. En cas de ** analyse de contrôle de gestion ** actionnez le contenu BI, les utilisateurs ayant accès commun avoir accès non restriction de données. Si votre objectif est d'appliquer l'accès limité, les utilisateurs doivent être affectés uniquement ** évaluation des coûts le contrôleur d'objet ** au rôle. Ces mises à jour de sécurité au niveau de la ligne entrent immédiatement en vigueur. Les utilisateurs affectés doivent actualiser leur navigateur.
+## <a name="disabling-security"></a>Désactivation de la sécurité
+Supposons que votre organisation souhaite restreindre l'accès aux données. Si, pour quelque raison, les paramètres de sécurité sont désactivés lorsque vous exécutez le contrôle de gestion, le propriétaire doit ajouter des utilisateurs au rôle **Contrôleur de gestion** dans Power BI. Si vous passez la sécurité de l'état activé à l'état désactivé, il est bon de supprimer des utilisateurs du rôle **Contrôleur d'objet de coût**. Et inversement si vous réactivez la sécurité. Les utilisateurs peuvent appartenir aux deux rôles. L'accès conjoint est la réunion des deux rôles. Dans le cas du contenu Power BI **Analyse du contrôle de gestion**, les utilisateurs qui disposent de l'accès conjoint ont un accès sans restriction aux données. Si votre objectif est de restreindre les accès, les utilisateurs doivent être affectés uniquement au rôle **Contrôleur d'objet de coût**. Ces mises à jour de sécurité au niveau des lignes prennent effet immédiatement. Les utilisateurs affectés doivent actualiser leur navigateur.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
-Pour en savoir plus sur la sécurité au niveau de la ligne BI de courant, voir [gérer la sécurité sur le modèle en BI de courant] (https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-rls/#manage-security-on-your-model).
+Pour en savoir plus sur la sécurité au niveau des lignes de Power BI, voir [Gérer la sécurité de votre modèle dans Power BI](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-rls/#manage-security-on-your-model).
+
+
 
 

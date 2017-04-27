@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-asset-acquisition-posting-accounts"></a>Comptes de validation d'acquisition d'immobilisations
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article explique comment paramétrer les comtes de validation de la comptabilité afin d'acquérir des immobilisations.
 
 Les comptes utilisés pour la validation des acquisitions d'immobilisations peuvent varier selon la méthode utilisée pour acquérir l'immobilisation. Dans la page des profils de validation d'immobilisation, sous l'onglet Comptes généraux, sélectionnez Acquisition et Ajustement d'acquisition pour paramétrer les comptes d'immobilisation à valider dans la comptabilité. 
@@ -40,6 +43,8 @@ Lorsque le Journal des factures ou les Commandes fournisseur du module Achats so
 
 Pour les acquisitions validées à l'aide du journal Stock vers immobilisations dans le module Comptabilité, l'immobilisation n'est pas achetée à des sources externes, mais transférée depuis le propre stock de la société. Ainsi, le compte de contrepartie est un compte de sorties de stock pour l'article en stock dans le module Gestion des stocks.
 
-Pour plus d'informations, voir [acquérez les immobilisations via la fourniture] (acquire-assets-procurement.md).
+Pour plus d'informations, voir [Acquérir les actifs via l'approvisionnement](acquire-assets-procurement.md).
+
+
 
 

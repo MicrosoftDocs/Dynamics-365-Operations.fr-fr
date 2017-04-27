@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-a-customer-invoice"></a>Création d'une facture client
 
+[!include[banner](../includes/banner.md)]
 
 
-Une **facture client pour une commande client** est une facture associée à une vente, remise par une organisation à un client. Ce type de facture client est créé sur la base d'une commande client, laquelle comporte des lignes de commande et des numéros d'article. Les numéros d'article sont spécifiés et validés dans la comptabilité. Les écritures de journal de comptabilité auxiliaire ne sont pas disponibles pour une facture client pour une commande client. 
+
+
+Une **facture client pour une commande client** est une facture associée à une vente, remise par une organisation à un client. Ce type de facture client est créé sur la base d'une commande client, laquelle comporte des lignes de commande et des numéros d'article. Les numéros d'article sont spécifiés et validés dans la comptabilité. Les écritures de journal de comptabilité auxiliaire ne sont pas disponibles pour une facture client associée à une commande client. 
 
 Une **facture financière** n'est pas liée à une commande client. Elle contient des lignes de commande comprenant des comptes généraux, des descriptions en texte libre ainsi qu'une valeur de vente que vous entrez. Vous ne pouvez pas entrer de numéro d'article sur ce type de facture. Vous devez entrer les informations de taxe appropriées. Un compte principal associé à la vente figure sur chaque ligne de facture, que vous pouvez répartir entre plusieurs comptes généraux en cliquant sur **Répartir les montants** sur la page **Facture financière**. En outre, le solde du client est validé dans le compte collectif en fonction du profil de validation utilisé pour la facture financière.
 
@@ -55,7 +58,7 @@ Affichez le statut des commandes client sur la page de liste **Toutes les comman
 ## <a name="consolidate-sales-orders-or-packing-slips-for-posting"></a>Consolidation des commandes client ou des bons de livraison pour la validation
 Utilisez ce processus lorsqu'une ou plusieurs commandes client sont prêtes à être facturées, et que vous souhaitez les consolider dans une seule facture. 
 
-Vous pouvez sélectionner plusieurs factures dans la page de liste **Commande client**, puis utiliser **Générer des factures** pour les consolider. Sous ** facture de validation ** la page, vous pouvez modifier ** commande de synthèse ** le paramètre pour résumer par numéro de commande (dont les bons de livraison pour une commande client unique) ou par compte de facturation (où il existe plusieurs commandes client pour un compte de la facture). Utilisez ** réorganisez ** se pour consolider bouton des commandes client en seules factures, selon ** commande de synthèse ** les paramètres.
+Vous pouvez sélectionner plusieurs factures dans la page de liste **Commande client**, puis utiliser **Générer des factures** pour les consolider. Sur la page **Validation de la facture**, vous pouvez modifier le paramètre **Commande de synthèse** pour récapituler par numéro de commande (lorsqu'il existe plusieurs bons de livraison pour une commande client unique) ou par compte de facturation (lorsqu'il existe plusieurs commandes client pour un compte de facturation unique). Utilisez le bouton **Réorganiser** pour consolider des commandes client dans des factures uniques, en fonction des paramètres **Commande de synthèse**.
 
 ## <a name="additional-settings-that-change-the-posting-behavior"></a>Paramètres supplémentaires qui modifient le comportement de validation
 Les champs suivants modifient le comportement du processus de validation.
@@ -105,7 +108,7 @@ Les champs suivants modifient le comportement du processus de validation.
 <li><strong>Actuel</strong> – Permet d'imprimer les documents après la mise à jour de chaque facture.</li>
 <li><strong>Après</strong> – Permet d'imprimer les documents après la mise à jour de toutes les factures.</li>
 </ul>
-<strong>Remarque :</strong> le champ <strong>Imprimer</strong> est uniquement disponible si vous sélectionnez l'option <strong>Imprimer la facture</strong>, <strong>Impression de la confirmation</strong>, <strong>Imprimer la liste des prélèvements</strong> ou <strong>Imprimer le bon de livraison</strong>. Par exemple, sur la page <strong>Tri des écrans</strong>, vous avez paramétré le système pour trier les informations par compte de facturation. Vous pouvez alors sélectionner <strong>Après</strong> pour imprimer les documents dans un traitement par lots trié par compte de facturation. Sinon, les documents sont imprimés avant que le traitement soit terminés et ils ne sont pas triés dans l'ordre spécifié sur la page <strong>Tri des écrans</strong>.</td>
+<strong>Remarque :</strong> le champ <strong>Imprimer</strong> est uniquement disponible si vous sélectionnez l'option <strong>Imprimer la facture</strong>, <strong>Impression de la confirmation</strong>, <strong>Imprimer la liste des prélèvements</strong> ou <strong>Imprimer le bon de livraison</strong>. Par exemple, sur la page <strong>Tri des écrans</strong>, vous avez paramétré le système pour trier les informations par compte de facturation. Vous pouvez alors sélectionner <strong>Après</strong> pour imprimer les documents dans un traitement par lots trié par compte de facturation. Sinon, les documents sont imprimés avant que le traitement soit terminés et ils ne sont pas triés dans l'ordre spécifié sur la page <strong>Tri des écrans</strong>.</td>
 </tr>
 <tr class="even">
 <td>Imprimer la facture</td>
@@ -123,8 +126,8 @@ Les champs suivants modifient le comportement du processus de validation.
 <td>Vérifier la limite de crédit</td>
 <td>Sélectionnez les informations à analyser lorsqu'une vérification de limite de crédit est effectuée.
 <ul>
-<li><strong>None</strong> – There is no requirement for the credit limit check.</li>
-<li><strong>Balance</strong> – The credit limit is checked against the customer balance.</li>
+<li><strong>Aucun(e)</strong> – Le contrôle de la limite de crédit n'est pas nécessaire.</li>
+<li><strong>Solde</strong> – La limite de crédit est vérifiée par rapport au solde du client.</li>
 <li><strong>Solde + bon de livraison ou accusé de réception de marchandises</strong> – La limite de crédit est vérifiée par rapport au solde client et aux livraisons.</li>
 <li><strong>Solde+Tout</strong> – La limite de crédit est vérifiée par rapport au solde du client, aux livraisons et aux commandes en cours.</li>
 </ul></td>
@@ -150,6 +153,8 @@ Les champs suivants modifient le comportement du processus de validation.
 </tr>
 </tbody>
 </table>
+
+
 
 
 

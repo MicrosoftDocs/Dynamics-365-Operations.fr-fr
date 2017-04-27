@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="project-forecasts-and-budgets"></a>Prévisions et budgets de projet
 
+[!include[banner](../includes/banner.md)]
 
 
-Microsoft Dynamics 365 pour les opérations fournit deux méthodes pour la gestion et le contrôle des projets : prévisions de projet et budgets de projet. 
+
+
+Microsoft Dynamics 365 for Operations fournit deux méthodes permettant de gérer et de contrôler vos projets : les prévisions de projet et les budgets de projet. 
 
 Utilisez les prévisions de projet si votre organisation a une perspective opérationnelle orientée sur les produits et les coûts qui sont dérivés de transactions spécifiques. Utilisez la budgétisation de projet si votre organisation s'oriente plus sur les montants financiers. 
 
@@ -45,9 +48,9 @@ Chaque méthode a ses avantages. Avant de sélectionner une méthode pour votre 
 | **Variables de transaction ** | Lorsque vous spécifiez les transactions de prévision, vous pouvez utiliser chaque attribut qui existe pour une transaction réelle. Cela permet de mieux détailler la prévision. Par exemple, vous pouvez détailler les quantités, les travailleurs, les articles ou les propriétés de ligne.         | Lorsque vous spécifiez les détails du budget, vous pouvez uniquement utiliser des montants, des catégories et des activités.                                                                                    |
 | **Sécurité **              | Les prévisions sont basées sur les transactions que vous entrez dans les écrans des prévisions et n'impliquent pas de mécanisme de contrôle du processus. Tout collaborateur doté d'autorisations pour un écran de prévision peut réviser les informations sans approbation.                                        | La budgétisation utilise le système de workflow, ce qui active la gestion des modifications et vous permet de conserver un historique des révisions.                                                       |
 | **Types d'entrées **           | Les entrées de transaction de prévision sont basées sur le nombre d'unités et sur les prix de vente et de revient unitaires.                                                                                                                                                       | Les détails de budget sont basés sur les montants, qui sont répartis entre les coûts et les produits.                                                                                        |
-| **Forecast models**       | Étant donné que chaque prévision doit être associée à un modèle, vous pouvez créer plusieurs modèles de prévision et également paramétrer des sous-modèles.                                                                                                                               | La budgétisation du projet limite les modèles de prévision utilisés pour la budgétisation. Un nombre réduit de modèles de prévision permet d'augmenter la cohérence des projections.                           |
+| **Modèles de prévision**       | Étant donné que chaque prévision doit être associée à un modèle, vous pouvez créer plusieurs modèles de prévision et également paramétrer des sous-modèles.                                                                                                                               | La budgétisation du projet limite les modèles de prévision utilisés pour la budgétisation. Un nombre réduit de modèles de prévision permet d'augmenter la cohérence des projections.                           |
 | **Dépassement des coûts **         | Vous pouvez uniquement autoriser ou rejeter l'entrée des transactions qui provoqueront un dépassement des coûts.                                                                                                                                                                | La budgétisation du projet fournit des options de contrôle supplémentaires aux utilisateurs. Vous pouvez autoriser les avertissements et les dépassements.                                                                   |
-| **Control**               | Le contrôle des prévisions s'effectue en utilisant la réduction prévisionnelle. Les montants réels sont soustraits des soldes des transactions de prévision sans piste d'audit. Cela peut compliquer le suivi de réalisation des transactions réelles.                   | Dans le contrôle budgétaire du projet, les montants réels sont soustraits des montants du budget restant. Cela permet de clarifier la piste d'audit.                                   |
+| **Contrôler**               | Le contrôle des prévisions s'effectue en utilisant la réduction prévisionnelle. Les montants réels sont soustraits des soldes des transactions de prévision sans piste d'audit. Cela peut compliquer le suivi de réalisation des transactions réelles.                   | Dans le contrôle budgétaire du projet, les montants réels sont soustraits des montants du budget restant. Cela permet de clarifier la piste d'audit.                                   |
 
 ## <a name="project-forecasts"></a>Prévisions de projet
 La prévision de projet vous permet d'entrer des transactions de prévision dans les écrans de prévision pour chaque type de transaction. Chaque attribut disponible pour une transaction réelle peut être utilisé pour une transaction de prévision (par exemple, rentabilité de ligne, attributs de ligne, collaborateurs ou descriptions). Vous pouvez également prévoir le délai de facturation d'un client après la prise en charge d'un coût. 
@@ -62,7 +65,7 @@ Les modèles de prévision peuvent utiliser la réduction prévisionnelle comme 
 
 Vous pouvez réviser, copier, supprimer ou transférer les prévisions de projet vers un budget comptable. Toutefois, le processus n'est pas contrôlé. Tout collaborateur doté d'une autorisation pour un écran de prévision peut effectuer des modifications sans révision.
 
--   ** Épreuve de révision ** – Vous pouvez modifier une transaction de prévision dans les écrans où les entrées d'origine.
+-   **Réviser **– Vous pouvez réviser une transaction de prévision dans les écrans de création des entrées d'origine.
 -   **Copier ou Supprimer** – Lorsque vous copiez des transactions de prévision, vous copiez les lignes de transaction d'un modèle de prévision vers un autre modèle de prévision. Lorsque vous supprimez une prévision, vous supprimez les transactions de prévision d'un modèle de prévision. Pour limiter les transactions de prévision qi sont copiées ou supprimées, sélectionnez des types et dates de transaction spécifiques. Cela vous permet de copier ou de supprimer uniquement certaines parties d'une prévision.
 -   **Transférer** – Lorsque vous transférez une prévision de projet vers un budget comptable, vous transférez les transactions de prévision d'un modèle de prévision vers un budget comptable. Vous pouvez remplacer les transactions précédemment transférées dans le budget comptable vers lequel vous transférez votre prévision de projet.
 
@@ -78,6 +81,8 @@ Les budgets de projet sont automatiquement associés à deux modèles de prévis
 ## <a name="forecast-models"></a>Modèles de prévision
 Les modèles de prévision sont dotés d'une hiérarchie à une seule couche. Cela signifie qu'une prévision de projet doit être associée à un modèle de prévision.
 
-Si vous utilisez des prévisions de projet, vous pouvez identifier des modèles comme sous-modèles. Vous pouvez ensuite créer des prévisions par département, la période, ou la région. Par exemple, vous pouvez créer un modèle de prévision pour une année, puis créer des sous-modèles pour les prévisions des régions Nord-Est, Sud-Est, Nord-Ouest et Sud-Ouest, qui sont soumises par les directions régionales. En sélectionnant différentes options dans les états disponibles, vous pouvez afficher les informations par prévision totale ou par sous-modèle.
+Si vous utilisez des prévisions de projet, vous pouvez identifier des modèles comme sous-modèles, ce qui permet de créer des prévisions par département, période ou région. Par exemple, vous pouvez créer un modèle de prévision pour une année, puis créer des sous-modèles pour les prévisions des régions Nord-Est, Sud-Est, Nord-Ouest et Sud-Ouest, qui sont soumises par les directions régionales. En sélectionnant différentes options dans les états disponibles, vous pouvez afficher les informations par prévision totale ou par sous-modèle.
+
+
 
 

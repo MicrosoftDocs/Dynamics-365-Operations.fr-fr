@@ -1,6 +1,6 @@
 ---
 title: "Vue d&quot;ensemble du système de workflow"
-description: "Cet article décrit le système de workflow dans Microsoft Dynamics 365 pour les opérations."
+description: "Cet article décrit le système de workflow dans Microsoft Dynamics 365 for Operations."
 author: sericks007
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="workflow-system-overview"></a>Vue d'ensemble du système de workflow
 
-Cet article décrit le système de workflow dans Microsoft Dynamics 365 pour les opérations.
+[!include[banner](../includes/banner.md)]
+
+
+Cet article décrit le système de workflow dans Microsoft Dynamics 365 for Operations.
 
 <a name="what-is-workflow"></a>Qu'est-ce qu'un workflow ?
 -----------------
@@ -34,7 +37,7 @@ Cet article décrit le système de workflow dans Microsoft Dynamics 365 pour le
 Le terme *workflow* revêt deux concepts : workflow en tant que système et workflow en tant que processus entreprise.
 ### <a name="workflow-is-a-system"></a>Un workflow est un système
 
-Un workflow est un système installé avec Dynamics 365 pour les opérations et qui s'exécute sur le serveur d'objets d'application (AOS). Les fonctionnalités du système de workflow permettent de créer des workflows ou des processus entreprise.
+Un workflow est un système installé avec Dynamics 365 for Operations, qui s'exécute sur le Serveur d'objets d'application (AOS). Les fonctionnalités du système de workflow permettent de créer des workflows ou des processus entreprise.
 
 ### <a name="workflow-is-a-business-process"></a>Un workflow est un processus entreprise
 
@@ -46,6 +49,7 @@ L'utilisation du système de workflow dans votre organisation présente plusieur
 -   **Processus cohérents** – Vous pouvez définir le traitement de documents spécifiques, tels que des demandes d'achat ou des états de dépenses. Lorsque vous utilisez le système de workflow, vous pouvez vérifier que les documents sont traités et approuvés de manière cohérente et efficace.
 -   **Visibilité du processus** – Vous pouvez suivre le statut, l'historique et les mesures de performance des instances de workflow. Vous pouvez ainsi déterminer si des modifications doivent être apportées au workflow afin d'en optimiser l'efficacité.
 -   **Liste de travail centralisée** – Les utilisateurs peuvent afficher une liste de travail centralisée pour consulter les tâches et les approbations de workflow qui leur sont affectées.
+
 
 
 

@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="project-invoicing"></a>Facturation de projet
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article fournit une vue d'ensemble des projets en régie et des projets à prix fixe. Il inclut des informations sur les propositions de facture (factures préliminaires), le contrôle de facture, la facturation en compte, la facturation fournisseur, et les avoirs.
 
 Le type de projet détermine la procédure de facturation applicable. Seuls les deux types de projet externes (en régie et à prix fixe), sont facturables. Les projets en régie et les projets à prix fixe sont toujours liés à un contrat de projet.
@@ -103,7 +106,7 @@ Par exemple, vous pouvez paramétrer le programme de facturation suivant :
 Lorsque les paiements échelonnés sont prêts à être facturés, vous utilisez la procédure de facturation des montants en compte.
 
 ## <a name="vendor-invoicing"></a>Facturation fournisseur
-Lorsque vous commandez un article auprès d'un fournisseur et affectez l'article à un projet, la propriété de ligne que vous sélectionnez pour la ligne de commande fournisseur de cet article détermine si l'article acheté est facturé à un client ou non. Si vous paramétrez les propriétés de ligne par défaut, elles sont affichées pour l'article sur la ligne de commande fournisseur (propriété &gt; de ligne de projet &gt; Détails de ligne). Il existe deux manières de modifier la propriété de ligne :
+Lorsque vous commandez un article auprès d'un fournisseur et affectez l'article à un projet, la propriété de ligne que vous sélectionnez pour la ligne de commande fournisseur de cet article détermine si l'article acheté est facturé à un client ou non. Si vous paramétrez des propriétés de ligne par défaut, elles sont affichées pour l'article sur la ligne de commande fournisseur (Détails de ligne &gt; Projet &gt; Propriété de ligne). Il existe deux manières de modifier la propriété de ligne :
 
 -   Facturer l'article au client du projet : définissez la propriété de ligne pour l'article sur une valeur facturable sur la commande fournisseur, puis facturez le client par l'intermédiaire de la méthode de facturation du projet correcte.
 -   Ne pas facturer l'article au client du projet : ne sélectionnez pas la propriété de ligne **Facturable** sur la propriété de ligne de la commande fournisseur pour l'article. Vous pouvez alors facturer la commande fournisseur et aucune action supplémentaire n'est requise.
@@ -118,5 +121,7 @@ Le même document peut inclure des transactions sélectionnées pour l'établiss
 Pour créditer un montant facturé, vous commencez par sélectionner le montant facturé à créditer, puis vous créez un avoir. Vous créez un avoir en suivant la même procédure de création que vous utiliseriez pour générer une facture client. 
 
 Vous pouvez créer une facture dont le montant est négatif ; cette facture est alors classée comme un avoir. Pour créer et imprimer un avoir, vous devez sélectionner les transactions précédemment validées pour une facture client, puis les modifier. À moins que l'adresse principale de l'entité juridique soit située en Allemagne, le titre de la facture est « Facture corrective ».
+
+
 
 

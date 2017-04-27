@@ -1,5 +1,5 @@
 ---
-title: "Configuration d&quot;une tâche manuelle dans un workflow"
+title: "Configurer une tâche manuelle dans un workflow"
 description: "Cette rubrique explique comment configurer les propriétés d&quot;une tâche manuelle."
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-a-manual-task-in-a-workflow"></a>Configuration d'une tâche manuelle dans un workflow
+# <a name="configure-a-manual-task-in-a-workflow"></a>Configurer une tâche manuelle dans un workflow
+
+[!include[banner](../includes/banner.md)]
+
 
 Cette rubrique explique comment configurer les propriétés d'une tâche manuelle.
 
@@ -124,10 +127,10 @@ Procédez comme suit pour indiquer à qui affecter la tâche manuelle.
     </tr>
     <tr class="even">
     <td>Utilisateur</td>
-    <td>Microsoft Dynamics spécifique 365 pour les utilisateurs d'opérations</td>
+    <td>Utilisateurs Microsoft Dynamics 365 for Operations spécifiques</td>
     <td><ol>
     <li>Sélectionnez <strong>Utilisateur</strong>, puis cliquez sur l'onglet <strong>Utilisateur</strong>.</li>
-    <li><strong>Utilisateurs disponibles</strong> La liste inclut tous les Dynamics 365 pour les utilisateurs d'opérations. Sélectionnez les utilisateurs à qui vous souhaitez affecter la tâche, puis déplacez-les dans la liste <strong>Utilisateurs sélectionnés</strong>.</li>
+    <li>La liste <strong>Utilisateurs disponibles</strong> inclut tous les utilisateurs Dynamics 365 for Operations. Sélectionnez les utilisateurs à qui vous souhaitez affecter la tâche, puis déplacez-les dans la liste <strong>Utilisateurs sélectionnés</strong>.</li>
     </ol></td>
     </tr>
     <tr class="odd">
@@ -146,7 +149,7 @@ Procédez comme suit pour indiquer à qui affecter la tâche manuelle.
     <li>Dans la liste <strong>Nom de file d'attente</strong>, sélectionnez <strong>File d'attente conditionnelle</strong>.</li>
     </ol></li>
     </ol>
-    <strong>Remarque :</strong> cette option est utilisé que pour certaines workflows, tels que la gestion des incidents.</td>
+    <strong>Remarque :</strong> Cette option est utilisée uniquement pour certains workflows, tels que Gestion des dossiers.</td>
     </tr>
     </tbody>
     </table>
@@ -214,10 +217,10 @@ Si un utilisateur ne termine pas la tâche manuelle dans le délai imparti, la t
     </tr>
     <tr class="odd">
     <td>Utilisateur</td>
-    <td>Dynamics spécifique 365 pour les utilisateurs d'opérations</td>
+    <td>Utilisateurs Dynamics 365 for Operations spécifiques</td>
     <td><ol>
     <li>Sélectionnez <strong>Utilisateur</strong>, puis cliquez sur l'onglet <strong>Utilisateur</strong>.</li>
-    <li><strong>Utilisateurs disponibles</strong> La liste inclut tous les Dynamics 365 pour les utilisateurs d'opérations. Sélectionnez les utilisateurs à qui vous souhaitez réaffecter la tâche, puis déplacez-les dans la liste <strong>Utilisateurs sélectionnés</strong>.</li>
+    <li>La liste <strong>Utilisateurs disponibles</strong> inclut tous les utilisateurs Dynamics 365 for Operations. Sélectionnez les utilisateurs à qui vous souhaitez réaffecter la tâche, puis déplacez-les dans la liste <strong>Utilisateurs sélectionnés</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -234,7 +237,7 @@ Si un utilisateur ne termine pas la tâche manuelle dans le délai imparti, la t
 6.  Si les utilisateurs du chemin de réaffectation ne terminent pas la tâche dans le délai imparti, le système agit sur la tâche. Pour indiquer l'action exécutée par le système, sélectionnez la ligne **Action**, puis sélectionnez une action sous l'onglet **Terminer l'action**.
 
 ## <a name="specify-when-the-system-automatically-acts-on-the-task"></a>Indication du moment où le système agit automatiquement sur la tâche
-Vous pouvez configurer le système pour qu'il agisse sur la tâche manuelle si elle répond à certaines conditions. Supposons qu'une tâche nécessite qu'un membre du département États de dépenses passe en revue les reçus soumis avec un état de dépenses. Selon la stratégie de la société, cette tâche doit être effectuée si le montant total de l'état de dépenses est supérieur à USD 100. Dans ce cas, vous pouvez configurer le système marque automatiquement la tâche comme ** complétez ** lorsque le montant total est inférieur à 100. Procédez comme suit pour indiquer quand le système agit sur la tâche manuelle.
+Vous pouvez configurer le système pour qu'il agisse sur la tâche manuelle si elle répond à certaines conditions. Supposons qu'une tâche nécessite qu'un membre du département États de dépenses passe en revue les reçus soumis avec un état de dépenses. Selon la stratégie de l'entreprise, cette tâche doit être exécutée si le montant total de l'état de dépense est supérieur à 100 EUR. Dans ce cas, vous pouvez configurer le système de sorte qu'il marque automatiquement la tâche comme **Terminé** lorsque le montant total est inférieur à 100. Procédez comme suit pour indiquer quand le système agit sur la tâche manuelle.
 
 1.  Dans le volet gauche, cliquez sur **Actions automatiques**.
 2.  Activez la case à cocher **Activer les actions automatiques**.
@@ -308,10 +311,10 @@ Vous pouvez envoyer des notifications aux personnes lorsqu'une tâche manuelle a
     </tr>
     <tr class="odd">
     <td>Utilisateur</td>
-    <td>Dynamics spécifique 365 pour les utilisateurs d'opérations</td>
+    <td>Utilisateurs Dynamics 365 for Operations spécifiques</td>
     <td><ol>
     <li>Sélectionnez <strong>Utilisateur</strong>, puis cliquez sur l'onglet <strong>Utilisateur</strong>.</li>
-    <li><strong>Utilisateurs disponibles</strong> La liste inclut tous les Dynamics 365 pour les utilisateurs d'opérations. Sélectionnez les utilisateurs à qui envoyer les notifications, puis déplacez-les dans la liste <strong>Utilisateurs sélectionnés</strong>.</li>
+    <li>La liste <strong>Utilisateurs disponibles</strong> inclut tous les utilisateurs Dynamics 365 for Operations. Sélectionnez les utilisateurs à qui envoyer les notifications, puis déplacez-les dans la liste <strong>Utilisateurs sélectionnés</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -325,8 +328,8 @@ Si la tâche manuelle doit être exécutée dans un certain délai, procédez co
 1.  Dans le volet gauche, cliquez sur **Paramètres avancés**.
 2.  Activez la case à cocher **Définir une limite de temps pour l'élément de workflow**.
 3.  Dans le champ **Durée**, spécifiez quand la tâche doit être exécutée. Permet de sélectionner l'une des options suivantes :
-    -   ** Les heures ** – entrez le nombre d'heures pendant lesquelles il doit terminer la tâche. Sélectionnez ensuite le calendrier utilisé par votre organisation, puis entrez les informations relatives à la semaine de travail de votre organisation.
-    -   ** Les jours ** – entrez le nombre de jours pendant lesquels il doit terminer la tâche. Sélectionnez ensuite le calendrier utilisé par votre organisation, puis entrez les informations relatives à la semaine de travail de votre organisation.
+    -   **Heures** – Permet d'entrer le nombre d'heures pendant lesquelles cette tâche doit être exécutée. Sélectionnez ensuite le calendrier utilisé par votre organisation, puis entrez les informations relatives à la semaine de travail de votre organisation.
+    -   **Jours** – Permet d'entrer le nombre de jours pendant lesquels cette tâche doit être exécutée. Sélectionnez ensuite le calendrier utilisé par votre organisation, puis entrez les informations relatives à la semaine de travail de votre organisation.
     -   **Semaines** – Permet d'entrer le nombre de semaines accordé pour l'exécution de la tâche.
     -   **Mois** – Permet de sélectionner le jour et la semaine et le mois limites où la tâche doit être terminée. Par exemple, vous voudrez peut-être que la tâche soit exécutée d'ici le vendredi de la troisième semaine du mois.
     -   **Années** – Permet de sélectionner le jour, la semaine et le mois limites où la tâche doit être terminée. Vous voudrez peut-être que la tâche soit exécutée d'ici le vendredi de la troisième semaine de décembre.
@@ -343,6 +346,8 @@ Lorsque la tâche manuelle est affectée à un utilisateur, l'utilisateur doit a
 5.  Activez la case à cocher **Déléguer** si vous voulez que l'utilisateur puisse affecter la tâche à un autre utilisateur.
 6.  Activez la case à cocher **Réaffecter** si vous voulez que l'utilisateur puisse réaffecter la tâche à un autre utilisateur de la file d'attente des éléments de travail.
 7.  Activez la case à cocher **Lancer** si vous voulez que l'utilisateur puisse réaffecter la tâche à la file d'attente des éléments de travail. Un autre utilisateur peut effectuer la tâche.
+
+
 
 
 

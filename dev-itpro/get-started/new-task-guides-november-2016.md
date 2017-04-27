@@ -1,6 +1,6 @@
 ---
-title: "Nouveaux ou mis à jour guides de tâche (novembre 2016)"
-description: "Cette rubrique répertorie les nouveaux ou mis à jour guides d&quot;emploi qui ont été lancés dans la bibliothèque unifiée par APQC Microsoft (novembre 2016 - Toutes les langues) pour Microsoft Dynamics 365 pour les opérations. Aucune nouvelle Bibliothèque de mise en route n&quot;a été publiée."
+title: "Guides de tâches nouveaux ou mis à jour (novembre 2016)"
+description: "Cette rubrique répertorie les guides de tâches nouveaux ou mis à jour ont été publiés dans la bibliothèque unifiée APQC (novembre 2016 - toutes les langues) de Microsoft pour Microsoft Dynamics 365 for Operations. Aucune nouvelle Bibliothèque de mise en route n&quot;a été publiée."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,21 +24,24 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="new-or-updated-task-guides-november-2016"></a>Nouveaux ou mis à jour guides de tâche (novembre 2016)
+# <a name="new-or-updated-task-guides-november-2016"></a>Guides de tâches nouveaux ou mis à jour (novembre 2016)
 
-Cette rubrique répertorie les nouveaux ou mis à jour guides d'emploi qui ont été lancés dans la bibliothèque unifiée par APQC Microsoft (novembre 2016 - Toutes les langues) pour Microsoft Dynamics 365 pour les opérations. Aucune nouvelle Bibliothèque de mise en route n'a été publiée.
+[!include[banner](../includes/banner.md)]
 
-(Novembre 2016 ) toute la bibliothèque unifiée par APQC de langues) contient les guides de tâche qui sont conçus pour être utilisés pour obtenir de l'aide à Microsoft Dynamics 365 pour les opérations, Microsoft Dynamics 365 pour la mise à jour 3 de plateforme d'opérations, la mise à jour 2 de plateforme de Microsoft Dynamics AX, Dynamics AX la mise à jour du en mai 2016, et Microsoft Dynamics AX le lancement en février 2016. Pour plus d'informations sur ces versions, voir [ce qui est nouveau ou modifiés] (ce qui est - new-changed.md). Les versions localisées aux guides de tâche sont disponibles dans cette bibliothèque. Pour plus d'informations sur la procédure de connexion du système d'aide dans une bibliothèque de guide de tâche, voir [route route avec aide] (help-overview.md). ** Remarque : ** Un astérisque (**\***) en regard de le titre d'une ligne de (BPM) de modeleur de processus entreprise indique que le Guide de tâche pour ce processus entreprise a été créé pour Dynamics 365 pour les opérations la mise à jour le en novembre 2016 et n'est pas pris en charge dans les versions précédentes de Microsoft Dynamics AX.
+
+Cette rubrique répertorie les guides de tâches nouveaux ou mis à jour ont été publiés dans la bibliothèque unifiée APQC (novembre 2016 - toutes les langues) de Microsoft pour Microsoft Dynamics 365 for Operations. Aucune nouvelle Bibliothèque de mise en route n'a été publiée.
+
+La bibliothèque unifiée APQC (novembre 2016 - toutes les langues) contient les guides de tâches qui sont destinés à être utilisés pour de l’aide avec la mise à jour 3 de Microsoft Dynamics 365 for Operations, Microsoft Dynamics 365 for Operations Platform, la mise à jour 2 de Microsoft Dynamics AX Platform, la mise à jour 2016 de l'application Dynamics AX et la version de février 2016 de Microsoft Dynamics AX. Pour plus d'informations sur ces versions, voir [Nouveautés ou changements](whats-new-changed.md). Les versions localisées aux guides de tâche sont disponibles dans cette bibliothèque. Pour plus d’informations sur la façon de se connecter au système d’aide dans une bibliothèque de guide de tâche, voir [Prise en main de l'aide](help-overview.md). **Remarque :** un astérisque (**\***) en regard du titre d’une ligne de Concepteur de processus d'entreprise indique que le guide de tâche de ce processus a été créé pour la mise à jour de novembre 2016 de Dynamics 365 for Operations et qu’il n’est pas pris en charge dans les versions antérieures de Microsoft Dynamics AX.
 
 ### <a name="accounts-payable"></a>Module Comptabilité fournisseur
 
 | Ligne BPM                                                                                           | Pays/région |
 |----------------------------------------------------------------------------------------------------|----------------|
-| Indexer les données de facturation dans le système d'Achats à l'aide de le journal d'approbation                                               | Général         |
-| Indexer les données de facturation dans le système d'Achats à l'aide de la facture fournisseur (Permet d'entrer et de valider une facture fournisseur avec correspondre) | Général         |
+| Données de facture clés dans le système de comptabilité fournisseur à l'aide du journal d'approbation                                               | Général         |
+| Données de facture clés dans le système de comptabilité fournisseur à l'aide de la facture fournisseur (entrer et valider une facture fournisseur avec correspondance) | Général         |
 | Données de facture clés dans le système de comptabilité fournisseur à l'aide du journal des factures                                              | Général         |
 | Données de facture clés dans le système de comptabilité fournisseur à l'aide du registre de factures                                                 | Général         |
-| Enregistrement de la réception de la facture fournisseur et mise en correspondance avec la quantité reçue                           | Général         |
+| Enregistrer la réception de factures fournisseur et mettre en correspondance avec la quantité reçue                           | Général         |
 | Configurer la validation du rapprochement de factures de la comptabilité fournisseur                                                | Général         |
 | Paramétrer des stratégies de factures fournisseur                                                                    | Général         |
 
@@ -49,7 +52,7 @@ Cette rubrique répertorie les nouveaux ou mis à jour guides d'emploi qui ont �
 | Ligne BPM                                                                           | Pays/région |
 |------------------------------------------------------------------------------------|----------------|
 | Affecter un modèle de facture financière récurrente à un client                        | Général         |
-| Calcul des intérêts et créez et imprimez et validez les notes d'intérêt (l'intérêt de processus) | Général         |
+| Calculer les intérêts et créer et imprimer, puis valider les notes d'intérêt (intérêt de processus) | Général         |
 | Créer une série de lettres de relance                                                | Général         |
 | Créer un mandat de débit direct pour un client                                       | Général         |
 | Créer une facture financière                                                         | Général         |
@@ -59,7 +62,7 @@ Cette rubrique répertorie les nouveaux ou mis à jour guides d'emploi qui ont �
 | Créer des factures de commande client                                                        | Général         |
 | Générer et valider les factures financières récurrentes                                     | Général         |
 | Traiter les lettres de relance                                                         | Général         |
-| Vérifiez les informations de relance                                                      | Général         |
+| Examinez les informations de recouvrement.                                                      | Général         |
 | Paramétrer et générer des informations sur la plage âgée de la comptabilité client                          | Général         |
 
 ### 
@@ -104,7 +107,7 @@ Cette rubrique répertorie les nouveaux ou mis à jour guides d'emploi qui ont �
 | Paramétrage de chèques postdatés                                              | Général         |
 | Règlement d'un chèque postdaté pour un fournisseur                                | Général         |
 | Règlement d'un chèque postdaté provenant d'un client                             | Général         |
-| Vue d'ensemble de paiements fournisseur                                             | Général         |
+| Présentation des paiements fournisseurs                                             | Général         |
 
 ### 
 
@@ -137,45 +140,45 @@ Cette rubrique répertorie les nouveaux ou mis à jour guides d'emploi qui ont �
 
 | Ligne BPM                                                                                                                             | Pays/région                    |
 |--------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|
-| Ajoutez les zones de déclaration BAS et génération du relevé (BAS) d'activités commerciales de l'Australie                                                    | Australie et Nouvelle-Zélande         |
+| Ajouter des zones de déclaration BAS et générer la déclaration d'activité commerciale pour l'Australie                                                    | Australie et Nouvelle-Zélande         |
 | Configurer les codes motif pour le BAS australien                                                                                                | Australie et Nouvelle-Zélande         |
-| **\***Chinese voucher continuity check                                                                                               | Chine                             |
-| **\*** hiérarchie de CN-00010 Chine de plan de comptes                                                                                  | Chine                             |
-| **\*** journal d'opération de l'utilisateur CN-00016 par la Chine travaillant la règle                                                                              | Chine                             |
-| **\***Golden tax integration export setup                                                                                            | Chine                             |
-| **\***Post vouchers from other modules, like sales invoices                                                                          | Chine                             |
-| **\***Post vouchers from the general journal                                                                                         | Chine                             |
-| **\***Set up basic tax integration profile for China                                                                                 | Chine                             |
-| **\***Set up Chinese vouchers                                                                                                        | Chine                             |
+| **\***Contrôle de la continuité des N° documents chinois                                                                                               | Chine                             |
+| **\***CN-00010 Hiérarchie chinoise du plan de comptes                                                                                  | Chine                             |
+| **\***CN-00016 Journal des opérations d'utilisateur par règle de travail de la Chine                                                                              | Chine                             |
+| **\***Paramétrage de l'exportation pour l'intégration GTS                                                                                            | Chine                             |
+| **\***Valider les N° documents à partir d'autres modules, comme les factures client                                                                          | Chine                             |
+| **\***Valider les N° documents à partir du journal des opérations diverses                                                                                         | Chine                             |
+| **\***Paramétrer le profil d'intégration de la taxe de base pour la Chine                                                                                 | Chine                             |
+| **\***Paramétrer les N° documents chinois                                                                                                        | Chine                             |
 | Créer et valider une facture client pour un client du secteur public                                                                      | Danemark                           |
 | Créer et valider une facture financière pour un client du secteur public                                                                     | Danemark                           |
 | Créer et valider une facture de projet pour un client du secteur public                                                                       | Danemark                           |
-| Transfert d'argent de DK-00007 FIK 752/valider une facture financière avec un bordereau de paiement                                               | Danemark                           |
-| Transfert d'argent de DK-00007 FIK 752/valider une facture de projet avec un bordereau de paiement                                                 | Danemark                           |
+| Bordereau de transfert d'argent DK-00007 FIK 752/Validation d'une facture financière avec un bordereau de paiement                                               | Danemark                           |
+| Bordereau de transfert d'argent DK-00007 FIK 752/Validation d'une facture projet avec un bordereau de paiement                                                 | Danemark                           |
 | Importer les configurations de facturation électronique OIOUBL                                                                                    | Danemark                           |
 | Configurer les comptes client pour la facturation électronique OIOUBL                                                                             | Danemark                           |
 | Paramétrer la facturation électronique OIOUBL                                                                                                   | Danemark                           |
 | Configurer le format de bordereau de paiement                                                                                                           | Danemark                           |
-| **\***EEU-00047 Advance payment to employee                                                                                          | Europe de l'Est                    |
+| **\***EEU-00047 Acompte à l'employé                                                                                          | Europe de l'Est                    |
 | Créer et exporter des paiements fournisseur à l'aide du format de paiement ISO20022                                                                      | Europe                            |
 | Créer des paiements pour les clients qui ont des mandats de débit direct                                                                          | Europe                            |
-| **\*** outil de génération de la référence de paiement EE-00015                                                                                     | Europe                            |
+| **\***EE-00015 Outil de génération de référence de paiement                                                                                     | Europe                            |
 | EUR-00002 Générer un fichier de déclaration d'échanges de biens de l'UE                                                                                       | Europe                            |
-| **\*** EUR-00002 spécifier une adresse de chargement pour une transaction intracommunautaire                                                          | Europe                            |
+| **\***EUR-00002 Spécification d'une adresse de chargement pour une transaction intracommunautaire                                                          | Europe                            |
 | EUR-00002 Transférer des transactions à la déclaration d'échanges de biens                                                                                     | Europe                            |
 | EUR-00011 Générer l'état Liste des ventes intracommunautaires                                                                                          | Europe                            |
 | EUR-00011 Paramétrer une déclaration de la liste des ventes intracommunautaires                                                                                             | Europe                            |
 | EUR-00012 Émettre un certificat d'entrée de l'UE                                                                                              | Europe                            |
 | EUR-00012 Recevoir un certificat d'entrée de l'UE                                                                                            | Europe                            |
-| **\***EUR-00015 Party search using VAT ID                                                                                            | Europe                            |
-| **\***EUR-00015 Registration of vendor VAT ID                                                                                        | Europe                            |
-| **\*** ID de TVA du paramétrage EUR-00015                                                                                                        | Europe                            |
-| **\*** calcul du taux de change HU-00001                                                                                             | Europe                            |
+| **\***EUR-00015 Recherche de partie à l'aide de l'ID de TVA                                                                                            | Europe                            |
+| **\***EUR-00015 Enregistrement de l'ID de TVA du fournisseur                                                                                        | Europe                            |
+| **\***EUR-00015 Paramétrer l'ID de TVA                                                                                                        | Europe                            |
+| **\***HU-00001 Calcul du taux de change.                                                                                             | Europe                            |
 | Importer la configuration du virement ISO20022                                                                                        | Europe                            |
 | Importer la configuration du débit direct ISO20022                                                                                           | Europe                            |
-| **\*** le document de transfert LT-00003 pour les mouvements de marchandises dans la société/génèrent un document de transfert d'un transfert interne de stock   | Europe                            |
-| **\*** le document de transfert LT-00003 pour les mouvements de marchandises dans la société/paramètre les documents de transfert pour les mouvements de marchandises dans une société | Europe                            |
-| **\*** ID paiement du paiement client NO-00002 selon                                                                                  | Europe                            |
+| **\***LT-00003 Documents de transfert pour le mouvement de marchandises dans une société/Générer un document de transfert pour un transfert de stock interne   | Europe                            |
+| **\***LT-00003 Documents de transfert pour le mouvement de marchandises dans une société/Générer un document de transfert pour un transfert de stock interne | Europe                            |
+| **\***NO-00002 Paiement client basé sur l'ID de paiement                                                                                  | Europe                            |
 | Configurer les comptes bancaires de société pour les virements ISO20022                                                                           | Europe                            |
 | Configurer les comptes bancaires de société pour les débits directs ISO20022                                                                              | Europe                            |
 | Configurer les clients et les comptes bancaires du client pour les débits directs ISO20022                                                               | Europe                            |
@@ -183,7 +186,7 @@ Cette rubrique répertorie les nouveaux ou mis à jour guides d'emploi qui ont �
 | Configurer le mode de paiement pour le débit direct ISO20022                                                                                   | Europe                            |
 | Configurer les fournisseurs et les comptes bancaires fournisseur pour les virements ISO20022                                                                | Europe                            |
 | Établir les modes de paiement client                                                                                                | France                            |
-| Client FR-00002 et compte fournisseur                                                                                                 | France                            |
+| FR-00002 Compte client et fournisseur                                                                                                 | France                            |
 | FR-00003 Codes NAF et numéros Siret                                                                                                 | France                            |
 | FR-00004 Approuver et valider la création des lettres de change client                                                                                      | France                            |
 | FR-00004 Effets de commerce et billets à ordre français                                                                               | France                            |
@@ -200,7 +203,7 @@ Cette rubrique répertorie les nouveaux ou mis à jour guides d'emploi qui ont �
 | ER Configurer le format pour effectuer le comptage et la synthèse (Partie 2 : Configurer les calculs)                                                      | Allemagne                           |
 | ER Configurer le format pour effectuer le comptage et la synthèse (Partie 3 : Utiliser les calculs pour générer la sortie)                                         | Allemagne                           |
 | ER Configurer le format pour effectuer le comptage et la synthèse (Partie 4 : Exécuter le format)                                                                  | Allemagne                           |
-| L'ER créent un fournisseur de configuration et le balisent comme actif                                                                             | Allemagne                           |
+| Génération d'états électroniques - Créer un fournisseur de configuration et le marquer comme actif                                                                             | Allemagne                           |
 | ER Concevoir une configuration pour générer des états au format Microsoft WORD (novembre 2016)                                            | Allemagne                           |
 | ER Concevoir un modèle de données spécifiques au domaine (novembre 2016)                                                                                 | Allemagne                           |
 | ER Charger une configuration à partir de Lifecycle Services                                                                                    | Allemagne                           |
@@ -218,28 +221,28 @@ Cette rubrique répertorie les nouveaux ou mis à jour guides d'emploi qui ont �
 | ER Utiliser des plages extensibles horizontalement pour ajouter dynamiquement des colonnes dans les états Excel (Partie 2 : Exécuter le format)                               | Allemagne                           |
 | Générer le fichier d'audit allemand                                                                                                           | Allemagne                           |
 | Importer la configuration du fichier d'audit allemand                                                                                               | Allemagne                           |
-| **\*** état de rapprochement de la TVA EUR-00018                                                                                            | Islande                           |
-| La déclaration de la facture fournisseur IS-00006/créent un compte fournisseur et affectez -lui la déclaration de facture                                       | Islande                           |
-| La déclaration de la facture fournisseur IS-00006/paramètre une déclaration de facture pour les fournisseurs                                                        | Islande                           |
-| La déclaration de la facture fournisseur IS-00006/des déclarations facture fournisseur de mise à jour et générer l'état                                       | Islande                           |
-| Maintenez le plan de comptes/références de paiement paramétrées obligatoires                                                                       | Islande                           |
+| **\***EUR-00018 État de rapprochement de TVA                                                                                            | Islande                           |
+| IS-00006 Déclarer une facture fournisseur/Créer un compte fournisseur et joindre la déclaration de facture                                       | Islande                           |
+| IS-00006 Déclaration de facture fournisseur/Paramétrage d'une déclaration de facture pour les fournisseurs                                                        | Islande                           |
+| IS-00006 Déclaration de facture fournisseur/Mettre à jour les déclarations de facture fournisseur et générer l'état associé                                       | Islande                           |
+| Tenir à jour le plan de comptes/Configurer les références de paiement obligatoires                                                                       | Islande                           |
 | Acquisition d'une immobilisation avec des obligations de suppression d'immobilisation                                                                              | Japon                             |
-| Acquisition les immobilisations, réclamation pour la subvention gouvernementale                                                                                 | Japon                             |
+| Acquérir des immobilisations fixes, réclamer une subvention gouvernementale                                                                                 | Japon                             |
 | Ajustement de l'estimation d'obligation de suppression d'immobilisation                                                                               | Japon                             |
-| Permet de répartir le montant de entreposez partagée d'immobilisation et les fonds de commerce en disponibilités générant des unités                                                   | Japon                             |
+| Répartir le montant reporté d'actif partagé et de fonds de commerce sur les unités génératrices de trésorerie                                                   | Japon                             |
 | Modifier la méthode d'amortissement lors de la vie de l'actif pour un actif donné                                                                   | Japon                             |
 | Modifier la méthode d'amortissement pendant la durée de vie de l'actif pour un registre                                                                        | Japon                             |
 | Configurer les paramètres d'amortissement accéléré et les profils de validation                                                                   | Japon                             |
 | CN-00004 Allocation spéciale pour amortissement d'immobilisation (JP-)                                                                                   | Japon                             |
-| Configuration d'un profil d'amortissement et un profil de validation pour l'amortissement supplémentaire                                                   | Japon                             |
-| Configuration d'un profil d'amortissement et un profil de validation pour l'amortissement spécial                                                      | Japon                             |
+| Configurer un profil d'amortissement et un profil de validation pour l'amortissement supplémentaire                                                   | Japon                             |
+| Configurer un profil d'amortissement et un profil de validation pour l'amortissement spécial                                                      | Japon                             |
 | Configurer les paramètres de facture consolidée et le paramétrage de la comptabilité fournisseur                                                             | Japon                             |
 | Configurer les comptes principaux pour la validation des obligations de suppression des actifs les taux de remise sur le marché                                            | Japon                             |
 | Créer une immobilisation avec un amortissement supplémentaire                                                                                    | Japon                             |
 | Créer une immobilisation avec un profil d'amortissement spécial                                                                               | Japon                             |
 | Créer un profil d'amortissement accéléré et l'affecter au registre                                                                        | Japon                             |
 | Créer un document d'amortissement accéléré et entrer les données d'utilisation                                                                     | Japon                             |
-| Permet de créer et d'affecter un groupe d'équipement                                                                                                 | Japon                             |
+| Créer et affecter un groupe d'équipement                                                                                                 | Japon                             |
 | Créer et affecter un document d'écriture de réduction                                                                                           | Japon                             |
 | Créer et confirmer une facture consolidée fournisseur                                                                                     | Japon                             |
 | Créer et confirmer un test de constatation                                                                                                  | Japon                             |
@@ -259,14 +262,14 @@ Cette rubrique répertorie les nouveaux ou mis à jour guides d'emploi qui ont �
 | Recherches des transactions liées à l'obligation de suppression des immobilisations                                                                    | Japon                             |
 | Recherche des dépenses déductibles                                                                                                       | Japon                             |
 | JP-00005 Journal de saisie dans l'écran de compte T (Japon)                                                                                     | Japon                             |
-| JP-00011 la facture consolidée - Ventes - créez et confirmez une facture consolidée client                                              | Japon                             |
-| JP-00027 écran 26 pour la déclaration de taxe amortissable                                                                                     | Japon                             |
+| JP-00011 Facture consolidée - Ventes - Créer et confirmer une facture consolidée client                                              | Japon                             |
+| JP-00027 Écran 26 pour la déclaration de taxe amortissable                                                                                     | Japon                             |
 | Tenir à jour les fichiers de données principales d'immobilisation pour les dépenses déductibles                                                                       | Japon                             |
 | Tenir à jour les indicateurs de dégradation sur les immobilisations individuelles                                                                                  | Japon                             |
 | Payer une transaction fournisseur en endossant une lettre de change du client                                                                    | Japon                             |
 | Règlement périodique de sur et sous amortissement                                                                                   | Japon                             |
 | Proposer un amortissement supplémentaire                                                                                                      | Japon                             |
-| Proposer et validez l'amortissement accéléré                                                                                        | Japon                             |
+| Proposer et valider l'amortissement accéléré                                                                                        | Japon                             |
 | Proposer et valider le montant de la dégradation par lot                                                                                      | Japon                             |
 | Proposer et valider le montant de la dégradation à l'aide du journal des immobilisations                                                                  | Japon                             |
 | Proposer et valider le montant de la dégradation sur une unité génératrice de trésorerie                                                                     | Japon                             |
@@ -300,12 +303,12 @@ Cette rubrique répertorie les nouveaux ou mis à jour guides d'emploi qui ont �
 | MX-00010 Rechercher et imprimer une facture électronique                                                                                     | Mexique                            |
 | MX-00010 Valider une facture financière                                                                                                    | Mexique                            |
 | MX-00010 Définir les paramètres d'une facture électronique                                                                                    | Mexique                            |
-| MX-00020 : Production la version électronique mexicaine 1,1 régionales de la comptabilité                                                            | Mexique                            |
+| MX-00020 : Produire l'état de comptabilité générale électronique version 1.1                                                            | Mexique                            |
 | MX-00020 Paramétrer le plan de comptes d'une entité juridique au Mexique                                                                   | Mexique                            |
 | MX-00020 - Spécifier l'ID enregistrement RFC des comptes bancaires mexicains                                                                 | Mexique                            |
 | NL-00003 Intégration Semansys XBRL                                                                                                   | Pays-Bas                       |
 | NL-00010 Déclarations de taxe électronique (EVAT)                                                                                          | Pays-Bas                       |
-| MY-00003 gèrent la note de débit et l'avoir en client pour GST                                                                          | Singapour, Malaisie et Thaïlande |
+| MY-00003 Gérer les notes de débit et d'avoirs client pour la GST                                                                          | Singapour, Malaisie et Thaïlande |
 | MY-00004 Gérer les notes de débit et d'avoirs fournisseur pour la GST                                                                            | Singapour, Malaisie et Thaïlande |
 | MY-00005 Imprimer les factures de taxe GST                                                                                                      | Singapour, Malaisie et Thaïlande |
 | MY-00006 01 Définir les clauses d'allègement GST                                                                                                | Singapour, Malaisie et Thaïlande |
@@ -340,7 +343,7 @@ Cette rubrique répertorie les nouveaux ou mis à jour guides d'emploi qui ont �
 | Modifier le groupe d'actifs                                        | Général         |
 | Modification des conventions d'amortissement pour plusieurs immobilisations | Général         |
 | Création d'une immobilisation                                      | Général         |
-| Créez et acquérez les immobilisations du module Achats           | Général         |
+| Créer et acquérir des actifs à partir de la comptabilité fournisseur           | Général         |
 | Créer une proposition d'amortissement                              | Général         |
 | Céder des immobilisations à l'aide d'une facture financière        | Général         |
 | Saisie d'un supplément à une immobilisation                        | Général         |
@@ -362,7 +365,7 @@ Cette rubrique répertorie les nouveaux ou mis à jour guides d'emploi qui ont �
 | Ligne BPM                                       | Pays/région |
 |------------------------------------------------|----------------|
 | Clore l'exercice                          | Général         |
-| Création d'une saisie de journal à l'aide d'un modèle        | Général         |
+| Créer une entrée de journal à l'aide d'un modèle        | Général         |
 | Création d'un compte principal                          | Général         |
 | Créer des structures de compte                      | Général         |
 | Création de plans de régularisation                         | Général         |
@@ -371,7 +374,7 @@ Cette rubrique répertorie les nouveaux ou mis à jour guides d'emploi qui ont �
 | Création de transactions de régularisation des comptes             | Général         |
 | Définir les dimensions financières                    | Général         |
 | Journaliser les entrées de journal validées              | Général         |
-| Mise à jour des modèles de dimension financière         | Général         |
+| Tenir à jour les modèles de dimension financière         | Général         |
 | Clôture de période comptable en masse                    | Général         |
 | Traiter les écritures du journal                        | Général         |
 | Traiter le journal de répartition comptable              | Général         |
@@ -387,9 +390,9 @@ Cette rubrique répertorie les nouveaux ou mis à jour guides d'emploi qui ont �
 
 | Ligne BPM                                                                       | Pays/région |
 |--------------------------------------------------------------------------------|----------------|
-| **\***Change the ownership of consignment inventory based on production demand | Général         |
-| **\***Create a consignment replenishment order                                 | Général         |
-| **\***Monitor consignment inventory using vendor collaboration                 | Général         |
+| **\***Modifier la propriété du stock de consignation en fonction de la demande de production | Général         |
+| **\***Créer une commande de réapprovisionnement avec consignation                                 | Général         |
+| **\***Contrôler le stock de consignation à l'aide de la collaboration fournisseur                 | Général         |
 
 ### 
 
@@ -416,9 +419,9 @@ Cette rubrique répertorie les nouveaux ou mis à jour guides d'emploi qui ont �
 
 | Ligne BPM                                                         | Pays/région |
 |------------------------------------------------------------------|----------------|
-| **\***Add to your performance journal and send praise to someone | Général         |
-| **\***Create a goal                                              | Général         |
-| **\***Create a performance review                                | Général         |
+| **\***Ajouter à votre journal de performances et envoyer l'éloge à une personne | Général         |
+| **\***Créer un objectif                                              | Général         |
+| **\***Créer une évaluation des performances                                | Général         |
 
 ### 
 
@@ -442,9 +445,9 @@ Cette rubrique répertorie les nouveaux ou mis à jour guides d'emploi qui ont �
 | Ajouter une image à un produit                                               | Général         |
 | Classer un produit à l'aide des hiérarchies de catégories                           | Général         |
 | Créer un code-barres pour un produit                                         | Général         |
-| \* Permet\* créer une nomenclature de numéro de produit pour les variantes de produit prédéfinies | Général         |
-| \* Permet\* créer une nomenclature de numéro de produit pour les variantes de produit configurées | Général         |
-| \* définissent les paramètres de commande par défaut pour un article                            | Général         |
+| \* Créer une nomenclature de numéros de produit pour des variantes de produit prédéfinies | Général         |
+| \* Créer une nomenclature de numéros de produit pour des variantes de produit configurées | Général         |
+| \* Définir les paramètres de commande par défaut pour un article                            | Général         |
 | Créer une commande client pour un produit configurable                         | Général         |
 | Créer des critères de sélection de prix de vente                                   | Général         |
 | Entrer le code GTIN d'un produit                                       | Général         |
@@ -468,11 +471,11 @@ Cette rubrique répertorie les nouveaux ou mis à jour guides d'emploi qui ont �
 | Ligne BPM                                                                      | Pays/région |
 |-------------------------------------------------------------------------------|----------------|
 | Ajouter un type de certification à un fournisseur pour le secteur public                        | Général         |
-| Contrôle l'accès aux contrats d'achat du secteur public                      | Général         |
+| Contrôler l'accès aux contrats d'achat depuis le secteur public                      | Général         |
 | Créer une classification de facturation                                               | Général         |
 | Créer un code facturation                                                         | Général         |
 | Créer un engagement de réserver des fonds budgétaires pour le secteur public                 | Général         |
-| Créez un champ personnalisé de code facturation                                      | Général         |
+| Créer un champ personnalisé pour le code de facturation                                      | Général         |
 | Création d'un type de fonds                                                            | Général         |
 | Créer un fournisseur occasionnel et une facture                                          | Général         |
 | Créer un budget préliminaire pour le secteur public                                 | Général         |
@@ -480,7 +483,7 @@ Cette rubrique répertorie les nouveaux ou mis à jour guides d'emploi qui ont �
 | Créer une écriture comptable avancée dans le secteur public                          | Général         |
 | Créer un budget d'origine et contrepasser ensuite les écritures budgétaires préliminaires         | Général         |
 | Créer et affecter un code de partenaire commercial dans le secteur public                 | Général         |
-| Créez les pages de couverture et de signature pour les états de paiement pour le secteur public   | Général         |
+| Créer une couverture et des pages de signature pour des états de paiement pour le secteur public   | Général         |
 | Importer et créer plusieurs fournisseurs et factures occasionnels dans le secteur public | Général         |
 | Configurer une hiérarchie financière dérivée dans le secteur public                     | Général         |
 | Configurer un fonds dans le secteur public                                            | Général         |
@@ -493,17 +496,17 @@ Cette rubrique répertorie les nouveaux ou mis à jour guides d'emploi qui ont �
 | Ligne BPM                                                         | Pays/région |
 |------------------------------------------------------------------|----------------|
 | Configurer un collaborateur                                               | Général         |
-| **\***Configure machine learning-powered product recommendations | Général         |
+| **\***Configurer des recommandations de produit exécutées par Machine Learning | Général         |
 | Configurer le profil de fonctionnalité pour un commercial   | Général         |
-| **\***Create a POS visual profile (November 2016)                | Général         |
+| **\***Créer un profil visuel de PDV (novembre 2016)                | Général         |
 | Créer et associer des caisses enregistreuses                                   | Général         |
 | Créer des commandes de centre d'appels                                        | Général         |
 | Créer des accords commerciaux à l'aide d'une règle de tarification de catégorie            | Général         |
 | Créer, calculer et valider un relevé pour un magasin              | Général         |
 | Définir une affiliation et affecter une remise                      | Général         |
-| Définissez et gérez des groupes d'autorisations POS                          | Général         |
-| Définissez le programme de périodique                                       | Général         |
-| **\*** définissez les communications (CDX) de canal de vente au détail                 | Général         |
+| Définir et gérer des groupes d'autorisations PDV                          | Général         |
+| Définir des programmes périodiques                                       | Général         |
+| **\***Définir les communications de canal de vente au détail (CDX)                 | Général         |
 | Ajustements des récompenses de fidélité                                      | Général         |
 | Gérer les assortiments                                               | Général         |
 | Affectation et remplacement des taxes                                | Général         |
@@ -526,7 +529,7 @@ Cette rubrique répertorie les nouveaux ou mis à jour guides d'emploi qui ont �
 | Exécuter les contrats de vente                   | Général         |
 | Générer et traiter les remises client      | Général         |
 | Rechercher les prix et remises applicables    | Général         |
-| Gestion des mises en attente de commande client                   | Général         |
+| Gérer les blocages de commandes client                   | Général         |
 | Création en masse de devis de vente               | Général         |
 | Traiter les remises pour le paiement                | Général         |
 | Enregistrer les commissions sur les ventes                 | Général         |
@@ -554,7 +557,7 @@ Cette rubrique répertorie les nouveaux ou mis à jour guides d'emploi qui ont �
 
 ### 
 
-### <a name="supply-relationship-management"></a>Remise de la gestion des relations
+### <a name="supply-relationship-management"></a>Gestion des relations fournisseur
 
 | Ligne BPM                                                           | Pays/région |
 |--------------------------------------------------------------------|----------------|
@@ -575,14 +578,14 @@ Cette rubrique répertorie les nouveaux ou mis à jour guides d'emploi qui ont �
 | Ligne BPM                                                                    | Pays/région |
 |-----------------------------------------------------------------------------|----------------|
 | Créer un profil d'emplacement                                                   | Général         |
-| **\***Create a mobile device menu item for license plate consolidation      | Général         |
+| **\***Créer une option de menu d'appareil mobile pour la consolidation de contenants      | Général         |
 | Rapprocher manuellement les frais de transport                                                  | Général         |
 | Enregistrement de l'arrivée et du départ d'un chauffeur pour un rendez-vous                   | Général         |
-| Paramétrez une option du menu de périphérique mobile pour le travail de type commande fournisseur | Général         |
+| Configurer une option de menu d'appareil mobile pour terminer le travail du type commande fournisseur | Général         |
 | Paramétrer un rendez-vous pour une charge                                            | Général         |
 | Paramétrer une offre de transport                                              | Général         |
 | Paramétrer le rapprochement automatique des frais de transport                                     | Général         |
-| **\***Set up short picking item reallocation                                | Général         |
+| **\***Paramétrer la réaffectation des articles pour les prélèvements partiels                                | Général         |
 
 
 
@@ -593,6 +596,8 @@ Cette rubrique répertorie les nouveaux ou mis à jour guides d'emploi qui ont �
 
 [Guides de tâches nouveaux ou mis à jour disponibles (mai 2016)](new-updated-task-guides-available-may-2016.md)
 
-[New or updated task guides available (August 2016)](new-updated-task-guides-available-august-2016.md)
+[Guides de tâches nouveaux ou mis à jour disponibles (août 2016)](new-updated-task-guides-available-august-2016.md)
+
+
 
 

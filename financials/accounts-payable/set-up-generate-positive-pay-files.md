@@ -26,12 +26,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-and-generate-positive-pay-files"></a>Paramétrer et générer des fichiers de paiement positif
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article décrit comment paramétrer le paiement positif et générer des fichiers de paiement positif. 
 
 Paramétrez le paiement positif pour générer la liste électronique de chèques qui est fournie à la banque. Puis, lorsque le chèque est présenté à la banque, la banque le compare avec la liste des chèques. Si le chèque correspond à un chèque de la liste, la banque le compense. Si le chèque ne correspond pas à un chèque dans la liste, la banque le conserve pour examen.
 
 ## <a name="security-for-positive-pay-files"></a>Sécurité pour les fichiers de paiement positif
-Les fichiers de paiement positif peuvent contenir des informations confidentielles sur les bénéficiaires et les montants des chèques. Veillez donc à utiliser les mesures de sécurité appropriées depuis la génération des fichiers jusqu'à leur réception par la banque. Les fichiers de paiement positif sont chargés à l'emplacement spécifié par votre navigateur Web. Comme les fichiers de paiement positif peuvent contenir des informations importantes, il est important que seuls les utilisateurs autorisés ont accès pour générer et afficher ces informations dans Microsoft Dynamics 365 pour les opérations. Utilisez le tableau suivant pour vous permettre de déterminer les privilèges requis.
+Les fichiers de paiement positif peuvent contenir des informations confidentielles sur les bénéficiaires et les montants des chèques. Veillez donc à utiliser les mesures de sécurité appropriées depuis la génération des fichiers jusqu'à leur réception par la banque. Les fichiers de paiement positif sont chargés à l'emplacement spécifié par votre navigateur Web. Comme les fichiers de paiement positif peuvent contenir des informations confidentielles, il est important que seuls les utilisateurs autorisés y aient accès pour générer et afficher ces informations dans Microsoft Dynamics 365 for Operations. Utilisez le tableau suivant pour vous permettre de déterminer les privilèges requis.
 
 <table>
 <colgroup>
@@ -156,5 +159,7 @@ Lorsque les chèques répertoriés dans un fichier de paiement positif ont été
 
 ## <a name="recall-a-positive-pay-file"></a>Rappeler un fichier de paiement positif
 Si vous devez modifier un fichier de paiement positif, vous pouvez le rappeler. Dans la page **Résumé du fichier de paiement positif**, sélectionnez un fichier de paiement positif ayant le statut **Créé**, puis sélectionnez l'action **Rappeler**. Pour chaque chèque présent dans le fichier de paiement positif, le champ qui indique si le chèque a été inclus dans un fichier de paiement positif est réinitialisé. Vous pouvez alors créer un nouveau fichier de paiement positif qui inclut le chèque rappelé.
+
+
 
 

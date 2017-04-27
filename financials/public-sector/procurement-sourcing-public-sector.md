@@ -45,11 +45,11 @@ Vous devez peut-être paramétrer les fonctionnalités d'approvisionnement suiva
 -    [Codes de commandes fournisseur du secteur public](purchase-order-codes-public-sector.md) Créez des codes et des messages spéciaux pour la confirmation des commandes fournisseur. Une commande fournisseur de confirmation permet de contourner le processus d'achat habituel.
 
 > [!NOTE]
-> Cela s'applique également aux achats.
+> Cela s'applique également à la comptabilité fournisseur.
 
 -   [Comptabilité du secteur public en France](/localizations/eurore/public-sector-accounting-france.md) 
 
-Pour les organisations françaises, des étapes supplémentaires peuvent être demandées pour le secteur public.
+Pour les organisations françaises, des étapes supplémentaires peuvent être nécessaires pour le secteur public.
 
 Les sections suivantes décrivent les fonctionnalités d'approvisionnements disponible pour le secteur public.
 
@@ -82,7 +82,7 @@ Sélectionnez l'option **Activités**.
 Sélectionnez l'option **Exiger une facturation directe**. 
 
 ## <a name="can-i-view-purchase-order-line-amounts"></a>Puis-je afficher les montants de la ligne de commande fournisseur ?
-Oui. La ligne les montants pour une commande fournisseur peut être affichée, y compris le montant commandé actuel et tous les montants reçus ou facturés. Vous pouvez également afficher les montants restant à facturer ou ceux des factures en attente.
+Oui. Vous pouvez afficher les montants de ligne d'une commande fournisseur (notamment le montant commandé actuel, les montants reçus ou facturés). Vous pouvez également afficher les montants restant à facturer ou ceux des factures en attente.
 
 ### <a name="tip"></a>Conseil
 
@@ -135,6 +135,6 @@ Supposons que vous affichiez une ligne de commande fournisseur contenant des ach
 
  
 
-Pour plus d'informations, voir [Approvisionnements] (/dynamics365/operations/scm/procurement/procurement-sourcing-overview) et [achats dans le secteur public] (accounts-payable-public-sector.md).
+Pour plus d'informations, voir [Approvisionnements](/dynamics365/operations/scm/procurement/procurement-sourcing-overview) et [Comptabilité fournisseur dans le secteur public](accounts-payable-public-sector.md).
 
 

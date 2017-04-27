@@ -1,5 +1,5 @@
 ---
-title: "Règlement d&quot;un paiement partiel client avant la date d&quot;escompte avec un paiement final après la date de remise"
+title: "Régler un paiement client partiel avant la date de remise avec un paiement final après la date de remise"
 description: "Cet article détaille l&quot;effet de la réception des paiements sur les factures pour les clients. Le scénario se concentre sur les effets dans la comptabilité auxiliaire et non dans la comptabilité."
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-customer-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Règlement d'un paiement partiel client avant la date d'escompte avec un paiement final après la date de remise
+# <a name="settle-a-partial-customer-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Régler un paiement client partiel avant la date de remise avec un paiement final après la date de remise
+
+[!include[banner](../includes/banner.md)]
+
 
 Cet article détaille l'effet de la réception des paiements sur les factures pour les clients. Le scénario se concentre sur les effets dans la comptabilité auxiliaire et non dans la comptabilité.
 
-Fabrikam vend des marchandises au client 4027. Fabrikam offre un escompte de règlement de 1 % % si la facture est payée dans les 14 jours. Les factures doivent être réglées dans les 30 jours. Fabrikam propose également des escomptes de règlement sur des paiements partiels. Les paramètres de règlement sont situés sous ** des paramètres des ventes ** la page.
+Fabrikam vend des marchandises au client 4027. Fabrikam offre un escompte de règlement de 1 % si la facture est payée sous 14 jours. Les factures doivent être réglées dans les 30 jours. Fabrikam propose également des escomptes de règlement sur des paiements partiels. Les paramètres de règlement se trouvent dans la page **Paramètres de la comptabilité client**.
 
 ## <a name="invoice"></a>Facture
-Le 25 juin, Arnie entre et valide une facture de 1.000,00 pour le client 4027. Il peut afficher cette facture en utilisant ** des transactions ** de le bouton dans ** les clients ** la page.
+Le 25 juin, Arnie entre et valide une facture de 1 000,00 pour le client 4027. Il peut afficher cette facture en utilisant le bouton **Transactions** de la page **Clients**.
 
 | N° document   | Type de transaction | Date      | Facture | Montant au débit dans la devise de transaction | Montant au crédit dans la devise de transaction | Solde  | Devise |
 |-----------|------------------|-----------|---------|--------------------------------------|---------------------------------------|----------|----------|
@@ -46,7 +49,7 @@ Le 2 juillet, le client 4027 effectue un paiement partiel de 297,00 pour la fact
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|----------|------------------|
 | Sélectionné | Standard            | FTI-10020 | 4027    | 6/25/2015 | 7/25/2015 | 10020   | 1 000,00                             | USD      | 297,00           |
 
-Les informations de remise s'affichent au bas de la page **Régler les transactions en cours**. Si vous ne remplacez pas la valeur du **Montant à régler** par 297,00, les valeurs du **Montant de l'escompte de règlement** qui s'affichent sont différentes. Toutefois, 3,00 seront pris comme escompte de règlement lorsque le paiement est validé, car le règlement après la ** montant à régler ** la valeur pour vous.
+Les informations de remise s'affichent au bas de la page **Régler les transactions en cours**. Si vous ne remplacez pas la valeur du **Montant à régler** par 297,00, les valeurs du **Montant de l'escompte de règlement** qui s'affichent sont différentes. Toutefois, 3,00 sont prélevés comme escompte de règlement une fois le paiement validé, car le règlement ajuste automatiquement pour vous la valeur du **Montant à régler**.
 
 |                              |           |
 |------------------------------|-----------|
@@ -105,6 +108,8 @@ Arnie rétablit la valeur du champ **Utiliser un escompte de règlement** sur **
 | ARP-10020  |                  | 7/1/2015  |         |                                      | 297,00                                | 0,00    | USD      |
 | DISC-10020 |                  | 7/1/2015  |         |                                      | 3,00                                  | 0,00    | USD      |
 | ARP-10021  |                  | 7/11/2015 |         |                                      | 700,00                                | 0,00    | USD      |
+
+
 
 
 

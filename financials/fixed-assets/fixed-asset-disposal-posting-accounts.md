@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-asset-disposal-posting-accounts"></a>Comptes de cession du profil de validation des immobilisations
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article explique comment paramétrer les comptes de validation de la comptabilité afin de céder des immobilisations.
 
 Sur la page Profils de validation des immobilisations, sur l'organisateur Comptes généraux, sélectionnez Cession - Vente et cession - Mise au rebut pour paramétrer les validations de la comptabilité.
@@ -37,6 +40,8 @@ Pour les deux types de transactions, le compte général est crédité de la val
 Cliquez sur Cession, puis sur Vente ou Mise au rebut, puis paramétrez les comptes détaillés pour contrepasser la valeur nette de l'immobilisation. Vous pouvez également entrer des informations dans les champs Valeur d'acquisition et Prix de vente dans la page Paramètres de cession. 
 
 La transaction de cession d'une immobilisation dans un regroupement de faible valeur réduit la valeur nette de ce regroupement du montant vendu uniquement. Toutefois, si la vente d'une immobilisation est supérieure à la valeur nette du regroupement de faible valeur, la valeur nette est réduite à zéro.
+
+
 
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a>Rapprochement de factures et commandes fournisseur intersociétés
 
+[!include[banner](../includes/banner.md)]
+
+
 L'entité juridique acheteuse impliquée dans une transaction commerciale intersociétés peut être paramétrée pour utiliser le rapprochement de factures d'Achats. Dans ce cas, les conditions de validation pour le commerce intersociétés et le rapprochement de factures d'Achats doivent être remplies pour que les factures fournisseur intersociétés puissent être validées.
 
 Les exemples de cette rubrique utilisent le paramétrage de commerce intersociétés suivant :
@@ -35,8 +38,8 @@ Les exemples de cette rubrique utilisent le paramétrage de commerce intersocié
 -   Fabrikam Sales est l'entité juridique vendeuse.
 -   Le client 4020 existe dans Fabrikam Sales.
 -   Le fournisseur 3024 existe dans Fabrikam Purchase.
--   En Fabrikam Purchase, les informations intersociétés est spécifié pour le fournisseur 3024. Les ventes Fabrikam est spécifiées comme société du client, et le client 4020 est spécifiée en tant que compte client qui correspond à l'entité juridique d'achat de Fabrikam.
--   Dans Fabrikam Sales, les informations intersociétés est spécifié pour le client 4020. Commandes fournisseur Fabrikam est spécifié comme société du fournisseur, et le fournisseur 3024 est spécifiée en tant que compte fournisseur correspondant à l'entité juridique de vente de Fabrikam.
+-   Dans Fabrikam Purchase, les informations intersociétés sont spécifiées pour le fournisseur 3024. Fabrikam Sales est spécifiée comme société du client, et le client 4020 est spécifié comme le compte client correspondant à l'entité juridique Fabrikam Purchase.
+-   Dans Fabrikam Sales, les informations intersociétés sont spécifiées pour le client 4020. Fabrikam Purchase est spécifiée comme société du fournisseur, et le fournisseur 3024 est spécifié comme le compte fournisseur correspondant à l'entité juridique Fabrikam Sales.
 
 Les exemples utilisent le paramétrage de rapprochement de factures d'Achats suivant pour Fabrikam Purchase :
 -   L'option Activer le contrôle de rapprochement de factures est sélectionnée sur la page Paramètres de la comptabilité fournisseur.
@@ -45,7 +48,7 @@ Les exemples utilisent le paramétrage de rapprochement de factures d'Achats sui
 
 ## <a name="example-price-matching-and-intercompany-trade"></a>Exemple : rapprochement de prix et commerce intersociétés
 Les montants nets pour la facture fournisseur intersociétés et la facture client intersociétés doivent être égaux. Cette condition prime sur n'importe quel pourcentage de tolérance de prix et n'importe quelle approbation de rapprochement de factures applicable. Par exemple, procédez comme suit :
-1.  En Fabrikam Purchase, créez la commande client CC888 pour le client 4020. La commande fournisseur intersociétés CFIS222 est automatiquement créée pour le fournisseur 3024 dans Fabrikam Purchase, et la commande client CCIS888 est créée automatiquement dans Fabrikam Sales.
+1.  Chez Fabrikam Purchase, créez une commande client CC888 pour le client 4020. La commande fournisseur intersociétés CFIS222 est créée automatiquement pour le fournisseur 3024 pour Fabrikam Purchase, et la commande client CCIS888 est créée automatiquement dans Fabrikam Sales.
 2.  Dans Fabrikam Sales, enregistrez la réception des articles et validez un bon de livraison. Le statut de CCIS888 devient Livré. Le statut de CFIS222 devient Reçu.
 3.  Mettez à jour une facture pour CCIS888 dans Fabrikam Sales. Le prix unitaire est de 0,45 et 100 articles sont mis à jour.
 4.  Créez une facture pour CFIS222 dans Fabrikam Purchase. Modifiez accidentellement le prix net de 45,00 en 54,00. Une icône indiquant que le prix dépasse la tolérance de prix autorisée de 2 pour cent s'affiche.
@@ -60,10 +63,12 @@ Cet exemple utilise le paramétrage de rapprochement de factures d'Achats suppl�
 -   La quantité disponible de l'article P-R14 est 0 (zéro).
 
 Par exemple, procédez comme suit :
-1.  En Fabrikam Purchase, créez la commande client CC999 pour le client 4020. La commande contient une ligne : 100 piles (article P-R14) à un prix unitaire de 1,00. La commande fournisseur intersociétés CFIS333 est créée automatiquement pour le fournisseur 3024 dans Fabrikam Purchase et la commande client CCIS999 est créée automatiquement dans Fabrikam Sales.
+1.  Dans Fabrikam Purchase, créez la commande client SO999 pour le client 4020. La commande contient une ligne : 100 piles (article P-R14) à un prix unitaire de 1,00 EUR chacune. La commande fournisseur intersociétés CFIS333 est créée automatiquement pour le fournisseur 3024 dans Fabrikam Purchase et la commande client CCIS999 est créée automatiquement dans Fabrikam Sales.
 2.  Mettez à jour la facture pour CCIS999 dans Fabrikam Sales. La validation échoue, car l'article est indisponible et n'a pas encore été reçu. Par conséquent, les informations financières ne peuvent pas être mises à jour.
 3.  Dans Fabrikam Sales, enregistrez la réception des articles et validez un bon de livraison pour CCIS999. Un accusé de réception de marchandises pour CFIS333 est automatiquement validé dans Fabrikam Purchase. La quantité reçue de l'article P-R14 dans Fabrikam Purchase passe à 100.
 4.  Mettez à jour la facture pour CCIS999 dans Fabrikam Sales. La validation est réussie dans les deux entités juridiques. La quantité achetée pour l'article P-R14 dans Fabrikam Purchase passe à 100.
+
+
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Déclaration de fin des ordres de fabrication"
-description: "La déclaration de fin correspond à un stade de production. À ce stade, un produit fini est déclarée et déplacé de l&quot;ordre de fabrication au stock."
+description: "La déclaration de fin correspond à un stade de production. À ce stade, un produit fini est signalé et passé de l&quot;ordre de fabrication au stock."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,7 +29,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="report-production-orders-as-finished"></a>Déclaration de fin des ordres de fabrication
 
-La déclaration de fin correspond à un stade de production. À ce stade, un produit fini est déclarée et déplacé de l'ordre de fabrication au stock.
+[!include[banner](../includes/banner.md)]
+
+
+La déclaration de fin correspond à un stade de production. À ce stade, un produit fini est signalé et passé de l'ordre de fabrication au stock.
 
 Lorsqu'un ordre de fabrication est déclaré terminé, la quantité des produits finis déclarés terminés est mise à jour comme disponible dans le stock. Des quantités partielles de la quantité de l'ordre prévisionnel peuvent être déclarées terminées. Il est également possible de déclarer terminées les quantités d'erreur avec un motif d'erreur associé. Lorsque l'ordre de fabrication atteint le stade Déclaré terminé, cela indique qu'aucune quantité supplémentaire ne sera déclarée à l'ordre de fabrication.
 Les caractéristiques suivantes sont également associées au processus de **Déclaration de fin** :
@@ -44,5 +47,7 @@ La quantité est déclarée à l'emplacement de sortie. Le travail d'entrepôt e
 
 ## <a name="set-a-production-order-to-reporting-as-finished"></a>Définir un ordre de fabrication sur Déclaration de fin
 Vous pouvez définir un ordre de fabrication sur **Déclaration de fini** via la fonction standard de mise à jour de l'ordre de fabrication ou via les journaux de gammes et de bons de travail, ou encore via le journal des **déclarations de fin**. Vous pouvez également mettre à jour le stade **Déclaration de fin** via les pages Terminal des bons de travail et Périphérique pour le bon de travail lorsque vous faites une déclaration concernant la dernière tâche de l'ordre de fabrication. Enfin, vous pouvez activer l'option **Déclaration de fin** comme processus pour la solution de l'appareil portable d'entrepôt.  
+
+
 
 

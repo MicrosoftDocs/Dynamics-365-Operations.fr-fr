@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>N° de document unique avec plusieurs enregstrements client ou fournisseur
 
+[!include[banner](../includes/banner.md)]
+
+
 Cette rubrique fournit une vue d'ensemble de ce qui se produit lorsque vous validez un N° de document unique avec plusieurs enregistrements client ou fournisseur. Cette fonctionnalité sera arrêtée dans les futures versions de Microsoft Dynamics 365 for Operations, par conséquent, il n'est pas recommandé d'utiliser cette méthode de validation en raison de l'impact comptable qu'elle a sur le traitement des règlements. 
 
 Certains exemples courants dans lesquels un N° de document est utilisé pour plusieurs clients ou fournisseurs incluent les transferts de solde entre clients, et les soldes de compensation entre clients et fournisseurs de la même organisation. 
@@ -91,7 +94,7 @@ Si l'utilisateur n'est pas satisfait de l'escompte de règlement allouée à tou
 
 |             |                  |              |                 |           |            |                 |                    |
 |-------------|------------------|--------------|-----------------|-----------|------------|-----------------|--------------------|
-| **Pièce justificative** | **Type de compte** | **Compte**  | **Description** | **Débit** | **Crédit** | **Offset type** | **Offset account** |
+| **Pièce justificative** | **Type de compte** | **Compte**  | **Description** | **Débit** | **Crédit** | **Type de contrepartie** | **Compte de contrepartie** |
 | GNJL001     | Fournisseur           | 1 001         | INV1            |           | 100,00     | Comptabilité          | &lt;vide&gt;      |
 | GNJL001     | Comptabilité           | 606300-001-- | INV1            |   50,00   |            | Comptabilité          | &lt;vide&gt;      |
 | GNJL001     | Comptabilité           | 606300-002-- | INV1            |   50,00   |            | Comptabilité          | &lt;vide&gt;      |
@@ -248,5 +251,7 @@ Pour éviter les problèmes indésirables de futures règlements pour cette tran
 | 002         | Fournisseur           | 1 001        |                 |  75,00    |            | Comptabilité          | 999999---          |
 
  
+
+
 
 

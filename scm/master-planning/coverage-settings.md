@@ -29,13 +29,16 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="coverage-settings"></a>Paramètres de couverture
 
+[!include[banner](../includes/banner.md)]
+
+
 Le calcul PDP/MRP utilise les paramètres de couverture pour calculer les demandes d'articles. 
 
 Vous pouvez spécifier des paramètres de couverture de plusieurs façons :
 
--   Spécifiez des paramètres de couverture pour un groupe de couverture. Vous pouvez créer un groupe de couverture contenant des paramètres pour tous les produits qui lui sont liés. Cliquez sur ** planification &gt; paramétrez &gt; les groupes &gt; de couverture de couverture ** pour créer un groupe de couverture. Vous pouvez lier un groupe de couverture à un produit. Si le lien est spécifique à un site, un entrepôt ou une dimension de produit, utilisez le champ **Groupe de couverture** dans la page **Couverture de l'article**. Si le lien est générique, indépendamment des dimensions de produit, utilisez le champ **Groupe de couverture** sous l'organisateur **Plan** de la page **Détails de produit**. Si vous ne liez pas de groupe de couverture à un produit, la planification utilise par défaut le **Groupe de couverture général** spécifié dans la page **Paramètres de planification**.
+-   Spécifiez des paramètres de couverture pour un groupe de couverture. Vous pouvez créer un groupe de couverture contenant des paramètres pour tous les produits qui lui sont liés. Cliquez sur **Planification &gt; Paramétrage &gt; Couverture &gt; Groupes de couverture** pour créer un groupe de couverture. Vous pouvez lier un groupe de couverture à un produit. Si le lien est spécifique à un site, un entrepôt ou une dimension de produit, utilisez le champ **Groupe de couverture** dans la page **Couverture de l'article**. Si le lien est générique, indépendamment des dimensions de produit, utilisez le champ **Groupe de couverture** sous l'organisateur **Plan** de la page **Détails de produit**. Si vous ne liez pas de groupe de couverture à un produit, la planification utilise par défaut le **Groupe de couverture général** spécifié dans la page **Paramètres de planification**.
 
--   Spécifiez des paramètres de couverture pour un produit. Vous pouvez créer des paramètres de couverture pour un produit spécifique. Cliquez sur ** produits lancés de produits &gt; de gestion &gt; des informations sur le produit **. Sélectionnez le produit, sous ** volet Actions **, sous ** plan ** onglet dans, ** groupe de couverture **, cliquez sur ** couverture de l'article ** pour ouvrir ** couverture de l'article ** la page. Si le produit est déjà lié à un groupe de couverture, vous pouvez remplacer les paramètres de groupe de couverture à l'aide du champ **Remplacer**. Les paramètres de couverture de la page** Couverture de l'article** prévalent sur les paramètres de la page **Groupe de couverture**.
+-   Spécifiez des paramètres de couverture pour un produit. Vous pouvez créer des paramètres de couverture pour un produit spécifique. Cliquez sur **Gestion des informations sur les produits &gt; Produits &gt; Produits lancés**. Sélectionnez le produit, dans le **volet Actions**, sous l'onglet **Plan**, dans le champ **Groupe de couverture**, cliquez sur **Couverture de l'article** pour ouvrir la page **Couverture de l'article**. Si le produit est déjà lié à un groupe de couverture, vous pouvez remplacer les paramètres de groupe de couverture à l'aide du champ **Remplacer**. Les paramètres de couverture de la page** Couverture de l'article** prévalent sur les paramètres de la page **Groupe de couverture**.
 
 <!-- -->
 
@@ -43,13 +46,15 @@ Vous pouvez spécifier des paramètres de couverture de plusieurs façons :
 
 <!-- -->
 
--   Spécifiez des paramètres de couverture pour un groupe de dimensions. Cliquez sur ** produits lancés courants &gt; Gestion &gt; des informations produit **. Sous ** détail des produits lancés ** page, sous ** général, ** Divers ** administration ** au groupe, cliquez sur ** groupe de dimensions de stockage ** le lien. Dans la page **Groupe de dimensions de stockage**, sélectionnez le champ **Plan de couverture par dimension** pour créer les paramètres de couverture d'une dimension dans le groupe de dimensions de stockage. Toutes les dimensions de produit, telles que la configuration, la couleur, la taille, dénomment, doivent être sélectionner ** Plan de couverture par dimension ** le champ.
+-   Spécifiez des paramètres de couverture pour un groupe de dimensions. Cliquez sur **Gestion des informations sur les produits &gt; Commun &gt; Produits lancés**. Dans la page **Détails des produits lancés**, sous l'onglet **Général**, dans le groupe **Administration**, cliquez sur le lien **Groupe de dimension de stockage**. Dans la page **Groupe de dimensions de stockage**, sélectionnez le champ **Plan de couverture par dimension** pour créer les paramètres de couverture d'une dimension dans le groupe de dimensions de stockage. Le champ **Plan de couverture par dimension** doit être sélectionné pour toutes les dimensions de produit, telles que la configuration, la couleur, la taille et le style.
 
 
 
 <a name="see-also"></a>Voir également :
 --------
 
-[Master plans](master-plans.md)
+[Plans généraux](master-plans.md)
+
+
 
 

@@ -26,23 +26,26 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-and-marketing"></a>Ventes et marketing
 
+[!include[banner](../includes/banner.md)]
+
+
 Vous pouvez faire appel à ce module pour obtenir, stocker et utiliser différents types de données dans le cadre du flux commercial. Ces données vont de l'initiative commerciale de départ aux futures ventes réalisées, en passant par les actions de suivi.
 
 <a name="marketing"></a>Marketing
 ---------
 
-Vous utilisez des campagnes et des activités marketing pour rechercher et établir des relations avec les clients potentiels, afin que les interactions initiales puissent évoluer vers des relations commerciales. Le flux de processus suivant présente le processus d'entreprise pour le marketing. [processus entreprise![de marketing (]. /media/marketing01.jpg)](. /media/marketing01.jpg)
+Vous utilisez des campagnes et des activités marketing pour rechercher et établir des relations avec les clients potentiels, afin que les interactions initiales puissent évoluer vers des relations commerciales. Le flux de processus suivant présente le processus d'entreprise pour le marketing. [![Processus d'entreprise pour le marketing](./media/marketing01.jpg)](./media/marketing01.jpg)
 
 ### <a name="relationships"></a>Relations
 
-Dans les ventes et le marketing, les interactions initiales que vous avez avec des clients potentiels peuvent se produire dans diverses situations. Par exemple, vous pouvez trouver un client potentiel quand vous participez à un salon ou vous pouvez avoir un prospect possible avec un client après l’exécution d’une campagne de publipostage par votre organisation. Il est très important de comprendre le flux de l’entité d’une partie avant que cette partie devienne un client. Le graphique suivant illustre le flux des relations d’entités à mesure qu'un prospect devient un client réel. ![SalesandMarketing01 [] (. /media/salesandmarketing01.jpg)](. /media/salesandmarketing01.jpg)
+Dans les ventes et le marketing, les interactions initiales que vous avez avec des clients potentiels peuvent se produire dans diverses situations. Par exemple, vous pouvez trouver un client potentiel quand vous participez à un salon ou vous pouvez avoir un prospect possible avec un client après l’exécution d’une campagne de publipostage par votre organisation. Il est très important de comprendre le flux de l’entité d’une partie avant que cette partie devienne un client. Le graphique suivant illustre le flux des relations d’entités à mesure qu'un prospect devient un client réel. [![SalesandMarketing01](./media/salesandmarketing01.jpg)](./media/salesandmarketing01.jpg)
 
 ### <a name="campaigns"></a>Campagnes
 
-Une campagne cible les contacts (prospects, opportunités et clients) sélectionnés pour y participer. Dans Microsoft Dynamics 365 pour les opérations, vous pouvez créer plusieurs types de campagnes, telles que le télémarketing, le publipostage, et les campagnes par e-mail, d'optimiser votre potentiel du client. À mesure que vos campagnes évoluent et que vous recevez des réponses positives, vous pouvez commencer le processus de vente avec les destinataires qui ont répondu positivement à la campagne.
+Une campagne cible les contacts (prospects, opportunités et clients) sélectionnés pour y participer. Dans Microsoft Dynamics 365 for Operations, vous pouvez créer plusieurs types de campagnes, comme le télémarketing, le publipostage, et les campagnes par courrier électronique, afin d’optimiser vos clients potentiels. À mesure que vos campagnes évoluent et que vous recevez des réponses positives, vous pouvez commencer le processus de vente avec les destinataires qui ont répondu positivement à la campagne.
 
 ## <a name="sales"></a>Ventes
-La fonctionnalité de vente vous permet de créer des devis, des ventes de gamme supérieure et des ventes croisées pour les clients nouveaux et existants, de créer des commandes client et de créer des factures de vente pour les clients. Le flux de processus suivant présente le processus d'entreprise pour les ventes. [processus entreprise![pour les ventes (]. /media/sales01.jpg)](. /media/sales01.jpg)
+La fonctionnalité de vente vous permet de créer des devis, des ventes de gamme supérieure et des ventes croisées pour les clients nouveaux et existants, de créer des commandes client et de créer des factures de vente pour les clients. Le flux de processus suivant présente le processus d'entreprise pour les ventes. [![Processus d'entreprise pour les ventes](./media/sales01.jpg)](./media/sales01.jpg)
 
 ### <a name="sales-quotations"></a>Devis de vente
 
@@ -50,7 +53,7 @@ Vous créez des devis de vente pour présenter aux clients une offre de biens ou
 
 ### <a name="up-sellcross-sell"></a>Vente de gamme supérieure/croisée
 
-La vente de gamme supérieure et la vente croisée sont des techniques de vente de produits lorsqu’une commande est entrée pour un client. Dans la vente de gamme supérieure, un autre produit est proposé au lieu du produit en cours. Dans la vente croisée, un autre produit est proposé en plus du produit en cours. Lorsque vous paramétrez des listes de produit, vous pouvez créer des règles spécifiques pour indiquer quand un produit doit être suggérée comme croisée vente ou de produit - vente.
+La vente de gamme supérieure et la vente croisée sont des techniques de vente de produits lorsqu’une commande est entrée pour un client. Dans la vente de gamme supérieure, un autre produit est proposé au lieu du produit en cours. Dans la vente croisée, un autre produit est proposé en plus du produit en cours. Lorsque vous définissez des listes de produits, vous pouvez créer des règles spécifiques pour indiquer quand un produit doit être proposé sous la forme d’un produit de vente de gamme supérieure ou de vente croisée.
 
 ### <a name="sales-orders"></a>Commandes client
 
@@ -117,5 +120,7 @@ Une facture financière est une facture qui n'est pas liée à une commande clie
 #### <a name="pro-forma-invoice"></a>Facture pro forma
 
 Une facture pro forma est une facture préparée comme une estimation du montant de facture réel avant la validation de la facture. Vous pouvez imprimer une facture pro forma pour une facture client ou une facture financière.
+
+
 
 

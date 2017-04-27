@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="bonus-depreciation"></a>amortissement de la prime
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article offre une vue d'ensemble de la fonctionnalité d'amortissement de la prime.
 
 Pour l'amortissement de la prime, vous pouvez prendre des montants d'amortissement exceptionnel ou de la prime au cours de la première année de mise en service et d'amortissement de l'immobilisation. L'amortissement de la prime doit être pris avant tout autre calcul d'amortissement. Par conséquent, il est recommandé d'utiliser l'amortissement de la prime avec des registres pour lesquels la fonctionnalité Valider dans la comptabilité est désactivée. Vous pouvez utiliser l'option **Supprimer les transactions non validées dans la comptabilité** pour supprimer les transactions historiques des registres qui ne sont pas validés dans la comptabilité. Vous pouvez ensuite utiliser l'amortissement de la prime plus tard au cours du cycle de vie de l'immobilisation en supprimant les transactions d'amortissement précédemment validées. 
@@ -61,5 +64,7 @@ En cas de calcul de l'amortissement de la prime à l'aide du processus de propos
 Vous pouvez créer un nombre illimité d'enregistrements d'amortissement de la prime. Une fois que vous affectez ces enregistrements à un registre de groupe d'immobilisations, ils sont appliqués au registre des immobilisations. 
 
 L'amortissement de la prime est entré comme pourcentage ou montant fixe. Lorsque vous validez des propositions d'amortissement, les transactions d'amortissement de la prime sont validées dans le registre comme transactions distinctes des transactions d'amortissement.
+
+
 
 

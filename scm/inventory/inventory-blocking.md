@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="inventory-blocking"></a>Blocage du stock
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article fournit une vue d'ensemble du blocage du stock qui fait partie du processus d'inspection de qualité dans Microsoft Dynamics AX. Vous pouvez utiliser le blocage du stock pour empêcher des articles d'être traités ou consommés.
 
 Les méthodes suivantes permettent de bloquer les articles en stock :
@@ -53,17 +56,19 @@ Dans l'exemple suivant, un ordre de qualité est généré lors de la validation
 | Une association de qualité spécifie qu'un ordre de qualité doit être généré dès la validation d'un bon de livraison de commande fournisseur. Le paramétrage de l'échantillonnage d'article de l'ordre de qualité spécifie que 10 % de la quantité de ligne de commande fournisseur doivent être inspectés. En outre, lorsque l'option **Blocage total** est sélectionnée, le paramétrage de l'échantillonnage d'article indique que la quantité complète de la ligne de commande fournisseur doit être bloquée au cours de l'inspection, indépendamment de la quantité envoyée à cette fin. | Le bon de livraison est validé. | Un ordre de qualité est généré. 10 % de la quantité de commande fournisseur de l'article sont envoyés pour inspection. La quantité complète de la ligne de commande fournisseur est bloquée. |
 
 ## <a name="blocking-items-by-using-inventory-status-blocking"></a>Blocage des articles en utilisant le blocage du statut du stock
-Vous pouvez spécifier les statuts du stock bloquent des statuts à l'aide ** blocage du stock ** le paramètre sous ** des statuts du stock ** la page.  Vous ne pouvez pas utiliser les statuts de stock comme statuts de blocage pour les ordres de fabrication, les commandes client, les ordres de transfert, les transactions sortantes ou les intégrations de projets. Pour un travail sortant, utilisez les articles qui ont un statut de stock disponible. Si vous avez des articles ayant un statut **Cassé**, et si la planification est effectuée sur ces articles, les articles sont considérés comme manquants et le stock est automatiquement réapprovisionné.
+Vous pouvez spécifier quels statuts du stock sont des statuts de blocage à l'aide du paramètre **Blocage du stock** sur la page **Statuts du stock**.  Vous ne pouvez pas utiliser les statuts de stock comme statuts de blocage pour les ordres de fabrication, les commandes client, les ordres de transfert, les transactions sortantes ou les intégrations de projets. Pour un travail sortant, utilisez les articles qui ont un statut de stock disponible. Si vous avez des articles ayant un statut **Cassé**, et si la planification est effectuée sur ces articles, les articles sont considérés comme manquants et le stock est automatiquement réapprovisionné.
 
 
 
 <a name="see-also"></a>Voir également :
 --------
 
-[Créer et de tenir à jour un blocage du stock (Guide de tâche)](https://ax.help.dynamics.com/en/wiki/create-and-maintain-an-inventory-blocking/)
+[Créer et tenir à jour un blocage du stock (guide de tâche)](https://ax.help.dynamics.com/en/wiki/create-and-maintain-an-inventory-blocking/)
 
-[Quality management processes](quality-management-processes.md)
+[Processus de gestion de la qualité](quality-management-processes.md)
 
-[Examinez la qualité des marchandises (Guide de tâche)](https://ax.help.dynamics.com/en/wiki/inspect-the-quality-of-goods/)
+[Inspecter la qualité des marchandises (guide de tâche)](https://ax.help.dynamics.com/en/wiki/inspect-the-quality-of-goods/)
+
+
 
 

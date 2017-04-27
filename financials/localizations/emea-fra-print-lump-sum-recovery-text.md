@@ -1,5 +1,5 @@
 ---
-title: "Imprimez le texte de récupération de montant forfaitaire sur une facture client"
+title: "Impression du texte récupéré du montant forfaitaire sur une facture client"
 description: "Cet article fournit des informations sur la procédure pour imprimer un texte récupéré du montant forfaitaire qui affiche le montant de la pénalité sur les factures client."
 author: ShylaThompson
 manager: AnnBe
@@ -25,9 +25,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="print-lump-sum-recovery-text-on-a-customer-invoice"></a>Imprimez le texte de récupération de montant forfaitaire sur une facture client
+# <a name="print-lump-sum-recovery-text-on-a-customer-invoice"></a>Impression du texte récupéré du montant forfaitaire sur une facture client
 
-Cet articles associées des informations sur l'impression d'un texte de récupération de montant forfaitaire montrant le montant de pénalité sur les factures client pour la France.
+[!include[banner](../includes/banner.md)]
+
+
+Cet article fournit des informations sur la procédure pour imprimer un texte récupéré du montant forfaitaire qui affiche le montant de la pénalité sur les factures client pour la France.
 
 ## <a name="set-up-the-parameters-to-print-a-lump-sum-recovery-text-on-customer-invoices"></a>Définition des paramètres d'impression d'un texte récupéré du montant forfaitaire sur les factures client
 
@@ -35,5 +38,7 @@ Utilisez la page **Paramétrage d'écran** pour définir les paramètres d'impre
 
 ## <a name="print-the-lump-sum-recovery-text-on-a-customer-invoice"></a>Impression du texte récupéré du montant forfaitaire sur une facture client
 Utilisez la page **Validation de la facture** pour imprimer le texte récupéré du montant forfaitaire qui affiche le montant de pénalité sur les factures client. Dans la page **Validation de la facture**, activez la case à cocher **Imprimer le texte récupéré du montant forfaitaire** pour chaque ligne. Lorsque cette case à cocher est activée, cela indique que le texte récupéré de la somme forfaitaire est imprimé sur les factures client. Lorsque vous validez la commande client, le texte récupéré du montant forfaitaire est imprimé sur la facture client. Vous pouvez également imprimer le texte récupéré du montant forfaitaire sur une facture client que vous imprimez à partir de la page **Journal des factures**.
+
+
 
 

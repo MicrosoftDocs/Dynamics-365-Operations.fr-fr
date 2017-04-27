@@ -34,14 +34,14 @@ Les détaillants définissent souvent des remises dans différents canaux. Cette
 <a name="channel-specific-discounts"></a>Remises spécifiques à un canal
 --------------------------
 
-Les détaillants offrent souvent remises dans différents canaux. Il s'agit peut être effectué pour résoudre les conditions de marché locales ou pour qu'il traite avec les détaillants concurrentiels.
+Les détaillants offrent souvent des remises dans différents canaux afin de répondre à des conditions de marché locales ou pour faire face à la concurrence.
 
-La vente au détail et le commerce dans Microsoft Dynamics 365 pour les opérations utilise des groupes de prix pour définir des remises canal- spécifiques. Les groupes de prix peuvent être affectés à une ou plusieurs des entités suivantes : canaux, catalogues, affiliations et programmes de fidélité. Cet article présente les canaux, mais les mêmes concepts s'appliquent aux remises de catalogue, aux remises d'affiliations, et aux remises pour fidélité.
+Le module Commerce et vente au détail de Microsoft Dynamics 365 for Operations utilise des groupes de prix pour définir des remises spécifiques à un canal. Les groupes de prix peuvent être affectés à une ou plusieurs des entités suivantes : canaux, catalogues, affiliations et programmes de fidélité. Cet article présente les canaux, mais les mêmes concepts s'appliquent aux remises de catalogue, aux remises d'affiliations, et aux remises pour fidélité.
 
 ## <a name="price-groups"></a>Groupes de prix
-alignnone » width= "640 "d'align= " d'id= " légende\[pièce jointe\_256084 "\][groupes de prix![] (. /media/price-groups-1024x608.png)](. Le groupe de prix de /media/price-groups.png) en cliquant pour\[au détail /caption\]
+\[caption id="attachment\_256084" align="alignnone" width="640"\][![Groupes de prix](./media/price-groups-1024x608.png)](./media/price-groups.png) Liens Groupe de prix pour Vente au détail\[/caption\]
 
-Le diagramme ci-dessous illustre la relation entre les entités pouvant figurer sur une transaction (canal, catalogue, affiliation, client, carte de fidélité) et les différents types de remise pouvant être configurés. Toutes les transactions se produisent dans un canal, le canal est garanti pour être présents sur une transaction. Les entités restantes sont facultatives. Sur chaque page de données principales, il existe un lien vers une page de groupes de prix associée où vous pouvez afficher et ajouter des groupes de prix si nécessaire. Un groupe de prix est utilisé pour regrouper quatre types d'entités aux remises, les ajustements de prix, et les accords commerciaux. Nous vous recommandons que vous planifiez une stratégie de la manière dont vous nommerez vos groupes de prix pour les tenir à jour prévisionnels. Une option est d'utiliser une lettre ou de numéroter le préfixe ou le suffixe pour distinguer les différents types. Par exemple, 1 xxxxx pour des groupes de prix de canal et 2 xxxxx pour des groupes de prix du catalogue. Il existe quatre pages de recherche qui se concentrent sur chacune des entités de vente au détail qui peuvent avoir des remises associées.
+Le diagramme ci-dessus illustre la relation entre les entités pouvant être sur une transaction (canal, catalogue, affiliation, client, carte de fidélité) et les différents types de remise qui peuvent être configurés. Toutes les transactions ont lieu dans un canal, celui-ci a donc la garantie d'être présent dans une transaction. Les entités restantes sont facultatives. Sur chaque page de données principales, il existe un lien vers une page de groupes de prix associée où vous pouvez afficher et ajouter des groupes de prix si nécessaire. Un groupe de prix permet d'associer quatre types d'entités avec des remises, des ajustements de prix et des accords commerciaux. Il est recommandé de planifier une stratégie pour savoir comment nommer vos groupes de prix pour les tenir à jour. Une option consiste à utiliser un préfixe ou un suffixe sous forme de lettre ou de numéro pour distinguer les différents types. Par exemple, 1 xxxxx pour des groupes de prix de canal et 2 xxxxx pour des groupes de prix de catalogue. Il existe quatre pages de recherche qui se concentrent sur chacune des entités de vente au détail qui peuvent avoir des remises associées.
 
 -   **Groupes de prix de canal de vente au détail** : Cette page affiche la liste des canaux et des remises associés pour chaque groupe de prix.
 -   **Groupes de prix du catalogue** : Cette page affiche la liste des catalogues et des remises associés pour chaque groupe de prix.
@@ -62,6 +62,6 @@ L'exemple suivant illustre les tâches impliquées dans le paramétrage d'une re
 <a name="see-also"></a>Voir également :
 --------
 
-[Price adjustments and discounts](price-adjustments-discounts.md)
+[Ajustements de prix et remises](price-adjustments-discounts.md)
 
 

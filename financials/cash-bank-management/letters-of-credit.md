@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="letters-of-credit"></a>Lettres de crédit
 
+[!include[banner](../includes/banner.md)]
+
+
 Les lettres de crédit sont des documents bancaires fréquemment utilisés pour l'achat et la vente de biens au-delà des frontières internationales. 
 
 Les lettres de crédit sont utilisées dans le cadre des transactions internationales pour garantir l'exécution des paiements. Une lettre de crédit est un accord émis par une banque, dans lequel la banque accepte de garantir le paiement au nom de l'acheteur, si les conditions de l'accord entre l'acheteur et le vendeur sont satisfaites. Une lettre de crédit est également appelée crédit documentaire. 
@@ -41,5 +44,7 @@ Pour une lettre de crédit d'importation, l'entité juridique est l'acheteur ou 
 La lettre de crédit inclut une description des biens, les documents requis, la date d'expédition et la date d'expiration après laquelle le paiement ne sera pas effectué. La banque émettrice prélève une marge pour la lettre de crédit. 
 
 Une lettre de crédit peut être révocable ou irrévocable. La nature d'une lettre de crédit peut être transférable, non transférable ou revolving. En général, une lettre de crédit est un accord irrévocable et confirmé qui garantit l'exécution du paiement à un bénéficiaire spécifique suite à l'envoi d'une documentation d'expédition complète et précise.
+
+
 
 

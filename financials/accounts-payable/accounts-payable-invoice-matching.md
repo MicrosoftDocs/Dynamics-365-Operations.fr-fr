@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounts-payable-invoice-matching"></a>Rapprochement des factures dans le module Achats
 
+[!include[banner](../includes/banner.md)]
+
+
 Le rapprochement de factures du module Achats est le processus de rapprochement des informations de la facture fournisseur, de la commande fournisseur et de l'accusé de réception de marchandises.
 
 Lors du rapprochement de documents, les différences sont appelées des écarts de rapprochement. Ces derniers sont comparés aux tolérances spécifiées. Si un écart de rapprochement dépasse le pourcentage ou le montant de tolérance, des icônes d'écart de rapprochement sont affichées dans les pages Facture fournisseur et Détails de correspondance et d'historique des factures. 
@@ -48,9 +51,9 @@ Vous pouvez utiliser les types suivants de rapprochements de factures du module 
 
 Les rapprochements à deux et à trois facteurs rapprochent toujours les informations relatives au prix unitaire. Vous pouvez également configurer ces stratégies de rapprochement de sorte qu'elles rapprochent les informations relatives au prix total.
 -   Rapprochement des prix unitaires nets - Lors d'un rapprochement à deux ou à trois facteurs, rapprochez les informations de prix en comparant le prix unitaire net de chaque ligne de la facture avec le prix unitaire net correspondant de la commande fournisseur. Le prix unitaire net est déterminé par la formule suivante : Montant net de la ligne/Quantité de la ligne
--   Rapprochement des totaux des prix - Lors d'un rapprochement à deux ou à trois facteurs, rapprochez les informations de prix en comparant le montant net (total des prix) de chaque ligne de la facture avec le montant net correspondant de la commande fournisseur. Le montant net est déterminé par la formule suivante : (Ligne quantité d'\* de prix unitaire) + frais de ligne - remises ligne
+-   Rapprochement des totaux des prix - Lors d'un rapprochement à deux ou à trois facteurs, rapprochez les informations de prix en comparant le montant net (total des prix) de chaque ligne de la facture avec le montant net correspondant de la commande fournisseur. Le montant net est déterminé par la formule suivante : (Prix unitaire \* Quantité de la ligne) + Frais de la ligne - Remises de la ligne
 
-Les calculs de rapprochement de factures sont généralement effectués automatiquement lorsque vous modifiez les factures fournisseur dans la page Facture fournisseur. Sinon, le rapprochement de factures peut être effectué à la demande, le cas échéant. Le rapprochement de factures sur demande est contrôlé pour l'entité juridique par automatiquement le statut d'en-tête de facture de mettre à jour destination sur la page Paramètres des achats sous l'onglet de contrôle de facture. Le rapprochement de factures peut également être exécuté dans le cadre du processus de vérification des factures. Vous pouvez afficher les résultats du rapprochement de factures sur la page Facture fournisseur et les pages de rapprochement de factures associés.
+Les calculs de rapprochement de factures sont généralement effectués automatiquement lorsque vous modifiez les factures fournisseur dans la page Facture fournisseur. Sinon, le rapprochement de factures peut être effectué à la demande, le cas échéant. Le rapprochement de factures à la demande est contrôlé pour l'entité juridique par l'option Mettre à jour automatiquement le statut d'en-tête des factures de la page Paramètres de la comptabilité fournisseur sur l'onglet Contrôle de la facture. Le rapprochement de factures peut également être exécuté dans le cadre du processus de vérification des factures. Vous pouvez afficher les résultats du rapprochement de factures sur la page Facture fournisseur et les pages de rapprochement de factures associés.
 
 ## <a name="invoice-totals-matching"></a>Rapprochement des totaux de facture
 Vous pouvez utiliser le rapprochement des totaux de facture pour vous assurer que l'écart entre les montants totaux de la facture et les montants attendus n'est pas supérieur à l'écart acceptable. Six totaux sont comparés dans la page Détails de rapprochement de factures totales, comme indiqué dans le tableau suivant. Si la tolérance autorisée pour le rapprochement des totaux de facture est de 20 %, un pourcentage d'écart de 100 % pour le montant total de la remise est considéré comme un écart de rapprochement.
@@ -165,7 +168,7 @@ Les mêmes montants de ligne sont comparés dans la page Détails de rapprocheme
 Le rapprochement à trois facteurs est contrôlé pour l'entité juridique par le champ Stratégie de rapprochement des lignes de la page Paramètres de la comptabilité fournisseur. En fonction des choix opérés dans le champ Autoriser le remplacement de la stratégie de rapprochement, vous pouvez sélectionner un rapprochement à trois facteurs pour un fournisseur, un article ou une combinaison article/fournisseur spécifique dans la page Stratégie de rapprochement et pour une commande fournisseur spécifique dans la page Commande fournisseur.
 
 ## <a name="charges-matching"></a>Mise en correspondance des frais
-Le rapprochement des frais permet de s'assurer que l'écart entre les montants des frais et les montants attendus n'est pas supérieur au pourcentage d'écart acceptable. Les montants totaux pour chaque code frais qui s'applique à la facture et la commande fournisseur sont comparés de comparer les valeurs - facture : page, comme indiqué dans le tableau suivant. Si la tolérance autorisée pour un code frais est de 25 %, l'écart de pourcentage 99 999 999 999,99 % pour le code frais Licence est considéré comme un écart de rapprochement.
+Le rapprochement des frais permet de s'assurer que l'écart entre les montants des frais et les montants attendus n'est pas supérieur au pourcentage d'écart acceptable. Les montants totaux de chaque code frais qui s'applique à la facture et à la commande fournisseur sont comparés dans la page Comparer les valeurs de frais - Facture, comme indiqué dans le tableau suivant. Si la tolérance autorisée pour un code frais est de 25 %, l'écart de pourcentage 99 999 999 999,99 % pour le code frais Licence est considéré comme un écart de rapprochement.
 
 > [!NOTE] 
 > Un pourcentage d'écart de 99 999 999 999,99 % signifie que le montant attendu basé sur la commande fournisseur est nul alors que le montant réel de la facture est une valeur positive. 
@@ -188,7 +191,9 @@ Les factures fournisseur sont généralement basées sur des accusés de récept
 -   Entrez des montants de facture qui n'étaient pas inclus dans la commande fournisseur d'origine, afin que les informations de la facture correspondent à celles reçues du fournisseur. Vous pouvez comparer les frais des commandes fournisseur avec ceux des factures. Au besoin, vous pouvez ajouter des frais aux factures et les répartir sur les lignes de facture.
 -   Affichez et approuvez les écarts de rapprochement des prix unitaires nets de la facture et de la commande fournisseur. Vous pouvez paramétrer des pourcentages de tolérance de prix pour les entités juridiques, les articles et les fournisseurs. Si le prix de la ligne de facture fournisseur n'entre pas dans la tolérance de prix acceptable, vous pouvez enregistrer la facture en attendant qu'elle soit approuvée pour validation ou que le fournisseur envoie une correction.
 
-Pour plus d'informations, voir [stratégies de rapprochement à trois facteurs] (three-way-matching-policies.md).
+Pour plus d'informations, voir [Stratégies de rapprochement à trois facteurs](three-way-matching-policies.md).
+
+
 
 
 

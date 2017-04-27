@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="production-order-cost-estimation"></a>Estimation de coût de l'ordre de fabrication
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article fournit des informations sur l'estimation du coût de production. L'estimation du coût de production fournit les coûts de consommation de matière et de capacité projetés liés à la production d'un article dans la quantité de l'ordre de fabrication planifiée. 
 
 Après avoir créé un ordre de fabrication, vous devez estimer les coûts de production. L'objectif consiste à évaluer la consommation d'article et de gamme pour le processus de production parce que ces estimations sont utilisées en guise de base des processus de planification et de fabrication suivants.
@@ -59,6 +62,8 @@ Une estimation des coûts fournit également les informations suivantes :
 -   des comparaisons d'informations de coûts à partir de productions précédentes ;
 -   des informations de budget et de prévision ;
 -   des estimations de la taille de production requise pour maintenir un coût particulier.
+
+
 
 
 

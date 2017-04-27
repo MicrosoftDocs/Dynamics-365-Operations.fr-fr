@@ -1,6 +1,6 @@
 ---
 title: ID enregistrement
-description: "Cette rubrique fournit des informations sur le paramétrage et l&quot;utilisation des ID enregistrement."
+description: "Cette rubrique fournit des informations sur le paramétrage et l&quot;utilisation des ID d&quot;enregistrement."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,78 +27,83 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="registration-ids"></a>ID enregistrement
 
-Cette rubrique fournit des informations sur le paramétrage et l'utilisation des ID enregistrement.
+[!include[banner](../includes/banner.md)]
 
-De nombreux pays/régions ont des réglementations et demandes pour enregistrer les numéros d'enregistrement ou des ID. Cette rubrique fournit une vue d'ensemble des paramètres et de traitement requis les types d'enregistrements pris en charge pour les parties de différents pays européens/régions. Tous les pays/régions ont des conditions requises pour prendre en charge des différentes fonctionnalité au pays spécifiques relatives aux numéros d'enregistrement fournis par des bureaux d'état. Exemples de numéros d'enregistrement comprennent, numéro de Sécurité sociale (SSN), le numéro d'identification (TIN) de taxe, puis identification européenne de TVA (ID de TVA intracommunautaire). Cette fonction permet la zone unifié pour tous les pays dans toutes les régions prise en compte des besoins spécifiques au pays de certains pays européens. Les sections suivantes décrivent le flux d'informations général utilisée pour paramétrer et traiter les ID enregistrement.
 
-## <a name="registration-type-creation"></a>Création de type d'enregistrement
-Avant de pouvoir entrer l'ID enregistrement, vous devez paramétrer les types d'enregistrements pour les différents types de numéros d'enregistrement auquel chaque partie est soumise. Allez ** Administration d'organisation ** &gt; ** au carnet d'adresses global ** &gt; ** les types d'enregistrements ** &gt; ** les types d'enregistrements ** page permet de créer et de gérer des types d'enregistrement des fournisseurs, des clients, des travailleurs, et les entités juridiques dans différents pays/régions.
+Cette rubrique fournit des informations sur le paramétrage et l'utilisation des ID d'enregistrement.
+
+De nombreux pays et régions ont différentes réglementations et exigences pour l'enregistrement des numéros ou ID d'enregistrement. Cette rubrique donne une vue d'ensemble des paramètres requis et du traitement des types d'enregistrement pris en charge pour les parties dans différents pays/régions européens. Tous les pays/régions ont leurs exigences de prise en charge des différentes fonctionnalités spécifiques au pays relatives aux numéros d'enregistrement fournis par les différents bureaux publics. Parmi les exemples de numéros d'enregistrement, on peut citer le numéro de sécurité sociale (SSN), le numéro d'identification de taxe (TIN) et l'identification de TVA européenne (ID de TVA européen). Cette fonctionnalité fournit un cadre unifié pour tous les pays de toutes les régions en tenant compte des exigences spécifiques au pays de certains pays européens. Les sections suivantes décrivent le flux global d'informations utilisé pour le paramétrage et le traitement des ID d'enregistrement.
+
+## <a name="registration-type-creation"></a>Création d'un type d'enregistrement
+Avant de pouvoir entrer des ID d'enregistrement, vous devez paramétrer des types d'enregistrement pour les différents types de numéros d'enregistrement auxquels chaque partie est soumise. Accédez à **Administration d'organisation** &gt; **Carnet d'adresses global** &gt; **Types d'enregistrements** &gt; **Types d'enregistrements** pour créer et gérer les types d'enregistrement pour les fournisseurs, les clients, les collaborateurs et les entités juridiques dans différents pays/régions.
 
 |Champ                 |description ;      |
 |------------------------------|----------------------------|                                                                           
-| Nom                | Le nom du type d'enregistrement. |                                                                           
+| Nom                | Nom du type d'enregistrement. |                                                                           
 | description ;         | Description du type d'enregistrement. |
-| Pays/région      | Identificateur unique du pays/de la région.|
-| Administration fiscale       | L'administration fiscale associée au type d'enregistrement.|
-| Limité à       | Le type de restriction qui s'applique au type d'enregistrement de taxe : Aucun, personne, organisation.|
-| Formats              | Le format de contrôle du type d'enregistrement.|
-| Peut être mis à jour      | Détermine si le numéro d'enregistrement du type d'enregistrement peut être mis à jour après avoir été entré.|
-| Seul              | Détermine si le numéro d'enregistrement du type d'enregistrement est unique. |
-| Principal pour le pays | Si une partie est associée au pays d'un ou plusieurs adresses en particulier et l'ID d'enregistrement est valide pour toutes les adresses, vous devez indiquer une adresse comme principale du pays. Vous ne pouvez enregistrer un ID comme principal. Détermine si le numéro d'enregistrement peut être entré que pour principal pour l'adresse de pays. |
+| Pays/région      | Identificateur unique du pays ou de la région.|
+| Administration fiscale       | Administration fiscale associée au type d'enregistrement.|
+| Limité à       | Type de restriction qui s'applique au type d'enregistrement de taxe : Aucun, Personne, Organisation.|
+| Formats              | Format de validation du type d'enregistrement.|
+| Peut être mis à jour      | Définit si le numéro d'enregistrement pour le type d'enregistrement peut être mis à jour après sa saisie.|
+| Unique              | Détermine si le numéro d'enregistrement pour le type d'enregistrement est unique. |
+| Principal pour le pays | Si une partie est associée à une ou plusieurs adresses dans un pays particulier et l'ID d'enregistrement est valide pour toutes ces adresses, vous devez désigner une adresse principale pour le pays. Vous ne pouvez enregistrer qu'un ID principal. Définit si le numéro d'enregistrement peut être entré uniquement pour l'adresse principale du pays. |
 
-## <a name="assign-a-registration-type-to-a-registration-category"></a>Affectation d'un type d'enregistrement à une catégorie d'enregistrement
-Catégorie d'enregistrement est identificateur d'enregistrement de pays/régions approuvé pour l'utilisation en particulier du pays/de la région de la taxe, les Douanes et tout autre fin. Cette catégorie définit les règles de contrôle ID particulier d'enregistrement (chiffres de contrôle y compris la suite.) et d'ID enregistrement d'inclusion dans différentes régions. La page ** Administration d'organisation ** &gt; ** carnet d'adresses global ** &gt; ** les types d'enregistrements ** &gt; ** des catégories d'enregistrement ** pour affecter le type d'enregistrement de pays particulier dans la catégorie prise en charge d'enregistrement.
+## <a name="assign-a-registration-type-to-a-registration-category"></a>Affecter un type d'enregistrement à une catégorie d'enregistrement
+Une catégorie d'enregistrement est un identificateur d'enregistrement de pays/région approuvé pour être utilisé dans un pays/région particulier à des fins de taxe, de douane et autres. Cette catégorie définit les règles de contrôle d'ID d'enregistrement particulier (y compris les chiffres de contrôle, etc.) et d'ID d'enregistrement d'inclusion dans différentes états. Utilisez la page **Administration d'organisation** &gt; **Carnet d'adresses global** &gt; **Types d'enregistrements** &gt; **Catégories d'enregistrement** pour affecter le type d'enregistrement d'un pays particulier à la catégorie d'enregistrement prise en charge.
 
 | Champ            | description ;|
 |-----------------------|----------------|
-| Type d'enregistrement     | Pays/région du type d'enregistrement en particulier.|
-| Limité à         | Le type de restriction s'applique au type d'enregistrement de taxe : Aucun, personne, organisation.|
-| Catégorie d'enregistrement | Le identificateur d'enregistrement approuvé pour l'utilisation du pays. La liste complète de prendre en charge dans les catégories AX7.1 est ci-dessous. |
+| Type d'enregistrement     | Type d'enregistrement dans un pays/région particulier.|
+| Limité à         | Le type de restriction s'applique au type d'enregistrement de taxe : Aucun, Personne, Organisation.|
+| Catégorie d'enregistrement | Identificateur d'enregistrement unique approuvé pour être utilisé dans le pays. La liste complète des catégories AX7.1 prises en charge est répertoriée ci-dessous. |
 
-## <a name="enter-registration-ids-for-global-address-book-records"></a>Entrez les ID enregistrement pour les enregistrements de carnet d'adresses global
-Le Carnet d'adresses global (GAB) dans Microsoft Dynamics 365 pour les opérations contient les informations d'adresse consolidées pour les clients, des fournisseurs, des contacts, des relations commerciales, et les entités juridiques. Pour plus d'informations, voir [vue d'ensemble du carnet d'adresses global] (/dynamics365/operations/organization-administration/overview-global-address-book). Les enregistrements de partie enregistrés dans le carnet d'adresses global qui peuvent contenir un ou plusieurs enregistrements d'adresse. Ces adresses sont utilisées à des fins différentes, comme la facturation ou la livraison. Vous pouvez paramétrer les ID enregistrement pour les informations d'adresse pour les clients, les fournisseurs, les travailleurs, et les entités juridiques. Rechercher une partie (l'entité juridique, fournisseur, client, travailleur) que l'enregistrement pour laquelle vous souhaitez entrer l'ID du registre, puis sur ** les ID enregistrement ** sur les écrans liés à la portion, l'entité juridique, fournisseur, client, un travailleur pour ouvrir ** de gérer les adresses ** la page. Sous ** enregistrement de taxe ** l'onglet, cliquez sur ** ajoutez **, puis entrez toutes les informations concernant l'ID enregistrement.
+## <a name="enter-registration-ids-for-global-address-book-records"></a>Entrer les ID d'enregistrement pour les enregistrements de carnet d'adresses global
+Le Carnet d'adresses global (GAB) dans Microsoft Dynamics 365 for Operations contient les informations d'adresse consolidées pour les clients, les fournisseurs, les contacts, les relations commerciales et les entités juridiques. Pour plus d'informations, voir [Vue d'ensemble du carnet d'adresses global](/dynamics365/operations/organization-administration/overview-global-address-book). Les enregistrements de partie qui sont enregistrés dans le carnet d'adresses global peuvent contenir un ou plusieurs enregistrements d'adresse. Ces adresses sont utilisées à des fins différentes, comme la facturation ou la livraison. Vous pouvez paramétrer des ID d'enregistrement pour les informations d'adresse des clients, des fournisseurs, des collaborateurs et des entités juridiques. Recherchez l'enregistrement de partie (entité juridique, fournisseur, client, collaborateur) pour lequel vous souhaitez entrer l'ID d'enregistrement, puis cliquez sur **ID d'enregistrement** dans les écrans associés à la partie, à l'entité juridique, au fournisseur, au client ou au collaborateur pour ouvrir la page **Gérer les adresses**. Sous l'onglet **Enregistrement de taxe**, cliquez sur **Ajouter** et entrez les informations concernant l'ID d'enregistrement.
 
 |Champ                |description ;                                                |
 |---------------------|-----------------------------------------------------------|
-| Type d'enregistrement   | Type d'enregistrement du pays/de la région sélectionné.     |
-| Numéro d'enregistrement | ID de l'enregistrement de partie.                                |
+| Type d'enregistrement   | Type d'enregistrement dans le pays ou la région sélectionné.     |
+| Numéro d'enregistrement | ID d'enregistrement de la partie.                                |
 | description ;         | Description du numéro d'enregistrement.               |
-| Section             | Les informations supplémentaires sur le numéro d'enregistrement. |
-| Agence émettrice      | L'autorité ayant émis le numéro d'enregistrement.        |
-| Date d'émission         | Date émise pour le numéro d'enregistrement.              |
-| Date d'effet           | Date d'effet pour le numéro d'enregistrement.           |
-| Expiration          | Date d'expiration pour le numéro d'enregistrement.          |
+| Section             | Informations supplémentaires sur le numéro d'enregistrement. |
+| Agence émettrice      | Autorité qui a émis le numéro d'enregistrement.        |
+| Date d'émission         | Date d'émission du numéro d'enregistrement.              |
+| Date d'effet           | Date d'effet du numéro d'enregistrement.           |
+| Expiration          | Date d'expiration du numéro d'enregistrement.          |
 
 > [!NOTE]
-> Le numéro identifiant TVA d'entité juridique, fournisseur, client peut être sélectionné les ID enregistrement liés à l'ID de la TVA et entrés pour la partie.
+> Le numéro identifiant TVA de l'entité juridique, du fournisseur ou du client peut être sélectionné dans les ID d'enregistrement associés à l'ID de TVA et entré pour la partie.
 
-## <a name="search-for-records-by-registration-id"></a>Recherche des enregistrements de l'ID enregistrement
-La recherche des enregistrements de parties basée sur un ID enregistrement est disponible dans les écrans liés à la partie, dans l'entité juridique, au fournisseur, au client, et au travailleur. Cliquez sur ** recherche d'ID enregistrement ** pour ouvrir ** critères de recherche d'ID enregistrement ** la page. Permet de spécifier les critères de recherche et cliquez sur Rechercher ** **. Le système affiche les enregistrements sélectionnés du carnet d'adresses global et les types associés d'enregistrement de partie.
+## <a name="search-for-records-by-registration-id"></a>Rechercher des enregistrements par ID d'enregistrement
+La recherche d'enregistrements de partie basée sur un ID d'enregistrement est disponible dans les écrans associés à la partie, à l'entité juridique, au fournisseur, au client et au collaborateur. Cliquez sur **Recherche d'ID d'enregistrement** pour ouvrir la page **Critères de recherche d'ID d'enregistrement**. Spécifiez les critères de recherche et cliquez sur **Rechercher**. Le système affiche les enregistrements sélectionnés dans le carnet d'adresses global et les types associés d'enregistrement de partie.
 
-## <a name="supported-registration-categories"></a>Catégories prises en charge d'enregistrement
-Le tableau suivant répertorie les types d'enregistrements pris en charge dans Dynamics 365 pour les opérations. Si vous connaissez les champs Microsoft Dynamics AX 2012 pour les ID enregistrement, cette table mappe également ces champs à Dynamics 365 pour les catégories d'enregistrement des opérations.
+## <a name="supported-registration-categories"></a>Catégories d'enregistrement prises en charge
+Le tableau suivant répertorie les types d'enregistrement pris en charge dans Dynamics 365 for Operations. Si vous connaissez les champs Microsoft Dynamics AX 2012 pour les ID d'enregistrement, ce tableau met également en correspondance ces champs avec les catégories d'enregistrement de Dynamics 365 for Operations.
 
-| Dynamics 365 pour la catégorie d'enregistrement d'opérations         |Pays/région  | Condition/Champ de Dynamics AX 2012|
+| Catégorie d'enregistrement de Dynamics 365 for Operations         |Pays/région  | Terme/champ Dynamics AX 2012|
 |---------------------------------------------------------------|---------------------|---------------------------------|
-| ID TVA                                                        | Tous les pays de l'Union européenne (EU)|  Numéro identifiant TVA (ID TAXE législatif de type dans AX2012 R3)|
-| ID entreprise (COID)                                          | République tchèque Estonie Hongrie Lettonie Pologne Lithuanie Suisse Belgique | Numéro d'identification de numéro d'entreprise (EnterpriseNumber) (numéro d'enregistrement de RegNum\_W) (numéro d'enregistrement de RegNum\_W) (numéro d'enregistrement de RegNum\_W) numéro d'enregistrement de code de RegNum\_W) ((EnterpriseCode) (RegNum\_W) UID type législatif (UID dans AX2012 R3) |
-| ID agence                                                     | Belgique            | Numéro de branches (BranchNumber)|
-| Značka de Spisová (numéro d'enregistrement, de publication de l'agence, la section) | République tchèque     | Numéro d'encart (CommercialRegisterInsetNumber) donné à la section du registre de vente (CommercialRegister) du registre de vente (CommercialRegisterSection)|
-| Personnalise l'ID client                                           | Finlande | Numéro de client de douane (CustomsCustomerNumber\_FI)|
-| INN                                                           | Fédération de Russie| AUBERGE (AUBERGE législative de type dans AX2012 R3)|
-| RRC                                                           | Fédération de Russie| RRC (type législatif dans RRC AX2012 R3)|
-| OKDP                                                          | Fédération de Russie| OKDP (type législatif dans OKDP AX2012 R3)|
-| OKPO                                                          | Fédération de Russie| OKPO (type législatif dans OKPO AX2012 R3)|
-| RCOAD                                                         | Fédération de Russie| RCOAD (type législatif dans RCOAD AX2012 R3)|
-| OGRN                                                          | Fédération de Russie| OGRN (type législatif dans OGRN AX2012 R3) |
-| SNILS                                                         | Fédération de Russie| SNILS (type législatif dans SNILS AX2012 R3)|
-| CIFTS                                                         | Fédération de Russie| CIFTS (type législatif dans CIFTS AX2012 R3)|
+| ID TVA                                                        | Tous les pays de l'Union européenne (UE)|  Numéro identifiant TVA (ID de taxe de type législatif dans AX2012 R3)|
+| ID entreprise (COID)                                          | Belgique, République tchèque, Estonie, Hongrie, Lettonie, Lituanie, Pologne, Suisse | Numéro d'entreprise (EnterpriseNumber) Numéro d'enregistrement (RegNum\_W) Numéro d'enregistrement (RegNum\_W) Numéro d'enregistrement (RegNum\_W) Numéro d'enregistrement (RegNum\_W) Code d'entreprise (EnterpriseCode) Numéro d'enregistrement (RegNum\_W) UID (UID de type législatif dans AX2012 R3) |
+| ID agence                                                     | Belgique            | Numéro d'agence (BranchNumber)|
+| Spisová značka (numéro d'enregistrement, agence émettrice, section) | République tchèque     | Numéro Inset (CommercialRegisterInsetNumber) Conservé au registre commercial (CommercialRegister) Section du registre commercial (CommercialRegisterSection)|
+| Personnalise l'ID client                                           | Finlande | Numéro de client des services douaniers (CustomsCustomerNumber\_FI)|
+| INN                                                           | Fédération de Russie| INN (INN de type législatif dans AX2012 R3)|
+| RRC                                                           | Fédération de Russie| RRC (RRC de type législatif dans AX2012 R3)|
+| OKDP                                                          | Fédération de Russie| OKDP (OKDP de type législatif dans AX2012 R3)|
+| OKPO                                                          | Fédération de Russie| OKPO (OKPO de type législatif dans AX2012 R3)|
+| RCOAD                                                         | Fédération de Russie| RCOAD (RCOAD de type législatif dans AX2012 R3)|
+| OGRN                                                          | Fédération de Russie| OGRN (OGRN de type législatif dans AX2012 R3) |
+| SNILS                                                         | Fédération de Russie| SNILS (SNILS de type législatif dans AX2012 R3)|
+| CIFTS                                                         | Fédération de Russie| CIFTS (CIFTS de type législatif dans AX2012 R3)|
 
-Pour plus d'informations sur les ID enregistrement de traitement, notamment les conditions préalables requises, voir les enregistrements suivants de la tâche pour l'ID de TVA aux Lifecycle Services (LCS) :
+Pour plus d'informations sur le traitement des ID d'enregistrement, notamment les conditions préalables requises, consultez les enregistrements de tâche suivants pour l'ID de TVA dans Lifecycle Services (LCS) :
 
 -   Paramétrer l'ID de TVA
--   Enregistrement d'ID de TVA du fournisseur
+-   Enregistrement de l'ID de TVA du fournisseur
 -    Recherche de partie à l'aide de l'ID de TVA
+
+
 
 
 

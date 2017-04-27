@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-agreements"></a>Contrats de vente
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article fournit des informations sur les contrats de vente. Un contrat de vente est un contrat qui engage le client à acheter une certaine quantité ou un certain montant de produit sur une période définie en échange de prix spéciaux et de remises.
 
 Un contrat de vente est un contrat qui engage le client à acheter une certaine quantité ou un certain montant de produits sur une période définie en échange de prix spéciaux, de remises spéciales et d'autres conditions spéciales, telles que des conditions de paiement et de livraison. Les prix et les remises du contrat de vente sont prioritaires sur les autres prix et remises indiqués dans les contrats commerciaux existants.  
@@ -36,7 +39,7 @@ La période de validité d'un contrat de vente est définie par les champs **Dat
 
 Vous pouvez créer une commande client directement à partir d'un contrat de vente à l'aide de l'action **Lancer la commande**. Vous pouvez également sélectionner un contrat de vente en vigueur lorsque vous acceptez des commandes (voir la section « Application des contrats de vente dans le processus de commande » de cet article).  
 
-** Remarque : ** Dans les versions précédentes, contrats de vente étaient nommés des commandes client de fractionnement.
+**Remarque :** dans les versions antérieures de , les contrats de vente étaient nommés Commandes ouvertes vente.
 
 ## <a name="commitment-types"></a>Types d'engagements
 Chaque ligne d'un accord de vente exprime un engagement à vendre quelque chose. En général il existe deux catégories d'engagement :
@@ -98,16 +101,18 @@ Si vous avez créé (lancé) une commande client dans le cadre d'un contrat de v
 | Quantité                                                          | Si vous spécifiez une quantité supérieure à celle indiquée dans une ligne de contrat de vente dont la case à cocher **Le max. est appliqué** est activée, une boîte de dialogue vous invite à enregistrer la quantité modifiée. Cliquez sur **Oui** pour supprimer le lien avec la ligne de contrat de vente et recalculer le prix. Cliquez sur **Non** pour supprimer le lien avec la ligne de contrat de vente sans recalculer le prix.                                                            |
 
 ## <a name="returning-an-item-that-was-ordered-from-a-sales-agreement"></a>Retour d'un article commandé à partir d'un contrat de vente
-Lorsqu'un client retourne un produit commandé d'un contrat de vente, Microsoft Dynamics 365 pour les opérations peut rechercher et mettre automatiquement l'engagement à jour concerné de contrat de vente pour refléter les modifications apportées à la quantité ou le montant. En créant un ordre de retour basé sur la commande client d'origine liée à un contrat de vente, vous établissez une relation entre l'engagement de contrat de vente, la ligne de commande client et la facture d'ordre de retour.  
+Lorsqu'un client retourne un produit commandé dans le cadre d'un contrat de vente, Microsoft Dynamics 365 for Operations peut rechercher et mettre à jour automatiquement l'engagement de contrat de vente associé afin de refléter les modifications de quantité ou de montant. En créant un ordre de retour basé sur la commande client d'origine liée à un contrat de vente, vous établissez une relation entre l'engagement de contrat de vente, la ligne de commande client et la facture d'ordre de retour.  
 
 Si vous ne souhaitez pas déduire la quantité de l'article retourné de l'engagement de contrat de vente, vous pouvez utiliser le contrôle **Supprimer le lien** dans la page **Ordre de retour** pour supprimer le lien entre l'ordre de retour et l'engagement de contrat de vente. Si vous devez rétablir le lien ultérieurement, cliquez **Créer un lien**.  
 
 **Remarque :** un ordre de retour ne peut être lié qu'à un seul contrat de vente. Si un client retourne plusieurs produits commandés dans le cadre de plusieurs contrats de vente, vous devez créer un ordre de retour pour chaque produit et créer un lien vers le contrat de vente correspondant.
 
 ## <a name="automatic-search-for-sales-agreements"></a>Recherche automatique des contrats de vente
-Dans certaines situations où les commandes client sont créées indirectement, comme lorsque vous créez un avoir ou des commandes client intersociétés, vous pouvez contrôler si Microsoft Dynamics 365 pour les recherches d'opérations automatique des contrats de vente applicables.
+Dans certains cas où les commandes client sont créées indirectement, par exemple lorsque vous créez un avoir ou des commandes client intersociétés, vous pouvez contrôler si Microsoft Dynamics 365 for Operations recherche automatique des contrats de vente applicables.
 
 ## <a name="financial-dimensions-on-sales-agreements"></a>Dimensions financières sur les contrats de vente
 Vous pouvez copier les dimensions financières vers des en-têtes de document ou des lignes individuelles d'un contrat de vente. Vous pouvez modifier les dimensions de l'en-tête ou de la ligne d'accord à tout moment. Dans ce cas, les dimensions sont automatiquement copiées vers l'en-tête ou la ligne de lancement des ordres de lancement.
+
+
 
 

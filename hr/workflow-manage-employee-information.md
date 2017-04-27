@@ -1,6 +1,6 @@
 ---
-title: "Workflows d&quot;utilisation pour gérer les informations d&quot;employé"
-description: "Cette rubrique explique comment utiliser la capacité de workflow pour les Ressources humaines gèrent les informations d&quot;employé. Par exemple, vous pouvez associer un workflow à un poste et de configurer un workflow d&quot;approbation qui démarre lorsque les employés de modifier l&quot;enregistrement."
+title: "Utilisation des workflows pour gérer les informations des employés"
+description: "Cette rubrique explique comment les Ressources humaines peuvent utiliser la capacité de workflow pour gérer les informations des employés. Par exemple, vous pouvez associer un workflow avec un poste et configurer un workflow d&quot;approbation qui démarre lorsque les employés modifient leur enregistrement."
 author: rschloma
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,11 +24,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="use-workflows-to-manage-employee-information"></a>Workflows d'utilisation pour gérer les informations d'employé
+# <a name="use-workflows-to-manage-employee-information"></a>Utilisation des workflows pour gérer les informations des employés
 
-Cette rubrique explique comment utiliser la capacité de workflow pour les Ressources humaines gèrent les informations d'employé. Par exemple, vous pouvez associer un workflow à un poste et de configurer un workflow d'approbation qui démarre lorsque les employés de modifier l'enregistrement.
+[!include[banner](includes/banner.md)]
 
-La capacité de workflow pour le module Ressources humaines fournit de nombreux workflows pour gérer les activités de ressources humaines. En outre, les nombreuses options sont disponibles dans lequel vous pouvez modifier les workflows spécifiques et les associer à une hiérarchie de génération d'états. Les workflows sont disponibles pour aider à la gestion des modifications à plusieurs types d'informations standard de l'employé. Vous pouvez associer un workflow avec un poste. Ensuite, si les employés de modifier l'enregistrement Employé, il commence un workflow qui nécessite l'approbation avant que la nouvelle informations enregistrées. Les workflows sont prédéfinis pour les types d'informations suivants permettent efficacement à gérer les changements et de tenir à jour les données de vos employés précises :
+
+Cette rubrique explique comment les Ressources humaines peuvent utiliser la capacité de workflow pour gérer les informations des employés. Par exemple, vous pouvez associer un workflow avec un poste et configurer un workflow d'approbation qui démarre lorsque les employés modifient leur enregistrement.
+
+La capacité de workflow pour les ressources humaines fournit de nombreux workflows pour gérer les activités des ressources humaines. En outre, de nombreuses options sont disponibles pour modifier des workflows spécifiques et les associer à une hiérarchie de génération d'états. Les workflows sont disponibles pour faciliter la gestion des modifications de plusieurs types standard d'informations des employés. Vous pouvez associer un workflow à un poste. Ensuite, si les employés modifient leur enregistrement d'employé, un workflow nécessitant une approbation démarre que les nouvelles informations soient enregistrées. Les workflows sont prédéfinis pour les types d'informations suivants, afin de vous aider à gérer efficacement les modifications et à tenir à jour les données des employés :
 
 -   Numéros d'identifications
 -   Cours
@@ -39,33 +42,35 @@ La capacité de workflow pour le module Ressources humaines fournit de nombreux 
 -   Expérience de projet
 -   Qualifications
 -   Postes de confiance
--   Actions de Ressources humaines
--   Enregistrement de cours
+-   Actions des ressources humaines
+-   Inscriptions aux cours
 
-Lorsque des employés sont engagés, transférés, ou terminés, le workflow peut inclure un processus de révision. Ainsi, un document peut être modifié ou les conditions d'une action peuvent être définies dans le cadre de le workflow. Lorsque le processus de révision est terminé, le document ou l'action est complété, puis le workflow se déplace dans une étape d'approbation finale.
+Lorsque des employés sont engagés, transférés ou licenciés, le workflow peut inclure un processus de révision. Ainsi, un document peut être révisé, ou les conditions d'une action peuvent être définies dans le cadre du workflow. Lorsque le processus de révision est terminé, le document ou l'action est terminé, puis le workflow passe à l'étape d'approbation finale.
 
-## <a name="associate-a-workflow-with-a-position-hierarchy"></a>Associez un workflow avec une hiérarchie des postes
-Vous pouvez associer un workflow avec toute hiérarchie que vous configurez. Par exemple, si un poste est associé à une hiérarchie de génération d'états matricielle, vous pouvez configurer un workflow en route des dépenses pour un projet spécifique à le prospect de projet au lieu du responsable de l'employé associé à ce poste. Pour créer un workflow ou modifier un workflow existant, dans ** workflow de Ressources humaines ** la page, cliquez sur ** nouveau **. Sélectionnez un workflow dans la liste pour démarrer le concepteur de workflow. Vous pouvez utiliser le Concepteur pour créer un workflow ou de modifier les étapes d'un workflow existant. Lorsque vous modifiez un workflow existant, les modifications sont enregistrées comme nouvelle version. Par conséquent, vous pouvez toujours renvoyée à une version précédente si nécessaire.
+## <a name="associate-a-workflow-with-a-position-hierarchy"></a>Associer un workflow à une hiérarchie de postes
+Vous pouvez associer un workflow avec n'importe quelle hiérarchie que vous configurez. Par exemple, si un poste est associé à une hiérarchie de génération d'états matricielle, vous pouvez configurer un workflow qui achemine les dépenses pour un projet spécifique vers le chef du projet au lieu du responsable de l'employé associé à ce poste. Pour créer un workflow ou modifier un workflow existant, dans la page **Workflow des ressources humaines**, cliquez sur **Nouveau**. Sélectionnez un workflow dans la liste pour démarrer le concepteur de workflow. Vous pouvez utiliser le concepteur pour créer un workflow ou modifier les étapes d'un workflow existant. Lorsque vous modifiez un workflow existant, vos modifications sont enregistrées sous une nouvelle version. Par conséquent, vous pouvez toujours revenir à une version précédente, si nécessaire.
 
-## <a name="configure-a-human-resources-workflow"></a>Configuration d'un workflow de Ressources humaines
-Pour configurer un workflow de base démarré lorsque la demande d'employés devient son identification personnelle, procédez comme suit.
+## <a name="configure-a-human-resources-workflow"></a>Configurer un workflow des ressources humaines
+Pour configurer un workflow de base qui démarre lorsque des employés demandent de modifier leur identification personnelle, procédez comme suit.
 
-1.  Sous ** des workflows du module Ressources humaines ** la page, cliquez sur ** nouveau **.
-2.  Dans la liste des workflows disponibles, sélectionnez ** des numéros d'identification **.
-3.  Cliquez sur ** exécution ** pour démarrer le concepteur de workflow, puis entrez votre nom d'utilisateur et mot de passe lorsque vous êtes invité.
-4.  Faites glisser ** numéro d'identification d'approuver ** l'élément de la liste des éléments de workflow sur le canevas Concepteur.
-5.  Début connectez d'approbation élément ** ** et ** fin **.
-6.  Double-cliquez sur ** élément d'approbation **, puis cliquez avec le bouton droit, puis sélectionnez ** des propriétés **.
-7.  Procédez comme suit pour ajouter des instructions d'élément de travail :
-    1.  Sélectionnez ** affectation **, puis sélectionnez ** hiérarchie ** sous le type d'affectation.
-    2.  Sous ** hiérarchie ** la sélection, sélectionnez ** hiérarchie configurable **.
+1.  Dans la page **Workflows des ressources humaines**, cliquez sur **Nouveau**.
+2.  Dans la liste des workflows disponibles, sélectionnez **Numéros d'identification**.
+3.  Cliquez sur **Exécuter** pour démarrer le concepteur de workflow, puis entrez votre nom d'utilisateur et votre mot de passe à l'invite.
+4.  Faites glisser l'élément **Approuver le numéro d'identification** de la liste des éléments de workflow vers le canevas du concepteur.
+5.  Reliez l'élément d'approbation à **Démarrer** et **Terminer**.
+6.  Double-cliquez sur **Approuver l'élément**, puis cliquez avec le bouton droit et sélectionnez **Propriétés**.
+7.  Procédez comme suit pour ajouter des instructions relatives à un élément de travail :
+    1.  Sélectionnez **Affectation**, puis sélectionnez **Hiérarchie** sous le type d'affectation.
+    2.  Sous la sélection **Hiérarchie**, sélectionnez **Hiérarchie configurable**.
     3.  Ajoutez une condition d'arrêt, puis fermez la page.
 
-8.  Effectuez les instructions supplémentaires (aucun avertissement supplémentaire ne doit exister).
-9.  Cliquez sur **Enregistrer et fermer**. Activez le nouveau workflow lorsque la boîte de dialogue s'ouvre, puis sélectionnez ** faites Actif **.
-10. Allez ** des Ressources humaines ** &gt; ** aux postes ** &gt; ** des types de hiérarchies des postes **.
-11. Sélectionnez ** matrice **.
-12. Ajoutez ** numéro d'identification du travailleur ** le workflow à la liste.
+8.  Entrez les instructions supplémentaires (il ne doit exister aucun avertissement supplémentaire).
+9.  Cliquez sur **Enregistrer et fermer**. Activez le nouveau workflow lorsque la boîte de dialogue s'ouvre, puis sélectionnez **Activer**.
+10. Accédez à **Ressources humaines** &gt; **Postes** &gt; **Types de hiérarchie de postes**.
+11. Sélectionnez **Matrice**.
+12. Ajoutez le workflow **Numéro d'identification du collaborateur** à la liste.
+
+
 
 
 

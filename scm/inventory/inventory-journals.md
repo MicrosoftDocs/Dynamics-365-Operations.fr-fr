@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="inventory-journals"></a>Journaux de stock
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article décrit la manière dont vous pouvez utiliser les journaux de stock pour valider différents types de transactions de stock physique. 
 
 Les journaux de stock de Microsoft Dynamics 365 for Operations permettent de valider les mouvements de stock physique de différents types, tels que la validation des sorties et des réceptions, les mouvements de stock, la création de nomenclatures et le rapprochement du stock physique. Tous ces journaux de stock sont utilisés de façon similaire, mais ils sont divisés en différents types.
@@ -72,7 +75,7 @@ Les journaux des entrée en production fonctionnent comme les journaux d'arrivé
 
 ### <a name="counting"></a>Comptage
 
-Les journaux d'inventaire vous permettent de corriger le stock disponible actuel qui est enregistré pour des articles ou des groupes d'articles, puis de valider le compte physique réel, pour pouvoir effectuer les ajustements nécessaires afin de rapprocher les différences. Vous pouvez associer les stratégies d'inventaire aux groupes d'inventaire pour aider à regrouper des articles qui ont diverses caractéristiques, de sorte que ces articles soient inclus dans un journal d'inventaire. Par exemple, vous pouvez paramétrer des groupes d'inventaire pour compter les articles ayant une fréquence spécifique, ou pour compter les articles lorsque le stock tombe à un niveau spécifique. Pour plus d'informations sur la définition des groupes de comptage, voir [définissez le inventaire des processus (Guide de tâche)](http://ax.help.dynamics.com/en/wiki/define-inventory-counting-processes/).
+Les journaux d'inventaire vous permettent de corriger le stock disponible actuel qui est enregistré pour des articles ou des groupes d'articles, puis de valider le compte physique réel, pour pouvoir effectuer les ajustements nécessaires afin de rapprocher les différences. Vous pouvez associer les stratégies d'inventaire aux groupes d'inventaire pour aider à regrouper des articles qui ont diverses caractéristiques, de sorte que ces articles soient inclus dans un journal d'inventaire. Par exemple, vous pouvez paramétrer des groupes d'inventaire pour compter les articles ayant une fréquence spécifique, ou pour compter les articles lorsque le stock tombe à un niveau spécifique. Pour plus d'informations sur la façon de définir les groupes d'inventaire, voir [Définir les processus de comptage d'inventaire (Guide de tâche)](http://ax.help.dynamics.com/en/wiki/define-inventory-counting-processes/).
 
 ### <a name="tag-counting"></a>Comptage des balises
 
@@ -89,5 +92,7 @@ Un journal n'est accessible que par un seul utilisateur à la fois. Si plusieurs
 
 ## <a name="posting-journal-lines"></a>Validation des lignes de journal
 Vous pouvez valider les lignes de journal que vous créez à tout moment jusqu'à ce que vous ayez verrouillé un article des transactions supplémentaires. Les données que vous entrez dans un journal y sont conservées, même si vous fermez le journal sans valider les lignes.
+
+
 
 

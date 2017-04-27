@@ -1,6 +1,6 @@
 ---
 title: "Vue d&quot;ensemble des souches de numéros"
-description: "Les souches de numéros dans Microsoft Dynamics 365 pour les opérations utilisées pour générer et consultables, les identificateurs uniques pour les enregistrements de données principales et de transaction nécessitant des identificateurs. Un enregistrement de données principales ou de transaction nécessitant un identificateur est également appelé <em>référence</em>."
+description: "Les souches de numéros dans Microsoft Dynamics 365 for Operations permettent de générer des identificateurs uniques et consultables pour les enregistrements de données principales et de transaction, le cas échéant. Un enregistrement de données principales ou de transaction nécessitant un identificateur est également appelé <em>référence</em>."
 author: MargoC
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="number-sequence-overview"></a>Vue d'ensemble des souches de numéros
 
-Les souches de numéros dans Microsoft Dynamics 365 pour les opérations utilisées pour générer et consultables, les identificateurs uniques pour les enregistrements de données principales et de transaction nécessitant des identificateurs. Un enregistrement de données principales ou de transaction nécessitant un identificateur est également appelé <em>référence</em>.
+[!include[banner](../includes/banner.md)]
 
-Avant de pouvoir créer des enregistrements pour une référence dans Microsoft Dynamics 365 pour les opérations, vous devez paramétrer une souche de numéros et l'associer à la référence. Nous vous recommandons d'utiliser les pages du module **Administration d'organisation** pour paramétrer les souches de numéros. Si des paramètres spécifiques au module sont requis, vous pouvez utiliser la page des paramètres d'un module pour spécifier les souches de numéros pour les références dans ce module. Par exemple, dans les modules **Comptabilité client** et **Comptabilité fournisseur** , vous pouvez paramétrer des groupes de souches de numéros pour attribuer des souches de numéros spécifiques à des clients ou fournisseurs donnés. Lorsque vous paramétrez une souche de numéros, vous devez spécifier une portée, qui définit l'organisation qui l'utilise. La portée peut être **Partagée**, **Société**, **Entité juridique** ou **Unité opérationnelle**. Les portées **Entité juridique** et **Société** peuvent également être combinées avec **Période de calendrier fiscal** pour créer des souches de numéros encore plus spécifiques. Les formats de souches de numéros sont composés de segments. Les souches de numéros dotées d'une portée autre que **Partagée** peuvent contenir des segments qui correspondent à la portée. Par exemple, une souche de numéros dotée du type de portée **Entité juridique** peut contenir un segment d'entité juridique. En incluant un segment de portée dans le format de souche de numéros, vous pouvez identifier la portée d'un enregistrement particulier en consultant son numéro. Outre les segments qui correspondent aux portées, les formats de souche de numéros peuvent contenir les segments **Constante** et **Alphanumérique**. Un segment **Constante** contient un ensemble de lettres, de nombres ou de symboles qui ne change pas. Un segment **Alphanumérique** contient un ensemble de lettres ou de nombres qui est incrémenté à chaque fois qu'un nombre est utilisé. Utilisez un symbole numérique (\#) pour représenter les numéros de l'incrémentation et une esperluette (et) pour représenter les lettres de l'incrémentation. Par exemple, le format \#\#\#\#\#\_2017 crée la séquence 00001\_2017, 00002\_2017, et ainsi de suite.
+
+Les souches de numéros dans Microsoft Dynamics 365 for Operations permettent de générer des identificateurs uniques et consultables pour les enregistrements de données principales et de transaction, le cas échéant. Un enregistrement de données principales ou de transaction nécessitant un identificateur est également appelé <em>référence</em>.
+
+Avant de pouvoir créer des enregistrements pour une référence dans Microsoft Dynamics 365 for Operations, vous devez paramétrer une souche de numéros et l'associer à la référence. Nous vous recommandons d'utiliser les pages du module **Administration d'organisation** pour paramétrer les souches de numéros. Si des paramètres spécifiques au module sont requis, vous pouvez utiliser la page des paramètres d'un module pour spécifier les souches de numéros pour les références dans ce module. Par exemple, dans les modules **Comptabilité client** et **Comptabilité fournisseur** , vous pouvez paramétrer des groupes de souches de numéros pour attribuer des souches de numéros spécifiques à des clients ou fournisseurs donnés. Lorsque vous paramétrez une souche de numéros, vous devez spécifier une portée, qui définit l'organisation qui l'utilise. La portée peut être **Partagée**, **Société**, **Entité juridique** ou **Unité opérationnelle**. Les portées **Entité juridique** et **Société** peuvent également être combinées avec **Période de calendrier fiscal** pour créer des souches de numéros encore plus spécifiques. Les formats de souches de numéros sont composés de segments. Les souches de numéros dotées d'une portée autre que **Partagée** peuvent contenir des segments qui correspondent à la portée. Par exemple, une souche de numéros dotée du type de portée **Entité juridique** peut contenir un segment d'entité juridique. En incluant un segment de portée dans le format de souche de numéros, vous pouvez identifier la portée d'un enregistrement particulier en consultant son numéro. Outre les segments qui correspondent aux portées, les formats de souche de numéros peuvent contenir les segments **Constante** et **Alphanumérique**. Un segment **Constante** contient un ensemble de lettres, de nombres ou de symboles qui ne change pas. Un segment **Alphanumérique** contient un ensemble de lettres ou de nombres qui est incrémenté à chaque fois qu'un nombre est utilisé. Utilisez un symbole numérique (\#) pour représenter les numéros de l'incrémentation et une esperluette (&) pour représenter les lettres de l'incrémentation. Par exemple, le format \#\#\#\#\#\_2017 crée la séquence 00001\_2017, 00002\_2017, etc.
 Exemples de souches de numéros
 ------------------------
 
@@ -62,7 +65,7 @@ Dans l'exemple suivant, les numéros de demandes d'achat fonctionnent dans l'ens
 | Segment 1 | Constante     | Req      |
 | Segment 2 | Alphanumérique | \#\#\#\# |
 
-**Exemple de numéro mis en forme** : Req0052 Comme la portée est **Partagée**, le format de souche de numéros est utilisé dans l'ensemble de l'organisation. Vous ne pouvez pas paramétrer différents formats de souches de numéros pour différentes parties de l'organisation. Remarques importantes relatives aux performances des souches de numéros
+**Exemple de numéro mis en forme** : Req0052 Comme la portée est **Partagée**, le format de souche de numéros est utilisé dans l'ensemble de l'organisation. Vous ne pouvez pas paramétrer différents formats de souches de numéros pour différentes parties de l'organisation. Remarques importantes relatives aux performances des souches de numéros
 -----------------------------------------------
 
 Avant de paramétrer des souches de numéros, prenez en compte les informations suivantes sur l'impact de la configuration des souches de numéros sur les performances.
@@ -73,6 +76,8 @@ Les souches de numéros peuvent être continues ou non continues. Une souche de 
 ### <a name="automatic-cleanup-of-number-sequences"></a>Nettoyage automatique des souches de numéros
 
 En cas de panne de courant, d'erreur de l'application ou de panne imprévue, le système ne peut pas recycler les numéros automatiquement pour les souches de numéros continues. Vous pouvez exécuter le processus de nettoyage manuellement ou automatiquement pour récupérer les numéros perdus. Veillez à tenir compte de l'utilisation du serveur lorsque vous planifiez le processus de nettoyage. Nous vous recommandons d'effectuer le nettoyage en tant que traitement par lots pendant les heures creuses.
+
+
 
 
 

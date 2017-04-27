@@ -1,5 +1,5 @@
 ---
-title: Le demande de devis (RFQs)
+title: Appels d&quot;offre
 description: "Cet article fournit une vue d&quot;ensemble des demandes de devis émises par les organisations lorsqu&quot;elles doivent acheter des articles ou des services et souhaitent recevoir des offres de plusieurs fournisseurs. Dans une demande de devis, vous demandez aux fournisseurs d&quot;indiquer les prix et les délais de livraison pour des quantités de produits que vous spécifiez. Vous pouvez également demander aux fournisseurs de spécifier s&quot;il y a des frais accessoires, comme des frais de transport, ou si le fournisseur offre des remises pour les commandes importantes ou le paiement anticipé de la facture fournisseur."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="request-for-quotations-rfqs"></a>Le demande de devis (RFQs)
+# <a name="request-for-quotations-rfqs"></a>Appels d'offre
+
+[!include[banner](../includes/banner.md)]
+
 
 Cet article fournit une vue d'ensemble des demandes de devis émises par les organisations lorsqu'elles doivent acheter des articles ou des services et souhaitent recevoir des offres de plusieurs fournisseurs. Dans une demande de devis, vous demandez aux fournisseurs d'indiquer les prix et les délais de livraison pour des quantités de produits que vous spécifiez. Vous pouvez également demander aux fournisseurs de spécifier s'il y a des frais accessoires, comme des frais de transport, ou si le fournisseur offre des remises pour les commandes importantes ou le paiement anticipé de la facture fournisseur.
 
@@ -37,9 +40,9 @@ Le processus de demande de devis couvre les actions suivantes :
 
 L'illustration suivante présente une vue d'ensemble du processus de demande de devis.  
 
-[processus de demande![à partir![(]. /media/rfq-process-458x1024.jpg)](. /media/rfq-process.jpg)  
+[![Traitement d'appel d'offre](./media/rfq-process-458x1024.jpg)](./media/rfq-process.jpg)  
 
-Vous pouvez créer une demande de devis à partir des commandes planifiées, une demande d'achat ou une entrée manuelle. L'appel d'offre que vous créez s'appelle un dossier d'appel d'offre et il s'agit là du document de base que vous utilisez pour délivrer un appel d'offre à chaque fournisseur. Après avoir préparer la demande de devis et ajouter des fournisseurs, cliquez sur ** l'envoi ** sur la demande de devis, puis un journal des demandes de devis est généré pour chaque fournisseur que vous avez soumis la demande de devis. Vous pouvez configurer les paramètres de gestion de l'impression pour l'action à envoyer à imprimer un état pour chaque fournisseur dans une archive ou soumettre un état à l'adresse électronique de chaque fournisseur. En outre, le journal d'appel d'offre de chaque fournisseur peut être utilisé pour générer un rapport que vous pouvez envoyer ou renvoyer à un fournisseur ultérieurement. Vous pouvez également configurer l'action Envoyer afin de générer une feuille de réponse que le fournisseur peut compléter.  
+Vous pouvez créer une demande de devis à partir des commandes planifiées, une demande d'achat ou une entrée manuelle. L'appel d'offre que vous créez s'appelle un dossier d'appel d'offre et il s'agit là du document de base que vous utilisez pour délivrer un appel d'offre à chaque fournisseur. Après avoir préparé le dossier d'appel d'offre et ajouté des fournisseurs, cliquez sur **Envoyer** sur le dossier d'appel d'offre et un journal de demande de devis est généré pour chaque fournisseur auquel vous envoyez l'appel d'offre. Vous pouvez configurer les paramètres de gestion des impressions pour l'action Envoyer afin d'imprimer un rapport pour chaque fournisseur pour une archive ou pour envoyer un rapport à l'adresse électronique de chaque fournisseur. En outre, le journal d'appel d'offre de chaque fournisseur peut être utilisé pour générer un rapport que vous pouvez envoyer ou renvoyer à un fournisseur ultérieurement. Vous pouvez également configurer l'action Envoyer afin de générer une feuille de réponse que le fournisseur peut compléter.  
 
 Si vous devez modifier un appel d'offre après son envoi, vous pouvez l'envoyer à nouveau aux fournisseurs lorsque vous avez terminé.  
 
@@ -49,18 +52,18 @@ Si une deuxième itération d'une réponse est requise pour un fournisseur spéc
 
 Si vous avez ajouté des critères de score à votre dossier d'appel d'offre, la réponse à la demande de devis dispose d'un volet de score où vous pouvez saisir les scores. Tous les scores s'affichent lorsque vous comparez les réponses sur la page **Comparer les réponses **, sur laquelle vous pouvez également comparer les autres données de réponse, telles que le prix de ligne, la date de livraison et le prix total.  
 
-Après avoir opté pour une offre ou des offres partielles, vous pouvez les accepter et rejeter le reste. Les journaux d'acceptation, les journaux de rejet et les rapports correspondants sont générés. Celles-ci seront imprimés, archivés, et envoyés en fonction de les paramètres de gestion de l'impression. Lorsque vous acceptez une offre ou des lignes spécifiques dans une offre, un contrat d'achat ou fournisseur est généré, ou une demande d'achat est mise à jour, selon le type d'achat de demande de devis. Vous pouvez créer un contrat commercial que vous pouvez utiliser ultérieurement pour toute réponse, peu importe si vous les avez acceptées ou rejetées.  
+Après avoir opté pour une offre ou des offres partielles, vous pouvez les accepter et rejeter le reste. Les journaux d'acceptation, les journaux de rejet et les rapports correspondants sont générés. Ceux-ci sont imprimés, archivés et envoyés conformément à vos paramètres de gestion des impressions. Lorsque vous acceptez une offre ou des lignes spécifiques d'une offre, un contrat d'achat ou une commande fournisseur est généré(e), ou une demande d'achat est mise à jour, selon le type d'achat de la demande de devis. Vous pouvez créer un contrat commercial que vous pouvez utiliser ultérieurement pour toute réponse, peu importe si vous les avez acceptées ou rejetées.  
 
 Le statut d'un appel d'offre apparaît dans l'en-tête de l'appel d'offre et dépend du statut des lignes de l'appel d'offre. Le statut indique où en est l'appel d'offre dans le cadre de son traitement. Chaque appel d'offre a deux valeurs pour le statut : le moins élevé et le plus élevé. Le statut le moins élevé correspond au stade le moins avancé de toute ligne de la demande de devis, et le statut le plus élevé au stade le plus avancé. Par exemple, si le stade le moins avancé dans un appel d'offre concerne une ligne créée, le statut le moins élevé pour l'appel d'offre est **Créé**. Si le stade le plus avancé dans l'appel d'offre concerne une ligne envoyée aux fournisseurs, le statut le plus élevé pour l'appel d'offre est **Envoyé**. Les statuts sont automatiquement mis à jour à mesure que vous traitez une demande de devis.  
 
 Vous pouvez consulter les statuts le moins élevé et le plus élevé d'un en-tête de demande de devis sur la page de liste **Toutes les demandes de devis**. Vous pouvez consulter les statuts le moins élevé et le plus élevé d'une ligne de demande de devis sur l'onglet **Lignes** sur la page **Demande de devis**.  
 
-Voici la séquence des statuts pour traiter les demandes de devis :
+Voici la séquence des statuts pour le traitement d'une demande de devis :
 
 1.  **Créé**
-2.  **Sent**
-3.  **Received**
-4.  ** Accepté **/** annulé **/** rejeté **
+2.  **Envoyé**
+3.  **Reçu**
+4.  **Accepté**/**Annulé**/**Rejeté**
 
 Les statuts sont décrits plus en détail dans les sections ultérieures de cet article.
 
@@ -72,7 +75,7 @@ Avant de pouvoir créer un dossier de demande de devis, vous devez paramétrer l
 -   Informations de livraison et conditions de paiement.
 -   Champs devant être inclus dans la réponse de demande de devis
 
-Vous pouvez remplacer ces valeurs pour un dossier de demande de devis spécifique. Vous devez également configurer le processus d'avenant. Dans le cadre de cette configuration, vous pouvez activer le verrouillage du champ. Lorsque le verrouillage du champ est activé, un professionnel de l'approvisionnement qui souhaite modifier une demande de devis doit tout d'abord cliquer sur **Créer** dans la section **Avenant** de l'onglet **Devis**. Une fois la demande de devis a été mis à jour avec les modifications, le professionnel d'approvisionnement doit effectuer le processus en cliquant sur ** finaliser à mettre fin **. ** ** Action de finalisation génère un message e-mail qui signale les fournisseurs sur la demande de devis modifié. Vous sélectionnez le modèle de la notification par e-mail qui est envoyée aux fournisseurs sur la page **Paramètres de l'approvisionnement**. Lorsqu'un modèle est créé, il peut contenir les jetons de remplacement suivants :
+Vous pouvez remplacer ces valeurs pour un dossier de demande de devis spécifique. Vous devez également configurer le processus d'avenant. Dans le cadre de cette configuration, vous pouvez activer le verrouillage du champ. Lorsque le verrouillage du champ est activé, un professionnel de l'approvisionnement qui souhaite modifier une demande de devis doit tout d'abord cliquer sur **Créer** dans la section **Avenant** de l'onglet **Devis**. Une fois la demande de devis mise à jour avec l'avenant, le professionnel de l'approvisionnement doit terminer le processus en cliquant sur **Finaliser**.** **L'action Finaliser génère un message électronique qui signale aux fournisseurs que la demande de devis a été modifiée. Vous sélectionnez le modèle de la notification par e-mail qui est envoyée aux fournisseurs sur la page **Paramètres de l'approvisionnement**. Lorsqu'un modèle est créé, il peut contenir les jetons de remplacement suivants :
 
 -   %Motif de retour de l'offre%
 -   %Motif de l'avenant%
@@ -124,7 +127,7 @@ Le tableau suivant indique les changements de statut de demande de devis lorsque
 
 |                                    |                              |                                                 |                            |                             |
 |------------------------------------|------------------------------|-------------------------------------------------|----------------------------|-----------------------------|
-| **Action**                         | **Lowest RFQ header status** | **Highest RFQ header status**                   | **Lowest RFQ line status** | **Highest RFQ line status** |
+| **Action**                         | **Statut d'en-tête de demande de devis le moins élevé ** | **Statut d'en-tête de demande de devis le plus élevé **                   | **Statut de ligne de demande de devis le moins élevé ** | **Statut de ligne de demande de devis le plus élevé ** |
 | Créez l'en-tête et les lignes de l'appel d'offres.    | Créé                      | Créé                                         | Créé                    | Créé                     |
 | Envoyez l'appel d'offre à un fournisseur spécifique. | Envoyé                         | Envoyé                                            | Envoyé                       | Envoyé                        |
 | Ajoutez un autre fournisseur.                | Créé                      | Envoyé (La demande de devis a été envoyée à un seul fournisseur.) | Créé                    | Envoyé                        |
@@ -146,7 +149,7 @@ Si un questionnaire est joint au dossier de demande de devis, vous devez saisir 
 
 Si vous devez entrer les autres lignes, et si le dossier de demande de devis permet de faire, sur l'organisateur **Lignes de devis d'achat**, cliquez sur **Ajouter une ligne**. Puis entrez les informations relatives au produit, telles que le numéro d'article ou la catégorie d'approvisionnement, la quantité, le prix et la remise.  
 
-Si vous avez entré une réponse mais souhaitez une nouvelle devis du fournisseur, vous pouvez renvoyer la demande de devis. Un nouveau journal et signalera que vous pouvez utiliser pour demander des modifications du fournisseur.  
+Si vous avez entré une réponse, mais si vous avez besoin d'une nouvelle offre du fournisseur, vous pouvez renvoyer la demande de devis. Cela génèrera un journal et signalera que vous pouvez utiliser pour demander des modifications de la part du fournisseur.  
 
 Vous pouvez afficher une vue d'ensemble de toutes les demandes de devis et leurs statuts de réponse sur la page **Suivi de la demande de devis**.  
 
@@ -154,7 +157,7 @@ Le tableau suivant indique les changements de statut de la demande de devis à m
 
 |                                                |                       |                        |                              |                               |                            |                             |
 |------------------------------------------------|-----------------------|------------------------|------------------------------|-------------------------------|----------------------------|-----------------------------|
-| **Action**                                     | **Lowest bid status** | **Highest bid status** | **Lowest RFQ header status** | **Highest RFQ header status** | **Lowest RFQ line status** | **Highest RFQ line status** |
+| **Action**                                     | **Statut d'offre le moins élevé ** | **Statut d'offre le plus élevé ** | **Statut d'en-tête de demande de devis le moins élevé ** | **Statut d'en-tête de demande de devis le plus élevé ** | **Statut de ligne de demande de devis le moins élevé ** | **Statut de ligne de demande de devis le plus élevé ** |
 | Enregistrez l'offre d'un fournisseur, et sauvegardez-la.        | Envoyé                  | Reçu(e)               | Envoyé                         | Reçu(e)                      | Envoyé                       | Reçu(e)                    |
 | Enregistrez l'offre du deuxième fournisseur, et sauvegardez-la. | Reçue              | Reçue               | Reçue                     | Reçue                      | Reçue                   | Reçue                    |
 
@@ -183,9 +186,11 @@ Le tableau suivant indique les changements de statut de la demande de devis à m
 
 |                         |                       |                        |                              |                               |                            |                             |
 |-------------------------|-----------------------|------------------------|------------------------------|-------------------------------|----------------------------|-----------------------------|
-| **Action**              | **Lowest bid status** | **Highest bid status** | **Lowest RFQ header status** | **Highest RFQ header status** | **Lowest RFQ line status** | **Highest RFQ line status** |
+| **Action**              | **Statut d'offre le moins élevé ** | **Statut d'offre le plus élevé ** | **Statut d'en-tête de demande de devis le moins élevé ** | **Statut d'en-tête de demande de devis le plus élevé ** | **Statut de ligne de demande de devis le moins élevé ** | **Statut de ligne de demande de devis le plus élevé ** |
 | Acceptez l'une des offres. | Reçu(e)              | Accepté(e)               | Reçue                     | Accepté(e)                      | Reçue                   | Accepté(e)                    |
 | Rejetez les autres offres.  | Rejeté(e)              | Accepté(e)               | Rejeté(e)                     | Accepté(e)                      | Rejeté(e)                   | Accepté(e)                    |
+
+
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Mettre les différents membres de la dimension d&quot;élément de coût à un ensemble courant de membres de la dimension"
+title: "Mapper les différents membres de la dimension d&quot;élément de coût à un ensemble commun de membres de la dimension"
 description: "En mappant différents membres de la dimension d&quot;élément de coût à un ensemble commun de membres de la dimension d&quot;élément de coût, vous fusionnez les données en un format commun à des fins de analyse."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="map-different-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>Mettre les différents membres de la dimension d'élément de coût à un ensemble courant de membres de la dimension
+# <a name="map-different-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>Mapper les différents membres de la dimension d'élément de coût à un ensemble commun de membres de la dimension
 
 En mappant différents membres de la dimension d'élément de coût à un ensemble commun de membres de la dimension d'élément de coût, vous fusionnez les données en un format commun à des fins de analyse.
 
@@ -38,10 +38,10 @@ L'exemple suivant illustre comment vous, contrôleur de coût, pouvez créer une
 |-----------------------------------------------------------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------|
 | Membres de dimension d'élément de coût importés du plan de comptes américain | Membres de dimension d'élément de coût importés du plan de comptes français | Mappage des membres de dimension d'élément de coût américains et français à un ensemble commun |
 | 5001 : Ventes                                                           | 5001 : Ventes et publicité                                               | 5000 : Ventes et publicité                                             |
-| 5030 : Publicité                                                     | 6390 : Achat d'actions\*                                                    | 7000 : Dépenses de nettoyage                                                 |
+| 5030 : Publicité                                                     | 6390 : Achat d'actions\*                                                    | 7000 : Dépenses de nettoyage                                                 |
 | 7001 : Dépenses de nettoyage                                               | 7001 : Dépenses de déplacements                                                      | 7001 : Dépenses de déplacements                                                   |
 
-\*le membre français de dimension de l'élément du coût d'achat d'actions n'est pas mis en correspondance.
+\*Le membre de dimension de l'élément du coût d'achat d'actions français n'est pas mappé.
 
 ## <a name="currency-conversion"></a>Conversion de devise
 Les différents plans de comptes que vous utilisez peuvent être paramétrés pour utiliser plusieurs devises. Dans ce cas, assurez-vous de spécifier une conversion de devise, afin que les données de coût soient traitées à l'aide de la devise appropriée, comme défini dans la comptabilité de contrôle de gestion dans laquelle les membres de la dimension d'élément de coût sont utilisés. Dans l'exemple précédent, si les dollars américains (USD) sont utilisés dans la comptabilité de contrôle de gestion, vous devez créer une conversion de devise des USD en euro (EUR) pour traiter les transactions des membres de dimension d'élément de coût mappés.

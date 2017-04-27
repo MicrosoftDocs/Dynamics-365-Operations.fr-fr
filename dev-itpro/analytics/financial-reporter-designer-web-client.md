@@ -1,5 +1,5 @@
 ---
-title: Management Reporter - Le concepteur et le Web client
+title: Management Reporter - Concepteur et client Web
 description: 
 author: twheeloc
 manager: AnnBe
@@ -25,7 +25,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="management-reporter----the-designer-and-web-client"></a>Management Reporter - Le concepteur et le Web client
+# <a name="management-reporter----the-designer-and-web-client"></a>Management Reporter - Concepteur et client Web
+
+[!include[banner](../includes/banner.md)]
+
+
+
 
 
 

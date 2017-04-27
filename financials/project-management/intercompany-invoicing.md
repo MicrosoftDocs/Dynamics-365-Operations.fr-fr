@@ -1,6 +1,6 @@
 ---
 title: "Facturation intersociétés"
-description: "Cet articles associées des informations et des exemples sur les intersociétés facturation pour les projets dans Microsoft Dynamics 365 pour les opérations."
+description: "Cet article fournit des informations et des exemples sur la facturation intersociétés de projets dans Microsoft Dynamics 365 for Operations."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,15 +26,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="intercompany-invoicing"></a>Facturation intersociétés
 
-Cet articles associées des informations et des exemples sur les intersociétés facturation pour les projets dans Microsoft Dynamics 365 pour les opérations.
+[!include[banner](../includes/banner.md)]
 
-Votre organisation peut avoir plusieurs divisions, filiales, ainsi que d'autres entités juridiques qui transfèrent des produits et des services entre elles pour des projets. L'entité juridique qui offre le service ou produit est appelé l'entity* juridique *lending, entité juridique qui reçoit le service ou produit est appelée l'entity* juridique *borrowing. 
+
+Cet article fournit des informations et des exemples sur la facturation intersociétés de projets dans Microsoft Dynamics 365 for Operations.
+
+Votre organisation peut avoir plusieurs divisions, filiales, ainsi que d'autres entités juridiques qui transfèrent des produits et des services entre elles pour des projets. L’entité juridique qui fournit le service ou le produit est appelée l'*entité juridique prêteuse*, et l’entité juridique qui reçoit le service ou le produit est appelée l'*entité juridique emprunteuse*. 
 
 L’illustration suivante montre un scénario classique où deux entités juridiques, SI FR (l’entité juridique emprunteuse) et SI USA (l’entité juridique prêteuse), partagent des ressources pour fournir un projet au client A. Dans ce scénario, SI FR est engagée pour fournir le travail au client A. 
 
-[exemple de facturation intersociétés d'![] (. /media/interco.invoicing-01.jpg)](. /media/interco.invoicing-01.jpg) 
+[![Exemple de facturation intersociétés](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
 
-L'objectif est de faire le contrôle des coûts, la constatation du produit, les taxes, et le prix de transfert pour les transactions de projet intersociétés plus de flexibilité et puissantes. En outre, les fonctionnalités suivantes sont fournies :
+L’objectif est de rendre le contrôle des coûts, la constatation du produit, les impôts et le prix de transfert des transactions de projet intersociétés plus flexibles et plus puissants. En outre, les fonctionnalités suivantes sont fournies :
 
 -   Créer des factures client par rapport à un projet dans une entité juridique emprunteuse à l’aide de feuilles de temps intersociétés, de dépenses et de factures fournisseur dans une entité juridique prêteuse.
 -   Prendre en charge les calculs de taxe et les coûts indirects.
@@ -49,31 +52,31 @@ L'objectif est de faire le contrôle des coûts, la constatation du produit, les
     -   **Taux de contribution** : le nombre entré dans le champ **Tarification** est le taux de contribution exprimé en pourcentage du prix de vente.
 
 ## <a name="example-1-set-up-parameters-for-intercompany-invoicing"></a>Exemple 1 : Définir les paramètres de facturation intersociétés
-Dans cet exemple, USSI est une entité juridique prêteuse et ses ressources déclarent le temps par rapport à l’entité juridique emprunteuse, FRSI, qui possède un contrat avec le client final. Les heures et les dépenses que les employés d'USSI déclarent peuvent être inclus dans la facture du projet générée par FRSI. En outre, il existe une troisième source de transactions qui peuvent provenir de l’entité juridique prêteuse (USSI dans cet exemple) lorsqu’elle fournit des services de fournisseurs partagés aux filiales (par exemple, FRSI) et transmet ensuite ces coûts aux projets au sein de ces filiales. Tous les documents de facture et calculs correspondants de taxe sont complétés par Dynamics 365 pour les opérations. 
+Dans cet exemple, USSI est une entité juridique prêteuse et ses ressources déclarent le temps par rapport à l’entité juridique emprunteuse, FRSI, qui possède un contrat avec le client final. Les heures et les dépenses que les employés d'USSI déclarent peuvent être inclus dans la facture du projet générée par FRSI. En outre, il existe une troisième source de transactions qui peuvent provenir de l’entité juridique prêteuse (USSI dans cet exemple) lorsqu’elle fournit des services de fournisseurs partagés aux filiales (par exemple, FRSI) et transmet ensuite ces coûts aux projets au sein de ces filiales. Tous les documents de facture et les calculs de taxes correspondants sont effectués par Dynamics 365 for Operations. 
 
 Pour cet exemple, FRSI doit être un client dans l’entité juridique USSI et USSI doit être un fournisseur dans l’entité juridique FRSI. Puis, vous pouvez définir une relation intersociétés entre les deux entités juridiques. La procédure suivante montre comment définir les paramètres afin que les deux entités juridiques puissent participer à la facturation intersociétés.
 
 1.  Configurez l’entité juridique FRSI en tant que cliente de l'entté juridique USSI et configurez USSI comme fournisseur dans l’entité juridique FRSI. Il existe trois points d’entrée pour les étapes qui sont requises pour cette tâche.
     | Etape | Point d'entrée                                                                       | description ;   |
     |------|-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | A    | Dans USSI, cliquez sur ** Ventes ** &gt; ** clients ** &gt; ** tous les clients **. | Créez un enregistrement de client pour FRSI et sélectionnez le groupe de clients.                                                                                                                                                                                                                           |
-    | B    | Dans FRSI, cliquez sur ** Achats ** &gt; ** fournisseurs ** &gt; ** tous les fournisseurs **.        | Créez un enregistrement de fournisseur pour USSI et sélectionnez le groupe de fournisseurs.                                                                                                                                                                                                                               |
+    | A    | Dans USSI, cliquez sur **Comptabilité client** &gt; **Clients** &gt; **Tous les clients**. | Créez un enregistrement de client pour FRSI et sélectionnez le groupe de clients.                                                                                                                                                                                                                           |
+    | B    | Dans FRSI, cliquez sur **Comptabilité fournisseur** &gt; **Fournisseurs** &gt; **Tous les fournisseurs**.        | Créez un enregistrement de fournisseur pour USSI et sélectionnez le groupe de fournisseurs.                                                                                                                                                                                                                               |
     | C    | Dans FRSI, ouvrez l’enregistrement du fournisseur que vous venez de créer.                            | Dans le volet Actions, sous l'onglet **Général**, dans le groupe **Paramétrer**, cliquez sur **Intersociétés**. Dans la page **Intersociétés**, sur l'onglet **Relation commerciale**, définissez le curseur **Actif** sur **Oui**. Dans le champ**Société du client**, sélectionnez l’enregistrement de client que vous avez créé à l’étape A. |
 
-2.  Cliquez sur ** Gestion de projets et comptabilité ** &gt; ** paramétrage ** &gt; ** paramètres de comptabilité de gestion de projets **, puis sur ** des intersociétés ** l'onglet. La façon dont vous définissez les paramètres dépend de si vous êtes l’entité juridique prêteuse ou l’entité juridique emprunteuse.
+2.  Cliquez sur **Gestion et comptabilité des projets** &gt; **Paramétrage** &gt; **Paramètres de gestion et comptabilité des projets**, puis sur l'onglet **Intersociétés**. La façon dont vous définissez les paramètres dépend de si vous êtes l’entité juridique prêteuse ou l’entité juridique emprunteuse.
     -   Si vous êtes l’entité juridique emprunteuse, sélectionnez la catégorie d’approvisionnement qui doit être utilisée pour correspondre aux factures fournisseur, qui sont automatiquement générées.
     -   Si vous êtes l’entité juridique prêteuse, pour chaque entité emprunteuse, sélectionnez une catégorie de projet par défaut pour chaque type de transaction. Les catégories de projet sont utilisées pour la configuration de taxe lorsque la catégorie facturée dans les transactions intersociétés existe uniquement dans l’entité juridique emprunteuse. Vous pouvez choisir de provisionner le produit pour les transactions intersociétés. Cette régularisation est effectuée lorsque les transactions sont validées, et elle est ensuite inversée lors de la validation de la facture intersociétée.
 
-3.  Cliquez sur ** Gestion de projets et comptabilité ** &gt; ** paramétrage ** &gt; ** prix ** &gt; ** prix de transfert **.
+3.  Cliquez sur **Gestion de projets et comptabilité** &gt; **Paramétrer** &gt; **Prix** &gt; **Prix de transfert**.
 4.  Sélectionnez une devise, le type de transaction et le modèle de prix de transfert. La devise utilisée sur la facture est la devise configurée dans l’enregistrement du client pour l’entité juridique emprunteuse dans l’entité juridique prêteuse. La devise est utilisée pour correspondre aux entrées de la table de prix de transfert.
-5.  Cliquez sur ** comptabilité ** &gt; ** paramétrage de la validation ** &gt; ** comptabilité intersociétés **, et paramétré une relation pour USSI et FRSI.
+5.  Cliquez sur **Comptabilité** &gt; **Paramétrage de la validation** &gt; **Comptabilité intersociétés** et paramétrez une relation pour USSI et FRSI.
 
 ## <a name="example-2-create-and-post-an-intercompany-timesheet"></a>Exemple 2 : Créer et valider une feuille de temps intersociétés
 USSI, l’entité juridique prêteuse, doit créer et valider la feuille de temps pour un projet de FRSI, l’entité juridique emprunteuse. Il existe deux points d’entrée pour les étapes qui sont requises pour cette tâche.
 
 | Etape | Point d'entrée                                                                       | description ;                                                                                                                                                                                       |
 |------|-----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A    | ** Gestion de projets et comptabilité ** &gt; ** feuilles de temps ** &gt; ** toutes les feuilles de temps ** | Créez une nouvelle feuille de temps. Sur la ligne de la feuille de temps, dans le champ **Entité juridique**, sélectionnez **FRSI**. Dans le champ **ID projet**, sélectionnez le projet dans FRSI. Spécifiez le nombre d'heures de chaque jour de la semaine. |
+| A    | **Gestion de projets et comptabilité** &gt; **Feuilles de temps** &gt; **Toutes les feuilles de temps** | Créez une nouvelle feuille de temps. Sur la ligne de la feuille de temps, dans le champ **Entité juridique**, sélectionnez **FRSI**. Dans le champ **ID projet**, sélectionnez le projet dans FRSI. Spécifiez le nombre d'heures de chaque jour de la semaine. |
 | G    | Page **Feuille de temps**                                                                | Après l’exécution du workflow, validez la feuille de temps et prenez note du numéro de document.                                                                                                               |
 
 ## <a name="example-3-create-and-post-an-intercompany-vendor-invoice"></a>Exemple 3 : Créer et valider une facture fournisseur intersociétés
@@ -81,7 +84,7 @@ USSI, l’entité juridique prêteuse, doit créer et valider la facture fournis
 
 | Etape | Point d'entrée                                                                                      | description ;                                                                                                                                                                                                                                                                          |
 |------|--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A    | ** Achats ** &gt; ** factures ** &gt; ** factures fournisseur en cours ** &gt; ** nouvelle facture fournisseur ** | Créez une facture fournisseur et entrez les services qui ont été achetés au nom du projet du FRSI.                                                                                                                                                                                  |
+| A    | **Comptabilité fournisseur** &gt; **Factures** &gt; **Factures fournisseur en cours** &gt; **Nouvelle facture fournisseur** | Créez une facture fournisseur et entrez les services qui ont été achetés au nom du projet du FRSI.                                                                                                                                                                                  |
 | G    | Page **Facture fournisseur**                                                                      | Permet d’entrer des lignes qui représentent les services externalisés au nom de FRSI. Sur l'organisateur **Détails de ligne**, sur l'onglet **Projet** pour la ligne de facture, dans le champ **Société du projet**, saisissez **FRSI**. Entrez le projet et les informations correspondantes. Puis validez la facture fournisseur. |
 
 ## <a name="example-4-create-and-post-the-intercompany-invoice"></a>Exemple 4 : Créer et valider la facture intersociétés
@@ -89,9 +92,9 @@ USSI, l’entité juridique prêteuse, doit créer et valider la facture interso
 
 | Etape | Point d'entrée                                                                                             | description ;                                                                                                                                      |
 |------|---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| A    | ** Gestion de projets et comptabilité ** &gt; ** factures de projet ** &gt; ** facture client intersociétés **  | Cliquez sur **Nouveau** pour ouvrir la page **Créer une facture intersociétés**.                                                                                  |
-| B    | ** Gestion de projets et comptabilité ** &gt; ** factures de projet ** &gt; ** factures client intersociétés ** | Sur la page **Créer une facture intersociétés**, entrez l’entité juridique, spécifiez la transaction qui doit être incluse, puis cliquez sur **Rechercher**. |
-| C    | ** Gestion de projets et comptabilité ** &gt; ** factures de projet ** &gt; ** factures client intersociétés ** | Sélectionnez les transactions à facturer, ou cliquez sur **Sélectionner tout** pour facturer toutes les transactions dans la liste, puis cliquez sur **OK**.                  |
+| A    | **Gestion et comptabilité des projets** &gt; **Factures de projets** &gt; **Facture client intersociétés**  | Cliquez sur **Nouveau** pour ouvrir la page **Créer une facture intersociétés**.                                                                                  |
+| B    | **Gestion et comptabilité des projets** &gt; **Factures de projets** &gt; **Factures client intersociétés** | Sur la page **Créer une facture intersociétés**, entrez l’entité juridique, spécifiez la transaction qui doit être incluse, puis cliquez sur **Rechercher**. |
+| C    | **Gestion et comptabilité des projets** &gt; **Factures de projets** &gt; **Factures client intersociétés** | Sélectionnez les transactions à facturer, ou cliquez sur **Sélectionner tout** pour facturer toutes les transactions dans la liste, puis cliquez sur **OK**.                  |
 | D    | Page **Facture intersociétés**                                                                       | La proposition de facture client intersociétés est affichée.                                                                                             |
 | E    | Page **Facture intersociétés**                                                                       | Cliquez sur **Valider**.                                                                                                                                  |
 
@@ -100,9 +103,11 @@ Lorsque l’entité juridique prêteuse, USSI, enregistre la facture client inte
 
 | Etape | Point d'entrée                                                                                        | description ;                                                                                                             |
 |------|----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
-| A    | ** Achats ** &gt; ** factures ** &gt; ** Factures fournisseur **                            | Vérifiez la facture pour vous assurer que les valeurs de la feuille de temps sont incluses, puis validez la facture fournisseur.                  |
-| B    | ** Gestion de projets et comptabilité ** &gt; ** factures de projet ** &gt; ** propositions de facture de projet ** | Créez une facture de projet pour le projet et vérifiez que les transactions horaires validées apparaissent.            |
+| A    | **Comptabilité fournisseur** &gt; **Factures** &gt; **Factures fournisseur en attente**                            | Vérifiez la facture pour vous assurer que les valeurs de la feuille de temps sont incluses, puis validez la facture fournisseur.                  |
+| B    | **Gestion et comptabilité des projets** &gt; **Factures de projets** &gt; **Propositions de facture du projet** | Créez une facture de projet pour le projet et vérifiez que les transactions horaires validées apparaissent.            |
 | C    | Page **Facture du projet**                                                                       | Sélectionnez la facture de projet, puis cliquez sur **Afficher les détails** pour examiner le coût et le montant des ventes. Puis validez la facture. |
+
+
 
 
 

@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="transportation-management-engines"></a>Moteurs de gestion de transport
 
+[!include[banner](../includes/banner.md)]
+
+
 Les moteurs de gestion de transport définissent la logique utilisée pour générer et traiter les frais de transport dans Gestion du transport. 
 
 Le moteur de gestion de transport calcule des tâches, comme les frais de transport du transporteur. Il permet de modifier les stratégies de calcul au moment de l'exécution, en fonction des données dans Microsoft Dynamics 365 for Operations. Un moteur de gestion de transport ressemble à un plug-in associé à un contrat de transporteur particulier.
@@ -58,7 +61,7 @@ Un moteur de gestion de transport requiert le paramétrage de données d'initial
 Dans la plupart des cas, vous pouvez cliquer sur le bouton **Paramètres** dans les écrans de paramétrage du moteur de gestion du transport pour configurer les données d'initialisation. **Exemple de configuration d'un moteur de frais faisant référence à un moteur de kilométrage** L'exemple suivant présente le paramétrage requis pour un moteur de frais basé sur le type de moteur .NET Microsoft.Dynamics.Ax.Tms.Bll.MileageRateEngine et référence un moteur de kilométrage.
 | Paramètre             | Description                                                                                                                                                                                                                                                                                                                                                                      |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *RateBaseAssigner*    | Type .NET qui interprète les données d'affectation de base des frais pour un schéma particulier. La syntaxe de la valeur de paramètre consiste en deux segments délimités par une barre verticale (|). Le premier segment contient le nom de l'assembly qui définit le type d'assignateur. Le second segment définit le nom complet du type d'assignateur. Cela inclut l'espace de noms du type. |
+| *RateBaseAssigner*    | Type .NET qui interprète les données d'affectation de base des frais pour un schéma particulier. La syntaxe de la valeur de paramètre est composée de deux segments délimités par une barre verticale (|). Le premier segment contient le nom de l'assembly qui définit le type d'assignateur. Le second segment définit le nom complet du type d'assignateur. Cela inclut l'espace de noms du type. |
 | *MileageEngineCode*   | Code de moteur de kilométrage qui identifie l'enregistrement du moteur de kilométrage dans la base de données Microsoft Dynamics 365 for Operations.                                                                                                                                                                                                                                                             |
 | *ApportionmentEngine* | Code de moteur générique qui identifie le moteur de répartition dans la base de données Microsoft Dynamics 365 for Operations.                                                                                                                                                                                                                                                              |
 
@@ -87,7 +90,7 @@ Les métadonnées des moteurs de gestion de transport sont configurées différe
 | **Moteur de temps de transit** et **Moteur de kilométrage** | Récupère les métadonnées directement depuis l'écran paramétrage de la configuration du moteur de kilométrage.                                                                                                                                                                                                                                                                                                                                                                                  |
 
   **Exemple de métadonnées pour un moteur de frais** Le moteur de gestion du transport nécessite l'identification de l'adresse d'origine, l'état et le pays/la région de destination et les points de départ et d'arrivée de l'expédition. Selon ces exigences, les métadonnées ressemblent aux données du tableau suivant. Le tableau répertorie également des informations sur le type de données d'entrée obligatoire.
--   Définissez ce paramétrage de les informations de ** gestion de transport &gt; ** ** ** sur ** estimez le type de base ** la page.
+-   Définissez ces informations dans **Gestion du transport** &gt; **Paramétrage** de la page **Type de base de taux**.
 
 | Ordre | Nom                          | Type de champ | Type de données | Type de recherche    | Obligatoire |
 |----------|-------------------------------|------------|-----------|----------------|-----------|
@@ -96,6 +99,8 @@ Les métadonnées des moteurs de gestion de transport sont configurées différe
 | 3        | Code postal du point de départ | Affectation | Chaîne    | Code postal    | Sélectionné  |
 | 4        | Code postal du point d'arrivée   | Affectation | Chaîne    | Code postal    | Sélectionné  |
 | 5        | Pays de destination           | Affectation | Chaîne    | Pays/Région |           |
+
+
 
 
 

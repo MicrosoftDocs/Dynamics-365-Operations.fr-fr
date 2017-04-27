@@ -1,5 +1,5 @@
 ---
-title: "Valeurs par défaut de l&quot;ordre de fabrication dans le module Contrôle et suivi de la production"
+title: "Valeurs par défaut de l&quot;ordre de fabrication dans le module"
 description: 
 author: YuyuScheller
 manager: AnnBe
@@ -27,11 +27,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="production-order-defaults-in-manufacturing-execution"></a>Valeurs par défaut de l'ordre de fabrication dans le module Contrôle et suivi de la production
+# <a name="production-order-defaults-in-manufacturing-execution"></a>Valeurs par défaut de l'ordre de fabrication dans le module
+
+[!include[banner](../includes/banner.md)]
 
 
 
-Vous devez examiner attentivement tous les paramètres sous ** des valeurs par défaut de l'ordre de fabrication ** la page avant le début de travailleurs d'effectuer des enregistrements sur des tâches de production. Si votre société utilise la fonctionnalité multisite, vous pouvez paramétrer des valeurs par défaut pour les ordres de fabrication pour chaque site. Les valeurs de commande par défaut pour l'intégration avec le contrôle de la production sont paramétrées dans les onglets suivants sur la page **Valeurs par défaut de l'ordre de fabrication** :
+
+Vous devez tenir compte soigneusement de tous les paramètres sur la page **Valeurs par défaut de l'ordre de fabrication** avant que les collaborateurs commencent à faire des enregistrements sur les tâches de production. Si votre société utilise la fonctionnalité multisite, vous souhaitez peut-être paramétrer différentes valeurs par défaut pour les ordres de fabrication pour chaque site. Les valeurs de commande par défaut pour l'intégration avec le contrôle de la production sont paramétrées dans les onglets suivants sur la page **Valeurs par défaut de l'ordre de fabrication** :
 
 -   **Général** – Valeurs générales par défaut de commande pour les tâches de production dans le module Contrôle et suivi de la production.
 -   **Début** – Valeurs de commande par défaut utilisées lorsque les tâches de production ou les opérations sont démarrées.
@@ -68,6 +71,8 @@ La consommation de matières lors du processus Déclarer terminé pour un ordre 
 -   **Principe d'effacement** – Lorsqu'un ordre de fabrication est déclaré terminé, les quantités de matières seront consommées selon le principe d'effacement défini dans les lignes de la nomenclature de production. Seules les lignes de matière auxquelles le principe d'effacement est défini sur **Fin** seront consommées au début de la production.
 -   **Toujours** – Les quantités de matières qui sont proportionnelles à la quantité signalée comme terminée seront toujours consommées.
 -   **Jamais** – Les quantités de matières ne seront jamais consommées.
+
+
 
 
 

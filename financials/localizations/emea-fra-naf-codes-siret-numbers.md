@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="naf-codes-and-siret-numbers"></a>Codes NAF et numéros Siret
 
+[!include[banner](../includes/banner.md)]
+
+
 Cette rubrique explique l'objectif et l'utilisation des codes de Nomenclature des Activités Françaises (NAF) et des numéros SIRET dans Microsoft Dynamics AX.
 
 <a name="naf-codes"></a>Codes NAF
@@ -36,5 +39,7 @@ Vous pouvez créer des codes NAF, puis paramétrer les codes NAF des entités ju
 
 ## <a name="siret-numbers"></a>Numéros Siret
 Vous pouvez paramétrer des numéros Siret pour les clients, les fournisseurs et les prospects. Le Siret est un nombre à 14 chiffres qui identifie une entreprise, une branche de cette entreprise et une personne associée aux activités de l'entreprise. Ce numéro permet de vérifier qu'une entreprise est correctement enregistrée et autorisée à exercer ce type d'activité. Si une entreprise travaille dans plusieurs branches à divers endroits, vous devez paramétrer un numéro Siret pour chaque endroit.
+
+
 
 

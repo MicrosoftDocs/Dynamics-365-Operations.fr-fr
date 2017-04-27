@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="posting-definitions-in-the-public-sector"></a>Définitions de validation dans le secteur public
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article fournit des exemples de définitions de validation dans le secteur public qui vous permettent de créer les lignes du journal de comptabilité auxiliaire pour les transactions d'origine correspondant aux critères sélectionnés. Ces exemples incluent des affectations budgétaires, des réglementations en espèces regroupés, des radiations, des règlements de contre remboursement, des écritures comptables avancées, une clôture de fin d'exercice de comptabilité et des fonds propriétaires.
 
 Cet article décrit la fonctionnalité de définitions de validation pour le secteur public. Avant de lire cette rubrique, vous devez être familiarisé avec les définitions de validation.
@@ -44,7 +47,7 @@ Vous pouvez paramétrer les exemples de cet article sur la page **Définitions d
 Dans la zone **Critère de rapprochement**, lorsqu'une correspondance existe entre les comptes et les valeurs de dimension dans le pour la définition de validation, ainsi qu'entre les comptes et les valeurs de dimension de la transaction, les écritures comptables sont générées. Ces entrées sont basée sur les **entrées générées** pour la définition de validation. 
 
 > [!NOTE]
-> Pour associer une définition de validation avec un type de transaction spécifique, utilisez ** des définitions de validation des transactions ** la page. Après avoir associé une définition de validation à un type de transaction et sélectionné la règle comptable **Utiliser les définitions de validation** sur la page **Paramètres de comptabilité**, toutes les transactions du type sélectionné doivent utiliser les définitions de validation.
+> Pour associer une définition de validation à un type de transaction spécifique, utilisez la page **Définitions de validation de transaction**. Après avoir associé une définition de validation à un type de transaction et sélectionné la règle comptable **Utiliser les définitions de validation** sur la page **Paramètres de comptabilité**, toutes les transactions du type sélectionné doivent utiliser les définitions de validation.
 
 ## <a name="example-budget-appropriations"></a>Exemple : affectations du budget
 Pour les organisations du secteur public, les soldes budgétaires d'origine sont enregistrés en tant qu'affectations pour les dépenses ou produits estimés. Ils sont utilisés pour suivre les soldes budgétaires disponibles par rapport aux dépenses et aux produits réels collectés.
@@ -55,7 +58,7 @@ Une définition de validation est créée pour prendre en charge l'enregistremen
 |-------------------|------------------------|----------|
 | Frais           | - - -                  | 1        |
 
-la valeur vide\*Au dans ** numéro de compte de correspondance ** le champ signifie que tous les comptes correspondants dans la structure de compte définie appartiennent à la règle correspondante.
+\*Une valeur vide dans le champ **Numéro de compte de rapprochement** signifie que tous les comptes correspondants de la structure de compte définie appartiennent à la règle de rapprochement.
 
 ### <a name="posting-definition--generated-entries-for-match-criteria--row-1"></a>Définition de validation – Entrées générées pour les critères de rapprochement – Ligne 1
 
@@ -70,7 +73,7 @@ la valeur vide\*Au dans ** numéro de compte de correspondance ** le champ signi
 |-------------------|------------------------|----------|
 | Produit           | - - -                  | 1        |
 
-la valeur vide\*Au dans ** numéro de compte de correspondance ** le champ signifie que tous les comptes correspondants dans la structure de compte définie appartiennent à la règle correspondante.
+\*Une valeur vide dans le champ **Numéro de compte de rapprochement** signifie que tous les comptes correspondants de la structure de compte définie appartiennent à la règle de rapprochement.
 
 ### <a name="posting-definition--generated-entries-for-match-criteria--row-2"></a>Définition de validation – Entrées générées pour les critères de rapprochement – Ligne 2
 
@@ -102,7 +105,7 @@ Dans cet exemple, les dimensions de fonds et les parties de compte de la structu
 La comptabilité avec disponibilités regroupées est composée des montants déposés par différents fonds dans un compte général combiné. Cela permet d'améliorer le contrôle et la conservation des liquidités et encourage la gestion efficace des fonds excessifs. Ces montants peuvent être gérés à l'aide du fonds du trésorier. Par conséquent, le montant proportionnel approprié des disponibilités regroupées et des soldes d'investissement doit être déclaré pour chaque fonds participant au regroupement. Pour garantir cela, les écritures d'échéance appropriées doivent être ajoutées aux règlements qui transfèrent des montants d'un fonds vers un autre pour réaliser le règlement. 
 
 > [!NOTE] 
-> Aucun message d'erreur n'est affichée si une définition de validation des règlements n'est pas spécifiée ou les critères de correspondance dans la définition de validation n'est pas disponible. Les installations qui n'utilisent pas les règlements en espèces regroupés ou qui ne nécessitent pas d'écriture d'équilibrage sur le n° document du règlement ne doivent pas établir de définitions de validation pour les règlements lorsque des définitions de validation sont activées pour les autres transactions. 
+> Aucun message d'erreur n'est affiché si aucune définition de validation n'est indiquée pour les règlements ou que les critères de rapprochement de la définition de validation ne sont pas disponibles. Les installations qui n'utilisent pas les règlements en espèces regroupés ou qui ne nécessitent pas d'écriture d'équilibrage sur le n° document du règlement ne doivent pas établir de définitions de validation pour les règlements lorsque des définitions de validation sont activées pour les autres transactions. 
 
 Pour les règlements de comptabilité fournisseur, les achats fournisseur à payer dans un ou plusieurs fonds sont utilisés pour enregistrer les transactions de capitaux propres du fonds appropriées dans le fonds du trésorier. Pour les règlements de comptabilité client, le crédit client découlant des paiements effectués dans le fonds du trésorier permet de régler les ventes dans un ou plusieurs fonds. Les entrées de validation du solde fournisseur ou du solde client pour les transactions qui sont en cours de règlement sont automatiquement contrepassées. L'utilisation de définitions de validation pour le règlement est facultative. Les définitions de validation sont appliquées au moment du règlement afin de générer les écritures comptables supplémentaires pour les écritures d'échéance pour équilibrer le n° document de règlement par fonds. 
 
@@ -115,7 +118,7 @@ Vous pouvez utiliser les définitions de validation pour les types de transactio
 Pour paramétrer les définitions de validation pour les journaux des paiements fournisseur, les billets à ordre et les journaux des paiements client, sur la page **Définitions de validation**, dans le champ **Module**, sélectionnez **Banque**. Puis, sur la page **Définitions de validation de transaction**, sous l'onglet **Banque**, vous pouvez sélectionner les types de transaction appropriés à associer aux définitions de validation.
 
 > [!NOTE] 
-> Une définition de validation individuel, si elle est largement définie, peut être utilisée pour la plupart de fournisseur, et scénarios de règlement client. La définition de validation unique doit tout de même être associée à des journaux de paiement fournisseur et client sous l'onglet **Banque**. 
+> Une définition de validation unique, si elle est définie de façon large, peut être utilisée pour la plupart des scénarios de règlement fournisseur et client. La définition de validation unique doit tout de même être associée à des journaux de paiement fournisseur et client sous l'onglet **Banque**. 
 
 Vous pouvez spécifier une définition de validation différente pour une banque et un mode de paiement spécifiques pour les journaux de paiements fournisseur et client. 
 
@@ -140,7 +143,7 @@ Vous pouvez spécifier un compte « date de fin de l'échéance » unique dans l
 |-------------------|----------------------------------------|----------|
 | Bilan           | 999 – Spécifiez une écriture de correspondance à priorité plus élevée pour le fonds du trésorier afin qu'aucune écriture d'équilibrage ne soit générée pour ce fonds. | 1        |
 
-la valeur vide\*Au dans ** numéro de compte de correspondance ** le champ signifie que tous les comptes correspondants dans la structure de compte définie appartiennent à la règle correspondante.
+\*Une valeur vide dans le champ **Numéro de compte de rapprochement** signifie que tous les comptes correspondants de la structure de compte définie appartiennent à la règle de rapprochement.
 
 #### <a name="settlement-posting-definition--generated-entries-for-match-criteria"></a>Définition de validation de règlement – Entrées générées pour les critères de rapprochement
 
@@ -154,7 +157,7 @@ la valeur vide\*Au dans ** numéro de compte de correspondance ** le champ signi
 |-------------------|---------------------------------------------------------------------------------------------|----------|
 | Bilan           | Utilisez une écriture de correspondance globale d'une priorité plus basse pour créer des écritures d'équilibrage pour tous les autres fonds. | 10       |
 
-la valeur vide\*Au dans ** numéro de compte de correspondance ** le champ signifie que tous les comptes correspondants dans la structure de compte définie appartiennent à la règle correspondante.
+\*Une valeur vide dans le champ **Numéro de compte de rapprochement** signifie que tous les comptes correspondants de la structure de compte définie appartiennent à la règle de rapprochement.
 
 #### <a name="settlement-posting-definition--generated-entries-for-match-criteria"></a>Définition de validation de règlement – Entrées générées pour les critères de rapprochement
 
@@ -173,7 +176,7 @@ Vous pouvez spécifier un autre compte « date de fin de l'échéance » dans le
 |-------------------|---------------------------------------------------------------------------------------------------------------------------------------|----------|
 | Bilan           | 101 – Si vous utilisez une valeur de fonds et un compte principal vide, le critère de correspondance s'applique aux montants à recevoir et à payer. | 1        |
 
-la valeur vide\*Au dans ** numéro de compte de correspondance ** le champ signifie que tous les comptes correspondants dans la structure de compte définie appartiennent à la règle correspondante.
+\*Une valeur vide dans le champ **Numéro de compte de rapprochement** signifie que tous les comptes correspondants de la structure de compte définie appartiennent à la règle de rapprochement.
 
 #### <a name="settlement-posting-definition--generated-entries-for-match-criteria"></a>Définition de validation de règlement – Entrées générées pour les critères de rapprochement
 
@@ -271,7 +274,7 @@ En sus de l'exemple exposé plus haut dans cette section, les définitions de va
 -   Annulations de comptabilité client
 -   Règlements en contre remboursement de facture financière de comptabilité client (paiement en espèces)
 
-Les annulations de comptabilité client peuvent utiliser les définitions de validation définies pour le règlement. Par conséquent, le N° document de journal de comptabilité peut être généré si des soldes sont validés par fonds. Les entrées des types compte général et compte client des lignes de journal sont évaluées par rapport à la définition de validation pour le règlement. Les deux utilisent la définition de validation affectée au type de transaction sous l'onglet **Comptabilité client** de la page **Définitions de validation de transaction**. Selon la façon dont l'annulation est conçue pour être exécutée, la définition de validation pour le règlement peut nécessiter des critères de rapprochement supplémentaires. 
+Les annulations de comptabilité client peuvent utiliser les définitions de validation définies pour le règlement. Par conséquent, le N° document de journal de crédit de comptabilité peut être généré lorsque les soldes sont validés par les fonds. Les entrées des types compte général et compte client des lignes de journal sont évaluées par rapport à la définition de validation pour le règlement. Les deux utilisent la définition de validation affectée au type de transaction sous l'onglet **Comptabilité client** de la page **Définitions de validation de transaction**. Selon la façon dont l'annulation est conçue pour être exécutée, la définition de validation pour le règlement peut nécessiter des critères de rapprochement supplémentaires. 
 
 Lorsque la définition de validation d'annulation est paramétrée pour annuler les soldes sur une provision pour le compte d'actifs de créances douteuses, la définition de validation pour le règlement peut également être utilisée pour les annulations si le critère de rapprochement est déjà défini pour les comptes de bilan ayant un masque pour le compte principal. (Pour plus d'informations, voir les exemples précédents, notamment la section « Définition de validation de règlement - Critères de rapprochement ».) 
 
@@ -283,16 +286,16 @@ Lorsque la définition de validation d'annulation est paramétrée pour contrepa
 |-------------------|---------------------------------------------------------------------------|----------|
 | Produit           | 101 – Si vous utilisez une valeur de fonds et un compte principal vide, le critère est applicable à toutes les écritures comptables. | 1        |
 
-la valeur vide\*Au dans ** numéro de compte de correspondance ** le champ signifie que tous les comptes correspondants dans la structure de compte définie appartiennent à la règle correspondante.
+\*Une valeur vide dans le champ **Numéro de compte de rapprochement** signifie que tous les comptes correspondants de la structure de compte définie appartiennent à la règle de rapprochement.
 
 ### <a name="posting-definition--generated-entries-for-match-criteria"></a>Définition de validation – Entrées générées pour les critères de rapprochement
 
 | Structure de compte | Numéro de compte généré                                                           | Débit/crédit généré |
 |-------------------|------------------------------------------------------------------------------------|------------------------|
 | Solde           | 101 - 10110 (Compte de capitaux propres du fonds 101)                                           | Balancement              |
-| Idem              | 999 - 37101 (le fonds du trésorier – Compte de fonds de capitaux propres pour le fonds 101. Un seul compte peut être utilisé à la place de différents comptes de capitaux propres de fonds.) | Idem                   |
+| Idem              | 999 - 37101 (Fonds du trésorier – Compte de fonds capitaux propres pour le fonds 101. Un seul compte peut être utilisé à la place des comptes de capitaux propres de fonds individuels) | Idem                   |
 
-## <a name="accounts-receivable-writeoff-example"></a>Exemple de radiation de Ventes
+## <a name="accounts-receivable-writeoff-example"></a>Exemple d'annulation de comptabilité client
 ### <a name="accounts-receivable-invoice-voucher"></a>N° document de facture de comptabilité client
 
 | Compte + Dimensions | Débit  | Crédit | Commentaire             |
@@ -343,7 +346,7 @@ Ensuite, dans la définition de validation, entrez les critères de rapprochemen
 |-------------------|-----------------------------------------------------------------|------------------------|
 | Bilan           | 999 – Ce critère de rapprochement est uniquement utilisé pour les ventes dans le fonds du trésorier (999). Seules deux entrées générées sont exigées pour ce critère de rapprochement, car les entrées d'échéance ne s'appliquent pas au fonds du trésorier. | 1                      |
 
-la valeur vide\*Au dans ** numéro de compte de correspondance ** le champ signifie que tous les comptes correspondants dans la structure de compte définie appartiennent à la règle correspondante.
+\*Une valeur vide dans le champ **Numéro de compte de rapprochement** signifie que tous les comptes correspondants de la structure de compte définie appartiennent à la règle de rapprochement.
 
 ### <a name="posting-definition--generated-entries-for-match-criteria--row-1"></a>Définition de validation – Entrées générées pour les critères de rapprochement – Ligne 1
 
@@ -358,7 +361,7 @@ la valeur vide\*Au dans ** numéro de compte de correspondance ** le champ signi
 |-------------------|-----------------------------------------------------------------------|----------|
 | Bilan           | 101 – Pour les critères de correspondance n'appartenant pas au fonds du trésorier, quatre ensembles d'entrées générées sont exigées. Deux entrées contrepassent les entrées du type de validation du solde client sur le crédit et la facture, et deux entrées supplémentaires génèrent les entrées d'échéance exigées. | 1        |
 
-la valeur vide\*Au dans ** numéro de compte de correspondance ** le champ signifie que tous les comptes correspondants dans la structure de compte définie appartiennent à la règle correspondante.
+\*Une valeur vide dans le champ **Numéro de compte de rapprochement** signifie que tous les comptes correspondants de la structure de compte définie appartiennent à la règle de rapprochement.
 
 ### <a name="posting-definition--generated-entries-for-match-criteria--row-2"></a>Définition de validation – Entrées générées pour les critères de rapprochement – Ligne 2
 
@@ -367,9 +370,9 @@ la valeur vide\*Au dans ** numéro de compte de correspondance ** le champ signi
 | Solde           | 999 - 11530 (Débite l'entrée de type validation du solde client sur le crédit qui est émis.)  | Balancement              |
 | Idem              | 999 - (Crédite les ventes dans le fonds 101.)                         | Idem                   |
 | Solde           | 101 - 10110 (Compte de capitaux propres du fonds 101)                           | Balancement              |
-| Idem              | 999 - 37101 (le fonds du trésorier – Compte de fonds de capitaux propres pour le fonds 101. Un seul compte peut être utilisé à la place de différents comptes de capitaux propres de fonds.) | Idem                   |
+| Idem              | 999 - 37101 (Fonds du trésorier – Compte de fonds capitaux propres pour le fonds 101. Un seul compte peut être utilisé à la place des comptes de capitaux propres de fonds individuels) | Idem                   |
 
-## <a name="accounts-receivable-cashondelivery-cash-payment-settlement-example"></a>Exemple de règlement de cashondelivery Ventes (paiement au comptant)
+## <a name="accounts-receivable-cashondelivery-cash-payment-settlement-example"></a>Exemple de règlement en contre remboursement de comptabilité client (paiement en espèces)
 ### <a name="accounts-receivable-invoice-voucher"></a>N° document de facture de comptabilité client
 
 | Compte + Dimensions | Débit  | Crédit | Commentaire                          |
@@ -411,7 +414,7 @@ Le tableau suivant indique comment les comptes généraux finaux sont affectés.
 ## <a name="example-advanced-ledger-entries"></a>Exemple : Écritures comptables avancées
 Lorsque vous créez des écritures comptables avancées, vous devez sélectionner une définition de validation par défaut. Ensuite, pour chaque ligne d'écriture comptable avancée, vous pouvez soit utiliser la définition de validation par défaut, soit en sélectionner une autre. Les définitions de validation génèrent les répartitions comptables et les écritures de journal de comptabilité auxiliaire qui créent, ajustent ou contrepassent les écritures comptables et mettent à jour les comptes généraux. Vous paramétrez chaque définition de validation pour l'application Comptabilité. Toutefois, vous n'associez pas la définition de validation avec un type de transaction, comme vous le faites pour les autres définitions de validation. Au lieu de cela, vous sélectionnez la définition de validation dans l'écriture comptable avancée. 
 
-Dans ce scénario, la facture Achats\_0949 Achats a été de manière erronée validée aux fonds 300-12300-51002 d'amélioration du capital plutôt que des fonds généraux 100-39810-51001. L'exemple suivant montre comment une écriture comptable avancée peut utiliser une définition de validation pour débiter le fonds d'amélioration du capital et créditer le fonds général.
+Ici, la facture AP\_0949 de la comptabilité fournisseur a été validée par erreur sur le fonds d'amélioration du capital 300-12300-51002 plutôt que sur le fonds général 100-39810-51001. L'exemple suivant montre comment une écriture comptable avancée peut utiliser une définition de validation pour débiter le fonds d'amélioration du capital et créditer le fonds général.
 
 ### <a name="posting-definition--match-criteria--row-1"></a>Définition de validation – Critères de rapprochement – Ligne 1
 
@@ -419,7 +422,7 @@ Dans ce scénario, la facture Achats\_0949 Achats a été de manière erronée v
 |-------------------|------------------------|----------|
 | Bilan           | 300- -                 | 1        |
 
-la valeur vide\*Au dans ** numéro de compte de correspondance ** le champ signifie que tous les comptes correspondants dans la structure de compte définie appartiennent à la règle correspondante.
+\*Une valeur vide dans le champ **Numéro de compte de rapprochement** signifie que tous les comptes correspondants de la structure de compte définie appartiennent à la règle de rapprochement.
 
 ### <a name="posting-definition--generated-entries-for-match-criteria--row-1"></a>Définition de validation – Entrées générées pour les critères de rapprochement – Ligne 1
 
@@ -435,7 +438,7 @@ la valeur vide\*Au dans ** numéro de compte de correspondance ** le champ signi
 |-------------------|------------------------|----------|
 | Bilan           | 100 - -                | 1        |
 
-la valeur vide\*Au dans ** numéro de compte de correspondance ** le champ signifie que tous les comptes correspondants dans la structure de compte définie appartiennent à la règle correspondante.
+\*Une valeur vide dans le champ **Numéro de compte de rapprochement** signifie que tous les comptes correspondants de la structure de compte définie appartiennent à la règle de rapprochement.
 
 ### <a name="posting-definition--generated-entries-for-match-criteria--row-2"></a>Définition de validation – Entrées générées pour les critères de rapprochement – Ligne 2
 
@@ -467,7 +470,7 @@ la valeur vide\*Au dans ** numéro de compte de correspondance ** le champ signi
 Les organisations utilisent les définitions de validation dans le cadre de la clôture de fin d'exercice des comptes généraux. Les définitions de validation permettent de clôturer les comptes pour les soldes de fonds ou les bénéfices non répartis, selon l'attribut de la classe (dimension) Fonds et l'attribut de type Clôture du compte. Les définitions de validation sont requises pour clôturer les comptes généraux et transférer les soldes vers la période d'ouverture du nouvel exercice. 
 
 > [!NOTE]
-> Pour utiliser les définitions de validation pour la clôture de fin d'exercice et l'ouverture, vous devez effectuer les tâches de paramétrage suivantes :
+> Pour utiliser les définitions de validation pour la clôture et l'ouverture de fin d'exercice, vous devez effectuer les tâches de paramétrage suivantes :
 
 -   Sur la page **Paramètres de comptabilité**, dans la section **Comptabilité**, dans l'organisateur **Clôture d'exercice**, sélectionnez l'option **Créer des transactions de clôture lors du transfert**.
 -   Sur la page **Comptes principaux - plan de comptes : %1**, créez un compte de clôture.
@@ -482,7 +485,7 @@ Les exemples suivants de définition de validation indiquent la clôture de fin 
 |-------------------|------------------------|----------|
 | Frais           | - - -                  | 1        |
 
-la valeur vide\*Au dans ** numéro de compte de correspondance ** le champ signifie que tous les comptes correspondants dans la structure de compte définie appartiennent à la règle correspondante.
+\*Une valeur vide dans le champ **Numéro de compte de rapprochement** signifie que tous les comptes correspondants de la structure de compte définie appartiennent à la règle de rapprochement.
 
 #### <a name="governmental-funds--posting-definition--generated-entries-for-match-criteria--row-1"></a>Fonds gouvernemental – Définition de validation – Entrées générées pour les critères de rapprochement – Ligne 1
 
@@ -496,7 +499,7 @@ la valeur vide\*Au dans ** numéro de compte de correspondance ** le champ signi
 |-------------------|------------------------|----------|
 | Frais           | - - -                  | 1        |
 
-la valeur vide\*Au dans ** numéro de compte de correspondance ** le champ signifie que tous les comptes correspondants dans la structure de compte définie appartiennent à la règle correspondante.
+\*Une valeur vide dans le champ **Numéro de compte de rapprochement** signifie que tous les comptes correspondants de la structure de compte définie appartiennent à la règle de rapprochement.
 
 #### <a name="governmental-funds--posting-definition--generated-entries-for-match-criteria--row-2"></a>Fonds gouvernemental – Définition de validation – Entrées générées pour les critères de rapprochement – Ligne 2
 
@@ -510,7 +513,7 @@ la valeur vide\*Au dans ** numéro de compte de correspondance ** le champ signi
 |-------------------|------------------------|----------|
 | Produit           | - - -                  | 1        |
 
-la valeur vide\*Au dans ** numéro de compte de correspondance ** le champ signifie que tous les comptes correspondants dans la structure de compte définie appartiennent à la règle correspondante.
+\*Une valeur vide dans le champ **Numéro de compte de rapprochement** signifie que tous les comptes correspondants de la structure de compte définie appartiennent à la règle de rapprochement.
 
 #### <a name="governmental-funds--posting-definition--generated-entries-for-match-criteria--row-3"></a>Fonds gouvernemental – Définition de validation – Entrées générées pour les critères de rapprochement – Ligne 3
 
@@ -549,7 +552,7 @@ La définition de validation recherche un rapprochement avec toute partie du com
 |-------------------|------------------------|----------|
 | Bilan           | - - -                  | 1        |
 
-la valeur vide\*Au dans ** numéro de compte de correspondance ** le champ signifie que tous les comptes correspondants dans la structure de compte définie appartiennent à la règle correspondante.
+\*Une valeur vide dans le champ **Numéro de compte de rapprochement** signifie que tous les comptes correspondants de la structure de compte définie appartiennent à la règle de rapprochement.
 
 #### <a name="proprietary-funds--posting-definition--generated-entries-for-match-criteria--row-1"></a>Fonds propriétaire – Définition de validation – Entrées générées pour les critères de rapprochement – Ligne 1
 
@@ -563,7 +566,7 @@ la valeur vide\*Au dans ** numéro de compte de correspondance ** le champ signi
 |-------------------|------------------------|----------|
 | Frais           | - - -                  | 1        |
 
-la valeur vide\*Au dans ** numéro de compte de correspondance ** le champ signifie que tous les comptes correspondants dans la structure de compte définie appartiennent à la règle correspondante.
+\*Une valeur vide dans le champ **Numéro de compte de rapprochement** signifie que tous les comptes correspondants de la structure de compte définie appartiennent à la règle de rapprochement.
 
 #### <a name="proprietary-funds--posting-definition--generated-entries-for-match-criteria--row-2"></a>Fonds propriétaire – Définition de validation – Entrées générées pour les critères de rapprochement – Ligne 2
 
@@ -577,7 +580,7 @@ la valeur vide\*Au dans ** numéro de compte de correspondance ** le champ signi
 |-------------------|------------------------|----------|
 | Produit           | - - -                  | 1        |
 
-la valeur vide\*Au dans ** numéro de compte de correspondance ** le champ signifie que tous les comptes correspondants dans la structure de compte définie appartiennent à la règle correspondante.
+\*Une valeur vide dans le champ **Numéro de compte de rapprochement** signifie que tous les comptes correspondants de la structure de compte définie appartiennent à la règle de rapprochement.
 
 #### <a name="proprietary-funds--posting-definition--generated-entries-for-match-criteria--row-3"></a>Fonds propriétaire – Définition de validation – Entrées générées pour les critères de rapprochement – Ligne 3
 
@@ -611,14 +614,16 @@ La définition de validation recherche un rapprochement avec toute partie du com
 <a name="see-also"></a>Voir également :
 --------
 
-[Accounts payable](../accounts-payable/accounts-payable.md)
+[Comptabilité fournisseur](../accounts-payable/accounts-payable.md)
 
 [Comptabilité fournisseur dans le secteur public](accounts-payable-public-sector.md)
 
-[Accounts receivable in the public sector](accounts-receivable-public-sector.md)
+[Comptabilité client dans le secteur public](accounts-receivable-public-sector.md)
 
 [Budgétisation dans le secteur public](budgeting-public-sector.md)
 
-[General ledger in the public sector](general-ledger-public-sector.md)
+[Comptabilité dans le secteur public](general-ledger-public-sector.md)
+
+
 
 

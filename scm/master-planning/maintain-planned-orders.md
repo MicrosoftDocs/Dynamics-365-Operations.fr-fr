@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="maintain-planned-orders"></a>Tenir à jour les ordres prévisionnels
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article fournit des informations sur la gestion des ordres prévisionnels. Il décrit la manière dont vous pouvez mettre à jour le statut des ordres prévisionnels, les confirmer et filtrer les ordres prévisionnels ayant le même statut qu'un ordre prévisionnel sélectionné.
 
 Vous pouvez gérer les ordres prévisionnels à partir de l'espace de travail **Planification**, de la liste **Ordre prévisionnel** ou des listes **Ordres de fabrication prévisionnels**, **Commandes fournisseur prévisionnelles** et **Transfert prévisionnel**. Vous pouvez utiliser le champ **Statut** pour aider à suivre la progression. Les valeurs suivantes sont utilisées :
@@ -48,6 +51,8 @@ Après confirmation, l'ordre prévisionnel est déplacé vers la section Command
 <a name="see-also"></a>Voir également :
 --------
 
-[Master plans](master-plans.md)
+[Plans généraux](master-plans.md)
+
+
 
 

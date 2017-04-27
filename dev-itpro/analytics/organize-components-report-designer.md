@@ -49,18 +49,18 @@ Vous pouvez regrouper les définitions d'état pour générer plusieurs états s
 ### <a name="create-a-report-group"></a>Créer un groupe d'états
 
 1.  Dans le générateur d'états, dans le volet de navigation, cliquez sur **Groupes d'états** dans le volet de navigation.
-2.  Sous ** fichier ** le menu, cliquez sur ** nouveau ** &gt; ** la définition de groupe de rapports ** pour ouvrir un nouveau groupe de rapports dans la fenêtre de la visionneuse. Sinon, cliquez sur ** groupe de rapports ** le bouton ! [Groupe de rapports] (https://i-technet.sec.s-msft.com/dynimg/IC679515.gif « groupe de rapports ») dans la barre d'outils.
+2.  Dans le menu **Fichier**, cliquez sur **Nouveau** &gt; **Définition de groupe d'état** pour ouvrir un nouveau groupe d'état dans la fenêtre du visualiseur. Sinon, cliquez sur le bouton **Groupe d'états** ![Groupe d'états](https://i-technet.sec.s-msft.com/dynimg/IC679515.gif "Groupe d'états") sur la barre d’outils.
 3.  Cliquez sur l'onglet **Groupe d'états**. Pour remplacer les informations sur les différentes définitions d'état pour la génération de cet état, activez la case à cocher **Remplacer les paramètres de la société, des détails et de date à partir des définitions d'état**. Les informations sur le nom de la société, le niveau de détail, les paramètres provisionnels et la date sont fournis automatiquement mais vous pouvez toujours effectuer des mises à jour.
 4.  Pour générer plusieurs états affichant les devises de déclaration, activez la case à cocher **Inclure toutes les devises de déclaration**. Vous pouvez ensuite accéder à plusieurs en cliquant sur le bouton **Devise** dans la visionneuse Web lorsque vous afficherez l'état.
 5.  Dans le champ **États dans le groupe**, cliquez sur **Ajouter** pour sélectionner les états à inclure dans le groupe d'états. Pour sélectionner plusieurs états dans la boîte de dialogue **Ajouter**, maintenez la touche Ctrl enfoncée alors que vous sélectionnez des états. Lorsque vous avez terminé la sélection des états, cliquez sur **OK**.
-6.  Cliquez sur ** fichier ** &gt; ** sauvegarde ** pour enregistrer le nouveau groupe de rapports.
+6.  Cliquez sur **Fichier** &gt; **Enregistrer** pour enregistrer le nouveau groupe d'états.
 
 ### <a name="modify-a-report-group"></a>Modifier un groupe d'états
 
 1.  Dans le générateur d'états, dans le volet de navigation, cliquez sur **Groupes d'états** dans le volet de navigation.
 2.  Double-cliquez sur le groupe d'états à modifier.
 3.  Sur l'onglet **Groupe d'états**, apportez les modifications que vous souhaitez.
-4.  Sous ** fichier ** le menu, cliquez sur ** sauvegarde ** pour enregistrer le groupe de rapports modifié, bien, cliquez sur ** sauvegarde ** le bouton ! Sauvegarde [] (https://i-technet.sec.s-msft.com/dynimg/IC679516.gif « sauvegarde ») dans la barre d'outils.
+4.  Dans le menu **Fichier**, cliquez sur **Enregistrer** pour enregistrer le groupe d'états modifié ou sur le bouton **Enregistrer** ![Enregistrer](https://i-technet.sec.s-msft.com/dynimg/IC679516.gif "Enregistrer") dans la barre d'outils.
 
 **Remarque :** si vous avez planifié des états à générer à intervalles définis, vous pouvez remplacer ces paramètres et déclarer un état immédiatement.
 
@@ -68,7 +68,7 @@ Vous pouvez regrouper les définitions d'état pour générer plusieurs états s
 
 1.  Dans le générateur d'états, dans le volet de navigation, cliquez sur **Groupes d'états** dans le volet de navigation.
 2.  Ouvrez le groupe d'états à générer.
-3.  Cliquez sur ** générez l'état ** le bouton ! [Génération de l'état] (https://i-technet.sec.s-msft.com/dynimg/IC679517.gif « générer l'état ») pour générer des rapports.
+3.  Cliquez sur le bouton **Générer un état** ![Générer un état](https://i-technet.sec.s-msft.com/dynimg/IC679517.gif "Générer un état") pour générer des états.
 
 ### <a name="delete-a-report-group"></a>Supprimer un groupe d'états
 
@@ -104,8 +104,8 @@ Le tableau suivant décrit les contrôles l'onglet **Groupe d'états**.
 <td>Permet de spécifier le niveau de détail souhaité dans l'état.
 <ul>
 <li><strong>Financier</strong> : Rapport de synthèse de haut niveau. Vous ne pouvez pas effectuer de zoom avant dans les comptes et les dimensions, à l'exception de ceux ajoutés via une arborescence de génération d'états.</li>
-<li><strong>Rapport financier &amp; Compte</strong> État du − qui contient une synthèse de haut niveau et les détails de compte.</li>
-<li><strong>Rapport financier, compte, &amp; Transaction</strong> État du − qui contient une synthèse de haut niveau et les détails de la transaction.</li>
+<li><strong>Financier &amp; Compte</strong> − État qui contient une synthèse de haut niveau et des détails du compte.</li>
+<li><strong>Financier, Compte &amp; Transaction</strong> État qui contient une synthèse de haut niveau et des détails de la transaction.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -154,6 +154,6 @@ Seuls les paramètres de période de base par défaut sont enregistrés avec la 
 <a name="see-also"></a>Voir également :
 --------
 
-[États financiers pour Microsoft Dynamics 365 pour opérations] (financial-reporting-intro.md)
+[Génération d'états financiers pour Microsoft Dynamics 365 for Operations](financial-reporting-intro.md)
 
 

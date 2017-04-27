@@ -1,6 +1,6 @@
 ---
 title: "Répartition des données de planification budgétaire"
-description: "Cet article décrit les différentes méthodes de répartition disponibles dans Microsoft Dynamics 365 pour les opérations et leur utilisation."
+description: "Cet article décrit les différentes méthodes de répartition disponibles dans Microsoft Dynamics 365 for Operations et comment elles peuvent être utilisées."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,15 +28,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="budget-planning-data-allocation"></a>Répartition des données de planification budgétaire
 
-Cet article décrit les différentes méthodes de répartition disponibles dans Microsoft Dynamics 365 pour les opérations et leur utilisation.  
+[!include[banner](../includes/banner.md)]
+
+
+Cet article décrit les différentes méthodes de répartition disponibles dans Microsoft Dynamics 365 for Operations et comment elles peuvent être utilisées.  
 
 Vous pouvez répartir les données dans un plan budgétaire de plusieurs manières afin d'illustrer précisément les montants projetés.
 
 ## <a name="allocation-methods"></a>Modes de répartition
 Trois méthodes de répartition (Répartir par le biais de périodes, Répartir vers les dimensions et Utiliser les règles de répartition comptable) permettent de créer les lignes de plan budgétaire basées sur les lignes du même plan budgétaire. Trois autres méthodes (Regrouper, Distribuer et Copier à partir du plan budgétaire) permettent de créer des lignes de plan budgétaire dans d'autres plans budgétaires. Pour chacune des six méthodes de répartition, vous devez préciser le scénario de destination. Le scénario de destination peut être identique ou non au scénario source. En outre, vous pouvez préciser si de nouvelles lignes sont ajoutées au plan budgétaire ou remplacer les lignes actuelles du plan budgétaire.
 
-![AllocateAcrossPeriods [] (. /media/allocateacrossperiods-300x259.png)](. /media/allocateacrossperiods.png)
-** répartir sur plusieurs périodes ** – Une catégorie de répartition par période permet d'affecter les lignes de plan budgétaire du scénario de plan budgétaire d'origine sur plusieurs périodes dans le scénario de destination. Le montant source est réparti sur plusieurs lignes du scénario de destination, selon le pourcentage et la date définis dans la catégorie de répartition par période.         
+[![AllocateAcrossPeriods](./media/allocateacrossperiods-300x259.png)](./media/allocateacrossperiods.png)
+**Répartir par le biais de périodes** – Une catégorie de répartition par période est utilisée pour répartir les lignes de plan budgétaire à partir du scénario de plan budgétaire source sur les périodes du scénario de destination. Le montant source est réparti sur plusieurs lignes du scénario de destination, selon le pourcentage et la date définis dans la catégorie de répartition par période.         
 
 [![AllocateToDimensions](./media/allocatetodimensions.jpg)](./media/allocatetodimensions.jpg)
 **Répartir vers les dimensions** – Les lignes du plan budgétaire sont réparties depuis le scénario de planification budgétaire source vers une ou plusieurs lignes du scénario de destination, en fonction des pourcentages et des dimensions financières définies dans une condition de répartition budgétaire.           
@@ -56,9 +59,9 @@ Trois méthodes de répartition (Répartir par le biais de périodes, Répartir 
 ## <a name="using-allocation-methods-in-a-budget-plan"></a>Utilisation des méthodes de répartition dans un plan budgétaire
 Pour exécuter des répartitions sur la page du plan budgétaire, sélectionnez les lignes à répartir, puis cliquez sur **Répartir le budget**.
 
-![AllocateBudgetButton [] (. /media/allocatebudgetbutton-300x84.png)](. /media/allocatebudgetbutton.png) 
+[![AllocateBudgetButton](./media/allocatebudgetbutton-300x84.png)](./media/allocatebudgetbutton.png) 
 
-Ensuite, sélectionnez une méthode de répartition. Les champs restants sont alors définis selon la méthode sélectionnée. Ces champs comprennent la source et la destination des données du plan budgétaire, ainsi qu'une option vous permettant de multiplier la source par un facteur spécifié lorsque les montants de destination sont créés, afin de simplifier l'ajustement en bloc. Vous pouvez également définir l'option **Ajouter au plan**. Sélectionnez **Non** pour remplacer les lignes existantes du plan budgétaire, ou sélectionnez **Oui** pour conserver les lignes existantes du plan budgétaire et ajouter de nouvelles lignes pour les montants répartis.
+Puis, sélectionnez une méthode de répartition. Les champs restants sont alors définis selon la méthode sélectionnée. Ces champs comprennent la source et la destination des données du plan budgétaire, ainsi qu'une option vous permettant de multiplier la source par un facteur spécifié lorsque les montants de destination sont créés, afin de simplifier l'ajustement en bloc. Vous pouvez également définir l'option **Ajouter au plan**. Sélectionnez **Non** pour remplacer les lignes existantes du plan budgétaire, ou sélectionnez **Oui** pour conserver les lignes existantes du plan budgétaire et ajouter de nouvelles lignes pour les montants répartis.
 
 ## <a name="automating-allocations-during-a-workflow"></a>Automatisation des répartitions au cours d'un workflow
 Une fonctionnalité puissante permet d'activer les répartitions automatiques dans le cadre d'un workflow de planification budgétaire. Au fur et à mesure qu'un plan budgétaire progresse dans son workflow, les tâches automatiques peuvent demander une répartition à un moment spécifique de la planification budgétaire. 
@@ -69,6 +72,8 @@ Ensuite, vous créez une répartition de stade sur la page **Configuration de la
 
 Enfin, ajoutez une tâche automatique pour le stade de planification budgétaire au stade de workflow souhaité. Dans l'exemple suivant, deux répartitions de stade de planification budgétaire (décrites en rouge) ont été insérées dans le workflow.
 
-![BudgetPlanningStageAllocations [] (. /media/budgetplanningstageallocations-300x300.png)](. /media/budgetplanningstageallocations.png)
+[![BudgetPlanningStageAllocations](./media/budgetplanningstageallocations-300x300.png)](./media/budgetplanningstageallocations.png)
+
+
 
 

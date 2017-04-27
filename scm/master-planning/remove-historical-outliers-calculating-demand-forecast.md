@@ -28,11 +28,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="remove-outliers-from-historical-transaction-data-when-calculating-a-demand-forecast"></a>Supprimer les valeurs hors norme des données de transaction historiques lors du calcul d'une prévision de la demande
 
+[!include[banner](../includes/banner.md)]
+
+
 Cette article décrit la procédure d'exclusion des valeurs hors norme des données historiques utilisées pour calculer une prévision de la demande. En excluant des les valeurs hors normes, vous pouvez améliorer la précision de prévision.
 
-Vous pouvez exclure des divers sur article pour améliorer la précision de prévision. Cette tâche est facultative. Vue d'ensemble du processus :
+Vous pouvez exclure les valeurs hors normes pour améliorer la précision de prévision. Cette tâche est facultative. Vue d'ensemble du processus :
 
-1.  Cliquez sur ** planification ** &gt; ** paramétrage ** &gt; ** prévision de la demande ** &gt; ** suppression d'un accessoire ** pour ouvrir ** suppression d'un accessoire ** la page, dans lequel vous pouvez utiliser une requête pour sélectionner les transactions à exclure.
+1.  Cliquez sur **Planification** &gt; **Paramétrage** &gt; **Prévision de la demande** &gt; **Suppression des valeurs hors norme** pour ouvrir la page **Suppression des valeurs hors norme**, dans laquelle vous pouvez utiliser une requête pour sélectionner les transactions à exclure.
 2.  Sélectionnez la société à laquelle la requête s'applique, puis entrez un nom et une description. Le champ **Date de la requête** est automatiquement défini sur la date actuelle.
 3.  Cochez la case **Actif** pour exclure les transactions trouvées par la requête dans les données historiques. Ce paramètre entrera en effet lorsque vous créerez une prévision de base.
 4.  Sur la page **Requête de suppression des valeurs hors norme**, vous pouvez ajouter, supprimer et sélectionner les critères qui définissent les transactions exclues lorsque la prévision de base est calculée. Par exemple, sélectionnez un article ou une transaction de commande spécifique à exclure.
@@ -43,8 +46,10 @@ Vous pouvez exclure des divers sur article pour améliorer la précision de pré
 <a name="see-also"></a>Voir également :
 --------
 
-[Introduction to demand forecasting](introduction-demand-forecasting.md)
+[Présentation de la prévision de la demande](introduction-demand-forecasting.md)
 
-[Monitoring forecast accuracy](monitor-forecast-accuracy.md)
+[Surveillance de la précision de la prévision](monitor-forecast-accuracy.md)
+
+
 
 

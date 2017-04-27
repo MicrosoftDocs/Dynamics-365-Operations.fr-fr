@@ -36,9 +36,9 @@ Toutes les pages n'ont pas des descriptions de champ. Nous souhaitons uniquement
 Si vous avez accès à l'environnement de développement Microsoft Dynamics 365 for Operations, vous pouvez ajouter de nouvelles descriptions de champ et personnaliser les descriptions existantes. Par exemple, vous pouvez ajouter des informations spécifiques à la société dans une description de champ. Pour plus d'informations, voir [Personnaliser le champ d'aide](/dynamics365/operations/dev-itpro/user-interface/customize-field-help).
 
 ## <a name="see-field-descriptions-in-the-user-interface"></a>Voir les descriptions des champs dans l'interface utilisateur
-Vous pouvez afficher les descriptions de champ en plaçant le curseur sur un champ. Si aucune description n’est disponible, vous voyez le nom du champ lorsque vous placez le pointeur sur le champ. (Remarque : Dans la version 7.0.0, des descriptions de champ peuvent être affichées uniquement sur ** des descriptions de champ ** la page.) L'illustration suivante présente la description du champ qui s'affiche lorsque vous planez sur le ** verrouillent les articles lors de le comptage ** champ. 
+Vous pouvez afficher les descriptions de champ en plaçant le curseur sur un champ. Si aucune description n’est disponible, vous voyez le nom du champ lorsque vous placez le pointeur sur le champ. (Remarque : dans la version 7.0.0, les descriptions des champs ne s'affichent que dans la page **Descriptions des champs**.) L'illustration suivante présente la description du champ qui s'affiche lorsque vous survolez le champ **Verrouiller les articles lors du comptage**. 
 
-[exemple de![d'une description du champ] (. /media/field-description.png)](. /media/field-description.png)
+[![Exemple de description de champ](./media/field-description.png)](./media/field-description.png)
 
 ## <a name="use-the-field-descriptions-page-to-view-and-export-field-help"></a>Utilisez la page Descriptions de champs pour afficher et exporter l'aide du champ
 La page **Descriptions de champ** vous permet d'afficher et exporter des descriptions de champ. Vous pouvez afficher les descriptions disponibles pour une page à la fois.
@@ -73,7 +73,7 @@ Il existe plusieurs manières de rechercher une page dans le champ **Sélectionn
     -   S’il existe plus d’une correspondance exacte, aucune description n’est affichées. Vous devez ouvrir la liste déroulante et sélectionner la page que vous souhaitez.
     -   Si le nom que vous avez tapé est la partie du nom d’une autre page, vous voyez les descriptions de votre page. Cependant, si vous ouvrez la liste déroulante, vous voyez des pages supplémentaires qui contiennent ce nom.
 
-Par exemple, aucune description n'est affichée si vous tapez d'emplacements ** comptant ** le **** sélectionnez un champ de **** de page. Vous ouvrez la liste déroulante et vous voyez qu'il existe deux pages avec le nom **Comptage**, ainsi que plusieurs pages qui contiennent le mot « Comptage » dans leur nom. Si vous choisissez la page qui a le nom AOA **InventJournalCount** », des descriptions de champ s'affichent pour cette page. Toutefois, si vous ouvrez de nouveau la liste déroulante, vous verrez que la liste contient désormais toutes les pages dont le nom de page AOA contient « InventJournalCount ».
+Par exemple, aucune description n’est affichée lorsque vous tapez **Comptage** dans le champ ****Sélectionner une page****. Vous ouvrez la liste déroulante et vous voyez qu'il existe deux pages avec le nom **Comptage**, ainsi que plusieurs pages qui contiennent le mot « Comptage » dans leur nom. Si vous choisissez la page qui a le nom AOA **InventJournalCount** », des descriptions de champ s'affichent pour cette page. Toutefois, si vous ouvrez de nouveau la liste déroulante, vous verrez que la liste contient désormais toutes les pages dont le nom de page AOA contient « InventJournalCount ».
 
 ## <a name="troubleshooting"></a>Dépannage
 Cette section fournit des informations pour vous aider à résoudre les problèmes que vous pouvez rencontrer lorsque vous utilisez les descriptions de champ.

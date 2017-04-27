@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="vendor-posting-profiles"></a>Profils de validation fournisseur
 
+[!include[banner](../includes/banner.md)]
+
+
 Les profils de validation fournisseur contrôlent la validation des transactions fournisseur pour la comptabilité.
 
 <a name="vendor-posting-profiles"></a>Profils de validation fournisseur
@@ -146,6 +149,8 @@ Spécifiez les valeurs suivantes pour paramétrer votre profil de validation :
 | **Règlement** | Sélectionnez cette option pour activer le règlement automatique des transactions bénéficiant de ce profil de validation. Si cette option est désactivée, vous devez régler manuellement les transactions à l'aide de la page Régler les transactions en cours. |
 | **Annuler**     | Sélectionnez cette option pour pouvoir annuler les transactions associées à ce profil de validation.                                                                                                               |
 | **Clôture**      | Permet de sélectionner un autre profil de validation à utiliser lors de la clôture des transactions présentant ce profil de validation. Une transaction est considérée comme clôturée si elle a été totalement réglée.                                       |
+
+
 
 
 

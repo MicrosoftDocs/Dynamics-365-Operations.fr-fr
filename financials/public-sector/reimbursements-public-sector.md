@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reimbursements-in-the-public-sector"></a>Remboursements dans le secteur public
 
+[!include[banner](../includes/banner.md)]
+
+
 Cette rubrique répond aux questions courantes associées aux remboursements dans le secteur public. 
 
 <a name="what-happens-if-i-create-a-separate-reimbursement-transaction-for-each-billing-classification"></a>Que se passe-t-il si je crée une transaction de remboursement distincte pour chaque classification de facturation ?
@@ -60,6 +63,8 @@ N° Les remboursements ne sont traités pour aucun client qui possède des règl
 
 ## <a name="can-i-reverse-reimbursement-settlements"></a>Puis-je contrepasser des règlements de remboursement ?
 Non, pas directement. Toutefois, vous pouvez utiliser les entrées du journal des opérations diverses pour créer les transactions qui auraient l'effet de contrepasser les écritures comptables.
+
+
 
 
 

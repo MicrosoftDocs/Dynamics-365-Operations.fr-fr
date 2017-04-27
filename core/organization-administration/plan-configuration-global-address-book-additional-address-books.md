@@ -1,6 +1,6 @@
 ---
-title: Configuration des carnets d&quot;adresses globaux
-description: "Cet article décrit les considérations et les décisions que vous devez effectuer au cours de le processus de planification, avant de paramétrer et configurer le carnet d&quot;adresses global et tous les carnets d&quot;adresses supplémentaires dans Microsoft Dynamics 365 pour les opérations. Certaines de ces décisions nécessitent que vous confirmiez les décisions qui ont été prises pour d&quot;autres zones du produit, telles que la hiérarchie d&quot;organisation."
+title: Configurer les carnets d&quot;adresses globaux
+description: "Cet article décrit les considérations et les décisions que vous devez prendre au cours du processus de planification avant de paramétrer et configurer le carnet d&quot;adresses global et des carnets d&quot;adresses supplémentaires dans Microsoft Dynamics 365 for Operations. Certaines de ces décisions nécessitent que vous confirmiez les décisions qui ont été prises pour d&quot;autres zones du produit, telles que la hiérarchie d&quot;organisation."
 author: kfend
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-global-address-books"></a>Configuration des carnets d'adresses globaux
+# <a name="configure-global-address-books"></a>Configurer les carnets d'adresses globaux
 
-Cet article décrit les considérations et les décisions que vous devez effectuer au cours de le processus de planification, avant de paramétrer et configurer le carnet d'adresses global et tous les carnets d'adresses supplémentaires dans Microsoft Dynamics 365 pour les opérations. Certaines de ces décisions nécessitent que vous confirmiez les décisions qui ont été prises pour d'autres zones du produit, telles que la hiérarchie d'organisation.
+[!include[banner](../includes/banner.md)]
+
+
+Cet article décrit les considérations et les décisions que vous devez prendre au cours du processus de planification avant de paramétrer et configurer le carnet d'adresses global et des carnets d'adresses supplémentaires dans Microsoft Dynamics 365 for Operations. Certaines de ces décisions nécessitent que vous confirmiez les décisions qui ont été prises pour d'autres zones du produit, telles que la hiérarchie d'organisation.
 
 <a name="global-address-book"></a>Carnet d'adresses global
 -------------------
@@ -61,6 +64,8 @@ Une fois que vous avez créé le carnet d'adresses global, vous pouvez créer de
 Vous pouvez créer des carnets d'adresses à tout moment et vous pouvez également définir des paramètres de sécurité pour les carnets d'adresses à tout moment. Vous n'êtes pas obligé de définir des privilèges de sécurité pour un carnet d'adresses, mais si vous ne le faites pas, tous les collaborateurs de votre organisation peuvent consulter tous les enregistrements de parties de ce carnet d'adresses. Vous pouvez définir des privilèges de sécurité pour des enregistrements de parties par l'intermédiaire des carnets d'adresses. Les privilèges de sécurité sont basés sur les équipes. Cette méthode garantit que seuls les collaborateurs affectés à une équipe qui a accès à un carnet d'adresses peuvent consulter les enregistrements de parties dans ce carnet d'adresses. Vous devez sélectionner les équipes qui ont accès à chaque carnet d'adresses. Pour chaque carnet d'adresses, vous pouvez définir des privilèges de sécurité qui autorisent ou refusent l'accès à des équipes spécifiques. Si vous accordez à une équipe des privilèges pour un carnet d'adresses, tous les membres de cette équipe peuvent consulter les enregistrements de ce carnet d'adresses. Si vous n'accordez pas l'accès à un carnet d'adresses à une équipe, les membres de cette équipe ne peuvent pas consulter le carnet d'adresses ni son contenu. **Décision :**
 
 -   Quelles équipes doivent-elles avoir accès à chaque carnet d'adresses que vous créez ?
+
+
 
 
 

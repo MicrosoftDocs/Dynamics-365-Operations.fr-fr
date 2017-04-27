@@ -1,6 +1,6 @@
 ---
-title: "Déclarer les nomenclatures terminées"
-description: "Cet articles associées des informations sur les nomenclatures déclarées terminées."
+title: "Déclarer la fin des nomenclatures"
+description: "Cet article fournit des informations sur les nomenclatures déclarées terminées"
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,19 +26,22 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="report-boms-as-finished"></a>Déclarer les nomenclatures terminées
+# <a name="report-boms-as-finished"></a>Déclarer la fin des nomenclatures
 
-Cet articles associées des informations sur les nomenclatures déclarées terminées.
+[!include[banner](../includes/banner.md)]
 
-Les pages **Déclarer comme terminé** et **Déclaration et contrôle sans OF** permettent de déclarer des nomenclatures (BOM) comme terminées. Conceptuellement, le processus de déclaration d'une nomenclature comme terminée est identique au processus de déclaration d'un ordre de fabrication comme terminé. Ce processus peut être utilisé par exemple dans des processus de kitting et d'assemblage simples où les capacités les plus avancées en matière d'ordres de fabrication ne sont pas requises. La page **Déclarer comme terminé** vous permet de déclarer plusieurs nomenclatures comme terminées dans un traitement par lots. ** Déclaration et contrôle sans OF ** la page vous permet de déclarer une seule nomenclature comme terminée à la fois. ** Générer un état terminé ** La page est disponible dans une option de menu dans Gestion des stocks, et les deux pages sont disponibles que les options de menu sur ** des produits lancés ** la page.
+
+Cet article fournit des informations sur les nomenclatures déclarées terminées
+
+Les pages **Déclarer comme terminé** et **Déclaration et contrôle sans OF** permettent de déclarer des nomenclatures (BOM) comme terminées. Conceptuellement, le processus de déclaration d'une nomenclature comme terminée est identique au processus de déclaration d'un ordre de fabrication comme terminé. Ce processus peut être utilisé par exemple dans des processus de kitting et d'assemblage simples où les capacités les plus avancées en matière d'ordres de fabrication ne sont pas requises. La page **Déclarer comme terminé** vous permet de déclarer plusieurs nomenclatures comme terminées dans un traitement par lots. La page **Déclaration et contrôle sans OF** vous permet de déclarer une seule nomenclature comme terminée à la fois. La page **Déclarer comme terminé** est disponible à partir d'une option de menu du module Gestion des stocks, et les deux pages sont disponibles en tant qu'options de menu sur la page **Produits lancés**.
 
 ## <a name="report-as-finished-page"></a>Page Déclarer comme terminé
 Si vous ouvrez la page **Déclarer comme terminé** d'un produit lancé, la page vous suggère de déclarer la quantité par défaut de stock standard comme terminée. Par défaut, la version de nomenclature active est affichée, mais vous pouvez modifier la version de nomenclature s'il existe d'autres versions approuvées. Cette page vous permet également de supprimer des enregistrements et de créer des enregistrements pour les produits qui doivent être déclarés comme terminés. Pour utiliser une requête pour sélectionner les produits, cliquez sur l'option de menu **Sélectionner**. Vous pouvez confirmer manuellement que la déclaration est terminée pour les produits sélectionnés en cliquant sur **OK**. Vous pouvez également paramétrer le processus pour qu'il s'exécute par lots. Lorsque la réussite du processus de déclaration de fin est confirmée, le système génère un journal de nomenclature dans lequel la validation du stock est traitée. Ce journal comporte une ligne pour le produit fini et une ligne pour chaque ligne de nomenclature. Vous pouvez contrôler si le journal est validé automatiquement ou s'il est laissé ouvert pour des ajustements supplémentaires.
 
-## <a name="max-report-as-finished-page"></a>Max. état en tant que page finie
+## <a name="max-report-as-finished-page"></a>Page Déclaration et contrôle sans OF
 Sur la page **Déclaration et contrôle sans OF**, chaque ligne de nomenclature indique le nombre de pièces du produit pouvant être déclarées comme terminées. Ce calcul est basé sur le stock physique disponible de chaque ligne du matériel. Dans l'exemple suivant, une pièce du numéro d'article FG consomme deux pièces de la matière première RM10 et une pièce de la matière première RM20. Comme il n'y a que 10 pièces de RM10 disponibles, la quantité maximale de FG pouvant être déclarée comme terminée est de cinq pièces. Cette valeur est affichée dans le champ **Déclaration et contrôle sans OF**.
 
-| Niveau | Numéro d'article | Quantité | Disponible | Max. Déclaration de fin |
+| Niveau | Numéro d'article | Quantité | Disponible | Page Déclaration de fin |
 |-------|-------------|----------|---------|-------------------------|
 | 0     | FG          |  1       | 0       | 5                       |
 | 1     | RM10        | -2       | 10      | 5                       |
@@ -68,7 +71,7 @@ Les tableaux suivants indiquent comment le paramètre du champ **Éclatement** a
 | 0     | FG          | 3        |
 | 1     | COMP        | -3       |
 
-En tant qu'indique précédentes de table, seules les Rémunération de. numéro d'article sont considérés déduits dans le journal. Le RM de numéro d'article, qui fait partie. de Rémunération, n'est pas éclaté à la ligne de journal, et aux deux pièces disponibles. de Rémunération ne sont pas considérés. **Éclatement : Toujours**
+Comme indiqué dans le tableau précédent, seul le numéro d'article COMP est considéré comme déduit dans le journal. Le numéro d'article RM, qui fait partie de COMP, n'est pas éclaté dans la ligne de journal, et les deux pièces de COMP disponibles ne sont pas prises en compte. **Éclatement : Toujours**
 
 | Niveau | Numéro d'article | Quantité |
 |-------|-------------|----------|
@@ -84,5 +87,7 @@ Dans ce cas, le numéro d'article COMP est éclaté dans ses matières première
 | 1     | RM          | -1       |
 
 Dans ce cas, les deux pièces du numéro d'article COMP disponibles sont prises en compte. Toutefois, comme trois pièces du numéro d'article FG sont requises, une pièce du numéro d'article RM est également requise afin de compléter la pièce de COMP supplémentaire.
+
+
 
 

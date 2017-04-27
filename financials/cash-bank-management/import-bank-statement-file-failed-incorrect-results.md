@@ -1,6 +1,6 @@
 ---
 title: "Dépannage d&quot;importation de fichier de relevé bancaire"
-description: "Il est important que le fichier de relevé bancaire de la correspondance bancaire la mise en page que Microsoft Dynamics 365 pour les opérations prend en charge. En raison de normes strictes pour les relevés bancaires, la plupart des intégrations fonctionneront correctement. Toutefois, il arrive que le fichier de relevé ne puisse pas être importé ou contienne des résultats incorrects. Généralement, ces problèmes sont engendrés par de petites différences dans le fichier de relevé bancaire. Cet article décrit comment résoudre ces différences ainsi que les problèmes."
+description: "Il est important que le fichier de relevé bancaire de la banque corresponde à la mise en page prise en charge par Microsoft Dynamics 365 for Operations. En raison de normes strictes pour les relevés bancaires, la plupart des intégrations fonctionneront correctement. Toutefois, il arrive que le fichier de relevé ne puisse pas être importé ou contienne des résultats incorrects. Généralement, ces problèmes sont engendrés par de petites différences dans le fichier de relevé bancaire. Cet article décrit comment résoudre ces différences ainsi que les problèmes."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="bank-statement-file-import-troubleshooting"></a>Dépannage d'importation de fichier de relevé bancaire
 
-Il est important que le fichier de relevé bancaire de la correspondance bancaire la mise en page que Microsoft Dynamics 365 pour les opérations prend en charge. En raison de normes strictes pour les relevés bancaires, la plupart des intégrations fonctionneront correctement. Toutefois, il arrive que le fichier de relevé ne puisse pas être importé ou contienne des résultats incorrects. Généralement, ces problèmes sont engendrés par de petites différences dans le fichier de relevé bancaire. Cet article décrit comment résoudre ces différences ainsi que les problèmes.
+[!include[banner](../includes/banner.md)]
+
+
+Il est important que le fichier de relevé bancaire de la banque corresponde à la mise en page prise en charge par Microsoft Dynamics 365 for Operations. En raison de normes strictes pour les relevés bancaires, la plupart des intégrations fonctionneront correctement. Toutefois, il arrive que le fichier de relevé ne puisse pas être importé ou contienne des résultats incorrects. Généralement, ces problèmes sont engendrés par de petites différences dans le fichier de relevé bancaire. Cet article décrit comment résoudre ces différences ainsi que les problèmes.
 
 <a name="what-is-the-error"></a>Quelle est l'erreur ?
 ------------------
@@ -34,16 +37,16 @@ Il est important que le fichier de relevé bancaire de la correspondance bancair
 Une fois que vous avez essayé d'importer un fichier de relevé bancaire, allez dans l'historique des tâches de gestion des données et ses détails d'exécution pour trouver l'erreur. L'erreur peut aider en pointant vers le relevé, le solde ou la ligne de relevé. Toutefois, il est peu probable qu'elle fournisse assez d'informations pour vous aider à identifier le champ ou l'élément qui provoque le problème.
 
 ## <a name="what-are-the-differences"></a>Quelles sont les différences ?
-Comparer la définition bancaire de la mise en page de fichier vers Microsoft Dynamics 365 pour la définition d'importation d'opérations, et notez les différences dans les champs et les éléments. Comparez le fichier de relevé bancaire à exemple de Dynamics associé 365 pour le fichier d'opérations. Dans les fichiers ISO20022, il doit être faciles afficher toutes les différences.
+Comparez la définition bancaire de la mise en page de fichier à la définition d'importation de Microsoft Dynamics 365 for Operations, et notez les différences dans les champs et les éléments. Comparez le fichier de relevé bancaire à l'exemple de fichier Dynamics 365 for Operations associé. Dans les fichiers ISO20022, il est facile d'afficher toutes les différences.
 
 ## <a name="transformations"></a>Transformations
 Généralement, la modification doit être effectuée dans l'une des trois transformations. Chaque transformation concerne une norme spécifique.
 
 | Nom de la ressource                                         | Nom de fichier                          |
 |-------------------------------------------------------|------------------------------------|
-| BankStmtImport\_BAI2CSV\_au xslt d'\_BAI2XML\_            | BAI2CSV-to-BAI2XML.xslt            |
-| BankStmtImport\_ISO20022XML\_au xslt d'\_de rapprochement d'\_ | ISO20022XML-to-Reconciliation.xslt |
-| BankStmtImport\_MT940TXT\_au xslt d'\_MT940XML\_          | MT940TXT-to-MT940XML.xslt          |
+| BankStmtImport\_BAI2CSV\_to\_BAI2XML\_xslt            | BAI2CSV-to-BAI2XML.xslt            |
+| BankStmtImport\_ISO20022XML\_to\_Reconciliation\_xslt | ISO20022XML-to-Reconciliation.xslt |
+| BankStmtImport\_MT940TXT\_to\_MT940XML\_xslt          | MT940TXT-to-MT940XML.xslt          |
 
 ## <a name="debugging-transformations"></a>Transformations de débogage
 ### <a name="adjust-the-bai2-and-mt940-files"></a>Modifiez les fichiers BAI2 et MT940
@@ -68,7 +71,7 @@ Pour plus d'informations, voir <https://msdn.microsoft.com/en-us/library/ms25560
 5.  Définissez l'entrée de l'emplacement du fichier de relevé bancaire.
 6.  Définissez un emplacement et un nom de fichier pour le résultat.
 7.  Définissez les points d'arrêt requis.
-8.  Dans le menu, cliquez sur ** XML ** &gt; ** démarrez le débogage XSLT **.
+8.  Dans le menu, cliquez sur **XML** &gt; **Démarrer le débogage XSLT**.
 
 ### <a name="format-the-xslt-output"></a>Mettre en forme le résultat XSLT
 
@@ -76,7 +79,7 @@ Lorsque la transformation est exécutée, elle crée un fichier de sortie visibl
 
 ### <a name="adjust-the-transformation"></a>Ajuster la transformation
 
-Ajustez la transformation pour obtenir le champ ou l'élément approprié dans le fichier de relevé bancaire. Mappez ensuite ce champ ou élément approprié à Dynamics 365 pour l'élément d'opérations.
+Ajustez la transformation pour obtenir le champ ou l'élément approprié dans le fichier de relevé bancaire. Mappez ensuite ce champ ou cet élément à l'élément Dynamics 365 for Operations approprié.
 
 ### <a name="debitcredit-indicator"></a>Indicateur de débit/crédit
 
@@ -87,7 +90,7 @@ Parfois, les débits peuvent être importés en tant que crédits, et des crédi
 -   Modèle MT940XML-to-Reconcilation.xslt GetCreditDebitIndicator
 
 ## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>Exemples de formats de relevé bancaire et de mises en page techniques
-Le tableau suivant répertorie des exemples de définitions de mise en page techniques de fichier d'importation de rapprochement bancaire avancé et trois fichiers d'exemples de relevé bancaire associés : Vous pouvez télécharger les fichiers d'exemple et des dispositions techniques ici : https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
+Le tableau suivant répertorie des exemples de définitions de mise en page techniques de fichier d'importation de rapprochement bancaire avancé et trois fichiers d'exemples de relevé bancaire associés : Vous pouvez télécharger les fichiers d'exemple et les dispositions techniques ici : https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
 
 
 | Définition de mise en page technique                             | Fichier d'exemple de relevé bancaire          |
@@ -95,6 +98,8 @@ Le tableau suivant répertorie des exemples de définitions de mise en page tech
 | DynamicsAXMT940Layout                                   | MT940StatementExample                |
 | DynamicsAXISO20022Layout                                | ISO20022StatementExample             |
 | DynamicsAXBAI2Layout                                    | BAI2StatementExample                 |
+
+
 
 
 

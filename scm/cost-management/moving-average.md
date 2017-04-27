@@ -68,14 +68,14 @@ Avec la moyenne de déplacement, le coût du produit est déterminé par le reç
 3.  Créez une commande client pour une quantité de 1 et un prix unitaire de 10,00.
 4.  Créez une facture d'achat pour une quantité de 2 et un prix unitaire de 12,00.
 
-La différence entre le prix unitaire, 2,00, est validée sur le compte Différence de prix pour la moyenne de déplacement lorsque la facture d'achat est validée. Cela est dû au fait que les deux produits ont été achetés pour un coût de 20,00. L'un des produits a été vendu au prix unitaire de 10,00. La facture d'achat a été validée à un prix unitaire de 12,00 avec une quantité de 2. Le prix unitaire du produit ne peut pas être validé à 14,00.
+La différence entre le prix unitaire, 2,00, est validée sur le compte Différence de prix pour la moyenne de déplacement lorsque la facture d'achat est validée. Cela est dû au fait que les deux produits ont été achetés pour un coût de 20,00. L'un des produits a été vendu au prix unitaire de 10,00. La facture d'achat a été validée à un prix unitaire de 12,00 avec une quantité de 2. Le prix unitaire du produit ne peut pas être validé avec la valeur 14,00.
 
 ## <a name="moving-average-product-and-inventory-adjustment"></a>Produit de la moyenne de déplacement et ajustement du stock
 Si vous devez ajuster le coût de la moyenne de déplacement d'un produit, des ajustements du stock sont autorisés à partir de la date du jour. Vous ne pouvez pas antidater un ajustement de stock pour corriger le coût de la moyenne de déplacement d'un produit. Le coût ne peut pas transiter via des transactions qui se suivent. Dans cet exemple, le coût de la moyenne de déplacement est ajusté pour un produit.
 1.  Sélectionnez le produit pour lequel ajuster le coût de la moyenne de déplacement.
-    | **Note**                                                                                    |
+    | **Remarque**                                                                                    |
     |---------------------------------------------------------------------------------------------|
-    | ** Réévaluation pour la moyenne de déplacement ** la page examine le stock disponible pour un produit. |
+    | La page **Réévaluation de la moyenne de déplacement** examine le stock disponible pour un produit. |
 
     Le produit sélectionné est associé à une quantité de 1, une valeur validée de 12,00, un coût unitaire validé de 12,00 et un coût unitaire de 12,00.
 2.  Mettez à présent à jour le champ **Coût unitaire** sur 16,00. Le système calcule les autres champs.
@@ -88,7 +88,7 @@ Si vous devez ajuster le coût de la moyenne de déplacement d'un produit, des a
 Sur la page **Règlement pour le N° document**, vous pouvez afficher un ajustement de 4,00 validés dans le compte Réévaluation des coûts pour la moyenne de déplacement.
 
 ## <a name="moving-average-with-production"></a>Moyenne de déplacement avec production
-La moyenne de déplacement prend en charge les articles produits. Si vous envisagez d'utiliser la moyenne de déplacement dans un environnement de production, ** prix de revient estimé d'utilisation ** le curseur dans ** les paramètres du contrôle de production ** la page doit selcted. Cela signifie que le prix de revient calculé durant l'estimation est utilisé à la place du prix de revient réel de calcul de nomenclature.
+La moyenne de déplacement prend en charge les articles produits. Si vous envisagez d'utiliser la moyenne mobile dans un environnement de production, le curseur **Utiliser le prix de revient estimé** de la page **Paramètres de contrôle de la production** doit être sélectionné. Cela signifie que le prix de revient calculé durant l'estimation est utilisé à la place du prix de revient réel de calcul de nomenclature.
 
 ## <a name="moving-average-with-a-backdated-transaction"></a>Moyenne de déplacement avec une transaction antidatée
 Le coût actuel de la moyenne de déplacement est affecté aux transactions antidatées et la quantité physique du produit est mise à jour, mais le coût de la moyenne de déplacement du produit n'est pas affecté. Dans cet exemple de moyenne de déplacement, une transaction antidatée pour un produit de moyenne de déplacement est validée.

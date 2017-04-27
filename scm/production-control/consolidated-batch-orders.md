@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="consolidated-batch-orders"></a>Lots de production consolidés
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article décrit le concept des lots de production consolidés.
 
 Un consommable produit est considéré comme un article parent, tandis qu'un article emballé est considéré comme un article enfant. La relation entre le consommable et l'article emballé est exprimé par une conversion de consommables. Cette conversion de consommables est définie sur le consommable lui-même.  
@@ -41,6 +44,8 @@ Un lot de production consolidé peut contenir toute combinaison des commandes su
 -   Plusieurs commandes en vrac et plusieurs commandes emballées
 -   Plusieurs commandes en vrac et une seule commande emballée
 -   Les commandes emballées seules
+
+
 
 
 

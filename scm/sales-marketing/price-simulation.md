@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="price-simulation"></a>Simulation de prix
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article fournit des informations sur la simulation de prix pour les devis. La simulation de prix vous permet d'évaluer l'effet des déductions sur le futur prix de vente au cours du processus de devis, avant de s'engager à un prix spécifique.
 
 Une simulation de prix pour un devis affiche un nouveau montant total basé sur un nouveau prix proposé. Une simulation de prix peut également afficher un nouveau montant associé à une ligne spécifique créée dans un devis existant. Vous pouvez entrer une simulation de prix et l'appliquer ultérieurement. Vous pouvez autrement utiliser le devis original sans simulation de prix et effectuer d'autres modifications à mesure que vous avancez avec votre client dans le processus de vente.  
@@ -50,7 +53,7 @@ Afin de garantir un calcul correct des remises et des prix, l'exécution de simu
 
 ### <a name="types-of-discounts-in-trade-agreements"></a>Types de remises dans le cadre d'accords commerciaux
 
-Les accords commerciaux dans Microsoft Dynamics 365 pour les opérations peuvent avoir quatre types de remises. Vous pouvez paramétrer ces remises pour différents articles, clients ou groupes de prix, et les limiter par date. Afin d'éviter toute erreur de calcul, les accords commerciaux doivent être pris en compte lors des simulations de prix. Voici les quatre types de remises inclus dans les accords commerciaux :
+Dans Microsoft Dynamics 365 for Operations, les accords commerciaux peuvent comprendre quatre types de remises. Vous pouvez paramétrer ces remises pour différents articles, clients ou groupes de prix, et les limiter par date. Afin d'éviter toute erreur de calcul, les accords commerciaux doivent être pris en compte lors des simulations de prix. Voici les quatre types de remises inclus dans les accords commerciaux :
 
 -   **Prix de vente** : un prix de vente distinct peut être spécifié pour chaque article. Lors de la création de lignes de devis, le programme recherche le prix de vente approprié d'un article et le transfère vers les lignes de devis. Par conséquent, un accord commercial comportant ce type de remise n'a aucune incidence sur la simulation de prix. Le prix de vente utilisé dans la ligne de devis reflète l'accord commercial.
 -   **Remise ligne** : des remises spéciales sont spécifiées pour les articles, en fonction de la quantité commandée. La valeur de la remise ligne est généralement soustraite des montants des lignes avant l'exécution d'une simulation de prix. Par conséquent, un accord commercial associé à ce type de remise a une incidence sur la simulation de prix.
@@ -141,5 +144,7 @@ Vous exécutez une simulation de prix avec une remise totale de 10 % sur les uni
 | Nouveau taux de contribution total                      | \[(302.88 – 184.96) ÷ 302.88\] × 100    | 38,93 %   |
 
 La simulation de prix affecte uniquement la ligne à laquelle elle est appliquée et réduit le total de cette ligne.
+
+
 
 

@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-the-properties-of-a-workflow"></a>Configuration des propriétés d'un workflow
 
+[!include[banner](../includes/banner.md)]
+
+
 Cette rubrique explique comment configurer les différentes propriétés d'un workflow.
 
 Pour configurer les propriétés d'un workflow, ouvrez ce dernier dans l'éditeur de workflow. Cliquez sur le canevas de l'éditeur de workflow, puis sur **Propriétés** pour ouvrir la page **Propriétés**. Vous pouvez ensuite suivre les procédures suivantes permettant de configurer les différentes propriétés du workflow.
@@ -147,10 +150,10 @@ Lorsqu'un document est soumis pour traitement, une instance de workflow est cré
     </tr>
     <tr class="odd">
     <td>Utilisateur</td>
-    <td>Dynamics spécifique 365 pour les utilisateurs d'opérations</td>
+    <td>Utilisateurs Dynamics 365 for Operations spécifiques</td>
     <td><ol>
     <li>Sous l'onglet <strong>Destinataire</strong>, cliquez sur <strong>Utilisateur</strong>.</li>
-    <li>Sous <strong>Utilisateur</strong> l'onglet, <strong>Utilisateurs disponibles</strong> la liste inclut tous les Dynamics 365 pour les utilisateurs d'opérations. Sélectionnez les utilisateurs à qui envoyer les notifications, puis déplacez-les dans la liste <strong>Utilisateurs sélectionnés</strong>.</li>
+    <li>Sous l'onglet <strong>Utilisateur</strong>, la liste <strong>Utilisateurs disponibles</strong> inclut tous les utilisateurs Dynamics 365 for Operations. Sélectionnez les utilisateurs à qui envoyer les notifications, puis déplacez-les dans la liste <strong>Utilisateurs sélectionnés</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -165,6 +168,8 @@ Pour entrer des commentaires sur les modifications que vous avez apportées à c
 2.  Entrez vos commentaires dans le champ **Entrer des commentaires sur le workflow**.
 3.  Relisez vos commentaires. Une fois les commentaires entrés, il n'est plus possible de les modifier.
 4.  Cliquez sur **Ajouter** pour ajouter vos commentaires dans la zone **Historique des commentaires**.
+
+
 
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-and-process-recurring-invoices"></a>Paramétrer et traiter des factures récurrentes
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article explique comment paramétrer et traiter les factures récurrentes. Vous pouvez utiliser des factures récurrentes si vous devez facturer des clients pour le même montant régulièrement.
 
 <a name="create-a-recurring-free-text-invoice-template"></a>Création d'un modèle de facture financière récurrente
@@ -61,5 +64,7 @@ Impression de factures financières récurrentes
 ----------------------------------
 
 Une fois les factures récurrentes validées, vous pouvez imprimer les factures à partir de la page de liste des factures financières. Vous pouvez imprimer les factures sélectionnées ou sélectionner une plage de factures à imprimer.
+
+
 
 

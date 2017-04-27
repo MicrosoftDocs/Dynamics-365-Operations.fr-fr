@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="electronic-signature-overview"></a>Vue d'ensemble de la signature électronique
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article fournit une vue d'ensemble des signatures électroniques et décrit leur utilisation dans Microsoft Dynamics 365 for Operations.
 
 <a name="what-is-an-electronic-signature"></a>Qu'est-ce qu'une signature électronique ?
@@ -35,7 +38,7 @@ Cet article fournit une vue d'ensemble des signatures électroniques et décrit 
 Une signature électronique confirme l'identité d'une personne qui va commencer ou approuver une procédure informatique. Dans certains secteurs, une signature électronique représente un engagement juridique aussi important qu'une signature manuscrite. La signature électronique est un impératif de conformité aux réglementations pour certaines industries réglementées, telles que les industries pharmaceutique, alimentaire et aérospatiale et de défense. C'est également un élément requis de la conformité aux réglementations 21 CFR Partie 11 émises par la FDA (Food and Drug Administration) aux États-Unis. **Remarque :** une signature électronique en elle-même n'est pas la même chose qu'une signature numérique. Une signature électronique n'est qu'un substitut de signature manuscrite, alors qu'une signature numérique est accompagnée de mesures de sécurité supplémentaires. Une signature numérique permet d'identifier si un autre utilisateur ou une autre procédure a falsifié les données. Une signature numérique peut également être vérifiée et cette vérification ne peut pas être réfutée par le détenteur du certificat utilisé pour la signature des données. Conformément à la description ci-dessous, les signatures électroniques de Microsoft Dynamics 365 for Operations disposent d'une fonction de signature numérique intégrée.
 
 ## <a name="electronic-signatures-in-dynamics-365-for-operations"></a>Signatures électroniques dans Microsoft Dynamics 365 for Operations
-Dans Dynamics 365 for Operations, vous pouvez utiliser des signatures électroniques pour des processus d'entreprise importants. Certains processus disposent d'une fonction de signature électronique intégrée. Vous pouvez également créer des demandes de signature personnalisées pour les tables et les champs de base de données. Les signatures électroniques disposent d'une fonction de signature numérique intégrée. Chaque utilisateur qui signe des documents doit obtenir un certificat cryptographique valide. Lorsqu'un document est signé, la clé privée associée à ce certificat est contrôlée. Dynamics 365 for Operations enregistre des informations de signature électronique dans un journal pour fournir une piste d'audit. Pour paramétrer des signatures électroniques, voir [paramétrer signatures électroniques (Guide de tâche)](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/).
+Dans Dynamics 365 for Operations, vous pouvez utiliser des signatures électroniques pour des processus d'entreprise importants. Certains processus disposent d'une fonction de signature électronique intégrée. Vous pouvez également créer des demandes de signature personnalisées pour les tables et les champs de base de données. Les signatures électroniques disposent d'une fonction de signature numérique intégrée. Chaque utilisateur qui signe des documents doit obtenir un certificat cryptographique valide. Lorsqu'un document est signé, la clé privée associée à ce certificat est contrôlée. Dynamics 365 for Operations enregistre des informations de signature électronique dans un journal pour fournir une piste d'audit. Pour configurer les signatures électroniques, consultez [Paramétrage de signatures électroniques (guide de tâche)](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/).
 
 ## <a name="users-who-require-access-to-electronic-signatures"></a>Utilisateurs ayant besoin d'un accès aux signatures électroniques
 Trois types d'utilisateurs différents ont généralement besoin d'un accès de sécurité aux signatures électroniques : les administrateurs de signature électronique, les signataires et les auditeurs.
@@ -78,6 +81,8 @@ Il est possible que vous souhaitiez qu'un utilisateur signe les modifications ap
 1.  Sur la page **Options**, sur l'onglet **Comptes**, cliquez sur **Désigner l’approbateur**.
 2.  Dans le champ **ID utilisateur approbateur**, sélectionnez l'ID de l'utilisateur qui doit signer les modifications d'un autre utilisateur.
 3.  Dans le champ **Signer pour l'ID utilisateur**, sélectionnez l'ID de l'utilisateur dont les modifications doivent être signées.
+
+
 
 
 

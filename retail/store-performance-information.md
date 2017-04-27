@@ -1,6 +1,6 @@
 ---
 title: Analyse des performances de magasin
-description: "Cet article décrit comment utiliser la en mémoire et analyses en temps réel pour accéder, explorer, et d&quot;obtenir une analyse sur les performances du magasin, selon votre Microsoft Dynamics 365 pour les données d&quot;opérations."
+description: "Cet article détaille la manière dont vous pouvez utiliser les analyses en mémoire et en temps réel pour accéder, explorer et obtenir un aperçu des performances des magasins, selon vos données Microsoft Dynamics 365 for Operations."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 57811
 ms.assetid: 495a66f0-491a-4688-842d-51c33c37676f
 ms.search.region: global
@@ -27,13 +27,16 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="analyze-store-performance"></a>Analyse des performances de magasin
 
-Cet article décrit comment utiliser la en mémoire et analyses en temps réel pour accéder, explorer, et d'obtenir une analyse sur les performances du magasin, selon votre Microsoft Dynamics 365 pour les données d'opérations. 
+[!include[banner](includes/banner.md)]
 
-Dans le cadre de Dynamics 365 pour les opérations, les utilisateurs peuvent trouver les performances du magasin dans le {{réel:in}} entre différents niveaux de la hiérarchie d'organisation au cours d'une période sélectionnée en ouvrant le - de zone ** synthèse de canal ** états de aucun des emplacements :
 
--   ** La gestion de Retail ** l'espace de travail Dynamics 365 pour les opérations &gt; ** au détail et le commerce ** &gt; ** des canaux ** &gt; ** gestion de Retail ** &gt; ** les états ** &gt; ** acheminent rapport de synthèse **
--   ** Les finances du magasin de vente au détail ** l'espace de travail Dynamics 365 pour les opérations &gt; ** au détail et le commerce ** &gt; ** des canaux ** &gt; ** les finances du magasin de vente au détail ** &gt; ** les états ** &gt; ** acheminent rapport de synthèse **
--   ** Les recherches et les états Dynamics ** section 365 pour les opérations &gt; ** au détail et le commerce ** &gt; ** les recherches et les états ** &gt; ** les états de ventes ** &gt; ** acheminent rapport de synthèse **
+Cet article détaille la manière dont vous pouvez utiliser les analyses en mémoire et en temps réel pour accéder, explorer et obtenir un aperçu des performances des magasins, selon vos données Microsoft Dynamics 365 for Operations. 
+
+Dans le cadre de Microsoft Dynamics 365 for Operations, les utilisateurs peuvent étudier les performances d'un magasin en temps réel entre différents niveaux de la hiérarchie d'organisation sur une période sélectionnée en ouvrant l'état **Synthèse du canal** à partir de l'un des emplacements suivants :
+
+-   Espace de travail **Gestion du magasin de vente au détail** dans Dynamics 365 for Operations &gt; **Commerce et vente au détail** &gt; **Canaux** &gt; **Gestion du magasin de vente au détail** &gt; **États** &gt; **État de synthèse du canal**
+-   Espace de travail **Finances du magasin de vente au détail** dans Dynamics 365 for Operations &gt; **Commerce et vente au détail** &gt; **Canaux** &gt; **Finances du magasin de vente au détail** &gt; **États** &gt; **État de synthèse du canal**
+-   Section **Recherches et états** dans Dynamics 365 for Operations &gt; **Commerce et vente au détail** &gt; **Recherches et états** &gt; **États des ventes** &gt; **État de synthèse du canal**
 
 Cet état fournit un instantané des synthèses suivantes dans le cadre des performances du magasin :
 
@@ -42,4 +45,6 @@ Cet état fournit un instantané des synthèses suivantes dans le cadre des perf
 -   Récapitulatif de la taxe
 -   Synthèse du remplacement des prix
 -   Synthèse des remises
+
+
 

@@ -28,11 +28,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reverse-a-vendor-payment"></a>Contrepasser un paiement fournisseur
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article décrit les différences entre contrepasser, supprimer, annuler et rejeter un paiement. En outre, il détaille les deux méthodes pour contrepasser une vérification fournisseur. 
 
-Parfois, après la validation d'un paiement fournisseur, le paiement doit être contrepassé. La contrepassation est différente de la suppression, de l'annulation ou du rejet d'un paiement. Vous pouvez supprimer un paiement uniquement si son statut est **Créé**. Ce statut indique que le paiement a été créé mais n'a pas encore été généré. Cette limitation s'applique toujours, indépendamment du mode de paiement. Vous pouvez annuler les chèques non validés après avoir été générés mais avant qu'ils ont été validés. Si le paiement généré est effectué comme fonctionnement (EFT), vous pouvez rejeter le paiement avant d'avoir validé. Pour rejeter un paiement, modifiez ** statut de paiement ** la valeur. Un paiement annulé ou rejeté peut être régénéré après ** statut de paiement ** la valeur peut être modifiée est rétabli ** aucun **. 
+Parfois, après la validation d'un paiement fournisseur, le paiement doit être contrepassé. La contrepassation est différente de la suppression, de l'annulation ou du rejet d'un paiement. Vous pouvez supprimer un paiement uniquement si son statut est **Créé**. Ce statut indique que le paiement a été créé mais n'a pas encore été généré. Cette limitation s'applique toujours, indépendamment du mode de paiement. Vous pouvez annuler les chèques non validés après qu'ils ont été générés mais avant qu'ils n'aient été validés. Si le paiement généré est effectué comme transfert électronique de fonds(TEF), vous pouvez rejeter le paiement avant de l'avoir validé. Pour rejeter un paiement, modifiez la valeur du **Statut du paiement**. Un paiement annulé ou rejeté peut être régénéré après que la valeur **Statut du paiement** a été rétablie à **Aucun**. 
 
-Une fois le paiement est validé, des contrepassations sont utilisées. Les paiements effectués par voie électronique ne peuvent pas être contrepassés une fois qu'ils ont été validés. Au lieu de cela, une nouvelle transaction doit être créée pour le montant du paiement pour extraire le passif sur le compte du fournisseur. Il existe deux méthodes pour contrepasser les chèques validés. Dans la première méthode, les contrepassations sont validées immédiatement lorsque vous cliquez sur **Contrepassation de paiement** dans la page **Chèque**. Dans la deuxième méthode, lorsque vous cliquez sur **Contrepassation de paiement** dans la page **Chèque**, la contrepassation est envoyée au journal de contrepassation des chèques du module Gestion des fonds et des banques, dans lequel un réviseur peut valider ou rejeter la contrepassation. 
+Une fois le paiement validé, les contrepassations sont utilisées. Les paiements effectués par voie électronique ne peuvent pas être contrepassés une fois qu'ils ont été validés. À la place, une nouvelle transaction doit être créée pour le montant du paiement pour redéfinir le passif sur le compte du fournisseur. Il existe deux méthodes pour contrepasser des chèques validés. Dans la première méthode, les contrepassations sont validées immédiatement lorsque vous cliquez sur **Contrepassation de paiement** dans la page **Chèque**. Dans la deuxième méthode, lorsque vous cliquez sur **Contrepassation de paiement** dans la page **Chèque**, la contrepassation est envoyée au journal de contrepassation des chèques du module Gestion des fonds et des banques, dans lequel un réviseur peut valider ou rejeter la contrepassation. 
 
 Pour connaître la méthode utilisée par votre organisation, affichez la page **Paramètres de gestion des disponibilités et des banques**. Si l'option **Utiliser le processus de révision pour les contrepassations de paiement** est définie sur **Oui**, les contrepassations sont envoyées au journal de contrepassation des chèques pour révision. Le tableau suivant décrit les différences entre les méthodes de contrepassation de chèques.
 
@@ -57,7 +60,7 @@ Si vous êtes un utilisateur qui doit réviser les contrepassations, vous pouvez
 -   Pour rejeter la contrepassation, supprimez le journal de contrepassation des chèques.
 
 > [!NOTE]
-> Si vous supprimez le journal, la contrepassation est supprimée du système, mais le chèque original reste dans ** chèque ** la page. Le statut du chèque n'est plus **Annulation en attente**.
+> Si vous supprimez le journal, la contrepassation est supprimée du système, mais le chèque d'origine figure toujours dans la page **Chèque**. Le statut du chèque n'est plus **Annulation en attente**.
 
 ## <a name="results-of-posting-a-reversal"></a>Résultats de la validation d'une contrepassation
 Lorsque vous validez la contrepassation d'un chèque, les événements suivants se produisent :
@@ -78,6 +81,8 @@ Si le chèque contrepassé était émis pour un remboursement client, les évén
 
 -   Une transaction est validée pour le compte client pour la contrepassation du paiement et le règlement entre le paiement d'origine et le document pour lequel le paiement était réglé à l'origine est contrepassé (un paiement négatif est créé).
 -   Une contrepassation de paiement est réglée avec le paiement d'origine. Le champ **N° document dernier règlement** dans la page **Transactions client** pour le paiement d'origine du client est mis à jour pour refléter le n° document de la transaction contrepassée.
+
+
 
 
 

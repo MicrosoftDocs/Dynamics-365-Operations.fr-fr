@@ -1,6 +1,6 @@
 ---
 title: Commandes client hybrides
-description: "Une commande client hybride est un ordre unique, qui contient les produits qui peuvent être exécutés du magasin pour le client, ainsi que les produits qui sont prélevés ou ultérieurement expédiés."
+description: "Une commande client hybride est une commande unique, qui contient les produits qui peuvent être exécutés hors du magasin par le client, ainsi que les produits qui sont prélevés ou expédiés par la suite."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,18 +27,23 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="hybrid-customer-orders"></a>Commandes client hybrides
 
-Une commande client hybride est un ordre unique, qui contient les produits qui peuvent être exécutés du magasin pour le client, ainsi que les produits qui sont prélevés ou ultérieurement expédiés.
+[!include[banner](includes/banner.md)]
 
-Dans Microsoft Dynamics 365 pour les opérations - au détail, vous pouvez sélectionner effectuez tous les produits ou d'effectuer des produits sélectionnés pour une commande client. Les lignes de produit marquées comme effectuent sont automatiquement validées après l'ordre créé, de la même façon qu'il est identique pour une commande qui doit être ramassé une fois l'ordre créé. Le montant dû sur les ordres hybrides est déterminé en ajoutant le pourcentage de dépôt prélèvement en fonction et les lignes de produits d'expédition et le montant total des lignes de mise en œuvre. Pour les ordres hybrides, le système passe du mode de commande client et le mode de paiement comptant sans livraison comme suit :
 
--   Si tous les produits du chariot sont définis ** effectuez la livraison **, l'ordre est géré comme transaction cash-and-carry.
--   Si tout ou partie des lignes dans le chariot sont définies sur ou ** prélevez ** ou ** la livraison d'expédition **, l'ordre est géré comme transaction de commande client.
+Une commande client hybride est une commande unique, qui contient les produits qui peuvent être exécutés hors du magasin par le client, ainsi que les produits qui sont prélevés ou expédiés par la suite.
 
-Si une ligne de chariot est activée et ** Pick sélectionné **, ** l'expédition est sélectionné **, ou ** Carry out sélectionnée ** est sélectionné, seule la ligne spécifique de chariot est définie avec ce mode de livraison. Dans ce cas, le flux en aval de l'opération continue normalement. Toutefois, si ** Pick a sélectionné **, ** l'expédition est sélectionné **, ou ** Carry out sélectionnée ** est sélectionné sans ligne de chariot est activée, une nouvelle page s'ouvre qui répertorie toutes les lignes de chariot. Dans cet écran, vous pouvez sélectionner plusieurs lignes immédiatement pour définir le mode de livraison. Lorsque vous utilisez cette méthode pour sélectionner les lignes, tout mode de livraison précédent affecté à la ligne sera remplacé.
+Dans Microsoft Dynamics 365 for Operations - Vente au détail, vous pouvez choisir d'exécuter tous les produits ou des produits sélectionnés pour une commande client. Les lignes de produit marquées comme exécutées sont automatiquement facturées après la création de la commande, de la même façon que pour une commande qui doit être traitée une fois la commande créée. Le montant dû sur les commandes hybrides est déterminé en ajoutant le pourcentage de dépôt lors du traitement et de l'expédition des lignes de produits avec le montant total des lignes d'exécution. Pour les commandes hybrides, le système bascule entre le mode de commande client et le mode paiement comptant sans livraison comme suit :
+
+-   Si tous les produits du chariot sont définis sur **Exécuter le mode de livraison**, la commande sera gérée comme une transaction avec paiement comptant sans livraison.
+-   Si tout ou partie des lignes du chariot sont définies sur **Prélever** ou **Expédier la livraison**, la commande sera gérée comme une transaction de commande client.
+
+Si une ligne de chariot est sélectionnée et que l'option **Prélever la sélection**, **Expédition sélectionnée** ou **Exécuter la sélection** est sélectionnée, seule la ligne de chariot spécifique est définie avec ce mode de livraison. Dans ce cas, le flux en aval de l'opération continue normalement. Toutefois, si l'option **Prélever la sélection**, **Expédition sélectionnée** ou **Exécuter la sélection** est sélectionnée sans ligne de chariot sélectionnée, une nouvelle page s'ouvre qui répertorie toutes les lignes de chariot. Dans cet écran, vous pouvez sélectionner plusieurs lignes en une seule fois pour définir le mode de livraison. Lorsque vous utilisez cette méthode pour sélectionner les lignes, le mode de livraison précédent affecté à la ligne sera remplacé.
 
 <a name="see-also"></a>Voir également :
 --------
 
-[Vue d'ensemble des commandes client] (customer-orders-overview.md)
+[Vue d'ensemble des commandes client](customer-orders-overview.md)
+
+
 
 

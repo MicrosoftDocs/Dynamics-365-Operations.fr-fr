@@ -1,6 +1,6 @@
 ---
-title: "Déterminez la version de nomenclature"
-description: "Lors de l&quot;éclatement de la demande, si un article a le type de commande par défaut de production, le moteur de planification détecte une version de nomenclature valide selon le site."
+title: "Déterminer la version de nomenclature"
+description: "Lors de l&quot;éclatement d&quot;une demande, si le type d&quot;ordre par défaut d&quot;un article est défini sur Production, le moteur de planification détecte une version de nomenclature valide dans le site."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="determine-the-bom-version"></a>Déterminez la version de nomenclature
+# <a name="determine-the-bom-version"></a>Déterminer la version de nomenclature
 
-Lors de l'éclatement de la demande, si un article a le type de commande par défaut de production, le moteur de planification détecte une version de nomenclature valide selon le site. 
+[!include[banner](../includes/banner.md)]
+
+
+Lors de l'éclatement d'une demande, si le type d'ordre par défaut d'un article est défini sur Production, le moteur de planification détecte une version de nomenclature valide dans le site. 
 
 La dimension du site est toujours identifiée et indiquée dans la transaction de demande. Le processus suivant permet de déterminer la version de nomenclature à utiliser :
 
@@ -38,6 +41,8 @@ La dimension du site est toujours identifiée et indiquée dans la transaction d
 -   S'il n'y a aucune version de nomenclature à utiliser, l'éclatement de la demande est arrêté à ce stade.
 
 Une version de nomenclature valide (spécifique au site ou générale) doit satisfaire aux critères requis de date et de quantité.
+
+
 
 
 

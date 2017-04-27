@@ -1,6 +1,6 @@
 ---
 title: "Définir et tenir à jour les canaux de vente au détail"
-description: "Cet article anticipe une vue d&quot;ensemble du processus de paramétrer les magasins de brique-et- physiques, faisant référence à des magasins de vente au détail dans Microsoft Dynamics 365 pour les opérations. Il inclut des informations sur les tâches que vous devez effectuer avant et après avoir paramétré un magasin de vente au détail."
+description: "Cet article fournit une vue d&quot;ensemble du processus de paramétrage des magasins traditionnels, qui sont appelés des magasins de vente au détail dans Microsoft Dynamics 365 for Operations. Il inclut des informations sur les tâches que vous devez effectuer avant et après avoir paramétré un magasin de vente au détail."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -10,7 +10,7 @@ ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: RetailStoreTable, RetailStoreTableListPagePreviewPane
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 16481
 ms.assetid: 14496d96-1c72-43ce-a2e7-8467bab4ae46
 ms.search.region: Global
@@ -28,12 +28,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="define-and-maintain-retail-channels"></a>Définir et tenir à jour les canaux de vente au détail
 
-Cet article anticipe une vue d'ensemble du processus de paramétrer les magasins de brique-et- physiques, faisant référence à des magasins de vente au détail dans Microsoft Dynamics 365 pour les opérations. Il inclut des informations sur les tâches que vous devez effectuer avant et après avoir paramétré un magasin de vente au détail.
+[!include[banner](includes/banner.md)]
 
-La vente au détail et le commerce dans Dynamics 365 pour les opérations prend en charge les canaux de vente au détail multiples, tels que des magasins en ligne, des centres d'appels, et les magasins de brique-et- physiques. Dans Retail and commerce, les magasins physiques sont également appelés magasins de vente au détail. Chaque magasin de vente au détail peut proposer son propre mode de paiement, ses propres groupes de prix, ses propres caisses enregistreuses de PDV, ses propres comptes de revenus et de dépenses et son propre personnel. Vous devez définir tous ces éléments pour un magasin de vente au détail avant de le créer. Une fois le magasin de vente au détail créé, vous affectez les produits dont vous souhaitez la présence dans ce magasin. Vous affectez également des employés, des caisses enregistreuses et des clients au magasin. Enfin, vous ajoutez le nouveau magasin à une hiérarchie d'organisation.
+
+Cet article fournit une vue d'ensemble du processus de paramétrage des magasins traditionnels, qui sont appelés des magasins de vente au détail dans Microsoft Dynamics 365 for Operations. Il inclut des informations sur les tâches que vous devez effectuer avant et après avoir paramétré un magasin de vente au détail.
+
+Le module Commerce et vente au détail de Dynamics 365 for Operations prend en charge plusieurs canaux de vente au détail, tels que les magasins en ligne, les magasins traditionnels, et les centres d'appels. Dans Retail and commerce, les magasins physiques sont également appelés magasins de vente au détail. Chaque magasin de vente au détail peut proposer son propre mode de paiement, ses propres groupes de prix, ses propres caisses enregistreuses de PDV, ses propres comptes de revenus et de dépenses et son propre personnel. Vous devez définir tous ces éléments pour un magasin de vente au détail avant de le créer. Une fois le magasin de vente au détail créé, vous affectez les produits dont vous souhaitez la présence dans ce magasin. Vous affectez également des employés, des caisses enregistreuses et des clients au magasin. Enfin, vous ajoutez le nouveau magasin à une hiérarchie d'organisation.
 
 ## <a name="setting-up-retail-stores"></a>Paramétrage des magasins de vente au détail
-Avant de paramétrer un magasin de vente au détail dans Dynamics 365 pour les opérations, vous devez effectuer certaines tâches nécessaires. Vous pouvez ensuite créer le magasin de vente au détail et ajouter des informations.
+Avant de paramétrer un magasin de vente au détail dans Dynamics 365 for Operations, vous devez exécuter certaines tâches préalables. Vous pouvez ensuite créer le magasin de vente au détail et ajouter des informations.
 
 ### <a name="prerequisites"></a>Logiciels requis
 
@@ -49,7 +52,7 @@ Vous devez exécuter certaines tâches préalables avant de paramétrer un magas
 8.  Paramétrez les produits vendus au détail. Dans le cadre de cette tâche, vous paramétrez également des hiérarchies des produits vendus au détail, des variantes de produit et des assortiments de produits.
 9.  Configurez les groupes de prix de produits.
 10. Définissez la tarification des produits vendus au détail. Dans le cadre de cette tâche, vous paramétrez également des ajustements de prix, des remises et des périodes de remise.
-11. Paramétrez les membres du personnel. ** Remarque : ** Vous devez également affecter des autorisations appropriées aux travailleurs, afin qu'ils puissent s'inscrire dans et effectuer des tâches à l'aide de Dynamics 365 pour les opérations pour le système de Retail POS.
+11. Paramétrez les membres du personnel. **Remarque :** vous devez également attribuer des autorisations appropriées aux collaborateurs pour qu'ils puissent se connecter et effectuer des tâches dans Dynamics 365 for Operations pour le système Retail POS.
 12. Configurez les profils Retail POS à affecter au magasin. Cette tâche inclut plusieurs autres tâches, comme le paramétrage des registres, le paramétrage des profils hors ligne, et le paramétrage des formats de réception et les profils.
 
 Examinez toutes les tâches incluses dans les conditions préalables et n'effectuez que celles qui vous concernent.
@@ -77,5 +80,7 @@ Une fois les détails du magasin de vente au détail, entreprenez ces tâches po
 
 ## <a name="organization-hierarchies"></a>Hiérarchies d'organisation
 Retail utilise des hiérarchies d'organisation dans Microsoft Dynamics AX pour structurer des canaux de vente au détail. Les hiérarchies d'organisation représentent les relations entre les organisations qui composent votre entreprise. Lorsque vous paramétrez des magasins, vous pouvez les ajouter à une hiérarchie d'organisation. Les magasins partagent ensuite les données utilisées pour les assortiments, le réapprovisionnement et la génération d'états.
+
+
 
 

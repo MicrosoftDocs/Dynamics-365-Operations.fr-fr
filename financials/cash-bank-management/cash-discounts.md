@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="cash-discounts"></a>Escomptes de règlement
 
+[!include[banner](../includes/banner.md)]
+
+
 Les escomptes de règlement sont paramétrés et partagés pour la Comptabilité fournisseur et la Comptabilité client.  L'escompte de règlement disponible peut être défini sur la facture client ou la facture fournisseur, et sera utilisé si la facture est payée pendant la période d'escompte de règlement. 
 
 <a name="cash-discounts"></a>Escomptes de règlement
@@ -61,8 +64,8 @@ La devise comptable de votre entité juridique est EUR et les taux de change sui
 -   1er février = 110
 -   1er mars = 80
 
-Une facture de 1 000 USD avec des conditions d'escompte de règlement de 20D2% est validée le 15 février. Le montant de la facture, exprimé en devise comptable, est de 1 100 EUR. Un paiement de 980 USD est réglé avec la facture le 1er mars. Le montant de l'escompte de règlement est de 20 USD. Le montant du paiement en devise comptable est de 784 EUR. Montant de la devise comptable de l'escompte de règlement est calculé à l'aide de le taux de change à partir du 1er mars : 20 \* 80/100 = EUR 16.
-| **Note**                                                                                                                                                                                                                             |
+Une facture de 1 000 USD avec des conditions d'escompte de règlement de 20D2% est validée le 15 février. Le montant de la facture, exprimé en devise comptable, est de 1 100 EUR. Un paiement de 980 USD est réglé avec la facture le 1er mars. Le montant de l'escompte de règlement est de 20 USD. Le montant du paiement en devise comptable est de 784 EUR. Le montant de l'escompte de règlement, exprimé en devise comptable, est calculé à partir du taux de change du 1er mars : 20 \* 80 / 100 = 16 EUR.
+| **Remarque**                                                                                                                                                                                                                             |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Si l'option Calcule les escomptes de règlement pour les paiements partiels est sélectionnée dans les pages Paramètres de la comptabilité client ou Paramètres de la comptabilité fournisseur, le taux de change en vigueur à la date de chaque paiement partiel est utilisé. |
 
@@ -70,5 +73,7 @@ Une facture de 1 000 USD avec des conditions d'escompte de règlement de 20D2%
 =
 
  
+
+
 
 

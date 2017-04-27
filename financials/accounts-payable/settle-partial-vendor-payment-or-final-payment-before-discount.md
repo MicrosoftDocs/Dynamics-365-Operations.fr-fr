@@ -1,5 +1,5 @@
 ---
-title: "Règlement d&quot;un paiement partiel fournisseur et le paiement final dans son intégralité avant la date d&quot;escompte"
+title: "Règlement d&quot;un paiement fournisseur partiel et règlement total du paiement final avant la date de remise"
 description: "Cet article vous fait parcourir les étapes d&quot;un scénario dans lequel des paiements partiels sont effectués pour une facture fournisseur et un escompte de règlement est prélevé."
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Règlement d'un paiement partiel fournisseur et le paiement final dans son intégralité avant la date d'escompte
+# <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Règlement d'un paiement fournisseur partiel et règlement total du paiement final avant la date de remise
+
+[!include[banner](../includes/banner.md)]
+
 
 Cet article vous fait parcourir les étapes d'un scénario dans lequel des paiements partiels sont effectués pour une facture fournisseur et un escompte de règlement est prélevé.
 
-Fabrikam achète des marchandises du fournisseur 3064. Le fournisseur octroie à Fabrikam un escompte de règlement de 1 % % si la facture est payée dans les 14 jours. Les factures doivent être réglées dans les 30 jours. Le fournisseur offre également à Fabrikam des escomptes de règlement en cas de paiements partiels. Les paramètres de règlement sont situés sous ** des paramètres des achats ** la page. Le 25 juin, April entre une facture de 1 000,00 pour le fournisseur 3064.
+Fabrikam achète des marchandises au fournisseur 3064. Le fournisseur accorde à Fabrikam un escompte de règlement de 1 % si la facture est payée sous 14 jours. Les factures doivent être réglées dans les 30 jours. Le fournisseur offre également à Fabrikam des escomptes de règlement en cas de paiements partiels. Les paramètres de règlement sont situés dans la page **Paramètres de la comptabilité fournisseur**. Le 25 juin, April entre une facture de 1 000,00 pour le fournisseur 3064.
 
 ## <a name="vendor-invoice-on-june-25"></a>Facture fournisseur du 25 juin
-Le 25 juin, avril entre et valide une facture de 1.000,00 pour le fournisseur 3064. Elle peut consulter cette transaction sur la page **Transactions fournisseur**.
+Le 25 juin, April entre et valide une facture de 1 000,00 pour le fournisseur 3064. Elle peut consulter cette transaction sur la page **Transactions fournisseur**.
 
 | N° document   | Date      | Facture | Montant au débit dans la devise de transaction | Montant au crédit dans la devise de transaction | Solde   | Devise |
 |-----------|-----------|---------|--------------------------------------|---------------------------------------|-----------|----------|
@@ -63,7 +66,7 @@ April clique sur l'onglet **Escompte de règlement** pour afficher le montant de
 | 7/25/2015          | 0,00                 | 1 000,00                       |
 
 ## <a name="partial-payment-on-july-1-by-using-the-settle-transactions-page"></a>Paiement partiel le 1er juillet à l'aide de la page Régler les transactions
-April peut créer un journal des paiements pour ce paiement en ouvrant la page **Journal des paiements** du module Achats. Elle créer un nouveau journal et entrez une ligne pour le fournisseur 3064. Elle ouvre alors ** des transactions de règlement ** la page, afin qu'elle puisse marquer la facture pour règlement. April marque la facture et remplace la valeur du champ **Montant à régler** par **-500,00**. Elle constate que la valeur du champ **Montant de l'escompte de règlement** est **-10,00** pour la facture complète, et que la valeur du champ **Montant de l'escompte de règlement à accepter** est **-5,05**. Par conséquent, April règle -505,05 de cette facture.
+April peut créer un journal des paiements pour ce paiement en ouvrant la page **Journal des paiements** du module Achats. Elle crée un journal de paiement et entre une ligne pour le fournisseur 3064. Elle ouvre ensuite la page **Régler les transactions**, afin de pouvoir marquer la facture pour règlement. April marque la facture et remplace la valeur du champ **Montant à régler** par **-500,00**. Elle constate que la valeur du champ **Montant de l'escompte de règlement** est **-10,00** pour la facture complète, et que la valeur du champ **Montant de l'escompte de règlement à accepter** est **-5,05**. Par conséquent, April règle -505,05 de cette facture.
 
 | Marquer     | Utiliser un escompte de règlement | N° document   | Compte | Date      | Date d'échéance  | Facture | Montant dans la devise de transaction | Devise | Montant à régler |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -95,7 +98,7 @@ Les informations de remise s'affichent au bas de la page **Régler les transacti
 | Escompte de règlement appliqué          | 0,00      |
 | Montant de l'escompte de règlement à accepter | -5,00     |
 
-April ferme la page **Régler les transactions**. Une ligne de paiement pour 495,00 est créée dans le journal, puis April valide le journal. Elle peut consulter les transactions fournisseur sous ** des transactions fournisseur ** la page. Elle constate que la facture avec le solde -500,00. Elle voit également un paiement de 495,00 et un escompte de règlement de 5,00.
+April ferme la page **Régler les transactions**. Une ligne de paiement pour 495,00 est créée dans le journal, puis April valide le journal. Elle peut consulter les transactions fournisseur dans la page **Transactions fournisseur**. Elle constate que la facture a un solde de -500,00. Elle voit également un paiement de 495,00 et un escompte de règlement de 5,00.
 
 | N° document    | Type de transaction | Date      | Facture | Montant au débit dans la devise de transaction | Montant au crédit dans la devise de transaction | Solde | Devise |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|
@@ -136,6 +139,8 @@ April valide le journal des paiements et consulte les transactions fournisseur s
 | DISC-10010 | Escompte de règlement    | 7/1/2015  |         | 5,00                                 |                                       | 0,00    | USD      |
 | APP-10011  | Paiement          | 7/8/2015  |         | 495,00                               |                                       | 0,00    | USD      |
 | DISC-10011 | Escompte de règlement    | 7/8/2015  |         | 5,00                                 |                                       | 0,00    | USD      |
+
+
 
 
 

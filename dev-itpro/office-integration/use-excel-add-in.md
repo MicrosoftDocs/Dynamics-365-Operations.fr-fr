@@ -1,6 +1,6 @@
 ---
-title: Utilisez Excel)
-description: "Cette rubrique explique comment ouvrir les données d&quot;entité dans Microsoft Excel, puis afficher, mettre à jour, et modifier les données à l&quot;aide de le complément Office de Microsoft Dynamics pour Excel. Pour ouvrir les données d&quot;entité, vous pouvez commencer à partir de Excel ou de Microsoft Dynamics 365 pour les opérations."
+title: "Utiliser le module complémentaire Excel"
+description: "Cette rubrique explique comment ouvrir des données d&quot;entité dans Microsoft Excel, puis les étudier, les mettre à jour et les modifier à l&quot;aide du module complémentaire Microsoft Dynamics Office pour Excel. Pour ouvrir les données d&quot;entité, vous pouvez commencer à partir d&quot;Excel ou de Microsoft Dynamics 365 for Operations."
 author: ChrisGarty
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,69 +24,69 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="use-the-excel-add-in"></a>Utilisez Excel)
+# <a name="use-the-excel-add-in"></a>Utiliser le module complémentaire Excel
 
-Cette rubrique explique comment ouvrir les données d'entité dans Microsoft Excel, puis afficher, mettre à jour, et modifier les données à l'aide de le complément Office de Microsoft Dynamics pour Excel. Pour ouvrir les données d'entité, vous pouvez commencer à partir de Excel ou de Microsoft Dynamics 365 pour les opérations.
+Cette rubrique explique comment ouvrir des données d'entité dans Microsoft Excel, puis les étudier, les mettre à jour et les modifier à l'aide du module complémentaire Microsoft Dynamics Office pour Excel. Pour ouvrir les données d'entité, vous pouvez commencer à partir d'Excel ou de Microsoft Dynamics 365 for Operations.
 
-Si vous ouvrez les données d'entité dans Microsoft Excel, vous pouvez rapidement et facilement afficher et modifier les données à l'aide de le complément Office de Microsoft Dynamics pour Excel. Ce complément nécessite Microsoft Excel 2016. ** Remarque : ** Si votre locataire azuré Microsoft Active Directory (ANNONCE azurée) est configuré pour utiliser les services de fédération d'Active Directory (ANNONCE FS), vous devez vous assurer que la mise à jour du mai 2016 a été appliquée, afin qu'Excel complément puisse correctement vous inscrire dans.
+En ouvrant des données d'entité dans Microsoft Excel, vous pouvez rapidement les étudier et les modifier à l'aide du module complémentaire Microsoft Dynamics Office pour Excel. Ce module complémentaire nécessite Microsoft Excel 2016. **Remarque :** si votre location Microsoft Azure Active Directory (Azure AD) est configurée pour utiliser les services AD FS (Active Directory Federation Services), vous devez vous assurer que la mise à jour de mai 2016 a été appliquée, de sorte de pouvoir vous connecter correctement au module complémentaire Excel.
 
-## <a name="open-entity-data-in-excel-when-you-start-from-dynamics-365-for-operations"></a>Ouvrez les données d'entité dans Excel lorsque vous commencez à partir de Dynamics 365 pour les opérations
-1.  Dans une page dans Microsoft Dynamics 365 pour les opérations, cliquez sur ** cours dans Microsoft Office **. Si la source de données racine (tables) de la page est identique à la source de données racine pour toutes les entités, valeur par défaut ** en cours dans Excel ** des options sont générés pour la page. ** En cours dans Excel ** options peut être trouvé dans les pages fréquemment utilisées, par exemple ** tous les fournisseurs ** et ** tous les clients **.
-2.  Cliquez sur ** cours dans Excel ** une option, puis ouvrez le classeur qui est généré. Ce classeur dispose des informations de liaison pour l'entité, un pointeur à votre environnement, et un pointeur dans Excel synthèse.
-3.  Dans Excel, cliquez sur ** activez la modification ** pour permettre à Excel synthèse pour exécuter. Les exécutions complément Excel dans un volet à droite de la fenêtre de calcul Excel.
-4.  Si vous exécutez Excel synthèse pour la première fois, cliquez sur ** faites confiance à cet complément **.
-5.  Si vous êtes invité à signer dans, cliquez sur ** connectez **, puis connectez à l'aide de les mêmes informations d'identification que vous signer électroniquement dans vers Dynamics 365 pour les opérations. Excel complément utilise un précédent {{signe-:sign-in}} {{dans:sign-in}} le contexte d'Internet Explorer et vous signe automatiquement dans, s'il peut. Vérifiez, par conséquent le nom d'utilisateur dans le coin supérieur droit de calcul Excel synthèse.
+## <a name="open-entity-data-in-excel-when-you-start-from-dynamics-365-for-operations"></a>Ouvrir des données d'entité dans Excel au démarrage de Dynamics 365 for Operations
+1.  Dans une page de Microsoft Dynamics 365 for Operations, cliquez sur **Ouvrir dans Microsoft Office**. Si la source de données racine (tableau) de la page est identique à la source de données racine pour toutes les entités, les options par défaut **Ouvrir dans Excel** sont générées pour la page. Les options **Ouvrir dans Excel** se trouvent dans les pages fréquemment utilisées, telles que **Tous les fournisseurs** et **Tous les clients**.
+2.  Cliquez sur l'option **Ouvrir dans Excel** et ouvrez le classeur généré. Ce classeur dispose des informations de liaison pour l'entité, d'un pointeur vers votre environnement, et d'un pointeur vers le module complémentaire Excel.
+3.  Dans Excel, cliquez sur **Activer la modification** pour permettre l'exécution du module complémentaire Excel. Le module complémentaire Excel s'exécute dans un volet à droite de la fenêtre Excel.
+4.  Si vous exécutez le module complémentaire Excel pour la première fois, cliquez sur **Faire confiance à ce module complémentaire**.
+5.  Si vous êtes invité à vous connecter, cliquez sur **Connexion** et connectez-vous à l'aide des mêmes informations d'identification que pour Dynamics 365 for Operations. Le module complémentaire Excel utilise un contexte de connexion antérieur issu d'Internet Explorer et vous connecte automatiquement si c'est possible. Par conséquent, vérifiez le nom d'utilisateur dans le coin supérieur droit du module complémentaire Excel.
 
-Excel complément lit automatiquement les données de l'entité sélectionnée. Notez qu'il n'existe aucune donnée dans le classeur jusqu'à ce qu'Excel complément le lu dans.
+Le module complémentaire Excel lit automatiquement les données de l'entité sélectionnée. Notez qu'il n'existe aucune donnée dans le classeur tant que le module complémentaire Excel n'en a pas lue.
 
-## <a name="open-entity-data-in-excel-when-you-start-from-excel"></a>Ouvrez les données d'entité dans Excel lorsque vous commencez à partir de Excel
-1.  Dans Excel, sous ** insertion ** onglet, ** programmes complémentaires ** au groupe, cliquez sur ** magasin ** pour ouvrir le magasin Office.
-2.  Dans le magasin Office, le recherchez sur le mot clé « Dynamics, » et cliquez sur ** ajoutez ** en regard de ** complément Office de Microsoft Dynamics ** Excel (synthèse).
-3.  Si vous exécutez Excel synthèse pour la première fois, cliquez sur ** faites confiance à cet complément ** pour permettre à Excel synthèse pour exécuter. Les exécutions complément Excel dans un volet à droite de la fenêtre de calcul Excel.
-4.  Cliquez sur ** ajoutez les informations du serveur ** pour ouvrir ** options ** le volet.
-5.  Copiez l'URL du navigateur de votre Dynamics cible 365 pour les opérations Services, le collent dans ** URL du serveur ** le champ, puis supprimer tout après le nom de l'hôte (par exemple, ** Supprimer/? cmp=usmf&mi=CustTableListPage **). L'URL obtenues doit avoir le même nom d'hôte unique (par exemple, ** https://xxx.dynamics.com**).
-6.  Cliquez sur ** effectué correctement **, puis sur Oui ** ** pour confirmer la modification. Les programmes reprises de calcul Excel et les métadonnées de charges. ** Conception ** le bouton est désormais disponibles. Si Excel complément a a ** des applet de charge ** bouton Lignes, vous ne sont pas signés probablement dans comme utilisateur approprié. Pour plus d'informations, voir « applet de charge que le bouton s'affiche » dans la section « dépannage » dans cette rubrique.
-7.  Cliquez sur ** conception **. Excel complément récupère des métadonnées d'entité.
-8.  Cliquez sur ** ajoutez la table **. La liste des entités apparaît. Les entités sont répertoriées dans le nom « - » étiquetez le format.
-9.  Sélectionnez une entité dans la liste, tels que ** client - des clients **, puis cliquez sur Suivant ** **.
-10. Pour ajouter un champ ** les champs disponibles ** de la liste au ** les champs sélectionnés ** répertoriez, cliquez sur le champ, puis cliquez sur ** ajoutez **. Sinon, double-cliquez sur le champ.
-11. Après avoir ajouté les champs souhaités ** les champs sélectionnés ** à la liste, vérifiez que le curseur est à l'emplacement correct dans la feuille de calcul (par exemple, cellule A1), puis cliquez sur ** fait **. Cliquez ensuite sur ** fait ** pour quitter Concepteur.
-12. Cliquez sur ** l'actualisez ** pour extraire dans un ensemble de données.
+## <a name="open-entity-data-in-excel-when-you-start-from-excel"></a>Ouvrir les données d'entité dans Excel au démarrage à partir de Excel
+1.  Dans Excel, sous l'onglet **Insertion**, dans le groupe **Compléments**, cliquez sur **Store** pour ouvrir le magasin Office.
+2.  Dans le magasin Office, recherchez le mot clé « Dynamics » et cliquez sur **Ajouter** en regard de **Complément Microsoft Dynamics Office** (le complément Excel).
+3.  Si vous exécutez le module complémentaire Excel pour la première fois, cliquez sur **Faire confiance à ce module complémentaire** pour permettre l'exécution du complément Excel. Le module complémentaire Excel s'exécute dans un volet à droite de la fenêtre Excel.
+4.  Cliquez sur **Ajouter des informations sur le serveur** pour ouvrir le volet **Options**.
+5.  Copiez l'URL du navigateur de votre instance Dynamics 365 for Operations cible, collez-la dans le champ **URL du serveur**, puis supprimez tout après le nom de l'hôte (par exemple, supprimez **/?cmp=usmf&mi=CustTableListPage**). L'URL résultante doit comporter uniquement le nom d'hôte (par exemple, **https://xxx.dynamics.com**).
+6.  Cliquez sur **OK**, puis cliquez sur **Oui** pour confirmer la modification. Le complément Excel redémarre et charge les métadonnées. Le bouton **Conception** est désormais disponible. Si le complément Excel comporte un bouton **Charger les applets**, vous n'êtes probablement pas connecté sous le bon compte d'utilisateur. Pour plus d'informations, voir « Le bouton Charger les applets s'affiche » dans la section « Dépannage » de cette rubrique.
+7.  Cliquez sur **Conception**. Le complément Excel récupère les métadonnées d'entité.
+8.  Cliquez sur **Ajouter un tableau**. La liste des entités apparaît. Les entités sont répertoriées dans le format « Nom - Étiquette ».
+9.  Sélectionnez une entité dans la liste, telle que **Client - Clients**, puis cliquez sur **Suivant**.
+10. Pour ajouter un champ à partir de la liste **Champs disponibles** à la liste **Champs sélectionnés**, cliquez sur le champ, puis cliquez sur **Ajouter**. Sinon, double-cliquez sur le champ.
+11. Après avoir ajouté les champs souhaités à la liste **Champs sélectionnés**, vérifiez que le curseur est à l'emplacement correct dans la feuille de calcul (par exemple, la cellule A1), puis cliquez sur **Terminé**. Ensuite, cliquez sur **Terminé** pour quitter le concepteur.
+12. Cliquez sur **Actualiser** pour extraire un jeu de données.
 
-## <a name="view-and-update-entity-data-in-excel"></a>Permet d'afficher et de mettre à jour les données de l'entité dans Excel
-Après Excel complément lu les données d'entité dans le classeur, vous pouvez mettre à jour les données à tout moment en cliquant sur ** l'actualisez ** dans Excel synthèse.
+## <a name="view-and-update-entity-data-in-excel"></a>Afficher et mettre à jour des données d'entité dans Excel
+Après que le complément Excel a lu les données d'entité dans le classeur, vous pouvez mettre à jour les données à tout moment en cliquant sur **Actualiser** dans le complément Excel.
 
-## <a name="edit-entity-data-in-excel"></a>Modification des données d'entité dans Excel
-Vous pouvez modifier les données d'entité comme vous avez besoin et le publier ensuite de retour en cliquant sur ** publiez ** dans Excel synthèse. Pour modifier un enregistrement, sélectionnez une cellule de la feuille de calcul, puis modifiez la valeur de la cellule. Pour ajouter un nouvel enregistrement, suivez l'une des étapes suivantes :
+## <a name="edit-entity-data-in-excel"></a>Modifier des données d'entité dans Excel
+Vous pouvez modifier les données d'entité selon vos besoins, puis les publier en cliquant sur **Publier** dans le complément Excel. Pour modifier un enregistrement, sélectionnez une cellule de la feuille de calcul, puis modifiez sa valeur. Pour ajouter un nouvel enregistrement, suivez l'une des étapes suivantes :
 
--   Cliquez n'importe où dans la feuille de calcul, puis sur ** nouveau ** dans Excel synthèse.
--   Cliquez dans la dernière ligne de la feuille de calcul, puis appuyez sur la touche la clé de l'onglet jusqu'à ce que le curseur se déplace hors de la dernière colonne de cette ligne et une nouvelle ligne.
--   Cliquez sur la ligne immédiatement en dessous de la feuille de calcul, et début pour entrer des données dans une cellule. Lorsque vous déplacez la vue en dehors de cette cellule, la feuille de calcul la développe pour inclure la ligne.
+-   Cliquez n'importe où dans la feuille de calcul, puis sur **Nouveau** dans le complément Excel.
+-   Cliquez dans la dernière ligne de la feuille de calcul, puis appuyez sur la touche Tabulation jusqu'à ce que le curseur sorte de la dernière colonne de cette ligne et crée une nouvelle ligne.
+-   Cliquez sur la ligne immédiatement en dessous de la feuille de calcul, et entrez des données dans une cellule. Lorsque vous déplacez le focus hors de cette cellule, la feuille de calcul se développe pour inclure la nouvelle ligne.
 
 Pour supprimer un enregistrement, suivez l'une des étapes suivantes :
 
--   Cliquez avec le bouton droit sur le numéro de ligne en regard de la ligne de feuille de calcul à supprimer, puis cliquez sur Supprimer ** **.
--   Cliquez avec le bouton droit dans la ligne de feuille de calcul à supprimer, puis cliquez sur Supprimer ** ** &gt; ** les lignes de tables **.
+-   Cliquez avec le bouton droit sur le numéro de ligne en regard de la ligne de la feuille de calcul à supprimer, puis cliquez sur **Supprimer**.
+-   Cliquez avec le bouton droit dans la ligne de la feuille de calcul à supprimer, puis cliquez sur **Supprimer** &gt; **Lignes**.
 
 ## <a name="add-or-remove-columns"></a>Ajouter ou supprimer des colonnes
-Vous pouvez utiliser le Concepteur pour ajuster les colonnes qui sont automatiquement ajoutés à la feuille de calcul.
+Vous pouvez utiliser le concepteur pour ajuster les colonnes qui sont automatiquement ajoutées à la feuille de calcul.
 
-1.  Démarrez le concepteur de source de données Excel synthèse en cliquant sur ** des options ** se (bouton le symbole de vitesse) et en sélectionnant ** activez la conception ** la case à cocher.
-2.  Cliquez sur ** conception ** dans Excel synthèse. Toutes les sources de données sont répertoriées.
-3.  {{À:Next_to}} Les détails de la source de données, cliquez sur ** modifiez ** le bouton (le symbole de crayon).
-4.  Ajustez la liste dans ** les champs sélectionnés ** répertorient comme vous le voulez :
-    -   Pour ajouter un champ ** les champs disponibles ** de la liste au ** les champs sélectionnés ** répertoriez, cliquez sur le champ, puis cliquez sur ** ajoutez **. Sinon, double-cliquez sur le champ.
-    -   Pour supprimer un champ du ** les champs sélectionnés ** répertoriez, cliquez sur le champ, puis cliquez sur ** supprimez **. Sinon, double-cliquez sur le champ.
-    -   Pour modifier l'ordre de champs, cliquez sur le champ dans ** les champs sélectionnés ** liste, puis sur ** ** ou ** vers le bas **.
+1.  Démarrez le concepteur de source de données du complément Excel en cliquant sur le bouton **Options** (le symbole de l'engrenage) et en cochant la case **Activer la configuration**.
+2.  Cliquez sur **Conception** dans le complément Excel. Toutes les sources de données sont répertoriées.
+3.  À côté de la source de données, cliquez sur le bouton **Modifier** (le symbole du crayon).
+4.  Ajustez la liste dans la liste des **Champs sélectionnés** selon vos besoins :
+    -   Pour ajouter un champ à partir de la liste **Champs disponibles** à la liste **Champs sélectionnés**, cliquez sur le champ, puis cliquez sur **Ajouter**. Sinon, double-cliquez sur le champ.
+    -   Pour supprimer un champ de la liste **Champs sélectionnés**, cliquez sur le champ, puis cliquez sur **Supprimer**. Sinon, double-cliquez sur le champ.
+    -   Pour modifier l'ordre des champs, cliquez sur le champ dans la liste **Champs sélectionnés**, puis cliquez sur **Haut** ou **Bas**.
 
-5.  Permet d'appliquer les modifications à la source de données en cliquant sur ** mise à jour **. Cliquez ensuite sur ** fait ** pour quitter Concepteur. Si vous avez ajouté un champ (colonne), cliquez sur ** l'actualisez ** pour extraire dans un ensemble de données mis à jour.
+5.  Appliquez les modifications à la source de données en cliquant sur **Mettre à jour**. Ensuite, cliquez sur **Terminé** pour quitter le concepteur. Si vous avez ajouté un champ (colonne), cliquez sur **Actualiser** pour extraire un jeu de données mis à jour.
 
-## <a name="httpspowerappsmicrosoftcomenustutorialsdataplatforminteractiveexceltroubleshootingtroubleshooting"></a>[](https://powerapps.microsoft.com/enus/tutorials/dataplatforminteractiveexcel/#troubleshooting)Troubleshooting
-Il existe des problèmes pouvant être résolus dans certaines étapes faciles.
+## <a name="httpspowerappsmicrosoftcomenustutorialsdataplatforminteractiveexceltroubleshootingtroubleshooting"></a>[](https://powerapps.microsoft.com/enus/tutorials/dataplatforminteractiveexcel/#troubleshooting)Dépannage
+Il existe quelques problèmes pouvant être résolus en quelques pas.
 
--   ** Le bouton de l'applet de charge s'affiche. ** Si Excel complément a a ** des applet de charge ** appuyant sur Suivant {{signe-:sign-in}}, {{dans:sign-in}} vous ne sont pas signés probablement dans comme utilisateur approprié. Pour résoudre ce problème, vérifiez que le nom d'utilisateur approprié s'affiche dans le coin supérieur droit de calcul Excel synthèse. Si un nom d'utilisateur incorrect s'affiche, cliquez sur le signe, et recevez alors de retour dans.
--   ** Vous recevez un message « interdit ». ** Si vous recevez un message « interdit » alors qu'Excel complément charge les métadonnées, le compte qui est signé dans vers Excel) ne dispose pas de l'autorisation pour l'utilisation du service, l'instance, ou la base de données cible. Pour résoudre ce problème, vérifiez que le nom d'utilisateur approprié s'affiche dans le coin supérieur droit de calcul Excel synthèse. Si un nom d'utilisateur incorrect s'affiche, cliquez sur le signe, et recevez alors de retour dans.
--   ** Un page Web vide s'affiche sur Excel. ** Si une page Web vide s'affiche lors de {{signe-:sign-in}} le processus {{dans:sign-in}}, le compte nécessite l'ANNONCE FS, mais la version de calcul Excel qui exécute l'addition n'est pas assez récente pour charger {{signe-:sign-in}} {{dans:sign-in}} la boîte de dialogue. Pour résoudre ce problème, mettez la version à jour de calcul Excel que vous utilisez. Pour mettre la version à jour de calcul Excel lorsque vous êtes à une activité figurant sur le canal différé, utilisez [outil de déploiement Office (https://technet.microsoft.com/library/jj219422.aspx)] [mouvements du canal différé au canal actuel] (https://technet.microsoft.com/library/mt455210.aspx).
+-   **Le bouton Charger les applets s'affiche.** Si le complément Excel comporte un bouton **Charger les applets** après la connexion, vous n'êtes probablement pas connecté sous le bon compte d'utilisateur. Pour résoudre ce problème, vérifiez que le nom d'utilisateur approprié s'affiche dans le coin supérieur droit du complément Excel. Si un nom d'utilisateur incorrect s'affiche, cliquez dessus, déconnectez-vous et reconnectez-vous.
+-   **Vous recevez un message « Interdit ».** Si vous recevez un message « Interdit » alors que le complément Excel charge les métadonnées, le compte qui est connecté dans le complément Excel ne dispose pas de l'autorisation d'utilisation du service, de l'instance ou de la base de données cible. Pour résoudre ce problème, vérifiez que le nom d'utilisateur approprié s'affiche dans le coin supérieur droit du complément Excel. Si un nom d'utilisateur incorrect s'affiche, cliquez dessus, déconnectez-vous et reconnectez-vous.
+-   **Une page Web vide s'affiche au-dessus d'Excel.** Si une page Web vide s'affiche lors du processus de connexion, le compte nécessite AD FS, mais la version d'Excel qui exécute le complément n'est pas assez récente pour charger la boîte de dialogue de connexion. Pour résoudre ce problème, mettez à jour la version d'Excel que vous utilisez. Pour mettre à jour la version d'Excel lorsque vous êtes dans une entreprise se trouvant dans un canal différé, utilisez l'[Outil de déploiement Office](https://technet.microsoft.com/library/jj219422.aspx) pour [passer du canal différé au canal actuel](https://technet.microsoft.com/library/mt455210.aspx).
 
 
 

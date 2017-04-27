@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="derived-financial-hierarchies-in-the-public-sector"></a>Hiérarchies financières dérivées dans le secteur public
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article décrit la fonctionnalité des hiérarchies financières dérivées disponible pour le secteur public. 
 
 Pour répondre aux exigences des principales classifications comptables applicables au niveau gouvernemental, les organisations du secteur public peuvent utiliser des hiérarchies financières dérivées afin de recueillir et d'analyser des données de transaction validées pour des numéros de compte principal, des numéros de compte complet et des valeurs de dimension financière spécifiques. 
@@ -40,11 +43,13 @@ Les hiérarchies financières dérivées vous procurent une approche plus flexib
 ## <a name="example"></a>Exemple
 Une organisation a un programme de bien-être des employés et un programme de formation des employés. Ces programmes ne sont pas associés aux dimensions financières. Pour recueillir les numéros de compte utilisés dans les transactions validées pour ces programmes, vous pouvez procéder comme suit :
 
--   ** Paramétrez les hiérarchies de catégories et des hiérarchies financières dérivées : ** Créer une hiérarchie de catégories nommée « employé programme » avec un nœud parent intitulé « programme » et deux nœuds enfants appelés « wellness d'employé » et « Formation d'employé. » Affectez ** hiérarchie financière dérivée ** le type de catégorie au « employé programme » la hiérarchie de catégories. Associez la hiérarchie financière dérivée « Programmes pour les employés » à l'entité juridique.
+-   **Paramétrer les hiérarchies de catégories et les hiérarchies financières dérivées :** créez une hiérarchie de catégories appelée « Programme pour les employés » avec un nœud parent nommé « Programmes » et deux nœuds enfants nommés « Bien-être des employés » et « Formation des employés ». Affectez le type de catégorie **Hiérarchie financière dérivée** à la hiérarchie de catégories « Programme pour les employés ». Associez la hiérarchie financière dérivée « Programmes pour les employés » à l'entité juridique.
 -   **Paramétrer des règles de filtre :** Utilisez la page **Hiérarchies financières dérivées** pour créer des règles de filtre pour les valeurs des comptes principaux et des dimensions financières associées aux nœuds « Bien-être des employés » et « Formation des employés » dans la hiérarchie financière dérivée « Programmes pour les employés ». **Conseil :** pour entrer plusieurs valeurs de dimension dans un filtre, utilisez une virgule sans espaces comme séparateur. Par exemple, entrez 100,110 ou Avantages,Assurance.
 -   **Analyser des données de transaction validée :** Dans les résultats de filtre, affichez les numéros de compte et leurs détails de compte et de dimension financière.
 
  
+
+
 
 
 

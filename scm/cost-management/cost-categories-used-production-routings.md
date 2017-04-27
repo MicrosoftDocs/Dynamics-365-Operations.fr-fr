@@ -28,6 +28,9 @@ ms.lasthandoff: 03/29/2017
 
 # <a name="cost-categories-used-in-production-routing"></a>Catégories de coûts utilisées dans l'acheminement de la production
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article fournit des informations sur les catégories de coûts qui s'appliquent aux environnements de fabrication qui utilisent l'acheminement.
 
 Des catégories de coûts s'appliquent aux environnements de fabrication qui utilisent l'acheminement. Elles sont affectées aux ressources opérationnelles et aux opérations d'acheminement afin de définir des coûts horaires et de segmenter les contributions de coûts dans les coûts calculés d'un article fabriqué. Les groupes de coûts affectés à des catégories de coûts classifient les contributions des coûts de fabrication selon les ressources opérationnelles et le type d'activité, comme les temps de réglage et d'exécution. La spécificité des affectations des groupes de coûts permet de calculer les frais généraux de fabrication en fonction des informations d'acheminement. 
@@ -51,5 +54,7 @@ L'enregistrement des coûts associé à une catégorie de coûts peut être spé
 Généralement, une opération de gamme hérite des catégories de coûts affectées à la ressource opérationnelle ou à l'opération principale. Lors de la création d'un ordre de fabrication, les opérations de gamme de la gamme de production reflètent la version de gamme sélectionnée. Vous pouvez remplacer les catégories de coûts qui sont affectées aux opérations de la gamme de production. 
 
 Certains types de travaux de production peuvent s'appliquer aux générations d'états et aux estimations de temps du projet. Dans ce cas, une catégorie de coûts est requise à des fins de production et de projet. Vous devez définir des informations supplémentaires relatives à un projet lorsqu'une catégorie de coûts est balisée à des fins d'utilisation dans des projets.
+
+
 
 

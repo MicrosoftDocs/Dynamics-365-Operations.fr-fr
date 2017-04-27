@@ -29,9 +29,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="dimension-based-product-configuration"></a>Configuration de produit basée dur les dimensions
 
+[!include[banner](../includes/banner.md)]
+
+
 la configuration de produit basée sur les dimensions représente une solution simple pour créer plusieurs variantes de produit à partir d'un produit générique unique et de sa nomenclature.
 
-la configuration de produit Dimension-basée est l'une des trois technologies intégrées de configuration de produit. Les deux autres technologies sont les variantes prédéfinies et la configuration basée sur les contraintes. Les trois technologies utilise un produit générique comme point de départ et permettent à l'utilisateur de créer plusieurs variantes de produit pour un produit générique.
+La configuration de produit basée sur les dimensions est l'une des trois technologies intégrées de configuration de produit. Les deux autres technologies sont les variantes prédéfinies et la configuration basée sur les contraintes. Les trois technologies utilise un produit générique comme point de départ et permettent à l'utilisateur de créer plusieurs variantes de produit pour un produit générique.
 
 ## <a name="key-concepts"></a>Concepts clés
 La configuration de produit basée sur les dimensions repose sur les concepts clés suivants :
@@ -68,10 +71,12 @@ La gamme de configuration détermine l'ordre des groupes de configurations, tels
 Les règles de configuration sont un mécanisme qui garantit qu'un produit inclus dans un groupe de configurations dans une nomenclature applique soit une inclusion soit une exclusion d'un produit dans un groupe de configurations différent dans la même nomenclature.
 
 ## <a name="product-modeling-process"></a>Processus de modélisation de produits
-La séquence naturelle pour générer un modèle de produit basé sur les dimensions commence par définir les groupes de configurations pertinents. Il est important de vérifier que tous les produits qui seront utilisés dans la nomenclature ont été lancés vers la société pour laquelle le modèle de produit est établi. Avec ces blocs élémentaires en place, l'utilisateur peut créer la nomenclature et affecter des groupes de configurations à toutes les lignes de nomenclature appropriées. Lorsque la nomenclature terminée, une gamme de configuration peut être définie pour classer les groupes de configurations dans l'ordre approprié. pièce jointe\_282671 "d'id= de légende\[" width= " " alignnone d'align= » 1187 "\][produit Dimension- basé![utilisez le processus] (. /media/dimension-based-product-modeling-process-v1.png)](. produit Dimension- basé sur /media/dimension-based-product-modeling-process-v1.png) utilisez le processus\[/caption\] s'il existe certains produits les différents groupes de configurations auquel est ou ne doit pas être utilisés ensemble, vous pouvez créer les règles de configuration qui mettront ces relations de produit en vigueur. Une fois la nomenclature liée avec un produit générique basé sur les dimensions par l'intermédiaire d'une version de nomenclature et que les deux ont été approuvés et activés, vous pouvez créer des configurations de produit et entrer un nom pour chaque configuration. Les configurations peuvent être définies avant qu'une transaction quelconque soit générée, ou avant qu'une certaine configuration devienne nécessaire.
+La séquence naturelle pour générer un modèle de produit basé sur les dimensions commence par définir les groupes de configurations pertinents. Il est important de vérifier que tous les produits qui seront utilisés dans la nomenclature ont été lancés vers la société pour laquelle le modèle de produit est établi. Avec ces éléments constitutifs en place, l'utilisateur peut créer la nomenclature et affecter des groupes de configurations à toutes les lignes de nomenclature appropriées. Lorsque la nomenclature est terminée, une gamme de configuration peut être définie pour organiser les groupes de configurations dans l'ordre approprié. \[caption id="attachment\_282671" align="alignnone" width="1187"\][![Processus de modélisation de produit basé sur les dimensions](./media/dimension-based-product-modeling-process-v1.png)](./media/dimension-based-product-modeling-process-v1.png) Processus de modélisation de produit basé sur les dimensions\[/caption\] Si certains produits issus de différents groupes de configuration doivent être utilisés ensemble ou pas, vous pouvez créer des règles de configuration qui feront appliquer ces relations entre les produits. Une fois la nomenclature liée avec un produit générique basé sur les dimensions par l'intermédiaire d'une version de nomenclature et que les deux ont été approuvés et activés, vous pouvez créer des configurations de produit et entrer un nom pour chaque configuration. Les configurations peuvent être définies avant qu'une transaction quelconque soit générée, ou avant qu'une certaine configuration devienne nécessaire.
 
 ### <a name="suggested-use"></a>Suggestion d'utilisation
 
 La technologie de configuration basée sur les dimensions est optimale pour les produits à variabilité limitée et quand la combinaison des dimensions de produit standard (taille, couleur, style, et configuration) est inappropriée pour identifier une variante de produit spécifique. Un exemple peut être une bicyclette avec une hauteur de cadre, une taille de roue, des types de frein, et différents dérailleurs.
+
+
 
 

@@ -1,5 +1,5 @@
 ---
-title: La prise en charge du tableau de transfert de kanban des scanneurs de code-barres
+title: Prise en charge du tableau de transfert kanban pour les scanneurs de codes-barres
 description: "La tableau de transfert kanban prend en charge l&quot;entrée de scanneur à partir d&quot;un lecteur de codes-barres de widget pour Sélectionner, Démarrer, Terminer et Vider une tâche de kanban."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="kanban-transfer-board-support-for-barcode-scanners"></a>La prise en charge du tableau de transfert de kanban des scanneurs de code-barres
+# <a name="kanban-transfer-board-support-for-barcode-scanners"></a>Prise en charge du tableau de transfert kanban pour les scanneurs de codes-barres
+
+[!include[banner](../includes/banner.md)]
+
 
 La tableau de transfert kanban prend en charge l'entrée de scanneur à partir d'un lecteur de codes-barres de widget pour Sélectionner, Démarrer, Terminer et Vider une tâche de kanban.
 
@@ -52,7 +55,7 @@ Lorsque vous utilisez un lecteur de codes-barres pour sélectionner une tâche, 
 -   Les détails de la tâche sélectionnée s'affichent dans l'organisateur **Détails**.
 -   L'organisateur **Messages** affiche les messages uniquement pour la tâche sélectionnée.
 -   Vous pouvez modifier le statut de la tâche à l'aide des fonctions disponibles dans le volet Actions. Le tableau de transfert kanban continue à n'afficher qu'une seule tâche pendant ce temps.
--   Vous pouvez mettre à jour les informations de la liste de tâches manuellement en cliquant sur ** l'actualisez ** (Shift+F5) du volet Actions. Après avoir actualisé les informations, les résultats complets pour le filtre de tâches s'affichent à nouveau.
+-   Vous pouvez mettre à jour les informations de la liste de tâches manuellement en cliquant sur **Actualiser** (Maj+F5) dans le volet Actions. Après avoir actualisé les informations, les résultats complets pour le filtre de tâches s'affichent à nouveau.
 
 ## <a name="job-status-and-possible-actions"></a>Statut de tâche et actions possibles
 Le statut de la tâche sélectionnée et le statut de toute tâche liée aux kanbans d'événement déterminent si vous pouvez poursuivre le traitement de la tâche. Le tableau suivant affiche des informations sur ces statuts et tâches :
@@ -185,6 +188,8 @@ Le statut de la tâche sélectionnée et le statut de toute tâche liée aux kan
 </tr>
 </tbody>
 </table>
+
+
 
 
 

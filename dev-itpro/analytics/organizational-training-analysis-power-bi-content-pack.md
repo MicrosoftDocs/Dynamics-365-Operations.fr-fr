@@ -1,6 +1,6 @@
 ---
-title: "Contenu hiérarchique BI de courant de formation"
-description: "Cette rubrique décrit Dynamics 365 pour les opérations - contenu hiérarchique BI de courant de formation. Elle décrit comment naviguer Feature Pack de contenu, et décrit le modèle de données et les entités qui ont été utilisés pour établir Feature Pack de contenu."
+title: Contenu Power BI Formation dans l&quot;organisation
+description: "Cette rubrique décrit le contenu Power BI Formation dans l&quot;organisation dans Dynamics 365 for Operations. Elle explique également comment accéder au pack de contenu, et décrit le modèle de données et les entités qui permettent de créer le pack de contenu."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,45 +24,48 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="organizational-training-power-bi-content"></a>Contenu hiérarchique BI de courant de formation
+# <a name="organizational-training-power-bi-content"></a>Contenu Power BI Formation dans l'organisation
 
-Cette rubrique décrit Dynamics 365 pour les opérations - contenu hiérarchique BI de courant de formation. Elle décrit comment naviguer Feature Pack de contenu, et décrit le modèle de données et les entités qui ont été utilisés pour établir Feature Pack de contenu.
+[!include[banner](../includes/banner.md)]
 
-<a name="accessing-the-content-pack"></a>Accéder Feature Pack de contenu
+
+Cette rubrique décrit le contenu Power BI Formation dans l'organisation dans Dynamics 365 for Operations. Elle explique également comment accéder au pack de contenu, et décrit le modèle de données et les entités qui permettent de créer le pack de contenu.
+
+<a name="accessing-the-content-pack"></a>Accès au pack de contenu
 --------------------------
 
-Recevez un pack hiérarchique de contenu de formation dans la bibliothèque partagé d'immobilisations dans Microsoft Dynamics Lifecycle Services (LCS). Pour plus d'informations sur le chargement le contenu comprimez- et connectez- le à votre Microsoft Dynamics 365 pour les données d'opérations, voir [contenu BI expérimentés dans des lettres de crédit Microsoft et de vos partenaires] (power-bi-content-microsoft-partners.md).
+Vous trouverez le pack de contenu Formation dans l'organisation dans la bibliothèque Actifs partagés de Microsoft Dynamics Lifecycle Services (LCS). Pour savoir comment télécharger le pack de contenu et le connecter à vos données Microsoft Dynamics 365 for Operations, voir [Contenu Power BI dans LCS de Microsoft et de vos partenaires](power-bi-content-microsoft-partners.md).
 
-## <a name="reports-that-are-included-in-the-content-pack"></a>Les rapports inclus dans le pack de contenu
-Après avoir connecté Feature Pack de contenu à votre Dynamics 365 pour les données d'opérations, des données organisation d'états l'affichage de votre. Si ce n'est jamais utilisé le projet BI de courant de Microsoft péremption, vous souhaitez plus {{à:about}} {{son:about}} sujet sous l'onglet [page guidée d'enseignement pour BI de courant] (https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Les états inclus dans le pack de contenu ont des graphiques et des tables contenant les informations supplémentaires. Le tableau suivant décrit ces états.
+## <a name="reports-that-are-included-in-the-content-pack"></a>États inclus dans le pack de contenu
+Après avoir connecté le pack de contenu à vos données Dynamics 365 for Operations, les données de votre organisation s'affichent dans les états. Si vous n'avez jamais utilisé Microsoft Power BI auparavant, consultez la [Page d'apprentissage guidé pour Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData) pour en savoir plus. Les états inclus dans le pack de contenu contiennent des graphiques et des tables qui fournissent des informations supplémentaires. Le tableau suivant décrit ces états.
 
 | Etat          | Sommaire                                                                    |
 |-----------------|-----------------------------------------------------------------------------|
-| Analyse de cours | Enregistrement par emplacement, participants du cours par statut, et liste d'enregistrements |
+| Analyse de cours | Enregistrement par emplacement, participants du cours par statut et liste d'enregistrements |
 | Types de cours    | Types de cours par qualification                                                       |
 
-Vous pouvez filtrer les graphiques et les vignettes dans ces états, et épinglez les graphiques et les vignettes du tableau de bord. Pour plus d'informations sur le filtrage et épingler en BI de courant, voir [créez et configurez un tableau de bord] (https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+Vous pouvez filtrer les graphiques et les vignettes affichés sur ces états et les épingler au tableau de bord. Pour savoir comment filtrer et épingler dans Power BI, voir [Créer et configurer un tableau de bord](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Compréhension du modèle de données et des entités
-Dynamics 365 pour les données d'opérations est utilisé pour remplir états du pack hiérarchique de contenu de formation. Le tableau suivant indique les entités qui Feature Pack de contenu est basée.
+Les données Dynamics 365 for Operations sont utilisées pour remplir les états du pack de contenu Formation dans l'entreprise. Le tableau suivant indique les entités sur lesquelles le pack de contenu est basé.
 
 | Entité                    | Sommaire                                                         | Relations avec d'autres entités                                                                                                                                                                  |
 |---------------------------|------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Formation\_CalendarOffset  | Compense de calendrier aux états des parts                                | Formation\_CourseAgenda formations\_CourseAttendees                                                                                                                                                   |
-| Société d'\_de formation         | Sociétés pour filtrer les états par                                   | Formation\_CourseAgenda formations\_CourseAttendees                                                                                                                                                   |
-| Cours d'\_de formation          | Cours, description, nom de l'instructeur, emplacement, pièce, et statut | Formation\_CourseAgenda formations\_CourseAttendees formations\_CourseSkill                                                                                                                             |
-| Formation\_CourseAgenda    | Emploi du temps, cours, et début et heures de fin                          | Société\_de formation formations\_CalendarOffset constituant la date\_constituant le cours\_                                                                                                                         |
-| Formation\_CourseAttendees | Nom, statut, tâches, et date d'enregistrement                         | Société\_de formation formations\_CalendarOffset constituant la date\_constituant la démographie\_formations l'emploi\_constituant le cours\_formations\_WorkerName formations\_WorkerTitle constituant\_de formation à un emploi\_ |
-| Formation\_CourseSkill     | Qualification, type de qualification, et de niveau                                     | Cours d'\_de formation                                                                                                                                                                                   |
-| Date d'\_de formation            | Jours, semaines, mois, années et                                   | Formation\_CourseAgenda formations\_CourseAttendees                                                                                                                                                   |
-| Démographie d'\_de formation    | Date de naissance, le sexe, l'origine ethnique, et l'état civil         | Formation\_CourseAgenda formations\_CourseAttendees                                                                                                                                                   |
-| Emploi d'\_de formation      | Date de début, Date de fin, et date de transition                        | Formation\_CourseAgenda formations\_CourseAttendees                                                                                                                                                   |
-| Tâche d'\_de formation             | Fonction, type, et titre                                        | Formation\_CourseAgenda formations\_CourseAttendees                                                                                                                                                   |
-| Poste d'\_de formation        | Poste, titre, et à temps plein (FTE) équivalent                  | Formation\_CourseAgenda formations\_CourseAttendees                                                                                                                                                   |
-| Formation\_WorkerName      | Prénom, nom de famille, et nom complet                             | Formation\_CourseAttendees                                                                                                                                                                          |
-| Formation\_WorkerTitle     | Date de titre et d'ancienneté                                         | Formation\_CourseAttendees                                                                                                                                                                          |
+| Training\_CalendarOffset  | Décalages de calendrier pour diviser les états                                | Training\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
+| Training\_Company         | Sociétés selon lesquelles filtrer les états                                   | Training\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
+| Training\_Course          | Cours, description, nom de l'instructeur, emplacement, salle et statut | Training\_CourseAgenda Training\_CourseAttendees Training\_CourseSkill                                                                                                                             |
+| Training\_CourseAgenda    | Emploi du temps, cours et heures de début et de fin                          | Training\_Company Training\_CalendarOffset Training\_Date Training\_Course                                                                                                                         |
+| Training\_CourseAttendees | Nom, statut, tâche et date d'enregistrement                         | Training\_Company Training\_CalendarOffset Training\_Date Training\_Demographics Training\_Employment Training\_Course Training\_WorkerName Training\_WorkerTitle Training\_Job Training\_Position |
+| Training\_CourseSkill     | Qualification, type et niveau de qualification                                     | Training\_Course                                                                                                                                                                                   |
+| Training\_Date            | Jours, semaines, mois et années                                   | Training\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
+| Training\_Demographics    | Date de naissance, sexe, origine ethnique et état civil         | Training\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
+| Training\_Employment      | Date de début, date de fin et date de transition                        | Training\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
+| Training\_Job             | Fonction, type et titre                                        | Training\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
+| Training\_Position        | Poste, fonction et équivalent du temps plein                  | Training\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
+| Training\_WorkerName      | Prénom, nom et nom complet                             | Training\_CourseAttendees                                                                                                                                                                          |
+| Training\_WorkerTitle     | Titre et date d'ancienneté                                         | Training\_CourseAttendees                                                                                                                                                                          |
 
-Ces entités a été utilisée pour créer des mesures calculées dans le modèle de données. Ces mesures calculées sont ensuite utilisées pour calculer les indicateurs de performance clé (KPIs) et les états utilisés dans l'établissement du pack de contenu. Si vous souhaitez inclure les calculs supplémentaires dans vos rapports et tableau de bord, vous pouvez télécharger et modifier le fichier de Training.pbix du crédit. Ce fichier est le modèle de données par défaut utilisé pour créer le pack de contenu. Après avoir apporté des modifications, vous pouvez créer un pack et un tableau de bord organisation de contenu contenant des informations que vous avez ajoutée.
+Ces entités ont été utilisées pour créer des mesures calculées dans le modèle de données. Ces entités calculées sont ensuite utilisées pour calculer les indicateurs de performance clés (KPI) et les états utilisés dans le pack de contenu. Si vous souhaitez inclure des calculs supplémentaires dans vos rapports et tableaux de bord, vous pouvez télécharger et modifier le fichier Training.pbix de LCS. Ce fichier est le modèle de données par défaut utilisé pour créer le pack de contenu. Une fois que vous avez apporté vos modifications, vous pouvez créer un pack de contenu et un tableau de bord de l'organisation contenant les informations que vous avez ajoutées.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 Voici quelques liens utiles liés aux entités et à la création du contenu Power BI :
@@ -71,6 +74,8 @@ Voici quelques liens utiles liés aux entités et à la création du contenu Pow
 -   [Création de packs de contenu d'organisation](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 -   [Modélisation de données à l'aide de Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [Ajout de vignettes Power BI aux espaces de travail](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/07/06/pinning-power-bi-reports-to-dynamics-ax-client/)
+
+
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Création d&quot;un modèle de configuration de produit"
+title: "Générer un modèle de configuration de produit"
 description: "La nécessité de configurer des produits pour répondre aux exigences spéciales devient la règle plutôt que l&quot;exception, dans les relations interentreprises comme dans les relations entreprise-client."
 author: YuyuScheller
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="build-a-product-configuration-model"></a>Création d'un modèle de configuration de produit
+# <a name="build-a-product-configuration-model"></a>Générer un modèle de configuration de produit
+
+[!include[banner](../includes/banner.md)]
+
 
 La nécessité de configurer des produits pour répondre aux exigences spéciales devient la règle plutôt que l'exception, dans les relations interentreprises comme dans les relations entreprise-client.
 
@@ -34,7 +37,7 @@ Un fabricant prenant en charge les scénarios de configuration selon la commande
 
 Une transition réussie d'une configuration de type fabrication selon le stock vers une configuration de type configuration selon la commande requiert une analyse soigneuse des structures de produit, de l'identification des familles de produits et de la subdivision en composants. Pour réduire le nombre de pièces et minimiser le nombre de marchandises en cours de fabrication, il est très important que vous compreniez les interfaces de produit, et que votre conception intègre le concept de réutilisation.  
 
-Il existe plusieurs principes de modélisation de configuration de produit, tels que la modélisation basée sur les règles, basée sur les dimensions et basée sur les contraintes. Les études indiquent que la méthodologie basée sur les contraintes peut réduire le nombre de lignes de code dans les modèles d'environ 50 % par rapport à d'autres principes de modélisation. Par conséquent, cette méthodologie peut réduire le coût total de possession (TCO). En se déplaçant d'un modèle basé sur les règles qui est basée sur un code X++ dans un modèle basé sur les n', vous exigez plus d'une licence de développeur afin de garantir des modèles de produit.
+Il existe plusieurs principes de modélisation de configuration de produit, tels que la modélisation basée sur les règles, basée sur les dimensions et basée sur les contraintes. Les études indiquent que la méthodologie basée sur les contraintes peut réduire le nombre de lignes de code dans les modèles d'environ 50 % par rapport à d'autres principes de modélisation. Par conséquent, cette méthodologie peut réduire le coût total de possession (TCO). En passant d'un modèle basé sur les règles basé sur le code X++ à un modèle basée sur les contraintes, vous n'avez plus besoin d'une licence de développeur pour tenir à jour des modèles de produit.
 
 ## <a name="product-configuration"></a>Configuration de produit
 La période d'industrialisation a mené à de grands accomplissements en matière de production de produits de haute qualité et de haute technologie à des prix abordables. Les économies d'échelle ont permis à la plupart des habitants du monde industrialisé d'acheter des véhicules, des postes de télévision, des appareils électroménagers, ainsi que d'autres marchandises que la plupart d'entre nous considèrent comme nécessaires à notre vie quotidienne.  
@@ -64,11 +67,11 @@ L'utilisation d'un modèle de configuration de produit basé sur les contraintes
 
 ### <a name="table-constraints"></a>Contraintes de table
 
-Les contraintes de table peuvent être définies par l'utilisateur ou par le système ont défini.  
+Les contraintes de table peuvent être définies par l'utilisateur ou par le système.  
 
 Une contrainte de table définie par l'utilisateur est élaborée par l'utilisateur. L'utilisateur sélectionne une combinaison des types d'attributs pour représenter les colonnes de la table puis entre les valeurs provenant des domaines des types d'attributs sélectionnés pour former les lignes de la contrainte de table.  
 
-Une contrainte de table définie par le système sur est définie en sélectionnant qui Microsoft Dynamics 365 pour que la table des opérations l'utilise comme une référence et champs de sélectionner ensuite de cette table à l'écran les colonnes de la contrainte. Les lignes de la contrainte de table sont les lignes de Dynamics 365 pour la table d'opérations qui sont présentes au moment de la configuration.  
+Une contrainte de table définie par le système est définie en sélectionnant quelle table de Microsoft Dynamics 365 for Operations doit être utilisée comme référence, puis en sélectionnant les champs de cette table pour former les colonnes de la contrainte. Les lignes de la contrainte de table sont les lignes de la table Dynamics 365 for Operations qui sont présentes au moment de la configuration.  
 
 Une contrainte de table est incluse dans un modèle de configuration de produit en référençant la définition de contrainte de table et en mettant en correspondance les attributs pertinents dans le modèle avec les colonnes dans la contrainte de table.
 
@@ -103,7 +106,7 @@ Enfin, la validation peut être effectuée pour un modèle de configuration de p
 
 ### <a name="testing"></a>Test
 
-Tester un modèle est similaire à exécuter une session réelle de configuration. L'utilisateur peut marcher dans les pages de configuration et vérifier que la structure modèle prend en charge le processus de configuration. L'utilisateur peut vérifier que les valeurs d'attribut sont correctes, et que les descriptions d'attribut guident l'utilisateur dans la sélection des valeurs correctes. Enfin, une fois la session de test terminée, le système tente de créer la nomenclature et la gamme correspondant aux valeurs d'attribut sélectionnées, et présente un message d'erreur en cas de problème.
+Le test d'un modèle est similaire à l'exécution d'une session de configuration réelle. L'utilisateur peut examiner les pages de configuration et vérifier que la structure du modèle prend en charge le processus de configuration. L'utilisateur peut vérifier que les valeurs d'attribut sont correctes, et que les descriptions d'attribut guident l'utilisateur dans la sélection des valeurs correctes. Enfin, une fois la session de test terminée, le système tente de créer la nomenclature et la gamme correspondant aux valeurs d'attribut sélectionnées, et présente un message d'erreur en cas de problème.
 
 ### <a name="the-configuration-page"></a>La page de configuration
 
@@ -129,15 +132,15 @@ Si le produit est destiné à être vendu dans différents pays/régions, des tr
 La dernière et la plus importante étape du processus de finalisation est de créer une version du modèle de configuration de produit. La version représente la relation entre le produit générique, qui peut être sélectionné pour la configuration sur une commande ou une ligne de devis, et le modèle de configuration de produit. Une version doit être approuvée et activée avant de pouvoir être utilisée dans une session de configuration.
 
 ## <a name="extending-a-product-configuration-model-through-the-api"></a>Extension d'un modèle de configuration de produit via l'API
-Une interface de programmation d'applications dédiée (API) a été mise en œuvre, de sorte que les partenaires et d'autres détenteurs d'une licence de développeur puissent étendre les capacités d'un modèle de configuration de produit. L'objectif principal a été d'établir un mécanisme qui permet aux partenaires et les clients qui utilisent le Configurateur existant sont transférées vers le code qui est intégré dans les modèles de Configurateur à l'API. Ils peuvent ainsi migrer leurs modèles du Configurateur vers une configuration de produit. Toutefois, les nouveaux partenaires et clients peuvent également tirer parti de l'utilisation de l'API pour étendre de nouveaux modèles de configuration de produit.
+Une interface de programmation d'applications dédiée (API) a été mise en œuvre, de sorte que les partenaires et d'autres détenteurs d'une licence de développeur puissent étendre les capacités d'un modèle de configuration de produit. L'objectif principal a été d'établir un mécanisme qui permet aux partenaires et aux clients qui utilisent le Configurateur existant de migrer le code qui est intégré dans les modèles de configurateur vers l'API. Ils peuvent ainsi migrer leurs modèles du Configurateur vers une configuration de produit. Toutefois, les nouveaux partenaires et clients peuvent également tirer parti de l'utilisation de l'API pour étendre de nouveaux modèles de configuration de produit.
 
 ### <a name="pcadaptor-class"></a>Classe PCAdaptor
 
-L'API est mise en œuvre à l'aide d'un ensemble de classes **PCAdaptor** qui exposent la structure de données des modèles de configuration de produit. Une instance ** PCAdaptor ** de la classe doit être créée pour chaque modèle qui sera étendu. Après une session de configuration effectuée, le système vérifie d'une instance de ces fichiers et exécutions il s'il a indiqué.  
+L'API est mise en œuvre à l'aide d'un ensemble de classes **PCAdaptor** qui exposent la structure de données des modèles de configuration de produit. Une instance de la classe **PCAdaptor** doit être créée pour chaque modèle qui sera étendu. Une fois qu'une session de configuration est terminée, le système recherche une instance de cette classe et l'exécute si elle est trouvée.  
 
 Le diagramme de flux suivant décrit le processus.  
 
-[diagramme de flux d'![] (. /media/product_configuration_2.png)](. /media/product_configuration_2.png)  
+[![Diagramme de flux](./media/product_configuration_2.png)](./media/product_configuration_2.png)  
 
 Diagramme de flux de l'API de configuration de produit
 
@@ -155,5 +158,7 @@ L'objectif de la configuration est de créer une variante distincte du produit q
 ### <a name="multiple-sites-and-intercompany"></a>Plusieurs sites et intersociétés
 
 Si la configuration doit être effectuée sur un site, ou même au sein d'une société, qui diffère du site ou de la société dans laquelle la production aura lieu, la nomenclature et la gamme sont créées pour et placées sur le site du fournisseur au sein de la société d'approvisionnement. La variante de produit sera lancée dans toutes les sociétés qui participent à la chaîne d'approvisionnement.
+
+
 
 

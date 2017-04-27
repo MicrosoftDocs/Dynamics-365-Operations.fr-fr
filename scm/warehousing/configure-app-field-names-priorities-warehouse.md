@@ -1,6 +1,6 @@
 ---
-title: Configuration des noms de champs d&quot;application en entreposant l&quot;application
-description: "Cette rubrique décrit la procédure de définir et de configurer les noms et les priorités de champ d&quot;application d&quot;entrepôt dans Dynamics 365 pour les opérations."
+title: Configurer les noms de champ d&quot;application dans l&quot;application Entreposage
+description: "Cette rubrique décrit comment définir et configurer les noms et les priorités de champ d&quot;application d&quot;entrepôt dans Dynamics 365 for Operations."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,16 +26,19 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-app-field-names-in-warehousing-app"></a>Configuration des noms de champs d'application en entreposant l'application
+# <a name="configure-app-field-names-in-warehousing-app"></a>Configurer les noms de champ d'application dans l'application Entreposage
 
-Cette rubrique décrit la procédure de définir et de configurer les noms et les priorités de champ d'application d'entrepôt dans Dynamics 365 pour les opérations. 
+[!include[banner](../includes/banner.md)]
 
-** Remarque : ** La présente rubrique s'applique aux fonctions du module Gestion des entrepôts. Elle ne s'applique pas aux fonctions dans Gestion des stocks. Dynamics 365 pour les opérations - le stockage est une application que vous pouvez utiliser pour effectuer des tâches d'entrepôt. Vous pouvez définir et de configurer les noms de champs utilisés dans l'application, ainsi que de configurer la priorité à laquelle les noms de champs doit être affecté. Cette rubrique explique comment définir et de configurer les noms et priorités de champ d'application d'entrepôt, et de leur utilisation dans Dynamics 365 pour les opérations - entreposant. Pour plus d'informations sur la configuration de la connexion à Dynamics 365 pour les opérations - en entreposant, reportez-vous à des instructions [installer et configurer Dynamics 365 pour les opérations - entreposant] (install-configure-warehousing-app.md).
 
-<a name="configure-warehouse-app-field-names"></a>Configuration des noms de champs d'application d'entrepôt
+Cette rubrique décrit comment définir et configurer les noms et les priorités de champ d'application d'entrepôt dans Dynamics 365 for Operations. 
+
+**Remarque :** cette rubrique s'applique aux fonctionnalités du module Gestion des entrepôts. Elle ne s'applique pas aux fonctionnalités du module Gestion des stocks. Dynamics 365 for Operations - Entreposage est une application que vous pouvez utiliser pour effectuer des tâches d'entrepôt. Vous pouvez définir et configurer les noms de champ utilisés dans l'application, et aussi configurer la priorité d'affectation des noms de champ. Cette rubrique explique comment définir et configurer ces noms et priorités de champ d'application d'entrepôt, et comment les utiliser dans Dynamics 365 for Operations - Entreposage. Pour des informations détaillées sur la configuration de la connexion à Dynamics 365 for Operations - Entreposage, reportez-vous au didacticiel [Installation et configuration de Dynamics 365 for Operations - Entreposage]](install-configure-warehousing-app.md)
+
+<a name="configure-warehouse-app-field-names"></a>Configurer les noms de champ d'application d'entrepôt
 ===================================
 
-Lorsque vous utilisez Dynamics 365 pour les opérations - entreposant sur votre périphérique mobile, vous pouvez configurer la manière dont les métadonnées doivent figurer dans votre périphérique sur ** des noms de champs d'application d'entrepôt ** page. Dans une nouvelle société dans Dynamics 365 pour les opérations, sélectionnez ** créez le paramétrage par défaut ** pour générer des noms de champs utilisés dans les workflows de périphérique mobile d'entrepôt, puis associez -lui un mode d'entrée et un type préférés d'entrée eux. Après avoir généré tous les noms de champs, vous pouvez sélectionner les options suivantes d'entrée.
+Lorsque vous utilisez Dynamics 365 for Operations - Entreposage sur votre appareil mobile, vous pouvez configurer l'affichage des métadonnées sur votre appareil dans la page **Noms de champ d'application d'entrepôt**. Dans une nouvelle société de Dynamics 365 for Operations, sélectionnez **Créer un paramétrage par défaut** pour générer tous les noms de champ qui seront utilisés dans les workflows d'appareil mobile d'entrepôt, puis affectez-leur un mode et un type de saisie favoris. Après avoir généré tous les noms de champ, vous pouvez sélectionner les options de saisie suivantes.
 
 <table>
 <colgroup>
@@ -51,25 +54,25 @@ Lorsque vous utilisez Dynamics 365 pour les opérations - entreposant sur votre
 <tbody>
 <tr class="odd">
 <td>Mode de saisie favori</td>
-<td>Cette option définit si un champ de lecture ou un champ de saisie de saisie manuelle doit être affiché pour le nom du champ sélectionné. Utile pour distinguer les champs selon que des codes-barres sont utilisés pour le champ. <strong>Remarque :</strong> Pour les noms de champs avec le mode d'entrée préféré défini sur, vous pouvez entrer les informations manuellement si le code-barres est illisible ou endommagé.</td>
+<td>Cette option définit si un champ de lecture ou un champ de saisie manuelle doit être affiché pour le nom de champ sélectionné. Cela est utile pour distinguer les champs selon que des codes-barres sont utilisés pour le champ. <strong>Remarque :</strong> pour les noms de champ dont le mode de saisie favori est défini sur <strong>Lecture</strong>, vous pouvez entrer les informations manuellement si le code-barres est illisible ou endommagé.</td>
 </tr>
 <tr class="even">
 <td>Type de saisie</td>
-<td>Cette option définit le type d'entrée doit être utilisé pour le nom du champ sélectionné. Quatre options sont disponibles :
+<td>Cette option définit le type de saisie à utiliser pour le nom de champ sélectionné. Quatre options sont disponibles :
 <ul>
-<li><strong>Sélection</strong> - contient une liste d'options de choisir. Les noms de champs avec cette option ne sont pas être modifié.</li>
-<li><strong>Date</strong>les noms de champs - spécifiés comme date affiche un format de date pour l'étiquette. Cela permet l'entrepôt des travailleurs à afficher dans quel format permet d'entrer la date. Les noms de champs avec cette option ne sont pas être modifié.</li>
-<li><strong>Alpha</strong> - si sélectionné, le clavier du périphérique est utilisé lorsque vous entrez des informations manuellement dans l'application. On peut modifier l'expérience de clavier selon laquelle le périphérique est utilisé.</li>
-<li><strong>Numérique</strong> - Pour les noms de champs qui utilisent l'entrée numérique uniquement, vous pouvez sélectionner cette option pour afficher un pavé numérique personnalisé avec le champ d'entrée au lieu du clavier du périphérique.</li>
+<li><strong>Sélection</strong> - Contient une liste d'options parmi lesquelles choisir. Les noms de champ avec cette option ne sont pas modifiables.</li>
+<li><strong>Date</strong> - Les noms de champs spécifiés comme date affichent un format de date avec l'étiquette. Cela permet aux magasiniers de déterminer le format de saisie de la date. Les noms de champ avec cette option ne sont pas modifiables.</li>
+<li><strong>Alpha</strong> - Si cette option est sélectionnée, le clavier du périphérique est utilisé lors de la saisie manuelle d'informations dans l'application. L'expérience au clavier peut être modifiée selon le périphérique utilisé.</li>
+<li><strong>Numérique</strong> - Pour les noms de champ qui utilisent la saisie numérique uniquement, vous pouvez sélectionner cette option pour afficher un pavé numérique personnalisé avec le champ de saisie au lieu du clavier du périphérique.</li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-<a name="configure-warehouse-app-field-priority"></a>Configurez la priorité de champ d'application d'entrepôt
+<a name="configure-warehouse-app-field-priority"></a>Configurer la priorité du champ d'application d'entrepôt
 ======================================
 
-Sous ** priorité de champ d'application d'entrepôt ** la page, vous pouvez mettre des noms de champs en différents groupes prioritaires. Cela permet de décider quelles informations doivent être affichées dans la page de tâche principale lorsque les travailleurs d'entrepôt effectuent des tâches via l'application. Si vous cliquez sur ** créez le paramétrage par défaut **, un ensemble par défaut de groupes prioritaires est généré. Vous pouvez créer autant de groupes prioritaires si nécessaire, mais uniquement trois groupes prioritaires sont affichés dans la page de tâches. Lorsque Dynamics 365 pour les opérations envoie des métadonnées sur l'application, il affecte à chaque champ une priorité associée en fonction de son groupe élevée, et l'application affiche les trois premiers groupes prioritaires contenus dans les métadonnées sur la page de tâche. Le reste de métadonnées de débordement est affiché à une page secondaire de détails. Le tableau ci-dessous montre un exemple de cinq groupes prioritaires.
+Sur la page **Priorité du champ d'application d'entrepôt**, vous pouvez classer les noms de champ dans différents groupes de priorité. Cela permet de déterminer quelles informations doivent être affichées sur la page de tâches principale lorsque les magasiniers effectuent des tâches via l'application. Si vous cliquez sur **Créer un paramétrage par défaut**, un ensemble de groupes de priorité par défaut est généré. Vous pouvez créer autant de groupes de priorité que nécessaire, mais seuls trois groupes de priorité seront affichés sur la page de tâches. Lorsque Dynamics 365 for Operations envoie des métadonnées à l'application, il affecte à chaque champ une priorité relative selon son groupe de priorité, et l'application affiche les trois premiers groupes de priorité contenus dans les métadonnées de la page de tâches. Les métadonnées restantes seront affichées sur une page de détails secondaire. Le tableau ci-dessous présente un exemple de cinq groupes de priorité.
 
 <table>
 <colgroup>
@@ -84,7 +87,7 @@ Sous ** priorité de champ d'application d'entrepôt ** la page, vous pouvez met
 </thead>
 <tbody>
 <tr class="odd">
-<td> Priorité 10</td>
+<td> Priorité 10</td>
 <td><ul>
 <li>Article</li>
 <li>Quantité</li>
@@ -92,20 +95,20 @@ Sous ** priorité de champ d'application d'entrepôt ** la page, vous pouvez met
 </ul></td>
 </tr>
 <tr class="even">
-<td> Priorité 20</td>
+<td> Priorité 20</td>
 <td><ul>
 <li>Poste de groupement</li>
 <li>Groupement</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td> Priorité 30</td>
+<td> Priorité 30</td>
 <td><ul>
 <li>Description de l'article</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td> Priorité 40</td>
+<td> Priorité 40</td>
 <td><ul>
 <li>Configuration</li>
 <li>Couleur</li>
@@ -114,7 +117,7 @@ Sous ** priorité de champ d'application d'entrepôt ** la page, vous pouvez met
 </ul></td>
 </tr>
 <tr class="odd">
-<td> Priorité 50</td>
+<td> Priorité 50</td>
 <td><ul>
 <li>Entrepôt</li>
 <li>Contenant</li>
@@ -123,7 +126,7 @@ Sous ** priorité de champ d'application d'entrepôt ** la page, vous pouvez met
 </tbody>
 </table>
 
-Par exemple, si un travailleur d'entrepôt effectue une tâche sur un périphérique mobile, si les métadonnées qui seront affichées dans l'application incluent les champs suivants :
+Par exemple, lorsqu'un magasinier effectue une tâche sur un appareil mobile, si les métadonnées qui seront affichées dans l'application comprennent les champs suivants :
 
 -   Article
 -   Quantité
@@ -131,17 +134,19 @@ Par exemple, si un travailleur d'entrepôt effectue une tâche sur un périphér
 -   Description de l'article
 -   Taille et emplacement
 
-Selon la priorité de champ d'application d'entrepôt paramétrée dans le tableau ci-dessus, les 3 lignes suivantes d'informations s'affichent dans la page de tâches :
+Selon la priorité du champ d'application d'entrepôt paramétrée dans le tableau ci-dessus, les 3 lignes d'informations ci-après seront affichées sur la page de tâches :
 
--   Ligne 1 : Article, la quantité, l'unité de mesure
+-   Ligne 1 : Article, Quantité, Unité de mesure
 -   Ligne 2 : Description de l'article
 -   Ligne 3 : Taille
 
-Les métadonnées restantes, par exemple, Emplacement, ne seront pas affichées dans la page de tâches, mais s'affichent sur une page de détails. Pour plus d'informations et afficher des exemples de l'interface utilisateur, reportez-vous à la validation de blog [annonçant Dynamics 365 pour les opérations - entreposant] (https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
+Les métadonnées restantes, par exemple, Emplacement, ne seront pas affichées sur la page de tâches, mais sur une page de détails. Pour en savoir plus et pour consulter des exemples de l'interface utilisateur, reportez-vous à la publication de blog [Annonce de Dynamics 365 for Operations - Entreposage](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
 
 <a name="see-also"></a>Voir également :
 --------
 
-[Installation et configuration Microsoft Dynamics 365 pour les opérations – en entreposant] (install-configure-warehousing-app.md)
+[Installation et configuration de Microsoft Dynamics 365 for Operations – Entreposage](install-configure-warehousing-app.md)
+
+
 
 

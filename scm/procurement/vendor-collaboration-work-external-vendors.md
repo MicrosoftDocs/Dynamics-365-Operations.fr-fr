@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="vendor-collaboration-with-external-vendors"></a>Collaboration fournisseur avec des fournisseurs externes
 
+[!include[banner](../includes/banner.md)]
+
+
 Cette rubrique décrit comment les agents des achats peuvent collaborer avec des fournisseurs externes pour échanger des informations sur les commandes fournisseur et le stock de consignation.
 
 Le module **Collaboration fournisseur** est destiné aux fournisseurs qui n'ont pas l'intégration d'échange de données informatisé (EDI) avec Microsoft Dynamics 365 for Operations. Il permet aux fournisseurs d'utiliser les informations sur la commande fournisseur, la facture, et le stock de consignation. Cette rubrique décrit comment vous pouvez collaborer avec des fournisseurs externes qui utilisent l'interface de collaboration fournisseur pour utiliser des CF et le stock de consignation. Elle décrit également comment autoriser un fournisseur spécifique à utiliser la collaboration fournisseur, et comment définir les informations que tous les fournisseurs verront lorsqu'ils répondent à une commande fournisseur. Pour plus d'informations sur ce que les fournisseurs externes peuvent effectuer dans l'interface de collaboration fournisseur, voir [Collaboration fournisseur avec des clients](vendor-collaboration-work-customers-dynamics-365-operations.md).  
@@ -64,11 +67,11 @@ Si vous souhaitez partager des informations sur les prix telles que les prix, le
 ## <a name="work-with-pos-when-using-vendor-collaboration"></a>Utiliser des CF lors de l'utilisation de la collaboration fournisseur
 ### <a name="sending-a-po-to-the-vendor"></a>Envoi d'une CF à un fournisseur
 
-Les commandes fournisseur sont préparées dans Dynamics 365 for Operations. Lorsque le fournisseur a le statut ** approuvé **, vous envoyer au fournisseur par ** l'envoi de la confirmation ** l'action à ** commande fournisseur ** la page. Le statut de la CF passe à **En cours de révision externe**. Une fois la CF soumise, le fournisseur peut la voir sur la page **Commandes fournisseur pour examen** dans l'interface de collaboration fournisseur, dans laquelle ils peuvent accepter, refuser ou proposer des modifications à la commande. Le fournisseur peut également ajouter des commentaires pour communiquer des informations telles que des modifications à la CF. Si vous souhaitez attirer l'attention du fournisseur sur une nouvelle CF, vous pouvez également utiliser le système de gestion de l'impression pour l'envoyer par courrier électronique.
+Les commandes fournisseur sont préparées dans Dynamics 365 for Operations. Lorsque la CF a le statut **Approuvé**, vous l'envoyez au fournisseur à l'aide de l'action **Envoyer pour confirmation **de la page **Commande fournisseur**. Le statut de la CF passe à **En cours de révision externe**. Une fois la CF soumise, le fournisseur peut la voir sur la page **Commandes fournisseur pour examen** dans l'interface de collaboration fournisseur, dans laquelle ils peuvent accepter, refuser ou proposer des modifications à la commande. Le fournisseur peut également ajouter des commentaires pour communiquer des informations telles que des modifications à la CF. Si vous souhaitez attirer l'attention du fournisseur sur une nouvelle CF, vous pouvez également utiliser le système de gestion de l'impression pour l'envoyer par courrier électronique.
 
 ### <a name="confirmation-and-acceptance-of-the-po-by-the-vendor"></a>Confirmation et acceptation de la CF par le fournisseur
 
-Lorsqu'un fournisseur a accepté une commande fournisseur, celle-ci peut être automatiquement confirmée, ou elle peut devoir être manuellement confirmée. Cela varie selon que ** activation du fournisseur ** le champ est défini ** Actif (le fournisseur de confirmation automatique est confirmé) ** pour le fournisseur, ou ** Actif (la CF automatique n'est pas confirmé) **.  
+Lorsqu'un fournisseur a accepté une commande fournisseur, celle-ci peut être automatiquement confirmée, ou elle peut devoir être manuellement confirmée. Cela varie selon que le champ **Activation du fournisseur **est défini sur **Actif (la CF est confirmée automatiquement)**pour le fournisseur, ou sur **Actif (la CF n'est pas confirmée automatiquement)**.  
 
 Le tableau suivant présente l'échange d'informations classique, selon la réaction du fournisseur lorsque vous envoyez une CF pour confirmation.
 
@@ -95,19 +98,19 @@ Le tableau suivant présente l'échange d'informations classique, selon la réac
 <td>La réponse du fournisseur est enregistrée comme <strong>Rejeté</strong> et le statut de la CF reste dans l'état <strong>En cours de révision externe</strong>. Le rejet est reçu avec la note du fournisseur.</td>
 </tr>
 <tr class="odd">
-<td>Le fournisseur <strong>accepte l'ordre avec les modifications</strong>. Les modifications sont suggérées au niveau de la ligne. Il est possible d'accepter ou de rejeter des lignes. D'autres modifications possibles sont les suivantes :
+<td>Le fournisseur <strong>accepte la commande avec des modifications</strong>. Les modifications sont suggérées au niveau de la ligne. Il est possible d'accepter ou de rejeter des lignes. D'autres modifications possibles sont les suivantes :
 <ul>
 <li>Modification des dates ou des quantités.</li>
 <li>Fractionnement des lignes pour différentes dates de livraison ou quantités.</li>
 <li>Remplacement d'un article.</li>
 </ul>
 Les informations sur les prix et les frais ne peuvent pas être modifiées par le fournisseur. Les suggestions de modifications de celles-ci peuvent être faites en utilisant des notes.</td>
-<td>La réponse du fournisseur est enregistrée comme <strong>Accepté avec des modifications</strong>, <strong></strong> statut du fournisseur reste <strong>Fait l'objet d'une révision externe</strong>.</td>
+<td>La réponse du fournisseur est enregistrée comme <strong>Accepté avec des modifications</strong>, <strong></strong> mais le statut de la CF reste dans l'état <strong>En cours de révision externe</strong>.</td>
 </tr>
 </tbody>
 </table>
 
-Vous pouvez utiliser ** commande fournisseur ** ** la préparation ** l'espace de travail à surveiller auquel la position le fournisseur a répondu. Cet espace de travail contient deux listes de présenter des commandes fournisseur avec dont le statut ** Dans la révision externe ** :
+Vous pouvez utiliser l'espace de travail **Préparation de** **la commande fournisseur** pour surveiller les CF auxquelles le fournisseur a répondu. Cet espace de travail contient deux listes contenant les commandes fournisseur ayant le statut **En cours de révision externe**:
 
 -   Action requise pour « Fait l'objet d'une révision externe ».
 -   Dans la révision externe en attente de réponse du fournisseur.
@@ -125,7 +128,7 @@ Lorsque vous annulez une CF, le statut passe à **Approuvé**. Vous devez retran
 Vous pouvez ajouter des pièces jointes telles que des fichiers, des images, et des notes à la CF à l'aide de le système de gestion des documents. Les pièces jointes ajoutées à la restriction du type **Externe** sont visibles pour le fournisseur lorsque vous lui envoyez la CF.
 
 ## <a name="purchase-order-statuses-and-versions"></a>Statuts et versions de commande fournisseur
-Cette section décrit les différents statuts qu'une CF peut comporter jusqu'au moment où elle est confirmée, et à quel moment de nouvelles versions de la CF sont rendues disponibles pour le fournisseur. Il existe des différences dans cette, selon que vous utilisez la gestion des modifications pour les commandes fournisseur. 
+Cette section décrit les différents statuts qu'une CF peut comporter jusqu'au moment où elle est confirmée, et à quel moment de nouvelles versions de la CF sont rendues disponibles pour le fournisseur. Il existe des différences, selon que vous utilisez la gestion des modifications pour les commandes fournisseur. 
 
 ### <a name="versions-and-statuses-if-you-dont-use-change-management"></a>Versions et statuts si vous n'utilisez pas la gestion des modifications
 
@@ -168,6 +171,8 @@ Si vous utilisez le stock de consignation, les fournisseurs peuvent utiliser l'i
 -   **Commandes fournisseur consommant le stock de consignation** - Les commandes fournisseur pour le stock de consignation sont générées lorsque la propriété du stock passe du fournisseur à votre société. Un accusé de réception de marchandises est validé en même temps. Ces commandes fournisseur de consignation sont affichées uniquement sur la page **Commandes fournisseur consommant le stock de consignation**. Elles ne sont pas incluses sur la page **Toutes les commandes fournisseur confirmées** du module **Collaboration fournisseur**.
 -   **Produits reçus du stock de consignation** - Cette page affiche la liste de toutes les transactions dont la propriété des produits a été transférée du fournisseur à votre société. Les fournisseurs peuvent utiliser ces informations pour facturer le client.
 -   **Stock de consignation disponible** - Cette page affiche le stock de consignation disponible appartenant au fournisseur qui a été reçu dans votre entrepôt.
+
+
 
 
 

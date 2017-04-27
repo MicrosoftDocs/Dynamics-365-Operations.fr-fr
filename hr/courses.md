@@ -1,5 +1,5 @@
 ---
-title: "Formations de paramétrage"
+title: "Paramétrer les cours de formation"
 description: "Les administrateurs des ressources humaines et les responsables peuvent utiliser les fonctionnalités du cours pour tenir à jour des informations sur la formation qui est offerte aux employés."
 author: twheeloc
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-training-courses"></a>Formations de paramétrage
+# <a name="set-up-training-courses"></a>Paramétrer les cours de formation
+
+[!include[banner](includes/banner.md)]
+
 
 Les administrateurs des ressources humaines et les responsables peuvent utiliser les fonctionnalités du cours pour tenir à jour des informations sur la formation qui est offerte aux employés.
 
@@ -85,7 +88,7 @@ Pour chaque cours, vous pouvez effectuer les tâches suivantes.
 -   Recommander des hôtels aux participants
 -   Créer une description du cours, que vous pouvez ensuite annoncer sur le libre-service pour employés
 
-  >** Note ** vous pouvez supprimer un cours uniquement si personne ne s'est enregistré pour celui-ci. 
+  >**Remarque** : vous pouvez supprimer un cours uniquement si personne n'y est inscrit. 
     
 ## <a name="course-statuses"></a>Statuts de cours
 Le tableau suivant répertorie les statuts de cours possibles et les actions que vous pouvez effectuer lorsque le cours a un statut spécifique.
@@ -132,7 +135,9 @@ Les participants du cours sont des employés, des candidats ou des personnes à 
 <a name="workflow"></a>Workflow
 --------
 
-Les employés qui s'inscrivent à un cours via ** libre service employé ** la page pouvez faire transférer son enregistrement via le workflow pour approbation.  Un workflow peut être affecté à un cours dans ** général ** l'organisateur d'** les cours ** la page.
+Les employés qui s'inscrivent à un cours via la page **Libre service employé** peuvent faire suivre leur inscription via le workflow pour approbation.  Un workflow peut être affecté à un cours dans l'organisateur **Général** de la page **Cours**.
+
+
 
 
 

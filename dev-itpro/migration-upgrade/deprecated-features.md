@@ -68,7 +68,7 @@ Cet outil est utilisé lorsqu'un plan de comptes en Espagne nécessite des modif
 |                              |                |
 |------------------------------|----------------|
 | Motif de la suppression       | Utilisation limitée  |
-| Remplacé par une autre fonctionnalité ? | N°             |
+| Remplacé par une autre fonctionnalité ? | Non             |
 | Modules concernés             | Comptabilité |
 
 ### <a name="dom80-payment-format-for-belgium"></a>Format de paiement Dom80 pour la Belgique
@@ -108,7 +108,7 @@ EDIVAT est une norme belge obsolète pour la déclaration électronique via cour
 |                              |                                      |
 |------------------------------|--------------------------------------|
 | Motif de la suppression       | La fonctionnalité n'est plus utilisée. |
-| Remplacé par une autre fonctionnalité ? | N°                                   |
+| Remplacé par une autre fonctionnalité ? | Non                                   |
 | Modules concernés             | Comptabilité                       |
 
 ### <a name="egiro-edifact-cremul-payment-import-format-for-norway"></a>Format d'importation de paiements eGiro EDIFACT CREMUL pour la Norvège
@@ -118,7 +118,7 @@ eGiro s'appuie sur la norme internationale EDIFACT CREMUL (Avis de crédit multi
 |                              |                                                                                           |
 |------------------------------|-------------------------------------------------------------------------------------------|
 | Motif de la suppression       | Le format de paiement n'est plus utilisé.                                                     |
-| Remplacé par une autre fonctionnalité ? | N° Le format est remplacé par ISO 20022 formats d'importation des relevés dans les versions futures. |
+| Remplacé par une autre fonctionnalité ? | Non. Le format sera remplacé par les formats d'importation des relevés ISO 20022 dans les versions futures. |
 | Modules concernés             | Module Comptabilité client                                                                       |
 
 ### <a name="external-inventory-for-poland"></a>Stock externe pour la Pologne
@@ -138,7 +138,7 @@ Un outil est utilisé pour paramétrer la collecte des informations pour la comp
 |                              |                                                                                          |
 |------------------------------|------------------------------------------------------------------------------------------|
 | Motif de la suppression       | Utilisation limitée                                                                            |
-| Remplacé par une autre fonctionnalité ? | N° L'outil seront remplacées par les configurations électroniques de génération d'états dans les versions futures. |
+| Remplacé par une autre fonctionnalité ? | Non. L'outil sera remplacé par des configurations de génération d'états électroniques dans les versions futures. |
 | Modules concernés             | Comptabilité                                                                           |
 
 ### <a name="import-of-customer-payment-transactions-for-finland"></a>Importation des transactions de paiement client pour la Finlande
@@ -148,7 +148,7 @@ Vous pouvez sélectionner un format d'importation pour les paiements finlandais 
 |                              |                                                                                           |
 |------------------------------|-------------------------------------------------------------------------------------------|
 | Motif de la suppression       | Le format de paiement n'est plus utilisé.                                                     |
-| Remplacé par une autre fonctionnalité ? | N° Le format est remplacé par ISO 20022 formats d'importation des relevés dans les versions futures. |
+| Remplacé par une autre fonctionnalité ? | Non. Le format sera remplacé par les formats d'importation des relevés ISO 20022 dans les versions futures. |
 | Modules concernés             | Module Comptabilité client                                                                       |
 
 ### <a name="import-of-payment-transactions-into-a-general-ledger-journal-for-finland"></a>Importation des transactions de paiement dans un journal de comptabilité pour la Finlande
@@ -158,7 +158,7 @@ Un format qui est spécifique à la Finlande est utilisé pour importer les tran
 |                              |                                                                                           |
 |------------------------------|-------------------------------------------------------------------------------------------|
 | Motif de la suppression       | Le format de paiement n'est plus utilisé.                                                     |
-| Remplacé par une autre fonctionnalité ? | N° Le format est remplacé par ISO 20022 formats d'importation des relevés dans les versions futures. |
+| Remplacé par une autre fonctionnalité ? | N° Le format sera remplacé par les formats d'importation des relevés ISO 20022 dans les versions futures. |
 | Modules concernés             | Module Comptabilité client                                                                       |
 
 ### <a name="integration-with-isabel-synchronized-cis-for-belgium"></a>L'intégration à Isabel synchronized (CIS) pour la Belgique
@@ -168,7 +168,7 @@ Isabel est le cadre des opérations bancaires électroniques en Europe et une no
 |                              |                                                                                                                      |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | Motif de la suppression       | L'intégration avec le client Isabel est devenue obsolète.                                                                |
-| Remplacé par une autre fonctionnalité ? | N° Les formats de paiement qui ne sont plus utilisés sont remplacés par format de paiement de transfert du crédit ISO20022 pour la Belgique. |
+| Remplacé par une autre fonctionnalité ? | Non. Les formats de paiement qui ne sont plus utilisés sont remplacés par le format de paiement de transfert de crédit ISO20022 pour la Belgique. |
 | Modules concernés             | Module Comptabilité fournisseur                                                                                                     |
 
 ### <a name="modifications-in-the-chart-of-accounts-and-accounting-rules-for-spain"></a>Modifications dans le plan de comptes et les règles comptables pour l'Espagne
@@ -218,7 +218,7 @@ Les formats Telehansa et TeleTeenus sont utilisés pour l'importation de paiemen
 |                              |                                                                                            |
 |------------------------------|--------------------------------------------------------------------------------------------|
 | Motif de la suppression       | Les formats de paiement ne sont plus utilisés.                                                    |
-| Remplacé par une autre fonctionnalité ? | N° Les formats sont remplacés par ISO 20022 formats d'importation des relevés dans les versions futures. |
+| Remplacé par une autre fonctionnalité ? | Non. Les formats seront remplacés par les formats d'importation des relevés ISO 20022 dans les versions futures. |
 | Modules concernés             | Module Comptabilité client                                                                        |
 
 ### <a name="performance-management-goal-workflow"></a>Workflow de l'objectif de gestion des performances
@@ -228,7 +228,7 @@ La gestion des performances inclut la gestion et l'intégration d'objectifs incl
 |                              |                                                                                                                          |
 |------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | Motif de la suppression       | La gestion des performances a été remodelée, et le nombre de pages d'objectifs a été réduit pour simplifier le processus.                 |
-| Remplacé par une autre fonctionnalité ? | N° Les objectifs sont visibles aux responsables via le portail libre-service de Retail, qui peuvent être changés et affichés par le responsable. |
+| Remplacé par une autre fonctionnalité ? | Non. Les objectifs sont visibles des responsables via le portail en libre-service pour responsables, qui peuvent être changés et affichés par le responsable. |
 | Modules concernés             | Gestion du capital humain                                                                                                 |
 
 ### <a name="postgirot-and-postgirot-utland-payment-formats-for-sweden"></a>Formats de paiement Postgirot et Postgirot Utland pour la Suède
@@ -241,14 +241,14 @@ Formats de paiement Postgirot et Postgirot Utland pour la Suède.
 | Remplacé par une autre fonctionnalité ? | Oui, le format de virement bancaire ISO20022 pour la Suède |
 | Modules concernés             | Module Comptabilité fournisseur                                        |
 
-### <a name="radio-frequency-identifier"></a>Identificateur de radiofréquence frequency
+### <a name="radio-frequency-identifier"></a>Identification par radiofréquence
 
 L'identification par radio-fréquence (RFID) est une technologie de collecte de données utilisant des balises électroniques pour stocker des données d'identification et un lecteur sans exigence de visibilité directe pour les capturer.
 
 |                              |                                               |
 |------------------------------|-----------------------------------------------|
-| Motif de la suppression       | Basse utilisation de client et un ensemble limité de fonction. |
-| Remplacé par une autre fonctionnalité ? | N°                                            |
+| Motif de la suppression       | Faible utilisation de la part des clients et ensemble de fonctionnalités limité. |
+| Remplacé par une autre fonctionnalité ? | Non                                            |
 | Modules concernés             | Gestion des stocks                          |
 
 ### <a name="report-about-state-invoices-numbering-for-latvia"></a>État sur la numérotation des factures d'état pour la Lettonie
@@ -312,7 +312,7 @@ Un workflow pour la gestion de la création des objectifs de l'employé est l'un
 
 ### <a name="aif-axd-and-axbc-integrations"></a>Intégration d'AIF, AxD et AxBC
 
-Dans l'environnement d'intégration applicative (AIF), les données peuvent être échangées avec les systèmes externes via une logique métier exposée en tant que service. Dynamics AX inclut des services basés sur des documents et sur .NET Business Connector (AxBC). Un document est créé à l'aide de XML. XML inclut des informations d'en-tête qui sont ajoutées pour créer un *message* qui peut être transféré ou extrait de Dynamics AX. Parmi les exemples de documents on trouve les commandes client et les commandes fournisseur. Toutefois, pratiquement n'importe quelle entité (un client par exemple), peut être représentée par un document. Services basées sur des documents utilisent ** classes &lt;de *** de *Document&gt;Axd.
+Dans l'environnement d'intégration applicative (AIF), les données peuvent être échangées avec les systèmes externes via une logique métier exposée en tant que service. Dynamics AX inclut des services basés sur des documents et sur .NET Business Connector (AxBC). Un document est créé à l'aide de XML. XML inclut des informations d'en-tête qui sont ajoutées pour créer un *message* qui peut être transféré ou extrait de Dynamics AX. Parmi les exemples de documents on trouve les commandes client et les commandes fournisseur. Toutefois, pratiquement n'importe quelle entité (un client par exemple), peut être représentée par un document. Les services basés sur des documents utilisent les classes **Axd&lt;*Document*&gt;** .
 
 |                              |                                                                                                                                                                                                          |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -347,7 +347,7 @@ Déclaration de taxe fédérale pour la taxe ICMS
 |                              |                                                                                                                       |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | Motif de la suppression       | Ce relevé ne s'applique plus dans certains états brésiliens.                                                     |
-| Remplacé par une autre fonctionnalité ? | N° Les utilisateurs peuvent utiliser l'outil électronique générique de génération d'états pour configurer le relevé si nécessaire dans les situations spécifiques. |
+| Remplacé par une autre fonctionnalité ? | Non. Les utilisateurs peuvent utiliser l'outil de génération d'états électroniques génériques pour configurer le relevé si nécessaire dans des situations spécifiques. |
 | Modules concernés             | Registres fiscaux                                                                                                          |
 
 ### <a name="brazilian-scan-contingency-mode-for-nf-e"></a>Mode de secours NF-e SCAN brésilien
@@ -631,7 +631,7 @@ Informations sur les salaires dans Ressources humaines
 |                              |                                                                                                                                                                                                                                                                                                                              |
 |------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Motif de la suppression       | Cette fonctionnalité a été remplacée par les pages Paie et Ressources humaines principales.                                                                                                                                                                                                                                              |
-| Remplacé par une autre fonctionnalité ? | Les pages **Avantages**, **Rémunérations**, et les autres pages associées qui étaient précédemment dans Paie États-Unis ont été reconfigurées et font désormais partie de la configuration du module Ressources humaines principal pour aider à prendre en charge le traitement externe de la paie. Cette fonctionnalité est accessible via ** Ressources humaines 1 ** &gt; ** du salaire ** clé de configuration. |
+| Remplacé par une autre fonctionnalité ? | Les pages **Avantages**, **Rémunérations**, et les autres pages associées qui étaient précédemment dans Paie États-Unis ont été reconfigurées et font désormais partie de la configuration du module Ressources humaines principal pour aider à prendre en charge le traitement externe de la paie. Cette fonctionnalité est accessible à l'aide de la clé de configuration **Ressources humaines 1** &gt; **Paie**. |
 | Modules concernés             | Ressources humaines, Paie                                                                                                                                                                                                                                                                                                     |
 
 ### <a name="private-blocking-of-inventory-and-warehouse-management-journals"></a>Blocage privé des journaux de gestion de stock et d'entrepôt.
@@ -698,12 +698,12 @@ Sites Services vous permet de créer des sites Web qui étendent vos processus d
 | Remplacé par une autre fonctionnalité ? | Non                                                                                                                                       |
 | Modules concernés             | Le recrutement RH, la gestion des incidents, les demandes de devis, enregistrement de fournisseur                                                                  |
 
-### <a name="ssas-demand-forecasting-strategy"></a>Stratégie de prévision de la demande de SSAS
+### <a name="ssas-demand-forecasting-strategy"></a>Stratégie de prévision de la demande SSAS
 
 |                              |                                                                              |
 |------------------------------|------------------------------------------------------------------------------|
 | Motif de la suppression       | La conception de la fonctionnalité ne peut pas être prise en charge dans la nouvelle architecture de cloud. |
-| Remplacé par une autre fonctionnalité ? | Stratégie azurée de prévision de la demande de Machine Learning                           |
+| Remplacé par une autre fonctionnalité ? | Stratégie de prévision de la demande Azure Machine Learning                           |
 | Modules concernés             | Planification                                                                     |
 
 ### <a name="travel-requisitions"></a>Demandes de voyage

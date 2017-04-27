@@ -86,5 +86,5 @@ L'option **États financiers** constitue la solution. Les hiérarchies d'organis
 Vous pouvez consolider les données à l'aide de l'option **Exporter soldes de la société** pour exporter à partir d'une instance, puis l'option **Consolider avec importation** sur l'autre instance.
 
 
-Pour plus d'informations, voir [revalution de devise à une société de consolidation] (\\finanicials comptabilité\devise-réévaluation-consolidation- société).
+Pour plus d'informations, voir [Réévaluation de devise dans une société de consolidation](\finanicials\general-ledger\currency-revaluation-consolidation-company)
 

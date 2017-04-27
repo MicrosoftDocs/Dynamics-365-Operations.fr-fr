@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>Méthodes de calcul de la taxe dans le champ Origine
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article décrit les options du champ Origine dans la page de codes taxe et la manière dont la taxe est calculée selon l'option sélectionnée pour un code taxe.
 
 Pour chaque code taxe créé dans la page Codes taxe, vous devez sélectionner la méthode de calcul à appliquer au montant de base de la taxe dans le champ Origine.
@@ -124,5 +127,7 @@ Le document ou journal est défini sur Montants, taxe incluse = Non Montant de l
 [Détermination des taux de taxe en fonction des champs Base marginale et Mode de calcul](marginal-base-field.md)
 
 [Options de calcul Montant entier et Intervalle pour les codes taxe](whole-amount-interval-options-sales-tax-codes.md)
+
+
 
 

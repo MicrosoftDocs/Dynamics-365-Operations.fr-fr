@@ -1,6 +1,6 @@
 ---
 title: "États financiers du bilan"
-description: "Cet article décrit les états par défaut pour les bilans. Elle décrit également les blocs élémentaires associés à ces états."
+description: "Cet article décrit les états par défaut des bilans. Il décrit également les blocs de construction associés à ces états."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="balance-sheet-financial-reports"></a>États financiers du bilan
 
-Cet article décrit les états par défaut pour les bilans. Elle décrit également les blocs élémentaires associés à ces états. 
+[!include[banner](../includes/banner.md)]
+
+
+Cet article décrit les états par défaut des bilans. Il décrit également les blocs de construction associés à ces états. 
 
 <a name="default-balance-sheet-reports"></a>États du bilan par défaut
 -----------------------------
@@ -72,10 +75,12 @@ Les définitions de colonne contiennent différents types de colonnes afin d'off
 <a name="see-also"></a>Voir également :
 --------
 
-[Financial reporting](financial-reporting-getting-started.md)
+[États financiers](financial-reporting-getting-started.md)
 
-[View financial reports](view-financial-reports.md)
+[Afficher les états financiers](view-financial-reports.md)
 
-[Blog d'états financiers de Dynamics (http://blogs.msdn.com/b/dynamics_financial_reporting/)]
+[États financiers Dynamics (blog)](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Gestion de non-conformité"
+title: "Gestion de la non-conformité"
 description: "Cet article décrit le paramétrage de base requis afin d&quot;utiliser les non-conformités. Un paramétrage supplémentaire est requis si vous souhaitez utiliser des ordres de qualité."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="nonconformance-management"></a>Gestion de non-conformité
+# <a name="nonconformance-management"></a>Gestion de la non-conformité
+
+[!include[banner](../includes/banner.md)]
+
 
 Cet article décrit le paramétrage de base requis afin d'utiliser les non-conformités. Un paramétrage supplémentaire est requis si vous souhaitez utiliser des ordres de qualité. 
 
@@ -34,7 +37,7 @@ Pour activer la gestion de non-conformité, procédez comme suit :
 1.  Définissez les paramètres de gestion des entrepôts et des stocks liés aux non-conformités.
     -   Définissez l'option **Utiliser la gestion de la qualité** sur **Oui**.
     -   Dans le champ **Taux horaire**, entrez un taux horaire de main-œuvre dans la devise locale. Le taux horaire permet de calculer les coûts des opérations associées à une non-conformité. Le taux horaire et les coûts calculés fournissent des informations de référence pour une non-conformité. Ils n'interagissent pas avec les autres fonctionnalités.
-    -   Utilisez ** gestion de la qualité ** l'onglet sous ** état paramétré ** la page pour définir le type de document à imprimer. Vous pouvez imprimer un état de non-conformité, la balise de non-conformité, un état des corrections. Vous pouvez définir plusieurs enregistrements pour l'impression de divers types de documents dans un état ou pour l'impression de notes internes et externes. Il peut être utile d'utiliser la page **Type de document** pour définir un type de document unique pour les non-conformités et un type de document unique pour les corrections. Par exemple, si vous souhaitez entrer des commentaires sur une non-conformité à l'aide du type de document unique pour les non-conformités. Vous devez identifier le type de document unique dans les options des états.
+    -   Utilisez l'onglet **Gestion de la qualité** dans la page **Paramétrage d'état** pour définir le type de document à imprimer. Vous pouvez imprimer un état de non-conformité, une balise de non-conformité ou un état des corrections. Vous pouvez définir plusieurs enregistrements pour l'impression de divers types de documents dans un état ou pour l'impression de notes internes et externes. Il peut être utile d'utiliser la page **Type de document** pour définir un type de document unique pour les non-conformités et un type de document unique pour les corrections. Par exemple, si vous souhaitez entrer des commentaires sur une non-conformité à l'aide du type de document unique pour les non-conformités. Vous devez identifier le type de document unique dans les options des états.
     -   Activez les souches de numéros pour la non-conformité et les références de correction.
 
 2.  Activez l'approbation des utilisateurs pour les non-conformités. Utilisez le champ **Nom** de la page **Utilisateurs** pour affecter un employé à chaque utilisateur chargé d'approuver une non-conformité. Le système utilise les employés qui modifient le statut d'une non-conformité pour suivre l'historique des non-conformités. Les utilisateurs ne peuvent pas approuver une non-conformité sauf si un identificateur d'employé leur a été affecté.
@@ -47,10 +50,12 @@ Pour activer la gestion de non-conformité, procédez comme suit :
 <a name="see-also"></a>Voir également :
 --------
 
-[Créez et traitez une non-conformité (Guide de tâche)](https://ax.help.dynamics.com/en/wiki/create-and-process-a-nonconformance/)
+[Créer et traiter une non-conformité (guide de tâche)](https://ax.help.dynamics.com/en/wiki/create-and-process-a-nonconformance/)
 
-[Quality management processes](quality-management-processes.md)
+[Processus de gestion de la qualité](quality-management-processes.md)
 
-[Conditions requises de paramétrage à gestion de non-conformité (Guide de tâche)](https://ax.help.dynamics.com/en/wiki/set-up-prequisites-for-nonconformance-management/)
+[Paramétrer des conditions préalables pour la gestion de la non-conformité (guide de tâche)](https://ax.help.dynamics.com/en/wiki/set-up-prequisites-for-nonconformance-management/)
+
+
 
 

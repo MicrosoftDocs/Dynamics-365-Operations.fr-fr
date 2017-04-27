@@ -85,6 +85,6 @@ Pour plus d'informations, consultez la section « Composants interactifs et fonc
 
 #<a name="see-also"></a>Voir également :
 
-[Rapport financier] ((dynamics365\opérations Finances\\\comptabilité générer-financier- état)
+[Générer un état financier]((dynamics365\operations\financials\general-ledger\generate-financial-report)
 
 

@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="inventory-statuses"></a>Statuts du stock
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article décrit la manière dont vous pouvez utiliser les statuts du stock pour classer et faire le suivi du stock.
 
 Vous pouvez utiliser les statuts de stock pour classer le stock par catégorie. Vous pouvez ensuite initialiser les actions appropriées, telles qu'un réapprovisionnement ou un travail de rangement. 
@@ -47,5 +50,7 @@ Pour un travail sortant, utilisez les articles qui ont un statut de stock dispon
 Après avoir paramétré des statuts de stock, vous pouvez définir le statut du stock par défaut pour un site, un article, et un entrepôt. Vous pouvez également définir un statut par défaut pour les ventes, le transfert, les commandes fournisseur. Le statut par défaut pour les commandes client et l'ordre de transfert sortant ne peut pas avoir l'option **Blocage du stock** définie sur **Oui**. Le statut de stock qui est hérité des paramètres par défaut sur un site, un entrepôt, un article, une commande fournisseur, un ordre de transfert ou une commande client peut être modifié à l'aide de l'appareil mobile, ou sur la ligne de la commande fournisseur, de la commande client, ou de l'ordre de transfert. 
 
 Pour planifier la couverture pour les articles ayant un statut du stock disponible, sélectionnez l'option **Plan de couverture par dimension** pour une dimension de stockage dans la page **Groupes de dimensions de stockage**. Lorsque vous ouvrez l'Assistant **Couverture d'article **, les articles ayant un statut disponible s'affichent sur la page **Statut**. Pour créer des paramètres de couverture pour ces articles, sélectionnez l'ID de statut de stock pour les statuts de stock disponible. En fonction des paramètres de couverture, vous pouvez calculer les demandes d'articles et prévoir l'offre et la demande pour les articles disponibles pendant la planification. Vous ne pouvez pas créer un paramétrage de couverture d'article qui a un statut de stock bloqué. Sinon, utilisez la page **Couverture de l'article** pour créer ou modifier les paramètres de couverture d'article.
+
+
 
 

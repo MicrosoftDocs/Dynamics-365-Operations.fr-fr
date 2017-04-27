@@ -30,7 +30,7 @@ ms.lasthandoff: 03/29/2017
 
 Cet article fournit des informations sur les définitions d'état. Une définition d'état est un composant d'état (ou bloc élémentaire) qui utilise une définition de ligne, de colonne et d'organigramme d'entreprise facultatif pour créer un état. Une définition d'état fournit également les paramètres et les options pour la personnalisation d’un état. 
 
-Une définition d'état est un composant d'état (ou bloc élémentaire) qui utilise une définition de ligne, de colonne et d'organigramme d'entreprise facultatif pour créer un état. Une définition de rapport comporte également les options et paramètres que vous pouvez utiliser pour personnaliser un rapport. Après avoir défini des définitions de ligne et des définitions de colonne, vous devez les combiner dans une définition d'état. À ce stade, vous définissez également d'autres aspects des définitions, comme le niveau de détail et la date de l'état. Vous pouvez ensuite enregistrer et générer l'état. Les états financiers offrent les niveaux de détail suivants :
+Une définition d'état est un composant d'état (ou bloc élémentaire) qui utilise une définition de ligne, de colonne et d'organigramme d'entreprise facultatif pour créer un état. Une définition d'état fournit également des options et des paramètres pour personnaliser un état. Après avoir défini des définitions de ligne et des définitions de colonne, vous devez les combiner dans une définition d'état. À ce stade, vous définissez également d'autres aspects des définitions, comme le niveau de détail et la date de l'état. Vous pouvez ensuite enregistrer et générer l'état. Les états financiers offrent les niveaux de détail suivants :
 
 -   Financier
 -   Financier et Compte
@@ -89,6 +89,6 @@ Le tableau suivant décrit les onglets dans une définition d'état, ainsi que l
 <a name="see-also"></a>Voir également :
 --------
 
-[États financiers pour Microsoft Dynamics 365 pour opérations] (financial-reporting-intro.md)
+[Génération d'états financiers pour Microsoft Dynamics 365 for Operations](financial-reporting-intro.md)
 
 

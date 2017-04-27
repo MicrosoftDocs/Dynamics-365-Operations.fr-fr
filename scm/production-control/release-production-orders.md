@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="release-production-orders"></a>Lancement des ordres de fabrication
 
+[!include[banner](../includes/banner.md)]
+
+
 Un ordre de fabrication lancé est une commande qui a été autorisée pour la production. Le terme Lancé permet de décrire un état du cycle de vie de l'ordre de fabrication où l'ordre de fabrication est disponible pour l'exécution dans l'atelier de production et pour les processus d'entrepôt. 
 
 <a name="characteristics-of-the-released-state"></a>Caractéristiques de l'état Lancé
@@ -42,7 +45,7 @@ L'état **Lancé** est un état du cycle de vie de l'ordre de fabrication. Les o
 -   Pour les matières réservées physiquement, le travail à l'entrepôt est généré pour prélever les matières pour l'ordre de fabrication.
 
 ## <a name="releasing-jobs-to-the-shop-floor"></a>Lancement des tâches à l'atelier
-Une fois un ordre de fabrication lancé, les tâches de production concernant l'ordre sont visibles et prêts à être enregistrés. Les opérateurs peuvent effectuer des enregistrements de tâches, tels que le démarrage, la fin, et l'achèvement, sous ** terminal des bons de travail ** la page ou ** périphérique de bons de travail ** la page. Le temps et la quantité enregistrés sont automatiquement transférés des pages d'enregistrement aux journaux de production de suivre le temps et la quantité de consommation.
+Une fois un ordre de fabrication lancé, les tâches de production concernant l'ordre sont visibles et prêts à être enregistrés. Les opérateurs peuvent effectuer des enregistrements des tâches, tels que le début, l'arrêt et l'achèvement, sur la page **Terminal des bons de travail** ou **Périphérique pour le bon de travail**. Le temps et la quantité enregistrés sont automatiquement transférés depuis les pages d'enregistrement vers les journaux de production pour permettre le suivi du temps et de la quantité consommés.
 
 ## <a name="route-cards"></a>Fiches productions
 Une fiche production offre une vue d'ensemble des informations qui viennent du paramétrage des gammes et des opérations et des méthodes de planification des tâches.
@@ -54,11 +57,13 @@ Une tâche de gamme répertorie en détails chaque tâche d'une opération, nota
 Un bon de travail répertorie les numéros de travail individuels d'une opération particulière. Une tâche apparaît dans chaque page. Les tâches incluses sur un bon de travail, et leurs temps estimés, viennent des informations de paramétrage de la gamme et de l'opération. Depuis un bon de travail, vous pouvez ouvrir la page **Lignes de journal de production**, **bon de travail **. Les personnes qui exécutent des ressources opérationnelles peuvent donner leur avis sur le processus de production. Il existe des champs dans lesquels vous pouvez entrer des statistiques et des informations de consommation telles que la quantité d'erreurs.
 
 ## <a name="warehouse-work-for-raw-material-picking"></a>Travail d'entrepôt pour le prélèvement des matières premières
-Le travail pour le prélèvement des matières premières est généré lors du lancement. Le travail est généré que pour la quantité de matières réservée physiquement pour l'ordre de fabrication avant que l'ordre a été activé. Le paramétrage suivant est requis pour générer le travail d'entrepôt pour le prélèvement de matières premières :
+Le travail pour le prélèvement des matières premières est généré lors du lancement. Le travail est généré uniquement pour la quantité des matières physiquement réservées pour l'ordre de fabrication, avant le lancement de l'ordre. Le paramétrage suivant est nécessaire pour générer le travail d'entrepôt pour le prélèvement des matières premières :
 
 -   Une directive d'emplacement pour le prélèvement des matières premières qui détermine où prélever les matériaux dans l'entrepôt
 -   Un modèle de vague pour les matières premières, où sont configurées les stratégies d'exécution du travail d'entrepôt
 -   Un emplacement d'entrée en production qui détermine où sont déposées les matières
+
+
 
 
 

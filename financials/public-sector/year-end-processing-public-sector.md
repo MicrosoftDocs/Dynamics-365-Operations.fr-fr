@@ -29,9 +29,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="year-end-processing-in-the-public-sector"></a>Traitement de fin d'exercice dans le secteur public
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article fournit des informations sur le processus de fin d'exercice pour des organisations du secteur public.
 
-Cette rubrique décrit la fonctionnalité de fin d'exercice disponible pour le secteur public. À la fin d'un exercice, vous devez générer des transactions de clôture et préparer vos comptes pour l'exercice suivant.  Les clients du secteur public ont des fonctions suivantes :
+Cette rubrique décrit la fonctionnalité de fin d'exercice disponible pour le secteur public. À la fin d'un exercice, vous devez générer des transactions de clôture et préparer vos comptes pour l'exercice suivant.  Les clients du secteur public ont les fonctionnalités suivantes :
 
 -   Sélectionner des comptes par fonds pour la clôture de fin d'exercice.
 -   Fermer les fonds à différents comptes. Par exemple, vous pouvez clôturer les comptes de gestion associés aux fonds gouvernementaux pour financer les soldes. Vous pouvez également clôturer les comptes de gestion associés aux fonds propriétaires aux bénéfices non répartis.
@@ -56,5 +59,7 @@ Vous devez sélectionner un type de clôture pour chaque compte dans votre plan 
 -   **Non applicable** – Le compte n'est pas inclus dans le traitement de fin d'exercice.
 
 Les définitions de validation régissent la comptabilité qui concerne les entrées de clôture, et elles permettent également de créer des transactions d'ouverture pour la nouvelle année. Pour plus d'informations, voir [Définitions de validation dans le secteur public](posting-definitions-public-sector.md).
+
+
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Utilisez un paiement client pour régler plusieurs factures qui couvrent plusieurs périodes de remise plusieurs"
+title: "Utiliser un paiement client pour régler plusieurs factures qui couvrent plusieurs périodes de remise"
 description: "Cet article montre comment plusieurs factures sont payées lorsque chaque facture est qualifiée pour un escompte de règlement. Les scénarios dans cet article illustrent la variation des escomptes de règlement qui sont pris, en fonction de la manière dont le paiement est effectué."
 author: twheeloc
 manager: AnnBe
@@ -26,18 +26,21 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="use-a-customer-payment-to-settle-multiple-invoices-that-span-multiple-discount-periods"></a>Utilisez un paiement client pour régler plusieurs factures qui couvrent plusieurs périodes de remise plusieurs
+# <a name="use-a-customer-payment-to-settle-multiple-invoices-that-span-multiple-discount-periods"></a>Utiliser un paiement client pour régler plusieurs factures qui couvrent plusieurs périodes de remise
+
+[!include[banner](../includes/banner.md)]
+
 
 Cet article montre comment plusieurs factures sont payées lorsque chaque facture est qualifiée pour un escompte de règlement. Les scénarios dans cet article illustrent la variation des escomptes de règlement qui sont pris, en fonction de la manière dont le paiement est effectué.
 
-Fabrikam vend des marchandises au client 4032. Fabrikam offre un escompte de règlement de 1 % % si la facture est payée dans les 14 jours. Fabrikam propose également des escomptes de règlement sur des paiements partiels. Les paramètres de settement sont situés sous ** des paramètres des ventes ** la page.
+Fabrikam vend des marchandises au client 4032. Fabrikam offre un escompte de règlement de 1 % si la facture est payée sous 14 jours. Fabrikam propose également des escomptes de règlement sur des paiements partiels. Les paramètres de règlement sont situés sur la page **Paramètres de la comptabilité client**.
 
 ## <a name="invoices"></a>Factures
 Le client 4032 a trois factures pour un total de 3 000,00 :
 
--   Facturer FTI-10040, pour 1.000,00, a été entrée le 15 mai. Cette facture est éligible pour un escompte de règlement de 1 % si elle a payé dans 14 jours.
--   Facturer FTI-10041, pour 1.000,00, a été entrée le 25 juin. Cette facture est éligible pour un escompte de règlement de 1 % si elle a payé dans 14 jours.
--   Facturer FTI-10042, pour 1.000,00, a été entrée le 25 juin. Cette facture est éligible pour un escompte de règlement de 2 % si elle a payé en cinq jours et une remise de 1 % % si elle a payé dans 14 jours.
+-   La facture FTI-10040, de 1 000,00, a été entrée le 15 mai. Cette facture est éligible pour un escompte de règlement de 1 % si elle est payée dans les 14 jours.
+-   La facture FTI-10041, de 1 000,00, a été entrée le 25 juin. Cette facture est éligible pour un escompte de règlement de 1 % si elle est payée dans les 14 jours.
+-   La facture FTI-10042, de 1 000,00, a été entrée le 25 juin. Cette facture est éligible pour un escompte de règlement de 2 % si elle est payée dans les cinq jours, et de 1 % si elle est payée dans les 14 jours.
 
 ## <a name="settle-all-invoices-on-june-29"></a>Régler toutes les factures le 29 juin
 Si Arnie crée un journal des paiements afin de régler l'intégralité de ces factures le 29 juin, le paiement doit être de 2 970,00. Le montant total de la remise s'élève à 30,00. Arnie crée un paiement pour le client 4032, puis ouvre la page **Régler les transactions**. Sur la page **Régler les transactions**, Arnie marque les trois lignes de facture pour règlement :
@@ -76,7 +79,7 @@ Le client 4032 peut effectuer un payement partiel, de la moitié de chaque factu
 | Activé                 | Standard            | FTI-10041 | 4032    | 6/25/2015 | 7/25/2015 | 10041   | 1 000,00                             |                                       | USD      | 495,00           |
 | Sélectionné et mis en surbrillance | Standard            | FTI-10042 | 4032    | 6/25/2015 | 7/25/2015 | 10042   | 1 000,00                             |                                       | USD      | 490,00           |
 
-Il peut également entrer manuellement le montant du paiement de 1.485,00 pour qu'il ouvre ** des transactions de règlement ** la page. Si Arnie entre manuellement le montant du paiement et marque chacune des trois transactions, mais n'ajuste pas la valeur dans ** montant à régler ** le champ de chaque transaction, il reçoit le message suivant lorsqu'il ferme la page :
+Arnie peut également saisir manuellement le montant du paiement de 1 485,00 avant d'ouvrir la page **Régler les transactions**. Si Arnie saisit manuellement le montant du paiement, puis marque les trois transactions, mais n'ajuste pas la valeur du champ **Montant à régler** pour chaque transaction, il reçoit le message suivant lorsqu'il ferme la page :
 
 > Le montant total des transactions marquées est différent du montant du journal. Modifier le montant du journal ?
 
@@ -95,6 +98,8 @@ Arnie visualise les informations sur la page **Transactions client**.
 | FTI-10042  | Facture          | 6/25/2015 | 10042   | 1 000,00                             |                                       | 505,10   | USD      |
 | ARP-10040  | Paiement          | 6/29/2015 |         |                                      | 1 485,00                              | 0,00     | USD      |
 | DISC-10040 | Escompte de règlement    | 6/29/2015 |         |                                      | 9,90                                  | 0,00     | USD      |
+
+
 
 
 

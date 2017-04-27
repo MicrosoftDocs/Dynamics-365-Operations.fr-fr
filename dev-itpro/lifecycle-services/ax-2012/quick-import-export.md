@@ -1,5 +1,5 @@
 ---
-title: Importation et exportation rapides d&quot;utilisation
+title: Utiliser l&quot;importation/exportation rapide
 description: "Le but de l’exportation/importation rapide est de vous permettre d’importer et d&quot;exporter avec moins d’étapes."
 author: margoc
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="run-the-test-data-transfer-tool-beta-for-dynamics-ax-ax-2012"></a>Exécutez l'outil de transfert de tentatives (bêta) dans Dynamics AX (AX 2012)
+# <a name="run-the-test-data-transfer-tool-beta-for-dynamics-ax-ax-2012"></a>Exécuter l'Outil de transfert de données de test (bêta) dans Dynamics AX (AX 2012)
+
+[!include[banner](../../includes/banner.md)]
+
 
 Le but de l’exportation/importation rapide est de vous permettre d’importer et d'exporter avec moins d’étapes.
 
@@ -36,5 +39,7 @@ Nous avons ajouté la fonctionnalité d'importation/exportation rapide pour perm
 -   Vous n’avez pas besoin de créer un groupe de traitement pour utiliser l’importation/exportation rapide, il sera automatiquement créé par le système lors de l’exécution de la tâche d’importation ou d’exportation. Vous pouvez également choisir de conserver l’historique des données importées par l’importation/exportation rapide.
 
   Notez que l’importation/exportation rapide suppose que vous soyez familiarisé avec les concepts de DIXF.
+
+
 
 

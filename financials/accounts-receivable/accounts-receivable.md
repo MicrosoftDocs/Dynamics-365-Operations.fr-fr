@@ -27,9 +27,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounts-receivable-home-page"></a>Page d'accueil de la comptabilité client
 
-Le module Ventes permet d'assurer le suivi des paiements entrants et des factures client.
+[!include[banner](../includes/banner.md)]
+
+
+Le module Ventes permet d'assurer le suivi des paiements entrants et des factures client. 
 
 Vous pouvez créer des factures client basées sur les commandes client ou les bons de livraison. Vous pouvez également entrer des factures financières qui ne sont pas associées à des commandes client. Vous pouvez recevoir des paiements via plusieurs types de paiements. Il s'agit notamment de lettres de change, de disponibilités, de chèques, de cartes de crédit et de paiements électroniques. Si votre organisation comprend plusieurs entités juridiques, vous pouvez recourir à des paiements centralisés afin d'enregistrer des paiements dans une seule entité juridique pour le compte des autres entités.
+
+
 
 
 

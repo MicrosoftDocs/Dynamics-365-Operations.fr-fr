@@ -1,5 +1,5 @@
 ---
-title: "Gammes de transport de fret de plans avec les arrête plusieurs"
+title: "Planifier des itinéraires de transport de fret avec plusieurs arrêts"
 description: "Cet article décrit les différents éléments que vous utilisez pour planifier des routes de transport dans Microsoft Dynamics AX."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Gammes de transport de fret de plans avec les arrête plusieurs
+# <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Planifier des itinéraires de transport de fret avec plusieurs arrêts
+
+[!include[banner](../includes/banner.md)]
+
 
 Cet article décrit les différents éléments que vous utilisez pour planifier des routes de transport dans Microsoft Dynamics AX.
 
@@ -48,5 +51,7 @@ Une route planifiée est un plan de route prédéfini qui a une planification po
 
 ## <a name="load-building-workbench"></a>Atelier de création de chargement
 L’Atelier de création de chargement utilise les adresses des clients et les dates de livraison des commandes client, et les routes planifiées disponibles, pour proposer une charge. Par défaut, les valeurs de la route sont entrés dans l’atelier. Toutefois, vous pouvez sélectionner une date « de » antérieure à la date « de » de la route. Lorsqu’une charge est proposée, l’adresse de livraison et la date de livraison de toutes les commandes client en cours sont vérifiées. Si le code postal de l’adresse de livraison correspond au code postal d’un point de transbordement sur le plan de route, et si la date de livraison est dans la plage sélectionnée dans les critères, la commande client est proposé pour la charge. La capacité du modèle de charge est également prise en compte. Une seule charge est proposée à la fois. Si vous avez une commande client qui n’est pas incluse, vous devrez peut-être utiliser un modèle de charge différent (par exemple, un modèle de charge pour un camion ou un conteneur plus grand) ou planifier une livraison supplémentaire.
+
+
 
 

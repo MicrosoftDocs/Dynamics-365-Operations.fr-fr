@@ -1,5 +1,5 @@
 ---
-title: "Réservez le même lot pour une commande client"
+title: "Réserver le même lot pour une commande client"
 description: "Cet article explique comment paramétrer un produit pour autoriser la réservation du stock par rapport à un lot de stock unique."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="reserve-the-same-batch-for-a-sales-order"></a>Réservez le même lot pour une commande client
+# <a name="reserve-the-same-batch-for-a-sales-order"></a>Réserver le même lot pour une commande client
+
+[!include[banner](../includes/banner.md)]
+
 
 Cet article explique comment paramétrer un produit pour autoriser la réservation du stock par rapport à un lot de stock unique.
 
@@ -42,6 +45,8 @@ Lorsque vous réservez du stock pour un produit sur une ligne de commande client
 -   Pour le code disposition de lot, **Bloquer la réservation** pour les ventes est marqué comme **Bloqué**.
 -   Le lot a expiré, d'après la date d'expiration et des jours de vente applicables au client. L'article peut toujours être pris en compte pour la réservation si le Groupe de modèles d'article pour l'article est contrôlé par la date FEFO (première date d'expiration, premier sorti) et si la DLUO est sélectionnée dans les critères de prélèvement.
 -   Le lot a une durée de conservation en jours insuffisante, selon la date d'expiration/DLUO, plus les jours de vente du client.
+
+
 
 
 

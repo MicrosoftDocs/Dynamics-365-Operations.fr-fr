@@ -46,12 +46,12 @@ Outre les états financiers, vous pouvez utiliser les états suivants de comptab
 
 -   **Relevé de dimension** – Cet état affiche les transactions par jour et par compte et contient également des options pour afficher les transactions par dimension et période.
 -   **Liste des écritures comptables** – Cet état affiche les transactions dans les devises de transaction, comptables et de déclaration pour un compte.
--   ** Journal d'impression ** – Affiche de cet état le résultat d'un journal validé. Vous pouvez exécuter l'état par numéro de lot ou le type de journal, ou d'ajouter des champs supplémentaires.
+-   **Journal d'impression** – Cet état affiche le résultat d'un journal validé. Vous pouvez exécuter la génération d'état par numéro de lot ou le type de journal, ou ajouter des champs supplémentaires.
 -   **Transactions validées par journal** – Cet état affiche les transactions validées dans un journal, regroupées par document.
 -   **Liste des transactions par date** – Cet état affiche toutes les transactions par date, ainsi que le numéro de journal, le N° document et le compte général. Il indique également les transactions dans les devises de transaction, comptables et de déclaration.
 -   **Origine de la transaction** – Cet état de transaction affiche le compte par journal, et par devise de transaction, comptable et de déclaration. Il indique également chaque ligne du journal qui a été utilisé comme contrepartie.
 
 
-Pour plus d'informations, voir [soldes de compte général] (general-ledger-account-balances.md), [Explorateur de source de comptabilité] (finances\\ Achats\comptabilité-source- Explorateur) et [les états financiers] (financial-reporting-getting-started.md)
+Pour plus d'informations, voir [Soldes de la comptabilité](general-ledger-account-balances.md), [Explorateur de comptabilité source](\financials\accounts-payable\accounting-source-explorer) et [États financiers](financial-reporting-getting-started.md)
 
 

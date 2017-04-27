@@ -1,5 +1,5 @@
 ---
-title: "Périphériques de matériel de PDV"
+title: "Périphériques matériels de PDV"
 description: "Retail Modern point of sale (PDV) et PDV Cloud peuvent utiliser un large éventail des périphériques matériels de PDV, avec des interfaces et des options de déploiement multiples pour exécuter différents scénarios métier d&quot;un détaillant."
 author: josaw1
 manager: AnnBe
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 215234
 ms.assetid: 1893d4b3-e1b7-4b66-be58-0102addd5b36
 ms.search.region: global
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="pos-hardware-peripherals"></a>Périphériques de matériel de PDV
+# <a name="pos-hardware-peripherals"></a>Périphériques matériels de PDV
+
+[!include[banner](includes/banner.md)]
+
 
 Retail Modern point of sale (PDV) et PDV Cloud peuvent utiliser un large éventail des périphériques matériels de PDV, avec des interfaces et des options de déploiement multiples pour exécuter différents scénarios métier d'un détaillant. 
 
@@ -63,6 +66,8 @@ La liste suivante récapitule les modèles de périphériques, dans chaque class
 
 -   Code-barres – Honeywell 1900, HP LS2208
 -   LBM – Magtek PN - 21073075
+
+
 
 
 

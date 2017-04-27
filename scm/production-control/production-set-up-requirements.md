@@ -29,9 +29,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="production-setup-requirements"></a>Conditions requises pour le paramétrage de la production
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article fournit des informations sur les conditions requises pour le paramétrage avant d'utiliser le contrôle de la production. 
 
-Le contrôle de la production est intégré à des fonctions d'autres modules. Cette interconnectivité permet de modifier les ordres de fabrication et de s'assurer qu'ils sont automatiquement mis à jour dans tous les autres processus et calculs associés du système. Les processus de paramétrage suivants sont listés dans leur ordre de réalisation.
+Le contrôle de la production figure dans les fonctionnalités d'autres modules. Cette interconnectivité permet de modifier les ordres de fabrication et de s'assurer qu'ils sont automatiquement mis à jour dans tous les autres processus et calculs associés du système. Les processus de paramétrage suivants sont listés dans leur ordre de réalisation.
 
 ## <a name="required-baseline-setup-in-other-modules"></a>Paramétrages de bases requis dans les autres modules
 Vous devez paramétrer les informations des autres modules avant de pouvoir utiliser le module Contrôle de la production. Ce paramétrage inclut les tâches suivantes :
@@ -52,7 +55,7 @@ Avant d'utiliser le module Contrôle de la production, ouvrez le module Administ
 4.  **Ressources** – Paramétrez des ressources opérationnelles afin de définir les ressources utilisées pour exécuter le processus de production et planifier la capacité.
 
 ## <a name="required-production-parameters-setup"></a>Paramétrage requis des paramètres de production
-** Les paramètres du contrôle de production ** – Paramétrage des paramètres de production de base pour définir comment le système gère et traite des ordres de fabrication. Définissez le mode de création, d'estimation, de planification et de consommation des ordres de fabrication. Vous pouvez également sélectionner le type de rétroaction souhaité et la manière dont le contrôle de gestion doit être réalisé.
+**Paramètres de contrôle de la production** – Définissez des paramètres de production de base afin de définir la manière dont le système gère et traite les ordres de fabrication. Définissez le mode de création, d'estimation, de planification et de consommation des ordres de fabrication. Vous pouvez également sélectionner le type de rétroaction souhaité et la manière dont le contrôle de gestion doit être réalisé.
 
 ## <a name="required-journal-name-identification"></a>Identification requise des noms de journal
 **Noms des journaux de production** – Permet de spécifier les noms des journaux de production à utiliser afin d'enregistrer et de valider des transactions.
@@ -76,6 +79,8 @@ Si vous utilisez des gammes, les opérations doivent être définies pour chaque
 1.  **Groupes de productions** – Paramétrez les groupes de production afin de définir les relations entre l'ordre de fabrication et les comptes généraux. Ces derniers sont utilisés pour valider ou regrouper les ordres à des fins de génération d'états.
 2.  **Regroupements de productions** – Créez des regroupements de production afin de regrouper les ordres de fabrication pour leur traitement urgent ou pour la suppression ou la validation des groupes d'ordres.
 3.  **Propriétés** – Définissez les propriétés pour créer les attributs spéciaux que vous pouvez affecter à vos ressources pour contrôler la séquence de production. Ces attributs sont connectés au modèle de temps de travail.
+
+
 
 
 

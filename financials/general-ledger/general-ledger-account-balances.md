@@ -1,6 +1,6 @@
 ---
 title: "Soldes de la comptabilité"
-description: "Cet article décrit deux manières d&quot;afficher des soldes de compte général - la page de liste de balance comptable et états financiers. Il explique également comment mettre à jour les soldes de l&quot;ensemble de dimensions."
+description: "Cet article décrit deux manières d&quot;afficher les soldes de compte général : la page de liste de balance comptable et les états financiers. Il explique également comment mettre à jour les soldes de l&quot;ensemble de dimensions."
 author: RobinARH
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="general-ledger-account-balances"></a>Soldes de la comptabilité
 
-Cet article décrit deux manières d'afficher des soldes de compte général - la page de liste de balance comptable et états financiers. Il explique également comment mettre à jour les soldes de l'ensemble de dimensions.
+[!include[banner](../includes/banner.md)]
+
+
+Cet article décrit deux manières d'afficher les soldes de compte général : la page de liste de balance comptable et les états financiers. Il explique également comment mettre à jour les soldes de l'ensemble de dimensions.
 
 Les utilisateurs disposent de plusieurs méthodes pour afficher les soldes dans la comptabilité. Certaines des options les plus courantes sont :
 
@@ -46,6 +49,8 @@ Lorsqu'un utilisateur modifie les paramètres les soldes sont actualisés. L'uti
 
 Les utilisateurs peuvent faire un zoom avant sur les soldes pour afficher les transactions qui constituent le solde.    
 
-Pour plus d'informations, voir [états financiers de vue] (view-financial-reports.md).
+Pour plus d'informations, voir [Afficher les états financiers](view-financial-reports.md).
+
+
 
 

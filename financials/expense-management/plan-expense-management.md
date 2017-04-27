@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-expense-management"></a>Configurer la gestion des dépenses
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article décrit les considérations et les décisions que vous devez prendre au cours du processus de planification avant de configurer la gestion des dépenses dans Microsoft Dynamics AX. Dans la zone de gestion des dépenses, vous pouvez stocker des informations sur les modes de paiement, des demandes de voyage, états de dépenses, et des stratégies, notamment. 
 
 Étant donné qu'un bon nombre des décisions que vous prenez lorsque vous planifiez la configuration de la gestion des dépenses sont basées sur la hiérarchie et la structure financière de votre organisation, vous devez vous référer aux documents de planification pour ces domaines.
@@ -133,6 +136,8 @@ Vous pouvez créer des stratégies d'état de dépenses de sorte que votre organ
 -   Quand la stratégie arrive-t-elle à expiration ?
 -   Quelle est la règle de stratégie ?
 -   Quel est le résultat de la règle de stratégie ?
+
+
 
 
 

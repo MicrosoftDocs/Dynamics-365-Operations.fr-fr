@@ -54,12 +54,12 @@ Vous pouvez utiliser les écritures comptables avancées pour créer, ajuster et
 ## <a name="why-should-i-use-posting-definitions"></a>Pourquoi utiliser les définitions de validation ?
 Vous pouvez utiliser les définitions de validation pour créer des lignes de journal de comptabilité auxiliaire pour les transactions d'origine qui répondent aux critères sélectionnés, par exemple, pour générer plusieurs écritures comptables équilibrées basées sur des attributs tels que des types de transactions et des comptes. Les définitions de validation permettent un contrôle précis des mises à jour comptables créées par les documents source, contrairement:aux mises à jour largement appliquées des profils de validation. Les définitions de validation de comptabilité sont exigées lorsque vous utilisez des écritures comptables avancées. Les définitions de validation sont utilisées dans le traitement de fin d'exercice des comptes généraux. Vous pouvez utiliser les définitions de validation pour clôturer les comptes pour les soldes de fonds ou les bénéfices non répartis, en fonction de la classe de fonds et du type de clôture de compte. Les définitions de validation sont requises pour clôturer les comptes généraux et transférer les soldes vers la période d'ouverture du nouvel exercice. Pour plus d'informations, voir [Définitions de validation dans le secteur public](posting-definitions-public-sector.md).
 
-## <a name="how-do-i-collect-and-analyze-data-to-meet-the-common-governmentwide-accounting-classification-cgac-requirements"></a>Comment collecte et analyse des données pour répondre aux exigences des principales à tout le gouvernement courantes de (CGAC) de classifications comptables ?
+## <a name="how-do-i-collect-and-analyze-data-to-meet-the-common-governmentwide-accounting-classification-cgac-requirements"></a>Comment recueillir et analyser des données pour répondre aux exigences des principales classifications comptables applicables au niveau gouvernemental ?
 Vous pouvez utiliser des hiérarchies financières dérivées afin de recueillir et d'analyser des données de transaction validées pour des numéros de compte principal, des numéros de compte complet et des valeurs de dimension financière spécifiques. Pour plus d'informations, voir [Hiérarchies financières dérivées dans le secteur public](derived-financial-hierarchies-public-sector.md).
 
 <a name="see-also"></a>Voir également :
 --------
 
-[General ledger](/general-ledger/general-ledger.md)
+[Comptabilité](/general-ledger/general-ledger.md)
 
 

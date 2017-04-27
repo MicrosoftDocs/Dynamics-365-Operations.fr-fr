@@ -1,6 +1,6 @@
 ---
 title: Page d&quot;accueil des immobilisations
-description: "Les immobilisations sont des articles de valeur, (bâtiments, véhicules, terrains, et de l&quot;équipement, détenus par un individu ou une organisation."
+description: "Les immobilisations sont des articles de valeur (bâtiments, véhicules, terrains et équipements) détenus par un individu ou une organisation."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,9 +27,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-assets-home-page"></a>Page d'accueil des immobilisations
 
-Les immobilisations sont des articles de valeur, (bâtiments, véhicules, terrains, et de l'équipement, détenus par un individu ou une organisation.
+[!include[banner](../includes/banner.md)]
+
+
+Les immobilisations sont des articles de valeur (bâtiments, véhicules, terrains et équipements) détenus par un individu ou une organisation. 
 
 Vous pouvez définir et entrer des informations d'acquisition pour les immobilisations, puis les gérer en les amortissant et en paramétrant un seuil de capitalisation pour déterminer l'amortissement. Vous pouvez calculer des ajustements pour les immobilisations ou les céder. Lorsque vous utilisez la Comptabilité avec les Immobilisations, vous pouvez afficher la valeur actuelle de toutes les immobilisations. Le traitement des immobilisations doit être conforme aux normes comptables internationales et à la législation comptable de chaque pays/région. Il peut s'agir de respecter des règles concernant l'enregistrement des transactions d'acquisition et de cession, l'amortissement, les durées de vie, les revalorisations et dévalorisations des immobilisations. La fonctionnalité Immobilisations intègre bon nombre de ces normes et règles.
+
+
 
 
 

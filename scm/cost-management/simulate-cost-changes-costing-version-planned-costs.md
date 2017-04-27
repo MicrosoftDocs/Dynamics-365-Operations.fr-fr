@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="simulate-cost-changes-by-using-a-costing-version-for-planned-costs"></a>Simuler des modifications de coûts à l'aide d'une version d'évaluation des coûts pour les coûts planifiés
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article explique comment simuler les effets des modifications de coûts sur les coûts calculés d'un article fabriqué à l'aide d'une version d'évaluation des coûts séparée pour les coûts planifiés.
 
 Vous pouvez simuler les effets des modifications de coûts sur les coûts calculés d'un article fabriqué à l'aide d'une version d'évaluation des coûts séparée pour les coûts planifiés. Une version d'évaluation des coûts séparée permet d'entrer les enregistrements des coûts en attente qui reflètent les modifications de coûts et de calculer l'impact des coûts sur les articles fabriqués. Dut fait qu'un principe de secours des coûts actifs sera utilisé dans les calculs de nomenclature, seules les modifications de coûts incrémentiels doivent être entrées.
@@ -54,5 +57,7 @@ Les scénarios suivants illustrent l'utilisation de la version d'évaluation des
 -   Simulez la modification de coûts dans une formule de calcul des coûts indirects. Par exemple, la modification des coûts peut refléter une augmentation ou une diminution prévue des frais généraux de fabrication. Pour définir la modification dans une formule de calcul des coûts indirects, la page **Paramétrage de la feuille de coûts** permet d'entrer un enregistrement de coûts en attente dans la version d'évaluation des coûts de simulation et de valider et d'enregistrer la modification.
 
 Après avoir entré les modifications des coûts simulés, calculez les coûts des articles fabriqués qui sont touchés par les modifications de coûts. Utilisez la page **Calcul** pour la version de simulation des coûts et identifiez les articles fabriqués sélectionnés qui seront touchés par les modifications de coûts. Les calculs de nomenclature s'appliquent à tous les articles fabriqués à moins que vous sélectionnez des articles spécifiques. Vous pouvez également utiliser l'option de calcul de nomenclature pour des mises à jour d'analyses des utilisations. Affichez les enregistrements des coûts des articles dans la version d'évaluation des coûts de simulation pour analyser la manière dont les modifications des coûts simulées ont touché les coûts des articles fabriqués sélectionnés. La page **Prix de l'article** et la page **Calculer le coût de l'article** permettent d'afficher et d'analyser les coûts.
+
+
 
 

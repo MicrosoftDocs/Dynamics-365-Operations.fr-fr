@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Définitions d'arborescence de génération d'états dans les états financiers
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article fournit des informations sur les définitions d'arborescence de génération d'états. Une définition d’arborescence de génération d'états est un composant d’état, ou un bloc élémentaire, qui vous permet de définir la structure et la hiérarchie de votre organisation.
 
 Les états financiers prennent en charge la génération d'états flexible afin qu'il soit facile d'apporter des modifications à mesure que la structure de votre organisation change. Les états sont générés à partir de différents composants ou de blocs élémentaires. Un de ces blocs élémentaire est une définition de l’arborescence de génération d'états. Une définition de l’arborescence de génération d'états permet de définir la structure et la hiérarchie de votre organisation. Il s'agit d'une hiérarchie inter-dimensionnelles basée sur des relations dimensionnelles dans vos données financières. Elle fournit des informations au niveau de l’unité de génération d'états et à un niveau synthétique pour toutes les unités dans l’arborescence. Les définitions d'arborescence de génération d'états peuvent être combinées avec les définitions de colonne et les définitions d'état pour créer un groupe de blocs élémentaires pouvant être utilisé par plusieurs sociétés. Une unité de génération d'état est utilisée pour chaque case d'un organigramme. Une unité de génération d'état peut être un département individuel des données financières, ou ce peut être une unité de synthèse de niveau supérieur qui combine des informations d'autres unités de génération d'état. Pour une définition d'état incluant une arborescence de génération d'états, un état est généré pour chaque unité de génération d'état et pour le niveau de synthèse. Tous ces états utilisent les définitions de ligne et de colonne spécifiées dans la définition d'état, sauf si la définition d'état indique d'utiliser l'arborescence de génération d'états de la définition de ligne. Les définitions de ligne et de colonne sont des composantes importantes de la conception et de la fonctionnalité des états financiers. Les arborescences de génération d'états augmentent la puissance des composants et prennent en charge la génération d'états flexible à mesure que la structure de l'organisation change. Les états financiers qui ne sont pas fondés sur une arborescence de génération d'états utilisent uniquement certaines des fonctionnalités de génération d'états financiers. Vous pouvez utiliser plusieurs définitions d'arborescence de génération d'états avec les mêmes définitions de ligne et de colonne pour afficher les données de votre organisation de différentes manières.
@@ -49,7 +52,7 @@ Une définition d'arborescence de génération d'états contient les colonnes d�
 
 | Colonne d'arborescence de génération d'états | description ;|
 |---|---|
-| Société               | Nom de la société pour l'unité de déclaration. **@ANY** la valeur, généralement affectée uniquement au niveau de synthèse, permet l'organigramme d'entreprise à utiliser pour toutes les sociétés. Tous les branches enfant ont une société qui leur est affectée.|
+| Société               | Nom de la société pour l'unité de déclaration. La valeur **@ANY**, qui est généralement affectée uniquement au niveau de synthèse, active l'arborescence de génération d'états à utiliser pour toutes les sociétés. Tous les branches enfant ont une société qui leur est affectée.|
 | Nom de l'unité             | Code identifiant cette unité de déclaration dans l'arborescence graphique de génération d'état. Veillez à établir un système de codage unique qui est cohérent et qui sera facile à comprendre pour les utilisateurs. |
 | Description de l'unité      | Le titre de l'unité de déclaration apparaît dans l'en-tête ou le pied de page de l'état si vous entrez **UnitDesc** comme code sous l'onglet **En-têtes et pieds de page** de la définition d'état. Le titre apparaît dans la description de ligne d'état si vous entrez **UnitDesc** dans la cellule **Description** de la définition de ligne.|
 | Dimensions            | Une unité de déclaration qui tire les informations directement des données financières. Elle définit le positionnement logique et les longueurs pour le compte et les segments associés. Chaque ligne d'unité de génération de rapports doit avoir une dimension dans cette colonne. Vous pouvez également insérer une dimension dans une ligne d’unité de synthèse (par exemple, pour les dépenses qui sont directement liées à cette unité). Si vous entrez une dimension dans une ligne d'unité de synthèse, les comptes utilisés dans les unités parent ne doivent pas être utilisés dans les unités enfant. Dans le cas contraire, les montants peuvent être dupliqués.|
@@ -58,15 +61,15 @@ Une définition d'arborescence de génération d'états contient les colonnes d�
 | Lien externe         | Le lien de ligne à utiliser pour cette unité de déclaration. Les liens de ligne sont définis pour la définition de ligne pour identifier l'état à relier.|
 | Fichier externe         | Chemin d’accès au fichier de la feuille de génération d'état financier duquel extraire des données.|
 | Options de page          | Cette colonne détermine si les détails de l’unité de génération d'états sont supprimés lorsque l'état est affiché ou imprimé.|
-| Cumul %              | Le pourcentage de l'unité de déclaration qui doit être affectée à son unité parent. Le pourcentage que vous entrez dans cette colonne s'applique à chaque ligne de la définition de ligne avant que la valeur de la ligne soit ajoutée à l'état parent. Par exemple, si une unité enfant doit être divisée également entre deux départements, les montants dans chaque ligne seront multipliés par 50 % avant que la valeur soit ajoutée à l'état du département. Une unité de génération d'état ne peut pas avoir deux unités parent. Pour répartir les montants d'une unité de déclaration entre deux unités parent, créez une autre unité de déclaration possédant la même dimension pour y cumuler les 50 % supplémentaires. Entrez des pourcentages entiers sans décimale. Par exemple, **25** représente la répartition de 25 pour cent pour le parent. Si vous incluez un point décimal (**.25**), 0,25 % est affectée au parent. Pour utiliser un pourcentage inférieur à 1 %, utilisez ** autorisez correctif &lt;cumulatif 1% ** l'option dans la définition de rapport. Cette option se trouve sous l'onglet **Options supplémentaires** dans la boîte de dialogue **Paramètres d'état**. Vous accédez à cette boîte de dialogue à l'aide du bouton **Divers** sous l'onglet **Paramètres** de la définition d'état. |
+| Cumul %              | Le pourcentage de l'unité de déclaration qui doit être affectée à son unité parent. Le pourcentage que vous entrez dans cette colonne s'applique à chaque ligne de la définition de ligne avant que la valeur de la ligne soit ajoutée à l'état parent. Par exemple, si une unité enfant doit être divisée également entre deux départements, les montants dans chaque ligne seront multipliés par 50 % avant que la valeur soit ajoutée à l'état du département. Une unité de génération d'état ne peut pas avoir deux unités parent. Pour répartir les montants d'une unité de déclaration entre deux unités parent, créez une autre unité de déclaration possédant la même dimension pour y cumuler les 50 % supplémentaires. Entrez des pourcentages entiers sans décimale. Par exemple, **25** représente la répartition de 25 pour cent pour le parent. Si vous incluez un point décimal (**.25**), 0,25 % est affectée au parent. Pour utiliser un pourcentage inférieur à 1 pour cent, utilisez l'option **Autoriser le cumul &lt;1 %** dans la définition d'état. Cette option se trouve sous l'onglet **Options supplémentaires** dans la boîte de dialogue **Paramètres d'état**. Vous accédez à cette boîte de dialogue à l'aide du bouton **Divers** sous l'onglet **Paramètres** de la définition d'état. |
 | Sécurité de l'unité         | Restrictions d'accès aux informations de l'unité de déclaration des utilisateurs et des groupes.|
 | Texte supplémentaire       | Texte inclus dans l'état.|
 
 Pour créer une définition d'arborescence de génération d'états, procédez comme suit.
 
 1.  Permet d'ouvrir le Concepteur de rapports.
-2.  Cliquez sur ** fichier ** &gt; ** nouveau ** &gt; ** définition d'organigramme d'entreprise **.
-3.  Cliquez sur ** modifiez ** &gt; ** unités organisationnelles à partir de les dimensions **.
+2.  Cliquez sur **Fichier** &gt; **Nouveau** &gt; **Définition d'arborescence de génération d'états**.
+3.  Cliquez sur **Modifier** &gt; **Insérer des unités de génération d'états à partir des dimensions**.
 4.  Dans la boîte de dialogue **Insérer des unités de génération d'états à partir des dimensions**, cochez la case de chaque dimension à inclure dans l'arborescence de génération d'états. La boîte de dialogue **Insérer des unités de génération d'états à partir des dimensions** contient les sections suivantes.
 
     | Section                          | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -85,7 +88,7 @@ Pour créer une définition d'arborescence de génération d'états, procédez c
 
 9.  Répétez les étapes 7 à 8 pour chaque dimension dans la zone **Hiérarchie et plages de segments**.
 10. Après avoir terminé de définir la manière dont les unités de déclaration seront introduites dans la nouvelle arborescence de génération d'états, cliquez sur **OK**.
-11. Cliquez sur ** fichier ** &gt; ** sauvegarde ** pour enregistrer l'organigramme d'entreprise. Entrez un nom unique et une description pour l'arborescence de génération d'états, puis cliquez sur **OK**.
+11. Cliquez sur **Fichier** &gt; **Enregistrer** pour enregistrer l'arborescence de génération d'états. Entrez un nom unique et une description pour l'arborescence de génération d'états, puis cliquez sur **OK**.
 
 ### <a name="open-an-existing-reporting-tree-definition"></a>Ouvrir une définition d'arborescence de génération d'états existante
 
@@ -121,7 +124,7 @@ Vous pouvez réorganiser la structure organisationnelle d'une définition d'arbo
 1.  Dans le générateur d'état, ouvrez la définition d'arborescence de génération d'états à modifier.
 2.  Dans la vue graphique de la définition d'arborescence de génération d'états, sélectionnez une unité de déclaration.
 3.  Faites glisser l’unité vers un nouvel emplacement. Sinon, cliquez avec le bouton droit sur l'unité et sélectionnez **Promouvoir l'unité de déclaration** ou **Rétrograder l'unité de déclaration**.
-4.  Cliquez sur ** fichier ** &gt; ** sauvegarde ** pour enregistrer vos modifications.
+4.  Cliquez sur **Fichier** &gt; **Enregistrer** pour enregistrer les modifications.
 
 ### <a name="add-text-about-a-reporting-unit"></a> Ajouter un texte à une unité de déclaration
 
@@ -181,15 +184,15 @@ Voici la structure des unités de génération d'états dans l'arborescence de g
 -   Les unités de déclaration du niveau le plus bas (Home Sales, Auto Sales, Client Services, et Operations) représentent les départements dans les données financières. Ces unités de déclarations se trouvent dans la zone grisée du schéma.
 -   Les unités de synthèse du plus haut niveau résument les informations des unités de détail.
 
-![ContosoEntertainmentSummaryReportStructure [] (. /media/contosoentertainmentsummaryreportstructure.png)](. /media/contosoentertainmentsummaryreportstructure.png)
+[![ContosoEntertainmentSummaryReportStructure](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
 
 ### <a name="reporting-unit-structure--example-2"></a>Structure d'unité de déclaration, exemple 2
 
-Le schéma suivant présente une arborescence de génération d'états qui affiche une structure d'organisation est divisée par fonctions dans l'entreprise. [summaryofallunitscontoso d'![] (. /media/summaryofallunitscontoso.png)](. /media/summaryofallunitscontoso.png)
+Le schéma suivant présente une arborescence de génération d'états qui affiche une structure d'organisation est divisée par fonctions dans l'entreprise. [![summaryofallunitscontoso](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
 
 ### <a name="example-of-the-insert-reporting-units-from-dimensions-dialog-box"></a>Exemple de la boîte de dialogue Insérer des unités de déclaration à partir des dimensions
 
-L'illustration suivante présente un exemple de la boîte de dialogue **Insérer des unités de déclaration à partir des dimensions**. Pour cet exemple, les résultats renvoient la combinaison des unités commerciales, des centres de coût et des départements. ![InsertReportingUnits [] (. /media/insertreportingunits.png)](. /media/insertreportingunits.png) La définition résultant d'organigramme d'entreprise est trié par unité commerciale, puis par le centre de coût, puis par département. Dimension pour la cinquième unité organisationnelle est ** unité commerciale = \[001\], Centre de coûts =\[\], Service = \[022\]**, et identifie une unité organisationnelle pour les comptes spécifiques à l'unité commerciale 001 et du département 022. ![ReportingTree [] (. /media/reportingtree-1024x646.png)](. /media/reportingtree.png)
+L'illustration suivante présente un exemple de la boîte de dialogue **Insérer des unités de déclaration à partir des dimensions**. Pour cet exemple, les résultats renvoient la combinaison des unités commerciales, des centres de coût et des départements. [![InsertReportingUnits](./media/insertreportingunits.png)](./media/insertreportingunits.png) La définition d'arborescence de génération d'états qui en résulte est triée par unité commerciale, puis par centre de coût et par département. La dimension de la cinquième unité de génération d'états est **Unité commerciale = \[001\], Centre de coût = \[\], Département = \[022\]** et identifie une unité de génération d'états pour les comptes qui sont spécifiques à l'unité commerciale 001 et au département 022. [![ReportingTree](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
 
 ### <a name="examples-of-data-roll-up"></a>Exemples de cumul de données
 
@@ -197,14 +200,16 @@ Les exemples suivants montrent les informations possiblement utilisées dans une
 
 #### <a name="example-1"></a>Exemple 1
 
-![MutliCompanyRollUp [] (. /media/mutlicompanyrollup.png)](. /media/mutlicompanyrollup.png)
+[![MutliCompanyRollUp](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
 
 #### <a name="example-2"></a>Exemple 2
 
-![CrossCompanyDepartmentRollUp [] (. /media/crosscompanydepartmentrollup.png)](. /media/crosscompanydepartmentrollup.png)
+[![CrossCompanyDepartmentRollUp](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
 
 # <a name="see-also"></a>Voir également :
 
-[Financial reporting](financial-reporting-intro.md)
+[États financiers](financial-reporting-intro.md)
+
+
 
 

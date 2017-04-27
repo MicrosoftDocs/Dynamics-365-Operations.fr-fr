@@ -33,25 +33,25 @@ Microsoft Dynamics 365 for Operations active les processus communs aux secteurs 
 
 La fonctionnalité Secteur public permet de se conformer aux règles, aux réglementations et aux conditions de génération d'états pour les organisations du domaine public : Les processus entreprise affectés sont :
 
--   Comptabilité, hiérarchies financières dérivées, et définitions de validation pour les ventes et la comptabilité.
--   Budgets, répartitions, et engagements préliminaires.
--   Codes facturation, classifications de facturation, codes partenaire commercial, et champs personnalisés pour les factures financières.
--   Processus de fin d'exercice comptable comprenant, notamment sur les commandes fournisseur.
--   Paiements électroniques aux fournisseurs, pages de signature pour les états de paiement, et mise en attente du paiement de la facture.
+-   Comptabilité de fonds, hiérarchies financières dérivées et définitions de validation pour les modules Ventes et Comptabilité.
+-   Budgets préliminaires, répartitions et engagements.
+-   Codes facturation, classifications de facturation, codes partenaire commerciale et champs personnalisés pour les factures financières.
+-   Processus de fin d'exercice comptable comprenant les engagements sur les commandes fournisseur.
+-   Paiements électroniques aux fournisseurs, pages de signature pour les états de paiement et mise en attente du paiement des factures.
 
  Pour plus d'informations, voir les rubriques suivantes :
 
 -   [Planification pour la fonctionnalité Secteur public](plan-public-sector-functionality.md)
--   [Achats dans le secteur public] (accounts-payable-public-sector.md)
--   [Ventes pour le secteur public] (accounts-receivable-public-sector.md)
--   [Économisant dans le secteur public] (budgeting-public-sector.md)
--   [Actifs dans le secteur public] (fixed-asset-public-sector.md)
--   [Fonctions de réglementation françaises] (/localizations/europe/public-sector-accounting-france.md)\*
--   [Comptabilité dans le secteur public] (general-ledger-public-sector.md)
--   [Approvisionnements dans le secteur public] (procurement-sourcing-public-sector.md)
--   [Rôles de sécurité dans le secteur public] (security-roles-public-sector.md)
+-   [Comptabilité fournisseur dans le secteur public](accounts-payable-public-sector.md)
+-   [Comptabilité client dans le secteur public](accounts-receivable-public-sector.md)
+-   [Budgétisation dans le secteur public](budgeting-public-sector.md)
+-   [Immobilisations dans le secteur public](fixed-asset-public-sector.md)
+-   [Fonctions de réglementation française](/localizations/europe/public-sector-accounting-france.md)\*
+-   [Comptabilité dans le secteur public](general-ledger-public-sector.md)
+-   [Approvisionnements dans le secteur public](procurement-sourcing-public-sector.md)
+-   [Rôles de sécurité dans le secteur public](security-roles-public-sector.md)
 
-\* applicable que si votre organisation est en France.
+\* Applicable uniquement si votre organisation est en France.
 
 ## <a name="why-do-i-need-the-public-sector-configuration-key"></a>Pourquoi ai-je besoin de la clé de configuration du secteur public ?
 La clé de configuration du **Secteur public** active les pages et les contrôles qui complètent les applications de base . Vous pouvez également activer ou désactiver cette clé sur la page **Configuration des licences**.
@@ -61,9 +61,9 @@ Le tableau suivant fournit des informations sur le lien entre cette clé de conf
 
 |            |                                                                                                                                                                                                                     |
 |------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Detail** | **Description**                                                                                                                                                                                                     |
+| **Détails ** | **Description**                                                                                                                                                                                                     |
 | Clé parente | Aucun                                                                                                                                                                                                                |
-| Clés enfants | ** Écriture comptable avancée ** clé de configuration (AdvancedLedgerEntry) ** secteur public 1099G ** clé de configuration (Tax1099G) ** secteur public 1099S ** clé de configuration (Tax1099S) ** de réglementation français ** clé de configuration |
+| Clés enfants | **Clé de configuration Écriture comptable avancée** (AdvancedLedgerEntry) **Clé de configuration Secteur public 1099G** (Tax1099G) **Clé de configuration Secteur public 1099S** (Tax1099S) **Clé de configuration Réglementation française** |
 
 
 <a name="see-also"></a>Voir également :

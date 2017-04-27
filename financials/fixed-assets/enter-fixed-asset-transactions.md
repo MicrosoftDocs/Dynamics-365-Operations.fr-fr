@@ -1,5 +1,5 @@
 ---
-title: Options de transaction d&quot;immobilisation
+title: Options des transactions d&quot;immobilisation
 description: "Cet article décrit les différentes méthodes disponibles pour créer des transactions d&quot;immobilisation."
 author: twheeloc
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="fixed-asset-transaction-options"></a>Options de transaction d'immobilisation
+# <a name="fixed-asset-transaction-options"></a>Options des transactions d'immobilisation
+
+[!include[banner](../includes/banner.md)]
+
 
 Cet article décrit les différentes méthodes disponibles pour créer des transactions d'immobilisation.
 
@@ -36,7 +39,7 @@ Vous pouvez paramétrer le module Immobilisations pour qu'il s'intègre avec les
 Vous pouvez entrer les transactions d'immobilisation dans la page N° document de journal. Cette page est accessible à partir de la page Journal des factures. Vous pouvez également ouvrir la page N° document de journal dans la page du journal des approbations de facture. Dans le champ Type de compte de contrepartie, sélectionnez Immobilisations. Ensuite, dans le champ Compte de contrepartie, sélectionnez un numéro d'immobilisation. Sous l'onglet Immobilisations, entrez les valeurs dans les champs Type de transaction et Registre.
 
 ## <a name="accounts-receivable"></a>Module Comptabilité client
-Vous pouvez entrer des transactions d'immobilisations dans la page de facture financière.  Dans la page de facture financière, dans la grille de lignes de facture, sélectionnez une ligne. Cliquez sur l'organisateur Détails de ligne. Entrez le numéro de l'immobilisation et le registre pour la transaction de cession. Pour les factures financières, le type de transaction d'immobilisation est toujours Cession - vente.
+Vous pouvez entrer des transactions d'immobilisations dans la page Facture financière.  Dans la page Facture financière, dans la grille Lignes de facture, sélectionnez une ligne. Cliquez sur l'organisateur Détails de ligne. Entrez le numéro de l'immobilisation et le registre pour la transaction de cession. Pour les factures financières, le type de transaction d'immobilisation est toujours Cession - vente.
 
 ## <a name="procurement-and-sourcing"></a>Approvisionnements
 Vous pouvez entrer les transactions d'immobilisation dans la page Commande fournisseur. Entrez les informations requises pour créer une commande fournisseur, puis cliquez sur OK. Dans la page Commande fournisseur, cliquez sur l'organisateur Détails de ligne. Puis, sous l'onglet Immobilisations, entrez des informations sur l'immobilisation. 
@@ -65,6 +68,8 @@ Vous pouvez valider tout type de transaction d'immobilisation dans la page Journ
 
 
 
-Pour plus d'informations, voir [intégration d'Immobilisations] (fixed-asset-integration.md).
+Pour plus d'informations, voir [Intégration des immobilisations](fixed-asset-integration.md).
+
+
 
 

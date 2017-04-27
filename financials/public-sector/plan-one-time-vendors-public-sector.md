@@ -1,6 +1,6 @@
 ---
-title: Plan pour les fournisseurs occasionnels dans le secteur public
-description: "Cet article décrit la préparer pour importer et créer les fournisseurs occasionnels et les factures."
+title: Planifier pour les fournisseurs occasionnels dans le secteur public
+description: "Cet article fournit des informations sur l&quot;importation et la création de fournisseurs occasionnels et de factures."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="plan-for-one-time-vendors-in-the-public-sector"></a>Plan pour les fournisseurs occasionnels dans le secteur public
+# <a name="plan-for-one-time-vendors-in-the-public-sector"></a>Planifier pour les fournisseurs occasionnels dans le secteur public
 
-Cet article décrit la préparer pour importer et créer les fournisseurs occasionnels et les factures. 
+[!include[banner](../includes/banner.md)]
+
+
+Cet article fournit des informations sur l'importation et la création de fournisseurs occasionnels et de factures. 
 
 Généralement, si vous planifiez d'importer en masse des informations facturation et sur les fournisseurs, vous commencez par créer un fichier de données au format feuille de calcul et l'enregistrez au format CSV (valeurs séparées par des virgules).
 
 -   Étant donné que les virgules sont utilisées pour séparer les champs dans un fichier CSV, n'utilisez pas les virgules dans le texte d'une entrée. Par exemple, si vous souhaitez spécifier le nom de la société « Smith, Smith, and Jones », entrez-la le en tant que **Smith Smith and Jones**.
--   Si vous effectuez pas réglées les valeurs pour les champs dans cette page, les valeurs de nouvelles d'utilisation des comptes fournisseur du fournisseur occasionnel profil référencé dans ** des paramètres des achats ** la page. Par exemple, si le mode de paiement est défini ** chèque ** pour le profil du fournisseur occasionnel dans ** des paramètres des achats ** la page, ce mode de paiement est également défini pour les fournisseurs occasionnels que vous ajoutez.
+-   Si vous ne définissez pas de valeurs pour les champs de cette page, les comptes fournisseur nouvellement créés utilisent les valeurs du profil fournisseur occasionnel référencé dans la page **Paramètres de la comptabilité fournisseur**. Par exemple, si le mode de paiement est défini sur **Chèque** pour le profil du fournisseur occasionnel dans la page **Paramètres de la comptabilité fournisseur**, ce mode de paiement sera également défini pour les fournisseurs occasionnels que vous ajouterez.
 -   La souche de numéros de la Comptabilité fournisseur **Fournisseur occasionnel** permet d'affecter les comptes des fournisseurs occasionnels et ne doit pas être défini sur **Continu** pour ce service. Les factures sont générées dans un état de brouillon. Avant de créer des propositions de paiement, vous devez valider les factures.
 
 Le tableau suivant répertorie les champs que le fichier d'importation doit contenir. Chaque nom de champ est équivalent à un en-tête de colonne dans une feuille de calcul, et chaque ligne de la feuille de calcul contient les données pour chaque colonne applicable.
@@ -54,7 +57,7 @@ Le tableau suivant répertorie les champs que le fichier d'importation doit cont
 | Ville                                           |                                                         |
 | Ville                                           |                                                         |
 |ID taxe fédérale (facultatif)                       | (États-Unis uniquement) nombre 1099                                 |
-| Type d'ID taxe                                    | (Pour les États-Unis uniquement) les valeurs peuvent être ** inconnu **, ** numéro d'identification de l'employeur **, ** numéro de Sécurité sociale **, ** numéro d'identification individuel du contribuable **, ou ** numéro d'identification adopté du contribuable **.  ** Remarque : ** Si aucun ID taxe fédérale n'est livré, ce champ doit être défini ** inconnu **.                                               |
+| Type d'ID taxe                                    | (États-unis uniquement). Les valeurs peuvent être **Inconnu**, **Numéro d'identification de l'employeur**, **Numéro de Sécurité sociale**, **Numéro d'identification du contribuable individuel** ou **Numéro d'identification du contribuable choisi**.  **Remarque :** si aucun ID taxe fédérale n'est indiqué, ce champ doit être défini sur **Inconnu**.                                               |
 | Compte bancaire (facultatif)                        | Nom du compte bancaire                                       |
 | Numéro de compte bancaire                            |                                                         |
 | Numéro d'acheminement (facultatif)                      |                                                         |
@@ -63,7 +66,7 @@ Le tableau suivant répertorie les champs que le fichier d'importation doit cont
 
 
 
-**Invoice section**
+**Section de facture **
 
 | Champ                                                | Détails                                           |
 |------------------------------------------------------|---------------------------------------------------|
@@ -73,7 +76,7 @@ Le tableau suivant répertorie les champs que le fichier d'importation doit cont
 | Date de facture                                         | Format de date                                       |
 | Date d'échéance (facultative)                                  | Format de date                                       |
 | Numéro de ligne                                          |                                                   |
-|Numéro d'article (facultatif)                                | 20 character limite ** note : ** Si aucun numéro d'article n'est livrée, vous devez fournir des valeurs dans ** catégorie d'approvisionnement ** et ** hiérarchie des catégories d'approvisionnement ** des champs. Si aucune valeur de catégorie d'approvisionnement ou de hiérarchie de catégorie d'approvisionnement n'est fournie, vous devez fournir une valeur dans le champ **Numéro d'article**.                    |
+|Numéro d'article (facultatif)                                | Limité à 20 caractères   **Remarque :** si aucun numéro d'article n'est fourni, vous devez indiquer des valeurs dans les champs **Catégorie d'approvisionnement** et **Hiérarchie des catégories d'approvisionnement**. Si aucune valeur de catégorie d'approvisionnement ou de hiérarchie de catégorie d'approvisionnement n'est fournie, vous devez fournir une valeur dans le champ **Numéro d'article**.                    |
 | Nom de l'article (facultatif)                                 |  Limité à 60 caractères                               |
 | Hiérarchie de catégories d'approvisionnement (facultative)            |    **Remarque :** si vous indiquez une valeur pour ce champ, le champ **Catégorie d'approvisionnement** est également obligatoire.                                                                         |
 | Catégorie d'approvisionnement (facultative)                      | **Remarque :** si vous indiquez une valeur pour ce champ, le champ **Hiérarchie de catégories d'approvisionnement** est également obligatoire.                                                                        |
@@ -99,8 +102,10 @@ Après avoir paramétré les conditions préalables nécessaires, consultez [Fou
 <a name="see-also"></a>Voir également :
 --------
 
-[One-time vendors in the public sector](one-time-vendors-public-sector.md)
+[Fournisseurs occasionnels dans le secteur public](one-time-vendors-public-sector.md)
 
 [Comptabilité fournisseur dans le secteur public](accounts-payable-public-sector.md)
+
+
 
 

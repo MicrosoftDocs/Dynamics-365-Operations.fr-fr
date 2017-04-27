@@ -1,6 +1,6 @@
 ---
 title: Raccourcis clavier
-description: "Les raccourcis clavier suivants s&quot;appliquent à l&quot;ensemble de Microsoft Dynamics 365 pour les opérations."
+description: "Les raccourcis clavier suivants s&quot;appliquent à l&quot;ensemble de Microsoft Dynamics 365 for Operations."
 author: jasongre
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="keyboard-shortcuts"></a>Raccourcis clavier
 
-Les raccourcis clavier suivants s'appliquent à l'ensemble de Microsoft Dynamics 365 pour les opérations. 
+[!include[banner](../includes/banner.md)]
+
+
+Les raccourcis clavier suivants s'appliquent à l'ensemble de Microsoft Dynamics 365 for Operations. 
 
 **Remarque :** les raccourcis clavier décrits ici font référence au type de clavier en usage aux États-Unis. Il se peut que les touches des autres types de claviers ne correspondent pas exactement aux touches des claviers en usage aux États-Unis.
 
@@ -40,7 +43,7 @@ Les raccourcis clavier suivants s'appliquent à l'ensemble de Microsoft Dynamics
 | Accéder à l'option suivante/précédente dans un menu            | Flèche Bas/Flèche Haut            |
 | Fermer un onglet du volet Actions ou un menu          | Échap                              |
 | Simuler un clic droit                            | Maj+F10                        |
-| Ouvrez Dynamics 365 pour le menu contextuel d'opérations | Ctrl+F10                         |
+| Ouvrez le menu contextuel de Dynamics 365 for Operations. | Ctrl+F10                         |
 | Exécuter le bouton par défaut dans un écran ou une boîte de dialogue       | Alt+Entrée                        |
 | Cliquer sur un bouton ou une vignette                            | Entrée ou Espace                   |
 | Afficher les informations actualisées pour une vignette de comptage         | Alt+Flèche Haut                     |
@@ -64,7 +67,7 @@ Les raccourcis clavier suivants s'appliquent à l'ensemble de Microsoft Dynamics
 | Ouvrir le volet Récapitulatif (ou déplacer le focus sur le volet Récapitulatif s'il est déjà ouvert) | Ctrl+F2                                   |
 | Fermer le volet Récapitulatif (avec le focus sur le volet Récapitulatif)                         | Échap                                       |
 | Accéder au récapitulatif suivant/précédent (avec le focus sur le volet Récapitulatif)              | Alt+Maj+Flèche Bas/Alt+Maj+Flèche Haut |
-| Accéder &lt;au nième&gt;Récapitulatif (avec la vue dans le volet Récapitulatif)                | Alt+n&lt;&gt; (&lt;N&gt; = 1-9)           |
+| Accéder au &lt;n&gt;ième récapitulatif (avec le focus sur le volet Récapitulatif)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
 | Développer un récapitulatif (avec le focus sur l'en-tête du récapitulatif)                             | Espace ou Entrée                            |
 | Réduire le récapitulatif actif                                                    | Alt+0                                     |
 
@@ -111,8 +114,8 @@ Les raccourcis clavier suivants s'appliquent à l'ensemble de Microsoft Dynamics
 | Accéder au champ suivant/précédent                     | Tab/Maj+Tab                              |
 | Accéder à l'onglet suivant/précédent                       | Alt+Maj+Flèche Droite/Alt+Maj+Flèche Gauche |
 | Accéder à l'organisateur suivant/précédent                   | Alt+Maj+Flèche Bas/Alt+Maj+Flèche Haut    |
-| Accéder &lt;au nième&gt;organisateur                     | Alt+n&lt;&gt; (&lt;N&gt; = 1-9)              |
-| Accéder &lt;au nième&gt;onglet                         | Alt+Shift+n&lt;&gt; (&lt;N&gt; = 1-9)        |
+| Accéder au &lt;n&gt;ième organisateur                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
+| Accéder au &lt;n&gt;ième onglet                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
 | Développer un organisateur (avec le focus sur l'en-tête de l'organisateur) | Espace ou Entrée                               |
 | Réduire l'organisateur actif                        | Alt+0                                        |
 | Basculer sur la vue grille                                 | Ctrl+Maj+G                                 |
@@ -152,7 +155,7 @@ Les raccourcis clavier suivants s'appliquent à l'ensemble de Microsoft Dynamics
 | Ouvrir la recherche, la zone de liste, le sélecteur de date, la boîte de dialogue           | Alt + Flèche Bas                |
 | Fermer la recherche, la zone de liste, le sélecteur de date, la boîte de dialogue          | Échap                           |
 | Déplacer le focus sur une recherche (lorsque la recherche est déjà ouverte) | Alt + Flèche Bas                |
-| Ouvrez l'aperçu amélioré du contrôle                        | Alt + Flèche Haut                  |
+| Ouvrir l'aperçu amélioré du contrôle                        | Alt + Flèche Haut                  |
 | Sélectionner le texte dans le champ actif                           | Ctrl+A                        |
 | Entrer/quitter la zone de texte d'un contrôle d'éditeur HTML        | Alt+Flèche Bas/Alt+Flèche Haut |
 
@@ -174,18 +177,18 @@ Les raccourcis clavier suivants s'appliquent à l'ensemble de Microsoft Dynamics
 | Accéder au tableau de bord                                                       | Alt+Maj+Début  |
 | Accéder à la barre de navigation                                                  | Alt+Maj+F1    |
 | Accéder au volet de navigation                                                 | Alt + F1          |
-| Favorite/un-favorite un écran (en fonction d'un écran dans le volet de navigation) | Shift+F         |
+| Marquer ou non un écran comme favori (avec le focus sur un écran dans le volet de navigation) | Shift+F         |
 | Accéder au sélecteur de société                                                  | Ctrl+Maj+O    |
 | Accéder à la recherche de navigation                                                   | Ctrl+/ ou Alt+G |
-| Ouvrent le volet d'aide                                                        | Ctrl+ ?          |
-| Ouvrent Trace Parser                                                     | Alt+Shift+T     |
+| Ouvrir la fenêtre d'aide                                                        | Ctrl+?          |
+| Ouvrir l'analyseur de suivi                                                     | Alt+Shift+T     |
 
  
 
 ## <a name="segmented-entry-shortcuts"></a>Raccourcis d'entrée segmentée
 |                                                                                                                         |                                  |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
-| **To do this**                                                                                                          | **Press**                        |
+| **Opération**                                                                                                          | **Raccourci**                        |
 | Ouvrir la liste déroulante (lorsqu'elle est fermée)                                                             | Alt + Flèche Bas                   |
 | Déplacer le focus sur le champ de saisie pour le segment actif dans la liste déroulante (lorsque la liste déroulante est déjà ouverte) | Alt + Flèche Bas                   |
 | Fermer la liste déroulante                                                                                                | Alt+Flèche Haut                     |
@@ -199,5 +202,7 @@ Les raccourcis clavier suivants s'appliquent à l'ensemble de Microsoft Dynamics
 | Atteindre le haut ou le bas de la recherche                                                                                    | Début/Fin                       |
 
  
+
+
 
 

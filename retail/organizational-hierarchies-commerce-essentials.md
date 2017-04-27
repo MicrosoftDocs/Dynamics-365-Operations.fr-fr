@@ -1,6 +1,6 @@
 ---
-title: "Organisations et hiérarchies d&quot;organisation (bases de commerce)"
-description: "Les bases de commerce a trois types d&quot;organisations internes que vous pouvez définir pour permettre à une organisation de réaliser un processus entreprise ou à atteindre un objectif."
+title: "Organisations et hiérarchies organisationnelles (Essentiel du commerce)"
+description: "L&quot;essentiel du commerce comporte trois types d&quot;organisations internes que vous pouvez définir pour permettre à une organisation de réaliser un processus d&quot;entreprise ou d&quot;atteindre un objectif."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 21251
 ms.assetid: 2bfc6bfe-784b-42e8-8bf0-116e9f0a558e
 ms.search.region: global
@@ -25,9 +25,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="organizations-and-organizational-hierarchies-commerce-essentials"></a>Organisations et hiérarchies d'organisation (bases de commerce)
+# <a name="organizations-and-organizational-hierarchies-commerce-essentials"></a>Organisations et hiérarchies organisationnelles (Essentiel du commerce)
 
-Les bases de commerce a trois types d'organisations internes que vous pouvez définir pour permettre à une organisation de réaliser un processus entreprise ou à atteindre un objectif. 
+[!include[banner](includes/banner.md)]
+
+
+L'essentiel du commerce comporte trois types d'organisations internes que vous pouvez définir pour permettre à une organisation de réaliser un processus d'entreprise ou d'atteindre un objectif. 
 
 Une organisation est un groupe de personnes qui travaillent ensemble pour réaliser un processus entreprise ou atteindre un objectif. Une hiérarchie organisationnelle représente les relations entre les unités commerciales qui composent votre organisation.
 
@@ -47,7 +50,7 @@ Une section est une organisation utilisée pour partager le contrôle des ressou
 | Canal de vente au détail          | Une unité opérationnelle qui représente un magasin traditionnel.                             | Utilisé pour la gestion et le contrôle opérationnel d'un ou plusieurs magasins au sein d'une entité juridique ou entre plusieurs entités juridiques.                                                               |
 
 ## <a name="organizational-hierarchies"></a>Hiérarchies organisationnelles
-Dans Essentiel du commerce, chaque hiérarchie est affectée à un objectif. L'objet d'une hiérarchie détermine les types d'organisations pouvant être inclus dans la hiérarchie. L'objet définit également dans quels scénarios d'application la hiérarchie peut être utilisée. Par exemple, une hiérarchie des ventes au détail peut être utilisée pour acheter et vendre des produits dans un magasin de vente au détail. Les organisations d'une hiérarchie peuvent partager des paramètres, des stratégies et des transactions. Une organisation peut hériter des paramètres de son organisation parent ou les remplacer. Cependant, les données principales partagées, telle que les produits et les carnets d'adresses, s'appliquent à l'ensemble de l'organisation et ne peuvent pas être remplacées pour les organisations individuelles.
+Dans Essentiel du commerce, chaque hiérarchie est affectée à un objectif. L'objet d'une hiérarchie détermine les types d'organisations pouvant être inclus dans la hiérarchie. L'objet définit également dans quels scénarios d'application la hiérarchie peut être utilisée. Par exemple, une hiérarchie de ventes au détail peut servir à acheter et vendre des produits dans un magasin de vente au détail. Les organisations d'une hiérarchie peuvent partager des paramètres, des stratégies et des transactions. Une organisation peut hériter des paramètres de son organisation parent ou les remplacer. Cependant, les données principales partagées, telle que les produits et les carnets d'adresses, s'appliquent à l'ensemble de l'organisation et ne peuvent pas être remplacées pour les organisations individuelles.
 ### <a name="best-practices-for-setting-up-an-organization-in-a-hierarchy"></a>Pratiques recommandées en matière de configuration d'une organisation dans une hiérarchie
 
 Les pratiques suivantes sont recommandées lorsque vous implémentez une hiérarchie d'organisation :
@@ -68,6 +71,8 @@ Le tableau suivant décrit les scénarios Essentiel du commerce où les hiérarc
 | Gestion du réassort de la vente au détail                                                    | Permet de regrouper les magasins pour réapprovisionner le stock en fonction de règles de réapprovisionnement.                                                                                                                                                                                                                                          | Réapprovisionnement de la vente au détail |
 | Données d'état des magasins                                                         | Permet de regrouper les magasins pour la génération d'états.                                                                                                                                                                                                                                                                                | Génération d'états sur les ventes au détail     |
 | Validation du stock, calcul de relevés ou validation de relevés pour un groupe de magasins | Créez un groupe de magasins qui peuvent être affectés à un traitement par lots. Lorsque vous définissez un traitement par lots pour valider le stock, calculer les relevés ou valider les relevés, vous pouvez spécifier la hiérarchie à laquelle la tâche s'applique. Lorsque des magasins sont ajoutés à la hiérarchie où qu'ils en sont supprimés, vous ne devez pas modifier le traitement par lots. | Validation de Retail POS   |
+
+
 
 
 

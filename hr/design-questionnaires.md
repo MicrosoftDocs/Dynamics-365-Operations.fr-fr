@@ -87,14 +87,14 @@ Les paramètres de questionnaire sont facultatifs. Vous pouvez ne pas les utilis
 
 Les paramètres de questionnaire définissent l'anonymat, les codes souche de numéros et les types de référence d'un questionnaire. Lorsqu'une organisation distribue un questionnaire, la possibilité d'autoriser les personnes interrogées à conserver leur anonymat peut être envisagée. 
 
-Les codes souche de numéros servent à classer les questions et les réponses. Selon ces codes souche de numéros, valeurs sont automatiquement affectés aux articles. 
+Les codes souche de numéros servent à classer les questions et les réponses. En fonction de ces codes souche de numéros, des valeurs sont automatiquement affectées aux éléments. 
 
 Vous devez définir tous les paramètres avant de commencer à créer vos données. Vous pouvez modifier les paramètres de questionnaire à tout moment.
 
 ## <a name="questionnaire-components"></a>Composants du questionnaire
-Les questionnaires comprend trois éléments principaux : groupes de réponses contenant des réponses pour les questions de sélection multiple, questions, et le questionnaire lui-même. Vous pouvez également regrouper les questions d'un questionnaire en groupes de résultats. Les groupes de résultats permettent de classer les questions et de fournir une analyse approfondie du questionnaire. 
+Les questionnaires incluent trois éléments principaux : les groupes de réponses contenant les réponses pour les questions à choix multiple, les questions et le questionnaire lui-même Vous pouvez également regrouper les questions à un questionnaire en groupes de résultats. Les groupes de résultats permettent de classer les questions et de fournir une analyse approfondie du questionnaire. 
 
-![QuestionnaireComponents [] (. /media/questionnairecomponents-1024x615.png)](. /media/questionnairecomponents.png)
+[![Composants du questionnaire](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 
 ### <a name="answer-groups-and-answers"></a>Groupes de réponses et réponses
 
@@ -235,6 +235,6 @@ De la même manière, vous pouvez paramétrer un questionnaire afin que, si une 
 
 [Distribuer et remplir des questionnaires](distribute-questionnaires.md)
 
-[Affichage et évaluer les résultats des questionnaires] (evaluate-questionnaire-results.md)
+[Affichage et évaluation des résultats des questionnaire](evaluate-questionnaire-results.md)
 
 

@@ -1,5 +1,5 @@
 ---
-title: Mouvement les valeurs d&quot;objet
+title: Valeurs d&quot;un objet de stock
 description: "Cet article fournit des informations sur la manière dont les valeurs d&quot;un objet de stock sont calculées."
 author: YuyuScheller
 manager: AnnBe
@@ -27,14 +27,14 @@ ms.lasthandoff: 03/29/2017
 
 ---
 
-# <a name="inventory-object-values"></a>Mouvement les valeurs d'objet
+# <a name="inventory-object-values"></a>Valeurs d'un objet de stock
 
 Cet article fournit des informations sur la manière dont les valeurs d'un objet de stock sont calculées. 
 
-Une nouvelle fonctionnalité des coûts élevés ** quantité physique ** permet d'afficher les valeurs d'un objet spécifique de stock. Un objet de coût représente le niveau d'entité où est effectué le comptage d'inventaire. Pour plus d'informations sur les objets de coût, consultez [Objets de coût](cost-object.md). Pour afficher les valeurs d'un stock spécifique d'un objet, cliquez sur ** quantité physique ** sur ** objet de coût ** la page. Spécifiez comment la valeur d'un objet de stock est calculée : Objet de stock. Valeur = objet horaire. Objet moyen de stock de × de coût unitaire. Quantité les exemple suivant montre comment les valeurs d'un objet de stock et d'un objet de coût calculées. Deux événements d'accusé de réception de marchandises sont enregistrés pour l'article A :
+Une nouvelle fonctionnalité nommée **quantité physique** vous permet de consulter les valeurs d'un objet de stock spécifique. Un objet de coût représente le niveau d'entité où est effectué le comptage d'inventaire. Pour plus d'informations sur les objets de coût, consultez [Objets de coût](cost-object.md). Pour afficher les valeurs d'un objet de stock spécifique, cliquez sur **Quantité physique** dans la page **Objet de coût**. Voici comment la valeur d'un objet de stock est calculée : Objet de stock.Valeur = Objet de coût.Coût unitaire moyen × Objet de stock.Quantité. L'exemple suivant montre comment les valeurs d'un objet de stock et d'un objet de coût sont calculées. Deux événements d'accusé de réception de marchandises sont enregistrés pour l'article A :
 
--   Accusé de réception de marchandises 1 : Quantité = 100. PC, montant = prix, 00, site = 1, l'entrepôt =11, lot non = B1
--   Accusé de réception de marchandises 2 : Quantité = 50. PC, montant = $800,00, site = 1, l'entrepôt =11, lot non = B2
+-   Accusé de réception de marchandises 1 : Quantité = 100., pcs, Montant = 1 000.00 USD, Site = 1, Entrepôt =11, N° de lot. = B1
+-   Accusé de réception de marchandises 2 : Quantité = 50., pcs, Montant = 800.00 USD, Site = 1, Entrepôt =11, N° de lot. = B2
 
 Le tableau suivant donne le résultat du calcul pour un objet de coût. Vous pouvez afficher le résultat dans la page **Objet de coût**.
 
@@ -130,10 +130,10 @@ Le tableau suivant donne le résultat du calcul pour un objet de stock. Vous pou
 <a name="see-also"></a>Voir également :
 --------
 
-[Cost objects](cost-object.md)
+[Objets de coût](cost-object.md)
 
-[Cost entries](cost-entries.md)
+[Écritures de coût](cost-entries.md)
 
-[Contenu nouveau et modifiée dans Microsoft Dynamics AX] (/dynamics365/operations/dev-itpro/get-started/what est - nouvellement modifié)
+[Ce qui est nouveau ou modifié dans Microsoft Dynamics AX](/dynamics365/operations/dev-itpro/get-started/whats-new-changed)
 
 

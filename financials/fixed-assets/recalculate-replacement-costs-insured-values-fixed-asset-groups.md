@@ -1,5 +1,5 @@
 ---
-title: "Nouveau calcul des coûts de remplacement et les valeurs assurées pour des groupes d&quot;immobilisations"
+title: "Recalculer les coûts de remplacement et les valeurs assurées pour des groupes d&quot;immobilisations"
 description: "Cet article décrit le processus pour mettre à jour les coûts de remplacement et les valeurs assurées pour des immobilisations."
 author: twheeloc
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Nouveau calcul des coûts de remplacement et les valeurs assurées pour des groupes d'immobilisations
+# <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Recalculer les coûts de remplacement et les valeurs assurées pour des groupes d'immobilisations
+
+[!include[banner](../includes/banner.md)]
+
 
 Cet article décrit le processus pour mettre à jour les coûts de remplacement et les valeurs assurées pour des immobilisations.
 
@@ -38,18 +41,18 @@ Pour recalculer les coûts de remplacement et les valeurs assurées des groupes 
 
 Lorsque vous utilisez l'écran Mettre à jour les coûts de remplacement et les valeurs assurées pour recalculer le coût de remplacement et la valeur assurée pour les immobilisations, les formules suivantes sont utilisées :
 
--   \[(Facteur du coût de remplacement du groupe d'immobilisations/100) + 1 coût de remplacement existant de l'\] de\] \*
--   \[(facteur de valeur assurée du groupe d'immobilisations/100) + 1 valeur assurée existante des immobilisations\] \*
+-   \[Facteur de coût de remplacement du groupe d'immobilisations / 100) + 1\] \* Coût de remplacement existant des immobilisations
+-   \[Facteur de valeur assurée du groupe d'immobilisations / 100) + 1\] \* Valeur assurée existante des immobilisations
 
 > [!NOTE] 
 > Lorsque vous utilisez l'écran Mettre à jour les coûts de remplacement et les valeurs assurées, le coût de remplacement et la valeur assurée sont mis à jour pour les immobilisations sélectionnées ; vous ne pouvez pas spécifier qu'une seule valeur doit être mise à jour. Pour laisser une valeur inchangée et en mettre une autre à jour, entrez 0 (zéro) comme facteur dans l'écran Groupes d'immobilisations. Si le facteur est nul ou non défini, le calcul est ignoré dans la mise à jour. La valeur comptable et la valeur comptable nette des immobilisations ne sont pas affectées par la mise à jour périodique. 
 
 ## <a name="how-to-use-a-date-to-select-which-items-to-update"></a>Utilisation d'une date pour sélectionner les articles à mettre à jour
-Par défaut, le processus met à jour les immobilisations sélectionnées qui n'ont pas été mises à jour à la date actuelle, mais qui ont peut-être été mises à jour les jours précédents. Par exemple, &lt; la date actuelle signifie « avant aujourd'hui ». Vous pouvez modifier la date dans les coûts de remplacement de mise à jour et assurées l'écran Valeurs en cliquant sur le bouton Sélectionner. Le critère de la date que vous spécifiez est comparé à la date de la dernière mise à jour périodique pour l'immobilisation (champ Dernière mise à jour de la valeur périodique/des coûts de l'écran Immobilisations). Chaque fois que vous mettez à jour le coût de remplacement ou la valeur assurée d'une immobilisation, le champ Dernière mise à jour de la valeur périodique/des coûts est automatiquement mis à jour avec la date actuelle. 
+Par défaut, le processus met à jour les immobilisations sélectionnées qui n'ont pas été mises à jour à la date actuelle, mais qui ont peut-être été mises à jour les jours précédents. Par exemple, &lt; la date actuelle signifie « avant aujourd'hui ». Vous pouvez modifier la date dans l'écran Mettre à jour les coûts de remplacement et les valeurs assurées en cliquant sur le bouton Sélection. Le critère de la date que vous spécifiez est comparé à la date de la dernière mise à jour périodique pour l'immobilisation (champ Dernière mise à jour de la valeur périodique/des coûts de l'écran Immobilisations). Chaque fois que vous mettez à jour le coût de remplacement ou la valeur assurée d'une immobilisation, le champ Dernière mise à jour de la valeur périodique/des coûts est automatiquement mis à jour avec la date actuelle. 
 
 Exemple 
 
-Vous avez mis à jour le coût de remplacement pour les groupes Véhicules, Mobilier de bureau et Bâtiments de 5 pour cent hier et vous considérez à présent que ces immobilisations sont précisément mises à jour. Pour exclure ces immobilisations lors de la mise à jour de toutes les immobilisations du jour, vous entrez une date de la dernière valeur périodique le champ/coût de mise à jour antérieur&lt; à hier (date de la veille), car la dernière mise à jour pour les véhicules, fournitures de bureau, et des groupes de bâtiments se sont produites en dehors de les critères de date vous avez entré.
+Vous avez mis à jour le coût de remplacement pour les groupes Véhicules, Mobilier de bureau et Bâtiments de 5 pour cent hier et vous considérez à présent que ces immobilisations sont précisément mises à jour. Pour exclure ces immobilisations lors de la mise à jour de toutes les immobilisations du jour, vous entrez une date dans le champ Dernière mise à jour de la valeur périodique/des coûts antérieur à hier (&lt; date d'hier), car la dernière mise à jour pour les groupes Véhicules, Fournitures de bureau et Bâtiments est survenue en dehors des critères de dates que vous avez entrés.
 
 ## <a name="cumulative-effect-of-each-update"></a>Effet cumulatif pour chaque mise à jour
 Chaque mise à jour a un effet cumulatif. Vous devez donc soigneusement planifier vos mises à jour. Par exemple, si vous augmentez toutes les immobilisations de 3 pour cent le mardi et si vous augmentez le mobilier de bureau de 4 pour cent le vendredi, assurez-vous que vous augmentez le mobilier de bureau d'un total de 7,12 pour cent.
@@ -72,6 +75,8 @@ Le jour suivant, votre gestionnaire vous signale que les ordinateurs ont diminu�
 
 > [!NOTE]  
 > Vous ne pouvez pas contrepasser le facteur –10 en entrant un facteur positif 10 (ou un facteur 2, la différence entre –10 et –8) car les montants ne seront pas calculés comme vous le souhaitez. 
+
+
 
 
 

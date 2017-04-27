@@ -1,6 +1,6 @@
 ---
-title: "États financiers d&quot;afficher et de conception"
-description: "Cet articles associées les exercices de marchent vous l&quot;affichage et créez des états financiers pour Microsoft Dynamics 365 pour les opérations. Les états financiers sont constitués d&quot;une expérience d&quot;affichage dans Dynamics 365 pour les opérations et clic- une fois le Concepteur de rapports qui vous permet de créer et modifier des rapports financiers."
+title: "Afficher et créer des états financiers"
+description: "Cet article propose des exercices qui traitent de l&quot;affichage et de la création d&quot;états financiers pour Microsoft Dynamics 365 for Operations. La génération d&quot;états financiers comprend une expérience d&quot;affichage dans Dynamics 365 for Operations et un concepteur d&quot;état en un clic qui permet de créer et de modifier des états financiers."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,9 +25,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="view-and-design-financial-reports"></a>États financiers d'afficher et de conception
+# <a name="view-and-design-financial-reports"></a>Afficher et créer des états financiers
 
-Cet articles associées les exercices de marchent vous l'affichage et créez des états financiers pour Microsoft Dynamics 365 pour les opérations. Les états financiers sont constitués d'une expérience d'affichage dans Dynamics 365 pour les opérations et clic- une fois le Concepteur de rapports qui vous permet de créer et modifier des rapports financiers.  
+[!include[banner](../includes/banner.md)]
+
+
+Cet article propose des exercices qui traitent de l'affichage et de la création d'états financiers pour Microsoft Dynamics 365 for Operations. La génération d'états financiers comprend une expérience d'affichage dans Dynamics 365 for Operations et un concepteur d'état en un clic qui permet de créer et de modifier des états financiers.  
 
 <a name="exercise-1-generate-and-explore-a-default-financial-report"></a>Exercice 1 : Générez et explorez un état financier par défaut
 -----------------------------------------------------------
@@ -45,7 +48,7 @@ Pour cet exercice, vous allez générer et explorer un état existant par défau
 3.  Enregistrez la configuration de dimension. Ensuite, nous allons générer un état et explorer les données dans l'état.
 4.  Accédez à **États financiers** sous **Recherches et états** dans la comptabilité.
 5.  Sélectionnez la ligne de l'état appelée **Détails de Comptabilité – valeur par défaut.**
-6.  Sélectionnez **Modifier.** Remarque : Vous êtes invité à télécharger clic- une fois Concepteur de rapports et à se connecter. Utilisez vos informations d'identification pour se connecter.
+6.  Sélectionnez **Modifier.** Remarque : vous êtes invité à télécharger le concepteur d'état en un clic et à vous connecter. Utilisez vos informations d'identification pour vous connecter.
 7.  Modifiez l'année de référence à 2012 et sélectionnez **Générer**. Lorsqu'un état est généré à partir du concepteur d'état, il s'affiche dans un nouvel onglet du navigateur. Vous pouvez explorer l'état dans le nouvel onglet du navigateur ou accéder à l'onglet d'origine du navigateur et ouvrir l'état à partir de là en le sélectionnant dans la liste **États financiers**.
 8.  Dans l'état ouvert, sélectionnez l'un des montants pour accéder aux détails du compte pour l'état.
 9.  Une fois dans les détails du compte, sélectionnez un compte avec des données et **accédez au niveau de la transaction d'état**. Au niveau de la transaction d'état, vous pouvez voir les propriétés (attributs) qui sont inclus dans la conception de cet état. Selon la transaction et le compte, certains ou tous les attributs peuvent être affichés.
@@ -55,7 +58,7 @@ Pour cet exercice, vous allez générer et explorer un état existant par défau
 13. Sélectionnez **Options des états**.
 14. Sélectionnez **Ajouter un filtre de dimension**, puis sélectionnez **Unité commerciale**.
 15. Tapez 001 dans le champ et sélectionnez **OK**. L'état affiche désormais uniquement les données des unités commerciales 001. Il s'agit d'une vue personnalisée de l'état que les autres ne peuvent pas afficher.
-16. Fermez l'état filtré. Les états financiers peuvent être affichés dans n'importe quelle devise qui a été ajoutée à Dynamics 365 pour les opérations.
+16. Fermez l'état filtré. Les états financiers peuvent être affichés dans n'importe quelle devise qui a été ajoutée à Dynamics 365 for Operations.
 17. Sélectionnez **Devise**, sélectionnez ensuite **EUR.** L'état s'affiche désormais en euros. Tous les codes devise ou symboles monétaires inclus dans la création d'état s'affichent désormais dans la devise appliquée. Si aucun symbole monétaire n'est défini pour une devise, le symbole monétaire n'est pas affiché.
 18. Fermez l'état **Détails de comptabilité**.
 19. Fermez le **Générateur d'états**.
@@ -66,7 +69,7 @@ Dans cet exercice, vous allez modifier un état existant par défaut. Vous mettr
 1.  Accédez à **États financiers** sous Recherches et états dans la comptabilité.
 2.  Sélectionnez la ligne de l'état appelée **Synthèse de balance comptable – valeur par défaut.**
 3.  Sélectionnez **Modifier**. **Synthèse de balance comptable – valeur par défaut** s'ouvre dans le concepteur d'état.
-4.  Sélectionnez **Fichier**, puis **Enregistrer sous** et nommez l'état Balance comptable détaillée avec des attributs. Remarque : Tout lorsqu'un nouvel état est créé dans le Concepteur de rapports, la liste des états financière est mis à jour dans Dynamics 365 pour les opérations.
+4.  Sélectionnez **Fichier**, puis **Enregistrer sous** et nommez l'état Balance comptable détaillée avec des attributs. Remarque : à chaque fois qu'un état est créé dans le concepteur d'état, la liste des états financiers est mise à jour dans Dynamics 365 for Operations.
 5.  À partir de la définition d'état, sélectionnez l'icône de définition de ligne pour ouvrir **Balance comptable – définition de ligne par défaut**.
 6.  Enregistrez la définition de ligne sous **Balance comptable détaillée avec des attributs**
 7.  Avec le curseur sur la ligne 50, sélectionnez **Modifier**, puis **Insérer des lignes à partir des dimensions**. Insérer des lignes à partir des dimensions permet de sélectionner les dimensions vous voudriez avoir dans votre définition de ligne. Pour cet exercice, nous allons établir la définition de ligne à l'aide du Compte principal.
@@ -96,7 +99,7 @@ Dans cet exercice, vous allez modifier un état existant par défaut. Vous mettr
 25. Fermez l'état **Balance comptable détaillée avec des attributs**.
 26. Fermez le **Générateur d'états**.
 
-## <a name="exercise-3-create-a-multidimensional-report-using-a-reporting-tree"></a>Exercice 3 : Création d'un état multidimensionnel à l'aide d'un organigramme d'entreprise
+## <a name="exercise-3-create-a-multidimensional-report-using-a-reporting-tree"></a>Exercice 3 : Création d'un état multidimensionnel à l'aide d'une arborescence de génération d'états
 Pour cet exercice, vous allez modifier un état existant par défaut. Vous créerez une arborescence de génération d'états et ajouterez une définition d'état pour produire un Relevé des revenus de centre de coût/division. Une fois les mises à jour terminées, vous allez générer un Relevé des revenus de centre de coût/division et explorer l'état à l'aide de l'arborescence de génération d'états. Nous commencerons à partir de la liste des états financiers.
 
 1.  Accédez à **États financiers** sous Recherches et états dans la comptabilité.
@@ -138,7 +141,7 @@ Pour cet exercice, vous allez modifier un état existant par défaut. Vous allez
 1.  Accédez à **États financiers** sous Recherches et états dans la comptabilité.
 2.  Sélectionnez la ligne de l'état appelé **Bilan et relevé des revenus côte à côte – Valeur par défaut**
 3.  Sélectionnez **Modifier**. **Bilan et relevé des revenus côte à côte – Valeur par défaut** s'ouvre dans le concepteur d'état.
-4.  Sélectionnez ** fichier ** &gt; ** Enregistrer comme ** puis nommez l'état ** consolidé bilan et résultat côte à côte **.
+4.  Sélectionnez **Fichier** &gt; **Enregistrer sous** et saisissez un nom pour l'état **Bilan et état des revenus consolidés côte à côte**.
 5.  Modifiez l'année de référence sur 2012.
 6.  Cliquez sur la flèche déroulante Type d'arborescence et sélectionnez **Hiérarchies d'organisation**.
 7.  Cliquez sur la flèche déroulante d'arborescence et sélectionnez **Contoso Holdings.**
@@ -151,7 +154,7 @@ Pour cet exercice, vous allez modifier un état existant par défaut. Vous allez
 14. Fermez **Bilan consolidé et relevé des revenus côte à côte**.
 15. Fermez le **Générateur d'états**.
 
-## <a name="exercise-5-create-a-sidebyside-departmental-report"></a>Exercice 5 : Création d'un état côte à côte du département
+## <a name="exercise-5-create-a-sidebyside-departmental-report"></a>Exercice 5 : Création d'un état départemental côte à côte
 Dans cet exercice, vous créerez un état. L'état est un relevé des revenus départementaux côte à côte. Vous utiliserez une définition de ligne existante, mais créerez une définition d'état et une définition de colonne qui utilise des filtres de dimension. Nous commencerons à partir de la liste des états financiers.
 
 1.  Accédez à **États financiers** sous Recherches et états dans la comptabilité.
@@ -179,8 +182,10 @@ Dans cet exercice, vous créerez un état. L'état est un relevé des revenus d�
 18. **Enregistrez** vos modifications et **générez**. Une fois que l'état est généré et s'ouvre, vous pouvez explorer l'état.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
-États financiers [] (finances\\\comptabilité financial-reporting-getting-started.md) 
-[états financiers de vue] (finances\\\comptabilité view-financial-reports.md 
-) [Blog d'états financiers de Dynamics (http://blogs.msdn.com/b/dynamics_financial_reporting/)]
+[États financiers](\financials\general-ledger\financial-reporting-getting-started.md) 
+[Afficher les états financiers](\financials\general-ledger\view-financial-reports.md) 
+[Blog États financiers Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Définitions de validation"
-description: "Cet articles associées des exemples qui affiche la manière dont les définitions de validation sont utilisées pour les engagements de commande fournisseur et des affectations budgétaires."
+description: "Cet article fournit des exemples décrivant la manière dont les définitions de validation sont utilisées pour les engagements de commande fournisseur et les affectations budgétaires."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="posting-definition-examples"></a>Exemples de définition de validation
+# <a name="posting-definition-examples"></a>Exemples de définitions de validation
 
-Cet articles associées des exemples qui affiche la manière dont les définitions de validation sont utilisées pour les engagements de commande fournisseur et des affectations budgétaires.
+[!include[banner](../includes/banner.md)]
+
+
+Cet article fournit des exemples décrivant la manière dont les définitions de validation sont utilisées pour les engagements de commande fournisseur et les affectations budgétaires.
 
 Avant de lire cette rubrique, vous devez être familiarisé avec les définitions de validation et de validation de transaction. Pour plus d'informations, voir [Définitions de validation](posting-definitions.md). Les exemples suivants peuvent être configurés dans la page **Définitions de validation**. Chaque exemple contient les sections suivantes :
 
@@ -39,7 +42,7 @@ Avant de lire cette rubrique, vous devez être familiarisé avec les définition
 
 Lorsqu'une correspondance existe entre les comptes et les valeurs de dimension dans le volet **Critère de rapprochement** de la définition de validation, ainsi qu'entre les comptes et les valeurs de dimension de la transaction, les écritures comptables sont générées selon le contenu du volet **Entrées générées** pour la définition de validation. 
 > [!NOTE]
-> Pour associer une définition de validation avec un type de transaction spécifique, utilisez ** des définitions de validation des transactions ** la page. Lorsque vous associiez une définition de validation avec un type de transaction et la avez sélectionné ** des définitions de validation d'utilisation ** sur ** des paramètres de Comptabilité ** la page, toutes les transactions du type sélectionné doivent utiliser les définitions de validation.
+> Pour associer une définition de validation à un type de transaction spécifique, utilisez la page **Définitions de validation de transaction**. Après avoir associé une définition de validation à un type de transaction et sélectionné l'option **Utiliser les définitions de validation** sur la page **Paramètres de comptabilité**, toutes les transactions du type sélectionné doivent utiliser les définitions de validation.
 
 ## <a name="example-purchase-order-encumbrances"></a>Exemple : engagements de commande fournisseur
 Lorsque vous activez le processus d'engagement en sélectionnant **Activer le processus d'engagement** dans la page **Paramètres de comptabilité**, les définitions de validation doivent être utilisées pour enregistrer les engagements dans la comptabilité pour tous les comptes devant être réservés. Dans la plupart des cas, tous les comptes de dépenses sont réservés sur le compte de bilan. 
@@ -80,7 +83,7 @@ Les écritures comptables générées sont créées pour enregistrer les engagem
 | 300143-OU\_1-OU\_3566-Training | 250,00 |        |         |
 | 300144-OU\_1-OU\_3566-Training |        | 250,00 |         |
 
-Dans cet exemple, toutes les parties de compte de la structure de compte - Résultat correspondent aux critères de définition de validation. Donc, lorsque 606500-OU\_1-OU\_3566-Training est évalué, les écritures générées sont créées pour les comptes définis dans ** les entrées générées ** le volet de la définition de validation.
+Dans cet exemple, toutes les parties de compte de la structure de compte - Résultat correspondent aux critères de définition de validation. Toutefois, lors de l'évaluation de 606500-OU\_1-OU\_3566-Training, les écritures générées sont créées pour les comptes définis dans le volet **Entrées générées** pour la définition de validation.
 
 ## <a name="example-budget-appropriations"></a>Exemple : affectations du budget
 Lorsque vous activez l'affectation budgétaire en sélectionnant **Activer l'affectation budgétaire** dans la page **Paramètres de comptabilité**, vous devez utiliser les définitions de validation pour enregistrer les écritures de registre budgétaires dans la comptabilité. Lorsqu'une configuration de contrôle budgétaire est active, vous pouvez utiliser les définitions de validation et les définitions de validation de transaction pour prendre en charge l'enregistrement des écritures d'affectations, de révisions, de transferts, de projets, d'immobilisations, d'approvisionnements et de prévisions de la demande dans la comptabilité. 
@@ -122,6 +125,8 @@ Les écritures comptables générées sont créées pour enregistrer le budget d
 | 300146-OU\_1-OU\_3566-Training | 250,00 |        |         |
 
 Dans cet exemple, toutes les parties de compte de la structure de compte - Résultat correspondent aux critères de définition de validation. Donc, lorsque 606400-OU\_1-OU\_3566-Training est évalué, les écritures comptables générées sont créées.
+
+
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Afficher et évaluer les résultats d&quot;un questionnaire"
-description: "Cette rubrique explique comment vous pouvez afficher et évaluer les résultats des questionnaires que les personnes interrogées remplissent."
+description: "Cette rubrique explique comment afficher et évaluer les résultats des questionnaires que les personnes interrogées remplissent."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,7 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="view-and-evaluate-the-results-of-a-questionnaire"></a>Afficher et évaluer les résultats d'un questionnaire
 
-Cette rubrique explique comment vous pouvez afficher et évaluer les résultats des questionnaires que les personnes interrogées remplissent. 
+Cette rubrique explique comment afficher et évaluer les résultats des questionnaires que les personnes interrogées remplissent. 
 
 Une fois que des personnes interrogées ont rempli un questionnaire, vous pouvez afficher et évaluer les résultats du questionnaire en procédant comme suit :
 

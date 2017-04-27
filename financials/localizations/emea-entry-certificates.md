@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="eu-entry-certificates"></a>Certificat d'entrée dans l'UE
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article fournit des informations sur les certificats d'entrée dans l'Union européenne (UE).
 
 Vous pouvez effectuer les tâches suivantes pour un certificat d'entrée de l'Union européenne (UE) :
@@ -76,7 +79,7 @@ Le tableau suivant indique la configuration requise qui doit être en place avan
 </table>
 
 ## <a name="creating-registering-and-uploading-an-eu-entry-certificate"></a>Création, enregistrement et téléchargement d'un certificat d'entrée de l'UE
-Vous pouvez créer un certificat d'entrée de l'UE automatiquement ou manuellement. Le certificat d'entrée de l'UE est créé et imprimé automatiquement lorsque vous validez un bon de livraison ou une facture pour un client à l'aide ** validation du bon de livraison ** de la page ou ** facture de validation ** de la page. Pour créer manuellement ou imprimer un certificat d'entrée de l'UE pour une facture client, utilisez ** journal des factures ** la page. En outre, vous pouvez utiliser la page **Journal des certificats d'entrée ** pour entrer des détails sur un certificat d'entrée de l'UE émis par une tierce partie.
+Vous pouvez créer un certificat d'entrée de l'UE automatiquement ou manuellement. Un certificat d'entrée de l'UE est créé et imprimé automatiquement lors de la validation d'un bon de livraison ou d'une facture pour un client à l'aide de la page **Validation du bon de livraison** ou la page **Validation de la facture**. Pour créer manuellement ou réimprimer un certificat d'entrée de l'UE pour une facture client, utilisez la page **Journal des factures**. En outre, vous pouvez utiliser la page **Journal des certificats d'entrée ** pour entrer des détails sur un certificat d'entrée de l'UE émis par une tierce partie.
 
 ### <a name="creating-an-eu-entry-certificate-automatically-or-manually"></a>Création d'un certificat d'entrée de l'UE automatiquement ou manuellement
 
@@ -121,6 +124,8 @@ Si vous n'avez pas accès aux pages qui vous permettent d'effectuer cette tâche
 </tr>
 </tbody>
 </table>
+
+
 
 
 

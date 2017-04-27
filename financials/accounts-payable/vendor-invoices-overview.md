@@ -1,5 +1,5 @@
 ---
-title: Vue d&quot;ensemble de factures fournisseur
+title: Vue d&quot;ensemble des factures fournisseur
 description: "Cet article fournit des informations générales sur les factures fournisseur. Les factures fournisseur sont des demandes de paiement pour les biens et services reçus. Les factures fournisseur peuvent représenter une facture pour les services en cours, ou elles peuvent être basées sur des commandes fournisseur pour des articles et services spécifiques."
 author: twheeloc
 manager: AnnBe
@@ -25,20 +25,23 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="vendor-invoices-overview"></a>Vue d'ensemble de factures fournisseur
+# <a name="vendor-invoices-overview"></a>Vue d'ensemble des factures fournisseur
+
+[!include[banner](../includes/banner.md)]
+
 
 Cet article fournit des informations générales sur les factures fournisseur. Les factures fournisseur sont des demandes de paiement pour les biens et services reçus. Les factures fournisseur peuvent représenter une facture pour les services en cours, ou elles peuvent être basées sur des commandes fournisseur pour des articles et services spécifiques. 
 
 <a name="vendor-invoices"></a>Factures fournisseur
 ---------------
 
-Une facture fournisseur basée sur une commande fournisseur est une facture produite lorsque des produits ou des services sont reçus en fonction d'une commande fournisseur placée auprès d'un fournisseur. La facture fournisseur contient un en-tête, et une ou plusieurs lignes pour des articles ou des services. Une facture fournisseur termine le cycle de la commande fournisseur à l'accusé de réception de marchandises avec la facture fournisseur. 
+Une facture fournisseur basée sur une commande fournisseur est une facture produite lorsque des produits ou des services sont reçus en fonction d'une commande fournisseur placée auprès d'un fournisseur. La facture fournisseur contient un en-tête et une ou plusieurs lignes pour des articles ou services. Une facture fournisseur termine le cycle de la commande fournisseur à la réception des produits et à la facture fournisseur. 
 
 Bien que certaines factures fournisseur soient liées à une commande fournisseur, les factures fournisseur peuvent également contenir des lignes qui ne correspondent pas aux lignes de commande fournisseur. Vous pouvez également créer des factures fournisseur qui ne sont associées à aucune commande fournisseur. Ces factures fournisseur peuvent représenter des services en cours, tels qu'une facture de service, et vous n'êtes pas obligé de référencer une commande fournisseur lorsque vous les ajoutez. 
 
 Il existe plusieurs manières d'entrer une facture fournisseur :
 
--   Registre de facture fournisseur permet d'entrer les factures qui ne font pas référence à une commande fournisseur, afin de pouvoir provisionner la dépense. À l'aide d'un journal des approbations de facture fournisseur, vous pouvez sélectionner les factures et les valider au solde fournisseur pour contrepasser la régularisation.
+-   Le registre des factures fournisseur permet d'entrer rapidement les factures qui ne font pas référence à une commande fournisseur, afin de pouvoir provisionner la dépense. À l'aide du journal des approbations de facture fournisseur, vous pouvez sélectionner ces factures et les valider dans le solde fournisseur pour contrepasser la provision.
 -   Le journal des factures fournisseur vous permet d'entrer rapidement des factures qui ne référencent pas une commande fournisseur, en une seule étape.
 -   Utilisé avec le regroupement des factures fournisseur, le registre des factures fournisseur vous permet d'entrer rapidement des factures pour provisionner la dépense. Vous pouvez ouvrir les commandes fournisseur associées ultérieurement afin de valider la facture par rapport au compte de dépenses.
 -   Les pages **Factures fournisseur en cours** et **Factures fournisseur en attente** vous permettent de créer des factures fournisseur à partir de commandes fournisseur confirmées.
@@ -57,7 +60,7 @@ Lorsque vous ouvrez une facture fournisseur à partir d'une commande fournisseur
 Si votre entité juridique utilise le rapprochement de factures, vous pouvez afficher les résultats du rapprochement de quantité dans la colonne **Correspondance de quantités des accusés de réception de marchandises**. Vous pouvez également utiliser la commande de menu **Détails de rapprochement** sous l'onglet **Revoir** pour afficher les résultats du rapprochement de quantité.
 
 ## <a name="adding-a-line-that-wasnt-on-the-purchase-order"></a>Ajout d'une ligne qui ne figurait pas sur la commande fournisseur
-Vous pouvez ajouter une nouvelle ligne qui n'était pas sur la commande fournisseur à la facture fournisseur. Vous devez sélectionner un numéro d'article ou une catégorie d'approvisionnement. Vous pouvez ensuite ajouter des quantités, des prix, et des montants à la ligne. La ligne est incluse uniquement dans les stratégies de rapprochement pour les totaux de la facture.
+Vous pouvez ajouter à la facture fournisseur une nouvelle ligne qui ne figurait pas sur la commande fournisseur. Vous devez sélectionner un numéro d'article ou une catégorie d'approvisionnement. Vous pouvez ensuite ajouter des quantités, des prix, et des montants à la ligne. La ligne est incluse uniquement dans les stratégies de rapprochement pour les totaux de la facture.
 
 ## <a name="submitting-a-vendor-invoice-for-review"></a>Soumission d'une facture fournisseur pour révision
 Votre organisation peut utiliser des workflows pour gérer le processus de révision des factures fournisseur. La révision via workflow peut être nécessaire pour l'en-tête de facture, la ligne de facture ou les deux. Les contrôles de workflow s'appliquent à l'en-tête ou à la ligne, selon l'emplacement de la vue lorsque vous cliquez sur le contrôle. À la place du bouton **Valider**, vous verrez un bouton **Soumettre** qui vous permet d'envoyer la facture fournisseur dans le processus de révision.
@@ -74,6 +77,8 @@ Cette option suppose qu'au moins un accusé de réception de marchandises a ét�
 ## <a name="working-with-multiple-invoices"></a>Utilisation de plusieurs factures
 
 Vous pouvez utiliser plusieurs factures à la fois et les valider toutes à la fois. Si vous devez créer plusieurs factures, utilisez la page **Factures fournisseur en attente**. Si vous devez valider et imprimer plusieurs factures fournisseur, utilisez le journal d'approbation des factures. Si vous utilisez journal d'approbation des factures, au moins un accusé de réception de marchandises doit être validé pour la commande fournisseur, et une facture pour la commande fournisseur doit être validée dans un registre des factures. Les informations financières pour la facture viennent de la facture qui a été validée dans le registre.
+
+
 
 
 

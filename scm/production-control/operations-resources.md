@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="operations-resources"></a>Ressources Operations
 
+[!include[banner](../includes/banner.md)]
+
+
 Les ressources opérationnelles réalisent les activités d'un projet ou d'un processus de production. Elles peuvent être de différents types et avoir différentes capacités. 
 
 <a name="operations-resources"></a>Ressources Operations
@@ -36,7 +39,7 @@ Les ressources opérationnelles réalisent les activités d'un projet ou d'un pr
 Les ressources opérationnelles sont les machines, outils, collaborateurs, installations, zones physiques ou fournisseurs qui exécutent les activités d'un projet ou d'un processus de production. Elles peuvent être de différents types et avoir différentes capacités.
 
 -   **Fournisseur** – Ressource externe qui réalise des activités de projet ou des opérations de production. Il peut s'agir par exemple d'un sous-traitant. En liant les ressources fournisseur à un compte fournisseur, vous pouvez générer des achats pour les sous-traitants, selon les lignes de nomenclature ou les lignes de production.
--   **Ressources humaines** – Collaborateur à un projet ou à la production qui réalise une activité, seul ou en tant qu'opérateur d'un outil ou d'une machine. Si vous utilisez la fonctionnalité Ressources humaines, vous pouvez lier des ressources humaines à un travailleur. Le moteur de planification peut ensuite répartir les ressources, en fonction des compétences définies pour le collaborateur correspondant.
+-   **Ressources humaines** – Collaborateur à un projet ou à la production qui réalise une activité, seul ou en tant qu'opérateur d'un outil ou d'une machine. Si vous utilisez la fonctionnalité Ressources humaines, vous pouvez lier des ressources humaines à un collaborateur. Le moteur de planification peut ensuite répartir les ressources, en fonction des compétences définies pour le collaborateur correspondant.
 -   **Machine** – Machine ou autre équipement de production nécessaire dans la production.
 -   **Outil** – Instrument ou appareil qui est généralement utilisé avec une autre ressource pour réaliser une activité dans un projet ou dans la production.
 -   **Emplacement** – Emplacement physique de taille spécifique nécessaire pour réaliser une activité. Il peut s'agir par exemple d'une zone d'assemblage.
@@ -80,5 +83,7 @@ Lorsqu'un groupe de ressources est utilisé comme cellule de travail au plus jus
 
 ## <a name="costing-resources"></a>Ressources d'évaluation des coûts
 Lorsque vous définissez une activité telle qu'une opération de gamme ou une prévision en heures de projet, vous pouvez définir les besoins d'une ressource opérationnelle ou d'un groupe de ressources spécifique. Toutefois, vous pouvez également spécifier les besoins d'une ressource opérationnelle d'un type spécifique, ou d'une ressource opérationnelle ayant une capacité ou une compétence spécifique. Pour cette raison, l'affectation de ressources réelle n'est pas effectuée jusqu'à ce que l'activité soit planifiée et la capacité réservée. Par conséquent, sur une opération de gamme, vous pouvez spécifier que l'estimation et le calcul de nomenclature doivent être basés sur une ressource opérationnelle spécifique. Cette ressource opérationnelle est appelée ressource d'évaluation des coûts. Vous pouvez également transférer les catégories de coûts et les durées d'opération de la ressource d'évaluation des coûts vers l'activité. Lorsque l'opération est planifiée, l'estimation et le calcul de nomenclature sont effectués à l'aide de la ressource opérationnelle réellement planifiée.
+
+
 
 

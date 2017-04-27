@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="operations-scheduling-options"></a>Options d'ordonnancement des opérations
 
+[!include[banner](../includes/banner.md)]
+
+
 Cette rubrique décrit les options de l'ordonnancement. Vous pouvez utiliser l'ordonnancement pour fournir une estimation globale du processus de production dans le temps.
 
 L'ordonnancement des opérations calcule les informations suivantes pour un ordre de fabrication :
@@ -128,6 +131,8 @@ Vous pouvez enregistrer les valeurs actuelles comme des valeurs par défaut. Deu
 <a name="see-also"></a>Voir également :
 --------
 
-[Operations scheduling](operations-scheduling.md)
+[Ordonnancement](operations-scheduling.md)
+
+
 
 

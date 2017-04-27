@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="product-receipt-against-purchase-orders"></a>Accusé de réception de marchandises et commandes fournisseur
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article décrit les différentes options d’enregistrement des marchandises comme étant reçues.
 
 L'accusé de réception de machandises est le processus permettant d'enregistrer que les produits commandés ont été reçus, afin que les lignes de commande fournisseur (CF) puissent ensuite être traitées pour la facturation. Dans certains cas, les produits passent par le préenregistrement, où des informations supplémentaires du fournisseur sont enregistrées avant que les produits soient réceptionnés. Lors de l’arrivée des produits, ils sont tout d’abord marqués comme **Enregistrés**. Les produits peuvent ensuite passer par des processus supplémentaires, tels que la gestion de la qualité, avant d'être enfin marqués comme **Reçus**.
@@ -52,19 +55,21 @@ Vous pouvez sélectionner plusieurs commandes et traiter la réception de toutes
 
 Les CF peuvent être créées à partir d’une commande client où l'option **Livraison directe** a été sélectionnée. Si la livraison directe est utilisée, les marchandises n'arrivent jamais dans votre entrepôt mais sont livrés directement du fournisseur au client. Dans ce cas, la réception est en général enregistrée directement sur la CF. La réception peut être faite automatiquement, notamment grâce à l’intégration de l'échange de données informatisé (EDI) avec le fournisseur. Sinon, si la CF est une CF intersociétés, Microsoft Dynamics 365 for Operations automatise la réception de la commande client intersociétés lors de l’expédition. Lors de la livraison directe est utilisée, les marchandises sont toujours prises en compte en tant que stock, même si elles n’arrivent pas physiquement dans l’entrepôt. Par conséquent, lorsque la réception de marchandises est enregistrée sur la CF, la commande client est automatiquement mis à jour avec un bon de livraison, afin que les modifications globales d’inventaire soient à 0 (zéro). Dans les scénarios de livraison directe, vous ne devez pas exiger de préenregistrement. Si vous utilisez des entrepôts qui sont activés pour la gestion des entrepôts, vous pouvez contourner l’obligation d’enregistrement des plaques d’immatriculation en spécifiant un entrepôt virtuel à la place. Vous spécifiez cet entrepôt dans le champ **Entrepôt des livraisons directes** sur le produit. 
 
-Une fois l'accusé de réception de marchandises a été traité sur le fournisseur, le statut de la CF est défini sur ** reçu ** pour indiquer que la facture peut être traitée pour la commande. Vous pouvez consulter les détails sur les marchandises qui ont déjà été reçues à l’aide de la page **Journaux d'accusés de réception de marchandises**.  
+Une fois l’accusé de réception de marchandises traitée sur la CF, le statut de la CF est défini sur **Reçue** pour indiquer que la facture peut être traitée pour la commande. Vous pouvez consulter les détails sur les marchandises qui ont déjà été reçues à l’aide de la page **Journaux d'accusés de réception de marchandises**.  
 
 Vous pouvez accéder à cette page à partir du groupe d'actions **Réception** sur la page **Commande fournisseur**. Les informations contenues dans les journaux incluent des détails sur les quantités, les dates et les dimensions.
 
 <a name="see-also"></a>Voir également :
 --------
 
-[Purchase order overview](purchase-order-overview.md)
+[Présentation des commandes fournisseur](purchase-order-overview.md)
 
-[Purchase order creation](purchase-order-creation.md)
+[Création de commandes fournisseur](purchase-order-creation.md)
 
 [Approbation et confirmation de la commande fournisseur](purchase-order-approval-confirmation.md)
 
 [Vue d'ensemble des factures fournisseur](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+
+
 
 

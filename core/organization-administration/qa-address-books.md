@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="address-books"></a>Carnets d'adresses
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 <a name="how-do-i-check-for-duplicate-records"></a>Comment rechercher les enregistrements en double ?
@@ -53,7 +56,7 @@ Vous pouvez mettre à jour le nom d'un enregistrement de partie, ainsi que les a
 ## <a name="can-i-merge-two-or-more-party-records-into-one-record"></a>Puis-je fusionner deux enregistrements de partie ou plus en un seul enregistrement ?
 Il est parfois nécessaire de fusionner deux enregistrements de parties, ou plus, en un seul. C'est le cas lorsque vous créez un ou plusieurs enregistrements de parties en double, intentionnellement ou non. Lors de la fusion d'enregistrements de parties, vous sélectionnez un enregistrement à conserver. Les informations des autres enregistrements sont alors fusionnées en cet enregistrement. Imaginons que vous découvrez que les informations concernant Fabrikam sont stockées dans trois enregistrements de parties, A, B et C. Vous décidez de conserver l'enregistrement de partie A. Par conséquent, les informations stockées dans les enregistrements de parties B et C seront fusionnées dans l'enregistrement de partie A. Dans certaines situations, vous ne pouvez pas fusionner d'enregistrements de parties :
 
--   Il est impossible de fusionner les enregistrements de parties associés au même rôle de partie, par exemple un client ou un fournisseur, dans la même entité juridique. Par exemple, la partie A est associée à un client dans l'entité juridique 123, et la partie B à un autre dans l'entité juridique 123. Ces enregistrements de partie est impossible de fusionner, car s'ils sont fusionnés, l'enregistrement de partie fusionné serait associé à plusieurs clients dans la même entité juridique, ce qui n'est pas autorisé. Il est cependant possible de fusionner les enregistrements si la partie B est associée à un fournisseur dans l'entité juridique 123 ou à un client dans une autre entité juridique.
+-   Il est impossible de fusionner les enregistrements de parties associés au même rôle de partie, par exemple un client ou un fournisseur, dans la même entité juridique. Par exemple, la partie A est associée à un client dans l'entité juridique 123, et la partie B à un autre client dans l'entité juridique 123. Ces enregistrements de parties ne peuvent pas être fusionnés, car s'ils l'étaient, l'enregistrement de partie fusionné serait associé à plusieurs clients dans la même entité juridique, ce qui n'est pas autorisé. Il est cependant possible de fusionner les enregistrements si la partie B est associée à un fournisseur dans l'entité juridique 123 ou à un client dans une autre entité juridique.
 -   Il est impossible de fusionner des enregistrements de parties internes à l'organisation dans la même entité juridique, la même équipe ou la unité opérationnelle.
 
 ## <a name="should-i-create-a-party-record-in-the-global-address-book-or-in-another-place-such-as-the-customer-or-vendor-page"></a>Dois-je créer un enregistrement de partie dans le carnet d'adresses global ou à un autre emplacement, comme la page Client ou Fournisseur ?
@@ -64,5 +67,7 @@ Vous pouvez entrer des enregistrements de parties soit dans le carnet d'adresses
 
 ## <a name="can-i-translate-address-information-for-party-records"></a>Puis-je traduire les informations d'adresse pour les enregistrements de partie ?
 Vous pouvez paramétrer des traductions des informations d'adresse afin que les informations s'affichent dans votre langue d'utilisateur (langue du système) dans Microsoft Dynamics 365 for Operations, mais dans une autre langue sur les documents tels que les commandes client. Vous pouvez entrer des traductions pour les noms de pays/régions, les objets d'adresse et les séquences de nom. Par exemple, la langue du système est le Danois et vous créez une commande client pour un client en France. Dans ce cas, vous pouvez afficher l'enregistrement client en danois dans le programme mais afficher les informations d'adresse en français sur la commande client imprimée. Lorsque vous paramétrez des traductions, vous devez entrer une traduction pour chaque article de la liste. Tout article pour lequel vous n'entrez pas de traduction s'affichera dans la langue du système. Par exemple, la langue du système est le Danois et vous envoyez un document à un client en Espagne. Si vous n'avez pas entré de traductions en espagnol (ESP) pour les informations d'adresse, ces informations s'affichent en danois dans le programme et sur le document imprimé.
+
+
 
 

@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="procurement-and-sourcing-overview"></a>Présentation des approvisionnements
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article fournit une vue d'ensemble de la fonctionnalité disponible dans le module Approvisionnement.
 
 Le module Approvisionnements couvre toutes les étapes : identification d'un besoin de produit et de services, approvisionnement du produit, réception, facturation et traitement du paiement des fournisseurs. Les processus d'approvisionnement peuvent être configurés en fonction des besoins spécifiques en définissant des stratégies et des workflows d'achat.
@@ -37,14 +40,14 @@ Des *Plafonds de dépenses *peuvent être utilisés pour limiter le montant de l
   
 Le département d'approvisionnement identifie les fournisseurs pour les biens et services nécessaires, et cela peut impliquer qu'une *demande de devis *soit envoyée à plusieurs fournisseurs potentiels. Il est possible de partager les spécifications du produit demandé que les fournisseurs potentiels peuvent afficher pour voir s'ils peuvent fournir un produit conforme. Les fournisseurs retournent leurs offres qui sont alors examinées par le département d'approvisionnement afin de sélectionner le fournisseur auprès duquel se fournir.  
 
-Les commandes fournisseur incluent une option pour envoyer au fournisseur une *demande de renseignements sur les achats *au lieu d'un processus plus complet de demande de devis. La demande de renseignements sur les achats peut être utilisée pour établir des conditions comme les prix, les remises, ainsi que la date de livraison de la commande. Si des fournisseurs sont paramétrés pour utiliser ** fournisseur ** le portail, * * la fonctionnalité de recherche d'achat est désactivée. À la place la commande est partagée dans le portail** Fournisseur** et lorsqu'une *demande de confirmation* est envoyée, le fournisseur peut directement confirmer la commande.  
+Les commandes fournisseur incluent une option pour envoyer au fournisseur une *demande de renseignements sur les achats *au lieu d'un processus plus complet de demande de devis. La demande de renseignements sur les achats peut être utilisée pour établir des conditions comme les prix, les remises, ainsi que la date de livraison de la commande. Si les fournisseurs sont paramétrés pour utiliser le portail **Fournisseur**,* * la fonctionnalité de demande de renseignements sur les achats est désactivée. À la place la commande est partagée dans le portail** Fournisseur** et lorsqu'une *demande de confirmation* est envoyée, le fournisseur peut directement confirmer la commande.  
 
 Des *Catalogues fournisseur *peuvent être utilisés pour collecter des informations sur l'assortiment de produits que les fournisseurs peuvent fournir. Les fournisseurs peuvent publier leur propre catalogue, ce qui simplifie la mise à jour du catalogue. Il est possible d'associer une *liste des fournisseurs agréés* à un produit, ce qui permet de guider la sélection du fournisseur lorsque de nouvelles commandes fournisseur sont ouvertes, et d'empêcher l'utilisation de fournisseurs non souhaités.
 
 ## <a name="procurement"></a>Approvisionnement
 Les *commandes fournisseur *peuvent être créées de différentes manières, notamment :
 
--   Comme résultats de la planification qui a identifié une demande qui nécessite un achat. Ce processus génère des commandes fournisseur prévisionnelles et, si elles sont lancés, les commandes fournisseur sont générées.
+-   Comme résultat de la planification qui a identifié une demande nécessitant un achat. Ce processus génère des commandes fournisseur prévisionnelles, et lorsque celles-ci sont lancées, les commandes fournisseur sont générées.
 -   Via le traitement des demandes d'achat qui entraîne un approvisionnement.
 -   Via le traitement des contrats d'achat, où les commandes fournisseur sont créées en tant que commandes lancées à partir de contrats. Cela est utilisée couramment lorsque des contrats d'achat servent à représenter des commandes globales.
 -   Manuellement, lorsque la commande fournisseur créée n'est pas basée sur un autre document.
@@ -53,7 +56,7 @@ Les commandes fournisseur configurées avec des *workflows d'approbation d'achat
 
 Les commandes fournisseur sont *confirmées* pour représenter qu'un accord a été établi avec le fournisseur. La commande fournisseur progressera ensuite progressivement via différents états jusqu'à ce qu'elle soit finalement facturée ou annulée.  
 
-Lorsque vous créez une commande fournisseur, de nombreux champs est prérenseigné avec les valeurs qui se transférer de les informations enregistrées sur le fournisseur dans ** des fournisseurs ** la page. Cela signifie qu'il existe un nombre limité de champs que vous devez renseigner sur la commande fournisseur, bien que vous puissiez choisir de remplacer les valeurs par défaut.
+Lorsque vous créez une commande fournisseur, de nombreux champs sont prérenseignés avec des valeurs par défaut provenant des informations sur le fournisseur enregistrées dans la page **Fournisseurs**. Cela signifie qu'il existe un nombre limité de champs que vous devez renseigner sur la commande fournisseur, bien que vous puissiez choisir de remplacer les valeurs par défaut.
 
 ### <a name="prices-and-discounts"></a>Prix et remises
 
@@ -86,5 +89,7 @@ Les commandes fournisseur facturées enregistreront le passif dans le compte fou
 
 ## <a name="vendor-performance"></a>Performances du fournisseur
 Les performances et la révision de l'achat sont prises en charge par des *états d'approvisionnement et de comptabilité fournisseur* qui comprennent une analyse des dépenses et une analyse des performances des fournisseurs.
+
+
 
 

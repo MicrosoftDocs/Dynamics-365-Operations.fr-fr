@@ -1,5 +1,5 @@
 ---
-title: "Utilisation de suivi pour l&quot;éclatement"
+title: "Utiliser leu suivi pour l&quot;éclatement"
 description: "Cet article décrit comment utiliser le suivi pour explorer les causes derrière les résultats d&quot;un éclatement de commande."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="use-tracing-for-explosion"></a>Utilisation de suivi pour l'éclatement
+# <a name="use-tracing-for-explosion"></a>Utiliser leu suivi pour l'éclatement
+
+[!include[banner](../includes/banner.md)]
+
 
 Cet article décrit comment utiliser le suivi pour explorer les causes derrière les résultats d'un éclatement de commande.
 
@@ -43,6 +46,8 @@ Vous pouvez afficher les détails sur les perspectives et les actions pour une c
 <a name="see-also"></a>Voir également :
 --------
 
-[Master plans](master-plans.md)
+[Plans généraux](master-plans.md)
+
+
 
 

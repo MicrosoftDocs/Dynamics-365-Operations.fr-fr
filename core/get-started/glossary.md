@@ -1,5 +1,5 @@
 ---
-title: "Dynamics 365 pour le glossaire d&quot;opérations"
+title: Glossaire Dynamics 365 for Operations
 description: "Le glossaire Microsoft Dynamics 365 for Operations définit les termes et les concepts clés du produit Microsoft Dynamics 365 for Operations."
 author: tonyafehr
 manager: AnnBe
@@ -25,13 +25,16 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="dynamics-365-for-operations-glossary"></a>Dynamics 365 pour le glossaire d'opérations
+# <a name="dynamics-365-for-operations-glossary"></a>Glossaire Dynamics 365 for Operations
+
+[!include[banner](../includes/banner.md)]
+
 
 Le glossaire Microsoft Dynamics 365 for Operations définit les termes et les concepts clés du produit Microsoft Dynamics 365 for Operations. 
 
 ### <a name="a"></a>**A**
 
-###### <a name="accounting-journal"></a>**accounting journal**
+###### <a name="accounting-journal"></a>**Journal comptable**
 
 Journal qui permet d'enregistrer les conséquences financières d'événements comptables dans un système comptable.
 
@@ -73,7 +76,7 @@ Nombre de jours compris dans une période et qui permet de générer un état su
 
 Relevé de la position financière d'une organisation qui génère des états sur l'état des actifs, du passif et des capitaux propres à une date spécifique.
 
-###### <a name="balance-sheet-account"></a>**balance sheet account**
+###### <a name="balance-sheet-account"></a>**Compte de bilan**
 
 Compte qui décrit les modifications apportées aux valeurs déclarées dans un bilan.
 
@@ -89,7 +92,7 @@ Attribut de produit d'un lot de production ou d'un lot à transférer.
 
 Date recommandée pour l'obtention d'une qualité ou d'une caractéristique optimale d'un produit.
 
-###### <a name="best-before-period"></a>**best before period**
+###### <a name="best-before-period"></a>**Période de consommation recommandée**
 
 Période pendant laquelle obtenir une quantité ou une caractéristique optimale d'un produit.
 
@@ -109,23 +112,23 @@ Action visant à placer un document ou un produit en attente.
 
 Pratique consistant à autoriser des dépenses uniquement lorsque des fonds budgétaires peuvent être réservés pour honorer des engagements de paiement futurs.
 
-###### <a name="budget-control-dimension"></a>**budget control dimension**
+###### <a name="budget-control-dimension"></a>**Dimension de contrôle budgétaire**
 
 Combinaison de valeurs de dimensions financières actives permettant de répartir les fonds budgétaires afin de payer les activités planifiées.
 
-###### <a name="budget-control-rule"></a>**budget control rule**
+###### <a name="budget-control-rule"></a>**Règle de contrôle budgétaire**
 
 Codage d'une décision économique pour vérifier les dépenses engagées et réelles par rapport aux fonds budgétaires disponibles alloués pour les activités détaillées ou globales définies par des combinaisons de valeurs de dimensions de contrôle budgétaire valides.
 
-###### <a name="budget-cycle-time-span"></a>**budget cycle time span**
+###### <a name="budget-cycle-time-span"></a>**Période de cycle budgétaire**
 
 Période exprimée en nombre de périodes du calendrier fiscal. La période du budget peut être différente de la période comptable.
 
-###### <a name="budget-group"></a>**budget group**
+###### <a name="budget-group"></a>**Groupe budgétaire**
 
 Ensemble de valeurs de dimensions financières dans une hiérarchie de dimensions budgétaires qui permet de calculer les fonds budgétaires globaux alloués aux valeurs de dimensions financières supérieures en ajoutant les fonds budgétaires alloués aux valeurs de dimensions financières subordonnées.
 
-###### <a name="budget-model"></a>**budget model**
+###### <a name="budget-model"></a>**Modèle de budget**
 
 Structure de planification qui permet de programmer les répartitions de fonds budgétaires et les dépenses.
 
@@ -147,7 +150,7 @@ Section semi-autonome créée pour répondre aux objectifs commerciaux stratégi
 
 Quantité maximale de travail prévu qu'un poste de charge peut exécuter à un niveau de capacité requis.
 
-###### <a name="capacity-planning"></a>**capacity planning**
+###### <a name="capacity-planning"></a>**Planification de la capacité**
 
 Procédure qui permet de déterminer les besoins en capacité de ressources répondant à la demande de sortie future au cours de périodes spécifiques.
 
@@ -191,11 +194,11 @@ Article produit simultanément avec un autre article.
 
 Section dans lesquelles les gestionnaires sont responsables des dépenses budgétées et réelles.
 
-###### <a name="cost-of-goods-sold"></a>**cost of goods sold**
+###### <a name="cost-of-goods-sold"></a>**Coût des marchandises vendues**
 
 Catégorie comptable qui permet de faire la somme des conséquences financières de la fabrication des produits et du stockage.
 
-###### <a name="cost-variance"></a>**cost variance**
+###### <a name="cost-variance"></a>**Écart de coût**
 
 Différence entre les coûts attendu et réel.
 
@@ -249,7 +252,7 @@ Véhicule utilisé pour le déploiement sur les environnements de test d'accepta
 
 Outil de Visual Studio pour vous avez utilisé pour créer, mettre à jour et inspecter vos éléments de modèle.
 
-###### <a name="financial-dimensionsdimension-based-configuration"></a>**.\\ dimensions financières configuration basée sur **
+###### <a name="financial-dimensionsdimension-based-configuration"></a>**..\Configuration de dimension financière\basée sur les dimensions**
 
 Technologie de configuration qui permet de créer des variantes de produits en sélectionnant des valeurs pour les dimensions de produit.
 
@@ -261,7 +264,7 @@ Produit identifiable de manière unique.
 
 Mise en attente de processus opérationnels pendant que des articles commandés font l'objet d'un processus d'assurance qualité.
 
-###### <a name="document-management-system"></a>**document management system**
+###### <a name="document-management-system"></a>**Système de gestion des documents**
 
 Service d'application pour le stockage et le traitement des documents d'une organisation.
 
@@ -293,7 +296,7 @@ Personnalisation d'une application en ajoutant une fonctionnalité au code exist
 
 Classifieur de données financières créé à partir de parties, d'emplacements, de produits et d'activités dans une organisation et utilisé à des fins de génération d'états de gestion.
 
-###### <a name="financial-dimension-value"></a>**financial dimension value**
+###### <a name="financial-dimension-value"></a>**Valeur de dimension financière**
 
 Élément de données dans le domaine d'une dimension financière.
 
@@ -353,7 +356,7 @@ Pratique consistant à rapprocher les prix et les quantités de produits des fac
 
 Regroupement de familles de produits à des fins de prévision et de planification de la demande.
 
-###### <a name="item-relation"></a>**item relation**
+###### <a name="item-relation"></a>**Relation d'article**
 
 Référence à un groupe de répartition d'article ou à l'article et aux dimensions de produit associées dans une règle de kanban.
 
@@ -375,7 +378,7 @@ Activité de traitement ou de transfert dans un flux de production déclenché p
 
 Prélèvement des composants de produit dans le stock afin d'achever les tâches de production de kanban.
 
-###### <a name="kanban-product-quantity"></a>**kanban product quantity**
+###### <a name="kanban-product-quantity"></a>**Quantité de produits du kanban**
 
 Nombre de demandes d'articles effectuées sur un kanban sur la base d'une règle de kanban.
 
@@ -499,9 +502,9 @@ Partie d'un produit.
 
 ###### <a name="product-dimension"></a>**dimension de produit**
 
-Taille, la Couleur, ou les attributs de produit de configuration pour lesquels est utilisé.\\ dimensions financières configuration basée sur.
+Attributs de produit (taille, couleur ou configuration) utilisés dans le cadre de la configuration de dimension financière\basée sur les dimensions.
 
-###### <a name="product-family"></a>**product family**
+###### <a name="product-family"></a>**famille de produits**
 
 Regroupement unique d'articles, de services ou de droits qui participent aux mêmes activités de production ou de livraison ou qui sont offerts dans les mêmes segments de marché. Dans Microsoft Dynamics 365 for Operations, le regroupement est représenté à l'aide d'une clé de répartition par prévision.
 
@@ -509,23 +512,23 @@ Regroupement unique d'articles, de services ou de droits qui participent aux mê
 
 Représentation standard ou fonctionnelle d'un produit qui sert de base à la configuration des variantes de produits.
 
-###### <a name="product-receipt"></a>**product receipt**
+###### <a name="product-receipt"></a>**Accusé de réception de marchandises**
 
 Document source qui documente la réception de produits commandés, retournés ou reçus au moment de leur consignation.
 
-###### <a name="product-variant"></a>**product variant**
+###### <a name="product-variant"></a>**Variante de produit**
 
 Configuration d'un produit générique.
 
-###### <a name="production-flow"></a>**production flow**
+###### <a name="production-flow"></a>**Flux de production**
 
 Processus de production conçu à l'aide des principes Au plus juste.
 
-###### <a name="production-flow-model"></a>**production flow model**
+###### <a name="production-flow-model"></a>**Modèle de flux de production**
 
 Représentation de la capacité de production offerte par un groupe de cellules de travail d'un processus de flux de production.
 
-###### <a name="production-order"></a>**production order**
+###### <a name="production-order"></a>**Ordre de fabrication**
 
 Document source qui documente les besoins en production d'articles afin d'honorer une demande.
 
@@ -599,7 +602,7 @@ Produit dont la distribution est limitée ou contrainte par une instance gouvern
 
 Document source qui documente un accord entre plusieurs parties qui spécifie que la partie vendeuse s'engage à vendre une quantité ou valeur spécifique d'un produit pendant une période donnée en échange de prix ou de remises avantageux.
 
-###### <a name="sales-agreement-policy"></a>**sales agreement policy**
+###### <a name="sales-agreement-policy"></a>**Stratégie des contrats de vente**
 
 Stratégie qui autorise les parties à modifier les termes du contrat de vente.
 
@@ -615,7 +618,7 @@ Document source qui documente une offre d'approvisionnement d'une quantité d'un
 
 Ensemble défini de privilèges d'accès aux applications. Le rôle de sécurité affecté à un utilisateur détermine les tâches que celui-ci peut effectuer et les parties de l'interface utilisateur qu'il peut afficher. Pour que les utilisateurs puissent accéder au système, au moins un rôle de sécurité doit leur être affecté.
 
-###### <a name="segregation-of-duties"></a>**segregation of duties**
+###### <a name="segregation-of-duties"></a>**Répartition des tâches**
 
 Principe de conception qui permet de réduire le risque de fraude, d'irrégularités et d'erreurs et qui répartit les tâches d'enregistrement, de vérification, d'autorisation, de conservation des immobilisations et de révision périodique des personnes qui documentent et enregistrent les conséquences financières des transactions économiques et y participent.
 
@@ -697,7 +700,7 @@ Section qui contrôle un ou plusieurs flux de production.
 
 Méthode de modélisation des produits génériques et de recherche des configurations des variantes de produits.
 
-###### <a name="vat-value-added-tax"></a>** TVA (taxe sur la valeur ajoutée) **
+###### <a name="vat-value-added-tax"></a>**TVA (taxe sur la valeur ajoutée)**
 
 Taxe prélevée sur les produits à chaque étape de fabrication en fonction de la valeur ajoutée lors de ces étapes.
 
@@ -705,7 +708,7 @@ Taxe prélevée sur les produits à chaque étape de fabrication en fonction de 
 
 Liste des offres de produits qu'un fournisseur a la possibilité d'acheter.
 
-###### <a name="vendor-invoice"></a>**vendor invoice**
+###### <a name="vendor-invoice"></a>**Facture fournisseur**
 
 Document source qui documente une demande de paiement fournisseur. Une facture fournisseur peut faire référence à une ou plusieurs commandes fournisseur. Lorsque la facture fournisseur est autorisée, le fournisseur reçoit un paiement.
 
@@ -722,5 +725,7 @@ Personne qui occupe un rôle d'employé ou de fournisseur, rémunérée en écha
 ###### <a name="workspace"></a>**espace de travail**
 
 Page qui fournit une vue d'ensemble de l'une des activités effectuées par l'utilisateur. La page utilise des vignettes, des listes, et des graphiques pour afficher le travail en attente et les données associées de plusieurs sources, et la page couvre les tâches fréquentes associées à ces données. Des vignettes affichées dans la section récapitulative de l'espace de travail sont également affichées dans la section connexe dans le tableau de bord.
+
+
 
 

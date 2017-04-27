@@ -28,7 +28,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="benefit-eligibility-policies"></a>Stratégies de droit aux avantages
 
-Cette rubrique fournit des informations sur les stratégies de droit aux avantages, qui permettent de définir qui peut prétendre à des avantages spécifiques.
+[!include[banner](includes/banner.md)]
+
+
+Cette rubrique fournit des informations sur les stratégies de droit aux avantages, qui vous permettent de définir qui peut prétendre à des avantages spécifiques.
 
 Lorsque vous créez des avantages, vous décidez quels avantages sont accessibles pour des employés donnés. Le tableau suivant indique les exemples des avantages que vous pouvez rendre disponibles à des employés spécifiques.
 
@@ -38,7 +41,7 @@ Lorsque vous créez des avantages, vous décidez quels avantages sont accessible
 | Téléphone portable     | Vendeurs, cadres         |
 | Cartes de parking   | Cadres                      |
 
-Les composants suivants dans l'sont utilisées pour créer des stratégies d'admissibilité :
+Les composants suivants permettent de créer des stratégies d'éligibilité :
 
 -   Types de règles de stratégie
 -   Stratégies de droit aux avantages
@@ -51,5 +54,7 @@ Vous définissez la portée de la règle dans la stratégie. Par exemple, si vou
 --------
 
 [Définition et gestion d'un programme social](manage-benefit-program.md)
+
+
 
 

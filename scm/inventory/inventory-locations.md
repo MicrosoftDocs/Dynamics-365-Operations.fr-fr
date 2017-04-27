@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="inventory-locations"></a>Emplacement de stockage
 
+[!include[banner](../includes/banner.md)]
+
+
 Les emplacements de stockage sont utilisés avec l'entreposage de base (WMS I) pour déterminer où les articles sont enregistrés et où les articles sont prélevés dans un entrepôt WMS I.
 
 Cette rubrique s'applique aux fonctionnalités du module Gestion des stocks. Elle ne s'applique pas aux fonctionnalités du module Gestion des entrepôts.
@@ -64,6 +67,8 @@ Il est possible de copier des emplacements d'un entrepôt à un autre et de cré
 <a name="see-also"></a>Voir également :
 --------
 
-[Créer une mise en page d'entrepôt (Guide de tâche)](https://ax.help.dynamics.com/en/wiki/create-a-new-warehouse-layout/)
+[Créer une structure d'entrepôt (guide de tâche)](https://ax.help.dynamics.com/en/wiki/create-a-new-warehouse-layout/)
+
+
 
 

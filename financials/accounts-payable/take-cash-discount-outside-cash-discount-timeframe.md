@@ -1,5 +1,5 @@
 ---
-title: "Prise escompte de règlement en dehors de la période d&quot;escompte de règlement"
+title: "Prélever un escompte de règlement en dehors de la période d&quot;escompte de règlement"
 description: "Cet article fournit deux scénarios qui indiquent comment un escompte de règlement peut être pris même si le paiement est effectué en dehors de la période d&quot;escompte de règlement."
 author: twheeloc
 manager: AnnBe
@@ -26,16 +26,19 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Prise escompte de règlement en dehors de la période d'escompte de règlement
+# <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Prélever un escompte de règlement en dehors de la période d'escompte de règlement
+
+[!include[banner](../includes/banner.md)]
+
 
 Cet article fournit deux scénarios qui indiquent comment un escompte de règlement peut être pris même si le paiement est effectué en dehors de la période d'escompte de règlement.
 
-Le 28 juin, elle le crée une facture de 2.000,00 pour le fournisseur 3052. La facture a un escompte de règlement de 1 % % si la facture est payée dans les 14 jours.
+Le 28 juin, April crée une facture de 2 000,00 pour le fournisseur 3052. La facture comporte un escompte de règlement de 1 % si la facture est payée sous 14 jours.
 
 ## <a name="use-cash-discount-option--always"></a>Utiliser un escompte de règlement : Toujours
 April crée un paiement de 500,00 le 1er juillet, à savoir après la date de remise. April ouvre la page **Régler les transactions** pour afficher les transactions qui peuvent être réglées. 
 
-April marque la facture pour paiement. Aucune escompte de règlement n'est appliqué, car le paiement a lieu après la date de remise. Toutefois, le fournisseur a donné l'approbation d'avril pour prendre l'escompte de règlement de toute façon. Par conséquent, avril modifie la valeur dans ** escompte de règlement d'utilisation ** le champ ** toujours **.
+April marque la facture pour paiement. Aucune escompte de règlement n'est appliqué, car le paiement a lieu après la date de remise. Toutefois, le fournisseur a permis à April de prélever l'escompte de règlement dans tous les cas. Par conséquent, April modifie la valeur dans le champ **Utiliser un escompte de règlement** en **Toujours**.
 
 | Marquer     | Utiliser un escompte de règlement | N° document   | Compte | Date d'escompte de règlement | Date d'échéance  | Facture | Montant dans la devise de transaction | Devise | Montant à régler |
 |----------|-------------------|-----------|---------|--------------------|-----------|---------|--------------------------------|----------|------------------|
@@ -85,6 +88,8 @@ Les informations de remise s'affichent au bas de la page **Régler les transacti
 | Utiliser un escompte de règlement            | Standard    |
 | Escompte de règlement appliqué          | 0,00      |
 | Montant de l'escompte de règlement à accepter | -5,05.     |
+
+
 
 
 

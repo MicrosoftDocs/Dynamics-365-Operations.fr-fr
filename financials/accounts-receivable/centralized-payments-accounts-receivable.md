@@ -28,11 +28,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="centralized-payments-for-accounts-receivable"></a>Paiements centralisés pour la comptabilité client
 
+[!include[banner](../includes/banner.md)]
+
+
 Les organisations qui comprennent plusieurs entités juridiques peuvent créer et gérer des paiements à l'aide d'une entité juridique unique qui assure la gestion de tous les paiements. Par conséquent, la même transaction ne doit pas être entrée dans plusieurs entités juridiques. Cet article fournit des exemples décrivant la manière dont la validation des paiements centralisés est gérée dans divers scénarios.
 
 Les organisations qui comprennent plusieurs entités juridiques peuvent créer et gérer des paiements à l'aide d'une entité juridique qui assure la gestion de tous les paiements. Par conséquent, la même transaction ne doit pas être entrée dans plusieurs entités juridiques. En outre, l'organisation gagne ainsi du temps, car les processus pour les propositions de paiement, les règlements et la modification des transactions en cours et clôturées pour les paiements centralisés sont rationalisés. 
 
-Dans une organisation de paiements centralisés, il existe de nombreuses entités juridiques pour les opérations, et chaque entité juridique d'exploitation gère ses propres informations de factures fournisseur. Les paiements pour toutes les entités juridiques d'opération sont reçus par une entité juridique unique, qui est appelée entité juridique du paiement. Au cours du processus de règlement, les transactions vostro et nostro applicables sont générées. Vous pouvez spécifier l'entité juridique de l'organisation qui reçoit les transactions de profit réalisé ou de perte réalisée et la façon dont les transactions d'escompte de règlement associées à un paiement centralisé sont gérées. 
+Dans une organisation de paiements centralisés, il existe de nombreuses entités juridiques pour les opérations, et chaque entité juridique d'exploitation gère ses propres informations de factures fournisseur. Les paiements pour toutes les entités juridiques d'exploitation sont reçus par une entité juridique unique, qui est appelée entité juridique du paiement. Au cours du processus de règlement, les transactions vostro et nostro applicables sont générées. Vous pouvez spécifier l'entité juridique de l'organisation qui reçoit les transactions de profit réalisé ou de perte réalisée et la façon dont les transactions d'escompte de règlement associées à un paiement centralisé sont gérées. 
 
 Les exemples suivants montrent comment la validation est gérée dans différents scénarios. La configuration suivante est supposée pour tous ces exemples :
 
@@ -66,14 +69,14 @@ Fabrikam reçoit un paiement de 600,00 pour le compte client Fabrikam n° 4000,
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Le paiement Fabrikam est réglé avec la facture Fabrikam East
 
-**Fabrikam posting**
+**Validation Fabrikam**
 
 | Compte                         | Montant de débit | Montant de crédit |
 |---------------------------------|--------------|---------------|
 | Ventes (Fabrikam)  | 600,00       |               |
 | Dû à Fabrikam East (Fabrikam) |              | 600,00        |
 
-**Fabrikam East posting**
+**Validation Fabrikam East**
 
 | Compte                             | Montant de débit | Montant de crédit |
 |-------------------------------------|--------------|---------------|
@@ -81,7 +84,7 @@ Fabrikam reçoit un paiement de 600,00 pour le compte client Fabrikam n° 4000,
 | Ventes (Fabrikam East) |              | 600,00        |
 
 ## <a name="example-2-customer-payment-of-invoice-from-another-legal-entity-with-cash-discount"></a>Exemple 2 : paiement client d'une facture d'une autre entité juridique avec escompte de règlement
-Fabrikam reçoit un paiement de 580,00 pour le client Fabrikam n° 4000, Northwind Traders. Fabrikam East a une facture en cours pour le client 4000. Un escompte de règlement de 20,00 est disponible sur la facture. Le paiement est réglé avec les factures de Fabrikam East en cours. L'escompte de règlement est validé auprès de l'entité juridique de la facture, Fabrikam East.
+Fabrikam reçoit un paiement de 580,00 pour le client Fabrikam n° 4000, Northwind Traders. Fabrikam East a une facture en cours pour le client 4000. Un escompte de règlement de 20,00 est disponible sur la facture. Le paiement est réglé avec les factures de Fabrikam East en cours. L'escompte de règlement est validé auprès de l'entité juridique de la facture, Fabrikam East.
 
 ### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-customer-4000"></a>La facture est validée chez Fabrikam East pour le client Fabrikam East 4000
 
@@ -99,14 +102,14 @@ Fabrikam reçoit un paiement de 580,00 pour le client Fabrikam n° 4000, Northwi
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Le paiement Fabrikam est réglé avec la facture Fabrikam East
 
-**Fabrikam posting**
+**Validation Fabrikam**
 
 | Compte                         | Montant de débit | Montant de crédit |
 |---------------------------------|--------------|---------------|
 | Ventes (Fabrikam)  | 580,00       |               |
 | Dû à Fabrikam East (Fabrikam) |              | 580,00        |
 
-**Fabrikam East posting**
+**Validation Fabrikam East**
 
 | Compte                             | Montant de débit | Montant de crédit |
 |-------------------------------------|--------------|---------------|
@@ -137,7 +140,7 @@ Fabrikam reçoit un paiement de 600,00 euros (EUR) pour le client Fabrikam n° 4
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Le paiement Fabrikam est réglé avec la facture Fabrikam East
 
-**Fabrikam posting**
+**Validation Fabrikam**
 
 | Compte                         | Montant de débit            | Montant de crédit           |
 |---------------------------------|-------------------------|-------------------------|
@@ -146,7 +149,7 @@ Fabrikam reçoit un paiement de 600,00 euros (EUR) pour le client Fabrikam n° 4
 | Dû à Fabrikam East (Fabrikam) | 0,00 EUR / 12,90 USD    |                         |
 | Bénéfice réalisé (Fabrikam)        |                         | 0,00 EUR / 12,90 USD    |
 
-**Fabrikam East posting**
+**Validation Fabrikam East**
 
 | Compte                             | Montant de débit            | Montant de crédit           |
 |-------------------------------------|-------------------------|-------------------------|
@@ -178,7 +181,7 @@ Fabrikam valide un paiement pour le client Fabrikam n° 4000, Northwind Traders,
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Le paiement Fabrikam est réglé avec la facture Fabrikam East
 
-**Fabrikam posting**
+**Validation Fabrikam**
 
 | Compte                         | Montant de débit            | Montant de crédit           |
 |---------------------------------|-------------------------|-------------------------|
@@ -187,7 +190,7 @@ Fabrikam valide un paiement pour le client Fabrikam n° 4000, Northwind Traders,
 | Dû à Fabrikam East (Fabrikam) | 0,00 EUR / 13,46 USD    |                         |
 | Bénéfice réalisé (Fabrikam)        |                         | 0,00 EUR / 13,46 USD    |
 
-**Fabrikam East posting**
+**Validation Fabrikam East**
 
 | Compte                             | Montant de débit            | Montant de crédit           |
 |-------------------------------------|-------------------------|-------------------------|
@@ -199,7 +202,7 @@ Fabrikam valide un paiement pour le client Fabrikam n° 4000, Northwind Traders,
 | Ventes (Fabrikam East) |                         | 12,00 EUR / 14,47 USD   |
 
 ## <a name="example-5-customer-credit-note-with-primary-payment"></a>Exemple 5 : avoir client avec paiement principal
-Fabrikam reçoit un paiement de 75,00 de la part du client Fabrikam n° 4000, Northwind Traders. Le paiement est réglé avec une facture en cours pour le client n° 10000 de Fabrikam West et avec un avoir en cours pour le client n° 4000 de Fabrikam East. Le paiement est sélectionné comme le paiement principal sur ** des transactions de règlement ** la page.
+Fabrikam reçoit un paiement de 75,00 de la part du client Fabrikam n° 4000, Northwind Traders. Le paiement est réglé avec une facture en cours pour le client n° 10000 de Fabrikam West et avec un avoir en cours pour le client n° 4000 de Fabrikam East. Le paiement est sélectionné comme paiement principal dans la page **Régler les transactions**.
 
 ### <a name="invoice-is-posted-to-fabrikam-west-for-customer-10000"></a>La facture est validée auprès de Fabrikam West pour le client n° 10000
 
@@ -224,7 +227,7 @@ Fabrikam reçoit un paiement de 75,00 de la part du client Fabrikam n° 4000, N
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Le paiement Fabrikam est réglé avec une facture Fabrikam West et un avoir Fabrikam East
 
-**Fabrikam posting**
+**Validation Fabrikam**
 
 | Compte                           | Montant de débit | Montant de crédit |
 |-----------------------------------|--------------|---------------|
@@ -233,14 +236,14 @@ Fabrikam reçoit un paiement de 75,00 de la part du client Fabrikam n° 4000, N
 | Ventes (Fabrikam)    | 100,00       |               |
 | Dû à Fabrikam West (Fabrikam)   |              | 100,00        |
 
-**Fabrikam East posting**
+**Validation Fabrikam East**
 
 | Compte                             | Montant de débit | Montant de crédit |
 |-------------------------------------|--------------|---------------|
 | Ventes (Fabrikam East) | 25,00        |               |
 | Dû à Fabrikam (Fabrikam East)     |              | 25,00         |
 
-**Fabrikam West posting**
+**Validation Fabrikam West**
 
 | Compte                             | Montant de débit | Montant de crédit |
 |-------------------------------------|--------------|---------------|
@@ -248,7 +251,7 @@ Fabrikam reçoit un paiement de 75,00 de la part du client Fabrikam n° 4000, N
 | Ventes (Fabrikam West) |              | 100,00        |
 
 ## <a name="example-6-customer-credit-note-without-primary-payment"></a>Exemple 6 : avoir client sans paiement principal
-Fabrikam reçoit un paiement de 75,00 de la part du client Fabrikam n° 4000, Northwind Traders. Le paiement est réglé avec une facture en cours pour le client n° 10000 de Fabrikam West et avec un avoir en cours pour le client n° 4000 de Fabrikam East. Le paiement n'est pas sélectionnée comme le paiement principal dans ** des transactions de règlement ** la page.
+Fabrikam reçoit un paiement de 75,00 de la part du client Fabrikam n° 4000, Northwind Traders. Le paiement est réglé avec une facture en cours pour le client n° 10000 de Fabrikam West et avec un avoir en cours pour le client n° 4000 de Fabrikam East. Le paiement n'est pas sélectionné comme paiement principal dans la page **Régler les transactions**.
 
 ### <a name="invoice-is-posted-to-fabrikam-west-for-customer-10000"></a>La facture est validée auprès de Fabrikam West pour le client n° 10000
 
@@ -273,21 +276,21 @@ Fabrikam reçoit un paiement de 75,00 de la part du client Fabrikam n° 4000, N
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Le paiement Fabrikam est réglé avec une facture Fabrikam West et un avoir Fabrikam East
 
-**Fabrikam posting**
+**Validation Fabrikam**
 
 | Compte                         | Montant de débit | Montant de crédit |
 |---------------------------------|--------------|---------------|
 | Ventes (Fabrikam)  | 75,00        |               |
 | Dû à Fabrikam West (Fabrikam) |              | 75,00         |
 
-**Fabrikam East posting**
+**Validation Fabrikam East**
 
 | Compte                              | Montant de débit | Montant de crédit |
 |--------------------------------------|--------------|---------------|
 | Ventes (Fabrikam East)  | 25,00        |               |
 | Dû à Fabrikam West (Fabrikam East) |              | 25,00         |
 
-**Fabrikam West posting**
+**Validation Fabrikam West**
 
 | Compte                                | Montant de débit | Montant de crédit |
 |----------------------------------------|--------------|---------------|
@@ -295,6 +298,8 @@ Fabrikam reçoit un paiement de 75,00 de la part du client Fabrikam n° 4000, N
 | Ventes (Fabrikam West)    |              | 75,00         |
 | Dû par Fabrikam East (Fabrikam West) | 25,00        |               |
 | Ventes (Fabrikam West)    |              | 25,00         |
+
+
 
 
 

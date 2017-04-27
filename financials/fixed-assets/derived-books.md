@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="derived-books"></a>Registres dérivés
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article fournit une vue d'ensemble de la fonctionnalité de registre déduit.
 
-L'objectif des registres déduits consiste à simplifier la validation des transactions du registre des immobilisations prévue à intervalles réguliers.  Vous choisissez un registre comme principal registre. Il s'agit généralement du registre qui utilisé pour l'amortissement comptable. Vous l'associez ensuite à d'autres registre qui sont paramétrés pour valider des transactions dans les mêmes intervalles que le registre principal. Les registres d'amortissement des taxes sont souvent paramétrés comme des registres déduits. 
+L'objectif des registres déduits consiste à simplifier la validation des transactions de registre des immobilisations prévue à intervalles réguliers.  Vous choisissez un registre comme registre principal. Il s'agit généralement du registre qui utilisé pour l'amortissement comptable. Vous l'associez ensuite à d'autres registre qui sont paramétrés pour valider des transactions dans les mêmes intervalles que le registre principal. Les registres d'amortissement des taxes sont souvent paramétrés comme des registres déduits. 
 
 Les transactions les plus courantes à paramétrer pour validation dans des registres déduits sont les acquisitions, les ajustements d'acquisition et les cessions. 
 
@@ -42,6 +45,8 @@ Lors de sa validation, une transaction d'acquisition est générée et validée 
 > [!NOTE]                                                                                                                               
 > Les registre paramétrés pour valider les transactions à des intervalles autres que ceux du registre principal doivent être associés aux immobilisations en tant que registres distincts et non comme registres déduits.  
 
-Pour plus d'informations, voir [validation avec registres dérivés] (post-derived-value-models.md).
+Pour plus d'informations, voir [Validation avec des registres déduits](post-derived-value-models.md).
+
+
 
 

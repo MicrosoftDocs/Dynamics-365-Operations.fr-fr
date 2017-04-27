@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="straight-line-life-remaining-depreciation"></a>Amortissement linéaire sur la durée de vie restante
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article propose une vue d'ensemble de la méthode d'amortissement linéaire sur la durée de vie restante.
 
 Lorsque vous définissez un profil d'amortissement de l'immobilisation et sélectionnez **Durée de vie linéaire restante** dans le champ **Méthode** sur la page **Profils d'amortissement**, l'amortissement des immobilisations affectées au profil d'amortissement est basé sur la durée de vie restante de l'immobilisation. Le montant d'amortissement est généralement identique dans chaque période d'amortissement. Pour paramétrer l'amortissement linéaire restant, vous devez également sélectionner les options dans les champs  **Année d'amortissement** et **Fréquence** sur la page **Profils d'amortissement**. Les options disponibles dans le champ **Fréquence** varient en fonction de la valeur sélectionnée dans le champ **Année d'amortissement**.
@@ -36,7 +39,7 @@ Vous pouvez sélectionner soit **Calendrier** soit **Exercice** dans le champ **
 
 ### <a name="calendar"></a>Calendrier
 
-Si vous sélectionnez ** calendrier ** dans le champ de *** d'année d'amortissement de ***, l'exercice supposé s'étend sur la période du 1er janvier au 31 décembre, même si vous avez défini le calendrier fiscal différemment. L'option **Calendrier** met à jour la base d'amortissement le 1er janvier de chaque année. Généralement, la base d'amortissement est la valeur nette moins la valeur résiduelle. Dans l'exemple plus loin dans cette rubrique, la base d'amortissement est le numérateur de la première expression de la colonne Calcul. Si vous sélectionnez **Calendrier** comme année d'amortissement, les options suivantes sont disponibles dans le champ **Fréquence** :
+Si vous sélectionnez **Calendrier** dans le champ ***Année d'amortissement***, l'exercice supposé s'étend sur la période du 1er janvier au 31 décembre, même si vous avez défini le calendrier fiscal différemment. L'option **Calendrier** met à jour la base d'amortissement le 1er janvier de chaque année. Généralement, la base d'amortissement est la valeur nette moins la valeur résiduelle. Dans l'exemple plus loin dans cette rubrique, la base d'amortissement est le numérateur de la première expression de la colonne Calcul. Si vous sélectionnez **Calendrier** comme année d'amortissement, les options suivantes sont disponibles dans le champ **Fréquence** :
 
 -   **Annuel** valide un montant le 31 décembre.
 -   **Mensuel** valide un montant mensuel à la fin de chaque mois du calendrier.
@@ -48,7 +51,7 @@ Par exemple, si vous sélectionnez **Annuel**, l'amortissement annuel n'est vali
 
 ### <a name="fiscal"></a>Exercice
 
-Si vous sélectionnez **Fiscal** dans le champ **Année d'amortissement**, l'amortissement restant linéaire est utilisé. L'amortissement est calculé sur la base des exercices restants. Par exemple, pour l'exercice allant le 1er juillet 2015, jusqu'au 30 juin 2016, le calcul de l'amortissement commence le le 1er juillet. L'exercice peut avoir une longueur supérieure ou inférieure à 12 mois. L'amortissement est ajusté en fonction de chaque période fiscale. La longueur de l'exercice suivant découle de la définition des périodes fiscales sur la page **Calendriers fiscaux**. Si vous sélectionnez **Exercice** comme année d'amortissement, les options suivantes sont disponibles dans le champ **Fréquence** :
+Si vous sélectionnez **Fiscal** dans le champ **Année d'amortissement**, l'amortissement restant linéaire est utilisé. L'amortissement est calculé sur la base des exercices restants. Par exemple, pour l'exercice allant du 1er juillet 2015 au 30 juin 2016 , le calcul de l'amortissement commence le 1er juillet. L'exercice peut avoir une longueur supérieure ou inférieure à 12 mois. L'amortissement est ajusté en fonction de chaque période fiscale. La longueur de l'exercice suivant découle de la définition des périodes fiscales sur la page **Calendriers fiscaux**. Si vous sélectionnez **Exercice** comme année d'amortissement, les options suivantes sont disponibles dans le champ **Fréquence** :
 
 -   **Annuel** valide le montant total de l'amortissement calculé pour l'exercice comme montant unique, le dernier jour de l'exercice.
 -   **Période fiscale **calcule le montant total de l'amortissement pour l'exercice. Ce montant est ensuite à recevoir dans les périodes fiscales définies sur la page **Calendriers fiscaux** pour le calendrier fiscal spécifié pour le registre.
@@ -73,6 +76,8 @@ Le montant d'amortissement est le même chaque année : (Coût d'acquisition –
 | Année 3 | (7 000 – 1 000) ÷ 3 = 2 000                   | 5 000                                 |
 | Année 4 | (5 000 – 1 000) ÷ 2 = 2 000                   | 3 000                                 |
 | Année 5 | (3 000 – 1 000) ÷ 1 = 2 000                   | 1 000                                 |
+
+
 
 
 

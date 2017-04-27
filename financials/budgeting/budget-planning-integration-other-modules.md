@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="budget-planning-integration-with-other-modules"></a>Intégration de la planification budgétaire avec d'autres modules
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 <a name="periodic-processes-for-generating-budget-plans"></a>Processus périodiques pour générer des plans budgétaires
@@ -49,13 +52,13 @@ Les éléments de base du processus périodique sont identiques pour tous les pr
 
 Pour chaque processus de génération, trois actions sont disponibles :
 
--   ** Créer un nouveau plan budgétaire ** crée un nouveau plan possédant les attributs sélectionnés dans ** cible ** section. Ces attributs ne sont pas nécessairement uniques. Par conséquent, deux plans peuvent avoir le même nom et d'autres valeurs.
+-   **Créer un nouveau plan budgétaire** crée un nouveau plan ayant les attributs sélectionnés dans la section **Cible**. Ces attributs ne sont pas nécessairement uniques. Par conséquent, deux plans peuvent avoir le même nom et d'autres valeurs.
 -   **Remplacer le scénario de plan budgétaire existant** supprime toutes les données dans le plan budgétaire cible du scénario de plan budgétaire sélectionné et crée de nouvelles lignes qui utilisent les données sources sélectionnées.
 -   **Mettre à jour le scénario de plan budgétaire existant et ajouter de nouvelles données** met à jour les lignes existantes du plan cible qui correspondent aux lignes de source et ajoute de nouvelles lignes pour les nouvelles données. La correspondance est basée sur le compte général, la date, la classe de budget, et d'autres champs divers. Par exemple, lorsque vous générez des plans budgétaires à partir de postes prévisionnels, le numéro de position est un champ important. Les lignes qui ont un numéro de position correspondant au numéro de position de la source sont remplacées par les nouvelles lignes de la source.
 
 ### <a name="source"></a>Source
 
-Pour tous les processus, ** source ** l'onglet permet de filtrer les données à l'aide ** filtre ** de le bouton. Par défaut, les champs spécifiques sont ajoutés au filtre pour chaque processus. Par exemple, pour le processus **Générer un plan budgétaire à partir de la comptabilité**, les catégories **Compte général** et **Compte principal** sont disponibles et apparaissent dans la page de génération. Tous les champs que vous ajoutez au filtre sont également ajoutés à la page, avec les critères que vous ajoutez.
+Pour tous les processus, l'onglet **Source** permet de filtrer les données à l'aide du bouton **Filtrer**. Par défaut, des champs spécifiques sont ajoutés au filtre pour chaque processus. Par exemple, pour le processus **Générer un plan budgétaire à partir de la comptabilité**, les catégories **Compte général** et **Compte principal** sont disponibles et apparaissent dans la page de génération. Tous les champs que vous ajoutez au filtre sont également ajoutés à la page, avec les critères que vous ajoutez.
 
 ### <a name="target"></a>Cible
 
@@ -63,7 +66,7 @@ L'option **Historique** de l'onglet **Cible** permet d'utiliser les dates des do
 
 Le champ **Total regroupement par** en haut de la page détermine également la date utilisée. Ce champ calcule le total des montants et fixe éventuellement la date d'effet au premier jour de l'exercice ou de la période fiscale. 
 
-Plusieurs champs sous l'onglet **Cible** deviennent modifiables ou en lecture seule, selon l'action que vous sélectionnez. Lorsque vous passez de la création d'un plan budgétaire à la mise à jour d'un plan existant, le champ **Nom du plan budgétaire** n'est plus disponible, et les champs associés à la sélection d'un plan existant deviennent disponibles. Dans les deux ** cible ** l'onglet et ** source ** l'onglet, ** comptabilité ** le champ n'est jamais disponible, car la valeur est déterminée par le processus de planification budgétaire sélectionné. 
+Plusieurs champs sous l'onglet **Cible** deviennent modifiables ou en lecture seule, selon l'action que vous sélectionnez. Lorsque vous passez de la création d'un plan budgétaire à la mise à jour d'un plan existant, le champ **Nom du plan budgétaire** n'est plus disponible, et les champs associés à la sélection d'un plan existant deviennent disponibles. Sous les deux onglets **Cible** et **Source**, le champ **Comptabilité** n'est jamais disponible, car la valeur est déterminée par le processus de planification budgétaire sélectionné. 
 
 Le champ **Classe de budget** permet de définir les lignes du plan budgétaire en tant que transactions de dépense ou transactions de produit. Généralement, les transactions de produit sont des crédits dans un compte général et sont donc enregistrées comme montants négatifs. Généralement, ces transactions apparaissent également comme des montants négatifs dans le plan budgétaire. Toutefois, en ajoutant la classe budget comme champ dans la structure du plan, vous pouvez autoriser le produit à afficher des montants positifs.
 
@@ -73,7 +76,7 @@ Trois champs fournissent des fonctionnalités supplémentaires : **Facteur**, **
 
 La valeur du champ **Facteur** est multipliée par le montant source pour définir le montant du plan budgétaire. Vous pouvez ensuite procéder à des ajustements lorsque vous créez des lignes de plan budgétaire. Par exemple, vous pouvez entrer **1.03** pour une augmentation de 3 %. Le facteur doit être un nombre positif. 
 
-Le champ **Minimum** permet de définir le montant du seuil pour créer une ligne de plan budgétaire. Si le montant source est inférieur à ce nombre, la ligne de plan budgétaire n'est pas créée. Une valeur d'** 0,00 ** permet de tous les montants mais n'affiche pas les lignes de limite aux montants positifs. (Aucune lignes de limites de valeur aux montants positifs. Les montants négatifs sont toujours inclus et représentent généralement des entrées de crédit.)
+Le champ **Minimum** permet de définir le montant du seuil pour créer une ligne de plan budgétaire. Si le montant source est inférieur à ce nombre, la ligne de plan budgétaire n'est pas créée. La valeur **0.00** permet tous les montants mais ne limite pas les lignes à des montants positifs. (Aucune valeur ne limite les lignes à des montants positifs. Les montants négatifs sont toujours inclus et représentent généralement des entrées de crédit.)
 
 Le champ **Règle d'arrondi** permet de définir la précision des lignes de plan budgétaire créées. Vous pouvez arrondir les montants au 1.00 le plus proche, 10.00, 100.00, etc., de devise.
 
@@ -86,13 +89,13 @@ Dans la cible, le champ **Classe de budget** est défini sur **Dépense** ou **P
 
 ### <a name="generate-budget-plan-from-fixed-assets"></a>Générer un plan budgétaire à partir des immobilisations
 
-Le processus **Générer un plan budgétaire à partir des immobilisations**n'a aucune option pour regrouper par période ou jour. Il n'existe aussi aucune option pour définir le plan comme historique. Vous pouvez utiliser ce processus périodique pour inclure des transactions prévues pour les immobilisations dans votre planification budgétaire.
+Le processus **Générer un plan budgétaire à partir des immobilisations**n'a aucune option pour regrouper par période ou jour. Il n'existe également aucune option pour définir le plan comme historique. Vous pouvez utiliser ce processus périodique pour inclure des transactions prévues pour les immobilisations dans votre planification budgétaire.
 
 ### <a name="generate-budget-plan-from-forecast-positions"></a>Générer un plan budgétaire à partir des postes de prévision
 
 Le processus **Générer un plan budgétaire à partir des postes de prévision** affecte le poste de prévision source à la ligne de plan budgétaire. Vous pouvez afficher le poste en ajoutant le poste de prévision comme une ligne dans la structure du plan budgétaire ou à l'aide de la fonction recherche de **Lignes de plan budgétaire**. Si vous ne souhaitez pas que le poste de prévision soit affecté aux lignes de plan budgétaire, définissez l'option **Inclure le poste dans la ligne de plan budgétaire**sur **Non**.
 
-Les lignes dans le plan budgétaire sont regroupées par compte général et le poste. Toutefois, vous pouvez exclure la position, de sorte que des lignes ne soient liées par compte général uniquement. Sous l'onglet **Cible**, définissez l'option **Inclure le poste dans la ligne de plan budgétaire** sur **Non**.
+Les lignes du plan budgétaire sont regroupées par compte général et poste. Toutefois, vous pouvez exclure le numéro de poste, afin que les lignes soient regroupées par compte général uniquement. Sous l'onglet **Cible**, définissez l'option **Inclure le poste dans la ligne de plan budgétaire** sur **Non**.
 
 Dans le champ **Scénario ETP de plan budgétaire**, vous pouvez sélectionner un scénario pour inclure le nombre d'équivalents à temps plein (ETP) dans le plan budgétaire. Ce champ est limité à des scénarios de type quantitatifs inclus dans la structure du plan budgétaire cible. Si vous sélectionnez un scénario ETP, vous devez également sélectionner un compte principal ETP. Ce compte est utilisé pour créer des lignes de plan budgétaire de quantité. 
 
@@ -140,5 +143,7 @@ Sélectionnez une ligne, puis cliquez sur le bouton **Lignes de plan budgétaire
 Utilisez les boutons **Prévision d'approvisionnement** et **Prévision de la demande** pour exécuter ces requêtes. Dans les deux cas, la requête recherche des lignes de prévision qui peuvent avoir créé les lignes du plan budgétaire. 
 
 Les états supplémentaires disponibles sont notamment l'état **Postes de prévision par plan budgétaire**. Cet état est particulièrement utile si vous souhaitez déterminer si un poste a été correctement affecté aux plans budgétaires.
+
+
 
 

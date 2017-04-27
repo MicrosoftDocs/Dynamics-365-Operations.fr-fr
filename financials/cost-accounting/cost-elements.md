@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="cost-element-dimensions"></a>Dimensions d'éléments de coût
 
+[!include[banner](../includes/banner.md)]
+
+
 En tant que l'un des piliers de base du contrôle de gestion, les dimensions d'éléments de coût sont utilisées pour catégoriser et suivre le flux des coûts. 
 
 Un élément de coût correspond à un article dont le coût est pertinent dans le plan de comptes. Fondamentalement, il peut s'agir de n'importe quel type d'élément au niveau le plus bas d'une société vers lequel les coûts peuvent se diriger. Les éléments de coûts comme plage de concept des comptes généraux à toutes les ressources dont le coût est pertinent. Actuellement, le contrôle de gestion prend en charge les comptes généraux.
@@ -64,12 +67,14 @@ Il existe deux types d'éléments de coût : les éléments de coût principaux 
 ## <a name="cost-element-dimensions-and-cost-element-dimension-members"></a>Dimensions d'éléments de coût et membres de la dimension d'élément de coût
 Les éléments de coût sont appelés des *dimensions d'éléments de coût*. Les valeurs de dimension individuelle sont appelées *membres de la dimension d'élément de coût*. Par exemple, vous disposez d'une structure de plan de comptes américain qui est la base de la génération d'états statutaires. Cette structure de plan de comptes est utilisée comme dimension d'élément de coût. Les comptes, qui sont des éléments de coût principaux, sont représentées comme les membres de la dimension d'élément de coût dans le contrôle de gestion. La capture d'écran suivante illustre un exemple de comptes principaux comme dimension d'élément de coût avec ses comptes principaux réels comme membres de la dimension d'élément de coût. 
 
-[coût dimensions![] (. /media/cost-element-dimensions.png)](. /media/cost-element-dimensions.png)
+[![cost-element-dimensions](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
 
 ## <a name="import-cost-element-dimension-members-through-data-connectors"></a>Importer les membres de la dimension d'élément de coût à l'aide de connecteurs de données
 Pour faciliter le paramétrage des membres de la dimension d'élément de coût dans le contrôle de gestion, vous pouvez utiliser des connecteurs de données qui sont préconçus ou personnalisés pour récupérer les éléments de coût principaux d'un ou plusieurs systèmes sources.
 
 ## <a name="implementation-considerations"></a>Considérations d'implémentation
 Puisque les éléments de coûts représentent le niveau le plus bas des détails de coût, vous devez vous assurer que tous les éléments de coût requis pour la génération d'états de gestionnaire sont inclus lorsque vous implémentez la structure d'éléments de coût. Cela peut être un défi de rechercher un numéro d'éléments de coût approprié pour le contrôle des coûts. Avoir des milliers d'éléments de coût peut rendre difficile le contrôle de chaque élément de coût. À la place, vous pouvez regrouper des éléments de coût et gérer le contrôle des coûts à un niveau agrégé.
+
+
 
 

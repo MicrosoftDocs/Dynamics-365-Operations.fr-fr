@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reimburse-customers"></a>Rembourser les clients
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article explique la création des transactions de remboursement pour un groupe de clients. Si un client a un solde créditeur, vous pouvez le rembourser pour le montant du solde. 
 
 Le tableau suivant indique la configuration requise qui doit être en place avant de commencer.
@@ -47,6 +50,8 @@ Lorsque vous créez des transactions de remboursement, une facture fournisseur e
     Les montants de crédit sont transférés vers les comptes fournisseur des clients et sont traités comme des paiements ordinaires. Si un client n'a pas de compte fournisseur, un compte fournisseur occasionnel est créé automatiquement pour le client.
 3.  Pour afficher les transactions de remboursement créées, utilisez la page **Remboursement**.
 4.  Dans Comptabilité fournisseur, créez un paiement pour les factures fournisseur créées par le processus de remboursement.
+
+
 
 
 

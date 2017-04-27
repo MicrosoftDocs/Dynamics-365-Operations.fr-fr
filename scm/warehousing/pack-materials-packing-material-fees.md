@@ -1,5 +1,5 @@
 ---
-title: "Matières d&quot;emballage et frais"
+title: "Matières et taxes d&quot;emballage"
 description: "Des taxes sur les matières d&quot;emballage sont payées à intervalles réguliers à une entreprise de recyclage. Un montant par unité de poids est payé pour chaque matière composant une unité d&quot;emballage. Les taxes sur les matières d&quot;emballage sont calculées et déclarées, mais aucune écriture comptable n&quot;est validée car ces frais ne sont pas considérés comme devant être payés à une administration."
 author: YuyuScheller
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="packing-materials-and-fees"></a>Matières d'emballage et frais
+# <a name="packing-materials-and-fees"></a>Matières et taxes d'emballage
+
+[!include[banner](../includes/banner.md)]
+
 
 Des taxes sur les matières d'emballage sont payées à intervalles réguliers à une entreprise de recyclage. Un montant par unité de poids est payé pour chaque matière composant une unité d'emballage. Les taxes sur les matières d'emballage sont calculées et déclarées, mais aucune écriture comptable n'est validée car ces frais ne sont pas considérés comme devant être payés à une administration.
 
@@ -52,7 +55,7 @@ Lorsque vous créez une ligne de commande client, le système vérifie si des un
 ## <a name="packing-units-on-purchase-order-lines"></a>Unités d'emballage sur les lignes de commande fournisseur
 Les transactions de matières d'emballage d'une ligne de commande fournisseur ne sont pas créées par le système. Vous créez des transactions pour les lignes de commande fournisseur facturées manuellement sur la page **Transactions de matières d'emballage**.
 
-## <a name="set-up-customer-packagingmaterialfee-license-numbers"></a>Numéros de licence de packagingmaterialfee de client de paramétrage
+## <a name="set-up-customer-packagingmaterialfee-license-numbers"></a>Paramétrage des numéros de licence des frais sur les matières d'emballage des clients
 Si les clients paient les taxes sur les matières d'emballage, spécifiez les numéros de licence des taxes sur les matières d'emballage des clients sur la page **Clients**. Quand un numéro de licence a été affecté à un client, les frais sur les matières d'emballage sont calculés automatiquement lors de la facturation des commandes client. Après la facturation, la case **Calculer les frais** est décochée sur la page **Transactions de matières d'emballage** parce que vous n'avez pas besoin de calculer ni d'imprimer un état. Vous pouvez choisir d'imprimer les poids des matières d'emballage sur la facture et d'informer les clients qu'ils paient les taxes. 
 
 Si votre société paie les frais sur les matières d'emballage, ne spécifiez pas les numéros de licence client. Après la facturation, la case **Calculer les frais** est cochée sur la page **Transactions de matières d'emballage**. Cela indique que les frais sont calculés lors de la création d'un état. Vous pouvez imprimer les poids sur la facture, et indiquer que votre société paie les frais.
@@ -60,6 +63,8 @@ Si votre société paie les frais sur les matières d'emballage, ne spécifiez p
 ## <a name="print-packaging-material-weights-on-invoices"></a>Impression du poids des matières d'emballage sur les factures
 Vous pouvez imprimer les poids des matières d'emballage sur la facture, et indiquer qui les paie. Les poids sont cumulés par codes matière d'emballage.
  
+
+
 
 
 

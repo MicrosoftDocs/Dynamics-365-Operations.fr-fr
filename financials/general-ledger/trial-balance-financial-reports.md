@@ -1,6 +1,6 @@
 ---
 title: "États financiers de balance comptable"
-description: "Cet article décrit les états par défaut pour les balances comptables. Elle décrit également les blocs élémentaires associés à ces états et comment vous pouvez modifier les états de se conformer à vos exigences métier."
+description: "Cet article décrit les états par défaut des balances comptables. Il décrit également les blocs élémentaires associés à ces états et comment il est possible de modifier ces états pour les adapter à vos exigences métier."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="trial-balance-financial-reports"></a>États financiers de balance comptable
 
-Cet article décrit les états par défaut pour les balances comptables. Elle décrit également les blocs élémentaires associés à ces états et comment vous pouvez modifier les états de se conformer à vos exigences métier. 
+[!include[banner](../includes/banner.md)]
+
+
+Cet article décrit les états par défaut des balances comptables. Il décrit également les blocs élémentaires associés à ces états et comment il est possible de modifier ces états pour les adapter à vos exigences métier. 
 
 <a name="default-trial-balance-reports"></a>États de la balance comptable par défaut
 -----------------------------
@@ -51,7 +54,7 @@ Les états financiers de balance comptable utilisent les éléments constitutifs
 
 ### <a name="row-definition"></a>Définition de ligne
 
-La définition de ligne, balance comptable – Transférez, qu'une seule ligne qui inscrit tous les comptes principaux. Par conséquent, n'importe qui peut générer le rapport sans avoir à apporter de modifications. Lorsque vous affichez l'état, vous explorez la ligne unique pour afficher les détails de chaque compte. Vous pouvez modifier la définition de ligne afin qu'elle comprenne plus de détails. Pour modifier la définition de ligne Balance comptable - Par défaut afin qu'elle inclue les lignes pour tous les comptes, procédez comme suit.
+La définition de ligne, balance comptable – Par défaut, contient une seule ligne qui rassemble tous les comptes principaux. Par conséquent, n'importe qui peut générer le rapport sans avoir à apporter de modifications. Lorsque vous affichez l'état, vous explorez la ligne unique pour afficher les détails de chaque compte. Vous pouvez modifier la définition de ligne afin qu'elle comprenne plus de détails. Pour modifier la définition de ligne Balance comptable - Par défaut afin qu'elle inclue les lignes pour tous les comptes, procédez comme suit.
 
 1.  Cliquez sur **Modifier**, puis sur **Insérer des lignes à partir des dimensions**. La commande **Insérer des lignes à partir des dimensions** permet de sélectionner les dimensions que vous voulez avoir dans votre définition de ligne. Pour cette définition de ligne, vous allez utiliser **Compte principal**.
 2.  Vérifiez que **Compte principal** contient toutes les esperluettes (&) et cliquez sur **OK**.
@@ -100,10 +103,12 @@ Chaque état de balance comptable utilise une définition de colonne différente
 <a name="see-also"></a>Voir également :
 --------
 
-[Financial reporting](financial-reporting-getting-started.md)
+[États financiers](financial-reporting-getting-started.md)
 
-[View financial reports](view-financial-reports.md)
+[Afficher les états financiers](view-financial-reports.md)
 
-[Blog d'états financiers de Dynamics (http://blogs.msdn.com/b/dynamics_financial_reporting/)]
+[États financiers Dynamics (blog)](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

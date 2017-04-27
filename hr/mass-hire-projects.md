@@ -46,7 +46,7 @@ Sur la page **Projets d'embauche collective**, sélectionnez le projet « Summer
 
 Une fois que vous avez trouvé les stagiaires à embaucher pour les postes, vous entrez les informations de chaque étudiant dans les **Détails du poste** correspondant. Lorsque vous avez entré tous les détails du poste, sélectionnez le poste sur la page Projets d'embauche collective, puis cliquez sur **Embaucher**. Un enregistrement de poste sera créé pour chaque poste et un enregistrement de travailleur sera créé et affecté au poste adéquat pour chaque personne embauchée.
 
-## <a name="masshire-project-statuses"></a>États du projet de Masshire
+## <a name="masshire-project-statuses"></a>Statuts du projet d'embauche collective
 Un projet d'embauche collective peut avoir les statuts suivants :
 -   Créé
 -   Ouverte

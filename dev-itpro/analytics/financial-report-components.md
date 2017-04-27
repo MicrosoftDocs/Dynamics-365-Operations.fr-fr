@@ -101,8 +101,8 @@ Vous pouvez enregistrer un groupe de blocs élémentaires existant sous un nouve
 
 ### <a name="export-a-building-block-group"></a> Exportation d'un groupe de blocs élémentaires
 
-Vous pouvez exporter un groupe de blocs élémentaires ou des blocs élémentaires de rapport spécifiques dans un groupe de blocs élémentaires. Vous pouvez utiliser le groupe de blocs élémentaires exporté comme sauvegarde. Vous pouvez également copier les données exportées entre les groupes de blocs élémentaires ou le Dynamics 365 pour les installations d'opérations. Le concepteur d'état inclut les styles et les ensembles de dimensions de police référencés avec le groupe de blocs élémentaires.
-1.  Dans le Concepteur de rapports, sur le menu **Société**, cliquez sur **Groupes de blocs élémentaires**.
+Vous pouvez exporter un groupe de blocs élémentaires ou des blocs élémentaires d'état spécifiques dans un groupe de blocs élémentaires. Vous pouvez utiliser le groupe de blocs élémentaires exporté en tant que sauvegarde. Vous pouvez également copier les données exportées entre des groupes de blocs élémentaires ou des installations Dynamics 365 for Operations. Le concepteur d'états inclut les styles de police et ensembles de dimensions référencés avec le groupe de blocs élémentaires.
+1.  Dans le Concepteur d'états, sur le menu **Société**, cliquez sur **Groupes de blocs élémentaires**.
 2.  Dans la boîte de dialogue **Groupes de blocs élémentaires**, sélectionnez le groupe de blocs élémentaires à exporter, puis cliquez sur **Exporter**.
 3.  Dans la boîte de dialogue **Exporter**, sélectionnez les définitions de rapport à exporter :
     -   Pour exporter toutes vos définitions de rapport et les blocs élémentaires associés, cliquez sur **Sélectionner tout**.

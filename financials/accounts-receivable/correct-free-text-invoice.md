@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="correct-a-free-text-invoice"></a>Correction d'une facture financière
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article explique comment corriger une facture financière validée et en émettre une nouvelle comme facture corrigée.
 
-Pour corriger une facture financière qui a déjà été validée, ouvrez la facture financière validée. Sous ** facture ** la page, sélectionnez ** annuler **, puis sélectionnez ** corriger une facture **. Sélectionnez un code motif, ajoutez des commentaires, puis sélectionnez la date de la nouvelle facture corrigée. Vous pouvez modifier la facture corrigée, puis la valider. 
+Pour corriger une facture financière qui a déjà été validée, ouvrez la facture financière validée. Sur la page **Facture**, sélectionnez **Annuler**, puis **Corriger la facture**. Sélectionnez un code motif, ajoutez des commentaires, puis sélectionnez la date de la nouvelle facture corrigée. Vous pouvez modifier la facture corrigée, puis la valider. 
 
 Lorsque vous validez la facture corrigée, une facture d'annulation est créée pour un montant de crédit qui est égal au montant de la facture d'origine. Par conséquent, le solde combiné de la factures d'origine et de la facture d'annulation est 0 (zéro). La facture d'annulation est réglée par rapport à la facture d'origine. 
 
@@ -43,9 +46,11 @@ Après avoir validé la facture corrigée, vous avez trois factures :
 Vous pouvez identifier les factures d'annulation et les factures corrigées de deux manières :
 
 -   La page **Toutes les factures financières** inclut une colonne **Correction**, dans laquelle vous pouvez voir quelles factures sont des factures d'annulations et des factures corrigées.
--   L'en-tête indique de facture financière le statut ** annuler la facture « numéro de facture\]\[ » ** ou ** facture corrigée « numéro de facture\]\[ » **.
+-   L'en-tête de la facture financière affiche le statut **Facture d'annulation '\[numéro de facture\]'** ou **Facture corrigée '\[numéro de facture\]'**.
 
 > [!NOTE]
-> Cette fonction n'est disponible que si ** correction de la facture financière ** la clé de configuration est sélectionnée.
+> Cette fonctionnalité est uniquement disponible si la clé de configuration **Correction de la facture financière** est sélectionnée.
+
+
 
 

@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="200-percent-reducing-balance-depreciation"></a>Amortissements dégressifs de 200 %
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article propose une vue d'ensemble de la méthode d'amortissement dégressif de 200 %.
 
 Si vous définissez un profil d'amortissement d'immobilisation, puis sélectionnez **Amortissement dégressif de 200 %** dans le champ **Méthode** de la page **Profils d'amortissement**, les immobilisations qui sont affectées à ce profil d'amortissement sont amorties par le même pourcentage pour chaque période d'amortissement. Le pourcentage est calculé sur la base de la durée de vie de l'immobilisation. Par exemple, si une immobilisation a une durée de vie de cinq ans, la valeur de pourcentage calculée est de 40 pourcent (200 % ÷ 5). 
@@ -58,7 +61,7 @@ Si vous sélectionnez **Calendrier** comme année d'amortissement, les options s
 
 Si vous sélectionnez **Exercice** dans le champ **Année d'amortissement**, l'amortissement dégressif de 200 % est calculé sur la base de l'exercice du calendrier fiscal spécifié pour le registre, ou pour le calendrier fiscal sélectionné sur la page **Comptabilité**. Les calendriers fiscaux sont paramétrés sur la page **Calendriers fiscaux**. 
 
-Par exemple, pour l'exercice allant du 1er juillet au 30 juin, le calcul de l'amortissement commence le le 1er juillet. L'exercice peut avoir une longueur supérieure ou inférieure à 12 mois. L'amortissement est ajusté en fonction de chaque période. La longueur de l'exercice suivant découle de la définition des périodes fiscales sur la page **Calendriers fiscaux**. 
+Par exemple, pour l'exercice allant du 1er juillet au 30 juin, le calcul de l'amortissement commence le 1er juillet. L'exercice peut avoir une longueur supérieure ou inférieure à 12 mois. L'amortissement est ajusté en fonction de chaque période. La longueur de l'exercice suivant découle de la définition des périodes fiscales sur la page **Calendriers fiscaux**. 
 
 Si vous sélectionnez **Fiscal** comme année d'amortissement, les options suivantes sont disponibles dans le champ **Fréquence** :
 
@@ -83,6 +86,8 @@ La méthode d'amortissement dégressif de 200 % divise 200 % par le nombre d'ann
 | Année 3 | 3 600 × 40 % = 1 440                           | 4 600 - 1 440 = 3 160  | 3 600 - 1 440 = 2 160                 |
 
 > [!NOTE] 
-> Généralement, lorsque le montant calculé à l'aide de la méthode d'amortissement dégressif de 200% devient inférieur au montant qui aurait calculé à l'aide de la méthode linéaire, une conversion en méthode linéaire pour la durée de vie restante.
+> Généralement, si le montant calculé via la méthode d'amortissement dégressif de 200 % est inférieur au montant calculé via la méthode linéaire, passer à la méthode linéaire pour la durée de vie restante reste possible.
+
+
 
 

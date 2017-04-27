@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-requisition-overview"></a>Présentation des demandes d'achat
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article décrit le workflow de demande d'achat et les différents statuts qu'une demande d'achat peut avoir.
 
 En fonction du paramétrage de votre organisation, vous pouvez créer des demandes d'achat pour les produits utilisés par votre organisation. Une demande d'achat est un document interne qui autorise le département Achats à acheter des articles ou des services.  
@@ -48,7 +51,7 @@ Vous pouvez configurer un processus de workflow de demande d'achat pour achemine
 
 Le diagramme suivant illustre les statuts affectés aux demandes d'achat et aux lignes associées à mesure de l'avancement du processus de workflow.  
 
-[![Purchase requisition header and line statuses](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
+[![Statut de l'en-tête et des lignes de la demande d'achat](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
 
 ### <a name="purchase-requisition-header-and-line-status-relationships"></a>Relation entre les statuts de l'en-tête et des lignes d'une demande d'achat
 
@@ -77,7 +80,7 @@ Le statut global de la demande d'achat est déterminé par le statut des lignes 
 <td>Si le workflow a été configuré pour acheminer les lignes de demande d'achat vers chaque réviseur, chaque ligne peut être associée au statut <strong>En cours de révision</strong> ou <strong>Rejeté(e)</strong>. Le statut de la demande d'achat est mis à jour lorsque les lignes de demande d'achat ont terminé le processus de révision et que toutes les étapes de la demande d'achat ont été accomplies.
 <ul>
 <li><strong>En cours de révision</strong> – Les lignes de demande d'achat ont été soumises pour révision. Lorsqu'une ligne de demande d'achat termine le processus de workflow, elle conserve le statut <strong>En cours de révision</strong> jusqu'à ce que toutes les lignes de la demande d'achat soient révisées.</li>
-<li><strong>Rejeté/e</strong> – Une ligne de demande d'achat a été rejetée. Les lignes de demande d'achat qui sont rejetées peuvent être modifiées et renvoyé.</li>
+<li><strong>Rejeté</strong> – Une ligne de demande d'achat a été rejetée. Les lignes de demande d'achat qui sont rejetées peuvent être modifiées et resoumises.</li>
 </ul>
 Si vous resoumettez une ligne de demande d'achat rejetée, le processus de révision pour toutes les lignes de la demande d'achat en cours de révision reprend depuis le début. <strong>Remarque :</strong> Vous pouvez rappeler une demande d'achat déjà soumise. Lorsque vous rappelez une demande d'achat, toutes les lignes associées peuvent également être rappelées. Vous pouvez supprimer les lignes de demande d'achat rappelées.</td>
 </tr>
@@ -124,7 +127,7 @@ Si vous resoumettez une ligne de demande d'achat rejetée, le processus de révi
 </ul></li>
 <li><strong>Annulé</strong> – La ligne de demande d'achat a été approuvée, mais elle a été annulée car elle n'est plus nécessaire. Seules les lignes de demande d'achat approuvées peuvent être annulées.</li>
 </ul>
-<strong>Remarque :</strong> Si vous n'avez plus besoin d'un article figurant sur une ligne de demande d'achat clôturée, vous devez annuler la ligne de demande d'achat si elle a été approuvée.</td>
+<strong>Remarque :</strong> Si vous n'avez plus besoin d'un article figurant sur une ligne de demande d'achat clôturée, vous devez annuler la ligne de demande d'achat si elle a été approuvée.</td>
 </tr>
 </tbody>
 </table>
@@ -133,7 +136,7 @@ Si vous resoumettez une ligne de demande d'achat rejetée, le processus de révi
 Vous pouvez répartir le coût d'un produit d'une demande d'achat entre plusieurs comptes financiers. Si votre organisation utilise des dimensions, telles que les centres de coût et les départements, vous pouvez répartir le coût d'un produit entre les dimensions des comptes financiers.
 
 ## <a name="requisition-purposes"></a>Objectifs de la demande d'achat
-Un objectif de demande permet plus de flexibilité dans la façon dont la demande de bon de commande peut être honorée. Lorsque vous créez une demande, vous pouvez lui affecter l'un des deux objectifs suivants : consommation ou réapprovisionnement. Selon l'objectif de la demande et le paramétrage de votre organisation, la demande de demande peut être honorée par une commande fournisseur, un ordre de transfert, un ordre de fabrication, ou un kanban.  
+Un objectif de demande permet plus de flexibilité dans la façon dont la demande de bon de commande peut être honorée. Lorsque vous créez une demande, vous pouvez lui affecter l'un des deux objectifs suivants : consommation ou réapprovisionnement. Selon l'objectif de la demande et comment votre organisation est constituée, la demande de bon de commande peut être satisfaite par une commande fournisseur, un ordre de transfert, un ordre de fabrication, ou un kanban.  
 
 Dans les stratégies d'approvisionnement, vous pouvez contrôler les objectifs des demandes disponibles lorsqu'une demande est créée pour votre organisation.
 
@@ -152,7 +155,7 @@ Pour utiliser les demandes d'achat avec un objectif de réapprovisionnement, vou
 ## <a name="purchase-requisitions-and-requests-for-quotation"></a>Demandes d'achat et demandes de devis
 Dans certains cas, vous devez lancer un processus de demande de devis afin d'identifier le fournisseur et le prix des produits demandés dans une demande d'achat. Une demande de devis peut être générée lorsque la demande d'achat est en cours de révision. Lorsque vous acceptez une offre, les informations relatives au fournisseur, au prix, etc., sont transférées à la demande.  
 
-Vous pouvez mettre une demande d'achat en attente en sélectionnant ** en attente ** la case à cocher sous ** les détails de demande d'achat ** la page. Traitement de la demande d'achat est possible uniquement lorsque vous supprimez le blocage en désactivant la case à cocher.  
+Vous pouvez mettre à jour une demande d'achat en attente en cochant la case **En attente** sur la page **Détails de la demande d'achat**. Le traitement de la demande d'achat peut se poursuivre uniquement lorsque vous supprimez le blocage en désactivant la case à cocher.  
 
 **Remarque :** Dans Approvisionnement électronique, la demande de devis pour votre demande d'achat peut permettre aux fournisseurs d'ajouter d'autres lignes. Dans ce cas, votre demande d'achat indiquera les autres lignes approuvées.
 
@@ -178,7 +181,7 @@ Pour créer une commande fournisseur pour les lignes de demande d'achat qui ne p
 
 Le processus de consolidation de la demande démarre au moment où une demande d'achat est approuvée dans le workflow et où les réservations budgétaires et les engagements préalables ont été enregistrés, si le contrôle budgétaire est configuré pour votre organisation. Le diagramme suivant illustre le flux de processus pour la consolidation de la demande.  
 
-[processus![pour la consolidation de la demande (]. /media/demand-consolidation.gif)](. /media/demand-consolidation.gif)  
+[![Flux de processus de consolidation de la demande](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
 
 Pour consolider les lignes de demande d'achat approuvées, procédez comme suit :
 
@@ -192,8 +195,10 @@ Pour consolider les lignes de demande d'achat approuvées, procédez comme suit 
 <a name="see-also"></a>Voir également :
 --------
 
-[Création d'une demande pour la consommation (Guide de tâche)](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
+[Créer un bon de commande pour la consommation (Guide de tâche)](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
 
-[Purchase requisition workflow](purchase-requisitions-workflow.md)
+[Workflow de demande d'achat](purchase-requisitions-workflow.md)
+
+
 
 

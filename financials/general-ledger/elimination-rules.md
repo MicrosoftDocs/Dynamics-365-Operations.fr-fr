@@ -1,6 +1,6 @@
 ---
 title: "Règles d&quot;élimination"
-description: "Cette rubrique fournit des informations sur les règles d&quot;élimination et des différentes options pour générer un état sur les éliminations."
+description: "Cette rubrique fournit des informations sur les règles d&quot;élimination et les différentes options permettant de générer un état sur les éliminations."
 author: RobinARH
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="elimination-rules"></a>Règles d'élimination
 
-Cette rubrique fournit des informations sur les règles d'élimination et des différentes options pour générer un état sur les éliminations.
+[!include[banner](../includes/banner.md)]
 
-Les transactions d'élimination sont nécessaires lorsqu'une entité juridique parente fait des affaires avec une ou plusieurs entités juridiques filiales et utilise la génération d'états financiers consolidés. Les tableaux d'analyse consolidés doivent inclure uniquement les transactions qui surviennent entre l'organisation consolidée et tout autre entité extérieure. Par conséquent, vous devez supprimer, ou retirées des transactions entre les entités juridiques faisant partie de la même organisation, de la comptabilité, grâce à elles ne s'affichent pas sur les états financiers. Il existe plusieurs manières de générer un état sur les éliminations :
+
+Cette rubrique fournit des informations sur les règles d'élimination et les différentes options permettant de générer un état sur les éliminations.
+
+Les transactions d'élimination sont nécessaires lorsqu'une entité juridique parente fait des affaires avec une ou plusieurs entités juridiques filiales et utilise la génération d'états financiers consolidés. Les tableaux d'analyse consolidés doivent inclure uniquement les transactions qui surviennent entre l'organisation consolidée et tout autre entité extérieure. Par conséquent, les transactions entre les entités juridiques faisant partie d'une même organisation doivent être supprimées ou éliminées de la comptabilité, afin qu'elles ne figurent pas dans les états financiers. Il existe plusieurs manières de générer un état sur les éliminations :
 
 -   Une règle d'élimination peut être créée et traitée dans une société de consolidation ou d'élimination.
 -   La génération d'états financiers peut être utilisée pour afficher les comptes et les dimensions d'élimination sur une ligne ou une colonne spécifique.
@@ -129,27 +132,29 @@ Votre entité juridique (entité juridique A) vend des widgets à une autre enti
 Toutes ces transactions créent des transactions intersociétés validées sur des comptes vostro et nostro. De plus, ces transactions peuvent inclure des montants majorés et minorés lorsque le montant de la vente intersociétés est différent du coût des marchandises vendues.
 
 ## <a name="set-up-elimination-rules"></a>Configurer les règles d'élimination
-En paramétrant des règles d'élimination dans Dynamics 365 pour les opérations, nous vous recommandons de créer une dimension financière spécifiquement à des fins d'élimination. La plupart des noms de clients il partenaire commercial ou toute autre similaire. Si vous décidez de ne pas utiliser une dimension financière, alors assurez-vous d'avoir des comptes principaux qui sont spécifiques pour les transactions intersociétés uniquement. 
+Lors du paramétrage des règles d'élimination dans Dynamics 365 for Operations, il est recommandé de créer une dimension financière spécialement à des fins d'élimination. La plupart des clients la nomment « Partenaire commercial » ou un nom similaire. Si vous décidez de ne pas utiliser une dimension financière, assurez-vous d'avoir des comptes principaux qui sont spécifiques aux transactions intersociétés uniquement. 
 
-Le paramétrage pour les éliminations est indiqué dans la zone de paramétrage du module de consolidations. Après avoir entré une description de la règle, vous devez sélectionner la société dans laquelle le journal d'élimination seront validés. Il peut être une société qui ** utilisation pour le processus financier d'élimination ** sélectionnée dans le paramétrage de l'entité juridique. 
+Le paramétrage des éliminations est effectué dans la zone Paramétrage du module Consolidations. Après avoir entré une description pour la règle, vous devez sélectionner la société dans laquelle le journal d'élimination sera validé. Il doit s'agir d'une société pour laquelle l'option **Utiliser pour le processus d'élimination financière** est sélectionnée dans le paramétrage de l'entité juridique. 
 
-Vous pouvez définir une date à laquelle la règle d'élimination devient effective et lorsqu'elle est arrivée, si nécessaire. Vous devez définir ** Active ** ** Oui ** si vous le souhaitez pour être disponibles dans le processus de proposition d'élimination. Sélectionnez un nom de journal a dont un type ** élimination **.
+Vous pouvez définir la date d'effet et d'expiration de la règle d'élimination, si nécessaire. Vous devez définir **Actif** sur **Oui** si vous souhaitez qu'elle soit disponible dans le processus de proposition d'élimination. Sélectionnez un nom de journal dont le type est **Élimination**.
 
-Après avoir paramétré la base, vous pouvez définir les règles de traitement réelles en cliquant sur ** des lignes **. Deux options pour les éliminations, sans le montant net de modification ou paramétrant un montant fixe. 
+Après avoir défini les paramètres de base, vous pouvez définir les règles de traitement réelles en cliquant sur **Lignes**. Il existe deux options pour les éliminations : l'élimination du montant de modification net ou la définition d'un montant fixe. 
 
-Sélectionnez votre compte source. Vous pouvez utiliser un astérisque (\*) comme carte sauvage. Par exemple, 1\* sélectionnerait tous les comptes commençant par un 1 comme source de données pour la répartition. 
+Sélectionnez votre compte source. Vous pouvez utiliser un astérisque (\*) comme caractère générique. Par exemple, 1\* sélectionne tous les comptes qui commencent par 1 comme source de données pour la répartition. 
 
-Après avoir sélectionné les comptes source, ** spécification de compte ** détermine le compte à partir de la société de destination utilisée. Sélectionnez ** source ** si vous souhaitez utiliser le même compte principal défini dans ** source ** le compte. Si vous sélectionnez ** défini par l'utilisateur **, vous devez spécifier un compte de destination. 
+Après avoir sélectionné les comptes source, l'option **Spécification de compte** détermine le compte de la société de destination qui est utilisé. Sélectionnez **Source** si vous souhaitez utiliser le même compte principal défini dans le compte **Source**. Si vous sélectionnez **Défini par l'utilisateur**, vous devez spécifier un compte de destination. 
 
-Spécification de dimension agit de la même manière. Si vous sélectionnez ** source **, elle utilise les mêmes dimensions de la société de destination que la société source. Si vous sélectionnez ** défini par l'utilisateur **, vous devrez spécifier les dimensions à la société de destination en cliquant sur ** des dimensions de destination ** l'option de menu. 
+La spécification de dimension fonctionne de la même manière. Si vous sélectionnez **Source**, les mêmes dimensions de la société de destination sont utilisées pour la société source. Si vous sélectionnez **Défini par l'utilisateur**, vous devrez spécifier les dimensions de la société de destination en cliquant sur l'option de menu **Dimensions de destination**. 
 
-Sélectionnez les dimensions d'origine et les dimensions financières et les valeurs utilisées comme source de l'élimination.
+Sélectionnez les dimensions source et les dimensions financières et valeurs utilisées comme source de l'élimination.
 
 ## <a name="process-elimination-transactions"></a>Traiter les transactions d'élimination
-Il existe deux manières de traiter les transactions d'élimination, lors de le processus de consolidation en ligne ou en créant un journal et l'exécution d'élimination la proposition d'élimination traitent. Cette section orientée sur la création du journal et l'exécution du processus d'élimination. 
+Il existe deux manières de traiter les transactions d'élimination : pendant le processus de consolidation en ligne ou en créant un journal d'élimination et en exécutant le processus de proposition d'élimination. Cette section porte sur la création du journal et l'exécution du processus d'élimination. 
 
-Dans une société définie comme société d'élimination, sélectionnez ** journal d'élimination ** dans le module de consolidations. Après avoir sélectionné le nom du journal, cliquez sur ** des lignes **. Vous pouvez exécuter la proposition en sélectionnant ** des propositions ** le menu puis en sélectionnant ** proposition d'élimination **.
+Dans une société définie comme société d'élimination, sélectionnez **Journal d'élimination** dans le module Consolidations. Après avoir sélectionné le nom du journal, cliquez sur **Lignes**. Vous pouvez exécuter la proposition en sélectionnant le menu **Propositions**, puis **Proposition d'élimination**.
 
-Sélectionnez la société qui est la source de données consolidées, puis choisissez la règle que vous souhaitez traiter. Entrez une date de début pour démarrer la recherche des montants d'élimination, et de fin pour terminer la date de recherche des montants d'élimination. ** Date de validation de Comptabilité ** le champ est la date utilisée pour valider le journal dans la comptabilité. Après avoir cliqué sur ** effectué correctement **, vous pouvez consulter les montants et valider le journal.
+Sélectionnez la société qui est la source des données consolidées, puis choisissez la règle que vous souhaitez traiter. Entrez une date de début pour démarrer la recherche des montants d'élimination, et une date de fin pour terminer la recherche. Le champ **Date de validation dans la Comptabilité** est la date utilisée pour valider le journal dans la comptabilité. Après avoir cliqué sur **OK**, vous pouvez examiner les montants et valider le journal.
+
+
 
 

@@ -1,6 +1,6 @@
 ---
-title: "Contenu BI de courant d&quot;analyse de contrôle de gestion"
-description: "Cette rubrique décrit ce qui est inclus dans le contenu BI de courant d&quot;analyse de contrôle de gestion. Elle explique comment accéder aux états BI de courant, et fournit des informations sur le modèle de données et des entités utilisés pour établir le contenu."
+title: "Contenu Power BI d&quot;analyse du contrôle de gestion"
+description: "Cette rubrique décrit les données incluses dans le contenu Power BI d&quot;analyse du contrôle de gestion. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 2017-04-04
@@ -24,90 +24,90 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="cost-accounting-analysis-power-bi-content"></a>Contenu BI de courant d'analyse de contrôle de gestion
+# <a name="cost-accounting-analysis-power-bi-content"></a>Contenu Power BI d'analyse du contrôle de gestion
 
-Cette rubrique décrit ce qui est inclus dans le contenu BI de courant d'analyse de contrôle de gestion. Elle explique comment accéder aux états BI de courant, et fournit des informations sur le modèle de données et des entités utilisés pour établir le contenu.
+Cette rubrique décrit les données incluses dans le contenu Power BI d'analyse du contrôle de gestion. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
 
 <a name="overview"></a>Vue d'ensemble
 --------
 
-** Analyse de contrôle de gestion ** le contenu BI de courant de Microsoft est prévu pour les contrôleurs ou toute personne de coût chargé d'exécuter le contrôle des coûts d'une organisation. Il inclut les mesures principales, telles que le coût, l'étendue, et le taux de coût par coût réel, coûts budgétaires, et coûts budgétaires flexibles. Elle utilise des données de transaction de contrôle de gestion dans Microsoft Dynamics 365 pour les opérations et fournit une vue globale des coûts pour l'organisation dans la devise de déclaration. Les responsables peuvent filtrer les données par objet de coût pour exécuter le contrôle des coûts de leurs unités organisationnelles, même si l'organisation peut avoir plusieurs entités juridiques. Comme ** analyse de contrôle de gestion ** le contenu BI de courant met les écarts en surbrillance entre les coûts réels et les coûts budgétés, qui peut annoncer des responsables sur le positif ou négatif tend pour ses unités opérationnelles. Les responsables peuvent en boîte le zoom avant aux hiérarchies de l'élément de coût ou aux éléments individuels de coût permet d'obtenir une analyse détaillée dans la manière dont les écarts de coûts sont survenus, puis d'agir d'effet. ** Analyse de contrôle de gestion ** le contenu BI de courant permet d'évaluer les comptables analyse la manière dont le coût traverse les objets de l'organisation. Pour en savoir plus sur le contrôle de gestion, voir [page d'accueil de contrôle de gestion] (comptabilité de /dynamics365/operations/financials/cost/contrôle de gestion - home-page.md). En définissant la sécurité de niveau d'accès dans le contrôle de gestion et en combinant avec la sécurité au niveau de la ligne en BI de courant, vous pouvez octroyer tous les propriétaires d'objet de coût que l'accès au ** analyse de contrôle de gestion ** actionnent le contenu du projet BI. Toutes les données des visualisation ensuite sont filtrées selon le niveau d'accès qui est contrôlée dans le contrôle de gestion. Pour en savoir plus sur la sécurité de niveau d'accès et de la sécurité au niveau de la ligne, voir [paramétrer la sécurité du contenu de contrôle de gestion pour BI de courant] (setup-security-cost-accounting-content-pack.md).
+Le contenu Microsoft Power BI **Analyse du contrôle de gestion** est destiné aux contrôleurs de coûts ou à toute personne chargée de contrôler les coûts d'une organisation. Il inclut les mesures clés, telles que le coût, la magnitude et le taux de coût par coût réel, coût budgétaire et coût budgétaire flexible. Il utilise les données de transaction du contrôle de gestion dans Microsoft Dynamics 365 for Operations et fournit une vue globale des coûts pour l'ensemble de l'organisation dans une devise de déclaration. Les responsables peuvent filtrer les données par objet de coût pour contrôler les coûts de leurs unités d'organisation, même si l'organisation peut avoir plusieurs entités juridiques. Comme le contenu Power BI **Analyse du contrôle de gestion** présente les écarts entre les coûts réels et les coûts budgétés, les responsables peuvent être informés des tendances positives et négatives pour leurs unités opérationnelles. Les responsables peuvent accéder aux hiérarchies d'éléments de coût ou à des éléments de coût individuels pour obtenir des informations détaillées sur les écarts de coût et prendre les mesures nécessaires. Le contenu Power BI **Analyse du contrôle de gestion** permet aux contrôleurs de gestion d'analyser la manière dont le coût se répercute sur les objets de coût de l'ensemble de l'organisation. Pour en savoir plus sur le contrôle de gestion, voir [Page d'accueil du contrôle de gestion](/dynamics365/operations/financials/cost-accounting/cost-accounting-home-page.md). En définissant la sécurité au niveau de l'accès dans le module Contrôle de gestion et en la combinant à la sécurité au niveau de la ligne dans Power BI, vous pouvez autoriser l'accès au contenu Power BI **Analyse du contrôle de gestion** à tous les propriétaires d'objet de coût. Toutes les données des visualisations seront ensuite filtrées selon le niveau d'accès contrôlé dans le contrôle de gestion. Pour en savoir plus sur la sécurité au niveau de l'accès et la sécurité au niveau de la ligne, voir [Paramétrer la sécurité du contenu Contrôle de gestion pour Power BI](setup-security-cost-accounting-content-pack.md).
 
-## <a name="accessing-the-power-bi-content"></a>Navigation dans le contenu BI de courant
-Vous pouvez trouver que ** analyse de contrôle de gestion ** actionnez le contenu BI dans la bibliothèque partagé d'immobilisations dans Microsoft Dynamics Lifecycle Services (LCS). Pour plus d'informations sur le chargement le contenu et le connecter à votre Dynamics 365 pour les données d'opérations, voir [contenu BI expérimentés dans des lettres de crédit Microsoft et de vos partenaires] (power-bi-content-microsoft-partners.md). ** Remarque : ** KB4011327 ** ** est une condition préalable ** analyse de contrôle de gestion ** au contenu BI de courant.  Après avoir signer électroniquement dans aux Lifecycle Services, vous pouvez accéder à la Base de connaissances ici : <https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>.
+## <a name="accessing-the-power-bi-content"></a>Accès au contenu Power BI
+Vous trouverez le contenu Power BI **Analyse du contrôle de gestion** dans la bibliothèque Actifs partagés de Microsoft Dynamics Lifecycle Services (LCS). Pour savoir comment télécharger le contenu et le connecter à vos données Dynamics 365 for Operations, voir [Contenu Power BI dans LCS de Microsoft et de vos partenaires](power-bi-content-microsoft-partners.md). **Remarque :** KB4011327** ** est une condition préalable pour le contenu Power BI **Analyse du contrôle de gestion**.  Une fois que vous êtes connecté à Lifecycle Services, vous pouvez accéder à la Base de connaissances ici : <https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>.
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Mesures incluses dans le contenu BI de courant
-Le contenu comprend un ensemble de pages du rapport. Chaque page sont un ensemble de mesures qui sont visualisées comme graphiques, vignettes, et tables. Le tableau suivant fournit une vue d'ensemble une visualisation dans ** analyse de contrôle de gestion ** actionnent le contenu du projet BI.
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Mesures incluses dans le contenu Power BI
+Le contenu comprend un ensemble de pages d'état. Chaque page contient un ensemble de mesures visualisées sous forme de graphiques, de vignettes et de tables. Le tableau suivant donne une vue d'ensemble des visualisations dans le contenu Power BI **Analyse du contrôle de gestion**.
 
 | Page d'état                      | Graphique                                                                                                                         | Vignette                                          |
 |----------------------------------|-------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
-| Contrôle des coûts par exercice    | Coût réel et coûts budgétaires par niveau de la hiérarchie d'élément de coût                                                                   | Coût réel {{contre:vs}} le coût budgétaire                    |
-|                                  | Écart de budget par niveau de la hiérarchie d'élément de coût                                                                               | Taux de coût réel {{contre:vs}} le taux de coût budgétaire          |
-|                                  | Écart de budget principal 10 en pourcentage par l'élément de coût                                                                          | Ampleur réelle {{contre:vs}} l'étendue de budget          |
-| Contrôle des coûts par Année en cours     | Coût réel et coûts budgétaires par période d'année civile                                                                           | Coût réel {{contre:vs}} le coût budgétaire                    |
-|                                  | Écart de budget par période d'année civile                                                                                       | Taux de coût réel {{contre:vs}} le taux de coût budgétaire          |
-|                                  | Écart de budget principal 10 en pourcentage par l'élément de coût                                                                          | Ampleur réelle {{contre:vs}} l'étendue de budget          |
-| Taux de coût par l'exercice         | Taux de coût réel par le comportement de coût                                                                                             | Taux de coût réel {{contre:vs}} le taux de coût budgétaire          |
-|                                  | Le taux de coût réel, écart du taux de coût budgétaire, pourcentage du taux de coût budgétaire et coûts budgétaires par le taux niveau de la hiérarchie d'élément de coût | Ampleur réelle {{contre:vs}} l'étendue de budget          |
-|                                  | Écart de budget par niveau de la hiérarchie d'élément de coût                                                                               |                                               |
-|                                  | Écart de budget principal 10 en pourcentage par l'élément de coût                                                                          |                                               |
-| Budget flexible par exercice | Coût réel, coûts budgétaires et budget flexible de coûts par niveau de la hiérarchie d'élément de coût                                             | Ampleur réelle {{contre:vs}} l'étendue de budget          |
-|                                  | Écart de budget et écart de budget flexible par niveau de la hiérarchie d'élément de coût                                                  | Coût réel {{contre:vs}} le coût de budget flexible           |
-|                                  | Coût réel, coûts budgétaires et coût flexible par niveau de hiérarchie de comportement de coût et d'élément de coût                                  | Taux de coût réel {{contre:vs}} le taux de coût du budget flexible |
-| Relevé de coût par période fiscale  | Coût réel par nom membres de dimension de niveau de la hiérarchie d'élément de coût et d'objet de coût                                             |                                               |
-|                                  | Coût réel par nom membres de dimension de nom membres de dimension d'objet de coût et d'élément de coût                                       |                                               |
+| Contrôle des coûts par période fiscale    | Coût réel et coût budgétaire par niveau de hiérarchie d'éléments de coût                                                                   | Coût réel et coût budgétaire                    |
+|                                  | Écart budgétaire par niveau de hiérarchie d'éléments de coût                                                                               | Taux de coût réel et taux de coût budgétaire          |
+|                                  | 10 premiers écarts budgétaires en pourcentage par élément de coût                                                                          | Magnitude réelle et magnitude budgétaire          |
+| Contrôle des coûts par année en cours     | Coût réel et coût budgétaire par période d'année civile                                                                           | Coût réel et coût budgétaire                    |
+|                                  | Écart budgétaire par période d'année civile                                                                                       | Taux de coût réel et taux de coût budgétaire          |
+|                                  | 10 premiers écarts budgétaires en pourcentage par élément de coût                                                                          | Magnitude réelle et magnitude budgétaire          |
+| Taux de coût par exercice         | Taux de coût réel par comportement de coût                                                                                             | Taux de coût réel et taux de coût budgétaire          |
+|                                  | Taux de coût réel, écart de taux de coût budgétaire, pourcentage du taux de coût budgétaire et taux de coût budgétaire par niveau de hiérarchie d'éléments de coût | Magnitude réelle et magnitude budgétaire          |
+|                                  | Écart budgétaire par niveau de hiérarchie d'éléments de coût                                                                               |                                               |
+|                                  | 10 premiers écarts budgétaires en pourcentage par élément de coût                                                                          |                                               |
+| Budget flexible par exercice | Coût réel, coût budgétaire et coût budgétaire flexible par niveau de hiérarchie d'éléments de coût                                             | Magnitude réelle et magnitude budgétaire          |
+|                                  | Écart budgétaire et écart budgétaire flexible par niveau de hiérarchie d'éléments de coût                                                  | Coût réel et coût budgétaire flexible           |
+|                                  | Coût réel, coût budgétaire et coût flexible par comportement de coût et par niveau de hiérarchie d'éléments de coût                                  | Taux de coût réel et taux de coût budgétaire flexible |
+| Relevé des coûts par période fiscale  | Coût réel par niveau de hiérarchie d'éléments de coût et nom du membre de la dimension d'objet de coût                                             |                                               |
+|                                  | Coût réel par nom du membre de la dimension d'objet de coût et nom du membre de la dimension d'élément de coût                                       |                                               |
 
 ## <a name="understanding-the-data-model-and-entities"></a>Compréhension du modèle de données et des entités
-Dynamics 365 pour les opérations que les données sont utilisées pour remplir les pages de rapport dans ** analyse de contrôle de gestion ** actionnent le contenu du projet BI. Ces données sont représentées comme mesures globales présentées dans le magasin d'entité, qui est une base de données SQL Microsoft qui est optimisée pour analyses. Pour plus d'informations, voir [vue d'ensemble de l'intégration BI de courant à magasin d'entité] (power-bi-integration-entity-store.md). Les mesures suivantes d'agrégat principaux sont utilisées comme base du contenu.
+Les données Dynamics 365 for Operations sont utilisées pour remplir les pages d'état dans le contenu Power BI **Analyse du contrôle de gestion**. Ces données sont représentées sous forme de mesures globales stockées dans le magasin d'entité, qui est une base de données SQL Microsoft optimisée pour l'analyse. Pour plus d'informations, voir [Vue d'ensemble de l'intégration de Power BI au magasin d'entité](power-bi-integration-entity-store.md) Les mesures globales clés suivantes sont utilisées comme base du contenu.
 
-| Entité                  | Mesure globale de clé | Source de données pour Dynamics 365 pour les opérations | Champ     | description ;                                   |
+| Entité                  | Mesure globale clé | Source de données pour Dynamics 365 for Operations | Champ     | Description                                   |
 |-------------------------|---------------------------|---------------------------------------------|-----------|-----------------------------------------------|
-| Entrées de contrôle de gestion | SOMME (montant)               | CAMDATAAggregatedCostEntry                  | Montant    | Montant dans la devise comptable de contrôle de gestion |
-| Entrées statistiques     | SOMME (étendue)            | CAMDATAAggregatedStatisctialEntry           | Ampleur |                                               |
+| Écritures de contrôle de gestion | SUM(Amount)               | CAMDATAAggregatedCostEntry                  | Montant    | Montant dans la devise comptable du contrôle de gestion. |
+| Entrées statistiques     | SUM(Magnitude)            | CAMDATAAggregatedStatisctialEntry           | Ampleur |                                               |
 
-Le tableau suivant indique les mesures d'agrégat clés permettent de créer plusieurs mesures calculées dans l'ensemble du contenu.
+Le tableau suivant indique comment les mesures globales clés sont utilisées pour créer plusieurs mesures calculées dans l'ensemble de données du contenu.
 
-| Mesure                                       | Procédure de la mesure est calculée                                                                                          |
+| Mesure                                       | Méthode de calcul de la mesure                                                                                          |
 |-----------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
-| Coût réel                                   | CALCULEZ (« mesure\]d'entries'entity_PLACEHOLDER\[de contrôle de gestion, 'VALEUR\] de versions'entity_PLACEHOLDER\[ISSOURCEVERSIONBUDGET\_de transaction = 0)            |
-| Coût budgétaire                                   | CALCULEZ (« mesure\]d'entries'entity_PLACEHOLDER\[de contrôle de gestion, 'VALEUR\] de versions'entity_PLACEHOLDER\[ISSOURCEVERSIONBUDGET\_de transaction = 1)            |
-| Écart de coûts budgétaires                          | coût réel\]\] - \[de coûts budgétaires\[                                                                                      |
-| Pourcentage d'écart de budget                    | IF (coûts budgétaires\]\[= 0, vide (), coûts budgétaires\]\] / \[d'écart de budget \[)                                                |
-| Ampleur réelle                              | CALCULEZ (« entries'entity_PLACEHOLDER\[statistique FullMagnitude\], « VALEUR\] de versions'entity_PLACEHOLDER\[ISSOURCEVERSIONBUDGET\_de transaction = 0)          |
-| Ampleur de budget                              | CALCULEZ (\[FullMagnitude\], 'VALEUR\] de versions'entity_PLACEHOLDER\[ISSOURCEVERSIONBUDGET\_de transaction = 1)                               |
-| Écart statistique de budget                   | étendue réelle\]\] - \[d'extension de budget\[                                                                            |
-| Pourcentage statistiques d'écart de budget        | IF (étendue\] de budget\[= 0, vide (), étendue statistique\]de budget\] / \[d'écart de budget \[)                          |
-| Taux de coût réel                              | IF (étendue réelle\]\[= 0, VIDE (), étendue réelle\]\] / \[de coût réel \[)                                          |
-| Taux de coût du budget                              | IF (étendue\] de budget\[= 0, VIDE (), étendue\]de budget\] / \[de coûts budgétaires \[)                                          |
-| Écart de taux de coût budgétaire                     | \]taux de coût réel\] - \[de taux de coût budgété\[                                                                            |
-| Pourcentage d'écart de taux de coût budgétaire          | IF (coûts budgétaires\]\[= 0, vide (),\]taux de coût budgété\] / \[d'écart de taux de coût budgété \[)                                 |
-| Coût budgétaire fixe                             | CALCULEZ (coûts budgétaires\]\[, 'entries'entity_PLACEHOLDER\[COSTBEHAVIOR\] de contrôle de gestion = 1)                                              |
-| Coût budgétaire variable                          | CALCULEZ (coûts budgétaires\]\[, 'entries'entity_PLACEHOLDER\[COSTBEHAVIOR\] de contrôle de gestion = 2)                                              |
-| Coût fixe de budget flexible                    | \[Coût budgétaire fixe\]                                                                                                  |
-| Coût variable de budget flexible                 | IF (étendue\] de budget\[= 0, VIDE (), (étendue variable\]de budget\] / \[de coûts budgétaires\[) étendue réelle\]\* \[)       |
-| Coût de budget flexible                          | \[est résolu le coût variable\]de budget flexible\] + \[de coûts budgétaires flexibles                                                     |
-| Écart de budget flexible                      | le budget flexible\[coûte le coût réel\]\] - \[                                                                             |
-| Pourcentage d'écart de budget flexible           | IF (le budget flexible\[évalue les coûts\] = 0, VIDE (), le budget flexible\] / \[d'écart de budget flexible \[évalue les coûts\])                     |
-| Taux de coût de budget flexible                     | IF (l'étendue réelle\]\[= 0, VIDE (), budget flexible \[évalue les coûts\] / \[l'étendue réelle\])                                 |
-| Écart de taux de coût du budget flexible            | \]taux de coût réel\] - \[de taux de coût du budget flexible\[                                                                   |
-| Pourcentage d'écart de taux de coût du budget flexible | IF (taux de coût\] de budget flexible\[= 0, VIDE (), taux de coût\]de budget flexible\] / \[d'écart de taux de coût du budget flexible \[) |
+| Coût réel                                   | CALCULATE('Écritures de contrôle de gestion'\[Mesure\], 'Versions de transaction'\[ISSOURCEVERSIONBUDGET\_VALUE\] = 0)            |
+| Coût budgétaire                                   | CALCULATE('Écritures de contrôle de gestion'\[Mesure\], 'Versions de transaction'\[ISSOURCEVERSIONBUDGET\_VALUE\] = 1)            |
+| Écart de coût budgétaire                          | \[Coût budgétaire\] - \[Coût réel\]                                                                                      |
+| Pourcentage d'écart budgétaire                    | IF(\[Coût budgétaire\] = 0, blank(), \[Écart budgétaire\] / \[Coût budgétaire\])                                                |
+| Magnitude réelle                              | CALCULATE('Écritures statistiques'\[FullMagnitude\], 'Versions de transaction'\[ISSOURCEVERSIONBUDGET\_VALUE\] = 0)          |
+| Magnitude budgétaire                              | CALCULATE(\[FullMagnitude\], 'Versions de transaction'\[ISSOURCEVERSIONBUDGET\_VALUE\] = 1)                               |
+| Écart budgétaire statistique                   | \[Magnitude budgétaire\] - \[Magnitude réelle\]                                                                            |
+| Pourcentage d'écart budgétaire statistique        | IF(\[Magnitude budgétaire\] = 0, blank(), \[Écart budgétaire statistique\] / \[Écart budgétaire\])                          |
+| Taux de coût réel                              | IF(\[Magnitude réelle\] = 0, BLANK(), \[Coût réel\] / \[Magnitude réelle\])                                          |
+| Taux de coût du budget                              | IF(\[Magnitude budgétaire\] = 0, BLANK(), \[Coût budgétaire\] / \[Magnitude budgétaire\])                                          |
+| Écart de taux de coût budgétaire                     | \[Taux de coût budgétaire\] - \[Taux de coût réel\]                                                                            |
+| Pourcentage d'écart de taux de coût budgétaire          | IF(\[Coût budgétaire\] = 0, blank(), \[Écart de taux de coût budgétaire\] / \[Taux de coût budgétaire\])                                 |
+| Coût budgétaire fixe                             | CALCULATE(\[Coût budgétaire\], 'Écritures de contrôle de gestion'\[COSTBEHAVIOR\] = 1)                                              |
+| Coût budgétaire variable                          | CALCULATE(\[Coût budgétaire\], 'Écritures de contrôle de gestion'\[COSTBEHAVIOR\] = 2)                                              |
+| Coût budgétaire flexible fixe                    | \[Coût budgétaire fixe\]                                                                                                  |
+| Coût budgétaire flexible variable                 | IF(\[Magnitude budgétaire\] = 0, BLANK(), (\[Coût budgétaire variable\] / \[Magnitude budgétaire\]) \* \[Magnitude réelle\])       |
+| Coût budgétaire flexible                          | \[Coût budgétaire flexible fixe\] + \[Coût budgétaire flexible variable\]                                                     |
+| Écart budgétaire flexible                      | \[Coût budgétaire flexible\] - \[Coût réel\]                                                                             |
+| Pourcentage d'écart budgétaire flexible           | IF(\[Coût budgétaire flexible\] = 0, BLANK(), \[Écart budgétaire flexible\] / \[Coût budgétaire flexible\])                     |
+| Taux de coût budgétaire flexible                     | IF(\[Magnitude réelle\] = 0, BLANK(), \[Coût budgétaire flexible\] / \[Magnitude réelle\])                                 |
+| Écart de taux de coût budgétaire flexible            | \[Taux de coût budgétaire flexible\] - \[Taux de coût réel\]                                                                   |
+| Pourcentage d'écart de taux de coût budgétaire flexible | IF(\[Taux de coût budgétaire flexible\] = 0, BLANK(), \[Écart de taux de coût budgétaire flexible\] / \[Taux de coût budgétaire flexible\]) |
 
-Les dimensions suivantes principaux sont utilisées en tant que filtres pour découper les mesures en tranches globales pour honorer une plus grande granularité et livrer des analyses analytique plus approfondie.
+Les dimensions clés suivantes sont utilisées comme filtres pour diviser les mesures globales afin d'obtenir une plus grande granularité et de fournir des données d'analyse plus approfondies.
 
 | Entité                             | Exemples d'attributs                                                                                               |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | Comptabilités de contrôle de gestion            | Comptabilité de contrôle de gestion                                                                                               |
 | Unités de contrôle des coûts                 | Nom de l'unité de contrôle des coûts                                                                                               |
-| Dimensions d'éléments de coût            | Nom de la dimension d'éléments de coût, le nom du membre de dimension d'élément de coût, description membres de dimension d'élément de coût          |
-| Dimensions d'objets de coût             | Nom de la dimension d'objet de coût, le nom du membre de dimension d'objet de coût, description membres de dimension d'objet de coût              |
-| Dimensions statistiques             | Nom statistiques de dimension, nom statistique membres de dimension, description statistique membres de dimension              |
-| Hiérarchies de dimension d'objet de coût  | Nom de hiérarchie de dimension d'objet de coût, le niveau de hiérarchie de dimension d'objet de coût, arborescence de hiérarchie de dimension d'objet de coût    |
-| Hiérarchies de dimension d'élément de coût | Nom de hiérarchie de dimensions d'article de coût, le niveau de hiérarchie de dimensions d'article de coût, arborescence de hiérarchie de dimensions d'article de coût |
-| Hiérarchies statistiques de dimension  | Nom statistiques de hiérarchie de dimension, statistique niveau de hiérarchie de dimension, arborescence statistiques de hiérarchie de dimension    |
+| Dimensions d'éléments de coût            | Nom de la dimension d'éléments de coût, nom du membre de la dimension d'élément de coût, description du membre de la dimension d'élément de coût          |
+| Dimensions d'objets de coût             | Nom de la dimension d'objet de coût, nom du membre de la dimension d'objet de coût, description du membre de la dimension d'objet de coût              |
+| Dimensions statistiques             | Nom de la dimension statistique, nom du membre de la dimension statistique, description du membre de la dimension statistique              |
+| Hiérarchies de dimensions d'objet de coût  | Nom de la hiérarchie de dimensions d'objet de coût, niveau de la hiérarchie de dimensions d'objet de coût, arborescence de la hiérarchie de dimensions d'objet de coût    |
+| Hiérarchies de dimensions d'élément de coût | Nom de la hiérarchie de dimensions d'élément de coût, niveau de la hiérarchie de dimensions d'élément de coût, arborescence de la hiérarchie de dimensions d'élément de coût |
+| Hiérarchies de dimensions statistiques  | Nom de la hiérarchie de dimensions statistiques, niveau de la hiérarchie de dimensions statistiques, arborescence de la hiérarchie de dimensions statistiques    |
 | Versions de transaction               | Nom de la version                                                                                                         |
 | Calendriers fiscaux                   | Calendrier, description du calendrier                                                                                       |
-| Explore                       | Année civile                                                                                                        |
-| Périodes fiscales                     | Période d'année civile                                                                                                 |
+| Exercices                       | Année civile                                                                                                        |
+| Périodes fiscales                     | Période de l'année civile                                                                                                 |
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 Voici quelques liens utiles liés aux entités et à la création du contenu Power BI :
@@ -116,6 +116,6 @@ Voici quelques liens utiles liés aux entités et à la création du contenu Pow
 -   [Création de packs de contenu d'organisation](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 -   [Modélisation de données à l'aide de Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [Ajout de vignettes Power BI aux espaces de travail](configure-power-bi-integration.md)
--   [Sécurité de paramétrage pour le contenu de contrôle de gestion pour BI de courant] (setup-security-cost-accounting-content-pack.md)
+-   [Paramétrage de la sécurité du contenu Contrôle de gestion pour Power BI](setup-security-cost-accounting-content-pack.md)
 
 

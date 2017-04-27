@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-requisition-workflow"></a>workflow de demande d'achat
 
+[!include[banner](../includes/banner.md)]
+
+
 Le processus de workflow déplace les demandes d'achat via le processus de révision, depuis le statut initial de Brouillon jusqu'au statut final Approuvé. Lorsqu'une demande d'achat est envoyée pour révision, le processus de workflow démarre. Lorsqu'une demande d'achat est approuvée, une commande fournisseur peut être générée pour les lignes de la demande d'achat et soumise au fournisseur pour honorer une commande.
 
 Avant qu'une demande d'achat ne puisse être envoyée pour révision, vous devez configurer un workflow. Le processus de workflow peut inclure une ou plusieurs étapes de révision, dans n'importe quel ordre. Il peut également être configuré de manière à ignorer les tâches de révision et à approuver automatiquement la demande d'achat. Vous pouvez configurer le workflow pour acheminer la demande d'achat en tant que document unique, ou vous pouvez acheminer des lignes de demande d'achat individuelles aux réviseurs appropriés. Vous pouvez également créer un scénario dans lequel la demande d'achat est acheminée dans son intégralité vers certains réviseurs, et certaines lignes de demande d'achat sélectionnées vers d'autres réviseurs.  
@@ -106,12 +109,14 @@ Pour utiliser l'un des réviseurs de dépenses que vous paramétrez dans un work
 <a name="see-also"></a>Voir également :
 --------
 
-[Création d'une demande pour la consommation (Guide de tâche)](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
+[Créer un bon de commande pour la consommation (Guide de tâche)](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
 
 [Defining business process workflows for purchase requisitions](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions) (livre blanc)
 
-[Procurement and sourcing workflows](procurement-sourcing-workflows.md)
+[Workflows d'approvisionnements](procurement-sourcing-workflows.md)
 
-[Purchase requisition overview](purchase-requisitions-overview.md)
+[Présentation générale de la demande d'achat](purchase-requisitions-overview.md)
+
+
 
 

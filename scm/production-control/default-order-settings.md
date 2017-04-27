@@ -1,5 +1,5 @@
 ---
-title: "Paramètres de commande par défaut pour les dimensions et des variantes de produit"
+title: "Paramètres de commande par défaut pour les dimensions et les variantes de produit"
 description: "Les paramètres de commande par défaut définissent le site et l&quot;entrepôt d&quot;où les articles seront originaires ou stockés, les quantités minimales, maximales, multiples et standard qui seront utilisées pour le commerce ou la gestion des stocks, les délais, l&quot;indicateur de fin, et la méthode de promesse de commande. Les paramètres de commande par défaut sont utilisés lors de la création de commandes fournisseur, de commandes client, d&quot;ordres de transfert, de journaux de stock, et par la planification pour générer des ordres prévisionnels. Les paramètres de commande par défaut peuvent être spécifiques à l&quot;article, au site, à une variante de produit, ou à une dimension de produit."
 author: YuyuScheller
 manager: AnnBe
@@ -26,11 +26,14 @@ ms.lasthandoff: 03/29/2017
 
 ---
 
-# <a name="default-order-settings-for-dimensions-and-product-variants"></a>Paramètres de commande par défaut pour les dimensions et des variantes de produit
+# <a name="default-order-settings-for-dimensions-and-product-variants"></a>Paramètres de commande par défaut pour les dimensions et les variantes de produit
+
+[!include[banner](../includes/banner.md)]
+
 
 Les paramètres de commande par défaut définissent le site et l'entrepôt d'où les articles seront originaires ou stockés, les quantités minimales, maximales, multiples et standard qui seront utilisées pour le commerce ou la gestion des stocks, les délais, l'indicateur de fin, et la méthode de promesse de commande. Les paramètres de commande par défaut sont utilisés lors de la création de commandes fournisseur, de commandes client, d'ordres de transfert, de journaux de stock, et par la planification pour générer des ordres prévisionnels. Les paramètres de commande par défaut peuvent être spécifiques à l'article, au site, à une variante de produit, ou à une dimension de produit.
 
-Vous pouvez définir les paramètres de commande par défaut sur la page **Paramètres de commande par défaut**. Pour ouvrir cette page, passez ** gestion des informations sur le produit ** &gt; ** aux produits ** &gt; ** des produits lancés ** &gt; sélectionnez un produit &gt; lancé sous ** le plan ** ou le **** gèrent le volet Actions de **** de stock &gt; ** paramètres d'ordre ** &gt; ** les paramètres de commande par défaut **.
+Vous pouvez définir les paramètres de commande par défaut sur la page **Paramètres de commande par défaut**. Pour ouvrir cette page, accédez à **Gestion des informations sur les produits** &gt; **Produits** &gt; **Produits lancés** &gt;, sélectionnez un produit lancé &gt; dans le Volet Actions **Plan** ou ****Gérer le stock**** &gt; **Paramètres de la commande** &gt; **Paramètres de commande par défaut**.
 
 ## <a name="default-order-settings"></a>Paramètres de commande par défaut
 Il existe trois types de paramètres de commande par défaut pour les achats, les ventes, et le stock. Les paramètres de commande par défaut pour les achats sont utilisés lors de la création de :
@@ -70,13 +73,13 @@ Les paramètres de commande de stock par défaut s'appliquent également lors de
 -   Ordres de fabrication prévisionnels
 
 ## <a name="full-definition-of-a-released-product"></a>Définition complète d'un produit lancé
-En créant une transaction, vous devez spécifier la définition totale d'un produit lancé sur la ligne avant Dynamics 365 pour les tentatives d'opérations identifient les paramètres de commande par défaut. La définition complète du produit lancé signifie que le numéro d'article et les dimensions de produit actives, telles que la configuration, la taille, style, et couleur, sont spécifiés dans la transaction. Par exemple, si vous créez manuellement une ligne de commande fournisseur d'une variante de produit lancé, vous devez spécifier toutes les dimensions de produit requises avant que le site, l'entrepôt, les quantités, et le délai s'affichent par défaut sur la ligne de commande. 
+Lors de la création d'une transaction, vous devez spécifier la définition complète d'un produit lancé sur la ligne avant que Dynamics 365 for Operations tente d'identifier les paramètres de commande par défaut. La définition complète du produit lancé signifie que le numéro d'article et les dimensions de produit actives, telles que la configuration, la taille, le style et la couleur, sont spécifiés dans la transaction. Par exemple, si vous créez manuellement une ligne de commande fournisseur d'une variante de produit lancé, vous devez spécifier toutes les dimensions de produit requises avant que le site, l'entrepôt, les quantités, et le délai s'affichent par défaut sur la ligne de commande. 
 
-Tous les paramètres de commande par défaut s'appliquent lors de la création d'une commande ou de lignes de journal. Les quantités et les délais s'affichent uniquement par défaut lorsque approprié. Par exemple, lorsque comptant une ligne de journal, seul le site et l'entrepôt sont affichées par défaut lorsque la ligne est créée. Défaillance ou chèque évidemment pas de quantité sur le multiple et les minimal ne sont effectués en créant la ligne ou lors de la validation du journal. 
+Tous les paramètres de commande par défaut s'appliquent lors de la création d'une commande ou de lignes de journal. Les quantités et les délais s'affichent uniquement par défaut lorsqu'il y a lieu. Par exemple, lors du comptage d'une ligne de journal, seul le site et l'entrepôt s'affichent par défaut lorsque la ligne est créée. Évidemment, aucune utilisation de valeur par défaut ni aucun vérification de multiples ou de minima ne sont effectuées lors de la création de la ligne ou lors de la validation du journal. 
 
-Le système tente toujours de trouver un site ou un entrepôt par défaut lorsqu'une commande ou une ligne de journal est créée. Le site n'est pas toujours affiché par défaut dans les paramètres de commande. Par exemple, lors de la création d'une commande client ou fournisseur, le site de l'en-tête de commande est utilisé automatiquement sur les lignes de commande. En créant une ligne de nomenclature, le site de l'en-tête de nomenclature est utilisé. Une fois le site soit déterminé, il sera utilisé pour rechercher tous les paramètres de commande spécifiques au site qui peuvent être utilisés par défaut pour l'entrepôt. 
+Le système tente toujours de trouver un site ou un entrepôt par défaut lorsqu'une commande ou une ligne de journal est créée. Le site n'est pas toujours affiché par défaut dans les paramètres de commande. Par exemple, lors de la création d'une commande client ou fournisseur, le site de l'en-tête de commande est utilisé automatiquement sur les lignes de commande. Lors de la création d'une ligne de nomenclature, le site de l'en-tête de la nomenclature est utilisé. Une fois le site déterminé, il sera utilisé pour rechercher tous les paramètres de commande spécifiques au site qui peuvent être utilisés par défaut pour l'entrepôt. 
 
-Type de commande par défaut, les achats, et les délais de stock peuvent être remplacés par les règles de couverture de l'article sur ** couverture de l'article ** la page. Bien que les paramètres de commande par défaut ne permettent pas la distinction entre la production et ne transfèrent pas le délai, les règles de couverture de l'article permettent de celle-ci. Toutefois, le paramétrage de couverture de l'article est uniquement utilisé par la production lors de la création d'ordres de production et d'ordres de transfert prévisionnels et ne s'appliquera pas lors de la création manuelle d'ordres de production et d'ordres de transfert. 
+Le type de commande par défaut, les achats, et les délais de stock peuvent être remplacés par des règles de couverture de l'article sur la page **Couverture de l'article**. Bien que les paramètres de commande par défaut ne permettent pas de faire la distinction entre le délai de production et le délai de transfert, les règles de couverture de l'article le permettent. Toutefois, le paramétrage de couverture de l'article est uniquement utilisé par la production lors de la création d'ordres de production et d'ordres de transfert prévisionnels et ne s'appliquera pas lors de la création manuelle d'ordres de production et d'ordres de transfert. 
 
 ## <a name="default-order-settings-rules"></a>Règles de paramètrage de commande par défaut
 Vous pouvez définir les paramètres de commande par défaut générales et autant de règles de paramètrage de commande par défaut qui s'appliquent uniquement dans certaines conditions, telles qu'un site ou une combinaison de dimension de produit ou de dimensions de produits spécifiques. Vous ne pouvez pas définir des paramètres de commande spécifiques à l'entrepôt.
@@ -87,13 +90,13 @@ Les règles de paramètrage de commande par défaut sont classées. Plus le clas
 
 ### <a name="default-order-settings-for-released-products"></a>Paramètres de commande par défaut pour les produits lancés
 
-Pour les produits lancés distincts, vous pouvez définir des paramètres de commande généraux ou des paramètres de commande spécifiques au site. Les paramètres de commande généraux ont toujours le classement zéro. Si vous paramétrez de nouveaux paramètres de commandes client, fournisseur et de stock ensemble simultanément, nous vous recommandons d'utiliser la **Vue Détails** sur la page **Paramètres de commande par défaut**. Pour basculer vers les détails d'afficher, passez ** des options ** au volet &gt; Actions ** options de page ** &gt; ** vue de modification ** &gt; ** affichage détaillé **.
+Pour les produits lancés distincts, vous pouvez définir des paramètres de commande généraux ou des paramètres de commande spécifiques au site. Les paramètres de commande généraux ont toujours le classement zéro. Si vous paramétrez de nouveaux paramètres de commandes client, fournisseur et de stock ensemble simultanément, nous vous recommandons d'utiliser la **Vue Détails** sur la page **Paramètres de commande par défaut**. Pour passer à la vue Détails, accédez au volet d'actions **Options** &gt; **Options de page** &gt; **Changer de vue** &gt; **Vue Détails**.
 
 ### <a name="site-specific-order-settings"></a>Paramètres de commande spécifiques au site
 
-Pour créer des paramètres de commande spécifiques au site, cliquez sur **Nouveau**. Dans ** affichage détaillé **, complétez le site dans ** des paramètres applicables pour ** &gt; ** le site ** champ. Dans **Vue Grille**, renseignez le site dans la colonne **Site**. La nouvelle règle obtient automatiquement une nouvelle valeur de classement, supérieure à zéro. Vous pouvez créer autant de règle spécifiques au site que nécessaires et vous pouvez affecter à toutes les règles spécifiques au site le même classement, afin de modéliser qu'elles sont également importantes. 
+Pour créer des paramètres de commande spécifiques au site, cliquez sur **Nouveau**. Dans **Vue Détails**, renseignez le site dans le champ **Paramètres applicables pour** &gt; **Site**. Dans **Vue Grille**, renseignez le site dans la colonne **Site**. La nouvelle règle obtient automatiquement une nouvelle valeur de classement, supérieure à zéro. Vous pouvez créer autant de règle spécifiques au site que nécessaires et vous pouvez affecter à toutes les règles spécifiques au site le même classement, afin de modéliser qu'elles sont également importantes. 
 
-Si vous vous trouvez dans **Vue Détails**, vous ne pouvez pas obtenir une vue d'ensemble des règles créées pour l'article. Basculez le bouton **Afficher/Masquer la liste** pour afficher les informations de vue d'ensemble. Lorsqu'une ligne de commande de tout type est créée et elle ne fait fournir aucun site, Dynamics 365 pour les recherches d'opérations d'une règle sans le site spécifié. Ceci peut aider à déterminer un site par défaut dans la ligne de commande. Ce site est ensuite utilisé pour rechercher une règle spécifique au site, dans laquelle un entrepôt par défaut peut avoir été défini. Cet entrepôt est appliqué à la ligne de commande.
+Si vous vous trouvez dans **Vue Détails**, vous ne pouvez pas obtenir une vue d'ensemble des règles créées pour l'article. Basculez le bouton **Afficher/Masquer la liste** pour afficher les informations de vue d'ensemble. Lorsqu'une ligne de commande de tout type est créée et qu'aucun site n'est fourni, Dynamics 365 for Operations recherche une règle sans site spécifié. Ceci peut aider à déterminer un site par défaut sur la ligne de commande. Ce site est ensuite utilisé pour rechercher une règle spécifique au site, dans laquelle un entrepôt par défaut peut avoir été défini. Cet entrepôt est appliqué à la ligne de commande.
 
 ### <a name="specific-order-settings-for-product-dimension"></a>Paramètres de commande spécifiques à la dimension de produit
 
@@ -104,7 +107,7 @@ Considérez l'exemple de produit suivant.
 |                                                     |                                         |
 |-----------------------------------------------------|-----------------------------------------|
 | **Nom du produit**                                    | Capteur photoélectrique                    |
-| **Item number**                                     | XW56                                    |
+| **Numéro d'article**                                     | XW56                                    |
 | **Configuration** (utilisée pour modéliser le type de lumière) | Lumière rouge C1-Visible, lumière infrarouge C2-Infrared |
 | **Style** (utilisé pour modéliser la révision d'ingénierie)  | R1, R2, R3                              |
 
@@ -140,7 +143,7 @@ Prenons les régles de paramétrage de commande par défaut suivantes.
 | 10   |      | C1            |  R2   |  2           |  21               |                                                |                    |
 | 0    |      |               |       | 1            | 11                |                                                |                    |
 
-Le système parcourt l'ensemble de règles deux fois pour déterminer le site et l'entrepôt. Lorsqu'une ligne de commande fournisseur est créée pour la configuration C1, le style R2, le site est déterminé sur la règle avec le grade 10. Puis le système d'une règle pour le site 2 pour déterminer un entrepôt. La règle 20 est détectée car elle a un classement supérieur, l'entrepôt sur la ligne de commande fournisseur est de 22, et non de 21. 
+Le système parcourt l'ensemble de règles deux fois pour déterminer le site et l'entrepôt. Lorsqu'une ligne de commande fournisseur est créée pour la configuration C1, le style R2, le site est déterminé sur la règle avec le classement 10. Puis le système recherche une règle pour le site 2 afin de déterminer un entrepôt. La règle 20 est détectée car elle a un classement supérieur, l'entrepôt sur la ligne de commande fournisseur est de 22, et non de 21. 
 
 En général, les règles spécifiques et les règles des dimensions qui sont plus importantes que d'autres dimensions ont les classements les plus élevés, tandis que les règles plus génériques ont des classements inférieurs. 
 
@@ -148,7 +151,7 @@ La règle avec le classement zéro sert de filet de sécurité. Si aucune autre 
 
 Du fait que le numéro du classement est important, dans le volet d'actions **Paramètres de commande par défaut**, des fonctions permettent de déplacer une règle vers le haut ou vers le bas du classement et pour renuméroter les règles, afin qu'elles soient toujours par incréments de 10. 
 
-Le nombre de règles créées pour un produit lancé peut être important. Afin de mieux comprendre ce que chaque règle remplace et pourquoi elles sont nécessaires, nous vous recommandons d'utiliser la **Vue Grille** sur la page** Paramètres de commande par défaut**. Vous pouvez activer la vue de la grille en allant ** des options ** au volet &gt; Actions ** options de page ** &gt; ** vue de modification ** &gt; ** vue de la grille **. Le nombre de colonnes affichées dans la grille peut être très significatif, en particulier pour les onglets de ventes et de stock. Pour limiter le nombre de colonnes affichées dans la grille, des groupes de colonnes peuvent être masqués ou affichés à l'aide de les boutons de ** les paramètres de commande par défaut ** &gt; ** l'affichage de colonne ** menu.
+Le nombre de règles créées pour un produit lancé peut être important. Afin de mieux comprendre ce que chaque règle remplace et pourquoi elles sont nécessaires, nous vous recommandons d'utiliser la **Vue Grille** sur la page** Paramètres de commande par défaut**. Vous pouvez activer la vue de la grille en accédant au volet d'actions **Options** &gt; **Options de page** &gt; **Changer de vue** &gt; **Vue Grille**. Le nombre de colonnes affichées dans la grille peut être très significatif, en particulier pour les onglets de ventes et de stock. Pour limiter le nombre de colonnes affichées dans la grille, des groupes de colonnes peuvent être masqués ou affichés à l'aide des boutons du menu **Paramètres de commande par défaut** &gt; **Affichage des colonnes**.
 
 ### <a name="specific-order-settings-for-released-product-variant"></a>Paramètres de commande spécifiques à une variante de produit lancé
 
@@ -165,5 +168,7 @@ Si le système de règles des paramètres de commande par défaut est trop encom
 | 0    |      |               |       |                                      | 5                  |                    |                                   |                 |
 
 Le classement dans ce cas n'importe pas réellement, vous pouvez donc choisir de le masquer. Cette solution introduit éventuellement un problème de maintenance. Toutefois, vous pouvez envisager d'utiliser ce paramètre si vous envisagez d'intégrer des systèmes de Gestion des cycles de vie des produits.
+
+
 
 

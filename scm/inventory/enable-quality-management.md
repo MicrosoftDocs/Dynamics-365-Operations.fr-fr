@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="quality-management-overview"></a>Vue d'ensemble de la gestion de la qualité
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article décrit la manière dont vous pouvez utiliser la gestion de la qualité dans Microsoft Dynamics 365 for Operations pour vous aider à améliorer la qualité des produits de votre chaîne logistique.
 
 La gestion de la qualité peut vous aider à gérer les délais de rotation lorsque vous traitez des produits non conformes, indépendamment de leur point d'origine. Étant donné que les types de diagnostics sont liés à la génération d'états de correction, Microsoft Dynamics 365 for Operations peut programmer des tâches afin de corriger les problèmes et les empêcher de se reproduire.
@@ -344,7 +347,7 @@ Vous devez définir une association de qualité pour chaque variation dans un pr
 </tr>
 <tr class="even">
 <td>Résultats de la variable de test</td>
-<td>Cette page permet de paramétrer, de modifier et d'afficher les résultats de tests possibles pour une variable de test associée à un test qualitatif. Pour chaque résultat, vous affectez un statut <strong>Réussite</strong> ou <strong>Échec</strong>. Vous devez définir une variable et ses résultats pour chaque test qualitatif défini sur la page <strong>Tests</strong>. (Pour les tests qualitatifs, le type de test est <strong>Option</strong> définie sur sur <strong>Tests</strong> la page.) La page permet d'affecter une variable de test et le résultat par défaut à un test qualitatif individuel.</td>
+<td>Cette page permet de paramétrer, de modifier et d'afficher les résultats de tests possibles pour une variable de test associée à un test qualitatif. Pour chaque résultat, vous affectez un statut <strong>Réussite</strong> ou <strong>Échec</strong>. Vous devez définir une variable et ses résultats pour chaque test qualitatif défini sur la page <strong>Tests</strong>. (Pour les tests qualitatifs, le type de test est défini sur <strong>Option</strong> dans la page <strong>Tests</strong>.) La page <strong>Groupes de tests</strong> permet d'affecter une variable de test et le résultat par défaut à un test qualitatif individuel.</td>
 <td>Une société de fabrication de biscuits utilise un test d'inspection pour le produit fini. Ce test d'inspection comporte plusieurs variables. L'une des variables est le goût et les résultats possibles pour cette variable sont Bon et Mauvais. Une deuxième variable est la couleur et les résultats possibles sont Trop foncé, Trop clair et Correct. Un statut <strong>Réussite</strong> ou <strong>Échec</strong> est affecté à chaque résultat. Au cours du test d'inspection effectué pour chaque variable, l'inspecteur présente le résultat du test en sélectionnant l'un des résultats.</td>
 </tr>
 </tbody>
@@ -355,8 +358,10 @@ Vous devez définir une association de qualité pour chaque variation dans un pr
 <a name="see-also"></a>Voir également :
 --------
 
-[Quality management processes](quality-management-processes.md)
+[Processus de gestion de la qualité](quality-management-processes.md)
 
 [Activation de la gestion de non-conformité](enable-nonconformance-management.md)
+
+
 
 

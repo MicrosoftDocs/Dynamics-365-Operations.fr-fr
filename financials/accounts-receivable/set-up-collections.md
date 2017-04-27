@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-credit-and-collections"></a>Paramétrage du crédit et des recouvrements
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article décrit la procédure de paramétrage de la fonctionnalité de recouvrement.
 
 <a name="set-up-aging-period-definitions"></a>Paramétrer les définitions de périodes de balances âgées
@@ -46,7 +49,7 @@ Si plusieurs personnes de votre organisation effectuent des recouvrements, vous 
 ## <a name="set-up-a-collections-case-category"></a>Paramétrage d'une catégorie d'incidents de recouvrement
 Si vous utilisez des incidents pour organiser votre travail de recouvrement, paramétrez une catégorie d'incident de type **Recouvrements**. Cette configuration est exigée uniquement si vous souhaitez utiliser la fonctionnalité d'incident sur la page **Recouvrements**.
 
-## <a name="set-up-journal-names-settlement-writeoff-and-nsf"></a>Paramétrage des noms de journaux (règlement, radiation, et impayés)
+## <a name="set-up-journal-names-settlement-writeoff-and-nsf"></a>Paramétrage des noms de journaux (règlement, annulation et impayés)
 Paramétrez les noms des journaux utilisés lorsque les transactions sont traitées sur la page **Recouvrements**. Ces traitements incluent le règlement d'une transaction, l'annulation d'une transaction et le traitement d'un paiement des impayés.
 
 | Description | Type de journal     |
@@ -55,7 +58,7 @@ Paramétrez les noms des journaux utilisés lorsque les transactions sont trait�
 | Annulation   | Quotidienne            |
 | Impayés         | Client - Paiements |
 
-## <a name="set-up-a-reason-code-for-writeoff-transactions"></a>Paramétrage d'un code motif pour les transactions de radiation
+## <a name="set-up-a-reason-code-for-writeoff-transactions"></a>Paramétrage d'un code motif pour les transactions d'annulation
 Paramétrez le code motif par défaut utilisé lorsque les transactions sont annulées sur la page **Recouvrements**. Vous pouvez modifier le code lors du processus d'annulation.
 
 ## <a name="set-up-a-folder-for-email-attachments-and-create-email-templates"></a>Paramétrage d'un dossier pour les pièces jointes et création de modèles d'e-mail
@@ -67,7 +70,7 @@ Configurez les paramètres de ventes qui s'affichent sous l'onglet **Recouvremen
 ## <a name="optional-set-up-collections-agents"></a>Paramétrer des agents de recouvrement (facultatif)
 Si plusieurs personnes de votre organisation effectuent des recouvrements, vous pouvez paramétrer des agents de recouvrement. Un agent de recouvrement est un collaborateur paramétré en tant qu'utilisateur sur la page **Relations utilisateur**. Vous pouvez affecter des regroupements de clients (requêtes client) aux agents de recouvrement pour les aider à organiser leur travail. Les agents de recouvrement sont ajoutées à l'équipe sélectionnée sur la page **Paramètres des ventes**. Si aucune équipe n'est sélectionnée sur cette page, une équipe appelée **Recouvrements** est créée automatiquement et les agents de recouvrement y sont ajoutés.
 
-## <a name="set-up-a-writeoff-account"></a>Paramétrez un compte de radiation
+## <a name="set-up-a-writeoff-account"></a>Paramétrage d'un compte d'annulation
 Paramétrez le compte d'annulation utilisé pour l'écriture d'annulation dans la comptabilité lors de l'annulation d'une transaction. Ce compte est stocké dans le profil de validation client.
 
 ## <a name="set-up-nsf-information-for-bank-accounts"></a>Paramétrage d'informations sur les impayés pour les comptes bancaires
@@ -82,11 +85,13 @@ Paramétrez les adresses e-mail des contacts client si vous souhaitez leur envoy
 Dans l'organisateur **Crédit et relances** pour un client, dans le champ **Contact de recouvrement**, sélectionnez la personne de l'organisation cliente qui collabore avec votre agent de recouvrement. Cette personne est utilisée comme contact par défaut sur la page **Recouvrements**. Il s'agit du destinataire des messages e-mail. 
 
 > [!NOTE] 
-> Si aucun contact de recouvrement n'est spécifié pour un client, le contact principal du client est utilisé. Si aucun contact principal n'est spécifié, les messages e-mail sont envoyés à la première adresse répertoriée sur la page **Contacts**.
+> Si aucun contact de recouvrement n'est spécifié pour le client, le contact principal du client est utilisé. Si aucun contact principal n'est spécifié, les messages e-mail sont envoyés à la première adresse répertoriée sur la page **Contacts**.
 
 ## <a name="set-up-email-settings-for-salespeople"></a>Définition des paramètres d'e-mail pour les commerciaux
 Paramétrez les adresses e-mail des commerciaux si vous souhaitez leur envoyer des messages e-mail à partir de la page **Recouvrements**. Paramétrez une adresse e-mail pour chaque commercial de chaque groupe de ventes de commission. Le commercial pour lequel l'option **Contact** est sélectionnée est le commercial par défaut auquel les messages e-mails sont envoyés. 
 
 Si aucun commercial n'est spécifié, le commercial principal de l'organisation cliente est utilisé. Si aucun commercial principal n'est spécifié, les messages e-mail sont envoyés au premier commercial répertorié sur la page.
+
+
 
 

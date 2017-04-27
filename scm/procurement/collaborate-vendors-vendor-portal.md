@@ -1,6 +1,6 @@
 ---
-title: Collaborez avec des fournisseurs via le portail fournisseur
-description: "Cette rubrique décrit comment les agents des achats peuvent utiliser le portail Fournisseur pour collaborer avec des fournisseurs externes lors du processus de confirmation de commande fournisseur. Ces informations ne s&quot;appliquent qu&quot;aux versions &amp; de février 2016 au mai 2016 de Dynamics AX."
+title: "Collaborer avec des fournisseurs à l&quot;aide du portail Fournisseur"
+description: "Cette rubrique décrit comment les agents des achats peuvent utiliser le portail Fournisseur pour collaborer avec des fournisseurs externes lors du processus de confirmation de commande fournisseur. Ces informations ne s&quot;appliquent qu&quot;aux versions de février 2016 et de mai 2016 de Dynamics AX."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,11 +25,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Collaborez avec des fournisseurs via le portail fournisseur
+# <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Collaborer avec des fournisseurs à l'aide du portail Fournisseur
 
-Cette rubrique décrit comment les agents des achats peuvent utiliser le portail Fournisseur pour collaborer avec des fournisseurs externes lors du processus de confirmation de commande fournisseur. Ces informations ne s'appliquent qu'aux versions &amp; de février 2016 au mai 2016 de Dynamics AX.
+[!include[banner](../includes/banner.md)]
 
-Les informations de cette rubrique ne s'appliquent qu'aux versions de février 2016 et de mai 2016 de Dynamics AX. La fonctionnalité de portail fournisseur a été remplacée par la fonctionnalité étendue de collaboration du fournisseur dans Dynamics 365 pour la version 1611 d'opérations. Pour plus d'informations sur la nouvelle fonctionnalité de collaboration de fournisseurs, voir [par la collaboration de fournisseur à travailler avec fournisseurs externes] (vendor-collaboration-work-external-vendors.md).  
+
+Cette rubrique décrit comment les agents des achats peuvent utiliser le portail Fournisseur pour collaborer avec des fournisseurs externes lors du processus de confirmation de commande fournisseur. Ces informations ne s'appliquent qu'aux versions de février 2016 et de mai 2016 de Dynamics AX.
+
+Les informations de cette rubrique ne s'appliquent qu'aux versions de février 2016 et de mai 2016 de Dynamics AX. La fonctionnalité de portail fournisseur a été remplacée par la fonctionnalité étendue de collaboration fournisseur dans la version 1611 de Dynamics 365 for Operations. Pour plus d'informations sur la nouvelle fonctionnalité de collaboration fournisseur, voir [Utilisation de la collaboration fournisseur pour utiliser des fournisseurs externes](vendor-collaboration-work-external-vendors.md).  
 
 Le portail Fournisseur est destiné aux fournisseurs qui n'ont pas d'intégration de l'échange de données informatisé (EDI) avec Microsoft Dynamics AX pour échanger des informations de commande fournisseur (CF). Le portail permet aux agents des achats d'envoyer une CF au fournisseur puis de recevoir une réponse Confirmée ou Rejetée directement dans Dynamics AX.  
 
@@ -66,9 +69,9 @@ Le tableau suivant présente un exemple des modifications de statut et de versio
 | Vous envoyez la nouvelle version de la CF vers le portail fournisseur. | Une nouvelle version est enregistrée dans le portail Fournisseur et le statut est changé en **En cours de révision externe**. |
 | Le fournisseur approuve la nouvelle version de la CF.           | L'état passe à **Confirmé**.                                                                |
 
-Pour afficher les versions de CF envoyées au fournisseur, et les réponses du fournisseur, cliquez sur ** journaux ** &gt; ** demandes de confirmation ** du fournisseur.  
+Pour afficher les versions de la CF envoyées au fournisseur et les réponses de celui-ci, cliquez sur **Journaux** &gt; **Demandes de confirmation** à partir de la CF.  
 
-Les commandes qui ont été envoyées au fournisseur pour réponse et dont le statut est **En cours de révision externe**, apparaissent soit dans la liste **Commandes fournisseur envoyées au portail fournisseur, en attente de réponse**, soit dans celle des **Commandes fournisseur envoyées au portail fournisseur, réponse en attente d'action**. Lorsque vous modifiez une commande qui a été envoyée au fournisseur, de sorte que son état redevient **Approuvé**, la commande n'apparaît plus dans ces listes. Pour voir s'il existe déjà reçu une réponse à la commande du fournisseur, cliquez sur ** journaux ** &gt; ** demandes de confirmation **.  
+Les commandes qui ont été envoyées au fournisseur pour réponse et dont le statut est **En cours de révision externe**, apparaissent soit dans la liste **Commandes fournisseur envoyées au portail fournisseur, en attente de réponse**, soit dans celle des **Commandes fournisseur envoyées au portail fournisseur, réponse en attente d'action**. Lorsque vous modifiez une commande qui a été envoyée au fournisseur, de sorte que son état redevient **Approuvé**, la commande n'apparaît plus dans ces listes. Pour voir s'il existe déjà une réponse du fournisseur concernant une commande, cliquez sur **Journaux** &gt; **Demandes de confirmation**.  
 
 Les fournisseurs ne doivent pas confirmer la CF dans le portail fournisseur. Ils peuvent également envoyer un message électronique ou communiquer leur acceptation d'une CF via autres canaux. Vous pouvez ensuite confirmer la commande manuellement dans Dynamics AX. Dans ce cas, vous recevez un avertissement indiquant que la commande est confirmée même s'il n'y a aucune réponse du fournisseur. La CF apparaît alors dans l'historique de confirmation du portail Fournisseur sous la forme d'une commande confirmée en cours qui n'a pas de réponse. De plus, le fournisseur n'aura plus l'option de confirmer ou de rejeter la CF.  
 
@@ -97,5 +100,7 @@ Le tableau suivant présente un exemple des modifications de statut et de versio
 [Configuration de la sécurité pour les utilisateurs de la collaboration fournisseur](configure-security-vendor-portal-users.md)
 
 [Espace de travail de facturation de collaboration fournisseur](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace)
+
+
 
 

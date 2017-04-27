@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="currency-revaluation-in-a-consolidation-company"></a>Réévaluation de devise dans une société de consolidation
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Lorsque vous consolidez des données d'une devise comptable vers une autre, vous devez toujours exécuter la réévaluation de devise en cas de changement dans les taux de change, de sorte que les soldes de compte soient correctement réévalués. Lorsque vous consolidez initialement des données, utilisez l'onglet **Conversion de devises** pour sélectionner les taux de change initiaux pour la traduction lors du processus de consolidation. Une fois qu'un nouveau taux de change est entré (par exemple, le mois prochain), vous devez réévaluer les soldes de compte. Les profits non réalisés ou les pertes sont alors mis à jour, selon le nouveau taux de change et la date. L'exemple suivant illustre les écritures comptables créées lors du processus.
@@ -33,7 +36,7 @@ Lorsque vous consolidez des données d'une devise comptable vers une autre, vous
 ## <a name="company-setup"></a>Paramétrage de la société
 -   **Source/société d'exploitation (USMF)**  : Les dollars US (USD) sont utilisés comme devise comptable et devise de reporting.
 -   **Société consolidée (CON)** : Les Euros (EUR) sont utilisés comme devise comptable et devise de reporting.
-    -   ** Profit réalisé ** – compte général 801500
+    -   **Profit réalisé** : Compte général 801500
     -   **Perte réalisée ** : Compte général 801600
     -   **Profit non réalisé ** : Compte général 801600
     -   **Perte non réalisée ** : Compte général 801400
@@ -82,6 +85,8 @@ Vous verrez des transactions supplémentaires pour les montants de devise de dé
 | 130100         | EUR      | -500,00 | Montant d'origine de -500 × 1                          |
 | 801400         | EUR      | 250     | 500 – 333,33 = 166,67 166,67 + 83,33 = 250           |
 | 801600         | EUR      | -250    | -500 – (-333,33) = -166,67 -166,67 + (-83,33) = -250 |
+
+
 
 
 

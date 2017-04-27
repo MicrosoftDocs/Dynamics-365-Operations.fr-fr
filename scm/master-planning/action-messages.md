@@ -38,7 +38,7 @@ Vous pouvez configurer le mode de calcul des messages d'action pour un groupe de
  <a name="selecting-action-messages"></a>Sélection des messages d'action
 ==========================
 
-Sur la page**Groupes de couverture **, vous pouvez sélectionner les messages d'action que vous voulez que le système génère, et les groupes de couverture ou les articles auxquels les messages s'appliquent. Vous pouvez sélectionner les messages d'action suivants.
+Sur la page **Groupes de couverture**, vous pouvez sélectionner les messages d'action que vous voulez que le système génère, et les groupes de couverture ou les articles auxquels les messages s'appliquent. Vous pouvez sélectionner les messages d'action suivants.
 
 | Message             | Description                                                                                                                                                                                                                                              |
 |---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

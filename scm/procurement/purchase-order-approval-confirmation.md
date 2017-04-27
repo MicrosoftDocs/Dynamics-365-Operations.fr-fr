@@ -1,5 +1,5 @@
 ---
-title: Commandes fournisseur et Approbation de confirmer
+title: Approuver et confirmer des commandes fournisseur
 description: "Cet article décrit les statuts par lesquels passe une commande fournisseur (CF) après qu&quot;elle a été créée et les conséquences de l’activation de la gestion des modifications sur les CF."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="approve-and-confirm-purchase-orders"></a>Commandes fournisseur et Approbation de confirmer
+# <a name="approve-and-confirm-purchase-orders"></a>Approuver et confirmer des commandes fournisseur
+
+[!include[banner](../includes/banner.md)]
+
 
 Cet article décrit les statuts par lesquels passe une commande fournisseur (CF) après qu'elle a été créée et les conséquences de l’activation de la gestion des modifications sur les CF.
 
@@ -73,12 +76,14 @@ Une fois qu'une commande a été confirmée, vous ne pouvez plus la supprimer. T
 <a name="see-also"></a>Voir également :
 --------
 
-[Purchase order overview](purchase-order-overview.md)
+[Présentation des commandes fournisseur](purchase-order-overview.md)
 
-[Purchase order creation](purchase-order-creation.md)
+[Création de commandes fournisseur](purchase-order-creation.md)
 
 [Accusé de réception de marchandises et commandes fournisseur](product-receipt-against-purchase-orders.md)
 
 [Vue d'ensemble des factures fournisseur](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+
+
 
 

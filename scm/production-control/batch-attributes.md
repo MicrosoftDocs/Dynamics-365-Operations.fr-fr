@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="batch-attributes"></a>Attributs de lot
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article fournit des informations sur les attributs de lot. Les attributs de lot sont des caractéristiques de matières premières et de produits finis qui constituent des lots de stock. L'article décrit également les manières d'affecter des attributs de lot et d'y effectuer une recherche lorsque vous réservez des traitements par lots.
 
 Les attributs de lot sont des caractéristiques de matières premières et de produits finis qui constituent des lots de stock. Les attributs de lot peuvent varier en fonction de plusieurs facteurs, comme les conditions environnementales, la qualité des matières premières utilisées pour produire le lot ou le résultat du produit fini. Le nombre et les types d'attributs de lot utilisés peuvent fortement varier d'un secteur à l'autre. Voici deux exemples d'utilisation d'attributs de lot :
@@ -42,12 +45,14 @@ Pour mieux gérer le nombre et les types d'attributs, vous pouvez utiliser des g
 Vous pouvez affecter des attributs de lot à différents produits dans des lots de stock ou à des produits liés à des clients spécifiques. Pour pouvoir affecter un attribut de lot au niveau du client, vous devez d'abord l'affecter au niveau du produit. La dimension de lot du produit doit être définie sur **Actif** dans le groupe de dimensions de suivi. Pour affecter un attribut de lot à un produit individuel, utilisez la page spécifique au produit. Si l'attribut est spécifique à un produit pour un client, utilisez la page spécifique au client. Lorsque vous ajoutez un attribut à un produit, vous définissez également d'autres paramètres. Voici quelques exemples :
 
 -   Les plages Minimum et Maximum d'un attribut de type **Entier** ou **Fraction**.
--   Les actions de tolérance pour un attribut de ** nombre entier ** ou ** fraction ** type. Si la valeur de l'attribut n'est pas comprise dans la plage Minimum et Maximum, l'action peut être un message d'avertissement ou d'erreur.
+-   Les actions de tolérance d'un attribut du type **Entier** ou **Fraction**. Si la valeur de l'attribut n'est pas comprise dans la plage Minimum et Maximum, l'action peut être un message d'avertissement ou un message d'erreur.
 -   La valeur cible de l'attribut. Cette valeur est la valeur optimale de l'attribut et s'applique à tous les types d'attributs.
 
 Vous pouvez accéder aux pages des produits que vous sélectionnez dans la page **Produits lancés** dans Gestion des informations sur les produits. Après avoir affecté des attributs de lot à un produit, vous pouvez ajouter des valeurs spécifiques aux attributs dans la page **Attributs de lot de stock**.
 
 ## <a name="reserve-batches"></a>Réservation de lots
 Vous pouvez effectuer une recherche dans les attributs de lot lorsque vous effectuez des réservations de lot pour une commande client pour honorer la commande d'un client, ou lorsque vous prélevez et réservez des lots pour un ordre de fabrication. La recherche permet de trouver un lot de stock qui contient le produit présentant l'attribut de lot souhaité. Une fois le ou les lots trouvés, vous pouvez réserver le produit dans la ligne de mouvement de stock d'origine.
+
+
 
 

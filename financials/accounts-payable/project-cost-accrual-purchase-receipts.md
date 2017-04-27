@@ -1,6 +1,6 @@
 ---
 title: "Régularisation des coûts de projet dans les réceptions d&quot;achat"
-description: "Cette rubrique décrit la manière dont les coûts de projet à des réceptions d&quot;achat peuvent être suivis dans Microsoft Dynamics 365 pour les opérations."
+description: "Cette rubrique décrit la manière dont les coûts de projet des réceptions d&quot;achat peuvent être suivis dans Microsoft Dynamics 365 for Operations."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,57 +26,62 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="project-cost-accrual-on-purchase-receipts"></a>Régularisation des coûts de projet dans les réceptions d'achat
 
-Cette rubrique décrit la manière dont les coûts de projet à des réceptions d'achat peuvent être suivis dans Microsoft Dynamics 365 pour les opérations. 
+[!include[banner](../includes/banner.md)]
 
-Les factures pour un projet arrive souvent plus tard que les marchandises et les services sont livrés, qui peuvent avoir un impact considérable sur des indicateurs de performance clé (KPIs) du projet. Il important pour pouvroir suivre ces transactions dans des rapports financiers et de projet.
 
-Le scénario suivant d'exemple illustre cette opération. 
+Cette rubrique décrit la manière dont les coûts de projet des réceptions d'achat peuvent être suivis dans Microsoft Dynamics 365 for Operations. 
 
-Le conseil de Contoso a commencé un nouveau projet de déploiement de cloud. Une commande fournisseur est créée d'acheter un ordinateur pour le projet. L'ordinateur évalue les coûts $1500 et les services d'installation évaluent les coûts $. Le fournisseur a donné et a installé l'ordinateur, mais la facture n'a pas encore été atteint le conseil de Contoso. Le chef de projet souhaite voir la régularisation de coût d'un projet de $1650 pour que la facture soit livrée. Le coût doit également être pris en compte dans les tableaux d'analyse du mois de la société. 
+Les factures pour un projet arrivent souvent plus tard que les marchandises et les services livrés, ce qui peut avoir un impact considérable sur des indicateurs de performance clé (KPIs) du projet. Il est important de pouvroir suivre ces transactions dans des rapports financiers et de projet.
 
-Les charges à payer doivent être enregistrées au niveau financier et le niveau du projet pour la génération d'états. Dans Dynamics 365 pour les opérations, la mise à jour financière de l'accusé de réception de marchandises peut être appliquée à l'article et les catégories d'approvisionnement. 
+L'exemple de scénario suivant illustre cela. 
 
-Pour les articles, sous ** des paramètres des achats ** la page, sélectionnez ** validez les accusés de réception de marchandises dans la comptabilité ** l'option.
-![accruals1 [] (. /media/accruals1-1024x409.png)](. /media/accruals1.png) 
+Contoso Consulting a démarré un nouveau projet de déploiement de cloud. Une commande fournisseur est créée pour acheter un ordinateur pour le projet. L'ordinateur évalue le coût à $1500 et les services d'installation à $150. Le fournisseur a livré et installé l'ordinateur, mais la facture n'est pas encore arrivée chez Contoso Consulting. Le chef de projet souhaite voir la régularisation du coût du projet de $1650 pour que la facture soit remise. Le coût doit également être pris en compte dans les tableaux d'analyse du mois de la société. 
 
-Pour les catégories d'approvisionnement, sous ** règle de stratégie de catégorie ** la page, sélectionnez ** d'achat ** les stratégies, puis sélectionnez ** provisionner les dépenses d'achat sur le ticket de caisse ** pour chaque catégorie d'approvisionnement.
-![accruals2 [] (. /media/accruals2-1024x569.png)](. /media/accruals2.png) 
+Les charges à payer doivent être enregistrées au niveau financier et au niveau du projet pour la génération d'états. Dans Dynamics 365 for Operations, la mise à jour financière de l'accusé de réception de marchandises peut être appliquée à l'article et aux catégories d'approvisionnement. 
 
-** Dépense d'achat non facturées ** et ** régularisation des achats ** des comptes dans ** paramétrage de la validation ** seront utilisés lorsque les documents associés à l'accusé de réception de marchandises sont validés.
-![accruals3 [] (. /media/accruals3-1024x429.png)](. /media/accruals3.png) 
+Pour les articles, sur la page **Paramètres de la comptabilité fournisseur**, sélectionnez l'option de **publication des reçus de produits dans la comptabilité**.
+[![accruals1](./media/accruals1-1024x409.png)](./media/accruals1.png) 
 
-L'utilisation de ce même scénario, laissez- nous voir comment valider un accusé de réception de marchandises ont un impact sur la comptabilité et les informations de projet. 
+Pour les catégories d'approvisionnement, sur la page **Règle de stratégie de catégorie**, sélectionnez les politiques **d'achat**, puis sélectionnez **Provisionner les dépenses d'achat à la réception** pour chaque catégorie d'approvisionnement.
+[![accruals2](./media/accruals2-1024x569.png)](./media/accruals2.png) 
 
-** Étape 1 : ** Créez et confirmez une commande fournisseur pour le projet enregistre l'achat d'un ordinateur pour $1500 et des services d'installation pour $.
-![accruals4 [] (. /media/accruals4-1024x497.png)](. /media/accruals4.png) 
+Les comptes **Dépenses d'achat, non facturées** et **Régularisation d'achat** dans **Paramétrage de la validation** seront utilisés lorsque les documents associés à l'accusé de réception de marchandises seront publiés.
+[![accruals3](./media/accruals3-1024x429.png)](./media/accruals3.png) 
 
-Lorsque la commande fournisseur est confirmée, les transactions pour le coût engagé pour le projet. 
-![accruals5 [] (. /media/accruals5-1024x219.png)](. /media/accruals5.png) 
+En utilisant ce même scénario, voyons comment la publication d'un reçu de produit aura une incidence sur les informations de comptabilité et de projet. 
 
-> [!NOTE]
-> Les transactions pour le coût engagé auront ** origine de la transaction ** le champ défini ** commande fournisseur **. Création et confirmant une commande fournisseur ne crée pas de transaction pour un projet. 
+**Étape 1 :** Création et confirmation d'un nouveau bon de commande pour le projet afin d'enregistrer l'achat d'un ordinateur pour $1500 et les services d'installation pour $150.
+[![accruals4](./media/accruals4-1024x497.png)](./media/accruals4.png) 
 
-** Étape 2 : ** Les marchandises et les services obtiennent livrés et un accusé de réception de marchandises est enregistré. 
-
-Valider un accusé de réception de marchandises génère et valide un document dans la comptabilité. Le document débit les dépenses d'achat, le compte des facturé, et le compte de régularisation des achats de crédit. 
-![accruals6 [] (. /media/accruals6-1024x214.png)](. /media/accruals6.png)
+Lorsque la commande fournisseur est confirmée, les transactions pour le coût engagé sont créées pour le projet. 
+[![accruals5](./media/accruals5-1024x219.png)](./media/accruals5.png) 
 
 > [!NOTE]
-> La comptabilisation d'un accusé de réception de marchandises utilise le paramétrage de la validation pour les catégories d'approvisionnement et les produits, et non le paramétrage de la validation pour les catégories de projet. Afin de refléter correctement l'impact financier des régularisations d'achat, il les besoins définis d'être aligné. 
+> Les transactions pour le coût engagé auront le champ **Origine de la transaction** défini sur **Bon de commande**. La création et la confirmation d'une commande fournisseur ne créent pas de transaction pour un projet. 
 
-Il est possible de mettre des catégories d'approvisionnement aux catégories de projet sur ** catégorie d'approvisionnement ** la page.
-![accruals7 [] (. /media/accruals7-1024x390.png)](. /media/accruals7.png)
+**Étape 2 :** Les marchandises et les services sont livrés et un accusé de réception de marchandises est enregistré. 
 
-** Étape 3 : ** Création d'une facture fournisseur temporaire. 
+Valider un accusé de réception de marchandises génère et valide un document dans la comptabilité. Le N° document débite le compte non facturée de dépense d'achat et le compte de régularisation des achats à crédit. 
+[![accruals6](./media/accruals6-1024x214.png)](./media/accruals6.png)
 
-Dans Dynamics 365 pour les opérations, la validation d'un accusé de réception de marchandises ne concerne pas les informations de projet. Comme contournement, vous pouvez générer une facture fournisseur de brouillon {{juste:right_after}} {{après:right_after}} valider la réception. Allez ** commande fournisseur ** à la page &gt; ** onglet Facture ** &gt; ** se produisent ** &gt; ** facture **. Cette action crée un document de facture en attente qui met les informations de projet à jour. 
+> [!NOTE]
+> L'affichage d'un reçu de produit utilisera la configuration de publication pour les catégories et produits d'approvisionnement, et non la configuration de publication pour les catégories de projet. Afin de refléter correctement l'impact financier des régularisations d'achat, cette configuration doit être alignée. 
 
-Créer une facture fournisseur d'effet se produit en attente des transactions de projet. 
-![accruals8 [] (. /media/accruals8-1024x225.png)](. /media/accruals8.png) 
+Il est possible de mettre en correspondance des catégories d'approvisionnement avec des catégories de projet sur la page **Catégorie d'approvisionnement**.
+[![accruals7](./media/accruals7-1024x390.png)](./media/accruals7.png)
 
-Dans ** coût engagé ** la page, les enregistrements créés à l'étape 1 sont terminées et de nouveaux enregistrements sont créés pour refléter l'engagement du coût provenant de la facture fournisseur en attente. ** Origine de la transaction ** le champ pour le coût engagé est défini ** facture fournisseur **.
-![accruals9 [] (. /media/accruals9-1024x200.png)](. /media/accruals9.png)
+**Étape 3 :** Création d'un brouillon de facture fournisseur. 
 
-La facture fournisseur reste dans un rapport en attente jusqu'à ce que la facture fournisseur arrive réelle.
+Dans Dynamics 365 for Operations, la validation d'un accusé de réception de marchandises ne concerne pas les informations de projet. Comme contournement, vous pouvez générer un brouillon de facture fournisseur après avoir validé la réception. Accédez à la page **Commande fournisseur** &gt; **Onglet Facture** &gt; **Générer** &gt; **Facture**. Cette action crée un document de facture en attente qui met les informations de projet à jour. 
+
+La création d'un brouillon de facture fournisseur génère des transactions de projet en attente. 
+[![accruals8](./media/accruals8-1024x225.png)](./media/accruals8.png) 
+
+Dans la page **Coût engagé**, les enregistrements créés à l'étape 1 seront fermés et de nouveaux enregistrements seront créés pour refléter l'engagement de coût provenant de la facture du fournisseur en attente. Le champ **Origine de la transaction** pour le coût engagé est défini sur **Facture fournisseur**.
+[![accruals9](./media/accruals9-1024x200.png)](./media/accruals9.png)
+
+La facture fournisseur reste à l'état d'attente en attendant l'arrivée de la facture fournisseur réelle.
+
+
 
 

@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="default-offset-accounts-for-vendor-invoice-journals-and-invoice-approval-journals"></a>Comptes de contrepartie par défaut pour les journaux de facture fournisseur et les journaux d'approbation de facture
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Les comptes de contrepartie par défaut sont utilisés dans les pages suivantes de journal des factures fournisseur :
@@ -92,6 +95,8 @@ Utilisez le tableau suivant pour vous aider à décider où affecter les comptes
 </tr>
 </tbody>
 </table>
+
+
 
 
 

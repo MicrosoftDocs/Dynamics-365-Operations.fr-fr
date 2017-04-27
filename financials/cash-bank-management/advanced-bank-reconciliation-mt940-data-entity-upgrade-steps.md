@@ -1,5 +1,5 @@
 ---
-title: "Importation avancée du rapprochement bancaire MT940 – Mise à niveau d&quot;entité composée de données"
+title: "Importation avancée du rapprochement bancaire MT940 – Mise à niveau de l&quot;entité de données composite"
 description: "Un numéro de souche doit être ajouté à l&quot;entité d&quot;importation des relevés bancaires pour prendre en charge le format MT940."
 author: twheeloc
 manager: AnnBe
@@ -24,21 +24,24 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a>Importation avancée du rapprochement bancaire MT940 – Mise à niveau d'entité composée de données
+# <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a>Importation avancée du rapprochement bancaire MT940 – Mise à niveau de l'entité de données composite
+
+[!include[banner](../includes/banner.md)]
+
 
 Un numéro de souche doit être ajouté à l'entité d'importation des relevés bancaires pour prendre en charge le format MT940. 
 
 Les étapes suivantes vous permettent d'ajouter l'entité d'importation des relevés bancaires pour prendre en charge le format MT940.
 
-1.  Compilez et de synchroniser les éléments suivants :
-    -   L'entité composée\\BankStatementImportEntity
-    -   Entité\\BankStatementBalanceEntity
-    -   Entité\\BankStatementDocumentEntity
-    -   Entité\\BankStatementEntity
-    -   Entité\\BankStatementLineEntity
+1.  Compilez et synchronisez les éléments suivants :
+    -   Composite Entity\\BankStatementImportEntity
+    -   Entity\\BankStatementBalanceEntity
+    -   Entity\\BankStatementDocumentEntity
+    -   Entity\\BankStatementEntity
+    -   Entity\\BankStatementLineEntity
     -   Tables\\BankStatementStaging
 
-2.  Projets de données\\de gestion des données.
+2.  Data management\\data projects.
     1.  Projets d'importation de la charge MT940
         1.  Modifiez XSLT.
             -   Cliquez sur **Afficher la carte**.
@@ -58,6 +61,8 @@ Les étapes suivantes vous permettent d'ajouter l'entité d'importation des rele
                 -   Vérifiez que **SequenceNumber** est mappé entre Source et Intermédiaire.
 
 3.  Importez le nouveau relevé.
+
+
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Page d&quot;accueil de la comptabilité fournisseur"
-description: Cette rubrique fournit une vue d&quot;ensemble des achats.
+description: "Cette rubrique fournit une vue d&quot;ensemble de la comptabilité fournisseur."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,8 +27,13 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounts-payable-home-page"></a>Page d'accueil de la comptabilité fournisseur
 
-Cette rubrique fournit une vue d'ensemble des achats.
+[!include[banner](../includes/banner.md)]
 
-Vous pouvez entrer des factures fournisseur manuellement ou les recevoir par voie électronique via une entité de données. Une fois les factures entrées ou reçues, vous pouvez réviser et approuver les factures à l'aide d'un journal des approbations de facture ou ** facture fournisseur ** de la page. Vous pouvez utiliser le rapprochement des factures, les stratégies relatives aux factures fournisseur et le workflow pour automatiser le processus de révision afin que les factures qui répondent à certains critères soient automatiquement approuvées et que les autres soient marquées pour révision par un utilisateur autorisé.
+
+Cette rubrique fournit une vue d'ensemble de la comptabilité fournisseur. 
+
+Vous pouvez entrer des factures fournisseur manuellement ou les recevoir par voie électronique via une entité de données. Une fois les factures entrées ou reçues, vous pouvez les réviser et les approuver en utilisant un journal d'approbation des factures ou la page **Facture fournisseur**. Vous pouvez utiliser le rapprochement des factures, les stratégies relatives aux factures fournisseur et le workflow pour automatiser le processus de révision afin que les factures qui répondent à certains critères soient automatiquement approuvées et que les autres soient marquées pour révision par un utilisateur autorisé.
+
+
 
 

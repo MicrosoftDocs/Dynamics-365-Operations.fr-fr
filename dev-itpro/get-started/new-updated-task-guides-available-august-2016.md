@@ -1,6 +1,6 @@
 ---
-title: "Nouveaux ou mis à jour guides de tâche (août 2016)"
-description: "Cette rubrique répertorie les nouveaux ou mis à jour guides d&quot;emploi qui ont été lancés dans la bibliothèque unifiée par APQC Microsoft (août 2016 - Toutes les langues) pour Microsoft Dynamics AX. Aucune nouvelle Bibliothèque de mise en route n&quot;a été publiée."
+title: "Guides de tâches nouveaux ou mis à jour (août 2016)"
+description: "Cette rubrique répertorie les guides de tâches nouveaux ou mis à jour ont été publiés dans la bibliothèque unifiée APQC (août 2016 - toutes les langues) de Microsoft pour Microsoft Dynamics AX. Aucune nouvelle Bibliothèque de mise en route n&quot;a été publiée."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,14 +24,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="new-or-updated-task-guides-august-2016"></a>Nouveaux ou mis à jour guides de tâche (août 2016)
+# <a name="new-or-updated-task-guides-august-2016"></a>Guides de tâches nouveaux ou mis à jour (août 2016)
 
-Cette rubrique répertorie les nouveaux ou mis à jour guides d'emploi qui ont été lancés dans la bibliothèque unifiée par APQC Microsoft (août 2016 - Toutes les langues) pour Microsoft Dynamics AX. Aucune nouvelle Bibliothèque de mise en route n'a été publiée.
+[!include[banner](../includes/banner.md)]
 
-<a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[] () aux guides de tâche dans (août 2016 - Toutes les langues) l'APQC ont unifié la bibliothèque pour Microsoft Dynamics AX
+
+Cette rubrique répertorie les guides de tâches nouveaux ou mis à jour ont été publiés dans la bibliothèque unifiée APQC (août 2016 - toutes les langues) de Microsoft pour Microsoft Dynamics AX. Aucune nouvelle Bibliothèque de mise en route n'a été publiée.
+
+<a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()Guides de tâches dans la bibliothèque unifiée APQC (août 2016 - toutes les langues) pour Microsoft Dynamics AX
 ---------------------------------------------------------------------------------------------------
 
-(Août 2016 - Toutes les langues) la bibliothèque unifiée par APQC contient les guides de tâche qui sont conçus pour être utilisés pour obtenir de l'aide avec la mise à jour 2 de plateforme Microsoft Dynamics AX (août 2016), Dynamics AX la mise à jour d'application en mai 2016, et Microsoft Dynamics AX le lancement en février 2016. Pour plus d'informations sur ces versions, voir [ce qui est nouveau ou modifiés] (ce qui est - new-changed.md). Les versions localisées aux guides de tâche sont disponibles dans cette bibliothèque. Pour plus d'informations sur la procédure de connexion du système d'aide dans une bibliothèque de guide de tâche, voir [route route avec aide] (help-overview.md).
+La bibliothèque unifiée APQC (août 2016 - toutes les langues) contient les guides de tâches qui sont destinés à être utilisés pour de l’aide avec la mise à jour 2 de Microsoft Dynamics AX Platform, la mise à jour 2016 de l'application Dynamics AX et la version de février 2016 de Microsoft Dynamics AX. Pour plus d'informations sur ces versions, voir [Nouveautés ou changements](whats-new-changed.md). Les versions localisées aux guides de tâche sont disponibles dans cette bibliothèque. Pour plus d’informations sur la façon de se connecter au système d’aide dans une bibliothèque de guide de tâche, voir [Prise en main de l'aide](help-overview.md).
 
 ### <a name="data-access"></a>Accès aux données
 
@@ -97,10 +100,12 @@ Cette rubrique répertorie les nouveaux ou mis à jour guides d'emploi qui ont �
 <a name="see-also"></a>Voir également :
 --------
 
-[Nouveaux guides de tâche (février 2016)](new-task-guides-available-february-2016.md)
+[Nouveaux guides des tâches (février 2016)](new-task-guides-available-february-2016.md)
 
-[Nouveaux ou mis à jour guides de tâche (mai 2016)](new-updated-task-guides-available-may-2016.md)
+[Guides de tâches nouveaux ou mis à jour (mai 2016)](new-updated-task-guides-available-may-2016.md)
 
-[Nouveaux ou mis à jour guides de tâche (novembre 2016)](new-task-guides-november-2016.md)
+[Guides de tâches nouveaux ou mis à jour (novembre 2016)](new-task-guides-november-2016.md)
+
+
 
 

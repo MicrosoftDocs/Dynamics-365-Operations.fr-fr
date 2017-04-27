@@ -29,11 +29,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="budget-analysis-in-the-public-sector"></a>Analyse budgétaire dans le secteur public
 
+[!include[banner](../includes/banner.md)]
+
+
 Cette rubrique décrit l'utilisation de la page d'analyse de budget pour afficher les produits et les dépenses par dimension financière, puis elle répond aux questions posées fréquemment, notamment les différences entre la page d'analyse de budget et la page de statistiques de contrôle budgétaire. 
 
 Cette rubrique décrit la fonctionnalité d'analyse budgétaire pour le secteur public. 
 
-Avant de lire cette rubrique, vous devez également lire [budgétisation du secteur public.] (budgeting-public-sector.md). 
+Avant de lire cette rubrique, vous devez également lire [Budgétisation dans le secteur public.](budgeting-public-sector.md). 
 
 Il est possible que vous deviez paramétrer les fonctionnalités de budgétisation suivantes pour le secteur public : La page **Analyse budgétaire** permet d'afficher les produits et les dépenses par dimension financière, à l'aide d'une combinaison de données comptables et de contrôle budgétaire. Vous pouvez afficher les montants et les détails de transaction récapitulés pour les budgets révisés, les dépenses réelles, les engagements et les engagements préalables. 
 
@@ -46,7 +49,7 @@ La page **Analyse budgétaire** permet également de sélectionner un ensemble d
 -   Dimensions financières
 
 > [!NOTE] 
-> Vous créez des dimensions financières dans ** des dimensions financières ** la page. Vous spécifiez l'intervalle de dates pour les transactions incluses sur la page **Intervalles de dates** de la comptabilité.
+> Vous créez des dimensions financières sur la page **Dimensions financières**. Vous spécifiez l'intervalle de dates pour les transactions incluses sur la page **Intervalles de dates** de la comptabilité.
 
 ## <a name="what-transaction-details-are-available-on-the-budget-analysis-page"></a>Quels détails de la transaction sont-ils disponibles sur la page Analyse budgétaire ?
 Vous pouvez sélectionner un article dans la grille et effectuer un zoom avant pour afficher les détails de transaction suivants :
@@ -75,7 +78,7 @@ Le tableau suivant décrit les différences entre ces pages.
 | Inclut les données des comptes de dépenses uniquement.                                                                               | Inclut les données des comptes de produit et de dépenses.                                       |
 
 > [!NOTE] 
-> Si vous souhaitez que le disponible ou les montants budgétaires restants pour inclure des transactions de brouillon, utilisez ** les statistiques de contrôle budgétaire ** la page. La page **Analyse budgétaire** affiche uniquement les transactions validées.
+> Si vous souhaitez que les montants budgétaires disponibles ou restants comprennent des transactions provisoires, utilisez la page **Statistiques de contrôle budgétaire**. La page **Analyse budgétaire** affiche uniquement les transactions validées.
 
 ## <a name="can-i-export-the-budget-analysis-results-to-microsoft-excel"></a>Puis-je exporter les résultats de l'analyse budgétaire vers Microsoft Excel ?
 Oui, vous pouvez exporter les résultats de l'analyse budgétaire. Sur la page **Analyse budgétaire**, appuyez sur Ctrl+Maj+E.
@@ -102,6 +105,8 @@ Si les grilles sont vides sur la page **Analyse budgétaire**, tentez les action
 
 ## <a name="how-do-i-see-updated-numbers-in-the-columns-when-i-change-the-dimension-set-dates-posting-layers-and-other-settings"></a>Comment afficher les numéros mis à jour dans les colonnes lorsque je modifie l'ensemble de dimensions, les dates, les couches de validation, et d'autres paramètres ?
 Après avoir modifié les paramètres en haut de la page, cliquez sur **Mettre à jour les totaux** pour afficher les résultats de votre requête.
+
+
 
 
 

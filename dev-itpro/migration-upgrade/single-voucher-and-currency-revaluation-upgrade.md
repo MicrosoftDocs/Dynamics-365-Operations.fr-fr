@@ -1,6 +1,6 @@
 ---
-title: "Document simple et mise à niveau de réévaluation de la devise pour Microsoft Dynamics 365 pour la version 1611 d&quot;opérations"
-description: "Certaines organisations entrent les journaux qui contiennent un document unique ayant plus d&quot;un client ou fournisseur, ces processus exécute également Ventes ou Achats réévaluation des comptes en devises. Cette rubrique décrit les tâches à ces organisations doivent suivre lorsqu&quot;elles mise à niveau vers Microsoft Dynamics 365 pour la version 1611 d&quot;opérations."
+title: "Mise à niveau du N° document unique et de la réévaluation des comptes en devises pour Microsoft Dynamics 365 for Operations, version 1611"
+description: "Certaines organisations saisissent des journaux qui contiennent un N° document unique pour plusieurs clients ou fournisseurs, et elles exécutent le processus de réévaluation des comptes en devises de la comptabilité client ou de la comptabilité fournisseur. Cette rubrique décrit les étapes à suivre par ces organisations lorsqu&quot;elles effectuent la mise à niveau vers Microsoft Dynamics 365 for Operations, version 1611."
 author: twheeloc
 manager: AnnBe
 ms.date: 2016-12-28 16 - 04 - 17
@@ -24,15 +24,15 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="single-voucher-and-currency-revaluation-upgrade-for-microsoft-dynamics-365-for-operations-version-1611"></a>Document simple et mise à niveau de réévaluation de la devise pour Microsoft Dynamics 365 pour la version 1611 d'opérations
+# <a name="single-voucher-and-currency-revaluation-upgrade-for-microsoft-dynamics-365-for-operations-version-1611"></a>Mise à niveau du N° document unique et de la réévaluation des comptes en devises pour Microsoft Dynamics 365 for Operations, version 1611
 
-Certaines organisations entrent les journaux qui contiennent un document unique ayant plus d'un client ou fournisseur, ces processus exécute également Ventes ou Achats réévaluation des comptes en devises. Cette rubrique décrit les tâches à ces organisations doivent suivre lorsqu'elles mise à niveau vers Microsoft Dynamics 365 pour la version 1611 d'opérations.
+Certaines organisations saisissent des journaux qui contiennent un N° document unique pour plusieurs clients ou fournisseurs, et elles exécutent le processus de réévaluation des comptes en devises de la comptabilité client ou de la comptabilité fournisseur. Cette rubrique décrit les étapes à suivre par ces organisations lorsqu'elles effectuent la mise à niveau vers Microsoft Dynamics 365 for Operations, version 1611.
 
-Procédez comme suit lors de la mise à niveau vers Microsoft Dynamics 365 pour la version 1611 d'opérations.
+Procédez comme suit lorsque vous effectuez la mise à niveau vers Microsoft Dynamics 365 for Operations, version 1611.
 
-1.  Avant la mise à niveau vers Dynamics 365 pour les opérations, exécutez les processus de réévaluation des comptes en devises pour Ventes et Achats. Définissez ** méthode ** le champ ** date de facture **. Une transaction de réévaluation qui contrepasse la dernière réévaluation des comptes en devises. Par conséquent, les transactions en cours sont évaluées à leur devise comptable d'origine.
-2.  Mise à niveau vers Dynamics 365 pour la version 1611 d'opérations.
-3.  Exécutez les ventes et la réévaluation des comptes en devises Achats traite de nouveau. Ce temps, définit ** méthode ** le champ ** standard **. Une nouvelle transaction de réévaluation basé sur les taux de change actuels. Cette transaction enregistre les profits non réalisés/pertes et le compte général approprié de synthèse.
+1.  Avant la mise à niveau vers Dynamics 365 for Operations, exécutez les processus de réévaluation des comptes en devises pour la comptabilité fournisseur et la comptabilité client. Définissez le champ **Méthode** sur **Date de facture**. Une transaction de réévaluation qui contrepasse la dernière réévaluation des comptes en devises. Par conséquent, les transactions en cours sont évaluées dans leur devise comptable d'origine.
+2.  Effectuez la mise à niveau vers Dynamics 365 for Operations, version 1611.
+3.  Exécutez à nouveau la réévaluation des comptes en devises pour la comptabilité fournisseur et la comptabilité client. Cette fois, définissez le champ **Méthode** sur **Standard**. Une nouvelle transaction de réévaluation est créée d'après les taux de change actuels. Cette transaction enregistre les profits/pertes non réalisés et le compte général collectif approprié.
 
 
 

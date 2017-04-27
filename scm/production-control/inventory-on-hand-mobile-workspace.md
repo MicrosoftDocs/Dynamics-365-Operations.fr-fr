@@ -1,6 +1,6 @@
 ---
-title: "L&quot;espace de travail portable de stock disponibles pour Microsoft Dynamics 365 pour l&quot;application Opérations"
-description: "Les applications mobiles de l&quot;espace de travail de stock disponible vous gagnez des analyses déplacement dans le stock réservé et disponible à tout moment et n&quot;importe où."
+title: "Espace de travail mobile Stock disponible pour l&quot;application Microsoft Dynamics 365 for Operations"
+description: "Les applications mobiles de l&quot;espace de travail Stock disponible vous permet d&quot;acquérir des connaissances mobiles sur les stocks réservés et disponibles à tout moment et n&quot;importe où."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,72 +25,72 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="inventory-on-hand-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>L'espace de travail portable de stock disponibles pour Microsoft Dynamics 365 pour l'application Opérations
+# <a name="inventory-on-hand-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Espace de travail mobile Stock disponible pour l'application Microsoft Dynamics 365 for Operations
 
-Les applications mobiles de l'espace de travail de stock disponible vous gagnez des analyses déplacement dans le stock réservé et disponible à tout moment et n'importe où. 
+Les applications mobiles de l'espace de travail Stock disponible vous permet d'acquérir des connaissances mobiles sur les stocks réservés et disponibles à tout moment et n'importe où. 
 
 <a name="prerequisites"></a>Conditions préalables
 -------------
 
 | Logiciel requis                                                         | description ;                                                                                                                                        |
 |----------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| Disposer connaissances Microsoft Dynamics 365 pour la plateforme mobiles d'opérations | [Dynamics 365 pour plateforme mobile opérations] (/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)                                   |
-| Dynamics 365 pour les opérations                                          | Un environnement avec Microsoft Dynamics 365 pour la version 1611 d'opérations et Microsoft Dynamics pour la mise à jour 3 de plateforme Opérations (novembre 2016) |
-| Base de connaissances 3215650 de correctif                                                    | Installez le correctif pour activer des espaces de travail autorisés dans votre Microsoft Dynamics 365 pour les opérations.                                       |
-| Appareil mobile qui a Dynamics 365 pour l'application Opérations installée | Téléchargez Dynamics 365 pour l'application Opérations de votre magasin portable d'application.                                                                           |
+| En savoir plus sur la plateforme mobile Microsoft Dynamics 365 for Operations | [Plateforme mobile Dynamics 365 for Operations](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)                                   |
+| Dynamics 365 for Operations                                          | Un environnement disposant de la version 1611 de Microsoft Dynamics 365 for Operations et de la mise à jour 3 de Microsoft Dynamics for Operations (novembre 2016). |
+| Correctif de la Base de connaissances 3215650                                                    | Installez le correctif pour activer les espaces de travail fournis dans votre Microsoft Dynamics 365 for Operations.                                       |
+| Appareil mobile sur lequel l'application Dynamics 365 for Operations est installée | Téléchargez l'application Dynamics 365 for Operations à partir de votre magasin d'application mobile.                                                                           |
 
 ## <a name="introduction"></a>Introduction
-Généralement, les sociétés ont plusieurs expéditions et les réceptions plusieurs du stock chaque jour. Ces mouvements modifient constamment le statut du stock disponible. L'espace de travail portable du stock disponible vous permet de consulter le statut de stock disponible de société croisée, vous permettant d'obtenir les dernières analyses dans les données de stock sous l'périphérique mobile de votre choix. Que si vous travaillez dans l'entrepôt, les achats, les ventes, la fabrication, ou de gestion, ou avoir d'autres rôles, vous pouvez accéder aux données de stock disponible à tout moment et n'importe où. L'espace de travail portable fournit une vue instantanée du statut disponible sur plusieurs établissements, et vous permet d'afficher le stock disponible dans les outils, les réservations actuelles matières, et le stock disponible franc. Vous pouvez également entrer les numéros d'article pour rechercher le stock disponible, puis effectuer une recherche filtrée des produits disponibles ou des variantes. Spécifiquement, l'espace de travail portable fournit ces fonctions :
+Généralement, les sociétés ont plusieurs expéditions et plusieurs réceptions de stock chaque jour. Ces mouvements modifient constamment le statut du stock disponible. L'espace de travail Stock disponible vous permet de voir l'état du stock en ligne afin d'obtenir les dernières informations sur les données de stock sur votre appareil mobile. Que vous travailliez dans l'entrepôt, les achats, les ventes, la fabrication ou la gestion, ou que vous ayez d'autres rôles, vous pouvez accéder aux données de stock en temps réel à tout moment et n'importe où. L'espace de travail mobile fournit une vue instantanée de l'état de la main-d'œuvre dans toutes les installations et vous permet de voir le stock disponible dans les installations, les réservations matérielles actuelles et le stock non réservé. Vous pouvez également entrer les numéros d'article pour rechercher le stock disponible, puis effectuer une recherche filtrée des produits ou des variantes disponibles. Spécifiquement, l'espace de travail mobile fournit ces fonctions :
 
--   Vous pouvez rechercher le numéro ou le nom du produit de sous-produit pour trouver des produits pour afficher le statut de stock disponible.
--   Pour les produits sélectionnés, vous pouvez afficher les informations suivantes :
+-   Vous pouvez rechercher le numéro ou le nom du produit pour trouver des produits et afficher le statut du stock disponible.
+-   Vous pouvez afficher les informations suivantes pour les produits sélectionnés :
     -   Stock disponible par site
     -   Stock disponible par entrepôt
     -   Stock disponible par emplacement
     -   Stock disponible par lots (pour les produits contrôlés par lots)
-    -   Stock disponible par statut du stock
+    -   Stock disponible par statut de stock
 
 <!-- -->
 
--   Le stock disponible de produit est affiché comme suit :
-    -   Par le stock physique (cette vue représente le montant total.)
-    -   Par Physique réservé (cette vue représente le montant réservé.)
-    -   Par Physique disponible (cette vue représente le montant disponible qui n'a pas de réservation.)
+-   Le stock de produits disponible est affiché comme suit :
+    -   Par stock physique (cette vue représente la quantité totale.)
+    -   Par quantité physique réservée (cette vue représente la quantité réservée.)
+    -   Par quantité physique disponible (cette vue représente la quantité disponible qui n'est pas réservée.)
 
 ## <a name="get-started"></a>Mise en route
-Pour obtenir commencé sur votre périphérique mobile :
+Pour démarrer sur votre périphérique mobile :
 
-1.  Dans votre magasin portable d'application, chargez et installez Microsoft Dynamics 365 pour l'application Opérations.
-2.  Démarrez l'application de votre périphérique.
-3.  Permet d'entrer l'URL de Dynamics 365.
-4.  Entrez la société pour signer dans en. Par exemple, entrez ** USMF **.
-5.  La première fois que vous vous connectez, vous êtes invité à entrer le nom d'utilisateur et le mot de passe pour votre Microsoft Dynamics 365 pour le compte d'opérations. Entrez vos informations d'identification. Après avoir signer électroniquement dans, vous voyez des espaces de travail disponibles pour votre société.
+1.  Dans votre magasin d'application mobile, téléchargez et installez l'application Microsoft Dynamics 365 for Operations.
+2.  Démarrez l'application sur votre appareil.
+3.  Entrez votre URL Dynamics 365.
+4.  Entrez la société à laquelle vous vous connectez. Par exemple, entrez **USMF**.
+5.  Lorsque vous vous connectez pour la première fois, vous êtes invité à entrer le nom d'utilisateur et le mot de passe de votre compte Microsoft Dynamics 365 for Operations. Entrez vos informations d'identification. Une fois que vous êtes connecté, les espaces de travail disponibles pour votre société s'affichent.
 
-Pour afficher des espaces de travail de votre application mobile, vous devez d'abord envoyer des espaces de travail souhaités à Dynamics 365 pour l'application Opérations.
+Pour afficher les espaces de travail sur votre application mobile, vous devez d'abord publier les espaces de travail souhaités sur l'application Dynamics 365 for Operations.
 
-1.  Début Dynamics 365 pour les opérations.
-2.  Allez ** Administration du système ** &gt; ** au paramétrage ** &gt; ** des paramètres système **.
-3.  Sélectionnez ** de gérer l'application mobile **.
-4.  Sélectionnez l'espace de travail pour publier à la plateforme portable.
-5.  Sélectionnez ** publiez l'espace de travail **.
-6.  Permet d'actualiser le périphérique pour voir des espaces de travail émis.
+1.  Démarrez Dynamics 365 for Operations.
+2.  Accédez à **Administration système** &gt; **Paramétrage** &gt; **Paramètres système**.
+3.  Sélectionnez **Gérer l'application mobile**.
+4.  Sélectionnez l'espace de travail pour le publier sur la plateforme mobile.
+5.  Sélectionnez **Publier l'espace de travail**.
+6.  Actualisez votre appareil pour afficher les espaces de travail publiés.
 
-## <a name="view-the-onhand-inventory-for-a-product"></a>Affichez le stock de disponible pour un produit
-1.  Dans votre périphérique mobile, sélectionnez ** stock disponible ** l'espace de travail.
-2.  Sélectionnez ** vérifiez disponible pour un article **. Vous découvrez une liste des produits chargés dans votre application pour l'utilisation hors ligne. Par défaut, 50 articles sont validés, mais vous pouvez modifier ce numéro. Pour plus d'informations, voir le Manuel préalables à la fois.
-3.  Si votre article ne figure pas dans la liste, sélectionnez ** recherchez plus ** pour effectuer une recherche en ligne dans Dynamics 365 pour les opérations. Recherchez le nombre de produits, ou le basculez vers un nom de sous-produit de recherche.
+## <a name="view-the-onhand-inventory-for-a-product"></a>Afficher le stock disponible pour un produit
+1.  Sur votre appareil mobile, sélectionnez l'espace de travail **Stock disponible**.
+2.  Sélectionnez **Vérifier la disponibilité d'un article**. Vous découvrez une liste des produits chargés dans votre application pour l'utilisation hors ligne. Par défaut, 50 articles sont validés, mais vous pouvez modifier ce nombre. Pour plus d'informations, voir le manuel pré-lu.
+3.  Si votre article ne figure pas dans la liste, sélectionnez **Rechercher plus** pour effectuer une recherche en ligne dans Dynamics 365 for Operations. Recherchez le nombre de produits ou basculez vers une recherche par nom de produit.
 4.  Sélectionnez un produit. Si l'article est une image, l'image s'affiche.
 5.  Sélectionnez l'une des options suivantes pour afficher le statut du stock disponible :
-    -   Affichez disponible par site
-    -   Affichez disponible par entrepôt
-    -   Affichez disponible par emplacement
-    -   Affichez disponible par lots (pour les produits contrôlés par lots)
-    -   Affichez disponible par statut du stock
+    -   Afficher la disponibilité par site
+    -   Afficher la disponibilité par entrepôt
+    -   Afficher la disponibilité par emplacement
+    -   Afficher la disponibilité par lots (pour les produits contrôlés par lots)
+    -   Afficher la disponibilité par statut du stock
 
-    Le stock disponible de produit est affiché comme suit :
-    -   Par le stock physique (cette vue représente le montant total.)
-    -   Par Physique réservé (cette vue représente le montant réservé.)
-    -   Par Physique disponible (cette vue représente le montant disponible qui n'a pas de réservation.)
+    Le stock de produits disponible est affiché comme suit :
+    -   Par stock physique (cette vue représente la quantité totale.)
+    -   Par quantité physique réservée (cette vue représente la quantité réservée.)
+    -   Par quantité physique disponible (cette vue représente la quantité disponible qui n'est pas réservée.)
 
 
 

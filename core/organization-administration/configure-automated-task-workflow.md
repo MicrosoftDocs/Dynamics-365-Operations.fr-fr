@@ -1,5 +1,5 @@
 ---
-title: "Configuration d&quot;une tâche automatique dans un workflow"
+title: "Configurer une tâche automatique dans un workflow"
 description: "Cette rubrique explique comment configurer les propriétés d&quot;une tâche automatique."
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-an-automated-task-in-a-workflow"></a>Configuration d'une tâche automatique dans un workflow
+# <a name="configure-an-automated-task-in-a-workflow"></a>Configurer une tâche automatique dans un workflow
+
+[!include[banner](../includes/banner.md)]
+
 
 Cette rubrique explique comment configurer les propriétés d'une tâche automatique.
 
@@ -92,16 +95,18 @@ Vous pouvez envoyer des notifications aux personnes lorsqu'une tâche automatiqu
     </tr>
     <tr class="odd">
     <td>Utilisateur</td>
-    <td>Microsoft Dynamics spécifique 365 pour les utilisateurs d'opérations</td>
+    <td>Utilisateurs Microsoft Dynamics 365 for Operations spécifiques</td>
     <td><ol>
     <li>Sélectionnez <strong>Utilisateur</strong>, puis cliquez sur l'onglet <strong>Utilisateur</strong>.</li>
-    <li><strong>Utilisateurs disponibles</strong> La liste inclut tous les Dynamics 365 pour les utilisateurs d'opérations. Sélectionnez les utilisateurs à qui envoyer les notifications, puis déplacez-les dans la liste <strong>Utilisateurs sélectionnés</strong>.</li>
+    <li>La liste <strong>Utilisateurs disponibles</strong> inclut tous les utilisateurs Dynamics 365 for Operations. Sélectionnez les utilisateurs à qui envoyer les notifications, puis déplacez-les dans la liste <strong>Utilisateurs sélectionnés</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
     </table>
 
-8.  Répétez les étapes 3 à 7 pour chaque événement que vous avez sélectionné à l'étape 2.
+8.  Répétez les étapes 3 à 7 pour chaque événement que vous avez sélectionné à l'étape 2.
+
+
 
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="replenishment"></a>Réapprovisionnement
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article décrit les stratégies de réapprovisionnement disponibles pour les entrepôts qui utilisent la fonctionnalité qui est disponible dans Gestion des entrepôts.
 
 Cet article décrit les stratégies de réapprovisionnement disponibles pour les entrepôts qui utilisent la fonctionnalité qui est disponible dans Gestion des entrepôts. Ces informations ne s'appliquent pas à la solution de stockage disponible dans la Gestion des stocks. Il existe trois stratégies de réapprovisionnement :
@@ -67,6 +70,8 @@ Le réapprovisionnement de demande de chargement additionne la demande de plusie
 | Profils d'emplacement       | Les profils d’emplacement sont nécessaires pour créer des emplacements.                                                                                                                                                                                       |
 | Instructions d'emplacement     | Les directives d’emplacement sont nécessaires pour guider le travail vers les emplacements où le réapprovisionnement est requis et vers les emplacements d'où est tiré le stock.                                                                                     |
 | Modèles de travail          | Les modèles de travail du type **Réapprovisionnement** sont requis pour créer le travail de réapprovisionnement afin que le stock puisse être déplacé vers les emplacements souhaités.                                                                                           |
+
+
 
 
 

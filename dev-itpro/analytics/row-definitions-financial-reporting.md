@@ -45,7 +45,7 @@ Une définition de ligne est un composant de l’état, ou un bloc élémentaire
 Une définition de ligne peut contenir jusqu'à 20 000 lignes de dimensions financières et peut inclure les informations suivantes :
 
 -   Texte descriptif précisant le rapport en créant des titres de section, des lignes et des espaces tels que **Espèces** ou **Produit total**
--   Liens vers les données financières, qui peuvent inclure des valeurs de dimension dans Microsoft Dynamics 365 pour les opérations ** note : ** Vous pouvez configurer une définition de ligne pour extraire des données du système des dimensions financières chaque fois que le rapport est généré.
+-   Établit un lien vers les données financières, lesquelles peuvent inclure des valeurs de dimension dans Microsoft Dynamics 365 for Operations **Remarque :** vous pouvez configurer une définition de ligne pour extraire des données du système des dimensions financières chaque fois que le rapport est généré.
 -   Totaux de ligne et formules basés sur les données financières associées
 
 Généralement, chaque ligne d'une définition de ligne inclut un des types d'informations suivants :
@@ -64,7 +64,7 @@ Une dimension est une intersection de données et de valeurs. Vous pouvez regrou
 
 | Option                | Description                                                                                                                                                                                                                                                                      |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Dimension             | Le motif qui identifie la dimension à ajouter à la définition de ligne. Il contient une esperluette (et) ou le signe dièse (\#) pour chaque poste dans les dimensions. En général, utilisez les esperluettes pour la dimension Compte principal et tous les signes de numéros pour d'autres dimensions. |
+| Dimension             | Le motif qui identifie la dimension à ajouter à la définition de ligne. Ce motif contient une esperluette (&) ou symbole dièse (\#) pour chaque position dans les dimensions. En général, utilisez les esperluettes pour la dimension Compte principal et tous les signes de numéros pour d'autres dimensions. |
 | Début de la plage de dimensions | La première valeur de cette dimension à ajouter à la définition de ligne.                                                                                                                                                                                                                 |
 | Fin de la plage de dimensions   | La dernière valeur pour cette dimension à ajouter à la définition de ligne.                                                                                                                                                                                                                  |
 
@@ -73,9 +73,9 @@ Pour ajouter des dimensions à une définition de ligne, procédez comme suit.
 1.  Dans le générateur d'état, cliquez sur **Définitions de ligne**, puis ouvrez ensuite la définition de ligne à modifier.
 2.  Dans le menu **Édition**, cliquez sur **Insérer des lignes à partir des dimensions**.
 3.  Dans la boîte de dialogue **Insérer des lignes à partir de dimensions **, dans la ligne **Dimensions**, sélectionnez la cellule pour que la dimension soit transférée vers la définition de ligne, puis cliquez sur **Tout &&&**.
-4.  Pour limiter la définition de ligne à une plage spécifique de valeurs de dimension, saisissez la valeur de dimension de début dans la cellule ** Début de la plage de dimensions**, puis saisissez la valeur de dimension de fin dans la cellule **Fin de la plage de dimensions **. Pour inclure toutes les valeurs pour la dimension sélectionnée, laissez ces cellules vides. ** Remarque : ** Les caractères génériques (\* ou ?) dans les plages de dimensions ne renvoient pas les résultats que vous souhaitez, en fonction de le paramétrage de la base de données ERP assemblage des données.
+4.  Pour limiter la définition de ligne à une plage spécifique de valeurs de dimension, saisissez la valeur de dimension de début dans la cellule ** Début de la plage de dimensions**, puis saisissez la valeur de dimension de fin dans la cellule **Fin de la plage de dimensions **. Pour inclure toutes les valeurs pour la dimension sélectionnée, laissez ces cellules vides. **Remarque :** les caractères génériques (\* ou ?) dans les plages de dimensions peuvent ne pas renvoyer tous les résultats que vous souhaitez, selon la manière dont la base de données ERP collecte les données.
 5.  Dans le champ **Code ligne de début**, spécifiez le code de ligne pour la première valeur de dimension à ajouter à la définition de ligne.
-6.  Dans le champ **Incrémenter chaque ligne de**, spécifiez l'intervalle entre les codes de ligne consécutifs. Par exemple, si le premier code ligne est 100, et la valeur d'incrément est 30, les premières lignes possèdent les codes 100, 130, 160, 190, et 220. Utilisez une valeur d'incrément qui fournit de l'espace suffisant à de nouvelles lignes de format et de formule insertion.
+6.  Dans le champ **Incrémenter chaque ligne de**, spécifiez l'intervalle entre les codes de ligne consécutifs. Par exemple, si le premier code ligne est 100 et que la valeur d'incrément est 30, les premières lignes possèdent les codes 100, 130, 160, 190 et 220. Utilisez une valeur d'incrément qui laisse un espace suffisant pour insérer de nouvelles lignes de format et de formule.
 7.  Cliquez sur **OK**. Pour chaque valeur de dimension sélectionnée, une ligne est ajoutée à la définition de ligne.
 
 ## <a name="adjust-rounding-in-a-row-definition"></a> Ajustement de l'arrondi dans une définition de ligne
@@ -99,7 +99,7 @@ Pour ajuster l'arrondi dans un bilan, procédez comme suit.
 
     **Remarque : **Ces codes de ligne doivent être liés à vos données financières. Autrement dit, la ligne doit spécifier une valeur de dimension dans sa cellule **Liens vers les dimensions financières**. Ne fait **pas** référence à une description (**DESC**), à une ligne calculée (**CALC**) ou totalisée (**TOT**).
 
-Les montants de votre bilan s'équilibreront de manière équitable lorsque l'arrondi est activé. **Remarque : **La limite d'ajustement est appliquée en fonction de l'option **Précision arrondi** spécifiée pour la définition de rapport. Par exemple, si vous choisissez d'arrondir votre rapport au millier et de saisir **2** dans le champ **Limite du montant d'ajustement**, vous recevez un message d'avertissement lorsque la valeur identifiée dans le champ **Ligne d'ajustement d'arrondi** augmente ou diminue de plus de 2 000 EUR.
+Les montants de votre bilan s'équilibreront de manière équitable lorsque l'arrondi est activé. **Remarque : **La limite d'ajustement est appliquée en fonction de l'option **Précision arrondi** spécifiée pour la définition de rapport. Par exemple, si vous choisissez d'arrondir votre rapport au millier et de saisir **2** dans le champ **Limite du montant d'ajustement**, vous recevez un message d'avertissement lorsque la valeur identifiée dans le champ **Ligne d'ajustement d'arrondi** augmente ou diminue de plus de 2 000 EUR.
 
 ## <a name="format-row-and-column-text"></a>Mise en forme du texte de ligne et de colonne
 Vous pouvez personnaliser l'apparence de vos rapports en modifiant les polices et en mettant le texte en forme. Les sections suivantes expliquent comment mettre en forme l'apparence des lignes et colonnes des états.
@@ -146,7 +146,7 @@ Cette mise en forme spécifiée dans la définition de colonne remplace la mise 
 
 1.  Dans le Concepteur de rapports, ouvrez la définition de ligne à modifier.
 2.  Sélectionnez les cellules à mettre en forme. Pour sélectionner plusieurs cellules, maintenez la touche CTRL enfoncée tout en sélectionnant les cellules souhaitées.
-3.  Cliquez sur le bouton de format à appliquer. Par exemple, pour mettre en retrait une ligne, sélectionnez -la, puis cliquez sur ** retrait ** d'augmentation ! [Augmenter] d'augmentation (https://i-technet.sec.s-msft.com/dynimg/IC679497.gif « retrait augmentation d' ») dans la barre d'outils.
+3.  Cliquez sur le bouton de format à appliquer. Par exemple, pour mettre en retrait une ligne, sélectionnez la ligne, puis cliquez sur **Augmenter le retrait** ![Augmenter le retrait](https://i-technet.sec.s-msft.com/dynimg/IC679497.gif "Augmenter le retrait") dans la barre d'outils.
 
 ### <a name="adjust-columns-while-you-design-reports"></a>Ajustement des colonnes durant la création des rapports
 
@@ -173,6 +173,6 @@ Pour faciliter l'affichage des colonnes sur lesquelles vous travaillez dans la d
 <a name="see-also"></a>Voir également :
 --------
 
-[États financiers pour Microsoft Dynamics 365 pour opérations] (financial-reporting-intro.md)
+[Génération d'états financiers pour Microsoft Dynamics 365 for Operations](financial-reporting-intro.md)
 
 

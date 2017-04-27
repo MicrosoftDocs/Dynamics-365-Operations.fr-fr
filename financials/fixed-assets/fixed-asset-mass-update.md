@@ -1,6 +1,6 @@
 ---
 title: "Mise à jour collective des immobilisations"
-description: "Si vous utilisez des registres, vous pouvez modifier les conventions d&quot;amortissement pour des groupes d&quot;immobilisations faisant partie du même caisse enregistreuse."
+description: "Si vous utilisez des registres, vous pouvez modifier les conventions d&quot;amortissement pour les groupes d&quot;immobilisations faisant partie du même registre."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-asset-mass-update"></a>Mise à jour collective des immobilisations
 
-Si vous utilisez des registres, vous pouvez modifier les conventions d'amortissement pour des groupes d'immobilisations faisant partie du même caisse enregistreuse.
+[!include[banner](../includes/banner.md)]
+
+
+Si vous utilisez des registres, vous pouvez modifier les conventions d'amortissement pour les groupes d'immobilisations faisant partie du même registre.
 
 Par exemple, si vous vous trouvez aux États-Unis et que vous placez plus de 40 pour cent de vos immobilisations en service durant le quatrième trimestre de l'année, vous devez utiliser la convention d'amortissement à mi-trimestre. Vous pouvez utiliser le processus pour effectuer une mise à jour collective afin de modifier toutes les immobilisations nécessitant la nouvelle convention d'amortissement. 
 
@@ -36,6 +39,8 @@ Lorsque vous mettez à jour la convention d'amortissement pour les actifs, vous 
 Pour mettre à jour la convention d'amortissement pour des immobilisations déjà cédées, vous devez commencer par supprimer les transaction de cession existantes. Vous devez également supprimer toutes les transactions générées en raison du processus de cession. 
 
 Une fois la convention d'amortissement mise à jour pour les immobilisations, vous pouvez traiter l'amortissement et un amortissement exceptionnel pour chaque immobilisation. Vous pouvez également opérer des ajustements d'amortissement manuels si nécessaire.
+
+
 
 
 

@@ -102,7 +102,7 @@ Il existe deux manières de planifier la création récurrente du travail d'inve
 
 ### <a name="create-cycle-counting-work-based-on-threshold-parameters-for-items"></a>Créer un inventaire tournant basé sur des paramètres de seuil pour les articles
 
-Le travail d'inventaire tournant peut être créé lorsque le nombre d'articles passe en dessous d'une valeur de seuil spécifique dans un emplacement. Par exemple, s'il y a 60 articles dans un emplacement dans laquelle le seuil d'inventaire optimisation de 40. Lors d'une transaction de commande client, 25 articles sont prélevés du lieu et entrées dans un emplacement d'échelonnement. Étant donné que le nombre d'articles restants, 35, est inférieur à la quantité de seuil, un travail d'inventaire tournant est automatiquement créé pour l'emplacement.
+Le travail d'inventaire tournant peut être créé lorsque le nombre d'articles passe en dessous d'une valeur de seuil spécifique dans un emplacement. Par exemple, supposons que vous ayez 60 articles dans un emplacement dont le seuil d'inventaire tournant est de 40. Lors d'une transaction de commande client, 25 articles sont prélevés de l'emplacement et placés dans un emplacement temporaire. Étant donné que le nombre d'articles restants, 35, est inférieur à la quantité de seuil, un travail d'inventaire tournant est automatiquement créé pour l'emplacement.
 
 ### <a name="schedule-cycle-counting-work"></a>Planification d'un travail d'inventaire tournant
 
@@ -129,7 +129,7 @@ L'exemple suivant montre comment vous pouvez effectuer un inventaire tournant po
 ## <a name="resolve-cycle-counting-differences"></a>Résoudre les différences de l'inventaire tournant
 Une différence au niveau de l'inventaire tournant se produit dans les scénarios suivants si l'option **Superviseur d'inventaire tournant** est réglée sur **Non** pour un ID utilisateur de travail :
 
--   La valeur d'inventaire tournant n'est pas comprise dans les limites d'écart spécifiées dans les champs **Limite maximale du pourcentage** ou **Limite maximale de la quantité** dans la page **Utilisateurs du travail**. Par exemple, la quantité de stock disponible dans un emplacement est 50, et la limite d'écart pour l'utilisateur de travail est 10. Si l'utilisateur de travail entre une valeur qui n'est pas comprise entre 40 et 60, une différence se produit.
+-   La valeur d'inventaire tournant n'est pas comprise dans les limites d'écart spécifiées dans les champs **Limite maximale du pourcentage** ou **Limite maximale de la quantité** dans la page **Utilisateurs du travail**. Par exemple, la quantité de stock disponible dans un emplacement est de 50 et la limite d'écart pour l'utilisateur de travail est de 10. Si l'utilisateur de travail entre une valeur qui n'est pas comprise entre 40 et 60, une différence se produit.
 -   La valeur d'inventaire tournant diffère de la quantité de stock disponible et aucune limite d'écart n'est définie.
 
 Ajustez les différences dans la valeur d'inventaire puis acceptez la valeur d'inventaire dans la page **Inventaire tournant en attente de révision**. Vous pouvez vérifier le compte modifié de la quantité d'articles dans la page **Disponible par emplacement**. La valeur d'inventaire est rejetée si la différence ne peut pas être approuvée.

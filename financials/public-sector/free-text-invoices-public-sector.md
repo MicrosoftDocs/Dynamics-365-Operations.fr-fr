@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="free-text-invoices-in-the-public-sector"></a>Factures financières dans le secteur public
 
+[!include[banner](../includes/banner.md)]
+
+
 Cette rubrique décrit la fonctionnalité de facture financière disponible pour le secteur public et répond aux questions courantes sur l'utilisation des classifications de facturation et des codes de facturation avec les factures financières.
 
 <a name="do-i-have-to-select-a-billing-classification-for-every-free-text-invoice"></a>Dois-je sélectionner une classification de facturation pour chaque facture financière ?
@@ -51,18 +54,20 @@ Les paramètres du code facturation contrôlent si vous pouvez modifier certains
 -   Si le code facturation sur une ligne de facture financière n'autorise pas les modifications de taux sur la facture, vous ne pouvez pas modifier le montant, le prix unitaire ni les détails du montant sur la ligne. 
 
 > [!TIP] 
-> Si ** code facturation détermine ** le champ est défini au prix unitaire, vous ne pouvez pas modifier le prix unitaire, mais vous pouvez modifier le montant indirectement en modifiant la quantité.
+> Si le champ **Le code facturation détermine** est défini à « prix unitaire », vous ne pouvez pas modifier le prix unitaire, mais vous pouvez modifier le montant indirectement en modifiant la quantité.
 
 -   Si le code facturation sur une ligne de facture financière n'autorise pas les modifications aux comptes généraux, vous ne pouvez pas modifier les répartitions comptables sur la ligne. Vous pouvez modifier le compte principal qui s'affiche sur la ligne de facture financière, mais cette modification a un impact uniquement sur ce qui s'affiche. Modifier le compte principal n'affecte pas les répartitions.
 -   Lorsqu'un projet est associé à la ligne de facture, le code facturation contrôle si vous pouvez modifier l'ID projet, la catégorie et le compte général. 
 
 > [!TIP] 
-> Pour modifier la comptabilité pour les lignes de facture relatives aux projets, il ne faut autoriser les modifications du code facturation proprement dit et dans la section des projets de la page Paramètres des ventes.
+> Pour modifier le compte général pour les lignes de facture associées à des projets, les modifications doivent être autorisées à la fois sur le code facturation lui-même et dans la section Projets de la page Paramètres de la comptabilité client.
 
 Pour plus d'informations sur les codes facturation, voir [Classifications de facturation et codes facturation dans le secteur public](billing-classifications-billing-codes-public-sector.md).
 
 ## <a name="where-does-the-interest-code-on-a-free-text-invoice-come-from"></a>D'où vient le code intérêt sur une facture financière ?
 Le code intérêt peut être défini sur le code facturation, la classification de facturation ou le profil de validation.
+
+
 
 
 

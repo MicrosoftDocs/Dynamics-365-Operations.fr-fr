@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="credit-card-setup-authorization-and-capture"></a>Paramétrage, autorisation et capture de carte de crédit
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article fournit une vue d'ensemble de l'autorisation de carte de crédit dans Microsoft Dynamics AX. Il inclut des informations sur le paramétrage d'un service de paiement, l'ajout d'une carte de crédit à une commande client et l'annulation d'une autorisation.
 
 <a name="setting-up-the-credit-card-payment-service"></a>Paramétrage du service de paiement par carte de crédit
@@ -55,7 +58,7 @@ Vous pouvez demander le numéro de vérification de carte, parfois appelé code 
 
 ### <a name="address-verification"></a>Vérification de l'adresse
 
-Les informations de vérification d'adresse sont toujours envoyées au fournisseur de paiement. Vous pouvez décider la quantité d'informations requises pour une transaction soit acceptée. Veillez à vérifier avec votre fournisseur pour déterminer s'il accepte ces informations. Voici les options pour la vérification de l'adresse :
+Les informations de vérification d'adresse sont toujours envoyées au fournisseur de paiement. Vous pouvez choisir la quantité d'informations requises pour qu'une transaction soit acceptée. Vérifiez auprès de votre fournisseur pour déterminer s'il accepte ces informations. Voici les options pour la vérification de l'adresse :
 -   **Toujours accepter la transaction** – Permet d'accepter la transaction, quel que soit le résultat de la vérification d'adresse.
 -   **Titulaire du compte** – Permet de comparer le nom du titulaire de la carte dans la transaction aux informations de la société émettrice de la carte de crédit.
 -   **Adresse de facturation** – Permet de comparer le nom et l'adresse de facturation du titulaire de la carte pour la transaction aux informations de la société émettrice de la carte de crédit.
@@ -68,10 +71,12 @@ Vous pouvez spécifier le niveau de prise en charge des données pour chaque typ
 -   **Niveau 3** – Permet de transférer les informations de niveau 2, ainsi que les informations de ligne de commande.
 
 ## <a name="partial-payments"></a>Paiements partiels
-Si vous expédiez une partie d'une commande, le montant de la commande partielle est capturé, et l'autorisation, qui concernant le montant de la commande entière, est clôturée. Une nouvelle autorisation est alors envoyée pour le montant restant de la commande qui n'a pas été expédiée.
+Si vous expédiez une partie d'une commande, le montant de la commande partielle est capturé, et l'autorisation, qui concernant le montant de la commande entière, est clôturée. Une nouvelle autorisation est ensuite soumise pour le montant restant de la commande qui n'a pas été expédié.
 
 ## <a name="voiding-an-authorization"></a>Annulation d'une autorisation 
 Pour annuler une autorisation de carte de crédit, vous pouvez modifier le mode de paiement avec un autre mode ne disposant pas d'un type de carte de crédit.
+
+
 
 
 

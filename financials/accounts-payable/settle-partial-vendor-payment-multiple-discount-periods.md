@@ -1,5 +1,5 @@
 ---
-title: "Règlement d&quot;un paiement partiel fournisseur ayant des périodes de remise plusieurs"
+title: "Règlement d&quot;un paiement fournisseur partiel avec plusieurs périodes de remise"
 description: "Cet article vous fait parcourir les étapes d&quot;un scénario dans lequel plusieurs paiements partiels sont effectués pour un fournisseur qui offre plusieurs escomptes de règlement."
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-vendor-payment-that-has-multiple-discount-periods"></a>Règlement d'un paiement partiel fournisseur ayant des périodes de remise plusieurs
+# <a name="settle-a-partial-vendor-payment-that-has-multiple-discount-periods"></a>Règlement d'un paiement fournisseur partiel avec plusieurs périodes de remise
+
+[!include[banner](../includes/banner.md)]
+
 
 Cet article vous fait parcourir les étapes d'un scénario dans lequel plusieurs paiements partiels sont effectués pour un fournisseur qui offre plusieurs escomptes de règlement. 
 
 Le fournisseur 3054 offre à Fabrikam un escompte de règlement de 2 % si la facture est payée dans les cinq jours, et un escompte de règlement de 1 % si la facture est payée dans les 14 jours.
 
 ## <a name="invoice"></a>Facture
-Le 28 juin, elle le crée une facture de 1.000,00 pour le fournisseur 3054. Elle peut consulter cette transaction sur la page **Transactions fournisseur**.
+Le 28 juin, April crée une facture de 1 000,00 pour le fournisseur 3054. Elle peut consulter cette transaction sur la page **Transactions fournisseur**.
 
 | N° document   | Date      | Facture | Montant au débit dans la devise de transaction | Montant au crédit dans la devise de transaction | Solde   | Devise |
 |-----------|-----------|---------|--------------------------------------|---------------------------------------|-----------|----------|
@@ -48,7 +51,7 @@ Les dates et montants d'escompte de règlement suivants sont applicables à cett
 | 7/25/2015          | 0,00                 | 1 000,00                       |
 
 ## <a name="payment-on-july-2"></a>Paiement le 2 juillet
-Le 2 juillet, elle le souhaite payer 300,00 pour cette facture. Elle crée un paiement unique à l'aide ** journal des paiements ** de la page dans Achats. Elle ajoute une ligne pour le fournisseur 3054 et entre un montant de paiement de **300,00**. April ouvre ensuite la page **Régler les transactions**, afin de pouvoir marquer la facture qui est réglée. Elle met à jour la valeur du champ **Montant à régler** avec **300,00** et observe que la valeur du champ **Montant de l'escompte de règlement à accepter** est passée à **6,12**. Ce paiement étant effectué dans la première période de remise, une remise de 2 % est prélevée.
+Le 2 juillet, April souhaite régler 300,00 de cette facture. Elle crée un paiement unique à l'aide de la page **Journal des paiements** dans la comptabilité fournisseur. Elle ajoute une ligne pour le fournisseur 3054 et entre un montant de paiement de **300,00**. April ouvre ensuite la page **Régler les transactions**, afin de pouvoir marquer la facture qui est réglée. Elle met à jour la valeur du champ **Montant à régler** avec **300,00** et observe que la valeur du champ **Montant de l'escompte de règlement à accepter** est passée à **6,12**. Ce paiement étant effectué dans la première période de remise, une remise de 2 % est prélevée.
 
 | Marquer | Utiliser un escompte de règlement | N° document   | Compte | Date      | Date d'échéance  | Facture | Montant dans la devise de transaction | Devise | Montant à régler |
 |------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -134,6 +137,8 @@ Le 20 juillet, April crée un paiement final de 200,00. Aucune escompte de règl
 | APP-10061  | 7/12/2015 |         | 495,00                               |                                       | 0,00    | USD      |
 | DISC-10061 | 7/12/2015 |         | 5,00                                 |                                       | 0,00    | USD      |
 | APP-10062  | 20/7/2015 |         | 200,00                               |                                       | 0,00    | USD      |
+
+
 
 
 

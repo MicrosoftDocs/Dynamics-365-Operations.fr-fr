@@ -1,6 +1,6 @@
 ---
 title: Distribuer et remplir un questionnaire
-description: "Cette rubrique explique comment distribuer des questionnaires qui vous conception, afin qu&quot;ils soient à la disposition de la personne ou du groupe de personnes qui les terminent."
+description: "Cette rubrique décrit comment distribuer les questionnaires que vous créez pour qu&quot;ils soient à la disposition de la personne ou du groupe de personnes qui les complèteront."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,7 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="distribute-and-complete-a-questionnaire"></a>Distribuer et remplir un questionnaire
 
-Cette rubrique explique comment distribuer des questionnaires qui vous conception, afin qu'ils soient à la disposition de la personne ou du groupe de personnes qui les terminent. 
+Cette rubrique décrit comment distribuer les questionnaires que vous créez pour qu'ils soient à la disposition de la personne ou du groupe de personnes qui les complèteront. 
 
 Il existe plusieurs méthodes pour distribuer un questionnaire :
 
@@ -38,7 +38,7 @@ Il existe plusieurs méthodes pour distribuer un questionnaire :
 -   Créer un programme. Le questionnaire peut alors être accessibles à plusieurs personnes.
 
 ## <a name="marking-a-questionnaire-as-active"></a>Marquer un questionnaire comme actif
-En définissant ** Active ** le champ comme ** Oui ** sur ** des questionnaires ** la page, vous consultez le questionnaire disponible pour tous les employés suivent. Les personnes interrogées peuvent terminer la plusieurs fois de questionnaire. Cette fonctionnalité est utile si vous souhaitez collecter le commentaire continuel au cours de l'année. Par exemple, vous pouvez confectionner un questionnaire pour que les employés donnent leurs commentaires sur le service de déjeuner de la cafétéria.
+En définissant le champ **Actif** sur **Oui** dans la page **Questionnaires**, le questionnaire est mis à disposition de tous les employés pour qu'ils le remplissent. Les personnes interrogées peuvent remplir le questionnaire à plusieurs reprises. Cette fonctionnalité est utile si vous souhaitez collecter des commentaires continuels au cours de l'année. Par exemple, vous pouvez confectionner un questionnaire pour que les employés donnent leurs commentaires sur le service de déjeuner de la cafétéria.
 
 ## <a name="questionnaire-groups"></a>Groupes de questionnaires
 Vous pouvez paramétrer des groupes de questionnaires puis y inclure les personnes interrogées auxquelles un questionnaire doit être distribué. 
@@ -48,7 +48,7 @@ Vous pouvez créer des groupes de questionnaires dans les pages suivantes :
 -   **Groupes de questionnaire **– Seules les personnes d'un groupe de questionnaires peuvent remplir un questionnaire sélectionné. Par exemple, si le public visé est constitué de fournisseurs, vous pouvez créer un groupe de questionnaires spécifiques à ces personnes interrogées.
 -   **Membres du groupe de questionnaire** – Vous pouvez ajouter des personnes aux groupes de questionnaire.
 
-Pour affecter un groupe de questionnaires à un questionnaire, sous ** questionnaires ** la page, cliquez sur ** droits d'utilisateur **. Une fois le questionnaire soit enregistré comme actif, les membres du groupe de questionnaires peuvent remplir le questionnaire. Cette fonctionnalité est utile si vous souhaitez tester un questionnaire d'un groupe choisi de personnes avant de le rouliez à un plus grand groupe, ou si vous souhaitez être un questionnaire à une assistance très spécifique.
+Pour affecter un groupe de questionnaires à un questionnaire, dans la page **Questionnaires**, cliquez sur **Droits de l'utilisateur**. Une fois que le questionnaire est enregistré comme actif, les membres du groupe de questionnaires peuvent remplir le questionnaire. Cette fonctionnalité est utile si vous souhaitez tester un questionnaire sur une sélection de personnes avant de distribuer à un plus grand groupe, ou si vous souhaitez cibler un questionnaire sur une audience très spécifique.
 
 ## <a name="planned-answer-sessions-in-a-questionnaire"></a>Sessions de réponse prévues dans un questionnaire
 Les sessions de réponse prévues sont des questionnaires que vous avez créés et pour lequel vous avez sélectionné les personnes interrogées. 
@@ -82,24 +82,24 @@ Vous pouvez spécifier les types de planification pour un programme de questionn
 
 Les types de référence aident à entrer les critères de sélection des personnes interrogées lorsque vous planifiez un questionnaire. 
 
-Utilisez la page **Types de référence** pour paramétrer les types de référence pour un questionnaire. Chaque type de référence correspond à une table dans Microsoft Dynamics 365 pour les opérations. Lorsque vous créez des programmes de questionnaires, vous pouvez spécifier des enregistrements individuels dans la table ou une plage d'enregistrements qui seront associés au questionnaire. 
+Utilisez la page **Types de référence** pour paramétrer les types de référence pour un questionnaire. Chaque type de référence correspond à une table dans Microsoft Dynamics 365 for Operations. Lorsque vous créez des programmes de questionnaires, vous pouvez spécifier des enregistrements individuels dans la table ou une plage d'enregistrements qui seront associés au questionnaire. 
 
 Par exemple, si vous sélectionnez la table Cours, vous pouvez décider à quel cours spécifique le questionnaire se rapporte. Lorsque vous paramétrez un type de référence pour la table Cours, certains champs et boutons de la page **Cours** deviennent disponibles.
 
 ### <a name="questionnaire-schedules"></a>Programmes de questionnaire
 
-Vous pouvez utiliser des programmes de questionnaire pour générer les sessions de réponse prévues plusieurs pour un groupe d'utilisateurs, selon un type de référence. Créez un programme sur ** des programmes de questionnaire ** la page. Sélectionnez le type de planification pour enregistrer le programme par catégorie, puis sélectionnez également le type de référence qui doit être utilisé pour rechercher le système pour des utilisateurs spécifiques. Par exemple, si vous définissez le type de référence aux cours table, vous pouvez sélectionner un cours spécifique ** référence ** du champ. 
+Vous pouvez utiliser des programmes de questionnaire pour générer plusieurs sessions de réponse prévues pour un groupe d'utilisateurs, selon le type de référence. Créez un programme dans la page **Programmes de questionnaire**. Sélectionnez le type d'organisation pour classer le programme, et pour sélectionner le type de référence qui doit être utilisé pour interroger le système pour des utilisateurs spécifiques. Par exemple, si vous définissez le type de référence sur la table Cours, vous pouvez sélectionner un cours spécifique dans le champ **Référence**. 
 
-Cliquez sur **Détails de la configuration** pour sélectionner le questionnaire et d'autres critères. Par exemple, spécifiez le nom de l'instructeur comme critère si le questionnaire est une évaluation de l'instructeur. Lorsque vous avez terminé d'entrer les informations de paramétrage, le système génère des sessions de réponse prévues pour les utilisateurs qui sont inclus dans la requête. 
+Cliquez sur **Détails de la configuration** pour sélectionner le questionnaire et d'autres critères. Par exemple, spécifiez le nom de l'instructeur comme critère si le questionnaire est une évaluation de l'instructeur. Après avoir terminé d'entrer les détails de configuration, le système génère des sessions de réponse prévues pour les utilisateurs qui sont inclus dans la requête. 
 
 Cliquez sur **Sessions de réponse prévues** pour afficher les sessions de réponse pour le programme. Vous pouvez ensuite créer manuellement des sessions de réponse prévues supplémentaires ou supprimer des sessions de réponse prévues qui n'ont pas reçu de réponse. 
 
-Cliquez sur ** fonctions ** &gt; ** début ** pour mettre le questionnaire aux utilisateurs en sessions de réponse prévues. Cliquez sur **Réponses** pour afficher les réponses apportées au questionnaire. Vous pouvez également copier les paramètres de planification des questionnaires, les sessions de réponse prévues, et les réponses à un nouveau programme de questionnaire.
+Cliquez sur **Fonctions** &gt; **Démarrer** pour que le questionnaire soit disponible aux utilisateurs des sessions de réponse prévues associées. Cliquez sur **Réponses** pour afficher les réponses apportées au questionnaire. Vous pouvez également copier les paramètres de planification des questionnaires, les sessions de réponse prévues, et les réponses à un nouveau programme de questionnaire.
 
 ## <a name="notifying-respondents-about-questionnaires-that-are-available-to-them"></a>Notifier les personnes interrogées sur les questionnaires à leur disposition
 Lorsque vous distribuez un questionnaire, vous devez informer les personnes interrogées que des questionnaires sont disponibles. 
 
-** Remarque : ** Les personnes interrogées doivent être des utilisateurs de Microsoft Dynamics 365 pour les opérations a complété un questionnaire.
+**Remarque :** les personnes interrogées doivent être des utilisateurs de Microsoft Dynamics 365 for Operations pour remplir un questionnaire.
 
 ### <a name="notifying-respondents-about-a-planned-answer-session"></a>Notifier les personnes interrogées d'une session de réponse prévue
 
@@ -107,7 +107,7 @@ Si vous utilisez une session de réponse prévue, vous devez informer la personn
 
 ### <a name="notifying-respondents-about-a-scheduling"></a>Notifier les personnes interrogées d'un programme
 
-Utilisez la page **Programmes de questionnaire** pour préparer et envoyer un e-mail à toutes les personnes interrogées affectées au questionnaire. Entrez le texte de l'e-mail sous l'onglet **E-mail pour le libre-service pour employés** l'onglet. Une fois le programme démarré, cliquez sur ** des fonctions ** &gt; ** envoyer l'e-mail ** pour générer et envoyer un e-mail aux personnes interrogées. Les personnes interrogées peuvent ensuite signer dans le site Web et remplir le questionnaire. 
+Utilisez la page **Programmes de questionnaire** pour préparer et envoyer un e-mail à toutes les personnes interrogées affectées au questionnaire. Entrez le texte de l'e-mail sous l'onglet **E-mail pour le libre-service pour employés** l'onglet. Une fois le programme démarré, cliquez sur **Fonctions** &gt; **Envoyer un e-mail** pour générer et envoyer l'e-mail aux personnes interrogées. Les personnes interrogées peuvent alors se connecter au site Web et remplir le questionnaire. 
 
 **Remarque :** avant d'utiliser la fonctionnalité d'e-mail, votre administrateur informatique doit entrer les paramètres d'e-mail dans la page **Paramètres d'e-mail**.
 
@@ -119,7 +119,7 @@ Vous pouvez mettre fin à un questionnaire planifié une fois que toutes les per
 ## <a name="completing-questionnaires"></a>Remplissage de questionnaires
 Une fois le questionnaire conçu et distribué, il peut être rempli par les personnes interrogées sélectionnées. Vous pouvez remplir les questionnaires disponibles à partir de deux emplacements :
 
--   Dans le volet de navigation, cliquez sur ** questionnaires ** &gt; ** distribuer ** &gt; ** exécutez un questionnaire **.
+-   Dans le volet de navigation, cliquez sur **Questionnaires** &gt; **Distribuer** &gt; **Remplir un questionnaire**.
 -   Dans le libre service employé, cliquez sur **Questionnaires à remplir**.
 
 Les questionnaires peuvent être accessibles à des utilisateurs ou groupes d'utilisateurs spécifiques, ou à tous les utilisateurs d'un réseau.
@@ -131,6 +131,6 @@ Les questionnaires peuvent être accessibles à des utilisateurs ou groupes d'ut
 
 [Utilisation de questionnaires](questionnaires.md)
 
-[Affichage et évaluer les résultats des questionnaires] (evaluate-questionnaire-results.md)
+[Affichage et évaluation des résultats des questionnaire](evaluate-questionnaire-results.md)
 
 

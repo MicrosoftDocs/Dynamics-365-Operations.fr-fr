@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="waive-reinstate-or-reverse-interest-fees"></a>Exonération, rétablissement ou contrepassation de commissions d'intérêt
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article explique comment exonérer, rétablir, et contrepasser les frais pour les intérêts et les frais.
 
 Les boutons de l'onglet **Collecter** de la page de liste **Tous les clients** vous permettent d'exonérer, de contrepasser ou de rétablir des frais :
@@ -43,7 +46,7 @@ Toutes ces actions modifient une note d'intérêt. Une note d'intérêt est un d
 | Contrepassez des notes d'intérêt complètes. –or– Contrepassez les transactions d'intérêt sélectionnées qui font partie des notes d'intérêt. **Remarque :** Vous ne pouvez pas contrepasser des frais. Toutefois, vous pouvez contrepasser une note d'intérêt complète qui inclut des frais. | Les frais ne sont plus dus par le client. Toutefois, les frais sont de nouveau dus si vous recalculez les intérêts. | La procédure est identique à l'exonération des notes d'intérêt ou des transactions d'intérêt sélectionnées. Un avoir ou une facture d'ajustement est créé pour le client. Cet avoir permet de régler automatiquement la note d'intérêt. Vous pouvez utiliser une procédure distincte pour recalculer les intérêts et créer une note d'intérêt.                                                                                                                                                                                                                                                                                                                                                                                              |
 
 > [!NOTE] 
-> Vous pouvez utiliser une procédure distincte pour annuler les créances irrécouvrables. Ce processus marque toutes les transactions client pour règlement, plutôt que d'exonérer uniquement les frais faisant partie des notes d'intérêt.
+> Vous pouvez également utiliser une procédure distincte pour annuler les créances irrécouvrables. Ce processus marque toutes les transactions client pour règlement, plutôt que d'exonérer uniquement les frais faisant partie des notes d'intérêt.
 
 ## <a name="adjust-interest-for-invoices"></a>Ajustement des intérêts figurant sur les factures
 Outre l'ajustement des notes d'intérêt, vous pouvez supprimer les frais d'intérêts des factures par l'intermédiaire de l'une des procédures suivantes Les deux procédures appliquent également des ajustements aux notes d'intérêt associées.
@@ -89,5 +92,7 @@ Vous pouvez contrepasser les transactions d'intérêt par l'intermédiaire du bo
 Vous pouvez afficher un historique détaillé des ajustements effectués pour les notes d'intérêt (utilisateur ayant entré l'ajustement, type d'ajustement, montant et date de saisie de l'ajustement). Par exemple, vous pouvez afficher les ajustements précédemment entrés pour une note d'intérêt avant d'en créer une. 
 
 Vous pouvez contrepasser les transactions d'intérêt par l'intermédiaire du bouton **Historique **sous l'onglet **Collecter** de la page **Client**.
+
+
 
 

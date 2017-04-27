@@ -1,5 +1,5 @@
 ---
-title: "Calculez la consommation de matières"
+title: "Calculer la consommation de matières"
 description: "Cet article fournit des informations sur les différentes options relatives au calcul de la consommation de matières."
 author: YuyuScheller
 manager: AnnBe
@@ -27,22 +27,25 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="calculate-material-consumption"></a>Calculez la consommation de matières
+# <a name="calculate-material-consumption"></a>Calculer la consommation de matières
+
+[!include[banner](../includes/banner.md)]
+
 
 Cet article fournit des informations sur les différentes options relatives au calcul de la consommation de matières. 
 
 Les options suivantes relatives au calcul de la consommation de matières sont disponibles sous les onglets **Paramétrage** et **Consommation de l'étape** sur l'organisateur **Détails de ligne** de la page **Nomenclatures**.
 
 ## <a name="variable-and-constant-consumption"></a>Consommation variable et constante
-Dans ** La consommation est ** le champ, vous pouvez choisir si la consommation doit être calculée comme quantité est constante ou la quantité variable. Sélectionnez ** constante ** si une quantité fixe ou un volume est requise pour la production, indépendamment de la quantité produite. Sélectionnez **Variable**, qui est le paramètre par défaut, si la quantité de matières requises dans des produits finis est proportionnelle au nombre de produits finis fabriqués.
+Dans le champ **Type de consommation**, vous pouvez sélectionner si la consommation doit être calculée comme quantité constante ou comme quantité variable. Sélectionnez **Constante** si une quantité ou un volume fixe est requis pour la production, peu importe la quantité produite. Sélectionnez **Variable**, qui est le paramètre par défaut, si la quantité de matières requises dans des produits finis est proportionnelle au nombre de produits finis fabriqués.
 
 ## <a name="calculating-consumption-from-a-formula"></a>Calcul de la consommation à partir d'une formule
 Dans le champ **Formule**, vous pouvez paramétrer diverses formules pour calculer la consommation de matières. Si vous utilisez la valeur par défaut, **Standard**, la consommation n'est pas calculée à partir d'une formule. Les formules suivantes s'associent aux champs **Hauteur**, **Largeur**, **Profondeur**, **Densité** et  **Constante** :
 
--   Constante d'\* de hauteur
--   Constante d'\* de largeur d'\* de hauteur
--   Constante d'\* de profondeur d'\* de largeur d'\* de hauteur
--   (Profondeur/densité d'\* de largeur d'\* de hauteur) constante d'\*
+-   Hauteur \* Constante
+-   Hauteur \* Largeur \* Constante
+-   Hauteur \* Largeur \* Profondeur \* Constante
+-   (Hauteur \* Largeur \* Profondeur / Densité) \* Constante
 
 ## <a name="rounding-up-and-multiples"></a>Arrondi et multiples
 Associés, les champs **Arrondi** et **Multiples** permettent d'arrondir la valeur de consommation des matières. Par exemple, vous pouvez arrondir la valeur en fonction de l'unité de manutention dans laquelle la matière première est prélevée pour la production. Les options suivantes sont disponibles dans le champ **Arrondi** : **Quantité****Mesure** et **Consommation**.
@@ -53,7 +56,7 @@ Si vous sélectionnez **Quantité** comme mécanisme d'arrondi, la quantité doi
 
 ### <a name="measurement"></a>Mesure
 
-En général, vous sélectionnez **Mesure** comme mécanisme d'arrondi lorsque la matière première a des dimensions spécifiques. Par exemple, un tube métallique de 2 mètres est requis pour fabriquer un produit fini, et le tube en métal est disponible en longueur de 4,5 mètres. Dans ce cas, le mécanisme d'arrondi **Mesure** peut être utilisé pour calculer le nombre de tubes métalliques nécessaires pour fabriquer une quantité spécifique de produits finis. Pour cet exemple, ** formule ** le champ est défini ** constante d'\* de hauteur **. ** Hauteur ** le champ est défini ** 2 ** pour indiquer la longueur du tube requis pour le produit fini. Le champ **Multiple** est défini sur **4,5** pour indiquer que le tube est disponible dans une longueur de 4,5 mètres. Voici le calcul :
+En général, vous sélectionnez **Mesure** comme mécanisme d'arrondi lorsque la matière première a des dimensions spécifiques. Par exemple, un tube métallique de 2 mètres est requis pour fabriquer un produit fini, et le tube en métal est disponible en longueur de 4,5 mètres. Dans ce cas, le mécanisme d'arrondi **Mesure** peut être utilisé pour calculer le nombre de tubes métalliques nécessaires pour fabriquer une quantité spécifique de produits finis. Pour cet exemple, le champ **Formule** est défini sur **Hauteur \* Constante**. Le champ **Hauteur** est défini sur **2** pour indiquer la longueur du tube requise pour obtenir le produit fini. Le champ **Multiple** est défini sur **4,5** pour indiquer que le tube est disponible dans une longueur de 4,5 mètres. Voici le calcul :
 
 1.  Nombre de multiples nécessaires pour 10 pièces de produits finis : 10 ÷ 2 = 5 pièces
 2.  Consommation totale : 4,5 × 5 = 22,5 mètres de tube métallique
@@ -78,5 +81,7 @@ L'option Consommation de l'étape est utilisée pour calculer la consommation co
 | 200,00      | 40,0000  |
 
 La quantité de la nomenclature est de 1, et la quantité de la production est de 110. La formule de la consommation est Série de départ (Quantité) = Consommation. Étant donné que la quantité de production est de 110, elle passe dans la « Série de départ 100 ». Par conséquent, la quantité est 20.
+
+
 
 

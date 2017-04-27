@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="consignment"></a>Consignation
 
+[!include[banner](../includes/banner.md)]
+
+
 Cette rubrique explique comment utiliser les processus de stock de consignation entrant.
 
-Le stock de consignation est le stock qui appartient à un fournisseur, mais stocké à votre site. Lorsque vous êtes prêt à consommer ou à utiliser le stock, vous reprenez la propriété du stock. Cette rubrique comprend des informations sur la procédure recevoir physiquement le stock disponible appartenant à le fournisseur sans créer des transactions de comptabilité, comment démarrer un processus de production où le stock appartenant à le fournisseur peut être réservée physiquement. ou la modification de la propriété de la matière première afin de pouvoir traiter la consommation dans le cadre de le traitement d'ordre de fabrication. Il existe aussi des informations sur la manière dont les fournisseurs peuvent contrôler la consommation de leur stock à l'aide de l'interface de collaboration fournisseur. Pour plus d'informations sur l'activation et la configuration des processus de consignation entrante, voir [Paramétrage de la consignation](set-up-consignment.md).
+Le stock de consignation est le stock qui appartient à un fournisseur, mais stocké à votre site. Lorsque vous êtes prêt à consommer ou à utiliser le stock, vous reprenez la propriété du stock. Cette rubrique contient des informations sur la procédure de réception physique du stock disponible appartenant au fournisseur sans créer de transactions comptables, la procédure de démarrage d'un processus de production où le stock appartenant au fournisseur peut être réservé physiquement et la procédure de modification de la propriété des matières premières afin de pouvoir traiter la consommation dans le cadre du traitement d'un ordre de fabrication. Il existe aussi des informations sur la manière dont les fournisseurs peuvent contrôler la consommation de leur stock à l'aide de l'interface de collaboration fournisseur. Pour plus d'informations sur l'activation et la configuration des processus de consignation entrante, voir [Paramétrage de la consignation](set-up-consignment.md).
 
 ## <a name="overview-of-the-consignment-process"></a>Vue d'ensemble du processus de consignation
 Dans cet exemple de scénario, la société USMF a un accord de consignation avec le fournisseur US-104 pour la matière première M9211CI.
@@ -57,9 +60,9 @@ USMF exécute des processus périodiques supplémentaires :
 Le fournisseur, US-104, peut contrôler les mises à jour sur la page **Stock de consignation disponible**.
 
 ## <a name="consignment-replenishment-orders"></a>Commandes de réapprovisionnement avec consignation
-Une commande de réapprovisionnement avec consignation est un document qui permet de demander et de faire le suivi des quantités de produits en stock qu'un fournisseur souhaite fournir dans un intervalle de dates donné en créant des mouvements de stock commandés. Généralement, cela aura lieu en fonction de la prévision et de la demande réelle des produits spécifiques. Le stock qui va être reçu par rapport à la commande de réapprovisionnement avec consignation reste la propriété du fournisseur. Seule la possession des produits liés à la mise à jour de réception physique est enregistrée et donc aucune mise à jour de la transaction comptable ne se produit. La dimension **Propriétaire** permet de séparer les informations sur le stock appartenant au fournisseur et sur celui appartenant à l'entité juridique de réception. Les lignes de commande de réapprovisionnement de consignation ont ** commande en cours ** le statut tant que la quantité complète des lignes n'a pas été reçue ou n'a pas été annulée. Lorsque la quantité totale a été reçue ou annulée, le statut devient ** terminé **. Le stock physique disponible associé à une commande de réapprovisionnement avec consignation peut être enregistré à l'aide d'un processus d'enregistrement ainsi que d'un processus de mise à jour d'accusé de réception de marchandises. L'enregistrement peut être effectué dans le cadre du processus d'arrivée d'article ou en mettant à jour manuellement les lignes de commande. Lorsque le processus de mise à jour d'accusé de réception de marchandises est utilisé, un enregistrement est créé dans le journal d'accusé de réception de marchandises, qui permet de confirmer la réception des marchandises aux fournisseurs. 
+Une commande de réapprovisionnement avec consignation est un document qui permet de demander et de faire le suivi des quantités de produits en stock qu'un fournisseur souhaite fournir dans un intervalle de dates donné en créant des mouvements de stock commandés. Généralement, cela aura lieu en fonction de la prévision et de la demande réelle des produits spécifiques. Le stock qui va être reçu par rapport à la commande de réapprovisionnement avec consignation reste la propriété du fournisseur. Seule la possession des produits liés à la mise à jour de réception physique est enregistrée et donc aucune mise à jour de la transaction comptable ne se produit. La dimension **Propriétaire** permet de séparer les informations sur le stock appartenant au fournisseur et sur celui appartenant à l'entité juridique de réception. Les lignes de commande de réapprovisionnement avec consignation ont un statut **Commande en cours** tant que la quantité totale des lignes n'a pas été reçue ou annulée. Lorsque la quantité totale a été reçue ou annulée, le statut passe à **Terminé**. Le stock physique disponible associé à une commande de réapprovisionnement avec consignation peut être enregistré à l'aide d'un processus d'enregistrement ainsi que d'un processus de mise à jour d'accusé de réception de marchandises. L'enregistrement peut être effectué dans le cadre du processus d'arrivée d'article ou en mettant à jour manuellement les lignes de commande. Lorsque le processus de mise à jour d'accusé de réception de marchandises est utilisé, un enregistrement est créé dans le journal d'accusé de réception de marchandises, qui permet de confirmer la réception des marchandises aux fournisseurs. 
 
-[consignation-réapprovisionnement-ordre d'![] (. /media/consignment-replenishment-order.png)](. /media/consignment-replenishment-order.png)
+[![consignment-replenishment-order](./media/consignment-replenishment-order.png)](./media/consignment-replenishment-order.png)
 
 ## <a name="inventory-ownership-change-journal"></a>Journal des modifications de propriété du stock
 Le processus de modification du propriétaire du stock du fournisseur à l'entité juridique de réception s'effectue à l'aide d'un Journal des modifications de propriété du stock. Aucun mouvement de stock prévu n'est créé pour le journal. Les seules transactions de stock créées sont celles qui sont associées à un journal validé. Quand le journal est-il validé :
@@ -69,14 +72,16 @@ Le processus de modification du propriétaire du stock du fournisseur à l'entit
 
 Il n'est pas possible de mettre à jour la quantité sur les lignes de commande fournisseur avec consignation une fois la commande créée. 
 
-[stock-propriété-modification-journal d'![] (. /media/inventory-ownership-change-journal.png)](. /media/inventory-ownership-change-journal.png)
+[![inventory-ownership-change-journal](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
 
 ## <a name="vendor-collaboration-in-consignment-processes"></a>Collaboration fournisseur dans les processus de consignation
 L'interface de collaboration fournisseur comporte trois pages associées au processus de consignation entrante :
 
--   ** Commandes fournisseur ** ** consommant le stock de consignation ** - Commande fournisseur détaillée d'afficher les informations fiscales la modification de propriété du processus de consignation.
+-   **Commandes fournisseur** **consommant le stock de consignation** - Affiche des informations détaillées sur la commande fournisseur relatives au changement de propriété dans le processus de consignation.
 -   **Produits reçus à partir du stock de consignation** - Affiche des informations sur les articles et les quantités qui comportent des accusés de réception de marchandises mis à jour pendant le processus de modification de la propriété.
 -   **Stock de consignation disponible** - Affiche des informations sur les articles avec consignation qu'ils prévoient de fournir, et les articles qui sont déjà physiquement disponibles sur le site du client.
+
+
 
 
 

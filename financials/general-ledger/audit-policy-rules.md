@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="audit-policy-rules"></a>Règles de stratégie d'audit
 
+[!include[banner](../includes/banner.md)]
+
+
 Les stratégies d'audit permettent d'évaluer la conformité des états de dépenses, factures fournisseur et commandes fournisseur avec les règles de stratégie que vous créez. Toutes les règles associées à une stratégie d'audit sont exécutées en mode de traitement par lots selon le programme que vous spécifiez.  Chaque règle de stratégie est une instance d'un type de règle de stratégie. Pour chaque type de règle de stratégie, une seule règle de stratégie peut être active à la fois. 
 
 <a name="queries-and-query-types"></a>Requêtes et types de requêtes
@@ -97,5 +100,7 @@ L'ensemble des règles de stratégie pour une stratégie d'audit spécifique par
 --------
 
 [Violations et incidents de stratégie d'audit](audit-policy-violations-cases.md)
+
+
 
 
