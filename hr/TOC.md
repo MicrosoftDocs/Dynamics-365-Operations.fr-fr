@@ -1,62 +1,62 @@
-# [Human resources home page](index.md)
-# Développer la stratégie des ressources humaines.
-## [Organiser votre personnel à l’aide des départements, des tâches et des postes](departments-jobs-positions.md)
-## [Configurer des composants de travail](create-job.md)
-## [Create a department and associate it with the department hierarchy](create-department-add-department-hierarchy.md)
-## [Définition des paramètres de RH spécifiques à la société](set-up-company-specific-hr-parameters.md)
-## [Configuration des paramètres de RH dans les entités juridiques](set-up-hr-parameters-across-legal-entities.md)
-## [Utilisation des flux de travail pour gérer les informations de l’employé](workflow-manage-employee-information.md)
+# [Page d'accueil des ressources humaines](index.md)
+# Développer la stratégie des ressources humaines
+## [Organisation du personnel à l'aide des départements, tâches et postes](departments-jobs-positions.md)
+## [Configurer les composants de tâche](create-job.md)
+## [Créer un département et l'associer à la hiérarchie des départements](create-department-add-department-hierarchy.md)
+## [Définition des paramètres spécifiques à la société](set-up-company-specific-hr-parameters.md)
+## [Configuration des paramètres RH dans les entités juridiques](set-up-hr-parameters-across-legal-entities.md)
+## [Utiliser un workflow pour gérer les informations d'employé](workflow-manage-employee-information.md)
 # Recruter, embaucher et motiver les employés
-## [Manage a recruiting process](manage-recruiting-process.md)
-## [Mass hire projects](mass-hire-projects.md)
+## [Gestion d'un processus de recrutement](manage-recruiting-process.md)
+## [Projets d'embauche collective](mass-hire-projects.md)
 ## [Régimes de rémunération](compensation-plans.md)
 ## [Créer des régimes de rémunération fixe](create-fixed-compensation-plans.md)
-## [Créer un régime de rémunération variable](create-variable-compensation-plans.md)
+## [Créer des régimes de rémunération variable](create-variable-compensation-plans.md)
 # Faire évoluer et former les employés
-## [Performance management overview](performance-management-overview.md)
-## [Align workforce skills with business needs](skills.md)
+## [Vue d'ensemble de la gestion des performances](performance-management-overview.md)
+## [Aligner les qualifications du personnel aux besoins de l'entreprise](skills.md)
 ## [Configurer des cours de formation](courses.md)
 # Créer des avantages et les tenir à jour
-## [Gérer un programme d’avantages](manage-benefit-program.md)
-## [Benefit eligibility policies](benefit-eligibility-policies.md)
-## [Manage items lent to workers](loan-items.md)
+## [Gérer un programme d'avantages](manage-benefit-program.md)
+## [Stratégies de droit aux avantages](benefit-eligibility-policies.md)
+## [Gérer les articles prêtés aux employés](loan-items.md)
 # Réunir des informations à l'aide de questionnaires
 ## [Questionnaires](questionnaires.md)
-## [Design a questionnaire](design-questionnaires.md)
-## [Distribute and complete a questionnaire](distribute-questionnaires.md)
-## [Évaluer les résultats d’un questionnaire](evaluate-questionnaire-results.md)
-# Fonctionnalités des États-Unis
-## Conformité et sécurité du poste de travail
-### [Formulaire de vérification d’I-9 d’emploi](localizations/noam-usa-form-i-9-verification.md)
-### [Conformer à l’ADA](localizations/noam-usa-comply-ada.md)
-## [Payroll](localizations/noam-usa-payroll.md)
-### Programme d’installation de paie
-#### [Paramétrez la paie des travailleurs](localizations/noam-usa-worker-position-payroll-tasks.md)
-#### [Configurer les cycles de travail et les périodes de travail](localizations/noam-usa-work-cycle-work-period-tasks.md)
-#### [Définir des plans de régularisation d’avantage](localizations/noam-usa-benefit-accrual-plan-tasks.md)
-#### [Set up benefits](localizations/noam-usa-benefit-set-up-tasks.md)
-### Les fréquences et les cycles
-### [Cycle de paie et de tâches de période de paie](localizations/noam-usa-pay-cycle-pay-period-tasks-sample.md)
-### [Tâches de calcul et la fréquence de paie](localizations/noam-usa-payroll-calculation-frequencies-tasks.md)
-### [Planning de travail et laisser les tâches](localizations/noam-usa-work-schedule-leave-tasks.md)
-### Les codes et les taxes
-#### [Code de gain et engranger des tâches du groupe de code](localizations/noam-usa-earning-code-group-tasks.md)
-#### [Tâches des informations fiscales](localizations/noam-usa-tax-information-tasks.md)
-### Prime saisies-arrêts et les prélèvements de taxe
-#### [Paramétrer les saisies-arrêts et les prélèvements de taxe](localizations/noam-usa-garnishment-tax-levy-set-up-tasks.md)
-#### [Inscrire des collaborateurs à des prélèvements de salaire et les taxes](localizations/noam-usa-garnishment-tax-levy-enrollment-tasks.md)
-#### [Paramétrer des bénéfices de la prime](localizations/noam-usa-premium-earning-setup-tasks.md)
-#### [Forum aux questions sur les frais d’administration saisies-arrêts et les prélèvements de taxe](localizations/noam-usa-garnishment-tax-levy-administrative-fees.md)
-### Tâches de traitement de paie
-#### [Generate earnings](localizations/noam-usa-earnings-generation-process.md)
-#### [Paiements de travail problème](localizations/noam-usa-issue-worker-payments.md)
-#### [Valider la liste de paie et de générer des factures fournisseur](localizations/noam-usa-post-payroll-generate-vendor-invoices.md)
-#### [Payer les relevés et les paiements de génération Forum aux questions](localizations/noam-usa-pay-statements-payment-generation-process.md)
-### Terminer le processus de paiement
-#### [Traiter les paiements de paie existant](localizations/noam-usa-existing-payroll-payments.md)
-#### [Processus bénéfices existants](localizations/noam-usa-existing-earnings.md)
-#### [Traiter les instructions de paiement](localizations/noam-usa-pay-statements.md)
-### Gestion et génération de rapports
-#### [Mises à jour des données de paie Forum aux questions](localizations/noam-usa-payroll-data-updates.md)
-#### [Générer des rapports de paie](localizations/noam-usa-generate-payroll-reports.md)
+## [Conception d'un questionnaire](design-questionnaires.md)
+## [Distribuer et remplir un questionnaire](distribute-questionnaires.md)
+## [Évaluer les résultats d'un questionnaire](evaluate-questionnaire-results.md)
+# Fonctionnalités pour les États-Unis
+## Conformité et sécurité de l’espace de travail
+### [Écran I-9 - Vérification d'emploi](localizations/noam-usa-form-i-9-verification.md)
+### [Se conformer à ADA](localizations/noam-usa-comply-ada.md)
+## [Paie](localizations/noam-usa-payroll.md)
+### Paramétrage de la paie
+#### [Paramétrer la paie pour les collaborateurs](localizations/noam-usa-worker-position-payroll-tasks.md)
+#### [Paramétrage de cycles et de périodes de travail](localizations/noam-usa-work-cycle-work-period-tasks.md)
+#### [Paramétrage de plans de régularisation des avantages ](localizations/noam-usa-benefit-accrual-plan-tasks.md)
+#### [Paramétrer les avantages](localizations/noam-usa-benefit-set-up-tasks.md)
+### Fréquences et cycles
+### [Tâches de cycles de paie et périodes de rémunération](localizations/noam-usa-pay-cycle-pay-period-tasks-sample.md)
+### [Paie - Tâches de calcul et fréquence](localizations/noam-usa-payroll-calculation-frequencies-tasks.md)
+### [Tâches de travail et congés](localizations/noam-usa-work-schedule-leave-tasks.md)
+### Codes et taxes
+#### [Code de rémunération et tâches de groupe de codes de rémunération](localizations/noam-usa-earning-code-group-tasks.md)
+#### [Tâches d'informations fiscales](localizations/noam-usa-tax-information-tasks.md)
+### Saisies-arrêt, ensembles de taxe, et prime de salaire
+#### [Paramétrage de saisies-arrêt et perceptions de taxe](localizations/noam-usa-garnishment-tax-levy-set-up-tasks.md)
+#### [Inscrire les collaborateurs pour des saisies-arrêt et des ensembles de taxe](localizations/noam-usa-garnishment-tax-levy-enrollment-tasks.md)
+#### [Configurer des rémunérations de prime ](localizations/noam-usa-premium-earning-setup-tasks.md)
+#### [FAQ Saisies-arrêt, ensembles de taxe et frais administratifs](localizations/noam-usa-garnishment-tax-levy-administrative-fees.md)
+### Tâches de traitement de la paie
+#### [Générer les rémunérations](localizations/noam-usa-earnings-generation-process.md)
+#### [Émettre les paiements aux collaborateurs](localizations/noam-usa-issue-worker-payments.md)
+#### [Valider la paie et générer des factures fournisseur](localizations/noam-usa-post-payroll-generate-vendor-invoices.md)
+#### [FAQ Bordereaux de paie et génération de paiements](localizations/noam-usa-pay-statements-payment-generation-process.md)
+### Compléter le processus de paiement
+#### [Traiter les paiements de salaire existants](localizations/noam-usa-existing-payroll-payments.md)
+#### [Traiter les rémunérations existantes](localizations/noam-usa-existing-earnings.md)
+#### [Traitement des bordereaux de paie](localizations/noam-usa-pay-statements.md)
+### Maintenance et génération d'états
+#### [Mise à jour des données salariales - FAQ](localizations/noam-usa-payroll-data-updates.md)
+#### [Générer des états de paie](localizations/noam-usa-generate-payroll-reports.md)
 

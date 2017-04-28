@@ -1,6 +1,6 @@
 ---
-title: "Page d’accueil de vente au détail"
-description: "Page d’accueil de 365 Dynamics pour les opérations de vente au détail :"
+title: "Page d&quot;accueil de la vente au détail"
+description: "Page d&quot;accueil de Dynamics 365 for Operations – Retail"
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,71 +25,71 @@ ms.lasthandoff: 04/12/2017
 
 ---
 
-# <a name="retail-home-page"></a>Page d’accueil de vente au détail
+# <a name="retail-home-page"></a>Page d'accueil de la vente au détail
 
 [!include[banner](includes/banner.md)]
 
-Dynamics 365 pour les opérations – Retail offre complète vos achats, un transparent et une solution omni-canal moderne, la mobilité et la mondialisation de différenciation. Des fonctionnalités de bout en bout, à partir de point moderne de solutions logicielles de vente (PDV), opérations de banque, merchandising, commerce électronique, centre d’appels, marketing et clientèle, à la chaîne d’approvisionnement, gestion financière et plus d’informations, peuvent être déployées dans la façon dont le mieux adapté à votre entreprise.
+Dynamics 365 for Operations – Retail offre une expérience d'achat complète, avec une solution omni- canal transparente et apportant une valeur différenciatrice à la fois moderne, mobile et globale. Ses capacités de bout en bout, incluant : solutions logicielles de point de vente (PDV) modernes, opérations en magasin, marchandising, commerce électronique, centre d'appels, marketing et service clientèle, chaîne d'approvisionnement, Finances, etc., peuvent être déployées de la façon la plus judicieuse pour votre entreprise.
 
-Cette page pointe vers des ressources qui vous aideront à utiliser Microsoft Dynamics 365 pour les opérations - détail plus efficacement. Dans le volet gauche, sélectionnez une zone de fonctionnalité pour en savoir plus à ce sujet. 
+Cette page redirige vers des ressources utiles pour exploiter plus efficacement Microsoft Dynamics 365 for Operations - Retail. Dans le volet tout à gauche, sélectionnez une zone de fonction pour en savoir plus. 
 
-## <a name="set-up-retail-channels"></a>Définir les canaux de vente au détail
-Lorsque vous définissez votre expérience de la vente au détail, vous devez décider comment définir et configurer votre banque traditionnels (appelée *magasin* de 365 Dynamics pour les opérations) et des opérations de magasin en ligne. 
+## <a name="set-up-retail-channels"></a>Paramétrage de canaux de vente au détail
+Lorsque vous paramétrez votre expérience de vente au détail, vous décidez comment définir et configurer votre magasin traditionnel (appelé *magasin de vente au détail* dans Dynamics 365 for Operations) et les opérations du magasin en ligne. 
 
-Chaque magasin peut avoir ses propres modes de paiement, les groupes de prix, POS solutions, comptes, comptes de dépenses et le personnel. Après avoir créé votre magasin de vente au détail, vous affectez les produits que vous souhaitez exécuter de la banque. Vous affectez également des employés, des caisses enregistreuses et des clients au magasin. Enfin, vous ajoutez le nouveau magasin à une hiérarchie d'organisation.
+Chaque magasin de vente au détail peut avoir ses propres modes de paiement, groupes de prix, solutions PDV, comptes de revenus, comptes de dépenses, et son propre personnel. Une fois votre magasin de vente au détail créé, vous affectez les produits qui seront pris en charge par le magasin. Vous affectez également les employés, les caisses enregistreuses et les clients au magasin. Enfin, vous ajoutez le nouveau magasin à une hiérarchie d'organisation.
 
-Lorsque vous créez votre Boutique en ligne, vous devez configurer les composants tels que les assortiments, les attributs, les modes de paiement et les modes de livraison. Vous pouvez également définir des prix, des promotions, des remises et des conditions d’expédition qui sont spécifiques au magasin en ligne.
+Lorsque vous créez votre magasin en ligne, vous devez paramétrer des composants tels que les assortiments, les attributs, les modes de paiement et les méthodes d'expédition. Vous pouvez également définir des prix, des promotions, des remises, ainsi que des conditions d'expédition spécifiques au magasin en ligne.
 
 -   [Définir les canaux de vente au détail](define-maintain-retail-channels.md)
--   [Online store overview](online-stores.md)
+-   [Vue d'ensemble du magasin en ligne](online-stores.md)
 
 ## <a name="set-up-a-call-center"></a>Configurer un centre d'appels
-Vous pouvez configurer un centre d’appels en tant que type de canal de vente au détail. Dans un centre d'appels, les collaborateurs prennent les commandes des clients par téléphone et créent les commandes client. Pour aider vos employés à prendre des commandes et gérer la clientèle tout au long du processus de traitement de commande, vous pouvez configurer le contenu une commande vente, le prix seront contrôlé et les données sur les clients, les produits et les prix sont accessibles. Pour chaque centre d’appels, vous pouvez également définir des utilisateurs, modes de paiement, les groupes de prix, les dimensions financières et modes de livraison.
+Vous pouvez paramétrer un centre d'appels comme type de canal de vente au détail. Dans un centre d'appels, les collaborateurs prennent les commandes des clients par téléphone et créent les commandes client. Pour aider vos collaborateurs à prendre des commandes et à gérer le service client à travers le processus d'exécution de commande, vous pouvez paramétrer ce que la commande client va inclure, la façon dont la tarification est contrôlée et quelles données sur les clients, les produits, et les prix seront accessibles. Pour chaque centre d'appels, vous pouvez également paramétrer des utilisateurs, des modes de paiement, des groupes de prix, des dimensions financières et des modes de livraison.
 
--   [Call center functionality](call-center-functionality.md)
--   [Create call center catalogs](create-call-center-catalogs.md)
+-   [Fonctionnalité de centre d'appels](call-center-functionality.md)
+-   [Créer des catalogues de centre d'appels](create-call-center-catalogs.md)
 
-## <a name="define-your-pos-and-mpos-solutions"></a>Définir vos solutions POS et MPOS
-Vente au détail moderne POS (MPOS) est une application de point de vente pour les téléphones, tablettes et PC. Personnel des ventes peut traiter les transactions de vente, des commandes et effectuer des opérations quotidiennes et gestion des stocks avec des appareils mobiles n’importe où dans le magasin, ainsi que sur PC les registres. Nuage POS est un POS basée sur un navigateur. 
+## <a name="define-your-pos-and-mpos-solutions"></a>Définir les solutions de PDV et MPOS
+Retail Modern POS (MPOS) est une application de point de vente pour PC, tablettes et téléphones. Le personnel de vente peut traiter les transactions de vente, les commandes client, et exécuter les opérations quotidiennes et la gestion des stocks avec des appareils mobiles n'importe où dans le magasin et sur les caisses enregistreuses basées sur PC. Le PDV cloud est un PDV basé sur navigateur. 
 
-Il existe plusieurs composants que vous allez configurer pour définir les relations entre une banque, les caisses enregistreuses de PDV ou les canaux dans le magasin et les périphériques de vente au détail qui les inscrit ou canaux permet de traiter les transactions. Vous allez également définir les caractéristiques d’une instance spécifique de la POS, y compris le profil matériel ou le programme d’installation pour les périphériques de vente au détail qui sera utilisé dans le Registre et le magasin de l’historique des transactions sont mappée à l’expérience visuelle pour l’utilisateur qui se connecte à qui enregistrent.
+Vous devez paramétrer plusieurs composants pour définir la relation entre un magasin, les caisses enregistreuses du PDV ou les canaux dans le magasin, et les périphériques de vente au détail que ces caisses enregistreuses ou canaux utilisent pour traiter les transactions. Vous devez également définir les caractéristiques de chaque instance de PDV spécifique, notamment le profil du matériel ou les périphériques de vente au détail qui seront utilisés au niveau de la caisse enregistreuse, le magasin auquel la caisse enregistreuse se rapporte, et l'expérience visuelle de l'utilisateur qui se connecte à cette caisse enregistreuse.
 
--   [Définir et tenir à jour des clients de canal, les registres et les stations de matériel](define-maintain-channel-clients-registers-hw-stations.md)
+-   [Définir et tenir à jour les clients de canal, y compris les caisses enregistreuses et les stations matérielles](define-maintain-channel-clients-registers-hw-stations.md)
 -   [Configurer et installer MPOS](retail-modern-pos-device-activation.md)
--   [Fonctionnalité de PDV en mode hors connexion](pos-offline-functionality.md)
+-   [Fonctionnalité de PDV hors connexion](pos-offline-functionality.md)
 
-## <a name="set-up-a-customer-loyalty-program"></a>Configurer un programme de fidélité client
-Vous pouvez configurer votre programme de fidélité afin que les clients gagnent des points en fonction de critères spécifiques, et les points peuvent être calculés de différentes manières. Votre programme de fidélité peut être simples ou complexes et appliquer vos entités juridiques dans n’importe quel canal de vente au détail.
--   [Configurer un programme de fidélité client](set-up-customer-loyalty-program.md)
+## <a name="set-up-a-customer-loyalty-program"></a>Définition d'un programme de fidélisation des clients
+Vous pouvez paramétrer un programme de fidélité afin que les clients gagnent des points selon des critères spécifiques, et que les points puissent être calculés de différentes manières. Votre programme de fidélité peut être simple ou complexe, et s'appliquer à toutes vos entités juridiques dans n'importe quel canal de vente au détail.
+-   [Définition d'un programme de fidélisation des clients](set-up-customer-loyalty-program.md)
 
-## <a name="set-up-discounts-and-price-adjustments"></a>Définissez des remises et les ajustements de prix
-Vous pouvez ajuster le prix de produits et pouvez également définir des remises qui sont appliquées à une ligne ou une transaction dans le PDV, dans une commande centre d’appel ou dans une commande en ligne. 
--   [Price adjustments and discounts](price-adjustments-discounts.md)
--   [Define channel-specific discounts](define-channel-specific-discounts.md)
--   [Déterminer la combinaison optimale des escomptes qui se chevauchent](optimal-combination-overlapping-discounts.md)
+## <a name="set-up-discounts-and-price-adjustments"></a>Paramétrer des remises et des ajustements de prix
+Vous pouvez procéder à des ajustements de prix concernant les produits, mais aussi paramétrer des remises pour une ligne ou une transaction dans le système PDV, pour une commande client enregistrée par un centre d'appels, ou pour une commande en ligne. 
+-   [Ajustements de prix et remises](price-adjustments-discounts.md)
+-   [Définir les remises spécifiques à un canal](define-channel-specific-discounts.md)
+-   [Déterminer la combinaison optimale de cumuls de remises](optimal-combination-overlapping-discounts.md)
 
 ## <a name="set-up-retail-products"></a>Paramétrer les produits vendus au détail
-Avant de pouvoir proposer des produits à vendre dans vos canaux de vente au détail, vous devez créer et configurer des produits dans les 365 Dynamics pour les opérations. Vous pouvez créer les produits, définir les propriétés de produit et les attributs, et affecter les produits aux hiérarchies des catégories de vente au détail. Pour rendre les produits disponibles sur vos canaux de vente au détail et les ajouter à un assortiment actif, vous allez puis relâchez les produits dans les entités juridiques dans lesquelles ils sont disponibles.
--   [Set up retail products](set-up-retail-products.md)
+Avant de proposer des produits à la vente dans vos canaux de vente au détail, vous devez créer et configurer les produits dans Dynamics 365 for Operations. Vous pouvez créer les produits, en définir les propriétés et les attributs, et affecter les produits aux hiérarchies des catégories de vente au détail. Pour rendre les produits disponibles sur vos canaux de vente au détail et les ajouter à un assortiment actif, vous devez ensuite les lancer dans les entités juridiques dans lesquelles ils sont disponibles.
+-   [Paramétrer les produits vendus au détail](set-up-retail-products.md)
 
 ## <a name="monitor-and-analyze-performance"></a>Surveiller et analyser les performances
-Votre 365 Dynamics sur des données d’opérations, vous pouvez analyser les performances de banque, rentabilité des clients et les produits, les tendances de ventes et bien plus encore.
--   [Assess customer and product profitability](assess-customer-product-profitability.md)
--   [Analyze store performance](store-performance-information.md)
+À l'aide des données de Dynamics 365 for Operations, vous pouvez analyser les performances du magasin, la rentabilité des clients et des produits, les tendances des ventes, et bien plus encore.
+-   [Évaluer la rentabilité client et produit](assess-customer-product-profitability.md)
+-   [Analyse des performances de magasin](store-performance-information.md)
 
-## <a name="customize-and-administer-retail-environments"></a>Personnaliser et gérer les environnements de vente au détail
-Si vous avez demandé de personnaliser votre environnement, ou si vous êtes chargé de déploiement et la maintenance de votre système, consultez le développeur et contenu de l’administrateur système spécifique à la vente au détail, ainsi que le contenu plus général pour Microsoft Dynamics 365 pour les opérations. 
--   [Dynamics 365 pour - opérations de vente au détail pour les développeurs et les professionnels de l’informatique](dev-itpro/dev-retail-home-page.md)
--   [Microsoft Dynamics 365 pour les opérations pour les développeurs et les professionnels de l’informatique](/dynamics365/operations/dev-itpro/dev-tools/developer-home-page)
+## <a name="customize-and-administer-retail-environments"></a>Personnaliser et administrer les environnements au détail
+Si vous avez été invité à personnaliser votre environnement ou, si vous êtes chargé du déploiement et de l'administration de votre système, consultez les contenus destinés aux développeur et aux administrateurs système spécifiques à la vente au détail, ainsi que les contenus plus généraux de Microsoft Dynamics 365 for Operations. 
+-   [Dynamics 365 for Operations - Retail pour les professionnels de l'informatique et les développeurs](dev-itpro/dev-retail-home-page.md)
+-   [Microsoft Dynamics 365 for Operations pour les professionnels de l'informatique et les développeurs](/dynamics365/operations/dev-itpro/dev-tools/developer-home-page)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
-### <a name="whats-new-and-in-development"></a>Nouveautés dans le développement
-Accédez à la <a href="https://roadmap.dynamics.com/">feuille de route de 365 Dynamics</a> pour voir quelles sont les nouvelles fonctionnalités sont libérées et quelles sont les nouvelles fonctionnalités de développement. 
+### <a name="whats-new-and-in-development"></a>Nouveautés et développements
+Accédez au <a href="https://roadmap.dynamics.com/">Calendrier de lancement de Dynamics 365</a> pour découvrir les nouvelles fonctions qui seront lancées ou qui sont en développement. 
 
 ### <a name="blogs"></a>Blogs
-Vous pouvez trouver des avis, actualités et autres informations concernant Microsoft Dynamics 365 pour les opérations - vente au détail et autres solutions sur le <a href="https://community.dynamics.com/b/msftdynamicsblog">Microsoft Dynamics 365 blog</a>.
+Vous trouverez des avis, des actualités et d'autres informations concernant Microsoft Dynamics 365 for Operations - Retail et d'autres solutions sur le <a href="https://community.dynamics.com/b/msftdynamicsblog">Blog de Microsoft Dynamics 365</a>.
 
-Il existe de nombreuses rubriques sur la vente au détail sur le <a href="https://blogs.msdn.microsoft.com/dax/">blog de l’équipe produit Microsoft Dynamics AX</a>. Certains de ces postes ont été écrites pour la version précédente de 365 Dynamics pour les opérations, mais les mêmes concepts s’appliquent toujours, et les procédures sont similaires dans la version actuelle.
+Plusieurs rubriques sur la vente au détail ont été publiées dans le <a href="https://blogs.msdn.microsoft.com/dax/">blog de l'équipe de produit Microsoft Dynamics AX</a>. Certains de ces articles ont été rédigés pour la version précédente de Dynamics 365 for Operations, mais les mêmes concepts s'appliquent toujours et les procédures sont similaires dans la version actuelle.
 
-Le <a href="https://community.dynamics.com/partner/b/operationspartnercommunityblog">Microsoft Dynamics opérations partenaire communautaire Blog</a> Microsoft Dynamics partenaires une seule ressource pour en savoir plus sur les nouveautés et les tendances dans les opérations de MBS.
+Le <a href="https://community.dynamics.com/partner/b/operationspartnercommunityblog">Blog de la communauté de partenaires Microsoft Dynamics Operations</a> offre aux partenaires de Microsoft Dynamics une ressource unique pour découvrir les nouveautés et les tendances de MBS Operations.
 

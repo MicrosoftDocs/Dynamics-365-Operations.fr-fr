@@ -1,21 +1,21 @@
-# Créer la disposition d’un magasin
-# Processus de Indbound
+# Créer une présentation d'entrepôt
+# Processus entrant
 # Processus sortant
-# Configurer le suivi du stock
-## [Inventory journals](inventory-journals.md)
-## [Inventory locations](inventory-locations.md)
-## [Inventory statuses](inventory-statuses.md)
-## [Réserver la quantité en stock](reserve-inventory-quantities.md)
-## [Réserver le même lot pour une commande client](../sales-marketing/reserve-same-batch-sales-order.md)
+# Définir le suivi du stock
+## [Journaux de stock](inventory-journals.md)
+## [Emplacement de stockage](inventory-locations.md)
+## [Statuts du stock](inventory-statuses.md)
+## [Réservation de quantité en stock](reserve-inventory-quantities.md)
+## [Réservation du même lot pour une commande client](../sales-marketing/reserve-same-batch-sales-order.md)
 # Stock de consignation
-## [Consignment](consignment.md)
-## [Paramétrer le lot](set-up-consignment.md)
+## [Consignation](consignment.md)
+## [Définir une consignation](set-up-consignment.md)
 # Gestion de la qualité
-## [Enable quality management](enable-quality-management.md)
-## [Inventory blocking](inventory-blocking.md)
+## [Activer la gestion de la qualité](enable-quality-management.md)
+## [Blocage du stock](inventory-blocking.md)
 ## [Gestion de la non-conformité](enable-nonconformance-management.md)
-## [Quarantine order](quarantine-orders.md)
-## [Processus de gestion de qualité](quality-management-processes.md)
-# Traitement par lots et élément de trace
-## [Fusion de lot de stock](merge-inventory-batches.md)
-## [Élément de suivi et de matières premières](trace-items-raw-materials-inventory-production-sales.md)
+## [Ordre de contrôle](quarantine-orders.md)
+## [Processus de gestion de la qualité](quality-management-processes.md)
+# Suivre l'article et le lot
+## [Fusionner le traitements par lots du stock](merge-inventory-batches.md)
+## [Suivre l'article et la matière première](trace-items-raw-materials-inventory-production-sales.md)

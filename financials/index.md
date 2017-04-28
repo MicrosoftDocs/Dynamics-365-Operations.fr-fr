@@ -1,6 +1,6 @@
 ---
 title: "Page d&quot;accueil de la gestion financière"
-description: "Cette rubrique fournit une liste des rubriques d&quot;aide et d&quot;autres ressources pour les fonctionnalités de gestion financière de Microsoft Dynamics 365 for Operations."
+description: "Cette rubrique fournit une liste de ressources et d&quot;autres informations sur les fonctionnalités de gestion financière de Microsoft Dynamics 365 for Operations."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,18 +28,18 @@ ms.lasthandoff: 04/12/2017
 
 [!include[banner](includes/banner.md)]
 
-Cette rubrique fournit une liste des rubriques d'aide et d'autres ressources pour les fonctionnalités de gestion financière de Microsoft Dynamics 365 for Operations. 
+Cette rubrique fournit une liste de ressources et d'autres informations sur les fonctionnalités de gestion financière de Microsoft Dynamics 365 for Operations. 
 
 Sélectionnez une zone de fonctionnalités pour en savoir plus.
-- [Accounts payable](accounts-payable\accounts-payable.md) 
-- [Accounts receivable](accounts-receivable\accounts-receivable.md) 
-- [Cash and bank management](cash-bank-management\cash-bank-management.md)
-- [Cost accounting](cost-accounting\cost-accounting-home-page.md)
-- [Fixed assets](fixed-assets\fixed-assets.md)
-- [General ledger](general-ledger\general-ledger.md) 
-- [Project management](project-management\overview-project-management-accounting.md)
-- [Public sector](public-sector\public-sector-functionality.md) 
-- [Budgeting](budgeting\budgeting-overview.md) 
+- [Comptabilité fournisseur](accounts-payable\accounts-payable.md) 
+- [Comptabilité client](accounts-receivable\accounts-receivable.md) 
+- [Gestion de la trésorerie et de la banque](cash-bank-management\cash-bank-management.md)
+- [Contrôle de gestion](cost-accounting\cost-accounting-home-page.md)
+- [Immobilisations](fixed-assets\fixed-assets.md)
+- [Comptabilité](general-ledger\general-ledger.md) 
+- [Gestion de projets](project-management\overview-project-management-accounting.md)
+- [Secteur public](public-sector\public-sector-functionality.md) 
+- [Budget](budgeting\budgeting-overview.md) 
 
 
 
