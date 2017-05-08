@@ -1,6 +1,6 @@
 ---
 title: "Page d&quot;accueil de la fonctionnalité de budgétisation"
-description: "Cette rubrique fournit une vue d&quot;ensemble des composants de la fonctionnalité de budgétisation, des outils de budgétisation et des fonctionnalités de génération d&quot;états dans Microsoft Dynamics 365 for Operations."
+description: "Cette rubrique fournit une vue d&quot;ensemble des composants de la fonctionnalité de budgétisation, des outils de budgétisation et des fonctionnalités de génération d&quot;états dans Microsoft Dynamics 365 for Operations."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b21fd97426b331726c12ea29f89817a46dd445c3
-ms.openlocfilehash: f7b4efc06b8e64c05da026850b41cb5b68c33ec3
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: dd17842365e357ecb5cb6034ed8878fcd60be5fc
+ms.openlocfilehash: aacce0449c9490c4ab66cacb9945ed64fa40de34
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -29,20 +30,20 @@ ms.lasthandoff: 03/31/2017
 [!include[banner](../includes/banner.md)]
 
 
-Cette rubrique fournit une vue d'ensemble des composants de la fonctionnalité de budgétisation, des outils de budgétisation et des fonctionnalités de génération d'états dans Microsoft Dynamics 365 for Operations. 
+Cette rubrique fournit une vue d'ensemble des composants de la fonctionnalité de budgétisation, des outils de budgétisation et des fonctionnalités de génération d'états dans Microsoft Dynamics 365 for Operations. 
 
 <a name="components-of-budgeting-functionality"></a>Composants de la fonctionnalité de budgétisation
 -------------------------------------
 
 Le cycle de planification des ressources pour une société comporte généralement de la planification, de la budgétisation, et la prévision d'activités.
-[![Composants des fonctionnalités de budgétisation](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg) Les processus de planification stratégique à long terme et de planification budgétaire annuelle sont pris en charge par un document de plan budgétaire. Les documents de plan budgétaire sont étroitement intégrés avec Microsoft Excel. Les utilisateurs peuvent configurer des scénarios monétaires et quantitatifs illimités, et définir une hiérarchie organisationnelle de budgétisation pour prendre en charge les méthodes de budgétisation du haut-en-bas et de bas-en-haut. Une fois le budget est établi et approuvé dans Microsoft Dynamics 365 for Operations, vous convertissez le plan budgétaire en écriture du registre budgétaire. Les écritures du registre budgétaires fournissent des outils pour tenir à jour le budget et pour conserver la trace des montants grâce à des codes budgétaires. Les écritures du registre budgétaires permettent de réviser les budgets d'origine, effectuer des transferts et reporter des montants budgétaires de l'année précédente. Selon le budget établi, une société peut activer le contrôle budgétaire. Le niveau de contrôle dépend du niveau de la culture organisationnelle et du niveau de maturité de l'organisation. Les organisations qui ont un faible niveau de maturité peuvent laisser le budget « tel quel » et être plus réactives que proactives si un budget ne respecte pas leurs attentes. D'autres organisations peuvent activer les stratégies de contrôle budgétaire qui empêchent les utilisateurs d'acheter si les fonds budgétaires ne sont pas disponibles. Enfin, les organisations très mûres peuvent créer une culture organisationnelle dans laquelle les employés sont instruits des cibles organisationnelles et les poursuivent via des stratégies telles que « Envisagez une réunion en ligne plutôt qu'un déplacement ». Dynamics 365 for Operations inclut une structure de contrôle budgétaire qui permet à la direction de la société de choisir un contrôle ferme (qui empêche les validations qui excéderaient le budget) ou souple (où les utilisateurs sont prévenus s'ils dépassent les fonds budgétaires disponibles et peuvent décider par eux-mêmes). Enfin, vous pouvez utiliser des prévisions à court terme. Une prévision à court terme est une comparaison régulière du budget avec les chiffres réels et elle sert à définir avec quel succès la société exploite son budget. Une prévision à court terme permet également d'identifier les tendances. Dans Microsoft Dynamics 365 for Operations, les prévisions à court terme sont prises en charge via un document de plan budgétaire comme activités initiales d'organisation. Les prévisions à court terme peuvent être effectuées {parallèlement avec l'organisation du cycle budgétaire à venir.
+[![Composants de la fonctionnalité de budgétisation](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg) Les processus de planification stratégique à long terme et de planification budgétaire annuelle sont pris en charge par un document de plan budgétaire. Les documents de plan budgétaire sont étroitement intégrés avec Microsoft Excel. Les utilisateurs peuvent configurer des scénarios monétaires et quantitatifs illimités, et définir une hiérarchie organisationnelle de budgétisation pour prendre en charge les méthodes de budgétisation du haut-en-bas et de bas-en-haut. Une fois que le budget est établi et approuvé dans Microsoft Dynamics 365 for Operations, vous devez convertir le plan budgétaire en écriture du registre budgétaire. Les écritures du registre budgétaires fournissent des outils pour tenir à jour le budget et pour conserver la trace des montants grâce à des codes budgétaires. Les écritures du registre budgétaires permettent de réviser les budgets d'origine, effectuer des transferts et reporter des montants budgétaires de l'année précédente. Selon le budget établi, une société peut activer le contrôle budgétaire. Le niveau de contrôle dépend du niveau de la culture organisationnelle et du niveau de maturité de l'organisation. Les organisations qui ont un faible niveau de maturité peuvent laisser le budget « tel quel » et être plus réactives que proactives si un budget ne respecte pas leurs attentes. D'autres organisations peuvent activer les stratégies de contrôle budgétaire qui empêchent les utilisateurs d'acheter si les fonds budgétaires ne sont pas disponibles. Enfin, les organisations très mûres peuvent créer une culture organisationnelle dans laquelle les employés sont instruits des cibles organisationnelles et les poursuivent via des stratégies telles que « Envisagez une réunion en ligne plutôt qu'un déplacement ». Dynamics 365 for Operations inclut une structure de contrôle budgétaire qui permet à la direction de la société de choisir un contrôle ferme (qui empêche les validations qui excéderaient le budget) ou souple (où les utilisateurs sont prévenus s'ils dépassent les fonds budgétaires disponibles et peuvent décider par eux-mêmes). Enfin, vous pouvez utiliser des prévisions à court terme. Une prévision à court terme est une comparaison régulière du budget avec les chiffres réels et elle sert à définir avec quel succès la société exploite son budget. Une prévision à court terme permet également d'identifier les tendances. Dans Microsoft Dynamics 365 for Operations, les prévisions à court terme sont prises en charge via un document de plan budgétaire comme activités initiales d'organisation. Les prévisions à court terme peuvent être effectuées parallèlement avec l'organisation du cycle budgétaire à venir.
 
--   [Budgétisation de base : vue d'ensemble et configuration](basic-budgeting-overview-configuration.md)
--   [Contrôle budgétaire : vue d'ensemble et configuration](budget-control-overview-configuration.md)
--   [Planification budgétaire : Vue d'ensemble et configuration](budget-planning-overview-configuration.md)
--   [Prévision de poste](position-forecasting.md)
--   [Documents justificatifs de planification budgétaire](budget-planning-justification-docs.md)
--   [Modèles Microsoft Excel pour la planification budgétaire]](budget-planning-excel-templates.md)
+-   [Budgétisation de base : vue d'ensemble et configuration](basic-budgeting-overview-configuration.md)
+-   [Contrôle budgétaire : vue d'ensemble et configuration](budget-control-overview-configuration.md)
+-   [Planification budgétaire : vue d'ensemble et configuration](budget-planning-overview-configuration.md)
+-   [Prévision des postes](position-forecasting.md)
+-   [Documents justificatifs du plan budgétaire](budget-planning-justification-docs.md)
+-   [Modèles Microsoft Excel pour la planification budgétaire](budget-planning-excel-templates.md)
 
 ## <a name="budgeting-tools-in-dynamics-365-for-operations"></a>Outils de budgétisation dans Dynamics 365 for Operations
 [![Outils de budgétisation](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 

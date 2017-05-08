@@ -1,5 +1,6 @@
 # Créer une présentation d'entrepôt
 # Processus entrant
+## [Vue d'ensemble des arrivées](arrival-overview.md)
 # Processus sortant
 # Définir le suivi du stock
 ## [Journaux de stock](inventory-journals.md)
@@ -11,6 +12,7 @@
 ## [Consignation](consignment.md)
 ## [Définir une consignation](set-up-consignment.md)
 # Gestion de la qualité
+## [Stock disponible dans l'espace de travail mobile](inventory-on-hand-mobile-workspace.md)
 ## [Activer la gestion de la qualité](enable-quality-management.md)
 ## [Blocage du stock](inventory-blocking.md)
 ## [Gestion de la non-conformité](enable-nonconformance-management.md)
@@ -19,3 +21,4 @@
 # Suivre l'article et le lot
 ## [Fusionner le traitements par lots du stock](merge-inventory-batches.md)
 ## [Suivre l'article et la matière première](trace-items-raw-materials-inventory-production-sales.md)
+

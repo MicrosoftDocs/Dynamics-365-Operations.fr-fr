@@ -22,10 +22,14 @@
 ## [Date moyenne pondérée](weighted-average-date.md)
 ## [Moyenne pondérée avec valeur physique et marquage](weighted-average-physical-value-marking.md)
 # Évaluation des coûts de fabrication
+## [Amortissement des coûts constants pour un article fabriqué](amortize-constant-costs-manufactured-item.md)
+## [Comptabilité à rebours](backflush-costing.md)
+## [Calculs de nomenclature](bom-calculations.md)
 ## [Groupe de calcul de nomenclature](bom-calculation-groups.md)
 ## [Sources courantes des écarts de production](common-sources-of-production-variances.md)
 ## [Catégories de coûts utilisées dans les gammes de production](cost-categories-used-production-routings.md)
 ## [Catégories de coûts utilisées dans le Contrôle de la production et dans la Gestion de projets et comptabilité](cost-categories-used-production-control-project-management-accounting.md)
+## [Affichage des frais pour un article fabriqué](charges-manufactured-item.md)
 ## [Analyse du coût de l'ordre de fabrication](production-order-cost-analysis.md)
 ## [Estimation de coût de l'ordre de fabrication](production-order-cost-estimation.md)
 ## [Validation de la production](production-posting.md)
@@ -39,5 +43,6 @@
 ## [Mise à jour de coût standard dans un environnement de fabrication](update-standard-costs-manufacturing-environment.md)
 ## [Mise à jour de coût standard pour un nouvel article fabriqué](update-standard-costs-new-manufactured-item.md)
 ## [Mise à jour de coût standard dans un environnement hors fabrication](update-standard-costs-non-manufacturing-environment.md)
+
 
 

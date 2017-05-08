@@ -42,6 +42,7 @@
 ## [Modifications des ID de facture sur les commandes client](emea-edit-invoice-id-sales-orders.md)
 ## [Certificat d'entrée dans l'UE](emea-entry-certificates.md)
 ## [Déclaration de la liste des ventes intracommunautaires](emea-eu-sales-list.md)
+## [Ajustements du taux de change](emea-exchange-rate-adjustments.md)
 ## [Formats de fichier des modes de paiement](emea-select-file-formats-for-the-method-of-payments.md)
 ## [Cession d'immobilisations pour l'Estonie et la Lituanie](emea-credit-note-reverse-fixed-asset-sale.md)
 ## [Déclaration d'échanges de biens](emea-intrastat.md)
@@ -56,18 +57,19 @@
 ## [Vue d'ensemble des virements SEPA](../accounts-payable/sepa-credit-transfer.md)
 ## [Vue d'ensemble du débit direct SEPA](../accounts-receivable/sepa-direct-debit-overview.md)
 ## [Paramétrage de signataires pour l'impression d'écrans](emea-set-up-signers-for-printing-forms.md)
-## [Fractionnement de périodes dans les journaux périodiques](emea-create-post-periodic-journals.md)
-## [Modification du mode d'affichage des montants dans les états et documents](emea-amount-printing-forms.md)
-## [Génération d'états TVA](emea-vat-reporting.md)
+## [Taux de change TVA](emea-vat-exchange-rate.md)
 ## [Affichage des transactions pour règlement](emea-transactions-settlement-form.md)
 ## Autriche
+### [Amortissement semestriel](emea-aut-half-year-depreciation.md)
 ### [Commissions sur les matières d'emballage](emea-aut-packing-material-fee-calculation.md)
 ### [Déclaration de TVA](emea-aut-vat-statement-details.md)
 ## Belgique
 ### [Relevé bancaire CODA](emea-bel-coda-bank-statement-import.md)
+### [Déclaration de taxe INTERVAT](emea-bel-intervat-tax-declaration.md)
 ### [Paramétrage d'états PRODCOM](emea-bel-prodcom-report.md)
 
 ## République tchèque
+### [Escompte de règlement pour l'avoir](emea-cze-credit-note-cash-discount.md)
 ### [Arrondissement de l'amortissement](emea-cze-depreciation-rounding.md)
 ### [Suspension d'amortissement](emea-cze-depreciation-suspension-holidays.md)
 ### [Amortissement des immobilisations](emea-cze-fixed-assets-depreciation.md)
@@ -94,7 +96,9 @@
 ### [Liste des journaux (état)](emea-deu-journal-list-report.md)
 ### [Imprimer une étiquette distincte pour les avoirs issus des ventes](emea-deu-print-separate-label-credit-memo-originating-sales.md)
 ## Hongrie
+### [Méthodes d'amortissement des immobilisations](emea-hun-fixed-assets-depreciation-methods.md)    
 ### [Immobilisations à faible coût](emea-hun-low-cost-fixed-assets.md)
+### [Déplacer une immobilisation vers le stock](emea-hun-fixed-asset-to-inventory.md)
 ## Italie
 ### [Détails de relevés de TVA](emea-ita-vat-statements-details.md)
 ### [État de liste noire](emea-ita-black-list-report.md)
@@ -103,6 +107,7 @@
 ### [Vérification de la date de bon de livraison sur les factures](emea-ita-packing-slip-date-verification-on-invoice.md)
 ### [Registres des taxes](emea-ita-fiscal-books.md)
 ### [Paiement fractionné des factures émises (Secteur public)](emea-ita-split-payment-invoices-issued-public-administration.md)
+### [Retenue à la source](emea-ita-withholding tax.md)
 ## Lettonie
 ### [Comptabilité immobilisations](emea-lva-fixed-assets-accounting.md)
 ### [Suivi des modifications d'emplacement d'immobilisations](emea-lva-fixed-assets-location-fields-change.md)
@@ -119,12 +124,17 @@
 ### [Numérotation des doublons de factures de vente](emea-pol-sales-invoice-duplicates-numbering.md)
 ### [Amortissement des immobilisations](emea-pol-fixed-assets-depreciation.md)
 ### [Extension de fonctionnalité pour cession d'immobilisations](emea-pol-fixed-asset-disposal-functionality-extension.md)
+### [Emballage restituable](emea-pol-returnable-packages.md)
+### [Déclarations de taxe](emea-pol-sales-tax-reports.md)
+### [Fichier d'audit standard (SAF)](emea-pol-standard-audit-file-saf.md)
 ### [Relevé du chiffre d'affaires et des soldes](emea-pol-turnover-balances-statement.md)
 ## Espagne
-### [Options de lettre de change](emea-esp-bill-of-exchange-options.md)
 ### [Escompte de règlement appliqué dans la facture](emea-esp-cash-discount-applied-invoice.md)
+### [Options de lettre de change](emea-esp-bill-of-exchange-options.md)
+### [Taxe sur les encaissements](emea-esp-conditional-sales-tax.md)
 ### [Compte de facturation - Données fiscales](emea-esp-fiscal-data-invoice-account.md)
 ### [Réévaluation de groupe d'immobilisations](emea-esp-fixed-asset-group-revaluation.md)
+### [TVA intracommunautaire](emea-esp-intra-community-vat.md)
 ### [Clients occasionnels](emea-esp-no-one-time-customer-for-project-contracts.md)
 ### [Options de billet à ordre](emea-esp-promissory-note-options.md)
 ### [Cycles de vente et d'achat](emea-esp-sales-purchase-cycle.md)
@@ -163,3 +173,4 @@
 
 # Amérique du Nord
 ## [Génération d'état de fin d'exercice 1099 pour les États-Unis](noam-usa-year-end-1099-reporting.md)
+

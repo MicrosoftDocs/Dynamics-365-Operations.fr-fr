@@ -1,6 +1,6 @@
 ---
 title: "Page d&quot;accueil BI et génération d&quot;états"
-description: "Cette rubrique répertorie les ressources BI et de génération d&quot;états disponibles dans Microsoft Dynamics 365 for Operations."
+description: "Cette rubrique répertorie les ressources BI et de génération d&quot;états disponibles dans Microsoft Dynamics 365 for Operations."
 author: sericks007
 manager: AnnBe
 ms.date: 04/04/2017
@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: fad93826b0798e2028f75457d5bbdbd1f9639a5b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: dd17842365e357ecb5cb6034ed8878fcd60be5fc
+ms.openlocfilehash: 7163951249cbea6d528440aef9bf38bcf4c4f7e5
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -29,17 +30,17 @@ ms.lasthandoff: 03/31/2017
 [!include[banner](../includes/banner.md)]
 
 
-Cette rubrique répertorie les ressources BI et de génération d'états disponibles dans Microsoft Dynamics 365 for Operations. 
+Cette rubrique répertorie les ressources BI et de génération d'états disponibles dans Microsoft Dynamics 365 for Operations. 
 
 <a name="working-with-aggregate-data"></a>Utilisation de données regroupées
 ---------------------------
 
--   [Analyse](analytics.md)
+-   [Analyses](analytics.md)
 -   [Les modèles globaux en temps réel en mémoire remplacent les cubes SSAS](..\migration-upgrade\in-memory-real-time-aggregate-models.md)
 -   [Modélisation et utilisation de données regroupées](model-aggregate-data.md)
 -   [Migration d'un cube de vente Dynamics AX 2012 R3 mis à niveau dans le magasin d'entité](..\migration-upgrade\migrate-upgraded-cube-entity-store.md)
 
-## <a name="self-service-reporting"></a>Génération d'états libre service
+## <a name="self-service-reporting"></a>Génération d'états libre-service
 -   [Intégration Power BI](power-bi-integration.md)
 -   [Configuration de l'intégration Power BI pour les espaces de travail](configure-power-bi-integration.md)
 -   [Création d'un état Power BI à l'aide de données Microsoft Dynamics 365 for Operations](create-powerbi-report-data.md)
@@ -64,13 +65,13 @@ Cette rubrique répertorie les ressources BI et de génération d'états disponi
 -   [Installer les modèles de conception des rapports modernes](install-modern-report-design-templates.md)
 -   [Conseils pour empêcher que des états à long terme arrivent à expiration](prevent-long-running-reports-timing-out.md)
 
-## <a name="electronic-reporting"></a>États électroniques
--   [Vue d'ensemble des États électroniques](general-electronic-reporting.md)
+## <a name="electronic-reporting"></a>Gestion des états électroniques
+-   [Vue d'ensemble des états électroniques](general-electronic-reporting.md)
 -   [Gérer le cycle de vie de la configuration des états électroniques](general-electronic-reporting-manage-configuration-lifecycle.md)
 -   [Extension de la liste des fonctions de génération d'états électroniques](general-electronic-reporting-formulas-list-extension.md)
 -   [Concepteur de formule dans les états électroniques](general-electronic-reporting-formula-designer.md)
--   [Destinations des états électroniques](electronic-reporting-destinations.md)
--   [Télécharger les configurations des états électroniques à partir de Lifecycle Services](download-electronic-reporting-configuration-lcs.md)
+-   [Destinations pour la gestion des états électroniques](electronic-reporting-destinations.md)
+-   [Télécharger les configurations d'états électroniques à partir de Lifecycle Services](download-electronic-reporting-configuration-lcs.md)
 -   [Utiliser une configuration de génération d'états électroniques pour fournir à Power BI des données Dynamics 365 for Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 -   [ER Créer un fournisseur de configuration et le marquer comme actif](http://ax.help.dynamics.com/en/wiki/er-select-service-provider/) (Guide de tâche)
 -   [ER Créer un modèle de données spécifique au domaine](http://ax.help.dynamics.com/en/wiki/er-design-domain-specific-data-model/) (Guide de tâche)
@@ -81,21 +82,21 @@ Cette rubrique répertorie les ressources BI et de génération d'états disponi
 -   [ER Charger une configuration à partir de Lifecycle Services](http://ax.help.dynamics.com/en/wiki/import-a-configuration-from-lifecycle-services/) (Guide de tâche)
 -   [ER Concevoir une configuration pour générer des états au format OPENXML](http://ax.help.dynamics.com/en/wiki/design-a-configuration-for-generating-reports-in-openxml-format/) (Guide de tâche)
 -   [ER Configurer des destinations](http://ax.help.dynamics.com/en/wiki/configure-destinations/) (Guide de tâche)
--   [ER Utiliser les dimensions financières comme source de données (Partie 1 : Créer un modèle de données)](http://ax.help.dynamics.com/en/wiki/er-use-financial-dimensions-as-a-data-source-part-1-design-data-model/) (Guide de tâche)
--   [ER Utiliser les dimensions financières comme source de données (Partie 2 : Mappage de modèle)](http://ax.help.dynamics.com/en/wiki/er-use-financial-dimensions-as-a-data-source-part-2-model-mapping/) (Guide de tâche)
--   [ER Utiliser les dimensions financières comme source de données (Partie 3 : Créer l'état)](http://ax.help.dynamics.com/en/wiki/er-use-financial-dimensions-as-a-data-source-part-3-design-the-report/) (Guide de tâche)
--   [ER Utiliser les dimensions financières comme source de données (Partie 4 : Exécuter l'état)](http://ax.help.dynamics.com/en/wiki/er-use-financial-dimensions-as-a-data-source-part-4-run-the-report/) (Guide de tâche)
--   [ER Configurer le format pour effectuer le comptage et la synthèse (Partie 1 : Créer un format)](http://ax.help.dynamics.com/en/wiki/er-configure-format-to-do-counting-and-summing-part-1-create-format/) (Guide de tâche)
--   [ER Configurer le format pour effectuer le comptage et la synthèse (Partie 2 : Configurer les calculs)](http://ax.help.dynamics.com/en/wiki/er-configure-format-to-do-counting-and-summing-part-2-configure-computations/) (Guide de tâche)
--   [ER Configurer le format pour effectuer le comptage et la synthèse (Partie 3 : Utiliser les calculs pour générer la sortie)](http://ax.help.dynamics.com/en/wiki/er-configure-format-to-do-counting-and-summing-part-3-use-computations-to-make-the-output/) (Guide de tâche)
--   [ER Configurer le format pour effectuer le comptage et la synthèse (Partie 4 : Exécuter un format)](http://ax.help.dynamics.com/en/wiki/er-configure-format-to-do-counting-and-summing-part-4-run-format/) (Guide de tâche)
--   [ER Utiliser des plages extensibles horizontalement pour ajouter dynamiquement des colonnes dans les états Excel (Partie 1 : Créer un format)](http://ax.help.dynamics.com/en/wiki/er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-1-design-format/) (Guide de tâche)
--   [ER Utiliser des plages extensibles horizontalement pour ajouter dynamiquement des colonnes dans les états Excel (Partie 2 : Exécuter le format)](http://ax.help.dynamics.com/en/wiki/er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-2-run-format/) (Guide de tâche)
--   [ER Utiliser les fichiers de gestion des documents dans les sorties de format (Partie 1 : Préparer le modèle de données)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-1-prepare-data-model/) (Guide de tâche)
--   [ER Utiliser les fichiers de gestion des documents dans les sorties de format (Partie 2 : Étendre le modèle de données)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-2-extend-data-model/) (Guide de tâche)
--   [ER Utiliser les fichiers de gestion des documents dans les sorties de format (Partie 3 : Créer un format)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-3-create-format/) (Guide de tâche)
--   [ER Utiliser les fichiers de gestion des documents dans les sorties de format (Partie 4 : Exécuter le format)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-4-run-format/) (Guide de tâche)
--   [ER Utiliser les fichiers de gestion des documents dans les sorties de format (Partie 5 : Modifier et exécuter le format)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-5-modify-and-run-format/) (Guide de tâche)
+-   [ER Utiliser les dimensions financières comme source de données (Partie 1 : Création d'un modèle de données)](http://ax.help.dynamics.com/en/wiki/er-use-financial-dimensions-as-a-data-source-part-1-design-data-model/) (Guide de tâche)
+-   [ER Utiliser les dimensions financières comme source de données (Partie 2 : Mise en correspondance des modèles)](http://ax.help.dynamics.com/en/wiki/er-use-financial-dimensions-as-a-data-source-part-2-model-mapping/) (Guide de tâche)
+-   [ER Utiliser les dimensions financières comme source de données (Partie 3 : Conception de l'état)](http://ax.help.dynamics.com/en/wiki/er-use-financial-dimensions-as-a-data-source-part-3-design-the-report/) (Guide de tâche)
+-   [ER Utiliser les dimensions financières comme source de données (Partie 4 : Exécution de l'état)](http://ax.help.dynamics.com/en/wiki/er-use-financial-dimensions-as-a-data-source-part-4-run-the-report/) (Guide de tâche)
+-   [ER Configurer le format pour effectuer le comptage et la synthèse (Partie 1 : Création d'un format)](http://ax.help.dynamics.com/en/wiki/er-configure-format-to-do-counting-and-summing-part-1-create-format/) (Guide de tâche)
+-   [ER Configurer le format pour effectuer le comptage et la synthèse (Partie 2 : Configuration des calculs)](http://ax.help.dynamics.com/en/wiki/er-configure-format-to-do-counting-and-summing-part-2-configure-computations/) (Guide de tâche)
+-   [ER Configurer le format pour effectuer le comptage et la synthèse (Partie 3 : Utilisation des calculs pour générer la sortie)](http://ax.help.dynamics.com/en/wiki/er-configure-format-to-do-counting-and-summing-part-3-use-computations-to-make-the-output/) (Guide de tâche)
+-   [ER Configurer le format pour effectuer le comptage et la synthèse (Partie 4 : Exécution du format)](http://ax.help.dynamics.com/en/wiki/er-configure-format-to-do-counting-and-summing-part-4-run-format/) (Guide de tâche)
+-   [ER Utiliser des plages extensibles horizontalement pour ajouter dynamiquement des colonnes dans les états Excel (Partie 1 : Création d'un format)](http://ax.help.dynamics.com/en/wiki/er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-1-design-format/) (Guide de tâche)
+-   [ER Utiliser des plages extensibles horizontalement pour ajouter dynamiquement des colonnes dans les états Excel (Partie 2 : Exécution du format)](http://ax.help.dynamics.com/en/wiki/er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-2-run-format/) (Guide de tâche)
+-   [ER Utiliser les fichiers de gestion des documents dans les sorties de format (Partie 1 : Préparation du modèle de données)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-1-prepare-data-model/) (Guide de tâche)
+-   [ER Utiliser les fichiers de gestion des documents dans les sorties de format (Partie 2 : Extension du modèle de données)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-2-extend-data-model/) (Guide de tâche)
+-   [ER Utiliser les fichiers de gestion des documents dans les sorties de format (Partie 3 : Création d'un format)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-3-create-format/) (Guide de tâche)
+-   [ER Utiliser les fichiers de gestion des documents dans les sorties de format (Partie 4 : Exécution du format)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-4-run-format/) (Guide de tâche)
+-   [ER Utiliser les fichiers de gestion des documents dans les sorties de format (Partie 5 : Modification et exécution d'un format)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-5-modify-and-run-format/) (Guide de tâche)
 -   [ER Générer les documents électroniques pour les paiements à l'aide d'une configuration de format](http://ax.help.dynamics.com/en/wiki/generate-electronic-documents-for-payments-using-a-format-configuration/) (Guide de tâche)
 -   [ER Mettre à niveau votre format en adoptant la nouvelle version de base de ce format](http://ax.help.dynamics.com/en/wiki/upgrade-your-format-by-adopting-a-new-base-version-of-that-format/) (Guide de tâche)
 

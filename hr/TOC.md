@@ -60,3 +60,15 @@
 #### [Mise à jour des données salariales - FAQ](localizations/noam-usa-payroll-data-updates.md)
 #### [Générer des états de paie](localizations/noam-usa-generate-payroll-reports.md)
 
+# [Finances](/dynamics365/operations/financials/index)
+
+# [Vente au détail](/dynamics365/operations/retail/index)
+
+# [Gestion de la chaîne d'approvisionnement](/dynamics365/operations/supply-chain/index)
+
+# [Développeur et administrateur](/dynamics365/operations/dev-itpro/index)
+
+# Ressources connexes
+## [Glossaire Dynamics 365 for Operations](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/human-resources/toc.json)
+## [Nouveautés ou changements](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/human-resources/toc.json)
+
