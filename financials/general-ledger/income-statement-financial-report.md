@@ -1,0 +1,75 @@
+---
+title: "Rapport financier du relevé des revenus"
+description: "Cet article décrit l&quot;état par défaut des comptes de résultats. Il décrit également les blocs de construction associés à cet état."
+author: twheeloc
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+audience: Application User
+ms.reviewer: annbe
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 12294
+ms.assetid: 30820be0-d943-4f8b-8c25-6414ec393b3d
+ms.search.region: Global
+ms.author: jcart
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
+ms.openlocfilehash: 8dd289c1943afb55373ba682afcc3cd107cb67a7
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="income-statement-financial-report"></a>Rapport financier du relevé des revenus
+
+[!include[banner](../includes/banner.md)]
+
+
+Cet article décrit l'état par défaut des comptes de résultats. Il décrit également les blocs de construction associés à cet état. 
+
+<a name="default-income-statement-report"></a>Rapport par défaut du relevé des revenus
+-------------------------------
+
+| État par défaut             | Fonction                                                                                              |
+|----------------------------|-----------------------------------------------------------------------------------------------------------|
+| Relevé des revenus – Par défaut. | Permet d'afficher la rentabilité de l'organisation pour la période en cours ainsi que pour l'année en cours. |
+
+## <a name="building-blocks"></a>Blocs élémentaires
+Le rapport financier du relevé des revenus utilise les blocs élémentaires suivants.
+
+| Rapport par défaut             | Définition de ligne                     | Définition de colonne          |
+|----------------------------|------------------------------------|----------------------------|
+| Relevé des revenus - Par défaut | Récapitulatif du relevé des revenus - Par défaut | Périodique et Année en cours - Par défaut |
+
+### <a name="row-definition"></a>Définition de ligne
+
+La définition de ligne, Récapitulatif du relevé des revenus - Par défaut, contient une section pour chaque partie d'un relevé de revenus traditionnel. La dimension Catégorie de compte principal est utilisée afin d'établir cette définition de ligne. Par conséquent, n'importe qui peut générer le rapport sans avoir à apporter de modifications.
+
+### <a name="column-definition"></a>Définition de colonne
+
+Les définitions de colonne contiennent différents types de colonnes afin d'offrir différents niveaux de détails et de données financières.
+
+-   **Périodique et Année en cours – Types de colonne par défaut :**
+    -   **DESC** : Description de la définition de ligne.
+    -   **DF** – Données financières pour la période en cours
+    -   **DF** – Données financières pour l'année en cours
+
+ 
+
+<a name="see-also"></a>Voir également :
+--------
+
+[États financiers](financial-reporting-getting-started.md)
+
+[Afficher les états financiers](view-financial-reports.md)
+
+[États financiers Dynamics (blog)](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
+
+

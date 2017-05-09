@@ -1,0 +1,61 @@
+---
+title: "FAQ sur le client Dynamics 365 for Operations"
+description: "Cet article fournit des réponses aux questions fréquemment posées sur le client Microsoft Dynamics 365 for Operations."
+author: jasongre
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+audience: Application User
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 12334
+ms.assetid: a9a57f0e-a67c-46b1-83c9-5d6350fb3b86
+ms.search.region: Global
+ms.author: jasongre
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: 4bb647cfd3f012efbffa93a81462c538a24ac850
+ms.openlocfilehash: 2c99b2e1f7ddecb61be62832ca1a8d3ac1fd21a8
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="dynamics-365-for-operations-client-faq"></a>FAQ sur le client Dynamics 365 for Operations
+
+[!include[banner](../includes/banner.md)]
+
+
+Cet article fournit des réponses aux questions fréquemment posées sur le client Microsoft Dynamics 365 for Operations.
+
+<a name="why-arent-symbols-loaded-when-i-use-dynamics-365-for-operations"></a>Pourquoi est-ce que les symboles ne sont pas chargés lorsque j'utilise Dynamics 365 for Operations ?
+-----------------------------------------------------------------
+
+Les paramètres de sécurité de votre navigateur peuvent empêcher les symboles d'être chargés correctement. Pour résoudre ce problème, procédez comme suit :
+
+-   Si vous rencontrez ce problème dans Internet Explorer, cliquez sur **Outils**, puis sur **Options Internet**.  Dans la boîte de dialogue Options Internet, sous l'onglet **Confidentialité**, cliquez sur **Niveau personnalisé** et vérifiez que l'option **Chargement des polices** est sélectionnée.
+-   Sinon, vous devrez peut-être ajouter le site de Dynamics 365 for Operations à la liste des sites de confiance.
+
+## <a name="i-miss-the-ribbon-from-dynamics-ax-2012-can-i-keep-action-pane-tabs-open-all-the-time"></a>Il me manque le ruban de Dynamics AX 2012. Puis-je conserver les onglets du volet Actions ouverts en permanence ?
+Nous prévoyons d'implémenter cette fonction bientôt. Les utilisateurs pourront alors choisir de conserver les onglets du volet Actions ouverts en permanence. Sinon, les onglets seront réduits lorsqu'ils ne seront pas utilisés, permettant de conserver davantage d'espace d'écran pour la page.
+
+## <a name="why-do-i-sometimes-see-different-shortcut-menus-when-i-rightclick"></a>Pourquoi vois-je parfois différents menus contextuels lorsque je clique avec le bouton droit ?
+Si vous cliquez avec le bouton droit sur un champ modifiable (ou si le texte est sélectionné), le menu contextuel du navigateur s'affiche. Ce menu vous donne accès aux commandes **Couper**, **Copier** et **Coller**. Nous pouvons ne pas inclure ces commandes dans les menus contextuels de Dynamics 365 for Operations car, pour des raisons de sécurité, les navigateurs ne nous permettent pas d'accéder par programme au presse-papiers du système.
+
+Si vous cliquez avec le bouton droit sur une étiquette de champ ou sur la valeur d'un contrôle en lecture seule, vous verrez le menu contextuel de Dynamics 365 for Operations.
+
+Pour faciliter l'accès au clavier, nous envisageons d'implémenter un raccourci clavier qui ouvrira le menu contextuel de Dynamics 365 for Operations.
+
+## <a name="where-is-the-view-details-functionality-in-dynamics-365-for-operations"></a>Où est la fonctionnalité Afficher les détails dans Dynamics 365 for Operations ?
+L'option **Afficher les détails** est disponible de plusieurs manières :
+
+-   Si un contrôle a des fonctionnalités **Afficher les détails**, et si le contrôle a une valeur, cette valeur est affichée comme lien hypertexte. Vous pouvez cliquer sur le lien hypertexte pour ouvrir une page qui contient des informations supplémentaires.
+-   **Afficher les détails** est également une option des menus contextuels de Dynamics 365 for Operations. Pour plus d'informations sur les affichage des menus contextuels de Dynamics 365 for Operations après avoir cliqué sur le bouton droit, consultez la section précédente.
+
+
+
+
+
