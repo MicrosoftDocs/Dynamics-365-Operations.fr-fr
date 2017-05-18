@@ -17,10 +17,11 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: fabaacbc7187b38a1745c2139a9eb7760f2be987
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
+ms.openlocfilehash: a0a105ade7e47d7c554d62ee112ed03437bb7521
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -54,10 +55,10 @@ Le concepteur de mise en page d'impression permet de créer graphiquement la mis
 5.  Une fois l'installation terminée, entrez votre nom d'utilisateur et votre mot de passe Microsoft Dynamics 365 for Operations, puis cliquez sur **Connexion** pour démarrer le concepteur.
 6.  Une fois que vos informations d'identification sont validées et que le concepteur démarre, vous pouvez commencer à concevoir le format du ticket de caisse ou à modifier un format existant.
 7.  Pour créer les éléments de l'écran, sélectionnez la section **En-tête**, **Lignes** ou **Pied de page**, puis faites glisser un élément de cette section vers l'espace de travail. La plupart des éléments contiennent des variables qui sont automatiquement renseignées à l'aide des données de la base de données. D'autres éléments, comme **Texte**, permettent d'imprimer un texte personnalisé sur le ticket de caisse. **Remarque :** vous pouvez spécifier le nombre de lignes de chacune des sections en adaptant le nombre dans le coin inférieur droit de la section. Pour faciliter la modification d'une section, augmentez sa hauteur en faisant glisser la barre de dimensionnement au bas de la section. La hauteur de la section de l'espace de travail ne modifie pas le nombre de lignes du ticket de caisse.
-8.  Une fois un élément déposé dans l'espace de travail, définissez ses propriétés dans le volet **Informations sur l'objet **en bas de la page. Entrez au moins l'un des paramètres suivants :
+8.  Une fois un élément déposé dans l'espace de travail, définissez ses propriétés dans le volet **Informations sur l'objet**en bas de la page. Entrez au moins l'un des paramètres suivants :
     -   **Aligner** – Permet de définir l'alignement du champ sur **Gauche** ou sur **Droite**.
     -   **Caractère de remplissage** – Spécifiez le caractère espace. Par défaut, un espace vide est utilisé, mais vous pouvez entrer n'importe quel caractère.
-    -   **Préfixe** – Entrez la valeur qui apparaît au début du champ. Ce paramètre ne s'applique qu'à la section **Lignes **de la mise en page.
+    -   **Préfixe** – Entrez la valeur qui apparaît au début du champ. Ce paramètre ne s'applique qu'à la section **Lignes**de la mise en page.
     -   **Caractères** – Permet de spécifier le nombre maximal de caractères que le champ peut contenir si l'élément contient une variable. Si le texte du champ est plus long que le nombre de caractères spécifié, il est tronqué pour correspondre à la largeur du champ.
     -   **Variable** – Si l'élément contient une variable et qu'il ne peut pas être personnalisé, cette case à cocher est activée automatiquement.
     -   **Type de police** – Définissez le type de police (**Normal** ou **Gras**). Les caractères en gras utilisent deux fois plus d'espace que les caractères normaux. Il se peut donc que certains caractères soient tronqués.

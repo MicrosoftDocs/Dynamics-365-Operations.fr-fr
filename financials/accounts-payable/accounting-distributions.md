@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: a98ce08dc115bc96cec07c2d6ced10d774785fe9
-ms.openlocfilehash: b1057caae6f47e5a17e194834fbbcb9d7d731605
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 527ca0aa977c928204a1db165a77e20483931bda
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -45,14 +46,14 @@ Les fonctionnalités de répartition comptable générique fournissent les optio
     -   Les montants des distributions sont fondés sur la devise pour le document. En général, la devise est la devise utilisée pour la transaction. Les montant en devise de comptabilité et en devise de déclaration sont générés dans le cadre de la comptabilité auxiliaire.
     -   Les distributions permettent d'afficher la date comptable et l'événement comptable. Généralement, l'événement comptable est défini sur **Aucun(e)** tant que le document n'est pas validé/journalisé. À ce stade, l'événement comptable devient **Initial**. Une fois les répartitions validées, vous ne pouvez plus les modifier.
     -   Le bouton **Fractionnement** peut être activé pour les distributions parent. Le bouton **Fractionnement** génère de nouvelles répartitions comptables, et le fractionnement peut être basé sur un pourcentage, un montant ou une quantité.
-    -   Le bouton ** Répartir en valeurs égales** peut être utilisé en association avec **Fractionnement** pour répartir automatiquement le montant également entre toutes les distributions.
+    -   Le bouton **Répartir en valeurs égales** peut être utilisé en association avec **Fractionnement** pour répartir automatiquement le montant également entre toutes les distributions.
     -   Le bouton **Réinitialiser** peut être activé pour les distributions parent lorsque plusieurs distributions existent. **Rétablir** contrepasse toute modification manuelle à la distribution supprimant toutes les répartitions existantes ou en régénérant les distributions par défaut.
     -   Une répartition enfant, telle qu'une remise, les frais ou la taxe, suit toujours la distribution parent. Vous pouvez afficher la relation parent/enfant dans **Référence** &gt; **Informations parent**.
     -   Le compte principal et la dimension financière peuvent être modifiables pour les enfants aussi.
     -   Les dimensions financières sur les répartitions comptables suivent un motif par défaut qui peut être étendu par un document. Pour plus d'informations, consultez les articles connexes.
     -   Les répartitions des écarts peuvent être générées dans des scénarios de correspondance, tels qu'une correspondance entre une facture fournisseur et une commande fournisseur. Vous pouvez afficher les relations de correspondance entre répartitions comptables dans **Référence** &gt; **Informations du document**.
     -   Le bouton **Corriger** s'affiche et est activé pour les documents qui prennent en charge les corrections. **Corriger** crée les nouvelles répartitions. En premier sont créées les répartitions qui contrepassent les répartitions d'origine. Ces répartitions ne peuvent pas être modifiées. Ensuite, les répartitions comptables correctes sont créées. Ces répartitions peuvent être modifiées si les distributions d'origine pouvaient être modifiées.
-    -   Le bouton ** Détails du projet** est activé comme extension lorsqu'une ligne est liée à un projet. Les répartitions comptables de projet permettent de modifier les détails tels que la source du financement et la propriété de ligne.
+    -   Le bouton **Détails du projet** est activé comme extension lorsqu'une ligne est liée à un projet. Les répartitions comptables de projet permettent de modifier les détails tels que la source du financement et la propriété de ligne.
     -   Vous pouvez afficher le statut comptable du document actuel dans **Référence**. Le statut concerne le document entier, et indique si le document est en cours de traitement ou terminé.
 -   **Afficher les distributions** – Permet d'afficher les répartitions comptables pour toutes les lignes et les montants en devises du document. Vous ne pouvez pas modifier les répartitions comptables de cette vue.
 

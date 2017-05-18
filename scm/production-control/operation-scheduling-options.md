@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 68cac68e1ea3db35b44c91f2c1901abf2aa521be
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 4b79b21c6c4ceebfd24225643d099a2e2789d303
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -45,7 +46,7 @@ Plusieurs paramètres déterminent la manière dont les planifications de produc
 
 La direction de planification est un aspect fondamental du processus de planification. Une production peut être planifiée en avant ou en arrière à partir d'une date quelconque, en fonction des besoins de planification et d'échéance.
 
--   **Planification en avant **– Vous pouvez planifier de démarrer une production le plus tôt possible. Celle-ci peut être démarrée aujourd'hui, demain ou à une date ultérieure spécifique. Le début de la production est prévu le plus tôt possible et la fin de la production est prévue à la date ultérieure la plus proche possible.
+-   **Planification en avant**– Vous pouvez planifier de démarrer une production le plus tôt possible. Celle-ci peut être démarrée aujourd'hui, demain ou à une date ultérieure spécifique. Le début de la production est prévu le plus tôt possible et la fin de la production est prévue à la date ultérieure la plus proche possible.
 -   **Planification en arrière** – Vous pouvez planifier de démarrer une production le plus tard possible. La planification est basée sur la date à laquelle la production doit être terminée et effectue un décompte en arrière vers la date la plus tardive à laquelle la production peut commencer en vue de respecter le délai prévu.
 
 Les options suivantes sont disponibles :
@@ -98,7 +99,7 @@ Lorsque les références dépendent des ordres de fabrication, elles sont égale
 
 ### <a name="synchronize-references"></a>Synchroniser les références
 
-Vous pouvez synchroniser les références avec l'ordre de fabrication. Dans ce cas, les dates des sous-productions sont avancées ou repoussées, et alignées en cas de modification de la planification de l'ordre de fabrication. Si un ordre de fabrication est composée d'une ou de plusieurs sous-productions, vous pouvez planifier les sous-productions avec la production principale. Dans ce cas, la production principale ne peut pas être lancée tant que les sous-productions associées ne sont pas terminées. Par conséquent, activez cette case à cocher si la planification des sous-productions doit être basée sur les heures de début et de fin de la production sélectionnée. Vous pouvez activer cette case à cocher uniquement si la case à cocher** Planifier des références** est également activée.
+Vous pouvez synchroniser les références avec l'ordre de fabrication. Dans ce cas, les dates des sous-productions sont avancées ou repoussées, et alignées en cas de modification de la planification de l'ordre de fabrication. Si un ordre de fabrication est composée d'une ou de plusieurs sous-productions, vous pouvez planifier les sous-productions avec la production principale. Dans ce cas, la production principale ne peut pas être lancée tant que les sous-productions associées ne sont pas terminées. Par conséquent, activez cette case à cocher si la planification des sous-productions doit être basée sur les heures de début et de fin de la production sélectionnée. Vous pouvez activer cette case à cocher uniquement si la case à cocher**Planifier des références** est également activée.
 
 ## <a name="cancellation"></a>Annulation
 ### <a name="cancel-queue-time"></a>Annuler le temps d'attente

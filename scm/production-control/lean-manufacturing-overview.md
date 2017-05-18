@@ -19,10 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 3c608f13c93446329702f07ef7e8bb08a29d87b9
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 8cb9428ff6be93f9a395ec3085ef1fda05847a8a
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -40,7 +41,7 @@ Le lean manufacturing offre des outils que vous pouvez utiliser pour modéliser 
 -   Surveillez et mettez à jour des tâches de kanban.
 
 L'architecture de lean manufacturing de Microsoft Dynamics AX 7 est constituée de flux de production, d'activités, et de règles de kanban. Ces structures sont entièrement intégrées aux processus Microsoft Dynamics AX 7. Vous pouvez utiliser le lean manufacturing dans un environnement de fabrication en mode mixte combinant différentes stratégies d'approvisionnement et de production. Ces dernières incluent des ordres de fabrication, des lots de commandes pour les secteurs de traitement, des commandes fournisseur, et des ordres de transfert.
-| **Important **                                                                                                                                                                                                                                                                |
+| **Important**                                                                                                                                                                                                                                                                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Microsoft Dynamics AX 7 vous permet de prendre en charge la mise en œuvre du concept de lean manufacturing avec des kanbans. Toutefois, une implémentation réussie des principes de production au plus juste dépend des processus entreprise internes que vous utilisez, et des conditions et de l'environnement de production réels. |
 

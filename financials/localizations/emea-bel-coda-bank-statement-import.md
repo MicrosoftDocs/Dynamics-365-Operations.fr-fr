@@ -17,10 +17,11 @@ ms.search.region: Belgium
 ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 187a17ac4c1fb7b30447f7586b57497d7460c694
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: c9fd101561ad2b699e813d47541a28a0978171a4
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -55,7 +56,7 @@ Effectuez les étapes suivantes pour traiter les transactions de relevé bancair
 
 1.  Traitez les lignes de détail (**CODA** &gt; **Traiter les lignes de détails**). Démarrez la mise en correspondance automatique en fonction des **Définitions CODA**. Ces règles déterminent le compte général, client ou fournisseur qui doit être utilisé pour cette transaction. La comparaison est basée sur le code du groupe de transactions, le code de transaction et le code de catégorie de transaction spécifiés dans le fichier CODA pour chaque transaction.
 2.  Les transactions avec un type de compte client et fournisseur peuvent être mises en correspondance avec les factures. Si nécessaire, les transactions importées peuvent être modifiées manuellement à tout moment après le traitement, avant de les transférer vers la comptabilité.
-3.  Si des transactions comportent des erreurs (en général, si aucune règle n'est paramétrée), celles-ci peuvent être mentionnées dans le compte général spécial, spécifié sur la page **Paramètres CODA** (**CODA** &gt; **Effacer les erreurs**).
+3.  Si des transactions comportent des erreurs (en général, si aucune règle n'est paramétrée), celles-ci peuvent être mentionnées dans le compte général spécial, spécifié sur la page **Paramètres CODA**(**CODA** &gt; **Effacer les erreurs**).
 4.  Une fois que toutes les transactions du relevé bancaire sont réglées, elles sont prêtes à être transférées vers le journal de comptabilité (**CODA** &gt;**Transfert vers la comptabilité**). Les paramètres du journal doivent être spécifiés pour le compte bancaire. Les journaux peuvent être ouverts sur la page **Comptes bancaires** pour l'enregistrement sélectionné en cliquant sur **Paramétrage** &gt; **Journal CODA**.
 
 Une fois que le traitement des transactions de relevé bancaire est terminé, un journal de comptabilité est créé et prêt à être validé.

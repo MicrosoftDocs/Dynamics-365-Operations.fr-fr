@@ -18,10 +18,11 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 6bb98cc72c2ec0c1551412dd39d5bea3ce10e2cd
-ms.openlocfilehash: a951b1f0159ef61704fb772d81ab6a9bc1c80589
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e9db56910f93599dc1f5f2951ce36d6e76fe0637
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -79,7 +80,7 @@ Le tableau suivant indique la configuration requise qui doit être en place avan
 </table>
 
 ## <a name="creating-registering-and-uploading-an-eu-entry-certificate"></a>Création, enregistrement et téléchargement d'un certificat d'entrée de l'UE
-Vous pouvez créer un certificat d'entrée de l'UE automatiquement ou manuellement. Un certificat d'entrée de l'UE est créé et imprimé automatiquement lors de la validation d'un bon de livraison ou d'une facture pour un client à l'aide de la page **Validation du bon de livraison** ou la page **Validation de la facture**. Pour créer manuellement ou réimprimer un certificat d'entrée de l'UE pour une facture client, utilisez la page **Journal des factures**. En outre, vous pouvez utiliser la page **Journal des certificats d'entrée ** pour entrer des détails sur un certificat d'entrée de l'UE émis par une tierce partie.
+Vous pouvez créer un certificat d'entrée de l'UE automatiquement ou manuellement. Un certificat d'entrée de l'UE est créé et imprimé automatiquement lors de la validation d'un bon de livraison ou d'une facture pour un client à l'aide de la page **Validation du bon de livraison** ou la page **Validation de la facture**. Pour créer manuellement ou réimprimer un certificat d'entrée de l'UE pour une facture client, utilisez la page **Journal des factures**. En outre, vous pouvez utiliser la page **Journal des certificats d'entrée** pour entrer des détails sur un certificat d'entrée de l'UE émis par une tierce partie.
 
 ### <a name="creating-an-eu-entry-certificate-automatically-or-manually"></a>Création d'un certificat d'entrée de l'UE automatiquement ou manuellement
 
@@ -87,7 +88,7 @@ Vous pouvez créer un certificat d'entrée de l'UE automatiquement à l'aide d'u
 
 ### <a name="registering-an-eu-entry-certificate"></a>Enregistrement d'un certificat d'entrée de l'UE
 
-Si un enregistrement est requis, vous pouvez utiliser la page **Journal des certificats d'entrée ** pour enregistrer un certificat d'entrée de l'UE émis par une tierce partie.
+Si un enregistrement est requis, vous pouvez utiliser la page **Journal des certificats d'entrée** pour enregistrer un certificat d'entrée de l'UE émis par une tierce partie.
 
 ### <a name="uploading-a-received-eu-entry-certificate"></a>Chargement d'un certificat d'entrée de l'UE reçu
 

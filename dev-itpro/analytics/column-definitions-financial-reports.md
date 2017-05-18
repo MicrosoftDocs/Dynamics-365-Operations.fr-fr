@@ -1,16 +1,16 @@
 ---
 title: "Définitions de colonne dans les états financiers"
 description: "Cet article fournit des informations sur les définitions de colonne. Une définition de colonne est un composant de l’état, ou un bloc élémentaire, qui spécifie le contenu des colonnes d’un état. Comme les définitions de ligne, des définitions de colonne de base peuvent être utilisées dans plusieurs états."
-author: RobinARH
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-08-09 21 - 27 - 36
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: RobinARH
+ms.reviewer: ShylaThompson
 ms.search.scope: Management Reporter, Core
 ms.custom: 106601
 ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: af336db81f659d80248aa4ab1fbba96ed1ff48c2
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: bf42b287e2e9235fd50f78a6fadc3f9efbd1fbe5
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="column-definitions-in-financial-reports"></a>Définitions de colonne dans les états financiers
+
+[!include[banner](../includes/banner.md)]
+
 
 Cet article fournit des informations sur les définitions de colonne. Une définition de colonne est un composant de l’état, ou un bloc élémentaire, qui spécifie le contenu des colonnes d’un état. Comme les définitions de ligne, des définitions de colonne de base peuvent être utilisées dans plusieurs états.
 
@@ -150,7 +154,7 @@ Vous pouvez utiliser la boîte de dialogue **En-tête de colonne** pour ajouter,
 
 1.  Dans le générateur d'état, ouvrez la définition de colonne à modifier.
 2.  Sélectionnez une cellule dans la ligne d'en-tête.
-3.  Dans le menu **Édition**, cliquez sur **Insérer une ligne**. La nouvelle ligne est insérée au-dessus de la ligne sélectionnée à l'étape 2. **Remarque : **Si vous avez quatre lignes d'en-tête ou plus dans un rapport, les en-têtes se chevauchent lorsque le rapport est exporté vers une feuille de calcul Excel. Permet d'afficher tous les en-têtes de l'état, augmentez la marge supérieure dans la définition d'état.
+3.  Dans le menu **Édition**, cliquez sur **Insérer une ligne**. La nouvelle ligne est insérée au-dessus de la ligne sélectionnée à l'étape 2. **Remarque :**Si vous avez quatre lignes d'en-tête ou plus dans un rapport, les en-têtes se chevauchent lorsque le rapport est exporté vers une feuille de calcul Excel. Permet d'afficher tous les en-têtes de l'état, augmentez la marge supérieure dans la définition d'état.
 
 ### <a name="delete-a-column-header-row"></a>Supprimer une ligne d'en-tête de colonne
 
@@ -320,9 +324,9 @@ La cellule **Contrôle d'impression** peut contenir des codes qui règlent les c
 4.  Sélectionnez une option dans le champ **Options d'impression conditionnelle**. Par défaut, **(aucun)** est sélectionné. Vous ne pouvez sélectionner qu'un code d'impression conditionnelle à la fois.
 5.  Cliquez sur **OK**.
 
-**Conseil :** vous pouvez également entrer des codes de contrôle d'impression directement dans la cellule **Contrôle d'impression**. Utilisez des virgules pour séparer plusieurs codes de contrôle d'impression.
+> [!TIP]
+> Vous pouvez également entrer des codes de contrôle d'impression directement dans la cellule **Contrôle d'impression**. Utilisez des virgules pour séparer plusieurs codes de contrôle d'impression.
 
-### 
 
 ## <a name="column-types"></a>Types de colonnes
 Le type d'informations que chaque colonne comporte dans un état est spécifié par la valeur indiquée dans la ligne **Type de colonne** dans la définition de colonne. Chaque définition de colonne doit contenir au moins une colonne de description (**DESC**) et une colonne de montant (**FD**, **WKS** ou **CALC**). **Remarque :** les codes de type de colonne ne s'appliquent pas à tous les systèmes comptables. Si vous sélectionnez un type qui n'est pas valide pour votre système comptable, cette colonne est vide dans l'état.
@@ -507,7 +511,8 @@ Un état à plusieurs devises peut afficher les montants dans la devise naturell
 -   **Afficher la devise** – Spécifie le type de devise (naturel, fonctionnel ou de génération d'états) dans lequel les transactions sont affichées. Cette fonctionnalité est parfois désignée conversion de devise. La conversion de devise est la possibilité de déclarer les montants de la comptabilité dans une devise qui n'est pas forcément la devise fonctionnelle de la société ou la devise dans laquelle la transaction a été entrée.
 -   **Filtre de devise** – Spécifie un filtre de devise. Seules les transactions qui sont entrées dans la devise sélectionnée sont affichées dans l'état.
 
-**Remarque :** Pour créer des états utilisant plusieurs devises, vous devez activer la case à cocher **Inclure toutes les devises de déclaration**sous l'onglet **État**de la définition d'état. Pour déterminer la devise fonctionnelle d'une société, procédez comme suit.
+> [!NOTE]
+> Pour créer des états utilisant plusieurs devises, vous devez activer la case à cocher **Inclure toutes les devises de déclaration** sous l'onglet **État** de la définition d'état. Pour déterminer la devise fonctionnelle d'une société, procédez comme suit.
 
 1.  Dans le générateur d'état, dans le menu **Société**, cliquez sur **Sociétés**.
 2.  Dans la boîte de dialogue **Sociétés**, sélectionnez une société, puis cliquez sur **Afficher**.
@@ -516,10 +521,11 @@ Un état à plusieurs devises peut afficher les montants dans la devise naturell
 #### <a name="specify-the-currency-on-a-multiple-currency-report"></a>Spécifier la devise dans un état à plusieurs devises
 
 1.  Dans le générateur d'état, ouvrez la définition de colonne à modifier.
-2.  Double-cliquez sur la cellule ** Afficher la devise** dans la colonne **FD** appropriée, puis sélectionnez l'option d'affichage des informations de devise : **Devise naturelle/d'origine**, **Devise fonctionnelle issue des informations de la société**, ou la devise de déclaration.
+2.  Double-cliquez sur la cellule **Afficher la devise** dans la colonne **FD** appropriée, puis sélectionnez l'option d'affichage des informations de devise : **Devise naturelle/d'origine**, **Devise fonctionnelle issue des informations de la société**, ou la devise de déclaration.
 3.  Double-cliquez sur la cellule **Filtre de devise** dans la colonne **FD** appropriée, puis sélectionnez le code devise approprié dans la liste. Seules les transactions qui sont entrées dans cette devise sont affichées dans l'état.
 
-**Remarque :** les options qui sont décrites ici peuvent différer selon le système ERP. Pour plus d'informations, voir la [Documentation du système ERP Microsoft.](https://www.microsoft.com/en-us/download/details.aspx?id=5916).
+> [!NOTE]
+> Les options qui sont décrites ici peuvent différer selon le système ERP. Pour plus d'informations, voir la [Documentation du système ERP Microsoft.](https://www.microsoft.com/en-us/download/details.aspx?id=5916).
 
 ### <a name="example-for-currency-display-and-currency-filter-cells"></a>Exemple pour les cellules Afficher la devise et Filtre de devise
 
@@ -572,7 +578,7 @@ Vous pouvez faire référence à une cellule spécifique de l'état en entrant u
 
 #### <a name="multiply-or-divide-a-column-by-a-base-row"></a>Multiplier ou diviser une colonne par une ligne de base
 
-Vous pouvez créer une colonne qui affiche toutes les valeurs dans une colonne spécifiée sous la forme d'un pourcentage d'un nombre de base. Par conséquent, vous pouvez indiquer des relations entre les lignes, comme un pourcentage d'une ligne de vente ou un pourcentage d'une ligne de dépenses totales. Pour multiplier ou diviser chaque ligne dans une colonne spécifique par une ligne de base, entrez la colonne à utiliser dans le calcul, puis entrez **\*BASEROW** ou **/BASEROW**. Par exemple, entrez **C\*BASEROW** ou **C/BASEROW**. ** Remarque :** lorsque vous utilisez un calcul de ligne de base dans une définition de colonne, vérifiez que chaque définition de ligne utilisée avec cette définition de colonne contient au moins une ligne de base pour les calculs.
+Vous pouvez créer une colonne qui affiche toutes les valeurs dans une colonne spécifiée sous la forme d'un pourcentage d'un nombre de base. Par conséquent, vous pouvez indiquer des relations entre les lignes, comme un pourcentage d'une ligne de vente ou un pourcentage d'une ligne de dépenses totales. Pour multiplier ou diviser chaque ligne dans une colonne spécifique par une ligne de base, entrez la colonne à utiliser dans le calcul, puis entrez **\*BASEROW** ou **/BASEROW**. Par exemple, entrez **C\*BASEROW** ou **C/BASEROW**. **Remarque :** lorsque vous utilisez un calcul de ligne de base dans une définition de colonne, vérifiez que chaque définition de ligne utilisée avec cette définition de colonne contient au moins une ligne de base pour les calculs.
 
 #### <a name="divide-the-amount-in-a-column-by-the-number-of-periods"></a>Diviser le montant dans une colonne par le nombre de périodes
 
@@ -584,5 +590,7 @@ Vous pouvez diviser le montant dans une colonne par un nombre de périodes spéc
 [Définitions de ligne dans les états financiers](row-definitions-financial-reporting.md)
 
 [Options de mise en forme avancées dans les états financiers](advanced-formatting-options-financial-reporting.md)
+
+
 
 

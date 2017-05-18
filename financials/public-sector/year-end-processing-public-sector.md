@@ -19,10 +19,11 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: a76abfa35e53673f9780d1a6f8816bd24f9f8e48
-ms.openlocfilehash: 73774e337fc3985e4885aa9b7a82c3d7dfbe7983
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: ee767eec14e2cf97bc38e39ff1a920ba5e14c8e6
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---

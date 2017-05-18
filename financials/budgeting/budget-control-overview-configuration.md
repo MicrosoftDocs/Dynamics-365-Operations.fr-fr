@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 8e89a57dda8f2d392483ed13c686ea97b74926b0
-ms.openlocfilehash: 04e0c066511c1fedf33784944441326201fc2df8
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 4caef8eb4d11ad5d2ba1ce0e23d869c0b26b5466
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -99,7 +100,7 @@ Puis, sur la page **Affecter des modèles de budget**, il convient d'affecter de
 Puis, sur l'onglet **Définir les règles de contrôle budgétaire**, vous devez créer des règles spécifiques basées sur les dimensions financières qui sont activées pour le contrôle budgétaire. Par exemple, si une priorité est donnée aux dépenses ou à l'étendue des dépenses d'un département, vous pouvez utiliser les paramètres de cet onglet pour définir et évaluer ces dépenses. Vous pouvez définir différents seuils pour chaque règle de contrôle budgétaire. 
 
 > [!Important]
-> Le contrôle budgétaire est activé pour tout compte principal de type **Résultat**, **Dépense**, **Produit, Bilan, Passif, Capitaux propres** ou **Actif**. Si cet onglet contient une règle qui a des critères vides, le contrôle budgétaire est activé pour **toutes **les combinaisons de dimensions financières qui incluent des comptes principaux de ces types. Par conséquent, assurez-vous de créer des règles budgétaires de contrôle définissant uniquement les plages de combinaisons de dimensions financières où il est essentiel que le contrôle budgétaire soit activé.  
+> Le contrôle budgétaire est activé pour tout compte principal de type **Résultat**, **Dépense**, **Produit, Bilan, Passif, Capitaux propres** ou **Actif**. Si cet onglet contient une règle qui a des critères vides, le contrôle budgétaire est activé pour **toutes**les combinaisons de dimensions financières qui incluent des comptes principaux de ces types. Par conséquent, assurez-vous de créer des règles budgétaires de contrôle définissant uniquement les plages de combinaisons de dimensions financières où il est essentiel que le contrôle budgétaire soit activé.  
 
 ### <a name="select-main-accounts"></a>Sélectionner les comptes principaux
 
@@ -124,7 +125,7 @@ De plus, notez que les transactions, notamment les entrées de registre budgéta
 ## <a name="using-budget-control"></a>Utilisation du contrôle budgétaire
 Une fois le contrôle budgétaire activé, les utilisateurs recevront des messages d'avertissement et d'erreur de contrôle budgétaire dans les documents et journaux configurés pour le contrôle budgétaire. N'oubliez pas, vous pouvez configurer le contrôle budgétaire afin que les utilisateurs soient prévenus lorsqu'ils dépassent les fonds budgétaires, mais puissent toujours confirmer ou valider la transaction. Les utilisateurs peuvent afficher les détails des contrôles budgétaires qui ont échoué sur la page **Erreurs ou avertissements du contrôle budgétaire**.   
 
-Depuis cette page, les utilisateurs peuvent explorer la page **Statistiques du contrôle budgétaire par période** pour découvrir les détails concernant la disponibilité budgétaire et les réservations pour une combinaison de dimensions de contrôle budgétaire sélectionnée. Les utilisateurs peuvent également explorer la page **Statistiques de contrôle budgétaire **pour afficher la disponibilité budgétaire de toutes les combinaisons de dimensions financières utilisées dans le contrôle budgétaire. 
+Depuis cette page, les utilisateurs peuvent explorer la page **Statistiques du contrôle budgétaire par période** pour découvrir les détails concernant la disponibilité budgétaire et les réservations pour une combinaison de dimensions de contrôle budgétaire sélectionnée. Les utilisateurs peuvent également explorer la page **Statistiques de contrôle budgétaire**pour afficher la disponibilité budgétaire de toutes les combinaisons de dimensions financières utilisées dans le contrôle budgétaire. 
 
 Si le contrôle budgétaire est activé pour les commandes fournisseur, le responsable du budget peut utiliser l'espace de travail **Budgets comptables et prévisions** pour passer en revue la file d'attente de toutes les commandes fournisseur non confirmées avec des avertissements ou des erreurs du contrôle budgétaire. Si le responsable du budget est autorisé à dépasser le budget, il peut confirmer les commandes fournisseur directement dans l'espace de travail.    
 

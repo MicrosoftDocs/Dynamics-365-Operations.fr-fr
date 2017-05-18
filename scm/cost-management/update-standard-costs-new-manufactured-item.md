@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 84b9f91f49e988244b98aeb7a6a6344548d6a8c0
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: fb9f7b8aa9198b66f196613641de5237fac2ac2c
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -38,7 +39,7 @@ Les instructions suivantes supposent que vous utilisez une approche à deux vers
 -   Affecter un type d'évaluation des **Coûts standard**.
 -   Affectez un identificateur pertinent qui communique le contenu de la version d'évaluation des coûts, tel que **2016-UPDATES**.
 -   Dans le groupe de champs **Autoriser les types de prix**, assurez-vous que le **Prix de revient** est défini sur **Oui**.
--   Autorisez les enregistrements de coûts à être entrés pour tous les sites (autrement dit, laissez le champ **Site **vide). Si vous entrez un site, les enregistrements de coûts peuvent être entrés uniquement pour ce site.
+-   Autorisez les enregistrements de coûts à être entrés pour tous les sites (autrement dit, laissez le champ **Site** vide). Si vous entrez un site, les enregistrements de coûts peuvent être entrés uniquement pour ce site.
 -   Utiliser un principe de secours des coûts **Actifs**.
 
 Pour ajouter de nouveaux articles de fabrication au cours de la période bloquée, procédez comme suit.

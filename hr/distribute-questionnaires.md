@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: a76ec0cd86bcc810b42ae3cd8efd8a584e6c4da3
-ms.openlocfilehash: 8e09c6b042d557e3b2d608fb5e278169fc3c1d88
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 4a5e6164f8aea2d4a6a063966c10f33a5e1f0cdd
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="distribute-and-complete-a-questionnaire"></a>Distribuer et remplir un questionnaire
+
+[!include[banner](includes/banner.md)]
+
 
 Cette rubrique décrit comment distribuer les questionnaires que vous créez pour qu'ils soient à la disposition de la personne ou du groupe de personnes qui les complèteront. 
 
@@ -45,7 +49,7 @@ Vous pouvez paramétrer des groupes de questionnaires puis y inclure les personn
 
 Vous pouvez créer des groupes de questionnaires dans les pages suivantes :
 
--   **Groupes de questionnaire **– Seules les personnes d'un groupe de questionnaires peuvent remplir un questionnaire sélectionné. Par exemple, si le public visé est constitué de fournisseurs, vous pouvez créer un groupe de questionnaires spécifiques à ces personnes interrogées.
+-   **Groupes de questionnaire**– Seules les personnes d'un groupe de questionnaires peuvent remplir un questionnaire sélectionné. Par exemple, si le public visé est constitué de fournisseurs, vous pouvez créer un groupe de questionnaires spécifiques à ces personnes interrogées.
 -   **Membres du groupe de questionnaire** – Vous pouvez ajouter des personnes aux groupes de questionnaire.
 
 Pour affecter un groupe de questionnaires à un questionnaire, dans la page **Questionnaires**, cliquez sur **Droits de l'utilisateur**. Une fois que le questionnaire est enregistré comme actif, les membres du groupe de questionnaires peuvent remplir le questionnaire. Cette fonctionnalité est utile si vous souhaitez tester un questionnaire sur une sélection de personnes avant de distribuer à un plus grand groupe, ou si vous souhaitez cibler un questionnaire sur une audience très spécifique.
@@ -53,7 +57,8 @@ Pour affecter un groupe de questionnaires à un questionnaire, dans la page **Qu
 ## <a name="planned-answer-sessions-in-a-questionnaire"></a>Sessions de réponse prévues dans un questionnaire
 Les sessions de réponse prévues sont des questionnaires que vous avez créés et pour lequel vous avez sélectionné les personnes interrogées. 
 
-**Remarque :** Avant de paramétrer des sessions de réponse prévues, vous devez créer un questionnaire. 
+> **Remarque**
+>  Avant de paramétrer des sessions de réponse prévues, vous devez créer un questionnaire. 
 
 Dans la page **Session de réponse prévue**, vous pouvez créer une session de réponse prévue pour un employé individuel. La liste de la page affiche tous les questionnaires planifiés. 
 
@@ -99,7 +104,8 @@ Cliquez sur **Fonctions** &gt; **Démarrer** pour que le questionnaire soit disp
 ## <a name="notifying-respondents-about-questionnaires-that-are-available-to-them"></a>Notifier les personnes interrogées sur les questionnaires à leur disposition
 Lorsque vous distribuez un questionnaire, vous devez informer les personnes interrogées que des questionnaires sont disponibles. 
 
-**Remarque :** les personnes interrogées doivent être des utilisateurs de Microsoft Dynamics 365 for Operations pour remplir un questionnaire.
+> **Remarque**
+>  Les personnes interrogées doivent être des utilisateurs de Microsoft Dynamics 365 for Operations pour remplir un questionnaire.
 
 ### <a name="notifying-respondents-about-a-planned-answer-session"></a>Notifier les personnes interrogées d'une session de réponse prévue
 
@@ -109,12 +115,14 @@ Si vous utilisez une session de réponse prévue, vous devez informer la personn
 
 Utilisez la page **Programmes de questionnaire** pour préparer et envoyer un e-mail à toutes les personnes interrogées affectées au questionnaire. Entrez le texte de l'e-mail sous l'onglet **E-mail pour le libre-service pour employés** l'onglet. Une fois le programme démarré, cliquez sur **Fonctions** &gt; **Envoyer un e-mail** pour générer et envoyer l'e-mail aux personnes interrogées. Les personnes interrogées peuvent alors se connecter au site Web et remplir le questionnaire. 
 
-**Remarque :** avant d'utiliser la fonctionnalité d'e-mail, votre administrateur informatique doit entrer les paramètres d'e-mail dans la page **Paramètres d'e-mail**.
+> **Remarque**
+>  Avant d'utiliser la fonctionnalité d'e-mail, votre administrateur informatique doit entrer les paramètres d'e-mail dans la page **Paramètres d'e-mail**.
 
 ## <a name="ending-a-scheduled-questionnaire"></a>Terminer un questionnaire planifié
 Vous pouvez mettre fin à un questionnaire planifié une fois que toutes les personnes interrogées ont répondu aux sessions de réponses qui leur étaient attribuées. Une fois qu'un questionnaire planifié est terminé, vous ne pouvez pas copier ses paramètres dans un nouveau programme. 
 
-**Remarque :** si une ou plusieurs personnes interrogées n'ont pas complété le questionnaire mais que vous souhaitez mettre fin au programme, vous devez commencez par supprimer ces personnes interrogées appropriées de la liste dans la page **Session de réponse prévue**. Vous pouvez ensuite mettre fin au programme.
+> **Remarque**
+>  Si une ou plusieurs personnes interrogées n'ont pas complété le questionnaire mais que vous souhaitez mettre fin au programme, vous devez commencez par supprimer ces personnes interrogées appropriées de la liste dans la page **Session de réponse prévue**. Vous pouvez ensuite mettre fin au programme.
 
 ## <a name="completing-questionnaires"></a>Remplissage de questionnaires
 Une fois le questionnaire conçu et distribué, il peut être rempli par les personnes interrogées sélectionnées. Vous pouvez remplir les questionnaires disponibles à partir de deux emplacements :
@@ -132,5 +140,7 @@ Les questionnaires peuvent être accessibles à des utilisateurs ou groupes d'ut
 [Utilisation de questionnaires](questionnaires.md)
 
 [Affichage et évaluation des résultats des questionnaire](evaluate-questionnaire-results.md)
+
+
 
 

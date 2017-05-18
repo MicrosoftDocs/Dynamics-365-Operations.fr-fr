@@ -17,10 +17,11 @@ ms.search.region: France
 ms.author: ilyako
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 6bb98cc72c2ec0c1551412dd39d5bea3ce10e2cd
-ms.openlocfilehash: 8596e7214b3209709b384f9903e41ad3014f708a
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 62726abce4d5722ab84236ebd1c04fd986a0f11f
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---

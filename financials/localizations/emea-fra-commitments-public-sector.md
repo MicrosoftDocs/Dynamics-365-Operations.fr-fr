@@ -3,7 +3,7 @@ title: Engagements dans le secteur public en France
 description: "Les engagements sont des documents source de contrôle budgétaire utilisés par les entités du secteur public en France. Ils permettent de réserver des montants budgétés afin qu&quot;une organisation puisse explicitement suivre des réservations budgétaires à des fins de gestion et de déclaration tout au long du cycle des dépenses."
 author: rschloma
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -19,19 +19,23 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 57bb3c122339b89c96f89faff1d741fa8aa2df2f
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: f41640dbede6ee371c6742c78cc948c138abb5f8
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="commitments-in-the-public-sector-in-france"></a>Engagements dans le secteur public en France
 
+[!include[banner](../includes/banner.md)]
+
+
 Les engagements sont des documents source de contrôle budgétaire utilisés par les entités du secteur public en France. Ils permettent de réserver des montants budgétés afin qu'une organisation puisse explicitement suivre des réservations budgétaires à des fins de gestion et de déclaration tout au long du cycle des dépenses. 
 
-Lorsque des engagements sont utilisés dans le cadre du processus de budgétisation, chaque contrat d'achat, commande fournisseur et facture fournisseur est associé à au moins un engagement. L'engagement est exonéré lorsque les fonds sont débloqués à partir du contrat d'achat et que la commande fournisseur est confirmée. Lorsqu'une facture ne référence pas une commande fournisseur ou un contrat d'achat, l'engagement associé à la facture est exonéré lorsque cette dernière est validée. En outre, un engagement peut spécifier un fournisseur. Dans ce cas, tout contrat d'achat, commande fournisseur ou facture fournisseur référençant l'engagement doit avoir le même fournisseur. Les engagements sont valides de leur date de création jusqu'à la fin de l'exercice ou jusqu'à leur clôture. Les engagements ne peuvent pas être reportés d'un exercice à l'autre. Pour plus d'informations, voir [Clôturer les engagements](#close) dans cette rubrique. 
+Lorsque des engagements sont utilisés dans le cadre du processus de budgétisation, chaque contrat d'achat, commande fournisseur et facture fournisseur est associé à au moins un engagement. L'engagement est exonéré lorsque les fonds sont débloqués à partir du contrat d'achat et que la commande fournisseur est confirmée. Lorsqu'une facture ne référence pas une commande fournisseur ou un contrat d'achat, l'engagement associé à la facture est exonéré lorsque cette dernière est validée. En outre, un engagement peut spécifier un fournisseur. Dans ce cas, tout contrat d'achat, commande fournisseur ou facture fournisseur référençant l'engagement doit avoir le même fournisseur. Les engagements sont valides de leur date de création jusqu'à la fin de l'exercice ou jusqu'à leur clôture. Les engagements ne peuvent pas être reportés d'un exercice à l'autre.  
 >[!NOTE]
 >Le champ **Type d'engagement** de la page **Contrat d'achat** n'est pas associé au document d'engagement. Ce champ spécifie uniquement si le contrat d'achat est basé sur une valeur ou une quantité.
 
@@ -69,7 +73,7 @@ Il est parfois nécessaire de modifier un engagement déjà confirmé. Par exemp
 Les engagements doivent être clôturés manuellement.
 
 -   Vous pouvez clôturer une seule ligne d'engagement ou un engagement entier par l'intermédiaire du bouton **Clôturer** du volet Actions de l'engagement.
--   Le processus de fin d'exercice de commande fournisseur contrepasse automatiquement les entrées de clôture et crée ou met à jour le budget dans les documents d'engagement du nouvel exercice. Cette opération est exécutée par le processus. Aucune intervention manuelle n'est requise. Toutefois, une fois que vous avez traité les commandes fournisseur et les engagements, vous devez accéder à la page **Clôture de l'engagement **pour clôturer les engagements de l'exercice de clôture.
+-   Le processus de fin d'exercice de commande fournisseur contrepasse automatiquement les entrées de clôture et crée ou met à jour le budget dans les documents d'engagement du nouvel exercice. Cette opération est exécutée par le processus. Aucune intervention manuelle n'est requise. Toutefois, une fois que vous avez traité les commandes fournisseur et les engagements, vous devez accéder à la page **Clôture de l'engagement**pour clôturer les engagements de l'exercice de clôture.
 
 **Important** : lorsque vous sélectionnez les engagements que vous souhaitez clôturer, vérifiez de ne pas sélectionner les engagements que vous avez déjà créés pour le nouvel exercice. La clôture d'une ligne d'engagement ne peut pas être contrepassée. Si vous clôturez accidentellement une ligne d'engagement, vous devez créer un autre engagement pour restaurer la réservation budgétaire. Pour en savoir plus sur le processus de fin d'exercice, voir [Traitement de fin d'exercice dans le secteur public](../public-sector/year-end-processing-public-sector.md).
 
@@ -77,5 +81,7 @@ Les engagements doivent être clôturés manuellement.
 --------
 
 [Comptabilité du secteur public en France](emea-fra-public-sector-accounting.md)
+
+
 
 

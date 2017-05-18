@@ -3,7 +3,7 @@ title: "Amortissements dégressifs de 175 %"
 description: "Cet article donne une vue d&quot;ensemble de la méthode d&quot;amortissement dégressif de 175 %."
 author: twheeloc
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 8e89a57dda8f2d392483ed13c686ea97b74926b0
-ms.openlocfilehash: 812fbb3cc3159783e9908e537c366ffc7f934092
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: cf428d61f89ea70a83e440c656fbc84d7dbded8d
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="175-percent-reducing-balance-depreciation"></a>Amortissements dégressifs de 175 %
+
+[!include[banner](../includes/banner.md)]
+
 
 Cet article donne une vue d'ensemble de la méthode d'amortissement dégressif de 175 %.
 
@@ -54,7 +58,7 @@ Si vous sélectionnez **Calendrier** comme année d'amortissement, les options s
 
 ### <a name="fiscal"></a>Exercice
 
-Si vous sélectionnez **Exercice** dans le champ **Année d'amortissement**, l'amortissement dégressif de 175 % est calculé sur la base de l'exercice du calendrier fiscal spécifié pour le registre, ou pour le calendrier fiscal sélectionné sur la page **Comptabilité**. Les calendriers fiscaux sont paramétrés sur la page **Calendriers fiscaux**. Pour plus d'informations, consultez [Calendriers fiscaux, exercices et périodes.](\financials\budgeting\fiscal-calendars-fiscal-years-periods.md).
+Si vous sélectionnez **Exercice** dans le champ **Année d'amortissement**, l'amortissement dégressif de 175 % est calculé sur la base de l'exercice du calendrier fiscal spécifié pour le registre, ou pour le calendrier fiscal sélectionné sur la page **Comptabilité**. Les calendriers fiscaux sont paramétrés sur la page **Calendriers fiscaux**. Pour plus d'informations, consultez [Calendriers fiscaux, exercices et périodes.](..\budgeting\fiscal-calendars-fiscal-years-periods.md).
 
 Par exemple, pour l'exercice allant du 1er juillet au 30 juin, le calcul de l'amortissement commence le 1er juillet. L'exercice peut avoir une longueur supérieure ou inférieure à 12 mois. L'amortissement est automatiquement ajusté en fonction de chaque période fiscale et la longueur de l'exercice suivant est déterminé par la définition des périodes fiscales sur la page **Calendriers fiscaux**. 
 
@@ -82,5 +86,7 @@ La méthode d'amortissement régressif de 175 % divise 175 % par le nombre d'ann
 
 > [!NOTE] 
 > Généralement, si le montant calculé via la méthode d'amortissement dégressif de 175 % est inférieur au montant calculé via la méthode linéaire, passer à la méthode linéaire pour la durée de vie restante reste possible.
+
+
 
 

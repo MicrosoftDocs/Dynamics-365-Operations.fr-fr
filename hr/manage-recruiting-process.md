@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 6f4429202efd0506378d681188035c5cc69f56a1
-ms.openlocfilehash: 551e15ed31953d6e5fc99a1177c1310194ea95d0
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: b9bdfe4a410bf9391b4d236ddd37747d3a7424cd
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -48,7 +49,7 @@ Les projets de recrutement permettent aux recruteurs de suivre la progression de
 -   La date limite de candidature
 -   La date de début estimée
 
-Le projet de recrutement contient l'**Annonce d'emploi** utilisée sur le **Libre-service employé** pour annoncer le poste vacant. Pour afficher le poste vacant aux employés, le projet de recrutement doit avoir une **Annonce d'emploi**, le champ** Afficher dans le libre-service pour employés** doit être défini sur Oui, la **Date limite de candidature** doit être définie à une date ultérieure, et le **Statut du projet** du projet de recrutement doit être défini sur Démarré. Le tableau suivant répertorie les statuts de projet de recrutement possibles et leur description.
+Le projet de recrutement contient l'**Annonce d'emploi** utilisée sur le **Libre-service employé** pour annoncer le poste vacant. Pour afficher le poste vacant aux employés, le projet de recrutement doit avoir une **Annonce d'emploi**, le champ**Afficher dans le libre-service pour employés** doit être défini sur Oui, la **Date limite de candidature** doit être définie à une date ultérieure, et le **Statut du projet** du projet de recrutement doit être défini sur Démarré. Le tableau suivant répertorie les statuts de projet de recrutement possibles et leur description.
 
 | **Statut**    | **Indique que...**                                                                  |
 |-----------|------------------------------------------------------------------------------------------|

@@ -3,7 +3,7 @@ title: "Écritures de coût"
 description: "Cet article fournit des informations sur les entrées de coût et à quel moment elles sont créées. Une entrée de coût est un enregistrement qui enregistre la quantité et le coût d&quot;un événement donné."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -19,15 +19,19 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 55f5ee731c40acc40e8fe20c24d4ed707fe2c81a
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 341251119304456a89b02c7a8d4af941ea21196d
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="cost-entries"></a>Écritures de coût
+
+[!include[banner](../includes/banner.md)]
+
 
 Cet article fournit des informations sur les entrées de coût et à quel moment elles sont créées. Une entrée de coût est un enregistrement qui enregistre la quantité et le coût d'un événement donné.
 
@@ -53,17 +57,22 @@ La nouvelle page **Écritures de coût** permet d'afficher et contrôler les enr
 -   Quelques jours après que l'événement de facture a été enregistré, le coût grimpe à 11,00 USD. Par conséquent, le montant total est de 1 100 €. Un deuxième N° document est créé pour expliquer la différence de 100 USD.
 -   Quelques jours plus tard, les frais divers de 15,00 USD pour couvrir le coût du transport sont enregistrés sur la commande fournisseur.
 
-| N° document | Date       | Référence      | Numéro | N° de lot  | Lot de référence | ID lot de retour | Quantité | Montant  |
-|---------|------------|----------------|--------|---------|---------------|---------------|----------|---------|
-| 00001   | 01-01-2015 | Commande fournisseur | 100001 | 0000101 |               |               | 100,00   | 1 000,00 |
-| 00002   | 20-01-2015 | Commande fournisseur | 100001 | 0000101 |               |               |          | 100,00  |
-| 00003   | 31-01-2015 | Ajustement     | 100001 | 0000101 |               |               |          | 15,00   |
+| Pièce justificative | date ;       | Référence      | Nombre | N° de traitement  | Quantité | Montant  |
+|---------|------------|----------------|--------|---------|---------------|----|
+| 00001   | 01-01-2015 | Commande fournisseur | 100001 | 0000101 | 100,00   | 1 000,00 |
+| 00002   | 20-01-2015 | Commande fournisseur | 100001 | 0000101 |          | 100,00  |
+| 00003   | 31-01-2015 | Ajustement     | 100001 | 0000101 |          | 15,00   |
 
-La page **Écritures de coût** active le filtrage par ID et date de document. **Remarque :** les écritures de coût sont disponibles uniquement pour les [objets de coût](cost-object.md) ou les produits lancés.
+La page **Écritures de coût** active le filtrage par ID et date de document. 
+
+> [!NOTE]
+> Ls écritures de coût sont disponibles uniquement pour les [objets de coût](cost-object.md) ou les produits lancés.
 
 <a name="see-also"></a>Voir également :
 --------
 
 [Objets de coût](cost-object.md)
+
+
 
 

@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: 4d243e6a9a68b69a6b32748344fc606ff3f2d965
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: eeed8bc4ad0fc24b04055e26bb33c2c56856c52b
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -49,7 +50,7 @@ Par exemple, vous bénéficiez d'un escompte de règlement de 2 % si la facture 
 ## <a name="credit-notes-with-cash-discounts"></a>Avoirs avec escomptes de règlement
 Vous pouvez renvoyer certains articles d'une facture et recevoir un avoir. Si un escompte de règlement a été appliqué à la facture d'origine, vous pouvez soustraire la valeur de la remise et recevoir un remboursement pour le montant correct. Si l'option **Calculer les escomptes de règlement pour les avoirs** est définie sur **Oui** dans la page **Paramètres de la comptabilité fournisseur**, la remise est calculée automatiquement pour l'avoir. 
 
-Par exemple, vous bénéficiez d'un escompte de règlement de 2 % si la facture est payée au cours des 10 jours suivant sa date d'émission. Une facture d'un montant de 100,00 est validée. Si vous retournez des marchandises et recevez un avoir, vous pouvez entrer l'avoir pour le montant total de la facture d'origine, 100,00, avec l'escompte de règlement de 2 % qui est également défini sur l'avoir.  Si vous affichez l'avoir sur la page **Régler les transactions**, ** 98,00** s'affiche dans le champ **Montant à régler**, puis **-2,00** s'affiche dans le champ **Montant de l'escompte de règlement**. Le montant de la remise est validé dans un compte d'escompte de règlement.
+Par exemple, vous bénéficiez d'un escompte de règlement de 2 % si la facture est payée au cours des 10 jours suivant sa date d'émission. Une facture d'un montant de 100,00 est validée. Si vous retournez des marchandises et recevez un avoir, vous pouvez entrer l'avoir pour le montant total de la facture d'origine, 100,00, avec l'escompte de règlement de 2 % qui est également défini sur l'avoir.  Si vous affichez l'avoir sur la page **Régler les transactions**, **98,00** s'affiche dans le champ **Montant à régler**, puis **-2,00** s'affiche dans le champ **Montant de l'escompte de règlement**. Le montant de la remise est validé dans un compte d'escompte de règlement.
 
 ## <a name="overpaymentunderpayment-amounts"></a>Montants des trop-perçus/moins-perçus
 Vous pouvez effectuer un paiement partiel lorsqu'il y a encore un très petit montant à régler. Par exemple, la facture fournisseur est de 1 000,00, et vous réglez 999,90. Si le montant restant est inférieur au montant indiqué sur la page **Paramètres des achats** pour les trop-perçus ou les moins-perçus, la différence est validée dans un compte des trop-perçus/moins-perçus.

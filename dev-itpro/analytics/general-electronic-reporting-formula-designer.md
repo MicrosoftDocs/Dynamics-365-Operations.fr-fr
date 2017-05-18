@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: ac8d6c064ca826cc1c2fed07578ca9ce0c66ef66
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 335a0d7ca466028e8b157cb4e04df7d0f4880e73
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -158,11 +159,11 @@ Toutes les sources de données du composant de génération d'états électroniq
 
 #### <a name="path"></a>Chemin
 
-Lorsqu'une expression fait référence à une source de données structurée, vous pouvez utiliser la définition de chemin d'accès pour sélectionner un élément primitif spécifique de cette source de données. Un point (.) est utilisé pour séparer les éléments distincts d'une source de données structurée. Par exemple, le modèle de données de génération d'états électroniques actuel contient la source de données **InvoiceTransactions** qui renvoie une liste des enregistrements. La structure d'enregistrement** InvoiceTransactions** contient les champs **AmountDebit** et **AmountCredit** qui renvoient des valeurs numériques. Par conséquent, vous pouvez concevoir l'expression suivante pour calculer le montant facturé : **InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit**
+Lorsqu'une expression fait référence à une source de données structurée, vous pouvez utiliser la définition de chemin d'accès pour sélectionner un élément primitif spécifique de cette source de données. Un point (.) est utilisé pour séparer les éléments distincts d'une source de données structurée. Par exemple, le modèle de données de génération d'états électroniques actuel contient la source de données **InvoiceTransactions** qui renvoie une liste des enregistrements. La structure d'enregistrement **InvoiceTransactions** contient les champs **AmountDebit** et **AmountCredit** qui renvoient des valeurs numériques. Par conséquent, vous pouvez concevoir l'expression suivante pour calculer le montant facturé : **InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit**
 
 #### <a name="functions"></a>Fonctions
 
-La section suivante décrit les fonctions pouvant être utilisées dans les expressions de génération d'états électroniques. Toutes les sources de données de contexte d'expression (modèle de données ou format de génération d'états électroniques actuel) ainsi que les constantes peuvent être utilisées en tant que paramètres des fonctions d'appel en accord avec la liste des arguments de fonction d'appel. Par exemple, le modèle de données de génération d'états électroniques actuel contient la source de données **InvoiceTransactions** qui renvoie une liste des enregistrements. La structure d'enregistrement** InvoiceTransactions** contient les champs **AmountDebit** et **AmountCredit** qui renvoient des valeurs numériques. Par conséquent, pour calculer le montant facturé vous pouvez concevoir l'expression suivante qui utilise la fonction d'arrondi de génération d'états électroniques intégrée : **ROUND (InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit, 2)**
+La section suivante décrit les fonctions pouvant être utilisées dans les expressions de génération d'états électroniques. Toutes les sources de données de contexte d'expression (modèle de données ou format de génération d'états électroniques actuel) ainsi que les constantes peuvent être utilisées en tant que paramètres des fonctions d'appel en accord avec la liste des arguments de fonction d'appel. Par exemple, le modèle de données de génération d'états électroniques actuel contient la source de données **InvoiceTransactions** qui renvoie une liste des enregistrements. La structure d'enregistrement **InvoiceTransactions** contient les champs **AmountDebit** et **AmountCredit** qui renvoient des valeurs numériques. Par conséquent, pour calculer le montant facturé vous pouvez concevoir l'expression suivante qui utilise la fonction d'arrondi de génération d'états électroniques intégrée : **ROUND (InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit, 2)**
 
 ## <a name="supported-functions"></a>Fonctions prises en charge.
 Les tables suivantes décrivent les fonctions de manipulation des données que vous pouvez utiliser pour concevoir des modèles de données et des états de génération d'états électroniques. La liste de fonctions n'est pas définitive et peut être étendue par les développeurs. Pour afficher la liste des fonctions que vous pouvez utiliser, accédez au volet de fonctionnalités du concepteur de formule de génération d'états électroniques.
@@ -257,12 +258,12 @@ Les tables suivantes décrivent les fonctions de manipulation des données que v
 <tr class="odd">
 <td>ORDERBY (list [, expression 1, expression 2, …])</td>
 <td>Permet de renvoyer la liste spécifiée, qui est triée selon les arguments spécifiés qui peuvent être définis en tant qu'expressions.</td>
-<td>Si <strong>Fournisseur </strong>est configuré comme source de données de génération d'états électroniques qui fait référence à la table VendTable,<strong> ORDERBY (Vendors, Vendors.'name()')</strong> renvoie la liste de fournisseurs qui est triée par noms dans l'ordre croissant.</td>
+<td>Si <strong>Fournisseur</strong> est configuré comme source de données de génération d'états électroniques qui fait référence à la table VendTable, <strong>ORDERBY (Vendors, Vendors.'name()')</strong> renvoie la liste de fournisseurs qui est triée par noms dans l'ordre croissant.</td>
 </tr>
 <tr class="even">
 <td>REVERSE (list)</td>
 <td>Permet de renvoyer la liste spécifiée dans l'ordre de tri inverse.</td>
-<td>Si <strong>Fournisseur </strong>est configuré comme source de données de génération d'états électroniques qui fait référence à la table VendTable, <strong>REVERSE (ORDERBY (Vendors, Vendors.'name()')) )</strong> renvoie la liste de fournisseurs qui est triée par noms dans l'ordre décroissant.</td>
+<td>Si <strong>Fournisseur</strong> est configuré comme source de données de génération d'états électroniques qui fait référence à la table VendTable, <strong>REVERSE (ORDERBY (Vendors, Vendors.'name()')) )</strong> renvoie la liste de fournisseurs qui est triée par noms dans l'ordre décroissant.</td>
 </tr>
 <tr class="odd">
 <td>WHERE (list, condition)</td>
@@ -397,7 +398,7 @@ Les champs Étiquette et Description renvoient des valeurs au moment de l'exécu
 
 | Fonction             | Description                                                                                                                                                                                                                                     | Exemple                                                                                                                                             |
 |----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| NULLCONTAINER (list) | Renvoie un enregistrement **null** ayant la même structure que la liste d'enregistrements ou l'enregistrement spécifié. **Remarque : **cette fonction est obsolète. Utilisez **EMPTYRECORD** à la place.                                                                                  | **NULLCONTAINER (SPLIT ("abc", 1))** renvoie un nouvel enregistrement vide ayant la même structure que la liste qui est renvoyée par la fonction **SPLIT**. |
+| NULLCONTAINER (list) | Renvoie un enregistrement **null** ayant la même structure que la liste d'enregistrements ou l'enregistrement spécifié. **Remarque :**cette fonction est obsolète. Utilisez **EMPTYRECORD** à la place.                                                                                  | **NULLCONTAINER (SPLIT ("abc", 1))** renvoie un nouvel enregistrement vide ayant la même structure que la liste qui est renvoyée par la fonction **SPLIT**. |
 | EMPTYRECORD (record) | Renvoie un enregistrement **null** ayant la même structure que la liste d'enregistrements ou l'enregistrement spécifié. **Remarque :** Un enregistrement **null** est un enregistrement où tous les champs ont une valeur vide (**0** \[zero\] pour les nombres, une chaîne vide pour les chaînes, etc). | **EMPTYRECORD (SPLIT ("abc", 1))** renvoie un nouvel enregistrement vide ayant la même structure que la liste qui est renvoyée par la fonction **SPLIT**.   |
 
 ### <a name="text-functions"></a>Fonctions texte
@@ -527,7 +528,7 @@ Fait référence au Guide de tâche **ER Utiliser les données de la sortie du f
 
 SUMIFS (key string for summing, criteria range1 string, criteria value1 string \[, criteria range2 string, criteria value2 string, …\])
 
-Renvoie une somme des valeurs des nœuds (avec le nom défini comme clé) de XML, qui a été collectée durant cette exécution de format et remplit les conditions entrées (paires de plage et de valeur). Renvoie une valeur de zéro lorsque l'indicateur **Collecter les détails sur les sorties **des fichiers actuels est désactivé.
+Renvoie une somme des valeurs des nœuds (avec le nom défini comme clé) de XML, qui a été collectée durant cette exécution de format et remplit les conditions entrées (paires de plage et de valeur). Renvoie une valeur de zéro lorsque l'indicateur **Collecter les détails sur les sorties**des fichiers actuels est désactivé.
 
 SUMIF (key string for summing, criteria range string, criteria value string)
 
@@ -543,7 +544,7 @@ Renvoie un nombre de nœuds de XML, qui a été collectée durant cette exécuti
 
 COLLECTEDLIST (criteria range1 string, criteria value1 string \[, criteria range2 string, criteria value2 string, …\])
 
-Renvoie une liste des valeurs des nœuds de XML, qui a été collectée durant cette exécution de format et remplit les conditions entrées (plage et valeur). Renvoie une liste vide lorsque l'indicateur **Collecter les détails sur les sorties **des fichiers actuels est désactivé.
+Renvoie une liste des valeurs des nœuds de XML, qui a été collectée durant cette exécution de format et remplit les conditions entrées (plage et valeur). Renvoie une liste vide lorsque l'indicateur **Collecter les détails sur les sorties**des fichiers actuels est désactivé.
 
 ### <a name="other-business-domainspecific-functions"></a>Autre fonctions (spécifiques au domaine d'affaires)
 
@@ -553,7 +554,7 @@ Renvoie une liste des valeurs des nœuds de XML, qui a été collectée durant c
 | ROUNDAMOUNT (number, decimals, round rule)                                       | Arrondit le montant spécifié en fonction de la règle d'arrondi spécifiée et du nombre de décimales spécifié. **Remarque :** la règle d'arrondi doit être spécifiée comme valeur d'énumération **RoundOffType** Dynamics 365 for Operations.                          | Si le paramètre **model.RoundOff** est défini sur ****Downward****, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** renvoie la valeur **1000.78**. Si le paramètre **model.RoundOff** est défini sur **Normal** ou **Rounding-up**, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** renvoie la valeur **1000.79**. |
 | CURCredRef (digits)                                                              | Renvoie une référence créditeur, selon les chiffres du numéro de facture spécifié.                                                                                                                                                                                  | **CURCredRef ("VEND-200002")** renvoie **"2200002"**.                                                                                                                                                                                                                                                         |
 | MOD\_97 (digits)                                                                 | Renvoie une référence créditeur, comme une expression MOD97, selon les chiffres du numéro de facture spécifié.                                                                                                                                                            | **MOD\_97 ("VEND-200002")** renvoie **"20000285"**.                                                                                                                                                                                                                                                           |
-| ISOCredRef (digits)                                                              | Renvoie une référence créditeur ISO, selon les chiffres et les symboles alphabétiques du numéro de facture spécifié. **Remarque : **pour éliminer des symboles de l'alphabet qui ne sont pas conformes à la norme ISO, le paramètre d'entrée doit être traduit avant d'être transmis à cette fonction. | **ISOCredRef ("VEND-200002")** renvoie **"RF23VEND-200002"**.                                                                                                                                                                                                                                                 |
+| ISOCredRef (digits)                                                              | Renvoie une référence créditeur ISO, selon les chiffres et les symboles alphabétiques du numéro de facture spécifié. **Remarque :**pour éliminer des symboles de l'alphabet qui ne sont pas conformes à la norme ISO, le paramètre d'entrée doit être traduit avant d'être transmis à cette fonction. | **ISOCredRef ("VEND-200002")** renvoie **"RF23VEND-200002"**.                                                                                                                                                                                                                                                 |
 | CN\_GBT\_AdditionalDimensionID (string, number)                                  | Obtenir l'ID de dimension financière supplémentaire. Les dimensions sont représentées dans cette chaîne comme des ID séparés par des virgules. Les numéros définissent le code souche de la dimension demandée dans cette chaîne.                                                                            | CN\_GBT\_AdditionalDimensionID ("AA,BB,CC,DD,EE,FF,GG,HH",3) renvoie “CC”                                                                                                                                                                                                                                      |
 | GetCurrentCompany ()                                                             | Renvoie le code de la société enregistrée actuelle.                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                                               |
 | CH\_BANK\_MOD\_10 (digits)                                                       | Renvoie une référence créditeur, comme une expression MOD10, selon les chiffres du numéro de facture spécifié.                                                                                                                                                                      | CH\_BANK\_MOD\_10 ("VEND-200002") renvoie 3                                                                                                                                                                                                                                                                   |

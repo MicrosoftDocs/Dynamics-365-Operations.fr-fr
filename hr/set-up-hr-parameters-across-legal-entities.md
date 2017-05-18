@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9397e84f03ee5b340fa2aa0a64e582fc0078526e
-ms.openlocfilehash: 5df6079605d2d8d320c38d302e8e5e2cba51a3f1
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 7f856946c90be5d21a822fdefc119ce61e3f411c
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -43,7 +44,7 @@ Sous l'onglet **Souches de numéros**, vous pouvez sélectionner les souches de 
 Sous l'onglet **Postes**, indiquez si de nouveaux postes sont disponibles pour l'affectation par défaut :
 
 -   **Toujours** – Vous ne pouvez pas affecter de collaborateurs à de nouveaux postes lorsque des postes sont créés. Lorsque des postes sont créés, la date et l'heure **Disponible pour affectation** de l'onglet **Général** de la page **Poste** sont automatiquement définis à la date et à l'heure de création.
--   **Jamais** – Vous ne pouvez pas affecter de collaborateurs à de nouveaux postes lorsque des postes sont créés. Si vous sélectionnez cette option, vous devez ouvrir la page **Poste** pour chaque nouveau poste lorsqu'il devient disponible, puis sous l'onglet **Général**, entrez la date **Disponible pour affectation **afin d'activer l'affectation du collaborateur.
+-   **Jamais** – Vous ne pouvez pas affecter de collaborateurs à de nouveaux postes lorsque des postes sont créés. Si vous sélectionnez cette option, vous devez ouvrir la page **Poste** pour chaque nouveau poste lorsqu'il devient disponible, puis sous l'onglet **Général**, entrez la date **Disponible pour affectation**afin d'activer l'affectation du collaborateur.
 
 
 <a name="see-also"></a>Voir également :

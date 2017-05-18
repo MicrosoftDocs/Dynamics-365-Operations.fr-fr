@@ -3,7 +3,7 @@ title: Publier des lignes de journal et les documents d&quot;Excel
 description: "Cette rubrique explique comment entrer et publier des lignes de journaux d&quot;opérations diverses issues de Microsoft Excel. Elle inclut des informations sur les différents modèles que vous pouvez utiliser, en fonction du type de transactions que vous entrez."
 author: twheeloc
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ef99caf4570969d2b920cec8b53669ce2094965
-ms.openlocfilehash: 087339cb3002b42bcb985c2ccfc2d97c752a817c
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 9726c61b69f79bdd56803ced4c06044dd517ac13
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="publish-journal-lines-and-documents-from-excel"></a>Publier des lignes de journal et les documents d'Excel
+
+[!include[banner](../includes/banner.md)]
+
 
 Cette rubrique explique comment entrer et publier des lignes de journaux d'opérations diverses issues de Microsoft Excel. Elle inclut des informations sur les différents modèles que vous pouvez utiliser, en fonction du type de transactions que vous entrez.
 
@@ -46,7 +50,9 @@ Les utilisateurs peuvent entrer et publier des lignes pour les journaux financie
 
 Lorsque les lignes sont émises, elles sont validées pour s'assurer qu'elles sont conformes aux règles paramétrées dans les journaux financiers. Une fois que les lignes sont émises, les utilisateurs peuvent modifier ou valider les documents Microsoft Dynamics 365 for Operations. 
 
-Pour ajouter des dimensions financières à un modèle, des modifications supplémentaires sont requises. Pour plus d'informations, voir [Ajouter des dimensions au modèle Microsoft Excel](\dev-itpro\financial-dimensions\add-dimensions-excel-templates). Une fois que les dimensions sont ajoutées à l'entité, elles sont disponibles dans le concepteur Excel et peuvent être ajoutées au modèle.
+Pour ajouter des dimensions financières à un modèle, des modifications supplémentaires sont requises. Pour plus d'informations, voir [Ajouter des dimensions au modèle Microsoft Excel](/dynamics365/operations/dev-itpro/financial/add-dimensions-excel-templates). Une fois que les dimensions sont ajoutées à l'entité, elles sont disponibles dans le concepteur Excel et peuvent être ajoutées au modèle.
+
+
 
 
 

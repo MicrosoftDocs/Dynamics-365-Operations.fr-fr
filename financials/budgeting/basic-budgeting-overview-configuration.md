@@ -16,10 +16,11 @@ ms.search.region: global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: a639e509cf6a3d2f1b850f27481d7b95546522b8
-ms.openlocfilehash: b62e14f7c91692ae97bb332b38b0deeb328cc1bd
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 0e3484ee731423798e686b9a70f4f09b5c3c45b4
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -76,7 +77,7 @@ Le responsable du budget peut consulter l'état actuel d'un budget dans l'espace
 > [!NOTE] 
 > Le champ **Responsable de département** de la page **Unités d'organisation** détermine quels responsables prennent en charge des combinaisons de dimensions financières spécifiques. Pour plus de détails sur les montants budgétaires/les montants réels, cliquez sur **En voir plus** dans la partie inférieure de l'onglet pour ouvrir la page de recherche **Budget et chiffres réels**. 
 
-La page de recherche **Comparatif Réel/Budget** vous permet de zoomer sur les détails du budget par rapport aux montants réels. Sélectionnez une ligne sur la page de recherche, puis cliquez sur **Soldes de la période** pour afficher les montants du budget et les montants réels répartis sur plusieurs périodes fiscales. La page **Écritures de compte budgétaires** permet d'extraire les détails du montant du budget des écritures de registre budgétaires. La page **Écritures du journal des opérations diverses **affiche les écritures comptables incluses dans le montant **Chiffres réels** calculé. 
+La page de recherche **Comparatif Réel/Budget** vous permet de zoomer sur les détails du budget par rapport aux montants réels. Sélectionnez une ligne sur la page de recherche, puis cliquez sur **Soldes de la période** pour afficher les montants du budget et les montants réels répartis sur plusieurs périodes fiscales. La page **Écritures de compte budgétaires** permet d'extraire les détails du montant du budget des écritures de registre budgétaires. La page **Écritures du journal des opérations diverses**affiche les écritures comptables incluses dans le montant **Chiffres réels** calculé. 
 
 Une société qui utilise la fonctionnalité de planification budgétaire peut créer et utiliser les *prévisions budgétaires *dans l'espace de travail **Budgets comptables et prévisions**.
 

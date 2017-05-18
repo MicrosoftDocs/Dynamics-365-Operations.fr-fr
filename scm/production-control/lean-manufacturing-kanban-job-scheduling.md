@@ -3,7 +3,7 @@ title: "Planification des tâches de kanban pour lean manufacturing"
 description: "Cet article fournit des informations sur le contrôle visuel de la planification des tâches de kanban et différentes manières de planifier des tâches de kanban."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-02-24 15 - 02 - 36
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,22 +18,28 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 062cbbc8a4fd3b4dc738f24ee0606a3741736377
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 019974b96985748c82641b73e40a3131d5b27232
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="kanban-job-scheduling-for-lean-manufacturing"></a>Planification des tâches de kanban pour lean manufacturing
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article fournit des informations sur le contrôle visuel de la planification des tâches de kanban et différentes manières de planifier des tâches de kanban.  
 
 La page **Planification de tâches de kanban** fournit un contrôle visuel des programmes des cellules de travail lean manufacturing. Elle donne une vue d'ensemble de toutes les tâches de kanban et fournit plusieurs capacités de filtrage. À partir de cette page, vous pouvez accéder à toutes les autres pages associées à la configuration et à l'exécution de kanban.
 
 ## <a name="automatic-scheduling-of-kanban-jobs"></a>Planification automatique des tâches de kanban
-La planification peut être déclenchée automatiquement si vous définissez le paramètre **Quantité de planification automatique** sur la règle de kanban. Si vous définissez **Quantité de planification automatique** à **1**, chaque tâche de kanban est planifiée immédiatement lors de sa création. Le résultat est une série d'opérations « premier tiré, premier servi ». Si vous définissez le paramètre **Quantité de planification automatique** à une valeur supérieure à 1, les tâches de kanban sont regroupées avant d'être planifiées. Ce concept active la réduction des tailles de kanban à un seuil inférieur aux tailles économiques réelles de traitements par lots. Par exemple, la taille économique de traitement par lots pour un article spécifique (ou une famille d'articles) est 30. Au lieu de créer des kanbans qui utilisent la quantité de produit, 30, vous pouvez configurer la règle de kanban de sorte qu'elle ait une quantité de produits de 10 et une valeur de **Quantité de planification automatique** **3**. Bien que la planification automatique planifie les tâches de kanban pour la cellule de travail uniquement si trois tâches non prévues existent, il est totalement transparent pour le planificateur et le superviseur d'atelier que deux tâches non prévues sont peut-être en attente d'exécution. Le planificateur ou le responsable d'atelier peut ensuite faire passer ces deux tâches en production en les planifiant manuellement ou en créant des kanbans supplémentaires.
+La planification peut être déclenchée automatiquement si vous définissez le paramètre **Quantité de planification automatique** sur la règle de kanban. Si vous définissez **Quantité de planification automatique** à **1**, chaque tâche de kanban est planifiée immédiatement lors de sa création. Le résultat est une série d'opérations « premier tiré, premier servi ». Si vous définissez le paramètre **Quantité de planification automatique** à une valeur supérieure à 1, les tâches de kanban sont regroupées avant d'être planifiées. 
+
+Ce concept active la réduction des tailles de kanban à un seuil inférieur aux tailles économiques réelles de traitements par lots. Par exemple, la taille économique de traitement par lots pour un article spécifique (ou une famille d'articles) est 30. Au lieu de créer des kanbans qui utilisent la quantité de produit, 30, vous pouvez configurer la règle de kanban de sorte qu'elle ait une quantité de produits de 10 et une valeur de **Quantité de planification automatique** **3**. Bien que la planification automatique planifie les tâches de kanban pour la cellule de travail uniquement si trois tâches non prévues existent, il est totalement transparent pour le planificateur et le superviseur d'atelier que deux tâches non prévues sont peut-être en attente d'exécution. Le planificateur ou le responsable d'atelier peut ensuite faire passer ces deux tâches en production en les planifiant manuellement ou en créant des kanbans supplémentaires.
 
 ## <a name="manual-scheduling"></a>Planification manuelle
 Pour la planification manuelle, Microsoft Dynamics AX 2012 a présenté le tableau de planification de kanban. La planification manuelle peut être combinée avec la planification automatique. Le tableau de planification de kanban vous permet de planifier et de déprogrammer des tâches, de les déplacer dans un ordre spécifique, ou de les faire passer d'une période à une autre. Les tâches basées sur une règle de kanban où la valeur **Planification automatique** est supérieure à **0** peuvent être manuellement déprogrammées. Toutefois, ces tâches sont planifiées de nouveau lorsque l'événement de planification automatique suivant se produit (c'est-à-dire, lorsqu'un kanban est créé). Les options suivantes sont disponibles pour la planification manuelle :
@@ -66,5 +72,7 @@ La page de liste **Planification de tâches de kanban** contient un Récapitulat
 
 <a name="see-also"></a>Voir également :
 --------
+
+
 
 

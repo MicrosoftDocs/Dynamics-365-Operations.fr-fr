@@ -3,7 +3,7 @@ title: Configurer un processus d&quot;approbation dans un workflow
 description: "La procédure suivante permet de configurer les propriétés du processus d&quot;approbation."
 author: sericks007
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 579e393ef64bc5ad72d129ac08ac215c524d5c55
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 99decd86602e7537af6393c6d28c262f20ca1f00
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="configure-an-approval-process-in-a-workflow"></a>Configurer un processus d'approbation dans un workflow
+
+[!include[banner](../includes/banner.md)]
+
 
 La procédure suivante permet de configurer les propriétés du processus d'approbation.
 
@@ -132,7 +136,7 @@ Vous voudrez peut-être désigner un approbateur final pour les cas où l'approb
 
 ## <a name="set-a-time-limit"></a>Définition d'un délai limite
 Si le processus d'approbation doit être exécuté dans un certain délai, procédez comme suit.
-| **Remarque **                                                                                                                                                |
+| **Remarque**                                                                                                                                                |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Les options sélectionnées dans ces étapes remplacent celles sélectionnées dans les zones **Affectation** et **Escalade** de chaque étape d'approbation. |
 
@@ -155,13 +159,15 @@ Lorsqu'un document est affecté à un utilisateur pour approbation, ce dernier d
 4.  Activez la case à cocher **Demander une modification** si l'utilisateur peut demander des modifications du document.
 5.  Activez la case à cocher **Déléguer** si l'utilisateur peut affecter le document à un autre utilisateur pour approbation.
 
-**Remarque** : la case à cocher **Activer des actions à partir de la liste de travail dans Enterprise Portal **a été supprimée.
+**Remarque** : la case à cocher **Activer des actions à partir de la liste de travail dans Enterprise Portal**a été supprimée.
 
 ## <a name="configure-the-approval-steps"></a> Configuration des étapes d'approbation
 Un processus d'approbation comprend plusieurs étapes. Procédez comme suit pour ajouter des étapes au processus d'approbation et les configurer.
 1.  Dans l'éditeur de workflow, double-cliquez sur le processus d'approbation. L'éditeur de workflow affiche les étapes du processus d'approbation.
 2.  Pour ajouter une étape d'approbation, faites glisser l'étape de la zone **Éléments du workflow** sur le canevas.
-3.  Pour configurer une étape d'approbation, voir [Configurer une étape d'approbation](http://axhelp.dynamics.com/en/wiki/configure-an-approval-step/).
+3.  Pour configurer une étape d'approbation, voir [Configurer une étape d'approbation](configure-approval-step-workflow.md).
+
+
 
 
 

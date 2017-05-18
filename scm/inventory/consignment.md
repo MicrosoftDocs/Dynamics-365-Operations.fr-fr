@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: d9dcdd63649d6dbff96efe2eec7cad34025ab2ee
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 01ab473951bc04c68a0248b37041a116eebcaea9
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -55,7 +56,7 @@ Dans cet exemple de scénario, la société USMF a un accord de consignation ave
 USMF exécute des processus périodiques supplémentaires :
 
 -   Le déplacement physique du stock appartenant au fournisseur entre différents entrepôts est traité à l'aide d'un journal de transferts.
--   Le stock physique disponible est mis à jour à l'aide d'un journal** Inventaire des articles**. L'inventaire peut également être utilisé par le fournisseur pour mettre à jour le stock disponible, s'il est autorisé à cela.
+-   Le stock physique disponible est mis à jour à l'aide d'un journal**Inventaire des articles**. L'inventaire peut également être utilisé par le fournisseur pour mettre à jour le stock disponible, s'il est autorisé à cela.
 
 Le fournisseur, US-104, peut contrôler les mises à jour sur la page **Stock de consignation disponible**.
 

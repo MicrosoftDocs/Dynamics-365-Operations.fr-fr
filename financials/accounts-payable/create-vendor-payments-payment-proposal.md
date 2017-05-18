@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: b46037b9509f329e18f0da69d530f6b1f88c8888
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: fef518bf156aa45dff66d21d49b433ed613cead1
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -38,7 +39,7 @@ La demande de proposition de paiement contient différents onglets, chacun ayant
 
 ## <a name="parameters"></a>Paramètres
 -   **Sélectionner les factures par** – Les factures se situant dans la période spécifiée par les champs **Date de début** et **Date de fin** peuvent être sélectionnées par date d'échéance, date d'escompte de règlement, ou les deux. Si vous utilisez la date d'escompte de règlement, le système recherche d'abord les factures dont la date d'escompte de règlement se situe entre la date de début et la date de fin. Le système détermine ensuite si la facture est éligible pour l'escompte de règlement à l'aide de la date de la session pour garantir que la date d'escompte de règlement n'est pas déjà passée.
--   **Date de début** et** Date de fin** – Les factures dont la date d'échéance ou d'escompte de règlement se situe dans cette période sont sélectionnées pour le paiement.
+-   **Date de début** et**Date de fin** – Les factures dont la date d'échéance ou d'escompte de règlement se situe dans cette période sont sélectionnées pour le paiement.
 -   **Date de paiement** – Si aucune date n'est définie, tous les paiements sont créés à cette date. Le champ **Date de paiement minimal** est ignoré.
 -   **Date de paiement minimal** – Permet d'entrer la date de paiement minimal. Par exemple, les champs **Date de début** et **Date de fin** précisent une plage du 1er au 10 septembre, et la date de paiement minimal est le 5 septembre. Dans ce cas, toutes les factures dont la date d'échéance se situe entre le 1er et le 5 septembre ont une date de paiement au 5 septembre. Toutefois, toutes les factures dont la date d'échéance se situe entre le 5 et le 10 septembre ont une date de paiement qui est égale à la date d'échéance de chaque facture.
 -   **Montant limite** – Saisissez le montant total maximal pour tous les paiements.

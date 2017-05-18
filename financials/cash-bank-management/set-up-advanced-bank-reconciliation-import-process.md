@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: eab840b2974f4e9e8cf542c146482ba8e4239079
-ms.openlocfilehash: acf7bacf6e95725024ff0a542a059349593d01a0
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 51f45ce0953f31e0573833ba41d9e0b5ac43bfbb
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -70,7 +71,7 @@ Tout d’abord, vous devez définir le groupe de traitement du format du relevé
 7.  Une fois l’entité de relevés bancaires téléchargée et la mise en correspondance terminée, cliquez sur l'action **Afficher le mappage** pour l’entité.
 8.  L’entité de relevés bancaires est une entité composite qui se compose de quatre entités distinctes. Dans la liste, sélectionnez **BankStatementDocumentEntity**, puis cliquez sur l'action **Afficher le mappage**.
 9.  Sous l'onglet **Transformations**, cliquez sur **Nouveau**.
-10. Pour le numéro de souche 1, cliquez sur **Télécharger le fichier** et sélectionnez le fichier** ISO20022XML-to-Reconciliation.xslt** que vous avez enregistré précédemment. **Remarque :** les fichiers de transformation Dynamics 365 for Operations sont générés pour le format standard. Dans la mesure où les banques ont souvent des formats différents, vous devrez peut-être mettre à jour le fichier de transformation pour le mettre en correspondance avec votre format de relevé bancaire. <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
+10. Pour le numéro de souche 1, cliquez sur **Télécharger le fichier** et sélectionnez le fichier **ISO20022XML-to-Reconciliation.xslt** que vous avez enregistré précédemment. **Remarque :** les fichiers de transformation Dynamics 365 for Operations sont générés pour le format standard. Dans la mesure où les banques ont souvent des formats différents, vous devrez peut-être mettre à jour le fichier de transformation pour le mettre en correspondance avec votre format de relevé bancaire. <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
 11. Cliquez sur **Nouveau**.
 12. Pour le numéro de souche 2, cliquez sur **Télécharger le fichier** et sélectionnez le fichier **BankReconciliation-to-Composite.xslt** que vous avez enregistré précédemment.
 13. Cliquez sur **Appliquer les transformations**.
@@ -88,8 +89,8 @@ La dernière étape consiste à activer le rapprochement bancaire avancé et à 
 
 1.  Accédez à **Gestion de la trésorerie et de la banque** &gt; **Comptes bancaires**.
 2.  Sélectionnez le compte bancaire et ouvrez-le pour afficher les détails.
-3.  Sur l'onglet **Rapprochement**, définissez l'option **Rapprochement bancaire avancé **sur **Oui**.
-4.  Définissez le champ **Format de relevé **sur le format que vous avez créé précédemment, tel que **ISO20022**.
+3.  Sur l'onglet **Rapprochement**, définissez l'option **Rapprochement bancaire avancé**sur **Oui**.
+4.  Définissez le champ **Format de relevé**sur le format que vous avez créé précédemment, tel que **ISO20022**.
 
 ## <a name="set-up-the-import-of-mt940-bank-statements"></a>Paramétrer l'importation des relevés bancaires MT940
 Tout d’abord, vous devez définir le groupe de traitement du format du relevé bancaire pour les relevés bancaires MT940 à l’aide de l’infrastructure d’entité de données.

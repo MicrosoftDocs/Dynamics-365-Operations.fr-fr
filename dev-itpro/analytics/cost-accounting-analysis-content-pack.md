@@ -3,7 +3,7 @@ title: "Contenu Power BI d&quot;analyse du contrôle de gestion"
 description: "Cette rubrique décrit les données incluses dans le contenu Power BI d&quot;analyse du contrôle de gestion. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,25 +16,31 @@ ms.search.region: Global
 ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: 50e7bd92ee693f59fd013226aee22bd1a54c81e2
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: be4165f58b17bed0b0984b760fd8eea09267a251
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="cost-accounting-analysis-power-bi-content"></a>Contenu Power BI d'analyse du contrôle de gestion
 
+[!include[banner](../includes/banner.md)]
+
+
 Cette rubrique décrit les données incluses dans le contenu Power BI d'analyse du contrôle de gestion. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
 
 <a name="overview"></a>Vue d'ensemble
 --------
 
-Le contenu Microsoft Power BI **Analyse du contrôle de gestion** est destiné aux contrôleurs de coûts ou à toute personne chargée de contrôler les coûts d'une organisation. Il inclut les mesures clés, telles que le coût, la magnitude et le taux de coût par coût réel, coût budgétaire et coût budgétaire flexible. Il utilise les données de transaction du contrôle de gestion dans Microsoft Dynamics 365 for Operations et fournit une vue globale des coûts pour l'ensemble de l'organisation dans une devise de déclaration. Les responsables peuvent filtrer les données par objet de coût pour contrôler les coûts de leurs unités d'organisation, même si l'organisation peut avoir plusieurs entités juridiques. Comme le contenu Power BI **Analyse du contrôle de gestion** présente les écarts entre les coûts réels et les coûts budgétés, les responsables peuvent être informés des tendances positives et négatives pour leurs unités opérationnelles. Les responsables peuvent accéder aux hiérarchies d'éléments de coût ou à des éléments de coût individuels pour obtenir des informations détaillées sur les écarts de coût et prendre les mesures nécessaires. Le contenu Power BI **Analyse du contrôle de gestion** permet aux contrôleurs de gestion d'analyser la manière dont le coût se répercute sur les objets de coût de l'ensemble de l'organisation. Pour en savoir plus sur le contrôle de gestion, voir [Page d'accueil du contrôle de gestion](/dynamics365/operations/financials/cost-accounting/cost-accounting-home-page.md). En définissant la sécurité au niveau de l'accès dans le module Contrôle de gestion et en la combinant à la sécurité au niveau de la ligne dans Power BI, vous pouvez autoriser l'accès au contenu Power BI **Analyse du contrôle de gestion** à tous les propriétaires d'objet de coût. Toutes les données des visualisations seront ensuite filtrées selon le niveau d'accès contrôlé dans le contrôle de gestion. Pour en savoir plus sur la sécurité au niveau de l'accès et la sécurité au niveau de la ligne, voir [Paramétrer la sécurité du contenu Contrôle de gestion pour Power BI](setup-security-cost-accounting-content-pack.md).
+Le contenu Microsoft Power BI **Analyse du contrôle de gestion** est destiné aux contrôleurs de coûts ou à toute personne chargée de contrôler les coûts d'une organisation. Il inclut les mesures clés, telles que le coût, la magnitude et le taux de coût par coût réel, coût budgétaire et coût budgétaire flexible. Il utilise les données de transaction du contrôle de gestion dans Microsoft Dynamics 365 for Operations et fournit une vue globale des coûts pour l'ensemble de l'organisation dans une devise de déclaration. Les responsables peuvent filtrer les données par objet de coût pour contrôler les coûts de leurs unités d'organisation, même si l'organisation peut avoir plusieurs entités juridiques. Comme le contenu Power BI **Analyse du contrôle de gestion** présente les écarts entre les coûts réels et les coûts budgétés, les responsables peuvent être informés des tendances positives et négatives pour leurs unités opérationnelles. Les responsables peuvent accéder aux hiérarchies d'éléments de coût ou à des éléments de coût individuels pour obtenir des informations détaillées sur les écarts de coût et prendre les mesures nécessaires. Le contenu Power BI **Analyse du contrôle de gestion** permet aux contrôleurs de gestion d'analyser la manière dont le coût se répercute sur les objets de coût de l'ensemble de l'organisation. Pour en savoir plus sur le contrôle de gestion, voir [Page d'accueil du contrôle de gestion](/dynamics365/operations/financials/cost-accounting/cost-accounting-home-page). En définissant la sécurité au niveau de l'accès dans le module Contrôle de gestion et en la combinant à la sécurité au niveau de la ligne dans Power BI, vous pouvez autoriser l'accès au contenu Power BI **Analyse du contrôle de gestion** à tous les propriétaires d'objet de coût. Toutes les données des visualisations seront ensuite filtrées selon le niveau d'accès contrôlé dans le contrôle de gestion. Pour en savoir plus sur la sécurité au niveau de l'accès et la sécurité au niveau de la ligne, voir [Paramétrer la sécurité du contenu Contrôle de gestion pour Power BI](setup-security-cost-accounting-content-pack.md).
 
 ## <a name="accessing-the-power-bi-content"></a>Accès au contenu Power BI
-Vous trouverez le contenu Power BI **Analyse du contrôle de gestion** dans la bibliothèque Actifs partagés de Microsoft Dynamics Lifecycle Services (LCS). Pour savoir comment télécharger le contenu et le connecter à vos données Dynamics 365 for Operations, voir [Contenu Power BI dans LCS de Microsoft et de vos partenaires](power-bi-content-microsoft-partners.md). **Remarque :** KB4011327** ** est une condition préalable pour le contenu Power BI **Analyse du contrôle de gestion**.  Une fois que vous êtes connecté à Lifecycle Services, vous pouvez accéder à la Base de connaissances ici : <https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>.
+Vous trouverez le contenu Power BI **Analyse du contrôle de gestion** dans la bibliothèque Actifs partagés de Microsoft Dynamics Lifecycle Services (LCS). Pour savoir comment télécharger le contenu et le connecter à vos données Dynamics 365 for Operations, voir [Contenu Power BI dans LCS de Microsoft et de vos partenaires](power-bi-content-microsoft-partners.md). 
+
+> REMARQUE - Le **KB4011327** doit être consulté au prélable pour ce contenu Power BI. Une fois que vous êtes connecté à Lifecycle Services, vous pouvez accéder à la Base de connaissances ici : <https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>.
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Mesures incluses dans le contenu Power BI
 Le contenu comprend un ensemble de pages d'état. Chaque page contient un ensemble de mesures visualisées sous forme de graphiques, de vignettes et de tables. Le tableau suivant donne une vue d'ensemble des visualisations dans le contenu Power BI **Analyse du contrôle de gestion**.
@@ -117,5 +123,7 @@ Voici quelques liens utiles liés aux entités et à la création du contenu Pow
 -   [Modélisation de données à l'aide de Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [Ajout de vignettes Power BI aux espaces de travail](configure-power-bi-integration.md)
 -   [Paramétrage de la sécurité du contenu Contrôle de gestion pour Power BI](setup-security-cost-accounting-content-pack.md)
+
+
 
 

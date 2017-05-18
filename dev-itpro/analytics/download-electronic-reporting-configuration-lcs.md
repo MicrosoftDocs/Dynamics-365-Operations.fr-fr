@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: 9dca5dec846670da25926826f59d7bce0fa0dcea
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e2f3a352ca70472de838271fdedfede575cb839d
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>Télécharger les configurations des états électroniques à partir de Lifecycle Services
+
+[!include[banner](../includes/banner.md)]
+
 
 Cette rubrique explique comment télécharger des configurations d'états électroniques à partir de Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -43,9 +47,10 @@ Ce didacticiel vous guide via le processus de téléchargement de la version la 
     1.  Cliquez sur **Ajouter** pour ajouter un nouveau référentiel.
     2.  Sélectionnez **LCS** comme type de référentiel.
     3.  Cliquez sur **Créer un référentiel**.
-    4.  Entrez un nom et une description pour le référentiel.
-    5.  Cliquez **OK** pour confirmer la nouvelle entrée de référentiel.
-    6.  Dans la grille, sélectionnez le nouveau référentiel de type **LCS**.
+    4. Si vous recevez une invite, suivez les instructions d'autorisation.
+    5.  Entrez un nom et une description pour le référentiel.
+    6.  Cliquez **OK** pour confirmer la nouvelle entrée de référentiel.
+    7.  Dans la grille, sélectionnez le nouveau référentiel de type **LCS**.
 
 6.  Cliquez sur **Ouvrir** pour afficher la liste des configurations ER pour le référentiel sélectionné. [![update-er-from-lcs-for-ms-make-lcs-repository](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
 7.  Dans l'arborescence de configurations du volet gauche, sélectionnez la configuration ER voulue.
@@ -58,5 +63,7 @@ Ce didacticiel vous guide via le processus de téléchargement de la version la 
 --------
 
 [Vue d'ensemble des États électroniques](general-electronic-reporting.md)
+
+
 
 

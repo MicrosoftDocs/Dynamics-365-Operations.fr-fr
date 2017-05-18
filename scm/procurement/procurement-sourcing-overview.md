@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 758c516b378b4858c248fbca2befc6b9c47cc32a
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: e8a12f846bb24c9fc79c3533d4e65a2d3ece257b
+ms.openlocfilehash: 6d4d476e294e1b5cbe91a61a7ffe151a6c865ea6
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -40,7 +41,7 @@ Des *Plafonds de dépenses *peuvent être utilisés pour limiter le montant de l
   
 Le département d'approvisionnement identifie les fournisseurs pour les biens et services nécessaires, et cela peut impliquer qu'une *demande de devis *soit envoyée à plusieurs fournisseurs potentiels. Il est possible de partager les spécifications du produit demandé que les fournisseurs potentiels peuvent afficher pour voir s'ils peuvent fournir un produit conforme. Les fournisseurs retournent leurs offres qui sont alors examinées par le département d'approvisionnement afin de sélectionner le fournisseur auprès duquel se fournir.  
 
-Les commandes fournisseur incluent une option pour envoyer au fournisseur une *demande de renseignements sur les achats *au lieu d'un processus plus complet de demande de devis. La demande de renseignements sur les achats peut être utilisée pour établir des conditions comme les prix, les remises, ainsi que la date de livraison de la commande. Si les fournisseurs sont paramétrés pour utiliser le portail **Fournisseur**,* * la fonctionnalité de demande de renseignements sur les achats est désactivée. À la place la commande est partagée dans le portail** Fournisseur** et lorsqu'une *demande de confirmation* est envoyée, le fournisseur peut directement confirmer la commande.  
+Les commandes fournisseur incluent une option pour envoyer au fournisseur une *demande de renseignements sur les achats *au lieu d'un processus plus complet de demande de devis. La demande de renseignements sur les achats peut être utilisée pour établir des conditions comme les prix, les remises, ainsi que la date de livraison de la commande. Si les fournisseurs sont paramétrés pour utiliser le portail **Fournisseur**, la fonctionnalité de demande de renseignements sur les achats est désactivée. À la place la commande est partagée dans le portail**Fournisseur** et lorsqu'une *demande de confirmation* est envoyée, le fournisseur peut directement confirmer la commande.  
 
 Des *Catalogues fournisseur *peuvent être utilisés pour collecter des informations sur l'assortiment de produits que les fournisseurs peuvent fournir. Les fournisseurs peuvent publier leur propre catalogue, ce qui simplifie la mise à jour du catalogue. Il est possible d'associer une *liste des fournisseurs agréés* à un produit, ce qui permet de guider la sélection du fournisseur lorsque de nouvelles commandes fournisseur sont ouvertes, et d'empêcher l'utilisation de fournisseurs non souhaités.
 

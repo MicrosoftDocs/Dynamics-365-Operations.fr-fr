@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 44d51807cd6bb64ae2c4bef58d8a445417ffa3a9
-ms.openlocfilehash: 815282422a6d7b8eef7d0628cf10b715449e1d1d
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 474453e7f33526bc7bebc60ef68f560d489a1841
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -52,10 +53,10 @@ Si vous payez un fournisseur à partir d'une entité juridique et si vous souhai
 Lorsque vous créez un paiement dans une entité juridique qui règle les factures dans d'autres entités juridiques, les ID de profil de validation doivent être identiques dans toutes les entités juridiques. Pour garantir une création correcte des paiements, dans chaque entité juridique de la facture, paramétrez un profil de validation correspondant aux profils de validation utilisés dans l'entité juridique de paiement. Passez à la première entité juridique de la facture, puis sur la page **Profils de validation fournisseur**, vous pouvez créer un profil de validation ou en modifier un existant. Les sélections que vous effectuez pour le profil de validation dans l'entité juridique de facture ne doivent pas forcément correspondre au paramétrage du profil de validation dans l'entité juridique de paiement.
 
 ## <a name="set-up-methods-of-payment-for-centralized-payments"></a>Paramétrage de modes de paiement pour les paiements centralisés
-Lorsque vous créez un paiement dans une entité juridique qui règle les factures dans d'autres entités juridiques, les ID mode de paiement doivent être identiques dans toutes les entités juridiques. Pour garantir la bonne création des paiements, dans chaque entité juridique de facture, paramétrez un mode de paiement correspondant aux modes de paiement utilisés dans l'entité juridique de paiement. Passez à la première entité juridique de facture, puis sur la page **Modes de paiement **, vous pouvez créer un mode de paiement ou modifier un mode de paiement existant. Les sélections que vous effectuez pour le mode de paiement dans l'entité juridique de facture ne doivent pas forcément correspondre au paramétrage du mode de paiement dans l'entité juridique de paiement.
+Lorsque vous créez un paiement dans une entité juridique qui règle les factures dans d'autres entités juridiques, les ID mode de paiement doivent être identiques dans toutes les entités juridiques. Pour garantir la bonne création des paiements, dans chaque entité juridique de facture, paramétrez un mode de paiement correspondant aux modes de paiement utilisés dans l'entité juridique de paiement. Passez à la première entité juridique de facture, puis sur la page **Modes de paiement**, vous pouvez créer un mode de paiement ou modifier un mode de paiement existant. Les sélections que vous effectuez pour le mode de paiement dans l'entité juridique de facture ne doivent pas forcément correspondre au paramétrage du mode de paiement dans l'entité juridique de paiement.
 
 ## <a name="set-up-default-descriptions"></a>Paramétrage des descriptions par défaut
-Vous pouvez définir des descriptions par défaut pour les N° document de règlement intersociétés. La description par défaut est incluse dans les transactions d'échéance au cours du traitement du règlement de société croisée. Sur la page **Descriptions par défaut**, vous pouvez créer de nouvelles descriptions pour les champs **Règlement client intersociétés **et **Règlement fournisseur intersociétés** en sélectionnant une langue, puis en entrant le texte.
+Vous pouvez définir des descriptions par défaut pour les N° document de règlement intersociétés. La description par défaut est incluse dans les transactions d'échéance au cours du traitement du règlement de société croisée. Sur la page **Descriptions par défaut**, vous pouvez créer de nouvelles descriptions pour les champs **Règlement client intersociétés**et **Règlement fournisseur intersociétés** en sélectionnant une langue, puis en entrant le texte.
 
 
 

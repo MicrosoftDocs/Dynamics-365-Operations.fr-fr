@@ -3,7 +3,7 @@ title: "Page d&quot;accueil de la fonctionnalité Secteur public"
 description: "Microsoft Dynamics 365 for Operations active les processus communs aux secteurs public et privé, comme les tâches de budgétisation, d&quot;achats, de comptabilité fournisseur et de comptabilité client."
 author: twheeloc
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -19,19 +19,23 @@ ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 1b081c1a0d9a572cebd51d6abaf958759c8be51f
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: dd17842365e357ecb5cb6034ed8878fcd60be5fc
+ms.openlocfilehash: fab7244bc7648e59dc6ff74894007bb72a58e843
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/26/2017
 
 
 ---
 
 # <a name="public-sector-home-page"></a>Page d'accueil de la fonctionnalité Secteur public
 
+[!include[banner](../includes/banner.md)]
+
+
 Microsoft Dynamics 365 for Operations active les processus communs aux secteurs public et privé, comme les tâches de budgétisation, d'achats, de comptabilité fournisseur et de comptabilité client. 
 
-La fonctionnalité Secteur public permet de se conformer aux règles, aux réglementations et aux conditions de génération d'états pour les organisations du domaine public : Les processus entreprise affectés sont :
+La fonctionnalité Secteur public permet de se conformer aux règles, aux réglementations et aux conditions de génération d'états pour les organisations du domaine public : Les processus entreprise affectés sont : 
 
 -   Comptabilité de fonds, hiérarchies financières dérivées et définitions de validation pour les modules Ventes et Comptabilité.
 -   Budgets préliminaires, répartitions et engagements.
@@ -46,7 +50,7 @@ La fonctionnalité Secteur public permet de se conformer aux règles, aux régle
 -   [Comptabilité client dans le secteur public](accounts-receivable-public-sector.md)
 -   [Budgétisation dans le secteur public](budgeting-public-sector.md)
 -   [Immobilisations dans le secteur public](fixed-asset-public-sector.md)
--   [Fonctions de réglementation française](/localizations/europe/public-sector-accounting-france.md)\*
+-   [Fonctions de réglementation française](../localizations/emea-fra-public-sector-accounting.md)
 -   [Comptabilité dans le secteur public](general-ledger-public-sector.md)
 -   [Approvisionnements dans le secteur public](procurement-sourcing-public-sector.md)
 -   [Rôles de sécurité dans le secteur public](security-roles-public-sector.md)
@@ -61,7 +65,7 @@ Le tableau suivant fournit des informations sur le lien entre cette clé de conf
 
 |            |                                                                                                                                                                                                                     |
 |------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Détails ** | **Description**                                                                                                                                                                                                     |
+| **Détails** | **Description**                                                                                                                                                                                                     |
 | Clé parente | Aucun                                                                                                                                                                                                                |
 | Clés enfants | **Clé de configuration Écriture comptable avancée** (AdvancedLedgerEntry) **Clé de configuration Secteur public 1099G** (Tax1099G) **Clé de configuration Secteur public 1099S** (Tax1099S) **Clé de configuration Réglementation française** |
 
@@ -70,5 +74,7 @@ Le tableau suivant fournit des informations sur le lien entre cette clé de conf
 --------
 
 [Planification pour la fonctionnalité Secteur public](plan-public-sector-functionality.md)
+
+
 
 

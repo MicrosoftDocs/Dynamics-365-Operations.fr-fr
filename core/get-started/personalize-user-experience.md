@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4bb647cfd3f012efbffa93a81462c538a24ac850
-ms.openlocfilehash: 8965c193839002776b3c61036b23b54625c974a4
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 734bf8a5cd71d218942e1a57fbb6af8fef4dc998
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -39,10 +40,10 @@ Toutes les personnalisations, de n'importe quel type, qu'un utilisateur effectue
 ## <a name="systemwide-options-for-the-current-user"></a>Options au niveau système pour l'utilisateur actuel
 Dans la barre de navigation, vous trouverez une image d'engrenages appelée bouton de menu **Paramètres**. Si vous ouvrez le menu **Paramètres**, un certain nombre de choix apparaissent. Si vous sélectionnez **Options**, la page **Options** de l'utilisateur s'ouvre. Là vous trouverez quatre onglets d'option : **Visuel****Préférences****Compte** et **Workflow**.
 
--   **Visuel : **permet de choisir un thème de couleur et la taille par défaut des éléments dans vos pages.
+-   **Visuel :**permet de choisir un thème de couleur et la taille par défaut des éléments dans vos pages.
 -   **Préférences :** vous permet de choisir des valeurs par défaut pour chaque ouverture de Dynamics 365 for Operations, notamment la société, la page initiale, et le mode affichage/modification par défaut (qui détermine si une page est verrouillée pour l'affichage ou ouverte pour la modification à chaque fois que vous l'ouvrez). Vous trouverez également la langue, le fuseau horaire, la date, l'heure, et les options de format de numéro. Enfin, cette page contient de nombreuses préférences diverses qui varieront d'une version à l'autre.
--   **Compte : **permet de fournir votre ID utilisateur et d'autres options relatives au compte.
--   **Workflow : **permet de sélectionner des options relatives au workflow.
+-   **Compte :**permet de fournir votre ID utilisateur et d'autres options relatives au compte.
+-   **Workflow :**permet de sélectionner des options relatives au workflow.
 
 ## <a name="implicit-personalizations"></a>Personnalisations implicites
 Les personnalisations implicites sont les personnalisations que vous effectuez simplement en utilisant certains contrôles qui conservent leur état actuel visible. 
@@ -106,7 +107,7 @@ Certains espaces de travail contiennent des vignettes de comptage (vignettes num
 Le tableau de bord est souvent la première page que vous voyez lorsque vous ouvrez Dynamics 365 for Operations. Vous pouvez personnaliser le tableau de bord pour renommer les vignettes de votre espace de travail, pour afficher uniquement les vignettes que vous voulez voir, renommer les vignettes ou réorganiser les vignettes dans l'ordre que vous préfèrerez. Pour personnaliser le tableau de bord, sélectionnez une vignette et cliquez avec le bouton droit pour ouvrir un menu contextuel. Dans le menu contextuel, sélectionnez **Personnaliser**. Si vous voulez masquer, renommer ou ignorer la vignette sélectionnée, vous pouvez effectuer cette modification directement dans la fenêtre de propriété qui est apparue. Si vous voulez réorganiser des vignettes, sélectionnez **Personnaliser cet écran** dans la fenêtre de propriété pour ouvrir la barre d'outils de personnalisation. Vous pouvez ensuite utiliser l'outil Déplacer pour réorganiser les vignettes.
 
 ## <a name="administration-of-personalization"></a>Administration de la personnalisation
-Il est possible de personnaliser une page et de la partager avec d'autres utilisateurs en exportant simplement la page personnalisée et en demandant aux autres utilisateurs d'accéder à la page personnalisée, puis d'importer le fichier de personnalisation créé. Si un utilisateur a des droits d'administrateur, il peut également gérer les personnalisations pour d'autres utilisateurs dans la page **Paramétrage de personnalisation**. Accédez à la page b. Dans la page **Personnalisation**, vous rechercherez deux onglets, un nommé **Système** et un nommé ** Utilisateurs**. 
+Il est possible de personnaliser une page et de la partager avec d'autres utilisateurs en exportant simplement la page personnalisée et en demandant aux autres utilisateurs d'accéder à la page personnalisée, puis d'importer le fichier de personnalisation créé. Si un utilisateur a des droits d'administrateur, il peut également gérer les personnalisations pour d'autres utilisateurs dans la page **Paramétrage de personnalisation**. Accédez à la page b. Dans la page **Personnalisation**, vous rechercherez deux onglets, un nommé **Système** et un nommé **Utilisateurs**. 
 
 **Système :** c'est ici que vous pouvez désactiver temporairement ou « arrêter » toutes les personnalisations dans le système. Cela ne supprime pas les personnalisations, mais réinitialise tous les écrans à leur état par défaut. Vous pouvez ensuite réautoriser la personnalisation pour que toutes les personnalisations soient réappliquées à chaque écran d'utilisateur. Vous pouvez également supprimer toutes les personnalisations de tous les utilisateurs. Notez que lorsque vous supprimez les personnalisations, il n'existe aucun moyen de les réactiver automatiquement à partir du système. Veillez à exporter les personnalisations que vous souhaiterez peut-être importer ultérieurement avant d'effectuer cette étape. 
 

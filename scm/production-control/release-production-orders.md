@@ -19,10 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: c4ebedab6d7de62479d3bc80583afadbe780aac4
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 8a12f79c9b2b02198c268a293b357ef805e2f4b9
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -54,7 +55,7 @@ Une fiche production offre une vue d'ensemble des informations qui viennent du p
 Une tâche de gamme répertorie en détails chaque tâche d'une opération, notamment les temps de réglage, de traitement, d'attente et de transport. Par exemple, une opération de peinture peut nécessiter des tâches individuelles comme les temps de paramétrage et d'exécution pour le processus de peinture et le temps d'attente pour le séchage.
 
 ## <a name="job-cards"></a>Bons de travail
-Un bon de travail répertorie les numéros de travail individuels d'une opération particulière. Une tâche apparaît dans chaque page. Les tâches incluses sur un bon de travail, et leurs temps estimés, viennent des informations de paramétrage de la gamme et de l'opération. Depuis un bon de travail, vous pouvez ouvrir la page **Lignes de journal de production**, **bon de travail **. Les personnes qui exécutent des ressources opérationnelles peuvent donner leur avis sur le processus de production. Il existe des champs dans lesquels vous pouvez entrer des statistiques et des informations de consommation telles que la quantité d'erreurs.
+Un bon de travail répertorie les numéros de travail individuels d'une opération particulière. Une tâche apparaît dans chaque page. Les tâches incluses sur un bon de travail, et leurs temps estimés, viennent des informations de paramétrage de la gamme et de l'opération. Depuis un bon de travail, vous pouvez ouvrir la page **Lignes de journal de production**, **bon de travail**. Les personnes qui exécutent des ressources opérationnelles peuvent donner leur avis sur le processus de production. Il existe des champs dans lesquels vous pouvez entrer des statistiques et des informations de consommation telles que la quantité d'erreurs.
 
 ## <a name="warehouse-work-for-raw-material-picking"></a>Travail d'entrepôt pour le prélèvement des matières premières
 Le travail pour le prélèvement des matières premières est généré lors du lancement. Le travail est généré uniquement pour la quantité des matières physiquement réservées pour l'ordre de fabrication, avant le lancement de l'ordre. Le paramétrage suivant est nécessaire pour générer le travail d'entrepôt pour le prélèvement des matières premières :

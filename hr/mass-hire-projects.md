@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 6f4429202efd0506378d681188035c5cc69f56a1
-ms.openlocfilehash: d330f73ee9cbdd6bdcc197c3783a9230b26e04d8
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 5ba5816b65bcaa3a71ab3367cfbe6a115e52062a
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="mass-hire-projects"></a>Projets d'embauche collective
+
+[!include[banner](includes/banner.md)]
+
 
 Les projets d'embauche collective autorisent les spécialistes des ressources humaines à créer plusieurs postes et à embaucher de manière efficace des collaborateurs pour ces postes.
 
@@ -46,7 +50,7 @@ Sur la page **Projets d'embauche collective**, sélectionnez le projet « Summer
 
 Une fois que vous avez trouvé les stagiaires à embaucher pour les postes, vous entrez les informations de chaque étudiant dans les **Détails du poste** correspondant. Lorsque vous avez entré tous les détails du poste, sélectionnez le poste sur la page Projets d'embauche collective, puis cliquez sur **Embaucher**. Un enregistrement de poste sera créé pour chaque poste et un enregistrement de travailleur sera créé et affecté au poste adéquat pour chaque personne embauchée.
 
-## <a name="masshire-project-statuses"></a>Statuts du projet d'embauche collective
+## <a name="mass-hire-project-statuses"></a>Statuts du projet d'embauche collective
 Un projet d'embauche collective peut avoir les statuts suivants :
 -   Créé
 -   Ouverte
@@ -92,6 +96,8 @@ Sur la page **Projet d'embauche collective**, cliquez sur **Ouvrir le projet** o
 </table>
 
  
+
+
 
 
 

@@ -19,15 +19,19 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 19eeee753c15cf2670948ce2c615a112813c16ad
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 2112d6dd45c76af3cea75a4e06b06f9577c572ad
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="master-planning-and-multisite-functionality"></a>Planification et fonctionnalité multisite
+
+[!include[banner](../includes/banner.md)]
+
 
 La planification prend en compte les paramètres des dimensions de stock du site et de l'entrepôt. 
 
@@ -37,7 +41,7 @@ Lorsqu'une dimension est obligatoire, une valeur de dimension doit être entrée
 
 Lorsque l'entrepôt n'est pas obligatoire, il se peut qu'il ne soit pas connu à partir de la demande initiale. Le moteur de planification doit déterminer l'entrepôt à utiliser en fonction des paramètres définis pour l'article, les entrepôts individuels et les détails de la ligne de commande.
 
-Les articles wiki suivants décrivent le fonctionnement du moteur de planification, lorsque différents paramètres sont définis, pour déterminer l'entrepôt à utiliser.
+Les rubriques suivantes décrivent le fonctionnement du moteur de planification, lorsque différents paramètres sont définis, pour déterminer l'entrepôt à utiliser.
 
 [Planification - couverture du site et de l'entrepôt, entrepôt obligatoire](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 
@@ -48,5 +52,7 @@ Les articles wiki suivants décrivent le fonctionnement du moteur de planificati
 [Planification - couverture du site, entrepôt no obligatoire](master-plan-site-coverage-warehouse-not-mandatory.md)
 
 [Planification - Méthode de détermination de la version de nomenclature](master-plan-bom-version-determined.md)
+
+
 
 

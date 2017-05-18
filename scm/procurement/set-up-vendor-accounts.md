@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 0719a49bee069dc49be084a3fbc4ba5eb4883d03
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 2f0ddf0e4cff0d799a7baf6bdc9d5c2da0622f4d
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -98,7 +99,7 @@ Lorsque vous mettez un fournisseur en attente, vous pouvez également indiquer u
 Si plusieurs fournisseurs possèdent la même adresse de facturation ou si un fournisseur est facturé via un tiers, vous pouvez spécifier un compte de facturation sur l'enregistrement fournisseur. Le compte de facturation est le compte sur lequel le montant de la facture est crédité lorsque vous créez une facture fournisseur à partir d'une commande fournisseur. Si vous n'entrez pas de compte de facturation sur l'enregistrement fournisseur, le compte utilisé sera le compte fournisseur.
 
 ## <a name="vendor-bank-accounts"></a>Comptes bancaires fournisseur
-Si vous devez effectuer des paiements vers un compte bancaire fournisseur, vous pouvez entrer des informations sur la banque et les comptes bancaires du fournisseur sur la page **Comptes bancaires fournisseur **. Vous pouvez aussi entrer des informations sur le contrôle et les paiements pour le compte bancaire sélectionné. Par exemple, vous pouvez ajouter des notes préliminaires aux comptes bancaires fournisseurs. Les banques utilisent les notes préliminaires pour vérifier la précision des données du compte, telles que les numéros d'acheminement et les numéros de compte. Vous devez spécifier un compte par défaut pour les paiements au fournisseur. Toutefois, lorsque vous effectuez un paiement réel, vous pouvez remplacer ce compte par l'un des autres comptes du fournisseur.
+Si vous devez effectuer des paiements vers un compte bancaire fournisseur, vous pouvez entrer des informations sur la banque et les comptes bancaires du fournisseur sur la page **Comptes bancaires fournisseur**. Vous pouvez aussi entrer des informations sur le contrôle et les paiements pour le compte bancaire sélectionné. Par exemple, vous pouvez ajouter des notes préliminaires aux comptes bancaires fournisseurs. Les banques utilisent les notes préliminaires pour vérifier la précision des données du compte, telles que les numéros d'acheminement et les numéros de compte. Vous devez spécifier un compte par défaut pour les paiements au fournisseur. Toutefois, lorsque vous effectuez un paiement réel, vous pouvez remplacer ce compte par l'un des autres comptes du fournisseur.
 
 ## <a name="ledger-accounts"></a>Comptes généraux
 Vous pouvez spécifier les comptes par défaut qui s'affichent automatiquement dans les journaux des factures fournisseur pour le fournisseur spécifié. Cette fonctionnalité peut être utile si vous payez généralement les même articles ou services auprès des mêmes fournisseurs. Si vous spécifiez un compte par défaut, vous pouvez entrer rapidement et efficacement des entrées de journal dans le journal des factures. Les comptes par défaut que vous spécifiez ne sont pas utilisés pour les commandes fournisseur ou les factures fournisseur entrées dans l'écran **Facture fournisseur**.  

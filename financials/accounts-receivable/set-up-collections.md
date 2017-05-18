@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: 1a9bf1067d0f6e0e139ef13d939d2f0e9bf2126b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 8dd5cc110e83e1b10db233547b0ac2081cc6c380
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -38,7 +39,7 @@ Cet article décrit la procédure de paramétrage de la fonctionnalité de recou
 Paramétrez une définition de plage âgée. Une définition de plage âgée définit les colonnes qui s'affichent sur les pages de liste **Soldes chronologiques**, **Activités de recouvrement** et **Dossiers de recouvrement**. Elle définit également les périodes qui s'affichent sur la page **Recouvrement**. Si vous paramétrez un regroupement de clients, la définition de plage âgée extraite de celui-ci est utilisée. Si aucun regroupement n'est paramétré, la définition de plage âgée par défaut spécifiée sur la page **Paramètres des ventes** est utilisée. Si aucune définition de plage âgée par défaut n'est spécifiée, la première définition de plage âgée figurant sur la page **Définitions des plages âgées** est utilisée.
 
 ## <a name="create-an-aging-snapshot"></a>Création d'un instantané de balance âgée
-Créez des enregistrements d'instantané de balance âgée pour tous les clients ou pour les clients d'un regroupement de clients. Les informations relatives aux instantanés de balance âgée s'affichent sur la page de liste** Soldes chronologiques** et sur la page **Recouvrements**. Vous devez créer un instantané de balance âgée avant d'utiliser la page de liste. La page de liste affiche des informations uniquement pour les clients pour lesquels un instantané de balance âgée a été créé.
+Créez des enregistrements d'instantané de balance âgée pour tous les clients ou pour les clients d'un regroupement de clients. Les informations relatives aux instantanés de balance âgée s'affichent sur la page de liste**Soldes chronologiques** et sur la page **Recouvrements**. Vous devez créer un instantané de balance âgée avant d'utiliser la page de liste. La page de liste affiche des informations uniquement pour les clients pour lesquels un instantané de balance âgée a été créé.
 
 ## <a name="optional-set-up-customer-pools"></a>Paramétrer des regroupements de clients (facultatif)
 Vous pouvez paramétrer des regroupements de clients pour représenter des groupes de clients. Vous pouvez utiliser les regroupements de clients en tant que filtres des informations client qui s'affichent sur les pages de liste **Recouvrements**, sur la page **Recouvrements**, ou lors de la création d'instantanés de balance âgée.

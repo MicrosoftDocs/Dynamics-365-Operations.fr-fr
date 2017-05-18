@@ -1,7 +1,7 @@
 ---
 title: "Afficher et créer des états financiers"
-description: "Cet article propose des exercices qui traitent de l&quot;affichage et de la création d&quot;états financiers pour Microsoft Dynamics 365 for Operations. La génération d&quot;états financiers comprend une expérience d&quot;affichage dans Dynamics 365 for Operations et un concepteur d&quot;état en un clic qui permet de créer et de modifier des états financiers."
-author: twheeloc
+description: "Cet article propose des exercices qui traitent de l&quot;affichage et de la création d&quot;états financiers pour Microsoft Dynamics 365 for Operations."
+author: jcart1106
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.reviewer: annbe
+ms.reviewer: shylaw
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 10814
 ms.assetid: cd5f6483-c09b-4c2d-9336-d22eb6ab6e4f
@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 3319fa0a919ca5e2737319f5cdc4190cf32d59b6
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6f785ac8b9a8be503bf9122f21716f745b17115b
+ms.openlocfilehash: 635e9e90c63330b3d8b0cc46f16a36fa44ef915d
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/27/2017
 
 
 ---
@@ -165,7 +166,7 @@ Dans cet exercice, vous créerez un état. L'état est un relevé des revenus d�
 6.  Double cliquez dans le champ **Filtre de dimension**.
 7.  Dans la fenêtre **Dimension**, double cliquez sur la colonne **Département**.
 8.  Dans la section individuelle ou de plage de la boîte de dialogue, cliquez sur les **points de suspension** pour le champ **De** pour afficher la liste des départements.
-9.  Sélectionnez le département **022**, **Ventes et marketing**, puis cliquez sur ** OK**.
+9.  Sélectionnez le département **022**, **Ventes et marketing**, puis cliquez sur **OK**.
 10. Répétez les étapes 5 à 8 pour les départements 23 à 25.
 11. Sur la ligne **En-tête 2** pour chaque colonne FD, entrez les descriptions de département suivantes :
     -   Colonne B – Ventes et marketing
@@ -182,8 +183,8 @@ Dans cet exercice, vous créerez un état. L'état est un relevé des revenus d�
 18. **Enregistrez** vos modifications et **générez**. Une fois que l'état est généré et s'ouvre, vous pouvez explorer l'état.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
-[États financiers](\financials\general-ledger\financial-reporting-getting-started.md) 
-[Afficher les états financiers](\financials\general-ledger\view-financial-reports.md) 
+[États financiers](/dynamics365/operations/financials/general-ledger/financial-reporting-getting-started) 
+[Afficher les états financiers](/dynamics365/operations/financials/general-ledger/view-financial-reports) 
 [Blog États financiers Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 

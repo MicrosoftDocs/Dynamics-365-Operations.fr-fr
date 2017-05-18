@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b41901d573e977a89fcd1a7c1ebf7185e162c654
-ms.openlocfilehash: 9b690b80f148e7ccecba19850bd78c81216d8658
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 3b424d34a1469ac37e96927dea5627f5f2fed8ee
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -54,7 +55,7 @@ Par exemple, si vous sélectionnez **Annuel**, l'amortissement annuel n'est vali
 Si vous sélectionnez **Fiscal** dans le champ **Année d'amortissement**, l'amortissement restant linéaire est utilisé. L'amortissement est calculé sur la base des exercices restants. Par exemple, pour l'exercice allant du 1er juillet 2015 au 30 juin 2016 , le calcul de l'amortissement commence le 1er juillet. L'exercice peut avoir une longueur supérieure ou inférieure à 12 mois. L'amortissement est ajusté en fonction de chaque période fiscale. La longueur de l'exercice suivant découle de la définition des périodes fiscales sur la page **Calendriers fiscaux**. Si vous sélectionnez **Exercice** comme année d'amortissement, les options suivantes sont disponibles dans le champ **Fréquence** :
 
 -   **Annuel** valide le montant total de l'amortissement calculé pour l'exercice comme montant unique, le dernier jour de l'exercice.
--   **Période fiscale **calcule le montant total de l'amortissement pour l'exercice. Ce montant est ensuite à recevoir dans les périodes fiscales définies sur la page **Calendriers fiscaux** pour le calendrier fiscal spécifié pour le registre.
+-   **Période fiscale**calcule le montant total de l'amortissement pour l'exercice. Ce montant est ensuite à recevoir dans les périodes fiscales définies sur la page **Calendriers fiscaux** pour le calendrier fiscal spécifié pour le registre.
 
 ## <a name="example-of-straight-line-depreciation-of-an-unchanged-fixed-asset"></a>Exemple d'amortissement linéaire d'une immobilisation inchangée
 Une immobilisation possède les caractéristiques suivantes :

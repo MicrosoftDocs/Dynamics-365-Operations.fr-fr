@@ -3,7 +3,7 @@ title: Afficher et exporter les descriptions de champ
 description: "Cet article décrit comment afficher les descriptions des champs et comment utiliser la page Descriptions de champ pour exporter des descriptions."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: c8c96dc9705688308dd4a5c720700ddc17657d75
-ms.openlocfilehash: d4fc9cdee0e2160e363f9defcf6bdbc57ed4db74
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 3029cb441d124e6e5aa427f7fcd95540700254c6
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="view-and-export-field-descriptions"></a>Afficher et exporter les descriptions de champ
+
+[!include[banner](../includes/banner.md)]
+
 
 Cet article décrit comment afficher les descriptions des champs et comment utiliser la page Descriptions de champ pour exporter des descriptions.
 
@@ -80,11 +84,11 @@ Cette section fournit des informations pour vous aider à résoudre les problèm
 
 ### <a name="i-cant-find-a-field-description"></a>Je ne trouve pas de description du champ
 
-Nous en sommes en train d'ajouter des descriptions pour les champs plus complexes. Si vous avez besoin d'aide pour un champ spécifique, merci de nous le faire savoir en ajoutant un commentaire à cet article Wiki.
+Nous en sommes en train d'ajouter des descriptions pour les champs plus complexes. Si vous avez besoin d'aide pour un champ spécifique, merci de nous le faire savoir en ajoutant un commentaire à cette rubrique.
 
 ### <a name="the-field-description-isnt-helpful"></a>La description du champ n'est pas utile
 
-Merci de nous le faire savoir en ajoutant un commentaire à cet article Wiki. Si vous le pouvez, décrivez les informations supplémentaires dont vous avez besoin.
+Merci de nous le faire savoir en ajoutant un commentaire à cette rubrique. Si vous le pouvez, décrivez les informations supplémentaires dont vous avez besoin.
 
 ### <a name="i-cant-find-a-field-on-the-field-descriptions-page"></a>Impossible de trouver un champ sur la page Descriptions de champ
 
@@ -97,6 +101,9 @@ Pour plus d’informations sur les différentes façons de trouver une page, con
 <a name="see-also"></a>Voir également :
 --------
 
-[Personnaliser l'aide du champ](https:/docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/user-interface/customize-field-help.md)
+[Personnaliser l'aide du champ](/dynamics365/operations/dev-itpro/user-interface/customize-field-help)
+
+
+
 
 

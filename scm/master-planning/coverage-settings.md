@@ -19,10 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: c1c5654afa6b592e178af052e3e4a7e246a94c9f
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 208fa88153adeca029f347f240c112ee156d1a7d
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -38,7 +39,7 @@ Vous pouvez spécifier des paramètres de couverture de plusieurs façons :
 
 -   Spécifiez des paramètres de couverture pour un groupe de couverture. Vous pouvez créer un groupe de couverture contenant des paramètres pour tous les produits qui lui sont liés. Cliquez sur **Planification &gt; Paramétrage &gt; Couverture &gt; Groupes de couverture** pour créer un groupe de couverture. Vous pouvez lier un groupe de couverture à un produit. Si le lien est spécifique à un site, un entrepôt ou une dimension de produit, utilisez le champ **Groupe de couverture** dans la page **Couverture de l'article**. Si le lien est générique, indépendamment des dimensions de produit, utilisez le champ **Groupe de couverture** sous l'organisateur **Plan** de la page **Détails de produit**. Si vous ne liez pas de groupe de couverture à un produit, la planification utilise par défaut le **Groupe de couverture général** spécifié dans la page **Paramètres de planification**.
 
--   Spécifiez des paramètres de couverture pour un produit. Vous pouvez créer des paramètres de couverture pour un produit spécifique. Cliquez sur **Gestion des informations sur les produits &gt; Produits &gt; Produits lancés**. Sélectionnez le produit, dans le **volet Actions**, sous l'onglet **Plan**, dans le champ **Groupe de couverture**, cliquez sur **Couverture de l'article** pour ouvrir la page **Couverture de l'article**. Si le produit est déjà lié à un groupe de couverture, vous pouvez remplacer les paramètres de groupe de couverture à l'aide du champ **Remplacer**. Les paramètres de couverture de la page** Couverture de l'article** prévalent sur les paramètres de la page **Groupe de couverture**.
+-   Spécifiez des paramètres de couverture pour un produit. Vous pouvez créer des paramètres de couverture pour un produit spécifique. Cliquez sur **Gestion des informations sur les produits &gt; Produits &gt; Produits lancés**. Sélectionnez le produit, dans le **volet Actions**, sous l'onglet **Plan**, dans le champ **Groupe de couverture**, cliquez sur **Couverture de l'article** pour ouvrir la page **Couverture de l'article**. Si le produit est déjà lié à un groupe de couverture, vous pouvez remplacer les paramètres de groupe de couverture à l'aide du champ **Remplacer**. Les paramètres de couverture de la page**Couverture de l'article** prévalent sur les paramètres de la page **Groupe de couverture**.
 
 <!-- -->
 

@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: afa59439e06aad9d669eb352a9837a013f447249
-ms.openlocfilehash: 2928b86a9dbf001451933f9d17287400cafaf089
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 36d4aec3936ef99b880f3affc75df1b952cb3133
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Nouveautés ou modifications apportées à Dynamics AX 7.0 (février 2016)
+
+[!include[banner](../includes/banner.md)]
+
 
 Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics AX 7.0. Cette version contient des fonctions de plateforme et d’application et a été publiée en février 2016.
 
@@ -331,8 +335,8 @@ Cette fonctionnalité fonctionne indépendamment des méthodes d'évaluation des
 <tr class="even">
 <td>Accès à l'aide procédurale guidée (guides des tâches) et aux rubriques conceptuelles en cliquant sur **Aide**.</td>
 <td>Le système d'aide AX 2012 pointe vers les rubriques HTML qui sont enregistrées sur un serveur Web local. Les partenaires et clients peuvent créer leur propre Aide.</td>
-<td>Le système d'aide de la version actuelle de Dynamics AX affiche les guides de tâches qui sont enregistrés dans le BPM Microsoft Dynamics Lifecycle Services (LCS). Le système d'aide affiche également des rubriques à partir du wiki Microsoft. Pour plus d'informations, voir [Aide Dynamics AX - Mise en route](help-overview.md) et [Nouveaux guides des tâche disponibles (Février 2016)](new-task-guides-available-february-2016.md).</td>
-<td>Un guide de tâche fournit une expérience contrôlée, guidée, interactive qui vous accompagne le long des étapes d'une tâche ou d'un processus métier. Vous pouvez télécharger et personnaliser les guides de tâches fournis par Microsoft. Le wiki fournit un moyen plus rapide et plus souple de créer, de fournir et mettre à jour la documentation du produit. Par conséquent, il aide à garantir que vous avez accès aux dernières informations techniques.</td>
+<td>Le système d'aide de la version actuelle de Dynamics AX affiche les guides de tâches qui sont enregistrés dans le BPM Microsoft Dynamics Lifecycle Services (LCS). Le système d'aide affiche également des rubriques à partir du site de documentation Microsoft. Pour plus d'informations, voir [Aide Dynamics AX - Mise en route](help-overview.md) et [Nouveaux guides des tâche disponibles (Février 2016)](new-task-guides-available-february-2016.md).</td>
+<td>Un guide de tâche fournit une expérience contrôlée, guidée, interactive qui vous accompagne le long des étapes d'une tâche ou d'un processus métier. Vous pouvez télécharger et personnaliser les guides de tâches fournis par Microsoft. La rubrique explique un moyen plus rapide et plus souple de créer, de fournir et mettre à jour la documentation du produit. Par conséquent, il aide à garantir que vous avez accès aux dernières informations techniques.</td>
 </tr>
 </tbody>
 </table>
@@ -1076,5 +1080,7 @@ Aucune nouvelle fonctionnalité n'a été ajoutée :
 [Ce qui est nouveau ou modifié](whats-new-changed.md)
 
 [Nouveaux guides des tâche disponibles (février 2016)](new-task-guides-available-february-2016.md)
+
+
 
 

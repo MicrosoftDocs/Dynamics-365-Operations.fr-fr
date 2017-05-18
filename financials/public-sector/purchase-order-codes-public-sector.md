@@ -19,10 +19,11 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: a76abfa35e53673f9780d1a6f8816bd24f9f8e48
-ms.openlocfilehash: 324aafa9aeb1156731b544a46f0dcb91825bf5c5
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 47e52c667397923b58610667583482673f031bae
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -41,7 +42,7 @@ Après avoir paramétré les codes, vous pouvez les affecter aux commandes fourn
 Si vous affectez un code commande fournisseur de confirmation à une commande fournisseur dans l'organisateur **Achats non planifiés** (par exemple, lorsque vous créez une commande fournisseur), le message associé à ce code est imprimé dans la partie supérieure de la commande fournisseur.
 
 ## <a name="tips"></a>Conseils
--   Si vous modifiez un code commande fournisseur de confirmation déjà affecté à une commande fournisseur, le nouveau code remplace l'ancien. Cette modification affecte à la fois les nouvelles commandes fournisseur et les commandes fournisseur qui ont été validées. Par exemple, une commande fournisseur avait un code de confirmation de commande fournisseur **Confirmation** lorsqu'elle a été validée, mais ce code a été modifié ultérieurement pour devenir **Urgence**. Dans ce cas, chaque commande fournisseur dotée du code **Confirmation **sera désormais dotée du code **Urgence**.
+-   Si vous modifiez un code commande fournisseur de confirmation déjà affecté à une commande fournisseur, le nouveau code remplace l'ancien. Cette modification affecte à la fois les nouvelles commandes fournisseur et les commandes fournisseur qui ont été validées. Par exemple, une commande fournisseur avait un code de confirmation de commande fournisseur **Confirmation** lorsqu'elle a été validée, mais ce code a été modifié ultérieurement pour devenir **Urgence**. Dans ce cas, chaque commande fournisseur dotée du code **Confirmation**sera désormais dotée du code **Urgence**.
 -   Vous pouvez créer des messages dans différentes langues. Cette fonctionnalité s'avère utile lorsque vous effectuez des achats auprès de fournisseurs implantés dans d'autres pays ou régions. Par exemple, votre organisation est implantée dans un pays ou une région anglophone et vous souhaitez créer un message en espagnol pour les commandes fournisseur de confirmation ayant **Confirmation** pour code de commande fournisseur de confirmation.
 
  

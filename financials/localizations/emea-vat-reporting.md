@@ -3,7 +3,7 @@ title: "Déclaration de TVA pour l&quot;Europe"
 description: "Cette rubrique fournit des informations générales sur le paramétrage et la génération de la déclaration de TVA pour certains pays européens."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Austria, Belgium, Czech Republic, Estonia, Finland, Germany, L
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 84a639b25c64821e00ca4397f42f69298953e599
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 190977af579a025b6f46646dfab153b1879d3e76
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="vat-reporting-for-europe"></a>Déclaration de TVA pour l'Europe
+
+[!include[banner](../includes/banner.md)]
+
 
 Cette rubrique fournit des informations générales sur le paramétrage et la génération de la déclaration de TVA pour certains pays européens.
 
@@ -43,7 +47,7 @@ Cette rubrique fournit une approche générique du paramétrage et de la génér
 -   Suède
 
 ## <a name="vat-statement-overview"></a>Vue d'ensemble de la déclaration de TVA
-La déclaration de TVA est basée sur les montants des transactions de taxe. Le processus de génération d'une déclaration de TVA fait partie du processus de paiement de la taxe, qui est implémenté via la fonction Régler et valider la taxe. Cette fonction calcule la taxe due pour une période donnée. Le calcul du règlement inclut la taxe validée pour la période de règlement sélectionnée pour les transactions de taxe. Le processus de calcul des données d'une déclaration de TVA est basé sur la relation entre les codes taxe et les codes déclaration de taxe, où les codes déclaration de taxe correspondent aux zones de déclaration de TVA (ou balises en XML). Pour chaque code taxe, des codes déclaration de taxe doivent être définis pour chaque type de transaction, par exemple les ventes imposables, les achats imposables, les importations imposables. Ces types de transactions sont décrits dans la section [Codes taxe pour la déclaration de TVA](#Sales tax codes for VAT reporting) plus loin dans cette rubrique.
+La déclaration de TVA est basée sur les montants des transactions de taxe. Le processus de génération d'une déclaration de TVA fait partie du processus de paiement de la taxe, qui est implémenté via la fonction Régler et valider la taxe. Cette fonction calcule la taxe due pour une période donnée. Le calcul du règlement inclut la taxe validée pour la période de règlement sélectionnée pour les transactions de taxe. Le processus de calcul des données d'une déclaration de TVA est basé sur la relation entre les codes taxe et les codes déclaration de taxe, où les codes déclaration de taxe correspondent aux zones de déclaration de TVA (ou balises en XML). Pour chaque code taxe, des codes déclaration de taxe doivent être définis pour chaque type de transaction, par exemple les ventes imposables, les achats imposables, les importations imposables. Ces types de transactions sont décrits dans la section Codes taxe pour la déclaration de TVA plus loin dans cette rubrique.
 
 Pour chaque code déclaration de taxe, une présentation d'état spécifique doit être déterminée. Les codes taxe sont également liés à une administration fiscale spécifique via des périodes de règlement de la taxe. Pour chaque administration fiscale, une présentation d'état doit être déterminée. Ainsi, seuls les codes déclaration de taxe avec la même présentation d'état paramétrée pour une administration fiscale dans les périodes de règlement de la taxe pour le code taxe peuvent être sélectionnés dans le paramétrage d'état du code taxe. Une transaction de taxe générée lors de la validation d'une commande ou d'un journal, contient un code taxe, une source de taxe, une direction de taxe et des montants de transaction (montant de base de la taxe et montant de la taxe dans la devise comptable, la devise de taxe et la devise de la transaction). Selon la combinaison d'attributs de transaction de taxe, les montants des transactions composent les montants totaux pour les codes déclaration de taxe spécifiés pour les codes taxe. La relation des données est illustrée dans le graphique ci-dessous :
 
@@ -249,7 +253,7 @@ d<li>Le <strong>Montant de base de taxe</strong> ou le <strong>Montant de taxe</
 
 Vous pouvez utiliser les états électroniques pour configurer les déclarations et l'état, et pour exporter les données dans différents formats électroniques sans modifier le code X++. Pour des informations supplémentaires :
 
--   [Vue d'ensemble des États électroniques](/dynamics365/operations/dev-itpro/dev-itpro/analytics/general-electronic-reporting)
+-   [Vue d'ensemble des états électroniques](/dynamics365/operations/dev-itpro/analytics/general-electronic-reporting)
 -   [Télécharger les configurations des états électroniques à partir de Lifecycle Services](/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
 -   [Exigences de localisation – Créer une configuration GER](/dynamics365/operations/dev-itpro/analytics/electronic-reporting-configuration)
 
@@ -270,6 +274,8 @@ La déclaration de TVA pour chaque pays doit répondre aux exigences de la légi
 | Lituanie      | [Détails de la déclaration de TVA pour la Lituanie](emea-ltu-vat-statement-details.md)         |
 | Pays-Bas    |                                                                                 |
 | Suède         |                                                                                 |
+
+
 
 
 

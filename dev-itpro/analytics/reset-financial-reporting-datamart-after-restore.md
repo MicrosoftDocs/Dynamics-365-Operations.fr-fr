@@ -1,9 +1,9 @@
 ---
 title: "Réinitialiser le magasin de données d&quot;états financiers après avoir restauré une base de données"
 description: "Cette rubrique décrit la procédure de réinitialisation d&quot;un magasin de données d&quot;états financiers après avoir restauré une base de données Microsoft Dynamics 365 for Operations."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-12-08 16 - 20 - 13
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 3967cbb869fbb23d5d7716f619e4c22b4a273921
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: d4ce390c62cbfb1f693410b004aa296c0ed75eb2
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="reset-the-financial-reporting-data-mart-after-restoring-a-database"></a>Réinitialiser le magasin de données d'états financiers après avoir restauré une base de données
+
+[!include[banner](../includes/banner.md)]
+
 
 Cette rubrique décrit la procédure de réinitialisation d'un magasin de données d'états financiers après avoir restauré une base de données Microsoft Dynamics 365 for Operations. 
 
@@ -43,7 +47,11 @@ Premièrement, exportez les créations de rapports situées dans le Concepteur d
 5.  Entrez un nom et sélectionnez un emplacement sûr où vous souhaitez enregistrer les définitions de rapport exportées.
 6.  Cliquez sur **Enregistrer**.
 
-Le fichier peut être copié ou téléchargé à un emplacement sûr, lui permettant d'être importé dans un environnement différent à tout moment. Les informations relatives à l'utilisation d'un compte de stockage Microsoft Azure se trouvent dans le champ [Transférer les données avec l'utilitaire de ligne de commande AzCopy](https://docs.microsoft.com/en-gb/azure/storage/storage-use-azcopy). **Remarque :** Microsoft ne fournit pas un compte de stockage dans le cadre de l'accord Dynamics 365 for Operations. Vous devez acheter un compte de stockage ou utiliser le compte de stockage d'un abonnement Azure distinct. **Important :** Tenez compte du comportement du lecteur D sur les machines virtuelles Azure. N'utilisez pas les groupes de blocs élémentaires exportés ici définitivement. Pour plus d'informations sur les lecteurs temporaires, voir [Comprendre le lecteur temporaire sur les machines virtuelles Windows Azure](https://blogs.msdn.microsoft.com/mast/2013/12/06/understanding-the-temporary-drive-on-windows-azure-virtual-machines/).
+Le fichier peut être copié ou téléchargé à un emplacement sûr, lui permettant d'être importé dans un environnement différent à tout moment. Les informations relatives à l'utilisation d'un compte de stockage Microsoft Azure se trouvent dans le champ [Transférer les données avec l'utilitaire de ligne de commande AzCopy](https://docs.microsoft.com/en-gb/azure/storage/storage-use-azcopy). 
+> [!NOTE]
+> Microsoft ne fournit pas un compte de stockage dans le cadre de l'accord Dynamics 365 for Operations. Vous devez acheter un compte de stockage ou utiliser le compte de stockage d'un abonnement Azure distinct. 
+> [!WARNING]
+> Tenez compte du comportement du lecteur D sur les machines virtuelles Azure. N'utilisez pas les groupes de blocs élémentaires exportés ici définitivement. Pour plus d'informations sur les lecteurs temporaires, voir [Comprendre le lecteur temporaire sur les machines virtuelles Windows Azure](https://blogs.msdn.microsoft.com/mast/2013/12/06/understanding-the-temporary-drive-on-windows-azure-virtual-machines/).
 
 ## <a name="stop-services"></a>Arrêter les services
 Utilisez l'ordinateur Bureau à distance pour vous connecter à tous les ordinateurs dans l'environnement et pour arrêter les services Windows suivants à l'aide de services.msc :
@@ -96,7 +104,9 @@ Utilisez services.msc pour redémarrer les services que vous avez arrêtés pré
 Importez vos créations de rapports dans le Concepteur de rapports, à l'aide du fichier créé lors de l'exportation :
 
 1.  Dans le Concepteur de rapports, accédez à **Société** &gt; **Groupes de blocs élémentaires**.
-2.  Sélectionnez le groupe de blocs élémentaires à exporter, puis cliquez sur **Exporter**. **Remarque :** Pour Dynamics 365 for Operations, un seul groupe de blocs élémentaires est pris en charge, **Valeur par défaut**.
+2.  Sélectionnez le groupe de blocs élémentaires à exporter, puis cliquez sur **Exporter**. 
+    > [!NOTE]
+    > Pour Dynamics 365 for Operations, un seul groupe de blocs élémentaires est pris en charge, **Valeur par défaut**.
 3.  Sélectionnez le bloc élémentaire **Valeur par défaut**, puis cliquez sur **Importer**.
 4.  Sélectionnez le fichier contenant les définitions de rapport exportées, puis cliquez sur **Ouvrir**.
 5.  Dans la boîte de dialogue Importer, sélectionnez les définitions de rapport à importer :
@@ -104,6 +114,8 @@ Importez vos créations de rapports dans le Concepteur de rapports, à l'aide du
     -   Pour importer des rapports, lignes, colonnes, organigrammes ou ensembles de dimensions spécifiques, sélectionnez les rapports, lignes, colonnes, organigrammes ou ensembles de dimensions à importer.
 
 6.  Cliquez sur **Importer**.
+
+
 
 
 

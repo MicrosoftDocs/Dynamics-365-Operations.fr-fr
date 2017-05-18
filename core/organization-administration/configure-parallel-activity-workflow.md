@@ -3,7 +3,7 @@ title: "Configurer une activité parallèle dans un workflow"
 description: "Pour configurer une activité parallèle, exécutez les procédures suivantes dans l&quot;éditeur de workflow."
 author: sericks007
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 818fb054742b935d002a7341e54a37eca0bb4761
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: ce3fca9d2dbca046232365b1375bfd920d5b10fd
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="configure-a-parallel-activity-in-a-workflow"></a>Configurer une activité parallèle dans un workflow
+
+[!include[banner](../includes/banner.md)]
+
 
 Pour configurer une activité parallèle, exécutez les procédures suivantes dans l'éditeur de workflow.
 
@@ -41,11 +45,13 @@ Procédez comme suit pour entrer un nom pour une activité parallèle.
 Pour ajouter et configurer les branches de cette activité parallèle, procédez comme suit.
 1.  Double-cliquez sur l'activité parallèle pour afficher les branches de l'activité parallèle.
 2.  Pour ajouter une branche, faites glisser l'élément **Branche** de la zone **Élément de workflow** vers un point d'insertion sur le canevas. La figure suivante présente un point d'insertion.![Insertion point](./media/workflow_insertionpoint.gif)
-    | **Remarque **                                                                                                         |
+    | **Remarque**                                                                                                         |
     |------------------------------------------------------------------------------------------------------------------|
     | L'ordre des branches est sans importance, car toutes les branches d'une activité parallèle s'exécutent simultanément. |
 
-3.  Pour configurer chaque branche, voir [Configuration d'une branche parallèle](http://axhelp.dynamics.com/en/wiki/configure-a-parallel-branch/).
+3.  Pour configurer chaque branche, voir [Configuration d'une branche parallèle](configure-parallel-branch-workflow.md).
+
+
 
 
 

@@ -3,7 +3,7 @@ title: "Configuration de l&quot;entrepôt"
 description: "Cet article explique comment configurer un entrepôt. Elle contient des informations sur l&quot;activation d&quot;une présentation d&quot;entrepôt et sur les processus d&quot;entrepôt."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2015-10-30 12 - 52 - 43
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,19 +17,23 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: afa59439e06aad9d669eb352a9837a013f447249
-ms.openlocfilehash: 437f2348603db432df6d7589e4043d8145c52a1e
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e312f953d6a29d26b98794ed213d6ec70f6aa4b7
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="warehouse-configuration"></a>Configuration de l'entrepôt
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article explique comment configurer un entrepôt. Elle contient des informations sur l'activation d'une présentation d'entrepôt et sur les processus d'entrepôt.
 
-**Remarque :** cet article s'applique aux fonctionnalités du module ** Gestion des entrepôts** module (entreposage avancé). Il ne s'applique pas aux fonctionnalités dédiées aux entrepôts du module** Gestion des stocks**.
+**Remarque :** cet article s'applique aux fonctionnalités du module **Gestion des entrepôts** module (entreposage avancé). Il ne s'applique pas aux fonctionnalités dédiées aux entrepôts du module**Gestion des stocks**.
 
 ## <a name="warehouse-layout"></a>Disposition de l'entrepôt
 Le système de gestion des entrepôts de Microsoft Dynamics 365 for Operations vous offre des moyens flexibles de définir la disposition de votre entrepôt pour répondre à vos besoins variables, afin de pouvoir atteindre le rendement optimal de l'entrepôt.
@@ -75,7 +79,12 @@ Dans le cadre de la configuration de l'entrepôt, il est important que vous acti
 
 Les modèles de vague permettent d'activer le processus « Libérer dans l'entrepôt ». Dès que les lignes de commande sont publiées (directement à partir des documents source, par des processus de traitement par lots, ou par des charges qui ont déjà été créées), la fonctionnalité de modèle de vague est utilisée. 
 
-Vous pouvez créer trois types de modèles de vague : **Expédition**, **Ordre de fabrication** et **Kanban**. Les paramètres sont utilisés pour définir jusqu'où le système doit poursuivre automatiquement dans le traitement du travail sortant. Un modèle de vague est sélectionné en fonction de la séquence du modèle de vague et des critères spécifiés dans le modèle. Si un modèle est répertorié en haut de la séquence, les critères de ce modèle sont vérifiés en premier. Si les critères peuvent être respectés, le modèle de vague est traité. Sinon, les critères du modèle suivant sont vérifiés, et ainsi de suite. Par conséquent, il est judicieux de mettre en haut de la liste de séquence de modèles de vague le modèle qui présente les critères les plus spécifiques, de sorte qu'il soit traité en premier. Par exemple, vous souhaitez traiter tout le travail d'un transporteur spécifique aujourd'hui et retarder temporairement le traitement du travail des autres transporteurs. Dans ce cas, le modèle de vague qui sélectionne le travail pour ce transporteur doit être répertorié plus haut dans la séquence que d'autres modèles. Sinon, le travail pour les autres transporteurs sera peut-être traité avant que le travail pour ce transporteur soit achevé. 
+Vous pouvez créer les trois types de modèles de vague suivants : 
+-   **Expédition**
+-   **Ordre de fabrication**
+-   **Kanban** 
+
+Les paramètres sont utilisés pour définir jusqu'où le système doit poursuivre automatiquement dans le traitement du travail sortant. Un modèle de vague est sélectionné en fonction de la séquence du modèle de vague et des critères spécifiés dans le modèle. Si un modèle est répertorié en haut de la séquence, les critères de ce modèle sont vérifiés en premier. Si les critères peuvent être respectés, le modèle de vague est traité. Sinon, les critères du modèle suivant sont vérifiés, et ainsi de suite. Par conséquent, il est judicieux de mettre en haut de la liste de séquence de modèles de vague le modèle qui présente les critères les plus spécifiques, de sorte qu'il soit traité en premier. Par exemple, vous souhaitez traiter tout le travail d'un transporteur spécifique aujourd'hui et retarder temporairement le traitement du travail des autres transporteurs. Dans ce cas, le modèle de vague qui sélectionne le travail pour ce transporteur doit être répertorié plus haut dans la séquence que d'autres modèles. Sinon, le travail pour les autres transporteurs sera peut-être traité avant que le travail pour ce transporteur soit achevé. 
 
 Vous devez spécifier les méthodes de processus de vague dans chaque modèle de vague. Les méthodes disponibles varient en fonction du type de modèle de vague.
 
@@ -107,6 +116,8 @@ Pour faciliter et accélérer la définition des actions associées à chaque li
 <a name="see-also"></a>Voir également :
 --------
 
-[Configurer l'emplacement dans un entrepôt compatible WMS (guide de tâche)](https://ax.help.dynamics.com/en/wiki/configure-locations-in-a-wms-enabled-warehousing/)
+[Configurer l'emplacement dans un entrepôt compatible WMS (guide de tâche)](https://ax.help.dynamics.com/en/wiki/configure-locations-in-a-wms-enabled-warehouse/)
+
+
 
 

@@ -17,10 +17,11 @@ ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: bec019d218d80ba059d5a1c232072f46b1ae3ee2
-ms.openlocfilehash: 509ca307ba3ec691ca3b7fc04c8f44104f97a33b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: eb800eab303ccf4e27d771c1ae76d23e4aab3c9b
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---

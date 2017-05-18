@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 7c5986dbce88a1cb704dddfc2afbcf2ac8c4b0dd
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 2a39054e5736c1162634cf9b1dd3f7e0c0c4ec16
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -104,7 +105,7 @@ Il n'est pas nécessaire de définir des configurations de réviseurs de dépens
 
 Vous pouvez paramétrer les réviseurs de dépenses dans la page **Réviseurs de dépenses de demandes d'achat**. Créez une configuration de réviseurs de dépenses, puis entrez des valeurs pour chaque entité juridique de votre organisation. Pour les demandes affectées à un projet, vous pouvez spécifier le rôle chargé de la révision des demandes : chef de projet, contrôleur de projet ou responsable des ventes du projet. Les dépenses sont acheminées vers l'utilisateur affecté au rôle spécifique. Vous pouvez également les acheminer vers le propriétaire de dimension financière en sélectionnant l'option appropriée sous l'onglet **Distributions de l'organisation**.  
 
-Pour utiliser l'un des réviseurs de dépenses que vous paramétrez dans un workflow, vous devez définir l'option **Type de participant** sur** Participants aux dépenses** dans les propriétés** Affectation** de l'élément de workflow approprié.
+Pour utiliser l'un des réviseurs de dépenses que vous paramétrez dans un workflow, vous devez définir l'option **Type de participant** sur**Participants aux dépenses** dans les propriétés**Affectation** de l'élément de workflow approprié.
 
 <a name="see-also"></a>Voir également :
 --------

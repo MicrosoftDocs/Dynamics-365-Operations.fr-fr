@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 81b5c9056001b26c33b2b42a95711ff5b50243e6
-ms.openlocfilehash: 4bd934091c80ab9a4d244499d2bce2c4646c3e99
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 769680aff8c018bc042ffce98ee50a9760a65fcf
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -126,7 +127,7 @@ Vous pouvez joindre un document à une révision dans la section **Documents joi
 Vous pouvez utiliser le workflow d'évaluation des collaborateurs pour contrôler l'approbation d'une révision. Vous pouvez également choisir d'ignorer le workflow automatique et de modifier manuellement le statut de la révision, ce qui vous permet de créer des documents plus simples comme une réunion individuelle sans devoir utiliser le processus de workflow. L'accès à une révision est contrôlé par le statut de celle-ci.
 
 1.  Lorsque la révision est créée, elle est définie sur le statut **Non commencé**. La révision peut être modifiée par n'importe qui.
-2.  Une fois que l'employé a appuyé sur le bouton **Commencer la révision**, la révision est définie sur le statut** En cours**. L'employé commence ensuite à ajouter du contenu. À ce stade, le responsable ne peut plus afficher le document de révision.
+2.  Une fois que l'employé a appuyé sur le bouton **Commencer la révision**, la révision est définie sur le statut**En cours**. L'employé commence ensuite à ajouter du contenu. À ce stade, le responsable ne peut plus afficher le document de révision.
 3.  L'employé remplace le statut par **Prêt pour la révision**.
 4.  Le responsable peut ajouter des commentaires et des classements. À ce stade, seul le responsable peut consulter la révision.
 5.  Il remplace le statut par **Révision finale**, de sorte que le responsable et l'employé puissent voir la révision et en discuter. Vous pouvez spécifier dans les paramètres si la révision peut être modifiée ou non à ce stade. Cette étape est également facultative si le responsable souhaite simplement partager la révision avec l'employé et la marque comme **Terminée** lorsqu'ils ont terminé.

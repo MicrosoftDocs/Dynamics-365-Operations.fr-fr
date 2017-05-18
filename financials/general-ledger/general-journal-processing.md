@@ -3,7 +3,7 @@ title: "Journaux d&quot;opérations diverses"
 description: "Cet article décrit les fonctionnalités de Microsoft Dynamics 365 for Operations qui vous permettent d&quot;effectuer le traitement du journal des opérations diverses, ainsi que de garantir que les données correctes sont capturées et que le contrôle interne n&quot;est pas compromis."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ef99caf4570969d2b920cec8b53669ce2094965
-ms.openlocfilehash: 50cd203025be8857de943e458fc32315e494fb7a
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: c020566928cecc15bd7de504164f5adbf34eda44
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -31,7 +32,7 @@ ms.lasthandoff: 03/31/2017
 [!include[banner](../includes/banner.md)]
 
 
-Cet article décrit les fonctionnalités de Microsoft Dynamics AX qui vous permettent d'effectuer le traitement du journal des opérations diverses, ainsi que de garantir que les données correctes sont capturées et que le contrôle interne n'est pas compromis.  
+Cet article décrit les fonctionnalités de Microsoft Dynamics 365 for Operations qui vous permettent d'effectuer le traitement du journal des opérations diverses, ainsi que de garantir que les données correctes sont capturées et que le contrôle interne n'est pas compromis.  
 
 Noms de journal
 
@@ -82,6 +83,7 @@ Le paramétrage de compte principal fournit de nombreuses options pour le traite
 Les structures de compte et les structures de règles avancées sont extrêmement importantes pour garantir que les données requises pour la génération d'états financiers et le suivi de performance sont capturées lors du traitement du journal des opérations diverses et de toute documentation. Les structures de compte et les structures de règles avancées vous permettent d'adapter l'expérience de saisie de données. Vous pouvez autoriser la saisie de données uniquement pour les dimensions financières pertinentes dans chaque cas, et également appliquer les conditions obligatoires et corriger les données qui sont capturées.
 
 Pour plus d'informations, voir [planification : Plan de comptes](plan-chart-of-accounts.md). 
+
 
 
 
