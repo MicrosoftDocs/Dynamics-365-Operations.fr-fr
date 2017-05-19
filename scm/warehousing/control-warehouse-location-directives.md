@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 64bcea1f305d67c01967184596a58a48a002cf48
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e90741b9151f19c70923685fdf1edb2552296a08
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -50,13 +51,13 @@ Pour arrêter ou suspendre un processus de travail, vous pouvez utiliser le para
 ## <a name="location-directives"></a>Instructions d'emplacement
 Les instructions d'emplacement sont des règles qui aident à identifier les emplacements de prélèvement et de rangement pour le mouvement du stock. Par exemple, dans une transaction de commande client, une instruction d'emplacement détermine où les articles seront prélevés, et où les articles prélevés seront rangés. Les instructions d'emplacement sont composés d'un en-tête et de lignes associées, et vous les créez dans la page **Instructions d'emplacement**. 
 
-Dans l'en-tête, chaque instruction d'emplacement doit être associée à un *type d'ordre de travail *qui spécifie le type de transaction de stock pour lequel l'instruction sera utilisée, tels que les commandes client, le réapprovisionnement, ou le prélèvement de matières premières. Le *type de travail *indique si l'instruction d'emplacement sera utilisée pour le travail de prélèvement ou de rangement, ou pour un autre processus d'entrepôt, par exemple le comptage ou les modifications de statut du stock. Vous devez également spécifier un *site *et un *entrepôt*. Un *code directif *que vous spécifiez dans l'en-tête peut être utilisé pour lier l'instruction d'emplacement à un ou plusieurs modèles de travail. 
+Dans l'en-tête, chaque instruction d'emplacement doit être associée à un *type d'ordre de travail *qui spécifie le type de transaction de stock pour lequel l'instruction sera utilisée, tels que les commandes client, le réapprovisionnement, ou le prélèvement de matières premières. Le *type de travail *indique si l'instruction d'emplacement sera utilisée pour le travail de prélèvement ou de rangement, ou pour un autre processus d'entrepôt, par exemple le comptage ou les modifications de statut du stock. Vous devez également spécifier un *site* et un *entrepôt*. Un *code directif *que vous spécifiez dans l'en-tête peut être utilisé pour lier l'instruction d'emplacement à un ou plusieurs modèles de travail. 
 
 Quant aux modèles de travail, vous pouvez paramétrer une requête pour déterminer si une instruction particulière d'emplacement est utilisée. Par exemple, vous pouvez spécifier que lorsque l'e-commerce est l'origine d'une commande client, le stock doit être prélevé dans une zone dédiée de l'entrepôt. Le système utilise le champ **N° de souche** pour déterminer l'ordre dans lequel les instructions d'emplacements disponibles sont évaluées. 
 
 Les lignes d'instruction d'emplacement définissent des restrictions supplémentaires sur l'application des règles de recherche d'emplacement. Vous pouvez spécifier une quantité minimale et une quantité maximale auxquelles l'instruction doit s'appliquer, vous pouvez spécifier que l'instruction doit concerner une unité de stock spécifique. Par exemple, si l'unité de mesure est en palettes, les articles en palettes peuvent être rangés dans un emplacement spécifique. Vous pouvez également indiquer si la quantité peut être fractionnée entre plusieurs emplacements. Comme l'en-tête des instructions de l'emplacement, chaque ligne d'instruction d'emplacement possède un numéro de souche qui détermine l'ordre des lignes dans lequel les lignes sont évaluées. 
 
-Les instructions d'emplacement ont un niveau de détail supplémentaire : *actions d'instruction d'emplacement*. Vous pouvez définir plusieurs actions d'instruction d'emplacement pour chaque ligne. De nouveau, un numéro de souche est utilisé pour déterminer l'ordre dans lequel les actions sont évaluées. À ce niveau, vous pouvez paramétrer une requête pour définir la manière dont rechercher le meilleur emplacement dans l'entrepôt. Vous pouvez également utiliser les paramètres **Stratégie **prédéfinis pour rechercher un emplacement optimal.
+Les instructions d'emplacement ont un niveau de détail supplémentaire : *actions d'instruction d'emplacement*. Vous pouvez définir plusieurs actions d'instruction d'emplacement pour chaque ligne. De nouveau, un numéro de souche est utilisé pour déterminer l'ordre dans lequel les actions sont évaluées. À ce niveau, vous pouvez paramétrer une requête pour définir la manière dont rechercher le meilleur emplacement dans l'entrepôt. Vous pouvez également utiliser les paramètres **Stratégie**prédéfinis pour rechercher un emplacement optimal.
 
 ### <a name="example-of-the-use-of-location-directives"></a>Exemple d'utilisation des instructions d'emplacement
 

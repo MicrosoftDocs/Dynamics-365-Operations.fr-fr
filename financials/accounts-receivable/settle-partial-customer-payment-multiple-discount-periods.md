@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: 9da48c7861f48ec2a154ac12616149d1208346cf
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 31c3354590935b40ecadd3a2fb380f4f103eb2b7
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -51,7 +52,7 @@ Arnie peut afficher cette transaction sur la page **Transactions client**.
 | FTI-10030 | Facture          | 6/25/2015 | 10030   | 1 000,00                             |                                       | 1 000,00 | USD      |
 
 ## <a name="partial-payment-before-the-cash-discount-date"></a>Paiement partiel avant la date de l'escompte de règlement
-Le 28 juin, le client 4031 fait un paiement partiel à hauteur de 294,00. Comme le 28 juin se situe durant la première période d'escompte de règlement, le client bénéficie d'une remise de 6,00. Sur la page **Régler les transactions**, la valeur du ** Montant de l'escompte de règlement** est 20,00 et la valeur du **Montant de l'escompte de règlement à accepter** est 6,00.
+Le 28 juin, le client 4031 fait un paiement partiel à hauteur de 294,00. Comme le 28 juin se situe durant la première période d'escompte de règlement, le client bénéficie d'une remise de 6,00. Sur la page **Régler les transactions**, la valeur du **Montant de l'escompte de règlement** est 20,00 et la valeur du **Montant de l'escompte de règlement à accepter** est 6,00.
 
 | Marquer     | Utiliser un escompte de règlement | N° document   | Compte | Date      | Date d'échéance  | Facture | Montant dans la devise de transaction | Devise | Montant à régler |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|

@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 8b13d734c22203618183b8855f99da8e51114f76
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 5c21260315a08ecb31ae180d2d905a8606de2e88
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -61,13 +62,13 @@ La version d'évaluation des coûts créée est dédiée à l'enregistrement de 
 Les informations de coût d'article dans la version d'évaluation des coûts dédiée peuvent uniquement être mises à jour à partir de la page **Conversions de coût standard**. Vous ne pouvez pas utiliser la page **Paramétrage de la version d'évaluation des coûts** ni celle de **Mise à jour de la version d'évaluation des coûts** pour calculer les coûts de la version d'évaluation des coûts lors de la conversion. Vous pouvez cependant utiliser ces pages pour mettre à jour la version d'évaluation des coûts dédiée une fois la conversion effectuée.
 
 ## <a name="3-identify-the-items-to-convert-to-standard-cost"></a>3. Identifiez les articles à convertir au coût standard
-Utilisez la page** Conversions de coût standard** pour identifier les articles individuels qui doivent être convertis au coût standard. Vous pouvez ajouter plusieurs articles à l'aide de la page **Ajouter des articles à la conversion de coût standard**. Il est généralement recommandé d'inclure tous les articles fabriqués dans un enregistrement de conversion unique afin de s'assurer que les coûts soient calculés correctement.
+Utilisez la page**Conversions de coût standard** pour identifier les articles individuels qui doivent être convertis au coût standard. Vous pouvez ajouter plusieurs articles à l'aide de la page **Ajouter des articles à la conversion de coût standard**. Il est généralement recommandé d'inclure tous les articles fabriqués dans un enregistrement de conversion unique afin de s'assurer que les coûts soient calculés correctement.
 
 ## <a name="4-enter-or-calculate-the-pending-standard-cost-for-each-item-that-is-being-converted"></a>4. Entrez ou calculez le coût standard en attente pour chaque article devant être converti
 Utilisez la page **Prix de l'article** pour entrer les coûts standard en attente dans la version d'évaluation des coûts dédiée pour les articles achetés et les articles en transfert. Les enregistrements de coût sont spécifiques au site, et les coûts en attente d'un article doivent être entrés pour tous les sites. Utilisez la page **Prix de l'article** pour calculer les coûts standard en attente pour les articles fabriqués. Les coûts en attente d'un article fabriqué doivent être calculés pour tous les sites de fabrication à moins que le site corresponde à un site de transfert. Dans ce cas, les coûts en attente doivent être entrés manuellement. Certains articles peuvent avoir des dimensions de produit relatives à la couleur, la taille ou la configuration. Dans la page **Conversions de coût standard**, la case à cocher **Utilisez le prix de revient par variante** indique le coût standard pour chaque combinaison des dimensions de produit. Lorsque cette case à cocher est désactivée, vous devez uniquement entrer un coût en attente pour l'article.
 
 ## <a name="5-check-and-resolve-any-issues-for-the-items-that-are-being-converted"></a>5. Vérifiez et résolvez les problèmes affectant les articles en cours de conversion
-Utilisez l'état** Contrôles de conversion des coûts standard** pour identifier les problèmes relatifs aux articles qui sont convertis. Lorsqu'un article ne présente aucun problème, son statut dans l'enregistrement de conversion bascule sur **Vérifié**. Lorsqu'un article présente des problèmes, vous devez les résoudre, puis exécuter de nouveau l'état jusqu'à ce que le statut de l'article devienne **Vérifié**. Lorsque vous ne parvenez pas à résoudre les problèmes d'un article en temps voulu, vous pouvez supprimer l'article de l'état de conversion puis le convertir ultérieurement.
+Utilisez l'état**Contrôles de conversion des coûts standard** pour identifier les problèmes relatifs aux articles qui sont convertis. Lorsqu'un article ne présente aucun problème, son statut dans l'enregistrement de conversion bascule sur **Vérifié**. Lorsqu'un article présente des problèmes, vous devez les résoudre, puis exécuter de nouveau l'état jusqu'à ce que le statut de l'article devienne **Vérifié**. Lorsque vous ne parvenez pas à résoudre les problèmes d'un article en temps voulu, vous pouvez supprimer l'article de l'état de conversion puis le convertir ultérieurement.
 
 ## <a name="6-change-the-status-of-the-conversion-record-to-ready"></a>6. Modifiez le statut de l'enregistrement de conversion sur Prêt
 Lorsque le statut de l'enregistrement de conversion est modifié sur **Prêt**, le système effectue un contrôle final avant l'exécution d'une conversion de coût standard. Le statut passe sur **Prêt** uniquement lorsque les conditions suivantes sont remplies :

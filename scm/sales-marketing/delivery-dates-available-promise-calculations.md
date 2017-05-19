@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 8aa0a58b03ee18e42ca7770ea3e22311c1ddba67
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 9aba61178d050f4881c96b7a7fa62937b98b2beb
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -37,8 +38,8 @@ La promesse de commande calcule les premières dates d'expédition et de récept
 
 -   **Délai de vente** – Le délai de vente est le temps entre la création de la commande client et l'expédition des articles. Le calcul de la date de livraison est basé sur un nombre de jours par défaut, et ne prend pas en compte pas la disponibilité du stock, la demande connue ni l'approvisionnement prévu.
 -   **DAV (disponible à la vente)** –Le DAV correspond à la quantité d'un article qui est disponible et peut être promise à un client à une date spécifique. Le calcul de DAV inclut le stock non engagé, les délais, les réceptions et les sorties prévues.
--   **DAV + Marge de sortie **– La date d'expédition correspond à la date DAV plus la marge de sortie de l'article. La marge de sortie est le temps nécessaire pour préparer les articles pour l'expédition.
--   **CTP (capable-to-promise) **– La disponibilité est calculée par le biais de l'éclatement.
+-   **DAV + Marge de sortie**– La date d'expédition correspond à la date DAV plus la marge de sortie de l'article. La marge de sortie est le temps nécessaire pour préparer les articles pour l'expédition.
+-   **CTP (capable-to-promise)** – La disponibilité est calculée par le biais de l'éclatement.
 
 ## <a name="atp-calculations"></a>Calculs DAV
 La quantité DAV est calculée en utilisant la méthode « DAV cumulatif avec anticipation ». Le principal avantage de cette méthode de calcul du DAV est qu'elle peut gérer les cas où la somme des sorties entre les réceptions est supérieure à la dernière réception (par exemple lorsqu'une quantité d'une réception précédente doit être utilisée pour respecter une exigence). La méthode de calcul « DAV cumulatif avec anticipation » inclut toutes les sorties jusqu'à ce que la quantité cumulative à recevoir dépasse la quantité cumulative à sortir. Par conséquent, la méthode de calcul DAV évalue si une partie de la quantité d'une période antérieure peut être utilisée pour une période ultérieure.  

@@ -19,10 +19,11 @@ ms.search.industry: Distribution
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: ec2907129e68f39e6e5f56f0617b7599598312d2
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: de1d8bc2fa1080e549cb8c33657ad0f373644d38
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -55,7 +56,7 @@ L'enregistrement des numéros de série pour tous les articles sur un bon de liv
 Vous pouvez créer des factures partielles et des bons de livraison partiels pour des commandes client, et n'enregistrer que les numéros de série pour les articles que ces factures et ces bons de livraison incluent. Si vous souhaitez créer une facture partielle et si vous avez plusieurs bons de livraison pour la commande client, vous pouvez inclure des numéros de série de plusieurs bons de livraison. Toutefois, il ne peut y avoir qu'un bon de livraison dans lequel tous les numéros de série ne sont pas inclus. Par exemple, si vous avez trois bons de livraison, et que chacun inclut deux articles fabriqués en série, vous ne pouvez pas créer une facture partielle pour un article de chaque bon de livraison.
 
 ## <a name="what-do-i-do-when-a-serial-number-isnt-readable"></a>Que faire si un numéro de série n'est pas lisible ?
-Si un numéro de série ne peut pas être lu ou scanné, vous pouvez créer une ligne vide pour l'article en cliquant sur la page **Non lisible **sur la page **Numéros de série **. Si le numéro de série devient disponible ultérieurement, vous pourrez mettre à jour la facture ou le bon de livraison. Pour plus d'informations, voir la section suivante, « Puis-je corriger ou modifier les numéros de série que j'ai enregistrés pour une commande client » ?
+Si un numéro de série ne peut pas être lu ou scanné, vous pouvez créer une ligne vide pour l'article en cliquant sur la page **Non lisible**sur la page **Numéros de série**. Si le numéro de série devient disponible ultérieurement, vous pourrez mettre à jour la facture ou le bon de livraison. Pour plus d'informations, voir la section suivante, « Puis-je corriger ou modifier les numéros de série que j'ai enregistrés pour une commande client » ?
 
 ## <a name="can-i-correct-or-change-the-serial-numbers-that-i-have-registered-for-a-sales-order"></a>Puis-je corriger ou modifier les numéros de série que j'ai enregistrés pour une commande client ?
 Oui, vous pouvez modifier les numéros de série si les conditions suivantes sont remplies :

@@ -3,7 +3,7 @@ title: "Fonctionnalités obsolètes"
 description: "Cette rubrique décrit les fonctions qui ont été supprimées, ou qu&quot;il est prévu de supprimer, de Dynamics 365 for Operations. Elle répertorie également les fonctions qui ont été supprimées dans les versions de Dynamics AX 7.0."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -15,16 +15,20 @@ ms.assetid: 31019808-4cbf-47d7-b1ba-d791db4281ae
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
-ms.dyn365.ops.version: Platform update 2
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: e9ba7239b9ff8b9b97c9dabc06fb2c68760d19d4
-ms.lasthandoff: 03/31/2017
+ms.dyn365.ops.version: Platform update 6
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 8fbfc8c91c836eb9922f2bf1165ec887d8a0bc8e
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="deprecated-features"></a>Fonctionnalités obsolètes
+
+[!include[banner](../includes/banner.md)]
+
 
 Cette rubrique décrit les fonctions qui ont été supprimées, ou qu'il est prévu de supprimer, de Dynamics 365 for Operations. Elle répertorie également les fonctions qui ont été supprimées dans les versions de Dynamics AX 7.0.
 
@@ -118,7 +122,7 @@ eGiro s'appuie sur la norme internationale EDIFACT CREMUL (Avis de crédit multi
 |                              |                                                                                           |
 |------------------------------|-------------------------------------------------------------------------------------------|
 | Motif de la suppression       | Le format de paiement n'est plus utilisé.                                                     |
-| Remplacé par une autre fonctionnalité ? | Non. Le format sera remplacé par les formats d'importation des relevés ISO 20022 dans les versions futures. |
+| Remplacé par une autre fonctionnalité ? | N° Le format sera remplacé par les formats d'importation des relevés ISO 20022 dans les versions futures. |
 | Modules concernés             | Module Comptabilité client                                                                       |
 
 ### <a name="external-inventory-for-poland"></a>Stock externe pour la Pologne
@@ -148,7 +152,7 @@ Vous pouvez sélectionner un format d'importation pour les paiements finlandais 
 |                              |                                                                                           |
 |------------------------------|-------------------------------------------------------------------------------------------|
 | Motif de la suppression       | Le format de paiement n'est plus utilisé.                                                     |
-| Remplacé par une autre fonctionnalité ? | Non. Le format sera remplacé par les formats d'importation des relevés ISO 20022 dans les versions futures. |
+| Remplacé par une autre fonctionnalité ? | N° Le format sera remplacé par les formats d'importation des relevés ISO 20022 dans les versions futures. |
 | Modules concernés             | Module Comptabilité client                                                                       |
 
 ### <a name="import-of-payment-transactions-into-a-general-ledger-journal-for-finland"></a>Importation des transactions de paiement dans un journal de comptabilité pour la Finlande
@@ -474,6 +478,16 @@ Les partitions de données fournissent une séparation logique des données dans
 | Remplacé par une autre fonctionnalité ? | Le nouveau client Web est basé sur les métadonnées de l'écran du bureau et le modèle de programmation qui a été modifié pour fournir une plateforme Web riche. |
 | Modules concernés             | Tout                                                                                                                                    |
 
+### <a name="direct-database-connection"></a>Connexion directe à la base de données
+
+Dans Dynamics AX 2012 R3, le terminal Retail Modern POS pouvait se connecter directement à la BDD des canaux de façon similaire au PDV de l'entreprise. Cela a été ajouté à la méthode standard de communication du terminal Retail Modern POS via le serveur de vente au détail.  
+
+|                              |                                                                                         |
+|------------------------------|-----------------------------------------------------------------------------------------|
+| Motif de la suppression       | La connexion directe à la base de données nécessitait un niveau de sécurité moindre au niveau des protocoles et a été utilisée principalement pour atteindre des niveaux de performances supérieurs. En raison des améliorations au niveau des performances et de la sécurité dans Dynamics 365 for Operations, cette fonctionnalité entraîne désormais plus de problèmes qu'elle n'en résout. |
+| Remplacé par une autre fonctionnalité ? | N° Seule la communication standard via le serveur de vente au détail est désormais prise en charge.    |
+| Modules concernés             | BDD des canaux/Terminal Retail Modern POS                                    |
+
 ### <a name="dutch-swift-mt940"></a>SWIFT MT940 néerlandais
 
 |                              |                                                                                                                                                                                                                                       |
@@ -661,8 +675,18 @@ Cette fonctionnalité permet de remplacer le nom de l'une des trois dimensions d
 |                              |                                                                               |
 |------------------------------|-------------------------------------------------------------------------------|
 | Motif de la suppression       | La version actuelle de Dynamics AX ne prend pas en charge le changement de nom au moment de l'exécution. |
-| Remplacé par une autre fonctionnalité ? | Non                                                                            |
+| Remplacé par une autre fonctionnalité ? | N°                                                                            |
 | Modules concernés             | Gestion des informations sur les produits                                                |
+
+### <a name="retail-server-connectivity-using-http"></a>Connectivité du serveur de vente au détail avec HTTP
+
+Dans Dynamics AX 2012 R3, le serveur de vente au détail pouvait fonctionner via une communication HTTP (non sécurisée). Cela a été ajouté à la communication standard via HTTPS.
+
+|                              |                                                                               |
+|------------------------------|-------------------------------------------------------------------------------|
+| Motif de la suppression       | En raison de nouvelles exigences de sécurité, seule la communication sécurisée via TLS 1.2 (ou version ultérieure, si disponible) est maintenant prise en charge. Le programme d'installation en libre-service configurera automatiquement l'ordinateur pour la communication. |
+| Remplacé par une autre fonctionnalité ? | N° Seule la communication standard HTTPS est désormais prise en charge.                                                                           |
+| Modules concernés             | Serveur de vente au détail                                                |
 
 ### <a name="role-center-pages"></a>Pages d'Aperçu interactif
 
@@ -784,6 +808,8 @@ Informations sur les salaires dans Ressources humaines
 | Motif de la suppression       | Cette fonctionnalité a été remplacée par une autre.                                    |
 | Remplacé par une autre fonctionnalité ? | Management Reporter (appelé **États financiers** dans la version actuelle de Dynamics AX) |
 | Modules concernés             | Comptabilité                                                                              |
+
+
 
 
 

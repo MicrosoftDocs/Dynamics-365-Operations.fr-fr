@@ -18,25 +18,29 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: b33cbf67c00b6baea4393e82d19300085781af29
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e60994f5c4fa38fc2be17b4021e2def904c87b7f
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="install-the-retail-pos-layout-designer"></a>Installez le concepteur de mise en page de Retail POS
 
+[!include[banner](includes/banner.md)]
+
+
 Vous pouvez utiliser le concepteur en un seul clic pour concevoir différentes mises en page Retail Modern POS (MPOS) et PDV Cloud, en mode paysage ou en mode portrait, pour les magasins, les caisses enregistreuses, les caissiers, et les responsables.
 
 Le l'interface de conception graphique de MPOS ou PDV Cloud est contrôlée par la disposition du tiroir-caisse. Une mise en page contrôle la disposition de divers objets. Par exemple, la mise en page du total, la mise en page du groupe d'articles, la mise en page du client, la mise en page des paiements et la mise en page de plusieurs boutons de menu. Les mises en page incluent également l'apparence globale de l'interface de vente présentée aux travailleurs.
 
-## <a name="install-the-oneclick-designer"></a>Installer le concepteur en un seul clic
+## <a name="install-the-one-click-designer"></a>Installer le concepteur en un seul clic
 1.  Dans Microsoft Dynamics 365 for Operations, utilisez le menu dans le volet supérieur gauche pour accéder à **Commerce et** **vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage** &gt; **PDV** &gt; **Mises en page de l'écran**.
 2.  Sélectionnez n'importe quelle mise en page ayant un type d'application **Modern POS pour Windows** ou **PDV Cloud**, puis cliquez **Concepteur de mise en page**.
 3.  Dans la barre de Notification qui apparaît au bas de la fenêtre d'Internet Explorer, cliquez sur **Ouvrir** pour installer le concepteur en un seul clic. (La barre de notification peut apparaître dans un emplacement différent dans d'autres navigateurs.)
-4.  Dans la zone de message **Exécution d'application - Avertissement de sécurité** qui s'affiche, cliquez sur **Exécuter **pour installer l'hôte du concepteur Retail. Un indicateur de progression indique la progression de l'installation.
+4.  Dans la zone de message **Exécution d'application - Avertissement de sécurité** qui s'affiche, cliquez sur **Exécuter**pour installer l'hôte du concepteur Retail. Un indicateur de progression indique la progression de l'installation.
 5.  Une fois l'installation terminée, sur la page **Connexion**, entrez votre nom d'utilisateur et votre mot de passe Microsoft Dynamics 365 for Operations, puis cliquez sur **Connexion** pour démarrer le concepteur.
 6.  Une fois que vos informations d'identification sont validées et que le concepteur démarre, vous pouvez concevoir votre propre mise en page ou modifier la mise en page existante. [![Mise en page dans le concepteur en un seul clic](./media/screenlayoutdesign_mposdownload-1024x664.png)](./media/screenlayoutdesign_mposdownload.png)
 
@@ -52,5 +56,7 @@ Le l'interface de conception graphique de MPOS ou PDV Cloud est contrôlée par 
 --------
 
 [Configurer, télécharger, installer, et activer Retail Modern POS](retail-modern-pos-device-activation.md)
+
+
 
 

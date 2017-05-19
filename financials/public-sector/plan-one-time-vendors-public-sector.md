@@ -18,10 +18,11 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: a76abfa35e53673f9780d1a6f8816bd24f9f8e48
-ms.openlocfilehash: ddf990bb29dde89c267b4aed169948d7a7925433
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 3c36a6e57f9ac958591dedf11717d93a885c0930
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -66,7 +67,7 @@ Le tableau suivant répertorie les champs que le fichier d'importation doit cont
 
 
 
-**Section de facture **
+**Section de facture**
 
 | Champ                                                | Détails                                           |
 |------------------------------------------------------|---------------------------------------------------|

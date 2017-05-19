@@ -3,7 +3,7 @@ title: "Analyse du coût de l&quot;ordre de fabrication"
 description: "Cet article fournit des informations sur l&quot;analyse des coûts que vous pouvez effectuer pour les ordres de fabrication terminés et en cours. Analysez les coûts estimés et réels à l&quot;aide de la page Calcul des prix ou les estimations des coûts ou de l&quot;état Estimations et évaluations des coûts. Vous pouvez afficher les informations relatives aux coûts estimés et réels (et à la quantité) pour chaque composant, opération de gamme et coût indirect."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-04-11 13 - 25 - 42
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: f931432f6dc919d448ed690a1deae3d64bebe455
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: acb8e49ed86d3e22ba8e343280f77c0644f057c6
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="production-order-cost-analysis"></a>Analyse du coût de l'ordre de fabrication
+
+[!include[banner](../includes/banner.md)]
+
 
 Cet article fournit des informations sur l'analyse des coûts que vous pouvez effectuer pour les ordres de fabrication terminés et en cours. Analysez les coûts estimés et réels à l'aide de la page Calcul des prix ou les estimations des coûts ou de l'état Estimations et évaluations des coûts. Vous pouvez afficher les informations relatives aux coûts estimés et réels (et à la quantité) pour chaque composant, opération de gamme et coût indirect.
 
@@ -40,21 +44,27 @@ Les écarts reflètent une comparaison des activités de production déclarées 
 -   Écart de prix de production
 -   Écart de substitution de production
 
-Le diagramme suivant présente les quatre écarts pris en compte pour la différence entre les coûts réels d'un ordre de fabrication et les coûts calculés dans l'enregistrement des coûts de l'article lorsque l'ordre de fabrication est terminé. ![Écarts à l'origine de différences dans un ordre de fabrication terminé](./media/control.jpg) Analysez les écarts de production à l'aide de la page **Écart** ou de l'état **Écart de production**. Les options d'affichage permettent de visualiser les écarts détaillés par article et ressource opérationnelle, ou par groupe de coûts. La stratégie d'analyse des coûts figurant dans les paramètres de stock détermine si les écarts sont suivis par groupe de coûts. Vous pouvez également utiliser les options d'affichage **simple**, **multi** et **total** pour voir les écarts résumés. Les informations d'écart détaillées vous permettent de comprendre la source de chaque écart. Afin d'anticiper les écarts avant la fin d'un ordre de fabrication, analysez les informations détaillées fournies dans l'état **Estimations et évaluations des coûts**.
+Le diagramme suivant présente les quatre écarts pris en compte pour la différence entre les coûts réels d'un ordre de fabrication et les coûts calculés dans l'enregistrement des coûts de l'article lorsque l'ordre de fabrication est terminé. 
+
+![Écarts qui expliquent les différences dans un ordre de fabrication terminé](./media/control.jpg) 
+
+Vous pouvez analyser les écarts de production à l'aide de la page **Écart** ou de l'état **Écart de production**. Les options d'affichage permettent de visualiser les écarts détaillés par article et ressource opérationnelle, ou par groupe de coûts. La stratégie d'analyse des coûts figurant dans les paramètres de stock détermine si les écarts sont suivis par groupe de coûts. Vous pouvez également utiliser les options d'affichage **simple**, **multi** et **total** pour voir les écarts résumés. Les informations d'écart détaillées vous permettent de comprendre la source de chaque écart. Afin d'anticiper les écarts avant la fin d'un ordre de fabrication, analysez les informations détaillées fournies dans l'état **Estimations et évaluations des coûts**.
 
 ## <a name="cost-analysis-for-current-production-orders"></a>Analyse des coûts pour les ordres de fabrication en cours
-Des états séparés présentent des informations sur chaque type de transaction. Ces états permettent d'analyser les coûts des activités de production déclarées. Les informations s'affichent uniquement pour les ordres de fabrication en cours ayant le statut **Commencé** ou** Déclaré terminé**.
+Des états séparés présentent des informations sur chaque type de transaction. Ces états permettent d'analyser les coûts des activités de production déclarées. Les informations s'affichent uniquement pour les ordres de fabrication en cours ayant le statut **Commencé** ou**Déclaré terminé**.
 
--   **Matières en cours **− Cet état répertorie les transactions de prélèvements déclarées pour les ordres de fabrication en cours à partir d'une date de transaction spécifiée. L'état indique la quantité d'un composant qui a été sortie et le montant des coûts pour chaque transaction. Utilisez les critères de sélection pour un composant unique. Vous pouvez par exemple imprimer les informations relatives à la quantité émise du composant pour les ordres de fabrication applicables. La quantité émise n'est pas mise à jour par les quantités déclarées comme terminées pour l'article parent. Par conséquent, la quantité réelle de matières premières en cours peut être exagérée.
--   **Travail en cours **− Cet état répertorie les transactions de gamme (ou tâches déclarées) qui sont déclarées pour les ordres de fabrication en cours à partir d'une date de transaction spécifiée. L'état indique les heures, le montant et la quantité (la quantité correcte et la quantité erronée) qui sont déclarés pour chaque transaction. Il inclut également des informations telles que le numéro d'opération, l'ID opération et la ressource opérationnelle. En outre, cet état affiche les temps et les montant totaux pour toutes les transactions pour un ordre de fabrication ainsi que la quantité déclarée comme terminée.
--   **Coûts indirects en cours **− Cet état répertorie les coûts indirects encourus pour les ordres de fabrication. Ces données sont fondées sur la consommation déclarée d'opérations de gamme et de composants à partir d'une date de transaction spécifiée. L'état indique le type de coût indirect (surcharge ou taux), le code feuille de coûts pour les coûts indirects et le montant des coûts pour chaque transaction. Cet état ne fournit aucune information concernant la fiche production, ni la transaction de prélèvement qui a généré des coûts indirects.
--   **Évaluation de la production en cours **− Cet état répertorie la consommation combinée des matières, des opérations d'acheminement et les coûts indirects pour les ordres de fabrication à partir d'une date de transaction spécifiée.
--   **Articles finis en cours **− Cet état répertorie les ordres de fabrication en cours et les transactions déclarées terminées à partir d'une date de transaction spécifiée.
+-   **Matières en cours**− Cet état répertorie les transactions de prélèvements déclarées pour les ordres de fabrication en cours à partir d'une date de transaction spécifiée. L'état indique la quantité d'un composant qui a été sortie et le montant des coûts pour chaque transaction. Utilisez les critères de sélection pour un composant unique. Vous pouvez par exemple imprimer les informations relatives à la quantité émise du composant pour les ordres de fabrication applicables. La quantité émise n'est pas mise à jour par les quantités déclarées comme terminées pour l'article parent. Par conséquent, la quantité réelle de matières premières en cours peut être exagérée.
+-   **Travail en cours**− Cet état répertorie les transactions de gamme (ou tâches déclarées) qui sont déclarées pour les ordres de fabrication en cours à partir d'une date de transaction spécifiée. L'état indique les heures, le montant et la quantité (la quantité correcte et la quantité erronée) qui sont déclarés pour chaque transaction. Il inclut également des informations telles que le numéro d'opération, l'ID opération et la ressource opérationnelle. En outre, cet état affiche les temps et les montant totaux pour toutes les transactions pour un ordre de fabrication ainsi que la quantité déclarée comme terminée.
+-   **Coûts indirects en cours**− Cet état répertorie les coûts indirects encourus pour les ordres de fabrication. Ces données sont fondées sur la consommation déclarée d'opérations de gamme et de composants à partir d'une date de transaction spécifiée. L'état indique le type de coût indirect (surcharge ou taux), le code feuille de coûts pour les coûts indirects et le montant des coûts pour chaque transaction. Cet état ne fournit aucune information concernant la fiche production, ni la transaction de prélèvement qui a généré des coûts indirects.
+-   **Évaluation de la production en cours**− Cet état répertorie la consommation combinée des matières, des opérations d'acheminement et les coûts indirects pour les ordres de fabrication à partir d'une date de transaction spécifiée.
+-   **Articles finis en cours**− Cet état répertorie les ordres de fabrication en cours et les transactions déclarées terminées à partir d'une date de transaction spécifiée.
 
 
 <a name="see-also"></a>Voir également :
 --------
 
 [Sources courantes des écarts de production](common-sources-of-production-variances.md)
+
+
 
 

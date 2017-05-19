@@ -3,7 +3,7 @@ title: Vue d&quot;ensemble des virements SEPA
 description: "Cet article fournit des informations générales sur les virements ISO 20022, notamment les virements SEPA (Single Euro Payments Area) et tous les autres moyens de paiement électronique des fournisseurs. Le virement SEPA est un type particulier de paiement en euros d&quot;une société ou d&quot;une personne à une société ou une autre personne. Cette rubrique explique également comment paramétrer et transmettre un fichier de paiement par virement."
 author: twheeloc
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 848df5e3898f37284d7746c59bff8b38d35ac883
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: f7adaf2f3a14d2c0e094314f0b36b5d4bdb0a65c
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="sepa-credit-transfer-overview"></a>Vue d'ensemble des virements SEPA
+
+[!include[banner](../includes/banner.md)]
+
 
 Cet article fournit des informations générales sur les virements ISO 20022, notamment les virements SEPA (Single Euro Payments Area) et tous les autres moyens de paiement électronique des fournisseurs. Le virement SEPA est un type particulier de paiement en euros d'une société ou d'une personne à une société ou une autre personne. Cette rubrique explique également comment paramétrer et transmettre un fichier de paiement par virement.
 
@@ -55,7 +59,7 @@ Le format de virement pour les pays européens est implémenté à l'aide de la 
 Vous devez toujours aller dans la bibliothèque d'actifs partagés de Microsoft Dynamics Lifecycle Services (LCS) et afficher la liste la plus récente des fichiers disponibles dont le type d'actif est **Configuration GER**. La section suivante, « Que je dois paramétrer ? », fournit un lien vers une rubrique qui explique comment créer un référentiel LCS pour examiner les configurations disponibles et importer les configurations sélectionnées.
 
 ## <a name="what-do-i-have-to-set-up"></a>Que dois-je paramétrer ?
--   Avant de créer des de virement, vous devez importer au moins une configuration de virement active dans vos configurations ER. Pour plus d'instructions, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
+-   Avant de créer des de virement, vous devez importer au moins une configuration de virement active dans vos configurations ER. Pour plus d'instructions, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
 -   Quand vous configurez les modes de paiement de la comptabilité fournisseur, cochez la case **États électroniques génériques** et sélectionnez le format de virement approprié (par exemple, **Virement ISO 20022 (AT)**) comme configuration de format d'exportation.
 -   Vous devez également paramétrer l'entité juridique et les informations de compte bancaire dans Dynamics 365 for Operations.
 -   Les numéros de compte bancaire, IBAN, est parfois les codes SWIFT (BIC) ou d'autres identifiants sont nécessaires pour créer des paiements valides par virement. Par conséquent, vous devez les paramétrer pour le compte bancaire fournisseur et le compte bancaire de l'organisation qui demande le virement.
@@ -121,5 +125,7 @@ Le numéro de compte bancaire international (IBAN) et le code identificateur de 
 
 ## <a name="how-do-i-transmit-a-payment-file-to-the-bank"></a>Comment puis-je communiquer un fichier de paiement à la banque ?
 Lorsque vous générez des paiements, le fichier de paiement est généré, et vous êtes invité à l'enregistrer de votre navigateur Web dans n'importe quel emplacement disponible. L'étape suivante consiste à envoyer le fichier XML à votre banque. Ce processus varie d'une banque à l'autre. Suivez les instructions de votre banque pour envoyer les fichiers à la banque aux fins de traitement.
+
+
 
 

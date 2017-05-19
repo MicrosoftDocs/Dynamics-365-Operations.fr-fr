@@ -18,10 +18,11 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: b3e8174d07c9b9fd4210486c369c640fe07c49eb
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: abe9212372fb7429d68c1fb6b32ec1d15c20a6d7
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -47,7 +48,7 @@ Le moteur d'états électroniques est doté des fonctionnalités suivantes :
 ## <a name="concepts"></a>Concepts
 ### <a name="components"></a>Composants
 
-Les états électroniques prennent en charge deux types de composants : **Modèle de données **et **Format**.
+Les états électroniques prennent en charge deux types de composants : **Modèle de données**et **Format**.
 
 #### <a name="data-model-components"></a>Composants de modèle de données
 
@@ -104,7 +105,7 @@ Les versions dotées du statut** TERMINÉE** ou **PARTAGÉE** sont disponibles p
 
 #### <a name="component-date-effectivity"></a>Validité de date du composant
 
-Les versions du composant d'état électronique est soumis à une date d'effet. La date** Prend effet le **peut être défini pour un composant d'état électronique afin de spécifier la date à partir de laquelle ce composant devient valide pour les processus de génération d'états. La date de session de Microsoft Dynamics 365 for Operations permet de définir si un composant est valide pour l'exécution. Lorsque plusieurs versions sont valides pour une date spécifique, la version la plus récente est utilisée pour le processus de génération d'états.
+Les versions du composant d'état électronique est soumis à une date d'effet. La date**Prend effet le**peut être défini pour un composant d'état électronique afin de spécifier la date à partir de laquelle ce composant devient valide pour les processus de génération d'états. La date de session de Microsoft Dynamics 365 for Operations permet de définir si un composant est valide pour l'exécution. Lorsque plusieurs versions sont valides pour une date spécifique, la version la plus récente est utilisée pour le processus de génération d'états.
 
 #### <a name="component-access"></a>Accès au composant
 
@@ -112,7 +113,7 @@ L'accès aux composants de format d'états électroniques dépend du paramètre 
 
 #### <a name="configuration"></a>Configuration
 
-Une configuration d'état électronique est le wrapper d'un composant d'état électronique spécifique : **Modèle de données **ou **Format**. Une configuration peut inclure différentes versions d'un composant d'état électronique particulier. Chaque configuration est marquée comme possédée par un fournisseur de configuration spécifique. La version **BROUILLON** d'un composant d'une configuration peut être modifiée lorsque le propriétaire d'une configuration a été sélectionné comme fournisseur actif dans les paramètres d'états électroniques de Dynamics 365 for Operations. Chaque configuration de modèle contient un composant **Modèle de données**. Une nouvelle configuration de format peut être émise (dérivée) d'une configuration de modèle de données spécifique. La configuration de format créée s’affiche dans l’arborescence de configuration en tant qu’enfant de la configuration de modèle de données d’origine. La configuration de format qui est créée contient un composant **Format**. Le composant **Modèle de données** de cette configuration de modèle d'origine est automatiquement inséré dans le composant **Format** de la configuration de format enfant comme source de données par défaut. Une configuration d'état électronique est partagée pour les sociétés de Dynamics 365 for Operations.
+Une configuration d'état électronique est le wrapper d'un composant d'état électronique spécifique : **Modèle de données**ou **Format**. Une configuration peut inclure différentes versions d'un composant d'état électronique particulier. Chaque configuration est marquée comme possédée par un fournisseur de configuration spécifique. La version **BROUILLON** d'un composant d'une configuration peut être modifiée lorsque le propriétaire d'une configuration a été sélectionné comme fournisseur actif dans les paramètres d'états électroniques de Dynamics 365 for Operations. Chaque configuration de modèle contient un composant **Modèle de données**. Une nouvelle configuration de format peut être émise (dérivée) d'une configuration de modèle de données spécifique. La configuration de format créée s’affiche dans l’arborescence de configuration en tant qu’enfant de la configuration de modèle de données d’origine. La configuration de format qui est créée contient un composant **Format**. Le composant **Modèle de données** de cette configuration de modèle d'origine est automatiquement inséré dans le composant **Format** de la configuration de format enfant comme source de données par défaut. Une configuration d'état électronique est partagée pour les sociétés de Dynamics 365 for Operations.
 
 #### <a name="provider"></a>Fournisseur
 
@@ -154,7 +155,7 @@ Le concepteur de format ER peut être utilisé pour générer un document élect
 
 ### <a name="storing-a-designed-format-component-in-a-format-configuration"></a>Stockage d'un composant de format conçu dans une configuration de format
 
-ER peut stocker un format conçu avec des mises en correspondance de données configurées en tant que configuration de format de l'instance actuelle Dynamics 365 for Operations. L’illustration ci-dessus montre un exemple de ce type de configuration de format (**BACS (Royaume-Uni)**, qui est un enfant de la configuration **Modèle de paiement **). Pour vous familiariser avec ce scénario en détails, visionnez le guide de tâche **ER Concevoir un format spécifique au domaine** (qui fait partie du processus d'entreprise **7.5.4.3 Acquérir/Développer des composants de services/solutions informatiques (10677)** .
+ER peut stocker un format conçu avec des mises en correspondance de données configurées en tant que configuration de format de l'instance actuelle Dynamics 365 for Operations. L’illustration ci-dessus montre un exemple de ce type de configuration de format (**BACS (Royaume-Uni)**, qui est un enfant de la configuration **Modèle de paiement**). Pour vous familiariser avec ce scénario en détails, visionnez le guide de tâche **ER Concevoir un format spécifique au domaine** (qui fait partie du processus d'entreprise **7.5.4.3 Acquérir/Développer des composants de services/solutions informatiques (10677)** .
 
 ### <a name="configuring-dynamics-365-for-operations-to-start-to-use-a-created-format-internally"></a>Configuration de Microsoft Dynamics 365 for Operations pour utiliser le format créé en interne
 
@@ -169,11 +170,11 @@ Pour vous familiariser avec ce scénario en détails, visionnez le guide de tâc
 ## <a name="handling-er-components"></a>Gestion des composants ER
 ### <a name="publishing-an-er-component-in-lcs-to-offer-it-externally-localization"></a>Publication d'un composant ER dans LCS pour l'offrir en externe (localisation)
 
-Le propriétaire d'un composant (modèle ou format) qui a été créé peut utiliser ER pour publier la version terminée du composant vers LCS. Un référentiel de type **Projet LCS **pour le fournisseur de configuration ER actuel est requis. Lorsque le statut de la version terminée d'un composant est modifié pour passer de **TERMINÉE** à **PARTAGÉE**, cette version est publiée dans LCS. Lorsqu'un composant a été publié vers LCS, le propriétaire de ce composant devient un fournisseur du service permettant de prendre en charge ce composant. Par exemple, si le composant de format est conçu pour générer un document électronique légalement requis (par exemple, conformément au scénario de localisation), ce service suppose que ce format reste conforme aux modifications législatives et le fournisseur émet de nouvelles versions du composant dès que de nouvelles exigences législatives doivent être prises en charge. Pour vous familiariser avec ce scénario en détails, visionnez le guide de tâche **ER Charger une configuration dans Lifecycle Services **(qui fait partie du processus d'entreprise **7.5.4.3 Acquérir/Développer des composants de services/solutions informatiques (10677)**).
+Le propriétaire d'un composant (modèle ou format) qui a été créé peut utiliser ER pour publier la version terminée du composant vers LCS. Un référentiel de type **Projet LCS**pour le fournisseur de configuration ER actuel est requis. Lorsque le statut de la version terminée d'un composant est modifié pour passer de **TERMINÉE** à **PARTAGÉE**, cette version est publiée dans LCS. Lorsqu'un composant a été publié vers LCS, le propriétaire de ce composant devient un fournisseur du service permettant de prendre en charge ce composant. Par exemple, si le composant de format est conçu pour générer un document électronique légalement requis (par exemple, conformément au scénario de localisation), ce service suppose que ce format reste conforme aux modifications législatives et le fournisseur émet de nouvelles versions du composant dès que de nouvelles exigences législatives doivent être prises en charge. Pour vous familiariser avec ce scénario en détails, visionnez le guide de tâche **ER Charger une configuration dans Lifecycle Services**(qui fait partie du processus d'entreprise **7.5.4.3 Acquérir/Développer des composants de services/solutions informatiques (10677)**).
 
 ### <a name="importing-an-er-component-from-lcs-to-use-it-internally"></a>Importation du composant ER depuis LCS pour l'utiliser en interne
 
-ER vous permet d’importer des composants ER à partir de LCS vers l’instance actuelle de Dynamics 365 for Operations. Un référentiel de type **Projet LCS **est requis. Lorsqu'un composant ER a été importé de LCS vers l'instance actuelle Dynamics 365 for Operations, le propriétaire de l'instance Dynamics AX devient un consommateur du service fourni par le propriétaire (auteur) du composant importé. Par exemple, si un composant de format est conçu pour générer à partir de Dynamics 365 for Operations un document électronique donné dans un format spécifique à un pays/région particulier (scénario de localisation), cette consommation de service suppose la possibilité d'obtenir les mises à jour de ce format afin qu'il demeure conforme aux exigences législatives. Pour vous familiariser avec ce scénario en détails, visionnez le guide de tâche **ER Charger une configuration à partir de Lifecycle Services** (qui fait partie du processus d'entreprise **7.5.4.3 Acquérir/Développer des composants de services/solutions informatiques (10677)**).
+ER vous permet d’importer des composants ER à partir de LCS vers l’instance actuelle de Dynamics 365 for Operations. Un référentiel de type **Projet LCS**est requis. Lorsqu'un composant ER a été importé de LCS vers l'instance actuelle Dynamics 365 for Operations, le propriétaire de l'instance Dynamics AX devient un consommateur du service fourni par le propriétaire (auteur) du composant importé. Par exemple, si un composant de format est conçu pour générer à partir de Dynamics 365 for Operations un document électronique donné dans un format spécifique à un pays/région particulier (scénario de localisation), cette consommation de service suppose la possibilité d'obtenir les mises à jour de ce format afin qu'il demeure conforme aux exigences législatives. Pour vous familiariser avec ce scénario en détails, visionnez le guide de tâche **ER Charger une configuration à partir de Lifecycle Services** (qui fait partie du processus d'entreprise **7.5.4.3 Acquérir/Développer des composants de services/solutions informatiques (10677)**).
 
 ### <a name="building-a-format-selecting-another-format-as-a-base-customization"></a>Élaboration d'un format en sélectionnant un autre format en tant que base (personnalisation)
 

@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 2f14e9227ef56f428d18999aa7b52254580cdfa4
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: d37531eb746324c6ddb9ca363f2bde1dfd84a197
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -55,7 +56,7 @@ Une fois le modèle créé, vous devez affecter le modèle aux clients à factur
 Un client peut avoir plusieurs modèles qui ont différentes fréquences.
 
 ## <a name="generate-the-recurring-invoices"></a>Générer les factures répétitives
-Dans la page **Factures récurrentes **, il existe une tâche qui traite les modèles de factures récurrentes. Vous spécifiez la date de facture et le modèle à partir duquel générer les factures. Les factures sont générées et un même numéro d'identification de récurrence est affecté pour chaque groupe de factures traité.
+Dans la page **Factures récurrentes**, il existe une tâche qui traite les modèles de factures récurrentes. Vous spécifiez la date de facture et le modèle à partir duquel générer les factures. Les factures sont générées et un même numéro d'identification de récurrence est affecté pour chaque groupe de factures traité.
 Validation de factures financières récurrentes
 ---------------------------------
 

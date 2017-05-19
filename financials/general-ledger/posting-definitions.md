@@ -3,7 +3,7 @@ title: "Définitions de validation"
 description: "Cet article fournit des informations sur les définitions de validation, et comment les définir et les lier. Pour les types et les documents de validation pris en charge, vous pouvez utiliser des définitions de validation au lieu de profils de validation pour classer les comptes principaux et les dimensions financières dans les écritures comptables."
 author: twheeloc
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,26 +18,30 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9f4d7fdd8cfa7a540fce219f6ae4792e57dfbe44
-ms.openlocfilehash: 357ae498e84ef27e46142c7dcc0f90ecb0ee9f1c
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: aea0a5c078e4fb3a47cce3a7b427b56bf7a9bcf5
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="posting-definitions"></a>Définitions de validation
 
+[!include[banner](../includes/banner.md)]
+
+
 Cet article fournit des informations sur les définitions de validation, et comment les définir et les lier. Pour les types et les documents de validation pris en charge, vous pouvez utiliser des définitions de validation au lieu de profils de validation pour classer les comptes principaux et les dimensions financières dans les écritures comptables.
 
 Pour les types et les documents de validation pris en charge, vous pouvez utiliser des définitions de validation au lieu de profils de validation pour classer les comptes principaux et les dimensions financières dans les écritures comptables. Vous pouvez afficher les documents et les types de validation pris en charge dans la page **Définitions de validation de transaction**. 
 
-Pour commencer à utiliser les définitions de validation, sélectionnez l'option ** Utiliser les définitions de validation** dans la page **Paramètres de comptabilité**. Même si vous utilisez les définitions de validation, vous devez toujours définir les profils de validation des entrées d'origine et des types et documents de validation non pris en charge. 
+Pour commencer à utiliser les définitions de validation, sélectionnez l'option **Utiliser les définitions de validation** dans la page **Paramètres de comptabilité**. Même si vous utilisez les définitions de validation, vous devez toujours définir les profils de validation des entrées d'origine et des types et documents de validation non pris en charge. 
 
 Vous devez utiliser les définitions de validation pour activer la comptabilité d'engagement pour les commandes fournisseur et de la comptabilité d'engagement préalable pour les demandes d'achat.
 
 ## <a name="defining-posting-definitions"></a>Définir les définitions de validation
-Utilisez la page** Définitions de validation** pour spécifier les critères de correspondance et définir les entrées qui doivent être générées lorsqu'une correspondance se produit. Les critères de correspondance sont évalués pour les entrées d'origine comme répartitions comptables. 
+Utilisez la page**Définitions de validation** pour spécifier les critères de correspondance et définir les entrées qui doivent être générées lorsqu'une correspondance se produit. Les critères de correspondance sont évalués pour les entrées d'origine comme répartitions comptables. 
 
 Dans la page **Définitions de validation**, vous pouvez aussi affecter des ordres de priorité aux lignes de saisie pour contrôler l'ordre dans lequel celles-ci sont évaluées. Les lignes ayant le plus petit numéro de priorité sont évaluées en premier. Par exemple, les lignes qui ont la priorité 1 sont évaluées, puis les lignes qui ont la priorité 2, etc. Lorsqu'une correspondance est trouvée, les autres critères de correspondance sont ignorés. En outre, seuls les critères du groupe qui correspondent à la transaction d'origine créent les entrées générées. 
 
@@ -59,5 +63,7 @@ Les restrictions suivantes s'appliquent lorsque vous créez des liens dans les d
 -   Vous pouvez affecter une définition de validation à n'importe quel type de transaction, mais ce dernier doit appartenir au même module que la définition de validation. Utilisez la page **Définitions de validation de transaction** pour afficher dans quel module se trouve un type de transaction.
 
 
-Pour plus d'informations, voir [Exemples de définitions de validation](/general-ledger/example-posting-definitions.md). 
+Pour plus d'informations, voir [Exemples de définitions de validation](example-posting-definitions.md). 
+
+
 

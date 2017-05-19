@@ -3,7 +3,7 @@ title: "Installation et configuration de Microsoft Dynamics 365 for Operations 
 description: "Cette rubrique décrit la procédure d&quot;installation et de configuration de Microsoft Dynamics 365 for Operations - Entreposage."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 231c087ddc976aa552fc9cd6c89188f82a0247d1
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: bbf6df8d43889e7a62bfe28921997c45c8b4c632
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="install-and-configure-microsoft-dynamics-365-for-operations-8211-warehousing"></a>Installation et configuration de Microsoft Dynamics 365 for Operations &#8211; Entreposage
+
+[!include[banner](../includes/banner.md)]
+
 
 Cette rubrique décrit la procédure d'installation et de configuration de Microsoft Dynamics 365 for Operations - Entreposage.
 
@@ -67,7 +71,7 @@ Pour permettre à l'application d'interagir avec un serveur Dynamics 365 for Op
 ## <a name="create-and-configure-a-user-account-in-dynamics-365-for-operations"></a>Créer et configurer un compte d'utilisateur dans Dynamics 365 for Operations
 Pour permettre à Dynamics 365 for Operations d'utiliser votre application Azure AD, vous devez effectuer les étapes de configuration suivantes :
 
-1.  Créez un nouveau compte d'utilisateur dans Azure Active Directory pour le locataire Dynamics 365 for Operations. L'objectif de ce compte utilisateur est d'accéder au service personnalisé spécifique de l'application Entreposage, que le serveur Dynamics 365 for Operations expose. Après avoir accompli cette étape, vous avez les informations d'identification de l'utilisateur WMDP, qui se composent d'une adresse e-mail WMDP et d'un mot de passe WMDP. Pour connaître les étapes de base permettant d'ajouter des utilisateurs à Azure AD et Dynamics 365 for Operations, reportez-vous à ce didacticiel : [Inscription à Microsoft Dynamics 365 for Operations](/dynamics365/operations/dev-itpro/sign-up-preview-subscription).
+1.  Créez un nouveau compte d'utilisateur dans Azure Active Directory pour le locataire Dynamics 365 for Operations. L'objectif de ce compte utilisateur est d'accéder au service personnalisé spécifique de l'application Entreposage, que le serveur Dynamics 365 for Operations expose. Après avoir accompli cette étape, vous avez les informations d'identification de l'utilisateur WMDP, qui se composent d'une adresse e-mail WMDP et d'un mot de passe WMDP. Pour connaître les étapes de base permettant d'ajouter des utilisateurs à Azure AD et Dynamics 365 for Operations, reportez-vous à ce didacticiel : [Inscription à Microsoft Dynamics 365 for Operations](/dynamics365/operations/dev-itpro/dev-tools/sign-up-preview-subscription).
 2.  Créez un utilisateur Dynamics 365 for Operations qui correspond aux informations d'identification de l'utilisateur de l'application Entreposage.
     1.  Dans Dynamics 365 for Operations, accédez à **Administration du système** &gt; **Commun** &gt; **Utilisateurs**.
     2.  Créez un nouvel utilisateur.
@@ -98,6 +102,8 @@ En cas de périphérique perdu ou compromis, vous devez supprimer l'accès Dynam
 6.  Cliquez sur l'onglet **Configurer**, faites défiler l'écran et assurez-vous que l'**ID client** de l'application est identique à celle de l'étape 2 dans cette section.
 7.  Cliquez sur le bouton **Supprimer** dans la barre de commandes.
 8.  Cliquez sur **Oui** dans le message de confirmation.
+
+
 
 
 

@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: a76ec0cd86bcc810b42ae3cd8efd8a584e6c4da3
-ms.openlocfilehash: bcf59ea8862280675c9fb711d2aab1e8dff18806
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 0285103ef30ebf8322f2bf60941b07c7496e9c70
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="view-and-evaluate-the-results-of-a-questionnaire"></a>Afficher et évaluer les résultats d'un questionnaire
+
+[!include[banner](includes/banner.md)]
+
 
 Cette rubrique explique comment afficher et évaluer les résultats des questionnaires que les personnes interrogées remplissent. 
 
@@ -56,7 +60,8 @@ Dès que les personnes interrogées ont complété un questionnaire, vous pouvez
 -   **État de réponse** – Cet état affiche les réponses que la personne interrogée a sélectionnées pour chaque question du questionnaire.
 -   **Réponses incorrectes** – Cet état affiche les informations liées aux réponses incorrectes que la personne interrogée a sélectionnées.
 
-**Remarque :** l'état **Résultats** est disponible uniquement si vous utilisez des groupes de résultats pour le questionnaire, et si vous avez sélectionné **Page de résultats** dans la page **Questionnaires**. L'état **Réponse** et l'état **Réponses incorrectes** ne sont disponibles que si vous avez sélectionné **État de réponses** dans la page **Questionnaires**.
+> **Note**
+>  L'état **Résultats** est disponible uniquement si vous utilisez des groupes de résultats pour le questionnaire, et si vous avez sélectionné **Page de résultats** dans la page **Questionnaires**. L'état **Réponse** et l'état **Réponses incorrectes** ne sont disponibles que si vous avez sélectionné **État de réponses** dans la page **Questionnaires**.
 
 ## <a name="questionnaire-statistics"></a>Statistiques de questionnaire
 Vous pouvez utiliser les statistiques de questionnaires pour analyser les résultats d'un questionnaire terminé, en fonction des calculs que vous définissez. Pour définir les calculs, procédez comme suit :
@@ -79,5 +84,7 @@ Les paramètres que vous définissez sont enregistrés et peuvent servir à reca
 [Utilisation de questionnaires](questionnaires.md)
 
 [Distribuer et remplir des questionnaires](distribute-questionnaires.md)
+
+
 
 

@@ -3,7 +3,7 @@ title: "Contraintes d&quot;expression et contraintes de table dans les modèles 
 description: "Cette rubrique décrit l&quot;utilisation des contraintes d&quot;expression et de table. Les contraintes permettent de contrôler les valeurs d&quot;attribut que vous pouvez sélectionner lorsque vous configurez des produits pour une commande client, un devis de vente, une commande fournisseur ou un ordre de fabrication. Vous pouvez utiliser des contraintes d&quot;expression ou des contraintes de table selon la façon dont vous préférez créer les contraintes."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-02-24 15 - 08 - 06
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 1fe8a0d90a3f707fa7b0fea0310c819ce5040a42
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 1a08f537d87178973b3ce90bcb60b891bef1141e
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Contraintes d'expression et contraintes de table dans les modèles de configuration de produit
+
+[!include[banner](../includes/banner.md)]
+
 
 Cette rubrique décrit l'utilisation des contraintes d'expression et de table. Les contraintes permettent de contrôler les valeurs d'attribut que vous pouvez sélectionner lorsque vous configurez des produits pour une commande client, un devis de vente, une commande fournisseur ou un ordre de fabrication. Vous pouvez utiliser des contraintes d'expression ou des contraintes de table selon la façon dont vous préférez créer les contraintes. 
 
@@ -40,7 +44,7 @@ Les contraintes de table répertorient les combinaisons de valeurs autorisées p
 
 ### <a name="example-of-a-table-constraint"></a>Exemple de contrainte de table
 
-Cet exemple décrit la manière dont vous pouvez limiter la configuration d'un haut-parleur à des finitions et des grilles avant spécifiques. Le premier tableau indique les finitions du meuble et les grilles avant qui sont généralement disponibles pour la configuration. Les valeurs sont définies pour les types d'attribut **Finitions du meuble** et **Grille avant**.
+Cet exemple décrit la manière dont vous pouvez limiter la configuration d'un haut-parleur à des finitions et des grilles avant spécifiques. Le premier tableau indique les finitions du meuble et les grilles avant qui sont généralement disponibles pour la configuration. Les valeurs sont définies pour les types d'attribut **Finitions du meuble**et **Grille avant**.
 
 | Type d'attribut | Valeurs                      |
 |----------------|-----------------------------|
@@ -248,5 +252,7 @@ Vous ne pouvez pas utiliser de mots clés réservés comme nom de solveur pour l
 [Création d'une contrainte d'expression (guide de tâche)](http://ax.help.dynamics.com/en/wiki/create-an-expression-constraint/)
 
 [Ajouter un calcul à un modèle de configuration de produit (guide de tâche)](http://ax.help.dynamics.com/en/wiki/add-a-calculation-to-a-product-configuration-model/)
+
+
 
 

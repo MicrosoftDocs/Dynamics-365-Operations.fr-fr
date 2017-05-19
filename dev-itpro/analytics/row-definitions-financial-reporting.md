@@ -1,16 +1,16 @@
 ---
 title: "Définitions de ligne dans le générateur d&quot;états financiers"
 description: "Une définition de ligne est un composant de l’état, ou un bloc élémentaire, qui spécifie le contenu de chaque ligne d’un état financier. Une définition de ligne peut être combinée avec les définitions de colonne, les définitions d&quot;arborescence de génération d&quot;état et les définitions d&quot;état pour créer un groupe de blocs élémentaires pouvant être utilisé par plusieurs sociétés."
-author: RobinARH
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-03-18 15 - 42 - 39
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: RobinARH
+ms.reviewer: ShylaThompson
 ms.search.scope: Management Reporter, Core
 ms.custom: 68873
 ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: a2f92effd1cfdc1d5da2c5ec895c0487a6fc82a4
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: aa9fcc4d0c122d2355362b75ca210af4c2ef4338
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="row-definitions-in-financial-report-designer"></a>Définitions de ligne dans le générateur d'états financiers
+
+[!include[banner](../includes/banner.md)]
+
 
 Une définition de ligne est un composant de l’état, ou un bloc élémentaire, qui spécifie le contenu de chaque ligne d’un état financier. Une définition de ligne peut être combinée avec les définitions de colonne, les définitions d'arborescence de génération d'état et les définitions d'état pour créer un groupe de blocs élémentaires pouvant être utilisé par plusieurs sociétés.
 
@@ -72,8 +76,8 @@ Pour ajouter des dimensions à une définition de ligne, procédez comme suit.
 
 1.  Dans le générateur d'état, cliquez sur **Définitions de ligne**, puis ouvrez ensuite la définition de ligne à modifier.
 2.  Dans le menu **Édition**, cliquez sur **Insérer des lignes à partir des dimensions**.
-3.  Dans la boîte de dialogue **Insérer des lignes à partir de dimensions **, dans la ligne **Dimensions**, sélectionnez la cellule pour que la dimension soit transférée vers la définition de ligne, puis cliquez sur **Tout &&&**.
-4.  Pour limiter la définition de ligne à une plage spécifique de valeurs de dimension, saisissez la valeur de dimension de début dans la cellule ** Début de la plage de dimensions**, puis saisissez la valeur de dimension de fin dans la cellule **Fin de la plage de dimensions **. Pour inclure toutes les valeurs pour la dimension sélectionnée, laissez ces cellules vides. **Remarque :** les caractères génériques (\* ou ?) dans les plages de dimensions peuvent ne pas renvoyer tous les résultats que vous souhaitez, selon la manière dont la base de données ERP collecte les données.
+3.  Dans la boîte de dialogue **Insérer des lignes à partir de dimensions**, dans la ligne **Dimensions**, sélectionnez la cellule pour que la dimension soit transférée vers la définition de ligne, puis cliquez sur **Tout &&&**.
+4.  Pour limiter la définition de ligne à une plage spécifique de valeurs de dimension, saisissez la valeur de dimension de début dans la cellule **Début de la plage de dimensions**, puis saisissez la valeur de dimension de fin dans la cellule **Fin de la plage de dimensions**. Pour inclure toutes les valeurs pour la dimension sélectionnée, laissez ces cellules vides. **Remarque :** les caractères génériques (\* ou ?) dans les plages de dimensions peuvent ne pas renvoyer tous les résultats que vous souhaitez, selon la manière dont la base de données ERP collecte les données.
 5.  Dans le champ **Code ligne de début**, spécifiez le code de ligne pour la première valeur de dimension à ajouter à la définition de ligne.
 6.  Dans le champ **Incrémenter chaque ligne de**, spécifiez l'intervalle entre les codes de ligne consécutifs. Par exemple, si le premier code ligne est 100 et que la valeur d'incrément est 30, les premières lignes possèdent les codes 100, 130, 160, 190 et 220. Utilisez une valeur d'incrément qui laisse un espace suffisant pour insérer de nouvelles lignes de format et de formule.
 7.  Cliquez sur **OK**. Pour chaque valeur de dimension sélectionnée, une ligne est ajoutée à la définition de ligne.
@@ -97,9 +101,9 @@ Pour ajuster l'arrondi dans un bilan, procédez comme suit.
     -   **Ligne Total du passif et des capitaux propres** – Le code de ligne pour la ligne du bilan contenant le total du passif et des capitaux propres.
     -   **Limite du montant d'ajustement** – Entier positif qui spécifie la limite des ajustements automatiques. Ce montant est comparé à la valeur absolue de la différence d'arrondi réelle.
 
-    **Remarque : **Ces codes de ligne doivent être liés à vos données financières. Autrement dit, la ligne doit spécifier une valeur de dimension dans sa cellule **Liens vers les dimensions financières**. Ne fait **pas** référence à une description (**DESC**), à une ligne calculée (**CALC**) ou totalisée (**TOT**).
+    **Remarque :**Ces codes de ligne doivent être liés à vos données financières. Autrement dit, la ligne doit spécifier une valeur de dimension dans sa cellule **Liens vers les dimensions financières**. Ne fait **pas** référence à une description (**DESC**), à une ligne calculée (**CALC**) ou totalisée (**TOT**).
 
-Les montants de votre bilan s'équilibreront de manière équitable lorsque l'arrondi est activé. **Remarque : **La limite d'ajustement est appliquée en fonction de l'option **Précision arrondi** spécifiée pour la définition de rapport. Par exemple, si vous choisissez d'arrondir votre rapport au millier et de saisir **2** dans le champ **Limite du montant d'ajustement**, vous recevez un message d'avertissement lorsque la valeur identifiée dans le champ **Ligne d'ajustement d'arrondi** augmente ou diminue de plus de 2 000 EUR.
+Les montants de votre bilan s'équilibreront de manière équitable lorsque l'arrondi est activé. **Remarque :**La limite d'ajustement est appliquée en fonction de l'option **Précision arrondi** spécifiée pour la définition de rapport. Par exemple, si vous choisissez d'arrondir votre rapport au millier et de saisir **2** dans le champ **Limite du montant d'ajustement**, vous recevez un message d'avertissement lorsque la valeur identifiée dans le champ **Ligne d'ajustement d'arrondi** augmente ou diminue de plus de 2 000 EUR.
 
 ## <a name="format-row-and-column-text"></a>Mise en forme du texte de ligne et de colonne
 Vous pouvez personnaliser l'apparence de vos rapports en modifiant les polices et en mettant le texte en forme. Les sections suivantes expliquent comment mettre en forme l'apparence des lignes et colonnes des états.
@@ -117,7 +121,7 @@ Vous pouvez créer et modifier des styles de police pour l'état. Vous pouvez en
 <tr class="odd">
 <td>Créer un style de police</td>
 <td><ol>
-<li>Dans le Concepteur de rapports, dans le menu <strong>Format </strong>, cliquez sur <strong>Styles et mise en forme</strong>.</li>
+<li>Dans le Concepteur de rapports, dans le menu <strong>Format</strong>, cliquez sur <strong>Styles et mise en forme</strong>.</li>
 <li>Dans la boîte de dialogue <strong>Styles et mise en forme</strong>, cliquez sur <strong>Nouveau</strong> puis entrez un nom unique pour le nouveau style.</li>
 <li>Effectuez vos sélections de police et cliquez sur <strong>OK</strong>.</li>
 </ol></td>
@@ -125,7 +129,7 @@ Vous pouvez créer et modifier des styles de police pour l'état. Vous pouvez en
 <tr class="even">
 <td>Modifier un style de police</td>
 <td><ol>
-<li>Dans le Concepteur de rapports, dans le menu <strong>Format </strong>, cliquez sur <strong>Styles et mise en forme</strong>.</li>
+<li>Dans le Concepteur de rapports, dans le menu <strong>Format</strong>, cliquez sur <strong>Styles et mise en forme</strong>.</li>
 <li>Dans la boîte de dialogue <strong>Styles et mise en forme</strong>, sélectionnez un style à modifier, puis cliquez sur <strong>Modifier</strong>.</li>
 <li>Effectuez vos sélections de police et cliquez sur <strong>OK</strong>.</li>
 </ol></td>
@@ -173,6 +177,8 @@ Pour faciliter l'affichage des colonnes sur lesquelles vous travaillez dans la d
 <a name="see-also"></a>Voir également :
 --------
 
-[Génération d'états financiers pour Microsoft Dynamics 365 for Operations](financial-reporting-intro.md)
+[États financiers](financial-reporting-intro.md)
+
+
 
 

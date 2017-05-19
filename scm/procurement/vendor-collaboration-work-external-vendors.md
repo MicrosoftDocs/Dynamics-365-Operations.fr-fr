@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: d585ae0716a4bd9c3531e8639cd7c6b3cab780ac
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: c8947f9335b3a2de83ab00bad1043ee14d35f2c8
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -57,8 +58,8 @@ Les paramètres généraux pour la collaboration fournisseur dans Dynamics 365 f
 
 Avant que les comptes d'utilisateur puissent être créés pour un fournisseur externe, vous devez configurer le compte fournisseur pour leur permettre d'utiliser la collaboration fournisseur. Pour celà, définissez le champ **Activation de la collaboration** sur actif sous l'onglet **Général** de la page **Fournisseurs**. Il existe deux options que vous pouvez sélectionner :
 
--   **Actif (la CF est confirmée automatiquement) **- Les commandes fournisseur sont automatiquement confirmées lorsque le fournisseur les accepte sans modifications.
--   **Actif (la CF n'est pas confirmée automatiquement) **- Les commandes fournisseur doivent être confirmées manuellement par votre organisation, après que le fournisseur les a acceptées.
+-   **Actif (la CF est confirmée automatiquement)**- Les commandes fournisseur sont automatiquement confirmées lorsque le fournisseur les accepte sans modifications.
+-   **Actif (la CF n'est pas confirmée automatiquement)**- Les commandes fournisseur doivent être confirmées manuellement par votre organisation, après que le fournisseur les a acceptées.
 
 ### <a name="decide-whether-you-want-the-vendor-to-see-price-information"></a>Indiquer si vous souhaitez que le fournisseur affiche les informations de prix
 
@@ -142,7 +143,7 @@ Le tableau suivant présente un exemple des modifications de statut et de versio
 | Le fournisseur envoie une réponse **Acceptée avec des modifications**.                  | Le statut est toujours **En cours de révision externe**.                                                                                                                  |
 | Vous apportez certaines modifications qui sont requises par le fournisseur.                  | Le statut passe à **Approuvée**.                                                                                                                        |
 | Vous envoyez la nouvelle version de la CF au fournisseur.                        | Une nouvelle version est enregistrée dans l'interface de collaboration fournisseur et le statut devient **En cours de révision externe**.                                      |
-| Le fournisseur accepte la nouvelle version de la CF.                            | Le statut est toujours **En cours de révision externe **à moins que le compte fournisseur soit configuré pour définir automatiquement la CF sur un état **Confirmée** lorsqu'il l'accepte. |
+| Le fournisseur accepte la nouvelle version de la CF.                            | Le statut est toujours **En cours de révision externe**à moins que le compte fournisseur soit configuré pour définir automatiquement la CF sur un état **Confirmée** lorsqu'il l'accepte. |
 
 Les fournisseurs ne doivent pas confirmer la CF à l'ide de l'interface de collaboration fournisseur. Ils peuvent également envoyer un message électronique ou communiquer leur acceptation d'une CF via autres canaux. Vous pouvez ensuite confirmer la commande manuellement dans Dynamics 365 for Operations. Dans ce cas, vous recevez un avertissement indiquant que la commande est confirmée même s'il n'y a aucune réponse du fournisseur. La CF apparaît alors dans l'historique de confirmation sous la forme d'une commande confirmée en cours qui n'a pas de réponse. Le fournisseur n'aura plus l'option de confirmer ou de rejeter la CF.  
 

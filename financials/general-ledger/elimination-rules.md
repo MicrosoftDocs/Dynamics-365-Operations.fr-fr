@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: db4b05bc55d735513d7580ca5908a1e84eb760c6
-ms.openlocfilehash: 152b63fdfc78b3c4e79b93340d18c5cf69257024
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: c65168ae62f2d890cf2a7be67b1123cfae96ef23
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -41,7 +42,7 @@ Les transactions d'élimination sont nécessaires lorsqu'une entité juridique p
 
 Cette rubrique est consacrée aux règles d'élimination traitées dans une société de consolidation ou d'élimination. Vous pouvez paramétrer des règles d'élimination pour créer des transactions d'élimination au sein d'une entité juridique spécifiée comme entité juridique cible des éliminations. Cette entité juridique de destination est appelée entité juridique d'élimination. Les journaux d'élimination peuvent être générés au cours du processus de consolidation ou à l'aide d'une proposition de journal d'élimination. Avant de paramétrer des règles d'élimination, vous devez vous familiariser avec les termes suivants :
 
--   **Entité juridique source ** – Entité juridique dans laquelle les montants qui sont éliminés ont été validés.
+-   **Entité juridique source** – Entité juridique dans laquelle les montants qui sont éliminés ont été validés.
 -   **Entité juridique cible** – Entité juridique au sein de laquelle les règles d'élimination sont validées.
 -   **Entité juridique d'élimination** – Entité juridique spécifiée comme entité juridique cible pour les éliminations.
 -   **Entité juridique consolidée** – Entité juridique créée pour faire état des résultats financiers pour un groupe d'entités juridiques. Les données financières venant des entités juridiques sont consolidées au sein de cette entité juridique, puis des états financiers sont créés à l'aide des données combinées.

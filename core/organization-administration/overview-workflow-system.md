@@ -1,9 +1,9 @@
 ---
 title: "Vue d&quot;ensemble du système de workflow"
-description: "Cet article décrit le système de workflow dans Microsoft Dynamics 365 for Operations."
+description: "Cette rubrique décrit le système de workflow dans Microsoft Dynamics 365 for Operations."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 08c36f02f88fef7508730b6c01a1c99a0f77fb0c
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 5432e67ffa41e6a38b19c9fe5bb12c5acb2c345c
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -29,7 +30,7 @@ ms.lasthandoff: 03/31/2017
 [!include[banner](../includes/banner.md)]
 
 
-Cet article décrit le système de workflow dans Microsoft Dynamics 365 for Operations.
+Cette rubrique décrit le système de workflow dans Microsoft Dynamics 365 for Operations.
 
 <a name="what-is-workflow"></a>Qu'est-ce qu'un workflow ?
 -----------------
@@ -41,9 +42,13 @@ Un workflow est un système installé avec Dynamics 365 for Operations, qui s'ex
 
 ### <a name="workflow-is-a-business-process"></a>Un workflow est un processus entreprise
 
-Un workflow représente un processus entreprise. Il définit la circulation, la progression, d'un document dans le système en indiquant qui doit traiter une tâche, prendre une décision ou approuver un document. Par exemple, la figure suivante représente un workflow d'état de dépenses. ![Workflow avec des éléments affectés à des utilisateurs](./media/workflow_user.gif) Pour mieux comprendre ce workflow, supposons que Sam envoie un état des dépenses de 7 000 USD. Dans ce scénario, Ivan doit passer en revue les reçus envoyés par Sam. Frank et Sue doivent ensuite approuver l'état de dépenses. Supposons maintenant que Sam soumette un état de dépenses de USD 11 000. Dans ce scénario, Ivan doit passer en revue les reçus, et Frank, Sue et Ann doivent approuver l'état de dépenses.
-Avantages de l'utilisation du système de workflow
--------------------------------------
+Un workflow représente un processus entreprise. Il définit la circulation, la progression, d'un document dans le système en indiquant qui doit traiter une tâche, prendre une décision ou approuver un document. Par exemple, l'illustration suivante représente un workflow d'état de dépenses. 
+
+![Workflow avec des éléments affectés à des utilisateurs](./media/workflow_user.gif) 
+
+Pour mieux comprendre ce workflow, supposons que Sam soumette un état de dépenses de USD 7 000. Dans ce scénario, Ivan doit passer en revue les reçus envoyés par Sam. Frank et Sue doivent ensuite approuver l'état de dépenses. Supposons maintenant que Sam soumette un état de dépenses de USD 11 000. Dans ce scénario, Ivan doit passer en revue les reçus, et Frank, Sue et Ann doivent approuver l'état de dépenses.
+
+## <a name="benefits-of-using-the-workflow-system"></a>Avantages de l'utilisation du système de workflow
 
 L'utilisation du système de workflow dans votre organisation présente plusieurs avantages :
 -   **Processus cohérents** – Vous pouvez définir le traitement de documents spécifiques, tels que des demandes d'achat ou des états de dépenses. Lorsque vous utilisez le système de workflow, vous pouvez vérifier que les documents sont traités et approuvés de manière cohérente et efficace.
@@ -51,6 +56,20 @@ L'utilisation du système de workflow dans votre organisation présente plusieur
 -   **Liste de travail centralisée** – Les utilisateurs peuvent afficher une liste de travail centralisée pour consulter les tâches et les approbations de workflow qui leur sont affectées.
 
 
+## <a name="workflow-content"></a>Contenu de workflow
 
-
++ [Architecture de workflow](workflow-system-architecture.md)
++ [Éléments du workflow](workflow-elements.md)
++ [Actions de workflow](workflow-actions.md)
++ [Création d'un workflow](create-workflow.md)
++ [Configuration des propriétés de workflow](configure-workflow-properties.md)
++ [Configurer une tâche manuelle dans un workflow](configure-manual-task-workflow.md)
++ [Configurer une tâche automatique dans un workflow](configure-automated-task-workflow.md)
++ [Configurer un processus d'approbation dans un workflow](configure-approval-process-workflow.md)
++ [Configurer une étape d'approbation dans un workflow](configure-approval-step-workflow.md)
++ [Configurer une décision manuelle dans un workflow](configure-manual-decision-workflow.md)
++ [Configurer une décision conditionnelle dans un workflow](configure-conditional-decision-workflow.md)
++ [Configurer une activité parallèle dans un workflow](configure-parallel-activity-workflow.md)
++ [Configurer une branche parallèle dans un workflow](configure-parallel-branch-workflow.md)
++ [Configuration d'un workflow pour ligne](configure-line-item-workflow.md)
 

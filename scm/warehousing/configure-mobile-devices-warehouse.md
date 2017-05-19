@@ -3,7 +3,7 @@ title: "Paramétrer des appareils mobiles pour un travail d&quot;entrepôt"
 description: "Cet article décrit la manière de configurer les options de menu utilisées par les collaborateurs d&quot;entrepôt pour travailler sur un appareil mobile."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: afa59439e06aad9d669eb352a9837a013f447249
-ms.openlocfilehash: 34d7b246d74d1546b54494944903d160e31f7678
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: a964587fa5dd48f0ed4e9f2c67fb52e5071ac98d
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Paramétrer des appareils mobiles pour un travail d'entrepôt
+
+[!include[banner](../includes/banner.md)]
+
 
 Cet article décrit la manière de configurer les options de menu utilisées par les collaborateurs d'entrepôt pour travailler sur un appareil mobile.
 
@@ -315,7 +319,7 @@ Le tableau suivant décrit ces options.
 </tr>
 <tr class="even">
 <td>Afficher le statut de stock</td>
-<td>Sélectionnez cette option pour afficher le statut des articles en stock. Pour plus d'informations, voir <a href="/inventory/inventory-statuses.md">Avantages de l'utilisation de statuts de stock</a>. Cette option est disponible pour toutes les options de menu qui utilisent le travail existant, hormis l'inventaire tournant.</td>
+<td>Sélectionnez cette option pour afficher le statut des articles en stock. Cette option est disponible pour toutes les options de menu qui utilisent le travail existant, hormis l'inventaire tournant.</td>
 </tr>
 <tr class="odd">
 <td>Afficher le résumé de l'écran de prélèvement</td>
@@ -412,5 +416,7 @@ Le tableau suivant décrit les différents types de travail avec lesquels vous p
 [Configurer une option de menu de périphérique portable pour terminer le travail du type commande fournisseur (guide de tâche)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order/)
 
 [Configurer une option de menu de périphérique portable pour enregistrer les articles reçus (guide de tâche)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-to-register-received-items/)
+[Avantages de l'utilisation de statuts de stock](../inventory/inventory-statuses.md)
+
 
 

@@ -1,16 +1,16 @@
 ---
 title: Interface du Concepteur de rapports
 description: "Cet article explique comment naviguer dans le générateur d&quot;états et comment utiliser les différentes options pour répondre à vos besoins spécifiques."
-author: RobinARH
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-03-07 18 - 50 - 10
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: RobinARH
+ms.reviewer: ShylaThompson
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 59041
 ms.assetid: 054de5b0-8618-4195-be12-f031b4bb4d74
@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 58c56aca6f339a5ec13703605334dd45b208ab2c
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 3a82d877b2fb87eef6f2b16d528ed42debbb2874
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="report-designer-interface"></a>Interface du Concepteur de rapports
+
+[!include[banner](../includes/banner.md)]
+
 
 Cet article explique comment naviguer dans le générateur d'états et comment utiliser les différentes options pour répondre à vos besoins spécifiques. 
 
@@ -159,7 +163,7 @@ Le menu **Aide** est à la disposition de tous les utilisateurs et comprend les 
 
 | Commande | description ;                                                  |
 |---------|--------------------------------------------------------------|
-| Affiche l'aide    | Permet d'ouvrir la page de wiki d’aide Dynamics 365 for Operations pour la génération d’états financiers. |
+| Affiche l'aide    | Permet d'ouvrir la page des rubriques d’aide de Dynamics 365 for Operations pour la génération d’états financiers. |
 |         |                                                              |
 
 ## <a name="report-designer-toolbar-buttons"></a>Boutons de la barre d'outils du Concepteur de rapports
@@ -225,8 +229,10 @@ La barre d'outils du générateur d'états fournit l'accès rapide aux commandes
 <a name="see-also"></a>Voir également :
 --------
 
-[Génération d'états financiers pour Microsoft Dynamics ERP](financial-reporting-intro.md)
+[États financiers](financial-reporting-intro.md)
 
-[Générer un état financier](\financials\general-ledger\generate-financial-report.md)
+[Générer un état financier](generate-financial-report.md)
+
+
 
 

@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 3d02a15387231160f5b8a237aa11008b91ef1223
-ms.openlocfilehash: 6e9097829d26c9bf07e5cf711252563e37c21766
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 43b288b4e1cc0556f7c682046221a8b67c2e6bc6
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -127,7 +128,7 @@ Si vous resoumettez une ligne de demande d'achat rejetée, le processus de révi
 </ul></li>
 <li><strong>Annulé</strong> – La ligne de demande d'achat a été approuvée, mais elle a été annulée car elle n'est plus nécessaire. Seules les lignes de demande d'achat approuvées peuvent être annulées.</li>
 </ul>
-<strong>Remarque :</strong> Si vous n'avez plus besoin d'un article figurant sur une ligne de demande d'achat clôturée, vous devez annuler la ligne de demande d'achat si elle a été approuvée.</td>
+<strong>Remarque :</strong> Si vous n'avez plus besoin d'un article figurant sur une ligne de demande d'achat clôturée, vous devez annuler la ligne de demande d'achat si elle a été approuvée.</td>
 </tr>
 </tbody>
 </table>

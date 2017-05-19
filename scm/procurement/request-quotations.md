@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: d70b4ae0a6b177508021ee72481333cf6f265069
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 20ad50ab5c2dddf4fe07ebb5bb940954c0408f8d
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -48,9 +49,9 @@ Si vous devez modifier un appel d'offre après son envoi, vous pouvez l'envoyer 
 
 Lorsque vous recevez des offres, vous devez les saisir sur la page **Réponses aux demandes de devis**. Si vous sélectionnez l'option **Copier des données dans la réponse**, les données telles que la quantité et les dates du dossier d'appel d'offre sont copiées dans la réponse. Vous pouvez modifier ces données pour refléter l'offre du fournisseur.  
 
-Si une deuxième itération d'une réponse est requise pour un fournisseur spécifique, cliquez sur **Retour **sur la page** Réponse de demande de devis**. L'action Retour génère un nouveau journal et un rapport qui sera imprimé, archivé et envoyé conformément à vos paramètres de gestion des impressions.  
+Si une deuxième itération d'une réponse est requise pour un fournisseur spécifique, cliquez sur **Retour**sur la page**Réponse de demande de devis**. L'action Retour génère un nouveau journal et un rapport qui sera imprimé, archivé et envoyé conformément à vos paramètres de gestion des impressions.  
 
-Si vous avez ajouté des critères de score à votre dossier d'appel d'offre, la réponse à la demande de devis dispose d'un volet de score où vous pouvez saisir les scores. Tous les scores s'affichent lorsque vous comparez les réponses sur la page **Comparer les réponses **, sur laquelle vous pouvez également comparer les autres données de réponse, telles que le prix de ligne, la date de livraison et le prix total.  
+Si vous avez ajouté des critères de score à votre dossier d'appel d'offre, la réponse à la demande de devis dispose d'un volet de score où vous pouvez saisir les scores. Tous les scores s'affichent lorsque vous comparez les réponses sur la page **Comparer les réponses**, sur laquelle vous pouvez également comparer les autres données de réponse, telles que le prix de ligne, la date de livraison et le prix total.  
 
 Après avoir opté pour une offre ou des offres partielles, vous pouvez les accepter et rejeter le reste. Les journaux d'acceptation, les journaux de rejet et les rapports correspondants sont générés. Ceux-ci sont imprimés, archivés et envoyés conformément à vos paramètres de gestion des impressions. Lorsque vous acceptez une offre ou des lignes spécifiques d'une offre, un contrat d'achat ou une commande fournisseur est généré(e), ou une demande d'achat est mise à jour, selon le type d'achat de la demande de devis. Vous pouvez créer un contrat commercial que vous pouvez utiliser ultérieurement pour toute réponse, peu importe si vous les avez acceptées ou rejetées.  
 
@@ -107,7 +108,7 @@ Si la demande de devis est de type **Contrat d'achat** :
 -   La demande de devis est utilisée pour un accord sur l'achat d'une quantité ou d'une valeur spécifique d'un produit au fil du temps. Vous devez sélectionner l'intervalle de dates qui s'applique au contrat d'achat et le nom de la personne qui gère le contrat d'achat.
 -   Lorsque vous acceptez une offre, un contrat d'achat est généré.
 
-Vous pouvez créer une demande de devis à partir d'une demande d'achat uniquement si le statut de la demande d'achat est **En cours de révision **et si vous êtes affecté pour effectuer la tâche de workflow suivante. Les lignes de la demande d'achat sont mises à jour automatiquement comme vous acceptez les lignes à partir des réponses de demande de devis (offres) que vous avez reçues des fournisseurs. Tant que la demande de devis est en cours, vous ne pouvez effectuer aucune action (terminer, rejeter ou approuver) sur la demande d'achat.  
+Vous pouvez créer une demande de devis à partir d'une demande d'achat uniquement si le statut de la demande d'achat est **En cours de révision**et si vous êtes affecté pour effectuer la tâche de workflow suivante. Les lignes de la demande d'achat sont mises à jour automatiquement comme vous acceptez les lignes à partir des réponses de demande de devis (offres) que vous avez reçues des fournisseurs. Tant que la demande de devis est en cours, vous ne pouvez effectuer aucune action (terminer, rejeter ou approuver) sur la demande d'achat.  
 
 Lorsque vous créez une demande de devis, vous pouvez sélectionner un type de sollicitation spécifique. Le type de sollicitation détermine l'ensemble de critères d'attribution de score utilisés pour attribuer un score aux réponses à la demande de devis.  
 
@@ -127,7 +128,7 @@ Le tableau suivant indique les changements de statut de demande de devis lorsque
 
 |                                    |                              |                                                 |                            |                             |
 |------------------------------------|------------------------------|-------------------------------------------------|----------------------------|-----------------------------|
-| **Action**                         | **Statut d'en-tête de demande de devis le moins élevé ** | **Statut d'en-tête de demande de devis le plus élevé **                   | **Statut de ligne de demande de devis le moins élevé ** | **Statut de ligne de demande de devis le plus élevé ** |
+| **Action**                         | **Statut d'en-tête de demande de devis le moins élevé** | **Statut d'en-tête de demande de devis le plus élevé**                   | **Statut de ligne de demande de devis le moins élevé** | **Statut de ligne de demande de devis le plus élevé** |
 | Créez l'en-tête et les lignes de l'appel d'offres.    | Créé                      | Créé                                         | Créé                    | Créé                     |
 | Envoyez l'appel d'offre à un fournisseur spécifique. | Envoyé                         | Envoyé                                            | Envoyé                       | Envoyé                        |
 | Ajoutez un autre fournisseur.                | Créé                      | Envoyé (La demande de devis a été envoyée à un seul fournisseur.) | Créé                    | Envoyé                        |
@@ -157,7 +158,7 @@ Le tableau suivant indique les changements de statut de la demande de devis à m
 
 |                                                |                       |                        |                              |                               |                            |                             |
 |------------------------------------------------|-----------------------|------------------------|------------------------------|-------------------------------|----------------------------|-----------------------------|
-| **Action**                                     | **Statut d'offre le moins élevé ** | **Statut d'offre le plus élevé ** | **Statut d'en-tête de demande de devis le moins élevé ** | **Statut d'en-tête de demande de devis le plus élevé ** | **Statut de ligne de demande de devis le moins élevé ** | **Statut de ligne de demande de devis le plus élevé ** |
+| **Action**                                     | **Statut d'offre le moins élevé** | **Statut d'offre le plus élevé** | **Statut d'en-tête de demande de devis le moins élevé** | **Statut d'en-tête de demande de devis le plus élevé** | **Statut de ligne de demande de devis le moins élevé** | **Statut de ligne de demande de devis le plus élevé** |
 | Enregistrez l'offre d'un fournisseur, et sauvegardez-la.        | Envoyé                  | Reçu(e)               | Envoyé                         | Reçu(e)                      | Envoyé                       | Reçu(e)                    |
 | Enregistrez l'offre du deuxième fournisseur, et sauvegardez-la. | Reçue              | Reçue               | Reçue                     | Reçue                      | Reçue                   | Reçue                    |
 
@@ -186,7 +187,7 @@ Le tableau suivant indique les changements de statut de la demande de devis à m
 
 |                         |                       |                        |                              |                               |                            |                             |
 |-------------------------|-----------------------|------------------------|------------------------------|-------------------------------|----------------------------|-----------------------------|
-| **Action**              | **Statut d'offre le moins élevé ** | **Statut d'offre le plus élevé ** | **Statut d'en-tête de demande de devis le moins élevé ** | **Statut d'en-tête de demande de devis le plus élevé ** | **Statut de ligne de demande de devis le moins élevé ** | **Statut de ligne de demande de devis le plus élevé ** |
+| **Action**              | **Statut d'offre le moins élevé** | **Statut d'offre le plus élevé** | **Statut d'en-tête de demande de devis le moins élevé** | **Statut d'en-tête de demande de devis le plus élevé** | **Statut de ligne de demande de devis le moins élevé** | **Statut de ligne de demande de devis le plus élevé** |
 | Acceptez l'une des offres. | Reçu(e)              | Accepté(e)               | Reçue                     | Accepté(e)                      | Reçue                   | Accepté(e)                    |
 | Rejetez les autres offres.  | Rejeté(e)              | Accepté(e)               | Rejeté(e)                     | Accepté(e)                      | Rejeté(e)                   | Accepté(e)                    |
 

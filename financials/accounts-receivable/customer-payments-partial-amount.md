@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 3b16ef53f9fb57a6663db0be1f7e0a57471db2fb
-ms.openlocfilehash: 7025072cd29aac4ceb13b5594c3e321350777cf1
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 11fa0f0afa7ab400c87d6e7558292385ae80c8b2
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -51,10 +52,10 @@ Par exemple, vous offrez un escompte de règlement de 2 % si la facture est pay�
 ## <a name="credit-notes-with-discounts"></a>Avoirs avec remises
 Si les clients retournent certains articles figurant sur une facture, vous pouvez émettre un avoir. Si un escompte de règlement a été accepté sur la facture d'origine, l'avoir au client doit être net de l'escompte de règlement accepté par le client. Si l'option **Calcule les escomptes de règlement pour les avoirs** est définie sur **Oui** sur la page **Paramètres des ventes**, la remise est calculée automatiquement pour l'avoir. 
 
-Par exemple, vous avez proposé des conditions de paiement indiquant un escompte de règlement de 2 % si la facture est payée au cours des 10 jours suivant son émission. Une facture de 100,00 a été validée, et le client a accepté l'escompte de règlement. Si le client retourne les marchandises et si vous émettez un avoir, vous pouvez saisir ce dernier en créant un avoir de -100,00. Si vous affichez l'avoir sur la page **Régler les transactions en cours**,** 98,00** s'affiche dans le champ **Montant à régler**, puis **-2,00** s'affiche dans le champ **Montant de l'escompte de règlement**. Le montant de la remise est validé dans un compte d'escompte de règlement.
+Par exemple, vous avez proposé des conditions de paiement indiquant un escompte de règlement de 2 % si la facture est payée au cours des 10 jours suivant son émission. Une facture de 100,00 a été validée, et le client a accepté l'escompte de règlement. Si le client retourne les marchandises et si vous émettez un avoir, vous pouvez saisir ce dernier en créant un avoir de -100,00. Si vous affichez l'avoir sur la page **Régler les transactions en cours**,**98,00** s'affiche dans le champ **Montant à régler**, puis **-2,00** s'affiche dans le champ **Montant de l'escompte de règlement**. Le montant de la remise est validé dans un compte d'escompte de règlement.
 
 ## <a name="overpaymentunderpayment-amounts"></a>Montants des trop-perçus/moins-perçus
-Lorsque les clients effectuent un paiement, il se peut qu'il y ait encore un très petit montant à régler. Par exemple, vous adressez une facture de 1 000,00 au client, et celui-ci paie 999,90. Si le montant restant est inférieur au montant indiqué sur la page** Paramètres des ventes** pour les trop-perçus ou les moins-perçus, la différence est automatiquement validée dans un compte des trop-perçus/moins-perçus.
+Lorsque les clients effectuent un paiement, il se peut qu'il y ait encore un très petit montant à régler. Par exemple, vous adressez une facture de 1 000,00 au client, et celui-ci paie 999,90. Si le montant restant est inférieur au montant indiqué sur la page**Paramètres des ventes** pour les trop-perçus ou les moins-perçus, la différence est automatiquement validée dans un compte des trop-perçus/moins-perçus.
 
 ## <a name="full-settlement"></a>Règlement complet
 Les clients peuvent effectuer un paiement partiel lorsque le montant restant n'est pas réglé, mais est supérieur au montant de moins-perçu spécifié sur la page **Paramètres de la comptabilité fournisseur**. Si vous souhaitez marquer la facture comme complètement réglée, vous pouvez utiliser l'option **Règlement complet** sur la page **Régler la transaction**. (Vous pouvez activer la fonctionnalité de règlement complet à l'aide d'une clé de configuration). Par exemple, une facture est validée pour un montant de 1 000,00 et le client effectue un paiement de 990,00. Vous avez convenu que le client n'a pas à payer les 10,00 restants. Après avoir marqué la facture pour règlement, vous pouvez également sélectionner l'option **Règlement complet**. La facture sera ensuite considérée comme réglée. La différence de 10,00 est validée dans un compte d'escompte de règlement en tant que montant d'escompte de règlement supplémentaire.

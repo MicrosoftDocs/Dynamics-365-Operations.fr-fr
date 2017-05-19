@@ -3,7 +3,7 @@ title: "Méthode de répartition des coûts totaux"
 description: "Cet article fournit des instructions pour utiliser la répartition des coûts totaux (RCT). La RCT est une méthode de calcul du coût entre l&quot;élément de formule principal pour un lot de commandes et des coproduits définis pour la formule."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: c26dcc5a8caa461bce90f931bb5c584f1816526b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: a5c5788a3145dd6cabeed097d25a03a243577b8f
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="total-cost-allocation-method"></a>Méthode de répartition des coûts totaux
+
+[!include[banner](../includes/banner.md)]
+
 
 Cet article fournit des instructions pour utiliser la répartition des coûts totaux (RCT). La RCT est une méthode de calcul du coût entre l'élément de formule principal pour un lot de commandes et des coproduits définis pour la formule.
 
@@ -36,6 +40,11 @@ La Méthode de répartition des coûts totaux (RCT) est une méthode de calcul d
 Voici des instructions pour utiliser la RCT pour des coproduits :
 
 -   Si vous définissez le curseur **Répartition des coûts totaux** sur **Oui** pour une version de formule, les coproduits doivent posséder un prix de revient supérieur à 0 (zéro). La valeur peut être extraite de la version de coût actif pour le même site ou pour le premier site pour une formule qui n'est pas propre aux sites. Cette condition est validée lorsque la formule est approuvée.
+
+    -   Vous n'avez pas besoin d'entrer manuellement les pourcentages de répartition des coûts pour des co-produits. Au lieu de cela, le système crée automatiquement un pourcentage d'affectation des coûts en calculant la moyenne des prix de revient actifs des co-produits. 
+    -   Vous n'avez pas besoin d'entrer le coût standard pour les articles de coût non standard qui sont des co-produits. Il existe deux types de versions d'évaluation des coûts dans le système : coût standard et coût planifié 
+    -   Si un article n'est pas évalué par la méthode Évaluation du coût standard, nous vous recommandons d'utiliser un prix de revient actif dans la version Évaluation du coût planifié. Ce prix est utilisé pour l'estimation des coûts, par exemple, le calcul de nomenclature, l'estimation du coût de production, et le prix de secours dans le processus d'évaluation du stock. 
+
 -   Si vous définissez le curseur **Répartition des coûts totaux** sur **Oui** pour la version de formule et si les conditions suivantes sont remplies, la méthode de répartition des coûts est **RCT**, et le pourcentage de répartition des coûts est inchangé :
     -   Vous avez ajouté des coproduits.
     -   Vous avez utilisé une autre méthode de répartition des coûts pour les coproduits.
@@ -53,6 +62,8 @@ Le champ **Répartition des coûts de sous-produit** dans la page **Coproduits**
 -   **Pourcentage** ─ Le montant du coût est calculé comme un pourcentage du coût total des matières premières consommées dans la production. Le pourcentage utilisé pour le calcul est entré dans le champ.
 -   **Quantité de base** ─ Le montant du coût calculé équivaut à un montant par taille de lot standard de l'ordre de fabrication. Ce montant est indépendant de la quantité déclarée dans la production. Le montant utilisé pour le calcul est entré dans le champ.
 -   **Par quantité** ─ Le montant du coût est calculé comme un montant par quantité déclarée de l'élément de formule dans la production. Le montant utilisé pour le calcul est entré dans le champ.
+
+
 
 
 

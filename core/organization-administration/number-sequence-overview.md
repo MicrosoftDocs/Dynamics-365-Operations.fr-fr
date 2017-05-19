@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: a812c93a13fd36f44e659c9976099af62793098f
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: ce03d3b55ecdc05f70a36762f7de49b3018b6451
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -38,7 +39,7 @@ Exemples de souches de numéros
 Les exemples suivants indiquent comment utiliser les segments pour créer des formats de souches de numéros. Ils démontrent notamment les effets de l'utilisation des segments de portée.
 ### <a name="expense-report-numbers"></a>Numéros d'états de dépenses
 
-Dans l'exemple suivant, les numéros d'états de dépenses sont paramétrés pour l'entité juridique **CS**. **Secteur : **Déplacements et dépenses **Référence : **Numéro d'état de dépenses **Portée : **Entité juridique **Entité juridique : **CS
+Dans l'exemple suivant, les numéros d'états de dépenses sont paramétrés pour l'entité juridique **CS**. **Secteur :**Déplacements et dépenses **Référence :**Numéro d'état de dépenses **Portée :**Entité juridique **Entité juridique :**CS
 | Segments  | Type de segment | Valeur     |
 |-----------|--------------|-----------|
 | Segment 1 | Entité juridique | CS        |
@@ -49,7 +50,7 @@ Dans l'exemple suivant, les numéros d'états de dépenses sont paramétrés pou
 
 ### <a name="sales-order-numbers"></a>Numéros de commandes client
 
-Dans l'exemple suivant, les numéros de commandes client sont paramétrés pour l'ID société **CEU**. **Secteur : **Ventes **Référence : **Commande client **Portée : **Société **Société : **CEU
+Dans l'exemple suivant, les numéros de commandes client sont paramétrés pour l'ID société **CEU**. **Secteur :**Ventes **Référence :**Commande client **Portée :**Société **Société :**CEU
 | Segments  | Type de segment | Valeur    |
 |-----------|--------------|----------|
 | Segment 1 | Constante     | SO-      |
@@ -59,7 +60,7 @@ Dans l'exemple suivant, les numéros de commandes client sont paramétrés pour 
 
 ### <a name="purchase-requisition-numbers"></a>Numéros de demandes d'achat
 
-Dans l'exemple suivant, les numéros de demandes d'achat fonctionnent dans l'ensemble de l'organisation. **Secteur : **Achats **Référence : **Demande d'achat **Portée : **Partagée
+Dans l'exemple suivant, les numéros de demandes d'achat fonctionnent dans l'ensemble de l'organisation. **Secteur :**Achats **Référence :**Demande d'achat **Portée :**Partagée
 | Segments  | Type de segment | Valeur    |
 |-----------|--------------|----------|
 | Segment 1 | Constante     | Req      |

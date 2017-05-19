@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: 288605570462c2e7659a894731c12933410d7636
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 7e6a3c25dd97d242e28bff319c75a64718c39f55
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -128,7 +129,7 @@ Vous pouvez réorganiser la structure organisationnelle d'une définition d'arbo
 
 ### <a name="add-text-about-a-reporting-unit"></a> Ajouter un texte à une unité de déclaration
 
-Une entrée de texte supplémentaire est une chaîne de texte statique, jusqu'à 255 caractères, qui ajoute des informations à la définition d'arborescence de génération d'états. Par exemple, le texte supplémentaire peut être une description courte de la société. Vous pouvez créer jusqu'à dix entrées de texte supplémentaires pour chaque unité de déclaration dans une définition d'arborescence de génération d'états. Le texte supplémentaire apparaît dans l'état de l'unité de déclaration à laquelle le texte est affecté. Vous pouvez ajouter des entrées de texte à partir de la colonne de ** Description** de la définition de ligne et de l'onglet **En-têtes et pieds de page** dans la définition d'état.
+Une entrée de texte supplémentaire est une chaîne de texte statique, jusqu'à 255 caractères, qui ajoute des informations à la définition d'arborescence de génération d'états. Par exemple, le texte supplémentaire peut être une description courte de la société. Vous pouvez créer jusqu'à dix entrées de texte supplémentaires pour chaque unité de déclaration dans une définition d'arborescence de génération d'états. Le texte supplémentaire apparaît dans l'état de l'unité de déclaration à laquelle le texte est affecté. Vous pouvez ajouter des entrées de texte à partir de la colonne **Description** de la définition de ligne et de l'onglet **En-têtes et pieds de page** dans la définition d'état.
 
 1.  Dans le générateur d'état, ouvrez la définition d'arborescence de génération d'états à modifier.
 2.  Double-cliquez sur la cellule **Texte supplémentaire** pour la ligne d'unité de déclaration.

@@ -1,9 +1,9 @@
 ---
 title: "Génération d&quot;états financiers pour Dynamics 365 for Operations"
 description: "La génération d&quot;états financiers pour Dynamics 365 for Operations permet aux professionnels financiers et commerciaux peuvent utiliser pour créer, tenir à jour, déployer, et afficher les tableaux d&quot;analyse. Elle dépasse les contraintes traditionnelles liées à la génération d&quot;états pour vous aider à concevoir efficacement différents types d&quot;états."
-author: RobinARH
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-03-18 15 - 31 - 29
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 519b3d3fb53b20d0014c97bcb1b9b21802a376d6
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: fee79dad870bfbf8852198c7e825cfaa95a8d10b
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="financial-reporting-for-dynamics-365-for-operations"></a>Génération d'états financiers pour Dynamics 365 for Operations
+
+[!include[banner](../includes/banner.md)]
+
 
 La génération d'états financiers pour Dynamics 365 for Operations permet aux professionnels financiers et commerciaux peuvent utiliser pour créer, tenir à jour, déployer, et afficher les tableaux d'analyse. Elle dépasse les contraintes traditionnelles liées à la génération d'états pour vous aider à concevoir efficacement différents types d'états.
 
@@ -36,15 +40,14 @@ Les composants suivants la génération d'états financiers sont simples à util
 | Composant        | Fonctions                                                                                                                                                                                                                                                                           | Informations supplémentaires                                                                          |
 |------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
 | Concepteur de rapports  | Créez des blocs élémentaires d'état pouvant être combinés pour définir et générer un état. L'Assistant de rapport dirige les utilisateurs peu expérimentés tout au long du processus de création. Les utilisateurs expérimentés peuvent créer des blocs élémentaires d'état ou modifier les blocs élémentaires existants pour répondre à leurs besoins. |                                                                                                 |
-| Visionneuse Web       | Affichez ou partagez les états dans un navigateur Internet. La Visionneuse Web n’exige pas que les composants de serveur de génération d'état financier soit installé.                                                                                                                                                        | [Visionneuse Web](financial-reporter-designer-web-client.md)            |
-| Planifications de rapport | Planifiez un état unique ou un groupe d'états afin qu’il soit généré régulièrement.                                                                                                                                                                                          | [Générer un état](/dynamics365/operations/financials/general-ledger/generate-financial-report) |
+| Planifications de rapport | Planifiez un état unique ou un groupe d'états afin qu’il soit généré régulièrement.                                                                                                                                                                                          | [Générer un état financier](generate-financial-report.md) |
 
-## <a name="features"></a>Fonctionnalités
+## <a name="features"></a>Fonctions
 <table>
 <thead>
 <tr class="header">
 <th>Fonction</th>
-<th>Description</th>
+<th>description ;</th>
 </tr>
 </thead>
 <tbody>
@@ -78,13 +81,15 @@ Les composants suivants la génération d'états financiers sont simples à util
 <li>Ajouter des filtres de dimension pour limiter le contenu de l'état à une dimension spécifique ou à une combinaison de dimensions.</li>
 <li>Ajouter des filtres d'attribut pour limiter le contenu de l'état à un attribut spécifique ou à une combinaison d'attributs.</li>
 </ul>
-Pour plus d'informations, consultez la section « Composants interactifs et fonctionnalités de navigation » dans l'article <a href="https://technet.microsoft.com/en-us/library/dn469079.aspx">Interface Desktop Viewer</a>.</td>
+</td>
 </tr>
 </tbody>
 </table>
 
 #<a name="see-also"></a>Voir également :
+[Générer un état financier](generate-financial-report.md)
 
-[Générer un état financier]((dynamics365\operations\financials\general-ledger\generate-financial-report)
+
+
 
 

@@ -3,7 +3,7 @@ title: Configuration requise
 description: "Cette rubrique indique la configuration requise pour la version actuelle de Microsoft Dynamics 365 for Operations."
 author: sericks007
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-translationtype: Human Translation
-ms.sourcegitcommit: c8c96dc9705688308dd4a5c720700ddc17657d75
-ms.openlocfilehash: 9220c093d3f6d6700127c93651db4083be300311
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 86053196a3aad6b7b5d7830860e1af347dd969d8
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="system-requirements"></a>Configuration requise
+
+[!include[banner](../includes/banner.md)]
+
 
 Cette rubrique indique la configuration requise pour la version actuelle de Microsoft Dynamics 365 for Operations.
 
@@ -43,6 +47,8 @@ Pour trouver la dernière version pour chaque navigateur Web, accédez au site I
 -   Pour capturer des images générées à partir de l'enregistreur de tâches et les inclure dans les documents Microsoft Word, vous devez avoir une extension Chrome installée. <!---For instructions about how to install the extension, see [Screenshot Extension setup](/dynamics365/operations/dev-itpro/user-interface/task-recorder).-->
 -   L'éditeur de workflow démarre en tant qu'application ClickOnce. Seuls Microsoft Edge et Internet Explorer (dans une version prise en charge de Microsoft Windows) prennent en charge les applications ClickOnce. L'application ClickOnce d'éditeur de workflow nécessite un système d'exploitation compatible 64 bits.
 -   Le Concepteur de rapports pour les États financiers démarre en tant qu'application ClickOnce. Elle nécessite un système d'exploitation compatible 64 bits. Si vous utilisez Chrome, vous devez installer une extension ClickOnce afin de télécharger le client Concepteur de rapports. Si vous utilisez Chrome en mode incognito, vérifiez que l'extension ClickOnce est également activée pour le mode incognito.
+-   Pour afficher un aperçu des fichiers PDF, nous vous recommandons d'utiliser des navigateurs tels que Microsoft Edge (dernière version disponible) sous Windows 10, ou Google Chrome (dernière version disponible) sous Windows 10, Windows 8,1, Windows 8, Windows 7, ou sur la tablette Google Nexus 10.
+
 
 ### <a name="supported-web-browsers-for-retail-cloud-pos"></a>Navigateurs Web pris en charge pour Retail Cloud POS
 
@@ -117,11 +123,13 @@ L'ordinateur doit répondre à tous exigences système pour installer et utilise
 -   Au moins 10 Go d'espace libre (la base de données des canaux peut nécessiter un espace volumineux.)
 
 ## <a name="requirements-for-development-on-local-vms"></a>Exigences pour le développement sur les ordinateurs virtuels locaux
-Pour plus d'informations sur les exigences associées au développement sur les ordinateurs virtuels locaux, voir [Ordinateurs virtuels sur site](/dynamics365/operations/dev-itpro/dev-tools/access-instances#vm-that-is-running-in-premises).
+Pour plus d'informations sur les exigences associées au développement sur les ordinateurs virtuels locaux, voir [Ordinateurs virtuels sur site](../dev-tools/access-instances.md).
 
 <a name="see-also"></a>Voir également :
 --------
 
 [Obtenir une version d'évaluation de Dynamics 365 for Operations](/dynamics365/operations/dev-itpro/dev-tools/get-evaluation-copy)
+
+
 
 

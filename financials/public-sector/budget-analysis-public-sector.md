@@ -19,10 +19,11 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: eb32cf1b96dfef75131b8c7541e20a93615a87f7
-ms.openlocfilehash: 7466ea907b269eed308b980e558ed387e0d343bc
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: d325ec023914a4202c31faa73b5cf45d3eb511f3
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -54,13 +55,13 @@ La page **Analyse budgétaire** permet également de sélectionner un ensemble d
 ## <a name="what-transaction-details-are-available-on-the-budget-analysis-page"></a>Quels détails de la transaction sont-ils disponibles sur la page Analyse budgétaire ?
 Vous pouvez sélectionner un article dans la grille et effectuer un zoom avant pour afficher les détails de transaction suivants :
 
--   **Budget révisé **montants (somme des montants du budget d'origine, de la révision, du transfert, et des montants reportés)
+-   **Budget révisé**montants (somme des montants du budget d'origine, de la révision, du transfert, et des montants reportés)
 -   **Dépenses réelles** (la somme des débits et des crédits validés pour les valeurs de dimension financière)
 -   **Engagements** et **Engagements préalables** (y compris les transactions d'origine et d'exonération)
 
 ### <a name="tips"></a>Conseils
 
--   Vous pouvez afficher les écritures de registre budgétaire révisées pour la recherche d'analyse budgétaire en cliquant sur **Budget révisé **dans le volet Actions. Les types de budget pour les écritures de registre budgétaires révisées comprennent le budget d'origine, le report, le transfert et la révision. Ces montants proviennent des tableaux d'entrées de registre budgétaire.
+-   Vous pouvez afficher les écritures de registre budgétaire révisées pour la recherche d'analyse budgétaire en cliquant sur **Budget révisé**dans le volet Actions. Les types de budget pour les écritures de registre budgétaires révisées comprennent le budget d'origine, le report, le transfert et la révision. Ces montants proviennent des tableaux d'entrées de registre budgétaire.
 -   Pour afficher les dépenses réelles pour la recherche d'analyse budgétaire, cliquez sur **Réel**. La page affecte la page d'origine du document, par exemple une écriture comptable avancée. Ces montants proviennent des tableaux d'entrées de compte général.
 -   Pour afficher les engagements et les transactions référencées pour la recherche d'analyse budgétaire, cliquez sur **Engagement**. La page affecte la commande fournisseur pour la transaction sélectionnée. Ces montants proviennent des tableaux de suivi de la source budgétaire.
 -   Pour afficher les engagements préalables et les transactions référencées pour la recherche d'analyse budgétaire, cliquez sur **Engagement préalable**. La page affecte la demande d'achat pour la transaction sélectionnée. Ces montants proviennent des tableaux de suivi de la source budgétaire.
@@ -72,7 +73,7 @@ Le tableau suivant décrit les différences entre ces pages.
 
 |                                                                                                                         |                                                                                             |
 |-------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
-| **Page Statistiques de contrôle budgétaire **                                                                                      | **Page Analyse budgétaire **                                                                    |
+| **Page Statistiques de contrôle budgétaire**                                                                                      | **Page Analyse budgétaire**                                                                    |
 | Affiche les soldes budgétaires pour un cycle budgétaire et un modèle de budget pour une seule valeur de dimension financière ou un groupe budgétaire. | Affiche les montants budgétaires combinés pour plusieurs valeurs de dimension financière simultanément. |
 | Inclut les données des engagements confirmés et non confirmés.                                                         | Inclut les données des engagements confirmés uniquement.                                             |
 | Inclut les données des comptes de dépenses uniquement.                                                                               | Inclut les données des comptes de produit et de dépenses.                                       |

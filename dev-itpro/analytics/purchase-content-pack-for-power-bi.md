@@ -3,7 +3,7 @@ title: "Analyse des dépenses d&quot;achat de contenu Power BI"
 description: "Cette rubrique décrit ce qui est inclus dans le pack de contenu Analyse des dépenses d&quot;achat pour Microsoft Power BI. Elle explique également comment accéder aux états inclus dans le pack de contenu, et fournit des informations sur le modèle de données et les entités qui permettent de créer le pack de contenu."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-12-30 09 - 40 - 51
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: global
 ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 8cb928cbf1316e63a8c7de833587168cd36a455c
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d392b88942f4b7d7365b000df1cd69809060b910
+ms.openlocfilehash: e39b1677038037cd91cfad8d104d0130bc20fb9b
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/26/2017
 
 
 ---
 
 # <a name="purchase-spend-analysis-power-bi-content"></a>Analyse des dépenses d'achat de contenu Power BI
+
+[!include[banner](../includes/banner.md)]
+
 
 Cette rubrique décrit ce qui est inclus dans le pack de contenu Analyse des dépenses d'achat pour Microsoft Power BI. Elle explique également comment accéder aux états inclus dans le pack de contenu, et fournit des informations sur le modèle de données et les entités qui permettent de créer le pack de contenu.
 
@@ -38,6 +42,7 @@ Le pack de contenu des analyses des dépenses pour Microsoft Power BI a été cr
 
 ## <a name="accessing-the-content-pack"></a>Accès au pack de contenu
 Le pack de contenu Analyse des dépenses d'achat est publié comme élément d'implémentation dans Microsoft Dynamics Lifecycle Services (LCS) et peut être accessible à partir de Microsoft Dynamics 365 for Operations. Pour plus d'informations sur l'accès et l'ouverture des états Power BI, voir [Contenu Power BI dans LCS de Microsoft et de vos partenaires](power-bi-content-microsoft-partners.md).
+Remarque : le KB 4011327 doit être consulté au prélable pour ce contenu Power BI. Une fois que vous êtes connecté à Lifecycle Services, vous pouvez accéder à la Base de connaissances ici : https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
 
 ## <a name="metrics-that-are-included-in-the-content-pack"></a>Métrises incluses dans le pack de contenu
 Le pack de contenu Analyse des dépenses d'achat comprend un état constitué d'un ensemble d'éléments de mesure. Ces mesures sont visualisées sous forme de graphiques, vignettes et tableaux. Le tableau suivant offre une vue d'ensemble des visualisations proposées dans le pack de contenu.
@@ -129,7 +134,7 @@ Le pack de contenu Analyse des dépenses d'achat comprend un état constitué d'
 \* Achats cette année et l'année dernière, et croissance par catégorie d'approvisionnement
 
 ## <a name="data-model-and-entities"></a>Modèle de données et entités
-Les données Dynamics 365 for Operations sont utilisées pour l'état du pack de contenu des analyses des dépenses d'achat. Ces données sont représentées sous forme de mesures globales stockées dans le magasin d'entité, qui est une base de données SQL Microsoft optimisée pour l'analyse. Pour plus d'informations sur le magasin d'entité, voir la publication de blog [Intégration de Power BI avec le magasin d'entités dans Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Les mesures globales dans ce pack de contenu sont le sous-ensemble des mesures globales qui sont disponibles dans le Cube de vente dans Microsoft Dynamics AX 2012 et Microsoft Dynamics 365 for Operations 2012 R3. Pour enregistrer les mesures globales du cube dans le magasin d'entités, vous devez les rendre déployables. Pour plus d'informations, voir la procédure d'enregistrement des mesures globales dans le magasin d'entités dans la publication de blog [Intégration de Power BI avec le magasin d'entités dans Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Les mesures globales clés suivantes sont disponibles directement depuis l'entité Lignes de facture et sont utilisées comme base du pack de contenu.
+Les données Dynamics 365 for Operations sont utilisées pour l'état du pack de contenu des analyses des dépenses d'achat. Ces données sont représentées sous forme de mesures globales stockées dans le magasin d'entité, qui est une base de données SQL Microsoft optimisée pour l'analyse. Pour plus d'informations sur le magasin d'entité, voir la publication de blog [Intégration de Power BI avec le magasin d'entités dans Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Les mesures globales dans ce pack de contenu sont le sous-ensemble des mesures globales qui sont disponibles dans le Cube d'achat dans Microsoft Dynamics AX 2012 et Microsoft Dynamics AX 2012 R3. Pour enregistrer les mesures globales du cube dans le magasin d'entités, vous devez les rendre déployables. Pour plus d'informations, voir la procédure d'enregistrement des mesures globales dans le magasin d'entités dans la publication de blog [Intégration de Power BI avec le magasin d'entités dans Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Les mesures globales clés suivantes sont disponibles directement depuis l'entité Lignes de facture et sont utilisées comme base du pack de contenu.
 
 | Entité        | Mesures globales clés | Source de données pour Dynamics 365 for Operations | Champ              | description ;                           |
 |---------------|----------------------------|---------------------------------------------|--------------------|---------------------------------------|
@@ -162,6 +167,8 @@ Voici quelques liens utiles liés aux entités et à la création du contenu Pow
 -   [Création de packs de contenu d'organisation](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 -   [Modélisation de données à l'aide de Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [Ajout de vignettes Power BI aux espaces de travail](configure-power-bi-integration.md)
+
+
 
 
 

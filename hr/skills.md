@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 720a1f272948eb310dc3cd02588aeec40b556d20
-ms.openlocfilehash: 31dda85ff2e4a4e5380401b031b2dd74acff394b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 4fd6e61e88ca3ca3fa63308dead1258c0263e5aa
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="align-workforce-skills-with-business-needs"></a>Aligner les qualifications du personnel sur les besoins de l'entreprise
+
+[!include[banner](includes/banner.md)]
+
 
 Vous pouvez suivre les qualifications que les travailleurs, les candidats ou les personnes à contacter ont ou doivent avoir pour assumer efficacement leurs rôles. Vous pouvez également spécifier les qualifications requises pour une tâche spécifique.
 
@@ -52,24 +56,12 @@ Vous pouvez créer une recherche de mise en correspondance des qualifications po
 
 Les profils de mise en correspondance des qualifications vous permettent de rechercher les employés actuels ou les candidats dont les qualifications correspondent directement aux besoins de votre entreprise.  Par exemple, vous pouvez créer un profil de mise en correspondance des qualifications pour un poste vacant de votre organisation. En créant un profil pour une tâche spécifique et en copiant les qualifications, les formations et les certificats de cette tâche dans le profil, vous pouvez rechercher rapidement des travailleurs, des candidats et des personnes à contacter qui correspondent à un ou plusieurs des critères entrés dans le profil et afficher la liste des candidats dont les qualifications correspondent le mieux aux qualifications requises pour la tâche.
 
-<table>
-<thead>
-<tr class="header">
-<th><strong>Remarque </strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Seuls les travailleurs, les candidats, les personnes à contacter sélectionnés pour être inclus dans les recherches de mise en correspondance des qualifications peuvent être affichés dans la liste des résultats de la mise en correspondance des qualifications ou être inclus dans un profil de qualification. Pour inclure un travailleur, un candidat ou une personne à contacter dans les recherches de mise en correspondance des qualifications, définissez l'option <strong>Inclure dans la mise en correspondance des qualifications</strong> sur Oui dans les pages suivantes :
-<ul>
-<li>Collaborateur</li>
-<li>Employé</li>
-<li>Candidat</li>
-<li>contacts ;</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+>**Remarque** Seuls les travailleurs, les candidats, les personnes à contacter sélectionnés pour être inclus dans les recherches de mise en correspondance des qualifications peuvent être affichés dans la liste des résultats de la mise en correspondance des qualifications ou être inclus dans un profil de qualification. Pour inclure un travailleur, un candidat ou une personne à contacter dans les recherches de mise en correspondance des qualifications, définissez l'option **Inclure dans la mise en correspondance des qualifications** sur Oui dans les pages suivantes :
+
+> + Collaborateur
+> + Employé
+> + Candidat
+> + contacts ;
 
 ## <a name="skill-gap-analysis-and-skill-profile-analysis"></a>Analyse des écarts de qualification et analyse des profils de qualification
 Vous pouvez créer une analyse des profils de qualification pour afficher la liste des compétences d'un travailleur, d'un candidat ou d'une personne à contacter à une date spécifique. Vous pouvez créer une analyse des écarts de qualification pour comparer les qualifications d'une personne aux qualifications requises pour une tâche donnée.  
@@ -80,5 +72,7 @@ Vous pouvez créer une analyse des profils de qualification pour afficher la lis
 --------
 
 [Ressources humaines](index.md)
+
+
 
 

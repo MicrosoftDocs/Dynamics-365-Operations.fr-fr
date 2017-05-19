@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 4dd1eae27ae33837fbab16f764083168578d0a29
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 69535f07cadda4f17bb5d846132ffe614495553e
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -44,8 +45,8 @@ Vous pouvez créer une commande client directement à partir d'un contrat de ven
 ## <a name="commitment-types"></a>Types d'engagements
 Chaque ligne d'un accord de vente exprime un engagement à vendre quelque chose. En général il existe deux catégories d'engagement :
 
--   **Engagement sur valeur **– Le client accepte d'acheter des produits pour un montant spécifique.
--   **Engagement à la quantité **– Le client accepte d'acheter une quantité spécifique de produits.
+-   **Engagement sur valeur**– Le client accepte d'acheter des produits pour un montant spécifique.
+-   **Engagement à la quantité**– Le client accepte d'acheter une quantité spécifique de produits.
 
 En outre, un contrat peut engager le client à acheter un ou des produits spécifiques dans une catégorie de produit. En combinant ces deux facteurs (valeur et quantité et produits spécifiques et catégories de produits), nous obtenons quatre types d'engagement :
 

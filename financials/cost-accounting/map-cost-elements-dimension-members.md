@@ -1,9 +1,9 @@
 ---
-title: "Mapper les différents membres de la dimension d&quot;élément de coût à un ensemble commun de membres de la dimension"
+title: "Mappage de membres de dimension d&quot;élément de coût à un ensemble commun de membres de dimension"
 description: "En mappant différents membres de la dimension d&quot;élément de coût à un ensemble commun de membres de la dimension d&quot;élément de coût, vous fusionnez les données en un format commun à des fins de analyse."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-11-01 13 - 45 - 07
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: global
 ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: a1e9817b6ee596ad516531d7597a2a39e115749c
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 24794f371e1914f8466cd9a7407fd263e94b00aa
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
-# <a name="map-different-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>Mapper les différents membres de la dimension d'élément de coût à un ensemble commun de membres de la dimension
+# <a name="map-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>Mappage de membres de dimension d'élément de coût à un ensemble commun de membres de dimension
+
+[!include[banner](../includes/banner.md)]
+
 
 En mappant différents membres de la dimension d'élément de coût à un ensemble commun de membres de la dimension d'élément de coût, vous fusionnez les données en un format commun à des fins de analyse.
 
@@ -48,5 +52,7 @@ Les différents plans de comptes que vous utilisez peuvent être paramétrés po
 
 ## <a name="update-mappings-at-any-time"></a>Mettre à jour les mappages à tout moment
 Vous pouvez mettre à jour les définitions de mappage pour une dimension d'article de coût à tout moment. Comme les mappages n'ont pas de dates d'effet, les modifications sont appliquées la prochaine fois que vous exécutez des transactions de coût ou des calculs de coûts.
+
+
 
 

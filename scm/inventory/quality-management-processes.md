@@ -3,7 +3,7 @@ title: "Processus de gestion de la qualité"
 description: "Cet article fournit des informations sur le processus de gestion de la qualité pour les produits non conformes. Elle décrit comment utiliser la fonctionnalité de contrôle qualité, comment définir et tenir à jour les non-conformités et gérer les corrections."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2015-10-30 12 - 53 - 17
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 2deec6d262e87daf4704ce21ce64546f9c9d638b
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 3523a89768bc3aee2aab250ee134128fcc3eeeef
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="quality-management-processes"></a>Processus de gestion de la qualité
+
+[!include[banner](../includes/banner.md)]
+
 
 Cet article fournit des informations sur le processus de gestion de la qualité pour les produits non conformes. Elle décrit comment utiliser la fonctionnalité de contrôle qualité, comment définir et tenir à jour les non-conformités et gérer les corrections.
 
@@ -52,7 +56,9 @@ Le processus de test des produits est généralement désigné comme contrôle q
 -   Enregistrer les résultats du test d'un ordre de qualité, les valider par rapport au niveau de qualité acceptable et imprimer un certificat d'analyse affichant les résultats du test.
 
 ## <a name="nonconformance"></a>Non-conformité
-Une non-conformité décrit un article ayant un problème de qualité.** **Le processus de non-conformité permet de créer une commande de non-conformité qui décrit une quantité de matières non conformes, la source du problème, le type du problème et des notes explicatives. Vous pouvez définir une classification des types de problèmes afin de faciliter l'analyse des matières non conformes. Vous pouvez également imprimer une balise de non-conformité et un état de non-conformité pour guider la mise au rebut des matières non conformes. Par exemple, la balise et l'état peuvent indiquer un état **Inutilisable** ou **Utilisation limitée**. Le tableau suivant répertorie les six types de non-conformité par défaut et décrit les informations qui doivent être enregistrées pour chaque type.
+Une non-conformité décrit un article qui a un problème qualitatif. Le processus de non-conformité permet de créer un ordre de non-conformité qui décrit la quantité de matières non conformes en termes de source du problème, de type de problème et de notes explicatives. Vous pouvez définir une classification des types de problèmes afin de faciliter l'analyse des matières non conformes. Vous pouvez également imprimer une balise de non-conformité et un état de non-conformité pour guider la mise au rebut des matières non conformes. Par exemple, la balise et l'état peuvent indiquer un état **Inutilisable** ou **Utilisation limitée**. 
+
+Le tableau suivant répertorie les six types de non-conformité par défaut et décrit les informations qui doivent être enregistrées pour chaque type.
 
 | Type de non-conformité   | Informations sur la source                                                                                                                                                                                                                          |
 |-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -72,10 +78,16 @@ Vous pouvez entrer des commentaires pour une non-conformité en associant un doc
 L'état de non-conformité affiche le numéro de non-conformité, l'article et le type de problème. Selon votre stratégie de paramétrage de l'état, l'état peut également afficher les notes associées sur la non-conformité. La balise de non-conformité affiche des informations similaires et affiche également la zone de quarantaines et le type (**Utilisation limitée** ou **Inutilisable**) affectés à la non-conformité pour guider la gestion des matières défectueuses.
 
 ## <a name="approved-nonconformance"></a>Non-conformité approuvée
-Vous pouvez définir une ou plusieurs opérations associées pour une non-conformité approuvée. Une opération associée décrit le travail qui doit être effectué, et contient une liste des opérations de qualité définies et un texte descriptif du motif du travail. Après avoir défini une opération, vous pouvez définir les frais divers, les articles et les heures de travail nécessaires à l'exécution de l'opération. Les coûts calculés sont indiqués pour l'opération associée et le total des coûts calculés est indiqué pour la non-conformité. Les coûts calculés et les détails sous-jacents (relatifs aux articles, heures travaillées et frais divers) constituent des informations de référence, qui ne sont utilisées que dans le cadre de la fonctionnalité de gestion de la qualité. Vous pouvez également créer un ordre de qualité à partir d'une non-conformité en effectuant en premier lieu une recherche d'ordres de qualité, puis en créant l'ordre de qualité. Par exemple, un ordre de qualité peut identifier la nécessité de tester (ou de tester à nouveau) les matières défectueuses. Le nouvel ordre de qualité affiche le lien vers la non-conformité d'origine. Vous pouvez lier une non-conformité à une autre ou en créer une à partir d'une conformité existante. Par exemple, le lien peut refléter l'interconnexion entre les problèmes de qualité.
+Vous pouvez définir une ou plusieurs opérations associées pour une non-conformité approuvée. Une opération associée décrit le travail qui doit être effectué, et contient une liste des opérations de qualité définies et un texte descriptif du motif du travail. Après avoir défini une opération, vous pouvez définir les frais divers, les articles et les heures de travail nécessaires à l'exécution de l'opération. Les coûts calculés sont indiqués pour l'opération associée et le total des coûts calculés est indiqué pour la non-conformité. Les coûts calculés et les détails sous-jacents (relatifs aux articles, heures travaillées et frais divers) constituent des informations de référence, qui ne sont utilisées que dans le cadre de la fonctionnalité de gestion de la qualité. 
+
+Vous pouvez également créer un ordre de qualité à partir d'une non-conformité en effectuant en premier lieu une recherche d'ordres de qualité, puis en créant l'ordre de qualité. Par exemple, un ordre de qualité peut identifier la nécessité de tester (ou de tester à nouveau) les matières défectueuses. Le nouvel ordre de qualité affiche le lien vers la non-conformité d'origine. 
+
+Vous pouvez lier une non-conformité à une autre ou en créer une à partir d'une conformité existante. Par exemple, le lien peut refléter l'interconnexion entre les problèmes de qualité.
 
 ## <a name="correction-handling"></a>Gestion des corrections
-La page **Corrections** permet de créer une liste de non-conformités qui doivent être corrigées. Chaque article de correction est associé au type de diagnostic qui a permis de découvrir le problème. La page **Corrections** contient également des informations sur qui doit effectuer une action corrective, et quand. Vous pouvez décrire les détails du problème et de l'action corrective requise en associant un document à la correction. Une fois la non-conformité prise en compte ou corrigée, vous « fermez » l'article de correction en sélectionnant l'option **Terminé**. Vous pouvez également indiquer que la solution est une solution à court terme. Il est judicieux de définir un type de document unique pour les corrections à l'aide de la page **Type de document**. Vous pouvez ensuite utiliser la page **Paramétrage d'état** pour définir si les commentaires pour ce type de document doivent être imprimés dans l'état de correction. Un état des corrections imprimé affiche les informations sur la non-conformité et les notes de non-conformité associées. L'état inclut également des informations de correction, telles que le type de diagnostic, et les notes de correction associées.
+La page **Corrections** permet de créer une liste de non-conformités qui doivent être corrigées. Chaque article de correction est associé au type de diagnostic qui a permis de découvrir le problème. La page **Corrections** contient également des informations sur qui doit effectuer une action corrective, et quand. Vous pouvez décrire les détails du problème et de l'action corrective requise en associant un document à la correction. Une fois la non-conformité prise en compte ou corrigée, vous « fermez » l'article de correction en sélectionnant l'option **Terminé**. Vous pouvez également indiquer que la solution est une solution à court terme. 
+
+Il est judicieux de définir un type de document unique pour les corrections à l'aide de la page **Type de document**. Vous pouvez ensuite utiliser la page **Paramétrage d'état** pour définir si les commentaires pour ce type de document doivent être imprimés dans l'état de correction. Un état des corrections imprimé affiche les informations sur la non-conformité et les notes de non-conformité associées. L'état inclut également des informations de correction, telles que le type de diagnostic, et les notes de correction associées.
 
 <a name="see-also"></a>Voir également :
 --------
@@ -91,5 +103,7 @@ La page **Corrections** permet de créer une liste de non-conformités qui doive
 [Configurer les ordres de qualité (Guide de tâche)](http://ax.help.dynamics.com/en/wiki/set-up-quality-orders/)
 
 [Inspecter la qualité des marchandises (guide de tâche)](https://ax.help.dynamics.com/en/wiki/inspect-the-quality-of-goods/)
+
+
 
 

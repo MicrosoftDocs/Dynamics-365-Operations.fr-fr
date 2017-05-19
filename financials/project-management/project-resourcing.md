@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: cmercado
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: eb32cf1b96dfef75131b8c7541e20a93615a87f7
-ms.openlocfilehash: c29c95fc6abd13e668c44d3ccf437bb0e879e46b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 11755e4ab4b3c1f55da80e57ff96e0b13c84c697
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -209,13 +210,13 @@ Les procédures suivantes expliquent comment créer une équipe de projet.
 1.  Dans la page de liste **Tous les projets**, sélectionnez un projet puis cliquez sur **Modifier**.
 2.  Sous l'onglet **Équipe projet et planification**, dans le champ **Date de fin de planification**, entrez la date de début de la planification plus un mois. Par exemple, si la date de début de la planification est le 24 juin 2017 (24/06/2017), entrez **24/07/2017**.
 3.  Cliquez sur **Ajouter**.
-4.  Dans le volet **Ajouter des rôles au projet**, dans le champ **Rôle **, sélectionnez **Chef de projet senior**.
+4.  Dans le volet **Ajouter des rôles au projet**, dans le champ **Rôle**, sélectionnez **Chef de projet senior**.
 5.  Cliquez sur **Compétences requises**.
 6.  Dans la page **Sélectionner les caractéristiques**, les caractéristiques que vous aviez précédemment définies pour le rôle de chef de projet senior sont sélectionnées par défaut. Cliquez sur **OK**.
 7.  Dans la page **Ajouter des rôles au projet**, dans le champ **Nombre de ressources**, entrez **1**.
 8.  Dans le champ **Ressource**, la recherche affiche toutes les ressources possédant les qualifications requises. Sélectionnez **Daniel Goldschmidt** puis cliquez sur **Créer**.
 9.  Dans la page **Projet**, cliquez sur **Ajouter**.
-10. Dans le volet **Ajouter des rôles au projet**, dans le champ **Rôle **, sélectionnez **Membre de l'équipe**. Dans le champ **Nombre de ressources**, entrez **5**.
+10. Dans le volet **Ajouter des rôles au projet**, dans le champ **Rôle**, sélectionnez **Membre de l'équipe**. Dans le champ **Nombre de ressources**, entrez **5**.
 11. Cliquez sur **Créer**.
 12. Dans la page **Projets**, cliquez sur **Traiter la ressource**.
 
@@ -316,7 +317,7 @@ Les options supplémentaires ont été ajoutées dans la WBS pour améliorer l'u
 
 > [!NOTE] 
 > Vous ne recevez pas d'avertissement indiquant que la ressource spécifiée est à présent de 2, car le nombre de ressources reste à 1.
-18. Dans la page **Structure de répartition du travail **, validez l'affectation de ressource dans la structure WBS, puis cliquez **Sauvegarder**.
+18. Dans la page **Structure de répartition du travail**, validez l'affectation de ressource dans la structure WBS, puis cliquez **Sauvegarder**.
 
 ## <a name="resource-fulfillment-for-planned-resources"></a>Traitement de ressources pour les ressources planifiées
 Un chef de projet peut organiser des rôles de ressources requis pour un projet. Le gestionnaire de ressources verra ces ressources planifiées en tant que demandes dans la page **Traitement des ressources** et peut affecter des ressources réelles.

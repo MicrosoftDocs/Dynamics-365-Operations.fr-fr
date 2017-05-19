@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: af7e7288f741b3c519227e2778c4c4311c3a2012
-ms.openlocfilehash: 88cdf531b6da615034f9982d3503b9add0100479
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 447ba56a279a29392b00119730c3594fa4ea80f6
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -42,7 +43,7 @@ La gestion des dépenses est étroitement intégrée à la gestion financière d
 
 ### <a name="per-diems"></a>Indemnités journalières
 
-Vous devez définir les indemnités journalières des employés proposées par votre organisation. Étant donné que les indemnités journalières sont généralement utilisés pour couvrir des dépenses telles que les repas, l'hébergement, ainsi que d'autres dépenses fortuites, vous pouvez créer des règles pour les indemnités journalières que votre organisation propose. Les taux d'indemnités journalières peuvent être basés sur la période de l'année ou sur la destination du déplacement, voire sur les deux. Lorsque vous définissez une règle d'indemnité journalière, vous pouvez indiquer qu'un pourcentage du taux d'indemnité journalière soit retenu si un collaborateur bénéficie de repas ou de services gratuits. Vous pouvez également définir des catégories de taux d'indemnités journalières afin de paramétrer un nombre d'heures minimal et maximal pendant lequel le taux d'indemnité journalière peut être appliqué dans le cadre du déplacement d'un collaborateur. **Décisions : **
+Vous devez définir les indemnités journalières des employés proposées par votre organisation. Étant donné que les indemnités journalières sont généralement utilisés pour couvrir des dépenses telles que les repas, l'hébergement, ainsi que d'autres dépenses fortuites, vous pouvez créer des règles pour les indemnités journalières que votre organisation propose. Les taux d'indemnités journalières peuvent être basés sur la période de l'année ou sur la destination du déplacement, voire sur les deux. Lorsque vous définissez une règle d'indemnité journalière, vous pouvez indiquer qu'un pourcentage du taux d'indemnité journalière soit retenu si un collaborateur bénéficie de repas ou de services gratuits. Vous pouvez également définir des catégories de taux d'indemnités journalières afin de paramétrer un nombre d'heures minimal et maximal pendant lequel le taux d'indemnité journalière peut être appliqué dans le cadre du déplacement d'un collaborateur. **Décisions :**
 
 -   Règles d'indemnités journalières par défaut pour le premier et dernier jours :
     -   Quel est le nombre d'heures minimal qu'un employé peut déclarer pour un jour et recevoir quand même une indemnité journalière ?
@@ -127,7 +128,7 @@ Pour les taxes relatives aux dépenses, vous devez déterminer ce qui est inclus
 Notez que si, lors de votre planification de la comptabilité, vous avez décidé d'appliquer les règles de la taxe américaine et de la taxe d'utilisation, opération effectuée en faisant basculer la valeur du champ **Appliquer les règles de taxe** sur Oui, vous ne pouvez pas activer le recouvrement fiscal pour les dépenses.
 
 ## <a name="policies"></a>Stratégies
-Vous pouvez créer des stratégies d'état de dépenses de sorte que votre organisation puisse gagner du temps et économiser de l'argent lorsque les employés encourent des dépenses en son nom. Les stratégies garantissent que les employés ne dépassent pas le budget, fournissent toutes les informations requises, et dépensent de l'argent uniquement lorsque cela est nécessaire. Vous devez prendre les décisions suivantes pour chaque stratégie d'état de dépenses et chaque stratégie d'approbation d'état de dépenses que vous créez. **Décisions : **
+Vous pouvez créer des stratégies d'état de dépenses de sorte que votre organisation puisse gagner du temps et économiser de l'argent lorsque les employés encourent des dépenses en son nom. Les stratégies garantissent que les employés ne dépassent pas le budget, fournissent toutes les informations requises, et dépensent de l'argent uniquement lorsque cela est nécessaire. Vous devez prendre les décisions suivantes pour chaque stratégie d'état de dépenses et chaque stratégie d'approbation d'état de dépenses que vous créez. **Décisions :**
 
 -   Quel est le nom de la stratégie ?
 -   À quoi sert la stratégie de dépenses ?

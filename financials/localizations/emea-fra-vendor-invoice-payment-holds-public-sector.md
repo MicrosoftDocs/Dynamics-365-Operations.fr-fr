@@ -18,10 +18,11 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 6bb98cc72c2ec0c1551412dd39d5bea3ce10e2cd
-ms.openlocfilehash: 834db5eba21908589ab72e40cfc82bc4cc7cc0a3
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 4dc3457160a7ab2656517301a473b6f79539d237
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -70,7 +71,7 @@ Créez ou supprimez une mise en attente de paiement pour une facture fournisseur
 Créez ou supprimer une mise en attente de paiement pour toutes les factures fournisseur qui sont associées à une commande fournisseur sur la page **Règlement des transactions**.
 
 ## <a name="can-i-settle-an-invoice-that-is-on-hold"></a>Puis-je régler une facture qui est en attente ?
-Si vous assumez le même rôle utilisateur que la personne qui a créé la mise en attente, vous pouvez y mettre fin à partir de la page** Règlement des transactions** et régler la facture fournisseur. Lorsque vous créez une mise en attente de paiement, l'option **Blocage de paiement de facture** est automatiquement sélectionnée sous l'onglet **Paiement** de la page **Règlement des transactions**. Cela permet d'empêcher qu'une facture fournisseur ne soit réglée avant la suppression de la mise en attente.
+Si vous assumez le même rôle utilisateur que la personne qui a créé la mise en attente, vous pouvez y mettre fin à partir de la page**Règlement des transactions** et régler la facture fournisseur. Lorsque vous créez une mise en attente de paiement, l'option **Blocage de paiement de facture** est automatiquement sélectionnée sous l'onglet **Paiement** de la page **Règlement des transactions**. Cela permet d'empêcher qu'une facture fournisseur ne soit réglée avant la suppression de la mise en attente.
 
 
 

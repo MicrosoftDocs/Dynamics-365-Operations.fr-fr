@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9397e84f03ee5b340fa2aa0a64e582fc0078526e
-ms.openlocfilehash: be156afa73de731e54985485b617bcbae883db3a
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 917771596a0c56561bf302ae990d95a987f442e0
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -38,7 +39,7 @@ Le calcul des montants de rémunération variable pour vos employés peut être 
 ## <a name="variable-compensation-components"></a>Composants de la rémunération variable
 ### <a name="create-compensation-types"></a>Créer des types de rémunération
 
-Les **types de rémunération variable **sont des composants obligatoires. Les types de rémunération variable permettent de décrire les types de rémunération variable que votre organisation attribue. Ils vous permettent également d'indiquer si la rémunération sera en espèces ou dans une forme non monétaire, par exemple en actions.
+Les **types de rémunération variable**sont des composants obligatoires. Les types de rémunération variable permettent de décrire les types de rémunération variable que votre organisation attribue. Ils vous permettent également d'indiquer si la rémunération sera en espèces ou dans une forme non monétaire, par exemple en actions.
 
 ### <a name="describe-vesting-rules"></a>Décrire les règles d'acquisition
 
@@ -53,17 +54,17 @@ Le **régime de rémunération variable** contient les règles, les modes de cal
 Le montant de la prime variable peut être basé soit sur un pourcentage de la rémunération de base de l'employé, soit sur un nombre d'unités défini.
 
 -   Sélectionnez l'option **Pourcentage de base** pour entrer le pourcentage par défaut, puis spécifiez si la base doit être le taux de salaire fixe de l'employé ou le point de contrôle du niveau de rémunération de l'employé. Le niveau de rémunération est défini sur la tâche de l'employé. Un des points de référence de la structure de rémunération peut être défini comme point de contrôle sur le régime de rémunération fixe. Le système utilise le niveau de rémunération de la tâche de l'employé et le compare au point de contrôle répertorié sur le régime de rémunération fixe de l'employé pour rechercher le montant du point de contrôle pour le niveau de rémunération de l'employé. Le montant du point de contrôle est ensuite utilisé à la place du taux de salaire fixe de l'employé comme base pour la prime.
--   Sélectionnez l'option** Nombre d'unités** pour entrer un nombre d'unités par défaut, la valeur de chaque unité et la devise de la valeur unitaire si le régime de rémunération concerne une prime non monétaire (par exemple, 200 unités d'actions qui correspondent à 40 EUR), ou seulement le nombre d'unités si le régime de rémunération concerne une prime en espèces. Pour une prime en espèces, l'employé recevra le nombre d'unités spécifié de la devise utilisée pour son régime de rémunération fixe (par exemple, 500 unités de 1 EUR). Le contrôle de la relation de 1 à 1 peut être utilisé pour indiquer s'il existe une mise en correspondance linéaire directe entre le nombre d'unités et la valeur unitaire. Lorsque vous créez un régime de rémunération variable pour un régime basé sur des espèces en utilisant le nombre d'unités, cette option est automatiquement verrouillée sur **Oui**, et la valeur unitaire est **1,0000**.
+-   Sélectionnez l'option**Nombre d'unités** pour entrer un nombre d'unités par défaut, la valeur de chaque unité et la devise de la valeur unitaire si le régime de rémunération concerne une prime non monétaire (par exemple, 200 unités d'actions qui correspondent à 40 EUR), ou seulement le nombre d'unités si le régime de rémunération concerne une prime en espèces. Pour une prime en espèces, l'employé recevra le nombre d'unités spécifié de la devise utilisée pour son régime de rémunération fixe (par exemple, 500 unités de 1 EUR). Le contrôle de la relation de 1 à 1 peut être utilisé pour indiquer s'il existe une mise en correspondance linéaire directe entre le nombre d'unités et la valeur unitaire. Lorsque vous créez un régime de rémunération variable pour un régime basé sur des espèces en utilisant le nombre d'unités, cette option est automatiquement verrouillée sur **Oui**, et la valeur unitaire est **1,0000**.
 
 Le paramètre **Règle d'embauche** permet de spécifier si tous les employés doivent recevoir la même augmentation, indépendamment de la date à laquelle ils ont été engagés (**Règle d'embauche** = **Aucune**), ou si les employés doivent recevoir un pourcentage de la prime, selon la durée pendant laquelle ils ont été employés au cours du cycle (**Règle d'embauche** = **Pourcentage**). 
 
 **Valeur** permet de régler la prime d'un employé, selon les performances du département de l'employé. Les mesures de performance peuvent être définies pour chaque département dans la page **Départements**, sous **Écrans associés** &gt; **Rémunération** &gt; **Performances**. La prime que les employés de ce département reçoivent dépend de la valeur du champ **Pourcentage de l'objectif atteint**, qui indique les performances du département :
 
--   Si les performances du département sont de 100 %, la prime pour les employés de ce département est factorisée par le pourcentage défini dans le champ** Paiement à 100 %**.
+-   Si les performances du département sont de 100 %, la prime pour les employés de ce département est factorisée par le pourcentage défini dans le champ**Paiement à 100 %**.
 -   Si les performances du département sont supérieures à 100 %, le système ajoute le pourcentage défini dans le champ **Pour 1 % au-dessus de l'objectif** au pourcentage défini dans le champ **Paiement à 100 %** jusqu'à ce que la valeur définie dans le champ **Paiement maximal autorisé** soit atteinte.
 -   Si les performances du département sont inférieures à 100 %, le système soustrait le pourcentage défini dans le champ **Pour 1 % en dessous de l'objectif** du pourcentage défini dans le champ **Paiement à 100 %** jusqu'à ce que la valeur définie dans le champ **Paiement minimal autorisé** soit atteinte.
 
-Vous pouvez définir des** niveaux de tolérance** sur les pourcentages de seuil, afin qu'un message d'avertissement apparaisse si le chiffre fait dépasser le pourcentage du pourcentage de seuil. 
+Vous pouvez définir des**niveaux de tolérance** sur les pourcentages de seuil, afin qu'un message d'avertissement apparaisse si le chiffre fait dépasser le pourcentage du pourcentage de seuil. 
 
 Par défaut, le système recherche le département qui est défini sur le poste de l'employé. Toutefois, la prime pour certains employés peut dépendre des performances de plusieurs départements. Dans ce cas, les divers départements et le pourcentage de prime alloué aux performances de chaque département peuvent être définis dans l'enregistrement de la rémunération variable de l'employé. Pour plus d'informations, voir la section « Inscription à la rémunération variable » ci-après. 
 

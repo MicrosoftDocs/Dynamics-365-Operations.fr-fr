@@ -3,7 +3,7 @@ title: "non documenté"
 description: "Un message d&quot;action est une suggestion générée par le système visant à modifier un ordre prévisionnel ou confirmé existant."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2015-12-07 09 - 21 - 54
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,26 +17,29 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: f2ac69ddf485139b057dafa20e5f1a961fc32067
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: c011ac5dbba5e98ff9f743237b02a69ea2b36a9d
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
-# <a name="undocumented"></a>non documenté
+# <a name="action-messages"></a>Messages d'action
+
+[!include[banner](../includes/banner.md)]
+
 
 Un message d'action est une suggestion générée par le système visant à modifier un ordre prévisionnel ou confirmé existant.
 
-### <a name="introduction"></a>Introduction
+## <a name="introduction"></a>Introduction
 
 Les messages d'action sont générés par le calcul de planification principal en réponse à la modification des demandes. Il est par exemple possible que la date d'expédition ou la quantité ait été modifié sur une commande client pour laquelle vous avez déjà créé une commande fournisseur pour honorer la demande. Dans ce cas, un ou plusieurs messages d'action sont générés par le calcul de planification principal pour mettre la commande fournisseur à jour. Vous devez décider d'apporter ou non les modifications suggérées.
 
 Vous pouvez configurer le mode de calcul des messages d'action pour un groupe de couverture que vous liez à un article.
 
- <a name="selecting-action-messages"></a>Sélection des messages d'action
-==========================
+## <a name="select-action-messages"></a>Sélection des messages d'action
 
 Sur la page **Groupes de couverture**, vous pouvez sélectionner les messages d'action que vous voulez que le système génère, et les groupes de couverture ou les articles auxquels les messages s'appliquent. Vous pouvez sélectionner les messages d'action suivants.
 
@@ -47,6 +50,8 @@ Sur la page **Groupes de couverture**, vous pouvez sélectionner les messages d'
 | **Diminution**        | Si vous sélectionnez ce message, des commandes fournisseur et d'autres transactions de réception doivent être diminués afin d'éviter des dépassements de niveaux de stock.                                                                                                   |
 | **Augmentation**        | Si vous sélectionnez ce message, des commandes fournisseur et d'autres transactions de réception doivent être augmentés afin d'éviter des ruptures de stock.                                                                                                    |
 | **Actions déduites** | Si vous sélectionnez ce message, des messages d'action sont créés pour les besoins déduits, par exemple, les actions pour les commandes de composants accomplissant la production.                                                                                                   |
+
+
 
 
 

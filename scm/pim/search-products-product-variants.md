@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 5b0f3c1a853f8f5e61dedaf588b6f9d2da3a53b5
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 9848b70dd6df4d9e3ff616e1a103a5e6ec5b5d05
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -33,7 +34,7 @@ ms.lasthandoff: 03/31/2017
 
 Utilisez le champ <strong>Numéro de l'article </strong>pour rechercher des produits et des variantes de produits lorsque vous créez manuellement une ligne de commande client ou une ligne de commande fournisseur.  Cela vous permet de rechercher rapidement des variantes de produits lorsque vous avez uniquement la chaîne de configuration ou l'une des dimensions de produit disponibles.
 
-Parfois, avoir trop de quelque chose n'est pas le plus judicieux, et c'est particulièrement vrai si vous vendez un certain nombre de produits similaires, et que vous tentez de vous souvenir des numéros d'articles ou des noms de produits pour rechercher le produit à insérer dans une commande client. Vous pouvez utiliser le champ ** Numéro d'article** sur une ligne de commande client ou une ligne de commande fournisseur comme champ de recherche. Vous pouvez entrer n'importe quelle partie du nom, du numéro ou de la dimension d'un produit, et d'obtenir une recherche qui affiche tous les articles qui correspondent au mot de recherche.
+Parfois, avoir trop de quelque chose n'est pas le plus judicieux, et c'est particulièrement vrai si vous vendez un certain nombre de produits similaires, et que vous tentez de vous souvenir des numéros d'articles ou des noms de produits pour rechercher le produit à insérer dans une commande client. Vous pouvez utiliser le champ **Numéro d'article** sur une ligne de commande client ou une ligne de commande fournisseur comme champ de recherche. Vous pouvez entrer n'importe quelle partie du nom, du numéro ou de la dimension d'un produit, et d'obtenir une recherche qui affiche tous les articles qui correspondent au mot de recherche.
 
 ## <a name="how-search-works"></a>Procédure de recherche
 Lorsque vous recherchez des produits ou des variantes de produits, il est important de bien comprendre comment la fonction de recherche permet de trouver les produits qui correspondent au texte que vous entrez. Les principales règles de recherche pour afficher des résultats de recherche sont :

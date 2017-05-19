@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: 25c2f85298bb89cb2802c7f0f7ff632c08aeca8f
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e25a7657c2b859ffd57313ed7eb8da6583e7130d
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -61,7 +62,7 @@ Vous pouvez apporter la correction par l'intermédiaire du bouton **Corriger la 
 
 Vous pouvez contrepasser une transaction client sur une facture si cette dernière a été créée de manière incorrecte. Si la transaction client contrepassée est associée à des intérêts faisant partie d'une note d'intérêt et que cette dernière a été validée, les intérêts de la transaction sont également contrepassés sur la note d'intérêt. La note d'intérêt est annulée si elle n'a pas été validée. 
 
-Vous pouvez contrepasser des transactions client par l'intermédiaire du bouton **Contrepasser **sur la page **Transactions client**.
+Vous pouvez contrepasser des transactions client par l'intermédiaire du bouton **Contrepasser**sur la page **Transactions client**.
 
 ## <a name="waive-or-reinstate-interest-notes"></a>Exonération ou rétablissement des notes d'intérêt
 Vous pouvez exonérer ou rétablir l'intégralité des frais des notes d'intérêt sélectionnées. Lorsque vous exonérez des frais, le montant total à exonérer ne peut pas dépasser les limites que vous avez définies. Vous pouvez rétablir une note d'intérêt uniquement si celle-ci a été précédemment exonérée. 
@@ -81,7 +82,7 @@ Vous pouvez exonérer ou rétablir les notes d'intérêt par l'intermédiaire du
 ## <a name="reverse-interest-notes"></a>Contrepasser les notes d'intérêt
 Vous pouvez contrepasser l'intégralité des frais des notes d'intérêt sélectionnées. Les frais contrepassés sont supprimés du compte client et ne sont plus dus. Une fois la note d'intérêt contrepassée, vous pouvez recalculer les intérêts et créer une note d'intérêt. 
 
-Vous pouvez contrepasser les notes d'intérêt par l'intermédiaire du bouton **Note d'intérêts **sous l'onglet **Collecter** de la page **Client**.
+Vous pouvez contrepasser les notes d'intérêt par l'intermédiaire du bouton **Note d'intérêts**sous l'onglet **Collecter** de la page **Client**.
 
 ## <a name="reverse-interest-transactions"></a>Contrepassation des transactions d'intérêt
 Vous pouvez contrepasser l'intégralité des transactions d'intérêt sélectionnées. Les frais contrepassés sont supprimés du compte client et ne sont plus dus. Une fois les transactions contrepassée, vous pouvez recalculer les intérêts et créer une note d'intérêt.
@@ -91,7 +92,7 @@ Vous pouvez contrepasser les transactions d'intérêt par l'intermédiaire du bo
 ## <a name="view-the-history-of-adjustments-for-charges-that-were-waived-reinstated-or-reversed"></a>Affichage de l'historique des ajustements pour les frais exonérés, rétablis ou contrepassés
 Vous pouvez afficher un historique détaillé des ajustements effectués pour les notes d'intérêt (utilisateur ayant entré l'ajustement, type d'ajustement, montant et date de saisie de l'ajustement). Par exemple, vous pouvez afficher les ajustements précédemment entrés pour une note d'intérêt avant d'en créer une. 
 
-Vous pouvez contrepasser les transactions d'intérêt par l'intermédiaire du bouton **Historique **sous l'onglet **Collecter** de la page **Client**.
+Vous pouvez contrepasser les transactions d'intérêt par l'intermédiaire du bouton **Historique**sous l'onglet **Collecter** de la page **Client**.
 
 
 

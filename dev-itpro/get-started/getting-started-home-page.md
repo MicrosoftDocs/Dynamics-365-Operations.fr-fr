@@ -3,7 +3,7 @@ title: "Où commencer"
 description: "Démarrez ici pour découvrir rapidement l&quot;interface utilisateur de Microsoft Dynamics 365 for Operations."
 eauthor: sericks007
 manager: AnnBe
-ms.date: 2015-12-11 15 - 19 - 40
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ o# ms.search.industry:
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 8f75131c6be6ce0f23cce456405d5e211912f19a
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 69995d2f8a463e82e7a26b673737889b4ea17402
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="where-to-start"></a>Où commencer
+
+[!include[banner](../includes/banner.md)]
+
 
 Démarrez ici pour découvrir rapidement l'interface utilisateur de Microsoft Dynamics 365 for Operations.
 
@@ -36,7 +40,7 @@ Les ressources suivantes fournissent une vue d'ensemble du fonctionnement de vot
 - [Vue d'ensemble de Microsoft FastTrack for Dynamics 365](/dynamics365/operations/get-started/fasttrack-dynamics-365-overview) 
 - [Souscrire un abonnement](../dev-tools/sign-up-preview-subscription.md) 
 - [Lifecycle Services (LCS) pour les clients Microsoft Dynamics 365 for Operations](../lifecycle-services/lcs-works-lcs.md) 
-- [Comment les clients ayant acheté Microsoft Dynamics 365 for Operations via un fournisseur de services en cloud peuvent obtenir la version locale de Dynamics 365 for Operations 2012](../deployment/csp-download-customersource.md)
+- [Comment les clients ayant acheté Microsoft Dynamics 365 for Operations via un fournisseur de services en cloud peuvent obtenir la version locale de Dynamics AX 2012](../deployment/csp-download-customersource.md)
 
 ## <a name="user-interface"></a>Interface utilisateur
 Les ressources suivantes fournissent des informations sur l'expérience utilisateur Dynamics 365 for Operations. 
@@ -71,12 +75,12 @@ L'enregistreur de tâches est un outil Dynamics 365 for Operations que vous pouv
 <a name="see-also"></a>Voir également :
 --------
 
-[Création de nouvelles bibliothèques de formation pour Dynamics 365 for Operations dans les Lifecycle Services à l’aide de l’enregistreur de tâches (lien externe)](https://docs.com/mufife/163372c6-f366-4c5a-94fa-93e2c25f878a/creating-new-training-libraries-for-dynamics-ax)
-
 [Nouveaux guides des tâches (février 2016)](new-task-guides-available-february-2016.md)
 
 [Guides de tâches nouveaux ou mis à jour (mai 2016)](new-updated-task-guides-available-may-2016.md)
 
 [Guides de tâches nouveaux ou mis à jour (novembre 2016)](new-task-guides-november-2016.md)
+
+
 
 

@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 60abaa69debd891b2fe2dd98184c0dab50b0bf9f
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 26ad7fb0e9371b8e1d45d61f2348241c6aca16b9
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -151,7 +152,7 @@ La règle avec le classement zéro sert de filet de sécurité. Si aucune autre 
 
 Du fait que le numéro du classement est important, dans le volet d'actions **Paramètres de commande par défaut**, des fonctions permettent de déplacer une règle vers le haut ou vers le bas du classement et pour renuméroter les règles, afin qu'elles soient toujours par incréments de 10. 
 
-Le nombre de règles créées pour un produit lancé peut être important. Afin de mieux comprendre ce que chaque règle remplace et pourquoi elles sont nécessaires, nous vous recommandons d'utiliser la **Vue Grille** sur la page** Paramètres de commande par défaut**. Vous pouvez activer la vue de la grille en accédant au volet d'actions **Options** &gt; **Options de page** &gt; **Changer de vue** &gt; **Vue Grille**. Le nombre de colonnes affichées dans la grille peut être très significatif, en particulier pour les onglets de ventes et de stock. Pour limiter le nombre de colonnes affichées dans la grille, des groupes de colonnes peuvent être masqués ou affichés à l'aide des boutons du menu **Paramètres de commande par défaut** &gt; **Affichage des colonnes**.
+Le nombre de règles créées pour un produit lancé peut être important. Afin de mieux comprendre ce que chaque règle remplace et pourquoi elles sont nécessaires, nous vous recommandons d'utiliser la **Vue Grille** sur la page**Paramètres de commande par défaut**. Vous pouvez activer la vue de la grille en accédant au volet d'actions **Options** &gt; **Options de page** &gt; **Changer de vue** &gt; **Vue Grille**. Le nombre de colonnes affichées dans la grille peut être très significatif, en particulier pour les onglets de ventes et de stock. Pour limiter le nombre de colonnes affichées dans la grille, des groupes de colonnes peuvent être masqués ou affichés à l'aide des boutons du menu **Paramètres de commande par défaut** &gt; **Affichage des colonnes**.
 
 ### <a name="specific-order-settings-for-released-product-variant"></a>Paramètres de commande spécifiques à une variante de produit lancé
 

@@ -17,10 +17,11 @@ ms.search.region: Switzerland
 ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f7fd20ef0c78bc781f0ef9f17fc612723906ac78
-ms.openlocfilehash: 87643da8ef213f72740370a52d500d9f6fb2fcf2
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 7881775d9a7e495e967040759907faa0a1add19e
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---

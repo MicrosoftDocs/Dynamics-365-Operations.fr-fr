@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: f82033798dbe603c0f2e2c92f91d28985c12b3b4
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 144a1adbff74aef468dd4b2c9f69bf479a5ec671
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -40,7 +41,7 @@ Dans les sociétés qui utilisent le pointage, les travailleurs doivent enregist
 -   Travailleurs tenus d'enregistrer leurs heures et leur présence à des intervalles réguliers (par exemple, à une fréquence quotidienne, hebdomadaire ou bihebdomadaire).
 -   Superviseurs, responsables et responsables des salaires chargés de calculer, approuver et transférer les enregistrements des travailleurs pour traitement.
 
-| **Remarque **                                                                                                                                                                                                                                                    |
+| **Remarque**                                                                                                                                                                                                                                                    |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Si vous exécutez le module Pointage avec le module Contrôle et suivi de la production, tous les enregistrements relatifs aux projets, activités de projet, activités indirectes, codes absence, heures supplémentaires et heures flexibles sont enregistrés et utilisés pour calculer la paie dans les deux modules. |
 
@@ -53,7 +54,7 @@ Après le paramétrage, les travailleurs peuvent entrer plusieurs types d'enregi
 -   Consommation de temps et d'articles liée aux tâches de production.
 -   Temps d'utilisation d'une machine de l'atelier, si la machine a été définie comme ressource.
 
-| **Remarque **                                                                                                                                                                                                                      |
+| **Remarque**                                                                                                                                                                                                                      |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Il est possible d'affecter automatiquement à un travailleur les enregistrements horaires effectués sur une machine spécifique de l'atelier, si le travailleur choisit de travailler comme assistant sur la machine lorsqu'il démarre la tâche de production. |
 
@@ -82,7 +83,7 @@ Tout comme vous affectez un groupe de calcul à un travailleur qualifié pour l'
 -   Ajouter des primes manuelles.
 -   Entrer des informations supplémentaires sur les enregistrements d'absence.
 
-| **Remarque **                                                                                                                                                                             |
+| **Remarque**                                                                                                                                                                             |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Si les heures supplémentaires ont été calculées pour des travailleurs spécifiques, elles peuvent être affectées à des tâches spécifiques au cours de la journée. Une telle opération est appropriée si le coût de la tâche est calculé sur la base du salaire du travailleur. |
 
@@ -102,7 +103,7 @@ Après approbation des enregistrements, vous pouvez les transférer vers une tâ
 ## <a name="reversing-transferred-registrations"></a>Contrepassation des enregistrements transférés
 La tâche de contrepassation ou d'annulation des transactions peut être effectuée jusqu'à l'exécution du transfert de paie de la période de salaire. Cela signifie que les données de paie ont été transférées vers un fichier externe. Une fois contrepassés, tous les enregistrements sont retirés et les transactions validées sur des ordres de fabrication ou des projets spécifiques sont compensées et neutralisées.
 
-| **Remarque **                                                 |
+| **Remarque**                                                 |
 |----------------------------------------------------------|
 | Le fichier externe peut être importé dans un système de paie. |
 

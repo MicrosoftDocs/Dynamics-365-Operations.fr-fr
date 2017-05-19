@@ -1,9 +1,9 @@
 ---
-title: "Configurer la génération d&quot;états électroniques pour fournir à Power BI des données Dynamics 365 for Operations"
+title: "Configurer la génération d&quot;états électronique pour extraire les données dans Power BI"
 description: "Cette rubrique explique comment vous pouvez utiliser la configuration de génération d&quot;états électroniques (ER) pour organiser le transfert des données entre votre instance de Dynamics 365 for Operations vers les services Power BI. En guise d&quot;exemple, cette rubrique utilise les transactions de déclaration d&quot;échanges de biens comme données commerciales qui doivent être transférées. La visualisation de carte Power BI utilise ces données de transaction de déclaration d&quot;échanges de biens pour présenter une vue permettant l&quot;analyse des activités d&quot;importation/d&quot;exportation de la société sur l&quot;état Power BI."
 author: kfend
 manager: AnnBe
-ms.date: 2016-10-31 13 - 22 - 29
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: ed0192c44b6d7e88120c64e539ebb0ac3b379831
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 4bbc77eb1edfe0c109434ce4d26228ed031f48bc
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
-# <a name="set-up-electronic-reporting-to-provide-power-bi-with-data-from-dynamics-365-for-operations"></a>Configurer la génération d'états électroniques pour fournir à Power BI des données Dynamics 365 for Operations
+# <a name="configure-electronic-reporting-to-pull-data-into-power-bi"></a>Configurer la génération d'états électronique pour extraire les données dans Power BI
+
+[!include[banner](../includes/banner.md)]
+
 
 Cette rubrique explique comment vous pouvez utiliser la configuration de génération d'états électroniques (ER) pour organiser le transfert des données entre votre instance de Dynamics 365 for Operations vers les services Power BI. En guise d'exemple, cette rubrique utilise les transactions de déclaration d'échanges de biens comme données commerciales qui doivent être transférées. La visualisation de carte Power BI utilise ces données de transaction de déclaration d'échanges de biens pour présenter une vue permettant l'analyse des activités d'importation/d'exportation de la société sur l'état Power BI.
 
@@ -61,7 +65,7 @@ Pour exécuter l'exemple décrit dans cette rubrique, vous devez disposer de l'a
 3.  Dans l'espace de travail **Génération des états électroniques**, rendez le fournisseur requis actif en cliquant sur **Activer**. Pour plus d'informations, lisez le Guide de tâche **ER Sélectionner un fournisseur de services**.
 
 ## <a name="use-an-er-data-model-as-the-source-of-data"></a>Utiliser un modèle de données ER comme source de données
-Vous devez disposer d'un modèle de données ER comme source de données commerciales qui sera utilisé dans les états Power BI. Ce modèle de données est téléchargé dans le référentiel de configurations ER. Pour plus d'informations, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](download-electronic-reporting-configuration-lcs.md), ou lisez le Guide de tâche **ER Charger une configuration à partir de Lifecycle Services**. Sélectionnez **Déclaration d'échanges de biens **comme modèle de données qui sera téléchargé depuis le référentiel de configurations ER sélectionné. (Dans cet exemple, la version 1 du modèle est utilisée.) Vous pouvez alors accéder à la configuration du modèle ER **Déclaration d'échanges de biens** sur la page **Configurations**. [![Page Configurations](./media/ger-power-bi-data-model-1024x371.png)](./media/ger-power-bi-data-model.png)
+Vous devez disposer d'un modèle de données ER comme source de données commerciales qui sera utilisé dans les états Power BI. Ce modèle de données est téléchargé dans le référentiel de configurations ER. Pour plus d'informations, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](download-electronic-reporting-configuration-lcs.md), ou lisez le Guide de tâche **ER Charger une configuration à partir de Lifecycle Services**. Sélectionnez **Déclaration d'échanges de biens**comme modèle de données qui sera téléchargé depuis le référentiel de configurations ER sélectionné. (Dans cet exemple, la version 1 du modèle est utilisée.) Vous pouvez alors accéder à la configuration du modèle ER **Déclaration d'échanges de biens** sur la page **Configurations**. [![Page Configurations](./media/ger-power-bi-data-model-1024x371.png)](./media/ger-power-bi-data-model.png)
 
 ## <a name="design-an-er-format-configuration"></a>Concevoir une configuration de format ER
 Vous devez créer une configuration de format ER en utilisant le modèle de données **Déclaration d'échanges de biens** comme source de données commerciales. Cette configuration de format doit générer des résultats de sortie en tant que documents électroniques dans le format OpenXML (fichier Excel). Pour plus d'informations, lisez le Guide de tâche **ER Créer une configuration pour des états au format OPENXML**. Nommez la nouvelle configuration **Activités d'importation/d'exportation**, comme le montre l'illustration suivante. Utilisez le fichier Excel [Données ER - Détails de l'importation de et de l'exportation](https://go.microsoft.com/fwlink/?linkid=845208) comme modèle lorsque vous concevez le format ER. (Pour plus d'informations sur l'importation d'un modèle de format, lisez le Guide de tâche.) [![Configuration des activités d'importation/d'exportation](media/ger-power-bi-format-configuration.png)](media/ger-power-bi-format-configuration.png) Pour modifier la configuration du format des **activités d'importation/d'exportation**, procédez comme suit.
@@ -119,5 +123,7 @@ Paramétrez l'intégration entre Dynamics 365 for Operations et Power BI. Pour p
 [Destinations des états électroniques](electronic-reporting-destinations.md)
 
 [Vue d'ensemble des États électroniques](general-electronic-reporting.md)
+
+
 
 

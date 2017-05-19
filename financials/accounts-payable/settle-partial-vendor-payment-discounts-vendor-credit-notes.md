@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 849cffa64eaf777f9f4c9243dab41b00fa59ad79
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 33bba0e037a8ccc09b3d47268ca2b350d1d25b5f
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -60,7 +61,7 @@ April clique sur **Valider**. Elle consulte le règlement complet. Elle constate
 | Sélectionné et mis en surbrillance | Standard            | Inv-10070 | 3050    | 6/29/2015 | 7/29/2015 | 10070    | -1 000,00                      | USD      | -200,00          |
 | Activé                 | Standard            | CR-10070  | 3050    | 7/2/2015  | 7/29/2015 | CR-10070 | 200,00                         | USD      | 198,00           |
 
-Elle peut revoir les transactions fournisseur dans la page **Transactions fournisseur** en sélectionnant un fournisseur dans la page **Tous les fournisseurs ** puis en cliquant sur **Transactions** dans le volet Actions. Sur cette page, April constate que la facture a un solde de 800,00. Elle constate également un avoir de 198,00 et une remise de 2,00.
+Elle peut revoir les transactions fournisseur dans la page **Transactions fournisseur** en sélectionnant un fournisseur dans la page **Tous les fournisseurs** puis en cliquant sur **Transactions** dans le volet Actions. Sur cette page, April constate que la facture a un solde de 800,00. Elle constate également un avoir de 198,00 et une remise de 2,00.
 
 | N° document    | Type de transaction | Date      | Facture | Montant au débit dans la devise de transaction | Montant au crédit dans la devise de transaction | Solde | Devise |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|

@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: 3e6b48768bb8e69d46f1555d9300f3b878b01ff1
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 35d34f9a356f8a041f2abf0aa8d6c3a6d9ca4a46
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="sales-and-profitability-performance-power-bi-content"></a>Contenu Power BI des performances de rentabilité et de vente
+
+[!include[banner](../includes/banner.md)]
+
 
 Cette rubrique décrit ce qui est inclus dans Dynamics 365 for Operations - Pack de contenu Performances de rentabilité et de vente pour Microsoft Power BI. Elle explique également comment accéder aux états inclus dans le pack de contenu, et fournit des informations sur le modèle de données et les entités qui permettent de créer le pack de contenu.
 
@@ -44,6 +48,7 @@ La rentabilité peut être analysée par :
 
 ## <a name="accessing-the-content-pack"></a>Accès au pack de contenu
 Le pack de contenu Performance de rentabilité et de vente pour Power BI est publié comme élément d'implémentation dans le cycle LCS (Lifecycle Services) est est accessible à partir de Dynamics 365 for Operations. Pour plus d'informations sur l'accès et l'utilisation des états Power BI, voir [Contenu Power BI dans LCS de Microsoft et de vos partenaires](power-bi-content-microsoft-partners.md).
+**Remarque :** le KB 4011327 doit être consulté au prélable pour ce contenu Power BI. Une fois que vous êtes connecté à Lifecycle Services, vous pouvez accéder à la Base de connaissances ici : <a href="https://fix.lcs.dynamics.com/issue/results/?q=kb4011327">https://fix.lcs.dynamics.com/issue/results/?q=kb4011327</a>.
 
 ## <a name="metrics-included-in-the-content-pack"></a>Éléments de mesures compris dans le pack de contenu
 Le pack de contenu comprend un état constitué d'un ensemble d'éléments de mesure visualisés sous forme de graphiques, vignettes et tableaux. Le tableau suivant offre une vue d'ensemble des visualisations proposées dans le pack de contenu.
@@ -110,6 +115,8 @@ Voici quelques liens utiles liés aux entités et à la création du contenu Pow
 -   [Création de packs de contenu d'organisation](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 -   [Modélisation de données à l'aide de Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [Ajout de vignettes Power BI aux espaces de travail](configure-power-bi-integration.md)
+
+
 
 
 

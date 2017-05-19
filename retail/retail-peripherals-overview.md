@@ -17,10 +17,11 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 79a43c35691f16d773b88faad63c4ab79cb93f1f
-ms.openlocfilehash: c6fb3922ba2c4b15f1043d0bcbac40ff2da9a469
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 82891b44a3ba3da23f3ce7a9b86be5e8f88d2afd
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -119,7 +120,7 @@ La prise en charge des périphériques de paiement est implémentée par l'inter
 
 Pour permettre d'utiliser la plus large gamme possible de périphériques avec Microsoft Dynamics 365 for Operations - Vente au détail, la norme OLE pour le secteur des PDV est la principale plateforme de périphériques prise en charge dans Microsoft Dynamics 365 for Operations - Vente au détail. La norme OLE pour le secteur des PDV a été produite par NRF (National Retail Federation), qui établit les protocoles de transmission standard pour les périphériques de vente au détail. OPOS est une implémentation largement adoptée de la norme OLE pour le secteur des PDV. Il a été développé dans le milieu des années 1990 et a depuis lors été plusieurs fois actualisé. OPOS fournit une architecture de pilote de périphérique qui permet l'intégration facile des matériels de PDV avec les systèmes de PDV fondés sur Windows. Les contrôles OPOS gèrent les communications entre les matériels compatibles et le logiciel de PDV. Un contrôle OPOS est composé de deux parties :
 
--   **Control object** – L'objet de contrôle pour une classe de périphérique (comme une ligne d'affichage) fournit l'interface du programme logiciel. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) fournit un ensemble normalisé d'objets de contrôle OPOS qui sont appelés objets de contrôle commun (CCO). Les CCO sont utilisés pour tester le composant PDV de Microsoft Dynamics 365 for Operations - Vente au détail. Par conséquent, les tests garantissent que, si Microsoft Dynamics 365 for Operations - Vente au détail prend en charge une classe de périphérique via OPOS, de nombreux types de périphérique peuvent être pris en charge, à condition que le fabricant fournisse un objet de service conçu pour OPOS. Il n'est pas nécessaire de tester explicitement chaque type de périphérique.
+-   **Objet de contrôle** – L'objet de contrôle pour une classe de périphérique (comme une ligne d'affichage) fournit l'interface du programme logiciel. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) fournit un ensemble normalisé d'objets de contrôle OPOS qui sont appelés objets de contrôle commun (CCO). Les CCO sont utilisés pour tester le composant PDV de Microsoft Dynamics 365 for Operations - Vente au détail. Par conséquent, les tests garantissent que, si Microsoft Dynamics 365 for Operations - Vente au détail prend en charge une classe de périphérique via OPOS, de nombreux types de périphérique peuvent être pris en charge, à condition que le fabricant fournisse un objet de service conçu pour OPOS. Il n'est pas nécessaire de tester explicitement chaque type de périphérique.
 -   **Objet de service** – L'objet de service fournit les communications entre l'objet de contrôle (CCO) et le périphérique. Généralement, l'objet de service pour un périphérique est fourni par le fabricant de celui-ci. Toutefois, dans certains cas, vous devez télécharger l'objet de service à partir du site Web du fabricant. Par exemple, il peut s'y trouver un objet de service plus récent disponible. Pour trouver l'adresse du site Web du fabricant, consultez la documentation de votre matériel.
 
 [![Objet de contrôle et objet de service](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) La prise en compte de la norme OLE pour l'implémentation d'OPOS pour les PDV garantit que, si les fabricants de périphérique et les éditeurs de PDV implémentent la norme correctement, les systèmes de PDV et les périphériques pris en charge peuvent fonctionner ensemble, même s'ils n'ont pas été testés ensemble au préalable. **Remarque :** La prise en charge d'OPOS ne garantit pas la prise en charge de tous les périphériques dotés de pilotes OPOS. Microsoft Dynamics 365 for Operations - Vente au détail doit en premier lieu prendre en charge ce type ou cette classe de périphérique par l'intermédiaire d'OPOS. En outre, les objets de service ne peuvent pas toujours être à jour avec la dernière version des CCO. Vous devez également tenir compte du fait que, de manière générale, la qualité des objets de service est variable.

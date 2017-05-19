@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 1a8cbe01bb774ac7fc4aac721dca00674852197f
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 3592f3c076681c5b755b62383212bbe6d158f62d
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -50,7 +51,7 @@ La segmentation des groupes de coûts peut également s'appliquer aux écarts po
 Un type de groupe de coûts et un comportement pour une segmentation supplémentaire peuvent être affectés à un groupe de coûts.
 
 -   **Type de groupe de coûts** − Chaque groupe de coûts peut se voir affecter un type de groupes de coûts pour indiquer que le groupe de coûts s'applique au matériel direct, à la fabrication directe ou à la sous-traitance directe, ou pour le désigner comme étant indirect ou indéterminé. Un groupe de coûts désigné comme faisant partie du matériel direct peut être affecté aux articles. Un groupe de coûts de la fabrication directe peut être affecté aux catégories de coûts. Un groupe de coûts de sous-traitance directe peut être affecté à un type de produit de service, pour vous permettre de classer les coûts associés à l'achat de service en activités de sous-traitance. Un groupe de coûts indirects peut être affecté aux coûts indirects pour les surcharges ou les taux. Un groupe de coûts indéterminé peut être affecté aux articles, aux catégories de coûts ou aux coûts indirects. L'affectation d'un type de groupe de coûts a différents objectifs. Premièrement, elle offre la possibilité d'affecter un groupe de coûts et d'afficher la liste des groupes de coûts applicables. Deuxièmement, elle offre une segmentation supplémentaire pour la génération d'états. Troisièmement, elle peut servir à l'affectation de comptes généraux pour les écarts.
--   **Comportement** − Un comportement peut éventuellement être affecté à chaque groupe de coûts pour indiquer que le groupe de coûts s'applique aux coûts fixes ou variables. Un groupe de coûts avec la valeur null pour le comportement est traité comme des coûts variables. L'affectation d'un comportement sert uniquement à la génération d'états. Par exemple, les coûts peuvent être affichés avec la segmentation de coûts fixes et variables sur la feuille d'évaluation des coûts et dans la page** Repositionnement des coûts par groupe de coûts**. Si vous affectez un pourcentage de paramétrage de profit à chaque groupe de coûts, le calcul de nomenclature définit un prix de vente suggéré basé sur une approche coût plus majoration.
+-   **Comportement** − Un comportement peut éventuellement être affecté à chaque groupe de coûts pour indiquer que le groupe de coûts s'applique aux coûts fixes ou variables. Un groupe de coûts avec la valeur null pour le comportement est traité comme des coûts variables. L'affectation d'un comportement sert uniquement à la génération d'états. Par exemple, les coûts peuvent être affichés avec la segmentation de coûts fixes et variables sur la feuille d'évaluation des coûts et dans la page**Repositionnement des coûts par groupe de coûts**. Si vous affectez un pourcentage de paramétrage de profit à chaque groupe de coûts, le calcul de nomenclature définit un prix de vente suggéré basé sur une approche coût plus majoration.
 
 
 

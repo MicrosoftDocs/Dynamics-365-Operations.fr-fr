@@ -1,9 +1,9 @@
 ---
 title: "Méthodes et conventions d&quot;amortissement"
-description: "Cet article fournit une vue d&quot;ensemble des conventions d&quot;amortissement et des méthodes d&quot;amortissement prises en charge par Microsoft Dynamics AX."
+description: "Cet article fournit une vue d&quot;ensemble des conventions d&quot;amortissement et des méthodes d&quot;amortissement prises en charge par Microsoft Dynamics 365 for Operations."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 8e89a57dda8f2d392483ed13c686ea97b74926b0
-ms.openlocfilehash: 51c053e6c130d20258e02284d097431a18bb38cb
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 4b32cd8cbd270424d0790e242d75dc214ffea123
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -31,7 +32,7 @@ ms.lasthandoff: 03/31/2017
 [!include[banner](../includes/banner.md)]
 
 
-Cet article fournit une vue d'ensemble des conventions d'amortissement et des méthodes d'amortissement prises en charge par Microsoft Dynamics AX.
+Cet article fournit une vue d'ensemble des conventions d'amortissement et des méthodes d'amortissement prises en charge par Microsoft Dynamics 365 for Operations.
 
 Vous pouvez sélectionner diverses méthodes et conventions d'amortissement. L'objet des méthodes est l'attribution de la valeur amortissable de l'immobilisation dans des périodes fiscales. La valeur amortissable de l'immobilisation correspond au prix d'acquisition, moins la valeur de mise au rebut, le cas échéant. 
 
@@ -90,6 +91,7 @@ Vous pouvez choisir parmi les méthodes d'amortissement suivantes.
 [Amortissement dégressif de 175 %](175-percent-reducing-balance-depreciation.md)
 
 [Amortissement dégressif de 200 %](200-percent-reducing-balance-depreciation.md)
+
 
 
 

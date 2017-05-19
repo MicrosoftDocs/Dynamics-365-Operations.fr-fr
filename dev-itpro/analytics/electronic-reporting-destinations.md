@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: d38d05fe445bf0326d408038dff84ccf8c0ff64c
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: b6b0edfbbcebed323be63d5bc892dba1170b9c67
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -60,7 +61,7 @@ Différents types de destinations sont pris en charge. Vous pouvez désactiver o
 
 ### <a name="email-destination"></a>Destination du courrier électronique
 
-Définissez **Activé **sur **Oui** pour envoyer un fichier de sortie par courrier électronique. Une fois cette option activée, vous pouvez spécifier les destinataires du message et modifier l'objet et le corps du courrier électronique. Vous pouvez paramétrer des textes constants pour l'objet et le corps du courrier électronique, ou vous pouvez utiliser des formules de génération d'états électroniques pour créer dynamiquement les textes de courrier électronique. Vous pouvez configurer les adresses électroniques pour les états électroniques de deux manières. La configuration peut être effectuée de la même manière que la fonctionnalité de gestion de l'impression dans Dynamics 365 for Operations. Vous pouvez également résoudre une adresse électronique en utilisant une référence directe à la configuration d'états électroniques via une formule.
+Définissez **Activé**sur **Oui** pour envoyer un fichier de sortie par courrier électronique. Une fois cette option activée, vous pouvez spécifier les destinataires du message et modifier l'objet et le corps du courrier électronique. Vous pouvez paramétrer des textes constants pour l'objet et le corps du courrier électronique, ou vous pouvez utiliser des formules de génération d'états électroniques pour créer dynamiquement les textes de courrier électronique. Vous pouvez configurer les adresses électroniques pour les états électroniques de deux manières. La configuration peut être effectuée de la même manière que la fonctionnalité de gestion de l'impression dans Dynamics 365 for Operations. Vous pouvez également résoudre une adresse électronique en utilisant une référence directe à la configuration d'états électroniques via une formule.
 
 ### <a name="email-address-types"></a>Types d'adresses électroniques
 
@@ -92,7 +93,7 @@ Utilisez ce type de courrier électronique si la configuration que vous utilisez
 
 ### <a name="archive-destination"></a>Destination de l'archive
 
-Vous pouvez utiliser cette option pour envoyer la sortie vers un dossier Microsoft SharePoint ou le stockage Microsoft Azure. Définissez **Activé** sur **Oui **pour envoyer la sortie vers une destination définie par le type de document sélectionné. Seuls les types de documents où le groupe est défini sur **Fichier** sont disponibles pour la sélection. Vous définissez les types de documents dans **Administration d’organisation** &gt; **Gestion de documents** &gt; **Types de documents**. La configuration des destinations d'états électroniques est identique à la configuration du système de gestion des documents.
+Vous pouvez utiliser cette option pour envoyer la sortie vers un dossier Microsoft SharePoint ou le stockage Microsoft Azure. Définissez **Activé** sur **Oui**pour envoyer la sortie vers une destination définie par le type de document sélectionné. Seuls les types de documents où le groupe est défini sur **Fichier** sont disponibles pour la sélection. Vous définissez les types de documents dans **Administration d’organisation** &gt; **Gestion de documents** &gt; **Types de documents**. La configuration des destinations d'états électroniques est identique à la configuration du système de gestion des documents.
 
 [![Page Types de documents](./media/ger_documenttypefile-1024x542.jpg)](./media/ger_documenttypefile.jpg) 
 

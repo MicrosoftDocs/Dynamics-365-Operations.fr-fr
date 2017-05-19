@@ -3,7 +3,7 @@ title: Inventaire tournant
 description: "Cet article décrit la manière dont vous pouvez utiliser l&quot;inventaire tournant associé à la solution de stockage disponible dans le module Gestion des entrepôts. Cet article ne s&quot;applique pas à la solution de stockage disponible dans la Gestion des stocks."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-02-18 11 - 46 - 20
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 3d02a15387231160f5b8a237aa11008b91ef1223
-ms.openlocfilehash: ffc1523d53732616d77511f39b72efc8f97744eb
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 387d114936567fc471cdcafcb2e93c1704db7ead
+ms.contentlocale: fr-fr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="cycle-counting"></a>Inventaire tournant
+
+[!include[banner](../includes/banner.md)]
+
 
 Cet article décrit la manière dont vous pouvez utiliser l'inventaire tournant associé à la solution de stockage disponible dans le module Gestion des entrepôts. Cet article ne s'applique pas à la solution de stockage disponible dans la Gestion des stocks.
 
@@ -39,7 +43,6 @@ L'illustration suivante indique comment effectuer le processus d'inventaire tour
 
 ## <a name="cycle-counting-prerequisites"></a>Conditions requises pour l'inventaire tournant
 Le tableau suivant indique les conditions requises devant être mises en place avant d'utiliser l'inventaire tournant.
-
 <table>
 <colgroup>
 <col width="50%" />
@@ -82,7 +85,7 @@ Le tableau suivant indique les conditions requises devant être mises en place a
 <li>Regroupement d'inventaires tournants</li>
 <li>Inventaire tournant ponctuel</li>
 </ul>
-Pour plus d'informations, voir <a href="configure-mobile-devices-warehouse">Configurer des appareils mobiles pour un travail d'entrepôt</a>.</li>
+</li>
 <li>Paramétrez un menu pour l'appareil mobile.</li>
 <li>Créez un compte d'utilisateur de travail et affectez un menu d'appareil mobile à l'ID utilisateur de travail.</li>
 </ul></td>
@@ -133,6 +136,9 @@ Une différence au niveau de l'inventaire tournant se produit dans les scénario
 -   La valeur d'inventaire tournant diffère de la quantité de stock disponible et aucune limite d'écart n'est définie.
 
 Ajustez les différences dans la valeur d'inventaire puis acceptez la valeur d'inventaire dans la page **Inventaire tournant en attente de révision**. Vous pouvez vérifier le compte modifié de la quantité d'articles dans la page **Disponible par emplacement**. La valeur d'inventaire est rejetée si la différence ne peut pas être approuvée.
+
+# <a name="see-also"></a>Voir également :
+[Configurer des appareils mobiles pour un travail d'entrepôt](configure-mobile-devices-warehouse.md)
 
 
 
