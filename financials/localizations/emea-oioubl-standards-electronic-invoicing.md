@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -18,10 +18,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 3023747a4349153ce0b25b56dce5593bce741f1a
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: ab36ba1248ba797cbedbc76c6abdc5d089d91103
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -33,7 +33,7 @@ ms.lasthandoff: 04/25/2017
 
 Cette rubrique explique les niveaux de couverture pour la facturation électronique dans Microsoft Dynamics 365 for Operations en Europe. 
 
-La [Commission européenne](http://ec.europa.eu/finance/payments/einvoicing/index_en.htm) décrit le réseau de génération d'états électroniques dans les termes suivants : « La facturation électronique ou e-facturation est le transfert électronique d'informations de facturation (facturation et paiement) entre partenaires commerciaux (fournisseur et acheteur). C'est une partie essentielle d'une chaîne d'approvisionnement financière efficace qui lie les processus internes des entreprises aux systèmes de paiement ». L'implémentation et l'adoption de la facturation électronique à l'échelle de l'Union européenne est réglementée [Directive 2010/45/EU](http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2010:189:0001:0008:EN:PDF), ce qui affecte tous les États membres de l'UE. Les sociétés qui souhaitent tirer parti de la facturation électronique doivent envoyer les factures de commande client, les factures financières, les factures de projet, les avoirs de commande client et les avoirs de facture de projet sous forme de fichiers .xml au gouvernement ou à d'autres partenaires commerciaux qui mandatent l'utilisation de la facturation électronique. Ces fichiers .xml doivent être conformes à certaines normes. Les exigences spécifiques au pays et leur implémentation peuvent différer entre les États membres de l'UE, mais généralement ils utilisent le langage universel des affaires ([UBL](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=ubl)) dans différentes versions avec des personnalisations ainsi que les spécifications [PEPPOL](http://www.peppol.eu/peppol_elements/einvoicing) et les points d'accès pour la validation et le transport. Le principal l'avantage du langage UBL est que les documents commerciaux peuvent être normalisés à différentes fins. Comme le langage UBL est une norme internationale flexible qui répond à de nombreuses exigences métier, ces documents commerciaux peuvent être échangés entre les frontières nationales.
+La [Commission européenne](http://ec.europa.eu/finance/payments/einvoicing/index_en.htm) décrit le réseau de génération d'états électroniques dans les termes suivants : « La facturation électronique ou e-facturation est le transfert électronique d'informations de facturation (facturation et paiement) entre partenaires commerciaux (fournisseur et acheteur). C'est une partie essentielle d'une chaîne d'approvisionnement financière efficace qui lie les processus internes des entreprises aux systèmes de paiement ». L'implémentation et l'adoption de la facturation électronique à l'échelle de l'Union européenne est réglementée [Directive 2010/45/EU](http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2010:189:0001:0008:EN:PDF), ce qui affecte tous les États membres de l'UE. Les sociétés qui souhaitent tirer parti de la facturation électronique doivent envoyer les factures de commande client, les factures financières, les factures de projet, les avoirs de commande client et les avoirs de facture de projet sous forme de fichiers .xml au gouvernement ou à d'autres partenaires commerciaux qui mandatent l'utilisation de la facturation électronique. Ces fichiers .xml doivent être conformes à certaines normes. Les exigences spécifiques au pays et leur implémentation peuvent différer entre les États membres de l'UE, mais généralement ils utilisent le langage universel des affaires ([UBL](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=ubl)) dans différentes versions avec des personnalisations ainsi que les spécifications [PEPPOL](http://www.peppol.eu) et les points d'accès pour la validation et le transport. Le principal l'avantage du langage UBL est que les documents commerciaux peuvent être normalisés à différentes fins. Comme le langage UBL est une norme internationale flexible qui répond à de nombreuses exigences métier, ces documents commerciaux peuvent être échangés entre les frontières nationales.
 
 <a name="what-electronic-invoice-formats-are-currently-supported-in-dynamics-365-for-operations"></a>Quels formats de facture électronique sont actuellement pris en charge dans Dynamics 365 for Operations ?
 ---------------------------------------------------------------------------------------

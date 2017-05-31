@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -17,10 +17,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 052cec3010c0d5ecbb9ed341fb23d0ec64682467
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 1924562f866ecdbb6fa6d3d0a9dc7627387f2d6a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -106,13 +106,11 @@ Procédez comme suit pour indiquer à qui affecter la tâche d'approbation.
     <td>Utilisateurs d'une hiérarchie organisationnelle spécifique</td>
     <td><ol>
     <li>Après avoir sélectionné <strong>Hiérarchie</strong>, sous l'onglet <strong>Sélection de hiérarchie</strong>, dans la liste <strong>Type de hiérarchie</strong>, sélectionnez le type de hiérarchie auquel affecter l'étape.</li>
-    <li>Le système doit extraire un ensemble de noms d'utilisateurs de la hiérarchie. Ces noms représentent les utilisateurs à qui l'étape peut être affectée. Pour indiquer le point de départ et le point final de l'ensemble de noms d'utilisateurs extraits par le système, procédez comme suit :
-    <ol>
+    <li>Le système doit extraire un ensemble de noms d'utilisateurs de la hiérarchie. Ces noms représentent les utilisateurs à qui l'étape peut être affectée. Pour indiquer le point de départ et le point final de l'ensemble de noms d'utilisateurs extraits par le système, procédez comme suit : <ol>
     <li>Pour spécifier le point de départ, sélectionnez une personne dans la liste <strong>Commencer à</strong>.</li>
     <li>pour indiquer le point final, cliquez sur <strong>Ajouter une condition</strong>. Entrez ensuite une condition pour indiquer où le système arrête l'extraction de noms dans la hiérarchie.</li>
     </ol></li>
-    <li>Sous l'onglet <strong>Options de la hiérarchie</strong>, spécifiez les utilisateurs de la sélection auxquels affecter l'étape :
-    <ul>
+    <li>Sous l'onglet <strong>Options de la hiérarchie</strong>, spécifiez les utilisateurs de la sélection auxquels affecter l'étape : <ul>
     <li><strong>Affecter à tous les utilisateurs récupérés</strong> – L'étape est affectée à tous les utilisateurs de la sélection.</li>
     <li><strong>Affecter uniquement au dernier utilisateur récupéré</strong> – L'étape est affectée uniquement au dernier utilisateur de la sélection.</li>
     <li><strong>Exclure les utilisateurs à la condition suivante</strong> – L'étape n'est affectée à aucun des utilisateurs de la sélection qui remplissent une condition. Cliquez sur <strong>Ajouter une condition</strong> pour spécifier la condition.</li>
@@ -211,13 +209,11 @@ Si un utilisateur ne traite pas un document dans le délai imparti, le document 
     <td>Utilisateurs d'une hiérarchie organisationnelle spécifique</td>
     <td><ol>
     <li>Après avoir sélectionné <strong>Hiérarchie</strong>, sous l'onglet <strong>Sélection de hiérarchie</strong>, dans la liste <strong>Type de hiérarchie</strong>, sélectionnez le type de hiérarchie à laquelle réaffecter le document.</li>
-    <li>Le système doit extraire un ensemble de noms d'utilisateurs de la hiérarchie. Ces noms représentent les utilisateurs à qui le document peut être réaffecté. Pour indiquer le point de départ et le point final de l'ensemble de noms d'utilisateurs extraits par le système, procédez comme suit :
-    <ol>
+    <li>Le système doit extraire un ensemble de noms d'utilisateurs de la hiérarchie. Ces noms représentent les utilisateurs à qui le document peut être réaffecté. Pour indiquer le point de départ et le point final de l'ensemble de noms d'utilisateurs extraits par le système, procédez comme suit : <ol>
     <li>Pour spécifier le point de départ, sélectionnez une personne dans la liste <strong>Commencer à</strong>.</li>
     <li>pour indiquer le point final, cliquez sur <strong>Ajouter une condition</strong>. Entrez ensuite une condition pour indiquer où le système arrête l'extraction de noms dans la hiérarchie.</li>
     </ol></li>
-    <li>Sous l'onglet <strong>Options de la hiérarchie</strong>, indiquez les utilisateurs de la sélection à qui le document est réaffecté :
-    <ul>
+    <li>Sous l'onglet <strong>Options de la hiérarchie</strong>, indiquez les utilisateurs de la sélection à qui le document est réaffecté : <ul>
     <li><strong>Affecter à tous les utilisateurs récupérés</strong> – Le document est réaffecté à tous les utilisateurs de la sélection.</li>
     <li><strong>Affecter uniquement au dernier utilisateur récupéré</strong> – Le document est réaffecté uniquement au dernier utilisateur de la sélection.</li>
     <li><strong>Exclure les utilisateurs à la condition suivante</strong> – Le document n'est affecté à aucun des utilisateurs de la sélection qui remplissent une condition. Cliquez sur <strong>Ajouter une condition</strong> pour spécifier la condition.</li>

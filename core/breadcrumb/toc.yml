@@ -18,6 +18,7 @@
     - name: Vente au détail
       tocHref: /dynamics365/operations/retail/
       topicHref: /dynamics365/operations/retail/index
-    - name: Chaîne d'approvisionnement 
+    - name: Chaîne d'approvisionnement
+ 
       tocHref: /dynamics365/operations/supply-chain/
       topicHref: /dynamics365/operations/supply-chain/index

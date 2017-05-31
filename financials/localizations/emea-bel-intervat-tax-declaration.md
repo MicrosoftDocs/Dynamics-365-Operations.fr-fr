@@ -1,29 +1,28 @@
 ---
 title: "Déclaration de taxe INTERVAT"
 description: "Cette rubrique fournit les informations spécifiques au pays/à la région pour la configuration et la création de la déclaration de taxe INTERVAT pour les entités juridiques en Belgique uniquement."
-author: annbe
+author: v-oloski
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: TaxIntervat
 audience: Application User
-ms.reviewer: ShylaThompson
+ms.reviewer: shylaw
 ms.search.scope: AX 7.0.1, Operations, Core
 ms.custom: 273023
-ms.assetid: 619afcc2-c6b1-4364-8ff1-33b5efcc1807
 ms.search.region: Belgium
 ms.search.industry: All
-ms.author: ShylaThompson
+ms.author: v-oloski
 ms.dyn365.ops.intro: AX 7.0.1
 ms.search.validFrom: 2016-05-31
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: a15ed651cfe15133a79264a1f93d8bde2ebfc140
+ms.sourcegitcommit: fd42fe23b30fe163a003614d6cbe9ff24ae38c5d
+ms.openlocfilehash: f4edc3d017056e53bccd968d768a3087adc3bb26
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -43,9 +42,9 @@ Le tableau suivant indique les conditions préalables qui doivent être configur
 |Catégorie|Logiciel requis||
 |---------|----------------------------|---------------------------------------------|
 |Configuration|Entité juridique|Dans la page <strong>Entités juridiques</strong> (cliquez sur <strong>Administration d'organisation</strong> &gt; <strong>Organisations</strong> &gt; <strong>Entités juridiques</strong>), sélectionnez votre entité juridique. Dans l'organisateur <strong>Adresses</strong>, créez une adresse. Sélectionnez <strong>Belgique</strong> dans le champ <strong>Pays/Région</strong>, remplissez les autres composants d'adresse, et marquez l'adresse comme <strong>Principale</strong>. Dans l'organisateur <strong>Immatriculation fiscale</strong>, dans le champ <strong>Numéro d'identification fiscale</strong>, spécifiez le numéro identifiant TVA de votre société. Pour obtenir la description des champs, voir <a href="https://ax.help.dynamics.com/en/wiki/create-a-legal-entity/">Entité juridique</a>.|
-|Configuration| Numéro d'enregistrement|Configurez le numéro d'enregistrement dans la page <strong>Entités juridiques</strong> (cliquez sur <strong>Administration d'organisation</strong> &gt; <strong>Organisations</strong> &gt; <strong>Entités juridiques</strong>). Cliquez sur <strong>ID enregistrement</strong>, puis, dans l'organisateur <strong>ID enregistrement</strong>, cliquez sur <strong>Ajouter</strong>. Sélectionnez une valeur dans le champ <strong>Type d'enregistrement</strong>, puis entrez une valeur dans le champ <strong>Numéro d'enregistrement</strong>. Pour plus d'informations, voir les descriptions de champs dans <a href="https://ax.help.dynamics.com/en/wiki/registration-ids/">Numéro d'enregistrement</a>.|
+|Configuration| Numéro d'enregistrement|Configurez le numéro d'enregistrement dans la page <strong>Entités juridiques</strong> (cliquez sur <strong>Administration d'organisation</strong> &gt; <strong>Organisations</strong> &gt; <strong>Entités juridiques</strong>). Cliquez sur <strong>ID enregistrement</strong>, puis, dans l'organisateur <strong>ID enregistrement</strong>, cliquez sur <strong>Ajouter</strong>. Sélectionnez une valeur dans le champ <strong>Type d'enregistrement</strong>, puis entrez une valeur dans le champ <strong>Numéro d'enregistrement</strong>. Pour plus d'informations, voir <a href="emea-registration-ids.md">Numéro d'enregistrement</a>.|
 |Configuration| Souches de numéros|Configurez les souches de numéros pour <strong>ID liste des ventes annuelles</strong> et <strong>ID INTERVAT</strong> sous l'onglet <strong>Souches de numéros</strong> de la page <strong>Paramètres de comptabilité</strong> (cliquez sur <strong>Comptabilité</strong> &gt; <strong>Paramétrage de la comptabilité</strong> &gt; <strong>Paramètres de comptabilité</strong>).</td>
-|Configuration| Journal de validation|Configurez les journaux de validation dans la page <strong>Paramétrage de journaux</strong> (cliquez sur <strong>Comptabilité</strong> &gt; <strong>Paramétrage de journaux</strong>). Pour plus d'informations, consultez les descriptions de champ dans <a href="https://ax.help.dynamics.com/en/wiki/posting-journals-page-field-descriptions/">Journaux de validation</a>.</td>
+|Configuration| Journal de validation|Configurez les journaux de validation dans la page <strong>Paramétrage de journaux</strong> (cliquez sur <strong>Comptabilité</strong> &gt; <strong>Paramétrage de journaux</strong>). </td>
 |Configuration| Administrations fiscales|Configurez les administrations fiscales dans la page <strong>Administrations fiscales</strong> (cliquez sur <strong>Taxe</strong> &gt; <strong>Taxes indirectes</strong> &gt; <strong>Administrations fiscales</strong>). Le champ <strong>Présentation d'état</strong> doit être défini sur <strong>Présentation d'état belge</strong>. Voir les descriptions des champs dans <a href="https://ax.help.dynamics.com/en/wiki/set-up-sales-tax-authorities/">Administrations fiscales</a>.|
 |Configuration| Codes déclaration de taxe|Paramétrez les codes de déclaration de taxe dans la page <strong>Codes déclaration de taxe</strong> (cliquez sur <strong>Taxe</strong> &gt; <strong>Paramétrage</strong> &gt; <strong>Taxe</strong> &gt; <strong>SCodes déclaration de taxe</strong>). Voir les descriptions des champs dans <a href="https://ax.help.dynamics.com/en/wiki/set-up-sales-tax-reporting-codes/">Codes déclaration de taxe</a>. Les codes de déclaration de taxe pour lesquels la case à cocher <strong>Correction de taxe</strong> est activée sont disponibles à la sélection dans la page <strong>Zones d'état de taxes supplémentaires</strong> (cliquez sur <strong>Corrections de taxe</strong> &gt; <strong>Ajustements</strong>). Un exemple de codes de déclaration de taxe est inclus plus loin dans cette rubrique.|
 |Configuration| Codes taxe|Complétez les champs sous les onglets <strong>État</strong> et <strong>État - Avoir</strong> de la page <strong>Codes taxe</strong> (cliquez sur <strong>Taxe</strong> &gt; <strong>Taxes indirectes</strong> &gt; <strong>Codes taxe</strong>). Sélectionnez les valeurs de la table <strong>Codes déclaration de taxe</strong>. Voir les descriptions des champs dans <a href="https://ax.help.dynamics.com/en/wiki/set-up-sales-tax-codes/">Codes taxe</a>.|
@@ -54,11 +53,11 @@ Le tableau suivant indique les conditions préalables qui doivent être configur
 |     |                  |Pays/Région</strong> Sélectionnez le pays ou la région de l'enregistrement de taxe du compte de contrepartie.|
 |     |                  |Numéro identifiant TVA</strong> Entrez le numéro identifiant TVA du compte de contrepartie.|
 |     |                  |Nom de la société</strong> (Facultatif) Entrez le nom de la contrepartie.|
-|Configuration|Paramètres de commerce extérieur|Configurez les paramètres de commerce extérieur sous l'onglet <strong>Propriétés de pays/région</strong> de la page <strong><strong>Paramètres de commerce extérieur</strong></strong> (cliquez sur <strong>Taxe</strong> &gt; <strong>Paramétrage</strong> &gt; <strong>Commerce extérieur</strong> &gt; <strong>Paramètres de commerce extérieur</strong>). Pour obtenir la description des champs, voir <a href="https://ax.help.dynamics.com/en/wiki/foreign-trade-parameters-page-field-descriptions/">Paramètres de commerce extérieur</a>.|
+|Configuration|Paramètres de commerce extérieur|Configurez les paramètres de commerce extérieur sous l'onglet <strong>Propriétés de pays/région</strong> de la page <strong><strong>Paramètres de commerce extérieur</strong></strong> (cliquez sur <strong>Taxe</strong> &gt; <strong>Paramétrage</strong> &gt; <strong>Commerce extérieur</strong> &gt; <strong>Paramètres de commerce extérieur</strong>). |
 |Configuration|Configuration de la déclaration de taxe INTERVAT|Configurez le modèle et le format de Gestion des états électroniques (ER) pour l'état. Voir la section &quot;Configurer le modèle et le format de Gestion des états électroniques pour l'état&quot; plus loin dans cette rubrique. Pour plus d'informations sur la création et la maintenance des configurations ER, consultez la documentation ER.|
 
 
-Pour plus d'informations sur le paramétrage des déclarations de fin, voir [Déclarations de TVA (EU)](http://ax.help.dynamics.com/en/wiki/eu-vat-reporting/).
+Pour plus d'informations sur le paramétrage des déclarations de fin, voir [Déclarations de TVA (EU)](emea-vat-reporting.md).
 
 ### <a name="example-setup-of-sales-tax-reporting-codes"></a>Exemple : Paramétrer des codes déclaration de taxe
 
@@ -122,7 +121,7 @@ Pour créer des corrections dans la déclaration de taxe INTERVAT pour la pério
 | Date de début         | Indiquez le premier jour de la période du règlement de taxe à calculer. Cette valeur correspond à la date dans le champ **Début** sur la page **Périodes de règlement fiscal**. |
 | Au           | Entrez la dernière date.                                                                                                                                                                      |
 
-Voir les descriptions de champ dans [Zones d'état de taxes supplémentaires](https://ax.help.dynamics.com/en/wiki/additional-sales-tax-report-boxes-page-field-descriptions/). Pour entrer la correction, cliquez sur **Corrections de taxe** &gt; **Ajustements**, puis complétez les champs suivants.
+Pour entrer la correction, cliquez sur **Corrections de taxe** &gt; **Ajustements**, puis complétez les champs suivants.
 
 | Champ             | description ;                                                                                                                                                                               |
 |-------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

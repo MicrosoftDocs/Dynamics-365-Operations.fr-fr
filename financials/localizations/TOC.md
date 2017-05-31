@@ -67,6 +67,7 @@
 ### [Relevé bancaire CODA](emea-bel-coda-bank-statement-import.md)
 ### [Déclaration de taxe INTERVAT](emea-bel-intervat-tax-declaration.md)
 ### [Paramétrage d'états PRODCOM](emea-bel-prodcom-report.md)
+### [États de rapprochement](emea-bel-reconciliation-reports.md)
 
 ## République tchèque
 ### [Escompte de règlement pour l'avoir](emea-cze-credit-note-cash-discount.md)
@@ -74,6 +75,7 @@
 ### [Suspension d'amortissement](emea-cze-depreciation-suspension-holidays.md)
 ### [Amortissement des immobilisations](emea-cze-fixed-assets-depreciation.md)
 ### [Amortissement semestriel](emea-cze-half-depreciation-fixed-asset-disposal.md)
+### [Déclaration de taxe ](emea-cze-intra-community-vat-transactions.md)
 ### [Déclaration de TVA](emea-cze-vat-statement-details.md)
 ## Estonie
 ### [Déclaration de TVA](emea-est-vat-statement-details.md)

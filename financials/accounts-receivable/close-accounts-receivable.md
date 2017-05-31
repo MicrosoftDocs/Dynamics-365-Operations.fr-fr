@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -17,10 +17,10 @@ ms.author: mfalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 1ab51f90be918ee60e99fe11e5425383beefb26e
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 6e8e87df88aace213f50db617229383eba4d86ec
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -47,13 +47,11 @@ Clôture des périodes dans la comptabilité
 |Confirmer la commande client                   | Permet de mettre à jour les commandes client.                                                                       |
 |Réévaluation des comptes en devises          | Permet de générer des transactions qui mettent à jour la valeur des transactions client en cours dans des devises étrangères.                                                                                                                         |
 | Journal                              | Permet de valider les factures, paiements et billets à ordre.                                             |
-| N° document de journal                      | -   **Journal des paiements** – Permet de générer, traiter et valider les paiements.
-                                         -   **Draw bill of exchange journal** – Post bills of exchange.
-                                         -   **Protest bill of exchange journal** – Post protested bills of exchange.
-                                         -   **Redraw bill of exchange journal** – Post redrawn bills of exchange.
-                                         -   **Remittance journal** – Post remittances.
-                                         -   **Settle bill of exchange journal** – Post settled bills of exchange                   |
-| Validation du bon de livraison                  | Permet de mettre à jour les bons de livraison pour les commandes client.                                                     | | Valider la facture financière               | Permet de valider des factures financières.                                                                   | | Validation de la facture                      | Permet de valider les factures pour les commandes client.                                                            | | Validation des prélèvements                 |Permet de mettre à jour les prélèvements pour les commandes client.                                                      |
+| N° document de journal                      |<ul><li>**Journal des paiements** – Permet de générer, traiter et valider les paiements.</li><li>**Journal de création des lettres de change** – Permet de valider des lettres de change.</li><li>**Journal des lettres de change impayées** – Permet de valider des lettres de change impayées.</li><li>**Journal de renouvellement des lettres de change** – Permet de valider des lettres de change renouvelées.</li><li>**Journal des remises** – Permet de valider les remises.</li><li>**Journal de règlement des lettres de change** – Permet de valider des lettres de change réglées</li></ul>                   |
+| Validation du bon de livraison                 | Permet de mettre à jour les bons de livraison pour les commandes client.                                                     |
+| Valider la facture financière               | Permet de valider des factures financières.                                                                   |
+| Validation de la facture                      | Permet de valider les factures des commandes client.                                                            |
+| Validation des prélèvements                 |Permet de mettre à jour les prélèvements pour les commandes client.                                                      |
 
 **Tâche du composant de processus entreprise**   
 

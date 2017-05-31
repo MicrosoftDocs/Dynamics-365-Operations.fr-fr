@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -17,10 +17,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: ac4f520d17c721e249737b4ae95c10685f914497
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: ac86ffa794b5fd92ca9aba24537fbc05057fe824
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -195,13 +195,11 @@ Procédez comme suit pour indiquer à qui affecter une décision manuelle.
     <td>Utilisateurs d'une hiérarchie organisationnelle spécifique</td>
     <td><ol>
     <li>Après avoir sélectionné <strong>Hiérarchie</strong>, sous l'onglet <strong>Sélection de hiérarchie</strong>, dans la liste <strong>Type de hiérarchie</strong>, sélectionnez le type de hiérarchie auquel affecter la décision.</li>
-    <li>Le système doit extraire un ensemble de noms d'utilisateurs de la hiérarchie. Ces noms représentent les utilisateurs à qui la décision peut être affectée. Pour indiquer le point de départ et le point final de l'ensemble de noms d'utilisateurs extraits par le système, procédez comme suit :
-    <ol>
+    <li>Le système doit extraire un ensemble de noms d'utilisateurs de la hiérarchie. Ces noms représentent les utilisateurs à qui la décision peut être affectée. Pour indiquer le point de départ et le point final de l'ensemble de noms d'utilisateurs extraits par le système, procédez comme suit : <ol>
     <li>Pour spécifier le point de départ, sélectionnez une personne dans la liste <strong>Commencer à</strong>.</li>
     <li>pour indiquer le point final, cliquez sur <strong>Ajouter une condition</strong>. Entrez ensuite une condition pour indiquer où le système arrête l'extraction de noms dans la hiérarchie.</li>
     </ol></li>
-    <li>Sous l'onglet <strong>Options de la hiérarchie</strong>, spécifiez les utilisateurs de la sélection auxquels affecter la décision :
-    <ul>
+    <li>Sous l'onglet <strong>Options de la hiérarchie</strong>, spécifiez les utilisateurs de la sélection auxquels affecter la décision : <ul>
     <li><strong>Affecter à tous les utilisateurs récupérés</strong> – La décision est affectée à tous les utilisateurs de la sélection.</li>
     <li><strong>Affecter uniquement au dernier utilisateur récupéré</strong> – La décision est affectée uniquement au dernier utilisateur de la sélection.</li>
     <li><strong>Exclure les utilisateurs à la condition suivante</strong> – La décision n'est affectée à aucun des utilisateurs de la sélection qui remplissent une condition. Cliquez sur <strong>Ajouter une condition</strong> pour spécifier la condition.</li>
@@ -228,18 +226,16 @@ Procédez comme suit pour indiquer à qui affecter une décision manuelle.
     <td>File d'attente des éléments de travail</td>
     <td><ol>
     <li>Après avoir sélectionné <strong>File d'attente</strong>, cliquez sur l'onglet <strong>Basé sur la file d'attente</strong>.</li>
-    <li>Pour affecter la décision à une file d'attente donnée, procédez comme suit :
-    <ol>
+    <li>Pour affecter la décision à une file d'attente donnée, procédez comme suit : <ol>
     <li>Dans la liste <strong>Type de file d'attente</strong>, sélectionnez <strong>Files d'attente des éléments de travail</strong>.</li>
     <li>Sélectionnez la file d'attente dans la liste <strong>Nom de file d'attente</strong>.</li>
     </ol></li>
-    <li>Si une condition détermine la file d'attente à laquelle la décision est affectée, procédez comme suit :
-    <ol>
+    <li>Si une condition détermine la file d'attente à laquelle la décision est affectée, procédez comme suit : <ol>
     <li>Dans la liste <strong>Type de file d'attente</strong>, sélectionnez <strong>Files d'attente conditionnelles des éléments de travail</strong>.</li>
     <li>Dans la liste <strong>Nom de file d'attente</strong>, sélectionnez <strong>File d'attente conditionnelle</strong>.</li>
     </ol></li>
     </ol>
-    <strong>Remarque :</strong> Cette option est utilisée uniquement pour certains workflows, tels que Gestion des dossiers.</td>
+    <strong>Remarque :</strong> Cette option est utilisée uniquement pour certains workflows, tels que Gestion des dossiers.</td>
     </tr>
     </tbody>
     </table>
@@ -285,13 +281,11 @@ Si un utilisateur ne prend pas la décision dans le délai imparti, la décision
     <td>Utilisateurs d'une hiérarchie organisationnelle spécifique</td>
     <td><ol>
     <li>Après avoir sélectionné <strong>Hiérarchie</strong>, sous l'onglet <strong>Sélection de hiérarchie</strong>, dans la liste <strong>Type de hiérarchie</strong>, sélectionnez le type de hiérarchie à laquelle réaffecter la décision.</li>
-    <li>Le système doit extraire un ensemble de noms d'utilisateurs de la hiérarchie. Ces noms représentent les utilisateurs à qui la décision peut être réaffectée. Pour indiquer le point de départ et le point final de l'ensemble de noms d'utilisateurs extraits par le système, procédez comme suit :
-    <ol>
+    <li>Le système doit extraire un ensemble de noms d'utilisateurs de la hiérarchie. Ces noms représentent les utilisateurs à qui la décision peut être réaffectée. Pour indiquer le point de départ et le point final de l'ensemble de noms d'utilisateurs extraits par le système, procédez comme suit : <ol>
     <li>Pour spécifier le point de départ, sélectionnez une personne dans la liste <strong>Commencer à</strong>.</li>
     <li>pour indiquer le point final, cliquez sur <strong>Ajouter une condition</strong>. Entrez ensuite une condition pour indiquer où le système arrête l'extraction de noms dans la hiérarchie.</li>
     </ol></li>
-    <li>Sous l'onglet <strong>Options de la hiérarchie</strong>, indiquez les utilisateurs de la sélection à qui la décision est réaffecté :
-    <ul>
+    <li>Sous l'onglet <strong>Options de la hiérarchie</strong>, indiquez les utilisateurs de la sélection à qui la décision est réaffecté : <ul>
     <li><strong>Affecter à tous les utilisateurs récupérés</strong> – La décision est réaffecté à tous les utilisateurs de la sélection.</li>
     <li><strong>Affecter uniquement au dernier utilisateur récupéré</strong> – La décision est réaffecté uniquement au dernier utilisateur de la sélection.</li>
     <li><strong>Exclure les utilisateurs à la condition suivante</strong> – La décision n'est réaffectée à aucun des utilisateurs de la sélection qui remplissent une condition. Cliquez sur <strong>Ajouter une condition</strong> pour spécifier la condition.</li>

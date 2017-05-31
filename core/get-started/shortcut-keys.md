@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -17,10 +17,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: ef434747c075a32887035fa1d3c0e6fecd4e0a0d
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 7d146f3dfe1d71e8d3031a851f47fac35d0f1a58
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -68,7 +68,7 @@ Les raccourcis clavier suivants s'appliquent à l'ensemble de Microsoft Dynamics
 | Ouvrir le volet Récapitulatif (ou déplacer le focus sur le volet Récapitulatif s'il est déjà ouvert) | Ctrl+F2                                   |
 | Fermer le volet Récapitulatif (avec le focus sur le volet Récapitulatif)                         | Échap                                       |
 | Accéder au récapitulatif suivant/précédent (avec le focus sur le volet Récapitulatif)              | Alt+Maj+Flèche Bas/Alt+Maj+Flèche Haut |
-| Accéder au &lt;n&gt;ième récapitulatif (avec le focus sur le volet Récapitulatif)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
+| Accéder au &lt;n&gt;ième récapitulatif (avec le focus sur le volet Récapitulatif)                | Alt+&lt;n&gt; (&lt;n&gt; = 1 à 9)           |
 | Développer un récapitulatif (avec le focus sur l'en-tête du récapitulatif)                             | Espace ou Entrée                            |
 | Réduire le récapitulatif actif                                                    | Alt+0                                     |
 
@@ -115,8 +115,8 @@ Les raccourcis clavier suivants s'appliquent à l'ensemble de Microsoft Dynamics
 | Accéder au champ suivant/précédent                     | Tab/Maj+Tab                              |
 | Accéder à l'onglet suivant/précédent                       | Alt+Maj+Flèche Droite/Alt+Maj+Flèche Gauche |
 | Accéder à l'organisateur suivant/précédent                   | Alt+Maj+Flèche Bas/Alt+Maj+Flèche Haut    |
-| Accéder au &lt;n&gt;ième organisateur                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
-| Accéder au &lt;n&gt;ième onglet                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
+| Accéder au &lt;n&gt;ième organisateur                     | Alt+&lt;n&gt; (&lt;n&gt; = 1 à 9)              |
+| Accéder au &lt;n&gt;ième onglet                         | Alt+Maj+&lt;n&gt; (&lt;n&gt; = 1 à 9)        |
 | Développer un organisateur (avec le focus sur l'en-tête de l'organisateur) | Espace ou Entrée                               |
 | Réduire l'organisateur actif                        | Alt+0                                        |
 | Basculer sur la vue grille                                 | Ctrl+Maj+G                                 |
