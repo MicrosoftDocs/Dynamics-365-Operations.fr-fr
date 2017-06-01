@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMActualVersion, CAMBudgetVersion, CAMOverheadCalculation
 audience: Application User
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: bb02e0756d675726f6c3b9f456b980a7ed695463
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: a24c24f842e4f1b1c7806c2fb2ccbd1329fe4851
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -53,7 +53,8 @@ Le calcul des frais généraux exécute les stratégies de contrôle de gestion 
 -   Exercice
 -   Période fiscale
 
-Le calcul des frais généraux est effectué indépendamment de la version. Par conséquent, vous pouvez calculer la version de budget avant la version actuelle. Le calcul des frais généraux comporte quatre étapes, comme le montre l'illustration suivante. Dans chaque étape, un en-tête de journal avec des entrées de journal est créé. Cet en-tête de journal conserve les données de saisie pour chaque étape de calcul. Les stratégies et les règles s'appliquent à chaque ligne de journal, et les entrées de coût sont générées comme une sortie. Par conséquent, vous disposez toujours d'une traçabilité complète. [![Calcul des frais généraux](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
+Le calcul des frais généraux est effectué indépendamment de la version. Par conséquent, vous pouvez calculer la version de budget avant la version actuelle. Le calcul des frais généraux comporte quatre étapes, comme le montre l'illustration suivante. Dans chaque étape, un en-tête de journal avec des entrées de journal est créé. Cet en-tête de journal conserve les données de saisie pour chaque étape de calcul. Les stratégies et les règles s'appliquent à chaque ligne de journal, et les entrées de coût sont générées comme une sortie. Par conséquent, vous disposez toujours d'une traçabilité complète. 
+[![Calcul des frais généraux](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
 
 ## <a name="calculate-and-allocate-the-electricity-overhead-cost"></a>Calculer et affecter les frais généraux Électricité
 Dans la comptabilité financière, certaines coûts, tels que l'électricité, sont enregistrés comme montant forfaitaire. Par conséquent, l'analyse détaillée n'est pas fournie pour le contrôle de gestion. Dans le Contrôle de gestion, pour fournir une analyse correcte entre toutes les unités et tous les niveaux de l'organisation, les coûts doivent suivre les unités organisationnelles. Ce flux doit reposer sur un enregistrement précis de la consommation ou sur une évaluation juste. Dans la comptabilité, le coût de l'électricité peut être validé comme indiqué dans le tableau suivant.
@@ -622,7 +623,7 @@ Pour plus d'informations sur la stratégie de taux de frais généraux, voir la 
 
 ### <a name="step-4-process-the-cost-allocation-calculation"></a>Étape 4 : Traiter le calcul de répartition des coûts
 
-La répartition est utilisée pour affecter le solde d'un objet de coût à d'autres objets de coût en appliquant une base de répartition. Microsoft Dynamics 365 for Operations prend en charge la méthode de répartition réciproque. Dans la méthode de répartition réciproque, les services mutuels que les objets de coût auxiliaires échangent sont totalement identifiés. Le système détermine automatiquement l'ordre correct selon lequel exécuter les répartitions. Le solde d'un objet de coût est réparti par une seule base de répartition. Les répartitions entre plusieurs dimensions d'objets de coût et leurs membres respectifs sont prises en charge. L'ordre de répartition est contrôlé par l'unité de contrôle des coûts. [![](./media/reciprocal-method.png)](./media/reciprocal-method.png)
+La répartition est utilisée pour affecter le solde d'un objet de coût à d'autres objets de coût en appliquant une base de répartition. Microsoft Dynamics 365 for Operations prend en charge la méthode de répartition réciproque. Dans la méthode de répartition réciproque, les services mutuels que les objets de coût auxiliaires échangent sont totalement identifiés. Le système détermine automatiquement l'ordre correct selon lequel exécuter les répartitions. Le solde d'un objet de coût est réparti par une seule base de répartition. Les répartitions entre plusieurs dimensions d'objets de coût et leurs membres respectifs sont prises en charge. L'ordre de répartition est contrôlé par l'unité de contrôle des coûts. [![Méthode réciproque](./media/reciprocal-method.png)]
 
 #### <a name="define-the-cost-allocation"></a>Définir la répartition de coût
 

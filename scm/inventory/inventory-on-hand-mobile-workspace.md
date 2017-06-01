@@ -3,10 +3,10 @@ title: Stock disponible dans l&quot;espace de travail mobile
 description: "Cette rubrique fournit des informations sur l&quot;espace de travail Stock disponible dans l&quot;application mobile Microsoft Dynamics 365 for Operations. Cet espace de travail vous permet d&quot;acquérir des connaissances mobiles sur les stocks réservés et disponibles à tout moment et n&quot;importe où."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/21/2017
+ms.date: 05/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
@@ -19,10 +19,10 @@ ms.author: mirzaab
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: e703ae80800b993ebca1c7bee455af1be41c7d5f
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 7387df37e047d5ab7a90b696a6ffa249094499c4
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -37,15 +37,21 @@ Cette rubrique fournit des informations sur l'espace de travail Stock disponible
 <a name="overview-of-the-inventory-on-hand-mobile-workspace"></a>Vue d'ensemble de l'espace de travail mobile Stock disponible
 --------------------------------------------------
 
-Généralement, les sociétés ont plusieurs expéditions et plusieurs réceptions de stock chaque jour. Ces mouvements modifient constamment le statut du stock disponible. L'espace de travail **Stock disponible** vous permet de voir l'état du stock en ligne afin d'obtenir les dernières informations sur les données de stock sur votre appareil mobile. Que vous travailliez dans l'entrepôt, les achats, les ventes, la fabrication ou la gestion, ou que vous ayez d'autres rôles, vous pouvez accéder aux données de stock en temps réel à tout moment et n'importe où. L'espace de travail mobile fournit une vue instantanée du statut du stock disponible de plusieurs établissements. Il vous permet d'afficher le stock disponible entre différents sites, les réservations de nomenclature actuelles, et le stock disponible non réservé. Vous pouvez également entrer les numéros d'article pour rechercher le stock disponible, puis effectuer une recherche filtrée des produits ou des variantes disponibles. Spécifiquement, l'espace de travail mobile fournit ces fonctions :
+Généralement, les sociétés ont plusieurs expéditions et plusieurs réceptions de stock chaque jour. Ces mouvements modifient constamment le statut du stock disponible. L'espace de travail **Stock disponible** vous permet de voir l'état du stock en ligne afin d'obtenir les dernières informations sur les données de stock sur votre appareil mobile. Que vous travailliez dans l'entrepôt, les achats, les ventes, la fabrication ou la gestion, ou que vous ayez d'autres rôles, vous pouvez accéder aux données de stock en temps réel à tout moment et n'importe où. 
+
+L'espace de travail mobile fournit une vue instantanée du statut du stock disponible de plusieurs établissements. Il vous permet d'afficher le stock disponible entre différents sites, les réservations de nomenclature actuelles, et le stock disponible non réservé. Vous pouvez également entrer les numéros d'article pour rechercher le stock disponible, puis effectuer une recherche filtrée des produits ou des variantes disponibles. 
+
+Spécifiquement, l'espace de travail mobile fournit ces fonctions :
 
 -   Vous pouvez rechercher le numéro ou le nom du produit pour trouver des produits et afficher le statut du stock disponible.
+
 -   Vous pouvez afficher les informations suivantes pour les produits sélectionnés :
     -   Stock disponible par site
     -   Stock disponible par entrepôt
     -   Stock disponible par emplacement
     -   Stock disponible par lots (pour les produits contrôlés par lots)
     -   Stock disponible par statut de stock
+    
 -   Le stock de produits disponible est affiché comme suit :
     -   Par stock physique (cette vue représente la quantité totale.)
     -   Par quantité physique réservée (cette vue représente la quantité réservée.)
@@ -71,7 +77,7 @@ Avant d'utiliser l'espace de travail mobile **Stock disponible**, vérifiez que 
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Operations version 1611 avec la mise à jour de plateforme 3 ou ultérieure.</td>
 <td>Administrateur système</td>
-<td>Si vous n'avez pas encore déployé Dynamics 365 for Operations dans votre organisation, votre administrateur système doit consulter la rubrique <a href="http://ax.help.dynamics.com/en/wiki/deploy-an-ax7-demo-environment/">Déployer l'environnement de démonstration de Microsoft Dynamics 365 for Operations</a>.</td>
+<td>Si vous n'avez pas encore déployé Dynamics 365 for Operations dans votre organisation, votre administrateur système doit consulter la rubrique <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">Déployer l'environnement de démonstration de Microsoft Dynamics 365 for Operations</a>.</td>
 </tr>
 <tr class="even">
 <td>Le KB 4013633 doit être implémenté.</td>
@@ -79,9 +85,9 @@ Avant d'utiliser l'espace de travail mobile **Stock disponible**, vérifiez que 
 <td>Le KB 4013633 (mise à jour X++ ou correctif de métadonnées) contient les quatre espaces de travail mobiles pour la gestion de la chaîne d'approvisionnement. Pour implémenter le KB 4013633, un administrateur système doit procéder comme suit :
 <ol>
 <li>Téléchargez le KB 4013633 depuis Microsoft Dynamics Lifecycle Services (LCS).</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/configuring-and-installing-a-metadata-hotfix-package/">Installez le correctif de métadonnées</a>.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/create-and-apply-a-deployable-package/">Créez un module déployable</a> contenant le modèle <strong>SCMMobile</strong> et téléchargez le module déployable vers LCS.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/apply-a-deployable-package-on-a-dynamics-ax-system/">Appliquez le module déployable</a> à votre système Dynamics 365 for Operations.</li>
+<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installez le correctif de métadonnées</a>.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Créez un module déployable</a> contenant le modèle <strong>SCMMobile</strong> et téléchargez le module déployable vers LCS.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Appliquez le module déployable</a> à votre système Dynamics 365 for Operations.</li>
 </ol></td>
 </tr>
 <tr class="odd">
@@ -114,7 +120,7 @@ Dans votre magasin d'applications mobiles, téléchargez et installez l'applicat
 
 ## <a name="view-the-onhand-inventory-for-a-product-by-using-the-inventory-onhand-mobile-workspace"></a>Afficher le stock de disponible pour un produit à l'aide de l'espace de travail mobile Stock disponible
 1.  Sur votre appareil mobile, sélectionnez l'espace de travail **Stock disponible**.
-2.  Sélectionnez **Vérifier la disponibilité d'un article**. Vous découvrez une liste des produits chargés dans votre application pour l'utilisation hors ligne. Par défaut, jusqu'à 50 éléments sont chargés, mais votre développeur peut modifier ce nombre. Pour plus d'informations, les développeurs doivent consulter [Plateforme mobile Dynamics 365 for Operations d'opérations](http://ax.help.dynamics.com/en/wiki/mobile-development-handbook/).
+2.  Sélectionnez **Vérifier la disponibilité d'un article**. Vous découvrez une liste des produits chargés dans votre application pour l'utilisation hors ligne. Par défaut, jusqu'à 50 éléments sont chargés, mais votre développeur peut modifier ce nombre. Pour plus d'informations, les développeurs doivent consulter [Plateforme mobile Dynamics 365 for Operations d'opérations](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform).
 3.  Si votre article ne figure pas dans la liste, sélectionnez **Rechercher plus** pour effectuer une recherche en ligne dans Dynamics 365 for Operations. Recherchez le nombre de produits ou basculez vers une recherche par nom de produit.
 4.  Sélectionnez un produit. Si l'article est une image, l'image s'affiche.
 5.  Sélectionnez l'une des options suivantes pour afficher le statut du stock disponible :

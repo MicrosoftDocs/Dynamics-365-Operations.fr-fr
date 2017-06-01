@@ -1,15 +1,15 @@
 ---
 title: Codes info
 description: "Cet article fournit une vue d&quot;ensemble à propos des codes d&quot;informations, des groupes de codes d&quot;informations et la manière de les utiliser."
-author: RobinARH
+author: mumani
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: RobinARH
+ms.reviewer: josaw
 ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 22761
 ms.assetid: 99877dba-a6e3-4d88-ba0a-ee5913aea17e
@@ -19,10 +19,10 @@ ms.author: sijoshi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
-ms.openlocfilehash: aaf02ce5bf3af94dea12344c9bfc5c8e9be7abb9
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 5790f54a531336b30ee140ebf8b9c782d8b347f7
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/26/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -47,13 +47,12 @@ Dans Dynamics 365 for Operations- Vente au détail, vous pouvez créer des grou
 -   Liez les codes info à d'autres codes info ou à des groupes de codes info pour collecter des informations sur un produit ou une transaction sans devoir définir un code info distinct ou un code info lié pour chaque scénario.
 
 ## <a name="info-code-examples"></a>Exemples de code info
-**Exemple 1 : réutilisation des codes info** Vous pouvez lier les codes info de manière à ce que lorsqu'un code info se déclenche, un autre code info se déclenche immédiatement après celui-ci. Par exemple, lorsque vous vendez certains produits, vous pouvez inviter le caissier à demander au client s'il souhaite acheter des piles et une garantie de produit. Pour d'autres produits, vous pouvez inviter le caissier à demander au client s'il souhaite acheter des piles et lui demander son code postal. Si vous créez des codes info liés pour ces scénarios, vous devez paramétrer chaque variation de code info afin que le caissier soit invité à demander la bonne information. Si vous utilisez des groupes de codes info, les codes info courants, comme poser la question pour les piles, peuvent être paramétrés une fois, puis réutilisés dans plusieurs groupes de codes info. Vous pouvez également utiliser la définition de priorité dans les groupes de codes info pour identifier l'ordre dans lequel les invites s'affichent. **Exemple 2 : lier des codes info à des groupes de codes info** Lorsque vous vendez certains produits, par exemple des appareils mobiles, vous souhaitez toujours collecter un ensemble spécifique d'informations tel que le numéro de téléphone, l'identificateur de l'équipement mobile (MEID) et le numéro de série. Toutefois, vous souhaitez également collecter des informations différentes pour une tablette/un téléphone portable. Vous pouvez paramétrer un groupe de codes info qui inclut des invites pour le numéro de téléphone, le MEID et le numéro de série, puis lier le groupe de codes info à un code info individuel. Lorsque le code info spécifique au produit est déclenché, le groupe de codes info peut être ensuite déclenché pour vous permettre de collecter les données communes sans devoir définir plusieurs ensembles de codes info liés pour chaque périphérique.
+**Exemple 1 : réutilisation des codes info** Vous pouvez lier les codes info de manière à ce que lorsqu'un code info se déclenche, un autre code info se déclenche immédiatement après celui-ci. Par exemple, lorsque vous vendez certains produits, vous pouvez inviter le caissier à demander au client s'il souhaite acheter des piles et une garantie de produit. Pour d'autres produits, vous pouvez inviter le caissier à demander au client s'il souhaite acheter des piles et lui demander son code postal. Si vous créez des codes info liés pour ces scénarios, vous devez paramétrer chaque variation de code info afin que le caissier soit invité à demander la bonne information. Si vous utilisez des groupes de codes info, les codes info courants, comme poser la question pour les piles, peuvent être paramétrés une fois, puis réutilisés dans plusieurs groupes de codes info. Vous pouvez également utiliser la définition de priorité dans les groupes de codes info pour identifier l'ordre dans lequel les invites s'affichent.
+
+
+**Exemple 2 : lier des codes info à des groupes de codes info** Lorsque vous vendez certains produits, par exemple des appareils mobiles, vous souhaitez toujours collecter un ensemble spécifique d'informations tel que le numéro de téléphone, l'identificateur de l'équipement mobile (MEID) et le numéro de série. Toutefois, vous souhaitez également collecter des informations différentes pour une tablette/un téléphone portable. Vous pouvez paramétrer un groupe de codes info qui inclut des invites pour le numéro de téléphone, le MEID et le numéro de série, puis lier le groupe de codes info à un code info individuel. Lorsque le code info spécifique au produit est déclenché, le groupe de codes info peut être ensuite déclenché pour vous permettre de collecter les données communes sans devoir définir plusieurs ensembles de codes info liés pour chaque périphérique.
 
  
--
-
-
-
 
 
 

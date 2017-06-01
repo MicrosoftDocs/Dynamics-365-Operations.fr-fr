@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
@@ -18,10 +18,10 @@ ms.author: tfehr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: dd9f65e045367aeba081d026da53894679ee7ed0
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 4f3015ed4f8dc165d988b2b63ed9ad89d6d6f578
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/10/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -253,7 +253,7 @@ Véhicule utilisé pour le déploiement sur les environnements de test d'accepta
 
 Outil Visual Studio permettant de créer, de mettre à jour et d'inspecter vos éléments de modèle.
 
-###### <a name="financial-dimensionsdimension-based-configuration"></a>**configuration des produits basés sur les dimensions**
+###### <a name="dimension-based-product-configuration"></a>**configuration de produit basée sur les dimensions**
 
 Technologie de configuration qui permet de créer des variantes de produits en sélectionnant des valeurs pour les dimensions de produit.
 
@@ -503,7 +503,7 @@ Partie d'un produit.
 
 ###### <a name="product-dimension"></a>**dimension de produit**
 
-Attributs de produit (taille, couleur ou configuration) utilisés pour la configuration des produits basés sur les dimensions.
+Attributs de produit (taille, couleur ou configuration) utilisés dans le cadre de la configuration de produit basée sur les dimensions.
 
 ###### <a name="product-family"></a>**famille de produits**
 

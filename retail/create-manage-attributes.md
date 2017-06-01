@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
@@ -19,10 +19,10 @@ ms.author: prabhup
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
-ms.openlocfilehash: a5c45bb0b9ed10c989a3222a751df3f454b14a0b
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: eaee0edb4822a386c8781d9929999cea326f0a40
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/26/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -53,7 +53,7 @@ Les attributs vous permettent de décrire un produit et ses caractéristiques vi
 | Plasma     | Température de fonctionnement      | 0–43 degrés              | 32            |
 | Plasma     | Température de fonctionnement        | 0–43 degrés              | 100           |
 | Projection | Garantie du tube de projection | 612 ou 18 mois         | 12            |
-| Projection | #  de tubes de projection    | 1–5                         | 3             |
+| Projection | # de tubes de projection    | 1–5                         | 3             |
 
 
 ## <a name="attribute-type"></a>Type d'attribut

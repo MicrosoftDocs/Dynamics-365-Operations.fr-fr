@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchReqSourcingPolicyRule, SysPolicy, SysPolicyListPage
 audience: Application User
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 3df3144b08c54441699d9c0b48fe507857877586
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 5208dc64d86345de4e53c5e293fbc861351a63ef
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -59,6 +59,7 @@ Lorsqu'un employé de l'entité juridique 2222 crée une demande d'achat, les r�
 
 Dans l'exemple précédent, toutes les règles d'achat étaient définies dans une seule hiérarchie d'organisation intitulée Sociétés. Cependant, une organisation complexe peut définir des stratégies pour plusieurs hiérarchies d'organisation.  
 
+
 Contoso est une grande entreprise qui fait appel à des règles d'achat complexes pour contrôler le processus de demande. Contoso a défini des règles pour deux hiérarchies d'organisation différentes : « Contrôle d'achat global » et « Département ».  
 
 La stratégie 123 est définie pour la hiérarchie d'organisation « Département » pour le département Ventes au Royaume-Uni. Dans la stratégie 123, la règle « Contrôle de demande d'achat » spécifie que des restrictions de quantité de commande minimale doivent être appliquées. Dans cette règle, l'option **Appliquer des restrictions de quantité de commande minimale** est sélectionnée.  
@@ -93,6 +94,9 @@ La règle de stratégie de catégorie définit comment les utilisateurs peuvent 
 ### <a name="re-approval-rule-for-purchase-orders"></a>Règle de nouvelle approbation pour les commandes fournisseur
 
 La règle de nouvelle approbation est une règle facultative qui définit les critères pour demander une nouvelle approbation lorsque des modifications sont apportées à une commande fournisseur. Les champs sélectionnés sont évalués dans le workflow de commande fournisseur lorsque la condition « Nécessite une nouvelle approbation de commande fournisseur » est définie dans le workflow.
+
+> [!NOTE]
+> La répartition comptable est toujours réinitialisée en cas de modification d'une commande fournisseur approuvée dont la gestion des modifications est activée. Vous devez donc tenir compte du fait que si vous souhaitez éviter d'approuver à nouveau une commande fournisseur lorsque certains champs sont modifiés, le champ Répartition comptable ne doit pas être inclus comme champ sélectionné pour la nouvelle approbation. 
 
 ### <a name="purchase-requisition-rfq-rule"></a>Règle d'appel d'offre de demande d'achat
 

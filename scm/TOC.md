@@ -4,6 +4,7 @@
 ## Créer la prévision de la demande
 ### [Vue d'ensemble de la prévision de la demande](master-planning/introduction-demand-forecasting.md)
 ### [Paramétrage de la prévision de la demande](master-planning/demand-forecasting-setup.md)
+### [Importer les données historiques pour les prévisions de la demande](master-planning/import-historical-data.md)
 ### [Générer des prévisions de base statistiques](master-planning/generate-statistical-baseline-forecast.md)
 ### [Effectuer l'ajustement manuel de la prévision de base](master-planning/manual-adjustments-baseline-forecast.md)
 ### [Autoriser un ajustement de la prévision de demande](master-planning/authorize-adjusted-forecast.md)
