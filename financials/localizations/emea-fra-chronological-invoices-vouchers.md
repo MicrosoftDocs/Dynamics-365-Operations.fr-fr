@@ -10,9 +10,9 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CustParameters, NumberSequenceGroup
 audience: Application User
+ms.reviewer: shylaw
 ms.search.scope: Operations, Core
 ms.custom: 264514
-ms.assetid: d1fce1dc-2186-443c-9b4d-b6f64236bc3a
 ms.search.region: France
 ms.author: ilyako
 ms.search.validFrom: 2016-11-30

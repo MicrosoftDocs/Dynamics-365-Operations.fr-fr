@@ -9,10 +9,9 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: ShylaThompson
+ms.reviewer: shylaw
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 53161
-ms.assetid: 6ba08d6a-b6d1-4d2f-a7e6-a486488cd604
 ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-02-28

@@ -13,7 +13,6 @@ audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 19891
-ms.assetid: 3d3c89eb-5d6b-4d79-879b-ad6bf4bade35
 ms.search.region: France
 ms.search.industry: Public sector
 ms.author: brpotter
