@@ -1,4 +1,4 @@
-# [Vue d'ensemble des fonctionnalités locales](/dynamics365/operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/operations/financials/toc.json)
+# [Vue d'ensemble des fonctionnalités locales](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/unified-operations/financials/toc.json)
 # Asie Pacifique
 ## Australie
 ### [Formats de fichier bancaire](apac-aus-method-of-payment-pay-vendors-banks.md)
@@ -54,6 +54,7 @@
 ## [Validation de pré-acquisition de l'immobilisation](emea-pre-acquisition-acquisition-fixed-asset.md)
 ## [Codes postaux](emea-import-create-postal-codes-manually.md)
 ## [ID enregistrement](emea-registration-ids.md)
+## [Taxe au preneur](emea-reverse-charge.md)
 ## [Vue d'ensemble des virements SEPA](../accounts-payable/sepa-credit-transfer.md)
 ## [Vue d'ensemble du débit direct SEPA](../accounts-receivable/sepa-direct-debit-overview.md)
 ## [Paramétrage de signataires pour l'impression d'écrans](emea-set-up-signers-for-printing-forms.md)
@@ -98,7 +99,7 @@
 ### [Liste des journaux (état)](emea-deu-journal-list-report.md)
 ### [Imprimer une étiquette distincte pour les avoirs issus des ventes](emea-deu-print-separate-label-credit-memo-originating-sales.md)
 ## Hongrie
-### [Méthodes d'amortissement des immobilisations](emea-hun-fixed-assets-depreciation-methods.md)    
+### [Méthodes d'amortissement des immobilisations](emea-hun-fixed-assets-depreciation-methods.md)   
 ### [Immobilisations à faible coût](emea-hun-low-cost-fixed-assets.md)
 ### [Déplacer une immobilisation vers le stock](emea-hun-fixed-asset-to-inventory.md)
 ## Italie
@@ -138,6 +139,7 @@
 ### [Réévaluation de groupe d'immobilisations](emea-esp-fixed-asset-group-revaluation.md)
 ### [TVA intracommunautaire](emea-esp-intra-community-vat.md)
 ### [Clients occasionnels](emea-esp-no-one-time-customer-for-project-contracts.md)
+### [Impression de chèques avec un format espagnol](emea-esp-print-checks-with-spanish-layout.md)
 ### [Options de billet à ordre](emea-esp-promissory-note-options.md)
 ### [Cycles de vente et d'achat](emea-esp-sales-purchase-cycle.md)
 ### [Entrées spéciales et ouverture de la comptabilité](emea-esp-opening-sheets-spain.md)
@@ -153,7 +155,9 @@
 ### [Registres fiscaux](latam-bra-fiscal-books.md)
 #### [Documents fiscaux ICMS](latam-bra-icms-tax-fiscal-documents.md)
 #### [Importation de documents fiscaux](latam-bra-import-fiscal-documents.md)
+#### [Exportation et importation de transactions d'entité juridique à partir de la consolidation en comptabilité](latam-bra-general-ledger-consolidation-transactions.md)
 #### [Importation et vérification de documents XML NF-e et de fichiers DANFE](latam-bra-import-verify-nf-e-xml-documents-danfe-emails.md)
+#### [Traitement des remises de paiement électroniques](latam-bra-process-electronic-payment-remittances.md)
 #### [Documents fiscaux](latam-bra-fiscal-documents-fiscal-document-framework.md)
 #### [Espaces réservés disponibles pour les textes de documents fiscaux](latam-bra-fiscal-document-text-placeholders.md)
 #### [Documents fiscaux d'achat supplémentaires](latam-bra-purchase-complementary-fiscal-documents.md)
@@ -163,6 +167,8 @@
 ### [Journaux générés lors du processus de retour de paiement électronique](latam-bra-examples-journals-generated-electronic-payment-return-process.md)
 ### [Processus NF-e](latam-bra-nf-e-process.md)
 ### [Paramètres d'entités juridiques](latam-bra-legal-entity-parameters.md)
+### [Acquisition d'une immobilisation CIAP](latam-bra-ciap-fixed-asset.md)
+### [Cession d'une immobilisation CIAP](latam-bra-ciap-fixed-asset.md)
 ### [Taxes](latam-bra-calculate-taxes.md)
 #### [Attributs fiscaux](latam-bra-tax-attributes.md)
 #### [Paiements de taxe](latam-bra-tax-payments.md)

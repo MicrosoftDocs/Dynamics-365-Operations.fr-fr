@@ -21,4 +21,5 @@
 # Suivre l'article et le lot
 ## [Fusionner le traitements par lots du stock](merge-inventory-batches.md)
 ## [Suivre l'article et la matière première](trace-items-raw-materials-inventory-production-sales.md)
+## [Numéro de série de la caisse enregistreuse dans le processus de vente](../sales-marketing/register-serial-numbers-sales-process.md)
 
