@@ -1,6 +1,6 @@
 ---
 title: "Utilisation des workflows pour gérer les informations des employés"
-description: "Cette rubrique explique comment les Ressources humaines peuvent utiliser la capacité de workflow pour gérer les informations des employés. Par exemple, vous pouvez associer un workflow avec un poste et configurer un workflow d&quot;approbation qui démarre lorsque les employés modifient leur enregistrement."
+description: "Cette rubrique explique comment les Ressources humaines peuvent utiliser la capacité de workflow pour gérer les informations des employés. Par exemple, vous pouvez associer un workflow avec un poste et configurer un workflow d'approbation qui démarre lorsque les employés modifient leur enregistrement."
 author: rschloma
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,6 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: rschloma
 ms.search.scope: Operations, Core
 ms.custom: 269074
 ms.assetid: 426c6127-42ee-4163-8dd0-b2867f95581d

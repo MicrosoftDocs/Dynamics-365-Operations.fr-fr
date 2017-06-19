@@ -1,6 +1,6 @@
 ---
-title: "Paramétrage des composants d&quot;une tâche"
-description: "Cette rubrique décrit les éléments conceptuels pouvant être inclus dans une tâche et fournit des exemples d&quot;utilisation de ces éléments dans votre organisation."
+title: "Paramétrage des composants d'une tâche"
+description: "Cette rubrique décrit les éléments conceptuels pouvant être inclus dans une tâche et fournit des exemples d'utilisation de ces éléments dans votre organisation."
 author: rschloma
 manager: AnnBe
 ms.date: 04/04/2017
@@ -10,6 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: HcmJob, HcmJobFunction, HcmJobTask, HcmTitle
 audience: Application User
+ms.reviewer: rschloma
 ms.search.scope: Operations, Core
 ms.custom: 269054
 ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f

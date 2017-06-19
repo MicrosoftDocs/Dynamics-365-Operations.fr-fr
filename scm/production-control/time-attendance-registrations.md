@@ -1,6 +1,6 @@
 ---
 title: Enregistrement de Pointage
-description: "Les collaborateurs qualifiés pour l&quot;enregistrement des heures peuvent entrer plusieurs types d&quot;enregistrements d&quot;heures : par exemple, le pointage à l&quot;arrivée, le pointage à la sortie, l&quot;enregistrement des activités indirectes et l&quot;enregistrement des absences. Cet article décrit les enregistrements, leur calcul, leur approbation, et l&quot;utilisation du workflow pour ajouter la structure et l&quot;approbation automatisée au processus d&quot;approbation des feuilles de temps."
+description: "Les collaborateurs qualifiés pour l'enregistrement des heures peuvent entrer plusieurs types d'enregistrements d'heures : par exemple, le pointage à l'arrivée, le pointage à la sortie, l'enregistrement des activités indirectes et l'enregistrement des absences. Cet article décrit les enregistrements, leur calcul, leur approbation, et l'utilisation du workflow pour ajouter la structure et l'approbation automatisée au processus d'approbation des feuilles de temps."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -10,6 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: HcmWorker, JmgCalcApprovePickDialog, JmgGroupApprove, JmgGroupCalc, JmgGroupSigningTable, JmgRegistration, JmgTimeCalcParmeters, WorkflowTableListPageRnr
 audience: Application User
+ms.reviewer: rschloma
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 53351
 ms.assetid: 885b0cdf-53d7-4cb4-92fe-da1b9e32b39f
