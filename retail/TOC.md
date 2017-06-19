@@ -15,8 +15,9 @@
 ## [Configuration et installation d'une station matérielle de vente au détail](retail-hardware-station-configuration-installation.md)
 ## [Pointage et présence - Vente au détail](retail-time-attendance.md)
 # Point de vente moderne (MPOS) et PDV Cloud
-## Périphériques matériels
+## Matériel et périphériques
 ### [Vue d'ensemble des périphériques de la vente au détail](retail-peripherals-overview.md)
+### [Simulateur périphérique pour la vente au détail](retail-peripheral-simulator.md)
 ### [Périphériques matériels de PDV testés par Microsoft](microsoft-tested-pos-hardware-peripherals.md)
 ### [Définir et tenir à jour les clients de canal, y compris les caisses enregistreuses et les stations matérielles](define-maintain-channel-clients-registers-hw-stations.md)
 ## Mise en page de l'écran
@@ -42,6 +43,7 @@
 ## Réceptions
 ### [Paramétrer des modèles de réception](receipt-templates-printing.md) 
 ### [Envoyer des reçus de caisse par e-mail depuis MPOS](email-receipts.md)
+## [Enregistreur de tâches et aide de PDV](task-recorder-retail-pos.md)
 # Surveillance et analyse
 ## [Surveiller les performances des ventes et des marges](monitor-sales-margin-performance.md)
 ## [Analyser les évolutions et modèles des ventes](analyze-sales-trends-patterns.md)
@@ -53,6 +55,7 @@
 ## [Ajustements de prix et remises](price-adjustments-discounts.md)
 ## [Déterminer la combinaison optimale de cumuls de remises](optimal-combination-overlapping-discounts.md)
 ## [Définir les remises spécifiques à un canal](define-channel-specific-discounts.md)
+## [Créer des coupons pour les ventes au détail](retail-coupons.md)
 # Produits et merchandising
 ## [Hiérarchies des ventes au détail](retail-hierarchies.md)
 ## [Création et gestion des attributs](create-manage-attributes.md)
@@ -60,24 +63,25 @@
 ## [Paramétrer les codes-barres](set-up-bar-codes.md)
 ## [Paramétrer des masques de codes-barres](set-up-bar-code-masks.md)
 ## [Paramétrage d'assortiments](set-up-assortments.md)
+## [Vente et retour de produits en dehors d'un assortiment](sell-return-outside-assortments.md)
 # Fidélité
 ## [Définition d'un programme de fidélisation des clients](set-up-customer-loyalty-program.md)
 # Stock
 ## [Gérer le stock de magasin](work-with-store-inventory.md)
 # Essentiel du commerce
-## [Vue d'ensemble des essentiel du commerce](commerce-essentials.md)
+## [Vue d'ensemble d'Essentiel du commerce](commerce-essentials.md)
 ## [Organisations et hiérarchies organisationnelles (Essentiel du commerce)](organizational-hierarchies-commerce-essentials.md)
 # [Contenu pour professionnel IT et développeur](dev-itpro/TOC.md)
 
-# [Finances](/dynamics365/operations/financials/index)
+# [Finances](/dynamics365/unified-operations/financials/index)
 
-# [Ressources humaines](/dynamics365/operations/human-resources/index)
+# [Ressources humaines](/dynamics365/unified-operations/talent/index)
 
-# [Gestion de la chaîne d'approvisionnement](/dynamics365/operations/supply-chain/index)
+# [Gestion de la chaîne d'approvisionnement](/dynamics365/unified-operations/supply-chain/index)
 
-# [Développeur et administrateur](/dynamics365/operations/dev-itpro/index)
+# [Développeur et administrateur](/dynamics365/unified-operations/dev-itpro/index)
 
 # Ressources connexes
-## [Glossaire Dynamics 365 for Operations](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/retail/toc.json)
-## [Nouveautés ou changements](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/retail/toc.json)
+## [Glossaire Dynamics 365 for Retail](/dynamics365/unified-operations/get-started/glossary?toc=/dynamics365/unified-operations/retail/toc.json)
+## [Nouveautés ou changements](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/unified-operations/retail/toc.json)
 
