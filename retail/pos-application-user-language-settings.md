@@ -1,5 +1,5 @@
 ---
-title: "Paramètres de langue d&quot;application et d&quot;utilisateur de PDV"
+title: "Paramètres de langue d'application et d'utilisateur de PDV"
 description: "Cette rubrique décrit la modification des paramètres de langue dans Retail Modern POS (MPOS) et Cloud POS."
 author: josaw1
 manager: AnnBe
@@ -17,7 +17,7 @@ ms.search.region: global
 ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail Version
 ms.translationtype: Human Translation
 ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: b2cbdb8bc65a3bfa84620a50480c503c3bb07991
