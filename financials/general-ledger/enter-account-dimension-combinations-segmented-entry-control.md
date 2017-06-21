@@ -1,9 +1,9 @@
 ---
-title: "Entrer des combinaisons de compte et de dimensions (contrôle d&quot;accès segmenté)"
-description: "Cet article décrit comment entrer des combinaisons de comptes et de dimensions ou de comptes généraux. L&quot;expérience de saisie est souvent appelée « contrôle d&quot;accès segmenté »."
+title: "Entrer des combinaisons de compte et de dimensions (contrôle d'accès segmenté)"
+description: "Cet article décrit comment entrer des combinaisons de comptes et de dimensions ou de comptes généraux. L'expérience de saisie est souvent appelée « contrôle d'accès segmenté »."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

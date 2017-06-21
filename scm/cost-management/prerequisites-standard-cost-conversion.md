@@ -1,9 +1,9 @@
 ---
 title: "Conditions préalables à la conversion de coût standard"
-description: "Cette rubrique décrit les tâches à effectuer avant d&quot;exécuter une conversion de coût standard."
+description: "Cette rubrique décrit les tâches à effectuer avant d'exécuter une conversion de coût standard."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

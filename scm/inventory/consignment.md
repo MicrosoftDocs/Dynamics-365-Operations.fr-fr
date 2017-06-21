@@ -3,7 +3,7 @@ title: Consignation
 description: Cette rubrique explique comment utiliser les processus de stock de consignation entrant.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

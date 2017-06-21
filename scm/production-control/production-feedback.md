@@ -1,9 +1,9 @@
 ---
 title: "Rétroaction de production"
-description: "Cet article fournit des informations sur les commentaires de production qui donnent aux collaborateurs des commentaires sur les tâches de production. L&quot;article inclut des informations sur les différentes manières de mettre à jour les commentaires de production."
+description: "Cet article fournit des informations sur les commentaires de production qui donnent aux collaborateurs des commentaires sur les tâches de production. L'article inclut des informations sur les différentes manières de mettre à jour les commentaires de production."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

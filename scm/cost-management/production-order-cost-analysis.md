@@ -1,9 +1,9 @@
 ---
-title: "Analyse du coût de l&quot;ordre de fabrication"
-description: "Cet article fournit des informations sur l&quot;analyse des coûts que vous pouvez effectuer pour les ordres de fabrication terminés et en cours. Analysez les coûts estimés et réels à l&quot;aide de la page Calcul des prix ou les estimations des coûts ou de l&quot;état Estimations et évaluations des coûts. Vous pouvez afficher les informations relatives aux coûts estimés et réels (et à la quantité) pour chaque composant, opération de gamme et coût indirect."
+title: "Analyse du coût de l'ordre de fabrication"
+description: "Cet article fournit des informations sur l'analyse des coûts que vous pouvez effectuer pour les ordres de fabrication terminés et en cours. Analysez les coûts estimés et réels à l'aide de la page Calcul des prix ou les estimations des coûts ou de l'état Estimations et évaluations des coûts. Vous pouvez afficher les informations relatives aux coûts estimés et réels (et à la quantité) pour chaque composant, opération de gamme et coût indirect."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

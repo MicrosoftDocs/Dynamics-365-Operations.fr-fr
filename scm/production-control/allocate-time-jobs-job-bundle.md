@@ -3,7 +3,7 @@ title: "Répartir du temps aux tâches figurant dans un regroupement de tâches"
 description: "Dans Contrôle et suivi de la production, vous pouvez regrouper des tâches. Vous pouvez ensuite démarrer plusieurs tâches simultanément dans la page Liste de tâches."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

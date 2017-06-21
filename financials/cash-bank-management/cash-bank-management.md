@@ -1,9 +1,9 @@
 ---
-title: "Page d&quot;accueil de gestion de la trésorerie et de la banque"
-description: "Vous pouvez utiliser le module Gestion des fonds et des banques pour mettre à jour les comptes bancaires de l&quot;entité juridique et les instruments financiers qui y sont associés."
+title: "Page d'accueil de gestion de la trésorerie et de la banque"
+description: "Vous pouvez utiliser le module Gestion des fonds et des banques pour mettre à jour les comptes bancaires de l'entité juridique et les instruments financiers qui y sont associés."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications

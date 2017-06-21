@@ -1,9 +1,9 @@
 ---
 title: "Déterminer la version de nomenclature"
-description: "Lors de l&quot;éclatement d&quot;une demande, si le type d&quot;ordre par défaut d&quot;un article est défini sur Production, le moteur de planification détecte une version de nomenclature valide dans le site."
+description: "Lors de l'éclatement d'une demande, si le type d'ordre par défaut d'un article est défini sur Production, le moteur de planification détecte une version de nomenclature valide dans le site."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

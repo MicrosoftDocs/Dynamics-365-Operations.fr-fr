@@ -1,9 +1,9 @@
 ---
-title: "Simuler des modifications de coûts à l&quot;aide d&quot;une version d&quot;évaluation des coûts pour les coûts planifiés"
-description: "Cet article explique comment simuler les effets des modifications de coûts sur les coûts calculés d&quot;un article fabriqué à l&quot;aide d&quot;une version d&quot;évaluation des coûts séparée pour les coûts planifiés."
+title: "Simuler des modifications de coûts à l'aide d'une version d'évaluation des coûts pour les coûts planifiés"
+description: "Cet article explique comment simuler les effets des modifications de coûts sur les coûts calculés d'un article fabriqué à l'aide d'une version d'évaluation des coûts séparée pour les coûts planifiés."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

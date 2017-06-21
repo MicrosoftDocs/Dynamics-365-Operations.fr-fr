@@ -3,7 +3,7 @@ title: "Afficher les entrées de journal et les transactions"
 description: "Cet article explique les différentes manières dont vous pouvez afficher les entrées de journal et les transactions."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

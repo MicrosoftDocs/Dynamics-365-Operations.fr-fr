@@ -1,9 +1,9 @@
 ---
 title: Prise en charge du tableau de transfert kanban pour les scanneurs de codes-barres
-description: "La tableau de transfert kanban prend en charge l&quot;entrée de scanneur à partir d&quot;un lecteur de codes-barres de widget pour Sélectionner, Démarrer, Terminer et Vider une tâche de kanban."
+description: "La tableau de transfert kanban prend en charge l'entrée de scanneur à partir d'un lecteur de codes-barres de widget pour Sélectionner, Démarrer, Terminer et Vider une tâche de kanban."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

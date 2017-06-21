@@ -1,9 +1,9 @@
 ---
-title: "Règlement d&quot;un paiement client partiel avec plusieurs périodes de remise"
-description: "Cet article décrit la manière dont les paiements client partiels sont réglés lorsqu&quot;il existe plusieurs périodes de remise."
+title: "Règlement d'un paiement client partiel avec plusieurs périodes de remise"
+description: "Cet article décrit la manière dont les paiements client partiels sont réglés lorsqu'il existe plusieurs périodes de remise."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -1,9 +1,9 @@
 ---
 title: "Budgets préliminaires et répartitions dans le secteur public"
-description: "Cette rubrique couvre la création d&quot;un budget préliminaire, et le paramétrage de la budgétisation et du contrôle budgétaire pour les répartitions et un budget préliminaire."
+description: "Cette rubrique couvre la création d'un budget préliminaire, et le paramétrage de la budgétisation et du contrôle budgétaire pour les répartitions et un budget préliminaire."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -1,9 +1,9 @@
 ---
-title: "Dimensions d&quot;éléments de coût"
-description: "En tant que l&quot;un des piliers de base du contrôle de gestion, les dimensions d&quot;éléments de coût sont utilisées pour catégoriser et suivre le flux des coûts."
+title: "Dimensions d'éléments de coût"
+description: "En tant que l'un des piliers de base du contrôle de gestion, les dimensions d'éléments de coût sont utilisées pour catégoriser et suivre le flux des coûts."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

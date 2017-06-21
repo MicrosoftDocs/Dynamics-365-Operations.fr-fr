@@ -1,9 +1,9 @@
 ---
-title: "Règlement d&quot;un paiement client partiel et règlement total du paiement final avant la date de remise"
-description: "Cet article fournit des scénarios qui indiquent comment enregistrer des paiements partiels pour un client et prendre des escomptes de règlement pendant la période d&quot;escompte de règlement."
+title: "Règlement d'un paiement client partiel et règlement total du paiement final avant la date de remise"
+description: "Cet article fournit des scénarios qui indiquent comment enregistrer des paiements partiels pour un client et prendre des escomptes de règlement pendant la période d'escompte de règlement."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

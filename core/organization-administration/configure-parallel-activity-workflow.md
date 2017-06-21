@@ -1,9 +1,9 @@
 ---
 title: "Configurer une activité parallèle dans un workflow"
-description: "Pour configurer une activité parallèle, exécutez les procédures suivantes dans l&quot;éditeur de workflow."
+description: "Pour configurer une activité parallèle, exécutez les procédures suivantes dans l'éditeur de workflow."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

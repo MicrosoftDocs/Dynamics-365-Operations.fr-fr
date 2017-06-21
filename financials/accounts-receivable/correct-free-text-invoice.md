@@ -1,9 +1,9 @@
 ---
-title: "Correction d&quot;une facture financière"
+title: "Correction d'une facture financière"
 description: "Cet article explique comment corriger une facture financière validée et en émettre une nouvelle comme facture corrigée."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

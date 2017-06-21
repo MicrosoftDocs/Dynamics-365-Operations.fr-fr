@@ -1,9 +1,9 @@
 ---
-title: "Éclatement d&quot;une version de nomenclature"
-description: "Cet article décrit un scénario de planification qui implique l&quot;éclatement d&quot;une version de nomenclature."
+title: "Éclatement d'une version de nomenclature"
+description: "Cet article décrit un scénario de planification qui implique l'éclatement d'une version de nomenclature."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

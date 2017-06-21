@@ -1,9 +1,9 @@
 ---
 title: "Amortissement linéaire sur la durée de vie restante"
-description: "Cet article propose une vue d&quot;ensemble de la méthode d&quot;amortissement linéaire sur la durée de vie restante."
+description: "Cet article propose une vue d'ensemble de la méthode d'amortissement linéaire sur la durée de vie restante."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

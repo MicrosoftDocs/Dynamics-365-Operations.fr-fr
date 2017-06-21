@@ -1,9 +1,9 @@
 ---
-title: "Matières et taxes d&quot;emballage"
-description: "Des taxes sur les matières d&quot;emballage sont payées à intervalles réguliers à une entreprise de recyclage. Un montant par unité de poids est payé pour chaque matière composant une unité d&quot;emballage. Les taxes sur les matières d&quot;emballage sont calculées et déclarées, mais aucune écriture comptable n&quot;est validée car ces frais ne sont pas considérés comme devant être payés à une administration."
+title: "Matières et taxes d'emballage"
+description: "Des taxes sur les matières d'emballage sont payées à intervalles réguliers à une entreprise de recyclage. Un montant par unité de poids est payé pour chaque matière composant une unité d'emballage. Les taxes sur les matières d'emballage sont calculées et déclarées, mais aucune écriture comptable n'est validée car ces frais ne sont pas considérés comme devant être payés à une administration."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

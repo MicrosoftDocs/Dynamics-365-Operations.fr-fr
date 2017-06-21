@@ -1,9 +1,9 @@
 ---
 title: "Catégories de coûts utilisées dans Contrôle de la production et dans Gestion et comptabilité de projets"
-description: "Certains types de travaux de production peuvent s&quot;appliquer aux générations d&quot;états et aux estimations de temps du projet. Cet article fournit des informations sur les catégories de coûts que vous devez définir pour ces types de productions à des fins de production et de projet."
+description: "Certains types de travaux de production peuvent s'appliquer aux générations d'états et aux estimations de temps du projet. Cet article fournit des informations sur les catégories de coûts que vous devez définir pour ces types de productions à des fins de production et de projet."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

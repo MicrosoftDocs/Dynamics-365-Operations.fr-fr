@@ -1,9 +1,9 @@
 ---
 title: "Accords fournisseur Payer quand payé"
-description: "Cet article décrit les conditions Payer au paiement des accords fournisseur. Les conditions Payer au paiement vous permettent de retenir un paiement partiellement ou complètement pour un fournisseur jusqu&quot;à ce que le client du projet vous paie. Cet article fournit également un exemple concret pour vous montrer comment utiliser les conditions Payer au paiement dans un projet."
+description: "Cet article décrit les conditions Payer au paiement des accords fournisseur. Les conditions Payer au paiement vous permettent de retenir un paiement partiellement ou complètement pour un fournisseur jusqu'à ce que le client du projet vous paie. Cet article fournit également un exemple concret pour vous montrer comment utiliser les conditions Payer au paiement dans un projet."
 author: kfend
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

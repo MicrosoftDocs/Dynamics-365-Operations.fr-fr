@@ -3,7 +3,7 @@ title: "Clôture du stock"
 description: "Dans le cadre du processus pour régler les transactions de sortie avec des transactions de réception, vous pouvez également choisir de mettre à jour la comptabilité pour refléter les ajustements effectués."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

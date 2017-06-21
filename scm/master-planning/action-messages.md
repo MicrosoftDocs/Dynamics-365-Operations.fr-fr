@@ -1,9 +1,9 @@
 ---
 title: "non documenté"
-description: "Un message d&quot;action est une suggestion générée par le système visant à modifier un ordre prévisionnel ou confirmé existant."
+description: "Un message d'action est une suggestion générée par le système visant à modifier un ordre prévisionnel ou confirmé existant."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

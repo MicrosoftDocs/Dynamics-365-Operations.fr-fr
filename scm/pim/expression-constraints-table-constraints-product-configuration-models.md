@@ -1,9 +1,9 @@
 ---
-title: "Contraintes d&quot;expression et contraintes de table dans les modèles de configuration de produit"
-description: "Cette rubrique décrit l&quot;utilisation des contraintes d&quot;expression et de table. Les contraintes permettent de contrôler les valeurs d&quot;attribut que vous pouvez sélectionner lorsque vous configurez des produits pour une commande client, un devis de vente, une commande fournisseur ou un ordre de fabrication. Vous pouvez utiliser des contraintes d&quot;expression ou des contraintes de table selon la façon dont vous préférez créer les contraintes."
+title: "Contraintes d'expression et contraintes de table dans les modèles de configuration de produit"
+description: "Cette rubrique décrit l'utilisation des contraintes d'expression et de table. Les contraintes permettent de contrôler les valeurs d'attribut que vous pouvez sélectionner lorsque vous configurez des produits pour une commande client, un devis de vente, une commande fournisseur ou un ordre de fabrication. Vous pouvez utiliser des contraintes d'expression ou des contraintes de table selon la façon dont vous préférez créer les contraintes."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

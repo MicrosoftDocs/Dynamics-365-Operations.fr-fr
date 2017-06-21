@@ -1,9 +1,9 @@
 ---
 title: "Capacités de ressources"
-description: "Cet article fournit des informations sur les capacités de ressource. Une capacité est la capacité d&quot;une ressource opérationnelle à exercer une activité spécifique. L&quot;article décrit la manière dont les capacités et les concepts liés, tels que le niveau de qualification et la priorité, permettent de sélectionner les ressources appropriées pour une activité."
+description: "Cet article fournit des informations sur les capacités de ressource. Une capacité est la capacité d'une ressource opérationnelle à exercer une activité spécifique. L'article décrit la manière dont les capacités et les concepts liés, tels que le niveau de qualification et la priorité, permettent de sélectionner les ressources appropriées pour une activité."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

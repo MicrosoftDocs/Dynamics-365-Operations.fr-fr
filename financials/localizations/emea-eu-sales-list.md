@@ -1,9 +1,9 @@
 ---
 title: "Déclaration de la liste des ventes intracommunautaires"
-description: "Cet article fournit des informations sur la génération d&quot;un état relatif à la liste des ventes intracommunautaires."
+description: "Cet article fournit des informations sur la génération d'un état relatif à la liste des ventes intracommunautaires."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

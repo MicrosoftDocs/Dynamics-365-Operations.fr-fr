@@ -1,9 +1,9 @@
 ---
-title: Factures d&quot;acompte et acomptes
-description: "Cet article décrit et contraste les deux méthodes que les organisations peuvent utiliser pour les paiements en avance (acomptes). Dans la première, vous créez une facture d&quot;acompte qui est associée à une commande fournisseur. Dans l&quot;autre méthode, vous créez des N° document du journal des acomptes en créant des entrées de journal et en les marquant comme des N° document du journal des acomptes."
+title: Factures d'acompte et acomptes
+description: "Cet article décrit et contraste les deux méthodes que les organisations peuvent utiliser pour les paiements en avance (acomptes). Dans la première, vous créez une facture d'acompte qui est associée à une commande fournisseur. Dans l'autre méthode, vous créez des N° document du journal des acomptes en créant des entrées de journal et en les marquant comme des N° document du journal des acomptes."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

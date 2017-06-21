@@ -1,9 +1,9 @@
 ---
-title: "Règles d&quot;affectation comptable"
+title: "Règles d'affectation comptable"
 description: "Cet article fournit des informations générales sur les règles de répartition comptable. Il décrit les différents composants de ces règles de répartition et les méthodes de répartition utilisables pour elles."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

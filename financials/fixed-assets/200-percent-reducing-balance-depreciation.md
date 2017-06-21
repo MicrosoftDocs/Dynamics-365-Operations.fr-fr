@@ -1,9 +1,9 @@
 ---
 title: "Amortissements dégressifs de 200 %"
-description: "Cet article propose une vue d&quot;ensemble de la méthode d&quot;amortissement dégressif de 200 %."
+description: "Cet article propose une vue d'ensemble de la méthode d'amortissement dégressif de 200 %."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

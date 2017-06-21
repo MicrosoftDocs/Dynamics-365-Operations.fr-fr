@@ -1,9 +1,9 @@
 ---
 title: Recherche de produits et de variantes de produits lors de la saisie de commande
-description: "Utilisez le champ <strong>Numéro de l&quot;article </strong>pour rechercher des produits et des variantes de produits lorsque vous créez manuellement une ligne de commande client ou une ligne de commande fournisseur.  Cela vous permet de rechercher rapidement des variantes de produits lorsque vous avez uniquement la chaîne de configuration ou l&quot;une des dimensions de produit disponibles."
+description: "Utilisez le champ <strong>Numéro de l'article </strong>pour rechercher des produits et des variantes de produits lorsque vous créez manuellement une ligne de commande client ou une ligne de commande fournisseur.  Cela vous permet de rechercher rapidement des variantes de produits lorsque vous avez uniquement la chaîne de configuration ou l'une des dimensions de produit disponibles."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

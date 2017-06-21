@@ -1,9 +1,9 @@
 ---
 title: "Explorateur de comptabilité source"
-description: "Cet article fournit des informations sur l&quot;explorateur de comptabilité source, que vous pouvez utiliser pour l&quot;analyse détaillée d&quot;informations sources à l&quot;origine des écritures comptables."
+description: "Cet article fournit des informations sur l'explorateur de comptabilité source, que vous pouvez utiliser pour l'analyse détaillée d'informations sources à l'origine des écritures comptables."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

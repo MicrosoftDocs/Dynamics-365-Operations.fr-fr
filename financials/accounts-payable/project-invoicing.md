@@ -1,9 +1,9 @@
 ---
 title: Facturation de projet
-description: "Cet article fournit une vue d&quot;ensemble des projets en régie et des projets à prix fixe. Il inclut des informations sur les propositions de facture (factures préliminaires), le contrôle de facture, la facturation en compte, la facturation fournisseur, et les avoirs."
+description: "Cet article fournit une vue d'ensemble des projets en régie et des projets à prix fixe. Il inclut des informations sur les propositions de facture (factures préliminaires), le contrôle de facture, la facturation en compte, la facturation fournisseur, et les avoirs."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

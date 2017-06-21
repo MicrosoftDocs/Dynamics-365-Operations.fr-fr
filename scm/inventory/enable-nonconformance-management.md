@@ -1,9 +1,9 @@
 ---
 title: "Gestion de la non-conformité"
-description: "Cet article décrit le paramétrage de base requis afin d&quot;utiliser les non-conformités. Un paramétrage supplémentaire est requis si vous souhaitez utiliser des ordres de qualité."
+description: "Cet article décrit le paramétrage de base requis afin d'utiliser les non-conformités. Un paramétrage supplémentaire est requis si vous souhaitez utiliser des ordres de qualité."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

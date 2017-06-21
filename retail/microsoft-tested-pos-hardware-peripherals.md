@@ -1,14 +1,15 @@
 ---
 title: "Périphériques matériels de PDV"
-description: "Retail Modern point of sale (PDV) et PDV Cloud peuvent utiliser un large éventail des périphériques matériels de PDV, avec des interfaces et des options de déploiement multiples pour exécuter différents scénarios métier d&quot;un détaillant."
+description: "Retail Modern point of sale (PDV) et PDV Cloud peuvent utiliser un large éventail des périphériques matériels de PDV, avec des interfaces et des options de déploiement multiples pour exécuter différents scénarios métier d'un détaillant."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User, IT Pro
+ms.reviewer: josaw
 ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 215234
 ms.assetid: 1893d4b3-e1b7-4b66-be58-0102addd5b36

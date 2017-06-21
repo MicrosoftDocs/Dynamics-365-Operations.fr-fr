@@ -3,7 +3,7 @@ title: Contrepasser un paiement fournisseur
 description: "Cet article décrit les différences entre contrepasser, supprimer, annuler et rejeter un paiement. En outre, il détaille les deux méthodes pour contrepasser une vérification fournisseur."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

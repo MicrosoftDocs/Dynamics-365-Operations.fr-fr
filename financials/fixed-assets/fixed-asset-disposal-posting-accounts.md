@@ -3,7 +3,7 @@ title: Comptes de cession du profil de validation des immobilisations
 description: "Cet article explique comment paramétrer les comptes de validation de la comptabilité afin de céder des immobilisations."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -1,9 +1,9 @@
 ---
-title: "Lettres de crédit et relances d&quot;importation"
-description: "Cet article fournit des informations générales sur les lettres de crédit et des relances d&quot;importation. Ces deux types de documents bancaires sont fréquemment utilisés pour l&quot;achat et la vente de biens au-delà des frontières internationales."
+title: "Lettres de crédit et relances d'importation"
+description: "Cet article fournit des informations générales sur les lettres de crédit et des relances d'importation. Ces deux types de documents bancaires sont fréquemment utilisés pour l'achat et la vente de biens au-delà des frontières internationales."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

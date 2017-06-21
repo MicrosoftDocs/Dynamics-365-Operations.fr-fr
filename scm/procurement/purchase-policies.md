@@ -1,9 +1,9 @@
 ---
-title: Politiques d&quot;achat
-description: "Cet article fournit des informations sur les politiques d&quot;achat. Une stratégie d&quot;achat est une collection de règles qui contrôlent le processus de demande. Les stratégies d&quot;achat permettent aux administrateurs de l&quot;approvisionnement d&quot;implémenter leur stratégie d&quot;approvisionnement en créant une structure de stratégie qui est aligné sur les besoins d&quot;achats stratégiques de l&quot;organisation."
+title: Politiques d'achat
+description: "Cet article fournit des informations sur les politiques d'achat. Une stratégie d'achat est une collection de règles qui contrôlent le processus de demande. Les stratégies d'achat permettent aux administrateurs de l'approvisionnement d'implémenter leur stratégie d'approvisionnement en créant une structure de stratégie qui est aligné sur les besoins d'achats stratégiques de l'organisation."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

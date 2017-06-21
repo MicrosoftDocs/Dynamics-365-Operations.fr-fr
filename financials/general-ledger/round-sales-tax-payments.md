@@ -1,9 +1,9 @@
 ---
-title: "Règles d&quot;arrondissement et de paiements de taxe"
-description: "Cet article explique le fonctionnement du paramétrage de la règle d&quot;arrondi sur les administrations fiscales et de l&quot;arrondi du solde de taxe au cours de la tâche Régler et valider la taxe."
+title: "Règles d'arrondissement et de paiements de taxe"
+description: "Cet article explique le fonctionnement du paramétrage de la règle d'arrondi sur les administrations fiscales et de l'arrondi du solde de taxe au cours de la tâche Régler et valider la taxe."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

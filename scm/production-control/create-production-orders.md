@@ -1,9 +1,9 @@
 ---
 title: "Créer des ordres de fabrication"
-description: "Lors de la création d&quot;un ordre de fabrication, une demande de lancement de fabrication d&quot;un article est effectuée. L&quot;ordre de fabrication contient des informations sur l&quot;article à fabriquer, la quantité à fabriquer, ainsi que la date de fin de fabrication prévue. Il inclut également des informations sur les matières à consommer et quel processus suivre pour produire l&quot;article."
+description: "Lors de la création d'un ordre de fabrication, une demande de lancement de fabrication d'un article est effectuée. L'ordre de fabrication contient des informations sur l'article à fabriquer, la quantité à fabriquer, ainsi que la date de fin de fabrication prévue. Il inclut également des informations sur les matières à consommer et quel processus suivre pour produire l'article."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

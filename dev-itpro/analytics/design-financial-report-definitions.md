@@ -1,9 +1,9 @@
 ---
-title: "Définitions d&quot;états dans le générateur d&quot;états financiers"
-description: "Cet article fournit des informations sur les définitions d&quot;état. Une définition d&quot;état est un composant d&quot;état (ou bloc élémentaire) qui utilise une définition de ligne, de colonne et d&quot;organigramme d&quot;entreprise facultatif pour créer un état. Une définition d&quot;état fournit également les paramètres et les options pour la personnalisation d’un état."
+title: "Définitions d'états dans le générateur d'états financiers"
+description: "Cet article fournit des informations sur les définitions d'état. Une définition d'état est un composant d'état (ou bloc élémentaire) qui utilise une définition de ligne, de colonne et d'organigramme d'entreprise facultatif pour créer un état. Une définition d'état fournit également les paramètres et les options pour la personnalisation d’un état."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

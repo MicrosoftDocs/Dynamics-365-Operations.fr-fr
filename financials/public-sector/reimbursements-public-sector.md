@@ -3,7 +3,7 @@ title: Remboursements dans le secteur public
 description: "Cette rubrique répond aux questions courantes associées aux remboursements dans le secteur public."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

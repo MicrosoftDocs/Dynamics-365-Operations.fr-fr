@@ -1,9 +1,9 @@
 ---
-title: "Importation avancée du rapprochement bancaire MT940 – Mise à niveau de l&quot;entité de données composite"
-description: "Un numéro de souche doit être ajouté à l&quot;entité d&quot;importation des relevés bancaires pour prendre en charge le format MT940."
+title: "Importation avancée du rapprochement bancaire MT940 – Mise à niveau de l'entité de données composite"
+description: "Un numéro de souche doit être ajouté à l'entité d'importation des relevés bancaires pour prendre en charge le format MT940."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

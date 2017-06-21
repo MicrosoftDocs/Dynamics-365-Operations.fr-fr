@@ -1,9 +1,9 @@
 ---
-title: "Versions d&quot;évaluation des coûts"
-description: "Cet article fournit des informations sur les versions d&quot;évaluation des coûts, comment les tenir à jour, et les types de données que vous pouvez y inclure. L&quot;objectif principal d&quot;une version d&quot;évaluation de coûts est de contenir des enregistrements de coûts relatifs aux articles, des catégories de coûts et des formules de calcul pour les coûts indirects."
+title: "Versions d'évaluation des coûts"
+description: "Cet article fournit des informations sur les versions d'évaluation des coûts, comment les tenir à jour, et les types de données que vous pouvez y inclure. L'objectif principal d'une version d'évaluation de coûts est de contenir des enregistrements de coûts relatifs aux articles, des catégories de coûts et des formules de calcul pour les coûts indirects."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -1,9 +1,9 @@
 ---
-title: "Options d&quot;ordonnancement des opérations"
-description: "Cette rubrique décrit les options de l&quot;ordonnancement. Vous pouvez utiliser l&quot;ordonnancement pour fournir une estimation globale du processus de production dans le temps."
+title: "Options d'ordonnancement des opérations"
+description: "Cette rubrique décrit les options de l'ordonnancement. Vous pouvez utiliser l'ordonnancement pour fournir une estimation globale du processus de production dans le temps."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

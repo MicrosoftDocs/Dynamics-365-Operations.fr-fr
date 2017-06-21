@@ -3,7 +3,7 @@ title: "Configuration des modules Comptabilité client et Crédit et relances"
 description: "Configurez la Comptabilité client et les Crédit et relances pour assurer le suivi des factures et des paiements entrants des clients."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -1,9 +1,9 @@
 ---
 title: Attributs de lot
-description: "Cet article fournit des informations sur les attributs de lot. Les attributs de lot sont des caractéristiques de matières premières et de produits finis qui constituent des lots de stock. L&quot;article décrit également les manières d&quot;affecter des attributs de lot et d&quot;y effectuer une recherche lorsque vous réservez des traitements par lots."
+description: "Cet article fournit des informations sur les attributs de lot. Les attributs de lot sont des caractéristiques de matières premières et de produits finis qui constituent des lots de stock. L'article décrit également les manières d'affecter des attributs de lot et d'y effectuer une recherche lorsque vous réservez des traitements par lots."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

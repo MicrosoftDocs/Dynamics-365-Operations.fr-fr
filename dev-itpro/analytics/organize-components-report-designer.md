@@ -1,9 +1,9 @@
 ---
-title: "Organiser les composants d&quot;état dans le concepteur d&quot;état"
-description: "Après la création des blocs élémentaires et des états générés, il est utile d’organiser ces objets afin qu’ils soient plus faciles à localiser. Cet article explique comment organiser les états, les blocs élémentaires et les objets existants dans le générateur d&quot;états."
+title: "Organiser les composants d'état dans le concepteur d'état"
+description: "Après la création des blocs élémentaires et des états générés, il est utile d’organiser ces objets afin qu’ils soient plus faciles à localiser. Cet article explique comment organiser les états, les blocs élémentaires et les objets existants dans le générateur d'états."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

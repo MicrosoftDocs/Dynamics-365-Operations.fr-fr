@@ -3,10 +3,10 @@ title: Vue d'ensemble de la gestion des performances
 description: "Le processus de gestion des performances permet aux employés de documenter et de discuter de leurs performances avec leur responsable. Les responsables peuvent ensuite à leur tour faire des commentaires et fournir des instructions aux employés."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma

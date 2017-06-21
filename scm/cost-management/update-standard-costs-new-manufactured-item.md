@@ -3,7 +3,7 @@ title: "Mettre à jour des coûts standard pour un nouvel article fabriqué"
 description: "Cet article fournit des instructions pour mettre à jour les coûts standard pour un nouvel article fabriqué."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

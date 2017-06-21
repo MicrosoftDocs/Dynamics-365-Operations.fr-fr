@@ -1,9 +1,9 @@
 ---
 title: "Régler un paiement client partiel avant la date de remise avec un paiement final après la date de remise"
-description: "Cet article détaille l&quot;effet de la réception des paiements sur les factures pour les clients. Le scénario se concentre sur les effets dans la comptabilité auxiliaire et non dans la comptabilité."
+description: "Cet article détaille l'effet de la réception des paiements sur les factures pour les clients. Le scénario se concentre sur les effets dans la comptabilité auxiliaire et non dans la comptabilité."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

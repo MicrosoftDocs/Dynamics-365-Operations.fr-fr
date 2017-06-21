@@ -1,9 +1,9 @@
 ---
 title: "Déclaration de fin des ordres de fabrication"
-description: "La déclaration de fin correspond à un stade de production. À ce stade, un produit fini est signalé et passé de l&quot;ordre de fabrication au stock."
+description: "La déclaration de fin correspond à un stade de production. À ce stade, un produit fini est signalé et passé de l'ordre de fabrication au stock."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

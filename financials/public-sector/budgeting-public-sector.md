@@ -1,9 +1,9 @@
 ---
 title: "Budgétisation dans le secteur public"
-description: "Cette vue d&quot;ensemble présente la fonctionnalité de budgétisation disponible pour le secteur public. Cela inclut l&quot;analyse de budget, les budgets et les répartitions préliminaires, et les définitions de validation."
+description: "Cette vue d'ensemble présente la fonctionnalité de budgétisation disponible pour le secteur public. Cela inclut l'analyse de budget, les budgets et les répartitions préliminaires, et les définitions de validation."
 author: rschloma
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

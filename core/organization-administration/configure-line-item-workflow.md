@@ -1,9 +1,9 @@
 ---
-title: Configuration d&quot;un workflow pour ligne
+title: Configuration d'un workflow pour ligne
 description: "Cette rubrique explique comment configurer un élément de workflow pour ligne."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

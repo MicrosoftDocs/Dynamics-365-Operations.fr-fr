@@ -3,7 +3,7 @@ title: "Planifier des charges à l’aide de la consolidation de point de transb
 description: "Cet article décrit la fonctionnalité de consolidation des expéditions dans un point de transbordement lorsque vous livrez des marchandises provenant d’entrepôts différents pour le même client, ou lorsque vous recevez des marchandises à partir de plusieurs fournisseurs dans le même entrepôt."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

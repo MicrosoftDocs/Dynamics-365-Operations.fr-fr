@@ -3,7 +3,7 @@ title: "États financiers du bilan"
 description: "Cet article décrit les états par défaut des bilans. Il décrit également les blocs de construction associés à ces états."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

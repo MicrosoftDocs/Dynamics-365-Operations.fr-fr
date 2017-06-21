@@ -1,9 +1,9 @@
 ---
 title: "Création de paiements fournisseur via une proposition de paiement"
-description: "Cette rubrique fournit une vue d&quot;ensemble des options de proposition de paiement et il inclut quelques exemples qui indiquent comment les propositions de paiement sont exécutées. Les propositions de paiement sont souvent utilisées pour créer des paiements fournisseurs car la demande de proposition de paiement peut être utilisée pour sélectionner rapidement les factures fournisseur pour le paiement, en fonction de critères tels que la date d&quot;échéance et l&quot;escompte de règlement."
+description: "Cette rubrique fournit une vue d'ensemble des options de proposition de paiement et il inclut quelques exemples qui indiquent comment les propositions de paiement sont exécutées. Les propositions de paiement sont souvent utilisées pour créer des paiements fournisseurs car la demande de proposition de paiement peut être utilisée pour sélectionner rapidement les factures fournisseur pour le paiement, en fonction de critères tels que la date d'échéance et l'escompte de règlement."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

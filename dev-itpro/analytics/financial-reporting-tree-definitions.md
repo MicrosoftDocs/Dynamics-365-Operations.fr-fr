@@ -1,9 +1,9 @@
 ---
-title: "Définitions d&quot;arborescence de génération d&quot;états dans les états financiers"
-description: "Cet article fournit des informations sur les définitions d&quot;arborescence de génération d&quot;états. Une définition d’arborescence de génération d&quot;états est un composant d’état, ou un bloc élémentaire, qui vous permet de définir la structure et la hiérarchie de votre organisation."
+title: "Définitions d'arborescence de génération d'états dans les états financiers"
+description: "Cet article fournit des informations sur les définitions d'arborescence de génération d'états. Une définition d’arborescence de génération d'états est un composant d’état, ou un bloc élémentaire, qui vous permet de définir la structure et la hiérarchie de votre organisation."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

@@ -1,9 +1,9 @@
 ---
 title: "Fonctionnalité du concepteur de nomenclatures"
-description: "Cet article décrit la manière dont vous pouvez utiliser la page du concepteur de nomenclatures pour concevoir et utiliser des structures arborescentes pour des nomenclatures. Vous pouvez cliquer sur Paramétrage pour sélectionner différentes configurations et spécifier les informations qui s&quot;affichent dans les lignes de l&quot;arborescence."
+description: "Cet article décrit la manière dont vous pouvez utiliser la page du concepteur de nomenclatures pour concevoir et utiliser des structures arborescentes pour des nomenclatures. Vous pouvez cliquer sur Paramétrage pour sélectionner différentes configurations et spécifier les informations qui s'affichent dans les lignes de l'arborescence."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

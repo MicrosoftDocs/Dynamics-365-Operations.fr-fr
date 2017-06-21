@@ -1,9 +1,9 @@
 ---
-title: "Clôture de fin d&quot;exercice"
-description: "Cette rubrique décrit le paramétrage et les étapes nécessaires pour exécuter le processus de clôture de fin d&quot;exercice dans la comptabilité."
+title: "Clôture de fin d'exercice"
+description: "Cette rubrique décrit le paramétrage et les étapes nécessaires pour exécuter le processus de clôture de fin d'exercice dans la comptabilité."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

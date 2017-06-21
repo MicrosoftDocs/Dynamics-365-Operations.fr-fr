@@ -3,7 +3,7 @@ title: Enregistrement de Pointage
 description: "Les collaborateurs qualifiés pour l'enregistrement des heures peuvent entrer plusieurs types d'enregistrements d'heures : par exemple, le pointage à l'arrivée, le pointage à la sortie, l'enregistrement des activités indirectes et l'enregistrement des absences. Cet article décrit les enregistrements, leur calcul, leur approbation, et l'utilisation du workflow pour ajouter la structure et l'approbation automatisée au processus d'approbation des feuilles de temps."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

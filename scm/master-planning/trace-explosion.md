@@ -1,9 +1,9 @@
 ---
-title: "Utiliser leu suivi pour l&quot;éclatement"
-description: "Cet article décrit comment utiliser le suivi pour explorer les causes derrière les résultats d&quot;un éclatement de commande."
+title: "Utiliser leu suivi pour l'éclatement"
+description: "Cet article décrit comment utiliser le suivi pour explorer les causes derrière les résultats d'un éclatement de commande."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Forums aux questions sur les calculs pour les modèles de configuration 
 description: "Cet article décrit les calculs pour les modèles de configuration de produit et explique comment les utiliser avec les contraintes."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

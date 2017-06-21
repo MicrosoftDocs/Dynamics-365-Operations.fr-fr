@@ -3,7 +3,7 @@ title: "Enregistrement dans Contrôle et suivi de la production"
 description: "Cette rubrique décrit les concepts et les termes importants que vous devez comprendre pour configurer et utiliser le contrôle et suivi de la production."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

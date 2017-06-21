@@ -1,9 +1,9 @@
 ---
 title: Comptage des balises de stock
-description: "Cet article fournit des informations sur l&quot;inventaire de balises, que vous utilisez pour comparer le contenu réel d&quot;un entrepôt au stock disponible."
+description: "Cet article fournit des informations sur l'inventaire de balises, que vous utilisez pour comparer le contenu réel d'un entrepôt au stock disponible."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

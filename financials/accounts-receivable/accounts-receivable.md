@@ -1,9 +1,9 @@
 ---
-title: "Page d&quot;accueil de la comptabilité client"
-description: "Le module Comptabilité client permet d&quot;assurer le suivi des paiements entrants et des factures client."
+title: "Page d'accueil de la comptabilité client"
+description: "Le module Comptabilité client permet d'assurer le suivi des paiements entrants et des factures client."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications

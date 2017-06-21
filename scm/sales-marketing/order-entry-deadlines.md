@@ -3,7 +3,7 @@ title: Dates limites de saisie de commande
 description: "Cet article fournit des informations sur les dates limites de saisie de commande. Un date limite de saisie de commande est une heure limite qui détermine si une commande client est traitée (et exécutée) comme si elle avait été reçue le jour même ou le lendemain."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

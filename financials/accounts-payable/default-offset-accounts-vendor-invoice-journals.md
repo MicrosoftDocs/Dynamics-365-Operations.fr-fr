@@ -1,9 +1,9 @@
 ---
-title: "Comptes de contrepartie par défaut pour les journaux de facture fournisseur et les journaux d&quot;approbation de facture"
+title: "Comptes de contrepartie par défaut pour les journaux de facture fournisseur et les journaux d'approbation de facture"
 description: 
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

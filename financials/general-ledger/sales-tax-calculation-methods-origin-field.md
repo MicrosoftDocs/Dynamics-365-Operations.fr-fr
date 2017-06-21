@@ -1,9 +1,9 @@
 ---
 title: "Méthodes de calcul de la taxe dans le champ Origine"
-description: "Cet article décrit les options du champ Origine dans la page de codes taxe et la manière dont la taxe est calculée selon l&quot;option sélectionnée pour un code taxe."
+description: "Cet article décrit les options du champ Origine dans la page de codes taxe et la manière dont la taxe est calculée selon l'option sélectionnée pour un code taxe."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

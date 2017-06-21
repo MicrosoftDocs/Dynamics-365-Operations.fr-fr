@@ -1,9 +1,9 @@
 ---
-title: "Vue d&quot;ensemble de la conversion du coût standard"
-description: "Cet article fournit une vue d&quot;ensemble du processus pour vous aider à paramétrer et exécuter une conversion de coût standard. Les étapes répertoriées sont destinées à être effectuées après que vous avez réalisé les conditions préalables à la conversion de coût standard."
+title: "Vue d'ensemble de la conversion du coût standard"
+description: "Cet article fournit une vue d'ensemble du processus pour vous aider à paramétrer et exécuter une conversion de coût standard. Les étapes répertoriées sont destinées à être effectuées après que vous avez réalisé les conditions préalables à la conversion de coût standard."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

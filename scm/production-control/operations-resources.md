@@ -1,9 +1,9 @@
 ---
 title: Ressources Operations
-description: "Les ressources opérationnelles réalisent les activités d&quot;un projet ou d&quot;un processus de production. Elles peuvent être de différents types et avoir différentes capacités."
+description: "Les ressources opérationnelles réalisent les activités d'un projet ou d'un processus de production. Elles peuvent être de différents types et avoir différentes capacités."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

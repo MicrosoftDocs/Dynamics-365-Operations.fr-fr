@@ -1,9 +1,9 @@
 ---
 title: "Pénalités pour les paiements client en retard en France"
-description: "En France, vous pouvez appliquer une pénalité lorsqu&quot;un paiement client est en retard et vous pouvez imprimer le texte de récupération de la somme forfaitaire qui affiche le montant de pénalité qui doit être payé sur la facture ainsi que la date d&quot;échéance du paiement."
+description: "En France, vous pouvez appliquer une pénalité lorsqu'un paiement client est en retard et vous pouvez imprimer le texte de récupération de la somme forfaitaire qui affiche le montant de pénalité qui doit être payé sur la facture ainsi que la date d'échéance du paiement."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

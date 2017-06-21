@@ -3,7 +3,7 @@ title: "Intégration des immobilisations"
 description: "Le module Immobilisations peut être intégré avec les modules Comptabilité, Gestion des stocks, Ventes et Achats. Vous pouvez également paramétrer le module Immobilisations en vue de son intégration avec les commandes fournisseur."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

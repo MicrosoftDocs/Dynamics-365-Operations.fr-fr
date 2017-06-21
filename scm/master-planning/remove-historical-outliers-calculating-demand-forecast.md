@@ -1,9 +1,9 @@
 ---
-title: "Supprimer les valeurs hors norme des données de transaction historiques lors du calcul d&quot;une prévision de la demande"
-description: "Cette article décrit la procédure d&quot;exclusion des valeurs hors norme des données historiques utilisées pour calculer une prévision de la demande. En excluant des les valeurs hors normes, vous pouvez améliorer la précision de prévision."
+title: "Supprimer les valeurs hors norme des données de transaction historiques lors du calcul d'une prévision de la demande"
+description: "Cette article décrit la procédure d'exclusion des valeurs hors norme des données historiques utilisées pour calculer une prévision de la demande. En excluant des les valeurs hors normes, vous pouvez améliorer la précision de prévision."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

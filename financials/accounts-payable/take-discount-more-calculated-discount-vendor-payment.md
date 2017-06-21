@@ -1,9 +1,9 @@
 ---
-title: "Utilisation d&quot;une remise supérieure à la remise calculée pour un paiement fournisseur"
+title: "Utilisation d'une remise supérieure à la remise calculée pour un paiement fournisseur"
 description: "Cet article vous fait parcourir un scénario où un escompte de règlement est pris pour un montant qui est supérieur à la remise qui était initialement disponible sur la facture. Ce scénario peut se produire si une organisation parvient à un accord avec le fournisseur pour payer un montant plus bas sur la facture."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

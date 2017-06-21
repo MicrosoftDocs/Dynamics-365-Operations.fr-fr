@@ -1,9 +1,9 @@
 ---
 title: "Journaux équilibrés pour la comptabilité interunités"
-description: "Cet article décrit la manière dont un journal est automatiquement équilibré lorsqu&quot;une dimension financière d&quot;équilibrage est activée dans la page de comptabilité."
+description: "Cet article décrit la manière dont un journal est automatiquement équilibré lorsqu'une dimension financière d'équilibrage est activée dans la page de comptabilité."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

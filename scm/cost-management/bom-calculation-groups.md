@@ -3,7 +3,7 @@ title: Groupes de calculs de nomenclature
 description: "Cet article fournit des informations sur les groupes de calcul des nomenclatures et leur configuration. Pour exécuter un calcul de nomenclature, vous devez soit définir les groupes de calcul et les affecter à des articles individuels ou définir un groupe de calcul par défaut. Les paramètres de calcul du groupe de calcul sont utilisés ensuite comme valeurs par défaut sur la page Calcul de coût nomenclature au moment du calcul du coût de nomenclature."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

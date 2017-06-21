@@ -3,12 +3,13 @@ title: "Suivre les commissions dans le PDV à l'aide des groupes de ventes"
 description: "Il s'agit d'une pratique de vente au détail courante pour suivre les ventes de l'associé qui a travaillé avec le client : fournir une assistance, vente, vente croisée et traitement de la transaction."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
+ms.reviewer: josaw
 ms.search.scope: Retail, Operations, Core
 ms.custom: 261234
 ms.assetid: 7cd68ecc-cc09-48ab-8cb8-48d5c304effa

@@ -1,9 +1,9 @@
 ---
 title: "Groupes de coûts"
-description: "Les groupes de coûts servent de base pour la segmentation et l&quot;analyse des contributions de coûts dans le coût calculé d&quot;un article fabriqué, telles que les contributions de coûts pour les matériaux, la main-d&quot;œuvre et les frais généraux. La segmentation des groupes de coûts a plusieurs synonymes dans les environnements de fabrication, comme répartition des coûts, décomposition des coûts ou classification des coûts."
+description: "Les groupes de coûts servent de base pour la segmentation et l'analyse des contributions de coûts dans le coût calculé d'un article fabriqué, telles que les contributions de coûts pour les matériaux, la main-d'œuvre et les frais généraux. La segmentation des groupes de coûts a plusieurs synonymes dans les environnements de fabrication, comme répartition des coûts, décomposition des coûts ou classification des coûts."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

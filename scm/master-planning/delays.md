@@ -1,9 +1,9 @@
 ---
 title: Retards
-description: "Cet article fournit des informations sur les dates retardées de la planification. Une date retardée est une date d&quot;échéance réaliste attribuée à une transaction si la date d&quot;exécution la plus proche calculée par la planification est postérieure à la date demandée."
+description: "Cet article fournit des informations sur les dates retardées de la planification. Une date retardée est une date d'échéance réaliste attribuée à une transaction si la date d'exécution la plus proche calculée par la planification est postérieure à la date demandée."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

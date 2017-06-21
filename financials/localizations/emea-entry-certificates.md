@@ -1,9 +1,9 @@
 ---
-title: "Certificat d&quot;entrée de l&quot;UE"
-description: "Cet article fournit des informations sur les certificats d&quot;entrée dans l&quot;Union européenne (UE)."
+title: "Certificat d'entrée de l'UE"
+description: "Cet article fournit des informations sur les certificats d'entrée dans l'Union européenne (UE)."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
