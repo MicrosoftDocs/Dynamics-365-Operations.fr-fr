@@ -1,9 +1,9 @@
 ---
-title: "Contraintes de table définies par l&quot;utilisateur et par le système"
-description: "Cet article explique les deux types de contraintes de table pour les composants d&quot;un modèle de configuration de produit : définie par l&quot;utilisateur et définie par le système. Les contraintes de table représentent des matrices des combinaisons d&quot;attributs autorisées dans lesquelles chaque ligne définit un ensemble de valeurs d&quot;attribut possibles."
+title: "Contraintes de table définies par l'utilisateur et par le système"
+description: "Cet article explique les deux types de contraintes de table pour les composants d'un modèle de configuration de produit : définie par l'utilisateur et définie par le système. Les contraintes de table représentent des matrices des combinaisons d'attributs autorisées dans lesquelles chaque ligne définit un ensemble de valeurs d'attribut possibles."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

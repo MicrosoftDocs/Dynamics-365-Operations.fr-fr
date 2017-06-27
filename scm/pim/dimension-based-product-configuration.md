@@ -1,9 +1,9 @@
 ---
 title: "Configuration de produit basée dur les dimensions"
-description: "la configuration de produit basée sur les dimensions représente une solution simple pour créer plusieurs variantes de produit à partir d&quot;un produit générique unique et de sa nomenclature."
+description: "la configuration de produit basée sur les dimensions représente une solution simple pour créer plusieurs variantes de produit à partir d'un produit générique unique et de sa nomenclature."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

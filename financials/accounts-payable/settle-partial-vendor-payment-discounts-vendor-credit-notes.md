@@ -1,9 +1,9 @@
 ---
 title: "Régler un paiement partiel fournisseur ayant des remises sur les avoirs fournisseur"
-description: "Cet article vous fait parcourir les étapes d&quot;un scénario dans lequel un avoir est réglé grâce à une facture."
+description: "Cet article vous fait parcourir les étapes d'un scénario dans lequel un avoir est réglé grâce à une facture."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

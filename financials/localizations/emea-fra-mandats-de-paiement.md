@@ -1,9 +1,9 @@
 ---
 title: Mandats de paiement dans le secteur public en France
-description: "Le mandat de paiement est utilisé par le directeur pour informer le comptable que l&quot;organisation doit payer un montant donné à une autre entité et pour autoriser le comptable à payer ledit montant. Le mandat permet de garantir une séparation nette obligatoire entre le rôle opérationnel du directeur et le rôle comptable du comptable."
+description: "Le mandat de paiement est utilisé par le directeur pour informer le comptable que l'organisation doit payer un montant donné à une autre entité et pour autoriser le comptable à payer ledit montant. Le mandat permet de garantir une séparation nette obligatoire entre le rôle opérationnel du directeur et le rôle comptable du comptable."
 author: rschloma
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -12,7 +12,6 @@ audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 27231
-ms.assetid: e63d4d9d-27d4-42c9-ad87-66040b8680db
 ms.search.region: France
 ms.search.industry: Public sector
 ms.author: brpotter

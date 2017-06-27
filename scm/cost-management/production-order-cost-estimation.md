@@ -1,9 +1,9 @@
 ---
-title: "Estimation de coût de l&quot;ordre de fabrication"
-description: "Cet article fournit des informations sur l&quot;estimation du coût de production. L&quot;estimation du coût de production fournit les coûts de consommation de matière et de capacité projetés liés à la production d&quot;un article dans la quantité de l&quot;ordre de fabrication planifiée."
+title: "Estimation de coût de l'ordre de fabrication"
+description: "Cet article fournit des informations sur l'estimation du coût de production. L'estimation du coût de production fournit les coûts de consommation de matière et de capacité projetés liés à la production d'un article dans la quantité de l'ordre de fabrication planifiée."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

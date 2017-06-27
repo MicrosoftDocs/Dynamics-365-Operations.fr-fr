@@ -1,9 +1,9 @@
 ---
 title: amortissement de la prime
-description: "Cet article offre une vue d&quot;ensemble de la fonctionnalité d&quot;amortissement de la prime."
+description: "Cet article offre une vue d'ensemble de la fonctionnalité d'amortissement de la prime."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

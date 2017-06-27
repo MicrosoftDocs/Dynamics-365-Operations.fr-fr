@@ -1,9 +1,9 @@
 ---
-title: Page d&quot;accueil des immobilisations
+title: Page d'accueil des immobilisations
 description: "Les immobilisations sont des articles de valeur (bâtiments, véhicules, terrains et équipements) détenus par un individu ou une organisation."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications

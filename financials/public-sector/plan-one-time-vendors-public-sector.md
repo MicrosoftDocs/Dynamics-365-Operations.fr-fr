@@ -1,9 +1,9 @@
 ---
 title: Planifier pour les fournisseurs occasionnels dans le secteur public
-description: "Cet article fournit des informations sur l&quot;importation et la création de fournisseurs occasionnels et de factures."
+description: "Cet article fournit des informations sur l'importation et la création de fournisseurs occasionnels et de factures."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

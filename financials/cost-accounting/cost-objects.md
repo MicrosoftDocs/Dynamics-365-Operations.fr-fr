@@ -1,9 +1,9 @@
 ---
-title: "Dimensions d&quot;objets de coût"
-description: "Lorsque vous analysez les coûts, vous utilisez des dimensions d&quot;élément de coût pour déterminer le flux des coûts. Vous utilisez les dimensions d&quot;objet de coût pour déterminer où vous devez affecter des coûts. Cette rubrique fournit des informations sur les dimensions d&quot;objet de coût."
+title: "Dimensions d'objets de coût"
+description: "Lorsque vous analysez les coûts, vous utilisez des dimensions d'élément de coût pour déterminer le flux des coûts. Vous utilisez les dimensions d'objet de coût pour déterminer où vous devez affecter des coûts. Cette rubrique fournit des informations sur les dimensions d'objet de coût."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -1,9 +1,9 @@
 ---
 title: "Planification pour couverture de site, entrepôt obligatoire"
-description: "Cette rubrique décrit comment un article disposant du site comme dimension de couverture est planifié. L&quot;entrepôt est une dimension obligatoire."
+description: "Cette rubrique décrit comment un article disposant du site comme dimension de couverture est planifié. L'entrepôt est une dimension obligatoire."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

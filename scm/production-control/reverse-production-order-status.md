@@ -1,9 +1,9 @@
 ---
-title: Inverser le statut d&quot;ordre de fabrication
-description: "Cette rubrique décrit la procédure pour contrepasser le statut de l&quot;ordre de fabrication."
+title: Inverser le statut d'ordre de fabrication
+description: "Cette rubrique décrit la procédure pour contrepasser le statut de l'ordre de fabrication."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

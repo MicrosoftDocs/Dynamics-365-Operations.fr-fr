@@ -3,7 +3,7 @@ title: "Mise à jour des coûts standard dans un environnement de fabrication"
 description: "Cet article fournit des instructions sur la mise à jour des coûts standard dans un environnement de fabrication."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

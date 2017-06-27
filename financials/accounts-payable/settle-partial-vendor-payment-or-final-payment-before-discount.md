@@ -1,9 +1,9 @@
 ---
-title: "Règlement d&quot;un paiement fournisseur partiel et règlement total du paiement final avant la date de remise"
-description: "Cet article vous fait parcourir les étapes d&quot;un scénario dans lequel des paiements partiels sont effectués pour une facture fournisseur et un escompte de règlement est prélevé."
+title: "Règlement d'un paiement fournisseur partiel et règlement total du paiement final avant la date de remise"
+description: "Cet article vous fait parcourir les étapes d'un scénario dans lequel des paiements partiels sont effectués pour une facture fournisseur et un escompte de règlement est prélevé."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

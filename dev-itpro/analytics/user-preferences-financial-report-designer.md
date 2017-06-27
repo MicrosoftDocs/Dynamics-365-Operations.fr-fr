@@ -1,9 +1,9 @@
 ---
-title: "Préférences de l’utilisateur dans le générateur d&quot;états financiers"
-description: "Cet article explique comment définir les préférences de l’utilisateur pour personnaliser vos interactions utilisateur dans le générateur d&quot;états financiers et de contrôler l’expérience de connexion initiale. Vous pouvez également contrôler comment les états individuels, la bibliothèque d&quot;états et les emplacements de fichiers par défaut sont affichés."
+title: "Préférences de l’utilisateur dans le générateur d'états financiers"
+description: "Cet article explique comment définir les préférences de l’utilisateur pour personnaliser vos interactions utilisateur dans le générateur d'états financiers et de contrôler l’expérience de connexion initiale. Vous pouvez également contrôler comment les états individuels, la bibliothèque d'états et les emplacements de fichiers par défaut sont affichés."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

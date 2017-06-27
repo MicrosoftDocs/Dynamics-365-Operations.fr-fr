@@ -3,7 +3,7 @@ title: Approvisionnements dans le secteur public en France
 description: "Cet article explique comment les fonctionnalités standard associées aux approvisionnements ont été étendues pour les entités françaises du secteur public. Ces fonctionnalités permettent de répondre aux besoins du Code des marchés publics."
 author: rschloma
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -13,7 +13,6 @@ audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 19891
-ms.assetid: 3d3c89eb-5d6b-4d79-879b-ad6bf4bade35
 ms.search.region: France
 ms.search.industry: Public sector
 ms.author: brpotter

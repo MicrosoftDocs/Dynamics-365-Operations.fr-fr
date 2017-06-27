@@ -1,18 +1,17 @@
 ---
 title: "Amortissement dérogatoire pour la France"
-description: "Cet article fournit des informations sur l&quot;amortissement dérogatoire et la manière de le paramétrer. Dans l&quot;amortissement dérogatoire, un montant d&quot;amortissement supplémentaire est calculé comme étant la différence entre le montant d&quot;amortissement du modèle de valeur de taxe et le montant d&quot;amortissement du modèle de valeur comptable pendant la durée de vie d&quot;une immobilisation."
+description: "Cet article fournit des informations sur l'amortissement dérogatoire et la manière de le paramétrer. Dans l'amortissement dérogatoire, un montant d'amortissement supplémentaire est calculé comme étant la différence entre le montant d'amortissement du modèle de valeur de taxe et le montant d'amortissement du modèle de valeur comptable pendant la durée de vie d'une immobilisation."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: annbe
+ms.reviewer: shylaw
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 30321
-ms.assetid: be90464e-2cce-445c-b95b-79ec559b411e
 ms.search.region: France
 ms.author: anasyash
 ms.search.validFrom: 2016-02-28

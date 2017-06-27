@@ -1,9 +1,9 @@
 ---
-title: Appels d&quot;offre
-description: "Cet article fournit une vue d&quot;ensemble des demandes de devis émises par les organisations lorsqu&quot;elles doivent acheter des articles ou des services et souhaitent recevoir des offres de plusieurs fournisseurs. Dans une demande de devis, vous demandez aux fournisseurs d&quot;indiquer les prix et les délais de livraison pour des quantités de produits que vous spécifiez. Vous pouvez également demander aux fournisseurs de spécifier s&quot;il y a des frais accessoires, comme des frais de transport, ou si le fournisseur offre des remises pour les commandes importantes ou le paiement anticipé de la facture fournisseur."
+title: Appels d'offre
+description: "Cet article fournit une vue d'ensemble des demandes de devis émises par les organisations lorsqu'elles doivent acheter des articles ou des services et souhaitent recevoir des offres de plusieurs fournisseurs. Dans une demande de devis, vous demandez aux fournisseurs d'indiquer les prix et les délais de livraison pour des quantités de produits que vous spécifiez. Vous pouvez également demander aux fournisseurs de spécifier s'il y a des frais accessoires, comme des frais de transport, ou si le fournisseur offre des remises pour les commandes importantes ou le paiement anticipé de la facture fournisseur."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

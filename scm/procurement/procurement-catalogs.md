@@ -1,9 +1,9 @@
 ---
-title: Catalogues d&quot;approvisionnement
-description: "Cet article décrit, à un niveau supérieur, comment les acheteurs peuvent paramétrer et tenir à jour les catalogues d&quot;approvisionnement. Des catalogues d&quot;approvisionnement définissent les articles et les services que les employés de la société peuvent commander pour un usage interne."
+title: Catalogues d'approvisionnement
+description: "Cet article décrit, à un niveau supérieur, comment les acheteurs peuvent paramétrer et tenir à jour les catalogues d'approvisionnement. Des catalogues d'approvisionnement définissent les articles et les services que les employés de la société peuvent commander pour un usage interne."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

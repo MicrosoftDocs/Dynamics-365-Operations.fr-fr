@@ -3,7 +3,7 @@ title: "Utiliser un paiement client pour régler plusieurs factures qui couvrent
 description: "Cet article montre comment plusieurs factures sont payées lorsque chaque facture est qualifiée pour un escompte de règlement. Les scénarios dans cet article illustrent la variation des escomptes de règlement qui sont pris, en fonction de la manière dont le paiement est effectué."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

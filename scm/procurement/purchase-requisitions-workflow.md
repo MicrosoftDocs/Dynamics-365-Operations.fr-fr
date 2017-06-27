@@ -1,9 +1,9 @@
 ---
-title: workflow de demande d&quot;achat
-description: "Le processus de workflow déplace les demandes d&quot;achat via le processus de révision, depuis le statut initial de Brouillon jusqu&quot;au statut final Approuvé. Lorsqu&quot;une demande d&quot;achat est envoyée pour révision, le processus de workflow démarre. Lorsqu&quot;une demande d&quot;achat est approuvée, une commande fournisseur peut être générée pour les lignes de la demande d&quot;achat et soumise au fournisseur pour honorer une commande."
+title: workflow de demande d'achat
+description: "Le processus de workflow déplace les demandes d'achat via le processus de révision, depuis le statut initial de Brouillon jusqu'au statut final Approuvé. Lorsqu'une demande d'achat est envoyée pour révision, le processus de workflow démarre. Lorsqu'une demande d'achat est approuvée, une commande fournisseur peut être générée pour les lignes de la demande d'achat et soumise au fournisseur pour honorer une commande."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

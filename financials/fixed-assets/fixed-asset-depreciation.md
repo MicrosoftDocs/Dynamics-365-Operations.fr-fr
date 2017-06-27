@@ -1,9 +1,9 @@
 ---
 title: Amortissement des immobilisations
-description: Cet article fournit une vue d&quot;ensemble de l&quot;amortissement des immobilisations.
+description: Cet article fournit une vue d'ensemble de l'amortissement des immobilisations.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

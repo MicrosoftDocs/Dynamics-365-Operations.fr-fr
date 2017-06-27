@@ -3,7 +3,7 @@ title: Profils de validation fournisseur
 description: "Les profils de validation fournisseur contrôlent la validation des transactions fournisseur pour la comptabilité."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

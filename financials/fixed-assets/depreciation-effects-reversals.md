@@ -1,9 +1,9 @@
 ---
-title: Effets d&quot;amortissement avec contrepassations
-description: "Cet article traite des conséquences potentielles de la contrepassation d&quot;une transaction d&quot;immobilisation."
+title: Effets d'amortissement avec contrepassations
+description: "Cet article traite des conséquences potentielles de la contrepassation d'une transaction d'immobilisation."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -1,9 +1,9 @@
 ---
-title: Options des transactions d&quot;immobilisation
-description: "Cet article décrit les différentes méthodes disponibles pour créer des transactions d&quot;immobilisation."
+title: Options des transactions d'immobilisation
+description: "Cet article décrit les différentes méthodes disponibles pour créer des transactions d'immobilisation."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

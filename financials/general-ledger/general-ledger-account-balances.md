@@ -1,9 +1,9 @@
 ---
 title: "Soldes de la comptabilité"
-description: "Cet article décrit deux manières d&quot;afficher les soldes de compte général : la page de liste de balance comptable et les états financiers. Il explique également comment mettre à jour les soldes de l&quot;ensemble de dimensions."
+description: "Cet article décrit deux manières d'afficher les soldes de compte général : la page de liste de balance comptable et les états financiers. Il explique également comment mettre à jour les soldes de l'ensemble de dimensions."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

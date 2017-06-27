@@ -1,9 +1,9 @@
 ---
 title: "Suivi du coût moyen en vigueur par dimension de stock"
-description: "Un groupe de dimensions de stock est associé à chaque article en stock. Par conséquent, le prix de revient moyen en vigueur d&quot;un article est calculé à partir des dimensions de stock sélectionnées qui sont suivies au niveau financier."
+description: "Un groupe de dimensions de stock est associé à chaque article en stock. Par conséquent, le prix de revient moyen en vigueur d'un article est calculé à partir des dimensions de stock sélectionnées qui sont suivies au niveau financier."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

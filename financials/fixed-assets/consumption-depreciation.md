@@ -1,9 +1,9 @@
 ---
 title: Amortissement de consommation
-description: "Cet article donne une vue d&quot;ensemble de la méthode de consommation de l&quot;amortissement."
+description: "Cet article donne une vue d'ensemble de la méthode de consommation de l'amortissement."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

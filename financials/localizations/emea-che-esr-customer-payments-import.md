@@ -10,9 +10,9 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CustPaymMode, LedgerJournalTransCustPaym
 audience: Application User
+ms.reviewer: shylaw
 ms.search.scope: Operations, Core
 ms.custom: 264584
-ms.assetid: 60c429b5-1d88-4fef-be6b-b8585e0e9ee7
 ms.search.region: Switzerland
 ms.author: v-lenest
 ms.search.validFrom: 2016-11-30

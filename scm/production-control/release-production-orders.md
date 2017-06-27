@@ -1,9 +1,9 @@
 ---
 title: Lancement des ordres de fabrication
-description: "Un ordre de fabrication lancé est une commande qui a été autorisée pour la production. Le terme Lancé permet de décrire un état du cycle de vie de l&quot;ordre de fabrication où l&quot;ordre de fabrication est disponible pour l&quot;exécution dans l&quot;atelier de production et pour les processus d&quot;entrepôt."
+description: "Un ordre de fabrication lancé est une commande qui a été autorisée pour la production. Le terme Lancé permet de décrire un état du cycle de vie de l'ordre de fabrication où l'ordre de fabrication est disponible pour l'exécution dans l'atelier de production et pour les processus d'entrepôt."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

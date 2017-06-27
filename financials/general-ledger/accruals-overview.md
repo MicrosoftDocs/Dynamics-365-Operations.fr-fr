@@ -1,9 +1,9 @@
 ---
-title: "Vue d&quot;ensemble des régularisations"
+title: "Vue d'ensemble des régularisations"
 description: "Cet article décrit les régularisations, et fournit des informations sur leur paramétrage pour créer des transactions."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

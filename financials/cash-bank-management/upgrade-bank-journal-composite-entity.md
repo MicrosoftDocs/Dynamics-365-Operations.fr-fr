@@ -1,9 +1,9 @@
 ---
-title: "Mise à jour de l&quot;entité composite du journal des banques"
+title: "Mise à jour de l'entité composite du journal des banques"
 description: "Les étapes suivantes sont requises pour ajouter le champ BankTransactionType supplémentaire au BankJournalEntity composite."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

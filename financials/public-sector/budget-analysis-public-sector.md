@@ -1,9 +1,9 @@
 ---
 title: "Analyse budgétaire dans le secteur public"
-description: "Cette rubrique décrit l&quot;utilisation de la page d&quot;analyse de budget pour afficher les produits et les dépenses par dimension financière, puis elle répond aux questions posées fréquemment, notamment les différences entre la page d&quot;analyse de budget et la page de statistiques de contrôle budgétaire."
+description: "Cette rubrique décrit l'utilisation de la page d'analyse de budget pour afficher les produits et les dépenses par dimension financière, puis elle répond aux questions posées fréquemment, notamment les différences entre la page d'analyse de budget et la page de statistiques de contrôle budgétaire."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

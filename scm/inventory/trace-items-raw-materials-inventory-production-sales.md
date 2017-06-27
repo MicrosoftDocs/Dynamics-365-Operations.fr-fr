@@ -1,9 +1,9 @@
 ---
 title: "Suivi des articles et des matières premières dans le stock, la production et les ventes"
-description: "Cette rubrique décrit la manière dont vous pouvez utiliser le suivi d&quot;article pour identifier où les articles ou les matières premières ont été, sont ou seront utilisés dans les processus de production et de vente."
+description: "Cette rubrique décrit la manière dont vous pouvez utiliser le suivi d'article pour identifier où les articles ou les matières premières ont été, sont ou seront utilisés dans les processus de production et de vente."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

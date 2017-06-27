@@ -3,7 +3,7 @@ title: Planifier votre plan de comptes
 description: Cet article fournit des informations vous permettant de planifier le plan de comptes de votre organisation.
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

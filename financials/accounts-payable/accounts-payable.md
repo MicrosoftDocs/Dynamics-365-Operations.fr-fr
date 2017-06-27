@@ -1,9 +1,9 @@
 ---
-title: "Page d&quot;accueil de la comptabilité fournisseur"
-description: "Cette rubrique fournit une vue d&quot;ensemble de la comptabilité fournisseur."
+title: "Page d'accueil de la comptabilité fournisseur"
+description: "Cette rubrique fournit une vue d'ensemble de la comptabilité fournisseur."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications

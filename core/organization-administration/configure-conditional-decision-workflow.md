@@ -1,9 +1,9 @@
 ---
 title: "Configurer une décision conditionnelle dans un workflow"
-description: "La procédure suivante permet de configurer les propriétés d&quot;une décision conditionnelle."
+description: "La procédure suivante permet de configurer les propriétés d'une décision conditionnelle."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

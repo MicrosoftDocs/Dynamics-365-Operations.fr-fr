@@ -3,16 +3,16 @@ title: "Numéros de facture et de document chronologiques pour la France"
 description: "Cette rubrique explique comment paramétrer et utiliser des numéros chronologiques pour les factures et les documents dans la comptabilité client pour les entités juridiques en France."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CustParameters, NumberSequenceGroup
 audience: Application User
+ms.reviewer: shylaw
 ms.search.scope: Operations, Core
 ms.custom: 264514
-ms.assetid: d1fce1dc-2186-443c-9b4d-b6f64236bc3a
 ms.search.region: France
 ms.author: ilyako
 ms.search.validFrom: 2016-11-30

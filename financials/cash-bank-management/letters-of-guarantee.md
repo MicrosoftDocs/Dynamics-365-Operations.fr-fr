@@ -1,9 +1,9 @@
 ---
 title: Lettres de garantie
-description: "Cet article fournit des informations sur les lettres de garantie. Dans une lettre de garantie, une banque s&quot;engage à payer une somme d&quot;argent spécifique à une personne si l&quot;un des clients de la banque ne règle pas un paiement ou une obligation au bénéficiaire."
+description: "Cet article fournit des informations sur les lettres de garantie. Dans une lettre de garantie, une banque s'engage à payer une somme d'argent spécifique à une personne si l'un des clients de la banque ne règle pas un paiement ou une obligation au bénéficiaire."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

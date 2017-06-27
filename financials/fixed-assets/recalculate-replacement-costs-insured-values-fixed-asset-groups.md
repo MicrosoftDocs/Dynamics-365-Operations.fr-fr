@@ -1,9 +1,9 @@
 ---
-title: "Recalculer les coûts de remplacement et les valeurs assurées pour des groupes d&quot;immobilisations"
+title: "Recalculer les coûts de remplacement et les valeurs assurées pour des groupes d'immobilisations"
 description: "Cet article décrit le processus pour mettre à jour les coûts de remplacement et les valeurs assurées pour des immobilisations."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

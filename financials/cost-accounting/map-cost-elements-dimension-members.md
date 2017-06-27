@@ -1,9 +1,9 @@
 ---
-title: "Mappage de membres de dimension d&quot;élément de coût à un ensemble commun de membres de dimension"
-description: "En mappant différents membres de la dimension d&quot;élément de coût à un ensemble commun de membres de la dimension d&quot;élément de coût, vous fusionnez les données en un format commun à des fins de analyse."
+title: "Mappage de membres de dimension d'élément de coût à un ensemble commun de membres de dimension"
+description: "En mappant différents membres de la dimension d'élément de coût à un ensemble commun de membres de la dimension d'élément de coût, vous fusionnez les données en un format commun à des fins de analyse."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

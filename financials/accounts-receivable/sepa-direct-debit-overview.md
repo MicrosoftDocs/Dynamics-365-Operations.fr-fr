@@ -1,9 +1,9 @@
 ---
-title: "Vue d&quot;ensemble du débit direct SEPA"
-description: "L&quot;Espace unique de paiement en euros (SEPA) est défini par la Commission européenne et stipule que tous les paiements électroniques sont considérés comme locaux, quel que soit le pays/la région où la personne, l&quot;entreprise ou l&quot;organisation et la banque sont localisées. Il n&quot;existe aucune différence entre les paiements nationaux et transfrontières. Le SEPA inclut les 28 états membres de l&quot;Union européenne (EU), ainsi que l&quot;Islande, le Liechtenstein, la Norvège, la Suisse, Monaco et San Marin. Le SEPA permet de former un marché unique pour les transactions de paiement dans l&quot;Espace économique européen. Enfin, le SEPA est supposé réduire le nombre de formats de paiement pour les banques, les entreprises et les personnes."
+title: "Vue d'ensemble du débit direct SEPA"
+description: "L'Espace unique de paiement en euros (SEPA) est défini par la Commission européenne et stipule que tous les paiements électroniques sont considérés comme locaux, quel que soit le pays/la région où la personne, l'entreprise ou l'organisation et la banque sont localisées. Il n'existe aucune différence entre les paiements nationaux et transfrontières. Le SEPA inclut les 28 états membres de l'Union européenne (EU), ainsi que l'Islande, le Liechtenstein, la Norvège, la Suisse, Monaco et San Marin. Le SEPA permet de former un marché unique pour les transactions de paiement dans l'Espace économique européen. Enfin, le SEPA est supposé réduire le nombre de formats de paiement pour les banques, les entreprises et les personnes."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

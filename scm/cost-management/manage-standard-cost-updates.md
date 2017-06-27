@@ -1,9 +1,9 @@
 ---
 title: "Gérer des mises à jour des coûts standard"
-description: "Les mises à jour des données de coût standard peuvent être gérées à l&quot;aide de deux approches -  l&quot;approche à une version et l&quot;approche à deux versions."
+description: "Les mises à jour des données de coût standard peuvent être gérées à l'aide de deux approches -  l'approche à une version et l'approche à deux versions."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

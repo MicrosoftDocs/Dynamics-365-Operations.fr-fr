@@ -1,9 +1,9 @@
 ---
-title: "Prélever un escompte de règlement en dehors de la période d&quot;escompte de règlement"
-description: "Cet article fournit deux scénarios qui indiquent comment un escompte de règlement peut être pris même si le paiement est effectué en dehors de la période d&quot;escompte de règlement."
+title: "Prélever un escompte de règlement en dehors de la période d'escompte de règlement"
+description: "Cet article fournit deux scénarios qui indiquent comment un escompte de règlement peut être pris même si le paiement est effectué en dehors de la période d'escompte de règlement."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -1,9 +1,9 @@
 ---
 title: "Créer une feuille de chargement"
-description: "Cette rubrique décrit la procédure de création d&quot;une feuille de chargement lors de l&quot;utilisation des processus de gestion des entrepôts."
+description: "Cette rubrique décrit la procédure de création d'une feuille de chargement lors de l'utilisation des processus de gestion des entrepôts."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

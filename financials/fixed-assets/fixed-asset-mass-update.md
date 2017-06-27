@@ -1,9 +1,9 @@
 ---
 title: "Mise à jour collective des immobilisations"
-description: "Si vous utilisez des registres, vous pouvez modifier les conventions d&quot;amortissement pour les groupes d&quot;immobilisations faisant partie du même registre."
+description: "Si vous utilisez des registres, vous pouvez modifier les conventions d'amortissement pour les groupes d'immobilisations faisant partie du même registre."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,16 +3,15 @@ title: "Impression du texte récupéré du montant forfaitaire sur une facture c
 description: "Cet article fournit des informations sur la procédure pour imprimer un texte récupéré du montant forfaitaire qui affiche le montant de la pénalité sur les factures client."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: ShylaThompson
+ms.reviewer: shylaw
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 53161
-ms.assetid: 6ba08d6a-b6d1-4d2f-a7e6-a486488cd604
 ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-02-28

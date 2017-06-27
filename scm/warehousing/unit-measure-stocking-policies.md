@@ -1,9 +1,9 @@
 ---
-title: "Stratégies d&quot;unité de mesure et de stockage"
-description: "Cet article décrit la manière dont les unités par défaut, les séquences d&quot;unité et les conversions d&quot;unités sont utilisées dans les processus d&quot;entrepôt."
+title: "Stratégies d'unité de mesure et de stockage"
+description: "Cet article décrit la manière dont les unités par défaut, les séquences d'unité et les conversions d'unités sont utilisées dans les processus d'entrepôt."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

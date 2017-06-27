@@ -1,9 +1,9 @@
 ---
 title: "Conditions requises pour le paramétrage de la production"
-description: "Cet article fournit des informations sur les conditions requises pour le paramétrage avant d&quot;utiliser le contrôle de la production."
+description: "Cet article fournit des informations sur les conditions requises pour le paramétrage avant d'utiliser le contrôle de la production."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

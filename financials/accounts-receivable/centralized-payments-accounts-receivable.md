@@ -1,9 +1,9 @@
 ---
 title: "Paiements centralisés pour la comptabilité client"
-description: "Les organisations qui comprennent plusieurs entités juridiques peuvent créer et gérer des paiements à l&quot;aide d&quot;une entité juridique unique qui assure la gestion de tous les paiements. Par conséquent, la même transaction ne doit pas être entrée dans plusieurs entités juridiques. Cet article fournit des exemples décrivant la manière dont la validation des paiements centralisés est gérée dans divers scénarios."
+description: "Les organisations qui comprennent plusieurs entités juridiques peuvent créer et gérer des paiements à l'aide d'une entité juridique unique qui assure la gestion de tous les paiements. Par conséquent, la même transaction ne doit pas être entrée dans plusieurs entités juridiques. Cet article fournit des exemples décrivant la manière dont la validation des paiements centralisés est gérée dans divers scénarios."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

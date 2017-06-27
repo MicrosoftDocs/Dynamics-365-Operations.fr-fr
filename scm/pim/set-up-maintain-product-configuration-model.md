@@ -1,9 +1,9 @@
 ---
 title: "Paramétrer un modèle de configuration de produit"
-description: "Cet article décrit les étapes de paramétrage et de création d&quot;un modèle de configuration de produit."
+description: "Cet article décrit les étapes de paramétrage et de création d'un modèle de configuration de produit."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

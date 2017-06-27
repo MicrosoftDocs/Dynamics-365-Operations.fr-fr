@@ -1,9 +1,9 @@
 ---
-title: "Sécurité de l&quot;utilisateur du portail fournisseur"
-description: "Cet article détaille la procédure de paramétrage de la sécurité pour les fournisseurs externes qui utilisent le portail Fournisseur. Ces informations ne s&quot;appliquent qu&quot;aux versions de février 2016 et de mai 2016 de Dynamics AX."
+title: "Sécurité de l'utilisateur du portail fournisseur"
+description: "Cet article détaille la procédure de paramétrage de la sécurité pour les fournisseurs externes qui utilisent le portail Fournisseur. Ces informations ne s'appliquent qu'aux versions de février 2016 et de mai 2016 de Dynamics AX."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

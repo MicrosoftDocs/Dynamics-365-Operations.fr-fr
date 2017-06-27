@@ -1,9 +1,9 @@
 ---
-title: "Paramètres d&quot;affichage de l&quot;appareil mobile de l&quot;entrepôt"
-description: "Cet article décrit comment définir l&quot;apparence d&quot;affichage d&quot;un appareil mobile, et comment mettre en correspondance les raccourcis clavier avec les contrôles, tels que les boutons."
+title: "Paramètres d'affichage de l'appareil mobile de l'entrepôt"
+description: "Cet article décrit comment définir l'apparence d'affichage d'un appareil mobile, et comment mettre en correspondance les raccourcis clavier avec les contrôles, tels que les boutons."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

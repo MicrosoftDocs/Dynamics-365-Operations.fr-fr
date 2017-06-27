@@ -1,9 +1,9 @@
 ---
-title: Workflows d&quot;approvisionnement
-description: "Certaines organisations demandent que les demandes d&quot;achat et les commandes fournisseur soient approuvées par un utilisateur autre que celui qui a saisi la transaction. Pour paramétrer un processus d&quot;approbation, vous pouvez créer un workflow."
+title: Workflows d'approvisionnement
+description: "Certaines organisations demandent que les demandes d'achat et les commandes fournisseur soient approuvées par un utilisateur autre que celui qui a saisi la transaction. Pour paramétrer un processus d'approbation, vous pouvez créer un workflow."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

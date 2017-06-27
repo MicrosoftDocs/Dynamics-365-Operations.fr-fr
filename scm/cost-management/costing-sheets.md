@@ -1,9 +1,9 @@
 ---
 title: "Feuilles de coûts"
-description: "Le paramétrage de la feuille d&quot;évaluation des coûts a deux objectifs. Premièrement, vous définissez le format d&quot;affichage des informations des prix des marchandises vendues sur un article fabriqué ou un ordre de fabrication. L&quot;affichage formaté est appelé feuille de coûts. Deuxièmement, vous définissez la base de calcul des coûts indirects. Le paramétrage de la feuille d&quot;évaluation des coûts se base sur la fonctionnalité de groupe de coûts pour l&quot;affichage d&quot;informations et pour les formules de calcul des coûts indirects. Les deux objectifs du paramétrage de la feuille d&quot;évaluation des coûts sont décrits dans cet article."
+description: "Le paramétrage de la feuille d'évaluation des coûts a deux objectifs. Premièrement, vous définissez le format d'affichage des informations des prix des marchandises vendues sur un article fabriqué ou un ordre de fabrication. L'affichage formaté est appelé feuille de coûts. Deuxièmement, vous définissez la base de calcul des coûts indirects. Le paramétrage de la feuille d'évaluation des coûts se base sur la fonctionnalité de groupe de coûts pour l'affichage d'informations et pour les formules de calcul des coûts indirects. Les deux objectifs du paramétrage de la feuille d'évaluation des coûts sont décrits dans cet article."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

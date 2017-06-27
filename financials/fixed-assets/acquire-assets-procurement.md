@@ -1,9 +1,9 @@
 ---
-title: "Acquérir les actifs via l&quot;approvisionnement"
-description: "Cet article décrit comment paramétrer l&quot;intégration entre Immobilisations et Comptabilité fournisseur pour créer automatiquement des immobilisations à partir de commandes fournisseur ou de factures fournisseur ou pour valider automatiquement des transactions d&quot;acquisition et d&quot;ajustement d&quot;acquisition pour des immobilisations."
+title: "Acquérir les actifs via l'approvisionnement"
+description: "Cet article décrit comment paramétrer l'intégration entre Immobilisations et Comptabilité fournisseur pour créer automatiquement des immobilisations à partir de commandes fournisseur ou de factures fournisseur ou pour valider automatiquement des transactions d'acquisition et d'ajustement d'acquisition pour des immobilisations."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

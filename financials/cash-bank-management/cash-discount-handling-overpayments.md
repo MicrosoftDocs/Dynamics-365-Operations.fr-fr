@@ -1,9 +1,9 @@
 ---
-title: "Traitement de l&quot;escompte de règlement pour les trop-perçus"
-description: "Cet article fournit des scénarios qui indiquent comment un paiement est assuré lorsque le client bénéficie d&quot;un escompte de règlement tout en payant un montant supérieur."
+title: "Traitement de l'escompte de règlement pour les trop-perçus"
+description: "Cet article fournit des scénarios qui indiquent comment un paiement est assuré lorsque le client bénéficie d'un escompte de règlement tout en payant un montant supérieur."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

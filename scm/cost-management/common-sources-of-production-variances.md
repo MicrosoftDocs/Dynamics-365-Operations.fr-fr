@@ -1,9 +1,9 @@
 ---
 title: "Sources courantes des écarts de production"
-description: "Cet article décrit diverses sources typiques de chaque type d&quot;écart de production."
+description: "Cet article décrit diverses sources typiques de chaque type d'écart de production."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

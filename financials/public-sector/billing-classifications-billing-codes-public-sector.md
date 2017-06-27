@@ -3,7 +3,7 @@ title: Classifications de facturation et codes facturation dans le secteur publi
 description: "Les organisations du secteur public peuvent utiliser les classifications de facturation et des codes de facturation pour gérer les factures financières."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

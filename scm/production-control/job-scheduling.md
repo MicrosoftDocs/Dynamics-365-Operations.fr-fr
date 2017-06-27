@@ -1,9 +1,9 @@
 ---
 title: "Planification de tâche"
-description: "Cet article fournit des informations sur la planification des tâches, qui constitue une forme plus détaillée de planification que la planification d&quot;opérations. La planification des tâches permet de programmer des tâches ou ordres d&quot;atelier, et de contrôler l&quot;environnement de fabrication."
+description: "Cet article fournit des informations sur la planification des tâches, qui constitue une forme plus détaillée de planification que la planification d'opérations. La planification des tâches permet de programmer des tâches ou ordres d'atelier, et de contrôler l'environnement de fabrication."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

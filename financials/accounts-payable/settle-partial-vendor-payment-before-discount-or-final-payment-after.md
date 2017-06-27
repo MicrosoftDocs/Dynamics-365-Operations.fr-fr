@@ -1,9 +1,9 @@
 ---
 title: "Régler un paiement partiel fournisseur avant la date de remise avec un paiement final après la date de remise"
-description: "Cet article vous fait parcourir un scénario où plusieurs paiements partiels sont effectués, certains au cours de la période d&quot;escompte de règlement et d&quot;autres en dehors de la période d&quot;escompte de règlement."
+description: "Cet article vous fait parcourir un scénario où plusieurs paiements partiels sont effectués, certains au cours de la période d'escompte de règlement et d'autres en dehors de la période d'escompte de règlement."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

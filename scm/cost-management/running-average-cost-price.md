@@ -1,9 +1,9 @@
 ---
 title: Prix de revient moyen en cours
-description: "La clôture du stock règle les transactions de sortie avec des transactions de réception sur la base du modèle d&quot;évaluation du stock sélectionné dans le groupe de modèles d&quot;article associé à l&quot;article. Toutefois, avant d&quot;exécuter la clôture du stock, le système calcule un prix de revient moyen en cours qui est généralement utilisé lorsque les transactions de sortie sont validées."
+description: "La clôture du stock règle les transactions de sortie avec des transactions de réception sur la base du modèle d'évaluation du stock sélectionné dans le groupe de modèles d'article associé à l'article. Toutefois, avant d'exécuter la clôture du stock, le système calcule un prix de revient moyen en cours qui est généralement utilisé lorsque les transactions de sortie sont validées."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

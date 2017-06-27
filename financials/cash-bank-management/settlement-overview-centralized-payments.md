@@ -1,9 +1,9 @@
 ---
-title: "Vue d&quot;ensemble des règlements des paiements centralisés"
-description: "Les organisations qui comprennent plusieurs entités juridiques peuvent créer et gérer des paiements à l&quot;aide d&quot;une entité juridique qui assure la gestion de tous les paiements. Cela élimine le besoin d&quot;entrer la même transaction dans plusieurs entités juridiques et permet de gagner du temps en rationalisant le processus de proposition de paiement, le processus de règlement, la modification des transactions en cours et la modification des transactions clôturées pour les paiements centralisés."
+title: "Vue d'ensemble des règlements des paiements centralisés"
+description: "Les organisations qui comprennent plusieurs entités juridiques peuvent créer et gérer des paiements à l'aide d'une entité juridique qui assure la gestion de tous les paiements. Cela élimine le besoin d'entrer la même transaction dans plusieurs entités juridiques et permet de gagner du temps en rationalisant le processus de proposition de paiement, le processus de règlement, la modification des transactions en cours et la modification des transactions clôturées pour les paiements centralisés."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

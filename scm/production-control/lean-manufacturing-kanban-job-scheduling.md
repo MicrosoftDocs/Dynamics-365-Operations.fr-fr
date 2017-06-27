@@ -3,7 +3,7 @@ title: "Planification des tâches de kanban pour lean manufacturing"
 description: "Cet article fournit des informations sur le contrôle visuel de la planification des tâches de kanban et différentes manières de planifier des tâches de kanban."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Validation de la production
 description: "Cet article fournit des informations sur différents types de validations du processus de production."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

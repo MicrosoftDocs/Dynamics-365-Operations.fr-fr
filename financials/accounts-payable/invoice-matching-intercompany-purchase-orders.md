@@ -1,16 +1,16 @@
 ---
 title: "Rapprochement de factures et commandes fournisseur intersociétés"
-description: "L&quot;entité juridique acheteuse impliquée dans une transaction commerciale intersociétés peut être paramétrée pour utiliser le rapprochement de factures d&quot;Achats. Dans ce cas, les conditions de validation pour le commerce intersociétés et le rapprochement de factures d&quot;Achats doivent être remplies pour que les factures fournisseur intersociétés puissent être validées."
+description: "L'entité juridique acheteuse impliquée dans une transaction commerciale intersociétés peut être paramétrée pour utiliser le rapprochement de factures d'Achats. Dans ce cas, les conditions de validation pour le commerce intersociétés et le rapprochement de factures d'Achats doivent être remplies pour que les factures fournisseur intersociétés puissent être validées."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchLineMatchingPolicy
 audience: Application User
-ms.reviewer: annbe
+ms.reviewer: twheeloc
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 3101
 ms.assetid: 9c7c2e44-45f8-4325-b6de-a09fe790f9cf

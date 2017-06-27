@@ -3,7 +3,7 @@ title: Livraison directe
 description: "Cet article fournit des informations sur les livraisons directes. Les livraisons directes sont des livraisons expédiées directement du fournisseur au client."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

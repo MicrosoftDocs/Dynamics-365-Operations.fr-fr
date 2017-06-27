@@ -1,16 +1,16 @@
 ---
-title: "Violations et incidents de stratégie d&quot;audit"
-description: "Cet article décrit la manière dont les incident d&quot;audit sont générés à la suite de violations des règles de stratégie d&quot;audit. Il inclut également des informations sur les différentes manières dont les stratégies d&quot;audit utilisent la plage de dates de sélection de document."
+title: "Violations et incidents de stratégie d'audit"
+description: "Cet article décrit la manière dont les incident d'audit sont générés à la suite de violations des règles de stratégie d'audit. Il inclut également des informations sur les différentes manières dont les stratégies d'audit utilisent la plage de dates de sélection de document."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AuditPolicyAdditionalOption, AuditPolicyRule
 audience: Application User
-ms.reviewer: annbe
+ms.reviewer: twheeloc
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 13091
 ms.assetid: e0e66c6d-c396-4a9d-b3b6-3641d130fdc0

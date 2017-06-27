@@ -1,9 +1,9 @@
 ---
-title: "Vue d&quot;ensemble de la consolidation et de l&quot;élimination"
-description: "Cet article fournit des informations générales sur le processus de consolidation et d&quot;élimination. Il inclut des réponses à un certain nombre de questions posées fréquemment."
+title: "Vue d'ensemble de la consolidation et de l'élimination"
+description: "Cet article fournit des informations générales sur le processus de consolidation et d'élimination. Il inclut des réponses à un certain nombre de questions posées fréquemment."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

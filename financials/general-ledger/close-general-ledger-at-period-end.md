@@ -1,9 +1,9 @@
 ---
 title: "Clôture de la comptabilité en fin de période"
-description: "Cette rubrique décrit les tâches qui sont généralement effectuées lors de l&quot;exécution d&quot;une clôture de période pour la comptabilité."
+description: "Cette rubrique décrit les tâches qui sont généralement effectuées lors de l'exécution d'une clôture de période pour la comptabilité."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

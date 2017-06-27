@@ -1,9 +1,9 @@
 ---
-title: Comptes de validation d&quot;acquisition d&quot;immobilisations
-description: "Cet article explique comment paramétrer les comtes de validation de la comptabilité afin d&quot;acquérir des immobilisations."
+title: Comptes de validation d'acquisition d'immobilisations
+description: "Cet article explique comment paramétrer les comtes de validation de la comptabilité afin d'acquérir des immobilisations."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

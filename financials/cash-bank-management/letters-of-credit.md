@@ -1,9 +1,9 @@
 ---
 title: "Lettres de crédit"
-description: "Les lettres de crédit sont des documents bancaires fréquemment utilisés pour l&quot;achat et la vente de biens au-delà des frontières internationales."
+description: "Les lettres de crédit sont des documents bancaires fréquemment utilisés pour l'achat et la vente de biens au-delà des frontières internationales."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

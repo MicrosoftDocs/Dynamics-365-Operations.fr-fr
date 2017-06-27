@@ -1,9 +1,9 @@
 ---
 title: "Générer un état financier"
-description: "Cette rubrique fournit des informations sur la génération d&quot;un état financier."
+description: "Cette rubrique fournit des informations sur la génération d'un état financier."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

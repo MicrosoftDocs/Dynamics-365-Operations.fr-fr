@@ -1,9 +1,9 @@
 ---
-title: "Règlement d&quot;un paiement fournisseur partiel avec plusieurs périodes de remise"
-description: "Cet article vous fait parcourir les étapes d&quot;un scénario dans lequel plusieurs paiements partiels sont effectués pour un fournisseur qui offre plusieurs escomptes de règlement."
+title: "Règlement d'un paiement fournisseur partiel avec plusieurs périodes de remise"
+description: "Cet article vous fait parcourir les étapes d'un scénario dans lequel plusieurs paiements partiels sont effectués pour un fournisseur qui offre plusieurs escomptes de règlement."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

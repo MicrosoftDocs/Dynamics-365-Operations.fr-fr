@@ -1,9 +1,9 @@
 ---
 title: "Planification et fonctionnalité multisite"
-description: "La planification prend en compte les paramètres des dimensions de stock du site et de l&quot;entrepôt."
+description: "La planification prend en compte les paramètres des dimensions de stock du site et de l'entrepôt."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

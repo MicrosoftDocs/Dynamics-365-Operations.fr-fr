@@ -3,7 +3,7 @@ title: "Calculer la consommation de matières"
 description: "Cet article fournit des informations sur les différentes options relatives au calcul de la consommation de matières."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

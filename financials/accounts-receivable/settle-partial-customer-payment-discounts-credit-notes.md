@@ -1,9 +1,9 @@
 ---
 title: "Régler un paiement partiel client ayant des remises sur les avoirs"
-description: "Cet article vous fait parcourir les étapes d&quot;un scénario où un escompte de règlement est prélevé sur un avoir lorsque la facture d&quot;origine a également bénéficié d&quot;un escompte de règlement."
+description: "Cet article vous fait parcourir les étapes d'un scénario où un escompte de règlement est prélevé sur un avoir lorsque la facture d'origine a également bénéficié d'un escompte de règlement."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -1,9 +1,9 @@
 ---
-title: "Exonération, rétablissement ou contrepassation de commissions d&quot;intérêt"
+title: "Exonération, rétablissement ou contrepassation de commissions d'intérêt"
 description: "Cet article explique comment exonérer, rétablir, et contrepasser les frais pour les intérêts et les frais."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

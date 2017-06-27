@@ -1,9 +1,9 @@
 ---
 title: "Réutiliser des configurations de produit"
-description: "Vous pouvez spécifier que vous souhaitez réutiliser automatiquement une configuration existante pour un produit. Ensuite, lorsqu&quot;un utilisateur a terminé une session de configuration, le système vérifie si une configuration qui correspond aux sélections effectuée par l&quot;utilisateur existe déjà. Si une configuration correspondante est trouvée, l&quot;ID configuration, la nomenclature correspondante et la gamme sont réutilisés."
+description: "Vous pouvez spécifier que vous souhaitez réutiliser automatiquement une configuration existante pour un produit. Ensuite, lorsqu'un utilisateur a terminé une session de configuration, le système vérifie si une configuration qui correspond aux sélections effectuée par l'utilisateur existe déjà. Si une configuration correspondante est trouvée, l'ID configuration, la nomenclature correspondante et la gamme sont réutilisés."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

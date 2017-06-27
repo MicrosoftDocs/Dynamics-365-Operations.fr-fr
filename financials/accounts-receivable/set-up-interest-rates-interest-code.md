@@ -1,9 +1,9 @@
 ---
-title: "Paramétrage des taux d&quot;intérêt pour un code intérêt"
+title: "Paramétrage des taux d'intérêt pour un code intérêt"
 description: "Les codes intérêt contiennent des paramètres qui déterminent quand les intérêts sont facturés et comment ils sont calculés sur les comptes qui présentent des retards."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

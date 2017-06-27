@@ -3,7 +3,7 @@ title: "Paramétrage du crédit et des recouvrements"
 description: "Cet article décrit la procédure de paramétrage de la fonctionnalité de recouvrement."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

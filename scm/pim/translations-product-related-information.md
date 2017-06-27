@@ -3,7 +3,7 @@ title: FAQ sur les traductions relatives au produit
 description: "Cette rubrique explique comment gérer les traductions de produits, les valeurs de dimension des produits, et les attributs des produits."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

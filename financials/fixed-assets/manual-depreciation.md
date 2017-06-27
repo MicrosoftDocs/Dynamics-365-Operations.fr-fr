@@ -1,9 +1,9 @@
 ---
 title: Amortissement manuel
-description: "Cet article donne une vue d&quot;ensemble de la méthode d&quot;amortissement manuelle."
+description: "Cet article donne une vue d'ensemble de la méthode d'amortissement manuelle."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

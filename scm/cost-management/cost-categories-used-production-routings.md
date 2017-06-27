@@ -1,9 +1,9 @@
 ---
-title: "Catégories de coûts utilisées dans l&quot;acheminement de la production"
-description: "Cet article fournit des informations sur les catégories de coûts qui s&quot;appliquent aux environnements de fabrication qui utilisent l&quot;acheminement."
+title: "Catégories de coûts utilisées dans l'acheminement de la production"
+description: "Cet article fournit des informations sur les catégories de coûts qui s'appliquent aux environnements de fabrication qui utilisent l'acheminement."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

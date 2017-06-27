@@ -1,9 +1,9 @@
 ---
 title: "Paramètres de couverture"
-description: "Le calcul PDP/MRP utilise les paramètres de couverture pour calculer les demandes d&quot;articles."
+description: "Le calcul PDP/MRP utilise les paramètres de couverture pour calculer les demandes d'articles."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
