@@ -1,6 +1,6 @@
 ---
-title: "Vue d&quot;ensemble des arrivées"
-description: "Cette rubrique fournit des informations sur la fonctionnalité Vue d&quot;ensemble des arrivées. La page Vue d&quot;ensemble des arrivées fait partie de cette fonction et fournit une vue d&quot;ensemble de tous les articles attendus en tant qu&quot;articles entrants."
+title: "Vue d'ensemble des arrivées"
+description: "Cette rubrique fournit des informations sur la fonctionnalité Vue d'ensemble des arrivées. La page Vue d'ensemble des arrivées fait partie de cette fonction et fournit une vue d'ensemble de tous les articles attendus en tant qu'articles entrants."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/20/2017
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: WMSArrivalOverview, WMSArrivalOverviewProfile, WMSJournalTable
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 274363
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global

@@ -1,6 +1,6 @@
 ---
 title: "Paramétrer les immobilisations"
-description: "Cette rubrique fournit une vue d&quot;ensemble du paramétrage du module Immobilisations."
+description: "Cette rubrique fournit une vue d'ensemble du paramétrage du module Immobilisations."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/25/2017
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 13771
 ms.assetid: 8be64197-fea1-4a34-8af2-d939919c28b1
 ms.search.region: Global

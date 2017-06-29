@@ -1,6 +1,6 @@
 ---
 title: "Amortissement des coûts constants pour un article fabriqué"
-description: "Les coûts constants d&quot;un article fabriqué reflètent les temps de réglage de l&quot;opération et les composants pour lesquels la quantité est constante ou la quantité de rebut est constante."
+description: "Les coûts constants d'un article fabriqué reflètent les temps de réglage de l'opération et les composants pour lesquels la quantité est constante ou la quantité de rebut est constante."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/20/2017
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: BOMCalcDialog, BOMCalcTable, BOMCalcTrans
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 274503
 ms.assetid: 535ab25d-a031-4e8c-84ec-478f2987a1ad
 ms.search.region: global

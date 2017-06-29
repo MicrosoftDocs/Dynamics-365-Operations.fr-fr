@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: BudgetControlApportionments, BudgetControlConfiguration, BudgetControlStatistics, BudgetParameters
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 19471
 ms.assetid: 8cecf3cc-8916-44d7-8c73-d6254a61f62b
 ms.search.region: Global

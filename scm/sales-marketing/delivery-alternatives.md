@@ -1,6 +1,6 @@
 ---
 title: Autres modes de livraison
-description: "Les responsables des commandes client peuvent utiliser la page Autres modes de livraison pour connaître les options alternatives d&quot;exécution de commande."
+description: "Les responsables des commandes client peuvent utiliser la page Autres modes de livraison pour connaître les options alternatives d'exécution de commande."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/10/2017
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: SalesLineDeliveryDetails
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 271623
 ms.assetid: 527f6084-44fe-41bb-924f-4386e926358a
 ms.search.region: global

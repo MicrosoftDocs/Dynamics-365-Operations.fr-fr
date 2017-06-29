@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: AgreementClassification, PurchAgreement, SysPolicy
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 19891
 ms.search.region: France
 ms.search.industry: Public sector

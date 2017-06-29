@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: PurchYearEndClose
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 19601
 ms.assetid: ba9a7abc-bd18-47c2-b745-96cdcec8ac98
 ms.search.region: Global

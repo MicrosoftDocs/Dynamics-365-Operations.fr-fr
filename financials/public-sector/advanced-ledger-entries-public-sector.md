@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: AdvancedLedgerEntry, BudgetControlConfiguration, LedgerParameters
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 19511
 ms.assetid: 3db0233e-d767-4dc0-b008-733098b6ca70
 ms.search.region: Global

@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: BudgetDetailsInquiry, CustGroup, JournalizingDefinition, JournalizingDefinitionTrans, LedgerFund, LedgerParameters, LedgerTransferOpening, MainAccount
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 27271
 ms.search.region: Global
 ms.search.industry: Public sector

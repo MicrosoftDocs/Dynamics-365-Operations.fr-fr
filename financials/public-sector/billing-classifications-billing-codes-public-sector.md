@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustBillingClassification, CustBillingCode, CustCustomField
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 19491
 ms.assetid: 47624566-0b4c-41dc-9cd4-801e213b5da3
 ms.search.region: Global
