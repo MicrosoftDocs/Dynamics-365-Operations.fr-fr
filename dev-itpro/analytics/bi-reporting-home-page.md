@@ -1,15 +1,15 @@
 ---
-title: "Page d&quot;accueil BI et génération d&quot;états"
-description: "Cette rubrique répertorie les ressources BI et de génération d&quot;états disponibles dans Microsoft Dynamics 365 for Operations."
+title: "Page d'accueil BI et génération d'états"
+description: "Cette rubrique répertorie les ressources BI et de génération d'états disponibles dans Microsoft Dynamics 365 for Finance and Operations."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 27681
 ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3e97fda52acf6b61bf47eb30d53ce6597b4929d3
+ms.sourcegitcommit: c8684bf17946edff8230f0b6d324d355e61dc89b
+ms.openlocfilehash: 448517531112636d553dc895b17c5644c9c1f0bc
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/21/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Cette rubrique répertorie les ressources BI et de génération d'états disponibles dans Microsoft Dynamics 365 for Operations. 
+Cette rubrique répertorie les ressources BI et de génération d'états disponibles dans Microsoft Dynamics 365 for Finance and Operations. 
 
 <a name="working-with-aggregate-data"></a>Utilisation de données regroupées
 ---------------------------
@@ -43,14 +43,14 @@ Cette rubrique répertorie les ressources BI et de génération d'états disponi
 ## <a name="self-service-reporting"></a>Génération d'états libre-service
 -   [Intégration Power BI](power-bi-integration.md)
 -   [Configuration de l'intégration Power BI pour les espaces de travail](configure-power-bi-integration.md)
--   [Création d'un état Power BI à l'aide de données Microsoft Dynamics 365 for Operations](create-powerbi-report-data.md)
+-   [Création d'un état Power BI à l'aide de données Microsoft Dynamics 365 for Finance and Operations](create-powerbi-report-data.md)
 -   [Créer un état et un tableau de bord Power BI](create-powerbi-report-dashboard.md)
 -   [Contenu Power BI des performances du canal de vente au détail](retail-channel-performance-dashboard-power-bi-data.md)
 -   [Contenu Power BI des performances financières](financial-performance-power-bi-content-pack.md)
 -   [Contenu Power BI des performances de rentabilité et de vente](sales-profitability-performance-content-pack.md)
--   [Utiliser une configuration de génération d'états électroniques pour fournir à Power BI des données Dynamics 365 for Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [Utiliser une configuration de génération d'états électroniques pour fournir à Power BI des données de Finance and Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 
-## <a name="building-embedded-analytical-experiences-in-the-dynamics-365-for-operations-client"></a>Création d'expériences analytiques intégrées au client Dynamics 365 for Operations
+## <a name="building-embedded-analytical-experiences-in-the-finance-and-operations-client"></a>Création d'expériences analytiques intégrées au client Finance and Operations
 -   [Business Intelligence intégrée](analytics.md#embedded-business-intelligence)
 -   [Modélisation et personnalisation d'indicateurs KPI](analytics.md#kpi-modeling-and-customization)
 -   [Ajout de BI aux espaces de travail](add-bi-workspaces.md)
@@ -58,7 +58,7 @@ Cette rubrique répertorie les ressources BI et de génération d'états disponi
 
 ## <a name="document-reporting-and-printing"></a>Génération et impression de documents
 -   [Vue d'ensemble de Reporting Services de document](document-reporting-services.md)
--   [Impression dans les applications Dynamics 365 for Operations](print-documents.md)
+-   [Impression dans les applications Finance and Operations](print-documents.md)
 -   [Installer l'agent d'acheminement de document pour activer les périphériques d'imprimante réseau](install-document-routing-agent.md)
 -   [Exécuter l'agent d'acheminement de document en tant que service Windows](run-document-routing-agent-as-windows-service.md)
 -   [Création de solutions de génération d'états de deuxième génération](create-nextgen-reporting-solutions.md)
@@ -72,7 +72,7 @@ Cette rubrique répertorie les ressources BI et de génération d'états disponi
 -   [Concepteur de formule dans les états électroniques](general-electronic-reporting-formula-designer.md)
 -   [Destinations pour la gestion des états électroniques](electronic-reporting-destinations.md)
 -   [Télécharger les configurations d'états électroniques à partir de Lifecycle Services](download-electronic-reporting-configuration-lcs.md)
--   [Utiliser une configuration de génération d'états électroniques pour fournir à Power BI des données Dynamics 365 for Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [Utiliser une configuration de génération d'états électroniques pour fournir à Power BI des données de Finance and Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 -   [ER Créer un fournisseur de configuration et le marquer comme actif](http://ax.help.dynamics.com/en/wiki/er-select-service-provider/) (Guide de tâche)
 -   [ER Créer un modèle de données spécifique au domaine](http://ax.help.dynamics.com/en/wiki/er-design-domain-specific-data-model/) (Guide de tâche)
 -   [ER Définir le mappage de modèles et sélectionner des sources de données](http://ax.help.dynamics.com/en/wiki/er-define-model-mapping-and-select-data-sources/) (Guide de tâche)
