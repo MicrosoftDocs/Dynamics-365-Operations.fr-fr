@@ -1,6 +1,6 @@
 ---
 title: "Effectuer un amortissement dégressif"
-description: "Cet article donne une vue d&quot;ensemble de la méthode d&quot;amortissement dégressif."
+description: "Cet article donne une vue d'ensemble de la méthode d'amortissement dégressif."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/25/2017
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 3281
 ms.assetid: 1b86763d-d47c-4a6a-a9a6-d97a736750da
 ms.search.region: Global

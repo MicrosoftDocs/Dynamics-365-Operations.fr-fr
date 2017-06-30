@@ -1,6 +1,6 @@
 ---
-title: Valider des transactions d&quot;immobilisation dans des couches de validation
-description: "Cet article donne une vue d&quot;ensemble de la fonctionnalité de couche de validation pour les transactions d&quot;immobilisation."
+title: Valider des transactions d'immobilisation dans des couches de validation
+description: "Cet article donne une vue d'ensemble de la fonctionnalité de couche de validation pour les transactions d'immobilisation."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/25/2017
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: AssetBookTable, LedgerJournalTransAsset
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 3001
 ms.assetid: 7dabde57-0843-47c3-85ef-f36b6f472e30
 ms.search.region: Global

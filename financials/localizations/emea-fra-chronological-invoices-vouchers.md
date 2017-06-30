@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustParameters, NumberSequenceGroup
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 264514
 ms.search.region: France
 ms.author: ilyako

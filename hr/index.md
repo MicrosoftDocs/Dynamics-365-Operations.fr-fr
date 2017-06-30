@@ -1,12 +1,12 @@
 ---
-title: Ressources humaines
-description: "Le module Ressources humaines simplifie de nombreuses tâches d&quot;archivage de routine et automatise un certain nombre de processus liés à la dotation en personnel de votre organisation. Il fournit également un cadre permettant au personnel des ressources humaines d&quot;assurer une supervision appropriée. Ces domaines incluent le recrutement et la rétention des employés, l&quot;administration des avantages, la formation, les évaluations des performances et la gestion des modifications."
+title: "Microsoft Dynamics 365 for Talent"
+description: "Le module Talent simplifie de nombreuses tâches d'archivage de routine et automatise un certain nombre de processus liés à la dotation en personnel de votre organisation. Ces processus incluent la rétention des employés, l'administration des avantages, la formation, les évaluations des performances et la gestion des modifications."
 author: rschloma
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/19/2017
 ms.topic: index-page
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
@@ -16,23 +16,25 @@ ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 213d1dc69ac0f6dc10138e185625a142e107f073
+ms.sourcegitcommit: 6e2feeadd7cef8273d94810a13df6c5dfe6f1d4a
+ms.openlocfilehash: e0f41445c621a317fcdccef6cb08766dd6fac279
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/21/2017
 
 
 ---
 
-# <a name="welcome-to-human-resources"></a>Bienvenue dans le module Ressources humaines
+# <a name="welcome-to-microsoft-dynamics-365-for-talent"></a>Bienvenue dans Microsoft Dynamics 365 for Talent
 
 [!include[banner](includes/banner.md)]
 
-Le module Ressources humaines simplifie de nombreuses tâches d'archivage de routine et automatise un certain nombre de processus liés à la dotation en personnel de votre organisation. Il fournit également un cadre permettant au personnel des ressources humaines d'assurer une supervision appropriée. Ces domaines incluent le recrutement et la rétention des employés, l'administration des avantages, la formation, les évaluations des performances et la gestion des modifications.
+Microsoft Dynamics 365 for Talent rationalise de nombreuses tâches d'archivage de routine et automatise un certain nombre de processus liés à la dotation en personnel de votre organisation. Ces processus incluent la rétention des employés, l'administration des avantages, la formation, les évaluations des performances et la gestion des modifications. Il fournit également un cadre permettant au personnel des ressources humaines d'assurer une supervision appropriée.
 
-Le module Ressources humaines vous permet d'effectuer les tâches suivantes :
+Dynamics 365 for Talent est étroitement lié au module Ressources humaines dans Dynamics 365 for Finance and Operations, Enterprise edition. Les mêmes fonctionnalités peuvent apparaître dans les deux produits. Par conséquent, dans les rubriques qui sont principalement dédiées aux Ressources humaines, le nom du produit sera Dynamics 365 for Finance and Operations, Enterprise Edition ; dans les rubriques qui sont principalement dédiées à Talent, le nom du produit sera Dynamics 365 for Talent. Les rubriques qui sont écrites pour un produit peuvent s'appliquer à la même fonctionnalité d'un produit associé.
+
+Le module Talent vous permet d'effectuer les tâches suivantes :
 
 > + Administrer les structures organisationnelles.
 > + Tenir à jour l'ensemble des informations sur les collaborateurs depuis leur embauche jusqu'à leur retraite.
@@ -42,25 +44,19 @@ Le module Ressources humaines vous permet d'effectuer les tâches suivantes :
 > + Gérer les compétences des collaborateurs.
 > + Évaluer les performances et implémenter les objectifs des collaborateurs.
 > + Paramétrer, fournir et analyser des formations, notamment sur les emplois du temps, les sessions et les suivis.
-> + Recruter des collaborateurs et suivre les candidats.
 
-<a name="develop-a-human-resources-strategy"></a>Développer une stratégie RH
+<a name="develop-a-strategy-for-managing-your-human-resources"></a>Développer une stratégie de gestion de vos ressources humaines
 ---------------------------------------------------------
 
-Lorsque vous travaillez avec le module Ressources humaines, vous décidez comment structurer votre organisation, avec des éléments, tels que les départements, les tâches, et les postes. Il s'agit là des éléments fondamentaux que vous allez configurerez dans le module Ressources humaines. Les employés sont affectés à des postes associés à des tâches.
+Lorsque vous travaillez avec le module Talent, vous décidez comment structurer votre organisation en éléments, tels que les départements, les tâches, et les postes. Il s'agit là des éléments fondamentaux que vous allez configurer. Les employés sont affectés à des postes associés à des tâches.
 
 -   [Organisation du personnel à l'aide des départements, tâches et postes](departments-jobs-positions.md)
 -   [Définition des paramètres spécifiques à la société](set-up-company-specific-hr-parameters.md)
 -   [Configuration des paramètres RH dans les entités juridiques](set-up-hr-parameters-across-legal-entities.md) 
 
-## <a name="recruit-hire-and-motivate-employees"></a>Recruter, embaucher et motiver les employés
+## <a name="retain-and-motivate-employees"></a>Retenir et motiver les employés
 
-Les projets de recrutement permettent de gérer le contenu utilisé dans les annonces des postes à pourvoir et peuvent vous aider à gérer les candidatures aux emplois vacants. Vous pouvez les utiliser pour suivre les réponses aux offres d'emploi pour un projet de recrutement spécifique ou des candidatures spécifiques, et pour mettre à jour le statut des postes vacants. Vous pouvez également embaucher des candidats uniques ou gérer des « projets d’embauche collective », qui facilitent l’embauche de plusieurs travailleurs, par exemple, pour répondre aux besoins saisonniers de l’entreprise.
-
--   [Gestion d'un processus de recrutement](manage-recruiting-process.md)
--   [Projets d'embauche collective](mass-hire-projects.md) 
-
-Une fois que vous avez engagé du personnel, vous pouvez définir des plans pour gérer efficacement et équitablement la rémunération, ainsi que gérer les appareils tels que les ordinateurs ou les téléphones, que votre organisation prête à ses employés. Vous pouvez créer des régimes de rémunération fixe et variable, et définir des règles qui appliquent le régime de rémunération en fonction des critères de ce programme.
+Vous pouvez définir des plans pour gérer efficacement et équitablement la rémunération, ainsi que gérer les appareils tels que les ordinateurs ou les téléphones, que votre organisation prête à ses employés. Vous pouvez créer des régimes de rémunération fixe et variable, et définir des règles qui appliquent le régime de rémunération en fonction des critères de ce programme.
 
 -   [Régimes de rémunération](compensation-plans.md)
 -   [Créer des régimes de rémunération fixe](create-fixed-compensation-plans.md)
@@ -80,14 +76,14 @@ En plus de rémunérer votre équipe avec des traitements, des salaires et des p
 
 -   [Gérer un programme d'avantages](manage-benefit-program.md)
 -   [Stratégies de droit aux avantages](benefit-eligibility-policies.md)
--   [Gérer les articles prêtés aux employés](loan-items.md)
+-   [Gérer les articles prêtés aux collaborateurs](loan-items.md)
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>Tenir à jour la conformité et la sécurité de l’espace de travail
 
-Microsoft Dynamics AX peut vous aider à maintenir un environnement de travail sécurisé conforme aux lois applicables, y compris à la législation sur le handicap, l’immigration et la naturalisation, entre autres. Par exemple, vous pouvez gérer les exigences physiques pour des tâches spécifiques, ainsi que le suivi des demandes d'aménagements pouvant aider votre organisation à optimiser les qualifications de son personnel.
+LE module Talent peut vous aider à maintenir un environnement de travail sécurisé conforme aux lois applicables, y compris à la législation sur le handicap, l’immigration et la naturalisation, entre autres. Par exemple, vous pouvez gérer les exigences physiques pour des tâches spécifiques, ainsi que le suivi des demandes d'aménagements pouvant aider votre organisation à optimiser les qualifications de son personnel.
 
--   [Écran I-9 - Vérification d'emploi](localizations/noam-usa-form-i-9-verification.md)
--   [Respect de l'ADA](localizations/noam-usa-comply-ada.md)
+-   [Écran I-9 - Vérification d'emploi](/dynamics365/unified-operations/fin-and-ops/hr/localizations/noam-usa-form-i-9-verification)
+-   [Respect de l'ADA](/dynamics365/unified-operations/fin-and-ops/hr/localizations/noam-usa-comply-ada)
 
 ## <a name="gather-information-using-questionnaires"></a>Réunir des informations à l'aide de questionnaires
 
@@ -97,7 +93,4 @@ Vous pouvez concevoir et administrer des questionnaires afin de recueillir des i
 -   [Conception d'un questionnaire](design-questionnaires.md)
 -   [Distribuer et remplir un questionnaire](distribute-questionnaires.md)
 -   [Afficher et évaluer les résultats d'un questionnaire](evaluate-questionnaire-results.md)
-
-
-
 

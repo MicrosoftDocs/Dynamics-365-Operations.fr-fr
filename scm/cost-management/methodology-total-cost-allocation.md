@@ -1,6 +1,6 @@
 ---
 title: "Méthode de répartition des coûts totaux"
-description: "Cet article fournit des instructions pour utiliser la répartition des coûts totaux (RCT). La RCT est une méthode de calcul du coût entre l&quot;élément de formule principal pour un lot de commandes et des coproduits définis pour la formule."
+description: "Cet article fournit des instructions pour utiliser la répartition des coûts totaux (RCT). La RCT est une méthode de calcul du coût entre l'élément de formule principal pour un lot de commandes et des coproduits définis pour la formule."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/20/2017
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BOMConsistOf, PmfFormulaCoBy
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 83852
 ms.assetid: 7c14c3e5-9476-4a79-a210-e77fc91cc7fc
 ms.search.region: Global
