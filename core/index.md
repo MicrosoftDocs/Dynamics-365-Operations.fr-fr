@@ -40,7 +40,7 @@ Cette documentation vous aidera à adapter Dynamics 365 for Finance and Operati
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><h3>Finances</h3>
+<td><h3>Financials</h3>
 <p><a href="../financials/general-ledger/audit-policy-rules">Conformité</a></p>
 <p>Gestion financière</p>
 <ul style="list-style-type:none">
