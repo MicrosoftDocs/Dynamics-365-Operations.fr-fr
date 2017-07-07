@@ -17,10 +17,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: c8684bf17946edff8230f0b6d324d355e61dc89b
-ms.openlocfilehash: 8703b3bc5642e6dbe9dd399ced5af6da25f9b226
+ms.sourcegitcommit: bb0700ad317fa8faf5dc83ea523dd151f0f4a811
+ms.openlocfilehash: 713178e79000e4358104038295452db0ba025195
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/21/2017
+ms.lasthandoff: 06/28/2017
 
 
 ---
@@ -40,22 +40,22 @@ Cette documentation vous aidera à adapter Dynamics 365 for Finance and Operati
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><h3>Finances</h3>
-<p>Conformité</p>
+<td><h3>Financials</h3>
+<p><a href="../financials/general-ledger/audit-policy-rules">Conformité</a></p>
 <p>Gestion financière</p>
-<ul><li><a href="../financials/accounts-payable/accounts-payable">Comptabilité fournisseur</a></li>
+<ul style="list-style-type:none">
+<li><a href="../financials/accounts-payable/accounts-payable">Comptabilité fournisseur</a></li>
 <li><a href="../financials/accounts-receivable/accounts-receivable">Comptabilité client</a></li>
 <li><a href="../financials/budgeting/budgeting-overview">Budget</a></li>
 <li><a href="../financials/cash-bank-management/cash-bank-management">Gestion de la trésorerie et de la banque</a></li>
 <li><a href="../financials/cost-accounting/cost-accounting-home-page">Contrôle de gestion</a></li>
 <li><a href="../financials/fixed-assets/fixed-assets">Immobilisations</a></li>
 <li><a href="../financials/general-ledger/general-ledger">Comptabilité</a></li>
-
 <li><a href="../financials/public-sector/public-sector-functionality">Secteur public</a></li>
 <li><a href="../dev-itpro/lcs-solutions/country-region">Fonctions de réglementation régionale</a></li></ul>
 <p><a href="../financials/project-management/overview-project-management-accounting">Gestion de projets</a></p>
 <H3>Ressources humaines</h3>
-  <ul>
+  <ul style="list-style-type:none">
 <li><a href="hr/manage-recruiting-process">Recrutement</a></li>
 <li><a href="hr/localizations/noam-usa-payroll">Paie USA</a></li>
 </ul>
@@ -63,19 +63,19 @@ Cette documentation vous aidera à adapter Dynamics 365 for Finance and Operati
 <p><a href="../supply-chain/cost-management/costing-sheets">Gestion des coûts</a></p>
 <p><a href="../supply-chain/inventory/inventory-locations">Gestion des stocks</a></p>
 <p>Logistique</p>
-<ul><li><a href="../supply-chain/transportation/transportation-management-overview">Gestion du transport</a></li>
-<li><a href="../supply-chain/warehousing/warehouse-configuration">Gestion des entrepôts</a></li></ul></li>
+<ul style="list-style-type:none"><li><a href="../supply-chain/transportation/transportation-management-overview">Gestion du transport</a></li>
+<li><a href="../supply-chain/warehousing/warehouse-configuration">Gestion des entrepôts</a></li></ul>
 <p><a href="../supply-chain/master-planning/master-plans">Planification</a></p>
   <p><a href="../supply-chain/pim/set-up-maintain-product-configuration-model">Gestion des informations sur les produits</a></p>
   <p><a href="../supply-chain/production-control/create-production-orders">Contrôle de la production</a></p>
 <p>Gestion des commandes</p>
-  <ul><li><a href="../supply-chain/procurement/procurement-sourcing-overview">Approvisionnements</a></li>
+  <ul style="list-style-type:none"><li><a href="../supply-chain/procurement/procurement-sourcing-overview">Approvisionnements</a></li>
   <li><a href="../supply-chain/sales-marketing/overview-sales-marketing">Ventes et marketing</a></li></ul>
 </td>
 <td>
 <h3>Plateforme Unified Operations</h3>
 <p>Intelligence</p>
-<ul><li><a href="../dev-itpro/analytics/analytics">Analyses</a></li>
+<ul style="list-style-type:none"><li><a href="../dev-itpro/analytics/analytics">Analyses</a></li>
  <li><a href="../dev-itpro/analytics/document-reporting-services">Documents commerciaux</a></li>
 <li><a href="../dev-itpro/analytics/financial-reporting-intro">États financiers</a></li>
 <li><a href="../dev-itpro/analytics/general-electronic-reporting">Génération d'états de réglementation</a></li></ul>
@@ -83,33 +83,34 @@ Cette documentation vous aidera à adapter Dynamics 365 for Finance and Operati
 <p><a href="../dev-itpro/mobile-apps/mobile-platform">Plateforme mobile</a></p>
 
  <p>Fonctionnalité de développeur</p>
-<ul>
-<li><a href="../dev-itpro/continuous-delivery-home-page">Livraison continue</a></li>
+<ul style="list-style-type:none">
+<li><a href="../dev-itpro/dev-tools/continuous-delivery-home-page">Livraison continue</a></li>
 <li><a href="../dev-itpro/get-started/demo-data">Données de démonstration</a></li>
 <li><a href="../dev-itpro/dev-tools/developer-home-page">Outils du développeur</a></li>
 <li><a href="../dev-itpro/extensibility/customize-model-elements-extensions">Extensibilité</a></li>
 <li><p>Intégration</p>
-<ul><li><a href="../dev-itpro/data-entities/data-entities">Entités de données</a></li>
+<ul style="list-style-type:none"><li><a href="../dev-itpro/data-entities/data-entities">Entités de données</a></li>
 <li><a href="../dev-itpro/office-integration/office-integration">Intégration Office</a></li></ul></li></ul>
 
 <p>Fonctionnalité d'administrateur<p>
-<ul>
-<li><a href="../get-started/onboarding-home">Intégration de votre organisation</a></li>
-<li><a href="../dev-itpro/deploy-demo-environment">Déploiement et maintenance</a></li>
+<ul style="list-style-type:none">
+<li><a href="../fin-and-ops/get-started/onboarding-home">Intégration de votre organisation</a></li>
+<li><a href="../dev-itpro/deployment/deploy-demo-environment">Déploiement et maintenance</a></li>
 <li><a href="../dev-itpro/migration-upgrade/upgrade-home-page">Mise à niveau</a></li>
 <li><a href="../dev-itpro/data-entities/data-management-integration-data-entity">Gestion des données</a></li>
 <li><a href="../dev-itpro/lifecycle-services/lcs">Lifecycle Services</a></li>
 <li><a href="../fin-and-ops/organization-administration/organization-administration-home-page">Administration d'organisation</a></li>
 <li><a href="../dev-itpro/sysadmin/system-administration-home-page">Administration du système</a></li>
-<ul>
+</ul>
 </td>
 <td>
-<h3>Dynamics 365 for Talent</h3>
+<h3>Produits associés</h3>
+<h4>Dynamics 365 for Talent</h4>
 <p><a href="../talent/manage-benefit-program">Avantages</a></p>
-<p><a href="../talent/performance-management-overview">Développement et formation des employés</a></p>
+<p><a href="../talent/performance-management-overview">Perfectionnement et formation des employés</a></p>
 <p><a href="../talent/questionnaires">Questionnaire</a></p>
 
-<h3>Dynamics 365 for Retail</h3>
+<h4>Dynamics 365 for Retail</h4>
 <p><a href="../retail/call-center-functionality">Centre d'appels</p>
 <p><a href="../retail/define-maintain-retail-channels">Paramétrage et gestion de canal</p>
 <p><a href="../retail/retail-peripherals-overview">MPOS et Cloud POS</p>

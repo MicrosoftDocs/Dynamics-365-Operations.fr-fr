@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 28991
 ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
@@ -31,6 +31,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="weighted-average-date"></a>Date moyenne pondérée
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 La date moyenne pondérée est un modèle de stock basé sur le principe de moyenne pondérée. Concernant le principe de la moyenne pondérée, les sorties de stock correspondent à la valeur moyenne des articles reçus en stock pour chaque jour de la période de clôture du stock. Lorsque vous exécutez une clôture de stock avec une date moyenne pondérée, toutes les réceptions quotidiennes sont réglées avec une sortie virtuelle. Celle-ci contient la quantité totale reçue et la valeur pour cette journée. À cette sortie virtuelle correspond une réception virtuelle à partir de laquelle les sorties seront réglées. De cette manière, toutes les sorties obtiennent le même coût moyen. La sortie et la réception virtuelles peuvent être considérées comme un transfert virtuel appelé *transfert de clôture du stock moyen pondéré*. 

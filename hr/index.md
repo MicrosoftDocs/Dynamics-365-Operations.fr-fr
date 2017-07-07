@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 20931
 ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 6e2feeadd7cef8273d94810a13df6c5dfe6f1d4a
-ms.openlocfilehash: e0f41445c621a317fcdccef6cb08766dd6fac279
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 28b5c72a174c7d40fcf1e4c348834fc532b04fcc
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/21/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
@@ -32,18 +32,19 @@ ms.lasthandoff: 06/21/2017
 
 Microsoft Dynamics 365 for Talent rationalise de nombreuses tâches d'archivage de routine et automatise un certain nombre de processus liés à la dotation en personnel de votre organisation. Ces processus incluent la rétention des employés, l'administration des avantages, la formation, les évaluations des performances et la gestion des modifications. Il fournit également un cadre permettant au personnel des ressources humaines d'assurer une supervision appropriée.
 
-Dynamics 365 for Talent est étroitement lié au module Ressources humaines dans Dynamics 365 for Finance and Operations, Enterprise edition. Les mêmes fonctionnalités peuvent apparaître dans les deux produits. Par conséquent, dans les rubriques qui sont principalement dédiées aux Ressources humaines, le nom du produit sera Dynamics 365 for Finance and Operations, Enterprise Edition ; dans les rubriques qui sont principalement dédiées à Talent, le nom du produit sera Dynamics 365 for Talent. Les rubriques qui sont écrites pour un produit peuvent s'appliquer à la même fonctionnalité d'un produit associé.
-
 Le module Talent vous permet d'effectuer les tâches suivantes :
 
-> + Administrer les structures organisationnelles.
-> + Tenir à jour l'ensemble des informations sur les collaborateurs depuis leur embauche jusqu'à leur retraite.
-> + Définir et administrer les plans d'avantages, inscrire les collaborateurs, attribuer la couverture des personnes à charge et désigner les bénéficiaires.
-> + Établir et surveiller les politiques d'absence.
-> + Implémenter et suivre la gestion des heures basée sur le profil et générer des informations de salaire à exporter vers un système de paie.
-> + Gérer les compétences des collaborateurs.
-> + Évaluer les performances et implémenter les objectifs des collaborateurs.
-> + Paramétrer, fournir et analyser des formations, notamment sur les emplois du temps, les sessions et les suivis.
++ Administrer les structures organisationnelles.
++ Tenir à jour l'ensemble des informations sur les collaborateurs depuis leur embauche jusqu'à leur retraite.
++ Définir et administrer les plans d'avantages, inscrire les collaborateurs, attribuer la couverture des personnes à charge et désigner les bénéficiaires.
++ Établir et surveiller les politiques d'absence.
++ Implémenter et suivre la gestion des heures basée sur le profil et générer des informations de salaire à exporter vers un système de paie.
++ Gérer les compétences des collaborateurs.
++ Évaluer les performances et implémenter les objectifs des collaborateurs.
++ Paramétrer, fournir et analyser des formations, notamment sur les emplois du temps, les sessions et les suivis.
+
+> [!NOTE] 
+> Dynamics 365 for Talent est étroitement lié au module Ressources humaines dans Dynamics 365 for Finance and Operations, Enterprise edition. Les mêmes fonctionnalités peuvent apparaître dans les deux produits. Par conséquent, dans les rubriques qui sont principalement dédiées aux Ressources humaines, le nom du produit sera Dynamics 365 for Finance and Operations, Enterprise Edition ; dans les rubriques qui sont principalement dédiées à Talent, le nom du produit sera Dynamics 365 for Talent. Les rubriques qui sont écrites pour un produit peuvent s'appliquer à la même fonctionnalité d'un produit associé.
 
 <a name="develop-a-strategy-for-managing-your-human-resources"></a>Développer une stratégie de gestion de vos ressources humaines
 ---------------------------------------------------------
