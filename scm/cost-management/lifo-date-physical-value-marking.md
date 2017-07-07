@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 51592
 ms.assetid: d9f13274-3268-444f-85c8-b686fd39286d
 ms.search.region: Global
@@ -30,6 +30,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="lifo-date-with-physical-value-and-marking"></a>Date LIFO avec valeur physique et marquage
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 Date LIFO (dernier entré, premier sorti) est un modèle de stock basé sur le principe LIFO. Les sorties de stock sont réglées avec les dernières réceptions, en fonction de la date du mouvement de stock. En utilisant Date LIFO, s'il n'y a aucune réception avant la sortie, la sortie est réglée avec les réceptions intervenant après la date de sortie. Plusieurs sorties intervenant à la même date peuvent être réglées dans l'ordre Dernière sortie, dernière réception. 
