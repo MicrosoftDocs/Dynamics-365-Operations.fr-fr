@@ -3,14 +3,14 @@ title: Journaux de stock
 description: "Cet article décrit la manière dont vous pouvez utiliser les journaux de stock pour valider différents types de transactions de stock physique."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventJournalBOM, InventJournalCount, InventJournalCountTag, InventJournalLossProfit, InventJournalMovement, InventJournalTransfer, WMSJournalTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 51631
 ms.assetid: 3fedeaaf-502f-483c-93d2-ab266828189e
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d947b184fd61af3b997182f0a39a8c13c58d6a5a
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: fa629b4b8f7fcbd15ee89bc66cbc0bd7ca45215c
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,10 +30,12 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+[!include[retail name](../includes/retail-name.md)]
+
 
 Cet article décrit la manière dont vous pouvez utiliser les journaux de stock pour valider différents types de transactions de stock physique. 
 
-Les journaux de stock de Microsoft Dynamics 365 for Operations permettent de valider les mouvements de stock physique de différents types, tels que la validation des sorties et des réceptions, les mouvements de stock, la création de nomenclatures et le rapprochement du stock physique. Tous ces journaux de stock sont utilisés de façon similaire, mais ils sont divisés en différents types.
+Les journaux de stock de Microsoft Dynamics 365 for Finance and Operations permettent de valider les mouvements de stock physique de différents types, tels que la validation des sorties et des réceptions, les mouvements de stock, la création de nomenclatures et le rapprochement du stock physique. Tous ces journaux de stock sont utilisés de façon similaire, mais ils sont divisés en différents types.
 
 ## <a name="types-of-inventory-journals"></a>Types de journaux de stock
 Les types de journaux de stock suivants sont disponibles :
@@ -68,7 +70,7 @@ Lorsque vous déclarez nomenclatures comme terminées, vous pouvez créer un jou
 
 ### <a name="item-arrival"></a>Arrivée d'articles
 
-Vous pouvez utiliser le journal d'arrivée des articles pour enregistrer la réception des articles (provenant, par exemple, de commandes fournisseur). Vous pouvez créer un journal d'arrivées des articles dans le cadre de la gestion des arrivées sur la page **Vue d'ensemble des arrivées**, mais également créer manuellement une entrée de journal sur la page **Arrivée d'articles**. Si vous activez le nom du journal d'arrivées des articles pour qu'il vérifie les emplacements de prélèvement, Dynamics 365 for Operations recherche un emplacement pour les articles reçus et, le cas échéant, génère des emplacements de destination pour les articles entrants.
+Vous pouvez utiliser le journal d'arrivée des articles pour enregistrer la réception des articles (provenant, par exemple, de commandes fournisseur). Vous pouvez créer un journal d'arrivées des articles dans le cadre de la gestion des arrivées sur la page **Vue d'ensemble des arrivées**, mais également créer manuellement une entrée de journal sur la page **Arrivée d'articles**. Si vous activez le nom du journal d'arrivées des articles pour qu'il vérifie les emplacements de prélèvement, Finance and Operations recherche un emplacement pour les articles reçus et, le cas échéant, génère des emplacements de destination pour les articles entrants.
 
 ### <a name="production-input"></a>Entrée en production
 

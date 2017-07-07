@@ -1,16 +1,16 @@
 ---
 title: "Planifier pour la fonctionnalité Secteur public"
-description: "Cet article suggère les premières étapes pour paramétrer la fonctionnalité Secteur public dans Microsoft Dynamics 365 for Operations."
+description: "Cet article suggère les premières étapes pour paramétrer la fonctionnalité Secteur public dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition."
 author: rschloma
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 19851
 ms.assetid: 877eabf3-19c7-4897-b33e-c5a8a319cb35
 ms.search.region: Global
@@ -19,25 +19,25 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: f0bb7b332602530cfca073f60b25ae7dd5664344
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: ec202de96ac9397f3d9b24be7dc75731fad79816
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="plan-for-public-sector-functionality"></a>Planifier pour la fonctionnalité Secteur public
+# <a name="plan-for-public-sector-functionality"></a>Planification de la fonctionnalité Secteur public
 
 [!include[banner](../includes/banner.md)]
 
 
-Cet article suggère les premières étapes pour paramétrer la fonctionnalité Secteur public dans Microsoft Dynamics 365 for Operations.
+Cet article suggère les premières étapes pour paramétrer la fonctionnalité Secteur public dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
 
 <a name="what-should-i-do-first"></a>Que dois-je faire en premier lieu ?
 -----------------------
 
-Avant de commencer à ajuster les paramètres et à entrer vos données, vous devez prendre en compte les modules Microsoft Dynamics 365 for Operations que vous devez paramétrer pour votre organisation du secteur public. La fonctionnalité Secteur public est intégrée aux modules Microsoft Dynamics 365 for Operations et produits Microsoft suivants :
+Avant de commencer à ajuster les paramètres et à entrer vos données, vous devez prendre en compte les modules Finance and Operations que vous devez paramétrer pour votre organisation du secteur public. La fonctionnalité Secteur public est intégrée aux modules Finance and Operations et produits Microsoft suivants :
 
 ### <a name="accounts-payable"></a>Module Comptabilité fournisseur
 

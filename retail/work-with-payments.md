@@ -1,27 +1,28 @@
 ---
-title: Modes de paiement dans un centre d&quot;appels
-description: "Cette rubrique décrit les différentes méthodes de paiement que vous pouvez utiliser dans un centre d’appels de Commerce et vente au détail."
+title: Modes de paiement dans un centre d'appels
+description: "Cette rubrique décrit les différentes méthodes de paiement que vous pouvez utiliser dans un centre d’appels de Dynamics 365 for Retail."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 92163
 ms.assetid: 8e738907-870b-466c-ab0c-07f4a4aa47f3
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 930264f9c22cbde102b59237e432df7d7e4836c8
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 07cb1bcb3870b96e34f7f6725fe5b7da32628fde
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -31,15 +32,15 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-Cette rubrique décrit les différentes méthodes de paiement que vous pouvez utiliser dans un centre d’appels de Commerce et vente au détail.
+Cette rubrique décrit les différentes méthodes de paiement que vous pouvez utiliser dans un centre d’appels de Dynamics 365 for Retail.
 
-Les modes de paiement utilisés dans d'autres canaux dans le module Commerce et vente au détail de Microsoft Dynamics AX, tels que les disponibilités, les chèques, les cartes de crédit et les cartes cadeau, peuvent également être utilisés dans les centres d'appels. Une fois un mode de paiement paramétré pour un centre d'appels, il apparaît comme une des options dans la section **Paiements** de la page **Commande client** pour les utilisateurs du centre d'appels. Sinon, vous pouvez configurer des coupons pour offrir des remises aux clients lorsqu'ils passent une commande au centre d'appels de votre organisation. Les coupons peuvent être un montant fixe de remise, ou bien un pourcentage du prix d'un article ou du total de la commande. Par exemple, un coupon de montant peut offrir aux clients une remise de 75,00 si le client dépense 750,00 ou plus. Vous pouvez créer différents types de bons de réduction, paramétrer des bons d’achat parent/enfant et copier ou invalider un bon d’achat. Utilisez les options dans le tableau suivant pour créer des bons.
+Les modes de paiement utilisés dans d'autres canaux, tels que les disponibilités, les chèques, les cartes de crédit et les cartes cadeau, peuvent également être utilisés dans les centres d'appels. Une fois un mode de paiement paramétré pour un centre d'appels, il apparaît comme une des options dans la section **Paiements** de la page **Commande client** pour les utilisateurs du centre d'appels. Sinon, vous pouvez configurer des coupons pour offrir des remises aux clients lorsqu'ils passent une commande au centre d'appels de votre organisation. Les coupons peuvent être un montant fixe de remise, ou bien un pourcentage du prix d'un article ou du total de la commande. Par exemple, un coupon de montant peut offrir aux clients une remise de 75,00 si le client dépense 750,00 ou plus. Vous pouvez créer différents types de bons de réduction, paramétrer des bons d’achat parent/enfant et copier ou invalider un bon d’achat. Utilisez les options dans le tableau suivant pour créer des bons.
 
 |                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Attribut**             | Dans le champ **Taux de rachat**, entrez la valeur du taux de rachat prévu pour le coupon en pourcentage, puis indiquez si le coupon est utilisable une seule fois, s'il est automatiquement renouvelé, ou s'il est spécifique à un client.                                                                                                                                                                                                                                                                                                                                                                                       |
 | **Valide**                 | Dans les champs **Date de début** et **Date de fin**, entrez les dates de début et de fin de validité du coupon.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| **Inclure/Exclure des règles** | Dans les champs **Catalogues** et **Articles**, indiquez si des catalogues ou des articles sont inclus ou exclus pour le coupon. Si vous sélectionnez **Inclure** ou **Exclure**, cliquez sur **Configurer**, sélectionnez **Inclure/exclure les catalogues** ou **Inclure/exclure les produits**et entrez les informations sur le catalogue ou l’article. Si vous sélectionnez **Aucun** dans ces champs, tous les catalogues ou articles sont inclus dans le coupon.                                                                                                                                                                                                                          |
+| **Inclure/Exclure des règles** | Dans les champs **Catalogues** et **Articles**, indiquez si des catalogues ou des articles sont inclus ou exclus pour le coupon. Si vous sélectionnez **Inclure** ou **Exclure**, cliquez sur **Configurer**, sélectionnez **Inclure/exclure les catalogues** ou **Inclure/exclure les produits** et entrez les informations sur le catalogue ou l’article. Si vous sélectionnez **Aucun** dans ces champs, tous les catalogues ou articles sont inclus dans le coupon.                                                                                                                                                                                                                          |
 | **Autre(s)**         | Si ce coupon ne peut être utilisé avec les autres remises, activez la case à cocher **Exclusif**. Puis, dans le champ **Origine**, sélectionnez où le coupon peut être utilisé. Pour ce coupon est un coupon de fabricant, activez la case à cocher **Coupon du fabricant**.                                                                                                                                                                                                                                                                                                                                                                |
 | **Coupon futur**         | Si le coupon sera associé à d'autres coupons comme coupon parent, activez la case à cocher **Coupon parent**. Si le coupon est associé à un coupon existant comme coupon enfant, sélectionnez le coupon parent dans le champ **ID coupon parent**. Par exemple, vous pouvez créer un coupon pour le catalogue du printemps prochain. Tous les autres coupons que vous créez pour le catalogue Printemps seront les coupons enfants du coupon du catalogue Printemps. Les coupons enfants peuvent inclure 20 % de remise pour les nouvelles commandes client, 10 % de remise sur un article récemment lancé, ou une réduction de 95,00 sur les commandes de 1 000,00 ou plus. |
 

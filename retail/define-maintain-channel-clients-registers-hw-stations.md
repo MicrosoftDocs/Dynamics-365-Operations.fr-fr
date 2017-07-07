@@ -3,25 +3,27 @@ title: "Définir et tenir à jour les clients de canal, y compris les caisses en
 description: "Cette rubrique décrit comment connecter des périphériques à votre Retail POS."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 92383
 ms.assetid: 83f31ea6-f0a2-4501-9d4d-a37b6eec2599
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 800e5c139b54541a179a336c8247eaa6017201d8
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 5c5a6cc45ad65c7581dbfb9a4441fdddbbc19242
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -40,11 +42,11 @@ Plusieurs composants sont utilisés pour définir les relations entre un magasin
 
 ### <a name="pos-registers"></a>Caisses enregistreuses de PDV
 
-Navigation : cliquez sur **Commerce et vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage du PDV** &gt; **Caisses enregistreuses**. La caisse enregistreuse du PDV est une entité utilisée pour définir les caractéristiques d'une instance spécifique du PDV. Ces caractéristiques comprennent le profil matériel ou la configuration des périphériques de vente au détail qui seront utilisés à la caisse enregistreuse, le magasin sur lequel est mappé la caisse enregistreuse, ainsi que l'expérience visuelle de l'utilisateur qui se connecte à cette caisse enregistreuse.
+Navigation : Cliquez sur **Vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage POS** &gt; **Caisses enregistreuses**. La caisse enregistreuse du PDV est une entité utilisée pour définir les caractéristiques d'une instance spécifique du PDV. Ces caractéristiques comprennent le profil matériel ou la configuration des périphériques de vente au détail qui seront utilisés à la caisse enregistreuse, le magasin sur lequel est mappé la caisse enregistreuse, ainsi que l'expérience visuelle de l'utilisateur qui se connecte à cette caisse enregistreuse.
 
 ### <a name="devices"></a>Périphériques
 
-Navigation : cliquez sur **Commerce et vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage du PDV** &gt; **Périphériques**. Un périphérique est une entité qui représente une instance physique d’un périphérique qui est mappé à une caisse enregistreuse de PDV. Lorsqu’un périphérique est créé, il est mappé à une caisse enregistreuse de PDV. L’entité de périphérique assure le suivi des informations lorsqu’une caisse enregistreuse est activée, le type de client qui est utilisé et le package d’applications qui a été déployé sur un périphérique spécifique. Les périphériques peuvent être de deux types : **Retail modern POS** (MPOS) ou **Retail Cloud POS** (Cloud POS).
+Navigation : Cliquez sur **Vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage POS** &gt; **Périphériques**. Un périphérique est une entité qui représente une instance physique d’un périphérique qui est mappé à une caisse enregistreuse de PDV. Lorsqu’un périphérique est créé, il est mappé à une caisse enregistreuse de PDV. L’entité de périphérique assure le suivi des informations lorsqu’une caisse enregistreuse est activée, le type de client qui est utilisé et le package d’applications qui a été déployé sur un périphérique spécifique. Les périphériques peuvent être de deux types : **Retail modern POS** (MPOS) ou **Retail Cloud POS** (Cloud POS).
 
 #### <a name="mpos"></a>MPOS
 
@@ -52,7 +54,7 @@ MPOS est une application de client de PDV qui est installée sur le système d'e
 
 #### <a name="cloud-pos"></a>Cloud POS
 
-Cloud POS est un PDV basé sur un navigateur. Du fait qu'il s’exécute dans le navigateur, Cloud POS ne nécessite pas le système d'exploitation basé sur PC Windows 8.1 ou une version ultérieure. Si le type d’application **Retail Cloud POS** est mappé à un périphérique spécifique dans le back office, ce périphérique peut être utilisé via le navigateur sans avoir besoin de télécharger ou d’installer un package. Cloud POS nécessite une station matérielle pour utiliser le matériel au-delà de l’analyse de code-barres basée sur Wedge clavier.
+Cloud POS est un PDV basé sur un navigateur. Du fait qu'il s’exécute dans le navigateur, Cloud POS ne nécessite pas le système d'exploitation basé sur PC Windows 8.1 ou une version ultérieure. Si le type d’application **Retail Cloud POS** est mappé à un périphérique spécifique dans le Retail Siège, ce périphérique peut être utilisé via le navigateur sans avoir besoin de télécharger ou d’installer un package. Cloud POS nécessite une station matérielle pour utiliser le matériel au-delà de l’analyse de code-barres basée sur Wedge clavier.
 
 ### <a name="hardware-profile"></a>Profil matériel
 
@@ -60,23 +62,23 @@ Navigation : cliquez sur **Commerce** &gt; **Paramétrage du canal** &gt; **Par
 
 ### <a name="hardware-station"></a>Station matérielle
 
-Navigation : cliquez sur **Commerce et vente au détail** &gt; **Canaux** &gt; **Magasins de vente au détail** &gt; **Tous les magasins de vente au détail**. Sélectionnez un magasin, puis cliquez sur l'organisateur **Stations matérielles**. Une station matérielle est une instance de logique métier pilotant les périphériques du PDV. Une station matérielle est installée automatiquement avec MPOS. Sinon, la station matérielle peut être installée comme composant autonome, on y accède par MPOS ou Cloud POS via un service web. La station matérielle doit être définie au niveau du canal.
+Navigation : cliquez sur **Vente au détail** &gt; **Canaux** &gt; **Magasins de vente au détail** &gt; **Tous les magasins de vente au détail**. Sélectionnez un magasin, puis cliquez sur l'organisateur **Stations matérielles**. Une station matérielle est une instance de logique métier pilotant les périphériques du PDV. Une station matérielle est installée automatiquement avec MPOS. Sinon, la station matérielle peut être installée comme composant autonome, on y accède par MPOS ou Cloud POS via un service web. La station matérielle doit être définie au niveau du canal.
 
 ### <a name="hardware-station-profile"></a>Profil de la station matérielle
 
-Navigation : cliquez sur **Commerce** &gt; **Paramétrage du canal** &gt; **Paramétrage du PDV** &gt; **Profils PDV** &gt; **Profils de la station matérielle**. Bien que la station matérielle elle-même spécifiée au niveau du canal inclut des informations spécifiques à l’instance, comme l’URL de la station matérielle, le profil de la station matérielle inclut des informations qui peuvent être statiques ou partagées entre plusieurs stations matérielles. Les informations statiques incluent le port à utiliser, le package de la station matérielle et le profil de matériel. Les informations statiques comprennent également une description du type de station matérielle en cours de déploiement, telle que **Caisse**ou **Retours**, selon le matériel qui est requis pour chaque station matérielle spécifique.
+Navigation : cliquez sur **Commerce** &gt; **Paramétrage du canal** &gt; **Paramétrage du PDV** &gt; **Profils PDV** &gt; **Profils de la station matérielle**. Bien que la station matérielle elle-même spécifiée au niveau du canal inclut des informations spécifiques à l’instance, comme l’URL de la station matérielle, le profil de la station matérielle inclut des informations qui peuvent être statiques ou partagées entre plusieurs stations matérielles. Les informations statiques incluent le port à utiliser, le package de la station matérielle et le profil de matériel. Les informations statiques comprennent également une description du type de station matérielle en cours de déploiement, telle que **Caisse** ou **Retours**, selon le matériel qui est requis pour chaque station matérielle spécifique.
 
 ## <a name="scenarios"></a>Scénarios
 ### <a name="mpos-with-connected-peripheral-devices"></a>MPOS avec des périphériques connectés
 
 [![Point de vente fixe traditionnel](./media/traditional-300x279.png)](./media/traditional.png) 
 
-Pour connecter MPOS aux périphériques de PDV dans un scénario de PDV fixe traditionnel, accédez d'abord à la caisse enregistreuse elle-même et affectez-lui un profil de matériel. Vous pouvez trouver les caisses enregistreuses de PDV dans **Vente au détail et commerce** &gt; **Paramétrage du canal** &gt; **Paramétrage du PDV** &gt; **Caisses enregistreuses**. Une fois que vous avez affecté le profil de matériel, la synchronisation modifie la base de données de canal à l’aide du programme de distribution « Caisses enregistreuses ». Vous trouverez les programmes de distribution à l'adresse **Vente au détail et commerce** &gt; **Informatique au détail** &gt; **Programme de distribution**. Ensuite, configurez une station matérielle « locale » sur le canal. Cliquez sur **Commerce et vente au détail** &gt; **Canaux** &gt; **Magasins de vente au détail** &gt; **Tous les magasins de vente au détail** et sélectionnez un magasin. Puis, dans l'organisateur **Stations matérielles**, cliquez sur **Ajouter** pour ajouter une station matérielle. Entrez une description, entrez **localhost** comme nom d’hôte, puis synchroniser les modifications sur le canal à l’aide du programme de distribution « Configuration de canal ». Vous trouverez les programmes de distribution à l'adresse **Vente au détail et commerce** &gt; **Informatique au détail** &gt; **Programme de distribution**. Enfin, dans MPOS, utilisez l'opération **Sélectionner une station matérielle** pour sélectionner la station matérielle **localhost**. Définissez la valeur de la station matérielle sur **Active**. Le profil de matériel utilisé dans ce scénario doit provenir de la caisse enregistreuse du PDV elle-même. Un profil de station matérielle n’est pas requis pour ce scénario. **Remarque :** certaines modifications apportées au profil de matériel, telles que les tiroirs-caisses, nécessitent que la nouvelle équipe ait commencé une fois que les modifications aient été synchronisées sur le canal. **Remarque :** Cloud POS doit utiliser la station matérielle autonome pour communiquer avec les périphériques de vente au détail.
+Pour connecter MPOS aux périphériques de PDV dans un scénario de PDV fixe traditionnel, accédez d'abord à la caisse enregistreuse elle-même et affectez-lui un profil de matériel. Vous pouvez trouver les caisses enregistreuses de PDV dans **Vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage du PDV** &gt; **Caisses enregistreuses**. Une fois que vous avez affecté le profil de matériel, la synchronisation modifie la base de données de canal à l’aide du programme de distribution « Caisses enregistreuses ». Vous trouverez les programmes de distribution à l'adresse **Vente au détail** &gt; **Informatique au détail** &gt; **Programme de distribution**. Ensuite, configurez une station matérielle « locale » sur le canal. Cliquez sur **Vente au détail** &gt; **Canaux** &gt; **Magasins de vente au détail** &gt; **Tous les magasins de vente au détail** et sélectionnez un magasin. Puis, dans l'organisateur **Stations matérielles**, cliquez sur **Ajouter** pour ajouter une station matérielle. Entrez une description, entrez **localhost** comme nom d’hôte, puis synchroniser les modifications sur le canal à l’aide du programme de distribution « Configuration de canal ». Vous trouverez les programmes de distribution à l'adresse **Vente au détail** &gt; **Informatique au détail** &gt; **Programme de distribution**. Enfin, dans MPOS, utilisez l'opération **Sélectionner une station matérielle** pour sélectionner la station matérielle **localhost**. Définissez la valeur de la station matérielle sur **Active**. Le profil de matériel utilisé dans ce scénario doit provenir de la caisse enregistreuse du PDV elle-même. Un profil de station matérielle n’est pas requis pour ce scénario. **Remarque :** certaines modifications apportées au profil de matériel, telles que les tiroirs-caisses, nécessitent que la nouvelle équipe ait commencé une fois que les modifications aient été synchronisées sur le canal. **Remarque :** Cloud POS doit utiliser la station matérielle autonome pour communiquer avec les périphériques de vente au détail.
 
 ### <a name="mpos-or-cloud-pos-with-a-stand-alone-hardware-station"></a>MPOS ou Cloud POS avec une station matérielle autonome
 [![Périphériques partagés](./media/shared-300x254.png)](./media/shared.png)
 
-Dans ce scénario, une station matérielle autonome est partagée entre les clients MPOS et Cloud POS. Ce scénario nécessite de créer un profil de station matérielle afin de spécifier le package de téléchargement, le port et le profil de matériel qu'utilise la station matérielle. Vous trouverez le profil de station matérielle dans **Commerce et vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage du PDV** &gt; **Profils PDV** &gt; **Profils de la station matérielle**. Après avoir créé le profil de station matérielle, recherchez le canal de vente au détail spécifique (**Vente au détail et commerce** &gt; **Canaux** &gt; **Magasins de vente au détail** &gt; **Tous les magasins de vente au détail**) et ajoutez une nouvelle station matérielle. Mappez cette nouvelle station matérielle au profil de station matérielle créé précédemment. Ensuite, fournissez une description qui aidera le caissier à identifier la station matérielle. Dans le champ **Nom d’hôte**, saisissez l’URL de la machine hôte au format suivant : **https://&lt;<MachineName:Port&gt;/HardwareStation**. (Remplacez **&lt;MachineName:Port&gt;** par le nom réel de la station matérielle et le port qui est spécifié dans le profil de station matérielle.) Pour une station matérielle autonome, vous devez également spécifier l'ID du terminal de transfert électronique de fonds (TEF). Cette valeur identifie le terminal TEF connecté à la station matérielle lorsque le connecteur de paiement communique avec le fournisseur de paiement. Ensuite, à partir de la station matérielle réelle, accédez au canal et sélectionnez la station matérielle. Puis cliquez sur **Télécharger**et installez la station matérielle. Ensuite, dans MPOS ou Cloud POS, utilisez l'opération **Sélectionner une station matérielle** pour sélectionner la station matérielle qui a été précédemment installée. Sélectionnez **Jumeler** pour établir une relation sécurisée entre le PDV et la station matérielle. Cette étape doit être effectuée une fois pour chaque combinaison de POS et de station matérielle. Une fois que la station matérielle est jumelée, la même opération est utilisée pour rendre la station matérielle active alors qu’elle est utilisée. Dans ce scénario, le profil de matériel doit être assigné au profil de station matérielle plutôt qu'à la caisse enregistreuse elle-même. Si, pour une raison quelconque, une station matérielle ne dispose pas d’un profil de matériel directement affecté, le profil de matériel affecté à la caisse enregistreuse est utilisé.
+Dans ce scénario, une station matérielle autonome est partagée entre les clients MPOS et Cloud POS. Ce scénario nécessite de créer un profil de station matérielle afin de spécifier le package de téléchargement, le port et le profil de matériel qu'utilise la station matérielle. Vous trouverez le profil de station matérielle dans **Vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage du PDV** &gt; **Profils PDV** &gt; **Profils de la station matérielle**. Après avoir créé le profil de station matérielle, recherchez le canal de vente au détail spécifique (**Vente au détail** &gt; **Canaux** &gt; **Magasins de vente au détail** &gt; **Tous les magasins de vente au détail**) et ajoutez une nouvelle station matérielle. Mappez cette nouvelle station matérielle au profil de station matérielle créé précédemment. Ensuite, fournissez une description qui aidera le caissier à identifier la station matérielle. Dans le champ **Nom d’hôte**, saisissez l’URL de la machine hôte au format suivant : **https://&lt;<MachineName:Port&gt;/HardwareStation**. (Remplacez **&lt;MachineName:Port&gt;** par le nom réel de la station matérielle et le port qui est spécifié dans le profil de station matérielle.) Pour une station matérielle autonome, vous devez également spécifier l'ID du terminal de transfert électronique de fonds (TEF). Cette valeur identifie le terminal TEF connecté à la station matérielle lorsque le connecteur de paiement communique avec le fournisseur de paiement. Ensuite, à partir de la station matérielle réelle, accédez au canal et sélectionnez la station matérielle. Puis cliquez sur **Télécharger** et installez la station matérielle. Ensuite, dans MPOS ou Cloud POS, utilisez l'opération **Sélectionner une station matérielle** pour sélectionner la station matérielle qui a été précédemment installée. Sélectionnez **Jumeler** pour établir une relation sécurisée entre le PDV et la station matérielle. Cette étape doit être effectuée une fois pour chaque combinaison de POS et de station matérielle. Une fois que la station matérielle est jumelée, la même opération est utilisée pour rendre la station matérielle active alors qu’elle est utilisée. Dans ce scénario, le profil de matériel doit être assigné au profil de station matérielle plutôt qu'à la caisse enregistreuse elle-même. Si, pour une raison quelconque, une station matérielle ne dispose pas d’un profil de matériel directement affecté, le profil de matériel affecté à la caisse enregistreuse est utilisé.
 
 ## <a name="client-maintenance"></a>Maintenance client
 ### <a name="registers"></a>Caisses enregistreuses
@@ -85,7 +87,7 @@ Les caisses enregistreuses du PDV sont gérées principalement via les caisses e
 
 ### <a name="pos-profiles"></a>Profils POS
 
-Vous pouvez trouver les profils de PDV dans **Vente au détail et commerce** &gt; **Paramétrage du canal** &gt; **Paramétrage du PDV** &gt; **Profils PDV**. Il est utile de gérer de nombreux aspects d’une caisse enregistreuse par le biais des profils, dans la mesure où les profils peuvent être partagées entre plusieurs caisses enregistreuses. Les profils peuvent être mappés à une caisse enregistreuse individuelle ou, si un profil est en vigueur dans l'ensemble d'un magasin, au magasin de vente au détail. Les sections suivantes décrivent les profils POS et comment ils sont utilisés.
+Vous pouvez trouver les profils de PDV dans **Vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage du PDV** &gt; **Profils PDV**. Il est utile de gérer de nombreux aspects d’une caisse enregistreuse par le biais des profils, dans la mesure où les profils peuvent être partagées entre plusieurs caisses enregistreuses. Les profils peuvent être mappés à une caisse enregistreuse individuelle ou, si un profil est en vigueur dans l'ensemble d'un magasin, au magasin de vente au détail. Les sections suivantes décrivent les profils POS et comment ils sont utilisés.
 
 #### <a name="offline-profile"></a>Profil hors connexion
 
@@ -151,14 +153,14 @@ Les périphériques sont expliqués plus haut dans cet article. Ils sont utilis�
 
 -   **En attente** – le périphérique est prêt à être activé.
 -   **Activé** – le périphérique a été activé.
--   **Désactivé** – le périphérique a été désactivé dans le back office ou par l’intermédiaire du PDV.
+-   **Désactivé** – le périphérique a été désactivé dans le Retail Siège ou par l’intermédiaire du PDV.
 -   **Désactivé** – le périphérique a été désactivé.
 
 Les informations supplémentaires relatives à l’activation comprennent le travailleur qui a modifié l’état d’activation du périphérique, un horodatage de l’activation, et si la configuration du périphérique a été validée.
 
 ### <a name="client-data-synchronization"></a>Synchronisation des données client
 
-Toutes les modifications apportées à un client de PDV, à l’exception des modifications apportées à l’état d’activation du périphérique, doivent être synchronisées sur la base de données du canal pour être prises en compte. Pour synchroniser les modifications apportées à la base de données de canal, accédez à **Vente au détail et commerce** &gt; **Informatique au détail** &gt; **Programme de distribution** et exécutez le programme de distribution requis. Pour les modifications du client, vous devez exécuter les programmes de distribution « Caisses enregistreuses » et « Configuration des canaux ».
+Toutes les modifications apportées à un client de PDV, à l’exception des modifications apportées à l’état d’activation du périphérique, doivent être synchronisées sur la base de données du canal pour être prises en compte. Pour synchroniser les modifications apportées à la base de données de canal, accédez à **Vente au détail** &gt; **Informatique au détail** &gt; **Programme de distribution** et exécutez le programme de distribution requis. Pour les modifications du client, vous devez exécuter les programmes de distribution « Caisses enregistreuses » et « Configuration des canaux ».
 
 
 

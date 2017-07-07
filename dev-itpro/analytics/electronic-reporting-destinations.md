@@ -1,16 +1,16 @@
 ---
 title: "Destinations des états électroniques"
-description: "Vous pouvez configurer une destination pour chaque configuration de génération d&quot;états électroniques (ER) et son composant de sortie (un dossier ou un fichier). Les utilisateurs qui disposent des droits d’accès appropriés peuvent également modifier les paramètres de destination au moment de l’exécution. Cet article explique la gestion des destinations des états électroniques, les types de destinations pris en charge et des considérations sur la sécurité."
+description: "Vous pouvez configurer une destination pour chaque configuration de génération d'états électroniques (ER) et son composant de sortie (un dossier ou un fichier). Les utilisateurs qui disposent des droits d’accès appropriés peuvent également modifier les paramètres de destination au moment de l’exécution. Cet article explique la gestion des destinations des états électroniques, les types de destinations pris en charge et des considérations sur la sécurité."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: DocuType, ERSolutionTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 97423
 ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5fb008420f82abd7983ee26854f84330705c0c01
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: fb2aeee1f38823e7ea96071f773e8448d65ba8ff
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -36,9 +36,9 @@ Vous pouvez configurer une destination pour chaque configuration de génération
 Les configurations de format des états électroniques contiennent généralement au moins un composant de sortie : un fichier. En règle générale, les configurations contiennent plusieurs composants de sortie de fichiers de différents types (par exemple, XML, TXT ou XLSX) qui sont regroupés dans un dossier unique ou dans plusieurs dossiers. La gestion des destinations des états électroniques vous permet de préconfigurer ce qui se produit lors de l’exécution de chaque composant. Par défaut, lorsqu'une configuration est exécutée, une boîte de dialogue s'affiche pour permettre à l'utilisateur d'enregistrer ou d'ouvrir le fichier. Le même comportement est également utilisé lorsque vous importez une configuration d'état électronique et que vous ne configurez pas de destinations spécifiques pour lui. Après la création d’une destination pour un composant de sortie principal, cette destination remplace le comportement par défaut et le dossier ou le fichier est envoyé en fonction des paramètres de la destination.
 
 ## <a name="availability-and-general-prerequisites"></a>Disponibilité et conditions préalables générales
-La fonctionnalité des destinations d'états électroniques n’est pas disponible dans Microsoft Dynamics 365 for Operations 7.0 (février 2016). Par conséquent, vous devez installer Microsoft Dynamics 365 for Operations (version de novembre 2016) pour utiliser toutes les fonctions décrites dans cette rubrique. Vous pouvez également installer l'un des éléments requis suivants. Toutefois, notez que ces solutions de remplacement offrent une expérience plus limitée.
+La fonctionnalité des destinations d'états électroniques n’est pas disponible dans Microsoft Dynamics AX 7.0 (février 2016). Par conséquent, vous devez installer Microsoft Dynamics 365 for Operations version 1611 (novembre 2016) pour utiliser toutes les fonctions décrites dans cette rubrique. Vous pouvez également installer l'un des éléments requis suivants. Toutefois, notez que ces solutions de remplacement offrent une expérience plus limitée.
 
--   Application Microsoft Dynamics 365 for Operations version 7.0.1 (mai 2016)
+-   Application Microsoft Dynamics AX 7.0.1 (mai 2016)
 -   [Correctif d’application](https://fix.lcs.dynamics.com/issue/results/?q=3160213) de gestion des destinations d'états électoniques
 
 Vous pouvez paramétrer des destinations uniquement pour les configurations d'états électroniques qui ont été importées et pour les formats qui sont disponibles sur la page **Configurations des états électroniques**.
@@ -61,7 +61,7 @@ Différents types de destinations sont pris en charge. Vous pouvez désactiver o
 
 ### <a name="email-destination"></a>Destination du courrier électronique
 
-Définissez **Activé**sur **Oui** pour envoyer un fichier de sortie par courrier électronique. Une fois cette option activée, vous pouvez spécifier les destinataires du message et modifier l'objet et le corps du courrier électronique. Vous pouvez paramétrer des textes constants pour l'objet et le corps du courrier électronique, ou vous pouvez utiliser des formules de génération d'états électroniques pour créer dynamiquement les textes de courrier électronique. Vous pouvez configurer les adresses électroniques pour les états électroniques de deux manières. La configuration peut être effectuée de la même manière que la fonctionnalité de gestion de l'impression dans Dynamics 365 for Operations. Vous pouvez également résoudre une adresse électronique en utilisant une référence directe à la configuration d'états électroniques via une formule.
+Définissez **Activé** sur **Oui** pour envoyer un fichier de sortie par courrier électronique. Une fois cette option activée, vous pouvez spécifier les destinataires du message et modifier l'objet et le corps du courrier électronique. Vous pouvez paramétrer des textes constants pour l'objet et le corps du courrier électronique, ou vous pouvez utiliser des formules de génération d'états électroniques pour créer dynamiquement les textes de courrier électronique. Vous pouvez configurer les adresses électroniques pour les états électroniques de deux manières. La configuration peut être effectuée de la même manière que la fonctionnalité de gestion de l'impression dans Finance and Operations. Vous pouvez également résoudre une adresse électronique en utilisant une référence directe à la configuration d'états électroniques via une formule.
 
 ### <a name="email-address-types"></a>Types d'adresses électroniques
 
@@ -89,15 +89,15 @@ Utilisez ce type de courrier électronique si la configuration que vous utilisez
 
 [![Affectation d'une source de données d'adresse électronique pour une destination de courrier électronique](./media/ger-destinations-email-4-1611-1024x587.jpg)](./media/ger-destinations-email-4-1611.jpg) 
 
-**Remarque :** un serveur SMTP (Simple Mail Transfer Protocol) doit être configuré et disponible. Vous pouvez spécifier votre serveur SMTP dans Dynamics 365 for Operations sous **Administration système** &gt; **Paramétrage** &gt; **E-mail** &gt; **Paramètres d'e-mail**.
+**Remarque :** un serveur SMTP (Simple Mail Transfer Protocol) doit être configuré et disponible. Vous pouvez spécifier votre serveur SMTP dans Finance and Operations sous **Administration système** &gt; **Paramétrage** &gt; **E-mail** &gt; **Paramètres d'e-mail**.
 
 ### <a name="archive-destination"></a>Destination de l'archive
 
-Vous pouvez utiliser cette option pour envoyer la sortie vers un dossier Microsoft SharePoint ou le stockage Microsoft Azure. Définissez **Activé** sur **Oui**pour envoyer la sortie vers une destination définie par le type de document sélectionné. Seuls les types de documents où le groupe est défini sur **Fichier** sont disponibles pour la sélection. Vous définissez les types de documents dans **Administration d’organisation** &gt; **Gestion de documents** &gt; **Types de documents**. La configuration des destinations d'états électroniques est identique à la configuration du système de gestion des documents.
+Vous pouvez utiliser cette option pour envoyer la sortie vers un dossier Microsoft SharePoint ou le stockage Microsoft Azure. Définissez **Activé** sur **Oui** pour envoyer la sortie vers une destination définie par le type de document sélectionné. Seuls les types de documents où le groupe est défini sur **Fichier** sont disponibles pour la sélection. Vous définissez les types de documents dans **Administration d’organisation** &gt; **Gestion de documents** &gt; **Types de documents**. La configuration des destinations d'états électroniques est identique à la configuration du système de gestion des documents.
 
 [![Page Types de documents](./media/ger_documenttypefile-1024x542.jpg)](./media/ger_documenttypefile.jpg) 
 
-L’emplacement détermine où le fichier est enregistré. Une fois la destination **Archive** activée, les résultats de l'exécution de la configuration peuvent être enregistrés dans l'archive Tâche. Vous pouvez afficher les résultats sous **Administration d'organisation** &gt; **Gestion des états électroniques** &gt; **Tâches de gestion des états électroniques archivées**. **Remarque :** vous pouvez sélectionner un type de document pour l'archive Tâche dans Dynamics 365 for Operations, sous **Administration d'organisation** &gt; **Espaces de travail** &gt; **Gestion des états électroniques** &gt; **Paramètres de gestion des états électroniques**.
+L’emplacement détermine où le fichier est enregistré. Une fois la destination **Archive** activée, les résultats de l'exécution de la configuration peuvent être enregistrés dans l'archive Tâche. Vous pouvez afficher les résultats sous **Administration d'organisation** &gt; **Gestion des états électroniques** &gt; **Tâches de gestion des états électroniques archivées**. **Remarque :** vous pouvez sélectionner un type de document pour l'archive Tâche dans Finance and Operations, sous **Administration d'organisation** &gt; **Espaces de travail** &gt; **Gestion des états électroniques** &gt; **Paramètres de gestion des états électroniques**.
 
 #### <a name="sharepoint"></a>SharePoint
 
@@ -119,7 +119,7 @@ Si vous définissez **Activé** sur **Oui**, un aperçu de la sortie est créé.
 
 ### <a name="power-bi-destination"></a>Destination Power BI
 
-Définissez **Activé** sur **Oui** pour utiliser la configuration de génération d'états électroniques pour organiser le transfert des données entre votre instance de Dynamics 365 for Operations et les services Microsoft Power BI. Les fichiers transférés sont stockés sur une instance Microsoft SharePoint Server qui doit être configurée à cette fin. Pour plus d'informations, voir [Utiliser une configuration de génération d'états électroniques pour fournir à Power BI des données Dynamics 365 for Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md). **Conseil :** pour substituer le comportement par défaut (autrement dit, la boîte de dialogue de configuration), vous pouvez créer une référence de destination et une destination de fichier pour le composant de sortie principal et ensuite désactiver toutes les destinations.
+Définissez **Activé** sur **Oui** pour utiliser la configuration de génération d'états électroniques pour organiser le transfert des données entre votre instance de Finance and Operations et les services Microsoft Power BI. Les fichiers transférés sont stockés sur une instance Microsoft SharePoint Server qui doit être configurée à cette fin. Pour plus d'informations, voir [Utiliser une configuration de génération d'états électroniques pour fournir à Power BI des données de Finance and Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md). **Conseil :** pour substituer le comportement par défaut (autrement dit, la boîte de dialogue de configuration), vous pouvez créer une référence de destination et une destination de fichier pour le composant de sortie principal et ensuite désactiver toutes les destinations.
 
 ## <a name="security-considerations"></a>Considérations de sécurité
 Deux types de privilèges et de droits sont utilisés pour les destinations d'états électroniques. Un type contrôle la possibilité de mettre à jour les destinations globales qui sont configurées pour une entité juridique (autrement dit, il contrôle l’accès à la page **Destinations des états électroniques**). L’autre type contrôle la capacité de l’utilisateur d’une application à substituer, au moment de l’exécution, les paramètres de destination qui sont configurés par un développeur d'états électroniques ou un consultant fonctionnel d'états électroniques.

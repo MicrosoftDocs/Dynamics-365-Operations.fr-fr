@@ -1,9 +1,9 @@
 ---
-title: "Page d&quot;accueil de la fonctionnalité Secteur public"
-description: "Microsoft Dynamics 365 for Operations active les processus communs aux secteurs public et privé, comme les tâches de budgétisation, d&quot;achats, de comptabilité fournisseur et de comptabilité client."
+title: "Page d'accueil de la fonctionnalité Secteur public"
+description: "Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition active les processus d'entreprise communs aux secteurs public et privé, comme les tâches de budgétisation, d'achats, de comptabilité fournisseur et de comptabilité client."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: SysConfiguration
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 20691
 ms.assetid: 391a6899-7011-40bc-b54b-5665b06bcecb
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 8eb456935a2ccbc837a9cd6c875d19e87c48ae85
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 7a12c9678e60ab10d4693f1d9d20b77e31b7d84b
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Microsoft Dynamics 365 for Operations active les processus communs aux secteurs public et privé, comme les tâches de budgétisation, d'achats, de comptabilité fournisseur et de comptabilité client. 
+Finance and Operations active les processus d'entreprise communs aux secteurs public et privé, comme les tâches de budgétisation, de comptabilité fournisseur et de comptabilité client. 
 
 La fonctionnalité Secteur public permet de se conformer aux règles, aux réglementations et aux conditions de génération d'états pour les organisations du domaine public : Les processus entreprise affectés sont : 
 

@@ -1,16 +1,16 @@
 ---
-title: "Paramétrage du processus d&quot;importation du rapprochement bancaire avancé"
-description: "La fonctionnalité de rapprochement bancaire avancée vous permet d&quot;importer des relevés bancaires électroniques et de les rapprocher automatiquement avec des transactions bancaires dans Microsoft Dynamics 365 for Operations. Cet article explique comment configurer la fonctionnalité d’importation de vos relevés bancaires."
+title: "Paramétrage du processus d'importation du rapprochement bancaire avancé"
+description: "La fonctionnalité de rapprochement bancaire avancée vous permet d'importer des relevés bancaires électroniques et de les rapprocher automatiquement avec des transactions bancaires dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Cet article explique comment configurer la fonctionnalité d’importation de vos relevés bancaires."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 106853
 ms.assetid: 45dae275-ea45-4c7e-b38f-89297c7b5352
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: fda4dca4339c09757477b04166b17d5f92f46a7c
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: a4d1c81386c0ef03391f3127fa51a6b09a5142b3
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,12 +31,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-La fonctionnalité de rapprochement bancaire avancée vous permet d'importer des relevés bancaires électroniques et de les rapprocher automatiquement avec des transactions bancaires dans Microsoft Dynamics 365 for Operations. Cet article explique comment configurer la fonctionnalité d’importation de vos relevés bancaires. 
+La fonctionnalité de rapprochement bancaire avancée vous permet d'importer des relevés bancaires électroniques et de les rapprocher automatiquement avec des transactions bancaires dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Cet article explique comment configurer la fonctionnalité d’importation de vos relevés bancaires. 
 
-Le paramétrage de l’importation de relevé bancaire varie selon le format de votre relevé bancaire électronique. Microsoft Dynamics 365 for Operations prend en charge trois formats de relevés bancaires prêts à l'emploi : ISO20022, MT940 et BAI2.
+Le paramétrage de l’importation de relevé bancaire varie selon le format de votre relevé bancaire électronique. Finance and Operations prend en charge trois formats de relevés bancaires prêts à l'emploi : ISO20022, MT940 et BAI2.
 
 ## <a name="sample-files"></a>Exemples de fichiers
-Pour les trois formats, vous devez disposer de fichiers qui traduisent le relevé bancaire électronique de son format d’origine vers un format que Dynamics 365 for Operations peut utiliser. Vous pouvez trouver les fichiers de ressources requis sous le nœud **Ressources** dans l’Explorateur d’application dans Microsoft Visual Studio. Après avoir trouvé les fichiers, copiez-les à un emplacement unique, afin que de pouvoir les télécharger plus facilement au cours du processus d’installation.
+Pour les trois formats, vous devez disposer de fichiers qui traduisent le relevé bancaire électronique de son format d’origine vers un format que Finance and Operations peut utiliser. Vous pouvez trouver les fichiers de ressources requis sous le nœud **Ressources** dans l’Explorateur d’application dans Microsoft Visual Studio. Après avoir trouvé les fichiers, copiez-les à un emplacement unique, afin que de pouvoir les télécharger plus facilement au cours du processus d’installation.
 
 | Nom de la ressource                                           | Nom de fichier                            |
 |---------------------------------------------------------|--------------------------------------|
@@ -71,7 +71,7 @@ Tout d’abord, vous devez définir le groupe de traitement du format du relevé
 7.  Une fois l’entité de relevés bancaires téléchargée et la mise en correspondance terminée, cliquez sur l'action **Afficher le mappage** pour l’entité.
 8.  L’entité de relevés bancaires est une entité composite qui se compose de quatre entités distinctes. Dans la liste, sélectionnez **BankStatementDocumentEntity**, puis cliquez sur l'action **Afficher le mappage**.
 9.  Sous l'onglet **Transformations**, cliquez sur **Nouveau**.
-10. Pour le numéro de souche 1, cliquez sur **Télécharger le fichier** et sélectionnez le fichier **ISO20022XML-to-Reconciliation.xslt** que vous avez enregistré précédemment. **Remarque :** les fichiers de transformation Dynamics 365 for Operations sont générés pour le format standard. Dans la mesure où les banques ont souvent des formats différents, vous devrez peut-être mettre à jour le fichier de transformation pour le mettre en correspondance avec votre format de relevé bancaire. <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
+10. Pour le numéro de souche 1, cliquez sur **Télécharger le fichier** et sélectionnez le fichier **ISO20022XML-to-Reconciliation.xslt** que vous avez enregistré précédemment. **Remarque :** les fichiers de transformation Finance and Operations sont générés pour le format standard. Dans la mesure où les banques ont souvent des formats différents, vous devrez peut-être mettre à jour le fichier de transformation pour le mettre en correspondance avec votre format de relevé bancaire. <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
 11. Cliquez sur **Nouveau**.
 12. Pour le numéro de souche 2, cliquez sur **Télécharger le fichier** et sélectionnez le fichier **BankReconciliation-to-Composite.xslt** que vous avez enregistré précédemment.
 13. Cliquez sur **Appliquer les transformations**.
@@ -89,8 +89,8 @@ La dernière étape consiste à activer le rapprochement bancaire avancé et à 
 
 1.  Accédez à **Gestion de la trésorerie et de la banque** &gt; **Comptes bancaires**.
 2.  Sélectionnez le compte bancaire et ouvrez-le pour afficher les détails.
-3.  Sur l'onglet **Rapprochement**, définissez l'option **Rapprochement bancaire avancé**sur **Oui**.
-4.  Définissez le champ **Format de relevé**sur le format que vous avez créé précédemment, tel que **ISO20022**.
+3.  Sur l'onglet **Rapprochement**, définissez l'option **Rapprochement bancaire avancé** sur **Oui**.
+4.  Définissez le champ **Format de relevé** sur le format que vous avez créé précédemment, tel que **ISO20022**.
 
 ## <a name="set-up-the-import-of-mt940-bank-statements"></a>Paramétrer l'importation des relevés bancaires MT940
 Tout d’abord, vous devez définir le groupe de traitement du format du relevé bancaire pour les relevés bancaires MT940 à l’aide de l’infrastructure d’entité de données.
@@ -106,7 +106,7 @@ Tout d’abord, vous devez définir le groupe de traitement du format du relevé
 9.  Sous l'onglet **Transformations**, cliquez sur **Nouveau**.
 10. Pour le numéro de souche 1, cliquez sur **Télécharger le fichier** et sélectionnez le fichier **MT940TXT-to-MT940XML.xslt** que vous avez enregistré précédemment.
 11. Cliquez sur **Nouveau**.
-12. Pour le numéro de souche 2, cliquez sur **Télécharger le fichier** et sélectionnez le fichier **MT940XML-to-Reconciliation.xslt** que vous avez enregistré précédemment. **Remarque :** les fichiers de transformation Dynamics 365 for Operations sont générés pour le format standard. Dans la mesure où les banques ont souvent des formats différents, vous devrez peut-être mettre à jour le fichier de transformation pour le mettre en correspondance avec votre format de relevé bancaire. <!--- For details about the expected format for MT940, see [Dynamics AX MT940 Layout](./media/dynamicsaxmt940layout1.xlsx)-->
+12. Pour le numéro de souche 2, cliquez sur **Télécharger le fichier** et sélectionnez le fichier **MT940XML-to-Reconciliation.xslt** que vous avez enregistré précédemment. **Remarque :** les fichiers de transformation Finance and Operations sont générés pour le format standard. Dans la mesure où les banques ont souvent des formats différents, vous devrez peut-être mettre à jour le fichier de transformation pour le mettre en correspondance avec votre format de relevé bancaire. <!--- For details about the expected format for MT940, see [Dynamics AX MT940 Layout](./media/dynamicsaxmt940layout1.xlsx)-->
 13. Cliquez sur **Nouveau**.
 14. Pour le numéro de souche 3, cliquez sur **Télécharger le fichier** et sélectionnez le fichier **BankReconciliation-to-Composite.xslt** que vous avez enregistré précédemment.
 15. Cliquez sur **Appliquer les transformations**.
@@ -142,7 +142,7 @@ Tout d’abord, vous devez définir le groupe de traitement du format du relevé
 9.  Sous l'onglet **Transformations**, cliquez sur **Nouveau**.
 10. Pour le numéro de souche 1, cliquez sur **Télécharger le fichier** et sélectionnez le fichier **BAI2CSV-to-BAI2XML.xslt** que vous avez enregistré précédemment.
 11. Cliquez sur **Nouveau**.
-12. Pour le numéro de souche 2, cliquez sur **Télécharger le fichier** et sélectionnez le fichier **BAI2XML-to-Reconciliation.xslt** que vous avez enregistré précédemment. **Remarque :** les fichiers de transformation Dynamics 365 for Operations sont générés pour le format standard. Dans la mesure où les banques ont souvent des formats différents, vous devrez peut-être mettre à jour le fichier de transformation pour le mettre en correspondance avec votre format de relevé bancaire. <!--- For details about the expected format for BAI2, see [Dynamics AX BAI2 Layout](./media/dynamicsaxbai2layout1.xlsx).-->
+12. Pour le numéro de souche 2, cliquez sur **Télécharger le fichier** et sélectionnez le fichier **BAI2XML-to-Reconciliation.xslt** que vous avez enregistré précédemment. **Remarque :** les fichiers de transformation Finance and Operations sont générés pour le format standard. Dans la mesure où les banques ont souvent des formats différents, vous devrez peut-être mettre à jour le fichier de transformation pour le mettre en correspondance avec votre format de relevé bancaire. <!--- For details about the expected format for BAI2, see [Dynamics AX BAI2 Layout](./media/dynamicsaxbai2layout1.xlsx).-->
 13. Cliquez sur **Nouveau**.
 14. Pour le numéro de souche 3, cliquez sur **Télécharger le fichier** et sélectionnez le fichier **BankReconciliation-to-Composite.xslt** que vous avez enregistré précédemment.
 15. Cliquez sur **Appliquer les transformations**.

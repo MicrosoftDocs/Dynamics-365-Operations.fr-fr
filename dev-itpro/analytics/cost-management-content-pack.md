@@ -3,13 +3,13 @@ title: "Contenu Power BI de gestion des coûts"
 description: "Cette rubrique décrit les données incluses dans le contenu Power BI de gestion des coûts. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 270314
 ms.assetid: 9680d977-43c8-47a7-966d-2280ba21402a
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a9449e42224d5dfb1bc1f0368a041c45afc334a2
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 387b804cb20ffdc17ad74dac5d927ecbaf421bae
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -52,7 +52,7 @@ Le contenu Microsoft Power BI **Gestion des coûts** est destiné aux contrôleu
 La principale source de données pour CostAggregatedCostStatementEntryEntity est la table CostStatementCache. Cette table est gérée par la structure du cache d'ensemble de données. Par défaut, la table est mise à jour toutes les 24 heures, mais vous pouvez activer les mises à jour manuelles dans la configuration du cache de données. Vous pouvez ensuite effectuer une mise à jour manuelle dans l'espace de travail **Gestion des coûts** ou **Analyse des coûts**. Une fois la mise à jour de CostStatementCache exécutée, vous devez mettre à jour la connexion OData sur Power BI.com pour consulter les données mises à jour sur le site. Les mesures d'écart (achat, production) de ce contenu Power BI concernent uniquement les articles évalués selon la méthode de stock de coût standard. L'écart de production est calculé comme la différence entre le coût actif et le coût réalisé. L'écart de production est calculé lorsque l'ordre de fabrication a le statut **Terminé**. Pour plus d'informations sur les types d'écart de production et le calcul de chaque type, voir [À propos de l'analyse des écarts pour un ordre de fabrication terminé](https://technet.microsoft.com/en-us/library/gg242850.aspx)
 
 ## <a name="accessing-the-power-bi-content"></a>Accès au contenu Power BI
-Le contenu Power BI **Gestion des coûts** est disponible dans PowerBI.com. Pour plus d'informations sur la procédure de connexion et de chargement de vos données Microsoft Dynamics 365 for Operations, voir [Accéder au contenu Power BI depuis PowerBI.com](power-bi-home-page.md).
+Le contenu Power BI **Gestion des coûts** est disponible dans PowerBI.com. Pour plus d'informations sur la procédure de connexion et de chargement de vos données Microsoft Dynamics 365 for Finance and Operations, voir [Accéder au contenu Power BI depuis PowerBI.com](power-bi-home-page.md).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Mesures incluses dans le contenu Power BI
 Le contenu comprend un ensemble de pages d'état. Chaque page contient un ensemble de mesures visualisées sous forme de graphiques, de vignettes et de tables. Le tableau suivant donne une vue d'ensemble des visualisations dans le contenu Power BI **Gestion des coûts**.
@@ -84,9 +84,9 @@ Le contenu comprend un ensemble de pages d'état. Chaque page contient un ensemb
 | |Écarts de production par nom de site et nom de catégorie de niveau 3 | |
 
 ## <a name="understanding-the-data-model-and-entities"></a>Compréhension du modèle de données et des entités
-Les données Dynamics 365 for Operations sont utilisées pour remplir les pages d'état dans le contenu Power BI **Gestion des coûts**. Ces données sont représentées sous forme de mesures globales stockées dans le magasin d'entité, qui est une base de données SQL Microsoft optimisée pour l'analyse. Pour plus d'informations, voir [Vue d'ensemble de l'intégration de Power BI au magasin d'entité](power-bi-integration-entity-store.md) Les mesures globales clés suivantes sont utilisées comme base du contenu.
+Les données Finance and Operations sont utilisées pour remplir les pages d'état dans le contenu Power BI **Gestion des coûts**. Ces données sont représentées sous forme de mesures globales stockées dans le magasin d'entité, qui est une base de données SQL Microsoft optimisée pour l'analyse. Pour plus d'informations, voir [Vue d'ensemble de l'intégration de Power BI au magasin d'entité](power-bi-integration-entity-store.md) Les mesures globales clés suivantes sont utilisées comme base du contenu.
 
-| Entité            | Mesure globale clé | Source de données pour Dynamics 365 for Operations | Champ             | Description                       |
+| Entité            | Mesure globale clé | Source de données Finance and Operations | Champ             | Description                       |
 |-------------------|---------------------------|---------------------------------------------|-------------------|-----------------------------------|
 | Entrées de relevé | Modification nette                | CostAggregatedCostStatementEntryEntity      | sum(\[Montant\])   | Montant en devise comptable |
 | Entrées de relevé | Quantité de modification nette       | CostAggregatedCostStatementEntryEntity      | sum(\[Quantité\]) |                                   |

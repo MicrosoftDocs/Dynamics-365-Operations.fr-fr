@@ -1,9 +1,9 @@
 ---
 title: Approvisionnements dans le secteur public
-description: "Cette vue d&quot;ensemble présente la fonctionnalité d&quot;approvisionnements disponible pour le secteur public. Cela inclut les codes de commande fournisseur, les types de certification des fournisseurs, la fonctionnalité de classification de contrat d&quot;achat, et les montants de ligne de commande fournisseur."
+description: "Cette vue d'ensemble présente la fonctionnalité d'approvisionnements disponible pour le secteur public. Cela inclut les codes de commande fournisseur, les types de certification des fournisseurs, la fonctionnalité de classification de contrat d'achat, et les montants de ligne de commande fournisseur."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: AgreementClassification, BudgetParameters, ProcCategoryHierarchyManagement, PurchTableListPage, smmActivities, VendCertificationType, VendTableListPage
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 19681
 ms.assetid: c99b2aeb-4ac2-4abe-b8b9-786b664c103d
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 4fa19b99ec333d2777cefe8861860f9c6e798cee
+ms.sourcegitcommit: f76e431320414b508728cbe9fe20456f107cbe40
+ms.openlocfilehash: cf1fbe904d70a26fb7692e921d0465707b8b422a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/09/2017
 
 
 ---
@@ -139,7 +139,7 @@ Supposons que vous affichiez une ligne de commande fournisseur contenant des ach
 
  
 
-Pour plus d'informations, voir [Approvisionnements](/dynamics365/operations/supply-chain/procurement/procurement-sourcing-overview) et [Comptabilité fournisseur dans le secteur public](accounts-payable-public-sector.md).
+Pour plus d'informations, voir [Approvisionnements](/dynamics365/unified-operations/supply-chain/procurement/procurement-sourcing-overview) et [Comptabilité fournisseur dans le secteur public](accounts-payable-public-sector.md).
 
 
 

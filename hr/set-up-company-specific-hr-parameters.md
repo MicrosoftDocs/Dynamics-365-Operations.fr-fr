@@ -1,27 +1,28 @@
 ---
 title: "Définition des paramètres de RH spécifiques à la société"
-description: "Les réglages de certains paramètres des Ressources humaines (RH) sont partagés entre des sociétés, alors que les réglages d&quot;autres paramètres sont spécifiques à la société. Cet article décrit comment définir les paramètres RH spécifiques à la société."
+description: "Les réglages de certains paramètres des Ressources humaines (RH) sont partagés entre des sociétés, alors que les réglages d'autres paramètres sont spécifiques à la société. Cet article décrit comment définir les paramètres RH spécifiques à la société."
 author: rschloma
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 ms.search.form: HRMParameters
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: rschloma
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e1a3560013271fc1b83bdb931aef2153b1d07317
+ms.sourcegitcommit: f83bc127f7bf3cdceb39a79c1e69f4f7e96f6462
+ms.openlocfilehash: ef84ad6e90e7c58ea921930e23b67228d393bc7e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/19/2017
 
 
 ---
@@ -36,9 +37,9 @@ Les réglages de certains paramètres des Ressources humaines (RH) sont partagé
 Deux pages permettent de définir les paramètres de Ressources humaines (RH). Pour les paramètres communs à des sociétés, vous utilisez la page **Paramètres partagés de ressources humaines**. Pour les paramètres qui sont spécifiques à une société (en d'autres termes, les paramètres s'appliquent à une seule société), vous utilisez la page **Paramètres de ressources humaines**. Sur la page **Paramètres de Ressources humaines**, les paramètres sont répartis sur six onglets :
 
 -   Général
--   Recrutement
+-   Recrutement - Cette fonctionnalité n'est pas incluse dans Dynamics 365 for Talent
 -   Rémunération
--   Séquences de nombres
+-   Souches de numéros
 -   Family and Medical Leave Act (FMLA)
 -   Libre-service employé
 
@@ -48,7 +49,11 @@ Les paramètres de l'onglet **Recrutement** définissent les types de documents 
 
 Les paramètres de l'onglet **Rémunération** définissent si les utilisateurs doivent confirmer qu'ils souhaitent enregistrer des informations pour un régime de rémunération fixe ou variable. Si vous cochez la case **Activer le contrôle de l'enregistrement**, l'utilisateur reçoit un message lui demandant sil souhaite enregistrer l'enregistrement chaque fois qu'il utilise une page associée à la rémunération. Certaine pages de la gestion des rémunérations ne permettent pas aux utilisateurs de supprimer les informations. Par conséquent, en invitant les utilisateurs à confirmer qu'ils souhaitent enregistrer les informations, vous pouvez restreindre la quantité d'informations enregistrées sans possibilité de suppression ultérieure. Si la case **Activer le contrôle de l'enregistrement** décochée, les enregistrements sont toujours sauvegardés immédiatement, peut-être avant que l'utilisateur soit prêt. Si vous utilisez la gestion des performances, l'onglet **Rémunération** vous permet de sélectionner un modèle de classement à utiliser à la place du modèle affecté aux régimes de rémunération lors du classement des performances. 
 
-Les paramètres de l'onglet **Souche de numéros** déterminent les souches de numéros utilisées pour affecter automatiquement des identificateurs aux éléments du module Ressources humaines (candidatures, enregistrements d'absence, résultats des processus de rémunération, numéros d'incidents, cours et emplois du temps des cours). Pour tenir à jour les références et codes des souches de numéros, utilisez la page de liste **Souches de numéros** (cliquez sur **Administration d'organisation** &gt; **Souches de numéros** &gt; **Souches de numéros**). 
+### <a name="previously-released-functionality"></a>Fonctionnalité précédemment lancée
+Les paramètres de l'onglet **Souche de numéros** déterminent les souches de numéros utilisées pour affecter automatiquement des identificateurs aux éléments du module Ressources humaines (candidatures, enregistrements d'absence, résultats des processus de rémunération, numéros d'incidents, cours et emplois du temps des cours). Pour tenir à jour les références et codes des souches de numéros, utilisez la page de liste **Souches de numéros** (cliquez sur **Administration d'organisation** &gt; **Souches de numéros** &gt; **Souches de numéros**).
+
+### <a name="if-youre-using-dynamics-365-for-talent"></a>Si vous utilisez Dynamics 365 for Talent
+Les paramètres de l'onglet **Souche de numéros** déterminent les souches de numéros utilisées pour affecter automatiquement des identificateurs aux éléments du module Ressources humaines (candidatures, enregistrements d'absence, résultats des processus de rémunération, numéros d'incidents, cours et emplois du temps des cours). Pour tenir à jour les références et codes des souches de numéros, utilisez la page de liste **Souches de numéros** (cliquez sur **Administration système** &gt; **Onglet Liens** &gt; **Souches de numéros** &gt; **Souches de numéros**). 
 
 Les paramètres de l'onglet **FMLA** définissent le nombre d'heures qu'un employé doit travailler afin d'être éligible aux avantages FMLA, la durée de travail requise pour l'octroi des droits, et la date de début d'emploi utilisée pour déterminer la durée de l'emploi. Les paramètres définissent également le nombre d'heures FMLA auquel les employés ont droit et le calendrier de congé FMLA utilisé pour calculer le nombre d'heures FMLA que les employés ont utilisées. L'onglet **FMLA** est uniquement disponible pour les sociétés basées aux états-unis. 
 

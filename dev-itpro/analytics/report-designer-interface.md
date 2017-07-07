@@ -1,9 +1,9 @@
 ---
 title: Interface du Concepteur de rapports
-description: "Cet article explique comment naviguer dans le générateur d&quot;états et comment utiliser les différentes options pour répondre à vos besoins spécifiques."
+description: "Cet article explique comment naviguer dans le générateur d'états et comment utiliser les différentes options pour répondre à vos besoins spécifiques."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: ShylaThompson
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 59041
 ms.assetid: 054de5b0-8618-4195-be12-f031b4bb4d74
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 775a836748949a86b64a0ddec15ee4519b1c5127
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: aad8f2617d94e9abc77dafe96cb95f7e191873bd
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -53,7 +53,7 @@ Le menu **Fichier** est à la disposition de tous les utilisateurs et comprend l
 | Enregistrer sous                           | Permet d'enregistrer sous un nouveau nom la définition de ligne, de colonne, d'organigramme d'entreprise ou de rapport en cours.                                                                            |
 | Propriétés                        | Permet d'ouvrir la boîte de dialogue **Propriétés** dans laquelle vous pouvez changer le nom et la description d'un rapport.                                                                                                   |
 | Générer                          | Permet de générer le rapport en cours. Cette commande est disponible à partir d'une définition de rapport.                                                                                                                 |
-| Afficher le rapport                       | Permet d'ouvrir la dernière version du rapport généré dans Dynamics 365 for Operations. Cette commande est disponible à partir d'une définition de rapport si vous avez généré au moins un rapport.                                 |
+| Afficher le rapport                       | Permet d'ouvrir la dernière version du rapport généré dans Finance and Operations. Cette commande est disponible à partir d'une définition de rapport si vous avez généré au moins un rapport.                                 |
 | Définitions de rapport récentes         | Permet d'afficher une liste des rapports qui ont été récemment créés ou modifiés. Vous pouvez ensuite sélectionner un rapport dans la liste.                                                                                    |
 | Définitions de ligne récentes            | Permet d'afficher une liste des définitions de ligne qui ont été récemment créées ou modifiées. Vous pouvez ensuite sélectionner une définition de ligne dans la liste.                                                                    |
 | Définitions de colonne récentes         | Permet d'afficher une définition de colonne récemment créée ou modifiée. Vous pouvez ensuite sélectionner une définition de colonne dans la liste.                                                              |
@@ -161,9 +161,9 @@ Le menu **Fenêtre** est à la disposition de tous les utilisateurs et comprend 
 
 Le menu **Aide** est à la disposition de tous les utilisateurs et comprend les commandes suivantes.
 
-| Commande | description ;                                                  |
+| Commande | Description                                                  |
 |---------|--------------------------------------------------------------|
-| Affiche l'aide    | Permet d'ouvrir la page des rubriques d’aide de Dynamics 365 for Operations pour la génération d’états financiers. |
+| Aide    | Permet d'ouvrir la page des rubriques d’aide de Finance and Operations pour la génération d’états financiers. |
 |         |                                                              |
 
 ## <a name="report-designer-toolbar-buttons"></a>Boutons de la barre d'outils du Concepteur de rapports

@@ -1,37 +1,39 @@
 ---
 title: "Pointage de vente au détail"
-description: "Cette rubrique décrit les scénarios pris en charge pour la gestion des heures et de la présence dans Microsoft Dynamics 365 for Operations - Vente au détail"
+description: "Cette rubrique décrit les scénarios pris en charge pour la gestion des heures et de la présence dans Microsoft Dynamics 365 for Retail."
 author: MargoC
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 62813
 ms.assetid: 821994a6-cd29-45a3-a526-ce204064f080
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: aamiral
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 021f0ce8ee73ede482b2b74fce93f61a886288fc
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: b458d1938f49a2f33f7dd3ce3062880f0d4d7bfc
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
 
-# <a name="retail-time-and-attendance"></a>Pointage de vente au détail
+# <a name="retail-time-and-attendance"></a>Pointage et présence - Vente au détail
 
 [!include[banner](includes/banner.md)]
 
 
-Cette rubrique décrit les scénarios pris en charge pour la gestion des heures et de la présence dans Microsoft Dynamics 365 for Operations - Vente au détail 
+Cette rubrique décrit les scénarios pris en charge pour la gestion des heures et de la présence dans Microsoft Dynamics 365 for Retail. 
 
 <a name="manage-worker-setup-and-scheduling"></a>Gérer la configuration et la planification des collaborateurs
 ----------------------------------
@@ -122,7 +124,7 @@ Sur le PDV :
 -   Vous pouvez utiliser des filtres par type d'activité et magasin pour filtrer les enregistrements des heures.
 
 ## <a name="process-and-manage-time-registrations"></a>Traitement et gestion des enregistrements des heures
-L'utilisateur de Dynamics 365 for Operations - Vente au détail suit le workflow pour calculer, approuver et transférer les enregistrements des heures à la paie.
+L'utilisateur de Dynamics 365 for Retail suit le workflow pour calculer, approuver et transférer les enregistrements des heures à la paie.
 
 ### <a name="primary-operations"></a>Opérations principales
 

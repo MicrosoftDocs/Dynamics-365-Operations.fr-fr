@@ -1,15 +1,15 @@
 ---
-title: "Régularisation des coûts de projet dans les réceptions d&quot;achat"
-description: "Cette rubrique décrit la manière dont les coûts de projet des réceptions d&quot;achat peuvent être suivis dans Microsoft Dynamics 365 for Operations."
+title: "Régularisation des coûts de projet dans les réceptions d'achat"
+description: "Cette rubrique décrit la manière dont les coûts de projet des réceptions d'achat peuvent être suivis dans Microsoft Dynamics 365 Finance and Operations, Enterprise Edition."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 266984
 ms.assetid: 61e7d2a3-5aab-4113-bccc-213f932885d2
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: acb14deb9d77927ffc95500e4e97763ba3ad7826
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: b46929d2991f3ec1b38d54ddc57de632aa9b01b9
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Cette rubrique décrit la manière dont les coûts de projet des réceptions d'achat peuvent être suivis dans Microsoft Dynamics 365 for Operations. 
+Cette rubrique décrit la manière dont les coûts de projet des réceptions d'achat peuvent être suivis dans Microsoft Dynamics 365 Finance and Operations, Enterprise Edition. 
 
 Les factures pour un projet arrivent souvent plus tard que les marchandises et les services livrés, ce qui peut avoir un impact considérable sur des indicateurs de performance clé (KPIs) du projet. Il est important de pouvroir suivre ces transactions dans des rapports financiers et de projet.
 
@@ -38,7 +38,7 @@ L'exemple de scénario suivant illustre cela.
 
 Contoso Consulting a démarré un nouveau projet de déploiement de cloud. Une commande fournisseur est créée pour acheter un ordinateur pour le projet. L'ordinateur évalue le coût à $1500 et les services d'installation à $150. Le fournisseur a livré et installé l'ordinateur, mais la facture n'est pas encore arrivée chez Contoso Consulting. Le chef de projet souhaite voir la régularisation du coût du projet de $1650 pour que la facture soit remise. Le coût doit également être pris en compte dans les tableaux d'analyse du mois de la société. 
 
-Les charges à payer doivent être enregistrées au niveau financier et au niveau du projet pour la génération d'états. Dans Dynamics 365 for Operations, la mise à jour financière de l'accusé de réception de marchandises peut être appliquée à l'article et aux catégories d'approvisionnement. 
+Les charges à payer doivent être enregistrées au niveau financier et au niveau du projet pour la génération d'états. Dans Finance and Operations, la mise à jour financière de l'accusé de réception de marchandises peut être appliquée à l'article et aux catégories d'approvisionnement. 
 
 Pour les articles, sur la page **Paramètres de la comptabilité fournisseur**, sélectionnez l'option de **publication des reçus de produits dans la comptabilité**.
 [![accruals1](./media/accruals1-1024x409.png)](./media/accruals1.png) 
@@ -73,7 +73,7 @@ Il est possible de mettre en correspondance des catégories d'approvisionnement 
 
 **Étape 3 :** Création d'un brouillon de facture fournisseur. 
 
-Dans Dynamics 365 for Operations, la validation d'un accusé de réception de marchandises ne concerne pas les informations de projet. Comme contournement, vous pouvez générer un brouillon de facture fournisseur après avoir validé la réception. Accédez à la page **Commande fournisseur** &gt; **Onglet Facture** &gt; **Générer** &gt; **Facture**. Cette action crée un document de facture en attente qui met les informations de projet à jour. 
+Dans Finance and Operations, la validation d'un accusé de réception de marchandises ne concerne pas les informations de projet. Comme contournement, vous pouvez générer un brouillon de facture fournisseur après avoir validé la réception. Accédez à la page **Commande fournisseur** &gt; **Onglet Facture** &gt; **Générer** &gt; **Facture**. Cette action crée un document de facture en attente qui met les informations de projet à jour. 
 
 La création d'un brouillon de facture fournisseur génère des transactions de projet en attente. 
 [![accruals8](./media/accruals8-1024x225.png)](./media/accruals8.png) 

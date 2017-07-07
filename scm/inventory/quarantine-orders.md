@@ -3,14 +3,14 @@ title: "Ordres de contrôle"
 description: "Cet article décrit la manière dont les ordres de contrôle sont utilisés pour bloquer le stock."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventLocation, InventModelGroup, InventQuarantineOrder, InventQuarantineParmEnd, InventQuarantineParmReportFinished, InventQuarantineParmStartUp, InventTrans
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 30021
 ms.assetid: d5047727-653c-49da-b489-6fd3fe50445e
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 63d8c5827a95693a903428322367a4eec61f17d8
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: ec3d54e8e08850cd81891e7058b2b787e08b0fb9
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -36,7 +36,7 @@ Cet article décrit la manière dont les ordres de contrôle sont utilisés pour
 Les ordres de contrôle peuvent être utilisés pour bloquer le stock. Par exemple, vous pouvez contrôler des articles à des fins de contrôle de la qualité. Le stock qui a été mis en contrôle est transféré vers un entrepôt de contrôle. **Remarque :** Si vous utilisez des processus de gestion avancée des entrepôts (dans le module gestion des entrepôts), le traitement d'ordre de contrôle n'est utilisé que pour les commandes client retournées.
 
 ## <a name="quarantine-onhand-inventory-items"></a>Contrôler des articles disponibles dans le stock
-Lorsque vous contrôlez des articles, vous pouvez créer des ordres de contrôle manuellement ou paramétrer le système pour que celui-ci crée des ordres de contrôle automatiquement lors du traitement entrant. Pour créer des ordres de contrôle automatiquement, sélectionnez l'option **Gestion des contrôles** dans l'onglet **Stratégies de stock** dans la page **Groupes de modèles d'article**. Vous devez également spécifier un entrepôt de contrôle par défaut dans le champ **Entrepôts de contrôle** pour les entrepôts de réception. Lorsque le stock physique disponible est enregistré dans une commande fournisseur ou un ordre de fabrication, les articles mis sous contrôle sont déplacés automatiquement dans des entrepôts de contrôle dans Microsoft Dynamics 365 for Operations. Ce mouvement se produit car le statut de l'ordre de contrôle est changé en **Commencé**. Lorsque vous créez des ordres de contrôle manuellement, il n'est pas nécessaire que l'article actuel soit paramétré pour la gestion des contrôles dans le groupe de modèles d'article associé. Pour ce processus, vous devez spécifier le stock disponible qui doit être mis sous contrôle et l'entrepôt de contrôle qui doit être utilisé. Utilisez les statuts d'ordre de contrôle pour aider à planifier le processus.
+Lorsque vous contrôlez des articles, vous pouvez créer des ordres de contrôle manuellement ou paramétrer le système pour que celui-ci crée des ordres de contrôle automatiquement lors du traitement entrant. Pour créer des ordres de contrôle automatiquement, sélectionnez l'option **Gestion des contrôles** dans l'onglet **Stratégies de stock** dans la page **Groupes de modèles d'article**. Vous devez également spécifier un entrepôt de contrôle par défaut dans le champ **Entrepôts de contrôle** pour les entrepôts de réception. Lorsque le stock physique disponible est enregistré dans une commande fournisseur ou un ordre de fabrication, les articles mis sous contrôle sont déplacés automatiquement dans des entrepôts de contrôle dans Microsoft Dynamics 365 for Finance and Operations. Ce mouvement se produit car le statut de l'ordre de contrôle est changé en **Commencé**. Lorsque vous créez des ordres de contrôle manuellement, il n'est pas nécessaire que l'article actuel soit paramétré pour la gestion des contrôles dans le groupe de modèles d'article associé. Pour ce processus, vous devez spécifier le stock disponible qui doit être mis sous contrôle et l'entrepôt de contrôle qui doit être utilisé. Utilisez les statuts d'ordre de contrôle pour aider à planifier le processus.
 
 ## <a name="quarantine-order-statuses"></a>Statuts de l'ordre de contrôle
 Les ordres de contrôle peuvent avoir les statuts suivants :

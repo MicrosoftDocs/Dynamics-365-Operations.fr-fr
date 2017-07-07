@@ -1,16 +1,16 @@
 ---
 title: Inventaire tournant
-description: "Cet article décrit la manière dont vous pouvez utiliser l&quot;inventaire tournant associé à la solution de stockage disponible dans le module Gestion des entrepôts. Cet article ne s&quot;applique pas à la solution de stockage disponible dans la Gestion des stocks."
+description: "Cet article décrit la manière dont vous pouvez utiliser l'inventaire tournant associé à la solution de stockage disponible dans le module Gestion des entrepôts. Cet article ne s'applique pas à la solution de stockage disponible dans la Gestion des stocks."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WHSCycleCountPlan, WHSCycleCountPlanListPage, WHSCycleCountThreshold, WHSWorkTableListPage
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 50671
 ms.assetid: 49f5c431-b043-4170-aa24-b7d5d1ee063e
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 4446dfec1fa8eabb45e14b3f2ff685b3b1d68e2c
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: ebc7789d7b0be5db4a0faf4309bc3640f51956c6
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -36,7 +36,7 @@ Cet article décrit la manière dont vous pouvez utiliser l'inventaire tournant 
 L'inventaire tournant est un processus d'entrepôt qui permet d'auditer les articles en stock disponibles. Le processus d'inventaire tournant peut être décrit en trois étapes :
 
 1.  **Créer un travail d'inventaire tournant** – Un travail d'inventaire tournant peut être créé automatiquement en fonction des paramètres de seuil pour des articles ou à l'aide d'un plan d'inventaire tournant. Vous pouvez également créer manuellement un travail d'inventaire tournant en utilisant les paramètres de l'article ou de l'entrepôt dans la page **Travail d'inventaire tournant par article** ou la page **Travail d'inventaire tournant par emplacement**.
-2.  **Traiter l'inventaire tournant** – Après avoir créé le travail d'inventaire tournant, vous effectuez le travail d'inventaire tournant en comptant les articles dans un emplacement d'entrepôt puis vous utilisez un appareil mobile pour entrer le résultat dans Microsoft Dynamics 365 for Operations. Sinon, vous pouvez compter les articles dans un emplacement d'entrepôt sans créer de travail d'inventaire tournant. Ce processus est également appelé *inventaire tournant ponctuel*.
+2.  **Traiter l'inventaire tournant** – Après avoir créé le travail d'inventaire tournant, vous effectuez le travail d'inventaire tournant en comptant les articles dans un emplacement d'entrepôt puis vous utilisez un appareil mobile pour entrer le résultat dans Microsoft Dynamics 365 for Finance and Operations. Sinon, vous pouvez compter les articles dans un emplacement d'entrepôt sans créer de travail d'inventaire tournant. Ce processus est également appelé *inventaire tournant ponctuel*.
 3.  **Corriger des différences dans la valeur comptabilisée** – Après la réalisation d'un inventaire tournant, les articles présentant des différences au niveau de la valeur comptabilisée ont un statut de travail de **Révision en attente** dans la page **Tout le travail**. Vous pouvez résoudre ces différences dans la page **Révision en attente de travail d'inventaire tournant**.
 
 L'illustration suivante indique comment effectuer le processus d'inventaire tournant. ![Flux de processus pour l'inventaire tournant](./media/performcyclecountinginawarehouselocation.jpg)
@@ -115,10 +115,10 @@ Vous pouvez programmer des plans d'inventaire tournant pour créer le travail d'
 Pour créer manuellement un cycle d'inventaire tournant, utilisez les pages **Inventaire tournant par article** ou **Travail d'inventaire tournant par emplacement**. Vous pouvez spécifier le nombre maximal d'inventaires tournants à créer. Par exemple, si le responsable d'entrepôt spécifie une valeur de **5**, alors le travail d'inventaire tournant est créé pour cinq emplacements, même si l'article est présent dans 10 emplacements. Vous pouvez également choisir un ID de pool de travail auquel attribuer les ID de travail d'inventaire tournant créés. Lorsqu'un ID de pool de travail est traité pour l'inventaire tournant, les ID de travail d'inventaire tournant qui sont affectés au pool de travail sont traités comme un groupe.
 
 ## <a name="perform-a-cycle-count-by-using-a-mobile-device"></a>Effectuer un inventaire tournant en utilisant un appareil mobile
-Il existe plusieurs méthodes pour traiter un travail d'inventaire tournant à l'aide de Microsoft Dynamics 365 for Operations sur un appareil mobile :
+Il existe plusieurs méthodes pour traiter un travail d'inventaire tournant à l'aide de Finance and Operations sur un appareil mobile :
 
 -   **Dirigé par l'utilisateur** – Le collaborateur peut préciser un ID de travail d'inventaire tournant qui a le statut **Ouvert**.
--   **Dirigé par le système** – Dynamics 365 for Operations attribue un ID de travail d'inventaire au collaborateur.
+-   **Dirigé par le système** – Finance and Operations attribue un ID de travail d'inventaire au collaborateur.
 -   **Regroupement d'inventaires tournants** – Le collaborateur peut regrouper plusieurs ID de travail d'inventaire tournant qui sont spécifiques à un emplacement, à une zone ou à un pool de travail.
 -   **Inventaire tournant ponctuel** – Le collaborateur peut compter les articles dans un emplacement d'entrepôt à tout moment, sans créer de travail d'inventaire tournant. Pour effectuer l'inventaire tournant ponctuel dans un emplacement, le travailleur entre l'ID de l'emplacement.
 

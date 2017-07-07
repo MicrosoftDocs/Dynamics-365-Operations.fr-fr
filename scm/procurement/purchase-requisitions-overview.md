@@ -1,16 +1,16 @@
 ---
-title: "Présentation des demandes d&quot;achat"
-description: "Cet article décrit le workflow de demande d&quot;achat et les différents statuts qu&quot;une demande d&quot;achat peut avoir."
+title: "Présentation des demandes d'achat"
+description: "Cet article décrit le workflow de demande d'achat et les différents statuts qu'une demande d'achat peut avoir."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 2174
 ms.assetid: 77d07119-4d9f-4c0e-acbe-d319203571ab
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 38e7fba3fbd12de3a1cd9ac7b1c627834978ba30
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 8c60d870d0ca178af84919e5ebaaa13769b46f8a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -40,7 +40,7 @@ Une fois la demande d'achat approuvée, vous pouvez l'utiliser pour créer une c
 ## <a name="creating-purchase-requisitions"></a>Création de demandes d'achat
 Vous pouvez créer une demande d'achat sur la page **Mes demandes d'achat**, et sélectionner les articles et les services dont vous avez besoin. Vous pouvez sélectionner des articles dans un catalogue d'approvisionnement créé par votre organisation, ou demander des articles ne faisant pas partie d'un catalogue, en sélectionnant une catégorie d'approvisionnement et en entrant les détails de ces produits.  
 
-Avant qu'une demande d'achat puisse être soumise à la révision, le workflow doit être configuré dans le client Microsoft Dynamics 365 for Operations. Vous utilisez le système de workflow pour déplacer une demande d'achat via le processus de révision, depuis le statut initial **Brouillon** vers le statut final **Approbation**.
+Avant qu'une demande d'achat puisse être soumise à la révision, le workflow doit être configuré dans le client Microsoft Dynamics 365 for Finance and Operations. Vous utilisez le système de workflow pour déplacer une demande d'achat via le processus de révision, depuis le statut initial **Brouillon** vers le statut final **Approbation**.
 
 ### <a name="purchase-requisition-statuses"></a>Statuts des demandes d'achat
 
@@ -143,7 +143,7 @@ Dans les stratégies d'approvisionnement, vous pouvez contrôler les objectifs d
 
 ### <a name="requisitions-that-have-a-purpose-of-consumption"></a>Demandes ayant un objectif de consommation
 
-Une demande avec un objectif de consommation représente une demande pour des articles ou des services qui seront utilisés en interne par votre organisation. La demande créée par ce type de demande est toujours satisfaite par une commande fournisseur. Si Microsoft Dynamics 365 for Operations n'est pas configuré pour générer automatiquement les commandes fournisseur, ces commandes doivent être créées automatiquement après l'approbation de la demande d'achat.
+Une demande avec un objectif de consommation représente une demande pour des articles ou des services qui seront utilisés en interne par votre organisation. La demande créée par ce type de demande est toujours satisfaite par une commande fournisseur. Si Microsoft Dynamics 365 for Finance and Operations n'est pas configuré pour générer automatiquement les commandes fournisseur, ces commandes doivent être créées automatiquement après l'approbation de la demande d'achat.
 
 ### <a name="requisitions-that-have-a-purpose-of-replenishment"></a>Demandes ayant un objectif de réapprovisionnement
 

@@ -1,15 +1,15 @@
 ---
-title: "Page d&quot;accueil du contrôle de gestion"
-description: "Cette rubrique fournit une liste des rubriques d&quot;aide et d&quot;autres ressources disponibles pour le contrôle de gestion."
+title: "Page d'accueil du contrôle de gestion"
+description: "Cette rubrique fournit une liste des rubriques d'aide et d'autres ressources disponibles pour le contrôle de gestion."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 256254
 ms.assetid: e1b0a6e3-0c72-4a7d-90e1-20f870c6dbad
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bcbf755c7adb3589ca0fa5242589f1aae3ef6e1b
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 4514c6dbf014720c29e79889bf1fcc0efd6cd3ec
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -50,7 +50,7 @@ Le module Contrôle de gestion vous permet d'effectuer les opérations suivantes
 
 ## <a name="get-started"></a>Mise en route
 
-Les ateliers pratiques du module Contrôle de gestion fournissent les étapes de base pour configurer Microsoft Dynamics 365 for Operations – Contrôle de gestion afin d'analyser le coût réel. Ils fournissent également une série de procédures que vous pouvez exécuter dans leur ordre d'affichage.
+Les ateliers pratiques du module Contrôle de gestion fournissent les étapes de base pour configurer Microsoft Dynamics 365 for Finance and Operations, Enterprise edition – Contrôle de gestion afin d'analyser le coût réel. Ils fournissent également une série de procédures que vous pouvez exécuter dans leur ordre d'affichage.
 
 -   [Mise en route du contrôle de gestion](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc) (livre blanc et nécessite un compte CustomerSource)
 
@@ -69,10 +69,10 @@ Avec l'espace de travail mobile Contrôle des coûts, les responsables des centr
 -   [Espace de travail mobile Contrôle des coûts](cost-controlling-mobile-workspace.md)
 
 ## <a name="cost-accounting-analysis-power-bi-content"></a>Contenu Power BI d'analyse du contrôle de gestion
-Le contenu Microsoft Power BI Analyse du contrôle de gestion est destiné aux contrôleurs de coûts ou à toute personne chargée de contrôler les coûts d'une organisation. Il inclut les mesures clés, telles que le coût, la magnitude et le taux de coût par coût réel, coût budgétaire et coût budgétaire flexible. Il utilise les données de transaction du contrôle de gestion dans Microsoft Dynamics 365 for Operations et fournit une vue globale des coûts pour l'ensemble de l'organisation dans une devise de déclaration. Les responsables peuvent filtrer les données par objet de coût pour contrôler les coûts de leurs unités d'organisation, même si l'organisation peut avoir plusieurs entités juridiques.
+Le contenu Microsoft Power BI Analyse du contrôle de gestion est destiné aux contrôleurs de coûts ou à toute personne chargée de contrôler les coûts d'une organisation. Il inclut les mesures clés, telles que le coût, la magnitude et le taux de coût par coût réel, coût budgétaire et coût budgétaire flexible. Il utilise les données de transaction du contrôle de gestion dans Finance and Operations et fournit une vue globale des coûts pour l'ensemble de l'organisation dans une devise de déclaration. Les responsables peuvent filtrer les données par objet de coût pour contrôler les coûts de leurs unités d'organisation, même si l'organisation peut avoir plusieurs entités juridiques.
 
--   [Contenu Power BI d'analyse du contrôle de gestion](/dynamics365/operations/dev-itpro/analytics/cost-accounting-analysis-content-pack)
--   [Paramétrer la sécurité du contenu Power BI d'analyse du contrôle de gestion](/dynamics365/operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
+-   [Contenu Power BI d'analyse du contrôle de gestion](/dynamics365/unified-operations/dev-itpro/analytics/cost-accounting-analysis-content-pack)
+-   [Paramétrer la sécurité du contenu Power BI d'analyse du contrôle de gestion](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
 
 
 

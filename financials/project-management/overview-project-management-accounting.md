@@ -3,24 +3,24 @@ title: "Gestion et comptabilité des projets"
 description: "La fonctionnalité de gestion de projets et de comptabilité peut être utilisée dans plusieurs secteurs pour fournir un service, fabriquer un produit, ou atteindre résultat."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
-ms.author: kfend
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1a6235f36af6dfb2f4164405d384f13a7c1cde06
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 12afcde947463b3abf58dea6138653a32dcda6f1
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -37,7 +37,7 @@ Un projet est un groupe d'activités qui est conçu pour fournir un service, fab
 ## <a name="projects-across-industries"></a>Projets couvrant plusieurs secteurs
 La fonctionnalité de gestion de projets et de comptabilité peut être utilisée dans plusieurs secteurs d'activité, comme le montre l'illustration suivante. [![Projets couvrant plusieurs secteurs](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
-Dans un centre d'appels, un ticket peut être utilisé pour décrire l'ensemble des actions requises pour résoudre un appel. Les sociétés de conseil, telles que les sociétés de gestion ou de consultance techniques ou les agences de publicité, désignent leurs activités comme des projets. En marketing, une campagne représente un ensemble de travail qui doit être livré. Dans la fabrication basée sur projet, un ordre de fabrication se rapporte à l'ensemble du travail varié qui doit être effectué pour produire des produits finis donnés. Quelque soit le nom que l'on emploie, ces projets impliquent des ressources, des programmes et des coûts, et la fonctionnalité de gestion de projets et de comptabilité dans Microsoft Dynamics 365 for Operations peut aider à organiser, exécuter et analyser ces projets.
+Dans un centre d'appels, un ticket peut être utilisé pour décrire l'ensemble des actions requises pour résoudre un appel. Les sociétés de conseil, telles que les sociétés de gestion ou de consultance techniques ou les agences de publicité, désignent leurs activités comme des projets. En marketing, une campagne représente un ensemble de travail qui doit être livré. Dans la fabrication basée sur projet, un ordre de fabrication se rapporte à l'ensemble du travail varié qui doit être effectué pour produire des produits finis donnés. Quelque soit le nom que l'on emploie, ces projets impliquent des ressources, des programmes et des coûts, et la fonctionnalité de gestion de projets et de comptabilité dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition peut aider à organiser, exécuter et analyser ces projets.
 
 ## <a name="project-phases"></a>Projet de projet
 Bien que le flux de processus suivant concerne des projets externes, ou des projets terminés pour un ou plusieurs clients, la fonctionnalité s'applique également aux projets internes et aux projets à coût uniquement. 
@@ -75,11 +75,11 @@ Pour plus d'informations, voir [Structures de répartition du travail](work-brea
 
 ### <a name="create-project-forecasts-and-budgets"></a>Création des prévisions de projet et des budgets de projet
 
-Vous pouvez utiliser la prévision si votre organisation a une perspective opérationnelle orientée sur les produits et les coûts qui sont dérivés des transactions spécifiques. Toutefois, vous pouvez utiliser la budgétisation si votre organisation s'oriente plus sur les montants financiers. Chaque méthode a ses avantages. Pour plus d'informations, consultez[Prévisions et budgets de projet](project-forecasts-budgets.mdhttps:/ax.help.dynamics.com/en/wiki/project-forecasts-and-budgets/).
+Vous pouvez utiliser la prévision si votre organisation a une perspective opérationnelle orientée sur les produits et les coûts qui sont dérivés des transactions spécifiques. Toutefois, vous pouvez utiliser la budgétisation si votre organisation s'oriente plus sur les montants financiers. Chaque méthode a ses avantages. Pour plus d'informations, consultez[Prévisions et budgets de projet](project-forecasts-budgets.md).
 
 ### <a name="create-projects"></a>Créer des projets
 
-Vous pouvez créer six types de projets dans Microsoft Dynamics 365 for Operations. Chaque type de projet est paramétré différemment pour les coûts et la constatation du produit. La sélection d'un type de projet dépend de l'objectif du projet. Le tableau suivant décrit l'utilisation typique de chaque type de projet.
+Vous pouvez créer six types de projets dans Microsoft Finance and Operations. Chaque type de projet est paramétré différemment pour les coûts et la constatation du produit. La sélection d'un type de projet dépend de l'objectif du projet. Le tableau suivant décrit l'utilisation typique de chaque type de projet.
 
                                                                                                                                                                          |
 | Type de projet      | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -118,7 +118,7 @@ Pour plus d'informations, voir [Structures de répartition du travail](work-brea
 
 Il existe deux méthodes permettant de gérer et de contrôler vos projets : les prévisions de projet et les budgets de projet. Vous pouvez utiliser la prévision si votre organisation a une perspective opérationnelle orientée sur les produits et les coûts qui sont dérivés des transactions spécifiques. Toutefois, vous pouvez utiliser la budgétisation si votre organisation s'oriente plus sur les montants financiers.
 
-Pour plus d'informations, consultez[Prévisions et budgets de projet](project-forecasts-budgets.mdhttps:/ax.help.dynamics.com/en/wiki/project-forecasts-and-budgets/).
+Pour plus d'informations, consultez[Prévisions et budgets de projet](project-forecasts-budgets.md).
 
 ### <a name="create-production-orders"></a>Créer des ordres de fabrication
 
@@ -228,7 +228,7 @@ Le tableau suivant décrit les méthodes de calcul du coût à terminer du proje
 <tbody>
 <tr class="odd">
 <td>Coût total – Réel</td>
-<td>Les coûts estimés doivent être entrés manuellement. Une fois que la colonne <strong>Coût total</strong> ou <strong>Quantité totale</strong> de la page <strong>Estimation des coûts </strong>est remplie, les coûts réels sont soustraits des totaux entrés par l'utilisateur. Le résultat est le coût à terminer du projet. En général, la progression des coûts n'est pas suivie selon, par exemple, le nombre de séjours à l'hôtel et de repas enregistrés dans chaque période. Au lieu de cela, le suivi est généralement basé sur une comparaison par rapport au montant total d'heures estimées. Cette approche ne nécessite pas de modèle de prévision, et le coût total ou la quantité totale peut être modifiée manuellement. Lorsqu'une valeur est entrée dans la colonne <strong>Coût total</strong> ou <strong>Quantité totale</strong>, Microsoft Dynamics 365 for Operations compare cette valeur aux transactions réelles validées dans la période, puis diminue la valeur dans la colonne <strong>Quantité à atteindre</strong> ou <strong>Coût à terminer</strong>.</td>
+<td>Les coûts estimés doivent être entrés manuellement. Une fois que la colonne <strong>Coût total</strong> ou <strong>Quantité totale</strong> de la page <strong>Estimation des coûts </strong>est remplie, les coûts réels sont soustraits des totaux entrés par l'utilisateur. Le résultat est le coût à terminer du projet. En général, la progression des coûts n'est pas suivie selon, par exemple, le nombre de séjours à l'hôtel et de repas enregistrés dans chaque période. Au lieu de cela, le suivi est généralement basé sur une comparaison par rapport au montant total d'heures estimées. Cette approche ne nécessite pas de modèle de prévision, et le coût total ou la quantité totale peut être modifiée manuellement. Lorsqu'une valeur est entrée dans la colonne <strong>Coût total</strong> ou <strong>Quantité totale</strong>, Finance and Operations compare cette valeur aux transactions réelles validées dans la période, puis diminue la valeur dans la colonne <strong>Quantité à atteindre</strong> ou <strong>Coût à terminer</strong>.</td>
 </tr>
 <tr class="even">
 <td>Budget total – Réel</td>
@@ -238,7 +238,7 @@ Le tableau suivant décrit les méthodes de calcul du coût à terminer du proje
 <li>Comparez les transactions de prévision avec les transactions réelles.</li>
 <li>Mettez à jour, soustrayez ou additionnez les estimations pour la période suivante.</li>
 </ol>
-Microsoft Dynamics 365 for Operations ne pas diminue automatiquement les estimations prévues. Par conséquent, il est judicieux de tenir à jour un modèle de prévision d'origine pour le projet à prix fixe afin d'établir une ligne de base pour comparaison une fois le projet terminé. 
+Finance and Operations ne diminue pas automatiquement les estimations prévues. Par conséquent, il est judicieux de tenir à jour un modèle de prévision d'origine pour le projet à prix fixe afin d'établir une ligne de base pour comparaison une fois le projet terminé. 
 > [!NOTE] utilisez au moins deux modèles de prévision lorsque vous appliquez cette approche. Un modèle doit contenir la prévision d'origine. Pour l'autre modèle, vous devez copier les transactions de prévision d'un autre modèle. Cette méthode est valide uniquement pour les projets à prix fixe ou d'investissement.</td>
 > </tr>
 <tr class="odd">
@@ -316,7 +316,7 @@ Selon ces paramètres, voici la date de paiement des coûts pour chaque type de 
 
 La date de paiement des coûts n'est pas calculée en fonction des jours intermédiaires. Une fois qu'un projet est terminé, quand l'évaluation des coûts et la facturation sont terminées, le coût et les ventes sont validés sur les comptes de résultat. 
 
-Lorsque toutes les ventes et factures fournisseur sont terminées, vous pouvez afficher la relation entre les champs dans la page **Flux de trésorerie**la page et les champs de la page **Statistiques du projet**.
+Lorsque toutes les ventes et factures fournisseur sont terminées, vous pouvez afficher la relation entre les champs dans la page **Flux de trésorerie** la page et les champs de la page **Statistiques du projet**.
 
 | Page des flux de trésorerie | Page des statistiques du projet |
 |----------------|-------------------------|
@@ -333,7 +333,7 @@ Vous pouvez utiliser la page **Contrôle des coûts** pour surveiller les coûts
 
 #### <a name="viewing-the-remaining-budgeted-amounts"></a>Affichage des montants budgétés restants
 
-Si **Budget restant**est sélectionné comme méthode de contrôle des coûts dans la page **Paramètres de gestion de projets et comptabilité**, la page **Contrôle des coûts** calcule les coûts qui n'ont pas été validés comme réels ou marqués comme engagés. En particulier, les montants indiqués dans l'onglet **Général** du volet inférieur de la page **Contrôle des coûts** sont calculés comme suit :
+Si **Budget restant** est sélectionné comme méthode de contrôle des coûts dans la page **Paramètres de gestion de projets et comptabilité**, la page **Contrôle des coûts** calcule les coûts qui n'ont pas été validés comme réels ou marqués comme engagés. En particulier, les montants indiqués dans l'onglet **Général** du volet inférieur de la page **Contrôle des coûts** sont calculés comme suit :
 
 -   **Coût réel** – Montant total dépensé pour le projet pour la ligne de coût sélectionnée. Le montant du coût réel est calculé dans la page **Mises à jour comptables**.
 -   **Coût engagé** – Montant supplémentaire de dépenses que l'entité juridique s'est engagée à payer. Les montants spécifiques des coûts engagés sont calculés dans la page **Coûts engagés**.
@@ -394,14 +394,14 @@ Lorsque vous calculez le taux d'utilisation d'un travailleur, vous pouvez utilis
 
 ### <a name="review-project-statements"></a>Examiner les statistiques du projet
 
-Vous pouvez créer des statistiques de projet pour afficher un instantané rapide de la progression d'un projet. Lorsque vous exécutez les statistiques d'un projet, vous pouvez préciser les critères utilisés pour calculer les statistiques de projet en faisant des sélections sous l'onglet **Général**de la page **Statistiques de projet**. Vous pouvez choisir d'inclure ou d'exclure les informations suivantes :
+Vous pouvez créer des statistiques de projet pour afficher un instantané rapide de la progression d'un projet. Lorsque vous exécutez les statistiques d'un projet, vous pouvez préciser les critères utilisés pour calculer les statistiques de projet en faisant des sélections sous l'onglet **Général** de la page **Statistiques de projet**. Vous pouvez choisir d'inclure ou d'exclure les informations suivantes :
 
 -   Types de projets
 -   Types de transactions
 -   Date de projet/Date de comptabilité
 -   Données
 
-Une fois que les statistiques sont calculées, vous pouvez afficher les informations suivantes dans les différents onglets de la page**Statistiques de projet** :
+Une fois que les statistiques sont calculées, vous pouvez afficher les informations suivantes dans les différents onglets de la page **Statistiques de projet** :
 
 -   **Général** – Informations générales sur la structure de résultat de base du projet.
 -   **Résultat** – Informations sur le produit à recevoir.

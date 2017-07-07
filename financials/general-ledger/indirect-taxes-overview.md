@@ -1,9 +1,9 @@
 ---
-title: Vue d&quot;ensemble de la taxe
-description: "Cet article offre une vue d&quot;ensemble du système de taxes. Il explique les éléments du paramétrage de la taxe et comment ils fonctionnent ensemble."
+title: Vue d'ensemble de la taxe
+description: "Cet article offre une vue d'ensemble du système de taxes. Il explique les éléments du paramétrage de la taxe et comment ils fonctionnent ensemble."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: TaxAuthority, TaxPeriod, TaxTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 13111
 ms.assetid: fe5fdc7f-9834-49fb-a611-1dd9c289619d
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bdb3188f533cf0cdb1e70c63891408e45d02418d
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 415928125c14dfc69020b712f281835701ba2f83
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,6 +30,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="sales-tax-overview"></a>Vue d'ensemble de la taxe
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 Cet article offre une vue d'ensemble du système de taxes. Il explique les éléments du paramétrage de la taxe et comment ils fonctionnent ensemble.
@@ -73,7 +75,7 @@ Sur chaque transaction (ventes/lignes de document d'achat, journaux, etc.), vous
 Sur chaque transaction, vous pouvez rechercher la taxe calculée en ouvrant la page **Transaction de taxe**. Vous pouvez rechercher la taxe pour une ligne de document ou pour l'intégralité du document. Pour certains documents (par exemple, factures fournisseur et journaux des opérations diverses), vous pouvez ajuster la taxe calculée si le document d'origine présente des écarts de montants.
 
 ## <a name="sales-tax-settlement-and-reporting"></a>Règlement et déclaration de la taxe
-La taxe doit être déclarée et payée à l'administration fiscale à intervalles réglementés (mensuels, trimestriels, etc.). Microsoft Dynamics 365 for Operations offre une fonctionnalité qui vous permet de régler les comptes de taxe pour l'intervalle et de compenser les soldes dans le compte de règlement de la taxe, tel que cela est spécifié dans les groupes de validation dans la comptabilité. Vous pouvez accéder à cette fonctionnalité depuis la page **Régler et valider la taxe**. Vous devez spécifier la période de règlement à laquelle la taxe doit être réglée. 
+La taxe doit être déclarée et payée à l'administration fiscale à intervalles réglementés (mensuels, trimestriels, etc.). Microsoft Dynamics 365 for Finance and Operations, Enterprise edition offre une fonctionnalité qui vous permet de régler les comptes de taxe pour l'intervalle et de compenser les soldes dans le compte de règlement de la taxe, tel que cela est spécifié dans les groupes de validation dans la comptabilité. Vous pouvez accéder à cette fonctionnalité depuis la page **Régler et valider la taxe**. Vous devez spécifier la période de règlement à laquelle la taxe doit être réglée. 
 
 Une fois la taxe payée, le solde du compte de règlement de la taxe doit être équilibré par rapport au compte bancaire. Si l'administration fiscale spécifiée pour la période de règlement de la taxe est liée à un compte fournisseur, le solde de taxe est validé en tant que facture fournisseur en cours et peut être inclus dans la proposition de paiement régulière.
 

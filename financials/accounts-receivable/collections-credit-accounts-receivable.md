@@ -1,9 +1,9 @@
 ---
 title: "Crédit et recouvrements dans la Comptabilité client"
-description: "Les informations de recouvrement de la Comptabilité client sont gérées dans une vue centrale unique qui utilise la page Recouvrements de Microsoft Dynamics 365 for Operations. Les directeurs des crédits et perceptions peuvent utiliser cette vue centrale pour gérer les recouvrements. Les agents de recouvrement peuvent lancer le processus de recouvrement soit à partir des listes de clients générées à l&quot;aide de critères de recouvrement prédéfinis, soit à partir de la page Clients."
+description: "Les informations de recouvrement de la Comptabilité client sont gérées dans une vue centrale unique qui utilise la page Recouvrements de Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Les directeurs des crédits et perceptions peuvent utiliser cette vue centrale pour gérer les recouvrements. Les agents de recouvrement peuvent lancer le processus de recouvrement soit à partir des listes de clients générées à l'aide de critères de recouvrement prédéfinis, soit à partir de la page Clients."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustAgingSnapshot, CustBankAccounts, CustCollections, CustCollectionsActivitiesListPage, CustCollectionsAgent, CustCollectionsCaseListPage, CustCollectionsPool, CustCollectionsPoolsListPage, CustTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 3061
 ms.assetid: fd851520-8d93-434b-845b-be127d6ac3a6
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: mfalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 74f671a35fa1dbeeb120fe968b1bcc09868f57d5
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 49bc7ca4e5fff4c2686a8b7396d5bd2bcdd0c51a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Les informations de recouvrement de la Comptabilité client sont gérées dans une vue centrale unique qui utilise la page Recouvrements de Microsoft Dynamics 365 for Operations. Les directeurs des crédits et perceptions peuvent utiliser cette vue centrale pour gérer les recouvrements. Les agents de recouvrement peuvent lancer le processus de recouvrement soit à partir des listes de clients générées à l'aide de critères de recouvrement prédéfinis, soit à partir de la page Clients.
+Les informations de recouvrement de la Comptabilité client sont gérées dans une vue centrale unique qui utilise la page Finance and Operations. Les directeurs des crédits et perceptions peuvent utiliser cette vue centrale pour gérer les recouvrements. Les agents de recouvrement peuvent lancer le processus de recouvrement soit à partir des listes de clients générées à l'aide de critères de recouvrement prédéfinis, soit à partir de la page Clients.
 
 Avant de commencer à paramétrer ou utiliser des recouvrements, vous devez comprendre les concepts suivants :
 -   Les instantanés de balance âgée des clients contiennent des informations sur les balances âgées à un moment donné
@@ -59,9 +59,9 @@ Pour chaque plage âgée de la définition de plage âgée, un enregistrement d�
 Les regroupements de clients sont des requêtes qui définissent un groupe d'enregistrements client qui peuvent être affichés et gérés pour les processus liés aux recouvrements ou balances âgées. Les regroupements de clients permettent de filtrer des informations dans les pages de liste Soldes chronologiques, Activités de recouvrement et Dossiers de recouvrement. Vous pouvez également utiliser les regroupements de clients pour filtrer les comptes client inclus lors de la création des instantanés de balance âgée.
 
 ## <a name="collections-agents"></a>Agents de recouvrement
-Par défaut, les utilisateurs de Microsoft Dynamics 365 for Operations peuvent afficher toutes les informations client dans les pages de liste de recouvrement. Les enregistrements d'agents de recouvrement permettent de déterminer les regroupements de clients disponibles pour filtrer les informations dans les pages de liste de recouvrement et sur la page Recouvrements. 
+Par défaut, les utilisateurs de Microsoft Dynamics 365 for Finance and Operations peuvent afficher toutes les informations client dans les pages de liste de recouvrement. Les enregistrements d'agents de recouvrement permettent de déterminer les regroupements de clients disponibles pour filtrer les informations dans les pages de liste de recouvrement et sur la page Recouvrements. 
 
-Un agent de recouvrement est une personne qui travaille avec les clients pour s'assurer que les paiements sont collectés en temps voulu. Dans Microsoft Dynamics 365 for Operations, les agents de recouvrement sont des collaborateurs paramétrés en tant qu'utilisateurs dans la page Paramétrage utilisateur.
+Un agent de recouvrement est une personne qui travaille avec les clients pour s'assurer que les paiements sont collectés en temps voulu. Dans Finance and Operations, les agents de recouvrement sont des collaborateurs paramétrés en tant qu'utilisateurs dans la page Paramétrage utilisateur.
 
 ## <a name="collections-list-pages"></a> Pages de liste Recouvrements 
 Les pages de liste suivantes permettent d'organiser les informations de recouvrement.
@@ -71,7 +71,7 @@ Les pages de liste suivantes permettent d'organiser les informations de recouvre
 
 > [!NOTE]
 > Vous devez créer un instantané de balance âgée avant d'afficher des informations dans ces pages de liste. Les informations sont affichées seulement pour les clients pour lesquels un instantané de balance âgée a été créé. Les enregistrements affichés sur la page de liste peuvent être filtrés comme suit :
-<li>Par défaut, un utilisateur de Microsoft Dynamics 365 for Operations a accès à tous les clients associés à un instantané de balance âgée.</li>
+<li>Par défaut, un utilisateur de Finance and Operations a accès à tous les clients associés à un instantané de balance âgée.</li>
 <li>Si des regroupements de clients existent, un utilisateur doit être paramétré en tant qu'agent de recouvrement pour les utiliser afin de filtrer les informations des pages de liste de recouvrement. Les informations sont limitées aux clients inclus dans le regroupement de clients sélectionné.</li>
 <li>Si un utilisateur est paramétré en tant qu'agent de recouvrement, seuls les regroupements sélectionnés pour celui-ci sont disponibles dans la page de liste. Si l'option Autoriser l'agent à voir tous les regroupements de clients est sélectionnée sur la page Agent de recouvrement pour l'agent de recouvrement, tous les regroupements sont disponibles pour celui-ci.</li>
 

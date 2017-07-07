@@ -1,27 +1,29 @@
 ---
-title: "Gestion d&quot;équipe et de tiroir-caisse"
-description: "Cet article explique comment configurer et utiliser les deux types d&quot;équipes de travail de point de vente au détail (PDV) - partagée et autonome. Les équipes de travail partagées peuvent être utilisées par plusieurs utilisateurs à plusieurs endroits, alors que les équipes de travail autonomes peuvent être utilisées par un seul collaborateur à la fois."
+title: "Gestion d'équipe et de tiroir-caisse"
+description: "Cet article explique comment configurer et utiliser les deux types d'équipes de travail de point de vente au détail (PDV) - partagée et autonome. Les équipes de travail partagées peuvent être utilisées par plusieurs utilisateurs à plusieurs endroits, alors que les équipes de travail autonomes peuvent être utilisées par un seul collaborateur à la fois."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 105011
 ms.assetid: 49a0fcc9-d4db-45ad-8c4b-213ccaced82b
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e49d7d931b0796e4d62065793e7e79745c816682
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 0d5e05e8f1edcc01af985c25459d93de0bc2acf1
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -42,15 +44,15 @@ Les équipes autonomes sont utilisées dans un scénario de PDV traditionnel fix
 
 Une équipe autonome est désignée au niveau du tiroir-caisse. Cette procédure explique comment définir une équipe autonome sur une caisse enregistreuse de PDV.
 
-1.  Cliquez sur **Commerce et vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage POS** &gt; **Profils POS** &gt; **Profils matériels**.
+1.  Cliquez sur **Vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage POS** &gt; **Profils POS** &gt; **Profils du matériel**.
 2.  Sélectionnez le profil matériel à utiliser pour l’équipe autonome.
 3.  Sur l'organisateur **Tiroir**, confirmez que l'option **Tiroir-caisse partagé par l'équipe de travail** est définie sur **Non**.
 4.  Cliquez sur **Enregistrer**.
-5.  Cliquez sur **Commerce et vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage du PDV** &gt; **Registres**.
+5.  Cliquez sur **Vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage POS** &gt; **Caisses enregistreuses**.
 6.  Sélectionnez la caisse enregistreuse nécessitant une équipe autonome, puis cliquez sur **Modifier**.
 7.  Dans le champ **Profil matériel**, sélectionnez le profil matériel que vous avez sélectionné à l’étape 2.
 8.  Cliquez sur **Enregistrer**.
-9.  Cliquez sur **Commerce et vente au détail** &gt; **Informatique de vente au détail** &gt; **Programme de distribution**.
+9.  Cliquez sur **Vente au détail** &gt; **Informatique de vente au détail** &gt; **Programme de distribution**.
 10. Sélectionnez le programme de distribution **1090**, puis cliquez sur **Exécuter maintenant** pour synchroniser les modifications apportées au PDV.
 
 ### <a name="use-a-stand-alone-shift"></a>Utiliser une équipe autonome
@@ -70,15 +72,15 @@ Une équipe partagée est utilisée dans un environnement où plusieurs caissier
 
 ### <a name="set-up-a-shared-shift"></a>Configuration d'une équipe partagée
 
-1.  Cliquez sur **Commerce et vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage POS** &gt; **Profils POS** &gt; **Profils matériels**.
+1.  Cliquez sur **Vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage POS** &gt; **Profils POS** &gt; **Profils du matériel**.
 2.  Sélectionnez le profil matériel à utiliser pour l’équipe partagée.
 3.  Sur l'organisateur **Tiroir**, définissez l'option **Tiroir-caisse partagé par l'équipe de travail** sur **Oui**.
 4.  Cliquez sur **Enregistrer**.
-5.  Cliquez sur **Commerce et vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage du PDV** &gt; **Registres**.
+5.  Cliquez sur **Vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage POS** &gt; **Caisses enregistreuses**.
 6.  Sélectionnez la caisse enregistreuse nécessitant une équipe partagée, puis cliquez sur **Modifier**.
 7.  Dans le champ **Profil matériel**, sélectionnez le profil matériel que vous avez sélectionné à l’étape 2.
 8.  Cliquez sur **Enregistrer**.
-9.  Cliquez sur **Commerce et vente au détail** &gt; **Informatique de vente au détail** &gt; **Programme de distribution**.
+9.  Cliquez sur **Vente au détail** &gt; **Informatique de vente au détail** &gt; **Programme de distribution**.
 10. Sélectionnez le programme de distribution **1090**, puis cliquez sur **Exécuter maintenant** pour synchroniser les modifications apportées au PDV.
 
 ### <a name="use-a-shared-shift"></a>Utiliser une équipe de travail partagée
@@ -89,7 +91,7 @@ Une équipe partagée est utilisée dans un environnement où plusieurs caissier
 4.  Sélectionnez **Créer une équipe**.
 5.  Sélectionnez **Déclarer le montant de départ**.
 6.  Entrez le montant de départ de tous les tiroirs-caisses dans le magasin qui font partie de l’équipe partagée, puis cliquez sur **Enregistrer**.
-    -   Pour ajouter la partie de la quantité de départ de chaque tiroir-caisse suivant, utilisez l'opération **Sélectionner une station matérielle**pour activer la station matérielle.
+    -   Pour ajouter la partie de la quantité de départ de chaque tiroir-caisse suivant, utilisez l'opération **Sélectionner une station matérielle** pour activer la station matérielle.
     -   Pour ajouter tiroir-caisse à une caisse enregistreuse spécifique, utilisez l'opération **Ouvrir tiroir-caisse**.
     -   Continuez jusqu'à ce que toutes les caisses enregistreuses de l’équipe de travail partagée aient leur part de la quantité de départ.
 

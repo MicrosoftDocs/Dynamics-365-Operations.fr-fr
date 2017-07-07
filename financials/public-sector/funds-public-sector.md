@@ -1,9 +1,9 @@
 ---
 title: Fonds dans le secteur public
-description: "Un fonds est un ensemble de registres financiers en équilibre qui permet de contrôler et de surveiller l&quot;utilisation planifiée de ressources, souvent pour se conformer aux exigences légales et administratives. Les organisations du secteur public se servent des fonds pour attester de leur responsabilité financière."
+description: "Un fonds est un ensemble de registres financiers en équilibre qui permet de contrôler et de surveiller l'utilisation planifiée de ressources, souvent pour se conformer aux exigences légales et administratives. Les organisations du secteur public se servent des fonds pour attester de leur responsabilité financière."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: LedgerFund, LedgerFundType
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 19571
 ms.assetid: c746c09f-dc9e-4381-ae92-e1af484064b6
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ecf97c1d826556e0902539c3f65571269017da11
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 21d610c169878b156aeefe1d20bd6ea183deae79
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -55,11 +55,11 @@ Le Governmental Accounting Standards Board (GASB) recommande un ensemble de prin
     -   Fonds d'affectation spéciale
     -   Fonds en fidéicommis
 
-Les trois classes de fonds GAAP, plus une classe **Mémo**, sont des options prédéfinies dans Microsoft Dynamics 365 for Operations. 
+Les trois classes de fonds GAAP, plus une classe **Mémo**, sont des options prédéfinies dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. 
 
 Les types de fonds sont définis en fonction des besoins de l'organisation. Dans la plupart des cas, vous paramètrerez les huit types de fonds GAAP. Les types de fonds regroupent les fonds à des fins de suivi et de génération d'états fiscaux détaillés. Si de nombreux fonds peuvent être inclus dans un seul état de niveau supérieur, chaque fonds reste toutefois une entité fiscale et comptable distincte disposant d'une comptabilité, de comptes de résultats et de bilans qui lui sont propres. 
 
-Chaque fonds doit disposer d'un numéro de fonds unique. Dans Dynamics 365 for Operations, les numéros de fonds servent de valeurs de dimension dans les numéros de compte financier, dans la mesure où une dimension a été mise en correspondance avec un fonds. Lorsqu'un numéro de compte est lié à un fonds spécifique, il fait partie de l'ensemble de registres financiers contenu dans ce fonds.
+Chaque fonds doit disposer d'un numéro de fonds unique. Dans Finance and Operations, les numéros de fonds servent de valeurs de dimension dans les numéros de compte financier, dans la mesure où une dimension a été mise en correspondance avec un fonds. Lorsqu'un numéro de compte est lié à un fonds spécifique, il fait partie de l'ensemble de registres financiers contenu dans ce fonds.
 
 ### <a name="example"></a>Exemple
 
@@ -95,7 +95,7 @@ Le tableau suivant présente affiche ces fonds regroupés par classe et type de 
 |                |                        | 3914            | Greffier                  |
 
 ## <a name="how-are-financial-dimensions-used-with-funds"></a>Comment les dimensions financières sont-elles utilisées avec les fonds ?
-Chaque fonds doit disposer d'un numéro de fonds unique. Dans Dynamics 365 for Operations, les numéros de fonds servent de valeurs de dimension dans les numéros de compte financier, dans la mesure où une dimension a été mise en correspondance avec un fonds. Lorsqu'un numéro de compte est lié à un fonds spécifique, il fait partie de l'ensemble de registres financiers contenu dans ce fonds. 
+Chaque fonds doit disposer d'un numéro de fonds unique. Dans Finance and Operations, les numéros de fonds servent de valeurs de dimension dans les numéros de compte financier, dans la mesure où une dimension a été mise en correspondance avec un fonds. Lorsqu'un numéro de compte est lié à un fonds spécifique, il fait partie de l'ensemble de registres financiers contenu dans ce fonds. 
 
 Les organisations du secteur public ont généralement besoin des écritures équilibrées pour les dimensions financières associées aux fonds. Lorsqu'une dimension financière ou une combinaison de dimensions est marquée pour exiger des écritures équilibrées, le système ne valide pas une transaction si les débits ne sont pas égaux aux crédits pour la dimension financière.
 

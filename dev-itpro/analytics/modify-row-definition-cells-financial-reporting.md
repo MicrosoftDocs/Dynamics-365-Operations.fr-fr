@@ -3,7 +3,7 @@ title: "Modifier les cellules de définition de ligne"
 description: "Cet article décrit les informations nécessaires pour chaque cellule dans une définition de ligne sur un état financier et explique comment entrer ces informations."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -11,18 +11,18 @@ ms.technology:
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: ShylaThompson
-ms.search.scope: Management Reporter, Core
+ms.search.scope: Management Reporter, UnifiedOperations, Core
 ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 920cd02edee96b829069e88e026af1774d037d9a
+ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
+ms.openlocfilehash: 40ae4e0774c5752d697baba6c8add8aaf44fbb6d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -36,7 +36,7 @@ Cet article décrit les informations nécessaires pour chaque cellule dans une d
 
 # <a name="specify-a-row-code-in-a-row-definition"></a>Spécifier un code de ligne dans une définition de ligne
 
-Dans les définitions de ligne, les nombres ou les libellés dans la cellule**Code de ligne** identifient chaque ligne dans la définition de ligne. Vous pouvez spécifier le code de ligne pour faire référence à des données dans les calculs et les totaux.
+Dans les définitions de ligne, les nombres ou les libellés dans la cellule **Code de ligne** identifient chaque ligne dans la définition de ligne. Vous pouvez spécifier le code de ligne pour faire référence à des données dans les calculs et les totaux.
 
 ### <a name="row-code-requirements"></a>Conditions requises par les codes de ligne
 
@@ -176,7 +176,7 @@ Dans la déclaration relationnelle, vous affectez une ou plusieurs lignes de bas
 Une ou plusieurs lignes de base sont définies dans la définition de ligne, puis la définition de colonne détermine la relation dans laquelle la ligne de base est déclarée. Le code utilisé dans la formule de colonne est **BASEROW**. Les opérations mathématiques de base suivantes sont utilisées avec **BASEROW** : division, multiplication, addition et soustraction. L'opération le plus souvent utilisée est la division par **BASEROW**, où le résultat est affiché en pourcentage. Les calculs de colonne qui utilisent **BASEROW** dans leur formule utilisent la définition de la ligne pour les codes de ligne de base associés. Les lignes **CBR** ont les caractéristiques suivantes :
 
 -   Les lignes **CBR** ne sont pas imprimées dans l'état terminé.
--   Le code de format **CBR**et son code de ligne associé sont positionnés au-dessus de la ligne ou de la section qui affiche les calculs associés.
+-   Le code de format **CBR** et son code de ligne associé sont positionnés au-dessus de la ligne ou de la section qui affiche les calculs associés.
 
 Dans une définition de colonne, le type de colonne **CALC** affiche la colonne qui spécifie une formule dans la ligne **Formule**. Cette formule traite les données de cette colonne de l'état et utilise le mot clé Baserow (ligne de référence) pour baser les calculs sur les codes format **CBR** dans la ligne. Dans la définition de ligne, le code de format **CBR** définit la ligne de base pour les colonnes qui calculent un pourcentage ou sont multipliées par la ligne de base pour chaque ligne de l'état. Vous pouvez avoir plusieurs codes de format **CBR** dans un format de ligne, comme un pour les ventes nettes, un pour les ventes brutes et un pour les dépenses totales. Généralement, le code de format **CBR** est utilisé pour créer un pourcentage pour les comptes qui sont comparés à une ligne de total. Une ligne de base est utilisée pour tous les calculs jusqu'à ce qu'une autre ligne de base soit définie. Vous devez définir un code de format **CBR** de début et un code de format **CBR** de fin. Par exemple, pour déterminer les dépenses comme un pourcentage des ventes nettes, vous pouvez diviser la valeur de chaque ligne de dépense par la valeur indiquée dans la ligne des ventes nettes. Dans ce cas, la ligne des ventes réelles est la ligne de base. Vous pouvez définir une définition de colonne qui indique les résultats en cours et pour l'année à ce jour, avec un pourcentage de base de chaque résultat, comme indiqué dans l'exemple qui suit. Commencez par une déclaration des revenus détaillée.
 
@@ -252,8 +252,7 @@ Voici un exemple de l'état généré.
 
 |COGS|873,872|236,144|(637,728)|4,864,274|1,590,315|(3,273,959)|
 
-|Salaires|97,624|65,573|(32,051)|653,884|441,664|(212,220)| |Remises|36,383|24,152|(12,231)|241,562|162,670|(78,892)| |Retours sur ventes|10,917|7,246|(3,671)|62,809|48,803|(14,006)| |Frais de location|12,052|9,019|(3,033)|80,444|60,748|(19,696)| |Dépenses de bureau|5,023|3,291|(1,732)|33,420|22,098|(11,322)| |Dépenses de déplacement|7,656|7,641|(15)|51,062|51,469|407| |Ventes|1,240,119|410,389|829,730|7,139,288|2,764,549|4,374,739| |**Trié par écart dans l'année en cours (en valeur absolue) dans l'ordre décroissant**|||||||
-|Ventes|1,240,119|410,389|829,730|7,139,288|2,764,549|4,374,739| |Dépenses de déplacement|7,656|7,641|(15)|51,062|51,469|407| |Dépenses de bureau|5,023|3,291|(1,732)|33,420|22,098|(11,322)| |Retours sur ventes|10,917|7,246|(3,671)|62,809|48,803|(14,006)| |Frais de location|12,052|9,019|(3,033)|80,444|60,748|(19,696)| |Remises|36,383|24,152|(12,231)|241,562|162,670|(78,892)| |Salaires|97,624|65,573|(32,051)|653,884|441,664|(212,220)| |COGS|873,872|236,144|(637,728)|4,864,274|1,590,315|(3,273,959)|
+|Salaires|97,624|65,573|(32,051)|653,884|441,664|(212,220)| |Remises|36,383|24,152|(12,231)|241,562|162,670|(78,892)| |Retours sur ventes|10,917|7,246|(3,671)|62,809|48,803|(14,006)| |Frais de location|12,052|9,019|(3,033)|80,444|60,748|(19,696)| |Dépenses de bureau|5,023|3,291|(1,732)|33,420|22,098|(11,322)| |Dépenses de déplacement|7,656|7,641|(15)|51,062|51,469|407| |Ventes|1,240,119|410,389|829,730|7,139,288|2,764,549|4,374,739| |**Trié par écart dans l'année en cours (en valeur absolue) dans l'ordre décroissant**||||||| |Ventes|1,240,119|410,389|829,730|7,139,288|2,764,549|4,374,739| |Dépenses de déplacement|7,656|7,641|(15)|51,062|51,469|407| |Dépenses de bureau|5,023|3,291|(1,732)|33,420|22,098|(11,322)| |Retours sur ventes|10,917|7,246|(3,671)|62,809|48,803|(14,006)| |Frais de location|12,052|9,019|(3,033)|80,444|60,748|(19,696)| |Remises|36,383|24,152|(12,231)|241,562|162,670|(78,892)| |Salaires|97,624|65,573|(32,051)|653,884|441,664|(212,220)| |COGS|873,872|236,144|(637,728)|4,864,274|1,590,315|(3,273,959)|
 
 ## <a name="specify-a-format-override-cell"></a>Spécifier une cellule de remplacement de format
 La cellule **Remplacement de format** spécifie la mise en forme utilisée pour la ligne lorsque l'état est imprimé. Cette mise en forme remplace la mise en forme spécifiée dans la définition de colonne et la définition d'état. Par défaut, la mise en forme spécifiée dans ces définitions est la devise. Si une ligne de l'état répertorie le nombre d'immobilisations, comme le nombre de bâtiments, et qu'une autre ligne répertorie la valeur monétaire de ces immobilisations, vous pouvez remplacer la mise en forme de la devise et entrer une mise en forme numérique pour la ligne qui spécifie le nombre de bâtiments. Vous spécifiez ces informations dans la boîte de dialogue **Dépassement de format**. Les options disponibles dépendent de la catégorie de format sélectionnée. La zone **Exemple** de la boîte de dialogue spécifie des exemples de format. Les catégories de formats d'export suivants sont disponibles :

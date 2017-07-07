@@ -1,36 +1,36 @@
 ---
-title: "Génération d&quot;états financiers pour Dynamics 365 for Operations"
-description: "La génération d&quot;états financiers pour Dynamics 365 for Operations permet aux professionnels financiers et commerciaux peuvent utiliser pour créer, tenir à jour, déployer, et afficher les tableaux d&quot;analyse. Elle dépasse les contraintes traditionnelles liées à la génération d&quot;états pour vous aider à concevoir efficacement différents types d&quot;états."
+title: "Génération d'états financiers pour Finance and Operations"
+description: "La génération d'états financiers pour Finance and Operations permet aux professionnels financiers et commerciaux de créer, tenir à jour, déployer et afficher les tableaux d'analyse. Elle dépasse les contraintes traditionnelles liées à la génération d'états pour vous aider à concevoir efficacement différents types d'états."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
-ms.search.scope: Management Reporter
+ms.search.scope: Management Reporter, UnifiedOperations
 ms.custom: 68813
 ms.assetid: fe8b27e7-a40a-4689-ac6a-7f7401c387f5
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 997c34856d2445b02038d208f91522fe7a9a487c
+ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
+ms.openlocfilehash: 4e0c984b95cd395e7ab23394b886782e55fac90f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="financial-reporting-for-dynamics-365-for-operations"></a>Génération d'états financiers pour Dynamics 365 for Operations
+# <a name="financial-reporting-for-finance-and-operations"></a>Génération d'états financiers pour Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
 
-La génération d'états financiers pour Dynamics 365 for Operations permet aux professionnels financiers et commerciaux peuvent utiliser pour créer, tenir à jour, déployer, et afficher les tableaux d'analyse. Elle dépasse les contraintes traditionnelles liées à la génération d'états pour vous aider à concevoir efficacement différents types d'états.
+La génération d'états financiers pour Finance and Operations permet aux professionnels financiers et commerciaux de créer, tenir à jour, déployer et afficher les tableaux d'analyse. Elle dépasse les contraintes traditionnelles liées à la génération d'états pour vous aider à concevoir efficacement différents types d'états.
 
 La génération d’états financiers comprend la prise en charge de la dimension. Par conséquent, les segments de comptes ou de dimensions sont immédiatement disponibles. Aucun outil supplémentaire ni étape de configuration n'est nécessaire.
 

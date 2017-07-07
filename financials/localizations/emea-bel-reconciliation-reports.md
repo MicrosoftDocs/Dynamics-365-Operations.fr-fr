@@ -1,6 +1,6 @@
 ---
 title: "États de rapprochement pour la Belgique"
-description: "Cette rubrique décrit les états standard que Dynamics 365 for Operations fournit pour l&quot;analyse de la déclaration de taxe INTERVAT et de rapprochement."
+description: "Cette rubrique décrit les états standard que Microsoft Dynamics 365 for Finance and Operations, Enterprise edition fournit pour l&quot;analyse de la déclaration de taxe INTERVAT et de rapprochement."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/10/2017
@@ -17,10 +17,10 @@ ms.author: ShylaThompson
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: dc9b79d2d52aa44d7d104232ca389748706a1c04
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 6d941f22add6f35900baf18913854f8d6a640086
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Cette rubrique décrit les états standard que Dynamics 365 for Operations fournit pour l'analyse de la déclaration de taxe INTERVAT et de rapprochement.
+Cette rubrique décrit les états standard que Microsoft Dynamics 365 for Finance and Operations, Enterprise edition fournit pour l'analyse de la déclaration de taxe INTERVAT et de rapprochement.
 
 Selon les entrées de taxe pour les périodes sélectionnées, la déclaration périodique belge de taxe sur la valeur ajoutée (TVA) combine des montants de taxe dans des zones (codes déclaration de taxe) en triant, en fractionnant et en totalisant les informations de manières spécifiques. Par conséquent, des états de contrôle sont requis, de sorte que les montants de la déclaration de TVA puissent être vérifiés en détail. Le reste de cette rubrique décrit les états qui incluent les détails des données dans la déclaration de TVA.
 

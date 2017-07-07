@@ -1,15 +1,15 @@
 ---
-title: "Rapprochement de relevés bancaires à l&quot;aide du rapprochement bancaire avancé"
-description: "La fonctionnalité de rapprochement bancaire avancée vous permet d&quot;importer des relevés bancaires électroniques et de les rapprocher automatiquement avec des transactions bancaires dans Microsoft Dynamics 365 for Operations. Cette rubrique explique le processus de rapprochement."
+title: "Rapprochement de relevés bancaires à l'aide du rapprochement bancaire avancé"
+description: "La fonctionnalité de rapprochement bancaire avancée vous permet d'importer des relevés bancaires électroniques et de les rapprocher automatiquement avec des transactions bancaires dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Cette rubrique explique le processus de rapprochement."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 98243
 ms.assetid: 9df13adf-aa9d-4f6b-bde6-25a214611692
 ms.search.region: global
@@ -17,10 +17,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 81368294164ca4ca1915d73f8f5622e61f5d1fc8
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: eb7fd01874b08417933ddf575c7d6ff866b4e6f8
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-La fonctionnalité de rapprochement bancaire avancée vous permet d'importer des relevés bancaires électroniques et de les rapprocher automatiquement avec des transactions bancaires dans Microsoft Dynamics 365 for Operations. Cette rubrique explique le processus de rapprochement.  
+La fonctionnalité de rapprochement bancaire avancée vous permet d'importer des relevés bancaires électroniques et de les rapprocher automatiquement avec des transactions bancaires dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Cette rubrique explique le processus de rapprochement.  
 
 <a name="import-an-electronic-bank-statement"></a>Importer un relevé bancaire électronique
 -----------------------------------
@@ -44,7 +44,7 @@ Vous pouvez télécharger un relevé bancaire qui contient des informations pour
 
 Si aucun relevé du fichier électronique ne peut être associé à un compte bancaire à l'aide de les champs d'identification, ils ne sont pas importés. Toutefois, les autres relevés du fichier peuvent encore être importés. L'utilisateur reçoit un message indiquant que l'importation des relevés bancaires était un échec pour des comptes bancaires spécifiques. Notez que l'utilisateur qui importe le fichier de relevé bancaire doit avoir accès à une entité juridique pour importer les relevés des comptes bancaires de cette entité juridique. 
 
-Vous pouvez utiliser un fichier compressé pour télécharger plusieurs fichiers de relevé dans Microsoft Dynamics 365 for Operations en un seul processus. Pour importer plusieurs fichiers de relevé bancaire pour plusieurs comptes, combinez tous les fichiers de relevé bancaire en un seul fichier zip. Dans la boîte de dialogue **Importez les relevés bancaires**, définissez l'option **Importer le relevé bancaire pour plusieurs comptes bancaires dans toutes les entités juridiques** sur **Oui**. Cliquez sur **Parcourir** pour sélectionner le fichier zip contenant les fichiers de relevé bancaire, puis cliquez sur **Télécharger**. Le processus d'importation identifiera le fichier compressé et téléchargera chaque relevé inclus dans celui-ci, indépendamment de l'entité juridique du compte bancaire. 
+Vous pouvez utiliser un fichier compressé pour télécharger plusieurs fichiers de relevé dans Finance and Operations en un seul processus. Pour importer plusieurs fichiers de relevé bancaire pour plusieurs comptes, combinez tous les fichiers de relevé bancaire en un seul fichier zip. Dans la boîte de dialogue **Importez les relevés bancaires**, définissez l'option **Importer le relevé bancaire pour plusieurs comptes bancaires dans toutes les entités juridiques** sur **Oui**. Cliquez sur **Parcourir** pour sélectionner le fichier zip contenant les fichiers de relevé bancaire, puis cliquez sur **Télécharger**. Le processus d'importation identifiera le fichier compressé et téléchargera chaque relevé inclus dans celui-ci, indépendamment de l'entité juridique du compte bancaire. 
 
 Une option **Rapprocher après importation** est disponible. Lorsque vous définissez cette option sur **Oui**, le système valide automatiquement le relevé bancaire, crée un nouveau rapprochement bancaire et une feuille de calcul et exécute l’ensemble de règles de correspondance par défaut quand le relevé bancaire est chargé. Cette fonctionnalité automatise le processus jusqu’au point où les transactions doivent être manuellement mises en correspondance.
 
@@ -76,7 +76,7 @@ Il existe trois méthodes pour mettre en correspondance ou pour rapprocher des t
 
 -   Mettre en correspondance les transactions avec les transactions bancaires Operations.
 -   Mettre en correspondance les transactions avec une transaction de relevé bancaire de contrepassation.
--   Marquer les transactions comme **Nouveau**, afin de les valider ultérieurement comme transactions bancaires dans Dynamics 365 for Operations.
+-   Marquer les transactions comme **Nouveau**, afin de les valider ultérieurement comme transactions bancaires dans Finance and Operations.
 
 Pour mettre en correspondance des transactions manuellement, sélectionnez les transactions dans la grille **Transactions de relevé bancaire**, sélectionnez les transactions correspondantes dans la grille **Transactions bancaires Operations**, puis cliquez sur **Correspondance**. Les transactions sélectionnées sont déplacées dans les grilles supérieures pour les opérations non rapprochées vers les grilles inférieures pour les transactions rapprochées. En outre, le total des montants rapprochés et non rapprochés sont mis à jour. Vous pouvez avoir des correspondances de transactions une à une, plusieurs-à-une et plusieurs-à-plusieurs. Les correspondances doivent suivre les règles de différences de dates autorisées et de mappage de type de transaction. Ces règles sont définies sur la page **Paramètres de gestion de la trésorerie et de la banque**.
 
@@ -86,7 +86,7 @@ Les contrepassations de transaction de relevé bancaire sont mises en correspond
 
 Les transactions bancaires Operations de contrepassation doivent être rapprochées à l’aide de la page **Transactions bancaires Operations**. Vous pouvez rapprocher deux transactions bancaires Operations ensemble si les documents ont un compte bancaire, un type de document et une référence de paiement identiques, et s’ils ont des montants opposés. Vous pouvez également rapprocher un chèque annulé unique pour empêcher ces transactions de figurer sur la feuille de calcul de rapprochement. 
 
-S’il y a des transactions initiées par la banque, telles que des intérêts, des commissions et des frais, qui ne sont pas encore dans Dynamics 365 for Operations, vous pouvez les ajouter à un journal associé au rapprochement de relevé bancaire sélectionné. Sélectionnez une transaction de relevé bancaire dans la grille **Transactions de relevé bancaire** pour les opérations non rapprochées, puis cliquez sur **Marquer comme nouveau**. Le statut de la transaction est défini sur **Nouveau**, et la transaction est déplacée vers la grille **Transactions de relevé bancaire** pour les transactions rapprochées. Vous validez les transactions marquées **Nouveau** ultérieurement, à partir de la page **Relevé bancaire**. 
+S’il y a des transactions initiées par la banque, telles que des intérêts, des commissions et des frais, qui ne sont pas encore dans Finance and Operations, vous pouvez les ajouter à un journal associé au rapprochement de relevé bancaire sélectionné. Sélectionnez une transaction de relevé bancaire dans la grille **Transactions de relevé bancaire** pour les opérations non rapprochées, puis cliquez sur **Marquer comme nouveau**. Le statut de la transaction est défini sur **Nouveau**, et la transaction est déplacée vers la grille **Transactions de relevé bancaire** pour les transactions rapprochées. Vous validez les transactions marquées **Nouveau** ultérieurement, à partir de la page **Relevé bancaire**. 
 
 Vous pouvez supprimer la mise en correspondance des transactions qui ont été rapprochées incorrectement. Sélectionnez la transaction de relevé bancaire correspondante, puis cliquez sur **Sans correspondance**. Toutes les transactions associées sont déplacées vers les grilles supérieures pour les opérations non rapprochées, et le total des montants correspondants et sans correspondance sont mis à jour. 
 

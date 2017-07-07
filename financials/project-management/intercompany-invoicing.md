@@ -1,26 +1,26 @@
 ---
 title: "Facturation intersociétés"
-description: "Cet article fournit des informations et des exemples sur la facturation intersociétés de projets dans Microsoft Dynamics 365 for Operations."
+description: "Cet article fournit des informations et des exemples sur la facturation intersociétés de projets dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 94153
 ms.assetid: 33e98da7-01c1-4369-923d-aa1c8326cb80
 ms.search.region: Global
-ms.author: kfend
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 65c20479af9d2184bd7f3b92f4c0718553425502
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 205903bb68804a46414410c85eacce03c6df6fc7
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Cet article fournit des informations et des exemples sur la facturation intersociétés de projets dans Microsoft Dynamics 365 for Operations.
+Cet article fournit des informations et des exemples sur la facturation intersociétés de projets dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
 
 Votre organisation peut avoir plusieurs divisions, filiales, ainsi que d'autres entités juridiques qui transfèrent des produits et des services entre elles pour des projets. L’entité juridique qui fournit le service ou le produit est appelée l'*entité juridique prêteuse*, et l’entité juridique qui reçoit le service ou le produit est appelée l'*entité juridique emprunteuse*. 
 
@@ -53,7 +53,7 @@ L’objectif est de rendre le contrôle des coûts, la constatation du produit, 
     -   **Taux de contribution** : le nombre entré dans le champ **Tarification** est le taux de contribution exprimé en pourcentage du prix de vente.
 
 ## <a name="example-1-set-up-parameters-for-intercompany-invoicing"></a>Exemple 1 : Définir les paramètres de facturation intersociétés
-Dans cet exemple, USSI est une entité juridique prêteuse et ses ressources déclarent le temps par rapport à l’entité juridique emprunteuse, FRSI, qui possède un contrat avec le client final. Les heures et les dépenses que les employés d'USSI déclarent peuvent être inclus dans la facture du projet générée par FRSI. En outre, il existe une troisième source de transactions qui peuvent provenir de l’entité juridique prêteuse (USSI dans cet exemple) lorsqu’elle fournit des services de fournisseurs partagés aux filiales (par exemple, FRSI) et transmet ensuite ces coûts aux projets au sein de ces filiales. Tous les documents de facture et les calculs de taxes correspondants sont effectués par Dynamics 365 for Operations. 
+Dans cet exemple, USSI est une entité juridique prêteuse et ses ressources déclarent le temps par rapport à l’entité juridique emprunteuse, FRSI, qui possède un contrat avec le client final. Les heures et les dépenses que les employés d'USSI déclarent peuvent être inclus dans la facture du projet générée par FRSI. En outre, il existe une troisième source de transactions qui peuvent provenir de l’entité juridique prêteuse (USSI dans cet exemple) lorsqu’elle fournit des services de fournisseurs partagés aux filiales (par exemple, FRSI) et transmet ensuite ces coûts aux projets au sein de ces filiales. Tous les documents de facture et les calculs de taxes correspondants sont effectués par Finance and Operations. 
 
 Pour cet exemple, FRSI doit être un client dans l’entité juridique USSI et USSI doit être un fournisseur dans l’entité juridique FRSI. Puis, vous pouvez définir une relation intersociétés entre les deux entités juridiques. La procédure suivante montre comment définir les paramètres afin que les deux entités juridiques puissent participer à la facturation intersociétés.
 
@@ -62,7 +62,7 @@ Pour cet exemple, FRSI doit être un client dans l’entité juridique USSI et U
     |------|-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | A    | Dans USSI, cliquez sur **Comptabilité client** &gt; **Clients** &gt; **Tous les clients**. | Créez un enregistrement de client pour FRSI et sélectionnez le groupe de clients.                                                                                                                                                                                                                           |
     | B    | Dans FRSI, cliquez sur **Comptabilité fournisseur** &gt; **Fournisseurs** &gt; **Tous les fournisseurs**.        | Créez un enregistrement de fournisseur pour USSI et sélectionnez le groupe de fournisseurs.                                                                                                                                                                                                                               |
-    | C    | Dans FRSI, ouvrez l’enregistrement du fournisseur que vous venez de créer.                            | Dans le volet Actions, sous l'onglet **Général**, dans le groupe **Paramétrer**, cliquez sur **Intersociétés**. Dans la page **Intersociétés**, sur l'onglet **Relation commerciale**, définissez le curseur **Actif** sur **Oui**. Dans le champ**Société du client**, sélectionnez l’enregistrement de client que vous avez créé à l’étape A. |
+    | C    | Dans FRSI, ouvrez l’enregistrement du fournisseur que vous venez de créer.                            | Dans le volet Actions, sous l'onglet **Général**, dans le groupe **Paramétrer**, cliquez sur **Intersociétés**. Dans la page **Intersociétés**, sur l'onglet **Relation commerciale**, définissez le curseur **Actif** sur **Oui**. Dans le champ **Société du client**, sélectionnez l’enregistrement de client que vous avez créé à l’étape A. |
 
 2.  Cliquez sur **Gestion et comptabilité des projets** &gt; **Paramétrage** &gt; **Paramètres de gestion et comptabilité des projets**, puis sur l'onglet **Intersociétés**. La façon dont vous définissez les paramètres dépend de si vous êtes l’entité juridique prêteuse ou l’entité juridique emprunteuse.
     -   Si vous êtes l’entité juridique emprunteuse, sélectionnez la catégorie d’approvisionnement qui doit être utilisée pour correspondre aux factures fournisseur, qui sont automatiquement générées.

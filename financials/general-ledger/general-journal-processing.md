@@ -1,6 +1,6 @@
 ---
-title: "Journaux d&quot;opérations diverses"
-description: "Cet article décrit les fonctionnalités de Microsoft Dynamics 365 for Operations qui vous permettent d&quot;effectuer le traitement du journal des opérations diverses, ainsi que de garantir que les données correctes sont capturées et que le contrôle interne n&quot;est pas compromis."
+title: "Journaux d'opérations diverses"
+description: "Cet article décrit les fonctionnalités de Microsoft Dynamics 365 for Finance and Operations, Enterprise edition qui vous permettent d'effectuer le traitement du journal des opérations diverses, ainsi que de garantir que les données correctes sont capturées et que le contrôle interne n'est pas compromis."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/25/2017
@@ -10,8 +10,8 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
-ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 150ca540fca154947cca47e97e45ce865ab1f507
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 244eada4202106b65198e3d6e3d0dedaa5486632
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Cet article décrit les fonctionnalités de Microsoft Dynamics 365 for Operations qui vous permettent d'effectuer le traitement du journal des opérations diverses, ainsi que de garantir que les données correctes sont capturées et que le contrôle interne n'est pas compromis.  
+Cet article décrit les fonctionnalités de Microsoft Dynamics 365 for Finance and Operations, Enterprise edition qui vous permettent d'effectuer le traitement du journal des opérations diverses, ainsi que de garantir que les données correctes sont capturées et que le contrôle interne n'est pas compromis.  
 
 Noms de journal
 
@@ -55,7 +55,7 @@ L'option **Contrepassation automatique** est disponible dans les journaux des op
 
 Le complément Microsoft Excel pour l'entrée de journal fournit un niveau supplémentaire d'automatisation et facilite la saisie des données. L'action **Ouvrir les lignes dans Excel** est disponible dans les pages **Journal des opérations diverses** et **N° document de journal**. 
 
-Dans la page**Journaux périodiques**, vous pouvez paramétrer les journaux récurrents pour automatiser le traitement de journal. 
+Dans la page **Journaux périodiques**, vous pouvez paramétrer les journaux récurrents pour automatiser le traitement de journal. 
 
 Vous pouvez utiliser les modèles de document à tout moment. Dans la page **Journaux des opérations diverses**, les actions **Enregistrer** et **Sélectionner le modèle de n° document** se trouvent dans la page **N° document de journal**, sous **Fonctions** pour les lignes de N° document.
 

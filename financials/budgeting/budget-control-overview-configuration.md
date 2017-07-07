@@ -1,15 +1,15 @@
 ---
-title: "Vue d&quot;ensemble du contrôle budgétaire"
-description: "Cet article présente le contrôle budgétaire et fournit des informations vous permettant de configurer le contrôle budgétaire dans Microsoft Dynamics 365 for Operations afin de pouvoir gérer les ressources financières."
+title: "Vue d'ensemble du contrôle budgétaire"
+description: "Cet article présente le contrôle budgétaire et fournit des informations vous permettant de configurer le contrôle budgétaire dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition afin de pouvoir gérer les ressources financières."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 60493
 ms.assetid: be964167-43bc-431d-9adb-48bff32d68d5
 ms.search.region: Global
@@ -17,27 +17,27 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 48649b891be72529e6045e48f9738fe68be6cffe
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 77d6d9afeb5669c2ae8460f0503e68a3559514ec
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
 
-# <a name="budget-control-overview"></a>Vue d'ensemble du contrôle budgétaire
+# <a name="budget-control-overview"></a>Vue d'ensemble des contrôles budgétaires 
 
 [!include[banner](../includes/banner.md)]
 
 
-Cet article présente le contrôle budgétaire et fournit des informations vous permettant de configurer le contrôle budgétaire dans Microsoft Dynamics 365 for Operations afin de pouvoir gérer les ressources financières.
+Cet article présente le contrôle budgétaire et fournit des informations vous permettant de configurer le contrôle budgétaire dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition afin de pouvoir gérer les ressources financières.
 
 <a name="overview"></a>Vue d'ensemble
 --------
 
-Le contrôle budgétaire dans Microsoft Dynamics 365 for Operations prend en charge la gestion des ressources financières d'une organisation via le plan de comptes, les workflows, les groupes d'utilisateurs, les documents source et les journaux, le calcul des fonds disponibles configurable, les cycles budgétaires et les seuils. Lorsque les contrôles sont en place, une organisation peut planifier, mesurer, gérer et prévoir ses ressources financières au cours de son exercice. 
+Le contrôle budgétaire dans Microsoft Dynamics 365 for Finance and Operations prend en charge la gestion des ressources financières d'une organisation via le plan de comptes, les workflows, les groupes d'utilisateurs, les documents source et les journaux, le calcul des fonds disponibles configurable, les cycles budgétaires et les seuils. Lorsque les contrôles sont en place, une organisation peut planifier, mesurer, gérer et prévoir ses ressources financières au cours de son exercice. 
 
-Une fois les budgets approuvés dans Dynamics 365 for Operations, vous pouvez utiliser les plans budgétaires pour générer des écritures de registre budgétaires pour enregistrer le budget des dépenses pour une organisation. Sinon, vous pouvez créer ou importer des écritures de registre budgétaires depuis un programme tiers au lieu d'utiliser la fonctionnalité de planification de budget. 
+Une fois les budgets approuvés dans Finance and Operations, vous pouvez utiliser les plans budgétaires pour générer des écritures de registre budgétaires pour enregistrer le budget des dépenses pour une organisation. Sinon, vous pouvez créer ou importer des écritures de registre budgétaires depuis un programme tiers au lieu d'utiliser la fonctionnalité de planification de budget. 
 
 Les dépenses peuvent être enregistrées à l'aide des comptes principaux et des dimensions financières. Vous pouvez configurer le contrôle de la dépense globale pour répondre aux stratégies et aux exigences de l'organisation en regroupant des combinaisons de dimensions financières et de comptes principaux. 
 
@@ -53,7 +53,7 @@ Vous pouvez configurer le contrôle budgétaire en fonction de plusieurs facteur
 -   **Calcul des fonds disponibles** - Les documents tels que les demandes d'achat (engagements préalables) et les commandes fournisseur (engagements) doivent-ils être pris en compte dans le calcul des fonds disponibles ? Les documents présentant le statut de Brouillon doivent-ils être pris en compte dans le calcul ?
 -   **Autorisation de dépassement** - Qui est autorisé à dépasser le budget disponible ?
 
-Le contrôle budgétaire est entièrement intégré à Dynamics 365 for Operations. Par conséquent, vous pouvez évaluer le budget disponible pour les achats prévisionnels et les achats réels. Les demandes et les états budgétaires sont disponibles. Par conséquent, les utilisateurs peuvent évaluer le budget durant le cycle budgétaire, et faire les ajutsements requis sous la forme de révisions ou de transferts budgétaires. Un responsable du budget peut également exporter l'activité budgétaire et l'activité réelle dans Microsoft Excel pour une analyse et des prévisions plus pointues au besoin.
+Le contrôle budgétaire est entièrement intégré à Finance and Operations. Par conséquent, vous pouvez évaluer le budget disponible pour les achats prévisionnels et les achats réels. Les demandes et les états budgétaires sont disponibles. Par conséquent, les utilisateurs peuvent évaluer le budget durant le cycle budgétaire, et faire les ajutsements requis sous la forme de révisions ou de transferts budgétaires. Un responsable du budget peut également exporter l'activité budgétaire et l'activité réelle dans Microsoft Excel pour une analyse et des prévisions plus pointues au besoin.
 
 ## <a name="configuring-budget-control"></a>Configuration du contrôle budgétaire
 ### <a name="budget-cycle-time-span"></a>Période de cycle budgétaire
@@ -100,7 +100,7 @@ Puis, sur la page **Affecter des modèles de budget**, il convient d'affecter de
 Puis, sur l'onglet **Définir les règles de contrôle budgétaire**, vous devez créer des règles spécifiques basées sur les dimensions financières qui sont activées pour le contrôle budgétaire. Par exemple, si une priorité est donnée aux dépenses ou à l'étendue des dépenses d'un département, vous pouvez utiliser les paramètres de cet onglet pour définir et évaluer ces dépenses. Vous pouvez définir différents seuils pour chaque règle de contrôle budgétaire. 
 
 > [!Important]
-> Le contrôle budgétaire est activé pour tout compte principal de type **Résultat**, **Dépense**, **Produit, Bilan, Passif, Capitaux propres** ou **Actif**. Si cet onglet contient une règle qui a des critères vides, le contrôle budgétaire est activé pour **toutes**les combinaisons de dimensions financières qui incluent des comptes principaux de ces types. Par conséquent, assurez-vous de créer des règles budgétaires de contrôle définissant uniquement les plages de combinaisons de dimensions financières où il est essentiel que le contrôle budgétaire soit activé.  
+> Le contrôle budgétaire est activé pour tout compte principal de type **Résultat**, **Dépense**, **Produit, Bilan, Passif, Capitaux propres** ou **Actif**. Si cet onglet contient une règle qui a des critères vides, le contrôle budgétaire est activé pour **toutes** les combinaisons de dimensions financières qui incluent des comptes principaux de ces types. Par conséquent, assurez-vous de créer des règles budgétaires de contrôle définissant uniquement les plages de combinaisons de dimensions financières où il est essentiel que le contrôle budgétaire soit activé.  
 
 ### <a name="select-main-accounts"></a>Sélectionner les comptes principaux
 
@@ -125,10 +125,6 @@ De plus, notez que les transactions, notamment les entrées de registre budgéta
 ## <a name="using-budget-control"></a>Utilisation du contrôle budgétaire
 Une fois le contrôle budgétaire activé, les utilisateurs recevront des messages d'avertissement et d'erreur de contrôle budgétaire dans les documents et journaux configurés pour le contrôle budgétaire. N'oubliez pas, vous pouvez configurer le contrôle budgétaire afin que les utilisateurs soient prévenus lorsqu'ils dépassent les fonds budgétaires, mais puissent toujours confirmer ou valider la transaction. Les utilisateurs peuvent afficher les détails des contrôles budgétaires qui ont échoué sur la page **Erreurs ou avertissements du contrôle budgétaire**.   
 
-Depuis cette page, les utilisateurs peuvent explorer la page **Statistiques du contrôle budgétaire par période** pour découvrir les détails concernant la disponibilité budgétaire et les réservations pour une combinaison de dimensions de contrôle budgétaire sélectionnée. Les utilisateurs peuvent également explorer la page **Statistiques de contrôle budgétaire**pour afficher la disponibilité budgétaire de toutes les combinaisons de dimensions financières utilisées dans le contrôle budgétaire. 
+Depuis cette page, les utilisateurs peuvent explorer la page **Statistiques du contrôle budgétaire par période** pour découvrir les détails concernant la disponibilité budgétaire et les réservations pour une combinaison de dimensions de contrôle budgétaire sélectionnée. Les utilisateurs peuvent également explorer la page **Statistiques de contrôle budgétaire** pour afficher la disponibilité budgétaire de toutes les combinaisons de dimensions financières utilisées dans le contrôle budgétaire. 
 
 Si le contrôle budgétaire est activé pour les commandes fournisseur, le responsable du budget peut utiliser l'espace de travail **Budgets comptables et prévisions** pour passer en revue la file d'attente de toutes les commandes fournisseur non confirmées avec des avertissements ou des erreurs du contrôle budgétaire. Si le responsable du budget est autorisé à dépasser le budget, il peut confirmer les commandes fournisseur directement dans l'espace de travail.    
-
-
-
-

@@ -1,15 +1,15 @@
 ---
 title: "Configurer une décision manuelle dans un workflow"
-description: "Cette rubrique explique comment configurer les différentes propriétés d&quot;une décision manuelle."
+description: "Cette rubrique explique comment configurer les différentes propriétés d'une décision manuelle."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 192101
 ms.assetid: 0bccad77-1a44-4f08-967b-12c62c02afc7
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ac86ffa794b5fd92ca9aba24537fbc05057fe824
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 6ea8b060741ea94af16861d5bb52894a577e5521
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -152,10 +152,10 @@ Vous pouvez envoyer des notifications aux personnes lorsqu'une décision doit ê
     </tr>
     <tr class="odd">
     <td>Utilisateur</td>
-    <td>Utilisateurs Microsoft Dynamics 365 for Operations spécifiques</td>
+    <td>Utilisateurs de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition spécifiques</td>
     <td><ol>
     <li>Sélectionnez <strong>Utilisateur</strong>, puis cliquez sur l'onglet <strong>Utilisateur</strong>.</li>
-    <li>La liste <strong>Utilisateurs disponibles</strong> inclut tous les utilisateurs Dynamics 365 for Operations. Sélectionnez les utilisateurs à qui envoyer les notifications, puis déplacez-les dans la liste <strong>Utilisateurs sélectionnés</strong>.</li>
+    <li>La liste <strong>Utilisateurs disponibles</strong> inclut tous les utilisateurs Finance and Operations. Sélectionnez les utilisateurs à qui envoyer les notifications, puis déplacez-les dans la liste <strong>Utilisateurs sélectionnés</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -215,10 +215,10 @@ Procédez comme suit pour indiquer à qui affecter une décision manuelle.
     </tr>
     <tr class="even">
     <td>Utilisateur</td>
-    <td>Utilisateurs Dynamics 365 for Operations spécifiques</td>
+    <td>Utilisateurs Finance and Operations spécifiques</td>
     <td><ol>
     <li>Sélectionnez <strong>Utilisateur</strong>, puis cliquez sur l'onglet <strong>Utilisateur</strong>.</li>
-    <li>La liste <strong>Utilisateurs disponibles</strong> inclut tous les utilisateurs Dynamics 365 for Operations. Sélectionnez les utilisateurs à qui vous souhaitez affecter la décision, puis déplacez-les dans la liste <strong>Utilisateurs sélectionnés</strong>.</li>
+    <li>La liste <strong>Utilisateurs disponibles</strong> inclut tous les utilisateurs Finance and Operations. Sélectionnez les utilisateurs à qui vous souhaitez affecter la décision, puis déplacez-les dans la liste <strong>Utilisateurs sélectionnés</strong>.</li>
     </ol></td>
     </tr>
     <tr class="odd">
@@ -235,7 +235,7 @@ Procédez comme suit pour indiquer à qui affecter une décision manuelle.
     <li>Dans la liste <strong>Nom de file d'attente</strong>, sélectionnez <strong>File d'attente conditionnelle</strong>.</li>
     </ol></li>
     </ol>
-    <strong>Remarque :</strong> Cette option est utilisée uniquement pour certains workflows, tels que Gestion des dossiers.</td>
+    <strong>Remarque :</strong> Cette option est utilisée uniquement pour certains workflows, tels que Gestion des dossiers.</td>
     </tr>
     </tbody>
     </table>
@@ -301,10 +301,10 @@ Si un utilisateur ne prend pas la décision dans le délai imparti, la décision
     </tr>
     <tr class="odd">
     <td>Utilisateur</td>
-    <td>Utilisateurs Dynamics 365 for Operations spécifiques</td>
+    <td>Utilisateurs Finance and Operations spécifiques</td>
     <td><ol>
     <li>Sélectionnez <strong>Utilisateur</strong>, puis cliquez sur l'onglet <strong>Utilisateur</strong>.</li>
-    <li>La liste <strong>Utilisateurs disponibles</strong> inclut tous les utilisateurs Dynamics 365 for Operations. Sélectionnez les utilisateurs à qui réaffecter la décision, puis déplacez-les dans la liste <strong>Utilisateurs sélectionnés</strong>.</li>
+    <li>La liste <strong>Utilisateurs disponibles</strong> inclut tous les utilisateurs Finance and Operations. Sélectionnez les utilisateurs à qui réaffecter la décision, puis déplacez-les dans la liste <strong>Utilisateurs sélectionnés</strong>.</li>
     </ol></td>
     </tr>
     </tbody>

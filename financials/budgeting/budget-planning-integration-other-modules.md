@@ -1,16 +1,16 @@
 ---
-title: "Intégration de la planification budgétaire avec d&quot;autres modules"
-description: 
+title: "Intégration de la planification budgétaire avec d'autres modules"
+description: "Les plans budgétaires peuvent être générés à partir de plusieurs ressources différentes : Les éléments de base du processus périodique sont identiques pour toutes les ressources."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 64443
 ms.assetid: f9a94db5-906c-404a-9ca5-91528d67c490
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3828416b7da366aa53757ea1b5ed7d2e84446344
+ms.sourcegitcommit: 975497e8ed0c9738c225bad4db9165bf2ebc0192
+ms.openlocfilehash: 7f3dc8089153a6c67c1666aa8f859d63dcc9d3c9
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/05/2017
 
 
 ---
@@ -90,11 +90,11 @@ Dans la cible, le champ **Classe de budget** est défini sur **Dépense** ou **P
 
 ### <a name="generate-budget-plan-from-fixed-assets"></a>Générer un plan budgétaire à partir des immobilisations
 
-Le processus **Générer un plan budgétaire à partir des immobilisations**n'a aucune option pour regrouper par période ou jour. Il n'existe également aucune option pour définir le plan comme historique. Vous pouvez utiliser ce processus périodique pour inclure des transactions prévues pour les immobilisations dans votre planification budgétaire.
+Le processus **Générer un plan budgétaire à partir des immobilisations** n'a aucune option pour regrouper par période ou jour. Il n'existe également aucune option pour définir le plan comme historique. Vous pouvez utiliser ce processus périodique pour inclure des transactions prévues pour les immobilisations dans votre planification budgétaire.
 
 ### <a name="generate-budget-plan-from-forecast-positions"></a>Générer un plan budgétaire à partir des postes de prévision
 
-Le processus **Générer un plan budgétaire à partir des postes de prévision** affecte le poste de prévision source à la ligne de plan budgétaire. Vous pouvez afficher le poste en ajoutant le poste de prévision comme une ligne dans la structure du plan budgétaire ou à l'aide de la fonction recherche de **Lignes de plan budgétaire**. Si vous ne souhaitez pas que le poste de prévision soit affecté aux lignes de plan budgétaire, définissez l'option **Inclure le poste dans la ligne de plan budgétaire**sur **Non**.
+Le processus **Générer un plan budgétaire à partir des postes de prévision** affecte le poste de prévision source à la ligne de plan budgétaire. Vous pouvez afficher le poste en ajoutant le poste de prévision comme une ligne dans la structure du plan budgétaire ou à l'aide de la fonction recherche de **Lignes de plan budgétaire**. Si vous ne souhaitez pas que le poste de prévision soit affecté aux lignes de plan budgétaire, définissez l'option **Inclure le poste dans la ligne de plan budgétaire** sur **Non**.
 
 Les lignes du plan budgétaire sont regroupées par compte général et poste. Toutefois, vous pouvez exclure le numéro de poste, afin que les lignes soient regroupées par compte général uniquement. Sous l'onglet **Cible**, définissez l'option **Inclure le poste dans la ligne de plan budgétaire** sur **Non**.
 

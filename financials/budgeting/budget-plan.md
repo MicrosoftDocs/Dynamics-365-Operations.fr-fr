@@ -1,9 +1,9 @@
 ---
 title: "Planification budgétaire"
-description: "L&quot;objectif de cet atelier consiste à fournir une vue guidée des mises à jour de fonctionnalités Microsoft Dynamics 365 for Operations dans la zone de planification budgétaire. Cet atelier pratique consiste à illustrer un exemple de configuration rapide du module planification budgétaire et à présenter l&quot;accomplissement de la planification budgétaire à l&quot;aide de cette configuration.  Cet atelier pratique se concentrera spécifiquement sur les processus ou les tâches d&quot;entreprise : - Création de la hiérarchie d&quot;organisation pour la planification budgétaire et la configuration de la sécurité utilisateur - Définition de scénarios de plan budgétaire, de colonnes de plan budgétaire, de mises en page et de modèles Excel - Création et activation du processus de planification budgétaire - Création de document de plan budgétaire par l&quot;extraction de chiffres réels de la comptabilité - Utilisation des répartitions pour ajuster les données du document de plan budgétaire - Modification de données de document de plan budgétaire dans Excel"
+description: "L'objectif de cet atelier consiste à fournir une vue guidée des mises à jour de fonctionnalités Microsoft Dynamics 365 for Finance and Operations, Enterprise edition dans la zone de planification budgétaire. Cet atelier pratique consiste à illustrer un exemple de configuration rapide du module planification budgétaire et à présenter l'accomplissement de la planification budgétaire à l'aide de cette configuration.  Cet atelier pratique se concentrera spécifiquement sur les processus ou les tâches d'entreprise : - Création de la hiérarchie d'organisation pour la planification budgétaire et la configuration de la sécurité utilisateur - Définition de scénarios de plan budgétaire, de colonnes de plan budgétaire, de mises en page et de modèles Excel - Création et activation du processus de planification budgétaire - Création de document de plan budgétaire par l'extraction de chiffres réels de la comptabilité - Utilisation des répartitions pour ajuster les données du document de plan budgétaire - Modification de données de document de plan budgétaire dans Excel"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: dbe2b386de9e88af354015705e1444987a3f7e82
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 11b5ffacef06fd3e83c61cd14da11ad645eec335
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,12 +31,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-L'objectif de cet atelier consiste à fournir une vue guidée des mises à jour de fonctionnalités Microsoft Dynamics 365 for Operations dans la zone de planification budgétaire. Cet atelier pratique consiste à illustrer un exemple de configuration rapide du module planification budgétaire et à présenter l'accomplissement de la planification budgétaire à l'aide de cette configuration.  Cet atelier pratique se concentrera spécifiquement sur les processus ou les tâches d'entreprise : - Création de la hiérarchie d'organisation pour la planification budgétaire et la configuration de la sécurité utilisateur - Définition de scénarios de plan budgétaire, de colonnes de plan budgétaire, de mises en page et de modèles Excel - Création et activation du processus de planification budgétaire - Création de document de plan budgétaire par l'extraction de chiffres réels de la comptabilité - Utilisation des répartitions pour ajuster les données du document de plan budgétaire - Modification de données de document de plan budgétaire dans Excel 
+L'objectif de cet atelier consiste à fournir une vue guidée des mises à jour de fonctionnalités Microsoft Dynamics 365 for Finance and Operations, Enterprise edition dans la zone de planification budgétaire. Cet atelier pratique consiste à illustrer un exemple de configuration rapide du module planification budgétaire et à présenter l'accomplissement de la planification budgétaire à l'aide de cette configuration.  Cet atelier pratique se concentrera spécifiquement sur les processus ou les tâches d'entreprise : - Création de la hiérarchie d'organisation pour la planification budgétaire et la configuration de la sécurité utilisateur - Définition de scénarios de plan budgétaire, de colonnes de plan budgétaire, de mises en page et de modèles Excel - Création et activation du processus de planification budgétaire - Création de document de plan budgétaire par l'extraction de chiffres réels de la comptabilité - Utilisation des répartitions pour ajuster les données du document de plan budgétaire - Modification de données de document de plan budgétaire dans Excel 
 
 <a name="prerequisites"></a>Conditions préalables 
 ------------------
 
-Pour ce didacticiel, vous devez accéder à l'environnement Dynamics 365 for Operations avec les données de démonstration de Contoso, et bénéficier des droits d'administrateur sur l'instance. N'utilisez pas le mode privé du navigateur pour l'atelier pratique - déconnectez-vous de tout autre compte dans le navigateur si nécessaire et connectez-vous à l'aide des informations d'identification de l'administrateur de Dynamics 365 for Operations. Lors de la connexion à Dynamics 365 for Operations, vous **DEVEZ** activer la case à cocher « Maintenir la connexion ». Cette opération crée un cookie persistant dont l'application Excel a besoin actuellement. Si vous vous connectez à Dynamics 365 for Operations via un navigateur autre qu'IE, vous êtes invité à vous connecter dans l'application Excel. Lorsque vous cliquez sur « Connexion » dans l'application Excel, une fenêtre contextuelle d'IE s'ouvre et lors de la connexion, vous **DEVEZ** activer la case à cocher « Maintenir la connexion ». Si cliquer dans « Connexion » dans l'application Excel ne produit aucun effet, alors vous devez désactiver le cache des cookies d'IE.
+Pour ce didacticiel, vous devez accéder à l'environnement Finance and Operations avec les données de démonstration de Contoso, et bénéficier des droits d'administrateur sur l'instance. N'utilisez pas le mode privé du navigateur pour l'atelier pratique - déconnectez-vous de tout autre compte dans le navigateur si nécessaire et connectez-vous à l'aide des informations d'identification de l'administrateur de Finance and Operations. Lors de la connexion à Finance and Operations, vous **DEVEZ** activer la case à cocher « Maintenir la connexion ». Cette opération crée un cookie persistant dont l'application Excel a besoin actuellement. Si vous vous connectez à Finance and Operations via un navigateur autre qu'IE, vous êtes invité à vous connecter dans l'application Excel. Lorsque vous cliquez sur « Connexion » dans l'application Excel, une fenêtre contextuelle d'IE s'ouvre et lors de la connexion, vous **DEVEZ** activer la case à cocher « Maintenir la connexion ». Si cliquer dans « Connexion » dans l'application Excel ne produit aucun effet, alors vous devez désactiver le cache des cookies d'IE.
 
 ## <a name="scenario-overview"></a>**Vue d'ensemble du scénario**
 Julia travaille en tant que gestionnaire des finances dans les parcs de divertissements de Contoso en Allemagne (DEMF). À mesure que l'exercice fiscal 2016 s'approche, elle doit travailler sur le paramétrage du budget de la société pour l'année suivante. La préparation de budget se présente comme suit :
@@ -148,7 +148,7 @@ Les colonnes du plan budgétaire sont des colonnes monétaires ou basées sur la
 
 [![Remplissage automatique](./media/screenshot22.png)](./media/screenshot22.png) 
 
-4.7. Revenez à Dynamics 365 for Operations et actualisez la page. Les valeurs publiées figurent dans Dynamics 365 for Operations. 
+4.7. Revenez à Finance and Operations et actualisez la page. Les valeurs publiées figurent dans Finance and Operations. 
 
 [![Actualiser](./media/screenshot23.png)](./media/screenshot23.png)
 
@@ -233,7 +233,7 @@ Les montants effectifs de l'année précédente seront copiés dans le budget de
 
 [![Publier](./media/screenshot36.png)](./media/screenshot36.png)
 
-9.3. Retournez au document de plan budgétaire dans Dynamics 365 for Operations. Cliquez sur Workflow &gt; Envoyer pour approuver automatiquement le document
+9.3. Retournez au document de plan budgétaire dans Finance and Operations. Cliquez sur Workflow &gt; Envoyer pour approuver automatiquement le document
 
 [![Approbation automatique](./media/screenshot37.png)](./media/screenshot37.png) 
 

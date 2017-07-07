@@ -1,9 +1,9 @@
 ---
-title: "Vue d&quot;ensemble du rapprochement des relevés bancaires et des paiements pour l&quot;UE"
-description: "Cette rubrique donne une vue d&quot;ensemble de la fonctionnalité permettant de rapprocher les informations de paiement des banques dans les formats utilisés par les pays européens."
+title: "Vue d'ensemble du rapprochement des relevés bancaires et des paiements pour l'UE"
+description: "Cette rubrique donne une vue d'ensemble de la fonctionnalité permettant de rapprocher les informations de paiement des banques dans les formats utilisés par les pays européens."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c59bec4493612f7cd62ca3ed9583e400ccda32c6
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 5e4f3fdce97cf05a8f54873cd8d80364b1505bd3
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -33,21 +33,21 @@ ms.lasthandoff: 05/25/2017
 
 Cette rubrique donne une vue d'ensemble de la fonctionnalité permettant de rapprocher les informations de paiement des banques dans les formats utilisés par les pays européens.
 
-Dans Microsoft Dynamics 365 for Operations, vous pouvez importer des transactions bancaires et régler ces transactions avec les transactions existantes. En Europe, vous pouvez le faire pour les scénarios suivants :
+Dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, vous pouvez importer des transactions bancaires et régler ces transactions avec les transactions existantes. En Europe, vous pouvez le faire pour les scénarios suivants :
 
 -   Importation des relevés bancaires
 -   Importation des paiements.
 -   Importation des fichiers de retour.
 
 ## <a name="bank-statements"></a>Relevés bancaires
-Un *relevé bancaire* ou *relevé de compte* est une synthèse des transactions financières effectuées sur une période donnée sur un compte bancaire détenu par une société avec une institution financière. Dans Dynamics 365 for Operations, vous pouvez importer un relevé bancaire. Il est important de régler les transactions importées avec les transactions existantes et de vérifier le solde d'ouverture et de fin des comptes bancaires. La liste suivante présente les formats européens pris en charge.
+Un *relevé bancaire* ou *relevé de compte* est une synthèse des transactions financières effectuées sur une période donnée sur un compte bancaire détenu par une société avec une institution financière. Dans Finance and Operations, vous pouvez importer un relevé bancaire. Il est important de régler les transactions importées avec les transactions existantes et de vérifier le solde d'ouverture et de fin des comptes bancaires. La liste suivante présente les formats européens pris en charge.
 
 -   Formats du fichier européen de rapprochement bancaire avancé. Pour plus d'informations, voir [Vue d'ensemble du rapprochement bancaire avancé](../cash-bank-management/advanced-bank-reconciliation-overview.md).
 -   Format du fichier de message de relevé bancaire ISO 20022 camt.053.
 -   Format du fichier de relevé bancaire CODA. Pour plus d'informations, voir [Relevé bancaire CODA](emea-bel-coda-bank-statement-import.md).
 
 ## <a name="customer-and-vendor-payments-import-and-return-messages"></a>Messages d'importation et de retour des paiements client et fournisseur
-Outre un relevé bancaire, les banques peuvent fournir des messages spécifiques, contenant des informations sur les paiements client ou fournisseur, qui peuvent être importés dans Dynamics 365 for Operations et rapprochés avec les transactions client et fournisseur. Lorsqu'une société doit recevoir des informations sur les transactions de paiements client entrants de la banque, les formats d'importation peuvent être utilisés. Pour les sociétés qui utilisent le transfert de débit et de crédit direct, les messages de retour peuvent être reçus pour mettre à jour le statut des paiements qui ont été précédemment exportés. La différence entre les formats d'importation et les formats de retour est que les retours visent principalement à mettre à jour les lignes de journal des paiements déjà créées (elles peuvent être créées lors du lancement du transfert de débit ou de crédit direct) au lieu de créer de nouvelles lignes. Certains formats d'importation complexes peuvent également inclure des scénarios de retour. L'exemple suivant montre comment cette division doit être implémentée.
+Outre un relevé bancaire, les banques peuvent fournir des messages spécifiques, contenant des informations sur les paiements client ou fournisseur, qui peuvent être importés dans Finance and Operations et rapprochés avec les transactions client et fournisseur. Lorsqu'une société doit recevoir des informations sur les transactions de paiements client entrants de la banque, les formats d'importation peuvent être utilisés. Pour les sociétés qui utilisent le transfert de débit et de crédit direct, les messages de retour peuvent être reçus pour mettre à jour le statut des paiements qui ont été précédemment exportés. La différence entre les formats d'importation et les formats de retour est que les retours visent principalement à mettre à jour les lignes de journal des paiements déjà créées (elles peuvent être créées lors du lancement du transfert de débit ou de crédit direct) au lieu de créer de nouvelles lignes. Certains formats d'importation complexes peuvent également inclure des scénarios de retour. L'exemple suivant montre comment cette division doit être implémentée.
 
 ##### <a name="import-formats"></a>Formats d'importation
 

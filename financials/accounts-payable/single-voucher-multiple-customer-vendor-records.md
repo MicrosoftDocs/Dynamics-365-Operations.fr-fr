@@ -1,15 +1,15 @@
 ---
 title: "N° de document unique avec plusieurs enregstrements client ou fournisseur"
-description: "Cette rubrique fournit une vue d&quot;ensemble de ce qui se produit lorsque vous validez un N° de document unique avec plusieurs enregistrements client ou fournisseur. Cette fonctionnalité sera arrêtée dans les futures versions de Microsoft Dynamics 365 for Operations, par conséquent, il n&quot;est pas recommandé d&quot;utiliser cette méthode de validation en raison de l&quot;impact comptable qu&quot;elle a sur le traitement des règlements."
+description: "Cette rubrique fournit une vue d'ensemble de ce qui se produit lorsque vous validez un N° de document unique avec plusieurs enregistrements client ou fournisseur. Cette fonctionnalité sera arrêtée dans les futures versions de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Par conséquent, il n'est pas recommandé d'utiliser cette méthode de validation en raison de l'impact comptable qu'elle a sur le traitement des règlements."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 222534
 ms.assetid: d4df11ce-4d36-4c66-8230-f5fc58e021bc
 ms.search.region: global
@@ -17,10 +17,10 @@ ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b1038ea950141f0e7d4678cac9edd3b0bd5beb6f
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 31040ff14b99a9b351268feb88698ac706befb55
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Cette rubrique fournit une vue d'ensemble de ce qui se produit lorsque vous validez un N° de document unique avec plusieurs enregistrements client ou fournisseur. Cette fonctionnalité sera arrêtée dans les futures versions de Microsoft Dynamics 365 for Operations, par conséquent, il n'est pas recommandé d'utiliser cette méthode de validation en raison de l'impact comptable qu'elle a sur le traitement des règlements. 
+Cette rubrique fournit une vue d'ensemble de ce qui se produit lorsque vous validez un N° de document unique avec plusieurs enregistrements client ou fournisseur. Cette fonctionnalité sera arrêtée dans les futures versions de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Par conséquent, il n'est pas recommandé d'utiliser cette méthode de validation en raison de l'impact comptable qu'elle a sur le traitement des règlements. 
 
 Certains exemples courants dans lesquels un N° de document est utilisé pour plusieurs clients ou fournisseurs incluent les transferts de solde entre clients, et les soldes de compensation entre clients et fournisseurs de la même organisation. 
 
@@ -162,7 +162,7 @@ Désormais, lorsque INV2 est payée, l'écriture suivante est effectuée. Notez 
 | 14000056    | 200110-001- | Solde fournisseur     |                                          | -2,00                                   |
 
 ## <a name="one-voucher-for-balance-transfers-and-netting-scenarios"></a>Un N° de document pour les transferts de bilan et les scénarios de compensation
-Deux scénarios utilisés couramment qui utilisent un N° de document contenant plusieurs clients ou fournisseurs incluent des transferts de solde à partir d'un client/fournisseur vers un autre client/fournisseur, et la compensation d'un client et d'un fournisseur de la même organisation. Les deux exemples suivants illustrent la méthode conseillée pour entrer ces scénarios dans Dynamics 365 for Operations, comme alternative à leur entrée dans un N° de document. 
+Deux scénarios utilisés couramment qui utilisent un N° de document contenant plusieurs clients ou fournisseurs incluent des transferts de solde à partir d'un client/fournisseur vers un autre client/fournisseur, et la compensation d'un client et d'un fournisseur de la même organisation. Les deux exemples suivants illustrent la méthode conseillée pour entrer ces scénarios dans Finance and Operations, comme alternative à leur entrée dans un N° de document. 
 
 Un *transfert de solde* est un N° de document avec plusieurs clients, entrés afin de transférer le solde d'un client vers un autre client (identique pour les fournisseurs). Ce scénario peut survenir lorsque la responsabilité du règlement de la facture passe à un tiers, telle qu'une société enfant déplaçant la responsabilité à une société parente. 
 
@@ -176,7 +176,7 @@ Pour illustrer cela, supposons que la vente suivante est effectuée au client AC
 | 401100-002-023-    | Produit          |           | 100        |
 | 130100-002-        | Client - Solde | 100       |            |
 
-Ensuite, l'utilisateur transfère le solde dû d'ACME vers la compagnie d'assurance, dans un N° de document du journal des paiements de la Comptabilité fournisseur. Dans Dynamics 365 for Operations, la compagnie d'assurance est paramétrée comme assurance du client.
+Ensuite, l'utilisateur transfère le solde dû d'ACME vers la compagnie d'assurance, dans un N° de document du journal des paiements de la Comptabilité fournisseur. Dans Finance and Operations, la compagnie d'assurance est paramétrée comme assurance du client.
 
 |             |                  |             |                 |           |            |                 |                    |
 |-------------|------------------|-------------|-----------------|-----------|------------|-----------------|--------------------|

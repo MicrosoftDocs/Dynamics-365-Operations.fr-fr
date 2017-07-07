@@ -1,9 +1,9 @@
 ---
 title: "Objets de coût"
-description: "Cet article fournit des informations sur les objets de coûts, et explique comment les coûts et les quantités sont accumulés. Un objet de coût est une entité pour laquelle des coûts et des quantités sont accumulés. Une entité d&quot;objet de coûts peut être un produit ou des variantes de produit, telles que des variantes de style et de couleur."
+description: "Cet article fournit des informations sur les objets de coûts, et explique comment les coûts et les quantités sont accumulés. Un objet de coût est une entité pour laquelle des coûts et des quantités sont accumulés. Une entité d'objet de coûts peut être un produit ou des variantes de produit, telles que des variantes de style et de couleur."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventCostOnhandItem
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 19451
 ms.assetid: ec776b98-813a-490d-848f-468452d98fac
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c818bfac6645b71bcc8b2249534aa80907786651
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 823d3edd106925339607d01fbf5f1921b85ff244
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -76,11 +76,11 @@ Le tableau suivant présente ce qui est un objet de coût et ce qui est un objet
 
 [Groupe de dimensions de produit](https://technet.microsoft.com/en-us/library/aa499382.aspx)
 
-[Groupe de dimensions de stockage](https://technet.microsoft.com/en-us/library/hh209317.aspx)
+[Groupe de dimension de stockage](https://technet.microsoft.com/en-us/library/hh209317.aspx)
 
 [Groupe de dimensions de suivi](https://technet.microsoft.com/en-us/library/hh209465.aspx)
 
-[Nouveautés ou modifications dans Microsoft Dynamics AX](/dynamics365/operations/dev-itpro/get-started/whats-new-changed)
+[Nouveautés ou changements](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed)
 
 [Écritures de coût](cost-entries.md)
 

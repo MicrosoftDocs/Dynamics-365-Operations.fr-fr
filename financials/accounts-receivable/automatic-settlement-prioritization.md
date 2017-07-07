@@ -3,7 +3,7 @@ title: "Règlement automatique et attribution de priorités"
 description: "Cet article décrit la manière dont les transactions sont réglées si vous sélectionnez le Règlement automatique dans la page de paramètres de la Comptabilité client. Il décrit également comment le règlement automatique peut être utilisé en combinaison avec la priorité de paiement."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustOpenTrans, CustParameters, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14531
 ms.assetid: e7837cf6-ec69-44b4-8d47-eba38d5c7b1f
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 890de45f8425bdc59ca2fd2ed8297ab3690cc98d
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 3e2ca11eef4246d5abfd77351325ac2b4440b446
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -34,7 +34,7 @@ ms.lasthandoff: 05/25/2017
 
 Cet article décrit la manière dont les transactions sont réglées si vous sélectionnez le Règlement automatique dans la page de paramètres de la Comptabilité client. Il décrit également comment le règlement automatique peut être utilisé en combinaison avec la priorité de paiement.
 
-Vous avez deux options lorsque vous réglez des paiements avec des factures et d'autres transactions. Vous pouvez sélectionner manuellement les transactions à régler ou Microsoft Dynamics 365 for Operations peut sélectionner les transactions automatiquement à l'aide de la fonctionnalité de règlement automatique. Vous pouvez également personnaliser la manière dont les règlements automatiques sont traités à l'aide de l'option **Classer le règlement par ordre de priorité**. Toutes ces options font partie des paramètres de règlement définis dans la page **Paramètres de la comptabilité client**. La manière dont les transactions sont réglées automatiquement peut varier, en fonction de la méthode que vous utilisez pour le règlement automatique. Les méthodes disponibles sont les suivantes :
+Vous avez deux options lorsque vous réglez des paiements avec des factures et d'autres transactions. Vous pouvez sélectionner manuellement les transactions à régler ou Microsoft Dynamics 365 for Finance and Operations peut sélectionner les transactions automatiquement à l'aide de la fonctionnalité de règlement automatique. Vous pouvez également personnaliser la manière dont les règlements automatiques sont traités à l'aide de l'option **Classer le règlement par ordre de priorité**. Toutes ces options font partie des paramètres de règlement définis dans la page **Paramètres de la comptabilité client**. La manière dont les transactions sont réglées automatiquement peut varier, en fonction de la méthode que vous utilisez pour le règlement automatique. Les méthodes disponibles sont les suivantes :
 
 -   Priorité de règlement définie par l'utilisateur
 -   Règlement automatique par défaut

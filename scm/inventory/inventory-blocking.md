@@ -1,16 +1,16 @@
 ---
 title: Blocage du stock
-description: "Cet article fournit une vue d&quot;ensemble du blocage du stock qui fait partie du processus d&quot;inspection de qualité dans Microsoft Dynamics AX. Vous pouvez utiliser le blocage du stock pour empêcher des articles d&quot;être traités ou consommés."
+description: "Cet article fournit une vue d'ensemble du blocage du stock qui fait partie du processus d'inspection de qualité dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Vous pouvez utiliser le blocage du stock pour empêcher des articles d'être traités ou consommés."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventBlocking, InventQualityOrderTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 2094
 ms.assetid: 1968e32f-eff9-4c17-8f7f-a870f0c38fbc
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 089198f0197427654740da74985001b979f090a3
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 4c5ebea58630188615fb4c22cc9da5215461e513
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Cet article fournit une vue d'ensemble du blocage du stock qui fait partie du processus d'inspection de qualité dans Microsoft Dynamics AX. Vous pouvez utiliser le blocage du stock pour empêcher des articles d'être traités ou consommés.
+Cet article fournit une vue d'ensemble du blocage du stock qui fait partie du processus d'inspection de qualité dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Vous pouvez utiliser le blocage du stock pour empêcher des articles d'être traités ou consommés.
 
 Les méthodes suivantes permettent de bloquer les articles en stock :
 -   Manuellement
