@@ -1,27 +1,27 @@
 ---
 title: "Afficher les états financiers"
-description: "Cet article décrit comment afficher et explorer des états financiers dans Microsoft Dynamics AX. Il inclut des informations sur les différentes options que vous pouvez appliquer à des états financiers pour modifier leur apparence et les données qu’ils incluent."
-author: RobinARH
+description: "Cet article décrit comment afficher et explorer les états financiers dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Il inclut des informations sur les différentes options que vous pouvez appliquer à des états financiers pour modifier leur apparence et les données qu’ils incluent."
+author: kweekley
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: RobinARH
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: shylaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 10334
 ms.assetid: d20f435f-fb65-4068-ab09-7efc7be683a6
 ms.search.region: Global
-ms.author: aolson
+ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 8b02dbc0181c08611674cdf571075c20d78cebdc
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 102031174417a33b12c32f6b8185556b8c4701e5
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Cet article décrit comment afficher et explorer des états financiers dans Microsoft Dynamics AX. Il inclut des informations sur les différentes options que vous pouvez appliquer à des états financiers pour modifier leur apparence et les données qu’ils incluent.
+Cet article décrit comment afficher et explorer les états financiers dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Il inclut des informations sur les différentes options que vous pouvez appliquer à des états financiers pour modifier leur apparence et les données qu’ils incluent.
 
 <a name="financial-reporting-overview"></a>Présentation des états financiers
 ----------------------------
@@ -64,7 +64,7 @@ Vous pouvez actualiser (mettre à jour) un état financier afin qu'il affiche le
 Après avoir mis un état financier à jour, vous pouvez le publier. D'autres personnes de l'organisation peuvent ensuite l'afficher. Pour publier un état, dans le Volet Action, cliquez sur **Publier**.
 
 ## <a name="display-a-financial-report-in-a-different-currency"></a>Afficher un état financier dans une devise différente
-Un état financier peut être affiché dans n'importe quelle devise, à tout moment. Pour afficher un état dans une devise différente, dans le Volet Action, cliquez sur **Devise**, puis sélectionnez une devise. L'état est converti en cette devise, et les résultats sont affichés. Tous les codes devise ou les symboles inclus dans le cadre de la création de l'état sont mis à jour pour refléter la nouvelle devise. Les devises qui apparaissent dans la liste sont les devises de génération d'état qui sont configurées dans Microsoft Dynamics AX.
+Un état financier peut être affiché dans n'importe quelle devise, à tout moment. Pour afficher un état dans une devise différente, dans le Volet Action, cliquez sur **Devise**, puis sélectionnez une devise. L'état est converti en cette devise, et les résultats sont affichés. Tous les codes devise ou les symboles inclus dans le cadre de la création de l'état sont mis à jour pour refléter la nouvelle devise. Les devises qui apparaissent dans la liste sont les devises de génération d'état qui sont configurées dans Finance and Operations.
 
 ## <a name="display-a-summarized-view-of-the-financial-report"></a>Afficher une vue de synthèse de l'état financier
 Un état financier peut contenir des lignes spécifiques et les lignes récapitulatives. Les lignes spécifiques sont des lignes contenant les comptes principaux ou des dimensions. Les lignes récapitulatives sont des lignes de description, de total et de calcul. Pour afficher seulement les lignes récapitulatives d'un état, cliquez sur **Afficher**, puis sur **Lignes de synthèse uniquement**. L'état est réduit et affiche uniquement les lignes récapitulatives. Pour afficher les lignes spécifique avec les lignes récapitulatives, cliquez sur **Afficher**, puis de nouveau sur **Lignes de synthèse uniquement**.
@@ -88,7 +88,8 @@ Pour exporter un état financier, dans le Volet Action, cliquez sur **Exporter**
 <a name="see-also"></a>Voir également :
 --------
 
-[Génération d'états financiers pour Microsoft Dynamics AX](/dynamics365/operations/dev-itpro/analytics/financial-reporting-intro)
+[Génération d'états financiers pour Microsoft Dynamics AX](/dynamics365/unified-operations/dev-itpro/analytics/financial-reporting-intro)
+
 
 
 

@@ -1,9 +1,9 @@
 ---
-title: "Vue d&quot;ensemble du rapprochement bancaire avancé"
-description: "Cet article décrit le flux du processus de rapprochement bancaire avancé. La fonctionnalité avancée de rapprochement bancaire permet d&quot;importer des relevés bancaires qui peuvent être automatiquement rapprochés dans les transactions bancaires."
+title: "Vue d'ensemble du rapprochement bancaire avancé"
+description: "Cet article décrit le flux du processus de rapprochement bancaire avancé. La fonctionnalité avancée de rapprochement bancaire permet d'importer des relevés bancaires qui peuvent être automatiquement rapprochés dans les transactions bancaires."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: BankReconciliationMatchRule
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 22104
 ms.assetid: b0705653-1fa6-4d94-9728-bcf9fb387ad1
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: deba55d5e1e376f3f4063f372bfe853fcaf20498
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 67cd622d7766e5b177ccc58398431b007e8bda4e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -42,12 +42,12 @@ La fonctionnalité de rapprochement bancaire avancé vous permet d'importer des 
     -   La fonctionnalité peut être étendue à n'importe quel format.
 
 2.  Paramétrer une souche de numéros à utiliser pour le rapprochement bancaire avancé, puis définissez les règles de correspondance du rapprochement bancaire.
-    -   Une règle de correspondance de rapprochement est un ensemble de critères utilisés pour filtrer les lignes de relevé bancaire et les lignes de transactions bancaires Microsoft Dynamics 365 for Operations lors du processus de rapprochement. En fonction des procédures de votre entreprise, vous pouvez paramétrer plusieurs règles de correspondance pour automatiser et optimiser votre processus de rapprochement.
+    -   Une règle de correspondance de rapprochement est un ensemble de critères utilisés pour filtrer les lignes de relevé bancaire et les lignes de transactions bancaires Microsoft Dynamics 365 for Finance and Operations, Enterprise edition lors du processus de rapprochement. En fonction des procédures de votre entreprise, vous pouvez paramétrer plusieurs règles de correspondance pour automatiser et optimiser votre processus de rapprochement.
 
-3.  Rapprocher les relevés bancaires avec des transactions bancaires Dynamics 365 for Operations.
+3.  Rapprocher les relevés bancaires avec des transactions bancaires Finance and Operations.
     -   Exécuter la correspondance et la création des journaux de rapprochement automatiques.
-    -   Afficher les relevés bancaires et les transactions bancaires Dynamics 365 for Operations.
-    -   Valider automatiquement des transactions bancaires Dynamics 365 for Operations si elles figurent sur un relevé bancaire mais n'apparaissent pas dans Dynamics 365 for Operations.
+    -   Afficher les relevés bancaires et les transactions bancaires Finance and Operations.
+    -   Valider automatiquement des transactions bancaires Finance and Operations si elles figurent sur un relevé bancaire mais n'apparaissent pas dans Finance and Operations.
     -   Générer un relevé de rapprochement.
 
 

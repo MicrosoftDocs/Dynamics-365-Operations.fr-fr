@@ -1,15 +1,15 @@
 ---
-title: "Configurer une étape d&quot;approbation dans un workflow"
-description: "Cette rubrique explique comment configurer les propriétés d&quot;une étape d&quot;approbation."
+title: "Configurer une étape d'approbation dans un workflow"
+description: "Cette rubrique explique comment configurer les propriétés d'une étape d'approbation."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 192161
 ms.assetid: 8b478e3d-d6b4-403b-aae0-f639a71ca36c
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1924562f866ecdbb6fa6d3d0a9dc7627387f2d6a
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 61b3107516c7af8d1c0f4c427bdffa9be0fbc18d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -126,10 +126,10 @@ Procédez comme suit pour indiquer à qui affecter la tâche d'approbation.
     </tr>
     <tr class="even">
     <td>Utilisateur</td>
-    <td>Utilisateurs Microsoft Dynamics 365 for Operations spécifiques</td>
+    <td>Utilisateurs de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition spécifiques</td>
     <td><ol>
     <li>Sélectionnez <strong>Utilisateur</strong>, puis cliquez sur l'onglet <strong>Utilisateur</strong>.</li>
-    <li>La liste <strong>Utilisateurs disponibles</strong> inclut tous les utilisateurs Dynamics 365 for Operations. Sélectionnez les utilisateurs à qui vous souhaitez affecter l'étape, puis déplacez-les dans la liste <strong>Utilisateurs sélectionnés</strong>.</li>
+    <li>La liste <strong>Utilisateurs disponibles</strong> inclut tous les utilisateurs Finance and Operations. Sélectionnez les utilisateurs à qui vous souhaitez affecter l'étape, puis déplacez-les dans la liste <strong>Utilisateurs sélectionnés</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -229,10 +229,10 @@ Si un utilisateur ne traite pas un document dans le délai imparti, le document 
     </tr>
     <tr class="odd">
     <td>Utilisateur</td>
-    <td>Utilisateurs Dynamics 365 for Operations spécifiques</td>
+    <td>Utilisateurs Finance and Operations spécifiques</td>
     <td><ol>
     <li>Sélectionnez <strong>Utilisateur</strong>, puis cliquez sur l'onglet <strong>Utilisateur</strong>.</li>
-    <li>La liste <strong>Utilisateurs disponibles</strong> inclut tous les utilisateurs Dynamics 365 for Operations. Sélectionnez les utilisateurs à qui réaffecter le document, puis déplacez-les dans la liste <strong>Utilisateurs sélectionnés</strong>.</li>
+    <li>La liste <strong>Utilisateurs disponibles</strong> inclut tous les utilisateurs Finance and Operations. Sélectionnez les utilisateurs à qui réaffecter le document, puis déplacez-les dans la liste <strong>Utilisateurs sélectionnés</strong>.</li>
     </ol></td>
     </tr>
     </tbody>

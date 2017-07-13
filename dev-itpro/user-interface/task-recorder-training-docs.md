@@ -3,7 +3,7 @@ title: "Création d&quot;une documentation ou d&quot;une formation à l&quot;aid
 description: "Cette rubrique explique ce que sont l&quot;enregistreur de tâches et les guides de tâche, comment créer des enregistrements de tâches, et comment personnaliser les guides de tâches Microsoft et les inclure dans votre rubrique d&quot;aide."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 8b44dc66cdcd1ede59cb9bb4ed05be27dd465599
+ms.sourcegitcommit: ee6d455c44a38d9b3962ca20a5cb28007c19cf1d
+ms.openlocfilehash: e71c2638caccb9a31c5254a3cf68c802808960b9
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/17/2017
 
 
 ---
@@ -31,19 +31,22 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
-Cette rubrique explique ce que sont l'enregistreur de tâches et les guides de tâche, comment créer des enregistrements de tâches, et comment personnaliser les guides de tâches Microsoft et les inclure dans votre rubrique d'aide.
+Cette rubrique explique ce que sont l'enregistreur de tâches et les guides de tâche, comment créer des enregistrements de tâches, et comment personnaliser les guides de tâches Microsoft pour les produits Unified Operations et les inclure dans votre rubrique d'aide.
+
+> [!IMPORTANT]
+> Vous ne pouvez pas créer de guides de tâche personnalisés pour Dynamics 365 for Talent. Le système d'aide de Talent est automatiquement connecté aux guides de tâches pour le produit. 
 
 <a name="learn-about-task-recorder"></a>Découverte de l'Enregistreur de tâche
 -------------------------
 
-L'enregistreur de tâches est un outil Microsoft Dynamics 365 for Operations que vous pouvez utiliser pour enregistrer les mesures que vous prenez dans l'interface utilisateur (IU) du produit. Lorsque vous utilisez l'enregistreur de tâches, tous les événements que vous effectuez dans l'IU qui sont exécutés par rapport au serveur (notamment l'ajout de valeurs, la modification de paramètres, la suppression de données) sont capturés. Les étapes que vous enregistrez sont collectivement appelées un *enregistrement de tâche*. Les enregistrements de tâche peuvent être utilisés de plusieurs manières :
+L'enregistreur de tâches est un outil que vous pouvez utiliser pour enregistrer les actions que vous effectuez dans l'interface utilisateur du produit. Lorsque vous utilisez l'enregistreur de tâches, tous les événements que vous effectuez dans l'IU qui sont exécutés par rapport au serveur (notamment l'ajout de valeurs, la modification de paramètres, la suppression de données) sont capturés. Les étapes que vous enregistrez sont collectivement appelées un *enregistrement de tâche*. Les enregistrements de tâche peuvent être utilisés de plusieurs manières :
 
--   **Les enregistrements de tâches peuvent être lus comme guides de tâche.** Les guides de tâche sont partie intégrante de l'Aide de Dynamics 365 for Operations. Un guide de tâche est une expérience contrôlée, guidée et interactive qui parcourt les étapes d'un processus métier. L'utilisateur est invité à compléter chaque étape par une invite contextuelle (ou « bulle »), qui anime l' IU et pointe vers l'élément de l'IU avec lequel l'utilisateur doit interagir. La « bulle » fournit également des informations sur la manière d'interagir avec l'élément, par exemple « Cliquez ici » « ou « Dans ce champ, entrez une valeur ». Un Guide de tâche s'exécute pour l'ensemble de données de l'utilisateur actif et les données entrées sont enregistrées dans l'environnement de l'utilisateur.
+-   **Les enregistrements de tâches peuvent être lus comme guides de tâche.** Les guides de tâches font partie intégrante de l'expérience d'aide. Un guide de tâche est une expérience contrôlée, guidée et interactive qui parcourt les étapes d'un processus métier. L'utilisateur est invité à compléter chaque étape par une invite contextuelle (ou « bulle »), qui anime l' IU et pointe vers l'élément de l'IU avec lequel l'utilisateur doit interagir. La « bulle » fournit également des informations sur la manière d'interagir avec l'élément, par exemple « Cliquez ici » « ou « Dans ce champ, entrez une valeur ». Un Guide de tâche s'exécute pour l'ensemble de données de l'utilisateur actif et les données entrées sont enregistrées dans l'environnement de l'utilisateur.
 -   **Les enregistrements de tâche peuvent être affichés en tant que procédures décomposées en étapes dans le volet Aide.** Vous pouvez utiliser le volet Aide pour chercher et afficher des enregistrements de tâche. Vous pouvez accéder au volet Aide en cliquant sur l'icône **?** dans la barre de navigation supérieure, ou vous pouvez utiliser la combinaison de touches de raccourci, **Ctrl+Shift+?**. Vous pouvez lire les étapes d'un enregistrement de tâche dans le volet Aide, ou vous pouvez choisir de lire l'enregistrement comme guide de tâche, ce qui vous guide dans l'IU.
--   **Les enregistrements de tâches peuvent être enregistrés dans BPM.** Vous pouvez sauvegarder votre enregistrement de tâche dans une ligne de hiérarchie d'une bibliothèque BPM (Business Process Modeler) dans LCS (Lifecycle Services). Une liste des étapes et un schéma de flux de processus entreprise sera généré à partir de l'enregistrement. Les enregistrements de tâche qui ont été enregistrés dans une bibliothèque BPM peuvent être affichés dans Dynamics 365 for Operations en tant qu'aide.
+-   **Les enregistrements de tâches peuvent être enregistrés dans BPM.** Vous pouvez sauvegarder votre enregistrement de tâche dans une ligne de hiérarchie d'une bibliothèque BPM (Business Process Modeler) dans LCS (Lifecycle Services). Une liste des étapes et un schéma de flux de processus entreprise sera généré à partir de l'enregistrement. Les enregistrements de tâche qui ont été enregistrés dans une bibliothèque BPM peuvent être affichés en tant qu'aide.
 -   **Les enregistrements de tâche peuvent être enregistrés comme documents Word.** Cela permet de créer facilement des manuels de formation imprimables.
 
-Vous pouvez créer vos propres enregistrements de tâche, lire des enregistrements de tâche fournis par Microsoft, ou modifier des enregistrements de tâche Microsoft pour mieux refléter votre configuration. Pour plus d'informations sur l'enregistreur de tâche, consultez [Enregistreur de tâches dans Dynamics 365 for Operations](task-recorder.md).
+Vous pouvez créer vos propres enregistrements de tâche, lire des enregistrements de tâche fournis par Microsoft, ou modifier des enregistrements de tâche Microsoft pour mieux refléter votre configuration. Pour plus d'informations sur l'enregistreur de tâches, consultez [Enregistreur de tâches](task-recorder.md).
 
 ## <a name="plan-your-task-recording"></a>Planifier votre enregistrement de tâche
 Que vous créiez un enregistrement de tâche à partir de rien ou en le fondant sur un enregistrement Microsoft, conservez les informations suivantes à l'esprit.
@@ -83,7 +86,7 @@ Voilà à quoi ressemble l'annotation de notes dans la « bulle » dans le Gui
 
 [![screen4](./media/screen4.png)](./media/screen4.png)
 
--   **Étape d'informations** : ces annotations sont créées en cliquant avec le bouton droit sur un contrôle ou n'importe où dans un écran &lt; **Enregistreur de tâche** &lt; **Ajouter une étape d'informations. **Les étapes d'informations apparaissent comme une étape numérotée au point où vous l'insérez, même si aucune action n'a été enregistrée dans l'IU. Vous pouvez ajouter une étape d'informations au niveau de l'écran ou une étape d'informations associée à un contrôle. Lorsqu'une étape d'informations est associée à un écran, la « bulle » du guide de tâche apparaît quelque part dans l'écran, sans pointeur, lors de la lecture du guide. Lorsqu'une étape d'informations est associée à un contrôle, la « bulle » du guide de tâche pointe vers le contrôle lors de la lecture du guide. Dans le volet Aide, une annotation d'étape d'informations s'affiche comme une étape numérotée, indépendamment du texte que vous avez entré. Utilisez les étapes d'informations pour préparer l'utilisateur aux étapes suivantes, pour décrire les étapes qui doivent être effectuées en dehors de Dynamics 365 for Operations, ou pour faire référence à d'autres enregistrements (bien que vous ne puissiez pas créer d'hyperliens dans les annotations.).
+-   **Étape d'informations** : ces annotations sont créées en cliquant avec le bouton droit sur un contrôle ou n'importe où dans un écran &lt; **Enregistreur de tâche** &lt; **Ajouter une étape d'informations. **Les étapes d'informations apparaissent comme une étape numérotée au point où vous l'insérez, même si aucune action n'a été enregistrée dans l'IU. Vous pouvez ajouter une étape d'informations au niveau de l'écran ou une étape d'informations associée à un contrôle. Lorsqu'une étape d'informations est associée à un écran, la « bulle » du guide de tâche apparaît quelque part dans l'écran, sans pointeur, lors de la lecture du guide. Lorsqu'une étape d'informations est associée à un contrôle, la « bulle » du guide de tâche pointe vers le contrôle lors de la lecture du guide. Dans le volet Aide, une annotation d'étape d'informations s'affiche comme une étape numérotée, indépendamment du texte que vous avez entré. Utilisez les étapes d'informations pour préparer l'utilisateur aux étapes suivantes, pour décrire les étapes qui doivent être effectuées en dehors de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, ou pour faire référence à d'autres enregistrements (bien que vous ne puissiez pas créer d'hyperliens dans les annotations.).
 
 **Déterminez la longueur votre enregistrement**
 
@@ -101,7 +104,7 @@ Pour les étapes détaillées du parcours, voir [Création d'un enregistrement d
 ## <a name="copy-and-customize-microsofts-task-recordings"></a>Copie et personnalisation des enregistrements de tâche Microsoft
 Vous pouvez télécharger et modifier les enregistrements de tâche de Microsoft pour les utiliser pour votre propre documentation d'aide ou vos propres supports de formation. Pour télécharger un enregistrement de tâche Microsoft, procédez comme suit :
 
-1.  Dans Microsoft Dynamics 365 for Operations, ouvrez l'Enregistreur de tâche. L'enregistreur de tâche se trouve dans le menu **Paramètres**.
+1.  Ouvrez l'enregistreur de tâches. L'enregistreur de tâche se trouve dans le menu **Paramètres**.
 2.  Dans le volet Enregistreur de tâche, cliquez sur **Tenir à jour un enregistrement.**
 3.  Sous **Où est l'enregistrement**, cliquez sur **Il est dans une bibliothèque LCS**.
 4.  Cliquez sur **Sélectionner la bibliothèque LCS**.
@@ -119,18 +122,13 @@ Pour afficher vos propres enregistrements personnalisés de tâche dans le volet
 <a name="see-also"></a>Voir également :
 --------
 
-[Aide de Dynamics 365 for Operations](..\get-started\help-overview.md)
+[Aperçu de l'aide](..\get-started\help-overview.md)
 
-[Connexion à l'Aide](..\get-started\help-connect.md)
+[Se connecter à l'aide](..\get-started\help-connect.md)
 
-[Enregistreur de tâches de Dynamics 365 for Operations](task-recorder.md)
+[Enregistreur de tâches](task-recorder.md)
 
 [Fonctionnalités de l'enregistreur de tâches récemment ajoutées](\core\get-started\recently-added-editing-features-in-task-recorder)
 
-[Création de nouvelles bibliothèques de formation pour Dynamics AX dans les Lifecycle Services à l’aide de l’enregistreur de tâches (lien externe)](https://docs.com/mufife/163372c6-f366-4c5a-94fa-93e2c25f878a/creating-new-training-libraries-for-dynamics-ax)
-
 [Création de rubriques d'aide enrichies grâce à l'enregistreur de tâches (lien externe)](https://mbspartner.microsoft.com/AX/Videos/970)
-
-
-
 

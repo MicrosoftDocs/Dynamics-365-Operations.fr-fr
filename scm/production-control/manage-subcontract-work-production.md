@@ -1,16 +1,16 @@
 ---
 title: Gestion du travail de sous-traitance en production
-description: "Cette rubrique explique comment les opérations sous-traitées sont gérées dans Microsoft Dynamics 365 for Operations. En d&quot;autres termes, elle explique comment les opérations de production qui sont affectées à une ressource sont gérées par un fournisseur."
+description: "Cette rubrique explique comment les opérations sous-traitées sont gérées dans Microsoft Dynamics 365 for Finance and Operations. En d'autres termes, elle explique comment les opérations de production qui sont affectées à une ressource sont gérées par un fournisseur."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LeanDocumentServiceCreation, PlanActivity, ProdBOMVendorListPage, ProdRoute, ProdTable, ProdTableListPage, PurchAgreementSubcontractorLookup, RouteTable, WrkCtrResourceGroup
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 268174
 ms.assetid: fe47c498-4f48-42a2-a0cf-5436c19ab3ea
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 582807f9f416d3e6e73226dfd2e22af2d6331acd
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 0e1368d3f637143fd47c3772c811257e8472cc74
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Cette rubrique explique comment les opérations sous-traitées sont gérées dans Microsoft Dynamics 365 for Operations. En d'autres termes, elle explique comment les opérations de production qui sont affectées à une ressource sont gérées par un fournisseur.
+Cette rubrique explique comment les opérations sous-traitées sont gérées dans Microsoft Dynamics 365 for Finance and Operations. En d'autres termes, elle explique comment les opérations de production qui sont affectées à une ressource sont gérées par un fournisseur.
 
 Dans [processus de production](production-process-overview.md), le travail peut être effectué par les ressources qui sont détenues ou administrées par les fournisseurs. Généralement, les ressources fournisseur sont utilisées pour niveler une demande excédentaire périodique qui dépasse la capacité disponible des propres ressources d'une société. Le fournisseur peut également pouvoir faire une offre de [capacités de ressource](resource-capabilities.md)ou de ressources spécifiques à un prix inférieur.  
 
@@ -42,7 +42,7 @@ Lorsque des opérations ou des activités de sous-traitance sont utilisées, ell
 
 Pour les ressources internes, un taux de coût fixe est généralement affecté pour une période. En revanche, le coût des ressources sous-traitées est basée sur le prix d'achat du service associé. Le service est défini comme une autre produit, et est utilisé pour piloter les processus d'approvisionnement et d'achat pour une opération sous-traitée donnée.  
 
-Actuellement, il n'existe aucun concept explicite des produits semi-finis dans Microsoft Dynamics 365 for Operations. Pour un ordre de fabrication qui requiert une ou plusieurs opérations afin de transformer des matières premières en un produit fini, le produit fini est validé en stock uniquement dans la dernière opération. Les produits semi-finis que les opérations antérieures produisent sont comptabilisés dans les travaux en cours, mais ils ne sont ni affichés ni enregistrés. Même si vous pouvez diviser les gammes et les nomenclatures en plusieurs unités plus petites, cette approche augmente le nombre de produits, de nomenclatures et de gammes qui doivent être gérés.  
+Actuellement, il n'existe aucun concept explicite des produits semi-finis dans Microsoft Dynamics 365 for Finance and Operations. Pour un ordre de fabrication qui requiert une ou plusieurs opérations afin de transformer des matières premières en un produit fini, le produit fini est validé en stock uniquement dans la dernière opération. Les produits semi-finis que les opérations antérieures produisent sont comptabilisés dans les travaux en cours, mais ils ne sont ni affichés ni enregistrés. Même si vous pouvez diviser les gammes et les nomenclatures en plusieurs unités plus petites, cette approche augmente le nombre de produits, de nomenclatures et de gammes qui doivent être gérés.  
 
 Il existe deux méthodes pour modéliser le travail de sous-traitance pour les opérations de production. Ces méthodes diffèrent en ce sens où le processus de sous-traitance peut être modélisé, la manière dont les produits semi-finis sont représentés dans le processus, et la manière à laquelle le contrôle des coûts est géré.
 

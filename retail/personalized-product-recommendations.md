@@ -1,37 +1,38 @@
 ---
-title: "Vue d&quot;ensemble des recommandations de produit personnalisées"
-description: "Dans Dynamics 365 for Operations, les recommandations de produits peuvent être affichées sur le point de vente (PDV). Les recommandations sont des articles susceptibles d&quot;intéresser les clients en fonction de leur historique d&quot;achat, des articles de leur liste de souhaits et des articles achetés par d&quot;autres clients en ligne ou dans des magasins traditionnels. Pour les détaillants ayant de gros catalogues, les recommandations personnalisées aident le client à découvrir les produits proposés. En mettant en avant des produits ciblés selon les intérêts et les habitudes d&quot;achat des clients, les recommandations de produit peuvent aider les détaillants à réaliser des ventes de gamme supérieure/croisée, et à accroître la conservation des clients. Dans Dynamics 365 for Operations, les recommandations de produit sont fondées sur le Machine learning et les Cognitive Services de Microsoft Azure."
+title: "Vue d'ensemble des recommandations produit personnalisées"
+description: "Dans Dynamics 365 for Retail, les recommandations de produits peuvent être affichées sur le point de vente (PDV). Les recommandations sont des articles susceptibles d'intéresser les clients en fonction de leur historique d'achat, des articles de leur liste de souhaits et des articles achetés par d'autres clients en ligne ou dans des magasins traditionnels. Pour les détaillants ayant de gros catalogues, les recommandations personnalisées aident le client à découvrir les produits proposés. En mettant en avant des produits ciblés selon les intérêts et les habitudes d'achat des clients, les recommandations de produit peuvent aider les détaillants à réaliser des ventes de gamme supérieure/croisée, et à accroître la conservation des clients. Dans Dynamics 365 for Retail, les recommandations de produit sont fondées sur le Machine learning et les Cognitive Services de Microsoft Azure."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.reviewer: josaw
+ms.search.scope: Retail, Operations, Core, UnifiedOperations
 ms.custom: 259664
 ms.assetid: 5dd8db08-cd96-4f7e-9e65-b05ca815d580
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
+ms.dyn365.ops.version: Version 1611, Retail Version
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: edacd4cc9f9db59617bc579cb106e8e1017b8957
+ms.sourcegitcommit: 52a16be4b07eafb493c7fd7ad52a6d9d1bb9ee89
+ms.openlocfilehash: 492e498572f875da8ee0387b4d9aa52571211bec
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
 
-# <a name="personalized-product-recommendations-overview"></a>Vue d'ensemble des recommandations de produit personnalisées
+# <a name="personalized-product-recommendations-overview"></a>Vue d'ensemble des recommandations produit personnalisées
 
 [!include[banner](includes/banner.md)]
 
 
-Dans Dynamics 365 for Operations, les recommandations de produits peuvent être affichées sur le point de vente (PDV). Les recommandations sont des articles susceptibles d'intéresser les clients en fonction de leur historique d'achat, des articles de leur liste de souhaits et des articles achetés par d'autres clients en ligne ou dans des magasins traditionnels. Pour les détaillants ayant de gros catalogues, les recommandations personnalisées aident le client à découvrir les produits proposés. En mettant en avant des produits ciblés selon les intérêts et les habitudes d'achat des clients, les recommandations de produit peuvent aider les détaillants à réaliser des ventes de gamme supérieure/croisée, et à accroître la conservation des clients. Dans Dynamics 365 for Operations, les recommandations de produit sont fondées sur le Machine learning et les Cognitive Services de Microsoft Azure.
+Dans Dynamics 365 for Retail, les recommandations de produits peuvent être affichées sur le point de vente (PDV). Les recommandations sont des articles susceptibles d'intéresser les clients en fonction de leur historique d'achat, des articles de leur liste de souhaits et des articles achetés par d'autres clients en ligne ou dans des magasins traditionnels. Pour les détaillants ayant de gros catalogues, les recommandations personnalisées aident le client à découvrir les produits proposés. En mettant en avant des produits ciblés selon les intérêts et les habitudes d'achat des clients, les recommandations de produit peuvent aider les détaillants à réaliser des ventes de gamme supérieure/croisée, et à accroître la conservation des clients. Dans Dynamics 365 for Retail, les recommandations de produit sont fondées sur le Machine learning et les Cognitive Services de Microsoft Azure.
 
 <a name="scenarios"></a>Scénarios
 ---------
@@ -50,14 +51,14 @@ Les recommandations de produit sont activées pour les scénarios de PDV suivant
 -   Le moteur de recommandation suggère des articles selon la liste entière d'articles du panier.
 -   Si l'associé du magasin ajoute un client à la transaction, le moteur de recommandation fournit des recommandations personnelles en utilisant l'historique des transactions du client et la liste des éléments dans le panier.
 
-**Remarque**  Pour afficher les recommandations sur la page **Transaction**, le détaillant doit actualiser la mise en page de l'écran dans Dynamics 365 for Operations. Le contrôle **Recommandations** doit être déposé sur la page **Transaction**. [![transactionscreenmultipleproductslargemessengersbag-5](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
+**Remarque**  Pour afficher les recommandations sur la page **Transaction**, le détaillant doit actualiser la mise en page de l'écran dans Dynamics 365 for Retail. Le contrôle **Recommandations** doit être déposé sur la page **Transaction**. [![transactionscreenmultipleproductslargemessengersbag-5](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
 3.  Sur la page **Détails du client** :
     -   Le moteur de recommandation propose des éléments basés sur l'ID utilisateur et les éléments dans la liste de souhaits du client.
 
 [![customerdetailsrecommendations](./media/customerdetailsrecommendations.png)](./media/customerdetailsrecommendations.png)
 
-## <a name="configure-dynamics-365-for-operations-to-enable-pos-recommendations"></a>Configurer Dynamics 365 for Operations pour proposer des recommandations de PDV
+## <a name="configure-dynamics-365-for-retail-to-enable-pos-recommendations"></a>Configurer Dynamics 365 for Retail pour proposer des recommandations de PDV
 Pour paramétrer des recommandations de produit, procédez comme suit.
 
 1.  Vérifiez que vous avez sélectionné la bonne **entité juridique**.
@@ -69,13 +70,13 @@ Pour paramétrer des recommandations de produit, procédez comme suit.
 ## <a name="how-does-it-work"></a>[]()Comment ça fonctionne ?
 Lorsque vous actualisez l'entité **Magasin des entités**, les actions suivantes ont lieu.
 
--   Les données au format requis par les services cognitifs sont extraites de la base de données Dynamics 365 for Operations et envoyées au magasin des entités.
+-   Les données au format requis par les services cognitifs sont extraites de la base de données Dynamics 365 for Retail et envoyées au magasin des entités.
 -   Les données sont utilisées par Azure Data Factory (ADF) pour nettoyer les données à l'aide des scripts de ruche dans le cadre des activités ADF. Les données nettoyées sont enregistrées en stock d'objets blob.
 -   Les données du stockage d'objets blob sont utilisées par l'API de Microsoft Cognitive Services pour tester un modèle de recommandation.
 
 Lorsque vous sélectionnez **Activer les recommandations** et exécutez les tâches de configuration, les actions suivantes ont lieu.
 
--   Les informations d'identification et l'ID du modèle sont prélevés de l'API et enregistrés dans la base de données Dynamics 365 for Operations, dans le web.config pour AOS, ainsi que le serveur de vente au détail.
+-   Les informations d'identification et l'ID du modèle sont prélevés de l'API et enregistrés dans la base de données Dynamics 365 for Retail, dans le web.config pour AOS, ainsi que le serveur de vente au détail.
 -   Les informations d'identification et l'ID du modèle sont mis à la disposition de CRT afin que les appels de recommandations de produits de Cloud POS et MPOS en mode en ligne puissent être respectés.
 
 

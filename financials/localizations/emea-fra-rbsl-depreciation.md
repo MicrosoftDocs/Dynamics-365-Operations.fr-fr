@@ -1,26 +1,26 @@
 ---
 title: "Amortissement dégressif fiscal"
-description: "La méthode d&quot;amortissement dégressif fiscal est une méthode d&quot;amortissement utilisée en France. Les montants d&quot;amortissement sont calculés à l&quot;aide de la méthode d&quot;amortissement dégressif et de la méthode d&quot;amortissement linéaire. Le plus grand des deux montants d&quot;amortissement calculés est ensuite utilisé comme montant d&quot;amortissement dégressif fiscal."
+description: "La méthode d'amortissement dégressif fiscal est une méthode d'amortissement utilisée en France. Les montants d'amortissement sont calculés à l'aide de la méthode d'amortissement dégressif et de la méthode d'amortissement linéaire. Le plus grand des deux montants d'amortissement calculés est ensuite utilisé comme montant d'amortissement dégressif fiscal."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 30271
 ms.search.region: France
 ms.author: anasyash
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: db8b1b09ecb9e3cb0fc4f43831c7d71eebf57b7d
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: cb1e0cb132dcab90bd1b347e72c24ffe4a18d06a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -50,7 +50,7 @@ Lorsque vous créez une configuration **Groupe d'immobilisations/modèle de vale
 | 2020      | 143.47                            | 50.21                               | 143.47                                | 0,00               |
 | **Total** | **Non applicable**                | **Non applicable**                  | **1 000,00**                          | **Non applicable** |
 
-**Remarque :** Si vous avez amorti une immobilisation à l'aide d'un logiciel d'immobilisation différent de Microsoft Dynamics 365 for Operations, vous devez valider l'acquisition et l'amortissement cumulé dans Dynamics 365 for Operations pour la période antérieure à l'utilisation de Dynamics 365 for Operations. Par exemple, si vous avez commencé à utiliser Dynamics 365 for Operations le 1er janvier 2016, vous devez valider l'acquisition et l'amortissement cumulé dans Dynamics 365 for Operations pour la période se terminant le 31 décembre 2015. Après la validation de l'acquisition, vous devez modifier la date d'acquisition par la date correcte à partir de votre logiciel précédent et entrer la durée de vie restante de l'immobilisation. Vous pouvez ensuite amortir l'immobilisation normalement, à partir du 1er janvier 2016.
+**Remarque :** Si vous avez amorti une immobilisation à l'aide d'un logiciel d'immobilisation différent de Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, vous devez valider l'acquisition et l'amortissement cumulé dans Finance and Operations pour la période antérieure à l'utilisation de Finance and Operations. Par exemple, si vous avez commencé à utiliser Finance and Operations le 1er janvier 2016, vous devez valider l'acquisition et l'amortissement cumulé dans Finance and Operations pour la période se terminant le 31 décembre 2015. Après la validation de l'acquisition, vous devez modifier la date d'acquisition par la date correcte à partir de votre logiciel précédent et entrer la durée de vie restante de l'immobilisation. Vous pouvez ensuite amortir l'immobilisation normalement, à partir du 1er janvier 2016.
 
 
 

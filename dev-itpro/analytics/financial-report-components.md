@@ -1,9 +1,9 @@
 ---
 title: Composants des rapports financiers
-description: "Cet article décrit l’utilisation des composants ou des blocs élémentaires, de définitions d&quot;état dans la génération d’états financiers. Ces blocs élémentaires incluent les définitions de lignes, les définitions de colonnes et les définitions d&quot;arborescence de génération d&quot;états. Cet article explique comment organiser et verrouiller les blocs élémentaires et comment utiliser des groupes de blocs élémentaires."
+description: "Cet article décrit l’utilisation des composants ou des blocs élémentaires, de définitions d'état dans la génération d’états financiers. Ces blocs élémentaires incluent les définitions de lignes, les définitions de colonnes et les définitions d'arborescence de génération d'états. Cet article explique comment organiser et verrouiller les blocs élémentaires et comment utiliser des groupes de blocs élémentaires."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: ShylaThompson
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 59071
 ms.assetid: a201cfcb-1672-45f6-897d-2db2dd181d9a
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 057c338c11518b3a1081223e432cbfd109d5e679
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 5c09b1fc061f95cd78e9f18c2bdf846fdbfc7cf1
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -105,7 +105,7 @@ Vous pouvez enregistrer un groupe de blocs élémentaires existant sous un nouve
 
 ### <a name="export-a-building-block-group"></a> Exportation d'un groupe de blocs élémentaires
 
-Vous pouvez exporter un groupe de blocs élémentaires ou des blocs élémentaires d'état spécifiques dans un groupe de blocs élémentaires. Vous pouvez utiliser le groupe de blocs élémentaires exporté en tant que sauvegarde. Vous pouvez également copier les données exportées entre des groupes de blocs élémentaires ou des installations Dynamics 365 for Operations. Le concepteur d'états inclut les styles de police et ensembles de dimensions référencés avec le groupe de blocs élémentaires.
+Vous pouvez exporter un groupe de blocs élémentaires ou des blocs élémentaires d'état spécifiques dans un groupe de blocs élémentaires. Vous pouvez utiliser le groupe de blocs élémentaires exporté en tant que sauvegarde. Vous pouvez également copier les données exportées entre des groupes de blocs élémentaires ou des installations Finance and Operations. Le concepteur d'états inclut les styles de police et ensembles de dimensions référencés avec le groupe de blocs élémentaires.
 1.  Dans le Concepteur d'états, sur le menu **Société**, cliquez sur **Groupes de blocs élémentaires**.
 2.  Dans la boîte de dialogue **Groupes de blocs élémentaires**, sélectionnez le groupe de blocs élémentaires à exporter, puis cliquez sur **Exporter**.
 3.  Dans la boîte de dialogue **Exporter**, sélectionnez les définitions de rapport à exporter :

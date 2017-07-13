@@ -1,6 +1,6 @@
 ---
 title: Recherche de navigation
-description: "Cette rubrique explique comment utiliser la fonctionnalité de recherche pour accéder aux pages dans Microsoft Dynamics 365 for Operations."
+description: "Cette rubrique explique comment utiliser la fonctionnalité de recherche pour accéder aux pages dans Microsoft Dynamics 365 for Finance and Operations."
 author: aneesmsft
 manager: AnnBe
 ms.date: 04/27/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, Developer, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 25991
 ms.assetid: eef0676f-c4b1-490e-a032-e9c8580f3fea
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: df804f79d6639c118e3e0534a21423f207ceb2c7
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 431165d541c9a3b63100a93108ee770df8e88aa8
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,9 +30,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Cette rubrique explique comment utiliser la fonctionnalité de recherche pour accéder aux pages dans Microsoft Dynamics 365 for Operations.
+Cette rubrique explique comment utiliser la fonctionnalité de recherche pour accéder aux pages dans Microsoft Dynamics 365 for Finance and Operations.
 
-Microsoft Dynamics 365 for Operations propose une fonctionnalité pour un large éventail de secteurs et de marchés verticaux. L'application comprend un certain nombre de zones et de pages pour effectuer diverses tâches. Pour rechercher rapidement les pages qu'il vous faut pour effectuer vos tâches, utilisez la fonctionnalité de recherche de navigation. 
+Finance and Operations propose une fonctionnalité pour un large éventail de secteurs et de marchés verticaux. L'application comprend un certain nombre de zones et de pages pour effectuer diverses tâches. Pour rechercher rapidement les pages qu'il vous faut pour effectuer vos tâches, utilisez la fonctionnalité de recherche de navigation. 
 
 Pour utiliser cette fonction, cliquez sur l'icône **Rechercher** pour afficher la zone **Rechercher**. Vous pouvez ensuite entrer un ou plusieurs mots dans la zone. Le système recherche immédiatement les pages pertinentes dans l'application qui correspondent aux mots que vous avez entrés. Par exemple, vous pouvez taper « facture fournisseur » comme entrée, puis le système affiche les résultats correspondant à cette entrée. 
 

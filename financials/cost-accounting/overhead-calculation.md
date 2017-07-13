@@ -10,8 +10,8 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMActualVersion, CAMBudgetVersion, CAMOverheadCalculation
 audience: Application User
-ms.reviewer: annbe
-ms.search.scope: Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 272163
 ms.assetid: 93119afb-47ed-4786-ba44-ba93576d3e28
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a24c24f842e4f1b1c7806c2fb2ccbd1329fe4851
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: c040a50d9962d7a900fbef285ea1f1baea124033
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -623,7 +623,7 @@ Pour plus d'informations sur la stratégie de taux de frais généraux, voir la 
 
 ### <a name="step-4-process-the-cost-allocation-calculation"></a>Étape 4 : Traiter le calcul de répartition des coûts
 
-La répartition est utilisée pour affecter le solde d'un objet de coût à d'autres objets de coût en appliquant une base de répartition. Microsoft Dynamics 365 for Operations prend en charge la méthode de répartition réciproque. Dans la méthode de répartition réciproque, les services mutuels que les objets de coût auxiliaires échangent sont totalement identifiés. Le système détermine automatiquement l'ordre correct selon lequel exécuter les répartitions. Le solde d'un objet de coût est réparti par une seule base de répartition. Les répartitions entre plusieurs dimensions d'objets de coût et leurs membres respectifs sont prises en charge. L'ordre de répartition est contrôlé par l'unité de contrôle des coûts. [![Méthode réciproque](./media/reciprocal-method.png)]
+La répartition est utilisée pour affecter le solde d'un objet de coût à d'autres objets de coût en appliquant une base de répartition. Finance and Operations prend en charge la méthode de répartition réciproque. Dans la méthode de répartition réciproque, les services mutuels que les objets de coût auxiliaires échangent sont totalement identifiés. Le système détermine automatiquement l'ordre correct selon lequel exécuter les répartitions. Le solde d'un objet de coût est réparti par une seule base de répartition. Les répartitions entre plusieurs dimensions d'objets de coût et leurs membres respectifs sont prises en charge. L'ordre de répartition est contrôlé par l'unité de contrôle des coûts. [![Méthode réciproque](./media/reciprocal-method.png)]
 
 #### <a name="define-the-cost-allocation"></a>Définir la répartition de coût
 
@@ -724,7 +724,7 @@ L'objet de coût CC004 Emballage contribue à plusieurs objets de coûts. Un me
 </tbody>
 </table>
 
-**Remarque :** dans Dynamics 365 for Operations, les mesures statistiques telles que les heures de production qu'un produit consomme peuvent être dérivées des données sources. Pour des informations détaillées sur les fournisseurs de mesures statistiques, voir le modèle de fournisseur de mesures statistiques. (Notez que cette rubrique n'est pas complète et sera bientôt mise à jour.) Le tableau suivant présente le résultat lorsque les services HR sont utilisés comme base de répartition pour le coût total (coût fixe et coût variable).
+**Remarque :** dans Finance and Operations, les mesures statistiques telles que les heures de production qu'un produit consomme peuvent être dérivées des données sources. Pour des informations détaillées sur les fournisseurs de mesures statistiques, voir le modèle de fournisseur de mesures statistiques. (Notez que cette rubrique n'est pas complète et sera bientôt mise à jour.) Le tableau suivant présente le résultat lorsque les services HR sont utilisés comme base de répartition pour le coût total (coût fixe et coût variable).
 
 <table>
 <thead>

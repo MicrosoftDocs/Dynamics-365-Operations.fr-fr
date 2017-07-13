@@ -1,9 +1,9 @@
 ---
-title: "Délai d&quot;émission de facture"
-description: "Cet article explique comment définir les paramètres pour calculer les dates d&quot;échéance d&quot;émission des factures client et des factures fournisseur dans l&quot;Union européenne (UE)."
+title: "Délai d'émission de facture"
+description: "Cet article explique comment définir les paramètres pour calculer les dates d'échéance d'émission des factures client et des factures fournisseur dans l'Union européenne (UE)."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,17 +11,17 @@ ms.technology:
 ms.search.form: CustParameters, LedgerInvoiceIssueDueDateSetup_W
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 10923
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Iceland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 77a498e0d3081cdac39dfe4261b7e8be7b7af9e6
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 3fdd9f21964ae6d0c12225feebb6d73e852dc50e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -46,7 +46,7 @@ Le tableau suivant indique les paramétrages qui doivent être en place avant d'
 | Catégorie            | Logiciel requis                                                                                                                                                                                                                                                                                                                                                                             |
 |---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Pays/Région      | L'adresse principale de l'entité juridique doit être dans un pays membre de l'UE.                                                                                                                                                                                                                                                                                                                    |
-| Tâches associées de paramétrage | Dans la page**Intervalles de dates**, paramétrez un intervalle de dates utilisé pour calculer la date d'échéance d'émission de facture. (Cliquez sur **Comptabilité** &gt; **Paramétrage de la comptabilité** &gt; **Intervalles de dates**.) Dans la page **Paramètres du commerce extérieur**, paramétrez les propriétés du commerce extérieur pour différents pays/régions. (Cliquez sur **Taxe** &gt; **Paramétrage** &gt; **Commerce extérieur** &gt; **Paramètres du commerce extérieur**.) |
+| Tâches associées de paramétrage | Dans la page **Intervalles de dates**, paramétrez un intervalle de dates utilisé pour calculer la date d'échéance d'émission de facture. (Cliquez sur **Comptabilité** &gt; **Paramétrage de la comptabilité** &gt; **Intervalles de dates**.) Dans la page **Paramètres du commerce extérieur**, paramétrez les propriétés du commerce extérieur pour différents pays/régions. (Cliquez sur **Taxe** &gt; **Paramétrage** &gt; **Commerce extérieur** &gt; **Paramètres du commerce extérieur**.) |
 
 ## <a name="invoice-issue-due-date-calculation-rule"></a>Règle de calcul de la date d'échéance d'émission des factures
 Utilisez la page **Paramétrer le calcul pour la date d'échéance d'émission des factures** pour définir une règle de calcul pour la date d'émission des factures en affectant un code intervalle de dates à un type de pays/région.
@@ -55,7 +55,7 @@ Utilisez la page **Paramétrer le calcul pour la date d'échéance d'émission d
 Vous pouvez également définir des paramètres de contrôle de date pour garantir que les factures client et les avoirs pour les transactions client sont générés dans la période spécifiée, une fois la livraison effectuée. Vous pouvez trouver ces paramètres dans la zone **Contrôle des dates de facture** de la page **Paramètres des ventes**.
 
 ## <a name="example"></a>Exemple
-Pour paramétrer Microsoft Dynamics 365 for Operations pour calculer les dates d'échéance d'émission des factures pour les expéditions intra-européennes au 15ème jour du mois suivant une fois la livraison effectuée, créez un code intervalle de dates et une règle de calcul avec les paramètres suivants :
+Pour paramétrer Microsoft Dynamics 365 for Finance and Operations, Enterprise edition pour calculer les dates d'échéance d'émission des factures pour les expéditions intra-européennes au 15ème jour du mois suivant une fois la livraison effectuée, créez un code intervalle de dates et une règle de calcul avec les paramètres suivants :
 
 ### <a name="date-interval-code"></a>Code intervalle de dates
 

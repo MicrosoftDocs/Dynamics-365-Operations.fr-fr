@@ -1,6 +1,6 @@
 ---
 title: "Mise à jour de la planification budgétaire"
-description: "Il existe des différences significatives dans la planification budgétaire entre Microsoft Dynamics AX 2012 et Microsoft Dynamics 365 for Operations. Certaines fonctions n&quot;ont pas été mises à jour et nécessitent par conséquent une reconfiguration. Cette rubrique explique ce qui doit être reconfiguré et décrit également les nouvelles fonctions qui doivent être examinées après la mise à niveau."
+description: "Il existe des différences significatives dans la planification budgétaire entre Microsoft Dynamics AX 2012 et Microsoft Dynamics 365 for Finance and Operations. Certaines fonctions n'ont pas été mises à jour et nécessitent par conséquent une reconfiguration. Cette rubrique explique ce qui doit être reconfiguré et décrit également les nouvelles fonctions qui doivent être examinées après la mise à niveau."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/10/2017
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 272923
 ms.assetid: 17cdfe74-bdfd-466a-9bdd-c12583f250c7
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: ryansand
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: fafa323c3949c09707c81ec41edae25ad2677eeb
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 83e93df3284760c46cb95b931f32cc9990ef2db1
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -31,12 +31,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Il existe des différences significatives dans la planification budgétaire entre Microsoft Dynamics AX 2012 et Microsoft Dynamics 365 for Operations. Certaines fonctions n'ont pas été mises à jour et nécessitent par conséquent une reconfiguration. Cette rubrique explique ce qui doit être reconfiguré et décrit également les nouvelles fonctions qui doivent être examinées après la mise à niveau.  
+Il existe des différences significatives dans la planification budgétaire entre Microsoft Dynamics AX 2012 et Microsoft Dynamics 365 for Finance and Operations. Certaines fonctions n'ont pas été mises à jour et nécessitent par conséquent une reconfiguration. Cette rubrique explique ce qui doit être reconfiguré et décrit également les nouvelles fonctions qui doivent être examinées après la mise à niveau.  
 
-La planification budgétaire dans Microsoft Dynamics 365 for Operations comporte plusieurs fonctions qui n'étaient pas disponibles dans Microsoft Dynamics AX 2012. Cette rubrique explique les modifications que les clients qui mettent à niveau leur système peuvent effectuer. Elle précise également les nouvelles fonctions qui doivent être prises en compte dans le processus de mise à niveau. En raison de l'extension des modifications, aucun plan budgétaire existant ne peut être ouvert avant que les modifications expliquées dans cette rubrique ne soient effectuées. Toutefois, les états devraient fonctionner normalement et sans qu'il soit nécessaire d'apporter des modifications supplémentaires.
+La planification budgétaire dans Microsoft Dynamics 365 for Finance and Operations comporte plusieurs fonctions qui n'étaient pas disponibles dans Microsoft Dynamics AX 2012. Cette rubrique explique les modifications que les clients qui mettent à niveau leur système peuvent effectuer. Elle précise également les nouvelles fonctions qui doivent être prises en compte dans le processus de mise à niveau. En raison de l'extension des modifications, aucun plan budgétaire existant ne peut être ouvert avant que les modifications expliquées dans cette rubrique ne soient effectuées. Toutefois, les états devraient fonctionner normalement et sans qu'il soit nécessaire d'apporter des modifications supplémentaires.
 
 ## <a name="overview-of-changes"></a>Vue d'ensemble des modifications
-De nombreuses modifications importantes ont été apportées dans la budgétisation pour Dynamics 365 for Operations. Ces modifications visent à faciliter la configuration et l'utilisation de la planification budgétaire, afin de réduire la maintenance et la configuration d'une année sur l'autre. Les zones suivantes dans AX 2012 ne figurent plus dans Dynamics 365 for Operations :
+De nombreuses modifications importantes ont été apportées dans la budgétisation pour Finance and Operations. Ces modifications visent à faciliter la configuration et l'utilisation de la planification budgétaire, afin de réduire la maintenance et la configuration d'une année sur l'autre. Les zones suivantes dans AX 2012 ne figurent plus dans Finance and Operations :
 
 -   Modèles de plan budgétaire (configuration de la planification budgétaire)
 -   Dossiers de plan budgétaire (configuration de la planification budgétaire)
@@ -53,21 +53,21 @@ Les colonnes sont un nouveau concept qui remplace les parties du modèle Excel e
 
 ### <a name="layouts"></a>Mises en page
 
-Les mises en page sont un nouveau concept qui remplace le modèle Excel. Les mises en page contiennent les colonnes qui définissent quelles données et périodes réelles ou budgétaires devraient être affichées. Les mises en page sont également partagées entre le module client et Excel. Par conséquent, lorsque vous entrez ou affichez des données dans le client Dynamics 365 for Operations, l'expérience utilisateur est meilleure que celle de AX 2012. Pour entrer des données dans le client Dynamics 365 for Operations, vous n'êtes plus obligé d'afficher et d'entrer un scénario unique dans une vue de transaction. Au lieu de cela, une vue de comparaison vous permet d'afficher et d'entrer facilement des montants pour les heures et les comptes simultanément. Les mises en page peuvent également être définies pour que vous puissiez entrer et afficher la devise, les commentaires, et d'autres données facultatives. Les mises en page vous permettent également de définir les dimensions comptables et les descriptions de dimension qui doivent s'afficher. Les mises en page incorporent également des contraintes de scénario pour définir quelles colonnes dans un modèle peuvent être modifiées et quelles colonnes doivent être disponibles dans Excel. Après avoir défini une mise en page, un modèle est généré pour celle-ci. Ce modèle, à son tour, crée le modèle Excel correspondant. Vous pouvez ensuite modifier le modèle Excel pour répercuter plus de formules et plus de mises en forme, puis les télécharger de nouveau. Les mises en page sont ensuite affectées à chaque règle de stade sur la page **Processus de planification budgétaire**. Par conséquent, les mises en page remplacent les modèles, qui ont été affectés et utilisés de manière similaire.
+Les mises en page sont un nouveau concept qui remplace le modèle Excel. Les mises en page contiennent les colonnes qui définissent quelles données et périodes réelles ou budgétaires devraient être affichées. Les mises en page sont également partagées entre le module client et Excel. Par conséquent, lorsque vous entrez ou affichez des données dans le client Finance and Operations, l'expérience utilisateur est meilleure que celle de AX 2012. Pour entrer des données dans le client Finance and Operations, vous n'êtes plus obligé d'afficher et d'entrer un scénario unique dans une vue de transaction. Au lieu de cela, une vue de comparaison vous permet d'afficher et d'entrer facilement des montants pour les heures et les comptes simultanément. Les mises en page peuvent également être définies pour que vous puissiez entrer et afficher la devise, les commentaires, et d'autres données facultatives. Les mises en page vous permettent également de définir les dimensions comptables et les descriptions de dimension qui doivent s'afficher. Les mises en page incorporent également des contraintes de scénario pour définir quelles colonnes dans un modèle peuvent être modifiées et quelles colonnes doivent être disponibles dans Excel. Après avoir défini une mise en page, un modèle est généré pour celle-ci. Ce modèle, à son tour, crée le modèle Excel correspondant. Vous pouvez ensuite modifier le modèle Excel pour répercuter plus de formules et plus de mises en forme, puis les télécharger de nouveau. Les mises en page sont ensuite affectées à chaque règle de stade sur la page **Processus de planification budgétaire**. Par conséquent, les mises en page remplacent les modèles, qui ont été affectés et utilisés de manière similaire.
 
 ### <a name="budget-planning-processes"></a>Processus de planification budgétaire
 
-Les processus de planification budgétaire sont pour la plupart les mêmes que dans AX 2012. La modification la plus cruciale est le remplacement des modèles avec les mises en page. Si des processus ont été précédemment suivis dans AX 2012, ils sont mis à jour avec le statut « en cours » pour que les modifications soient appliquées. Vous devez affecter les mises en page requises pour chaque règle de stade pour déterminer les scénarios et les périodes qui apparaissent lorsque le plan est ouvert dans le client. Les mises en page déterminent également quel modèle Excel est ouvert hors de Dynamic 365 for Operations afin de pouvoir afficher le budget. **Structure de compte par défaut** est un champ obligatoire pour le processus de planification budgétaire. Pour chaque processus de planification budgétaire, affectez la principale structure de compte qui doit être utilisée pour la budgétisation.
+Les processus de planification budgétaire sont pour la plupart les mêmes que dans AX 2012. La modification la plus cruciale est le remplacement des modèles avec les mises en page. Si des processus ont été précédemment suivis dans AX 2012, ils sont mis à jour avec le statut « en cours » pour que les modifications soient appliquées. Vous devez affecter les mises en page requises pour chaque règle de stade pour déterminer les scénarios et les périodes qui apparaissent lorsque le plan est ouvert dans le client. Les mises en page déterminent également quel modèle Excel est ouvert hors de Dynamics 365 for Finance and Operations afin de pouvoir afficher le budget. **Structure de compte par défaut** est un champ obligatoire pour le processus de planification budgétaire. Pour chaque processus de planification budgétaire, affectez la principale structure de compte qui doit être utilisée pour la budgétisation.
 
 ### <a name="attachments"></a>Documents joints
 
-Dans Dynamics AX 2012, les documents justificatifs ont été enregistrés dans un dossier joint. Aucun document justificatif précédent n'est mis à niveau. Les documents justificatifs sont maintenant stockés dans la base de données. Si ces informations doivent est enregistrées dans la version mise à niveau, vous pouvez télécharger les documents justificatifs pour chaque plan en tant que pièce jointe à l'aide du bouton **Justification** du volet Actions. Dans AX 2012, les feuilles de calcul Excel pour chaque plan budgétaire ont été créées sur la base du modèle. Dans Dynamics 365 for Operations, tous les plans ouvrent une copie de la mise en page. Toutefois, aucune modification du fichier Excel n'est enregistrée. Toutes les formules ou informations de support utilisées pour chaque plan doivent être ajoutées au moyen de commentaires, de documents justificatifs, ou d'un autre processus supplémentaire.
+Dans Dynamics AX 2012, les documents justificatifs ont été enregistrés dans un dossier joint. Aucun document justificatif précédent n'est mis à niveau. Les documents justificatifs sont maintenant stockés dans la base de données. Si ces informations doivent est enregistrées dans la version mise à niveau, vous pouvez télécharger les documents justificatifs pour chaque plan en tant que pièce jointe à l'aide du bouton **Justification** du volet Actions. Dans AX 2012, les feuilles de calcul Excel pour chaque plan budgétaire ont été créées sur la base du modèle. Dans Finance and Operations, tous les plans ouvrent une copie de la mise en page. Toutefois, aucune modification du fichier Excel n'est enregistrée. Toutes les formules ou informations de support utilisées pour chaque plan doivent être ajoutées au moyen de commentaires, de documents justificatifs, ou d'un autre processus supplémentaire.
 
 ## <a name="configuring-an-upgraded-environment-from-ax-2012"></a>Configurer un environnement mis à niveau depuis AX 2012
 Pour vous aider à déterminer comment configurer le système mis à niveau, l'exemple suivant illustre un processus de mise à niveau du budget à partir des données de démonstration d'AX 2012. Les données de configuration par défaut pour les colonnes ont été créées pour vous aider lors du processus de mise à niveau. Vous pouvez mettre à jour ou supprimer ces données par défaut si elles ne répondent pas à vos exigences de configuration. **Remarque :** il y a de nouveaux champs obligatoires qui ne sont pas définis dans le système. Si vous êtes coincé sur une page, telle que la page **Configuration de planification budgétaire**, et ne pouvez pas accéder à d'autres pages, vous pouvez fermer votre navigateur puis le rouvrir à une autre page pour entrer les détails dans l'ordre correct. Il existe des champs obligatoires qui ne sont pas encore définis. Par conséquent, des problèmes peuvent se produire jusqu'à ce que tout soit configuré et tous les champs requis aient été définis. Cette rubrique explique comment définir ces champs, tel que réquis. Voici quelques exemples de champs requis :
 
--   Page**Processus de planification budgétaire** : champ **Structure de compte par défaut**
--   Page**Processus de planification budgétaire** : champ **Mise en page** sur l'organisateur **Règles et mises en page du stade de planification budgétaire**
+-   Page **Processus de planification budgétaire** : champ **Structure de compte par défaut**
+-   Page **Processus de planification budgétaire** : champ **Mise en page** sur l'organisateur **Règles et mises en page du stade de planification budgétaire**
 
 ### <a name="define-columns-and-layouts"></a>Définir les colonnes et les mises en page
 
@@ -75,7 +75,7 @@ Pour vous aider à déterminer comment configurer le système mis à niveau, l'e
     -   Scénarios de plan budgétaire : Chiffres réels, Référence, Demande budgétaire, Budget approuvé
     -   Lignes de plan budgétaire pour tous les scénarios en 2017, et chiffres réels pour 2017 et 2016
 
-    Les colonnes suivantes sont créées dans Dynamics 365 for Operations :
+    Les colonnes suivantes sont créées dans Finance and Operations :
     | Nom de la colonne    | Scénario de plan budgétaire | Période de la colonne | Contrepartie de l'année |
     |----------------|----------------------|--------------------|-------------|
     | Scénario 1 Janvier | Chiffres réels              | 1                  | 0           |
@@ -128,7 +128,7 @@ Les options suivantes ont été ajoutées en tant que processus périodiques. Ce
 
 ### <a name="more-complete-tracking-of-amounts"></a>Suivi plus complet des montants
 
-Dans Dynamics AX 2012, la planification budgétaire comportait un seul montant de plan qui était enregistré pour chaque valeur. Dans Dynamics 365 for Operations, le modèle de données a été développé. Il existe désormais des montants de devise comptable, de devise de la transaction et de devise de déclaration pour chaque valeur. Pendant la mise à niveau, les nouvelles colonnes sont automatiquement renseignées pour les données existantes.
+Dans Dynamics AX 2012, la planification budgétaire comportait un seul montant de plan qui était enregistré pour chaque valeur. Dans Finance and Operations, le modèle de données a été développé. Il existe désormais des montants de devise comptable, de devise de la transaction et de devise de déclaration pour chaque valeur. Pendant la mise à niveau, les nouvelles colonnes sont automatiquement renseignées pour les données existantes.
 
 ### <a name="do-not-convert-currency-in-aggregation"></a>Ne pas convertir la devise en agrégation
 

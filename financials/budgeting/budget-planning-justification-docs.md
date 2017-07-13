@@ -3,13 +3,13 @@ title: "Documents justificatifs de planification budgétaire"
 description: "Les documents justificatifs fournissent des informations narratives pour ceux qui demandent un budget pour expliquer pourquoi un budget spécifique est nécessaire."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 259594
 ms.assetid: 52576fad-32b9-48f2-8197-c11ec313fc29
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 6178addb9226912feb1974793525ab4ba9441193
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 1d23c0e1725a39d25d2be8971f541b2c31bbe859
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -46,7 +46,7 @@ Un modèle de plan budgétaire est créé par le responsable du budget dans Micr
 
 1.  Cliquez sur **Créer** dans le complément Office Microsoft Dynamics une fois que vous êtes connecté.
 2.  Pour les informations d'en-tête, utilisez le bouton **Ajouter des champs**.
-3.  Sélectionnez la source de données d'entité BudgetPlanJustification, puis cliquez sur **Suivant**. **Remarque :** cette entité est requise pour tout document justificatif. D'autres entités peuvent être utilisées mais le téléchargement vers Microsoft Dynamics 365 for Operations échouera si cette entité n'est pas incluse.
+3.  Sélectionnez la source de données d'entité BudgetPlanJustification, puis cliquez sur **Suivant**. **Remarque :** cette entité est requise pour tout document justificatif. D'autres entités peuvent être utilisées mais le téléchargement vers Microsoft Dynamics 365 for Finance and Operations, Enterprise edition échouera si cette entité n'est pas incluse.
 4.  Ajoutez les étiquettes et les valeurs BudgetPlanName, BudgetPlanPreparer, ResponsibilityCenter et DocumentNumber dans le document Word. **Remarque :** vous pouvez utiliser vos propres étiquettes personnalisées au lieu des étiquettes standard, si nécessaire.
 5.  Cliquez sur **Terminé** pour terminer la section d'en-tête.
 6.  Pour le détail au niveau de la ligne des montants du plan budgétaire, cliquez sur **Ajouter une table**.
@@ -57,7 +57,7 @@ Un modèle de plan budgétaire est créé par le responsable du budget dans Micr
 
 ##### <a name="set-up-the-budget-planning-process-to-use-the-justification-template"></a>Paramétrer le processus de planification budgétaire pour utiliser le modèle de justification
 
-1.  Dans Microsoft Dynamics 365 for Operations, accédez à **Budgétisation** &gt; **Paramétrage** &gt; **Planification budgétaire** &gt; **Modèles de document justificatif**.
+1.  Dans Finance and Operations, accédez à **Budgétisation** &gt; **Paramétrage** &gt; **Planification budgétaire** &gt; **Modèles de document justificatif**.
 2.  Cliquez sur **Nouveau** et accédez à votre document Microsoft Word nouvellement créé.
 3.  Entrez un nom complet et une description pour le modèle. Cliquez sur **OK**.
 4.  Accédez à **Budgétisation** &gt; **Paramétrage** &gt; **Planification** **budgétaire** &gt; **Processus de planification budgétaire**.
@@ -66,7 +66,7 @@ Un modèle de plan budgétaire est créé par le responsable du budget dans Micr
 
 ##### <a name="edit-and-save-personalized-justification-documents"></a>Modifier et enregistrer les documents justificatifs personnalisés
 
-1.  Dans Dynamics 365 for Operations, créez un plan budgétaire ou ouvrez un plan budgétaire existant.
+1.  Dans Finance and Operations, créez un plan budgétaire ou ouvrez un plan budgétaire existant.
 2.  Dans le menu déroulant **Justification**, sélectionnez **Créer une justification**.
 3.  Après avoir renseigné les détails, sélectionnez pour télécharger le document personnalisé à partir du menu déroulant **Justification**.
 

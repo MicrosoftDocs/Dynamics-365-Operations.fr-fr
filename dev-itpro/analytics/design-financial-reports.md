@@ -1,16 +1,16 @@
 ---
 title: "Afficher et créer des états financiers"
-description: "Cet article propose des exercices qui traitent de l&quot;affichage et de la création d&quot;états financiers pour Microsoft Dynamics 365 for Operations."
+description: "Cet article propose des exercices qui traitent de l'affichage et de la création d'états financiers pour Microsoft Dynamics 365 for Finance and Operations."
 author: jcart1106
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 10814
 ms.assetid: cd5f6483-c09b-4c2d-9336-d22eb6ab6e4f
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1c0787327830d2cdff9e8a48798165dc83493393
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 0dc453ab56a2d381afa6e22d847f0b1eb7a16e7e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Cet article propose des exercices qui traitent de l'affichage et de la création d'états financiers pour Microsoft Dynamics 365 for Operations. La génération d'états financiers comprend une expérience d'affichage dans Dynamics 365 for Operations et un concepteur d'état en un clic qui permet de créer et de modifier des états financiers.  
+Cet article propose des exercices qui traitent de l'affichage et de la création d'états financiers pour Microsoft Dynamics 365 for Finance and Operations. La génération d'états financiers comprend une expérience d'affichage dans Finance and Operations et un concepteur d'état en un clic qui permet de créer et de modifier des états financiers.  
 
 <a name="exercise-1-generate-and-explore-a-default-financial-report"></a>Exercice 1 : Générez et explorez un état financier par défaut
 -----------------------------------------------------------
@@ -59,7 +59,7 @@ Pour cet exercice, vous allez générer et explorer un état existant par défau
 13. Sélectionnez **Options des états**.
 14. Sélectionnez **Ajouter un filtre de dimension**, puis sélectionnez **Unité commerciale**.
 15. Tapez 001 dans le champ et sélectionnez **OK**. L'état affiche désormais uniquement les données des unités commerciales 001. Il s'agit d'une vue personnalisée de l'état que les autres ne peuvent pas afficher.
-16. Fermez l'état filtré. Les états financiers peuvent être affichés dans n'importe quelle devise qui a été ajoutée à Dynamics 365 for Operations.
+16. Fermez l'état filtré. Les états financiers peuvent être affichés dans n'importe quelle devise qui a été ajoutée à Finance and Operations.
 17. Sélectionnez **Devise**, sélectionnez ensuite **EUR.** L'état s'affiche désormais en euros. Tous les codes devise ou symboles monétaires inclus dans la création d'état s'affichent désormais dans la devise appliquée. Si aucun symbole monétaire n'est défini pour une devise, le symbole monétaire n'est pas affiché.
 18. Fermez l'état **Détails de comptabilité**.
 19. Fermez le **Générateur d'états**.
@@ -70,7 +70,7 @@ Dans cet exercice, vous allez modifier un état existant par défaut. Vous mettr
 1.  Accédez à **États financiers** sous Recherches et états dans la comptabilité.
 2.  Sélectionnez la ligne de l'état appelée **Synthèse de balance comptable – valeur par défaut.**
 3.  Sélectionnez **Modifier**. **Synthèse de balance comptable – valeur par défaut** s'ouvre dans le concepteur d'état.
-4.  Sélectionnez **Fichier**, puis **Enregistrer sous** et nommez l'état Balance comptable détaillée avec des attributs. Remarque : à chaque fois qu'un état est créé dans le concepteur d'état, la liste des états financiers est mise à jour dans Dynamics 365 for Operations.
+4.  Sélectionnez **Fichier**, puis **Enregistrer sous** et nommez l'état Balance comptable détaillée avec des attributs. Remarque : à chaque fois qu'un état est créé dans le concepteur d'état, la liste des états financiers est mise à jour dans Finance and Operations.
 5.  À partir de la définition d'état, sélectionnez l'icône de définition de ligne pour ouvrir **Balance comptable – définition de ligne par défaut**.
 6.  Enregistrez la définition de ligne sous **Balance comptable détaillée avec des attributs**
 7.  Avec le curseur sur la ligne 50, sélectionnez **Modifier**, puis **Insérer des lignes à partir des dimensions**. Insérer des lignes à partir des dimensions permet de sélectionner les dimensions vous voudriez avoir dans votre définition de ligne. Pour cet exercice, nous allons établir la définition de ligne à l'aide du Compte principal.
@@ -183,8 +183,8 @@ Dans cet exercice, vous créerez un état. L'état est un relevé des revenus d�
 18. **Enregistrez** vos modifications et **générez**. Une fois que l'état est généré et s'ouvre, vous pouvez explorer l'état.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
-[États financiers](/dynamics365/operations/financials/general-ledger/financial-reporting-getting-started) 
-[Afficher les états financiers](/dynamics365/operations/financials/general-ledger/view-financial-reports) 
+[États financiers](/dynamics365/unified-operations/financials/general-ledger/financial-reporting-getting-started) 
+[Afficher les états financiers](/dynamics365/unified-operations/financials/general-ledger/view-financial-reports) 
 [Blog États financiers Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 

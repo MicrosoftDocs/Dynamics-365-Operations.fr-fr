@@ -1,9 +1,9 @@
 ---
 title: ID enregistrement
-description: "Cette rubrique fournit des informations sur le paramétrage et l&quot;utilisation des ID d&quot;enregistrement."
+description: "Cette rubrique fournit des informations sur le paramétrage et l'utilisation des ID d'enregistrement."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,17 +11,17 @@ ms.technology:
 ms.search.form: DirPartTaxRegistrationSearch, LogisticsPostalAddress, TaxRegistrationLegislationTypes, TaxRegistrationType
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 264824
 ms.search.region: Global
 ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: fc4a56eceb75673b7a044bd8392f8d0cc675e869
+ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
+ms.openlocfilehash: 55c25b005e9dc73713f3d4a30eab5148b17c2fec
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -57,10 +57,12 @@ Une catégorie d'enregistrement est un identificateur d'enregistrement de pays/r
 |-----------------------|----------------|
 | Type d'enregistrement     | Type d'enregistrement dans un pays/région particulier.|
 | Limité à         | Le type de restriction s'applique au type d'enregistrement de taxe : Aucun, Personne, Organisation.|
-| Catégorie d'enregistrement | Identificateur d'enregistrement unique approuvé pour être utilisé dans le pays. La liste complète des catégories AX7.1 prises en charge est répertoriée ci-dessous. |
+| Catégorie d'enregistrement | Identificateur d'enregistrement unique approuvé pour être utilisé dans le pays. Voici la liste complète des composants pris en charge dans les catégories Microsoft Dynamics 365 for Finance and Operations, Enterprise edition : |
 
 ## <a name="enter-registration-ids-for-global-address-book-records"></a>Entrer les ID d'enregistrement pour les enregistrements de carnet d'adresses global
-Le Carnet d'adresses global (GAB) dans Microsoft Dynamics 365 for Operations contient les informations d'adresse consolidées pour les clients, les fournisseurs, les contacts, les relations commerciales et les entités juridiques. Pour plus d'informations, voir [Vue d'ensemble du carnet d'adresses global](/dynamics365/operations/organization-administration/overview-global-address-book). Les enregistrements de partie qui sont enregistrés dans le carnet d'adresses global peuvent contenir un ou plusieurs enregistrements d'adresse. Ces adresses sont utilisées à des fins différentes, comme la facturation ou la livraison. Vous pouvez paramétrer des ID d'enregistrement pour les informations d'adresse des clients, des fournisseurs, des collaborateurs et des entités juridiques. Recherchez l'enregistrement de partie (entité juridique, fournisseur, client, collaborateur) pour lequel vous souhaitez entrer l'ID d'enregistrement, puis cliquez sur **ID d'enregistrement** dans les écrans associés à la partie, à l'entité juridique, au fournisseur, au client ou au collaborateur pour ouvrir la page **Gérer les adresses**. Sous l'onglet **Enregistrement de taxe**, cliquez sur **Ajouter** et entrez les informations concernant l'ID d'enregistrement.
+
+Le Carnet d'adresses global (GAB) dans Microsoft Finance and Operations contient les informations d'adresse consolidées pour les clients, les fournisseurs, les contacts, les relations commerciales et les entités juridiques. Pour plus d'informations, voir [Vue d'ensemble du carnet d'adresses global](/dynamics365/unified-operations/fin-and-ops/organization-administration/overview-global-address-book). Les enregistrements de partie qui sont enregistrés dans le carnet d'adresses global peuvent contenir un ou plusieurs enregistrements d'adresse. Ces adresses sont utilisées à des fins différentes, comme la facturation ou la livraison. Vous pouvez paramétrer des ID d'enregistrement pour les informations d'adresse des clients, des fournisseurs, des collaborateurs et des entités juridiques. Recherchez l'enregistrement de partie (entité juridique, fournisseur, client, collaborateur) pour lequel vous souhaitez entrer l'ID d'enregistrement, puis cliquez sur **ID d'enregistrement** dans les écrans associés à la partie, à l'entité juridique, au fournisseur, au client ou au collaborateur pour ouvrir la page **Gérer les adresses**. Sous l'onglet **Enregistrement de taxe**, cliquez sur **Ajouter** et entrez les informations concernant l'ID d'enregistrement.
+
 
 |Champ                |description ;                                                |
 |---------------------|-----------------------------------------------------------|
@@ -80,23 +82,23 @@ Le Carnet d'adresses global (GAB) dans Microsoft Dynamics 365 for Operations co
 La recherche d'enregistrements de partie basée sur un ID d'enregistrement est disponible dans les écrans associés à la partie, à l'entité juridique, au fournisseur, au client et au collaborateur. Cliquez sur **Recherche d'ID d'enregistrement** pour ouvrir la page **Critères de recherche d'ID d'enregistrement**. Spécifiez les critères de recherche et cliquez sur **Rechercher**. Le système affiche les enregistrements sélectionnés dans le carnet d'adresses global et les types associés d'enregistrement de partie.
 
 ## <a name="supported-registration-categories"></a>Catégories d'enregistrement prises en charge
-Le tableau suivant répertorie les types d'enregistrement pris en charge dans Dynamics 365 for Operations. Si vous connaissez les champs Microsoft Dynamics AX 2012 pour les ID d'enregistrement, ce tableau met également en correspondance ces champs avec les catégories d'enregistrement de Dynamics 365 for Operations.
+Le tableau suivant répertorie les types d'enregistrement pris en charge dans Finance and Operations. Si vous connaissez les champs Microsoft Dynamics AX 2012 pour les ID d'enregistrement, ce tableau met également en correspondance ces champs avec les catégories d'enregistrement de Finance and Operations.
 
-| Catégorie d'enregistrement de Dynamics 365 for Operations         |Pays/région  | Terme/champ Dynamics AX 2012|
+| Catégorie d'enregistrement de Finance and Operations         |Pays/région  | Terme/champ Dynamics AX 2012|
 |---------------------------------------------------------------|---------------------|---------------------------------|
-| ID TVA                                                        | Tous les pays de l'Union européenne (UE)|  Numéro identifiant TVA (ID de taxe de type législatif dans AX2012 R3)|
-| ID entreprise (COID)                                          | Belgique, République tchèque, Estonie, Hongrie, Lettonie, Lituanie, Pologne, Suisse | Numéro d'entreprise (EnterpriseNumber) Numéro d'enregistrement (RegNum\_W) Numéro d'enregistrement (RegNum\_W) Numéro d'enregistrement (RegNum\_W) Numéro d'enregistrement (RegNum\_W) Code d'entreprise (EnterpriseCode) Numéro d'enregistrement (RegNum\_W) UID (UID de type législatif dans AX2012 R3) |
+| ID TVA                                                        | Tous les pays de l'Union européenne (UE)|  Numéro identifiant TVA (ID de taxe de type législatif dans AX 2012 R3)|
+| ID entreprise (COID)                                          | Belgique, République tchèque, Estonie, Hongrie, Lettonie, Lituanie, Pologne, Suisse | Numéro d'entreprise (EnterpriseNumber) Numéro d'enregistrement (RegNum\_W) Numéro d'enregistrement (RegNum\_W) Numéro d'enregistrement (RegNum\_W) Numéro d'enregistrement (RegNum\_W) Code d'entreprise (EnterpriseCode) Numéro d'enregistrement (RegNum\_W) UID (UID de type législatif dans AX 2012 R3) |
 | ID agence                                                     | Belgique            | Numéro d'agence (BranchNumber)|
 | Spisová značka (numéro d'enregistrement, agence émettrice, section) | République tchèque     | Numéro Inset (CommercialRegisterInsetNumber) Conservé au registre commercial (CommercialRegister) Section du registre commercial (CommercialRegisterSection)|
 | Personnalise l'ID client                                           | Finlande | Numéro de client des services douaniers (CustomsCustomerNumber\_FI)|
-| INN                                                           | Fédération de Russie| INN (INN de type législatif dans AX2012 R3)|
-| RRC                                                           | Fédération de Russie| RRC (RRC de type législatif dans AX2012 R3)|
-| OKDP                                                          | Fédération de Russie| OKDP (OKDP de type législatif dans AX2012 R3)|
-| OKPO                                                          | Fédération de Russie| OKPO (OKPO de type législatif dans AX2012 R3)|
+| INN                                                           | Fédération de Russie| INN (INN de type législatif dans AX 2012 R3)|
+| RRC                                                           | Fédération de Russie| RRC (RRC de type législatif dans AX 2012 R3)|
+| OKDP                                                          | Fédération de Russie| OKDP (OKDP de type législatif dans AX 2012 R3)|
+| OKPO                                                          | Fédération de Russie| OKPO (OKPO de type législatif dans AX 2012 R3)|
 | RCOAD                                                         | Fédération de Russie| RCOAD (RCOAD de type législatif dans AX2012 R3)|
-| OGRN                                                          | Fédération de Russie| OGRN (OGRN de type législatif dans AX2012 R3) |
-| SNILS                                                         | Fédération de Russie| SNILS (SNILS de type législatif dans AX2012 R3)|
-| CIFTS                                                         | Fédération de Russie| CIFTS (CIFTS de type législatif dans AX2012 R3)|
+| OGRN                                                          | Fédération de Russie| OGRN (OGRN de type législatif dans AX 2012 R3) |
+| SNILS                                                         | Fédération de Russie| SNILS (SNILS de type législatif dans AX 2012 R3)|
+| CIFTS                                                         | Fédération de Russie| CIFTS (CIFTS de type législatif dans AX 2012 R3)|
 
 Pour plus d'informations sur le traitement des ID d'enregistrement, notamment les conditions préalables requises, consultez les enregistrements de tâche suivants pour l'ID de TVA dans Lifecycle Services (LCS) :
 

@@ -1,16 +1,16 @@
 ---
-title: "Configuration de l&quot;entrepôt"
-description: "Cet article explique comment configurer un entrepôt. Elle contient des informations sur l&quot;activation d&quot;une présentation d&quot;entrepôt et sur les processus d&quot;entrepôt."
+title: "Configuration de l'entrepôt"
+description: "Cet article explique comment configurer un entrepôt. Elle contient des informations sur l'activation d'une présentation d'entrepôt et sur les processus d'entrepôt."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventLocation, WHSLocation, WHSLocationBuild, WHSLocationProfile, WHSLocationType, WHSLocDirTable, WHSParameters, WHSWaveTemplateTable, WHSWorkPool, WHSWorkTemplateTable, WHSZone, WHSZoneGroup
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11554
 ms.assetid: 262b7b88-2cce-44f7-9a5b-77c12af1be20
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 08c086767303f6f52e085f8f56b5d09f1e46878f
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 17608d373fbedd20efe0b525ec141989a50a40a2
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -33,10 +33,10 @@ ms.lasthandoff: 05/25/2017
 
 Cet article explique comment configurer un entrepôt. Elle contient des informations sur l'activation d'une présentation d'entrepôt et sur les processus d'entrepôt.
 
-**Remarque :** cet article s'applique aux fonctionnalités du module **Gestion des entrepôts** module (entreposage avancé). Il ne s'applique pas aux fonctionnalités dédiées aux entrepôts du module**Gestion des stocks**.
+**Remarque :** cet article s'applique aux fonctionnalités du module **Gestion des entrepôts** module (entreposage avancé). Il ne s'applique pas aux fonctionnalités dédiées aux entrepôts du module **Gestion des stocks**.
 
 ## <a name="warehouse-layout"></a>Disposition de l'entrepôt
-Le système de gestion des entrepôts de Microsoft Dynamics 365 for Operations vous offre des moyens flexibles de définir la disposition de votre entrepôt pour répondre à vos besoins variables, afin de pouvoir atteindre le rendement optimal de l'entrepôt.
+Le système de gestion des entrepôts de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition vous offre des moyens flexibles de définir la disposition de votre entrepôt pour répondre à vos besoins variables, afin de pouvoir atteindre le rendement optimal de l'entrepôt.
 
 -   Vous pouvez créer des zones de stockage à priorité haute et basse pour positionner les marchandises de manière optimale.
 -   Vous pouvez diviser votre entrepôt en zones pour répondre à des besoins de stockage variés, tels qu'une température de préférence ou des taux de rotation variables d'un article à l'autre.
@@ -44,7 +44,7 @@ Le système de gestion des entrepôts de Microsoft Dynamics 365 for Operations v
 -   Vous pouvez regrouper des emplacements à l'aide des paramètres de contrainte de capacité physique.
 -   Vous pouvez contrôler la façon dont les articles sont stockés et prélevés, en fonction de règles définies par des requêtes.
 
-Pour utiliser la gestion des entrepôts dans Microsoft Dynamics 365 for Operations, vous devez créer un entrepôt et l'activer pour des activités plus avancées ou plus spécialisées de gestion des entrepôts. Dans la page **Entrepôts**, sélectionnez l'option **Utiliser les processus de gestion des entrepôts**.
+Pour utiliser la gestion des entrepôts dans Finance and Operations, vous devez créer un entrepôt et l'activer pour des activités plus avancées ou plus spécialisées de gestion des entrepôts. Dans la page **Entrepôts**, sélectionnez l'option **Utiliser les processus de gestion des entrepôts**.
 
 ### <a name="zone-groups-zones-location-types-and-locations"></a>Groupes de zones, zones, types d'emplacements et emplacements
 
@@ -56,7 +56,7 @@ Dans le cadre du processus d'activation d'une disposition d'entrepôt, vous deve
 -   **Types d'emplacements** – Un regroupement logique ou physique des emplacements dans l'entrepôt. Par exemple, vous pouvez créer un type d'emplacement pour tous les emplacements temporaires. Les paramètres obligatoires de la page **Paramètres de gestion des entrepôts** pilotent le processus de définition des types d'emplacements temporaires et de type d'emplacement final pour expédition.
 -   **Emplacements** – Le plus bas niveau d'information d'emplacement. Les emplacements sont utilisés pour suivre où le stock disponible est conservé et prélevé dans un entrepôt.
 
-Les entités que vous créez pour définir votre disposition d'entrepôt sont utilisées dans les requêtes que vous paramétrez dans les modèles de travail pour piloter les ordres d'exécution dans l'entrepôt. Par conséquent, lorsque vous définissez les zones, les types d'emplacement, etc., prenez en compte la manière dont les différentes zones de l'entrepôt sont utilisées pour différents processus. En outre, tenez compte des facteurs tels que les caractéristiques physiques d'une région spécifique. Par exemple, il peut y avoir des secteurs où vous ne pouvez utiliser qu'un certain type de chariot élévateur. Ou, si dans votre société les biens en production et finis se trouvent dans le même établissement, vous pouvez créer un seul entrepôt dans Dynamics 365 for Operations, mais séparer les deux opérations en créant deux groupes de zones. Donnez à vos entités des noms descriptifs, de sorte qu'il soit facile de les identifier si vous les utilisez dans des requêtes de modèle.
+Les entités que vous créez pour définir votre disposition d'entrepôt sont utilisées dans les requêtes que vous paramétrez dans les modèles de travail pour piloter les ordres d'exécution dans l'entrepôt. Par conséquent, lorsque vous définissez les zones, les types d'emplacement, etc., prenez en compte la manière dont les différentes zones de l'entrepôt sont utilisées pour différents processus. En outre, tenez compte des facteurs tels que les caractéristiques physiques d'une région spécifique. Par exemple, il peut y avoir des secteurs où vous ne pouvez utiliser qu'un certain type de chariot élévateur. Ou, si dans votre société les biens en production et finis se trouvent dans le même établissement, vous pouvez créer un seul entrepôt dans Finance and Operations, mais séparer les deux opérations en créant deux groupes de zones. Donnez à vos entités des noms descriptifs, de sorte qu'il soit facile de les identifier si vous les utilisez dans des requêtes de modèle.
 
 ### <a name="location-stocking-limits-location-profiles-and-fixed-picking-locations"></a>Limites de stockage d'emplacement, profils d'emplacement et emplacements de prélèvement fixes
 

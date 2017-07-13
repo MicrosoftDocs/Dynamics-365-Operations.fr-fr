@@ -3,14 +3,14 @@ title: "Terminologie du contrôle de gestion"
 description: "Cette rubrique définit les termes clés utilisées dans le contrôle de gestion."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 223114
 ms.assetid: 1c798592-77d0-4a8f-beaa-9159c75957da
 ms.search.region: global
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7ce12337c22542aea2002ffc5abd09e4f4d770c1
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 35b8e510e7e2c13aebb73f46d20b16275d097432
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -36,7 +36,7 @@ Cette rubrique définit les termes clés utilisées dans le contrôle de gestion
 
 **Contrôle de gestion**
 
-Le contrôle de gestion vous permet de collecter des données de différentes sources, telles que la comptabilité, les comptabilités auxiliaires, les budgets, et les informations statistiques. Vous pouvez ensuite analyser, résumer, et évaluer les données de coût, de sorte que la gestion puisse prendre les meilleures décisions possibles concernant les mises à jour de prix, les budgets, le contrôle des coûts, et ainsi de suite. Les données sources utilisées pour l'analyse des coûts sont traitées indépendamment dans le contrôle de gestion. Par conséquent, les mises à jour dans le contrôle de gestion n'affectent pas les données sources. Toutefois, lorsque vous regroupez des données de coût de différentes sources et, en particulier lorsque vous importez les comptes principaux de la comptabilité dans Microsoft Dynamics 365 for Operations en tant qu'éléments de coûts, il existe une redondance des données, car les mêmes données existent dans la comptabilité et le contrôle de gestion. Cette redondance est nécessaire, car vous utilisez la gestion financière pour la génération d'états externes et le contrôle des coûts pour la génération d'états internes.
+Le contrôle de gestion vous permet de collecter des données de différentes sources, telles que la comptabilité, les comptabilités auxiliaires, les budgets, et les informations statistiques. Vous pouvez ensuite analyser, résumer, et évaluer les données de coût, de sorte que la gestion puisse prendre les meilleures décisions possibles concernant les mises à jour de prix, les budgets, le contrôle des coûts, et ainsi de suite. Les données sources utilisées pour l'analyse des coûts sont traitées indépendamment dans le contrôle de gestion. Par conséquent, les mises à jour dans le contrôle de gestion n'affectent pas les données sources. Toutefois, lorsque vous regroupez des données de coût de différentes sources et, en particulier lorsque vous importez les comptes principaux de la comptabilité dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition en tant qu'éléments de coûts, il existe une redondance des données, car les mêmes données existent dans la comptabilité et le contrôle de gestion. Cette redondance est nécessaire, car vous utilisez la gestion financière pour la génération d'états externes et le contrôle des coûts pour la génération d'états internes.
 
 **Comptabilité de contrôle de gestion**
 

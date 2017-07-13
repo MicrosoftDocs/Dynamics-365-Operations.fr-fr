@@ -1,16 +1,16 @@
 ---
-title: "Modélisation d&quot;une organisation au plus juste"
-description: "L&quot;article fournit des informations sur les concepts clés de la modélisation d&quot;une organisation au plus juste."
+title: "Modélisation d'une organisation au plus juste"
+description: "L'article fournit des informations sur les concepts clés de la modélisation d'une organisation au plus juste."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LeanProductionFlow, PlanActivity
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 53141
 ms.assetid: 4f272f2f-ec2c-4b0d-a652-00a63b719b9e
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ec9191054a1b3587ebbde16acf278084cbd22660
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: c5bb642df692451e975be74bd8aa7d856b964a68
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -41,7 +41,7 @@ Dans les scénarios de production basés sur des ordres de fabrication, les mati
 
 Pour réduire les délais de livraison et le stock excédentaire entre les centres de travail provoqués par la production par lots, le concept de lean manufacturing introduit les réapprovisionnements de kanban et les supermarchés dans la fabrication et le réapprovisionnement d'entrepôt. En général, ces fonctionnalités perturbent la production des cycles de kanban partiellement indépendants. Le réapprovisionnement d'un kanban pour un produit semi-fini n'est plus déclenché par une commande pour un produit fini. 
 
-Pour rétablir un contexte de production et de coût pour les différents scénarios de kanban proposés dans Microsoft Dynamics AX, les flux de production basés sur l'activité sont présentés comme l'épine dorsale du lean manufacturing. Toutes les règles de kanban se rapportent à cette structure prédéfinie. Le modèle basé sur les activités prend en charge le paramétrage d'un éventail de scénarios supérieur aux versions précédentes de lean manufacturing pour Dynamics AX prises en charge. Toutefois, ce modèle ne complique pas les choses pour les employés de l'atelier, car tous les scénarios utilisent la même interface utilisateur basée sur les activités.
+Pour rétablir un contexte de production et de coût pour les différents scénarios de kanban proposés dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, les flux de production basés sur l'activité sont présentés comme l'épine dorsale du lean manufacturing. Toutes les règles de kanban se rapportent à cette structure prédéfinie. Le modèle basé sur les activités prend en charge le paramétrage d'un éventail de scénarios supérieur aux versions précédentes de lean manufacturing pour Dynamics AX prises en charge. Toutefois, ce modèle ne complique pas les choses pour les employés de l'atelier, car tous les scénarios utilisent la même interface utilisateur basée sur les activités.
 
 ## <a name="semi-finished-products-non-bom-levels"></a>Produits semi-finis (niveaux autres que la nomenclature)
 Lean manufacturing pour Dynamics AX intègre des kanbans pour les produits et les produits semi-finis inventoriés en une structure unique, offrant ainsi une expérience utilisateur unifiée pour tous les incidents. En raison de cette architecture, des niveaux supplémentaires de nomenclature n'ont plus besoin d'être entrés pour permettre d'utiliser des kanbans pour les produits semi-finis. Cette architecture permet également de réduire les mouvements de stock à un minimum.

@@ -1,6 +1,6 @@
 ---
-title: "Vue d&quot;ensemble du système de workflow"
-description: "Cette rubrique décrit le système de workflow dans Microsoft Dynamics 365 for Operations."
+title: "Vue d'ensemble du système de workflow"
+description: "Cette rubrique décrit le système de workflow dans Microsoft Dynamics 365 for Finance and Operations."
 author: sericks007
 manager: AnnBe
 ms.date: 04/25/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 56381
 ms.assetid: 20b78595-e1d9-439a-ae1c-a776a3438919
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 142f6f122172f717733db6f39b964c3f6f2e2f77
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 1dc7935bf92567d529d393abf3069935a387e388
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Cette rubrique décrit le système de workflow dans Microsoft Dynamics 365 for Operations.
+Cette rubrique décrit le système de workflow dans Microsoft Dynamics 365 for Finance and Operations.
 
 <a name="what-is-workflow"></a>Qu'est-ce qu'un workflow ?
 -----------------
@@ -38,7 +38,7 @@ Cette rubrique décrit le système de workflow dans Microsoft Dynamics 365 for 
 Le terme *workflow* revêt deux concepts : workflow en tant que système et workflow en tant que processus entreprise.
 ### <a name="workflow-is-a-system"></a>Un workflow est un système
 
-Un workflow est un système installé avec Dynamics 365 for Operations, qui s'exécute sur le Serveur d'objets d'application (AOS). Les fonctionnalités du système de workflow permettent de créer des workflows ou des processus entreprise.
+Un workflow est un système installé avec Finance and Operations, qui s'exécute sur le Serveur d'objets d'application (AOS). Les fonctionnalités du système de workflow permettent de créer des workflows ou des processus entreprise.
 
 ### <a name="workflow-is-a-business-process"></a>Un workflow est un processus entreprise
 

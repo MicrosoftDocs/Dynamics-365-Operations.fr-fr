@@ -1,15 +1,15 @@
 ---
 title: Retours sur ventes
-description: "Cette rubrique fournit des informations sur le processus d&quot;ordre de retour. Elle comporte des informations sur les retours client et leurs effets sur l&quot;évaluation des coûts et les quantités de stock disponible."
+description: "Cette rubrique fournit des informations sur le processus d'ordre de retour. Elle comporte des informations sur les retours client et leurs effets sur l'évaluation des coûts et les quantités de stock disponible."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 269384
 ms.assetid: 98a4b517-e606-4036-b55f-1ab248898bdf
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bdec28ba1fe3650f59520cb42a71497c54a7d93e
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: b66bf79413ad21f12f789eabafe8413af3f58c9c
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 
 Cette rubrique fournit des informations sur le processus d'ordre de retour. Elle comporte des informations sur les retours client et leurs effets sur l'évaluation des coûts et les quantités de stock disponible.
 
-Les clients peuvent retourner des articles pour différentes raisons. Par exemple, un article peut être défectueux, ou il peut ne pas répondre aux attentes du client. Le processus de retour démarre lorsqu'un client émet une demande de retour d'un article. Une fois la demande du client reçue, un ordre de retour est créé dans Microsoft Dynamics 365 for Operations.
+Les clients peuvent retourner des articles pour différentes raisons. Par exemple, un article peut être défectueux, ou il peut ne pas répondre aux attentes du client. Le processus de retour démarre lorsqu'un client émet une demande de retour d'un article. Une fois la demande du client reçue, un ordre de retour est créé dans Microsoft Dynamics 365 for Finance and Operations.
 
 ## <a name="return-order-process"></a>Processus d'ordre de retour
 L'illustration suivante fournit une vue d'ensemble du processus d'ordre de retour.  
@@ -230,7 +230,7 @@ Pour pouvoir recevoir des retours marchandises dans le stock, vous devez mettre 
 
 -   Dans l'entrepôt, le processus standard est utilisé pour effectuer une réception physique. Les validations comptables sont générées si le groupe de modèles de stock (**Valider le stock physique**) et les paramètres de la comptabilité client (**Valider le bon de livraison dans la comptabilité**) sont définis correctement.
 -   Les articles qui ont été marqués avec une action de disposition contenant le mot « rebut » sont mis au rebut, et une perte de stock est validée dans la comptabilité.
--   Les articles qui ont été marqués avec l'action de disposition **Retourner au client**sont réceptionnés et livrés au client. Ces articles n'ont aucun effet net sur le stock.
+-   Les articles qui ont été marqués avec l'action de disposition **Retourner au client** sont réceptionnés et livrés au client. Ces articles n'ont aucun effet net sur le stock.
 -   Une commande client de remplacement est créée. Cette commande client est basé sur les informations de la page **Article de remplacement**.
 
 Vous pouvez générer le bon de livraison uniquement pour les lignes ayant le statut de retour **Enregistré**, et seulement pour la quantité complète indiquée dans la ligne de retour. Si plusieurs lignes de l'ordre de retour ont le statut **Enregistré**, vous pouvez générer le bon de livraison pour un sous-ensemble de lignes en supprimant les autres lignes de la page **Validation du bon de livraison**. Les retours partiels sont définis en termes de lignes d'ordre de retour, pas en termes d'expéditions de retour. Par conséquent, si vous recevez la quantité complète indiquée sur une ligne d'ordre de retour, mais rien en rapport avec les autres lignes, la livraison n'est pas partielle. En revanche, si une ligne d'ordre de retour indique que dix unités d'un article doivent être retournées et que vous n'en recevez que quatre, la livraison est partielle. Si tous les articles de retour prévus ne sont pas arrivés, vous pouvez mettre l'expédition de côté en attendant l'arrivée du reste de la quantité à retourner. Sinon, vous pouvez enregistrer et valider la quantité partielle. Dans le cadre du traitement de validation des bons de livraison, vous pouvez associer le numéro de référence du bon de livraison figurant sur les documents d'expédition du client aux lignes de commande. Cette association est purement indicative. Elle n'entraîne pas de mises à jour de transactions. De manière générale, vous pouvez ignorer le processus de bon de livraison et passer directement à la facturation. Dans ce cas, les étapes que vous auriez effectuées lors de la génération du bon de livraison sont effectuées lors de la facturation.
@@ -264,7 +264,7 @@ Ce scénario implique deux sociétés de la même organisation, comme le montre 
 
 [![Retour intersociétés simple](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)  
 
-La chaîne de commande peut être établie lorsqu'un ordre de retour fournisseur est créée dans la société acheteuse ou qu'un ordre de retour client est créé dans la société vendeuse. Dynamics 365 for Operations crée la commande correspondante dans l'autre société et s'assure que les informations d'en-tête et de ligne dans l'ordre de retour fournisseur reflètent les paramètres de l'ordre de retour client. L'ordre de retour créé peut inclure ou exclure la référence (**Rechercher une commande client**) à une facture client existante. Les bons de livraison et les factures des deux commandes peuvent être traités individuellement. Par exemple, vous n'êtes pas obligé de générer un bon de livraison pour l'ordre de retour fournisseur avant de générer le bon de livraison pour l'ordre de retour client.
+La chaîne de commande peut être établie lorsqu'un ordre de retour fournisseur est créée dans la société acheteuse ou qu'un ordre de retour client est créé dans la société vendeuse. Finance and Operations crée la commande correspondante dans l'autre société et s'assure que les informations d'en-tête et de ligne dans l'ordre de retour fournisseur reflètent les paramètres de l'ordre de retour client. L'ordre de retour créé peut inclure ou exclure la référence (**Rechercher une commande client**) à une facture client existante. Les bons de livraison et les factures des deux commandes peuvent être traités individuellement. Par exemple, vous n'êtes pas obligé de générer un bon de livraison pour l'ordre de retour fournisseur avant de générer le bon de livraison pour l'ordre de retour client.
 
 ### <a name="direct-delivery-shipment-returns-among-three-parties"></a>Retours à expédition directe entre trois parties
 

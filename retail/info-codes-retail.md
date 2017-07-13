@@ -1,28 +1,29 @@
 ---
 title: Codes info
-description: "Cet article fournit une vue d&quot;ensemble à propos des codes d&quot;informations, des groupes de codes d&quot;informations et la manière de les utiliser."
+description: "Cet article fournit une vue d'ensemble à propos des codes d'informations, des groupes de codes d'informations et la manière de les utiliser."
 author: mugunthanm
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 22761
 ms.assetid: 99877dba-a6e3-4d88-ba0a-ee5913aea17e
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5790f54a531336b30ee140ebf8b9c782d8b347f7
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: b7417a8fece55963dcde53e7016e4d41793a6102
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -41,8 +42,8 @@ Les codes info fournissent une façon de capturer des données à un registre de
 -   Vendre un produit en tant que vente normale, vente avec escompte ou article gratuit.
 -   Inviter le caissier à entrer une valeur ou à la sélectionner depuis une liste de sous-codes lorsque le tiroir de la caisse enregistreuse est ouvert sans effectuer d'opération de vente.
 
-## <a name="info-codes-group-in-retail-and-commerce"></a>Groupe de codes info dans le module Commerce et vente au détail
-Dans Dynamics 365 for Operations- Vente au détail, vous pouvez créer des groupes de codes info. Les groupes de codes info ajoutent une certaine flexibilité en vous permettant de définir moins de codes info et de les utiliser de façon plus polyvalente. Vous pouvez utiliser les groupes de codes info comme suit :
+## <a name="info-codes-group"></a>Groupe de codes info
+Dans Dynamics 365 for Retail, vous pouvez créer des groupes de codes info. Les groupes de codes info ajoutent une certaine flexibilité en vous permettant de définir moins de codes info et de les utiliser de façon plus polyvalente. Vous pouvez utiliser les groupes de codes info comme suit :
 -   Définir moins codes info et les réutilisez facilement. Les codes info qui sont inclus dans des groupes de codes info n'ont aucune dépendance prédéfinie à d'autres codes info. Vous pouvez inclure le même code info dans plusieurs groupes de codes info, puis utiliser la définition de priorités pour présenter les mêmes codes info dans la commande qui semble correspondre à n'importe quelle situation particulière.
 -   Liez les codes info à d'autres codes info ou à des groupes de codes info pour collecter des informations sur un produit ou une transaction sans devoir définir un code info distinct ou un code info lié pour chaque scénario.
 

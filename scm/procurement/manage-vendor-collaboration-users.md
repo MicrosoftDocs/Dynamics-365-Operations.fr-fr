@@ -3,14 +3,14 @@ title: "Gérer les utilisateurs de la fonctionnalité de collaboration du fourni
 description: "Cette rubrique décrit comment vous pouvez demander la mise en service de nouveaux utilisateurs de collaboration fournisseur, et comment ajouter de nouveaux contacts de collaboration fournisseur."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: smmContactPerson, VendVendorContactPerson, VendVendorPortalUser
 audience: Application User, IT Pro
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 220744
 ms.assetid: edc19ad0-3565-4d47-98ac-dda6098f63ac
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7e747547ed5cf4654a99382ecc8f9f6103ec5cfa
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: ec7ed3a81d296e9bef4d26f1756b73883d560cb5
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 
 Cette rubrique décrit comment vous pouvez demander la mise en service de nouveaux utilisateurs de collaboration fournisseur, et comment ajouter de nouveaux contacts de collaboration fournisseur. 
 
-L'interface de collaboration fournisseur de Microsoft Dynamics 365 for Operations expose des informations sur les commandes fournisseur, les factures, et le stock de consignation aux fournisseurs externes. Vous pouvez créer des contacts de collaboration fournisseur et demander que les nouveaux utilisateurs soient mis en service si vous travaillez comme fournisseur externe avec le rôle de sécurité **Administrateur Fournisseur (externe)**, ou des autorisations similaires. Vous pouvez également effectuer ces tâches si vous travaillez comme professionnel de l'approvisionnement. Dans cette rubrique, ce rôle fait référence à un professionnel de l'approvisionnement qui travaille au sein de la société qui est le propriétaire de l'instance de Dynamics 365 for Operations. Pour plus d'informations sur l'utilisation de la collaboration fournisseur si vous êtes un fournisseur externe, voir [Fournisseur avec des clients](vendor-collaboration-work-customers-dynamics-365-operations.md).  
+L'interface de collaboration fournisseur de Microsoft Dynamics 365 for Finance and Operations expose des informations sur les commandes fournisseur, les factures, et le stock de consignation aux fournisseurs externes. Vous pouvez créer des contacts de collaboration fournisseur et demander que les nouveaux utilisateurs soient mis en service si vous travaillez comme fournisseur externe avec le rôle de sécurité **Administrateur Fournisseur (externe)**, ou des autorisations similaires. Vous pouvez également effectuer ces tâches si vous travaillez comme professionnel de l'approvisionnement. Dans cette rubrique, ce rôle fait référence à un professionnel de l'approvisionnement qui travaille au sein de la société qui est le propriétaire de l'instance de Finance and Operations. Pour plus d'informations sur l'utilisation de la collaboration fournisseur si vous êtes un fournisseur externe, voir [Fournisseur avec des clients](vendor-collaboration-work-customers-dynamics-365-operations.md).  
 
 Pour plus d'informations sur l'utilisation de la collaboration fournisseur si vous êtes un professionnel de l'approvisionnement, voir [Collaboration fournisseur avec des fournisseurs externes](vendor-collaboration-work-external-vendors.md).
 
@@ -62,12 +62,12 @@ Lorsqu'une demande est envoyée, elle est ajoutée à la liste **Demandes d'util
 Avant de demander qu'un nouvel utilisateur soit mis en service, cette personne doit être paramétrée comme contact pour un ou plusieurs comptes fournisseur. Pour créer une demande d'utilisateur de collaboration fournisseur :
 
 1.  Sur la page **Tous les contacts**, cliquez sur **Mettre en service un utilisateur fournisseur**.
-2.  Entrez une adresse électronique pour l'utilisateur. Cette adresse sera utilisée par l'utilisateur pour se connecter à Dynamics 365 for Operations. Si l'adresse de messagerie électronique appartient à un domaine enregistré comme un locataire de Microsoft Azure, celle-ci doit être un compte Azure Active Directory (ADD) existant pour que le processus demise en service réussisse. Si l'adresse de messagerie électronique n'appartient pas à un domaine enregistré dans Microsoft Azure, un compte ADD sera créé dans le cadre du processus de mise en service et le nouvel utilisateur recevra un message électronique d'invitation. Les adresses de messagerie électronique de consommateurs avec des domaines tels que @hotmail.com, @gmail.com ou @comcast.net ne peuvent pas être utilisés pour enregistrer un utilisateur Dynamics 365 for Operations.
+2.  Entrez une adresse électronique pour l'utilisateur. Cette adresse sera utilisée par l'utilisateur pour se connecter à Finance and Operations. Si l'adresse de messagerie électronique appartient à un domaine enregistré comme un locataire de Microsoft Azure, celle-ci doit être un compte Azure Active Directory (ADD) existant pour que le processus demise en service réussisse. Si l'adresse de messagerie électronique n'appartient pas à un domaine enregistré dans Microsoft Azure, un compte ADD sera créé dans le cadre du processus de mise en service et le nouvel utilisateur recevra un message électronique d'invitation. Les adresses de messagerie électronique de consommateurs avec des domaines tels que @hotmail.com, @gmail.com ou @comcast.net ne peuvent pas être utilisés pour enregistrer un utilisateur Finance and Operations.
 3.  Définissez l'option **Accès autorisé à la collaboration fournisseur** sur **Oui** pour toutes les entités juridiques auxquelles l'utilisateur doit accéder.
 4.  Dans la section **Affecter des rôles utilisateur**, activez la case à cocher **Affecter** des rôles de sécurité que le nouvel utilisateur doit avoir.
 5.  Cliquez sur **Soumettre**.
 
-Lorsque la demande d'utilisateur fournisseur est envoyée, le champ **Accès autorisé à la collaboration fournisseur** est défini sur **Oui** pour le compte fournisseur sélectionné et un workflow de demande d'utilisateur est démarré. Dans le cadre du workflow, un utilisateur est créé dans Dynamics 365 for Operations, et des rôles de sécurité sont affectés. En outre, un service Azur B2B est activé qui initie l'interaction avec le portail Azure et associe un compte AAD nouveau ou existant au compte d'utilisateur Dynamics 365 for Operations.
+Lorsque la demande d'utilisateur fournisseur est envoyée, le champ **Accès autorisé à la collaboration fournisseur** est défini sur **Oui** pour le compte fournisseur sélectionné et un workflow de demande d'utilisateur est démarré. Dans le cadre du workflow, un utilisateur est créé dans Finance and Operations, et des rôles de sécurité sont affectés. En outre, un service Azur B2B est activé qui initie l'interaction avec le portail Azure et associe un compte AAD nouveau ou existant au compte d'utilisateur Finance and Operations.
 
 ### <a name="inactivate-a-user"></a>Désactiver un utilisateur
 

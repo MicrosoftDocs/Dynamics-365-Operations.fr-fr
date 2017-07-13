@@ -1,15 +1,16 @@
 ---
 title: Espace de travail de facturation de collaboration fournisseur
-description: Cette rubrique explique comment afficher des factures fournisseur et envoyer des factures depuis l&quot;espace de travail de facturation de collaboration fournisseur.
+description: Cette rubrique explique comment afficher des factures fournisseur et envoyer des factures depuis l'espace de travail de facturation de collaboration fournisseur.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 221534
 ms.assetid: c4ed62f3-d351-41d7-a2ad-790576cde4ab
 ms.search.region: Global
@@ -17,10 +18,10 @@ ms.author: abruer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7c8fe2fea08dbad625cd373ca316135ac4e29e13
+ms.sourcegitcommit: 3abf4b151b177095b71d44e9a6c9fd8541eaa64e
+ms.openlocfilehash: 2171a454c763abab82f6555950994237b4de7b8b
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/14/2017
 
 
 ---
@@ -32,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 
 Cette rubrique explique comment afficher des factures fournisseur et envoyer des factures depuis l'espace de travail de facturation de collaboration fournisseur.
 
-L'espace de travail de **facturation de collaboration fournisseur** permet d'afficher les informations de facture fournisseur et d'envoyer des factures à Microsoft Dynamics 365 for Operations à l'aide des fonctionnalités de workflow.
+L'espace de travail de **facturation de collaboration fournisseur** permet d'afficher les informations de facture fournisseur et d'envoyer des factures à Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition à l'aide des fonctionnalités de workflow.
 Espace de travail de facturation de collaboration fournisseur
 ----------------------------------------
 
@@ -40,9 +41,9 @@ Espace de travail de facturation de collaboration fournisseur
 
 Les vignettes **Synthèse** fournissent une vue d'ensemble des factures du fournisseur sélectionné. Vous pouvez afficher les factures selon leur état.
 -   Les brouillons de factures n'ont pas été envoyés au workflow.
--   Les factures soumises et non approuvées sont les factures que le fournisseur a envoyé, mais qui n'ont pas été validées dans Dynamics 365 for Operations.
--   Les factures approuvées et non réglées sont celles qui ont été validées dans Dynamics 365 for Operations, mais qui n'ont pas été entièrement réglées.
--   Les factures payées sont celles qui ont été complètement réglées dans Dynamics 365 for Operations.
+-   Les factures soumises et non approuvées sont les factures que le fournisseur a envoyées, mais qui n'ont pas été validées dans Finance and Operations.
+-   Les factures approuvées et non réglées sont celles qui ont été validées dans Finance and Operations, mais qui n'ont pas été entièrement réglées.
+-   Les factures payées sont celles qui ont été complètement réglées dans Finance and Operations.
 
 Cliquez sur une vignette pour ouvrir une vue filtrée de la page **Liste des factures**.
 ### <a name="tabular-lists"></a>Listes tabulaires
@@ -59,7 +60,7 @@ Vous pouvez créer une nouvelle facture fournisseur en sélectionnant l'action *
 
 
 
-Pour plus d'informations, voir [Collaborer avec des fournisseurs à l'aide du portail Fournisseur](/dynamics365/operations/supply-chain/procurement/collaborate-vendors-vendor-portal)
+Pour plus d'informations, voir [Collaborer avec des fournisseurs à l'aide du portail Fournisseur](/dynamics365/unified-operations/supply-chain/procurement/collaborate-vendors-vendor-portal)
 
 
 

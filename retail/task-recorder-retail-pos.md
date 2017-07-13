@@ -1,31 +1,33 @@
 ---
-title: "Enregistreur de tâches et aide de POS"
-description: "Cette rubrique décrit comment utiliser l&quot;enregistreur de tâches dans Retail Modern POS et Cloud POS."
+title: "Enregistreur de tâches et aide de PDV"
+description: "Cette rubrique décrit comment utiliser l'enregistreur de tâches dans Retail Modern POS et Cloud POS."
 author: mugunthanm
 manager: AnnBe
-ms.date: 2017-05-15
+ms.date: 06/19/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
+audience: Application User
 ms.reviewer: 41
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 1205393
 ms.assetid: 2f13e9cf-55b5-458b-8c32-3f8cd98c9ecf
 ms.search.region: Global
 ms.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3ca86a3353d3f613057dd77754266fc69975229f
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 007a7e8a34f3f5a2d0d18eb3955822a8fd8bdd0a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 ---
 
-# <a name="task-recorder-and-help-for-pos"></a>Enregistreur de tâches et aide de POS
+# <a name="task-recorder-and-help-for-pos"></a>Enregistreur de tâches et aide de PDV
 
 Cette rubrique décrit comment utiliser l'enregistreur de tâches dans Retail Modern POS et Cloud POS.
 
@@ -40,11 +42,11 @@ L'enregistreur de tâches peut enregistrer les actions de l'utilisateur dans le 
 ## <a name="basic-configuration"></a>Configuration de base
 Pour activer l'enregistrement de tâches dans POS, procédez comme suit :
 
-1.  Cliquez sur **Commerce et vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage POS** &gt; **Caisses enregistreuses**.
+1.  Cliquez sur **Vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage POS** &gt; **Caisses enregistreuses**.
 2.  Cliquez sur la caisse enregistreuse sur laquelle activer l'enregistrement de tâches.
 3.  Sous l'onglet **Caisse enregistreuse**, sous l'organisateur **Général**, définissez l'option **Activer enregistrement de tâche** sur **Oui**.
 4.  Cliquez sur **Enregistrer**.
-5.  Accédez à **Commerce et vente au détail** &gt; **Informatique de vente au détail** &gt; **Programme de distribution**.
+5.  Accédez à **Vente au détail** &gt; **Informatique de vente au détail** &gt; **Programme de distribution**.
 6.  Sélectionnez la tâche **Caisses enregistreuses (1090)**, puis cliquez sur **Exécuter maintenant**.
 
 ## <a name="create-a-recording"></a>Créer un enregistrement
@@ -54,7 +56,9 @@ Pour créer un enregistrement à l'aide de l'enregistreur de tâches, procédez 
 2.  Dans la page **Paramètres**, dans la section **Enregistreur de tâches**, cliquez sur **Ouvrir l'enregistreur de tâches**. Le volet **Enregistreur de tâches** apparaît. Vous pouvez cliquer sur le bouton **Fermer** (**X**) dans l'angle supérieur droit pour fermer le volet **Enregistreur de tâches** avant de commencer un nouvel enregistrement. Pour rouvrir le volet, répétez l'étape 2.
 [![Volet Enregistreur de tâches](./media/newrecording-1024x450.jpg)](./media/newrecording.jpg)
 
-3.  Entrez un nom et une description pour l'enregistrement, puis cliquez sur **Démarrer**. La session d'enregistrement commence dès que vous cliquez sur **Démarrer**. **Remarque :** si vous cliquez sur le bouton **Fermer** (**X**) dans l'angle supérieur droit alors que l'enregistrement est en cours, le volet **Enregistreur de tâches** se ferme, mais la session d'enregistrement n'est pas terminée. Pour rouvrir le volet Enregistreur de tâches, cliquez sur le bouton Aide (point d'interrogation) en haut de l'écran. 
+3.  Entrez un nom et une description pour l'enregistrement, puis cliquez sur **Démarrer**. La session d'enregistrement commence dès que vous cliquez sur **Démarrer**.
+
+**Remarque :** si vous cliquez sur le bouton **Fermer** (**X**) dans l'angle supérieur droit alors que l'enregistrement est en cours, le volet **Enregistreur de tâches** se ferme, mais la session d'enregistrement n'est pas terminée. Pour rouvrir le volet Enregistreur de tâches, cliquez sur le bouton **Aide** (point d'interrogation) en haut de l'écran. 
 
 [![Point d'interrogation](./media/help.jpg)](./media/help.jpg)
 
@@ -95,7 +99,10 @@ Pour reprendre une session d'enregistrement suspendue, cliquez sur **Continuer**
 
 ### <a name="capture-screenshots"></a>Capturer les écrans
 
-L'enregistreur de tâches peut effectuer des captures d'écran de l'interface utilisateur de Retail Modern POS lorsque vous enregistrez un processus d'entreprise. L'enregistreur de tâches utilise les captures d'écran si vous téléchargez l'enregistrement en tant que document Word. Pour activer la fonction de capture d'écran, définissez l'option **Capturer les écrans** sur **Oui**. Remarque : la fonctionnalité Capturer les écrans n'est pas prise en charge dans Cloud POS.
+L'enregistreur de tâches peut effectuer des captures d'écran de l'interface utilisateur de Retail Modern POS lorsque vous enregistrez un processus d'entreprise. L'enregistreur de tâches utilise les captures d'écran si vous téléchargez l'enregistrement en tant que document Word. Pour activer la fonction de capture d'écran, définissez l'option **Capturer les écrans** sur **Oui**. 
+
+#### <a name="note"></a>Remarque
+> La fonctionnalité Capturer les écrans n'est pas prise en charge dans Cloud POS.
 
 ### <a name="start-task-and-end-task"></a>Commencer la tâche et Terminer la tâche
 
@@ -119,11 +126,13 @@ Le texte que vous entrez dans le champ **Texte** apparaît *au-dessus* du texte 
 
 Le texte que vous entrez dans le champ **Notes** apparaît *en dessous* du texte de l'étape dans le guide de tâche. Pour lire le texte de la note, l'utilisateur peut développer le texte de l'étape dans la fenêtre contextuelle. Cet emplacement est approprié pour la documentation facultative à lire ou d'autres informations qui peuvent être utiles à l'utilisateur, mais ne sont pas nécessaires pour exécuter l'action.
 
-## <a name="help-at-retail-modern-pos-and-cloud-pos"></a>Aide de Retail Modern POS et de Cloud POS
-Pour afficher vos propres enregistrements personnalisés de tâche dans le volet Aide de Retail Modern POS et de Cloud POS afin qu'ils puissent être affichés comme texte, vous devez enregistrer vos enregistrements de tâches dans votre propre bibliothèque BPM, puis mettre à jour vos paramètres du système d'aide pour pointer vers votre bibliothèque BPM. Pour plus d'informations, consultez [Connexion au système d'aide.](https://ax.help.dynamics.com/en/wiki/working-with-help/#connecting-the-help-system) L'aide de Retail Modern POS et de Cloud POS effectue des recherches dans LCS en temps réel. Elle effectue des recherches dans toutes les bibliothèques BPM sélectionnées dans les paramètres du système d'aide de Microsoft Dynamics AX et affiche les résultats pertinents. Pour accéder au menu **Aide**, cliquez sur le bouton **Aide** en haut de l'écran, puis dans la zone de recherche, tapez le nom de votre processus et cliquez sur le bouton de recherche. 
+## <a name="help-in-retail-modern-pos-and-cloud-pos"></a>Aide de Retail Modern POS et de Cloud POS
+Pour afficher vos propres enregistrements personnalisés de tâche dans le volet Aide de Retail Modern POS et de Cloud POS afin qu'ils puissent être affichés comme texte, vous devez enregistrer vos enregistrements de tâches dans votre propre bibliothèque BPM, puis mettre à jour vos paramètres du système d'aide pour pointer vers votre bibliothèque BPM. Pour plus d'informations, consultez [Connexion au système d'aide](/dynamics365/unified-operations/dev-itpro/get-started/help-connect). L'aide de Retail Modern POS et de Cloud POS effectue des recherches dans LCS en temps réel. Elle effectue des recherches dans toutes les bibliothèques BPM sélectionnées dans les paramètres du système d'aide de Microsoft Dynamics 365 for Retail et affiche les résultats pertinents. Pour accéder au menu **Aide**, cliquez sur le bouton **Aide** (point d'interrogation) en haut de l'écran, puis dans la zone de recherche, tapez le nom de votre processus et cliquez sur le bouton de recherche. 
 
 [![Bouton Aide](./media/help.jpg)](./media/help.jpg) 
 
-Lorsque vous cliquez sur un guide de tâche dans les résultats de la recherche, vous pouvez afficher les étapes sous forme de rubrique d'aide et exporter les étapes dans un document Word. Remarque : le système d'aide de Retail Modern POS et de Cloud POS n'affiche pas automatiquement les guides de tâche. Selon votre écran ou vos opérations, vous devez taper le nom du processus dans la zone de recherche et cliquer sur le bouton de recherche pour obtenir les résultats.
+Lorsque vous cliquez sur un guide de tâche dans les résultats de la recherche, vous pouvez afficher les étapes sous forme de rubrique d'aide et exporter les étapes dans un document Word. 
+#### <a name="note"></a>Remarque
+> L'aide de Retail Modern POS et de Cloud POS n'affiche pas les guides de tâches en fonction de l'écran que vous affichez ou de l'opération que vous effectuez. Vous devez taper le nom du processus dans la zone de recherche et cliquer sur **Rechercher**.
 
 

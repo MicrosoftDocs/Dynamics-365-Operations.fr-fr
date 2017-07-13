@@ -1,15 +1,15 @@
 ---
-title: "Vue d&quot;ensemble des souches de numéros"
-description: "Les souches de numéros dans Microsoft Dynamics 365 for Operations permettent de générer des identificateurs uniques et consultables pour les enregistrements de données principales et de transaction, le cas échéant. Un enregistrement de données principales ou de transaction nécessitant un identificateur est également appelé <em>référence</em>."
+title: "Vue d'ensemble des souches de numéros"
+description: "Les souches de numéros dans Microsoft Dynamics 365 for Finance and Operations permettent de générer des identificateurs uniques et consultables pour les enregistrements de données principales et de transaction, le cas échéant. Un enregistrement de données principales ou de transaction nécessitant un identificateur est également appelé <em>référence</em>."
 author: MargoC
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 15461
 ms.assetid: 6e19bd1d-192b-4da2-8573-84f6e1ce98ef
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a2dcbbbd0b67c171d5a26bbf2053d159f7367cc5
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: d260f460bf0da072eb46909d8c28d18041ecaa78
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,16 +30,16 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Les souches de numéros dans Microsoft Dynamics 365 for Operations permettent de générer des identificateurs uniques et consultables pour les enregistrements de données principales et de transaction, le cas échéant. Un enregistrement de données principales ou de transaction nécessitant un identificateur est également appelé <em>référence</em>.
+Les souches de numéros dans Microsoft Dynamics 365 for Finance and Operations permettent de générer des identificateurs uniques et consultables pour les enregistrements de données principales et de transaction, le cas échéant. Un enregistrement de données principales ou de transaction nécessitant un identificateur est également appelé <em>référence</em>.
 
-Avant de pouvoir créer des enregistrements pour une référence dans Microsoft Dynamics 365 for Operations, vous devez paramétrer une souche de numéros et l'associer à la référence. Nous vous recommandons d'utiliser les pages du module **Administration d'organisation** pour paramétrer les souches de numéros. Si des paramètres spécifiques au module sont requis, vous pouvez utiliser la page des paramètres d'un module pour spécifier les souches de numéros pour les références dans ce module. Par exemple, dans les modules **Comptabilité client** et **Comptabilité fournisseur** , vous pouvez paramétrer des groupes de souches de numéros pour attribuer des souches de numéros spécifiques à des clients ou fournisseurs donnés. Lorsque vous paramétrez une souche de numéros, vous devez spécifier une portée, qui définit l'organisation qui l'utilise. La portée peut être **Partagée**, **Société**, **Entité juridique** ou **Unité opérationnelle**. Les portées **Entité juridique** et **Société** peuvent également être combinées avec **Période de calendrier fiscal** pour créer des souches de numéros encore plus spécifiques. Les formats de souches de numéros sont composés de segments. Les souches de numéros dotées d'une portée autre que **Partagée** peuvent contenir des segments qui correspondent à la portée. Par exemple, une souche de numéros dotée du type de portée **Entité juridique** peut contenir un segment d'entité juridique. En incluant un segment de portée dans le format de souche de numéros, vous pouvez identifier la portée d'un enregistrement particulier en consultant son numéro. Outre les segments qui correspondent aux portées, les formats de souche de numéros peuvent contenir les segments **Constante** et **Alphanumérique**. Un segment **Constante** contient un ensemble de lettres, de nombres ou de symboles qui ne change pas. Un segment **Alphanumérique** contient un ensemble de lettres ou de nombres qui est incrémenté à chaque fois qu'un nombre est utilisé. Utilisez un symbole numérique (\#) pour représenter les numéros de l'incrémentation et une esperluette (&) pour représenter les lettres de l'incrémentation. Par exemple, le format \#\#\#\#\#\_2017 crée la séquence 00001\_2017, 00002\_2017, etc.
+Avant de pouvoir créer des enregistrements pour une référence dans Microsoft Dynamics 365 for Finance and Operations, vous devez paramétrer une souche de numéros et l'associer à la référence. Nous vous recommandons d'utiliser les pages du module **Administration d'organisation** pour paramétrer les souches de numéros. Si des paramètres spécifiques au module sont requis, vous pouvez utiliser la page des paramètres d'un module pour spécifier les souches de numéros pour les références dans ce module. Par exemple, dans les modules **Comptabilité client** et **Comptabilité fournisseur** , vous pouvez paramétrer des groupes de souches de numéros pour attribuer des souches de numéros spécifiques à des clients ou fournisseurs donnés. Lorsque vous paramétrez une souche de numéros, vous devez spécifier une portée, qui définit l'organisation qui l'utilise. La portée peut être **Partagée**, **Société**, **Entité juridique** ou **Unité opérationnelle**. Les portées **Entité juridique** et **Société** peuvent également être combinées avec **Période de calendrier fiscal** pour créer des souches de numéros encore plus spécifiques. Les formats de souches de numéros sont composés de segments. Les souches de numéros dotées d'une portée autre que **Partagée** peuvent contenir des segments qui correspondent à la portée. Par exemple, une souche de numéros dotée du type de portée **Entité juridique** peut contenir un segment d'entité juridique. En incluant un segment de portée dans le format de souche de numéros, vous pouvez identifier la portée d'un enregistrement particulier en consultant son numéro. Outre les segments qui correspondent aux portées, les formats de souche de numéros peuvent contenir les segments **Constante** et **Alphanumérique**. Un segment **Constante** contient un ensemble de lettres, de nombres ou de symboles qui ne change pas. Un segment **Alphanumérique** contient un ensemble de lettres ou de nombres qui est incrémenté à chaque fois qu'un nombre est utilisé. Utilisez un symbole numérique (\#) pour représenter les numéros de l'incrémentation et une esperluette (&) pour représenter les lettres de l'incrémentation. Par exemple, le format \#\#\#\#\#\_2017 crée la séquence 00001\_2017, 00002\_2017, etc.
 Exemples de souches de numéros
 ------------------------
 
 Les exemples suivants indiquent comment utiliser les segments pour créer des formats de souches de numéros. Ils démontrent notamment les effets de l'utilisation des segments de portée.
 ### <a name="expense-report-numbers"></a>Numéros d'états de dépenses
 
-Dans l'exemple suivant, les numéros d'états de dépenses sont paramétrés pour l'entité juridique **CS**. **Secteur :**Déplacements et dépenses **Référence :**Numéro d'état de dépenses **Portée :**Entité juridique **Entité juridique :**CS
+Dans l'exemple suivant, les numéros d'états de dépenses sont paramétrés pour l'entité juridique **CS**. **Secteur :** Déplacements et dépenses **Référence :** Numéro d'état de dépenses **Portée :** Entité juridique **Entité juridique :** CS
 | Segments  | Type de segment | Valeur     |
 |-----------|--------------|-----------|
 | Segment 1 | Entité juridique | CS        |
@@ -50,7 +50,7 @@ Dans l'exemple suivant, les numéros d'états de dépenses sont paramétrés pou
 
 ### <a name="sales-order-numbers"></a>Numéros de commandes client
 
-Dans l'exemple suivant, les numéros de commandes client sont paramétrés pour l'ID société **CEU**. **Secteur :**Ventes **Référence :**Commande client **Portée :**Société **Société :**CEU
+Dans l'exemple suivant, les numéros de commandes client sont paramétrés pour l'ID société **CEU**. **Secteur :** Ventes **Référence :** Commande client **Portée :** Société **Société :** CEU
 | Segments  | Type de segment | Valeur    |
 |-----------|--------------|----------|
 | Segment 1 | Constante     | SO-      |
@@ -60,7 +60,7 @@ Dans l'exemple suivant, les numéros de commandes client sont paramétrés pour 
 
 ### <a name="purchase-requisition-numbers"></a>Numéros de demandes d'achat
 
-Dans l'exemple suivant, les numéros de demandes d'achat fonctionnent dans l'ensemble de l'organisation. **Secteur :**Achats **Référence :**Demande d'achat **Portée :**Partagée
+Dans l'exemple suivant, les numéros de demandes d'achat fonctionnent dans l'ensemble de l'organisation. **Secteur :** Achats **Référence :** Demande d'achat **Portée :** Partagée
 | Segments  | Type de segment | Valeur    |
 |-----------|--------------|----------|
 | Segment 1 | Constante     | Req      |

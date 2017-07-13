@@ -1,16 +1,16 @@
 ---
-title: "Prévision de poste"
-description: 
+title: "Prévision des postes"
+description: "Les dépenses liées aux collaborateurs représentent souvent une grande proportion des coûts d'une organisation. La prévision de poste permet de planifier ces dépenses et de les inclure dans la planification des budgets."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 64413
 ms.assetid: 35e791d2-1905-4808-a579-7f181ddddd91
 ms.search.region: Global
@@ -18,18 +18,17 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 03645693c5101c48ef9d35bdbe14debef1e69fc8
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 2dffb2634701210852b4b146a762434cf6df07e3
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="position-forecasting"></a>Prévision de poste
+# <a name="position-forecasting"></a>Prévision des postes
 
 [!include[banner](../includes/banner.md)]
-
 
 
 
@@ -97,7 +96,7 @@ L'élément de coût de bénéfice sélectionné sous le groupe de rémunératio
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>Création de postes de prévision pour les postes existants
 
-Pour une planification budgétaire plus exacte, vous pouvez créer des postes de prévision à l'aide des détails des postes de prévision dans Microsoft Dynamics 365 for Operations, que le poste soit actuellement rempli ou non. 
+Pour une planification budgétaire plus exacte, vous pouvez créer des postes de prévision à l'aide des détails des postes de prévision dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, que le poste soit actuellement rempli ou non. 
 
 La fonction **Ajouter des postes existants** affiche tous les postes d'une organisation. En définissant la date **En date du**, vous pouvez modifier la liste des postes afin qu'elle contienne les postes qui ont existé à une date dans le passé ou, plus couramment, les postes futurs (par exemple, le début du cycle budgétaire suivant). Sélectionnez un processus de planification budgétaire et un scénario de plan budgétaire, sélectionnez des postes dans la liste, puis cliquez sur **OK** pour créer des postes de prévision pour les postes sélectionnés. Notez que vous ne pouvez créer qu'un seul poste de prévision pour chaque poste existant dans un processus et un scénario de planification budgétaire. Toutefois, vous pouvez créer des versions supplémentaires en affectant différents scénarios de plan budgétaire. 
 

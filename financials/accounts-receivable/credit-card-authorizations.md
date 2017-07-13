@@ -1,9 +1,9 @@
 ---
 title: "Paramétrage, autorisation et capture de carte de crédit"
-description: "Cet article fournit une vue d&quot;ensemble de l&quot;autorisation de carte de crédit dans Microsoft Dynamics AX. Il inclut des informations sur le paramétrage d&quot;un service de paiement, l&quot;ajout d&quot;une carte de crédit à une commande client et l&quot;annulation d&quot;une autorisation."
+description: "Cet article fournit une vue d'ensemble de l'autorisation de carte de crédit dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Il inclut des informations sur le paramétrage d'un service de paiement, l'ajout d'une carte de crédit à une commande client et l'annulation d'une autorisation."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CreditCardProcessors, CustTable, SalesTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 3041
 ms.assetid: 678f6899-bfa5-439b-aaca-b4affcc338ba
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: mfalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 96a16f2ff3d092fc9448bf607abfa28ad6cb1e6d
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: a5b3dc7710ebbce50366ca9299bfb30dffc03187
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,8 +31,10 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+[!include[retail name](../includes/retail-name.md)]
 
-Cet article fournit une vue d'ensemble de l'autorisation de carte de crédit dans Microsoft Dynamics AX. Il inclut des informations sur le paramétrage d'un service de paiement, l'ajout d'une carte de crédit à une commande client et l'annulation d'une autorisation.
+
+Cet article fournit une vue d'ensemble de l'autorisation de carte de crédit dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Il inclut des informations sur le paramétrage d'un service de paiement, l'ajout d'une carte de crédit à une commande client et l'annulation d'une autorisation.
 
 <a name="setting-up-the-credit-card-payment-service"></a>Paramétrage du service de paiement par carte de crédit
 ------------------------------------------

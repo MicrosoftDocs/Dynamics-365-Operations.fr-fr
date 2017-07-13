@@ -1,28 +1,28 @@
 ---
 title: "Définir et gérer un programme social"
-description: "Les ressources humaines proposent un ensemble d&quot;outils pouvant servir à paramétrer et à mettre à jour les avantages, les déductions et les plans de compensation des collaborateurs qu&quot;une organisation offre ou gère pour ses collaborateurs. Cet article fournit des informations sur la manière de paramétrer et de gérer les avantages."
+description: "Les ressources humaines proposent un ensemble d'outils pouvant servir à paramétrer et à mettre à jour les avantages, les déductions et les plans de compensation des collaborateurs qu'une organisation offre ou gère pour ses collaborateurs. Cet article fournit des informations sur la manière de paramétrer et de gérer les avantages."
 author: rschloma
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 ms.search.form: HcmBenefitEligibilityDetail, HcmBenefitSelection, SysPolicyListPage, SysPolicySourceDocumentRuleType
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 15681
 ms.assetid: 6aee97ac-29f7-4b3c-8aa1-c65810de3090
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1d972f2d6bacf6f60ab3ce3bab2fcfaeb8d2e524
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 09ad9ad22c676c3b117cc39e692c64ef92637dc1
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -53,13 +53,13 @@ Pour chaque type d'avantage, tel que les soins ophtalmologiques ou dentaires, un
 [![illustration d'avantage](./media/benefit-pic.png)](./media/benefit-pic.png)
 
 ## <a name="eligibility"></a>Admissibilité
-Plusieurs facteurs déterminent le droit des collaborateurs aux différents types d'avantages qu'un employeur offre. Lorsque vous créez un avantage dans Microsoft Dynamics 365 for Operations, vous pouvez définir le type de droit qui s'applique à cet avantage. 
+Plusieurs facteurs déterminent le droit des collaborateurs aux différents types d'avantages qu'un employeur offre. Lorsque vous créez un avantage dans Microsoft Talent, vous pouvez définir le type de droit qui s'applique à cet avantage. 
 
 Vous pouvez rendre un avantage accessible à tous les collaborateurs. Par exemple, certaines entreprises offrent des cartes de parking à tous les employés comme avantage en nature. Lorsque vous créez cet avantage, vous définissez le droit sur **Tous les collaborateurs sont éligibles**. 
 
 Pour d'autres avantages, tels que les saisies-arrêts et les prélèvements de taxe, l'éligibilité ne s'applique pas. Lorsque vous créez ces types d'avantages, vous définissez le droit sur **Ignorer le processus d'éligibilité**. 
 
-Enfin, le droit à l'avantage peut être basé sur une règle. Par exemple, une entreprise offre deux types d'avantage Assurance-vie à ses employés. Les cadres ont droit à un régime d'assurance-vie tandis que les autres employés à temps plein ont droit à un autre régime d'assurance-vie. Dans Dynamics 365 for Operations, vous pouvez créer une règle de droit à un avantage pour trouver tous les cadres et une autre règle pour trouver tous les autres employés à temps plein, puis appliquer ces règles à l'avantage concerné
+Enfin, le droit à l'avantage peut être basé sur une règle. Par exemple, une entreprise offre deux types d'avantage Assurance-vie à ses employés. Les cadres ont droit à un régime d'assurance-vie tandis que les autres employés à temps plein ont droit à un autre régime d'assurance-vie. Dans Talent, vous pouvez créer une règle de droit à un avantage pour trouver tous les cadres et une autre règle pour trouver tous les autres employés à temps plein, puis appliquer ces règles à l'avantage concerné
 
 ## <a name="enrollment"></a>Inscription
 Après avoir créé les avantages que votre organisation propose et déterminé l'éligibilité, vous pouvez inscrire vos collaborateurs aux avantages. Vous pouvez inscrire un seul collaborateur à des avantages. Vous pouvez également inscrire plusieurs collaborateurs à un ou plusieurs avantages dans le cadre d'un seul et même processus. 

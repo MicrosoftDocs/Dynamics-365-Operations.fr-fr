@@ -1,28 +1,29 @@
 ---
-title: "Fonctionnalité de centre d&quot;appels"
-description: "Cet article fournit une vue d&quot;ensemble de la fonctionnalité de vente des centres d&quot;appels dans Microsoft Dynamics 365 for Operations."
+title: "Fonctionnalité de centre d'appels"
+description: "Cet article fournit une vue d'ensemble de la fonctionnalité de vente des centres d'appels dans Microsoft Dynamics 365 for Retail."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 16361
 ms.assetid: c8ed2ba4-8d06-4d99-9728-2a83e6d95ca9
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 40d7c1a95f33c189639c12279a8e3a286f0c6761
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: befbf43a0af8016895e570f5d8cf3a51983692f2
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -32,9 +33,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-Cet article fournit une vue d'ensemble de la fonctionnalité de vente des centres d'appels dans Microsoft Dynamics 365 for Operations.
+Cet article fournit une vue d'ensemble de la fonctionnalité de vente des centres d'appels dans Microsoft Dynamics 365 for Retail.
 
-Le module Commerce et vente au détail de Microsoft Dynamics AX prend en charge les centres d'appels comme type de canal de vente au détail. Dans un centre d'appels, les collaborateurs prennent les commandes des clients par téléphone et créent les commandes client. La fonctionnalité de centre d'appels inclut les fonctionnalités conçues pour faciliter la prise de commandes par téléphone et la gestion du service client via le processus d'exécution de commande. Par exemple, les collaborateurs de centre d'appels peuvent entrer des informations de paiement directement dans la commande client, et peuvent afficher un résumé détaillé des frais et des paiements avant d'envoyer la commande. Les collaborateurs disposent également d'options pour contrôler la tarification, et peuvent accéder à diverses données sur les clients, les produits, et les prix à partir de la page **Commande client**. En outre, les centres d'appel disposent d'une fonctionnalité améliorée de suivi de l'historique client et du statut des commandes. Chaque centre d'appels peut avoir ses propres utilisateurs, modes de paiement, groupes de prix, dimensions financières, et modes de livraison. Vous pouvez configurer ces options lorsque vous créez les centres d'appels. Vous pouvez également utiliser la page **Centre d'appels** pour activer ou désactiver les groupes de fonctions suivants, qui sont uniques aux centres d'appels :
+Dynamics 365 for Retail prend également en charge les centres d'appels comme type de canal de vente au détail. Dans un centre d'appels, les collaborateurs prennent les commandes des clients par téléphone et créent les commandes client. La fonctionnalité de centre d'appels inclut les fonctionnalités conçues pour faciliter la prise de commandes par téléphone et la gestion du service client via le processus d'exécution de commande. Par exemple, les collaborateurs de centre d'appels peuvent entrer des informations de paiement directement dans la commande client, et peuvent afficher un résumé détaillé des frais et des paiements avant d'envoyer la commande. Les collaborateurs disposent également d'options pour contrôler la tarification, et peuvent accéder à diverses données sur les clients, les produits, et les prix à partir de la page **Commande client**. En outre, les centres d'appel disposent d'une fonctionnalité améliorée de suivi de l'historique client et du statut des commandes. Chaque centre d'appels peut avoir ses propres utilisateurs, modes de paiement, groupes de prix, dimensions financières, et modes de livraison. Vous pouvez configurer ces options lorsque vous créez les centres d'appels. Vous pouvez également utiliser la page **Centre d'appels** pour activer ou désactiver les groupes de fonctions suivants, qui sont uniques aux centres d'appels :
 
 -   **Achèvement de commande** – Ce groupe inclut les fonctionnalités liées aux paiements et à l'achèvement des commandes sur la page **Commande client**.
 -   **Vente directe** – Ce groupe inclut les fonctionnalités associées aux codes sources, aux scripts, et aux demandes de catalogue.

@@ -1,27 +1,29 @@
 ---
 title: "Paramétrer un programme de fidélisation des clients"
-description: "Cet article décrit le paramétrage des composants d&quot;un programme de fidélité. Les programmes de fidélité peuvent améliorer la fidélité des clients en les récompensant pour l&quot;achat de produits dans vos magasins de vente au détail. Dans Microsoft Dynamics 365 for Operations, vous pouvez paramétrer des programmes de fidélité simples ou complexes qui s&quot;appliquent entre les entités juridiques de tout canal de vente au détail."
+description: "Cet article décrit le paramétrage des composants d'un programme de fidélité. Les programmes de fidélité peuvent améliorer la fidélité des clients en les récompensant pour l'achat de produits dans vos magasins de vente au détail. Dans Microsoft Dynamics 365 for Retail, vous pouvez paramétrer des programmes de fidélité simples ou complexes qui s'appliquent entre les entités juridiques de tout canal de vente au détail."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 16201
 ms.assetid: f79559d2-bc2d-4f0b-a938-e7a61524ed80
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 04521c20ddeca1154b134b23c1db69f45c554ed3
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 710f8ae3a6a2b5072f37879aad066dc699ede8f0
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -31,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-Cet article décrit le paramétrage des composants d'un programme de fidélité. Les programmes de fidélité peuvent améliorer la fidélité des clients en les récompensant pour l'achat de produits dans vos magasins de vente au détail. Dans Microsoft Dynamics 365 for Operations, vous pouvez paramétrer des programmes de fidélité simples ou complexes qui s'appliquent entre les entités juridiques de tout canal de vente au détail.
+Cet article décrit le paramétrage des composants d'un programme de fidélité. Les programmes de fidélité peuvent améliorer la fidélité des clients en les récompensant pour l'achat de produits dans vos magasins de vente au détail. Dans Microsoft Dynamics 365 for Retail, vous pouvez paramétrer des programmes de fidélité simples ou complexes qui s'appliquent entre les entités juridiques de tout canal de vente au détail.
 
 <a name="loyalty-features"></a>Fonctionnalités de fidélité
 ----------------
@@ -45,7 +47,7 @@ Vous pouvez paramétrer votre programme de fidélité de manière à ce qu'il in
 -   Ajustement manuel des cartes de fidélité ou transfert du solde de récompenses de fidélité d'une carte à une autre pour rendre service ou rembourser un client.
 
 ## <a name="setting-up-loyalty-programs"></a>Paramétrage des programmes de fidélité
-Vous devez paramétrer plusieurs composants pour activer la fonctionnalité de fidélité dans Dynamics 365 for Operations - Vente au détail. Le diagramme suivant illustre les composants de fidélité et comment ils sont liés les uns aux autres. ![Flux de processus du paramétrage du programme de fidélité](./media/loyaltyprocess.gif)
+Vous devez paramétrer plusieurs composants pour activer la fonctionnalité de fidélité dans Dynamics 365 for Retail. Le diagramme suivant illustre les composants de fidélité et comment ils sont liés les uns aux autres. ![Flux de processus du paramétrage du programme de fidélité](./media/loyaltyprocess.gif)
 
 ## <a name="loyalty-components"></a>Composants de fidélité
 Le tableau suivant décrit chaque composant et où il est utilisé dans le paramétrage de fidélité.
@@ -68,7 +70,7 @@ Le tableau suivant décrit les processus qui doivent être exécutés pour envoy
 
 | Nom du processus                         | Description                                                                                                                                                                                                                                                                                                                                                                                                    | Nom de la page                            |
 |--------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
-| 1050 (informations sur la fidélité)           | Exécutez ce processus pour envoyer les données de fidélité de Microsoft Dynamics 365 for Operations aux magasins de vente au détail. Il est recommandé de planifier l'exécution régulière de ce processus, de manière à ce que les données de fidélité soient transmises à tous les magasins.                                                                                                                                                                                               | Programme de distribution                |
+| 1050 (informations sur la fidélité)           | Exécutez ce processus pour envoyer les données de fidélité de Dynamics 365 for Retail aux magasins de vente au détail. Il est recommandé de planifier l'exécution régulière de ce processus, de manière à ce que les données de fidélité soient transmises à tous les magasins.                                                                                                                                                                                               | Programme de distribution                |
 | Traiter les programmes de fidélité              | Exécutez ce processus pour associer les plans de fidélité aux canaux de vente au détail auxquels le plan de fidélité est affecté. Ce processus peut être planifié pour s'exécuter en tant que processus de traitement par lots. Vous devez exécuter ce processus si vous modifiez les données de configuration de fidélité, telles que les plans de fidélité, les programmes de fidélité ou les points de récompense de fidélité.                                                                                               | Traiter les programmes de fidélité              |
 | Traiter les transactions de fidélité hors connexion | Exécutez ce processus pour mettre à jour les cartes de fidélité de manière à inclure les transactions qui ont été traitées hors connexion. Ce processus s'applique uniquement si la case à cocher **Gagner hors connexion** est activée dans la page **Paramètres partagés de la vente au détail **, afin que des récompenses puissent être gagnées hors connexion.                                                                                                                                               | Traiter les transactions de fidélité hors connexion |
 | Mettre à jour les niveaux de cartes de fidélité            | Exécutez ce processus pour évaluer l'activité de bénéfice du client par rapport aux règles de niveau d'un programme de fidélité et mettre à jour le statut de niveau du client. Ce processus est nécessaire uniquement si vous modifiez les règles de niveau dans les programmes de fidélité et que vous souhaitez que les règles mises à jour soient rétroactivement appliquées aux cartes de fidélité déjà émises. Ce processus peut être exécuté en tant que processus de traitement par lots ou pour des cartes individuelles. | Mettre à jour les niveaux de cartes de fidélité            |

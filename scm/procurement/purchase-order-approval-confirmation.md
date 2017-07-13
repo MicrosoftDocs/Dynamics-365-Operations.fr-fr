@@ -1,16 +1,16 @@
 ---
 title: Approuver et confirmer des commandes fournisseur
-description: "Cet article décrit les statuts par lesquels passe une commande fournisseur (CF) après qu&quot;elle a été créée et les conséquences de l’activation de la gestion des modifications sur les CF."
+description: "Cet article décrit les statuts par lesquels passe une commande fournisseur (CF) après qu'elle a été créée et les conséquences de l’activation de la gestion des modifications sur les CF."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 93143
 ms.assetid: cd12a944-c52c-4579-a301-7abe1d237c72
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 346dde3acdaca367c80cc092f0d8faa2dc28c6b6
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 0ec91bcf0ab334585eefae2fe54750c45419682e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,6 +30,7 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+[!include[retail name](../includes/retail-name.md)]
 
 Cet article décrit les statuts par lesquels passe une commande fournisseur (CF) après qu'elle a été créée et les conséquences de l’activation de la gestion des modifications sur les CF.
 
@@ -38,7 +39,7 @@ Après avoir créé une commande fournisseur (CF), celle-ci peut devoir passer p
 ## <a name="approval-of-purchase-orders"></a>Approbation de commandes fournisseur
 Les CF qui n’utilisent pas la gestion des modifications ont un statut **Approuvée** dès qu’elles sont créées, les CF qui utilisent la gestion des modifications ont un statut **Brouillon** lorsqu’elles sont créées. Une commande fournisseur qui a été créée lors de la confirmation d'un ordre prévisionnel de la planification est toujours définie sur **Approuvée**, quels que soient les paramètres de gestion des modifications. Une CF crée des mouvements de stock uniquement lorsqu’elle atteint le statut **Approuvée**. Par conséquent, ce stock n’apparaît pas comme disponible pour la réservation ou le marquage tant que la commande n'est pas acceptée.  
 
-Vous activez la gestion des modifications pour les CF en définissant l'option **Activer la gestion des modifications** sur la page **Paramètres d’approvisionnement**. Lorsque la gestion des modifications est activée, les CF doivent passer par un workflow d’approbation après avoir été terminées. Microsoft Dynamics 365 for Operations a un éditeur de processus de workflow dans lequel vous pouvez définir un workflow pour représenter votre processus d’approbation. Ce workflow peut inclure des règles d’approbation automatique, des règles qui déterminent qui sera affecté pour approuver certaines CF et les règles de transmission d’un workflow qui a été en attente d’approbation pendant une longue période. Vous pouvez activer le processus de gestion des modifications pour tous les fournisseurs ou pour des fournisseurs spécifiques. Vous pouvez également définir le processus de sorte qu’il puisse être substitué pour des CF individuelles.  
+Vous activez la gestion des modifications pour les CF en définissant l'option **Activer la gestion des modifications** sur la page **Paramètres d’approvisionnement**. Lorsque la gestion des modifications est activée, les CF doivent passer par un workflow d’approbation après avoir été terminées. Microsoft Dynamics 365 for Finance and Operations a un éditeur de processus de workflow dans lequel vous pouvez définir un workflow pour représenter votre processus d’approbation. Ce workflow peut inclure des règles d’approbation automatique, des règles qui déterminent qui sera affecté pour approuver certaines CF et les règles de transmission d’un workflow qui a été en attente d’approbation pendant une longue période. Vous pouvez activer le processus de gestion des modifications pour tous les fournisseurs ou pour des fournisseurs spécifiques. Vous pouvez également définir le processus de sorte qu’il puisse être substitué pour des CF individuelles.  
 
 Lorsque de la gestion des modifications est activée, les CF passent par six statuts d’approbation, de **Brouillon** à **Finalisée**. Une fois une commande approuvée, les utilisateurs qui souhaitent la modifier doivent utiliser l'action **Demander une modification**.
 
@@ -54,7 +55,7 @@ Lorsque de la gestion des modifications est activée, les CF passent par six sta
 ## <a name="confirming-purchase-orders"></a>Confirmation des commandes fournisseur
 Les CF qui ont un statut d’approbation **Approuvée** peuvent passer par des étapes supplémentaires avant d'être confirmées. Par exemple, vous devrez peut-être envoyer une demande de renseignements sur les achats au fournisseur pour obtenir des informations sur les prix, les escomptes ou les dates de livraison. Dans ce cas, vous pouvez définir la CF sur le statut **Fait l'objet d'une révision externe** à l’aide de l'action **Demande de renseignements sur les achats**.  
 
-Les fournisseurs qui sont configurés pour utiliser le portail fournisseur peuvent consulter les commandes sur le portail et les approuver ou les refuser. Au cours de ce processus de révision, la CF a le statut **Fait l'objet d'une révision externe**. Le portail fournisseur peut être configuré de sorte qu'une confirmation du fournisseur confirme automatiquement la commande dans Dynamics 365 for Operations. Vous pouvez également confirmer manuellement une CF après avoir reçu la confirmation du fournisseur. Si un fournisseur refuse une CF, le refus est reçu avec le motif du rejet et des propositions de modifications. Dans ce cas, le statut de la CF reste **Fait l'objet d'une révision externe**.  
+Les fournisseurs qui sont configurés pour utiliser le portail fournisseur peuvent consulter les commandes sur le portail et les approuver ou les refuser. Au cours de ce processus de révision, la CF a le statut **Fait l'objet d'une révision externe**. Le portail fournisseur peut être configuré de sorte qu'une confirmation du fournisseur confirme automatiquement la commande dans Finance and Operations. Vous pouvez également confirmer manuellement une CF après avoir reçu la confirmation du fournisseur. Si un fournisseur refuse une CF, le refus est reçu avec le motif du rejet et des propositions de modifications. Dans ce cas, le statut de la CF reste **Fait l'objet d'une révision externe**.  
 
 Il existe également une option pour générer une confirmation pro forma pour une commande avant le traitement de la confirmation réelle. Cette option crée simplement un état que vous pouvez partager avec le fournisseur. Elle ne crée pas d'informations de journal.  
 
@@ -83,7 +84,7 @@ Une fois qu'une commande a été confirmée, vous ne pouvez plus la supprimer. T
 
 [Accusé de réception de marchandises et commandes fournisseur](product-receipt-against-purchase-orders.md)
 
-[Vue d'ensemble des factures fournisseur](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+[Vue d'ensemble des factures fournisseur](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview)
 
 
 

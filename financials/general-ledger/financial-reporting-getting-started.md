@@ -1,16 +1,16 @@
 ---
 title: "États financiers"
-description: "Cette rubrique explique où accéder aux états financiers dans Microsoft Dynamics 365 for Operations et comment utiliser les fonctionnalités de génération d&quot;états financiers. Elle inclut une description des états financiers par défaut fournis."
+description: "Cette rubrique explique où accéder aux états financiers dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, et comment utiliser les fonctionnalités de génération d'états financiers. Elle inclut une description des états financiers par défaut fournis."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 10444
 ms.assetid: 3eae6dc3-ee06-4b6d-9e7d-1ee2c3b10339
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 39db754df7edeca414752ce1844d7f9e85df0b36
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: fedde78a563939fd7080e748c412c89c71586823
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,12 +31,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Cette rubrique explique où accéder aux états financiers dans Microsoft Dynamics 365 for Operations et comment utiliser les fonctionnalités de génération d'états financiers. Elle inclut une description des états financiers par défaut fournis.
+Cette rubrique explique où accéder aux états financiers dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, et comment utiliser les fonctionnalités de génération d'états financiers. Elle inclut une description des états financiers par défaut fournis.
 
 <a name="accessing-financial-reporting"></a>Accès à la génération d'états financiers
 -----------------------------
 
-Vous trouverez le menu **États financiers** dans les emplacements suivants de Dynamics 365 for Operations :
+Vous trouverez le menu **États financiers** dans les emplacements suivants de Finance and Operations :
 
 -   **Comptabilité** &gt; **Recherches et états**
 -   **Budget** &gt; **Recherches et états** &gt; **Budget de base**
@@ -83,7 +83,7 @@ Les fonctions de génération d'états financiers sont disponibles aux utilisate
 Une fois qu'un utilisateur a été ajouté ou qu'un rôle a été modifié, il doit pouvoir accéder aux états financiers en quelques minutes. **Remarque :** le rôle sysadmin est ajouté à tous les rôles de la génération d'états financiers.
 
 ## <a name="default-reports"></a>États par défaut
-Les états financiers fournissent 22 états financiers par défaut. Chaque état utilise les catégories de compte principal par défaut dans Dynamics 365 for Operations. Vous pouvez utiliser ces états tels quels ou en tant que point de départ pour vos besoins en matière d'états financiers. Outre les tableaux d'analyse traditionnels, tels que le rapport de revenus et le bilan de résultats, ces états par défaut incluent des états qui indiquent les différents types d'états financiers que vous pouvez créer. Chaque état dans le tableau suivant est lié à une présentation Office Mix sur l'état.
+Les états financiers fournissent 22 états financiers par défaut. Chaque état utilise les catégories de compte principal par défaut dans Finance and Operations. Vous pouvez utiliser ces états tels quels ou en tant que point de départ pour vos besoins en matière d'états financiers. Outre les tableaux d'analyse traditionnels, tels que le rapport de revenus et le bilan de résultats, ces états par défaut incluent des états qui indiquent les différents types d'états financiers que vous pouvez créer. Chaque état dans le tableau suivant est lié à une présentation Office Mix sur l'état.
 
 | État par défaut                                                                                         | description ;                                                                                                                                                                                                                                                                                                          |
 |--------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -114,7 +114,7 @@ Les états financiers fournissent 22 états financiers par défaut. Chaque état
 Lorsque vous cliquez sur le menu **États financiers**, la liste des états financiers par défaut pour la société s'affiche. Vous pouvez ensuite ouvrir ou modifier un état. Pour ouvrir un des états par défaut, sélectionnez le nom de l'état. La première fois que l'état est ouvert, il est automatiquement généré pour le mois précédent. Par exemple, si vous ouvrez un état pour la première fois en août 2016, l'état est généré pour le 31 juillet 2016. Après l’ouverture d’un état, vous pouvez démarrer l'exploration en accédant à des ensembles de données spécifiques et en modifiant les options d'état.
 
 ## <a name="creating-and-modifying-financial-reports"></a>Création et modification d'états financiers
-Dans la liste des états financiers, vous pouvez créer un nouvel état ou modifier un état existant. Si vous disposez des autorisations appropriées, vous pouvez créer un état financier en cliquant sur **Nouveau** dans le volet Actions. Un programme de concepteur d'états est téléchargé sur votre périphérique. Une fois que le concepteur d'états démarre, vous pouvez créer l'état. Après avoir enregistré le nouvel état, il apparaît dans la liste des états financiers. La liste affiche uniquement les états créés pour la société utilisés dans Dynamics 365 for Operations. Pour plus d'informations sur le processus de création et de modification d'états financiers dans Dynamics 365 for Operations, reportez-vous à ces [publications de blog](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/tag/learning/) dans le blog de génération d'états financiers Dynamics. **Remarque :** la version 4.6.2 de Microsoft .NET Framework doit être installée sur l'ordinateur sur lequel vous téléchargez le client Concepteur d'états. Cette version de Microsoft .NET Framework peut être téléchargée et installée à partir d'[ici](https://www.microsoft.com/en-us/download/details.aspx?id=53345). Si vous utilisez Chrome, vous devez installer une extension ClickOnce afin de télécharger le client Concepteur d'états. Si vous utilisez le mode incognito, vérifiez que l'extension ClickOnce est activée pour le mode incognito. Vous pouvez également modifier un état qui apparaît dans la liste des états financiers. Lorsque la zone autour du nom de l'état est activée, cliquez sur **Édition** dans le Volet Actions. Le programme de concepteur d'état démarre.
+Dans la liste des états financiers, vous pouvez créer un nouvel état ou modifier un état existant. Si vous disposez des autorisations appropriées, vous pouvez créer un état financier en cliquant sur **Nouveau** dans le volet Actions. Un programme de concepteur d'états est téléchargé sur votre périphérique. Une fois que le concepteur d'états démarre, vous pouvez créer l'état. Après avoir enregistré le nouvel état, il apparaît dans la liste des états financiers. La liste affiche uniquement les états créés pour la société utilisés dans Finance and Operations. Pour plus d'informations sur le processus de création et de modification d'états financiers dans Finance and Operations, reportez-vous à ces [publications de blog](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/tag/learning/) dans le blog de génération d'états financiers Dynamics. **Remarque :** la version 4.6.2 de Microsoft .NET Framework doit être installée sur l'ordinateur sur lequel vous téléchargez le client Concepteur d'états. Cette version de Microsoft .NET Framework peut être téléchargée et installée à partir d'[ici](https://www.microsoft.com/en-us/download/details.aspx?id=53345). Si vous utilisez Chrome, vous devez installer une extension ClickOnce afin de télécharger le client Concepteur d'états. Si vous utilisez le mode incognito, vérifiez que l'extension ClickOnce est activée pour le mode incognito. Vous pouvez également modifier un état qui apparaît dans la liste des états financiers. Lorsque la zone autour du nom de l'état est activée, cliquez sur **Édition** dans le Volet Actions. Le programme de concepteur d'état démarre.
 
 <a name="see-also"></a>Voir également :
 --------

@@ -3,14 +3,14 @@ title: Afficher et exporter les descriptions de champ
 description: "Cet article décrit comment afficher les descriptions des champs et comment utiliser la page Descriptions de champ pour exporter des descriptions."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: FieldDescriptions
 audience: Application User, Developer, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11534
 ms.assetid: e2795f51-a8a7-4c74-bdb9-b1be93bdd358
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: cd84c03baa4f7a9d38e380c37ed2020ee3387954
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 7898ff427ede4447a5798d4989ffd3088a776d9c
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -33,14 +33,14 @@ ms.lasthandoff: 05/25/2017
 
 Cet article décrit comment afficher les descriptions des champs et comment utiliser la page Descriptions de champ pour exporter des descriptions.
 
-Microsoft Dynamics 365 for Operations offre des descriptions pour les champs les plus complexes. Ces descriptions s’affichent lorsque vous survolez un champ. Vous pouvez également afficher et exporter des descriptions sur la page **Descriptions de champ**. 
+Microsoft Dynamics 365 for Finance and Operations offre des descriptions pour les champs les plus complexes. Ces descriptions s’affichent lorsque vous survolez un champ. Vous pouvez également afficher et exporter des descriptions sur la page **Descriptions de champ**. 
 
 Toutes les pages n'ont pas des descriptions de champ. Nous souhaitons uniquement fournir des descriptions pour les champs plus complexes, et non ceux dont l'utilisation du champ est évidente. Par conséquent, certaines pages n’ont pas de descriptions de champ, certaines pages comportent quelques descriptions et certaines des pages plus complexes, comme la plupart des pages de paramètres, comportent de nombreuses descriptions. 
 
-Si vous avez accès à l'environnement de développement Microsoft Dynamics 365 for Operations, vous pouvez ajouter de nouvelles descriptions de champ et personnaliser les descriptions existantes. Par exemple, vous pouvez ajouter des informations spécifiques à la société dans une description de champ. Pour plus d'informations, voir [Personnaliser le champ d'aide](/dynamics365/operations/dev-itpro/user-interface/customize-field-help).
+Si vous avez accès à l'environnement de développement Finance and Operations, vous pouvez ajouter de nouvelles descriptions de champ et personnaliser les descriptions existantes. Par exemple, vous pouvez ajouter des informations spécifiques à la société dans une description de champ. Pour plus d'informations, voir [Personnaliser le champ d'aide](/dynamics365/unified-operations/dev-itpro/user-interface/customize-field-help).
 
 ## <a name="see-field-descriptions-in-the-user-interface"></a>Voir les descriptions des champs dans l'interface utilisateur
-Vous pouvez afficher les descriptions de champ en plaçant le curseur sur un champ. Si aucune description n’est disponible, vous voyez le nom du champ lorsque vous placez le pointeur sur le champ. (Remarque : dans la version 7.0.0, les descriptions des champs ne s'affichent que dans la page **Descriptions des champs**.) L'illustration suivante présente la description du champ qui s'affiche lorsque vous survolez le champ **Verrouiller les articles lors du comptage**. 
+Vous pouvez afficher les descriptions de champ en plaçant le curseur sur un champ. Si aucune description n’est disponible, vous voyez le nom du champ lorsque vous placez le pointeur sur le champ. (Remarque : dans Dynamics AX 7.0 (février 2016), les descriptions des champs ne s'affichent que dans la page **Descriptions des champs**.) L'illustration suivante présente la description du champ qui s'affiche lorsque vous survolez le champ **Verrouiller les articles lors du comptage**. 
 
 [![Exemple de description de champ](./media/field-description.png)](./media/field-description.png)
 
@@ -101,7 +101,7 @@ Pour plus d’informations sur les différentes façons de trouver une page, con
 <a name="see-also"></a>Voir également :
 --------
 
-[Personnaliser l'aide du champ](/dynamics365/operations/dev-itpro/user-interface/customize-field-help)
+[Personnaliser l'aide du champ](/dynamics365/unified-operations/dev-itpro/user-interface/customize-field-help)
 
 
 

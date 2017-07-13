@@ -1,15 +1,15 @@
 ---
-title: Vue d&quot;ensemble du budget
-description: "Presque toutes les sociétés qui utilisent la fonctionnalité Finances dans Microsoft Dynamics 365 for Operations pourront créer des états budgétés et réels. Cet article décrit la configuration minimale requise pour créer des budgets dans Dynamics 365 for Operations ou les charger dans un programme tiers."
+title: Vue d'ensemble du budget
+description: "Presque toutes les sociétés qui utilisent la fonctionnalité Microsoft Dynamics 365 for Finance and Operations, Enterprise edition pourront créer des états budgétés et réels. Cet article décrit la configuration minimale requise pour créer des budgets dans Finance and Operations, Enterprise edition ou les charger dans un programme tiers."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 60113
 ms.assetid: 28a9793e-d376-47af-a345-69046bad17df
 ms.search.region: global
@@ -17,27 +17,27 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a4f9c99b8d74e20fbadc6cd9617451cfbfc06ba4
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: f35db274a6b14f6bae185b69348d3829c77801b5
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="budgeting-overview"></a>Vue d'ensemble du budget
+# <a name="budgeting-overview"></a>Vue d'ensemble du budget 
 
 [!include[banner](../includes/banner.md)]
 
 
-Presque toutes les sociétés qui utilisent la fonctionnalité Finances dans Microsoft Dynamics 365 for Operations pourront créer des états budgétés et réels. Cet article décrit la configuration minimale requise pour créer des budgets dans Dynamics 365 for Operations ou les charger dans un programme tiers.
+Presque toutes les sociétés qui utilisent la fonctionnalité Microsoft Dynamics 365 for Finance and Operations, Enterprise edition pourront créer des états budgétés et réels. Cet article décrit la configuration minimale requise pour créer des budgets dans Finance and Operations ou les charger dans un programme tiers.
 
 <a name="overview"></a>Vue d'ensemble
 --------
 
 Le budget approuvé pour une entité juridique est tenu à jour dans un document appelé une *écriture de registre budgétaire*. Les lignes d'un document d'écriture de registre budgétaire sont appelées écritures de *compte budgétaire*, et contiennent des informations relatives aux dimensions financières, des dates et les montants du budget approuvé. Le document d'écriture de registre budgétaire est intégré aux états financiers de base et aux pages de recherche où les montants réels comptables sont comparés aux montants du budget. 
 
-Il existe plusieurs méthodes permettant la création d'écritures de registre budgétaires dans Dynamics 365 for Operations :
+Il existe plusieurs méthodes permettant la création d'écritures de registre budgétaires dans Finance and Operations :
 
 -   Entrez manuellement les informations de document sur la page **Écritures de registre budgétaires**.
 -   Utilisez le modèle Microsoft Excel que vous pouvez ouvrir en cliquant sur le bouton **Ouvrir dans Excel** de la page **Écritures de registre budgétaires**.
@@ -67,7 +67,7 @@ Créez des *codes budget *qui identifient le type de transactions budgétaires p
 -   Engagement préalable
 -   Report de budget
 
-Les codes budget vous permettent de disposer d'une piste d'audit des modifications de budget approuvées tout au long du cycle budgétaire. Si un workflow est associé à un code budget, le workflow est activé pour toutes les écritures de registre budgétaires qui utilisent ce code budget, et les étapes de workflow doivent être effectuées avant que l'écriture de registre budgétaire atteigne le stade**Terminé**.  
+Les codes budget vous permettent de disposer d'une piste d'audit des modifications de budget approuvées tout au long du cycle budgétaire. Si un workflow est associé à un code budget, le workflow est activé pour toutes les écritures de registre budgétaires qui utilisent ce code budget, et les étapes de workflow doivent être effectuées avant que l'écriture de registre budgétaire atteigne le stade **Terminé**.  
 
 Le cas échéant, vous pouvez également paramétrer les *règles de transfert budgétaire*. Pour utiliser des règles de transfert budgétaire, sélectionnez **Utiliser des règles pour les transferts budgétaires** sur la page **Paramètres budgétaires**. Lorsque vous utilisez des règles de transfert budgétaire et qu'un utilisateur crée un document à l'aide d'un code budget de type **Transfert**, les soldes budgétaires ne sont pas mises à jour si les règles de transfert budgétaire sont violées. Par exemple, vous pouvez autoriser les documents de transfert budgétaire où le budget des dépenses est transféré entre les comptes principaux pour le département Ventes et marketing, mais interdire le transfert du budget de ou vers ce département sauf si l'approbation de workflow a été autorisé pour ce type d'écriture de compte budgétaire.
 
@@ -77,7 +77,7 @@ Le responsable du budget peut consulter l'état actuel d'un budget dans l'espace
 > [!NOTE] 
 > Le champ **Responsable de département** de la page **Unités d'organisation** détermine quels responsables prennent en charge des combinaisons de dimensions financières spécifiques. Pour plus de détails sur les montants budgétaires/les montants réels, cliquez sur **En voir plus** dans la partie inférieure de l'onglet pour ouvrir la page de recherche **Budget et chiffres réels**. 
 
-La page de recherche **Comparatif Réel/Budget** vous permet de zoomer sur les détails du budget par rapport aux montants réels. Sélectionnez une ligne sur la page de recherche, puis cliquez sur **Soldes de la période** pour afficher les montants du budget et les montants réels répartis sur plusieurs périodes fiscales. La page **Écritures de compte budgétaires** permet d'extraire les détails du montant du budget des écritures de registre budgétaires. La page **Écritures du journal des opérations diverses**affiche les écritures comptables incluses dans le montant **Chiffres réels** calculé. 
+La page de recherche **Comparatif Réel/Budget** vous permet de zoomer sur les détails du budget par rapport aux montants réels. Sélectionnez une ligne sur la page de recherche, puis cliquez sur **Soldes de la période** pour afficher les montants du budget et les montants réels répartis sur plusieurs périodes fiscales. La page **Écritures de compte budgétaires** permet d'extraire les détails du montant du budget des écritures de registre budgétaires. La page **Écritures du journal des opérations diverses** affiche les écritures comptables incluses dans le montant **Chiffres réels** calculé. 
 
 Une société qui utilise la fonctionnalité de planification budgétaire peut créer et utiliser les *prévisions budgétaires *dans l'espace de travail **Budgets comptables et prévisions**.
 

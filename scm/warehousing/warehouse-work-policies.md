@@ -1,16 +1,16 @@
 ---
-title: "Stratégies de travail d&quot;entrepôt"
-description: "Une nouvelle stratégie de travail d&quot;entrepôt est introduite dans Microsoft Dynamics AX 7.0.1 (mise à jour de mai 2016). Cette stratégie de travail contrôle si le travail d&quot;entrepôt est créé pour les processus d&quot;entrepôt pour la production."
+title: "Stratégies de travail d'entrepôt"
+description: "Les stratégies de travail d'entrepôt contrôlent si le travail d'entrepôt est créé par les processus d'entrepôt pour la production, selon le type d'ordre de travail, l'emplacement de stockage et le produit."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WHSWorkPolicy
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 196561
 ms.assetid: cbf48ec6-1836-48d5-ad66-a9b534af1786
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 6c9cdf361e4d4543e6aca962e9ec712428bc76e6
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 7612003bc20f91f173629893750478b034cff27b
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,12 +32,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Une nouvelle stratégie de travail d'entrepôt est introduite dans Microsoft Dynamics AX 7.0.1 (mise à jour de mai 2016). Cette stratégie de travail contrôle si le travail d'entrepôt est créé pour les processus d'entrepôt pour la production.
+Les stratégies de travail d'entrepôt dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition contrôlent si le travail d'entrepôt est créé par les processus d'entrepôt pour la production, selon le type d'ordre de travail, l'emplacement de stockage et le produit.
 
 Cette stratégie de travail contrôle si le travail d'entrepôt est créé pour les processus d'entrepôt pour la production. Vous pouvez paramétrer la stratégie de travail à l'aide d'une combinaison de **types d'ordres d'exécution**, d'**emplacement de stockage**, et de **produit** Par exemple, le produit L0101 est déclaré comme terminé à l'emplacement de sortie 001. Le produit fini est consommé ultérieurement dans un autre ordre de fabrication à l'emplacement de sortie 001. Dans ce cas, vous pouvez paramétrer une stratégie de travail pour empêcher de créer un travail pour ranger le produit fini lorsque vous déclarez le produit L0101 terminé à l'emplacement de sortie 001. La stratégie de travail est une entité individuelle qui peut être décrite à l'aide des informations suivantes :
 
 -   **Nom de stratégie de travail**(identificateur unique de la stratégie de travail)
--   **Types d'ordres d'exécution**et**Méthode de création de travail**
+-   **Types d'ordres d'exécution** et **Méthode de création de travail**
 -   **Emplacement de stockage**
 -   **Produits**
 

@@ -1,9 +1,9 @@
 ---
 title: "Utiliser le module complémentaire Excel"
-description: "Cette rubrique explique comment ouvrir des données d&quot;entité dans Microsoft Excel, puis les étudier, les mettre à jour et les modifier à l&quot;aide du module complémentaire Microsoft Dynamics Office pour Excel. Pour ouvrir les données d&quot;entité, vous pouvez commencer à partir d&quot;Excel ou de Microsoft Dynamics 365 for Operations."
+description: "Cette rubrique explique comment ouvrir des données d'entité dans Microsoft Excel, puis les étudier, les mettre à jour et les modifier à l'aide du module complémentaire Microsoft Dynamics Office pour Excel."
 author: ChrisGarty
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,10 +17,10 @@ ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c391fb70d837db9c0f167b392291fc1c5cc2bb53
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: f55e1e89d0e48819962c169a56f0f27dc0d792b4
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -30,16 +30,16 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Cette rubrique explique comment ouvrir des données d'entité dans Microsoft Excel, puis les étudier, les mettre à jour et les modifier à l'aide du module complémentaire Microsoft Dynamics Office pour Excel. Pour ouvrir les données d'entité, vous pouvez commencer à partir d'Excel ou de Microsoft Dynamics 365 for Operations.
+Cette rubrique explique comment ouvrir des données d'entité dans Microsoft Excel, puis les étudier, les mettre à jour et les modifier à l'aide du module complémentaire Microsoft Dynamics Office pour Excel. Pour ouvrir les données d'entité, vous pouvez utiliser Excel ou Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
 
 En ouvrant des données d'entité dans Microsoft Excel, vous pouvez rapidement les étudier et les modifier à l'aide du module complémentaire Microsoft Dynamics Office pour Excel. Ce module complémentaire nécessite Microsoft Excel 2016. **Remarque :** si votre location Microsoft Azure Active Directory (Azure AD) est configurée pour utiliser les services AD FS (Active Directory Federation Services), vous devez vous assurer que la mise à jour de mai 2016 a été appliquée, de sorte de pouvoir vous connecter correctement au module complémentaire Excel.
 
-## <a name="open-entity-data-in-excel-when-you-start-from-dynamics-365-for-operations"></a>Ouvrir des données d'entité dans Excel au démarrage de Dynamics 365 for Operations
-1.  Dans une page de Microsoft Dynamics 365 for Operations, cliquez sur **Ouvrir dans Microsoft Office**. Si la source de données racine (tableau) de la page est identique à la source de données racine pour toutes les entités, les options par défaut **Ouvrir dans Excel** sont générées pour la page. Les options **Ouvrir dans Excel** se trouvent dans les pages fréquemment utilisées, telles que **Tous les fournisseurs** et **Tous les clients**.
+## <a name="open-entity-data-in-excel-when-you-start-from-dynamics-365-for-finance-and-operations"></a>Ouvrir des données d'entité dans Excel au démarrage de Dynamics 365 for Finance and Operations
+1.  Dans une page de Microsoft Dynamics 365 for Finance and Operations, cliquez sur **Ouvrir dans Microsoft Office**. Si la source de données racine (tableau) de la page est identique à la source de données racine pour toutes les entités, les options par défaut **Ouvrir dans Excel** sont générées pour la page. Les options **Ouvrir dans Excel** se trouvent dans les pages fréquemment utilisées, telles que **Tous les fournisseurs** et **Tous les clients**.
 2.  Cliquez sur l'option **Ouvrir dans Excel** et ouvrez le classeur généré. Ce classeur dispose des informations de liaison pour l'entité, d'un pointeur vers votre environnement, et d'un pointeur vers le module complémentaire Excel.
 3.  Dans Excel, cliquez sur **Activer la modification** pour permettre l'exécution du module complémentaire Excel. Le module complémentaire Excel s'exécute dans un volet à droite de la fenêtre Excel.
 4.  Si vous exécutez le module complémentaire Excel pour la première fois, cliquez sur **Faire confiance à ce module complémentaire**.
-5.  Si vous êtes invité à vous connecter, cliquez sur **Connexion** et connectez-vous à l'aide des mêmes informations d'identification que pour Dynamics 365 for Operations. Le module complémentaire Excel utilise un contexte de connexion antérieur issu d'Internet Explorer et vous connecte automatiquement si c'est possible. Par conséquent, vérifiez le nom d'utilisateur dans le coin supérieur droit du module complémentaire Excel.
+5.  Si vous êtes invité à vous connecter, cliquez sur **Connexion** et connectez-vous à l'aide des mêmes informations d'identification que pour Dynamics 365 for Finance and Operations. Le module complémentaire Excel utilise un contexte de connexion antérieur issu d'Internet Explorer et vous connecte automatiquement si c'est possible. Par conséquent, vérifiez le nom d'utilisateur dans le coin supérieur droit du module complémentaire Excel.
 
 Le module complémentaire Excel lit automatiquement les données de l'entité sélectionnée. Notez qu'il n'existe aucune donnée dans le classeur tant que le module complémentaire Excel n'en a pas lue.
 
@@ -48,7 +48,7 @@ Le module complémentaire Excel lit automatiquement les données de l'entité s�
 2.  Dans le magasin Office, recherchez le mot clé « Dynamics » et cliquez sur **Ajouter** en regard de **Complément Microsoft Dynamics Office** (le complément Excel).
 3.  Si vous exécutez le module complémentaire Excel pour la première fois, cliquez sur **Faire confiance à ce module complémentaire** pour permettre l'exécution du complément Excel. Le module complémentaire Excel s'exécute dans un volet à droite de la fenêtre Excel.
 4.  Cliquez sur **Ajouter des informations sur le serveur** pour ouvrir le volet **Options**.
-5.  Copiez l'URL du navigateur de votre instance Dynamics 365 for Operations cible, collez-la dans le champ **URL du serveur**, puis supprimez tout après le nom de l'hôte. L'URL obtenue doit comporter juste le nom d'hôte.
+5.  Copiez l'URL du navigateur de votre instance Dynamics 365 for Finance and Operations cible, collez-la dans le champ **URL du serveur**, puis supprimez tout ce qui suit le nom de l'hôte. L'URL obtenue doit comporter juste le nom d'hôte.
 Par exemple, si l'URL est https://xxx.dynamics.com/?cmp=usmf&amp;mi=CustTableListPage, supprimez tout excepté **https://xxx.dynamics.com**.
 6.  Cliquez sur **OK**, puis cliquez sur **Oui** pour confirmer la modification. Le complément Excel redémarre et charge les métadonnées. Le bouton **Conception** est désormais disponible. Si le complément Excel comporte un bouton **Charger les applets**, vous n'êtes probablement pas connecté sous le bon compte d'utilisateur. Pour plus d'informations, voir « Le bouton Charger les applets s'affiche » dans la section « Dépannage » de cette rubrique.
 7.  Cliquez sur **Conception**. Le complément Excel récupère les métadonnées d'entité.

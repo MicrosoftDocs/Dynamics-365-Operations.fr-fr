@@ -1,27 +1,27 @@
 ---
 title: "Structures de répartition du travail"
-description: 
+description: "Une structure de répartition du travail (WBS) est une description du travail qui sera effectué pour un projet. Il s'agit d'une hiérarchie des tâches qui représente la compréhension par l'équipe projet de la composition du travail, de son étendue, du coût et de la durée de chaque composant ou tâche."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/05/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ProjWorkBreakdownStructure
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 23861
 ms.assetid: 241a0464-0056-4a69-b468-0afbe2d5f3ae
 ms.search.region: Global
-ms.author: kfend
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1a700f61bcc6e6d9c699987999be25649862b0d8
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 6d4391f1a6fa517b447387562fd3216201451316
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -30,10 +30,7 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
-
-
-
-Structures de répartition du travail Une structure de répartition du travail (WBS) est une description du travail qui sera effectué pour un projet. Il s'agit d'une hiérarchie des tâches qui représente la compréhension par l'équipe projet de la composition du travail, de son étendue, du coût et de la durée de chaque composant ou tâche. Une WBS a trois objectifs principaux :
+Une structure de répartition du travail (WBS) est une description du travail qui sera effectué pour un projet. Il s'agit d'une hiérarchie des tâches qui représente la compréhension par l'équipe projet de la composition du travail, de son étendue, du coût et de la durée de chaque composant ou tâche. Une WBS a trois objectifs principaux :
 
 -   Décrire la décomposition du travail en tâches.
 -   Planifier le travail du projet.
@@ -43,7 +40,7 @@ Le degré de détail dans une WBS dépend du niveau de précision souhaité pour
 
 En revanche, les projets dans les secteurs tels que les médias et la publicité, le logiciel et l'infrastructure informatique ont tendance à être tous uniques en leur genre et la productivité dépend de l'expérience et de la qualification de la personne qui exécute la tâche. C'est pourquoi ces industries utilisent une WBS pour obtenir une approximation de la taille d'un projet, et non pour suivre la progression de ce projet en détail. 
 
-L'élaboration d'une WBS est un processus intensif qui est généralement effectué sur une longue période, et qui nécessite la collaboration et les informations d'un large éventail de personnes. Cette rubrique décrit la manière dont vous pouvez utiliser les améliorations de la WBS dans Microsoft Dynamics 365 for Operations pour répondre à vos besoins pour les estimations et le suivi.
+L'élaboration d'une WBS est un processus intensif qui est généralement effectué sur une longue période, et qui nécessite la collaboration et les informations d'un large éventail de personnes. Cette rubrique décrit la manière dont vous pouvez utiliser les améliorations de la WBS dans Microsoft Dynamics 365 for Finance and Operations pour répondre à vos besoins pour les estimations et le suivi.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>Conditions préalables à la création d'une WBS
 Pour créer une WBS, vous devez pouvoir créer un planning de travail et estimer le coût du travail.
@@ -106,10 +103,10 @@ Actuellement, vous ne pouvez pas personnaliser la numérotation WBS.
 
 ### <a name="schedule-estimation"></a>Estimation de planification
 
-L'estimation de planification est généralement la deuxième étape de la création d'une WBS. Il est bon de réaliser l'estimation de planification après avoir créé les tâches. La page **Structure de répartition du travail** dans Microsoft Dynamics 365 for Operation comporte deux sections. Le volet supérieur est destiné à l'estimation de planification, et le volet inférieur inclut un onglet **Coûts estimés et produits** que vous pouvez utiliser pour l'estimation de coût. 
+L'estimation de planification est généralement la deuxième étape de la création d'une WBS. Il est bon de réaliser l'estimation de planification après avoir créé les tâches. La page **Structure de répartition du travail** dans Finance and Operations comporte deux sections. Le volet supérieur est destiné à l'estimation de planification, et le volet inférieur inclut un onglet **Coûts estimés et produits** que vous pouvez utiliser pour l'estimation de coût. 
 **Dépendances entre les tâches** Dans une WBS, vous pouvez créer une relation de prédécesseur entre les tâches. Lorsque vous affectez des tâches de prédécesseur à une tâche, cette tâche ne peut commencer qu'une fois que toutes ses tâches de prédécesseur ont été terminées. La date de début prévue de la tâche est automatiquement définie à la dernière date de tous ses prédécesseurs. 
 
-**Planification des tâches dans Microsoft Dynamics 365 for Operation** Les facteurs suivants déterminent la planification des tâches de nœud terminal :
+**Planification des tâches dans Microsoft Dynamics 365 for Finance and Operations** Les facteurs suivants déterminent la planification des tâches de nœud terminal :
 
 -   Prédécesseurs
 -   Effort
@@ -126,7 +123,7 @@ La date de début d'une tâche de nœud terminal qui n'a pas de prédécesseur e
 
 Nombre de personnes × Durée × Nombre d'heures dans un jour de travail standard dans le calendrier du projet. 
 
-Dans certains cas, vous pouvez souhaiter dévier de ces règles. Vous pouvez désactiver la planification automatique pour empêcher Microsoft Dynamics 365 for Operations de définir ou de corriger automatiquement les propriétés des tâches de nœud terminal. Lorsque vous entrez des informations pour une tâche qui entraîne une violation d'une règle de planification, une icône d'erreur de planification s'affiche pour la tâche. Si vous ne souhaitez pas que les erreurs de planification s'affichent, cliquez sur **Les erreurs de planification sont affichées** pour désactiver la fonctionnalité. 
+Dans certains cas, vous pouvez souhaiter dévier de ces règles. Vous pouvez désactiver la planification automatique pour empêcher Finance and Operations de définir ou de corriger automatiquement les propriétés des tâches de nœud terminal. Lorsque vous entrez des informations pour une tâche qui entraîne une violation d'une règle de planification, une icône d'erreur de planification s'affiche pour la tâche. Si vous ne souhaitez pas que les erreurs de planification s'affichent, cliquez sur **Les erreurs de planification sont affichées** pour désactiver la fonctionnalité. 
 
 > [!NOTE] 
 > Les valeurs pour une tâche de synthèse ou de conteneur continuent d'être calculées comme la somme des valeurs des tâches constitutives, indépendamment du fait que l'aide à la planification automatique est activée ou non. 
@@ -135,7 +132,7 @@ Dans certains cas, vous pouvez souhaiter dévier de ces règles. Vous pouvez dé
 
 **Corriger les erreurs de planification par tâche** Lorsque vous double-cliquez sur l'icône d'erreur de planification pour une tâche spécifique, une boîte de dialogue affiche toutes les erreurs de planification pour cette tâche. Vous pouvez choisir les erreurs de planification à corriger pour la tâche. 
 
-**Résolution de toutes les erreurs de planification** Si vous souhaitez que Microsoft Dynamics 365 for Operations corrige toutes les erreurs de planification dans la WBS, dans le Volet Actions, cliquez sur **Corriger tous les écarts de planification**. 
+**Résolution de toutes les erreurs de planification** Si vous souhaitez que Finance and Operations corrige toutes les erreurs de planification dans la WBS, dans le Volet Actions, cliquez sur **Corriger tous les écarts de planification**. 
 
 > [!NOTE] 
 > Cette fonction peut entraîner des modifications significatives de la WBS. Les erreurs sont corrigées dans l'ordre suivant :
@@ -170,7 +167,7 @@ Le coût et le prix de vente pour chaque ligne d'estimation de travail ou de dé
 ## <a name="tracking-progress-on-the-wbs"></a>Suivi de l'avancement de la WBS
 Dans certains secteurs on suit la progression d'un projet avec une WBS à un niveau très granulaire, tandis que dans d'autres on suit la progression à un niveau plus élevé de la WBS. Cette section décrit la manière dont vous pouvez utiliser le suivi de WBS selon les besoins de votre projet. 
 
-Microsoft Dynamics 365 for Operations comporte trois vues pour la WBS d'un projet : l'affichage Planification, l'affichage Suivi d'effort et l'affichage Suivi des coûts.
+Finance and Operations comporte trois vues pour la WBS d'un projet : l'affichage Planification, l'affichage Suivi d'effort, et l'affichage Suivi des coûts.
 
 ### <a name="planning-view"></a>Affichage Planification
 
@@ -246,13 +243,13 @@ La phase de temps sur le graphique de valeur gagnée est affichée en semaines o
 
 **Valeur planifiée** La théorie EVM indique que le graphique de la valeur planifiée représente le taux auquel l'équipe du projet a prévu de gagner de la valeur sur le projet. 
 
-Microsoft Dynamics 365 for Operations utilise la règle de gain 0:100 pour tracer la valeur planifiée. Avec cette règle, la valeur de la tâche est validée à la tâche à partir de sa date de fin. Aucune valeur n'est validée tant que la tâche n'est pas terminée à 100 %. 
+Finance and Operations utilise la règle de gain 0:100 pour tracer la valeur planifiée. Avec cette règle, la valeur de la tâche est validée à la tâche à partir de sa date de fin. Aucune valeur n'est validée tant que la tâche n'est pas terminée à 100 %. 
 
 Dans le module gestion de projets et comptabilité, vous entrez la date de fin des nœuds terminaux et leur coût prévu. Lorsque le graphique de la valeur planifiée est affiché par semaine, la valeur planifiée est synthétisée par semaine pour toutes les tâches de nœud terminal pour toute la durée du projet. 
 
 **Valeur gagnée** La théorie EVM indique que le graphique de la valeur gagnée représente le taux auquel l'équipe du projet gagne réellement de la valeur sur le projet. 
 
-Microsoft Dynamics 365 for Operations utilise la règle de gain 0:100 pour tracer la valeur gagnée. Avec cette règle, la valeur de la tâche est validée à la tâche à partir de sa date de fin. Aucune valeur n'est validée tant que la tâche n'est pas terminée à 100 %. 
+Finance and Operations utilise la règle de gain 0:100 pour tracer la valeur gagnée. Avec cette règle, la valeur de la tâche est validée à la tâche à partir de sa date de fin. Aucune valeur n'est validée tant que la tâche n'est pas terminée à 100 %. 
 
 Quand la valeur gagnée est calculée, le pourcentage de progression de chaque tâche est pris en compte. Avec la règle de gain 0:100 , seules les tâches terminées dans une période donnée sont prises en compte dans le calcul de la valeur gagnée à la fin de cette période. La valeur gagnée sur le projet est calculée pour toutes les tâches terminées au moment où le graphique est créé. 
 

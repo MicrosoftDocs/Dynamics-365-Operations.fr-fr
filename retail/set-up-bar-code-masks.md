@@ -1,27 +1,29 @@
 ---
 title: "Paramétrage de masques de codes-barres"
-description: "Cette rubrique décrit la procédure de paramétrage des caractères de masque de code-barres, des masques de code-barres, ainsi que la procédure d&quot;affectation de masques de code-barres aux codes-barres."
+description: "Cette rubrique décrit la procédure de paramétrage des caractères de masque de code-barres, des masques de code-barres, ainsi que la procédure d'affectation de masques de code-barres aux codes-barres."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User, Developer, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 265994
 ms.assetid: 5831c74d-d2a1-4fa5-9a9a-a5aba8848381
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7b71cbe75f2d7e8f20201e8fa50df8ea1021c4de
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 958cac2e85ae7fa514f6f26cbb6178d8fdec9783
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -36,7 +38,7 @@ Cette rubrique décrit la procédure de paramétrage des caractères de masque d
 <a name="set-up-bar-code-mask-characters"></a>Paramétrage des caractères de masque de code-barres
 -------------------------------
 
-Les masques de code-barres permettent de créer des codes-barres et d'identifier rapidement les codes-barres qui sont lus au point de vente (PDV). Les masques sont composés de caractères qui ont la fonction d'espaces réservés indiquant le format des codes-barres qui seront créés. Pour configurer un masque de code-barres, vous devez paramétrer des caractères de masque de code-barres. Accédez à **Commerce et vente au détail** &gt; **Gestion des stocks** &gt; **Codes-barres et étiquettes** &gt; **Caractères de masque**. Cliquez sur **Nouveau** pour créer des caractères de masque de code-barres. Les caractères de masque peuvent être créés pour indiquer les données de code-barres suivantes.
+Les masques de code-barres permettent de créer des codes-barres et d'identifier rapidement les codes-barres qui sont lus au point de vente (PDV). Les masques sont composés de caractères qui ont la fonction d'espaces réservés indiquant le format des codes-barres qui seront créés. Pour configurer un masque de code-barres, vous devez paramétrer des caractères de masque de code-barres. Accédez à **Vente au détail** &gt; **Gestion des stocks** &gt; **Codes-barres et étiquettes** &gt; **Caractères de masque**. Cliquez sur **Nouveau** pour créer des caractères de masque de code-barres. Les caractères de masque peuvent être créés pour indiquer les données de code-barres suivantes.
 
 |                      |                                                                                                                 |
 |----------------------|-----------------------------------------------------------------------------------------------------------------|
@@ -53,12 +55,13 @@ Les masques de code-barres permettent de créer des codes-barres et d'identifier
 | **Employé**         | Indique le segment de code-barres pour le numéro d'ID employé utilisé pour la connexion au PDV de code-barres.                                  |
 | **Client**         | Indique le segment d'ID client.                                                                                  |
 | **Saisie de données**       | *Pas encore mis en œuvre.*                                                                                          |
-| **Code remise**    | Indique le code remise pour un code-barres utilisé pour ajouter une remise à une transaction de point de vente             |
+| **Code remise**    | *Obsolète* à partir de la version printemps 2017 de Dynamics 365 for Retail. Précédemment : indique le code remise pour un code-barres utilisé pour ajouter une remise à une transaction de point de vente.                                                                   |
+| **Code coupon**      | Indique le code de coupon pour un code-barres utilisé pour ajouter une remise à une commande de vente au détail. Il a remplacé le code de remise.     |
 | **Carte cadeau**        | Indique un numéro de carte cadeau lors de l'émission d'une carte cadeau ou du règlement par ce moyen.                                               |
 | **Carte de fidélité**     | Ajoute un numéro de fidélité client à la transaction, et peut être utilisé lors du règlement par points de fidélité.                             |
 
 ## <a name="define-bar-code-masks"></a>Définir les masques de codes-barres
-Une fois les caractères de masque de codes-barres spécifiés pour les masques de codes-barres requis, accédez à **Commerce et vente au détail** &gt; **Gestion des stocks** &gt; **Codes-barres et étiquettes** &gt; **Paramétrage du masque de code-barres**. Dans cette page, vous pouvez définir des masques de codes-barres qui utilisent les caractères précédemment spécifiés. Ces masques de code-barres seront utilisés lors de la génération de codes-barres et permettent également d'identifier les codes-barres lus au niveau du PDV.
+Une fois les caractères de masque de codes-barres spécifiés pour les masques de codes-barres requis, accédez à **Vente au détail** &gt; **Gestion des stocks** &gt; **Codes-barres et étiquettes** &gt; **Paramétrage du masque de code-barres**. Dans cette page, vous pouvez définir des masques de codes-barres qui utilisent les caractères précédemment spécifiés. Ces masques de code-barres seront utilisés lors de la génération de codes-barres et permettent également d'identifier les codes-barres lus au niveau du PDV.
 
 1.  Cliquez sur **Nouveau** pour créer un masque de code-barres.
 2.  Entrez des valeurs dans les champs **ID masque** et **Description**, puis sélectionnez un type de masque de code-barres dans le champ **Type**.

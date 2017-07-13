@@ -1,15 +1,15 @@
 ---
-title: "Dépannage d&quot;importation de fichier de relevé bancaire"
-description: "Il est important que le fichier de relevé bancaire de la banque corresponde à la mise en page prise en charge par Microsoft Dynamics 365 for Operations. En raison de normes strictes pour les relevés bancaires, la plupart des intégrations fonctionneront correctement. Toutefois, il arrive que le fichier de relevé ne puisse pas être importé ou contienne des résultats incorrects. Généralement, ces problèmes sont engendrés par de petites différences dans le fichier de relevé bancaire. Cet article décrit comment résoudre ces différences ainsi que les problèmes."
+title: "Dépannage d'importation de fichier de relevé bancaire"
+description: "Il est important que le fichier de relevé bancaire de la banque corresponde à la mise en page prise en charge par Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. En raison de normes strictes pour les relevés bancaires, la plupart des intégrations fonctionneront correctement. Toutefois, il arrive que le fichier de relevé ne puisse pas être importé ou contienne des résultats incorrects. Généralement, ces problèmes sont engendrés par de petites différences dans le fichier de relevé bancaire. Cet article décrit comment résoudre ces différences ainsi que les problèmes."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 141273
 ms.assetid: 3ee2f32b-02aa-420b-8990-e6aa5fc6bda3
 ms.search.region: global
@@ -17,10 +17,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e2029a03cf6b46ee206417076c64a269080119ed
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 33b7a499caf9292e44c155a0e1bd6a8929558be5
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Il est important que le fichier de relevé bancaire de la banque corresponde à la mise en page prise en charge par Microsoft Dynamics 365 for Operations. En raison de normes strictes pour les relevés bancaires, la plupart des intégrations fonctionneront correctement. Toutefois, il arrive que le fichier de relevé ne puisse pas être importé ou contienne des résultats incorrects. Généralement, ces problèmes sont engendrés par de petites différences dans le fichier de relevé bancaire. Cet article décrit comment résoudre ces différences ainsi que les problèmes.
+Il est important que le fichier de relevé bancaire de la banque corresponde à la mise en page prise en charge par Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. En raison de normes strictes pour les relevés bancaires, la plupart des intégrations fonctionneront correctement. Toutefois, il arrive que le fichier de relevé ne puisse pas être importé ou contienne des résultats incorrects. Généralement, ces problèmes sont engendrés par de petites différences dans le fichier de relevé bancaire. Cet article décrit comment résoudre ces différences ainsi que les problèmes.
 
 <a name="what-is-the-error"></a>Quelle est l'erreur ?
 ------------------
@@ -38,7 +38,7 @@ Il est important que le fichier de relevé bancaire de la banque corresponde à 
 Une fois que vous avez essayé d'importer un fichier de relevé bancaire, allez dans l'historique des tâches de gestion des données et ses détails d'exécution pour trouver l'erreur. L'erreur peut aider en pointant vers le relevé, le solde ou la ligne de relevé. Toutefois, il est peu probable qu'elle fournisse assez d'informations pour vous aider à identifier le champ ou l'élément qui provoque le problème.
 
 ## <a name="what-are-the-differences"></a>Quelles sont les différences ?
-Comparez la définition bancaire de la mise en page de fichier à la définition d'importation de Microsoft Dynamics 365 for Operations, et notez les différences dans les champs et les éléments. Comparez le fichier de relevé bancaire à l'exemple de fichier Dynamics 365 for Operations associé. Dans les fichiers ISO20022, il est facile d'afficher toutes les différences.
+Comparez la définition bancaire de la mise en page de fichier à la définition d'importation de Finance and Operations, et notez les différences dans les champs et les éléments. Comparez le fichier de relevé bancaire à l'exemple de fichier Finance and Operations associé. Dans les fichiers ISO20022, il est facile d'afficher toutes les différences.
 
 ## <a name="transformations"></a>Transformations
 Généralement, la modification doit être effectuée dans l'une des trois transformations. Chaque transformation concerne une norme spécifique.
@@ -80,7 +80,7 @@ Lorsque la transformation est exécutée, elle crée un fichier de sortie visibl
 
 ### <a name="adjust-the-transformation"></a>Ajuster la transformation
 
-Ajustez la transformation pour obtenir le champ ou l'élément approprié dans le fichier de relevé bancaire. Mappez ensuite ce champ ou cet élément à l'élément Dynamics 365 for Operations approprié.
+Ajustez la transformation pour obtenir le champ ou l'élément approprié dans le fichier de relevé bancaire. Mappez ensuite ce champ ou cet élément à l'élément Finance and Operations approprié.
 
 ### <a name="debitcredit-indicator"></a>Indicateur de débit/crédit
 

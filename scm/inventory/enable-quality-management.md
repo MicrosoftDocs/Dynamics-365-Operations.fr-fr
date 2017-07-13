@@ -1,16 +1,16 @@
 ---
-title: "Vue d&quot;ensemble de la gestion de la qualité"
-description: "Cet article décrit la manière dont vous pouvez utiliser la gestion de la qualité dans Microsoft Dynamics 365 for Operations pour vous aider à améliorer la qualité des produits de votre chaîne logistique."
+title: "Vue d'ensemble de la gestion de la qualité"
+description: "Cet article décrit la manière dont vous pouvez utiliser la gestion de la qualité dans Microsoft Dynamics 365 for Finance and Operations pour vous aider à améliorer la qualité des produits de votre chaîne logistique."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventTestAssociationTable, InventTestGroup, InventTestItemQualityGroup, InventTestTable, InventTestVariable, InventTestVariableOutcome
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bb3f36bb425adffa7e055eba4e8732866cb67c49
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 255035bf13155190e59088a7f64f798c7462b885
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -32,13 +32,13 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Cet article décrit la manière dont vous pouvez utiliser la gestion de la qualité dans Microsoft Dynamics 365 for Operations pour vous aider à améliorer la qualité des produits de votre chaîne logistique.
+Cet article décrit la manière dont vous pouvez utiliser la gestion de la qualité dans Microsoft Dynamics 365 for Finance and Operations pour vous aider à améliorer la qualité des produits de votre chaîne logistique.
 
-La gestion de la qualité peut vous aider à gérer les délais de rotation lorsque vous traitez des produits non conformes, indépendamment de leur point d'origine. Étant donné que les types de diagnostics sont liés à la génération d'états de correction, Microsoft Dynamics 365 for Operations peut programmer des tâches afin de corriger les problèmes et les empêcher de se reproduire.
+La gestion de la qualité peut vous aider à gérer les délais de rotation lorsque vous traitez des produits non conformes, indépendamment de leur point d'origine. Étant donné que les types de diagnostics sont liés à la génération d'états de correction, Microsoft Dynamics 365 for Finance and Operations peut programmer des tâches afin de corriger les problèmes et les empêcher de se reproduire.
 
 Outre la fonctionnalité de gestion de la non-conformité, la gestion de la qualité inclut la fonctionnalité de suivi des problèmes par type de problème (même les problèmes internes) et d'identification des solutions comme à court terme ou à long terme. Les statistiques concernant les indicateurs clés de performance (KPI) donnent des indications sur l'historique des problèmes de non-conformité antérieurs et sur les solutions qui ont été utilisées pour les corriger. Vous pouvez utiliser les données historiques pour examiner l'efficacité des mesures de qualité antérieures et déterminer les mesures appropriées à utiliser à l'avenir.
 
-Lorsque vous paramétrez une association de qualité, Microsoft Dynamics 365 for Operations peut générer des ordres de qualité pour différents processus d'entreprise, événements et conditions. L'association de qualité peut couvrir un article spécifique, un groupe d'articles spécifique, ou tous les articles.
+Lorsque vous paramétrez une association de qualité, Finance and Operations peut générer des ordres de qualité pour différents processus d'entreprise, événements et conditions. L'association de qualité peut couvrir un article spécifique, un groupe d'articles spécifique, ou tous les articles.
 
 ## <a name="examples-of-the-use-of-quality-management"></a>Exemples de l'utilisation de la gestion de la qualité
 La gestion de la qualité est flexible et peut être mise en œuvre de différentes manières afin de répondre aux exigences de niveaux spécifiques des opérations de chaîne d'approvisionnement. Les exemples suivants illustrent les utilisations possibles de ces fonctionnalités :

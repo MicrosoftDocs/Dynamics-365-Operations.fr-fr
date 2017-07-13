@@ -3,14 +3,14 @@ title: Ressources de projet
 description: Cette rubrique fournit des informations sur les ressources de projet.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 82022
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: cmercado
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5c00c63e3c55e818934c36b818c90025002092d4
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: a7275e9ad8d655d0d2ee5ba90a792775dec0cf05
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 
 Cette rubrique fournit des informations sur les ressources de projet.
 
-La difficulté pour les chefs de projet et les responsables de ressources pendant le stade de planification du projet est l'allocation des ressources, dans laquelle ils doivent réserver la ressource correcte pour travailler sur un projet. Dans Microsoft Dynamics 365 for Operations, les fonctionnalités de ressources pour les projets vous permettent de définir les rôles qui sont traités comme des ressources temporaires pouvant être réservées à un engagement spécifique ou à une partie d'engagement. Ce type de ressource permet aux chefs de projet et aux responsables de ressources d'accomplir les tâches suivantes :
+La difficulté pour les chefs de projet et les responsables de ressources pendant le stade de planification du projet est l'allocation des ressources, dans laquelle ils doivent réserver la ressource correcte pour travailler sur un projet. Dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, les fonctionnalités de ressources pour les projets vous permettent de définir les rôles qui sont traités comme des ressources temporaires pouvant être réservées à un engagement spécifique ou à une partie d'engagement. Ce type de ressource permet aux chefs de projet et aux responsables de ressources d'accomplir les tâches suivantes :
 
 -   Définir un rôle qui possède les qualifications requises pour simplifier le rapprochement des ressources.
 -   Utiliser des rôles pour définir un programme initial d'engagement basé sur les ressources réservées.
@@ -65,7 +65,7 @@ Lorsque vous paramétrez un collaborateur comme ressource intersociétés, vous 
 
 **Dans la société de prêt :**
 
-1.  Dans Dynamics 365 for Operations, vérifiez que la société de prêt est sélectionnée, puis suivez la procédure ci-dessus, « Paramétrer un collaborateur comme ressource de projet ».
+1.  Dans Finance and Operations, vérifiez que la société de prêt est sélectionnée, puis suivez la procédure ci-dessus, « Paramétrer un collaborateur comme ressource de projet ».
 2.  Accédez à **Comptabilité **&gt; **Paramétrage de la validation **&gt; **Comptabilité intersociétés**. Cliquez sur **Nouveau**.
 3.  Dans le champ **ID de l'entité juridique**, sélectionnez la société de prêt. Complétez les champs restants appropriés, puis cliquez sur **Enregistrer**.
 4.  Accédez à **Gestion de projets et comptabilité **&gt; **Paramétrage **&gt; **Prix ** &gt; **Prix de transfert**.** **
@@ -117,13 +117,13 @@ Pour paramétrer des compétences pour un collaborateur, utilisez la page de lis
 
 1.  Cliquez sur **Ressources humaines** &gt; **Collaborateurs** &gt; **Collaborateurs**.
 2.  Dans la liste **Collaborateurs**, sélectionnez l'enregistrement pour le collaborateur dont vous avez précédemment paramétré les compétences et ouvrez l'enregistrement de collaborateur.
-3.  Dans le volet Actions, sous l'onglet**Projet**, dans le groupe **Paramétrage**, cliquez sur **Affecter des projets**.
+3.  Dans le volet Actions, sous l'onglet **Projet**, dans le groupe **Paramétrage**, cliquez sur **Affecter des projets**.
 4.  Dans la page **Affectations du projet de contrôle des ressources**, cliquez sur l'onglet **Projets**.
 5.  Dans **Ajoutez le projet aux projets sélectionnés**, filtrez sur le projet, Phase 2 de mise à niveau de XYZ
 6.  Dans le volet **Projets restants**, sélectionnez un projet puis cliquez sur la flèche pour l'ajouter au volet **Projets sélectionnés**.
 7.  Fermez la page.
 
-Si nécessaire, vous pouvez également affecter des catégories à une ressource. Le type de catégorie est Coût ou Produit. Cela est déterminé par votre organisation. S'il n'existe aucune catégorie affectée à la ressource, Dynamics 365 for Operations recherchera la catégorie par défaut dans les prix horaires en matière de coût et de produit.
+Si nécessaire, vous pouvez également affecter des catégories à une ressource. Le type de catégorie est Coût ou Produit. Cela est déterminé par votre organisation. S'il n'existe aucune catégorie affectée à la ressource, Finance and Operations recherchera la catégorie par défaut dans les prix horaires en matière de coût et de produit.
 
 ### <a name="set-up-project-resource-and-role-characteristics"></a>Configurer des ressources de projet et les caractéristiques du rôle
 
@@ -190,7 +190,7 @@ Tous les coûts, ventes, et prix de transfert peuvent être paramétrés pour de
 5.  Dans la colonne **Tarification**, entrez un prix pour le rôle de la ressource sélectionnée.
 
 ## <a name="form-a-project-team"></a>Former une équipe projet
-Pour utiliser les rôles qui ont été précédemment paramétrés dans un projet, un chef de projet doit associer les rôles au projet. Plusieurs rôles peuvent être affectés pour un projet et Dynamics 365 for Operations étiquette ces rôles automatiquement lors de la réservation pour empêcher toute confusion. Par exemple, si le chef de projet a besoin de trois ingénieurs logiciel, ces derniers sont automatiquement générés sous les libellés ingénieur logiciel 1, ingénieur logiciel 2 et ingénieur logiciel 3. Si des caractéristiques de rôle ont été définis précédemment pour le rôle, elles sont appliquées comme filtre lors des recherches pour une ressource. Des caractéristiques supplémentaires peuvent être ajoutées au besoin pour affiner la recherche. 
+Pour utiliser les rôles qui ont été précédemment paramétrés dans un projet, un chef de projet doit associer les rôles au projet. Plusieurs rôles peuvent être affectés pour un projet et Finance and Operations étiquette ces rôles automatiquement lors de la réservation pour empêcher toute confusion. Par exemple, si le chef de projet a besoin de trois ingénieurs logiciel, ces derniers sont automatiquement générés sous les libellés ingénieur logiciel 1, ingénieur logiciel 2 et ingénieur logiciel 3. Si des caractéristiques de rôle ont été définis précédemment pour le rôle, elles sont appliquées comme filtre lors des recherches pour une ressource. Des caractéristiques supplémentaires peuvent être ajoutées au besoin pour affiner la recherche. 
 
 L'affichage des paramètres peut également être personnalisé pour donner une meilleure vue de la disponibilité des ressources. Il existe des options pour afficher les disponibilités horaire, hebdomadaire, mensuelle, trimestrielle et annuelle. Il existe également une option pour indiquer les capacités disponible et restante de ressources. Cette option est utile pour la gestion du temps lorsque vous estimez le temps disponible pour des activités ou la disponibilité des ressources. 
 
@@ -277,7 +277,7 @@ Les options supplémentaires ont été ajoutées dans la WBS pour améliorer l'u
 </tr>
 <tr class="even">
 <td>Générer automatiquement l'équipe</td>
-<td>Ajoutez automatiquement des ressources planifiées à l'aide de rôles associés à une tâche. Dynamics 365 for Operations suggère automatiquement des ressources planifiées à l'aide de l'analyse de décision multi-critères basée sur les rôles. Après le paramétrage des rôles et de l'effort (heures) dans une structure WBS, et lorsque la structure a été lancée, cliquez sur <strong>Générer automatiquement l'équipe</strong>. Le nombre de ressources prévues est ajouté à la structure WBS et l'onglet <strong>Projet et planification de l'équipe</strong>.</td>
+<td>Ajoutez automatiquement des ressources planifiées à l'aide de rôles associés à une tâche. Finance and Operations suggère automatiquement des ressources planifiées à l'aide de l'analyse de décision multi-critères basée sur les rôles. Après le paramétrage des rôles et de l'effort (heures) dans une structure WBS, et lorsque la structure a été lancée, cliquez sur <strong>Générer automatiquement l'équipe</strong>. Le nombre de ressources prévues est ajouté à la structure WBS et l'onglet <strong>Projet et planification de l'équipe</strong>.</td>
 </tr>
 <tr class="odd">
 <td>Ressource (liste déroulante)</td>
@@ -307,7 +307,7 @@ Les options supplémentaires ont été ajoutées dans la WBS pour améliorer l'u
 8.  Sur la même ligne, dans le champ **Ressources**, sélectionnez **Daniel Goldschmidt**.
 9.  Cliquez sur **Accepter**.
 10. Sélectionnez la ligne de tâche **Planification** puis dans le champ **Rôle**, sélectionnez **Analyste d'entreprise**.
-11. Cliquez sur **Publier**puis cliquez sur **Générer l'équipe automatiquement**.
+11. Cliquez sur **Publier** puis cliquez sur **Générer l'équipe automatiquement**.
 12. Dans la boîte de dialogue qui apparaît, cliquez sur **Oui**.
 13. Dans le champ **Ressources**, vérifiez que la valeur est **Analyste d'entreprise 1**.
 14. Pour la ressource **Analyste d'entreprise 1**, ouvrez la recherche puis cliquez sur **Lancer l'écran d'affectation des ressources**.

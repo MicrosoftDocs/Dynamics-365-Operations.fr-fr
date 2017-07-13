@@ -1,16 +1,16 @@
 ---
-title: "Collaborer avec des fournisseurs à l&quot;aide du portail Fournisseur"
-description: "Cette rubrique décrit comment les agents des achats peuvent utiliser le portail Fournisseur pour collaborer avec des fournisseurs externes lors du processus de confirmation de commande fournisseur. Ces informations ne s&quot;appliquent qu&quot;aux versions de février 2016 et de mai 2016 de Dynamics AX."
+title: "Collaborer avec des fournisseurs à l'aide du portail Fournisseur"
+description: "Cette rubrique décrit comment les agents des achats peuvent utiliser le portail Fournisseur pour collaborer avec des fournisseurs externes lors du processus de confirmation de commande fournisseur. Ces informations ne s'appliquent qu'aux versions de février 2016 et de mai 2016 de Dynamics AX."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchTable, PurchVendorPortalRequests
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ef47cd32d78ea28496c014ed4537008159a05691
+ms.sourcegitcommit: f76e431320414b508728cbe9fe20456f107cbe40
+ms.openlocfilehash: a8284e5a79e00def964b41f5c20bbb7377bf36be
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/09/2017
 
 
 ---
@@ -94,13 +94,13 @@ Le tableau suivant présente un exemple des modifications de statut et de versio
 | Vous apportez certaines modifications qui sont requises par le fournisseur.                                                       | Le statut redevient **Brouillon**.                                                                                                                                                                                                                                                                                                                                                    |
 | La CF est à nouveau soumise au processus d'approbation.                                                            | Le statut passe de **Brouillon** à **En cours de révision** à **Approuvé** si la CF n'est pas rejetée au cours du processus d'approbation. Sinon, le système peut être configuré de sorte que des modifications de champ spécifiques ne nécessitent pas de nouvelle approbation. Dans ce cas, le statut est d'abord modifié en **Brouillon** avant d'être automatiquement mis à jour sur **Approuvé**. La CF approuvée est enregistrée comme une nouvelle version. |
 | Vous envoyez la nouvelle version de la CF vers le portail fournisseur.                                                      | La nouvelle version est enregistrée dans le portail Fournisseur et le statut devient **En cours de révision externe**.                                                                                                                                                                                                                                                                                    |
-| Le fournisseur approuve la nouvelle version de la CF.                                                                | Le statut devient **Confirmé**automatiquement ou lorsque vous recevez la réponse du fournisseur, puis vous confirmez la CF.                                                                                                                                                                                                                                                     |
+| Le fournisseur approuve la nouvelle version de la CF.                                                                | Le statut devient **Confirmé** automatiquement ou lorsque vous recevez la réponse du fournisseur, puis vous confirmez la CF.                                                                                                                                                                                                                                                     |
 <a name="see-also"></a>Voir également :
 --------
 
 [Configuration de la sécurité pour les utilisateurs de la collaboration fournisseur](configure-security-vendor-portal-users.md)
 
-[Espace de travail de facturation de collaboration fournisseur](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace)
+[Espace de travail de facturation de collaboration fournisseur](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace)
 
 
 
