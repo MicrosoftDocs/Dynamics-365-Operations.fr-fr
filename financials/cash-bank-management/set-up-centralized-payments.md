@@ -1,6 +1,6 @@
 ---
-title: "Paramétrage des paiements centralisés"
-description: 
+title: "Paramétrage de paiements centralisés"
+description: "Cette procédure permet de préparer le traitement des paiements dans une entité juridique au nom d'autres entités juridiques de votre organisation."
 author: twheeloc
 manager: AnnBe
 ms.date: 05/09/2017
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerInterCompany
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 62243
 ms.assetid: ffd17b5f-9aea-40e0-be49-d8702f615256
 ms.search.region: Global
@@ -18,19 +18,17 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 60cc59911cf2d10d73206885eb97b346ec3e3e87
+ms.sourcegitcommit: 975497e8ed0c9738c225bad4db9165bf2ebc0192
+ms.openlocfilehash: 0b33e37699fb9b81ad1803f670a4dedbce6a9c29
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/05/2017
 
 
 ---
 
-# <a name="set-up-centralized-payments"></a>Paramétrage des paiements centralisés
+# <a name="set-up-centralized-payments"></a>Paramétrage de paiements centralisés
 
 [!include[banner](../includes/banner.md)]
-
-
 
 
 Cette procédure permet de préparer le traitement des paiements dans une entité juridique au nom d'autres entités juridiques de votre organisation. Avant de commencer, vous devez effectuer les procédures de paramétrage suivantes :
@@ -56,7 +54,7 @@ Lorsque vous créez un paiement dans une entité juridique qui règle les factur
 Lorsque vous créez un paiement dans une entité juridique qui règle les factures dans d'autres entités juridiques, les ID mode de paiement doivent être identiques dans toutes les entités juridiques. Pour garantir la bonne création des paiements, dans chaque entité juridique de facture, paramétrez un mode de paiement correspondant aux modes de paiement utilisés dans l'entité juridique de paiement. Passez à la première entité juridique de facture, puis sur la page **Modes de paiement**, vous pouvez créer un mode de paiement ou modifier un mode de paiement existant. Les sélections que vous effectuez pour le mode de paiement dans l'entité juridique de facture ne doivent pas forcément correspondre au paramétrage du mode de paiement dans l'entité juridique de paiement.
 
 ## <a name="set-up-default-descriptions"></a>Paramétrage des descriptions par défaut
-Vous pouvez définir des descriptions par défaut pour les N° document de règlement intersociétés. La description par défaut est incluse dans les transactions d'échéance au cours du traitement du règlement de société croisée. Sur la page **Descriptions par défaut**, vous pouvez créer de nouvelles descriptions pour les champs **Règlement client intersociétés**et **Règlement fournisseur intersociétés** en sélectionnant une langue, puis en entrant le texte.
+Vous pouvez définir des descriptions par défaut pour les N° document de règlement intersociétés. La description par défaut est incluse dans les transactions d'échéance au cours du traitement du règlement de société croisée. Sur la page **Descriptions par défaut**, vous pouvez créer de nouvelles descriptions pour les champs **Règlement client intersociétés** et **Règlement fournisseur intersociétés** en sélectionnant une langue, puis en entrant le texte.
 
 
 

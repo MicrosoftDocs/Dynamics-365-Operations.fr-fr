@@ -3,7 +3,7 @@ title: "Réserver le même lot pour une commande client"
 description: "Cet article explique comment paramétrer un produit pour autoriser la réservation du stock par rapport à un lot de stock unique."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: EcoResProductDetailsExtended, EcoResStorageDimensionGroup, EcoResTrackingDimensionGroup, InventBatch, InventModelGroup, PdsAskSameLotForm, PdsCustSellableDays
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 28911
 ms.assetid: 5823d75e-f839-46dd-beb3-e09b79fc8aa4
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1b63173d1efe45bf048b9c2eed4dc6250c9ee9f1
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: a24e5c2972ae1581de43ebcb448ed34bafdc0ad5
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -41,7 +41,7 @@ Une réservation de lots identiques vous permet de réserver du stock pour une l
 -   **Groupes de dimension de suivi** – Pour le groupe de dimension de suivi, le champ **Plan de couverture par dimension** doit être sélectionné pour le numéro du lot.
 -   **Groupe de dimension de stockage** – Pour le groupe de dimension de stockage, le champ **Plan de couverture par dimension** doit être sélectionné pour le **Site** et l'**Entrepôt**.
 
-Lorsque vous réservez du stock pour un produit sur une ligne de commande client paramétrée pour la sélection du même lot, Microsoft Dynamics 365 for Operations tente de réserver la quantité commandée à partir d'un seul lot de stock. Il prend également en considération toute demande d'attribut de lot spécifique. Si la quantité ne peut pas être remplie à partir d'un seul lot, la page **Conflit de réservation du même lot** s'affiche. Cette page décrit les problèmes et également les actions que vous pouvez entreprendre pour poursuivre la réservation. Les conditions suivantes peuvent empêcher le lot d'être réservé :
+Lorsque vous réservez du stock pour un produit sur une ligne de commande client paramétrée pour la sélection du même lot, Microsoft Dynamics 365 for Finance and Operations tente de réserver la quantité commandée à partir d'un seul lot de stock. Il prend également en considération toute demande d'attribut de lot spécifique. Si la quantité ne peut pas être remplie à partir d'un seul lot, la page **Conflit de réservation du même lot** s'affiche. Cette page décrit les problèmes et également les actions que vous pouvez entreprendre pour poursuivre la réservation. Les conditions suivantes peuvent empêcher le lot d'être réservé :
 
 -   Pour le code disposition de lot, **Bloquer la réservation** pour les ventes est marqué comme **Bloqué**.
 -   Le lot a expiré, d'après la date d'expiration et des jours de vente applicables au client. L'article peut toujours être pris en compte pour la réservation si le Groupe de modèles d'article pour l'article est contrôlé par la date FEFO (première date d'expiration, premier sorti) et si la DLUO est sélectionnée dans les critères de prélèvement.

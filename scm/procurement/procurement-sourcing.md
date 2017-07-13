@@ -1,6 +1,6 @@
 ---
-title: Page d&quot;accueil Approvisionnements
-description: Cette rubrique fournit une liste des rubriques d&quot;aide et d&quot;autres ressources disponibles pour les approvisionnements.
+title: Page d'accueil Approvisionnements
+description: Cette rubrique fournit une liste des rubriques d'aide et d'autres ressources disponibles pour les approvisionnements.
 author: YuyuScheller
 manager: AnnBe
 ms.date: 2016-02-18 10 - 21 - 53
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 50651
 ms.assetid: 17f06036-cac2-4c28-8dc6-1dff6b81a7cc
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3a95ce92fe40f7e1c52bba554b82bd73d627c6b4
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: cf6d4756ae706316a342590ab76b4a5cbdd7e4f9
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -57,11 +57,11 @@ Le module Approvisionnements couvre toutes les étapes : identification d'un bes
 -   [Collaboration fournisseur avec des clients](vendor-collaboration-work-customers-dynamics-365-operations.md)
 -   [Gérer les utilisateurs de la fonctionnalité de collaboration du fournisseur](manage-vendor-collaboration-users.md)
 -   [Paramétrer et mettre à jour la collaboration fournisseur](set-up-maintain-vendor-collaboration.md)
--   [Démo de script de stock de consignation entrant pour Microsoft Dynamics 365 for Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(livre blanc)
+-   [Démo de script de stock de consignation entrant pour Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(livre blanc)
 -   [Contrôler le stock de consignation à l'aide de la collaboration fournisseur](http://ax.help.dynamics.com/en/wiki/monitor-consignment-inventory-using-vendor-collaboration/)
--   [Collaboration avec des fournisseurs via le portail fournisseur](collaborate-vendors-vendor-portal.md)  (versions de février 2016 et mai 2016 de Dynamics 365 for Operations uniquement)
--   [Configuration de sécurité pour les utilisateurs du portail fournisseur](configure-security-vendor-portal-users.md) (versions de février 2016 et mai 2016 de Dynamics 365 for Operations uniquement)
--   [Espace de travail mobile Collaboration du fournisseur pour l'application Microsoft Dynamics 365 for Operations](vendor-collaboration-mobile-workspace.md)
+-   [Collaboration avec des fournisseurs via le portail fournisseur](collaborate-vendors-vendor-portal.md)  (versions de février 2016 et mai 2016 de Dynamics AX uniquement)
+-   [Configuration de sécurité pour les utilisateurs du portail fournisseur](configure-security-vendor-portal-users.md) (versions de février 2016 et mai 2016 de Finance and Operations uniquement)
+-   [Espace de travail mobile Collaboration du fournisseur pour l'application Microsoft Dynamics 365 for Finance and Operations](vendor-collaboration-mobile-workspace.md)
 
 ## <a name="procurement-product-management"></a>Gestion des produits d'approvisionnement
 -   [Catalogues d'approvisionnement](procurement-catalogs.md)
@@ -92,8 +92,8 @@ Le module Approvisionnements couvre toutes les étapes : identification d'un bes
 
 ## <a name="product-receipt-and-invoicing"></a>Accusé de réception de marchandises et facture
 -   [Accusé de réception de marchandises et commandes fournisseur](product-receipt-against-purchase-orders.md)
--   [Vue d'ensemble des factures fournisseur](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/operations/supply-chain/toc.json)
--   [Profils de validation fournisseur](/dynamics365/operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/operations/supply-chain/toc.json)
+-   [Vue d'ensemble des factures fournisseur](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+-   [Profils de validation fournisseur](/dynamics365/unified-operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
 ## <a name="procurement-and-sourcing-workflows"></a>Workflows d'approvisionnements
 -   [Vue d'ensemble des approvisionnements](procurement-sourcing-overview.md)

@@ -1,16 +1,16 @@
 ---
-title: Vue d&quot;ensemble de la planification de budget
+title: Vue d'ensemble de la planification de budget
 description: "Cet article présente la planification budgétaire et contient des informations qui vous aident à configurer la planification budgétaire et à paramétrer ses processus."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 17251
 ms.assetid: a2e06633-a800-4840-a962-88fed8462104
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5212c8401f26f30cf593c52eb88291463b9b8810
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: e2c956969626836fadb0a6cac6dbb1d57f169f28
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -38,7 +38,7 @@ Cet article présente la planification budgétaire et contient des informations 
 
 Vous procédez à la planification budgétaire lorsque vous préparez les budgets qui seront implémentés par une organisation. Une organisation peut configurer la planification budgétaire, puis paramétrer les processus afférents pour répondre à ses stratégies, procédures et exigences en matière de préparation du budget. 
 
-Lorsque vous comprenez les concepts et la terminologie utilisés dans Microsoft Dynamics 365 for Operations, vous avez plus de facilité à implémenter la planification budgétaire dans votre organisation.
+Lorsque vous comprenez les concepts et la terminologie utilisés dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, vous avez plus de facilité à implémenter la planification budgétaire dans votre organisation.
 
 ### <a name="key-terms"></a>Termes clés
 
@@ -59,7 +59,7 @@ Vous pouvez utiliser la planification budgétaire pour réaliser les tâches sui
 -   Transmettre automatiquement les plans budgétaires, ainsi que les feuilles de calcul, les justificatifs et autres pièces jointes pour qu'ils soient révisés et approuvés.
 -   Consolider plusieurs plans budgétaires situés à un niveau inférieur dans l'organisation dans un seul plan budgétaire parent situé à un niveau supérieur de l'organisation. Vous pouvez également élaborer un plan budgétaire unique à un niveau supérieur de l'organisation et allouer le budget à des niveaux inférieurs dans l'organisation.
 
-La planification budgétaire est intégrée à d'autres modules Microsoft Dynamics 365 for Operations. Par conséquent, vous pouvez apporter des informations relatives aux budgets précédents, dépenses réelles, immobilisations et ressources humaines. Étant donné que la planification budgétaire est également intégrée à Microsoft Excel et Microsoft Word, vous pouvez utiliser ces programmes pour exploiter vos données de planification budgétaire. Par exemple, un responsable du budget peut exporter la demande de budget d'un département dans une feuille de calcul Excel à partir d'un scénario de plan budgétaire. Les données peuvent être analysées, mises à jour et importées dans la feuille de calcul, puis publiées de nouveau dans les lignes du plan budgétaire.
+La planification budgétaire est intégrée à d'autres modules Microsoft Dynamics 365 for Finance and Operations. Par conséquent, vous pouvez apporter des informations relatives aux budgets précédents, dépenses réelles, immobilisations et ressources humaines. Étant donné que la planification budgétaire est également intégrée à Microsoft Excel et Microsoft Word, vous pouvez utiliser ces programmes pour exploiter vos données de planification budgétaire. Par exemple, un responsable du budget peut exporter la demande de budget d'un département dans une feuille de calcul Excel à partir d'un scénario de plan budgétaire. Les données peuvent être analysées, mises à jour et importées dans la feuille de calcul, puis publiées de nouveau dans les lignes du plan budgétaire.
 
 ## <a name="configuring-budget-planning"></a>Configuration de la planification budgétaire
 La page **Configuration de planification budgétaire** contient la plupart des paramètres nécessaires pour paramétrer la planification budgétaire. Les sections suivantes décrivent certains facteurs clé dont vous devez tenir compte lorsque vous configurez la planification budgétaire. Après avoir terminé la configuration, vous paramétrez les processus de planification budgétaire.
@@ -78,7 +78,7 @@ Dans l'exemple suivant, le siège de l'entreprise établit une estimation des mo
 
 Dans la page **Hiérarchie d'organisation**, vous pouvez désigner une hiérarchie d'organisation comme étant la hiérarchie de planification budgétaire pour chaque processus de planification budgétaire. La hiérarchie de planification budgétaire peut être différente de la hiérarchie d'organisation standard utilisée à d'autres fins. Étant donné que cette hiérarchie permet de regrouper et répartir des données, vous pouvez modifier sa structure. Dans l'exemple de schéma, les départements des ventes sont subordonnés au siège, qui comprend les départements Budget et Finances. Cette structure diffère probablement de la structure mise en place pour gérer les opérations pour les départements des ventes. Une seule hiérarchie d'organisation peut être affectée à chaque processus de planification budgétaire. 
 
-Pour plus d'informations sur les hiérarchies d'organisation, voir [Organisations et hiérarchies d'organisation](/dynamics365/operations/organization-administration/organizations-organizational-hierarchies).
+Pour plus d'informations sur les hiérarchies d'organisation, voir [Organisations et hiérarchies d'organisation](/dynamics365/unified-operations/fin-and-ops/organization-administration/organizations-organizational-hierarchies).
 
 ### <a name="user-security"></a>Sécurité utilisateur
 
@@ -88,13 +88,13 @@ La planification du budget peut suivre l'un des deux modèles de sécurité pour
 
 Les workflows de planification budgétaire sont utilisés avec les workflows de budgétisation pour gérer la création et l'évolution des plans budgétaires.
 
-Un workflow de planification budgétaire est composé d'un ensemble ordonné de stades par lesquels un plan budgétaire passe. Chaque workflow de planification budgétaire est associé à un workflow de budgétisation. Les workflows de budgétisation sont l'un des types de workflows utilisés dans Microsoft Dynamics 365 for Operations. Le workflow de budgétisation transmet les plans budgétaires, ainsi que les feuilles de calcul, justifications et pièces jointes, au sein de votre organisation pour qu'ils soient révisés et approuvés. 
+Un workflow de planification budgétaire est composé d'un ensemble ordonné de stades par lesquels un plan budgétaire passe. Chaque workflow de planification budgétaire est associé à un workflow de budgétisation. Les workflows de budgétisation sont l'un des types de workflows utilisés dans Finance and Operations. Le workflow de budgétisation transmet les plans budgétaires, ainsi que les feuilles de calcul, justifications et pièces jointes, au sein de votre organisation pour qu'ils soient révisés et approuvés. 
 
 Vous créez le workflow de planification budgétaire dans la section **Stades de workflow** de la page **Configuration de la planification budgétaire**. Là, vous pouvez sélectionner les stades et le workflow de budgétisation qui sera utilisé, puis configurer également les paramètres supplémentaires. 
 
 Il est judicieux de créer un workflow de planification budgétaire pour chaque niveau d'une hiérarchie de budgétisation. Vous affectez un workflow de budgétisation qui contient les éléments qui correspondent aux stades du workflow de planification budgétaire. Dans l'exemple de schéma donné précédemment, un workflow de planification budgétaire serait créé pour les départements des ventes et un autre serait créé pour les sièges. Un workflow de budgétisation fait progresser les plans budgétaires d'un stade à un autre. 
 
-Vous créez le workflow de budgétisation pour la planification budgétaire dans la page **Workflows de budgétisation**. Le processus est semblable au processus de création d'autres workflows dans Microsoft Dynamics 365 for Operations. L'illustration suivante présente un exemple de workflow au niveau du siège. 
+Vous créez le workflow de budgétisation pour la planification budgétaire dans la page **Workflows de budgétisation**. Le processus est semblable au processus de création d'autres workflows dans Finance and Operations. L'illustration suivante présente un exemple de workflow au niveau du siège. 
 
 [![Workflow de budgétisation pour la planification budgétaire](./media/budgetingworkflowforbudgetplanning-300x300.png)](./media/budgetingworkflowforbudgetplanning.png) 
 
@@ -168,7 +168,7 @@ Vous pouvez générer, afficher ou télécharger un modèle pour chaque mise en 
 
 ### <a name="descriptions"></a>Description
 
-Les descriptions que vous pouvez affecter dans la section**Mises en page** sont utilisées pour afficher le nom d'une dimension financière incluse dans une mise en page. Par exemple, une organisation peut souhaiter afficher le nom du compte principal en regard du numéro de compte principal dans un plan budgétaire, mais souhaiter omettre les noms d'autres dimensions financières pour éviter d'encombrer l'affichage.
+Les descriptions que vous pouvez affecter dans la section **Mises en page** sont utilisées pour afficher le nom d'une dimension financière incluse dans une mise en page. Par exemple, une organisation peut souhaiter afficher le nom du compte principal en regard du numéro de compte principal dans un plan budgétaire, mais souhaiter omettre les noms d'autres dimensions financières pour éviter d'encombrer l'affichage.
 
 ## <a name="setting-up-budget-planning-processes"></a>Paramétrage de processus de planification budgétaire
 

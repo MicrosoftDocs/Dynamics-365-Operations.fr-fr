@@ -3,7 +3,7 @@ title: "Définitions de colonne dans les états financiers"
 description: "Cet article fournit des informations sur les définitions de colonne. Une définition de colonne est un composant de l’état, ou un bloc élémentaire, qui spécifie le contenu des colonnes d’un état. Comme les définitions de ligne, des définitions de colonne de base peuvent être utilisées dans plusieurs états."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -11,18 +11,18 @@ ms.technology:
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: ShylaThompson
-ms.search.scope: Management Reporter, Core
+ms.search.scope: Management Reporter, UnifiedOperations, Core
 ms.custom: 106601
 ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ca82d24f591aaeb0d675716857cf94a4696785ad
+ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
+ms.openlocfilehash: d976988a599f65de9957c53a2d149576a1a11d83
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -154,7 +154,7 @@ Vous pouvez utiliser la boîte de dialogue **En-tête de colonne** pour ajouter,
 
 1.  Dans le générateur d'état, ouvrez la définition de colonne à modifier.
 2.  Sélectionnez une cellule dans la ligne d'en-tête.
-3.  Dans le menu **Édition**, cliquez sur **Insérer une ligne**. La nouvelle ligne est insérée au-dessus de la ligne sélectionnée à l'étape 2. **Remarque :**Si vous avez quatre lignes d'en-tête ou plus dans un rapport, les en-têtes se chevauchent lorsque le rapport est exporté vers une feuille de calcul Excel. Permet d'afficher tous les en-têtes de l'état, augmentez la marge supérieure dans la définition d'état.
+3.  Dans le menu **Édition**, cliquez sur **Insérer une ligne**. La nouvelle ligne est insérée au-dessus de la ligne sélectionnée à l'étape 2. **Remarque :** Si vous avez quatre lignes d'en-tête ou plus dans un rapport, les en-têtes se chevauchent lorsque le rapport est exporté vers une feuille de calcul Excel. Permet d'afficher tous les en-têtes de l'état, augmentez la marge supérieure dans la définition d'état.
 
 ### <a name="delete-a-column-header-row"></a>Supprimer une ligne d'en-tête de colonne
 
@@ -164,7 +164,7 @@ Vous pouvez utiliser la boîte de dialogue **En-tête de colonne** pour ajouter,
 
 ### <a name="create-an-automatically-generated-header"></a>Créer un en-tête généré automatiquement
 
-Le générateur d'états peut générer automatiquement des en-têtes de colonne, selon des codes d'insertion automatique. Les codes d'insertion automatique sont des variables mises à jour à chaque fois qu'un état est généré. Tout en-tête de colonne peut inclure de ces codes pour spécifier les informations d'état susceptibles de varier, comme les dates ou les numéros de période. Par conséquent, vous pouvez utiliser une définition de colonne pour plusieurs définitions d'état, de périodes et d'arborescences de génération d'états. Comme les codes d'insertion automatique se fondent sur les informations de calendrier des lignes détaillées de la définition de colonne, ils sont pris en charge uniquement pour les colonnes **CALC**, **FD** et **WKS**. La manière dont le code d'insertion automatique s'affiche dans la cellule d'en-tête de colonne affecte la manière dont ces informations sont affichées dans l'état. Dans la boîte de dialogue **En-tête de colonne**, les codes d'insertion automatique apparaissent en combinaison de majuscules et minuscules. Par conséquent, le texte apparaît dans la même combinaison dans l'état. Par exemple, dans une année civile standard, **@CalMonthLong** résout le mois **7** sur **Juillet**. Si le nom du mois doit être en majuscules (par exemple **JUILLET**), entrez le code d'insertion automatique en caractères majuscules dans le champ **Texte d'en-tête de colonne**. Par exemple, entrez **@CALMONTHLONG**. Vous pouvez mélanger codes et textes. Par exemple, vous entrez le texte d'en-tête suivant : **Période @FiscalPeriod-@FiscalYear du @StartDate au @EndDate**. Le titre d'état généré ressemble au texte suivant : **Période 1-02 du 01/01/02 au 01/31/02**. **Remarque :** le format d'une partie du texte, comme la date au format long, dépend des paramètres régionaux du serveur Dynamics 365 for Operations. Pour modifier ces paramètres, cliquez sur le bouton **Début**, cliquez sur **Panneau de configuration**, puis cliquez sur **Région et langue**. Le tableau suivant répertorie les options disponibles d'insertion automatique pour les en-têtes de colonnes.
+Le générateur d'états peut générer automatiquement des en-têtes de colonne, selon des codes d'insertion automatique. Les codes d'insertion automatique sont des variables mises à jour à chaque fois qu'un état est généré. Tout en-tête de colonne peut inclure de ces codes pour spécifier les informations d'état susceptibles de varier, comme les dates ou les numéros de période. Par conséquent, vous pouvez utiliser une définition de colonne pour plusieurs définitions d'état, de périodes et d'arborescences de génération d'états. Comme les codes d'insertion automatique se fondent sur les informations de calendrier des lignes détaillées de la définition de colonne, ils sont pris en charge uniquement pour les colonnes **CALC**, **FD** et **WKS**. La manière dont le code d'insertion automatique s'affiche dans la cellule d'en-tête de colonne affecte la manière dont ces informations sont affichées dans l'état. Dans la boîte de dialogue **En-tête de colonne**, les codes d'insertion automatique apparaissent en combinaison de majuscules et minuscules. Par conséquent, le texte apparaît dans la même combinaison dans l'état. Par exemple, dans une année civile standard, **@CalMonthLong** résout le mois **7** sur **Juillet**. Si le nom du mois doit être en majuscules (par exemple **JUILLET**), entrez le code d'insertion automatique en caractères majuscules dans le champ **Texte d'en-tête de colonne**. Par exemple, entrez **@CALMONTHLONG**. Vous pouvez mélanger codes et textes. Par exemple, vous entrez le texte d'en-tête suivant : **Période @FiscalPeriod-@FiscalYear du @StartDate au @EndDate**. Le titre d'état généré ressemble au texte suivant : **Période 1-02 du 01/01/02 au 01/31/02**. **Remarque :** le format d'une partie du texte, comme la date au format long, dépend des paramètres régionaux du serveur Finance and Operations. Pour modifier ces paramètres, cliquez sur le bouton **Début**, cliquez sur **Panneau de configuration**, puis cliquez sur **Région et langue**. Le tableau suivant répertorie les options disponibles d'insertion automatique pour les en-têtes de colonnes.
 
 | Option et code d'insertion automatique                | Description                                                                                                                                                                                                                                                                                      |
 |-----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -263,7 +263,7 @@ Dans la définition de colonne, les lignes détaillées de mise en forme de colo
 
 ### <a name="changing-the-column-width"></a>Modifier la largeur de colonne
 
-La cellule **Largeur de colonne** spécifie le nombre de caractères à utiliser pour la largeur de cette colonne dans l'état imprimé. La largeur de colonne est importante pour les colonnes qui contiennent des montants (les colonnes du type **CALC**, **WKS** ou **FD** ), des descriptions (les colonnes du type**DESC** ), ou du remplissage (colonnes du type **FILL**). Par défaut, l'option **Ajustement automatique** est sélectionnée, de sorte que la largeur de chaque colonne est automatiquement ajustée pour s'adapter le contenu.
+La cellule **Largeur de colonne** spécifie le nombre de caractères à utiliser pour la largeur de cette colonne dans l'état imprimé. La largeur de colonne est importante pour les colonnes qui contiennent des montants (les colonnes du type **CALC**, **WKS** ou **FD** ), des descriptions (les colonnes du type **DESC** ), ou du remplissage (colonnes du type **FILL**). Par défaut, l'option **Ajustement automatique** est sélectionnée, de sorte que la largeur de chaque colonne est automatiquement ajustée pour s'adapter le contenu.
 
 #### <a name="specify-the-width-of-a-column-on-a-report"></a>Spécifier la largeur d'une colonne dans un état
 
@@ -488,7 +488,7 @@ L'exemple suivant montre une partie de description de colonne ayant un attribut 
 
 ### <a name="dimension-filter-in-a-column-definition"></a>Filtre de dimension dans une définition de colonne
 
-Un filtre de dimension est utilisé pour limiter la colonne **FD** à des valeurs de dimension spécifiques. Le filtre peut inclure une seule dimension, une plage de dimensions, ou un groupe de dimensions. Le filtre peut aussi inclure des ensembles de valeurs de dimension. Comme les valeurs de dimension peuvent varier, un système basé sur les dimensions ne doit pas devoir correspondre à une longueur exacte. Le filtre est appliqué, indépendamment du fait que l'état inclut une arborescence de génération d'états. Vous pouvez utiliser un caractère générique (\* ou ?) à n'importe quelle position. Si vous spécifiez plusieurs comptes, insérez une virgule entre les comptes, comme dans l'exemple suivant : +Compte=\[1200\], +Compte=\[1100\], Département=\[01?\] Pour recevoir tous les départements d'un compte spécifique, vous pouvez exclure la dimension Département du filtre de dimension. Par exemple, les deux filtres de dimension suivants sont traités de la même manière :
+Un filtre de dimension est utilisé pour limiter la colonne **FD** à des valeurs de dimension spécifiques. Le filtre peut inclure une seule dimension, une plage de dimensions, ou un groupe de dimensions. Le filtre peut aussi inclure des ensembles de valeurs de dimension. Comme les valeurs de dimension peuvent varier, un système basé sur les dimensions ne doit pas devoir correspondre à une longueur exacte. Le filtre est appliqué, indépendamment du fait que l'état inclut une arborescence de génération d'états. Vous pouvez utiliser un caractère générique (\* ou ?) à n'importe quelle position. Lorsque vous spécifiez plusieurs comptes, mettez une virgule entre les comptes, comme dans l'exemple suivant : +Compte=\[1200\], +Compte=\[1100\], Service=\[01?\] pour recevoir tous les services d'un compte spécifique, vous pouvez exclure la dimension de service du filtre de dimension. Par exemple, les deux filtres de dimension suivants sont traités de la même manière :
 
 -   +Compte=\[1100\],Département
 -   +Compte=\[1100\]
@@ -572,7 +572,7 @@ Un calcul complexe peut contenir toute combinaison de cellules de référence, d
 
 #### <a name="specify-report-cells-in-a-column-calculation"></a>Spécifier des cellules d'état dans un calcul de colonne
 
-Vous pouvez faire référence à une cellule spécifique de l'état en entrant une lettre de colonne et un code de ligne. Par exemple, **B.100** fait référence au code de ligne 100 dans la colonne B. Vous pouvez diviser une colonne en entier par le montant d'une cellule spécifique de l'état qui se trouve dans la même colonne. Par exemple, le calcul **B/B.100** signifie que le montant dans la colonne B doit être divisée par la valeur située au code de ligne 100 dans la colonne B. Si le calcul fait référence à une colonne qui dépend d'une autre colonne, la colonne dépendante est résolue en premier. Si une colonne fait référence à une autre colonne qui elle-même fait référence à la première colonne, vous provoquerez une erreur de référence circulaire. **Remarque :** le calcul peut être incorrect si vous modifiez la priorité de calcul pour l'état. Vous pouvez définir la priorité de calcul sous l'onglet **Paramètres**de la définition d'état.
+Vous pouvez faire référence à une cellule spécifique de l'état en entrant une lettre de colonne et un code de ligne. Par exemple, **B.100** fait référence au code de ligne 100 dans la colonne B. Vous pouvez diviser une colonne en entier par le montant d'une cellule spécifique de l'état qui se trouve dans la même colonne. Par exemple, le calcul **B/B.100** signifie que le montant dans la colonne B doit être divisée par la valeur située au code de ligne 100 dans la colonne B. Si le calcul fait référence à une colonne qui dépend d'une autre colonne, la colonne dépendante est résolue en premier. Si une colonne fait référence à une autre colonne qui elle-même fait référence à la première colonne, vous provoquerez une erreur de référence circulaire. **Remarque :** le calcul peut être incorrect si vous modifiez la priorité de calcul pour l'état. Vous pouvez définir la priorité de calcul sous l'onglet **Paramètres** de la définition d'état.
 
 #### <a name="multiply-or-divide-a-column-by-a-base-row"></a>Multiplier ou diviser une colonne par une ligne de base
 

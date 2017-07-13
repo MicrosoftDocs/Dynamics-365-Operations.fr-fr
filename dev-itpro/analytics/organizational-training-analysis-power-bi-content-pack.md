@@ -1,15 +1,15 @@
 ---
-title: Contenu Power BI Formation dans l&quot;organisation
-description: "Cette rubrique décrit le contenu Power BI Formation dans l&quot;organisation dans Dynamics 365 for Operations. Elle explique également comment accéder au pack de contenu, et décrit le modèle de données et les entités qui permettent de créer le pack de contenu."
+title: Contenu Power BI Formation dans l'organisation
+description: "Cette rubrique décrit le contenu Power BI Formation dans l'organisation dans Finance and Operations. Elle explique également comment accéder au pack de contenu, et décrit le modèle de données et les entités qui permettent de créer le pack de contenu."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: Operations
+ms.search.scope: Operations, UnifiedOperations
 ms.custom: 263874
 ms.assetid: 45dbba14-aba6-4571-be0d-5d1aba3515d9
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e1bfe405e2e4bf6445567d966ab20bd8645f8dbf
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 26499bf5423bc3711d110bd7e548eda238162b7a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,15 +30,15 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Cette rubrique décrit le contenu Power BI Formation dans l'organisation dans Dynamics 365 for Operations. Elle explique également comment accéder au pack de contenu, et décrit le modèle de données et les entités qui permettent de créer le pack de contenu.
+Cette rubrique décrit le contenu Power BI Formation dans l'organisation dans Finance and Operations. Elle explique également comment accéder au pack de contenu, et décrit le modèle de données et les entités qui permettent de créer le pack de contenu.
 
 <a name="accessing-the-content-pack"></a>Accès au pack de contenu
 --------------------------
 
-Vous trouverez le pack de contenu Formation dans l'organisation dans la bibliothèque Actifs partagés de Microsoft Dynamics Lifecycle Services (LCS). Pour savoir comment télécharger le pack de contenu et le connecter à vos données Microsoft Dynamics 365 for Operations, voir [Contenu Power BI dans LCS de Microsoft et de vos partenaires](power-bi-content-microsoft-partners.md).
+Vous trouverez le pack de contenu Formation dans l'organisation dans la bibliothèque Actifs partagés de Microsoft Dynamics Lifecycle Services (LCS). Pour savoir comment télécharger le pack de contenu et le connecter à vos données Microsoft Dynamics 365 for Finance and Operations, voir [Contenu Power BI dans LCS de Microsoft et de vos partenaires](power-bi-content-microsoft-partners.md).
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>États inclus dans le pack de contenu
-Après avoir connecté le pack de contenu à vos données Dynamics 365 for Operations, les données de votre organisation s'affichent dans les états. Si vous n'avez jamais utilisé Microsoft Power BI auparavant, consultez la [Page d'apprentissage guidé pour Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData) pour en savoir plus. Les états inclus dans le pack de contenu contiennent des graphiques et des tables qui fournissent des informations supplémentaires. Le tableau suivant décrit ces états.
+Après avoir connecté le pack de contenu à vos données Finance and Operations, les données de votre organisation s'affichent dans les états. Si vous n'avez jamais utilisé Microsoft Power BI auparavant, consultez la [Page d'apprentissage guidé pour Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData) pour en savoir plus. Les états inclus dans le pack de contenu contiennent des graphiques et des tables qui fournissent des informations supplémentaires. Le tableau suivant décrit ces états.
 
 | Etat          | Sommaire                                                                    |
 |-----------------|-----------------------------------------------------------------------------|
@@ -48,7 +48,7 @@ Après avoir connecté le pack de contenu à vos données Dynamics 365 for Oper
 Vous pouvez filtrer les graphiques et les vignettes affichés sur ces états et les épingler au tableau de bord. Pour savoir comment filtrer et épingler dans Power BI, voir [Créer et configurer un tableau de bord](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Compréhension du modèle de données et des entités
-Les données Dynamics 365 for Operations sont utilisées pour remplir les états du pack de contenu Formation dans l'entreprise. Le tableau suivant indique les entités sur lesquelles le pack de contenu est basé.
+Les données Finance and Operations sont utilisées pour remplir les états du pack de contenu Formation dans l'entreprise. Le tableau suivant indique les entités sur lesquelles le pack de contenu est basé.
 
 | Entité                    | Sommaire                                                         | Relations avec d'autres entités                                                                                                                                                                  |
 |---------------------------|------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

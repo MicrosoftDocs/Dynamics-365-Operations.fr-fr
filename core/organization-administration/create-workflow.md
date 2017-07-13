@@ -1,15 +1,15 @@
 ---
-title: "Création d&quot;un workflow"
-description: "Cette rubrique illustre la création d&quot;un workflow."
+title: "Création d'un workflow"
+description: "Cette rubrique illustre la création d'un workflow."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: Core
+ms.search.scope: Core, UnifiedOperations
 ms.custom: 195583
 ms.assetid: 836ddd01-cc34-45c3-a4b0-20647357dbc6
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bf8f87fffa655b0e8566147af31c8fff02e045ad
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 138cf8d60f5a6e1ec1e46837a516e981c8ff4c19
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -35,7 +35,7 @@ Cette rubrique illustre la création d'un workflow.
 <a name="open-the-workflow-editor"></a>Ouverture de l'éditeur de workflow
 ------------------------
 
-Le module Microsoft Dynamics 365 for Operations que vous utilisez détermine les types de workflows que vous pouvez créer. Procédez comme suit pour sélectionner le type de workflow à créer et ouvrir l'éditeur de workflow.
+Le module Microsoft Dynamics 365 for Finance and Operations que vous utilisez détermine les types de workflows que vous pouvez créer. Procédez comme suit pour sélectionner le type de workflow à créer et ouvrir l'éditeur de workflow.
 
 1.  Ouvrez le module pour lequel vous souhaitez créer un workflow. Par exemple, pour créer un workflow pour les demandes d'achat, cliquez sur **Approvisionnements**.
 2.  Cliquez sur **Paramétrage** &gt; **\[Workflows de [nom du module\]**.

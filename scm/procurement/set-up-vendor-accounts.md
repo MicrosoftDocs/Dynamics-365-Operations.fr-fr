@@ -1,9 +1,9 @@
 ---
 title: "Paramétrer les comptes fournisseur"
-description: "Cette rubrique décrit les types d&quot;informations que vous devez spécifier lorsque vous créez un nouveau compte fournisseur."
+description: "Cette rubrique décrit les types d'informations que vous devez spécifier lorsque vous créez un nouveau compte fournisseur."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bee95a2f3d9727e9123aa0abcf41325e6cac1efd
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 4c97f11fa85b8eee54daea8ccaa183859a89fe7f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -62,13 +62,13 @@ Vous pouvez enregistrer des contacts pour un fournisseur. Ces contacts peuvent �
 
 Pour ajouter des contacts pour un fournisseur, dans la page **Tous les fournisseurs**, sous l'onglet, **Fournisseur**, dans le groupe **Paramétrage**, cliquez sur **Contacts** &gt; **Ajouter des contacts**.  
 
-Vous pouvez créer des contacts fournisseur de toutes pièces. Sinon, vous pouvez copier les détails d'une autre personne déjà enregistrée dans Microsoft Dynamics 365 for Operations, et modifier les informations comme vous le souhaitez.  
+Vous pouvez créer des contacts fournisseur de toutes pièces. Sinon, vous pouvez copier les détails d'une autre personne déjà enregistrée dans Microsoft Dynamics 365 for Finance and Operations, et modifier les informations comme vous le souhaitez.  
 
 **Remarque :** Le fait d'ajouter un contact pour un fournisseur n'est pas la même chose qu'ajouter des informations de contact pour ce fournisseur. Bien que vous puissiez ajouter des informations de contact générales pour un fournisseur, vous pouvez également définir plusieurs personnes spécifiques qui sont des contacts à cette société, et qui ont toutes leurs propres informations de contact.  
 
 Vous ne pouvez pas supprimer l'enregistrement d'une personne à contacter si le contact est référencé sur un document. Au lieu de cela, vous pouvez désactiver le contact.  
 
-Vous pouvez ajouter des contacts fournisseur à vos contacts personnels dans Microsoft Office 365. Toutefois, vous devez d'abord paramétrer la synchronisation entre Dynamics 365 for Operations et Office 365 dans la synchronisation de Microsoft Exchange Server et l'Assistant Paramétrage de Microsoft Outlook.
+Vous pouvez ajouter des contacts fournisseur à vos contacts personnels dans Microsoft Office 365. Toutefois, vous devez d'abord paramétrer la synchronisation entre Finance and Operations et Office 365 dans la synchronisation de Microsoft Exchange Server et l'Assistant Paramétrage de Microsoft Outlook.
 
 ## <a name="vendors-in-different-legal-entities"></a>Fournisseurs dans plusieurs entités juridiques
 Si un fournisseur est enregistré pour une seule entité juridique de votre organisation, et que d'autres entités juridiques doivent enregistrer le même fournisseur, vous pouvez utiliser la page **Ajouter le fournisseur à une autre entité juridique** pour configurer le fournisseur pour qu'il exerce son activité avec une autre entité juridique. Vous devez sélectionner un groupe de fournisseurs, une devise et un statut de blocage pour le fournisseur dans l'entité juridique sélectionnée.  

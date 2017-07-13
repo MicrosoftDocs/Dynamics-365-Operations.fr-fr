@@ -1,16 +1,16 @@
 ---
-title: Vue d&quot;ensemble des virements SEPA
-description: "Cet article fournit des informations générales sur les virements ISO 20022, notamment les virements SEPA (Single Euro Payments Area) et tous les autres moyens de paiement électronique des fournisseurs. Le virement SEPA est un type particulier de paiement en euros d&quot;une société ou d&quot;une personne à une société ou une autre personne. Cette rubrique explique également comment paramétrer et transmettre un fichier de paiement par virement."
+title: Vue d'ensemble des virements SEPA
+description: "Cet article fournit des informations générales sur les virements ISO 20022, notamment les virements SEPA (Single Euro Payments Area) et tous les autres moyens de paiement électronique des fournisseurs. Le virement SEPA est un type particulier de paiement en euros d'une société ou d'une personne à une société ou une autre personne. Cette rubrique explique également comment paramétrer et transmettre un fichier de paiement par virement."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalTransVendInvoice, LedgerJournalTransVendPaym, VendPaymMode
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11124
 ms.assetid: 36b0f870-16d4-4bbb-8da5-e747e69b970d
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 8f1a220babc333fe2091e9286afc565ebeecf036
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: bc14ab554a298d09bb852e96503b4cd3f4b36d3c
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -53,15 +53,15 @@ L'EPC, qui est constitué de banques européennes, développe les infrastructure
 Le virement SEPA est un paiement d'une société ou d'une personne à une société ou une autre personne. Les paiements doivent être en euro, et doivent inclure le numéro de compte international (IBAN) et le code d'identificateur de la banque (BIC, Bank Identifier Code) pour les deux parties. (Le code BIC est également appelé SWIFT (Society for Worldwide Interbank Financial Telecommunication \[SWIFT\].) En outre, les coûts des transactions doivent être partagés entre les deux parties. Les virements bancaires qui surviennent entre les pièces doivent utiliser des fichiers XML conformes aux normes de traitement des paiements ISO 20022 et au format XML, tels qu'ils sont spécifiés par le CEP.
 
 ## <a name="how-is-a-credit-transfer-implemented"></a>Comment est implémenté un virement ?
-Le format de virement pour les pays européens est implémenté à l'aide de la fonctionnalité Génération d'états électroniques (ER) et de modes de paiement dans Dynamics 365 for Operations. Quelques formats de virement utilisés dans d'autres régions utilisent toujours l'ancienne structure de paiement. Parmi de nombreux autres formats, il existe douze formats de virement ISO 20022 disponibles. Ces formats d'exportation sont conformes à la norme SEPA ISO 20022 XML. Ils sont utilisés pour générer des transferts de paiement non en euros pour les pays ou régions où ils sont utilisés et des paiements en euros comme spécifié dans la version 8.2 du Règlement des schémas de virement SEPA publié par l'EPC. Avant de pouvoir implémenter les virements, vous devez contacter votre banque pour obtenir le logiciel requis afin de télécharger les fichiers d'opérations bancaires électroniques. Vous l'utiliserez pour transférer les fichiers XML contenant les ordres de paiement à votre banque.
+Le format de virement pour les pays européens est implémenté à l'aide de la fonctionnalité Génération d'états électroniques (ER) et de modes de paiement dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Quelques formats de virement utilisés dans d'autres régions utilisent toujours l'ancienne structure de paiement. Parmi de nombreux autres formats, il existe douze formats de virement ISO 20022 disponibles. Ces formats d'exportation sont conformes à la norme SEPA ISO 20022 XML. Ils sont utilisés pour générer des transferts de paiement non en euros pour les pays ou régions où ils sont utilisés et des paiements en euros comme spécifié dans la version 8.2 du Règlement des schémas de virement SEPA publié par l'EPC. Avant de pouvoir implémenter les virements, vous devez contacter votre banque pour obtenir le logiciel requis afin de télécharger les fichiers d'opérations bancaires électroniques. Vous l'utiliserez pour transférer les fichiers XML contenant les ordres de paiement à votre banque.
 
-## <a name="what-credit-transfer-formats-are-currently-supported-in-dynamics-365-for-operations"></a>Quels formats de virement sont actuellement pris en charge dans Dynamics 365 for Operations ?
+## <a name="what-credit-transfer-formats-are-currently-supported-in-finance-and-operations"></a>Quels formats de virement sont actuellement pris en charge dans Finance and Operations ?
 Vous devez toujours aller dans la bibliothèque d'actifs partagés de Microsoft Dynamics Lifecycle Services (LCS) et afficher la liste la plus récente des fichiers disponibles dont le type d'actif est **Configuration GER**. La section suivante, « Que je dois paramétrer ? », fournit un lien vers une rubrique qui explique comment créer un référentiel LCS pour examiner les configurations disponibles et importer les configurations sélectionnées.
 
 ## <a name="what-do-i-have-to-set-up"></a>Que dois-je paramétrer ?
--   Avant de créer des de virement, vous devez importer au moins une configuration de virement active dans vos configurations ER. Pour plus d'instructions, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
+-   Avant de créer des de virement, vous devez importer au moins une configuration de virement active dans vos configurations ER. Pour plus d'instructions, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
 -   Quand vous configurez les modes de paiement de la comptabilité fournisseur, cochez la case **États électroniques génériques** et sélectionnez le format de virement approprié (par exemple, **Virement ISO 20022 (AT)**) comme configuration de format d'exportation.
--   Vous devez également paramétrer l'entité juridique et les informations de compte bancaire dans Dynamics 365 for Operations.
+-   Vous devez également paramétrer l'entité juridique et les informations de compte bancaire dans Finance and Operations.
 -   Les numéros de compte bancaire, IBAN, est parfois les codes SWIFT (BIC) ou d'autres identifiants sont nécessaires pour créer des paiements valides par virement. Par conséquent, vous devez les paramétrer pour le compte bancaire fournisseur et le compte bancaire de l'organisation qui demande le virement.
 -   D'autres informations peuvent être demandées, comme les numéros de TVA pour les parties qui sont mentionnées dans le message de virement. Ces informations doivent être paramétrée pour les fournisseurs et pour l'entité juridique lorsqu'elles sont demandées.
 -   Certains modes de paiement de la comptabilité fournisseur, pour la plupart des modes de paiement fondés sur la norme ISO 20022, nécessitent un paramétrage supplémentaire pour les **Ensembles de codes de format de paiement**, tels que **Type de service** = **SLEV**. Ces codes sont utilisés comme référence supplémentaires pour les transactions de paiement lors de leur traitement. Les valeurs par défaut des codes de paiement, comme **Objectif de la catégorie**, **Entité prenant en charge les frais**, **Instrument local** et **Niveau de service** peuvent être définies à deux endroits. Le premier est l'**En-tête du journal des paiements de la comptabilité fournisseur** et le second est **Modes de paiement de la comptabilité fournisseur**. À la création des lignes de journal des paiements, les valeurs du code de paiement définies dans l'en-tête du journal des paiements sont transférées vers une ligne de journal. Si elles ne sont pas définies, les valeurs issues des Modes de paiement sont utilisées.

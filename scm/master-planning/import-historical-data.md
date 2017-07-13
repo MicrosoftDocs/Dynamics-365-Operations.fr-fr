@@ -1,6 +1,6 @@
 ---
-title: "Importer les données d&quot;historique pour les prévisions de la demande"
-description: "Pour obtenir des prévisions de la demande précises, les données de demande d&quot;historique par article ou par clé de répartition par article sont requises. Cette rubrique explique comment utiliser les entités de données pour importer les données de demande d&quot;historique à partir de n&quot;importe quel système, afin de disposer d&quot;un historique plus long des données de prévision de la demande."
+title: "Importer les données d'historique pour les prévisions de la demande"
+description: "Pour obtenir des prévisions de la demande précises, les données de demande d'historique par article ou par clé de répartition par article sont requises. Cette rubrique explique comment utiliser les entités de données pour importer les données de demande d'historique à partir de n'importe quel système, afin de disposer d'un historique plus long des données de prévision de la demande."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 05/10/2017
@@ -9,16 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.assetid: 59c0d269-9db0-48e7-b8c7-9a388781a9ca
 ms.search.region: Global
 ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 0d1e2b9a51c2d7a7c30c2458b7babf8ac5c08118
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 957626a283b750645adefa5176480e68cc27e4f1
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -27,7 +28,7 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
-Pour garantir la précision des prévisions de la demande, vous devez disposer d'autant de données de demande d'historique que possible par article ou par clé de répartition par article. Si les données de demande d'historique ne sont pas déjà importées, utilisez l'entité de données **Demande externe d'historique** (ReqDemPlanHistoricalExternalDemandEntity) dans Microsoft Dynamics 365 for Operations pour les importer.
+Pour garantir la précision des prévisions de la demande, vous devez disposer d'autant de données de demande d'historique que possible par article ou par clé de répartition par article. Si les données de demande d'historique ne sont pas déjà importées, utilisez l'entité de données **Demande externe d'historique** (ReqDemPlanHistoricalExternalDemandEntity) dans Microsoft Dynamics 365 for Finance and Operations pour les importer.
 
 L'espace de travail **Gestion des données** donne une vue d'ensemble de tous les champs de l'entité.
 

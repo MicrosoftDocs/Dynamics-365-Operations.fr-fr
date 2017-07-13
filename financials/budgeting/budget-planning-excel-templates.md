@@ -3,7 +3,7 @@ title: "Modèles de planification budgétaire pour Excel"
 description: "Cette rubrique décrit la procédure de création de modèles Microsoft Excel qui peuvent être utilisés avec les plans budgétaires."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 93aa0aeffad0411542f36e27745f63198c4438b2
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 9f8073a2eb0d1b61d6a168f43eba983d113cf453
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -50,7 +50,7 @@ Le modèle Excel contiendra tous les éléments de la mise en page du document d
 [![bpt4](./media/bpt4-1024x615.png)](./media/bpt4.png)
 
 > [!NOTE] 
-> Pour éviter les problèmes potentiels d'affichage et de modification des données du plan budgétaire à l'aide d'Excel, le même utilisateur doit être connecté dans Dynamics 365 for Operations et le connecteur de données du complément Office Microsoft Dynamics.
+> Pour éviter les problèmes potentiels d'affichage et de modification des données du plan budgétaire à l'aide d'Excel, le même utilisateur doit être connecté dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition et le connecteur de données du complément Office Microsoft Dynamics.
 
 ## <a name="add-a-header-to-budget-plan-document-template"></a>Ajouter un en-tête au modèle de document de plan budgétaire
 Pour ajouter des informations d'en-tête, sélectionnez la ligne supérieure dans le fichier Excel et insérez des lignes vides. Cliquez sur **Créer** dans le **Connecteur de données** pour ajouter des champs d'en-tête au fichier Excel.
@@ -79,11 +79,11 @@ Le groupe de champs sélectionné affiche les colonnes disponibles dans le modè
 [![bpt12](./media/bpt12-1024x565.png)](./media/bpt12.png)
 
 > [!NOTE] 
-> Pour définir la formule, créez la formule dans la feuille de calcul, puis copiez-la dans la fenêtre **Créer**. Une table liée Dynamics 365 for Operations sera généralement nommée « AXTable1 ». Par exemple, pour récapituler les colonnes Demande T1 : Demande T4 dans la feuille de calcul, utilisez la formule = AxTable1\[Request Q1\]+AxTable1\[Request Q2\]+AxTable1\[Request Q3\]+AxTable1\[Request Q4\].
+> Pour définir la formule, créez la formule dans la feuille de calcul, puis copiez-la dans la fenêtre **Créer**. Une table liée Finance and Operations sera généralement nommée « AXTable1 ». Par exemple, pour récapituler les colonnes Demande T1 : Demande T4 dans la feuille de calcul, utilisez la formule = AxTable1\[Request Q1\]+AxTable1\[Request Q2\]+AxTable1\[Request Q3\]+AxTable1\[Request Q4\].
 
 Répétez ces étapes pour insérer la colonne **Ajustement**. Utilisez la formule = AxTable1\[Total request\]\*$I$1 pour cette colonne. Elle utilise la valeur de la cellule I1 et multiplie les valeurs de la colonne **Demande totale** pour calculer les montants de l'ajustement.
 
-Enregistrez et fermez le fichier Excel. Revenez à Dynamics 365 for Operations, et dans **Mises en page**, cliquez sur **Modèle &gt; Télécharger** pour télécharger le modèle Excel enregistré qui sera utilisé pour le plan budgétaire. 
+Enregistrez et fermez le fichier Excel. Revenez à Finance and Operations, et dans **Mises en page**, cliquez sur **Modèle &gt; Télécharger** pour télécharger le modèle Excel enregistré qui sera utilisé pour le plan budgétaire. 
 
 [![bpt10](./media/bpt10-1024x352.png)](./media/bpt10.png) 
 

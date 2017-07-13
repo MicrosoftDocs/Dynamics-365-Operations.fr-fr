@@ -1,27 +1,29 @@
 ---
-title: Vue d&quot;ensemble des commandes client
+title: Vue d'ensemble des commandes client
 description: "Cette rubrique fournit des informations sur les commandes client dans Retail Modern POS (MPOS). Les commandes client sont également appelées commandes spéciales. La rubrique inclut une discussion sur les paramètres associés et les flux de transaction."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 260594
 ms.assetid: 6fc835ef-d62e-4f23-9d49-50299be642ca
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e96579437ab59e99268263a51fc589eaacb98cc1
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 89e79c7227e05eec539d9bb142b8f41de092f01b
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -46,8 +48,8 @@ Voici quelques paramètres qui peuvent être définis dans la page **Paramètres
 
 -   **Pourcentage de dépôt par défaut** – Spécifiez le montant que le client doit payer comme dépôt avant qu'un ordre puisse être confirmé. Le montant de dépôt par défaut est calculé sous forme de pourcentage de la valeur de la commande. Selon les privilèges, un associé du magasin peut remplacer le montant à l'aide de l'option **Remplacement de dépôt**.
 -   **Pourcentage de frais d'annulation** – Si des frais sont appliqués lorsqu'une commande client est annulée, spécifiez le montant de ces frais.
--   **Code frais d'annulation** – Si des frais sont appliqués lorsqu'une commande client est annulée, ces frais sont indiqués dans un code frais sur la commande client dans Microsoft Dynamics AX. Utilisez ce paramètre pour définir un code frais d'annulation.
--   **Code frais d'expédition** – Les détaillants peuvent facturer des frais supplémentaires pour expédier les marchandises à un client. Le montant de ces frais d'expédition sera indiqué dans un code frais sur la commande client dans Dynamics AX. Utilisez ce paramètre pour mettre en correspondance le code frais d'expédition avec les frais d'expédition de la commande client.
+-   **Code frais d'annulation** – Si des frais sont appliqués lorsqu'une commande client est annulée, ces frais sont indiqués dans un code frais sur la commande client. Utilisez ce paramètre pour définir un code frais d'annulation.
+-   **Code frais d'expédition** – Les détaillants peuvent facturer des frais supplémentaires pour expédier les marchandises à un client. Le montant de ces frais d'expédition sera indiqué dans un code frais sur la commande client. Utilisez ce paramètre pour mettre en correspondance le code frais d'expédition avec les frais d'expédition de la commande client.
 -   **Rembourser les frais d'expédition** – Spécifiez si les frais d'expédition associés à une commande client sont remboursables.
 -   **Montant maximal sans approbation** – Si les frais d'expédition sont remboursables, spécifiez le montant maximal du remboursement des frais d'expédition pour plusieurs ordres de retour. Si ce montant est dépassé, le remplacement par le responsable est nécessaire pour procéder au remboursement. Pour prendre en charge les scénarios suivants, le remboursement des frais d'expédition peut dépasser le montant initialement payé :
     -   Les frais sont appliqués au niveau de l'en-tête de commande client et, lorsqu'une certaine quantité d'une ligne de produit est renvoyée, le remboursement maximal des frais d'expédition qui est autorisé pour les produits et la quantité ne peut pas être déterminé de manière appropriée pour tous les clients de vente au détail.
@@ -90,10 +92,10 @@ Les commandes client peuvent être créées à partir du client de point de vent
 
 ### <a name="enable-customer-orders-to-be-created-in-asynchronous-mode"></a>Activer les commandes client à créer en mode asynchrone
 
-1.  Dans Dynamics AX, cliquez sur **Commerce et vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage du PDV** &gt; **Profils PDV** &gt; **Profils de fonctionnalité**.
+1.  Cliquez sur **Vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage POS** &gt; **Profil POS** &gt; **Profils de fonctionnalité**.
 2.  Dans l'organisateur **Général**, définissez l'option **Créer une commande client en mode asynchrone** sur **Oui**.
 
-Lorsque l'option **Créer une commande client en mode asynchrone** est définie sur **Oui**, les commandes client sont toujours créées en mode asynchrone, même si Retail Transaction Service (RTS) est disponible. Si vous définissez cette option sur **Non**, les commandes client sont toujours créées en mode synchrone à l'aide de RTS. Lorsque les commandes client sont créées en mode asynchrone, elles sont extraites et insérées dans Dynamics AX par les tâches d'extraction (P). Les commandes client correspondantes sont créées dans Dynamics AX lorsque l'option **Synchroniser les commandes** est exécutée manuellement ou via un processus de traitement par lots.
+Lorsque l'option **Créer une commande client en mode asynchrone** est définie sur **Oui**, les commandes client sont toujours créées en mode asynchrone, même si Retail Transaction Service (RTS) est disponible. Si vous définissez cette option sur **Non**, les commandes client sont toujours créées en mode synchrone à l'aide de RTS. Lorsque les commandes client sont créées en mode asynchrone, elles sont extraites et insérées dans Dynamics AX par les tâches de traction Retail (P). Les commandes client correspondantes sont créées dans Retail lorsque l'option **Synchroniser les commandes** est exécutée manuellement ou via un processus de traitement par lots.
 
 <a name="see-also"></a>Voir également :
 --------

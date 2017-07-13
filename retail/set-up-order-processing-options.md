@@ -1,27 +1,29 @@
 ---
 title: "Paramétrer des options de traitement des commandes"
-description: "Cette rubrique fournit des informations sur le traitement des commandes pour les centres d&quot;appels à l&quot;aide de Microsoft Dynamics 365 for Operations - Vente au détail.."
+description: "Cette rubrique fournit des informations sur le traitement des commandes pour les centres d'appels à l'aide de Microsoft Dynamics 365 for Retail."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 78973
 ms.assetid: 09fca083-ac0d-4f30-baf2-bb00a626be12
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 52b56274c8b72c67bc0a50f23114cebc510f1667
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: afdea84b7016fcc3214dc94f2d393a5f3d256370
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -31,9 +33,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-Cette rubrique fournit des informations sur le traitement des commandes pour les centres d'appels à l'aide de Microsoft Dynamics 365 for Operations - Vente au détail.. 
+Cette rubrique fournit des informations sur le traitement des commandes pour les centres d'appels à l'aide de Microsoft Dynamics 365 for Retail. 
 
-Le module Commerce et vente au détail de Dynamics 365 for Operations prend en charge plusieurs canaux de vente au détail, tels que les magasins en ligne, les magasins traditionnels et les centres d'appels. Dans les centre d'appels, les collaborateurs prennent les commandes des clients par téléphone et créent des commandes client. Cette rubrique décrit la procédure de création d'un centre d'appels et de configuration de ses options. Chaque centre d'appels peut avoir ses propres utilisateurs, modes de paiement, groupes de prix, dimensions financières, et modes de livraison. Vous pouvez configurer ces options lorsque vous créez les centres d'appels. **Important :** avant que les workflows de centre d'appels puissent être utilisés lorsque l'utilisateur actuel de Dynamics AX crée des commandes client, l'utilisateur doit être affecté au centre d'appels en tant qu'utilisateur du centre d'appels. Vous pouvez utiliser la page **Centre d'appels** pour activer ou désactiver les groupes de fonctions qui sont uniques aux centres d'appels. Les groupes de fonctions suivants peuvent être activés :
+Retail prend en charge plusieurs canaux de vente au détail, tels que les magasins en ligne, les magasins traditionnels et les centres d'appels. Dans les centre d'appels, les collaborateurs prennent les commandes des clients par téléphone et créent des commandes client. Cette rubrique décrit la procédure de création d'un centre d'appels et de configuration de ses options. Chaque centre d'appels peut avoir ses propres utilisateurs, modes de paiement, groupes de prix, dimensions financières, et modes de livraison. Vous pouvez configurer ces options lorsque vous créez les centres d'appels. **Important :** avant que les workflows de centre d'appels puissent être utilisés lorsqu'un utilisateur crée des commandes client, l'utilisateur doit être affecté au centre d'appels en tant qu'utilisateur du centre d'appels. Vous pouvez utiliser la page **Centre d'appels** pour activer ou désactiver les groupes de fonctions qui sont uniques aux centres d'appels. Les groupes de fonctions suivants peuvent être activés :
 
 -   **Achèvement de commande** – Ce groupe inclut les fonctionnalités liées aux paiements et à l'achèvement des commandes sur la page **Commande client**.
 -   **Vente directe** – Ce groupe inclut les fonctionnalités associées aux codes sources, aux scripts, et aux demandes de catalogue.

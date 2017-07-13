@@ -1,9 +1,9 @@
 ---
 title: "Fonctionnalités obsolètes"
-description: "Cette rubrique décrit les fonctions qui ont été supprimées, ou qu&quot;il est prévu de supprimer, de Dynamics 365 for Operations. Elle répertorie également les fonctions qui ont été supprimées dans les versions de Dynamics AX 7.0."
+description: "Cette rubrique décrit les fonctions qui ont été supprimées, ou qu&quot;il est prévu de supprimer."
 author: sericks007
 manager: AnnBe
-ms.date: 04/18/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,10 +17,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 6
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 46a6f054f1cc5162e19d962964eb6eeb780087a6
+ms.sourcegitcommit: 3267bd1cbd738b5ced9996fc3b28eee211627591
+ms.openlocfilehash: 8feffb27b5d08a9c90e97ac0d7e00abf0448d0df
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/16/2017
 
 
 ---
@@ -29,8 +29,40 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+Cette rubrique décrit les fonctions qui ont été supprimées, ou qu'il est prévu de supprimer.
 
-Cette rubrique décrit les fonctions qui ont été supprimées, ou qu'il est prévu de supprimer, de Dynamics 365 for Operations. Elle répertorie également les fonctions qui ont été supprimées dans les versions de Dynamics AX 7.0.
+## <a name="features-that-have-been-deprecated-in-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Fonctionnalités obsolètes dans la mise à jour de juillet 2017 de Dynamics 365 for Finance and Operations, Enterprise edition
+
+### <a name="warehouse-mobile-devices-portal"></a>Portail des appareils mobiles d'entrepôt
+
+Le Portail des appareils mobiles d'entrepôt (WMDP) est un composant autonome qui a été prévu pour l'auto-déploiement local. Ce composant n'est plus pris en charge dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Une application native qui améliore l'expérience utilisateur a remplacé la fonctionnalité de WMDP. 
+
+|                                  |                                                 |
+|----------------------------------|-------------------------------------------------|
+| **Motif de la suppression**       | Fonction doublon.                        |
+| **Remplacé par une autre fonctionnalité ?** | Oui. Cette fonction a été remplacée par Finance and Operations - entreposant. Pour plus d'informations sur le paramétrage et les conditions préalables, voir [Installation et configuration de Microsoft Dynamics 365 for Finance and Operations – Entreposage](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
+| **Modules concernés**             | Gestion des entrepôts, Gestion du transport |
+
+### <a name="advanced-bank-reconciliation-matching-rule-for-manual-matching"></a>Rapprochement bancaire avancé correspondant à la règle de correspondance manuelle
+
+Règle de correspondance utilisée pour sélectionner et marquer un document bancaire lorsque des documents ont fait l'objet d'une correspondance manuelle dans la feuille de calcul de rapprochement
+
+|                                  |                                                                                        |
+|----------------------------------|----------------------------------------------------------------------------------------|
+| **Motif de la suppression**       | Utilisation limitée.                                                                         |
+| **Remplacé par une autre fonctionnalité ?** | N° Les fonctions de filtrage de colonnes doivent permettre de rechercher des documents pour le rapprochement. |
+| **Modules concernés**             | Gestion de la trésorerie et de la banque                                                               |
+
+### <a name="windows-8-tablet-app"></a>Application pour tablettes Windows 8
+
+L'application pour tablettes Windows 8 a fourni la fonctionnalité pour la saisie et l'approbation des dépenses.
+
+|                                  |                                                                                          |
+|----------------------------------|------------------------------------------------------------------------------------------|
+| **Motif de la suppression**       | Finance and Operations est compatible avec les tablettes. L'application pour tablettes n'est plus nécessaire. |
+| **Remplacé par une autre fonctionnalité ?** | N°                                                                                      |
+| **Modules concernés**             | Gestion des dépenses                                                                       |
+
 
 <a name="features-that-have-been-deprecated-in-dynamics-365-for-operations-1611-with-platform-update-3"></a>Fonctionnalités qui sont devenues obsolètes dans Dynamics 365 for Operations 1611 avec la mise à jour de plateforme 3
 ---------------------------------------------------------------------------------------------
@@ -301,7 +333,7 @@ Un workflow pour la gestion de la création des objectifs de l'employé est l'un
 
 |                              |                                                                                                                                                                                                                                                                                                                                        |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Motif de la suppression       | La gestion des performances a été complètement remodelée dans Microsoft Dynamics 365 for Operations.                                                                                                                                                                                                                                        |
+| Motif de la suppression       | La gestion des performances a été complètement remodelée dans Microsoft Dynamics 365 for Finance and Operations.                                                                                                                                                                                                                                        |
 | Remplacé par une autre fonctionnalité ? | La fonction de gestion des performances remodelée donne plus de contrôle sur le contenu des objectifs, les mesures utilisées pour suivre la progression, et l'association des documents associés. Les objectifs peuvent être stockés comme des modèles pour être réutilisés. Cette fonction peut vous aider à paramétrer des objectifs supplémentaires pour vos employés plus rapidement. |
 | Modules concernés             | Gestion du capital humain                                                                                                                                                                                                                                                                                                               |
 
@@ -484,7 +516,7 @@ Dans Dynamics AX 2012 R3, le terminal Retail Modern POS pouvait se connecter di
 
 |                              |                                                                                         |
 |------------------------------|-----------------------------------------------------------------------------------------|
-| Motif de la suppression       | La connexion directe à la base de données nécessitait un niveau de sécurité moindre au niveau des protocoles et a été utilisée principalement pour atteindre des niveaux de performances supérieurs. En raison des améliorations au niveau des performances et de la sécurité dans Dynamics 365 for Operations, cette fonctionnalité entraîne désormais plus de problèmes qu'elle n'en résout. |
+| Motif de la suppression       | La connexion directe à la base de données nécessitait un niveau de sécurité moindre au niveau des protocoles et a été utilisée principalement pour atteindre des niveaux de performances supérieurs. En raison des améliorations au niveau des performances et de la sécurité dans Finance and Operations, cette fonctionnalité entraîne désormais plus de problèmes qu'elle n'en résout. |
 | Remplacé par une autre fonctionnalité ? | N° Seule la communication standard via le serveur de vente au détail est désormais prise en charge.    |
 | Modules concernés             | BDD des canaux/Terminal Retail Modern POS                                    |
 
@@ -808,9 +840,5 @@ Informations sur les salaires dans Ressources humaines
 | Motif de la suppression       | Cette fonctionnalité a été remplacée par une autre.                                    |
 | Remplacé par une autre fonctionnalité ? | Management Reporter (appelé **États financiers** dans la version actuelle de Dynamics AX) |
 | Modules concernés             | Comptabilité                                                                              |
-
-
-
-
 
 

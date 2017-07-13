@@ -1,9 +1,9 @@
 ---
 title: "Espace de travail de clôture de période comptable"
-description: "Cet article fournit une vue d&quot;ensemble de l&quot;espace de travail de clôture de période comptable et la configuration associée."
+description: "Cet article fournit une vue d'ensemble de l'espace de travail de clôture de période comptable et la configuration associée."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: LedgerPeriodCloseProjectWorkspace
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 13791
 ms.assetid: 6ee51758-639b-448e-9cb2-56cf1d804273
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 788b0af30eb750cad8f958ecc4c33cf989b2a417
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 5de5e3aad0b7a5853653ae53326dac078ec94fea
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -65,7 +65,7 @@ L'option **Tâche terminée** doit être sélectionnée manuellement une fois la
 Vous pouvez afficher toutes les tâches de clôture de période comptable précédentes et actuelles dans la page de liste **Toutes les tâches de clôture de période comptable**. Cette page de liste est optimale pour l'analyse historique de votre processus de clôture, car elle inclut des informations sur la date d'échéance planifiée, la date de fin réelle et la personne qui a effectué la tâche. Vous pouvez facilement exporter les informations de cette page de liste vers Microsoft Excel à des fins d'audit et de génération d'états.
 
 ## <a name="financial-period-close-configuration-page"></a>Page Configuration de clôture de période comptable
-Avant d'utiliser l'espace de travail **Clôture de période comptable**, vous devez configurer le processus dans Microsoft Dynamics 365 for Operations à l'aide de la page **Configuration de clôture de période comptable**. (Cliquez sur **Comptabilité** &gt; **Clôturer la période** &gt; **Configuration de clôture de période comptable**).
+Avant d'utiliser l'espace de travail **Clôture de période comptable**, vous devez configurer le processus dans Microsoft Dynamics 365 for Finance and Operations à l'aide de la page **Configuration de clôture de période comptable**. (Cliquez sur **Comptabilité** &gt; **Clôturer la période** &gt; **Configuration de clôture de période comptable**).
 
 ### <a name="resources"></a>Ressources
 
@@ -90,7 +90,7 @@ Vous utilisez un modèle de clôture financière pour définir toutes les tâche
 
 Vous pouvez affecter une tâche dans le modèle à une ou plusieurs sociétés dans lesquelles cette tâche s'applique. Si une personne différente est affectée à la réalisation de ce travail dans chaque société, il peut être utile de créer plusieurs tâches pour le même travail. Créez une tâche pour chaque société. 
 
-L'option de menu **Lien des tâches** est associée au travail correspondant à la tâche et peut être utilisée pour accéder directement à la page associée à partir du lien de tâche dans l'espace de travail. Par exemple, une tâche de clôture destinée à exécuter le processus de réévaluation de la devise pour la Comptabilité fournisseur peut être liée à la page **Réévaluation des comptes en devises** dans Microsoft Dynamics 365 for Operations. Vous pouvez également lier à une URL externe. 
+L'option de menu **Lien des tâches** est associée au travail correspondant à la tâche et peut être utilisée pour accéder directement à la page associée à partir du lien de tâche dans l'espace de travail. Par exemple, une tâche de clôture destinée à exécuter le processus de réévaluation de la devise pour la Comptabilité fournisseur peut être liée à la page **Réévaluation des comptes en devises** dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Vous pouvez également lier à une URL externe. 
 
 > [!Astuce] Si vous souhaitez lier un état Management Reporter spécifique à une tâche de clôture de période comptable, vous pouvez utiliser l'URL de l'état. Pour accéder à l'URL de l'état, ouvrez l'état dans le concepteur d'état, puis cliquez sur **Fichier** &gt; **Afficher l'état** pour ouvrir l'état dans un navigateur Web. Vous pouvez ensuite copier l'URL dans la barre d'adresse du navigateur et la coller dans le champ **Lien des tâches** **URL**. 
 

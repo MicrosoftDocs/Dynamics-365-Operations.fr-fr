@@ -3,14 +3,14 @@ title: Statuts du stock
 description: "Cet article décrit la manière dont vous pouvez utiliser les statuts du stock pour classer et faire le suivi du stock."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: EcoResStorageDimensionGroup, WHSInventStatus
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 21331
 ms.assetid: b35f495f-de4f-48a0-9d09-4d06781d7650
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1565b7738260270a986b515dfd21931296ce83bd
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: b3ec66c805d028c20f3d3f95e7af9d78252828c7
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -44,7 +44,7 @@ Voici quelques exemples d'utilisation des statuts de stock :
 
 Le statut du stock est l'une des dimensions dans le groupe de dimensions de stockage. Les statuts de stock peuvent être classés comme disponibles ou non disponibles, et vous pouvez utiliser le paramètre **Blocage du stock** pour bloquer les articles ayant un statut du stock disponible. Les articles dont le statut est bloqué sont considérés comme un stock physique et ne peuvent pas être utilisés dans un ordre de fabrication, une commande client, un ordre de transfert, ou une transaction sortante. 
 
-Vous pouvez utiliser des articles d'entrepôt dont les statuts de stock sont disponibles ou non disponibles pour un travail entrant. Par exemple, vous créez un statut disponible nommé **Prêt**, un statut non disponible nommé **Endommagé** et un statut bloqué nommé **Bloqué**. Lorsque vous créez une commande fournisseur pour des articles reçus ou retournés, si les articles sont endommagés ou arrêtés, vous pouvez modifier le statut de stock de ces articles sur **Endommagé**sur la ligne de commande fournisseur. Une fois ces articles reçus, le statut est automatiquement défini sur **Bloqué**. Si vous numérisez les articles endommagés à l'aide d'un appareil mobile, Microsoft Dynamics 365 for Operations peut utiliser des directives d'emplacement et des modèles de travail pour afficher des informations sur un emplacement adapté ou une plage d'emplacements pour ranger ces articles. Pour les articles retournés, un type de sortie de **Réservation** est créé dans la page **Mouvements de stock**. 
+Vous pouvez utiliser des articles d'entrepôt dont les statuts de stock sont disponibles ou non disponibles pour un travail entrant. Par exemple, vous créez un statut disponible nommé **Prêt**, un statut non disponible nommé **Endommagé** et un statut bloqué nommé **Bloqué**. Lorsque vous créez une commande fournisseur pour des articles reçus ou retournés, si les articles sont endommagés ou arrêtés, vous pouvez modifier le statut de stock de ces articles sur **Endommagé** sur la ligne de commande fournisseur. Une fois ces articles reçus, le statut est automatiquement défini sur **Bloqué**. Si vous numérisez les articles endommagés à l'aide d'un appareil mobile, Microsoft Dynamics 365 for Finance and Operations peut utiliser des directives d'emplacement et des modèles de travail pour afficher des informations sur un emplacement adapté ou une plage d'emplacements pour ranger ces articles. Pour les articles retournés, un type de sortie de **Réservation** est créé dans la page **Mouvements de stock**. 
 
 Pour un travail sortant, utilisez les articles qui ont un statut de stock disponible. Si vous avez des articles ayant un statut **Cassé**, et la planification est effectuée sur ces articles, les articles sont considérés comme manquants et le stock est automatiquement réapprovisionné. 
 

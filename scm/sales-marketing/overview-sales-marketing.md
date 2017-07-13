@@ -1,15 +1,15 @@
 ---
 title: Ventes et marketing
-description: "Vous pouvez faire appel à ce module pour obtenir, stocker et utiliser différents types de données dans le cadre du flux commercial. Ces données vont de l&quot;initiative commerciale de départ aux futures ventes réalisées, en passant par les actions de suivi."
+description: "Vous pouvez faire appel à ce module pour obtenir, stocker et utiliser différents types de données dans le cadre du flux commercial. Ces données vont de l'initiative commerciale de départ aux futures ventes réalisées, en passant par les actions de suivi."
 author: kfend
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 92303
 ms.assetid: 65ca9992-bbfa-4224-bf0e-067a25c7e6a4
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 25ea6e64453b22d664dd65a1f1bb18e3a1997bc5
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: dddcc764bb11540b8207350c463d1adb2533e1c0
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -43,7 +43,7 @@ Dans les ventes et le marketing, les interactions initiales que vous avez avec d
 
 ### <a name="campaigns"></a>Campagnes
 
-Une campagne cible les contacts (prospects, opportunités et clients) sélectionnés pour y participer. Dans Microsoft Dynamics 365 for Operations, vous pouvez créer plusieurs types de campagnes, comme le télémarketing, le publipostage, et les campagnes par courrier électronique, afin d’optimiser vos clients potentiels. À mesure que vos campagnes évoluent et que vous recevez des réponses positives, vous pouvez commencer le processus de vente avec les destinataires qui ont répondu positivement à la campagne.
+Une campagne cible les contacts (prospects, opportunités et clients) sélectionnés pour y participer. Dans Microsoft Dynamics 365 for Finance and Operations, vous pouvez créer plusieurs types de campagnes, comme le télémarketing, le publipostage, et les campagnes par courrier électronique, afin d’optimiser vos clients potentiels. À mesure que vos campagnes évoluent et que vous recevez des réponses positives, vous pouvez commencer le processus de vente avec les destinataires qui ont répondu positivement à la campagne.
 
 ## <a name="sales"></a>Ventes
 La fonctionnalité de vente vous permet de créer des devis, des ventes de gamme supérieure et des ventes croisées pour les clients nouveaux et existants, de créer des commandes client et de créer des factures de vente pour les clients. Le flux de processus suivant présente le processus d'entreprise pour les ventes. [![Processus d'entreprise pour les ventes](./media/sales01.jpg)](./media/sales01.jpg)

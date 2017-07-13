@@ -1,15 +1,15 @@
 ---
 title: "Bonnes pratiques pour l’importation de numéros document à l’aide de l’entité du journal des opérations diverses"
-description: "Cette rubrique fournit des conseils pour l’importation de données dans le Journal des opérations diverses à l’aide de l&quot;entité de Journal des opérations diverses."
+description: "Cette rubrique fournit des conseils pour l’importation de données dans le Journal des opérations diverses à l’aide de l'entité de Journal des opérations diverses."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 94363
 ms.assetid: 0b8149b5-32c5-4518-9ebd-09c9fd7f4cfc
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1a1740f322972b1c37f23a0422fdcb4435253710
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: b9a5c03584635908067bb7b623deba76f4ba3e18
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -53,14 +53,14 @@ Les sections suivantes décrivent l’effet de ces paramètres et expliquent ég
 -   Le paramétrage **Traitement basé sur les jeux** sur l’entité du journal des opérations diverses n’affecte pas la manière dont les numéros de lot de journal sont générés.
 -   Si le champ **Numéro de lot du journal** est défini sur **Généré automatiquement**, un nouveau numéro de lot de journal est créé pour chaque ligne qui est importée. Ce comportement n’est pas recommandé. Le paramètre **Généré automatiquement** se trouve dans le projet d’importation, sous **Afficher le mappage**, sur l'onglet **Détails de la mise en correspondance**.
 -   Si le champ **Numéro de lot du journal** n'est pas défini sur **Généré automatiquement**, le numéro de lot de journal est créé comme suit :
-    -   Si le numéro de lot du journal défini dans le fichier importé correspond à un journal quotidien existant non validé dans Microsoft Dynamics 365 for Operations, toutes les lignes ayant un numéro de lot de journal correspondant sont importées dans le journal existant. Les lignes ne sont jamais importées dans un numéro de lot de journal validé. Au lieu de cela, un nouveau numéro est créé.
-    -   Si le numéro de lot du journal défini dans le fichier importé ne correspond pas à un journal quotidien existant non validé dans Dynamics 365 for Operations, toutes les lignes ayant le même numéro de lot de journal sont regroupées dans un nouveau journal. Par exemple, toutes les lignes ayant un numéro de lot de journal de 1 sont importées dans un nouveau journal, et toutes les lignes ayant un numéro de lot de journal de 2 sont importés dans un second nouveau journal. Le numéro de lot du journal est créé à l’aide de la souche de numéros qui est définie dans les paramètres de comptabilité.
+    -   Si le numéro de lot du journal défini dans le fichier importé correspond à un journal quotidien existant non validé, toutes les lignes ayant un numéro de lot de journal correspondant sont importées dans le journal existant. Les lignes ne sont jamais importées dans un numéro de lot de journal validé. Au lieu de cela, un nouveau numéro est créé.
+    -   Si le numéro de lot du journal défini dans le fichier importé ne correspond pas à un journal quotidien existant non validé, toutes les lignes ayant le même numéro de lot de journal sont regroupées dans un nouveau journal. Par exemple, toutes les lignes ayant un numéro de lot de journal de 1 sont importées dans un nouveau journal, et toutes les lignes ayant un numéro de lot de journal de 2 sont importés dans un second nouveau journal. Le numéro de lot du journal est créé à l’aide de la souche de numéros qui est définie dans les paramètres de comptabilité.
 
 ### <a name="voucher-number"></a>N° document
 
--   Lorsque vous utilisez le paramètre **Traitement basé sur les jeux** de l’entité de journal des opérations diverses, le numéro de document doit être fourni dans le fichier importé. Un numéro de document est attribué à chaque transaction dans le journal des opérations diverses qui est fourni dans le fichier importé, même si le numéro de document n’est pas équilibré. Si vous souhaitez utiliser le traitement basé sur les jeux, mais que vous souhaitez également utiliser la souche de numéros qui est définie pour les numéros de documents dans Dynamics 365 for Operations, un correctif logiciel a été fourni pour l'édition de février 2016. Le numéro de correctif logiciel est 3170316 et est disponible pour le téléchargement dans Licycle services (LCS). Pour plus d’informations, consultez [Téléchargement de correctifs auprès de Lifecycle Services](..\migration-upgrade\download-hotfix-lcs.md).
-    -   Pour activer cette fonctionnalité, sur le nom du journal utilisé pour les importations dans Dynamics 365 for Operations, définissez **Attribution d'un numéro pour la validation** sur **Oui**.
-    -   Un numéro de document doit toujours être défini dans le fichier importé. Toutefois, ce numéro est temporaire et est remplacé par le numéro de document de Dynamics 365 for Operations lorsque le journal est validé. Il se peut que vous deviez vous assurer que les lignes du journal sont correctement regroupées par numéro de document temporaire. Par exemple, lors de la validation, trois lignes portant le N° document temporaire 1 sont détectées. Le n° document temporaire des trois lignes est remplacé par le numéro suivant dans la souche de numéros. Si ces trois lignes ne sont pas une entrée équilibrée, le document n’est pas validé. Ensuite, si les lignes sont trouvées avec un numéro de document temporaire de 2, ce numéro est remplacé par le numéro de document suivant dans la souche de numéros et ainsi de suite.
+-   Lorsque vous utilisez le paramètre **Traitement basé sur les jeux** de l’entité de journal des opérations diverses, le numéro de document doit être fourni dans le fichier importé. Un numéro de document est attribué à chaque transaction dans le journal des opérations diverses qui est fourni dans le fichier importé, même si le numéro de document n’est pas équilibré. Si vous souhaitez utiliser le traitement basé sur les jeux, mais que vous souhaitez également utiliser la souche de numéros qui est définie pour les numéros de documents, un correctif logiciel a été fourni pour l'édition de février 2016. Le numéro de correctif logiciel est 3170316 et est disponible pour le téléchargement dans Licycle services (LCS). Pour plus d’informations, consultez [Téléchargement de correctifs auprès de Lifecycle Services](..\migration-upgrade\download-hotfix-lcs.md).
+    -   Pour activer cette fonctionnalité, sur le nom du journal utilisé pour les importations, définissez **Attribution d'un numéro pour la validation** sur **Oui**.
+    -   Un numéro de document doit toujours être défini dans le fichier importé. Toutefois, ce numéro est temporaire et est remplacé par le numéro de document lorsque le journal est validé. Il se peut que vous deviez vous assurer que les lignes du journal sont correctement regroupées par numéro de document temporaire. Par exemple, lors de la validation, trois lignes portant le N° document temporaire 1 sont détectées. Le n° document temporaire des trois lignes est remplacé par le numéro suivant dans la souche de numéros. Si ces trois lignes ne sont pas une entrée équilibrée, le document n’est pas validé. Ensuite, si les lignes sont trouvées avec un numéro de document temporaire de 2, ce numéro est remplacé par le numéro de document suivant dans la souche de numéros et ainsi de suite.
 
 <!-- -->
 

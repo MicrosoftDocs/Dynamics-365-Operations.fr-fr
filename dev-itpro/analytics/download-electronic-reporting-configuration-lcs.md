@@ -1,16 +1,16 @@
 ---
 title: "Télécharger les configurations des états électroniques à partir de Lifecycle Services"
-description: "Cette rubrique explique comment télécharger des configurations d&quot;états électroniques à partir de Microsoft Dynamics Lifecycle Services (LCS)."
+description: "Cette rubrique explique comment télécharger des configurations d'états électroniques à partir de Microsoft Dynamics Lifecycle Services (LCS)."
 author: kfend
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: ERSolutionImport, ERWorkspace
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 105843
 ms.assetid: dc44dea2-22ce-401e-98b9-d289e0e2825b
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1e73cd38c33d88feaba825abb64721bc332a4d6e
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: be77d76194e9d38589548113cc650599d5af4323
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -35,7 +35,7 @@ Cette rubrique explique comment télécharger des configurations d'états élect
 
 Ce didacticiel vous guide via le processus de téléchargement de la version la plus récente des configurations d'états électroniques à partir de Microsoft Dynamics Lifecycle Services (LCS).
 
-1.  Se connecter à Dynamics 365 for Operations en utilisant l'un des rôles suivants :
+1.  Se connecter à Finance and Operations en utilisant l'un des rôles suivants :
     -   Développeur de gestion des états électroniques
     -   Consultant fonctionnel de gestion des états électroniques
     -   Administrateur système
@@ -55,7 +55,7 @@ Ce didacticiel vous guide via le processus de téléchargement de la version la 
 6.  Cliquez sur **Ouvrir** pour afficher la liste des configurations ER pour le référentiel sélectionné. [![update-er-from-lcs-for-ms-make-lcs-repository](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
 7.  Dans l'arborescence de configurations du volet gauche, sélectionnez la configuration ER voulue.
 8.  Dans l'organisateur **Versions**, sélectionnez la version requise de la configuration ER sélectionnée.
-9.  Cliquez sur **Importer** pour télécharger la version sélectionnée de LCS vers l'instance Dynamics 365 for Operations actuelle. **Remarque :** Le bouton **Importer** n'est pas disponible pour les versions de configuration ER qui sont déjà présentes dans l'instance Dynamics 365 for Operations actuelle. [![update-er-from-lcs-for-ms-download-configuration](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
+9.  Cliquez sur **Importer** pour télécharger la version sélectionnée de LCS vers l'instance Finance and Operations actuelle. **Remarque :** Le bouton **Importer** n'est pas disponible pour les versions de configuration ER qui sont déjà présentes dans l'instance Finance and Operations actuelle. [![update-er-from-lcs-for-ms-download-configuration](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
 
 **Remarque :** Selon les paramètres d'états électroniques, les configurations sont validées après leur importation. Il est possible que vous soyez averti des problèmes d'incohérences qui sont détectés. Vous devez résoudre ces problèmes avant d'utiliser la version de configuration importée. Pour plus d'informations, voir la liste des articles associés pour cette rubrique.
 

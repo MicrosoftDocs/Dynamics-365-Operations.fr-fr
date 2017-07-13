@@ -1,9 +1,9 @@
 ---
 title: Formats de fichier des modes de paiement
-description: "Cette rubrique décrit les deux méthodes d&quot;obtention des formats de fichier que vous pouvez utiliser pour les modes de paiement."
+description: "Cette rubrique décrit les deux méthodes d'obtention des formats de fichier que vous pouvez utiliser pour les modes de paiement."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,17 +11,17 @@ ms.technology:
 ms.search.form: CustPaymMode, VendPaymMode
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 262514
 ms.search.region: Belgium, France, Germany, Norway, Spain, Sweden, Switzerland
 ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 9b3cf1d469998389895c137fa842b73adb0eeddc
+ms.sourcegitcommit: f76e431320414b508728cbe9fe20456f107cbe40
+ms.openlocfilehash: cbe4b57d0ad9119b0e5f6c9725a85c3afe8388ab
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/09/2017
 
 
 ---
@@ -42,7 +42,7 @@ Deux méthodes peuvent être utilisées pour obtenir les formats de fichier à u
 
 ### <a name="method-1-electronic-reporting-file-formats"></a>Méthode 1 : formats de fichier de génération d'états électroniques
 
-Pour les formats de fichier basés sur les configurations ER, vous devez importer les configurations à partir de Lifecycle Services (LCS). Pour plus d'informations, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs) Après avoir importé les configurations de génération d'états pour ces formats de fichier, les formats importés sont disponibles dans la page **Modes de paiement**. Le processus d'importation et de sélection des formats de fichier pour l'Europe est similaire à la procédure pour le Japon. <!---For more details, see [Enable the JBA payment file format](https://ax.help.dynamics.com/en/wiki/enable-the-jba-payment-file-format/).-->
+Pour les formats de fichier basés sur les configurations ER, vous devez importer les configurations à partir de Lifecycle Services (LCS). Pour plus d'informations, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs) Après avoir importé les configurations de génération d'états pour ces formats de fichier, les formats importés sont disponibles dans la page **Modes de paiement**. Le processus d'importation et de sélection des formats de fichier pour l'Europe est similaire à la procédure pour le Japon. <!---For more details, see [Enable the JBA payment file format](https://ax.help.dynamics.com/en/wiki/enable-the-jba-payment-file-format/).-->
 
 ### <a name="method-2-x-file-formats"></a>Méthode 2 : formats de fichier X++
 

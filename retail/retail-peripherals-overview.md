@@ -1,27 +1,27 @@
 ---
-title: "Vue d&quot;ensemble des périphériques de vente au détail"
+title: "Vue d'ensemble des périphériques de vente au détail"
 description: "Cette rubrique explique les concepts relatifs aux périphériques de vente au détail. Elle décrit les différentes méthodes de connexion des périphériques au point de vente (PDV) ainsi que les composants en charge de gérer la connexion avec le PDV."
-author: josaw1
+author: rubencdelgado
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/19/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: Operations, Core
+ms.reviewer: josaw
+ms.search.scope: Core, Operations, UnifiedOperations, Retail
 ms.custom: 268444
-ms.assetid: 2ea93e43-8019-49a0-a7f8-325565ebc52d
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
+ms.dyn365.ops.version: Version 1611, Retail Version
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 9f7c47c3dc22b2f3c2ea08085326be08011eca4e
+ms.sourcegitcommit: 52a16be4b07eafb493c7fd7ad52a6d9d1bb9ee89
+ms.openlocfilehash: 77049ba4c9c39cd44f1919b672deaf700b91357d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -33,16 +33,15 @@ ms.lasthandoff: 05/25/2017
 
 Cette rubrique explique les concepts relatifs aux périphériques de vente au détail. Elle décrit les différentes méthodes de connexion des périphériques au point de vente (PDV) ainsi que les composants en charge de gérer la connexion avec le PDV.
 
-<a name="concepts"></a>Concepts
---------
+## <a name="concepts"></a>Concepts
 
 ### <a name="pos-registers"></a>Caisses enregistreuses de PDV
 
-Navigation : cliquez sur **Commerce et vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage du PDV** &gt; **Caisses enregistreuses**. Le registre du point de vente (PDV) est une entité utilisée pour définir les caractéristiques d'une instance spécifique du PDV. Ces caractéristiques comprennent le profil matériel ou la configuration des périphériques de vente au détail qui seront utilisés dans le registre, le magasin sur lequel est mappé le registre, ainsi que l'expérience visuelle de l'utilisateur qui se connecte à ce registre.
+Navigation : Cliquez sur **Vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage POS** &gt; **Caisses enregistreuses**. Le registre du point de vente (PDV) est une entité utilisée pour définir les caractéristiques d'une instance spécifique du PDV. Ces caractéristiques comprennent le profil matériel ou la configuration des périphériques de vente au détail qui seront utilisés dans le registre, le magasin sur lequel est mappé le registre, ainsi que l'expérience visuelle de l'utilisateur qui se connecte à ce registre.
 
 ### <a name="devices"></a>Périphériques
 
-Navigation : cliquez sur **Commerce et vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage du PDV** &gt; **Périphériques**. Un périphérique est une entité qui représente une instance physique d’un périphérique qui est mappé à une caisse enregistreuse de PDV. Lorsqu’un périphérique est créé, il est mappé sur un registre de PDV. L’entité de périphérique assure le suivi des informations lorsqu’une caisse enregistreuse est activée, le type de client qui est utilisé et le package d’applications qui a été déployé sur un périphérique spécifique. Les unités peuvent être mappées sur les types d'application suivants : Retail Modern POS, Retail Cloud POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android et Retail Modern POS – iOS.
+Navigation : Cliquez sur **Vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage POS** &gt; **Périphériques**. Un périphérique est une entité qui représente une instance physique d’un périphérique qui est mappé à une caisse enregistreuse de PDV. Lorsqu’un périphérique est créé, il est mappé sur un registre de PDV. L’entité de périphérique assure le suivi des informations lorsqu’une caisse enregistreuse est activée, le type de client qui est utilisé et le package d’applications qui a été déployé sur un périphérique spécifique. Les unités peuvent être mappées sur les types d'application suivants : Retail Modern POS, Retail Cloud POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android et Retail Modern POS – iOS.
 
 ### <a name="retail-modern-pos"></a>Retail Modern POS
 
@@ -66,11 +65,11 @@ Les périphériques de PDV sont des périphériques qui sont explicitement pris 
 
 ### <a name="hardware-station"></a>Station matérielle
 
-Navigation : cliquez sur **Commerce et vente au détail** &gt; **Canaux** &gt; **Magasins de vente au détail** &gt; **Tous les magasins de vente au détail**. Sélectionnez un magasin, puis cliquez sur l'organisateur **Stations matérielles**. Le paramètre **Station matérielle** est un paramètre de niveau canal utilisé pour définir des instances où la logique de périphérique de vente au détail doit être déployée. Ce paramètre au niveau du canal sert à déterminer les spécifications de la station matérielle. Il permet également de répertorier les stations matérielles disponibles pour une instance de Modern POS dans un magasin donné. La station matérielle est intégrée dans le programme Modern POS pour Windows. La station matérielle peut également être déployée indépendamment en tant que programme Microsoft IIS autonome. Dans ce cas, elle est accessible via un réseau.
+Navigation : cliquez sur **Vente au détail** &gt; **Canaux** &gt; **Magasins de vente au détail** &gt; **Tous les magasins de vente au détail**. Sélectionnez un magasin, puis cliquez sur l'organisateur **Stations matérielles**. Le paramètre **Station matérielle** est un paramètre de niveau canal utilisé pour définir des instances où la logique de périphérique de vente au détail doit être déployée. Ce paramètre au niveau du canal sert à déterminer les spécifications de la station matérielle. Il permet également de répertorier les stations matérielles disponibles pour une instance de Modern POS dans un magasin donné. La station matérielle est intégrée dans le programme Modern POS pour Windows. La station matérielle peut également être déployée indépendamment en tant que programme Microsoft IIS autonome. Dans ce cas, elle est accessible via un réseau.
 
 ### <a name="hardware-profile"></a>Profil matériel
 
-Navigation : cliquez sur **Commerce et vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage POS** &gt; **Profils POS** &gt; **Profils du matériel**. Le profil du matériel est une liste de périphériques configurés pour un registre de PDV ou une station matérielle. Le profil du matériel peut être mappé directement sur un registre de PDV ou une station matérielle.
+Navigation : cliquez sur **Vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage POS** &gt; **Profils POS** &gt; **Profils du matériel**. Le profil du matériel est une liste de périphériques configurés pour un registre de PDV ou une station matérielle. Le profil du matériel peut être mappé directement sur un registre de PDV ou une station matérielle.
 
 ## <a name="devices-classes"></a>Classes de périphériques
 Les périphériques de PDV sont généralement divisés en classes. Cette section décrit et offre une vue d'ensemble des périphériques pris en charge par Modern POS.
@@ -118,12 +117,12 @@ La prise en charge des périphériques de paiement est implémentée par l'inter
 ## <a name="supported-interfaces"></a>Interfaces prises en charge
 ### <a name="opos"></a>OPOS
 
-Pour permettre d'utiliser la plus large gamme possible de périphériques avec Microsoft Dynamics 365 for Operations - Vente au détail, la norme OLE pour le secteur des PDV est la principale plateforme de périphériques prise en charge dans Microsoft Dynamics 365 for Operations - Vente au détail. La norme OLE pour le secteur des PDV a été produite par NRF (National Retail Federation), qui établit les protocoles de transmission standard pour les périphériques de vente au détail. OPOS est une implémentation largement adoptée de la norme OLE pour le secteur des PDV. Il a été développé dans le milieu des années 1990 et a depuis lors été plusieurs fois actualisé. OPOS fournit une architecture de pilote de périphérique qui permet l'intégration facile des matériels de PDV avec les systèmes de PDV fondés sur Windows. Les contrôles OPOS gèrent les communications entre les matériels compatibles et le logiciel de PDV. Un contrôle OPOS est composé de deux parties :
+Pour permettre d'utiliser la plus large gamme possible de périphériques avec Microsoft Dynamics 365 for Retail, la norme OLE pour le secteur des PDV est la principale plateforme de périphériques prise en charge dans Microsoft Dynamics 365 for Retail. La norme OLE pour le secteur des PDV a été produite par NRF (National Retail Federation), qui établit les protocoles de transmission standard pour les périphériques de vente au détail. OPOS est une implémentation largement adoptée de la norme OLE pour le secteur des PDV. Il a été développé dans le milieu des années 1990 et a depuis lors été plusieurs fois actualisé. OPOS fournit une architecture de pilote de périphérique qui permet l'intégration facile des matériels de PDV avec les systèmes de PDV fondés sur Windows. Les contrôles OPOS gèrent les communications entre les matériels compatibles et le logiciel de PDV. Un contrôle OPOS est composé de deux parties :
 
--   **Objet de contrôle** – L'objet de contrôle pour une classe de périphérique (comme une ligne d'affichage) fournit l'interface du programme logiciel. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) fournit un ensemble normalisé d'objets de contrôle OPOS qui sont appelés objets de contrôle commun (CCO). Les CCO sont utilisés pour tester le composant PDV de Microsoft Dynamics 365 for Operations - Vente au détail. Par conséquent, les tests garantissent que, si Microsoft Dynamics 365 for Operations - Vente au détail prend en charge une classe de périphérique via OPOS, de nombreux types de périphérique peuvent être pris en charge, à condition que le fabricant fournisse un objet de service conçu pour OPOS. Il n'est pas nécessaire de tester explicitement chaque type de périphérique.
+-   **Objet de contrôle** – L'objet de contrôle pour une classe de périphérique (comme une ligne d'affichage) fournit l'interface du programme logiciel. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) fournit un ensemble normalisé d'objets de contrôle OPOS qui sont appelés objets de contrôle commun (CCO). Les CCO sont utilisés pour tester le composant PDV de Microsoft Dynamics 365 for Retail. Par conséquent, les tests garantissent que, si Microsoft Dynamics 365 for Retail prend en charge une classe de périphérique via OPOS, de nombreux types de périphérique peuvent être pris en charge, à condition que le fabricant fournisse un objet de service conçu pour OPOS. Il n'est pas nécessaire de tester explicitement chaque type de périphérique.
 -   **Objet de service** – L'objet de service fournit les communications entre l'objet de contrôle (CCO) et le périphérique. Généralement, l'objet de service pour un périphérique est fourni par le fabricant de celui-ci. Toutefois, dans certains cas, vous devez télécharger l'objet de service à partir du site Web du fabricant. Par exemple, il peut s'y trouver un objet de service plus récent disponible. Pour trouver l'adresse du site Web du fabricant, consultez la documentation de votre matériel.
 
-[![Objet de contrôle et objet de service](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) La prise en compte de la norme OLE pour l'implémentation d'OPOS pour les PDV garantit que, si les fabricants de périphérique et les éditeurs de PDV implémentent la norme correctement, les systèmes de PDV et les périphériques pris en charge peuvent fonctionner ensemble, même s'ils n'ont pas été testés ensemble au préalable. **Remarque :** La prise en charge d'OPOS ne garantit pas la prise en charge de tous les périphériques dotés de pilotes OPOS. Microsoft Dynamics 365 for Operations - Vente au détail doit en premier lieu prendre en charge ce type ou cette classe de périphérique par l'intermédiaire d'OPOS. En outre, les objets de service ne peuvent pas toujours être à jour avec la dernière version des CCO. Vous devez également tenir compte du fait que, de manière générale, la qualité des objets de service est variable.
+[![Objet de contrôle et objet de service](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) La prise en compte de la norme OLE pour l'implémentation d'OPOS pour les PDV garantit que, si les fabricants de périphérique et les éditeurs de PDV implémentent la norme correctement, les systèmes de PDV et les périphériques pris en charge peuvent fonctionner ensemble, même s'ils n'ont pas été testés ensemble au préalable. **Remarque :** La prise en charge d'OPOS ne garantit pas la prise en charge de tous les périphériques dotés de pilotes OPOS. Microsoft Dynamics 365 for Retail doit en premier lieu prendre en charge ce type ou cette classe de périphérique par l'intermédiaire d'OPOS. En outre, les objets de service ne peuvent pas toujours être à jour avec la dernière version des CCO. Vous devez également tenir compte du fait que, de manière générale, la qualité des objets de service est variable.
 
 ### <a name="windows"></a>Windows
 
@@ -133,7 +132,7 @@ L'impression de tickets au PDV est optimisée pour OPOS. L'impression via OPOS t
 -   les périphériques qui sont connectés via l'imprimante (« en guirlande ») peuvent ne pas fonctionner correctement lors de l'utilisation des pilotes Windows. Par exemple, la caisse enregistreuse peut ne pas s'ouvrir, ou l'imprimante de bordereau peut ne pas fonctionner comme prévu.
 -   OPOS prend également en charge un ensemble plus étendu de variables spécifiques aux imprimantes de tickets de vente au détail, telles que l'impression de bordereau ou la coupe du papier.
 
-Si les contrôles OPOS sont disponibles pour l'imprimante Windows que vous utilisez, l'imprimante doit encore fonctionner correctement avec Microsoft Dynamics 365 for Operations - Vente au détail.
+Si les contrôles OPOS sont disponibles pour l'imprimante Windows que vous utilisez, l'imprimante doit encore fonctionner correctement avec Microsoft Dynamics 365 for Retail.
 
 ### <a name="universal-windows-platform"></a>Universal Windows Platform
 
@@ -473,7 +472,7 @@ Les périphériques réseau peuvent être pris en charge directement via la stat
 </table>
 
 ## <a name="configuration-for-supported-scenarios"></a>Configuration pour les scénarios pris en charge
-Pour plus d'informations sur la création de profils matériels, voir [Définir et tenir à jour des clients de canal, y compris des registres et des stations matérielles](define-maintain-channel-clients-registers-hw-stations.md). **Remarque :** Pour Microsoft Dynamics 365 for Operations, version 1611, le profil de station matérielle n'est plus utilisé. Les attributs que vous avez préalablement paramétrés dans le profil de station matérielle font désormais partie de la station matérielle elle-même.
+Pour plus d'informations sur la création de profils matériels, voir [Définir et tenir à jour des clients de canal, y compris des registres et des stations matérielles](define-maintain-channel-clients-registers-hw-stations.md). **Remarque :** Pour Microsoft Dynamics 365 for Retail, version 1611, le profil de station matérielle n'est plus utilisé. Les attributs que vous avez préalablement paramétrés dans le profil de station matérielle font désormais partie de la station matérielle elle-même.
 
 ### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>Modern POS pour Windows avec une station matérielle IPC (intégrée)
 
@@ -482,7 +481,7 @@ Cette configuration est la configuration la plus courante pour les registres de 
 1.  Créez un profil matériel où tous les périphériques obligatoires sont configurés.
 2.  Mappez le profil matériel sur le registre de PDV.
 3.  Créez une station matérielle du type **Dédié** pour le magasin de vente au détail où le registre de PDV sera utilisé. La description est facultative. **Remarque :** vous n'avez pas besoin de définir aucune autre propriété de la station matérielle. Toutes les autres informations requises, telles que le profil matériel, proviennent du registre lui-même.
-4.  Cliquez sur **Commerce et vente au détail** &gt; **Informatique de vente au détail** &gt; **Programme de distribution**.
+4.  Cliquez sur **Vente au détail** &gt; **Informatique de vente au détail** &gt; **Programme de distribution**.
 5.  Sélectionnez le programme de distribution **1090** pour synchroniser le nouveau profil matériel avec le magasin. Cliquez sur **Exécuter maintenant** pour synchroniser les modifications avec le POS.
 6.  Sélectionnez le programme de distribution **1040** pour synchroniser la nouvelle station matérielle avec le magasin. Cliquez sur **Exécuter maintenant** pour synchroniser les modifications avec le POS.
 7.  Installez et activez Modern POS pour Windows.
@@ -501,7 +500,7 @@ Cette configuration peut être utilisée pour tous les clients Modern POS qui on
     -   **Numéro TEF du PDV**– L'ID du terminal TEF à utiliser lorsque les autorisations TEF sont envoyées. Cet ID est fourni par l'organisme qui traite les cartes de crédit.
     -   **Nom du package** – Le package de station matérielle à utiliser lorsque la station matérielle est déployée.
 
-4.  Cliquez sur **Commerce et vente au détail** &gt; **Informatique de vente au détail** &gt; **Programme de distribution**.
+4.  Cliquez sur **Vente au détail** &gt; **Informatique de vente au détail** &gt; **Programme de distribution**.
 5.  Sélectionnez le programme de distribution **1090** pour synchroniser le nouveau profil matériel avec le magasin. Cliquez sur **Exécuter maintenant** pour synchroniser les modifications avec le POS.
 6.  Sélectionnez le programme de distribution **1040** pour synchroniser la nouvelle station matérielle avec le magasin. Cliquez sur **Exécuter maintenant** pour synchroniser les modifications avec le POS.
 7.  Installez la station matérielle. Pour plus d'informations sur l'installation de la station matérielle, voir [Installation et configuration de la station matérielle de vente au détail](retail-hardware-station-configuration-installation.md).
@@ -524,12 +523,12 @@ Cette configuration peut être utilisée pour tous les clients Modern POS qui pa
     -   **Nom d'hôte** – Le nom de l'ordinateur hôte où la station matérielle est exécutée.
     -   **Description** – Texte qui permet d'identifier la station matérielle, comme **Retours** ou **Avant du magasin**.
     -   **Port** – Le port à utiliser pour la station matérielle, pour qu'elle communique avec le client Modern POS.
-    -   **Profil matériel** – Pour les stations matérielles partagées, chaque station matérielle doit avoir un profil matériel. Les profils matériels peuvent être partagés entre les stations matérielles, mais ils doivent être mis en correspondance avec chacune. En outre, il est recommandé d'utiliser les équipes partagées lorsque plusieurs périphériques utilisent le même station matérielle partagée. Pour configurer une équipe partagée, cliquez sur **Commerce et vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage POS** &gt; **Profils POS** &gt; **Profils du matériel**. Pour chaque profil matériel partagé, sélectionnez le tiroir-caisse, puis définissez l'option **Tiroir-caisse partagé par l'équipe de travail** sur **Oui**.
+    -   **Profil matériel** – Pour les stations matérielles partagées, chaque station matérielle doit avoir un profil matériel. Les profils matériels peuvent être partagés entre les stations matérielles, mais ils doivent être mis en correspondance avec chacune. En outre, il est recommandé d'utiliser les équipes partagées lorsque plusieurs périphériques utilisent le même station matérielle partagée. Pour configurer une équipe partagée, cliquez sur **Vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage POS** &gt; **Profils POS** &gt; **Profils du matériel**. Pour chaque profil matériel partagé, sélectionnez le tiroir-caisse, puis définissez l'option **Tiroir-caisse partagé par l'équipe de travail** sur **Oui**.
     -   **Numéro TEF du PDV**– L'ID du terminal TEF à utiliser lorsque les autorisations TEF sont envoyées. Cet ID est fourni par l'organisme qui traite les cartes de crédit.
     -   **Nom du package** – Le package de station matérielle à utiliser lorsque la station matérielle est déployée.
 
 4.  Répétez les étapes 2 et 3 pour chaque station matérielle supplémentaire requise dans le magasin.
-5.  Cliquez sur **Commerce et vente au détail** &gt; **Informatique de vente au détail** &gt; **Programme de distribution**.
+5.  Cliquez sur **Vente au détail** &gt; **Informatique de vente au détail** &gt; **Programme de distribution**.
 6.  Sélectionnez le programme de distribution **1090** pour synchroniser le nouveau profil matériel avec le magasin. Cliquez sur **Exécuter maintenant** pour synchroniser les modifications avec le POS.
 7.  Sélectionnez le programme de distribution **1040** pour synchroniser la nouvelle station matérielle avec le magasin. Cliquez sur **Exécuter maintenant** pour synchroniser les modifications avec le POS.
 8.  Installez la station matérielle sur chaque ordinateur hôte que vous avez configuré dans les étapes 2 et 3. Pour plus d'informations sur l'installation de la station matérielle, voir [Installation et configuration de la station matérielle de vente au détail](retail-hardware-station-configuration-installation.md).
@@ -542,7 +541,7 @@ Cette configuration peut être utilisée pour tous les clients Modern POS qui pa
 14. Sélectionnez la station matérielle à utiliser, puis cliquez sur **Jumeler**.
 15. Répétez l'étape 14 pour chaque station matérielle utilisée par Modern POS.
 16. Une fois que toutes les stations matérielles requises sont jumelées, cliquez sur **Fermer**.
-17. Dans la page de sélection de station matérielle, cliquez sur la station matérielle récemment sélectionnée pour la rendre active. **Remarque :** si les périphériques utilisent souvent différentes stations matérielles, nous vous recommandons de configurer Modern POS pour inviter les caissiers à sélectionner une station matérielle lorsqu'ils commencent le processus de soumission. Cliquez sur **Commerce et vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage du PDV** &gt; **Registres**. Sélectionnez le registre, puis définissez l'option **Sélectionner à la soumission** sur **Oui**. Utilisez le programme de distribution **1090** pour synchroniser les modifications avec la base de données des canaux.
+17. Dans la page de sélection de station matérielle, cliquez sur la station matérielle récemment sélectionnée pour la rendre active. **Remarque :** si les périphériques utilisent souvent différentes stations matérielles, nous vous recommandons de configurer Modern POS pour inviter les caissiers à sélectionner une station matérielle lorsqu'ils commencent le processus de soumission. Cliquez sur **Vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage POS** &gt; **Caisses enregistreuses**. Sélectionnez le registre, puis définissez l'option **Sélectionner à la soumission** sur **Oui**. Utilisez le programme de distribution **1090** pour synchroniser les modifications avec la base de données des canaux.
 
 ## <a name="extensibility"></a>Extensibilité
 Pour plus d'informations sur les scénarios d'extensibilité pour la station matérielle, voir [Extensibilité des stations matérielles](dev-itpro/hardware-station-extensibility.md).
@@ -575,7 +574,7 @@ Conformément aux normes de sécurité en vigueur, les paramètres suivants doiv
 **Remarque :** il est indispensable de consulter les recommandations de sécurité pour IIS et les besoins du secteur des cartes de paiement (PCI).
 
 ## <a name="peripheral-simulator"></a>Simulateur périphérique
-Pour plus d'informations, voir [Simulateur périphérique de vente au détail](retail-peripheral-simulator.md).
+Pour plus d'informations, voir [Simulateur périphérique de vente au détail](dev-itpro/retail-peripheral-simulator.md).
 
 ## <a name="microsofttested-peripheral-devices"></a>Périphériques testés par Microsoft
 ### <a name="ipc-built-in-hardware-station"></a>Station matérielle IPC (intégrée)
@@ -806,7 +805,7 @@ Les périphériques suivants ont été testés à l'aide d'une station matériel
 <a name="see-also"></a>Voir également :
 --------
 
-[Simulateur périphérique de vente au détail](retail-peripheral-simulator.md)
+[Simulateur périphérique de vente au détail](dev-itpro/retail-peripheral-simulator.md)
 
 
 

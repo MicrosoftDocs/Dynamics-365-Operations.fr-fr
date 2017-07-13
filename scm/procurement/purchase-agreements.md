@@ -1,16 +1,16 @@
 ---
-title: Contrats d&quot;achat
-description: "Cet article fournit des informations sur les contrats d&quot;achat. Un contrat d&quot;achat est un contrat par lequel une organisation s&quot;engage à acheter une quantité ou un montant spécifique au moyen de plusieurs commandes fournisseur sur une certaine période. En échange de cet engagement, l&quot;acheteur a droit à des prix spéciaux et des remises."
+title: Contrats d'achat
+description: "Cet article fournit des informations sur les contrats d'achat. Un contrat d'achat est un contrat par lequel une organisation s'engage à acheter une quantité ou un montant spécifique au moyen de plusieurs commandes fournisseur sur une certaine période. En échange de cet engagement, l'acheteur a droit à des prix spéciaux et des remises."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11634
 ms.assetid: 8ac20adf-7412-4929-be8c-aaedf23a76ad
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c100bd34725c67710d0f473a001c73705600ba79
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 4266ba2b19c3bd31a10301dd2290cd4b4fa53bdb
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -80,7 +80,7 @@ Lorsque vous confirmez un contrat d'achat, la version actuelle du contrat d'acha
 Lorsque vous créez un CF, vous pouvez y appliquer un contrat d'achat. Les informations des termes de l'accord, telles que les conditions de paiement, les conditions de livraison, ainsi que l'adresse de livraison, sont ensuite copiées dans l'en-tête du CF. Si le CF contient une ou plusieurs lignes pour les produits ou les catégories qui sont couvertes par le contrat d'achat, les prix et les remises du contrat d'achat sont utilisés pour ces lignes. Le montant ou la quantité de la ligne de commande est stocké sur l'engagement et contribue à l'exécution de l'engagement dans le contrat d'achat. La même commande fournisseur peut inclure aussi bien des lignes qui ne sont pas associées à un contrat d'achat que des lignes associées à un engagement pour un contrat d'achat.  
 
 Vous pouvez sélectionner un contrat d'achat uniquement lorsque vous créez un CF. Vous ne pouvez pas sélectionner de contrat d'achat une fois que la CF est créée.  
-Dans certains cas où les commandes fournisseur sont créées indirectement, vous pouvez contrôler si Microsoft Dynamics 365 for Operations doit lancer une recherche automatique des contrats d'achat applicables. Par exemple, vous pouvez procéder ainsi lorsque vous confirmez automatiquement des commandes fournisseur prévisionnelles ou lorsque vous créez des commandes fournisseur basées sur les commandes client.
+Dans certains cas où les commandes fournisseur sont créées indirectement, vous pouvez contrôler si Finance and Operations doit lancer une recherche automatique des contrats d'achat applicables. Par exemple, vous pouvez procéder ainsi lorsque vous confirmez automatiquement des commandes fournisseur prévisionnelles ou lorsque vous créez des commandes fournisseur basées sur les commandes client.
 
 ## <a name="purchase-agreements-and-intercompany-trade"></a>Contrats d'achat et suivi intersociétés
 Les relations commerciales intersociétés peuvent être créées entre les comptes fournisseur et les comptes client appartenant à différentes entités juridiques. Lorsqu'une commande client ou une commande fournisseur est créée pour une des parties, une chaîne de commandes intersociétés est créée. Dans la chaîne de commande, la commande client et la commande fournisseur sont créées dans les entités juridiques appropriées.  

@@ -1,15 +1,15 @@
 ---
 title: "Paramétrer la sécurité du contenu Power BI Analyse du contrôle de gestion"
-description: "Cette rubrique explique comment propager la sécurité au niveau des accès dans le contrôle de gestion à la sécurité au niveau des lignes dans Microsoft Power BI. Cette fonctionnalité permet de garantir que les utilisateurs n&quot;affichent que les données Power BI auxquelles ils sont autorisés à accéder."
+description: "Cette rubrique explique comment propager la sécurité au niveau des accès dans le contrôle de gestion à la sécurité au niveau des lignes dans Microsoft Power BI. Cette fonctionnalité permet de garantir que les utilisateurs n'affichent que les données Power BI auxquelles ils sont autorisés à accéder."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: Operations
+ms.search.scope: Operations, UnifiedOperations
 ms.custom: 270294
 ms.assetid: 3a7ba8b0-ac57-4159-9cd8-4308f6021f36
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: cd9e85a54335f321d78a480d1f8ab345b9c8a00b
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: ea4ee6cfdca6e65f289db32ca41305a39b186033
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -51,10 +51,10 @@ Pour propager la sécurité au niveau des accès à Power BI, le propriétaire 
 
     [![Ajout de membres](https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-2.png)](https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-2.png)
 
-Les utilisateurs qui sont ajoutés au rôle **Contrôleur d'objet de coût** ne voient que les données auxquelles ils sont autorisés, conformément à la définition donnée dans la hiérarchie organisationnelle au niveau des accès du contrôle de gestion. **Remarque :** la sécurité au niveau des lignes s'applique aux vignettes et aux états dans Microsoft Dynamics 365 for Operations qui sont intégrés à partir de Power BI.
+Les utilisateurs qui sont ajoutés au rôle **Contrôleur d'objet de coût** ne voient que les données auxquelles ils sont autorisés, conformément à la définition donnée dans la hiérarchie organisationnelle au niveau des accès du contrôle de gestion. **Remarque :** la sécurité au niveau des lignes s'applique aux vignettes et aux états dans Microsoft Dynamics 365 for Finance and Operations qui sont intégrés à partir de Power BI.
 
 ## <a name="updating-security"></a>Mise à jour de la sécurité
-Si la sécurité au niveau des accès dans le contrôle de gestion subit des mises à jour et que vous souhaitez que Power BI en tienne compte, vous devez mettre à jour le magasin d'entités pour le contenu Power BI **Analyse du contrôle de gestion**. Une fois la mise à jour du magasin d'entités effectuée à partir de Dynamics 365 for Operations, vous devez mettre à jour les artefacts sur PowerBI.com. Pour plus d'informations sur la procédure de mise à jour d'un magasin d'entités, voir [Mettre à jour le magasin d'entités](power-bi-integration-entity-store.md#update-entity-store). Le propriétaire du contenu Power BI **Analyse du contrôle de gestion** doit également effectuer une mise à jour du magasin d'entités si de nouveaux utilisateurs obtiennent l'accès à la hiérarchie organisationnelle. En outre, le propriétaire doit ajouter les nouveaux utilisateurs au rôle **Contrôleur d'objet de coût** sur PowerBI.com, de sorte que la sécurité au niveau des lignes s'applique à eux.
+Si la sécurité au niveau des accès dans le contrôle de gestion subit des mises à jour et que vous souhaitez que Power BI en tienne compte, vous devez mettre à jour le magasin d'entités pour le contenu Power BI **Analyse du contrôle de gestion**. Une fois la mise à jour du magasin d'entités effectuée à partir de Finance and Operations, vous devez mettre à jour les artefacts sur PowerBI.com. Pour plus d'informations sur la procédure de mise à jour d'un magasin d'entités, voir [Mettre à jour le magasin d'entités](power-bi-integration-entity-store.md#update-entity-store). Le propriétaire du contenu Power BI **Analyse du contrôle de gestion** doit également effectuer une mise à jour du magasin d'entités si de nouveaux utilisateurs obtiennent l'accès à la hiérarchie organisationnelle. En outre, le propriétaire doit ajouter les nouveaux utilisateurs au rôle **Contrôleur d'objet de coût** sur PowerBI.com, de sorte que la sécurité au niveau des lignes s'applique à eux.
 
 ## <a name="disabling-security"></a>Désactivation de la sécurité
 Supposons que votre organisation souhaite restreindre l'accès aux données. Si, pour quelque raison, les paramètres de sécurité sont désactivés lorsque vous exécutez le contrôle de gestion, le propriétaire doit ajouter des utilisateurs au rôle **Contrôleur de gestion** dans Power BI. Si vous passez la sécurité de l'état activé à l'état désactivé, il est bon de supprimer des utilisateurs du rôle **Contrôleur d'objet de coût**. Et inversement si vous réactivez la sécurité. Les utilisateurs peuvent appartenir aux deux rôles. L'accès conjoint est la réunion des deux rôles. Dans le cas du contenu Power BI **Analyse du contrôle de gestion**, les utilisateurs qui disposent de l'accès conjoint ont un accès sans restriction aux données. Si votre objectif est de restreindre les accès, les utilisateurs doivent être affectés uniquement au rôle **Contrôleur d'objet de coût**. Ces mises à jour de sécurité au niveau des lignes prennent effet immédiatement. Les utilisateurs affectés doivent actualiser leur navigateur.

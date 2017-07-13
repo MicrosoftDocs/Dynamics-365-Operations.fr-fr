@@ -1,16 +1,16 @@
 ---
-title: "Contrôler le travail d&quot;entrepôt à l&quot;aide de modèles de travail et d&quot;instructions d&quot;emplacement"
-description: "Cet article décrit comment utiliser les modèles de travail et les instructions d&quot;emplacement pour déterminer comment et à quel endroit effectuer les travaux dans l&quot;entrepôt."
+title: "Contrôler le travail d'entrepôt à l'aide de modèles de travail et d'instructions d'emplacement"
+description: "Cet article décrit comment utiliser les modèles de travail et les instructions d'emplacement pour déterminer comment et à quel endroit effectuer les travaux dans l'entrepôt."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WHSLocDirFailure, WHSLocDirHint, WHSLocDirTable, WHSLocDirTableUOM, WHSRFMenuItem, WHSWork, WHSWorkClass, WHSWorkPool, WHSWorkTemplateTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 72921
 ms.assetid: 377ab8af-5b0c-4b5e-a387-06ac1e1820c0
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 9d0ad4f64ee84da4e90dfa1525ebb5ff9fec4063
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: f8bcdcf70089aaed06ba0f88cdbec8dfdf9121d1
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 
 Cet article décrit comment utiliser les modèles de travail et les instructions d'emplacement pour déterminer comment et à quel endroit effectuer les travaux dans l'entrepôt.
 
-Les instructions que les magasiniers reçoivent sur un appareil mobile sont déterminées par les modèles de travail que vous paramétrez dans Microsoft Dynamics 365 for Operations afin de définir les divers processus et tâches d'entrepôt. Les modèles de travail déterminent la manière dont le travail est effectuée pour chaque processus d'entrepôt. En liant une instruction d'emplacement à des modèles de travail, vous pouvez garantir que le travail se produit dans des zones physiques spécifiques des entrepôts.
+Les instructions que les magasiniers reçoivent sur un appareil mobile sont déterminées par les modèles de travail que vous paramétrez dans Microsoft Dynamics 365 for Finance and Operations afin de définir les divers processus et tâches d'entrepôt. Les modèles de travail déterminent la manière dont le travail est effectuée pour chaque processus d'entrepôt. En liant une instruction d'emplacement à des modèles de travail, vous pouvez garantir que le travail se produit dans des zones physiques spécifiques des entrepôts.
 
 ## <a name="work-templates"></a>Modèles de travail
 La page **Modèles de travail** vous permet de définir les opérations de travail qui doivent être effectuées dans l'entrepôt. Généralement, les opérations de travail d'entrepôt se composent d'une paire d'actions : un magasinier prend un stock disponible dans un emplacement et le range dans un autre emplacement. 
@@ -57,7 +57,7 @@ Quant aux modèles de travail, vous pouvez paramétrer une requête pour déterm
 
 Les lignes d'instruction d'emplacement définissent des restrictions supplémentaires sur l'application des règles de recherche d'emplacement. Vous pouvez spécifier une quantité minimale et une quantité maximale auxquelles l'instruction doit s'appliquer, vous pouvez spécifier que l'instruction doit concerner une unité de stock spécifique. Par exemple, si l'unité de mesure est en palettes, les articles en palettes peuvent être rangés dans un emplacement spécifique. Vous pouvez également indiquer si la quantité peut être fractionnée entre plusieurs emplacements. Comme l'en-tête des instructions de l'emplacement, chaque ligne d'instruction d'emplacement possède un numéro de souche qui détermine l'ordre des lignes dans lequel les lignes sont évaluées. 
 
-Les instructions d'emplacement ont un niveau de détail supplémentaire : *actions d'instruction d'emplacement*. Vous pouvez définir plusieurs actions d'instruction d'emplacement pour chaque ligne. De nouveau, un numéro de souche est utilisé pour déterminer l'ordre dans lequel les actions sont évaluées. À ce niveau, vous pouvez paramétrer une requête pour définir la manière dont rechercher le meilleur emplacement dans l'entrepôt. Vous pouvez également utiliser les paramètres **Stratégie**prédéfinis pour rechercher un emplacement optimal.
+Les instructions d'emplacement ont un niveau de détail supplémentaire : *actions d'instruction d'emplacement*. Vous pouvez définir plusieurs actions d'instruction d'emplacement pour chaque ligne. De nouveau, un numéro de souche est utilisé pour déterminer l'ordre dans lequel les actions sont évaluées. À ce niveau, vous pouvez paramétrer une requête pour définir la manière dont rechercher le meilleur emplacement dans l'entrepôt. Vous pouvez également utiliser les paramètres **Stratégie** prédéfinis pour rechercher un emplacement optimal.
 
 ### <a name="example-of-the-use-of-location-directives"></a>Exemple d'utilisation des instructions d'emplacement
 

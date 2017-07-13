@@ -3,14 +3,14 @@ title: "Création de commandes fournisseur"
 description: "Cet article décrit les processus et les options lorsque vous créez manuellement une commande fournisseur."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 93053
 ms.assetid: 25b1c9f1-20f8-4cf5-b87c-876e32f68846
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c6c6b40d8934d1059c54678df8d4fc6530db1b24
+ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
+ms.openlocfilehash: fbf5337ac41ceae6e911c056db5226c8ed1cefb0
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -29,6 +29,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="create-purchase-orders"></a>Création de commandes fournisseur
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 Cet article décrit les processus et les options lorsque vous créez manuellement une commande fournisseur.
@@ -70,7 +72,7 @@ Parfois, vous pouvez diviser la quantité que vous avez commandée, afin que les
 Les frais peuvent être ajoutés automatiquement aux lignes de CF si les frais automatiques ont été définis pour le fournisseur ou le groupe de frais du fournisseur et pour l'article ou le groupe de frais de l'article. Toutefois, en règle générale, les frais sont ajoutés manuellement au niveau de la ligne de commande. Pour ajouter des frais, ouvrez la page **Tenir les frais à jour** à l’aide de l'action **Tenir les frais à jour** sur le menu **Finances** de la vue **Lignes**. L’avantage de l’ajout de frais directement au niveau de la ligne de commande est que les frais peuvent être affectés comme un coût de stock. Pour définir des codes de frais sur un coût du produit de compte, utilisez l'option de débit **Article**. Ces types de frais doivent être alloués à partir de l’en-tête de CF pour les lignes avant la confirmation de la commande. Par exemple, vous pouvez souhaiter allouer des frais en fonction de la quantité de chaque ligne. La catégorie de frais affecte également la façon dont les charges sont comptabilisées. Par exemple, les frais fixes spécifient un montant fixe et les frais en pourcentage sont calculés sous la forme d’un pourcentage du montant HT de la ligne de commande. Les CF peuvent être affectées à un chargement, qui peut inclure une estimation de la dépense prévue pour le coût de transport. Vous pouvez réaffecter cette dépense du chargement aux lignes de CF.
 
 ## <a name="purchase-order-actions"></a>Actions liées aux commandes fournisseur
-Après avoir ajouté l’en-tête et les lignes à la CF, vous devez souvent effectuer des étapes supplémentaires avant que la commande soit prête à être confirmée. Étant donné que plusieurs options sont disponibles, il peut s’avérer utile d’utiliser [Recherche d'actions](/dynamics365/operations/get-started/action-search) pour trouver l’article de menu approprié.  
+Après avoir ajouté l’en-tête et les lignes à la CF, vous devez souvent effectuer des étapes supplémentaires avant que la commande soit prête à être confirmée. Étant donné que plusieurs options sont disponibles, il peut s’avérer utile d’utiliser [Recherche d'actions](/dynamics365/unified-operations/fin-and-ops/get-started/action-search) pour trouver l’article de menu approprié.  
 
 Vous pouvez configurer des produits de la commande afin qu’ils aient des articles supplémentaires. Les articles supplémentaires sont des produits qui doivent ou peuvent être achetés avec d’autres produits. Les produits supplémentaires peuvent être ajoutés comme produits d’accompagnement gratuitement, ou vous pouvez décider de les ajouter à la commande ou non. Vous pouvez vérifier les articles supplémentaires après l'ajout de chaque ligne de commande. Toutefois, il sera sans doute plus judicieux de passer en revue et d'ajouter des articles supplémentaires pertinents pour toutes les lignes de commande à l’aide de la page **Articles supplémentaires**, que vous pouvez ouvrir à partir du volet Action.  
 
@@ -94,7 +96,7 @@ Il se peut que vous deviez retarder l’achèvement d’une CF. Par exemple, vou
 
 [Accusé de réception de marchandises et commandes fournisseur](product-receipt-against-purchase-orders.md)
 
-[Vue d'ensemble des factures fournisseur](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+[Vue d'ensemble des factures fournisseur](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview)
 
 
 

@@ -3,15 +3,15 @@ title: "Stratégies de rapprochement à trois facteurs"
 description: "Cet article fournit des exemples de rapprochement à trois facteurs."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
-ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 2761
 ms.assetid: 70f3cb1a-18b7-4474-95ec-28b2410dd8f8
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b9f66a9a907cf01046c78677a3f1d55f112fa8c7
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 8ae07088fec05ad416ce1891dd0d0ecd489364ca
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -66,7 +66,7 @@ Les stratégies de rapprochement de factures de cet exemple aident les personnes
 1.  Sammy, travailleur dans le département Réception de Fabrikam, reçoit la quantité totale de machines qui sont expédiées par Contoso. Il entre la quantité 5 sur un accusé de réception de marchandises. Étant donné que la commande fournisseur a été entièrement reçue, le statut de la commande fournisseur passe à Reçu.
 2.  April, coordinatrice des Achats chez Fabrikam, entre et vérifie la facture envoyée par Contoso. Elle vérifie les informations suivantes :
     -   Pour les articles nécessitant un rapprochement à trois facteurs, la quantité de la ligne de facture correspond à la quantité reçue. La quantité reçue est indiquée sur l'accusé de réception de marchandises mis en correspondance avec la facture.
-    -   Pour les articles nécessitant rapprochement à deux ou trois facteurs, les prix figurant sur la ligne de facture sont compris dans les tolérances définies dans Microsoft Dynamics 365 for Operations. Cela inclut les types de rapprochement de prix suivants :
+    -   Pour les articles nécessitant un rapprochement à deux ou trois facteurs, les prix figurant sur la ligne de facture sont compris dans les tolérances définies dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Cela inclut les types de rapprochement de prix suivants :
         -   Rapprochement des prix unitaires nets – Le prix unitaire net de la ligne de facture correspond au prix unitaire net de la ligne de commande fournisseur et est compris dans le pourcentage de tolérance. Dans cet exemple, la tolérance de prix unitaire net est de 8 %.
         -   Rapprochement des prix totaux – Le montant net de la ligne de facture correspond au montant net de la ligne de commande fournisseur et est compris dans le pourcentage et/ou le montant de tolérance. Dans cet exemple, la tolérance de rapprochement des prix totaux est de +15 %.
 
@@ -79,7 +79,7 @@ La facture papier de Contoso contient les informations suivantes.
 | Taxes                         |          |            | 0,00       |
 | Total                       |          |            | 44 500,00  |
 
-Dans Microsoft Dynamics 365 for Operations, la ligne de facture inclut les informations suivantes.
+Dans Finance and Operations, la ligne de facture inclut les informations suivantes.
 
 | numéro d'article                 | Quantité | Prix unitaire | Montant net de ligne | Stratégie de rapprochement    | Correspondance de quantités des accusés de réception de marchandises | Correspondance de prix | Correspondance de prix total |
 |-----------------------------|----------|------------|-----------------|--------------------|--------------------------------|-------------|-------------------|
@@ -115,7 +115,7 @@ Les stratégies de rapprochement de factures de cet exemple aident les personnes
 1.  Les articles arrivent. Sammy, travailleur dans le département Réception de la division Malaisie de Fabrikam, est interrompu et ne valide pas l'accusé de réception de marchandises immédiatement.
 2.  April, coordinatrice des Achats chez Fabrikam, entre et vérifie la facture envoyée par Contoso. Elle vérifie les informations suivantes :
     -   Pour les articles nécessitant un rapprochement à trois facteurs, la quantité de la ligne de facture correspond à la quantité reçue. La quantité reçue est indiquée sur l'accusé de réception de marchandises mis en correspondance avec la facture.
-    -   Pour les articles nécessitant un rapprochement à deux ou trois facteurs, les prix figurant sur la ligne de facture sont compris dans les tolérances définies dans Microsoft Dynamics 365 for Operations. Cela inclut les types de rapprochement de prix suivants :
+    -   Pour les articles nécessitant un rapprochement à deux ou trois facteurs, les prix figurant sur la ligne de facture sont compris dans les tolérances définies dans Finance and Operations. Cela inclut les types de rapprochement de prix suivants :
         -   Rapprochement des prix unitaires nets – Le prix unitaire net de la ligne de facture correspond au prix unitaire net de la ligne de commande fournisseur et est compris dans le pourcentage de tolérance. Dans cet exemple, la tolérance de prix unitaire net est de 2 %.
         -   Rapprochement des prix totaux – Le montant net de la ligne de facture correspond au montant net de la ligne de commande fournisseur et est compris dans le pourcentage et/ou le montant de tolérance. Dans cet exemple, la tolérance de rapprochement des prix totaux est de +10 %.
 
@@ -128,7 +128,7 @@ La facture papier de Contoso contient les informations suivantes.
 | Lecteur USB             | 200      | 10,05      | 2 010,00   |
 | Facture totale         |          |            | 7 092,00   |
 
-Dans Microsoft Dynamics 365 for Operations, la ligne de facture inclut les informations suivantes.
+Dans Finance and Operations, la ligne de facture inclut les informations suivantes.
 
 | numéro d'article           | Quantité | Prix unitaire | Montant net de ligne | Stratégie de rapprochement    | Correspondance de quantités des accusés de réception de marchandises | Correspondance de prix | Correspondance de prix total |
 |-----------------------|----------|------------|-----------------|--------------------|--------------------------------|-------------|-------------------|

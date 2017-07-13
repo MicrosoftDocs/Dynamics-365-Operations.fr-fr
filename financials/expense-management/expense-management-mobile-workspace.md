@@ -1,6 +1,6 @@
 ---
 title: "Espace de travail mobile pour la gestion des dépenses"
-description: "Cette rubrique fournit des informations sur l&quot;espace de travail pour la gestion des dépenses disponible dans l&quot;application mobile Microsoft Dynamics 365 for Operations. Cet espace de travail permet aux utilisateurs de capturer et charger une réception, afin de pouvoir l&quot;associer à un état de dépenses ultérieurement. L&quot;espace de travail mobile permet également aux utilisateurs de créer rapidement une ligne de dépense à l&quot;aide d&quot;une réception associée."
+description: "Cette rubrique fournit des informations sur l&quot;espace de travail pour la gestion des dépenses disponible dans l&quot;application mobile Microsoft Dynamics 365 for Finance and Operations. Cet espace de travail permet aux utilisateurs de capturer et charger une réception, afin de pouvoir l&quot;associer à un état de dépenses ultérieurement. L&quot;espace de travail mobile permet également aux utilisateurs de créer rapidement une ligne de dépense à l&quot;aide d&quot;une réception associée."
 author: annbe
 manager: AnnBe
 ms.date: 04/10/2017
@@ -18,10 +18,10 @@ ms.author: annbe
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 4e3202de8e5288bbd52e8c28922374de147cc99f
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 0e52d1c5dde7f79c4a8ac5ac2d9c3b25bba9c2cd
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,14 +31,14 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Cette rubrique fournit des informations sur l'espace de travail pour la gestion des dépenses disponible dans l'application mobile Microsoft Dynamics 365 for Operations. Cet espace de travail permet aux utilisateurs de capturer et charger une réception, afin de pouvoir l'associer à un état de dépenses ultérieurement. L'espace de travail mobile permet également aux utilisateurs de créer rapidement une ligne de dépense à l'aide d'une réception associée.
+Cette rubrique fournit des informations sur l'espace de travail pour la gestion des dépenses disponible dans l'application mobile Microsoft Dynamics 365 for Finance and Operations. Cet espace de travail permet aux utilisateurs de capturer et charger une réception, afin de pouvoir l'associer à un état de dépenses ultérieurement. L'espace de travail mobile permet également aux utilisateurs de créer rapidement une ligne de dépense à l'aide d'une réception associée.
 
 <a name="overview-of-the-expense-management-mobile-workspace"></a>Vue d'ensemble de l'espace de travail mobile pour la gestion des dépenses
 ---------------------------------------------------
 
 Plusieurs organisations exigent qu'une copie du reçu soit ajoutée à un état de dépenses de voyage ou commerciales afin que l'employé soit remboursé. L'espace de travail mobile **Gestion des dépenses** permet aux utilisateurs de créer rapidement de nouvelles lignes de dépense sur l'appareil mobile de leur choix en joignant la photo du reçu. Alternativement, les utilisateurs peuvent prendre en photo le reçu puis l'associer à un état de dépenses ultérieurement. Spécifiquement, l'espace de travail mobile **Gestion des dépenses** permet à l'utilisateur de :
 
--   Prendre une photo d'un reçu, et la télécharger dans Microsoft Dynamics 365 for Operations. Un utilisateur peut ensuite joindre cette photo à un état de dépenses ultérieurement.
+-   Prendre une photo d'un reçu, et la télécharger dans Microsoft Dynamics 365 for Finance and Operations. Un utilisateur peut ensuite joindre cette photo à un état de dépenses ultérieurement.
 -   Charger un fichier contenant le reçu capturé. Un utilisateur peut ensuite joindre ce fichier à un état de dépenses ultérieurement.
 -   Créer une nouvelle ligne de dépense à l'aide d'un reçu joint. Un utilisateur peut alors ajouter une ligne à un état de dépenses ultérieurement, et l'envoyer pour approbation et remboursement.
 
@@ -64,7 +64,7 @@ Avant de mettre en œuvre l'espace de travail mobile **Gestion des dépenses**, 
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Operations version 1611 avec la mise à jour de plateforme 3 ou ultérieure.</td>
 <td>Administrateur système</td>
-<td>Si vous n'avez pas encore déployé Dynamics 365 for Operations dans votre organisation, votre administrateur système doit consulter la rubrique <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">Déployer l'environnement de démonstration de Microsoft Dynamics 365 for Operations</a>.</td>
+<td>Si vous n'avez pas encore déployé Dynamics 365 for Finance and Operations dans votre organisation, votre administrateur système doit consulter la rubrique <a href="/dynamics365/unified-operations/dev-itpro/deployment/deploy-demo-environment">Déployer l'environnement de démonstration de Microsoft Dynamics 365 for Finance and Operations</a>.</td>
 </tr>
 <tr class="even">
 <td>Le KB 4019015 doit être implémenté.</td>
@@ -72,16 +72,16 @@ Avant de mettre en œuvre l'espace de travail mobile **Gestion des dépenses**, 
 <td>Le KB 4019015 (mise à jour X++ ou correctif de métadonnées) contient les quatre espaces de travail mobiles pour la gestion de la chaîne d'approvisionnement. Pour implémenter le KB 4019015, un administrateur système doit procéder comme suit :
 <ol>
 <li>Téléchargez le KB 4019015 depuis Microsoft Dynamics Lifecycle Services (LCS).</li>
-<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installez le correctif de métadonnées</a>.</li>
-<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Créez un module déployable</a> contenant le modèle <strong>ApplicationSuite</strong> et <strong>ExpenseMobile</strong>, et téléchargez le module déployable vers LCS.</li>
-<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Appliquez le module déployable</a> à votre système Dynamics 365 for Operations.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installez le correctif de métadonnées</a>.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Créez un module déployable</a> contenant le modèle <strong>ApplicationSuite</strong> et <strong>ExpenseMobile</strong>, et téléchargez le module déployable vers LCS.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Appliquez le module déployable</a> à votre système Finance and Operations.</li>
 </ol></td>
 </tr>
 <tr class="odd">
-<td>L'espace de travail mobile <strong>Gestion des dépenses</strong> doit être publié sur l'application mobile Dynamics 365 for Operations.</td>
+<td>L'espace de travail mobile <strong>Gestion des dépenses</strong> doit être publié sur l'application mobile Finance and Operations.</td>
 <td>Administrateur système</td>
 <td><ol>
-<li>Démarrez Dynamics 365 for Operations dans votre navigateur.</li>
+<li>Démarrez Finance and Operations dans votre navigateur.</li>
 <li>Dans la page <strong>Paramètres système</strong>, sélectionnez <strong>Gestion des espaces de travail mobiles</strong>.</li>
 <li>Sélectionnez l'espace de travail <strong>Gestion des dépenses</strong>.</li>
 <li>Cliquez sur <strong>Publier l'espace de travail mobile</strong>.</li>
@@ -90,17 +90,17 @@ Avant de mettre en œuvre l'espace de travail mobile **Gestion des dépenses**, 
 </tbody>
 </table>
 
-## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>Télécharger et installer l'application mobile Dynamics 365 for Operations
-Dans votre magasin d'applications mobiles, téléchargez et installez l'application mobile Dynamics 365 for Operations.
+## <a name="download-and-install-the-finance-and-operations-mobile-app"></a>Télécharger et installer l'application mobile Finance and Operations
+Dans votre magasin d'applications mobiles, téléchargez et installez l'application mobile Finance and Operations.
 
--   Android - [Dynamics 365 for Operations dans Google Play Store](https://play.google.com/store/apps/details?id=com.microsoft.dynamics365.operations.mobile)
--   Pour iPhone : [Dynamics 365 for Operations dans iTunes](https://itunes.apple.com/us/app/dynamics-365-for-operations/id1180836730?mt=8)
+-   Pour Android : [Finance and Operations - Entreposage dans le Google Play Store](https://play.google.com/store/apps/details?id=com.microsoft.dynamics365.operations.mobile)
+-   Pour iPhone : [Finance and Operations dans iTunes](https://itunes.apple.com/us/app/dynamics-365-for-operations/id1180836730?mt=8)
 
-## <a name="sign-in-to-the-dynamics-365-for-operations-mobile-app"></a>Connexion à l'application mobile Dynamics 365 for Operations
+## <a name="sign-in-to-the-finance-and-operations-mobile-app"></a>Connexion à l'application mobile Finance and Operations
 1.  Démarrez l'application sur votre appareil mobile.
-2.  Entrez votre URL Dynamics 365 for Operations.
+2.  Accédez à l'URL de Finance and Operations.
 3.  Entrez la société à laquelle vous vous connectez. Par exemple, entrez **USMF**.
-4.  Lorsque vous vous connectez pour la première fois, vous êtes invité à entrer le nom d'utilisateur et le mot de passe de votre compte Dynamics 365 for Operations. Entrez vos informations d'identification.
+4.  Lorsque vous vous connectez pour la première fois, vous êtes invité à entrer le nom d'utilisateur et le mot de passe de votre compte Finance and Operations. Entrez vos informations d'identification.
 5.  Une fois que vous êtes connecté, les espaces de travail disponibles pour votre société s'affichent. Notez que si votre administrateur système publie un nouvel espace de travail ultérieurement, vous pouvez l'extraire pour actualiser la liste des espaces de travail portables. 
 
 [![Extraire pour actualiser](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
@@ -122,11 +122,11 @@ Dans votre magasin d'applications mobiles, téléchargez et installez l'applicat
 ## <a name="quick-expense-entry-by-using-the-expense-management-mobile-workspace"></a>Entrer rapidement une dépense à l'aide de l'espace de travail mobile Gestion des dépenses
 1.  Sur votre appareil mobile, sélectionnez l'espace de travail **Gestion des dépenses**.
 2.  Sélectionnez **Entrée rapide de dépense**.
-3.  Sélectionnez la catégorie de la dépense. Vous verrez la liste des catégories de dépense dans votre application pour l'utilisation hors ligne. Par défaut, jusqu'à 50 éléments sont chargés, mais votre développeur peut modifier ce nombre. Pour plus d'informations, les développeurs doivent consulter [Plateforme mobile Dynamics 365 for Operations d'opérations](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform). Si votre catégorie ne figure pas dans la liste, sélectionnez **Rechercher** pour effectuer une recherche en ligne dans Dynamics 365 for Operations. Recherchez par catégorie de dépense, ou lancez une recherche par type de dépense.
+3.  Sélectionnez la catégorie de la dépense. Vous verrez la liste des catégories de dépense dans votre application pour l'utilisation hors ligne. Par défaut, jusqu'à 50 éléments sont chargés, mais votre développeur peut modifier ce nombre. Pour plus d'informations, les développeurs doivent consulter [Plateforme mobile Finance and Operations](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Si votre catégorie ne figure pas dans la liste, sélectionnez **Rechercher** pour effectuer une recherche en ligne dans Finance and Operations. Recherchez par catégorie de dépense, ou lancez une recherche par type de dépense.
 4.  Entrez la date de transaction de la dépense.
 5.  Facultatif : entrez le marchand pour la dépense.
 6.  Entrez le montant de la dépense.
-7.  Ssélectionnez la devise de la dépense. Vous verrez la liste des codes de devise dans votre application pour l'utilisation hors ligne. Par défaut, jusqu'à 400 dévises sont chargées, mais votre développeur peut modifier ce nombre. Pour plus d'informations, les développeurs doivent consulter [Plateforme mobile Dynamics 365 for Operations d'opérations](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform). Si votre dévise ne figure pas dans la liste, sélectionnez **Rechercher** pour effectuer une recherche en ligne dans Dynamics 365 for Operations. Recherchez par devise, ou lancez une rechercher par nom.
+7.  Ssélectionnez la devise de la dépense. Vous verrez la liste des codes de devise dans votre application pour l'utilisation hors ligne. Par défaut, jusqu'à 400 dévises sont chargées, mais votre développeur peut modifier ce nombre. Pour plus d'informations, les développeurs doivent consulter [Plateforme mobile Finance and Operations](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Si votre devise ne figure pas dans la liste, sélectionnez **Rechercher** pour effectuer une recherche en ligne dans Finance and Operations. Recherchez par devise, ou lancez une rechercher par nom.
 8.  Sélectionnez **Prendre une photo** ou **Choisir une image**.
 9.  Si vous avez sélectionné **Prendre une photo**, l'appareil-photo s'ouvre sur votre appareil mobile, pour vous permettre de prendre une photo du ticket de caisse. Lorsque vous avez terminé de prendre la photo, cliquez sur **Ajouter** pour accepter la photo.  ou si vous préférez **Choisir une image**, sélectionnez une image dans la liste.
 10. Sélectionnez **Terminé**.

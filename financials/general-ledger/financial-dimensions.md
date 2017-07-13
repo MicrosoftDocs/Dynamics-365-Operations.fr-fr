@@ -1,28 +1,27 @@
 ---
 title: "Dimensions financières"
-description: "Cet article décrit les différents types de dimensions financières et leurs paramétrages."
-author: RobinARH
+description: "Cette rubrique décrit les différents types de dimensions financières et leur configuration."
+author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ems.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: DimensionDetails, DimensionValueDetails, SysTranslationDetail
 audience: Application User
-ms.reviewer: RobinARH
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 25871
-ms.assetid: af54621c-c8be-4b72-b6df-dcf886c40ce4
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 01f189b8de3f0cc707dcc54f4cde75aed95b8e3f
+ms.sourcegitcommit: a0edbad63c51d111d7c8985aa7fdf7312da6149d
+ms.openlocfilehash: e82d53b3f6b4c8d3e2363f26576331e1d03434d9
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,53 +30,58 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+Cette rubrique explique les différents types de dimensions financières et leur configuration.
 
-Cet article décrit les différents types de dimensions financières et leurs paramétrages.
+La page **Dimensions financières** permet de créer les dimensions financières à utiliser en tant que segments de compte pour les plans de comptes partagés. Il existe deux types de dimensions financières : les dimensions personnalisées et les dimensions soutenues par une entité. Les dimensions personnalisées sont partagées dans les entités juridiques et les valeurs sont saisies et mises à jour par les utilisateurs. Pour les dimensions soutenues par une entité, les valeurs sont définies ailleurs dans le système, tels que les entités Clients ou Magasins. Certaines dimensions soutenues par l'entité sont partagées au sein des entités juridiques, tandis que d'autres dimensions soutenues par l'entité sont spécifiques à la société. 
 
-La page Dimensions financières permet de créer les dimensions financières à utiliser en tant que segments de compte pour les plans de comptes partagés. Il existe deux types de dimensions financières, les dimensions personnalisées et les dimensions soutenues par une entité. Les dimensions personnalisées sont partagées dans les entités juridiques et les valeurs sont saisies et mises à jour par l'utilisateur. Les dimensions soutenues par l'entité sont des dimensions dont les valeurs sont définies ailleurs dans le système, tels que les clients ou les magasins. Certaines dimensions soutenues par l'entité sont partagées au sein des entités juridiques, et certaines dimensions soutenues par l'entité sont spécifiques à la société. 
+Une fois les dimensions financières créées, la page **Valeurs de dimensions financières** permet d'affecter des propriétés supplémentaires à chacune d'elles. 
 
-Une fois les dimensions financières créées, la page Valeurs de dimensions financières permet d'affecter des propriétés supplémentaires à chacune d'elles. 
-
-Bien que vous puissiez utiliser les dimensions financières pour représenter les entités juridiques sans créer les entités juridiques dans Microsoft Dynamics 365 for Operations, les dimensions financières ne sont pas conçues pour répondre aux besoins opérationnels ou d'entreprise des entités juridiques. La fonctionnalité de comptabilité interunités dans Microsoft Dynamics 365 for Operations est conçue pour uniquement pour les écritures comptables créées par chaque transaction. 
+Vous pouvez utiliser des dimensions financières pour représenter les entités juridiques. Vous ne devez pas créer les entités juridiques de Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Toutefois, les dimensions financières ne sont pas conçues pour résoudre les exigences opérationnelles ou métier des entités juridiques. La fonctionnalité de comptabilité interunités dans Finance and Operations est conçue pour uniquement pour les écritures comptables créées par chaque transaction. 
 
 Avant de paramétrer les dimensions financières comme entités juridiques, évaluez vos processus entreprise dans les zones suivantes pour déterminer si ce paramétrage fonctionnera pour votre organisation :
 
--   Stock
--   Ventes et achats entre les dimensions financières et les entités juridiques
--   Calcul de la taxe et génération d'états
--   Génération d'états opérationnels
+- Stock
+- Ventes et achats entre les dimensions financières et les entités juridiques
+- Calcul de la taxe et génération d'états
+- Génération d'états opérationnels
 
-Voici des exemples des limitations :
+Voici certaines des limitations :
 
--   Vous ne pouvez utiliser la fonctionnalité de taxe qu'avec des entités juridiques, pas avec les dimensions financières.
--   Certains états n'incluent pas les dimensions financières, vous ne pouvez donc pas toujours déclarer par dimension financière, sauf si ces états sont modifiés.
+- Vous ne pouvez utiliser la fonctionnalité de taxe qu'avec des entités juridiques, pas avec les dimensions financières.
+- Certains états n'incluent pas les dimensions financières. Par conséquent, pour générer des états par dimension financière, vous devez modifier les états.
 
-**Dimensions personnalisées** 
+## <a name="custom-dimensions"></a>Dimensions personnalisées
 
-Pour créer une dimension financière définie par l'utilisateur, dans le champ Utiliser les valeurs à partir de, sélectionnez &lt; Dimension personnalisée &gt;. Vous pouvez également spécifier un compte pour limiter la quantité et le type d'informations que vous pouvez entrer pour les valeurs de dimension. Vous pouvez entrer des caractères qui restent identiques pour chaque valeur de dimension, telles que des lettres ou un trait d'union. Vous pouvez également entrer des signes dièse (\#) et des esperluettes (&) comme espaces réservés pour les lettres et les chiffres qui changent chaque fois qu'une valeur de dimension est créée. Utilisez un symbole dièse (\#) comme espace réservé pour un nombre et une esperluette (&) comme espace réservé pour une lettre. 
+Pour créer une dimension financière définie par l'utilisateur, dans le champ **Utiliser les valeurs à partir de**, sélectionnez **&lt; Dimension personnalisée &gt;**. Vous pouvez également spécifier un compte pour limiter la quantité et le type d'informations que vous pouvez entrer pour les valeurs de dimension. Vous pouvez entrer des caractères qui restent identiques pour chaque valeur de dimension, telles que des lettres ou un trait d'union (-). Vous pouvez également entrer des signes dièse (\#) et des esperluettes (&) comme espaces réservés pour les lettres et les chiffres qui changent chaque fois qu'une valeur de dimension est créée. Utilisez un symbole dièse (\#) comme espace réservé pour un nombre et une esperluette (&) comme espace réservé pour une lettre. Le champ du masque de format est disponible uniquement lorsque vous sélectionnez **&lt; Dimension personnalisée &gt;** dans le champ **Utiliser les valeurs à partir de**.
 
-**Exemple** 
+**Exemple**
 
-Pour limiter la valeur de dimension aux lettres CC et trois chiffres, entrez CC-\#\#\# comme masque de format. Ce champ est disponible uniquement lorsque vous sélectionnez &lt; Dimension personnalisée &gt; dans le champ Utiliser les valeurs à partir de. 
+Pour limiter la valeur de dimension aux lettres « CC » et trois chiffres, entrez **CC-\#\#\#** comme masque de format.
 
-**Dimensions soutenues par l'entité** 
+## <a name="entity-backed-dimensions"></a>Dimensions soutenues par l'entité
 
-Pour créer une dimension financière soutenue par l'entité, dans le champ Utiliser les valeurs à partir de, sélectionnez une entité définie par le système sur laquelle baser la dimension financière. Les valeurs de dimension financière sont créées depuis cette sélection. Par exemple, pour créer des valeurs de dimension pour les projets, sélectionnez Projets. Une valeur de dimension est créée pour chaque nom de projet. La page des valeurs de dimension indique les valeurs de l'entité et, si elles sont propres à la société, la société pour la valeur. 
+Pour créer une dimension financière soutenue par l'entité, dans le champ **Utiliser les valeurs à partir de**, sélectionnez une entité définie par le système sur laquelle baser la dimension financière. Les valeurs de dimension financière sont alors créées depuis cette entité. Par exemple, pour créer des valeurs de dimension pour les projets, sélectionnez **Projets**. Une valeur de dimension est alors créée pour chaque nom de projet. La page **Valeurs de dimensions financières** affiche les valeurs de l'entité. Si ces valeurs sont spécifiques à une société, la page indique également la société.
 
-**Activer les dimensions** 
+## <a name="activating-dimensions"></a>Activer les dimensions
 
-L'activation de la dimension financière met à jour la table avec le nom de dimension financière et supprime les dimensions supprimées. Vous pouvez entrer des valeurs de dimension avant d'activer une dimension financière, mais une dimension financière ne peut pas être consommée tant qu'elle n'est pas activée. Par exemple, vous ne pouvez pas ajouter de dimension financière à une structure de compte tant que la dimension financière n'a pas été activée. Cliquez sur Activer mettra à jour toutes les dimensions avec les changements de statut. 
+Lorsque vous activez une dimension financière, la table est mise à jour pour afficher le nom de la dimension financière. Les dimensions supprimées sont retirées. Vous pouvez entrer des valeurs de dimension avant d'activer une dimension financière. Toutefois, une dimension financière ne peut pas être consommée partout tant qu'elle n'est pas activée. Par exemple, vous ne pouvez pas ajouter de dimension financière à une structure de compte tant que la dimension financière n'a pas été activée. Lorsque vous cliquez sur **Activer**, toutes les dimensions sont mises à jour et le statut change. 
 
-**Traductions** 
+## <a name="translations"></a>Traductions
 
-La page Traduction du texte vous permet d'entrer le texte à afficher dans différentes langues pour la dimension financière sélectionnée. La page Conversion de compte principal vous permet de saisir le texte à afficher dans différentes langues pour le compte principal. 
+Dans la page **Traduction de texte**, vous pouvez entrer du texte pour la dimension financière sélectionnée dans différentes langues. Dans la page **Conversion de compte principal**, vous pouvez entrer du texte pour le compte principal dans différentes langues. 
 
-**Remplacements des entités juridiques** 
+## <a name="legal-entity-overrides"></a>Remplacements des entités juridiques
 
-Seules certaines dimensions sont valides pour toutes les entités juridiques et certaines peuvent être appropriées uniquement pour une période spécifique. Dans ce scénario, la section Remplacements des entités juridiques peut être utilisée pour identifier les sociétés pour lesquelles la dimension doit être suspendue, le propriétaire et la période d'activité de la dimension.
+Toutes les dimensions ne sont pas valides pour toutes les entités juridiques. En outre, certaines dimensions ne peuvent être appropriées que pour une période spécifique. Dans ces cas, vous pouvez utiliser la section **Remplacements des entités juridiques** pour identifier les sociétés pour lesquelles la dimension doit être suspendue, le propriétaire et la période d'activité de la dimension.
 
+## <a name="deleting-financial-dimensions"></a>Suppression des dimensions financières
 
+Pour aider à gérer l'intégrité référentielle des données, les dimensions financières peuvent rarement être supprimées. Si vous tentez de supprimer une dimension financière, les critères suivants sont évalués :
 
+- La dimension financière a-t-elle été utilisée dans les transactions validées ou non validées, ou un type de combinaisons de valeurs de dimension ?
+- La dimension financière est -elle utilisée dans une structure de compte active, une structure de règle avancée ou un ensemble de dimensions financières ?
+- La partie de dimension financière fait-elle partie d'un format d'intégration de dimension financière par défaut ?
+- La dimension financière a-t-elle été paramétrée comme dimension par défaut ?
 
-
+Si un critère est réuni, vous ne pourrez pas supprimer la dimension financière.
 

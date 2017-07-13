@@ -1,27 +1,28 @@
 ---
 title: "Ajouter un contrôle de recommandations à la page de transaction sur un périphérique de PDV"
-description: "Cette rubrique décrit comment ajouter un contrôle de recommandations à l&quot;écran de transaction sur un périphérique de point de vente (PDV) à l&quot;aide du concepteur de mise en page de l&quot;écran dans Microsoft Dynamics 365 for Operations."
+description: "Cette rubrique décrit comment ajouter un contrôle de recommandations à l'écran de transaction sur un périphérique de point de vente (PDV) à l'aide du concepteur de mise en page de l'écran dans Microsoft Dynamics 365 for Retail."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.reviewer: josaw
+ms.search.scope: Retail, Operations, Core, UnifiedOperations
 ms.custom: 260624
 ms.assetid: a4f9d315-9951-451c-8ee6-37f9b3b15ef0
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
+ms.dyn365.ops.version: Version 1611, Retail Version
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: db17231a27c85193dd95dfe32575f598e00873b1
+ms.sourcegitcommit: 52a16be4b07eafb493c7fd7ad52a6d9d1bb9ee89
+ms.openlocfilehash: 1cb80decf8ef0f182feec5d4cbe76b37b106dcd2
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -31,12 +32,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-Cette rubrique décrit comment ajouter un contrôle de recommandations à l'écran de transaction sur un périphérique de point de vente (PDV) à l'aide du concepteur de mise en page de l'écran dans Microsoft Dynamics 365 for Operations.
+Cette rubrique décrit comment ajouter un contrôle de recommandations à l'écran de transaction sur un périphérique de point de vente (PDV) à l'aide du concepteur de mise en page de l'écran dans Microsoft Dynamics 365 for Retail.
 
-Vous pouvez afficher les recommandations de produit sur votre périphérique de PDV lorsque vous utilisez Microsoft Dynamics 365 for Operations. Les *Recommandations* sont des articles susceptibles d'intéresser vos clients en fonction de leur historique d'achat, des articles de leur liste de souhaits et des articles achetés par d'autres clients en ligne ou dans des magasins traditionnels. Pour afficher les recommandations de produit, vous devez ajouter un contrôle à l'écran de transaction à l'aide du concepteur de mise en page de l'écran.
+Vous pouvez afficher les recommandations de produit sur votre périphérique de PDV lorsque vous utilisez Microsoft Dynamics 365 for Retail. Les *Recommandations* sont des articles susceptibles d'intéresser vos clients en fonction de leur historique d'achat, des articles de leur liste de souhaits et des articles achetés par d'autres clients en ligne ou dans des magasins traditionnels. Pour afficher les recommandations de produit, vous devez ajouter un contrôle à l'écran de transaction à l'aide du concepteur de mise en page de l'écran.
 
 ## <a name="open-layout-designer"></a>Ouvrir le concepteur de mise en page de l'écran
-1.  Accédez à **Commerce et vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage du PDV** &gt; **PDV** &gt; **Mises en page de l'écran**.
+1.  Accédez à **Vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage du PDV** &gt; **PDV** &gt; **Mises en page de l'écran**.
 2.  Utilisez le filtre rapide pour accéder à l'écran auquel vous souhaitez ajouter le contrôle. Par exemple, filtrez le champ **ID mise en page de l'écran** à l'aide de la valeur « F2CP16:9M ».
 3.  Dans la liste, recherchez et sélectionnez l'enregistrement souhaité. Par exemple, sélectionnez «Nom : F2CP16:9M ID mise en page de l'écran : F2CP16:9M ».
 4.  Cliquez sur **Concepteur de mise en page**.
@@ -55,7 +56,7 @@ Deux options de configuration sont disponibles. Choisissez l'option qui convient
 1.  Réduisez la hauteur de la zone des détails des lignes de transaction de manière à ce qu'elle soit identique à celle du volet Client à sa gauche.[](./media/pic-2.png)[![screenlayout-pic-2](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
 2.  Dans le menu à gauche, déplacez le contrôle de recommandations entre la zone des détails des lignes de transaction et le groupe de boutons en bas au centre de l'écran de transaction. Redimensionnez le contrôle de manière à l'ajuster dans cet espace.[](./media/pic-3.png)[![screenlayout-pic-3](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
 3.  Cliquez sur **X** pour enregistrer et fermer le concepteur de mise en page.
-4.  Dans Dynamics 365 for Operations, accédez à **Commerce et vente au détail** &gt; **Informatique au détail** &gt; **Programmes de distribution**.
+4.  Dans Dynamics 365 for Retail, accédez à **Vente au détail** &gt; **Informatique au détail** &gt; **Programmes de distribution**.
 5.  Dans la liste, sélectionnez **Caisses enregistreuses 1090**.
 6.  Cliquez sur **Exécuter maintenant**.
 
@@ -70,7 +71,7 @@ Deux options de configuration sont disponibles. Choisissez l'option qui convient
 7.  Dans le champ **Image**, sélectionnez l'image à afficher sous l'onglet.
 8.  Cliquez sur **OK**. Le nouvel onglet apparaît dans le groupe de boutons.
 9.  Cliquez sur **X** pour enregistrer et fermer le concepteur de mise en page.
-10. Dans Dynamics 365 for Operations, accédez à **Commerce et vente au détail** &gt; **Informatique au détail** &gt; **Programmes de distribution**.
+10. Dans Dynamics 365 for Retail, accédez à **Vente au détail** &gt; **Informatique au détail** &gt; **Programmes de distribution**.
 11. Dans la liste, sélectionnez **Caisses enregistreuses 1090**.
 12. Cliquez sur **Exécuter maintenant**.
 

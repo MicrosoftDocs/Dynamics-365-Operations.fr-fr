@@ -1,9 +1,9 @@
 ---
-title: Vue d&quot;ensemble du processus de production
-description: "Cet article donne une vue d&quot;ensemble des processus de production. Il décrit les différents stades des ordres de fabrication, des lots de commandes et des kanbans, de la création à la clôture de la période financière."
+title: Vue d'ensemble du processus de production
+description: "Cet article donne une vue d'ensemble des processus de production. Il décrit les différents stades des ordres de fabrication, des lots de commandes et des kanbans, de la création à la clôture de la période financière."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: JmgProdStatusListPage, JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 19832
 ms.assetid: 0e83c7ea-feba-4ed6-8717-8b48a3b8804a
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 311debe610b58af7cd986bd33ce9473e41cb3d8b
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: b73ec05442c8b089435d5813ea93b997c473cbb4
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -39,12 +39,12 @@ La production de produits, un processus également appelé cycle de vie de la pr
 
 Le module **Contrôle de la production** est lié à d'autres modules, tel que **Gestion des informations sur les produits** **Gestion des stocks**, **Comptabilité**, **Gestion des entrepôts**, **Comptabilité de projet** et **Administration d'organisation**. Cette intégration prend en charge le flux d'informations nécessaire pour exécuter le processus de fabrication d'un article fini.  
 
-Le processus de production est généralement influencé par les méthodes d'évaluation des stocks et de contrôle de gestion choisies pour un processus de production spécifique. Dynamics 365 for Operations prend en charge à la fois le coût réel (premier entré, premier sorti \[FIFO\] ; dernier entré, premier sorti \[LIFO\] ; moyenne de déplacement ; moyenne pondérée périodique) et les méthodes de coût standard. Le lean manufacturing (production au plus juste) est mis en œuvre selon le principe de la comptabilité à rebours.  
+Le processus de production est généralement influencé par les méthodes d'évaluation des stocks et de contrôle de gestion choisies pour un processus de production spécifique. Finance and Operations prend en charge à la fois le coût réel (premier entré, premier sorti \[FIFO\] ; dernier entré, premier sorti \[LIFO\] ; moyenne de déplacement ; moyenne pondérée périodique) et les méthodes de coût standard. Le lean manufacturing (production au plus juste) est mis en œuvre selon le principe de la comptabilité à rebours.  
 
 Le choix des méthodes de mesure des coûts définit également les besoins pour créer des rapports sur la consommation des matières et des ressources lors du processus de production. Généralement, les méthodes de coût réel exigent des rapports précis sur le niveau de tâche, tandis que les méthodes d'évaluation des coûts périodique permettent des rapports moins précis de la consommation des matières et des ressources.
 
 ## <a name="mixed-mode-manufacturing"></a>Production en mode mixte
-Les différents produits et différentes topologies de production exigent l'application de différents types de commande. Dynamics 365 for Operations peut appliquer les différents types de commandes en mode mixte. Autrement dit, tous les types de commande peuvent survenir pendant le processus de bout en bout de production d'un produit fini.
+Les différents produits et différentes topologies de production exigent l'application de différents types de commande. Finance and Operations peut appliquer les différents types de commandes en mode mixte. Autrement dit, tous les types de commande peuvent survenir pendant le processus de bout en bout de production d'un produit fini.
 
 -   **Ordre de fabrication** – Il s'agit du type de commande classique pour produire un produit ou une variante de produit spécifique dans une quantité donnée à une date spécifique. Les ordres de fabrication sont basés sur les nomenclatures et les gammes.
 -   **Lot de commandes** – Ce type de commande est utilisé pour les secteurs de traitement et les processus distincts où la conversion de fabrication est basée sur une formule ou lorsque les coproduits et les sous-produits peuvent être des produits finis, soit en plus de, soit à la place du produit principal. Les lots de commande utilisent les nomenclatures et les gammes de type **Formule**.
@@ -72,7 +72,7 @@ Les étapes suivantes dans le cycle de vie de la production peuvent se produire 
 4.  **Lancé** – Permet de lancer l'ordre de fabrication ou un lot de commandes lorsque le programme est terminé et lorsque les matières sont disponibles pour être prélevées ou préparées. Le contrôle de disponibilité des matières aide le superviseur de l'atelier à évaluer la disponibilité des matières pour les ordres de fabrication ou les lots de commandes. Vous pouvez également imprimer des documents d'ordre de fabrication, tels que des listes de prélèvement, un bon de travail, une fiche production et une tâche de gamme. Une fois l'ordre de fabrication lancé, le statut de l'ordre change pour indiquer que la fabrication peut commencer. Lorsque la gestion de l'entrepôt est utilisée, le lancement de l'ordre de fabrication ou le lot de commandes publie les lignes de nomenclature de production à la gestion de l'entrepôt. Des vagues d'entrepôt et le travail d'entrepôt sont ensuite générés selon la configuration de l'entrepôt.
 5.  **Préparé**/**Prélevé** – Lorsque toutes les matières et ressources ont été acheminées jusqu'à l'emplacement de production, les lignes de nomenclature de production ou les lignes de kanban sont mises à jour avec le statut **Prélevé**. Les commandes d'approvisionnement invariable et le travail d'entrepôt correspondant sont généralement effectués à ce moment précis. Les cartes kanban ou bons de travail nécessaires pour signaler la progression de la production doivent être attribués et imprimés.
 6.  **Commencé** – Lorsqu'un ordre de fabrication, un lot de commandes, ou un kanban est lancé, vous pouvez déclarer la consommation de matières et de ressources par rapport à la commande. Le système peut être configuré pour valider automatiquement la consommation des matières et des ressources affectées à la commande lorsque la commande est commencée. Cette répartition est appelée préconsommation, effacement estimé ou autoconsommation. Vous pouvez attribuer manuellement des matières aux ordres de fabrication ou lots de commandes en créant des journaux de prélèvements supplémentaires. Vous pouvez également affecter manuellement le travail et d'autres coûts de gamme à la commande. Si vous utilisez l'ordonnancement, vous pouvez affecter ces coûts en créant un journal des fiches productions. Si vous utilisez la planification de tâches, vous pouvez affecter ces coûts en créant un journal des bons de travail. Les ordres de fabrication ou lots de commandes peuvent être commencés en lots de quantité finale requise. Dans un ordre de fabrication, le lot de commandes ou le kanban, les tâches créées peuvent être démarrées et déclarées séparément via les journaux, le terminal externe de contrôle de suivi de la production ou les tableaux kanban.
-7.  Connaître l'état de progression/Tâches**terminées** – Permet d'utiliser le terminal de contrôle de suivi de la production, les journaux de production, les tableaux kanban, ou les utilitaires de numérisation mobile pour déclarer la progression de production par tâche ou ressource. La consommation des matières et des ressources est validée et le statut des kanbans, ordres de fabrication et lots de commandes correspondants peut être mis à jour avec **Reçu** ou **Déclaré terminé**. Le travail de rangement pour l'entrepôt peut être créé en fonction de la configuration de l'entrepôt.
+7.  Connaître l'état de progression/Tâches **terminées** – Permet d'utiliser le terminal de contrôle de suivi de la production, les journaux de production, les tableaux kanban, ou les utilitaires de numérisation mobile pour déclarer la progression de production par tâche ou ressource. La consommation des matières et des ressources est validée et le statut des kanbans, ordres de fabrication et lots de commandes correspondants peut être mis à jour avec **Reçu** ou **Déclaré terminé**. Le travail de rangement pour l'entrepôt peut être créé en fonction de la configuration de l'entrepôt.
 8.  **Déclaré terminé** (accusé de réception de marchandises) – Lorsqu'un ordre de fabrication ou un lot de commandes est déclaré terminé, la quantité des produits finis déclarés terminés est mise à jour dans le stock. Cette quantité inclut la quantité de coproduits et de sous-produits appropriés. Si vous utilisez la gestion des travaux en cours, un journal comptable est établi pour réduire les comptes de travaux en cours et augmenter le stock de produits finis. Lorsque le coût d'un ordre de fabrication est calculé, le coût réel de la production est validé. Si les coûts de matières et main d'œuvre associés à la fabrication ne sont pas encore répartis dans un journal ou par préconsommation, vous pouvez les répartir automatiquement par post-consommation. La répartition via la post-consommation implique la post-déduction des processus de mouvement de stock. Si l'ordre de fabrication est terminé, sélectionnez la case à cocher **Tâche de fin** pour modifier le statut restant sur **Terminé**. Sinon, laissez le champ vide pour autoriser la déclaration des quantités supplémentaires produites.
 9.  **Évaluation de la qualité** – Un accusé de réception de marchandises peut déclencher la création des ordres de qualité, en fonction de la configuration des processus de test et des règles de qualité définis pour des produits spécifiques. Parce qu'un ordre de qualité peut mettre à jour le statut du stock ou les attributs de lot des produits testés, l'évaluation de la qualité est un processus obligatoire de nombreux secteurs.
 10. **Rangement** et **Commande à expédier** – Après l'accusé de réception de marchandises et l'évaluation de la qualité, le travail de rangement dirige les produits reçus vers le point de consommation suivant, vers un entrepôt de produits finis ou vers une zone d'expédition s'il s'agit de commandes à expédier.

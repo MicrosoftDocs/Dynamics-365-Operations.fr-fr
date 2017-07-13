@@ -1,9 +1,9 @@
 ---
 title: "Rôles de sécurité dans le secteur public"
-description: "Cet article décrit la fonctionnalité des rôles de sécurité du secteur public. Cette fonctionnalité inclut les rôles de chef de projet et d&quot;acheteurs dans le secteur public."
+description: "Cet article décrit la fonctionnalité des rôles de sécurité du secteur public. Cette fonctionnalité inclut les rôles de chef de projet et d'acheteurs dans le secteur public."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: UserRequestListPage
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 19721
 ms.assetid: e26a6d93-851e-46be-8543-de2798909350
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c47486fa12a985797373c9d0e3b766fd69157366
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 7ab18fef7d2373fcc682ecacf83a981f067fae99
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -35,10 +35,10 @@ ms.lasthandoff: 05/25/2017
 
 Cet article décrit la fonctionnalité des rôles de sécurité du secteur public. Cette fonctionnalité inclut les rôles de chef de projet et d'acheteurs dans le secteur public.
 
-Pour que les utilisateurs puissent accéder à Microsoft Dynamics 365 for Operations, au moins un rôle de sécurité doit leur être affecté. Les rôles de sécurité déterminent les responsabilités que les utilisateurs peuvent exercer et les parties de l'interface utilisateur qu'ils peuvent afficher.
+Pour que les utilisateurs puissent accéder à Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, au moins un rôle de sécurité doit leur être affecté. Les rôles de sécurité déterminent les responsabilités que les utilisateurs peuvent exercer et les parties de l'interface utilisateur qu'ils peuvent afficher.
 
 ## <a name="what-are-the-prerequisites-for-assigning-security-roles-in-the-public-sector"></a>Quelles sont les conditions préalables à affecter des l'affectation des rôles de sécurité dans le secteur public ?
-Pour que vous puissiez affecter des utilisateurs à des rôles, ils doivent exister dans Microsoft Dynamics 365 for Operations. Même si vous utilisez l'affectation automatique des rôles, les utilisateurs eux-mêmes ne sont pas automatiquement ajoutés à Microsoft Dynamics 365 for Operations.
+Pour que vous puissiez affecter des utilisateurs à des rôles, ils doivent exister dans Finance and Operations. Même si vous utilisez l'affectation automatique des rôles, les utilisateurs eux-mêmes ne sont pas automatiquement ajoutés à Finance and Operations.
 
 ## <a name="which-roles-do-i-have-to-assign"></a>Quelles rôles dois-je affecter ?
 Une fois que les utilisateurs sont dans le système, il existe deux rôles que vous devrez peut-être paramétrer pour les organisations du secteur public :
@@ -48,7 +48,7 @@ Une fois que les utilisateurs sont dans le système, il existe deux rôles que v
 
 ### <a name="what-is-the-project-manager---public-sector-role"></a>Qu'est-ce que le rôle Gestionnaire de projets - Secteur public ?
 
-Le rôle de sécurité **Gestionnaire de projets - Secteur public** prend en charge les extensions de secteur public pour la gestion de projets. Affectez ce rôle en sus du rôle **Chef de projet** pour donner aux gestionnaires de projets l'accès à la fonctionnalité de gestion de projets. Par défaut, les responsabilités suivantes sont affectées à ce rôle de sécurité dans Microsoft Dynamics 365 for Operations.
+Le rôle de sécurité **Gestionnaire de projets - Secteur public** prend en charge les extensions de secteur public pour la gestion de projets. Affectez ce rôle en sus du rôle **Chef de projet** pour donner aux gestionnaires de projets l'accès à la fonctionnalité de gestion de projets. Par défaut, les responsabilités suivantes sont affectées à ce rôle de sécurité dans Finance and Operations.
 
 | Nom de droits de douane                                                         | Droit de douane (nom AOA)                           | Description du droit                                                                |
 |-------------------------------------------------------------------|-----------------------------------------|---------------------------------------------------------------------------------|
@@ -56,7 +56,7 @@ Le rôle de sécurité **Gestionnaire de projets - Secteur public** prend en cha
 
 ### <a name="what-is-the-purchasing-agent---public-sector-role"></a>Qu'est-ce que le rôle Agent des achats - Secteur public ?
 
-Le rôle de sécurité **Agent des achats - Secteur public** prend en charge les extensions de secteur public pour la gestion de projets. Affectez ce rôle en sus du rôle **Acheteurs** pour donner aux acheteurs l'accès à la fonctionnalité d'achat. Par défaut, les responsabilités suivantes sont affectées à ce rôle de sécurité dans Microsoft Dynamics 365 for Operations.
+Le rôle de sécurité **Agent des achats - Secteur public** prend en charge les extensions de secteur public pour la gestion de projets. Affectez ce rôle en sus du rôle **Acheteurs** pour donner aux acheteurs l'accès à la fonctionnalité d'achat. Par défaut, les responsabilités suivantes sont affectées à ce rôle de sécurité dans Finance and Operations.
 
 | Nom de droits de douane                                                       | Droit de douane (nom AOA)                            | Description du droit                                                                                        |
 |-----------------------------------------------------------------|------------------------------------------|---------------------------------------------------------------------------------------------------------|
@@ -102,7 +102,7 @@ Une fois les utilisateurs créés, vous les affectez à des rôles sur la page *
 <a name="see-also"></a>Voir également :
 --------
 
-[Sécurité basée sur les rôles](/dynamics365/operations/dev-itpro/sysadmin/role-based-security)
+[Sécurité basée sur les rôles](/dynamics365/unified-operations/dev-itpro/sysadmin/role-based-security)
 
 
 

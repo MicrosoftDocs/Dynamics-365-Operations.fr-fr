@@ -1,9 +1,9 @@
 ---
 title: "Gammes et opérations"
-description: "Cette rubrique fournit des informations sur les gammes et les opérations. Une gamme définit le processus de fabrication d&quot;un produit ou d&quot;une variante de produit. Elle décrit chaque étape (opération) dans le processus de fabrication et l&quot;ordre dans lequel ces étapes doivent être effectuées. Pour chaque étape, la gamme définit également les ressources opérationnelles requises, la durée de configuration et d&quot;exécution requise et la manière dont le coût doit être calculé."
+description: "Cette rubrique fournit des informations sur les gammes et les opérations. Une gamme définit le processus de fabrication d'un produit ou d'une variante de produit. Elle décrit chaque étape (opération) dans le processus de fabrication et l'ordre dans lequel ces étapes doivent être effectuées. Pour chaque étape, la gamme définit également les ressources opérationnelles requises, la durée de configuration et d'exécution requise et la manière dont le coût doit être calculé."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3abc4e6f648ecc10105346ce181d8bc752d95f17
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 61548f2e308781e8329ca3cd26c3e6502d2f92c9
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -37,7 +37,7 @@ Cette rubrique fournit des informations sur les gammes et les opérations. Une g
 <a name="overview"></a>Vue d'ensemble
 --------
 
-Une gamme décrit l'ordre des opérations nécessaires pour fabriquer un produit ou une variante de produit. Pour chaque opération, la gamme définit également les ressources opérationnelles requises, le temps nécessaire pour paramétrer et exécuter l'opération, et la manière dont le coût doit être calculé. Vous pouvez utiliser la même gamme pour fabriquer plusieurs produits, ou vous pouvez définir une seule gamme pour chaque produit ou variante de produit. Vous pouvez même avoir plusieurs gammes pour le même produit. Dans ce cas, la gamme utilisée varie en fonction de facteurs tels que la quantité qui doit être produite. La définition d'une gamme dans Microsoft Dynamics 365 for Operations se compose de quatre éléments distincts qui, ensemble, décrivent le processus de production :
+Une gamme décrit l'ordre des opérations nécessaires pour fabriquer un produit ou une variante de produit. Pour chaque opération, la gamme définit également les ressources opérationnelles requises, le temps nécessaire pour paramétrer et exécuter l'opération, et la manière dont le coût doit être calculé. Vous pouvez utiliser la même gamme pour fabriquer plusieurs produits, ou vous pouvez définir une seule gamme pour chaque produit ou variante de produit. Vous pouvez même avoir plusieurs gammes pour le même produit. Dans ce cas, la gamme utilisée varie en fonction de facteurs tels que la quantité qui doit être produite. La définition d'une gamme dans Microsoft Dynamics 365 for Finance and Operations se compose de quatre éléments distincts qui, ensemble, décrivent le processus de production :
 
 -   **Gamme** – Une gamme définit la structure du processus de production. Autrement dit, elle définit l'ordre des opérations.
 -   **Opération** – Une opération identifie une étape nommée dans une gamme, par exemple **Assemblage**. La même opération peut se produire dans plusieurs gammes et peut avoir plusieurs numéros d'opération.
@@ -45,7 +45,7 @@ Une gamme décrit l'ordre des opérations nécessaires pour fabriquer un produit
 -   **Version de gamme** – Une version de gamme définit la gamme utilisée pour fabriquer un produit ou une variante de produit. Les versions de gamme permette de réutiliser les gammes pour différents produits ou de les modifier au fil du temps. Elles permettent également d'utiliser différentes gammes pour fabriquer le même produit. Dans ce cas, la gamme utilisée dépend de facteurs tels que l'emplacement ou la quantité qui doit être produite.
 
 ## <a name="routes"></a>Gammes
-Une gamme décrit l'ordre des opérations accomplies pour fabriquer un produit ou une variante de produit. Chaque opération est associée à un numéro d'opération et à une opération successive. L'ordre des opérations forme un réseau de gamme qui peut être représenté par un graphique dirigé ayant un ou plusieurs points de départ et un point d'arrivée unique. Dans Dynamics 365 for Operations, les gammes se distinguent en fonction du type de structure. Les deux types de gammes sont les gammes simples et les réseaux de gammes. Dans les paramètres de contrôle de la production, vous pouvez indiquer d'utiliser uniquement des gammes simples, ou s'il est possible d'utiliser des réseaux de gammes plus complexes.
+Une gamme décrit l'ordre des opérations accomplies pour fabriquer un produit ou une variante de produit. Chaque opération est associée à un numéro d'opération et à une opération successive. L'ordre des opérations forme un réseau de gamme qui peut être représenté par un graphique dirigé ayant un ou plusieurs points de départ et un point d'arrivée unique. Dans Dynamics 365 for Finance and Operations, les gammes se distinguent en fonction du type de structure. Les deux types de gammes sont les gammes simples et les réseaux de gammes. Dans les paramètres de contrôle de la production, vous pouvez indiquer d'utiliser uniquement des gammes simples, ou s'il est possible d'utiliser des réseaux de gammes plus complexes.
 
 ### <a name="simple-routes"></a>Gammes simples
 
@@ -53,7 +53,7 @@ Une gamme simple est séquentielle et ne présente qu'un seul point de départ.
 
 [![Gamme simple](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
 
-Si vous activez uniquement les gammes simples dans les paramètres de contrôle de la production, Dynamics 365 for Operations génère automatiquement les numéros d'opération (10, 20, 30, etc.) lorsque vous définissez la gamme.
+Si vous activez uniquement les gammes simples dans les paramètres de contrôle de la production, Finance and Operations génère automatiquement les numéros d'opération (10, 20, 30, etc.) lorsque vous définissez la gamme.
 
 ### <a name="route-networks"></a>Réseaux de gammes
 
@@ -85,10 +85,10 @@ Une gamme doit être approuvée avant de pouvoir être utilisée dans le process
 
 Chaque gamme peut être séparément approuvée ou non approuvée. Toutefois, notez que, lorsqu'une gamme est non approuvée, toutes les versions de gamme associées sont également non approuvées. Dans les paramètres de contrôle de la production, vous pouvez spécifier si les gammes peuvent être non approuvées, et si les gammes approuvées peuvent être modifiées.  
 
-Si vous devez tenir un journal qui consigne qui approuve chaque gamme, vous pouvez demander des signatures électroniques pour l'approbation de gamme. Les utilisateurs doivent alors confirmer leur identité à l'aide d'une [signature électronique](/dynamics365/operations/organization-administration/electronic-signature-overview).
+Si vous devez tenir un journal qui consigne qui approuve chaque gamme, vous pouvez demander des signatures électroniques pour l'approbation de gamme. Les utilisateurs doivent alors confirmer leur identité à l'aide d'une [signature électronique](/dynamics365/unified-operations/fin-and-ops/organization-administration/electronic-signature-overview).
 
 ## <a name="operations"></a>Opérations
-Une opération est une étape du processus de production. Dans Dynamics 365 for Operations, chaque opération a un ID et une description simple. Les tableaux suivants montrent des exemples typiques d'opérations réalisées dans un atelier.
+Une opération est une étape du processus de production. Dans Dynamics 365 for Finance and Operations, chaque opération a un ID et une description simple. Les tableaux suivants montrent des exemples typiques d'opérations réalisées dans un atelier.
 
 | Opération  | description ;        |
 |------------|--------------------|
@@ -128,7 +128,7 @@ Les relations d'opération vous accordent une grande flexibilité lorsque vous d
 
 ### <a name="modifying-product-specific-routes"></a>Modifier les gammes spécifiques à un produit
 
-Lorsque vous ouvrez la page **Gamme** à partir de la page **Détails du produit lancé**, les versions de gamme associées au produit lancé sélectionné sont affichées. Dans ce contexte, pour chaque opération, Dynamics 365 for Operations affiche les propriétés opérationnelles de la relation d'opération qui est la mieux adaptée à la version de gamme. Vous remarquerez que la liste des opérations inclut les propriétés **Code article** et **Code gamme** à partir de la relation d'opération. Par conséquent, vous pouvez déterminer quelle relation d'opération est affichée.  
+Lorsque vous ouvrez la page **Gamme** à partir de la page **Détails du produit lancé**, les versions de gamme associées au produit lancé sélectionné sont affichées. Dans ce contexte, pour chaque opération, Dynamics 365 for Finance and Operations affiche les propriétés opérationnelles de la relation d'opération qui est la mieux adaptée à la version de gamme. Vous remarquerez que la liste des opérations inclut les propriétés **Code article** et **Code gamme** à partir de la relation d'opération. Par conséquent, vous pouvez déterminer quelle relation d'opération est affichée.  
 
 Dans la page **Gamme**, vous pouvez modifier les propriétés opérationnelles de l'opération, telles que le temps d'exécution ou les catégories de coûts. Vos modifications sont enregistrées dans la relation d'opération spécifique à la gamme et au produit lancé référencés dans la version de gamme actuelle. Si la relation d'opération qui est affichée n'est pas spécifiques à la gamme et au produit lancé, avant que vos modifications ne soient enregistrées, le système crée une copie de la relation d'opération. Cette copie *est* spécifique à la gamme et au produit lancé. Par conséquent, vos modifications n'affecteront pas les autres gammes ou produits lancés. Pour vérifier quelle relation d'opération est modifiée dans la page **Gamme**, observez les champs **Code article** et **Code gamme**.  
 
@@ -150,9 +150,9 @@ Si votre société utilise des opérations standard, et si les paramètres opér
 
 ### <a name="applying-operation-relations"></a>Application des relations d'opération
 
-Dans certains cas, Dynamics 365 for Operations doit trouver les propriétés opérationnelles d'une opération. Par exemple, lorsqu'une commande fournisseur est créée, les propriétés opérationnelles de chaque opération doivent être copiées à partir des relations d'opération vers la gamme de production. Dans ce cas, Dynamics 365 for Operations recherche les relations d'opération correspondantes en partant de la combinaison la moins spécifique vers la combinaison la moins spécifique.  
+Dans certains cas, Dynamics 365 for Finance and Operations doit trouver les propriétés opérationnelles d'une opération. Par exemple, lorsqu'une commande fournisseur est créée, les propriétés opérationnelles de chaque opération doivent être copiées à partir des relations d'opération vers la gamme de production. Dans ce cas, Finance and Operations recherche les relations d'opération correspondantes en partant de la combinaison la moins spécifique vers la combinaison la moins spécifique.  
 
-Lorsque Dynamics 365 for Operations recherche la relation d'opération la plus appropriée pour un produit lancé, une relation d'opération qui correspond à l'ID article du produit lancé est préférée à une relation d'opération qui correspond à l'ID groupe d'articles. Consécutivement, une relation d'opération qui correspond à l'ID groupe d'articles est préférée à la relation d'opération par défaut. La recherche s'effectue dans l'ordre suivant :
+Lorsque Dynamics 365 for Finance and Operations recherche la relation d'opération la plus appropriée pour un produit lancé, une relation d'opération qui correspond à l'ID article du produit lancé est préférée à une relation d'opération qui correspond à l'ID groupe d'articles. Consécutivement, une relation d'opération qui correspond à l'ID groupe d'articles est préférée à la relation d'opération par défaut. La recherche s'effectue dans l'ordre suivant :
 
 1.  **Code article**=**Table** and **Relation d'article**=&lt;ID article&gt;
 2.  **Code article**=**Groupe** and **Relation d'article**=&lt;ID groupe d'articles&gt;
@@ -188,7 +188,7 @@ Lorsque vous activez une version de gamme, vous la désignez comme la version de
 
 ### <a name="electronic-signatures"></a>Signatures électroniques
 
-Si vous devez tenir un journal qui consigne qui approuve et active chaque version de gamme, vous pouvez demander des signatures électroniques pour ces tâches. Les utilisateurs qui approuvent et activent les versions de gamme doivent alors confirmer leur identité à l'aide d'une [signature électronique](/dynamics365/operations/organization-administration/electronic-signature-overview).
+Si vous devez tenir un journal qui consigne qui approuve et active chaque version de gamme, vous pouvez demander des signatures électroniques pour ces tâches. Les utilisateurs qui approuvent et activent les versions de gamme doivent alors confirmer leur identité à l'aide d'une [signature électronique](/dynamics365/unified-operations/fin-and-ops/organization-administration/electronic-signature-overview).
 
 ### <a name="product-change-that-uses-case-management"></a>Modification de produit qui utilise la gestion de dossier
 
@@ -199,7 +199,7 @@ Selon vos exigences métier, vous pouvez réduire l'effort requis par la tenue �
 
 ### <a name="making-routes-independent-of-resources"></a>Réalisation de gammes indépendantes des ressources
 
-Dans de nombreux système, la ressource opérationnelle ou le groupe de ressources nécessaires à la réalisation d'une opération doivent être spécifiés dans la gamme. Toutefois, dans Dynamics 365 for Operations, vous pouvez définir un ensemble de contraintes que doit respecter une ressource opérationnelle pour être utilisable par l'opération. Par conséquent, la ressource opérationnelle ou le groupe de ressources spécifiques qui doivent être utilisés ne doivent pas être déterminés tant que l'opération n'est pas réellement planifiée. Cette fonctionnalité est particulièrement utile si vous avez de nombreux collaborateurs ou machines capables d'exécuter la même opération.  
+Dans de nombreux système, la ressource opérationnelle ou le groupe de ressources nécessaires à la réalisation d'une opération doivent être spécifiés dans la gamme. Toutefois, dans Dynamics 365 for Finance and Operations, vous pouvez définir un ensemble de contraintes que doit respecter une ressource opérationnelle pour être utilisable par l'opération. Par conséquent, la ressource opérationnelle ou le groupe de ressources spécifiques qui doivent être utilisés ne doivent pas être déterminés tant que l'opération n'est pas réellement planifiée. Cette fonctionnalité est particulièrement utile si vous avez de nombreux collaborateurs ou machines capables d'exécuter la même opération.  
 
 Par exemple, vous spécifiez qu'une opération requiert une ressource opérationnelle du type **Machine** ayant une capacité d'**estampage** de 20 tonnes. Le moteur de planification résoudra ces exigences de ressource opérationnelle ou de groupe de ressources lorsque l'opération sera planifiée. Comme vous pouvez définir ces exigences au lieu de lier l'opération à une machine spécifique, votre flexibilité est améliorée. En outre, la maintenance est plus facile lors du déplacement de ressources ou de l'ajout de nouvelles ressources.  
 
@@ -240,7 +240,7 @@ Si vous ne spécifiez pas de ressource opérationnelle ou de groupe de ressource
 
 [Capacités de ressources](resource-capabilities.md)
 
-[Vue d'ensemble de la signature électronique](/dynamics365/operations/organization-administration/electronic-signature-overview)
+[Vue d'ensemble de la signature électronique](/dynamics365/unified-operations/fin-and-ops/organization-administration/electronic-signature-overview)
 
 
 

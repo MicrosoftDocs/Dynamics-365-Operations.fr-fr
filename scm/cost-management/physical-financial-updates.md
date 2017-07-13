@@ -1,16 +1,16 @@
 ---
 title: "Mises à jour physiques et financières"
-description: "Cette rubrique fournit une vue d&quot;ensemble des types de transactions qui augmentent les quantités en stock ou de celles qui les diminuent."
+description: "Cette rubrique fournit une vue d'ensemble des types de transactions qui augmentent les quantités en stock ou de celles qui les diminuent."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventTrans, InventTransVoucher
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 75023
 ms.assetid: 128340e1-c573-48e6-b835-6c350d8dd0fb
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 72984b951b88bef565377a7470194437ad0137ce
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: a0eeb5a57f9b82150150752c64e89c2c91856889
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -34,7 +34,7 @@ ms.lasthandoff: 05/25/2017
 
 Cette rubrique fournit une vue d'ensemble des types de transactions qui augmentent les quantités en stock ou de celles qui les diminuent. 
 
-Les transactions de stock peuvent être mises à jour physiquement et financièrement dans Microsoft Dynamics 365 for Operations. Certains types de transactions physiques et financières augmentent les quantités en stock, tandis que d'autres les diminuent.
+Les transactions de stock peuvent être mises à jour physiquement et financièrement dans Microsoft Dynamics 365 for Finance and Operations. Certains types de transactions physiques et financières augmentent les quantités en stock, tandis que d'autres les diminuent.
 
 ## <a name="physical-increases"></a>Augmentations physiques
 Lorsqu'une transaction physique est validée, le statut de l'enregistrement de la transaction est **Reçu**. Les transactions suivantes sont considérées comme des augmentations physiques :
@@ -53,10 +53,10 @@ Lorsqu'une transaction de réception financière est validée, le statut de l'en
 -   Journaux de stock de quantité positive, tels que mouvement, résultat, inventaire, nomenclatures et transferts
 
 ## <a name="transactions-that-increase-quantity"></a>Transactions qui augmentent la quantité
-Les transactions qui augmentent la quantité sont validées au prix de revient moyen en vigueur. Dynamics 365 for Operations calcule un prix de revient moyen en vigueur basé sur le coût de chacune de ces transactions pour chaque dimension de stock suivie financièrement. Pour plus d'informations sur l'exécution d'un prix de revient moyen, voir [Prix de revient moyen en cours](running-average-cost-price.md).
+Les transactions qui augmentent la quantité sont validées au prix de revient moyen en vigueur. Finance and Operations calcule un prix de revient moyen en vigueur basé sur le coût de chacune de ces transactions pour chaque dimension de stock suivie financièrement. Pour plus d'informations sur l'exécution d'un prix de revient moyen, voir [Prix de revient moyen en cours](running-average-cost-price.md).
 
 ## <a name="transactions-that-decrease-quantity"></a>Transactions qui diminuent la quantité
-Dynamics 365 for Operations utilise le prix de revient moyen calculé lorsqu'une transaction qui diminue la quantité est validée, quel que soit le modèle de stock associé au stock. Cela nécessite que la transaction qui diminue la quantité n'ait pas été marquée par rapport à une autre transaction avant la validation. Si le stock physique disponible devient négatif, Dynamics 365 for Operations utilise le coût du stock défini pour l'article sur la page **Article**. **Remarque :** Si la fonctionnalité multisite est activée, ce coût sera alors le coût de stock défini pour un site sur la page **Paramètres de commande par défaut**.
+Finance and Operations utilise le prix de revient moyen calculé lorsqu'une transaction qui diminue la quantité est validée, quel que soit le modèle de stock associé au stock. Cela nécessite que la transaction qui diminue la quantité n'ait pas été marquée par rapport à une autre transaction avant la validation. Si le stock physique disponible devient négatif, Finance and Operations utilise le coût du stock défini pour l'article sur la page **Article**. **Remarque :** Si la fonctionnalité multisite est activée, ce coût sera alors le coût de stock défini pour un site sur la page **Paramètres de commande par défaut**.
 
 ## <a name="physical-issues-vs-financial-issues"></a>Comparatif Sorties physiques/Sorties financières
 Lorsqu'une transaction de sortie physique est validée, le statut de l'enregistrement de la transaction est **Déduit**. Les transactions suivantes sont considérées comme des sorties physiques :

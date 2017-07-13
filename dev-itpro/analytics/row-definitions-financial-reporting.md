@@ -1,9 +1,9 @@
 ---
-title: "Définitions de ligne dans le générateur d&quot;états financiers"
-description: "Une définition de ligne est un composant de l’état, ou un bloc élémentaire, qui spécifie le contenu de chaque ligne d’un état financier. Une définition de ligne peut être combinée avec les définitions de colonne, les définitions d&quot;arborescence de génération d&quot;état et les définitions d&quot;état pour créer un groupe de blocs élémentaires pouvant être utilisé par plusieurs sociétés."
+title: "Définitions de ligne dans le générateur d'états financiers"
+description: "Une définition de ligne est un composant de l’état, ou un bloc élémentaire, qui spécifie le contenu de chaque ligne d’un état financier. Une définition de ligne peut être combinée avec les définitions de colonne, les définitions d'arborescence de génération d'état et les définitions d'état pour créer un groupe de blocs élémentaires pouvant être utilisé par plusieurs sociétés."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -11,18 +11,18 @@ ms.technology:
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: ShylaThompson
-ms.search.scope: Management Reporter, Core
+ms.search.scope: Management Reporter, UnifiedOperations, Core
 ms.custom: 68873
 ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: cf0886725e2d8d4031e19810e75755f4306b7c49
+ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
+ms.openlocfilehash: 6d4697af6f7467f25a461fae4e9320402f83b0e3
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -49,7 +49,7 @@ Une définition de ligne est un composant de l’état, ou un bloc élémentaire
 Une définition de ligne peut contenir jusqu'à 20 000 lignes de dimensions financières et peut inclure les informations suivantes :
 
 -   Texte descriptif précisant le rapport en créant des titres de section, des lignes et des espaces tels que **Espèces** ou **Produit total**
--   Établit un lien vers les données financières, lesquelles peuvent inclure des valeurs de dimension dans Microsoft Dynamics 365 for Operations **Remarque :** vous pouvez configurer une définition de ligne pour extraire des données du système des dimensions financières chaque fois que le rapport est généré.
+-   Établit un lien vers les données financières, lesquelles peuvent inclure des valeurs de dimension dans Microsoft Dynamics 365 for Finance and Operations **Remarque :** vous pouvez configurer une définition de ligne pour extraire des données du système des dimensions financières chaque fois que le rapport est généré.
 -   Totaux de ligne et formules basés sur les données financières associées
 
 Généralement, chaque ligne d'une définition de ligne inclut un des types d'informations suivants :
@@ -101,9 +101,9 @@ Pour ajuster l'arrondi dans un bilan, procédez comme suit.
     -   **Ligne Total du passif et des capitaux propres** – Le code de ligne pour la ligne du bilan contenant le total du passif et des capitaux propres.
     -   **Limite du montant d'ajustement** – Entier positif qui spécifie la limite des ajustements automatiques. Ce montant est comparé à la valeur absolue de la différence d'arrondi réelle.
 
-    **Remarque :**Ces codes de ligne doivent être liés à vos données financières. Autrement dit, la ligne doit spécifier une valeur de dimension dans sa cellule **Liens vers les dimensions financières**. Ne fait **pas** référence à une description (**DESC**), à une ligne calculée (**CALC**) ou totalisée (**TOT**).
+    **Remarque :** Ces codes de ligne doivent être liés à vos données financières. Autrement dit, la ligne doit spécifier une valeur de dimension dans sa cellule **Liens vers les dimensions financières**. Ne fait **pas** référence à une description (**DESC**), à une ligne calculée (**CALC**) ou totalisée (**TOT**).
 
-Les montants de votre bilan s'équilibreront de manière équitable lorsque l'arrondi est activé. **Remarque :**La limite d'ajustement est appliquée en fonction de l'option **Précision arrondi** spécifiée pour la définition de rapport. Par exemple, si vous choisissez d'arrondir votre rapport au millier et de saisir **2** dans le champ **Limite du montant d'ajustement**, vous recevez un message d'avertissement lorsque la valeur identifiée dans le champ **Ligne d'ajustement d'arrondi** augmente ou diminue de plus de 2 000 EUR.
+Les montants de votre bilan s'équilibreront de manière équitable lorsque l'arrondi est activé. **Remarque :** La limite d'ajustement est appliquée en fonction de l'option **Précision arrondi** spécifiée pour la définition de rapport. Par exemple, si vous choisissez d'arrondir votre rapport au millier et de saisir **2** dans le champ **Limite du montant d'ajustement**, vous recevez un message d'avertissement lorsque la valeur identifiée dans le champ **Ligne d'ajustement d'arrondi** augmente ou diminue de plus de 2 000 EUR.
 
 ## <a name="format-row-and-column-text"></a>Mise en forme du texte de ligne et de colonne
 Vous pouvez personnaliser l'apparence de vos rapports en modifiant les polices et en mettant le texte en forme. Les sections suivantes expliquent comment mettre en forme l'apparence des lignes et colonnes des états.
