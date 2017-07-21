@@ -25,9 +25,7 @@ ms.lasthandoff: 06/09/2017
 
 ---
 
-<a id="vat-reporting-for-europe" class="xliff"></a>
-
-# Déclaration de TVA pour l'Europe
+# <a name="vat-reporting-for-europe"></a>Déclaration de TVA pour l'Europe
 
 [!include[banner](../includes/banner.md)]
 
@@ -47,38 +45,28 @@ Cette rubrique fournit une approche générique du paramétrage et de la génér
 -   Pays-Bas
 -   Suède
 
-<a id="vat-statement-overview" class="xliff"></a>
-
-## Vue d'ensemble de la déclaration de TVA
+## <a name="vat-statement-overview"></a>Vue d'ensemble de la déclaration de TVA
 La déclaration de TVA est basée sur les montants des transactions de taxe. Le processus de génération d'une déclaration de TVA fait partie du processus de paiement de la taxe, qui est implémenté via la fonction Régler et valider la taxe. Cette fonction calcule la taxe due pour une période donnée. Le calcul du règlement inclut la taxe validée pour la période de règlement sélectionnée pour les transactions de taxe. Le processus de calcul des données d'une déclaration de TVA est basé sur la relation entre les codes taxe et les codes déclaration de taxe, où les codes déclaration de taxe correspondent aux zones de déclaration de TVA (ou balises en XML). Pour chaque code taxe, des codes déclaration de taxe doivent être définis pour chaque type de transaction, par exemple les ventes imposables, les achats imposables, les importations imposables. Ces types de transactions sont décrits dans la section Codes taxe pour la déclaration de TVA plus loin dans cette rubrique.
 
 Pour chaque code déclaration de taxe, une présentation d'état spécifique doit être déterminée. Les codes taxe sont également liés à une administration fiscale spécifique via des périodes de règlement de la taxe. Pour chaque administration fiscale, une présentation d'état doit être déterminée. Ainsi, seuls les codes déclaration de taxe avec la même présentation d'état paramétrée pour une administration fiscale dans les périodes de règlement de la taxe pour le code taxe peuvent être sélectionnés dans le paramétrage d'état du code taxe. Une transaction de taxe générée lors de la validation d'une commande ou d'un journal, contient un code taxe, une source de taxe, une direction de taxe et des montants de transaction (montant de base de la taxe et montant de la taxe dans la devise comptable, la devise de taxe et la devise de la transaction). Selon la combinaison d'attributs de transaction de taxe, les montants des transactions composent les montants totaux pour les codes déclaration de taxe spécifiés pour les codes taxe. La relation des données est illustrée dans le graphique ci-dessous :
 
 ![diagramme](./media/diagram4.jpg)
 
-<a id="vat-statement-setup" class="xliff"></a>
-
-## Paramétrage de la déclaration de TVA
+## <a name="vat-statement-setup"></a>Paramétrage de la déclaration de TVA
 Pour générer une déclaration de TVA, vous devez paramétrer les éléments suivants.
 
-<a id="sales-tax-authorities-for-vat-reporting" class="xliff"></a>
+### <a name="sales-tax-authorities-for-vat-reporting"></a>Administrations fiscales pour la déclaration de TVA
 
-### Administrations fiscales pour la déclaration de TVA
-
-<!---For general information about setting up a sales tax authority, see [Set up sales tax authorities](http://ax.help.dynamics.com/en/wiki/set-up-sales-tax-authorities/). -->
+<!---For general information about setting up a sales tax authority, see [Set up sales tax authorities](/dynamics365/unified-operations/financials/general-ledger/tasks/set-up-sales-tax-authorities). -->
 Avant de paramétrer les codes déclaration de taxe, vous devez sélectionner la présentation d'état correcte pour l'administration fiscale. Dans la page **Administrations fiscales**, dans la section **Général**, sélectionnez une **Présentation d'état**. Cette présentation sera utilisée lors du paramétrage des codes déclaration de taxe.
 
-<a id="sales-tax-reporting-codes" class="xliff"></a>
+### <a name="sales-tax-reporting-codes"></a>Codes déclaration de taxe
 
-### Codes déclaration de taxe
+Les codes déclaration de taxe sont des codes de zone dans la déclaration de TVA ou des noms de balise au format XML. Ces codes sont utilisés pour regrouper et préparer les montants pour l'état. Lorsque vous configurez le format de génération d'états électroniques de la déclaration de TVA, les noms des montants de résultat sont utilisés. Vous pouvez créer et tenir à jour les codes déclaration de taxe dans la page **Codes déclaration de taxe**. Vous devez affecter une présentation d'état à chaque code. Après avoir créé les codes déclaration de taxe, vous pouvez choisir les codes dans la section **Paramétrage d'état** de la page **Codes taxe**. <!---For more information, see [Set up sales tax reporting codes](/dynamics365/unified-operations/financials/general-ledger/tasks/set-up-sales-tax-reporting-codes).-->
 
-Les codes déclaration de taxe sont des codes de zone dans la déclaration de TVA ou des noms de balise au format XML. Ces codes sont utilisés pour regrouper et préparer les montants pour l'état. Lorsque vous configurez le format de génération d'états électroniques de la déclaration de TVA, les noms des montants de résultat sont utilisés. Vous pouvez créer et tenir à jour les codes déclaration de taxe dans la page **Codes déclaration de taxe**. Vous devez affecter une présentation d'état à chaque code. Après avoir créé les codes déclaration de taxe, vous pouvez choisir les codes dans la section **Paramétrage d'état** de la page **Codes taxe**. <!---For more information, see [Set up sales tax reporting codes](http://ax.help.dynamics.com/en/wiki/set-up-sales-tax-reporting-codes/).-->
+### <a name="sales-tax-codes-for-vat-reporting"></a>Codes taxe pour la déclaration de TVA
 
-<a id="sales-tax-codes-for-vat-reporting" class="xliff"></a>
-
-### Codes taxe pour la déclaration de TVA
-
-<!---For general information about setting up sales tax codes, see [Set up sales tax codes](http://ax.help.dynamics.com/en/wiki/set-up-sales-tax-codes/).--> Base amounts and tax amounts of sales tax transactions can be aggregated on reporting codes in the VAT statement (XML tags or declaration boxes). You can set this up by associating sales tax reporting codes for different transaction types for sales tax codes on the **Sales tax codes** page. The following table describes the transaction types in the report setup for sales tax codes. The calculation includes transactions for all types of sources except sales tax.
+<!---For general information about setting up sales tax codes, see [Set up sales tax codes](/dynamics365/unified-operations/financials/general-ledger/tasks/set-up-sales-tax-codes).--> Base amounts and tax amounts of sales tax transactions can be aggregated on reporting codes in the VAT statement (XML tags or declaration boxes). You can set this up by associating sales tax reporting codes for different transaction types for sales tax codes on the **Sales tax codes** page. The following table describes the transaction types in the report setup for sales tax codes. The calculation includes transactions for all types of sources except sales tax.
 
 <table>
 <colgroup>
@@ -260,9 +248,7 @@ d<li>Le <strong>Montant de base de taxe</strong> ou le <strong>Montant de taxe</
 > -   Le montant de base de la taxe est un montant de transaction issu du champ **Origine dans la devise comptable**.
 > -   Le montant de la taxe est un montant de transition issu du champ **Montant réel de la taxe dans la devise comptable**.
 
-<a id="configure-the-er-model-and-format-for-the-report" class="xliff"></a>
-
-### Configurer le modèle et le format ER pour l'état
+### <a name="configure-the-er-model-and-format-for-the-report"></a>Configurer le modèle et le format ER pour l'état
 
 Vous pouvez utiliser les états électroniques pour configurer les déclarations et l'état, et pour exporter les données dans différents formats électroniques sans modifier le code X++. Pour des informations supplémentaires :
 
@@ -270,9 +256,7 @@ Vous pouvez utiliser les états électroniques pour configurer les déclarations
 -   [Télécharger les configurations d'états électroniques à partir de Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
 -   [Exigences de localisation – Créer une configuration GER](/dynamics365/unified-operations/dev-itpro/analytics/electronic-reporting-configuration)
 
-<a id="countryspecific-resources-for-vat-statements" class="xliff"></a>
-
-## Ressources spécifiques au pays pour les déclarations de TVA
+## <a name="countryspecific-resources-for-vat-statements"></a>Ressources spécifiques au pays pour les déclarations de TVA
 La déclaration de TVA pour chaque pays doit répondre aux exigences de la législation du pays. Il existe des modèles et des formats généraux prédéfinis de déclarations de TVA pour les pays répertoriés dans le tableau suivant.
 
 
