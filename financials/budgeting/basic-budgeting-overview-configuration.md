@@ -58,7 +58,7 @@ Définissez un *modèle de budget* correspondant à tous les budgets ou à certa
 > [!NOTE] 
 > Si le contrôle budgétaire est utilisé, vous pouvez associer un seul modèle de budget à une période de cycle budgétaire spécifique. 
 
-Créez des *codes budget *qui identifient le type de transactions budgétaires pour à enregistrer et tout workflow associé. Les codes budget peuvent prendre en charge les types de budget suivants :
+Créez des *codes budget* qui identifient le type de transactions budgétaires pour à enregistrer et tout workflow associé. Les codes budget peuvent prendre en charge les types de budget suivants :
 
 -   Budget d'origine
 -   Transfert
@@ -79,7 +79,7 @@ Le responsable du budget peut consulter l'état actuel d'un budget dans l'espace
 
 La page de recherche **Comparatif Réel/Budget** vous permet de zoomer sur les détails du budget par rapport aux montants réels. Sélectionnez une ligne sur la page de recherche, puis cliquez sur **Soldes de la période** pour afficher les montants du budget et les montants réels répartis sur plusieurs périodes fiscales. La page **Écritures de compte budgétaires** permet d'extraire les détails du montant du budget des écritures de registre budgétaires. La page **Écritures du journal des opérations diverses** affiche les écritures comptables incluses dans le montant **Chiffres réels** calculé. 
 
-Une société qui utilise la fonctionnalité de planification budgétaire peut créer et utiliser les *prévisions budgétaires *dans l'espace de travail **Budgets comptables et prévisions**.
+Une société qui utilise la fonctionnalité de planification budgétaire peut créer et utiliser les *prévisions budgétaires* dans l'espace de travail **Budgets comptables et prévisions**.
 
 
 

@@ -24,9 +24,7 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-<a id="cost-accounting-home-page" class="xliff"></a>
-
-# Page d'accueil du contrôle de gestion
+# <a name="cost-accounting-home-page"></a>Page d'accueil du contrôle de gestion
 
 [!include[banner](../includes/banner.md)]
 
@@ -49,9 +47,7 @@ Le module Contrôle de gestion vous permet d'effectuer les opérations suivantes
 -   Créez des relevés qui peuvent être affichés dans l'espace de travail.
 -   Créez des états à l'aide d'Excel.
 
-<a id="get-started" class="xliff"></a>
-
-## Mise en route
+## <a name="get-started"></a>Mise en route
 
 > [!Video https://www.youtube.com/embed/https://www.youtube.com/embed/1pUDtJQZ8FU]
 
@@ -68,16 +64,12 @@ La compréhension de ces concepts vous permettra de comprendre comment utiliser 
 -   [Dimensions d'objets de coût](cost-objects.md)
 -   [Créer des objets de coût](http://ax.help.dynamics.com/en/wiki/create-cost-objects/) (Guide de tâche)
 
-<a id="cost-control-mobile-workspace" class="xliff"></a>
-
-## Espace de travail mobile Contrôle des coûts
+## <a name="cost-control-mobile-workspace"></a>Espace de travail mobile Contrôle des coûts
 Avec l'espace de travail mobile Contrôle des coûts, les responsables des centres de coût peuvent consulter les performances du centre de coût à tout moment et n'importe où.
 
 -   [Espace de travail mobile Contrôle des coûts](cost-controlling-mobile-workspace.md)
 
-<a id="cost-accounting-analysis-power-bi-content" class="xliff"></a>
-
-## Contenu Power BI d'analyse du contrôle de gestion
+## <a name="cost-accounting-analysis-power-bi-content"></a>Contenu Power BI d'analyse du contrôle de gestion
 Le contenu Microsoft Power BI Analyse du contrôle de gestion est destiné aux contrôleurs de coûts ou à toute personne chargée de contrôler les coûts d'une organisation. Il inclut les mesures clés, telles que le coût, la magnitude et le taux de coût par coût réel, coût budgétaire et coût budgétaire flexible. Il utilise les données de transaction du contrôle de gestion dans Finance and Operations et fournit une vue globale des coûts pour l'ensemble de l'organisation dans une devise de déclaration. Les responsables peuvent filtrer les données par objet de coût pour contrôler les coûts de leurs unités d'organisation, même si l'organisation peut avoir plusieurs entités juridiques.
 
 -   [Contenu Power BI d'analyse du contrôle de gestion](/dynamics365/unified-operations/dev-itpro/analytics/cost-accounting-analysis-content-pack)
