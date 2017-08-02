@@ -1,37 +1,35 @@
 ---
-title: "Glossaire Dynamics 365 for Operations"
-description: "Le glossaire Microsoft Dynamics 365 for Operations définit les termes et les concepts clés du produit Dynamics 365 for Operations."
+title: Glossaire Finance and Operations
+description: "Ce glossaire définit les conditions et les concepts clés de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: tonyafehr
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 07/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 44101
 ms.assetid: d4e01957-69a0-4c92-91c5-4646c8b0cad8
 ms.search.region: Global
 ms.author: tfehr
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 4f3015ed4f8dc165d988b2b63ed9ad89d6d6f578
+ms.translationtype: HT
+ms.sourcegitcommit: 84ee9110fa32a551133a6ab4b7c6feb9ea9c017a
+ms.openlocfilehash: 0b4d5285cc1aa44da566ec5d7fa7ebe568729fdf
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/08/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
-# <a name="dynamics-365-for-operations-glossary"></a>Glossaire Dynamics 365 for Operations
+# <a name="finance-and-operations-glossary"></a>Glossaire Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-
-Le glossaire Microsoft Dynamics 365 for Operations définit les termes et les concepts clés du produit Dynamics 365 for Operations. 
+Ce glossaire définit les conditions et les concepts clés de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. 
 
 ### <a name="a"></a>**A**
 
@@ -51,19 +49,11 @@ Système de transfert électronique de fonds disponible aux États-Unis qui faci
 
 Quantité mesurée (ajoutée à une activité ou soustraite de celle-ci).
 
-###### <a name="address-verification-service"></a>**service de vérification d'adresse**
+###### <a name="address-verification"></a>**vérification d'adresse**
 
 Service fourni par un processeur de carte de crédit qui contrôle si l'adresse de facturation fournie par le détenteur de la carte est conforme aux informations enregistrées auprès de la banque émettrice.
 
-###### <a name="adjusted-unit-price"></a>**prix unitaire ajusté**
-
-Prix unitaire calculé en fonction de la tarification par attribut et de la potence réelle reçue.
-
-###### <a name="advanced-pricing"></a>**tarification avancée**
-
-Logique utilisée pour calculer le prix d'achat d'un article de potence.
-
-###### <a name="aging"></a>**balance âgée**
+###### <a name="aging"></a>**âgé**
 
 Processus de classification des périodes par âge.
 
@@ -101,14 +91,13 @@ Période pendant laquelle obtenir une quantité ou une caractéristique optimale
 
 Document source qui documente une demande sans réserve pour qu'une partie règle une autre partie à la demande.
 
-###### <a name="bill-of-materials"></a>**nomenclature**
-
-Liste des produits et des quantités associées nécessaires à la fabrication d'un produit.
-
 ###### <a name="blocking"></a>**blocage**
 
 Action visant à placer un document ou un produit en attente.
 
+###### <a name="bom-bill-of-materials"></a>**nomenclature**
+
+Liste des produits et des quantités associées nécessaires à la fabrication d'un produit.
 ###### <a name="budget-control"></a>**contrôle budgétaire**
 
 Pratique consistant à autoriser des dépenses uniquement lorsque des fonds budgétaires peuvent être réservés pour honorer des engagements de paiement futurs.
@@ -175,14 +164,6 @@ Liste des comptes principaux.
 
 Catégorie comptable qui permet de faire la somme des conséquences financières de la fabrication des produits et du stockage.
 
-###### <a name="commodity-pricing"></a>**tarification des marchandises**
-
-Stratégie de tarification pour la mise à jour du prix des articles vendus fabriqués à partir de marchandises soumises à des changements de prix fréquents.
-
-###### <a name="consolidated-order"></a>**commande consolidée**
-
-Document source qui documente plusieurs commandes référencées.
-
 ###### <a name="contractor"></a>**fournisseur**
 
 Rôle tenu par une personne qui participe à une relation fournisseur-employeur avec une entité juridique.
@@ -194,10 +175,6 @@ Article produit simultanément avec un autre article.
 ###### <a name="cost-center"></a>**centre de coût**
 
 Unité opérationnelle dans laquelle les gestionnaires sont responsables des dépenses budgétées et réelles.
-
-###### <a name="cost-of-goods-sold"></a>**coût des marchandises vendues**
-
-Catégorie comptable qui permet de faire la somme des conséquences financières de la fabrication des produits et du stockage.
 
 ###### <a name="cost-variance"></a>**écart de coût**
 
@@ -223,7 +200,7 @@ Délai nécessaire à l'exécution d'une activité.
 
 ###### <a name="dashboard"></a>**tableau de bord**
 
-Première page classique de Microsoft Dynamics 365 for Operations. Dans le tableau de bord, les utilisateurs voient une section pour chaque espace de travail auquel ils ont accès. Chaque section affiche les vignettes des sections récapitulatives de l'espace de travail associé. Le tableau de bord est composé d'un nom et de sections avec des vignettes.
+Première page classique de Finance and Operations. Dans le tableau de bord, les utilisateurs voient une section pour chaque espace de travail auquel ils ont accès. Chaque section affiche les vignettes des sections récapitulatives de l'espace de travail associé. Le tableau de bord est composé d'un nom et de sections avec des vignettes.
 
 ###### <a name="data-entity"></a>**entité de données**
 
@@ -260,10 +237,6 @@ Technologie de configuration qui permet de créer des variantes de produits en s
 ###### <a name="distinct-product"></a>**produit distinct**
 
 Produit identifiable de manière unique.
-
-###### <a name="document-blocking"></a>**blocage de document**
-
-Mise en attente de processus opérationnels pendant que des articles commandés font l'objet d'un processus d'assurance qualité.
 
 ###### <a name="document-management-system"></a>**système de gestion des documents**
 
@@ -316,10 +289,6 @@ Devise qui a un taux de change fixe par rapport à une autre devise.
 ###### <a name="fixed-quantity-kanban"></a>**kanban de quantité fixe**
 
 Type de kanban utilisé lorsque le nombre de kanbans affectés à une règle de kanban est constant.
-
-###### <a name="flexible-authentication"></a>**authentification flexible**
-
-Processus d'authentification via lequel les utilisateurs d'un large éventail de systèmes de gestion des identités peuvent être authentifiés.
 
 ###### <a name="formula"></a>**formule**
 
@@ -379,10 +348,6 @@ Activité de traitement ou de transfert dans un flux de production déclenché p
 
 Prélèvement des composants de produit dans le stock afin d'achever les tâches de production de kanban.
 
-###### <a name="kanban-product-quantity"></a>**quantité de produits du kanban**
-
-Nombre de demandes d'articles effectuées sur un kanban sur la base d'une règle de kanban.
-
 ###### <a name="kanban-rule"></a>**règle de kanban**
 
 Règle d'un système de lean manufacturing qui exécute une planification des besoins en matière et des stratégies de réapprovisionnement en contrôlant la manière dont les activités de transfert et de traitement sont coordonnées dans les flux de production.
@@ -410,10 +375,6 @@ Clé alphanumérique qui autorise une partie à utiliser des logiciels ou des co
 Capacité d'une partie à utiliser les immobilisations en cours pour régler le passif actuel.
 
 ### <a name="m"></a>**M**
-
-###### <a name="manufacturing-overhead-based-on-material"></a>**frais généraux de fabrication basés sur les matières**
-
-Les frais généraux de fabrication sont exprimés en tant que formules de calcul de coûts indirects pour un pourcentage de surcharge. Un groupe de coûts affecté à des composants matériels sert de base à une formule de calcul. Les formules de calcul peuvent être définies pour des produits individuels ou pour des groupes d'articles affectés à des produits, ce qui offre une plus grand souplesse pour le calcul des frais généraux de fabrication basés sur les matières.
 
 ###### <a name="master-scheduling"></a>**calcul PDP/MRP**
 
@@ -459,10 +420,6 @@ Un package est une unité compilable et déployable d'un ou plusieurs modèles.
 
 ###### <a name="party"></a>**partie**
 
-Entité qui a un rôle légalement obligatoire lorsqu'elle participe à des relations contractuelles.
-
-###### <a name="party"></a>**partie**
-
 Personne ou organisation qui participe à des activités économiques.
 
 ###### <a name="pegging"></a>**origine des besoins**
@@ -472,10 +429,6 @@ Processus de suivi de la quantité d'une demande d'articles pour en identifier l
 ###### <a name="pegging-event"></a>**événement de l'origine des besoins**
 
 Événement de flux de ressources qui indique une demande de produit.
-
-###### <a name="phantom-item"></a>**article fantôme**
-
-Article produit mais non stocké.
 
 ###### <a name="planned-intercompany-demand"></a>**besoin prévisionnel intersociétés**
 
@@ -489,17 +442,9 @@ Enregistrer la valeur monétaire d'un événement économique dans un compte sp�
 
 Personne qui crée un document source pour lancer une demande de ressources économiques.
 
-###### <a name="privilege"></a>**privilège**
-
-Une ou plusieurs autorisations qu'un utilisateur doit détenir pour exécuter une tâche.
-
 ###### <a name="procurement-catalog"></a>**catalogue d'approvisionnement**
 
 Liste des offres de produits regroupées par catégorie d'approvisionnement. Un catalogue d'approvisionnement permet de demander des produits à des fins d'utilisation interne par une organisation.
-
-###### <a name="product-component"></a>**composant de produit**
-
-Partie d'un produit.
 
 ###### <a name="product-dimension"></a>**dimension de produit**
 
@@ -507,7 +452,7 @@ Attributs de produit (taille, couleur ou configuration) utilisés dans le cadre 
 
 ###### <a name="product-family"></a>**famille de produits**
 
-Regroupement unique d'articles, de services ou de droits qui participent aux mêmes activités de production ou de livraison ou qui sont offerts dans les mêmes segments de marché. Dans Dynamics 365 for Operations, le regroupement est représenté à l'aide d'une clé de répartition par prévision.
+Regroupement unique d'articles, de services ou de droits qui participent aux mêmes activités de production ou de livraison ou qui sont offerts dans les mêmes segments de marché. Dans Finance and Operations, le regroupement est représenté à l'aide d'une clé de répartition par prévision.
 
 ###### <a name="product-master"></a>**produit générique**
 
@@ -581,10 +526,6 @@ Méthode utilisée pour augmenter ou réduire les besoins de prévision dans la 
 
 Enregistrement qui permet d'enregistrer les conséquences opérationnelles, juridiques et financières d'événements de flux de ressources dans un système comptable.
 
-###### <a name="regulated-product"></a>**produit réglementé**
-
-Produit réglementé par une instance gouvernementale qui exige la génération d'états en matière de conformité et d'audit.
-
 ###### <a name="rfq-request-for-quotation"></a>**appel d'offre**
 
 Document source qui documente une invitation à proposer une offre d'approvisionnement d'une quantité d'un produit pour un prix et à une date spécifiés.
@@ -593,15 +534,12 @@ Document source qui documente une invitation à proposer une offre d'approvision
 
 Personne à l'origine de la demande de ressources économiques.
 
-###### <a name="restricted-product"></a>**produit assujetti à des restrictions**
-
-Produit dont la distribution est limitée ou contrainte par une instance gouvernementale.
 
 ### <a name="s"></a>**S**
 
 ###### <a name="sales-agreement"></a>**contrat de vente**
 
-Document source qui documente un accord entre plusieurs parties qui spécifie que la partie vendeuse s'engage à vendre une quantité ou valeur spécifique d'un produit pendant une période donnée en échange de prix ou de remises avantageux.
+Document source qui documente un accord entre plusieurs parties qui spécifie que la partie vendeuse s'engage à vendre une quantité ou valeur spécifique d'un produit pendant une période donnée en échange de prix ou de remises avantageuses.
 
 ###### <a name="sales-agreement-policy"></a>**stratégie des contrats de vente**
 
@@ -647,13 +585,6 @@ Quantité de produits documentée sur une ligne de document source qui crée un 
 
 Estimation de la demande future créée en appliquant un algorithme de prévision aux données de transaction historique.
 
-###### <a name="supermarket"></a>**supermarché**
-
-Emplacement de stockage juste-à-temps qui dispose d'une capacité finie et permet de traiter des matières par lots près d'un point de consommation.
-
-###### <a name="system-defined-financial-dimension-type"></a>**type de dimension financière système**
-
-Dimension financière mappée à une table ou une vue de la base de données qui représente un type d'entité et dont les valeurs sont situées dans le domaine d'un attribut de ce type d'entité.
 
 ### <a name="t"></a>**T**
 
@@ -663,15 +594,15 @@ Délai nécessaire à la production d'une seule unité d'un produit.
 
 ###### <a name="task-guide"></a>**guide des tâches**
 
-Expérience contrôlée et guidée via les étapes d'un enregistrement de tâche. Le Guide des tâches conduit l'utilisateur via l'expérience qui a été enregistrée. Tous les comportements de sécurité, de données et d'application sont les mêmes quand vous complétez un Guide des tâches que sans le Guide des tâches. Le Guide des tâches utilise la même instrumentation que l'Enregistreur de tâches pour savoir si un utilisateur a terminé l'étape choisie, afin de pouvoir inviter l'utilisateur à passer à l'étape suivante dans l'enregistrement.
+Expérience contrôlée et guidée via les étapes d'un enregistrement de tâche. Le Guide des tâches conduit l'utilisateur via l'expérience qui a été enregistrée. Tous les comportements de sécurité, de données et d'application sont les mêmes quand vous complétez un Guide des tâches que sans le Guide des tâches. Le Guide de tâche utilise la même instrumentation que l'Enregistreur de tâches pour savoir si un utilisateur a terminé l'étape choisie, afin de pouvoir inviter l'utilisateur à passer à l'étape suivante dans l'enregistrement.
 
 ###### <a name="task-recorder"></a>**enregistreur de tâches**
 
-Outil préinstallé dans Microsoft Dynamics 365 for Operations. Lors de l'enregistrement, il enregistre tous les événements que l'utilisateur entre dans l'interface utilisateur de Dynamics 365 for Operations et qui sont exécutés auprès du serveur, notamment des valeurs ajoutées, des paramètres changés, des données supprimées, etc.
+Outil préinstallé dans Finance and Operations. Lors de l'enregistrement, il enregistre tous les événements que l'utilisateur entre dans l'interface utilisateur de Finance and Operations et qui sont exécutés auprès du serveur, notamment des valeurs ajoutées, des paramètres modifiés, des données supprimées, etc.
 
 ###### <a name="task-recording"></a>**enregistrement de tâches**
 
-Fichier contenant les actions et les annotations qui sont capturées lorsque l'Enregistreur de tâches est exécuté dans Microsoft Dynamics 365 for Operations.
+Fichier contenant les actions et les annotations qui sont capturées lorsque l'Enregistreur de tâches est exécuté dans Finance and Operations.
 
 ###### <a name="three-way-matching-policy"></a>**stratégie de rapprochement à trois facteurs**
 
@@ -684,12 +615,6 @@ Quantité d'un ou plusieurs articles transférée ou pouvant faire l'objet d'un 
 ###### <a name="two-way-matching-policy"></a>**stratégie de rapprochement à deux facteurs**
 
 Stratégie de rapprochement qui spécifie qu'un ou plusieurs prix de facture fournisseur correspondent à un ou plusieurs prix de commande fournisseur.
-
-### <a name="u"></a>**U**
-
-###### <a name="user-defined-financial-dimension-type"></a>**type de dimension financière utilisateur**
-
-Dimension financière mappée à une liste de valeurs définie par l'utilisateur.
 
 ### <a name="v"></a>**V**
 
@@ -726,7 +651,4 @@ Personne qui occupe un rôle d'employé ou de fournisseur, rémunérée en écha
 ###### <a name="workspace"></a>**espace de travail**
 
 Page qui fournit une vue d'ensemble de l'une des activités effectuées par l'utilisateur. La page utilise des vignettes, des listes et des graphiques pour afficher le travail en attente et les données associées de plusieurs sources, et la page couvre les tâches fréquentes associées à ces données. Des vignettes affichées dans la section récapitulative de l'espace de travail sont également affichées dans la section connexe dans le tableau de bord.
-
-
-
 
