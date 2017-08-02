@@ -1,28 +1,28 @@
 ---
 title: "Page d'accueil de la gestion de la chaîne d'approvisionnement"
 description: "Cette page redirige vers des ressources utiles pour exploiter plus efficacement Microsoft Dynamics 365 for Finance and Operations - Chaîne d'approvisionnement."
-author: yuyus
+author: YuyuScheller
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 
 ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
 ms.search.region: global
 ms.search.industry: 
 ms.author: yuyus
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: 4044c66833e914b1f0f2d552d827013bd48dc2db
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 7e916dd91126d140790cbb3a6a740c2e2f20ccef
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/29/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -36,25 +36,52 @@ Cette page redirige vers des ressources utiles pour exploiter plus efficacement 
 Accédez au <a href="https://roadmap.dynamics.com/">Calendrier de lancement de Dynamics 365</a> pour découvrir les nouvelles fonctions qui seront lancées ou qui sont en développement. 
 
 ## <a name="core-concepts-and-tasks"></a>Concepts et tâches clés
-*  Dans le volet de gauche, sélectionnez une zone de fonction pour en savoir plus. 
-*  <a href="https://mix.office.com/watch/wpf78tr7rjuh/">Traitement des APE entrants dans la gestion des entrepôts</a> (vidéo) 
 
+Sélectionnez une zone de fonctionnalités pour en savoir plus.
+
+- [Contrôle de gestion](/dynamics365/unified-operations/financials/cost-accounting/cost-accounting-home-page?toc=/dynamics365/unified-operations/financials/toc.json)
+- [Gestion des coûts](cost-management\costing-sheets.md)  
+- [Gestion des stocks](inventory\consignment.md)
+- [Planification](master-planning\introduction-demand-forecasting.md)
+- [Approvisionnements](procurement\procurement-sourcing-overview.md)
+- [Gestion des informations sur les produits](pim\product-information.md)
+- [Contrôle de la production](production-control\production-process-overview.md)
+- [Ventes et marketing](sales-marketing\overview-sales-marketing.md)
+- [Gestion du transport](transportation\transportation-management-overview.md)
+- [Gestion des entrepôts](warehousing\warehouse-configuration.md)
+
+## <a name="videos"></a>Vidéos
+
+### <a name="get-started"></a>Mise en route  
+
+Ces courtes vidéos permettent la mise en route des nouvelles fonctions incluses dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, mise à jour de juillet 2017.
+
+-  [Mise en route du contrôle de gestion](https://youtu.be/1pUDtJQZ8FU)
+-  [Espace de travail de contrôle des coûts sur téléphone mobile](https://youtu.be/imsuTg8rUVk)
+-  [Utiliser Excel pour l'analyse des coûts](https://youtu.be/-HKHYdClvx8)
+
+### <a name="tech-talk"></a>Entretien sur la technologie 
+-  <a href="https://youtu.be/zotrj3SbCl4">Configurateur de produits dans Microsoft Dynamics AX</a>
+-  <a href="https://youtu.be/7v8BPmEs9Dg">Planification - conseils et astuces pour résoudre les problèmes de performances</a>
+-  <a href="https://youtu.be/RLXybx20B5o">Besoin d'aide ! La production est lente !</a>
+-  <a href="https://mix.office.com/watch/wpf78tr7rjuh/">Traitement des APE entrants dans la gestion des entrepôts</a> 
+-  <a href="https://www.youtube.com/watch?v=--_didmZKHo&t=10s">Optimisez votre système de gestion des entrepôts</a>
+-  <a href="https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s">Gestion avancée des entrepôts R3 - Traitement entrant et réapprovisionnement minimum/maximum</a>
+-  <a href="https://youtu.be/Og0gLlVp7jA">Gestion avancée des entrepôts R3 - Un jour dans la vie, traitement sortant et réapprovisionnement de la demande</a>
+-  <a href="https://youtu.be/5w1MngVchBA">Libellés de la nouvelle gestion des entrepôts Microsoft Dynamics AX 2012 R3</a>
+-  <a href="https://www.youtube.com/embed/QUxXUrN-7n4">Dynamics AX 2012 R3 : Gestion avancée des entrepôts - Un jour dans la vie du traitement de la fabrication</a>
+-  <a href="https://youtu.be/y1jrd3A_k70">Opérations et activités de sous-traitance de la fabrication</a>
 
 ## <a name="blogs"></a>Blogs
-Plusieurs rubriques sur la fabrication et la gestion de la chaîne d'approvisionnement sont consultables sur le <a href="https://blogs.msdn.microsoft.com/axmfg/">Blog de l'équipe R&D de Dynamics AX chargée de la fabrication</a> et sur le <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">Blog de l'équipe R&D de Dynamics AX chargée de la gestion de la chaîne d'approvisionnement</a>. La plupart de ces articles ont été rédigés pour la version précédente de Finance and Operations, mais les mêmes concepts s'appliquent toujours et les procédures sont similaires dans la version actuelle. 
-
-Par exemple, vous pouvez y lire des articles récents sur : 
-* <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/">Annonce de Finance and Operations – Entreposage</a>
-* <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/12/01/improved-packing-functionality-dynamics-365-for-operations-1611/">Fonctionnalités d'emballage améliorées (Dynamics 365 for Operations 1611)</a>
-* <a href="https://blogs.msdn.microsoft.com/axmfg/2017/02/13/cross-docking-from-production-orders-to-transfer-orders/">Cross-docking des ordres de fabrication aux ordres de transfert</a>
+Plusieurs rubriques sur la fabrication et la gestion de la chaîne d'approvisionnement sont consultables sur le <a href="https://blogs.msdn.microsoft.com/axmfg/">Blog de l'équipe R&D de Dynamics AX chargée de la fabrication</a> et sur le <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">Blog de l'équipe R&D de Dynamics AX chargée de la gestion de la chaîne d'approvisionnement</a>. La plupart de ces articles ont été rédigés pour la version précédente de Finance and Operations, mais les mêmes concepts s'appliquent toujours et les procédures sont similaires dans la version actuelle. 
 
 ## <a name="white-papers"></a>Livres blancs
-* Le livre blanc <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Microsoft Dynamics 365 for Finance and Operations - Démarrer le contrôle de gestion</a> fournit les étapes de base pour configurer Microsoft Dynamics 365 for Finance and Operations – Contrôle de gestion afin d'analyser les coûts réels. Il fournit également une série de procédures que vous pouvez exécuter dans l'ordre où elles s'affichent.
-* Le livre blanc <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Finance and Operations - Lean Manufacturing : méthode Capable to Promise et planification de tâches de kanban</a> décrit en détail la planification des tâches de kanban et présente le concept de commande client utilisant la méthode « Capable to Promise » (CTP) pour contrôler la date de livraison. Il décrit également comment la méthode CTP peut être combinée avec des kanbans d'événement pour modéliser des scénarios d'assemblage ou de fabrication sur commande.
-* Le livre blanc <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">Microsoft Dynamics 365 for Finance and Operations - Calcul de nomenclature à l'aide d'une feuille de coûts</a> décrit comment définir une feuille de coûts comprenant le matériel et la fabrication, et comment le programme affecte les résultats de calcul de nomenclature. Vous pouvez faire les exercices dans l'annexe pour vous exercer, puis utiliser les connaissances acquises pour effectuer l'analyse de calcul de nomenclature.
+-  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Ateliers pratiques sur le contrôle de gestion</a> 
+-  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Lean manufacturing : planification de capable to promise et des tâches de kanban</a> 
+-  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">Calcul de nomenclature à l'aide d'une feuille d'évaluation des coûts</a>
 
 ## <a name="elearning-courses"></a>Cours eLearning
-Pour plus d'informations sur la formation Microsoft Dynamics 365 for Finance and Operations, voir le <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">Portail de formation Microsoft Dynamics</a>. (nécessite un compte CustomerSource) 
+Pour plus d'informations sur la formation Microsoft Dynamics 365 for Finance and Operations, voir le <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">Portail de formation Microsoft Dynamics</a>. (nécessite un compte CustomerSource) 
 
 
 
