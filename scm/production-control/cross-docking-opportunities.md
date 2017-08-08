@@ -1,5 +1,5 @@
 ---
-title: "Cross-docking des ordres de fabrication aux quais d’expédition | Microsoft Docs"
+title: "Cross-docking des ordres de fabrication aux quais d’expédition"
 description: "Cette rubrique décrit la procédure de gestion du processus du matériel de cross-docking qui est déclaré terminé d'une ligne de production à un quai de transport sortant."
 author: johanhoffmann
 manager: AnnBe
@@ -8,19 +8,20 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+audience: Application User
 ms.reviewer: bis
 ms.search.scope: AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 1705903
 ms.assetid: 427e01b3-4968-4cff-9b85-1717530f72e4
 ms.search.region: Global
 ms.author: johanho
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 0b5541b6752da0c73e4309951ecabc0793f24289
+ms.translationtype: HT
+ms.sourcegitcommit: b424be5396df9434cd799ca7e7e9342a7c476e29
+ms.openlocfilehash: 231808260eeab73120bab43558ab5745f9fdbe46
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -123,7 +124,6 @@ Une fois que le produit est déclaré terminé à la ligne de production, il est
 ### <a name="additional-information"></a>Informations supplémentaires
 
 -   Le scénario de cross-docking est pris en charge pour les articles contrôlés par lot et de série, avec les dimensions de lot et de numéro de série définies au-dessus de l'emplacement dans la hiérarchie de réservation.
--   La quantité qui est déclarée comme terminée ne peut pas être fractionnée en une demande d'ordre de transfert qui est inférieure. Par exemple, si 20 pièces sont déclarées terminées et qu'un ordre de transfert existent pour 5 pièces, alors l'ordre de transfert ne sera pas applicable pour le cross-docking.
 
 
 

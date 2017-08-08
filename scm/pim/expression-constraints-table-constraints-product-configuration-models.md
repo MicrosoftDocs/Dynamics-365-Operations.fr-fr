@@ -19,11 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 0bad513590ec0b0d495664d81f2e5f92e162bdd7
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: dd6f993e5c5fe343c6484383ff097f87f5dbf894
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -44,7 +44,7 @@ Les contraintes de table répertorient les combinaisons de valeurs autorisées p
 
 ### <a name="example-of-a-table-constraint"></a>Exemple de contrainte de table
 
-Cet exemple décrit la manière dont vous pouvez limiter la configuration d'un haut-parleur à des finitions et des grilles avant spécifiques. Le premier tableau indique les finitions du meuble et les grilles avant qui sont généralement disponibles pour la configuration. Les valeurs sont définies pour les types d'attribut **Finitions du meuble**et **Grille avant**.
+Cet exemple décrit la manière dont vous pouvez limiter la configuration d'un haut-parleur à des finitions et des grilles avant spécifiques. Le premier tableau indique les finitions du meuble et les grilles avant qui sont généralement disponibles pour la configuration. Les valeurs sont définies pour les types d'attribut **Finitions du meuble** et **Grille avant**.
 
 | Type d'attribut | Valeurs                      |
 |----------------|-----------------------------|
@@ -249,9 +249,9 @@ Vous ne pouvez pas utiliser de mots clés réservés comme nom de solveur pour l
 <a name="see-also"></a>Voir également :
 --------
 
-[Création d'une contrainte d'expression (guide de tâche)](http://ax.help.dynamics.com/en/wiki/create-an-expression-constraint/)
+[Créer une contrainte d'expression (guide de tâche) (/dynamics365/unified-operations/supply-chain/pim/tasks/add-expression-constraint-product-configuration-model)
 
-[Ajouter un calcul à un modèle de configuration de produit (guide de tâche)](http://ax.help.dynamics.com/en/wiki/add-a-calculation-to-a-product-configuration-model/)
+[Ajouter un calcul à un modèle de configuration de produit (guide de tâche)](/dynamics365/unified-operations/supply-chain/pim/tasks/add-calculation-product-configuration-model)
 
 
 

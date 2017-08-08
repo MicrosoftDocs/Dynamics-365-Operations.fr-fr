@@ -10,19 +10,19 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
-ms.search.scope: Operations, Core
+ms.reviewer: sericks
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 27141
 ms.assetid: b86934d4-d9dd-4a07-bfd1-4adb948a5139
 ms.search.region: Global
 ms.author: sericks
-ms.search.validFrom: 2016-08-30
+ms.search.validFrom: 2016-08-30T00:00:00.000Z
 ms.dyn365.ops.version: Platform update 2
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: a65de22d01d15510c3f2cb792b86e6a88260bed9
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 2044bd5a3c858fb099fa7f612ede9963acc51efb
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -34,9 +34,10 @@ Cette page vous indique des rubriques qui vous permettent de connaître les nouv
 
 Pour plus d'informations sur la mise à niveau vers la dernière version, voir [Processus de mise à niveau vers la dernière mise à jour](../migration-upgrade/upgrade-latest-update.md).
 
-## <a name="application-releases"></a>Lancements d'application
+> [!NOTE]
+> Dynamics 365 for Operations (sur site) est actuellement renommé. Vous verrez Dynamics 365 for Operations (sur site) référencé tout au long des communications et des guides d'autorisation. Le nom du produit que vous verrez lors du déploiement du produit est Dynamics 365 for Finance and Operations, Enterprise edition. Les deux noms se réfèrent au même produit.
 
-Pour en savoir plus sur les espaces de travail mobiles et le contenu Power BI récemment publié, voir [Espaces de travail mobiles récemment activés pour l'application mobile Dynamics 365 for Finance and Operations](../mobile-apps/mobile-workspaces-released.md) et [Contenu Power BI récemment publié pour Dynamics 365 for Finance and Operations](../analytics/power-bi-home-page.md)
+## <a name="application-releases"></a>Lancements d'application
 
 <table>
 <colgroup>
@@ -59,7 +60,7 @@ Pour en savoir plus sur les espaces de travail mobiles et le contenu Power BI r�
 <tr class="even">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
 <td>Mise à jour de juillet 2017</td>
-<td>O</td>
+<td>7.2.11792.56024</td>
 <td>2017 juin</td>
 <td><a href="whats-new-application-July-2017-update.md">Nouveautés ou modifications de la mise à jour de juillet 2017 de Dynamics 365 for Finance and Operations, Enterprise Edition</a></td>
 </tr>
@@ -110,7 +111,7 @@ Pour en savoir plus sur les espaces de travail mobiles et le contenu Power BI r�
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
 <td>Mise à jour de la plateforme 8</td>
-<td>O</td>
+<td>7.0.4565.16212</td>
 <td>2017 juin</td>
 <td><a href="whats-new-platform-update-8.md">Nouveautés ou modifications de la mise à jour 8 de la plateforme Dynamics 365 for Finance and Operations, Enterprise Edition (juin 2017)</a></td>
 </tr>

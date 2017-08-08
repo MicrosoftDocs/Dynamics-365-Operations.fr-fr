@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventItemSampling, InventNonConformanceHistory, InventNonConformanceTable, InventQualityOrderLineResults, InventQualityOrderTable, InventTestCorrection, InventTestDiagnosticType, InventTestInstrument, InventTestReportSetup, InventTestTable
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11574
 ms.assetid: 5ac8a059-5cb4-4cb5-ba14-b944bd08dae9
 ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 2d0af259fd6da8a57bada919f44a2902d9a5854d
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 31a9141feea56f1c8c1ba5fde446181c157953ad
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -69,7 +69,7 @@ Le tableau suivant répertorie les six types de non-conformité par défaut et d
 | Interne              | Le numéro de l'ordre de qualité ou un numéro de lot d'une transaction d'ordre de qualité. Par exemple, la non-conformité peut être liée aux tests exécutés dans le cadre d'un ordre de qualité, ou aux inquiétudes d'un employé en relation avec la qualité d'un produit.     |
 | Production de coproduits | Une non-conformité d'ordre de fabrication de coproduit associée à des ordres de pour production par lots.                                                                                                                                                    |
 
-Les non-conformités sont associées à un type de problème. Les types de problèmes sont définis dans la page **Types de problèmes**, où vous spécifiez les types de problèmes qui peuvent être associé à chaque type de non-conformité. Par exemple, les types de problèmes pour les non-conformités du type **Demande de service** peuvent refléter une classification des réclamations client, alors que les types de problèmes liés à une non-conformité du type **Interne **peuvent représenter une classification des codes défaut. 
+Les non-conformités sont associées à un type de problème. Les types de problèmes sont définis dans la page **Types de problèmes**, où vous spécifiez les types de problèmes qui peuvent être associé à chaque type de non-conformité. Par exemple, les types de problèmes pour les non-conformités du type **Demande de service** peuvent refléter une classification des réclamations client, alors que les types de problèmes liés à une non-conformité du type **Interne**peuvent représenter une classification des codes défaut. 
 
 Quand vous créer une non-conformité, vous sélectionnez le type de non-conformité et le type du problème. Le statut d'approbation initial est **Nouveau**, ce qui représente une demande d'action. L'étape suivante consiste à modifier le statut d'approbation sur **Approuvé** ou **Refusé**, pour indiquer si vous allez agir ou non sur la non-conformité. Vous pouvez également fermer une non-conformité (en sélectionnant une case à cocher distincte) pour indiquer que les actions associées sont terminées, ou l'ouvrir à nouveau pour indiquer que des actions supplémentaires sont requises. 
 
@@ -100,9 +100,9 @@ Il est judicieux de définir un type de document unique pour les corrections à 
 
 [Ordres de contrôle](quarantine-orders.md)
 
-[Configurer les ordres de qualité (Guide de tâche)](http://ax.help.dynamics.com/en/wiki/set-up-quality-orders/)
+[Configurer les ordres de qualité (Guide de tâche)](/dynamics365/unified-operations/supply-chain/inventory/tasks/set-up-quality-orders)
 
-[Inspecter la qualité des marchandises (guide de tâche)](https://ax.help.dynamics.com/en/wiki/inspect-the-quality-of-goods/)
+[Inspecter la qualité des marchandises (guide de tâche)](/dynamics365/unified-operations/supply-chain/inventory/tasks/inspect-quality-goods)
 
 
 

@@ -3,26 +3,26 @@ title: "Création de paiements fournisseur via une proposition de paiement"
 description: "Cette rubrique fournit une vue d'ensemble des options de proposition de paiement et il inclut quelques exemples qui indiquent comment les propositions de paiement sont exécutées. Les propositions de paiement sont souvent utilisées pour créer des paiements fournisseurs car la demande de proposition de paiement peut être utilisée pour sélectionner rapidement les factures fournisseur pour le paiement, en fonction de critères tels que la date d'échéance et l'escompte de règlement."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/17/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalTransVendPaym
 audience: Application User
+ms.reviewer: twheeloc
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14312
 ms.assetid: 585d5b0b-1b79-4a03-ab18-528918070377
 ms.search.region: Global
 ms.author: kweekley
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b351ea58a25c763dcf90ff1c61e0e3b3cba6c34a
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: aac70abc25c45ef4479425cdb648f4450d5db2dc
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -39,8 +39,8 @@ La demande de proposition de paiement contient différents onglets, chacun ayant
 
 ## <a name="parameters"></a>Paramètres
 -   **Sélectionner les factures par** – Les factures se situant dans la période spécifiée par les champs **Date de début** et **Date de fin** peuvent être sélectionnées par date d'échéance, date d'escompte de règlement, ou les deux. Si vous utilisez la date d'escompte de règlement, le système recherche d'abord les factures dont la date d'escompte de règlement se situe entre la date de début et la date de fin. Le système détermine ensuite si la facture est éligible pour l'escompte de règlement à l'aide de la date de la session pour garantir que la date d'escompte de règlement n'est pas déjà passée.
--   **Date de début** et**Date de fin** – Les factures dont la date d'échéance ou d'escompte de règlement se situe dans cette période sont sélectionnées pour le paiement.
--   **Date de paiement** – Si aucune date n'est définie, tous les paiements sont créés à cette date. Le champ **Date de paiement minimal** est ignoré.
+-   **Date de début** et **Date de fin** – Les factures dont la date d'échéance ou d'escompte de règlement se situe dans cette période sont sélectionnées pour le paiement.
+-   **Date de paiement** : N'est utilisée que lorsque le champ **Période** du mode de paiement est défini sur **Total**. Si aucune date n'est définie, tous les paiements sont créés à cette date. Le champ **Date de paiement minimal** est ignoré.
 -   **Date de paiement minimal** – Permet d'entrer la date de paiement minimal. Par exemple, les champs **Date de début** et **Date de fin** précisent une plage du 1er au 10 septembre, et la date de paiement minimal est le 5 septembre. Dans ce cas, toutes les factures dont la date d'échéance se situe entre le 1er et le 5 septembre ont une date de paiement au 5 septembre. Toutefois, toutes les factures dont la date d'échéance se situe entre le 5 et le 10 septembre ont une date de paiement qui est égale à la date d'échéance de chaque facture.
 -   **Montant limite** – Saisissez le montant total maximal pour tous les paiements.
 -   **Créer des paiements sans prévisualiser la facture** – Si cette option est définie sur **Oui**, les paiements seront créés immédiatement sur la page **Paiements fournisseur**. La page **Proposition de paiement** sera ignorée. Par conséquent, les paiements seront créés plus rapidement. Les paiements peuvent encore être modifiés à partir de la page **Paiements fournisseur**. Sinon, vous pouvez revenir sur la page **Proposition de paiement** à l'aide du bouton **Modifier les factures du paiement sélectionné**.

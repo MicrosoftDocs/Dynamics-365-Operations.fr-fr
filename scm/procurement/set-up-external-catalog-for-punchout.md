@@ -1,7 +1,7 @@
 ---
 title: "Paramétrer un catalogue externe pour PunchOut eProcurement"
 description: "Cette rubrique décrit l'utilisation d'un catalogue externe ou catalogue de pointage pour collecter les informations de devis d'un fournisseur et les ajouter à une demande."
-author: BibiSp
+author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchTable, PurchVendorPortalRequests
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: bis
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 2d853cb963471f81d7a2a09a0f7913722de8a417
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 4c89f6f168825f7767b836be09fa73b8659b00c6
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -40,9 +40,9 @@ Le catalogue externe permet à un employé qui entre une demande d'achat d'être
 
 ### <a name="to-set-up-an-external-vendor-catalog-complete-the-following-tasks"></a>Pour paramétrer un catalogue fournisseur externe, procédez comme suit :
 
-1. Paramétrez une hiérarchie des catégories d'approvisionnement. Pour plus d'informations, voir [Paramétrer des stratégies pour les hiérarchies de catégories d'approvisionnement](/https://ax.help.dynamics.com/en/wiki/set-up-policies-for-procurement-category-hierarchies/).
-2. Enregistrez le fournisseur dans Finance and Operations. Avant de paramétrer des configurations pour accéder au catalogue d'un fournisseur externe, vous devez paramétrer le fournisseur et le contact associé dans Microsoft Dynamics 365. Le fournisseur du catalogue externe doit également être ajouté à la catégorie d'approvisionnement sélectionnée. Pour plus d'informations sur l'enregistrement des fournisseurs dans Microsoft Dynamics 365, voir [Gérer les utilisateurs de la fonctionnalité de collaboration fournisseur](/procurement/manage-vendor-collaboration-users.md). Pour plus d'informations sur l'affectation d'un fournisseur à une catégorie d'approvisionnement, voir [Approuver les fournisseurs pour des catégories d'approvisionnement spécifiques](/https://ax.help.dynamics.com/en/wiki/approve-vendors-for-specific-procurement-categories/).
-3. Vérifiez que les unités de mesure et la devise utilisées par le fournisseur sont paramétrées. Pour plus d'informations sur la création d'une unité de mesure, voir [Créer des unités de mesure](/https://ax.help.dynamics.com/en/wiki/manage-unit-of-measure/).
+1. Paramétrez une hiérarchie des catégories d'approvisionnement. Pour plus d'informations, voir [Paramétrer des stratégies pour les hiérarchies de catégories d'approvisionnement](/dynamics365/unified-operations/supply-chain/procurement/tasks/set-up-policies-procurement-category-hierarchies).
+2. Enregistrez le fournisseur dans Finance and Operations. Avant de paramétrer des configurations pour accéder au catalogue d'un fournisseur externe, vous devez paramétrer le fournisseur et le contact associé dans Microsoft Dynamics 365. Le fournisseur du catalogue externe doit également être ajouté à la catégorie d'approvisionnement sélectionnée. Pour plus d'informations sur l'enregistrement des fournisseurs dans Microsoft Dynamics 365, voir [Gérer les utilisateurs de la fonctionnalité de collaboration fournisseur](manage-vendor-collaboration-users.md). Pour plus d'informations sur l'affectation d'un fournisseur à une catégorie d'approvisionnement, voir [Approuver les fournisseurs pour des catégories d'approvisionnement spécifiques](/dynamics365/unified-operations/supply-chain/procurement/tasks/approve-vendors-specific-procurement-categories).
+3. Vérifiez que les unités de mesure et la devise utilisées par le fournisseur sont paramétrées. Pour plus d'informations sur la création d'une unité de mesure, voir [Gérer des unités de mesure](/dynamics365/unified-operations/supply-chain/pim/tasks/manage-unit-measure).
 4. Configurez le catalogue fournisseur externe conformément aux exigences relatives au site de catalogue externe de votre fournisseur. Pour plus d'informations sur cette tâche, consultez la section suivante.
 5. Testez les configurations du catalogue externe du fournisseur pour vérifier que les paramètres sont valides et que vous pouvez accéder au catalogue externe du fournisseur. Utilisez l'action **Valider les paramètres** pour valider le message de paramétrage de la demande que vous avez défini. Ce message doit entraîner l'ouverture du site du catalogue externe du fournisseur dans une fenêtre du navigateur. Pendant la validation, il est impossible de commander des articles et des services au fournisseur. Pour commander des articles et des services, vous devez accéder au catalogue du fournisseur à partir d'une demande d'achat.
 6. Activez le catalogue externe à l'aide du bouton **Activer le catalogue** sur la page **Catalogues externes**. Le catalogue externe doit être activé pour que les employés peuvent l'utiliser. Vous pouvez désactiver le catalogue externe à tout moment.

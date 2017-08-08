@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: sericks
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 267914
 ms.assetid: 4e6c7194-a059-4057-bd62-ec0c802c36fd
 ms.search.region: Global
 ms.author: cgarty
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: f55e1e89d0e48819962c169a56f0f27dc0d792b4
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 06fc9f8dda83fddea9ae331bb82c8874b15d76b9
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -90,7 +90,7 @@ Vous pouvez utiliser le concepteur pour ajuster les colonnes qui sont automatiqu
 5. Pour appliquer les modifications à la source de données, cliquez sur **Mettre à jour**. Ensuite, cliquez sur **Terminé** pour quitter le concepteur. 
 6. Si vous avez ajouté un champ (colonne), cliquez sur **Actualiser** pour extraire un jeu de données mis à jour.
 
-## <a name="httpspowerappsmicrosoftcomenustutorialsdataplatforminteractiveexceltroubleshootingtroubleshooting"></a>[](https://powerapps.microsoft.com/enus/tutorials/dataplatforminteractiveexcel/#troubleshooting)Dépannage
+## <a name="troubleshooting"></a>Dépannage
 Il existe quelques problèmes pouvant être résolus en quelques pas.
 
 -   **Le bouton Charger les applets s'affiche.** Si le complément Excel comporte un bouton **Charger les applets** après la connexion, vous n'êtes probablement pas connecté sous le bon compte d'utilisateur. Pour résoudre ce problème, vérifiez que le nom d'utilisateur approprié s'affiche dans le coin supérieur droit du complément Excel. Si un nom d'utilisateur incorrect s'affiche, cliquez dessus, déconnectez-vous et reconnectez-vous.

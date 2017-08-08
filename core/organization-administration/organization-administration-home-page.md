@@ -17,11 +17,11 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 889a9ce79d4599a60a4503d7876276a1452a5465
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 84243a91d8b76873cd33651bbdff900b14d9c76e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -36,8 +36,8 @@ Cette rubrique redirige vers des ressources utiles pour exploiter Microsoft Dyna
 ----------------
 
 -   [Vue d'ensemble des souches de numéros](number-sequence-overview.md)
--   [Configurer les souches de numéros à l'aide d'un assistant](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-by-using-a-wizard/) (Guide de tâche)
--   [Paramétrer des souches de numéros sur une base individuelle](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-on-an-individual-basis/) (Guide de tâche)
+-   [Configurer les souches de numéros à l'aide d'un assistant](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-number-sequences-wizard) (Guide de tâche)
+-   [Paramétrer des souches de numéros sur une base individuelle](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-number-sequences-individual-basis) (Guide de tâche)
 
 ## <a name="address-books"></a>Carnets d'adresses
 -   [Carnets d'adresses](qa-address-books.md)
@@ -67,17 +67,17 @@ Cette rubrique redirige vers des ressources utiles pour exploiter Microsoft Dyna
 
 ## <a name="electronic-signatures"></a>Signatures électroniques
 -   [Vue d'ensemble de la signature électronique](electronic-signature-overview.md)
--   [Paramétrage de signatures électroniques](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/) (Guide de tâche)
+-   [Paramétrage de signatures électroniques](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-electronic-signatures) (Guide de tâche)
 
 ## <a name="organizations"></a>Organisations
 -   [Organisations et hiérarchies d'organisation](organizations-organizational-hierarchies.md)
 -   [Planification de la hiérarchie d'organisation](plan-organizational-hierarchy.md)
--   [Création d'une unité opérationnelle](http://ax.help.dynamics.com/en/wiki/create-an-operating-unit/) (Guide de tâche)
--   [Création ou modification d'une hiérarchie d'organisation](http://ax.help.dynamics.com/en/wiki/create-an-organization-hierarchy/) (Guide de tâche)
--   [Création d'une entité juridique](http://ax.help.dynamics.com/en/wiki/create-a-legal-entity/) (Guide de tâche)
+-   [Création d'une unité opérationnelle](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/create-operating-unit) (Guide de tâche)
+-   [Création ou modification d'une hiérarchie d'organisation](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/create-organization-hierarchy) (Guide de tâche)
+-   [Création d'une entité juridique](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/create-legal-entity) (Guide de tâche)
 
 ## <a name="general-administration"></a>Administration générale
--   [Modification de la bannière ou du logo](http://ax.help.dynamics.com/en/wiki/change-the-banner-or-logo/) (Guide de tâche)
+-   [Modification de la bannière ou du logo](/dynamics365/unified-operations/fin-and-ops/get-started/tasks/change-banner-or-logo) (Guide de tâche)
 -   [À propos des données de date/d'heure et des fuseaux horaires](date-time-zones.md)
 -   [Modèles d'enregistrement](record-templates.md)
 
