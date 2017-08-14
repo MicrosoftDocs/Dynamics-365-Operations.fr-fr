@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
+ms.reviewer: kfend
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
 ms.author: nselin
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 36c5e78f4b85d0c763c35b62a6592365501db325
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 6be91dfc02b728ffdf0f9d3baf1d41d3d2c10fea
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -103,7 +103,7 @@ Cliquez sur le bouton **Paramètres** pour le nouvel enregistrement de destinati
 Sur la page **Configurations** (**Administration d'organisation** &gt; **Génération d'états électroniques** &gt; **Configurations**), dans l'arborescence des configurations, sélectionnez la configuration **Activités d'importation/d'exportations** que vous avez créée précédemment. Modifiez le statut de la version 1.1 de **Brouillon** à **Terminée** pour rendre ce format utilisable. [![Page Configurations](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png) Sélectionnez la version terminée de la configuration **Activités d'importation/d'exportation**, puis cliquez sur **Exécuter**. Notez que la destination configurée est appliquée au résultat de sortie qui est généré dans le format Excel. Définissez l'option **Traitement par lots** sur **Oui** pour d'exécuter cet état en mode sans assistance. Cliquez sur **Répétition** pour planifier la récurrence requise de cette exécution du traitement par lots. La récurrence définit la fréquence à laquelle les données mises à jour seront transférées de Finance and Operations vers Power BI. [![Boîte de dialogue Paramètres de génération d'états électroniques](./media/ger-power-bi-format-configuration-run-to-schedule-1024x413.png)](./media/ger-power-bi-format-configuration-run-to-schedule.png) Après l'avoir configurée, vous pouvez rechercher la tâche d'exécution de l'état ER sur la page **Traitements par lots** (**Administration système &gt; Recherches &gt; Traitements par lots**). [![Page Traitements par lots](./media/ger-power-bi-format-configuration-running-job-1024x410.png)](./media/ger-power-bi-format-configuration-running-job.png) Lorsque cette tâche est exécutée pour la première fois, la destination crée un fichier Excel qui contient le nom configuré du dossier SharePoint sélectionné. Chaque fois que la tâche est exécutée par la suite, la destination crée une version de ce fichier Excel. [![Nouvelle version du fichier Excel](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2-1024x412.png)](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2.png)
 
 ## <a name="create-a-power-bi-dataset-by-using-the-output-result-of-the-er-format"></a>Créez un ensemble de données Power BI à l'aide du résultat de sortie du format ER
-Connectez-vous à Power BI, puis ouvrez un groupe Power BI existant (espace de travail) ou créez un groupe. Cliquez sur **Ajouter** sous **Fichiers** dans la section **Importer ou se connecter aux données** ou sur le signe (**+**) en regard de **Ensembles de données** dans le volet gauche. [![Création d'un ensemble de données](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png) Sélectionnez l'option **SharePoint – Sites d'équipe**, puis entrez le chemin d'accès du serveur SharePoint Server que vous utilisez (**https://ax7partner.spoppe.com** dans notre exemple). Puis accédez au dossier **/Shared Documents/GER data/PowerBI**, puis sélectionnez le fichier Excel que vous avez créé comme source de données pour le nouvel ensemble de données Power BI. [![Sélection du fichier Excel](./media/ger-power-bi-add-dataset-select-excel-file-1024x522.png)](./media/ger-power-bi-add-dataset-select-excel-file.png) Cliquez sur **Connecter**, puis sur **Importer**. Un ensemble de données est créé, basé sur le fichier Excel sélectionné. L'ensemble de données peut également être ajouté automatiquement au tableau de bord nouvellement créé. [![Ensemble de données sur le tableau de bord](./media/ger-power-bi-added-dataset-1024x489.png)](./media/ger-power-bi-added-dataset.png) Configurez le programme d'actualisation pour cet ensemble de données pour forcer une mise à jour périodique. Les mises à jour périodiques activent la consommation de nouvelles données commerciales provenant de Finance and Operations via l'exécution périodique de l'état ER à l'aide des nouvelles versions du fichier Excel créées dans le serveur SharePoint Server.
+Connectez-vous à Power BI, puis ouvrez un groupe Power BI existant (espace de travail) ou créez un groupe. Cliquez sur **Ajouter** sous **Fichiers** dans la section **Importer ou se connecter aux données** ou sur le signe (**+**) en regard de **Ensembles de données** dans le volet gauche. [![Création d'un ensemble de données](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png) Sélectionnez l'option **SharePoint – Sites d'équipe**, puis entrez le chemin d'accès du serveur SharePoint Server que vous utilisez (**https://ax7partner.litware.com** dans notre exemple). Puis accédez au dossier **/Shared Documents/GER data/PowerBI**, puis sélectionnez le fichier Excel que vous avez créé comme source de données pour le nouvel ensemble de données Power BI. [![Sélection du fichier Excel](./media/ger-power-bi-add-dataset-select-excel-file-1024x522.png)](./media/ger-power-bi-add-dataset-select-excel-file.png) Cliquez sur **Connecter**, puis sur **Importer**. Un ensemble de données est créé, basé sur le fichier Excel sélectionné. L'ensemble de données peut également être ajouté automatiquement au tableau de bord nouvellement créé. [![Ensemble de données sur le tableau de bord](./media/ger-power-bi-added-dataset-1024x489.png)](./media/ger-power-bi-added-dataset.png) Configurez le programme d'actualisation pour cet ensemble de données pour forcer une mise à jour périodique. Les mises à jour périodiques activent la consommation de nouvelles données commerciales provenant de Finance and Operations via l'exécution périodique de l'état ER à l'aide des nouvelles versions du fichier Excel créées dans le serveur SharePoint Server.
 
 ## <a name="create-a-power-bi-report-by-using-the-new-dataset"></a>Créer un état Power BI à l'aide du nouvel ensemble de données
 Pour créer un état Power BI, cliquez sur l'ensemble de données Power BI **Détails d'importation et d'exportation** que vous avez créé. Puis configurez la visualisation. Par exemple, sélectionnez la visualisation **Carte remplie**, et configurez-la comme suit :

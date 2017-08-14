@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 0cebd30a560ff033efab89c2055827b62cf31576
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 9bc4dba3c31e82da2285ef5e339ace634fbd6fde
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -39,7 +39,7 @@ Cet article fournit une vue d'ensemble des signatures électroniques et décrit 
 Une signature électronique confirme l'identité d'une personne qui va commencer ou approuver une procédure informatique. Dans certains secteurs, une signature électronique représente un engagement juridique aussi important qu'une signature manuscrite. La signature électronique est un impératif de conformité aux réglementations pour certaines industries réglementées, telles que les industries pharmaceutique, alimentaire et aérospatiale et de défense. C'est également un élément requis de la conformité aux réglementations 21 CFR Partie 11 émises par la FDA (Food and Drug Administration) aux États-Unis. **Remarque :** une signature électronique en elle-même n'est pas la même chose qu'une signature numérique. Une signature électronique n'est qu'un substitut de signature manuscrite, alors qu'une signature numérique est accompagnée de mesures de sécurité supplémentaires. Une signature numérique permet d'identifier si un autre utilisateur ou une autre procédure a falsifié les données. Une signature numérique peut également être vérifiée et cette vérification ne peut pas être réfutée par le détenteur du certificat utilisé pour la signature des données. Conformément à la description ci-dessous, les signatures électroniques de Microsoft Dynamics 365 for Finance and Operations disposent d'une fonction de signature numérique intégrée.
 
 ## <a name="electronic-signatures-in-dynamics-365-for-finance-and-operations"></a>Signatures électroniques dans Dynamics 365 for Finance and Operations
-Dans Finance and Operations, vous pouvez utiliser des signatures électroniques pour des processus d'entreprise importants. Certains processus disposent d'une fonction de signature électronique intégrée. Vous pouvez également créer des demandes de signature personnalisées pour les tables et les champs de base de données. Les signatures électroniques disposent d'une fonction de signature numérique intégrée. Chaque utilisateur qui signe des documents doit obtenir un certificat cryptographique valide. Lorsqu'un document est signé, la clé privée associée à ce certificat est contrôlée. Finance and Operations enregistre des informations de signature électronique dans un journal pour fournir une piste d'audit. Pour configurer les signatures électroniques, consultez [Paramétrage de signatures électroniques (guide de tâche)](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/).
+Dans Finance and Operations, vous pouvez utiliser des signatures électroniques pour des processus d'entreprise importants. Certains processus disposent d'une fonction de signature électronique intégrée. Vous pouvez également créer des demandes de signature personnalisées pour les tables et les champs de base de données. Les signatures électroniques disposent d'une fonction de signature numérique intégrée. Chaque utilisateur qui signe des documents doit obtenir un certificat cryptographique valide. Lorsqu'un document est signé, la clé privée associée à ce certificat est contrôlée. Finance and Operations enregistre des informations de signature électronique dans un journal pour fournir une piste d'audit. Pour configurer les signatures électroniques, consultez [Paramétrage de signatures électroniques (guide de tâche)](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-electronic-signatures).
 
 ## <a name="users-who-require-access-to-electronic-signatures"></a>Utilisateurs ayant besoin d'un accès aux signatures électroniques
 Trois types d'utilisateurs différents ont généralement besoin d'un accès de sécurité aux signatures électroniques : les administrateurs de signature électronique, les signataires et les auditeurs.

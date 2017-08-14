@@ -11,19 +11,18 @@ ms.technology:
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 58941
 ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
 ms.search.region: global
 ms.author: nselin
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: cebd1b6f041e18c2e016142aba7447bf813f570b
-ms.openlocfilehash: f6327b339441f2f1f6d4e557e45d085685245a08
+ms.translationtype: HT
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: b9ad00b4157d1f732a8f2400712c94a92a17b273
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/19/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -43,8 +42,8 @@ La génération d'états électroniques prend en charge les formats TEXT, XML, D
 ## <a name="capabilities"></a>Capacités
 Le moteur d'états électroniques est doté des fonctionnalités suivantes :
 
-- il représente un outil partagé unique pour la génération d'états électronique dans différents domaines et remplace plus de 20 moteurs différents effectuant certains types de génération d'états électronique Microsoft Dynamics 365 for Operations.
-- Il isole le format d’un état de l’implémentation actuelle de Dynamics 365 for Operations. En d’autres termes, le format est applicable aux différentes versions de Dynamics 365 for Operations.
+- Il représente un outil partagé unique pour la génération d'états électronique dans différents domaines et remplace plus de 20 moteurs différents effectuant certains types de génération d'états électronique Microsoft Dynamics 365 for Finance and Operations.
+- Il isole le format d’un état de l’implémentation actuelle de Finance and Operations. En d’autres termes, le format est applicable aux différentes versions de Finance and Operations.
 - Il prend en charge la création d’un format personnalisé qui est basé sur un format d’origine. Il inclut également des fonctionnalités permettant de mettre à niveau automatiquement le format personnalisé lorsque le format d’origine est modifié du fait que des spécifications de localisation/personnalisation sont introduites.
 - Il devient l'outil standard principal pour prendre en charge les exigences de localisation dans les états électroniques, pour Microsoft ainsi que pour les partenaires de Microsoft.
 - Il prend en charge la capacité à distribuer des formats aux partenaires et aux clients via Microsoft Dynamics Lifecycle Services (LCS).
@@ -59,7 +58,8 @@ Les états électroniques prennent en charge deux types de composants : **Modèl
 Un composant de modèle de données est une représentation abstraite d'une structure de données. Il décrivait un domaine de l'entreprise spécifique avec suffisamment de détail pour satisfaire aux conditions de génération d'états pour ce domaine. Un composant de modèle de données se compose des éléments suivants :
 
 - un modèle de données, en tant qu'ensemble d'entités commerciales spécifiques au domaine, ainsi qu'une définition hiérarchiquement structurée des relations entre elles.
-- une mise en correspondance de modèle en tant qu'ensemble de sources de données Dynamics 365 for Operations avec des éléments individuels de ce modèle de données qui spécifie au moment de l'exécution le flux de données et les règles de population de données commerciales dans le composant de modèle de données.
+- une mise en correspondance de modèle en tant qu'ensemble de sources de données Finance and Operations avec des éléments individuels de ce modèle de données qui spécifie au moment de l'exécution le flux de données et les règles de population de données commerciales dans le composant de modèle de données.
+
 Une entité commerciale de modèle de données est représentée comme un conteneur (enregistrement). Les propriétés d'entité commerciale sont représentées comme des articles de données (champs). Chaque article de données est doté d'un nom, d'un libellé, d'une description et d'une valeur uniques. La valeur de chaque élément de données peut être conçu de sorte qu’il soit reconnu comme une chaîne, entier, réel, date, énumération, booléen, etc. En outre, il peut s'agir d'un autre enregistrement ou d'une liste d'enregistrements.
 
 Un composant de modèle de données unique peut contenir plusieurs hiérarchies des entités commerciales spécifiques à un domaine. Il contient également les mappages de modèles qui prennent en charge le flux de données spécifiques aux états au moment de l'exécution. Les hiérarchies sont différenciées par un enregistrement unique sélectionné comme racine de la mise en correspondance de modèle. Par exemple, le modèle de données du domaine du paiement peut prendre en charge les mises en correspondance suivantes :
@@ -71,17 +71,18 @@ Notez que les entités commerciales (par exemple, les transactions de paiement e
 
 Un mappage de modèle qui prend en charge les documents électroniques sortants a les fonctionnalités suivantes :
 
-- Il peut utiliser les différents types de données Dynamics 365 for Operations comme sources de données pour un modèle de données. Par exemple, il peut utiliser des enums, des entités de données, des méthodes ou des tables.
+- Il peut utiliser les différents types de données Finance and Operations comme sources de données pour un modèle de données. Par exemple, il peut utiliser des enums, des entités de données, des méthodes ou des tables.
 - Il prend en charge les paramètres d'entrée utilisateur qui peuvent être définies comme sources de données pour un modèle de données lorsque certaines données doivent être spécifiées au moment de l'exécution.
-- Il prend en charge la transformation des données Dynamics 365 Operations en groupes requis. Il permet également de filtrer, de trier et d'ajouter des données, ainsi que des champs calculés logiques qui sont conçus via les formules qui sont semblables aux formules de Microsoft Excel, comme le montre l'illustration suivante. Pour plus d'informations, voir [Concepteur de formule dans les états électroniques](general-electronic-reporting-formula-designer.md).
+- Il prend en charge la transformation des données Finance and Operations en groupes requis. Il permet également de filtrer, de trier et d'ajouter des données, ainsi que des champs calculés logiques qui sont conçus via les formules qui sont semblables aux formules de Microsoft Excel, comme le montre l'illustration suivante. Pour plus d'informations, voir [Concepteur de formule dans les états électroniques](general-electronic-reporting-formula-designer.md).
 
 [![Concepteur de formule](./media/ER-overview-01.png)](./media/ER-overview-01.png) 
 
 Un mappage de modèle qui prend en charge les documents électroniques entrants a les fonctionnalités suivantes :
 
-- Il peut utiliser les objets de données Dynamics 365 for Operations pouvant être mis à jour en tant que cibles. Ces éléments de données incluent des tables, des entités de données et des vues. Les données peuvent être mises à jour à l'aide des données issues de documents électroniques entrants. Plusieurs cibles peuvent être utilisées dans un mappage de modèle unique.
+- Il peut utiliser différents éléments de données pouvant être mis à jour comme cibles. Ces éléments de données incluent des tables, des entités de données et des vues. Les données peuvent être mises à jour à l'aide des données issues de documents électroniques entrants. Plusieurs cibles peuvent être utilisées dans un mappage de modèle unique.
 - Il prend en charge les paramètres d'entrée utilisateur qui peuvent être définies comme sources de données pour un modèle de données lorsque certaines données doivent être spécifiées au moment de l'exécution.
-Un composant de modèle de données est conçu pour chaque domaine d'activité qui devrait être utilisé comme une source de données unifiée pour les rapports qui isolent les rapports de l'implémentation physique des sources de données Dynamics 365 for Operations. Il représente des concepts et des fonctionnalités d'entreprise spécifiques au domaine sous une forme qui rend la conception d'origine du format de rapport et toute autre maintenance plus efficaces.
+
+Un composant de modèle de données est conçu pour chaque domaine d'activité qui devrait être utilisé comme une source de données unifiée pour les rapports qui isolent les rapports de l'implémentation physique des sources de données Finance and Operations. Il représente des concepts et des fonctionnalités d'entreprise spécifiques au domaine sous une forme qui rend la conception d'origine du format de rapport et toute autre maintenance plus efficaces.
 
 #### <a name="format-components-for-outgoing-electronic-documents"></a>Composants de format pour les documents électroniques sortants
 
@@ -133,32 +134,32 @@ Le contrôle de versions est pris en charge pour les composants d'états électr
 
 Les versions dotées du statut **Terminée** ou **Partagée** sont disponibles pour un autre échange de données. Les actions suivantes peuvent être exécutées sur un composant possédant ces statuts :
 
-- Le composant peut être sérialisé au format XML et exporté vers un fichier au format XML à partir de Dynamics 365 for Operations.
-- Le composant peut être resérialisé à partir d’un fichier XML et importé dans Dynamics 365 for Operations sous la forme d’une nouvelle version d’un composant d'état électronique.
+- Le composant peut être sérialisé au format XML et exporté vers un fichier au format XML.
+- Le composant peut être resérialisé à partir d’un fichier XML et importé dans Finance and Operations sous la forme d’une nouvelle version d’un composant d'état électronique.
 
 #### <a name="component-date-effectivity"></a>Validité de date du composant
 
-Les versions du composant d'état électronique est soumis à une date d'effet. Vous pouvez définir la date **Prend effet le** pour un composant d'état électronique afin de spécifier la date à partir de laquelle ce composant devient valide pour les processus de génération d'états. La date de session de Microsoft Dynamics 365 for Operations permet de définir si un composant est valide pour l'exécution. Lorsque plusieurs versions sont valides pour une date spécifique, la version la plus récente est utilisée pour le processus de génération d'états.
+Les versions du composant d'état électronique est soumis à une date d'effet. Vous pouvez définir la date **Prend effet le** pour un composant d'état électronique afin de spécifier la date à partir de laquelle ce composant devient valide pour les processus de génération d'états. La date de session de Finance and Operations permet de définir si un composant est valide pour l'exécution. Lorsque plusieurs versions sont valides pour une date spécifique, la version la plus récente est utilisée pour le processus de génération d'états.
 
 #### <a name="component-access"></a>Accès au composant
 
-L'accès aux composants de format d'états électroniques dépend du paramètre du code de pays/région ISO. Lorsque ce paramètre est vide pour une version sélectionnée d’une configuration de format, un composant de format est accessible à partir de n’importe quelle société Dynamics 365 for Operations au moment de l’exécution. Lorsqu'il contient des codes pays/région ISO, un composant de format est disponible uniquement à partir des sociétés Dynamics 365 for Operations dont l'adresse principale est défini pour l'un des codes pays/régions ISO du composant de format.
+L'accès aux composants de format d'états électroniques dépend du paramètre du code de pays/région ISO. Lorsque ce paramètre est vide pour une version sélectionnée d’une configuration de format, un composant de format est accessible à partir de n’importe quelle société au moment de l’exécution. Lorsqu'il contient des codes pays/région ISO, un composant de format est disponible uniquement à partir des sociétés dont l'adresse principale est défini pour l'un des codes pays/régions ISO du composant de format.
 
 Différentes versions d'un composant de format de données peuvent avoir différents paramètres de codes pays/région ISO.
 
 #### <a name="configuration"></a>Configuration
 
-Une configuration de la génération d'états électroniques est le wrapper d'un composant de génération d'états électroniques particulier. Ce composant peut être un composant du modèle de données ou un composant de format. Une configuration peut inclure différentes versions d'un composant d'état électronique. Chaque configuration est marquée comme possédée par un fournisseur de configuration spécifique. La version **Brouillon** d'un composant d'une configuration peut être modifiée lorsque le propriétaire d'une configuration a été sélectionné comme fournisseur actif dans les paramètres d'états électroniques de Dynamics 365 for Operations.
+Une configuration de la génération d'états électroniques est le wrapper d'un composant de génération d'états électroniques particulier. Ce composant peut être un composant du modèle de données ou un composant de format. Une configuration peut inclure différentes versions d'un composant d'état électronique. Chaque configuration est marquée comme possédée par un fournisseur de configuration spécifique. La version **Brouillon** d'un composant d'une configuration peut être modifiée lorsque le propriétaire d'une configuration a été sélectionné comme fournisseur actif dans les paramètres d'états électroniques de Finance and Operations.
 
 Chaque configuration de modèle contient un composant de modèle de données. Une nouvelle configuration de format peut être dérivée d'une configuration de modèle de données spécifique. Dans l'arborescence de configuration, la configuration de format qui est créée apparaît en tant qu’enfant de la configuration de modèle de données d’origine.
 
 La configuration de format qui est créée contient un composant de format. Le composant de modèle de données de cette configuration de modèle d'origine est automatiquement inséré dans le composant de format de la configuration de format enfant comme source de données par défaut.
 
-Une configuration d'état électronique est partagée pour les sociétés de Dynamics 365 for Operations.
+Une configuration d'état électronique est partagée pour les sociétés de Finance and Operations.
 
 #### <a name="provider"></a>Fournisseur
 
-Le fournisseur d'états électroniques est l'identificateur de partie utilisé pour indiquer l'auteur (propriétaire) de chaque configuration d'état électronique. L'état électronique vous permet de gérer la liste des fournisseurs de configuration. Les configurations de format émises pour les documents électroniques dans le cadre de la solution Dynamics 365 for Operations sont marquées comme détenues par le fournisseur de configuration **Microsoft**.
+Le fournisseur d'états électroniques est l'identificateur de partie utilisé pour indiquer l'auteur (propriétaire) de chaque configuration d'état électronique. L'état électronique vous permet de gérer la liste des fournisseurs de configuration. Les configurations de format émises pour les documents électroniques dans le cadre de la solution Finance and Operations sont marquées comme détenues par le fournisseur de configuration **Microsoft**.
 
 Pour savoir comment enregistrer un nouveau fournisseur d'états électroniques, consultez le Guide de tâche, **Génération d'états électroniques - Créer un fournisseur de configuration et le marquer comme actif** (qui fait partie du processus d'entreprise **7.5.4.3 Acquérir/Développer des composants de services/solutions informatiques (10677)**).
 
@@ -166,11 +167,11 @@ Pour savoir comment enregistrer un nouveau fournisseur d'états électroniques, 
 
 Un référentiel d'états électroniques enregistre les configurations d'états électroniques. Deux types de référentiels d'états électroniques suivants sont actuellement pris en charge : **Ressources opérationnelles** et **Projet LCS**.
 
-Un référentiel **Ressources opérationnelles** permet d'accéder à la liste des configurations que Microsoft, en tant que fournisseur de configurations d'états électroniques, livre dans le cadre de la solution Dynamics 365 for Operations. Ces configurations peuvent être importées dans l’instance actuelle de Dynamics 365 for Operations et utilisées pour l'état électronique. Elles peuvent également être utilisées pour des localisations et personnalisations.
+Un référentiel **Ressources opérationnelles** permet d'accéder à la liste des configurations que Microsoft, en tant que fournisseur de configurations d'états électroniques, livre dans le cadre de la solution Finance and Operations. Ces configurations peuvent être importées dans l’instance actuelle de Finance and Operations et utilisées pour l'état électronique. Elles peuvent également être utilisées pour des localisations et personnalisations.
 
-Un référentiel de **projet LCS** permet d'accéder à la liste des configurations d'un projet LCS spécifique (bibliothèque d'actifs de projet LCS) sélectionné à l'enregistrement du référentiel. Les états électroniques vous permettent de télécharger des configurations partagées de l'instance Dynamics 365 for Operations actuelle vers un référentiel **Projet LCS** donné. Vous pouvez également importer des configurations depuis un référentiel **Projet LCS** vers l'instance Dynamics 365 for Operations actuelle.
+Un référentiel de **projet LCS** permet d'accéder à la liste des configurations d'un projet LCS spécifique (bibliothèque d'actifs de projet LCS) sélectionné à l'enregistrement du référentiel. Les états électroniques vous permettent de télécharger des configurations partagées de l'instance Finance and Operations actuelle vers un référentiel **Projet LCS** donné. Vous pouvez également importer des configurations depuis un référentiel **Projet LCS** vers l'instance Finance and Operations actuelle.
 
-Les référentiels **Projet LCS** requis peuvent être enregistrés individuellement pour chaque fournisseur de configuration de l'instance Dynamics 365 for Operations actuelle. Chaque référentiel peut être consacré à un fournisseur de configuration spécifique.
+Les référentiels **Projet LCS** requis peuvent être enregistrés individuellement pour chaque fournisseur de configuration de l'instance Finance and Operations actuelle. Chaque référentiel peut être consacré à un fournisseur de configuration spécifique.
 
 ## <a name="supported-scenarios"></a>Scénarios pris en charge
 ### <a name="building-a-data-model"></a>Élaboration d'un modèle de données
@@ -204,7 +205,7 @@ L'état électronique fournit un concepteur de mise en correspondance de modèle
 Pour vous familiariser avec ce scénario en détails, visionnez les guides de tâche **ER Définir le mappage de modèles et sélectionner des sources de données** et **ER Mapper le modèle de données aux sources de données sélectionnées** (qui font partie du processus d'entreprise **7.5.4.3 Acquérir/Développer des composants de services/solutions informatiques (10677)**).
 
 ### <a name="configuring-data-model-mappings-for-incoming-documents"></a>Configuration des mappages de modèle de données pour les documents entrants
-L'état électronique fournit un concepteur de mise en correspondance de modèle qui permet aux utilisateurs de mapper des modèles de données qu'ils ont conçus pour des destinations spécifiques. Par exemple, des modèles de données peuvent être mappés aux composants Dynamics 365 for Operations pouvant être mis à jour (tables, entités de données et vues). Selon le mappage, les données Dynamics 365 for Operations sont mises à jour au moment de l'exécution à l'aide des données du modèle de données. Pour un stockage abstrait du format de génération d'états électroniques, le modèle de données contient les données importées depuis un document électronique entrant. L’illustration suivante montre un exemple de ce type de mappage de modèle de données. Dans cet exemple, le mappage de modèle **Mappage d'importation pour NETS** du domaine de paiement est utilisé pour prendre en charge l'importation des relevés bancaires au format de banque NETS de la Norvège.
+L'état électronique fournit un concepteur de mise en correspondance de modèle qui permet aux utilisateurs de mapper des modèles de données qu'ils ont conçus pour des destinations spécifiques. Par exemple, des modèles de données peuvent être mappés aux composants Finance and Operations pouvant être mis à jour (tables, entités de données et vues). Selon le mappage, les données Finance and Operations sont mises à jour au moment de l'exécution à l'aide des données du modèle de données. Pour un stockage abstrait du format de génération d'états électroniques, le modèle de données contient les données importées depuis un document électronique entrant. L’illustration suivante montre un exemple de ce type de mappage de modèle de données. Dans cet exemple, le mappage de modèle **Mappage d'importation pour NETS** du domaine de paiement est utilisé pour prendre en charge l'importation des relevés bancaires au format de banque NETS de la Norvège.
 
 [![Exemple de modèle de données de mappage d'importation pour NETS](./media/ER-overview-08.png)](./media/ER-overview-08.png)
 
@@ -283,7 +284,7 @@ ER vous permet de que créer (dériver) un nouveau composant à partir de la ver
 
 ### <a name="upgrading-a-format-selecting-a-new-version-of-base-format-rebase"></a>Mise à niveau d'un format en sélectionnant une nouvelle version du format de base (redéfinir)
 
-ER vous permet d'adopter automatiquement les modifications de la version la plus récente du composant de base dans la version brouillon actuelle du composant dérivé. Ce processus est appelé *redéfinition de la base*. Par exemple, une nouvelle modification réglementaire (introduite dans la version la plus récente du composant de format importé depuis LCS) peut être automatiquement fusionnée dans la propre version personnalisée de ce format de document électronique. Toutes les modifications qui ne peuvent pas être fusionnées automatiquement sont considérées comme des conflits. Ces conflits sont présentés pour une résolution manuelle dans l’outil de concepteur pour le composant approprié. Pour vous familiariser avec ce scénario en détails, visionnez le guide de tâche **ER Mettre à niveau le format par adoption d'une nouvelle version de base** (qui fait partie du processus d'entreprise **7.5.4.3 Acquérir/Développer des composants de services/solutions informatiques (10677)**).
+ER vous permet d'adopter automatiquement les modifications de la version la plus récente du composant de base dans la version brouillon actuelle du composant dérivé. Ce processus est appelé *redéfinition de la base*. Par exemple, une nouvelle modification réglementaire (introduite dans la version la plus récente du composant de format importé depuis LCS) peut être automatiquement fusionnée dans la propre version personnalisée de ce format de document électronique. Toutes les modifications qui ne peuvent pas être fusionnées automatiquement sont considérées comme des conflits. Ces conflits sont présentés pour une résolution manuelle dans l’outil de concepteur pour le composant approprié. Pour vous familiariser avec ce scénario en détails, visionnez le guide de tâche **ER Mettre à niveau le format par adoption d'une nouvelle version de base de ce format** (qui fait partie du processus d'entreprise **7.5.5.3 Acquérir/Développer un composant de services/solutions informatiques modifié (10683)**).
 
 ## <a name="list-of-er-configurations-that-are-delivered-in-the-finance-and-operations-solution"></a>Liste de configurations ER qui sont fournies dans la solution de Finance and Operations
 | Configurations de modèles de données spécifiques au domaine : titre | Domaine                | Configurations de format en fonction du modèle de données : titre | Description                                                        |

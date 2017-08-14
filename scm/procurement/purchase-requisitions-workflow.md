@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchReqAuthorization, WorkflowParticipantExpenToken
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 2234
 ms.assetid: dad3ba5a-2892-45d2-874a-300896f59b34
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 2d28e92fa853d155bc62932625e0e714cdf4edcc
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 95d1d3a34728aab38f77635ae68bea16b08f6587
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -105,14 +105,14 @@ Il n'est pas nécessaire de définir des configurations de réviseurs de dépens
 
 Vous pouvez paramétrer les réviseurs de dépenses dans la page **Réviseurs de dépenses de demandes d'achat**. Créez une configuration de réviseurs de dépenses, puis entrez des valeurs pour chaque entité juridique de votre organisation. Pour les demandes affectées à un projet, vous pouvez spécifier le rôle chargé de la révision des demandes : chef de projet, contrôleur de projet ou responsable des ventes du projet. Les dépenses sont acheminées vers l'utilisateur affecté au rôle spécifique. Vous pouvez également les acheminer vers le propriétaire de dimension financière en sélectionnant l'option appropriée sous l'onglet **Distributions de l'organisation**.  
 
-Pour utiliser l'un des réviseurs de dépenses que vous paramétrez dans un workflow, vous devez définir l'option **Type de participant** sur**Participants aux dépenses** dans les propriétés**Affectation** de l'élément de workflow approprié.
+Pour utiliser l'un des réviseurs de dépenses que vous paramétrez dans un workflow, vous devez définir l'option **Type de participant** sur **Participants aux dépenses** dans les propriétés **Affectation** de l'élément de workflow approprié.
 
 <a name="see-also"></a>Voir également :
 --------
 
-[Créer un bon de commande pour la consommation (Guide de tâche)](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
+[Créer un bon de commande pour la consommation (Guide de tâche)](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-requisition-consumption)
 
-[Defining business process workflows for purchase requisitions](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions) (livre blanc)
+[Définition des flux de travail de processus entreprise pour les demandes d'achat](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions) (livre blanc)
 
 [Workflows d'approvisionnements](procurement-sourcing-workflows.md)
 

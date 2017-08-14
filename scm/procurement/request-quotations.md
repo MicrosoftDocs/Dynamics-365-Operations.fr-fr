@@ -1,6 +1,6 @@
 ---
-title: Appels d'offre
-description: "Cet article fournit une vue d'ensemble des demandes de devis émises par les organisations lorsqu'elles doivent acheter des articles ou des services et souhaitent recevoir des offres de plusieurs fournisseurs. Dans une demande de devis, vous demandez aux fournisseurs d'indiquer les prix et les délais de livraison pour des quantités de produits que vous spécifiez. Vous pouvez également demander aux fournisseurs de spécifier s'il y a des frais accessoires, comme des frais de transport, ou si le fournisseur offre des remises pour les commandes importantes ou le paiement anticipé de la facture fournisseur."
+title: Appels d'offres
+description: "Cette rubrique fournit une vue d'ensemble des demandes de devis émises par les organisations lorsqu'elles doivent acheter des articles ou des services et souhaitent recevoir des offres de plusieurs fournisseurs."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 06/20/2017
@@ -10,34 +10,34 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchRFQCaseTable, PurchRFQCaseTableListPage, PurchRFQCompare, PurchRFQReplyTable, PurchRFQVendReplyTableListPage
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 2154
 ms.assetid: 3936996e-d943-46ca-8385-84c042990f1d
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d681f4c107a9dbc1ea8c5e1de38b2d45cf19bcfa
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 47e394c8642f502c698dbcd5506979b7cac0a830
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
-# <a name="request-for-quotations-rfqs"></a>Appels d'offre
+# <a name="request-for-quotations-rfqs"></a>Appels d'offres
 
 [!include[banner](../includes/banner.md)]
 
 
-Cet article fournit une vue d'ensemble des demandes de devis émises par les organisations lorsqu'elles doivent acheter des articles ou des services et souhaitent recevoir des offres de plusieurs fournisseurs. Dans une demande de devis, vous demandez aux fournisseurs d'indiquer les prix et les délais de livraison pour des quantités de produits que vous spécifiez. Vous pouvez également demander aux fournisseurs de spécifier s'il y a des frais accessoires, comme des frais de transport, ou si le fournisseur offre des remises pour les commandes importantes ou le paiement anticipé de la facture fournisseur.
+Cette rubrique fournit une vue d'ensemble des demandes de devis émises par les organisations lorsqu'elles doivent acheter des articles ou des services et souhaitent recevoir des offres de plusieurs fournisseurs. Dans une demande de devis, vous demandez aux fournisseurs d'indiquer les prix et les délais de livraison pour des quantités de produits que vous spécifiez. Vous pouvez également demander aux fournisseurs de spécifier s'il y a des frais accessoires, comme des frais de transport, ou si le fournisseur offre des remises pour les commandes importantes ou le paiement anticipé de la facture fournisseur.
 
 Le processus de demande de devis couvre les actions suivantes :
 
--   création et envoi d'une demande de devis à un ou plusieurs fournisseurs ;
--   réception et enregistrement des réponses à la demande de devis (offres) ;
--   transfert des réponses acceptées pour une commande fournisseur, un contrat d'achat ou une demande d'achat.
+-   création et envoi d'une demande de devis à un ou plusieurs fournisseurs ;
+-   réception et enregistrement des réponses à l'appel d'offre (offres) ;
+-   Transfert des réponses acceptées pour une commande fournisseur, un contrat d'achat ou une demande d'achat.
 
 L'illustration suivante présente une vue d'ensemble du processus de demande de devis.  
 
@@ -49,7 +49,7 @@ Si vous devez modifier un appel d'offre après son envoi, vous pouvez l'envoyer 
 
 Lorsque vous recevez des offres, vous devez les saisir sur la page **Réponses aux demandes de devis**. Si vous sélectionnez l'option **Copier des données dans la réponse**, les données telles que la quantité et les dates du dossier d'appel d'offre sont copiées dans la réponse. Vous pouvez modifier ces données pour refléter l'offre du fournisseur.  
 
-Si une deuxième itération d'une réponse est requise pour un fournisseur spécifique, cliquez sur **Retour**sur la page**Réponse de demande de devis**. L'action Retour génère un nouveau journal et un rapport qui sera imprimé, archivé et envoyé conformément à vos paramètres de gestion des impressions.  
+Si une deuxième itération d'une réponse est requise pour un fournisseur spécifique, cliquez sur **Retour** sur la page **Réponse de demande de devis**. L'action Retour génère un nouveau journal et un rapport qui sera imprimé, archivé et envoyé conformément à vos paramètres de gestion des impressions.  
 
 Si vous avez ajouté des critères de score à votre dossier d'appel d'offre, la réponse à la demande de devis dispose d'un volet de score où vous pouvez saisir les scores. Tous les scores s'affichent lorsque vous comparez les réponses sur la page **Comparer les réponses**, sur laquelle vous pouvez également comparer les autres données de réponse, telles que le prix de ligne, la date de livraison et le prix total.  
 
@@ -66,17 +66,17 @@ Voici la séquence des statuts pour le traitement d'une demande de devis :
 3.  **Reçu**
 4.  **Accepté**/**Annulé**/**Rejeté**
 
-Les statuts sont décrits plus en détail dans les sections ultérieures de cet article.
+Les statuts sont décrits plus en détail dans les sections ultérieures de cette rubrique.
 
 ## <a name="setting-up-rfq-functionality"></a>Paramétrage de la fonctionnalité de demande de devis
 Avant de pouvoir créer un dossier de demande de devis, vous devez paramétrer les informations de demande de devis sur la page **Paramètres d'approvisionnement**. Lorsque vous créez une demande de devis, vous pouvez spécifier les valeurs par défaut qui sont copiées dans la demande de devis. Vous pouvez spécifier les valeurs par défaut suivantes :
 
--   Le type d'achat de nouvelles demandes de devis : **Commande fournisseur** ou **Contrat d'achat**
--   Paramètres pour la date et l'heure d'expiration
+-   Le type d'achat de nouvelles demandes de devis : **Commande fournisseur** ou **Contrat d'achat**.
+-   Paramètres pour la date et l'heure d'expiration.
 -   Informations de livraison et conditions de paiement.
--   Champs devant être inclus dans la réponse de demande de devis
+-   Champs devant être inclus dans la réponse de demande de devis.
 
-Vous pouvez remplacer ces valeurs pour un dossier de demande de devis spécifique. Vous devez également configurer le processus d'avenant. Dans le cadre de cette configuration, vous pouvez activer le verrouillage du champ. Lorsque le verrouillage du champ est activé, un professionnel de l'approvisionnement qui souhaite modifier une demande de devis doit tout d'abord cliquer sur **Créer** dans la section **Avenant** de l'onglet **Devis**. Une fois la demande de devis mise à jour avec l'avenant, le professionnel de l'approvisionnement doit terminer le processus en cliquant sur **Finaliser**.** **L'action Finaliser génère un message électronique qui signale aux fournisseurs que la demande de devis a été modifiée. Vous sélectionnez le modèle de la notification par e-mail qui est envoyée aux fournisseurs sur la page **Paramètres de l'approvisionnement**. Lorsqu'un modèle est créé, il peut contenir les jetons de remplacement suivants :
+Vous pouvez remplacer ces valeurs pour un dossier de demande de devis spécifique. Vous devez également configurer le processus d'avenant. Dans le cadre de cette configuration, vous pouvez activer le verrouillage du champ. Lorsque le verrouillage du champ est activé, un professionnel de l'approvisionnement qui souhaite modifier une demande de devis doit tout d'abord cliquer sur **Créer** dans la section **Avenant** de l'onglet **Devis**. Une fois la demande de devis mise à jour avec les modifications, le professionnel d'approvisionnement doit effectuer le processus en cliquant sur **Finaliser**. L'action **Finaliser** génère un message e-mail qui informe les fournisseurs sur la demande de devis modifié. Vous sélectionnez le modèle de la notification par e-mail qui est envoyée aux fournisseurs sur la page **Paramètres de l'approvisionnement**. Lorsqu'un modèle est créé, il peut contenir les jetons de remplacement suivants :
 
 -   %Motif de retour de l'offre%
 -   %Motif de l'avenant%
@@ -87,7 +87,10 @@ Les jetons %Motif de retour de l'offre% et %Motif de l'avenant% sont remplacés 
 
 Si vous souhaitez utiliser des codes motif d'une demande de devis pour indiquer la raison pour laquelle une offre a été rejetée ou acceptée, vous devez paramétrer des codes motif sur la page **Motifs de fournisseur**.  
 
-Vous pouvez configurer l'apparence de vos documents de demande de devis imprimés ou stockés sur la page **Paramétrage d'écran** dans Approvisionnements.  
+Vous pouvez configurer l'apparence de vos documents de demande de devis imprimés ou stockés sur la page **Paramétrage d'écran** dans Approvisionnements. 
+
+**Remarque :** pour une configuration du secteur public, toute modification d'une demande de devis déjà été envoyée requiert l'utilisation du processus d'avenant. Lorsque la demande de devis est envoyée, les champs sont verrouillés, aussi cliquer sur **Créer** pour utiliser le processus d'avenant décrit ci-dessus est une étape obligatoire pour apporter des modifications à la demande de devis.
+Cette opération est contrôlée par le paramètre de verrouillage de champ **Verrouiller les appels d'offre lorsqu'ils sont envoyés** dans **Paramètres d'approvisionnement**. Ce paramètre est défini sur **Oui** et pour une configuration du secteur public il s'agit d'une valeur par défaut qui ne peut pas être modifiée. Cela signifie que bien que le processus d'avenant puisse être effectué manuellement dans une configuration hors secteur public, le processus de gestion des avenants en verrouillant les champs une fois la demande de devis envoyée est obligatoire pour le secteur public.
 
 Lorsque vous créez une demande de devis pour une commande fournisseur et ajoutez un article en stock à la demande de devis, un mouvement de stock ayant le statut de réception **Réception de devis** est également créé. Seules les lignes de demande de devis avec ce statut sont prises en compte lorsque vous utilisez un plan général pour calculer les approvisionnements. Si vous souhaitez que le plan général inclut les lignes de demande de devis comme une réception prévue, vous devez configurer ce comportement dans le paramétrage de la planification principale.  
 
@@ -108,7 +111,7 @@ Si la demande de devis est de type **Contrat d'achat** :
 -   La demande de devis est utilisée pour un accord sur l'achat d'une quantité ou d'une valeur spécifique d'un produit au fil du temps. Vous devez sélectionner l'intervalle de dates qui s'applique au contrat d'achat et le nom de la personne qui gère le contrat d'achat.
 -   Lorsque vous acceptez une offre, un contrat d'achat est généré.
 
-Vous pouvez créer une demande de devis à partir d'une demande d'achat uniquement si le statut de la demande d'achat est **En cours de révision**et si vous êtes affecté pour effectuer la tâche de workflow suivante. Les lignes de la demande d'achat sont mises à jour automatiquement comme vous acceptez les lignes à partir des réponses de demande de devis (offres) que vous avez reçues des fournisseurs. Tant que la demande de devis est en cours, vous ne pouvez effectuer aucune action (terminer, rejeter ou approuver) sur la demande d'achat.  
+Vous pouvez créer une demande de devis à partir d'une demande d'achat uniquement si le statut de la demande d'achat est **En cours de révision** et si vous êtes affecté pour effectuer la tâche de workflow suivante. Les lignes de la demande d'achat sont mises à jour automatiquement comme vous acceptez les lignes à partir des réponses de demande de devis (offres) que vous avez reçues des fournisseurs. Tant que la demande de devis est en cours, vous ne pouvez effectuer aucune action (terminer, rejeter ou approuver) sur la demande d'achat.  
 
 Lorsque vous créez une demande de devis, vous pouvez sélectionner un type de sollicitation spécifique. Le type de sollicitation détermine l'ensemble de critères d'attribution de score utilisés pour attribuer un score aux réponses à la demande de devis.  
 
@@ -131,13 +134,13 @@ Le tableau suivant indique les changements de statut de demande de devis lorsque
 | **Action**                         | **Statut d'en-tête de demande de devis le moins élevé** | **Statut d'en-tête de demande de devis le plus élevé**                   | **Statut de ligne de demande de devis le moins élevé** | **Statut de ligne de demande de devis le plus élevé** |
 | Créez l'en-tête et les lignes de l'appel d'offres.    | Créé                      | Créé                                         | Créé                    | Créé                     |
 | Envoyez l'appel d'offre à un fournisseur spécifique. | Envoyé                         | Envoyé                                            | Envoyé                       | Envoyé                        |
-| Ajoutez un autre fournisseur.                | Créé                      | Envoyé (La demande de devis a été envoyée à un seul fournisseur.) | Créé                    | Envoyé                        |
+| Ajoutez un autre fournisseur.                | Créé                      | Envoyé (L'appel d'offre a été envoyé à un seul fournisseur.) | Créé                    | Envoyé                        |
 | Envoyez la demande de devis au deuxième fournisseur. | Envoyé                         | Envoyé                                            | Envoyé                       | Envoyé                        |
 
 **Remarque :** Vous pouvez ajouter des fournisseurs à une demande de devis à tout moment. Les statuts le plus élevé et le mois élevé changent en fonction des fournisseurs ajoutés. Par exemple, si vous avez reçu des offres de tous les fournisseurs et accepté au moins une ligne d'une offre, le statut le moins élevé de l'en-tête de la demande de devis est **Rejeté** et le statut le plus élevé est **Accepté**. Si vous ajoutez un nouveau fournisseur, le statut le moins élevé de toute ligne est désormais **Créé**. Le statut le moins élevé de l'en-tête de la demande de devis devient donc **Créé**, et le statut le plus élevé reste **Accepté**.
 
 ## <a name="amending-an-rfq"></a>Modification d'une demande de devis
-Parfois, vous devez modifier une demande de devis après son envoi. Cela peut se produire, parce que, par exemple, les dates de livraison ont changé ou parce que vous souhaitez des produits supplémentaires ou différentes quantités de produits. Vous pouvez configurer le processus d'avenant afin qu'il soit plus ou moins restrictif.  
+Parfois, vous devez modifier une demande de devis après son envoi. Par exemple, cela peut se produire si, par exemple, les dates de livraison ont changé ou parce que vous souhaitez des produits supplémentaires ou différentes quantités de produits. Vous pouvez configurer le processus d'avenant afin qu'il soit plus ou moins restrictif.  
 
 Si vous utilisez le processus d'avenant plus restrictif, vous devez cliquer sur **Créer** sur le dossier de demande de devis pour démarrer un avenant avant de pouvoir modifier les champs sur le dossier de demande de devis. Après avoir terminé d'apporter vos modifications, vous devez cliquer sur **Finaliser**. Vous êtes ensuite guidé via le processus d'ajout d'informations pour le message électronique envoyé pour notifier les fournisseurs de l'avenant. L'état mis à jour de la demande de devis, qui inclut une note d'avenant, est automatiquement joint au message.  
 
@@ -181,7 +184,7 @@ Lorsque vous acceptez une réponse de demande de devis de type **Demande d'achat
 
 Dans la réponse, vous pouvez ajouter un code motif pour expliquer la raison pour laquelle vous avez accepté ou rejeté une offre.  
 
-Vous pouvez recevoir certaines lignes d'une offre et rejeter d'autres. Vous pouvez également recevoir des lignes de différents fournisseurs. Il suffit simplement de savoir que si vous acceptez certaines lignes, vous devrez rejeter toutes les autres. Par conséquent, si vous souhaitez accepter d'autres lignes, vous devez cliquer sur **Annuler** à l'invite.  
+Vous pouvez recevoir certaines lignes d'une offre et rejeter d'autres. Vous pouvez également recevoir des lignes de différents fournisseurs. Sachez que si vous acceptez certaines lignes, vous devrez rejeter toutes les autres. Par conséquent, si vous souhaitez accepter d'autres lignes, vous devez cliquer sur **Annuler** à l'invite.  
 
 Le tableau suivant indique les changements de statut de la demande de devis à mesure que vous acceptez et refusez les offres des fournisseurs.
 

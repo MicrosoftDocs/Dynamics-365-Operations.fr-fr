@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.reviewer: yuyus
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 221264
 ms.assetid: dde49743-1541-4353-a030-63ca3069cd7d
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: b0aefc62f2d54da963f03dc74d492260722cd451
-ms.openlocfilehash: aabb8277218895566edada3c74d99c02a83dae1e
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: cbd099403f48b502ca74bcb38ae12decedb8f2da
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/15/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -36,7 +36,7 @@ Le module **Collaboration fournisseur** est destiné aux fournisseurs qui n'ont 
 
 Pour plus d'informations sur la manière dont les fournisseurs peuvent utiliser la collaboration fournisseur dans les processus de facturation, voir [Espace de travail de facturation de collaboration fournisseur](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace). Pour plus d'informations sur la mise en service de nouveaux utilisateurs de la collaboration fournisseur, voir [Gérer les utilisateurs de la fonctionnalité de collaboration du fournisseur](manage-vendor-collaboration-users.md).
 
-Pour plus d'informations sur la manière dont les fournisseurs peuvent utiliser la collaboration fournisseur dans les processus de facturation, voir [Espace de travail de facturation de collaboration fournisseur](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace). 
+Pour plus d'informations sur la manière dont les fournisseurs peuvent utiliser la collaboration fournisseur dans les processus de facturation, voir [Espace de travail de facturation de collaboration fournisseur](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace). 
 
 Pour plus d'informations sur la mise en service de nouveaux utilisateurs de la collaboration fournisseur, voir [Gérer les utilisateurs de la fonctionnalité de collaboration du fournisseur](manage-vendor-collaboration-users.md).
 
@@ -196,12 +196,16 @@ Si la gestion des modifications est activée pour les CF, la CF passe par un wor
 
 Le tableau suivant présente un exemple des modifications de statut et de version qui peuvent s'appliquer à une CF lorsque la gestion des modifications est activée. La version est enregistrée lorsque la CF est approuvée et non lorsque la CF est envoyée au fournisseur ou confirmée.
 
-|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                             |
-|---------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Action**                                                                                                    | **Statut et version**                                                                                                                                                                                                                                                                                                                                                                      |
-| La première version de la CF est créée dans Finance and Operations.                                      | Le statut est **Brouillon**.                                                                                                                                                                                                                                                                                                                                                                    |
-
-| La CF est soumise au processus d'approbation. (Le processus d'approbation est un processus interne dans lequel le fournisseur n'est pas impliqué.) | Le statut passe de **Brouillon** à **En cours de révision** à **Approbation** si la CF n'est pas rejetée au cours du processus d'approbation. La CF approuvée est enregistrée comme une version.                                                                                                                                                                                                                     | | La CF est envoyée au fournisseur                                                                                  | La version est enregistrée dans l'interface de collaboration fournisseur et le statut devient **En cours de révision externe**.                                                                                                                                                                                                                                                                       | | Vous effectuez les modifications demandées par le fournisseur, manuellement ou à l'aide de l'action dans la réponse pour mettre à jour la CF.                                                       | Le statut redevient **Brouillon**.                                                                                                                                                                                                                                                                                                                                                    | | La CF est à nouveau soumise au processus d'approbation.                                                            | Le statut passe de **Brouillon** à **En cours de révision** à **Approuvé** si la CF n'est pas rejetée au cours du processus d'approbation. Sinon, le système peut être configuré de sorte que des modifications de champ spécifiques ne nécessitent pas de nouvelle approbation. Dans ce cas, le statut est d'abord modifié en **Brouillon** avant d'être automatiquement mis à jour sur **Approuvé**. La CF approuvée est enregistrée comme une nouvelle version. | | Vous envoyez la nouvelle version de la CF au fournisseur.                                                             | La nouvelle version est enregistrée dans l'interface de collaboration fournisseur et le statut devient **En cours de révision externe**.                                                                                                                                                                                                                                                                   | | Le fournisseur approuve la nouvelle version de la CF.                                                                | Le statut devient **Confirmé** automatiquement ou lorsque vous recevez la réponse du fournisseur, puis vous confirmez la CF.                                                                                                                                                                                                                                                     |
+|                                                                          |                                                                                                                                                              |
+|--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Action**                                                               | **Statut et version**                                                                                                                                       |
+| La première version de la CF est créée dans Finance and Operations.      | Le statut est **Brouillon**.  |
+| La CF est soumise au processus d'approbation. (Il s'agit d'un processus interne dans lequel le fournisseur n'est pas impliqué.)                                                           | Le statut passe de **Brouillon** à **En cours de révision** à **Approuvé** si la CF n'est pas rejetée au cours du processus d'approbation. La CF approuvée est enregistrée comme une version.           | 
+| La CF est envoyée au fournisseur                                                            | La version est enregistrée dans l'interface de collaboration fournisseur et le statut devient **En cours de révision externe**.      |
+| Vous effectuez les modifications demandées par le fournisseur, manuellement ou à l'aide de l'action dans la réponse pour mettre à jour la CF.                                                            | Le statut redevient **Brouillon**.     |
+|La CF est à nouveau soumise au processus d'approbation.                                                |  Le statut passe de **Brouillon** à **En cours de révision** à **Approuvé** si la CF n'est pas rejetée au cours du processus d'approbation. Sinon, le système peut être configuré de sorte que des modifications de champ spécifiques ne nécessitent pas de nouvelle approbation. Dans ce cas, le statut est d'abord modifié en **Brouillon** avant d'être automatiquement mis à jour sur **Approuvé**. La CF approuvée est enregistrée comme une nouvelle version.                                         |
+|Vous envoyez la nouvelle version de la CF au fournisseur.                                                |  La nouvelle version est enregistrée dans l'interface de collaboration fournisseur et le statut devient **En cours de révision externe**.                                         |
+|Le fournisseur approuve la nouvelle version de la CF.                                                |  Le statut devient **Confirmé** automatiquement ou lorsque vous recevez la réponse du fournisseur, puis vous confirmez la CF. |
 
 ## <a name="share-information-about-consignment-inventory"></a>Partager des informations sur le stock de consignation
 Si vous utilisez le stock de consignation, les fournisseurs peuvent utiliser l'interface de collaboration fournisseur pour afficher les informations sur les pages suivantes :

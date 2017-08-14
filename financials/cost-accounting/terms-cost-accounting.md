@@ -10,20 +10,20 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 223114
 ms.assetid: 1c798592-77d0-4a8f-beaa-9159c75957da
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 35b8e510e7e2c13aebb73f46d20b16275d097432
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 1f12e8e82430c79ee93f2284e5fdf47ac559525d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -121,9 +121,13 @@ Les frais généraux font référence aux dépenses constantes liées à l'explo
 -   Taxes
 -   Coûts des services publics
 
+**Distribution des coûts**
+
+La distribution des coûts est utilisée pour redistribuer le coût d'un objet de coût vers un ou plusieurs autres objets de coût en appliquant une base de répartition appropriée. La distribution et la répartition des coûts diffèrent car la distribution des coûts a toujours lieu au niveau de l'élément de coût principal du coût d'origine.
+
 **Affectation des coûts**
 
-La répartition des coûts est le processus permettant d'affecter et de répartir les coûts, en fonction des causes principales des coûts courants. Vous pouvez affecter les coûts et les quantités d'un objet de coût à un ou plusieurs autres objets de coûts. Par exemple, tous les coûts de services d'établissement sont affectés aux différents services qui utilisent le bâtiment de bureau commun.
+La répartition est utilisée pour affecter le solde d'un objet de coût à d'autres objets de coût en appliquant une base de répartition. Finance and Operations prend en charge la méthode de répartition réciproque. Dans la méthode de répartition réciproque, les services mutuels que les objets de coût auxiliaires échangent sont totalement identifiés. Le système détermine automatiquement l'ordre correct selon lequel exécuter les répartitions. Le solde d'un objet de coût est réparti par une seule base de répartition. Les répartitions entre plusieurs dimensions d'objets de coût et leurs membres respectifs sont prises en charge. L'ordre de répartition est contrôlé par l'unité de contrôle des coûts.
 
 **Stratégie de répartition des coûts**
 

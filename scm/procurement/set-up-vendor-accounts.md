@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: smmContactPerson, VendBankAccounts, VendTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: bis
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 191053
 ms.assetid: 06168199-7c54-40e9-a038-4eb274ca958d
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 4c97f11fa85b8eee54daea8ccaa183859a89fe7f
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 3c3c215dbc64c3b823ab8537b66f72d7d7fdf5c1
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -94,6 +94,18 @@ Vous pouvez placer un fournisseur en attente pour différents types de transacti
 -   **Jamais** – Le fournisseur n'est jamais suspendu en raison de son inactivité.
 
 Lorsque vous mettez un fournisseur en attente, vous pouvez également indiquer un motif et une date à laquelle le statut en attente prendra fin. Si vous n'entrez aucune date de fin, le blocage du fournisseur est définitif.
+
+Vous pouvez mettre à jour en bloc le statut En attente sur **Tous** pour les fournisseurs en fonction des critères sélectionnés sur la page **Désactivation du fournisseur**, puis affectez un motif expliquant pourquoi le fournisseur est en attente.
+
+Les critères suivants sont utilisés pour inclure les fournisseurs qui ont été inactifs au cours d'une période, incluent ou excluent les fournisseurs qui sont des employés, et excluent les fournisseurs bénéficiant d'un délai de grâce avant la prochaine mise en attente.
+
+- Selon le nombre de jours que vous entrez dans le champ **Période d'activité** sur la page **Désactivation du fournisseur**, l'application calcule la dernière date à laquelle le fournisseur peut avoir eu une activité considérée comme inactive. Cela signifie la date du jour moins le nombre de jours que vous entrez. Si une ou plusieurs factures existent pour le fournisseur dont la date est postérieure à la dernière date calculée, le fournisseur sera exclus de la désactivation. Cela est également validé si le fournisseur a des paiements après la date, ouvre des demandes d'achat, ouvre des commandes fournisseur, demande des devis, ou répond.
+- Le nombre de jours dans le champ **Délai de grâce avant la prochaine suspension** permet de calculer la dernière date de grâce. Cela signifie la date du jour moins le nombre de jours que vous entrez. Cela s'applique uniquement aux fournisseurs qui ont été précédemment inactivés. Dans le cas d'une désactivation précédente, l'application vérifie l'historique d'autres occurrences de désactivation du fournisseur et vérifie si la dernière désactivation est survenue avant la dernière date de grâce. Dans ce cas, le fournisseur est inclus dans le processus de désactivation.
+- Le paramètre **Inclure les employés** fait référence aux fournisseurs qui sont liés à un employé. Vous pouvez le définir si vous souhaitez inclure les employés.
+
+Ce processus exclura toujours les fournisseurs dont la valeur dans le champ **Blocage fournisseur** est définie sur **Jamais**.
+
+Les fournisseurs qui passent les contrôles avec succès sont mis en attente, ce qui définit la valeur du champ **Blocage fournisseur** sur **Tous** et **Motif** sur ce qui a été sélectionné. Un enregistrement est créé dans l'historique des suspensions pour le fournisseur.
 
 ## <a name="vendor-invoice-account"></a>Compte de facturation fournisseur
 Si plusieurs fournisseurs possèdent la même adresse de facturation ou si un fournisseur est facturé via un tiers, vous pouvez spécifier un compte de facturation sur l'enregistrement fournisseur. Le compte de facturation est le compte sur lequel le montant de la facture est crédité lorsque vous créez une facture fournisseur à partir d'une commande fournisseur. Si vous n'entrez pas de compte de facturation sur l'enregistrement fournisseur, le compte utilisé sera le compte fournisseur.

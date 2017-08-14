@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventLocation, WHSLocation, WHSLocationBuild, WHSLocationProfile, WHSLocationType, WHSLocDirTable, WHSParameters, WHSWaveTemplateTable, WHSWorkPool, WHSWorkTemplateTable, WHSZone, WHSZoneGroup
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11554
 ms.assetid: 262b7b88-2cce-44f7-9a5b-77c12af1be20
 ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
-ms.openlocfilehash: 17608d373fbedd20efe0b525ec141989a50a40a2
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 579abd13f75c332bb4619730ed3630ffe6065d74
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -62,7 +62,7 @@ Les entités que vous créez pour définir votre disposition d'entrepôt sont ut
 
 Vous devez tenir compte la disposition physique de l'entrepôt, aussi bien pour déterminer les capacités de stockage (les limites de stockage d'emplacement et les profils d'emplacement) que dans le cadre de vos tentatives d'optimiser les processus d'entrepôt. 
 
-Les limites de stockage de l'emplacement permettent de s'assurer que le travail n'est pas créé pour demander le déplacement du stock vers un emplacement qui n'a pas la capacité physique de l'accueillir. Par exemple, si certains emplacements d'un entrepôt ne peuvent contenir qu'une palette par emplacement, les limites de stockage d'emplacement peuvent être activées. La valeur **Quantité **peut être définie sur **1**, et la valeur **Unité **peut être définie sur **Palette** dans un regroupement de profils d'emplacement spécifique. 
+Les limites de stockage de l'emplacement permettent de s'assurer que le travail n'est pas créé pour demander le déplacement du stock vers un emplacement qui n'a pas la capacité physique de l'accueillir. Par exemple, si certains emplacements d'un entrepôt ne peuvent contenir qu'une palette par emplacement, les limites de stockage d'emplacement peuvent être activées. La valeur **Quantité**peut être définie sur **1**, et la valeur **Unité**peut être définie sur **Palette** dans un regroupement de profils d'emplacement spécifique. 
 
 Si les calculs plus avancés sont requis pour contrôler les contraintes de capacité d'emplacement, les paramètres de profil d'emplacement peuvent être utilisés. Dans ce cas, le poids et le volume sont considérés lorsque des calculs de capacité. 
 
@@ -116,7 +116,7 @@ Pour faciliter et accélérer la définition des actions associées à chaque li
 <a name="see-also"></a>Voir également :
 --------
 
-[Configurer l'emplacement dans un entrepôt compatible WMS (guide de tâche)](https://ax.help.dynamics.com/en/wiki/configure-locations-in-a-wms-enabled-warehouse/)
+[Configurer l'emplacement dans un entrepôt compatible WMS (guide de tâche)](/dynamics365/unified-operations/supply-chain/warehousing/tasks/configure-locations-wms-enabled-warehouse)
 
 
 

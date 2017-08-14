@@ -11,19 +11,18 @@ ms.technology:
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 16141
 ms.assetid: 0b9c8630-9474-4473-80fd-7db5d54b2275
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
-ms.openlocfilehash: 425e87f8b667b53fcc950730dc4ece6330503d66
+ms.translationtype: HT
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: acb832c422ccb5ddb98d6ddd6b69d2e2c3e11057
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -42,7 +41,7 @@ La figure suivante illustre les parties du système d'aide de Finance and Operat
 
 ## <a name="connecting-the-help-system"></a>Connexion au système d'aide
 > [!NOTE]
-> L'onglet **Guides de tâches** n'est pas disponible dans Microsoft Dynamics 365 for Talent et Microsoft Dynamics 365 for Retail. Nous œuvrons actuellement pour activer cette fonctionnalité dans une future version. Les guides des tâches dans l'expérience Mise en route dans Talent restent disponibles pour couvrir les fonctionnalités de base. L'aide procédurale est également disponible sur le site docs.microsoft.com ([docs.microsoft.com/dynamics365/operations)](/dynamics365/#pivot=solutions&panel=solutions_operations) pour Retail et Talent.
+> L'onglet **Guides de tâches** n'est pas disponible dans Microsoft Dynamics 365 for Talent et Microsoft Dynamics 365 for Retail. Nous œuvrons actuellement pour activer cette fonctionnalité dans une future version. Les guides des tâches dans l'expérience Mise en route dans Talent restent disponibles pour couvrir les fonctionnalités de base. L'aide procédurale est également disponible sur le site docs.microsoft.com ([docs.microsoft.com/dynamics365/operations)](/dynamics365/unified-operations/fin-and-ops/index) pour Retail et Talent.
  
 
 En utilisant le formulaire **Paramètres système**, les administrateurs système connectent les parties du système d'aide pour une implémentation. [![Écran Paramètres système avec les paramètres d'aide](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png) Sur la page **Paramètres système**, procédez comme suit :

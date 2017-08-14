@@ -10,25 +10,24 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 20931
 ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
 ms.author: kherr
-ms.search.validFrom: 2017-07-01
+ms.search.validFrom: 2017-07-01T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 911a51e2498800e7ee7b1562b66c56967eef0505
-ms.openlocfilehash: e6213d2e01445b78c6d8f98fc6a55f7c551231b5
+ms.translationtype: HT
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: d9e3018eb7b6c20cfd5e23a10d15e230009196de
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/19/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
 # <a name="enter-payroll-beginning-balances"></a>Saisir des soldes d'ouverture de salaire
 
-[!include[banner](../../includes/banner.md)]]
+[!include[banner](../../includes/banner.md)]
 
 La rubrique décrit les étapes pour entrer des soldes d'ouverture pour les codes de rémunération, les déductions, les avantages et les taxes. Ces informations sont précieuses pour les partenaires qui transfèrent des données pour une nouvelle implémentation du salaire à partir d'un autre système. Pour commencer à entrer les soldes d'ouverture de salaires, nous vérifions les informations suivantes :
 
@@ -47,9 +46,6 @@ La rubrique décrit les étapes pour entrer des soldes d'ouverture pour les code
 Comme vous envisagez d'entrer des soldes d'ouverture, déterminez le contenu des données. La plupart des entreprises entre un seul montant consolidé de l'année en cours. Cependant si des informations plus détaillées sont nécessaires, les soldes peuvent être entrés en incréments trimestriels. Déterminer le niveau de détail qui est nécessaire indique le nombre de bordereaux de paie manuels devant être créés pour chaque collaborateur. Pour un seul montant de l'année en cours, un seul relevé manuel est nécessaire pour chaque employé. Pour ce faire, utilisez les montants cumulés depuis le bordereau de paie final issu du système précédent lorsque vous saisissez le montant dans le nouveau système de paie.
 
 L'exemple suivant montre comment vous pouvez entrer des soldes d'ouverture de salaire d'un employé, notamment les codes de rémunération, les avantages/déductions et les taxes. Dans un cas réel, vous auriez une ligne pour chaque code de rémunération, déduction d'avantage, contribution pour les avantages, cotisation de l'employé et cotisation de l'employeur avec le montant saisi correspondant au montant de l'année en cours. Grâce à cette liste de codes et de montants, suivez les étapes pour créer une rémunération et un bordereau de paie manuellement avec la fonction de comptabilité désactivée pour indiquer les soldes d'ouverture à des fins de salaire.  Désactivez la comptabilité car vous ne souhaitez pas valider ce bordereau de paie de solde d'ouverture dans votre comptabilité. Cela a été effectué dans le système hérité et passera dans le nouveau système lorsque vous définirez les soldes d'ouverture dans votre comptabilité.
-
-> [!NOTE] 
-> Si vous souhaitez reproduire les mêmes étapes ci-dessous, vous pouvez utiliser les données de démonstration. Les données de démonstration peuvent être téléchargées sur PartnerSource
 
 ### <a name="a-how-to-set-up-earnings-codes-to-be-used-on-payroll-beginning-balances"></a>A. Procédure de paramétrage des codes non répartis à utiliser dans les soldes d'ouverture de salaire
 Lorsque vous entrez des soldes d'ouverture de salaire, assurez-vous que les codes de rémunération que vous utiliserez sont configurés avec l'option « Autoriser la modification des taux de relevés de rémunération » activée. Cela vous permet d'entrer manuellement le montant du système hérité. 
@@ -101,7 +97,7 @@ Ligne 3 : onglet **Lignes de relevés de rémunération**
 | Manuel          | (Marqué)   |
 
 > [!NOTE]
-> Activer la case à cocher Manuel dans l'onglet **Détails de ligne** pour chaque ligne de l'état des revenus est important pour obtenir les soldes d'ouverture de salaire entrés pour chaque collaborateur.
+> Définir le curseur **Manuel** sur **Oui** dans l'onglet **Détails de ligne** pour chaque ligne de l'état des revenus est important pour obtenir les soldes d'ouverture de salaire entrés pour chaque collaborateur.
 
 3. Dans le volet **Action**, cliquez sur **Débloquer l'état des revenus** USA-FED-ER-FICA.
 
@@ -111,15 +107,15 @@ Ligne 3 : onglet **Lignes de relevés de rémunération**
 |--------------------|-----------|
 | Date de paiement       | 6/30/2017 |
 | Type du cycle de paiement   | Manuel    |
-| Désactiver la comptabilité | (marqué)  |
+| Désactiver la comptabilité |   Oui     |
 
 > [!NOTE] 
 > Ceci est uniquement disponible lorsque le type d'exécution de paiement est Manuel et si l'utilisateur souhaite désactiver la comptabilité dans le cycle de paie.
 
 Cliquez sur **OK**, puis fermez la page **Infos**.
 
-#### <a name="why-disable-accounting-checkbox-needs-to-be-turned-on-when-generating-pay-statements"></a>Pourquoi la case à cocher Désactiver la comptabilité doit-elle être activée lors de la génération des bordereaux de paye ?
-Cela empêche toutes les lignes du bordereau de paie d'être réparties et validées dans la comptabilité. Vous ne souhaitez pas valider ce bordereau de paie de solde d'ouverture car ses valeurs sont déjà dans la comptabilité du système hérité. Ce téléchargement du solde est utilisé à des fins de génération d'états et de limitation uniquement.
+#### <a name="why-the-disable-accounting-slider-needs-to-set-to-yes-when-generating-pay-statements"></a>Pourquoi le curseur Désactiver la comptabilité doit-il être défini sur Oui lors de la génération des bordereaux de paye ?
+Définir le curseur sur **Oui** empêche toutes les lignes du bordereau de paie d'être distribuées dans la comptabilité. Les montants des comptes généraux ont été mis à jour précédemment lorsque les soldes de compte du système hérité ont été entrés. Entrer des soldes d'ouverture pour les salaires permet de générer des états qui comprennent les informations des exercices précédents, ainsi que pour identifier les limites à des fins d'avantages et fiscales.   
 
 ### <a name="c-create-pay-statements-for-employees"></a>C. Créer les bordereaux de paie pour les employés
 Après avoir généré les bordereaux de paie avec des soldes d'ouverture, vous devez vérifier que les bordereaux de paie reflètent précisément les données salariales. Vous devez également mettre à jour manuellement les avantages et les informations fiscales pour qu'elles correspondent aux valeurs du système de paie précédent. Après avoir vérifié que les montants du système de paie précédent correspondent aux montants sur les bordereaux de paie actuels, vous devez finaliser les bordereaux de paie.
@@ -140,17 +136,7 @@ Après avoir généré les bordereaux de paie avec des soldes d'ouverture, vous 
 | Dépenses liées aux soins au niveau du département | Participer | 2500.00          |
 | Vision | SupSp                  | 500,00           |
 
-5. Dans l'onglet **Déductions des avantages**, entrez les informations suivantes : 
-
-| Champ                           | Valeur            |
-|---------------------------------|------------------|
-| Avantage                         | Montant de la déduction |
-| 401K | Participer              | 3000.00          |
-| assurance pour les soins dentaires. | SubSp                  | 495,00           |
-| Dépenses liées aux soins au niveau du département | Participer | 2500.00          |
-| Vision | SupSp                  | 500,00           |
-
-6. Dans l'onglet **Contributions pour les avantages**, entrez les informations suivantes :
+5. Dans l'onglet **Contributions pour les avantages**, entrez les informations suivantes :
 
 | Champ              | Valeur               |
 |--------------------|---------------------|
@@ -159,7 +145,7 @@ Après avoir généré les bordereaux de paie avec des soldes d'ouverture, vous 
 | assurance pour les soins dentaires. | SubSp     | 495,00              |
 | Vision | SubSp     | 500,00              |
 
-7. Dans l'onglet **Retenues fiscales**, entrez les informations suivantes :
+6. Dans l'onglet **Retenues fiscales**, entrez les informations suivantes :
 
 | Champ           | Valeur            |
 |-----------------|------------------|
@@ -167,9 +153,9 @@ Après avoir généré les bordereaux de paie avec des soldes d'ouverture, vous 
 | USA-FED-ER-FICA | 1600.00          |
 | USA-FED-ER-MEDI | 825.75           |
 
-8. Dans l'onglet **Contributions fiscales**, entrez les informations suivantes :
+7. Dans l'onglet **Contributions fiscales**, entrez les informations suivantes :
 
-9. Cliquez sur **Calculer.**
+8. Cliquez sur **Calculer.**
 > [!IMPORTANT] 
 > Validez les totaux du bordereau de paie pour qu'ils correspondent au cumul annuel du système hérité pour le collaborateur. Vous voudrez peut-être empêcher la finalisation à l'étape suivante pour effectuer une validation globale de tous les bordereaux de paie dans l'ensemble. Une fois validé, exécutez tous les bordereaux de paie et finalisez-les.
 
@@ -182,5 +168,5 @@ Il est possible de contrepasser et d'entrer de nouveau les transactions. Pour co
 
 2. Cliquez sur **Oui** lorsque le message « Lorsque vous contrepassez ce bordereau de paie, un bordereau de paie de contrepassation est créé pour contrebalancer ce bordereau de paie Aucun bordereau de paie ne peut être modifié. Voulez-vous contrepasser ce bordereau de paie ? s'affiche. 
 
-Après avoir contrepassé le bordereau de paie, vous pouvez générer un nouveau bordereau de paie pour le collaborateur à partir de l'état des revenus que vous avez créé précédemment dans la procédure de génération des états de revenus et des bordereaux de paie plus haut dans cette rubrique. Veillez à résoudre toutes les lignes non valides dans l'état des revenus avant de générer le nouveau bordereau de paie, puis répétez la procédure de mise à jour des bordereaux de paie ayant des soldes d'ouverture pour les avantages et les taxes, figurant dans cette rubrique.
+Après avoir contrepassé le bordereau de paie, vous pouvez générer un nouveau bordereau de paie pour le travailleur avec l'état des revenus que vous avez créé précédemment. Veillez à résoudre toutes les lignes incorrectes dans l'état des revenus avant de générer le nouveau bordereau de paie, puis générez de nouveaux bordereaux de paie avec les montants appropriés. 
 

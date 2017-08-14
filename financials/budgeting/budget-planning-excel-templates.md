@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 261794
 ms.assetid: 1d8e99c1-b70d-41ba-991e-ab50b16797e0
 ms.search.region: Global
 ms.author: sigitac
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 9f8073a2eb0d1b61d6a168f43eba983d113cf453
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 734c8930f239d8c9d220601bb2103bd55dd5bfd8
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -35,12 +35,18 @@ Cette rubrique décrit la procédure de création de modèles Microsoft Excel qu
 Cette rubrique explique comment créer des modèles Excel qui seront utilisés avec les plans budgétaires à l'aide de l'ensemble de données de démonstration standard et de la connexion utilisateur Administrateur. Pour plus d'informations sur la planification budgétaire, voir [Vue d'ensemble de la planification budgétaire.](budget-planning-overview-configuration.md) Vous pouvez également suivre le didacticiel [Planification budgétaire 101](budget-plan.md) pour connaître les principes de configuration et d'utilisation du module de base.
 
 ## <a name="generate-a-worksheet-using-budget-plan-document-layout"></a>Générer une feuille de calcul à l'aide de la mise en page des documents du plan budgétaire
-Les documents du plan budgétaire peuvent être affichés et modifiés à l'aide d'une ou de plusieurs mises en page. Chaque mise en page peut être associée à un modèle de document de plan budgétaire pour afficher et modifier les données du plan budgétaire dans une feuille de calcul Excel. Dans cette rubrique, un modèle de document de plan budgétaire sera généré à l'aide d'une configuration de mise en page existante. Ouvrez la liste **Plans budgétaires** (**Budgétisation**&gt; **Plans budgétaires**). Cliquez sur **Nouveau** pour créer un document de plan budgétaire. [![bpt1](./media/bpt11-1024x552.png)](./media/bpt11.png) 
+
+Les documents du plan budgétaire peuvent être affichés et modifiés à l'aide d'une ou de plusieurs mises en page. Chaque mise en page peut être associée à un modèle de document de plan budgétaire pour afficher et modifier les données du plan budgétaire dans une feuille de calcul Excel. Dans cette rubrique, un modèle de document de plan budgétaire sera généré à l'aide d'une configuration de mise en page existante. 
+
+Ouvrez la liste **Plans budgétaires** (**Budgétisation** &gt; **Plans budgétaires**). Cliquez sur **Nouveau** pour créer un document de plan budgétaire. 
+
+[![bpt1](./media/bpt11-1024x552.png)](./media/bpt11.png) 
 
 Utilisez l'option de ligne **Ajouter** pour ajouter des lignes. Cliquez sur **Mises en page** pour afficher la configuration de la mise en page du document de plan budgétaire. 
+
 [![bpt2](./media/bpt2-1024x274.png)](./media/bpt2.png) 
 
-Vous pouvez examiner la configuration de la mise en page et l'ajuster si nécessaire. Accédez à **Modèle** &gt; **Générer** pour créer un fichier Excel pour cette mise en page. Une fois le modèle généré, accédez à **Modèle** &gt; **Afficher** pour ouvrir et examiner le modèle de document de plan budgétaire. Vous pouvez enregistrer le fichier Excel sur votre disque local. [![bpt3](./media/bpt3-1024x545.png)](./media/bpt3.png) 
+Vous pouvez examiner la configuration de la mise en page et l'ajuster si nécessaire. Accédez à **Modèle** &gt; **Générer** pour créer un fichier Excel pour cette mise en page. Une fois le modèle généré, accédez à **Modèle** &gt; **Afficher** pour ouvrir et examiner le modèle de document de plan budgétaire. Vous pouvez enregistrer le fichier Excel sur votre disque local. [![bpt3](./media/bpt3-1024x545.png)](./media/bpt3.png)
 
 > [!NOTE] 
 > La mise en page du document de plan budgétaire ne peut pas être modifiée une fois qu'un modèle Excel lui est associée. Pour modifier la mise en page, supprimez le fichier de modèle Excel associé et régénérez-le. Cette opération est nécessaire pour assurer la synchronisation des champs de la mise en page et de la feuille de calcul. 

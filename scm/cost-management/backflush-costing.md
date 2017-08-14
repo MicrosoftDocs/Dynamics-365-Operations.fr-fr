@@ -18,13 +18,12 @@ ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: conradv
 ms.dyn365.ops.intro: Version 1611
-ms.search.validFrom: 2016-11-30
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: e520c292b7350f332649f23fb4232e7ecd191776
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.translationtype: HT
+ms.sourcegitcommit: 9ea9eb66abf7898ce735e1204259fcc9b9523c52
+ms.openlocfilehash: 404803c6317b2aeda78de86d4ba11987b2a8cf65
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -35,7 +34,7 @@ ms.lasthandoff: 06/13/2017
 
 Cette rubrique présente le concept de comptabilité à rebours utilisé pour la production au plus juste. 
 
-L'évaluation des coûts de production au plus juste permet au flux de production d'utiliser la méthode de formation des coûts qui est appelée comptabilité à rebours. Dans la méthode de comptabilité à rebours, les matières directes qui sont consommées sont cumulées dans le compte de coût de (WIP) des travaux en cours du flux de production. Le groupe de modèles de stock pour les coûts standard est utilisé. Les produits reçus du flux de production sont déduits des travaux en cours à leur coût standard. La différence principale entre la comptabilité à rebours et le coût standard est que, pour la comptabilité à rebours, les écarts ne sont pas calculés par kanban ou produit fini. Au lieu de cela, les écarts sont calculés par flux de production au cours d'une période. Cette méthode offre une véritable méthode de production au plus juste pour déclarer la consommation de matières. Les quantités de matières prélevées dédiées ne sont pas signalées à un kanban ou un ordre de fabrication. Au lieu de cela, les lots complets ou les unités de manutention sont présentés au flux de production. Une fois les lots ou les unités de manutention enregistrés comme vides, ils sont déclarés consommés. La consommation avancée peut être utilisée, selon la [configuration du flux de production](http://ax.help.dynamics.com/en/wiki/lean-manufacturing-modeling-the-lean-organization/). Avant que la consommation avancée puisse être utilisé, les organisations doivent autoriser la disparition des matières dans les travaux en cours du flux de production. La comptabilité à rebours périodique détermine la valeur effective des travaux en cours à la fin de la période. Cette détermination est basée sur les unités de manutention de kanban et le statut d'opération kanban. Les écarts entre les valeurs effectives et les valeurs réelles des travaux en cours par groupe de coûts et article sont pris en compte et affichés comme des écarts.
+L'évaluation des coûts de production au plus juste permet au flux de production d'utiliser la méthode de formation des coûts qui est appelée comptabilité à rebours. Dans la méthode de comptabilité à rebours, les matières directes qui sont consommées sont cumulées dans le compte de coût de (WIP) des travaux en cours du flux de production. Le groupe de modèles de stock pour les coûts standard est utilisé. Les produits reçus du flux de production sont déduits des travaux en cours à leur coût standard. La différence principale entre la comptabilité à rebours et le coût standard est que, pour la comptabilité à rebours, les écarts ne sont pas calculés par kanban ou produit fini. Au lieu de cela, les écarts sont calculés par flux de production au cours d'une période. Cette méthode offre une véritable méthode de production au plus juste pour déclarer la consommation de matières. Les quantités de matières prélevées dédiées ne sont pas signalées à un kanban ou un ordre de fabrication. Au lieu de cela, les lots complets ou les unités de manutention sont présentés au flux de production. Une fois les lots ou les unités de manutention enregistrés comme vides, ils sont déclarés consommés. La consommation avancée peut être utilisée, selon la [configuration du flux de production](/dynamics365/unified-operations/supply-chain/production-control/lean-manufacturing-modeling-lean-organization). Avant que la consommation avancée puisse être utilisé, les organisations doivent autoriser la disparition des matières dans les travaux en cours du flux de production. La comptabilité à rebours périodique détermine la valeur effective des travaux en cours à la fin de la période. Cette détermination est basée sur les unités de manutention de kanban et le statut d'opération kanban. Les écarts entre les valeurs effectives et les valeurs réelles des travaux en cours par groupe de coûts et article sont pris en compte et affichés comme des écarts.
 
 ## <a name="configuring-backflush-costing"></a>Configuration de la comptabilité à rebours
 Pour activer l'évaluation des coûts, vous définir le paramétrage suivant :
