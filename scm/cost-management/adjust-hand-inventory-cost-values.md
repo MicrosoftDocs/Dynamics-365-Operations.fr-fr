@@ -10,7 +10,6 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventAdjInventOnHand
 audience: Application User
-ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 53231
 ms.assetid: bc1fde9f-5ad9-4339-8ae8-e2839b792eb2
@@ -31,7 +30,6 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
-
 Utilisez la page Ajustement du stock disponible pour ajuster le coût des quantités de stock disponible une fois qu'un processus de clôture de stock a été exécuté.
 
 Vous pouvez utiliser la page **Ajustement du stock disponible** pour ajuster le coût des quantités de stock disponible une fois qu'un processus de clôture de stock a été exécuté. **Remarque :** pour ouvrir la page **Ajustement du stock disponible**, dans la page **Clôture et ajustement**, sélectionnez l'enregistrement d'un processus de clôture de stock terminé, puis cliquez sur **Ajustement** &gt; **Disponible**. **Exemple :** les transactions suivantes ont lieu en février :
@@ -46,7 +44,4 @@ Cet article était paramétré avec le modèle de stock FIFO (premier entré, pr
 -   5 février : quantité de 1 à un coût de 13,00 EUR.
 
 Pour définir le coût de ces deux articles sur 15,00 EUR, utilisez l'option d'ajustement disponible et ajustez les quantités disponibles ouvertes à partir de la dernière période de clôture de stock. **Remarque :** la date de validation de la transaction d'ajustement disponible sera la date de la dernière clôture de stock. Cette date ne peut pas être modifiée.
-
-
-
 
