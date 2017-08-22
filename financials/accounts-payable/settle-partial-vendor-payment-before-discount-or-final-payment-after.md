@@ -1,7 +1,7 @@
 ---
 title: "Régler un paiement partiel fournisseur avant la date de remise avec un paiement final après la date de remise"
 description: "Cet article vous fait parcourir un scénario où plusieurs paiements partiels sont effectués, certains au cours de la période d'escompte de règlement et d'autres en dehors de la période d'escompte de règlement."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14411
 ms.assetid: 302ad6ae-28ee-4899-9f6b-f74424a5f50c
 ms.search.region: Global
-ms.author: kweekley
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
@@ -23,7 +23,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: 1a454a487a0879234eee76a39b2f095d1d80ea1e
 ms.contentlocale: fr-fr
 ms.lasthandoff: 05/25/2017
-
 
 ---
 

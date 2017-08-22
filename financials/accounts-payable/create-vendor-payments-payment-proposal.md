@@ -1,7 +1,7 @@
 ---
 title: "Création de paiements fournisseur via une proposition de paiement"
 description: "Cette rubrique fournit une vue d'ensemble des options de proposition de paiement et il inclut quelques exemples qui indiquent comment les propositions de paiement sont exécutées. Les propositions de paiement sont souvent utilisées pour créer des paiements fournisseurs car la demande de proposition de paiement peut être utilisée pour sélectionner rapidement les factures fournisseur pour le paiement, en fonction de critères tels que la date d'échéance et l'escompte de règlement."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 07/17/2017
 ms.topic: article
@@ -15,8 +15,8 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14312
 ms.assetid: 585d5b0b-1b79-4a03-ab18-528918070377
 ms.search.region: Global
-ms.author: kweekley
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.author: Shiva.Pandey
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
