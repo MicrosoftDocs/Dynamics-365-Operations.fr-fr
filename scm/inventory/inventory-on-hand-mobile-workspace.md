@@ -18,12 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.translationtype: Human Translation
-ms.sourcegitcommit: a0edbad63c51d111d7c8985aa7fdf7312da6149d
-ms.openlocfilehash: d14f3510df45169e3b77ee9c4f3d0d9d389e6036
+ms.translationtype: HT
+ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
+ms.openlocfilehash: 6e062ffa459b7d008fc5d24f27538f8df04d7e82
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/10/2017
 
 ---
 
@@ -116,7 +115,7 @@ Téléchargez et installez l'application mobile Dynamics 365 for Unified Operati
 
 1.  Sur votre appareil mobile, sélectionnez l'espace de travail **Stock disponible**.
 
-2.  Sélectionnez **Vérifier la disponibilité d'un article**. Vous découvrez une liste des produits chargés dans votre application pour l'utilisation hors ligne. Par défaut, jusqu'à 50 éléments sont chargés, mais votre développeur peut modifier ce nombre. Pour plus d'informations, les développeurs doivent consulter [Plateforme mobile](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+2.  Sélectionnez **Vérifier la disponibilité d'un article**. Vous découvrez une liste des produits chargés dans votre application pour l'utilisation hors ligne. Par défaut, jusqu'à 50 éléments sont chargés, mais votre développeur peut modifier ce nombre. Pour plus d'informations, les développeurs doivent consulter [Plateforme mobile](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).
 3.  Si votre article ne figure pas dans la liste, sélectionnez **Rechercher plus**. Recherchez le nombre de produits ou basculez vers une recherche par nom de produit.
 
 4.  Sélectionnez un produit. Si l'article est une image, l'image s'affiche.

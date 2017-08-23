@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: f7cf2b7996d113f0f883b39f3603de8236e8ad2c
+ms.translationtype: HT
+ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
+ms.openlocfilehash: 6a535b5f1192b7c27383cb8ece53f76a9c76f047
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -52,7 +51,7 @@ Microsoft Dynamics 365 for Finance and Operations prend en charge le cycle de ge
 </tr>
 <tr class="even">
 <td>Enregistrement et validation d'un chèque postdaté pour un fournisseur</td>
-<td>Enregistrez les détails d'un chèque postdaté avant sa remise à un fournisseur. Lorsque le paiement est validé, le passif du fournisseur est identifié, mais le compte bancaire n'est pas encore crédité. Au lieu de cela, un compte de compensation est utilisé à cet effet.</td>
+<td>Enregistrez les détails d'un chèque postdaté avant sa remise à un fournisseur. Lorsque le paiement est validé, le passif du fournisseur est identifié, mais le compte bancaire n'est pas encore crédité. Au lieu de cela, un compte de compensation est utilisé à cet effet. </td>
 </tr>
 <tr class="odd">
 <td>Enregistrer et valider un chèque postdaté pour un client</td>
@@ -87,6 +86,17 @@ Si votre chèque d'origine à un fournisseur ou émis par un client est perdu ou
 
 
 
+Pour plus d'informations, voir les rubriques suivantes :
+
+[Paramétrer des chèques postdatés](tasks/set-up-postdated-checks.md)
+
+[Enregistrer et valider un chèque postdaté pour un client](tasks/register-post-postdated-check-customer.md)
+
+[Régler un chèque postdaté provenant d'un client](tasks/settle-postdated-check-customer.md)
+
+[Enregistrer et valider un chèque postdaté pour un fournisseur](tasks/register-post-postdated-check-vendor.md) 
+
+[Régler un chèque postdaté pour un fournisseur](tasks/settle-postdated-check-vendor.md)
 
 
 

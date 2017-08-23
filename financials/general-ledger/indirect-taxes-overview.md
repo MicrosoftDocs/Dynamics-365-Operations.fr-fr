@@ -3,7 +3,7 @@ title: Vue d'ensemble de la taxe
 description: "Cet article offre une vue d'ensemble du système de taxes. Il explique les éléments du paramétrage de la taxe et comment ils fonctionnent ensemble."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 415928125c14dfc69020b712f281835701ba2f83
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: f4838dade6b2694a11f4b9775fe53560b1332f18
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -47,7 +46,7 @@ Le diagramme suivant indique les entités du paramétrage fiscal et comment elle
 
 Pour chaque taxe qu'une société doit justifier, un code taxe doit être défini. Un code taxe enregistre les taux et les règles de calcul de la taxe. 
 
-Chaque code taxe doit être lié à une période de règlement de la taxe. Les périodes de règlement de la taxe définissent les intervalles auxquels la taxe doit être déclarée et payée à l'administration fiscale. Chaque période de règlement de la taxe doit être affectée à une administration fiscale. Une administration fiscale représente l'entité à laquelle la taxe est déclarée et payée. Elle définit également la structure de la déclaration de taxe. Les administrations fiscales peuvent être associées à des comptes fournisseur. 
+Chaque code taxe doit être lié à une période de règlement de la taxe. Les périodes de règlement de la taxe définissent les intervalles auxquels la taxe doit être déclarée et payée à l'administration fiscale. Chaque période de règlement de la taxe doit être affectée à une administration fiscale. Une administration fiscale représente l'entité à laquelle la taxe est déclarée et payée. Elle définit également la structure de la déclaration de taxe. Les administrations fiscales peuvent être associées à des comptes fournisseur. Pour plus d'informations, voir [Paramétrer des périodes de règlement fiscal](tasks/set-up-sales-tax-settlement-periods.md).
 
 Chaque code taxe doit également être lié à un groupe de validation dans la comptabilité. Un groupe de validation dans la comptabilité spécifie les comptes principaux dans lesquels les montants correspondant aux codes taxe sont validés. 
 
@@ -60,13 +59,13 @@ Le tableau suivant décrit les entités et la séquence pour le paramétrage fis
 | Activité de paramétrage                                                  | Obligatoire/facultatif et description                                                                                                                                                                                                                                                                                         |
 |-----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Créer des comptes principaux.                                           | Obligatoire. Avant de pouvoir définir la fonctionnalité de taxe, vous devez créer les comptes principaux que la société utilise pour payer et enregistrer les taxes.                                                                                                                                                                             |
-| Paramétrez des groupes de validation dans la comptabilité pour la taxe.                     | Obligatoire. Les groupes de validation dans la comptabilité définissent les comptes principaux pour l'enregistrement et le paiement des taxes.                                                                                                                                                                                                                            |
-| Paramétrage des administrations fiscales.                                   | Obligatoire. Les autorités fiscales sont les entités auxquelles cette taxe doit être déclarée et payée.                                                                                                                                                                                                                                   |
+| Paramétrez des groupes de validation dans la comptabilité pour la taxe.                     | Obligatoire. Les groupes de validation dans la comptabilité définissent les comptes principaux pour l'enregistrement et le paiement des taxes.   Pour plus d'informations, voir [Paramétrer des groupes de validation dans la comptabilité de la taxe](tasks/set-up-ledger-posting-groups-sales-tax.md).                                                                                 |
+| Paramétrage des administrations fiscales.                                   | Obligatoire. Les autorités fiscales sont les entités auxquelles cette taxe doit être déclarée et payée.    Pour plus d'informations, voir [Paramétrer les administrations fiscales](tasks/set-up-sales-tax-authorities.md).                                                                                                                                          |
 | Paramétrage des périodes de règlement de la taxe.                            | Obligatoire. Les périodes de règlement de la taxe contiennent des informations sur la date et la fréquence à laquelle la taxe doit être déclarée et payée. Elles sont associées à une administration fiscale.                                                                                                                                                       |
-| Paramétrage des codes déclaration de taxe.                               | Facultatif. Les codes déclaration de taxe peuvent être affectés à des codes taxe afin de déclarer des montants correspondant à plusieurs codes taxe sous un seul code déclaration de taxe.                                                                                                                                                                 |
-| Paramétrage des codes taxe.                                         | Obligatoire. Les codes taxe contiennent les taux et les règles de calcul de chaque taxe. Les codes taxe sont associés à une période de règlement de la taxe, ainsi qu'à un groupe de validations dans la comptabilité.                                                                                                                                        |
+| Paramétrage des codes déclaration de taxe.                               | Facultatif. Les codes déclaration de taxe peuvent être affectés à des codes taxe afin de déclarer des montants correspondant à plusieurs codes taxe sous un seul code déclaration de taxe. Pour plus d'informations, voir [Paramétrer des codes déclaration de taxe](tasks/set-up-sales-tax-reporting-codes.md).                                         |
+| Paramétrage des codes taxe.                                         | Obligatoire. Les codes taxe contiennent les taux et les règles de calcul de chaque taxe. Les codes taxe sont associés à une période de règlement de la taxe, ainsi qu'à un groupe de validations dans la comptabilité. Pour plus d'informations, voir [Paramétrer des codes taxe](tasks/set-up-sales-tax-codes.md).                                |
 | Paramétrez les groupes de taxes.                                        | Obligatoire. Les groupes de taxe contiennent une liste des codes de vente applicables pour la partie (client ou fournisseur) d'une transaction. Pour une transaction donnée, l'intersection des codes taxe dans le groupe de taxe et le groupe de taxe d'article détermine les codes taxe qui s'appliquent à cette transaction.                  |
-| Paramétrer des groupes de taxes d'article.                                   | Obligatoire. Les groupes de taxe d'article contiennent une liste des codes vente applicables pour la ressource (produit, service, etc.) d'une transaction. Pour une transaction donnée, l'intersection des codes taxe dans le groupe de taxe et le groupe de taxe d'article détermine les codes taxe qui s'appliquent à cette transaction. |
+| Paramétrer des groupes de taxes d'article.                                   | Obligatoire. Les groupes de taxe d'article contiennent une liste des codes vente applicables pour la ressource (produit, service, etc.) d'une transaction. Pour une transaction donnée, l'intersection des codes taxe dans le groupe de taxe et le groupe de taxe d'article détermine les codes taxe qui s'appliquent à cette transaction. Pour plus d'informations, voir [Paramétrer des groupes de taxe et groupes de taxe d'article](tasks/set-up-sales-tax-groups-item-sales-tax-groups.md). |
 | Définir les paramètres de taxe sur les pages de paramètres d'application. | Obligatoire. Différents domaines, tels que la Comptabilité, la Comptabilité client et la Comptabilité fournisseur, doivent définir les paramètres pour le calcul correct des taxes indirectes. Bien que la plupart de ces paramètres aient des valeurs par défaut, ils doivent être modifiés pour répondre aux exigences de chaque société.                                          |
 
 ## <a name="sales-tax-on-transactions"></a>Taxe sur les transactions
@@ -98,5 +97,5 @@ Généralement vous devez payer 2 500 EUR à l'administration fiscale lorsque la
 Toutefois, si vous utilisez une taxe sur les encaissements, vous payez l'administration fiscale lorsque vous recevez le paiement du client, le 30 juillet.
 
 
-
+Pour plus d'informations, voir [Paramétrer la retenue à la source](tasks/set-up-withholding-tax.md).
 

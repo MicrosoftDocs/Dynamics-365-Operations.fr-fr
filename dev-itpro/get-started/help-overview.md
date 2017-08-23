@@ -15,13 +15,13 @@ ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9c083fd26a58e96b3bb810df11eadace184f9dbf
-ms.openlocfilehash: eaa3317acf7df84d06ad3641486df1c096b26a56
+ms.sourcegitcommit: 529751c09b8f99f986cad23a633bea661929d558
+ms.openlocfilehash: 171d006e20834ea4ad6d5651ec27fc305eac4bc6
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -34,7 +34,7 @@ Cet article fournit une vue d'ensemble des composants du système d'aide Microso
 > [!NOTE] 
 > Les produits suivants sont étroitement liés : Dynamics 365 for Finance and Operations, Enterprise edition, Dynamics 365 for Retail et Dynamics 365 for Talent. Les mêmes fonctionnalités peuvent apparaître dans les trois produits. Par conséquent, dans les rubriques qui sont généralement liées à la vente au détail, le nom du produit sera Dynamics 365 for Retail ; dans les rubriques qui sont généralement liées à Talent, le nom du produit sera Dynamics 365 for Talent ; et dans les rubriques associées au produit central, le nom du produit sera Dynamics 365 Finance and Operations. Les rubriques qui sont écrites pour un produit peuvent s'appliquer à la même fonctionnalité d'un produit associé.
 
-Le système d'aide est partagé par tous les produits Unified Operations :
+Le système d'aide est partagé par les produits suivants :
 - Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition
 - Dynamics 365 for Retail
 - Dynamics 365 for Talent
@@ -73,7 +73,7 @@ Vous pouvez également rechercher notre contenu avec n'importe quel moteur de re
 
 ![Résultats de la recherche de site](./media/site-search-results-2.png)
 
-### <a name="the-docsmicrosoftcom-table-of-contents-for-unified-operations"></a>Table des matières de docs.microsoft.com pour Unified Operations
+### <a name="the-docsmicrosoftcom-table-of-contents"></a>Table des matières de docs.microsoft.com
 Tous les produits partagent une table des matières unique dans le site de documents, ce qui permet aux clients de voir le contexte de la rubrique dans laquelle ils se trouvent. Elle permet également d'utiliser le contrôle Filtrer pour rechercher les rubriques souhaitées.
 
 ### <a name="how-can-i-contribute"></a>Comment peux-je contribuer ? 
@@ -101,7 +101,7 @@ Sur la droite, entrez une adresse e-mail et un mot de passe pour créer un compt
 ## <a name="task-guides"></a>Guides de tâches
 Un guide de tâche est une expérience contrôlée, guidée, interactive qui vous accompagne le long des étapes d'une tâche ou d'un processus métier. Vous pouvez lire un guide de tâche à partir du volet Aide. Lorsque vous cliquez sur un guide de tâche, le volet Aide affiche les instructions pas-à-pas concernant la tâche. Des guides des tâches localisés sont désormais disponibles. 
 
-Nous fournirons différents ensembles de guides de tâches pour chaque produit Unified Operations. La section Accès aux guides de tâches à partir du volet Aide décrit comment trouver les guides de tâches appropriés à votre produit. 
+Nous fournirons différents ensembles de guides de tâches pour chaque produit comme Dynamics 365 for Retail, Dynamics 365 for Finance and Operations ou Dynamics 365 for Talent. La section Accès aux guides de tâches à partir du volet Aide décrit comment trouver les guides de tâches appropriés à votre produit. 
 
 ![Vue de lecture du Guide de tâche](./media/task-guide-ops.png)
 
@@ -169,7 +169,7 @@ Les guides de tâche traduits sont disponibles dans les bibliothèques avec la m
 -   Si un guide de tâche n'a pas encore été traduit, lorsque vous ouvrez ce guide de tâche, une partie du texte (texte des commandes) s’affiche dans la langue sélectionnée.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
-Le tableau suivant répertorie les sites Web fournissant du contenu Unified Operations. Le contenu de nos sites Web est organisé de manière à suivre le cycle de vie du client. Chaque phase est prise en charge par un ensemble de sites différent. Les sites qui ont un astérisque (\*) en regard de leur nom nécessitent une identification de connexion à l'aide d'un compte associé à un plan de service.
+Le tableau suivant répertorie nos sites Web. Le contenu de nos sites Web est organisé de manière à suivre le cycle de vie du client. Chaque phase est prise en charge par un ensemble de sites différent. Les sites qui ont un astérisque (\*) en regard de leur nom nécessitent une identification de connexion à l'aide d'un compte associé à un plan de service.
 
 | site ;                                                                     | description ;                                                                                                                                                                                                                                |
 |--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

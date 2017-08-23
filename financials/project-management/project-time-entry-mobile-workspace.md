@@ -18,12 +18,11 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: d80dea89db1fbe270b96063f3818ec3ac95239c8
+ms.translationtype: HT
+ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
+ms.openlocfilehash: 83899969255a9b771fc5e62e66e3c5ffdca0296e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/10/2017
 
 ---
 
@@ -105,11 +104,11 @@ Téléchargez et installez l'application mobile Dynamics 365 for Unified Operati
 2.  Sélectionnez **Saisie des heures**. Les dates civiles pour la semaine en cours sont affichées.
 3.  Pour une date sélectionnée, choisissez &gt; **Action** **Nouvelle saisie**.
 4.  Entrez le nombre d'heures.
-5.  Sélectionnez le projet concerné par la saisie d'heures. Une liste affiche les projets chargés dans votre application pour l'utilisation hors ligne. Par défaut, jusqu'à 50 éléments sont chargés, mais votre développeur peut modifier ce nombre. Pour plus d'informations, voir [Plateforme mobile](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+5.  Sélectionnez le projet concerné par la saisie d'heures. Une liste affiche les projets chargés dans votre application pour l'utilisation hors ligne. Par défaut, jusqu'à 50 éléments sont chargés, mais votre développeur peut modifier ce nombre. Pour plus d'informations, voir [Plateforme mobile](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).
 6.  Si votre projet ne figure pas dans la liste, sélectionnez **Rechercher**. Recherchez par nom, ou lancez une recherche par nom de projet ou de client.
-7.  Permet de sélectionner une catégorie. Une liste affiche les catégories chargées dans votre application pour l'utilisation hors ligne. Par défaut, jusqu'à 50 éléments sont chargés, mais votre développeur peut modifier ce nombre. Pour plus d'informations, voir [Plateforme mobile](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+7.  Permet de sélectionner une catégorie. Une liste affiche les catégories chargées dans votre application pour l'utilisation hors ligne. Par défaut, jusqu'à 50 éléments sont chargés, mais votre développeur peut modifier ce nombre. Pour plus d'informations, voir [Plateforme mobile](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).
 8.  Si votre catégorie ne figure pas dans la liste, sélectionnez **Rechercher**. Recherchez par catégorie, ou lancez une rechercher par nom de catégorie.
-9.  Permet de sélectionner une activité. Une liste affiche les activités chargées dans votre application pour l'utilisation hors ligne. Par défaut, jusqu'à 50 éléments sont chargés, mais votre développeur peut modifier ce nombre. Pour plus d'informations, voir [Plateforme mobile](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+9.  Permet de sélectionner une activité. Une liste affiche les activités chargées dans votre application pour l'utilisation hors ligne. Par défaut, jusqu'à 50 éléments sont chargés, mais votre développeur peut modifier ce nombre. Pour plus d'informations, voir [Plateforme mobile](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).
 10. Si votre activité ne figure pas dans la liste, sélectionnez **Rechercher**. Recherchez par numéro d'activité, ou lancez une rechercher par objectif.
 
 11. Sélectionner la propriété de ligne.

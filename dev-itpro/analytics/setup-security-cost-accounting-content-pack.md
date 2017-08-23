@@ -15,13 +15,13 @@ ms.custom: 270294
 ms.assetid: 3a7ba8b0-ac57-4159-9cd8-4308f6021f36
 ms.search.region: Global
 ms.author: yuyus
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: ea4ee6cfdca6e65f289db32ca41305a39b186033
+ms.translationtype: HT
+ms.sourcegitcommit: 04f8cb1a6375be9371bca2af7e4044392ce7322b
+ms.openlocfilehash: 12fd8e11211b701304f9f4a68ff31f3b42e3e8ee
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/02/2017
 
 ---
 
@@ -45,11 +45,11 @@ Pour propager la sécurité au niveau des accès à Power BI, le propriétaire 
 3.  Cherchez le jeu de données pour le contenu Power BI **Analyse du contrôle de gestion**.
 4.  Ouvrez la page de sécurité. 
 
-    [![Ouverture de la page de sécurité](https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-1.png)](https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-1.png)
+    ![Ouverture de la page de sécurité](./media/CA-picture-1.png)
 
 5.  Le rôle **Contrôleur d'objet de coût** est déjà créé. Ajoutez d'autres membres qui appartiennent à la hiérarchie organisationnelle au niveau des accès du contrôle de gestion. 
 
-    [![Ajout de membres](https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-2.png)](https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-2.png)
+    ![Ajout de membres](./media/CA-picture-2.png)
 
 Les utilisateurs qui sont ajoutés au rôle **Contrôleur d'objet de coût** ne voient que les données auxquelles ils sont autorisés, conformément à la définition donnée dans la hiérarchie organisationnelle au niveau des accès du contrôle de gestion. **Remarque :** la sécurité au niveau des lignes s'applique aux vignettes et aux états dans Microsoft Dynamics 365 for Finance and Operations qui sont intégrés à partir de Power BI.
 

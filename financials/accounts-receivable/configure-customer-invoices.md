@@ -1,9 +1,9 @@
 ---
 title: "Création d'une facture client"
 description: 
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,14 +14,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 77772
 ms.assetid: 00b4b40c-1576-4098-9aed-ac376fdeb8c5
 ms.search.region: Global
-ms.author: mfalkner
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.author: Shiva.Pandey
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: fd89921a97782c4d09807a730ab077809304159f
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 249b1f331d6889d3b9ed2ace2e5db21d7a5d3e46
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -30,11 +30,20 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-
-
-Une **facture client pour une commande client** est une facture associée à une vente, remise par une organisation à un client. Ce type de facture client est créé sur la base d'une commande client, laquelle comporte des lignes de commande et des numéros d'article. Les numéros d'article sont spécifiés et validés dans la comptabilité. Les écritures de journal de comptabilité auxiliaire ne sont pas disponibles pour une facture client associée à une commande client. 
+Une **facture client pour une commande client** est une facture associée à une vente, remise par une organisation à un client. Ce type de facture client est créé sur la base d'une commande client, laquelle comporte des lignes de commande et des numéros d'article. Les numéros d'article sont spécifiés et validés dans la comptabilité. Les écritures de journal de comptabilité auxiliaire ne sont pas disponibles pour une facture client associée à une commande client. Pour plus d'informations, voir [Créer des factures de commande client](tasks/create-sales-order-invoices.md).
 
 Une **facture financière** n'est pas liée à une commande client. Elle contient des lignes de commande comprenant des comptes généraux, des descriptions en texte libre ainsi qu'une valeur de vente que vous entrez. Vous ne pouvez pas entrer de numéro d'article sur ce type de facture. Vous devez entrer les informations de taxe appropriées. Un compte principal associé à la vente figure sur chaque ligne de facture, que vous pouvez répartir entre plusieurs comptes généraux en cliquant sur **Répartir les montants** sur la page **Facture financière**. En outre, le solde du client est validé dans le compte collectif en fonction du profil de validation utilisé pour la facture financière.
+
+Pour plus d'informations, voir : 
+
+[Créer une facture financière](tasks/create-free-text-invoice.md)
+
+[Créer un modèle de facture financière](tasks/create-free-text-invoice-template.md)
+
+[Affecter un modèle de facture financière à un client](tasks/assign-free-text-invoice-template-customer.md)
+
+[Générer et valider les factures financières récurrentes](tasks/post-recurring-free-text-invoices.md)
+
 
 Une **facture pro forma** est une facture préparée comme une estimation des montants de facture réels avant la validation de la facture. Vous pouvez imprimer une facture pro forma pour une facture client associée à une commande client ou pour une facture financière.
 

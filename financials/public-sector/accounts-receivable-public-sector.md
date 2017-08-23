@@ -3,7 +3,7 @@ title: "Comptabilité client dans le secteur public"
 description: "Cette rubrique décrit la fonctionnalité de Comptabilité client disponible pour le secteur public."
 author: rschloma
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/07/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,12 +19,11 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b7e6dde8ee9e2caf874f4531424c3a78bfe0200a
+ms.translationtype: HT
+ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
+ms.openlocfilehash: c207f4982872b7c620ef4fa8abb2dc83d6fc0e56
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -65,8 +64,13 @@ Vous pouvez utiliser les définitions de validation pour créer des lignes de jo
 <a name="see-also"></a>Voir également :
 --------
 
-[Comptabilité client](..\accounts-receivable\accounts-receivable.md)
+[Ventes](..\accounts-receivable\accounts-receivable.md)
 
+[Créer un code facturation](tasks/create-billing-code-public-sector.md)
+
+[Créer une classification de facturation](tasks/create-billing-classification-public-sector.md)
+
+[Créer et affecter un code partenaire commercial](tasks/create-assign-trading-partner-code-public-sector.md)
 
 
 

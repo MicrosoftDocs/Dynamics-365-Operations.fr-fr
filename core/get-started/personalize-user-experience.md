@@ -1,9 +1,9 @@
 ---
 title: "Personnaliser l'expérience de l'utilisateur"
-description: Cet article explique comment vous pouvez personnaliser Microsoft Dynamics 365 for Finance and Operations.
+description: Cette rubrique explique comment vous pouvez personnaliser Microsoft Dynamics 365 for Finance and Operations.
 author: RobinARH
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,13 +16,13 @@ ms.custom: 62363
 ms.assetid: 57b445d7-3e9e-4228-8728-f63b9dbd77a3
 ms.search.region: Global
 ms.author: tlefor
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: b338a930777a5945eb6318dc8066fb3649c79dbe
+ms.translationtype: HT
+ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
+ms.openlocfilehash: dbc80ff756a5286a98489f1f1403959d9b18ebe6
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/04/2017
 
 ---
 
@@ -31,28 +31,28 @@ ms.lasthandoff: 06/13/2017
 [!include[banner](../includes/banner.md)]
 
 
-Cet article explique comment vous pouvez personnaliser Microsoft Dynamics 365 for Finance and Operations.
+Cette rubrique explique comment vous pouvez personnaliser Microsoft Dynamics 365 for Finance and Operations.
 
-Il existe plusieurs types de personnalisations dans Microsoft Dynamics 365 for Finance and Operations. Certaines personnalisations sont des sélections effectuées dans la liste des options dans une page de paramétrage. Certaines personnalisations sont implicites, par exemple, Finance and Operations garde un suivi des largeurs les colonnes de la grille si vous les ajustez, et l'état développé/réduit des organisateurs. D'autres personnalisations sont explicites. Pour les personnalisations explicites, vous entrez en mode interactif de personnalisation et modifiez l'apparence de la page en gérant directement la manière dont les éléments apparaissent ou agissent sur la page. 
+Il existe plusieurs types de personnalisations dans Microsoft Dynamics 365 for Finance and Operations. Certaines personnalisations sont des sélections effectuées dans la liste des options dans une page de paramétrage. Certaines personnalisations sont implicites, par exemple, Finance and Operations garde un suivi des largeurs des colonnes de la grille si vous les ajustez, et l'état développé/réduit des organisateurs. D'autres personnalisations sont explicites. Pour les personnalisations explicites, vous entrez en mode interactif de personnalisation et modifiez l'apparence de la page en gérant directement la manière dont les éléments apparaissent ou agissent sur la page. 
 
 Toutes les personnalisations, de n'importe quel type, qu'un utilisateur effectue dans Finance and Operations sont pour cet utilisateur uniquement, indépendamment de la société avec laquelle l'utilisateur interagit. Les modifications qu'un utilisateur effectue sur une page n'affectent pas les autres utilisateurs dans le système.
 
 ## <a name="systemwide-options-for-the-current-user"></a>Options au niveau système pour l'utilisateur actuel
-Dans la barre de navigation, vous trouverez une image d'engrenages appelée bouton de menu **Paramètres**. Si vous ouvrez le menu **Paramètres**, un certain nombre de choix apparaissent. Si vous sélectionnez **Options**, la page **Options** de l'utilisateur s'ouvre. Là vous trouverez quatre onglets d'option : **Visuel****Préférences****Compte** et **Workflow**.
+Dans la barre de navigation, vous trouverez une image d'engrenages appelée bouton de menu **Paramètres**. Si vous ouvrez le menu **Paramètres**, un certain nombre de choix apparaissent. Si vous sélectionnez **Options**, la page **Options** de l'utilisateur s'ouvre. Quatre onglets d'option sont disponibles : 
 
--   **Visuel :** permet de choisir un thème de couleur et la taille par défaut des éléments dans vos pages.
--   **Préférences :** vous permet de choisir des valeurs par défaut pour chaque ouverture de Finance and Operations, notamment la société, la page initiale, et le mode affichage/modification par défaut (qui détermine si une page est verrouillée pour l'affichage ou ouverte pour la modification à chaque fois que vous l'ouvrez). Vous trouverez également la langue, le fuseau horaire, la date, l'heure, et les options de format de numéro. Enfin, cette page contient de nombreuses préférences diverses qui varieront d'une version à l'autre.
--   **Compte :** permet de fournir votre ID utilisateur et d'autres options relatives au compte.
--   **Workflow :** permet de sélectionner des options relatives au workflow.
+-   **Visuel** : permet de choisir un thème de couleur et la taille par défaut des éléments dans vos pages.
+-   **Préférences** : vous permet de choisir des valeurs par défaut pour chaque ouverture de Finance and Operations, notamment la société, la page initiale, et le mode affichage/modification par défaut (qui détermine si une page est verrouillée pour l'affichage ou ouverte pour la modification à chaque fois que vous l'ouvrez). Vous trouverez également la langue, le fuseau horaire, la date, l'heure, et les options de format de numéro. Enfin, cette page contient de nombreuses préférences diverses qui varieront d'une version à l'autre.
+-   **Compte** : permet de fournir votre ID utilisateur et d'autres options relatives au compte.
+-   **Workflow** : permet de sélectionner des options relatives au workflow.
 
 ## <a name="implicit-personalizations"></a>Personnalisations implicites
 Les personnalisations implicites sont les personnalisations que vous effectuez simplement en utilisant certains contrôles qui conservent leur état actuel visible. 
 
-**Colonnes de la grille :** vous pouvez régler la largeur d'une colonne dans la liste en sélectionnant la barre de calibrage à gauche ou à droite de l'en-tête de colonne et en la glissant à gauche ou à droite jusqu'à la largeur souhaitée. Finance and Operations enregistre la largeur que vous voulez et affiche cette colonne avec cette largeur à chaque fois que vous ouvrez la page de cette liste. 
+**Colonnes de la grille** : vous pouvez régler la largeur d'une colonne dans la liste en sélectionnant la barre de calibrage à gauche ou à droite de l'en-tête de colonne et en la glissant à gauche ou à droite jusqu'à la largeur souhaitée. Finance and Operations enregistre la largeur que vous voulez et affiche cette colonne avec cette largeur à chaque fois que vous ouvrez la page de cette liste. 
 
-**Organisateurs :** certaines pages ont des sections extensibles appelées Organisateurs. Finance and Operations enregistre les organisateurs que vous avez développés, ainsi que les organisateurs que vous avez réduits. Chaque fois que vous revenez à la page, ces mêmes organisateurs sont développés ou réduits comme la dernière fois que vous les avez utilisés. Dans cet article, nous expliquerons comment modifier l'ordre des sections de l'organisateur. Dans certains cas, la réduction d'un organisateur peut améliorer les performances car Finance and Operations n'a pas besoin de récupérer les informations de cet organisateur jusqu'à ce qu'il soit développé. 
+**Organisateurs** : certaines pages ont des sections extensibles appelées Organisateurs. Finance and Operations enregistre les organisateurs que vous avez développés, ainsi que les organisateurs que vous avez réduits. Chaque fois que vous revenez à la page, ces mêmes organisateurs sont développés ou réduits comme la dernière fois que vous les avez utilisés. Dans cet article, nous expliquerons comment modifier l'ordre des sections de l'organisateur. Dans certains cas, la réduction d'un organisateur peut améliorer les performances car Finance and Operations n'a pas besoin de récupérer les informations de cet organisateur jusqu'à ce qu'il soit développé. 
 
-**Récapitulatif :** certaines pages ont une section appelée volet Récapitulatif. Ce volet contient des informations en lecture seule associées au sujet actuel de la page. Chaque section dans le volet Récapitulatif est appelée un Récapitulatif. Vous pouvez développer ou réduire un Récapitulatif et Finance and Operations enregistrera votre préférence. Dans certains cas, la réduction d'un Récapitulatif peut améliorer les performances car Finance and Operations n'a pas besoin de récupérer les informations de ce Récapitulatif jusqu'à ce qu'il soit développé.
+**Récapitulatif** : certaines pages ont une section appelée volet Récapitulatif. Ce volet contient des informations en lecture seule associées au sujet actuel de la page. Chaque section dans le volet Récapitulatif est appelée un Récapitulatif. Vous pouvez développer ou réduire un Récapitulatif et Finance and Operations enregistrera votre préférence. Dans certains cas, la réduction d'un Récapitulatif peut améliorer les performances car Finance and Operations n'a pas besoin de récupérer les informations de ce Récapitulatif jusqu'à ce qu'il soit développé.
 
 ## <a name="explicit-personalizations-using-the-personalization-toolbar"></a>Personnalisations explicites à l'aide de la barre d'outils de personnalisation
 Chaque personne et société a un point de vue différent sur les données qui sont les plus importantes pour elle, ou sur les données qui ne sont pas nécessaires pour son travail. La capacité de personnaliser la manière de classer vos informations, d'interagir avec elles, ou même de les masquer est essentiel pour faire de Finance and Operations un outil personnel et productif. 
@@ -107,15 +107,20 @@ Certains espaces de travail contiennent des vignettes de comptage (vignettes num
 Le tableau de bord est souvent la première page que vous voyez lorsque vous ouvrez Finance and Operations. Vous pouvez personnaliser le tableau de bord pour renommer les vignettes de votre espace de travail, pour afficher uniquement les vignettes que vous voulez voir, renommer les vignettes ou réorganiser les vignettes dans l'ordre que vous préfèrerez. Pour personnaliser le tableau de bord, sélectionnez une vignette et cliquez avec le bouton droit pour ouvrir un menu contextuel. Dans le menu contextuel, sélectionnez **Personnaliser**. Si vous voulez masquer, renommer ou ignorer la vignette sélectionnée, vous pouvez effectuer cette modification directement dans la fenêtre de propriété qui est apparue. Si vous voulez réorganiser des vignettes, sélectionnez **Personnaliser cet écran** dans la fenêtre de propriété pour ouvrir la barre d'outils de personnalisation. Vous pouvez ensuite utiliser l'outil Déplacer pour réorganiser les vignettes.
 
 ## <a name="administration-of-personalization"></a>Administration de la personnalisation
-Une fois que vous avez personnalisé une page, vous pouvez partager vos personnalisations avec d'autres utilisateurs. Exportez la page personnalisée. Vous pouvez ensuite demander aux autres utilisateurs d'accéder à la page spécifiée et d'importer le fichier de personnalisation que vous avez créé.
+Après avoir personnalisé une page, vous pouvez partager vos personnalisations avec d'autres utilisateurs en exportant la page personnalisée. Vous pouvez ensuite demander aux autres utilisateurs d'accéder à la page spécifiée et d'importer le fichier de personnalisation que vous avez créé.
 
-Les utilisateurs ayant des droits d'administrateur peuvent également gérer les personnalisations pour d'autres utilisateurs sur la page **Personnalisation**. Cette page contient quatre onglets : **Système**, **Utilisateurs**, **Importer** et **Effacer**.
+Les utilisateurs ayant des droits d'administrateur peuvent également gérer les personnalisations pour d'autres utilisateurs sur la page **Personnalisation**. Cette page contient quatre onglets : 
 
 - **Système** - Vous pouvez désactiver temporairement ou arrêter toutes les personnalisations dans le système. Dans ce cas, vous ne supprimez pas les personnalisations. Au lieu de cela, vous réinitialisez juste toutes les pages à leur état par défaut. Si vous réautorisez la personnalisation par la suite, toutes les personnalisations seront réappliquées aux pages de chaque utilisateur. Vous pouvez également supprimer toutes les personnalisations de tous les utilisateurs. Notez que lorsque vous supprimez les personnalisations, il n'existe aucun moyen de les réactiver automatiquement à partir du système. Par conséquent, avant d'effectuer cette étape, veillez à exporter toutes les personnalisations que vous souhaiterez peut-être importer ultérieurement.
 - **Utilisateurs** – Vous pouvez spécifier si chaque utilisateur peut appliquer la personnalisation implicite ou la personnalisation explicite. Vous pouvez également spécifier si chaque utilisateur peut exécuter la personnalisation implicite ou explicite dans une page spécifique. Enfin, vous pouvez importer, exporter ou supprimer une personnalisation pour chaque utilisateur.
 - **Importer** – Vous pouvez importer une personnalisation pour un ou plusieurs utilisateurs. Utilisez cet onglet après avoir créé une personnalisation sur une page ou un espace de travail, puis exporté cette personnalisation en tant que fichier de personnalisation. Pour importer votre fichier de personnalisation et l'appliquer à un ou plusieurs utilisateurs, sélectionnez les utilisateurs individuels dans la liste de tous les utilisateurs, ou filtrez-les par rôle spécifique, puis sélectionnez les utilisateurs dans ce rôle. Après avoir sélectionné les utilisateurs qui utiliseront votre personnalisation, cliquez sur **Importer**, puis sélectionnez votre fichier de personnalisation. La personnalisation est validée et appliquée à tous les utilisateurs sélectionnés la prochaine fois qu'il ouvre la page sélectionnée.
 - **Effacer** – Vous pouvez effacer les personnalisations de page ou d'espace de travail pour un ou plusieurs utilisateurs. Premièrement, sélectionnez la page ou l'espace de travail dont les personnalisations doivent être effacées. Ensuite, sélectionnez les utilisateurs individuels dans la liste de tous les utilisateurs, ou filtrez-les par rôle spécifique, puis sélectionnez les utilisateurs de ce rôle. Après avoir sélectionné une page ou l'espace de travail et des utilisateurs, cliquez sur **Effacer**. Toutes les personnalisations que les utilisateurs sélectionnés ont appliqué à la page ou à l'espace de travail sélectionné(e) sont effacées. Cette action ne peut pas être annulée. Toutefois, si la page ou l'espace de travail a une personnalisation enregistrée, cette personnalisation peut être réimportée.
 
+## <a name="personalization-of-inventory-dimensions"></a>Personnalisation des dimensions de stock
 
+Lorsque vous personnalisez le paramétrage des dimensions de stock sur une page, tenez compte des paramètres qui ont été créés à l'aide de l'option **Afficher les dimensions**. Par exemple, si vous utilisez la personnalisation pour masquer une colonne pour la dimension de stock Numéro de lot et que la colonne s'affiche à la prochaine ouverture de la page, il se peut que les paramètres d'affichage de la dimension contrôlent l'affichage des colonnes de la dimension de stock. 
 
+Les paramètres d'affichage de la dimension s'appliquent à toutes les pages et ces paramètres remplacent tout paramétrage personnalisé des champs de la dimension de stock sur des pages individuelles. 
+
+Pour l'exemple avec la dimension de stock Numéro de lot, cette dimension doit être désactivée dans le cadre de l'option **Afficher les dimensions** pour que la table n'affiche pas cette colonne. Cette modification ne s'applique pas à une page spécifique mais à l'ensemble des pages.
 

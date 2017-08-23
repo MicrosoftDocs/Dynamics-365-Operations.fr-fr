@@ -1,9 +1,9 @@
 ---
-title: Contenu Power BI disponible
+title: Contenu Power BI
 description: "Cette rubrique répertorie le contenu Power BI qui est disponible et vous indique les ressources complémentaires."
 author: sericks007
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 08/07/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -15,17 +15,17 @@ ms.custom: 265694
 ms.assetid: 0095a7cf-8cc9-41f6-bf00-b59868fa6ea2
 ms.search.region: Global
 ms.author: sericks
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: 282973618e56db3feb0103a7021a66d137218a7a
+ms.sourcegitcommit: 0574c8c1164ef54095135bd9b3f2a946320f8996
+ms.openlocfilehash: f6401406981abc3252b7247510e80f12f2c4510d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 08/07/2017
 
 ---
 
-# <a name="power-bi-content-available"></a>Contenu Power BI disponible
+# <a name="power-bi-content"></a>Contenu Power BI
 [!include[banner](../includes/banner.md)]
 
 
@@ -34,6 +34,7 @@ Cette rubrique répertorie le contenu Microsoft Power BI qui est disponible et v
 ## <a name="power-bi-content-for-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Contenu Power BI pour Dynamics 365 for Finance and Operations, Enterprise edition, mise à jour de juillet 2017
 Si vous utilisez la mise à jour de juillet 2017 de Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, le contenu Power BI suivant est disponible :
 
+- [Contenu Power BI Comparatif Réel/Budget](ledger-budgets-power-bi.md)
 - [Contenu Power BI Avantages](benefits-power-bi.md)
 - [Contenu Power BI Vue d'ensemble des disponibilités](/dynamics365/unified-operations/financials/cash-bank-management/Cash-Overview-Power-BI-content)
 - [Contenu Power BI Vue d'ensemble d'un processus CFO](CFO-power-bi.md)

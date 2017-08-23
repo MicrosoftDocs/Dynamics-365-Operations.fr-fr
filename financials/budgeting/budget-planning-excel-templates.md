@@ -1,9 +1,9 @@
 ---
 title: "Modèles de planification budgétaire pour Excel"
 description: "Cette rubrique décrit la procédure de création de modèles Microsoft Excel qui peuvent être utilisés avec les plans budgétaires."
-author: twheeloc
+author: ryansandness
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,12 +14,12 @@ ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 261794
 ms.assetid: 1d8e99c1-b70d-41ba-991e-ab50b16797e0
 ms.search.region: Global
-ms.author: sigitac
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.author: ryansand
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: 734c8930f239d8c9d220601bb2103bd55dd5bfd8
+ms.sourcegitcommit: 1945d137b337508a1850e3e679a60487aecb6b84
+ms.openlocfilehash: 7cec40859a8c68cb8a9751c5531c67cef7706258
 ms.contentlocale: fr-fr
 ms.lasthandoff: 07/27/2017
 
@@ -38,22 +38,27 @@ Cette rubrique explique comment créer des modèles Excel qui seront utilisés a
 
 Les documents du plan budgétaire peuvent être affichés et modifiés à l'aide d'une ou de plusieurs mises en page. Chaque mise en page peut être associée à un modèle de document de plan budgétaire pour afficher et modifier les données du plan budgétaire dans une feuille de calcul Excel. Dans cette rubrique, un modèle de document de plan budgétaire sera généré à l'aide d'une configuration de mise en page existante. 
 
-Ouvrez la liste **Plans budgétaires** (**Budgétisation** &gt; **Plans budgétaires**). Cliquez sur **Nouveau** pour créer un document de plan budgétaire. 
+1. Ouvrez la liste **Plans budgétaires** (**Budgétisation** &gt; **Plans budgétaires**). 
+2. Cliquez sur **Nouveau** pour créer un document de plan budgétaire. 
 
-[![bpt1](./media/bpt11-1024x552.png)](./media/bpt11.png) 
+  [![Liste des plans budgétaires](./media/bpt11-1024x552.png)](./media/bpt11.png) 
 
-Utilisez l'option de ligne **Ajouter** pour ajouter des lignes. Cliquez sur **Mises en page** pour afficher la configuration de la mise en page du document de plan budgétaire. 
+3. Utilisez l'option de ligne **Ajouter** pour ajouter des lignes. Cliquez sur **Mises en page** pour afficher la configuration de la mise en page du document de plan budgétaire. 
 
-[![bpt2](./media/bpt2-1024x274.png)](./media/bpt2.png) 
+  [![Ajout de plans budgétaires](./media/bpt2-1024x274.png)](./media/bpt2.png) 
 
-Vous pouvez examiner la configuration de la mise en page et l'ajuster si nécessaire. Accédez à **Modèle** &gt; **Générer** pour créer un fichier Excel pour cette mise en page. Une fois le modèle généré, accédez à **Modèle** &gt; **Afficher** pour ouvrir et examiner le modèle de document de plan budgétaire. Vous pouvez enregistrer le fichier Excel sur votre disque local. [![bpt3](./media/bpt3-1024x545.png)](./media/bpt3.png)
+Vous pouvez examiner la configuration de la mise en page et l'ajuster si nécessaire. 
+1. Accédez à **Modèle** &gt; **Générer** pour créer un fichier Excel pour cette mise en page. 
+2. Une fois le modèle généré, accédez à **Modèle** &gt; **Afficher** pour ouvrir et examiner le modèle de document de plan budgétaire. Vous pouvez enregistrer le fichier Excel sur votre disque local. 
+
+[![Enregistrer sous](./media/bpt3-1024x545.png)](./media/bpt3.png)
 
 > [!NOTE] 
 > La mise en page du document de plan budgétaire ne peut pas être modifiée une fois qu'un modèle Excel lui est associée. Pour modifier la mise en page, supprimez le fichier de modèle Excel associé et régénérez-le. Cette opération est nécessaire pour assurer la synchronisation des champs de la mise en page et de la feuille de calcul. 
 
 Le modèle Excel contiendra tous les éléments de la mise en page du document de plan budgétaire, avec la colonne **Disponible dans la feuille de calcul** définie sur Vrai. Les éléments ne peuvent pas se chevaucher dans le modèle Excel. Par exemple, si la mise en page contient les colonnes Demande T1, Demande T2, Demande T3 et Demande T4, et une colonne Demande totale qui représente la somme des 4 colonnes trimestrielles, seules les colonnes trimestrielles ou la colonne de total peuvent être utilisées dans le modèle Excel. Le fichier Excel ne peut pas mettre à jour les colonnes qui se chevauchent pendant la mise à jour, car les données de la table peuvent devenir obsolètes et inexactes.
 
-[![bpt4](./media/bpt4-1024x615.png)](./media/bpt4.png)
+[![Exemple](./media/bpt4-1024x615.png)](./media/bpt4.png)
 
 > [!NOTE] 
 > Pour éviter les problèmes potentiels d'affichage et de modification des données du plan budgétaire à l'aide d'Excel, le même utilisateur doit être connecté dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition et le connecteur de données du complément Office Microsoft Dynamics.

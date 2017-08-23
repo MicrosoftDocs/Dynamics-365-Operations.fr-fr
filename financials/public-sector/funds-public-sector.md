@@ -3,7 +3,7 @@ title: Fonds dans le secteur public
 description: "Un fonds est un ensemble de registres financiers en équilibre qui permet de contrôler et de surveiller l'utilisation planifiée de ressources, souvent pour se conformer aux exigences légales et administratives. Les organisations du secteur public se servent des fonds pour attester de leur responsabilité financière."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/07/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,12 +19,11 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 21d610c169878b156aeefe1d20bd6ea183deae79
+ms.translationtype: HT
+ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
+ms.openlocfilehash: 9ed256e3ad412969f70687b17d4c98091b68643d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -101,6 +100,14 @@ Les organisations du secteur public ont généralement besoin des écritures éq
 
 ## <a name="how-do-i-set-a-fund-balance-to-carry-over-to-the-new-year"></a>Comment paramétrer un solde de fonds de sorte qu'il soit reporté sur la nouvelle année ?
 Pour en savoir plus sur le traitement de fin d'exercice pour les fonds, voir [Traitement de fin d'exercice dans le secteur public](year-end-processing-public-sector.md).
+
+
+Pour plus d'informations, voir les rubriques suivantes :
+
+[Création d'un type de fonds](tasks/create-fund-type-public-sector.md)
+
+[Paramétrer un fonds](tasks/set-up-fund-public-sector.md)
+
 
 
 

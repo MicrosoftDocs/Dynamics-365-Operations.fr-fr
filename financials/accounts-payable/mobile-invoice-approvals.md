@@ -1,9 +1,9 @@
 ---
 title: "Approbations de factures par téléphone portable"
 description: "Cette rubrique est destinée à fournir une approche pratique pour concevoir des scénarios mobiles dans Dynamics 365 for Finance and Operations en prenant les approbations de facture de fournisseur pour mobile en tant que cas d'utilisation."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,14 +14,14 @@ ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 262034
 ms.assetid: 9db38b3f-26b3-436e-8449-7ff243568a18
 ms.search.region: Global
-ms.author: sunilg
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.author: Shiva.Pandey
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 0ca4ebdca1fce3863a50abf19a071af1f1c425e0
+ms.translationtype: HT
+ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
+ms.openlocfilehash: 108a4f4ce366d2efd66fc1ed27ffb6b23ff0e933
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 08/10/2017
 
 ---
 
@@ -37,7 +37,7 @@ Les fonctionnalités mobiles de Microsoft Dynamics 365 for Finance and Operation
 
 | Logiciel requis                                                                                            | Description                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Pré-lecture manuel mobile                                                                                |[Plateforme mobile](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform)                                                                                                  |
+| Pré-lecture manuel mobile                                                                                |[Plateforme mobile](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page)                                                                                                  |
 | Dynamics 365 for Finance and Operations                                                                             | Un environnement disposant de la version 1611 de Microsoft Dynamics 365 for Operations et de la mise à jour 3 de Microsoft Dynamics for Operations (novembre 2016).                   |
 | Installez le correctif KB 3204341.                                                                              | L'enregistreur de tâches peut enregistrer de manière erronée deux commandes Fermer pour les boîtes de dialogue déroulantes, incluses dans Dynamics 365 for Operations mise à jour 3 (mise à jour novembre 2016) |
 | Installez le correctif KB 3207800.                                                                              | Ce correctif permet d'afficher les pièces jointes sur le client mobile, ce qui est inclus dans Dynamics 365 for Operations mise à jour 3 (mise à jour de novembre 2016).           |
@@ -176,7 +176,7 @@ Pour déterminer la page Détails de facture pour la fonction mobile, utilisez l
 1.  Dans l'URL Finance and Operations, remplacez le nom de l'option de menu par **VendMobileInvoiceHeaderDetails** pour ouvrir l'écran
 2.  Ouvrez le Concepteur mobile à partir du bouton **Paramètres** (engrenage)
 3.  Cliquez sur le bouton **Modifier** pour passer en mode d'édition dans l'espace de travail.
-4.  Sélectionnez la page **Mes factures fournisseur ** créée précédemment, puis cliquez sur **Modifier**.
+4.  Sélectionnez la page **Mes factures fournisseur** créée précédemment, puis cliquez sur **Modifier**.
 5.  Sous l'onglet **Champs**, cliquez sur l'en-tête de colonne **Grille**.
 6.  Cliquez sur **Propriétés** &gt; **Ajouter une page**. **Remarque :** lorsque vous cliquez sur l'en-tête **Grille** et que vous ajoutez une page, la relation avec la page de détails est établie automatiquement.
 7.  Entrez un titre de page, tel que **Détails de la facture**, et une description, par exemple **Afficher les détails de l'en-tête et de la ligne**.

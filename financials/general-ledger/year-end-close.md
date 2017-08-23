@@ -3,7 +3,7 @@ title: "Clôture de fin d'exercice"
 description: "Cette rubrique décrit le paramétrage et les étapes nécessaires pour exécuter le processus de clôture de fin d'exercice dans la comptabilité."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,13 +16,13 @@ ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: kweekley
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 50a6a23febc725eb05d30d5db4f97ca699607461
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: 4aad946f51c0c9a0a4c0ea1249e6e876cc628e20
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -86,7 +86,7 @@ Si vous souhaitez annuler une clôture de fin d'exercice précédente pour l'exe
 
 Le processus de clôture de fin d'exercice s'exécute par défaut en mode de traitement par lots. Il est recommandé d'exécuter le processus en mode de traitement par lots, pour permettre à l'utilisateur de revenir à d'autres activités. Une fois le processus de clôture de fin d'exercice terminé, la **Date de la dernière clôture de fin d'exercice** est mise à jour à la date de la session.
 
-Pour plus d'informations, voir [Clôture de la comptabilité en fin de période](close-general-ledger-at-period-end.md).
+Pour plus d'informations, voir [Clôture de la comptabilité en fin de période](close-general-ledger-at-period-end.md) et [Clôturer l'exercice](tasks/close-fiscal-year.md).
 
 
 

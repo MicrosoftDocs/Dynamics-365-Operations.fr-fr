@@ -3,7 +3,7 @@ title: "Comptabilité fournisseur dans le secteur public"
 description: "Cet article présente la fonctionnalité de Comptabilité fournisseur dans le secteur public qui est intégrée à Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Cette fonctionnalité inclut des codes commande fournisseur, des définitions de validation, la facturation à un fournisseur occasionnel, les formulaires fiscaux 1099, les escomptes de règlement, les types de certification de fournisseur, la synthèse des activités comptables du projet, les paiements électroniques, les page de garde et de signature des états, les montants des lignes de commande fournisseur, et les pages du journal des factures fournisseur."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/07/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,12 +19,11 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 855eb8777b50fb610b90c37a10e37062a3c4bdfe
+ms.translationtype: HT
+ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
+ms.openlocfilehash: 291b89bfa4d2845d55abc8ab1503c94f94cc108b
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -105,7 +104,17 @@ Lorsque vous créez les pages de couverture et de signature pour un état de pai
 Vous pouvez afficher les montants de ligne pour une commande fournisseur. Ces montants incluent le montant actuel commandé et tous les montants reçus ou facturés. Vous pouvez également afficher tous les montants restant à facturer ou ceux des factures en attente. Conseil : par exemple, vous affichez une ligne de commande fournisseur contenant des achats validés dans deux comptes généraux. Le premier inclut les articles commandés auprès d'un fournisseur de mobilier de bureau. Le second inclut les fournitures de bureau. Le montant commandé est égal à la somme des montants facturés, en attente de facturation et restants à facturer. Le montant reçu correspond à la partie du montant commandé reçu du fournisseur.
 
 
+Pour plus d'informations, voir les rubriques suivantes :
 
+[Ajouter un type de certification à un fournisseur](tasks/add-certification-type-vendor-public-sector.md)
 
+[Contrôle de l'accès aux contrats d'achat](tasks/control-access-purchase-agreements-public-sector.md)
 
+[Créer un fournisseur occasionnel et une facture](tasks/create-one-time-vendor-invoice-public-sector.md)
+
+[Créer un type de certification de fournisseur](tasks/create-vendor-certification-type-public-sector.md)
+
+[Importer et créer plusieurs fournisseurs occasionnels et factures](tasks/import-multiple-one-time-vendors.md)
+
+[Paramétrer des classifications de contrat d'achat](tasks/set-up-purchase-agreement-classifications-public-sector.md)
 

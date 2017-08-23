@@ -1,9 +1,9 @@
 ---
 title: "Paramétrer un mandat de débit direct SEPA"
 description: 
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,14 +14,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 59491
 ms.assetid: 653a135f-c515-4ae3-9da2-82b5e1f103b5
 ms.search.region: Global
-ms.author: mfalkner
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.author: Shiva.Pandey
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ebf80efa32b21184a8effdde4d46c4d0d2179efd
+ms.translationtype: HT
+ms.sourcegitcommit: 17dc0cc19c4c58e6c795e085e2e8985598d403a0
+ms.openlocfilehash: 4ea72cf6410eb30d83103bceb4a1628bafd33ac7
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -51,7 +51,10 @@ Le tableau suivant indique la configuration requise qui doit être en place avan
 -   Facultatif : si vous prévoyez que chacun de vos clients aura plusieurs mandats, dans le champ **Période**, sélectionnez **Facture**. Cette opération crée un paiement distinct pour chaque facture, et chaque paiement utilisera le mandat indiqué pour la facture.
 -   Sélectionnez l'option **Demander un mandat** pour créer des paiements par l'intermédiaire des mandats de débit direct. L'option **Demander un mandat** est uniquement disponible si vous sélectionnez **Paiement électronique** dans le champ **Type de paiement**.
 
-Voir également [Vue d'ensemble du débit direct](sepa-direct-debit-overview.md) 
+Voir aussi
 
+[Vue d'ensemble du débit direct](sepa-direct-debit-overview.md) 
+
+[Créer un mandat de débit direct pour un client](tasks/create-direct-debit-mandate-customer.md) 
 
 
