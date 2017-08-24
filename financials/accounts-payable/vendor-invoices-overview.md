@@ -1,9 +1,9 @@
 ---
 title: Vue d'ensemble des factures fournisseur
 description: "Cet article fournit des informations générales sur les factures fournisseur. Les factures fournisseur sont des demandes de paiement pour les biens et services reçus. Les factures fournisseur peuvent représenter une facture pour les services en cours, ou elles peuvent être basées sur des commandes fournisseur pour des articles et services spécifiques."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,15 +14,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 13971
 ms.assetid: 0ec4dbc0-2eeb-423b-8592-4b5d37e559d3
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 16ff8ebb0e620f45c4d290ee5076d5505abf3436
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 4c27b5a8ab1a7aeab31b48937dcaf4a86d798689
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -75,11 +74,23 @@ Lorsque vous validez la facture, la quantité **Solde de la facture** de chaque 
 
 Cette option suppose qu'au moins un accusé de réception de marchandises a été validé pour la commande fournisseur. La facture fournisseur a pour base ces accusés de réception de marchandises et reflète les quantités de ceux‑ci. Les informations financières pour la facture sont basées sur les informations entrées lors de la validation de la facture.
 
+Pour plus d'informations, voir [Enregistrer la facture fournisseur et la mettre en correspondance avec la quantité reçue](../accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md).
+
 ## <a name="working-with-multiple-invoices"></a>Utilisation de plusieurs factures
 
 Vous pouvez utiliser plusieurs factures à la fois et les valider toutes à la fois. Si vous devez créer plusieurs factures, utilisez la page **Factures fournisseur en attente**. Si vous devez valider et imprimer plusieurs factures fournisseur, utilisez le journal d'approbation des factures. Si vous utilisez journal d'approbation des factures, au moins un accusé de réception de marchandises doit être validé pour la commande fournisseur, et une facture pour la commande fournisseur doit être validée dans un registre des factures. Les informations financières pour la facture viennent de la facture qui a été validée dans le registre.
 
 
+Pour plus d'informations, voir : 
 
+ - [Paramétrer des stratégies de facture fournisseur](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md) 
+
+ - [Indexer les données de facturation dans la comptabilité fournisseur à l'aide d'une facture fournisseur](tasks/key-invoice-data-ap-system-vendor-invoice.md)
+ 
+ - [Indexer les données de facturation dans la comptabilité fournisseur à l'aide d'un journal d'approbation](tasks/key-invoice-data-into-ap-system-approval-journal.md)
+  
+ - [Indexer les données de facturation dans la comptabilité fournisseur à l'aide d'un registre de factures](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
+ 
+ - [Enregistrer une facture fournisseur dans le journal des factures](tasks/record-vendor-invoice-invoice-journal.md)
 
 

@@ -1,9 +1,9 @@
 ---
 title: Planifier votre plan de comptes
 description: Cet article fournit des informations vous permettant de planifier le plan de comptes de votre organisation.
-author: RobinARH
+author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,13 +16,13 @@ ms.custom: 14051
 ms.assetid: 10edb129-33f0-4cf9-b2a7-4b7ffa09b229
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 4c57c4fe8cc66228062f7b64c88efe255657d016
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: 424ea5ce12d51d384c86878b7d2199bcd52c40f8
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -45,17 +45,19 @@ Voici des facteurs dont vous devez tenir compte lorsque vous planifiez la struct
 -   les conditions de génération d'états de votre entité juridique ;
 -   le degré de spécification requis, à la fois pour les organisations externes et votre organisation.
 
-Créez le plan de comptes dans la page **Plan de comptes**. Les comptes principaux peuvent être créés à partir de la page **Plan de comptes** ou de la page **Comptes principaux**. Vos comptes principaux ne doivent pas utiliser de caractères spéciaux utilisés comme séparateurs de plan de comptes. Si vous avez un caractère spécial qui est identique à votre séparateur de plan de comptes, il peut y avoir une instabilité, ou la nécessité de toujours utiliser des recherches ou le menu volant pour saisir le compte et les combinaisons de dimensions. 
+Créez le plan de comptes dans la page **Plan de comptes**. Les comptes principaux peuvent être créés à partir de la page **Plan de comptes** ou de la page **Comptes principaux**. Vos comptes principaux ne doivent pas utiliser de caractères spéciaux utilisés comme séparateurs de plan de comptes. Si vous avez un caractère spécial qui est identique à votre séparateur de plan de comptes, il peut y avoir une instabilité, ou la nécessité de toujours utiliser des recherches ou le menu volant pour saisir le compte et les combinaisons de dimensions. Pour plus d'informations, voir [Créer un compte principal](tasks/create-account-structures.md).
+
 
 Il est préférable de lier les comptes principaux aux catégories de compte principal, afin de pouvoir tirer profit des états financiers par défaut sans devoir apporter des modifications. Par conséquent, vous pouvez concevoir et tenir à jour les états plus rapidement et plus facilement. 
 
-Utilisez la page **Configurer les structures de compte** pour créer des structures de compte. Les structures de compte définissent les combinaisons valides. Les combinaisons, associées aux comptes principaux, forment un plan de comptes. 
+Utilisez la page **Configurer les structures de compte** pour créer des structures de compte. Les structures de compte définissent les combinaisons valides. Les combinaisons, associées aux comptes principaux, forment un plan de comptes.  Pour plus d'informations, voir [Créer des structures de compte](tasks/create-main-account.md).
 
 **Remplacements des entités juridiques** 
 
 Seuls certains comptes principaux sont valides pour toutes les entités juridiques et certaines peuvent être appropriées uniquement pour une période spécifique. Dans ce scénario, la section Remplacements des entités juridiques peut être utilisée pour identifier les sociétés pour lesquelles le compte principal doit être suspendu, le propriétaire et la période d'activité de la dimension. Les remplacements au niveau partagé ne peuvent pas être plus restrictifs que les remplacements au niveau de l'entité juridique.
 
-Pour plus d'informations, voir [Dimensions financières](financial-dimensions.md).
+Pour plus d'informations, voir les rubriques suivantes : [Dimensions financières](financial-dimensions.md)
+[Créer et affecter des structures de règle avancées](tasks/create-assign-advanced-rule-structures.md)
 
 
 

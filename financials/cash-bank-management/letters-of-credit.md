@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bd61cd2a5fa7705f3f9152323281e6f4ca520dc1
+ms.translationtype: HT
+ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
+ms.openlocfilehash: 64446efd518390ee2a7204e2c977fa4174581808
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -46,6 +45,13 @@ La lettre de crédit inclut une description des biens, les documents requis, la 
 
 Une lettre de crédit peut être révocable ou irrévocable. La nature d'une lettre de crédit peut être transférable, non transférable ou revolving. En général, une lettre de crédit est un accord irrévocable et confirmé qui garantit l'exécution du paiement à un bénéficiaire spécifique suite à l'envoi d'une documentation d'expédition complète et précise.
 
+Pour plus d'informations, voir les rubriques suivantes :
+
+[Importer une lettre de crédit](tasks/import-letter-credit.md)
+
+[Exporter une lettre de crédit](tasks/export-letter-credit.md)
+
+[Créer un accord d'établissement bancaire pour une lettre de crédit](tasks/create-bank-facility-agreement-letter-credit.md)
 
 
 

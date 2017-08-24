@@ -16,10 +16,10 @@ ms.assetid: 1d293b3a-2fa2-418d-9347-78c2809d67fe
 ms.search.region: global
 ms.author: mkirknel
 ms.dyn365.ops.intro: Version 1611
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 9ea9eb66abf7898ce735e1204259fcc9b9523c52
-ms.openlocfilehash: d76b3592ed8274498a7a58c46cc83619f2f668f5
+ms.sourcegitcommit: 1945d137b337508a1850e3e679a60487aecb6b84
+ms.openlocfilehash: fc8b7f6901ffd5c97fb864dbd3f87c5c70a31487
 ms.contentlocale: fr-fr
 ms.lasthandoff: 07/27/2017
 
@@ -102,10 +102,10 @@ Si la version 1611 de Microsoft Dynamics 365 for Operations avec la mise à jo
 <td>L'utilisateur fournisseur doit avoir accès à l'interface Web de collaboration du fournisseur dans le client Web et paramétrer un utilisateur de collaboration du fournisseur.</td><td>Acheteurs et administrateur système</td>
 <td>Suivez les étapes décrites dans les rubriques suivantes pour paramétrer et utiliser l'interface Web de collaboration du fournisseur.
 <ul>
-<li><a href="/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors">Utiliser la Collaboration du fournisseur pour travailler avec des fournisseurs externes</a></li>
-<li><a href="/dynamics365/unified-operations/supply-chain/procurement/manage-vendor-collaboration-user">Gérer les utilisateurs de la fonctionnalité de collaboration fournisseur</a></li>
-<li><a href="/dynamics365/unified-operations/supply-chain/procurement/set-up-maintain-vendor-collaboration">Paramétrer et mettre à jour la collaboration fournisseur</a></li>
-<li><a href="/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations">Utiliser la collaboration du fournisseur avec les clients dans Finance and Operations</a></li>
+<li><a href="vendor-collaboration-work-external-vendors.md">Utiliser la Collaboration du fournisseur pour travailler avec des fournisseurs externes</a></li>
+<li><a href="manage-vendor-collaboration-users.md">Gérer les utilisateurs de la fonctionnalité de collaboration du fournisseur</a></li>
+<li><a href="set-up-maintain-vendor-collaboration.md">Paramétrer et mettre à jour la collaboration fournisseur</a></li>
+<li><a href="vendor-collaboration-work-customers-dynamics-365-operations.md">Utiliser la collaboration du fournisseur avec les clients dans Finance and Operations</a></li>
 </ul></td>
 </tr>
 </tbody>

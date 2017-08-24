@@ -3,7 +3,7 @@ title: "Budgétisation dans le secteur public"
 description: "Cette vue d'ensemble présente la fonctionnalité de budgétisation disponible pour le secteur public. Cela inclut l'analyse de budget, les budgets et les répartitions préliminaires, et les définitions de validation."
 author: rschloma
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/07/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,12 +19,11 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: f98df2facf777e51950deff36db9740c5bee79e4
+ms.translationtype: HT
+ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
+ms.openlocfilehash: 435af77c5861f454ff06877a64f71f5974a76326
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -62,9 +61,13 @@ Il est possible que vous deviez paramétrer les fonctionnalités de budgétisati
 
 [Comptabilité fournisseur dans le secteur public](accounts-payable-public-sector.md)
 
-[Comptabilité client dans le secteur public](accounts-receivable-public-sector.md)
+[Comptabilité client (Secteur public)](accounts-receivable-public-sector.md)
 
-[Comptabilité dans le secteur public](general-ledger-public-sector.md)
+[Comptabilité (Secteur public)](general-ledger-public-sector.md)
+
+[Créer un budget préliminaire](tasks/create-preliminary-budget-public-sector.md)
+
+[Créer un budget d'origine et contrepasser les écritures budgétaires préliminaires](tasks/create-original-budget.md)
 
 
 

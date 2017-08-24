@@ -3,7 +3,7 @@ title: "Règles d'arrondissement et de paiements de taxe"
 description: "Cet article explique le fonctionnement du paramétrage de la règle d'arrondi sur les administrations fiscales et de l'arrondi du solde de taxe au cours de la tâche Régler et valider la taxe."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7ec117598a6a008e5b274179659b515824029874
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: 8de01b77fcbeb65321e60614b6a11d264460208f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -65,8 +64,11 @@ Le tableau suivant montre comment un montant de 98 765,43 est arrondi à l'aide 
 > [!NOTE]                                                                                  
 > Si vous sélectionnez Avantage, l'arrondi est toujours à l'avantage de l'entité juridique. 
 
-Pour plus d'informations, voir [Vue d'ensemble de la taxe](indirect-taxes-overview.md). 
-
+Pour plus d'informations, voir les rubriques suivantes :
+- [Vue d'ensemble des taxes](indirect-taxes-overview.md)
+- [Créer un paiement de taxe](tasks/create-sales-tax-payment.md)
+- [Créer des transactions de taxe sur les documents](tasks/create-sales-tax-transactions-documents.md)
+- [Afficher les transactions de taxe validées](tasks/view-posted-sales-tax-transactions.md)
 
 
 

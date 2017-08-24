@@ -3,7 +3,7 @@ title: "Facturation intersociétés"
 description: "Cet article fournit des informations et des exemples sur la facturation intersociétés de projets dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/07/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,13 +15,13 @@ ms.custom: 94153
 ms.assetid: 33e98da7-01c1-4369-923d-aa1c8326cb80
 ms.search.region: Global
 ms.author: twheeloc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 205903bb68804a46414410c85eacce03c6df6fc7
+ms.translationtype: HT
+ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
+ms.openlocfilehash: fe4c9f4601d34eb3e755faa679b961785b07c6d0
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -109,7 +109,7 @@ Lorsque l’entité juridique prêteuse, USSI, enregistre la facture client inte
 | C    | Page **Facture du projet**                                                                       | Sélectionnez la facture de projet, puis cliquez sur **Afficher les détails** pour examiner le coût et le montant des ventes. Puis validez la facture. |
 
 
-
+Pour plus d'informations, voir [Configurer la facturation de projets intersociétés](tasks/configure-intercompany-project-invoicing.md).
 
 
 

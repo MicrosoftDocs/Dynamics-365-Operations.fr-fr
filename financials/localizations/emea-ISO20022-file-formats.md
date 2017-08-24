@@ -3,7 +3,7 @@ title: Importation de fichiers ISO20022
 description: "Cette rubrique explique comment importer des fichiers de paiement au format camt.054 et pain.002 de la norme ISO 20022 dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition."
 author: neserovleo
 manager: AnnBe
-ms.date: 05/25/2017
+ms.date: 07/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -13,13 +13,13 @@ ms.reviewer: shylaw
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Italy, Latvia, Lithuania, Norway, Poland, Spain, Sweden, Switzerland, United Kingdom
 ms.author: v-lenest
-ms.search.validFrom: 2017-06-01T00:00:00.000Z
+ms.search.validFrom: 2017-06-01
 ms.dyn365.ops.version: Enterprise edition, July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 48e280bf0a6c5db237bd389fe448c9d698d3ae12
-ms.openlocfilehash: acf6ed5f503d77f372d802a51a71cec062c2b24b
+ms.sourcegitcommit: 77a0d4c2a31128fb7d082238d443f297fd40664f
+ms.openlocfilehash: 90e21bb939bd96a3420decb5f9bc07c017c3e946
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 07/31/2017
 
 ---
 
@@ -105,4 +105,29 @@ Si vous importez le fichier camt.054, vous devez spécifier les paramètres supp
 - **Régler les transactions** : Définissez cette option sur **Oui** si les paiements fournisseur importés doivent être réglés avec des factures qui se trouvent dans le système.
 
 Vous pouvez consultez les informations importées sur l'écran **Transferts de paiement**. 
+
+## <a name="additional-details"></a>Détails supplémentaires
+
+Lorsque vous importez une configuration de format à partir de LCS, vous importez toute l'arborescence de configuration, ce qui signifie que les configurations Modèle et Mise en correspondance des modèles sont incluses. Dans le modèle de paiement commençant à partir de la version 8, les mises en correspondance sont situées dans des configurations ER distinctes dans l'arborescence de la solution (mise en correspondance du modèle de paiement 1611, mise en correspondance du modèle de paiement avec la destination ISO20022, etc.) Il existe plusieurs formats de paiement dans un modèle (modèle de paiement), une gestion séparée des mises en correspondance est donc primordiale pour faciliter la maintenance de la solution. Par exemple, prenez le scénario suivant : vous utilisez les paiements ISO20022 pour générer des fichiers de transfert de crédit, puis vous importez les messages retournés par la banque. Dans ce scénario, vous devez utiliser les configurations suivantes :
+
+ - **Modèle de paiement**
+ - **Mise en correspondance du modèle de paiement 1611** – Cette mise en correspondance sera utilisée pour générer le fichier d'exportation
+ - **Mise en correspondance du modèle de paiement avec la destination ISO20022** – Cette configuration inclut toutes les mises en correspondance qui seront utilisées pour importer les données (direction de mise en correspondance « vers la destination »)
+ - **Transfert de crédit ISO20022** – Cette configuration inclut un composant de format qui doit générer le fichier d'exportation (pain.001) en fonction de la mise en correspondance du modèle de paiement 1611, ainsi qu'un composant de mise en correspondance du format avec le modèle qui sera utilisé avec la mise en correspondance du modèle de paiement avec la destination ISO20022 pour enregistrer les paiements exportés dans le système à des fins d'importation (importation dans la table technique CustVendProcessedPayments)
+ - **Transfert de crédit ISO20022 (CE)**, où CE correspond à l'extension de pays – Format dérivé du transfert du crédit ISO20022 avec la même structure et certaines différences spécifiques au pays
+ - **Pain.002** – Ce format est utilisé avec la mise en correspondance du modèle de paiement avec la destination ISO20022 pour importer le fichier pain.002 dans le journal des transferts de paiements fournisseur
+ - **Camt.054** – Ce format est utilisé avec la mise en correspondance du modèle de paiement avec la destination ISO20022 pour importer le fichier camt.054 dans le journal des transferts de paiements fournisseur. La même configuration de format sera utilisée dans la fonctionnalité d'importation de paiements client, mais une mise en correspondance différente sera utilisée dans la configuration de la mise en correspondance du modèle de paiement avec la destination ISO20022.
+
+Pour plus d'informations sur les états électronique, voir, [Vue d'ensemble des états électroniques](/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting).
+
+## <a name="additional-resources"></a>Ressources supplémentaires
+- [Créer et exporter des paiements fournisseur à l'aide du format de paiement ISO20022](./tasks/create-export-vendor-payments-iso20022-payment-format.md)
+- [Importer la configuration du virement ISO20022](./tasks/import-iso20022-credit-transfer-configuration.md)
+- [Importer la configuration du débit direct ISO20022](./tasks/import-iso20022-direct-debit-configuration.md)
+- [Paramétrer les comptes bancaires de société pour les virements ISO20022](./tasks/set-up-company-bank-accounts-iso20022-credit-transfers.md)
+- [Paramétrer les comptes bancaires de société pour les débits directs ISO20022](./tasks/set-up-company-bank-accounts-iso20022-direct-debits.md)
+- [Paramétrer les clients et les comptes bancaires du client pour les débits directs ISO20022](./tasks/set-up-bank-accounts-iso20022-direct-debits.md)
+- [Paramétrer le mode de paiement pour les virements ISO20022](./tasks/set-up-method-payment-iso20022-credit-transfer.md)
+- [Paramétrer le mode de paiement pour le débit direct ISO20022](./tasks/setup-method-payment-iso20022-direct-debit.md)
+- [Paramétrer les fournisseurs et les comptes bancaires fournisseur pour les virements ISO20022](./tasks/set-up-vendor-iso20022-credit-transfers.md)
 

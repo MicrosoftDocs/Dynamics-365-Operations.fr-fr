@@ -16,12 +16,12 @@ ms.assetid: 3605eda1-a7ed-4675-8031-5279c5a8f5e4
 ms.search.region: Global
 ms.author: knelson
 ms.dyn365.ops.intro: Version 1611
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2dd3db95eb741c37dd8a50c397cb4c9494599250
-ms.openlocfilehash: 993586b1fb46c21d2b68a6060ab897c8ccc76a6c
+ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
+ms.openlocfilehash: 58d36505461ea89bf466209d3da968d1357e58ae
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/10/2017
 
 ---
 
@@ -131,11 +131,11 @@ Téléchargez et installez l'application mobile Dynamics 365 for Unified Operati
 ## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>Entrer rapidement des dépenses à l'aide de l'espace de travail mobile Gestion des dépenses
 1. Sur votre appareil mobile, ouvrez l'espace de travail **Gestion des dépenses**.
 2. Sélectionnez **Entrée rapide de dépense**.
-3. Sélectionnez la catégorie de la dépense. Vous verrez la liste des catégories de dépense dans votre application pour l'utilisation hors ligne. Par défaut, jusqu'à 50 éléments sont chargés, mais votre développeur peut modifier ce nombre. Pour plus d'informations, les développeurs doivent consulter [Plateforme mobile](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Si votre catégorie ne figure pas dans la liste, sélectionnez **Rechercher** pour effectuer une recherche en ligne. Recherchez par catégorie de dépense, ou lancez une recherche par type de dépense.
+3. Sélectionnez la catégorie de la dépense. Vous verrez la liste des catégories de dépense dans votre application pour l'utilisation hors ligne. Par défaut, jusqu'à 50 éléments sont chargés, mais votre développeur peut modifier ce nombre. Pour plus d'informations, les développeurs doivent consulter [Plateforme mobile](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Si votre catégorie ne figure pas dans la liste, sélectionnez **Rechercher** pour effectuer une recherche en ligne. Recherchez par catégorie de dépense, ou lancez une recherche par type de dépense.
 4. Entrez la date de transaction de la dépense.
 5. Facultatif : entrez le marchand pour la dépense.
 6. Entrez le montant de la dépense.
-7. Ssélectionnez la devise de la dépense. Vous verrez la liste des codes de devise dans votre application pour l'utilisation hors ligne. Par défaut, 400 dévises sont chargées, mais votre développeur peut modifier ce nombre. Pour plus d'informations, les développeurs doivent consulter [Plateforme mobile](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Si votre devise ne figure pas dans la liste, sélectionnez **Rechercher** pour effectuer une recherche en ligne. Recherchez par devise, ou lancez une rechercher par nom.
+7. Ssélectionnez la devise de la dépense. Vous verrez la liste des codes de devise dans votre application pour l'utilisation hors ligne. Par défaut, 400 dévises sont chargées, mais votre développeur peut modifier ce nombre. Pour plus d'informations, les développeurs doivent consulter [Plateforme mobile](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Si votre devise ne figure pas dans la liste, sélectionnez **Rechercher** pour effectuer une recherche en ligne. Recherchez par devise, ou lancez une rechercher par nom.
 8. Sélectionnez **Prendre une photo** ou **Choisir une image**.
 9. Utilisez l'une des procédures suivantes :
 
@@ -166,11 +166,11 @@ Téléchargez et installez l'application mobile Dynamics 365 for Unified Operati
 7. Sélectionnez une ou plusieurs dépenses dans la liste.
 8. Sélectionnez **Terminé**.
 9. Pour ajouter une nouvelle dépense à l'état des dépenses, sélectionnez **Nouvelle dépense**.
-10. Sélectionnez la catégorie de la dépense. Vous verrez la liste des catégories de dépense dans votre application pour l'utilisation hors ligne. Par défaut, jusqu'à 50 éléments sont chargés, mais votre développeur peut modifier ce nombre. Pour plus d'informations, les développeurs doivent consulter [Plateforme mobile](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Si votre catégorie ne figure pas dans la liste, sélectionnez **Rechercher** pour effectuer une recherche en ligne. Recherchez par catégorie de dépense, ou lancez une recherche par type de dépense.
+10. Sélectionnez la catégorie de la dépense. Vous verrez la liste des catégories de dépense dans votre application pour l'utilisation hors ligne. Par défaut, jusqu'à 50 éléments sont chargés, mais votre développeur peut modifier ce nombre. Pour plus d'informations, les développeurs doivent consulter [Plateforme mobile](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Si votre catégorie ne figure pas dans la liste, sélectionnez **Rechercher** pour effectuer une recherche en ligne. Recherchez par catégorie de dépense, ou lancez une recherche par type de dépense.
 11. Facultatif : entrez le marchand pour la dépense.
 12. Entrez la date de transaction de la dépense.
 13. Entrez le montant de la dépense.
-14. Ssélectionnez la devise de la dépense. Vous verrez la liste des codes de devise dans votre application pour l'utilisation hors ligne. Par défaut, 400 dévises sont chargées, mais votre développeur peut modifier ce nombre. Pour plus d'informations, les développeurs doivent consulter [Plateforme mobile](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Si votre devise ne figure pas dans la liste, sélectionnez **Rechercher** pour effectuer une recherche en ligne. Recherchez par devise, ou lancez une rechercher par nom.
+14. Ssélectionnez la devise de la dépense. Vous verrez la liste des codes de devise dans votre application pour l'utilisation hors ligne. Par défaut, 400 dévises sont chargées, mais votre développeur peut modifier ce nombre. Pour plus d'informations, les développeurs doivent consulter [Plateforme mobile](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Si votre devise ne figure pas dans la liste, sélectionnez **Rechercher** pour effectuer une recherche en ligne. Recherchez par devise, ou lancez une rechercher par nom.
 15. Sélectionnez **Terminé**.
 16. Pour ajouter des détails supplémentaires à la dépense, sélectionnez **Ajouter plus de détails**. Les champs disponibles varient en fonction de la configuration de la gestion des dépenses de votre société.
 17. Si la stratégie de la société nécessite un reçu pour la dépense, sélectionnez **Reçus**, puis procédez comme suit :
@@ -216,12 +216,12 @@ Téléchargez et installez l'application mobile Dynamics 365 for Unified Operati
 
         - Si vous avez sélectionné **Invités précédents**, procédez comme suit :
 
-            1. Sélectionnez un ou plusieurs invités précédents de la liste. Vous découvrez une liste d'invités précédents que vous avez ajoutés aux états de dépenses précédents chargés dans votre application pour une utilisation hors ligne. Par défaut, jusqu'à 50 éléments sont chargés, mais votre développeur peut modifier ce nombre. Pour plus d'informations, les développeurs doivent consulter [Plateforme mobile](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Si votre invité précédent ne figure pas dans la liste, sélectionnez **Rechercher** pour effectuer une recherche en ligne. Recherchez par nom, ou lancez une recherche par organisation, pays ou titre.
+            1. Sélectionnez un ou plusieurs invités précédents de la liste. Vous découvrez une liste d'invités précédents que vous avez ajoutés aux états de dépenses précédents chargés dans votre application pour une utilisation hors ligne. Par défaut, jusqu'à 50 éléments sont chargés, mais votre développeur peut modifier ce nombre. Pour plus d'informations, les développeurs doivent consulter [Plateforme mobile](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Si votre invité précédent ne figure pas dans la liste, sélectionnez **Rechercher** pour effectuer une recherche en ligne. Recherchez par nom, ou lancez une recherche par organisation, pays ou titre.
             2. Sélectionnez **Terminé**.
 
         - Si vous avez sélectionné **Collègues**, procédez comme suit :
 
-            1. Sélectionnez un ou plusieurs collègues de la liste. Vous verrez la liste des collègues chargés dans votre application pour l'utilisation hors ligne. Par défaut, jusqu'à 50 éléments sont chargés, mais votre développeur peut modifier ce nombre. Pour plus d'informations, les développeurs doivent consulter [Plateforme mobile](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Si votre collègue ne figure pas dans la liste, sélectionnez **Rechercher** pour effectuer une recherche en ligne. Recherchez par nom, ou lancez une recherche par société ou titre.
+            1. Sélectionnez un ou plusieurs collègues de la liste. Vous verrez la liste des collègues chargés dans votre application pour l'utilisation hors ligne. Par défaut, jusqu'à 50 éléments sont chargés, mais votre développeur peut modifier ce nombre. Pour plus d'informations, les développeurs doivent consulter [Plateforme mobile](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Si votre collègue ne figure pas dans la liste, sélectionnez **Rechercher** pour effectuer une recherche en ligne. Recherchez par nom, ou lancez une recherche par société ou titre.
             2. Sélectionnez **Terminé**.
 
     3. Pour revenir aux détails des dépenses, cliquez sur le bouton **Précédent**.
@@ -230,7 +230,7 @@ Téléchargez et installez l'application mobile Dynamics 365 for Unified Operati
 
     1. Sélectionnez la première date à détailler.
     2. Sélectionnez **Ajouter énumération**.
-    3. Sélectionnez la sous-catégorie de détails des dépenses. Vous verrez la liste des sous-catégories de dépense dans votre application pour l'utilisation hors ligne. Par défaut, jusqu'à 50 éléments sont chargés, mais votre développeur peut modifier ce nombre. Pour plus d'informations, les développeurs doivent consulter [Plateforme mobile](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Si votre sous-catégorie ne figure pas dans la liste, sélectionnez **Rechercher** pour effectuer une recherche en ligne. Rechercher par nom de sous-catégorie de dépense.
+    3. Sélectionnez la sous-catégorie de détails des dépenses. Vous verrez la liste des sous-catégories de dépense dans votre application pour l'utilisation hors ligne. Par défaut, jusqu'à 50 éléments sont chargés, mais votre développeur peut modifier ce nombre. Pour plus d'informations, les développeurs doivent consulter [Plateforme mobile](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Si votre sous-catégorie ne figure pas dans la liste, sélectionnez **Rechercher** pour effectuer une recherche en ligne. Rechercher par nom de sous-catégorie de dépense.
     4. Entrez le montant de la transaction pour l'énumération.
     5. Modifiez la date de transaction au besoin.
     6. Sélectionnez **Terminé**.

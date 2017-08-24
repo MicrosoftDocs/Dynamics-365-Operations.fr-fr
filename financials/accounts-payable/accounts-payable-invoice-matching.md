@@ -3,7 +3,7 @@ title: Rapprochement des factures dans le module Achats
 description: "Le rapprochement de factures du module Achats est le processus de rapprochement des informations de la facture fournisseur, de la commande fournisseur et de l'accusé de réception de marchandises."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 6d1348ad43f8170f29bfc2f3df8a2ec60f9f8912
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: aa195f6057ae4ea511d661ffb47b1feeed58d2f9
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -192,7 +191,7 @@ Les factures fournisseur sont généralement basées sur des accusés de récept
 -   Entrez des montants de facture qui n'étaient pas inclus dans la commande fournisseur d'origine, afin que les informations de la facture correspondent à celles reçues du fournisseur. Vous pouvez comparer les frais des commandes fournisseur avec ceux des factures. Au besoin, vous pouvez ajouter des frais aux factures et les répartir sur les lignes de facture.
 -   Affichez et approuvez les écarts de rapprochement des prix unitaires nets de la facture et de la commande fournisseur. Vous pouvez paramétrer des pourcentages de tolérance de prix pour les entités juridiques, les articles et les fournisseurs. Si le prix de la ligne de facture fournisseur n'entre pas dans la tolérance de prix acceptable, vous pouvez enregistrer la facture en attendant qu'elle soit approuvée pour validation ou que le fournisseur envoie une correction.
 
-Pour plus d'informations, voir [Stratégies de rapprochement à trois facteurs](three-way-matching-policies.md).
+Pour plus d'informations, voir [Stratégies de rapprochement à trois facteurs](three-way-matching-policies.md) et [Configurer la validation du rapprochement de factures de la comptabilité fournisseur](tasks/set-up-accounts-payable-invoice-matching-validation.md). 
 
 
 

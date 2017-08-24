@@ -3,7 +3,7 @@ title: "Journaux d'opérations diverses"
 description: "Cet article décrit les fonctionnalités de Microsoft Dynamics 365 for Finance and Operations, Enterprise edition qui vous permettent d'effectuer le traitement du journal des opérations diverses, ainsi que de garantir que les données correctes sont capturées et que le contrôle interne n'est pas compromis."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/25/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 244eada4202106b65198e3d6e3d0dedaa5486632
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: 68da281cb4793ed83f70c68d061d327aa8a8c772
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -40,7 +39,7 @@ Les noms des journaux font partie des zones les plus importantes à paramétrer.
 
 Vous pouvez paramétrer les éléments suivants sur la page **Noms des journaux** :
 
--   **Approbation du workflow** : Pour augmenter le contrôle interne, définissez les workflows de journal qui établissent des seuils d'importance pour les étapes d'approbation et de révision, selon des critères tels que le montant débiteur total. Vous devez paramétrer les workflows pour les journaux des opérations diverses dans la page** Workflows de comptabilité**.
+-   **Approbation du workflow** : Pour augmenter le contrôle interne, définissez les workflows de journal qui établissent des seuils d'importance pour les étapes d'approbation et de révision, selon des critères tels que le montant débiteur total. Vous devez paramétrer les workflows pour les journaux des opérations diverses dans la page **Workflows de comptabilité**.
 -   **Valeurs par défaut** : Sélectionnez les valeurs par défaut pour les comptes de contrepartie, la devise et les dimensions financières.
 -   **Contrôle des journaux** : Vous pouvez paramétrer des restrictions au niveau de la société et du type de compte, ainsi que les valeurs de segment. 
 
@@ -82,8 +81,13 @@ Le paramétrage de compte principal fournit de nombreuses options pour le traite
 
 Les structures de compte et les structures de règles avancées sont extrêmement importantes pour garantir que les données requises pour la génération d'états financiers et le suivi de performance sont capturées lors du traitement du journal des opérations diverses et de toute documentation. Les structures de compte et les structures de règles avancées vous permettent d'adapter l'expérience de saisie de données. Vous pouvez autoriser la saisie de données uniquement pour les dimensions financières pertinentes dans chaque cas, et également appliquer les conditions obligatoires et corriger les données qui sont capturées.
 
-Pour plus d'informations, voir [planification : Plan de comptes](plan-chart-of-accounts.md). 
-
+Pour plus d'informations, voir les rubriques suivantes :
+- [Planification : plan de comptes](plan-chart-of-accounts.md). 
+- [Créer des règles avancées pour les journaux](tasks/create-advanced-rules-journals.md)
+- [Créer une entrée de journal à l'aide d'un modèle](tasks/create-journal-entry-template.md)
+- [Créer et valider des journaux](tasks/create-validate-journals.md)
+- [Valider des journaux périodiques](tasks/post-periodic-journals.md)
+- [Traiter le journal de répartition comptable](tasks/process-ledger-allocation-journal.md)
 
 
 

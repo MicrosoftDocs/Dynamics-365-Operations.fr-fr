@@ -1,9 +1,9 @@
 ---
 title: "Paramétrage du crédit et des recouvrements"
 description: "Cet article décrit la procédure de paramétrage de la fonctionnalité de recouvrement."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,14 +15,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14031
 ms.assetid: dcc6da2f-9af5-4f1d-abaa-b72967b66979
 ms.search.region: Global
-ms.author: mfalkner
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.author: Shiva.Pandey
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 4d3682c486e80afd03ec5805575357f4e87781f2
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 76937aacbc1925603766299168ec2d4090bd161b
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -39,7 +39,7 @@ Cet article décrit la procédure de paramétrage de la fonctionnalité de recou
 Paramétrez une définition de plage âgée. Une définition de plage âgée définit les colonnes qui s'affichent sur les pages de liste **Soldes chronologiques**, **Activités de recouvrement** et **Dossiers de recouvrement**. Elle définit également les périodes qui s'affichent sur la page **Recouvrement**. Si vous paramétrez un regroupement de clients, la définition de plage âgée extraite de celui-ci est utilisée. Si aucun regroupement n'est paramétré, la définition de plage âgée par défaut spécifiée sur la page **Paramètres des ventes** est utilisée. Si aucune définition de plage âgée par défaut n'est spécifiée, la première définition de plage âgée figurant sur la page **Définitions des plages âgées** est utilisée.
 
 ## <a name="create-an-aging-snapshot"></a>Création d'un instantané de balance âgée
-Créez des enregistrements d'instantané de balance âgée pour tous les clients ou pour les clients d'un regroupement de clients. Les informations relatives aux instantanés de balance âgée s'affichent sur la page de liste**Soldes chronologiques** et sur la page **Recouvrements**. Vous devez créer un instantané de balance âgée avant d'utiliser la page de liste. La page de liste affiche des informations uniquement pour les clients pour lesquels un instantané de balance âgée a été créé.
+Créez des enregistrements d'instantané de balance âgée pour tous les clients ou pour les clients d'un regroupement de clients. Les informations relatives aux instantanés de balance âgée s'affichent sur la page de liste **Soldes chronologiques** et sur la page **Recouvrements**. Vous devez créer un instantané de balance âgée avant d'utiliser la page de liste. La page de liste affiche des informations uniquement pour les clients pour lesquels un instantané de balance âgée a été créé.
 
 ## <a name="optional-set-up-customer-pools"></a>Paramétrer des regroupements de clients (facultatif)
 Vous pouvez paramétrer des regroupements de clients pour représenter des groupes de clients. Vous pouvez utiliser les regroupements de clients en tant que filtres des informations client qui s'affichent sur les pages de liste **Recouvrements**, sur la page **Recouvrements**, ou lors de la création d'instantanés de balance âgée.
@@ -94,5 +94,12 @@ Paramétrez les adresses e-mail des commerciaux si vous souhaitez leur envoyer d
 Si aucun commercial n'est spécifié, le commercial principal de l'organisation cliente est utilisé. Si aucun commercial principal n'est spécifié, les messages e-mail sont envoyés au premier commercial répertorié sur la page.
 
 
+Pour plus d'informations, voir les rubriques suivantes :
+
+ - [Créer une série de lettres de relance](tasks/create-collection-letter-sequence.md)
+ 
+ - [Traiter les lettres de relance](tasks/process-collection-letters.md)
+ 
+ - [Réviser les informations de recouvrement](tasks/review-collections-information.md)
 
 

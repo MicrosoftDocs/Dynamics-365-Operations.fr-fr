@@ -1,9 +1,9 @@
 ---
 title: "Crédit et recouvrements dans la Comptabilité client"
 description: "Les informations de recouvrement de la Comptabilité client sont gérées dans une vue centrale unique qui utilise la page Recouvrements de Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Les directeurs des crédits et perceptions peuvent utiliser cette vue centrale pour gérer les recouvrements. Les agents de recouvrement peuvent lancer le processus de recouvrement soit à partir des listes de clients générées à l'aide de critères de recouvrement prédéfinis, soit à partir de la page Clients."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,15 +15,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 3061
 ms.assetid: fd851520-8d93-434b-845b-be127d6ac3a6
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 49bc7ca4e5fff4c2686a8b7396d5bd2bcdd0c51a
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 282084b9d4e63795ec475690e5b22e06c23bb704
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -90,6 +89,8 @@ Vous pouvez exonérer, rétablir ou contrepasser l'intégralité des notes d'int
 
 Ces ajustements affectent uniquement les notes d'intérêt, et les intérêts et les commissions qu'elles incluent. Les procédures décrites dans la section « Création de transactions d'annulation en une seule étape » permettent d'annuler l'ensemble des frais dus par le client.
 
+Pour plus d'informations, voir [Créer un code intérêt avec une plage](tasks/create-interest-code-range.md) et [Traiter les intérêts](tasks/process-interest.md). 
+
 ## <a name="create-writeoff-transactions"></a>Création de transactions d'annulation
 Vous pouvez annuler les créances irrécouvrables en cliquant sur Annuler dans l'écran Recouvrements, et dans les pages de liste Soldes chronologiques, Clients et Factures client en cours. 
 
@@ -100,7 +101,10 @@ Lorsque vous annulez des transactions pour un client, celles-ci sont automatique
 -   Le troisième type de ligne de journal contient les informations d'annulation de comptabilité pour les taxes. Cette ligne du journal est créée uniquement si l'option Taxe distincte de la page Paramètres de la comptabilité client est activée. Si les transactions marquées contiennent plusieurs combinaisons compte de collecte de taxe/dimension/code taxe, une ligne de journal distincte est créée pour chaque combinaison.
 
 La transaction d'annulation est créée dans la devise de la transaction.
-Traitement des paiements des impayés  
+
+Pour plus d'informations, voir [Créer un journal d'annulation pour un client](tasks/create-write-off-journal-customer.md).
+
+<a name="process-not-sufficient-funds-nsf-payments"></a>Traitement des paiements des impayés  
 --------------------------------------------
 
 Vous pouvez traiter les paiements des impayés en cliquant sur Paiement des impayés sur la page Recouvrements. Lorsque vous cliquez sur ce bouton, le paiement est annulé. Si des frais d'impayés s'appliquent au client, une transaction de frais est créée dans le journal des paiements. Le montant des frais est basé sur les paramètres relatifs aux frais automatiques. Les frais automatiques qui s'appliquent aux paiements des impayés sont spécifiés par le groupe de frais sélectionné sur la page Comptes bancaires pour le compte bancaire concerné.

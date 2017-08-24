@@ -1,7 +1,7 @@
 ---
 title: "Paiements centralisés pour la comptabilité fournisseur"
 description: "Les organisations qui comprennent plusieurs entités juridiques peuvent créer et gérer des paiements à l'aide d'une entité juridique unique qui assure la gestion de tous les paiements. Par conséquent, il n'est pas nécessaire d'entrer les mêmes paiements dans plusieurs entités juridiques. Cet article fournit des exemples décrivant la manière dont la validation des paiements centralisés est gérée dans divers scénarios."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14341
 ms.assetid: 7bd02e32-2416-4ac6-8a60-85525267fdb7
 ms.search.region: Global
-ms.author: kweekley
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
@@ -23,7 +23,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: 23541bb2d82b552cdc9e0ada4aa4ec473f498d0b
 ms.contentlocale: fr-fr
 ms.lasthandoff: 05/25/2017
-
 
 ---
 

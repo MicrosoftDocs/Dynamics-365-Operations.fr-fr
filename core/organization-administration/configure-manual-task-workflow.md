@@ -3,7 +3,7 @@ title: "Configurer une tâche manuelle dans un workflow"
 description: "Cette rubrique explique comment configurer les propriétés d'une tâche manuelle."
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,7 +15,7 @@ ms.custom: 192191
 ms.assetid: 27f1afde-ff26-4b6f-8c11-27ec49130bbb
 ms.search.region: Global
 ms.author: donaldc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -165,6 +165,7 @@ Si un utilisateur ne termine pas la tâche manuelle dans le délai imparti, la t
 
 1.  Dans le volet gauche, cliquez sur **Escalade**.
 2.  Activez la case à cocher **Utiliser le chemin de réaffectation** pour créer un chemin de réaffectation. Le système affecte automatiquement la tâche aux utilisateurs répertoriés dans le chemin de réaffectation. Le tableau suivant présente un exemple de chemin de réaffectation.
+
     | Séquence | Chemin de réaffectation      |
     |----------|----------------------|
     | 1        | Affecter à : Donna     |
@@ -318,7 +319,9 @@ Vous pouvez envoyer des notifications aux personnes lorsqu'une tâche manuelle a
 8.  Répétez les étapes 3 à 7 pour chaque événement que vous avez sélectionné à l'étape 2.
 
 ## <a name="set-a-time-limit"></a>Définition d'un délai limite
-Si la tâche manuelle doit être exécutée dans un certain délai, procédez comme suit. **Remarque :** Les options sélectionnées dans cette procédure remplacent celles sélectionnées dans les zones **Affectation** et **Escalade** de la page.
+Si la tâche manuelle doit être exécutée dans un certain délai, procédez comme suit. 
+
+**Remarque :** Les options sélectionnées dans cette procédure remplacent celles sélectionnées dans les zones **Affectation** et **Escalade** de la page.
 
 1.  Dans le volet gauche, cliquez sur **Paramètres avancés**.
 2.  Activez la case à cocher **Définir une limite de temps pour l'élément de workflow**.

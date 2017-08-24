@@ -1,35 +1,33 @@
 ---
 title: "Convertir des devises comptables ou de déclaration"
 description: 
-author: RobinARH
+author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: robinr
+ms.reviewer: twheeloc
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 78223
 ms.assetid: 31c56f9a-9c64-40a2-90e3-1969a760614b
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 728af2fff6317c17e47d48ea07dbeb57068fbf3f
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: c738207f3088da151ec2317ce2b445f83278ec79
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/01/2017
 
 ---
 
 # <a name="convert-accounting-or-reporting-currencies"></a>Convertir des devises comptables ou de déclaration
 
 [!include[banner](../includes/banner.md)]
-
-
 
 
 Une société qui doit modifier sa devise comptable ou sa devise de déclaration a deux options. La première option est de créer une société et de répartir à zéro. La deuxième option est d'exécuter le processus de conversion des devises comptables et de déclaration. Il s'agit d'un processus très long qui modifie chaque transaction dans le système. Des paramétrages sont également nécessaires avant d'exécuter le processus.
@@ -77,6 +75,6 @@ Après la conversion de devise, vous devez générer tous les états de rapproch
 
 Lorsque tous les journaux des écritures comptables ont été supprimés, vous pouvez journaliser les écritures comptables. Cliquez sur **Comptabilité** &gt; **Périodique** &gt; **Journaux** &gt; **Journalisation**. Vous pouvez réévaluer les montants en devise étrangère après la conversion de devise, si la réévaluation est requise. Pour réévaluer les montants en devise étrangère, sélectionnez **Standard** dans la page **Méthode** pour la réévaluation.
 
-
+Pour plus d'informations, voir [Journaliser les entrées de journal validées](tasks/journalize-posted-journal-entries.md).
 
 
