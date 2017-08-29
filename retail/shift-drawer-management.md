@@ -1,7 +1,7 @@
 ---
 title: "Gestion d'équipe et de tiroir-caisse"
 description: "Cet article explique comment configurer et utiliser les deux types d'équipes de travail de point de vente au détail (PDV) - partagée et autonome. Les équipes de travail partagées peuvent être utilisées par plusieurs utilisateurs à plusieurs endroits, alors que les équipes de travail autonomes peuvent être utilisées par un seul collaborateur à la fois."
-author: josaw1
+author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,8 +23,6 @@ ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
 ms.openlocfilehash: 0d5e05e8f1edcc01af985c25459d93de0bc2acf1
 ms.contentlocale: fr-fr
 ms.lasthandoff: 06/20/2017
-
-
 
 ---
 

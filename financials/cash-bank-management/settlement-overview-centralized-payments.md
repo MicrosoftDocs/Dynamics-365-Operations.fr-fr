@@ -1,7 +1,7 @@
 ---
 title: "Vue d'ensemble des règlements des paiements centralisés"
 description: "Les organisations qui comprennent plusieurs entités juridiques peuvent créer et gérer des paiements à l'aide d'une entité juridique qui assure la gestion de tous les paiements. Cela élimine le besoin d'entrer la même transaction dans plusieurs entités juridiques et permet de gagner du temps en rationalisant le processus de proposition de paiement, le processus de règlement, la modification des transactions en cours et la modification des transactions clôturées pour les paiements centralisés."
-author: twheeloc
+author: abruer
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,7 +15,7 @@ ms.custom: 222414
 ms.assetid: 610f6858-0f37-4d0f-8c68-bab5a971ef4a
 ms.search.region: Global
 ms.author: abruer
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670

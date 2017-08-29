@@ -1,7 +1,7 @@
 ---
 title: "Clôture de fin d'exercice"
 description: "Cette rubrique décrit le paramétrage et les étapes nécessaires pour exécuter le processus de clôture de fin d'exercice dans la comptabilité."
-author: twheeloc
+author: kweekley
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

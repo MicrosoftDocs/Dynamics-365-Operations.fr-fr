@@ -1,7 +1,7 @@
 ---
 title: "Configurer un règlement"
 description: "La manière et le moment où les transactions sont réglées peuvent être des sujets complexes. Il est donc essentiel que vous compreniez et définissiez correctement les paramètres afin de répondre à vos exigences métier. Cet article décrit les paramètres utilisés pour le règlement de la Comptabilité fournisseur et de la Comptabilité client."
-author: twheeloc
+author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,7 +23,6 @@ ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
 ms.openlocfilehash: 059513de66827aa3a839b9eb06973ec4c1549f73
 ms.contentlocale: fr-fr
 ms.lasthandoff: 06/13/2017
-
 
 ---
 

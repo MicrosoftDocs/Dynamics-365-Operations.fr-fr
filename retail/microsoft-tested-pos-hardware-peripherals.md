@@ -1,7 +1,7 @@
 ---
 title: "Périphériques matériels de PDV"
 description: "Retail Modern point of sale (PDV) et PDV Cloud peuvent utiliser un large éventail des périphériques matériels de PDV, avec des interfaces et des options de déploiement multiples pour exécuter différents scénarios métier d'un détaillant."
-author: josaw1
+author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,7 +23,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: f5f090eb406488ecfcd502c2cc6e3a63ca16111a
 ms.contentlocale: fr-fr
 ms.lasthandoff: 05/25/2017
-
 
 ---
 

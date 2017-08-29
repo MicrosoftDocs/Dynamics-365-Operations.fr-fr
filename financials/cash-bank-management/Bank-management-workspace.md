@@ -1,7 +1,7 @@
 ---
 title: Espace de travail de la gestion des banques
 description: "Cette rubrique fournit des informations sur l'espace de travail Gestion des banques. Cet espace de travail affiche les informations concernant les comptes bancaires de la société, et inclut une vue de synthèse et une page Analyses. La vue Synthèse affiche des vignettes de synthèse, des informations sur les comptes bancaires, un graphique du solde et des informations associées. La page Analyses utilise les fonctionnalités de Microsoft Power BI pour afficher les éléments visuels associés aux soldes de comptes bancaires."
-author: saraschi
+author: saraschi2
 manager: AnnBe
 ms.date: 05/25/2017
 ms.topic: article
@@ -13,7 +13,7 @@ ms.reviewer: twheeloc
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.search.region: Global
 ms.author: saraschi
-ms.search.validFrom: 2017-06-30T00:00:00.000Z
+ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 3abf4b151b177095b71d44e9a6c9fd8541eaa64e

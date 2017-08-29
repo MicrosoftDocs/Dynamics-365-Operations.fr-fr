@@ -1,27 +1,22 @@
 --- 
-title: "Associer un index de carburant à un transporteur comme frais annexes"
-description: "Ce guide indique comment créer une affectation annexe, des frais annexes transporteur et des données principales annexes pour la surcharge carburant, ainsi que comment associer un index de carburant de transport à un transporteur."
+# required metadata 
+title: Associer un index de carburant à un transporteur comme frais annexes
+description: 'Ce guide indique comment créer une affectation annexe, des frais annexes transporteur et des données principales annexes pour la surcharge carburant, ainsi que comment associer un index de carburant de transport à un transporteur.'
 author: BibiSp
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: null
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: null
 audience: Application User
-ms.reviewer: bibis
+ms.reviewer: bis
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: bibis
-ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: d3ab4ee1a8ab74226b784496b56f26d26ed04ed8
-ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
-
+ms.author: bis
+ms.search.validFrom: '2016-06-30'
+ms.dyn365.ops.version: AX 7.0.0
 ---
 # <a name="associate-a-fuel-index-with-a-carrier-as-an-accessorial-charge"></a>Associer un index de carburant à un transporteur comme frais annexes
 
@@ -76,5 +71,4 @@ Ce guide indique comment créer une affectation annexe, des frais annexes transp
 5. Dans le champ Index carburant transporteur, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
 6. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 7. Cliquez sur Enregistrer.
-
 

@@ -1,7 +1,7 @@
 ---
 title: "Escomptes de règlement"
 description: "Les escomptes de règlement sont paramétrés et partagés pour la Comptabilité fournisseur et la Comptabilité client.  L'escompte de règlement disponible peut être défini sur la facture client ou la facture fournisseur, et sera utilisé si la facture est payée pendant la période d'escompte de règlement."
-author: twheeloc
+author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,7 +23,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: 9d581a1d32a0df15e0b63e129d369d90aaa440d2
 ms.contentlocale: fr-fr
 ms.lasthandoff: 05/25/2017
-
 
 ---
 

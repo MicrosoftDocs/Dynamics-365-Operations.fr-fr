@@ -1,7 +1,7 @@
 ---
 title: "Amortissement dégressif fiscal"
 description: "La méthode d'amortissement dégressif fiscal est une méthode d'amortissement utilisée en France. Les montants d'amortissement sont calculés à l'aide de la méthode d'amortissement dégressif et de la méthode d'amortissement linéaire. Le plus grand des deux montants d'amortissement calculés est ensuite utilisé comme montant d'amortissement dégressif fiscal."
-author: ShylaThompson
+author: Anasyash
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -21,7 +21,6 @@ ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
 ms.openlocfilehash: cb1e0cb132dcab90bd1b347e72c24ffe4a18d06a
 ms.contentlocale: fr-fr
 ms.lasthandoff: 06/13/2017
-
 
 ---
 

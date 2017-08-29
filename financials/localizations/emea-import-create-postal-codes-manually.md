@@ -1,7 +1,7 @@
 ---
 title: "Importer ou créer manuellement des codes postaux"
 description: "Cet article décrit la procédure d'importation et de création manuelle de codes postaux au format approprié. Cette rubrique inclut des informations sur les fonctions qui ont été ajoutées pour Microsoft Dynamics 365 for Finance and Operations, Enterprise edition."
-author: ShylaThompson
+author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -22,7 +22,6 @@ ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
 ms.openlocfilehash: 34dbdf5fe0d15069607a9f6154443684d59f6c1d
 ms.contentlocale: fr-fr
 ms.lasthandoff: 06/13/2017
-
 
 ---
 

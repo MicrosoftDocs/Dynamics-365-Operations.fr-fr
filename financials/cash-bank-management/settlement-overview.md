@@ -1,7 +1,7 @@
 ---
 title: "Vue d'ensemble des règlements"
 description: "Cet article fournit des informations générales sur le processus de règlement. Il décrit les types de transactions pouvant être réglées, quand et comment les transactions peuvent être réglées ainsi que les résultats du processus de règlement."
-author: twheeloc
+author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,7 +23,6 @@ ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
 ms.openlocfilehash: ab12ef4127daf57fb0816ae1585876b50d1e81ed
 ms.contentlocale: fr-fr
 ms.lasthandoff: 06/20/2017
-
 
 ---
 

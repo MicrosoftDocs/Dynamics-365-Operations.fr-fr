@@ -1,7 +1,7 @@
 ---
 title: "Espace de travail mobile Contrôle des coûts"
 description: "Cette rubrique fournit des informations sur l'espace de travail mobile Contrôle des coûts. Cet espace de travail permet aux responsables de centre de coût d'afficher des informations sur les performances du centre de coût à tout moment et n'importe où."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
@@ -22,7 +22,6 @@ ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
 ms.openlocfilehash: dbedf75a6f61a9e2bc644056f0dd1e7499cedc42
 ms.contentlocale: fr-fr
 ms.lasthandoff: 06/13/2017
-
 
 ---
 

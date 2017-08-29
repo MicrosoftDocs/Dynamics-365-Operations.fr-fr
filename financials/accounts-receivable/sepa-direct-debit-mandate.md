@@ -1,28 +1,23 @@
 ---
-title: "Paramétrer un mandat de débit direct SEPA"
-description: 
+# required metadata
+title: Paramétrer un mandat de débit direct SEPA
+description: null
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: null
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: null
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: 'Core, AX 7.0.0, Operations, UnifiedOperations'
 ms.custom: 59491
 ms.assetid: 653a135f-c515-4ae3-9da2-82b5e1f103b5
 ms.search.region: Global
-ms.author: Shiva.Pandey
-ms.search.validFrom: 2016-02-28
+ms.author: shpandey
+ms.search.validFrom: '2016-02-28'
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 17dc0cc19c4c58e6c795e085e2e8985598d403a0
-ms.openlocfilehash: 4ea72cf6410eb30d83103bceb4a1628bafd33ac7
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/09/2017
-
 ---
 
 # <a name="set-up-sepa-direct-debit-mandate"></a>Paramétrer un mandat de débit direct SEPA
@@ -56,5 +51,4 @@ Voir aussi
 [Vue d'ensemble du débit direct](sepa-direct-debit-overview.md) 
 
 [Créer un mandat de débit direct pour un client](tasks/create-direct-debit-mandate-customer.md) 
-
 

@@ -1,7 +1,7 @@
 ---
 title: "Règles de stratégie d'audit"
 description: "Les stratégies d'audit permettent d'évaluer la conformité des états de dépenses, factures fournisseur et commandes fournisseur avec les règles de stratégie que vous créez. Toutes les règles associées à une stratégie d'audit sont exécutées en mode de traitement par lots selon le programme que vous spécifiez.  Chaque règle de stratégie est une instance d'un type de règle de stratégie. Pour chaque type de règle de stratégie, une seule règle de stratégie peut être active à la fois."
-author: twheeloc
+author: ryansandness
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

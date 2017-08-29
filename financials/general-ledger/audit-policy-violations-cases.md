@@ -1,7 +1,7 @@
 ---
 title: "Violations et incidents de stratégie d'audit"
 description: "Cet article décrit la manière dont les incident d'audit sont générés à la suite de violations des règles de stratégie d'audit. Il inclut également des informations sur les différentes manières dont les stratégies d'audit utilisent la plage de dates de sélection de document."
-author: twheeloc
+author: ryansandness
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,7 +23,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: 882f99beff256f96b6879c4af4c4ca8a6c4dbec3
 ms.contentlocale: fr-fr
 ms.lasthandoff: 05/25/2017
-
 
 ---
 

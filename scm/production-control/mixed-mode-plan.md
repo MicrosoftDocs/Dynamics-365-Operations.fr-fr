@@ -1,7 +1,7 @@
 ---
 title: "Planification de mode mixte - combiner un approvisionnement discret, basé sur les processus et le lean manufacturing"
 description: "Cet article fournit des informations sur la planification de mode mixte. Dans la planification de mode mixte, vous pouvez modéliser la chaîne d'approvisionnement selon le flux des matières. Microsoft Dynamics 365 for Finance and Operations garantit que le flux des matières suit vos modèles, indépendamment de la stratégie d'approvisionnement sélectionnée (kanbans, ordres de fabrication, commandes fournisseur, lots de commandes, ou ordres de transfert)."
-author: YuyuScheller
+author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: 2e8b5fd1-cee9-45da-a3ae-6961fb020b89
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: conradv
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
