@@ -1,27 +1,22 @@
 --- 
-title: " Règles de tarification de catégorie en vue de créer des accords commerciaux"
-description: "Cette procédure illustre comment créer des accords commerciaux sur les prix de vente à l'aide d'une règle de tarification de catégorie."
+# required metadata 
+title: ' Règles de tarification de catégorie en vue de créer des accords commerciaux'
+description: Cette procédure illustre comment créer des accords commerciaux sur les prix de vente à l'aide d'une règle de tarification de catégorie.
 author: scott-tucker
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: null
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: null
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: scotttuc
-ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: dd6233146c7c38e729ef2f250177691967427df9
-ms.contentlocale: fr-fr
-ms.lasthandoff: 07/28/2017
-
+ms.search.validFrom: '2016-06-30'
+ms.dyn365.ops.version: AX 7.0.0
 ---
 # <a name="category-pricing-rules-to-create-trade-agreements"></a> Règles de tarification de catégorie en vue de créer des accords commerciaux
 
@@ -57,5 +52,4 @@ Cette procédure illustre comment créer des accords commerciaux sur les prix de
 23. Fermez la page.
 24. Cliquez sur l'onglet Règles de prix de catégorie.
     * Les règles de tarification de catégorie spécifiques aux canaux s'affichent dans cette liste.  
-
 

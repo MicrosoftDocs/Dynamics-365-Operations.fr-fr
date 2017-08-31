@@ -1,27 +1,22 @@
 --- 
-title: "Créer une structure d'entrepôt"
-description: "Cette procédure vous montre comment définir des informations sur les emplacements d'un entrepôt."
+# required metadata 
+title: Créer une structure d'entrepôt
+description: Cette procédure vous montre comment définir des informations sur les emplacements d'un entrepôt.
 author: perlynne
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: null
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: null
 audience: Application User
-ms.reviewer: bibis
+ms.reviewer: bis
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
-ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 15610bc797cf7e7abdec433d0a5cead60da7a555
-ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
-
+ms.search.validFrom: '2016-06-30'
+ms.dyn365.ops.version: AX 7.0.0
 ---
 # <a name="create-a-new-warehouse-layout"></a>Créer une structure d'entrepôt
 
@@ -74,5 +69,4 @@ Cette procédure vous montre comment définir des informations sur les emplaceme
 14. Cliquez sur Terminer.
 15. Fermez la page.
 16. Actualisez la page.
-
 

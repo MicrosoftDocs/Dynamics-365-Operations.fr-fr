@@ -1,7 +1,7 @@
 ---
 title: "Vue d'ensemble des régularisations"
 description: "Cet article décrit les régularisations, et fournit des informations sur leur paramétrage pour créer des transactions."
-author: RobinARH
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

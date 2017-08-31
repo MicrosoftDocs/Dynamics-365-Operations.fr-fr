@@ -1,26 +1,21 @@
 --- 
-title: "Création d'un compte principal"
-description: "Ce guide accompagne l'utilisateur lors de l'ajout d'un compte principal à un plan de comptes existant."
+# required metadata 
+title: Création d'un compte principal
+description: Ce guide accompagne l'utilisateur lors de l'ajout d'un compte principal à un plan de comptes existant.
 author: aprilolson
 manager: AnnBe
 ms.date: 11/10/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: null
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: null
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: ef4d5deb6ea812023112251f00fcdd25229e02e7
-ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
-
+ms.search.validFrom: '2016-06-30'
+ms.dyn365.ops.version: AX 7.0.0
 ---
 # <a name="create-a-main-account"></a>Création d'un compte principal
 
@@ -52,5 +47,4 @@ Ce guide accompagne l'utilisateur lors de l'ajout d'un compte principal à un pl
 20. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 21. Dans le champ Type de la conversion de devises, sélectionnez le mode de calcul des de taux de change du compte.
 22. Fermez la page.
-
 

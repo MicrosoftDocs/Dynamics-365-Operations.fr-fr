@@ -1,7 +1,7 @@
 ---
 title: "Préférences de l’utilisateur dans le générateur d'états financiers"
 description: "Cet article explique comment définir les préférences de l’utilisateur pour personnaliser vos interactions utilisateur dans le générateur d'états financiers et de contrôler l’expérience de connexion initiale. Vous pouvez également contrôler comment les états individuels, la bibliothèque d'états et les emplacements de fichiers par défaut sont affichés."
-author: ShylaThompson
+author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,7 +16,7 @@ ms.custom: 31161
 ms.assetid: 59da4854-0f8c-4021-acd1-b303c06f4a34
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-05-31T00:00:00.000Z
+ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
 ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670

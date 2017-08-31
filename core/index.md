@@ -13,13 +13,13 @@ ms.reviewer: margoc
 ms.custom: 62303
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: fc446f381850f4f42b6dbc886646d3d32f2d5dd7
-ms.openlocfilehash: 1b46d24a0f671502c9dc3d46849240342d680468
+ms.sourcegitcommit: 8ae84f23744947cf49365d318a208802c6db95a9
+ms.openlocfilehash: 5c40e4bf1d2defeeb656348e1bc3886d5423ca12
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/16/2017
 
 ---
 
@@ -28,7 +28,7 @@ ms.lasthandoff: 07/27/2017
 
 Microsoft Dynamics 365 for Finance and Operations est l'application Microsoft destinée aux entreprises. Elle permet aux employés de prendre des décisions plus intelligentes rapidement via une interface utilisateur maligne qui donne accès aux analyses et aux données en temps réel. Elle permet aux entreprises de transformer et d'innover en livrant la logique métier éprouvée apte à remodeler leurs processus d'entreprise plus rapidement. Elle offre aux entreprises une souplesse qui leur permet de se développer à leur propre rythme et de travailler presque partout, à tout moment, en mettant les opérations à l'échelle globalement pour répondre aux besoins de l'activité. 
 
-Cette documentation vous aidera à adapter Dynamics 365 for Finance and Operations à votre entreprise. Elle est liée à la documentation des produits associés dans la suite Unified Operations, Dynamics 365 for Retail, et Dynamics 365 for Talent. 
+Cette documentation vous aidera à adapter Dynamics 365 for Finance and Operations à votre entreprise. Elle est liée à la documentation des produits associés : Dynamics 365 for Retail et Dynamics 365 for Talent. 
 
 <table>
 <colgroup>
@@ -86,7 +86,7 @@ Cette documentation vous aidera à adapter Dynamics 365 for Finance and Operati
 <p><a href="../dev-itpro/analytics/financial-reporting-intro">États financiers</a></p>
 <p><a href="../dev-itpro/analytics/general-electronic-reporting">Génération d'états de réglementation</a></p>
 
-<h3><a href="../dev-itpro/mobile-apps/mobile-platform">Plateforme mobile</a></h3>
+<h3><a href="../dev-itpro/mobile-apps/platform/mobile-platform-home-page">Plateforme mobile</a></h3>
 
 <h3>Fonctionnalité de développeur</h3>
 <p><a href="../dev-itpro/dev-tools/developer-home-page">Page d'accueil du développeur</a></p>

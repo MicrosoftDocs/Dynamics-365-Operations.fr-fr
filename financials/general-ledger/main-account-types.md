@@ -1,7 +1,7 @@
 ---
 title: Types de compte principal
 description: "Les types de comptes principaux déterminent le mode d'utilisation du compte principal dans le plan de comptes."
-author: twheeloc
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
