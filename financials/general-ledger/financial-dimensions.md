@@ -1,7 +1,7 @@
 ---
 title: "Dimensions financières"
 description: "Cette rubrique décrit les différents types de dimensions financières et leur configuration."
-author: twheeloc
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

@@ -1,7 +1,7 @@
 ---
 title: "Afficher les entrées de journal et les transactions"
 description: "Cet article explique les différentes manières dont vous pouvez afficher les entrées de journal et les transactions."
-author: RobinARH
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

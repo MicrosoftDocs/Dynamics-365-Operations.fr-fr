@@ -1,7 +1,7 @@
 ---
 title: "Groupes de comptes de consolidation et comptes de consolidation supplémentaires"
 description: "Cette rubrique fournit des informations sur les groupes de comptes de consolidation et les comptes de consolidation supplémentaires, et explique comment ils sont utilisés dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition."
-author: twheeloc
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

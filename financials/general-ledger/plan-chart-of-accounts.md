@@ -1,7 +1,7 @@
 ---
 title: Planifier votre plan de comptes
 description: Cet article fournit des informations vous permettant de planifier le plan de comptes de votre organisation.
-author: twheeloc
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

@@ -15,7 +15,7 @@ ms.search.region: Global
 ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
+ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
 ms.openlocfilehash: 19840c055a19f028ec13df654f483cd0f469fa67
