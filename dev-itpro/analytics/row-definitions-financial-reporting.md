@@ -1,7 +1,7 @@
 ---
 title: "Définitions de ligne dans le générateur d'états financiers"
 description: "Une définition de ligne est un composant de l’état, ou un bloc élémentaire, qui spécifie le contenu de chaque ligne d’un état financier. Une définition de ligne peut être combinée avec les définitions de colonne, les définitions d'arborescence de génération d'état et les définitions d'état pour créer un groupe de blocs élémentaires pouvant être utilisé par plusieurs sociétés."
-author: ShylaThompson
+author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,7 +16,7 @@ ms.custom: 68873
 ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
