@@ -1,4 +1,4 @@
---- 
+---
 title: "Créer et tenir à jour un blocage du stock"
 description: "Cette procédure décrit comment empêcher le stock physique disponible d'être réservée par d'autres documents sources sortants en utilisant le blocage du stock."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -34,7 +34,7 @@ Cette procédure décrit comment empêcher le stock physique disponible d'être 
 1. Allez dans Gestion des stocks > Tâches périodiques > Blocage du stock.
 2. Cliquez sur Nouveau.
 3. Dans le champ Numéro d'article, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-4. Dans la liste, sélectionnez l'article que vous souhaitez choisir. 
+4. Dans la liste, sélectionnez l'article que vous souhaitez choisir.
     * Sélectionnez un numéro d'article avec le stock physique disponible à bloquer. Si vous utilisez USMF, vous pouvez sélectionner l'article M9201.  
 5. Dans le champ Quantité, entrer un numéro.
     * Si vous utilisez l'article M9201, vous devez sélectionner inférieur à 200.  
@@ -55,5 +55,4 @@ Cette procédure décrit comment empêcher le stock physique disponible d'être 
 1. Cliquez sur Supprimer.
 2. Cliquez sur Oui.
 3. Fermez la page.
-
 

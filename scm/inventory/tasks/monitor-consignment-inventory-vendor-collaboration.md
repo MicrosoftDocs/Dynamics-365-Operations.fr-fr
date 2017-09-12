@@ -1,4 +1,4 @@
---- 
+---
 title: "Contrôler le stock de consignation à l'aide de la collaboration fournisseur"
 description: "Cette procédure indique comment utiliser la collaboration du fournisseur pour afficher des informations sur le niveau de stock du produit que vous avez placé en consignation auprès d'un client."
 author: mkirknel
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -41,5 +41,4 @@ Cette procédure indique comment utiliser la collaboration du fournisseur pour a
 ## <a name="view-on-hand-inventory"></a>Affichage du stock disponible
 1. Allez dans Collaborateur du fournisseur > Stock de consignation > Stock de consignation disponible.
     * La page Stock de consignation disponible indique le stock que vous possédez dans l'entrepôt du client. Vous pouvez afficher des dimensions supplémentaires, telles que le site et l'entrepôt, en cliquant sur l'onglet Afficher les dimensions.   
-
 

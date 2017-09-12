@@ -1,4 +1,4 @@
---- 
+---
 title: "Paramétrer des conditions préalables pour la gestion"
 description: "Utilisez cette procédure pour activer les processus de gestion de non-conformité."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -101,5 +101,4 @@ Utilisez cette procédure pour activer les processus de gestion de non-conformit
 3. Tapez une valeur dans le champ Zone de quarantaine.
 4. Dans le champ Description, entrez une valeur.
 5. Fermez la page.
-
 

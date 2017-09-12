@@ -1,7 +1,7 @@
 ---
 title: "Vue d'ensemble des arrivées"
 description: "Cette rubrique fournit des informations sur la fonctionnalité Vue d'ensemble des arrivées. La page Vue d'ensemble des arrivées fait partie de cette fonction et fournit une vue d'ensemble de tous les articles attendus en tant qu'articles entrants."
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 04/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WMSArrivalOverview, WMSArrivalOverviewProfile, WMSJournalTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 274363
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
@@ -37,9 +37,9 @@ Cette rubrique fournit des informations sur la fonctionnalité Vue d'ensemble de
 La page **Vue d'ensemble des arrivées** fournit une vue d'ensemble de tous les articles entrants prévus. Elle montre également les arrivées qui peuvent être initialisées en fonction de la vue d'ensemble. Cette rubrique aborde plus en détail le processus de réception.
 
 ## <a name="business-scenario"></a>Scénario métier
-Considérez le scénario suivant dans les processus entrants. 
+Considérez le scénario suivant dans les processus entrants.
 
-[![Scénario métier](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png) 
+[![Scénario métier](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png)
 
 Sammy, un employé de la réception, souhaite connaître les arrivées attendues ce jour. Dans la page **Vue d'ensemble des arrivées**, Sammy peut obtenir une vue d'ensemble des tâches actuelles, et une estimation grossière des quantités, volumes, poids, types d'ordre, et ainsi de suite. Ensuite, une livraison arrive à l'un des quais d'embarquement, et Sammy reçoit une liste de livraison. Dans la page **Vue d'ensemble des arrivées**, Sammy peut effectuer les tâches suivantes :
 
@@ -69,7 +69,7 @@ Pour cet exemple, le champ **Nom du profil de vue d'ensemble des arrivées** sur
 
 Pour créer automatiquement des journaux des arrivées depuis la page **Vue d'ensemble des arrivées**, vous devez définir les informations appropriées dans le groupe de champs **Journal** sur l'organisateur **Options des arrivées**.
 
--   Vous devez spécifier un nom de journal pour créer un nouveau journal. 
+-   Vous devez spécifier un nom de journal pour créer un nouveau journal.
 
 [![Spécification d'un nom de journal](./media/arrival-overview-journal.png)](./media/arrival-overview-journal.png)
 
@@ -123,7 +123,4 @@ Lorsque toutes les marchandises ont été enregistrées, le gestionnaire d'entre
 
 ## <a name="summary"></a>Synthèse
 La page **Vue d'ensemble des arrivées** donne au gestionnaire d'entrepôt et aux collaborateurs d'entrepôt une vue d'ensemble du travail prévu qui doit être effectué dans le cadre du processus entrant. La page peut également être utilisée pour démarrer le processus d'arrivée d'articles, pour garantir que les articles sont suivis à la première entrée dans l'entrepôt.
-
-
-
 

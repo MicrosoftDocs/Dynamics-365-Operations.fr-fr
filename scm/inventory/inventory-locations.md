@@ -1,7 +1,7 @@
 ---
 title: Emplacement de stockage
 description: "Les emplacements de stockage sont utilisés avec l'entreposage de base (WMS I) pour déterminer où les articles sont enregistrés et où les articles sont prélevés dans un entrepôt WMS I."
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,14 +10,14 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WMSLocation
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 2134
 ms.assetid: 69bf6922-4151-447f-b678-4ba95637f54c
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
@@ -40,7 +40,6 @@ Le terme emplacement fait référence au lieu de stockage et d'extraction des ar
 
 Pour chaque emplacement, vous pouvez également spécifier le lieu d'insertion de l'article. Par défaut, ces lieux sont identiques. Généralement, les articles sont insérés et extraits du même côté d'un emplacement mais ce n'est pas toujours le cas. Par exemple, les articles stockés dans des casiers à accumulation dynamique sont insérés depuis une allée et extraits depuis une autre. La donnée principale est le nom de l'emplacement qui est généralement déterminé par ses coordonnées : entrepôt, allée, rayon, étagère et casier. Ce nom ou cet ID peut être entré manuellement ou généré à partir des coordonnées de l'emplacement (par exemple, 01-02-03-4 pour allée 1, rayon 2, étagère 3, casier 4) dans la page Emplacements de stockage.
 Propriétés de l'emplacement
--------------------
 
 Un emplacement possède les caractéristiques suivantes :
 -   Taille (hauteur, largeur, profondeur et, par conséquent, volume)
@@ -54,12 +53,12 @@ Les priorités permettent d'optimiser la gestion des lignes de prélèvement, qu
 
 ## <a name="blocked-locations"></a>Emplacements bloqués
 Vous souhaitez parfois indiquer qu'un emplacement est bloqué pour une période donnée, par exemple, pour permettre des réparations. Ou bien, vous pouvez indiquer que seule l'entrée ou la sortie est bloquée.
-Structure arborescente
---------------
+
+## <a name="tree-structure"></a>Structure arborescente
 
 Dans la page Emplacements de stockage, vous pouvez afficher la disposition d'entrepôt dans une structure arborescente basée sur les coordonnées des emplacements de stockage, dans un format d'affichage défini.
-Tenir à jour les emplacements de stockage via l'écran Entrepôt
----------------------------------------------------
+
+## <a name="maintain-inventory-locations-via-the-warehouse-form"></a>Tenir à jour les emplacements de stockage via l'écran Entrepôt
 
 Il est possible de copier des emplacements d'un entrepôt à un autre et de créer des emplacements via un assistant. Avant d'exécuter l'assistant, vous devez veiller à définir les noms d'emplacement par défaut dans la page Entrepôt.
 
@@ -69,7 +68,4 @@ Il est possible de copier des emplacements d'un entrepôt à un autre et de cré
 --------
 
 [Créer une structure d'entrepôt (guide de tâche)](/dynamics365/unified-operations/supply-chain/inventory/tasks/create-new-warehouse-layout)
-
-
-
 

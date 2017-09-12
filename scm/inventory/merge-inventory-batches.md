@@ -1,7 +1,7 @@
 ---
 title: Fusionner les traitements par lots de stock
 description: "Cet article fournit des informations sur la manière de consolider au moins deux traitements par lots de stock dans un traitement par lots fusionné."
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,13 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventBatchJournalListPage, InventBatchJournalMerge
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 39782
 ms.assetid: 07c5e98b-10fd-4f5c-b471-41d2150f47b0
 ms.search.region: Global
 ms.author: pjacobse
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
@@ -31,7 +31,7 @@ ms.lasthandoff: 06/13/2017
 [!include[banner](../includes/banner.md)]
 
 
-Cet article fournit des informations sur la manière de consolider au moins deux traitements par lots de stock dans un traitement par lots fusionné. 
+Cet article fournit des informations sur la manière de consolider au moins deux traitements par lots de stock dans un traitement par lots fusionné.
 
 Lorsque vous fusionnez des traitements par lots, des calculs peuvent aider à optimiser les caractéristiques et les attributs de lot dans le traitement par lots fusionné. Une fois que vous avez sélectionné les traitements par lots sources, vous pouvez réviser et modifier le traitement par lots fusionné avant de le valider. Vous pouvez également transférer la fusion du traitement par lots vers un journal de stock pour approbation. Le stock peut ensuite être réservé ou validé directement à partir de ce journal de stock. Lorsque vous validez un traitement par lots fusionné, le stock est ajusté pour les traitements par lots sources et le traitement par lots fusionné.
 
@@ -142,7 +142,4 @@ Vous pouvez approuver le journal de stock pour la fusion de traitements par lots
 
 ## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Une fois que j'ai fusionné un article de poids variable, pourquoi est-ce que je ne peux pas afficher les informations de poids variable dans le journal de stock ?
 Vous pouvez fusionner des lots d'articles de poids variable comme tous les autres articles. Toutefois, les informations de poids variable ne sont pas affichées dans le journal de stock. Il est recommandé de vérifier les informations de poids variable avant de transférer la fusion de traitements par lots vers le journal de stock.
-
-
-
 

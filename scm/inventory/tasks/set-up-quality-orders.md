@@ -1,4 +1,4 @@
---- 
+---
 title: "Paramétrer les ordres de qualité"
 description: "Cette procédure décrit comment activer un processus de gestion de la qualité dans lequel le stock entrant doit être inspecté immédiatement après l'enregistrement des arrivées."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -142,5 +142,4 @@ Cette procédure décrit comment activer un processus de gestion de la qualité 
 15. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
 16. Cliquez sur Enregistrer.
 17. Fermez la page.
-
 

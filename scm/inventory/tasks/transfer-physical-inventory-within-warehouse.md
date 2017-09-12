@@ -1,4 +1,4 @@
---- 
+---
 title: "Transférer du stock physique au sein de l'entrepôt"
 description: "Cette procédure vous accompagne dans le processus de création et de validation d'un journal de transfert de stock en vue d'enregistrer le mouvement d'un article à partir d'un emplacement dans un entrepôt vers un autre."
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -67,5 +67,4 @@ Cette procédure vous accompagne dans le processus de création et de validation
 1. Cliquez sur Stock.
 2. Cliquez sur Transactions.
     * Ici vous pouvez afficher les transactions créées lorsque vous avez validé votre journal.  
-
 

@@ -1,4 +1,4 @@
---- 
+---
 title: "Définir les processus de comptage d'inventaire"
 description: "Cette procédure vous guide dans la configuration des processus de comptage d'inventaire basiques en créant un groupe de comptage et un journal d'inventaire."
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -84,5 +84,4 @@ Cette procédure vous guide dans la configuration des processus de comptage d'in
 7. Sélectionner un groupe de comptage dans la liste
     * Ici vous pouvez sélectionner un groupe de comptage spécifique devant être appliqué aux articles de l'entrepôt spécifique sélectionné. Lors du comptage dans cet entrepôt, cette stratégie de comptage remplace la stratégie de comptage générale pour l'article.  
 8. Cliquez sur Enregistrer.
-
 

@@ -1,4 +1,4 @@
---- 
+---
 title: "Modifier la propriété du stock de consignation en fonction de la demande de production"
 description: "Cette procédure indique comment faire passer le propriétaire du stock de consignation du fournisseur à votre entité juridique lorsqu'il existe une demande de stock en production."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -51,5 +51,4 @@ Cette procédure indique comment faire passer le propriétaire du stock de consi
     * Lorsque le journal est validé, le stock appartenant au fournisseur est libéré en utilisant une référence « Modification de propriété ». Le stock est ensuite reçu comme stock disponible à l'aide d'un mouvement de stock qui est mis à jour avec un accusé de réception de marchandises de la commande fournisseur. Notez que seules les transactions associées au journal validé sont créées. Aucun mouvement de stock prévu n'est créé.  
 2. Cliquez sur OK.
 3. Fermez la page.
-
 

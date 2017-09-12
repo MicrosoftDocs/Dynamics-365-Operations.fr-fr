@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventJournalBOM, InventJournalCount, InventJournalCountTag, InventJournalLossProfit, InventJournalMovement, InventJournalTransfer, WMSJournalTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 51631
 ms.assetid: 3fedeaaf-502f-483c-93d2-ab266828189e
@@ -33,7 +33,7 @@ ms.lasthandoff: 07/27/2017
 [!include[retail name](../includes/retail-name.md)]
 
 
-Cet article décrit la manière dont vous pouvez utiliser les journaux de stock pour valider différents types de transactions de stock physique. 
+Cet article décrit la manière dont vous pouvez utiliser les journaux de stock pour valider différents types de transactions de stock physique.
 
 Les journaux de stock de Microsoft Dynamics 365 for Finance and Operations permettent de valider les mouvements de stock physique de différents types, tels que la validation des sorties et des réceptions, les mouvements de stock, la création de nomenclatures et le rapprochement du stock physique. Tous ces journaux de stock sont utilisés de façon similaire, mais ils sont divisés en différents types.
 
@@ -95,7 +95,4 @@ Un journal n'est accessible que par un seul utilisateur à la fois. Si plusieurs
 
 ## <a name="posting-journal-lines"></a>Validation des lignes de journal
 Vous pouvez valider les lignes de journal que vous créez à tout moment jusqu'à ce que vous ayez verrouillé un article des transactions supplémentaires. Les données que vous entrez dans un journal y sont conservées, même si vous fermez le journal sans valider les lignes.
-
-
-
 

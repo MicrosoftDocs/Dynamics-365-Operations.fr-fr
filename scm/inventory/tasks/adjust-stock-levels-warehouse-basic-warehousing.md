@@ -1,4 +1,4 @@
---- 
+---
 title: "Ajuster les niveaux des stocks dans l'entrepôt (entreposage de base)"
 description: "Cette procédure vous accompagne au long du processus de création et de validation d'un journal d'ajustement du stock afin d'ajuster les niveaux de stock des produits dans l'entrepôt."
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -58,5 +58,4 @@ Cette procédure vous accompagne au long du processus de création et de validat
 4. Cliquez sur OK.
 5. Permet de fermer l'écran.
 6. Fermez la page.
-
 

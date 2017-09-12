@@ -1,4 +1,4 @@
---- 
+---
 title: "Initialiser les niveaux des stocks dans l'entrepôt"
 description: "Cette procédure décrit la manière dont vous obtenez le stock disponible mis à jour manuellement à l'aide du journal des mouvements de stock."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -58,5 +58,4 @@ Cette procédure décrit la manière dont vous obtenez le stock disponible mis �
 24. Cliquez sur OK.
 25. Fermez la page.
 26. Fermez la page.
-
 

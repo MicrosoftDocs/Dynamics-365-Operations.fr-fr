@@ -1,7 +1,7 @@
---- 
+---
 title: "Paramétrer un profil de vue d'ensemble des arrivées"
 description: "Cette tâche se concentre sur le paramétrage d'un profil de vue d'ensemble des arrivées."
-author: BibiSp
+author: perlynne
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -62,5 +62,4 @@ Cette tâche se concentre sur le paramétrage d'un profil de vue d'ensemble des 
     * Sélectionnez des lignes de réception à partir d'ordres de transfert.  
 17. Cliquez sur Enregistrer.
 18. Fermez la page.
-
 

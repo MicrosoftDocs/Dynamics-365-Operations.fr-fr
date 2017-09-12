@@ -1,4 +1,4 @@
---- 
+---
 title: "Vérifier la disponibilité du stock"
 description: "Cette procédure vous indique comment contrôler le stock physique disponible pour un article spécifique."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -67,5 +67,4 @@ Cette procédure vous indique comment contrôler le stock physique disponible po
 4. Cliquez sur Affichage des dimensions.
 5. Cliquez sur OK.
 6. Fermez la page.
-
 

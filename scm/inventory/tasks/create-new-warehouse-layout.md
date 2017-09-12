@@ -1,22 +1,27 @@
---- 
-# required metadata 
-title: Créer une structure d'entrepôt
-description: Cette procédure vous montre comment définir des informations sur les emplacements d'un entrepôt.
+---
+title: "Créer une structure d'entrepôt"
+description: "Cette procédure vous montre comment définir des informations sur les emplacements d'un entrepôt."
 author: perlynne
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
-ms.prod: null
+ms.prod: 
 ms.service: dynamics-ax-applications
-ms.technology: null
+ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
-ms.search.validFrom: '2016-06-30'
+ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.translationtype: HT
+ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
+ms.openlocfilehash: 15610bc797cf7e7abdec433d0a5cead60da7a555
+ms.contentlocale: fr-fr
+ms.lasthandoff: 07/27/2017
+
 ---
 # <a name="create-a-new-warehouse-layout"></a>Créer une structure d'entrepôt
 
@@ -44,7 +49,7 @@ Cette procédure vous montre comment définir des informations sur les emplaceme
 7. Activez ou désactivez l'extension de la section Noms d'emplacement.
     * Les options de cette section définissent le format par défaut pour les noms d'emplacement. Dans notre exemple, le numéro d'allée, le nombre de rayon et le nombre d'étagère sont inclus.  
 8. Définissez l'option Inclure allée sur Oui.
-9. Définissez l'option Inclure rayon sur Oui. 
+9. Définissez l'option Inclure rayon sur Oui.
 10. Tapez une valeur pour le rayon dans le champ Format.
     * Par exemple : -##  
 11. Définissez l'option Inclure étagère sur Oui.

@@ -1,4 +1,4 @@
---- 
+---
 title: "Inspecter la qualité des marchandises"
 description: "Cette procédure indique comment traiter un ordre de qualité."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -55,5 +55,4 @@ Cette procédure indique comment traiter un ordre de qualité. Vous pouvez exéc
 4. Cliquez sur Sélectionner.
 5. Cliquez sur OK.
 6. Fermez la page.
-
 

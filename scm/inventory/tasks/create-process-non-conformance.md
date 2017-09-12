@@ -1,4 +1,4 @@
---- 
+---
 title: "Créer et traiter une conformité"
 description: "Utilisez cette procédure pour effectuer la gestion de non-conformité, en fonction d'un ordre de qualité existant."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -27,7 +27,7 @@ ms.lasthandoff: 07/27/2017
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Utilisez cette procédure pour effectuer la gestion de non-conformité, en fonction d'un ordre de qualité existant. Vous pouvez exécuter cet enregistrement de la société de démonstration USMF et utiliser les valeurs suggérées. Généralement, cette procédure est réalisée par le commis à la qualité.  Comme préalable, exécutez l'enregistrement de la tâche « Inspecter la qualité des marchandises ». Pour traiter l'approbation d'une non-conformité, l'utilisateur qui exécute l'enregistrement de la tâche doit spécifier une valeur « Nom » affectée sur la page Utilisateurs. Pour utiliser les notes de document, l'utilisateur doit également avoir activé la gestion des documents dans les options d'utilisateur. 
+Utilisez cette procédure pour effectuer la gestion de non-conformité, en fonction d'un ordre de qualité existant. Vous pouvez exécuter cet enregistrement de la société de démonstration USMF et utiliser les valeurs suggérées. Généralement, cette procédure est réalisée par le commis à la qualité.  Comme préalable, exécutez l'enregistrement de la tâche « Inspecter la qualité des marchandises ». Pour traiter l'approbation d'une non-conformité, l'utilisateur qui exécute l'enregistrement de la tâche doit spécifier une valeur « Nom » affectée sur la page Utilisateurs. Pour utiliser les notes de document, l'utilisateur doit également avoir activé la gestion des documents dans les options d'utilisateur.
 
 
 ## <a name="select-a-quality-order"></a>Sélectionnez un ordre de qualité.
@@ -78,5 +78,4 @@ Utilisez cette procédure pour effectuer la gestion de non-conformité, en fonct
 3. Cliquez sur Oui.
 4. Fermez la page.
 5. Fermez la page.
-
 

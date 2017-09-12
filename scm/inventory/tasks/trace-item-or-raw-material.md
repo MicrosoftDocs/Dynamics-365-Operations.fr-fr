@@ -1,4 +1,4 @@
---- 
+---
 title: "Suivre un article ou une matière première"
 description: "Cette procédure illustre comment utiliser le suivi d'article pour identifier où les articles ou les matières premières ont été ou sont utilisés."
 author: pjacobse
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -54,5 +54,4 @@ Cette procédure illustre comment utiliser le suivi d'article pour identifier o�
 8. Dans le volet Actions, cliquez sur Suivi.
 9. Cliquez sur Commandes client non expédiées.
 10. Fermez la page.
-
 
