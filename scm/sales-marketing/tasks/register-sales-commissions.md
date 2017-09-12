@@ -16,61 +16,61 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: f1e22f15e98b563f7d2aae812aee3df1d454524c
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: f195f9e466eab3cf87afea2b5d430d0ea25c5a83
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="register-sales-commissions"></a>Enregistrer les commissions sur les ventes
+# <a name="register-sales-commissions"></a><span data-ttu-id="a1a18-103">Enregistrer les commissions sur les ventes</span><span class="sxs-lookup"><span data-stu-id="a1a18-103">Register sales commissions</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Cette procédure vous montre comment les commissions sur les ventes sont calculées et enregistrées. Vous pouvez exécuter cette procédure dans la société fictive de démonstration USMF ou utiliser vos propres données. Avant de lancer ce guide, exécutez le guide appelé « Configurer les règles de commission sur les ventes » pour vous assurer que vous disposez de tout le paramétrage nécessaire au calcul de la commission.
+<span data-ttu-id="a1a18-104">Cette procédure vous montre comment les commissions sur les ventes sont calculées et enregistrées.</span><span class="sxs-lookup"><span data-stu-id="a1a18-104">This procedure shows you how sales commissions are calculated and registered.</span></span> <span data-ttu-id="a1a18-105">Vous pouvez exécuter cette procédure dans la société fictive de démonstration USMF ou utiliser vos propres données.</span><span class="sxs-lookup"><span data-stu-id="a1a18-105">You can run this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="a1a18-106">Avant de lancer ce guide, exécutez le guide appelé « Configurer les règles de commission sur les ventes » pour vous assurer que vous disposez de tout le paramétrage nécessaire au calcul de la commission.</span><span class="sxs-lookup"><span data-stu-id="a1a18-106">Before starting this guide, run the guide called "Set up sales commission rules" to make sure that you have all the necessary commission calculation setup.</span></span>
 
-Prenez note des numéros de client et d'article que vous avez choisis pour le processus de commission et utilisez-les quand il vous sera demandé de créer une commande client dans ce guide.
+<span data-ttu-id="a1a18-107">Prenez note des numéros de client et d'article que vous avez choisis pour le processus de commission et utilisez-les quand il vous sera demandé de créer une commande client dans ce guide.</span><span class="sxs-lookup"><span data-stu-id="a1a18-107">Take note of the customer and item numbers that you have chosen for the commission process and use them when asked to create a sales order in this guide.</span></span>
 
 
-## <a name="invoice-a-sales-order-that-qualifies-a-salesperson-for-a-commission"></a>Facturer une commande client qui qualifie un commercial pour une commission
-1. Allez dans Ventes et marketing > Commandes client > Toutes les commandes client.
-2. Cliquez sur Nouveau.
-3. Dans le champ Compte client, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-4. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-5. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-6. Cliquez sur OK.
-7. Dans le volet Actions, cliquez sur Options.
-8. Cliquez sur Changer de vue.
-9. Cliquez sur Vue de l'en-tête.
-10. Développez la section Paramétrage.
-    * La valeur dans le champ Groupe de ventes représente un groupe avec un ou plusieurs commerciaux lui étant affectés. Les personnes du groupe sont celles qui reçoivent les commissions à la facturation de la commande, selon les taux prédéfinis et la répartition.   La valeur est copiée de la fiche client, mais vous pouvez la modifier si vous le souhaitez.  Le groupe de ventes est également copié dans la ligne de commande client. Vous pouvez le modifier de sorte qu'il diffère de celui de l'en-tête et/ou des lignes.  
-    * La valeur dans le champ Groupe de commissions représente un groupe que vous avez créé pour un ou plusieurs clients avec l'objectif de suivre les commissions.   La valeur est copiée de la fiche client, mais vous pouvez la modifier si vous le souhaitez.   
-11. Dans le volet Actions, cliquez sur Options.
-12. Cliquez sur Changer de vue.
-13. Cliquez sur Affichage des lignes.
-14. Dans le champ Numéro d'article, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-15. Dans la liste, sélectionnez l'article que vous avez paramétré pour des commissions. 
-16. Dans le champ Quantité, entrer un numéro.
-    * Prenez note du Montant HT de la ligne. Il représente le produit de la vente, qui dans cet exemple sert de base au calcul de la commission.  
-17. Cliquez sur Enregistrer.
-18. Dans le volet Actions, cliquez sur Facture.
-19. Cliquez sur Facture.
-20. Développez la section Paramètres.
-21. Sélectionnez « Tout » dans le champ Quantité.
-22. Sélectionnez Oui dans le champ Validation.
-23. Cliquez sur OK.
-24. Cliquez sur OK.
-    * La validation de la transaction peut prendre une minute environ. Laissez le traitement s'achever sans fermer la page.  
+## <a name="invoice-a-sales-order-that-qualifies-a-salesperson-for-a-commission"></a><span data-ttu-id="a1a18-108">Facturer une commande client qui qualifie un commercial pour une commission</span><span class="sxs-lookup"><span data-stu-id="a1a18-108">Invoice a sales order that qualifies a salesperson for a commission</span></span>
+1. <span data-ttu-id="a1a18-109">Allez dans Ventes et marketing > Commandes client > Toutes les commandes client.</span><span class="sxs-lookup"><span data-stu-id="a1a18-109">Go to Sales and marketing > Sales orders > All sales orders.</span></span>
+2. <span data-ttu-id="a1a18-110">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="a1a18-110">Click New.</span></span>
+3. <span data-ttu-id="a1a18-111">Dans le champ Compte client, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="a1a18-111">In the Customer account field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="a1a18-112">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="a1a18-112">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="a1a18-113">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="a1a18-113">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="a1a18-114">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="a1a18-114">Click OK.</span></span>
+7. <span data-ttu-id="a1a18-115">Dans le volet Actions, cliquez sur Options.</span><span class="sxs-lookup"><span data-stu-id="a1a18-115">On the Action Pane, click Options.</span></span>
+8. <span data-ttu-id="a1a18-116">Cliquez sur Changer de vue.</span><span class="sxs-lookup"><span data-stu-id="a1a18-116">Click Change view.</span></span>
+9. <span data-ttu-id="a1a18-117">Cliquez sur Vue de l'en-tête.</span><span class="sxs-lookup"><span data-stu-id="a1a18-117">Click Header view.</span></span>
+10. <span data-ttu-id="a1a18-118">Développez la section Paramétrage.</span><span class="sxs-lookup"><span data-stu-id="a1a18-118">Expand the Setup section.</span></span>
+    * <span data-ttu-id="a1a18-119">La valeur dans le champ Groupe de ventes représente un groupe avec un ou plusieurs commerciaux lui étant affectés.</span><span class="sxs-lookup"><span data-stu-id="a1a18-119">The value in the Sales group field represents a group with one or more sales representatives assigned to it.</span></span> <span data-ttu-id="a1a18-120">Les personnes du groupe sont celles qui reçoivent les commissions à la facturation de la commande, selon les taux prédéfinis et la répartition.</span><span class="sxs-lookup"><span data-stu-id="a1a18-120">The people in the group are the ones who will receive commissions when the order is invoiced, as per predefined rates and distribution.</span></span>   <span data-ttu-id="a1a18-121">La valeur est copiée de la fiche client, mais vous pouvez la modifier si vous le souhaitez.</span><span class="sxs-lookup"><span data-stu-id="a1a18-121">The value is copied from the Customer card, but you can change it if you wish.</span></span>  <span data-ttu-id="a1a18-122">Le groupe de ventes est également copié dans la ligne de commande client.</span><span class="sxs-lookup"><span data-stu-id="a1a18-122">The Sales group is also copied to the sales order line.</span></span> <span data-ttu-id="a1a18-123">Vous pouvez le modifier de sorte qu'il diffère de celui de l'en-tête et/ou des lignes.</span><span class="sxs-lookup"><span data-stu-id="a1a18-123">You can change it so that it can differ from the one in the header and/or between lines.</span></span>  
+    * <span data-ttu-id="a1a18-124">La valeur dans le champ Groupe de commissions représente un groupe que vous avez créé pour un ou plusieurs clients avec l'objectif de suivre les commissions.</span><span class="sxs-lookup"><span data-stu-id="a1a18-124">The value in the Commission group field represents a group that you have created for one or more customers with the purpose of tracking commissions.</span></span>   <span data-ttu-id="a1a18-125">La valeur est copiée de la fiche client, mais vous pouvez la modifier si vous le souhaitez.</span><span class="sxs-lookup"><span data-stu-id="a1a18-125">The value is copied from the Customer card, but you can change it if you wish.</span></span>   
+11. <span data-ttu-id="a1a18-126">Dans le volet Actions, cliquez sur Options.</span><span class="sxs-lookup"><span data-stu-id="a1a18-126">On the Action Pane, click Options.</span></span>
+12. <span data-ttu-id="a1a18-127">Cliquez sur Changer de vue.</span><span class="sxs-lookup"><span data-stu-id="a1a18-127">Click Change view.</span></span>
+13. <span data-ttu-id="a1a18-128">Cliquez sur Affichage des lignes.</span><span class="sxs-lookup"><span data-stu-id="a1a18-128">Click Line view.</span></span>
+14. <span data-ttu-id="a1a18-129">Dans le champ Numéro d'article, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="a1a18-129">In the Item number field, click the drop-down button to open the lookup.</span></span>
+15. <span data-ttu-id="a1a18-130">Dans la liste, sélectionnez l'article que vous avez paramétré pour des commissions.</span><span class="sxs-lookup"><span data-stu-id="a1a18-130">In the list, select the item you have set up for commissions.</span></span> 
+16. <span data-ttu-id="a1a18-131">Dans le champ Quantité, entrer un numéro.</span><span class="sxs-lookup"><span data-stu-id="a1a18-131">In the Quantity field, enter a number.</span></span>
+    * <span data-ttu-id="a1a18-132">Prenez note du Montant HT de la ligne.</span><span class="sxs-lookup"><span data-stu-id="a1a18-132">Take note of the line's Net amount.</span></span> <span data-ttu-id="a1a18-133">Il représente le produit de la vente, qui dans cet exemple sert de base au calcul de la commission.</span><span class="sxs-lookup"><span data-stu-id="a1a18-133">It represents the sales revenue, which in this example is the basis for commission calculation.</span></span>  
+17. <span data-ttu-id="a1a18-134">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="a1a18-134">Click Save.</span></span>
+18. <span data-ttu-id="a1a18-135">Dans le volet Actions, cliquez sur Facture.</span><span class="sxs-lookup"><span data-stu-id="a1a18-135">On the Action Pane, click Invoice.</span></span>
+19. <span data-ttu-id="a1a18-136">Cliquez sur Facture.</span><span class="sxs-lookup"><span data-stu-id="a1a18-136">Click Invoice.</span></span>
+20. <span data-ttu-id="a1a18-137">Développez la section Paramètres.</span><span class="sxs-lookup"><span data-stu-id="a1a18-137">Expand the Parameters section.</span></span>
+21. <span data-ttu-id="a1a18-138">Sélectionnez « Tout » dans le champ Quantité.</span><span class="sxs-lookup"><span data-stu-id="a1a18-138">In the Quantity field, select 'All'.</span></span>
+22. <span data-ttu-id="a1a18-139">Sélectionnez Oui dans le champ Validation.</span><span class="sxs-lookup"><span data-stu-id="a1a18-139">Select Yes in the Posting field.</span></span>
+23. <span data-ttu-id="a1a18-140">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="a1a18-140">Click OK.</span></span>
+24. <span data-ttu-id="a1a18-141">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="a1a18-141">Click OK.</span></span>
+    * <span data-ttu-id="a1a18-142">La validation de la transaction peut prendre une minute environ.</span><span class="sxs-lookup"><span data-stu-id="a1a18-142">It may take a minute or so to post the transaction.</span></span> <span data-ttu-id="a1a18-143">Laissez le traitement s'achever sans fermer la page.</span><span class="sxs-lookup"><span data-stu-id="a1a18-143">Allow the processing to complete and don’t close the page.</span></span>  
 
-## <a name="review-the-registered-sales-commissions"></a>Examiner les commissions sur les ventes enregistrées
-1. Dans le volet Actions, cliquez sur Facture.
-2. Cliquez sur Facture.
-3. Dans le volet Actions, cliquez sur Facture.
-4. Cliquez sur Transactions de commission.
-    * L'onglet Vue d'ensemble présente des lignes représentant les montants de commission à payer aux commerciaux associés à la commande client facturée. Examinons les détails.     
-    * Si vous avez utilisé le guide « Configurer les règles de commission sur les ventes » pour définir le groupe de commissions de vente, deux commerciaux vont recevoir une commission et celle-ci est divisée équitablement entre eux.  
-    * Dans cet exemple, le montant total de la commission est calculé comme un pourcentage du produit de la vente (montant HT de la ligne de commande).   
-5. Fermez la page.
-6. Cliquez Document.
-    * Vous pouvez examiner les transactions du N° document pour les montants de commission qui ont été validés dans les comptes prédéfinis de dépense et de commission à payer.  
+## <a name="review-the-registered-sales-commissions"></a><span data-ttu-id="a1a18-144">Examiner les commissions sur les ventes enregistrées</span><span class="sxs-lookup"><span data-stu-id="a1a18-144">Review the registered sales commissions</span></span>
+1. <span data-ttu-id="a1a18-145">Dans le volet Actions, cliquez sur Facture.</span><span class="sxs-lookup"><span data-stu-id="a1a18-145">On the Action Pane, click Invoice.</span></span>
+2. <span data-ttu-id="a1a18-146">Cliquez sur Facture.</span><span class="sxs-lookup"><span data-stu-id="a1a18-146">Click Invoice.</span></span>
+3. <span data-ttu-id="a1a18-147">Dans le volet Actions, cliquez sur Facture.</span><span class="sxs-lookup"><span data-stu-id="a1a18-147">On the Action Pane, click Invoice.</span></span>
+4. <span data-ttu-id="a1a18-148">Cliquez sur Transactions de commission.</span><span class="sxs-lookup"><span data-stu-id="a1a18-148">Click Commission transactions.</span></span>
+    * <span data-ttu-id="a1a18-149">L'onglet Vue d'ensemble présente des lignes représentant les montants de commission à payer aux commerciaux associés à la commande client facturée.</span><span class="sxs-lookup"><span data-stu-id="a1a18-149">The Overview tab displays lines representing the commission amounts payable to sales representatives who are associated with the invoiced sales order.</span></span> <span data-ttu-id="a1a18-150">Examinons les détails.</span><span class="sxs-lookup"><span data-stu-id="a1a18-150">Let's review the details.</span></span>     
+    * <span data-ttu-id="a1a18-151">Si vous avez utilisé le guide « Configurer les règles de commission sur les ventes » pour définir le groupe de commissions de vente, deux commerciaux vont recevoir une commission et celle-ci est divisée équitablement entre eux.</span><span class="sxs-lookup"><span data-stu-id="a1a18-151">If you used the "Set up sales commission rules" guide to set up the Commission sales group, there are two sales people to receive a sales commissions, and the commission is split equally between them.</span></span>  
+    * <span data-ttu-id="a1a18-152">Dans cet exemple, le montant total de la commission est calculé comme un pourcentage du produit de la vente (montant HT de la ligne de commande).</span><span class="sxs-lookup"><span data-stu-id="a1a18-152">In this example, the total amount of the commission is calculated as a percentage of the sales revenue (the net amount of order line).</span></span>   
+5. <span data-ttu-id="a1a18-153">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="a1a18-153">Close the page.</span></span>
+6. <span data-ttu-id="a1a18-154">Cliquez Document.</span><span class="sxs-lookup"><span data-stu-id="a1a18-154">Click Voucher.</span></span>
+    * <span data-ttu-id="a1a18-155">Vous pouvez examiner les transactions du N° document pour les montants de commission qui ont été validés dans les comptes prédéfinis de dépense et de commission à payer.</span><span class="sxs-lookup"><span data-stu-id="a1a18-155">You can review the voucher transactions for the commission amounts that have been posted to the predefined commission expense and commission payable accounts.</span></span>  
 
 

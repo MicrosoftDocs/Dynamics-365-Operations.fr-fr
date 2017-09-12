@@ -17,30 +17,30 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 9921a8d27312b2c94f39cef83c5fe02fc20ee042
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 326011807bfe673a7646ecdba18c647ba184ae2f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-purchase-agreement-classifications-in-the-public-sector"></a>Paramétrer les classifications de contrat d'achat dans le secteur public
+# <a name="set-up-purchase-agreement-classifications-in-the-public-sector"></a><span data-ttu-id="df9bb-103">Paramétrer les classifications de contrat d'achat dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="df9bb-103">Set up purchase agreement classifications in the public sector</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-La classification de contrat d'achat vous permet de contrôler les informations administratives disponibles dans les contrats d'achat. 
+<span data-ttu-id="df9bb-104">La classification de contrat d'achat vous permet de contrôler les informations administratives disponibles dans les contrats d'achat.</span><span class="sxs-lookup"><span data-stu-id="df9bb-104">The purchase agreement classification allows you to control the administrative information that is available on purchase agreements.</span></span> 
 
-Cette procédure a été créée pour le secteur public français, en utilisant les données de la société fictive PSUS dans la partition du secteur public.
+<span data-ttu-id="df9bb-105">Cette procédure a été créée pour le secteur public français, en utilisant les données de la société fictive PSUS dans la partition du secteur public.</span><span class="sxs-lookup"><span data-stu-id="df9bb-105">This procedure was created for the French public sector using the PSUS demo company data in the public sector partition.</span></span>
 
-1. Accédez à Approvisionnements > Paramétrage > .. > Classifications du contrat d'achat.
-2. Cliquez sur Nouveau.
-3. Tapez une valeur dans le champ Nom.
-4. Dans le champ Description, entrez une valeur.
-5. Facultatif : sélectionnez l'option Sous-traitants pour inclure des informations sur les sous-traitants.
-    * Un contrat d'achat peut avoir un fournisseur principal, des fournisseurs secondaires et des sous-traitants. Vous pouvez affecter le fournisseur principal au contrat d'achat parent et un fournisseur secondaire ou un sous-traitant à des contrats enfants spécifiques.  
-6. Facultatif : sélectionnez l'option Certifications pour inclure des informations sur les certifications des fournisseurs.
-    * Les informations de certification permettent de générer un état que vous pouvez utiliser pour vérifier que les fournisseurs répondent bien aux exigences en matière de certification.  
-7. Facultatif : sélectionnez l'option Exiger une facturation directe pour empêcher l'utilisation d'ordres de lancement.
-8. Facultatif : sélectionnez l'option Activités pour inclure des informations sur les tâches et les jalons.
-9. Cliquez sur Enregistrer.
+1. <span data-ttu-id="df9bb-106">Accédez à Approvisionnements > Paramétrage > ..</span><span class="sxs-lookup"><span data-stu-id="df9bb-106">Go to Procurement and sourcing > Setup > ..</span></span> <span data-ttu-id="df9bb-107">> Classifications du contrat d'achat.</span><span class="sxs-lookup"><span data-stu-id="df9bb-107">> Purchase agreement classification.</span></span>
+2. <span data-ttu-id="df9bb-108">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="df9bb-108">Click New.</span></span>
+3. <span data-ttu-id="df9bb-109">Tapez une valeur dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="df9bb-109">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="df9bb-110">Dans le champ Description, entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="df9bb-110">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="df9bb-111">Facultatif : sélectionnez l'option Sous-traitants pour inclure des informations sur les sous-traitants.</span><span class="sxs-lookup"><span data-stu-id="df9bb-111">Optional: Select the Subcontractors option to include information about subcontractors.</span></span>
+    * <span data-ttu-id="df9bb-112">Un contrat d'achat peut avoir un fournisseur principal, des fournisseurs secondaires et des sous-traitants.</span><span class="sxs-lookup"><span data-stu-id="df9bb-112">A purchase agreement can have a prime contractor, co-contractors, and subcontractors.</span></span> <span data-ttu-id="df9bb-113">Vous pouvez affecter le fournisseur principal au contrat d'achat parent et un fournisseur secondaire ou un sous-traitant à des contrats enfants spécifiques.</span><span class="sxs-lookup"><span data-stu-id="df9bb-113">You can assign the prime contractor to the parent purchase agreement and a co-contractor or subcontractor to specific child agreements.</span></span>  
+6. <span data-ttu-id="df9bb-114">Facultatif : sélectionnez l'option Certifications pour inclure des informations sur les certifications des fournisseurs.</span><span class="sxs-lookup"><span data-stu-id="df9bb-114">Optional: Select the Certifications option to include information about certifications for vendors.</span></span>
+    * <span data-ttu-id="df9bb-115">Les informations de certification permettent de générer un état que vous pouvez utiliser pour vérifier que les fournisseurs répondent bien aux exigences en matière de certification.</span><span class="sxs-lookup"><span data-stu-id="df9bb-115">Certification information can be used to generate a report that lets you monitor vendor compliance with certification requirements.</span></span>  
+7. <span data-ttu-id="df9bb-116">Facultatif : sélectionnez l'option Exiger une facturation directe pour empêcher l'utilisation d'ordres de lancement.</span><span class="sxs-lookup"><span data-stu-id="df9bb-116">Optional: Select the Require direct invoicing option to prevent the use of release orders.</span></span>
+8. <span data-ttu-id="df9bb-117">Facultatif : sélectionnez l'option Activités pour inclure des informations sur les tâches et les jalons.</span><span class="sxs-lookup"><span data-stu-id="df9bb-117">Optional: Select the Activities option to include information about tasks and milestones.</span></span>
+9. <span data-ttu-id="df9bb-118">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="df9bb-118">Click Save.</span></span>
 
 

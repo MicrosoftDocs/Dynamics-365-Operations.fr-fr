@@ -25,33 +25,33 @@ ms.lasthandoff: 08/09/2017
 
 ---
 
-# <a name="letters-of-credit"></a>Lettres de crédit
+# <a name="letters-of-credit"></a><span data-ttu-id="1fecc-103">Lettres de crédit</span><span class="sxs-lookup"><span data-stu-id="1fecc-103">Letters of credit</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Les lettres de crédit sont des documents bancaires fréquemment utilisés pour l'achat et la vente de biens au-delà des frontières internationales. 
+<span data-ttu-id="1fecc-104">Les lettres de crédit sont des documents bancaires fréquemment utilisés pour l'achat et la vente de biens au-delà des frontières internationales.</span><span class="sxs-lookup"><span data-stu-id="1fecc-104">Letters of credit are bank documents that are commonly used for the purchase and sale of goods across international borders.</span></span> 
 
-Les lettres de crédit sont utilisées dans le cadre des transactions internationales pour garantir l'exécution des paiements. Une lettre de crédit est un accord émis par une banque, dans lequel la banque accepte de garantir le paiement au nom de l'acheteur, si les conditions de l'accord entre l'acheteur et le vendeur sont satisfaites. Une lettre de crédit est également appelée crédit documentaire. 
+<span data-ttu-id="1fecc-105">Les lettres de crédit sont utilisées dans le cadre des transactions internationales pour garantir l'exécution des paiements.</span><span class="sxs-lookup"><span data-stu-id="1fecc-105">Letters of credit are used for international transactions to ensure that payments will be made.</span></span> <span data-ttu-id="1fecc-106">Une lettre de crédit est un accord émis par une banque, dans lequel la banque accepte de garantir le paiement au nom de l'acheteur, si les conditions de l'accord entre l'acheteur et le vendeur sont satisfaites.</span><span class="sxs-lookup"><span data-stu-id="1fecc-106">A letter of credit is an agreement that is issued by a bank, in which the bank agrees to ensure payment on behalf of the buyer, if the terms of the agreement between the buyer and seller are met.</span></span> <span data-ttu-id="1fecc-107">Une lettre de crédit est également appelée crédit documentaire.</span><span class="sxs-lookup"><span data-stu-id="1fecc-107">Note that a letter of credit is also referred to as a documentary credit (DC).</span></span> 
 
-Pour une lettre de crédit d'importation, l'entité juridique est l'acheteur ou le candidat de la lettre de crédit. Pour une lettre de crédit d'exportation, l'entité juridique est le vendeur ou le bénéficiaire de la lettre de crédit. Les parties suivantes sont impliquées dans une lettre de crédit : 
+<span data-ttu-id="1fecc-108">Pour une lettre de crédit d'importation, l'entité juridique est l'acheteur ou le candidat de la lettre de crédit.</span><span class="sxs-lookup"><span data-stu-id="1fecc-108">For an import letter of credit, the legal entity is the buyer or the applicant for the letter of credit.</span></span> <span data-ttu-id="1fecc-109">Pour une lettre de crédit d'exportation, l'entité juridique est le vendeur ou le bénéficiaire de la lettre de crédit.</span><span class="sxs-lookup"><span data-stu-id="1fecc-109">For an export letter of credit, the legal entity is the seller or the beneficiary of the letter of credit.</span></span> <span data-ttu-id="1fecc-110">Les parties suivantes sont impliquées dans une lettre de crédit :</span><span class="sxs-lookup"><span data-stu-id="1fecc-110">The following parties are involved with a letter of credit:</span></span> 
 
- - demandeur (acheteur) ayant l'intention de payer les biens ; 
- - bénéficiaire (vendeur) qui reçoit le paiement ;
- - banque émettrice qui émet la lettre de crédit ;
- - banque conseillère qui effectue la transaction au nom du demandeur.
+ - <span data-ttu-id="1fecc-111">demandeur (acheteur) ayant l'intention de payer les biens ;</span><span class="sxs-lookup"><span data-stu-id="1fecc-111">The applicant (buyer) who intends to pay for the goods</span></span> 
+ - <span data-ttu-id="1fecc-112">bénéficiaire (vendeur) qui reçoit le paiement ;</span><span class="sxs-lookup"><span data-stu-id="1fecc-112">The beneficiary (seller) who will receive the payment</span></span>
+ - <span data-ttu-id="1fecc-113">banque émettrice qui émet la lettre de crédit ;</span><span class="sxs-lookup"><span data-stu-id="1fecc-113">The issuing bank that issues the letter of credit</span></span>
+ - <span data-ttu-id="1fecc-114">banque conseillère qui effectue la transaction au nom du demandeur.</span><span class="sxs-lookup"><span data-stu-id="1fecc-114">The advising bank that carries out the transaction on behalf of the applicant</span></span>
 
-La lettre de crédit inclut une description des biens, les documents requis, la date d'expédition et la date d'expiration après laquelle le paiement ne sera pas effectué. La banque émettrice prélève une marge pour la lettre de crédit. 
+<span data-ttu-id="1fecc-115">La lettre de crédit inclut une description des biens, les documents requis, la date d'expédition et la date d'expiration après laquelle le paiement ne sera pas effectué.</span><span class="sxs-lookup"><span data-stu-id="1fecc-115">The letter of credit includes a description of the goods, any required documents, the date of shipment, and the expiration date after which payment will not be made.</span></span> <span data-ttu-id="1fecc-116">La banque émettrice prélève une marge pour la lettre de crédit.</span><span class="sxs-lookup"><span data-stu-id="1fecc-116">The issuing bank collects a margin for the letter of credit.</span></span> 
 
-Une lettre de crédit peut être révocable ou irrévocable. La nature d'une lettre de crédit peut être transférable, non transférable ou revolving. En général, une lettre de crédit est un accord irrévocable et confirmé qui garantit l'exécution du paiement à un bénéficiaire spécifique suite à l'envoi d'une documentation d'expédition complète et précise.
+<span data-ttu-id="1fecc-117">Une lettre de crédit peut être révocable ou irrévocable.</span><span class="sxs-lookup"><span data-stu-id="1fecc-117">A letter of credit can be revocable or irrevocable.</span></span> <span data-ttu-id="1fecc-118">La nature d'une lettre de crédit peut être transférable, non transférable ou revolving.</span><span class="sxs-lookup"><span data-stu-id="1fecc-118">The nature of a letter of credit can be transferable, non transferable, or revolving.</span></span> <span data-ttu-id="1fecc-119">En général, une lettre de crédit est un accord irrévocable et confirmé qui garantit l'exécution du paiement à un bénéficiaire spécifique suite à l'envoi d'une documentation d'expédition complète et précise.</span><span class="sxs-lookup"><span data-stu-id="1fecc-119">Typically, a letter of credit is an irrevocable and confirmed agreement that payment will be made to a specific beneficiary upon submission of complete and accurate shipping documentation.</span></span>
 
-Pour plus d'informations, voir les rubriques suivantes :
+<span data-ttu-id="1fecc-120">Pour plus d'informations, voir les rubriques suivantes :</span><span class="sxs-lookup"><span data-stu-id="1fecc-120">For more information, see the following topics:</span></span>
 
-[Importer une lettre de crédit](tasks/import-letter-credit.md)
+[<span data-ttu-id="1fecc-121">Importer une lettre de crédit</span><span class="sxs-lookup"><span data-stu-id="1fecc-121">Import a letter of credit</span></span>](tasks/import-letter-credit.md)
 
-[Exporter une lettre de crédit](tasks/export-letter-credit.md)
+[<span data-ttu-id="1fecc-122">Exporter une lettre de crédit</span><span class="sxs-lookup"><span data-stu-id="1fecc-122">Export a letter of credit</span></span>](tasks/export-letter-credit.md)
 
-[Créer un accord d'établissement bancaire pour une lettre de crédit](tasks/create-bank-facility-agreement-letter-credit.md)
+[<span data-ttu-id="1fecc-123">Créer un accord d'établissement bancaire pour une lettre de crédit</span><span class="sxs-lookup"><span data-stu-id="1fecc-123">Create a bank facility for a letter of credit</span></span>](tasks/create-bank-facility-agreement-letter-credit.md)
 
 
 

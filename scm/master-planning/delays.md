@@ -20,36 +20,36 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 84682e08da6da8928004c7971cd2c2a3725446c0
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 8db5c507fbc68e637dbbc4ef3311d1fbd298f24f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="delays"></a>Retards
+# <a name="delays"></a><span data-ttu-id="7d95f-104">Retards</span><span class="sxs-lookup"><span data-stu-id="7d95f-104">Delays</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Cet article fournit des informations sur les dates retardées de la planification. Une date retardée est une date d'échéance réaliste attribuée à une transaction si la date d'exécution la plus proche calculée par la planification est postérieure à la date demandée.
+<span data-ttu-id="7d95f-105">Cet article fournit des informations sur les dates retardées de la planification.</span><span class="sxs-lookup"><span data-stu-id="7d95f-105">This article provides information about delayed dates in master planning.</span></span> <span data-ttu-id="7d95f-106">Une date retardée est une date d'échéance réaliste attribuée à une transaction si la date d'exécution la plus proche calculée par la planification est postérieure à la date demandée.</span><span class="sxs-lookup"><span data-stu-id="7d95f-106">A delayed date is a realistic due date that a transaction receives if the earliest fulfillment date that master planning calculates is later than the requested date.</span></span>
 
-La planification peut calculer la date d'exécution la plus proche pour une transaction, en fonction des délais, de la disponibilité des matières, de la disponibilité de la capacité et de divers paramètres de planification. 
+<span data-ttu-id="7d95f-107">La planification peut calculer la date d'exécution la plus proche pour une transaction, en fonction des délais, de la disponibilité des matières, de la disponibilité de la capacité et de divers paramètres de planification.</span><span class="sxs-lookup"><span data-stu-id="7d95f-107">Master planning can calculate the earliest fulfillment date for a transaction, based on lead times, material availability, capacity availability, and various planning parameters.</span></span> 
 
-Si la planification calcule une date de commande qui précède la date du jour, la commande ne peut pas être exécutée à temps. Par conséquent, la commande est retardée. Dans ce cas, la planification jalonne la commande en aval à partir de la date actuelle et inclut des délais. Ces délais débutent avec chaque composant de niveau inférieur. La commande reçoit ensuite une date différée. Une date différée est une date d'échéance réaliste basée sur les données actuelles. La planification calcule également le nombre de jours de retard. 
+<span data-ttu-id="7d95f-108">Si la planification calcule une date de commande qui précède la date du jour, la commande ne peut pas être exécutée à temps.</span><span class="sxs-lookup"><span data-stu-id="7d95f-108">If master planning calculates an order date that precedes the current date, the order can't be fulfilled on time.</span></span> <span data-ttu-id="7d95f-109">Par conséquent, la commande est retardée.</span><span class="sxs-lookup"><span data-stu-id="7d95f-109">Therefore, the order is delayed.</span></span> <span data-ttu-id="7d95f-110">Dans ce cas, la planification jalonne la commande en aval à partir de la date actuelle et inclut des délais.</span><span class="sxs-lookup"><span data-stu-id="7d95f-110">In this case, master planning forward-plans the order from the current date and includes lead times.</span></span> <span data-ttu-id="7d95f-111">Ces délais débutent avec chaque composant de niveau inférieur.</span><span class="sxs-lookup"><span data-stu-id="7d95f-111">These lead times start with any lower-level component items.</span></span> <span data-ttu-id="7d95f-112">La commande reçoit ensuite une date différée.</span><span class="sxs-lookup"><span data-stu-id="7d95f-112">The order then receives a delayed date.</span></span> <span data-ttu-id="7d95f-113">Une date différée est une date d'échéance réaliste basée sur les données actuelles.</span><span class="sxs-lookup"><span data-stu-id="7d95f-113">A delayed date is a realistic due date, based on the current data.</span></span> <span data-ttu-id="7d95f-114">La planification calcule également le nombre de jours de retard.</span><span class="sxs-lookup"><span data-stu-id="7d95f-114">Master planning also calculates the number of delay days.</span></span> 
 
-Dans certains cas, vous pouvez choisir de ne pas calculer les retards, par exemple lorsque les utilisateurs savent qu'ils peuvent accélérer les délais en sélectionnant d'autres modes de livraison. 
+<span data-ttu-id="7d95f-115">Dans certains cas, vous pouvez choisir de ne pas calculer les retards, par exemple lorsque les utilisateurs savent qu'ils peuvent accélérer les délais en sélectionnant d'autres modes de livraison.</span><span class="sxs-lookup"><span data-stu-id="7d95f-115">In some situations, you might choose not to calculate delays, such as when users know that they can expedite lead times by selecting alternative modes of delivery.</span></span> 
 
-Vous pouvez configurer la manière dont les retards sont calculés pour un groupe de couverture. Vous pouvez ensuite lier le groupe de couverture à un article ultérieurement. 
+<span data-ttu-id="7d95f-116">Vous pouvez configurer la manière dont les retards sont calculés pour un groupe de couverture.</span><span class="sxs-lookup"><span data-stu-id="7d95f-116">You can configure how delays are calculated for a coverage group.</span></span> <span data-ttu-id="7d95f-117">Vous pouvez ensuite lier le groupe de couverture à un article ultérieurement.</span><span class="sxs-lookup"><span data-stu-id="7d95f-117">You can then attach the coverage group to an item later.</span></span> 
 
-Dans la page **Paramètres de planification**, vous pouvez définir l'heure de début pour le calcul des retards. Si une commande est exécutée après cette heure, un retard d'une journée est ajouté à la date de retard de la commande. 
+<span data-ttu-id="7d95f-118">Dans la page **Paramètres de planification**, vous pouvez définir l'heure de début pour le calcul des retards.</span><span class="sxs-lookup"><span data-stu-id="7d95f-118">On the **Master planning parameters** page, you can set the start time for the calculation of delays.</span></span> <span data-ttu-id="7d95f-119">Si une commande est exécutée après cette heure, un retard d'une journée est ajouté à la date de retard de la commande.</span><span class="sxs-lookup"><span data-stu-id="7d95f-119">If an order is fulfilled after this time, a delay of one day is added to the delay date of the order.</span></span> 
 
-**Remarque :** Dans les versions précédentes, les retards calculés étaient appelés *messages de perspectives*, la date différée était appelée *date au plus tôt*, et une transaction différée était appelée *transaction définie dans le futur*.
+<span data-ttu-id="7d95f-120">**Remarque :** Dans les versions précédentes, les retards calculés étaient appelés *messages de perspectives*, la date différée était appelée *date au plus tôt*, et une transaction différée était appelée *transaction définie dans le futur*.</span><span class="sxs-lookup"><span data-stu-id="7d95f-120">**Note:** In earlier versions, calculated delays were known as *futures messages*, the delayed date was known as the *futures date*, and a delayed transaction was referred to as *a transaction that was future set*.</span></span>
 
-<a name="see-also"></a>Voir également :
+<a name="see-also"></a><span data-ttu-id="7d95f-121">Voir également :</span><span class="sxs-lookup"><span data-stu-id="7d95f-121">See also</span></span>
 --------
 
-[Paramètres de couverture](coverage-settings.md)
+[<span data-ttu-id="7d95f-122">Paramètres de couverture</span><span class="sxs-lookup"><span data-stu-id="7d95f-122">Coverage settings</span></span>](coverage-settings.md)
 
 
 

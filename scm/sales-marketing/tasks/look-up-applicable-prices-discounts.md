@@ -16,48 +16,48 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: ecfe2ad4dbba74cb067628b63abaf780bcf0680e
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: f372db3d2e358cde6a5e65b01f4dc499c69fe022
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="look-up-applicable-prices-and-discounts"></a>Rechercher les prix et remises applicables
+# <a name="look-up-applicable-prices-and-discounts"></a><span data-ttu-id="bef6d-103">Rechercher les prix et remises applicables</span><span class="sxs-lookup"><span data-stu-id="bef6d-103">Look up applicable prices and discounts</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Cette procédure décrit comment rechercher le prix ou la remise pour un produit qui est actuellement valide pour un client spécifique, sans créer de commande client. La procédure décrit un exemple spécifique et vous devez suivre l'exemple à l'aide de la société de démonstration USMF afin de sélectionner les valeurs nécessaires.
+<span data-ttu-id="bef6d-104">Cette procédure décrit comment rechercher le prix ou la remise pour un produit qui est actuellement valide pour un client spécifique, sans créer de commande client.</span><span class="sxs-lookup"><span data-stu-id="bef6d-104">This procedure shows how to find the price and/or discount for a product which is currently valid for a specific customer, without creating a sales order.</span></span> <span data-ttu-id="bef6d-105">La procédure décrit un exemple spécifique et vous devez suivre l'exemple à l'aide de la société de démonstration USMF afin de sélectionner les valeurs nécessaires.</span><span class="sxs-lookup"><span data-stu-id="bef6d-105">The procedure walks through a specific example, and you need follow the example using the USMF demo company in order to select the necessary values.</span></span>
 
 
-## <a name="find-the-applicable-price"></a>Rechercher le prix applicable
-1. Accédez à Ventes et marketing > Prix et remises > Rechercher des prix.
-2. Dans le champ Compte client, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-3. Dans la liste, recherchez et sélectionnez le client US-001.
-4. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-5. Entrez « T0004 » dans le champ Numéro d'article.
-    * Par défaut, le champ Quantité est défini sur 1. Toutefois, si vous connaissez la taille de la commande que le client a l'intention de passer pour le produit en question, entrez cette valeur à la place. Ces informations sont pertinentes si les accords commerciaux avec le client sont soumis à la quantité (en d'autres termes, que le prix du produit dépend de la quantité minimale achetée).  
-6. Dans le champ Date, entrez la date à laquelle le client compte passer une commande. 
-    * La date peut être celle d'aujourd'hui ou n'importe quelle date ultérieure.  
-    * Le système renvoie désormais le prix qui est valide pour le produit sélectionné une fois acheté par le client sélectionné à la date sélectionnée avec une quantité spécifiée. Dans cet exemple, si le client US-001 achetait 1 unités du produit T0004 aujourd'hui, il paierait 350 CAD l'unité. Ce prix provient d'un accord commercial existant et actif passé avec le client.      D'autres champs de la page fournissent plus de détails sur le prix et le coût du produit (si le paramétrage a été effectué sur le produit générique), ainsi que sur la rentabilité calculée.  
-    * Si l'option Afficher les variantes de produits associées est activée, cela signifie qu'il existe des accords commerciaux supplémentaires pour les variantes du produit.  
-7. Cliquez sur la case à cocher Afficher les variantes de produits associées.
-    * La liste des variantes de produit s'affiche, avec des informations sur les dimensions.  
-8. Dans la liste, marquez la ligne représentant la couleur Blanc.
-    * Notez que le prix du produit est désormais différent de celui précédemment affiché lorsqu'il n'était pas spécifié par dimension.  
-9. Cliquez sur Afficher les prix de vente.
-    * La page Prix (ventes) affiche tous les accords commerciaux applicables au produit, y compris ses variantes.  
-10. Fermez la page.
+## <a name="find-the-applicable-price"></a><span data-ttu-id="bef6d-106">Rechercher le prix applicable</span><span class="sxs-lookup"><span data-stu-id="bef6d-106">Find the applicable price</span></span>
+1. <span data-ttu-id="bef6d-107">Accédez à Ventes et marketing > Prix et remises > Rechercher des prix.</span><span class="sxs-lookup"><span data-stu-id="bef6d-107">Go to Sales and marketing > Prices and discounts > Find prices.</span></span>
+2. <span data-ttu-id="bef6d-108">Dans le champ Compte client, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="bef6d-108">In the Customer account field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="bef6d-109">Dans la liste, recherchez et sélectionnez le client US-001.</span><span class="sxs-lookup"><span data-stu-id="bef6d-109">In the list, find and select customer US-001.</span></span>
+4. <span data-ttu-id="bef6d-110">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="bef6d-110">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="bef6d-111">Entrez « T0004 » dans le champ Numéro d'article.</span><span class="sxs-lookup"><span data-stu-id="bef6d-111">In the Item number field, type 'T0004'.</span></span>
+    * <span data-ttu-id="bef6d-112">Par défaut, le champ Quantité est défini sur 1.</span><span class="sxs-lookup"><span data-stu-id="bef6d-112">By default, the Quantity field is set to 1.</span></span> <span data-ttu-id="bef6d-113">Toutefois, si vous connaissez la taille de la commande que le client a l'intention de passer pour le produit en question, entrez cette valeur à la place.</span><span class="sxs-lookup"><span data-stu-id="bef6d-113">However, if you know the size of the order that the customer intends to place for the product in question, then enter this value instead.</span></span> <span data-ttu-id="bef6d-114">Ces informations sont pertinentes si les accords commerciaux avec le client sont soumis à la quantité (en d'autres termes, que le prix du produit dépend de la quantité minimale achetée).</span><span class="sxs-lookup"><span data-stu-id="bef6d-114">This information is relevant if the trade agreements with the customer have quantity breaks, that is, the product's price depends on the minimum quantity purchased.</span></span>  
+6. <span data-ttu-id="bef6d-115">Dans le champ Date, entrez la date à laquelle le client compte passer une commande.</span><span class="sxs-lookup"><span data-stu-id="bef6d-115">In the Date field, enter a date for when the customer expects to place an order.</span></span> 
+    * <span data-ttu-id="bef6d-116">La date peut être celle d'aujourd'hui ou n'importe quelle date ultérieure.</span><span class="sxs-lookup"><span data-stu-id="bef6d-116">The date can be today's date or any date in the future.</span></span>  
+    * <span data-ttu-id="bef6d-117">Le système renvoie désormais le prix qui est valide pour le produit sélectionné une fois acheté par le client sélectionné à la date sélectionnée avec une quantité spécifiée.</span><span class="sxs-lookup"><span data-stu-id="bef6d-117">The system now returns the price that is valid for the selected product when bought by the selected customer on the selected date with a specified quantity.</span></span> <span data-ttu-id="bef6d-118">Dans cet exemple, si le client US-001 achetait 1 unités du produit T0004 aujourd'hui, il paierait 350 CAD l'unité.</span><span class="sxs-lookup"><span data-stu-id="bef6d-118">In this example, if the customer US-001 bought 1 unit of product T0004 today, they would be charged 350 CAD a unit.</span></span> <span data-ttu-id="bef6d-119">Ce prix provient d'un accord commercial existant et actif passé avec le client.</span><span class="sxs-lookup"><span data-stu-id="bef6d-119">This price comes from an existing and active trade agreement with the customer.</span></span>      <span data-ttu-id="bef6d-120">D'autres champs de la page fournissent plus de détails sur le prix et le coût du produit (si le paramétrage a été effectué sur le produit générique), ainsi que sur la rentabilité calculée.</span><span class="sxs-lookup"><span data-stu-id="bef6d-120">Other fields on the page provide more details about the product price and product cost (if set up on the product master), and calculated profitability.</span></span>  
+    * <span data-ttu-id="bef6d-121">Si l'option Afficher les variantes de produits associées est activée, cela signifie qu'il existe des accords commerciaux supplémentaires pour les variantes du produit.</span><span class="sxs-lookup"><span data-stu-id="bef6d-121">If the Show related product variants option is selected, it means that there are additional trade agreements for product's variants.</span></span>  
+7. <span data-ttu-id="bef6d-122">Cliquez sur la case à cocher Afficher les variantes de produits associées.</span><span class="sxs-lookup"><span data-stu-id="bef6d-122">Click the Show related product variants checkbox.</span></span>
+    * <span data-ttu-id="bef6d-123">La liste des variantes de produit s'affiche, avec des informations sur les dimensions.</span><span class="sxs-lookup"><span data-stu-id="bef6d-123">A list of the product variants is shown, with information about their dimensions.</span></span>  
+8. <span data-ttu-id="bef6d-124">Dans la liste, marquez la ligne représentant la couleur Blanc.</span><span class="sxs-lookup"><span data-stu-id="bef6d-124">In the list, mark the line representing colour White.</span></span>
+    * <span data-ttu-id="bef6d-125">Notez que le prix du produit est désormais différent de celui précédemment affiché lorsqu'il n'était pas spécifié par dimension.</span><span class="sxs-lookup"><span data-stu-id="bef6d-125">Notice, that the product price is now different from the one displayed previously when it was not specified per dimension.</span></span>  
+9. <span data-ttu-id="bef6d-126">Cliquez sur Afficher les prix de vente.</span><span class="sxs-lookup"><span data-stu-id="bef6d-126">Click View sales prices.</span></span>
+    * <span data-ttu-id="bef6d-127">La page Prix (ventes) affiche tous les accords commerciaux applicables au produit, y compris ses variantes.</span><span class="sxs-lookup"><span data-stu-id="bef6d-127">The Price (sales) page displays all the trade agreements applicable to the product, including its variants.</span></span>  
+10. <span data-ttu-id="bef6d-128">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="bef6d-128">Close the page.</span></span>
 
-## <a name="find-the-applicable-discount"></a>Rechercher la remise applicable
-    * Vérifiez que le champ Compte client contient le numéro de client US-001    
-1. Entrez « T0012 » dans le champ Numéro d'article.
-    * Veillez à ce que le champ Quantité soit défini sur 1.  
-    * Les informations suivantes de tarification indiqués pour le produit T0012 proviennent d'un ou plusieurs accords commerciaux : le prix unitaire est de 1 000 CAD et le pourcentage de remise est de 5.  
-2. Définir la Quantité sur « 20 ».
-    * La quantité de commande augmentée entraîne le passage de la remises ligne offerte au client de 5 à 7 %.  
-    * Le Montant net est calculé sur le prix unitaire, la remise et la quantité totale.  
-3. Cliquez sur Afficher la remise ligne.
-    * Il existe deux accords de remise de ligne pour le produit T0012, spécifiant une remise de 5 % pour une quantité de ligne de commande de 1 à 10 et de 7 % pour les quantités de commande au-dessus de 10. Notez que les remises sont appliquées à un groupe de produits, dans cet exemple, le code du groupe 01 auquel le produit T0012 appartient.  
-4. Fermez la page.
+## <a name="find-the-applicable-discount"></a><span data-ttu-id="bef6d-129">Rechercher la remise applicable</span><span class="sxs-lookup"><span data-stu-id="bef6d-129">Find the applicable discount</span></span>
+    * <span data-ttu-id="bef6d-130">Vérifiez que le champ Compte client contient le numéro de client US-001 </span><span class="sxs-lookup"><span data-stu-id="bef6d-130">Make sure the Customer account field contains customer number US-001</span></span>   
+1. <span data-ttu-id="bef6d-131">Entrez « T0012 » dans le champ Numéro d'article.</span><span class="sxs-lookup"><span data-stu-id="bef6d-131">In the Item number field, type 'T0012'.</span></span>
+    * <span data-ttu-id="bef6d-132">Veillez à ce que le champ Quantité soit défini sur 1.</span><span class="sxs-lookup"><span data-stu-id="bef6d-132">Make sure the Quantity field is set to 1.</span></span>  
+    * <span data-ttu-id="bef6d-133">Les informations suivantes de tarification indiqués pour le produit T0012 proviennent d'un ou plusieurs accords commerciaux : le prix unitaire est de 1 000 CAD et le pourcentage de remise est de 5.</span><span class="sxs-lookup"><span data-stu-id="bef6d-133">The following pricing details shown for product T0012 come from one or more trade agreements: The unit price is 1,000 CAD and the discount percentage is 5.</span></span>  
+2. <span data-ttu-id="bef6d-134">Définir la Quantité sur « 20 ».</span><span class="sxs-lookup"><span data-stu-id="bef6d-134">Set Quantity to '20'.</span></span>
+    * <span data-ttu-id="bef6d-135">La quantité de commande augmentée entraîne le passage de la remises ligne offerte au client de 5 à 7 %.</span><span class="sxs-lookup"><span data-stu-id="bef6d-135">The increased order quantity causes the line discount that will be offered to the customer to change from 5 to 7 percent.</span></span>  
+    * <span data-ttu-id="bef6d-136">Le Montant net est calculé sur le prix unitaire, la remise et la quantité totale.</span><span class="sxs-lookup"><span data-stu-id="bef6d-136">The Net amount is calculated based on the unit price, discount and the total quantity.</span></span>  
+3. <span data-ttu-id="bef6d-137">Cliquez sur Afficher la remise ligne.</span><span class="sxs-lookup"><span data-stu-id="bef6d-137">Click View line discount.</span></span>
+    * <span data-ttu-id="bef6d-138">Il existe deux accords de remise de ligne pour le produit T0012, spécifiant une remise de 5 % pour une quantité de ligne de commande de 1 à 10 et de 7 % pour les quantités de commande au-dessus de 10.</span><span class="sxs-lookup"><span data-stu-id="bef6d-138">There are two line discount agreements for product T0012, specifying a 5 percent discount for an order line quantity from 1 to 10, and 7 percent discount for order quantities above 10.</span></span> <span data-ttu-id="bef6d-139">Notez que les remises sont appliquées à un groupe de produits, dans cet exemple, le code du groupe 01 auquel le produit T0012 appartient.</span><span class="sxs-lookup"><span data-stu-id="bef6d-139">Note that the discounts are applied to a group of products, in this example, Group code 01, of which product T0012 is a member.</span></span>  
+4. <span data-ttu-id="bef6d-140">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="bef6d-140">Close the page.</span></span>
 
 

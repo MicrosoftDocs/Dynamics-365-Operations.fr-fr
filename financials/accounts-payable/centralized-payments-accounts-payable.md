@@ -19,285 +19,285 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 23541bb2d82b552cdc9e0ada4aa4ec473f498d0b
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 49d5242168cd43e78dd4b0c63da363f91f680904
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="centralized-payments-for-accounts-payable"></a>Paiements centralisés pour la comptabilité fournisseur
+# <a name="centralized-payments-for-accounts-payable"></a><span data-ttu-id="70453-105">Paiements centralisés pour la comptabilité fournisseur</span><span class="sxs-lookup"><span data-stu-id="70453-105">Centralized payments for Accounts payable</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Les organisations qui comprennent plusieurs entités juridiques peuvent créer et gérer des paiements à l'aide d'une entité juridique unique qui assure la gestion de tous les paiements. Par conséquent, il n'est pas nécessaire d'entrer les mêmes paiements dans plusieurs entités juridiques. Cet article fournit des exemples décrivant la manière dont la validation des paiements centralisés est gérée dans divers scénarios.
+<span data-ttu-id="70453-106">Les organisations qui comprennent plusieurs entités juridiques peuvent créer et gérer des paiements à l'aide d'une entité juridique unique qui assure la gestion de tous les paiements.</span><span class="sxs-lookup"><span data-stu-id="70453-106">Organizations that include multiple legal entities can create and manage payments by using a single legal entity that handles all payments.</span></span> <span data-ttu-id="70453-107">Par conséquent, il n'est pas nécessaire d'entrer les mêmes paiements dans plusieurs entités juridiques.</span><span class="sxs-lookup"><span data-stu-id="70453-107">Therefore, the same payments don't have to be entered in multiple legal entities.</span></span> <span data-ttu-id="70453-108">Cet article fournit des exemples décrivant la manière dont la validation des paiements centralisés est gérée dans divers scénarios.</span><span class="sxs-lookup"><span data-stu-id="70453-108">This article provides examples that show how posting for centralized payments is handled in various scenarios.</span></span>
 
-Les organisations qui comprennent plusieurs entités juridiques peuvent créer et gérer des paiements à l'aide d'une entité juridique qui assure la gestion de tous les paiements. Par conséquent, il n'est pas nécessaire d'entrer les mêmes paiements dans plusieurs entités juridiques. En outre, l'organisation gagne du temps, car le processus de paiement est simplifié.
+<span data-ttu-id="70453-109">Les organisations qui comprennent plusieurs entités juridiques peuvent créer et gérer des paiements à l'aide d'une entité juridique qui assure la gestion de tous les paiements.</span><span class="sxs-lookup"><span data-stu-id="70453-109">Organizations that include multiple legal entities can create and manage payments by using a legal entity that handles all payments.</span></span> <span data-ttu-id="70453-110">Par conséquent, il n'est pas nécessaire d'entrer les mêmes paiements dans plusieurs entités juridiques.</span><span class="sxs-lookup"><span data-stu-id="70453-110">Therefore, the same payments don't have to be entered in multiple legal entities.</span></span> <span data-ttu-id="70453-111">En outre, l'organisation gagne du temps, car le processus de paiement est simplifié.</span><span class="sxs-lookup"><span data-stu-id="70453-111">Additionally, the organization saves time, because the payment process is streamlined.</span></span>
 
-Dans une organisation de paiements centralisés, il existe de nombreuses entités juridiques pour les opérations, et chaque entité juridique gère ses propres factures fournisseur. Les paiements pour toutes les entités juridiques en opération sont générés à partir d'une seule entité juridique appelée entité juridique du paiement. Au cours du processus de règlement, les transactions vostro et nostro applicables sont générées. Vous pouvez spécifier l'entité juridique de l'organisation qui reçoit les transactions de profits réalisés ou de pertes réalisées et la façon dont les transactions d'escompte de règlement associées à un paiement intersociétés sont gérées. 
+<span data-ttu-id="70453-112">Dans une organisation de paiements centralisés, il existe de nombreuses entités juridiques pour les opérations, et chaque entité juridique gère ses propres factures fournisseur.</span><span class="sxs-lookup"><span data-stu-id="70453-112">In a centralized payments organization, there are many legal entities for operations, and each operating legal entity manages its own vendor invoices.</span></span> <span data-ttu-id="70453-113">Les paiements pour toutes les entités juridiques en opération sont générés à partir d'une seule entité juridique appelée entité juridique du paiement.</span><span class="sxs-lookup"><span data-stu-id="70453-113">Payments for all the operating legal entities are generated from a single legal entity, which is known as the legal entity of the payment.</span></span> <span data-ttu-id="70453-114">Au cours du processus de règlement, les transactions vostro et nostro applicables sont générées.</span><span class="sxs-lookup"><span data-stu-id="70453-114">During the settlement process, the applicable due-to and due-from transactions are generated.</span></span> <span data-ttu-id="70453-115">Vous pouvez spécifier l'entité juridique de l'organisation qui reçoit les transactions de profits réalisés ou de pertes réalisées et la façon dont les transactions d'escompte de règlement associées à un paiement intersociétés sont gérées.</span><span class="sxs-lookup"><span data-stu-id="70453-115">You can specify which legal entity in the organization receives the realized gain or realized loss transactions, and how cash discount transactions that are related to a cross-company payment are handled.</span></span> 
 
-Les exemples suivants montrent comment la validation est gérée dans différents scénarios. La configuration suivante est supposée pour tous ces exemples :
+<span data-ttu-id="70453-116">Les exemples suivants montrent comment la validation est gérée dans différents scénarios.</span><span class="sxs-lookup"><span data-stu-id="70453-116">The following examples illustrate how posting is handled in various scenarios.</span></span> <span data-ttu-id="70453-117">La configuration suivante est supposée pour tous ces exemples :</span><span class="sxs-lookup"><span data-stu-id="70453-117">The following configuration is assumed for all these examples:</span></span>
 
--   Les entités juridiques sont Fabrikam, Fabrikam East et Fabrikam West. Les paiements sont effectués à partir de Fabrikam.
--   Le champ **Valider l'escompte de règlement** de la page **Comptabilité intersociétés** est défini sur **Entité juridique de la facture**.
--   Le champ **Valider le bénéfice ou la perte du taux de change** de la page **Comptabilité intersociétés** est défini sur **Entité juridique du paiement**.
--   Le fournisseur Fourth Coffee est paramétré en tant que fournisseur dans chaque entité juridique. Les fournisseurs des différentes entités juridiques sont identifiés comme étant le même fournisseur, car ils partagent le même ID de carnet d'adresses global.
+-   <span data-ttu-id="70453-118">Les entités juridiques sont Fabrikam, Fabrikam East et Fabrikam West.</span><span class="sxs-lookup"><span data-stu-id="70453-118">The legal entities are Fabrikam, Fabrikam East, and Fabrikam West.</span></span> <span data-ttu-id="70453-119">Les paiements sont effectués à partir de Fabrikam.</span><span class="sxs-lookup"><span data-stu-id="70453-119">Payments are made from Fabrikam.</span></span>
+-   <span data-ttu-id="70453-120">Le champ **Valider l'escompte de règlement** de la page **Comptabilité intersociétés** est défini sur **Entité juridique de la facture**.</span><span class="sxs-lookup"><span data-stu-id="70453-120">The **Post cash discount** field on the **Intercompany accounting** page is set to **Legal entity of the invoice**.</span></span>
+-   <span data-ttu-id="70453-121">Le champ **Valider le bénéfice ou la perte du taux de change** de la page **Comptabilité intersociétés** est défini sur **Entité juridique du paiement**.</span><span class="sxs-lookup"><span data-stu-id="70453-121">The **Post currency exchange gain or loss** field on the **Intercompany accounting** page is set to **Legal entity of the payment**.</span></span>
+-   <span data-ttu-id="70453-122">Le fournisseur Fourth Coffee est paramétré en tant que fournisseur dans chaque entité juridique.</span><span class="sxs-lookup"><span data-stu-id="70453-122">The vendor Fourth Coffee is set up as a vendor in each legal entity.</span></span> <span data-ttu-id="70453-123">Les fournisseurs des différentes entités juridiques sont identifiés comme étant le même fournisseur, car ils partagent le même ID de carnet d'adresses global.</span><span class="sxs-lookup"><span data-stu-id="70453-123">The vendors from the various legal entities are identified as the same vendor because they share the same global address book ID.</span></span>
 
-| ID registre | Compte fournisseur | Nom          | Entité juridique  |
+| <span data-ttu-id="70453-124">ID registre</span><span class="sxs-lookup"><span data-stu-id="70453-124">Directory ID</span></span> | <span data-ttu-id="70453-125">Compte fournisseur</span><span class="sxs-lookup"><span data-stu-id="70453-125">Vendor account</span></span> | <span data-ttu-id="70453-126">Nom</span><span class="sxs-lookup"><span data-stu-id="70453-126">Name</span></span>          | <span data-ttu-id="70453-127">Entité juridique</span><span class="sxs-lookup"><span data-stu-id="70453-127">Legal entity</span></span>  |
 |--------------|----------------|---------------|---------------|
-| 1050         | 3004           | Fourth Coffee | Fabrikam      |
-| 1050         | 100            | Fourth Coffee | Fabrikam East |
-| 1050         | 3004           | Fourth Coffee | Fabrikam West |
+| <span data-ttu-id="70453-128">1050</span><span class="sxs-lookup"><span data-stu-id="70453-128">1050</span></span>         | <span data-ttu-id="70453-129">3004</span><span class="sxs-lookup"><span data-stu-id="70453-129">3004</span></span>           | <span data-ttu-id="70453-130">Fourth Coffee</span><span class="sxs-lookup"><span data-stu-id="70453-130">Fourth Coffee</span></span> | <span data-ttu-id="70453-131">Fabrikam</span><span class="sxs-lookup"><span data-stu-id="70453-131">Fabrikam</span></span>      |
+| <span data-ttu-id="70453-132">1050</span><span class="sxs-lookup"><span data-stu-id="70453-132">1050</span></span>         | <span data-ttu-id="70453-133">100</span><span class="sxs-lookup"><span data-stu-id="70453-133">100</span></span>            | <span data-ttu-id="70453-134">Fourth Coffee</span><span class="sxs-lookup"><span data-stu-id="70453-134">Fourth Coffee</span></span> | <span data-ttu-id="70453-135">Fabrikam East</span><span class="sxs-lookup"><span data-stu-id="70453-135">Fabrikam East</span></span> |
+| <span data-ttu-id="70453-136">1050</span><span class="sxs-lookup"><span data-stu-id="70453-136">1050</span></span>         | <span data-ttu-id="70453-137">3004</span><span class="sxs-lookup"><span data-stu-id="70453-137">3004</span></span>           | <span data-ttu-id="70453-138">Fourth Coffee</span><span class="sxs-lookup"><span data-stu-id="70453-138">Fourth Coffee</span></span> | <span data-ttu-id="70453-139">Fabrikam West</span><span class="sxs-lookup"><span data-stu-id="70453-139">Fabrikam West</span></span> |
 
-## <a name="example-1-vendor-payment-of-invoice-from-another-legal-entity"></a>Exemple 1 : paiement fournisseur d'une facture d'une autre entité juridique
-Fabrikam East a une facture en cours pour le compte fournisseur 100, Fourth Coffee. Fabrikam entre et valide un paiement sur le compte fournisseur Fabrikam 3004, Fourth Coffee. Le paiement est réglé avec la facture en cours.
+## <a name="example-1-vendor-payment-of-invoice-from-another-legal-entity"></a><span data-ttu-id="70453-140">Exemple 1 : paiement fournisseur d'une facture d'une autre entité juridique</span><span class="sxs-lookup"><span data-stu-id="70453-140">Example 1: Vendor payment of invoice from another legal entity</span></span>
+<span data-ttu-id="70453-141">Fabrikam East a une facture en cours pour le compte fournisseur 100, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="70453-141">Fabrikam East has an open invoice for vendor account 100, Fourth Coffee.</span></span> <span data-ttu-id="70453-142">Fabrikam entre et valide un paiement sur le compte fournisseur Fabrikam 3004, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="70453-142">Fabrikam enters and posts a payment to Fabrikam vendor account 3004, Fourth Coffee.</span></span> <span data-ttu-id="70453-143">Le paiement est réglé avec la facture en cours.</span><span class="sxs-lookup"><span data-stu-id="70453-143">The payment is settled with the open invoice.</span></span>
 
-### <a name="invoice-is-posted-in-fabrikam-east-for-vendor-100"></a>La facture est validée chez Fabrikam East pour le fournisseur 100
+### <a name="invoice-is-posted-in-fabrikam-east-for-vendor-100"></a><span data-ttu-id="70453-144">La facture est validée chez Fabrikam East pour le fournisseur 100</span><span class="sxs-lookup"><span data-stu-id="70453-144">Invoice is posted in Fabrikam East for vendor 100</span></span>
 
-| Compte                          | Montant de débit | Montant de crédit |
+| <span data-ttu-id="70453-145">Compte</span><span class="sxs-lookup"><span data-stu-id="70453-145">Account</span></span>                          | <span data-ttu-id="70453-146">Montant de débit</span><span class="sxs-lookup"><span data-stu-id="70453-146">Debit amount</span></span> | <span data-ttu-id="70453-147">Montant de crédit</span><span class="sxs-lookup"><span data-stu-id="70453-147">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Dépense (Fabrikam East)          | 600,00       |               |
-| Achats (Fabrikam East) |              | 600,00        |
+| <span data-ttu-id="70453-148">Dépense (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="70453-148">Expense (Fabrikam East)</span></span>          | <span data-ttu-id="70453-149">600,00</span><span class="sxs-lookup"><span data-stu-id="70453-149">600.00</span></span>       |               |
+| <span data-ttu-id="70453-150">Achats (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="70453-150">Accounts payable (Fabrikam East)</span></span> |              | <span data-ttu-id="70453-151">600,00</span><span class="sxs-lookup"><span data-stu-id="70453-151">600.00</span></span>        |
 
-### <a name="payment-is-generated-and-posted-in-fabrikam-for-vendor-3004"></a>Le paiement est généré et validé chez Fabrikam pour le fournisseur 3004
+### <a name="payment-is-generated-and-posted-in-fabrikam-for-vendor-3004"></a><span data-ttu-id="70453-152">Le paiement est généré et validé chez Fabrikam pour le fournisseur 3004</span><span class="sxs-lookup"><span data-stu-id="70453-152">Payment is generated and posted in Fabrikam for vendor 3004</span></span>
 
-| Compte                     | Montant de débit | Montant de crédit |
+| <span data-ttu-id="70453-153">Compte</span><span class="sxs-lookup"><span data-stu-id="70453-153">Account</span></span>                     | <span data-ttu-id="70453-154">Montant de débit</span><span class="sxs-lookup"><span data-stu-id="70453-154">Debit amount</span></span> | <span data-ttu-id="70453-155">Montant de crédit</span><span class="sxs-lookup"><span data-stu-id="70453-155">Credit amount</span></span> |
 |-----------------------------|--------------|---------------|
-| Achats (Fabrikam) | 600,00       |               |
-| Disponibilités (Fabrikam)             |              | 600,00        |
+| <span data-ttu-id="70453-156">Achats (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="70453-156">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="70453-157">600,00</span><span class="sxs-lookup"><span data-stu-id="70453-157">600.00</span></span>       |               |
+| <span data-ttu-id="70453-158">Disponibilités (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="70453-158">Cash (Fabrikam)</span></span>             |              | <span data-ttu-id="70453-159">600,00</span><span class="sxs-lookup"><span data-stu-id="70453-159">600.00</span></span>        |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Le paiement Fabrikam est réglé avec la facture Fabrikam East
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="70453-160">Le paiement Fabrikam est réglé avec la facture Fabrikam East</span><span class="sxs-lookup"><span data-stu-id="70453-160">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**Validation Fabrikam**
+<span data-ttu-id="70453-161">**Validation Fabrikam**</span><span class="sxs-lookup"><span data-stu-id="70453-161">**Fabrikam posting**</span></span>
 
-| Compte                           | Montant de débit | Montant de crédit |
+| <span data-ttu-id="70453-162">Compte</span><span class="sxs-lookup"><span data-stu-id="70453-162">Account</span></span>                           | <span data-ttu-id="70453-163">Montant de débit</span><span class="sxs-lookup"><span data-stu-id="70453-163">Debit amount</span></span> | <span data-ttu-id="70453-164">Montant de crédit</span><span class="sxs-lookup"><span data-stu-id="70453-164">Credit amount</span></span> |
 |-----------------------------------|--------------|---------------|
-| Dû par Fabrikam East (Fabrikam) | 600,00       |               |
-| Achats (Fabrikam)       |              | 600,00        |
+| <span data-ttu-id="70453-165">Dû par Fabrikam East (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="70453-165">Due from Fabrikam East (Fabrikam)</span></span> | <span data-ttu-id="70453-166">600,00</span><span class="sxs-lookup"><span data-stu-id="70453-166">600.00</span></span>       |               |
+| <span data-ttu-id="70453-167">Achats (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="70453-167">Accounts payable (Fabrikam)</span></span>       |              | <span data-ttu-id="70453-168">600,00</span><span class="sxs-lookup"><span data-stu-id="70453-168">600.00</span></span>        |
 
-**Validation Fabrikam East**
+<span data-ttu-id="70453-169">**Validation Fabrikam East**</span><span class="sxs-lookup"><span data-stu-id="70453-169">**Fabrikam East posting**</span></span>
 
-| Compte                          | Montant de débit | Montant de crédit |
+| <span data-ttu-id="70453-170">Compte</span><span class="sxs-lookup"><span data-stu-id="70453-170">Account</span></span>                          | <span data-ttu-id="70453-171">Montant de débit</span><span class="sxs-lookup"><span data-stu-id="70453-171">Debit amount</span></span> | <span data-ttu-id="70453-172">Montant de crédit</span><span class="sxs-lookup"><span data-stu-id="70453-172">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Achats (Fabrikam East) | 600,00       |               |
-| Dû à Fabrikam (Fabrikam East)  |              | 600,00        |
+| <span data-ttu-id="70453-173">Achats (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="70453-173">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="70453-174">600,00</span><span class="sxs-lookup"><span data-stu-id="70453-174">600.00</span></span>       |               |
+| <span data-ttu-id="70453-175">Dû à Fabrikam (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="70453-175">Due to Fabrikam (Fabrikam East)</span></span>  |              | <span data-ttu-id="70453-176">600,00</span><span class="sxs-lookup"><span data-stu-id="70453-176">600.00</span></span>        |
 
-## <a name="example-2-vendor-payment-of-invoice-from-another-legal-entity-with-cash-discount"></a>Exemple 2 : paiement fournisseur d'une facture d'une autre entité juridique avec escompte de règlement
-Fabrikam East a une facture en cours pour le fournisseur 100, Fourth Coffee. La facture a un escompte de règlement disponible de 20,00. Fabrikam entre et valide un paiement de 580,00 pour le fournisseur Fabrikam 3004, Fourth Coffee. Le paiement est réglé avec les factures de Fabrikam East en cours. L'escompte de règlement est validé auprès de l'entité juridique de la facture, Fabrikam East.
+## <a name="example-2-vendor-payment-of-invoice-from-another-legal-entity-with-cash-discount"></a><span data-ttu-id="70453-177">Exemple 2 : paiement fournisseur d'une facture d'une autre entité juridique avec escompte de règlement</span><span class="sxs-lookup"><span data-stu-id="70453-177">Example 2: Vendor payment of invoice from another legal entity with cash discount</span></span>
+<span data-ttu-id="70453-178">Fabrikam East a une facture en cours pour le fournisseur 100, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="70453-178">Fabrikam East has an open invoice for vendor 100, Fourth Coffee.</span></span> <span data-ttu-id="70453-179">La facture a un escompte de règlement disponible de 20,00.</span><span class="sxs-lookup"><span data-stu-id="70453-179">The invoice has a 20.00 cash discount available.</span></span> <span data-ttu-id="70453-180">Fabrikam entre et valide un paiement de 580,00 pour le fournisseur Fabrikam 3004, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="70453-180">Fabrikam enters and posts a payment of 580.00 for Fabrikam vendor 3004, Fourth Coffee.</span></span> <span data-ttu-id="70453-181">Le paiement est réglé avec les factures de Fabrikam East en cours.</span><span class="sxs-lookup"><span data-stu-id="70453-181">The payment is settled with the open Fabrikam East invoices.</span></span> <span data-ttu-id="70453-182">L'escompte de règlement est validé auprès de l'entité juridique de la facture, Fabrikam East.</span><span class="sxs-lookup"><span data-stu-id="70453-182">The cash discount is posted to the legal entity of the invoice, Fabrikam East.</span></span>
 
-### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-vendor-100"></a>La facture est validée chez Fabrikam East pour le fournisseur Fabrikam East 100
+### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-vendor-100"></a><span data-ttu-id="70453-183">La facture est validée chez Fabrikam East pour le fournisseur Fabrikam East 100</span><span class="sxs-lookup"><span data-stu-id="70453-183">Invoice is posted in Fabrikam East for Fabrikam East vendor 100</span></span>
 
-| Compte                          | Montant de débit | Montant de crédit |
+| <span data-ttu-id="70453-184">Compte</span><span class="sxs-lookup"><span data-stu-id="70453-184">Account</span></span>                          | <span data-ttu-id="70453-185">Montant de débit</span><span class="sxs-lookup"><span data-stu-id="70453-185">Debit amount</span></span> | <span data-ttu-id="70453-186">Montant de crédit</span><span class="sxs-lookup"><span data-stu-id="70453-186">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Dépense (Fabrikam East)          | 600,00       |               |
-| Achats (Fabrikam East) |              | 600,00        |
+| <span data-ttu-id="70453-187">Dépense (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="70453-187">Expense (Fabrikam East)</span></span>          | <span data-ttu-id="70453-188">600,00</span><span class="sxs-lookup"><span data-stu-id="70453-188">600.00</span></span>       |               |
+| <span data-ttu-id="70453-189">Achats (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="70453-189">Accounts payable (Fabrikam East)</span></span> |              | <span data-ttu-id="70453-190">600,00</span><span class="sxs-lookup"><span data-stu-id="70453-190">600.00</span></span>        |
 
-### <a name="payment-is-generated-and-posted-in-fabrikam-for-fabrikam-vendor-3004"></a>Le paiement est généré et validé chez Fabrikam pour le fournisseur Fabrikam 3004
+### <a name="payment-is-generated-and-posted-in-fabrikam-for-fabrikam-vendor-3004"></a><span data-ttu-id="70453-191">Le paiement est généré et validé chez Fabrikam pour le fournisseur Fabrikam 3004</span><span class="sxs-lookup"><span data-stu-id="70453-191">Payment is generated and posted in Fabrikam for Fabrikam vendor 3004</span></span>
 
-| Compte                     | Montant de débit | Montant de crédit |
+| <span data-ttu-id="70453-192">Compte</span><span class="sxs-lookup"><span data-stu-id="70453-192">Account</span></span>                     | <span data-ttu-id="70453-193">Montant de débit</span><span class="sxs-lookup"><span data-stu-id="70453-193">Debit amount</span></span> | <span data-ttu-id="70453-194">Montant de crédit</span><span class="sxs-lookup"><span data-stu-id="70453-194">Credit amount</span></span> |
 |-----------------------------|--------------|---------------|
-| Achats (Fabrikam) | 580,00       |               |
-| Disponibilités (Fabrikam)             |              | 580,00        |
+| <span data-ttu-id="70453-195">Achats (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="70453-195">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="70453-196">580,00</span><span class="sxs-lookup"><span data-stu-id="70453-196">580.00</span></span>       |               |
+| <span data-ttu-id="70453-197">Disponibilités (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="70453-197">Cash (Fabrikam)</span></span>             |              | <span data-ttu-id="70453-198">580,00</span><span class="sxs-lookup"><span data-stu-id="70453-198">580.00</span></span>        |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Le paiement Fabrikam est réglé avec la facture Fabrikam East
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="70453-199">Le paiement Fabrikam est réglé avec la facture Fabrikam East</span><span class="sxs-lookup"><span data-stu-id="70453-199">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**Validation Fabrikam**
+<span data-ttu-id="70453-200">**Validation Fabrikam**</span><span class="sxs-lookup"><span data-stu-id="70453-200">**Fabrikam posting**</span></span>
 
-| Compte                           | Montant de débit | Montant de crédit |
+| <span data-ttu-id="70453-201">Compte</span><span class="sxs-lookup"><span data-stu-id="70453-201">Account</span></span>                           | <span data-ttu-id="70453-202">Montant de débit</span><span class="sxs-lookup"><span data-stu-id="70453-202">Debit amount</span></span> | <span data-ttu-id="70453-203">Montant de crédit</span><span class="sxs-lookup"><span data-stu-id="70453-203">Credit amount</span></span> |
 |-----------------------------------|--------------|---------------|
-| Dû par Fabrikam East (Fabrikam) | 580,00       |               |
-| Achats (Fabrikam)       |              | 580,00        |
+| <span data-ttu-id="70453-204">Dû par Fabrikam East (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="70453-204">Due from Fabrikam East (Fabrikam)</span></span> | <span data-ttu-id="70453-205">580,00</span><span class="sxs-lookup"><span data-stu-id="70453-205">580.00</span></span>       |               |
+| <span data-ttu-id="70453-206">Achats (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="70453-206">Accounts payable (Fabrikam)</span></span>       |              | <span data-ttu-id="70453-207">580,00</span><span class="sxs-lookup"><span data-stu-id="70453-207">580.00</span></span>        |
 
-**Validation Fabrikam East**
+<span data-ttu-id="70453-208">**Validation Fabrikam East**</span><span class="sxs-lookup"><span data-stu-id="70453-208">**Fabrikam East posting**</span></span>
 
-| Compte                          | Montant de débit | Montant de crédit |
+| <span data-ttu-id="70453-209">Compte</span><span class="sxs-lookup"><span data-stu-id="70453-209">Account</span></span>                          | <span data-ttu-id="70453-210">Montant de débit</span><span class="sxs-lookup"><span data-stu-id="70453-210">Debit amount</span></span> | <span data-ttu-id="70453-211">Montant de crédit</span><span class="sxs-lookup"><span data-stu-id="70453-211">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Achats (Fabrikam East) | 580,00       |               |
-| Dû à Fabrikam (Fabrikam East)  |              | 580,00        |
-| Achats (Fabrikam East) | 20,00        |               |
-| Escompte de règlement (Fabrikam East)    |              | 20,00         |
+| <span data-ttu-id="70453-212">Achats (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="70453-212">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="70453-213">580,00</span><span class="sxs-lookup"><span data-stu-id="70453-213">580.00</span></span>       |               |
+| <span data-ttu-id="70453-214">Dû à Fabrikam (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="70453-214">Due to Fabrikam (Fabrikam East)</span></span>  |              | <span data-ttu-id="70453-215">580,00</span><span class="sxs-lookup"><span data-stu-id="70453-215">580.00</span></span>        |
+| <span data-ttu-id="70453-216">Achats (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="70453-216">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="70453-217">20,00</span><span class="sxs-lookup"><span data-stu-id="70453-217">20.00</span></span>        |               |
+| <span data-ttu-id="70453-218">Escompte de règlement (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="70453-218">Cash discount (Fabrikam East)</span></span>    |              | <span data-ttu-id="70453-219">20,00</span><span class="sxs-lookup"><span data-stu-id="70453-219">20.00</span></span>         |
 
-## <a name="example-3-vendor-payment-of-invoice-from-another-legal-entity-with-realized-exchange-rate-loss"></a>Exemple 3 : paiement fournisseur d'une facture d'une autre entité juridique avec une perte de change réalisée
-Fabrikam East a une facture en cours pour le fournisseur 100, Fourth Coffee. Fabrikam entre et valide un paiement pour le fournisseur Fabrikam 3004, Fourth Coffee. Le paiement est réglé avec une facture en cours Fabrikam East. Une transaction de perte de change est générée au cours du processus de règlement.
+## <a name="example-3-vendor-payment-of-invoice-from-another-legal-entity-with-realized-exchange-rate-loss"></a><span data-ttu-id="70453-220">Exemple 3 : paiement fournisseur d'une facture d'une autre entité juridique avec une perte de change réalisée</span><span class="sxs-lookup"><span data-stu-id="70453-220">Example 3: Vendor payment of invoice from another legal entity with realized exchange rate loss</span></span>
+<span data-ttu-id="70453-221">Fabrikam East a une facture en cours pour le fournisseur 100, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="70453-221">Fabrikam East has an open invoice for vendor 100, Fourth Coffee.</span></span> <span data-ttu-id="70453-222">Fabrikam entre et valide un paiement pour le fournisseur Fabrikam 3004, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="70453-222">Fabrikam enters and posts a payment for Fabrikam vendor 3004, Fourth Coffee.</span></span> <span data-ttu-id="70453-223">Le paiement est réglé avec une facture en cours Fabrikam East.</span><span class="sxs-lookup"><span data-stu-id="70453-223">The payment is settled with the open Fabrikam East invoice.</span></span> <span data-ttu-id="70453-224">Une transaction de perte de change est générée au cours du processus de règlement.</span><span class="sxs-lookup"><span data-stu-id="70453-224">A currency exchange loss transaction is generated during the settlement process.</span></span>
 
--   Taux de change entre l'euro (EUR) et le dollar américain (USD) à la date de la facture : 1,2062
--   Taux de change entre l'euro et le dollar américain à la date de paiement : 1,2277
+-   <span data-ttu-id="70453-225">Taux de change entre l'euro (EUR) et le dollar américain (USD) à la date de la facture : 1,2062</span><span class="sxs-lookup"><span data-stu-id="70453-225">Exchange rate for euros (EUR) to U.S. dollars (USD) as of the invoice date: 1.2062</span></span>
+-   <span data-ttu-id="70453-226">Taux de change entre l'euro et le dollar américain à la date de paiement : 1,2277</span><span class="sxs-lookup"><span data-stu-id="70453-226">Exchange rate for EUR to USD as of the payment date: 1.2277</span></span>
 
-### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-vendor-100"></a>La facture est validée chez Fabrikam East pour le fournisseur Fabrikam East 100
+### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-vendor-100"></a><span data-ttu-id="70453-227">La facture est validée chez Fabrikam East pour le fournisseur Fabrikam East 100</span><span class="sxs-lookup"><span data-stu-id="70453-227">Invoice is posted in Fabrikam East for Fabrikam East vendor 100</span></span>
 
-| Compte                          | Montant de débit            | Montant de crédit           |
+| <span data-ttu-id="70453-228">Compte</span><span class="sxs-lookup"><span data-stu-id="70453-228">Account</span></span>                          | <span data-ttu-id="70453-229">Montant de débit</span><span class="sxs-lookup"><span data-stu-id="70453-229">Debit amount</span></span>            | <span data-ttu-id="70453-230">Montant de crédit</span><span class="sxs-lookup"><span data-stu-id="70453-230">Credit amount</span></span>           |
 |----------------------------------|-------------------------|-------------------------|
-| Dépense (Fabrikam East)          | 600,00 EUR / 723,72 USD |                         |
-| Achats (Fabrikam East) |                         | 600,00 EUR / 723,72 USD |
+| <span data-ttu-id="70453-231">Dépense (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="70453-231">Expense (Fabrikam East)</span></span>          | <span data-ttu-id="70453-232">600,00 EUR / 723,72 USD</span><span class="sxs-lookup"><span data-stu-id="70453-232">600.00 EUR / 723.72 USD</span></span> |                         |
+| <span data-ttu-id="70453-233">Achats (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="70453-233">Accounts payable (Fabrikam East)</span></span> |                         | <span data-ttu-id="70453-234">600,00 EUR / 723,72 USD</span><span class="sxs-lookup"><span data-stu-id="70453-234">600.00 EUR / 723.72 USD</span></span> |
 
-### <a name="payment-is-generated-and-posted-in-fabrikam-for-fabrikam-vendor-3004"></a>Le paiement est généré et validé chez Fabrikam pour le fournisseur Fabrikam 3004
+### <a name="payment-is-generated-and-posted-in-fabrikam-for-fabrikam-vendor-3004"></a><span data-ttu-id="70453-235">Le paiement est généré et validé chez Fabrikam pour le fournisseur Fabrikam 3004</span><span class="sxs-lookup"><span data-stu-id="70453-235">Payment is generated and posted in Fabrikam for Fabrikam vendor 3004</span></span>
 
-| Compte                     | Montant de débit            | Montant de crédit           |
+| <span data-ttu-id="70453-236">Compte</span><span class="sxs-lookup"><span data-stu-id="70453-236">Account</span></span>                     | <span data-ttu-id="70453-237">Montant de débit</span><span class="sxs-lookup"><span data-stu-id="70453-237">Debit amount</span></span>            | <span data-ttu-id="70453-238">Montant de crédit</span><span class="sxs-lookup"><span data-stu-id="70453-238">Credit amount</span></span>           |
 |-----------------------------|-------------------------|-------------------------|
-| Achats (Fabrikam) | 600,00 EUR / 736,62 USD |                         |
-| Disponibilités (Fabrikam)             |                         | 600,00 EUR / 736,62 USD |
+| <span data-ttu-id="70453-239">Achats (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="70453-239">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="70453-240">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="70453-240">600.00 EUR / 736.62 USD</span></span> |                         |
+| <span data-ttu-id="70453-241">Disponibilités (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="70453-241">Cash (Fabrikam)</span></span>             |                         | <span data-ttu-id="70453-242">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="70453-242">600.00 EUR / 736.62 USD</span></span> |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Le paiement Fabrikam est réglé avec la facture Fabrikam East
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="70453-243">Le paiement Fabrikam est réglé avec la facture Fabrikam East</span><span class="sxs-lookup"><span data-stu-id="70453-243">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**Validation Fabrikam**
+<span data-ttu-id="70453-244">**Validation Fabrikam**</span><span class="sxs-lookup"><span data-stu-id="70453-244">**Fabrikam posting**</span></span>
 
-| Compte                           | Montant de débit            | Montant de crédit           |
+| <span data-ttu-id="70453-245">Compte</span><span class="sxs-lookup"><span data-stu-id="70453-245">Account</span></span>                           | <span data-ttu-id="70453-246">Montant de débit</span><span class="sxs-lookup"><span data-stu-id="70453-246">Debit amount</span></span>            | <span data-ttu-id="70453-247">Montant de crédit</span><span class="sxs-lookup"><span data-stu-id="70453-247">Credit amount</span></span>           |
 |-----------------------------------|-------------------------|-------------------------|
-| Dû par Fabrikam East (Fabrikam) | 600,00 EUR / 736,62 USD |                         |
-| Achats (Fabrikam)       |                         | 600,00 EUR / 736,62 USD |
-| Perte réalisée (Fabrikam)          | 0,00 EUR / 12,90 USD    |                         |
-| Dû par Fabrikam East (Fabrikam) |                         | 0,00 EUR / 12,90 USD    |
+| <span data-ttu-id="70453-248">Dû par Fabrikam East (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="70453-248">Due from Fabrikam East (Fabrikam)</span></span> | <span data-ttu-id="70453-249">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="70453-249">600.00 EUR / 736.62 USD</span></span> |                         |
+| <span data-ttu-id="70453-250">Achats (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="70453-250">Accounts payable (Fabrikam)</span></span>       |                         | <span data-ttu-id="70453-251">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="70453-251">600.00 EUR / 736.62 USD</span></span> |
+| <span data-ttu-id="70453-252">Perte réalisée (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="70453-252">Realized loss (Fabrikam)</span></span>          | <span data-ttu-id="70453-253">0,00 EUR / 12,90 USD</span><span class="sxs-lookup"><span data-stu-id="70453-253">0.00 EUR / 12.90 USD</span></span>    |                         |
+| <span data-ttu-id="70453-254">Dû par Fabrikam East (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="70453-254">Due from Fabrikam East (Fabrikam)</span></span> |                         | <span data-ttu-id="70453-255">0,00 EUR / 12,90 USD</span><span class="sxs-lookup"><span data-stu-id="70453-255">0.00 EUR / 12.90 USD</span></span>    |
 
-**Validation Fabrikam East**
+<span data-ttu-id="70453-256">**Validation Fabrikam East**</span><span class="sxs-lookup"><span data-stu-id="70453-256">**Fabrikam East posting**</span></span>
 
-| Compte                          | Montant de débit            | Montant de crédit           |
+| <span data-ttu-id="70453-257">Compte</span><span class="sxs-lookup"><span data-stu-id="70453-257">Account</span></span>                          | <span data-ttu-id="70453-258">Montant de débit</span><span class="sxs-lookup"><span data-stu-id="70453-258">Debit amount</span></span>            | <span data-ttu-id="70453-259">Montant de crédit</span><span class="sxs-lookup"><span data-stu-id="70453-259">Credit amount</span></span>           |
 |----------------------------------|-------------------------|-------------------------|
-| Achats (Fabrikam East) | 600,00 EUR / 736,62 USD |                         |
-| Dû à Fabrikam (Fabrikam East)  |                         | 600,00 EUR / 736,62 USD |
-| Dû à Fabrikam (Fabrikam East)  | 0,00 EUR / 12,90 USD    |                         |
-| Achats (Fabrikam East) |                         | 0,00 EUR / 12,90 USD    |
+| <span data-ttu-id="70453-260">Achats (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="70453-260">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="70453-261">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="70453-261">600.00 EUR / 736.62 USD</span></span> |                         |
+| <span data-ttu-id="70453-262">Dû à Fabrikam (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="70453-262">Due to Fabrikam (Fabrikam East)</span></span>  |                         | <span data-ttu-id="70453-263">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="70453-263">600.00 EUR / 736.62 USD</span></span> |
+| <span data-ttu-id="70453-264">Dû à Fabrikam (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="70453-264">Due to Fabrikam (Fabrikam East)</span></span>  | <span data-ttu-id="70453-265">0,00 EUR / 12,90 USD</span><span class="sxs-lookup"><span data-stu-id="70453-265">0.00 EUR / 12.90 USD</span></span>    |                         |
+| <span data-ttu-id="70453-266">Achats (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="70453-266">Accounts payable (Fabrikam East)</span></span> |                         | <span data-ttu-id="70453-267">0,00 EUR / 12,90 USD</span><span class="sxs-lookup"><span data-stu-id="70453-267">0.00 EUR / 12.90 USD</span></span>    |
 
-## <a name="example-4-vendor-payment-of-invoice-from-another-legal-entity-with-cash-discount-and-realized-exchange-rate-loss"></a>Exemple 4 : paiement fournisseur d'une facture d'une autre entité juridique avec un escompte de règlement et une perte de change réalisée
-Fabrikam East a une facture en cours pour le fournisseur 100, Fourth Coffee. Un escompte de règlement est disponible pour la facture et une transaction de taxe est générée. Fabrikam valide un paiement pour le fournisseur Fabrikam 3004, Fourth Coffee. Le paiement est réglé avec une facture en cours Fabrikam East. Une transaction de perte de change est générée au cours du processus de règlement. L'escompte de règlement est validé dans l'entité juridique de la facture (Fabrikam East) et la perte de change est validée dans l'entité juridique du paiement (Fabrikam).
+## <a name="example-4-vendor-payment-of-invoice-from-another-legal-entity-with-cash-discount-and-realized-exchange-rate-loss"></a><span data-ttu-id="70453-268">Exemple 4 : paiement fournisseur d'une facture d'une autre entité juridique avec un escompte de règlement et une perte de change réalisée</span><span class="sxs-lookup"><span data-stu-id="70453-268">Example 4: Vendor payment of invoice from another legal entity with cash discount and realized exchange rate loss</span></span>
+<span data-ttu-id="70453-269">Fabrikam East a une facture en cours pour le fournisseur 100, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="70453-269">Fabrikam East has an open invoice for vendor 100, Fourth Coffee.</span></span> <span data-ttu-id="70453-270">Un escompte de règlement est disponible pour la facture et une transaction de taxe est générée.</span><span class="sxs-lookup"><span data-stu-id="70453-270">The invoice has a cash discount available, and a sales tax transaction is generated.</span></span> <span data-ttu-id="70453-271">Fabrikam valide un paiement pour le fournisseur Fabrikam 3004, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="70453-271">Fabrikam posts a payment for Fabrikam vendor 3004, Fourth Coffee.</span></span> <span data-ttu-id="70453-272">Le paiement est réglé avec une facture en cours Fabrikam East.</span><span class="sxs-lookup"><span data-stu-id="70453-272">The payment is settled with the open Fabrikam East invoice.</span></span> <span data-ttu-id="70453-273">Une transaction de perte de change est générée au cours du processus de règlement.</span><span class="sxs-lookup"><span data-stu-id="70453-273">A currency exchange loss transaction is generated during the settlement process.</span></span> <span data-ttu-id="70453-274">L'escompte de règlement est validé dans l'entité juridique de la facture (Fabrikam East) et la perte de change est validée dans l'entité juridique du paiement (Fabrikam).</span><span class="sxs-lookup"><span data-stu-id="70453-274">The cash discount is posted to the legal entity of the invoice (Fabrikam East), and the currency exchange loss is posted to the legal entity of the payment (Fabrikam).</span></span>
 
--   Taux de change entre l'euro et le dollar américain à la date de la facture : 1,2062
--   Taux de change entre l'euro et le dollar américain à la date de paiement : 1,2277
+-   <span data-ttu-id="70453-275">Taux de change entre l'euro et le dollar américain à la date de la facture : 1,2062</span><span class="sxs-lookup"><span data-stu-id="70453-275">Exchange rate for EUR to USD as of the invoice date: 1.2062</span></span>
+-   <span data-ttu-id="70453-276">Taux de change entre l'euro et le dollar américain à la date de paiement : 1,2277</span><span class="sxs-lookup"><span data-stu-id="70453-276">Exchange rate for EUR to USD as of the payment date: 1.2277</span></span>
 
-### <a name="invoice-is-posted-and-a-tax-transaction-is-generated-in-fabrikam-east-for-vendor-100"></a>La facture est validée et une transaction est générée chez Fabrikam East pour le fournisseur 100
+### <a name="invoice-is-posted-and-a-tax-transaction-is-generated-in-fabrikam-east-for-vendor-100"></a><span data-ttu-id="70453-277">La facture est validée et une transaction est générée chez Fabrikam East pour le fournisseur 100</span><span class="sxs-lookup"><span data-stu-id="70453-277">Invoice is posted and a tax transaction is generated in Fabrikam East for vendor 100</span></span>
 
-| Compte                          | Montant de débit            | Montant de crédit           |
+| <span data-ttu-id="70453-278">Compte</span><span class="sxs-lookup"><span data-stu-id="70453-278">Account</span></span>                          | <span data-ttu-id="70453-279">Montant de débit</span><span class="sxs-lookup"><span data-stu-id="70453-279">Debit amount</span></span>            | <span data-ttu-id="70453-280">Montant de crédit</span><span class="sxs-lookup"><span data-stu-id="70453-280">Credit amount</span></span>           |
 |----------------------------------|-------------------------|-------------------------|
-| Dépense (Fabrikam East)          | 564,07 EUR / 680,38 USD |                         |
-| Taxes (Fabrikam East)        | 35,93 EUR / 43,34 USD   |                         |
-| Achats (Fabrikam East) |                         | 600,00 EUR / 723,72 USD |
+| <span data-ttu-id="70453-281">Dépense (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="70453-281">Expense (Fabrikam East)</span></span>          | <span data-ttu-id="70453-282">564,07 EUR / 680,38 USD</span><span class="sxs-lookup"><span data-stu-id="70453-282">564.07 EUR / 680.38 USD</span></span> |                         |
+| <span data-ttu-id="70453-283">Taxes (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="70453-283">Sales tax (Fabrikam East)</span></span>        | <span data-ttu-id="70453-284">35,93 EUR / 43,34 USD</span><span class="sxs-lookup"><span data-stu-id="70453-284">35.93 EUR / 43.34 USD</span></span>   |                         |
+| <span data-ttu-id="70453-285">Achats (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="70453-285">Accounts payable (Fabrikam East)</span></span> |                         | <span data-ttu-id="70453-286">600,00 EUR / 723,72 USD</span><span class="sxs-lookup"><span data-stu-id="70453-286">600.00 EUR / 723.72 USD</span></span> |
 
-### <a name="payment-is-generated-and-posted-in-fabrikam-for-vendor-3004"></a>Le paiement est généré et validé chez Fabrikam pour le fournisseur 3004
+### <a name="payment-is-generated-and-posted-in-fabrikam-for-vendor-3004"></a><span data-ttu-id="70453-287">Le paiement est généré et validé chez Fabrikam pour le fournisseur 3004</span><span class="sxs-lookup"><span data-stu-id="70453-287">Payment is generated and posted in Fabrikam for vendor 3004</span></span>
 
-| Compte                     | Montant de débit            | Montant de crédit           |
+| <span data-ttu-id="70453-288">Compte</span><span class="sxs-lookup"><span data-stu-id="70453-288">Account</span></span>                     | <span data-ttu-id="70453-289">Montant de débit</span><span class="sxs-lookup"><span data-stu-id="70453-289">Debit amount</span></span>            | <span data-ttu-id="70453-290">Montant de crédit</span><span class="sxs-lookup"><span data-stu-id="70453-290">Credit amount</span></span>           |
 |-----------------------------|-------------------------|-------------------------|
-| Achats (Fabrikam) | 588,72 EUR / 722,77 USD |                         |
-| Disponibilités (Fabrikam East)        |                         | 588,72 EUR / 722,77 USD |
+| <span data-ttu-id="70453-291">Achats (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="70453-291">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="70453-292">588,72 EUR / 722,77 USD</span><span class="sxs-lookup"><span data-stu-id="70453-292">588.72 EUR / 722.77 USD</span></span> |                         |
+| <span data-ttu-id="70453-293">Disponibilités (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="70453-293">Cash (Fabrikam East)</span></span>        |                         | <span data-ttu-id="70453-294">588,72 EUR / 722,77 USD</span><span class="sxs-lookup"><span data-stu-id="70453-294">588.72 EUR / 722.77 USD</span></span> |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Le paiement Fabrikam est réglé avec la facture Fabrikam East
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="70453-295">Le paiement Fabrikam est réglé avec la facture Fabrikam East</span><span class="sxs-lookup"><span data-stu-id="70453-295">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**Validation Fabrikam**
+<span data-ttu-id="70453-296">**Validation Fabrikam**</span><span class="sxs-lookup"><span data-stu-id="70453-296">**Fabrikam posting**</span></span>
 
-| Compte                           | Montant de débit            | Montant de crédit           |
+| <span data-ttu-id="70453-297">Compte</span><span class="sxs-lookup"><span data-stu-id="70453-297">Account</span></span>                           | <span data-ttu-id="70453-298">Montant de débit</span><span class="sxs-lookup"><span data-stu-id="70453-298">Debit amount</span></span>            | <span data-ttu-id="70453-299">Montant de crédit</span><span class="sxs-lookup"><span data-stu-id="70453-299">Credit amount</span></span>           |
 |-----------------------------------|-------------------------|-------------------------|
-| Dû par Fabrikam East (Fabrikam) | 588,72 EUR / 722,77 USD |                         |
-| Achats (Fabrikam)       |                         | 588,72 EUR / 722,77 USD |
-| Perte réalisée (Fabrikam)          | 0,00 EUR / 12,66 USD    |                         |
-| Dû par Fabrikam East (Fabrikam) |                         | 0,00 EUR / 12,66 USD    |
+| <span data-ttu-id="70453-300">Dû par Fabrikam East (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="70453-300">Due from Fabrikam East (Fabrikam)</span></span> | <span data-ttu-id="70453-301">588,72 EUR / 722,77 USD</span><span class="sxs-lookup"><span data-stu-id="70453-301">588.72 EUR / 722.77 USD</span></span> |                         |
+| <span data-ttu-id="70453-302">Achats (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="70453-302">Accounts payable (Fabrikam)</span></span>       |                         | <span data-ttu-id="70453-303">588,72 EUR / 722,77 USD</span><span class="sxs-lookup"><span data-stu-id="70453-303">588.72 EUR / 722.77 USD</span></span> |
+| <span data-ttu-id="70453-304">Perte réalisée (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="70453-304">Realized loss (Fabrikam)</span></span>          | <span data-ttu-id="70453-305">0,00 EUR / 12,66 USD</span><span class="sxs-lookup"><span data-stu-id="70453-305">0.00 EUR / 12.66 USD</span></span>    |                         |
+| <span data-ttu-id="70453-306">Dû par Fabrikam East (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="70453-306">Due from Fabrikam East (Fabrikam)</span></span> |                         | <span data-ttu-id="70453-307">0,00 EUR / 12,66 USD</span><span class="sxs-lookup"><span data-stu-id="70453-307">0.00 EUR / 12.66 USD</span></span>    |
 
-**Validation Fabrikam East**
+<span data-ttu-id="70453-308">**Validation Fabrikam East**</span><span class="sxs-lookup"><span data-stu-id="70453-308">**Fabrikam East posting**</span></span>
 
-| Compte                          | Montant de débit            | Montant de crédit           |
+| <span data-ttu-id="70453-309">Compte</span><span class="sxs-lookup"><span data-stu-id="70453-309">Account</span></span>                          | <span data-ttu-id="70453-310">Montant de débit</span><span class="sxs-lookup"><span data-stu-id="70453-310">Debit amount</span></span>            | <span data-ttu-id="70453-311">Montant de crédit</span><span class="sxs-lookup"><span data-stu-id="70453-311">Credit amount</span></span>           |
 |----------------------------------|-------------------------|-------------------------|
-| Achats (Fabrikam East) | 588,72 EUR / 722,77 USD |                         |
-| Dû à Fabrikam (Fabrikam East)  |                         | 588,72 EUR / 722,77 USD |
-| Dû à Fabrikam (Fabrikam East)   | 0,00 EUR / 12,66 USD    |                         |
-| Achats (Fabrikam East) |                         | 0,00 EUR / 12,66 USD    |
-| Achats (Fabrikam East) | 11,28 EUR / 13,61 USD   |                         |
-| Escompte de règlement (Fabrikam East)    |                         | 11,28 EUR / 13,61 USD   |
+| <span data-ttu-id="70453-312">Achats (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="70453-312">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="70453-313">588,72 EUR / 722,77 USD</span><span class="sxs-lookup"><span data-stu-id="70453-313">588.72 EUR / 722.77 USD</span></span> |                         |
+| <span data-ttu-id="70453-314">Dû à Fabrikam (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="70453-314">Due to Fabrikam (Fabrikam East)</span></span>  |                         | <span data-ttu-id="70453-315">588,72 EUR / 722,77 USD</span><span class="sxs-lookup"><span data-stu-id="70453-315">588.72 EUR / 722.77 USD</span></span> |
+| <span data-ttu-id="70453-316">Dû à Fabrikam (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="70453-316">Due to Fabrikam (Fabrikam East</span></span>   | <span data-ttu-id="70453-317">0,00 EUR / 12,66 USD</span><span class="sxs-lookup"><span data-stu-id="70453-317">0.00 EUR / 12.66 USD</span></span>    |                         |
+| <span data-ttu-id="70453-318">Achats (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="70453-318">Accounts payable (Fabrikam East)</span></span> |                         | <span data-ttu-id="70453-319">0,00 EUR / 12,66 USD</span><span class="sxs-lookup"><span data-stu-id="70453-319">0.00 EUR / 12.66 USD</span></span>    |
+| <span data-ttu-id="70453-320">Achats (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="70453-320">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="70453-321">11,28 EUR / 13,61 USD</span><span class="sxs-lookup"><span data-stu-id="70453-321">11.28 EUR / 13.61 USD</span></span>   |                         |
+| <span data-ttu-id="70453-322">Escompte de règlement (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="70453-322">Cash discount (Fabrikam East)</span></span>    |                         | <span data-ttu-id="70453-323">11,28 EUR / 13,61 USD</span><span class="sxs-lookup"><span data-stu-id="70453-323">11.28 EUR / 13.61 USD</span></span>   |
 
-## <a name="example-5-vendor-credit-note-with-primary-payment"></a>Exemple 5 : avoir fournisseur avec paiement principal
-Fabrikam génère un paiement de 75,00 pour le fournisseur 3004, Fourth Coffee. Le paiement est réglé avec une facture en cours pour le fournisseur Fabrikam West 3004 et un avoir en cours pour le fournisseur Fabrikam East 100. Le paiement est sélectionné comme paiement principal dans la page **Régler les transactions**.
+## <a name="example-5-vendor-credit-note-with-primary-payment"></a><span data-ttu-id="70453-324">Exemple 5 : avoir fournisseur avec paiement principal</span><span class="sxs-lookup"><span data-stu-id="70453-324">Example 5: Vendor credit note with primary payment</span></span>
+<span data-ttu-id="70453-325">Fabrikam génère un paiement de 75,00 pour le fournisseur 3004, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="70453-325">Fabrikam generates a payment of 75.00 for vendor 3004, Fourth Coffee.</span></span> <span data-ttu-id="70453-326">Le paiement est réglé avec une facture en cours pour le fournisseur Fabrikam West 3004 et un avoir en cours pour le fournisseur Fabrikam East 100.</span><span class="sxs-lookup"><span data-stu-id="70453-326">The payment is settled with an open invoice for Fabrikam West vendor 3004 and an open credit note for Fabrikam East vendor 100.</span></span> <span data-ttu-id="70453-327">Le paiement est sélectionné comme paiement principal dans la page **Régler les transactions**.</span><span class="sxs-lookup"><span data-stu-id="70453-327">The payment is selected as the primary payment on the **Settle transactions** page.</span></span>
 
-### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a>La facture est validée chez Fabrikam West pour le fournisseur 3004
+### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a><span data-ttu-id="70453-328">La facture est validée chez Fabrikam West pour le fournisseur 3004</span><span class="sxs-lookup"><span data-stu-id="70453-328">Invoice is posted to Fabrikam West for vendor 3004</span></span>
 
-| Compte                          | Montant de débit | Montant de crédit |
+| <span data-ttu-id="70453-329">Compte</span><span class="sxs-lookup"><span data-stu-id="70453-329">Account</span></span>                          | <span data-ttu-id="70453-330">Montant de débit</span><span class="sxs-lookup"><span data-stu-id="70453-330">Debit amount</span></span> | <span data-ttu-id="70453-331">Montant de crédit</span><span class="sxs-lookup"><span data-stu-id="70453-331">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Dépense (Fabrikam West)          | 100,00       |               |
-| Achats (Fabrikam West) |              | 100,00        |
+| <span data-ttu-id="70453-332">Dépense (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="70453-332">Expense (Fabrikam West)</span></span>          | <span data-ttu-id="70453-333">100,00</span><span class="sxs-lookup"><span data-stu-id="70453-333">100.00</span></span>       |               |
+| <span data-ttu-id="70453-334">Achats (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="70453-334">Accounts payable (Fabrikam West)</span></span> |              | <span data-ttu-id="70453-335">100,00</span><span class="sxs-lookup"><span data-stu-id="70453-335">100.00</span></span>        |
 
-### <a name="credit-note-is-posted-to-fabrikam-east-for-vendor-100"></a>L'avoir est validé chez Fabrikam East pour le fournisseur 100
+### <a name="credit-note-is-posted-to-fabrikam-east-for-vendor-100"></a><span data-ttu-id="70453-336">L'avoir est validé chez Fabrikam East pour le fournisseur 100</span><span class="sxs-lookup"><span data-stu-id="70453-336">Credit note is posted to Fabrikam East for vendor 100</span></span>
 
-| Compte                          | Montant de débit | Montant de crédit |
+| <span data-ttu-id="70453-337">Compte</span><span class="sxs-lookup"><span data-stu-id="70453-337">Account</span></span>                          | <span data-ttu-id="70453-338">Montant de débit</span><span class="sxs-lookup"><span data-stu-id="70453-338">Debit amount</span></span> | <span data-ttu-id="70453-339">Montant de crédit</span><span class="sxs-lookup"><span data-stu-id="70453-339">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Achats (Fabrikam East) | 25,00        |               |
-| Retours fournisseur (Fabrikam East) |              | 25,00         |
+| <span data-ttu-id="70453-340">Achats (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="70453-340">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="70453-341">25,00</span><span class="sxs-lookup"><span data-stu-id="70453-341">25.00</span></span>        |               |
+| <span data-ttu-id="70453-342">Retours fournisseur (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="70453-342">Purchase returns (Fabrikam East)</span></span> |              | <span data-ttu-id="70453-343">25,00</span><span class="sxs-lookup"><span data-stu-id="70453-343">25.00</span></span>         |
 
-### <a name="payment-is-posted-to-fabrikam-for-vendor-3004"></a>Le paiement est validé chez Fabrikam pour le fournisseur 3004
+### <a name="payment-is-posted-to-fabrikam-for-vendor-3004"></a><span data-ttu-id="70453-344">Le paiement est validé chez Fabrikam pour le fournisseur 3004</span><span class="sxs-lookup"><span data-stu-id="70453-344">Payment is posted to Fabrikam for vendor 3004</span></span>
 
-| Compte                     | Montant de débit | Montant de crédit |
+| <span data-ttu-id="70453-345">Compte</span><span class="sxs-lookup"><span data-stu-id="70453-345">Account</span></span>                     | <span data-ttu-id="70453-346">Montant de débit</span><span class="sxs-lookup"><span data-stu-id="70453-346">Debit amount</span></span> | <span data-ttu-id="70453-347">Montant de crédit</span><span class="sxs-lookup"><span data-stu-id="70453-347">Credit amount</span></span> |
 |-----------------------------|--------------|---------------|
-| Achats (Fabrikam) | 75,00        |               |
-| Disponibilités (Fabrikam)             |              | 75,00         |
+| <span data-ttu-id="70453-348">Achats (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="70453-348">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="70453-349">75,00</span><span class="sxs-lookup"><span data-stu-id="70453-349">75.00</span></span>        |               |
+| <span data-ttu-id="70453-350">Disponibilités (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="70453-350">Cash (Fabrikam)</span></span>             |              | <span data-ttu-id="70453-351">75,00</span><span class="sxs-lookup"><span data-stu-id="70453-351">75.00</span></span>         |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Le paiement Fabrikam est réglé avec une facture Fabrikam West et un avoir Fabrikam East
+### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a><span data-ttu-id="70453-352">Le paiement Fabrikam est réglé avec une facture Fabrikam West et un avoir Fabrikam East</span><span class="sxs-lookup"><span data-stu-id="70453-352">Fabrikam payment is settled with Fabrikam West invoice and Fabrikam East credit note</span></span>
 
-**Validation Fabrikam**
+<span data-ttu-id="70453-353">**Validation Fabrikam**</span><span class="sxs-lookup"><span data-stu-id="70453-353">**Fabrikam posting**</span></span>
 
-| Compte                           | Montant de débit | Montant de crédit |
+| <span data-ttu-id="70453-354">Compte</span><span class="sxs-lookup"><span data-stu-id="70453-354">Account</span></span>                           | <span data-ttu-id="70453-355">Montant de débit</span><span class="sxs-lookup"><span data-stu-id="70453-355">Debit amount</span></span> | <span data-ttu-id="70453-356">Montant de crédit</span><span class="sxs-lookup"><span data-stu-id="70453-356">Credit amount</span></span> |
 |-----------------------------------|--------------|---------------|
-| Achats (Fabrikam)       | 25,00        |               |
-| Dû à Fabrikam East (Fabrikam)   |              | 25,00         |
-| Dû par Fabrikam West (Fabrikam) | 100,00       |               |
-| Achats (Fabrikam)       |              | 100,00        |
+| <span data-ttu-id="70453-357">Achats (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="70453-357">Accounts payable (Fabrikam)</span></span>       | <span data-ttu-id="70453-358">25,00</span><span class="sxs-lookup"><span data-stu-id="70453-358">25.00</span></span>        |               |
+| <span data-ttu-id="70453-359">Dû à Fabrikam East (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="70453-359">Due to Fabrikam East (Fabrikam)</span></span>   |              | <span data-ttu-id="70453-360">25,00</span><span class="sxs-lookup"><span data-stu-id="70453-360">25.00</span></span>         |
+| <span data-ttu-id="70453-361">Dû par Fabrikam West (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="70453-361">Due from Fabrikam West (Fabrikam)</span></span> | <span data-ttu-id="70453-362">100,00</span><span class="sxs-lookup"><span data-stu-id="70453-362">100.00</span></span>       |               |
+| <span data-ttu-id="70453-363">Achats (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="70453-363">Accounts payable (Fabrikam)</span></span>       |              | <span data-ttu-id="70453-364">100,00</span><span class="sxs-lookup"><span data-stu-id="70453-364">100.00</span></span>        |
 
-**Validation Fabrikam East**
+<span data-ttu-id="70453-365">**Validation Fabrikam East**</span><span class="sxs-lookup"><span data-stu-id="70453-365">**Fabrikam East posting**</span></span>
 
-| Compte                           | Montant de débit | Montant de crédit |
+| <span data-ttu-id="70453-366">Compte</span><span class="sxs-lookup"><span data-stu-id="70453-366">Account</span></span>                           | <span data-ttu-id="70453-367">Montant de débit</span><span class="sxs-lookup"><span data-stu-id="70453-367">Debit amount</span></span> | <span data-ttu-id="70453-368">Montant de crédit</span><span class="sxs-lookup"><span data-stu-id="70453-368">Credit amount</span></span> |
 |-----------------------------------|--------------|---------------|
-| Dû par Fabrikam (Fabrikam East) | 25,00        |               |
-| Achats (Fabrikam East)  |              | 25,00         |
+| <span data-ttu-id="70453-369">Dû par Fabrikam (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="70453-369">Due from Fabrikam (Fabrikam East)</span></span> | <span data-ttu-id="70453-370">25,00</span><span class="sxs-lookup"><span data-stu-id="70453-370">25.00</span></span>        |               |
+| <span data-ttu-id="70453-371">Achats (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="70453-371">Accounts payable (Fabrikam East)</span></span>  |              | <span data-ttu-id="70453-372">25,00</span><span class="sxs-lookup"><span data-stu-id="70453-372">25.00</span></span>         |
 
-**Validation Fabrikam West**
+<span data-ttu-id="70453-373">**Validation Fabrikam West**</span><span class="sxs-lookup"><span data-stu-id="70453-373">**Fabrikam West posting**</span></span>
 
-| Compte                          | Montant de débit | Montant de crédit |
+| <span data-ttu-id="70453-374">Compte</span><span class="sxs-lookup"><span data-stu-id="70453-374">Account</span></span>                          | <span data-ttu-id="70453-375">Montant de débit</span><span class="sxs-lookup"><span data-stu-id="70453-375">Debit amount</span></span> | <span data-ttu-id="70453-376">Montant de crédit</span><span class="sxs-lookup"><span data-stu-id="70453-376">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Achats (Fabrikam West) | 100,00       |               |
-| Dû à Fabrikam (Fabrikam West)  |              | 100,00        |
+| <span data-ttu-id="70453-377">Achats (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="70453-377">Accounts payable (Fabrikam West)</span></span> | <span data-ttu-id="70453-378">100,00</span><span class="sxs-lookup"><span data-stu-id="70453-378">100.00</span></span>       |               |
+| <span data-ttu-id="70453-379">Dû à Fabrikam (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="70453-379">Due to Fabrikam (Fabrikam West)</span></span>  |              | <span data-ttu-id="70453-380">100,00</span><span class="sxs-lookup"><span data-stu-id="70453-380">100.00</span></span>        |
 
-## <a name="example-6-vendor-credit-note-without-primary-payment"></a>Exemple 6 : avoir fournisseur sans paiement principal
-Fabrikam génère un paiement de 75,00 pour le fournisseur 3004, Fourth Coffee. Le paiement est réglé avec une facture en cours pour le fournisseur Fabrikam West 3004 et un avoir en cours pour le fournisseur Fabrikam East 100. Le paiement n'est pas sélectionné comme paiement principal dans la page **Régler les transactions**.
+## <a name="example-6-vendor-credit-note-without-primary-payment"></a><span data-ttu-id="70453-381">Exemple 6 : avoir fournisseur sans paiement principal</span><span class="sxs-lookup"><span data-stu-id="70453-381">Example 6: Vendor credit note without primary payment</span></span>
+<span data-ttu-id="70453-382">Fabrikam génère un paiement de 75,00 pour le fournisseur 3004, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="70453-382">Fabrikam generates a payment of 75.00 for vendor 3004, Fourth Coffee.</span></span> <span data-ttu-id="70453-383">Le paiement est réglé avec une facture en cours pour le fournisseur Fabrikam West 3004 et un avoir en cours pour le fournisseur Fabrikam East 100.</span><span class="sxs-lookup"><span data-stu-id="70453-383">The payment is settled with an open invoice for Fabrikam West vendor 3004 and an open credit note for Fabrikam East vendor 100.</span></span> <span data-ttu-id="70453-384">Le paiement n'est pas sélectionné comme paiement principal dans la page **Régler les transactions**.</span><span class="sxs-lookup"><span data-stu-id="70453-384">The payment isn't selected as the primary payment on the **Settle transactions** page.</span></span>
 
-### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a>La facture est validée chez Fabrikam West pour le fournisseur 3004
+### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a><span data-ttu-id="70453-385">La facture est validée chez Fabrikam West pour le fournisseur 3004</span><span class="sxs-lookup"><span data-stu-id="70453-385">Invoice is posted to Fabrikam West for vendor 3004</span></span>
 
-| Compte                          | Montant de débit | Montant de crédit |
+| <span data-ttu-id="70453-386">Compte</span><span class="sxs-lookup"><span data-stu-id="70453-386">Account</span></span>                          | <span data-ttu-id="70453-387">Montant de débit</span><span class="sxs-lookup"><span data-stu-id="70453-387">Debit amount</span></span> | <span data-ttu-id="70453-388">Montant de crédit</span><span class="sxs-lookup"><span data-stu-id="70453-388">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Dépense (Fabrikam West)          | 100,00       |               |
-| Achats (Fabrikam West) |              | 100,00        |
+| <span data-ttu-id="70453-389">Dépense (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="70453-389">Expense (Fabrikam West)</span></span>          | <span data-ttu-id="70453-390">100,00</span><span class="sxs-lookup"><span data-stu-id="70453-390">100.00</span></span>       |               |
+| <span data-ttu-id="70453-391">Achats (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="70453-391">Accounts payable (Fabrikam West)</span></span> |              | <span data-ttu-id="70453-392">100,00</span><span class="sxs-lookup"><span data-stu-id="70453-392">100.00</span></span>        |
 
-### <a name="credit-note-is-posted-to-fabrikam-east-for-vendor-100"></a>L'avoir est validé chez Fabrikam East pour le fournisseur 100
+### <a name="credit-note-is-posted-to-fabrikam-east-for-vendor-100"></a><span data-ttu-id="70453-393">L'avoir est validé chez Fabrikam East pour le fournisseur 100</span><span class="sxs-lookup"><span data-stu-id="70453-393">Credit note is posted to Fabrikam East for vendor 100</span></span>
 
-| Compte                          | Montant de débit | Montant de crédit |
+| <span data-ttu-id="70453-394">Compte</span><span class="sxs-lookup"><span data-stu-id="70453-394">Account</span></span>                          | <span data-ttu-id="70453-395">Montant de débit</span><span class="sxs-lookup"><span data-stu-id="70453-395">Debit amount</span></span> | <span data-ttu-id="70453-396">Montant de crédit</span><span class="sxs-lookup"><span data-stu-id="70453-396">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Achats (Fabrikam East) | 25,00        |               |
-| Retours fournisseur (Fabrikam East) |              | 25,00         |
+| <span data-ttu-id="70453-397">Achats (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="70453-397">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="70453-398">25,00</span><span class="sxs-lookup"><span data-stu-id="70453-398">25.00</span></span>        |               |
+| <span data-ttu-id="70453-399">Retours fournisseur (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="70453-399">Purchase returns (Fabrikam East)</span></span> |              | <span data-ttu-id="70453-400">25,00</span><span class="sxs-lookup"><span data-stu-id="70453-400">25.00</span></span>         |
 
-### <a name="payment-is-posted-to-fabrikam-for-vendor-3004"></a>Le paiement est validé chez Fabrikam pour le fournisseur 3004
+### <a name="payment-is-posted-to-fabrikam-for-vendor-3004"></a><span data-ttu-id="70453-401">Le paiement est validé chez Fabrikam pour le fournisseur 3004</span><span class="sxs-lookup"><span data-stu-id="70453-401">Payment is posted to Fabrikam for vendor 3004</span></span>
 
-| Compte                     | Montant de débit | Montant de crédit |
+| <span data-ttu-id="70453-402">Compte</span><span class="sxs-lookup"><span data-stu-id="70453-402">Account</span></span>                     | <span data-ttu-id="70453-403">Montant de débit</span><span class="sxs-lookup"><span data-stu-id="70453-403">Debit amount</span></span> | <span data-ttu-id="70453-404">Montant de crédit</span><span class="sxs-lookup"><span data-stu-id="70453-404">Credit amount</span></span> |
 |-----------------------------|--------------|---------------|
-| Achats (Fabrikam) | 75,00        |               |
-| Disponibilités (Fabrikam)             |              | 75,00         |
+| <span data-ttu-id="70453-405">Achats (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="70453-405">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="70453-406">75,00</span><span class="sxs-lookup"><span data-stu-id="70453-406">75.00</span></span>        |               |
+| <span data-ttu-id="70453-407">Disponibilités (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="70453-407">Cash (Fabrikam)</span></span>             |              | <span data-ttu-id="70453-408">75,00</span><span class="sxs-lookup"><span data-stu-id="70453-408">75.00</span></span>         |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Le paiement Fabrikam est réglé avec une facture Fabrikam West et un avoir Fabrikam East
+### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a><span data-ttu-id="70453-409">Le paiement Fabrikam est réglé avec une facture Fabrikam West et un avoir Fabrikam East</span><span class="sxs-lookup"><span data-stu-id="70453-409">Fabrikam payment is settled with Fabrikam West invoice and Fabrikam East credit note</span></span>
 
-**Validation Fabrikam**
+<span data-ttu-id="70453-410">**Validation Fabrikam**</span><span class="sxs-lookup"><span data-stu-id="70453-410">**Fabrikam posting**</span></span>
 
-| Compte                           | Montant de débit | Montant de crédit |
+| <span data-ttu-id="70453-411">Compte</span><span class="sxs-lookup"><span data-stu-id="70453-411">Account</span></span>                           | <span data-ttu-id="70453-412">Montant de débit</span><span class="sxs-lookup"><span data-stu-id="70453-412">Debit amount</span></span> | <span data-ttu-id="70453-413">Montant de crédit</span><span class="sxs-lookup"><span data-stu-id="70453-413">Credit amount</span></span> |
 |-----------------------------------|--------------|---------------|
-| Dû par Fabrikam West (Fabrikam) | 75,00        |               |
-| Achats (Fabrikam)       |              | 75,00         |
+| <span data-ttu-id="70453-414">Dû par Fabrikam West (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="70453-414">Due from Fabrikam West (Fabrikam)</span></span> | <span data-ttu-id="70453-415">75,00</span><span class="sxs-lookup"><span data-stu-id="70453-415">75.00</span></span>        |               |
+| <span data-ttu-id="70453-416">Achats (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="70453-416">Accounts payable (Fabrikam)</span></span>       |              | <span data-ttu-id="70453-417">75,00</span><span class="sxs-lookup"><span data-stu-id="70453-417">75.00</span></span>         |
 
-**Validation Fabrikam East**
+<span data-ttu-id="70453-418">**Validation Fabrikam East**</span><span class="sxs-lookup"><span data-stu-id="70453-418">**Fabrikam East posting**</span></span>
 
-| Compte                                | Montant de débit | Montant de crédit |
+| <span data-ttu-id="70453-419">Compte</span><span class="sxs-lookup"><span data-stu-id="70453-419">Account</span></span>                                | <span data-ttu-id="70453-420">Montant de débit</span><span class="sxs-lookup"><span data-stu-id="70453-420">Debit amount</span></span> | <span data-ttu-id="70453-421">Montant de crédit</span><span class="sxs-lookup"><span data-stu-id="70453-421">Credit amount</span></span> |
 |----------------------------------------|--------------|---------------|
-| Dû par Fabrikam West (Fabrikam East) | 25,00        |               |
-| Achats (Fabrikam East)       |              | 25,00         |
+| <span data-ttu-id="70453-422">Dû par Fabrikam West (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="70453-422">Due from Fabrikam West (Fabrikam East)</span></span> | <span data-ttu-id="70453-423">25,00</span><span class="sxs-lookup"><span data-stu-id="70453-423">25.00</span></span>        |               |
+| <span data-ttu-id="70453-424">Achats (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="70453-424">Accounts payable (Fabrikam East)</span></span>       |              | <span data-ttu-id="70453-425">25,00</span><span class="sxs-lookup"><span data-stu-id="70453-425">25.00</span></span>         |
 
-**Validation Fabrikam West**
+<span data-ttu-id="70453-426">**Validation Fabrikam West**</span><span class="sxs-lookup"><span data-stu-id="70453-426">**Fabrikam West posting**</span></span>
 
-| Compte                              | Montant de débit | Montant de crédit |
+| <span data-ttu-id="70453-427">Compte</span><span class="sxs-lookup"><span data-stu-id="70453-427">Account</span></span>                              | <span data-ttu-id="70453-428">Montant de débit</span><span class="sxs-lookup"><span data-stu-id="70453-428">Debit amount</span></span> | <span data-ttu-id="70453-429">Montant de crédit</span><span class="sxs-lookup"><span data-stu-id="70453-429">Credit amount</span></span> |
 |--------------------------------------|--------------|---------------|
-| Achats (Fabrikam West)     | 75,00        |               |
-| Dû à Fabrikam (Fabrikam West)      |              | 75,00         |
-| Achats (Fabrikam West)     | 25,00        |               |
-| Dû à Fabrikam East (Fabrikam West) |              | 25,00         |
+| <span data-ttu-id="70453-430">Achats (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="70453-430">Accounts payable (Fabrikam West)</span></span>     | <span data-ttu-id="70453-431">75,00</span><span class="sxs-lookup"><span data-stu-id="70453-431">75.00</span></span>        |               |
+| <span data-ttu-id="70453-432">Dû à Fabrikam (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="70453-432">Due to Fabrikam (Fabrikam West)</span></span>      |              | <span data-ttu-id="70453-433">75,00</span><span class="sxs-lookup"><span data-stu-id="70453-433">75.00</span></span>         |
+| <span data-ttu-id="70453-434">Achats (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="70453-434">Accounts payable (Fabrikam West)</span></span>     | <span data-ttu-id="70453-435">25,00</span><span class="sxs-lookup"><span data-stu-id="70453-435">25.00</span></span>        |               |
+| <span data-ttu-id="70453-436">Dû à Fabrikam East (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="70453-436">Due to Fabrikam East (Fabrikam West)</span></span> |              | <span data-ttu-id="70453-437">25,00</span><span class="sxs-lookup"><span data-stu-id="70453-437">25.00</span></span>         |
 
 
 

@@ -17,36 +17,36 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 93ad6face77cf47b1512697e819271e1d1d09761
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 31787aa180639b934b837b98dc170070d33fd56f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-accessorial-assignments"></a>Paramétrer les affectations d'élément accessoire
+# <a name="set-up-accessorial-assignments"></a><span data-ttu-id="ee45d-103">Paramétrer les affectations d'élément accessoire</span><span class="sxs-lookup"><span data-stu-id="ee45d-103">Set up accessorial assignments</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Cette procédure décrit comment paramétrer une affectation d'élément accessoire. Cette opération est généralement réalisée par un coordinateur transport. Avant d'utiliser ce guide, vous devez suivre le guide « Configurer les frais annexes de terminal et les données principales annexes ».
+<span data-ttu-id="ee45d-104">Cette procédure décrit comment paramétrer une affectation d'élément accessoire.</span><span class="sxs-lookup"><span data-stu-id="ee45d-104">This procedure shows how to set up an accessorial assignment.</span></span> <span data-ttu-id="ee45d-105">Cette opération est généralement réalisée par un coordinateur transport.</span><span class="sxs-lookup"><span data-stu-id="ee45d-105">This is typically done by a transportation coordinator.</span></span> <span data-ttu-id="ee45d-106">Avant d'utiliser ce guide, vous devez suivre le guide « Configurer les frais annexes de terminal et les données principales annexes ».</span><span class="sxs-lookup"><span data-stu-id="ee45d-106">Before you use this guide you need to run the "Set up hub accessorial charges and accessorial masters" guide.</span></span>
 
 
-## <a name="set-up-accessorial-assignment"></a>Paramétrer l'affectation d'élément accessoire
-1. Allez dans Gestion du transport > Configurer > Classement > Affectations d'élément accessoire.
-2. Cliquez sur Nouveau.
-3. Tapez une valeur dans le champ Nom.
-4. Activez ou désactivez l'extension de la section Détails.
-5. Dans le champ Point de transbordement, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-6. Dans la liste, sélectionnez le concentrateur pour lequel vous avez créé une table maître d'éléments accessoires lorsque vous avez suivi le guide « Configurer les frais annexes de terminal et les données principales annexes ». 
-7. Dans le champ ID élément accessoire de point de transbordement, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-8. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-9. Activez ou désactivez l'extension de la section Critères.
-    * Dans la section Critère vous pouvez choisir les critères exacts pour l'application des frais, selon les différentes valeurs offertes ici.  
-10. Définissez l'option Toujours appliquer sur Oui.
-11. Sélectionnez une option dans le champ Niveau d'affectation d'élément accessoire.
-12. Activez ou désactivez l'extension de la section Calcul.
-13. Sélectionnez « Fixe » dans le champ Type de frais accessoires.
-    * Le type Frais accessoires détermine comment calculer les frais réels. Dans cet exemple il s'agit de frais fixes.  
-14. Entrez un nombre dans le champ Frais accessoires.
-15. Cliquez sur Enregistrer.
+## <a name="set-up-accessorial-assignment"></a><span data-ttu-id="ee45d-107">Paramétrer l'affectation d'élément accessoire</span><span class="sxs-lookup"><span data-stu-id="ee45d-107">Set up Accessorial assignment</span></span>
+1. <span data-ttu-id="ee45d-108">Allez dans Gestion du transport > Configurer > Classement > Affectations d'élément accessoire.</span><span class="sxs-lookup"><span data-stu-id="ee45d-108">Go to Transportation management > Setup > Rating > Accessorial assignments.</span></span>
+2. <span data-ttu-id="ee45d-109">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="ee45d-109">Click New.</span></span>
+3. <span data-ttu-id="ee45d-110">Tapez une valeur dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="ee45d-110">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="ee45d-111">Activez ou désactivez l'extension de la section Détails.</span><span class="sxs-lookup"><span data-stu-id="ee45d-111">Toggle the expansion of the Details section.</span></span>
+5. <span data-ttu-id="ee45d-112">Dans le champ Point de transbordement, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="ee45d-112">In the Hub field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="ee45d-113">Dans la liste, sélectionnez le concentrateur pour lequel vous avez créé une table maître d'éléments accessoires lorsque vous avez suivi le guide « Configurer les frais annexes de terminal et les données principales annexes ».</span><span class="sxs-lookup"><span data-stu-id="ee45d-113">In the list, select the Hub that you created an accessorial master for when you ran the "Set up hub accessorial charges and accessorial masters" guide.</span></span> 
+7. <span data-ttu-id="ee45d-114">Dans le champ ID élément accessoire de point de transbordement, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="ee45d-114">In the Hub accessorial ID field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="ee45d-115">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="ee45d-115">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="ee45d-116">Activez ou désactivez l'extension de la section Critères.</span><span class="sxs-lookup"><span data-stu-id="ee45d-116">Toggle the expansion of the Criteria section.</span></span>
+    * <span data-ttu-id="ee45d-117">Dans la section Critère vous pouvez choisir les critères exacts pour l'application des frais, selon les différentes valeurs offertes ici.</span><span class="sxs-lookup"><span data-stu-id="ee45d-117">In the Criteria section you can choose the exact criteria for when the charge should apply, based on the different values offered here.</span></span>  
+10. <span data-ttu-id="ee45d-118">Définissez l'option Toujours appliquer sur Oui.</span><span class="sxs-lookup"><span data-stu-id="ee45d-118">Set the Always apply option to Yes.</span></span>
+11. <span data-ttu-id="ee45d-119">Sélectionnez une option dans le champ Niveau d'affectation d'élément accessoire.</span><span class="sxs-lookup"><span data-stu-id="ee45d-119">In the Accessorial assignment level field, select an option.</span></span>
+12. <span data-ttu-id="ee45d-120">Activez ou désactivez l'extension de la section Calcul.</span><span class="sxs-lookup"><span data-stu-id="ee45d-120">Toggle the expansion of the Calculation section.</span></span>
+13. <span data-ttu-id="ee45d-121">Sélectionnez « Fixe » dans le champ Type de frais accessoires.</span><span class="sxs-lookup"><span data-stu-id="ee45d-121">In the Accessorial fee type field, select 'Flat'.</span></span>
+    * <span data-ttu-id="ee45d-122">Le type Frais accessoires détermine comment calculer les frais réels.</span><span class="sxs-lookup"><span data-stu-id="ee45d-122">The Accessorial fee type determines how to calculate the actual charge.</span></span> <span data-ttu-id="ee45d-123">Dans cet exemple il s'agit de frais fixes.</span><span class="sxs-lookup"><span data-stu-id="ee45d-123">In this example it's a flat charge.</span></span>  
+14. <span data-ttu-id="ee45d-124">Entrez un nombre dans le champ Frais accessoires.</span><span class="sxs-lookup"><span data-stu-id="ee45d-124">In the Accessorial fee field, enter a number.</span></span>
+15. <span data-ttu-id="ee45d-125">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="ee45d-125">Click Save.</span></span>
 
 

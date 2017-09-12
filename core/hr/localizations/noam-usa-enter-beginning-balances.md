@@ -1,7 +1,7 @@
 ---
 title: Saisir des soldes d'ouverture de salaire
 description: "La rubrique décrit les étapes pour entrer des soldes d'ouverture pour les codes de rémunération, les déductions, les avantages et les taxes. Ces informations sont précieuses pour les partenaires pour migrer ou transférer des données pour une nouvelle implémentation du salaire à partir d'un autre système."
-author: kherr
+author: kherr75
 manager: AnnBe
 ms.date: 07/01/2017
 ms.topic: article
@@ -15,158 +15,158 @@ ms.custom: 20931
 ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
 ms.author: kherr
-ms.search.validFrom: 2017-07-01T00:00:00.000Z
+ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: d9e3018eb7b6c20cfd5e23a10d15e230009196de
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 736eedf270ac08b0bdf9364821f8a7bae981ade9
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="enter-payroll-beginning-balances"></a>Saisir des soldes d'ouverture de salaire
+# <a name="enter-payroll-beginning-balances"></a><span data-ttu-id="4126d-104">Saisir des soldes d'ouverture de salaire</span><span class="sxs-lookup"><span data-stu-id="4126d-104">Enter payroll beginning balances</span></span>
 
 [!include[banner](../../includes/banner.md)]
 
-La rubrique décrit les étapes pour entrer des soldes d'ouverture pour les codes de rémunération, les déductions, les avantages et les taxes. Ces informations sont précieuses pour les partenaires qui transfèrent des données pour une nouvelle implémentation du salaire à partir d'un autre système. Pour commencer à entrer les soldes d'ouverture de salaires, nous vérifions les informations suivantes :
+<span data-ttu-id="4126d-105">La rubrique décrit les étapes pour entrer des soldes d'ouverture pour les codes de rémunération, les déductions, les avantages et les taxes.</span><span class="sxs-lookup"><span data-stu-id="4126d-105">The topic describes the steps for entering beginning balances for earning codes, deductions, benefits, and taxes.</span></span> <span data-ttu-id="4126d-106">Ces informations sont précieuses pour les partenaires qui transfèrent des données pour une nouvelle implémentation du salaire à partir d'un autre système.</span><span class="sxs-lookup"><span data-stu-id="4126d-106">This information is valuable for partners who transfer data for a new Payroll implementation from another system.</span></span> <span data-ttu-id="4126d-107">Pour commencer à entrer les soldes d'ouverture de salaires, nous vérifions les informations suivantes :</span><span class="sxs-lookup"><span data-stu-id="4126d-107">To prepare to enter beginning payroll balances, we verify the following information:</span></span>
 
-> * Les enregistrements employé sont entrés et disponibles dans le système
-> * Les données suivantes sont configurées et attribuées aux employés :
+> * <span data-ttu-id="4126d-108">Les enregistrements employé sont entrés et disponibles dans le système</span><span class="sxs-lookup"><span data-stu-id="4126d-108">Employee records are entered and available in the system</span></span>
+> * <span data-ttu-id="4126d-109">Les données suivantes sont configurées et attribuées aux employés :</span><span class="sxs-lookup"><span data-stu-id="4126d-109">The following data is set up and assigned to employees:</span></span>
 
-> > * Cycles de paie et périodes de rémunération
-> > * Codes de rémunérations
-> > * Taxes
-> > * Avantages et déductions
+> > * <span data-ttu-id="4126d-110">Cycles de paie et périodes de rémunération</span><span class="sxs-lookup"><span data-stu-id="4126d-110">Pay cycles and pay periods</span></span>
+> > * <span data-ttu-id="4126d-111">Codes de rémunérations</span><span class="sxs-lookup"><span data-stu-id="4126d-111">Earning codes</span></span>
+> > * <span data-ttu-id="4126d-112">Taxes</span><span class="sxs-lookup"><span data-stu-id="4126d-112">Taxes</span></span>
+> > * <span data-ttu-id="4126d-113">Avantages et déductions</span><span class="sxs-lookup"><span data-stu-id="4126d-113">Benefits and deductions</span></span>
 
-> * La société doit avoir sélectionné une date à laquelle les soldes d'ouverture de salaire peuvent être définies.
+> * <span data-ttu-id="4126d-114">La société doit avoir sélectionné une date à laquelle les soldes d'ouverture de salaire peuvent être définies.</span><span class="sxs-lookup"><span data-stu-id="4126d-114">The company should have chosen a date where payroll beginning balances can be set.</span></span>
 
-> * Les informations recueillies ont été collectées à partir de tous les bénéfices, avantages/déductions, contributions pour les avantages, cotisations de l'employé et cotisations de l'employeur, ainsi que de leurs montants de cumul annuel issus du système hérité.
+> * <span data-ttu-id="4126d-115">Les informations recueillies ont été collectées à partir de tous les bénéfices, avantages/déductions, contributions pour les avantages, cotisations de l'employé et cotisations de l'employeur, ainsi que de leurs montants de cumul annuel issus du système hérité.</span><span class="sxs-lookup"><span data-stu-id="4126d-115">Information were gathered on all earnings, benefits/deductions, benefit contributions, employee taxes, and employer taxes and their YTD amounts from the legacy system.</span></span>
 
-Comme vous envisagez d'entrer des soldes d'ouverture, déterminez le contenu des données. La plupart des entreprises entre un seul montant consolidé de l'année en cours. Cependant si des informations plus détaillées sont nécessaires, les soldes peuvent être entrés en incréments trimestriels. Déterminer le niveau de détail qui est nécessaire indique le nombre de bordereaux de paie manuels devant être créés pour chaque collaborateur. Pour un seul montant de l'année en cours, un seul relevé manuel est nécessaire pour chaque employé. Pour ce faire, utilisez les montants cumulés depuis le bordereau de paie final issu du système précédent lorsque vous saisissez le montant dans le nouveau système de paie.
+<span data-ttu-id="4126d-116">Comme vous envisagez d'entrer des soldes d'ouverture, déterminez le contenu des données.</span><span class="sxs-lookup"><span data-stu-id="4126d-116">As you plan to enter beginning balances, consider how detailed the data needs to be.</span></span> <span data-ttu-id="4126d-117">La plupart des entreprises entre un seul montant consolidé de l'année en cours.</span><span class="sxs-lookup"><span data-stu-id="4126d-117">Most businesses enter a single, consolidated year-to-date amount.</span></span> <span data-ttu-id="4126d-118">Cependant si des informations plus détaillées sont nécessaires, les soldes peuvent être entrés en incréments trimestriels.</span><span class="sxs-lookup"><span data-stu-id="4126d-118">However if more detailed information is needed, balances can be entered in quarterly increments.</span></span> <span data-ttu-id="4126d-119">Déterminer le niveau de détail qui est nécessaire indique le nombre de bordereaux de paie manuels devant être créés pour chaque collaborateur.</span><span class="sxs-lookup"><span data-stu-id="4126d-119">Deciding the level of detail that's needed determines how many manual pay statements must be created for each worker.</span></span> <span data-ttu-id="4126d-120">Pour un seul montant de l'année en cours, un seul relevé manuel est nécessaire pour chaque employé.</span><span class="sxs-lookup"><span data-stu-id="4126d-120">For a single year-to-date amount, only one manual statement is needed for each employee.</span></span> <span data-ttu-id="4126d-121">Pour ce faire, utilisez les montants cumulés depuis le bordereau de paie final issu du système précédent lorsque vous saisissez le montant dans le nouveau système de paie.</span><span class="sxs-lookup"><span data-stu-id="4126d-121">To do this use year-to-date amounts from the final pay statement from the previous system as the amount entered in the new payroll system.</span></span>
 
-L'exemple suivant montre comment vous pouvez entrer des soldes d'ouverture de salaire d'un employé, notamment les codes de rémunération, les avantages/déductions et les taxes. Dans un cas réel, vous auriez une ligne pour chaque code de rémunération, déduction d'avantage, contribution pour les avantages, cotisation de l'employé et cotisation de l'employeur avec le montant saisi correspondant au montant de l'année en cours. Grâce à cette liste de codes et de montants, suivez les étapes pour créer une rémunération et un bordereau de paie manuellement avec la fonction de comptabilité désactivée pour indiquer les soldes d'ouverture à des fins de salaire.  Désactivez la comptabilité car vous ne souhaitez pas valider ce bordereau de paie de solde d'ouverture dans votre comptabilité. Cela a été effectué dans le système hérité et passera dans le nouveau système lorsque vous définirez les soldes d'ouverture dans votre comptabilité.
+<span data-ttu-id="4126d-122">L'exemple suivant montre comment vous pouvez entrer des soldes d'ouverture de salaire d'un employé, notamment les codes de rémunération, les avantages/déductions et les taxes.</span><span class="sxs-lookup"><span data-stu-id="4126d-122">The following example shows how you can enter employee payroll beginning balances, including earning codes, benefits/deductions, and taxes.</span></span> <span data-ttu-id="4126d-123">Dans un cas réel, vous auriez une ligne pour chaque code de rémunération, déduction d'avantage, contribution pour les avantages, cotisation de l'employé et cotisation de l'employeur avec le montant saisi correspondant au montant de l'année en cours.</span><span class="sxs-lookup"><span data-stu-id="4126d-123">In a real-world example you would have a line item for each earning code, benefit deduction, benefit contribution, employee tax and employer tax with the amount entered being the year-to-date amount.</span></span> <span data-ttu-id="4126d-124">Grâce à cette liste de codes et de montants, suivez les étapes pour créer une rémunération et un bordereau de paie manuellement avec la fonction de comptabilité désactivée pour indiquer les soldes d'ouverture à des fins de salaire.</span><span class="sxs-lookup"><span data-stu-id="4126d-124">Using that list of codes and amounts, follow the steps for creating a manual earning and pay statement with accounting disabled to bring over beginning balances for payroll purposes.</span></span>  <span data-ttu-id="4126d-125">Désactivez la comptabilité car vous ne souhaitez pas valider ce bordereau de paie de solde d'ouverture dans votre comptabilité.</span><span class="sxs-lookup"><span data-stu-id="4126d-125">You disable accounting because you won't want to post this beginning balance pay statement to your general ledger.</span></span> <span data-ttu-id="4126d-126">Cela a été effectué dans le système hérité et passera dans le nouveau système lorsque vous définirez les soldes d'ouverture dans votre comptabilité.</span><span class="sxs-lookup"><span data-stu-id="4126d-126">That was done in the legacy system and will come over to the new system when you set beginning balances in General ledger.</span></span>
 
-### <a name="a-how-to-set-up-earnings-codes-to-be-used-on-payroll-beginning-balances"></a>A. Procédure de paramétrage des codes non répartis à utiliser dans les soldes d'ouverture de salaire
-Lorsque vous entrez des soldes d'ouverture de salaire, assurez-vous que les codes de rémunération que vous utiliserez sont configurés avec l'option « Autoriser la modification des taux de relevés de rémunération » activée. Cela vous permet d'entrer manuellement le montant du système hérité. 
+### <a name="a-how-to-set-up-earnings-codes-to-be-used-on-payroll-beginning-balances"></a><span data-ttu-id="4126d-127">A.</span><span class="sxs-lookup"><span data-stu-id="4126d-127">A.</span></span> <span data-ttu-id="4126d-128">Procédure de paramétrage des codes non répartis à utiliser dans les soldes d'ouverture de salaire</span><span class="sxs-lookup"><span data-stu-id="4126d-128">How to set up earnings codes to be used on payroll beginning balances</span></span>
+<span data-ttu-id="4126d-129">Lorsque vous entrez des soldes d'ouverture de salaire, assurez-vous que les codes de rémunération que vous utiliserez sont configurés avec l'option « Autoriser la modification des taux de relevés de rémunération » activée.</span><span class="sxs-lookup"><span data-stu-id="4126d-129">When you enter payroll beginning balances, be sure the earning codes that you will be using are configured with the "Allow editing of earning statement rates" option enabled.</span></span> <span data-ttu-id="4126d-130">Cela vous permet d'entrer manuellement le montant du système hérité.</span><span class="sxs-lookup"><span data-stu-id="4126d-130">This will allow you to manually key the amount from the legacy system.</span></span> 
 
-### <a name="b-create-earnings-statement-for-an-employee-to-have-a-beginning-balance"></a>B. Créer l'état des revenus pour qu'un employé ait un solde d'ouverture
-Cette étape permet de créer manuellement un état des revenus pour chaque collaborateur pour la dernière période de rémunération du système hérité, qui crée les lignes du relevé de rémunération dans le nouveau système de paie. Entrez une ligne par code de rémunération, ainsi que le montant et les heures de cumul annuel. Les exemples d'étape sont les suivantes :
+### <a name="b-create-earnings-statement-for-an-employee-to-have-a-beginning-balance"></a><span data-ttu-id="4126d-131">B.</span><span class="sxs-lookup"><span data-stu-id="4126d-131">B.</span></span> <span data-ttu-id="4126d-132">Créer l'état des revenus pour qu'un employé ait un solde d'ouverture</span><span class="sxs-lookup"><span data-stu-id="4126d-132">Create earnings statement for an employee to have a beginning balance</span></span>
+<span data-ttu-id="4126d-133">Cette étape permet de créer manuellement un état des revenus pour chaque collaborateur pour la dernière période de rémunération du système hérité, qui crée les lignes du relevé de rémunération dans le nouveau système de paie.</span><span class="sxs-lookup"><span data-stu-id="4126d-133">This step manually creates an earnings statement for each worker for the last pay period of the legacy system, which creates the earning statement lines in the new payroll system.</span></span> <span data-ttu-id="4126d-134">Entrez une ligne par code de rémunération, ainsi que le montant et les heures de cumul annuel.</span><span class="sxs-lookup"><span data-stu-id="4126d-134">Enter one line per earning code and the YTD amount and hours.</span></span> <span data-ttu-id="4126d-135">Les exemples d'étape sont les suivantes :</span><span class="sxs-lookup"><span data-stu-id="4126d-135">The sample steps are as follows:</span></span>
 
-1. Ouvrez la page **Tous les états des revenus** et cliquez sur **Nouveau**.  
+1. <span data-ttu-id="4126d-136">Ouvrez la page **Tous les états des revenus** et cliquez sur **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="4126d-136">Open the **All earnings statements** page and click **New**.</span></span>  
 
-Entrez les éléments suivants : 
+<span data-ttu-id="4126d-137">Entrez les éléments suivants :</span><span class="sxs-lookup"><span data-stu-id="4126d-137">Enter the following:</span></span> 
 
-| Champ      | Valeur                 |
+| <span data-ttu-id="4126d-138">Champ</span><span class="sxs-lookup"><span data-stu-id="4126d-138">Field</span></span>      | <span data-ttu-id="4126d-139">Valeur</span><span class="sxs-lookup"><span data-stu-id="4126d-139">Value</span></span>                 |
 |------------|-----------------------|
-| Collaborateur     | Michael Redmond       |
-| Cycle de paie  | sm                    |
-| Période de rémunération | 16/06/2017 - 30/06/2017 |
+| <span data-ttu-id="4126d-140">Collaborateur</span><span class="sxs-lookup"><span data-stu-id="4126d-140">Worker</span></span>     | <span data-ttu-id="4126d-141">Michael Redmond</span><span class="sxs-lookup"><span data-stu-id="4126d-141">Michael Redmond</span></span>       |
+| <span data-ttu-id="4126d-142">Cycle de paie</span><span class="sxs-lookup"><span data-stu-id="4126d-142">Pay cycle</span></span>  | <span data-ttu-id="4126d-143">sm</span><span class="sxs-lookup"><span data-stu-id="4126d-143">sm</span></span>                    |
+| <span data-ttu-id="4126d-144">Période de rémunération</span><span class="sxs-lookup"><span data-stu-id="4126d-144">Pay period</span></span> | <span data-ttu-id="4126d-145">16/06/2017 - 30/06/2017</span><span class="sxs-lookup"><span data-stu-id="4126d-145">6/16/2017 - 6/30/2017</span></span> |
 
-2. Dans l'onglet **Ligne de l'état des revenus**, entrez les informations suivantes :
+2. <span data-ttu-id="4126d-146">Dans l'onglet **Ligne de l'état des revenus**, entrez les informations suivantes :</span><span class="sxs-lookup"><span data-stu-id="4126d-146">In the **Earnings statement line** tab, enter the following:</span></span>
 
-Ligne 1 : onglet **Lignes de relevés de rémunération**
+<span data-ttu-id="4126d-147">Ligne 1 : onglet **Lignes de relevés de rémunération**</span><span class="sxs-lookup"><span data-stu-id="4126d-147">Line 1: **Earning statement line** tab</span></span>
 
-| Champ            | Valeur       |
+| <span data-ttu-id="4126d-148">Champ</span><span class="sxs-lookup"><span data-stu-id="4126d-148">Field</span></span>            | <span data-ttu-id="4126d-149">Valeur</span><span class="sxs-lookup"><span data-stu-id="4126d-149">Value</span></span>       |
 |------------------|-------------|
-| Codes de rémunération    | Salaire normal |
-| Quantité         | 1,00        |
-| Rage             | 30 000      |
-| Onglet Détails de ligne |             |
-| Manuel           | (marqué)    |
+| <span data-ttu-id="4126d-150">Codes de rémunération</span><span class="sxs-lookup"><span data-stu-id="4126d-150">Earnings code</span></span>    | <span data-ttu-id="4126d-151">Salaire normal</span><span class="sxs-lookup"><span data-stu-id="4126d-151">Regular pay</span></span> |
+| <span data-ttu-id="4126d-152">Quantité</span><span class="sxs-lookup"><span data-stu-id="4126d-152">Quantity</span></span>         | <span data-ttu-id="4126d-153">1,00</span><span class="sxs-lookup"><span data-stu-id="4126d-153">1.00</span></span>        |
+| <span data-ttu-id="4126d-154">Rage</span><span class="sxs-lookup"><span data-stu-id="4126d-154">Rage</span></span>             | <span data-ttu-id="4126d-155">30 000</span><span class="sxs-lookup"><span data-stu-id="4126d-155">30,000</span></span>      |
+| <span data-ttu-id="4126d-156">Onglet Détails de ligne</span><span class="sxs-lookup"><span data-stu-id="4126d-156">Line details tab</span></span> |             |
+| <span data-ttu-id="4126d-157">Manuel</span><span class="sxs-lookup"><span data-stu-id="4126d-157">Manual</span></span>           | <span data-ttu-id="4126d-158">(marqué)</span><span class="sxs-lookup"><span data-stu-id="4126d-158">(marked)</span></span>    |
 
-Ligne 2 : onglet **Lignes de relevés de rémunération**
+<span data-ttu-id="4126d-159">Ligne 2 : onglet **Lignes de relevés de rémunération**</span><span class="sxs-lookup"><span data-stu-id="4126d-159">Line 2: **Earning statement line** tab</span></span>
 
-| Champ            | Valeur    |
+| <span data-ttu-id="4126d-160">Champ</span><span class="sxs-lookup"><span data-stu-id="4126d-160">Field</span></span>            | <span data-ttu-id="4126d-161">Valeur</span><span class="sxs-lookup"><span data-stu-id="4126d-161">Value</span></span>    |
 |------------------|----------|
-| Codes de rémunération    | Prime    |
-| Quantité         | 1.0000   |
-| Taux             | 4250.00  |
-| Onglet Détails de ligne |          |
-| Manuel           | (marqué) |
+| <span data-ttu-id="4126d-162">Codes de rémunération</span><span class="sxs-lookup"><span data-stu-id="4126d-162">Earnings code</span></span>    | <span data-ttu-id="4126d-163">Prime</span><span class="sxs-lookup"><span data-stu-id="4126d-163">Bonus</span></span>    |
+| <span data-ttu-id="4126d-164">Quantité</span><span class="sxs-lookup"><span data-stu-id="4126d-164">Quantity</span></span>         | <span data-ttu-id="4126d-165">1.0000</span><span class="sxs-lookup"><span data-stu-id="4126d-165">1.0000</span></span>   |
+| <span data-ttu-id="4126d-166">Taux</span><span class="sxs-lookup"><span data-stu-id="4126d-166">Rate</span></span>             | <span data-ttu-id="4126d-167">4250.00</span><span class="sxs-lookup"><span data-stu-id="4126d-167">4250.00</span></span>  |
+| <span data-ttu-id="4126d-168">Onglet Détails de ligne</span><span class="sxs-lookup"><span data-stu-id="4126d-168">Line details tab</span></span> |          |
+| <span data-ttu-id="4126d-169">Manuel</span><span class="sxs-lookup"><span data-stu-id="4126d-169">Manual</span></span>           | <span data-ttu-id="4126d-170">(marqué)</span><span class="sxs-lookup"><span data-stu-id="4126d-170">(marked)</span></span> |
 
-Ligne 3 : onglet **Lignes de relevés de rémunération**
+<span data-ttu-id="4126d-171">Ligne 3 : onglet **Lignes de relevés de rémunération**</span><span class="sxs-lookup"><span data-stu-id="4126d-171">Line 3: **Earning statement line** tab</span></span>
 
-| Champ           | Valeur      |
+| <span data-ttu-id="4126d-172">Champ</span><span class="sxs-lookup"><span data-stu-id="4126d-172">Field</span></span>           | <span data-ttu-id="4126d-173">Valeur</span><span class="sxs-lookup"><span data-stu-id="4126d-173">Value</span></span>      |
 |-----------------|------------|
-| Codes de rémunération   | commission |
-| Quantité        | 1.0000     |
-| Taux            | !,299.00   |
-| Taux            | 1,299.00   |
-| Onglet Détails de ligne |            |
-| Manuel          | (Marqué)   |
+| <span data-ttu-id="4126d-174">Codes de rémunération</span><span class="sxs-lookup"><span data-stu-id="4126d-174">Earnings code</span></span>   | <span data-ttu-id="4126d-175">commission</span><span class="sxs-lookup"><span data-stu-id="4126d-175">Commission</span></span> |
+| <span data-ttu-id="4126d-176">Quantité</span><span class="sxs-lookup"><span data-stu-id="4126d-176">Quantity</span></span>        | <span data-ttu-id="4126d-177">1.0000</span><span class="sxs-lookup"><span data-stu-id="4126d-177">1.0000</span></span>     |
+| <span data-ttu-id="4126d-178">Taux</span><span class="sxs-lookup"><span data-stu-id="4126d-178">Rate</span></span>            | <span data-ttu-id="4126d-179">!,299.00</span><span class="sxs-lookup"><span data-stu-id="4126d-179">!,299.00</span></span>   |
+| <span data-ttu-id="4126d-180">Taux</span><span class="sxs-lookup"><span data-stu-id="4126d-180">Rate</span></span>            | <span data-ttu-id="4126d-181">1,299.00</span><span class="sxs-lookup"><span data-stu-id="4126d-181">1,299.00</span></span>   |
+| <span data-ttu-id="4126d-182">Onglet Détails de ligne</span><span class="sxs-lookup"><span data-stu-id="4126d-182">Line detail tab</span></span> |            |
+| <span data-ttu-id="4126d-183">Manuel</span><span class="sxs-lookup"><span data-stu-id="4126d-183">Manual</span></span>          | <span data-ttu-id="4126d-184">(Marqué)</span><span class="sxs-lookup"><span data-stu-id="4126d-184">(Marked)</span></span>   |
 
 > [!NOTE]
-> Définir le curseur **Manuel** sur **Oui** dans l'onglet **Détails de ligne** pour chaque ligne de l'état des revenus est important pour obtenir les soldes d'ouverture de salaire entrés pour chaque collaborateur.
+> <span data-ttu-id="4126d-185">Définir le curseur **Manuel** sur **Oui** dans l'onglet **Détails de ligne** pour chaque ligne de l'état des revenus est important pour obtenir les soldes d'ouverture de salaire entrés pour chaque collaborateur.</span><span class="sxs-lookup"><span data-stu-id="4126d-185">Setting the **Manual** slider to **Yes** in the **Line Details** tab for each earnings statement line is key to have payroll beginning balances entered for each worker.</span></span>
 
-3. Dans le volet **Action**, cliquez sur **Débloquer l'état des revenus** USA-FED-ER-FICA.
+3. <span data-ttu-id="4126d-186">Dans le volet **Action**, cliquez sur **Débloquer l'état des revenus** USA-FED-ER-FICA.</span><span class="sxs-lookup"><span data-stu-id="4126d-186">On the **Action** pane, click **Release earnings statement** USA-FED-ER-FICA.</span></span>
 
-4. Dans le volet **Action**, cliquez sur **Bordereau de paie** pour ouvrir la page **Générer les bordereaux de paie** et définir les éléments suivants :
+4. <span data-ttu-id="4126d-187">Dans le volet **Action**, cliquez sur **Bordereau de paie** pour ouvrir la page **Générer les bordereaux de paie** et définir les éléments suivants :</span><span class="sxs-lookup"><span data-stu-id="4126d-187">On the **Action** pane click **Pay statement** to open the **Generate pay statements** page and set the following:</span></span>
 
-| Champ              | Valeur     |
+| <span data-ttu-id="4126d-188">Champ</span><span class="sxs-lookup"><span data-stu-id="4126d-188">Field</span></span>              | <span data-ttu-id="4126d-189">Valeur</span><span class="sxs-lookup"><span data-stu-id="4126d-189">Value</span></span>     |
 |--------------------|-----------|
-| Date de paiement       | 6/30/2017 |
-| Type du cycle de paiement   | Manuel    |
-| Désactiver la comptabilité |   Oui     |
+| <span data-ttu-id="4126d-190">Date de paiement</span><span class="sxs-lookup"><span data-stu-id="4126d-190">Payment date</span></span>       | <span data-ttu-id="4126d-191">6/30/2017</span><span class="sxs-lookup"><span data-stu-id="4126d-191">6/30/2017</span></span> |
+| <span data-ttu-id="4126d-192">Type du cycle de paiement</span><span class="sxs-lookup"><span data-stu-id="4126d-192">Payment run type</span></span>   | <span data-ttu-id="4126d-193">Manuel</span><span class="sxs-lookup"><span data-stu-id="4126d-193">Manual</span></span>    |
+| <span data-ttu-id="4126d-194">Désactiver la comptabilité</span><span class="sxs-lookup"><span data-stu-id="4126d-194">Disable accounting</span></span> |   <span data-ttu-id="4126d-195">Oui</span><span class="sxs-lookup"><span data-stu-id="4126d-195">Yes</span></span>     |
 
 > [!NOTE] 
-> Ceci est uniquement disponible lorsque le type d'exécution de paiement est Manuel et si l'utilisateur souhaite désactiver la comptabilité dans le cycle de paie.
+> <span data-ttu-id="4126d-196">Ceci est uniquement disponible lorsque le type d'exécution de paiement est Manuel et si l'utilisateur souhaite désactiver la comptabilité dans le cycle de paie.</span><span class="sxs-lookup"><span data-stu-id="4126d-196">This is only available when the payment run type is manual and wherein the user want to disable accounting on the pay run.</span></span>
 
-Cliquez sur **OK**, puis fermez la page **Infos**.
+<span data-ttu-id="4126d-197">Cliquez sur **OK**, puis fermez la page **Infos**.</span><span class="sxs-lookup"><span data-stu-id="4126d-197">Click **OK** and close the **Infolog**.</span></span>
 
-#### <a name="why-the-disable-accounting-slider-needs-to-set-to-yes-when-generating-pay-statements"></a>Pourquoi le curseur Désactiver la comptabilité doit-il être défini sur Oui lors de la génération des bordereaux de paye ?
-Définir le curseur sur **Oui** empêche toutes les lignes du bordereau de paie d'être distribuées dans la comptabilité. Les montants des comptes généraux ont été mis à jour précédemment lorsque les soldes de compte du système hérité ont été entrés. Entrer des soldes d'ouverture pour les salaires permet de générer des états qui comprennent les informations des exercices précédents, ainsi que pour identifier les limites à des fins d'avantages et fiscales.   
+#### <a name="why-the-disable-accounting-slider-needs-to-set-to-yes-when-generating-pay-statements"></a><span data-ttu-id="4126d-198">Pourquoi le curseur Désactiver la comptabilité doit-il être défini sur Oui lors de la génération des bordereaux de paye ?</span><span class="sxs-lookup"><span data-stu-id="4126d-198">Why the Disable Accounting slider needs to set to Yes when generating pay statements?</span></span>
+<span data-ttu-id="4126d-199">Définir le curseur sur **Oui** empêche toutes les lignes du bordereau de paie d'être distribuées dans la comptabilité.</span><span class="sxs-lookup"><span data-stu-id="4126d-199">Setting the slider to **Yes** prevents lines in the pay statement from being districuted to General ledger.</span></span> <span data-ttu-id="4126d-200">Les montants des comptes généraux ont été mis à jour précédemment lorsque les soldes de compte du système hérité ont été entrés.</span><span class="sxs-lookup"><span data-stu-id="4126d-200">General ledger amounts were updating earlier when account balances from the legacy system were entered.</span></span> <span data-ttu-id="4126d-201">Entrer des soldes d'ouverture pour les salaires permet de générer des états qui comprennent les informations des exercices précédents, ainsi que pour identifier les limites à des fins d'avantages et fiscales.</span><span class="sxs-lookup"><span data-stu-id="4126d-201">Entering beginning balances for Payroll lets you generate reports that include information from prior years, as well as for identifying limits for benefit and tax purposes.</span></span>   
 
-### <a name="c-create-pay-statements-for-employees"></a>C. Créer les bordereaux de paie pour les employés
-Après avoir généré les bordereaux de paie avec des soldes d'ouverture, vous devez vérifier que les bordereaux de paie reflètent précisément les données salariales. Vous devez également mettre à jour manuellement les avantages et les informations fiscales pour qu'elles correspondent aux valeurs du système de paie précédent. Après avoir vérifié que les montants du système de paie précédent correspondent aux montants sur les bordereaux de paie actuels, vous devez finaliser les bordereaux de paie.
+### <a name="c-create-pay-statements-for-employees"></a><span data-ttu-id="4126d-202">C.</span><span class="sxs-lookup"><span data-stu-id="4126d-202">C.</span></span> <span data-ttu-id="4126d-203">Créer les bordereaux de paie pour les employés</span><span class="sxs-lookup"><span data-stu-id="4126d-203">Create pay statements for employees</span></span>
+<span data-ttu-id="4126d-204">Après avoir généré les bordereaux de paie avec des soldes d'ouverture, vous devez vérifier que les bordereaux de paie reflètent précisément les données salariales.</span><span class="sxs-lookup"><span data-stu-id="4126d-204">After you generate pay statements that have beginning balances, you must verify that the pay statements accurately reflect payroll data.</span></span> <span data-ttu-id="4126d-205">Vous devez également mettre à jour manuellement les avantages et les informations fiscales pour qu'elles correspondent aux valeurs du système de paie précédent.</span><span class="sxs-lookup"><span data-stu-id="4126d-205">You must also manually update the benefit and taxes information to match the values in the previous payroll system.</span></span> <span data-ttu-id="4126d-206">Après avoir vérifié que les montants du système de paie précédent correspondent aux montants sur les bordereaux de paie actuels, vous devez finaliser les bordereaux de paie.</span><span class="sxs-lookup"><span data-stu-id="4126d-206">After you verify that the amounts from the previous payroll system match the amounts on the current pay statements, you must finalize the pay statements.</span></span>
 
-1. Ouvrez la page **Tous les bordereaux de paie**.
+1. <span data-ttu-id="4126d-207">Ouvrez la page **Tous les bordereaux de paie**.</span><span class="sxs-lookup"><span data-stu-id="4126d-207">Open the **All pay statements** page.</span></span>
 
-2. Mettre le dernier bordereau de paie en surbrillance généré pour Michael Redmond
+2. <span data-ttu-id="4126d-208">Mettre le dernier bordereau de paie en surbrillance généré pour Michael Redmond</span><span class="sxs-lookup"><span data-stu-id="4126d-208">Highlight the last generated pay statement for Michael Redmond</span></span>
 
-3. Cliquez sur **Modifier** pour ouvrir la page **Bordereau de paie**.
+3. <span data-ttu-id="4126d-209">Cliquez sur **Modifier** pour ouvrir la page **Bordereau de paie**.</span><span class="sxs-lookup"><span data-stu-id="4126d-209">Click **Edit** to open the **Pay statement** page.</span></span>
 
-4. Ouvrez l'onglet **Déductions des avantages** et entrez les informations suivantes :
+4. <span data-ttu-id="4126d-210">Ouvrez l'onglet **Déductions des avantages** et entrez les informations suivantes :</span><span class="sxs-lookup"><span data-stu-id="4126d-210">Open the **Benefit deductions** tab and enter the following:</span></span>
 
-| Champ                           | Valeur            |
+| <span data-ttu-id="4126d-211">Champ</span><span class="sxs-lookup"><span data-stu-id="4126d-211">Field</span></span>                           | <span data-ttu-id="4126d-212">Valeur</span><span class="sxs-lookup"><span data-stu-id="4126d-212">Value</span></span>            |
 |---------------------------------|------------------|
-| Avantage                         | Montant de la déduction |
-| 401K | Participer              | 3000.00          |
-| assurance pour les soins dentaires. | SubSp                  | 495,00           |
-| Dépenses liées aux soins au niveau du département | Participer | 2500.00          |
-| Vision | SupSp                  | 500,00           |
+| <span data-ttu-id="4126d-213">Avantage</span><span class="sxs-lookup"><span data-stu-id="4126d-213">Benefit</span></span>                         | <span data-ttu-id="4126d-214">Montant de la déduction</span><span class="sxs-lookup"><span data-stu-id="4126d-214">Deduction amount</span></span> |
+| <span data-ttu-id="4126d-215">401K</span><span class="sxs-lookup"><span data-stu-id="4126d-215">401K</span></span> | <span data-ttu-id="4126d-216">Participer</span><span class="sxs-lookup"><span data-stu-id="4126d-216">Participate</span></span>              | <span data-ttu-id="4126d-217">3000.00</span><span class="sxs-lookup"><span data-stu-id="4126d-217">3000.00</span></span>          |
+| <span data-ttu-id="4126d-218">assurance pour les soins dentaires.</span><span class="sxs-lookup"><span data-stu-id="4126d-218">Dental</span></span> | <span data-ttu-id="4126d-219">SubSp</span><span class="sxs-lookup"><span data-stu-id="4126d-219">SubSp</span></span>                  | <span data-ttu-id="4126d-220">495,00</span><span class="sxs-lookup"><span data-stu-id="4126d-220">495.00</span></span>           |
+| <span data-ttu-id="4126d-221">Dépenses liées aux soins au niveau du département</span><span class="sxs-lookup"><span data-stu-id="4126d-221">Dep care spending</span></span> | <span data-ttu-id="4126d-222">Participer</span><span class="sxs-lookup"><span data-stu-id="4126d-222">Participate</span></span> | <span data-ttu-id="4126d-223">2500.00</span><span class="sxs-lookup"><span data-stu-id="4126d-223">2500.00</span></span>          |
+| <span data-ttu-id="4126d-224">Vision</span><span class="sxs-lookup"><span data-stu-id="4126d-224">Vision</span></span> | <span data-ttu-id="4126d-225">SupSp</span><span class="sxs-lookup"><span data-stu-id="4126d-225">SupSp</span></span>                  | <span data-ttu-id="4126d-226">500,00</span><span class="sxs-lookup"><span data-stu-id="4126d-226">500.00</span></span>           |
 
-5. Dans l'onglet **Contributions pour les avantages**, entrez les informations suivantes :
+5. <span data-ttu-id="4126d-227">Dans l'onglet **Contributions pour les avantages**, entrez les informations suivantes :</span><span class="sxs-lookup"><span data-stu-id="4126d-227">In the **Benefit contributions** tab and enter the following:</span></span>
 
-| Champ              | Valeur               |
+| <span data-ttu-id="4126d-228">Champ</span><span class="sxs-lookup"><span data-stu-id="4126d-228">Field</span></span>              | <span data-ttu-id="4126d-229">Valeur</span><span class="sxs-lookup"><span data-stu-id="4126d-229">Value</span></span>               |
 |--------------------|---------------------|
-| Avantage            | Montant de la contribution |
-| 401K | Participer | 3000,00             |
-| assurance pour les soins dentaires. | SubSp     | 495,00              |
-| Vision | SubSp     | 500,00              |
+| <span data-ttu-id="4126d-230">Avantage</span><span class="sxs-lookup"><span data-stu-id="4126d-230">Benefit</span></span>            | <span data-ttu-id="4126d-231">Montant de la contribution</span><span class="sxs-lookup"><span data-stu-id="4126d-231">Contribution amount</span></span> |
+| <span data-ttu-id="4126d-232">401K</span><span class="sxs-lookup"><span data-stu-id="4126d-232">401K</span></span> | <span data-ttu-id="4126d-233">Participer</span><span class="sxs-lookup"><span data-stu-id="4126d-233">Participate</span></span> | <span data-ttu-id="4126d-234">3000,00</span><span class="sxs-lookup"><span data-stu-id="4126d-234">3000,00</span></span>             |
+| <span data-ttu-id="4126d-235">assurance pour les soins dentaires.</span><span class="sxs-lookup"><span data-stu-id="4126d-235">Dental</span></span> | <span data-ttu-id="4126d-236">SubSp</span><span class="sxs-lookup"><span data-stu-id="4126d-236">SubSp</span></span>     | <span data-ttu-id="4126d-237">495,00</span><span class="sxs-lookup"><span data-stu-id="4126d-237">495.00</span></span>              |
+| <span data-ttu-id="4126d-238">Vision</span><span class="sxs-lookup"><span data-stu-id="4126d-238">Vision</span></span> | <span data-ttu-id="4126d-239">SubSp</span><span class="sxs-lookup"><span data-stu-id="4126d-239">SubSp</span></span>     | <span data-ttu-id="4126d-240">500,00</span><span class="sxs-lookup"><span data-stu-id="4126d-240">500.00</span></span>              |
 
-6. Dans l'onglet **Retenues fiscales**, entrez les informations suivantes :
+6. <span data-ttu-id="4126d-241">Dans l'onglet **Retenues fiscales**, entrez les informations suivantes :</span><span class="sxs-lookup"><span data-stu-id="4126d-241">In the **Tax deductions** tab, enter the following:</span></span>
 
-| Champ           | Valeur            |
+| <span data-ttu-id="4126d-242">Champ</span><span class="sxs-lookup"><span data-stu-id="4126d-242">Field</span></span>           | <span data-ttu-id="4126d-243">Valeur</span><span class="sxs-lookup"><span data-stu-id="4126d-243">Value</span></span>            |
 |-----------------|------------------|
-| Code taxe        | Montant de la déduction |
-| USA-FED-ER-FICA | 1600.00          |
-| USA-FED-ER-MEDI | 825.75           |
+| <span data-ttu-id="4126d-244">Code taxe</span><span class="sxs-lookup"><span data-stu-id="4126d-244">Tax code</span></span>        | <span data-ttu-id="4126d-245">Montant de la déduction</span><span class="sxs-lookup"><span data-stu-id="4126d-245">Deduction amount</span></span> |
+| <span data-ttu-id="4126d-246">USA-FED-ER-FICA</span><span class="sxs-lookup"><span data-stu-id="4126d-246">USA-FED-ER-FICA</span></span> | <span data-ttu-id="4126d-247">1600.00</span><span class="sxs-lookup"><span data-stu-id="4126d-247">1600.00</span></span>          |
+| <span data-ttu-id="4126d-248">USA-FED-ER-MEDI</span><span class="sxs-lookup"><span data-stu-id="4126d-248">USA-FED-ER-MEDI</span></span> | <span data-ttu-id="4126d-249">825.75</span><span class="sxs-lookup"><span data-stu-id="4126d-249">825.75</span></span>           |
 
-7. Dans l'onglet **Contributions fiscales**, entrez les informations suivantes :
+7. <span data-ttu-id="4126d-250">Dans l'onglet **Contributions fiscales**, entrez les informations suivantes :</span><span class="sxs-lookup"><span data-stu-id="4126d-250">In the **Tax contributions** tab enter the following:</span></span>
 
-8. Cliquez sur **Calculer.**
+8. <span data-ttu-id="4126d-251">Cliquez sur **Calculer.**</span><span class="sxs-lookup"><span data-stu-id="4126d-251">Click **Calculate**.</span></span>
 > [!IMPORTANT] 
-> Validez les totaux du bordereau de paie pour qu'ils correspondent au cumul annuel du système hérité pour le collaborateur. Vous voudrez peut-être empêcher la finalisation à l'étape suivante pour effectuer une validation globale de tous les bordereaux de paie dans l'ensemble. Une fois validé, exécutez tous les bordereaux de paie et finalisez-les.
+> <span data-ttu-id="4126d-252">Validez les totaux du bordereau de paie pour qu'ils correspondent au cumul annuel du système hérité pour le collaborateur.</span><span class="sxs-lookup"><span data-stu-id="4126d-252">Validate the totals of the pay statement that they match the YTD of the legacy system for the worker.</span></span> <span data-ttu-id="4126d-253">Vous voudrez peut-être empêcher la finalisation à l'étape suivante pour effectuer une validation globale de tous les bordereaux de paie dans l'ensemble.</span><span class="sxs-lookup"><span data-stu-id="4126d-253">You may want to hold off on finalizing in the next step to do some overall validating of all pay statements in aggregate.</span></span> <span data-ttu-id="4126d-254">Une fois validé, exécutez tous les bordereaux de paie et finalisez-les.</span><span class="sxs-lookup"><span data-stu-id="4126d-254">Once validated run through all the pay statements and finalize them.</span></span>
 
-Le même processus peut être effectué par incréments trimestriels, si nécessaire, pour tous les trimestres antérieurs, chaque année. Cela n'est nécessaire que si le client doit voir les données par trimestre sans revenir au système existant.
+<span data-ttu-id="4126d-255">Le même processus peut être effectué par incréments trimestriels, si nécessaire, pour tous les trimestres antérieurs, chaque année.</span><span class="sxs-lookup"><span data-stu-id="4126d-255">The same process can be done in quarter increments if necessary for all prior quarters in each year.</span></span> <span data-ttu-id="4126d-256">Cela n'est nécessaire que si le client doit voir les données par trimestre sans revenir au système existant.</span><span class="sxs-lookup"><span data-stu-id="4126d-256">This is only needed if the customer needs to see the data by quarter without going back to the legacy system.</span></span>
 
-## <a name="if-you-make-a-mistake-entering-beginning-balances-for-an-employee"></a>En cas d'erreur lors de la saisie des soldes d'ouverture pour un employé
-Il est possible de contrepasser et d'entrer de nouveau les transactions. Pour contrepasser la transaction, tout ce que vous devez faire est de suivre les étapes de la page **Tous les bordereaux de paie**.
+## <a name="if-you-make-a-mistake-entering-beginning-balances-for-an-employee"></a><span data-ttu-id="4126d-257">En cas d'erreur lors de la saisie des soldes d'ouverture pour un employé</span><span class="sxs-lookup"><span data-stu-id="4126d-257">If you make a mistake Entering Beginning Balances for an Employee</span></span>
+<span data-ttu-id="4126d-258">Il est possible de contrepasser et d'entrer de nouveau les transactions.</span><span class="sxs-lookup"><span data-stu-id="4126d-258">It is possible to reverse and reenter transactions.</span></span> <span data-ttu-id="4126d-259">Pour contrepasser la transaction, tout ce que vous devez faire est de suivre les étapes de la page **Tous les bordereaux de paie**.</span><span class="sxs-lookup"><span data-stu-id="4126d-259">To reverse the transaction, all you have to do is to complete the follow steps on the **All pay statements** page.</span></span>
 
-1. Cliquez sur **Contrepasser**.
+1. <span data-ttu-id="4126d-260">Cliquez sur **Contrepasser**.</span><span class="sxs-lookup"><span data-stu-id="4126d-260">Click **Reverse**.</span></span>
 
-2. Cliquez sur **Oui** lorsque le message « Lorsque vous contrepassez ce bordereau de paie, un bordereau de paie de contrepassation est créé pour contrebalancer ce bordereau de paie Aucun bordereau de paie ne peut être modifié. Voulez-vous contrepasser ce bordereau de paie ? s'affiche. 
+2. <span data-ttu-id="4126d-261">Cliquez sur **Oui** lorsque le message « Lorsque vous contrepassez ce bordereau de paie, un bordereau de paie de contrepassation est créé pour contrebalancer ce bordereau de paie</span><span class="sxs-lookup"><span data-stu-id="4126d-261">Click **Yes** when the message "When you reverse this pay statement, a reversing pay statement will be created to offset this pay statement.</span></span> <span data-ttu-id="4126d-262">Aucun bordereau de paie ne peut être modifié.</span><span class="sxs-lookup"><span data-stu-id="4126d-262">Neither pay statement can be edited.</span></span> <span data-ttu-id="4126d-263">Voulez-vous contrepasser ce bordereau de paie ?</span><span class="sxs-lookup"><span data-stu-id="4126d-263">Do you want to reverse this pay statement?"</span></span> <span data-ttu-id="4126d-264">s'affiche.</span><span class="sxs-lookup"><span data-stu-id="4126d-264">displays.</span></span> 
 
-Après avoir contrepassé le bordereau de paie, vous pouvez générer un nouveau bordereau de paie pour le travailleur avec l'état des revenus que vous avez créé précédemment. Veillez à résoudre toutes les lignes incorrectes dans l'état des revenus avant de générer le nouveau bordereau de paie, puis générez de nouveaux bordereaux de paie avec les montants appropriés. 
+<span data-ttu-id="4126d-265">Après avoir contrepassé le bordereau de paie, vous pouvez générer un nouveau bordereau de paie pour le travailleur avec l'état des revenus que vous avez créé précédemment.</span><span class="sxs-lookup"><span data-stu-id="4126d-265">After you reverse the pay statement, you can generate a new pay statement for the worker from the earnings statement that you created previously.</span></span> <span data-ttu-id="4126d-266">Veillez à résoudre toutes les lignes incorrectes dans l'état des revenus avant de générer le nouveau bordereau de paie, puis générez de nouveaux bordereaux de paie avec les montants appropriés.</span><span class="sxs-lookup"><span data-stu-id="4126d-266">Be sure to fix any incorrect lines on the earnings statement before you generate the new pay statement, and then generate new pay statements with the correct amounts.</span></span> 
 

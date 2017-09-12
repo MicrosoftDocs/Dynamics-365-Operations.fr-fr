@@ -17,133 +17,133 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 01a0c42c43a23234e0e355193f8dd7e8ee116f71
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 02af5d1beb2d4eb6a7162b47c42854725fbdbec2
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-a-min-max-replenishment-process"></a>Paramétrer un processus de réapprovisionnement minimum/maximum
+# <a name="set-up-a-min-max-replenishment-process"></a><span data-ttu-id="9f71a-103">Paramétrer un processus de réapprovisionnement minimum/maximum</span><span class="sxs-lookup"><span data-stu-id="9f71a-103">Set up a min-max replenishment process</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Cette procédure décrit la manière de paramétrer un nouveau processus de réapprovisionnement qui utilise une stratégie de réapprovisionnement minimal/maximal. Lorsque le stock passe en dessous du niveau minimal, le travail est créé pour réapprovisionner l'emplacement. La procédure indique également comment utiliser les emplacements de prélèvement fixes pour autoriser la remise en stock même si le stock passe en dessous du niveau minimal et comment activer le processus de réapprovisionnement pour qu'il s'exécute régulièrement en utilisant un traitement par lots. Ces tâches sont généralement effectuées par un responsable de l'entrepôt. Vous pouvez exécuter cette procédure dans les données fictives de la société USMF à l'aide des valeurs d'exemple dans les notes, ou pouvez l'exécuter sur vos propres données. Si vous utilisez vos propres données, vérifiez que vous avez un entrepôt qui est activé pour les processus de gestion des entrepôts.
+<span data-ttu-id="9f71a-104">Cette procédure décrit la manière de paramétrer un nouveau processus de réapprovisionnement qui utilise une stratégie de réapprovisionnement minimal/maximal.</span><span class="sxs-lookup"><span data-stu-id="9f71a-104">This procedure shows you how to set up a new replenishment process which uses the minimum/maximum replenishment strategy.</span></span> <span data-ttu-id="9f71a-105">Lorsque le stock passe en dessous du niveau minimal, le travail est créé pour réapprovisionner l'emplacement.</span><span class="sxs-lookup"><span data-stu-id="9f71a-105">When inventory falls below the minimum level, work will be created to replenish the location.</span></span> <span data-ttu-id="9f71a-106">La procédure indique également comment utiliser les emplacements de prélèvement fixes pour autoriser la remise en stock même si le stock passe en dessous du niveau minimal et comment activer le processus de réapprovisionnement pour qu'il s'exécute régulièrement en utilisant un traitement par lots.</span><span class="sxs-lookup"><span data-stu-id="9f71a-106">The procedure also shows how to use fixed picking locations to allow restocking even if inventory falls below the minimum level, and how to enable the replenishment process to run regularly using a batch job.</span></span> <span data-ttu-id="9f71a-107">Ces tâches sont généralement effectuées par un responsable de l'entrepôt.</span><span class="sxs-lookup"><span data-stu-id="9f71a-107">These tasks would typically be carried out by a warehouse manager.</span></span> <span data-ttu-id="9f71a-108">Vous pouvez exécuter cette procédure dans les données fictives de la société USMF à l'aide des valeurs d'exemple dans les notes, ou pouvez l'exécuter sur vos propres données.</span><span class="sxs-lookup"><span data-stu-id="9f71a-108">You can run this procedure in the USMF demo data company using the example values in the notes, or can run it on your own data.</span></span> <span data-ttu-id="9f71a-109">Si vous utilisez vos propres données, vérifiez que vous avez un entrepôt qui est activé pour les processus de gestion des entrepôts.</span><span class="sxs-lookup"><span data-stu-id="9f71a-109">If you’re using your own data, make sure that you have a warehouse that’s enabled for Warehouse management processes.</span></span>
 
 
-## <a name="create-a-fixed-picking-location"></a>Créer un emplacement de prélèvement fixe
-1. Accédez à Gestion des entrepôts > Paramétrage > Entrepôt > Emplacements fixes.
-    * Il s'agit d'une tâche facultative pour le réapprovisionnement minimum/maximum, mais si vous utilisez un emplacement de prélèvement fixe, cela permet de réapprovisionner le stock même s'il passe en dessous du niveau minimal, car le système peut déterminer les articles qui doivent être réapprovisionnés, même s'il n'en reste plus.  
-2. Cliquez sur Nouveau.
-3. Entrez ou sélectionnez une valeur dans le champ Numéro d'article.
-    * Si vous utilisez USMF, vous pouvez sélectionner l'article A0001.  
-4. Saisissez ou sélectionnez une valeur dans le champ Site.
-    * Si vous utilisez USMF, vous pouvez sélectionner site 2.  
-5. Dans le champ Entrepôt, saisissez ou sélectionnez une valeur.
-    * Si vous utilisez USMF, vous pouvez sélectionner l'entrepôt 24.  
-6. Saisissez ou sélectionnez une valeur dans le champ Emplacement.
-    * Si vous utilisez USMF, vous pouvez sélectionner CP-003.  
-7. Fermez la page.
+## <a name="create-a-fixed-picking-location"></a><span data-ttu-id="9f71a-110">Créer un emplacement de prélèvement fixe</span><span class="sxs-lookup"><span data-stu-id="9f71a-110">Create a fixed picking location</span></span>
+1. <span data-ttu-id="9f71a-111">Accédez à Gestion des entrepôts > Paramétrage > Entrepôt > Emplacements fixes.</span><span class="sxs-lookup"><span data-stu-id="9f71a-111">Go to Warehouse management > Setup > Warehouse > Fixed locations.</span></span>
+    * <span data-ttu-id="9f71a-112">Il s'agit d'une tâche facultative pour le réapprovisionnement minimum/maximum, mais si vous utilisez un emplacement de prélèvement fixe, cela permet de réapprovisionner le stock même s'il passe en dessous du niveau minimal, car le système peut déterminer les articles qui doivent être réapprovisionnés, même s'il n'en reste plus.</span><span class="sxs-lookup"><span data-stu-id="9f71a-112">This is an optional task for min-max replenishment, but if you use fixed picking location, this allows stock to be replenished even if it falls below the minimum level, because the system can determine which items need to be replenished, even if there aren't any left.</span></span>  
+2. <span data-ttu-id="9f71a-113">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="9f71a-113">Click New.</span></span>
+3. <span data-ttu-id="9f71a-114">Entrez ou sélectionnez une valeur dans le champ Numéro d'article.</span><span class="sxs-lookup"><span data-stu-id="9f71a-114">In the Item number field, enter or select a value.</span></span>
+    * <span data-ttu-id="9f71a-115">Si vous utilisez USMF, vous pouvez sélectionner l'article A0001.</span><span class="sxs-lookup"><span data-stu-id="9f71a-115">If you’re using USMF, you can select item A0001.</span></span>  
+4. <span data-ttu-id="9f71a-116">Saisissez ou sélectionnez une valeur dans le champ Site.</span><span class="sxs-lookup"><span data-stu-id="9f71a-116">In the Site field, enter or select a value.</span></span>
+    * <span data-ttu-id="9f71a-117">Si vous utilisez USMF, vous pouvez sélectionner site 2.</span><span class="sxs-lookup"><span data-stu-id="9f71a-117">If you’re using USMF, you can select site 2.</span></span>  
+5. <span data-ttu-id="9f71a-118">Dans le champ Entrepôt, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="9f71a-118">In the Warehouse field, enter or select a value.</span></span>
+    * <span data-ttu-id="9f71a-119">Si vous utilisez USMF, vous pouvez sélectionner l'entrepôt 24.</span><span class="sxs-lookup"><span data-stu-id="9f71a-119">If you’re using USMF, you can select warehouse 24.</span></span>  
+6. <span data-ttu-id="9f71a-120">Saisissez ou sélectionnez une valeur dans le champ Emplacement.</span><span class="sxs-lookup"><span data-stu-id="9f71a-120">In the Location field, enter or select a value.</span></span>
+    * <span data-ttu-id="9f71a-121">Si vous utilisez USMF, vous pouvez sélectionner CP-003.</span><span class="sxs-lookup"><span data-stu-id="9f71a-121">If you’re using USMF, you can select CP-003.</span></span>  
+7. <span data-ttu-id="9f71a-122">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="9f71a-122">Close the page.</span></span>
 
-## <a name="create-a-replenishment-location-directive"></a>Créer une instruction de réassort d'entrepôt
-1. Accédez à Gestion des entrepôts > Configuration > Instructions d'emplacements.
-    * Les directives d'emplacement permettent de déterminer où les articles doivent être prélevés à partir du processus de réapprovisionnement.  
-2. Sélectionnez Réapprovisionnement dans le champ Type d'ordre d'exécution.
-3. Cliquez sur Nouveau.
-4. Tapez une valeur dans le champ Nom.
-5. Dans le champ Type de travail, sélectionnez « Prélever ».
-6. Saisissez ou sélectionnez une valeur dans le champ Site.
-    * Si vous utilisez USMF, vous pouvez sélectionner site 2.  
-7. Dans le champ Entrepôt, saisissez ou sélectionnez une valeur.
-    * Si vous utilisez USMF, vous pouvez sélectionner l'entrepôt 24.  
-8. Cliquez sur Enregistrer.
-9. Cliquez sur Nouveau.
-10. Dans la liste, marquez la ligne sélectionnée.
-11. Dans le champ Quantité d'arrivée, entrez un nombre.
-    * Par exemple, vous pouvez définir sur 9999.  
-12. Activez la case à cocher Autoriser le fractionnement.
-    * Si vous sélectionnez cette option, le processus de création de travail laissera les quantités sur des lignes de travail être fractionnées entre plusieurs emplacements.  
-13. Cliquez sur Enregistrer.
-14. Cliquez sur Nouveau.
-15. Dans la liste, marquez la ligne sélectionnée.
-16. Tapez une valeur dans le champ Nom.
-17. Cliquez sur Enregistrer.
-18. Cliquez sur Modifier la demande.
-    * Vous pouvez modifier cette requête pour ajouter des restrictions dans lesquelles le stock peut être sélectionné à partir du processus de réapprovisionnement. Le stock peut par exemple uniquement être utilisé à partir de la zone de stockage en gros de l'entrepôt.  
-19. Cliquez sur OK.
-20. Fermez la page.
+## <a name="create-a-replenishment-location-directive"></a><span data-ttu-id="9f71a-123">Créer une instruction de réassort d'entrepôt</span><span class="sxs-lookup"><span data-stu-id="9f71a-123">Create a replenishment location directive</span></span>
+1. <span data-ttu-id="9f71a-124">Accédez à Gestion des entrepôts > Configuration > Instructions d'emplacements.</span><span class="sxs-lookup"><span data-stu-id="9f71a-124">Go to Warehouse management > Setup > Location directives.</span></span>
+    * <span data-ttu-id="9f71a-125">Les directives d'emplacement permettent de déterminer où les articles doivent être prélevés à partir du processus de réapprovisionnement.</span><span class="sxs-lookup"><span data-stu-id="9f71a-125">Location directives are used to determine where items should be picked from in the replenishment process.</span></span>  
+2. <span data-ttu-id="9f71a-126">Sélectionnez Réapprovisionnement dans le champ Type d'ordre d'exécution.</span><span class="sxs-lookup"><span data-stu-id="9f71a-126">In the Work order type field, select 'Replenishment'.</span></span>
+3. <span data-ttu-id="9f71a-127">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="9f71a-127">Click New.</span></span>
+4. <span data-ttu-id="9f71a-128">Tapez une valeur dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="9f71a-128">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="9f71a-129">Dans le champ Type de travail, sélectionnez « Prélever ».</span><span class="sxs-lookup"><span data-stu-id="9f71a-129">In the Work type field, select 'Pick'.</span></span>
+6. <span data-ttu-id="9f71a-130">Saisissez ou sélectionnez une valeur dans le champ Site.</span><span class="sxs-lookup"><span data-stu-id="9f71a-130">In the Site field, enter or select a value.</span></span>
+    * <span data-ttu-id="9f71a-131">Si vous utilisez USMF, vous pouvez sélectionner site 2.</span><span class="sxs-lookup"><span data-stu-id="9f71a-131">If you’re using USMF, you can select site 2.</span></span>  
+7. <span data-ttu-id="9f71a-132">Dans le champ Entrepôt, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="9f71a-132">In the Warehouse field, enter or select a value.</span></span>
+    * <span data-ttu-id="9f71a-133">Si vous utilisez USMF, vous pouvez sélectionner l'entrepôt 24.</span><span class="sxs-lookup"><span data-stu-id="9f71a-133">If you’re using USMF, you can select warehouse 24.</span></span>  
+8. <span data-ttu-id="9f71a-134">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="9f71a-134">Click Save.</span></span>
+9. <span data-ttu-id="9f71a-135">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="9f71a-135">Click New.</span></span>
+10. <span data-ttu-id="9f71a-136">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="9f71a-136">In the list, mark the selected row.</span></span>
+11. <span data-ttu-id="9f71a-137">Dans le champ Quantité d'arrivée, entrez un nombre.</span><span class="sxs-lookup"><span data-stu-id="9f71a-137">In the To quantity field, enter a number.</span></span>
+    * <span data-ttu-id="9f71a-138">Par exemple, vous pouvez définir sur 9999.</span><span class="sxs-lookup"><span data-stu-id="9f71a-138">For example, you can set it to 9999.</span></span>  
+12. <span data-ttu-id="9f71a-139">Activez la case à cocher Autoriser le fractionnement.</span><span class="sxs-lookup"><span data-stu-id="9f71a-139">Select the Allow split check box.</span></span>
+    * <span data-ttu-id="9f71a-140">Si vous sélectionnez cette option, le processus de création de travail laissera les quantités sur des lignes de travail être fractionnées entre plusieurs emplacements.</span><span class="sxs-lookup"><span data-stu-id="9f71a-140">If you select this option, the work creation process will allow work line quantities to be split across multiple locations.</span></span>  
+13. <span data-ttu-id="9f71a-141">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="9f71a-141">Click Save.</span></span>
+14. <span data-ttu-id="9f71a-142">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="9f71a-142">Click New.</span></span>
+15. <span data-ttu-id="9f71a-143">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="9f71a-143">In the list, mark the selected row.</span></span>
+16. <span data-ttu-id="9f71a-144">Tapez une valeur dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="9f71a-144">In the Name field, type a value.</span></span>
+17. <span data-ttu-id="9f71a-145">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="9f71a-145">Click Save.</span></span>
+18. <span data-ttu-id="9f71a-146">Cliquez sur Modifier la demande.</span><span class="sxs-lookup"><span data-stu-id="9f71a-146">Click Edit query.</span></span>
+    * <span data-ttu-id="9f71a-147">Vous pouvez modifier cette requête pour ajouter des restrictions dans lesquelles le stock peut être sélectionné à partir du processus de réapprovisionnement.</span><span class="sxs-lookup"><span data-stu-id="9f71a-147">You can edit this query to add restrictions where inventory can be selected from in the replenishment process.</span></span> <span data-ttu-id="9f71a-148">Le stock peut par exemple uniquement être utilisé à partir de la zone de stockage en gros de l'entrepôt.</span><span class="sxs-lookup"><span data-stu-id="9f71a-148">For example, it could be that inventory should only be used from the Bulk area of the warehouse.</span></span>  
+19. <span data-ttu-id="9f71a-149">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="9f71a-149">Click OK.</span></span>
+20. <span data-ttu-id="9f71a-150">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="9f71a-150">Close the page.</span></span>
 
-## <a name="create-a-replenishment-work-template"></a>Créer un modèle de travail de réapprovisionnement
-1. Accédez à Gestion des entrepôts > Configuration > Travail > Modèles de travail.
-    * Le modèle de travail permet de guider le système à propos du travail minimum/maximum de réapprovisionnement à créer. Il doit au minimum y avoir une ligne de modèle de travail pour le prélèvement et le rangement. Le modèle de travail indique qu'il n'est pas valide tant que toutes les informations nécessaires n'ont pas été renseignées.  
-2. Sélectionnez Réapprovisionnement dans le champ Type d'ordre d'exécution.
-3. Cliquez sur Nouveau.
-4. Dans le champ Modèle de travail, tapez une valeur.
-5. Cliquez sur Enregistrer.
-6. Cliquez sur Nouveau.
-7. Dans le champ Type de travail, sélectionnez « Prélever ».
-8. Saisissez ou sélectionnez une valeur dans le champ ID classe de travail.
-    * Il doit s'agir d'une classe de travail concernant le réapprovisionnement. Si vous utilisez USMF, sélectionnez Réapprovisionner.  
-9. Cliquez sur Nouveau.
-10. Dans la liste, marquez la ligne sélectionnée.
-11. Dans le champ Type de travail, sélectionnez « Put ».
-12. Saisissez ou sélectionnez une valeur dans le champ ID classe de travail.
-13. Cliquez sur Enregistrer.
-14. Fermez la page.
+## <a name="create-a-replenishment-work-template"></a><span data-ttu-id="9f71a-151">Créer un modèle de travail de réapprovisionnement</span><span class="sxs-lookup"><span data-stu-id="9f71a-151">Create a replenishment work template</span></span>
+1. <span data-ttu-id="9f71a-152">Accédez à Gestion des entrepôts > Configuration > Travail > Modèles de travail.</span><span class="sxs-lookup"><span data-stu-id="9f71a-152">Go to Warehouse management > Setup > Work > Work templates.</span></span>
+    * <span data-ttu-id="9f71a-153">Le modèle de travail permet de guider le système à propos du travail minimum/maximum de réapprovisionnement à créer.</span><span class="sxs-lookup"><span data-stu-id="9f71a-153">The work template is use to guide the system as to how the min/max replenishment work must be created.</span></span> <span data-ttu-id="9f71a-154">Il doit au minimum y avoir une ligne de modèle de travail pour le prélèvement et le rangement.</span><span class="sxs-lookup"><span data-stu-id="9f71a-154">As a minimum, there must be a work template line for a pick and a put.</span></span> <span data-ttu-id="9f71a-155">Le modèle de travail indique qu'il n'est pas valide tant que toutes les informations nécessaires n'ont pas été renseignées.</span><span class="sxs-lookup"><span data-stu-id="9f71a-155">The work template will say that it’s Invalid until all the necessary information has been filled in.</span></span>  
+2. <span data-ttu-id="9f71a-156">Sélectionnez Réapprovisionnement dans le champ Type d'ordre d'exécution.</span><span class="sxs-lookup"><span data-stu-id="9f71a-156">In the Work order type field, select 'Replenishment'.</span></span>
+3. <span data-ttu-id="9f71a-157">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="9f71a-157">Click New.</span></span>
+4. <span data-ttu-id="9f71a-158">Dans le champ Modèle de travail, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="9f71a-158">In the Work template field, type a value.</span></span>
+5. <span data-ttu-id="9f71a-159">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="9f71a-159">Click Save.</span></span>
+6. <span data-ttu-id="9f71a-160">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="9f71a-160">Click New.</span></span>
+7. <span data-ttu-id="9f71a-161">Dans le champ Type de travail, sélectionnez « Prélever ».</span><span class="sxs-lookup"><span data-stu-id="9f71a-161">In the Work type field, select 'Pick'.</span></span>
+8. <span data-ttu-id="9f71a-162">Saisissez ou sélectionnez une valeur dans le champ ID classe de travail.</span><span class="sxs-lookup"><span data-stu-id="9f71a-162">In the Work class ID field, enter or select a value.</span></span>
+    * <span data-ttu-id="9f71a-163">Il doit s'agir d'une classe de travail concernant le réapprovisionnement.</span><span class="sxs-lookup"><span data-stu-id="9f71a-163">This should be a work class related to replenishment.</span></span> <span data-ttu-id="9f71a-164">Si vous utilisez USMF, sélectionnez Réapprovisionner.</span><span class="sxs-lookup"><span data-stu-id="9f71a-164">If you’re using USMF, select Replenish.</span></span>  
+9. <span data-ttu-id="9f71a-165">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="9f71a-165">Click New.</span></span>
+10. <span data-ttu-id="9f71a-166">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="9f71a-166">In the list, mark the selected row.</span></span>
+11. <span data-ttu-id="9f71a-167">Dans le champ Type de travail, sélectionnez « Put ».</span><span class="sxs-lookup"><span data-stu-id="9f71a-167">In the Work type field, select 'Put'.</span></span>
+12. <span data-ttu-id="9f71a-168">Saisissez ou sélectionnez une valeur dans le champ ID classe de travail.</span><span class="sxs-lookup"><span data-stu-id="9f71a-168">In the Work class ID field, enter or select a value.</span></span>
+13. <span data-ttu-id="9f71a-169">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="9f71a-169">Click Save.</span></span>
+14. <span data-ttu-id="9f71a-170">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="9f71a-170">Close the page.</span></span>
 
-## <a name="create-a-new-replenishment-template"></a>Créer un modèle de réapprovisionnement
-1. Accédez à Gestion des entrepôts > Paramétrage > Réapprovisionnement > Modèles de réapprovisionnement.
-    * Le modèle de réapprovisionnement permet de définir les articles et les quantités, et l'emplacement à réapprovisionner.  
-2. Cliquez sur Nouveau.
-3. Tapez une valeur dans le champ Modèle de réapprovisionnement.
-    * Donnez un nom au modèle pour indiquer qu'il est destiné au réapprovisionnement minimum/maximum.  
-4. Dans le champ Description, entrez une valeur.
-5. Activez la case à cocher Autoriser la demande de vague pour utiliser des quantités non réservées.
-    * Si cette option est sélectionnée, elle permet au réapprovisionnement de demande de vague de consommer des quantités associées au réapprovisionnement minimum/maximum. Par exemple, cela peut être utile si le travail minimum/maximum de réapprovisionnement n'est pas traité immédiatement, pour éviter de créer un travail inutile de réapprovisionnement.  
-6. Cliquez sur Nouveau.
-7. Entrez un nombre dans le champ Numéro de souche.
-8. Dans le champ Description, entrez une valeur.
-9. Dans la liste, marquez la ligne sélectionnée.
-10. Saisissez ou sélectionnez une valeur dans le champ Unité de réapprovisionnement.
-    * Par exemple, sélectionnez pcs. Ce paramètre est obligatoire. Il permet de spécifier une unité de mesure différente pour le travail de réapprovisionnement comparé à l'unité spécifiée pour les niveaux des stocks minimum et maximum dans ce modèle.  
-11. Saisissez ou sélectionnez une valeur dans le champ Modèle de travail.
-    * Choisissez le modèle de travail créé précédemment.  
-12. Entrez un nombre dans le champ Quantité minimale.
-    * Sélectionnez la quantité minimale qui doit déclencher le réapprovisionnement. Par exemple, paramétrez cela sur 50. Il est possible de laisser cette valeur sur zéro, si vous réapprovisionnez un emplacement fixe et si l'option Réapprovisionner les emplacements fixes vides est définie sur Oui. Il est également recommandé de sélectionner l'option Réapprovisionner uniquement des emplacements fixes pour des raisons de performances.  
-13. Entrez un nombre dans le champ Quantité maximale.
-    * Par exemple, définissez cette valeur sur 100.  
-14. Saisissez ou sélectionnez une valeur dans le champ Unité.
-    * Affectez l'unité des quantités minimales et maximales. Par exemple, paramétrez cela sur pcs.  
-15. Activez la case à cocher Réapprovisionner les emplacements fixes vides.
-    * Activez cette case à cocher pour réapprovisionner les emplacements fixes lorsqu'ils sont vides. Sinon, seuls les emplacements où il existe une quantité disponible seront réapprovisionnés.  
-16. Activez la case à cocher Réapprovisionner uniquement des emplacements fixes.
-17. Cliquez sur Sélectionner les produits.
-    * Il s'agit de l'emplacement pour définir quels produits doivent être réapprovisionnés. Si l'option d'emplacements de prélèvement fixes est activée, vous devez également définir les emplacements de cette requête. Variante : des requêtes spécifiques sont disponibles, ainsi que des requêtes spécifiques à un produit.  
-18. Sélectionnez la ligne Articles.
-19. Tapez une valeur dans le champ Critères.
-    * Sélectionnez les articles devant être réapprovisionnés à des emplacements fixes. Par exemple, entrez A* pour sélectionner tous les numéros d'article commençant par A.  
-20. Cliquez sur Ajouter.
-    * Ajoutez l'entité Emplacement (à moins qu'elle existe déjà) pour pouvoir limiter le travail de réapprovisionnement à des emplacements fixes de prélèvement dans une zone spécifique de l'entrepôt.  
-21. Dans la liste, marquez la ligne sélectionnée.
-22. Paramétrez le champ Table sur Emplacements.
-23. Dans le champ Champ, sélectionnez ID profil d'emplacement.
-24. Dans le champ Critères, saisissez ou sélectionnez une valeur.
-25. Cliquez sur OK.
-26. Fermez la page.
+## <a name="create-a-new-replenishment-template"></a><span data-ttu-id="9f71a-171">Créer un modèle de réapprovisionnement</span><span class="sxs-lookup"><span data-stu-id="9f71a-171">Create a new replenishment template</span></span>
+1. <span data-ttu-id="9f71a-172">Accédez à Gestion des entrepôts > Paramétrage > Réapprovisionnement > Modèles de réapprovisionnement.</span><span class="sxs-lookup"><span data-stu-id="9f71a-172">Go to Warehouse management > Setup > Replenishment > Replenishment templates.</span></span>
+    * <span data-ttu-id="9f71a-173">Le modèle de réapprovisionnement permet de définir les articles et les quantités, et l'emplacement à réapprovisionner.</span><span class="sxs-lookup"><span data-stu-id="9f71a-173">The replenishment template is used to define the items and quantities, and the location to replenish.</span></span>  
+2. <span data-ttu-id="9f71a-174">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="9f71a-174">Click New.</span></span>
+3. <span data-ttu-id="9f71a-175">Tapez une valeur dans le champ Modèle de réapprovisionnement.</span><span class="sxs-lookup"><span data-stu-id="9f71a-175">In the Replenish template field, type a value.</span></span>
+    * <span data-ttu-id="9f71a-176">Donnez un nom au modèle pour indiquer qu'il est destiné au réapprovisionnement minimum/maximum.</span><span class="sxs-lookup"><span data-stu-id="9f71a-176">Give the template a name to indicate that it’s for min/max replenishment.</span></span>  
+4. <span data-ttu-id="9f71a-177">Dans le champ Description, entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="9f71a-177">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="9f71a-178">Activez la case à cocher Autoriser la demande de vague pour utiliser des quantités non réservées.</span><span class="sxs-lookup"><span data-stu-id="9f71a-178">Select the Allow wave demand to use unreserved quantities check box.</span></span>
+    * <span data-ttu-id="9f71a-179">Si cette option est sélectionnée, elle permet au réapprovisionnement de demande de vague de consommer des quantités associées au réapprovisionnement minimum/maximum.</span><span class="sxs-lookup"><span data-stu-id="9f71a-179">If you select this option, it enables wave demand replenishment to consume quantities that are related to min/max replenishment.</span></span> <span data-ttu-id="9f71a-180">Par exemple, cela peut être utile si le travail minimum/maximum de réapprovisionnement n'est pas traité immédiatement, pour éviter de créer un travail inutile de réapprovisionnement.</span><span class="sxs-lookup"><span data-stu-id="9f71a-180">For example, this might be useful if the min/max replenishment work isn’t processed immediately, to avoid unnecessary demand replenishment work from being created.</span></span>  
+6. <span data-ttu-id="9f71a-181">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="9f71a-181">Click New.</span></span>
+7. <span data-ttu-id="9f71a-182">Entrez un nombre dans le champ Numéro de souche.</span><span class="sxs-lookup"><span data-stu-id="9f71a-182">In the Sequence number field, enter a number.</span></span>
+8. <span data-ttu-id="9f71a-183">Dans le champ Description, entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="9f71a-183">In the Description field, type a value.</span></span>
+9. <span data-ttu-id="9f71a-184">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="9f71a-184">In the list, mark the selected row.</span></span>
+10. <span data-ttu-id="9f71a-185">Saisissez ou sélectionnez une valeur dans le champ Unité de réapprovisionnement.</span><span class="sxs-lookup"><span data-stu-id="9f71a-185">In the Replenishment unit field, enter or select a value.</span></span>
+    * <span data-ttu-id="9f71a-186">Par exemple, sélectionnez pcs.</span><span class="sxs-lookup"><span data-stu-id="9f71a-186">For example, select pcs.</span></span> <span data-ttu-id="9f71a-187">Ce paramètre est obligatoire.</span><span class="sxs-lookup"><span data-stu-id="9f71a-187">This setting is mandatory.</span></span> <span data-ttu-id="9f71a-188">Il permet de spécifier une unité de mesure différente pour le travail de réapprovisionnement comparé à l'unité spécifiée pour les niveaux des stocks minimum et maximum dans ce modèle.</span><span class="sxs-lookup"><span data-stu-id="9f71a-188">It allows you to specify a different unit of measurement for replenishment work compared to the unit specified for the minimum and maximum stock levels in this template.</span></span>  
+11. <span data-ttu-id="9f71a-189">Saisissez ou sélectionnez une valeur dans le champ Modèle de travail.</span><span class="sxs-lookup"><span data-stu-id="9f71a-189">In the Work template field, enter or select a value.</span></span>
+    * <span data-ttu-id="9f71a-190">Choisissez le modèle de travail créé précédemment.</span><span class="sxs-lookup"><span data-stu-id="9f71a-190">Choose the work template that you created earlier.</span></span>  
+12. <span data-ttu-id="9f71a-191">Entrez un nombre dans le champ Quantité minimale.</span><span class="sxs-lookup"><span data-stu-id="9f71a-191">In the Minimum quantity field, enter a number.</span></span>
+    * <span data-ttu-id="9f71a-192">Sélectionnez la quantité minimale qui doit déclencher le réapprovisionnement.</span><span class="sxs-lookup"><span data-stu-id="9f71a-192">Select the minimum quantity that should trigger the replenishment.</span></span> <span data-ttu-id="9f71a-193">Par exemple, paramétrez cela sur 50.</span><span class="sxs-lookup"><span data-stu-id="9f71a-193">For example, set this to 50.</span></span> <span data-ttu-id="9f71a-194">Il est possible de laisser cette valeur sur zéro, si vous réapprovisionnez un emplacement fixe et si l'option Réapprovisionner les emplacements fixes vides est définie sur Oui.</span><span class="sxs-lookup"><span data-stu-id="9f71a-194">It is possible to leave this set to zero, if you’re replenishing a fixed location and the Replenish empty fixed locations option is set to Yes.</span></span> <span data-ttu-id="9f71a-195">Il est également recommandé de sélectionner l'option Réapprovisionner uniquement des emplacements fixes pour des raisons de performances.</span><span class="sxs-lookup"><span data-stu-id="9f71a-195">We also recommend that you select the Replenish only fixed locations option for performance reasons.</span></span>  
+13. <span data-ttu-id="9f71a-196">Entrez un nombre dans le champ Quantité maximale.</span><span class="sxs-lookup"><span data-stu-id="9f71a-196">In the Maximum quantity field, enter a number.</span></span>
+    * <span data-ttu-id="9f71a-197">Par exemple, définissez cette valeur sur 100.</span><span class="sxs-lookup"><span data-stu-id="9f71a-197">For example, set this to 100.</span></span>  
+14. <span data-ttu-id="9f71a-198">Saisissez ou sélectionnez une valeur dans le champ Unité.</span><span class="sxs-lookup"><span data-stu-id="9f71a-198">In the Unit field, enter or select a value.</span></span>
+    * <span data-ttu-id="9f71a-199">Affectez l'unité des quantités minimales et maximales.</span><span class="sxs-lookup"><span data-stu-id="9f71a-199">Assign the unit for the minimum and maximum quantities.</span></span> <span data-ttu-id="9f71a-200">Par exemple, paramétrez cela sur pcs.</span><span class="sxs-lookup"><span data-stu-id="9f71a-200">For example, set this to pcs.</span></span>  
+15. <span data-ttu-id="9f71a-201">Activez la case à cocher Réapprovisionner les emplacements fixes vides.</span><span class="sxs-lookup"><span data-stu-id="9f71a-201">Select the Replenish empty fixed locations check box.</span></span>
+    * <span data-ttu-id="9f71a-202">Activez cette case à cocher pour réapprovisionner les emplacements fixes lorsqu'ils sont vides.</span><span class="sxs-lookup"><span data-stu-id="9f71a-202">Select this check box to replenish fixed locations when they are empty.</span></span> <span data-ttu-id="9f71a-203">Sinon, seuls les emplacements où il existe une quantité disponible seront réapprovisionnés.</span><span class="sxs-lookup"><span data-stu-id="9f71a-203">Otherwise, only the locations where there is a quantity on hand will be replenished.</span></span>  
+16. <span data-ttu-id="9f71a-204">Activez la case à cocher Réapprovisionner uniquement des emplacements fixes.</span><span class="sxs-lookup"><span data-stu-id="9f71a-204">Select the Replenish only fixed locations check box.</span></span>
+17. <span data-ttu-id="9f71a-205">Cliquez sur Sélectionner les produits.</span><span class="sxs-lookup"><span data-stu-id="9f71a-205">Click Select products.</span></span>
+    * <span data-ttu-id="9f71a-206">Il s'agit de l'emplacement pour définir quels produits doivent être réapprovisionnés.</span><span class="sxs-lookup"><span data-stu-id="9f71a-206">This is the place to define which products should be replenished.</span></span> <span data-ttu-id="9f71a-207">Si l'option d'emplacements de prélèvement fixes est activée, vous devez également définir les emplacements de cette requête.</span><span class="sxs-lookup"><span data-stu-id="9f71a-207">If the Fixed picking locations option is selected, you also need to define the locations in this query.</span></span> <span data-ttu-id="9f71a-208">Variante : des requêtes spécifiques sont disponibles, ainsi que des requêtes spécifiques à un produit.</span><span class="sxs-lookup"><span data-stu-id="9f71a-208">Variant-specific queries are available as well product-specific queries.</span></span>  
+18. <span data-ttu-id="9f71a-209">Sélectionnez la ligne Articles.</span><span class="sxs-lookup"><span data-stu-id="9f71a-209">Select the Items row.</span></span>
+19. <span data-ttu-id="9f71a-210">Tapez une valeur dans le champ Critères.</span><span class="sxs-lookup"><span data-stu-id="9f71a-210">In the Criteria field, type a value.</span></span>
+    * <span data-ttu-id="9f71a-211">Sélectionnez les articles devant être réapprovisionnés à des emplacements fixes.</span><span class="sxs-lookup"><span data-stu-id="9f71a-211">Select the items that should be replenished at the fixed locations.</span></span> <span data-ttu-id="9f71a-212">Par exemple, entrez A* pour sélectionner tous les numéros d'article commençant par A.</span><span class="sxs-lookup"><span data-stu-id="9f71a-212">For example, type A* to select all item numbers beginning with A.</span></span>  
+20. <span data-ttu-id="9f71a-213">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="9f71a-213">Click Add.</span></span>
+    * <span data-ttu-id="9f71a-214">Ajoutez l'entité Emplacement (à moins qu'elle existe déjà) pour pouvoir limiter le travail de réapprovisionnement à des emplacements fixes de prélèvement dans une zone spécifique de l'entrepôt.</span><span class="sxs-lookup"><span data-stu-id="9f71a-214">Add the Location entity (unless it already exists) to be able to restrict the replenishment work to the fixed picking locations within a specific area of the warehouse.</span></span>  
+21. <span data-ttu-id="9f71a-215">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="9f71a-215">In the list, mark the selected row.</span></span>
+22. <span data-ttu-id="9f71a-216">Paramétrez le champ Table sur Emplacements.</span><span class="sxs-lookup"><span data-stu-id="9f71a-216">Set the Table field to Locations.</span></span>
+23. <span data-ttu-id="9f71a-217">Dans le champ Champ, sélectionnez ID profil d'emplacement.</span><span class="sxs-lookup"><span data-stu-id="9f71a-217">In the Field field, select Location profile ID.</span></span>
+24. <span data-ttu-id="9f71a-218">Dans le champ Critères, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="9f71a-218">In the Criteria field, enter or select a value.</span></span>
+25. <span data-ttu-id="9f71a-219">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="9f71a-219">Click OK.</span></span>
+26. <span data-ttu-id="9f71a-220">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="9f71a-220">Close the page.</span></span>
 
-## <a name="set-the-replenishment-process-to-run-as-a-batch-job"></a>Paramétrer le processus de réapprovisionnement pour s'exécuter comme un traitement par lots
-1. Accédez à Gestion des entrepôts > Réapprovisionnement > Réapprovisionnements.
-    * La page Réapprovisionnements vous permet de définir l'exécution du réapprovisionnement comme un traitement par lots ou pour demander qu'il soit lancé manuellement.  
-2. Cliquez sur Filtre.
-3. Dans la liste, marquez la ligne sélectionnée.
-4. Dans le champ Critères, saisissez ou sélectionnez une valeur.
-5. Cliquez sur OK.
-6. Développez la section Exécuter à l'arrière-plan.
-7. Définissez l'option Traitement par lots sur Oui.
-8. Cliquez sur Répétition.
-9. Sélectionnez l'option Pas de date de fin.
-10. Définissez le modèle de récurrence.
-    * Par exemple, sélectionnez Jours.  
-11. Cliquez sur OK.
-12. Cliquez sur OK.
+## <a name="set-the-replenishment-process-to-run-as-a-batch-job"></a><span data-ttu-id="9f71a-221">Paramétrer le processus de réapprovisionnement pour s'exécuter comme un traitement par lots</span><span class="sxs-lookup"><span data-stu-id="9f71a-221">Set the replenishment process to run as a batch job</span></span>
+1. <span data-ttu-id="9f71a-222">Accédez à Gestion des entrepôts > Réapprovisionnement > Réapprovisionnements.</span><span class="sxs-lookup"><span data-stu-id="9f71a-222">Go to Warehouse management > Replenishment > Replenishments.</span></span>
+    * <span data-ttu-id="9f71a-223">La page Réapprovisionnements vous permet de définir l'exécution du réapprovisionnement comme un traitement par lots ou pour demander qu'il soit lancé manuellement.</span><span class="sxs-lookup"><span data-stu-id="9f71a-223">The Replenishments page allows you to set up replenishment to run as a batch job, or to require that it’s started manually.</span></span>  
+2. <span data-ttu-id="9f71a-224">Cliquez sur Filtre.</span><span class="sxs-lookup"><span data-stu-id="9f71a-224">Click Filter.</span></span>
+3. <span data-ttu-id="9f71a-225">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="9f71a-225">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="9f71a-226">Dans le champ Critères, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="9f71a-226">In the Criteria field, enter or select a value.</span></span>
+5. <span data-ttu-id="9f71a-227">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="9f71a-227">Click OK.</span></span>
+6. <span data-ttu-id="9f71a-228">Développez la section Exécuter à l'arrière-plan.</span><span class="sxs-lookup"><span data-stu-id="9f71a-228">Expand the Run in the background section.</span></span>
+7. <span data-ttu-id="9f71a-229">Définissez l'option Traitement par lots sur Oui.</span><span class="sxs-lookup"><span data-stu-id="9f71a-229">Set the Batch processing option to Yes.</span></span>
+8. <span data-ttu-id="9f71a-230">Cliquez sur Répétition.</span><span class="sxs-lookup"><span data-stu-id="9f71a-230">Click Recurrence.</span></span>
+9. <span data-ttu-id="9f71a-231">Sélectionnez l'option Pas de date de fin.</span><span class="sxs-lookup"><span data-stu-id="9f71a-231">Select the No end date option.</span></span>
+10. <span data-ttu-id="9f71a-232">Définissez le modèle de récurrence.</span><span class="sxs-lookup"><span data-stu-id="9f71a-232">Set the Recurrance pattern.</span></span>
+    * <span data-ttu-id="9f71a-233">Par exemple, sélectionnez Jours.</span><span class="sxs-lookup"><span data-stu-id="9f71a-233">For example, select Days.</span></span>  
+11. <span data-ttu-id="9f71a-234">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="9f71a-234">Click OK.</span></span>
+12. <span data-ttu-id="9f71a-235">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="9f71a-235">Click OK.</span></span>
 
 

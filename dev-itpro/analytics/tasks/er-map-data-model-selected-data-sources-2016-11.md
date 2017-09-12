@@ -16,134 +16,134 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 5a7d55a5cfb890490315d45d67745ce65b7ab374
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 96974d7c1597db4ac31168be40cecbc7e12d6edd
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="map-a-data-model-to-selected-data-sources-for-electronic-reporting-er"></a>Mapper un modèle de données aux sources de données sélectionnées pour la gestion des états électroniques (ER)
+# <a name="map-a-data-model-to-selected-data-sources-for-electronic-reporting-er"></a><span data-ttu-id="a6917-103">Mapper un modèle de données aux sources de données sélectionnées pour la gestion des états électroniques (ER)</span><span class="sxs-lookup"><span data-stu-id="a6917-103">Map a data model to selected data sources for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Les étapes suivantes expliquent comment un utilisateur bénéficiant du rôle Administrateur système ou Développeur d'états électroniques peut mapper un modèle de données de génération d'états électronique (ER) vers des sources de donnés Dynamics 365 for Finance and Operations, Enterprise edition sélectionnées. Cette mise en correspondance de modèles sera utilisée ultérieurement comme source de données dans la configuration du format à utiliser pour gérer des documents de paiement électronique. Dans cet exemple, vous mettez en correspondance un modèle de données pour la société témoin, Litware, Inc. avec des sources de données. Pour effectuer ces étapes,, vous devez tout d'abord appliquer la procédure « Sélectionner des sources de données pour la mise en correspondance de modèles ».
+<span data-ttu-id="a6917-104">Les étapes suivantes expliquent comment un utilisateur bénéficiant du rôle Administrateur système ou Développeur d'états électroniques peut mapper un modèle de données de génération d'états électronique (ER) vers des sources de donnés Dynamics 365 for Finance and Operations, Enterprise edition sélectionnées.</span><span class="sxs-lookup"><span data-stu-id="a6917-104">The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can map an Electronic reporting (ER) data model to selected Dynamics 365 for Finance and Operations, Enterprise edition data sources.</span></span> <span data-ttu-id="a6917-105">Cette mise en correspondance de modèles sera utilisée ultérieurement comme source de données dans la configuration du format à utiliser pour gérer des documents de paiement électronique.</span><span class="sxs-lookup"><span data-stu-id="a6917-105">This model mapping will later be used as a data source in a format configuration that will be used to manage electronic payment documents.</span></span> <span data-ttu-id="a6917-106">Dans cet exemple, vous mettez en correspondance un modèle de données pour la société témoin, Litware, Inc. avec des sources de données.</span><span class="sxs-lookup"><span data-stu-id="a6917-106">In this example, you map a data model for sample company, Litware, Inc. to data sources.</span></span> <span data-ttu-id="a6917-107">Pour effectuer ces étapes,, vous devez tout d'abord appliquer la procédure « Sélectionner des sources de données pour la mise en correspondance de modèles ».</span><span class="sxs-lookup"><span data-stu-id="a6917-107">To complete these steps, you must first complete the steps in the “Select data sources for model mapping” procedure.</span></span>
 
 
-## <a name="open-er-configurations-tree"></a>Ouvrir l'arborescence de configurations d'ER
-1. Accédez à Administration d'organisation > Espaces de travail > États électroniques.
-2. Cliquez sur Configurations.
+## <a name="open-er-configurations-tree"></a><span data-ttu-id="a6917-108">Ouvrir l'arborescence de configurations d'ER</span><span class="sxs-lookup"><span data-stu-id="a6917-108">Open ER configurations tree</span></span>
+1. <span data-ttu-id="a6917-109">Accédez à Administration d'organisation > Espaces de travail > États électroniques.</span><span class="sxs-lookup"><span data-stu-id="a6917-109">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+2. <span data-ttu-id="a6917-110">Cliquez sur Configurations.</span><span class="sxs-lookup"><span data-stu-id="a6917-110">Click Configurations.</span></span>
 
-## <a name="select-created-model-mapping"></a>Sélectionner une mise en correspondance de modèles créée
-1. Dans l'arborescence, sélectionnez « Paiements (modèle simplifié) ».
-    * Vérifiez que la configuration du modèle « paiements (modèle simplifié) » a été créée à l'avance. Dans le cas contraire, arrêtez dès à présent et revenez après avoir effectué la section « Créer une configuration avec le modèle de données du domaine sélectionné » du Guide de tâche.  
-2. Cliquez sur Concepteur de modèles.
-3. Cliquez sur Mettre en correspondance le modèle à la source de données.
-4. Sélectionnez l'enregistrement « Mise en correspondance de CT ».
-    * Mise en correspondance VMT  
+## <a name="select-created-model-mapping"></a><span data-ttu-id="a6917-111">Sélectionner une mise en correspondance de modèles créée</span><span class="sxs-lookup"><span data-stu-id="a6917-111">Select created model mapping</span></span>
+1. <span data-ttu-id="a6917-112">Dans l'arborescence, sélectionnez « Paiements (modèle simplifié) ».</span><span class="sxs-lookup"><span data-stu-id="a6917-112">In the tree, select 'Payments (simplified model)'.</span></span>
+    * <span data-ttu-id="a6917-113">Vérifiez que la configuration du modèle « paiements (modèle simplifié) » a été créée à l'avance.</span><span class="sxs-lookup"><span data-stu-id="a6917-113">Make sure that the model configuration “Payments (simplified model)” has been created in advance.</span></span> <span data-ttu-id="a6917-114">Dans le cas contraire, arrêtez dès à présent et revenez après avoir effectué la section « Créer une configuration avec le modèle de données du domaine sélectionné » du Guide de tâche.</span><span class="sxs-lookup"><span data-stu-id="a6917-114">Otherwise, stop now and return after completion of the task guide ‘Create a new configuration with data model of the selected domain’.</span></span>  
+2. <span data-ttu-id="a6917-115">Cliquez sur Concepteur de modèles.</span><span class="sxs-lookup"><span data-stu-id="a6917-115">Click Model designer.</span></span>
+3. <span data-ttu-id="a6917-116">Cliquez sur Mettre en correspondance le modèle à la source de données.</span><span class="sxs-lookup"><span data-stu-id="a6917-116">Click Map model to datasource.</span></span>
+4. <span data-ttu-id="a6917-117">Sélectionnez l'enregistrement « Mise en correspondance de CT ».</span><span class="sxs-lookup"><span data-stu-id="a6917-117">Select the 'CT mapping' record.</span></span>
+    * <span data-ttu-id="a6917-118">Mise en correspondance VMT</span><span class="sxs-lookup"><span data-stu-id="a6917-118">CT mapping</span></span>  
 
-## <a name="bind-created-data-sources-to-data-model-elements"></a>Lier des sources de données créées à des éléments de modèles de données
-1. Cliquez sur Concepteur.
-2. Dans l'arborescence, sélectionnez « Date et heure de traitement(ProcessingDateTime) ».
-3. Dans l'arborescence, sélectionnez « Date de traitement(ProcessingDateTime) ».
-4. Cliquez sur Lier.
-5. Dans l'arborescence, sélectionnez « Identification de message de paiement (MessageIdentification) ».
-6. Dans l'arborescence , développer « Transactions ».
-7. Dans l'arborescence, sélectionnez « Transactions\Numéro de lot du journal(JournalNum) ».
-8. Cliquez sur Lier.
-9. Dans l'arborescence, sélectionnez « Paiements ».
-10. Dans l'arborescence, sélectionnez « Transactions ».
-11. Cliquez sur Lier.
-12. Dans l'arborescence , développez « Paiements=Transactions ».
-13. Dans l'arborescence , développez « Paiements=Transactions\Créditeur ».
-14. Dans l'arborescence , développez « Paiements=Transactions\Créditeur\Compte ».
-15. Dans l'arborescence, sélectionnez « Paiements=Transactions\Créditeur\Compte\Code devise(Currency) ».
-16. Dans l'arborescence , développez « Transactions\vendBankAccountInTransactionCompany() ».
-17. Dans l'arborescence, sélectionnez « Transactions\vendBankAccountInTransactionCompany()\Currency(CurrencyCode) ».
-18. Cliquez sur Lier.
-19. Dans l'arborescence, sélectionnez « Paiements=Transactions\Créditeur\Compte\Code IBAN(IBAN) ».
-20. Dans l'arborescence , sélectionnez « Transactions\vendBankAccountInTransactionCompany()\IBAN(BankIBAN) ».
-21. Cliquez sur Lier.
-22. Dans l'arborescence, sélectionnez « Paiements=Transactions\Créditeur\Compte\Numéro ».
-23. Dans l'arborescence , sélectionnez « Transactions\vendBankAccountInTransactionCompany()\Numéro de compte bancaire(AccountNum) ».
-24. Cliquez sur Lier.
-25. Dans l'arborescence , développez « Paiements=Transactions\Créditeur\Agent ».
-26. Dans l'arborescence, sélectionnez « Paiements=Transactions\Créditeur\Agent\Nom ».
-27. Dans l'arborescence , sélectionnez « Transactions\vendBankAccountInTransactionCompany()\Nom ».
-28. Cliquez sur Lier.
-29. Dans l'arborescence, sélectionnez « Paiements=Transactions\Créditeur\Agent\Numéro de routage(RoutingNumber) ».
-30. Dans l'arborescence , sélectionnez « Transactions\vendBankAccountInTransactionCompany()\Numéro de routage(RegistrationNum) ».
-31. Cliquez sur Lier.
-32. Dans l'arborescence, sélectionnez « Paiements=Transactions\Créditeur\Agent\Code SWIFT(SWIFT) ».
-33. Dans l'arborescence, sélectionnez « Transactions\vendBankAccountInTransactionCompany()\Code SWIFT(SWIFTNo) ».
-34. Cliquez sur Lier.
-35. Dans l'arborescence, sélectionnez « Paiements=Transactions\Créditeur\Nom ».
-36. Dans l'arborescence , développez « Transactions\findVendTable() ».
-37. Dans l'arborescence , sélectionnez « Transactions\findVendTable()name() ».
-38. Cliquez sur Lier.
-39. Dans l'arborescence, sélectionnez « Paiements=Transactions\Code devise(Currency) ».
-40. Dans l'arborescence, développez « Transactions\>Relations ».
-41. Dans l'arborescence, développez « Transactions\>Relations\Table des devises(Currency) ».
-42. Dans l'arborescence, sélectionnez « Transactions\>Relations\Table des devises(Currency)\Code devis (CurrencyCodeISO) ».
-43. Cliquez sur Lier.
-44. Dans l'arborescence , développez « Paiements=Transactions\Débiteur ».
-45. Dans l'arborescence , développez « Paiements=Transactions\Débiteur\Compte ».
-46. Dans l'arborescence, sélectionnez « Paiements=Transactions\Débiteur\Compte\Code devise(Currency) ».
-47. Dans l'arborescence, sélectionnez « Compte bancaire(BankAccount) ».
-48. Dans l'arborescence, développez « Compte bancaire(BankAccount) ».
-49. Dans l'arborescence, sélectionnez « Compte bancaire(BankAccount)\Devise(CurrencyCode) ».
-50. Cliquez sur Lier.
-51. Dans l'arborescence, sélectionnez « Compte bancaire(BankAccount)\IBAN ».
-52. Dans l'arborescence, sélectionnez « Paiements=Transactions\Débiteur\Compte\Code IBAN(IBAN) ».
-53. Cliquez sur Lier.
-54. Dans l'arborescence, sélectionnez « Paiements=Transactions\Débiteur\Compte\Numéro ».
-55. Dans l'arborescence, sélectionnez « Compte bancaire(BankAccount\Numéro de compte bancaire(AccountNum) ».
-56. Cliquez sur Lier.
-57. Dans l'arborescence , développez « Paiements=Transactions\Débiteur\Agent ».
-58. Dans l'arborescence, sélectionnez « Paiements=Transactions\Débiteur\Agent\Nom ».
-59. Dans l'arborescence, sélectionnez « Compte bancaire(BankAccount)\Nom ».
-60. Cliquez sur Lier.
-61. Dans l'arborescence, sélectionnez « Paiements=Transactions\Débiteur\Agent\Numéro de routage(RoutingNumber) ».
-62. Dans l'arborescence, sélectionnez « Compte bancaire(BankAccount\Numéro de routage(RegistrationNum) ».
-63. Cliquez sur Lier.
-64. Dans l'arborescence, sélectionnez « Paiements=Transactions\Débiteur\Agent\Code SWIFT(SWIFT) ».
-65. Dans l'arborescence, sélectionnez « Compte bancaire(BankAccount)\Code SWIFT(SWIFTNo) ».
-66. Cliquez sur Lier.
-67. Dans l'arborescence, sélectionnez « Paiements=Transactions\Débiteur\Nom ».
-68. Dans l'arborescence, sélectionnez « Informations sur la société(Company) ».
-69. Dans l'arborescence, développez « Informations sur la société(Company) ».
-70. Dans l'arborescence, sélectionnez « Informations sur la société(Company)\Nom ».
-71. Cliquez sur Lier.
-72. Dans l'arborescence, sélectionnez « Paiements=Transactions\Description ».
-73. Dans l'arborescence, sélectionnez « Transactions\Description(Txt) ».
-74. Cliquez sur Lier.
-75. Dans l'arborescence, sélectionnez « Transactions \Code d'identification de bout en bout(End2EndID) ».
-76. Dans l'arborescence, sélectionnez « Transactions\$EndToEndID ».
-77. Cliquez sur Lier.
-78. Dans l'arborescence, sélectionnez « Transactions\Montant instruit(InstructedAmount) ».
-79. Dans l'arborescence, sélectionnez « Transactions\$Amount ».
-80. Cliquez sur Lier.
-81. Dans l'arborescence, sélectionnez « Transactions\Date de transaction(TransactionDate) ».
-82. Dans l'arborescence, sélectionnez « Transactions\Date(TransDate) ».
-83. Cliquez sur Lier.
+## <a name="bind-created-data-sources-to-data-model-elements"></a><span data-ttu-id="a6917-119">Lier des sources de données créées à des éléments de modèles de données</span><span class="sxs-lookup"><span data-stu-id="a6917-119">Bind created data sources to data model elements</span></span>
+1. <span data-ttu-id="a6917-120">Cliquez sur Concepteur.</span><span class="sxs-lookup"><span data-stu-id="a6917-120">Click Designer.</span></span>
+2. <span data-ttu-id="a6917-121">Dans l'arborescence, sélectionnez « Date et heure de traitement(ProcessingDateTime) ».</span><span class="sxs-lookup"><span data-stu-id="a6917-121">In the tree, select 'Processing date & time(ProcessingDateTime)'.</span></span>
+3. <span data-ttu-id="a6917-122">Dans l'arborescence, sélectionnez « Date de traitement(ProcessingDateTime) ».</span><span class="sxs-lookup"><span data-stu-id="a6917-122">In the tree, select 'Processing date(ProcessingDateTime)'.</span></span>
+4. <span data-ttu-id="a6917-123">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="a6917-123">Click Bind.</span></span>
+5. <span data-ttu-id="a6917-124">Dans l'arborescence, sélectionnez « Identification de message de paiement (MessageIdentification) ».</span><span class="sxs-lookup"><span data-stu-id="a6917-124">In the tree, select 'Payment message identification(MessageIdentification)'.</span></span>
+6. <span data-ttu-id="a6917-125">Dans l'arborescence , développer « Transactions ».</span><span class="sxs-lookup"><span data-stu-id="a6917-125">In the tree, expand 'Transactions'.</span></span>
+7. <span data-ttu-id="a6917-126">Dans l'arborescence, sélectionnez « Transactions\Numéro de lot du journal(JournalNum) ».</span><span class="sxs-lookup"><span data-stu-id="a6917-126">In the tree, select 'Transactions\Journal batch number(JournalNum)'.</span></span>
+8. <span data-ttu-id="a6917-127">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="a6917-127">Click Bind.</span></span>
+9. <span data-ttu-id="a6917-128">Dans l'arborescence, sélectionnez « Paiements ».</span><span class="sxs-lookup"><span data-stu-id="a6917-128">In the tree, select 'Payments'.</span></span>
+10. <span data-ttu-id="a6917-129">Dans l'arborescence, sélectionnez « Transactions ».</span><span class="sxs-lookup"><span data-stu-id="a6917-129">In the tree, select 'Transactions'.</span></span>
+11. <span data-ttu-id="a6917-130">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="a6917-130">Click Bind.</span></span>
+12. <span data-ttu-id="a6917-131">Dans l'arborescence , développez « Paiements=Transactions ».</span><span class="sxs-lookup"><span data-stu-id="a6917-131">In the tree, expand 'Payments= Transactions'.</span></span>
+13. <span data-ttu-id="a6917-132">Dans l'arborescence , développez « Paiements=Transactions\Créditeur ».</span><span class="sxs-lookup"><span data-stu-id="a6917-132">In the tree, expand 'Payments= Transactions\Creditor'.</span></span>
+14. <span data-ttu-id="a6917-133">Dans l'arborescence , développez « Paiements=Transactions\Créditeur\Compte ».</span><span class="sxs-lookup"><span data-stu-id="a6917-133">In the tree, expand 'Payments= Transactions\Creditor\Account'.</span></span>
+15. <span data-ttu-id="a6917-134">Dans l'arborescence, sélectionnez « Paiements=Transactions\Créditeur\Compte\Code devise(Currency) ».</span><span class="sxs-lookup"><span data-stu-id="a6917-134">In the tree, select 'Payments= Transactions\Creditor\Account\Currency code(Currency)'.</span></span>
+16. <span data-ttu-id="a6917-135">Dans l'arborescence , développez « Transactions\vendBankAccountInTransactionCompany() ».</span><span class="sxs-lookup"><span data-stu-id="a6917-135">In the tree, expand 'Transactions\vendBankAccountInTransactionCompany()'.</span></span>
+17. <span data-ttu-id="a6917-136">Dans l'arborescence, sélectionnez « Transactions\vendBankAccountInTransactionCompany()\Currency(CurrencyCode) ».</span><span class="sxs-lookup"><span data-stu-id="a6917-136">In the tree, select 'Transactions\vendBankAccountInTransactionCompany()\Currency(CurrencyCode)'.</span></span>
+18. <span data-ttu-id="a6917-137">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="a6917-137">Click Bind.</span></span>
+19. <span data-ttu-id="a6917-138">Dans l'arborescence, sélectionnez « Paiements=Transactions\Créditeur\Compte\Code IBAN(IBAN) ».</span><span class="sxs-lookup"><span data-stu-id="a6917-138">In the tree, select 'Payments= Transactions\Creditor\Account\IBAN code(IBAN)'.</span></span>
+20. <span data-ttu-id="a6917-139">Dans l'arborescence , sélectionnez « Transactions\vendBankAccountInTransactionCompany()\IBAN(BankIBAN) ».</span><span class="sxs-lookup"><span data-stu-id="a6917-139">In the tree, select 'Transactions\vendBankAccountInTransactionCompany()\IBAN(BankIBAN)'.</span></span>
+21. <span data-ttu-id="a6917-140">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="a6917-140">Click Bind.</span></span>
+22. <span data-ttu-id="a6917-141">Dans l'arborescence, sélectionnez « Paiements=Transactions\Créditeur\Compte\Numéro ».</span><span class="sxs-lookup"><span data-stu-id="a6917-141">In the tree, select 'Payments= Transactions\Creditor\Account\Number'.</span></span>
+23. <span data-ttu-id="a6917-142">Dans l'arborescence , sélectionnez « Transactions\vendBankAccountInTransactionCompany()\Numéro de compte bancaire(AccountNum) ».</span><span class="sxs-lookup"><span data-stu-id="a6917-142">In the tree, select 'Transactions\vendBankAccountInTransactionCompany()\Bank account number(AccountNum)'.</span></span>
+24. <span data-ttu-id="a6917-143">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="a6917-143">Click Bind.</span></span>
+25. <span data-ttu-id="a6917-144">Dans l'arborescence , développez « Paiements=Transactions\Créditeur\Agent ».</span><span class="sxs-lookup"><span data-stu-id="a6917-144">In the tree, expand 'Payments= Transactions\Creditor\Agent'.</span></span>
+26. <span data-ttu-id="a6917-145">Dans l'arborescence, sélectionnez « Paiements=Transactions\Créditeur\Agent\Nom ».</span><span class="sxs-lookup"><span data-stu-id="a6917-145">In the tree, select 'Payments= Transactions\Creditor\Agent\Name'.</span></span>
+27. <span data-ttu-id="a6917-146">Dans l'arborescence , sélectionnez « Transactions\vendBankAccountInTransactionCompany()\Nom ».</span><span class="sxs-lookup"><span data-stu-id="a6917-146">In the tree, select 'Transactions\vendBankAccountInTransactionCompany()\Name'.</span></span>
+28. <span data-ttu-id="a6917-147">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="a6917-147">Click Bind.</span></span>
+29. <span data-ttu-id="a6917-148">Dans l'arborescence, sélectionnez « Paiements=Transactions\Créditeur\Agent\Numéro de routage(RoutingNumber) ».</span><span class="sxs-lookup"><span data-stu-id="a6917-148">In the tree, select 'Payments= Transactions\Creditor\Agent\Routing number(RoutingNumber)'.</span></span>
+30. <span data-ttu-id="a6917-149">Dans l'arborescence , sélectionnez « Transactions\vendBankAccountInTransactionCompany()\Numéro de routage(RegistrationNum) ».</span><span class="sxs-lookup"><span data-stu-id="a6917-149">In the tree, select 'Transactions\vendBankAccountInTransactionCompany()\Routing number(RegistrationNum)'.</span></span>
+31. <span data-ttu-id="a6917-150">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="a6917-150">Click Bind.</span></span>
+32. <span data-ttu-id="a6917-151">Dans l'arborescence, sélectionnez « Paiements=Transactions\Créditeur\Agent\Code SWIFT(SWIFT) ».</span><span class="sxs-lookup"><span data-stu-id="a6917-151">In the tree, select 'Payments= Transactions\Creditor\Agent\SWIFT code(SWIFT)'.</span></span>
+33. <span data-ttu-id="a6917-152">Dans l'arborescence, sélectionnez « Transactions\vendBankAccountInTransactionCompany()\Code SWIFT(SWIFTNo) ».</span><span class="sxs-lookup"><span data-stu-id="a6917-152">In the tree, select 'Transactions\vendBankAccountInTransactionCompany()\SWIFT code(SWIFTNo)'.</span></span>
+34. <span data-ttu-id="a6917-153">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="a6917-153">Click Bind.</span></span>
+35. <span data-ttu-id="a6917-154">Dans l'arborescence, sélectionnez « Paiements=Transactions\Créditeur\Nom ».</span><span class="sxs-lookup"><span data-stu-id="a6917-154">In the tree, select 'Payments= Transactions\Creditor\Name'.</span></span>
+36. <span data-ttu-id="a6917-155">Dans l'arborescence , développez « Transactions\findVendTable() ».</span><span class="sxs-lookup"><span data-stu-id="a6917-155">In the tree, expand 'Transactions\findVendTable()'.</span></span>
+37. <span data-ttu-id="a6917-156">Dans l'arborescence , sélectionnez « Transactions\findVendTable()name() ».</span><span class="sxs-lookup"><span data-stu-id="a6917-156">In the tree, select 'Transactions\findVendTable()\name()'.</span></span>
+38. <span data-ttu-id="a6917-157">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="a6917-157">Click Bind.</span></span>
+39. <span data-ttu-id="a6917-158">Dans l'arborescence, sélectionnez « Paiements=Transactions\Code devise(Currency) ».</span><span class="sxs-lookup"><span data-stu-id="a6917-158">In the tree, select 'Payments= Transactions\Currency code(Currency)'.</span></span>
+40. <span data-ttu-id="a6917-159">Dans l'arborescence, développez « Transactions\>Relations ».</span><span class="sxs-lookup"><span data-stu-id="a6917-159">In the tree, expand 'Transactions\>Relations'.</span></span>
+41. <span data-ttu-id="a6917-160">Dans l'arborescence, développez « Transactions\>Relations\Table des devises(Currency) ».</span><span class="sxs-lookup"><span data-stu-id="a6917-160">In the tree, expand 'Transactions\>Relations\Currency table(Currency)'.</span></span>
+42. <span data-ttu-id="a6917-161">Dans l'arborescence, sélectionnez « Transactions\>Relations\Table des devises(Currency)\Code devis (CurrencyCodeISO) ».</span><span class="sxs-lookup"><span data-stu-id="a6917-161">In the tree, select 'Transactions\>Relations\Currency table(Currency)\Currency code(CurrencyCodeISO)'.</span></span>
+43. <span data-ttu-id="a6917-162">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="a6917-162">Click Bind.</span></span>
+44. <span data-ttu-id="a6917-163">Dans l'arborescence , développez « Paiements=Transactions\Débiteur ».</span><span class="sxs-lookup"><span data-stu-id="a6917-163">In the tree, expand 'Payments= Transactions\Debtor'.</span></span>
+45. <span data-ttu-id="a6917-164">Dans l'arborescence , développez « Paiements=Transactions\Débiteur\Compte ».</span><span class="sxs-lookup"><span data-stu-id="a6917-164">In the tree, expand 'Payments= Transactions\Debtor\Account'.</span></span>
+46. <span data-ttu-id="a6917-165">Dans l'arborescence, sélectionnez « Paiements=Transactions\Débiteur\Compte\Code devise(Currency) ».</span><span class="sxs-lookup"><span data-stu-id="a6917-165">In the tree, select 'Payments= Transactions\Debtor\Account\Currency code(Currency)'.</span></span>
+47. <span data-ttu-id="a6917-166">Dans l'arborescence, sélectionnez « Compte bancaire(BankAccount) ».</span><span class="sxs-lookup"><span data-stu-id="a6917-166">In the tree, select 'Bank Account(BankAccount)'.</span></span>
+48. <span data-ttu-id="a6917-167">Dans l'arborescence, développez « Compte bancaire(BankAccount) ».</span><span class="sxs-lookup"><span data-stu-id="a6917-167">In the tree, expand 'Bank Account(BankAccount)'.</span></span>
+49. <span data-ttu-id="a6917-168">Dans l'arborescence, sélectionnez « Compte bancaire(BankAccount)\Devise(CurrencyCode) ».</span><span class="sxs-lookup"><span data-stu-id="a6917-168">In the tree, select 'Bank Account(BankAccount)\Currency(CurrencyCode)'.</span></span>
+50. <span data-ttu-id="a6917-169">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="a6917-169">Click Bind.</span></span>
+51. <span data-ttu-id="a6917-170">Dans l'arborescence, sélectionnez « Compte bancaire(BankAccount)\IBAN ».</span><span class="sxs-lookup"><span data-stu-id="a6917-170">In the tree, select 'Bank Account(BankAccount)\IBAN'.</span></span>
+52. <span data-ttu-id="a6917-171">Dans l'arborescence, sélectionnez « Paiements=Transactions\Débiteur\Compte\Code IBAN(IBAN) ».</span><span class="sxs-lookup"><span data-stu-id="a6917-171">In the tree, select 'Payments= Transactions\Debtor\Account\IBAN code(IBAN)'.</span></span>
+53. <span data-ttu-id="a6917-172">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="a6917-172">Click Bind.</span></span>
+54. <span data-ttu-id="a6917-173">Dans l'arborescence, sélectionnez « Paiements=Transactions\Débiteur\Compte\Numéro ».</span><span class="sxs-lookup"><span data-stu-id="a6917-173">In the tree, select 'Payments= Transactions\Debtor\Account\Number'.</span></span>
+55. <span data-ttu-id="a6917-174">Dans l'arborescence, sélectionnez « Compte bancaire(BankAccount\Numéro de compte bancaire(AccountNum) ».</span><span class="sxs-lookup"><span data-stu-id="a6917-174">In the tree, select 'Bank Account(BankAccount)\Bank account number(AccountNum)'.</span></span>
+56. <span data-ttu-id="a6917-175">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="a6917-175">Click Bind.</span></span>
+57. <span data-ttu-id="a6917-176">Dans l'arborescence , développez « Paiements=Transactions\Débiteur\Agent ».</span><span class="sxs-lookup"><span data-stu-id="a6917-176">In the tree, expand 'Payments= Transactions\Debtor\Agent'.</span></span>
+58. <span data-ttu-id="a6917-177">Dans l'arborescence, sélectionnez « Paiements=Transactions\Débiteur\Agent\Nom ».</span><span class="sxs-lookup"><span data-stu-id="a6917-177">In the tree, select 'Payments= Transactions\Debtor\Agent\Name'.</span></span>
+59. <span data-ttu-id="a6917-178">Dans l'arborescence, sélectionnez « Compte bancaire(BankAccount)\Nom ».</span><span class="sxs-lookup"><span data-stu-id="a6917-178">In the tree, select 'Bank Account(BankAccount)\Name'.</span></span>
+60. <span data-ttu-id="a6917-179">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="a6917-179">Click Bind.</span></span>
+61. <span data-ttu-id="a6917-180">Dans l'arborescence, sélectionnez « Paiements=Transactions\Débiteur\Agent\Numéro de routage(RoutingNumber) ».</span><span class="sxs-lookup"><span data-stu-id="a6917-180">In the tree, select 'Payments= Transactions\Debtor\Agent\Routing number(RoutingNumber)'.</span></span>
+62. <span data-ttu-id="a6917-181">Dans l'arborescence, sélectionnez « Compte bancaire(BankAccount\Numéro de routage(RegistrationNum) ».</span><span class="sxs-lookup"><span data-stu-id="a6917-181">In the tree, select 'Bank Account(BankAccount)\Routing number(RegistrationNum)'.</span></span>
+63. <span data-ttu-id="a6917-182">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="a6917-182">Click Bind.</span></span>
+64. <span data-ttu-id="a6917-183">Dans l'arborescence, sélectionnez « Paiements=Transactions\Débiteur\Agent\Code SWIFT(SWIFT) ».</span><span class="sxs-lookup"><span data-stu-id="a6917-183">In the tree, select 'Payments= Transactions\Debtor\Agent\SWIFT code(SWIFT)'.</span></span>
+65. <span data-ttu-id="a6917-184">Dans l'arborescence, sélectionnez « Compte bancaire(BankAccount)\Code SWIFT(SWIFTNo) ».</span><span class="sxs-lookup"><span data-stu-id="a6917-184">In the tree, select 'Bank Account(BankAccount)\SWIFT code(SWIFTNo)'.</span></span>
+66. <span data-ttu-id="a6917-185">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="a6917-185">Click Bind.</span></span>
+67. <span data-ttu-id="a6917-186">Dans l'arborescence, sélectionnez « Paiements=Transactions\Débiteur\Nom ».</span><span class="sxs-lookup"><span data-stu-id="a6917-186">In the tree, select 'Payments= Transactions\Debtor\Name'.</span></span>
+68. <span data-ttu-id="a6917-187">Dans l'arborescence, sélectionnez « Informations sur la société(Company) ».</span><span class="sxs-lookup"><span data-stu-id="a6917-187">In the tree, select 'Company information(Company)'.</span></span>
+69. <span data-ttu-id="a6917-188">Dans l'arborescence, développez « Informations sur la société(Company) ».</span><span class="sxs-lookup"><span data-stu-id="a6917-188">In the tree, expand 'Company information(Company)'.</span></span>
+70. <span data-ttu-id="a6917-189">Dans l'arborescence, sélectionnez « Informations sur la société(Company)\Nom ».</span><span class="sxs-lookup"><span data-stu-id="a6917-189">In the tree, select 'Company information(Company)\Name'.</span></span>
+71. <span data-ttu-id="a6917-190">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="a6917-190">Click Bind.</span></span>
+72. <span data-ttu-id="a6917-191">Dans l'arborescence, sélectionnez « Paiements=Transactions\Description ».</span><span class="sxs-lookup"><span data-stu-id="a6917-191">In the tree, select 'Payments= Transactions\Description'.</span></span>
+73. <span data-ttu-id="a6917-192">Dans l'arborescence, sélectionnez « Transactions\Description(Txt) ».</span><span class="sxs-lookup"><span data-stu-id="a6917-192">In the tree, select 'Transactions\Description(Txt)'.</span></span>
+74. <span data-ttu-id="a6917-193">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="a6917-193">Click Bind.</span></span>
+75. <span data-ttu-id="a6917-194">Dans l'arborescence, sélectionnez « Transactions \Code d'identification de bout en bout(End2EndID) ».</span><span class="sxs-lookup"><span data-stu-id="a6917-194">In the tree, select 'Payments= Transactions\End to end identification code(End2EndID)'.</span></span>
+76. <span data-ttu-id="a6917-195">Dans l'arborescence, sélectionnez « Transactions\$EndToEndID ».</span><span class="sxs-lookup"><span data-stu-id="a6917-195">In the tree, select 'Transactions\$EndToEndID'.</span></span>
+77. <span data-ttu-id="a6917-196">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="a6917-196">Click Bind.</span></span>
+78. <span data-ttu-id="a6917-197">Dans l'arborescence, sélectionnez « Transactions\Montant instruit(InstructedAmount) ».</span><span class="sxs-lookup"><span data-stu-id="a6917-197">In the tree, select 'Payments= Transactions\Instructed amount(InstructedAmount)'.</span></span>
+79. <span data-ttu-id="a6917-198">Dans l'arborescence, sélectionnez « Transactions\$Amount ».</span><span class="sxs-lookup"><span data-stu-id="a6917-198">In the tree, select 'Transactions\$Amount'.</span></span>
+80. <span data-ttu-id="a6917-199">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="a6917-199">Click Bind.</span></span>
+81. <span data-ttu-id="a6917-200">Dans l'arborescence, sélectionnez « Transactions\Date de transaction(TransactionDate) ».</span><span class="sxs-lookup"><span data-stu-id="a6917-200">In the tree, select 'Payments= Transactions\Transaction date(TransactionDate)'.</span></span>
+82. <span data-ttu-id="a6917-201">Dans l'arborescence, sélectionnez « Transactions\Date(TransDate) ».</span><span class="sxs-lookup"><span data-stu-id="a6917-201">In the tree, select 'Transactions\Date(TransDate)'.</span></span>
+83. <span data-ttu-id="a6917-202">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="a6917-202">Click Bind.</span></span>
 
-## <a name="validate-created-mapping"></a>Valider une mise en correspondance créée
-1. Cliquez sur Valider.
-    * Validez la nouvelle mise en correspondance pour vous assurer que toutes les liaisons sont correctes.  
-2. Cliquez sur la flèche pour développer ou réduire la section Liste des erreurs.
-3. Cliquez sur Enregistrer.
-4. Fermez la page.
-5. Fermez la page.
-6. Fermez la page.
+## <a name="validate-created-mapping"></a><span data-ttu-id="a6917-203">Valider une mise en correspondance créée</span><span class="sxs-lookup"><span data-stu-id="a6917-203">Validate created mapping</span></span>
+1. <span data-ttu-id="a6917-204">Cliquez sur Valider.</span><span class="sxs-lookup"><span data-stu-id="a6917-204">Click Validate.</span></span>
+    * <span data-ttu-id="a6917-205">Validez la nouvelle mise en correspondance pour vous assurer que toutes les liaisons sont correctes.</span><span class="sxs-lookup"><span data-stu-id="a6917-205">Validate the new mapping to ensure that all bindings are okay.</span></span>  
+2. <span data-ttu-id="a6917-206">Cliquez sur la flèche pour développer ou réduire la section Liste des erreurs.</span><span class="sxs-lookup"><span data-stu-id="a6917-206">Click the arrow to expand or collapse the Error List section.</span></span>
+3. <span data-ttu-id="a6917-207">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="a6917-207">Click Save.</span></span>
+4. <span data-ttu-id="a6917-208">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="a6917-208">Close the page.</span></span>
+5. <span data-ttu-id="a6917-209">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="a6917-209">Close the page.</span></span>
+6. <span data-ttu-id="a6917-210">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="a6917-210">Close the page.</span></span>
 
-## <a name="change-the-status-of-the-current-version-of-model-configuration"></a>Modifier le statut de la version actuelle de la configuration du modèle
-1. Cliquez sur Modifier le statut.
-    * Modifiez le statut de la configuration du modèle conçue : remplacez Brouillon par Terminé pour le rendre disponible pour la conception de format de paiement.  
-2. Cliquez sur Terminé.
-    * Sélectionnez Terminer.  
-3. Dans le champ Description, entrez une valeur.
-    * Par exemple, « version 1 ».  
-4. Cliquez sur OK.
-5. Sélectionnez la version terminée de la configuration actuelle.
-    * Notez que la configuration créée est enregistrée comme version 1 terminée.  
+## <a name="change-the-status-of-the-current-version-of-model-configuration"></a><span data-ttu-id="a6917-211">Modifier le statut de la version actuelle de la configuration du modèle</span><span class="sxs-lookup"><span data-stu-id="a6917-211">Change the status of the current version of model configuration</span></span>
+1. <span data-ttu-id="a6917-212">Cliquez sur Modifier le statut.</span><span class="sxs-lookup"><span data-stu-id="a6917-212">Click Change status.</span></span>
+    * <span data-ttu-id="a6917-213">Modifiez le statut de la configuration du modèle conçue : remplacez Brouillon par Terminé pour le rendre disponible pour la conception de format de paiement.</span><span class="sxs-lookup"><span data-stu-id="a6917-213">Change the status of designed model configuration – from Draft to Completed to make it available for payment format design.</span></span>  
+2. <span data-ttu-id="a6917-214">Cliquez sur Terminé.</span><span class="sxs-lookup"><span data-stu-id="a6917-214">Click Complete.</span></span>
+    * <span data-ttu-id="a6917-215">Sélectionnez Terminer.</span><span class="sxs-lookup"><span data-stu-id="a6917-215">Select Complete.</span></span>  
+3. <span data-ttu-id="a6917-216">Dans le champ Description, entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="a6917-216">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="a6917-217">Par exemple, « version 1 ».</span><span class="sxs-lookup"><span data-stu-id="a6917-217">For example, 'version 1'.</span></span>  
+4. <span data-ttu-id="a6917-218">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="a6917-218">Click OK.</span></span>
+5. <span data-ttu-id="a6917-219">Sélectionnez la version terminée de la configuration actuelle.</span><span class="sxs-lookup"><span data-stu-id="a6917-219">Select the completed version of the current configuration.</span></span>
+    * <span data-ttu-id="a6917-220">Notez que la configuration créée est enregistrée comme version 1 terminée.</span><span class="sxs-lookup"><span data-stu-id="a6917-220">Note that the created configuration is saved as completed version 1.</span></span>  
 
 

@@ -15,90 +15,90 @@ ms.custom: 141273
 ms.assetid: 3ee2f32b-02aa-420b-8990-e6aa5fc6bda3
 ms.search.region: global
 ms.author: saraschi
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 33b7a499caf9292e44c155a0e1bd6a8929558be5
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 51cd32217b2f753f606e3060b4872a8274f16549
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="bank-statement-file-import-troubleshooting"></a>Dépannage d'importation de fichier de relevé bancaire
+# <a name="bank-statement-file-import-troubleshooting"></a><span data-ttu-id="63d05-107">Dépannage d'importation de fichier de relevé bancaire</span><span class="sxs-lookup"><span data-stu-id="63d05-107">Bank statement file import troubleshooting</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Il est important que le fichier de relevé bancaire de la banque corresponde à la mise en page prise en charge par Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. En raison de normes strictes pour les relevés bancaires, la plupart des intégrations fonctionneront correctement. Toutefois, il arrive que le fichier de relevé ne puisse pas être importé ou contienne des résultats incorrects. Généralement, ces problèmes sont engendrés par de petites différences dans le fichier de relevé bancaire. Cet article décrit comment résoudre ces différences ainsi que les problèmes.
+<span data-ttu-id="63d05-108">Il est important que le fichier de relevé bancaire de la banque corresponde à la mise en page prise en charge par Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span><span class="sxs-lookup"><span data-stu-id="63d05-108">It's important that the bank statement file from the bank match the layout that Microsoft Dynamics 365 for Finance and Operations, Enterprise edition supports.</span></span> <span data-ttu-id="63d05-109">En raison de normes strictes pour les relevés bancaires, la plupart des intégrations fonctionneront correctement.</span><span class="sxs-lookup"><span data-stu-id="63d05-109">Because of strict standards for bank statements, most integrations will work correctly.</span></span> <span data-ttu-id="63d05-110">Toutefois, il arrive que le fichier de relevé ne puisse pas être importé ou contienne des résultats incorrects.</span><span class="sxs-lookup"><span data-stu-id="63d05-110">However, sometimes the statement file can't be imported or has incorrect results.</span></span> <span data-ttu-id="63d05-111">Généralement, ces problèmes sont engendrés par de petites différences dans le fichier de relevé bancaire.</span><span class="sxs-lookup"><span data-stu-id="63d05-111">Typically, these issues are caused by small differences in the bank statement file.</span></span> <span data-ttu-id="63d05-112">Cet article décrit comment résoudre ces différences ainsi que les problèmes.</span><span class="sxs-lookup"><span data-stu-id="63d05-112">This article explains how to fix these differences and resolve the issues.</span></span>
 
-<a name="what-is-the-error"></a>Quelle est l'erreur ?
+<a name="what-is-the-error"></a><span data-ttu-id="63d05-113">Quelle est l'erreur ?</span><span class="sxs-lookup"><span data-stu-id="63d05-113">What is the error?</span></span>
 ------------------
 
-Une fois que vous avez essayé d'importer un fichier de relevé bancaire, allez dans l'historique des tâches de gestion des données et ses détails d'exécution pour trouver l'erreur. L'erreur peut aider en pointant vers le relevé, le solde ou la ligne de relevé. Toutefois, il est peu probable qu'elle fournisse assez d'informations pour vous aider à identifier le champ ou l'élément qui provoque le problème.
+<span data-ttu-id="63d05-114">Une fois que vous avez essayé d'importer un fichier de relevé bancaire, allez dans l'historique des tâches de gestion des données et ses détails d'exécution pour trouver l'erreur.</span><span class="sxs-lookup"><span data-stu-id="63d05-114">After you try to import a bank statement file, go to the Data management job history and its execution details to find the error.</span></span> <span data-ttu-id="63d05-115">L'erreur peut aider en pointant vers le relevé, le solde ou la ligne de relevé.</span><span class="sxs-lookup"><span data-stu-id="63d05-115">The error can help by pointing to the statement, balance, or statement line.</span></span> <span data-ttu-id="63d05-116">Toutefois, il est peu probable qu'elle fournisse assez d'informations pour vous aider à identifier le champ ou l'élément qui provoque le problème.</span><span class="sxs-lookup"><span data-stu-id="63d05-116">However, it's unlikely to provide enough information to help you identify the field or element that is causing the issue.</span></span>
 
-## <a name="what-are-the-differences"></a>Quelles sont les différences ?
-Comparez la définition bancaire de la mise en page de fichier à la définition d'importation de Finance and Operations, et notez les différences dans les champs et les éléments. Comparez le fichier de relevé bancaire à l'exemple de fichier Finance and Operations associé. Dans les fichiers ISO20022, il est facile d'afficher toutes les différences.
+## <a name="what-are-the-differences"></a><span data-ttu-id="63d05-117">Quelles sont les différences ?</span><span class="sxs-lookup"><span data-stu-id="63d05-117">What are the differences?</span></span>
+<span data-ttu-id="63d05-118">Comparez la définition bancaire de la mise en page de fichier à la définition d'importation de Finance and Operations, et notez les différences dans les champs et les éléments.</span><span class="sxs-lookup"><span data-stu-id="63d05-118">Compare the bank file layout definition to the Finance and Operations import definition, and note any differences in the fields and elements.</span></span> <span data-ttu-id="63d05-119">Comparez le fichier de relevé bancaire à l'exemple de fichier Finance and Operations associé.</span><span class="sxs-lookup"><span data-stu-id="63d05-119">Compare the bank statement file to the related sample Finance and Operations file.</span></span> <span data-ttu-id="63d05-120">Dans les fichiers ISO20022, il est facile d'afficher toutes les différences.</span><span class="sxs-lookup"><span data-stu-id="63d05-120">In the ISO20022 files, any differences should be easy to see.</span></span>
 
-## <a name="transformations"></a>Transformations
-Généralement, la modification doit être effectuée dans l'une des trois transformations. Chaque transformation concerne une norme spécifique.
+## <a name="transformations"></a><span data-ttu-id="63d05-121">Transformations</span><span class="sxs-lookup"><span data-stu-id="63d05-121">Transformations</span></span>
+<span data-ttu-id="63d05-122">Généralement, la modification doit être effectuée dans l'une des trois transformations.</span><span class="sxs-lookup"><span data-stu-id="63d05-122">Typically, the change must be made in one of three transformations.</span></span> <span data-ttu-id="63d05-123">Chaque transformation concerne une norme spécifique.</span><span class="sxs-lookup"><span data-stu-id="63d05-123">Each transformation is written for a specific standard.</span></span>
 
-| Nom de la ressource                                         | Nom de fichier                          |
+| <span data-ttu-id="63d05-124">Nom de la ressource</span><span class="sxs-lookup"><span data-stu-id="63d05-124">Resource name</span></span>                                         | <span data-ttu-id="63d05-125">Nom de fichier</span><span class="sxs-lookup"><span data-stu-id="63d05-125">File name</span></span>                          |
 |-------------------------------------------------------|------------------------------------|
-| BankStmtImport\_BAI2CSV\_to\_BAI2XML\_xslt            | BAI2CSV-to-BAI2XML.xslt            |
-| BankStmtImport\_ISO20022XML\_to\_Reconciliation\_xslt | ISO20022XML-to-Reconciliation.xslt |
-| BankStmtImport\_MT940TXT\_to\_MT940XML\_xslt          | MT940TXT-to-MT940XML.xslt          |
+| <span data-ttu-id="63d05-126">BankStmtImport\_BAI2CSV\_to\_BAI2XML\_xslt</span><span class="sxs-lookup"><span data-stu-id="63d05-126">BankStmtImport\_BAI2CSV\_to\_BAI2XML\_xslt</span></span>            | <span data-ttu-id="63d05-127">BAI2CSV-to-BAI2XML.xslt</span><span class="sxs-lookup"><span data-stu-id="63d05-127">BAI2CSV-to-BAI2XML.xslt</span></span>            |
+| <span data-ttu-id="63d05-128">BankStmtImport\_ISO20022XML\_to\_Reconciliation\_xslt</span><span class="sxs-lookup"><span data-stu-id="63d05-128">BankStmtImport\_ISO20022XML\_to\_Reconciliation\_xslt</span></span> | <span data-ttu-id="63d05-129">ISO20022XML-to-Reconciliation.xslt</span><span class="sxs-lookup"><span data-stu-id="63d05-129">ISO20022XML-to-Reconciliation.xslt</span></span> |
+| <span data-ttu-id="63d05-130">BankStmtImport\_MT940TXT\_to\_MT940XML\_xslt</span><span class="sxs-lookup"><span data-stu-id="63d05-130">BankStmtImport\_MT940TXT\_to\_MT940XML\_xslt</span></span>          | <span data-ttu-id="63d05-131">MT940TXT-to-MT940XML.xslt</span><span class="sxs-lookup"><span data-stu-id="63d05-131">MT940TXT-to-MT940XML.xslt</span></span>          |
 
-## <a name="debugging-transformations"></a>Transformations de débogage
-### <a name="adjust-the-bai2-and-mt940-files"></a>Modifiez les fichiers BAI2 et MT940
+## <a name="debugging-transformations"></a><span data-ttu-id="63d05-132">Transformations de débogage</span><span class="sxs-lookup"><span data-stu-id="63d05-132">Debugging transformations</span></span>
+### <a name="adjust-the-bai2-and-mt940-files"></a><span data-ttu-id="63d05-133">Modifiez les fichiers BAI2 et MT940</span><span class="sxs-lookup"><span data-stu-id="63d05-133">Adjust the BAI2 and MT940 files</span></span>
 
-Les fichiers BAI2 et MT940 sont basés sur des fichiers texte et exigent un ajustement pour activer le débogage Extensible Stylesheet Language Transformations (XSLT). Le programme effectue cet ajustement lors de l'importation d'un fichier.
+<span data-ttu-id="63d05-134">Les fichiers BAI2 et MT940 sont basés sur des fichiers texte et exigent un ajustement pour activer le débogage Extensible Stylesheet Language Transformations (XSLT).</span><span class="sxs-lookup"><span data-stu-id="63d05-134">The BAI2 and MT940 files are text-based files and require an adjustment to enable Extensible Stylesheet Language Transformations (XSLT) debugging.</span></span> <span data-ttu-id="63d05-135">Le programme effectue cet ajustement lors de l'importation d'un fichier.</span><span class="sxs-lookup"><span data-stu-id="63d05-135">The program makes this adjustment when a file is imported.</span></span>
 
-1.  Créez un fichier XML, puis copiez le texte suivant dans celui-ci.
+1.  <span data-ttu-id="63d05-136">Créez un fichier XML, puis copiez le texte suivant dans celui-ci.</span><span class="sxs-lookup"><span data-stu-id="63d05-136">Create an XML file, and copy the following text into it.</span></span>
 
         <Batch><![CDATA[PASTESTATEMENTFILEHERE
         ]]></Batch>
 
-2.  Copiez le contenu du fichier de relevé bancaire, et collez-le dans le fichier XML afin qu'il remplace **PASTESTATEMENTFILEHERE**.
+2.  <span data-ttu-id="63d05-137">Copiez le contenu du fichier de relevé bancaire, et collez-le dans le fichier XML afin qu'il remplace **PASTESTATEMENTFILEHERE**.</span><span class="sxs-lookup"><span data-stu-id="63d05-137">Copy the contents of the bank statement file, and paste them into the XML file so that they replace **PASTESTATEMENTFILEHERE**.</span></span>
 
-### <a name="debug-the-xslt"></a>Déboguer un XSLT
+### <a name="debug-the-xslt"></a><span data-ttu-id="63d05-138">Déboguer un XSLT</span><span class="sxs-lookup"><span data-stu-id="63d05-138">Debug the XSLT</span></span>
 
-Pour plus d'informations, voir <https://msdn.microsoft.com/en-us/library/ms255605.aspx>.
+<span data-ttu-id="63d05-139">Pour plus d'informations, voir <https://msdn.microsoft.com/en-us/library/ms255605.aspx>.</span><span class="sxs-lookup"><span data-stu-id="63d05-139">For more information, see <https://msdn.microsoft.com/en-us/library/ms255605.aspx>.</span></span>
 
-1.  Démarrez Microsoft Visual Studio.
-2.  Créez une application de console.
-3.  Ouvrez le XSLT approprié.
-4.  Cliquez sur le XLST et sa page de propriétés.
-5.  Définissez l'entrée de l'emplacement du fichier de relevé bancaire.
-6.  Définissez un emplacement et un nom de fichier pour le résultat.
-7.  Définissez les points d'arrêt requis.
-8.  Dans le menu, cliquez sur **XML** &gt; **Démarrer le débogage XSLT**.
+1.  <span data-ttu-id="63d05-140">Démarrez Microsoft Visual Studio.</span><span class="sxs-lookup"><span data-stu-id="63d05-140">Start Microsoft Visual Studio.</span></span>
+2.  <span data-ttu-id="63d05-141">Créez une application de console.</span><span class="sxs-lookup"><span data-stu-id="63d05-141">Create a console application.</span></span>
+3.  <span data-ttu-id="63d05-142">Ouvrez le XSLT approprié.</span><span class="sxs-lookup"><span data-stu-id="63d05-142">Open the appropriate XSLT.</span></span>
+4.  <span data-ttu-id="63d05-143">Cliquez sur le XLST et sa page de propriétés.</span><span class="sxs-lookup"><span data-stu-id="63d05-143">Click the XLST and its properties page.</span></span>
+5.  <span data-ttu-id="63d05-144">Définissez l'entrée de l'emplacement du fichier de relevé bancaire.</span><span class="sxs-lookup"><span data-stu-id="63d05-144">Set the input to the location of the bank statement file.</span></span>
+6.  <span data-ttu-id="63d05-145">Définissez un emplacement et un nom de fichier pour le résultat.</span><span class="sxs-lookup"><span data-stu-id="63d05-145">Define a location and file name for the output.</span></span>
+7.  <span data-ttu-id="63d05-146">Définissez les points d'arrêt requis.</span><span class="sxs-lookup"><span data-stu-id="63d05-146">Set the required break points.</span></span>
+8.  <span data-ttu-id="63d05-147">Dans le menu, cliquez sur **XML** &gt; **Démarrer le débogage XSLT**.</span><span class="sxs-lookup"><span data-stu-id="63d05-147">On the menu, click **XML** &gt; **Start XSLT Debugging**.</span></span>
 
-### <a name="format-the-xslt-output"></a>Mettre en forme le résultat XSLT
+### <a name="format-the-xslt-output"></a><span data-ttu-id="63d05-148">Mettre en forme le résultat XSLT</span><span class="sxs-lookup"><span data-stu-id="63d05-148">Format the XSLT output</span></span>
 
-Lorsque la transformation est exécutée, elle crée un fichier de sortie visible dans Visual Studio. Faites Ctrl+A, Ctrl+K, et Ctrl+D pour mettre en forme rapidement le fichier de sortie.
+<span data-ttu-id="63d05-149">Lorsque la transformation est exécutée, elle crée un fichier de sortie visible dans Visual Studio.</span><span class="sxs-lookup"><span data-stu-id="63d05-149">When the transformation runs, it creates an output file that you can view in Visual Studio.</span></span> <span data-ttu-id="63d05-150">Faites Ctrl+A, Ctrl+K, et Ctrl+D pour mettre en forme rapidement le fichier de sortie.</span><span class="sxs-lookup"><span data-stu-id="63d05-150">Use Ctrl+A, Ctrl+K, and Ctrl+D to quickly format the output file.</span></span>
 
-### <a name="adjust-the-transformation"></a>Ajuster la transformation
+### <a name="adjust-the-transformation"></a><span data-ttu-id="63d05-151">Ajuster la transformation</span><span class="sxs-lookup"><span data-stu-id="63d05-151">Adjust the transformation</span></span>
 
-Ajustez la transformation pour obtenir le champ ou l'élément approprié dans le fichier de relevé bancaire. Mappez ensuite ce champ ou cet élément à l'élément Finance and Operations approprié.
+<span data-ttu-id="63d05-152">Ajustez la transformation pour obtenir le champ ou l'élément approprié dans le fichier de relevé bancaire.</span><span class="sxs-lookup"><span data-stu-id="63d05-152">Adjust the transformation to get the appropriate field or element in the bank statement file.</span></span> <span data-ttu-id="63d05-153">Mappez ensuite ce champ ou cet élément à l'élément Finance and Operations approprié.</span><span class="sxs-lookup"><span data-stu-id="63d05-153">Then map that field or element to the appropriate Finance and Operations element.</span></span>
 
-### <a name="debitcredit-indicator"></a>Indicateur de débit/crédit
+### <a name="debitcredit-indicator"></a><span data-ttu-id="63d05-154">Indicateur de débit/crédit</span><span class="sxs-lookup"><span data-stu-id="63d05-154">Debit/credit indicator</span></span>
 
-Parfois, les débits peuvent être importés en tant que crédits, et des crédits peuvent être importés en tant que débits. Pour résoudre ce problème, vous devez modifier le XSLT approprié. Si des relevés bancaires proviennent de plusieurs banques, assurez-vous qu'elles utilisent toutes la même méthode de débit/crédit, ou créez des transformations distinctes.
+<span data-ttu-id="63d05-155">Parfois, les débits peuvent être importés en tant que crédits, et des crédits peuvent être importés en tant que débits.</span><span class="sxs-lookup"><span data-stu-id="63d05-155">Sometimes, debits might be imported as credits, and credits might be imported as debits.</span></span> <span data-ttu-id="63d05-156">Pour résoudre ce problème, vous devez modifier le XSLT approprié.</span><span class="sxs-lookup"><span data-stu-id="63d05-156">To resolve this issue, you must change the appropriate XSLT.</span></span> <span data-ttu-id="63d05-157">Si des relevés bancaires proviennent de plusieurs banques, assurez-vous qu'elles utilisent toutes la même méthode de débit/crédit, ou créez des transformations distinctes.</span><span class="sxs-lookup"><span data-stu-id="63d05-157">If bank statements come from multiple banks, make sure that they all use the same debit/credit approach, or create separate transformations.</span></span>
 
--   Modèle BAI2XML-to-Reconciliation.xlst GetAmountCreditDebitIndicator
--   Modèle ISO20022XML-to-Reconcilation.xslt GetCreditDebit
--   Modèle MT940XML-to-Reconcilation.xslt GetCreditDebitIndicator
+-   <span data-ttu-id="63d05-158">Modèle BAI2XML-to-Reconciliation.xlst GetAmountCreditDebitIndicator</span><span class="sxs-lookup"><span data-stu-id="63d05-158">BAI2XML-to-Reconciliation.xlst GetAmountCreditDebitIndicator template</span></span>
+-   <span data-ttu-id="63d05-159">Modèle ISO20022XML-to-Reconcilation.xslt GetCreditDebit</span><span class="sxs-lookup"><span data-stu-id="63d05-159">ISO20022XML-to-Reconcilation.xslt GetCreditDebit template</span></span>
+-   <span data-ttu-id="63d05-160">Modèle MT940XML-to-Reconcilation.xslt GetCreditDebitIndicator</span><span class="sxs-lookup"><span data-stu-id="63d05-160">MT940XML-to-Reconcilation.xslt GetCreditDebitIndicator template</span></span>
 
-## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>Exemples de formats de relevé bancaire et de mises en page techniques
-Le tableau suivant répertorie des exemples de définitions de mise en page techniques de fichier d'importation de rapprochement bancaire avancé et trois fichiers d'exemples de relevé bancaire associés : Vous pouvez télécharger les fichiers d'exemple et les dispositions techniques ici : https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
+## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a><span data-ttu-id="63d05-161">Exemples de formats de relevé bancaire et de mises en page techniques</span><span class="sxs-lookup"><span data-stu-id="63d05-161">Examples of bank statement formats and technical layouts</span></span>
+<span data-ttu-id="63d05-162">Le tableau suivant répertorie des exemples de définitions de mise en page techniques de fichier d'importation de rapprochement bancaire avancé et trois fichiers d'exemples de relevé bancaire associés :</span><span class="sxs-lookup"><span data-stu-id="63d05-162">The following table lists examples of the technical layout definitions for advanced bank reconciliation import files and three related bank statement example files.</span></span> <span data-ttu-id="63d05-163">Vous pouvez télécharger les fichiers d'exemple et les dispositions techniques ici : https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts</span><span class="sxs-lookup"><span data-stu-id="63d05-163">You can download the example files and technical layouts here: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts</span></span>  
 
 
-| Définition de mise en page technique                             | Fichier d'exemple de relevé bancaire          |
+| <span data-ttu-id="63d05-164">Définition de mise en page technique</span><span class="sxs-lookup"><span data-stu-id="63d05-164">Technical layout definition</span></span>                             | <span data-ttu-id="63d05-165">Fichier d'exemple de relevé bancaire</span><span class="sxs-lookup"><span data-stu-id="63d05-165">Bank statement example file</span></span>          |
 |---------------------------------------------------------|--------------------------------------|
-| DynamicsAXMT940Layout                                   | MT940StatementExample                |
-| DynamicsAXISO20022Layout                                | ISO20022StatementExample             |
-| DynamicsAXBAI2Layout                                    | BAI2StatementExample                 |
+| <span data-ttu-id="63d05-166">DynamicsAXMT940Layout</span><span class="sxs-lookup"><span data-stu-id="63d05-166">DynamicsAXMT940Layout</span></span>                                   | <span data-ttu-id="63d05-167">MT940StatementExample</span><span class="sxs-lookup"><span data-stu-id="63d05-167">MT940StatementExample</span></span>                |
+| <span data-ttu-id="63d05-168">DynamicsAXISO20022Layout</span><span class="sxs-lookup"><span data-stu-id="63d05-168">DynamicsAXISO20022Layout</span></span>                                | <span data-ttu-id="63d05-169">ISO20022StatementExample</span><span class="sxs-lookup"><span data-stu-id="63d05-169">ISO20022StatementExample</span></span>             |
+| <span data-ttu-id="63d05-170">DynamicsAXBAI2Layout</span><span class="sxs-lookup"><span data-stu-id="63d05-170">DynamicsAXBAI2Layout</span></span>                                    | <span data-ttu-id="63d05-171">BAI2StatementExample</span><span class="sxs-lookup"><span data-stu-id="63d05-171">BAI2StatementExample</span></span>                 |
 
 
 

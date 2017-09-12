@@ -16,90 +16,90 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 503e687a6a89d5a41f45de8b647c4fdf57a866bb
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 042eafc29e377e0ad6fb8dc1499daf8eb105b7ed
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-released-product-for-a-single-company"></a>Créer un produit lancé pour une seule société
+# <a name="create-a-released-product-for-a-single-company"></a><span data-ttu-id="fb219-103">Créer un produit lancé pour une seule société</span><span class="sxs-lookup"><span data-stu-id="fb219-103">Create a released product for a single company</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Cette procédure commence par la création d'un produit unique dans le contexte d'une seule unité juridique. Une fois le produit lancé créé, il est immédiatement disponible dans cette unité uniquement. Vous pouvez parcourir cette procédure dans la société fictive USMF. Cette tâche est généralement effectuée par un concepteur de produit.
+<span data-ttu-id="fb219-104">Cette procédure commence par la création d'un produit unique dans le contexte d'une seule unité juridique.</span><span class="sxs-lookup"><span data-stu-id="fb219-104">This procedure walks through how to create a single released product in the context of a single legal unit.</span></span> <span data-ttu-id="fb219-105">Une fois le produit lancé créé, il est immédiatement disponible dans cette unité uniquement.</span><span class="sxs-lookup"><span data-stu-id="fb219-105">After the released product is created,  it's immediately available in this unit only.</span></span> <span data-ttu-id="fb219-106">Vous pouvez parcourir cette procédure dans la société fictive USMF.</span><span class="sxs-lookup"><span data-stu-id="fb219-106">You can walk through this procedure in demo data company USMF.</span></span> <span data-ttu-id="fb219-107">Cette tâche est généralement effectuée par un concepteur de produit.</span><span class="sxs-lookup"><span data-stu-id="fb219-107">This task is usually performed by a product designer.</span></span>
 
 
-## <a name="create-a-released-product"></a>Créer un produit lancé
-1. Allez dans Produits lancés.
-2. Cliquez sur Nouveau.
-3. Dans le champ Numéro du produit, saisissez une valeur.
-    * Si un numéro de produit n'est pas automatiquement entré dans le champ du numéro de produit, entrez un numéro unique de produit. Cette étape n'est requise si aucune souche de numéros n'a été paramétrée pour les numéros de produit.  
-4. Dans le champ Nom du produit, saisissez une valeur.
-    * Le nom de produit est transféré vers le nom de recherche. Si nécessaire, vous pouvez sélectionner pour modifier le nom de recherche.  
-5. Dans le champ groupe de modèles d'articles, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-    * Les groupes de modèles d'articles contiennent des paramètres qui déterminent la manière dont les articles sont contrôlés et gérés au niveau des réceptions et sorties d'articles. Les paramètres déterminent également la manière dont la consommation d'articles est calculée.  
-6. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-7. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-8. Dans le champ Groupe d'articles, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-    * Les groupes d'articles sont utilisés pour gérer le stock en divisant les articles en stock en deux groupes basés sur les caractéristiques des articles. Par exemple, pour gérer la manière dont les informations sont validées dans les comptes principaux, vous pouvez créer une série de groupes d'articles associés aux comptes principaux spécifiques. Cela vous permet de suivre la valeur du stock des articles à différents stades.  
-9. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-10. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-11. Dans le champ Groupe de dimensions de stockage, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-    * Les dimensions de stockage facilitent le contrôle du mode de stockage et de prélèvement sur le stock. Par exemple, une dimension de stockage peut être Site et Entrepôt.  
-12. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-13. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-14. Dans le champ Groupe de dimensions de suivi, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-    * Le groupe de dimensions de suivi détermine les dimensions de suivi que vous pouvez ajouter à un produit. Par exemple, le numéro de lot et le numéro de série sont utilisés pour suivre les articles en stock.  
-15. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-16. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-17. Dans le champ Unité de stock, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-    * L'unité de stock détermine la manière dont le produit est mesuré lorsqu'il s'est enregistré dans le stock.  
-18. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-19. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-20. Dans le champ Unité d'achat, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-    * L'unité d'achat détermine la manière dont le produit est mesuré lorsqu'il a été acheté auprès d'un fournisseur.  
-21. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-22. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-23. Dans le champ Unité de vente, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-    * L'unité de vente détermine la manière dont le produit est mesuré lorsqu'il s'est vendu à un client.  
-24. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-25. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-26. Dans le champ Unité de nomenclature, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-    * L'unité de nomenclature détermine la manière dont le produit est mesuré en l'incluant dans une nomenclature (BOM).  
-27. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-28. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-29. Dans le champ Groupes de taxe d'article : cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-    * Le groupe de taxe d'article du groupe de taxe de vente détermine la manière dont la taxe est calculée pour chaque article.  
-30. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-31. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-32. Dans le champ Groupes de taxe d'article : cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-    * Le groupe de taxe d'article du groupe de taxe d'achat détermine la manière dont la taxe d'achat est calculée pour chaque article.  
-33. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-34. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-35. Cliquez sur OK.
+## <a name="create-a-released-product"></a><span data-ttu-id="fb219-108">Créer un produit lancé</span><span class="sxs-lookup"><span data-stu-id="fb219-108">Create a released product</span></span>
+1. <span data-ttu-id="fb219-109">Allez dans Produits lancés.</span><span class="sxs-lookup"><span data-stu-id="fb219-109">Go to Released products.</span></span>
+2. <span data-ttu-id="fb219-110">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="fb219-110">Click New.</span></span>
+3. <span data-ttu-id="fb219-111">Dans le champ Numéro du produit, saisissez une valeur.</span><span class="sxs-lookup"><span data-stu-id="fb219-111">In the Product number field, type a value.</span></span>
+    * <span data-ttu-id="fb219-112">Si un numéro de produit n'est pas automatiquement entré dans le champ du numéro de produit, entrez un numéro unique de produit.</span><span class="sxs-lookup"><span data-stu-id="fb219-112">If a product number is not automatically entered in the Product number field, type a unique product number.</span></span> <span data-ttu-id="fb219-113">Cette étape n'est requise si aucune souche de numéros n'a été paramétrée pour les numéros de produit.</span><span class="sxs-lookup"><span data-stu-id="fb219-113">This step is only  required if no number sequence has been set up for product numbers.</span></span>  
+4. <span data-ttu-id="fb219-114">Dans le champ Nom du produit, saisissez une valeur.</span><span class="sxs-lookup"><span data-stu-id="fb219-114">In the Product name field, type a value.</span></span>
+    * <span data-ttu-id="fb219-115">Le nom de produit est transféré vers le nom de recherche.</span><span class="sxs-lookup"><span data-stu-id="fb219-115">The Product name is defaulted to the search name.</span></span> <span data-ttu-id="fb219-116">Si nécessaire, vous pouvez sélectionner pour modifier le nom de recherche.</span><span class="sxs-lookup"><span data-stu-id="fb219-116">If needed, you can select to change the search name.</span></span>  
+5. <span data-ttu-id="fb219-117">Dans le champ groupe de modèles d'articles, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="fb219-117">In the Item model group field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="fb219-118">Les groupes de modèles d'articles contiennent des paramètres qui déterminent la manière dont les articles sont contrôlés et gérés au niveau des réceptions et sorties d'articles.</span><span class="sxs-lookup"><span data-stu-id="fb219-118">The item model groups contain settings that determine how items are controlled and handled on item receipts and issues.</span></span> <span data-ttu-id="fb219-119">Les paramètres déterminent également la manière dont la consommation d'articles est calculée.</span><span class="sxs-lookup"><span data-stu-id="fb219-119">The settings also determine how the consumption of items are calculated.</span></span>  
+6. <span data-ttu-id="fb219-120">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="fb219-120">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="fb219-121">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="fb219-121">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="fb219-122">Dans le champ Groupe d'articles, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="fb219-122">In the Item group field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="fb219-123">Les groupes d'articles sont utilisés pour gérer le stock en divisant les articles en stock en deux groupes basés sur les caractéristiques des articles.</span><span class="sxs-lookup"><span data-stu-id="fb219-123">Item groups are used to manage inventory by dividing inventory items into groups based on item characteristics.</span></span> <span data-ttu-id="fb219-124">Par exemple, pour gérer la manière dont les informations sont validées dans les comptes principaux, vous pouvez créer une série de groupes d'articles associés aux comptes principaux spécifiques.</span><span class="sxs-lookup"><span data-stu-id="fb219-124">For example, to manage how information is posted to main accounts, you can create a series of different item groups that are associated with specific main accounts.</span></span> <span data-ttu-id="fb219-125">Cela vous permet de suivre la valeur du stock des articles à différents stades.</span><span class="sxs-lookup"><span data-stu-id="fb219-125">This lets you track the inventory value of items at different stages.</span></span>  
+9. <span data-ttu-id="fb219-126">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="fb219-126">In the list, find and select the desired record.</span></span>
+10. <span data-ttu-id="fb219-127">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="fb219-127">In the list, click the link in the selected row.</span></span>
+11. <span data-ttu-id="fb219-128">Dans le champ Groupe de dimensions de stockage, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="fb219-128">In the Storage dimension group field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="fb219-129">Les dimensions de stockage facilitent le contrôle du mode de stockage et de prélèvement sur le stock.</span><span class="sxs-lookup"><span data-stu-id="fb219-129">The storage dimensions help you control how items are stored and taken from inventory.</span></span> <span data-ttu-id="fb219-130">Par exemple, une dimension de stockage peut être Site et Entrepôt.</span><span class="sxs-lookup"><span data-stu-id="fb219-130">For example, a storage dimension can be Site and Warehouse.</span></span>  
+12. <span data-ttu-id="fb219-131">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="fb219-131">In the list, find and select the desired record.</span></span>
+13. <span data-ttu-id="fb219-132">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="fb219-132">In the list, click the link in the selected row.</span></span>
+14. <span data-ttu-id="fb219-133">Dans le champ Groupe de dimensions de suivi, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="fb219-133">In the Tracking dimension group field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="fb219-134">Le groupe de dimensions de suivi détermine les dimensions de suivi que vous pouvez ajouter à un produit.</span><span class="sxs-lookup"><span data-stu-id="fb219-134">The tracking dimension group determines which tracking dimensions you can add to a product.</span></span> <span data-ttu-id="fb219-135">Par exemple, le numéro de lot et le numéro de série sont utilisés pour suivre les articles en stock.</span><span class="sxs-lookup"><span data-stu-id="fb219-135">For example, the batch number and serial number are used to track inventory items.</span></span>  
+15. <span data-ttu-id="fb219-136">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="fb219-136">In the list, find and select the desired record.</span></span>
+16. <span data-ttu-id="fb219-137">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="fb219-137">In the list, click the link in the selected row.</span></span>
+17. <span data-ttu-id="fb219-138">Dans le champ Unité de stock, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="fb219-138">In the Inventory unit field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="fb219-139">L'unité de stock détermine la manière dont le produit est mesuré lorsqu'il s'est enregistré dans le stock.</span><span class="sxs-lookup"><span data-stu-id="fb219-139">The inventory unit determines how the product is quantified when it's stored in inventory.</span></span>  
+18. <span data-ttu-id="fb219-140">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="fb219-140">In the list, find and select the desired record.</span></span>
+19. <span data-ttu-id="fb219-141">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="fb219-141">In the list, click the link in the selected row.</span></span>
+20. <span data-ttu-id="fb219-142">Dans le champ Unité d'achat, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="fb219-142">In the Purchase unit field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="fb219-143">L'unité d'achat détermine la manière dont le produit est mesuré lorsqu'il a été acheté auprès d'un fournisseur.</span><span class="sxs-lookup"><span data-stu-id="fb219-143">The purchase unit determines how the product is quantified when it’s purchased from a vendor.</span></span>  
+21. <span data-ttu-id="fb219-144">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="fb219-144">In the list, find and select the desired record.</span></span>
+22. <span data-ttu-id="fb219-145">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="fb219-145">In the list, click the link in the selected row.</span></span>
+23. <span data-ttu-id="fb219-146">Dans le champ Unité de vente, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="fb219-146">In the Sales unit field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="fb219-147">L'unité de vente détermine la manière dont le produit est mesuré lorsqu'il s'est vendu à un client.</span><span class="sxs-lookup"><span data-stu-id="fb219-147">The sales unit determines how the product is quantified when it’s sold to a customer.</span></span>  
+24. <span data-ttu-id="fb219-148">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="fb219-148">In the list, find and select the desired record.</span></span>
+25. <span data-ttu-id="fb219-149">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="fb219-149">In the list, click the link in the selected row.</span></span>
+26. <span data-ttu-id="fb219-150">Dans le champ Unité de nomenclature, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="fb219-150">In the BOM unit field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="fb219-151">L'unité de nomenclature détermine la manière dont le produit est mesuré en l'incluant dans une nomenclature (BOM).</span><span class="sxs-lookup"><span data-stu-id="fb219-151">The BOM unit determines how the product is quantified when including it in a bill of materials (BOM).</span></span>  
+27. <span data-ttu-id="fb219-152">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="fb219-152">In the list, find and select the desired record.</span></span>
+28. <span data-ttu-id="fb219-153">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="fb219-153">In the list, click the link in the selected row.</span></span>
+29. <span data-ttu-id="fb219-154">Dans le champ Groupes de taxe d'article : cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="fb219-154">In the Item sales tax group field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="fb219-155">Le groupe de taxe d'article du groupe de taxe de vente détermine la manière dont la taxe est calculée pour chaque article.</span><span class="sxs-lookup"><span data-stu-id="fb219-155">The item sales tax group in the Sales taxation group determines how sales tax is calculated for each item.</span></span>  
+30. <span data-ttu-id="fb219-156">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="fb219-156">In the list, find and select the desired record.</span></span>
+31. <span data-ttu-id="fb219-157">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="fb219-157">In the list, click the link in the selected row.</span></span>
+32. <span data-ttu-id="fb219-158">Dans le champ Groupes de taxe d'article : cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="fb219-158">In the Item sales tax group field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="fb219-159">Le groupe de taxe d'article du groupe de taxe d'achat détermine la manière dont la taxe d'achat est calculée pour chaque article.</span><span class="sxs-lookup"><span data-stu-id="fb219-159">The item sales tax group in the Purchase taxation group determines how purchase tax is calculated for each item.</span></span>  
+33. <span data-ttu-id="fb219-160">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="fb219-160">In the list, find and select the desired record.</span></span>
+34. <span data-ttu-id="fb219-161">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="fb219-161">In the list, click the link in the selected row.</span></span>
+35. <span data-ttu-id="fb219-162">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="fb219-162">Click OK.</span></span>
 
-## <a name="add-product-characteristics"></a>Ajouter des caractéristiques de produit
-1. Développez ou réduisez la section Gérer le stock.
-2. Entrez un nombre dans le champ Poids net.
-3. Entrez un nombre dans le champ Tare.
-4. Dans le champ Brut, entrez un nombre.
-5. Dans le champ Largeur brute, entrez un nombre.
-6. Dans le champ Hauteur brute, entrez un nombre.
-7. Dans le champ Volume, entrez un nombre.
+## <a name="add-product-characteristics"></a><span data-ttu-id="fb219-163">Ajouter des caractéristiques de produit</span><span class="sxs-lookup"><span data-stu-id="fb219-163">Add product characteristics</span></span>
+1. <span data-ttu-id="fb219-164">Développez ou réduisez la section Gérer le stock.</span><span class="sxs-lookup"><span data-stu-id="fb219-164">Expand or collapse the Manage inventory section.</span></span>
+2. <span data-ttu-id="fb219-165">Entrez un nombre dans le champ Poids net.</span><span class="sxs-lookup"><span data-stu-id="fb219-165">In the Net weight field, enter a number.</span></span>
+3. <span data-ttu-id="fb219-166">Entrez un nombre dans le champ Tare.</span><span class="sxs-lookup"><span data-stu-id="fb219-166">In the Tare weight field, enter a number.</span></span>
+4. <span data-ttu-id="fb219-167">Dans le champ Brut, entrez un nombre.</span><span class="sxs-lookup"><span data-stu-id="fb219-167">In the Gross depth field, enter a number.</span></span>
+5. <span data-ttu-id="fb219-168">Dans le champ Largeur brute, entrez un nombre.</span><span class="sxs-lookup"><span data-stu-id="fb219-168">In the Gross width field, enter a number.</span></span>
+6. <span data-ttu-id="fb219-169">Dans le champ Hauteur brute, entrez un nombre.</span><span class="sxs-lookup"><span data-stu-id="fb219-169">In the Gross height field, enter a number.</span></span>
+7. <span data-ttu-id="fb219-170">Dans le champ Volume, entrez un nombre.</span><span class="sxs-lookup"><span data-stu-id="fb219-170">In the Volume field, enter a number.</span></span>
 
-## <a name="add-financial-dimensions"></a>Ajouter des dimensions financières
-1. Développez ou réduisez la section Dimensions financières.
-2. Dans le champ Unité commerciale, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-3. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-4. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-5. Dans le champ Centre de coût, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-6. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-7. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-8. Cliquez sur le bouton de liste déroulante pour ouvrir la recherche dans le champ Département.
-9. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-10. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-11. Dans le champ Groupe d'articles, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-12. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-13. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
+## <a name="add-financial-dimensions"></a><span data-ttu-id="fb219-171">Ajouter des dimensions financières</span><span class="sxs-lookup"><span data-stu-id="fb219-171">Add financial dimensions</span></span>
+1. <span data-ttu-id="fb219-172">Développez ou réduisez la section Dimensions financières.</span><span class="sxs-lookup"><span data-stu-id="fb219-172">Expand or collapse the Financial dimensions section.</span></span>
+2. <span data-ttu-id="fb219-173">Dans le champ Unité commerciale, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="fb219-173">In the BusinessUnit field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="fb219-174">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="fb219-174">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="fb219-175">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="fb219-175">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="fb219-176">Dans le champ Centre de coût, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="fb219-176">In the CostCenter field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="fb219-177">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="fb219-177">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="fb219-178">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="fb219-178">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="fb219-179">Cliquez sur le bouton de liste déroulante pour ouvrir la recherche dans le champ Département.</span><span class="sxs-lookup"><span data-stu-id="fb219-179">In the Department field, click the drop-down button to open the lookup.</span></span>
+9. <span data-ttu-id="fb219-180">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="fb219-180">In the list, find and select the desired record.</span></span>
+10. <span data-ttu-id="fb219-181">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="fb219-181">In the list, click the link in the selected row.</span></span>
+11. <span data-ttu-id="fb219-182">Dans le champ Groupe d'articles, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="fb219-182">In the ItemGroup field, click the drop-down button to open the lookup.</span></span>
+12. <span data-ttu-id="fb219-183">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="fb219-183">In the list, find and select the desired record.</span></span>
+13. <span data-ttu-id="fb219-184">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="fb219-184">In the list, click the link in the selected row.</span></span>
 
 

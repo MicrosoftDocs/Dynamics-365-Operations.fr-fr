@@ -17,50 +17,50 @@ ms.assetid: 14ac7db4-fb40-43c1-bb0d-1d51fc91d24f
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: mguada
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5bfb56096bb10ff0e1740db67e0122f5de936c14
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 041cd20e6b0ab7d1cb31e8925aa3a755ea556706
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="common-sources-of-production-variances"></a>Sources courantes des écarts de production
+# <a name="common-sources-of-production-variances"></a><span data-ttu-id="11b3c-103">Sources courantes des écarts de production</span><span class="sxs-lookup"><span data-stu-id="11b3c-103">Common sources of production variances</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Cet article décrit diverses sources typiques de chaque type d'écart de production. 
+<span data-ttu-id="11b3c-104">Cet article décrit diverses sources typiques de chaque type d'écart de production.</span><span class="sxs-lookup"><span data-stu-id="11b3c-104">This article explains various typical sources of each type of production variance.</span></span> 
 
-Voici quelques sources typiques d'écart de **taille de lot** :
+<span data-ttu-id="11b3c-105">Voici quelques sources typiques d'écart de **taille de lot** :</span><span class="sxs-lookup"><span data-stu-id="11b3c-105">Here are some typical sources of a **lot size** variance:</span></span>
 
--   La quantité correcte d'un ordre de fabrication diffère de la quantité de calcul utilisée dans le calcul de coût standard. La quantité fournit la base pour l'amortissement des coûts constants.
--   La valeur des coûts constants de l'ordre de fabrication diffère des coûts constants utilisés dans le calcul du coût standard. Les coûts constants de l'ordre de fabrication peuvent être différents pour plusieurs raisons. Par exemple, les coûts constants peuvent refléter les facteurs suivants :
-    -   les modifications manuelles apportées à la nomenclature de production ou gamme ;
-    -   la sélection d'une autre version de nomenclature ou version de gamme lors de la création de l'ordre de fabrication ;
-    -   des modifications d'ingénierie planifiées à la version de nomenclature ou version de gamme affectée à l'article.
+-   <span data-ttu-id="11b3c-106">La quantité correcte d'un ordre de fabrication diffère de la quantité de calcul utilisée dans le calcul de coût standard.</span><span class="sxs-lookup"><span data-stu-id="11b3c-106">The good quantity for a production order differs from the calculation quantity that is used in the standard cost calculation.</span></span> <span data-ttu-id="11b3c-107">La quantité fournit la base pour l'amortissement des coûts constants.</span><span class="sxs-lookup"><span data-stu-id="11b3c-107">The quantity provides the basis for amortizing constant costs.</span></span>
+-   <span data-ttu-id="11b3c-108">La valeur des coûts constants de l'ordre de fabrication diffère des coûts constants utilisés dans le calcul du coût standard.</span><span class="sxs-lookup"><span data-stu-id="11b3c-108">The value of constant costs on the production order differs from the constant costs that are used in the standard cost calculation.</span></span> <span data-ttu-id="11b3c-109">Les coûts constants de l'ordre de fabrication peuvent être différents pour plusieurs raisons.</span><span class="sxs-lookup"><span data-stu-id="11b3c-109">The constant costs on the production order can differ for several reasons.</span></span> <span data-ttu-id="11b3c-110">Par exemple, les coûts constants peuvent refléter les facteurs suivants :</span><span class="sxs-lookup"><span data-stu-id="11b3c-110">For example, the constant costs might reflect the following factors:</span></span>
+    -   <span data-ttu-id="11b3c-111">les modifications manuelles apportées à la nomenclature de production ou gamme ;</span><span class="sxs-lookup"><span data-stu-id="11b3c-111">Manual changes to the production bill of materials (BOM) or route</span></span>
+    -   <span data-ttu-id="11b3c-112">la sélection d'une autre version de nomenclature ou version de gamme lors de la création de l'ordre de fabrication ;</span><span class="sxs-lookup"><span data-stu-id="11b3c-112">The selection of a different BOM version or route version when you create the production order</span></span>
+    -   <span data-ttu-id="11b3c-113">des modifications d'ingénierie planifiées à la version de nomenclature ou version de gamme affectée à l'article.</span><span class="sxs-lookup"><span data-stu-id="11b3c-113">Planned engineering changes to the BOM version or route version that is assigned to the item</span></span>
 
-Voici quelques sources typiques d'écart de **prix de production** :
+<span data-ttu-id="11b3c-114">Voici quelques sources typiques d'écart de **prix de production** :</span><span class="sxs-lookup"><span data-stu-id="11b3c-114">Here are some typical sources of a **production price** variance:</span></span>
 
--   La catégorie de coûts (et son prix de catégorie de coûts) pour la consommation déclarée d'une opération d'acheminement diffère de la catégorie de coûts utilisée dans le calcul de coûts standard.
--   Le coût actif pour le prix de la catégorie de coûts diffère du prix de la catégorie de coûts utilisé dans le calcul du coût standard.
+-   <span data-ttu-id="11b3c-115">La catégorie de coûts (et son prix de catégorie de coûts) pour la consommation déclarée d'une opération d'acheminement diffère de la catégorie de coûts utilisée dans le calcul de coûts standard.</span><span class="sxs-lookup"><span data-stu-id="11b3c-115">The cost category (and cost category price) for the reported consumption of a routing operation differs from the cost category that is used in standard cost calculation.</span></span>
+-   <span data-ttu-id="11b3c-116">Le coût actif pour le prix de la catégorie de coûts diffère du prix de la catégorie de coûts utilisé dans le calcul du coût standard.</span><span class="sxs-lookup"><span data-stu-id="11b3c-116">The active cost for the cost category price differs from the cost category price that is used in standard cost calculation.</span></span>
 
-Voici quelques sources typiques d'écart de **quantité de production** :
+<span data-ttu-id="11b3c-117">Voici quelques sources typiques d'écart de **quantité de production** :</span><span class="sxs-lookup"><span data-stu-id="11b3c-117">Here are some typical sources of a **production quantity** variance:</span></span>
 
--   Vous effectuez une sortie excessive ou insuffisante d'un composant de matériau.
--   Vous déclarez des heures excessives ou insuffisantes pour une opération d'acheminement.
--   Vous déclarez la réception de manière excédentaire ou insuffisante de la quantité correcte de l'article parent par rapport à la quantité commandée. Toutefois, vous sortez les composants et déclarez les opérations selon la quantité de la commande pour l'ordre de fabrication.
+-   <span data-ttu-id="11b3c-118">Vous effectuez une sortie excessive ou insuffisante d'un composant de matériau.</span><span class="sxs-lookup"><span data-stu-id="11b3c-118">You over-issue or under-issue a material component.</span></span>
+-   <span data-ttu-id="11b3c-119">Vous déclarez des heures excessives ou insuffisantes pour une opération d'acheminement.</span><span class="sxs-lookup"><span data-stu-id="11b3c-119">You over-report or under-report the time for a routing operation.</span></span>
+-   <span data-ttu-id="11b3c-120">Vous déclarez la réception de manière excédentaire ou insuffisante de la quantité correcte de l'article parent par rapport à la quantité commandée.</span><span class="sxs-lookup"><span data-stu-id="11b3c-120">You over-receive or under-receive the good quantity of the parent item, relative to the order quantity.</span></span> <span data-ttu-id="11b3c-121">Toutefois, vous sortez les composants et déclarez les opérations selon la quantité de la commande pour l'ordre de fabrication.</span><span class="sxs-lookup"><span data-stu-id="11b3c-121">However, you issue components and report operations completely, based on the order quantity for the production order.</span></span>
 
-Voici quelques sources typiques d'écart d'une **substitution de production** :
+<span data-ttu-id="11b3c-122">Voici quelques sources typiques d'écart d'une **substitution de production** :</span><span class="sxs-lookup"><span data-stu-id="11b3c-122">Here are some typical sources of a **production substitution** variance:</span></span>
 
--   Vous sortez un composant de matériau absent de la nomenclature de production.
--   Vous ajoutez manuellement un composant à la nomenclature de production et déclarez ce composant comme étant consommé.
--   Vous déclarez un article comme étant consommé sans l'ajouter manuellement à la nomenclature de production.
--   Vous ajoutez manuellement une opération à la gamme de production et déclarez cette opération comme étant consommée.
--   Lorsque vous créez l'ordre de fabrication, vous sélectionnez une version de nomenclature différente de celle utilisée dans le calcul de coûts standard.
--   Lorsque vous créez l'ordre de fabrication, vous sélectionnez une version de gamme différente de celle utilisée dans le calcul de coûts standard.
+-   <span data-ttu-id="11b3c-123">Vous sortez un composant de matériau absent de la nomenclature de production.</span><span class="sxs-lookup"><span data-stu-id="11b3c-123">You issue a material component that isn't on the production BOM.</span></span>
+-   <span data-ttu-id="11b3c-124">Vous ajoutez manuellement un composant à la nomenclature de production et déclarez ce composant comme étant consommé.</span><span class="sxs-lookup"><span data-stu-id="11b3c-124">You manually add a component to the production BOM and report that component as consumed.</span></span>
+-   <span data-ttu-id="11b3c-125">Vous déclarez un article comme étant consommé sans l'ajouter manuellement à la nomenclature de production.</span><span class="sxs-lookup"><span data-stu-id="11b3c-125">You report an item as consumed but don't manually add it to the production BOM.</span></span>
+-   <span data-ttu-id="11b3c-126">Vous ajoutez manuellement une opération à la gamme de production et déclarez cette opération comme étant consommée.</span><span class="sxs-lookup"><span data-stu-id="11b3c-126">You manually add an operation to the production route and report that operation as consumed.</span></span>
+-   <span data-ttu-id="11b3c-127">Lorsque vous créez l'ordre de fabrication, vous sélectionnez une version de nomenclature différente de celle utilisée dans le calcul de coûts standard.</span><span class="sxs-lookup"><span data-stu-id="11b3c-127">When you create the production order, you select a BOM version that differs from the BOM version that is used in the standard cost calculation.</span></span>
+-   <span data-ttu-id="11b3c-128">Lorsque vous créez l'ordre de fabrication, vous sélectionnez une version de gamme différente de celle utilisée dans le calcul de coûts standard.</span><span class="sxs-lookup"><span data-stu-id="11b3c-128">When you create the production order, you select a route version that differs from the route version that is used in the standard cost calculation.</span></span>
 
 
 

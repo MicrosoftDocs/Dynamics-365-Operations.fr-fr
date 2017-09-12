@@ -16,95 +16,95 @@ ms.custom: 3341
 ms.assetid: ae5ceaeb-aeb7-45cd-b835-23cf9c5cf95a
 ms.search.region: Global
 ms.author: saraschi
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5ff3d87f610489608f0bebadd9bb4c9c5c727992
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 2b8c078841ca2e4bd994bbfbbe2abb130a4cf6fa
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="straight-line-service-life-depreciation"></a>Amortissement linéaire sur la durée de vie
+# <a name="straight-line-service-life-depreciation"></a><span data-ttu-id="67eda-103">Amortissement linéaire sur la durée de vie</span><span class="sxs-lookup"><span data-stu-id="67eda-103">Straight line service life depreciation</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Cet article donne une vue d'ensemble de la méthode d'amortissement linéaire sur la durée de vie restante.
+<span data-ttu-id="67eda-104">Cet article donne une vue d'ensemble de la méthode d'amortissement linéaire sur la durée de vie restante.</span><span class="sxs-lookup"><span data-stu-id="67eda-104">This article gives an overview of the Straight line service life method of depreciation.</span></span>
 
-Lorsque vous paramétrez un profil d'amortissement des immobilisations et sélectionnez Durée de vie linéaire dans le champ Méthode de la page Profils d'amortissement, l'amortissement des immobilisations affectées à ce profil d'amortissement est basé sur la durée de vie totale de l'immobilisation. Le montant d'amortissement est généralement identique dans chaque période d'amortissement. 
+<span data-ttu-id="67eda-105">Lorsque vous paramétrez un profil d'amortissement des immobilisations et sélectionnez Durée de vie linéaire dans le champ Méthode de la page Profils d'amortissement, l'amortissement des immobilisations affectées à ce profil d'amortissement est basé sur la durée de vie totale de l'immobilisation.</span><span class="sxs-lookup"><span data-stu-id="67eda-105">When you set up a fixed asset depreciation profile and select Straight line service life in the Method field in the Depreciation profiles page, the assets that have this depreciation profile assigned to them are depreciated based on the total service life of the asset.</span></span> <span data-ttu-id="67eda-106">Le montant d'amortissement est généralement identique dans chaque période d'amortissement.</span><span class="sxs-lookup"><span data-stu-id="67eda-106">This generally is the same depreciation amount in each depreciation period.</span></span> 
 
-La différence dans le montant d'amortissement calculé entre la durée de vie linéaire restante et la durée de vie linéaire est quand un ajustement est validé dans l'immobilisation. 
+<span data-ttu-id="67eda-107">La différence dans le montant d'amortissement calculé entre la durée de vie linéaire restante et la durée de vie linéaire est quand un ajustement est validé dans l'immobilisation.</span><span class="sxs-lookup"><span data-stu-id="67eda-107">The difference in the depreciation amount that is calculated between straight line service life remaining and straight line service life is when there is an adjustment posted to the asset.</span></span> 
 
-Pour paramétrer l'amortissement linéaire sur la durée de vie, vous devez également sélectionner des options dans les champs Année d'amortissement et Fréquence de la page Profils d'amortissement.
+<span data-ttu-id="67eda-108">Pour paramétrer l'amortissement linéaire sur la durée de vie, vous devez également sélectionner des options dans les champs Année d'amortissement et Fréquence de la page Profils d'amortissement.</span><span class="sxs-lookup"><span data-stu-id="67eda-108">To set up straight line service life depreciation, you must also select options in the Depreciation year and Period frequency fields in the Depreciation profiles page.</span></span>
 
-## <a name="select-a-depreciation-year"></a>Sélection d'une année d'amortissement
-Vous pouvez sélectionner soit Calendrier soit Exercice dans le champ Année d'amortissement de la page Profils d'amortissement. La sélection effectuée détermine les options disponibles dans le champ Période fréquence. L'option par défaut est Calendrier.
+## <a name="select-a-depreciation-year"></a><span data-ttu-id="67eda-109">Sélection d'une année d'amortissement</span><span class="sxs-lookup"><span data-stu-id="67eda-109">Select a depreciation year</span></span>
+<span data-ttu-id="67eda-110">Vous pouvez sélectionner soit Calendrier soit Exercice dans le champ Année d'amortissement de la page Profils d'amortissement.</span><span class="sxs-lookup"><span data-stu-id="67eda-110">You can select either Calendar or Fiscal in the Depreciation year field in the Depreciation profiles page.</span></span> <span data-ttu-id="67eda-111">La sélection effectuée détermine les options disponibles dans le champ Période fréquence.</span><span class="sxs-lookup"><span data-stu-id="67eda-111">The selection defines the options that are available in the Period frequency field.</span></span> <span data-ttu-id="67eda-112">L'option par défaut est Calendrier.</span><span class="sxs-lookup"><span data-stu-id="67eda-112">The default option is Calendar.</span></span>
 
-### <a name="calendar"></a>Calendrier
+### <a name="calendar"></a><span data-ttu-id="67eda-113">Calendrier</span><span class="sxs-lookup"><span data-stu-id="67eda-113">Calendar</span></span>
 
-Si vous sélectionnez Calendrier, l'exercice supposé s'étend sur la période du 1er janvier au 31 décembre, même si vous avez défini le calendrier fiscal différemment. 
+<span data-ttu-id="67eda-114">Si vous sélectionnez Calendrier, l'exercice supposé s'étend sur la période du 1er janvier au 31 décembre, même si vous avez défini le calendrier fiscal différemment.</span><span class="sxs-lookup"><span data-stu-id="67eda-114">If you select Calendar, a year of January 1 to December 31 is assumed, even if you have defined the fiscal calendar differently.</span></span> 
 
-L'option Calendrier met à jour la base d'amortissement (généralement la valeur comptable nette moins la valeur résiduelle) le premier janvier de chaque année. Dans les exemples plus loin dans cette rubrique, la base d'amortissement est le numérateur de la première expression de la colonne Calcul. 
+<span data-ttu-id="67eda-115">L'option Calendrier met à jour la base d'amortissement (généralement la valeur comptable nette moins la valeur résiduelle) le premier janvier de chaque année.</span><span class="sxs-lookup"><span data-stu-id="67eda-115">The Calendar option updates the depreciation base, which is typically the net book value minus the salvage value, on January 1 of each year.</span></span> <span data-ttu-id="67eda-116">Dans les exemples plus loin dans cette rubrique, la base d'amortissement est le numérateur de la première expression de la colonne Calcul.</span><span class="sxs-lookup"><span data-stu-id="67eda-116">In the examples later in this topic, the depreciation base is the numerator in the first expression in the calculations column.</span></span> 
 
-Si vous sélectionnez Calendrier, les options suivantes sont disponibles dans le champ Période fréquence qui définit les dates et les montants de validation de régularisation des amortissements au cours de l'année civile :
--   Annuel valide un montant le 31 décembre.
--   L'option Mensuellement valide un montant mensuel à la fin de chaque mois du calendrier.
--   L'option Trimestriel valide un montant trimestriel à la fin de chaque trimestre du calendrier (31 mars, 30 juin, 30 septembre et 31 décembre).
--   Semestriel valide un montant semestriel à la fin de chaque semestre du calendrier (30 juin et 31 décembre).
--   L'option Quotidien valide le montant d'amortissement pour la méthode d'amortissement quotidien à l'aide d'une transaction par jour.
+<span data-ttu-id="67eda-117">Si vous sélectionnez Calendrier, les options suivantes sont disponibles dans le champ Période fréquence qui définit les dates et les montants de validation de régularisation des amortissements au cours de l'année civile :</span><span class="sxs-lookup"><span data-stu-id="67eda-117">If you select Calendar, the following options are available in the Period frequency field, which defines the depreciation accrual posting dates and amounts throughout the calendar year:</span></span>
+-   <span data-ttu-id="67eda-118">Annuel valide un montant le 31 décembre.</span><span class="sxs-lookup"><span data-stu-id="67eda-118">Yearly posts an amount on December 31.</span></span>
+-   <span data-ttu-id="67eda-119">L'option Mensuellement valide un montant mensuel à la fin de chaque mois du calendrier.</span><span class="sxs-lookup"><span data-stu-id="67eda-119">Monthly posts a monthly amount at the end of each calendar month.</span></span>
+-   <span data-ttu-id="67eda-120">L'option Trimestriel valide un montant trimestriel à la fin de chaque trimestre du calendrier (31 mars, 30 juin, 30 septembre et 31 décembre).</span><span class="sxs-lookup"><span data-stu-id="67eda-120">Quarterly posts a quarterly amount at the end of each calendar quarter (March 31, June 30, September 30, and December 31).</span></span>
+-   <span data-ttu-id="67eda-121">Semestriel valide un montant semestriel à la fin de chaque semestre du calendrier (30 juin et 31 décembre).</span><span class="sxs-lookup"><span data-stu-id="67eda-121">Half-Yearly posts a half-yearly amount at the end of each calendar half year (June 30 and December 31).</span></span>
+-   <span data-ttu-id="67eda-122">L'option Quotidien valide le montant d'amortissement pour la méthode d'amortissement quotidien à l'aide d'une transaction par jour.</span><span class="sxs-lookup"><span data-stu-id="67eda-122">Daily posts the depreciation amount for the daily depreciation method using one transaction for each day.</span></span>
 
-Par exemple, si vous sélectionnez Annuel, l'amortissement annuel n'est validé qu'une seule fois, le 31 décembre de chaque année. Si vous sélectionnez Mensuellement, l'amortissement mensuel est validé chaque mois comme 1/12 du montant d'amortissement annuel.
+<span data-ttu-id="67eda-123">Par exemple, si vous sélectionnez Annuel, l'amortissement annuel n'est validé qu'une seule fois, le 31 décembre de chaque année.</span><span class="sxs-lookup"><span data-stu-id="67eda-123">For example, if you select Yearly, the yearly depreciation is posted only one time, on December 31 of each year.</span></span> <span data-ttu-id="67eda-124">Si vous sélectionnez Mensuellement, l'amortissement mensuel est validé chaque mois comme 1/12 du montant d'amortissement annuel.</span><span class="sxs-lookup"><span data-stu-id="67eda-124">If you select Monthly, the monthly depreciation is posted each month as 1/12 of the yearly depreciation amount.</span></span>
 
-### <a name="fiscal"></a>Exercice
+### <a name="fiscal"></a><span data-ttu-id="67eda-125">Exercice</span><span class="sxs-lookup"><span data-stu-id="67eda-125">Fiscal</span></span>
 
-Si vous sélectionnez Fiscal dans le champ Année d'amortissement, l'amortissement linéaire sur la durée de vie est utilisé. Il est calculé sur la base de l'exercice, qui est défini par le calendrier fiscal spécifié pour le registre, ou par le calendrier fiscal sélectionné sur la page Comptabilité. Les calendriers fiscaux sont paramétrés dans la page Calendriers fiscaux.
+<span data-ttu-id="67eda-126">Si vous sélectionnez Fiscal dans le champ Année d'amortissement, l'amortissement linéaire sur la durée de vie est utilisé.</span><span class="sxs-lookup"><span data-stu-id="67eda-126">If you select Fiscal in the Depreciation year field, the straight line service life depreciation is used.</span></span> <span data-ttu-id="67eda-127">Il est calculé sur la base de l'exercice, qui est défini par le calendrier fiscal spécifié pour le registre, ou par le calendrier fiscal sélectionné sur la page Comptabilité.</span><span class="sxs-lookup"><span data-stu-id="67eda-127">It is calculated based on the fiscal year, which is defined by the fiscal calendar that is specified for the book, or by the fiscal calendar that is selected in the Ledger page.</span></span> <span data-ttu-id="67eda-128">Les calendriers fiscaux sont paramétrés dans la page Calendriers fiscaux.</span><span class="sxs-lookup"><span data-stu-id="67eda-128">Fiscal calendars are set up in the Fiscal calendars page.</span></span>
 
-Par exemple, pour l'exercice allant du 1er juillet au 30 juin, le calcul de l'amortissement commence le 1er juillet. L'exercice peut avoir une longueur supérieure ou inférieure à 12 mois. L'amortissement est ajusté automatiquement en fonction de chaque période fiscale. La longueur de l'exercice suivant est basée sur les périodes fiscales paramétrées lors de la création d'un exercice dans l'écran Calendriers fiscaux. 
+<span data-ttu-id="67eda-129">Par exemple, pour l'exercice allant du 1er juillet au 30 juin, le calcul de l'amortissement commence le 1er juillet.</span><span class="sxs-lookup"><span data-stu-id="67eda-129">For example, for fiscal year July 1 through June 30, the depreciation calculation starts on July 1.</span></span> <span data-ttu-id="67eda-130">L'exercice peut avoir une longueur supérieure ou inférieure à 12 mois.</span><span class="sxs-lookup"><span data-stu-id="67eda-130">The fiscal year can be longer or shorter than 12 months.</span></span> <span data-ttu-id="67eda-131">L'amortissement est ajusté automatiquement en fonction de chaque période fiscale.</span><span class="sxs-lookup"><span data-stu-id="67eda-131">The depreciation automatically is adjusted for each fiscal period.</span></span> <span data-ttu-id="67eda-132">La longueur de l'exercice suivant est basée sur les périodes fiscales paramétrées lors de la création d'un exercice dans l'écran Calendriers fiscaux.</span><span class="sxs-lookup"><span data-stu-id="67eda-132">The length of the next fiscal year is based on the fiscal periods that you set up when you create a new fiscal year in the Fiscal calendars form.</span></span> 
 
-Si vous sélectionnez Fiscal, les options suivantes sont disponibles dans le champ Période fréquence :
--   Annuel valide le montant total de l'amortissement calculé pour l'exercice comme montant unique le dernier jour de l'exercice.
--   Période fiscale calcule le montant total de l'amortissement pour l'exercice, qui est à recevoir dans les périodes définies dans l'écran Calendriers fiscaux pour le calendrier fiscal.
+<span data-ttu-id="67eda-133">Si vous sélectionnez Fiscal, les options suivantes sont disponibles dans le champ Période fréquence :</span><span class="sxs-lookup"><span data-stu-id="67eda-133">If you select Fiscal, the following options are available in the Period frequency field:</span></span>
+-   <span data-ttu-id="67eda-134">Annuel valide le montant total de l'amortissement calculé pour l'exercice comme montant unique le dernier jour de l'exercice.</span><span class="sxs-lookup"><span data-stu-id="67eda-134">Yearly posts the total amount of the depreciation that is calculated for the fiscal year as one amount on the last day of the fiscal year.</span></span>
+-   <span data-ttu-id="67eda-135">Période fiscale calcule le montant total de l'amortissement pour l'exercice, qui est à recevoir dans les périodes définies dans l'écran Calendriers fiscaux pour le calendrier fiscal.</span><span class="sxs-lookup"><span data-stu-id="67eda-135">Fiscal period calculates the total amount of the depreciation for the fiscal year, which is accrued into the periods that are defined in the Fiscal calendars form for the fiscal calendar.</span></span>
 
-## <a name="example-straight-line-depreciation-of-an-unchanged-fixed-asset"></a>Exemple : amortissement linéaire d'une immobilisation inchangée
-Supposons que l'immobilisation présente les caractéristiques suivantes :
+## <a name="example-straight-line-depreciation-of-an-unchanged-fixed-asset"></a><span data-ttu-id="67eda-136">Exemple : amortissement linéaire d'une immobilisation inchangée</span><span class="sxs-lookup"><span data-stu-id="67eda-136">Example: Straight line depreciation of an unchanged fixed asset</span></span>
+<span data-ttu-id="67eda-137">Supposons que l'immobilisation présente les caractéristiques suivantes :</span><span class="sxs-lookup"><span data-stu-id="67eda-137">Suppose that a fixed asset has the following characteristics.</span></span>
 
 |                     |        |
 |---------------------|--------|
-| Coût d'acquisition    | 11 000 |
-| Valeur résiduelle       | 1 000  |
-| Base d'amortissement   | 10 000 |
-| Années de durée de vie  | 5      |
-| Amortissement annuel | 2 000  |
+| <span data-ttu-id="67eda-138">Coût d'acquisition</span><span class="sxs-lookup"><span data-stu-id="67eda-138">Acquisition cost</span></span>    | <span data-ttu-id="67eda-139">11 000</span><span class="sxs-lookup"><span data-stu-id="67eda-139">11,000</span></span> |
+| <span data-ttu-id="67eda-140">Valeur résiduelle</span><span class="sxs-lookup"><span data-stu-id="67eda-140">Salvage value</span></span>       | <span data-ttu-id="67eda-141">1 000</span><span class="sxs-lookup"><span data-stu-id="67eda-141">1,000</span></span>  |
+| <span data-ttu-id="67eda-142">Base d'amortissement</span><span class="sxs-lookup"><span data-stu-id="67eda-142">Depreciation base</span></span>   | <span data-ttu-id="67eda-143">10 000</span><span class="sxs-lookup"><span data-stu-id="67eda-143">10,000</span></span> |
+| <span data-ttu-id="67eda-144">Années de durée de vie</span><span class="sxs-lookup"><span data-stu-id="67eda-144">Service life years</span></span>  | <span data-ttu-id="67eda-145">5</span><span class="sxs-lookup"><span data-stu-id="67eda-145">5</span></span>      |
+| <span data-ttu-id="67eda-146">Amortissement annuel</span><span class="sxs-lookup"><span data-stu-id="67eda-146">Yearly depreciation</span></span> | <span data-ttu-id="67eda-147">2 000</span><span class="sxs-lookup"><span data-stu-id="67eda-147">2,000</span></span>  |
 
-Vous obtenez le même montant d'amortissement chaque année. (coûts d'acquisition - valeur résiduelle) / années de durée de vie
+<span data-ttu-id="67eda-148">Vous obtenez le même montant d'amortissement chaque année.</span><span class="sxs-lookup"><span data-stu-id="67eda-148">You get the same depreciation amount each year.</span></span> <span data-ttu-id="67eda-149">(coûts d'acquisition - valeur résiduelle) / années de durée de vie</span><span class="sxs-lookup"><span data-stu-id="67eda-149">(Acquisition cost - Salvage value) / Service life years</span></span>
 
-| Période | Calcul du montant d'amortissement annuel | Valeur nette à la fin de l'exercice |
+| <span data-ttu-id="67eda-150">Période</span><span class="sxs-lookup"><span data-stu-id="67eda-150">Period</span></span> | <span data-ttu-id="67eda-151">Calcul du montant d'amortissement annuel</span><span class="sxs-lookup"><span data-stu-id="67eda-151">Calculation of yearly depreciation amount</span></span> | <span data-ttu-id="67eda-152">Valeur nette à la fin de l'exercice</span><span class="sxs-lookup"><span data-stu-id="67eda-152">Net book value at the end of the year</span></span> |
 |--------|-------------------------------------------|---------------------------------------|
-| Année 1 | (11 000 - 1 000) / 5 = 2 000              | 9 000                                 |
-| Année 2 | (11 000 - 1 000) / 5 = 2 000              | 7 000                                 |
-| Année 3 | (11 000 - 1 000) / 5 = 2 000              | 5 000                                 |
-| Année 4 | (11 000 - 1 000) / 5 = 2 000              | 3 000                                 |
-| Année 5 | (11 000 - 1 000) / 5 = 2 000              | 1 000                                 |
+| <span data-ttu-id="67eda-153">Année 1</span><span class="sxs-lookup"><span data-stu-id="67eda-153">Year 1</span></span> | <span data-ttu-id="67eda-154">(11 000 - 1 000) / 5 = 2 000</span><span class="sxs-lookup"><span data-stu-id="67eda-154">(11,000 - 1,000) / 5 = 2,000</span></span>              | <span data-ttu-id="67eda-155">9 000</span><span class="sxs-lookup"><span data-stu-id="67eda-155">9,000</span></span>                                 |
+| <span data-ttu-id="67eda-156">Année 2</span><span class="sxs-lookup"><span data-stu-id="67eda-156">Year 2</span></span> | <span data-ttu-id="67eda-157">(11 000 - 1 000) / 5 = 2 000</span><span class="sxs-lookup"><span data-stu-id="67eda-157">(11,000 - 1,000) / 5 = 2,000</span></span>              | <span data-ttu-id="67eda-158">7 000</span><span class="sxs-lookup"><span data-stu-id="67eda-158">7,000</span></span>                                 |
+| <span data-ttu-id="67eda-159">Année 3</span><span class="sxs-lookup"><span data-stu-id="67eda-159">Year 3</span></span> | <span data-ttu-id="67eda-160">(11 000 - 1 000) / 5 = 2 000</span><span class="sxs-lookup"><span data-stu-id="67eda-160">(11,000 - 1,000) / 5 = 2,000</span></span>              | <span data-ttu-id="67eda-161">5 000</span><span class="sxs-lookup"><span data-stu-id="67eda-161">5,000</span></span>                                 |
+| <span data-ttu-id="67eda-162">Année 4</span><span class="sxs-lookup"><span data-stu-id="67eda-162">Year 4</span></span> | <span data-ttu-id="67eda-163">(11 000 - 1 000) / 5 = 2 000</span><span class="sxs-lookup"><span data-stu-id="67eda-163">(11,000 - 1,000) / 5 = 2,000</span></span>              | <span data-ttu-id="67eda-164">3 000</span><span class="sxs-lookup"><span data-stu-id="67eda-164">3,000</span></span>                                 |
+| <span data-ttu-id="67eda-165">Année 5</span><span class="sxs-lookup"><span data-stu-id="67eda-165">Year 5</span></span> | <span data-ttu-id="67eda-166">(11 000 - 1 000) / 5 = 2 000</span><span class="sxs-lookup"><span data-stu-id="67eda-166">(11,000 - 1,000) / 5 = 2,000</span></span>              | <span data-ttu-id="67eda-167">1 000</span><span class="sxs-lookup"><span data-stu-id="67eda-167">1,000</span></span>                                 |
 
-## <a name="example-straight-line-depreciation-of-a-modified-fixed-asset"></a>Exemple : amortissement linéaire d'une immobilisation modifiée
+## <a name="example-straight-line-depreciation-of-a-modified-fixed-asset"></a><span data-ttu-id="67eda-168">Exemple : amortissement linéaire d'une immobilisation modifiée</span><span class="sxs-lookup"><span data-stu-id="67eda-168">Example: Straight line depreciation of a modified fixed asset</span></span>
 
-Supposons que vous ajoutez un ajustement d'acquisition de 4 000 pour l'année 2 à la même immobilisation. 
+<span data-ttu-id="67eda-169">Supposons que vous ajoutez un ajustement d'acquisition de 4 000 pour l'année 2 à la même immobilisation.</span><span class="sxs-lookup"><span data-stu-id="67eda-169">Suppose that you add an acquisition adjustment of 4,000 in year 2 to the same fixed asset.</span></span> 
 
-La durée de vie de l'ajustement d'acquisition est identique à celle de l'immobilisation et commence au moment de l'acquisition. Une valeur comptable nette reste à la fin de l'année 5, qui correspond à la valeur comptable nette de l'ajustement d'acquisition. L'amortissement par période est calculé comme dans le tableau suivant.
+<span data-ttu-id="67eda-170">La durée de vie de l'ajustement d'acquisition est identique à celle de l'immobilisation et commence au moment de l'acquisition.</span><span class="sxs-lookup"><span data-stu-id="67eda-170">The service life of the acquisition adjustment is the same as that of the fixed asset and starts at the time of its acquisition.</span></span> <span data-ttu-id="67eda-171">Une valeur comptable nette reste à la fin de l'année 5, qui correspond à la valeur comptable nette de l'ajustement d'acquisition.</span><span class="sxs-lookup"><span data-stu-id="67eda-171">A net book value remains at the end of year 5, corresponding to the net book value of the acquisition adjustment.</span></span> <span data-ttu-id="67eda-172">L'amortissement par période est calculé comme dans le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="67eda-172">The depreciation by period is calculated as shown in the following table.</span></span>
 
-| Période | Calcul du montant d'amortissement annuel | Valeur comptable nette à la fin de l'exercice |
+| <span data-ttu-id="67eda-173">Période</span><span class="sxs-lookup"><span data-stu-id="67eda-173">Period</span></span> | <span data-ttu-id="67eda-174">Calcul du montant d'amortissement annuel</span><span class="sxs-lookup"><span data-stu-id="67eda-174">Calculation of yearly depreciation amount</span></span> | <span data-ttu-id="67eda-175">Valeur comptable nette à la fin de l'exercice</span><span class="sxs-lookup"><span data-stu-id="67eda-175">Net book value at the end of the year</span></span> |
 |--------|-------------------------------------------|---------------------------------------|
-| Année 1 | 10 000 / 5 = 2 000                        | 11 000 - 2 000 = 9 000                |
-| Année 2 | 4 000 (ajustement d'acquisition)            | 9 000 + 4 000 =13 000                 |
-| Année 2 | 14 000 / 5 = 2 800                        | 13 000 - 2 800 = 10 200               |
-| Année 3 | 14 000 / 5 = 2 800                        | 10 200 - 2 800 = 7 400                |
-| Année 4 | 14 000 / 5 = 2 800                        | 7 400 - 2 800 = 4 600                 |
-| Année 5 | 14 000 / 5 = 2 800                        | 4 600 - 2 800 = 1 800                 |
-| Année 6 | 800 restants\*                           | 1 800 – 800 = 1 000                   |
+| <span data-ttu-id="67eda-176">Année 1</span><span class="sxs-lookup"><span data-stu-id="67eda-176">Year 1</span></span> | <span data-ttu-id="67eda-177">10 000 / 5 = 2 000</span><span class="sxs-lookup"><span data-stu-id="67eda-177">10,000 / 5 = 2,000</span></span>                        | <span data-ttu-id="67eda-178">11 000 - 2 000 = 9 000</span><span class="sxs-lookup"><span data-stu-id="67eda-178">11,000 - 2,000 = 9,000</span></span>                |
+| <span data-ttu-id="67eda-179">Année 2</span><span class="sxs-lookup"><span data-stu-id="67eda-179">Year 2</span></span> | <span data-ttu-id="67eda-180">4 000 (ajustement d'acquisition)</span><span class="sxs-lookup"><span data-stu-id="67eda-180">4,000 (acquisition adjustment)</span></span>            | <span data-ttu-id="67eda-181">9 000 + 4 000 =13 000</span><span class="sxs-lookup"><span data-stu-id="67eda-181">9,000 + 4,000 =13,000</span></span>                 |
+| <span data-ttu-id="67eda-182">Année 2</span><span class="sxs-lookup"><span data-stu-id="67eda-182">Year 2</span></span> | <span data-ttu-id="67eda-183">14 000 / 5 = 2 800</span><span class="sxs-lookup"><span data-stu-id="67eda-183">14,000 / 5 = 2,800</span></span>                        | <span data-ttu-id="67eda-184">13 000 - 2 800 = 10 200</span><span class="sxs-lookup"><span data-stu-id="67eda-184">13,000 - 2,800 = 10,200</span></span>               |
+| <span data-ttu-id="67eda-185">Année 3</span><span class="sxs-lookup"><span data-stu-id="67eda-185">Year 3</span></span> | <span data-ttu-id="67eda-186">14 000 / 5 = 2 800</span><span class="sxs-lookup"><span data-stu-id="67eda-186">14,000 / 5 = 2,800</span></span>                        | <span data-ttu-id="67eda-187">10 200 - 2 800 = 7 400</span><span class="sxs-lookup"><span data-stu-id="67eda-187">10,200 - 2,800 = 7,400</span></span>                |
+| <span data-ttu-id="67eda-188">Année 4</span><span class="sxs-lookup"><span data-stu-id="67eda-188">Year 4</span></span> | <span data-ttu-id="67eda-189">14 000 / 5 = 2 800</span><span class="sxs-lookup"><span data-stu-id="67eda-189">14,000 / 5 = 2,800</span></span>                        | <span data-ttu-id="67eda-190">7 400 - 2 800 = 4 600</span><span class="sxs-lookup"><span data-stu-id="67eda-190">7,400 - 2,800 = 4,600</span></span>                 |
+| <span data-ttu-id="67eda-191">Année 5</span><span class="sxs-lookup"><span data-stu-id="67eda-191">Year 5</span></span> | <span data-ttu-id="67eda-192">14 000 / 5 = 2 800</span><span class="sxs-lookup"><span data-stu-id="67eda-192">14,000 / 5 = 2,800</span></span>                        | <span data-ttu-id="67eda-193">4 600 - 2 800 = 1 800</span><span class="sxs-lookup"><span data-stu-id="67eda-193">4,600 - 2,800 = 1,800</span></span>                 |
+| <span data-ttu-id="67eda-194">Année 6</span><span class="sxs-lookup"><span data-stu-id="67eda-194">Year 6</span></span> | <span data-ttu-id="67eda-195">800 restants\*</span><span class="sxs-lookup"><span data-stu-id="67eda-195">Remaining 800\*</span></span>                           | <span data-ttu-id="67eda-196">1 800 – 800 = 1 000</span><span class="sxs-lookup"><span data-stu-id="67eda-196">1,800 – 800 = 1,000</span></span>                   |
 
-\*Comme le montant restant est inférieur au montant d'amortissement, seul le montant restant moins la valeur résiduelle est pris.
+<span data-ttu-id="67eda-197">\*Comme le montant restant est inférieur au montant d'amortissement, seul le montant restant moins la valeur résiduelle est pris.</span><span class="sxs-lookup"><span data-stu-id="67eda-197">\*Because the remaining amount is less than the depreciation amount, only the remaining amount minus the salvage value is taken.</span></span>
 
 
 

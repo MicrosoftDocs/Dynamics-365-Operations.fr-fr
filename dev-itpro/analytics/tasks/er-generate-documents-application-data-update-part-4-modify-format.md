@@ -22,132 +22,132 @@ ms.contentlocale: fr-fr
 ms.lasthandoff: 07/27/2017
 
 ---
-# <a name="modify-format-to-generate-documents-with-application-data-update-for-electronic-reporting-er"></a>Modifier le format pour générer des documents avec la mise à jour des données de l'application pour la génération d'états électroniques (ER)
+# <a name="modify-format-to-generate-documents-with-application-data-update-for-electronic-reporting-er"></a><span data-ttu-id="947a5-103">Modifier le format pour générer des documents avec la mise à jour des données de l'application pour la génération d'états électroniques (ER)</span><span class="sxs-lookup"><span data-stu-id="947a5-103">Modify format to generate documents with application data update for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Pour réaliser les étapes de cette procédure, vous devez commencer par effectuer la procédure, « ER Générer des documents avec la mise à jour des données d'application (Partie 3 : Modifier le modèle et la mise en correspondance) ».
+<span data-ttu-id="947a5-104">Pour réaliser les étapes de cette procédure, vous devez commencer par effectuer la procédure, « ER Générer des documents avec la mise à jour des données d'application (Partie 3 : Modifier le modèle et la mise en correspondance) ».</span><span class="sxs-lookup"><span data-stu-id="947a5-104">To complete the steps in this procedure, you must first complete the procedure, "ER Generate documents with application data update (Part 3: Modify model and mapping)".</span></span>
 
-Les étapes de cette procédure expliquent comment créer des configurations ER pour générer un document électronique et mettre à jour les données d'application. Dans cette procédure, vous modifierez les configurations ER non seulement pour les utiliser pour générer des documents électroniques, mais aussi pour mettre à jour les données d'application. Cette procédure est créée pour les utilisateurs auxquels le rôle Administrateur système ou Développeur d'états électroniques a été affecté. Ces étapes peuvent être effectuées à l'aide de l'ensemble de données DEMF.
+<span data-ttu-id="947a5-105">Les étapes de cette procédure expliquent comment créer des configurations ER pour générer un document électronique et mettre à jour les données d'application.</span><span class="sxs-lookup"><span data-stu-id="947a5-105">The steps in this procedure explain how to design Electronic reporting (ER) configurations to generate an electronic document and update application data.</span></span> <span data-ttu-id="947a5-106">Dans cette procédure, vous modifierez les configurations ER non seulement pour les utiliser pour générer des documents électroniques, mais aussi pour mettre à jour les données d'application.</span><span class="sxs-lookup"><span data-stu-id="947a5-106">In this procedure, you will modify the ER configurations to not just use them to generate electronic documents, but also to update application data.</span></span> <span data-ttu-id="947a5-107">Cette procédure est créée pour les utilisateurs auxquels le rôle Administrateur système ou Développeur d'états électroniques a été affecté.</span><span class="sxs-lookup"><span data-stu-id="947a5-107">This procedure is created for users with the assigned role of system administrator or electronic reporting developer.</span></span> <span data-ttu-id="947a5-108">Ces étapes peuvent être effectuées à l'aide de l'ensemble de données DEMF.</span><span class="sxs-lookup"><span data-stu-id="947a5-108">These steps can be completed using the DEMF dataset.</span></span>
 
 
-## <a name="modify-format-to-collect-details-of-reporting"></a>Modifier le format pour collecter les détails de la génération d'états
-1. Accédez à Administration d'organisation > États électroniques > Configurations.
-2. Dans l'arborescence, développez « Déclaration d'échanges de biens (modèle) ».
-3. Dans l'arborescence, sélectionnez « Déclaration d'échanges de biens (modèle)\Déclaration d'échanges de biens (format) ».
-4. Cliquez sur Concepteur.
-5. Dans l'arborescence, développez « Fichier ».
-6. Dans l'arborescence, développez « Fichier\Déclaration ».
-7. Dans l'arborescence, sélectionnez « Fichier\Déclaration\Données ».
-8. Dans le champ Multiplicité, sélectionnez « Un plusieurs ».
-    * Configurez cet élément de format pour archiver les détails du processus de génération d'états de déclaration d'échanges de biens. Cet élément représente l'enregistrement d'en-tête de l'archive.  
-9. Dans l'arborescence, développez « Fichier\Déclaration\Données ».
-10. Dans l'arborescence, sélectionnez « Fichier\Déclaration\Données\Article ».
-11. Dans le champ Multiplicité, sélectionnez « Zéro plusieurs ».
-    * Configurez cet élément de format pour archiver les détails du processus de génération d'états de déclaration d'échanges de biens. Cet article représentera la liste des lignes archivées.  
-12. Dans l'arborescence, développez « Fichier\Déclaration\Données\Article ».
-13. Dans l'arborescence, sélectionnez « Fichier\Déclaration\Données\Article\Dim1 ».
-14. Sélectionnez Oui dans le champ Exclu.
-    * Vous n'archiverez pas ces données, vous pouvez donc exclure cet élément de format de la source de données des détails de génération d'états de déclaration d'échanges de biens.  
-15. Dans l'arborescence, développez « Fichier\Déclaration\Données\Article\Dim1 ».
-16. Dans l'arborescence, sélectionnez « Fichier\Déclaration\Données\Article\Dim1\propriété ».
-17. Sélectionnez Oui dans le champ Exclu.
-18. Dans l'arborescence, sélectionnez « Fichier\Déclaration\Données\Article\Dim1\date ».
-19. Sélectionnez Oui dans le champ Exclu.
-20. Dans l'arborescence, sélectionnez « Fichier\Déclaration\Données\Article\Dim2 ».
-21. Sélectionnez Oui dans le champ Exclu.
-22. Dans l'arborescence, développez « Fichier\Déclaration\Données\Article\Dim2 ».
-23. Dans l'arborescence, sélectionnez « Fichier\Déclaration\Données\Article\Dim2\propriété ».
-24. Sélectionnez Oui dans le champ Exclu.
-25. Dans l'arborescence, sélectionnez « Fichier\Déclaration\Données\Article\Dim2\code ».
-26. Sélectionnez Oui dans le champ Exclu.
-27. Dans l'arborescence, sélectionnez « Fichier\Déclaration\Données\Article\Dim3 ».
-    * Plusieurs éléments de format peuvent avoir le même nom. Par exemple, Dim. Vous ne pouvez pas explicitement les reconnaître si vous utilisez ce format comme source de données pour archiver les détails de la génération d'états de déclaration d'échanges de biens. Vous devez définir les noms de remplacement pour ces éléments de format.   
-28. Dans le champ Nom, tapez « Montant ».
-    * Montant  
-29. Dans le champ Multiplicité, sélectionnez « Un seul ».
-30. Dans l'arborescence, sélectionnez « Fichier\Déclaration\Données\Article\Dim4 ».
-31. Dans le champ Nom, tapez « Article ».
-    * Article  
-32. Dans le champ Multiplicité, sélectionnez « Un seul ».
-    * Outre les éléments de format de conception, les détails de la génération d'états de déclaration d'échanges de biens doivent être archivés : l'identification d'enregistrement unique de chaque article de marchandise déclaré et le nom du fichier généré. Comme ces données ne sont pas renseignées dans l'état de déclaration d'échanges de biens, vous devez ajouter le format associé à ces éléments de détail comme éléments de la source de données.  
-33. Dans l'arborescence, sélectionnez « Fichier\Déclaration\Données ».
-34. Cliquez sur Ajouter pour ouvrir la boîte de dialogue.
-35. Dans l'arborescence, sélectionnez « Source de données\Article ».
-36. Dans le champ Nom, tapez « Nom de fichier ».
-    * Nom de fichier  
-37. Dans le champ Type de données, sélectionnez « Chaîne ».
-38. Cliquez sur OK.
-39. Dans l'arborescence, sélectionnez « Fichier\Déclaration\Données\Article ».
-40. Cliquez sur Ajouter article.
-41. Dans le champ Nom, tapez « ID enregistrement de marchandise ».
-    * ID enregistrement de marchandise  
-42. Dans le champ Type de données, sélectionnez « Int64 ».
-43. Cliquez sur OK.
-44. Cliquez sur l'onglet Mise en relation.
-45. Dans l'arborescence, sélectionnez « Fichier\Déclaration\Données\Nom de fichier ».
-46. Cliquez sur Lier.
-47. Dans l'arborescence , développez « model ».
-48. Dans l'arborescence, développez « modèle\Transactions ».
-49. Dans l'arborescence, sélectionnez « Fichier\Déclaration\Données\Article = model.Transactions\ID enregistrement de marchandise ».
-50. Dans l'arborescence, sélectionnez « modèle\Transactions\ID enregistrement de marchandise ».
-51. Cliquez sur Lier.
-52. Cliquez sur Enregistrer.
+## <a name="modify-format-to-collect-details-of-reporting"></a><span data-ttu-id="947a5-109">Modifier le format pour collecter les détails de la génération d'états</span><span class="sxs-lookup"><span data-stu-id="947a5-109">Modify format to collect details of reporting</span></span>
+1. <span data-ttu-id="947a5-110">Accédez à Administration d'organisation > États électroniques > Configurations.</span><span class="sxs-lookup"><span data-stu-id="947a5-110">Go to Organization administration > Electronic reporting > Configurations.</span></span>
+2. <span data-ttu-id="947a5-111">Dans l'arborescence, développez « Déclaration d'échanges de biens (modèle) ».</span><span class="sxs-lookup"><span data-stu-id="947a5-111">In the tree, expand 'Intrastat (model)'.</span></span>
+3. <span data-ttu-id="947a5-112">Dans l'arborescence, sélectionnez « Déclaration d'échanges de biens (modèle)\Déclaration d'échanges de biens (format) ».</span><span class="sxs-lookup"><span data-stu-id="947a5-112">In the tree, select 'Intrastat (model)\Intrastat (format)'.</span></span>
+4. <span data-ttu-id="947a5-113">Cliquez sur Concepteur.</span><span class="sxs-lookup"><span data-stu-id="947a5-113">Click Designer.</span></span>
+5. <span data-ttu-id="947a5-114">Dans l'arborescence, développez « Fichier ».</span><span class="sxs-lookup"><span data-stu-id="947a5-114">In the tree, expand 'File'.</span></span>
+6. <span data-ttu-id="947a5-115">Dans l'arborescence, développez « Fichier\Déclaration ».</span><span class="sxs-lookup"><span data-stu-id="947a5-115">In the tree, expand 'File\Declaration'.</span></span>
+7. <span data-ttu-id="947a5-116">Dans l'arborescence, sélectionnez « Fichier\Déclaration\Données ».</span><span class="sxs-lookup"><span data-stu-id="947a5-116">In the tree, select 'File\Declaration\Data'.</span></span>
+8. <span data-ttu-id="947a5-117">Dans le champ Multiplicité, sélectionnez « Un plusieurs ».</span><span class="sxs-lookup"><span data-stu-id="947a5-117">In the Multiplicity field, select 'One many'.</span></span>
+    * <span data-ttu-id="947a5-118">Configurez cet élément de format pour archiver les détails du processus de génération d'états de déclaration d'échanges de biens.</span><span class="sxs-lookup"><span data-stu-id="947a5-118">Configure this format element to archive details of the Intrastat reporting process.</span></span> <span data-ttu-id="947a5-119">Cet élément représente l'enregistrement d'en-tête de l'archive.</span><span class="sxs-lookup"><span data-stu-id="947a5-119">This item represents the archive’s header record.</span></span>  
+9. <span data-ttu-id="947a5-120">Dans l'arborescence, développez « Fichier\Déclaration\Données ».</span><span class="sxs-lookup"><span data-stu-id="947a5-120">In the tree, expand 'File\Declaration\Data'.</span></span>
+10. <span data-ttu-id="947a5-121">Dans l'arborescence, sélectionnez « Fichier\Déclaration\Données\Article ».</span><span class="sxs-lookup"><span data-stu-id="947a5-121">In the tree, select 'File\Declaration\Data\Item'.</span></span>
+11. <span data-ttu-id="947a5-122">Dans le champ Multiplicité, sélectionnez « Zéro plusieurs ».</span><span class="sxs-lookup"><span data-stu-id="947a5-122">In the Multiplicity field, select 'Zero many'.</span></span>
+    * <span data-ttu-id="947a5-123">Configurez cet élément de format pour archiver les détails du processus de génération d'états de déclaration d'échanges de biens.</span><span class="sxs-lookup"><span data-stu-id="947a5-123">Configure this format element to archive details of the Intrastat reporting process.</span></span> <span data-ttu-id="947a5-124">Cet article représentera la liste des lignes archivées.</span><span class="sxs-lookup"><span data-stu-id="947a5-124">This item will represent the list of archived lines.</span></span>  
+12. <span data-ttu-id="947a5-125">Dans l'arborescence, développez « Fichier\Déclaration\Données\Article ».</span><span class="sxs-lookup"><span data-stu-id="947a5-125">In the tree, expand 'File\Declaration\Data\Item'.</span></span>
+13. <span data-ttu-id="947a5-126">Dans l'arborescence, sélectionnez « Fichier\Déclaration\Données\Article\Dim1 ».</span><span class="sxs-lookup"><span data-stu-id="947a5-126">In the tree, select 'File\Declaration\Data\Item\Dim1'.</span></span>
+14. <span data-ttu-id="947a5-127">Sélectionnez Oui dans le champ Exclu.</span><span class="sxs-lookup"><span data-stu-id="947a5-127">Select Yes in the Excluded field.</span></span>
+    * <span data-ttu-id="947a5-128">Vous n'archiverez pas ces données, vous pouvez donc exclure cet élément de format de la source de données des détails de génération d'états de déclaration d'échanges de biens.</span><span class="sxs-lookup"><span data-stu-id="947a5-128">You will not archive this data, so you can exclude this format element from the data source of Intrastat reporting details.</span></span>  
+15. <span data-ttu-id="947a5-129">Dans l'arborescence, développez « Fichier\Déclaration\Données\Article\Dim1 ».</span><span class="sxs-lookup"><span data-stu-id="947a5-129">In the tree, expand 'File\Declaration\Data\Item\Dim1'.</span></span>
+16. <span data-ttu-id="947a5-130">Dans l'arborescence, sélectionnez « Fichier\Déclaration\Données\Article\Dim1\propriété ».</span><span class="sxs-lookup"><span data-stu-id="947a5-130">In the tree, select 'File\Declaration\Data\Item\Dim1\property'.</span></span>
+17. <span data-ttu-id="947a5-131">Sélectionnez Oui dans le champ Exclu.</span><span class="sxs-lookup"><span data-stu-id="947a5-131">Select Yes in the Excluded field.</span></span>
+18. <span data-ttu-id="947a5-132">Dans l'arborescence, sélectionnez « Fichier\Déclaration\Données\Article\Dim1\date ».</span><span class="sxs-lookup"><span data-stu-id="947a5-132">In the tree, select 'File\Declaration\Data\Item\Dim1\date'.</span></span>
+19. <span data-ttu-id="947a5-133">Sélectionnez Oui dans le champ Exclu.</span><span class="sxs-lookup"><span data-stu-id="947a5-133">Select Yes in the Excluded field.</span></span>
+20. <span data-ttu-id="947a5-134">Dans l'arborescence, sélectionnez « Fichier\Déclaration\Données\Article\Dim2 ».</span><span class="sxs-lookup"><span data-stu-id="947a5-134">In the tree, select 'File\Declaration\Data\Item\Dim2'.</span></span>
+21. <span data-ttu-id="947a5-135">Sélectionnez Oui dans le champ Exclu.</span><span class="sxs-lookup"><span data-stu-id="947a5-135">Select Yes in the Excluded field.</span></span>
+22. <span data-ttu-id="947a5-136">Dans l'arborescence, développez « Fichier\Déclaration\Données\Article\Dim2 ».</span><span class="sxs-lookup"><span data-stu-id="947a5-136">In the tree, expand 'File\Declaration\Data\Item\Dim2'.</span></span>
+23. <span data-ttu-id="947a5-137">Dans l'arborescence, sélectionnez « Fichier\Déclaration\Données\Article\Dim2\propriété ».</span><span class="sxs-lookup"><span data-stu-id="947a5-137">In the tree, select 'File\Declaration\Data\Item\Dim2\property'.</span></span>
+24. <span data-ttu-id="947a5-138">Sélectionnez Oui dans le champ Exclu.</span><span class="sxs-lookup"><span data-stu-id="947a5-138">Select Yes in the Excluded field.</span></span>
+25. <span data-ttu-id="947a5-139">Dans l'arborescence, sélectionnez « Fichier\Déclaration\Données\Article\Dim2\code ».</span><span class="sxs-lookup"><span data-stu-id="947a5-139">In the tree, select 'File\Declaration\Data\Item\Dim2\code'.</span></span>
+26. <span data-ttu-id="947a5-140">Sélectionnez Oui dans le champ Exclu.</span><span class="sxs-lookup"><span data-stu-id="947a5-140">Select Yes in the Excluded field.</span></span>
+27. <span data-ttu-id="947a5-141">Dans l'arborescence, sélectionnez « Fichier\Déclaration\Données\Article\Dim3 ».</span><span class="sxs-lookup"><span data-stu-id="947a5-141">In the tree, select 'File\Declaration\Data\Item\Dim3'.</span></span>
+    * <span data-ttu-id="947a5-142">Plusieurs éléments de format peuvent avoir le même nom.</span><span class="sxs-lookup"><span data-stu-id="947a5-142">Several format elements can have the same name.</span></span> <span data-ttu-id="947a5-143">Par exemple, Dim.</span><span class="sxs-lookup"><span data-stu-id="947a5-143">For example, Dim.</span></span> <span data-ttu-id="947a5-144">Vous ne pouvez pas explicitement les reconnaître si vous utilisez ce format comme source de données pour archiver les détails de la génération d'états de déclaration d'échanges de biens. Vous devez définir les noms de remplacement pour ces éléments de format.</span><span class="sxs-lookup"><span data-stu-id="947a5-144">You cannot explicitly recognize them when you use this format as a data source for archiving Intrastat reporting details, so you need to define the alternative names for these format elements.</span></span>   
+28. <span data-ttu-id="947a5-145">Dans le champ Nom, tapez « Montant ».</span><span class="sxs-lookup"><span data-stu-id="947a5-145">In the Name field, type 'Amount'.</span></span>
+    * <span data-ttu-id="947a5-146">Montant</span><span class="sxs-lookup"><span data-stu-id="947a5-146">Amount</span></span>  
+29. <span data-ttu-id="947a5-147">Dans le champ Multiplicité, sélectionnez « Un seul ».</span><span class="sxs-lookup"><span data-stu-id="947a5-147">In the Multiplicity field, select 'Exactly one'.</span></span>
+30. <span data-ttu-id="947a5-148">Dans l'arborescence, sélectionnez « Fichier\Déclaration\Données\Article\Dim4 ».</span><span class="sxs-lookup"><span data-stu-id="947a5-148">In the tree, select 'File\Declaration\Data\Item\Dim4'.</span></span>
+31. <span data-ttu-id="947a5-149">Dans le champ Nom, tapez « Article ».</span><span class="sxs-lookup"><span data-stu-id="947a5-149">In the Name field, type 'Item'.</span></span>
+    * <span data-ttu-id="947a5-150">Article</span><span class="sxs-lookup"><span data-stu-id="947a5-150">Item</span></span>  
+32. <span data-ttu-id="947a5-151">Dans le champ Multiplicité, sélectionnez « Un seul ».</span><span class="sxs-lookup"><span data-stu-id="947a5-151">In the Multiplicity field, select 'Exactly one'.</span></span>
+    * <span data-ttu-id="947a5-152">Outre les éléments de format de conception, les détails de la génération d'états de déclaration d'échanges de biens doivent être archivés : l'identification d'enregistrement unique de chaque article de marchandise déclaré et le nom du fichier généré.</span><span class="sxs-lookup"><span data-stu-id="947a5-152">In addition to the design format elements, the following Intrastat reporting details must be archived: unique record identification of each reported commodity item and name of the generated file.</span></span> <span data-ttu-id="947a5-153">Comme ces données ne sont pas renseignées dans l'état de déclaration d'échanges de biens, vous devez ajouter le format associé à ces éléments de détail comme éléments de la source de données.</span><span class="sxs-lookup"><span data-stu-id="947a5-153">Because this data will not be populated in the Intrastat report, you need to add the format that is related to these detail elements as data source items.</span></span>  
+33. <span data-ttu-id="947a5-154">Dans l'arborescence, sélectionnez « Fichier\Déclaration\Données ».</span><span class="sxs-lookup"><span data-stu-id="947a5-154">In the tree, select 'File\Declaration\Data'.</span></span>
+34. <span data-ttu-id="947a5-155">Cliquez sur Ajouter pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="947a5-155">Click Add to open the drop dialog.</span></span>
+35. <span data-ttu-id="947a5-156">Dans l'arborescence, sélectionnez « Source de données\Article ».</span><span class="sxs-lookup"><span data-stu-id="947a5-156">In the tree, select 'Data source\Item'.</span></span>
+36. <span data-ttu-id="947a5-157">Dans le champ Nom, tapez « Nom de fichier ».</span><span class="sxs-lookup"><span data-stu-id="947a5-157">In the Name field, type 'File name'.</span></span>
+    * <span data-ttu-id="947a5-158">Nom de fichier</span><span class="sxs-lookup"><span data-stu-id="947a5-158">File name</span></span>  
+37. <span data-ttu-id="947a5-159">Dans le champ Type de données, sélectionnez « Chaîne ».</span><span class="sxs-lookup"><span data-stu-id="947a5-159">In the Data type field, select 'String'.</span></span>
+38. <span data-ttu-id="947a5-160">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="947a5-160">Click OK.</span></span>
+39. <span data-ttu-id="947a5-161">Dans l'arborescence, sélectionnez « Fichier\Déclaration\Données\Article ».</span><span class="sxs-lookup"><span data-stu-id="947a5-161">In the tree, select 'File\Declaration\Data\Item'.</span></span>
+40. <span data-ttu-id="947a5-162">Cliquez sur Ajouter article.</span><span class="sxs-lookup"><span data-stu-id="947a5-162">Click Add Item.</span></span>
+41. <span data-ttu-id="947a5-163">Dans le champ Nom, tapez « ID enregistrement de marchandise ».</span><span class="sxs-lookup"><span data-stu-id="947a5-163">In the Name field, type 'Commodity rec id'.</span></span>
+    * <span data-ttu-id="947a5-164">ID enregistrement de marchandise</span><span class="sxs-lookup"><span data-stu-id="947a5-164">Commodity rec id</span></span>  
+42. <span data-ttu-id="947a5-165">Dans le champ Type de données, sélectionnez « Int64 ».</span><span class="sxs-lookup"><span data-stu-id="947a5-165">In the Data type field, select 'Int64'.</span></span>
+43. <span data-ttu-id="947a5-166">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="947a5-166">Click OK.</span></span>
+44. <span data-ttu-id="947a5-167">Cliquez sur l'onglet Mise en relation.</span><span class="sxs-lookup"><span data-stu-id="947a5-167">Click the Mapping tab.</span></span>
+45. <span data-ttu-id="947a5-168">Dans l'arborescence, sélectionnez « Fichier\Déclaration\Données\Nom de fichier ».</span><span class="sxs-lookup"><span data-stu-id="947a5-168">In the tree, select 'File\Declaration\Data\File name'.</span></span>
+46. <span data-ttu-id="947a5-169">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="947a5-169">Click Bind.</span></span>
+47. <span data-ttu-id="947a5-170">Dans l'arborescence , développez « model ».</span><span class="sxs-lookup"><span data-stu-id="947a5-170">In the tree, expand 'model'.</span></span>
+48. <span data-ttu-id="947a5-171">Dans l'arborescence, développez « modèle\Transactions ».</span><span class="sxs-lookup"><span data-stu-id="947a5-171">In the tree, expand 'model\Transactions'.</span></span>
+49. <span data-ttu-id="947a5-172">Dans l'arborescence, sélectionnez « Fichier\Déclaration\Données\Article = model.Transactions\ID enregistrement de marchandise ».</span><span class="sxs-lookup"><span data-stu-id="947a5-172">In the tree, select 'File\Declaration\Data\Item =  model.Transactions\Commodity rec id'.</span></span>
+50. <span data-ttu-id="947a5-173">Dans l'arborescence, sélectionnez « modèle\Transactions\ID enregistrement de marchandise ».</span><span class="sxs-lookup"><span data-stu-id="947a5-173">In the tree, select 'model\Transactions\Commodity rec id'.</span></span>
+51. <span data-ttu-id="947a5-174">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="947a5-174">Click Bind.</span></span>
+52. <span data-ttu-id="947a5-175">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="947a5-175">Click Save.</span></span>
 
-## <a name="modify-format-to-memorize-details-of-reporting"></a>Modifier le format pour mémoriser les détails de la génération d'états
-1. Cliquez sur Mettre en correspondance vers le modèle.
-2. Cliquez sur Nouveau.
-3. Dans le champ Définition, entrez ou sélectionnez l'élément racine « Pour la mise à jour des données d'application ».
-    * Pour la mise à jour des données d'application  
-4. Dans le champ Nom, tapez « Mise en correspondance pour mettre à jour les données ».
-    * Mise en correspondance pour mettre à jour les données  
-5. Cliquez sur Enregistrer.
-    * Cette mise en correspondance définit la manière dont les détails de l'état de déclaration d'échanges de biens sont collectés dans le modèle de données, dont la structure est spécifiée par l'article racine sélectionné « Pour la mise à jour de données d'application ». Ces détails, la mise en correspondance du modèle avec le même article racine « Pour la mise à jour de données d'application » et la direction « Vers la destination » seront utilisés pour la mise à jour de données d'application. La mise à jour de données d'application démarre immédiatement après la génération de l'état de déclaration d'échanges de biens sortants. Notez que la mise à jour de données d'application peut être ignorée au moment de l'exécution, mais que le modèle de données doit être vide (contenant une liste d'enregistrements vide).   
-6. Cliquez sur Concepteur.
-    * Notez que le format de l'état de déclaration d'échanges de biens sortant est ajouté par défaut comme source de données pour cette mise en correspondance de modèle.  
-    * Liez les éléments de l'état créé (présenté comme source de données) aux éléments du modèle de données, qui est filtré en fonction de l'élément racine du modèle sélectionné.  
-7. Dans l'arborescence, développez « En-tête d'archive ».
-8. Dans l'arborescence, développez « En-tête d'archive\Lignes d'archive ».
-9. Dans l'arborescence, développez « format ».
-10. Dans l'arborescence, développez « format\Déclaration : Élément XML(Déclaration) ».
-11. Dans l'arborescence, développez « format\Déclaration : Élément XML(Déclaration)\Données : Élément XML 1. * (Données) ».
-12. Dans l'arborescence, développez « format\Déclaration : Élément XML(Déclaration)\Données : Élément XML 1. * (Données)\Article : Élément XML 0..* (Article) ».
-13. Dans l'arborescence, développez « format\Déclaration : Élément XML(Déclaration)\Données : Élément XML 1. * (Données)\Article : Élément XML 0..* (Article)\Dim3 : Élément XML 1..1 (Montant) ».
-14. Dans l'arborescence, développez « format\Déclaration : Élément XML(Déclaration)\Données : Élément XML 1. * (Données)\Article : Élément XML 0..* (Article)\Dim4 : Élément XML 1..1 (Article) ».
-15. Dans l'arborescence, sélectionnez « En-tête d'archive\Nombre de lignes ».
-16. Cliquez sur Modifier.
-17. Dans l'arborescence, sélectionnez « Liste\COUNT ».
-18. Cliquez sur Ajouter une fonction.
-19. Dans l'arborescence, développez « format ».
-20. Dans l'arborescence, développez « format\Déclaration : Élément XML(Déclaration) ».
-21. Dans l'arborescence, développez « format\Déclaration : Élément XML(Déclaration)\Données : Élément XML 1. * (Données) ».
-22. Dans l'arborescence, sélectionnez « format\Déclaration : Élément XML(Déclaration)\Données : Élément XML 1..* (Données)\Article : Élément XML 0..* (Article) ».
-23. Cliquez sur Ajouter une source de données.
-24. Dans le champ Formule, entrez « COUNT(format.Declaration.Data.Item) ».
-    * COUNT(format.Declaration.Data.Item)  
-25. Cliquez sur Enregistrer.
-26. Fermez la page.
-27. Dans l'arborescence, sélectionnez « En-tête d'archive\Nom de fichier ».
-28. Dans l'arborescence, sélectionnez « format\Déclaration : Élément XML(Déclaration)\Données : Élément XML 1..* (Données)\Nom de fichier : Chaîne d'article(Nom de fichier) ».
-29. Cliquez sur Lier.
-30. Dans l'arborescence, sélectionnez « format\Déclaration : Élément XML(Déclaration)\Données : Élément XML 1..* (Données)\Article : Élément XML 0..* (Article)\Dim4 : Élément XML 1..1 (Article)\numéro : Chaîne(numéro) ».
-31. Dans l'arborescence, sélectionnez « En-tête d'archive\Lignes d'archive\Numéro d'article ».
-32. Cliquez sur Lier.
-33. Dans l'arborescence, sélectionnez « format\Déclaration : Élément XML(Déclaration)\Données : Élément XML 1..* (Données)\Article : Élément XML 0..* (Article)\Dim3 : Élément XML 1..1 (Montant)\valeur : Réelle numérique(valeur) ».
-34. Dans l'arborescence, sélectionnez « En-tête d'archive\Lignes d'archive\Montant ».
-35. Cliquez sur Lier.
-36. Dans l'arborescence, sélectionnez « format\Déclaration : Élément XML(Déclaration)\Données : Élément XML 1..* (Données)\Article : Élément XML 0..* (Article)\ID enregistrement de marchandise : Article Int64(ID enregistrement de marchandise) ».
-37. Dans l'arborescence, sélectionnez « En-tête d'archive\Lignes d'archive\ID enregistrement de marchandise ».
-38. Cliquez sur Lier.
-39. Dans l'arborescence, sélectionnez « En-tête d'archive\Lignes d'archive ».
-40. Dans l'arborescence, sélectionnez « format\Déclaration : Élément XML(Déclaration)\Données : Élément XML 1..* (Données)\Article : Élément XML 0..* (Article) ».
-41. Cliquez sur Lier.
-42. Dans l'arborescence, sélectionnez « En-tête d'archive ».
-43. Dans l'arborescence, sélectionnez « format\Déclaration : Élément XML(Déclaration)\Données : Élément XML 1..* (Données) ».
-44. Cliquez sur Lier.
-45. Cliquez sur Enregistrer.
-46. Fermez la page.
-47. Fermez la page.
-48. Fermez la page.
+## <a name="modify-format-to-memorize-details-of-reporting"></a><span data-ttu-id="947a5-176">Modifier le format pour mémoriser les détails de la génération d'états</span><span class="sxs-lookup"><span data-stu-id="947a5-176">Modify format to memorize details of reporting</span></span>
+1. <span data-ttu-id="947a5-177">Cliquez sur Mettre en correspondance vers le modèle.</span><span class="sxs-lookup"><span data-stu-id="947a5-177">Click Map format to model.</span></span>
+2. <span data-ttu-id="947a5-178">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="947a5-178">Click New.</span></span>
+3. <span data-ttu-id="947a5-179">Dans le champ Définition, entrez ou sélectionnez l'élément racine « Pour la mise à jour des données d'application ».</span><span class="sxs-lookup"><span data-stu-id="947a5-179">In the Definition field, enter or select the ‘For application data update’ root item.</span></span>
+    * <span data-ttu-id="947a5-180">Pour la mise à jour des données d'application</span><span class="sxs-lookup"><span data-stu-id="947a5-180">For application data update</span></span>  
+4. <span data-ttu-id="947a5-181">Dans le champ Nom, tapez « Mise en correspondance pour mettre à jour les données ».</span><span class="sxs-lookup"><span data-stu-id="947a5-181">In the Name field, type 'Mapping to update data'.</span></span>
+    * <span data-ttu-id="947a5-182">Mise en correspondance pour mettre à jour les données</span><span class="sxs-lookup"><span data-stu-id="947a5-182">Mapping to update data</span></span>  
+5. <span data-ttu-id="947a5-183">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="947a5-183">Click Save.</span></span>
+    * <span data-ttu-id="947a5-184">Cette mise en correspondance définit la manière dont les détails de l'état de déclaration d'échanges de biens sont collectés dans le modèle de données, dont la structure est spécifiée par l'article racine sélectionné « Pour la mise à jour de données d'application ».</span><span class="sxs-lookup"><span data-stu-id="947a5-184">This mapping defines how the details of the Intrastat report are collected in the data model, the structure of which is specified by the selected root item ‘For application data update’.</span></span> <span data-ttu-id="947a5-185">Ces détails, la mise en correspondance du modèle avec le même article racine « Pour la mise à jour de données d'application » et la direction « Vers la destination » seront utilisés pour la mise à jour de données d'application.</span><span class="sxs-lookup"><span data-stu-id="947a5-185">These details, the model mapping with same root item ‘For application data update’, and the direction ‘To destination’ will be used for the application data update.</span></span> <span data-ttu-id="947a5-186">La mise à jour de données d'application démarre immédiatement après la génération de l'état de déclaration d'échanges de biens sortants.</span><span class="sxs-lookup"><span data-stu-id="947a5-186">The application data update starts immediately after the outgoing Intrastat report is generated.</span></span> <span data-ttu-id="947a5-187">Notez que la mise à jour de données d'application peut être ignorée au moment de l'exécution, mais que le modèle de données doit être vide (contenant une liste d'enregistrements vide).</span><span class="sxs-lookup"><span data-stu-id="947a5-187">Note that the application data update can be skipped at run-time, but the data model must be empty (containing empty record list).</span></span>   
+6. <span data-ttu-id="947a5-188">Cliquez sur Concepteur.</span><span class="sxs-lookup"><span data-stu-id="947a5-188">Click Designer.</span></span>
+    * <span data-ttu-id="947a5-189">Notez que le format de l'état de déclaration d'échanges de biens sortant est ajouté par défaut comme source de données pour cette mise en correspondance de modèle.</span><span class="sxs-lookup"><span data-stu-id="947a5-189">Note that the outgoing Intrastat report format is added by default as a data source for this model mapping.</span></span>  
+    * <span data-ttu-id="947a5-190">Liez les éléments de l'état créé (présenté comme source de données) aux éléments du modèle de données, qui est filtré en fonction de l'élément racine du modèle sélectionné.</span><span class="sxs-lookup"><span data-stu-id="947a5-190">Bind elements of the designed report (presented as data source) to elements of the data model, which is filtered based on the selected model’s root item.</span></span>  
+7. <span data-ttu-id="947a5-191">Dans l'arborescence, développez « En-tête d'archive ».</span><span class="sxs-lookup"><span data-stu-id="947a5-191">In the tree, expand 'Archive header'.</span></span>
+8. <span data-ttu-id="947a5-192">Dans l'arborescence, développez « En-tête d'archive\Lignes d'archive ».</span><span class="sxs-lookup"><span data-stu-id="947a5-192">In the tree, expand 'Archive header\Archive lines'.</span></span>
+9. <span data-ttu-id="947a5-193">Dans l'arborescence, développez « format ».</span><span class="sxs-lookup"><span data-stu-id="947a5-193">In the tree, expand 'format'.</span></span>
+10. <span data-ttu-id="947a5-194">Dans l'arborescence, développez « format\Déclaration : Élément XML(Déclaration) ».</span><span class="sxs-lookup"><span data-stu-id="947a5-194">In the tree, expand 'format\Declaration: XML Element(Declaration)'.</span></span>
+11. <span data-ttu-id="947a5-195">Dans l'arborescence, développez « format\Déclaration : Élément XML(Déclaration)\Données : Élément XML 1. * (Données) ».</span><span class="sxs-lookup"><span data-stu-id="947a5-195">In the tree, expand 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)'.</span></span>
+12. <span data-ttu-id="947a5-196">Dans l'arborescence, développez « format\Déclaration : Élément XML(Déclaration)\Données : Élément XML 1. * (Données)\Article : Élément XML 0..* (Article) ».</span><span class="sxs-lookup"><span data-stu-id="947a5-196">In the tree, expand 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)'.</span></span>
+13. <span data-ttu-id="947a5-197">Dans l'arborescence, développez « format\Déclaration : Élément XML(Déclaration)\Données : Élément XML 1. * (Données)\Article : Élément XML 0..* (Article)\Dim3 : Élément XML 1..1 (Montant) ».</span><span class="sxs-lookup"><span data-stu-id="947a5-197">In the tree, expand 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim3: XML Element 1..1 (Amount)'.</span></span>
+14. <span data-ttu-id="947a5-198">Dans l'arborescence, développez « format\Déclaration : Élément XML(Déclaration)\Données : Élément XML 1. * (Données)\Article : Élément XML 0..* (Article)\Dim4 : Élément XML 1..1 (Article) ».</span><span class="sxs-lookup"><span data-stu-id="947a5-198">In the tree, expand 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim4: XML Element 1..1 (Item)'.</span></span>
+15. <span data-ttu-id="947a5-199">Dans l'arborescence, sélectionnez « En-tête d'archive\Nombre de lignes ».</span><span class="sxs-lookup"><span data-stu-id="947a5-199">In the tree, select 'Archive header\Number of lines'.</span></span>
+16. <span data-ttu-id="947a5-200">Cliquez sur Modifier.</span><span class="sxs-lookup"><span data-stu-id="947a5-200">Click Edit.</span></span>
+17. <span data-ttu-id="947a5-201">Dans l'arborescence, sélectionnez « Liste\COUNT ».</span><span class="sxs-lookup"><span data-stu-id="947a5-201">In the tree, select 'List\COUNT'.</span></span>
+18. <span data-ttu-id="947a5-202">Cliquez sur Ajouter une fonction.</span><span class="sxs-lookup"><span data-stu-id="947a5-202">Click Add function.</span></span>
+19. <span data-ttu-id="947a5-203">Dans l'arborescence, développez « format ».</span><span class="sxs-lookup"><span data-stu-id="947a5-203">In the tree, expand 'format'.</span></span>
+20. <span data-ttu-id="947a5-204">Dans l'arborescence, développez « format\Déclaration : Élément XML(Déclaration) ».</span><span class="sxs-lookup"><span data-stu-id="947a5-204">In the tree, expand 'format\Declaration: XML Element(Declaration)'.</span></span>
+21. <span data-ttu-id="947a5-205">Dans l'arborescence, développez « format\Déclaration : Élément XML(Déclaration)\Données : Élément XML 1. * (Données) ».</span><span class="sxs-lookup"><span data-stu-id="947a5-205">In the tree, expand 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)'.</span></span>
+22. <span data-ttu-id="947a5-206">Dans l'arborescence, sélectionnez « format\Déclaration : Élément XML(Déclaration)\Données : Élément XML 1..* (Données)\Article : Élément XML 0..* (Article) ».</span><span class="sxs-lookup"><span data-stu-id="947a5-206">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)'.</span></span>
+23. <span data-ttu-id="947a5-207">Cliquez sur Ajouter une source de données.</span><span class="sxs-lookup"><span data-stu-id="947a5-207">Click Add data source.</span></span>
+24. <span data-ttu-id="947a5-208">Dans le champ Formule, entrez « COUNT(format.Declaration.Data.Item) ».</span><span class="sxs-lookup"><span data-stu-id="947a5-208">In the Formula field, enter 'COUNT(format.Declaration.Data.Item)'.</span></span>
+    * <span data-ttu-id="947a5-209">COUNT(format.Declaration.Data.Item)</span><span class="sxs-lookup"><span data-stu-id="947a5-209">COUNT(format.Declaration.Data.Item)</span></span>  
+25. <span data-ttu-id="947a5-210">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="947a5-210">Click Save.</span></span>
+26. <span data-ttu-id="947a5-211">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="947a5-211">Close the page.</span></span>
+27. <span data-ttu-id="947a5-212">Dans l'arborescence, sélectionnez « En-tête d'archive\Nom de fichier ».</span><span class="sxs-lookup"><span data-stu-id="947a5-212">In the tree, select 'Archive header\File name'.</span></span>
+28. <span data-ttu-id="947a5-213">Dans l'arborescence, sélectionnez « format\Déclaration : Élément XML(Déclaration)\Données : Élément XML 1..* (Données)\Nom de fichier : Chaîne d'article(Nom de fichier) ».</span><span class="sxs-lookup"><span data-stu-id="947a5-213">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\File name: Item String(File name)'.</span></span>
+29. <span data-ttu-id="947a5-214">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="947a5-214">Click Bind.</span></span>
+30. <span data-ttu-id="947a5-215">Dans l'arborescence, sélectionnez « format\Déclaration : Élément XML(Déclaration)\Données : Élément XML 1..* (Données)\Article : Élément XML 0..* (Article)\Dim4 : Élément XML 1..1 (Article)\numéro : Chaîne(numéro) ».</span><span class="sxs-lookup"><span data-stu-id="947a5-215">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim4: XML Element 1..1 (Item)\number: String(number)'.</span></span>
+31. <span data-ttu-id="947a5-216">Dans l'arborescence, sélectionnez « En-tête d'archive\Lignes d'archive\Numéro d'article ».</span><span class="sxs-lookup"><span data-stu-id="947a5-216">In the tree, select 'Archive header\Archive lines\Item number'.</span></span>
+32. <span data-ttu-id="947a5-217">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="947a5-217">Click Bind.</span></span>
+33. <span data-ttu-id="947a5-218">Dans l'arborescence, sélectionnez « format\Déclaration : Élément XML(Déclaration)\Données : Élément XML 1..* (Données)\Article : Élément XML 0..* (Article)\Dim3 : Élément XML 1..1 (Montant)\valeur : Réelle numérique(valeur) ».</span><span class="sxs-lookup"><span data-stu-id="947a5-218">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim3: XML Element 1..1 (Amount)\value: Numeric Real(value)'.</span></span>
+34. <span data-ttu-id="947a5-219">Dans l'arborescence, sélectionnez « En-tête d'archive\Lignes d'archive\Montant ».</span><span class="sxs-lookup"><span data-stu-id="947a5-219">In the tree, select 'Archive header\Archive lines\Amount'.</span></span>
+35. <span data-ttu-id="947a5-220">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="947a5-220">Click Bind.</span></span>
+36. <span data-ttu-id="947a5-221">Dans l'arborescence, sélectionnez « format\Déclaration : Élément XML(Déclaration)\Données : Élément XML 1..* (Données)\Article : Élément XML 0..* (Article)\ID enregistrement de marchandise : Article Int64(ID enregistrement de marchandise) ».</span><span class="sxs-lookup"><span data-stu-id="947a5-221">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Commodity rec id: Item Int64(Commodity rec id)'.</span></span>
+37. <span data-ttu-id="947a5-222">Dans l'arborescence, sélectionnez « En-tête d'archive\Lignes d'archive\ID enregistrement de marchandise ».</span><span class="sxs-lookup"><span data-stu-id="947a5-222">In the tree, select 'Archive header\Archive lines\Commodity rec id'.</span></span>
+38. <span data-ttu-id="947a5-223">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="947a5-223">Click Bind.</span></span>
+39. <span data-ttu-id="947a5-224">Dans l'arborescence, sélectionnez « En-tête d'archive\Lignes d'archive ».</span><span class="sxs-lookup"><span data-stu-id="947a5-224">In the tree, select 'Archive header\Archive lines'.</span></span>
+40. <span data-ttu-id="947a5-225">Dans l'arborescence, sélectionnez « format\Déclaration : Élément XML(Déclaration)\Données : Élément XML 1..* (Données)\Article : Élément XML 0..* (Article) ».</span><span class="sxs-lookup"><span data-stu-id="947a5-225">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)'.</span></span>
+41. <span data-ttu-id="947a5-226">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="947a5-226">Click Bind.</span></span>
+42. <span data-ttu-id="947a5-227">Dans l'arborescence, sélectionnez « En-tête d'archive ».</span><span class="sxs-lookup"><span data-stu-id="947a5-227">In the tree, select 'Archive header'.</span></span>
+43. <span data-ttu-id="947a5-228">Dans l'arborescence, sélectionnez « format\Déclaration : Élément XML(Déclaration)\Données : Élément XML 1..* (Données) ».</span><span class="sxs-lookup"><span data-stu-id="947a5-228">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)'.</span></span>
+44. <span data-ttu-id="947a5-229">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="947a5-229">Click Bind.</span></span>
+45. <span data-ttu-id="947a5-230">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="947a5-230">Click Save.</span></span>
+46. <span data-ttu-id="947a5-231">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="947a5-231">Close the page.</span></span>
+47. <span data-ttu-id="947a5-232">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="947a5-232">Close the page.</span></span>
+48. <span data-ttu-id="947a5-233">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="947a5-233">Close the page.</span></span>
 
 

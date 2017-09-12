@@ -17,68 +17,68 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 7ce132b590fffb753948e663763b8f3ef576ac36
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: b80c258d6a779a8fc5bb6c846abd3af7e69d5e06
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-a-mobile-device-menu-item-for-completing-work-in-a-purchase-order"></a>Paramétrer une option de menu d'appareil mobile pour terminer le travail d'une commande fournisseur
+# <a name="set-up-a-mobile-device-menu-item-for-completing-work-in-a-purchase-order"></a><span data-ttu-id="22bbc-103">Paramétrer une option de menu d'appareil mobile pour terminer le travail d'une commande fournisseur</span><span class="sxs-lookup"><span data-stu-id="22bbc-103">Set up a mobile device menu item for completing work in a purchase order</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Cette procédure montre comment configurer une option du menu Appareil mobile. Dans cet exemple, l'option de menu est utilisée pour effectuer le travail de type commande fournisseur. La classe de travail associée à l'option de menu qui détermine quel travail est valide. Vous pouvez utiliser ce guide dans les données de démonstration de la société fictive USMF. Cette procédure est généralement effectuée par un gestionnaire de l'entrepôt.
+<span data-ttu-id="22bbc-104">Cette procédure montre comment configurer une option du menu Appareil mobile.</span><span class="sxs-lookup"><span data-stu-id="22bbc-104">This procedure shows how to set up a Mobile device menu item.</span></span> <span data-ttu-id="22bbc-105">Dans cet exemple, l'option de menu est utilisée pour effectuer le travail de type commande fournisseur.</span><span class="sxs-lookup"><span data-stu-id="22bbc-105">In this example, the menu item is used for performing work of type Purchase order.</span></span> <span data-ttu-id="22bbc-106">La classe de travail associée à l'option de menu qui détermine quel travail est valide.</span><span class="sxs-lookup"><span data-stu-id="22bbc-106">The work class that’s associated with the menu item determines which work is valid.</span></span> <span data-ttu-id="22bbc-107">Vous pouvez utiliser ce guide dans les données de démonstration de la société fictive USMF.</span><span class="sxs-lookup"><span data-stu-id="22bbc-107">You can use this guide in demo data company USMF.</span></span> <span data-ttu-id="22bbc-108">Cette procédure est généralement effectuée par un gestionnaire de l'entrepôt.</span><span class="sxs-lookup"><span data-stu-id="22bbc-108">This procedure is typically carried out by a warehouse manager.</span></span>
 
 
-## <a name="create-a-mobile-device-menu-item"></a>Créer une option de menu d'appareil mobile
-1. Accédez aux options de menu Appareil mobile.
-2. Cliquez sur Nouveau.
-3. Saisissez une valeur dans le champ Nom de l'option de menu.
-    * Entrer une valeur unique. Par exemple, vous pouvez taper POMove. N’oubliez pas cette valeur, vous en aurez besoin ultérieurement.  
-4. Tapez une valeur dans le champ Titre.
-    * Il s'agit du titre qui sera affiché sur l'appareil mobile. Par exemple, vous pouvez taper PO Move.  
-5. Dans le champ Mode, Sélectionnez « Travail ».
-6. Sélectionnez Oui dans le champ Utiliser un travail existant.
-    * Cet article de menu d'appareil mobile est utilisé pour effectuer un travail existant. Par conséquent, vous devez définir cette valeur sur Oui.  
-    * Le champ Afficher le statut de stock détermine si l’état du stock disponible sera affiché pour le magasinier sur l'appareil mobile.  
-7. Dans le champ Dirigé par, sélectionnez « Regroupement système ».
-    * Quand vous choisissez quelque chose dans le champ Dirigé par, les champs supplémentaires apparaissent dans la section générale de cette page. Les champs qui apparaissent dépendent de ce que vous avez choisi. Lorsque vous sélectionnez Regroupement système, deux nouveaux champs sont ajoutés. Ces options sont expliquées ci-dessous.  
-8. Dans le champ Regroupement système, sélectionnez « WorkPoolID ».
-    * Lorsque les magasiniers ouvrent cet article du menu, ils sont invités à analyser un ID pool de travail. Tous les ordres d'exécution avec cet ID pool de travail et ces lignes d'ordre de travail en cours avec l'une des classes de travail ajoutées à cet article du menu seront envoyés à l’utilisateur.  
-9. Dans le champ Étiquette de regroupement système, entrez une valeur.
-    * Ce texte s'affiche pour l'utilisateur de l'appareil mobile. Par exemple, vous pouvez taper Pool de travail.  
-10. Sélectionnez Oui dans le champ Remplacer le contenant lors du placement.
-    * Cette option permet aux magasiniers de remplacer la plaque d’immatriculation cible lorsque les articles sont placés sur un emplacement de plaque d’immatriculation contrôlé.  
-11. Sélectionnez Oui dans le champ Rangement du groupe.
-    * Si toutes les lignes de placement sur l'ordre d'exécution partagent le même emplacement, l’utilisateur recevra une instruction de placement combinée pour toutes les lignes.  
-    * ID modèle d’audit : un modèle d’audit de travail vous permet de spécifier que le processus de travail pour un article du menu doit être interrompu pour qu’une autre opération puisse être effectuée. Par exemple, si cette option de menu est pour le travail entrant, le modèle d'audit peut exiger que le collaborateur vérifie la température. Le point où le processus est interrompu est spécifié dans le modèle d'audit et peut être, par exemple, lorsque le travail est lancé ou terminé, ou lorsque le statut est modifié.  
-12. Développez la section Classes de travail.
-13. Cliquez sur Nouveau.
-14. Tapez « Achat » dans le champ ID classe de travail.
-    * Le pool de travail restreint le travail pour lequel l’article du menu peut être utilisé. Dans ce cas il sera utilisé pour les lignes de commande de travail en cours qui portent l'ID classe de travail d'achat.  
-15. Cliquez sur Enregistrer.
+## <a name="create-a-mobile-device-menu-item"></a><span data-ttu-id="22bbc-109">Créer une option de menu d'appareil mobile</span><span class="sxs-lookup"><span data-stu-id="22bbc-109">Create a mobile device menu item</span></span>
+1. <span data-ttu-id="22bbc-110">Accédez aux options de menu Appareil mobile.</span><span class="sxs-lookup"><span data-stu-id="22bbc-110">Go to Mobile device menu items.</span></span>
+2. <span data-ttu-id="22bbc-111">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="22bbc-111">Click New.</span></span>
+3. <span data-ttu-id="22bbc-112">Saisissez une valeur dans le champ Nom de l'option de menu.</span><span class="sxs-lookup"><span data-stu-id="22bbc-112">In the Menu item name field, type a value.</span></span>
+    * <span data-ttu-id="22bbc-113">Entrer une valeur unique.</span><span class="sxs-lookup"><span data-stu-id="22bbc-113">Enter a unique value.</span></span> <span data-ttu-id="22bbc-114">Par exemple, vous pouvez taper POMove.</span><span class="sxs-lookup"><span data-stu-id="22bbc-114">For example, you could type POMove.</span></span> <span data-ttu-id="22bbc-115">N’oubliez pas cette valeur, vous en aurez besoin ultérieurement.</span><span class="sxs-lookup"><span data-stu-id="22bbc-115">Remember the value, you'll need it later.</span></span>  
+4. <span data-ttu-id="22bbc-116">Tapez une valeur dans le champ Titre.</span><span class="sxs-lookup"><span data-stu-id="22bbc-116">In the Title field, type a value.</span></span>
+    * <span data-ttu-id="22bbc-117">Il s'agit du titre qui sera affiché sur l'appareil mobile.</span><span class="sxs-lookup"><span data-stu-id="22bbc-117">This is the title which will be displayed on the mobile device.</span></span> <span data-ttu-id="22bbc-118">Par exemple, vous pouvez taper PO Move.</span><span class="sxs-lookup"><span data-stu-id="22bbc-118">For example, you could type PO Move.</span></span>  
+5. <span data-ttu-id="22bbc-119">Dans le champ Mode, Sélectionnez « Travail ».</span><span class="sxs-lookup"><span data-stu-id="22bbc-119">In the Mode field, select 'Work'.</span></span>
+6. <span data-ttu-id="22bbc-120">Sélectionnez Oui dans le champ Utiliser un travail existant.</span><span class="sxs-lookup"><span data-stu-id="22bbc-120">Select Yes in the Use existing work field.</span></span>
+    * <span data-ttu-id="22bbc-121">Cet article de menu d'appareil mobile est utilisé pour effectuer un travail existant.</span><span class="sxs-lookup"><span data-stu-id="22bbc-121">This mobile device menu item is used to perform existing work.</span></span> <span data-ttu-id="22bbc-122">Par conséquent, vous devez définir cette valeur sur Oui.</span><span class="sxs-lookup"><span data-stu-id="22bbc-122">Therefore you must set this value to Yes.</span></span>  
+    * <span data-ttu-id="22bbc-123">Le champ Afficher le statut de stock détermine si l’état du stock disponible sera affiché pour le magasinier sur l'appareil mobile.</span><span class="sxs-lookup"><span data-stu-id="22bbc-123">The Display inventory status field determines whether the inventory status of the on-hand inventory will be displayed to the warehouse worker on the mobile device.</span></span>  
+7. <span data-ttu-id="22bbc-124">Dans le champ Dirigé par, sélectionnez « Regroupement système ».</span><span class="sxs-lookup"><span data-stu-id="22bbc-124">In the Directed by field, select 'System grouping'.</span></span>
+    * <span data-ttu-id="22bbc-125">Quand vous choisissez quelque chose dans le champ Dirigé par, les champs supplémentaires apparaissent dans la section générale de cette page.</span><span class="sxs-lookup"><span data-stu-id="22bbc-125">When you select something in the Directed by field, additional fields appear in the General section on this page.</span></span> <span data-ttu-id="22bbc-126">Les champs qui apparaissent dépendent de ce que vous avez choisi.</span><span class="sxs-lookup"><span data-stu-id="22bbc-126">The fields that appear depend on what you selected.</span></span> <span data-ttu-id="22bbc-127">Lorsque vous sélectionnez Regroupement système, deux nouveaux champs sont ajoutés.</span><span class="sxs-lookup"><span data-stu-id="22bbc-127">When you select System grouping, two new fields are added.</span></span> <span data-ttu-id="22bbc-128">Ces options sont expliquées ci-dessous.</span><span class="sxs-lookup"><span data-stu-id="22bbc-128">These are explained below.</span></span>  
+8. <span data-ttu-id="22bbc-129">Dans le champ Regroupement système, sélectionnez « WorkPoolID ».</span><span class="sxs-lookup"><span data-stu-id="22bbc-129">In the System grouping field, select 'WorkPoolId'.</span></span>
+    * <span data-ttu-id="22bbc-130">Lorsque les magasiniers ouvrent cet article du menu, ils sont invités à analyser un ID pool de travail.</span><span class="sxs-lookup"><span data-stu-id="22bbc-130">When warehouse workers open this menu item, they’ll be asked to scan a Work pool ID.</span></span> <span data-ttu-id="22bbc-131">Tous les ordres d'exécution avec cet ID pool de travail et ces lignes d'ordre de travail en cours avec l'une des classes de travail ajoutées à cet article du menu seront envoyés à l’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="22bbc-131">All work orders with this Work pool ID and open work order lines with one of the work classes added to this menu item will be pushed to the user.</span></span>  
+9. <span data-ttu-id="22bbc-132">Dans le champ Étiquette de regroupement système, entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="22bbc-132">In the System grouping label field, type a value.</span></span>
+    * <span data-ttu-id="22bbc-133">Ce texte s'affiche pour l'utilisateur de l'appareil mobile.</span><span class="sxs-lookup"><span data-stu-id="22bbc-133">This is the text displayed to the user on the mobile device.</span></span> <span data-ttu-id="22bbc-134">Par exemple, vous pouvez taper Pool de travail.</span><span class="sxs-lookup"><span data-stu-id="22bbc-134">For example, you could type Work pool.</span></span>  
+10. <span data-ttu-id="22bbc-135">Sélectionnez Oui dans le champ Remplacer le contenant lors du placement.</span><span class="sxs-lookup"><span data-stu-id="22bbc-135">Select Yes in the Override license plate during put field.</span></span>
+    * <span data-ttu-id="22bbc-136">Cette option permet aux magasiniers de remplacer la plaque d’immatriculation cible lorsque les articles sont placés sur un emplacement de plaque d’immatriculation contrôlé.</span><span class="sxs-lookup"><span data-stu-id="22bbc-136">This option allows warehouse workers to override the target license plate when items are put down on a license plate controlled location.</span></span>  
+11. <span data-ttu-id="22bbc-137">Sélectionnez Oui dans le champ Rangement du groupe.</span><span class="sxs-lookup"><span data-stu-id="22bbc-137">Select Yes in the Group put away field.</span></span>
+    * <span data-ttu-id="22bbc-138">Si toutes les lignes de placement sur l'ordre d'exécution partagent le même emplacement, l’utilisateur recevra une instruction de placement combinée pour toutes les lignes.</span><span class="sxs-lookup"><span data-stu-id="22bbc-138">If all the Put lines on the work order share the same location, the user will receive one combined Put instruction for all lines.</span></span>  
+    * <span data-ttu-id="22bbc-139">ID modèle d’audit : un modèle d’audit de travail vous permet de spécifier que le processus de travail pour un article du menu doit être interrompu pour qu’une autre opération puisse être effectuée.</span><span class="sxs-lookup"><span data-stu-id="22bbc-139">Audit template ID: A work audit template allows you to specify that the work process for a menu item should be interrupted so that another operation can be performed.</span></span> <span data-ttu-id="22bbc-140">Par exemple, si cette option de menu est pour le travail entrant, le modèle d'audit peut exiger que le collaborateur vérifie la température.</span><span class="sxs-lookup"><span data-stu-id="22bbc-140">For example, if this menu item is for inbound work, the audit template might require that the worker checks the temperature.</span></span> <span data-ttu-id="22bbc-141">Le point où le processus est interrompu est spécifié dans le modèle d'audit et peut être, par exemple, lorsque le travail est lancé ou terminé, ou lorsque le statut est modifié.</span><span class="sxs-lookup"><span data-stu-id="22bbc-141">The point at which the process is interrupted is specified on the audit template and can be, for example, when work is started or completed, or when its status changes.</span></span>  
+12. <span data-ttu-id="22bbc-142">Développez la section Classes de travail.</span><span class="sxs-lookup"><span data-stu-id="22bbc-142">Expand the Work classes section.</span></span>
+13. <span data-ttu-id="22bbc-143">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="22bbc-143">Click New.</span></span>
+14. <span data-ttu-id="22bbc-144">Tapez « Achat » dans le champ ID classe de travail.</span><span class="sxs-lookup"><span data-stu-id="22bbc-144">In the Work class ID field, type 'Purchase'.</span></span>
+    * <span data-ttu-id="22bbc-145">Le pool de travail restreint le travail pour lequel l’article du menu peut être utilisé.</span><span class="sxs-lookup"><span data-stu-id="22bbc-145">The work pool restricts the work that the menu item can be used for.</span></span> <span data-ttu-id="22bbc-146">Dans ce cas il sera utilisé pour les lignes de commande de travail en cours qui portent l'ID classe de travail d'achat.</span><span class="sxs-lookup"><span data-stu-id="22bbc-146">In this case it will be used for open work order lines that have the Purchase work class ID.</span></span>  
+15. <span data-ttu-id="22bbc-147">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="22bbc-147">Click Save.</span></span>
 
-## <a name="set-up-work-confirmation"></a>Configurer la confirmation du travail
-1. Cliquez sur Paramétrage de la confirmation du travail.
-2. Dans le champ Type de travail, sélectionnez « Prélever ».
-3. Activez la case à cocher Confirmation automatique.
-    * L’instruction de travail avec le type de travail Prélèvement sera automatiquement confirmée. Cette instruction ne sera pas être présentée à l’utilisateur.  
-4. Cliquez sur Nouveau.
-5. Dans le champ Type de travail, sélectionnez « Put ».
-6. Activez la case à cocher Confirmation d'emplacement.
-    * Le magasinier sera invité à effectuer une analyse de confirmation de l’emplacement, lorsque l’article est placé.  
-7. Cliquez sur Enregistrer.
-8. Fermez la page.
-9. Fermez la page.
+## <a name="set-up-work-confirmation"></a><span data-ttu-id="22bbc-148">Configurer la confirmation du travail</span><span class="sxs-lookup"><span data-stu-id="22bbc-148">Set up work confirmation</span></span>
+1. <span data-ttu-id="22bbc-149">Cliquez sur Paramétrage de la confirmation du travail.</span><span class="sxs-lookup"><span data-stu-id="22bbc-149">Click Work confirmation setup.</span></span>
+2. <span data-ttu-id="22bbc-150">Dans le champ Type de travail, sélectionnez « Prélever ».</span><span class="sxs-lookup"><span data-stu-id="22bbc-150">In the Work type field, select 'Pick'.</span></span>
+3. <span data-ttu-id="22bbc-151">Activez la case à cocher Confirmation automatique.</span><span class="sxs-lookup"><span data-stu-id="22bbc-151">Select the Auto confirm check box.</span></span>
+    * <span data-ttu-id="22bbc-152">L’instruction de travail avec le type de travail Prélèvement sera automatiquement confirmée.</span><span class="sxs-lookup"><span data-stu-id="22bbc-152">The work instruction with work type Pick will be auto-confirmed.</span></span> <span data-ttu-id="22bbc-153">Cette instruction ne sera pas être présentée à l’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="22bbc-153">This instruction will not be presented to the user.</span></span>  
+4. <span data-ttu-id="22bbc-154">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="22bbc-154">Click New.</span></span>
+5. <span data-ttu-id="22bbc-155">Dans le champ Type de travail, sélectionnez « Put ».</span><span class="sxs-lookup"><span data-stu-id="22bbc-155">In the Work type field, select 'Put'.</span></span>
+6. <span data-ttu-id="22bbc-156">Activez la case à cocher Confirmation d'emplacement.</span><span class="sxs-lookup"><span data-stu-id="22bbc-156">Select the Location confirmation check box.</span></span>
+    * <span data-ttu-id="22bbc-157">Le magasinier sera invité à effectuer une analyse de confirmation de l’emplacement, lorsque l’article est placé.</span><span class="sxs-lookup"><span data-stu-id="22bbc-157">The warehouse worker will be asked to perform a confirmation scan of the location, when the item is put down.</span></span>  
+7. <span data-ttu-id="22bbc-158">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="22bbc-158">Click Save.</span></span>
+8. <span data-ttu-id="22bbc-159">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="22bbc-159">Close the page.</span></span>
+9. <span data-ttu-id="22bbc-160">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="22bbc-160">Close the page.</span></span>
 
-## <a name="add-the-menu-item-to-a-mobile-device-menu"></a>Ajouter l'option de menu à un menu d'appareil mobile
-1. Accédez au menu Appareil mobile.
-2. Cliquez sur Modifier.
-3. Utilisez le Filtre rapide pour rechercher les enregistrements. Par exemple, filtrez sur le champ Nom avec le valeur « Inbound ».
-    * Vous souhaitez trouver le menu que vous utilisez pour les articles de menu entrant. Dans USMF, ce champ est appelé Entrant.  
-4. Sélectionnez une valeur dans l'arborescence.
-5. Cliquez sur la flèche qui pointe vers la droite.
-6. Cliquez sur Enregistrer.
-7. Fermez la page.
+## <a name="add-the-menu-item-to-a-mobile-device-menu"></a><span data-ttu-id="22bbc-161">Ajouter l'option de menu à un menu d'appareil mobile</span><span class="sxs-lookup"><span data-stu-id="22bbc-161">Add the menu item to a mobile device menu</span></span>
+1. <span data-ttu-id="22bbc-162">Accédez au menu Appareil mobile.</span><span class="sxs-lookup"><span data-stu-id="22bbc-162">Go to Mobile device menu.</span></span>
+2. <span data-ttu-id="22bbc-163">Cliquez sur Modifier.</span><span class="sxs-lookup"><span data-stu-id="22bbc-163">Click Edit.</span></span>
+3. <span data-ttu-id="22bbc-164">Utilisez le Filtre rapide pour rechercher les enregistrements.</span><span class="sxs-lookup"><span data-stu-id="22bbc-164">Use the Quick Filter to find records.</span></span> <span data-ttu-id="22bbc-165">Par exemple, filtrez sur le champ Nom avec le valeur « Inbound ».</span><span class="sxs-lookup"><span data-stu-id="22bbc-165">For example, filter on the Name field with a value of 'inbound'.</span></span>
+    * <span data-ttu-id="22bbc-166">Vous souhaitez trouver le menu que vous utilisez pour les articles de menu entrant.</span><span class="sxs-lookup"><span data-stu-id="22bbc-166">You want to find the menu you use for inbound menu items.</span></span> <span data-ttu-id="22bbc-167">Dans USMF, ce champ est appelé Entrant.</span><span class="sxs-lookup"><span data-stu-id="22bbc-167">In USMF this is called Inbound.</span></span>  
+4. <span data-ttu-id="22bbc-168">Sélectionnez une valeur dans l'arborescence.</span><span class="sxs-lookup"><span data-stu-id="22bbc-168">In the tree, select 'a value'.</span></span>
+5. <span data-ttu-id="22bbc-169">Cliquez sur la flèche qui pointe vers la droite.</span><span class="sxs-lookup"><span data-stu-id="22bbc-169">Click on the arrow that points to the right.</span></span>
+6. <span data-ttu-id="22bbc-170">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="22bbc-170">Click Save.</span></span>
+7. <span data-ttu-id="22bbc-171">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="22bbc-171">Close the page.</span></span>
 
 

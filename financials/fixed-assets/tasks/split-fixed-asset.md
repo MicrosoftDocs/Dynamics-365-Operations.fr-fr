@@ -16,46 +16,46 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 5aea1aab9f6b084bd0c5bd2119639bff3555bb8a
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: b4c1b39bcae1fa3830f3a217d1ad89e84cd72134
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="split-a-fixed-asset"></a>Fractionner une immobilisation
+# <a name="split-a-fixed-asset"></a><span data-ttu-id="25a29-103">Fractionner une immobilisation</span><span class="sxs-lookup"><span data-stu-id="25a29-103">Split a fixed asset</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Ce guide de tâche fractionnera un pourcentage d'un registre d'immobilisations en un nouveau registre d'immobilisations.  Il utilise le rôle de comptable et les données de démonstration de la société USMF fictive.
+<span data-ttu-id="25a29-104">Ce guide de tâche fractionnera un pourcentage d'un registre d'immobilisations en un nouveau registre d'immobilisations.</span><span class="sxs-lookup"><span data-stu-id="25a29-104">This task guide will split a percentage of one asset book to a new asset book.</span></span>  <span data-ttu-id="25a29-105">Il utilise le rôle de comptable et les données de démonstration de la société USMF fictive.</span><span class="sxs-lookup"><span data-stu-id="25a29-105">It uses the Accountant role and USMF demo data.</span></span>
 
 
-## <a name="create-a-new-fixed-asset"></a>Créer une nouvelle immobilisation
-1. Accédez à Immobilisations > Immobilisations > Immobilisations.
-2. Cliquez sur Nouveau.
-3. Saisissez ou sélectionnez une valeur dans le champ Groupe d'immobilisations.
-4. Notez le numéro d'immobilisation à utiliser dans le processus de fractionnement ultérieurement.
-5. Tapez une valeur dans le champ Nom.
-6. Permet de fermer l'écran.
+## <a name="create-a-new-fixed-asset"></a><span data-ttu-id="25a29-106">Créer une nouvelle immobilisation</span><span class="sxs-lookup"><span data-stu-id="25a29-106">Create a new fixed asset</span></span>
+1. <span data-ttu-id="25a29-107">Accédez à Immobilisations > Immobilisations > Immobilisations.</span><span class="sxs-lookup"><span data-stu-id="25a29-107">Go to Fixed assets > Fixed assets > Fixed assets.</span></span>
+2. <span data-ttu-id="25a29-108">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="25a29-108">Click New.</span></span>
+3. <span data-ttu-id="25a29-109">Saisissez ou sélectionnez une valeur dans le champ Groupe d'immobilisations.</span><span class="sxs-lookup"><span data-stu-id="25a29-109">In the Fixed asset group field, enter or select a value.</span></span>
+4. <span data-ttu-id="25a29-110">Notez le numéro d'immobilisation à utiliser dans le processus de fractionnement ultérieurement.</span><span class="sxs-lookup"><span data-stu-id="25a29-110">Note the fixed asset number to use in the split process later.</span></span>
+5. <span data-ttu-id="25a29-111">Tapez une valeur dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="25a29-111">In the Name field, type a value.</span></span>
+6. <span data-ttu-id="25a29-112">Permet de fermer l'écran.</span><span class="sxs-lookup"><span data-stu-id="25a29-112">Close the form.</span></span>
 
-## <a name="split-a-fixed-asset"></a>Fractionner une immobilisation
-1. Dans la liste, recherchez et sélectionnez l'immobilisation à fractionner.
-2. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-3. Cliquez sur Registres.
-    * Sélectionnez le registre pour fractionner la nouvelle immobilisation.  
-4. Cliquez sur Fonctions.
-5. Cliquez sur Fractionner une immobilisation.
-6. Dans le champ À l'immobilisation, entrez ou sélectionnez une valeur.
-7. Dans le champ Vers le registre, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-8. Entrez une date dans le champ Date de transaction.
-9. Entrez un numéro dans le champ Pourcentage.
-10. Dans le champ Nom de journal, entrez ou sélectionnez une valeur.
-11. Cliquez sur OK.
+## <a name="split-a-fixed-asset"></a><span data-ttu-id="25a29-113">Fractionner une immobilisation</span><span class="sxs-lookup"><span data-stu-id="25a29-113">Split a fixed asset</span></span>
+1. <span data-ttu-id="25a29-114">Dans la liste, recherchez et sélectionnez l'immobilisation à fractionner.</span><span class="sxs-lookup"><span data-stu-id="25a29-114">In the list, find and select the fixed asset to split.</span></span>
+2. <span data-ttu-id="25a29-115">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="25a29-115">In the list, click the link in the selected row.</span></span>
+3. <span data-ttu-id="25a29-116">Cliquez sur Registres.</span><span class="sxs-lookup"><span data-stu-id="25a29-116">Click Books.</span></span>
+    * <span data-ttu-id="25a29-117">Sélectionnez le registre pour fractionner la nouvelle immobilisation.</span><span class="sxs-lookup"><span data-stu-id="25a29-117">Select the book to split to the new asset.</span></span>  
+4. <span data-ttu-id="25a29-118">Cliquez sur Fonctions.</span><span class="sxs-lookup"><span data-stu-id="25a29-118">Click Functions.</span></span>
+5. <span data-ttu-id="25a29-119">Cliquez sur Fractionner une immobilisation.</span><span class="sxs-lookup"><span data-stu-id="25a29-119">Click Split fixed asset.</span></span>
+6. <span data-ttu-id="25a29-120">Dans le champ À l'immobilisation, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="25a29-120">In the To fixed asset field, enter or select a value.</span></span>
+7. <span data-ttu-id="25a29-121">Dans le champ Vers le registre, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="25a29-121">In the To book field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="25a29-122">Entrez une date dans le champ Date de transaction.</span><span class="sxs-lookup"><span data-stu-id="25a29-122">In the Transaction date field, enter a date.</span></span>
+9. <span data-ttu-id="25a29-123">Entrez un numéro dans le champ Pourcentage.</span><span class="sxs-lookup"><span data-stu-id="25a29-123">In the Percent field, enter a number.</span></span>
+10. <span data-ttu-id="25a29-124">Dans le champ Nom de journal, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="25a29-124">In the Journal name field, enter or select a value.</span></span>
+11. <span data-ttu-id="25a29-125">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="25a29-125">Click OK.</span></span>
 
-## <a name="post-the-journal-transaction"></a>Valider la transaction de journal
-1. Accédez à Immobilisations > Entrées de journal > Journal des immobilisations.
-2. Dans la liste, sélectionnez le journal créé avec le processus de fractionnement.
-3. Cliquez sur Lignes.
-    * Vérifiez les lignes de journal créées.  Une transaction d'ajustement d'acquisition est créée pour l'actif original pour diminuer la valeur par le pourcentage spécifié lors du processus de fractionnement.  Une transaction d'acquisition est créée pour le nouvel actif pour le même montant.  
-4. Cliquez sur Valider.
+## <a name="post-the-journal-transaction"></a><span data-ttu-id="25a29-126">Valider la transaction de journal</span><span class="sxs-lookup"><span data-stu-id="25a29-126">Post the journal transaction</span></span>
+1. <span data-ttu-id="25a29-127">Accédez à Immobilisations > Entrées de journal > Journal des immobilisations.</span><span class="sxs-lookup"><span data-stu-id="25a29-127">Go to Fixed assets > Journal entries > Fixed assets journal.</span></span>
+2. <span data-ttu-id="25a29-128">Dans la liste, sélectionnez le journal créé avec le processus de fractionnement.</span><span class="sxs-lookup"><span data-stu-id="25a29-128">In the list, select the journal created with the split process.</span></span>
+3. <span data-ttu-id="25a29-129">Cliquez sur Lignes.</span><span class="sxs-lookup"><span data-stu-id="25a29-129">Click Lines.</span></span>
+    * <span data-ttu-id="25a29-130">Vérifiez les lignes de journal créées.</span><span class="sxs-lookup"><span data-stu-id="25a29-130">Verify the journal lines created.</span></span>  <span data-ttu-id="25a29-131">Une transaction d'ajustement d'acquisition est créée pour l'actif original pour diminuer la valeur par le pourcentage spécifié lors du processus de fractionnement.</span><span class="sxs-lookup"><span data-stu-id="25a29-131">An Acquisition adjustment transaction is created for the original asset to decrease the value by the percentage specified during the split process.</span></span>  <span data-ttu-id="25a29-132">Une transaction d'acquisition est créée pour le nouvel actif pour le même montant.</span><span class="sxs-lookup"><span data-stu-id="25a29-132">An Acquisition transaction is created for the new asset for the same amount.</span></span>  
+4. <span data-ttu-id="25a29-133">Cliquez sur Valider.</span><span class="sxs-lookup"><span data-stu-id="25a29-133">Click Post.</span></span>
 
 

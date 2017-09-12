@@ -16,34 +16,34 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 6ee0d3a2793c5f8cb448049f36920a5fae83585d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 6d72678db60254801c6c899f4d405f1c59de8d65
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-scoring-method-for-rfqs"></a>Créer une méthode d'attribution pour les demandes de devis
+# <a name="create-a-scoring-method-for-rfqs"></a><span data-ttu-id="944df-103">Créer une méthode d'attribution pour les demandes de devis</span><span class="sxs-lookup"><span data-stu-id="944df-103">Create a scoring method for RFQs</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Cette procédure vous indique comment créer une méthode d'attribution de score. Une méthode d'attribution de score est un ensemble de critères qui peut être employé pour comparer les offres qui sont envoyées en réponse à un appel d'offre. Par exemple, vous pouvez souhaiter évaluer une performance passée d'un fournisseur, ou évaluer si la société est écologique ou un bon collaborateur, ou comparer des offres selon le prix. La méthode d'attribution de score peut être associée à un type de sollicitation comme méthode d'attribution de score par défaut pour les demandes de devis de ce type. Ces tâches sont généralement effectuées par un responsable des achats. Vous pouvez utiliser cette procédure dans la société fictive de démonstration USMF ou utiliser vos propres données.
+<span data-ttu-id="944df-104">Cette procédure vous indique comment créer une méthode d'attribution de score.</span><span class="sxs-lookup"><span data-stu-id="944df-104">This procedure shows you how to create a scoring method.</span></span> <span data-ttu-id="944df-105">Une méthode d'attribution de score est un ensemble de critères qui peut être employé pour comparer les offres qui sont envoyées en réponse à un appel d'offre.</span><span class="sxs-lookup"><span data-stu-id="944df-105">A scoring method is a set of criteria that can be used to compare bids that are sent in reply to a request for quotation (RFQ).</span></span> <span data-ttu-id="944df-106">Par exemple, vous pouvez souhaiter évaluer une performance passée d'un fournisseur, ou évaluer si la société est écologique ou un bon collaborateur, ou comparer des offres selon le prix.</span><span class="sxs-lookup"><span data-stu-id="944df-106">For example, you might want to rate a vendor on past performance, or rate whether the company is environmentally friendly or a good collaborator, or you might want to compare bids based on price.</span></span> <span data-ttu-id="944df-107">La méthode d'attribution de score peut être associée à un type de sollicitation comme méthode d'attribution de score par défaut pour les demandes de devis de ce type.</span><span class="sxs-lookup"><span data-stu-id="944df-107">The scoring method can be associated with a solicitation type as the default scoring method for RFQs of that type.</span></span> <span data-ttu-id="944df-108">Ces tâches sont généralement effectuées par un responsable des achats.</span><span class="sxs-lookup"><span data-stu-id="944df-108">These tasks would typically be carried out by a purchasing manager.</span></span> <span data-ttu-id="944df-109">Vous pouvez utiliser cette procédure dans la société fictive de démonstration USMF ou utiliser vos propres données.</span><span class="sxs-lookup"><span data-stu-id="944df-109">You can use this procedure in demo data company USMF or on your own data.</span></span>
 
-1. Allez dans Approvisionnements > Paramétrage > Appel d'offre > Méthode d'attribution de score.
-2. Cliquez sur Nouveau.
-3. Tapez une valeur dans le champ Nom.
-4. Dans le champ Description, entrez une valeur.
-5. Cliquez sur Enregistrer.
-6. Cliquez sur Nouveau.
-7. Tapez une valeur dans le champ Nom.
-8. Dans le champ Description, entrez une valeur.
-    * Cette description est indiquée avec le nom de méthode d'attribution de score quand une méthode d'attribution de score est choisie pour un appel d'offre.  
-9. Entrez un nombre dans le champ À.
-    * La plage limite ce que le professionnel de l'approvisionnement peut entrer dans comme score. Quand il y a des critères d'attribution de score multiples sur un appel d'offre, les scores qui ont été entrés sont ajoutés entre eux et la somme est rendue disponible pour permettre aux offres d'être comparées.  
-10. Entrez un nombre dans le champ De.
-11. Cliquez sur Nouveau.
-12. Tapez une valeur dans le champ Nom.
-13. Dans le champ Description, entrez une valeur.
-14. Entrez un nombre dans le champ À.
-15. Entrez un nombre dans le champ De.
+1. <span data-ttu-id="944df-110">Allez dans Approvisionnements > Paramétrage > Appel d'offre > Méthode d'attribution de score.</span><span class="sxs-lookup"><span data-stu-id="944df-110">Go to Procurement and sourcing > Setup > Request for quotation > Scoring method.</span></span>
+2. <span data-ttu-id="944df-111">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="944df-111">Click New.</span></span>
+3. <span data-ttu-id="944df-112">Tapez une valeur dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="944df-112">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="944df-113">Dans le champ Description, entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="944df-113">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="944df-114">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="944df-114">Click Save.</span></span>
+6. <span data-ttu-id="944df-115">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="944df-115">Click New.</span></span>
+7. <span data-ttu-id="944df-116">Tapez une valeur dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="944df-116">In the Name field, type a value.</span></span>
+8. <span data-ttu-id="944df-117">Dans le champ Description, entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="944df-117">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="944df-118">Cette description est indiquée avec le nom de méthode d'attribution de score quand une méthode d'attribution de score est choisie pour un appel d'offre.</span><span class="sxs-lookup"><span data-stu-id="944df-118">This description is shown along with the scoring method name when a scoring method is selected for an RFQ.</span></span>  
+9. <span data-ttu-id="944df-119">Entrez un nombre dans le champ À.</span><span class="sxs-lookup"><span data-stu-id="944df-119">In the Range from field, enter a number.</span></span>
+    * <span data-ttu-id="944df-120">La plage limite ce que le professionnel de l'approvisionnement peut entrer dans comme score.</span><span class="sxs-lookup"><span data-stu-id="944df-120">The range limits what the procurement professional can enter as a score.</span></span> <span data-ttu-id="944df-121">Quand il y a des critères d'attribution de score multiples sur un appel d'offre, les scores qui ont été entrés sont ajoutés entre eux et la somme est rendue disponible pour permettre aux offres d'être comparées.</span><span class="sxs-lookup"><span data-stu-id="944df-121">When there are multiple scoring criteria on an RFQ, the scores that have been entered are added to each other and the sum is made available to allow the bids to be compared.</span></span>  
+10. <span data-ttu-id="944df-122">Entrez un nombre dans le champ De.</span><span class="sxs-lookup"><span data-stu-id="944df-122">In the Range to field, enter a number.</span></span>
+11. <span data-ttu-id="944df-123">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="944df-123">Click New.</span></span>
+12. <span data-ttu-id="944df-124">Tapez une valeur dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="944df-124">In the Name field, type a value.</span></span>
+13. <span data-ttu-id="944df-125">Dans le champ Description, entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="944df-125">In the Description field, type a value.</span></span>
+14. <span data-ttu-id="944df-126">Entrez un nombre dans le champ À.</span><span class="sxs-lookup"><span data-stu-id="944df-126">In the Range from field, enter a number.</span></span>
+15. <span data-ttu-id="944df-127">Entrez un nombre dans le champ De.</span><span class="sxs-lookup"><span data-stu-id="944df-127">In the Range to field, enter a number.</span></span>
 
 

@@ -9,48 +9,48 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bibis
+ms.reviewer: bis
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: bibis
+ms.author: bis
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
+ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 633628e6250baa74df544e814ce6e9656a2f0b06
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: ce805b0bf43c931ebca13720d43754c18094fc85
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-sales-price-selection-criteria"></a>Créer des critères de sélection de prix de vente
+# <a name="create-sales-price-selection-criteria"></a><span data-ttu-id="e9ad7-103">Créer des critères de sélection de prix de vente</span><span class="sxs-lookup"><span data-stu-id="e9ad7-103">Create sales price selection criteria</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Cette procédure indique comment créer un critère de sélection de prix de vente pour les modèles de prix de vente basés sur des attributs. Cette procédure nécessite qu'au moins un modèle de prix de vente soit disponible. Cet exemple utilise le modèle de prix du modèle de prix de vente de la solution Haut-parleur dans les données de démonstration de la société fictive USMF. Généralement, un responsable de produit utilise cette procédure.
+<span data-ttu-id="e9ad7-104">Cette procédure indique comment créer un critère de sélection de prix de vente pour les modèles de prix de vente basés sur des attributs.</span><span class="sxs-lookup"><span data-stu-id="e9ad7-104">This procedure shows how to create a sales price selection criterion for attribute-based sales price models.</span></span> <span data-ttu-id="e9ad7-105">Cette procédure nécessite qu'au moins un modèle de prix de vente soit disponible.</span><span class="sxs-lookup"><span data-stu-id="e9ad7-105">This procedure requires that at least one sales price model be available.</span></span> <span data-ttu-id="e9ad7-106">Cet exemple utilise le modèle de prix du modèle de prix de vente de la solution Haut-parleur dans les données de démonstration de la société fictive USMF.</span><span class="sxs-lookup"><span data-stu-id="e9ad7-106">This example uses the price model for the Speaker solution sales price model in the USMF demo data company.</span></span> <span data-ttu-id="e9ad7-107">Généralement, un responsable de produit utilise cette procédure.</span><span class="sxs-lookup"><span data-stu-id="e9ad7-107">Typically, a product manager uses this procedure.</span></span>
 
 
-## <a name="add-a-new-criterion-for-an-existing-sales-price-model"></a>Ajouter un nouveau critère pour un modèle de prix de vente existant
-1. Cliquez sur Définition du modèle de variante de produit.
-2. Cliquez sur Modèles de configuration de produit.
-3. Dans la liste, sélectionnez la ligne du modèle de produit de la solution Haut-parleur, mais ne cliquez pas sur le lien du nom du modèle.
-4. Dans le volet Actions, cliquez sur Modèle.
-5. Cliquez sur Critères de modèle de prix.
-6. Cliquez sur Nouveau.
-7. Dans le champ Nom, tapez « Groupe de clients 10 ».
-    * Le nom du critère de modèle de prix permet d'identifier les critères de sélection sous-jacents.  
-8. Dans le champ Modèle de prix, entrez ou sélectionnez une valeur.
-9. Dans le champ Type de commande, sélectionnez Commande client.
-    * Le type de commande détermine les champs de base de données disponibles pour la requête de sélection.  
-10. Dans le champ Début de validité, entrez une date.
-11. Dans le champ Expiration, entrez une date.
-12. Cliquez sur Enregistrer.
+## <a name="add-a-new-criterion-for-an-existing-sales-price-model"></a><span data-ttu-id="e9ad7-108">Ajouter un nouveau critère pour un modèle de prix de vente existant</span><span class="sxs-lookup"><span data-stu-id="e9ad7-108">Add a new criterion for an existing sales price model</span></span>
+1. <span data-ttu-id="e9ad7-109">Cliquez sur Définition du modèle de variante de produit.</span><span class="sxs-lookup"><span data-stu-id="e9ad7-109">Click Product variant model definition.</span></span>
+2. <span data-ttu-id="e9ad7-110">Cliquez sur Modèles de configuration de produit.</span><span class="sxs-lookup"><span data-stu-id="e9ad7-110">Click Product configuration models.</span></span>
+3. <span data-ttu-id="e9ad7-111">Dans la liste, sélectionnez la ligne du modèle de produit de la solution Haut-parleur, mais ne cliquez pas sur le lien du nom du modèle.</span><span class="sxs-lookup"><span data-stu-id="e9ad7-111">In the list, select the row for the Speaker solution product model, but don’t click the link for the model name.</span></span>
+4. <span data-ttu-id="e9ad7-112">Dans le volet Actions, cliquez sur Modèle.</span><span class="sxs-lookup"><span data-stu-id="e9ad7-112">On the Action Pane, click Model.</span></span>
+5. <span data-ttu-id="e9ad7-113">Cliquez sur Critères de modèle de prix.</span><span class="sxs-lookup"><span data-stu-id="e9ad7-113">Click Price model criteria.</span></span>
+6. <span data-ttu-id="e9ad7-114">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="e9ad7-114">Click New.</span></span>
+7. <span data-ttu-id="e9ad7-115">Dans le champ Nom, tapez « Groupe de clients 10 ».</span><span class="sxs-lookup"><span data-stu-id="e9ad7-115">In the Name field, type ‘Customer group 10’.</span></span>
+    * <span data-ttu-id="e9ad7-116">Le nom du critère de modèle de prix permet d'identifier les critères de sélection sous-jacents.</span><span class="sxs-lookup"><span data-stu-id="e9ad7-116">The name of the price model criterion is used to help identify the underlying selection criteria.</span></span>  
+8. <span data-ttu-id="e9ad7-117">Dans le champ Modèle de prix, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="e9ad7-117">In the Price model field, enter or select a value.</span></span>
+9. <span data-ttu-id="e9ad7-118">Dans le champ Type de commande, sélectionnez Commande client.</span><span class="sxs-lookup"><span data-stu-id="e9ad7-118">In the Order type field, select Sales order.</span></span>
+    * <span data-ttu-id="e9ad7-119">Le type de commande détermine les champs de base de données disponibles pour la requête de sélection.</span><span class="sxs-lookup"><span data-stu-id="e9ad7-119">The order type determines the database fields that will be available for the selection query.</span></span>  
+10. <span data-ttu-id="e9ad7-120">Dans le champ Début de validité, entrez une date.</span><span class="sxs-lookup"><span data-stu-id="e9ad7-120">In the Valid from field, enter a date.</span></span>
+11. <span data-ttu-id="e9ad7-121">Dans le champ Expiration, entrez une date.</span><span class="sxs-lookup"><span data-stu-id="e9ad7-121">In the Expire by field, enter a date.</span></span>
+12. <span data-ttu-id="e9ad7-122">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="e9ad7-122">Click Save.</span></span>
 
-## <a name="create-the-query-for-the-selection-criteria"></a>Créer la requête pour les critères de sélection
-1. Cliquez sur Modifier.
-2. Dans le champ Table, sélectionnez Clients. 
-3. Dans le champ Champ, sélectionnez un groupe de clients.
-    * Dans cet exemple, nous utilisons un groupe de clients spécifique pour les critères de sélection.  
-4. Dans le champ Critères, sélectionnez Groupe de clients 10. 
-5. Cliquez sur OK.
+## <a name="create-the-query-for-the-selection-criteria"></a><span data-ttu-id="e9ad7-123">Créer la requête pour les critères de sélection</span><span class="sxs-lookup"><span data-stu-id="e9ad7-123">Create the query for the selection criteria</span></span>
+1. <span data-ttu-id="e9ad7-124">Cliquez sur Modifier.</span><span class="sxs-lookup"><span data-stu-id="e9ad7-124">Click Edit.</span></span>
+2. <span data-ttu-id="e9ad7-125">Dans le champ Table, sélectionnez Clients.</span><span class="sxs-lookup"><span data-stu-id="e9ad7-125">In the Table field, select Customers.</span></span> 
+3. <span data-ttu-id="e9ad7-126">Dans le champ Champ, sélectionnez un groupe de clients.</span><span class="sxs-lookup"><span data-stu-id="e9ad7-126">In the Field field, select Customer group.</span></span>
+    * <span data-ttu-id="e9ad7-127">Dans cet exemple, nous utilisons un groupe de clients spécifique pour les critères de sélection.</span><span class="sxs-lookup"><span data-stu-id="e9ad7-127">In this example, we will use a specific customer group for the selection criteria.</span></span>  
+4. <span data-ttu-id="e9ad7-128">Dans le champ Critères, sélectionnez Groupe de clients 10.</span><span class="sxs-lookup"><span data-stu-id="e9ad7-128">In the Criteria field, select Customer group 10.</span></span> 
+5. <span data-ttu-id="e9ad7-129">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="e9ad7-129">Click OK.</span></span>
 
 

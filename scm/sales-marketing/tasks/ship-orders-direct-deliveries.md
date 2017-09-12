@@ -22,84 +22,84 @@ ms.contentlocale: fr-fr
 ms.lasthandoff: 07/27/2017
 
 ---
-# <a name="ship-orders-as-direct-deliveries"></a>Expédier des commandes en tant que livraisons directes
+# <a name="ship-orders-as-direct-deliveries"></a><span data-ttu-id="9bc22-103">Expédier des commandes en tant que livraisons directes</span><span class="sxs-lookup"><span data-stu-id="9bc22-103">Ship orders as direct deliveries</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Cette procédure illustre comment créer une livraison directe pour une commande client. Vous utilisez la livraison directe si vous souhaitez expédier des marchandises au client directement à partir de votre fournisseur, plutôt que les expédier à votre propre entrepôt en premier. Vous pouvez exécuter cette procédure dans la société fictive de démonstration USMF ou utiliser vos propres données. Pour exécuter correctement la deuxième sous-tâche « Créer des livraisons directes à partir de la console », assurez-vous que l'article que vous choisissez dans la commande client a un fournisseur par défaut spécifié dans l'onglet rapide Achat du produit générique lancé.
+<span data-ttu-id="9bc22-104">Cette procédure illustre comment créer une livraison directe pour une commande client.</span><span class="sxs-lookup"><span data-stu-id="9bc22-104">This procedure demonstrates how to create a direct delivery for a sales order.</span></span> <span data-ttu-id="9bc22-105">Vous utilisez la livraison directe si vous souhaitez expédier des marchandises au client directement à partir de votre fournisseur, plutôt que les expédier à votre propre entrepôt en premier.</span><span class="sxs-lookup"><span data-stu-id="9bc22-105">You use direct delivery when you want to ship goods to the customer directly from your vendor, instead of shipping them to your own warehouse first.</span></span> <span data-ttu-id="9bc22-106">Vous pouvez exécuter cette procédure dans la société fictive de démonstration USMF ou utiliser vos propres données.</span><span class="sxs-lookup"><span data-stu-id="9bc22-106">You can run this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="9bc22-107">Pour exécuter correctement la deuxième sous-tâche « Créer des livraisons directes à partir de la console », assurez-vous que l'article que vous choisissez dans la commande client a un fournisseur par défaut spécifié dans l'onglet rapide Achat du produit générique lancé.</span><span class="sxs-lookup"><span data-stu-id="9bc22-107">To successfully complete the second sub-task "Create direct deliveries from the workbench", make sure that the item that you choose on the sales order has a default Vendor specified on the Purchase FastTab of the Released product master.</span></span>
 
 
-## <a name="set-an-individual-order-for-direct-delivery"></a>Définir une commande individuelle pour la livraison directe
-1. Allez dans Toutes les commandes client.
-2. Cliquez sur Nouveau.
-3. Entrez ou sélectionnez une valeur dans le champ Compte client.
-    * Si vous utilisez USMF, vous pouvez sélectionner le compte US-001.  
-4. Cliquez sur OK.
-5. Entrez ou sélectionnez une valeur dans le champ Numéro d'article.
-    * Si vous utilisez USMF, vous pouvez sélectionner l'article T0020.  
-6. Cliquez sur Enregistrer.
-7. Cliquez sur Commandes client dans le volet Actions.
-8. Cliquez sur Livraison directe.
-    * La page Créer la livraison répertorie toutes les lignes de commande client en cours telles qu'elles ont été copiées à partir de la commande client. Vous pouvez consulter les détails de la commande et, si nécessaire, vous pouvez modifier des détails tels que la quantité achetée et les conditions tarifaires avant de créer la livraison directe.  
-9. Sélectionnez Oui dans le champ Inclure tout.
-    * Si vous souhaitez générer une livraison directe pour seulement un sous-ensemble des lignes de commande client, sélectionnez ce dernier individuellement.  
-    * Le champ Compte fournisseur peut ou non être déjà rempli avec un numéro de fournisseur. Si le fournisseur par défaut est paramétré pour le produit (dans la Couverture de l'article associée), alors ce fournisseur est copié dans la ligne. Dans le cas contraire, vous devez entrer un fournisseur manuellement. Dans cet exemple, nous allons sélectionner un nouveau fournisseur à l'étape suivante, même s'il y en a déjà un dans le champ.   
-10. Dans le champ Compte fournisseur, saisissez ou sélectionnez une valeur.
-    * Si vous utilisez USMF, vous pouvez sélectionner le compte 1001.  
-11. Cliquez sur OK.
-    * Le message vous indique que la commande fournisseur a été créée.   
-12. Développez la section Détails de ligne.
-13. Cliquez sur l'onglet Livraison.
-    * Le champ Livraison directe est désormais défini sur Oui.  
-    * Le statut de la livraison directe indique la commande fournisseur créée.   
-14. Cliquez sur Général dans le volet Actions.
-15. Cliquez sur Commandes associées.
-16. Cliquez ici pour suivre le lien du champ Commande fournisseur.
-17. Développez la section Détails de ligne.
-18. Cliquez sur l'onglet Adresse.
-    * Notez que l'adresse de livraison pour cette ligne de commande fournisseur est l'adresse de livraison du client et non l'adresse de votre société.  
-    * Si vous modifiez l'adresse de livraison sur la ligne de commande fournisseur ou la ligne d'origine de commande client d'origine, l'adresse dans la ligne de commande correspondante sera automatiquement mise à jour.  
-19. Cliquez sur l'onglet Livraison.
-    * Comme la ligne de commande client, le type de ligne de commande fournisseur associée est également défini sur Livraison directe.  
-    * La date de livraison et la date de livraison confirmée de la ligne de commande fournisseur sont définies à la Date de réception demandée et à la Date de réception confirmée de la ligne de commande client d'origine, respectivement.   
-    * Si vous mettez à jour l'une de ces dates sur la ligne d'achat ou la ligne de vente, les dates sur la commande correspondante seront automatiquement mises à jour.     
-    * La commande fournisseur qui est définie pour livrer des marchandises directement au client est liée à la commande client d'origine au moyen d'une association spéciale. Cette association impose la règle que la mise à jour du bon de livraison de la commande client ne peut pas être effectuée à partir de la commande client elle-même et doit être effectuée en utilisant la commande fournisseur. Toutefois, la facturation du client doit être exécutée à partir de la commande client.  
-20. Cliquez sur Achats dans le volet Actions.
-21. Cliquez sur Confirmation.
-22. Cliquez sur OK.
-23. Dans le volet Actions, cliquez sur Recevoir.
-24. Cliquez sur Accusé de réception de marchandises.
-25. Tapez une valeur dans le champ Accusé de réception de marchandises.
-26. Cliquez sur OK.
-27. Cliquez sur Général dans le volet Actions.
-28. Cliquez sur Commandes associées.
-29. Dans la liste, marquez la ligne sélectionnée.
-    * Une fois que la commande fournisseur a été mise à jour comme reçue, ou en d'autres termes, une fois que le fournisseur a expédié les marchandises à l'adresse de votre client, le statut de la commande client d'origine est automatiquement mis à jour sur Livré.  
-    * La commande client peut alors être facturée.    
-30. Cliquez sur OK.
-31. Fermez la page.
-32. Cliquez sur OK.
+## <a name="set-an-individual-order-for-direct-delivery"></a><span data-ttu-id="9bc22-108">Définir une commande individuelle pour la livraison directe</span><span class="sxs-lookup"><span data-stu-id="9bc22-108">Set an individual order for direct delivery</span></span>
+1. <span data-ttu-id="9bc22-109">Allez dans Toutes les commandes client.</span><span class="sxs-lookup"><span data-stu-id="9bc22-109">Go to All sales orders.</span></span>
+2. <span data-ttu-id="9bc22-110">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="9bc22-110">Click New.</span></span>
+3. <span data-ttu-id="9bc22-111">Entrez ou sélectionnez une valeur dans le champ Compte client.</span><span class="sxs-lookup"><span data-stu-id="9bc22-111">In the Customer account field, enter or select a value.</span></span>
+    * <span data-ttu-id="9bc22-112">Si vous utilisez USMF, vous pouvez sélectionner le compte US-001.</span><span class="sxs-lookup"><span data-stu-id="9bc22-112">If you’re using USMF, you can select account US-001.</span></span>  
+4. <span data-ttu-id="9bc22-113">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="9bc22-113">Click OK.</span></span>
+5. <span data-ttu-id="9bc22-114">Entrez ou sélectionnez une valeur dans le champ Numéro d'article.</span><span class="sxs-lookup"><span data-stu-id="9bc22-114">In the Item number field, enter or select a value.</span></span>
+    * <span data-ttu-id="9bc22-115">Si vous utilisez USMF, vous pouvez sélectionner l'article T0020.</span><span class="sxs-lookup"><span data-stu-id="9bc22-115">If you’re using USMF, you can select item T0020.</span></span>  
+6. <span data-ttu-id="9bc22-116">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="9bc22-116">Click Save.</span></span>
+7. <span data-ttu-id="9bc22-117">Cliquez sur Commandes client dans le volet Actions.</span><span class="sxs-lookup"><span data-stu-id="9bc22-117">On the Action Pane, click Sales order.</span></span>
+8. <span data-ttu-id="9bc22-118">Cliquez sur Livraison directe.</span><span class="sxs-lookup"><span data-stu-id="9bc22-118">Click Direct delivery.</span></span>
+    * <span data-ttu-id="9bc22-119">La page Créer la livraison répertorie toutes les lignes de commande client en cours telles qu'elles ont été copiées à partir de la commande client.</span><span class="sxs-lookup"><span data-stu-id="9bc22-119">The Create delivery page lists all the open sales order lines as copied from the sales order.</span></span> <span data-ttu-id="9bc22-120">Vous pouvez consulter les détails de la commande et, si nécessaire, vous pouvez modifier des détails tels que la quantité achetée et les conditions tarifaires avant de créer la livraison directe.</span><span class="sxs-lookup"><span data-stu-id="9bc22-120">You can review the order details, and if required, you can modify details such purchase quantity and pricing terms before you create the direct delivery.</span></span>  
+9. <span data-ttu-id="9bc22-121">Sélectionnez Oui dans le champ Inclure tout.</span><span class="sxs-lookup"><span data-stu-id="9bc22-121">Select Yes in the Include all field.</span></span>
+    * <span data-ttu-id="9bc22-122">Si vous souhaitez générer une livraison directe pour seulement un sous-ensemble des lignes de commande client, sélectionnez ce dernier individuellement.</span><span class="sxs-lookup"><span data-stu-id="9bc22-122">If you want to generate a direct delivery for only a subset of the sales order lines, select these individually.</span></span>  
+    * <span data-ttu-id="9bc22-123">Le champ Compte fournisseur peut ou non être déjà rempli avec un numéro de fournisseur.</span><span class="sxs-lookup"><span data-stu-id="9bc22-123">The Vendor account field may or may not already be populated with a vendor number.</span></span> <span data-ttu-id="9bc22-124">Si le fournisseur par défaut est paramétré pour le produit (dans la Couverture de l'article associée), alors ce fournisseur est copié dans la ligne.</span><span class="sxs-lookup"><span data-stu-id="9bc22-124">If the default vendor is set up for the product (on the associated Item coverage) then this vendor will be copied to the line.</span></span> <span data-ttu-id="9bc22-125">Dans le cas contraire, vous devez entrer un fournisseur manuellement.</span><span class="sxs-lookup"><span data-stu-id="9bc22-125">Otherwise, you must enter a vendor manually.</span></span> <span data-ttu-id="9bc22-126">Dans cet exemple, nous allons sélectionner un nouveau fournisseur à l'étape suivante, même s'il y en a déjà un dans le champ.</span><span class="sxs-lookup"><span data-stu-id="9bc22-126">In this example, we’ll select a new vendor in the next step, even if one is already populated.</span></span>   
+10. <span data-ttu-id="9bc22-127">Dans le champ Compte fournisseur, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="9bc22-127">In the Vendor account field, enter or select a value.</span></span>
+    * <span data-ttu-id="9bc22-128">Si vous utilisez USMF, vous pouvez sélectionner le compte 1001.</span><span class="sxs-lookup"><span data-stu-id="9bc22-128">If you’re using USMF, you can select account 1001.</span></span>  
+11. <span data-ttu-id="9bc22-129">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="9bc22-129">Click OK.</span></span>
+    * <span data-ttu-id="9bc22-130">Le message vous indique que la commande fournisseur a été créée.</span><span class="sxs-lookup"><span data-stu-id="9bc22-130">The message informs you that the purchase order has now been created.</span></span>   
+12. <span data-ttu-id="9bc22-131">Développez la section Détails de ligne.</span><span class="sxs-lookup"><span data-stu-id="9bc22-131">Expand the Line details section.</span></span>
+13. <span data-ttu-id="9bc22-132">Cliquez sur l'onglet Livraison.</span><span class="sxs-lookup"><span data-stu-id="9bc22-132">Click the Delivery tab.</span></span>
+    * <span data-ttu-id="9bc22-133">Le champ Livraison directe est désormais défini sur Oui.</span><span class="sxs-lookup"><span data-stu-id="9bc22-133">The Direct delivery field is now set to Yes.</span></span>  
+    * <span data-ttu-id="9bc22-134">Le statut de la livraison directe indique la commande fournisseur créée.</span><span class="sxs-lookup"><span data-stu-id="9bc22-134">The Direct delivery status shows the Purchase order created.</span></span>   
+14. <span data-ttu-id="9bc22-135">Cliquez sur Général dans le volet Actions.</span><span class="sxs-lookup"><span data-stu-id="9bc22-135">On the Action Pane, click General.</span></span>
+15. <span data-ttu-id="9bc22-136">Cliquez sur Commandes associées.</span><span class="sxs-lookup"><span data-stu-id="9bc22-136">Click Related orders.</span></span>
+16. <span data-ttu-id="9bc22-137">Cliquez ici pour suivre le lien du champ Commande fournisseur.</span><span class="sxs-lookup"><span data-stu-id="9bc22-137">Click to follow the link in the Purchase order field.</span></span>
+17. <span data-ttu-id="9bc22-138">Développez la section Détails de ligne.</span><span class="sxs-lookup"><span data-stu-id="9bc22-138">Expand the Line details section.</span></span>
+18. <span data-ttu-id="9bc22-139">Cliquez sur l'onglet Adresse.</span><span class="sxs-lookup"><span data-stu-id="9bc22-139">Click the Address tab.</span></span>
+    * <span data-ttu-id="9bc22-140">Notez que l'adresse de livraison pour cette ligne de commande fournisseur est l'adresse de livraison du client et non l'adresse de votre société.</span><span class="sxs-lookup"><span data-stu-id="9bc22-140">Note that the delivery address for this purchase order line is the customer's delivery address and not your company's address.</span></span>  
+    * <span data-ttu-id="9bc22-141">Si vous modifiez l'adresse de livraison sur la ligne de commande fournisseur ou la ligne d'origine de commande client d'origine, l'adresse dans la ligne de commande correspondante sera automatiquement mise à jour.</span><span class="sxs-lookup"><span data-stu-id="9bc22-141">If you change the delivery address on either the purchase order line or the originating sales order line, the address on the corresponding order line will be automatically updated.</span></span>  
+19. <span data-ttu-id="9bc22-142">Cliquez sur l'onglet Livraison.</span><span class="sxs-lookup"><span data-stu-id="9bc22-142">Click the Delivery tab.</span></span>
+    * <span data-ttu-id="9bc22-143">Comme la ligne de commande client, le type de ligne de commande fournisseur associée est également défini sur Livraison directe.</span><span class="sxs-lookup"><span data-stu-id="9bc22-143">Like the sales order line, the associated purchase order line type is also set to Direct delivery.</span></span>  
+    * <span data-ttu-id="9bc22-144">La date de livraison et la date de livraison confirmée de la ligne de commande fournisseur sont définies à la Date de réception demandée et à la Date de réception confirmée de la ligne de commande client d'origine, respectivement.</span><span class="sxs-lookup"><span data-stu-id="9bc22-144">The purchase order line's Delivery  date and the Confirmed delivery date are set to the Requested receipt date and Confirmed receipt date of the originating sales order line respectively.</span></span>   
+    * <span data-ttu-id="9bc22-145">Si vous mettez à jour l'une de ces dates sur la ligne d'achat ou la ligne de vente, les dates sur la commande correspondante seront automatiquement mises à jour.</span><span class="sxs-lookup"><span data-stu-id="9bc22-145">If you update any of these dates on either the purchase line or the sales line, the dates on the corresponding order will be automatically updated.</span></span>     
+    * <span data-ttu-id="9bc22-146">La commande fournisseur qui est définie pour livrer des marchandises directement au client est liée à la commande client d'origine au moyen d'une association spéciale.</span><span class="sxs-lookup"><span data-stu-id="9bc22-146">The purchase order that is set to deliver goods directly the customer is linked to the originating sales order by means of a special association.</span></span> <span data-ttu-id="9bc22-147">Cette association impose la règle que la mise à jour du bon de livraison de la commande client ne peut pas être effectuée à partir de la commande client elle-même et doit être effectuée en utilisant la commande fournisseur.</span><span class="sxs-lookup"><span data-stu-id="9bc22-147">This association imposes the rule that the packing slip update of the sales order can't be done from the sales order itself and must be done by using the purchase order.</span></span> <span data-ttu-id="9bc22-148">Toutefois, la facturation du client doit être exécutée à partir de la commande client.</span><span class="sxs-lookup"><span data-stu-id="9bc22-148">However, customer invoicing must be carried out from the sales order.</span></span>  
+20. <span data-ttu-id="9bc22-149">Cliquez sur Achats dans le volet Actions.</span><span class="sxs-lookup"><span data-stu-id="9bc22-149">On the Action Pane, click Purchase.</span></span>
+21. <span data-ttu-id="9bc22-150">Cliquez sur Confirmation.</span><span class="sxs-lookup"><span data-stu-id="9bc22-150">Click Confirmation.</span></span>
+22. <span data-ttu-id="9bc22-151">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="9bc22-151">Click OK.</span></span>
+23. <span data-ttu-id="9bc22-152">Dans le volet Actions, cliquez sur Recevoir.</span><span class="sxs-lookup"><span data-stu-id="9bc22-152">On the Action Pane, click Receive.</span></span>
+24. <span data-ttu-id="9bc22-153">Cliquez sur Accusé de réception de marchandises.</span><span class="sxs-lookup"><span data-stu-id="9bc22-153">Click Product receipt.</span></span>
+25. <span data-ttu-id="9bc22-154">Tapez une valeur dans le champ Accusé de réception de marchandises.</span><span class="sxs-lookup"><span data-stu-id="9bc22-154">In the Product receipt field, type a value.</span></span>
+26. <span data-ttu-id="9bc22-155">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="9bc22-155">Click OK.</span></span>
+27. <span data-ttu-id="9bc22-156">Cliquez sur Général dans le volet Actions.</span><span class="sxs-lookup"><span data-stu-id="9bc22-156">On the Action Pane, click General.</span></span>
+28. <span data-ttu-id="9bc22-157">Cliquez sur Commandes associées.</span><span class="sxs-lookup"><span data-stu-id="9bc22-157">Click Related orders.</span></span>
+29. <span data-ttu-id="9bc22-158">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="9bc22-158">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="9bc22-159">Une fois que la commande fournisseur a été mise à jour comme reçue, ou en d'autres termes, une fois que le fournisseur a expédié les marchandises à l'adresse de votre client, le statut de la commande client d'origine est automatiquement mis à jour sur Livré.</span><span class="sxs-lookup"><span data-stu-id="9bc22-159">After the purchase order has been updated as received, or in other words, after the vendor has shipped the goods to your customer's address, the status of the originating sales order is automatically updated to Delivered.</span></span>  
+    * <span data-ttu-id="9bc22-160">La commande client peut alors être facturée.</span><span class="sxs-lookup"><span data-stu-id="9bc22-160">The sales order can now be invoiced.</span></span>    
+30. <span data-ttu-id="9bc22-161">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="9bc22-161">Click OK.</span></span>
+31. <span data-ttu-id="9bc22-162">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="9bc22-162">Close the page.</span></span>
+32. <span data-ttu-id="9bc22-163">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="9bc22-163">Click OK.</span></span>
 
-## <a name="create-direct-deliveries-from-the-workbench"></a>Créer des livraisons directes à partir de la console
-1. Fermez la page.
-2. Fermez la page.
-3. Allez dans Toutes les commandes client.
-4. Cliquez sur Nouveau.
-5. Entrez ou sélectionnez une valeur dans le champ Compte client.
-6. Cliquez sur OK.
-7. Entrez ou sélectionnez une valeur dans le champ Numéro d'article.
-8. Développez la section Détails de ligne.
-9. Cliquez sur l'onglet Livraison.
-    * Au lieu de créer une livraison directe dans le cadre du traitement de la commande client, comme dans la procédure précédente, vous pouvez choisir de confier cette tâche à un acheteur. Pour inclure la ligne de commande client dans le processus de traitement de la livraison directe, vous devez marquer la ligne pour la livraison directe.  
-10. Sélectionnez Oui dans le champ Livraison directe.
-    *   Si l'article a déjà été paramétré pour la livraison directe par défaut, le champ est automatiquement défini sur Oui à l'entrée de la ligne de commande. Vous pouvez paramétrer un article pour la livraison directe dans les données principales du produit lancé en définissant l'option de livraison sur Oui et en sélectionnant un entrepôt de livraison directe par défaut.  
-    * Comme la commande fournisseur n'a pas encore été créée, le statut de livraison directe est défini sur À livrer directement.   
-11. Fermez la page.
-12. Fermez la page.
-13. Accédez à Livraison directe.
-    * La page Livraison directe sert de console qui fournit à l'acheteur une vue d'ensemble de toutes les lignes de commande client qui doivent être livrées directement et qui lui permet de créer les commandes fournisseur respectives. En outre, il peut ouvrir les bons de livraison directe et les commandes confirmées dans les onglets Confirmation et Livraison.   
-14. Cliquez sur Créer une livraison directe.
-15. Cliquer sur l'onglet Confirmation.
-    * Après avoir créé un bon de livraison directe, il est automatiquement déplacé vers l'onglet Confirmation. Vous pouvez choisir de confirmer la commande directement dans cette page. Lorsque l'achat est confirmé, il est automatiquement déplacé dans l'onglet Livraison, à partir duquel vous pouvez enregistrer sa réception.  
+## <a name="create-direct-deliveries-from-the-workbench"></a><span data-ttu-id="9bc22-164">Créer des livraisons directes à partir de la console</span><span class="sxs-lookup"><span data-stu-id="9bc22-164">Create direct deliveries from the workbench</span></span>
+1. <span data-ttu-id="9bc22-165">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="9bc22-165">Close the page.</span></span>
+2. <span data-ttu-id="9bc22-166">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="9bc22-166">Close the page.</span></span>
+3. <span data-ttu-id="9bc22-167">Allez dans Toutes les commandes client.</span><span class="sxs-lookup"><span data-stu-id="9bc22-167">Go to All sales orders.</span></span>
+4. <span data-ttu-id="9bc22-168">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="9bc22-168">Click New.</span></span>
+5. <span data-ttu-id="9bc22-169">Entrez ou sélectionnez une valeur dans le champ Compte client.</span><span class="sxs-lookup"><span data-stu-id="9bc22-169">In the Customer account field, enter or select a value.</span></span>
+6. <span data-ttu-id="9bc22-170">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="9bc22-170">Click OK.</span></span>
+7. <span data-ttu-id="9bc22-171">Entrez ou sélectionnez une valeur dans le champ Numéro d'article.</span><span class="sxs-lookup"><span data-stu-id="9bc22-171">In the Item number field, enter or select a value.</span></span>
+8. <span data-ttu-id="9bc22-172">Développez la section Détails de ligne.</span><span class="sxs-lookup"><span data-stu-id="9bc22-172">Expand the Line details section.</span></span>
+9. <span data-ttu-id="9bc22-173">Cliquez sur l'onglet Livraison.</span><span class="sxs-lookup"><span data-stu-id="9bc22-173">Click the Delivery tab.</span></span>
+    * <span data-ttu-id="9bc22-174">Au lieu de créer une livraison directe dans le cadre du traitement de la commande client, comme dans la procédure précédente, vous pouvez choisir de confier cette tâche à un acheteur.</span><span class="sxs-lookup"><span data-stu-id="9bc22-174">Instead of creating a direct delivery as part of the sales order processing as in the previous procedure, you can choose to hand over this task to a purchasing professional.</span></span> <span data-ttu-id="9bc22-175">Pour inclure la ligne de commande client dans le processus de traitement de la livraison directe, vous devez marquer la ligne pour la livraison directe.</span><span class="sxs-lookup"><span data-stu-id="9bc22-175">To include the sales order line in the direct delivery handling process, you must mark the line for direct delivery.</span></span>  
+10. <span data-ttu-id="9bc22-176">Sélectionnez Oui dans le champ Livraison directe.</span><span class="sxs-lookup"><span data-stu-id="9bc22-176">Select Yes in the Direct delivery field.</span></span>
+    *   <span data-ttu-id="9bc22-177">Si l'article a déjà été paramétré pour la livraison directe par défaut, le champ est automatiquement défini sur Oui à l'entrée de la ligne de commande.</span><span class="sxs-lookup"><span data-stu-id="9bc22-177">If the item has already been set up for direct delivery by default, the field will automatically be set to Yes at the order line entry.</span></span> <span data-ttu-id="9bc22-178">Vous pouvez paramétrer un article pour la livraison directe dans les données principales du produit lancé en définissant l'option de livraison sur Oui et en sélectionnant un entrepôt de livraison directe par défaut.</span><span class="sxs-lookup"><span data-stu-id="9bc22-178">You can set up an item for direct delivery on the Released product's master by setting the Direct delivery option to Yes and selecting a default Direct delivery warehouse.</span></span>  
+    * <span data-ttu-id="9bc22-179">Comme la commande fournisseur n'a pas encore été créée, le statut de livraison directe est défini sur À livrer directement.</span><span class="sxs-lookup"><span data-stu-id="9bc22-179">Because the purchase order has not yet been created, the Direct delivery status is set to To be direct delivered.</span></span>   
+11. <span data-ttu-id="9bc22-180">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="9bc22-180">Close the page.</span></span>
+12. <span data-ttu-id="9bc22-181">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="9bc22-181">Close the page.</span></span>
+13. <span data-ttu-id="9bc22-182">Accédez à Livraison directe.</span><span class="sxs-lookup"><span data-stu-id="9bc22-182">Go to Direct delivery.</span></span>
+    * <span data-ttu-id="9bc22-183">La page Livraison directe sert de console qui fournit à l'acheteur une vue d'ensemble de toutes les lignes de commande client qui doivent être livrées directement et qui lui permet de créer les commandes fournisseur respectives.</span><span class="sxs-lookup"><span data-stu-id="9bc22-183">The Direct delivery page acts as a workbench that provides the purchasing agent with an overview of all the sales order lines that are to be direct delivered and it allows them to create the respective purchase orders.</span></span> <span data-ttu-id="9bc22-184">En outre, il peut ouvrir les bons de livraison directe et les commandes confirmées dans les onglets Confirmation et Livraison.</span><span class="sxs-lookup"><span data-stu-id="9bc22-184">In addition, they can view the open direct delivery orders and the confirmed orders on the Confirmation and Delivery tabs.</span></span>   
+14. <span data-ttu-id="9bc22-185">Cliquez sur Créer une livraison directe.</span><span class="sxs-lookup"><span data-stu-id="9bc22-185">Click Create direct delivery.</span></span>
+15. <span data-ttu-id="9bc22-186">Cliquer sur l'onglet Confirmation.</span><span class="sxs-lookup"><span data-stu-id="9bc22-186">Click the Confirmation tab.</span></span>
+    * <span data-ttu-id="9bc22-187">Après avoir créé un bon de livraison directe, il est automatiquement déplacé vers l'onglet Confirmation.</span><span class="sxs-lookup"><span data-stu-id="9bc22-187">After you have created a direct delivery order, it automatically moved to the Confirmation tab.</span></span> <span data-ttu-id="9bc22-188">Vous pouvez choisir de confirmer la commande directement dans cette page.</span><span class="sxs-lookup"><span data-stu-id="9bc22-188">You can choose to confirm the order directly from this page.</span></span> <span data-ttu-id="9bc22-189">Lorsque l'achat est confirmé, il est automatiquement déplacé dans l'onglet Livraison, à partir duquel vous pouvez enregistrer sa réception.</span><span class="sxs-lookup"><span data-stu-id="9bc22-189">When the purchase is confirmed, it will automatically move to the Delivery tab, from which you can registered its receipt.</span></span>  
 
 

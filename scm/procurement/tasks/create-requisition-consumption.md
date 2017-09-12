@@ -16,93 +16,93 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 8eb4cd47104e2df1c973e5e508c1da02617b9a1d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 07fe007005fcbbac1beecadb14dbd752376a0bd4
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-requisition-for-consumption"></a>Créer un bon de commande pour la consommation
+# <a name="create-a-requisition-for-consumption"></a><span data-ttu-id="c441c-103">Créer un bon de commande pour la consommation</span><span class="sxs-lookup"><span data-stu-id="c441c-103">Create a requisition for consumption</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Cette procédure décrit le processus de création d'une demande. Elle vous indique les différentes manières de rechercher des produits dans votre catalogue d'approvisionnement et comment ajouter un produit qui n'est pas dans votre catalogue. Avant de démarrer cette procédure, vous devez avoir un paramétrage de stratégie d'achat avec Consommation comme type de demande par défaut. Vous pouvez parcourir cette procédure dans la société fictive USMF ou utiliser vos propres données. La procédure peut uniquement être réalisée par un profil utilisateur qui est paramétré en tant que collaborateur.  Cette tâche serait normalement réalisée par un employé. Le rôle de sécurité Employé vous permettra d'effectuer les tâches, ou si vous utilisez USMF, vous pouvez vous connecter en tant qu'Alicia.
+<span data-ttu-id="c441c-104">Cette procédure décrit le processus de création d'une demande.</span><span class="sxs-lookup"><span data-stu-id="c441c-104">This procedure walks you through the process of creating a requisition.</span></span> <span data-ttu-id="c441c-105">Elle vous indique les différentes manières de rechercher des produits dans votre catalogue d'approvisionnement et comment ajouter un produit qui n'est pas dans votre catalogue.</span><span class="sxs-lookup"><span data-stu-id="c441c-105">It shows you different ways to search for products in your procurement catalogue and how to add a product that isn’t in your catalogue.</span></span> <span data-ttu-id="c441c-106">Avant de démarrer cette procédure, vous devez avoir un paramétrage de stratégie d'achat avec Consommation comme type de demande par défaut.</span><span class="sxs-lookup"><span data-stu-id="c441c-106">Before you start this procedure, you must have a purchasing policy set up with Consumption as the default type of requisition.</span></span> <span data-ttu-id="c441c-107">Vous pouvez parcourir cette procédure dans la société fictive USMF ou utiliser vos propres données.</span><span class="sxs-lookup"><span data-stu-id="c441c-107">You can walk through this procedure in demo data company USMF, or using your own data.</span></span> <span data-ttu-id="c441c-108">La procédure peut uniquement être réalisée par un profil utilisateur qui est paramétré en tant que collaborateur.</span><span class="sxs-lookup"><span data-stu-id="c441c-108">The procedure can only be carried out by a user profile that is set up as worker.</span></span>  <span data-ttu-id="c441c-109">Cette tâche serait normalement réalisée par un employé.</span><span class="sxs-lookup"><span data-stu-id="c441c-109">This task would normally be carried out by an employee.</span></span> <span data-ttu-id="c441c-110">Le rôle de sécurité Employé vous permettra d'effectuer les tâches, ou si vous utilisez USMF, vous pouvez vous connecter en tant qu'Alicia.</span><span class="sxs-lookup"><span data-stu-id="c441c-110">The Employee employ security role will allow you to carry out the tasks, or if you’re using USMF, you can log in as Alicia.</span></span>
 
 
-## <a name="create-a-new-requisition"></a>Créer une nouvelle demande
-1. Accédez à Approvisionnement > Demandes d'achat > Demandes d'achat préparées par moi.
-2. Cliquez sur Nouveau.
-3. Dans le champ Nom, entrez un nom pour la demande.
-4. Dans le champ Date demandée, entrez une date.
-    * Par défaut, la date demandée et la date comptable sont copiées dans les lignes de demandes d'achats. Elles peuvent être modifiées au niveau de la ligne. La date demandée correspond à la date de livraison demandée.  
-5. Dans le champ Comptabilité, entrez une date.
-    * La date comptable permet d'enregistrer l'écriture comptable dans la comptabilité et de contrôler la disponibilité des fonds budgétaires.  
-6. Cliquez sur OK.
-7. Dans le champ Raison, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-    * Par défaut, le motif de justification de la demande sélectionné apparaît pour les lignes de demande d'achat, mais vous pouvez le modifier au niveau de la ligne.    
-8. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-9. Sélectionner la raison
-10. Dans le champ Détails, entrez une justification plus descriptive de la demande
+## <a name="create-a-new-requisition"></a><span data-ttu-id="c441c-111">Créer une nouvelle demande</span><span class="sxs-lookup"><span data-stu-id="c441c-111">Create a new requisition</span></span>
+1. <span data-ttu-id="c441c-112">Accédez à Approvisionnement > Demandes d'achat > Demandes d'achat préparées par moi.</span><span class="sxs-lookup"><span data-stu-id="c441c-112">Go to Procurement and sourcing > Purchase requisitions > Purchase requisitions prepared by me.</span></span>
+2. <span data-ttu-id="c441c-113">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="c441c-113">Click New.</span></span>
+3. <span data-ttu-id="c441c-114">Dans le champ Nom, entrez un nom pour la demande.</span><span class="sxs-lookup"><span data-stu-id="c441c-114">In the Name field, give the requisition a name.</span></span>
+4. <span data-ttu-id="c441c-115">Dans le champ Date demandée, entrez une date.</span><span class="sxs-lookup"><span data-stu-id="c441c-115">In the Requested date field, enter a date.</span></span>
+    * <span data-ttu-id="c441c-116">Par défaut, la date demandée et la date comptable sont copiées dans les lignes de demandes d'achats.</span><span class="sxs-lookup"><span data-stu-id="c441c-116">By default, the requested date and accounting date are copied to the purchase requisition lines.</span></span> <span data-ttu-id="c441c-117">Elles peuvent être modifiées au niveau de la ligne.</span><span class="sxs-lookup"><span data-stu-id="c441c-117">They can be changed at the line level.</span></span> <span data-ttu-id="c441c-118">La date demandée correspond à la date de livraison demandée.</span><span class="sxs-lookup"><span data-stu-id="c441c-118">The requested date is the requested delivery date.</span></span>  
+5. <span data-ttu-id="c441c-119">Dans le champ Comptabilité, entrez une date.</span><span class="sxs-lookup"><span data-stu-id="c441c-119">In the Accounting date field, enter a date.</span></span>
+    * <span data-ttu-id="c441c-120">La date comptable permet d'enregistrer l'écriture comptable dans la comptabilité et de contrôler la disponibilité des fonds budgétaires.</span><span class="sxs-lookup"><span data-stu-id="c441c-120">The accounting date is used to record the accounting entry in the general ledger, and to validate whether budget funds are available.</span></span>  
+6. <span data-ttu-id="c441c-121">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="c441c-121">Click OK.</span></span>
+7. <span data-ttu-id="c441c-122">Dans le champ Raison, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="c441c-122">In the Reason field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="c441c-123">Par défaut, le motif de justification de la demande sélectionné apparaît pour les lignes de demande d'achat, mais vous pouvez le modifier au niveau de la ligne.</span><span class="sxs-lookup"><span data-stu-id="c441c-123">By default, the business justification reason that you select appears for the purchase requisition lines, but you can change it at the line level.</span></span>    
+8. <span data-ttu-id="c441c-124">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="c441c-124">In the list, find and select the desired record.</span></span>
+9. <span data-ttu-id="c441c-125">Sélectionner la raison</span><span class="sxs-lookup"><span data-stu-id="c441c-125">Select the reason</span></span>
+10. <span data-ttu-id="c441c-126">Dans le champ Détails, entrez une justification plus descriptive de la demande</span><span class="sxs-lookup"><span data-stu-id="c441c-126">In the details field enter a more descriptive justification for the requisition</span></span>
 
-## <a name="add-a-line-to-the-requisition"></a>Ajouter une ligne à la demande
-1. Cliquez sur Ajouter une ligne.
-    * Il existe deux manières d'ajouter des lignes à la demande d'achat. Si vous connaissez déjà le numéro de produit ou si vous savez déjà que vous demandez un produit qui n'est pas dans le catalogue de produits, vous pouvez ajouter la ligne directement à l'aide de « Ajouter la ligne ». L'autre manière consiste à utiliser « Ajouter des produits » pour pouvoir utiliser la recherche et le filtrage pour trouver des articles du catalogue de produits.    
-2. Cliquez sur la ligne que vous venez de créer.
-    * Le demandeur est le collaborateur qui a effectué la demande.   
-    * Par défaut, la personne préparant la demande est le collaborateur qui l'a demandée. Vous devez disposer de l'autorisation de préparer une ligne de demande au nom d'un autre employé. Si vous disposez de telles autorisations, alors les autres employés apparaîtront dans cette recherche.  
-3. Tapez une valeur dans le champ Numéro d'article.
-    * Les articles disponibles sont limités par la stratégie d'accès à la catégorie et le catalogue d'approvisionnement pour l'entité juridique d'achat.   
-4. Dans le champ Quantité, entrer un numéro.
+## <a name="add-a-line-to-the-requisition"></a><span data-ttu-id="c441c-127">Ajouter une ligne à la demande</span><span class="sxs-lookup"><span data-stu-id="c441c-127">Add a line to the requisition</span></span>
+1. <span data-ttu-id="c441c-128">Cliquez sur Ajouter une ligne.</span><span class="sxs-lookup"><span data-stu-id="c441c-128">Click Add line.</span></span>
+    * <span data-ttu-id="c441c-129">Il existe deux manières d'ajouter des lignes à la demande d'achat.</span><span class="sxs-lookup"><span data-stu-id="c441c-129">There are two ways of adding lines to the purchase requisition.</span></span> <span data-ttu-id="c441c-130">Si vous connaissez déjà le numéro de produit ou si vous savez déjà que vous demandez un produit qui n'est pas dans le catalogue de produits, vous pouvez ajouter la ligne directement à l'aide de « Ajouter la ligne ».</span><span class="sxs-lookup"><span data-stu-id="c441c-130">If you already know the product number or you already  know that you are requesting a product that is not in the product catalogueue, then you can add the line directly with "Add line".</span></span> <span data-ttu-id="c441c-131">L'autre manière consiste à utiliser « Ajouter des produits » pour pouvoir utiliser la recherche et le filtrage pour trouver des articles du catalogue de produits.</span><span class="sxs-lookup"><span data-stu-id="c441c-131">The other way is to use "Add products" where you can use searching and filtering to find items in the product catalogueue.</span></span>    
+2. <span data-ttu-id="c441c-132">Cliquez sur la ligne que vous venez de créer.</span><span class="sxs-lookup"><span data-stu-id="c441c-132">Click on the row you just created.</span></span>
+    * <span data-ttu-id="c441c-133">Le demandeur est le collaborateur qui a effectué la demande.</span><span class="sxs-lookup"><span data-stu-id="c441c-133">The requester is the worker that has requested the requisition.</span></span>   
+    * <span data-ttu-id="c441c-134">Par défaut, la personne préparant la demande est le collaborateur qui l'a demandée.</span><span class="sxs-lookup"><span data-stu-id="c441c-134">By default the person preparing the requisition is the worker who has requested it.</span></span> <span data-ttu-id="c441c-135">Vous devez disposer de l'autorisation de préparer une ligne de demande au nom d'un autre employé.</span><span class="sxs-lookup"><span data-stu-id="c441c-135">You have to be given permission to prepare a requisition line on behalf of another worker.</span></span> <span data-ttu-id="c441c-136">Si vous disposez de telles autorisations, alors les autres employés apparaîtront dans cette recherche.</span><span class="sxs-lookup"><span data-stu-id="c441c-136">If you have such permissions then the other workers will show up in this lookup.</span></span>  
+3. <span data-ttu-id="c441c-137">Tapez une valeur dans le champ Numéro d'article.</span><span class="sxs-lookup"><span data-stu-id="c441c-137">In the Item number field, type a value.</span></span>
+    * <span data-ttu-id="c441c-138">Les articles disponibles sont limités par la stratégie d'accès à la catégorie et le catalogue d'approvisionnement pour l'entité juridique d'achat.</span><span class="sxs-lookup"><span data-stu-id="c441c-138">The items that are available for you to choose are limited by the category access policy and the procurement catalogue for the buying legal entity.</span></span>   
+4. <span data-ttu-id="c441c-139">Dans le champ Quantité, entrer un numéro.</span><span class="sxs-lookup"><span data-stu-id="c441c-139">In the Quantity field, enter a number.</span></span>
 
-## <a name="add-more-products-to-the-requisition"></a>Ajouter des produits à la demande
-1. Cliquez sur Ajouter des produits.
-    * Il s'agit de l'option qui permet de rechercher des produits dans le catalogue de produits.    
-2. Dans le champ de nœud Trouver la catégorie d'approvisionnement, entrez la première partie du nom de la catégorie que vous recherchez, puis cliquez sur Entrée.
-    * Par exemple, tapez « ordi ».  
-3. Utilisez le raccourci InvokeDefaultButton.
-4. Utilisez le filtre pour filtrer la liste des produits dans la catégorie sélectionnée.
-5. Sélectionnez la carte du produit à ajouter à la demande d'achat.
-6. Cliquez sur Ajouter aux lignes.
-7. Entrez un numéro dans le champ Quantité.
-8. Dans le champ de nœud Trouver la catégorie d'approvisionnement, entrez la première partie du nom de la catégorie que vous recherchez, puis cliquez sur Entrée.
-    * Par exemple, tapez « haut » (codes-barres de mise en valeur).  
-9. Utilisez le raccourci InvokeDefaultButton.
-10. Cliquez sur Ajouter les produits non listés aux lignes pour ajouter un produit qui n'est pas répertorié dans le catalogue d'approvisionnement.
-11. Dans le champ Nom du produit, saisissez une valeur.
-12. Dans le champ Unité, tapez une valeur.
-13. Cliquez sur OK.
-14. Dans le champ Description de l'article, ajoutez une description du produit.
-15. Dans le champ Quantité, entrer un numéro.
-16. Entrez un nombre dans le champ Prix unitaire.
-    * Si vous connaissez le prix pour un fournisseur spécifique (que vous sélectionnez dans le champ Compte fournisseur), alors ce prix peut être saisi   
-17. Dans le champ Compte fournisseur, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-    * Les fournisseurs disponibles dans ce champ dépendent des stratégies d'achat et du statut du fournisseur pour la catégorie d'approvisionnement actuelle. Au lieu de sélectionner un fournisseur ici, vous pouvez cliquer sur le bouton Suggérer un fournisseur.    
-18. Dans la liste, sélectionnez le fournisseur que vous souhaitez utiliser.
-19. Dans le champ Numéro d'article externe, tapez une valeur.
-    * Il s'agit d'un numéro de référence pour le produit qui est connu du fournisseur. Par exemple, il peut s'agir du numéro d'article du produit dans le propre catalogue fournisseur.  
-20. Cliquez sur OK.
+## <a name="add-more-products-to-the-requisition"></a><span data-ttu-id="c441c-140">Ajouter des produits à la demande</span><span class="sxs-lookup"><span data-stu-id="c441c-140">Add more products to the requisition</span></span>
+1. <span data-ttu-id="c441c-141">Cliquez sur Ajouter des produits.</span><span class="sxs-lookup"><span data-stu-id="c441c-141">Click Add products.</span></span>
+    * <span data-ttu-id="c441c-142">Il s'agit de l'option qui permet de rechercher des produits dans le catalogue de produits.</span><span class="sxs-lookup"><span data-stu-id="c441c-142">This is the option where you can search for products in the product catalogueue.</span></span>    
+2. <span data-ttu-id="c441c-143">Dans le champ de nœud Trouver la catégorie d'approvisionnement, entrez la première partie du nom de la catégorie que vous recherchez, puis cliquez sur Entrée.</span><span class="sxs-lookup"><span data-stu-id="c441c-143">In the Find procurement category node field, type the first part of the name of the category that you are looking for, and then click Enter.</span></span>
+    * <span data-ttu-id="c441c-144">Par exemple, tapez « ordi ».</span><span class="sxs-lookup"><span data-stu-id="c441c-144">For example, type comput.</span></span>  
+3. <span data-ttu-id="c441c-145">Utilisez le raccourci InvokeDefaultButton.</span><span class="sxs-lookup"><span data-stu-id="c441c-145">Use the InvokeDefaultButton shortcut.</span></span>
+4. <span data-ttu-id="c441c-146">Utilisez le filtre pour filtrer la liste des produits dans la catégorie sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="c441c-146">Use the Filter to filter the list of products in the selected category.</span></span>
+5. <span data-ttu-id="c441c-147">Sélectionnez la carte du produit à ajouter à la demande d'achat.</span><span class="sxs-lookup"><span data-stu-id="c441c-147">Select the product card that you want to add to the requisition.</span></span>
+6. <span data-ttu-id="c441c-148">Cliquez sur Ajouter aux lignes.</span><span class="sxs-lookup"><span data-stu-id="c441c-148">Click Add to lines.</span></span>
+7. <span data-ttu-id="c441c-149">Entrez un numéro dans le champ Quantité.</span><span class="sxs-lookup"><span data-stu-id="c441c-149">In the Quantity field, enter a number.</span></span>
+8. <span data-ttu-id="c441c-150">Dans le champ de nœud Trouver la catégorie d'approvisionnement, entrez la première partie du nom de la catégorie que vous recherchez, puis cliquez sur Entrée.</span><span class="sxs-lookup"><span data-stu-id="c441c-150">In the Find procurement category node field, type the first part of the name of the category that you are looking for, and then click Enter.</span></span>
+    * <span data-ttu-id="c441c-151">Par exemple, tapez « haut » (codes-barres de mise en valeur).</span><span class="sxs-lookup"><span data-stu-id="c441c-151">For example, type High (highlighters).</span></span>  
+9. <span data-ttu-id="c441c-152">Utilisez le raccourci InvokeDefaultButton.</span><span class="sxs-lookup"><span data-stu-id="c441c-152">Use the InvokeDefaultButton shortcut.</span></span>
+10. <span data-ttu-id="c441c-153">Cliquez sur Ajouter les produits non listés aux lignes pour ajouter un produit qui n'est pas répertorié dans le catalogue d'approvisionnement.</span><span class="sxs-lookup"><span data-stu-id="c441c-153">Click Add unlisted product to lines to add a product that’s not listed in the procurement catalogue.</span></span>
+11. <span data-ttu-id="c441c-154">Dans le champ Nom du produit, saisissez une valeur.</span><span class="sxs-lookup"><span data-stu-id="c441c-154">In the Product name field, type a value.</span></span>
+12. <span data-ttu-id="c441c-155">Dans le champ Unité, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="c441c-155">In the Unit field, type a value.</span></span>
+13. <span data-ttu-id="c441c-156">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="c441c-156">Click OK.</span></span>
+14. <span data-ttu-id="c441c-157">Dans le champ Description de l'article, ajoutez une description du produit.</span><span class="sxs-lookup"><span data-stu-id="c441c-157">In the Item description field, add a description of the product.</span></span>
+15. <span data-ttu-id="c441c-158">Dans le champ Quantité, entrer un numéro.</span><span class="sxs-lookup"><span data-stu-id="c441c-158">In the Quantity field, enter a number.</span></span>
+16. <span data-ttu-id="c441c-159">Entrez un nombre dans le champ Prix unitaire.</span><span class="sxs-lookup"><span data-stu-id="c441c-159">In the Unit price field, enter a number.</span></span>
+    * <span data-ttu-id="c441c-160">Si vous connaissez le prix pour un fournisseur spécifique (que vous sélectionnez dans le champ Compte fournisseur), alors ce prix peut être saisi</span><span class="sxs-lookup"><span data-stu-id="c441c-160">If you know the price for a particular vendor (that you select in the vendor account field) then that price can be entered</span></span>   
+17. <span data-ttu-id="c441c-161">Dans le champ Compte fournisseur, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="c441c-161">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="c441c-162">Les fournisseurs disponibles dans ce champ dépendent des stratégies d'achat et du statut du fournisseur pour la catégorie d'approvisionnement actuelle.</span><span class="sxs-lookup"><span data-stu-id="c441c-162">The vendors that are available in this field depend on the purchasing policies and the status that the vendor has for the current procurement category.</span></span> <span data-ttu-id="c441c-163">Au lieu de sélectionner un fournisseur ici, vous pouvez cliquer sur le bouton Suggérer un fournisseur.</span><span class="sxs-lookup"><span data-stu-id="c441c-163">As an alternative to selecting a vendor here, you can click the Suggest vendor button.</span></span>    
+18. <span data-ttu-id="c441c-164">Dans la liste, sélectionnez le fournisseur que vous souhaitez utiliser.</span><span class="sxs-lookup"><span data-stu-id="c441c-164">In the list, select the vendor you want to use.</span></span>
+19. <span data-ttu-id="c441c-165">Dans le champ Numéro d'article externe, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="c441c-165">In the External item number field, type a value.</span></span>
+    * <span data-ttu-id="c441c-166">Il s'agit d'un numéro de référence pour le produit qui est connu du fournisseur.</span><span class="sxs-lookup"><span data-stu-id="c441c-166">This is a reference number for the product that is known by the vendor.</span></span> <span data-ttu-id="c441c-167">Par exemple, il peut s'agir du numéro d'article du produit dans le propre catalogue fournisseur.</span><span class="sxs-lookup"><span data-stu-id="c441c-167">For example, this could be the item number of the product in the vendor's own catalogue.</span></span>  
+20. <span data-ttu-id="c441c-168">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="c441c-168">Click OK.</span></span>
 
-## <a name="distribute-amounts"></a>Répartir les montants
-1. Cliquez sur Finances.
-2. Cliquez sur Distribuer les montants.
-    * Ce processus vous indique comment répartir le coût pour la première ligne entre 2 comptes. Cela peut également être effectué ultérieurement lorsque la demande est en cours de révision.  
-3. Cliquez sur Fractionner pour créer une ligne de répartition.
-4. Dans le champ Compte général, sélectionnez le premier centre de coût qui doit participer au coût.
-5. Sélectionnez l'autre ligne de répartition.
-6. Dans le champ Compte général, spécifiez l'autre centre de coût.
-7. Cliquez sur Répartir en valeurs égales.
-8. Fermez la page.
+## <a name="distribute-amounts"></a><span data-ttu-id="c441c-169">Répartir les montants</span><span class="sxs-lookup"><span data-stu-id="c441c-169">Distribute amounts</span></span>
+1. <span data-ttu-id="c441c-170">Cliquez sur Finances.</span><span class="sxs-lookup"><span data-stu-id="c441c-170">Click Financials.</span></span>
+2. <span data-ttu-id="c441c-171">Cliquez sur Distribuer les montants.</span><span class="sxs-lookup"><span data-stu-id="c441c-171">Click Distribute amounts.</span></span>
+    * <span data-ttu-id="c441c-172">Ce processus vous indique comment répartir le coût pour la première ligne entre 2 comptes.</span><span class="sxs-lookup"><span data-stu-id="c441c-172">This process shows you how to distribute the cost for the first line between 2 accounts.</span></span> <span data-ttu-id="c441c-173">Cela peut également être effectué ultérieurement lorsque la demande est en cours de révision.</span><span class="sxs-lookup"><span data-stu-id="c441c-173">This can also be done later when the requisition is in review.</span></span>  
+3. <span data-ttu-id="c441c-174">Cliquez sur Fractionner pour créer une ligne de répartition.</span><span class="sxs-lookup"><span data-stu-id="c441c-174">Click Split to create a new distribution line.</span></span>
+4. <span data-ttu-id="c441c-175">Dans le champ Compte général, sélectionnez le premier centre de coût qui doit participer au coût.</span><span class="sxs-lookup"><span data-stu-id="c441c-175">In the Ledger account field select the first cost centre that should take part of the cost.</span></span>
+5. <span data-ttu-id="c441c-176">Sélectionnez l'autre ligne de répartition.</span><span class="sxs-lookup"><span data-stu-id="c441c-176">Select the other distribution line.</span></span>
+6. <span data-ttu-id="c441c-177">Dans le champ Compte général, spécifiez l'autre centre de coût.</span><span class="sxs-lookup"><span data-stu-id="c441c-177">In the Ledger account field specify the other cost centre.</span></span>
+7. <span data-ttu-id="c441c-178">Cliquez sur Répartir en valeurs égales.</span><span class="sxs-lookup"><span data-stu-id="c441c-178">Click Distribute equally.</span></span>
+8. <span data-ttu-id="c441c-179">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="c441c-179">Close the page.</span></span>
 
-## <a name="view-line-details"></a>Afficher les détails de ligne
-1. Activez ou désactivez l'extension de la section Détails de ligne.
+## <a name="view-line-details"></a><span data-ttu-id="c441c-180">Afficher les détails de ligne</span><span class="sxs-lookup"><span data-stu-id="c441c-180">View line details</span></span>
+1. <span data-ttu-id="c441c-181">Activez ou désactivez l'extension de la section Détails de ligne.</span><span class="sxs-lookup"><span data-stu-id="c441c-181">Toggle the expansion of the Line details section.</span></span>
 
-## <a name="submit-the-requisition"></a>Envoyer la demande
-1. Cliquer sur Workflow pour ouvrir la boîte de dialogue.
-2. Cliquez sur Soumettre.
-3. Fermez la page.
-4. Dans le champ Commentaire, tapez une note pour l'approbateur de la demande.
-5. Cliquez sur Soumettre.
-6. Fermez la page.
-7. Actualisez la page.
+## <a name="submit-the-requisition"></a><span data-ttu-id="c441c-182">Envoyer la demande</span><span class="sxs-lookup"><span data-stu-id="c441c-182">Submit the requisition</span></span>
+1. <span data-ttu-id="c441c-183">Cliquer sur Workflow pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="c441c-183">Click Workflow to open the drop dialog.</span></span>
+2. <span data-ttu-id="c441c-184">Cliquez sur Soumettre.</span><span class="sxs-lookup"><span data-stu-id="c441c-184">Click Submit.</span></span>
+3. <span data-ttu-id="c441c-185">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="c441c-185">Close the page.</span></span>
+4. <span data-ttu-id="c441c-186">Dans le champ Commentaire, tapez une note pour l'approbateur de la demande.</span><span class="sxs-lookup"><span data-stu-id="c441c-186">In the Comment field, type a note for the approver of the requisition.</span></span>
+5. <span data-ttu-id="c441c-187">Cliquez sur Soumettre.</span><span class="sxs-lookup"><span data-stu-id="c441c-187">Click Submit.</span></span>
+6. <span data-ttu-id="c441c-188">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="c441c-188">Close the page.</span></span>
+7. <span data-ttu-id="c441c-189">Actualisez la page.</span><span class="sxs-lookup"><span data-stu-id="c441c-189">Refresh the page.</span></span>
 
 

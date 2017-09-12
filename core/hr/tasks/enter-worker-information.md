@@ -16,32 +16,32 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 9096c061f9d7e84aacc2c47a242a89d1c650076c
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: f9b7a3ea23298e5121e161b93faa8f145fdd1860
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="enter-worker-information"></a>Saisir les informations du collaborateur
+# <a name="enter-worker-information"></a><span data-ttu-id="50590-103">Saisir les informations du collaborateur</span><span class="sxs-lookup"><span data-stu-id="50590-103">Enter worker information</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Une fois que le recruteur a créé un projet d'embauche collective et généré les postes, l'étape suivante consiste à entrer les informations sur les collaborateurs pour les personnes embauchées. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Les données de démonstration contiennent un projet d'embauche collective en cours. Pour démarrer cette procédure, allez dans Ressources humaines > Recrutement > Projets d'embauche collective.
+<span data-ttu-id="50590-104">Une fois que le recruteur a créé un projet d'embauche collective et généré les postes, l'étape suivante consiste à entrer les informations sur les collaborateurs pour les personnes embauchées.</span><span class="sxs-lookup"><span data-stu-id="50590-104">After a recruiter has created a mass hire project and generated the positions, the next step is to enter the worker information for the people being hired.</span></span> <span data-ttu-id="50590-105">Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.</span><span class="sxs-lookup"><span data-stu-id="50590-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="50590-106">Les données de démonstration contiennent un projet d'embauche collective en cours.</span><span class="sxs-lookup"><span data-stu-id="50590-106">The demo data contains an open mass hire project.</span></span> <span data-ttu-id="50590-107">Pour démarrer cette procédure, allez dans Ressources humaines > Recrutement > Projets d'embauche collective.</span><span class="sxs-lookup"><span data-stu-id="50590-107">To begin this procedure, go to Human resources > Recruitment > Mass hire projects.</span></span>
 
-1. Dans la liste, marquez la ligne sélectionnée.
-2. Cliquez sur Détails du poste.
-    * Modifiez la date de début pour le collaborateur.  
-    * Modifiez la date de fin pour le collaborateur.  
-    * Modifiez le type du collaborateur, si nécessaire.  
-3. Tapez une valeur dans le champ Prénom.
-4. Tapez une valeur dans le champ Deuxième prénom.
-5. Tapez une valeur dans le champ Nom.
-    * Modifiez le type de tâche pour le collaborateur, si nécessaire.  
-    * Modifiez le département pour le collaborateur, si nécessaire.  
-    * Modifiez le statut équivalent temps plein pour le collaborateur, si nécessaire.  
-6. Cliquez sur OK.
-7. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-8. Dans la liste, désactiver la ligne sélectionnée.
-    * Sélectionnez le poste de projet suivant et continuez à entrer les informations pour chaque personne que vous engagez.  
+1. <span data-ttu-id="50590-108">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="50590-108">In the list, mark the selected row.</span></span>
+2. <span data-ttu-id="50590-109">Cliquez sur Détails du poste.</span><span class="sxs-lookup"><span data-stu-id="50590-109">Click Position details.</span></span>
+    * <span data-ttu-id="50590-110">Modifiez la date de début pour le collaborateur.</span><span class="sxs-lookup"><span data-stu-id="50590-110">Edit the start date for the worker.</span></span>  
+    * <span data-ttu-id="50590-111">Modifiez la date de fin pour le collaborateur.</span><span class="sxs-lookup"><span data-stu-id="50590-111">Edit the end date for the worker.</span></span>  
+    * <span data-ttu-id="50590-112">Modifiez le type du collaborateur, si nécessaire.</span><span class="sxs-lookup"><span data-stu-id="50590-112">Change the worker type for the worker, if needed.</span></span>  
+3. <span data-ttu-id="50590-113">Tapez une valeur dans le champ Prénom.</span><span class="sxs-lookup"><span data-stu-id="50590-113">In the First name field, type a value.</span></span>
+4. <span data-ttu-id="50590-114">Tapez une valeur dans le champ Deuxième prénom.</span><span class="sxs-lookup"><span data-stu-id="50590-114">In the Middle name field, type a value.</span></span>
+5. <span data-ttu-id="50590-115">Tapez une valeur dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="50590-115">In the Last name field, type a value.</span></span>
+    * <span data-ttu-id="50590-116">Modifiez le type de tâche pour le collaborateur, si nécessaire.</span><span class="sxs-lookup"><span data-stu-id="50590-116">Change the job for the worker, if needed.</span></span>  
+    * <span data-ttu-id="50590-117">Modifiez le département pour le collaborateur, si nécessaire.</span><span class="sxs-lookup"><span data-stu-id="50590-117">Change the department for the worker, if needed.</span></span>  
+    * <span data-ttu-id="50590-118">Modifiez le statut équivalent temps plein pour le collaborateur, si nécessaire.</span><span class="sxs-lookup"><span data-stu-id="50590-118">Change the full-time equivalent status for the worker, if needed.</span></span>  
+6. <span data-ttu-id="50590-119">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="50590-119">Click OK.</span></span>
+7. <span data-ttu-id="50590-120">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="50590-120">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="50590-121">Dans la liste, désactiver la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="50590-121">In the list, unmark the selected row.</span></span>
+    * <span data-ttu-id="50590-122">Sélectionnez le poste de projet suivant et continuez à entrer les informations pour chaque personne que vous engagez.</span><span class="sxs-lookup"><span data-stu-id="50590-122">Select the next project position and continue entering the worker information for each person that you're hiring.</span></span>  
 
 

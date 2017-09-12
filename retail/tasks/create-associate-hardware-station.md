@@ -17,44 +17,44 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 2f85c124957d2f47355544442ad8085e8b3719a1
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 2705008908699bda9479eb54a4827c71f402b603
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-and-associate-a-hardware-station"></a> Créer et associer une station matérielle
+# <a name="create-and-associate-a-hardware-station"></a><span data-ttu-id="a2f78-103"> Créer et associer une station matérielle</span><span class="sxs-lookup"><span data-stu-id="a2f78-103">Create and associate a hardware station</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-Cette procédure décrit comment créer une station matérielle. Un profil de station matérielle est créé et utilisé pour ajouter de nouvelles stations matérielles à un magasin prédéfini (canal). Cette procédure utilise la société USRT dans les données de démonstration.
+<span data-ttu-id="a2f78-104">Cette procédure décrit comment créer une station matérielle.</span><span class="sxs-lookup"><span data-stu-id="a2f78-104">This procedure walks through how to create a new hardware station.</span></span> <span data-ttu-id="a2f78-105">Un profil de station matérielle est créé et utilisé pour ajouter de nouvelles stations matérielles à un magasin prédéfini (canal).</span><span class="sxs-lookup"><span data-stu-id="a2f78-105">A new hardware profile will be created and used to add new hardware stations to a pre-defined store (channel).</span></span> <span data-ttu-id="a2f78-106">Cette procédure utilise la société USRT dans les données de démonstration.</span><span class="sxs-lookup"><span data-stu-id="a2f78-106">This procedure uses the USRT company in demo data.</span></span>
 
-1. Accédez à Essentiel du commerce > Canaux > .. > .. > .. > Profils de la station matérielle.
-2. Cliquez sur Nouveau.
-3. Dans le champ ID station matérielle, tapez « TestHWProfile ».
-4. Tapez une valeur dans le champ Nom.
-5. Dans le champ Numéro de port, saisissez un nombre.
-6. Dans le champ Profil matériel, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-7. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-8. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-9. Dans le champ Nom du package, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-10. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-    * Il s'agit du package standard fourni avec un nouvel environnement. Le numéro de version peut varier.  
-11. Cliquez sur Enregistrer.
-12. Fermez la page.
-13. Accédez à Commerce et vente au détail > Canaux > Tous les magasins de vente au détail.
-14. Sélectionnez la ligne 17 dans la liste.
-    * Si vous utilisez la société fictive USRT, il s'agit du magasin de Houston.  
-15. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-16. Activez ou désactivez l'extension de la section Stations matérielles.
-17. Cliquez sur Ajouter.
-18. Dans la liste, marquer la ligne sélectionnée.
-19. Dans le champ ID profil, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-20. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-    * Il doit s'agir du profil de la station matérielle que vous avez créé dans les étapes précédentes.  
-21. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-22. Dans le champ Nom de l'hôte, tapez une valeur.
-23. Dans le champ ID du terminal TEF, tapez une valeur.
-24. Cliquez sur Enregistrer.
+1. <span data-ttu-id="a2f78-107">Accédez à Essentiel du commerce > Canaux > ..</span><span class="sxs-lookup"><span data-stu-id="a2f78-107">Go to Commerce essentials > Channels > ..</span></span> <span data-ttu-id="a2f78-108">> ..</span><span class="sxs-lookup"><span data-stu-id="a2f78-108">> ..</span></span> <span data-ttu-id="a2f78-109">> ..</span><span class="sxs-lookup"><span data-stu-id="a2f78-109">> ..</span></span> <span data-ttu-id="a2f78-110">> Profils de la station matérielle.</span><span class="sxs-lookup"><span data-stu-id="a2f78-110">> Hardware station profiles.</span></span>
+2. <span data-ttu-id="a2f78-111">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="a2f78-111">Click New.</span></span>
+3. <span data-ttu-id="a2f78-112">Dans le champ ID station matérielle, tapez « TestHWProfile ».</span><span class="sxs-lookup"><span data-stu-id="a2f78-112">In the Hardware station ID field, type 'TestHWProfile'.</span></span>
+4. <span data-ttu-id="a2f78-113">Tapez une valeur dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="a2f78-113">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="a2f78-114">Dans le champ Numéro de port, saisissez un nombre.</span><span class="sxs-lookup"><span data-stu-id="a2f78-114">In the Port number field, enter a number.</span></span>
+6. <span data-ttu-id="a2f78-115">Dans le champ Profil matériel, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="a2f78-115">In the Hardware profile field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="a2f78-116">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="a2f78-116">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="a2f78-117">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="a2f78-117">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="a2f78-118">Dans le champ Nom du package, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="a2f78-118">In the Package name field, click the drop-down button to open the lookup.</span></span>
+10. <span data-ttu-id="a2f78-119">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="a2f78-119">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="a2f78-120">Il s'agit du package standard fourni avec un nouvel environnement.</span><span class="sxs-lookup"><span data-stu-id="a2f78-120">This is the standard package that comes with a new environment.</span></span> <span data-ttu-id="a2f78-121">Le numéro de version peut varier.</span><span class="sxs-lookup"><span data-stu-id="a2f78-121">The version number may vary.</span></span>  
+11. <span data-ttu-id="a2f78-122">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="a2f78-122">Click Save.</span></span>
+12. <span data-ttu-id="a2f78-123">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="a2f78-123">Close the page.</span></span>
+13. <span data-ttu-id="a2f78-124">Accédez à Commerce et vente au détail > Canaux > Tous les magasins de vente au détail.</span><span class="sxs-lookup"><span data-stu-id="a2f78-124">Go to Retail and commerce > Channels > All retail stores.</span></span>
+14. <span data-ttu-id="a2f78-125">Sélectionnez la ligne 17 dans la liste.</span><span class="sxs-lookup"><span data-stu-id="a2f78-125">In the list, select row 17.</span></span>
+    * <span data-ttu-id="a2f78-126">Si vous utilisez la société fictive USRT, il s'agit du magasin de Houston.</span><span class="sxs-lookup"><span data-stu-id="a2f78-126">If you are using the USRT demo data company, this is the Houston store.</span></span>  
+15. <span data-ttu-id="a2f78-127">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="a2f78-127">In the list, click the link in the selected row.</span></span>
+16. <span data-ttu-id="a2f78-128">Activez ou désactivez l'extension de la section Stations matérielles.</span><span class="sxs-lookup"><span data-stu-id="a2f78-128">Toggle the expansion of the Hardware stations section.</span></span>
+17. <span data-ttu-id="a2f78-129">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="a2f78-129">Click Add.</span></span>
+18. <span data-ttu-id="a2f78-130">Dans la liste, marquer la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="a2f78-130">In the list, mark the selected row.</span></span>
+19. <span data-ttu-id="a2f78-131">Dans le champ ID profil, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="a2f78-131">In the Profile ID field, click the drop-down button to open the lookup.</span></span>
+20. <span data-ttu-id="a2f78-132">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="a2f78-132">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="a2f78-133">Il doit s'agir du profil de la station matérielle que vous avez créé dans les étapes précédentes.</span><span class="sxs-lookup"><span data-stu-id="a2f78-133">This must be the new hardware station profile that was created in the previous steps.</span></span>  
+21. <span data-ttu-id="a2f78-134">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="a2f78-134">In the list, click the link in the selected row.</span></span>
+22. <span data-ttu-id="a2f78-135">Dans le champ Nom de l'hôte, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="a2f78-135">In the Host name field, type a value.</span></span>
+23. <span data-ttu-id="a2f78-136">Dans le champ ID du terminal TEF, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="a2f78-136">In the EFT terminal ID field, type a value.</span></span>
+24. <span data-ttu-id="a2f78-137">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="a2f78-137">Click Save.</span></span>
 
 

@@ -16,36 +16,36 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: ac162fe6bc5354e688b63f726acb4b7c802857b2
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 0f711d2e18a13ab972e548d3304652dee3f2e406
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="change-depreciation-conventions-for-multiple-fixed-assets"></a>Modification des conventions d'amortissement pour plusieurs immobilisations
+# <a name="change-depreciation-conventions-for-multiple-fixed-assets"></a><span data-ttu-id="550c3-103">Modification des conventions d'amortissement pour plusieurs immobilisations</span><span class="sxs-lookup"><span data-stu-id="550c3-103">Change depreciation conventions for multiple fixed assets</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Cette tâche permet de mettre à jour la convention d'amortissement pour un groupe d'immobilisations spécifié. La société fictive USMF sert d'exemple dans ce guide de tâche.
+<span data-ttu-id="550c3-104">Cette tâche permet de mettre à jour la convention d'amortissement pour un groupe d'immobilisations spécifié.</span><span class="sxs-lookup"><span data-stu-id="550c3-104">This task updates the depreciation convention for a specified fixed asset group.</span></span> <span data-ttu-id="550c3-105">La société fictive USMF sert d'exemple dans ce guide de tâche.</span><span class="sxs-lookup"><span data-stu-id="550c3-105">This task guide uses the USMF demo company.</span></span>
 
-1. Accédez à Immobilisations > Tâches périodiques > Mise à jour collective.
-2. Dans le champ Registre des amortissements, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-3. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-4. Entrez une date dans le champ Début de la mise en service.
-5. Entrez une date dans le champ Fin de la mise en service.
-    * Seuls les actifs qui font partie du registre des amortissements sélectionné et qui ont été mis en service entre ces dates sont mis à jour.  
-6. Sélectionnez une option dans le champ Convention d'amortissement actuelle.
-    * Seuls les actifs ayant une convention d'amortissement sont mis à jour.  
-7. Sélectionnez une option dans le champ Nouvelle convention d'amortissement.
-    * Vérifiez que l'état s'imprime sur la destination sélectionnée.  
-8. Développez les enregistrements pour inclure la section.
-9. Cliquez sur Filtre.
-10. Sélectionnez le groupe Immobilisations dans la liste.
-11. Dans le champ Critères, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-12. Sélectionnez le groupe d'immobilisations souhaité.
-13. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-14. Cliquez sur OK.
-15. Cliquez sur OK.
-    *  Les résultats du processus sont affichés dans l'état Mise à jour collective.     
+1. <span data-ttu-id="550c3-106">Accédez à Immobilisations > Tâches périodiques > Mise à jour collective.</span><span class="sxs-lookup"><span data-stu-id="550c3-106">Go to Fixed assets > Periodic tasks > Mass update</span></span>
+2. <span data-ttu-id="550c3-107">Dans le champ Registre des amortissements, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="550c3-107">In the Depreciation book field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="550c3-108">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="550c3-108">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="550c3-109">Entrez une date dans le champ Début de la mise en service.</span><span class="sxs-lookup"><span data-stu-id="550c3-109">In the Placed in service start field, enter a date.</span></span>
+5. <span data-ttu-id="550c3-110">Entrez une date dans le champ Fin de la mise en service.</span><span class="sxs-lookup"><span data-stu-id="550c3-110">In the Placed in service end field, enter a date.</span></span>
+    * <span data-ttu-id="550c3-111">Seuls les actifs qui font partie du registre des amortissements sélectionné et qui ont été mis en service entre ces dates sont mis à jour.</span><span class="sxs-lookup"><span data-stu-id="550c3-111">Only assets that are a part of the select depreciation book and that have been placed in service between these dates will be updated.</span></span>  
+6. <span data-ttu-id="550c3-112">Sélectionnez une option dans le champ Convention d'amortissement actuelle.</span><span class="sxs-lookup"><span data-stu-id="550c3-112">In the Current depreciation convention field, select an option.</span></span>
+    * <span data-ttu-id="550c3-113">Seuls les actifs ayant une convention d'amortissement sont mis à jour.</span><span class="sxs-lookup"><span data-stu-id="550c3-113">Only assets that have the current depreciation convention will be updated.</span></span>  
+7. <span data-ttu-id="550c3-114">Sélectionnez une option dans le champ Nouvelle convention d'amortissement.</span><span class="sxs-lookup"><span data-stu-id="550c3-114">In the New depreciation convention field, select an option.</span></span>
+    * <span data-ttu-id="550c3-115">Vérifiez que l'état s'imprime sur la destination sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="550c3-115">Verify the report will print to the desired destination.</span></span>  
+8. <span data-ttu-id="550c3-116">Développez les enregistrements pour inclure la section.</span><span class="sxs-lookup"><span data-stu-id="550c3-116">Expand the Records to include section.</span></span>
+9. <span data-ttu-id="550c3-117">Cliquez sur Filtre.</span><span class="sxs-lookup"><span data-stu-id="550c3-117">Click Filter.</span></span>
+10. <span data-ttu-id="550c3-118">Sélectionnez le groupe Immobilisations dans la liste.</span><span class="sxs-lookup"><span data-stu-id="550c3-118">In the list, select the Fixed asset group.</span></span>
+11. <span data-ttu-id="550c3-119">Dans le champ Critères, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="550c3-119">In the Criteria field, click the drop-down button to open the lookup.</span></span>
+12. <span data-ttu-id="550c3-120">Sélectionnez le groupe d'immobilisations souhaité.</span><span class="sxs-lookup"><span data-stu-id="550c3-120">Select the desired Fixed asset group.</span></span>
+13. <span data-ttu-id="550c3-121">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="550c3-121">In the list, click the link in the selected row.</span></span>
+14. <span data-ttu-id="550c3-122">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="550c3-122">Click OK.</span></span>
+15. <span data-ttu-id="550c3-123">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="550c3-123">Click OK.</span></span>
+    *  <span data-ttu-id="550c3-124">Les résultats du processus sont affichés dans l'état Mise à jour collective.</span><span class="sxs-lookup"><span data-stu-id="550c3-124">Results of the process are shown on the Mass update report.</span></span>     
 
 

@@ -16,36 +16,36 @@ ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 30415b28166d5551f43da04a28b0a5194323f2ab
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 6483307ff89ce79a3ef16bb763e3124ac537a5d8
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="delegate-work-items-in-a-workflow"></a>Délégation d'éléments de travail dans un workflow
+# <a name="delegate-work-items-in-a-workflow"></a><span data-ttu-id="bdaea-103">Délégation d'éléments de travail dans un workflow</span><span class="sxs-lookup"><span data-stu-id="bdaea-103">Delegate work items in a workflow</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Si vous pensez vous absenter du bureau ou être dans l'incapacité d'agir sur des éléments de travail, vous pouvez déléguer ou réaffecter vos éléments de travail à d'autres utilisateurs. Cette procédure vous permet de configurer le système pour déléguer automatiquement vos éléments de travail à un autre utilisateur.
+<span data-ttu-id="bdaea-104">Si vous pensez vous absenter du bureau ou être dans l'incapacité d'agir sur des éléments de travail, vous pouvez déléguer ou réaffecter vos éléments de travail à d'autres utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="bdaea-104">If you plan to be out of the office or otherwise unavailable to act on work items, you can delegate, or reassign, your work items to other users.</span></span> <span data-ttu-id="bdaea-105">Cette procédure vous permet de configurer le système pour déléguer automatiquement vos éléments de travail à un autre utilisateur.</span><span class="sxs-lookup"><span data-stu-id="bdaea-105">This procedure helps you configure the system to automatically delegate your work items to another user.</span></span>
 
 
 
-Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
+<span data-ttu-id="bdaea-106">Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.</span><span class="sxs-lookup"><span data-stu-id="bdaea-106">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="set-up-automatic-delegation"></a>Paramétrage de la délégation automatique
-1. Accédez à Commun > Paramétrage > Options utilisateur.
-2. Cliquez sur l'onglet Workflow.
-    * Assurez-vous que la section Délégation est développée.    Pour configurer le système de sorte à déléguer vos éléments de travail automatiquement à d'autres utilisateurs, vous devez créer des règles de délégation lorsque certains types d'éléments de travail sont délégués. Pour créer une règle de délégation, procédez comme suit :  
-3. Cliquez sur Ajouter.
-4. Dans le champ Portée, sélectionnez une option.
-    * Tout – Permet de déléguer tous les éléments de travail qui vous sont attribués.    Module – Permet de déléguer uniquement les éléments de travail associés à un type donné de workflow. Si cette option est sélectionnée, vous devez sélectionner le type de workflow dans le champ Nom.    Workflow – Permet de déléguer uniquement les éléments de travail associés à un workflow donné. Si cette option est sélectionnée, vous devez sélectionner le workflow dans le champ Nom.  
-5. Dans le champ Déléguer, sélectionnez l'utilisateur auquel déléguer les éléments de travail.
-    * Les champs Date/heure de début et Date/heure de fin permettent de spécifier à quel moment vous souhaitez que les éléments de travail soient automatiquement délégués.  
-6. Dans le champ Date/heure de début, entrez une date et une heure.
-7. Dans le champ Date/heure de fin, entrez une date et une heure.
-8. Activez la case à cocher Activé pour activer la règle de délégation.
-    * Si vous avez sélectionné Module comme Portée, vous devez alors sélectionner le module dans le champ Nom.    Si vous avez sélectionné Workflow comme Portée, vous devez alors sélectionner le workflow spécifique à déléguer dans le champ Nom.  
-9. Dans le champ Commentaire, entrez un commentaire expliquant le motif de la délégation des éléments de travail.
+## <a name="set-up-automatic-delegation"></a><span data-ttu-id="bdaea-107">Paramétrage de la délégation automatique</span><span class="sxs-lookup"><span data-stu-id="bdaea-107">Set up automatic delegation</span></span>
+1. <span data-ttu-id="bdaea-108">Accédez à Commun > Paramétrage > Options utilisateur.</span><span class="sxs-lookup"><span data-stu-id="bdaea-108">Go to Common > Setup > User options.</span></span>
+2. <span data-ttu-id="bdaea-109">Cliquez sur l'onglet Workflow.</span><span class="sxs-lookup"><span data-stu-id="bdaea-109">Click the Workflow tab.</span></span>
+    * <span data-ttu-id="bdaea-110">Assurez-vous que la section Délégation est développée.</span><span class="sxs-lookup"><span data-stu-id="bdaea-110">Make sure the Delegation section is expanded.</span></span>    <span data-ttu-id="bdaea-111">Pour configurer le système de sorte à déléguer vos éléments de travail automatiquement à d'autres utilisateurs, vous devez créer des règles de délégation lorsque certains types d'éléments de travail sont délégués.</span><span class="sxs-lookup"><span data-stu-id="bdaea-111">To configure the system to automatically delegate your work items to other users, you must create delegation rules, which specify when certain types of work items are delegated.</span></span> <span data-ttu-id="bdaea-112">Pour créer une règle de délégation, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="bdaea-112">Follow these steps to create a delegation rule.</span></span>  
+3. <span data-ttu-id="bdaea-113">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="bdaea-113">Click Add.</span></span>
+4. <span data-ttu-id="bdaea-114">Dans le champ Portée, sélectionnez une option.</span><span class="sxs-lookup"><span data-stu-id="bdaea-114">In the Scope field, select an option.</span></span>
+    * <span data-ttu-id="bdaea-115">Tout – Permet de déléguer tous les éléments de travail qui vous sont attribués.</span><span class="sxs-lookup"><span data-stu-id="bdaea-115">All – Delegate all work items that are assigned to you.</span></span>    <span data-ttu-id="bdaea-116">Module – Permet de déléguer uniquement les éléments de travail associés à un type donné de workflow.</span><span class="sxs-lookup"><span data-stu-id="bdaea-116">Module – Delegate only the work items that are related to a specific type of workflow.</span></span> <span data-ttu-id="bdaea-117">Si cette option est sélectionnée, vous devez sélectionner le type de workflow dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="bdaea-117">If you select this option, you must select the type of workflow in the Name field.</span></span>    <span data-ttu-id="bdaea-118">Workflow – Permet de déléguer uniquement les éléments de travail associés à un workflow donné.</span><span class="sxs-lookup"><span data-stu-id="bdaea-118">Workflow – Delegate only the work items that are related to a specific workflow.</span></span> <span data-ttu-id="bdaea-119">Si cette option est sélectionnée, vous devez sélectionner le workflow dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="bdaea-119">If you select this option, you must select the workflow in the Name field.</span></span>  
+5. <span data-ttu-id="bdaea-120">Dans le champ Déléguer, sélectionnez l'utilisateur auquel déléguer les éléments de travail.</span><span class="sxs-lookup"><span data-stu-id="bdaea-120">In the Delegate field, select the user to delegate the work items to.</span></span>
+    * <span data-ttu-id="bdaea-121">Les champs Date/heure de début et Date/heure de fin permettent de spécifier à quel moment vous souhaitez que les éléments de travail soient automatiquement délégués.</span><span class="sxs-lookup"><span data-stu-id="bdaea-121">Use the Start date/time and End date/time fields to specify when you want the work items to be automatically delegated.</span></span>  
+6. <span data-ttu-id="bdaea-122">Dans le champ Date/heure de début, entrez une date et une heure.</span><span class="sxs-lookup"><span data-stu-id="bdaea-122">In the Start date/time field, enter a date and time.</span></span>
+7. <span data-ttu-id="bdaea-123">Dans le champ Date/heure de fin, entrez une date et une heure.</span><span class="sxs-lookup"><span data-stu-id="bdaea-123">In the End date/time field, enter a date and time.</span></span>
+8. <span data-ttu-id="bdaea-124">Activez la case à cocher Activé pour activer la règle de délégation.</span><span class="sxs-lookup"><span data-stu-id="bdaea-124">Select the Enabled check box to activate the delegation rule.</span></span>
+    * <span data-ttu-id="bdaea-125">Si vous avez sélectionné Module comme Portée, vous devez alors sélectionner le module dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="bdaea-125">If you selected Module as the Scope, then you must select the module in the Name field.</span></span>    <span data-ttu-id="bdaea-126">Si vous avez sélectionné Workflow comme Portée, vous devez alors sélectionner le workflow spécifique à déléguer dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="bdaea-126">If you selected Workflow as the Scope, then you must select the specific workflow to delegate in the Name field.</span></span>  
+9. <span data-ttu-id="bdaea-127">Dans le champ Commentaire, entrez un commentaire expliquant le motif de la délégation des éléments de travail.</span><span class="sxs-lookup"><span data-stu-id="bdaea-127">In the Comment field, enter a comment that explains why you are delegating the work items.</span></span>
 
 

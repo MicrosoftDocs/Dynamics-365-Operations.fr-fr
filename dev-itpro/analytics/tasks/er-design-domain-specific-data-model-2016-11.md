@@ -14,201 +14,201 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
+ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: bf727b63ed86e7cc26d4fca630d97af88abb1804
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 3349d4e910cf1a97eb099aaa7d1155732be3a21f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="design-a-domain-specific-data-model-for-electronic-reporting-er"></a>Concevoir un modèle de données spécifique au domaine pour la gestion des états électroniques (ER)
+# <a name="design-a-domain-specific-data-model-for-electronic-reporting-er"></a><span data-ttu-id="32ed6-103">Concevoir un modèle de données spécifique au domaine pour la gestion des états électroniques (ER)</span><span class="sxs-lookup"><span data-stu-id="32ed6-103">Design a domain-specific data model for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Les étapes suivantes expliquent comment un utilisateur dont le rôle est Administrateur système ou Développeur d'états électroniques peut créer une configuration de format pour la génération d'états électronique (ER) qui contient un modèle de données pour les documents de paiement électronique. Ce modèle de données sera utilisé ultérieurement comme source de données quand vous créerez le format des documents de paiement.
+<span data-ttu-id="32ed6-104">Les étapes suivantes expliquent comment un utilisateur dont le rôle est Administrateur système ou Développeur d'états électroniques peut créer une configuration de format pour la génération d'états électronique (ER) qui contient un modèle de données pour les documents de paiement électronique.</span><span class="sxs-lookup"><span data-stu-id="32ed6-104">The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can create a new Electronic reporting (ER) configuration that contains a data model for electronic payment documents.</span></span> <span data-ttu-id="32ed6-105">Ce modèle de données sera utilisé ultérieurement comme source de données quand vous créerez le format des documents de paiement.</span><span class="sxs-lookup"><span data-stu-id="32ed6-105">This data model will later be used as a data source when you create the format of the payment documents.</span></span>
 
 
 
-Dans cet exemple, vous allez créer une configuration pour la société témoin, Litware, Inc. Ces étapes peuvent être effectuées dans n'importe quelle société car les configurations ER sont partagées entre les sociétés. Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de la procédure « Créer un fournisseur de configuration et le marquer comme actif ».
+<span data-ttu-id="32ed6-106">Dans cet exemple, vous allez créer une configuration pour la société témoin, Litware, Inc. Ces étapes peuvent être effectuées dans n'importe quelle société car les configurations ER sont partagées entre les sociétés.</span><span class="sxs-lookup"><span data-stu-id="32ed6-106">In this example, you will create a configuration for sample company, Litware, Inc. These steps can be performed in any company as ER configurations are shared among companies.</span></span> <span data-ttu-id="32ed6-107">Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de la procédure « Créer un fournisseur de configuration et le marquer comme actif ».</span><span class="sxs-lookup"><span data-stu-id="32ed6-107">To complete these steps, you must first complete the steps in the “Create a configuration provider and mark it as active” procedure.</span></span>
 
-1. Accédez à Administration d'organisation > Espaces de travail > États électroniques.
-    * Sélectionnez le fournisseur de configuration pour la société fictive, « Litware, Inc ». Si vous ne voyez pas ce fournisseur de configuration, vous devez d'abord effectuer les étapes de la procédure « Créer un fournisseur de configuration et le marquer comme actif ».  
-2. Cliquez sur Configurations des états.
-    * Vous allez créer une configuration qui contient un modèle de données pour les documents de paiement électronique. Ce modèle de données sera utilisé ultérieurement comme source de données quand vous allez créer le format pour les documents de paiement.  
+1. <span data-ttu-id="32ed6-108">Accédez à Administration d'organisation > Espaces de travail > États électroniques.</span><span class="sxs-lookup"><span data-stu-id="32ed6-108">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+    * <span data-ttu-id="32ed6-109">Sélectionnez le fournisseur de configuration pour la société fictive, « Litware, Inc ».</span><span class="sxs-lookup"><span data-stu-id="32ed6-109">Select the configuration provider for sample company, ‘Litware, Inc.’</span></span> <span data-ttu-id="32ed6-110">Si vous ne voyez pas ce fournisseur de configuration, vous devez d'abord effectuer les étapes de la procédure « Créer un fournisseur de configuration et le marquer comme actif ».</span><span class="sxs-lookup"><span data-stu-id="32ed6-110">If you don’t see this configuration provider, you must first complete the steps in the “Create a configuration provider and mark it as active” procedure.</span></span>  
+2. <span data-ttu-id="32ed6-111">Cliquez sur Configurations des états.</span><span class="sxs-lookup"><span data-stu-id="32ed6-111">Click Reporting configurations.</span></span>
+    * <span data-ttu-id="32ed6-112">Vous allez créer une configuration qui contient un modèle de données pour les documents de paiement électronique.</span><span class="sxs-lookup"><span data-stu-id="32ed6-112">You will create a configuration that contains a data model for electronic payment documents.</span></span> <span data-ttu-id="32ed6-113">Ce modèle de données sera utilisé ultérieurement comme source de données quand vous allez créer le format pour les documents de paiement.</span><span class="sxs-lookup"><span data-stu-id="32ed6-113">This data model will be used later as a data source when you create the format for the payment documents.</span></span>  
 
-## <a name="create-a-new-data-model-configuration"></a>Créer une configuration de modèle de données
-1. Cliquez sur Créer la configuration pour ouvrir la boîte de dialogue.
-2. Tapez « Paiements (modèle simplifié) » dans le champ Nom.
-    * Paiements (modèle simplifié)  
-3. Tapez « Configuration du modèle de paiement » dans le champ Description.
-    * Configuration du modèle de paiement  
-    * Le fournisseur de configuration actif est automatiquement entré ici. Ce fournisseur pourra mettre à jour cette configuration. D'autres fournisseurs peuvent utiliser cette configuration, mais ne peuvent pas la mettre à jour.  
-4. Cliquez sur le bouton « Créer la configuration » pour terminer la tâche de création de la configuration.
+## <a name="create-a-new-data-model-configuration"></a><span data-ttu-id="32ed6-114">Créer une configuration de modèle de données</span><span class="sxs-lookup"><span data-stu-id="32ed6-114">Create a new data model configuration</span></span>
+1. <span data-ttu-id="32ed6-115">Cliquez sur Créer la configuration pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="32ed6-115">Click Create configuration to open the drop dialog.</span></span>
+2. <span data-ttu-id="32ed6-116">Tapez « Paiements (modèle simplifié) » dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="32ed6-116">In the Name field, type 'Payments (simplified model)'.</span></span>
+    * <span data-ttu-id="32ed6-117">Paiements (modèle simplifié)</span><span class="sxs-lookup"><span data-stu-id="32ed6-117">Payments (simplified model)</span></span>  
+3. <span data-ttu-id="32ed6-118">Tapez « Configuration du modèle de paiement » dans le champ Description.</span><span class="sxs-lookup"><span data-stu-id="32ed6-118">In the Description field, type 'Payment model configuration'.</span></span>
+    * <span data-ttu-id="32ed6-119">Configuration du modèle de paiement</span><span class="sxs-lookup"><span data-stu-id="32ed6-119">Payment model configuration</span></span>  
+    * <span data-ttu-id="32ed6-120">Le fournisseur de configuration actif est automatiquement entré ici.</span><span class="sxs-lookup"><span data-stu-id="32ed6-120">The active configuration provider is automatically entered here.</span></span> <span data-ttu-id="32ed6-121">Ce fournisseur pourra mettre à jour cette configuration.</span><span class="sxs-lookup"><span data-stu-id="32ed6-121">This provider will be able to maintain this configuration.</span></span> <span data-ttu-id="32ed6-122">D'autres fournisseurs peuvent utiliser cette configuration, mais ne peuvent pas la mettre à jour.</span><span class="sxs-lookup"><span data-stu-id="32ed6-122">Other providers can use this configuration, but will not be able to maintain it.</span></span>  
+4. <span data-ttu-id="32ed6-123">Cliquez sur le bouton « Créer la configuration » pour terminer la tâche de création de la configuration.</span><span class="sxs-lookup"><span data-stu-id="32ed6-123">Click ‘Create configuration’ button to complete the configuration creation task</span></span>
 
-## <a name="create-a-data-model"></a>Créer un modèle de données
-    * Vous créez un modèle de données pour la configuration sélectionnée. Cette version de configuration aura un statut de brouillon.  
-1. Cliquez sur Concepteur.
+## <a name="create-a-data-model"></a><span data-ttu-id="32ed6-124">Créer un modèle de données</span><span class="sxs-lookup"><span data-stu-id="32ed6-124">Create a data model</span></span>
+    * <span data-ttu-id="32ed6-125">Vous créez un modèle de données pour la configuration sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="32ed6-125">You're creating a new data model for the selected configuration.</span></span> <span data-ttu-id="32ed6-126">Cette version de configuration aura un statut de brouillon.</span><span class="sxs-lookup"><span data-stu-id="32ed6-126">This configuration version will have a status of Draft.</span></span>  
+1. <span data-ttu-id="32ed6-127">Cliquez sur Concepteur.</span><span class="sxs-lookup"><span data-stu-id="32ed6-127">Click Designer.</span></span>
 
-## <a name="define-the-structure-of-a-party-participating-in-a-payment-process"></a>Définir la structure d'une partie qui participe à un processus de paiement
-1. Cliquez sur Nouveau pour ouvrir la boîte de dialogue.
-2. Dans le champ Nom, tapez « Partie ».
-    * Partie  
-3. Cliquez sur Ajouter.
-4. Cliquez sur Nouveau pour ouvrir la boîte de dialogue.
-5. Tapez « Nom » dans le champ Nom.
-    * Nom  
-6. Sélectionnez « Chaîne » dans le champ Type d'article.
-7. Cliquez sur Ajouter.
-8. Dans le champ Rechercher, tapez « Partie ».
-    * Partie  
-9. Cliquez sur Précédent
+## <a name="define-the-structure-of-a-party-participating-in-a-payment-process"></a><span data-ttu-id="32ed6-128">Définir la structure d'une partie qui participe à un processus de paiement</span><span class="sxs-lookup"><span data-stu-id="32ed6-128">Define the structure of a party participating in a payment process</span></span>
+1. <span data-ttu-id="32ed6-129">Cliquez sur Nouveau pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="32ed6-129">Click New to open the drop dialog.</span></span>
+2. <span data-ttu-id="32ed6-130">Dans le champ Nom, tapez « Partie ».</span><span class="sxs-lookup"><span data-stu-id="32ed6-130">In the Name field, type 'Party'.</span></span>
+    * <span data-ttu-id="32ed6-131">Partie</span><span class="sxs-lookup"><span data-stu-id="32ed6-131">Party</span></span>  
+3. <span data-ttu-id="32ed6-132">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="32ed6-132">Click Add.</span></span>
+4. <span data-ttu-id="32ed6-133">Cliquez sur Nouveau pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="32ed6-133">Click New to open the drop dialog.</span></span>
+5. <span data-ttu-id="32ed6-134">Tapez « Nom » dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="32ed6-134">In the Name field, type 'Name'.</span></span>
+    * <span data-ttu-id="32ed6-135">Nom</span><span class="sxs-lookup"><span data-stu-id="32ed6-135">Name</span></span>  
+6. <span data-ttu-id="32ed6-136">Sélectionnez « Chaîne » dans le champ Type d'article.</span><span class="sxs-lookup"><span data-stu-id="32ed6-136">In the Item type field, select 'String'.</span></span>
+7. <span data-ttu-id="32ed6-137">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="32ed6-137">Click Add.</span></span>
+8. <span data-ttu-id="32ed6-138">Dans le champ Rechercher, tapez « Partie ».</span><span class="sxs-lookup"><span data-stu-id="32ed6-138">In the Find field, type 'Party'.</span></span>
+    * <span data-ttu-id="32ed6-139">Partie</span><span class="sxs-lookup"><span data-stu-id="32ed6-139">Party</span></span>  
+9. <span data-ttu-id="32ed6-140">Cliquez sur Précédent</span><span class="sxs-lookup"><span data-stu-id="32ed6-140">Click Find previous.</span></span>
 
-## <a name="define-the-bank-structure-for-this-model"></a>Définir la structure de la banque pour ce modèle
-1. Cliquez sur Nouveau pour ouvrir la boîte de dialogue.
-2. Tapez « Agent » dans le champ Nom.
-    * Agent ;  
-3. Sélectionnez « Enregistrement » dans le champ Type d'article.
-4. Cliquez sur Ajouter.
-5. Dans le champ Description, entrez « Institution financière (une banque, par exemple) chargée d'un compte de la partie (débiteur/créditeur) ».
-    * Institution financière (une banque, par exemple) chargée d'un compte de la partie (débiteur/créditeur).  
-6. Cliquez sur Nouveau pour ouvrir la boîte de dialogue.
-7. Tapez « Nom » dans le champ Nom.
-    * Nom  
-8. Sélectionnez « Chaîne » dans le champ Type d'article.
-9. Cliquez sur Ajouter.
-10. Cliquez sur Nouveau pour ouvrir la boîte de dialogue.
-11. Tapez SWIFT dans le champ Nom.
-    * SWIFT  
-12. Cliquez sur Ajouter.
-13. Dans le champ Description, entrez « Code d'identification de la banque ».
-    * Code d'identification de la banque  
-14. Cliquez sur Nouveau pour ouvrir la boîte de dialogue.
-15. Tapez « RoutingNumber » dans le champ Nom.
-    * RoutingNumber  
-16. Cliquez sur Ajouter.
-17. Dans le champ Description, entrez « Numéro d'acheminement ».
-    * Numéro d'acheminement  
-18. Cliquez sur Précédent
+## <a name="define-the-bank-structure-for-this-model"></a><span data-ttu-id="32ed6-141">Définir la structure de la banque pour ce modèle</span><span class="sxs-lookup"><span data-stu-id="32ed6-141">Define the bank structure for this model</span></span>
+1. <span data-ttu-id="32ed6-142">Cliquez sur Nouveau pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="32ed6-142">Click New to open the drop dialog.</span></span>
+2. <span data-ttu-id="32ed6-143">Tapez « Agent » dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="32ed6-143">In the Name field, type 'Agent'.</span></span>
+    * <span data-ttu-id="32ed6-144">Agent ;</span><span class="sxs-lookup"><span data-stu-id="32ed6-144">Agent</span></span>  
+3. <span data-ttu-id="32ed6-145">Sélectionnez « Enregistrement » dans le champ Type d'article.</span><span class="sxs-lookup"><span data-stu-id="32ed6-145">In the Item type field, select 'Record'.</span></span>
+4. <span data-ttu-id="32ed6-146">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="32ed6-146">Click Add.</span></span>
+5. <span data-ttu-id="32ed6-147">Dans le champ Description, entrez « Institution financière (une banque, par exemple) chargée d'un compte de la partie (débiteur/créditeur) ».</span><span class="sxs-lookup"><span data-stu-id="32ed6-147">In the Description field, enter 'Financial institution (for instance, a bank) servicing an account for the party (debtor/creditor).'.</span></span>
+    * <span data-ttu-id="32ed6-148">Institution financière (une banque, par exemple) chargée d'un compte de la partie (débiteur/créditeur).</span><span class="sxs-lookup"><span data-stu-id="32ed6-148">Financial institution (for instance, a bank) servicing an account for the party (debtor/creditor).</span></span>  
+6. <span data-ttu-id="32ed6-149">Cliquez sur Nouveau pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="32ed6-149">Click New to open the drop dialog.</span></span>
+7. <span data-ttu-id="32ed6-150">Tapez « Nom » dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="32ed6-150">In the Name field, type 'Name'.</span></span>
+    * <span data-ttu-id="32ed6-151">Nom</span><span class="sxs-lookup"><span data-stu-id="32ed6-151">Name</span></span>  
+8. <span data-ttu-id="32ed6-152">Sélectionnez « Chaîne » dans le champ Type d'article.</span><span class="sxs-lookup"><span data-stu-id="32ed6-152">In the Item type field, select 'String'.</span></span>
+9. <span data-ttu-id="32ed6-153">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="32ed6-153">Click Add.</span></span>
+10. <span data-ttu-id="32ed6-154">Cliquez sur Nouveau pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="32ed6-154">Click New to open the drop dialog.</span></span>
+11. <span data-ttu-id="32ed6-155">Tapez SWIFT dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="32ed6-155">In the Name field, type 'SWIFT'.</span></span>
+    * <span data-ttu-id="32ed6-156">SWIFT</span><span class="sxs-lookup"><span data-stu-id="32ed6-156">SWIFT</span></span>  
+12. <span data-ttu-id="32ed6-157">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="32ed6-157">Click Add.</span></span>
+13. <span data-ttu-id="32ed6-158">Dans le champ Description, entrez « Code d'identification de la banque ».</span><span class="sxs-lookup"><span data-stu-id="32ed6-158">In the Description field, enter 'Bank identification code'.</span></span>
+    * <span data-ttu-id="32ed6-159">Code d'identification de la banque</span><span class="sxs-lookup"><span data-stu-id="32ed6-159">Bank identification code</span></span>  
+14. <span data-ttu-id="32ed6-160">Cliquez sur Nouveau pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="32ed6-160">Click New to open the drop dialog.</span></span>
+15. <span data-ttu-id="32ed6-161">Tapez « RoutingNumber » dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="32ed6-161">In the Name field, type 'RoutingNumber'.</span></span>
+    * <span data-ttu-id="32ed6-162">RoutingNumber</span><span class="sxs-lookup"><span data-stu-id="32ed6-162">RoutingNumber</span></span>  
+16. <span data-ttu-id="32ed6-163">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="32ed6-163">Click Add.</span></span>
+17. <span data-ttu-id="32ed6-164">Dans le champ Description, entrez « Numéro d'acheminement ».</span><span class="sxs-lookup"><span data-stu-id="32ed6-164">In the Description field, enter 'Routing number'.</span></span>
+    * <span data-ttu-id="32ed6-165">Numéro d'acheminement</span><span class="sxs-lookup"><span data-stu-id="32ed6-165">Routing number</span></span>  
+18. <span data-ttu-id="32ed6-166">Cliquez sur Précédent</span><span class="sxs-lookup"><span data-stu-id="32ed6-166">Click Find previous.</span></span>
 
-## <a name="define-the-bank-account-structure-for-this-model"></a>Définir la structure de compte de la banque pour ce modèle
-1. Cliquez sur Nouveau pour ouvrir la boîte de dialogue.
-2. Tapez « Compte » dans le champ Nom.
-    * Compte  
-3. Sélectionnez « Enregistrement » dans le champ Type d'article.
-4. Cliquez sur Ajouter.
-5. Dans le champ Description, entrez « Identification d'un compte d'une partie dans une institution financière (une banque, par exemple) ».
-    * Identification d'un compte d'une partie dans une institution financière (une banque, par exemple).  
-6. Cliquez sur Nouveau pour ouvrir la boîte de dialogue.
-7. Tapez « Devise » dans le champ Nom.
-    * Devise  
-8. Sélectionnez « Chaîne » dans le champ Type d'article.
-9. Cliquez sur Ajouter.
-10. Dans le champ Description, entrez « Code devise ».
-    * Code devise  
-11. Cliquez sur Nouveau pour ouvrir la boîte de dialogue.
-12. Tapez « Numéro » dans le champ Nom.
-    * Numéro  
-13. Cliquez sur Ajouter.
-14. Cliquez sur Nouveau pour ouvrir la boîte de dialogue.
-15. Tapez « IBAN » dans le champ Nom.
-    * IBAN  
-16. Cliquez sur Ajouter.
-17. Dans le champ Description, entrez « Numéro de compte bancaire international ».
-    * Numéro de compte bancaire international  
+## <a name="define-the-bank-account-structure-for-this-model"></a><span data-ttu-id="32ed6-167">Définir la structure de compte de la banque pour ce modèle</span><span class="sxs-lookup"><span data-stu-id="32ed6-167">Define the bank account structure for this model</span></span>
+1. <span data-ttu-id="32ed6-168">Cliquez sur Nouveau pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="32ed6-168">Click New to open the drop dialog.</span></span>
+2. <span data-ttu-id="32ed6-169">Tapez « Compte » dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="32ed6-169">In the Name field, type 'Account'.</span></span>
+    * <span data-ttu-id="32ed6-170">Compte</span><span class="sxs-lookup"><span data-stu-id="32ed6-170">Account</span></span>  
+3. <span data-ttu-id="32ed6-171">Sélectionnez « Enregistrement » dans le champ Type d'article.</span><span class="sxs-lookup"><span data-stu-id="32ed6-171">In the Item type field, select 'Record'.</span></span>
+4. <span data-ttu-id="32ed6-172">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="32ed6-172">Click Add.</span></span>
+5. <span data-ttu-id="32ed6-173">Dans le champ Description, entrez « Identification d'un compte d'une partie dans une institution financière (une banque, par exemple) ».</span><span class="sxs-lookup"><span data-stu-id="32ed6-173">In the Description field, enter 'Identification of an account of a party in a financial institution (for instance, a bank).'.</span></span>
+    * <span data-ttu-id="32ed6-174">Identification d'un compte d'une partie dans une institution financière (une banque, par exemple).</span><span class="sxs-lookup"><span data-stu-id="32ed6-174">Identification of an account of a party in a financial institution (for instance, a bank).</span></span>  
+6. <span data-ttu-id="32ed6-175">Cliquez sur Nouveau pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="32ed6-175">Click New to open the drop dialog.</span></span>
+7. <span data-ttu-id="32ed6-176">Tapez « Devise » dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="32ed6-176">In the Name field, type 'Currency'.</span></span>
+    * <span data-ttu-id="32ed6-177">Devise</span><span class="sxs-lookup"><span data-stu-id="32ed6-177">Currency</span></span>  
+8. <span data-ttu-id="32ed6-178">Sélectionnez « Chaîne » dans le champ Type d'article.</span><span class="sxs-lookup"><span data-stu-id="32ed6-178">In the Item type field, select 'String'.</span></span>
+9. <span data-ttu-id="32ed6-179">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="32ed6-179">Click Add.</span></span>
+10. <span data-ttu-id="32ed6-180">Dans le champ Description, entrez « Code devise ».</span><span class="sxs-lookup"><span data-stu-id="32ed6-180">In the Description field, enter 'Currency code'.</span></span>
+    * <span data-ttu-id="32ed6-181">Code devise</span><span class="sxs-lookup"><span data-stu-id="32ed6-181">Currency code</span></span>  
+11. <span data-ttu-id="32ed6-182">Cliquez sur Nouveau pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="32ed6-182">Click New to open the drop dialog.</span></span>
+12. <span data-ttu-id="32ed6-183">Tapez « Numéro » dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="32ed6-183">In the Name field, type 'Number'.</span></span>
+    * <span data-ttu-id="32ed6-184">Numéro</span><span class="sxs-lookup"><span data-stu-id="32ed6-184">Number</span></span>  
+13. <span data-ttu-id="32ed6-185">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="32ed6-185">Click Add.</span></span>
+14. <span data-ttu-id="32ed6-186">Cliquez sur Nouveau pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="32ed6-186">Click New to open the drop dialog.</span></span>
+15. <span data-ttu-id="32ed6-187">Tapez « IBAN » dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="32ed6-187">In the Name field, type 'IBAN'.</span></span>
+    * <span data-ttu-id="32ed6-188">IBAN</span><span class="sxs-lookup"><span data-stu-id="32ed6-188">IBAN</span></span>  
+16. <span data-ttu-id="32ed6-189">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="32ed6-189">Click Add.</span></span>
+17. <span data-ttu-id="32ed6-190">Dans le champ Description, entrez « Numéro de compte bancaire international ».</span><span class="sxs-lookup"><span data-stu-id="32ed6-190">In the Description field, enter 'International bank account number'.</span></span>
+    * <span data-ttu-id="32ed6-191">Numéro de compte bancaire international</span><span class="sxs-lookup"><span data-stu-id="32ed6-191">International bank account number</span></span>  
 
-## <a name="define-the-payment-message-structure-for-credit-transfer-payment-type"></a>Définir la structure du message de paiement pour le type de virement.
-1. Cliquez sur Nouveau pour ouvrir la boîte de dialogue.
-2. Dans le nœud Nouveau sous forme de champ, entrez « Racine du modèle ».
-3. Tapez « CustomerCreditTransferInitiation » dans le champ Nom.
-    * CustomerCreditTransferInitiation  
-4. Cliquez sur Ajouter.
-5. Dans le champ Rechercher, tapez « CustomerCreditTransferInitiation ».
-    * CustomerCreditTransferInitiation  
-6. Cliquez sur Précédent
-7. Cliquez sur Nouveau pour ouvrir la boîte de dialogue.
-8. Tapez « MessageIdentification » dans le champ Nom.
-    * MessageIdentification  
-9. Cliquez sur Ajouter.
-10. Dans le champ Description, entrez « Référence point à point affectée par le donneur d'ordre (et envoyée à la partie suivante) afin d'identifier le message ».
-    * Référence point à point affectée par le donneur d'ordre et envoyée à la partie suivante dans la chaîne afin d'identifier le message.  
-11. Cliquez sur Nouveau pour ouvrir la boîte de dialogue.
-12. Tapez « ProcessingDateTime » dans le champ Nom.
-    * ProcessingDateTime  
-13. Sélectionnez « DateTime » dans le champ Type d'article.
-14. Cliquez sur Ajouter.
-15. Dans le champ Description, entrez « Date et heure de création du message de paiement ».
-    * Date et heure de création du message de paiement  
-16. Cliquez sur Nouveau pour ouvrir la boîte de dialogue.
-    * Définir la structure de transaction de paiement pour ce modèle.  
-17. Tapez « Paiements » dans le champ Nom.
-    * Paiements  
-18. Sélectionnez « Liste d'enregistrements » dans le champ Type d'article.
-19. Cliquez sur Ajouter.
-20. Dans le champ Description, entrez « Lignes de paiement du message actuel ».
-    * Lignes de paiement du message actuel  
-21. Cliquez sur Nouveau pour ouvrir la boîte de dialogue.
-22. Tapez « Créancier » dans le champ Nom.
-    * Créancier  
-23. Sélectionnez « Enregistrement » dans le champ Type d'article.
-24. Cliquez sur Ajouter.
-25. Dans le champ Description, entrez « Partie à laquelle un montant est dû ».
-    * Partie à laquelle un montant est dû.  
-26. Cliquez sur Basculer la référence d'élément.
-27. Dans le champ Rechercher, tapez « Partie ».
-    * Partie  
-28. Cliquez sur Suivant
-29. Cliquez sur OK.
-30. Dans le champ Rechercher, tapez « Paiements ».
-    * Paiements  
-31. Cliquez sur Suivant
-32. Cliquez sur Nouveau pour ouvrir la boîte de dialogue.
-33. Tapez « Débiteur » dans le champ Nom.
-    * Débiteur  
-34. Cliquez sur Ajouter.
-35. Dans le champ Description, entrez « Partie qui doit une somme d'argent au créancier (final) ».
-    * Partie qui doit une somme d'argent au créancier (final).  
-36. Cliquez sur Basculer la référence d'élément.
-37. Dans le champ Rechercher, tapez « Partie ».
-    * Partie  
-38. Cliquez sur Suivant
-39. Cliquez sur OK.
-40. Cliquez sur Suivant
-41. Cliquez sur Nouveau pour ouvrir la boîte de dialogue.
-42. Tapez « Description » dans le champ Nom.
-    * Description  
-43. Sélectionnez « Chaîne » dans le champ Type d'article.
-44. Cliquez sur Ajouter.
-45. Cliquez sur Nouveau pour ouvrir la boîte de dialogue.
-46. Tapez « Devise » dans le champ Nom.
-    * Devise  
-47. Cliquez sur Ajouter.
-48. Dans le champ Description, entrez « Code devise ».
-    * Code devise  
-49. Cliquez sur Nouveau pour ouvrir la boîte de dialogue.
-50. Tapez « TransactionDate » dans le champ Nom.
-    * TransactionDate  
-51. Sélectionnez « Date » dans le champ Type d'article.
-52. Cliquez sur Ajouter.
-53. Dans le champ Description, entrez « Date de transaction ».
-    * Date de transaction  
-54. Cliquez sur Nouveau pour ouvrir la boîte de dialogue.
-55. Tapez « InstructedAmount » dans le champ Nom.
-    * InstructedAmount  
-56. Sélectionnez « Réel » dans le champ Type d'article.
-57. Cliquez sur Ajouter.
-58. Dans le champ Description, entrez « Montant à transférer entre le débiteur et le créancier, avant déduction des frais. Le montant doit être exprimé dans la devise choisie par la partie qui prend l'initiative.
-    * Montant à transférer entre le débiteur et le créancier, avant déduction des frais. Le montant doit être exprimé dans la devise choisie par la partie qui prend l'initiative.  
-59. Cliquez sur Nouveau pour ouvrir la boîte de dialogue.
-60. Tapez « End2EndID » dans le champ Nom.
-    * End2EndID  
-61. Sélectionnez « Chaîne » dans le champ Type d'article.
-62. Cliquez sur Ajouter.
-63. Dans le champ Description, entrez « Identification unique affectée par la partie qui prend l'initiative. Cette identification est transmise telle quelle tout au long de la chaîne de bout en bout. »
-    * Identification unique affectée par la partie qui prend l'initiative. Cette identification est transmise telle quelle tout au long de la chaîne de bout en bout.  
-64. Tapez « PaymentModel » dans le champ Nom.
-    * Le nom PaymentModel s'aligne avec les interfaces prédéfinies des écrans de paiement.  
-65. Cliquez sur Enregistrer.
-66. Fermez la page.
+## <a name="define-the-payment-message-structure-for-credit-transfer-payment-type"></a><span data-ttu-id="32ed6-192">Définir la structure du message de paiement pour le type de virement.</span><span class="sxs-lookup"><span data-stu-id="32ed6-192">Define the payment message structure for credit transfer payment type</span></span>
+1. <span data-ttu-id="32ed6-193">Cliquez sur Nouveau pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="32ed6-193">Click New to open the drop dialog.</span></span>
+2. <span data-ttu-id="32ed6-194">Dans le nœud Nouveau sous forme de champ, entrez « Racine du modèle ».</span><span class="sxs-lookup"><span data-stu-id="32ed6-194">In the New node as a field, enter 'Model root'.</span></span>
+3. <span data-ttu-id="32ed6-195">Tapez « CustomerCreditTransferInitiation » dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="32ed6-195">In the Name field, type 'CustomerCreditTransferInitiation'.</span></span>
+    * <span data-ttu-id="32ed6-196">CustomerCreditTransferInitiation</span><span class="sxs-lookup"><span data-stu-id="32ed6-196">CustomerCreditTransferInitiation</span></span>  
+4. <span data-ttu-id="32ed6-197">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="32ed6-197">Click Add.</span></span>
+5. <span data-ttu-id="32ed6-198">Dans le champ Rechercher, tapez « CustomerCreditTransferInitiation ».</span><span class="sxs-lookup"><span data-stu-id="32ed6-198">In the Find field, type 'CustomerCreditTransferInitiation'.</span></span>
+    * <span data-ttu-id="32ed6-199">CustomerCreditTransferInitiation</span><span class="sxs-lookup"><span data-stu-id="32ed6-199">CustomerCreditTransferInitiation</span></span>  
+6. <span data-ttu-id="32ed6-200">Cliquez sur Précédent</span><span class="sxs-lookup"><span data-stu-id="32ed6-200">Click Find previous.</span></span>
+7. <span data-ttu-id="32ed6-201">Cliquez sur Nouveau pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="32ed6-201">Click New to open the drop dialog.</span></span>
+8. <span data-ttu-id="32ed6-202">Tapez « MessageIdentification » dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="32ed6-202">In the Name field, type 'MessageIdentification'.</span></span>
+    * <span data-ttu-id="32ed6-203">MessageIdentification</span><span class="sxs-lookup"><span data-stu-id="32ed6-203">MessageIdentification</span></span>  
+9. <span data-ttu-id="32ed6-204">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="32ed6-204">Click Add.</span></span>
+10. <span data-ttu-id="32ed6-205">Dans le champ Description, entrez « Référence point à point affectée par le donneur d'ordre (et envoyée à la partie suivante) afin d'identifier le message ».</span><span class="sxs-lookup"><span data-stu-id="32ed6-205">In the Description field, enter 'The point-to-point reference assigned by the instructing party (and sent to the next party) to identify a message.'.</span></span>
+    * <span data-ttu-id="32ed6-206">Référence point à point affectée par le donneur d'ordre et envoyée à la partie suivante dans la chaîne afin d'identifier le message.</span><span class="sxs-lookup"><span data-stu-id="32ed6-206">The point-to-point reference assigned by the instructing party (and sent to the next party) to identify a message.</span></span>  
+11. <span data-ttu-id="32ed6-207">Cliquez sur Nouveau pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="32ed6-207">Click New to open the drop dialog.</span></span>
+12. <span data-ttu-id="32ed6-208">Tapez « ProcessingDateTime » dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="32ed6-208">In the Name field, type 'ProcessingDateTime'.</span></span>
+    * <span data-ttu-id="32ed6-209">ProcessingDateTime</span><span class="sxs-lookup"><span data-stu-id="32ed6-209">ProcessingDateTime</span></span>  
+13. <span data-ttu-id="32ed6-210">Sélectionnez « DateTime » dans le champ Type d'article.</span><span class="sxs-lookup"><span data-stu-id="32ed6-210">In the Item type field, select 'DateTime'.</span></span>
+14. <span data-ttu-id="32ed6-211">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="32ed6-211">Click Add.</span></span>
+15. <span data-ttu-id="32ed6-212">Dans le champ Description, entrez « Date et heure de création du message de paiement ».</span><span class="sxs-lookup"><span data-stu-id="32ed6-212">In the Description field, enter 'Date and time at which the payment message was created.'.</span></span>
+    * <span data-ttu-id="32ed6-213">Date et heure de création du message de paiement</span><span class="sxs-lookup"><span data-stu-id="32ed6-213">Date and time at which the payment message was created.</span></span>  
+16. <span data-ttu-id="32ed6-214">Cliquez sur Nouveau pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="32ed6-214">Click New to open the drop dialog.</span></span>
+    * <span data-ttu-id="32ed6-215">Définir la structure de transaction de paiement pour ce modèle.</span><span class="sxs-lookup"><span data-stu-id="32ed6-215">Define the payment transaction structure for this model.</span></span>  
+17. <span data-ttu-id="32ed6-216">Tapez « Paiements » dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="32ed6-216">In the Name field, type 'Payments'.</span></span>
+    * <span data-ttu-id="32ed6-217">Paiements</span><span class="sxs-lookup"><span data-stu-id="32ed6-217">Payments</span></span>  
+18. <span data-ttu-id="32ed6-218">Sélectionnez « Liste d'enregistrements » dans le champ Type d'article.</span><span class="sxs-lookup"><span data-stu-id="32ed6-218">In the Item type field, select 'Record list'.</span></span>
+19. <span data-ttu-id="32ed6-219">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="32ed6-219">Click Add.</span></span>
+20. <span data-ttu-id="32ed6-220">Dans le champ Description, entrez « Lignes de paiement du message actuel ».</span><span class="sxs-lookup"><span data-stu-id="32ed6-220">In the Description field, enter 'Payment lines of the current message'.</span></span>
+    * <span data-ttu-id="32ed6-221">Lignes de paiement du message actuel</span><span class="sxs-lookup"><span data-stu-id="32ed6-221">Payment lines of the current message</span></span>  
+21. <span data-ttu-id="32ed6-222">Cliquez sur Nouveau pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="32ed6-222">Click New to open the drop dialog.</span></span>
+22. <span data-ttu-id="32ed6-223">Tapez « Créancier » dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="32ed6-223">In the Name field, type 'Creditor'.</span></span>
+    * <span data-ttu-id="32ed6-224">Créancier</span><span class="sxs-lookup"><span data-stu-id="32ed6-224">Creditor</span></span>  
+23. <span data-ttu-id="32ed6-225">Sélectionnez « Enregistrement » dans le champ Type d'article.</span><span class="sxs-lookup"><span data-stu-id="32ed6-225">In the Item type field, select 'Record'.</span></span>
+24. <span data-ttu-id="32ed6-226">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="32ed6-226">Click Add.</span></span>
+25. <span data-ttu-id="32ed6-227">Dans le champ Description, entrez « Partie à laquelle un montant est dû ».</span><span class="sxs-lookup"><span data-stu-id="32ed6-227">In the Description field, enter 'Party to which an amount of money is due.'.</span></span>
+    * <span data-ttu-id="32ed6-228">Partie à laquelle un montant est dû.</span><span class="sxs-lookup"><span data-stu-id="32ed6-228">Party to which an amount of money is due.</span></span>  
+26. <span data-ttu-id="32ed6-229">Cliquez sur Basculer la référence d'élément.</span><span class="sxs-lookup"><span data-stu-id="32ed6-229">Click Switch item reference.</span></span>
+27. <span data-ttu-id="32ed6-230">Dans le champ Rechercher, tapez « Partie ».</span><span class="sxs-lookup"><span data-stu-id="32ed6-230">In the Find field, type 'Party'.</span></span>
+    * <span data-ttu-id="32ed6-231">Partie</span><span class="sxs-lookup"><span data-stu-id="32ed6-231">Party</span></span>  
+28. <span data-ttu-id="32ed6-232">Cliquez sur Suivant</span><span class="sxs-lookup"><span data-stu-id="32ed6-232">Click Find next.</span></span>
+29. <span data-ttu-id="32ed6-233">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="32ed6-233">Click OK.</span></span>
+30. <span data-ttu-id="32ed6-234">Dans le champ Rechercher, tapez « Paiements ».</span><span class="sxs-lookup"><span data-stu-id="32ed6-234">In the Find field, type 'Payments'.</span></span>
+    * <span data-ttu-id="32ed6-235">Paiements</span><span class="sxs-lookup"><span data-stu-id="32ed6-235">Payments</span></span>  
+31. <span data-ttu-id="32ed6-236">Cliquez sur Suivant</span><span class="sxs-lookup"><span data-stu-id="32ed6-236">Click Find next.</span></span>
+32. <span data-ttu-id="32ed6-237">Cliquez sur Nouveau pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="32ed6-237">Click New to open the drop dialog.</span></span>
+33. <span data-ttu-id="32ed6-238">Tapez « Débiteur » dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="32ed6-238">In the Name field, type 'Debtor'.</span></span>
+    * <span data-ttu-id="32ed6-239">Débiteur</span><span class="sxs-lookup"><span data-stu-id="32ed6-239">Debtor</span></span>  
+34. <span data-ttu-id="32ed6-240">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="32ed6-240">Click Add.</span></span>
+35. <span data-ttu-id="32ed6-241">Dans le champ Description, entrez « Partie qui doit une somme d'argent au créancier (final) ».</span><span class="sxs-lookup"><span data-stu-id="32ed6-241">In the Description field, enter 'Party that owes an amount of money to the (ultimate) creditor.'.</span></span>
+    * <span data-ttu-id="32ed6-242">Partie qui doit une somme d'argent au créancier (final).</span><span class="sxs-lookup"><span data-stu-id="32ed6-242">Party that owes an amount of money to the (ultimate) creditor.</span></span>  
+36. <span data-ttu-id="32ed6-243">Cliquez sur Basculer la référence d'élément.</span><span class="sxs-lookup"><span data-stu-id="32ed6-243">Click Switch item reference.</span></span>
+37. <span data-ttu-id="32ed6-244">Dans le champ Rechercher, tapez « Partie ».</span><span class="sxs-lookup"><span data-stu-id="32ed6-244">In the Find field, type 'Party'.</span></span>
+    * <span data-ttu-id="32ed6-245">Partie</span><span class="sxs-lookup"><span data-stu-id="32ed6-245">Party</span></span>  
+38. <span data-ttu-id="32ed6-246">Cliquez sur Suivant</span><span class="sxs-lookup"><span data-stu-id="32ed6-246">Click Find next.</span></span>
+39. <span data-ttu-id="32ed6-247">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="32ed6-247">Click OK.</span></span>
+40. <span data-ttu-id="32ed6-248">Cliquez sur Suivant</span><span class="sxs-lookup"><span data-stu-id="32ed6-248">Click Find next.</span></span>
+41. <span data-ttu-id="32ed6-249">Cliquez sur Nouveau pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="32ed6-249">Click New to open the drop dialog.</span></span>
+42. <span data-ttu-id="32ed6-250">Tapez « Description » dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="32ed6-250">In the Name field, type 'Description'.</span></span>
+    * <span data-ttu-id="32ed6-251">Description</span><span class="sxs-lookup"><span data-stu-id="32ed6-251">Description</span></span>  
+43. <span data-ttu-id="32ed6-252">Sélectionnez « Chaîne » dans le champ Type d'article.</span><span class="sxs-lookup"><span data-stu-id="32ed6-252">In the Item type field, select 'String'.</span></span>
+44. <span data-ttu-id="32ed6-253">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="32ed6-253">Click Add.</span></span>
+45. <span data-ttu-id="32ed6-254">Cliquez sur Nouveau pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="32ed6-254">Click New to open the drop dialog.</span></span>
+46. <span data-ttu-id="32ed6-255">Tapez « Devise » dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="32ed6-255">In the Name field, type 'Currency'.</span></span>
+    * <span data-ttu-id="32ed6-256">Devise</span><span class="sxs-lookup"><span data-stu-id="32ed6-256">Currency</span></span>  
+47. <span data-ttu-id="32ed6-257">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="32ed6-257">Click Add.</span></span>
+48. <span data-ttu-id="32ed6-258">Dans le champ Description, entrez « Code devise ».</span><span class="sxs-lookup"><span data-stu-id="32ed6-258">In the Description field, enter 'Currency code'.</span></span>
+    * <span data-ttu-id="32ed6-259">Code devise</span><span class="sxs-lookup"><span data-stu-id="32ed6-259">Currency code</span></span>  
+49. <span data-ttu-id="32ed6-260">Cliquez sur Nouveau pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="32ed6-260">Click New to open the drop dialog.</span></span>
+50. <span data-ttu-id="32ed6-261">Tapez « TransactionDate » dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="32ed6-261">In the Name field, type 'TransactionDate'.</span></span>
+    * <span data-ttu-id="32ed6-262">TransactionDate</span><span class="sxs-lookup"><span data-stu-id="32ed6-262">TransactionDate</span></span>  
+51. <span data-ttu-id="32ed6-263">Sélectionnez « Date » dans le champ Type d'article.</span><span class="sxs-lookup"><span data-stu-id="32ed6-263">In the Item type field, select 'Date'.</span></span>
+52. <span data-ttu-id="32ed6-264">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="32ed6-264">Click Add.</span></span>
+53. <span data-ttu-id="32ed6-265">Dans le champ Description, entrez « Date de transaction ».</span><span class="sxs-lookup"><span data-stu-id="32ed6-265">In the Description field, enter 'Transaction date'.</span></span>
+    * <span data-ttu-id="32ed6-266">Date de transaction</span><span class="sxs-lookup"><span data-stu-id="32ed6-266">Transaction date</span></span>  
+54. <span data-ttu-id="32ed6-267">Cliquez sur Nouveau pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="32ed6-267">Click New to open the drop dialog.</span></span>
+55. <span data-ttu-id="32ed6-268">Tapez « InstructedAmount » dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="32ed6-268">In the Name field, type 'InstructedAmount'.</span></span>
+    * <span data-ttu-id="32ed6-269">InstructedAmount</span><span class="sxs-lookup"><span data-stu-id="32ed6-269">InstructedAmount</span></span>  
+56. <span data-ttu-id="32ed6-270">Sélectionnez « Réel » dans le champ Type d'article.</span><span class="sxs-lookup"><span data-stu-id="32ed6-270">In the Item type field, select 'Real'.</span></span>
+57. <span data-ttu-id="32ed6-271">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="32ed6-271">Click Add.</span></span>
+58. <span data-ttu-id="32ed6-272">Dans le champ Description, entrez « Montant à transférer entre le débiteur et le créancier, avant déduction des frais.</span><span class="sxs-lookup"><span data-stu-id="32ed6-272">In the Description field, enter 'The amount of money to be moved between the debtor and creditor, before deduction of charges.</span></span> <span data-ttu-id="32ed6-273">Le montant doit être exprimé dans la devise choisie par la partie qui prend l'initiative.</span><span class="sxs-lookup"><span data-stu-id="32ed6-273">The amount should be expressed in the currency as ordered by the initiating party.'.</span></span>
+    * <span data-ttu-id="32ed6-274">Montant à transférer entre le débiteur et le créancier, avant déduction des frais.</span><span class="sxs-lookup"><span data-stu-id="32ed6-274">The amount of money to be moved between the debtor and creditor, before deduction of charges.</span></span> <span data-ttu-id="32ed6-275">Le montant doit être exprimé dans la devise choisie par la partie qui prend l'initiative.</span><span class="sxs-lookup"><span data-stu-id="32ed6-275">The amount should be expressed in the currency as ordered by the initiating party.</span></span>  
+59. <span data-ttu-id="32ed6-276">Cliquez sur Nouveau pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="32ed6-276">Click New to open the drop dialog.</span></span>
+60. <span data-ttu-id="32ed6-277">Tapez « End2EndID » dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="32ed6-277">In the Name field, type 'End2EndID'.</span></span>
+    * <span data-ttu-id="32ed6-278">End2EndID</span><span class="sxs-lookup"><span data-stu-id="32ed6-278">End2EndID</span></span>  
+61. <span data-ttu-id="32ed6-279">Sélectionnez « Chaîne » dans le champ Type d'article.</span><span class="sxs-lookup"><span data-stu-id="32ed6-279">In the Item type field, select 'String'.</span></span>
+62. <span data-ttu-id="32ed6-280">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="32ed6-280">Click Add.</span></span>
+63. <span data-ttu-id="32ed6-281">Dans le champ Description, entrez « Identification unique affectée par la partie qui prend l'initiative.</span><span class="sxs-lookup"><span data-stu-id="32ed6-281">In the Description field, enter 'The unique identification assigned by the initiating party.</span></span> <span data-ttu-id="32ed6-282">Cette identification est transmise telle quelle tout au long de la chaîne de bout en bout. »</span><span class="sxs-lookup"><span data-stu-id="32ed6-282">This identification is passed on, unchanged, throughout the entire end-to-end chain.'.</span></span>
+    * <span data-ttu-id="32ed6-283">Identification unique affectée par la partie qui prend l'initiative.</span><span class="sxs-lookup"><span data-stu-id="32ed6-283">The unique identification assigned by the initiating party.</span></span> <span data-ttu-id="32ed6-284">Cette identification est transmise telle quelle tout au long de la chaîne de bout en bout.</span><span class="sxs-lookup"><span data-stu-id="32ed6-284">This identification is passed on, unchanged, throughout the entire end-to-end chain.</span></span>  
+64. <span data-ttu-id="32ed6-285">Tapez « PaymentModel » dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="32ed6-285">In the Name field, type 'PaymentModel'.</span></span>
+    * <span data-ttu-id="32ed6-286">Le nom PaymentModel s'aligne avec les interfaces prédéfinies des écrans de paiement.</span><span class="sxs-lookup"><span data-stu-id="32ed6-286">The PaymentModel name aligns with predefined interfaces of payment forms.</span></span>  
+65. <span data-ttu-id="32ed6-287">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="32ed6-287">Click Save.</span></span>
+66. <span data-ttu-id="32ed6-288">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="32ed6-288">Close the page.</span></span>
 
 

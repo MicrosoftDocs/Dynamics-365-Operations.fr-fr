@@ -19,28 +19,28 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 0540ba30cb26abe274075deea80ca1e9cfc686f9
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 0129eae177d44100b09c2b7bce553dd5bde5ce0c
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="fixed-asset-disposal-posting-accounts"></a>Comptes de cession du profil de validation des immobilisations
+# <a name="fixed-asset-disposal-posting-accounts"></a><span data-ttu-id="60c67-103">Comptes de cession du profil de validation des immobilisations</span><span class="sxs-lookup"><span data-stu-id="60c67-103">Fixed asset disposal posting accounts</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Cet article explique comment paramétrer les comptes de validation de la comptabilité afin de céder des immobilisations.
+<span data-ttu-id="60c67-104">Cet article explique comment paramétrer les comptes de validation de la comptabilité afin de céder des immobilisations.</span><span class="sxs-lookup"><span data-stu-id="60c67-104">This article explains how to set up general ledger posting accounts for disposing of assets.</span></span>
 
-Sur la page Profils de validation des immobilisations, sur l'organisateur Comptes généraux, sélectionnez Cession - Vente et cession - Mise au rebut pour paramétrer les validations de la comptabilité.
+<span data-ttu-id="60c67-105">Sur la page Profils de validation des immobilisations, sur l'organisateur Comptes généraux, sélectionnez Cession - Vente et cession - Mise au rebut pour paramétrer les validations de la comptabilité.</span><span class="sxs-lookup"><span data-stu-id="60c67-105">In the Fixed asset posting profiles page, on the Ledger accounts FastTab, select Disposal - sale and Disposal - scrap to set up postings to the ledger.</span></span>
 
-Pour les deux types de transactions, le compte général est crédité de la valeur de cession de l'immobilisation. Le débit est validé dans un compte de contrepartie (un compte bancaire, par exemple). Si des immobilisations sont vendues à un client, le compte client est utilisé à la place du compte de contrepartie.
+<span data-ttu-id="60c67-106">Pour les deux types de transactions, le compte général est crédité de la valeur de cession de l'immobilisation.</span><span class="sxs-lookup"><span data-stu-id="60c67-106">For both transaction types, the ledger account is credited for the disposal value of the fixed asset.</span></span> <span data-ttu-id="60c67-107">Le débit est validé dans un compte de contrepartie (un compte bancaire, par exemple).</span><span class="sxs-lookup"><span data-stu-id="60c67-107">The debit is posted to an offset account, which might be, for example, a bank account.</span></span> <span data-ttu-id="60c67-108">Si des immobilisations sont vendues à un client, le compte client est utilisé à la place du compte de contrepartie.</span><span class="sxs-lookup"><span data-stu-id="60c67-108">If a fixed asset is sold to a customer, the customer account is used instead of the offset account.</span></span>
 
-Cliquez sur Cession, puis sur Vente ou Mise au rebut, puis paramétrez les comptes détaillés pour contrepasser la valeur nette de l'immobilisation. Vous pouvez également entrer des informations dans les champs Valeur d'acquisition et Prix de vente dans la page Paramètres de cession. 
+<span data-ttu-id="60c67-109">Cliquez sur Cession, puis sur Vente ou Mise au rebut, puis paramétrez les comptes détaillés pour contrepasser la valeur nette de l'immobilisation.</span><span class="sxs-lookup"><span data-stu-id="60c67-109">Click Disposal and then click Sale or Scrap, and then set up detailed accounts to reverse the net book value of the fixed asset.</span></span> <span data-ttu-id="60c67-110">Vous pouvez également entrer des informations dans les champs Valeur d'acquisition et Prix de vente dans la page Paramètres de cession.</span><span class="sxs-lookup"><span data-stu-id="60c67-110">You can also enter information in the Post value and Sales value type fields in the Disposal parameters page.</span></span> 
 
-La transaction de cession d'une immobilisation dans un regroupement de faible valeur réduit la valeur nette de ce regroupement du montant vendu uniquement. Toutefois, si la vente d'une immobilisation est supérieure à la valeur nette du regroupement de faible valeur, la valeur nette est réduite à zéro.
+<span data-ttu-id="60c67-111">La transaction de cession d'une immobilisation dans un regroupement de faible valeur réduit la valeur nette de ce regroupement du montant vendu uniquement.</span><span class="sxs-lookup"><span data-stu-id="60c67-111">The disposal transaction for an asset in a low-value pool reduces the net book value of the low-value pool by the disposed amount only.</span></span> <span data-ttu-id="60c67-112">Toutefois, si la vente d'une immobilisation est supérieure à la valeur nette du regroupement de faible valeur, la valeur nette est réduite à zéro.</span><span class="sxs-lookup"><span data-stu-id="60c67-112">However, when the sale of an asset is exceeds the net book value of the low-value pool, the net book value is reduced to zero.</span></span>
 
 
 

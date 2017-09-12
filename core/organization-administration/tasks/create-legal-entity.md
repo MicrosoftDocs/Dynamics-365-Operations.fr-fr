@@ -16,45 +16,45 @@ ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: e07adb5f77681c7901662ae94b6d916008ac3c6d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 89d3babc4447ca7398521b93634db7ecb6cfb5de
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-legal-entity"></a>Créer une entité juridique
+# <a name="create-a-legal-entity"></a><span data-ttu-id="7a517-103">Créer une entité juridique</span><span class="sxs-lookup"><span data-stu-id="7a517-103">Create a legal entity</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Une entité juridique est une organisation identifiée par son enregistrement auprès d'une autorité juridique. Les entités juridiques peuvent passer des contrats et sont tenues de préparer des relevés faisant état de leurs performances. Les procédures suivantes expliquent comment créer une entité juridique. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
+<span data-ttu-id="7a517-104">Une entité juridique est une organisation identifiée par son enregistrement auprès d'une autorité juridique.</span><span class="sxs-lookup"><span data-stu-id="7a517-104">A legal entity is an organization that is identified through registration with a legal authority.</span></span> <span data-ttu-id="7a517-105">Les entités juridiques peuvent passer des contrats et sont tenues de préparer des relevés faisant état de leurs performances.</span><span class="sxs-lookup"><span data-stu-id="7a517-105">Legal entities can enter into contracts and are required to prepare statements that report on their performance.</span></span> <span data-ttu-id="7a517-106">Les procédures suivantes expliquent comment créer une entité juridique.</span><span class="sxs-lookup"><span data-stu-id="7a517-106">The following procedure explains how to create a legal entity.</span></span> <span data-ttu-id="7a517-107">Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.</span><span class="sxs-lookup"><span data-stu-id="7a517-107">The demo data company used to create this procedure is USMF.</span></span>
 
-1. Accédez à Administration d'organisation > Organisations > Entités juridiques.
-2. Cliquez sur Nouveau.
-3. Tapez une valeur dans le champ Nom.
-4. Tapez une valeur dans le champ Société.
-5. Dans le champ Pays/Région, sélectionnez ou entrez une valeur.
-6. Cliquez sur OK.
-    * Dans la section Général, indiquez les informations générales suivantes sur l'entité juridique : entrez un nom de recherche, si un nom de recherche est requis. Il s'agit d'un nom alternatif pouvant être utilisé pour rechercher cette entité juridique. Choisissez si cette entité juridique est utilisée en tant que société de consolidation. Choisissez si cette entité juridique est utilisée en tant que société d'élimination.  
-7. Développez la section Adresses.
-    * Dans la section Adresses, entrez les informations d'adresse, telles que la rue, le numéro, le code postal et la ville.  
-8. Développez la section Informations de contact.
-    * Dans la section Informations de contact, entrez les informations relatives aux modes de communication, notamment les adresses e-mail, les URL et les numéros de téléphone.  
-9. Développez la section Génération d'état statutaire.
-    * Dans la section Génération d'état statutaire, entrez les numéros d'enregistrement utilisés pour la génération d'états statutaires.  
-10. Développez la section Numéros d'enregistrement.
-    * Dans la section Numéros d'enregistrement, entrez toutes les informations requises par l'entité juridique.  
-11. Développez la section Informations sur le compte en banque.
-    * Dans la section Informations sur le compte en banque, entrez les comptes bancaires et les numéros d'acheminement de l'entité juridique.  
-12. Développez la section Commerce extérieur et logistique.
-    * Dans la section Commerce extérieur et logistique, entrez les informations d'expédition pour l'entité juridique.  
-13. Développez la section Séquences de nombres.
-    * Dans la section Séquences de nombres, vous pouvez visualiser les souches de numéros associées à l'entité juridique.  
-14. Développez la section Images.
-    * Dans la section Images, affichez ou modifiez l'image de logo et/ou de tableau de bord associées à l'entité juridique.  
-15. Développez la section Immatriculation fiscale.
-    * Dans la section Immatriculation fiscale, entrez les numéros d'enregistrement utilisés pour les déclarations aux administrations fiscales.  
-16. Développez la section Taxe sur les honoraires.
-    * Dans la section Taxe sur les honoraires, entrez les informations de déclaration des honoraires associées à l'entité juridique.  
-17. Cliquez sur Enregistrer.
+1. <span data-ttu-id="7a517-108">Accédez à Administration d'organisation > Organisations > Entités juridiques.</span><span class="sxs-lookup"><span data-stu-id="7a517-108">Go to Organization administration > Organizations > Legal entities.</span></span>
+2. <span data-ttu-id="7a517-109">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="7a517-109">Click New.</span></span>
+3. <span data-ttu-id="7a517-110">Tapez une valeur dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="7a517-110">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="7a517-111">Tapez une valeur dans le champ Société.</span><span class="sxs-lookup"><span data-stu-id="7a517-111">In the Company field, type a value.</span></span>
+5. <span data-ttu-id="7a517-112">Dans le champ Pays/Région, sélectionnez ou entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="7a517-112">In the Country/region field, enter or select a value.</span></span>
+6. <span data-ttu-id="7a517-113">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="7a517-113">Click OK.</span></span>
+    * <span data-ttu-id="7a517-114">Dans la section Général, indiquez les informations générales suivantes sur l'entité juridique : entrez un nom de recherche, si un nom de recherche est requis.</span><span class="sxs-lookup"><span data-stu-id="7a517-114">In the General section, provide the following general information about the legal entity: Enter a search name, if a search name is required.</span></span> <span data-ttu-id="7a517-115">Il s'agit d'un nom alternatif pouvant être utilisé pour rechercher cette entité juridique.</span><span class="sxs-lookup"><span data-stu-id="7a517-115">A search name is an alternate name that can be used to search for this legal entity.</span></span> <span data-ttu-id="7a517-116">Choisissez si cette entité juridique est utilisée en tant que société de consolidation.</span><span class="sxs-lookup"><span data-stu-id="7a517-116">Select whether this legal entity is being used as a consolidation company.</span></span> <span data-ttu-id="7a517-117">Choisissez si cette entité juridique est utilisée en tant que société d'élimination.</span><span class="sxs-lookup"><span data-stu-id="7a517-117">Select whether this legal entity is being used as an elimination company.</span></span>  
+7. <span data-ttu-id="7a517-118">Développez la section Adresses.</span><span class="sxs-lookup"><span data-stu-id="7a517-118">Expand the Addresses section.</span></span>
+    * <span data-ttu-id="7a517-119">Dans la section Adresses, entrez les informations d'adresse, telles que la rue, le numéro, le code postal et la ville.</span><span class="sxs-lookup"><span data-stu-id="7a517-119">In the Addresses section, enter address information, such as the street name and number, postal code, and city.</span></span>  
+8. <span data-ttu-id="7a517-120">Développez la section Informations de contact.</span><span class="sxs-lookup"><span data-stu-id="7a517-120">Expand the Contact information section.</span></span>
+    * <span data-ttu-id="7a517-121">Dans la section Informations de contact, entrez les informations relatives aux modes de communication, notamment les adresses e-mail, les URL et les numéros de téléphone.</span><span class="sxs-lookup"><span data-stu-id="7a517-121">In the Contact information section, enter information about methods of communication, such as email addresses, URLs, and telephone numbers.</span></span>  
+9. <span data-ttu-id="7a517-122">Développez la section Génération d'état statutaire.</span><span class="sxs-lookup"><span data-stu-id="7a517-122">Expand the Statutory reporting section.</span></span>
+    * <span data-ttu-id="7a517-123">Dans la section Génération d'état statutaire, entrez les numéros d'enregistrement utilisés pour la génération d'états statutaires.</span><span class="sxs-lookup"><span data-stu-id="7a517-123">In the Statutory reporting section, enter the registration numbers that are used for statutory reporting.</span></span>  
+10. <span data-ttu-id="7a517-124">Développez la section Numéros d'enregistrement.</span><span class="sxs-lookup"><span data-stu-id="7a517-124">Expand the Registration numbers section.</span></span>
+    * <span data-ttu-id="7a517-125">Dans la section Numéros d'enregistrement, entrez toutes les informations requises par l'entité juridique.</span><span class="sxs-lookup"><span data-stu-id="7a517-125">In the Registration numbers section, enter any information required by the legal entity.</span></span>  
+11. <span data-ttu-id="7a517-126">Développez la section Informations sur le compte en banque.</span><span class="sxs-lookup"><span data-stu-id="7a517-126">Expand the Bank account information section.</span></span>
+    * <span data-ttu-id="7a517-127">Dans la section Informations sur le compte en banque, entrez les comptes bancaires et les numéros d'acheminement de l'entité juridique.</span><span class="sxs-lookup"><span data-stu-id="7a517-127">In the Bank account information section, enter bank accounts and routing numbers for the legal entity.</span></span>  
+12. <span data-ttu-id="7a517-128">Développez la section Commerce extérieur et logistique.</span><span class="sxs-lookup"><span data-stu-id="7a517-128">Expand the Foreign trade and logistics section.</span></span>
+    * <span data-ttu-id="7a517-129">Dans la section Commerce extérieur et logistique, entrez les informations d'expédition pour l'entité juridique.</span><span class="sxs-lookup"><span data-stu-id="7a517-129">In the Foreign trade and logistics section, enter shipping information for the legal entity.</span></span>  
+13. <span data-ttu-id="7a517-130">Développez la section Séquences de nombres.</span><span class="sxs-lookup"><span data-stu-id="7a517-130">Expand the Number sequences section.</span></span>
+    * <span data-ttu-id="7a517-131">Dans la section Séquences de nombres, vous pouvez visualiser les souches de numéros associées à l'entité juridique.</span><span class="sxs-lookup"><span data-stu-id="7a517-131">In the Number sequences section, you can view the number sequences that are associated with the legal entity.</span></span>  
+14. <span data-ttu-id="7a517-132">Développez la section Images.</span><span class="sxs-lookup"><span data-stu-id="7a517-132">Expand the Images section.</span></span>
+    * <span data-ttu-id="7a517-133">Dans la section Images, affichez ou modifiez l'image de logo et/ou de tableau de bord associées à l'entité juridique.</span><span class="sxs-lookup"><span data-stu-id="7a517-133">In the Images section, view or change the logo and/or dashboard image that are associated with the legal entity.</span></span>  
+15. <span data-ttu-id="7a517-134">Développez la section Immatriculation fiscale.</span><span class="sxs-lookup"><span data-stu-id="7a517-134">Expand the Tax registration section.</span></span>
+    * <span data-ttu-id="7a517-135">Dans la section Immatriculation fiscale, entrez les numéros d'enregistrement utilisés pour les déclarations aux administrations fiscales.</span><span class="sxs-lookup"><span data-stu-id="7a517-135">In the Tax registration section, enter the registration numbers that are used to report to tax authorities.</span></span>  
+16. <span data-ttu-id="7a517-136">Développez la section Taxe sur les honoraires.</span><span class="sxs-lookup"><span data-stu-id="7a517-136">Expand the Tax 1099 section.</span></span>
+    * <span data-ttu-id="7a517-137">Dans la section Taxe sur les honoraires, entrez les informations de déclaration des honoraires associées à l'entité juridique.</span><span class="sxs-lookup"><span data-stu-id="7a517-137">In the Tax 1099 section, enter 1099 information for the legal entity.</span></span>  
+17. <span data-ttu-id="7a517-138">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="7a517-138">Click Save.</span></span>
 
 

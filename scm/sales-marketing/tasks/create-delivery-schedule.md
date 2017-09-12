@@ -16,53 +16,53 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: aa2bb25207be4fde43ae9dee85ee6868b1b58972
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 956edeac33f8531ecebef64301f2318333000429
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-delivery-schedule"></a>Créer un plan de livraison
+# <a name="create-a-delivery-schedule"></a><span data-ttu-id="317d6-103">Créer un plan de livraison</span><span class="sxs-lookup"><span data-stu-id="317d6-103">Create a delivery schedule</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Cette procédure illustre comment créer un calendrier de livraison pour une commande client. Un plan de livraison est utilisé lorsqu'une quantité sur une commande ou un devis doit être livrée dans le cadre de plusieurs expéditions. Vous pouvez exécuter cette procédure dans la société fictive de démonstration USMF ou utiliser vos propres données.
+<span data-ttu-id="317d6-104">Cette procédure illustre comment créer un calendrier de livraison pour une commande client.</span><span class="sxs-lookup"><span data-stu-id="317d6-104">This procedure demonstrates how to create a delivery schedule for a sales order.</span></span> <span data-ttu-id="317d6-105">Un plan de livraison est utilisé lorsqu'une quantité sur une commande ou un devis doit être livrée dans le cadre de plusieurs expéditions.</span><span class="sxs-lookup"><span data-stu-id="317d6-105">A delivery schedule is used when a quantity on an order or a quotation is requested to be delivered in multiple shipments.</span></span> <span data-ttu-id="317d6-106">Vous pouvez exécuter cette procédure dans la société fictive de démonstration USMF ou utiliser vos propres données.</span><span class="sxs-lookup"><span data-stu-id="317d6-106">You can run this procedure in demo data company USMF or on your own data.</span></span>
 
 
-## <a name="create-delivery-schedule"></a>Créer un calendrier de livraison
-1. Allez dans Toutes les commandes client.
-2. Cliquez sur Nouveau.
-3. Entrez ou sélectionnez une valeur dans le champ Compte client.
-4. Cliquez sur OK.
-5. Entrez ou sélectionnez une valeur dans le champ Numéro d'article.
-6. Entrez une valeur supérieure à 1 dans le champ Quantité.
-7. Cliquez sur Ligne de commandes client.
-8. Cliquez sur Plan de livraison.
-    * La page Plan de livraison est l'emplacement dans lequel vous pouvez spécifier le nombre d'expéditions pour lesquelles la quantité totale de la ligne de commande sera livrée au client.    
-    * Par défaut, le système copie la quantité totale et d'autres détails de livraison de la ligne de vente d'origine dans la première ligne du calendrier de livraison. Dans cet exemple, nous allons créer un programme pour deux expéditions. La date de la deuxième expédition sera décalée d'une semaine par rapport à la première.  
-9. Dans le champ Quantité, entrez un nombre qui fait partie de la quantité totale.
-10. Cliquez sur Nouveau.
-11. Entrez la quantité restante dans le champ Quantité.
-12. Dans le champ Date d'expédition demandée, entrez une date ayant une semaine d'avance sur la date de la première ligne de livraison.
-    * Les deux options de l'organisateur Conversion de frais contrôlent la manière dont vous souhaitez répartir les frais entre les lignes du plan de livraison, une fois qu'ils ont été affectés à la ligne de commande d'origine. Si vous sélectionnez Copier les montants bruts, le même montant des frais est copié dans chaque ligne. L'option Allouer aux lignes de livraison divise les frais de manière égale entre les lignes de livraison.  
-    * Seuls les frais fixes peuvent être divisés alors que les frais variables sont toujours copiés dans les lignes.  
-13. Déplacez le curseur de la deuxième ligne de livraison pour mettre la page à jour.
-    * Vous pouvez suivre la quantité totale répartie sur les lignes du plan de livraison en regardant les champs Total et Restant. Lorsque la quantité restante est nulle cela signifie que la quantité totale de la ligne d'origine a été affectée au plan.   
-14. Cliquez sur OK.
-    * Le plan de livraison vient d'être copié dans les lignes de commande.   
-    * La ligne de commande d'origine (appelée Ligne commerciale) a été convertie en une ligne de commande contenant plusieurs livraisons. Elle est identifiée par une icône distincte et fait office d'en-tête pour les lignes de livraison.  
-    * Les deux nouvelles lignes (appelées lignes de livraison) constituent un plan de livraison. La commande sera traitée par rapport à ces lignes et non la ligne d'origine. Si des documents tels que les bordereaux de confirmation, les prélèvements, les bons de livraison ou les factures sont imprimés, seules les lignes de livraison sont affichées.   
-    * Les lignes de livraison peuvent avoir des dates de livraison, des quantités, des modes de livraison et des dimensions de stockage différents (telles qu'un site ou un entrepôt). Toutefois, les dimensions de produit doivent toujours correspondre à celles de la ligne commerciale et ne peuvent pas être changées.  
-15. Entrez une valeur supérieure à celle actuelle dans le champ Quantité.
-16. Sélectionnez la ligne commerciale pour voir l'effet du nouveau calcul de quantité.
-17. Cliquez sur Prélever et emballer dans le volet Actions.
-18. Cliquez sur Validation du bon de livraison.
-19. Développez la section Paramètres.
-20. Sélectionnez « Tout » dans le champ Quantité.
-    * Notez que le bon de livraison sera créé pour les deux lignes du plan de livraison et non pour la ligne de commande d'origine.  
-21. Sélectionnez Oui dans le champ Imprimer le bon de livraison.
-22. Cliquez sur OK.
-23. Cliquez sur Oui.
-24. Fermez la page.
+## <a name="create-delivery-schedule"></a><span data-ttu-id="317d6-107">Créer un calendrier de livraison</span><span class="sxs-lookup"><span data-stu-id="317d6-107">Create delivery schedule</span></span>
+1. <span data-ttu-id="317d6-108">Allez dans Toutes les commandes client.</span><span class="sxs-lookup"><span data-stu-id="317d6-108">Go to All sales orders.</span></span>
+2. <span data-ttu-id="317d6-109">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="317d6-109">Click New.</span></span>
+3. <span data-ttu-id="317d6-110">Entrez ou sélectionnez une valeur dans le champ Compte client.</span><span class="sxs-lookup"><span data-stu-id="317d6-110">In the Customer account field, enter or select a value.</span></span>
+4. <span data-ttu-id="317d6-111">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="317d6-111">Click OK.</span></span>
+5. <span data-ttu-id="317d6-112">Entrez ou sélectionnez une valeur dans le champ Numéro d'article.</span><span class="sxs-lookup"><span data-stu-id="317d6-112">In the Item number field, enter or select a value.</span></span>
+6. <span data-ttu-id="317d6-113">Entrez une valeur supérieure à 1 dans le champ Quantité.</span><span class="sxs-lookup"><span data-stu-id="317d6-113">In the Quantity field, enter a number that is bigger than 1.</span></span>
+7. <span data-ttu-id="317d6-114">Cliquez sur Ligne de commandes client.</span><span class="sxs-lookup"><span data-stu-id="317d6-114">Click Sales order line.</span></span>
+8. <span data-ttu-id="317d6-115">Cliquez sur Plan de livraison.</span><span class="sxs-lookup"><span data-stu-id="317d6-115">Click Delivery schedule.</span></span>
+    * <span data-ttu-id="317d6-116">La page Plan de livraison est l'emplacement dans lequel vous pouvez spécifier le nombre d'expéditions pour lesquelles la quantité totale de la ligne de commande sera livrée au client.</span><span class="sxs-lookup"><span data-stu-id="317d6-116">The Delivery schedule page is the place where you can specify the number of shipments in which the total quantity of the order line will be delivered to the customer.</span></span>    
+    * <span data-ttu-id="317d6-117">Par défaut, le système copie la quantité totale et d'autres détails de livraison de la ligne de vente d'origine dans la première ligne du calendrier de livraison.</span><span class="sxs-lookup"><span data-stu-id="317d6-117">By default, the system copies the total quantity and other delivery details of the original sales line into the first delivery schedule line.</span></span> <span data-ttu-id="317d6-118">Dans cet exemple, nous allons créer un programme pour deux expéditions. La date de la deuxième expédition sera décalée d'une semaine par rapport à la première.</span><span class="sxs-lookup"><span data-stu-id="317d6-118">In this example, we’ll create a schedule for two shipments, with the second shipment's date offset by a week from the first one.</span></span>  
+9. <span data-ttu-id="317d6-119">Dans le champ Quantité, entrez un nombre qui fait partie de la quantité totale.</span><span class="sxs-lookup"><span data-stu-id="317d6-119">In the Quantity field, enter a number that is part of the total quantity.</span></span>
+10. <span data-ttu-id="317d6-120">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="317d6-120">Click New.</span></span>
+11. <span data-ttu-id="317d6-121">Entrez la quantité restante dans le champ Quantité.</span><span class="sxs-lookup"><span data-stu-id="317d6-121">In the Quantity field, enter the remaining quantity.</span></span>
+12. <span data-ttu-id="317d6-122">Dans le champ Date d'expédition demandée, entrez une date ayant une semaine d'avance sur la date de la première ligne de livraison.</span><span class="sxs-lookup"><span data-stu-id="317d6-122">In the Requested ship date field, enter a date a date that is one week ahead from the date of the first delivery line.</span></span>
+    * <span data-ttu-id="317d6-123">Les deux options de l'organisateur Conversion de frais contrôlent la manière dont vous souhaitez répartir les frais entre les lignes du plan de livraison, une fois qu'ils ont été affectés à la ligne de commande d'origine.</span><span class="sxs-lookup"><span data-stu-id="317d6-123">The two options on the Charges conversion FastTab control how you want the charges to be distributed across the delivery schedule lines, once they’ve been assigned to the original order line.</span></span> <span data-ttu-id="317d6-124">Si vous sélectionnez Copier les montants bruts, le même montant des frais est copié dans chaque ligne.</span><span class="sxs-lookup"><span data-stu-id="317d6-124">If you select Copy gross amounts, the same charge amount is copied to each line.</span></span> <span data-ttu-id="317d6-125">L'option Allouer aux lignes de livraison divise les frais de manière égale entre les lignes de livraison.</span><span class="sxs-lookup"><span data-stu-id="317d6-125">The Allocate to delivery lines option divides the charge equally across the delivery lines.</span></span>  
+    * <span data-ttu-id="317d6-126">Seuls les frais fixes peuvent être divisés alors que les frais variables sont toujours copiés dans les lignes.</span><span class="sxs-lookup"><span data-stu-id="317d6-126">Only fixed charges can be divided, whereas variable charges will still be copied to the lines.</span></span>  
+13. <span data-ttu-id="317d6-127">Déplacez le curseur de la deuxième ligne de livraison pour mettre la page à jour.</span><span class="sxs-lookup"><span data-stu-id="317d6-127">Move the cursor away from the second delivery line to update the page.</span></span>
+    * <span data-ttu-id="317d6-128">Vous pouvez suivre la quantité totale répartie sur les lignes du plan de livraison en regardant les champs Total et Restant.</span><span class="sxs-lookup"><span data-stu-id="317d6-128">You can keep track of the total quantity that’s allocated to the delivery schedule lines by looking at the Total and Remaining fields.</span></span> <span data-ttu-id="317d6-129">Lorsque la quantité restante est nulle cela signifie que la quantité totale de la ligne d'origine a été affectée au plan.</span><span class="sxs-lookup"><span data-stu-id="317d6-129">When the remaining quantity is zero, the full quantity from the original line has been allocated to the schedule.</span></span>   
+14. <span data-ttu-id="317d6-130">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="317d6-130">Click OK.</span></span>
+    * <span data-ttu-id="317d6-131">Le plan de livraison vient d'être copié dans les lignes de commande.</span><span class="sxs-lookup"><span data-stu-id="317d6-131">The delivery schedule has now been copied to the order lines.</span></span>   
+    * <span data-ttu-id="317d6-132">La ligne de commande d'origine (appelée Ligne commerciale) a été convertie en une ligne de commande contenant plusieurs livraisons.</span><span class="sxs-lookup"><span data-stu-id="317d6-132">The original order line, referred to as a Commercial line, has been converted to an Order line with multiple deliveries.</span></span> <span data-ttu-id="317d6-133">Elle est identifiée par une icône distincte et fait office d'en-tête pour les lignes de livraison.</span><span class="sxs-lookup"><span data-stu-id="317d6-133">It is marked with a distinct icon and acts as a header for the delivery lines.</span></span>  
+    * <span data-ttu-id="317d6-134">Les deux nouvelles lignes (appelées lignes de livraison) constituent un plan de livraison.</span><span class="sxs-lookup"><span data-stu-id="317d6-134">The two new lines, referred to as delivery lines, make up one delivery schedule.</span></span> <span data-ttu-id="317d6-135">La commande sera traitée par rapport à ces lignes et non la ligne d'origine.</span><span class="sxs-lookup"><span data-stu-id="317d6-135">The order will be processed against these lines and not the original line.</span></span> <span data-ttu-id="317d6-136">Si des documents tels que les bordereaux de confirmation, les prélèvements, les bons de livraison ou les factures sont imprimés, seules les lignes de livraison sont affichées.</span><span class="sxs-lookup"><span data-stu-id="317d6-136">If documents such as confirmation slips, picking lists, packing slips, or invoices are printed, only the delivery lines are shown.</span></span>   
+    * <span data-ttu-id="317d6-137">Les lignes de livraison peuvent avoir des dates de livraison, des quantités, des modes de livraison et des dimensions de stockage différents (telles qu'un site ou un entrepôt).</span><span class="sxs-lookup"><span data-stu-id="317d6-137">The delivery lines can have different delivery dates, quantities, modes of delivery, and storage dimensions, such as site and warehouse.</span></span> <span data-ttu-id="317d6-138">Toutefois, les dimensions de produit doivent toujours correspondre à celles de la ligne commerciale et ne peuvent pas être changées.</span><span class="sxs-lookup"><span data-stu-id="317d6-138">However, the product dimensions must always match the ones on the commercial line and can't be changed.</span></span>  
+15. <span data-ttu-id="317d6-139">Entrez une valeur supérieure à celle actuelle dans le champ Quantité.</span><span class="sxs-lookup"><span data-stu-id="317d6-139">In the Quantity field, enter a number that's bigger than the current one.</span></span>
+16. <span data-ttu-id="317d6-140">Sélectionnez la ligne commerciale pour voir l'effet du nouveau calcul de quantité.</span><span class="sxs-lookup"><span data-stu-id="317d6-140">Select the commercial line to see the effect of the quantity recalculation.</span></span>
+17. <span data-ttu-id="317d6-141">Cliquez sur Prélever et emballer dans le volet Actions.</span><span class="sxs-lookup"><span data-stu-id="317d6-141">On the Action Pane, click Pick and pack.</span></span>
+18. <span data-ttu-id="317d6-142">Cliquez sur Validation du bon de livraison.</span><span class="sxs-lookup"><span data-stu-id="317d6-142">Click Post packing slip.</span></span>
+19. <span data-ttu-id="317d6-143">Développez la section Paramètres.</span><span class="sxs-lookup"><span data-stu-id="317d6-143">Expand the Parameters section.</span></span>
+20. <span data-ttu-id="317d6-144">Sélectionnez « Tout » dans le champ Quantité.</span><span class="sxs-lookup"><span data-stu-id="317d6-144">In the Quantity field, select 'All'.</span></span>
+    * <span data-ttu-id="317d6-145">Notez que le bon de livraison sera créé pour les deux lignes du plan de livraison et non pour la ligne de commande d'origine.</span><span class="sxs-lookup"><span data-stu-id="317d6-145">Note that the packing slip will be created for the two delivery schedule lines and not the original order line.</span></span>  
+21. <span data-ttu-id="317d6-146">Sélectionnez Oui dans le champ Imprimer le bon de livraison.</span><span class="sxs-lookup"><span data-stu-id="317d6-146">Select Yes in the Print packing slip field.</span></span>
+22. <span data-ttu-id="317d6-147">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="317d6-147">Click OK.</span></span>
+23. <span data-ttu-id="317d6-148">Cliquez sur Oui.</span><span class="sxs-lookup"><span data-stu-id="317d6-148">Click Yes.</span></span>
+24. <span data-ttu-id="317d6-149">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="317d6-149">Close the page.</span></span>
 
 

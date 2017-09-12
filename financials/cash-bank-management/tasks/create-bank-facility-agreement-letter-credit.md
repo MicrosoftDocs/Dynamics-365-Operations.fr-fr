@@ -16,38 +16,38 @@ ms.author: leguo
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 3fef888f62bfa9f17434af940e0d137a1aeb49a2
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: ac3394a40bff3aaee6a76448633e4f36c4049612
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-bank-facility-agreement-for-a-letter-of-credit"></a>Créer un accord d'établissement bancaire pour une lettre de crédit
+# <a name="create-a-bank-facility-agreement-for-a-letter-of-credit"></a><span data-ttu-id="3641b-103">Créer un accord d'établissement bancaire pour une lettre de crédit</span><span class="sxs-lookup"><span data-stu-id="3641b-103">Create a bank facility agreement for a letter of credit</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Cette tâche illustre la création d'un accord d'établissement bancaire pour traiter une lettre de crédit. Vous devrez paramétrer des établissements bancaires et des profils de validation avant cette tâche.  Cette tâche utilise la société fictive USMF.  
+<span data-ttu-id="3641b-104">Cette tâche illustre la création d'un accord d'établissement bancaire pour traiter une lettre de crédit.</span><span class="sxs-lookup"><span data-stu-id="3641b-104">This task walks through the creating a Bank facility agreement to process a Letter of credit.</span></span> <span data-ttu-id="3641b-105">Vous devrez paramétrer des établissements bancaires et des profils de validation avant cette tâche.</span><span class="sxs-lookup"><span data-stu-id="3641b-105">You will want to set up bank facilities and posting profiles before this task.</span></span>  <span data-ttu-id="3641b-106">Cette tâche utilise la société fictive USMF.</span><span class="sxs-lookup"><span data-stu-id="3641b-106">This task uses the demo company 'USMF'.</span></span>  
 
 
-## <a name="create-bank-facility-agreement"></a>Créer un accord d'établissement bancaire
-1. Accédez à Gestion de la trésorerie et de la banque > Lettres de crédit > Accords d'établissement bancaire.
-2. Cliquez sur Nouveau.
-3. Dans le champ Numéro d'accord, entrez le numéro d'accord en fonction de l'accord avec la banque.
-4. Dans le champ Compte en banque, entrez le numéro de compte bancaire de la banque émettrice.
-5. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-6. Entrez une date et une heure dans le champ Date de début.
-7. Entrez une date et une heure dans le champ Date de fin.
-8. Développez ou réduisez la section Général.
-9. Cliquez sur Ajouter une ligne.
-10. Dans le champ Type d'établissement, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-11. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-12. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-13. Dans le champ Limite, entrez le montant de l'établissement tel que négocié avec la banque.
-14. Cliquez sur Enregistrer.
-15. Cliquez sur Étendre pour ouvrir l'écran de boîte de dialogue.
-16. Saisissez une valeur dans le champ Nouveau numéro d'accord.
-17. Entrez une date et une heure dans le champ Date de fin.
-18. Cliquez sur Étendre.
-19. Fermez la page.
+## <a name="create-bank-facility-agreement"></a><span data-ttu-id="3641b-107">Créer un accord d'établissement bancaire</span><span class="sxs-lookup"><span data-stu-id="3641b-107">Create Bank facility agreement</span></span>
+1. <span data-ttu-id="3641b-108">Accédez à Gestion de la trésorerie et de la banque > Lettres de crédit > Accords d'établissement bancaire.</span><span class="sxs-lookup"><span data-stu-id="3641b-108">Go to Cash and bank management > Letters of credit > Bank facility agreements.</span></span>
+2. <span data-ttu-id="3641b-109">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="3641b-109">Click New.</span></span>
+3. <span data-ttu-id="3641b-110">Dans le champ Numéro d'accord, entrez le numéro d'accord en fonction de l'accord avec la banque.</span><span class="sxs-lookup"><span data-stu-id="3641b-110">In the Agreement number field, enter the agreement number according to the agreement with the bank.</span></span>
+4. <span data-ttu-id="3641b-111">Dans le champ Compte en banque, entrez le numéro de compte bancaire de la banque émettrice.</span><span class="sxs-lookup"><span data-stu-id="3641b-111">In the Bank account field, enter the account number at the issuing bank.</span></span>
+5. <span data-ttu-id="3641b-112">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="3641b-112">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="3641b-113">Entrez une date et une heure dans le champ Date de début.</span><span class="sxs-lookup"><span data-stu-id="3641b-113">In the Start date field, enter a date and time.</span></span>
+7. <span data-ttu-id="3641b-114">Entrez une date et une heure dans le champ Date de fin.</span><span class="sxs-lookup"><span data-stu-id="3641b-114">In the End date field, enter a date and time.</span></span>
+8. <span data-ttu-id="3641b-115">Développez ou réduisez la section Général.</span><span class="sxs-lookup"><span data-stu-id="3641b-115">Expand or collapse the General section.</span></span>
+9. <span data-ttu-id="3641b-116">Cliquez sur Ajouter une ligne.</span><span class="sxs-lookup"><span data-stu-id="3641b-116">Click Add line.</span></span>
+10. <span data-ttu-id="3641b-117">Dans le champ Type d'établissement, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="3641b-117">In the Facility type field, click the drop-down button to open the lookup.</span></span>
+11. <span data-ttu-id="3641b-118">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="3641b-118">In the list, find and select the desired record.</span></span>
+12. <span data-ttu-id="3641b-119">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="3641b-119">In the list, click the link in the selected row.</span></span>
+13. <span data-ttu-id="3641b-120">Dans le champ Limite, entrez le montant de l'établissement tel que négocié avec la banque.</span><span class="sxs-lookup"><span data-stu-id="3641b-120">In the Limit field, enter the facility amount that was negotiated with the bank.</span></span>
+14. <span data-ttu-id="3641b-121">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="3641b-121">Click Save.</span></span>
+15. <span data-ttu-id="3641b-122">Cliquez sur Étendre pour ouvrir l'écran de boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="3641b-122">Click Extend to open the drop dialog.</span></span>
+16. <span data-ttu-id="3641b-123">Saisissez une valeur dans le champ Nouveau numéro d'accord.</span><span class="sxs-lookup"><span data-stu-id="3641b-123">In the New agreement number field, type a value.</span></span>
+17. <span data-ttu-id="3641b-124">Entrez une date et une heure dans le champ Date de fin.</span><span class="sxs-lookup"><span data-stu-id="3641b-124">In the End date field, enter a date and time.</span></span>
+18. <span data-ttu-id="3641b-125">Cliquez sur Étendre.</span><span class="sxs-lookup"><span data-stu-id="3641b-125">Click Extend.</span></span>
+19. <span data-ttu-id="3641b-126">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="3641b-126">Close the page.</span></span>
 
 

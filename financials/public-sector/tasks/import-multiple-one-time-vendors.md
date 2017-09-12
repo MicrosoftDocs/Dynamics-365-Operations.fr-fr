@@ -17,26 +17,26 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: eba32df87c96cb7eeae2766dfdd2efd08a9a5ec2
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 223943cd6e3f355ecef09e8b12952c4402ce1864
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="import-and-create-multiple-one-time-vendors-and-invoices-in-the-public-sector"></a>Importer et créer plusieurs fournisseurs et factures occasionnels dans le secteur public
+# <a name="import-and-create-multiple-one-time-vendors-and-invoices-in-the-public-sector"></a><span data-ttu-id="a8325-103">Importer et créer plusieurs fournisseurs et factures occasionnels dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="a8325-103">Import and create multiple one-time vendors and invoices in the public sector</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Lorsqu'une approbation ou un contrat sous forme d'une commande fournisseur n'est pas nécessaire, vous pouvez créer une facture pour un nouveau fournisseur avec vous n'entretenez pas de relation régulière, tout en créant un enregistrement pour le fournisseur. Cette procédure a été créée à l'aide des données de la société fictive PSUS dans la partition du secteur public.
+<span data-ttu-id="a8325-104">Lorsqu'une approbation ou un contrat sous forme d'une commande fournisseur n'est pas nécessaire, vous pouvez créer une facture pour un nouveau fournisseur avec vous n'entretenez pas de relation régulière, tout en créant un enregistrement pour le fournisseur.</span><span class="sxs-lookup"><span data-stu-id="a8325-104">When approval or a contract in the form of a purchase order is not required, you can create an invoice for a new vendor with whom you have no regular relationship, at the same time as creating a record for the vendor.</span></span> <span data-ttu-id="a8325-105">Cette procédure a été créée à l'aide des données de la société fictive PSUS dans la partition du secteur public.</span><span class="sxs-lookup"><span data-stu-id="a8325-105">This procedure was created using the PSUS demo company data in the public sector partition.</span></span>
 
-1. Accédez à Comptabilité fournisseur > Tâches périodiques > Importer des fournisseurs occasionnels et des factures.
-2. Recherchez et sélectionnez le fichier CSV contenant les informations fournisseur.
-3. Dans le champ Structure de compte, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-4. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-5. Cliquez sur OK.
-    * Les informations du fournisseur et de facturation sont importées. S'il existe des erreurs, un état est imprimé, et vous devez corriger les entrées répertoriées dans le fichier d'importation puis réimporter le fichier.  
-6. Accédez à Comptabilité fournisseur > Tâches périodiques > Traiter les fournisseurs occasionnels et les factures.
-    * Les noms de fournisseur ou les ID de taxe fédérale en double feront l'objet d'une recherche.  Important :si vous choisissez de ne pas traiter les fournisseurs en double, les factures associées ne seront pas traitées non plus. Vous pouvez créer manuellement une facture à l'aide des informations du fichier csv.    
-7. Cliquez sur OK.
+1. <span data-ttu-id="a8325-106">Accédez à Comptabilité fournisseur > Tâches périodiques > Importer des fournisseurs occasionnels et des factures.</span><span class="sxs-lookup"><span data-stu-id="a8325-106">Go to Accounts payable > Periodic tasks > Import one-time vendors and invoices.</span></span>
+2. <span data-ttu-id="a8325-107">Recherchez et sélectionnez le fichier CSV contenant les informations fournisseur.</span><span class="sxs-lookup"><span data-stu-id="a8325-107">Browse for and select the CSV file that contains vendor information.</span></span>
+3. <span data-ttu-id="a8325-108">Dans le champ Structure de compte, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="a8325-108">In the Account structure field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="a8325-109">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="a8325-109">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="a8325-110">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="a8325-110">Click OK.</span></span>
+    * <span data-ttu-id="a8325-111">Les informations du fournisseur et de facturation sont importées.</span><span class="sxs-lookup"><span data-stu-id="a8325-111">The vendor and invoice information is imported.</span></span> <span data-ttu-id="a8325-112">S'il existe des erreurs, un état est imprimé, et vous devez corriger les entrées répertoriées dans le fichier d'importation puis réimporter le fichier.</span><span class="sxs-lookup"><span data-stu-id="a8325-112">If there are errors, a report will be printed, and you should correct any listed entries in the import file and then reimport the file.</span></span>  
+6. <span data-ttu-id="a8325-113">Accédez à Comptabilité fournisseur > Tâches périodiques > Traiter les fournisseurs occasionnels et les factures.</span><span class="sxs-lookup"><span data-stu-id="a8325-113">Go to Accounts payable > Periodic tasks > Process one-time vendors and invoices.</span></span>
+    * <span data-ttu-id="a8325-114">Les noms de fournisseur ou les ID de taxe fédérale en double feront l'objet d'une recherche.</span><span class="sxs-lookup"><span data-stu-id="a8325-114">Duplicate vendor names or Federal tax IDs will be looked for.</span></span>  <span data-ttu-id="a8325-115">Important :si vous choisissez de ne pas traiter les fournisseurs en double, les factures associées ne seront pas traitées non plus.</span><span class="sxs-lookup"><span data-stu-id="a8325-115">Important: If you choose not to process duplicate vendors, the related invoices won’t be processed either.</span></span> <span data-ttu-id="a8325-116">Vous pouvez créer manuellement une facture à l'aide des informations du fichier csv.</span><span class="sxs-lookup"><span data-stu-id="a8325-116">You can manually create an invoice by using the information in the CSV file.</span></span>    
+7. <span data-ttu-id="a8325-117">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="a8325-117">Click OK.</span></span>
 
 

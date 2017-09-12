@@ -16,57 +16,57 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: ab453d3ee44e206aea148de8dc3b428dc5056576
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 0ea1e70f94e4b81919512127578d5927b36db56f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="import-a-configuration-from-lifecycle-services-for-electronic-reporting-er"></a>Importer une configuration à partir de Lifecycle Services pour la gestion des états électroniques (ER)
+# <a name="import-a-configuration-from-lifecycle-services-for-electronic-reporting-er"></a><span data-ttu-id="b85cc-103">Importer une configuration à partir de Lifecycle Services pour la gestion des états électroniques (ER)</span><span class="sxs-lookup"><span data-stu-id="b85cc-103">Import a configuration from Lifecycle Services for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Les étapes suivantes expliquent comment un utilisateur ayant le rôle d'administrateur système ou de développeur d'états électroniques peut importer une nouvelle version d'une configuration pour la génération d'états électroniques (ER) à partir de Microsoft Lifecycle Services (LCS).
+<span data-ttu-id="b85cc-104">Les étapes suivantes expliquent comment un utilisateur ayant le rôle d'administrateur système ou de développeur d'états électroniques peut importer une nouvelle version d'une configuration pour la génération d'états électroniques (ER) à partir de Microsoft Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="b85cc-104">The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can import a new version of an Electronic reporting (ER) configuration from Microsoft Lifecycle Services (LCS).</span></span>
 
-Dans cet exemple, vous allez sélectionner la version souhaitée de la configuration ER et l'importer pour la société témoin, Litware, Inc. Ces étapes peuvent être effectuées dans n'importe quelle société car les configurations ER sont partagées entre les sociétés. Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de la procédure « Charger une configuration ER dans Lifecycle Services ». L'accès à LCS est également requis pour réaliser ces étapes.
+<span data-ttu-id="b85cc-105">Dans cet exemple, vous allez sélectionner la version souhaitée de la configuration ER et l'importer pour la société témoin, Litware, Inc. Ces étapes peuvent être effectuées dans n'importe quelle société car les configurations ER sont partagées entre les sociétés.</span><span class="sxs-lookup"><span data-stu-id="b85cc-105">In this example, you will select the desired version of the ER configuration and import it for sample company, Litware, Inc. These steps can be performed in any company as ER configurations are shared among companies.</span></span> <span data-ttu-id="b85cc-106">Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de la procédure « Charger une configuration ER dans Lifecycle Services ».</span><span class="sxs-lookup"><span data-stu-id="b85cc-106">To complete these steps, you must first complete the steps in the “Upload an ER configuration into Lifecycle Services” procedure.</span></span> <span data-ttu-id="b85cc-107">L'accès à LCS est également requis pour réaliser ces étapes.</span><span class="sxs-lookup"><span data-stu-id="b85cc-107">Access to LCS is also required for completion of these steps.</span></span>
 
-1. Accédez à Administration d'organisation > Espaces de travail > États électroniques.
-2. Cliquez sur Configurations.
+1. <span data-ttu-id="b85cc-108">Accédez à Administration d'organisation > Espaces de travail > États électroniques.</span><span class="sxs-lookup"><span data-stu-id="b85cc-108">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+2. <span data-ttu-id="b85cc-109">Cliquez sur Configurations.</span><span class="sxs-lookup"><span data-stu-id="b85cc-109">Click Configurations.</span></span>
 
-## <a name="delete-a-shared-version-of-data-model-configuration"></a>Supprimer une version partagée de la configuration du modèle de données
-1. Dans l'arborescence, sélectionnez « Exemple de configuration de modèle ».
-    * La première version d'un exemple de configuration de modèle de données a été créée et publiée dans LCS durant la procédure « Charger une configuration ER dans Lifecycle Services ». Dans cette procédure, vous supprimerez cette version de la configuration ER. Cette version d'un exemple de configuration de modèle de données sera importée ultérieurement à partir de LCS.  
-2. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-    * Sélectionnez la version de cette configuration dont le statut est « Partagé ». Ce statut indique que la configuration a été publiée dans LCS.  
-3. Cliquez sur Modifier le statut.
-4. Cliquez sur Interrompre.
-    * Faites passer le statut de la version sélectionnée de « Partagé » à « Interrompu » pour le rendre disponible pour la suppression.  
-5. Cliquez sur OK.
-6. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-    * Sélectionnez la version de cette configuration dont le statut est « Interrompu ».  
-7. Cliquez sur Supprimer.
-8. Cliquez sur Oui.
-    * Notez que seule la version temporaire 2 de la configuration de modèle de données sélectionnée est disponible.  
-9. Fermez la page.
+## <a name="delete-a-shared-version-of-data-model-configuration"></a><span data-ttu-id="b85cc-110">Supprimer une version partagée de la configuration du modèle de données</span><span class="sxs-lookup"><span data-stu-id="b85cc-110">Delete a shared version of data model configuration</span></span>
+1. <span data-ttu-id="b85cc-111">Dans l'arborescence, sélectionnez « Exemple de configuration de modèle ».</span><span class="sxs-lookup"><span data-stu-id="b85cc-111">In the tree, select 'Sample model configuration'.</span></span>
+    * <span data-ttu-id="b85cc-112">La première version d'un exemple de configuration de modèle de données a été créée et publiée dans LCS durant la procédure « Charger une configuration ER dans Lifecycle Services ».</span><span class="sxs-lookup"><span data-stu-id="b85cc-112">The first version of a sample data model configuration has been created and published to LCS during the “Upload an ER configuration into Lifecycle Services” procedure.</span></span> <span data-ttu-id="b85cc-113">Dans cette procédure, vous supprimerez cette version de la configuration ER.</span><span class="sxs-lookup"><span data-stu-id="b85cc-113">In this procedure, you will delete this version of the ER configuration.</span></span> <span data-ttu-id="b85cc-114">Cette version d'un exemple de configuration de modèle de données sera importée ultérieurement à partir de LCS.</span><span class="sxs-lookup"><span data-stu-id="b85cc-114">This version of a sample data model configuration will be imported later from LCS.</span></span>  
+2. <span data-ttu-id="b85cc-115">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="b85cc-115">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="b85cc-116">Sélectionnez la version de cette configuration dont le statut est « Partagé ».</span><span class="sxs-lookup"><span data-stu-id="b85cc-116">Select the version of this configuration that is in the ‘Shared’ status.</span></span> <span data-ttu-id="b85cc-117">Ce statut indique que la configuration a été publiée dans LCS.</span><span class="sxs-lookup"><span data-stu-id="b85cc-117">This status indicates that the configuration has been published to LCS.</span></span>  
+3. <span data-ttu-id="b85cc-118">Cliquez sur Modifier le statut.</span><span class="sxs-lookup"><span data-stu-id="b85cc-118">Click Change status.</span></span>
+4. <span data-ttu-id="b85cc-119">Cliquez sur Interrompre.</span><span class="sxs-lookup"><span data-stu-id="b85cc-119">Click Discontinue.</span></span>
+    * <span data-ttu-id="b85cc-120">Faites passer le statut de la version sélectionnée de « Partagé » à « Interrompu » pour le rendre disponible pour la suppression.</span><span class="sxs-lookup"><span data-stu-id="b85cc-120">Change the status of the selected version from ‘Shared’ to ‘Discontinued’ to make it available for deletion.</span></span>  
+5. <span data-ttu-id="b85cc-121">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="b85cc-121">Click OK.</span></span>
+6. <span data-ttu-id="b85cc-122">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="b85cc-122">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="b85cc-123">Sélectionnez la version de cette configuration dont le statut est « Interrompu ».</span><span class="sxs-lookup"><span data-stu-id="b85cc-123">Select the version of this configuration that has a status of ‘Discontinued’.</span></span>  
+7. <span data-ttu-id="b85cc-124">Cliquez sur Supprimer.</span><span class="sxs-lookup"><span data-stu-id="b85cc-124">Click Delete.</span></span>
+8. <span data-ttu-id="b85cc-125">Cliquez sur Oui.</span><span class="sxs-lookup"><span data-stu-id="b85cc-125">Click Yes.</span></span>
+    * <span data-ttu-id="b85cc-126">Notez que seule la version temporaire 2 de la configuration de modèle de données sélectionnée est disponible.</span><span class="sxs-lookup"><span data-stu-id="b85cc-126">Note that the only draft version 2 of the selected data model configuration is available.</span></span>  
+9. <span data-ttu-id="b85cc-127">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="b85cc-127">Close the page.</span></span>
 
-## <a name="import-a-shared-version-of-data-model-configuration-from-lcs"></a>Importer une version partagée de la configuration du modèle de données à partir de LCS
-1. Dans la liste, marquez la ligne sélectionnée.
-    * Ouvrez la liste des référentiels pour le fournisseur de configuration « Litware, Inc. » .  
-2. Cliquez sur Référentiels.
-3. Cliquez sur Ouvrir.
-    * Sélectionnez le référentiel LCS et ouvrez- le.  
-4. Dans la liste, marquez la ligne sélectionnée.
-    * Sélectionnez la première version « Exemple de configuration de modèle » dans la liste des versions.  
-5. Cliquez sur Importer.
-6. Cliquez sur Oui.
-    * Confirmez l'importation de la version sélectionnée de LCS.  
-    * Notez que le message d'information (au-dessus de l'écran) confirme la réussite de l'importation de la version sélectionnée.  
-7. Fermez la page.
-8. Fermez la page.
-9. Cliquez sur Configurations.
-10. Dans l'arborescence, sélectionnez « Exemple de configuration de modèle ».
-11. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-    * Sélectionnez la version de cette configuration dont le statut est « Partagé ».  
-    * Notez que seule la version partagée 1 de la configuration de modèle de données sélectionnée est maintenant disponible.  
+## <a name="import-a-shared-version-of-data-model-configuration-from-lcs"></a><span data-ttu-id="b85cc-128">Importer une version partagée de la configuration du modèle de données à partir de LCS</span><span class="sxs-lookup"><span data-stu-id="b85cc-128">Import a shared version of data model configuration from LCS</span></span>
+1. <span data-ttu-id="b85cc-129">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="b85cc-129">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="b85cc-130">Ouvrez la liste des référentiels pour le fournisseur de configuration « Litware, Inc. »</span><span class="sxs-lookup"><span data-stu-id="b85cc-130">Open the list of repositories for the ‘Litware, Inc.’</span></span> <span data-ttu-id="b85cc-131">.</span><span class="sxs-lookup"><span data-stu-id="b85cc-131">configuration provider.</span></span>  
+2. <span data-ttu-id="b85cc-132">Cliquez sur Référentiels.</span><span class="sxs-lookup"><span data-stu-id="b85cc-132">Click Repositories.</span></span>
+3. <span data-ttu-id="b85cc-133">Cliquez sur Ouvrir.</span><span class="sxs-lookup"><span data-stu-id="b85cc-133">Click Open.</span></span>
+    * <span data-ttu-id="b85cc-134">Sélectionnez le référentiel LCS et ouvrez- le.</span><span class="sxs-lookup"><span data-stu-id="b85cc-134">Select the LCS repository and open it.</span></span>  
+4. <span data-ttu-id="b85cc-135">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="b85cc-135">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="b85cc-136">Sélectionnez la première version « Exemple de configuration de modèle » dans la liste des versions.</span><span class="sxs-lookup"><span data-stu-id="b85cc-136">Select the first version of the 'Sample model configuration' in the versions list.</span></span>  
+5. <span data-ttu-id="b85cc-137">Cliquez sur Importer.</span><span class="sxs-lookup"><span data-stu-id="b85cc-137">Click Import.</span></span>
+6. <span data-ttu-id="b85cc-138">Cliquez sur Oui.</span><span class="sxs-lookup"><span data-stu-id="b85cc-138">Click Yes.</span></span>
+    * <span data-ttu-id="b85cc-139">Confirmez l'importation de la version sélectionnée de LCS.</span><span class="sxs-lookup"><span data-stu-id="b85cc-139">Confirm the import of the selected version from LCS .</span></span>  
+    * <span data-ttu-id="b85cc-140">Notez que le message d'information (au-dessus de l'écran) confirme la réussite de l'importation de la version sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="b85cc-140">Note that the information message (above the form) confirms the successful completion of the import of the selected version.</span></span>  
+7. <span data-ttu-id="b85cc-141">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="b85cc-141">Close the page.</span></span>
+8. <span data-ttu-id="b85cc-142">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="b85cc-142">Close the page.</span></span>
+9. <span data-ttu-id="b85cc-143">Cliquez sur Configurations.</span><span class="sxs-lookup"><span data-stu-id="b85cc-143">Click Configurations.</span></span>
+10. <span data-ttu-id="b85cc-144">Dans l'arborescence, sélectionnez « Exemple de configuration de modèle ».</span><span class="sxs-lookup"><span data-stu-id="b85cc-144">In the tree, select 'Sample model configuration'.</span></span>
+11. <span data-ttu-id="b85cc-145">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="b85cc-145">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="b85cc-146">Sélectionnez la version de cette configuration dont le statut est « Partagé ».</span><span class="sxs-lookup"><span data-stu-id="b85cc-146">Select the version of this configuration that has a status of ‘Shared’.</span></span>  
+    * <span data-ttu-id="b85cc-147">Notez que seule la version partagée 1 de la configuration de modèle de données sélectionnée est maintenant disponible.</span><span class="sxs-lookup"><span data-stu-id="b85cc-147">Note that the shared version 1 of the selected data model configuration is available now as well.</span></span>  
 
 

@@ -19,31 +19,31 @@ ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
-ms.openlocfilehash: f27e332e5a8028055903054a6175baafd224abe9
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 46aa385d14f913a24e1cc3c4cc2fd00243b30e75
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="analyze-sales-trends-and-patterns"></a>Analyser les évolutions et modèles des ventes
+# <a name="analyze-sales-trends-and-patterns"></a><span data-ttu-id="736e6-103">Analyser les évolutions et modèles des ventes</span><span class="sxs-lookup"><span data-stu-id="736e6-103">Analyze sales trends and patterns</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-Vous pouvez étudier les évolutions et les modèles des ventes en temps réel dans Microsoft Dynamics 365 for Retail.
+<span data-ttu-id="736e6-104">Vous pouvez étudier les évolutions et les modèles des ventes en temps réel dans Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="736e6-104">You can study sales trends and patterns in real time in Microsoft Dynamics 365 for Retail.</span></span>
 
-Dans le cadre de Microsoft Dynamics 365 for Retail, les utilisateurs peuvent étudier les évolutions et les modèles des ventes en temps réel entre différents niveaux de la hiérarchie d'organisation sur une période annuelle à l'aide de l'état prêt à l'emploi **Ventes de canal par année**. Vous pouvez ouvrir cet état à partir de tous les emplacements suivants :
+<span data-ttu-id="736e6-105">Dans le cadre de Microsoft Dynamics 365 for Retail, les utilisateurs peuvent étudier les évolutions et les modèles des ventes en temps réel entre différents niveaux de la hiérarchie d'organisation sur une période annuelle à l'aide de l'état prêt à l'emploi **Ventes de canal par année**.</span><span class="sxs-lookup"><span data-stu-id="736e6-105">As part of Dynamics 365 for Retail, users can study sales trends and patterns in real time across different levels of the organization hierarchy over a period of years by using the out-of-box **Channel sales by year** report.</span></span> <span data-ttu-id="736e6-106">Vous pouvez ouvrir cet état à partir de tous les emplacements suivants :</span><span class="sxs-lookup"><span data-stu-id="736e6-106">You can open this report from any of the following locations:</span></span>
 
--   Espace de travail **Gestion du magasin de vente au détail** &gt; **Vente au détail** &gt; **Canaux** &gt; **Gestion du magasin de vente au détail** &gt; **États** &gt; **État des ventes de canal par année**
--   Espace de travail **Finances du magasin de vente au détail** &gt; **Vente au détail** &gt; **Canaux** &gt; **Finances du magasin de vente au détail** &gt; **États** &gt; **État des ventes de canal par année**
--   Section **Recherches et états** &gt; **Vente au détail** &gt; **Recherches et états** &gt; **États des ventes** &gt; **État des ventes de canal par année**
+-   <span data-ttu-id="736e6-107">Espace de travail **Gestion du magasin de vente au détail** &gt; **Vente au détail** &gt; **Canaux** &gt; **Gestion du magasin de vente au détail** &gt; **États** &gt; **État des ventes de canal par année**</span><span class="sxs-lookup"><span data-stu-id="736e6-107">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Channel sales by year report**</span></span>
+-   <span data-ttu-id="736e6-108">Espace de travail **Finances du magasin de vente au détail** &gt; **Vente au détail** &gt; **Canaux** &gt; **Finances du magasin de vente au détail** &gt; **États** &gt; **État des ventes de canal par année**</span><span class="sxs-lookup"><span data-stu-id="736e6-108">**Retail store financials** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store financials** &gt; **Reports** &gt; **Channel sales by year report**</span></span>
+-   <span data-ttu-id="736e6-109">Section **Recherches et états** &gt; **Vente au détail** &gt; **Recherches et états** &gt; **États des ventes** &gt; **État des ventes de canal par année**</span><span class="sxs-lookup"><span data-stu-id="736e6-109">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Channel sales by year report**</span></span>
 
-Les utilisateurs peuvent également étudier les évolutions et les modèles des ventes par heure entre différents niveaux de la hiérarchie d'organisation sur une période sélectionnée à l'aide de l'état prêt à l'emploi **Ventes de canal par heure**. Vous pouvez ouvrir cet état à partir de tous les emplacements suivants :
+<span data-ttu-id="736e6-110">Les utilisateurs peuvent également étudier les évolutions et les modèles des ventes par heure entre différents niveaux de la hiérarchie d'organisation sur une période sélectionnée à l'aide de l'état prêt à l'emploi **Ventes de canal par heure**.</span><span class="sxs-lookup"><span data-stu-id="736e6-110">Users can also study sales trends and patterns by hour across different levels of the organization hierarchy over a selected period by using the out-of-box **Channel sales by hour** report.</span></span> <span data-ttu-id="736e6-111">Vous pouvez ouvrir cet état à partir de tous les emplacements suivants :</span><span class="sxs-lookup"><span data-stu-id="736e6-111">You can open this report from any of the following locations:</span></span>
 
--   Espace de travail **Gestion du magasin de vente au détail** &gt; **Vente au détail** &gt; **Canaux** &gt; **Gestion du magasin de vente au détail** &gt; **États** &gt; **État des ventes de canal par heure**
--   Espace de travail **Finances du magasin de vente au détail** &gt; **Vente au détail** &gt; **Canaux** &gt; **Finances du magasin de vente au détail** &gt; **États** &gt; **État des ventes de canal par heure**
--   Section **Recherches et états** &gt; **Vente au détail** &gt; **Recherches et états** &gt; **États des ventes** &gt; **État des ventes de canal par heure**
+-   <span data-ttu-id="736e6-112">Espace de travail **Gestion du magasin de vente au détail** &gt; **Vente au détail** &gt; **Canaux** &gt; **Gestion du magasin de vente au détail** &gt; **États** &gt; **État des ventes de canal par heure**</span><span class="sxs-lookup"><span data-stu-id="736e6-112">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Channel sales by hour report**</span></span>
+-   <span data-ttu-id="736e6-113">Espace de travail **Finances du magasin de vente au détail** &gt; **Vente au détail** &gt; **Canaux** &gt; **Finances du magasin de vente au détail** &gt; **États** &gt; **État des ventes de canal par heure**</span><span class="sxs-lookup"><span data-stu-id="736e6-113">**Retail store financials** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store financials** &gt; **Reports** &gt; **Channel sales by hour report**</span></span>
+-   <span data-ttu-id="736e6-114">Section **Recherches et états** &gt; **Vente au détail** &gt; **Recherches et états** &gt; **États des ventes** &gt; **État des ventes de canal par heure**</span><span class="sxs-lookup"><span data-stu-id="736e6-114">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Channel sales by hour report**</span></span>
 
 
 

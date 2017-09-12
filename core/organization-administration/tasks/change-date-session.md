@@ -14,22 +14,22 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.author: pvillads
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
+ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 2f7945ad1837fed0dcb473bb7ce66b0796433776
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 69a449766f2e5d9a6833127fcd28a2959d4578fc
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="change-the-date-for-the-session"></a>Modifier la date de la session
+# <a name="change-the-date-for-the-session"></a><span data-ttu-id="a8ef1-103">Modifier la date de la session</span><span class="sxs-lookup"><span data-stu-id="a8ef1-103">Change the date for the session</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Par défaut, la date actuelle est utilisée lors de la saisie et la validation des écritures de journal ou des documents source. Vous pouvez modifier la date utilisée pour votre session active. Utilisez cette fonction pour antidater des écritures de journal ou des documents source, le cas échéant.
+<span data-ttu-id="a8ef1-104">Par défaut, la date actuelle est utilisée lors de la saisie et la validation des écritures de journal ou des documents source.</span><span class="sxs-lookup"><span data-stu-id="a8ef1-104">By default, the current date is used when entering and posting journal entries or source documents.</span></span> <span data-ttu-id="a8ef1-105">Vous pouvez modifier la date utilisée pour votre session active.</span><span class="sxs-lookup"><span data-stu-id="a8ef1-105">You can change the date that is used for your current session.</span></span> <span data-ttu-id="a8ef1-106">Utilisez cette fonction pour antidater des écritures de journal ou des documents source, le cas échéant.</span><span class="sxs-lookup"><span data-stu-id="a8ef1-106">Use this feature to back-date journal entries or source documents, as necessary.</span></span>
 
-1. Accédez à Commune > Commune > Date et heure de la session.
-2. Entrez une date dans le champ Date.
-3. Cliquez sur OK.
+1. <span data-ttu-id="a8ef1-107">Accédez à Commune > Commune > Date et heure de la session.</span><span class="sxs-lookup"><span data-stu-id="a8ef1-107">Go to Common > Common > Session date and time.</span></span>
+2. <span data-ttu-id="a8ef1-108">Entrez une date dans le champ Date.</span><span class="sxs-lookup"><span data-stu-id="a8ef1-108">In the Date field, enter a date.</span></span>
+3. <span data-ttu-id="a8ef1-109">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="a8ef1-109">Click OK.</span></span>
 
 

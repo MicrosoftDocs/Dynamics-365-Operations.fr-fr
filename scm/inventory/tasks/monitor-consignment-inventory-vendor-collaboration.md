@@ -1,4 +1,4 @@
---- 
+---
 title: "Contrôler le stock de consignation à l'aide de la collaboration fournisseur"
 description: "Cette procédure indique comment utiliser la collaboration du fournisseur pour afficher des informations sur le niveau de stock du produit que vous avez placé en consignation auprès d'un client."
 author: mkirknel
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -17,29 +17,28 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: ad4868991226aef21a0410860e3f98d11901ffbb
+ms.sourcegitcommit: 0e7f66cccd76e5326fce75d1a13aff294c16fb9b
+ms.openlocfilehash: 567be29bd9989b3471b22d5a970ed0e51e4549ec
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/12/2017
 
 ---
-# <a name="monitor-consignment-inventory-using-vendor-collaboration"></a>Contrôler le stock de consignation à l'aide de la collaboration fournisseur
+# <a name="monitor-consignment-inventory-using-vendor-collaboration"></a><span data-ttu-id="9492c-103">Contrôler le stock de consignation à l'aide de la collaboration fournisseur</span><span class="sxs-lookup"><span data-stu-id="9492c-103">Monitor consignment inventory using vendor collaboration</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Cette procédure indique comment utiliser la collaboration du fournisseur pour afficher des informations sur le niveau de stock du produit que vous avez placé en consignation auprès d'un client. Vous pouvez également contrôler la consommation du stock lorsque le client s'approprie le stock. Vous pouvez utiliser cette procédure dans les données fictives de la société USMF. Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.
+<span data-ttu-id="9492c-104">Cette procédure indique comment utiliser la collaboration du fournisseur pour afficher des informations sur le niveau de stock du produit que vous avez placé en consignation auprès d'un client.</span><span class="sxs-lookup"><span data-stu-id="9492c-104">This procedure shows how to use vendor collaboration to see information about the stock level of product that you have placed in consignment with a customer.</span></span> <span data-ttu-id="9492c-105">Vous pouvez également contrôler la consommation du stock lorsque le client s'approprie le stock.</span><span class="sxs-lookup"><span data-stu-id="9492c-105">You can also monitor the consumption of the stock when the customer takes ownership of the inventory.</span></span> <span data-ttu-id="9492c-106">Vous pouvez utiliser cette procédure dans les données fictives de la société USMF.</span><span class="sxs-lookup"><span data-stu-id="9492c-106">You can use this procedure in the USMF demo data company.</span></span> <span data-ttu-id="9492c-107">Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.</span><span class="sxs-lookup"><span data-stu-id="9492c-107">This procedure is for a feature that was added in Dynamics 365 for Operations, version 1611.</span></span>
 
 
-## <a name="view-consumed-inventory"></a>Afficher le stock consommé
-1. Allez dans Collaborateur du fournisseur > Stock de consignation > Produits reçus à partir du stock de consignation.
-    * La liste affiche les lignes d'accusé de réception de marchandises qui ont été générées lorsque la propriété du stock de consignation est passée du fournisseur au client. Vous devrez peut-être faire défiler vers la droite pour afficher les quantités et d'autres informations. Vous pouvez utiliser les informations de cette liste pour générer des factures pour votre client. Vous pouvez également exporter les données vers Microsoft Excel.   
-2. Cliquez sur Afficher la commande fournisseur.
-3. Développez la section Détails de ligne.
-    * La ligne est marquée comme consignation, et la section d'en-tête indique que la commande fournisseur a le statut Reçu.  
-4. Fermez la page.
+## <a name="view-consumed-inventory"></a><span data-ttu-id="9492c-108">Afficher le stock consommé</span><span class="sxs-lookup"><span data-stu-id="9492c-108">View consumed inventory</span></span>
+1. <span data-ttu-id="9492c-109">Allez dans Collaborateur du fournisseur > Stock de consignation > Produits reçus à partir du stock de consignation.</span><span class="sxs-lookup"><span data-stu-id="9492c-109">Go to Vendor collaboration > Consignment inventory > Products received from consignment inventory.</span></span>
+    * <span data-ttu-id="9492c-110">La liste affiche les lignes d'accusé de réception de marchandises qui ont été générées lorsque la propriété du stock de consignation est passée du fournisseur au client.</span><span class="sxs-lookup"><span data-stu-id="9492c-110">The list shows the product receipt lines that were generated when ownership of the consignment inventory was changed from the vendor to the customer.</span></span> <span data-ttu-id="9492c-111">Vous devrez peut-être faire défiler vers la droite pour afficher les quantités et d'autres informations.</span><span class="sxs-lookup"><span data-stu-id="9492c-111">You might have to scroll to the right to see quantities and other information.</span></span> <span data-ttu-id="9492c-112">Vous pouvez utiliser les informations de cette liste pour générer des factures pour votre client.</span><span class="sxs-lookup"><span data-stu-id="9492c-112">You can use the information in this list to generate invoices for your customer.</span></span> <span data-ttu-id="9492c-113">Vous pouvez également exporter les données vers Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="9492c-113">You can also export the data to Microsoft Excel.</span></span>   
+2. <span data-ttu-id="9492c-114">Cliquez sur Afficher la commande fournisseur.</span><span class="sxs-lookup"><span data-stu-id="9492c-114">Click View purchase order.</span></span>
+3. <span data-ttu-id="9492c-115">Développez la section Détails de ligne.</span><span class="sxs-lookup"><span data-stu-id="9492c-115">Expand the Line details section.</span></span>
+    * <span data-ttu-id="9492c-116">La ligne est marquée comme consignation, et la section d'en-tête indique que la commande fournisseur a le statut Reçu.</span><span class="sxs-lookup"><span data-stu-id="9492c-116">The line is marked as Consignment, and the header section shows that the purchase order has a status of Received.</span></span>  
+4. <span data-ttu-id="9492c-117">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="9492c-117">Close the page.</span></span>
 
-## <a name="view-on-hand-inventory"></a>Affichage du stock disponible
-1. Allez dans Collaborateur du fournisseur > Stock de consignation > Stock de consignation disponible.
-    * La page Stock de consignation disponible indique le stock que vous possédez dans l'entrepôt du client. Vous pouvez afficher des dimensions supplémentaires, telles que le site et l'entrepôt, en cliquant sur l'onglet Afficher les dimensions.   
-
+## <a name="view-on-hand-inventory"></a><span data-ttu-id="9492c-118">Affichage du stock disponible</span><span class="sxs-lookup"><span data-stu-id="9492c-118">View on-hand inventory</span></span>
+1. <span data-ttu-id="9492c-119">Allez dans Collaborateur du fournisseur > Stock de consignation > Stock de consignation disponible.</span><span class="sxs-lookup"><span data-stu-id="9492c-119">Go to Vendor collaboration > Consignment inventory > On-hand consignment inventory.</span></span>
+    * <span data-ttu-id="9492c-120">La page Stock de consignation disponible indique le stock que vous possédez dans l'entrepôt du client.</span><span class="sxs-lookup"><span data-stu-id="9492c-120">The On-hand consignment inventory page shows the stock that you own at the customer’s warehouse.</span></span> <span data-ttu-id="9492c-121">Vous pouvez afficher des dimensions supplémentaires, telles que le site et l'entrepôt, en cliquant sur l'onglet Afficher les dimensions.</span><span class="sxs-lookup"><span data-stu-id="9492c-121">You can show additional dimensions, such as the site and warehouse, by clicking the Display dimensions tab.</span></span>   
 

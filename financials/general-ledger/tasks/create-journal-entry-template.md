@@ -16,51 +16,51 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 6567bc969d003abc9fcf21886cc202cc85db6a14
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 055fe129b9fc9cf50e1d9e1a5b4cb77285f20c92
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-journal-entry-using-a-template"></a>Créer une entrée de journal à l'aide d'un modèle
+# <a name="create-a-journal-entry-using-a-template"></a><span data-ttu-id="081fb-103">Créer une entrée de journal à l'aide d'un modèle</span><span class="sxs-lookup"><span data-stu-id="081fb-103">Create a journal entry using a template</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Les N° document du journal validés peuvent être enregistrés comme Modèles de n° document et être appliqués dans un nouveau N° document de journal. La société fictive USMF sert d'exemple dans cette procédure.
+<span data-ttu-id="081fb-104">Les N° document du journal validés peuvent être enregistrés comme Modèles de n° document et être appliqués dans un nouveau N° document de journal.</span><span class="sxs-lookup"><span data-stu-id="081fb-104">Posted journal vouchers can be saved as Voucher templates and applied in a new journal voucher.</span></span> <span data-ttu-id="081fb-105">La société fictive USMF sert d'exemple dans cette procédure.</span><span class="sxs-lookup"><span data-stu-id="081fb-105">This procedure uses the USMF demo company.</span></span>
 
-1. Comptabilité > Entrées de journal > Journaux des opérations diverses. Cliquez sur Nouveau.
-    * Cette procédure commence par la création et la validation d'un N° document de journal, mais n'importe quel N° document de journal validé précédemment peut être enregistré comme modèle.  
-2. Dans le champ Nom, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-3. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-4. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-5. Cliquez sur Lignes.
-6. Entrez un compte pour le type Compte.
-7. Dans le champ Description, entrez une valeur.
-8. Entrez le montant dans le champ Débit.
-9. Cliquez sur Nouveau.
-10. Entrez un compte différente pour le type Compte.
-11. Dans le champ Description, entrez une valeur.
-12. Entrez le montant dans le champ Débit.
-13. Cliquez sur Nouveau.
-14. Dans le champ Compte, spécifiez les valeurs souhaitées.
-15. Tapez une valeur dans le champ Description.
-16. Entrez un montant dans le champ Crédit pour solder le document.
-17. Cliquez sur Valider.
-18. Cliquez sur Fonctions.
-19. Cliquez sur Enregistrer le modèle de n° document.
-20. Cette procédure suppose un type de modèle de pourcentage. Cliquez sur OK.
-    * • Pourcentage : Les montants du document sont convertis en facteurs de pourcentage, ce qui permet d'appliquer n'importe quel montant lorsque le modèle de document est sélectionné.  • Montant : Les montants effectifs sont enregistrés et appliqués.  
-21. Cliquez sur Journaux des opérations diverses.
-22. Cliquez sur Nouveau.
-23. Dans le champ Nom, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-24. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-25. Cliquez sur Lignes.
-26. Cliquez sur Fonctions.
-27. Cliquez sur Sélectionner le modèle de n° document.
-28. Recherchez le modèle créé précédemment. Cliquez sur OK.
-    * Vous devrez peut-être cliquer sur Étape précédente, puis sélectionner le modèle correct si d'autres modèles existent.  
-29. Dans le champ Montant, entrez le montant à appliquer au document.
-    * Le champ Montant est affiché uniquement si le type du modèle de n° document est Pourcentage.  
-30. Cliquez sur OK.
+1. <span data-ttu-id="081fb-106">Comptabilité > Entrées de journal > Journaux des opérations diverses.</span><span class="sxs-lookup"><span data-stu-id="081fb-106">General ledger > Journal entries > General journals.</span></span> <span data-ttu-id="081fb-107">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="081fb-107">Click New.</span></span>
+    * <span data-ttu-id="081fb-108">Cette procédure commence par la création et la validation d'un N° document de journal, mais n'importe quel N° document de journal validé précédemment peut être enregistré comme modèle.</span><span class="sxs-lookup"><span data-stu-id="081fb-108">This procedure starts by creating and posting a journal voucher, but any previously posted journal voucher can be saved as a template.</span></span>  
+2. <span data-ttu-id="081fb-109">Dans le champ Nom, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="081fb-109">In the Name field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="081fb-110">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="081fb-110">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="081fb-111">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="081fb-111">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="081fb-112">Cliquez sur Lignes.</span><span class="sxs-lookup"><span data-stu-id="081fb-112">Click Lines.</span></span>
+6. <span data-ttu-id="081fb-113">Entrez un compte pour le type Compte.</span><span class="sxs-lookup"><span data-stu-id="081fb-113">Enter an account for the Account type.</span></span>
+7. <span data-ttu-id="081fb-114">Dans le champ Description, entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="081fb-114">In the Description field, type a value.</span></span>
+8. <span data-ttu-id="081fb-115">Entrez le montant dans le champ Débit.</span><span class="sxs-lookup"><span data-stu-id="081fb-115">Enter an amount in the Debit field.</span></span>
+9. <span data-ttu-id="081fb-116">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="081fb-116">Click New.</span></span>
+10. <span data-ttu-id="081fb-117">Entrez un compte différente pour le type Compte.</span><span class="sxs-lookup"><span data-stu-id="081fb-117">Enter a different account for the Account type.</span></span>
+11. <span data-ttu-id="081fb-118">Dans le champ Description, entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="081fb-118">In the Description field, type a value.</span></span>
+12. <span data-ttu-id="081fb-119">Entrez le montant dans le champ Débit.</span><span class="sxs-lookup"><span data-stu-id="081fb-119">Enter an amount in the Debit field.</span></span>
+13. <span data-ttu-id="081fb-120">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="081fb-120">Click New.</span></span>
+14. <span data-ttu-id="081fb-121">Dans le champ Compte, spécifiez les valeurs souhaitées.</span><span class="sxs-lookup"><span data-stu-id="081fb-121">In the Account field, specify the desired values.</span></span>
+15. <span data-ttu-id="081fb-122">Tapez une valeur dans le champ Description.</span><span class="sxs-lookup"><span data-stu-id="081fb-122">In the Description field, type a value.</span></span>
+16. <span data-ttu-id="081fb-123">Entrez un montant dans le champ Crédit pour solder le document.</span><span class="sxs-lookup"><span data-stu-id="081fb-123">Enter an amount in the Credit field to balance the voucher.</span></span>
+17. <span data-ttu-id="081fb-124">Cliquez sur Valider.</span><span class="sxs-lookup"><span data-stu-id="081fb-124">Click Post.</span></span>
+18. <span data-ttu-id="081fb-125">Cliquez sur Fonctions.</span><span class="sxs-lookup"><span data-stu-id="081fb-125">Click Functions.</span></span>
+19. <span data-ttu-id="081fb-126">Cliquez sur Enregistrer le modèle de n° document.</span><span class="sxs-lookup"><span data-stu-id="081fb-126">Click Save voucher template.</span></span>
+20. <span data-ttu-id="081fb-127">Cette procédure suppose un type de modèle de pourcentage.</span><span class="sxs-lookup"><span data-stu-id="081fb-127">This procedure assumes a Percent Template type.</span></span> <span data-ttu-id="081fb-128">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="081fb-128">Click OK.</span></span>
+    * <span data-ttu-id="081fb-129">• Pourcentage : Les montants du document sont convertis en facteurs de pourcentage, ce qui permet d'appliquer n'importe quel montant lorsque le modèle de document est sélectionné.</span><span class="sxs-lookup"><span data-stu-id="081fb-129">• Percent: The amounts in the voucher are converted into percentage factors, which allows any amount to be applied when the Voucher template is selected.</span></span>  <span data-ttu-id="081fb-130">• Montant : Les montants effectifs sont enregistrés et appliqués.</span><span class="sxs-lookup"><span data-stu-id="081fb-130">• Amount: The actual amounts will be stored and applied.</span></span>  
+21. <span data-ttu-id="081fb-131">Cliquez sur Journaux des opérations diverses.</span><span class="sxs-lookup"><span data-stu-id="081fb-131">Click General journals.</span></span>
+22. <span data-ttu-id="081fb-132">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="081fb-132">Click New.</span></span>
+23. <span data-ttu-id="081fb-133">Dans le champ Nom, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="081fb-133">In the Name field, click the drop-down button to open the lookup.</span></span>
+24. <span data-ttu-id="081fb-134">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="081fb-134">In the list, click the link in the selected row.</span></span>
+25. <span data-ttu-id="081fb-135">Cliquez sur Lignes.</span><span class="sxs-lookup"><span data-stu-id="081fb-135">Click Lines.</span></span>
+26. <span data-ttu-id="081fb-136">Cliquez sur Fonctions.</span><span class="sxs-lookup"><span data-stu-id="081fb-136">Click Functions.</span></span>
+27. <span data-ttu-id="081fb-137">Cliquez sur Sélectionner le modèle de n° document.</span><span class="sxs-lookup"><span data-stu-id="081fb-137">Click Select voucher template.</span></span>
+28. <span data-ttu-id="081fb-138">Recherchez le modèle créé précédemment.</span><span class="sxs-lookup"><span data-stu-id="081fb-138">Find the template that you created earlier.</span></span> <span data-ttu-id="081fb-139">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="081fb-139">Click OK.</span></span>
+    * <span data-ttu-id="081fb-140">Vous devrez peut-être cliquer sur Étape précédente, puis sélectionner le modèle correct si d'autres modèles existent.</span><span class="sxs-lookup"><span data-stu-id="081fb-140">You may need to click Previous step and then select the correct template if other templates exist.</span></span>  
+29. <span data-ttu-id="081fb-141">Dans le champ Montant, entrez le montant à appliquer au document.</span><span class="sxs-lookup"><span data-stu-id="081fb-141">In the Amount field, enter the amount to be applied to the voucher.</span></span>
+    * <span data-ttu-id="081fb-142">Le champ Montant est affiché uniquement si le type du modèle de n° document est Pourcentage.</span><span class="sxs-lookup"><span data-stu-id="081fb-142">The amount field is only displayed if the voucher template is of type Percent.</span></span>  
+30. <span data-ttu-id="081fb-143">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="081fb-143">Click OK.</span></span>
 
 

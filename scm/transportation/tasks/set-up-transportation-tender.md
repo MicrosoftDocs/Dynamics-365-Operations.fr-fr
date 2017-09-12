@@ -17,34 +17,34 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: a8ad2469bbe51648369d2df17fc027c03e6c97ca
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 8ccd82b3249e99dd2884fb257f3e65261ab64d96
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-a-transportation-tender"></a>Paramétrer une offre de transport
+# <a name="set-up-a-transportation-tender"></a><span data-ttu-id="74d88-103">Paramétrer une offre de transport</span><span class="sxs-lookup"><span data-stu-id="74d88-103">Set up a transportation tender</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Cette procédure décrit comment paramétrer une offre de transport. Cette opération est généralement réalisée par un coordinateur transport. Vous pouvez utiliser cette procédure dans les données fictives de la société USMF.
+<span data-ttu-id="74d88-104">Cette procédure décrit comment paramétrer une offre de transport.</span><span class="sxs-lookup"><span data-stu-id="74d88-104">This procedure shows how to set up a transportation tender.</span></span> <span data-ttu-id="74d88-105">Cette opération est généralement réalisée par un coordinateur transport.</span><span class="sxs-lookup"><span data-stu-id="74d88-105">This is typically done by a transportation coordinator.</span></span> <span data-ttu-id="74d88-106">Vous pouvez utiliser cette procédure dans les données fictives de la société USMF.</span><span class="sxs-lookup"><span data-stu-id="74d88-106">You can use this procedure in the USMF demo data company.</span></span>
 
 
-## <a name="select-a-route"></a>Sélectionner une gamme
-1. Accédez à Gestion du transport > Planning > Console de planification des charges.
-2. Désactivez la case à cocher Masquer les éléments expédiés et reçus.
-3. Sélectionnez la ligne avec l'ID de charge 00006.
-4. Cliquez sur Classement et acheminement.
-5. Cliquez sur Gammes.
+## <a name="select-a-route"></a><span data-ttu-id="74d88-107">Sélectionner une gamme</span><span class="sxs-lookup"><span data-stu-id="74d88-107">Select a route</span></span>
+1. <span data-ttu-id="74d88-108">Accédez à Gestion du transport > Planning > Console de planification des charges.</span><span class="sxs-lookup"><span data-stu-id="74d88-108">Go to Transportation management > Planning > Load planning workbench.</span></span>
+2. <span data-ttu-id="74d88-109">Désactivez la case à cocher Masquer les éléments expédiés et reçus.</span><span class="sxs-lookup"><span data-stu-id="74d88-109">Clear the Hide shipped and received check box.</span></span>
+3. <span data-ttu-id="74d88-110">Sélectionnez la ligne avec l'ID de charge 00006.</span><span class="sxs-lookup"><span data-stu-id="74d88-110">Select the line with Load ID 00006.</span></span>
+4. <span data-ttu-id="74d88-111">Cliquez sur Classement et acheminement.</span><span class="sxs-lookup"><span data-stu-id="74d88-111">Click Rating and routing.</span></span>
+5. <span data-ttu-id="74d88-112">Cliquez sur Gammes.</span><span class="sxs-lookup"><span data-stu-id="74d88-112">Click Routes.</span></span>
 
-## <a name="create-the-transportation-tender"></a>Créer l'offre de transport
-1. Cliquez sur Offres de transport.
-2. Cliquez sur Nouveau.
-3. Développez la section Général.
-4. Dans le champ Taux demandés, entrez un nombre.
-5. Cliquez sur Enregistrer.
-6. Cliquez sur Mettre à jour le statut.
-7. Cliquez sur Soumettre.
-8. Sélectionnez une gamme.
+## <a name="create-the-transportation-tender"></a><span data-ttu-id="74d88-113">Créer l'offre de transport</span><span class="sxs-lookup"><span data-stu-id="74d88-113">Create the transportation tender</span></span>
+1. <span data-ttu-id="74d88-114">Cliquez sur Offres de transport.</span><span class="sxs-lookup"><span data-stu-id="74d88-114">Click Transportation tenders.</span></span>
+2. <span data-ttu-id="74d88-115">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="74d88-115">Click New.</span></span>
+3. <span data-ttu-id="74d88-116">Développez la section Général.</span><span class="sxs-lookup"><span data-stu-id="74d88-116">Expand the General section.</span></span>
+4. <span data-ttu-id="74d88-117">Dans le champ Taux demandés, entrez un nombre.</span><span class="sxs-lookup"><span data-stu-id="74d88-117">In the Requested rates field, enter a number.</span></span>
+5. <span data-ttu-id="74d88-118">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="74d88-118">Click Save.</span></span>
+6. <span data-ttu-id="74d88-119">Cliquez sur Mettre à jour le statut.</span><span class="sxs-lookup"><span data-stu-id="74d88-119">Click Update status.</span></span>
+7. <span data-ttu-id="74d88-120">Cliquez sur Soumettre.</span><span class="sxs-lookup"><span data-stu-id="74d88-120">Click Submit.</span></span>
+8. <span data-ttu-id="74d88-121">Sélectionnez une gamme.</span><span class="sxs-lookup"><span data-stu-id="74d88-121">Select a route.</span></span>
 
 

@@ -16,131 +16,131 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: bbc7401284146c2ab4fdfe325cfefb95d1eefb81
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 58a0ce881e5cb8d459256244a144cf51dc357299
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="map-models--to-use-financial-dimensions-as-a-data-source-for-electronic-reporting-er"></a>Mapper des modèles pour utiliser les dimensions financières comme source de données pour la gestion des états électroniques (ER)
+# <a name="map-models--to-use-financial-dimensions-as-a-data-source-for-electronic-reporting-er"></a><span data-ttu-id="72f18-103">Mapper des modèles pour utiliser les dimensions financières comme source de données pour la gestion des états électroniques (ER)</span><span class="sxs-lookup"><span data-stu-id="72f18-103">Map models  to use financial dimensions as a data source for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Les étapes suivantes expliquent comment un utilisateur affecté au rôle d'administrateur système ou de développeur d'états électroniques peut configurer un modèle de génération d'états électroniques (ER) pour utiliser les dimensions financières comme source de données pour les états ER. Ces étapes peuvent être effectuées dans n'importe quelle société.
+<span data-ttu-id="72f18-104">Les étapes suivantes expliquent comment un utilisateur affecté au rôle d'administrateur système ou de développeur d'états électroniques peut configurer un modèle de génération d'états électroniques (ER) pour utiliser les dimensions financières comme source de données pour les états ER.</span><span class="sxs-lookup"><span data-stu-id="72f18-104">The following steps explain how a user assigned to the system administrator or electronic reporting developer role can configure an Electronic reporting (ER) model to use financial dimensions as a data source for ER reports.</span></span> <span data-ttu-id="72f18-105">Ces étapes peuvent être effectuées dans n'importe quelle société.</span><span class="sxs-lookup"><span data-stu-id="72f18-105">These steps can be performed in any company.</span></span>
 
-Pour effectuer ces étapes, vous devez d'abord effectuer les étapes de la procédure « ER Utiliser les dimensions financières comme source de données (Partie 1 : créer un modèle de données) ».
+<span data-ttu-id="72f18-106">Pour effectuer ces étapes, vous devez d'abord effectuer les étapes de la procédure « ER Utiliser les dimensions financières comme source de données (Partie 1 : créer un modèle de données) ».</span><span class="sxs-lookup"><span data-stu-id="72f18-106">To complete these steps, you must first complete the steps in the “ER Use financial dimensions as a data source (Part 1: Design data model” procedure.</span></span>
 
 
-## <a name="add-required-data-sources-to-model-mapping"></a>Ajouter les sources de données requises au mappage de modèle
-1. Accédez à Administration d'organisation > États électroniques > Configurations.
-2. Dans l'arborescence, sélectionnez « Exemple de modèle de dimensions financières ».
-3. Cliquez sur Concepteur.
-4. Cliquez sur Mettre en correspondance le modèle à la source de données.
-5. Cliquez sur Nouveau.
-6. Dans le champ Définition, sélectionnez Entrée.
-7. Dans le champ Nom, tapez « Mise en correspondance des données de dimensions ».
-8. Dans le champ Description, tapez « Mise en correspondance des données de dimensions ».
-9. Cliquez sur Enregistrer.
-10. Cliquez sur Concepteur.
-11. Dans l'arborescence, sélectionnez « Dynamics 365 for Operations\Table ».
-12. Cliquez sur Ajouter racine.
-13. Dans le champ Nom, tapez « Société ».
-14. Dans le champ Table, tapez « CompanyInfo ».
-15. Cliquez sur OK.
-16. Dans l'arborescence, sélectionnez « Fonctions\Détails des dimensions financières ».
-17. Cliquez sur Ajouter racine.
-    * Cette source de données spécifie la façon dont la portée des dimensions financières est définie pour un état qui utilise ce modèle comme source de données.  
-18. Tapez une valeur dans le champ Nom.
-19. Sélectionnez Oui dans le champ Demander les dimensions.
-    * Sélectionnez Oui pour autoriser l'utilisateur à sélectionner des dimensions au moment de l'exécution dans l'écran Boîte de dialogue utilisateur. Si cette option est définie sur Non, toutes les dimensions financières de l'instance actuelle sont utilisées par défaut.  
-20. Dans le champ Sélection de dimensions financières, sélectionnez « Entité juridique ».
-    * Sélectionnez Tout pour autoriser l'utilisateur à sélectionner les dimensions souhaitées pour l'instance actuelle dans le champ de recherche.  Sélectionnez Entité juridique pour autoriser l'utilisateur à sélectionner des dimensions pour la société dans le champ de recherche.  Sélectionnez Dimension pour autoriser l'utilisateur à sélectionner des dimensions à l'aide d'un ensemble de dimensions unique.  
-21. Sélectionnez Oui dans le champ Demander le compte principal.
-    * Définissez « Demander le compte principal » sur Oui pour autoriser les utilisateurs à sélectionner le compte principal dans le cadre de la liste de dimensions.   Si cette option est définie sur Non, le compte principal n'est pas inclus dans la liste des dimensions et l'option « Compte principal obligatoire » est activée. Si « Compte principal obligatoire » est défini sur Oui, incluez le compte principal dans la liste des dimensions quelle que soit la sélection de l'utilisateur.  
-22. Cliquez sur OK.
-23. Dans l'arborescence, sélectionnez « Dynamics 365 for Operations\Enregistrements de tables ».
-24. Cliquez sur Ajouter racine.
-25. Dans le champ Nom, tapez « LedgerJournal ».
-26. Sélectionnez Oui dans le champ Demander une requête.
-27. Dans le champ Table, tapez « LedgerJournalTable ».
-28. Cliquez sur OK.
+## <a name="add-required-data-sources-to-model-mapping"></a><span data-ttu-id="72f18-107">Ajouter les sources de données requises au mappage de modèle</span><span class="sxs-lookup"><span data-stu-id="72f18-107">Add required data sources to model mapping</span></span>
+1. <span data-ttu-id="72f18-108">Accédez à Administration d'organisation > États électroniques > Configurations.</span><span class="sxs-lookup"><span data-stu-id="72f18-108">Go to Organization administration > Electronic reporting > Configurations.</span></span>
+2. <span data-ttu-id="72f18-109">Dans l'arborescence, sélectionnez « Exemple de modèle de dimensions financières ».</span><span class="sxs-lookup"><span data-stu-id="72f18-109">In the tree, select 'Financial dimensions sample model'.</span></span>
+3. <span data-ttu-id="72f18-110">Cliquez sur Concepteur.</span><span class="sxs-lookup"><span data-stu-id="72f18-110">Click Designer.</span></span>
+4. <span data-ttu-id="72f18-111">Cliquez sur Mettre en correspondance le modèle à la source de données.</span><span class="sxs-lookup"><span data-stu-id="72f18-111">Click Map model to datasource.</span></span>
+5. <span data-ttu-id="72f18-112">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="72f18-112">Click New.</span></span>
+6. <span data-ttu-id="72f18-113">Dans le champ Définition, sélectionnez Entrée.</span><span class="sxs-lookup"><span data-stu-id="72f18-113">In the Definition field, select Entry.</span></span>
+7. <span data-ttu-id="72f18-114">Dans le champ Nom, tapez « Mise en correspondance des données de dimensions ».</span><span class="sxs-lookup"><span data-stu-id="72f18-114">In the Name field, type 'Dimensions data mapping'.</span></span>
+8. <span data-ttu-id="72f18-115">Dans le champ Description, tapez « Mise en correspondance des données de dimensions ».</span><span class="sxs-lookup"><span data-stu-id="72f18-115">In the Description field, type 'Dimensions data mapping'.</span></span>
+9. <span data-ttu-id="72f18-116">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="72f18-116">Click Save.</span></span>
+10. <span data-ttu-id="72f18-117">Cliquez sur Concepteur.</span><span class="sxs-lookup"><span data-stu-id="72f18-117">Click Designer.</span></span>
+11. <span data-ttu-id="72f18-118">Dans l'arborescence, sélectionnez « Dynamics 365 for Operations\Table ».</span><span class="sxs-lookup"><span data-stu-id="72f18-118">In the tree, select 'Dynamics 365 for Operations\Table'.</span></span>
+12. <span data-ttu-id="72f18-119">Cliquez sur Ajouter racine.</span><span class="sxs-lookup"><span data-stu-id="72f18-119">Click Add root.</span></span>
+13. <span data-ttu-id="72f18-120">Dans le champ Nom, tapez « Société ».</span><span class="sxs-lookup"><span data-stu-id="72f18-120">In the Name field, type 'Company'.</span></span>
+14. <span data-ttu-id="72f18-121">Dans le champ Table, tapez « CompanyInfo ».</span><span class="sxs-lookup"><span data-stu-id="72f18-121">In the Table field, type 'CompanyInfo'.</span></span>
+15. <span data-ttu-id="72f18-122">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="72f18-122">Click OK.</span></span>
+16. <span data-ttu-id="72f18-123">Dans l'arborescence, sélectionnez « Fonctions\Détails des dimensions financières ».</span><span class="sxs-lookup"><span data-stu-id="72f18-123">In the tree, select 'Functions\Financial dimensions details'.</span></span>
+17. <span data-ttu-id="72f18-124">Cliquez sur Ajouter racine.</span><span class="sxs-lookup"><span data-stu-id="72f18-124">Click Add root.</span></span>
+    * <span data-ttu-id="72f18-125">Cette source de données spécifie la façon dont la portée des dimensions financières est définie pour un état qui utilise ce modèle comme source de données.</span><span class="sxs-lookup"><span data-stu-id="72f18-125">This data source specifies how the scope of financial dimensions will be defined for any report that will use this model as a data source.</span></span>  
+18. <span data-ttu-id="72f18-126">Tapez une valeur dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="72f18-126">In the Name field, type a value.</span></span>
+19. <span data-ttu-id="72f18-127">Sélectionnez Oui dans le champ Demander les dimensions.</span><span class="sxs-lookup"><span data-stu-id="72f18-127">Select Yes in the Ask for dimensions field.</span></span>
+    * <span data-ttu-id="72f18-128">Sélectionnez Oui pour autoriser l'utilisateur à sélectionner des dimensions au moment de l'exécution dans l'écran Boîte de dialogue utilisateur.</span><span class="sxs-lookup"><span data-stu-id="72f18-128">Select Yes to allow the user to select dimensions at run-time on the User dialog form.</span></span> <span data-ttu-id="72f18-129">Si cette option est définie sur Non, toutes les dimensions financières de l'instance actuelle sont utilisées par défaut.</span><span class="sxs-lookup"><span data-stu-id="72f18-129">If set to No, all financial dimensions of the current instance will be used by default.</span></span>  
+20. <span data-ttu-id="72f18-130">Dans le champ Sélection de dimensions financières, sélectionnez « Entité juridique ».</span><span class="sxs-lookup"><span data-stu-id="72f18-130">In the Financial dimensions selection field, select 'Legal entity'.</span></span>
+    * <span data-ttu-id="72f18-131">Sélectionnez Tout pour autoriser l'utilisateur à sélectionner les dimensions souhaitées pour l'instance actuelle dans le champ de recherche.</span><span class="sxs-lookup"><span data-stu-id="72f18-131">Select All to allow the user to select desire dimensions for the current  instance in the Lookup field.</span></span>  <span data-ttu-id="72f18-132">Sélectionnez Entité juridique pour autoriser l'utilisateur à sélectionner des dimensions pour la société dans le champ de recherche.</span><span class="sxs-lookup"><span data-stu-id="72f18-132">Select Legal entity to allow the user to select dimensions for the company in the Lookup field.</span></span>  <span data-ttu-id="72f18-133">Sélectionnez Dimension pour autoriser l'utilisateur à sélectionner des dimensions à l'aide d'un ensemble de dimensions unique.</span><span class="sxs-lookup"><span data-stu-id="72f18-133">Select Dimension to allow the user to select dimensions using a single dimension set.</span></span>  
+21. <span data-ttu-id="72f18-134">Sélectionnez Oui dans le champ Demander le compte principal.</span><span class="sxs-lookup"><span data-stu-id="72f18-134">Select Yes in the Ask for main account field.</span></span>
+    * <span data-ttu-id="72f18-135">Définissez « Demander le compte principal » sur Oui pour autoriser les utilisateurs à sélectionner le compte principal dans le cadre de la liste de dimensions.</span><span class="sxs-lookup"><span data-stu-id="72f18-135">Set ‘Ask for main account’ to Yes to allow users to select the main account as part of the list of dimensions.</span></span>   <span data-ttu-id="72f18-136">Si cette option est définie sur Non, le compte principal n'est pas inclus dans la liste des dimensions et l'option « Compte principal obligatoire » est activée.</span><span class="sxs-lookup"><span data-stu-id="72f18-136">If set to No, the main account will not be included to the list of dimensions and the ‘Is main account mandatory’ option is enabled.</span></span> <span data-ttu-id="72f18-137">Si « Compte principal obligatoire » est défini sur Oui, incluez le compte principal dans la liste des dimensions quelle que soit la sélection de l'utilisateur.</span><span class="sxs-lookup"><span data-stu-id="72f18-137">If “Is main account mandatory’ is set to Yes, include the main account in the list of dimensions regardless of the user’s selection.</span></span>  
+22. <span data-ttu-id="72f18-138">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="72f18-138">Click OK.</span></span>
+23. <span data-ttu-id="72f18-139">Dans l'arborescence, sélectionnez « Dynamics 365 for Operations\Enregistrements de tables ».</span><span class="sxs-lookup"><span data-stu-id="72f18-139">In the tree, select 'Dynamics 365 for Operations\Table records'.</span></span>
+24. <span data-ttu-id="72f18-140">Cliquez sur Ajouter racine.</span><span class="sxs-lookup"><span data-stu-id="72f18-140">Click Add root.</span></span>
+25. <span data-ttu-id="72f18-141">Dans le champ Nom, tapez « LedgerJournal ».</span><span class="sxs-lookup"><span data-stu-id="72f18-141">In the Name field, type 'LedgerJournal'.</span></span>
+26. <span data-ttu-id="72f18-142">Sélectionnez Oui dans le champ Demander une requête.</span><span class="sxs-lookup"><span data-stu-id="72f18-142">Select Yes in the Ask for query field.</span></span>
+27. <span data-ttu-id="72f18-143">Dans le champ Table, tapez « LedgerJournalTable ».</span><span class="sxs-lookup"><span data-stu-id="72f18-143">In the Table field, type 'LedgerJournalTable'.</span></span>
+28. <span data-ttu-id="72f18-144">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="72f18-144">Click OK.</span></span>
 
-## <a name="map-data-model-elements-to-added-data-sources"></a>Mettre en correspondance les éléments de modèle de données avec les sources de données ajoutées
-1. Dans l'arborescence, développez « Journal »
-2. Dans l'arborescence, développez « Journal\Transaction ».
-3. Dans l'arborescence, développez « Journal\Transaction\Données de dimensions ».
-4. Dans l'arborescence, développez « Paramètre de dimensions ».
-5. Dans l'arborescence, développez « LedgerJournal ».
-6. Dans l'arborescence, développez « LedgerJournal\<Relations ».
-7. Dans l'arborescence, développez « LedgerJournal\<Relations\LedgerJournalTrans ».
-8. Dans l'arborescence, sélectionnez « LedgerJournal\<Relations\LedgerJournalTrans\N° document ».
-9. Dans l'arborescence, sélectionnez « Journal\Transaction\N° document ».
-10. Cliquez sur Lier.
-11. Dans l'arborescence, sélectionnez « LedgerJournal\<Relations\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension) ».
-    * Notez que pour toute référence aux dimensions financières qui est définie sur LedgerDimension par exemple, un article de source de données correspondant est disponible (LedgerDimension.Dimension). Cet article de source de données offre les dimensions financières de cet ensemble de dimensions comme liste de l'enregistrement.  
-12. Dans l'arborescence, développez « LedgerJournal\<Relations\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension) ».
-13. Dans l'arborescence, développez « LedgerJournal\<Relations\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)\Compte principal et dimensions ».
-14. Dans l'arborescence, développez « LedgerJournal\<Relations\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)\Compte principal et dimensions\Valeur ».
-15. Dans l'arborescence, développez « LedgerJournal\<Relations\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)\Compte principal et dimensions\Définition ».
-16. Dans l'arborescence, sélectionnez « LedgerJournal\<Relations\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)\Compte principal et dimensions\Définition\Nom ».
-17. Dans l'arborescence, sélectionnez « Journal\Transaction\Données de dimensions\Nom ».
-18. Cliquez sur Lier.
-19. Dans l'arborescence, sélectionnez « LedgerJournal\<Relations\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)\Compte principal et dimensions\Valeur\Description ».
-20. Dans l'arborescence, sélectionnez « Journal\Transaction\Données de dimensions\Description ».
-21. Cliquez sur Lier.
-22. Dans l'arborescence, sélectionnez « LedgerJournal\<Relations\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)\Compte principal et dimensions\Valeur\Code ».
-23. Dans l'arborescence, sélectionnez « Journal\Transaction\Données de dimensions\Code ».
-24. Cliquez sur Lier.
-25. Dans l'arborescence, sélectionnez « LedgerJournal\<Relations\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)\Compte principal et dimensions ».
-26. Dans l'arborescence, sélectionnez « Journal\Transaction\Données de dimensions ».
-27. Cliquez sur Lier.
-28. Dans l'arborescence, sélectionnez « LedgerJournal\<Relations\LedgerJournalTrans\Debit(AmountCurDebit) ».
-29. Dans l'arborescence, sélectionnez « Journal\Transaction\Débit ».
-30. Cliquez sur Lier.
-31. Dans l'arborescence, sélectionnez « LedgerJournal\<Relations\LedgerJournalTrans\Date(TransDate) ».
-32. Dans l'arborescence, sélectionnez « Journal\Transaction\Date ».
-33. Cliquez sur Lier.
-34. Dans l'arborescence, sélectionnez « LedgerJournal\<Relations\LedgerJournalTrans\Currency(CurrencyCode) ».
-35. Dans l'arborescence, sélectionnez « Journal\Transaction\Devise ».
-36. Cliquez sur Lier.
-37. Dans l'arborescence, sélectionnez « LedgerJournal\<Relations\LedgerJournalTrans\Credit(AmountCurCredit) ».
-38. Dans l'arborescence, sélectionnez « Journal\Transaction\Crédit ».
-39. Cliquez sur Lier.
-40. Dans l'arborescence, sélectionnez « LedgerJournal\<Relations\LedgerJournalTrans ».
-41. Dans l'arborescence, sélectionnez « Journal\Transaction ».
-42. Cliquez sur Lier.
-43. Dans l'arborescence, sélectionnez « LedgerJournal\Numéro de lot du journal(JournalNum) ».
-44. Dans l'arborescence, sélectionnez « Journal\Lot ».
-45. Cliquez sur Lier.
-46. Dans l'arborescence, sélectionnez « LedgerJournal ».
-47. Dans l'arborescence, sélectionnez « Journal ».
-48. Cliquez sur Lier.
-49. Dans l'arborescence, développez « Dimensions ».
-50. Dans l'arborescence, développez « Dimensions\Compte principal et dimensions ».
-51. Dans l'arborescence, développez « Dimensions\Compte principal et dimensions\Définition ».
-52. Dans l'arborescence, sélectionnez « Dimensions\Compte principal et dimensions\Définition\Nom ».
-53. Dans l'arborescence, sélectionnez « Paramètre de dimensions\Code ».
-54. Cliquez sur Lier.
-55. Dans l'arborescence, sélectionnez « Dimensions\Compte principal et dimensions\Définition\Nom de la colonne de l'état ».
-56. Dans l'arborescence, sélectionnez « Paramètre de dimensions\Nom ».
-57. Cliquez sur Lier.
-58. Dans l'arborescence, sélectionnez « Dimensions\Compte principal et dimensions ».
-59. Dans l'arborescence, sélectionnez « Paramètre de dimensions ».
-60. Cliquez sur Lier.
-61. Dans l'arborescence, sélectionnez « Société ».
-62. Cliquez sur Modifier.
-63. Dans le champ expressionAsStringText, entrez « Company.'find()'.'name() ».
-    * Company.'find()'.'name()'  
-64. Cliquez sur Enregistrer.
-65. Fermez la page.
-66. Cliquez sur Enregistrer.
-67. Fermez la page.
+## <a name="map-data-model-elements-to-added-data-sources"></a><span data-ttu-id="72f18-145">Mettre en correspondance les éléments de modèle de données avec les sources de données ajoutées</span><span class="sxs-lookup"><span data-stu-id="72f18-145">Map data model elements to added data sources</span></span>
+1. <span data-ttu-id="72f18-146">Dans l'arborescence, développez « Journal »</span><span class="sxs-lookup"><span data-stu-id="72f18-146">In the tree, expand 'Journal'.</span></span>
+2. <span data-ttu-id="72f18-147">Dans l'arborescence, développez « Journal\Transaction ».</span><span class="sxs-lookup"><span data-stu-id="72f18-147">In the tree, expand 'Journal\Transaction'.</span></span>
+3. <span data-ttu-id="72f18-148">Dans l'arborescence, développez « Journal\Transaction\Données de dimensions ».</span><span class="sxs-lookup"><span data-stu-id="72f18-148">In the tree, expand 'Journal\Transaction\Dimensions data'.</span></span>
+4. <span data-ttu-id="72f18-149">Dans l'arborescence, développez « Paramètre de dimensions ».</span><span class="sxs-lookup"><span data-stu-id="72f18-149">In the tree, expand 'Dimensions setting'.</span></span>
+5. <span data-ttu-id="72f18-150">Dans l'arborescence, développez « LedgerJournal ».</span><span class="sxs-lookup"><span data-stu-id="72f18-150">In the tree, expand 'LedgerJournal'.</span></span>
+6. <span data-ttu-id="72f18-151">Dans l'arborescence, développez « LedgerJournal\<Relations ».</span><span class="sxs-lookup"><span data-stu-id="72f18-151">In the tree, expand 'LedgerJournal\<Relations'.</span></span>
+7. <span data-ttu-id="72f18-152">Dans l'arborescence, développez « LedgerJournal\<Relations\LedgerJournalTrans ».</span><span class="sxs-lookup"><span data-stu-id="72f18-152">In the tree, expand 'LedgerJournal\<Relations\LedgerJournalTrans'.</span></span>
+8. <span data-ttu-id="72f18-153">Dans l'arborescence, sélectionnez « LedgerJournal\<Relations\LedgerJournalTrans\N° document ».</span><span class="sxs-lookup"><span data-stu-id="72f18-153">In the tree, select 'LedgerJournal\<Relations\LedgerJournalTrans\Voucher'.</span></span>
+9. <span data-ttu-id="72f18-154">Dans l'arborescence, sélectionnez « Journal\Transaction\N° document ».</span><span class="sxs-lookup"><span data-stu-id="72f18-154">In the tree, select 'Journal\Transaction\Voucher'.</span></span>
+10. <span data-ttu-id="72f18-155">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="72f18-155">Click Bind.</span></span>
+11. <span data-ttu-id="72f18-156">Dans l'arborescence, sélectionnez « LedgerJournal\<Relations\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension) ».</span><span class="sxs-lookup"><span data-stu-id="72f18-156">In the tree, select 'LedgerJournal\<Relations\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)'.</span></span>
+    * <span data-ttu-id="72f18-157">Notez que pour toute référence aux dimensions financières qui est définie sur LedgerDimension par exemple, un article de source de données correspondant est disponible (LedgerDimension.Dimension).</span><span class="sxs-lookup"><span data-stu-id="72f18-157">Note that for any reference to financial dimensions that is set to, for instance, LedgerDimension, a corresponding data source item is available (LedgerDimension.Dimension).</span></span> <span data-ttu-id="72f18-158">Cet article de source de données offre les dimensions financières de cet ensemble de dimensions comme liste de l'enregistrement.</span><span class="sxs-lookup"><span data-stu-id="72f18-158">This data source item offers the financial dimensions of that dimensions set as the record’s list.</span></span>  
+12. <span data-ttu-id="72f18-159">Dans l'arborescence, développez « LedgerJournal\<Relations\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension) ».</span><span class="sxs-lookup"><span data-stu-id="72f18-159">In the tree, expand 'LedgerJournal\<Relations\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)'.</span></span>
+13. <span data-ttu-id="72f18-160">Dans l'arborescence, développez « LedgerJournal\<Relations\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)\Compte principal et dimensions ».</span><span class="sxs-lookup"><span data-stu-id="72f18-160">In the tree, expand 'LedgerJournal\<Relations\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)\Main account and dimensions'.</span></span>
+14. <span data-ttu-id="72f18-161">Dans l'arborescence, développez « LedgerJournal\<Relations\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)\Compte principal et dimensions\Valeur ».</span><span class="sxs-lookup"><span data-stu-id="72f18-161">In the tree, expand 'LedgerJournal\<Relations\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)\Main account and dimensions\Value'.</span></span>
+15. <span data-ttu-id="72f18-162">Dans l'arborescence, développez « LedgerJournal\<Relations\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)\Compte principal et dimensions\Définition ».</span><span class="sxs-lookup"><span data-stu-id="72f18-162">In the tree, expand 'LedgerJournal\<Relations\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)\Main account and dimensions\Definition'.</span></span>
+16. <span data-ttu-id="72f18-163">Dans l'arborescence, sélectionnez « LedgerJournal\<Relations\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)\Compte principal et dimensions\Définition\Nom ».</span><span class="sxs-lookup"><span data-stu-id="72f18-163">In the tree, select 'LedgerJournal\<Relations\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)\Main account and dimensions\Definition\Name'.</span></span>
+17. <span data-ttu-id="72f18-164">Dans l'arborescence, sélectionnez « Journal\Transaction\Données de dimensions\Nom ».</span><span class="sxs-lookup"><span data-stu-id="72f18-164">In the tree, select 'Journal\Transaction\Dimensions data\Name'.</span></span>
+18. <span data-ttu-id="72f18-165">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="72f18-165">Click Bind.</span></span>
+19. <span data-ttu-id="72f18-166">Dans l'arborescence, sélectionnez « LedgerJournal\<Relations\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)\Compte principal et dimensions\Valeur\Description ».</span><span class="sxs-lookup"><span data-stu-id="72f18-166">In the tree, select 'LedgerJournal\<Relations\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)\Main account and dimensions\Value\Description'.</span></span>
+20. <span data-ttu-id="72f18-167">Dans l'arborescence, sélectionnez « Journal\Transaction\Données de dimensions\Description ».</span><span class="sxs-lookup"><span data-stu-id="72f18-167">In the tree, select 'Journal\Transaction\Dimensions data\Description'.</span></span>
+21. <span data-ttu-id="72f18-168">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="72f18-168">Click Bind.</span></span>
+22. <span data-ttu-id="72f18-169">Dans l'arborescence, sélectionnez « LedgerJournal\<Relations\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)\Compte principal et dimensions\Valeur\Code ».</span><span class="sxs-lookup"><span data-stu-id="72f18-169">In the tree, select 'LedgerJournal\<Relations\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)\Main account and dimensions\Value\Code'.</span></span>
+23. <span data-ttu-id="72f18-170">Dans l'arborescence, sélectionnez « Journal\Transaction\Données de dimensions\Code ».</span><span class="sxs-lookup"><span data-stu-id="72f18-170">In the tree, select 'Journal\Transaction\Dimensions data\Code'.</span></span>
+24. <span data-ttu-id="72f18-171">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="72f18-171">Click Bind.</span></span>
+25. <span data-ttu-id="72f18-172">Dans l'arborescence, sélectionnez « LedgerJournal\<Relations\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)\Compte principal et dimensions ».</span><span class="sxs-lookup"><span data-stu-id="72f18-172">In the tree, select 'LedgerJournal\<Relations\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)\Main account and dimensions'.</span></span>
+26. <span data-ttu-id="72f18-173">Dans l'arborescence, sélectionnez « Journal\Transaction\Données de dimensions ».</span><span class="sxs-lookup"><span data-stu-id="72f18-173">In the tree, select 'Journal\Transaction\Dimensions data'.</span></span>
+27. <span data-ttu-id="72f18-174">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="72f18-174">Click Bind.</span></span>
+28. <span data-ttu-id="72f18-175">Dans l'arborescence, sélectionnez « LedgerJournal\<Relations\LedgerJournalTrans\Debit(AmountCurDebit) ».</span><span class="sxs-lookup"><span data-stu-id="72f18-175">In the tree, select 'LedgerJournal\<Relations\LedgerJournalTrans\Debit(AmountCurDebit)'.</span></span>
+29. <span data-ttu-id="72f18-176">Dans l'arborescence, sélectionnez « Journal\Transaction\Débit ».</span><span class="sxs-lookup"><span data-stu-id="72f18-176">In the tree, select 'Journal\Transaction\Debit'.</span></span>
+30. <span data-ttu-id="72f18-177">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="72f18-177">Click Bind.</span></span>
+31. <span data-ttu-id="72f18-178">Dans l'arborescence, sélectionnez « LedgerJournal\<Relations\LedgerJournalTrans\Date(TransDate) ».</span><span class="sxs-lookup"><span data-stu-id="72f18-178">In the tree, select 'LedgerJournal\<Relations\LedgerJournalTrans\Date(TransDate)'.</span></span>
+32. <span data-ttu-id="72f18-179">Dans l'arborescence, sélectionnez « Journal\Transaction\Date ».</span><span class="sxs-lookup"><span data-stu-id="72f18-179">In the tree, select 'Journal\Transaction\Date'.</span></span>
+33. <span data-ttu-id="72f18-180">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="72f18-180">Click Bind.</span></span>
+34. <span data-ttu-id="72f18-181">Dans l'arborescence, sélectionnez « LedgerJournal\<Relations\LedgerJournalTrans\Currency(CurrencyCode) ».</span><span class="sxs-lookup"><span data-stu-id="72f18-181">In the tree, select 'LedgerJournal\<Relations\LedgerJournalTrans\Currency(CurrencyCode)'.</span></span>
+35. <span data-ttu-id="72f18-182">Dans l'arborescence, sélectionnez « Journal\Transaction\Devise ».</span><span class="sxs-lookup"><span data-stu-id="72f18-182">In the tree, select 'Journal\Transaction\Currency'.</span></span>
+36. <span data-ttu-id="72f18-183">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="72f18-183">Click Bind.</span></span>
+37. <span data-ttu-id="72f18-184">Dans l'arborescence, sélectionnez « LedgerJournal\<Relations\LedgerJournalTrans\Credit(AmountCurCredit) ».</span><span class="sxs-lookup"><span data-stu-id="72f18-184">In the tree, select 'LedgerJournal\<Relations\LedgerJournalTrans\Credit(AmountCurCredit)'.</span></span>
+38. <span data-ttu-id="72f18-185">Dans l'arborescence, sélectionnez « Journal\Transaction\Crédit ».</span><span class="sxs-lookup"><span data-stu-id="72f18-185">In the tree, select 'Journal\Transaction\Credit'.</span></span>
+39. <span data-ttu-id="72f18-186">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="72f18-186">Click Bind.</span></span>
+40. <span data-ttu-id="72f18-187">Dans l'arborescence, sélectionnez « LedgerJournal\<Relations\LedgerJournalTrans ».</span><span class="sxs-lookup"><span data-stu-id="72f18-187">In the tree, select 'LedgerJournal\<Relations\LedgerJournalTrans'.</span></span>
+41. <span data-ttu-id="72f18-188">Dans l'arborescence, sélectionnez « Journal\Transaction ».</span><span class="sxs-lookup"><span data-stu-id="72f18-188">In the tree, select 'Journal\Transaction'.</span></span>
+42. <span data-ttu-id="72f18-189">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="72f18-189">Click Bind.</span></span>
+43. <span data-ttu-id="72f18-190">Dans l'arborescence, sélectionnez « LedgerJournal\Numéro de lot du journal(JournalNum) ».</span><span class="sxs-lookup"><span data-stu-id="72f18-190">In the tree, select 'LedgerJournal\Journal batch number(JournalNum)'.</span></span>
+44. <span data-ttu-id="72f18-191">Dans l'arborescence, sélectionnez « Journal\Lot ».</span><span class="sxs-lookup"><span data-stu-id="72f18-191">In the tree, select 'Journal\Batch'.</span></span>
+45. <span data-ttu-id="72f18-192">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="72f18-192">Click Bind.</span></span>
+46. <span data-ttu-id="72f18-193">Dans l'arborescence, sélectionnez « LedgerJournal ».</span><span class="sxs-lookup"><span data-stu-id="72f18-193">In the tree, select 'LedgerJournal'.</span></span>
+47. <span data-ttu-id="72f18-194">Dans l'arborescence, sélectionnez « Journal ».</span><span class="sxs-lookup"><span data-stu-id="72f18-194">In the tree, select 'Journal'.</span></span>
+48. <span data-ttu-id="72f18-195">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="72f18-195">Click Bind.</span></span>
+49. <span data-ttu-id="72f18-196">Dans l'arborescence, développez « Dimensions ».</span><span class="sxs-lookup"><span data-stu-id="72f18-196">In the tree, expand 'Dimensions'.</span></span>
+50. <span data-ttu-id="72f18-197">Dans l'arborescence, développez « Dimensions\Compte principal et dimensions ».</span><span class="sxs-lookup"><span data-stu-id="72f18-197">In the tree, expand 'Dimensions\Main account and dimensions'.</span></span>
+51. <span data-ttu-id="72f18-198">Dans l'arborescence, développez « Dimensions\Compte principal et dimensions\Définition ».</span><span class="sxs-lookup"><span data-stu-id="72f18-198">In the tree, expand 'Dimensions\Main account and dimensions\Definition'.</span></span>
+52. <span data-ttu-id="72f18-199">Dans l'arborescence, sélectionnez « Dimensions\Compte principal et dimensions\Définition\Nom ».</span><span class="sxs-lookup"><span data-stu-id="72f18-199">In the tree, select 'Dimensions\Main account and dimensions\Definition\Name'.</span></span>
+53. <span data-ttu-id="72f18-200">Dans l'arborescence, sélectionnez « Paramètre de dimensions\Code ».</span><span class="sxs-lookup"><span data-stu-id="72f18-200">In the tree, select 'Dimensions setting\Code'.</span></span>
+54. <span data-ttu-id="72f18-201">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="72f18-201">Click Bind.</span></span>
+55. <span data-ttu-id="72f18-202">Dans l'arborescence, sélectionnez « Dimensions\Compte principal et dimensions\Définition\Nom de la colonne de l'état ».</span><span class="sxs-lookup"><span data-stu-id="72f18-202">In the tree, select 'Dimensions\Main account and dimensions\Definition\Report column name'.</span></span>
+56. <span data-ttu-id="72f18-203">Dans l'arborescence, sélectionnez « Paramètre de dimensions\Nom ».</span><span class="sxs-lookup"><span data-stu-id="72f18-203">In the tree, select 'Dimensions setting\Name'.</span></span>
+57. <span data-ttu-id="72f18-204">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="72f18-204">Click Bind.</span></span>
+58. <span data-ttu-id="72f18-205">Dans l'arborescence, sélectionnez « Dimensions\Compte principal et dimensions ».</span><span class="sxs-lookup"><span data-stu-id="72f18-205">In the tree, select 'Dimensions\Main account and dimensions'.</span></span>
+59. <span data-ttu-id="72f18-206">Dans l'arborescence, sélectionnez « Paramètre de dimensions ».</span><span class="sxs-lookup"><span data-stu-id="72f18-206">In the tree, select 'Dimensions setting'.</span></span>
+60. <span data-ttu-id="72f18-207">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="72f18-207">Click Bind.</span></span>
+61. <span data-ttu-id="72f18-208">Dans l'arborescence, sélectionnez « Société ».</span><span class="sxs-lookup"><span data-stu-id="72f18-208">In the tree, select 'Company'.</span></span>
+62. <span data-ttu-id="72f18-209">Cliquez sur Modifier.</span><span class="sxs-lookup"><span data-stu-id="72f18-209">Click Edit.</span></span>
+63. <span data-ttu-id="72f18-210">Dans le champ expressionAsStringText, entrez « Company.'find()'.'name() ».</span><span class="sxs-lookup"><span data-stu-id="72f18-210">In the expressionAsStringText field, enter 'Company.'find()'.'name()''.</span></span>
+    * <span data-ttu-id="72f18-211">Company.'find()'.'name()'</span><span class="sxs-lookup"><span data-stu-id="72f18-211">Company.'find()'.'name()'</span></span>  
+64. <span data-ttu-id="72f18-212">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="72f18-212">Click Save.</span></span>
+65. <span data-ttu-id="72f18-213">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="72f18-213">Close the page.</span></span>
+66. <span data-ttu-id="72f18-214">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="72f18-214">Click Save.</span></span>
+67. <span data-ttu-id="72f18-215">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="72f18-215">Close the page.</span></span>
 
-## <a name="complete-this-draft-models-version"></a>Terminer la version de ce modèle de brouillon
-1. Fermez la page.
-2. Fermez la page.
-3. Cliquez sur Modifier le statut.
-4. Cliquez sur Terminé.
-5. Cliquez sur OK.
+## <a name="complete-this-draft-models-version"></a><span data-ttu-id="72f18-216">Terminer la version de ce modèle de brouillon</span><span class="sxs-lookup"><span data-stu-id="72f18-216">Complete this draft model’s version</span></span>
+1. <span data-ttu-id="72f18-217">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="72f18-217">Close the page.</span></span>
+2. <span data-ttu-id="72f18-218">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="72f18-218">Close the page.</span></span>
+3. <span data-ttu-id="72f18-219">Cliquez sur Modifier le statut.</span><span class="sxs-lookup"><span data-stu-id="72f18-219">Click Change status.</span></span>
+4. <span data-ttu-id="72f18-220">Cliquez sur Terminé.</span><span class="sxs-lookup"><span data-stu-id="72f18-220">Click Complete.</span></span>
+5. <span data-ttu-id="72f18-221">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="72f18-221">Click OK.</span></span>
 
 

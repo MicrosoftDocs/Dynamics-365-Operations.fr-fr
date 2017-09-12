@@ -19,153 +19,153 @@ ms.author: dkrame
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 688550888e5e029e38e945cec633170465df73f9
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: af2d61717a5aa02b2a3ef26144a845b81b32ca53
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="organize-your-workforce-using-departments-jobs-and-positions"></a>Organiser le personnel à l'aide des départements, tâches et postes
+# <a name="organize-your-workforce-using-departments-jobs-and-positions"></a><span data-ttu-id="e7e0d-104">Organiser le personnel à l'aide des départements, tâches et postes</span><span class="sxs-lookup"><span data-stu-id="e7e0d-104">Organize your workforce using departments, jobs, and positions</span></span>
 
 [!include[banner](includes/banner.md)]
 
 [!include[retail name](includes/retail-name.md)]
 
 
-Les départements, les tâches et les postes sont des éléments d'organisation qui sont tenus à jour au sein des Ressources humaines. Cette rubrique décrit des informations conceptuelles sur ces éléments. 
+<span data-ttu-id="e7e0d-105">Les départements, les tâches et les postes sont des éléments d'organisation qui sont tenus à jour au sein des Ressources humaines.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-105">Departments, jobs, and positions are organizational elements that are maintained within Human resources.</span></span> <span data-ttu-id="e7e0d-106">Cette rubrique décrit des informations conceptuelles sur ces éléments.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-106">This topic describes conceptual information about these elements.</span></span> 
 
-L'exemple suivant est utilisé pour illustrer les concepts décrits dans cette rubrique.
+<span data-ttu-id="e7e0d-107">L'exemple suivant est utilisé pour illustrer les concepts décrits dans cette rubrique.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-107">The following example is used to illustrate the concepts described in this topic.</span></span>
 
-|**Département**|**Poste**|**Tâche**|
+|<span data-ttu-id="e7e0d-108">**Département**</span><span class="sxs-lookup"><span data-stu-id="e7e0d-108">**Department**</span></span>|<span data-ttu-id="e7e0d-109">**Poste**</span><span class="sxs-lookup"><span data-stu-id="e7e0d-109">**Position**</span></span>|<span data-ttu-id="e7e0d-110">**Tâche**</span><span class="sxs-lookup"><span data-stu-id="e7e0d-110">**Job**</span></span>|
 |---|---|---|
-|**Ventes**|Responsable des ventes (est)|Responsable des ventes|
-|**Ventes**|Responsable des ventes (ouest)|Responsable des ventes|
-|**Ventes**|Responsable des ventes (centre)|Responsable des ventes|
-|**Comptabilité**|Chef comptable|Responsable comptabilité|
-|**Comptabilité**|Comptabilité-A|Comptable|
-|**Ressources humaines**|Directeur RH (est)|Directeur RH|
-|**Ressources humaines**|Directeur RH (ouest)|Directeur RH|
-|**Ressources humaines**|Directeur RH (centre)|Directeur RH|
+|<span data-ttu-id="e7e0d-111">**Ventes**</span><span class="sxs-lookup"><span data-stu-id="e7e0d-111">**Sales**</span></span>|<span data-ttu-id="e7e0d-112">Responsable des ventes (est)</span><span class="sxs-lookup"><span data-stu-id="e7e0d-112">Sales manager (East)</span></span>|<span data-ttu-id="e7e0d-113">Responsable des ventes</span><span class="sxs-lookup"><span data-stu-id="e7e0d-113">Sales manager</span></span>|
+|<span data-ttu-id="e7e0d-114">**Ventes**</span><span class="sxs-lookup"><span data-stu-id="e7e0d-114">**Sales**</span></span>|<span data-ttu-id="e7e0d-115">Responsable des ventes (ouest)</span><span class="sxs-lookup"><span data-stu-id="e7e0d-115">Sales manager (West)</span></span>|<span data-ttu-id="e7e0d-116">Responsable des ventes</span><span class="sxs-lookup"><span data-stu-id="e7e0d-116">Sales manager</span></span>|
+|<span data-ttu-id="e7e0d-117">**Ventes**</span><span class="sxs-lookup"><span data-stu-id="e7e0d-117">**Sales**</span></span>|<span data-ttu-id="e7e0d-118">Responsable des ventes (centre)</span><span class="sxs-lookup"><span data-stu-id="e7e0d-118">Sales manager (Central)</span></span>|<span data-ttu-id="e7e0d-119">Responsable des ventes</span><span class="sxs-lookup"><span data-stu-id="e7e0d-119">Sales manager</span></span>|
+|<span data-ttu-id="e7e0d-120">**Comptabilité**</span><span class="sxs-lookup"><span data-stu-id="e7e0d-120">**Accounting**</span></span>|<span data-ttu-id="e7e0d-121">Chef comptable</span><span class="sxs-lookup"><span data-stu-id="e7e0d-121">Accounting supervisor</span></span>|<span data-ttu-id="e7e0d-122">Responsable comptabilité</span><span class="sxs-lookup"><span data-stu-id="e7e0d-122">Accounting manager</span></span>|
+|<span data-ttu-id="e7e0d-123">**Comptabilité**</span><span class="sxs-lookup"><span data-stu-id="e7e0d-123">**Accounting**</span></span>|<span data-ttu-id="e7e0d-124">Comptabilité-A</span><span class="sxs-lookup"><span data-stu-id="e7e0d-124">Accounting-A</span></span>|<span data-ttu-id="e7e0d-125">Comptable</span><span class="sxs-lookup"><span data-stu-id="e7e0d-125">Accountant</span></span>|
+|<span data-ttu-id="e7e0d-126">**Ressources humaines**</span><span class="sxs-lookup"><span data-stu-id="e7e0d-126">**Human resources**</span></span>|<span data-ttu-id="e7e0d-127">Directeur RH (est)</span><span class="sxs-lookup"><span data-stu-id="e7e0d-127">HR manager (East)</span></span>|<span data-ttu-id="e7e0d-128">Directeur RH</span><span class="sxs-lookup"><span data-stu-id="e7e0d-128">HR manager</span></span>|
+|<span data-ttu-id="e7e0d-129">**Ressources humaines**</span><span class="sxs-lookup"><span data-stu-id="e7e0d-129">**Human resources**</span></span>|<span data-ttu-id="e7e0d-130">Directeur RH (ouest)</span><span class="sxs-lookup"><span data-stu-id="e7e0d-130">HR manager (West)</span></span>|<span data-ttu-id="e7e0d-131">Directeur RH</span><span class="sxs-lookup"><span data-stu-id="e7e0d-131">HR manager</span></span>|
+|<span data-ttu-id="e7e0d-132">**Ressources humaines**</span><span class="sxs-lookup"><span data-stu-id="e7e0d-132">**Human resources**</span></span>|<span data-ttu-id="e7e0d-133">Directeur RH (centre)</span><span class="sxs-lookup"><span data-stu-id="e7e0d-133">HR manager (Central)</span></span>|<span data-ttu-id="e7e0d-134">Directeur RH</span><span class="sxs-lookup"><span data-stu-id="e7e0d-134">HR manager</span></span>|
 
  
- <a name="departments"></a>Départements
+ <a name="departments"></a><span data-ttu-id="e7e0d-135">Départements</span><span class="sxs-lookup"><span data-stu-id="e7e0d-135">Departments</span></span>
 ------------
 
-Un département est une unité opérationnelle représentant une catégorie ou une zone fonctionnelle d'une organisation, et responsable d'une région spécifique de l'organisation ; par exemple les ventes ou la comptabilité. Un département est chargé de fournir des états sur les zones fonctionnelles et peut être responsable des résultats. En outre, un département peut inclure un groupe de centres de coût. Les ventes, la comptabilité et les ressources humaines sont des exemples de départements d'une organisation.
+<span data-ttu-id="e7e0d-136">Un département est une unité opérationnelle représentant une catégorie ou une zone fonctionnelle d'une organisation, et responsable d'une région spécifique de l'organisation ; par exemple les ventes ou la comptabilité.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-136">A department is an operating unit that represents a category or functional area of an organization that is responsible for a specific area of the organization, such as sales or accounting.</span></span> <span data-ttu-id="e7e0d-137">Un département est chargé de fournir des états sur les zones fonctionnelles et peut être responsable des résultats.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-137">A department is used to report on functional areas and may have profit and loss responsibility.</span></span> <span data-ttu-id="e7e0d-138">En outre, un département peut inclure un groupe de centres de coût.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-138">Also, a department might include a group of cost centers.</span></span> <span data-ttu-id="e7e0d-139">Les ventes, la comptabilité et les ressources humaines sont des exemples de départements d'une organisation.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-139">Sales, accounting, and human resources are some examples of departments in an organization.</span></span>
 
-## <a name="jobs-and-positions"></a>Les tâches et les postes
-Une tâche est un ensemble de tâches et de responsabilités attribuées à la personne affectée à la tâche. Un poste est une instance individuelle de tâche. Les domaines de responsabilité, les tâches, les fonctions de tâche, les qualifications, les informations de formation et les certificats requis pour une tâche sont également nécessaires pour les postes associés à la tâche.
-### <a name="job-tasks"></a>Tâches
+## <a name="jobs-and-positions"></a><span data-ttu-id="e7e0d-140">Les tâches et les postes</span><span class="sxs-lookup"><span data-stu-id="e7e0d-140">Jobs and positions</span></span>
+<span data-ttu-id="e7e0d-141">Une tâche est un ensemble de tâches et de responsabilités attribuées à la personne affectée à la tâche.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-141">A job is a collection of tasks and responsibilities that are required of a person who performs a job.</span></span> <span data-ttu-id="e7e0d-142">Un poste est une instance individuelle de tâche.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-142">A position is an individual instance of a job.</span></span> <span data-ttu-id="e7e0d-143">Les domaines de responsabilité, les tâches, les fonctions de tâche, les qualifications, les informations de formation et les certificats requis pour une tâche sont également nécessaires pour les postes associés à la tâche.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-143">Areas of responsibility, job tasks, job functions, skills, education information, and certificates that are required for a job are also required for positions that are associated with a job.</span></span>
+### <a name="job-tasks"></a><span data-ttu-id="e7e0d-144">Tâches</span><span class="sxs-lookup"><span data-stu-id="e7e0d-144">Job tasks</span></span>
 
-Vous pouvez créer des descriptifs de tâches qui décrivent les tâches de base devant être accomplies par un travailleur occupant un poste pour cette tâche. Le même descriptif peut être ajouté à plusieurs tâches, et les postes associés à ces tâches hériteront de ces descriptifs. Des exemples de tâches sont répertoriés dans le tableau suivant.
+<span data-ttu-id="e7e0d-145">Vous pouvez créer des descriptifs de tâches qui décrivent les tâches de base devant être accomplies par un travailleur occupant un poste pour cette tâche.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-145">You can create job tasks that describe the basic tasks that a worker in a position for that job must complete.</span></span> <span data-ttu-id="e7e0d-146">Le même descriptif peut être ajouté à plusieurs tâches, et les postes associés à ces tâches hériteront de ces descriptifs.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-146">The same job task can be added to multiple jobs, and positions for those jobs will inherit those job tasks.</span></span> <span data-ttu-id="e7e0d-147">Des exemples de tâches sont répertoriés dans le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-147">Examples of job tasks are listed in the following table.</span></span>
 
 <table>
 <thead>
 <tr class="header">
-<th>Mission</th>
-<th>Tâche</th>
+<th><span data-ttu-id="e7e0d-148">Mission</span><span class="sxs-lookup"><span data-stu-id="e7e0d-148">Job</span></span></th>
+<th><span data-ttu-id="e7e0d-149">Tâche</span><span class="sxs-lookup"><span data-stu-id="e7e0d-149">Job task</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Responsable des ventes</td>
+<td><span data-ttu-id="e7e0d-150">Responsable des ventes</span><span class="sxs-lookup"><span data-stu-id="e7e0d-150">Sales manager</span></span></td>
 <td><ul>
-<li><span class="input">Examen des performances</span> – examen du rendement au travail de chaque commercial.</li>
-<li><span class="input">Examen des absences</span> – approbation ou rejet des demandes ou enregistrement d'absence de chaque commercial.</li>
+<li><span data-ttu-id="e7e0d-151"><span class="input">Examen des performances</span> – examen du rendement au travail de chaque commercial.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-151"><span class="input">Perf-review</span> – Review each salesperson’s job performance.</span></span></li>
+<li><span data-ttu-id="e7e0d-152"><span class="input">Examen des absences</span> – approbation ou rejet des demandes ou enregistrement d'absence de chaque commercial.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-152"><span class="input">Abs-review</span> – Approve or reject each salesperson’s absence requests or registrations.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Comptable</td>
-<td><span class="input">États financiers</span> – présentation d'états financiers hebdomadaires au directeur financier.</td>
+<td><span data-ttu-id="e7e0d-153">Comptable</span><span class="sxs-lookup"><span data-stu-id="e7e0d-153">Accountant</span></span></td>
+<td><span data-ttu-id="e7e0d-154"><span class="input">États financiers</span> – présentation d'états financiers hebdomadaires au directeur financier.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-154"><span class="input">FIN-Report</span> – Present weekly financial reports to chief financial officer.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-### <a name="job-functions"></a>Fonctions
+### <a name="job-functions"></a><span data-ttu-id="e7e0d-155">Fonctions</span><span class="sxs-lookup"><span data-stu-id="e7e0d-155">Job functions</span></span>
 
-Les fonctions de tâche sont comme des descriptifs de tâches. Une fonction de tâche décrit une ou plusieurs tâches, devoirs ou responsabilités affectés à une tâche. Les fonctions de tâche peuvent être affectées aux tâches et servir à paramétrer et mettre en œuvre des règles d'admissibilité pour les régimes de rémunération. Des exemples de fonctions de tâche sont répertoriés dans le tableau suivant.
+<span data-ttu-id="e7e0d-156">Les fonctions de tâche sont comme des descriptifs de tâches.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-156">Job functions are like job tasks.</span></span> <span data-ttu-id="e7e0d-157">Une fonction de tâche décrit une ou plusieurs tâches, devoirs ou responsabilités affectés à une tâche.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-157">A job function describes one or more tasks, duties or responsibilities that are assigned to a job.</span></span> <span data-ttu-id="e7e0d-158">Les fonctions de tâche peuvent être affectées aux tâches et servir à paramétrer et mettre en œuvre des règles d'admissibilité pour les régimes de rémunération.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-158">Job functions can be assigned to jobs and used to set up and implement eligibility rules for compensation plans.</span></span> <span data-ttu-id="e7e0d-159">Des exemples de fonctions de tâche sont répertoriés dans le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-159">Examples of job functions are listed in the following table.</span></span>
 
-| Tâche           | Fonction de tâche                                                |
+| <span data-ttu-id="e7e0d-160">Tâche</span><span class="sxs-lookup"><span data-stu-id="e7e0d-160">Job</span></span>           | <span data-ttu-id="e7e0d-161">Fonction de tâche</span><span class="sxs-lookup"><span data-stu-id="e7e0d-161">Job function</span></span>                                                |
 |---------------|-------------------------------------------------------------|
-| Responsable des ventes | Gestion de personnes – gérer les personnes placés sous votre autorité.               |
-| Comptable    | Examen des états financiers – tenue à jour des données financières pour un ensemble de comptes. |
+| <span data-ttu-id="e7e0d-162">Responsable des ventes</span><span class="sxs-lookup"><span data-stu-id="e7e0d-162">Sales manager</span></span> | <span data-ttu-id="e7e0d-163">Gestion de personnes – gérer les personnes placés sous votre autorité.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-163">Mng-people – Manage people who report to you.</span></span>               |
+| <span data-ttu-id="e7e0d-164">Comptable</span><span class="sxs-lookup"><span data-stu-id="e7e0d-164">Accountant</span></span>    | <span data-ttu-id="e7e0d-165">Examen des états financiers – tenue à jour des données financières pour un ensemble de comptes.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-165">FIN-Review – Maintain financial data for a set of accounts.</span></span> |
 
-### <a name="job-types"></a>Types de tâche
+### <a name="job-types"></a><span data-ttu-id="e7e0d-166">Types de tâche</span><span class="sxs-lookup"><span data-stu-id="e7e0d-166">Job types</span></span>
 
-Utilisez les types de tâches pour classer les tâches similaires en catégories. Les types de tâches, tout comme les fonctions de tâche peuvent être affectées aux tâches et servir à paramétrer et mettre en œuvre des règles d'admissibilité pour les régimes de rémunération. La liste suivante fournit quelques exemples de types de tâches :
--   Temps plein
--   Temps partiel
--   Salaire
--   Salaire horaire
+<span data-ttu-id="e7e0d-167">Utilisez les types de tâches pour classer les tâches similaires en catégories.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-167">Use job types to classify similar jobs into categories.</span></span> <span data-ttu-id="e7e0d-168">Les types de tâches, tout comme les fonctions de tâche peuvent être affectées aux tâches et servir à paramétrer et mettre en œuvre des règles d'admissibilité pour les régimes de rémunération.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-168">Job types, just like job functions, can be assigned to jobs and used to set up and implement eligibility rules for compensation plans.</span></span> <span data-ttu-id="e7e0d-169">La liste suivante fournit quelques exemples de types de tâches :</span><span class="sxs-lookup"><span data-stu-id="e7e0d-169">Some examples of job types are included in the following list:</span></span>
+-   <span data-ttu-id="e7e0d-170">Temps plein</span><span class="sxs-lookup"><span data-stu-id="e7e0d-170">Full-time</span></span>
+-   <span data-ttu-id="e7e0d-171">Temps partiel</span><span class="sxs-lookup"><span data-stu-id="e7e0d-171">Part-time</span></span>
+-   <span data-ttu-id="e7e0d-172">Salaire</span><span class="sxs-lookup"><span data-stu-id="e7e0d-172">Salary</span></span>
+-   <span data-ttu-id="e7e0d-173">Salaire horaire</span><span class="sxs-lookup"><span data-stu-id="e7e0d-173">Hourly pay</span></span>
 
-### <a name="areas-of-responsibility"></a>Domaines de responsabilité
+### <a name="areas-of-responsibility"></a><span data-ttu-id="e7e0d-174">Domaines de responsabilité</span><span class="sxs-lookup"><span data-stu-id="e7e0d-174">Areas of responsibility</span></span>
 
-Utilisez les domaines de responsabilité pour indiquer les rôles, les processus et les produits dont un travailleur occupant un poste pour cette tâche est responsable. Un exemple de domaine de responsabilité pour une tâche intitulée « Comptable » peut être « Génération d'états financiers pour le produit A ».
+<span data-ttu-id="e7e0d-175">Utilisez les domaines de responsabilité pour indiquer les rôles, les processus et les produits dont un travailleur occupant un poste pour cette tâche est responsable.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-175">Use areas of responsibility to indicate the work roles, processes, and products that a worker in a position for that job would be responsible for.</span></span> <span data-ttu-id="e7e0d-176">Un exemple de domaine de responsabilité pour une tâche intitulée « Comptable » peut être « Génération d'états financiers pour le produit A ».</span><span class="sxs-lookup"><span data-stu-id="e7e0d-176">An example of an area of responsibility for a job titled “Accountant” might be “Financial reporting for Product A”.</span></span>
 
-<a name="positions"></a>Postes
+<a name="positions"></a><span data-ttu-id="e7e0d-177">Postes</span><span class="sxs-lookup"><span data-stu-id="e7e0d-177">Positions</span></span>
 ----------
 
-Les postes sont un élément important du niveau inférieur d'une hiérarchie d'organisation. Un poste est une instance individuelle de tâche. Par exemple, le poste « Responsable des ventes (est) » est l'un des postes associé à la tâche « Responsable des ventes ». Les postes existent dans un département et sont affectées aux travailleurs.
-### <a name="position-creation-and-maintenance"></a>Création et mise à jour de poste
+<span data-ttu-id="e7e0d-178">Les postes sont un élément important du niveau inférieur d'une hiérarchie d'organisation.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-178">Positions are an important element of the lower level of an organization hierarchy.</span></span> <span data-ttu-id="e7e0d-179">Un poste est une instance individuelle de tâche.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-179">A position is an individual instance of a job.</span></span> <span data-ttu-id="e7e0d-180">Par exemple, le poste « Responsable des ventes (est) » est l'un des postes associé à la tâche « Responsable des ventes ».</span><span class="sxs-lookup"><span data-stu-id="e7e0d-180">For example, the position, “Sales manager (East),” is just one of the positions that is associated with the job, “Sales manager.”</span></span> <span data-ttu-id="e7e0d-181">Les postes existent dans un département et sont affectées aux travailleurs.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-181">Positions exist in a department and are assigned to workers.</span></span>
+### <a name="position-creation-and-maintenance"></a><span data-ttu-id="e7e0d-182">Création et mise à jour de poste</span><span class="sxs-lookup"><span data-stu-id="e7e0d-182">Position creation and maintenance</span></span>
 
--   Vous pouvez afficher un historique des modifications relatives aux postes du système dans une page de liste facile d'accès.
--   Vous pouvez créer des codes motif que les utilisateurs peuvent sélectionner lorsqu'ils créent ou modifient des postes.
--   Vous pouvez créer des types d'action d'un membre du personnel et affecter une souche de numéros aux actions d'un membre du personnel.
--   Vous pouvez paramétrer le workflow de telle sorte que les ajouts et modifications de poste nécessitent une approbation.
+-   <span data-ttu-id="e7e0d-183">Vous pouvez afficher un historique des modifications relatives aux postes du système dans une page de liste facile d'accès.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-183">You can view a history of position-related system changes in an easy-to-access list page.</span></span>
+-   <span data-ttu-id="e7e0d-184">Vous pouvez créer des codes motif que les utilisateurs peuvent sélectionner lorsqu'ils créent ou modifient des postes.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-184">You can create reason codes that your users can select when they create or modify positions.</span></span>
+-   <span data-ttu-id="e7e0d-185">Vous pouvez créer des types d'action d'un membre du personnel et affecter une souche de numéros aux actions d'un membre du personnel.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-185">You can create personnel action types and assign a number sequence to personnel actions.</span></span>
+-   <span data-ttu-id="e7e0d-186">Vous pouvez paramétrer le workflow de telle sorte que les ajouts et modifications de poste nécessitent une approbation.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-186">You can set up workflow so that position additions and changes can require approval.</span></span>
 
-### <a name="position-duration"></a>Durée du poste
+### <a name="position-duration"></a><span data-ttu-id="e7e0d-187">Durée du poste</span><span class="sxs-lookup"><span data-stu-id="e7e0d-187">Position duration</span></span>
 
-Chaque poste a une période durant laquelle le poste est effectif. Cette période est également appelée durée. Par exemple, les postes d'été peuvent avoir une durée qui s'étend du 1er mai 2015 au 31 août 2015.
+<span data-ttu-id="e7e0d-188">Chaque poste a une période durant laquelle le poste est effectif.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-188">Every position has a length of time that the position is effective.</span></span> <span data-ttu-id="e7e0d-189">Cette période est également appelée durée.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-189">This length of time is referred to as duration.</span></span> <span data-ttu-id="e7e0d-190">Par exemple, les postes d'été peuvent avoir une durée qui s'étend du 1er mai 2015 au 31 août 2015.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-190">For example, summer positions might have duration of May 1, 2015 until August 31, 2015.</span></span>
 
-### <a name="worker-assignments"></a>Affectations du collaborateur
+### <a name="worker-assignments"></a><span data-ttu-id="e7e0d-191">Affectations du collaborateur</span><span class="sxs-lookup"><span data-stu-id="e7e0d-191">Worker assignments</span></span>
 
-Lorsque vous affectez un travailleur à un poste, vous occupez ce poste. Vous pouvez affecter des travailleurs à plusieurs postes, mais un seul travailleur à la fois peut être affecté au poste.
+<span data-ttu-id="e7e0d-192">Lorsque vous affectez un travailleur à un poste, vous occupez ce poste.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-192">When you assign a worker to a position, you fill that position.</span></span> <span data-ttu-id="e7e0d-193">Vous pouvez affecter des travailleurs à plusieurs postes, mais un seul travailleur à la fois peut être affecté au poste.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-193">You can assign workers to multiple positions, but only one worker can be assigned to a position at the same time.</span></span>
 
-### <a name="reporting-relationships"></a>Relations de génération d'états
+### <a name="reporting-relationships"></a><span data-ttu-id="e7e0d-194">Relations de génération d'états</span><span class="sxs-lookup"><span data-stu-id="e7e0d-194">Reporting relationships</span></span>
 
-Les postes sont des éléments importants du niveau inférieur d'une hiérarchie d'organisation. Dans l'écran Poste, vous pouvez spécifier le poste dont un poste dépend. Lorsque vous affectez un travailleur à un poste qui dépend d'un autre poste, vous créez une relation hiérarchique entre les travailleurs affectés aux deux postes. Par exemple, le poste « Comptable A » est sous l'autorité de « Chef comptable ». Pierre Lopez est affecté au poste « Chef comptable » et Sanjay Patel est affecté au poste « Comptable A ». Cela signifie que Sanjay Patel est sous l'autorité de Pierre Lopez. 
+<span data-ttu-id="e7e0d-195">Les postes sont des éléments importants du niveau inférieur d'une hiérarchie d'organisation.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-195">Positions are important elements of the lower level of an organization hierarchy.</span></span> <span data-ttu-id="e7e0d-196">Dans l'écran Poste, vous pouvez spécifier le poste dont un poste dépend.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-196">In the Position form, you can specify the position that a position reports to.</span></span> <span data-ttu-id="e7e0d-197">Lorsque vous affectez un travailleur à un poste qui dépend d'un autre poste, vous créez une relation hiérarchique entre les travailleurs affectés aux deux postes.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-197">When you assign a worker to a position that reports to another position, you create a reporting relationship between the workers who are assigned to the two positions.</span></span> <span data-ttu-id="e7e0d-198">Par exemple, le poste « Comptable A » est sous l'autorité de « Chef comptable ».</span><span class="sxs-lookup"><span data-stu-id="e7e0d-198">For example, position “Accountant-A” reports to position “Accounting Supervisor”.</span></span> <span data-ttu-id="e7e0d-199">Pierre Lopez est affecté au poste « Chef comptable » et Sanjay Patel est affecté au poste « Comptable A ».</span><span class="sxs-lookup"><span data-stu-id="e7e0d-199">Kim Akers is assigned to position “Accounting Supervisor” and Sanjay Patel is assigned to position “Accountant-A”.</span></span> <span data-ttu-id="e7e0d-200">Cela signifie que Sanjay Patel est sous l'autorité de Pierre Lopez.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-200">This means that Sanjay Patel reports to Kim Akers.</span></span> 
 
-Si votre organisation utilise une hiérarchie matricielle ou une autre hiérarchie personnalisée, vous pouvez paramétrer des types de hiérarchies des postes et ensuite ajouter des relations hiérarchiques aux postes pour chaque type de hiérarchie défini. Par exemple, Lori Penor est directeur général chez Adventure Works et est affecté au poste de « Directeur général ». Lori gère le développement d'un produit utilisé pour nettoyer les widgets. Lori a besoin d'un comptable pour l'aider à gérer l'aspect financier du développement du produit. Par conséquent, elle a recruté Sanjay Patel comme comptable. Sanjay est sous l'autorité directe de Pierre Lopez, mais il travaille également avec Lori Penor sur l'aspect financier du développement du nettoyeur de widget. 
+<span data-ttu-id="e7e0d-201">Si votre organisation utilise une hiérarchie matricielle ou une autre hiérarchie personnalisée, vous pouvez paramétrer des types de hiérarchies des postes et ensuite ajouter des relations hiérarchiques aux postes pour chaque type de hiérarchie défini.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-201">If your organization uses a matrix hierarchy or another custom hierarchy, you can set up position hierarchy types and then add reporting relationships to positions for each hierarchy type that you set up.</span></span> <span data-ttu-id="e7e0d-202">Par exemple, Lori Penor est directeur général chez Adventure Works et est affecté au poste de « Directeur général ».</span><span class="sxs-lookup"><span data-stu-id="e7e0d-202">For example, Lori Penor is a general manager at Adventure Works and is assigned to the “General Manager” position.</span></span> <span data-ttu-id="e7e0d-203">Lori gère le développement d'un produit utilisé pour nettoyer les widgets.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-203">Lori manages the development of a product that is used to clean widgets.</span></span> <span data-ttu-id="e7e0d-204">Lori a besoin d'un comptable pour l'aider à gérer l'aspect financier du développement du produit.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-204">Lori requires an accountant to help her with the finances for developing the product.</span></span> <span data-ttu-id="e7e0d-205">Par conséquent, elle a recruté Sanjay Patel comme comptable.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-205">Therefore, she has recruited Sanjay Patel to be her accountant.</span></span> <span data-ttu-id="e7e0d-206">Sanjay est sous l'autorité directe de Pierre Lopez, mais il travaille également avec Lori Penor sur l'aspect financier du développement du nettoyeur de widget.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-206">Sanjay reports directly to Kim Akers, but also works with Lori Penor on his work related to the finances for developing the widget cleaner.</span></span> 
 
-Dans l'exemple précédent, vous effectueriez les tâches suivantes pour paramétrer la relation de travail entre Sanjay Patel et Lori Penor :
-1.  Création d'un type de hiérarchie de poste personnalisé appelé « Widget » pour créer une hiérarchie qui inclut les postes responsables du travail sur le produit de nettoyage de widget.
-2.  Affectation du poste de Directeur général comme poste dont dépend le Comptable A dans la hiérarchie de Widget.
+<span data-ttu-id="e7e0d-207">Dans l'exemple précédent, vous effectueriez les tâches suivantes pour paramétrer la relation de travail entre Sanjay Patel et Lori Penor :</span><span class="sxs-lookup"><span data-stu-id="e7e0d-207">For the previous example, you would complete the following tasks to set up the working relationship between Sanjay Patel and Lori Penor:</span></span>
+1.  <span data-ttu-id="e7e0d-208">Création d'un type de hiérarchie de poste personnalisé appelé « Widget » pour créer une hiérarchie qui inclut les postes responsables du travail sur le produit de nettoyage de widget.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-208">Create a custom position hierarchy type called “Widget” to create a hierarchy that includes positions responsible for working on the widget cleaner product.</span></span>
+2.  <span data-ttu-id="e7e0d-209">Affectation du poste de Directeur général comme poste dont dépend le Comptable A dans la hiérarchie de Widget.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-209">Assign the General Manager position to be the position that the Accountant-A position reports to in the Widget hierarchy.</span></span>
 
-Utilisez la hiérarchie des postes pour afficher la structure hiérarchique des postes. Si plusieurs hiérarchies des postes, vous pouvez afficher la hiérarchie de chaque type de hiérarchie de la hiérarchie des postes. En outre, vous pouvez rechercher un poste à l'aide de l'ID du poste ou du nom du travailleur affecté au poste. La hiérarchie des postes est une hiérarchie d'organisation.
+<span data-ttu-id="e7e0d-210">Utilisez la hiérarchie des postes pour afficher la structure hiérarchique des postes.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-210">Use the position hierarchy to view the reporting structure of positions.</span></span> <span data-ttu-id="e7e0d-211">Si plusieurs hiérarchies des postes, vous pouvez afficher la hiérarchie de chaque type de hiérarchie de la hiérarchie des postes.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-211">If you have multiple position hierarchies, you can view the hierarchy for each hierarchy type in the position hierarchy.</span></span> <span data-ttu-id="e7e0d-212">En outre, vous pouvez rechercher un poste à l'aide de l'ID du poste ou du nom du travailleur affecté au poste.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-212">Also, you can search for a position by position ID or by the name of the worker who is assigned to the position.</span></span> <span data-ttu-id="e7e0d-213">La hiérarchie des postes est une hiérarchie d'organisation.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-213">The position hierarchy is an organizational hierarchy.</span></span>
 
-## <a name="date-effective-records"></a>Date des enregistrements effectifs
-Pour certains enregistrements, vous pouvez spécifier des modifications futures apportées à l'enregistrement. Les informations suivantes ont une date d'effet.
+## <a name="date-effective-records"></a><span data-ttu-id="e7e0d-214">Date des enregistrements effectifs</span><span class="sxs-lookup"><span data-stu-id="e7e0d-214">Date effective records</span></span>
+<span data-ttu-id="e7e0d-215">Pour certains enregistrements, vous pouvez spécifier des modifications futures apportées à l'enregistrement.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-215">For some records, you can specify future changes to the record.</span></span> <span data-ttu-id="e7e0d-216">Les informations suivantes ont une date d'effet.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-216">The following information is date effective.</span></span>
 
 <table>
 <thead>
 <tr class="header">
-<th>Enregistrements</th>
-<th>Informations à date d'effet</th>
+<th><span data-ttu-id="e7e0d-217">Enregistrements</span><span class="sxs-lookup"><span data-stu-id="e7e0d-217">Records</span></span></th>
+<th><span data-ttu-id="e7e0d-218">Informations à date d'effet</span><span class="sxs-lookup"><span data-stu-id="e7e0d-218">Date effective information</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Tâches</td>
+<td><span data-ttu-id="e7e0d-219">Tâches</span><span class="sxs-lookup"><span data-stu-id="e7e0d-219">Jobs</span></span></td>
 <td><ul>
-<li>Informations détaillées relatives à la tâche</li>
-<li>Informations de classification des tâches</li>
-<li>Informations de rémunération</li>
+<li><span data-ttu-id="e7e0d-220">Informations détaillées relatives à la tâche</span><span class="sxs-lookup"><span data-stu-id="e7e0d-220">Some detailed job information</span></span></li>
+<li><span data-ttu-id="e7e0d-221">Informations de classification des tâches</span><span class="sxs-lookup"><span data-stu-id="e7e0d-221">Job classification information</span></span></li>
+<li><span data-ttu-id="e7e0d-222">Informations de rémunération</span><span class="sxs-lookup"><span data-stu-id="e7e0d-222">Compensation information</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Postes</td>
+<td><span data-ttu-id="e7e0d-223">Postes</span><span class="sxs-lookup"><span data-stu-id="e7e0d-223">Positions</span></span></td>
 <td><ul>
-<li>Informations détaillées relatives au poste</li>
-<li>Affectations du travailleur</li>
-<li>Durées du poste</li>
-<li>Hiérarchies des postes</li>
+<li><span data-ttu-id="e7e0d-224">Informations détaillées relatives au poste</span><span class="sxs-lookup"><span data-stu-id="e7e0d-224">Some detailed position information</span></span></li>
+<li><span data-ttu-id="e7e0d-225">Affectations du travailleur</span><span class="sxs-lookup"><span data-stu-id="e7e0d-225">Worker assignments</span></span></li>
+<li><span data-ttu-id="e7e0d-226">Durées du poste</span><span class="sxs-lookup"><span data-stu-id="e7e0d-226">Position durations</span></span></li>
+<li><span data-ttu-id="e7e0d-227">Hiérarchies des postes</span><span class="sxs-lookup"><span data-stu-id="e7e0d-227">Position hierarchies</span></span></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-Vous pouvez modifier les informations mentionnées dans le tableau précédent pour un poste ou une tâche et spécifier une date à laquelle les modifications apportées au poste ou à la tâche doivent prendre effet. Par exemple, un poste peut uniquement être affecté à un travailleur, mais Sanjay Patel, affecté au poste de Comptable A, partira dans deux semaines. Olivier Renaud remplacera Sanjay Patel à son départ. Même si Sanjay est affecté au poste, vous pouvez y affecter Olivier Renaud afin que l'affectation soit effective seulement après le dernier jour de Sanjay.
+<span data-ttu-id="e7e0d-228">Vous pouvez modifier les informations mentionnées dans le tableau précédent pour un poste ou une tâche et spécifier une date à laquelle les modifications apportées au poste ou à la tâche doivent prendre effet.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-228">You can modify the information mentioned in the previous table for a position or a job and specify a date when the modifications to the position or job should take effect.</span></span> <span data-ttu-id="e7e0d-229">Par exemple, un poste peut uniquement être affecté à un travailleur, mais Sanjay Patel, affecté au poste de Comptable A, partira dans deux semaines.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-229">For example, a position can only be assigned to one worker, but Sanjay Patel, who is assigned to the position Accountant-A, will be leaving in two weeks.</span></span> <span data-ttu-id="e7e0d-230">Olivier Renaud remplacera Sanjay Patel à son départ.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-230">Joe Healy will replace Sanjay Patel when he leaves.</span></span> <span data-ttu-id="e7e0d-231">Même si Sanjay est affecté au poste, vous pouvez y affecter Olivier Renaud afin que l'affectation soit effective seulement après le dernier jour de Sanjay.</span><span class="sxs-lookup"><span data-stu-id="e7e0d-231">Even though Sanjay is still assigned to his position, you can assign Joe Healy to the same position so that the assignment is effective only after Sanjay’s last day.</span></span>
 
 
 

@@ -22,181 +22,181 @@ ms.contentlocale: fr-fr
 ms.lasthandoff: 07/27/2017
 
 ---
-# <a name="upgrade-your-format-by-adopting-of-new-base-version-of-that-format-for-electronic-reporting-er"></a>Mettre à niveau votre format en adoptant la nouvelle version de base de ce format pour la génération d'états électroniques (ER)
+# <a name="upgrade-your-format-by-adopting-of-new-base-version-of-that-format-for-electronic-reporting-er"></a><span data-ttu-id="7bdc0-103">Mettre à niveau votre format en adoptant la nouvelle version de base de ce format pour la génération d'états électroniques (ER)</span><span class="sxs-lookup"><span data-stu-id="7bdc0-103">Upgrade your format by adopting of new base version of that format for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Les étapes suivantes expliquent comment un utilisateur dont le rôle est Administrateur système ou Développeur d'états électroniques peut conserver une configuration de format pour la génération d'états électronique (ER). Cette procédure explique comment une version personnalisée d'un format peut être créée en fonction du format reçu d'un fournisseur de configuration. Elle décrit également comment adopter une nouvelle version de base de ce format.
+<span data-ttu-id="7bdc0-104">Les étapes suivantes expliquent comment un utilisateur dont le rôle est Administrateur système ou Développeur d'états électroniques peut conserver une configuration de format pour la génération d'états électronique (ER).</span><span class="sxs-lookup"><span data-stu-id="7bdc0-104">The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can maintain an Electronic reporting (ER) format configuration.</span></span> <span data-ttu-id="7bdc0-105">Cette procédure explique comment une version personnalisée d'un format peut être créée en fonction du format reçu d'un fournisseur de configuration.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-105">This procedure explains how a custom version of a format can be created based on the format received from a configuration provider (CP).</span></span> <span data-ttu-id="7bdc0-106">Elle décrit également comment adopter une nouvelle version de base de ce format.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-106">It also explains how to adopt a new, base version of that format.</span></span>
 
 
 
-Pour effectuer ces étapes, vous devez tout d'abord appliquer les procédures « Créer un fournisseur de configuration et le marquer comme actif » et « Utiliser le format créé pour générer des documents électroniques ». Ces étapes peuvent être effectuées dans la société GBSI.
+<span data-ttu-id="7bdc0-107">Pour effectuer ces étapes, vous devez tout d'abord appliquer les procédures « Créer un fournisseur de configuration et le marquer comme actif » et « Utiliser le format créé pour générer des documents électroniques ».</span><span class="sxs-lookup"><span data-stu-id="7bdc0-107">To complete these steps, you must first complete the steps in the “Create a configuration provider and mark it as active” and “Use created format to generate electronic documents for payments” procedures.</span></span> <span data-ttu-id="7bdc0-108">Ces étapes peuvent être effectuées dans la société GBSI.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-108">These steps can be performed in the GBSI company.</span></span>
 
 
-## <a name="select-format-configuration-for-customization"></a>Sélectionner la configuration du format pour la personnalisation
-1. Accédez à Administration d'organisation > Espaces de travail > États électroniques.
-    * Dans cet exemple, la société fictive Litware, Inc. (http://www.litware.com) fait office de fournisseur de configuration qui prend en charge les configurations de format pour les paiements électroniques pour un pays particulier.    La société fictive Proseware, Inc. (http://www.proseware.com) fait office de consommateur de la configuration du format fourni par Litware, Inc. Proseware, Inc. utilise des formats dans certaines régions de ce pays.  
-2. Cliquez sur Configurations des états.
-3. Cliquez sur Afficher les filtres.
-4. Appliquez les filtres suivants : entrez la valeur de filtre « BACS (nom fictif britannique) » dans le champ « Nom » à l'aide de l'opérateur de filtre « commence par ».
-    * LE SYSTÈME BACS (R-U factice)  
-    * La configuration du format sélectionné BACS (nom fictif britannique) appartient au fournisseur Litware, Inc.  
-5. Cliquez sur Afficher les filtres.
-6. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-    * La version du format dont le statut est Terminé est utilisée par Proseware, Inc. pour la personnalisation.  
+## <a name="select-format-configuration-for-customization"></a><span data-ttu-id="7bdc0-109">Sélectionner la configuration du format pour la personnalisation</span><span class="sxs-lookup"><span data-stu-id="7bdc0-109">Select format configuration for customization</span></span>
+1. <span data-ttu-id="7bdc0-110">Accédez à Administration d'organisation > Espaces de travail > États électroniques.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-110">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+    * <span data-ttu-id="7bdc0-111">Dans cet exemple, la société fictive Litware, Inc. (http://www.litware.com) fait office de fournisseur de configuration qui prend en charge les configurations de format pour les paiements électroniques pour un pays particulier.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-111">In this example, sample company Litware, Inc. (http://www.litware.com) will act as a configuration provider that supports format configurations for electronic payments for a particular country.</span></span>    <span data-ttu-id="7bdc0-112">La société fictive Proseware, Inc. (http://www.proseware.com) fait office de consommateur de la configuration du format fourni par Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-112">Sample company Proseware, Inc. (http://www.proseware.com) will act as a consumer of the format configuration that Litware, Inc. provided.</span></span> <span data-ttu-id="7bdc0-113">Proseware, Inc. utilise des formats dans certaines régions de ce pays.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-113">Proseware, Inc. uses formats in certain regions of that country.</span></span>  
+2. <span data-ttu-id="7bdc0-114">Cliquez sur Configurations des états.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-114">Click Reporting configurations.</span></span>
+3. <span data-ttu-id="7bdc0-115">Cliquez sur Afficher les filtres.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-115">Click Show filters.</span></span>
+4. <span data-ttu-id="7bdc0-116">Appliquez les filtres suivants : entrez la valeur de filtre « BACS (nom fictif britannique) » dans le champ « Nom » à l'aide de l'opérateur de filtre « commence par ».</span><span class="sxs-lookup"><span data-stu-id="7bdc0-116">Apply the following filters: Enter a filter value of "BACS (UK fictitious)" on the "Name" field using the "begins with" filter operator</span></span>
+    * <span data-ttu-id="7bdc0-117">LE SYSTÈME BACS (R-U factice)</span><span class="sxs-lookup"><span data-stu-id="7bdc0-117">BACS (UK fictitious)</span></span>  
+    * <span data-ttu-id="7bdc0-118">La configuration du format sélectionné BACS (nom fictif britannique) appartient au fournisseur Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-118">The selected format configuration BACS (UK fictitious) is owned by provider Litware, Inc.</span></span>  
+5. <span data-ttu-id="7bdc0-119">Cliquez sur Afficher les filtres.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-119">Click Show filters.</span></span>
+6. <span data-ttu-id="7bdc0-120">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-120">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="7bdc0-121">La version du format dont le statut est Terminé est utilisée par Proseware, Inc. pour la personnalisation.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-121">The version of the format with the status of Completed will be used by Proseware, Inc. for customization.</span></span>  
 
-## <a name="create-a-new-configuration-for-your-custom-format-of-electronic-document"></a>Créer une configuration pour le format personnalisé du document électronique
-    * Proseware, Inc. a reçu la version 1.1 de la configuration BACS (nom fictif britannique) qui contient le format initial pour générer des documents de paiement électronique à partir de Litware, Inc. conformément à leur abonnement au service. Proseware, Inc. souhaite commencer à l'aide de cette norme pour son pays, mais certaines personnalisations sont nécessaires pour prendre en charge des besoins spécifiques à la région. Proseware, Inc. souhaite également conserver la capacité de mettre à niveau un format personnalisé dès qu'une nouvelle version de celui-ci (avec des modifications pour prendre en charge de nouveaux besoins spécifiques au pays) est disponible à partir de Litware, Inc. et il souhaite effectuer cette mise à niveau à moindre coût.  Pour ce faire, Proseware, Inc. doit créer une configuration à l'aide de la configuration du format sélectionné BACS (nom fictif britannique) de Litware, Inc. comme base.  
-1. Fermez la page.
-2. Sélectionnez Proseware, Inc. pour en faire un fournisseur actif.
-3. Cliquez sur Activer.
-4. Cliquez sur Configurations des états.
-5. Dans l'arborescence, développez « Paiements (modèle simplifié) ».
-6. Dans l'arborescence, sélectionnez « Paiements (modèle simplifié) »\BACS (nom fictif britannique) ».
-    * Sélectionnez la configuration du format sélectionné BACS (nom fictif britannique) de Litware, Inc.     Proseware, Inc. utilise la version 1,1 comme base pour la version personnalisée.  
-7. Cliquez sur Créer la configuration pour ouvrir la boîte de dialogue.
-    * Cela vous permet de créer une configuration pour un format de paiement personnalisé.  
-8. Dans le champ Nouveau, entrez « Provenant du nom : BACS (nom fictif britannique), Litware, Inc. ».
-    * Sélectionnez l'option Déduire pour confirmer l'utilisation de BACS (nom fictif britannique) comme base pour créer la version personnalisée.  
-9. Dans le champ Nom, tapez « BACS (nom personnalisé fictif britannique) ».
-    * BACS (nom personnalisé fictif britannique)  
-10. Dans le champ Description, entrez « Paiement fournisseur BACS (nom personnalisé fictif britannique) ».
-    * Paiement fournisseur BACS (nom personnalisé fictif britannique)  
-    * Le fournisseur de configuration actif (Proseware, Inc.) est automatiquement entré ici. Ce fournisseur pourra mettre à jour cette configuration. D'autres fournisseurs peuvent utiliser cette configuration, mais ne peuvent pas la mettre à jour.  
-11. Cliquez sur Créer une configuration.
+## <a name="create-a-new-configuration-for-your-custom-format-of-electronic-document"></a><span data-ttu-id="7bdc0-122">Créer une configuration pour le format personnalisé du document électronique</span><span class="sxs-lookup"><span data-stu-id="7bdc0-122">Create a new configuration for your custom format of electronic document</span></span>
+    * <span data-ttu-id="7bdc0-123">Proseware, Inc. a reçu la version 1.1 de la configuration BACS (nom fictif britannique) qui contient le format initial pour générer des documents de paiement électronique à partir de Litware, Inc. conformément à leur abonnement au service.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-123">Proseware, Inc. received version 1.1 of BACS (UK fictitious) configuration that contains the initial format to generate electronic payment documents from Litware, Inc. in accordance to their service subscription.</span></span> <span data-ttu-id="7bdc0-124">Proseware, Inc. souhaite commencer à l'aide de cette norme pour son pays, mais certaines personnalisations sont nécessaires pour prendre en charge des besoins spécifiques à la région.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-124">Proseware, Inc. wants to start using this as a standard for their country but some customization is required to support specific regional requirements.</span></span> <span data-ttu-id="7bdc0-125">Proseware, Inc. souhaite également conserver la capacité de mettre à niveau un format personnalisé dès qu'une nouvelle version de celui-ci (avec des modifications pour prendre en charge de nouveaux besoins spécifiques au pays) est disponible à partir de Litware, Inc. et il souhaite effectuer cette mise à niveau à moindre coût.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-125">Proseware, Inc. also wants to keep the ability to upgrade a custom format as soon as a new version of it (with changes to support new country-specific requirements) comes from Litware, Inc. and they want to perform this upgrade with the lowest cost.</span></span>  <span data-ttu-id="7bdc0-126">Pour ce faire, Proseware, Inc. doit créer une configuration à l'aide de la configuration du format sélectionné BACS (nom fictif britannique) de Litware, Inc. comme base.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-126">To do this, Proseware, Inc. needs to create a configuration using the Litware, Inc. configuration BACS (UK fictitious) as a base.</span></span>  
+1. <span data-ttu-id="7bdc0-127">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-127">Close the page.</span></span>
+2. <span data-ttu-id="7bdc0-128">Sélectionnez Proseware, Inc. pour en faire un fournisseur actif.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-128">Select Proseware, Inc. to make it an active provider.</span></span>
+3. <span data-ttu-id="7bdc0-129">Cliquez sur Activer.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-129">Click Set active.</span></span>
+4. <span data-ttu-id="7bdc0-130">Cliquez sur Configurations des états.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-130">Click Reporting configurations.</span></span>
+5. <span data-ttu-id="7bdc0-131">Dans l'arborescence, développez « Paiements (modèle simplifié) ».</span><span class="sxs-lookup"><span data-stu-id="7bdc0-131">In the tree, expand 'Payments (simplified model)'.</span></span>
+6. <span data-ttu-id="7bdc0-132">Dans l'arborescence, sélectionnez « Paiements (modèle simplifié) »\BACS (nom fictif britannique) ».</span><span class="sxs-lookup"><span data-stu-id="7bdc0-132">In the tree, select 'Payments (simplified model)\BACS (UK fictitious)'.</span></span>
+    * <span data-ttu-id="7bdc0-133">Sélectionnez la configuration du format sélectionné BACS (nom fictif britannique) de Litware, Inc.     Proseware, Inc. utilise la version 1,1 comme base pour la version personnalisée.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-133">Select the BACS (UK fictitious) configuration from Litware, Inc.     Proseware, Inc. will use version 1.1 as a base for the custom version.</span></span>  
+7. <span data-ttu-id="7bdc0-134">Cliquez sur Créer la configuration pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-134">Click Create configuration to open the drop dialog.</span></span>
+    * <span data-ttu-id="7bdc0-135">Cela vous permet de créer une configuration pour un format de paiement personnalisé.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-135">This lets you create a new configuration for a custom payment format.</span></span>  
+8. <span data-ttu-id="7bdc0-136">Dans le champ Nouveau, entrez « Provenant du nom : BACS (nom fictif britannique), Litware, Inc. ».</span><span class="sxs-lookup"><span data-stu-id="7bdc0-136">In the New field, enter 'Derive from Name: BACS (UK fictitious), Litware, Inc.'.</span></span>
+    * <span data-ttu-id="7bdc0-137">Sélectionnez l'option Déduire pour confirmer l'utilisation de BACS (nom fictif britannique) comme base pour créer la version personnalisée.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-137">Select the Derive option to confirm the usage of BACS (UK fictitious) as the base for creating the custom version.</span></span>  
+9. <span data-ttu-id="7bdc0-138">Dans le champ Nom, tapez « BACS (nom personnalisé fictif britannique) ».</span><span class="sxs-lookup"><span data-stu-id="7bdc0-138">In the Name field, type 'BACS (UK fictitious custom)'.</span></span>
+    * <span data-ttu-id="7bdc0-139">BACS (nom personnalisé fictif britannique)</span><span class="sxs-lookup"><span data-stu-id="7bdc0-139">BACS (UK fictitious custom)</span></span>  
+10. <span data-ttu-id="7bdc0-140">Dans le champ Description, entrez « Paiement fournisseur BACS (nom personnalisé fictif britannique) ».</span><span class="sxs-lookup"><span data-stu-id="7bdc0-140">In the Description field, type 'BACS vendor payment (UK fictitious custom)'.</span></span>
+    * <span data-ttu-id="7bdc0-141">Paiement fournisseur BACS (nom personnalisé fictif britannique)</span><span class="sxs-lookup"><span data-stu-id="7bdc0-141">BACS vendor payment (UK fictitious custom)</span></span>  
+    * <span data-ttu-id="7bdc0-142">Le fournisseur de configuration actif (Proseware, Inc.) est automatiquement entré ici.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-142">The active configuration provider (Proseware, Inc.) is automatically entered here.</span></span> <span data-ttu-id="7bdc0-143">Ce fournisseur pourra mettre à jour cette configuration.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-143">This provider will be able to maintain this configuration.</span></span> <span data-ttu-id="7bdc0-144">D'autres fournisseurs peuvent utiliser cette configuration, mais ne peuvent pas la mettre à jour.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-144">Other providers can use this configuration, but will not be able to maintain it.</span></span>  
+11. <span data-ttu-id="7bdc0-145">Cliquez sur Créer une configuration.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-145">Click Create configuration.</span></span>
 
-## <a name="customize-your-format-for-the-electronic-document"></a>Personnaliser le format du document électronique
-1. Cliquez sur Concepteur.
-2. Cliquez sur Développer/réduire.
-3. Cliquez sur Développer/réduire.
-4. Dans l'arborescence, sélectionnez « Xml\Message\Paiements\Article\Fournisseur\Banque ».
-5. Cliquez sur Ajouter pour ouvrir la boîte de dialogue.
-6. Dans l'arborescence , sélectionnez « XML\Élément ».
-7. Tapez « IBAN » dans le champ Nom.
-    * IBAN  
-8. Cliquez sur OK.
-9. Dans l'arborescence, sélectionnez « Xml\Message\Paiements\Article\Fournisseur\Banque\IBAN ».
-10. Cliquez sur Ajouter pour ouvrir la boîte de dialogue.
-11. Dans l'arborescence, sélectionnez « Texte\Chaîne ».
-12. Cliquez sur OK.
-13. Dans l'arborescence, sélectionnez « Xml\Message\Paiements\Article\Fournisseur\Nom\Chaîne ».
-14. Dans le champ Longueur maximale, entrez 60.
-15. Cliquez sur l'onglet Mise en relation.
-16. Dans l'arborescence , développez « model ».
-17. Dans l'arborescence, développez model\Payments.
-18. Dans l'arborescence , développez « modèle\Paiements\Créditeur ».
-19. Dans l'arborescence , développez « modèle\Paiements\Créditeur\Compte ».
-20. Dans l'arborescence, sélectionnez « Modèle\Paiements\Créditeur\Compte\IBAN ».
-21. Dans l'arborescence, sélectionnez « Xml\Message\Paiements\Article = model.Payments\Fournisseur\Banque\IBAN\Chaîne ».
-22. Cliquez sur Lier.
-23. Cliquez sur Enregistrer.
+## <a name="customize-your-format-for-the-electronic-document"></a><span data-ttu-id="7bdc0-146">Personnaliser le format du document électronique</span><span class="sxs-lookup"><span data-stu-id="7bdc0-146">Customize your format for the electronic document</span></span>
+1. <span data-ttu-id="7bdc0-147">Cliquez sur Concepteur.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-147">Click Designer.</span></span>
+2. <span data-ttu-id="7bdc0-148">Cliquez sur Développer/réduire.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-148">Click Expand/collapse.</span></span>
+3. <span data-ttu-id="7bdc0-149">Cliquez sur Développer/réduire.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-149">Click Expand/collapse.</span></span>
+4. <span data-ttu-id="7bdc0-150">Dans l'arborescence, sélectionnez « Xml\Message\Paiements\Article\Fournisseur\Banque ».</span><span class="sxs-lookup"><span data-stu-id="7bdc0-150">In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank'.</span></span>
+5. <span data-ttu-id="7bdc0-151">Cliquez sur Ajouter pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-151">Click Add to open the drop dialog.</span></span>
+6. <span data-ttu-id="7bdc0-152">Dans l'arborescence , sélectionnez « XML\Élément ».</span><span class="sxs-lookup"><span data-stu-id="7bdc0-152">In the tree, select 'XML\Element'.</span></span>
+7. <span data-ttu-id="7bdc0-153">Tapez « IBAN » dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-153">In the Name field, type 'IBAN'.</span></span>
+    * <span data-ttu-id="7bdc0-154">IBAN</span><span class="sxs-lookup"><span data-stu-id="7bdc0-154">IBAN</span></span>  
+8. <span data-ttu-id="7bdc0-155">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-155">Click OK.</span></span>
+9. <span data-ttu-id="7bdc0-156">Dans l'arborescence, sélectionnez « Xml\Message\Paiements\Article\Fournisseur\Banque\IBAN ».</span><span class="sxs-lookup"><span data-stu-id="7bdc0-156">In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank\IBAN'.</span></span>
+10. <span data-ttu-id="7bdc0-157">Cliquez sur Ajouter pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-157">Click Add to open the drop dialog.</span></span>
+11. <span data-ttu-id="7bdc0-158">Dans l'arborescence, sélectionnez « Texte\Chaîne ».</span><span class="sxs-lookup"><span data-stu-id="7bdc0-158">In the tree, select 'Text\String'.</span></span>
+12. <span data-ttu-id="7bdc0-159">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-159">Click OK.</span></span>
+13. <span data-ttu-id="7bdc0-160">Dans l'arborescence, sélectionnez « Xml\Message\Paiements\Article\Fournisseur\Nom\Chaîne ».</span><span class="sxs-lookup"><span data-stu-id="7bdc0-160">In the tree, select 'Xml\Message\Payments\Item\Vendor\Name\String'.</span></span>
+14. <span data-ttu-id="7bdc0-161">Dans le champ Longueur maximale, entrez 60.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-161">In the Maximum length field, enter '60'.</span></span>
+15. <span data-ttu-id="7bdc0-162">Cliquez sur l'onglet Mise en relation.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-162">Click the Mapping tab.</span></span>
+16. <span data-ttu-id="7bdc0-163">Dans l'arborescence , développez « model ».</span><span class="sxs-lookup"><span data-stu-id="7bdc0-163">In the tree, expand 'model'.</span></span>
+17. <span data-ttu-id="7bdc0-164">Dans l'arborescence, développez model\Payments.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-164">In the tree, expand 'model\Payments'.</span></span>
+18. <span data-ttu-id="7bdc0-165">Dans l'arborescence , développez « modèle\Paiements\Créditeur ».</span><span class="sxs-lookup"><span data-stu-id="7bdc0-165">In the tree, expand 'model\Payments\Creditor'.</span></span>
+19. <span data-ttu-id="7bdc0-166">Dans l'arborescence , développez « modèle\Paiements\Créditeur\Compte ».</span><span class="sxs-lookup"><span data-stu-id="7bdc0-166">In the tree, expand 'model\Payments\Creditor\Account'.</span></span>
+20. <span data-ttu-id="7bdc0-167">Dans l'arborescence, sélectionnez « Modèle\Paiements\Créditeur\Compte\IBAN ».</span><span class="sxs-lookup"><span data-stu-id="7bdc0-167">In the tree, select 'model\Payments\Creditor\Account\IBAN'.</span></span>
+21. <span data-ttu-id="7bdc0-168">Dans l'arborescence, sélectionnez « Xml\Message\Paiements\Article = model.Payments\Fournisseur\Banque\IBAN\Chaîne ».</span><span class="sxs-lookup"><span data-stu-id="7bdc0-168">In the tree, select 'Xml\Message\Payments\Item =  model.Payments\Vendor\Bank\IBAN\String'.</span></span>
+22. <span data-ttu-id="7bdc0-169">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-169">Click Bind.</span></span>
+23. <span data-ttu-id="7bdc0-170">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-170">Click Save.</span></span>
 
-## <a name="validate-the-customized-format"></a>Valider le format personnalisé
-1. Cliquez sur Valider.
-    * Validez la structure de format personnalisée et les modifications de mise en correspondance des données pour vous assurer que toutes les liaisons sont correctes.  
-2. Fermez la page.
+## <a name="validate-the-customized-format"></a><span data-ttu-id="7bdc0-171">Valider le format personnalisé</span><span class="sxs-lookup"><span data-stu-id="7bdc0-171">Validate the customized format</span></span>
+1. <span data-ttu-id="7bdc0-172">Cliquez sur Valider.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-172">Click Validate.</span></span>
+    * <span data-ttu-id="7bdc0-173">Validez la structure de format personnalisée et les modifications de mise en correspondance des données pour vous assurer que toutes les liaisons sont correctes.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-173">Validate the customized format layout and data mapping changes to make sure that all bindings are okay.</span></span>  
+2. <span data-ttu-id="7bdc0-174">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-174">Close the page.</span></span>
 
-## <a name="change-the-status-of-the-current-version-of-the-custom-format-configuration"></a>Modifier le statut de la version actuelle de la configuration de format personnalisé
-    * Modifiez le statut de la configuration du format conçu : remplacez Brouillon par Terminé pour le rendre disponible pour la génération de document de paiement.  
-1. Cliquez sur Modifier le statut.
-    * Notez que la version actuelle de la configuration sélectionnée est en mode Brouillon.  
-2. Cliquez sur Terminé.
-3. Dans le champ Description, entrez une valeur.
-4. Cliquez sur OK.
-5. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-    * Notez que la configuration créée est enregistrée comme version 1.1.1 terminée. Cela signifie que c'est la version 1 du format BACS (nom personnalisé fictif britannique) personnalisé, qui est basé sur la version 1 du format BACS (nom fictif britannique), basé sur la version 1 du modèle de données Paiements (modèle simplifié).  
+## <a name="change-the-status-of-the-current-version-of-the-custom-format-configuration"></a><span data-ttu-id="7bdc0-175">Modifier le statut de la version actuelle de la configuration de format personnalisé</span><span class="sxs-lookup"><span data-stu-id="7bdc0-175">Change the status of the current version of the custom format configuration</span></span>
+    * <span data-ttu-id="7bdc0-176">Modifiez le statut de la configuration du format conçu : remplacez Brouillon par Terminé pour le rendre disponible pour la génération de document de paiement.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-176">Change the status of the designed format configuration from Draft to Completed to make it available for payment document generation.</span></span>  
+1. <span data-ttu-id="7bdc0-177">Cliquez sur Modifier le statut.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-177">Click Change status.</span></span>
+    * <span data-ttu-id="7bdc0-178">Notez que la version actuelle de la configuration sélectionnée est en mode Brouillon.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-178">Note that the current version of the selected configuration is in Draft status.</span></span>  
+2. <span data-ttu-id="7bdc0-179">Cliquez sur Terminé.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-179">Click Complete.</span></span>
+3. <span data-ttu-id="7bdc0-180">Dans le champ Description, entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-180">In the Description field, type a value.</span></span>
+4. <span data-ttu-id="7bdc0-181">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-181">Click OK.</span></span>
+5. <span data-ttu-id="7bdc0-182">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-182">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="7bdc0-183">Notez que la configuration créée est enregistrée comme version 1.1.1 terminée.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-183">Note that the created configuration is saved as completed version 1.1.1.</span></span> <span data-ttu-id="7bdc0-184">Cela signifie que c'est la version 1 du format BACS (nom personnalisé fictif britannique) personnalisé, qui est basé sur la version 1 du format BACS (nom fictif britannique), basé sur la version 1 du modèle de données Paiements (modèle simplifié).</span><span class="sxs-lookup"><span data-stu-id="7bdc0-184">This means it is version 1 of the custom BACS (UK fictitious custom) format, which is based on version 1 of the BACS (UK fictitious) format, which is based on version 1 of the Payments (simplified model) data model.</span></span>  
 
-## <a name="test-the-customized-format-to-generate-payment-files"></a>Tester le format personnalisé pour générer des fichiers de paiement
-    * Suivez les étapes de la procédure « Utiliser le format créé pour générer des documents électroniques de paiement » dans une session parallèle de Dynamics 365 for Finance and Operations, Enterprise Edition. Sélectionnez le format BACS (nom personnalisé fictif britannique) dans les paramètres de mode de paiement électronique. Vérifiez que le fichier de paiement créé contient le nœud XML introduit récemment présentant le code IBAN conformément aux besoins spécifiques.  
+## <a name="test-the-customized-format-to-generate-payment-files"></a><span data-ttu-id="7bdc0-185">Tester le format personnalisé pour générer des fichiers de paiement</span><span class="sxs-lookup"><span data-stu-id="7bdc0-185">Test the customized format to generate payment files</span></span>
+    * <span data-ttu-id="7bdc0-186">Suivez les étapes de la procédure « Utiliser le format créé pour générer des documents électroniques de paiement » dans une session parallèle de Dynamics 365 for Finance and Operations, Enterprise Edition.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-186">Complete the steps in the “Use created format to generate electronic documents for payments” procedure in a parallel Dynamics 365 for Finance and Operations, Enterprise edition session.</span></span> <span data-ttu-id="7bdc0-187">Sélectionnez le format BACS (nom personnalisé fictif britannique) dans les paramètres de mode de paiement électronique.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-187">Select the BACS (UK fictitious custom) format in electronic payment method parameters.</span></span> <span data-ttu-id="7bdc0-188">Vérifiez que le fichier de paiement créé contient le nœud XML introduit récemment présentant le code IBAN conformément aux besoins spécifiques.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-188">Make sure that the created payment file contains the recently introduced XML node presenting IBAN code in accordance to regional requirements.</span></span>  
 
-## <a name="update-the-existing-country-specific-configuration"></a>Mettre à jour la configuration spécifique au pays existant
-    * Litware, Inc. doit mettre à jour la configuration BACS (nom personnalisé fictif britannique) et adopter de nouvelles exigences spécifiques au pays pour gérer le format du document électronique. Cela sera ensuite associé à une nouvelle version de cette configuration qui sera proposée aux abonnés du service, notamment Proseware, Inc.  
-    * Dans les véritables processus associés à l'approvisionnement de service, chaque nouvelle version de BACS (nom fictif britannique) peut être importée par Proseware, Inc. à partir du référentiel LCS de configurations Litware, Inc. Dans cette procédure nous simulerons cela en mettant à jour BACS (nom fictif britannique) au nom d'un fournisseur de services.  
-1. Fermez la page.
-2. Sélectionnez Litware, Inc. .
-3. Cliquez sur Activer.
-4. Cliquez sur Configurations des états.
-5. Dans l'arborescence, développez « Paiements (modèle simplifié) ».
-6. Dans l'arborescence, sélectionnez « Paiements (modèle simplifié) »\BACS (nom fictif britannique) ».
-    * La version temporaire BACS (nom fictif britannique) appartenant au fournisseur Litware, Inc. est sélectionnée pour apporter des modifications pour prendre en charge de nouvelles exigences spécifiques au pays.  
+## <a name="update-the-existing-country-specific-configuration"></a><span data-ttu-id="7bdc0-189">Mettre à jour la configuration spécifique au pays existant</span><span class="sxs-lookup"><span data-stu-id="7bdc0-189">Update the existing country-specific configuration</span></span>
+    * <span data-ttu-id="7bdc0-190">Litware, Inc. doit mettre à jour la configuration BACS (nom personnalisé fictif britannique) et adopter de nouvelles exigences spécifiques au pays pour gérer le format du document électronique.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-190">Litware, Inc. needs to update the BACS (UK fictitious) configuration and adopt new country requirements for managing the format of the electronic document.</span></span> <span data-ttu-id="7bdc0-191">Cela sera ensuite associé à une nouvelle version de cette configuration qui sera proposée aux abonnés du service, notamment Proseware, Inc.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-191">Later, this will be enclosed in a new version of this configuration that will be offered for service subscribers, including Proseware, Inc.</span></span>  
+    * <span data-ttu-id="7bdc0-192">Dans les véritables processus associés à l'approvisionnement de service, chaque nouvelle version de BACS (nom fictif britannique) peut être importée par Proseware, Inc. à partir du référentiel LCS de configurations Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-192">In real service provision related processes, each new version of BACS (UK fictitious) can be imported by Proseware, Inc. from Litware, Inc. configurations’ LCS repository.</span></span> <span data-ttu-id="7bdc0-193">Dans cette procédure nous simulerons cela en mettant à jour BACS (nom fictif britannique) au nom d'un fournisseur de services.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-193">In this procedure we will simulate this by updating BACS (UK fictitious) on behalf of a service provider.</span></span>  
+1. <span data-ttu-id="7bdc0-194">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-194">Close the page.</span></span>
+2. <span data-ttu-id="7bdc0-195">Sélectionnez Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-195">Select Litware, inc.</span></span> <span data-ttu-id="7bdc0-196">.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-196">provider.</span></span>
+3. <span data-ttu-id="7bdc0-197">Cliquez sur Activer.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-197">Click Set active.</span></span>
+4. <span data-ttu-id="7bdc0-198">Cliquez sur Configurations des états.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-198">Click Reporting configurations.</span></span>
+5. <span data-ttu-id="7bdc0-199">Dans l'arborescence, développez « Paiements (modèle simplifié) ».</span><span class="sxs-lookup"><span data-stu-id="7bdc0-199">In the tree, expand 'Payments (simplified model)'.</span></span>
+6. <span data-ttu-id="7bdc0-200">Dans l'arborescence, sélectionnez « Paiements (modèle simplifié) »\BACS (nom fictif britannique) ».</span><span class="sxs-lookup"><span data-stu-id="7bdc0-200">In the tree, select 'Payments (simplified model)\BACS (UK fictitious)'.</span></span>
+    * <span data-ttu-id="7bdc0-201">La version temporaire BACS (nom fictif britannique) appartenant au fournisseur Litware, Inc. est sélectionnée pour apporter des modifications pour prendre en charge de nouvelles exigences spécifiques au pays.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-201">The draft version owned by Litware, Inc. provider BACS (UK fictitious) is selected to bring in changes to support new country-specific requirements.</span></span>  
 
-## <a name="localize-the-base-format-of-the-electronic-document"></a>Localiser le format de base du document électronique
-    * Supposons que Litware, Inc. doive prendre en charge de nouvelles exigences spécifiques au pays : Une valeur pour le code SWIFT du compte créditeur dans chaque transaction de paiement.  - La longueur du nom du fournisseur est limitée à 100 caractères dans la génération de fichiers.  
-    * Nouvelles exigences spécifiques à un pays  
-    * Sélectionnez la version temporaire de la configuration souhaitée pour afficher les modifications requises.  
-1. Cliquez sur Concepteur.
-2. Cliquez sur Développer/réduire.
-3. Cliquez sur Développer/réduire.
-4. Dans l'arborescence, sélectionnez « Xml\Message\Paiements\Article\Fournisseur\Banque ».
-5. Cliquez sur Ajouter pour ouvrir la boîte de dialogue.
-6. Dans l'arborescence , sélectionnez « XML\Élément ».
-7. Tapez SWIFT dans le champ Nom.
-    * SWIFT  
-8. Cliquez sur OK.
-9. Dans l'arborescence, sélectionnez « Xml\Message\Paiements\Article\Fournisseur\Banque\SWIFT ».
-10. Cliquez sur Ajouter pour ouvrir la boîte de dialogue.
-11. Dans l'arborescence, sélectionnez « Texte\Chaîne ».
-12. Cliquez sur OK.
-13. Dans l'arborescence, sélectionnez « Xml\Message\Paiements\Article\Fournisseur\Nom\Chaîne ».
-14. Dans le champ Longueur maximale, entrez 100.
-15. Cliquez sur l'onglet Mise en relation.
-16. Dans l'arborescence , développez « model ».
-17. Dans l'arborescence, développez model\Payments.
-18. Dans l'arborescence , développez « modèle\Paiements\Créditeur ».
-19. Dans l'arborescence , développez « modèle\Paiements\Créditeur\Agent ».
-20. Dans l'arborescence, sélectionnez « Modèle\Paiements\Créditeur\Agent\SWIFT ».
-21. Dans l'arborescence, sélectionnez « Xml\Message\Paiements\Article = model.Payments\Fournisseur\Banque\SWIFT\Chaîne ».
-22. Cliquez sur Lier.
-23. Cliquez sur Enregistrer.
+## <a name="localize-the-base-format-of-the-electronic-document"></a><span data-ttu-id="7bdc0-202">Localiser le format de base du document électronique</span><span class="sxs-lookup"><span data-stu-id="7bdc0-202">Localize the base format of the electronic document</span></span>
+    * <span data-ttu-id="7bdc0-203">Supposons que Litware, Inc. doive prendre en charge de nouvelles exigences spécifiques au pays : Une valeur pour le code SWIFT du compte créditeur dans chaque transaction de paiement.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-203">Assume that there are new country-specific requirements to be supported by Litware, Inc.:  - A value for the creditor’s bank SWIFT code in each payment transaction.</span></span>  <span data-ttu-id="7bdc0-204">- La longueur du nom du fournisseur est limitée à 100 caractères dans la génération de fichiers.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-204">- A limit of 100 characters for the length of text for the vendor’s name in a generating file.</span></span>  
+    * <span data-ttu-id="7bdc0-205">Nouvelles exigences spécifiques à un pays</span><span class="sxs-lookup"><span data-stu-id="7bdc0-205">New country-specific requirements</span></span>  
+    * <span data-ttu-id="7bdc0-206">Sélectionnez la version temporaire de la configuration souhaitée pour afficher les modifications requises.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-206">Select the draft version of the desired configuration to introduce required changes.</span></span>  
+1. <span data-ttu-id="7bdc0-207">Cliquez sur Concepteur.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-207">Click Designer.</span></span>
+2. <span data-ttu-id="7bdc0-208">Cliquez sur Développer/réduire.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-208">Click Expand/collapse.</span></span>
+3. <span data-ttu-id="7bdc0-209">Cliquez sur Développer/réduire.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-209">Click Expand/collapse.</span></span>
+4. <span data-ttu-id="7bdc0-210">Dans l'arborescence, sélectionnez « Xml\Message\Paiements\Article\Fournisseur\Banque ».</span><span class="sxs-lookup"><span data-stu-id="7bdc0-210">In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank'.</span></span>
+5. <span data-ttu-id="7bdc0-211">Cliquez sur Ajouter pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-211">Click Add to open the drop dialog.</span></span>
+6. <span data-ttu-id="7bdc0-212">Dans l'arborescence , sélectionnez « XML\Élément ».</span><span class="sxs-lookup"><span data-stu-id="7bdc0-212">In the tree, select 'XML\Element'.</span></span>
+7. <span data-ttu-id="7bdc0-213">Tapez SWIFT dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-213">In the Name field, type 'SWIFT'.</span></span>
+    * <span data-ttu-id="7bdc0-214">SWIFT</span><span class="sxs-lookup"><span data-stu-id="7bdc0-214">SWIFT</span></span>  
+8. <span data-ttu-id="7bdc0-215">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-215">Click OK.</span></span>
+9. <span data-ttu-id="7bdc0-216">Dans l'arborescence, sélectionnez « Xml\Message\Paiements\Article\Fournisseur\Banque\SWIFT ».</span><span class="sxs-lookup"><span data-stu-id="7bdc0-216">In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank\SWIFT'.</span></span>
+10. <span data-ttu-id="7bdc0-217">Cliquez sur Ajouter pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-217">Click Add to open the drop dialog.</span></span>
+11. <span data-ttu-id="7bdc0-218">Dans l'arborescence, sélectionnez « Texte\Chaîne ».</span><span class="sxs-lookup"><span data-stu-id="7bdc0-218">In the tree, select 'Text\String'.</span></span>
+12. <span data-ttu-id="7bdc0-219">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-219">Click OK.</span></span>
+13. <span data-ttu-id="7bdc0-220">Dans l'arborescence, sélectionnez « Xml\Message\Paiements\Article\Fournisseur\Nom\Chaîne ».</span><span class="sxs-lookup"><span data-stu-id="7bdc0-220">In the tree, select 'Xml\Message\Payments\Item\Vendor\Name\String'.</span></span>
+14. <span data-ttu-id="7bdc0-221">Dans le champ Longueur maximale, entrez 100.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-221">In the Maximum length field, enter '100'.</span></span>
+15. <span data-ttu-id="7bdc0-222">Cliquez sur l'onglet Mise en relation.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-222">Click the Mapping tab.</span></span>
+16. <span data-ttu-id="7bdc0-223">Dans l'arborescence , développez « model ».</span><span class="sxs-lookup"><span data-stu-id="7bdc0-223">In the tree, expand 'model'.</span></span>
+17. <span data-ttu-id="7bdc0-224">Dans l'arborescence, développez model\Payments.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-224">In the tree, expand 'model\Payments'.</span></span>
+18. <span data-ttu-id="7bdc0-225">Dans l'arborescence , développez « modèle\Paiements\Créditeur ».</span><span class="sxs-lookup"><span data-stu-id="7bdc0-225">In the tree, expand 'model\Payments\Creditor'.</span></span>
+19. <span data-ttu-id="7bdc0-226">Dans l'arborescence , développez « modèle\Paiements\Créditeur\Agent ».</span><span class="sxs-lookup"><span data-stu-id="7bdc0-226">In the tree, expand 'model\Payments\Creditor\Agent'.</span></span>
+20. <span data-ttu-id="7bdc0-227">Dans l'arborescence, sélectionnez « Modèle\Paiements\Créditeur\Agent\SWIFT ».</span><span class="sxs-lookup"><span data-stu-id="7bdc0-227">In the tree, select 'model\Payments\Creditor\Agent\SWIFT'.</span></span>
+21. <span data-ttu-id="7bdc0-228">Dans l'arborescence, sélectionnez « Xml\Message\Paiements\Article = model.Payments\Fournisseur\Banque\SWIFT\Chaîne ».</span><span class="sxs-lookup"><span data-stu-id="7bdc0-228">In the tree, select 'Xml\Message\Payments\Item =  model.Payments\Vendor\Bank\SWIFT\String'.</span></span>
+22. <span data-ttu-id="7bdc0-229">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-229">Click Bind.</span></span>
+23. <span data-ttu-id="7bdc0-230">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-230">Click Save.</span></span>
 
-## <a name="validate-the-localized-format"></a>Valider le format localisé
-1. Cliquez sur Valider.
-2. Fermez la page.
+## <a name="validate-the-localized-format"></a><span data-ttu-id="7bdc0-231">Valider le format localisé</span><span class="sxs-lookup"><span data-stu-id="7bdc0-231">Validate the localized format</span></span>
+1. <span data-ttu-id="7bdc0-232">Cliquez sur Valider.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-232">Click Validate.</span></span>
+2. <span data-ttu-id="7bdc0-233">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-233">Close the page.</span></span>
 
-## <a name="change-the-status-of-the-current-version-of-the-base-format-configuration"></a>Modifier le statut de la version actuelle de la configuration du format de base
-    * Modifiez le statut de la configuration du format de base mis à jour de Brouillon à Terminé pour le rendre disponible pour la génération de documents de paiement et de mises à jour des configurations de format dérivées de celui-ci.  
-1. Cliquez sur Modifier le statut.
-    * Notez que la version actuelle de la configuration sélectionnée est en mode Brouillon.  
-2. Cliquez sur Terminé.
-3. Dans le champ Description, entrez une valeur.
-4. Cliquez sur OK.
-5. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+## <a name="change-the-status-of-the-current-version-of-the-base-format-configuration"></a><span data-ttu-id="7bdc0-234">Modifier le statut de la version actuelle de la configuration du format de base</span><span class="sxs-lookup"><span data-stu-id="7bdc0-234">Change the status of the current version of the base format configuration</span></span>
+    * <span data-ttu-id="7bdc0-235">Modifiez le statut de la configuration du format de base mis à jour de Brouillon à Terminé pour le rendre disponible pour la génération de documents de paiement et de mises à jour des configurations de format dérivées de celui-ci.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-235">Change the status of the updated base format configuration from Draft to Completed to make it available for generation of payment documents and updates of format configurations derived from it.</span></span>  
+1. <span data-ttu-id="7bdc0-236">Cliquez sur Modifier le statut.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-236">Click Change status.</span></span>
+    * <span data-ttu-id="7bdc0-237">Notez que la version actuelle de la configuration sélectionnée est en mode Brouillon.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-237">Note that the current version of the selected configuration is in Draft status.</span></span>  
+2. <span data-ttu-id="7bdc0-238">Cliquez sur Terminé.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-238">Click Complete.</span></span>
+3. <span data-ttu-id="7bdc0-239">Dans le champ Description, entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-239">In the Description field, type a value.</span></span>
+4. <span data-ttu-id="7bdc0-240">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-240">Click OK.</span></span>
+5. <span data-ttu-id="7bdc0-241">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-241">In the list, find and select the desired record.</span></span>
 
-## <a name="change-the-base-version-for-the-custom-format-configuration"></a>Modifier la version de base pour la configuration du format personnalisé
-    * Proseware, Inc. est informé qu'une nouvelle version 1.2 de la configuration de BACS (nom fictif britannique) est disponible pour générer des documents de paiement électronique conformément aux nouvelles exigences spécifiques au pays annoncées. Proseware, Inc. souhaite commencer à l'utiliser en tant que standard pour le pays.  Pour cela, Proseware, Inc. doit modifier la version de configuration de base pour la configuration personnalisée BACS (nom personnalisé fictif britannique). Utilisez la nouvelle version 1.2 au lieu de la version 1.1 de BACS (nom fictif britannique).  
-1. Accédez à Administration d'organisation > Espaces de travail > États électroniques.
-2. Sélectionnez le fournisseur Proseware, Inc. pour le marquer comme actif.
-3. Cliquez sur Activer.
-4. Cliquez sur Configurations des états.
-5. Dans l'arborescence, développez « Paiements (modèle simplifié) ».
-6. Dans l'arborescence, développez « Paiements (modèle simplifié) »\BACS (nom fictif britannique) ».
-7. Dans l'arborescence, sélectionnez « Paiements (modèle simplifié) »\BACS (nom fictif britannique)\BACS (nom personnalisé fictif britannique) ».
-    * Sélectionnez BACS (nom personnalisé fictif britannique), qui appartient à Proseware, Inc.  
-    * Utilisez la version temporaire de la configuration sélectionnée pour afficher les modifications requises.  
-8. Cliquez sur Redéfinir.
-    * Sélectionnez la nouvelle version 1.2 de la configuration de base à appliquer nouvelle comme base pour mettre la configuration à jour.  
-9. Cliquez sur OK.
-    * Notez que certains conflits ont été découverts entre la fusion de la version personnalisée et une nouvelle version de base représentant certaines modifications de format qui ne peuvent pas être fusionnées automatiquement.  
+## <a name="change-the-base-version-for-the-custom-format-configuration"></a><span data-ttu-id="7bdc0-242">Modifier la version de base pour la configuration du format personnalisé</span><span class="sxs-lookup"><span data-stu-id="7bdc0-242">Change the base version for the custom format configuration</span></span>
+    * <span data-ttu-id="7bdc0-243">Proseware, Inc. est informé qu'une nouvelle version 1.2 de la configuration de BACS (nom fictif britannique) est disponible pour générer des documents de paiement électronique conformément aux nouvelles exigences spécifiques au pays annoncées.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-243">Proseware, Inc. is informed that a new version 1.2 of BACS (UK fictitious) configuration is available to generate electronic payment documents in accordance to recently announced country-specific requirements.</span></span> <span data-ttu-id="7bdc0-244">Proseware, Inc. souhaite commencer à l'utiliser en tant que standard pour le pays.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-244">Proseware, Inc. wants to start using it as a standard for the country.</span></span>  <span data-ttu-id="7bdc0-245">Pour cela, Proseware, Inc. doit modifier la version de configuration de base pour la configuration personnalisée BACS (nom personnalisé fictif britannique).</span><span class="sxs-lookup"><span data-stu-id="7bdc0-245">To do this, Proseware, Inc. needs to change the base configuration version for the custom configuration BACS (UK fictitious custom).</span></span> <span data-ttu-id="7bdc0-246">Utilisez la nouvelle version 1.2 au lieu de la version 1.1 de BACS (nom fictif britannique).</span><span class="sxs-lookup"><span data-stu-id="7bdc0-246">Instead of version 1.1 of BACS (UK fictitious) use new version 1.2.</span></span>  
+1. <span data-ttu-id="7bdc0-247">Accédez à Administration d'organisation > Espaces de travail > États électroniques.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-247">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+2. <span data-ttu-id="7bdc0-248">Sélectionnez le fournisseur Proseware, Inc. pour le marquer comme actif.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-248">Select the Proseware, Inc. provider to mark it as active.</span></span>
+3. <span data-ttu-id="7bdc0-249">Cliquez sur Activer.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-249">Click Set active.</span></span>
+4. <span data-ttu-id="7bdc0-250">Cliquez sur Configurations des états.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-250">Click Reporting configurations.</span></span>
+5. <span data-ttu-id="7bdc0-251">Dans l'arborescence, développez « Paiements (modèle simplifié) ».</span><span class="sxs-lookup"><span data-stu-id="7bdc0-251">In the tree, expand 'Payments (simplified model)'.</span></span>
+6. <span data-ttu-id="7bdc0-252">Dans l'arborescence, développez « Paiements (modèle simplifié) »\BACS (nom fictif britannique) ».</span><span class="sxs-lookup"><span data-stu-id="7bdc0-252">In the tree, expand 'Payments (simplified model)\BACS (UK fictitious)'.</span></span>
+7. <span data-ttu-id="7bdc0-253">Dans l'arborescence, sélectionnez « Paiements (modèle simplifié) »\BACS (nom fictif britannique)\BACS (nom personnalisé fictif britannique) ».</span><span class="sxs-lookup"><span data-stu-id="7bdc0-253">In the tree, select 'Payments (simplified model)\BACS (UK fictitious)\BACS (UK fictitious custom)'.</span></span>
+    * <span data-ttu-id="7bdc0-254">Sélectionnez BACS (nom personnalisé fictif britannique), qui appartient à Proseware, Inc.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-254">Select the BACS (UK fictitious custom) configuration, which is owned by Proseware, Inc.</span></span>  
+    * <span data-ttu-id="7bdc0-255">Utilisez la version temporaire de la configuration sélectionnée pour afficher les modifications requises.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-255">Use the draft version of the selected configuration to introduce required changes.</span></span>  
+8. <span data-ttu-id="7bdc0-256">Cliquez sur Redéfinir.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-256">Click Rebase.</span></span>
+    * <span data-ttu-id="7bdc0-257">Sélectionnez la nouvelle version 1.2 de la configuration de base à appliquer nouvelle comme base pour mettre la configuration à jour.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-257">Select the new version 1.2 of the base configuration to be applied as a new base for updating the configuration.</span></span>  
+9. <span data-ttu-id="7bdc0-258">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-258">Click OK.</span></span>
+    * <span data-ttu-id="7bdc0-259">Notez que certains conflits ont été découverts entre la fusion de la version personnalisée et une nouvelle version de base représentant certaines modifications de format qui ne peuvent pas être fusionnées automatiquement.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-259">Note that some conflicts have been discovered between merging the custom version and a new base version representing some format changes that can’t be merged automatically.</span></span>  
 
-## <a name="resolve-rebase-conflicts"></a>Résoudre des conflits redéfinis
-1. Cliquez sur Concepteur.
-    * Notez que les modifications apportées à la limite de longueur de texte du nom du fournisseur ne peuvent pas être résolues automatiquement. Elles sont par conséquent présentées dans une liste des conflits. Pour chaque conflit de mise à jour du type, les options suivantes sont disponibles : Appliquer la valeur de base précédente (bouton en haut de la grille) pour afficher la valeur de version de base précédente (0 dans ce cas).  - Appliquez une valeur de base (bouton en haut de la grille) pour afficher la nouvelle valeur de version de base (100 dans ce cas).  - Conservez vos propres valeurs (personnalisées) (60 dans notre cas).  Cliquez sur Appliquer la valeur de base pour appliquer une limite spécifique au pays de 100 caractères pour la longueur du nom du fournisseur.  
-    * Notez que Proseware, Inc. et Litware, Inc. ont des versions personnalisées et locales de ce format à l'aide de codes IBAN et SWIFT avec les composants associés qui sont automatiquement fusionnés dans le format de gestion.  
-2. Cliquez sur Appliquer la valeur de base.
-    * Cliquez sur Appliquer la valeur de base pour appliquer la limite spécifique à la région de 100 caractères aux noms de fournisseur.  
-3. Cliquez sur Enregistrer.
-    * Si vous enregistrez le format, cela supprimera des conflits résolus de la liste des conflits.  
-4. Fermez la page.
+## <a name="resolve-rebase-conflicts"></a><span data-ttu-id="7bdc0-260">Résoudre des conflits redéfinis</span><span class="sxs-lookup"><span data-stu-id="7bdc0-260">Resolve rebase conflicts</span></span>
+1. <span data-ttu-id="7bdc0-261">Cliquez sur Concepteur.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-261">Click Designer.</span></span>
+    * <span data-ttu-id="7bdc0-262">Notez que les modifications apportées à la limite de longueur de texte du nom du fournisseur ne peuvent pas être résolues automatiquement.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-262">Note that changes to the vendor’s name text length limit couldn’t be resolved automatically.</span></span> <span data-ttu-id="7bdc0-263">Elles sont par conséquent présentées dans une liste des conflits.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-263">Therefore, this is presented in a conflicts list.</span></span> <span data-ttu-id="7bdc0-264">Pour chaque conflit de mise à jour du type, les options suivantes sont disponibles : Appliquer la valeur de base précédente (bouton en haut de la grille) pour afficher la valeur de version de base précédente (0 dans ce cas).</span><span class="sxs-lookup"><span data-stu-id="7bdc0-264">For each conflict of type Update, the following options are available:  - Apply a prior base value (button on top of the grid) to bring in the previous base version value (0 in our case).</span></span>  <span data-ttu-id="7bdc0-265">- Appliquez une valeur de base (bouton en haut de la grille) pour afficher la nouvelle valeur de version de base (100 dans ce cas).</span><span class="sxs-lookup"><span data-stu-id="7bdc0-265">- Apply a base value (button on top of the grid) to bring in the new base version value (100 in our case).</span></span>  <span data-ttu-id="7bdc0-266">- Conservez vos propres valeurs (personnalisées) (60 dans notre cas).</span><span class="sxs-lookup"><span data-stu-id="7bdc0-266">- Keep your own (custom) value (60 in our case).</span></span>  <span data-ttu-id="7bdc0-267">Cliquez sur Appliquer la valeur de base pour appliquer une limite spécifique au pays de 100 caractères pour la longueur du nom du fournisseur.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-267">Click Apply base value to apply a country-specific limit of 100 characters for vendor’s name text length.</span></span>  
+    * <span data-ttu-id="7bdc0-268">Notez que Proseware, Inc. et Litware, Inc. ont des versions personnalisées et locales de ce format à l'aide de codes IBAN et SWIFT avec les composants associés qui sont automatiquement fusionnés dans le format de gestion.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-268">Note that Proseware, Inc. and Litware, Inc. have custom and local versions of this format using IBAN and SWIFT codes with related components that are automatically merged in the managing format.</span></span>  
+2. <span data-ttu-id="7bdc0-269">Cliquez sur Appliquer la valeur de base.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-269">Click Apply base value.</span></span>
+    * <span data-ttu-id="7bdc0-270">Cliquez sur Appliquer la valeur de base pour appliquer la limite spécifique à la région de 100 caractères aux noms de fournisseur.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-270">Click Apply base value to apply the country-specific limit of 100 characters for vendor names.</span></span>  
+3. <span data-ttu-id="7bdc0-271">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-271">Click Save.</span></span>
+    * <span data-ttu-id="7bdc0-272">Si vous enregistrez le format, cela supprimera des conflits résolus de la liste des conflits.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-272">Saving the format will remove resolved conflicts from the conflicts list.</span></span>  
+4. <span data-ttu-id="7bdc0-273">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-273">Close the page.</span></span>
 
-## <a name="change-the-status-of-the-new-version-of-the-custom-format-configuration"></a>Modifier le statut de la nouvelle version de la configuration du format personnalisé
-1. Cliquez sur Modifier le statut.
-    * Modifiez le statut de la configuration du format personnalisé, mis à jour de Brouillon à Terminé. Cela rendra la configuration du format disponible pour générer des documents de paiement. Notez que la version actuelle de la configuration sélectionnée est en mode Brouillon.  
-2. Cliquez sur Terminé.
-3. Dans le champ Description, entrez une valeur.
-4. Cliquez sur OK.
-    * Notez que la configuration créée est enregistrée comme version 1.2.2 terminée : la version 2 du format BACS (nom personnalisé fictif britannique) de base, basé sur la version 2 du format du BACS (nom fictif britannique) de base, basé sur la version 1 du modèle de données Paiements (modèle simplifié).  
+## <a name="change-the-status-of-the-new-version-of-the-custom-format-configuration"></a><span data-ttu-id="7bdc0-274">Modifier le statut de la nouvelle version de la configuration du format personnalisé</span><span class="sxs-lookup"><span data-stu-id="7bdc0-274">Change the status of the new version of the custom format configuration</span></span>
+1. <span data-ttu-id="7bdc0-275">Cliquez sur Modifier le statut.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-275">Click Change status.</span></span>
+    * <span data-ttu-id="7bdc0-276">Modifiez le statut de la configuration du format personnalisé, mis à jour de Brouillon à Terminé.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-276">Change the status of the updated, custom format configuration from Draft to Completed.</span></span> <span data-ttu-id="7bdc0-277">Cela rendra la configuration du format disponible pour générer des documents de paiement.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-277">This will make the format configuration available for generating payment documents.</span></span> <span data-ttu-id="7bdc0-278">Notez que la version actuelle de la configuration sélectionnée est en mode Brouillon.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-278">Note that the current version of the selected configuration is in Draft status.</span></span>  
+2. <span data-ttu-id="7bdc0-279">Cliquez sur Terminé.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-279">Click Complete.</span></span>
+3. <span data-ttu-id="7bdc0-280">Dans le champ Description, entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-280">In the Description field, type a value.</span></span>
+4. <span data-ttu-id="7bdc0-281">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-281">Click OK.</span></span>
+    * <span data-ttu-id="7bdc0-282">Notez que la configuration créée est enregistrée comme version 1.2.2 terminée : la version 2 du format BACS (nom personnalisé fictif britannique) de base, basé sur la version 2 du format du BACS (nom fictif britannique) de base, basé sur la version 1 du modèle de données Paiements (modèle simplifié).</span><span class="sxs-lookup"><span data-stu-id="7bdc0-282">Note that the created configuration is saved as completed version 1.2.2: version 2 of base BACS (UK fictitious custom) format, which is based on version 2 of base BACS (UK fictitious) format, which is based on version 1 of Payments (simplified model) data model.</span></span>  
 
-## <a name="test-the-customized-format-for-payment-files-generation"></a>Tester le format personnalisé pour la génération des fichiers de paiement
-    * Suivez les étapes de la procédure « Utiliser le format créé pour générer des documents électroniques de paiement » dans une session parallèle de Dynamics 365 for Finance and Operations, Enterprise Edition. Sélectionnez le format BACS (nom personnalisé fictif britannique) créé dans les paramètres de mode de paiement électronique. Vérifiez que le fichier de paiement créé contient le nœud XML introduit récemment par Proseware, Inc. présentant le code de compte IBAN conformément aux besoins spécifiques. Le fichier doit également contenir le nœud de XML récemment introduit par Litware, Inc. présentant le code de banque SWIFT dans l'accord aux besoins de pays.  
+## <a name="test-the-customized-format-for-payment-files-generation"></a><span data-ttu-id="7bdc0-283">Tester le format personnalisé pour la génération des fichiers de paiement</span><span class="sxs-lookup"><span data-stu-id="7bdc0-283">Test the customized format for payment files generation</span></span>
+    * <span data-ttu-id="7bdc0-284">Suivez les étapes de la procédure « Utiliser le format créé pour générer des documents électroniques de paiement » dans une session parallèle de Dynamics 365 for Finance and Operations, Enterprise Edition.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-284">Complete the steps in the “Use created format to generate electronic documents for payments” procedure in parallel Dynamics 365 for Finance and Operations, Enterprise edition session.</span></span> <span data-ttu-id="7bdc0-285">Sélectionnez le format BACS (nom personnalisé fictif britannique) créé dans les paramètres de mode de paiement électronique.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-285">Select the created ‘BACS (UK fictitious custom)’ format in electronic payment method parameters.</span></span> <span data-ttu-id="7bdc0-286">Vérifiez que le fichier de paiement créé contient le nœud XML introduit récemment par Proseware, Inc. présentant le code de compte IBAN conformément aux besoins spécifiques.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-286">Make sure that the created payment file contains recently introduced by Proseware, Inc. XML node presenting IBAN account code in accordance to regional requirements.</span></span> <span data-ttu-id="7bdc0-287">Le fichier doit également contenir le nœud de XML récemment introduit par Litware, Inc. présentant le code de banque SWIFT dans l'accord aux besoins de pays.</span><span class="sxs-lookup"><span data-stu-id="7bdc0-287">The file also should contain the recently introduced by Litware, Inc. XML node presenting SWIFT bank code in accordance to country requirements.</span></span>  
 
 

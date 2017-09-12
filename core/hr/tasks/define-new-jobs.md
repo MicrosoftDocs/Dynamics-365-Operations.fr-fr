@@ -16,58 +16,58 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 23a7e11862a0791a54c7f03f2e2632f63d4aff54
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 8f2d835bf1c29bdf7a9a247fdcf4db4490a64fce
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="define-new-jobs"></a>Définir les nouvelles tâches
+# <a name="define-new-jobs"></a><span data-ttu-id="ea0b0-103">Définir les nouvelles tâches</span><span class="sxs-lookup"><span data-stu-id="ea0b0-103">Define new jobs</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Cette tâche se concentre sur la création d'une nouvelle tâche. Elle est effectuée à l'aide de la saisie manuelle et de la copie à partir de la fonctionnalité de modèle. Les données fictives utilisées pour créer cette tâche correspondent à la société USMF. Cette tâche est destinée au spécialiste en ressources humaines.
+<span data-ttu-id="ea0b0-104">Cette tâche se concentre sur la création d'une nouvelle tâche.</span><span class="sxs-lookup"><span data-stu-id="ea0b0-104">This task focuses on the creation of a new job.</span></span> <span data-ttu-id="ea0b0-105">Elle est effectuée à l'aide de la saisie manuelle et de la copie à partir de la fonctionnalité de modèle.</span><span class="sxs-lookup"><span data-stu-id="ea0b0-105">It will be completed using manual entry and copy from template functionality.</span></span> <span data-ttu-id="ea0b0-106">Les données fictives utilisées pour créer cette tâche correspondent à la société USMF.</span><span class="sxs-lookup"><span data-stu-id="ea0b0-106">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="ea0b0-107">Cette tâche est destinée au spécialiste en ressources humaines.</span><span class="sxs-lookup"><span data-stu-id="ea0b0-107">This task is intended for the human resources specialist.</span></span>
 
-1. Accédez à Ressources humaines > Tâches > Tâches.
-2. Cliquez sur Nouveau.
-3. Tapez une valeur dans le champ Tâches.
-4. Dans le champ Description, entrez une valeur.
-5. Sélectionnez un titre standard qui sera utilisé pour la tâche. 
-    * Le titre entré sera utilisé comme valeur par défaut pour les nouveaux postes affectés à la tâche.  
-6. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-7. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-8. Sélectionnez « Nombre maximal de postes » dans le groupe Nombre maximal de postes.
-9. Entrez le nombre maximal de postes. 
-    * Il n'est pas possible d'affecter plus de postes que la valeur maximale entrée ici.  
-10. Activez ou désactivez l'extension de la section Description.
-11. Dans le champ Note, entrez une description standard pour la tâche.
-    * La description s'applique à tous les postes attribués à la tâche définie ici.  
-12. Activez ou désactivez l'extension de la section Classification de mission.
-13. Sélectionnez une fonction de tâche à utiliser dans des états standard dans les ressources humaines.
-14. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-15. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-16. Sélectionnez un type de tâche pour classer des tâches au sein de votre organisation. 
-    * Les types de tâches peuvent être utilisés dans les déclarations dans le module Ressources humaines.  
-17. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-18. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-19. Activez ou désactivez l'extension de la section Rémunération.
-20. Sélectionnez un niveau de rémunération.
-    * Le niveau de rémunération définira la rémunération minimale et maximale qu'un employé peut obtenir pour la tâche. Les règles de rémunération détermineront si la rémunération de l'employé peut être en dehors de la plage.  
-21. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-22. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-23. Activez ou désactivez l'extension de la section Qualifications.
-    * Notez que les champs des organisateurs Qualifications, Certificats et Formation sont vides. Une fois les informations d'un modèle de poste copiées, les informations contenues dans ces champs sont entrées en une seule étape.   
-24. Cliquez sur Enregistrer.
-25. Cliquez sur Copier depuis.
-26. Cliquez sur Copier à partir d'un modèle.
-27. Dans le champ Modèle de poste, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-28. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-29. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-30. Cliquez sur l'option Note.
-    * Seuls les éléments sélectionnés sont copiés dans la tâche sélectionnée.    
-31. Cliquez sur OK.
-32. Activez ou désactivez l'extension de la section Certificats.
-33. Activez ou désactivez l'extension de la section Formation.
-34. Cliquez sur Enregistrer.
+1. <span data-ttu-id="ea0b0-108">Accédez à Ressources humaines > Tâches > Tâches.</span><span class="sxs-lookup"><span data-stu-id="ea0b0-108">Go to Human resources > Jobs > Jobs.</span></span>
+2. <span data-ttu-id="ea0b0-109">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="ea0b0-109">Click New.</span></span>
+3. <span data-ttu-id="ea0b0-110">Tapez une valeur dans le champ Tâches.</span><span class="sxs-lookup"><span data-stu-id="ea0b0-110">In the Job field, type a value.</span></span>
+4. <span data-ttu-id="ea0b0-111">Dans le champ Description, entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="ea0b0-111">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="ea0b0-112">Sélectionnez un titre standard qui sera utilisé pour la tâche.</span><span class="sxs-lookup"><span data-stu-id="ea0b0-112">Select a standard title that will be used for the job.</span></span> 
+    * <span data-ttu-id="ea0b0-113">Le titre entré sera utilisé comme valeur par défaut pour les nouveaux postes affectés à la tâche.</span><span class="sxs-lookup"><span data-stu-id="ea0b0-113">The title entered will be used as a default for new positions assigned to the job.</span></span>  
+6. <span data-ttu-id="ea0b0-114">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="ea0b0-114">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="ea0b0-115">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="ea0b0-115">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="ea0b0-116">Sélectionnez « Nombre maximal de postes » dans le groupe Nombre maximal de postes.</span><span class="sxs-lookup"><span data-stu-id="ea0b0-116">In the Maximum number of positions group, select 'Maximum positions'</span></span>
+9. <span data-ttu-id="ea0b0-117">Entrez le nombre maximal de postes.</span><span class="sxs-lookup"><span data-stu-id="ea0b0-117">Enter the maximum number of positions.</span></span> 
+    * <span data-ttu-id="ea0b0-118">Il n'est pas possible d'affecter plus de postes que la valeur maximale entrée ici.</span><span class="sxs-lookup"><span data-stu-id="ea0b0-118">Position assignments will not be allowed above the maximum value entered here.</span></span>  
+10. <span data-ttu-id="ea0b0-119">Activez ou désactivez l'extension de la section Description.</span><span class="sxs-lookup"><span data-stu-id="ea0b0-119">Toggle the expansion of the Description section.</span></span>
+11. <span data-ttu-id="ea0b0-120">Dans le champ Note, entrez une description standard pour la tâche.</span><span class="sxs-lookup"><span data-stu-id="ea0b0-120">In the Note field, enter 'Enter a standard description for the Job.</span></span>
+    * <span data-ttu-id="ea0b0-121">La description s'applique à tous les postes attribués à la tâche définie ici.</span><span class="sxs-lookup"><span data-stu-id="ea0b0-121">The description applies to all positions assigned to the job defined here.</span></span>  
+12. <span data-ttu-id="ea0b0-122">Activez ou désactivez l'extension de la section Classification de mission.</span><span class="sxs-lookup"><span data-stu-id="ea0b0-122">Toggle the expansion of the Job classification section.</span></span>
+13. <span data-ttu-id="ea0b0-123">Sélectionnez une fonction de tâche à utiliser dans des états standard dans les ressources humaines.</span><span class="sxs-lookup"><span data-stu-id="ea0b0-123">Select a job function that will be used in standard reporting within Human resources.</span></span>
+14. <span data-ttu-id="ea0b0-124">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="ea0b0-124">In the list, find and select the desired record.</span></span>
+15. <span data-ttu-id="ea0b0-125">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="ea0b0-125">In the list, click the link in the selected row.</span></span>
+16. <span data-ttu-id="ea0b0-126">Sélectionnez un type de tâche pour classer des tâches au sein de votre organisation.</span><span class="sxs-lookup"><span data-stu-id="ea0b0-126">Select a Job type to further classify jobs within your organization.</span></span> 
+    * <span data-ttu-id="ea0b0-127">Les types de tâches peuvent être utilisés dans les déclarations dans le module Ressources humaines.</span><span class="sxs-lookup"><span data-stu-id="ea0b0-127">Job types can be used in reporting throughout Human resources.</span></span>  
+17. <span data-ttu-id="ea0b0-128">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="ea0b0-128">In the list, find and select the desired record.</span></span>
+18. <span data-ttu-id="ea0b0-129">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="ea0b0-129">In the list, click the link in the selected row.</span></span>
+19. <span data-ttu-id="ea0b0-130">Activez ou désactivez l'extension de la section Rémunération.</span><span class="sxs-lookup"><span data-stu-id="ea0b0-130">Toggle the expansion of the Compensation section.</span></span>
+20. <span data-ttu-id="ea0b0-131">Sélectionnez un niveau de rémunération.</span><span class="sxs-lookup"><span data-stu-id="ea0b0-131">Select a compensation level.</span></span>
+    * <span data-ttu-id="ea0b0-132">Le niveau de rémunération définira la rémunération minimale et maximale qu'un employé peut obtenir pour la tâche.</span><span class="sxs-lookup"><span data-stu-id="ea0b0-132">The compensation level will define the Minimum and Maximum compensation an employee may have for the job.</span></span> <span data-ttu-id="ea0b0-133">Les règles de rémunération détermineront si la rémunération de l'employé peut être en dehors de la plage.</span><span class="sxs-lookup"><span data-stu-id="ea0b0-133">Compensation rules will determine if employees' compensation can be outside the range.</span></span>  
+21. <span data-ttu-id="ea0b0-134">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="ea0b0-134">In the list, find and select the desired record.</span></span>
+22. <span data-ttu-id="ea0b0-135">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="ea0b0-135">In the list, click the link in the selected row.</span></span>
+23. <span data-ttu-id="ea0b0-136">Activez ou désactivez l'extension de la section Qualifications.</span><span class="sxs-lookup"><span data-stu-id="ea0b0-136">Toggle the expansion of the Skills section.</span></span>
+    * <span data-ttu-id="ea0b0-137">Notez que les champs des organisateurs Qualifications, Certificats et Formation sont vides.</span><span class="sxs-lookup"><span data-stu-id="ea0b0-137">Note that the fields in the Skills, Education and Certificates FastTabs are blank.</span></span> <span data-ttu-id="ea0b0-138">Une fois les informations d'un modèle de poste copiées, les informations contenues dans ces champs sont entrées en une seule étape.</span><span class="sxs-lookup"><span data-stu-id="ea0b0-138">After copying information from a job template, information in these fields will be entered in a single step.</span></span>   
+24. <span data-ttu-id="ea0b0-139">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="ea0b0-139">Click Save.</span></span>
+25. <span data-ttu-id="ea0b0-140">Cliquez sur Copier depuis.</span><span class="sxs-lookup"><span data-stu-id="ea0b0-140">Click Copy from.</span></span>
+26. <span data-ttu-id="ea0b0-141">Cliquez sur Copier à partir d'un modèle.</span><span class="sxs-lookup"><span data-stu-id="ea0b0-141">Click Copy from template.</span></span>
+27. <span data-ttu-id="ea0b0-142">Dans le champ Modèle de poste, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="ea0b0-142">In the Job template field, click the drop-down button to open the lookup.</span></span>
+28. <span data-ttu-id="ea0b0-143">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="ea0b0-143">In the list, find and select the desired record.</span></span>
+29. <span data-ttu-id="ea0b0-144">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="ea0b0-144">In the list, click the link in the selected row.</span></span>
+30. <span data-ttu-id="ea0b0-145">Cliquez sur l'option Note.</span><span class="sxs-lookup"><span data-stu-id="ea0b0-145">Click the Note option.</span></span>
+    * <span data-ttu-id="ea0b0-146">Seuls les éléments sélectionnés sont copiés dans la tâche sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="ea0b0-146">Only those items you select will be copied to the selected job.</span></span>    
+31. <span data-ttu-id="ea0b0-147">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="ea0b0-147">Click OK.</span></span>
+32. <span data-ttu-id="ea0b0-148">Activez ou désactivez l'extension de la section Certificats.</span><span class="sxs-lookup"><span data-stu-id="ea0b0-148">Toggle the expansion of the Certificates section.</span></span>
+33. <span data-ttu-id="ea0b0-149">Activez ou désactivez l'extension de la section Formation.</span><span class="sxs-lookup"><span data-stu-id="ea0b0-149">Toggle the expansion of the Education section.</span></span>
+34. <span data-ttu-id="ea0b0-150">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="ea0b0-150">Click Save.</span></span>
 
 

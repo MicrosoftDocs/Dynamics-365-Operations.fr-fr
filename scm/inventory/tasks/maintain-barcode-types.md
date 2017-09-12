@@ -1,4 +1,4 @@
---- 
+---
 title: "Mettre à jour les types de codes-barres"
 description: "Cette procédure montre comment paramétrer une nouvelle définition de code-barres pouvant être utilisée dans le cadre de l'état de la liste de prélèvements."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -17,32 +17,31 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 57ad3f2cb4f4a246af4d58001c6ef56c440b5431
+ms.sourcegitcommit: 0e7f66cccd76e5326fce75d1a13aff294c16fb9b
+ms.openlocfilehash: 45323206550d1b0ed66d89f4be7b995c60af63fc
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/12/2017
 
 ---
-# <a name="maintain-bar-code-types"></a>Mettre à jour les types de codes-barres
+# <a name="maintain-bar-code-types"></a><span data-ttu-id="d5810-103">Mettre à jour les types de codes-barres</span><span class="sxs-lookup"><span data-stu-id="d5810-103">Maintain bar code types</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Cette procédure montre comment paramétrer une nouvelle définition de code-barres pouvant être utilisée dans le cadre de l'état de la liste de prélèvements. Vous pouvez parcourir cette procédure dans la société fictive USMF ou utiliser vos propres données. Si vous utilisez USMF, vous pouvez utiliser les valeurs des exemples affichées. Ces tâches sont généralement effectuées par un responsable de l'entrepôt.
+<span data-ttu-id="d5810-104">Cette procédure montre comment paramétrer une nouvelle définition de code-barres pouvant être utilisée dans le cadre de l'état de la liste de prélèvements.</span><span class="sxs-lookup"><span data-stu-id="d5810-104">This procedure shows you how to set up a new barcode definition which can then be used as part of the picking list report.</span></span> <span data-ttu-id="d5810-105">Vous pouvez parcourir cette procédure dans la société fictive USMF ou utiliser vos propres données.</span><span class="sxs-lookup"><span data-stu-id="d5810-105">You can walk through this procedure in demo data company USMF, or using your own data.</span></span> <span data-ttu-id="d5810-106">Si vous utilisez USMF, vous pouvez utiliser les valeurs des exemples affichées.</span><span class="sxs-lookup"><span data-stu-id="d5810-106">If you are using USMF you can use the example values that are shown.</span></span> <span data-ttu-id="d5810-107">Ces tâches sont généralement effectuées par un responsable de l'entrepôt.</span><span class="sxs-lookup"><span data-stu-id="d5810-107">These tasks would typically be carried out by a warehouse manager.</span></span>
 
-1. Accédez à Codes-barres.
-2. Cliquez sur Nouveau.
-3. Dans le champ Paramétrage des codes-barres, tapez une valeur.
-4. Dans le champ Description, entrez une valeur.
-5. Sélectionnez une option dans le champ Type de code-barres.
-    * Si vous utilisez USMF, vous pouvez sélectionner Code 39.  
-6. Entrez un nombre dans le champ Taille.
-7. Dans le champ Longueur maximale, entrez un nombre.
-8. Cliquez sur Enregistrer.
-9. Fermez la page.
-10. Accédez à Paramètres de gestion des stocks et des entrepôts.
-11. Dans le champ Paramétrage des codes-barres, saisissez ou sélectionnez une valeur.
-    * Sélectionnez le paramétrage de code-barres que vous avez créé précédemment, mais gardez à l'esprit que le format de code-barres doit correspondre au format de l'identificateur unique du type d'enregistrement utilisé dans le processus. Par exemple, pour les parcours de prélèvement, le format de code-barres doit correspondre au format de la référence du parcours de prélèvement, qui est généralement une souche de numéros.  
-12. Cliquez sur Enregistrer.
-13. Fermez la page.
-
+1. <span data-ttu-id="d5810-108">Accédez à Codes-barres.</span><span class="sxs-lookup"><span data-stu-id="d5810-108">Go to Bar codes.</span></span>
+2. <span data-ttu-id="d5810-109">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="d5810-109">Click New.</span></span>
+3. <span data-ttu-id="d5810-110">Dans le champ Paramétrage des codes-barres, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="d5810-110">In the Barcode setup field, type a value.</span></span>
+4. <span data-ttu-id="d5810-111">Dans le champ Description, entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="d5810-111">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="d5810-112">Sélectionnez une option dans le champ Type de code-barres.</span><span class="sxs-lookup"><span data-stu-id="d5810-112">In the Bar code type field, select an option.</span></span>
+    * <span data-ttu-id="d5810-113">Si vous utilisez USMF, vous pouvez sélectionner Code 39.</span><span class="sxs-lookup"><span data-stu-id="d5810-113">If you're using USMF, you can select 'Code 39'.</span></span>  
+6. <span data-ttu-id="d5810-114">Entrez un nombre dans le champ Taille.</span><span class="sxs-lookup"><span data-stu-id="d5810-114">In the Size field, enter a number.</span></span>
+7. <span data-ttu-id="d5810-115">Dans le champ Longueur maximale, entrez un nombre.</span><span class="sxs-lookup"><span data-stu-id="d5810-115">In the Maximum length field, enter a number.</span></span>
+8. <span data-ttu-id="d5810-116">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="d5810-116">Click Save.</span></span>
+9. <span data-ttu-id="d5810-117">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="d5810-117">Close the page.</span></span>
+10. <span data-ttu-id="d5810-118">Accédez à Paramètres de gestion des stocks et des entrepôts.</span><span class="sxs-lookup"><span data-stu-id="d5810-118">Go to Inventory and warehouse management parameters.</span></span>
+11. <span data-ttu-id="d5810-119">Dans le champ Paramétrage des codes-barres, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="d5810-119">In the Barcode setup field, enter or select a value.</span></span>
+    * <span data-ttu-id="d5810-120">Sélectionnez le paramétrage de code-barres que vous avez créé précédemment, mais gardez à l'esprit que le format de code-barres doit correspondre au format de l'identificateur unique du type d'enregistrement utilisé dans le processus.</span><span class="sxs-lookup"><span data-stu-id="d5810-120">Select the barcode setup that you created before, but be aware that the bar code format must match the format of the unique identifier for the record type used in the process.</span></span> <span data-ttu-id="d5810-121">Par exemple, pour les parcours de prélèvement, le format de code-barres doit correspondre au format de la référence du parcours de prélèvement, qui est généralement une souche de numéros.</span><span class="sxs-lookup"><span data-stu-id="d5810-121">For example, for picking routes, the bar code format should match the format of the picking route reference, which is typically a number sequence.</span></span>  
+12. <span data-ttu-id="d5810-122">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="d5810-122">Click Save.</span></span>
+13. <span data-ttu-id="d5810-123">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="d5810-123">Close the page.</span></span>
 

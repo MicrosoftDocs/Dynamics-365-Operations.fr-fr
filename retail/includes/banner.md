@@ -1,2 +1,2 @@
 > [!IMPORTANT]
-> Cette rubrique s'applique à Dynamics 365 for Retail, à Dynamics 365 for Finance and Operations, édition Enterprise et à Dynamics 365 for Talent.
+> <span data-ttu-id="9e627-101">Cette rubrique s'applique à Dynamics 365 for Retail, à Dynamics 365 for Finance and Operations, édition Enterprise et à Dynamics 365 for Talent.</span><span class="sxs-lookup"><span data-stu-id="9e627-101">This topic applies to Dynamics 365 for Retail, Dynamics 365 for Finance and Operations, Enterprise edition, and Dynamics 365 for Talent.</span></span>

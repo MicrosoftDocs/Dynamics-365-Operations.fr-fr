@@ -16,42 +16,42 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 8eb19ac9ded4dc2a091ff733f2f43cb6cafa1b43
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 1e08d9fd3388561563e6fb982416186a652b4ce2
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="monitor-a-master-planning-run"></a>Surveiller l'exécution d'une planification générale
+# <a name="monitor-a-master-planning-run"></a><span data-ttu-id="03845-103">Surveiller l'exécution d'une planification générale</span><span class="sxs-lookup"><span data-stu-id="03845-103">Monitor a master planning run</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Le responsable de production veut voir si une exécution de la planification est en cours. Utilisez les données fictives de la société USMF pour réaliser cette procédure.
+<span data-ttu-id="03845-104">Le responsable de production veut voir si une exécution de la planification est en cours.</span><span class="sxs-lookup"><span data-stu-id="03845-104">The production planner wants to see if a master planning run is in progress.</span></span> <span data-ttu-id="03845-105">Utilisez les données fictives de la société USMF pour réaliser cette procédure.</span><span class="sxs-lookup"><span data-stu-id="03845-105">Use the demo data company USMF to complete this procedure.</span></span>
 
 
-## <a name="run-master-planning"></a>Exécuter la planification générale
-1. Cliquez sur Planification.
-    * Vous trouverez cela dans le tableau de bord par défaut.  
-2. Dans le champ Régime, saisissez ou sélectionnez une valeur.
-    * Exemple : StaticPlan  
-3. Cliquez sur Exécuter.
-4. Dans le champ Suivre la durée du traitement, sélectionnez Oui.
-    * Si le champ est déjà sélectionné, ignorez cette étape.  
-5. Entrez un nombre dans le champ Nombre de threads.
-6. Développez les enregistrements pour inclure la section.
-7. Cliquez sur Filtre.
-8. Dans la liste, marquez la ligne sélectionnée.
-    * Marquez la ligne où Champ = Numéro d'article.  
-9. Dans le champ Critères, saisissez ou sélectionnez une valeur.
-    * Exemple : T0001  
-10. Cliquez sur OK.
-11. Cliquez sur OK.
+## <a name="run-master-planning"></a><span data-ttu-id="03845-106">Exécuter la planification générale</span><span class="sxs-lookup"><span data-stu-id="03845-106">Run master planning</span></span>
+1. <span data-ttu-id="03845-107">Cliquez sur Planification.</span><span class="sxs-lookup"><span data-stu-id="03845-107">Click Master planning.</span></span>
+    * <span data-ttu-id="03845-108">Vous trouverez cela dans le tableau de bord par défaut.</span><span class="sxs-lookup"><span data-stu-id="03845-108">You'll find this on the default dashboard.</span></span>  
+2. <span data-ttu-id="03845-109">Dans le champ Régime, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="03845-109">In the Plan field, enter or select a value.</span></span>
+    * <span data-ttu-id="03845-110">Exemple : StaticPlan</span><span class="sxs-lookup"><span data-stu-id="03845-110">Example: StaticPlan</span></span>  
+3. <span data-ttu-id="03845-111">Cliquez sur Exécuter.</span><span class="sxs-lookup"><span data-stu-id="03845-111">Click Run.</span></span>
+4. <span data-ttu-id="03845-112">Dans le champ Suivre la durée du traitement, sélectionnez Oui.</span><span class="sxs-lookup"><span data-stu-id="03845-112">Select Yes in the Track processing time field.</span></span>
+    * <span data-ttu-id="03845-113">Si le champ est déjà sélectionné, ignorez cette étape.</span><span class="sxs-lookup"><span data-stu-id="03845-113">If the field is already selected, skip this step.</span></span>  
+5. <span data-ttu-id="03845-114">Entrez un nombre dans le champ Nombre de threads.</span><span class="sxs-lookup"><span data-stu-id="03845-114">In the Number of threads field, enter a number.</span></span>
+6. <span data-ttu-id="03845-115">Développez les enregistrements pour inclure la section.</span><span class="sxs-lookup"><span data-stu-id="03845-115">Expand the Records to include section.</span></span>
+7. <span data-ttu-id="03845-116">Cliquez sur Filtre.</span><span class="sxs-lookup"><span data-stu-id="03845-116">Click Filter.</span></span>
+8. <span data-ttu-id="03845-117">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="03845-117">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="03845-118">Marquez la ligne où Champ = Numéro d'article.</span><span class="sxs-lookup"><span data-stu-id="03845-118">Mark the row where Field = Item number.</span></span>  
+9. <span data-ttu-id="03845-119">Dans le champ Critères, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="03845-119">In the Criteria field, enter or select a value.</span></span>
+    * <span data-ttu-id="03845-120">Exemple : T0001</span><span class="sxs-lookup"><span data-stu-id="03845-120">Example: T0001</span></span>  
+10. <span data-ttu-id="03845-121">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="03845-121">Click OK.</span></span>
+11. <span data-ttu-id="03845-122">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="03845-122">Click OK.</span></span>
 
-## <a name="monitor-the-master-planning-run"></a>Surveiller l'exécution d'une planification générale
-1. Cliquez sur Historique.
-2. Cliquez sur Recherches.
-3. Cliquez sur Durée de tâche du processus.
-4. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-    * Pour chaque article vous pouvez obtenir une vue d'ensemble de la durée nécessaire pour réaliser chaque étape de planification.  
+## <a name="monitor-the-master-planning-run"></a><span data-ttu-id="03845-123">Surveiller l'exécution d'une planification générale</span><span class="sxs-lookup"><span data-stu-id="03845-123">Monitor the master planning run</span></span>
+1. <span data-ttu-id="03845-124">Cliquez sur Historique.</span><span class="sxs-lookup"><span data-stu-id="03845-124">Click History.</span></span>
+2. <span data-ttu-id="03845-125">Cliquez sur Recherches.</span><span class="sxs-lookup"><span data-stu-id="03845-125">Click Inquiries.</span></span>
+3. <span data-ttu-id="03845-126">Cliquez sur Durée de tâche du processus.</span><span class="sxs-lookup"><span data-stu-id="03845-126">Click Process task duration.</span></span>
+4. <span data-ttu-id="03845-127">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="03845-127">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="03845-128">Pour chaque article vous pouvez obtenir une vue d'ensemble de la durée nécessaire pour réaliser chaque étape de planification.</span><span class="sxs-lookup"><span data-stu-id="03845-128">For each item you can get an overview of how long it took to complete each planning step.</span></span>  
 
 

@@ -16,49 +16,49 @@ ms.author: mfalkner
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: ed23bcfed4e256ecc16264a181161c7119cd9bb3
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 2e9f393acaa47d485a583b99ace459474f30be6a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-and-generate-accounts-receivable-aging-information"></a>Paramétrer et générer des informations sur la plage âgée de la comptabilité client
+# <a name="set-up-and-generate-accounts-receivable-aging-information"></a><span data-ttu-id="f1dce-103">Paramétrer et générer des informations sur la plage âgée de la comptabilité client</span><span class="sxs-lookup"><span data-stu-id="f1dce-103">Set up and generate accounts receivable aging information</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Ce guide vous aidera à paramétrer une définition de plage âgée, des soldes client échus et à afficher des soldes dans la liste Solde échu et sur la page Recouvrement. La société fictive USMF sert d'exemple dans cet enregistrement.
+<span data-ttu-id="f1dce-104">Ce guide vous aidera à paramétrer une définition de plage âgée, des soldes client échus et à afficher des soldes dans la liste Solde échu et sur la page Recouvrement.</span><span class="sxs-lookup"><span data-stu-id="f1dce-104">This guide will help you set up an aging period definition, age customer balances, and view balances in the Aged balance list and the Collections page.</span></span> <span data-ttu-id="f1dce-105">La société fictive USMF sert d'exemple dans cet enregistrement.</span><span class="sxs-lookup"><span data-stu-id="f1dce-105">This recording uses the USMF demo company.</span></span>
 
 
-## <a name="create-an-aging-period-definition"></a>Créer une définition de plage âgée
-1. Accédez à Crédit et relances > Paramétrage > Définitions de plage âgée.
-2. Cliquez sur Nouveau.
-3. Entrez une valeur dans le champ Définition de la plage âgée.
-4. Tapez une valeur dans le champ Description.
-5. Cliquez sur Ajouter au-dessous pour insérer une nouvelle plage âgée.
-6. Dans le champ Période, entrez la description à indiquer sur les balances âgées.
-7. Entrez un numéro dans le champ Unité.
-8. Sélectionnez une option dans le champ Intervalle.
-    * La période comptable correspond à la période de votre calendrier comptable. Le jour, la semaine, le mois, le trimestre et les années définissent l'étendue de l'intervalle par type de date. L'option Illimité permet de sélectionner l'ensemble des transactions avant ou après la période précédente, selon qu'il s'agisse de la première ou la dernière période.  
-9. Sélectionnez une option dans le champ Indicateur âgé.
-10. Sélectionnez la période en haut de la grille. Mettez la description à jour pour décrire la période la plus ancienne dans la définition de plage âgée.
-11. Entrez la nouvelle description de la plage âgée dans le champ Période.
-12. Fermez la page.
+## <a name="create-an-aging-period-definition"></a><span data-ttu-id="f1dce-106">Créer une définition de plage âgée</span><span class="sxs-lookup"><span data-stu-id="f1dce-106">Create an aging period definition</span></span>
+1. <span data-ttu-id="f1dce-107">Accédez à Crédit et relances > Paramétrage > Définitions de plage âgée.</span><span class="sxs-lookup"><span data-stu-id="f1dce-107">Go to Credit and collections > Setup > Aging period definitions.</span></span>
+2. <span data-ttu-id="f1dce-108">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="f1dce-108">Click New.</span></span>
+3. <span data-ttu-id="f1dce-109">Entrez une valeur dans le champ Définition de la plage âgée.</span><span class="sxs-lookup"><span data-stu-id="f1dce-109">In the Aging period definition field, type a value.</span></span>
+4. <span data-ttu-id="f1dce-110">Tapez une valeur dans le champ Description.</span><span class="sxs-lookup"><span data-stu-id="f1dce-110">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="f1dce-111">Cliquez sur Ajouter au-dessous pour insérer une nouvelle plage âgée.</span><span class="sxs-lookup"><span data-stu-id="f1dce-111">Click Add below to insert a new aging period.</span></span>
+6. <span data-ttu-id="f1dce-112">Dans le champ Période, entrez la description à indiquer sur les balances âgées.</span><span class="sxs-lookup"><span data-stu-id="f1dce-112">In the Period field, enter the description to show on aging reports.</span></span>
+7. <span data-ttu-id="f1dce-113">Entrez un numéro dans le champ Unité.</span><span class="sxs-lookup"><span data-stu-id="f1dce-113">In the Unit field, enter a number.</span></span>
+8. <span data-ttu-id="f1dce-114">Sélectionnez une option dans le champ Intervalle.</span><span class="sxs-lookup"><span data-stu-id="f1dce-114">In the Interval field, select an option.</span></span>
+    * <span data-ttu-id="f1dce-115">La période comptable correspond à la période de votre calendrier comptable.</span><span class="sxs-lookup"><span data-stu-id="f1dce-115">Ledger period matches the period to your ledger calendar.</span></span> <span data-ttu-id="f1dce-116">Le jour, la semaine, le mois, le trimestre et les années définissent l'étendue de l'intervalle par type de date.</span><span class="sxs-lookup"><span data-stu-id="f1dce-116">Day, week, month, quarter and years define the size of the interval by date type.</span></span> <span data-ttu-id="f1dce-117">L'option Illimité permet de sélectionner l'ensemble des transactions avant ou après la période précédente, selon qu'il s'agisse de la première ou la dernière période.</span><span class="sxs-lookup"><span data-stu-id="f1dce-117">Unlimited selects all transactions before or after the previous period, depending on whether it is the first or last period.</span></span>  
+9. <span data-ttu-id="f1dce-118">Sélectionnez une option dans le champ Indicateur âgé.</span><span class="sxs-lookup"><span data-stu-id="f1dce-118">In the Aging indicator field, select an option.</span></span>
+10. <span data-ttu-id="f1dce-119">Sélectionnez la période en haut de la grille.</span><span class="sxs-lookup"><span data-stu-id="f1dce-119">Select the period at the top of the grid.</span></span> <span data-ttu-id="f1dce-120">Mettez la description à jour pour décrire la période la plus ancienne dans la définition de plage âgée.</span><span class="sxs-lookup"><span data-stu-id="f1dce-120">Update the description to describe the oldest period in the aging period definition</span></span>
+11. <span data-ttu-id="f1dce-121">Entrez la nouvelle description de la plage âgée dans le champ Période.</span><span class="sxs-lookup"><span data-stu-id="f1dce-121">In the Period field, enter the new description of the aging period.</span></span>
+12. <span data-ttu-id="f1dce-122">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="f1dce-122">Close the page.</span></span>
 
-## <a name="age-the-balances"></a>Définir l'âge des soldes
-1. Accédez à Crédit et relances > Tâches périodiques > Soldes client échus.
-2. Dans le champ Définition de la plage âgée, sélectionnez la définition de plage âgée que vous avez créée.
-    * Vous pouvez avoir un instantané actif pour chaque définition de plage âgée.  
-    * Tous les clients sont traités par défaut. Vous pouvez utiliser cette sélection pour calculer un seul regroupement de recouvrements de clients.  
-    * Sélectionnez la date de la transaction que vous utiliserez pour la balance âgée.  
-    * Sélectionnez une date « en date du » pour la balance âgée. La valeur par défaut est la date du jour, mais si vous remplacez ce champ par Date sélectionnée, vous pourrez choisir la date que vous souhaitez. Utilisez la date du jour pour le traitement par lots.  
-3. Développez la plage de la société. Vous pouvez sélectionner les sociétés qui seront incluses dans l'instantané. La société actuelle est sélectionnée par défaut.
-4. Cliquez sur OK pour traiter l'instantané. Cela prendra un certain du temps, vous devez donc attendre que le curseur disparaisse et consulter les messages du centre de message.
+## <a name="age-the-balances"></a><span data-ttu-id="f1dce-123">Définir l'âge des soldes</span><span class="sxs-lookup"><span data-stu-id="f1dce-123">Age the balances</span></span>
+1. <span data-ttu-id="f1dce-124">Accédez à Crédit et relances > Tâches périodiques > Soldes client échus.</span><span class="sxs-lookup"><span data-stu-id="f1dce-124">Go to Credit and collections > Periodic tasks > Age customer balances.</span></span>
+2. <span data-ttu-id="f1dce-125">Dans le champ Définition de la plage âgée, sélectionnez la définition de plage âgée que vous avez créée.</span><span class="sxs-lookup"><span data-stu-id="f1dce-125">In the Aging period definition field, select the aging period definition that you created.</span></span>
+    * <span data-ttu-id="f1dce-126">Vous pouvez avoir un instantané actif pour chaque définition de plage âgée.</span><span class="sxs-lookup"><span data-stu-id="f1dce-126">You can have one active snapshot for each aging period definition.</span></span>  
+    * <span data-ttu-id="f1dce-127">Tous les clients sont traités par défaut.</span><span class="sxs-lookup"><span data-stu-id="f1dce-127">All customers are processed by default.</span></span> <span data-ttu-id="f1dce-128">Vous pouvez utiliser cette sélection pour calculer un seul regroupement de recouvrements de clients.</span><span class="sxs-lookup"><span data-stu-id="f1dce-128">You can use this selection to calculate a single collections pool of customers.</span></span>  
+    * <span data-ttu-id="f1dce-129">Sélectionnez la date de la transaction que vous utiliserez pour la balance âgée.</span><span class="sxs-lookup"><span data-stu-id="f1dce-129">Select the date from the transaction that you will use for the aging.</span></span>  
+    * <span data-ttu-id="f1dce-130">Sélectionnez une date « en date du » pour la balance âgée.</span><span class="sxs-lookup"><span data-stu-id="f1dce-130">Select an "as of" date for aging.</span></span> <span data-ttu-id="f1dce-131">La valeur par défaut est la date du jour, mais si vous remplacez ce champ par Date sélectionnée, vous pourrez choisir la date que vous souhaitez.</span><span class="sxs-lookup"><span data-stu-id="f1dce-131">The default is today but, if you change this field to Selected date, you will be able to pick the date that you want.</span></span> <span data-ttu-id="f1dce-132">Utilisez la date du jour pour le traitement par lots.</span><span class="sxs-lookup"><span data-stu-id="f1dce-132">For batch processing, use Today's date.</span></span>  
+3. <span data-ttu-id="f1dce-133">Développez la plage de la société.</span><span class="sxs-lookup"><span data-stu-id="f1dce-133">Expand the Company range.</span></span> <span data-ttu-id="f1dce-134">Vous pouvez sélectionner les sociétés qui seront incluses dans l'instantané.</span><span class="sxs-lookup"><span data-stu-id="f1dce-134">You can select the companies that will be included in the snapshot.</span></span> <span data-ttu-id="f1dce-135">La société actuelle est sélectionnée par défaut.</span><span class="sxs-lookup"><span data-stu-id="f1dce-135">The current company is selected by default.</span></span>
+4. <span data-ttu-id="f1dce-136">Cliquez sur OK pour traiter l'instantané.</span><span class="sxs-lookup"><span data-stu-id="f1dce-136">Click Ok to process the snapshot.</span></span> <span data-ttu-id="f1dce-137">Cela prendra un certain du temps, vous devez donc attendre que le curseur disparaisse et consulter les messages du centre de message.</span><span class="sxs-lookup"><span data-stu-id="f1dce-137">It will take some time so wait for the slider to disappear and check the message center for a message.</span></span>
 
-## <a name="view-the-balances-on-the-aged-balances-list-and-on-the-collection-page"></a>Afficher les soldes dans la liste Soldes chronologiques et dans la page Collection
-1. Accédez à Crédit et relances > Collections > Soldes chronologiques.
-    * La page de liste affiche les soldes du client. L'icône de balance âgée indique la plage âgée de la transaction la plus ancienne.  
-2. Sélectionnez un client avec un solde.
-3. Développez la zone de récapitulatif Âgé pour afficher les balances âgées.
-    * La définition de plage âgée pour le récapitulatif provient de celle par défaut spécifiée dans les paramètres. Vous pouvez la modifier à l'aide du menu Collecter.  
+## <a name="view-the-balances-on-the-aged-balances-list-and-on-the-collection-page"></a><span data-ttu-id="f1dce-138">Afficher les soldes dans la liste Soldes chronologiques et dans la page Collection</span><span class="sxs-lookup"><span data-stu-id="f1dce-138">View the balances on the Aged balances list and on the Collection page</span></span>
+1. <span data-ttu-id="f1dce-139">Accédez à Crédit et relances > Collections > Soldes chronologiques.</span><span class="sxs-lookup"><span data-stu-id="f1dce-139">Go to Credit and collections > Collections > Aged balances.</span></span>
+    * <span data-ttu-id="f1dce-140">La page de liste affiche les soldes du client.</span><span class="sxs-lookup"><span data-stu-id="f1dce-140">The list page shows the balances for the customer.</span></span> <span data-ttu-id="f1dce-141">L'icône de balance âgée indique la plage âgée de la transaction la plus ancienne.</span><span class="sxs-lookup"><span data-stu-id="f1dce-141">The aging icon shows the aging period for the oldest transaction.</span></span>  
+2. <span data-ttu-id="f1dce-142">Sélectionnez un client avec un solde.</span><span class="sxs-lookup"><span data-stu-id="f1dce-142">Select a customer with a balance.</span></span>
+3. <span data-ttu-id="f1dce-143">Développez la zone de récapitulatif Âgé pour afficher les balances âgées.</span><span class="sxs-lookup"><span data-stu-id="f1dce-143">Expand the Aging fact box area to view the aged balances.</span></span>
+    * <span data-ttu-id="f1dce-144">La définition de plage âgée pour le récapitulatif provient de celle par défaut spécifiée dans les paramètres.</span><span class="sxs-lookup"><span data-stu-id="f1dce-144">The aging period definition for the fact box is taken from the default aging period definition specified in the parameters.</span></span> <span data-ttu-id="f1dce-145">Vous pouvez la modifier à l'aide du menu Collecter.</span><span class="sxs-lookup"><span data-stu-id="f1dce-145">You can change it using the Collect menu.</span></span>  
 
 

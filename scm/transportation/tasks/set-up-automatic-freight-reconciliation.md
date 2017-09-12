@@ -9,66 +9,66 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bibis
+ms.reviewer: bis
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: bibis
+ms.author: bis
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
+ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 61b795d52d4d2586db7f42a976790ee8608e179b
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 97f0c4d8fe06ab2fc252b9543cb688306214c79f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-automatic-freight-reconciliation"></a>Paramétrer le rapprochement automatique des frais de transport
+# <a name="set-up-automatic-freight-reconciliation"></a><span data-ttu-id="07f45-103">Paramétrer le rapprochement automatique des frais de transport</span><span class="sxs-lookup"><span data-stu-id="07f45-103">Set up automatic freight reconciliation</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Cette procédure indique comment paramétrer des données pour le rapprochement automatique des frais de transport. Elle est généralement effectuée par un gestionnaire d'entrepôt. Vous pouvez utiliser cette procédure dans les données fictives de la société USMF.
+<span data-ttu-id="07f45-104">Cette procédure indique comment paramétrer des données pour le rapprochement automatique des frais de transport.</span><span class="sxs-lookup"><span data-stu-id="07f45-104">This procedure shows how to set up data for automatic freight reconciliation.</span></span> <span data-ttu-id="07f45-105">Elle est généralement effectuée par un gestionnaire d'entrepôt.</span><span class="sxs-lookup"><span data-stu-id="07f45-105">This is typically done by a warehouse manager.</span></span> <span data-ttu-id="07f45-106">Vous pouvez utiliser cette procédure dans les données fictives de la société USMF.</span><span class="sxs-lookup"><span data-stu-id="07f45-106">You can use this procedure in demo data company USMF.</span></span>
 
 
-## <a name="set-up-the-freight-bill-type"></a>Paramétrer le type de facture de frais de transport
-1. Allez dans Gestion du transport > Paramétrage > Rapprochement des frais de transport > Type de facture des frais de transport.
-    * Le type de facture des frais de transport définit comment les factures de frais de transport et les factures du transporteur doivent être mises en correspondance.  
-2. Cliquez sur Nouveau.
-3. Dans le champ Type de facture des frais de transport, tapez une valeur.
-4. Dans le champ Assembly de moteur, tapez « Microsoft.Dynamics.Ax.Tms.Bll.GenericNormalizer ».
-    * Il s'agit de la gestion de transport standard correspondant à la bibliothèque de code du moteur.  
-5. Dans le champ Classe de moteur, tapez « Microsoft.Dynamics.Ax.Tms.dll ».
-    * Il s'agit de la gestion de transport standard correspondant à la classe du moteur.  
-6. Cliquez sur Nouveau.
-7. Dans le champ Description, sélectionnez la valeur qui doit correspondre sur la facture des frais de transport et la facture du transporteur.  
-8. Dans le champ Correspondance nécessaire, sélectionnez « Oui ».
-    * Si vous définissez ce champ sur Oui, cela implique que la valeur sélectionnée dans le champ Description doit correspondre sur la facture des frais de transport et la facture du transporteur. S'il est défini sur Non, le champ peut être vide sur l'un de ces éléments.  
-9. Cliquez sur Enregistrer.
+## <a name="set-up-the-freight-bill-type"></a><span data-ttu-id="07f45-107">Paramétrer le type de facture de frais de transport</span><span class="sxs-lookup"><span data-stu-id="07f45-107">Set up the freight bill type</span></span>
+1. <span data-ttu-id="07f45-108">Allez dans Gestion du transport > Paramétrage > Rapprochement des frais de transport > Type de facture des frais de transport.</span><span class="sxs-lookup"><span data-stu-id="07f45-108">Go to Transportation management > Setup > Freight reconciliation > Freight bill type.</span></span>
+    * <span data-ttu-id="07f45-109">Le type de facture des frais de transport définit comment les factures de frais de transport et les factures du transporteur doivent être mises en correspondance.</span><span class="sxs-lookup"><span data-stu-id="07f45-109">The freight bill type defines how freight bills and carrier invoices  should be matched.</span></span>  
+2. <span data-ttu-id="07f45-110">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="07f45-110">Click New.</span></span>
+3. <span data-ttu-id="07f45-111">Dans le champ Type de facture des frais de transport, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="07f45-111">In the Freight bill type field, type a value.</span></span>
+4. <span data-ttu-id="07f45-112">Dans le champ Assembly de moteur, tapez « Microsoft.Dynamics.Ax.Tms.Bll.GenericNormalizer ».</span><span class="sxs-lookup"><span data-stu-id="07f45-112">In the Engine assembly field, type 'Microsoft.Dynamics.Ax.Tms.Bll.GenericNormalizer'.</span></span>
+    * <span data-ttu-id="07f45-113">Il s'agit de la gestion de transport standard correspondant à la bibliothèque de code du moteur.</span><span class="sxs-lookup"><span data-stu-id="07f45-113">This is the standard Transportation management matching engine code library.</span></span>  
+5. <span data-ttu-id="07f45-114">Dans le champ Classe de moteur, tapez « Microsoft.Dynamics.Ax.Tms.dll ».</span><span class="sxs-lookup"><span data-stu-id="07f45-114">In the Engine class field, type 'Microsoft.Dynamics.Ax.Tms.dll'.</span></span>
+    * <span data-ttu-id="07f45-115">Il s'agit de la gestion de transport standard correspondant à la classe du moteur.</span><span class="sxs-lookup"><span data-stu-id="07f45-115">This is the standard Transportation management matching engine class.</span></span>  
+6. <span data-ttu-id="07f45-116">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="07f45-116">Click New.</span></span>
+7. <span data-ttu-id="07f45-117">Dans le champ Description, sélectionnez la valeur qui doit correspondre sur la facture des frais de transport et la facture du transporteur.</span><span class="sxs-lookup"><span data-stu-id="07f45-117">In the Description field, choose the value that should match on the freight bill and the carrier invoice.</span></span>  
+8. <span data-ttu-id="07f45-118">Dans le champ Correspondance nécessaire, sélectionnez « Oui ».</span><span class="sxs-lookup"><span data-stu-id="07f45-118">In the Match required field, select 'Yes'.</span></span>
+    * <span data-ttu-id="07f45-119">Si vous définissez ce champ sur Oui, cela implique que la valeur sélectionnée dans le champ Description doit correspondre sur la facture des frais de transport et la facture du transporteur.</span><span class="sxs-lookup"><span data-stu-id="07f45-119">If you set this field to Yes this means that the value selected in the Description field needs to match on both the freight bill and the carrier invoice.</span></span> <span data-ttu-id="07f45-120">S'il est défini sur Non, le champ peut être vide sur l'un de ces éléments.</span><span class="sxs-lookup"><span data-stu-id="07f45-120">If you set it to No, the field can be blank on one of these.</span></span>  
+9. <span data-ttu-id="07f45-121">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="07f45-121">Click Save.</span></span>
 
-## <a name="set-up-the-freight-bill-type-assignment"></a>Paramétrer l'affectation du type de facture de frais de transport
-1. Fermez la page.
-2. Allez dans Gestion du transport > Paramétrage > Rapprochement des frais de transport > Affectations du type de facture des frais de transport.
-    * L'affectation du type de facture de frais de transport permet de spécifier le type de facture de frais de transport utilisé pour un transporteur particulier.   
-3. Cliquez sur Nouveau.
-4. Dans le champ Mode, entrez ou sélectionnez une valeur.
-5. Dans le champ Transporteur, entrez ou sélectionnez une valeur.
-6. Dans le champ Type de facture des frais de transport, sélectionnez le type de facture des frais de transport que vous avez créé précédemment.
-7. Fermez la page.
+## <a name="set-up-the-freight-bill-type-assignment"></a><span data-ttu-id="07f45-122">Paramétrer l'affectation du type de facture de frais de transport</span><span class="sxs-lookup"><span data-stu-id="07f45-122">Set up the freight bill type assignment</span></span>
+1. <span data-ttu-id="07f45-123">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="07f45-123">Close the page.</span></span>
+2. <span data-ttu-id="07f45-124">Allez dans Gestion du transport > Paramétrage > Rapprochement des frais de transport > Affectations du type de facture des frais de transport.</span><span class="sxs-lookup"><span data-stu-id="07f45-124">Go to Transportation management > Setup > Freight reconciliation > Freight bill type assignments.</span></span>
+    * <span data-ttu-id="07f45-125">L'affectation du type de facture de frais de transport permet de spécifier le type de facture de frais de transport utilisé pour un transporteur particulier.</span><span class="sxs-lookup"><span data-stu-id="07f45-125">The freight bill type assignment is used to specify which freight bill type is used for a particular carrier.</span></span>   
+3. <span data-ttu-id="07f45-126">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="07f45-126">Click New.</span></span>
+4. <span data-ttu-id="07f45-127">Dans le champ Mode, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="07f45-127">In the Mode field, enter or select a value.</span></span>
+5. <span data-ttu-id="07f45-128">Dans le champ Transporteur, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="07f45-128">In the Shipping carrier field, enter or select a value.</span></span>
+6. <span data-ttu-id="07f45-129">Dans le champ Type de facture des frais de transport, sélectionnez le type de facture des frais de transport que vous avez créé précédemment.</span><span class="sxs-lookup"><span data-stu-id="07f45-129">In the Freight bill type field, select the freight bill type that you created earlier.</span></span>
+7. <span data-ttu-id="07f45-130">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="07f45-130">Close the page.</span></span>
 
-## <a name="set-up-the-audit-master"></a>Paramétrer les données principales d'audit
-1. Allez dans Gestion du transport > Paramétrage > Rapprochement des frais de transport > Données principales d'audit.
-    * La table maître d'audit définit les limites de tolérance pour le rapprochement automatique des frais de transport. Elle spécifie dans quelle mesure les montants en devises sur la facture des frais de transport et la facture de transporteur peuvent différer tout en autorisant le rapprochement. Elle définit également comment gérer les différences.  
-2. Cliquez sur Nouveau.
-3. Dans le champ ID données principales d'audit, tapez une valeur.
-4. Dans le champ Transporteur, sélectionnez le même transporteur que celui sélectionné précédemment.
-5. Dans le champ Type de facture des frais de transport, sélectionnez le type de facture des frais de transport que vous avez créé précédemment.
-6. Développez la section Tolérance.
-7. Dans le champ Niveau de tolérance minimal, entrez un nombre.
-8. Dans le champ Niveau de tolérance maximal, entrez un nombre.
-9. Développez la section Résultat.
-10. Dans le champ Code motif du trop-perçu, entrez ou sélectionnez une valeur.
-    * Si les montants en devises diffèrent sur la facture des frais de transport et la facture du transporteur, les codes motif du trop-perçu/moins-perçu spécifient les comptes sur lesquels la différence doit être enregistrée, tant qu'elle entre dans les niveaux de tolérance.  
-11. Dans le champ Code motif du moins-perçu, entrez ou sélectionnez une valeur.
-12. Fermez la page.
+## <a name="set-up-the-audit-master"></a><span data-ttu-id="07f45-131">Paramétrer les données principales d'audit</span><span class="sxs-lookup"><span data-stu-id="07f45-131">Set up the audit master</span></span>
+1. <span data-ttu-id="07f45-132">Allez dans Gestion du transport > Paramétrage > Rapprochement des frais de transport > Données principales d'audit.</span><span class="sxs-lookup"><span data-stu-id="07f45-132">Go to Transportation management > Setup > Freight reconciliation > Audit master.</span></span>
+    * <span data-ttu-id="07f45-133">La table maître d'audit définit les limites de tolérance pour le rapprochement automatique des frais de transport.</span><span class="sxs-lookup"><span data-stu-id="07f45-133">The audit master defines the tolerance limits for automatic freight reconciliation.</span></span> <span data-ttu-id="07f45-134">Elle spécifie dans quelle mesure les montants en devises sur la facture des frais de transport et la facture de transporteur peuvent différer tout en autorisant le rapprochement.</span><span class="sxs-lookup"><span data-stu-id="07f45-134">It specifies by how much the monetary amounts on the freight bill and the carrier invoice can differ and still allow reconciliation to occur.</span></span> <span data-ttu-id="07f45-135">Elle définit également comment gérer les différences.</span><span class="sxs-lookup"><span data-stu-id="07f45-135">It also defines how to handle discrepancies.</span></span>  
+2. <span data-ttu-id="07f45-136">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="07f45-136">Click New.</span></span>
+3. <span data-ttu-id="07f45-137">Dans le champ ID données principales d'audit, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="07f45-137">In the Audit master ID field, type a value.</span></span>
+4. <span data-ttu-id="07f45-138">Dans le champ Transporteur, sélectionnez le même transporteur que celui sélectionné précédemment.</span><span class="sxs-lookup"><span data-stu-id="07f45-138">In the Shipping carrier  field, select the same shipping carrier as you did earlier.</span></span>
+5. <span data-ttu-id="07f45-139">Dans le champ Type de facture des frais de transport, sélectionnez le type de facture des frais de transport que vous avez créé précédemment.</span><span class="sxs-lookup"><span data-stu-id="07f45-139">In the Freight bill type field, select the freight bill type that you created earlier.</span></span>
+6. <span data-ttu-id="07f45-140">Développez la section Tolérance.</span><span class="sxs-lookup"><span data-stu-id="07f45-140">Expand the Tolerance section.</span></span>
+7. <span data-ttu-id="07f45-141">Dans le champ Niveau de tolérance minimal, entrez un nombre.</span><span class="sxs-lookup"><span data-stu-id="07f45-141">In the Minimum tolerance level field, enter a number.</span></span>
+8. <span data-ttu-id="07f45-142">Dans le champ Niveau de tolérance maximal, entrez un nombre.</span><span class="sxs-lookup"><span data-stu-id="07f45-142">In the Maximum tolerance level field, enter a number.</span></span>
+9. <span data-ttu-id="07f45-143">Développez la section Résultat.</span><span class="sxs-lookup"><span data-stu-id="07f45-143">Expand the Result section.</span></span>
+10. <span data-ttu-id="07f45-144">Dans le champ Code motif du trop-perçu, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="07f45-144">In the Overpayment reason code field, enter or select a value.</span></span>
+    * <span data-ttu-id="07f45-145">Si les montants en devises diffèrent sur la facture des frais de transport et la facture du transporteur, les codes motif du trop-perçu/moins-perçu spécifient les comptes sur lesquels la différence doit être enregistrée, tant qu'elle entre dans les niveaux de tolérance.</span><span class="sxs-lookup"><span data-stu-id="07f45-145">If the monetary amounts differ on the freight bill and the carrier invoice, the overpayment and underpayment reason codes specify the accounts that the difference should be registered on, as long as the difference is within the tolerance levels.</span></span>  
+11. <span data-ttu-id="07f45-146">Dans le champ Code motif du moins-perçu, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="07f45-146">In the Underpayment reason code field, enter or select a value.</span></span>
+12. <span data-ttu-id="07f45-147">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="07f45-147">Close the page.</span></span>
 
 

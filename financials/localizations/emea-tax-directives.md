@@ -13,7 +13,7 @@ ms.reviewer: shylaw
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Latvia, Lithuania, Netherlands, Norway, Poland, Spain, Sweden, Switzerland, Turkey, United Kingdom
 ms.author: epodkolz
-ms.search.validFrom: 2017-06-30T00:00:00.000Z
+ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
 ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
@@ -23,10 +23,10 @@ ms.lasthandoff: 07/27/2017
 
 ---
 
-# <a name="tax-directives-for-europe"></a>Instructions relatives à la taxe pour Europe
-La Directive de l'UE prévoit une réglementation à suivre par tous les États membres en ce qui concerne les règles de facturation et les informations qui doivent être incluses lors de la création des factures. La Directive de l'UE énumère les informations requises par les fournisseurs pour leurs clients dans l'UE Par exemple, une facture peut inclure une référence qui décrit les raisons juridiques pour une catégorie de TVA à zéro ou une exonération. Si une facture règle une facture émise plus tôt, comme un avoir, une référence sans ambiguïté doit être faite à la facture d'origine.
+# <a name="tax-directives-for-europe"></a><span data-ttu-id="48a1b-104">Instructions relatives à la taxe pour Europe</span><span class="sxs-lookup"><span data-stu-id="48a1b-104">Tax directives for Europe</span></span>
+<span data-ttu-id="48a1b-105">La Directive de l'UE prévoit une réglementation à suivre par tous les États membres en ce qui concerne les règles de facturation et les informations qui doivent être incluses lors de la création des factures.</span><span class="sxs-lookup"><span data-stu-id="48a1b-105">EU Directive provides regulations to be followed by all Member States regarding invoice rules and information that must be included when creating invoices.</span></span> <span data-ttu-id="48a1b-106">La Directive de l'UE énumère les informations requises par les fournisseurs pour leurs clients dans l'UE</span><span class="sxs-lookup"><span data-stu-id="48a1b-106">EU Directive lists the information that is required by suppliers for their customers in the EU.</span></span> <span data-ttu-id="48a1b-107">Par exemple, une facture peut inclure une référence qui décrit les raisons juridiques pour une catégorie de TVA à zéro ou une exonération.</span><span class="sxs-lookup"><span data-stu-id="48a1b-107">For example, an invoice could include a reference that describes the legal grounds for a VAT zero-rating or an exemption.</span></span> <span data-ttu-id="48a1b-108">Si une facture règle une facture émise plus tôt, comme un avoir, une référence sans ambiguïté doit être faite à la facture d'origine.</span><span class="sxs-lookup"><span data-stu-id="48a1b-108">If an invoice adjusts an earlier issued invoice, such as a credit note, an unambiguous reference should be made to the original invoice.</span></span>
 
-- Pour imprimer une description de codes taxe sur une facture client, la facture financière ou l'état des factures du projet, paramétrez le texte de référence aux instructions relatives à la taxe sur les codes de taxe.
-- Pour les avoirs, le numéro et la date de la facture d'origine sont imprimés avec le motif de la correction.
+- <span data-ttu-id="48a1b-109">Pour imprimer une description de codes taxe sur une facture client, la facture financière ou l'état des factures du projet, paramétrez le texte de référence aux instructions relatives à la taxe sur les codes de taxe.</span><span class="sxs-lookup"><span data-stu-id="48a1b-109">To print a description of sales tax codes on a sales invoice, free text invoice, or project invoice report, set up the Tax Directive reference text on the sales tax codes.</span></span>
+- <span data-ttu-id="48a1b-110">Pour les avoirs, le numéro et la date de la facture d'origine sont imprimés avec le motif de la correction.</span><span class="sxs-lookup"><span data-stu-id="48a1b-110">For credit notes, the number and date of the original invoice are printed along with the reason for correction.</span></span>
 
 

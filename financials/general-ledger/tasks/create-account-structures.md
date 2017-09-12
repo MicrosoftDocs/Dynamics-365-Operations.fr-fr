@@ -16,69 +16,69 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: f831288866af0fbe731c40a7a25c871d4313f8b5
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 210bf36f0e989ce0e6ceda046f02d1091592a3c1
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-account-structures"></a>Créer des structures de compte
+# <a name="create-account-structures"></a><span data-ttu-id="00d9d-103">Créer des structures de compte</span><span class="sxs-lookup"><span data-stu-id="00d9d-103">Create account structures</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Ce guide accompagne l'utilisateur le long de la création d'une structure de compte. La société fictive USMF est citée en exemple dans les étapes.
+<span data-ttu-id="00d9d-104">Ce guide accompagne l'utilisateur le long de la création d'une structure de compte.</span><span class="sxs-lookup"><span data-stu-id="00d9d-104">This task guide steps through creating an account structure.</span></span> <span data-ttu-id="00d9d-105">La société fictive USMF est citée en exemple dans les étapes.</span><span class="sxs-lookup"><span data-stu-id="00d9d-105">The steps use demo data company USMF.</span></span>
 
-1. Accédez à Comptabilité > Plan de comptes > Structures > Configurer les structures de compte.
-2. Cliquez sur Nouveau pour ouvrir la boîte de dialogue.
-3. Dans le champ Structure de compte, entrez un nom pour décrire l'objectif de la structure de compte.
-4. Dans le champ Description, entrez une description pour préciser l'objectif de la structure de compte.
-5. Cliquez sur Créer.
-6. Cliquez sur Ajouter un segment.
-7. Dans la liste des dimensions répertoriez, sélectionnez la dimension à ajouter à la structure de compte.
-8. Cliquez sur Ajouter un segment.
-9. Cliquez sur Ajouter un segment.
-10. Dans la liste des dimensions répertoriez, sélectionnez la dimension à ajouter à la structure de compte.
-11. Cliquez sur Ajouter un segment.
-12. Cliquez sur Ajouter un segment.
-13. Dans la liste des dimensions répertoriez, sélectionnez la dimension à ajouter à la structure de compte.
-14. Cliquez sur Ajouter un segment.
-15. Dans la grille, sélectionnez le segment pour modifier les valeurs autorisées.
-    * Par exemple, cliquez dans le compte principal.  
-16. Dans le champ Opérateur, sélectionnez une option, comme Est compris entre et Comprend.
-17. Tapez une valeur dans le champ Valeur.
-    * Par exemple, 600000.  
-18. Dans le champ À, tapez une valeur.
-    * Par exemple, 699999.  
-19. Cliquez sur Appliquer.
-20. Dans la grille, sélectionnez le segment pour modifier les valeurs autorisées.
-    * Par exemple, Département.  
-21. Dans le champ Opérateur, sélectionnez une option, comme Est compris entre et Comprend.
-22. Tapez une valeur dans le champ Valeur.
-    * Par exemple, 022.  
-23. Dans le champ À, tapez une valeur.
-    * Par exemple, 031.  
-24. Cliquez sur Ajouter de nouveaux critères.
-25. Dans le champ Opérateur, sélectionnez une option, comme Est compris entre et Comprend.
-26. Tapez une valeur dans le champ Valeur.
-    * Par exemple, 033.  
-27. Dans le champ À, tapez une valeur.
-    * Par exemple, 034.  
-28. Cliquez sur Appliquer.
-29. Dans la grille, sélectionnez le segment pour modifier les valeurs autorisées.
-    * Par exemple, Centre de coût.  
-30. Dans le champ Centre de coût, tapez une valeur.
-    * Par exemple, 007..021.  
-31. Cliquez sur Ajouter.
-32. Dans le champ Compte principal, tapez une valeur.
-    * Par exemple, 600000..699999  
-33. Dans la grille, sélectionnez le segment pour modifier les valeurs autorisées.
-    * Par exemple, Département.  
-34. Dans le champ Département, tapez une valeur.
-    * Par exemple, 032.  
-35. Dans le champ Centre de coût, tapez une valeur.
-    * Par exemple, 086.  
-36. Cliquez sur Valider.
-37. Cliquez sur Activer.
-38. Cliquez sur Activer.
+1. <span data-ttu-id="00d9d-106">Accédez à Comptabilité > Plan de comptes > Structures > Configurer les structures de compte.</span><span class="sxs-lookup"><span data-stu-id="00d9d-106">Go to General ledger > Chart of accounts > Structures > Configure account structures.</span></span>
+2. <span data-ttu-id="00d9d-107">Cliquez sur Nouveau pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="00d9d-107">Click New to open the drop dialog.</span></span>
+3. <span data-ttu-id="00d9d-108">Dans le champ Structure de compte, entrez un nom pour décrire l'objectif de la structure de compte.</span><span class="sxs-lookup"><span data-stu-id="00d9d-108">In the Account structure field, type a name to describe the purpose of the account structure.</span></span>
+4. <span data-ttu-id="00d9d-109">Dans le champ Description, entrez une description pour préciser l'objectif de la structure de compte.</span><span class="sxs-lookup"><span data-stu-id="00d9d-109">In the Description field, type a description to specify the purpose of the account structure.</span></span>
+5. <span data-ttu-id="00d9d-110">Cliquez sur Créer.</span><span class="sxs-lookup"><span data-stu-id="00d9d-110">Click Create.</span></span>
+6. <span data-ttu-id="00d9d-111">Cliquez sur Ajouter un segment.</span><span class="sxs-lookup"><span data-stu-id="00d9d-111">Click Add segment.</span></span>
+7. <span data-ttu-id="00d9d-112">Dans la liste des dimensions répertoriez, sélectionnez la dimension à ajouter à la structure de compte.</span><span class="sxs-lookup"><span data-stu-id="00d9d-112">In the Dimensions list, select the dimension to add to the account structure.</span></span>
+8. <span data-ttu-id="00d9d-113">Cliquez sur Ajouter un segment.</span><span class="sxs-lookup"><span data-stu-id="00d9d-113">Click Add segment.</span></span>
+9. <span data-ttu-id="00d9d-114">Cliquez sur Ajouter un segment.</span><span class="sxs-lookup"><span data-stu-id="00d9d-114">Click Add segment.</span></span>
+10. <span data-ttu-id="00d9d-115">Dans la liste des dimensions répertoriez, sélectionnez la dimension à ajouter à la structure de compte.</span><span class="sxs-lookup"><span data-stu-id="00d9d-115">In the Dimensions list, select the dimension to add to the account structure.</span></span>
+11. <span data-ttu-id="00d9d-116">Cliquez sur Ajouter un segment.</span><span class="sxs-lookup"><span data-stu-id="00d9d-116">Click Add segment.</span></span>
+12. <span data-ttu-id="00d9d-117">Cliquez sur Ajouter un segment.</span><span class="sxs-lookup"><span data-stu-id="00d9d-117">Click Add segment.</span></span>
+13. <span data-ttu-id="00d9d-118">Dans la liste des dimensions répertoriez, sélectionnez la dimension à ajouter à la structure de compte.</span><span class="sxs-lookup"><span data-stu-id="00d9d-118">In the Dimensions list, select the dimension to add to the account structure.</span></span>
+14. <span data-ttu-id="00d9d-119">Cliquez sur Ajouter un segment.</span><span class="sxs-lookup"><span data-stu-id="00d9d-119">Click Add segment.</span></span>
+15. <span data-ttu-id="00d9d-120">Dans la grille, sélectionnez le segment pour modifier les valeurs autorisées.</span><span class="sxs-lookup"><span data-stu-id="00d9d-120">In the grid, select the segment to edit the allowed values.</span></span>
+    * <span data-ttu-id="00d9d-121">Par exemple, cliquez dans le compte principal.</span><span class="sxs-lookup"><span data-stu-id="00d9d-121">For example, click in Main Account.</span></span>  
+16. <span data-ttu-id="00d9d-122">Dans le champ Opérateur, sélectionnez une option, comme Est compris entre et Comprend.</span><span class="sxs-lookup"><span data-stu-id="00d9d-122">In the Operator field, select an option, such as is between and includes.</span></span>
+17. <span data-ttu-id="00d9d-123">Tapez une valeur dans le champ Valeur.</span><span class="sxs-lookup"><span data-stu-id="00d9d-123">In the Value field, type a value.</span></span>
+    * <span data-ttu-id="00d9d-124">Par exemple, 600000.</span><span class="sxs-lookup"><span data-stu-id="00d9d-124">For example, 600000.</span></span>  
+18. <span data-ttu-id="00d9d-125">Dans le champ À, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="00d9d-125">In the through field, type a value.</span></span>
+    * <span data-ttu-id="00d9d-126">Par exemple, 699999.</span><span class="sxs-lookup"><span data-stu-id="00d9d-126">For example, 699999.</span></span>  
+19. <span data-ttu-id="00d9d-127">Cliquez sur Appliquer.</span><span class="sxs-lookup"><span data-stu-id="00d9d-127">Click Apply.</span></span>
+20. <span data-ttu-id="00d9d-128">Dans la grille, sélectionnez le segment pour modifier les valeurs autorisées.</span><span class="sxs-lookup"><span data-stu-id="00d9d-128">In the grid, select the segment to edit the allowed values.</span></span>
+    * <span data-ttu-id="00d9d-129">Par exemple, Département.</span><span class="sxs-lookup"><span data-stu-id="00d9d-129">For example, Department.</span></span>  
+21. <span data-ttu-id="00d9d-130">Dans le champ Opérateur, sélectionnez une option, comme Est compris entre et Comprend.</span><span class="sxs-lookup"><span data-stu-id="00d9d-130">In the Operator field, select an option, such as is between and includes.</span></span>
+22. <span data-ttu-id="00d9d-131">Tapez une valeur dans le champ Valeur.</span><span class="sxs-lookup"><span data-stu-id="00d9d-131">In the Value field, type a value.</span></span>
+    * <span data-ttu-id="00d9d-132">Par exemple, 022.</span><span class="sxs-lookup"><span data-stu-id="00d9d-132">For example, 022.</span></span>  
+23. <span data-ttu-id="00d9d-133">Dans le champ À, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="00d9d-133">In the through field, type a value.</span></span>
+    * <span data-ttu-id="00d9d-134">Par exemple, 031.</span><span class="sxs-lookup"><span data-stu-id="00d9d-134">For example, 031.</span></span>  
+24. <span data-ttu-id="00d9d-135">Cliquez sur Ajouter de nouveaux critères.</span><span class="sxs-lookup"><span data-stu-id="00d9d-135">Click Add new criteria.</span></span>
+25. <span data-ttu-id="00d9d-136">Dans le champ Opérateur, sélectionnez une option, comme Est compris entre et Comprend.</span><span class="sxs-lookup"><span data-stu-id="00d9d-136">In the Operator field, select an option, such as is between and includes.</span></span>
+26. <span data-ttu-id="00d9d-137">Tapez une valeur dans le champ Valeur.</span><span class="sxs-lookup"><span data-stu-id="00d9d-137">In the Value field, type a value.</span></span>
+    * <span data-ttu-id="00d9d-138">Par exemple, 033.</span><span class="sxs-lookup"><span data-stu-id="00d9d-138">For example, 033.</span></span>  
+27. <span data-ttu-id="00d9d-139">Dans le champ À, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="00d9d-139">In the through field, type a value.</span></span>
+    * <span data-ttu-id="00d9d-140">Par exemple, 034.</span><span class="sxs-lookup"><span data-stu-id="00d9d-140">For example, 034.</span></span>  
+28. <span data-ttu-id="00d9d-141">Cliquez sur Appliquer.</span><span class="sxs-lookup"><span data-stu-id="00d9d-141">Click Apply.</span></span>
+29. <span data-ttu-id="00d9d-142">Dans la grille, sélectionnez le segment pour modifier les valeurs autorisées.</span><span class="sxs-lookup"><span data-stu-id="00d9d-142">In the grid, select the segment to edit the allowed values.</span></span>
+    * <span data-ttu-id="00d9d-143">Par exemple, Centre de coût.</span><span class="sxs-lookup"><span data-stu-id="00d9d-143">For example, Cost Center.</span></span>  
+30. <span data-ttu-id="00d9d-144">Dans le champ Centre de coût, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="00d9d-144">In the CostCenter field, type a value.</span></span>
+    * <span data-ttu-id="00d9d-145">Par exemple, 007..021.</span><span class="sxs-lookup"><span data-stu-id="00d9d-145">For example, 007..021.</span></span>  
+31. <span data-ttu-id="00d9d-146">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="00d9d-146">Click Add.</span></span>
+32. <span data-ttu-id="00d9d-147">Dans le champ Compte principal, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="00d9d-147">In the MainAccount field, type a value.</span></span>
+    * <span data-ttu-id="00d9d-148">Par exemple, 600000..699999</span><span class="sxs-lookup"><span data-stu-id="00d9d-148">For example, 600000..699999</span></span>  
+33. <span data-ttu-id="00d9d-149">Dans la grille, sélectionnez le segment pour modifier les valeurs autorisées.</span><span class="sxs-lookup"><span data-stu-id="00d9d-149">In the grid, select the segment to edit the allowed values.</span></span>
+    * <span data-ttu-id="00d9d-150">Par exemple, Département.</span><span class="sxs-lookup"><span data-stu-id="00d9d-150">For example, Department.</span></span>  
+34. <span data-ttu-id="00d9d-151">Dans le champ Département, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="00d9d-151">In the Department field, type a value.</span></span>
+    * <span data-ttu-id="00d9d-152">Par exemple, 032.</span><span class="sxs-lookup"><span data-stu-id="00d9d-152">For example, 032.</span></span>  
+35. <span data-ttu-id="00d9d-153">Dans le champ Centre de coût, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="00d9d-153">In the CostCenter field, type a value.</span></span>
+    * <span data-ttu-id="00d9d-154">Par exemple, 086.</span><span class="sxs-lookup"><span data-stu-id="00d9d-154">For example, 086.</span></span>  
+36. <span data-ttu-id="00d9d-155">Cliquez sur Valider.</span><span class="sxs-lookup"><span data-stu-id="00d9d-155">Click Validate.</span></span>
+37. <span data-ttu-id="00d9d-156">Cliquez sur Activer.</span><span class="sxs-lookup"><span data-stu-id="00d9d-156">Click Activate.</span></span>
+38. <span data-ttu-id="00d9d-157">Cliquez sur Activer.</span><span class="sxs-lookup"><span data-stu-id="00d9d-157">Click Activate.</span></span>
 
 

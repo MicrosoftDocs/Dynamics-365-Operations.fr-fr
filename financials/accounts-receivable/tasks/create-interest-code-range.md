@@ -14,41 +14,41 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
+ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: fef4db5a3e109aa197d28cc4bbc582c03cf26c15
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 05ca41dd5d660e9f0ef72ee5bd49d800645081a5
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-an-interest-code-with-a-range"></a>Créer un code intérêt avec une plage
+# <a name="create-an-interest-code-with-a-range"></a><span data-ttu-id="86e95-103">Créer un code intérêt avec une plage</span><span class="sxs-lookup"><span data-stu-id="86e95-103">Create an interest code with a range</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Vous pouvez paramétrer les codes intérêt de sorte à calculer différents montants d'intérêt en fonction d'une plage de valeurs. Cette procédure vous indique comment ajouter un code intérêt et ajouter une plage à celui-ci.
+<span data-ttu-id="86e95-104">Vous pouvez paramétrer les codes intérêt de sorte à calculer différents montants d'intérêt en fonction d'une plage de valeurs.</span><span class="sxs-lookup"><span data-stu-id="86e95-104">Interest codes can be set up to calculate different interest amounts based on a range of values.</span></span> <span data-ttu-id="86e95-105">Cette procédure vous indique comment ajouter un code intérêt et ajouter une plage à celui-ci.</span><span class="sxs-lookup"><span data-stu-id="86e95-105">This procedure will show you how to add an interest code and add a range to it.</span></span>
 
-1. Accédez à Crédit et relances > Intérêts > Paramétrer les codes intérêt.
-2. Cliquez sur Nouveau.
-3. Dans le champ Code intérêt, entrez le nom du code intérêt.
-4. Dans le champ Description, entrez une description du code intérêt.
-5. Sélectionnez un mois.
-6. Développez la section Bénéfices.
-7. Développez la section Bénéfices par devise.
-8. Dans le champ Compte général de validation, indiquez les valeurs souhaitées.
-9. Dans le champ Intérêts par tranche, sélectionnez « Mois ».
-10. Cliquez sur Ajouter.
-11. Dans le champ Description, entrez une description cette devise et cette plage.
-12. Cliquez sur Enregistrer.
-13. Cliquez sur Plages.
-14. Cliquez sur Nouveau.
-15. Spécifiez 0 pour la valeur De, puis entrez le pourcentage d'intérêt par mois qui sera utilisé pour calculer les intérêts. Dans notre exemple, la valeur est 1,5.
-16. Cliquez sur Nouveau.
-17. Spécifiez 4 pour la valeur suivante, ce qui correspond au premier mois où vous calculerez un nouveau montant des intérêts.
-18. Spécifiez le pourcentage d'intérêt par mois qui sera utilisé pour calculer les intérêts à partir du mois 4. Dans notre exemple, la valeur est 2,0.
-19. Cliquez sur Nouveau.
-20. Spécifiez 7 pour la valeur suivante, ce qui correspond au prochain mois où vous calculerez un nouveau montant des intérêts.
-21. Spécifiez le pourcentage d'intérêt par mois qui sera utilisé pour calculer les intérêts à partir du mois 7. Dans notre exemple, la valeur est 2,5.
-22. Cliquez sur Fermer pour terminer le paramétrage.
+1. <span data-ttu-id="86e95-106">Accédez à Crédit et relances > Intérêts > Paramétrer les codes intérêt.</span><span class="sxs-lookup"><span data-stu-id="86e95-106">Go to Credit and collections > Interest > Set up interest codes.</span></span>
+2. <span data-ttu-id="86e95-107">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="86e95-107">Click New.</span></span>
+3. <span data-ttu-id="86e95-108">Dans le champ Code intérêt, entrez le nom du code intérêt.</span><span class="sxs-lookup"><span data-stu-id="86e95-108">In the Interest code field, enter the name of the interest code.</span></span>
+4. <span data-ttu-id="86e95-109">Dans le champ Description, entrez une description du code intérêt.</span><span class="sxs-lookup"><span data-stu-id="86e95-109">In the Description field, enter a description for the interest code.</span></span>
+5. <span data-ttu-id="86e95-110">Sélectionnez un mois.</span><span class="sxs-lookup"><span data-stu-id="86e95-110">Select Month.</span></span>
+6. <span data-ttu-id="86e95-111">Développez la section Bénéfices.</span><span class="sxs-lookup"><span data-stu-id="86e95-111">Expand the Earnings section.</span></span>
+7. <span data-ttu-id="86e95-112">Développez la section Bénéfices par devise.</span><span class="sxs-lookup"><span data-stu-id="86e95-112">Expand the Earnings by currency section.</span></span>
+8. <span data-ttu-id="86e95-113">Dans le champ Compte général de validation, indiquez les valeurs souhaitées.</span><span class="sxs-lookup"><span data-stu-id="86e95-113">In the Ledger posting account field, specify the desired values.</span></span>
+9. <span data-ttu-id="86e95-114">Dans le champ Intérêts par tranche, sélectionnez « Mois ».</span><span class="sxs-lookup"><span data-stu-id="86e95-114">In the Interest by range field, select 'Months'.</span></span>
+10. <span data-ttu-id="86e95-115">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="86e95-115">Click Add.</span></span>
+11. <span data-ttu-id="86e95-116">Dans le champ Description, entrez une description cette devise et cette plage.</span><span class="sxs-lookup"><span data-stu-id="86e95-116">In the Description field, enter a description for this currency and range.</span></span>
+12. <span data-ttu-id="86e95-117">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="86e95-117">Click Save.</span></span>
+13. <span data-ttu-id="86e95-118">Cliquez sur Plages.</span><span class="sxs-lookup"><span data-stu-id="86e95-118">Click Ranges.</span></span>
+14. <span data-ttu-id="86e95-119">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="86e95-119">Click New.</span></span>
+15. <span data-ttu-id="86e95-120">Spécifiez 0 pour la valeur De, puis entrez le pourcentage d'intérêt par mois qui sera utilisé pour calculer les intérêts.</span><span class="sxs-lookup"><span data-stu-id="86e95-120">Enter the From value as 0 and then enter the interest percent per month that will be used to calculate the interest.</span></span> <span data-ttu-id="86e95-121">Dans notre exemple, la valeur est 1,5.</span><span class="sxs-lookup"><span data-stu-id="86e95-121">For our example, it is 1.5.</span></span>
+16. <span data-ttu-id="86e95-122">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="86e95-122">Click New.</span></span>
+17. <span data-ttu-id="86e95-123">Spécifiez 4 pour la valeur suivante, ce qui correspond au premier mois où vous calculerez un nouveau montant des intérêts.</span><span class="sxs-lookup"><span data-stu-id="86e95-123">Enter the next From value as 4, which is the first month that you will be calculating a new interest amount.</span></span>
+18. <span data-ttu-id="86e95-124">Spécifiez le pourcentage d'intérêt par mois qui sera utilisé pour calculer les intérêts à partir du mois 4.</span><span class="sxs-lookup"><span data-stu-id="86e95-124">Enter the interest percent per month that will be used to calculate the interest starting in month 4.</span></span> <span data-ttu-id="86e95-125">Dans notre exemple, la valeur est 2,0.</span><span class="sxs-lookup"><span data-stu-id="86e95-125">For this example, it is 2.0.</span></span>
+19. <span data-ttu-id="86e95-126">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="86e95-126">Click New.</span></span>
+20. <span data-ttu-id="86e95-127">Spécifiez 7 pour la valeur suivante, ce qui correspond au prochain mois où vous calculerez un nouveau montant des intérêts.</span><span class="sxs-lookup"><span data-stu-id="86e95-127">Enter the next From value as 7, which is the next month that you will be calculating a new interest amount.</span></span>
+21. <span data-ttu-id="86e95-128">Spécifiez le pourcentage d'intérêt par mois qui sera utilisé pour calculer les intérêts à partir du mois 7.</span><span class="sxs-lookup"><span data-stu-id="86e95-128">Enter the interest percent per month that will be used to calculate the interest starting in month 7.</span></span> <span data-ttu-id="86e95-129">Dans notre exemple, la valeur est 2,5.</span><span class="sxs-lookup"><span data-stu-id="86e95-129">For this example, it is 2.5.</span></span>
+22. <span data-ttu-id="86e95-130">Cliquez sur Fermer pour terminer le paramétrage.</span><span class="sxs-lookup"><span data-stu-id="86e95-130">Click Close to complete the setup.</span></span>
 
 

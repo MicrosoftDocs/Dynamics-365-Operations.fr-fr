@@ -15,84 +15,84 @@ ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: bis
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
+ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: eec121859b7135741ccf204fd507ef0790f1c8d4
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: e27be049bebd63c9266029b8981874417a9f0a8c
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-shipping-carriers"></a>Paramétrage des transporteurs
+# <a name="set-up-shipping-carriers"></a><span data-ttu-id="426aa-103">Paramétrage des transporteurs</span><span class="sxs-lookup"><span data-stu-id="426aa-103">Set up shipping carriers</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Cette procédure décrit comment paramétrer un transporteur et définir des détails tels que le service, le mode d'expédition, l'offre de transport, les contraintes de transport, et les frais de livraison. Un coordinateur de transport pourra ensuite affecter un transporteur à une charge entrante ou sortante.
+<span data-ttu-id="426aa-104">Cette procédure décrit comment paramétrer un transporteur et définir des détails tels que le service, le mode d'expédition, l'offre de transport, les contraintes de transport, et les frais de livraison.</span><span class="sxs-lookup"><span data-stu-id="426aa-104">This procedure shows how to set up a shipping carrier and define details such as service, shipment mode, transportation tender, transportation constraints, and shipping rate.</span></span> <span data-ttu-id="426aa-105">Un coordinateur de transport pourra ensuite affecter un transporteur à une charge entrante ou sortante.</span><span class="sxs-lookup"><span data-stu-id="426aa-105">A transportation coordinator can then assign a shipping carrier to an inbound or outbound load.</span></span>
 
 
-## <a name="create-a-new-shipping-carrier"></a>Créer un transporteur
-1. Accédez à Gestion du transport > Paramétrage > Transporteurs > Transporteurs.
-2. Cliquez sur Nouveau.
-3. Tapez une valeur dans le champ Transporteur.
-4. Tapez une valeur dans le champ Nom.
-5. Dans le champ Mode, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-6. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-7. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
+## <a name="create-a-new-shipping-carrier"></a><span data-ttu-id="426aa-106">Créer un transporteur</span><span class="sxs-lookup"><span data-stu-id="426aa-106">Create a new shipping carrier</span></span>
+1. <span data-ttu-id="426aa-107">Accédez à Gestion du transport > Paramétrage > Transporteurs > Transporteurs.</span><span class="sxs-lookup"><span data-stu-id="426aa-107">Go to Transportation management > Setup > Carriers > Shipping carriers.</span></span>
+2. <span data-ttu-id="426aa-108">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="426aa-108">Click New.</span></span>
+3. <span data-ttu-id="426aa-109">Tapez une valeur dans le champ Transporteur.</span><span class="sxs-lookup"><span data-stu-id="426aa-109">In the Shipping carrier field, type a value.</span></span>
+4. <span data-ttu-id="426aa-110">Tapez une valeur dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="426aa-110">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="426aa-111">Dans le champ Mode, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="426aa-111">In the Mode field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="426aa-112">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="426aa-112">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="426aa-113">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="426aa-113">In the list, click the link in the selected row.</span></span>
 
-## <a name="fill-in-the-general-information-for-the-shipping-carrier"></a>Renseigner les informations générales du transporteur
-1. Activez ou désactivez l'extension de la section Vue d'ensemble.
-2. Activez ou désactivez la case à cocher Activation du transporteur.
-3. Dans le champ Fournisseur, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-    * Sélectionnez le compte fournisseur à affecter au transporteur.  
-4. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-5. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-6. Sélectionnez une option dans le champ Type d'offre de transport.
-    * Sélectionnez Manuel pour utiliser la page Offre de transport ou sélectionnez EDI pour mettre à jour l'offre à l'aide de l'échange de données informatisé (EDI).  
-7. Activez ou désactivez la case à cocher Activer le classement du transporteur.
+## <a name="fill-in-the-general-information-for-the-shipping-carrier"></a><span data-ttu-id="426aa-114">Renseigner les informations générales du transporteur</span><span class="sxs-lookup"><span data-stu-id="426aa-114">Fill in the general information for the shipping carrier</span></span>
+1. <span data-ttu-id="426aa-115">Activez ou désactivez l'extension de la section Vue d'ensemble.</span><span class="sxs-lookup"><span data-stu-id="426aa-115">Toggle the expansion of the Overview section.</span></span>
+2. <span data-ttu-id="426aa-116">Activez ou désactivez la case à cocher Activation du transporteur.</span><span class="sxs-lookup"><span data-stu-id="426aa-116">Check or uncheck the Activate shipping carrier checkbox.</span></span>
+3. <span data-ttu-id="426aa-117">Dans le champ Fournisseur, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="426aa-117">In the Vendor field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="426aa-118">Sélectionnez le compte fournisseur à affecter au transporteur.</span><span class="sxs-lookup"><span data-stu-id="426aa-118">Select the vendor account to assign the shipping carrier to.</span></span>  
+4. <span data-ttu-id="426aa-119">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="426aa-119">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="426aa-120">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="426aa-120">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="426aa-121">Sélectionnez une option dans le champ Type d'offre de transport.</span><span class="sxs-lookup"><span data-stu-id="426aa-121">In the Transportation tender type field, select an option.</span></span>
+    * <span data-ttu-id="426aa-122">Sélectionnez Manuel pour utiliser la page Offre de transport ou sélectionnez EDI pour mettre à jour l'offre à l'aide de l'échange de données informatisé (EDI).</span><span class="sxs-lookup"><span data-stu-id="426aa-122">Select Manual to use the Transportation Tender page, or select EDI to update the tender by using Electronic Data Interchange (EDI).</span></span>  
+7. <span data-ttu-id="426aa-123">Activez ou désactivez la case à cocher Activer le classement du transporteur.</span><span class="sxs-lookup"><span data-stu-id="426aa-123">Check or uncheck the Activate carrier rating checkbox.</span></span>
 
-## <a name="create-the-necessary-services-for-the-shipping-carrier"></a>Créer les services nécessaires pour le transporteur
-1. Activez ou désactivez l'extension de la section Services.
-2. Cliquez sur Nouveau.
-3. Dans la liste, marquez la ligne sélectionnée.
-4. Tapez une valeur dans le champ Service de transporteur.
-5. Tapez une valeur dans le champ Nom.
-6. Dans le champ Mode de transport, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-7. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-8. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
+## <a name="create-the-necessary-services-for-the-shipping-carrier"></a><span data-ttu-id="426aa-124">Créer les services nécessaires pour le transporteur</span><span class="sxs-lookup"><span data-stu-id="426aa-124">Create the necessary services for the shipping carrier</span></span>
+1. <span data-ttu-id="426aa-125">Activez ou désactivez l'extension de la section Services.</span><span class="sxs-lookup"><span data-stu-id="426aa-125">Toggle the expansion of the Services section.</span></span>
+2. <span data-ttu-id="426aa-126">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="426aa-126">Click New.</span></span>
+3. <span data-ttu-id="426aa-127">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="426aa-127">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="426aa-128">Tapez une valeur dans le champ Service de transporteur.</span><span class="sxs-lookup"><span data-stu-id="426aa-128">In the Carrier service field, type a value.</span></span>
+5. <span data-ttu-id="426aa-129">Tapez une valeur dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="426aa-129">In the Name field, type a value.</span></span>
+6. <span data-ttu-id="426aa-130">Dans le champ Mode de transport, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="426aa-130">In the Transportation method field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="426aa-131">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="426aa-131">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="426aa-132">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="426aa-132">In the list, click the link in the selected row.</span></span>
 
-## <a name="set-up-the-address-for-the-carrier-optional"></a>Paramétrer l'adresse du transporteur (facultatif)
-1. Activez ou désactivez l'extension de la section Adresses.
-2. Cliquez sur Nouveau.
-3. Tapez une valeur dans le champ Nom ou description.
-4. Dans le champ Pays/Région, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-5. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-6. Dans le champ Code postal, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-7. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-8. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-9. Tapez une valeur dans le champ Rue.
-10. Cliquez sur OK.
+## <a name="set-up-the-address-for-the-carrier-optional"></a><span data-ttu-id="426aa-133">Paramétrer l'adresse du transporteur (facultatif)</span><span class="sxs-lookup"><span data-stu-id="426aa-133">Set up the address for the carrier (optional)</span></span>
+1. <span data-ttu-id="426aa-134">Activez ou désactivez l'extension de la section Adresses.</span><span class="sxs-lookup"><span data-stu-id="426aa-134">Toggle the expansion of the Addresses section.</span></span>
+2. <span data-ttu-id="426aa-135">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="426aa-135">Click New.</span></span>
+3. <span data-ttu-id="426aa-136">Tapez une valeur dans le champ Nom ou description.</span><span class="sxs-lookup"><span data-stu-id="426aa-136">In the Name or description field, type a value.</span></span>
+4. <span data-ttu-id="426aa-137">Dans le champ Pays/Région, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="426aa-137">In the Country/region field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="426aa-138">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="426aa-138">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="426aa-139">Dans le champ Code postal, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="426aa-139">In the ZIP/postal code field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="426aa-140">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="426aa-140">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="426aa-141">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="426aa-141">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="426aa-142">Tapez une valeur dans le champ Rue.</span><span class="sxs-lookup"><span data-stu-id="426aa-142">In the Street field, type a value.</span></span>
+10. <span data-ttu-id="426aa-143">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="426aa-143">Click OK.</span></span>
 
-## <a name="set-up-the-rating-profile-for-the-shipping-carrier"></a>Paramétrer le profil de classement du transporteur
-1. Activez ou désactivez l'extension de la section Profils de classement.
-2. Cliquez sur Nouveau.
-3. Dans la liste, marquer la ligne sélectionnée.
-4. Tapez une valeur dans le champ Profil de classement.
-5. Tapez une valeur dans le champ Nom.
-6. Dans le champ Site, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-7. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-8. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-9. Dans le champ Entrepôt, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-10. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-11. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-12. Dans le champ Moteur de taux, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-    * Sélectionnez le moteur de frais correspondant au contrat que vous avez avec le transporteur.  
-13. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-14. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-15. Dans le champ Données principales du taux, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-16. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-17. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-18. Dans le champ Moteur de temps de transit, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-19. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-20. Cliquez sur Enregistrer.
+## <a name="set-up-the-rating-profile-for-the-shipping-carrier"></a><span data-ttu-id="426aa-144">Paramétrer le profil de classement du transporteur</span><span class="sxs-lookup"><span data-stu-id="426aa-144">Set up the rating profile for the shipping carrier</span></span>
+1. <span data-ttu-id="426aa-145">Activez ou désactivez l'extension de la section Profils de classement.</span><span class="sxs-lookup"><span data-stu-id="426aa-145">Toggle the expansion of the Rating profiles section.</span></span>
+2. <span data-ttu-id="426aa-146">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="426aa-146">Click New.</span></span>
+3. <span data-ttu-id="426aa-147">Dans la liste, marquer la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="426aa-147">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="426aa-148">Tapez une valeur dans le champ Profil de classement.</span><span class="sxs-lookup"><span data-stu-id="426aa-148">In the Rating profile field, type a value.</span></span>
+5. <span data-ttu-id="426aa-149">Tapez une valeur dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="426aa-149">In the Name field, type a value.</span></span>
+6. <span data-ttu-id="426aa-150">Dans le champ Site, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="426aa-150">In the Site field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="426aa-151">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="426aa-151">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="426aa-152">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="426aa-152">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="426aa-153">Dans le champ Entrepôt, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="426aa-153">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
+10. <span data-ttu-id="426aa-154">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="426aa-154">In the list, find and select the desired record.</span></span>
+11. <span data-ttu-id="426aa-155">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="426aa-155">In the list, click the link in the selected row.</span></span>
+12. <span data-ttu-id="426aa-156">Dans le champ Moteur de taux, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="426aa-156">In the Rate engine field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="426aa-157">Sélectionnez le moteur de frais correspondant au contrat que vous avez avec le transporteur.</span><span class="sxs-lookup"><span data-stu-id="426aa-157">Select the Rate engine that is in accordance with the contract that you have with the carrier.</span></span>  
+13. <span data-ttu-id="426aa-158">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="426aa-158">In the list, find and select the desired record.</span></span>
+14. <span data-ttu-id="426aa-159">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="426aa-159">In the list, click the link in the selected row.</span></span>
+15. <span data-ttu-id="426aa-160">Dans le champ Données principales du taux, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="426aa-160">In the Rate master field, click the drop-down button to open the lookup.</span></span>
+16. <span data-ttu-id="426aa-161">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="426aa-161">In the list, find and select the desired record.</span></span>
+17. <span data-ttu-id="426aa-162">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="426aa-162">In the list, click the link in the selected row.</span></span>
+18. <span data-ttu-id="426aa-163">Dans le champ Moteur de temps de transit, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="426aa-163">In the Transit time engine field, click the drop-down button to open the lookup.</span></span>
+19. <span data-ttu-id="426aa-164">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="426aa-164">In the list, click the link in the selected row.</span></span>
+20. <span data-ttu-id="426aa-165">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="426aa-165">Click Save.</span></span>
 
 

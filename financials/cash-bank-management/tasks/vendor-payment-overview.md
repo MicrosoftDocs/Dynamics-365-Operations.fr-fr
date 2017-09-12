@@ -16,65 +16,65 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 44b7c02e7c238dcea83c5900620731a7befbbb42
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 020d147744df24b2065e66e5fc68ed5d5479127b
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="vendor-payment-overview"></a>Vue d'ensemble des paiements fournisseurs
+# <a name="vendor-payment-overview"></a><span data-ttu-id="0cd3e-103">Vue d'ensemble des paiements fournisseurs</span><span class="sxs-lookup"><span data-stu-id="0cd3e-103">Vendor payment overview</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Ce guide de tâche décrit diverses méthodes permettent de créer des paiements fournisseurs, notamment l'utilisation d'une proposition de paiement ou la saisie manuelle d'un paiement unique. La société fictive USMF sert d'exemple dans cette procédure.
+<span data-ttu-id="0cd3e-104">Ce guide de tâche décrit diverses méthodes permettent de créer des paiements fournisseurs, notamment l'utilisation d'une proposition de paiement ou la saisie manuelle d'un paiement unique.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-104">This task guide will walk you through various methods used to create vendor payments, including how to use a payment proposal or manually entering a one-off payment.</span></span> <span data-ttu-id="0cd3e-105">La société fictive USMF sert d'exemple dans cette procédure.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-105">This procedure uses the USMF demo company.</span></span>
 
-1. Accédez à Comptabilité fournisseur > Paiements > Journal des paiements.
-2. Cliquez sur Nouveau.
-3. Sélectionnez le journal des paiements dans lequel enregistrer les paiements fournisseurs. 
-4. Sélectionnez le journal ou entrez-le manuellement.
-5. Cliquez sur Lignes.
-6. Cliquez sur Proposition de paiement.
-7. Cliquez sur Créer une proposition de paiement.
-    * La proposition de paiement est une requête utilisée pour sélectionner des factures pour le paiement. Vous pouvez modifier la liste des factures à payer avant de créer ou de générer des paiements fournisseurs.  
-8. Sélectionnez les factures du paiement par date d'échéance, escompte de règlement ou les deux. 
-9. Entrez la date (pour la comparer à la date d'échéance) ou l'escompte de règlement. 
-10. Facultatif : entrez une date de paiement utilisée pour tous les paiements.
-    * La date entrée ici est la date de paiement pour tous les paiements créés, indépendamment de la date d'échéance ou d'escompte de règlement.  
-11. Facultatif : entrez une date de paiement minimale qui peut être utilisée comme date de paiement.
-    * La date de paiement minimale est la date la plus proche utilisée lorsque vous créez des paiements. Par exemple, si une facture a une date d'échéance après la date de paiement minimale, la date d'échéance deviendra la date de paiement au lieu de la date de paiement minimale afin de payer la facture le dernier jour possible.  
-12. Entrez des restrictions de requête supplémentaires dans Enregistrements à inclure.
-    * Le filtre est souvent utilisé pour limiter les factures sélectionnées pour le paiement par groupe de fournisseurs ou par mode de paiement. Par exemple, vous pouvez ajouter un filtre uniquement aux factures de salaire par chèque dans ce cycle de paie.  
-13. Entrez des restrictions de requête ou des valeurs de paiement par défaut supplémentaires. 
-    * Les paramètres supplémentaires peuvent être utilisés pour définir la devise de paiement ou pour activer les paiements centralisés pour ce cycle de paie.  
-14. Cliquez sur OK.
-    * Après avoir cliqué sur OK, les résultats de la requête s'affichent. Si vous ne souhaitez pas afficher un aperçu de la liste des factures sélectionnées à payer, vous pouvez revenir à l'onglet Paramètre et modifier le paramètre Création de paiements sans Aperçu de facture = Oui.  
-15. Choisissez le bouton Afficher la vue d'ensemble du paiement pour afficher les paiements qui seront créés pour le fournisseur sur la facture sélectionnée.
-16. Choisissez le bouton Masquer la vue d'ensemble du paiement pour masquer les paiements. 
-17. Cliquez sur Créer des paiements.
-    * Avant de choisir Créer des paiements, vous pouvez cliquer avec le bouton droit dans la grille et exporter la liste des factures vers Excel. Le bouton Créer des paiements crée les paiements fournisseurs dans le journal des paiements.  
-18. Numérisez les paiements et vérifiez que le mode de paiement est défini pour tous les paiements. 
-    * Si vous générez les paiements (impression d'un chèque ou création d'un paiement électronique), le mode de paiement doit être défini. Le mode de paiement prendra également par défaut le compte bancaire à partir duquel le paiement est effectué.  
-19. Cliquez sur Nouveau pour créer un paiement unique.
-    * Un paiement unique peut être ajouté à un journal des paiements à tout moment avant la validation. Cela est effectué en cliquant sur le bouton Nouveau et en ajoutant les informations de paiement manuellement, plutôt que via la proposition de paiement.  
-20. Sélectionnez le fournisseur auquel le paiement sera effectué.
-21. Si une facture doit être payée, sélectionnez Régler les transactions pour sélectionner la facture pour le paiement.
-    * S'il s'agit d'un acompte, cette étape est facultative. Vous pouvez créer le paiement sans sélectionner de facture.  
-22. Marquez toutes les factures qui seront payées.
-    * Si vous utilisez Régler les transactions pour sélectionner des factures pour le paiement, le montant du paiement est automatiquement calculé en fonction des factures marquées pour le paiement et du montant que vous entrez dans le montant à régler.  
-23. Cliquez sur OK.
-24. Pour supprimer un paiement, marquez la ligne.
-25. Cliquez sur Supprimer.
-    * La suppression d'un paiement ne supprimera que le paiement. Toutes les factures marquées pour le paiement resteront disponibles pour être payées lors d'un autre paiement.  
-26. Cliquez sur Oui.
-27. Choisissez Générer le paiement pour imprimer des chèques ou pour créer le fichier de paiement électronique.
-28. Sélectionnez le mode de paiement que vous souhaitez générer.
-    * Le journal des paiements contient des paiements à la fois pour les chèques et les paiements électroniques, mais vous ne pouvez générer qu'un type de paiement à la fois.  
-29. Sélectionnez le compte bancaire à partir duquel générer des paiements.
-30. Cliquez sur OK.
-    * Les paiements sont générés uniquement pour ceux qui correspondent au mode de paiement et au compte bancaire sélectionnés.  
-31. Si vous générez des chèques, choisissez Document pour vérifier la bonne destination d'impression pour les chèques.
-32. Cliquez sur OK.
-33. Cliquez sur OK pour générer les paiements.
-34. Cliquez sur Valider si tous les paiements sont approuvés et générés. 
+1. <span data-ttu-id="0cd3e-106">Accédez à Comptabilité fournisseur > Paiements > Journal des paiements.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-106">Go to Accounts payable > Payments > Payment journal.</span></span>
+2. <span data-ttu-id="0cd3e-107">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-107">Click New.</span></span>
+3. <span data-ttu-id="0cd3e-108">Sélectionnez le journal des paiements dans lequel enregistrer les paiements fournisseurs.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-108">Select the payment journal in which to save the vendor payments.</span></span> 
+4. <span data-ttu-id="0cd3e-109">Sélectionnez le journal ou entrez-le manuellement.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-109">Select the journal or manually enter it.</span></span>
+5. <span data-ttu-id="0cd3e-110">Cliquez sur Lignes.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-110">Click Lines.</span></span>
+6. <span data-ttu-id="0cd3e-111">Cliquez sur Proposition de paiement.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-111">Click Payment proposal.</span></span>
+7. <span data-ttu-id="0cd3e-112">Cliquez sur Créer une proposition de paiement.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-112">Click Create payment proposal.</span></span>
+    * <span data-ttu-id="0cd3e-113">La proposition de paiement est une requête utilisée pour sélectionner des factures pour le paiement.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-113">The payment proposal is a query used to select invoices for payment.</span></span> <span data-ttu-id="0cd3e-114">Vous pouvez modifier la liste des factures à payer avant de créer ou de générer des paiements fournisseurs.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-114">You can edit the list of invoices to pay before creating or generating the vendor payments.</span></span>  
+8. <span data-ttu-id="0cd3e-115">Sélectionnez les factures du paiement par date d'échéance, escompte de règlement ou les deux.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-115">Select invoices for payment by due date, cash discount, or both.</span></span> 
+9. <span data-ttu-id="0cd3e-116">Entrez la date (pour la comparer à la date d'échéance) ou l'escompte de règlement.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-116">Enter the date for comparing to the due date or cash discount.</span></span> 
+10. <span data-ttu-id="0cd3e-117">Facultatif : entrez une date de paiement utilisée pour tous les paiements.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-117">Optional: Enter a payment date used for all payments.</span></span>
+    * <span data-ttu-id="0cd3e-118">La date entrée ici est la date de paiement pour tous les paiements créés, indépendamment de la date d'échéance ou d'escompte de règlement.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-118">The date entered here will be the payment date for all payments created, regardless of the due date or cash discount date.</span></span>  
+11. <span data-ttu-id="0cd3e-119">Facultatif : entrez une date de paiement minimale qui peut être utilisée comme date de paiement.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-119">Optional: Enter a minimum payment date which may be used as the payment date.</span></span>
+    * <span data-ttu-id="0cd3e-120">La date de paiement minimale est la date la plus proche utilisée lorsque vous créez des paiements.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-120">The minimum payment date will be the earliest date used when creating payments.</span></span> <span data-ttu-id="0cd3e-121">Par exemple, si une facture a une date d'échéance après la date de paiement minimale, la date d'échéance deviendra la date de paiement au lieu de la date de paiement minimale afin de payer la facture le dernier jour possible.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-121">For example, if an invoice has a due date after the minimum payment date, the due date will become the payment date instead of the minimum payment date in order to pay the invoice on the latest possible date.</span></span>  
+12. <span data-ttu-id="0cd3e-122">Entrez des restrictions de requête supplémentaires dans Enregistrements à inclure.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-122">Enter additional query restrictions under Records to include.</span></span>
+    * <span data-ttu-id="0cd3e-123">Le filtre est souvent utilisé pour limiter les factures sélectionnées pour le paiement par groupe de fournisseurs ou par mode de paiement.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-123">The filter is often used to restrict the invoices selected for payment by vendor group or method of payment.</span></span> <span data-ttu-id="0cd3e-124">Par exemple, vous pouvez ajouter un filtre uniquement aux factures de salaire par chèque dans ce cycle de paie.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-124">For example, you may add a filter to only pay invoices by cheque in this pay run.</span></span>  
+13. <span data-ttu-id="0cd3e-125">Entrez des restrictions de requête ou des valeurs de paiement par défaut supplémentaires.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-125">Enter additional query restriction or payment defaults.</span></span> 
+    * <span data-ttu-id="0cd3e-126">Les paramètres supplémentaires peuvent être utilisés pour définir la devise de paiement ou pour activer les paiements centralisés pour ce cycle de paie.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-126">The additional parameters can be used to define the payment currency or to enable centralized payments for this pay run.</span></span>  
+14. <span data-ttu-id="0cd3e-127">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-127">Click OK.</span></span>
+    * <span data-ttu-id="0cd3e-128">Après avoir cliqué sur OK, les résultats de la requête s'affichent.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-128">After clicking OK, the results of the query will appear.</span></span> <span data-ttu-id="0cd3e-129">Si vous ne souhaitez pas afficher un aperçu de la liste des factures sélectionnées à payer, vous pouvez revenir à l'onglet Paramètre et modifier le paramètre Création de paiements sans Aperçu de facture = Oui.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-129">If you don't want to preview the list of invoices selected to pay, you can go back to the Parameters fast tab and change the setting Create payments without invoice preview = Yes.</span></span>  
+15. <span data-ttu-id="0cd3e-130">Choisissez le bouton Afficher la vue d'ensemble du paiement pour afficher les paiements qui seront créés pour le fournisseur sur la facture sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-130">Choose the Show payment overview button to view the payments that will be created for the vendor on the invoice selected.</span></span>
+16. <span data-ttu-id="0cd3e-131">Choisissez le bouton Masquer la vue d'ensemble du paiement pour masquer les paiements.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-131">Choose the Hide payment overview button to hide the payments.</span></span> 
+17. <span data-ttu-id="0cd3e-132">Cliquez sur Créer des paiements.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-132">Click Create payments.</span></span>
+    * <span data-ttu-id="0cd3e-133">Avant de choisir Créer des paiements, vous pouvez cliquer avec le bouton droit dans la grille et exporter la liste des factures vers Excel.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-133">Before choosing Create payments, you can right click on the grid and export the list of invoices to Excel.</span></span> <span data-ttu-id="0cd3e-134">Le bouton Créer des paiements crée les paiements fournisseurs dans le journal des paiements.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-134">The Create payments button will create the vendor payments in the payment journal.</span></span>  
+18. <span data-ttu-id="0cd3e-135">Numérisez les paiements et vérifiez que le mode de paiement est défini pour tous les paiements.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-135">Scan your payments and make sure the method of payment is defined for all payments.</span></span> 
+    * <span data-ttu-id="0cd3e-136">Si vous générez les paiements (impression d'un chèque ou création d'un paiement électronique), le mode de paiement doit être défini.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-136">If you generate the payments, such as printing a cheque or creating an electronic payment, the method of payment must be defined.</span></span> <span data-ttu-id="0cd3e-137">Le mode de paiement prendra également par défaut le compte bancaire à partir duquel le paiement est effectué.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-137">The method of payment will also default the bank account from the payment will be made.</span></span>  
+19. <span data-ttu-id="0cd3e-138">Cliquez sur Nouveau pour créer un paiement unique.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-138">Click New to create a one-off payment.</span></span>
+    * <span data-ttu-id="0cd3e-139">Un paiement unique peut être ajouté à un journal des paiements à tout moment avant la validation.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-139">A one-off payment can be added to a payment journal at any time prior to posting.</span></span> <span data-ttu-id="0cd3e-140">Cela est effectué en cliquant sur le bouton Nouveau et en ajoutant les informations de paiement manuellement, plutôt que via la proposition de paiement.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-140">This is done by clicking the New button and adding the payment information manually, rather then using the Payment proposal.</span></span>  
+20. <span data-ttu-id="0cd3e-141">Sélectionnez le fournisseur auquel le paiement sera effectué.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-141">Select the vendor to whom the payment will be made.</span></span>
+21. <span data-ttu-id="0cd3e-142">Si une facture doit être payée, sélectionnez Régler les transactions pour sélectionner la facture pour le paiement.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-142">If an invoice exists to pay, select Settle transactions to select the invoice for payment.</span></span>
+    * <span data-ttu-id="0cd3e-143">S'il s'agit d'un acompte, cette étape est facultative.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-143">If this is a prepayment, this step is optional.</span></span> <span data-ttu-id="0cd3e-144">Vous pouvez créer le paiement sans sélectionner de facture.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-144">You can create the payment without selecting any invoice.</span></span>  
+22. <span data-ttu-id="0cd3e-145">Marquez toutes les factures qui seront payées.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-145">Mark any invoices that will be paid.</span></span>
+    * <span data-ttu-id="0cd3e-146">Si vous utilisez Régler les transactions pour sélectionner des factures pour le paiement, le montant du paiement est automatiquement calculé en fonction des factures marquées pour le paiement et du montant que vous entrez dans le montant à régler.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-146">If you use the Settle transactions to select the invoices for payment, the payment amount will automatically be calculated based on what invoices you mark for payment, and what amount you enter in the Amount to settle.</span></span>  
+23. <span data-ttu-id="0cd3e-147">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-147">Click OK.</span></span>
+24. <span data-ttu-id="0cd3e-148">Pour supprimer un paiement, marquez la ligne.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-148">If you want to delete a payment, mark the row.</span></span>
+25. <span data-ttu-id="0cd3e-149">Cliquez sur Supprimer.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-149">Click Delete.</span></span>
+    * <span data-ttu-id="0cd3e-150">La suppression d'un paiement ne supprimera que le paiement.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-150">Deleting a payment will only delete the payment.</span></span> <span data-ttu-id="0cd3e-151">Toutes les factures marquées pour le paiement resteront disponibles pour être payées lors d'un autre paiement.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-151">Any invoices marked for payment will still be available to be paid by another payment.</span></span>  
+26. <span data-ttu-id="0cd3e-152">Cliquez sur Oui.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-152">Click Yes.</span></span>
+27. <span data-ttu-id="0cd3e-153">Choisissez Générer le paiement pour imprimer des chèques ou pour créer le fichier de paiement électronique.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-153">Choose Generate payment to print Cheques or create the electronic payment file.</span></span>
+28. <span data-ttu-id="0cd3e-154">Sélectionnez le mode de paiement que vous souhaitez générer.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-154">Select the method of payment that you want to generate.</span></span>
+    * <span data-ttu-id="0cd3e-155">Le journal des paiements contient des paiements à la fois pour les chèques et les paiements électroniques, mais vous ne pouvez générer qu'un type de paiement à la fois.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-155">The payment journal can contains payments for both Cheques and electronic payments, but you can only generate one payment type at a time.</span></span>  
+29. <span data-ttu-id="0cd3e-156">Sélectionnez le compte bancaire à partir duquel générer des paiements.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-156">Select the bank account from which to generate the payments.</span></span>
+30. <span data-ttu-id="0cd3e-157">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-157">Click OK.</span></span>
+    * <span data-ttu-id="0cd3e-158">Les paiements sont générés uniquement pour ceux qui correspondent au mode de paiement et au compte bancaire sélectionnés.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-158">Payments will only be generated for payments that match the Method of payment and Bank account you selected.</span></span>  
+31. <span data-ttu-id="0cd3e-159">Si vous générez des chèques, choisissez Document pour vérifier la bonne destination d'impression pour les chèques.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-159">If you are generating Cheques, choose Document to ensure the correct print destination for the Cheques.</span></span>
+32. <span data-ttu-id="0cd3e-160">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-160">Click OK.</span></span>
+33. <span data-ttu-id="0cd3e-161">Cliquez sur OK pour générer les paiements.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-161">Click OK to generate the payments.</span></span>
+34. <span data-ttu-id="0cd3e-162">Cliquez sur Valider si tous les paiements sont approuvés et générés.</span><span class="sxs-lookup"><span data-stu-id="0cd3e-162">Click Post if all the payments are approved and generated.</span></span> 
 
 

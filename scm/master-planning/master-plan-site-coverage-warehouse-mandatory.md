@@ -20,48 +20,48 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a1bf8f2253c63e4b6ca8fee02ec6b1cfb8aad73c
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 14df626025a22237afe30cc5b08d42b475fc3a4f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="master-planning-for-site-coverage-mandatory-warehouse"></a>Planification pour couverture de site, entrepôt obligatoire
+# <a name="master-planning-for-site-coverage-mandatory-warehouse"></a><span data-ttu-id="72885-104">Planification pour couverture de site, entrepôt obligatoire</span><span class="sxs-lookup"><span data-stu-id="72885-104">Master planning for site coverage, mandatory warehouse</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Cette rubrique décrit comment un article disposant du site comme dimension de couverture est planifié. L'entrepôt est une dimension obligatoire.
+<span data-ttu-id="72885-105">Cette rubrique décrit comment un article disposant du site comme dimension de couverture est planifié.</span><span class="sxs-lookup"><span data-stu-id="72885-105">This topic describes how an item that has the site as coverage dimension is planned.</span></span> <span data-ttu-id="72885-106">L'entrepôt est une dimension obligatoire.</span><span class="sxs-lookup"><span data-stu-id="72885-106">Warehouse is a mandatory dimension.</span></span>
 
-Ce scénario de planification implique les conditions suivantes :
+<span data-ttu-id="72885-107">Ce scénario de planification implique les conditions suivantes :</span><span class="sxs-lookup"><span data-stu-id="72885-107">This master planning scenario involves the following conditions:</span></span>
 
--   La dimension de site est définie sur obligatoire et doit être entrée dans la transaction de demande. Ce paramètre ne peut pas être modifié.
--   La dimension d'entrepôt est définie sur obligatoire et doit être entrée dans la transaction de demande.
--   La dimension de site est définie pour la planification de la couverture. D'autres dimensions peuvent également être définies pour la planification de la couverture. Elles ne sont toutefois pas affectées par la fonctionnalité multisite.
--   La dimension d'entrepôt n'est pas définie pour la planification de la couverture. Par conséquent, l'offre et la demande sont agrégées par site (et d'autres dimensions planifiées, éventuellement).
+-   <span data-ttu-id="72885-108">La dimension de site est définie sur obligatoire et doit être entrée dans la transaction de demande.</span><span class="sxs-lookup"><span data-stu-id="72885-108">The site dimension is set to mandatory and must be entered on the demand transaction.</span></span> <span data-ttu-id="72885-109">Ce paramètre ne peut pas être modifié.</span><span class="sxs-lookup"><span data-stu-id="72885-109">This setting can't be modified.</span></span>
+-   <span data-ttu-id="72885-110">La dimension d'entrepôt est définie sur obligatoire et doit être entrée dans la transaction de demande.</span><span class="sxs-lookup"><span data-stu-id="72885-110">The warehouse dimension is set to mandatory and must be entered on the demand transaction.</span></span>
+-   <span data-ttu-id="72885-111">La dimension de site est définie pour la planification de la couverture.</span><span class="sxs-lookup"><span data-stu-id="72885-111">The site dimension is set for coverage planning.</span></span> <span data-ttu-id="72885-112">D'autres dimensions peuvent également être définies pour la planification de la couverture.</span><span class="sxs-lookup"><span data-stu-id="72885-112">Other dimensions may be set for coverage planning also.</span></span> <span data-ttu-id="72885-113">Elles ne sont toutefois pas affectées par la fonctionnalité multisite.</span><span class="sxs-lookup"><span data-stu-id="72885-113">However, they are not affected by the multisite functionality.</span></span>
+-   <span data-ttu-id="72885-114">La dimension d'entrepôt n'est pas définie pour la planification de la couverture.</span><span class="sxs-lookup"><span data-stu-id="72885-114">The warehouse dimension is not set for coverage planning.</span></span> <span data-ttu-id="72885-115">Par conséquent, l'offre et la demande sont agrégées par site (et d'autres dimensions planifiées, éventuellement).</span><span class="sxs-lookup"><span data-stu-id="72885-115">Therefore, supply and demand are aggregated by site and, perhaps, other coverage-planned dimensions also.</span></span>
 
-Le graphique suivant illustre l'exécution du calcul de planification. Les paramètres indiqués dans le graphique, et leurs emplacements, sont les suivants :
--   La couverture d'article est définie pour l'article. Cliquez sur **Gestion des informations sur les produits &gt; Produits &gt; Produits lancés**. Sélectionnez l'article, puis cliquez sur **Plan &gt; Couverture de l'article**.
--   Des relations de rechargement sont définies pour l'entrepôt. Cliquez sur **Gestion des stocks &gt; Paramétrage &gt; Décomposition du stock &gt; Entrepôts**. Dans l'onglet **Planification**, voir le groupe de champs **Entrepôt principal**.
--   Le type de commande par défaut est défini à Production, Commande fournisseur, ou Kanban. Cliquez sur **Gestion des informations sur les produits &gt; Produits &gt; Produits lancés**. Sélectionnez l'article, puis cliquez sur **Plan &gt; Paramètres de commande par défaut**. Dans l'écran **Paramètres de commande par défaut**, voir le **Type de commande par défaut**.
+<span data-ttu-id="72885-116">Le graphique suivant illustre l'exécution du calcul de planification.</span><span class="sxs-lookup"><span data-stu-id="72885-116">The following graphic illustrates how master planning proceeds.</span></span> <span data-ttu-id="72885-117">Les paramètres indiqués dans le graphique, et leurs emplacements, sont les suivants :</span><span class="sxs-lookup"><span data-stu-id="72885-117">The parameters that are referred to in the graphic, and their locations, are as follows:</span></span>
+-   <span data-ttu-id="72885-118">La couverture d'article est définie pour l'article.</span><span class="sxs-lookup"><span data-stu-id="72885-118">Item coverage is defined for the item.</span></span> <span data-ttu-id="72885-119">Cliquez sur **Gestion des informations sur les produits &gt; Produits &gt; Produits lancés**.</span><span class="sxs-lookup"><span data-stu-id="72885-119">Click **Product information management &gt; Products&gt; Released products**.</span></span> <span data-ttu-id="72885-120">Sélectionnez l'article, puis cliquez sur **Plan &gt; Couverture de l'article**.</span><span class="sxs-lookup"><span data-stu-id="72885-120">Select the item, and then click **Plan &gt; Item coverage**.</span></span>
+-   <span data-ttu-id="72885-121">Des relations de rechargement sont définies pour l'entrepôt.</span><span class="sxs-lookup"><span data-stu-id="72885-121">Refill relations are defined for the warehouse.</span></span> <span data-ttu-id="72885-122">Cliquez sur **Gestion des stocks &gt; Paramétrage &gt; Décomposition du stock &gt; Entrepôts**.</span><span class="sxs-lookup"><span data-stu-id="72885-122">Click **Inventory management &gt; Setup &gt; Inventory breakdown &gt; Warehouses**.</span></span> <span data-ttu-id="72885-123">Dans l'onglet **Planification**, voir le groupe de champs **Entrepôt principal**.</span><span class="sxs-lookup"><span data-stu-id="72885-123">On the **Master planning** tab, see the **Main warehouse** field group.</span></span>
+-   <span data-ttu-id="72885-124">Le type de commande par défaut est défini à Production, Commande fournisseur, ou Kanban.</span><span class="sxs-lookup"><span data-stu-id="72885-124">The default order type is set to Production, Purchase order, or Kanban.</span></span> <span data-ttu-id="72885-125">Cliquez sur **Gestion des informations sur les produits &gt; Produits &gt; Produits lancés**.</span><span class="sxs-lookup"><span data-stu-id="72885-125">Click **Product information management &gt; Products&gt; Released products**.</span></span> <span data-ttu-id="72885-126">Sélectionnez l'article, puis cliquez sur **Plan &gt; Paramètres de commande par défaut**.</span><span class="sxs-lookup"><span data-stu-id="72885-126">Select the item, and then click **Plan &gt; Default order settings**.</span></span> <span data-ttu-id="72885-127">Dans l'écran **Paramètres de commande par défaut**, voir le **Type de commande par défaut**.</span><span class="sxs-lookup"><span data-stu-id="72885-127">In the **Default order settings** form, see the **Default order type**.</span></span>
 
 ![Demande pour l'entrepôt de couverture du site obligatoire](./media/multisitedemandexplosionscenarioforsitecoveragewarehousemandatory.jpg)
 
 
 
-<a name="see-also"></a>Voir également :
+<a name="see-also"></a><span data-ttu-id="72885-129">Voir également :</span><span class="sxs-lookup"><span data-stu-id="72885-129">See also</span></span>
 --------
 
-[Planification et fonctionnalité multisite](master-plan-multisite-functionality.md)
+[<span data-ttu-id="72885-130">Planification et fonctionnalité multisite</span><span class="sxs-lookup"><span data-stu-id="72885-130">Master planning and multisite functionality</span></span>](master-plan-multisite-functionality.md)
 
-[Planification - couverture du site et de l'entrepôt, entrepôt obligatoire](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+[<span data-ttu-id="72885-131">Planification - couverture du site et de l'entrepôt, entrepôt obligatoire</span><span class="sxs-lookup"><span data-stu-id="72885-131">Master planning - site and warehouse coverage, warehouse mandatory</span></span>](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 
-[Planification - couverture du site. entrepôt obligatoire](master-plan-site-coverage-warehouse-mandatory.md)
+[<span data-ttu-id="72885-132">Planification - couverture du site. entrepôt obligatoire</span><span class="sxs-lookup"><span data-stu-id="72885-132">Master planning - site coverage. warehouse mandatory</span></span>](master-plan-site-coverage-warehouse-mandatory.md)
 
-[Planification - couverture du site et de l'entrepôt, entrepôt non obligatoire](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+[<span data-ttu-id="72885-133">Planification - couverture du site et de l'entrepôt, entrepôt non obligatoire</span><span class="sxs-lookup"><span data-stu-id="72885-133">Master planning - site and warehouse coverage, warehouse not mandatory</span></span>](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
 
-[Planification - Méthode de détermination de la version de nomenclature](master-plan-bom-version-determined.md)
+[<span data-ttu-id="72885-134">Planification - Méthode de détermination de la version de nomenclature</span><span class="sxs-lookup"><span data-stu-id="72885-134">Master planning - How the BOM version is determined</span></span>](master-plan-bom-version-determined.md)
 
 
 

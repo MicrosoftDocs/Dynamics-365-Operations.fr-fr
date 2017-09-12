@@ -17,36 +17,36 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 047f57ddb5a256859d9399622025392473ae7665
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: e5baa12a3915c76fde36435b1e95abaf96ba07dd
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-an-advanced-ledger-entry-in-the-public-sector"></a>Créer une écriture comptable avancée dans le secteur public
+# <a name="create-an-advanced-ledger-entry-in-the-public-sector"></a><span data-ttu-id="134df-103">Créer une écriture comptable avancée dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="134df-103">Create an advanced ledger entry in the public sector</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Les organisations du secteur public peuvent utiliser les écritures comptables avancées pour créer, ajuster et contrepasser des écritures comptables. Par exemple, vous pouvez utiliser des écritures comptables avancées pour reclassifier des dépenses si des factures sont validées par erreur dans un compte ou projet inapproprié. Cette procédure a été créée à l'aide des données de la société fictive PSUS dans la partition du secteur public.
+<span data-ttu-id="134df-104">Les organisations du secteur public peuvent utiliser les écritures comptables avancées pour créer, ajuster et contrepasser des écritures comptables.</span><span class="sxs-lookup"><span data-stu-id="134df-104">Public-sector organizations can use advanced ledger entries to create, adjust, and reverse ledger entries.</span></span> <span data-ttu-id="134df-105">Par exemple, vous pouvez utiliser des écritures comptables avancées pour reclassifier des dépenses si des factures sont validées par erreur dans un compte ou projet inapproprié.</span><span class="sxs-lookup"><span data-stu-id="134df-105">For example, advanced ledger entries can be used to reclassify expenditures if invoices are mistakenly posted to the wrong account or project.</span></span> <span data-ttu-id="134df-106">Cette procédure a été créée à l'aide des données de la société fictive PSUS dans la partition du secteur public.</span><span class="sxs-lookup"><span data-stu-id="134df-106">This procedure was created using the PSUS demo company data in the public sector partition.</span></span>
 
-1. Accédez à Comptabilité > Entrées de journal > Écritures comptables avancées.
-2. Cliquez sur Nouveau.
-3. Dans le champ Comptabilité, entrez une date.
-4. Dans le champ Libellé de transaction, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-5. Dans la liste, cliquez sur le libellé de transaction pour cette écriture comptable avancée.
-6. Dans le champ Définition de validation, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-7. Dans la liste, cliquez sur Définition de validation pour cette écriture comptable avancée.
-8. Dans le champ Code motif, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-9. Dans la liste, cliquez sur le code motif pour cette écriture comptable avancée.
-10. Dans le champ Commentaire du motif, tapez une valeur.
-11. Cliquez sur OK.
-12. Cliquez sur Ajouter une ligne.
-13. Dans le champ ID projet, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-14. Dans la liste, cliquez sur un ID projet.
-15. Dans le champ Catégorie de projets, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-16. Dans la liste, cliquez sur une catégorie de projet.
-    * Si vous sélectionnez la catégorie de projet, le compte général est automatiquement spécifié.  
-    * Ajoutez un montant de débit ou de crédit à cette ligne. Si nécessaire, cliquez sur Ajouter une ligne pour ajouter des lignes supplémentaires.  
-17. Cliquez sur Enregistrer.
+1. <span data-ttu-id="134df-107">Accédez à Comptabilité > Entrées de journal > Écritures comptables avancées.</span><span class="sxs-lookup"><span data-stu-id="134df-107">Go to General ledger > Journal entries > Advanced ledger entries.</span></span>
+2. <span data-ttu-id="134df-108">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="134df-108">Click New.</span></span>
+3. <span data-ttu-id="134df-109">Dans le champ Comptabilité, entrez une date.</span><span class="sxs-lookup"><span data-stu-id="134df-109">In the Accounting date field, enter a date.</span></span>
+4. <span data-ttu-id="134df-110">Dans le champ Libellé de transaction, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="134df-110">In the Transaction text field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="134df-111">Dans la liste, cliquez sur le libellé de transaction pour cette écriture comptable avancée.</span><span class="sxs-lookup"><span data-stu-id="134df-111">In the list, click the transaction text for this advanced ledger entry.</span></span>
+6. <span data-ttu-id="134df-112">Dans le champ Définition de validation, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="134df-112">In the Posting definition field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="134df-113">Dans la liste, cliquez sur Définition de validation pour cette écriture comptable avancée.</span><span class="sxs-lookup"><span data-stu-id="134df-113">In the list, click the Posting definition for this advanced ledger entry.</span></span>
+8. <span data-ttu-id="134df-114">Dans le champ Code motif, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="134df-114">In the Reason code field, click the drop-down button to open the lookup.</span></span>
+9. <span data-ttu-id="134df-115">Dans la liste, cliquez sur le code motif pour cette écriture comptable avancée.</span><span class="sxs-lookup"><span data-stu-id="134df-115">In the list, click the Reason code for this advanced ledger entry.</span></span>
+10. <span data-ttu-id="134df-116">Dans le champ Commentaire du motif, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="134df-116">In the Reason comment field, type a value.</span></span>
+11. <span data-ttu-id="134df-117">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="134df-117">Click OK.</span></span>
+12. <span data-ttu-id="134df-118">Cliquez sur Ajouter une ligne.</span><span class="sxs-lookup"><span data-stu-id="134df-118">Click Add line.</span></span>
+13. <span data-ttu-id="134df-119">Dans le champ ID projet, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="134df-119">In the Project ID field, click the drop-down button to open the lookup.</span></span>
+14. <span data-ttu-id="134df-120">Dans la liste, cliquez sur un ID projet.</span><span class="sxs-lookup"><span data-stu-id="134df-120">In the list, click a project ID.</span></span>
+15. <span data-ttu-id="134df-121">Dans le champ Catégorie de projets, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="134df-121">In the Project category field, click the drop-down button to open the lookup.</span></span>
+16. <span data-ttu-id="134df-122">Dans la liste, cliquez sur une catégorie de projet.</span><span class="sxs-lookup"><span data-stu-id="134df-122">In the list, click a project category.</span></span>
+    * <span data-ttu-id="134df-123">Si vous sélectionnez la catégorie de projet, le compte général est automatiquement spécifié.</span><span class="sxs-lookup"><span data-stu-id="134df-123">If you select the project category, the ledger account is entered automatically.</span></span>  
+    * <span data-ttu-id="134df-124">Ajoutez un montant de débit ou de crédit à cette ligne.</span><span class="sxs-lookup"><span data-stu-id="134df-124">Add a debit or a credit amount to this line.</span></span> <span data-ttu-id="134df-125">Si nécessaire, cliquez sur Ajouter une ligne pour ajouter des lignes supplémentaires.</span><span class="sxs-lookup"><span data-stu-id="134df-125">If needed, click Add line to add more lines.</span></span>  
+17. <span data-ttu-id="134df-126">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="134df-126">Click Save.</span></span>
 
 

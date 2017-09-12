@@ -16,32 +16,32 @@ ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 42eba7971e54466fffa88b7049a977d53066fa3e
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 5a0d5eee5d2c8283fa55b8dcd6c969f8eb8a7a64
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="daily-interest-calculation-for-late-payment-and-lump-sum-in-the-invoice-and-collection-letter-france"></a>Calcul des intérêts quotidien de paiement tardif et de montant forfaitaire dans la facture et la lettre de relance (France)
+# <a name="daily-interest-calculation-for-late-payment-and-lump-sum-in-the-invoice-and-collection-letter-france"></a><span data-ttu-id="26087-103">Calcul des intérêts quotidien de paiement tardif et de montant forfaitaire dans la facture et la lettre de relance (France)</span><span class="sxs-lookup"><span data-stu-id="26087-103">Daily interest calculation for late payment and lump sum in the invoice and collection letter (France)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Indiquez le calcul des intérêts sur une facture.
+<span data-ttu-id="26087-104">Indiquez le calcul des intérêts sur une facture.</span><span class="sxs-lookup"><span data-stu-id="26087-104">Indicate the interest calculation on an invoice.</span></span>
 
-Cette procédure a été créée à l'aide des données fictives de la société FRRT. 
+<span data-ttu-id="26087-105">Cette procédure a été créée à l'aide des données fictives de la société FRRT.</span><span class="sxs-lookup"><span data-stu-id="26087-105">This procedure was created using the demo data company FRRT.</span></span> 
 
-Cette fonctionnalité est disponible pour les entités juridiques dont l'adresse principale est en France.
+<span data-ttu-id="26087-106">Cette fonctionnalité est disponible pour les entités juridiques dont l'adresse principale est en France.</span><span class="sxs-lookup"><span data-stu-id="26087-106">This functionality is available for legal entities whose primary address is in France.</span></span>
 
 
 
-1. Accédez à Comptabilité client > Commandes > Toutes les commandes client.
-2. Dans la liste, marquez la ligne sélectionnée.
-3. Dans le volet Actions, cliquez sur Facture.
-4. Cliquez sur Facture.
-5. Activez ou désactivez la case à cocher Imprimer la facture.
-6. Dans la liste, marquer la ligne sélectionnée.
-7. Activez ou désactivez la case à cocher Imprimer le texte récupéré du montant forfaitaire.
-8. Cliquez sur OK.
-9. Cliquez sur Oui.
+1. <span data-ttu-id="26087-107">Accédez à Comptabilité client > Commandes > Toutes les commandes client.</span><span class="sxs-lookup"><span data-stu-id="26087-107">Go to Accounts receivable > Orders > All sales orders.</span></span>
+2. <span data-ttu-id="26087-108">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="26087-108">In the list, mark the selected row.</span></span>
+3. <span data-ttu-id="26087-109">Dans le volet Actions, cliquez sur Facture.</span><span class="sxs-lookup"><span data-stu-id="26087-109">On the Action Pane, click Invoice.</span></span>
+4. <span data-ttu-id="26087-110">Cliquez sur Facture.</span><span class="sxs-lookup"><span data-stu-id="26087-110">Click Invoice.</span></span>
+5. <span data-ttu-id="26087-111">Activez ou désactivez la case à cocher Imprimer la facture.</span><span class="sxs-lookup"><span data-stu-id="26087-111">Select or clear the Print invoice check box.</span></span>
+6. <span data-ttu-id="26087-112">Dans la liste, marquer la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="26087-112">In the list, mark the selected row.</span></span>
+7. <span data-ttu-id="26087-113">Activez ou désactivez la case à cocher Imprimer le texte récupéré du montant forfaitaire.</span><span class="sxs-lookup"><span data-stu-id="26087-113">Select or clear the Print lump sum recovery text check box.</span></span>
+8. <span data-ttu-id="26087-114">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="26087-114">Click OK.</span></span>
+9. <span data-ttu-id="26087-115">Cliquez sur Oui.</span><span class="sxs-lookup"><span data-stu-id="26087-115">Click Yes.</span></span>
 
 

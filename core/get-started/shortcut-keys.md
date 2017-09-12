@@ -15,192 +15,192 @@ ms.custom: 54502
 ms.assetid: d29aac80-e6c7-463c-b7a0-995aac84ea0b
 ms.search.region: Global
 ms.author: jasongre
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 8daf9d0c5b83e3bca66c0229a328737adeeb2951
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 45582c5378fb2b3d6c9e26632accf37197a671bb
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="keyboard-shortcuts"></a>Raccourcis clavier
+# <a name="keyboard-shortcuts"></a><span data-ttu-id="22b02-103">Raccourcis clavier</span><span class="sxs-lookup"><span data-stu-id="22b02-103">Keyboard shortcuts</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Les raccourcis clavier suivants s'appliquent à l'ensemble de Microsoft Dynamics 365 for Finance and Operations. 
+<span data-ttu-id="22b02-104">Les raccourcis clavier suivants s'appliquent à l'ensemble de Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="22b02-104">The following keyboard shortcuts apply across Microsoft Dynamics 365 for Finance and Operations.</span></span> 
 
-**Remarque :** les raccourcis clavier décrits ici font référence au type de clavier en usage aux États-Unis. Il se peut que les touches des autres types de claviers ne correspondent pas exactement aux touches des claviers en usage aux États-Unis.
+<span data-ttu-id="22b02-105">**Remarque :** les raccourcis clavier décrits ici font référence au type de clavier en usage aux États-Unis.</span><span class="sxs-lookup"><span data-stu-id="22b02-105">**Note:** The keyboard shortcuts described here refer to the United States keyboard layout.</span></span> <span data-ttu-id="22b02-106">Il se peut que les touches des autres types de claviers ne correspondent pas exactement aux touches des claviers en usage aux États-Unis.</span><span class="sxs-lookup"><span data-stu-id="22b02-106">Keys on other keyboard layouts might not correspond exactly to the keys on a US keyboard.</span></span>
 
-## <a name="action-shortcuts"></a>Raccourcis d'action
+## <a name="action-shortcuts"></a><span data-ttu-id="22b02-107">Raccourcis d'action</span><span class="sxs-lookup"><span data-stu-id="22b02-107">Action shortcuts</span></span>
 |                                                   |                                  |
 |---------------------------------------------------|----------------------------------|
-| **Opération**                                    | **Appuyer**                        |
-| Ouvrir la recherche d'action                                | Ctrl+' ou Alt+Q                  |
-| Accéder au volet Actions standard                  | Ctrl+F6                          |
-| Ouvrir un onglet du volet Actions ou un menu           | Entrée ou Espace ou Alt+Flèche Bas |
-| Accéder à l'option suivante/précédente dans un menu            | Flèche Bas/Flèche Haut            |
-| Fermer un onglet du volet Actions ou un menu          | Échap                              |
-| Simuler un clic droit                            | Maj+F10                        |
-| Ouvrir le menu contextuel Finance and Operations | Ctrl+F10                         |
-| Exécuter le bouton par défaut dans un écran ou une boîte de dialogue       | Alt+Entrée                        |
-| Cliquer sur un bouton ou une vignette                            | Entrée ou Espace                   |
-| Afficher les informations actualisées pour une vignette de comptage         | Alt+Flèche Haut                     |
+| <span data-ttu-id="22b02-108">**Opération**</span><span class="sxs-lookup"><span data-stu-id="22b02-108">**To do this**</span></span>                                    | <span data-ttu-id="22b02-109">**Appuyer**</span><span class="sxs-lookup"><span data-stu-id="22b02-109">**Press**</span></span>                        |
+| <span data-ttu-id="22b02-110">Ouvrir la recherche d'action</span><span class="sxs-lookup"><span data-stu-id="22b02-110">Open action search</span></span>                                | <span data-ttu-id="22b02-111">Ctrl+' ou Alt+Q</span><span class="sxs-lookup"><span data-stu-id="22b02-111">Ctrl+’ or Alt+Q</span></span>                  |
+| <span data-ttu-id="22b02-112">Accéder au volet Actions standard</span><span class="sxs-lookup"><span data-stu-id="22b02-112">Move to the standard action pane</span></span>                  | <span data-ttu-id="22b02-113">Ctrl+F6</span><span class="sxs-lookup"><span data-stu-id="22b02-113">Ctrl+F6</span></span>                          |
+| <span data-ttu-id="22b02-114">Ouvrir un onglet du volet Actions ou un menu</span><span class="sxs-lookup"><span data-stu-id="22b02-114">Open a tab in the action pane or a menu</span></span>           | <span data-ttu-id="22b02-115">Entrée ou Espace ou Alt+Flèche Bas</span><span class="sxs-lookup"><span data-stu-id="22b02-115">Enter or Space or Alt+Down Arrow</span></span> |
+| <span data-ttu-id="22b02-116">Accéder à l'option suivante/précédente dans un menu</span><span class="sxs-lookup"><span data-stu-id="22b02-116">Move to next/previous option in a menu</span></span>            | <span data-ttu-id="22b02-117">Flèche Bas/Flèche Haut</span><span class="sxs-lookup"><span data-stu-id="22b02-117">Down Arrow / Up Arrow</span></span>            |
+| <span data-ttu-id="22b02-118">Fermer un onglet du volet Actions ou un menu</span><span class="sxs-lookup"><span data-stu-id="22b02-118">Close a tab in the action pane or a menu</span></span>          | <span data-ttu-id="22b02-119">Échap</span><span class="sxs-lookup"><span data-stu-id="22b02-119">Esc</span></span>                              |
+| <span data-ttu-id="22b02-120">Simuler un clic droit</span><span class="sxs-lookup"><span data-stu-id="22b02-120">Simulate a right-click</span></span>                            | <span data-ttu-id="22b02-121">Maj+F10</span><span class="sxs-lookup"><span data-stu-id="22b02-121">Shift+F10</span></span>                        |
+| <span data-ttu-id="22b02-122">Ouvrir le menu contextuel Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="22b02-122">Open the Finance and Operations context menu</span></span> | <span data-ttu-id="22b02-123">Ctrl+F10</span><span class="sxs-lookup"><span data-stu-id="22b02-123">Ctrl+F10</span></span>                         |
+| <span data-ttu-id="22b02-124">Exécuter le bouton par défaut dans un écran ou une boîte de dialogue</span><span class="sxs-lookup"><span data-stu-id="22b02-124">Execute the default button on a form/dialog</span></span>       | <span data-ttu-id="22b02-125">Alt+Entrée</span><span class="sxs-lookup"><span data-stu-id="22b02-125">Alt+Enter</span></span>                        |
+| <span data-ttu-id="22b02-126">Cliquer sur un bouton ou une vignette</span><span class="sxs-lookup"><span data-stu-id="22b02-126">Click a button or tile</span></span>                            | <span data-ttu-id="22b02-127">Entrée ou Espace</span><span class="sxs-lookup"><span data-stu-id="22b02-127">Enter or Space</span></span>                   |
+| <span data-ttu-id="22b02-128">Afficher les informations actualisées pour une vignette de comptage</span><span class="sxs-lookup"><span data-stu-id="22b02-128">View refresh information for a count tile</span></span>         | <span data-ttu-id="22b02-129">Alt+Flèche Haut</span><span class="sxs-lookup"><span data-stu-id="22b02-129">Alt+Up Arrow</span></span>                     |
 
  
 
-## <a name="date-picker-shortcuts"></a>Raccourcis du sélecteur de date
+## <a name="date-picker-shortcuts"></a><span data-ttu-id="22b02-130">Raccourcis du sélecteur de date</span><span class="sxs-lookup"><span data-stu-id="22b02-130">Date picker shortcuts</span></span>
 |                                       |                                           |
 |---------------------------------------|-------------------------------------------|
-| **Opération**                        | **Appuyer**                                 |
-| Ouvrir le sélecteur de date                  | Alt + Flèche Bas                            |
-| Se déplacer entre les dates du sélecteur de date | Ctrl+Flèches                               |
-| Accéder au mois suivant/précédent       | Page suivante/Page précédente                       |
-| Accéder à l'année suivante/précédente        | Ctrl+Maj+Page suivante/Ctrl+Maj+Page précédente |
+| <span data-ttu-id="22b02-131">**Opération**</span><span class="sxs-lookup"><span data-stu-id="22b02-131">**To do this**</span></span>                        | <span data-ttu-id="22b02-132">**Appuyer**</span><span class="sxs-lookup"><span data-stu-id="22b02-132">**Press**</span></span>                                 |
+| <span data-ttu-id="22b02-133">Ouvrir le sélecteur de date</span><span class="sxs-lookup"><span data-stu-id="22b02-133">Open the date picker</span></span>                  | <span data-ttu-id="22b02-134">Alt + Flèche Bas</span><span class="sxs-lookup"><span data-stu-id="22b02-134">Alt+Down Arrow</span></span>                            |
+| <span data-ttu-id="22b02-135">Se déplacer entre les dates du sélecteur de date</span><span class="sxs-lookup"><span data-stu-id="22b02-135">Move between dates in the date picker</span></span> | <span data-ttu-id="22b02-136">Ctrl+Flèches</span><span class="sxs-lookup"><span data-stu-id="22b02-136">Ctrl+Arrows</span></span>                               |
+| <span data-ttu-id="22b02-137">Accéder au mois suivant/précédent</span><span class="sxs-lookup"><span data-stu-id="22b02-137">Move to the next/previous month</span></span>       | <span data-ttu-id="22b02-138">Page suivante/Page précédente</span><span class="sxs-lookup"><span data-stu-id="22b02-138">Page Down / Page Up</span></span>                       |
+| <span data-ttu-id="22b02-139">Accéder à l'année suivante/précédente</span><span class="sxs-lookup"><span data-stu-id="22b02-139">Move to the next/previous year</span></span>        | <span data-ttu-id="22b02-140">Ctrl+Maj+Page suivante/Ctrl+Maj+Page précédente</span><span class="sxs-lookup"><span data-stu-id="22b02-140">Ctrl+Shift+Page Down / Ctrl+Shift+Page Up</span></span> |
 
  
 
-## <a name="factbox-shortcuts"></a>Raccourcis de récapitulatif
+## <a name="factbox-shortcuts"></a><span data-ttu-id="22b02-141">Raccourcis de récapitulatif</span><span class="sxs-lookup"><span data-stu-id="22b02-141">FactBox shortcuts</span></span>
 |                                                                                 |                                           |
 |---------------------------------------------------------------------------------|-------------------------------------------|
-| Ouvrir le volet Récapitulatif (ou déplacer le focus sur le volet Récapitulatif s'il est déjà ouvert) | Ctrl+F2                                   |
-| Fermer le volet Récapitulatif (avec le focus sur le volet Récapitulatif)                         | Échap                                       |
-| Accéder au récapitulatif suivant/précédent (avec le focus sur le volet Récapitulatif)              | Alt+Maj+Flèche Bas/Alt+Maj+Flèche Haut |
-| Accéder au &lt;n&gt;ième récapitulatif (avec le focus sur le volet Récapitulatif)                | Alt+&lt;n&gt; (&lt;n&gt; = 1 à 9)           |
-| Développer un récapitulatif (avec le focus sur l'en-tête du récapitulatif)                             | Espace ou Entrée                            |
-| Réduire le récapitulatif actif                                                    | Alt+0                                     |
+| <span data-ttu-id="22b02-142">Ouvrir le volet Récapitulatif (ou déplacer le focus sur le volet Récapitulatif s'il est déjà ouvert)</span><span class="sxs-lookup"><span data-stu-id="22b02-142">Open the FactBox pane (or move focus to the FactBox pane if it is already open)</span></span> | <span data-ttu-id="22b02-143">Ctrl+F2</span><span class="sxs-lookup"><span data-stu-id="22b02-143">Ctrl+F2</span></span>                                   |
+| <span data-ttu-id="22b02-144">Fermer le volet Récapitulatif (avec le focus sur le volet Récapitulatif)</span><span class="sxs-lookup"><span data-stu-id="22b02-144">Close the FactBox pane (with focus in the FactBox pane)</span></span>                         | <span data-ttu-id="22b02-145">Échap</span><span class="sxs-lookup"><span data-stu-id="22b02-145">Esc</span></span>                                       |
+| <span data-ttu-id="22b02-146">Accéder au récapitulatif suivant/précédent (avec le focus sur le volet Récapitulatif)</span><span class="sxs-lookup"><span data-stu-id="22b02-146">Move to the next/previous FactBox (with focus in the FactBox pane)</span></span>              | <span data-ttu-id="22b02-147">Alt+Maj+Flèche Bas/Alt+Maj+Flèche Haut</span><span class="sxs-lookup"><span data-stu-id="22b02-147">Alt+Shift+Down Arrow / Alt+Shift+Up Arrow</span></span> |
+| <span data-ttu-id="22b02-148">Accéder au &lt;n&gt;ième récapitulatif (avec le focus sur le volet Récapitulatif)</span><span class="sxs-lookup"><span data-stu-id="22b02-148">Move to the &lt;n&gt;th FactBox (with focus in the FactBox pane)</span></span>                | <span data-ttu-id="22b02-149">Alt+&lt;n&gt; (&lt;n&gt; = 1 à 9)</span><span class="sxs-lookup"><span data-stu-id="22b02-149">Alt+&lt;n&gt; (&lt;n&gt; = 1-9)</span></span>           |
+| <span data-ttu-id="22b02-150">Développer un récapitulatif (avec le focus sur l'en-tête du récapitulatif)</span><span class="sxs-lookup"><span data-stu-id="22b02-150">Expand a FactBox (with focus on the FactBox header)</span></span>                             | <span data-ttu-id="22b02-151">Espace ou Entrée</span><span class="sxs-lookup"><span data-stu-id="22b02-151">Space or Enter</span></span>                            |
+| <span data-ttu-id="22b02-152">Réduire le récapitulatif actif</span><span class="sxs-lookup"><span data-stu-id="22b02-152">Collapse the current FactBox</span></span>                                                    | <span data-ttu-id="22b02-153">Alt+0</span><span class="sxs-lookup"><span data-stu-id="22b02-153">Alt+0</span></span>                                     |
 
  
 
-## <a name="filtering-shortcuts"></a>Raccourcis de filtrage
+## <a name="filtering-shortcuts"></a><span data-ttu-id="22b02-154">Raccourcis de filtrage</span><span class="sxs-lookup"><span data-stu-id="22b02-154">Filtering shortcuts</span></span>
 |                                                                                                                     |               |
 |---------------------------------------------------------------------------------------------------------------------|---------------|
-| **Opération**                                                                                                      | **Appuyer**     |
-| Ouvrir le filtrage de grille pour la colonne active                                                                          | Ctrl+G        |
-| Fermer le filtrage de grille pour la colonne active                                                                         | Échap           |
-| Ouvrir le volet de filtre (ou permuter le focus entre le volet de filtre et l'écran principal si le volet de filtre est déjà ouvert) | Ctrl+F3       |
-| Fermer le volet de filtre (avec le focus sur le volet de filtre)                                                               | Échap           |
-| Ouvrir le filtrage ou le tri avancé                                                                                        | Ctrl+Maj+F3 |
+| <span data-ttu-id="22b02-155">**Opération**</span><span class="sxs-lookup"><span data-stu-id="22b02-155">**To do this**</span></span>                                                                                                      | <span data-ttu-id="22b02-156">**Appuyer**</span><span class="sxs-lookup"><span data-stu-id="22b02-156">**Press**</span></span>     |
+| <span data-ttu-id="22b02-157">Ouvrir le filtrage de grille pour la colonne active</span><span class="sxs-lookup"><span data-stu-id="22b02-157">Open grid filtering for the current column</span></span>                                                                          | <span data-ttu-id="22b02-158">Ctrl+G</span><span class="sxs-lookup"><span data-stu-id="22b02-158">Ctrl+G</span></span>        |
+| <span data-ttu-id="22b02-159">Fermer le filtrage de grille pour la colonne active</span><span class="sxs-lookup"><span data-stu-id="22b02-159">Close grid filtering for the current column</span></span>                                                                         | <span data-ttu-id="22b02-160">Échap</span><span class="sxs-lookup"><span data-stu-id="22b02-160">Esc</span></span>           |
+| <span data-ttu-id="22b02-161">Ouvrir le volet de filtre (ou permuter le focus entre le volet de filtre et l'écran principal si le volet de filtre est déjà ouvert)</span><span class="sxs-lookup"><span data-stu-id="22b02-161">Open the Filter pane (or switch focus between the Filter pane and the main form if the Filter pane is already open)</span></span> | <span data-ttu-id="22b02-162">Ctrl+F3</span><span class="sxs-lookup"><span data-stu-id="22b02-162">Ctrl+F3</span></span>       |
+| <span data-ttu-id="22b02-163">Fermer le volet de filtre (avec le focus sur le volet de filtre)</span><span class="sxs-lookup"><span data-stu-id="22b02-163">Close the Filter pane (with focus in the Filter pane)</span></span>                                                               | <span data-ttu-id="22b02-164">Échap</span><span class="sxs-lookup"><span data-stu-id="22b02-164">Esc</span></span>           |
+| <span data-ttu-id="22b02-165">Ouvrir le filtrage ou le tri avancé</span><span class="sxs-lookup"><span data-stu-id="22b02-165">Open advanced filtering/sort</span></span>                                                                                        | <span data-ttu-id="22b02-166">Ctrl+Maj+F3</span><span class="sxs-lookup"><span data-stu-id="22b02-166">Ctrl+Shift+F3</span></span> |
 
  
 
-## <a name="form-shortcuts"></a>Raccourcis d'écran
+## <a name="form-shortcuts"></a><span data-ttu-id="22b02-167">Raccourcis d'écran</span><span class="sxs-lookup"><span data-stu-id="22b02-167">Form shortcuts</span></span>
 |                                                                                                                                 |                   |
 |---------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| **Opération**                                                                                                                  | **Appuyer**         |
-| Créer un enregistrement                                                                                                             | Alt+N             |
-| Supprimer un enregistrement                                                                                                                 | Alt+Suppr ou Alt+F9 |
-| Sauvegarder un enregistrement                                                                                                                     | Alt+S ou Ctrl+S   |
-| Rétablir (restaurer)                                                                                                                | Ctrl+Maj+F5     |
-| Actualisation des données                                                                                                                    | Maj+F5          |
-| Accéder au premier champ visible dans l'écran                                                                                     | Alt+Maj+F       |
-| Activer ou désactiver le mode d'édition                                                                                                                | F2                |
-| Joindre un document                                                                                                               | Ctrl+Maj+A      |
-| Exporter vers Excel                                                                                                                 | Ctrl+Maj+E      |
-| Accéder à l'enregistrement précédent (en dehors d'une grille)                                                                                    | Ctrl+Flèche Haut     |
-| Accéder à l'enregistrement suivant (en dehors d'une grille)                                                                                        | Ctrl+Flèche Bas   |
-| Accéder au premier enregistrement (en dehors d'une grille)                                                                                       | Ctrl+Début         |
-| Accéder au dernier enregistrement (en dehors d'une grille)                                                                                        | Ctrl+Fin          |
-| Ouvrir la liste de navigation des écrans de détails (ou permuter le focus entre la liste de navigation et l'écran principal s'il est déjà ouvert) | Ctrl+F8           |
-| Fermer la liste de navigation dans l'écran de détails (avec le focus sur la liste de navigation)                                                   | Échap               |
+| <span data-ttu-id="22b02-168">**Opération**</span><span class="sxs-lookup"><span data-stu-id="22b02-168">**To do this**</span></span>                                                                                                                  | <span data-ttu-id="22b02-169">**Appuyer**</span><span class="sxs-lookup"><span data-stu-id="22b02-169">**Press**</span></span>         |
+| <span data-ttu-id="22b02-170">Créer un enregistrement</span><span class="sxs-lookup"><span data-stu-id="22b02-170">Create a new record</span></span>                                                                                                             | <span data-ttu-id="22b02-171">Alt+N</span><span class="sxs-lookup"><span data-stu-id="22b02-171">Alt+N</span></span>             |
+| <span data-ttu-id="22b02-172">Supprimer un enregistrement</span><span class="sxs-lookup"><span data-stu-id="22b02-172">Delete a record</span></span>                                                                                                                 | <span data-ttu-id="22b02-173">Alt+Suppr ou Alt+F9</span><span class="sxs-lookup"><span data-stu-id="22b02-173">Alt+Del or Alt+F9</span></span> |
+| <span data-ttu-id="22b02-174">Sauvegarder un enregistrement</span><span class="sxs-lookup"><span data-stu-id="22b02-174">Save record</span></span>                                                                                                                     | <span data-ttu-id="22b02-175">Alt+S ou Ctrl+S</span><span class="sxs-lookup"><span data-stu-id="22b02-175">Alt+S or Ctrl+S</span></span>   |
+| <span data-ttu-id="22b02-176">Rétablir (restaurer)</span><span class="sxs-lookup"><span data-stu-id="22b02-176">Revert (restore)</span></span>                                                                                                                | <span data-ttu-id="22b02-177">Ctrl+Maj+F5</span><span class="sxs-lookup"><span data-stu-id="22b02-177">Ctrl+Shift+F5</span></span>     |
+| <span data-ttu-id="22b02-178">Actualisation des données</span><span class="sxs-lookup"><span data-stu-id="22b02-178">Data refresh</span></span>                                                                                                                    | <span data-ttu-id="22b02-179">Maj+F5</span><span class="sxs-lookup"><span data-stu-id="22b02-179">Shift+F5</span></span>          |
+| <span data-ttu-id="22b02-180">Accéder au premier champ visible dans l'écran</span><span class="sxs-lookup"><span data-stu-id="22b02-180">Move to the visible first field on the form</span></span>                                                                                     | <span data-ttu-id="22b02-181">Alt+Maj+F</span><span class="sxs-lookup"><span data-stu-id="22b02-181">Alt+Shift+F</span></span>       |
+| <span data-ttu-id="22b02-182">Activer ou désactiver le mode d'édition</span><span class="sxs-lookup"><span data-stu-id="22b02-182">Toggle edit mode</span></span>                                                                                                                | <span data-ttu-id="22b02-183">F2</span><span class="sxs-lookup"><span data-stu-id="22b02-183">F2</span></span>                |
+| <span data-ttu-id="22b02-184">Joindre un document</span><span class="sxs-lookup"><span data-stu-id="22b02-184">Attach a document</span></span>                                                                                                               | <span data-ttu-id="22b02-185">Ctrl+Maj+A</span><span class="sxs-lookup"><span data-stu-id="22b02-185">Ctrl+Shift+A</span></span>      |
+| <span data-ttu-id="22b02-186">Exporter vers Excel</span><span class="sxs-lookup"><span data-stu-id="22b02-186">Export to Excel</span></span>                                                                                                                 | <span data-ttu-id="22b02-187">Ctrl+Maj+E</span><span class="sxs-lookup"><span data-stu-id="22b02-187">Ctrl+Shift+E</span></span>      |
+| <span data-ttu-id="22b02-188">Accéder à l'enregistrement précédent (en dehors d'une grille)</span><span class="sxs-lookup"><span data-stu-id="22b02-188">Move to the previous record (outside a grid)</span></span>                                                                                    | <span data-ttu-id="22b02-189">Ctrl+Flèche Haut</span><span class="sxs-lookup"><span data-stu-id="22b02-189">Ctrl+Up Arrow</span></span>     |
+| <span data-ttu-id="22b02-190">Accéder à l'enregistrement suivant (en dehors d'une grille)</span><span class="sxs-lookup"><span data-stu-id="22b02-190">Move to the next record (outside a grid)</span></span>                                                                                        | <span data-ttu-id="22b02-191">Ctrl+Flèche Bas</span><span class="sxs-lookup"><span data-stu-id="22b02-191">Ctrl+Down Arrow</span></span>   |
+| <span data-ttu-id="22b02-192">Accéder au premier enregistrement (en dehors d'une grille)</span><span class="sxs-lookup"><span data-stu-id="22b02-192">Move to the first record (outside a grid)</span></span>                                                                                       | <span data-ttu-id="22b02-193">Ctrl+Début</span><span class="sxs-lookup"><span data-stu-id="22b02-193">Ctrl+Home</span></span>         |
+| <span data-ttu-id="22b02-194">Accéder au dernier enregistrement (en dehors d'une grille)</span><span class="sxs-lookup"><span data-stu-id="22b02-194">Move to the last record (outside a grid)</span></span>                                                                                        | <span data-ttu-id="22b02-195">Ctrl+Fin</span><span class="sxs-lookup"><span data-stu-id="22b02-195">Ctrl+End</span></span>          |
+| <span data-ttu-id="22b02-196">Ouvrir la liste de navigation des écrans de détails (ou permuter le focus entre la liste de navigation et l'écran principal s'il est déjà ouvert)</span><span class="sxs-lookup"><span data-stu-id="22b02-196">Open the navigation list on Details forms (or switch focus between the navigation list and the main form if it is already open)</span></span> | <span data-ttu-id="22b02-197">Ctrl+F8</span><span class="sxs-lookup"><span data-stu-id="22b02-197">Ctrl+F8</span></span>           |
+| <span data-ttu-id="22b02-198">Fermer la liste de navigation dans l'écran de détails (avec le focus sur la liste de navigation)</span><span class="sxs-lookup"><span data-stu-id="22b02-198">Close the navigation list on Details form (with focus in the navigation list)</span></span>                                                   | <span data-ttu-id="22b02-199">Échap</span><span class="sxs-lookup"><span data-stu-id="22b02-199">Esc</span></span>               |
 
  
 
-## <a name="form-navigation-shortcuts"></a>Raccourcis de navigation dans les écrans
+## <a name="form-navigation-shortcuts"></a><span data-ttu-id="22b02-200">Raccourcis de navigation dans les écrans</span><span class="sxs-lookup"><span data-stu-id="22b02-200">Form navigation shortcuts</span></span>
 |                                                     |                                              |
 |-----------------------------------------------------|----------------------------------------------|
-| **Opération**                                      | **Appuyer**                                    |
-| Accéder au champ suivant/précédent                     | Tab/Maj+Tab                              |
-| Accéder à l'onglet suivant/précédent                       | Alt+Maj+Flèche Droite/Alt+Maj+Flèche Gauche |
-| Accéder à l'organisateur suivant/précédent                   | Alt+Maj+Flèche Bas/Alt+Maj+Flèche Haut    |
-| Accéder au &lt;n&gt;ième organisateur                     | Alt+&lt;n&gt; (&lt;n&gt; = 1 à 9)              |
-| Accéder au &lt;n&gt;ième onglet                         | Alt+Maj+&lt;n&gt; (&lt;n&gt; = 1 à 9)        |
-| Développer un organisateur (avec le focus sur l'en-tête de l'organisateur) | Espace ou Entrée                               |
-| Réduire l'organisateur actif                        | Alt+0                                        |
-| Basculer sur la vue grille                                 | Ctrl+Maj+G                                 |
-| Basculer sur la vue détails                              | Ctrl+Maj+D                                 |
-| Basculer sur la vue en-tête                               | Ctrl+Maj+H                                 |
-| Basculer sur la vue lignes                                | Ctrl+Maj+L                                 |
-| Fermer l'écran (cliquer sur Précédent)                         | Échap                                          |
-| Fermer l'écran avec la sauvegarde explicite                   | Maj+Échap                                    |
-| Fermer l'écran en ignorant les modifications non enregistrées       | Alt+Maj+Q                                  |
+| <span data-ttu-id="22b02-201">**Opération**</span><span class="sxs-lookup"><span data-stu-id="22b02-201">**To do this**</span></span>                                      | <span data-ttu-id="22b02-202">**Appuyer**</span><span class="sxs-lookup"><span data-stu-id="22b02-202">**Press**</span></span>                                    |
+| <span data-ttu-id="22b02-203">Accéder au champ suivant/précédent</span><span class="sxs-lookup"><span data-stu-id="22b02-203">Move to the next/previous field</span></span>                     | <span data-ttu-id="22b02-204">Tab/Maj+Tab</span><span class="sxs-lookup"><span data-stu-id="22b02-204">Tab / Shift+Tab</span></span>                              |
+| <span data-ttu-id="22b02-205">Accéder à l'onglet suivant/précédent</span><span class="sxs-lookup"><span data-stu-id="22b02-205">Move to the next/previous tab</span></span>                       | <span data-ttu-id="22b02-206">Alt+Maj+Flèche Droite/Alt+Maj+Flèche Gauche</span><span class="sxs-lookup"><span data-stu-id="22b02-206">Alt+Shift+Right Arrow / Alt+Shift+Left Arrow</span></span> |
+| <span data-ttu-id="22b02-207">Accéder à l'organisateur suivant/précédent</span><span class="sxs-lookup"><span data-stu-id="22b02-207">Move to the next/previous FastTab</span></span>                   | <span data-ttu-id="22b02-208">Alt+Maj+Flèche Bas/Alt+Maj+Flèche Haut</span><span class="sxs-lookup"><span data-stu-id="22b02-208">Alt+Shift+Down Arrow / Alt+Shift+Up Arrow</span></span>    |
+| <span data-ttu-id="22b02-209">Accéder au &lt;n&gt;ième organisateur</span><span class="sxs-lookup"><span data-stu-id="22b02-209">Move to the &lt;n&gt;th FastTab</span></span>                     | <span data-ttu-id="22b02-210">Alt+&lt;n&gt; (&lt;n&gt; = 1 à 9)</span><span class="sxs-lookup"><span data-stu-id="22b02-210">Alt+&lt;n&gt; (&lt;n&gt; = 1-9)</span></span>              |
+| <span data-ttu-id="22b02-211">Accéder au &lt;n&gt;ième onglet</span><span class="sxs-lookup"><span data-stu-id="22b02-211">Move to the &lt;n&gt;th tab</span></span>                         | <span data-ttu-id="22b02-212">Alt+Maj+&lt;n&gt; (&lt;n&gt; = 1 à 9)</span><span class="sxs-lookup"><span data-stu-id="22b02-212">Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)</span></span>        |
+| <span data-ttu-id="22b02-213">Développer un organisateur (avec le focus sur l'en-tête de l'organisateur)</span><span class="sxs-lookup"><span data-stu-id="22b02-213">Expand a FastTab (with focus on the FastTab header)</span></span> | <span data-ttu-id="22b02-214">Espace ou Entrée</span><span class="sxs-lookup"><span data-stu-id="22b02-214">Space or Enter</span></span>                               |
+| <span data-ttu-id="22b02-215">Réduire l'organisateur actif</span><span class="sxs-lookup"><span data-stu-id="22b02-215">Collapse the current FastTab</span></span>                        | <span data-ttu-id="22b02-216">Alt+0</span><span class="sxs-lookup"><span data-stu-id="22b02-216">Alt+0</span></span>                                        |
+| <span data-ttu-id="22b02-217">Basculer sur la vue grille</span><span class="sxs-lookup"><span data-stu-id="22b02-217">Switch to grid view</span></span>                                 | <span data-ttu-id="22b02-218">Ctrl+Maj+G</span><span class="sxs-lookup"><span data-stu-id="22b02-218">Ctrl+Shift+G</span></span>                                 |
+| <span data-ttu-id="22b02-219">Basculer sur la vue détails</span><span class="sxs-lookup"><span data-stu-id="22b02-219">Switch to details view</span></span>                              | <span data-ttu-id="22b02-220">Ctrl+Maj+D</span><span class="sxs-lookup"><span data-stu-id="22b02-220">Ctrl+Shift+D</span></span>                                 |
+| <span data-ttu-id="22b02-221">Basculer sur la vue en-tête</span><span class="sxs-lookup"><span data-stu-id="22b02-221">Switch to header view</span></span>                               | <span data-ttu-id="22b02-222">Ctrl+Maj+H</span><span class="sxs-lookup"><span data-stu-id="22b02-222">Ctrl+Shift+H</span></span>                                 |
+| <span data-ttu-id="22b02-223">Basculer sur la vue lignes</span><span class="sxs-lookup"><span data-stu-id="22b02-223">Switch to lines view</span></span>                                | <span data-ttu-id="22b02-224">Ctrl+Maj+L</span><span class="sxs-lookup"><span data-stu-id="22b02-224">Ctrl+Shift+L</span></span>                                 |
+| <span data-ttu-id="22b02-225">Fermer l'écran (cliquer sur Précédent)</span><span class="sxs-lookup"><span data-stu-id="22b02-225">Close the form (click Back)</span></span>                         | <span data-ttu-id="22b02-226">Échap</span><span class="sxs-lookup"><span data-stu-id="22b02-226">Esc</span></span>                                          |
+| <span data-ttu-id="22b02-227">Fermer l'écran avec la sauvegarde explicite</span><span class="sxs-lookup"><span data-stu-id="22b02-227">Close the form with explicit save</span></span>                   | <span data-ttu-id="22b02-228">Maj+Échap</span><span class="sxs-lookup"><span data-stu-id="22b02-228">Shift+Esc</span></span>                                    |
+| <span data-ttu-id="22b02-229">Fermer l'écran en ignorant les modifications non enregistrées</span><span class="sxs-lookup"><span data-stu-id="22b02-229">Close the form discarding any unsaved changes</span></span>       | <span data-ttu-id="22b02-230">Alt+Maj+Q</span><span class="sxs-lookup"><span data-stu-id="22b02-230">Alt+Shift+Q</span></span>                                  |
 
  
 
-## <a name="grid-shortcuts"></a>Raccourcis de grille
+## <a name="grid-shortcuts"></a><span data-ttu-id="22b02-231">Raccourcis de grille</span><span class="sxs-lookup"><span data-stu-id="22b02-231">Grid shortcuts</span></span>
 |                                                                                                               |                                 |
 |---------------------------------------------------------------------------------------------------------------|---------------------------------|
-| **Opération**                                                                                                | **Appuyer**                       |
-| Accéder à la colonne suivante/précédente                                                                              | Tab/Maj+Tab                 |
-| Accéder à la ligne suivante/précédente                                                                                 | Flèche Bas/Flèche Haut           |
-| Accéder à la ligne suivante/précédente sans sélection (Remarque : ce raccourci s'applique aux scénarios à sélection multiple uniquement.) | Ctrl+Flèche Haut/Ctrl+Flèche Bas |
-| Sélectionner/Effacer la ligne active (Remarque : ce raccourci s'applique aux scénarios à sélection multiple uniquement.)                    | Ctrl+Espace/Ctrl+Clic         |
-| Ajouter la ligne suivante/précédente à l'ensemble sélectionné (Remarque : ce raccourci s'applique aux scénarios à sélection multiple uniquement.)   | Maj+Espace                     |
-| Ajouter une plage de lignes à l'ensemble sélectionné (Remarque : ce raccourci s'applique aux scénarios à sélection multiple uniquement.)         | Maj+Clic                     |
-| Accéder à la page de données suivante/précédente                                                                          | Page précédente/Page suivante             |
-| Créer une ligne en bas de la grille                                                                    | Flèche Bas (à partir de la dernière ligne)  |
-| Sélectionner ou effacer toutes les lignes                                                                                      | Ctrl+Maj+M                    |
-| Accéder au premier enregistrement                                                                                      | Ctrl+Début                       |
-| Accéder au dernier enregistrement                                                                                       | Ctrl+Fin                        |
+| <span data-ttu-id="22b02-232">**Opération**</span><span class="sxs-lookup"><span data-stu-id="22b02-232">**To do this**</span></span>                                                                                                | <span data-ttu-id="22b02-233">**Appuyer**</span><span class="sxs-lookup"><span data-stu-id="22b02-233">**Press**</span></span>                       |
+| <span data-ttu-id="22b02-234">Accéder à la colonne suivante/précédente</span><span class="sxs-lookup"><span data-stu-id="22b02-234">Move to the next/previous column</span></span>                                                                              | <span data-ttu-id="22b02-235">Tab/Maj+Tab</span><span class="sxs-lookup"><span data-stu-id="22b02-235">Tab / Shift+Tab</span></span>                 |
+| <span data-ttu-id="22b02-236">Accéder à la ligne suivante/précédente</span><span class="sxs-lookup"><span data-stu-id="22b02-236">Move to the next/previous row</span></span>                                                                                 | <span data-ttu-id="22b02-237">Flèche Bas/Flèche Haut</span><span class="sxs-lookup"><span data-stu-id="22b02-237">Down Arrow / Up Arrow</span></span>           |
+| <span data-ttu-id="22b02-238">Accéder à la ligne suivante/précédente sans sélection (Remarque : ce raccourci s'applique aux scénarios à sélection multiple uniquement.)</span><span class="sxs-lookup"><span data-stu-id="22b02-238">Move to the next/previous row without selecting (Note: This shortcut applies to multi-select scenarios only.)</span></span> | <span data-ttu-id="22b02-239">Ctrl+Flèche Haut/Ctrl+Flèche Bas</span><span class="sxs-lookup"><span data-stu-id="22b02-239">Ctrl+Up Arrow / Ctrl+Down Arrow</span></span> |
+| <span data-ttu-id="22b02-240">Sélectionner/Effacer la ligne active (Remarque : ce raccourci s'applique aux scénarios à sélection multiple uniquement.)</span><span class="sxs-lookup"><span data-stu-id="22b02-240">Select/clear the current row (Note: This shortcut applies to multi-select scenarios only.)</span></span>                    | <span data-ttu-id="22b02-241">Ctrl+Espace/Ctrl+Clic</span><span class="sxs-lookup"><span data-stu-id="22b02-241">Ctrl+Space / Ctrl+Click</span></span>         |
+| <span data-ttu-id="22b02-242">Ajouter la ligne suivante/précédente à l'ensemble sélectionné (Remarque : ce raccourci s'applique aux scénarios à sélection multiple uniquement.)</span><span class="sxs-lookup"><span data-stu-id="22b02-242">Add the next/previous row to the selected set (Note: This shortcut applies to multi-select scenarios only.)</span></span>   | <span data-ttu-id="22b02-243">Maj+Espace</span><span class="sxs-lookup"><span data-stu-id="22b02-243">Shift+Space</span></span>                     |
+| <span data-ttu-id="22b02-244">Ajouter une plage de lignes à l'ensemble sélectionné (Remarque : ce raccourci s'applique aux scénarios à sélection multiple uniquement.)</span><span class="sxs-lookup"><span data-stu-id="22b02-244">Add a range of rows to the selected set (Note: This shortcut applies to multi-select scenarios only.)</span></span>         | <span data-ttu-id="22b02-245">Maj+Clic</span><span class="sxs-lookup"><span data-stu-id="22b02-245">Shift+Click</span></span>                     |
+| <span data-ttu-id="22b02-246">Accéder à la page de données suivante/précédente</span><span class="sxs-lookup"><span data-stu-id="22b02-246">Go to the next/previous page of data</span></span>                                                                          | <span data-ttu-id="22b02-247">Page précédente/Page suivante</span><span class="sxs-lookup"><span data-stu-id="22b02-247">Page Up / Page Down</span></span>             |
+| <span data-ttu-id="22b02-248">Créer une ligne en bas de la grille</span><span class="sxs-lookup"><span data-stu-id="22b02-248">Create a new row at the bottom of the grid</span></span>                                                                    | <span data-ttu-id="22b02-249">Flèche Bas (à partir de la dernière ligne)</span><span class="sxs-lookup"><span data-stu-id="22b02-249">Down Arrow (from the last row)</span></span>  |
+| <span data-ttu-id="22b02-250">Sélectionner ou effacer toutes les lignes</span><span class="sxs-lookup"><span data-stu-id="22b02-250">Select or clear all rows</span></span>                                                                                      | <span data-ttu-id="22b02-251">Ctrl+Maj+M</span><span class="sxs-lookup"><span data-stu-id="22b02-251">Ctrl+Shift+M</span></span>                    |
+| <span data-ttu-id="22b02-252">Accéder au premier enregistrement</span><span class="sxs-lookup"><span data-stu-id="22b02-252">Move to the first record</span></span>                                                                                      | <span data-ttu-id="22b02-253">Ctrl+Début</span><span class="sxs-lookup"><span data-stu-id="22b02-253">Ctrl+Home</span></span>                       |
+| <span data-ttu-id="22b02-254">Accéder au dernier enregistrement</span><span class="sxs-lookup"><span data-stu-id="22b02-254">Move to the last record</span></span>                                                                                       | <span data-ttu-id="22b02-255">Ctrl+Fin</span><span class="sxs-lookup"><span data-stu-id="22b02-255">Ctrl+End</span></span>                        |
 
  
 
-## <a name="input-control-shortcuts"></a>Raccourcis de contrôle d'entrée
+## <a name="input-control-shortcuts"></a><span data-ttu-id="22b02-256">Raccourcis de contrôle d'entrée</span><span class="sxs-lookup"><span data-stu-id="22b02-256">Input control shortcuts</span></span>
 |                                                            |                               |
 |------------------------------------------------------------|-------------------------------|
-| **Opération**                                             | **Appuyer**                     |
-| Entrer la date de session dans un champ de date                     | D+Tab                         |
-| Entrer la date actuelle dans un champ de date                     | T+Tab                         |
-| Ouvrir la recherche, la zone de liste, le sélecteur de date, la boîte de dialogue           | Alt + Flèche Bas                |
-| Fermer la recherche, la zone de liste, le sélecteur de date, la boîte de dialogue          | Échap                           |
-| Déplacer le focus sur une recherche (lorsque la recherche est déjà ouverte) | Alt + Flèche Bas                |
-| Ouvrir l'aperçu amélioré du contrôle                        | Alt + Flèche Haut                  |
-| Sélectionner le texte dans le champ actif                           | Ctrl+A                        |
-| Entrer/quitter la zone de texte d'un contrôle d'éditeur HTML        | Alt+Flèche Bas/Alt+Flèche Haut |
+| <span data-ttu-id="22b02-257">**Opération**</span><span class="sxs-lookup"><span data-stu-id="22b02-257">**To do this**</span></span>                                             | <span data-ttu-id="22b02-258">**Appuyer**</span><span class="sxs-lookup"><span data-stu-id="22b02-258">**Press**</span></span>                     |
+| <span data-ttu-id="22b02-259">Entrer la date de session dans un champ de date</span><span class="sxs-lookup"><span data-stu-id="22b02-259">Enter the session date in a date field</span></span>                     | <span data-ttu-id="22b02-260">D+Tab</span><span class="sxs-lookup"><span data-stu-id="22b02-260">D+Tab</span></span>                         |
+| <span data-ttu-id="22b02-261">Entrer la date actuelle dans un champ de date</span><span class="sxs-lookup"><span data-stu-id="22b02-261">Enter the current date in a date field</span></span>                     | <span data-ttu-id="22b02-262">T+Tab</span><span class="sxs-lookup"><span data-stu-id="22b02-262">T+Tab</span></span>                         |
+| <span data-ttu-id="22b02-263">Ouvrir la recherche, la zone de liste, le sélecteur de date, la boîte de dialogue</span><span class="sxs-lookup"><span data-stu-id="22b02-263">Open lookup, combo box, date picker, drop dialog</span></span>           | <span data-ttu-id="22b02-264">Alt + Flèche Bas</span><span class="sxs-lookup"><span data-stu-id="22b02-264">Alt+Down Arrow</span></span>                |
+| <span data-ttu-id="22b02-265">Fermer la recherche, la zone de liste, le sélecteur de date, la boîte de dialogue</span><span class="sxs-lookup"><span data-stu-id="22b02-265">Close lookup, combo box, date picker, drop dialog</span></span>          | <span data-ttu-id="22b02-266">Échap</span><span class="sxs-lookup"><span data-stu-id="22b02-266">Esc</span></span>                           |
+| <span data-ttu-id="22b02-267">Déplacer le focus sur une recherche (lorsque la recherche est déjà ouverte)</span><span class="sxs-lookup"><span data-stu-id="22b02-267">Move focus into a lookup (when the lookup is already open)</span></span> | <span data-ttu-id="22b02-268">Alt + Flèche Bas</span><span class="sxs-lookup"><span data-stu-id="22b02-268">Alt+Down Arrow</span></span>                |
+| <span data-ttu-id="22b02-269">Ouvrir l'aperçu amélioré du contrôle</span><span class="sxs-lookup"><span data-stu-id="22b02-269">Open the control's enhanced preview</span></span>                        | <span data-ttu-id="22b02-270">Alt + Flèche Haut</span><span class="sxs-lookup"><span data-stu-id="22b02-270">Alt+Up Arrow</span></span>                  |
+| <span data-ttu-id="22b02-271">Sélectionner le texte dans le champ actif</span><span class="sxs-lookup"><span data-stu-id="22b02-271">Select text in the current field</span></span>                           | <span data-ttu-id="22b02-272">Ctrl+A</span><span class="sxs-lookup"><span data-stu-id="22b02-272">Ctrl+A</span></span>                        |
+| <span data-ttu-id="22b02-273">Entrer/quitter la zone de texte d'un contrôle d'éditeur HTML</span><span class="sxs-lookup"><span data-stu-id="22b02-273">Enter/leave the text area in an HTML editor control</span></span>        | <span data-ttu-id="22b02-274">Alt+Flèche Bas/Alt+Flèche Haut</span><span class="sxs-lookup"><span data-stu-id="22b02-274">Alt+Down Arrow / Alt+Up Arrow</span></span> |
 
  
 
-## <a name="messaging-shortcuts"></a>Raccourcis de messagerie
+## <a name="messaging-shortcuts"></a><span data-ttu-id="22b02-275">Raccourcis de messagerie</span><span class="sxs-lookup"><span data-stu-id="22b02-275">Messaging shortcuts</span></span>
 |                          |               |
 |--------------------------|---------------|
-| **Opération**           | **Appuyer**     |
-| Accéder au centre de messages | Ctrl+Maj+F7 |
-| Accéder à la barre de messages    | Ctrl+F7       |
+| <span data-ttu-id="22b02-276">**Opération**</span><span class="sxs-lookup"><span data-stu-id="22b02-276">**To do this**</span></span>           | <span data-ttu-id="22b02-277">**Appuyer**</span><span class="sxs-lookup"><span data-stu-id="22b02-277">**Press**</span></span>     |
+| <span data-ttu-id="22b02-278">Accéder au centre de messages</span><span class="sxs-lookup"><span data-stu-id="22b02-278">Go to the Message Center</span></span> | <span data-ttu-id="22b02-279">Ctrl+Maj+F7</span><span class="sxs-lookup"><span data-stu-id="22b02-279">Ctrl+Shift+F7</span></span> |
+| <span data-ttu-id="22b02-280">Accéder à la barre de messages</span><span class="sxs-lookup"><span data-stu-id="22b02-280">Go to the Message Bar</span></span>    | <span data-ttu-id="22b02-281">Ctrl+F7</span><span class="sxs-lookup"><span data-stu-id="22b02-281">Ctrl+F7</span></span>       |
 
  
 
-## <a name="navigation-shortcuts"></a>Raccourcis de navigation
+## <a name="navigation-shortcuts"></a><span data-ttu-id="22b02-282">Raccourcis de navigation</span><span class="sxs-lookup"><span data-stu-id="22b02-282">Navigation shortcuts</span></span>
 |                                                                           |                 |
 |---------------------------------------------------------------------------|-----------------|
-| **Opération**                                                            | **Appuyer**       |
-| Accéder au tableau de bord                                                       | Alt+Maj+Début  |
-| Accéder à la barre de navigation                                                  | Alt+Maj+F1    |
-| Accéder au volet de navigation                                                 | Alt + F1          |
-| Marquer ou non un écran comme favori (avec le focus sur un écran dans le volet de navigation) | Shift+F         |
-| Accéder au sélecteur de société                                                  | Ctrl+Maj+O    |
-| Accéder à la recherche de navigation                                                   | Ctrl+/ ou Alt+G |
-| Ouvrir la fenêtre d'aide                                                        | Ctrl+?          |
-| Ouvrir l'analyseur de suivi                                                     | Alt+Shift+T     |
+| <span data-ttu-id="22b02-283">**Opération**</span><span class="sxs-lookup"><span data-stu-id="22b02-283">**To do this**</span></span>                                                            | <span data-ttu-id="22b02-284">**Appuyer**</span><span class="sxs-lookup"><span data-stu-id="22b02-284">**Press**</span></span>       |
+| <span data-ttu-id="22b02-285">Accéder au tableau de bord</span><span class="sxs-lookup"><span data-stu-id="22b02-285">Go to the dashboard</span></span>                                                       | <span data-ttu-id="22b02-286">Alt+Maj+Début</span><span class="sxs-lookup"><span data-stu-id="22b02-286">Alt+Shift+Home</span></span>  |
+| <span data-ttu-id="22b02-287">Accéder à la barre de navigation</span><span class="sxs-lookup"><span data-stu-id="22b02-287">Go to the navigation bar</span></span>                                                  | <span data-ttu-id="22b02-288">Alt+Maj+F1</span><span class="sxs-lookup"><span data-stu-id="22b02-288">Alt+Shift+F1</span></span>    |
+| <span data-ttu-id="22b02-289">Accéder au volet de navigation</span><span class="sxs-lookup"><span data-stu-id="22b02-289">Go to the navigation pane</span></span>                                                 | <span data-ttu-id="22b02-290">Alt + F1</span><span class="sxs-lookup"><span data-stu-id="22b02-290">Alt+F1</span></span>          |
+| <span data-ttu-id="22b02-291">Marquer ou non un écran comme favori (avec le focus sur un écran dans le volet de navigation)</span><span class="sxs-lookup"><span data-stu-id="22b02-291">Favorite/un-favorite a form (with focus on a form in the navigation pane)</span></span> | <span data-ttu-id="22b02-292">Shift+F</span><span class="sxs-lookup"><span data-stu-id="22b02-292">Shift+F</span></span>         |
+| <span data-ttu-id="22b02-293">Accéder au sélecteur de société</span><span class="sxs-lookup"><span data-stu-id="22b02-293">Go to the company picker</span></span>                                                  | <span data-ttu-id="22b02-294">Ctrl+Maj+O</span><span class="sxs-lookup"><span data-stu-id="22b02-294">Ctrl+Shift+O</span></span>    |
+| <span data-ttu-id="22b02-295">Accéder à la recherche de navigation</span><span class="sxs-lookup"><span data-stu-id="22b02-295">Go to navigation search</span></span>                                                   | <span data-ttu-id="22b02-296">Ctrl+/ ou Alt+G</span><span class="sxs-lookup"><span data-stu-id="22b02-296">Ctrl+/ or Alt+G</span></span> |
+| <span data-ttu-id="22b02-297">Ouvrir la fenêtre d'aide</span><span class="sxs-lookup"><span data-stu-id="22b02-297">Open the help pane</span></span>                                                        | <span data-ttu-id="22b02-298">Ctrl+?</span><span class="sxs-lookup"><span data-stu-id="22b02-298">Ctrl+?</span></span>          |
+| <span data-ttu-id="22b02-299">Ouvrir l'analyseur de suivi</span><span class="sxs-lookup"><span data-stu-id="22b02-299">Open the trace parser</span></span>                                                     | <span data-ttu-id="22b02-300">Alt+Shift+T</span><span class="sxs-lookup"><span data-stu-id="22b02-300">Alt+Shift+T</span></span>     |
 
  
 
-## <a name="segmented-entry-shortcuts"></a>Raccourcis d'entrée segmentée
+## <a name="segmented-entry-shortcuts"></a><span data-ttu-id="22b02-301">Raccourcis d'entrée segmentée</span><span class="sxs-lookup"><span data-stu-id="22b02-301">Segmented entry shortcuts</span></span>
 |                                                                                                                         |                                  |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
-| **Opération**                                                                                                          | **Raccourci**                        |
-| Ouvrir la liste déroulante (lorsqu'elle est fermée)                                                             | Alt + Flèche Bas                   |
-| Déplacer le focus sur le champ de saisie pour le segment actif dans la liste déroulante (lorsque la liste déroulante est déjà ouverte) | Alt + Flèche Bas                   |
-| Fermer la liste déroulante                                                                                                | Alt+Flèche Haut                     |
-| Fermer/Ouvrir la partie droite de la liste déroulante                                                                      | Alt+Flèche gauche/Alt+Flèche droite |
-| Permuter entre les modes Afficher valide et Afficher tout                                                                        | Alt+W                            |
-| Sélectionner la valeur dans la liste déroulante et passer au segment suivant                                                       | Entrer                            |
-| Accéder au contrôle suivant/précédent dans la page (lorsque le focus est sur le contrôle d'entrée)                                          | Tab/Maj+Tab                  |
-| Accéder au champ de saisie suivant/précédent dans le menu volant (lorsque le focus est sur la liste déroulante)                               | Tab/Maj+Tab                  |
-| Monter/descendre d'une ligne dans la recherche                                                                                        | Flèche Haut/Flèche Bas            |
-| Monter/descendre d'une page dans la recherche                                                                                       | Page précédente/Page suivante              |
-| Atteindre le haut ou le bas de la recherche                                                                                    | Début/Fin                       |
+| <span data-ttu-id="22b02-302">**Opération**</span><span class="sxs-lookup"><span data-stu-id="22b02-302">**To do this**</span></span>                                                                                                          | <span data-ttu-id="22b02-303">**Raccourci**</span><span class="sxs-lookup"><span data-stu-id="22b02-303">**Press**</span></span>                        |
+| <span data-ttu-id="22b02-304">Ouvrir la liste déroulante (lorsqu'elle est fermée)</span><span class="sxs-lookup"><span data-stu-id="22b02-304">Open the drop-down list (when the drop-down list is closed)</span></span>                                                             | <span data-ttu-id="22b02-305">Alt + Flèche Bas</span><span class="sxs-lookup"><span data-stu-id="22b02-305">Alt+Down Arrow</span></span>                   |
+| <span data-ttu-id="22b02-306">Déplacer le focus sur le champ de saisie pour le segment actif dans la liste déroulante (lorsque la liste déroulante est déjà ouverte)</span><span class="sxs-lookup"><span data-stu-id="22b02-306">Move focus into the input field for the current segment in the drop-down list (when the drop-down list is already open)</span></span> | <span data-ttu-id="22b02-307">Alt + Flèche Bas</span><span class="sxs-lookup"><span data-stu-id="22b02-307">Alt+Down Arrow</span></span>                   |
+| <span data-ttu-id="22b02-308">Fermer la liste déroulante</span><span class="sxs-lookup"><span data-stu-id="22b02-308">Close the drop-down list</span></span>                                                                                                | <span data-ttu-id="22b02-309">Alt+Flèche Haut</span><span class="sxs-lookup"><span data-stu-id="22b02-309">Alt+Up Arrow</span></span>                     |
+| <span data-ttu-id="22b02-310">Fermer/Ouvrir la partie droite de la liste déroulante</span><span class="sxs-lookup"><span data-stu-id="22b02-310">Close/open the right portion of the drop-down list</span></span>                                                                      | <span data-ttu-id="22b02-311">Alt+Flèche gauche/Alt+Flèche droite</span><span class="sxs-lookup"><span data-stu-id="22b02-311">Alt+Left Arrow / Alt+Right Arrow</span></span> |
+| <span data-ttu-id="22b02-312">Permuter entre les modes Afficher valide et Afficher tout</span><span class="sxs-lookup"><span data-stu-id="22b02-312">Toggle between “Show valid” and “Show all” modes</span></span>                                                                        | <span data-ttu-id="22b02-313">Alt+W</span><span class="sxs-lookup"><span data-stu-id="22b02-313">Alt+W</span></span>                            |
+| <span data-ttu-id="22b02-314">Sélectionner la valeur dans la liste déroulante et passer au segment suivant</span><span class="sxs-lookup"><span data-stu-id="22b02-314">Select the value from drop-down list and move to the next segment</span></span>                                                       | <span data-ttu-id="22b02-315">Entrer</span><span class="sxs-lookup"><span data-stu-id="22b02-315">Enter</span></span>                            |
+| <span data-ttu-id="22b02-316">Accéder au contrôle suivant/précédent dans la page (lorsque le focus est sur le contrôle d'entrée)</span><span class="sxs-lookup"><span data-stu-id="22b02-316">Move to the next/previous control on the page (when focus is in input control)</span></span>                                          | <span data-ttu-id="22b02-317">Tab/Maj+Tab</span><span class="sxs-lookup"><span data-stu-id="22b02-317">Tab / Shift+Tab</span></span>                  |
+| <span data-ttu-id="22b02-318">Accéder au champ de saisie suivant/précédent dans le menu volant (lorsque le focus est sur la liste déroulante)</span><span class="sxs-lookup"><span data-stu-id="22b02-318">Move to the next/previous input field in the flyout (when focus is in the drop-down list)</span></span>                               | <span data-ttu-id="22b02-319">Tab/Maj+Tab</span><span class="sxs-lookup"><span data-stu-id="22b02-319">Tab / Shift+Tab</span></span>                  |
+| <span data-ttu-id="22b02-320">Monter/descendre d'une ligne dans la recherche</span><span class="sxs-lookup"><span data-stu-id="22b02-320">Move up/down a row in the lookup</span></span>                                                                                        | <span data-ttu-id="22b02-321">Flèche Haut/Flèche Bas</span><span class="sxs-lookup"><span data-stu-id="22b02-321">Up Arrow / Down Arrow</span></span>            |
+| <span data-ttu-id="22b02-322">Monter/descendre d'une page dans la recherche</span><span class="sxs-lookup"><span data-stu-id="22b02-322">Move up/down a page in the lookup</span></span>                                                                                       | <span data-ttu-id="22b02-323">Page précédente/Page suivante</span><span class="sxs-lookup"><span data-stu-id="22b02-323">Page Up / Page Down</span></span>              |
+| <span data-ttu-id="22b02-324">Atteindre le haut ou le bas de la recherche</span><span class="sxs-lookup"><span data-stu-id="22b02-324">Move to the top/bottom of the lookup</span></span>                                                                                    | <span data-ttu-id="22b02-325">Début/Fin</span><span class="sxs-lookup"><span data-stu-id="22b02-325">Home / End</span></span>                       |
 
  
 

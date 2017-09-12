@@ -17,26 +17,26 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 7d5c731aaf0f9dc8912c0902ec98f0822315958f
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: ea2ff4416736993f63863f3059e244998026d1cd
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-cover-and-signature-pages-for-a-payments-report-for-the-public-sector"></a>Créer une couverture et des pages de signature pour un état de paiement pour le secteur public
+# <a name="create-cover-and-signature-pages-for-a-payments-report-for-the-public-sector"></a><span data-ttu-id="831a3-103">Créer une couverture et des pages de signature pour un état de paiement pour le secteur public</span><span class="sxs-lookup"><span data-stu-id="831a3-103">Create cover and signature pages for a payments report for the public sector</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Lorsque vous créez les pages de couverture et de signature pour un état de paiement, vous pouvez spécifier les informations qui doivent y figurer. Notamment, par exemple, les noms et les fonctions des personnes qui doivent approuver les paiements proposés. Cette procédure a été créée à l'aide des données de la société fictive PSUS dans la partition du secteur public.
+<span data-ttu-id="831a3-104">Lorsque vous créez les pages de couverture et de signature pour un état de paiement, vous pouvez spécifier les informations qui doivent y figurer.</span><span class="sxs-lookup"><span data-stu-id="831a3-104">When you create cover and signature pages for a payment report, you can specify what information should appear.</span></span> <span data-ttu-id="831a3-105">Notamment, par exemple, les noms et les fonctions des personnes qui doivent approuver les paiements proposés.</span><span class="sxs-lookup"><span data-stu-id="831a3-105">This includes, for example, the names and titles of the people who should approve the proposed payments.</span></span> <span data-ttu-id="831a3-106">Cette procédure a été créée à l'aide des données de la société fictive PSUS dans la partition du secteur public.</span><span class="sxs-lookup"><span data-stu-id="831a3-106">This procedure was created using the PSUS demo company data in the public sector partition.</span></span>
 
-1. Accédez à Comptabilité fournisseur > Paramétrage des paiements > Page de couverture pour l'état des paiements.
-2. Cliquez sur Modifier.
-3. Dans le champ Nombre de lignes de signature, sélectionnez une option.
-4. Tapez une valeur dans le champ Nom.
-5. Tapez une valeur dans le champ Titre.
-6. Facultatif : cochez la case Imprimer le nom pour imprimer le nom du signataire dans l'état.
-7. Facultatif : cochez la case Imprimer le titre pour imprimer le titre dans l'état.
-    * Si nécessaire, ajoutez des noms supplémentaires, puis sélectionnez les options que vous souhaitez.  
-8. Cliquez sur Enregistrer.
+1. <span data-ttu-id="831a3-107">Accédez à Comptabilité fournisseur > Paramétrage des paiements > Page de couverture pour l'état des paiements.</span><span class="sxs-lookup"><span data-stu-id="831a3-107">Go to Accounts payable > Payment setup > Cover page for payments report.</span></span>
+2. <span data-ttu-id="831a3-108">Cliquez sur Modifier.</span><span class="sxs-lookup"><span data-stu-id="831a3-108">Click Edit.</span></span>
+3. <span data-ttu-id="831a3-109">Dans le champ Nombre de lignes de signature, sélectionnez une option.</span><span class="sxs-lookup"><span data-stu-id="831a3-109">In the Number of signature lines field, select an option.</span></span>
+4. <span data-ttu-id="831a3-110">Tapez une valeur dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="831a3-110">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="831a3-111">Tapez une valeur dans le champ Titre.</span><span class="sxs-lookup"><span data-stu-id="831a3-111">In the Title field, type a value.</span></span>
+6. <span data-ttu-id="831a3-112">Facultatif : cochez la case Imprimer le nom pour imprimer le nom du signataire dans l'état.</span><span class="sxs-lookup"><span data-stu-id="831a3-112">Optional: Select the Print name check box to print the signatory's name on the report.</span></span>
+7. <span data-ttu-id="831a3-113">Facultatif : cochez la case Imprimer le titre pour imprimer le titre dans l'état.</span><span class="sxs-lookup"><span data-stu-id="831a3-113">Optional: Select the Print title check box to print the title on the report.</span></span>
+    * <span data-ttu-id="831a3-114">Si nécessaire, ajoutez des noms supplémentaires, puis sélectionnez les options que vous souhaitez.</span><span class="sxs-lookup"><span data-stu-id="831a3-114">If needed, add additional names, and select any options that you want.</span></span>  
+8. <span data-ttu-id="831a3-115">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="831a3-115">Click Save.</span></span>
 
 

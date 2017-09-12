@@ -19,113 +19,113 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: fb4a7c21ecc46d83f35b12ac5552dcecbeb8bf0f
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 004f3f24ec410d9f0e7d1e7264ec2730b9467410
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="posting-definition-examples"></a>Exemples de définitions de validation
+# <a name="posting-definition-examples"></a><span data-ttu-id="95e5c-103">Exemples de définitions de validation</span><span class="sxs-lookup"><span data-stu-id="95e5c-103">Posting definition examples</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Cet article fournit des exemples décrivant la manière dont les définitions de validation sont utilisées pour les engagements de commande fournisseur et les affectations budgétaires.
+<span data-ttu-id="95e5c-104">Cet article fournit des exemples décrivant la manière dont les définitions de validation sont utilisées pour les engagements de commande fournisseur et les affectations budgétaires.</span><span class="sxs-lookup"><span data-stu-id="95e5c-104">This article provides examples that show how posting definitions are used for purchase order encumbrances and budget appropriations.</span></span>
 
-Avant de lire cette rubrique, vous devez être familiarisé avec les définitions de validation et de validation de transaction. Pour plus d'informations, voir [Définitions de validation](posting-definitions.md). Les exemples suivants peuvent être configurés dans la page **Définitions de validation**. Chaque exemple contient les sections suivantes :
+<span data-ttu-id="95e5c-105">Avant de lire cette rubrique, vous devez être familiarisé avec les définitions de validation et de validation de transaction.</span><span class="sxs-lookup"><span data-stu-id="95e5c-105">Before you read this topic, you should be familiar with posting definitions and transaction posting definitions.</span></span> <span data-ttu-id="95e5c-106">Pour plus d'informations, voir [Définitions de validation](posting-definitions.md).</span><span class="sxs-lookup"><span data-stu-id="95e5c-106">For information, see [Posting definitions](posting-definitions.md).</span></span> <span data-ttu-id="95e5c-107">Les exemples suivants peuvent être configurés dans la page **Définitions de validation**.</span><span class="sxs-lookup"><span data-stu-id="95e5c-107">The following examples can be set up on the **Posting definitions** page.</span></span> <span data-ttu-id="95e5c-108">Chaque exemple contient les sections suivantes :</span><span class="sxs-lookup"><span data-stu-id="95e5c-108">Each example contains these sections:</span></span>
 
--   Définition de validation – Critères de rapprochement
--   Définition de validation – Entrées générées
--   Transactions avec les comptes, valeurs de dimension et montants
--   Écritures comptables générées à partir de la définition de validation
+-   <span data-ttu-id="95e5c-109">Définition de validation – Critères de rapprochement</span><span class="sxs-lookup"><span data-stu-id="95e5c-109">Posting definition – Match criteria</span></span>
+-   <span data-ttu-id="95e5c-110">Définition de validation – Entrées générées</span><span class="sxs-lookup"><span data-stu-id="95e5c-110">Posting definition – Generated entries</span></span>
+-   <span data-ttu-id="95e5c-111">Transactions avec les comptes, valeurs de dimension et montants</span><span class="sxs-lookup"><span data-stu-id="95e5c-111">Transactions with the accounts, dimension values, and amounts</span></span>
+-   <span data-ttu-id="95e5c-112">Écritures comptables générées à partir de la définition de validation</span><span class="sxs-lookup"><span data-stu-id="95e5c-112">Ledger entries generated from the posting definition</span></span>
 
-Lorsqu'une correspondance existe entre les comptes et les valeurs de dimension dans le volet **Critère de rapprochement** de la définition de validation, ainsi qu'entre les comptes et les valeurs de dimension de la transaction, les écritures comptables sont générées selon le contenu du volet **Entrées générées** pour la définition de validation. 
+<span data-ttu-id="95e5c-113">Lorsqu'une correspondance existe entre les comptes et les valeurs de dimension dans le volet **Critère de rapprochement** de la définition de validation, ainsi qu'entre les comptes et les valeurs de dimension de la transaction, les écritures comptables sont générées selon le contenu du volet **Entrées générées** pour la définition de validation.</span><span class="sxs-lookup"><span data-stu-id="95e5c-113">When a match occurs between the accounts and dimension values in the **Match criteria** pane for the posting definition and the accounts and dimension values on the transaction, ledger entries are generated based on the **Generated entries** pane for the posting definition.</span></span> 
 > [!NOTE]
-> Pour associer une définition de validation à un type de transaction spécifique, utilisez la page **Définitions de validation de transaction**. Après avoir associé une définition de validation à un type de transaction et sélectionné l'option **Utiliser les définitions de validation** sur la page **Paramètres de comptabilité**, toutes les transactions du type sélectionné doivent utiliser les définitions de validation.
+> <span data-ttu-id="95e5c-114">Pour associer une définition de validation à un type de transaction spécifique, utilisez la page **Définitions de validation de transaction**.</span><span class="sxs-lookup"><span data-stu-id="95e5c-114">To associate a posting definition with a specific transaction type, use the **Transaction posting definitions** page.</span></span> <span data-ttu-id="95e5c-115">Après avoir associé une définition de validation à un type de transaction et sélectionné l'option **Utiliser les définitions de validation** sur la page **Paramètres de comptabilité**, toutes les transactions du type sélectionné doivent utiliser les définitions de validation.</span><span class="sxs-lookup"><span data-stu-id="95e5c-115">After you associate a posting definition with a transaction type and select **Use posting definitions** on the **General ledger parameters** page, all transactions of the selected transaction type must use posting definitions.</span></span>
 
-## <a name="example-purchase-order-encumbrances"></a>Exemple : engagements de commande fournisseur
-Lorsque vous activez le processus d'engagement en sélectionnant **Activer le processus d'engagement** dans la page **Paramètres de comptabilité**, les définitions de validation doivent être utilisées pour enregistrer les engagements dans la comptabilité pour tous les comptes devant être réservés. Dans la plupart des cas, tous les comptes de dépenses sont réservés sur le compte de bilan. 
+## <a name="example-purchase-order-encumbrances"></a><span data-ttu-id="95e5c-116">Exemple : engagements de commande fournisseur</span><span class="sxs-lookup"><span data-stu-id="95e5c-116">Example: Purchase order encumbrances</span></span>
+<span data-ttu-id="95e5c-117">Lorsque vous activez le processus d'engagement en sélectionnant **Activer le processus d'engagement** dans la page **Paramètres de comptabilité**, les définitions de validation doivent être utilisées pour enregistrer les engagements dans la comptabilité pour tous les comptes devant être réservés.</span><span class="sxs-lookup"><span data-stu-id="95e5c-117">When you enable encumbrance processing by selecting **Enable encumbrance process** on the **General ledger parameters** page, posting definitions must be used to record encumbrances to the general ledger for any accounts that should be reserved.</span></span> <span data-ttu-id="95e5c-118">Dans la plupart des cas, tous les comptes de dépenses sont réservés sur le compte de bilan.</span><span class="sxs-lookup"><span data-stu-id="95e5c-118">In most cases, all expense accounts are reserved on the balance sheet.</span></span> 
 
-Les définitions de validation des engagements sont paramétrées pour le module **Achat en cours** dans la page **Définitions de validation**. Puis, dans la zone **Achat en cours** de la page **Définitions de validation de transaction**, vous pouvez sélectionner le type de transaction **Commande fournisseur** pour associer la définition de validation aux commandes fournisseur. 
+<span data-ttu-id="95e5c-119">Les définitions de validation des engagements sont paramétrées pour le module **Achat en cours** dans la page **Définitions de validation**.</span><span class="sxs-lookup"><span data-stu-id="95e5c-119">Posting definitions for encumbrances are set up for the **Purchasing** module on the **Posting definitions** page.</span></span> <span data-ttu-id="95e5c-120">Puis, dans la zone **Achat en cours** de la page **Définitions de validation de transaction**, vous pouvez sélectionner le type de transaction **Commande fournisseur** pour associer la définition de validation aux commandes fournisseur.</span><span class="sxs-lookup"><span data-stu-id="95e5c-120">Then, in the **Purchasing** area of the **Transaction posting definitions** page, you can select the **Purchase order** transaction type to associate the posting definition with purchase orders.</span></span> 
 
-Toutes les transactions de N° document pour les engagements de commandes fournisseur doivent être équilibrées (c'est-à-dire, le débit doit être égal au crédit) dans chaque dimension unique d'un N° document.
+<span data-ttu-id="95e5c-121">Toutes les transactions de N° document pour les engagements de commandes fournisseur doivent être équilibrées (c'est-à-dire, le débit doit être égal au crédit) dans chaque dimension unique d'un N° document.</span><span class="sxs-lookup"><span data-stu-id="95e5c-121">All voucher transactions for purchase order encumbrances must balance (that is, debits must equal credits) in each unique dimension on a voucher.</span></span>
 
-### <a name="posting-definition--match-criteria"></a>Définition de validation – Critères de rapprochement
+### <a name="posting-definition--match-criteria"></a><span data-ttu-id="95e5c-122">Définition de validation – Critères de rapprochement</span><span class="sxs-lookup"><span data-stu-id="95e5c-122">Posting definition – Match criteria</span></span>
 
-| Structure de compte       | Numéro de compte de rapprochement | Priorité |
+| <span data-ttu-id="95e5c-123">Structure de compte</span><span class="sxs-lookup"><span data-stu-id="95e5c-123">Account structure</span></span>       | <span data-ttu-id="95e5c-124">Numéro de compte de rapprochement</span><span class="sxs-lookup"><span data-stu-id="95e5c-124">Match account number</span></span> | <span data-ttu-id="95e5c-125">Priorité</span><span class="sxs-lookup"><span data-stu-id="95e5c-125">Priority</span></span> |
 |-------------------------|----------------------|----------|
-| Structure de compte - Résultat | \*                   | 1        |
+| <span data-ttu-id="95e5c-126">Structure de compte - Résultat</span><span class="sxs-lookup"><span data-stu-id="95e5c-126">Account Structure - P&L</span></span> | \*                   | <span data-ttu-id="95e5c-127">1</span><span class="sxs-lookup"><span data-stu-id="95e5c-127">1</span></span>        |
 
-*Une valeur vide dans le champ **Numéro de compte de rapprochement** signifie que tous les comptes correspondants de la structure de compte définie appartiennent à la règle de rapprochement.
+<span data-ttu-id="95e5c-128">*Une valeur vide dans le champ **Numéro de compte de rapprochement** signifie que tous les comptes correspondants de la structure de compte définie appartiennent à la règle de rapprochement.</span><span class="sxs-lookup"><span data-stu-id="95e5c-128">*A blank value in the **Match account number** field means that all matching accounts in the defined account structure are part of the matching rule.</span></span>
 
-### <a name="posting-definition--generated-entries"></a>Définition de validation – Entrées générées
+### <a name="posting-definition--generated-entries"></a><span data-ttu-id="95e5c-129">Définition de validation – Entrées générées</span><span class="sxs-lookup"><span data-stu-id="95e5c-129">Posting definition – Generated entries</span></span>
 
-| Structure de compte | Numéro de compte généré                    | Débit/crédit généré |
+| <span data-ttu-id="95e5c-130">Structure de compte</span><span class="sxs-lookup"><span data-stu-id="95e5c-130">Account structure</span></span> | <span data-ttu-id="95e5c-131">Numéro de compte généré</span><span class="sxs-lookup"><span data-stu-id="95e5c-131">Generated account number</span></span>                    | <span data-ttu-id="95e5c-132">Débit/crédit généré</span><span class="sxs-lookup"><span data-stu-id="95e5c-132">Generated debit/credit</span></span> |
 |-------------------|---------------------------------------------|------------------------|
-| Solde           | 300143 - -(Compte d'engagement)             | Idem                   |
-| Solde           | 300144 - -(Réserver pour le compte d'engagement) | Balancement              |
+| <span data-ttu-id="95e5c-133">Solde</span><span class="sxs-lookup"><span data-stu-id="95e5c-133">Balance</span></span>           | <span data-ttu-id="95e5c-134">300143 - -(Compte d'engagement)</span><span class="sxs-lookup"><span data-stu-id="95e5c-134">300143 - -(Encumbrance account)</span></span>             | <span data-ttu-id="95e5c-135">Idem</span><span class="sxs-lookup"><span data-stu-id="95e5c-135">Same</span></span>                   |
+| <span data-ttu-id="95e5c-136">Solde</span><span class="sxs-lookup"><span data-stu-id="95e5c-136">Balance</span></span>           | <span data-ttu-id="95e5c-137">300144 - -(Réserver pour le compte d'engagement)</span><span class="sxs-lookup"><span data-stu-id="95e5c-137">300144 - -(Reserve for encumbrance account)</span></span> | <span data-ttu-id="95e5c-138">Balancement</span><span class="sxs-lookup"><span data-stu-id="95e5c-138">Balancing</span></span>              |
 
-### <a name="transactions-with-the-accounts-dimension-values-and-amounts"></a>Transactions avec les comptes, valeurs de dimension et montants
+### <a name="transactions-with-the-accounts-dimension-values-and-amounts"></a><span data-ttu-id="95e5c-139">Transactions avec les comptes, valeurs de dimension et montants</span><span class="sxs-lookup"><span data-stu-id="95e5c-139">Transactions with the accounts, dimension values, and amounts</span></span>
 
-Les comptes et valeurs de dimension proviennent des répartitions comptables saisies pour une ligne de commande fournisseur ou des comptes et dimensions générés automatiquement en fonction des paramètres par défaut pour les modèles de fournisseurs, d'articles, de catégories et de dimensions.
+<span data-ttu-id="95e5c-140">Les comptes et valeurs de dimension proviennent des répartitions comptables saisies pour une ligne de commande fournisseur ou des comptes et dimensions générés automatiquement en fonction des paramètres par défaut pour les modèles de fournisseurs, d'articles, de catégories et de dimensions.</span><span class="sxs-lookup"><span data-stu-id="95e5c-140">The accounts and dimension values come either from the accounting distributions that you enter for a purchase order line, or from the accounts and dimensions that are automatically generated based on the default settings for vendors, items, categories, and dimension templates.</span></span>
 
-| Compte + dimensions           | Débit  | Crédit | Commentaire |
+| <span data-ttu-id="95e5c-141">Compte + dimensions</span><span class="sxs-lookup"><span data-stu-id="95e5c-141">Account + dimensions</span></span>           | <span data-ttu-id="95e5c-142">Débit</span><span class="sxs-lookup"><span data-stu-id="95e5c-142">Debit</span></span>  | <span data-ttu-id="95e5c-143">Crédit</span><span class="sxs-lookup"><span data-stu-id="95e5c-143">Credit</span></span> | <span data-ttu-id="95e5c-144">Commentaire</span><span class="sxs-lookup"><span data-stu-id="95e5c-144">Comment</span></span> |
 |--------------------------------|--------|--------|---------|
-| 606400-OU\_1-OU\_3566-Training | 250,00 |        |         |
+| <span data-ttu-id="95e5c-145">606400-OU\_1-OU\_3566-Training</span><span class="sxs-lookup"><span data-stu-id="95e5c-145">606400-OU\_1-OU\_3566-Training</span></span> | <span data-ttu-id="95e5c-146">250,00</span><span class="sxs-lookup"><span data-stu-id="95e5c-146">250.00</span></span> |        |         |
 
-### <a name="ledger-entries-generated-from-the-posting-definition"></a>Écritures comptables générées à partir de la définition de validation
+### <a name="ledger-entries-generated-from-the-posting-definition"></a><span data-ttu-id="95e5c-147">Écritures comptables générées à partir de la définition de validation</span><span class="sxs-lookup"><span data-stu-id="95e5c-147">Ledger entries generated from the posting definition</span></span>
 
-Les écritures comptables générées sont créées pour enregistrer les engagements.
+<span data-ttu-id="95e5c-148">Les écritures comptables générées sont créées pour enregistrer les engagements.</span><span class="sxs-lookup"><span data-stu-id="95e5c-148">Generated ledger entries are created to record the encumbrances.</span></span>
 
-| Compte + dimensions           | Débit  | Crédit | Commentaire |
+| <span data-ttu-id="95e5c-149">Compte + dimensions</span><span class="sxs-lookup"><span data-stu-id="95e5c-149">Account + dimensions</span></span>           | <span data-ttu-id="95e5c-150">Débit</span><span class="sxs-lookup"><span data-stu-id="95e5c-150">Debit</span></span>  | <span data-ttu-id="95e5c-151">Crédit</span><span class="sxs-lookup"><span data-stu-id="95e5c-151">Credit</span></span> | <span data-ttu-id="95e5c-152">Commentaire</span><span class="sxs-lookup"><span data-stu-id="95e5c-152">Comment</span></span> |
 |--------------------------------|--------|--------|---------|
-| 300143-OU\_1-OU\_3566-Training | 250,00 |        |         |
-| 300144-OU\_1-OU\_3566-Training |        | 250,00 |         |
+| <span data-ttu-id="95e5c-153">300143-OU\_1-OU\_3566-Training</span><span class="sxs-lookup"><span data-stu-id="95e5c-153">300143-OU\_1-OU\_3566-Training</span></span> | <span data-ttu-id="95e5c-154">250,00</span><span class="sxs-lookup"><span data-stu-id="95e5c-154">250.00</span></span> |        |         |
+| <span data-ttu-id="95e5c-155">300144-OU\_1-OU\_3566-Training</span><span class="sxs-lookup"><span data-stu-id="95e5c-155">300144-OU\_1-OU\_3566-Training</span></span> |        | <span data-ttu-id="95e5c-156">250,00</span><span class="sxs-lookup"><span data-stu-id="95e5c-156">250.00</span></span> |         |
 
-Dans cet exemple, toutes les parties de compte de la structure de compte - Résultat correspondent aux critères de définition de validation. Toutefois, lors de l'évaluation de 606500-OU\_1-OU\_3566-Training, les écritures générées sont créées pour les comptes définis dans le volet **Entrées générées** pour la définition de validation.
+<span data-ttu-id="95e5c-157">Dans cet exemple, toutes les parties de compte de la structure de compte - Résultat correspondent aux critères de définition de validation.</span><span class="sxs-lookup"><span data-stu-id="95e5c-157">In this example, any account that is part of Account Structure - P&L matches the posting definition criteria.</span></span> <span data-ttu-id="95e5c-158">Toutefois, lors de l'évaluation de 606500-OU\_1-OU\_3566-Training, les écritures générées sont créées pour les comptes définis dans le volet **Entrées générées** pour la définition de validation.</span><span class="sxs-lookup"><span data-stu-id="95e5c-158">Therefore, when 606500-OU\_1-OU\_3566-Training is evaluated, generated entries are created for the accounts that are defined in the **Generated entries** pane for the posting definition.</span></span>
 
-## <a name="example-budget-appropriations"></a>Exemple : affectations du budget
-Lorsque vous activez l'affectation budgétaire en sélectionnant **Activer l'affectation budgétaire** dans la page **Paramètres de comptabilité**, vous devez utiliser les définitions de validation pour enregistrer les écritures de registre budgétaires dans la comptabilité. Lorsqu'une configuration de contrôle budgétaire est active, vous pouvez utiliser les définitions de validation et les définitions de validation de transaction pour prendre en charge l'enregistrement des écritures d'affectations, de révisions, de transferts, de projets, d'immobilisations, d'approvisionnements et de prévisions de la demande dans la comptabilité. 
+## <a name="example-budget-appropriations"></a><span data-ttu-id="95e5c-159">Exemple : affectations du budget</span><span class="sxs-lookup"><span data-stu-id="95e5c-159">Example: Budget appropriations</span></span>
+<span data-ttu-id="95e5c-160">Lorsque vous activez l'affectation budgétaire en sélectionnant **Activer l'affectation budgétaire** dans la page **Paramètres de comptabilité**, vous devez utiliser les définitions de validation pour enregistrer les écritures de registre budgétaires dans la comptabilité.</span><span class="sxs-lookup"><span data-stu-id="95e5c-160">When you enable budget appropriation by selecting **Enable budget appropriation** on the **General ledger parameters** page, posting definitions must be used to record budget register entries to the general ledger.</span></span> <span data-ttu-id="95e5c-161">Lorsqu'une configuration de contrôle budgétaire est active, vous pouvez utiliser les définitions de validation et les définitions de validation de transaction pour prendre en charge l'enregistrement des écritures d'affectations, de révisions, de transferts, de projets, d'immobilisations, d'approvisionnements et de prévisions de la demande dans la comptabilité.</span><span class="sxs-lookup"><span data-stu-id="95e5c-161">When a budget control configuration is active and is turned on, posting definitions and transaction posting definitions can be used to support the recording of entries for appropriations, revisions, transfers, projects, fixed assets, and supply and demand forecasts to the general ledger.</span></span> 
 
-Pour paramétrer une définition de validation pour les écritures de registre budgétaires dont le type de budget est **Budget d'origine** et pour lesquelles les affectations sont activées, sélectionnez le module **Budget** dans la page **Définitions de validation**. Puis, dans la zone **Budget** de la page **Définitions de validation de transaction**, vous pouvez utiliser les codes budget pour associer la définition de validation aux écritures de registre budgétaires dotées d'un budget de type **Budget d'origine**. 
+<span data-ttu-id="95e5c-162">Pour paramétrer une définition de validation pour les écritures de registre budgétaires dont le type de budget est **Budget d'origine** et pour lesquelles les affectations sont activées, sélectionnez le module **Budget** dans la page **Définitions de validation**.</span><span class="sxs-lookup"><span data-stu-id="95e5c-162">To set up a posting definition for budget register entries that has a budget type of **Original budget**, and that has appropriations enabled, select the **Budget** module on the **Posting definitions** page.</span></span> <span data-ttu-id="95e5c-163">Puis, dans la zone **Budget** de la page **Définitions de validation de transaction**, vous pouvez utiliser les codes budget pour associer la définition de validation aux écritures de registre budgétaires dotées d'un budget de type **Budget d'origine**.</span><span class="sxs-lookup"><span data-stu-id="95e5c-163">Then, in the **Budget** area of the **Transaction posting definitions** page, you can use budget codes to associate the posting definition with budget register entries that have a budget type of **Original budget**.</span></span> 
 
-Lorsque les définitions de validation et les affectations budgétaires sont activées, les écritures de registre budgétaires sont enregistrées pour le contrôle budgétaire, ainsi que dans la comptabilité.
+<span data-ttu-id="95e5c-164">Lorsque les définitions de validation et les affectations budgétaires sont activées, les écritures de registre budgétaires sont enregistrées pour le contrôle budgétaire, ainsi que dans la comptabilité.</span><span class="sxs-lookup"><span data-stu-id="95e5c-164">When budget appropriations and posting definitions are enabled, the budget register entries are recorded for budget control and in the general ledger.</span></span>
 
-### <a name="posting-definition--match-criteria"></a>Définition de validation – Critères de rapprochement
+### <a name="posting-definition--match-criteria"></a><span data-ttu-id="95e5c-165">Définition de validation – Critères de rapprochement</span><span class="sxs-lookup"><span data-stu-id="95e5c-165">Posting definition – Match criteria</span></span>
 
-| Structure de compte       | Numéro de compte de rapprochement | Priorité |
+| <span data-ttu-id="95e5c-166">Structure de compte</span><span class="sxs-lookup"><span data-stu-id="95e5c-166">Account structure</span></span>       | <span data-ttu-id="95e5c-167">Numéro de compte de rapprochement</span><span class="sxs-lookup"><span data-stu-id="95e5c-167">Match account number</span></span> | <span data-ttu-id="95e5c-168">Priorité</span><span class="sxs-lookup"><span data-stu-id="95e5c-168">Priority</span></span> |
 |-------------------------|----------------------|----------|
-| Structure de compte - Résultat | \*                   | 1        |
+| <span data-ttu-id="95e5c-169">Structure de compte - Résultat</span><span class="sxs-lookup"><span data-stu-id="95e5c-169">Account Structure - P&L</span></span> | \*                   | <span data-ttu-id="95e5c-170">1</span><span class="sxs-lookup"><span data-stu-id="95e5c-170">1</span></span>        |
 
-*Une valeur vide dans le champ **Numéro de compte de rapprochement** signifie que tous les comptes correspondants de la structure de compte définie appartiennent à la règle de rapprochement.
+<span data-ttu-id="95e5c-171">*Une valeur vide dans le champ **Numéro de compte de rapprochement** signifie que tous les comptes correspondants de la structure de compte définie appartiennent à la règle de rapprochement.</span><span class="sxs-lookup"><span data-stu-id="95e5c-171">*A blank value in the **Match account number** field means that all matching accounts in the defined account structure are part of the matching rule.</span></span>
 
-### <a name="posting-definition--generated-entries"></a>Définition de validation – Entrées générées
+### <a name="posting-definition--generated-entries"></a><span data-ttu-id="95e5c-172">Définition de validation – Entrées générées</span><span class="sxs-lookup"><span data-stu-id="95e5c-172">Posting definition – Generated entries</span></span>
 
-| Structure de compte | Numéro de compte généré              | Débit/crédit généré |
+| <span data-ttu-id="95e5c-173">Structure de compte</span><span class="sxs-lookup"><span data-stu-id="95e5c-173">Account structure</span></span> | <span data-ttu-id="95e5c-174">Numéro de compte généré</span><span class="sxs-lookup"><span data-stu-id="95e5c-174">Generated account number</span></span>              | <span data-ttu-id="95e5c-175">Débit/crédit généré</span><span class="sxs-lookup"><span data-stu-id="95e5c-175">Generated debit/credit</span></span> |
 |-------------------|---------------------------------------|------------------------|
-| Structure de compte | 300145 - -(Compte Produit estimé) | Idem                   |
-| Structure de compte | 300146 - -(Compte Affectations)     | Balancement              |
+| <span data-ttu-id="95e5c-176">Structure de compte</span><span class="sxs-lookup"><span data-stu-id="95e5c-176">Account structure</span></span> | <span data-ttu-id="95e5c-177">300145 - -(Compte Produit estimé)</span><span class="sxs-lookup"><span data-stu-id="95e5c-177">300145 - -(Estimated revenue account)</span></span> | <span data-ttu-id="95e5c-178">Idem</span><span class="sxs-lookup"><span data-stu-id="95e5c-178">Same</span></span>                   |
+| <span data-ttu-id="95e5c-179">Structure de compte</span><span class="sxs-lookup"><span data-stu-id="95e5c-179">Account structure</span></span> | <span data-ttu-id="95e5c-180">300146 - -(Compte Affectations)</span><span class="sxs-lookup"><span data-stu-id="95e5c-180">300146 - -(Appropriation account)</span></span>     | <span data-ttu-id="95e5c-181">Balancement</span><span class="sxs-lookup"><span data-stu-id="95e5c-181">Balancing</span></span>              |
 
-### <a name="transactions-with-the-accounts-dimension-values-and-amounts"></a>Transactions avec les comptes, valeurs de dimension et montants
+### <a name="transactions-with-the-accounts-dimension-values-and-amounts"></a><span data-ttu-id="95e5c-182">Transactions avec les comptes, valeurs de dimension et montants</span><span class="sxs-lookup"><span data-stu-id="95e5c-182">Transactions with the accounts, dimension values, and amounts</span></span>
 
-La page de liste **Écriture de registre budgétaire** vous permet d'entrer les comptes, les valeurs de dimension et les montants pour l'écriture de compte budgétaire.
+<span data-ttu-id="95e5c-183">La page de liste **Écriture de registre budgétaire** vous permet d'entrer les comptes, les valeurs de dimension et les montants pour l'écriture de compte budgétaire.</span><span class="sxs-lookup"><span data-stu-id="95e5c-183">You enter the accounts, dimension values, and amounts for the budget account entry on the **Budget register entry** page.</span></span>
 
-| Compte + dimensions           | Débit | Crédit | Commentaire |
+| <span data-ttu-id="95e5c-184">Compte + dimensions</span><span class="sxs-lookup"><span data-stu-id="95e5c-184">Account + dimensions</span></span>           | <span data-ttu-id="95e5c-185">Débit</span><span class="sxs-lookup"><span data-stu-id="95e5c-185">Debit</span></span> | <span data-ttu-id="95e5c-186">Crédit</span><span class="sxs-lookup"><span data-stu-id="95e5c-186">Credit</span></span> | <span data-ttu-id="95e5c-187">Commentaire</span><span class="sxs-lookup"><span data-stu-id="95e5c-187">Comment</span></span> |
 |--------------------------------|-------|--------|---------|
-| 606400-OU\_1-OU\_3566-Training |       | 250,00 |         |
+| <span data-ttu-id="95e5c-188">606400-OU\_1-OU\_3566-Training</span><span class="sxs-lookup"><span data-stu-id="95e5c-188">606400-OU\_1-OU\_3566-Training</span></span> |       | <span data-ttu-id="95e5c-189">250,00</span><span class="sxs-lookup"><span data-stu-id="95e5c-189">250.00</span></span> |         |
 
-### <a name="ledger-entries-generated-from-the-posting-definition"></a>Écritures comptables générées à partir de la définition de validation
+### <a name="ledger-entries-generated-from-the-posting-definition"></a><span data-ttu-id="95e5c-190">Écritures comptables générées à partir de la définition de validation</span><span class="sxs-lookup"><span data-stu-id="95e5c-190">Ledger entries generated from the posting definition</span></span>
 
-Les écritures comptables générées sont créées pour enregistrer le budget d'origine dans chaque dimension.
+<span data-ttu-id="95e5c-191">Les écritures comptables générées sont créées pour enregistrer le budget d'origine dans chaque dimension.</span><span class="sxs-lookup"><span data-stu-id="95e5c-191">Generated ledger entries are created to record the original budget in each dimension.</span></span>
 
-| Compte + dimensions           | Débit  | Crédit | Commentaire |
+| <span data-ttu-id="95e5c-192">Compte + dimensions</span><span class="sxs-lookup"><span data-stu-id="95e5c-192">Account + dimensions</span></span>           | <span data-ttu-id="95e5c-193">Débit</span><span class="sxs-lookup"><span data-stu-id="95e5c-193">Debit</span></span>  | <span data-ttu-id="95e5c-194">Crédit</span><span class="sxs-lookup"><span data-stu-id="95e5c-194">Credit</span></span> | <span data-ttu-id="95e5c-195">Commentaire</span><span class="sxs-lookup"><span data-stu-id="95e5c-195">Comment</span></span> |
 |--------------------------------|--------|--------|---------|
-| 300145-OU\_1-OU\_3566-Training |        | 250,00 |         |
-| 300146-OU\_1-OU\_3566-Training | 250,00 |        |         |
+| <span data-ttu-id="95e5c-196">300145-OU\_1-OU\_3566-Training</span><span class="sxs-lookup"><span data-stu-id="95e5c-196">300145-OU\_1-OU\_3566-Training</span></span> |        | <span data-ttu-id="95e5c-197">250,00</span><span class="sxs-lookup"><span data-stu-id="95e5c-197">250.00</span></span> |         |
+| <span data-ttu-id="95e5c-198">300146-OU\_1-OU\_3566-Training</span><span class="sxs-lookup"><span data-stu-id="95e5c-198">300146-OU\_1-OU\_3566-Training</span></span> | <span data-ttu-id="95e5c-199">250,00</span><span class="sxs-lookup"><span data-stu-id="95e5c-199">250.00</span></span> |        |         |
 
-Dans cet exemple, toutes les parties de compte de la structure de compte - Résultat correspondent aux critères de définition de validation. Donc, lorsque 606400-OU\_1-OU\_3566-Training est évalué, les écritures comptables générées sont créées.
+<span data-ttu-id="95e5c-200">Dans cet exemple, toutes les parties de compte de la structure de compte - Résultat correspondent aux critères de définition de validation.</span><span class="sxs-lookup"><span data-stu-id="95e5c-200">In this example, any account that is part of Account Structure - P&L matches the posting definition criteria.</span></span> <span data-ttu-id="95e5c-201">Donc, lorsque 606400-OU\_1-OU\_3566-Training est évalué, les écritures comptables générées sont créées.</span><span class="sxs-lookup"><span data-stu-id="95e5c-201">Therefore, when 606400-OU\_1-OU\_3566-Training is evaluated, the generated ledger entries are created.</span></span>
 
 
 

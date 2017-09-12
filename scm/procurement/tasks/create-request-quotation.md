@@ -16,73 +16,73 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: df6d8620316cf0dcde457b06235d9e041a51e100
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 331f516f3483acd79be4ef7b95b53adcfbef1ae2
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-request-for-quotation"></a>Créer un appel d'offre
+# <a name="create-a-request-for-quotation"></a><span data-ttu-id="93c25-103">Créer un appel d'offre</span><span class="sxs-lookup"><span data-stu-id="93c25-103">Create a request for quotation</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Cette procédure décrit comment créer un appel d'offre. Cette action est généralement effectuée par un agent des achats. Vous pouvez utiliser cette procédure dans la société fictive de démonstration USMF ou utiliser vos propres données. Vous devez disposer de types de sollicitation avant de commencer. Une fois que vous avez terminé cette tâche et que vous avez créé et soumis un appel d'offre, vous pouvez ensuite entrer les réponses par fournisseur, les comparer, et attribuer le contrat.
+<span data-ttu-id="93c25-104">Cette procédure décrit comment créer un appel d'offre.</span><span class="sxs-lookup"><span data-stu-id="93c25-104">This procedure shows you how to create a request for quotation.</span></span> <span data-ttu-id="93c25-105">Cette action est généralement effectuée par un agent des achats.</span><span class="sxs-lookup"><span data-stu-id="93c25-105">This would typically be done by a purchasing agent.</span></span> <span data-ttu-id="93c25-106">Vous pouvez utiliser cette procédure dans la société fictive de démonstration USMF ou utiliser vos propres données.</span><span class="sxs-lookup"><span data-stu-id="93c25-106">You can use this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="93c25-107">Vous devez disposer de types de sollicitation avant de commencer.</span><span class="sxs-lookup"><span data-stu-id="93c25-107">You need to have set up solicitation types before you start.</span></span> <span data-ttu-id="93c25-108">Une fois que vous avez terminé cette tâche et que vous avez créé et soumis un appel d'offre, vous pouvez ensuite entrer les réponses par fournisseur, les comparer, et attribuer le contrat.</span><span class="sxs-lookup"><span data-stu-id="93c25-108">Once you’ve completed this task and you’ve created and sent an RFQ you can then enter the replies per vendor, compare them, and award the contract.</span></span>
 
 
-## <a name="prepare-a-new-rfq"></a>Préparer un nouvel appel d'offre
-1. Accédez à Approvisionnements > Demandes de devis > Toutes les demandes de devis
-2. Cliquez sur Nouveau.
-    * Les types d'achat suivants sont disponibles : Commande fournisseur (valeur par défaut) : document qui confirme l'offre d'achat de produits, ou l'acceptation d'une offre de vente de produits en échange d'un paiement. Demande d'achat : ce type est sélectionné automatiquement si vous créez une demande de devis directement à partir d'une demande d'achat. Si vous sélectionnez manuellement cette option, vous recevez un message d'erreur. Contrat d'achat : accord sur l'achat d'une quantité ou d'une valeur spécifique d'un produit. Si vous sélectionnez cette option, vous devez sélectionner l'intervalle de dates qui s'applique au contrat d'achat.  
-3. Tapez une valeur dans le champ Titre du document.
-4. Saisissez ou sélectionnez une valeur dans le champ Type de sollicitation.
-    * Si une méthode d'attribution de score est associée au type de sollicitation, alors il s'agira de la méthode d'attribution de score par défaut pour l'appel d'offre que vous créez. Il est possible de modifier la méthode d'attribution de score ultérieurement.  
-    * Dans le champ Date de livraison, entrez une date.  
-    * Sélectionnez la date à laquelle vous souhaitez recevoir les articles.  
-    * Entrez une date et une heure dans le champ Date et heure d'expiration.  
-    * Spécifiez la date et l'heure auxquelles les fournisseurs doivent répondre à l'appel d'offre.  
-5. Dans le champ Entrepôt, saisissez ou sélectionnez une valeur.
-    * L'adresse de livraison sera l'adresse de l'entrepôt par défaut.  
-6. Cliquez sur OK.
+## <a name="prepare-a-new-rfq"></a><span data-ttu-id="93c25-109">Préparer un nouvel appel d'offre</span><span class="sxs-lookup"><span data-stu-id="93c25-109">Prepare a new RFQ</span></span>
+1. <span data-ttu-id="93c25-110">Accédez à Approvisionnements > Demandes de devis > Toutes les demandes de devis</span><span class="sxs-lookup"><span data-stu-id="93c25-110">Go to Procurement and sourcing > Requests for quotations > All requests for quotations.</span></span>
+2. <span data-ttu-id="93c25-111">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="93c25-111">Click New.</span></span>
+    * <span data-ttu-id="93c25-112">Les types d'achat suivants sont disponibles : Commande fournisseur (valeur par défaut) : document qui confirme l'offre d'achat de produits, ou l'acceptation d'une offre de vente de produits en échange d'un paiement.</span><span class="sxs-lookup"><span data-stu-id="93c25-112">The following purchase types are available: Purchase order (this is the default): a document that confirms the offer to buy products, or the acceptance of an offer to sell products in exchange for payment.</span></span> <span data-ttu-id="93c25-113">Demande d'achat : ce type est sélectionné automatiquement si vous créez une demande de devis directement à partir d'une demande d'achat.</span><span class="sxs-lookup"><span data-stu-id="93c25-113">Purchase requisition: this type is automatically selected if you create an RFQ directly from a purchase requisition.</span></span> <span data-ttu-id="93c25-114">Si vous sélectionnez manuellement cette option, vous recevez un message d'erreur.</span><span class="sxs-lookup"><span data-stu-id="93c25-114">If you manually select this option, you’ll get an error.</span></span> <span data-ttu-id="93c25-115">Contrat d'achat : accord sur l'achat d'une quantité ou d'une valeur spécifique d'un produit.</span><span class="sxs-lookup"><span data-stu-id="93c25-115">Purchase agreement: an agreement to purchase a specific quantity or value of product over time.</span></span> <span data-ttu-id="93c25-116">Si vous sélectionnez cette option, vous devez sélectionner l'intervalle de dates qui s'applique au contrat d'achat.</span><span class="sxs-lookup"><span data-stu-id="93c25-116">If you select this option, you must select the date range that applies to the purchase agreement.</span></span>  
+3. <span data-ttu-id="93c25-117">Tapez une valeur dans le champ Titre du document.</span><span class="sxs-lookup"><span data-stu-id="93c25-117">In the Document title field, type a value.</span></span>
+4. <span data-ttu-id="93c25-118">Saisissez ou sélectionnez une valeur dans le champ Type de sollicitation.</span><span class="sxs-lookup"><span data-stu-id="93c25-118">In the Solicitation type field, enter or select a value.</span></span>
+    * <span data-ttu-id="93c25-119">Si une méthode d'attribution de score est associée au type de sollicitation, alors il s'agira de la méthode d'attribution de score par défaut pour l'appel d'offre que vous créez.</span><span class="sxs-lookup"><span data-stu-id="93c25-119">If a scoring method is associated with the solicitation type, this will be the default scoring method for the RFQ that you’re creating.</span></span> <span data-ttu-id="93c25-120">Il est possible de modifier la méthode d'attribution de score ultérieurement.</span><span class="sxs-lookup"><span data-stu-id="93c25-120">It is possible to change the scoring method later.</span></span>  
+    * <span data-ttu-id="93c25-121">Dans le champ Date de livraison, entrez une date.</span><span class="sxs-lookup"><span data-stu-id="93c25-121">In the Delivery date field, enter a date.</span></span>  
+    * <span data-ttu-id="93c25-122">Sélectionnez la date à laquelle vous souhaitez recevoir les articles.</span><span class="sxs-lookup"><span data-stu-id="93c25-122">Select the date by which you want to receive the items.</span></span>  
+    * <span data-ttu-id="93c25-123">Entrez une date et une heure dans le champ Date et heure d'expiration.</span><span class="sxs-lookup"><span data-stu-id="93c25-123">In the Expiration date and time field, enter a date and time.</span></span>  
+    * <span data-ttu-id="93c25-124">Spécifiez la date et l'heure auxquelles les fournisseurs doivent répondre à l'appel d'offre.</span><span class="sxs-lookup"><span data-stu-id="93c25-124">Specify the date and time by which vendors must respond to the RFQ.</span></span>  
+5. <span data-ttu-id="93c25-125">Dans le champ Entrepôt, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="93c25-125">In the Warehouse field, enter or select a value.</span></span>
+    * <span data-ttu-id="93c25-126">L'adresse de livraison sera l'adresse de l'entrepôt par défaut.</span><span class="sxs-lookup"><span data-stu-id="93c25-126">The delivery address will default to the warehouse address.</span></span>  
+6. <span data-ttu-id="93c25-127">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="93c25-127">Click OK.</span></span>
 
-## <a name="add-lines"></a>Ajouter des lignes
-    * Après avoir défini les informations de base sur votre appel d'offre, vous spécifiez les biens ou services sur lesquels vous souhaitez que les fournisseurs fassent des offres. Article est le type de ligne par défaut.   
-1. Entrez ou sélectionnez une valeur dans le champ Numéro d'article.
-    * Si vous utilisez USMF, vous pouvez sélectionner T0020.  
-2. Dans le champ Quantité, entrer un numéro.
-3. Cliquez sur Ajouter une ligne.
-4. Sélectionnez Catégorie dans le champ Type de ligne.
-    * Vous pouvez utiliser le type de ligne Catégorie pour créer des appels d'offre pour des biens hors stock ou des services. Vous devez ensuite sélectionner le type de biens ou de services à partir d'une hiérarchie de catégories d'approvisionnement.  
-5. Saisissez ou sélectionnez une valeur dans le champ Catégorie d'approvisionnement.
-6. Dans le champ Produit, saisissez une valeur.
-7. Dans le champ Quantité, entrer un numéro.
-8. Saisissez ou sélectionnez une valeur dans le champ Unité.
+## <a name="add-lines"></a><span data-ttu-id="93c25-128">Ajouter des lignes</span><span class="sxs-lookup"><span data-stu-id="93c25-128">Add lines</span></span>
+    * <span data-ttu-id="93c25-129">Après avoir défini les informations de base sur votre appel d'offre, vous spécifiez les biens ou services sur lesquels vous souhaitez que les fournisseurs fassent des offres.</span><span class="sxs-lookup"><span data-stu-id="93c25-129">After you’ve specified the basic information about your RFQ, you specify the goods or services that you want vendors to bid on.</span></span> <span data-ttu-id="93c25-130">Article est le type de ligne par défaut.</span><span class="sxs-lookup"><span data-stu-id="93c25-130">Item is the default line type.</span></span>   
+1. <span data-ttu-id="93c25-131">Entrez ou sélectionnez une valeur dans le champ Numéro d'article.</span><span class="sxs-lookup"><span data-stu-id="93c25-131">In the Item number field, enter or select a value.</span></span>
+    * <span data-ttu-id="93c25-132">Si vous utilisez USMF, vous pouvez sélectionner T0020.</span><span class="sxs-lookup"><span data-stu-id="93c25-132">If you're using USMF, you can select T0020.</span></span>  
+2. <span data-ttu-id="93c25-133">Dans le champ Quantité, entrer un numéro.</span><span class="sxs-lookup"><span data-stu-id="93c25-133">In the Quantity field, enter a number.</span></span>
+3. <span data-ttu-id="93c25-134">Cliquez sur Ajouter une ligne.</span><span class="sxs-lookup"><span data-stu-id="93c25-134">Click Add line.</span></span>
+4. <span data-ttu-id="93c25-135">Sélectionnez Catégorie dans le champ Type de ligne.</span><span class="sxs-lookup"><span data-stu-id="93c25-135">In the Line type field, select 'Category'.</span></span>
+    * <span data-ttu-id="93c25-136">Vous pouvez utiliser le type de ligne Catégorie pour créer des appels d'offre pour des biens hors stock ou des services.</span><span class="sxs-lookup"><span data-stu-id="93c25-136">You can use the Category line type to create RFQs for non-inventory goods or services.</span></span> <span data-ttu-id="93c25-137">Vous devez ensuite sélectionner le type de biens ou de services à partir d'une hiérarchie de catégories d'approvisionnement.</span><span class="sxs-lookup"><span data-stu-id="93c25-137">You then need to select the type of goods or services from a hierarchy of procurement categories.</span></span>  
+5. <span data-ttu-id="93c25-138">Saisissez ou sélectionnez une valeur dans le champ Catégorie d'approvisionnement.</span><span class="sxs-lookup"><span data-stu-id="93c25-138">In the Procurement category field, enter or select a value.</span></span>
+6. <span data-ttu-id="93c25-139">Dans le champ Produit, saisissez une valeur.</span><span class="sxs-lookup"><span data-stu-id="93c25-139">In the Product name field, type a value.</span></span>
+7. <span data-ttu-id="93c25-140">Dans le champ Quantité, entrer un numéro.</span><span class="sxs-lookup"><span data-stu-id="93c25-140">In the Quantity field, enter a number.</span></span>
+8. <span data-ttu-id="93c25-141">Saisissez ou sélectionnez une valeur dans le champ Unité.</span><span class="sxs-lookup"><span data-stu-id="93c25-141">In the Unit field, enter or select a value.</span></span>
 
-## <a name="add-vendors"></a>Ajouter des fournisseurs
-1. Cliquez sur l'en-tête pour passer de la vue Lignes à la vue En-tête. 
-2. Développer la section Fournisseur.
-3. Cliquez sur Ajouter automatiquement des fournisseurs.
-    * Vous pouvez ajouter des fournisseurs à l'appel d'offre automatiquement, selon la catégorie d'approvisionnement des articles demandés. S'il n'y a aucun fournisseur approuvé pour les catégories comprises dans les lignes, vous pouvez ajouter manuellement des fournisseurs.  
-4. Cliquez sur Ajouter.
-5. Dans le champ Compte fournisseur, saisissez ou sélectionnez une valeur.
-6. Cliquez sur Ajouter.
-7. Dans le champ Compte fournisseur, saisissez ou sélectionnez une valeur.
-    * Une fois que vous avez sélectionné un fournisseur, le statut est créé. Cela signifie que les informations sur le fournisseur ont été enregistrées dans la demande de devis mais que cette dernière n'a pas été envoyée au fournisseur. Vous pouvez ajouter un fournisseur à une demande de devis, indépendamment du statut du fournisseur.  
+## <a name="add-vendors"></a><span data-ttu-id="93c25-142">Ajouter des fournisseurs</span><span class="sxs-lookup"><span data-stu-id="93c25-142">Add vendors</span></span>
+1. <span data-ttu-id="93c25-143">Cliquez sur l'en-tête pour passer de la vue Lignes à la vue En-tête.</span><span class="sxs-lookup"><span data-stu-id="93c25-143">Click Header to change from the Lines view to the Header view.</span></span> 
+2. <span data-ttu-id="93c25-144">Développer la section Fournisseur.</span><span class="sxs-lookup"><span data-stu-id="93c25-144">Expand the Vendor section.</span></span>
+3. <span data-ttu-id="93c25-145">Cliquez sur Ajouter automatiquement des fournisseurs.</span><span class="sxs-lookup"><span data-stu-id="93c25-145">Click Auto-add vendors.</span></span>
+    * <span data-ttu-id="93c25-146">Vous pouvez ajouter des fournisseurs à l'appel d'offre automatiquement, selon la catégorie d'approvisionnement des articles demandés.</span><span class="sxs-lookup"><span data-stu-id="93c25-146">You can add vendors to the RFQ automatically, based on the procurement category of the items requested.</span></span> <span data-ttu-id="93c25-147">S'il n'y a aucun fournisseur approuvé pour les catégories comprises dans les lignes, vous pouvez ajouter manuellement des fournisseurs.</span><span class="sxs-lookup"><span data-stu-id="93c25-147">If there are no vendors approved for the categories included in the lines you can add vendors manually.</span></span>  
+4. <span data-ttu-id="93c25-148">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="93c25-148">Click Add.</span></span>
+5. <span data-ttu-id="93c25-149">Dans le champ Compte fournisseur, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="93c25-149">In the Vendor account field, enter or select a value.</span></span>
+6. <span data-ttu-id="93c25-150">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="93c25-150">Click Add.</span></span>
+7. <span data-ttu-id="93c25-151">Dans le champ Compte fournisseur, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="93c25-151">In the Vendor account field, enter or select a value.</span></span>
+    * <span data-ttu-id="93c25-152">Une fois que vous avez sélectionné un fournisseur, le statut est créé.</span><span class="sxs-lookup"><span data-stu-id="93c25-152">Once you’ve selected a vendor, the status is Created.</span></span> <span data-ttu-id="93c25-153">Cela signifie que les informations sur le fournisseur ont été enregistrées dans la demande de devis mais que cette dernière n'a pas été envoyée au fournisseur.</span><span class="sxs-lookup"><span data-stu-id="93c25-153">This means that the vendor information has been saved in the RFQ, but you have not sent the RFQ to the vendor.</span></span> <span data-ttu-id="93c25-154">Vous pouvez ajouter un fournisseur à une demande de devis, indépendamment du statut du fournisseur.</span><span class="sxs-lookup"><span data-stu-id="93c25-154">You can add a vendor to an RFQ regardless of the vendor status.</span></span>  
 
-## <a name="send-the-rfq-to-vendors"></a>Envoyer l'appel d'offre aux fournisseurs
-1. Cliquez sur Envoyer.
-    * Dans la page Envoi de l'appel d'offre, vérifiez que les fournisseurs de la liste sont ceux qui doivent recevoir l'appel d'offre.  
-2. Cliquez sur Imprimer.
-    * Cette boîte de dialogue vous permet d'imprimer l'appel d'offre. Si vous choisissez d'imprimer une feuille de réponse, le contenu de cette opération sera défini dans les paramètres d'approvisionnements. Pour choisir comment imprimer des feuilles de réponse, une fois que vous avez ouvert la boîte de dialogue Imprimer, cliquez sur Options d'impression avancées. Un appel d'offre sera imprimé pour chaque fournisseur contenant des lignes dont le statut est Créé ou Envoyé. Les lignes annulées et celles avec des réponses enregistrées ne sont pas imprimées.   
-3. Cliquez sur Annuler.
-4. Cliquez sur OK.
-5. Fermez la page.
-6. Fermez la page.
+## <a name="send-the-rfq-to-vendors"></a><span data-ttu-id="93c25-155">Envoyer l'appel d'offre aux fournisseurs</span><span class="sxs-lookup"><span data-stu-id="93c25-155">Send the RFQ to vendors</span></span>
+1. <span data-ttu-id="93c25-156">Cliquez sur Envoyer.</span><span class="sxs-lookup"><span data-stu-id="93c25-156">Click Send.</span></span>
+    * <span data-ttu-id="93c25-157">Dans la page Envoi de l'appel d'offre, vérifiez que les fournisseurs de la liste sont ceux qui doivent recevoir l'appel d'offre.</span><span class="sxs-lookup"><span data-stu-id="93c25-157">In the Sending request for quotation page, check that the vendors in the list are the ones that you want to receive the RFQ.</span></span>  
+2. <span data-ttu-id="93c25-158">Cliquez sur Imprimer.</span><span class="sxs-lookup"><span data-stu-id="93c25-158">Click Print.</span></span>
+    * <span data-ttu-id="93c25-159">Cette boîte de dialogue vous permet d'imprimer l'appel d'offre.</span><span class="sxs-lookup"><span data-stu-id="93c25-159">This dialog allows you to print the RFQ.</span></span> <span data-ttu-id="93c25-160">Si vous choisissez d'imprimer une feuille de réponse, le contenu de cette opération sera défini dans les paramètres d'approvisionnements.</span><span class="sxs-lookup"><span data-stu-id="93c25-160">If you choose to print a reply sheet, the contents of this are defined in Procurement and Sourcing parameters.</span></span> <span data-ttu-id="93c25-161">Pour choisir comment imprimer des feuilles de réponse, une fois que vous avez ouvert la boîte de dialogue Imprimer, cliquez sur Options d'impression avancées.</span><span class="sxs-lookup"><span data-stu-id="93c25-161">To choose how to print reply sheets, once you’ve opened the Print dialog, click Advanced printing options.</span></span> <span data-ttu-id="93c25-162">Un appel d'offre sera imprimé pour chaque fournisseur contenant des lignes dont le statut est Créé ou Envoyé.</span><span class="sxs-lookup"><span data-stu-id="93c25-162">One RFQ will be printed for each vendor containing the lines that have the status of Created or Sent.</span></span> <span data-ttu-id="93c25-163">Les lignes annulées et celles avec des réponses enregistrées ne sont pas imprimées.</span><span class="sxs-lookup"><span data-stu-id="93c25-163">Canceled lines and lines with registered replies will not be printed.</span></span>   
+3. <span data-ttu-id="93c25-164">Cliquez sur Annuler.</span><span class="sxs-lookup"><span data-stu-id="93c25-164">Click Cancel.</span></span>
+4. <span data-ttu-id="93c25-165">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="93c25-165">Click OK.</span></span>
+5. <span data-ttu-id="93c25-166">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="93c25-166">Close the page.</span></span>
+6. <span data-ttu-id="93c25-167">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="93c25-167">Close the page.</span></span>
 
-## <a name="view-the-rfq-journal"></a>Afficher le journal d'appels d'offre
-1. Accédez à Approvisionnements > Demandes de devis > Suivi de la demande de devis > Journaux d'appel d'offre.
-2. Cliquez sur Aperçu/Imprimer.
-3. Cliquez sur Aperçu d'origine.
-4. Fermez la page.
-5. Fermez la page.
+## <a name="view-the-rfq-journal"></a><span data-ttu-id="93c25-168">Afficher le journal d'appels d'offre</span><span class="sxs-lookup"><span data-stu-id="93c25-168">View the RFQ journal</span></span>
+1. <span data-ttu-id="93c25-169">Accédez à Approvisionnements > Demandes de devis > Suivi de la demande de devis > Journaux d'appel d'offre.</span><span class="sxs-lookup"><span data-stu-id="93c25-169">Go to Procurement and sourcing > Requests for quotations > Request for quotations follow-up > Request for quotation journals.</span></span>
+2. <span data-ttu-id="93c25-170">Cliquez sur Aperçu/Imprimer.</span><span class="sxs-lookup"><span data-stu-id="93c25-170">Click Preview/Print.</span></span>
+3. <span data-ttu-id="93c25-171">Cliquez sur Aperçu d'origine.</span><span class="sxs-lookup"><span data-stu-id="93c25-171">Click Original preview.</span></span>
+4. <span data-ttu-id="93c25-172">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="93c25-172">Close the page.</span></span>
+5. <span data-ttu-id="93c25-173">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="93c25-173">Close the page.</span></span>
 
 

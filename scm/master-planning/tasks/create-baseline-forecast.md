@@ -16,69 +16,69 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: c94a9766319531bd8285cca04003225709ce2113
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: e6363ee48c0d13c79a6c623205dfa10f50d6070f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-baseline-forecast"></a>Créer une prévision de base
+# <a name="create-a-baseline-forecast"></a><span data-ttu-id="387f3-103">Créer une prévision de base</span><span class="sxs-lookup"><span data-stu-id="387f3-103">Create a baseline forecast</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Un responsable de production peut créer une prévision de base à l'aide des modèles de prévision de série chronologiques ou en copiant la demande historique. Cette procédure indique comment copier la demande historique pour créer une prévision de base pour tous les produits à l'aide d'une clé de répartition par article. 
+<span data-ttu-id="387f3-104">Un responsable de production peut créer une prévision de base à l'aide des modèles de prévision de série chronologiques ou en copiant la demande historique.</span><span class="sxs-lookup"><span data-stu-id="387f3-104">A production planner can create a baseline forecast either by using time series forecast models or by copying the historical demand.</span></span> <span data-ttu-id="387f3-105">Cette procédure indique comment copier la demande historique pour créer une prévision de base pour tous les produits à l'aide d'une clé de répartition par article.</span><span class="sxs-lookup"><span data-stu-id="387f3-105">This procedure shows how to copy the historical demand to create a baseline forecast for all products using one item allocation key.</span></span> 
 
 
-## <a name="set-up-an-item-allocation-key"></a>Paramétrer une clé de répartition par article
-1. Accédez à Planification > Paramétrage > Groupes de planification intersociétés.
-2. Utilisez le Filtre rapide pour rechercher les enregistrements. Par exemple, filtrez sur le champ Nom avec une valeur de « 10 ».
-    * Les prévisions de la demande fonctionnent dans les entités juridiques. C'est pourquoi vous devez paramétrer toutes les sociétés pour lesquelles vous souhaitez générer des prévisions à un groupe de planification intersociétés.  
-3. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-4. Cliquez sur Clés de répartition par article.
-    * Sélectionnez toutes les clés de répartition par article pour lesquelles vous souhaitez créer des prévisions.  
-5. Dans la liste, marquez la ligne sélectionnée.
-    * Sélectionnez la clé de répartition par article D_Aloc.  
-6. Cliquer sur >.
-7. Fermez la page.
-8. Fermez la page.
+## <a name="set-up-an-item-allocation-key"></a><span data-ttu-id="387f3-106">Paramétrer une clé de répartition par article</span><span class="sxs-lookup"><span data-stu-id="387f3-106">Set up an item allocation key</span></span>
+1. <span data-ttu-id="387f3-107">Accédez à Planification > Paramétrage > Groupes de planification intersociétés.</span><span class="sxs-lookup"><span data-stu-id="387f3-107">Go to Master planning > Setup > Intercompany planning groups.</span></span>
+2. <span data-ttu-id="387f3-108">Utilisez le Filtre rapide pour rechercher les enregistrements.</span><span class="sxs-lookup"><span data-stu-id="387f3-108">Use the Quick Filter to find records.</span></span> <span data-ttu-id="387f3-109">Par exemple, filtrez sur le champ Nom avec une valeur de « 10 ».</span><span class="sxs-lookup"><span data-stu-id="387f3-109">For example, filter on the Name field with a value of '10'.</span></span>
+    * <span data-ttu-id="387f3-110">Les prévisions de la demande fonctionnent dans les entités juridiques.</span><span class="sxs-lookup"><span data-stu-id="387f3-110">Demand forecasting runs across legal entities.</span></span> <span data-ttu-id="387f3-111">C'est pourquoi vous devez paramétrer toutes les sociétés pour lesquelles vous souhaitez générer des prévisions à un groupe de planification intersociétés.</span><span class="sxs-lookup"><span data-stu-id="387f3-111">That's why you need to set up all the companies for which you want to generate forecasts in one intercompany planning group.</span></span>  
+3. <span data-ttu-id="387f3-112">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="387f3-112">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="387f3-113">Cliquez sur Clés de répartition par article.</span><span class="sxs-lookup"><span data-stu-id="387f3-113">Click Item allocation keys.</span></span>
+    * <span data-ttu-id="387f3-114">Sélectionnez toutes les clés de répartition par article pour lesquelles vous souhaitez créer des prévisions.</span><span class="sxs-lookup"><span data-stu-id="387f3-114">Select all the item allocation keys for which you want to create forecasts.</span></span>  
+5. <span data-ttu-id="387f3-115">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="387f3-115">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="387f3-116">Sélectionnez la clé de répartition par article D_Aloc.</span><span class="sxs-lookup"><span data-stu-id="387f3-116">Select D_Aloc item allocation key.</span></span>  
+6. <span data-ttu-id="387f3-117">Cliquer sur >.</span><span class="sxs-lookup"><span data-stu-id="387f3-117">Click >.</span></span>
+7. <span data-ttu-id="387f3-118">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="387f3-118">Close the page.</span></span>
+8. <span data-ttu-id="387f3-119">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="387f3-119">Close the page.</span></span>
 
-## <a name="set-up-the-demand-forecasting-paramters"></a>Définir des paramètres de prévision de la demande 
-1. Accédez à Planification > Paramétrage> Prévision de la demande > Paramètres de prévision de la demande.
-2. Développez la section Paramètres de l'algorithme de prévision.
-3. Dans le champ Stratégie de génération de la prévision, sélectionnez Copier sur la demande historique.
-4. Cliquez sur Enregistrer.
+## <a name="set-up-the-demand-forecasting-paramters"></a><span data-ttu-id="387f3-120">Définir des paramètres de prévision de la demande </span><span class="sxs-lookup"><span data-stu-id="387f3-120">Set up the demand forecasting paramters</span></span>
+1. <span data-ttu-id="387f3-121">Accédez à Planification > Paramétrage> Prévision de la demande > Paramètres de prévision de la demande.</span><span class="sxs-lookup"><span data-stu-id="387f3-121">Go to Master planning > Setup > Demand forecasting > Demand forecasting parameters.</span></span>
+2. <span data-ttu-id="387f3-122">Développez la section Paramètres de l'algorithme de prévision.</span><span class="sxs-lookup"><span data-stu-id="387f3-122">Expand the Forecast algorithm parameters section.</span></span>
+3. <span data-ttu-id="387f3-123">Dans le champ Stratégie de génération de la prévision, sélectionnez Copier sur la demande historique.</span><span class="sxs-lookup"><span data-stu-id="387f3-123">In the Forecast generation strategy field, select 'Copy over historical demand'.</span></span>
+4. <span data-ttu-id="387f3-124">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="387f3-124">Click Save.</span></span>
 
-## <a name="create-a-baseline-forecast"></a>Créer une prévision de base
-1. Accédez à Planification > Prévisions > Prévision de la demande > Générer des prévisions de base statistiques.
-2. Entrez une date dans le champ Date de début.
-    * Si vous avez des commandes client à partir du 1er janvier 2015, entrez cette date. Si ce n'est pas le cas, entrez la date de vos commandes client la plus proche.  
-3. Entrez une date dans le champ Date de fin.
-    * Entrez la dernière date de vos commandes client, par exemple « 31-03-2015 ».  
-4. Entrez une date dans le champ Date de début.
-    * Entrez « 01-04-2015 ». Cette date est automatiquement calculée comme date de début pour la prévision suivante.  
-5. Développez les enregistrements pour inclure la section.
-6. Cliquez sur Filtre.
-7. Dans la liste, marquez la ligne sélectionnée.
-    * Marquez la ligne où Champ = Groupe de planification intersociétés.  
-8. Tapez une valeur dans le champ Critères.
-    * Tapez le groupe de planification intersociétés, par exemple, 10, que vous avez utilisé dans la première tâche.  
-9. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-    * Sélectionnez la ligne de champ = clé de répartition par article.  
-10. Tapez une valeur dans le champ Critères.
-11. Cliquez sur OK.
-12. Développez la section Paramètres avancés.
-13. Sélectionnez Mois dans le champ Intervalle de prévision.
-14. Entrez 3 dans le champ Horizon de prévision.
-15. Entrez 1 dans le champ Limite de période du gel.
-16. Cliquez sur OK.
+## <a name="create-a-baseline-forecast"></a><span data-ttu-id="387f3-125">Créer une prévision de base</span><span class="sxs-lookup"><span data-stu-id="387f3-125">Create a baseline forecast</span></span>
+1. <span data-ttu-id="387f3-126">Accédez à Planification > Prévisions > Prévision de la demande > Générer des prévisions de base statistiques.</span><span class="sxs-lookup"><span data-stu-id="387f3-126">Go to Master planning > Forecasting > Demand forecasting > Generate statistical baseline forecast.</span></span>
+2. <span data-ttu-id="387f3-127">Entrez une date dans le champ Date de début.</span><span class="sxs-lookup"><span data-stu-id="387f3-127">In the From date field, enter a date.</span></span>
+    * <span data-ttu-id="387f3-128">Si vous avez des commandes client à partir du 1er janvier 2015, entrez cette date.</span><span class="sxs-lookup"><span data-stu-id="387f3-128">If you have sales orders starting from January 1, 2015, enter this date.</span></span> <span data-ttu-id="387f3-129">Si ce n'est pas le cas, entrez la date de vos commandes client la plus proche.</span><span class="sxs-lookup"><span data-stu-id="387f3-129">If you don't, enter the earliest date of your sales orders.</span></span>  
+3. <span data-ttu-id="387f3-130">Entrez une date dans le champ Date de fin.</span><span class="sxs-lookup"><span data-stu-id="387f3-130">In the To date field, enter a date.</span></span>
+    * <span data-ttu-id="387f3-131">Entrez la dernière date de vos commandes client, par exemple « 31-03-2015 ».</span><span class="sxs-lookup"><span data-stu-id="387f3-131">Enter the last date of your sales orders, for example '2015-03-31'.</span></span>  
+4. <span data-ttu-id="387f3-132">Entrez une date dans le champ Date de début.</span><span class="sxs-lookup"><span data-stu-id="387f3-132">In the From date field, enter a date.</span></span>
+    * <span data-ttu-id="387f3-133">Entrez « 01-04-2015 ».</span><span class="sxs-lookup"><span data-stu-id="387f3-133">Enter '2015-04-01'.</span></span> <span data-ttu-id="387f3-134">Cette date est automatiquement calculée comme date de début pour la prévision suivante.</span><span class="sxs-lookup"><span data-stu-id="387f3-134">This date will be automatically calculated as the start date of the next forecasting bucket.</span></span>  
+5. <span data-ttu-id="387f3-135">Développez les enregistrements pour inclure la section.</span><span class="sxs-lookup"><span data-stu-id="387f3-135">Expand the Records to include section.</span></span>
+6. <span data-ttu-id="387f3-136">Cliquez sur Filtre.</span><span class="sxs-lookup"><span data-stu-id="387f3-136">Click Filter.</span></span>
+7. <span data-ttu-id="387f3-137">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="387f3-137">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="387f3-138">Marquez la ligne où Champ = Groupe de planification intersociétés.</span><span class="sxs-lookup"><span data-stu-id="387f3-138">Mark the row where Field = Intercompany planning group.</span></span>  
+8. <span data-ttu-id="387f3-139">Tapez une valeur dans le champ Critères.</span><span class="sxs-lookup"><span data-stu-id="387f3-139">In the Criteria field, type a value.</span></span>
+    * <span data-ttu-id="387f3-140">Tapez le groupe de planification intersociétés, par exemple, 10, que vous avez utilisé dans la première tâche.</span><span class="sxs-lookup"><span data-stu-id="387f3-140">Type the intercompany planning group, for example, 10, that you used in the first task.</span></span>  
+9. <span data-ttu-id="387f3-141">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="387f3-141">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="387f3-142">Sélectionnez la ligne de champ = clé de répartition par article.</span><span class="sxs-lookup"><span data-stu-id="387f3-142">Select the row where Field = Item allocation key.</span></span>  
+10. <span data-ttu-id="387f3-143">Tapez une valeur dans le champ Critères.</span><span class="sxs-lookup"><span data-stu-id="387f3-143">In the Criteria field, type a value.</span></span>
+11. <span data-ttu-id="387f3-144">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="387f3-144">Click OK.</span></span>
+12. <span data-ttu-id="387f3-145">Développez la section Paramètres avancés.</span><span class="sxs-lookup"><span data-stu-id="387f3-145">Expand the Advanced parameters section.</span></span>
+13. <span data-ttu-id="387f3-146">Sélectionnez Mois dans le champ Intervalle de prévision.</span><span class="sxs-lookup"><span data-stu-id="387f3-146">In the Forecast bucket field, select 'Month'.</span></span>
+14. <span data-ttu-id="387f3-147">Entrez 3 dans le champ Horizon de prévision.</span><span class="sxs-lookup"><span data-stu-id="387f3-147">In the Forecast horizon field, enter '3'.</span></span>
+15. <span data-ttu-id="387f3-148">Entrez 1 dans le champ Limite de période du gel.</span><span class="sxs-lookup"><span data-stu-id="387f3-148">In the Freeze time fence field, enter '1'.</span></span>
+16. <span data-ttu-id="387f3-149">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="387f3-149">Click OK.</span></span>
 
-## <a name="visualize-the-demand-forecast"></a>Visualiser la prévision de la demande
-1. Accédez à Planification > Prévisions > Prévision de la demande > Prévision de la demande ajustée.
-2. Dans la table de vue d'ensemble regroupée, sélectionnez la cellule de la ligne 1, colonne 2. Il s'agit de la cellule pour le deuxième mois pour lequel vous avez créé une prévision.
-3. Définissez QtyCell sur « 400 ".
-    * Dans la cellule, entrez un nombre différent de celui qui a été planifié, par exemple, 400.  
-4. Vous avez effectué un ajustement manuel dans la prévision. Notez l'indication graphique dans l'étape suivante.
-5. Cliquez sur Détails des lignes de prévision.
-    * Dans cette page, vous pouvez voir les valeurs de précision, la demande historique et la prévision. Vous pouvez également apporter des modifications aux prévisions.  
+## <a name="visualize-the-demand-forecast"></a><span data-ttu-id="387f3-150">Visualiser la prévision de la demande</span><span class="sxs-lookup"><span data-stu-id="387f3-150">Visualize the demand forecast</span></span>
+1. <span data-ttu-id="387f3-151">Accédez à Planification > Prévisions > Prévision de la demande > Prévision de la demande ajustée.</span><span class="sxs-lookup"><span data-stu-id="387f3-151">Go to Master planning > Forecasting > Demand forecasting > Adjusted demand forecast.</span></span>
+2. <span data-ttu-id="387f3-152">Dans la table de vue d'ensemble regroupée, sélectionnez la cellule de la ligne 1, colonne 2.</span><span class="sxs-lookup"><span data-stu-id="387f3-152">In the aggregated view table, select the cell in row 1, column 2.</span></span> <span data-ttu-id="387f3-153">Il s'agit de la cellule pour le deuxième mois pour lequel vous avez créé une prévision.</span><span class="sxs-lookup"><span data-stu-id="387f3-153">This is the second month for which you have created forecast.</span></span>
+3. <span data-ttu-id="387f3-154">Définissez QtyCell sur « 400 ".</span><span class="sxs-lookup"><span data-stu-id="387f3-154">Set QtyCell to '400'.</span></span>
+    * <span data-ttu-id="387f3-155">Dans la cellule, entrez un nombre différent de celui qui a été planifié, par exemple, 400.</span><span class="sxs-lookup"><span data-stu-id="387f3-155">In the cell, enter a different number than the one that was forecasted, for example, 400.</span></span>  
+4. <span data-ttu-id="387f3-156">Vous avez effectué un ajustement manuel dans la prévision.</span><span class="sxs-lookup"><span data-stu-id="387f3-156">You have made a manual adjustment to the forecast.</span></span> <span data-ttu-id="387f3-157">Notez l'indication graphique dans l'étape suivante.</span><span class="sxs-lookup"><span data-stu-id="387f3-157">Notice the graphical indication in the next step.</span></span>
+5. <span data-ttu-id="387f3-158">Cliquez sur Détails des lignes de prévision.</span><span class="sxs-lookup"><span data-stu-id="387f3-158">Click Forecast line details.</span></span>
+    * <span data-ttu-id="387f3-159">Dans cette page, vous pouvez voir les valeurs de précision, la demande historique et la prévision.</span><span class="sxs-lookup"><span data-stu-id="387f3-159">In this page, you can see the accuracy values, historical demand, and forecast.</span></span> <span data-ttu-id="387f3-160">Vous pouvez également apporter des modifications aux prévisions.</span><span class="sxs-lookup"><span data-stu-id="387f3-160">You can make changes to the forecast as well.</span></span>  
 
 

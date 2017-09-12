@@ -1,4 +1,4 @@
---- 
+---
 title: "Définir les processus de comptage d'inventaire"
 description: "Cette procédure vous guide dans la configuration des processus de comptage d'inventaire basiques en créant un groupe de comptage et un journal d'inventaire."
 author: MarkusFogelberg
@@ -9,80 +9,79 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bibis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
+ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 62c60faafd9ad96ce636a08102bc8652f9fff870
+ms.sourcegitcommit: 0e7f66cccd76e5326fce75d1a13aff294c16fb9b
+ms.openlocfilehash: c14c846c55a3d821945160835817cd4f467deda9
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/12/2017
 
 ---
-# <a name="define-inventory-counting-processes"></a>Définir les processus de comptage d'inventaire
+# <a name="define-inventory-counting-processes"></a><span data-ttu-id="36e37-103">Définir les processus de comptage d'inventaire</span><span class="sxs-lookup"><span data-stu-id="36e37-103">Define inventory counting processes</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Cette procédure vous guide dans la configuration des processus de comptage d'inventaire basiques en créant un groupe de comptage et un journal d'inventaire. Elle vous indique également comment activer les stratégies d'inventaire dans un entrepôt et au niveau d'un article. Ces tâches sont généralement effectuées par un superviseur de l'entrepôt. Il est impératif d'avoir déjà des produits lancés et des entrepôts. Si vous utilisez une société fictive, vous pouvez exécuter cette procédure à l'aide de la société USMF avec n'importe quel article en stock.
+<span data-ttu-id="36e37-104">Cette procédure vous guide dans la configuration des processus de comptage d'inventaire basiques en créant un groupe de comptage et un journal d'inventaire.</span><span class="sxs-lookup"><span data-stu-id="36e37-104">This procedure walks you through the configuration of basic inventory counting processes by creating a counting group and a counting journal.</span></span> <span data-ttu-id="36e37-105">Elle vous indique également comment activer les stratégies d'inventaire dans un entrepôt et au niveau d'un article.</span><span class="sxs-lookup"><span data-stu-id="36e37-105">It also shows you how to enable counting policies on a warehouse and item level.</span></span> <span data-ttu-id="36e37-106">Ces tâches sont généralement effectuées par un superviseur de l'entrepôt.</span><span class="sxs-lookup"><span data-stu-id="36e37-106">These tasks would typically be carried out by a warehouse supervisor.</span></span> <span data-ttu-id="36e37-107">Il est impératif d'avoir déjà des produits lancés et des entrepôts.</span><span class="sxs-lookup"><span data-stu-id="36e37-107">It is a prerequisite to have some existing released products and warehouses.</span></span> <span data-ttu-id="36e37-108">Si vous utilisez une société fictive, vous pouvez exécuter cette procédure à l'aide de la société USMF avec n'importe quel article en stock.</span><span class="sxs-lookup"><span data-stu-id="36e37-108">If you're using a demo data company, you can run this procedure in the USMF company with any stocked item.</span></span>
 
 
-## <a name="create-a-counting-group"></a>Créer un groupe de comptage
-1. Accédez à Gestion des stocks > Configuration > Stock > Groupes de comptage.
-2. Cliquez sur Nouveau.
-3. Tapez une valeur dans le champ Groupe de comptage.
-4. Tapez une valeur dans le champ Nom.
-5. Sélectionnez une option dans le champ Code comptage.
-    * Manuel : inclut des lignes chaque fois que vous exécutez la tâche. Autrement dit, vous décidez de l'intervalle d'inventaire pour le groupe de comptage.  Période : inclut des lignes pour la période dans le journal d'inventaire une fois que l'intervalle de périodes a expiré.   Stock épuisé : si le stock disponible atteint zéro (0), des lignes sont générées dans le journal d'inventaire lors de l'exécution de la tâche. Si le stock disponible atteint 0 après le comptage, des lignes sont générées la prochaine fois que vous lancez l'inventaire.   Minimum : insère des lignes dans le journal d'inventaire si le stock disponible est égal ou inférieur au minimum spécifié.  
-    * Facultatif : Si vous avez spécifié Période dans le champ Code comptage, vous devez entrer l'intervalle de la période dans le champ Période de comptage. L'unité des intervalles est le jour.  
-    * Lorsque vous exécutez la tâche pour créer des lignes dans le journal d'inventaire, de nouvelles lignes sont créées dans l'intervalle spécifié dans ce champ, indépendamment de la fréquence d'exécution de la tâche. Par exemple, si la période de comptage est définie sur 7, et que les lignes du journal ont été générées pour la dernière fois le 1er janvier, si une autre tâche a démarré le 5 janvier, sept jours ne se sont pas écoulés et donc aucune ligne n'est générée dans le journal pour cet intervalle. Si vous redémarrez la tâche le 8 janvier, des lignes sont générées pour la période dans le journal d'inventaire car 7 jours se sont écoulés.  
-6. Cliquez sur Enregistrer.
+## <a name="create-a-counting-group"></a><span data-ttu-id="36e37-109">Créer un groupe de comptage</span><span class="sxs-lookup"><span data-stu-id="36e37-109">Create a counting group</span></span>
+1. <span data-ttu-id="36e37-110">Accédez à Gestion des stocks > Configuration > Stock > Groupes de comptage.</span><span class="sxs-lookup"><span data-stu-id="36e37-110">Go to Inventory management > Setup > Inventory > Counting groups.</span></span>
+2. <span data-ttu-id="36e37-111">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="36e37-111">Click New.</span></span>
+3. <span data-ttu-id="36e37-112">Tapez une valeur dans le champ Groupe de comptage.</span><span class="sxs-lookup"><span data-stu-id="36e37-112">In the Counting group field, type a value.</span></span>
+4. <span data-ttu-id="36e37-113">Tapez une valeur dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="36e37-113">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="36e37-114">Sélectionnez une option dans le champ Code comptage.</span><span class="sxs-lookup"><span data-stu-id="36e37-114">In the Counting code field, select an option.</span></span>
+    * <span data-ttu-id="36e37-115">Manuel : inclut des lignes chaque fois que vous exécutez la tâche.</span><span class="sxs-lookup"><span data-stu-id="36e37-115">Manual – Includes lines every time you run the job.</span></span> <span data-ttu-id="36e37-116">Autrement dit, vous décidez de l'intervalle d'inventaire pour le groupe de comptage.</span><span class="sxs-lookup"><span data-stu-id="36e37-116">In other words, you decide the counting interval for the counting group.</span></span>  <span data-ttu-id="36e37-117">Période : inclut des lignes pour la période dans le journal d'inventaire une fois que l'intervalle de périodes a expiré.</span><span class="sxs-lookup"><span data-stu-id="36e37-117">Period – Includes lines for the period in the counting journal when the period interval has expired.</span></span>   <span data-ttu-id="36e37-118">Stock épuisé : si le stock disponible atteint zéro (0), des lignes sont générées dans le journal d'inventaire lors de l'exécution de la tâche.</span><span class="sxs-lookup"><span data-stu-id="36e37-118">Zero in stock – If on-hand inventory reaches zero (0), lines are generated in the counting journal when the job is run.</span></span> <span data-ttu-id="36e37-119">Si le stock disponible atteint 0 après le comptage, des lignes sont générées la prochaine fois que vous lancez l'inventaire.</span><span class="sxs-lookup"><span data-stu-id="36e37-119">If the on-hand inventory reaches 0 after a count, lines are generated the next time that you start the count.</span></span>   <span data-ttu-id="36e37-120">Minimum : insère des lignes dans le journal d'inventaire si le stock disponible est égal ou inférieur au minimum spécifié.</span><span class="sxs-lookup"><span data-stu-id="36e37-120">Minimum – Inserts lines in the counting journal if the on-hand inventory is equal to or less than the minimum that is specified.</span></span>  
+    * <span data-ttu-id="36e37-121">Facultatif : Si vous avez spécifié Période dans le champ Code comptage, vous devez entrer l'intervalle de la période dans le champ Période de comptage.</span><span class="sxs-lookup"><span data-stu-id="36e37-121">Optional: If you have specified Period in the Counting code field, you must type the interval for the period in the Counting period field.</span></span> <span data-ttu-id="36e37-122">L'unité des intervalles est le jour.</span><span class="sxs-lookup"><span data-stu-id="36e37-122">The unit for intervals is days.</span></span>  
+    * <span data-ttu-id="36e37-123">Lorsque vous exécutez la tâche pour créer des lignes dans le journal d'inventaire, de nouvelles lignes sont créées dans l'intervalle spécifié dans ce champ, indépendamment de la fréquence d'exécution de la tâche.</span><span class="sxs-lookup"><span data-stu-id="36e37-123">When you run the job for creating new lines in the counting journal, new lines are created at the interval specified in this field, regardless of how often you run the same job.</span></span> <span data-ttu-id="36e37-124">Par exemple, si la période de comptage est définie sur 7, et que les lignes du journal ont été générées pour la dernière fois le 1er janvier, si une autre tâche a démarré le 5 janvier, sept jours ne se sont pas écoulés et donc aucune ligne n'est générée dans le journal pour cet intervalle.</span><span class="sxs-lookup"><span data-stu-id="36e37-124">For example, if Counting period is set to 7, and journal lines were last generated for a count on January 1, if another job is started on January 5, seven days have not passed and so no lines are generated in the journal for that period interval.</span></span> <span data-ttu-id="36e37-125">Si vous redémarrez la tâche le 8 janvier, des lignes sont générées pour la période dans le journal d'inventaire car 7 jours se sont écoulés.</span><span class="sxs-lookup"><span data-stu-id="36e37-125">If you start the job again on January 8, lines are generated for the period in the counting journal, because 7 days have passed.</span></span>  
+6. <span data-ttu-id="36e37-126">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="36e37-126">Click Save.</span></span>
 
-## <a name="create-a-counting-journal-name"></a>Créer un nom de journal d'inventaire de stock
-1. Accédez à Gestion des stocks > Configuration > Noms de journal > Stock.
-2. Cliquez sur Nouveau.
-3. Tapez une valeur dans le champ Nom.
-4. Dans le champ Description, entrez une valeur.
-5. Sélectionnez Comptage dans le champ Type de journal.
-    * Facultatif : Vous pouvez sélectionner un ID de souche de N° de documents différent si vous souhaitez une souche de numéros spécifique pour des ID N° document générés lors de la création des journaux d'inventaire. La souche de numéros est créée dans la page Souches de numéros.  
-6. Sélectionnez une option dans le champ Niveau de détail.
-    * Il s'agit du niveau de détail appliqué lors de la validation du journal.  
-    * Facultatif : Vous pouvez modifier la valeur du champ Réservation. Il s'agit de la méthode utilisée pour réserver des articles lors du comptage.   
-    * Manuel : Les articles sont réservés manuellement dans l'écran Réservation.   Automatique : La quantité de commande est réservée dans le stock disponible de l'article.   Éclatement : La réservation fait partie de la planification de la transaction.  
-7. Cliquez sur Enregistrer.
+## <a name="create-a-counting-journal-name"></a><span data-ttu-id="36e37-127">Créer un nom de journal d'inventaire de stock</span><span class="sxs-lookup"><span data-stu-id="36e37-127">Create a counting journal name</span></span>
+1. <span data-ttu-id="36e37-128">Accédez à Gestion des stocks > Configuration > Noms de journal > Stock.</span><span class="sxs-lookup"><span data-stu-id="36e37-128">Go to Inventory management > Setup > Journal names > Inventory.</span></span>
+2. <span data-ttu-id="36e37-129">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="36e37-129">Click New.</span></span>
+3. <span data-ttu-id="36e37-130">Tapez une valeur dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="36e37-130">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="36e37-131">Dans le champ Description, entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="36e37-131">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="36e37-132">Sélectionnez Comptage dans le champ Type de journal.</span><span class="sxs-lookup"><span data-stu-id="36e37-132">In the Journal type field, select 'Counting'.</span></span>
+    * <span data-ttu-id="36e37-133">Facultatif : Vous pouvez sélectionner un ID de souche de N° de documents différent si vous souhaitez une souche de numéros spécifique pour des ID N° document générés lors de la création des journaux d'inventaire.</span><span class="sxs-lookup"><span data-stu-id="36e37-133">Optional: you can select a different voucher series ID if you want a specific number sequence for the voucher IDs generated when creating counting journals.</span></span> <span data-ttu-id="36e37-134">La souche de numéros est créée dans la page Souches de numéros.</span><span class="sxs-lookup"><span data-stu-id="36e37-134">Voucher series are created in the Number sequences page.</span></span>  
+6. <span data-ttu-id="36e37-135">Sélectionnez une option dans le champ Niveau de détail.</span><span class="sxs-lookup"><span data-stu-id="36e37-135">In the Detail level field, select an option.</span></span>
+    * <span data-ttu-id="36e37-136">Il s'agit du niveau de détail appliqué lors de la validation du journal.</span><span class="sxs-lookup"><span data-stu-id="36e37-136">This is the level of detail that is applied when the journal is posted.</span></span>  
+    * <span data-ttu-id="36e37-137">Facultatif : Vous pouvez modifier la valeur du champ Réservation.</span><span class="sxs-lookup"><span data-stu-id="36e37-137">Optional: you can change the value in the Reservation field.</span></span> <span data-ttu-id="36e37-138">Il s'agit de la méthode utilisée pour réserver des articles lors du comptage.</span><span class="sxs-lookup"><span data-stu-id="36e37-138">This is the method used to reserve items during counting.</span></span>   
+    * <span data-ttu-id="36e37-139">Manuel : Les articles sont réservés manuellement dans l'écran Réservation.</span><span class="sxs-lookup"><span data-stu-id="36e37-139">Manual – The items are reserved manually in the Reservation form.</span></span>   <span data-ttu-id="36e37-140">Automatique : La quantité de commande est réservée dans le stock disponible de l'article.</span><span class="sxs-lookup"><span data-stu-id="36e37-140">Automatic – The order quantity is reserved from the available, on-hand inventory for the item.</span></span>   <span data-ttu-id="36e37-141">Éclatement : La réservation fait partie de la planification de la transaction.</span><span class="sxs-lookup"><span data-stu-id="36e37-141">Explosion – The reservation is part of the master planning of the transaction.</span></span>  
+7. <span data-ttu-id="36e37-142">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="36e37-142">Click Save.</span></span>
 
-## <a name="set-standard-counting-journal-name"></a>Définir le nom du journal d'inventaire standard
-1. Accédez à Gestion des stocks > Paramétrage > Paramètres de gestion des stocks et des entrepôts.
-2. Cliquez sur l'onglet Journaux.
-3. Dans le champ Comptage, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-4. Sélectionnez le journal créé précédemment.
-    * Ce journal sera ensuite le nom de journal par défaut pour les journaux de stock du type Comptage.  
-5. Cliquez sur l'onglet Général.
-    * Facultatif : Sélectionnez cette option pour verrouiller un article pendant le comptage pour éviter les mises à jour des bons de livraison, des prélèvements ou des enregistrements de prélèvement).  
+## <a name="set-standard-counting-journal-name"></a><span data-ttu-id="36e37-143">Définir le nom du journal d'inventaire standard</span><span class="sxs-lookup"><span data-stu-id="36e37-143">Set standard counting journal name</span></span>
+1. <span data-ttu-id="36e37-144">Accédez à Gestion des stocks > Paramétrage > Paramètres de gestion des stocks et des entrepôts.</span><span class="sxs-lookup"><span data-stu-id="36e37-144">Go to Inventory management > Setup > Inventory and warehouse management parameters.</span></span>
+2. <span data-ttu-id="36e37-145">Cliquez sur l'onglet Journaux.</span><span class="sxs-lookup"><span data-stu-id="36e37-145">Click the Journals tab.</span></span>
+3. <span data-ttu-id="36e37-146">Dans le champ Comptage, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="36e37-146">In the Counting field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="36e37-147">Sélectionnez le journal créé précédemment.</span><span class="sxs-lookup"><span data-stu-id="36e37-147">Select the journal you previously created.</span></span>
+    * <span data-ttu-id="36e37-148">Ce journal sera ensuite le nom de journal par défaut pour les journaux de stock du type Comptage.</span><span class="sxs-lookup"><span data-stu-id="36e37-148">This journal will then be the default journal name for inventory journals of the Counting type.</span></span>  
+5. <span data-ttu-id="36e37-149">Cliquez sur l'onglet Général.</span><span class="sxs-lookup"><span data-stu-id="36e37-149">Click the General tab.</span></span>
+    * <span data-ttu-id="36e37-150">Facultatif : Sélectionnez cette option pour verrouiller un article pendant le comptage pour éviter les mises à jour des bons de livraison, des prélèvements ou des enregistrements de prélèvement).</span><span class="sxs-lookup"><span data-stu-id="36e37-150">Optional: Select this option to lock an item during the counting process to prevent updates for packing slips, picking lists, or picking list registrations.</span></span>  
 
-## <a name="set-the-counting-policy-for-an-item"></a>Définir une stratégie de comptage pour un article
-1. Allez à Gestion des informations sur les produits > Produits > Produits lancés.
-2. Dans la liste, cliquez sur le lien du numéro d'article du produit pour lequel vous souhaitez définir des stratégies d'inventaire.
-    * Notez que vous devez sélectionner un article qui fait l'objet d'un suivi en stock. Un produit non stocké ne peut pas être compté. Si vous utilisez la société fictive USMF, vous pouvez sélectionner l'article A0001.  
-3. Cliquez sur Modifier.
-4. Activez ou désactivez l'extension de la section Gérer le stock.
-5. Dans le champ Groupe de comptage, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-6. Dans la liste, dans le groupe de comptage que vous avez précédemment créé.
-    * Ce produit est désormais inclus lorsque les lignes du journal d'inventaire sont créées à l'aide de ce groupe de comptage.  
-7. Cliquez sur Enregistrer.
+## <a name="set-the-counting-policy-for-an-item"></a><span data-ttu-id="36e37-151">Définir une stratégie de comptage pour un article</span><span class="sxs-lookup"><span data-stu-id="36e37-151">Set the counting policy for an item</span></span>
+1. <span data-ttu-id="36e37-152">Allez à Gestion des informations sur les produits > Produits > Produits lancés.</span><span class="sxs-lookup"><span data-stu-id="36e37-152">Go to Product information management > Products > Released products.</span></span>
+2. <span data-ttu-id="36e37-153">Dans la liste, cliquez sur le lien du numéro d'article du produit pour lequel vous souhaitez définir des stratégies d'inventaire.</span><span class="sxs-lookup"><span data-stu-id="36e37-153">In the list, click on the link for the Item number of the product that you want to set counting policies on.</span></span>
+    * <span data-ttu-id="36e37-154">Notez que vous devez sélectionner un article qui fait l'objet d'un suivi en stock.</span><span class="sxs-lookup"><span data-stu-id="36e37-154">Note that you need to select an item that is inventory tracked.</span></span> <span data-ttu-id="36e37-155">Un produit non stocké ne peut pas être compté.</span><span class="sxs-lookup"><span data-stu-id="36e37-155">A non-stocked product can't be counted.</span></span> <span data-ttu-id="36e37-156">Si vous utilisez la société fictive USMF, vous pouvez sélectionner l'article A0001.</span><span class="sxs-lookup"><span data-stu-id="36e37-156">If you are using USMF demo data you can select item A0001.</span></span>  
+3. <span data-ttu-id="36e37-157">Cliquez sur Modifier.</span><span class="sxs-lookup"><span data-stu-id="36e37-157">Click Edit.</span></span>
+4. <span data-ttu-id="36e37-158">Activez ou désactivez l'extension de la section Gérer le stock.</span><span class="sxs-lookup"><span data-stu-id="36e37-158">Toggle the expansion of the Manage inventory section.</span></span>
+5. <span data-ttu-id="36e37-159">Dans le champ Groupe de comptage, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="36e37-159">In the Counting group field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="36e37-160">Dans la liste, dans le groupe de comptage que vous avez précédemment créé.</span><span class="sxs-lookup"><span data-stu-id="36e37-160">In the list, click on the counting group you previously created.</span></span>
+    * <span data-ttu-id="36e37-161">Ce produit est désormais inclus lorsque les lignes du journal d'inventaire sont créées à l'aide de ce groupe de comptage.</span><span class="sxs-lookup"><span data-stu-id="36e37-161">This product will now be included when inventory counting journal lines are created using this counting group.</span></span>  
+7. <span data-ttu-id="36e37-162">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="36e37-162">Click Save.</span></span>
 
-## <a name="set-the-counting-policy-for-an-item-in-a-specific-warehouse"></a>Définir la stratégie de comptage pour un article dans un entrepôt spécifique
-1. Dans le volet Actions, cliquez sur Gérer le stock.
-2. Cliquez sur Articles par entrepôt.
-3. Cliquez sur Nouveau.
-4. Dans le champ Entrepôt, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-5. Dans la liste, sélectionnez l'entrepôt pour lequel vous souhaitez définir des stratégies d'inventaire spécifiques.
-6. Dans le champ Groupe de comptage, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-7. Sélectionner un groupe de comptage dans la liste
-    * Ici vous pouvez sélectionner un groupe de comptage spécifique devant être appliqué aux articles de l'entrepôt spécifique sélectionné. Lors du comptage dans cet entrepôt, cette stratégie de comptage remplace la stratégie de comptage générale pour l'article.  
-8. Cliquez sur Enregistrer.
-
+## <a name="set-the-counting-policy-for-an-item-in-a-specific-warehouse"></a><span data-ttu-id="36e37-163">Définir la stratégie de comptage pour un article dans un entrepôt spécifique</span><span class="sxs-lookup"><span data-stu-id="36e37-163">Set the counting policy for an item in a specific warehouse</span></span>
+1. <span data-ttu-id="36e37-164">Dans le volet Actions, cliquez sur Gérer le stock.</span><span class="sxs-lookup"><span data-stu-id="36e37-164">On the Action Pane, click Manage inventory.</span></span>
+2. <span data-ttu-id="36e37-165">Cliquez sur Articles par entrepôt.</span><span class="sxs-lookup"><span data-stu-id="36e37-165">Click Warehouse items.</span></span>
+3. <span data-ttu-id="36e37-166">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="36e37-166">Click New.</span></span>
+4. <span data-ttu-id="36e37-167">Dans le champ Entrepôt, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="36e37-167">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="36e37-168">Dans la liste, sélectionnez l'entrepôt pour lequel vous souhaitez définir des stratégies d'inventaire spécifiques.</span><span class="sxs-lookup"><span data-stu-id="36e37-168">In the list, select the warehouse you want set up specific counting policies for.</span></span>
+6. <span data-ttu-id="36e37-169">Dans le champ Groupe de comptage, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="36e37-169">In the Counting group field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="36e37-170">Sélectionner un groupe de comptage dans la liste</span><span class="sxs-lookup"><span data-stu-id="36e37-170">In the list, select a counting group</span></span>
+    * <span data-ttu-id="36e37-171">Ici vous pouvez sélectionner un groupe de comptage spécifique devant être appliqué aux articles de l'entrepôt spécifique sélectionné.</span><span class="sxs-lookup"><span data-stu-id="36e37-171">Here you can select a specific counting group that should apply to the item in the specific warehouse you have selected.</span></span> <span data-ttu-id="36e37-172">Lors du comptage dans cet entrepôt, cette stratégie de comptage remplace la stratégie de comptage générale pour l'article.</span><span class="sxs-lookup"><span data-stu-id="36e37-172">When counting is performed in that warehouse, this counting policy will override the general counting policy for the item.</span></span>  
+8. <span data-ttu-id="36e37-173">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="36e37-173">Click Save.</span></span>
 

@@ -17,35 +17,35 @@ ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 4a7d342eeb16fd76f2dde58151bfc7973de76e2d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 99c230c0e6a580f77d863b6f0be298615966c479
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="define-resource-capabilities"></a>Définir des capacités de ressources
+# <a name="define-resource-capabilities"></a><span data-ttu-id="999fc-103">Définir des capacités de ressources</span><span class="sxs-lookup"><span data-stu-id="999fc-103">Define resource capabilities</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Les capacités de ressource décrivent ce que les ressources opérationnelles peuvent effectuer. Lors de la planification, les exigences de chaque tâche et opération sont mises en correspondance avec les capacités des ressources disponibles. Ce guide des tâches vous aidera à créer une capacité et à l'affecter à une ressource. Les données fictives utilisées pour créer cette tâche correspondent à la société USMF.
+<span data-ttu-id="999fc-104">Les capacités de ressource décrivent ce que les ressources opérationnelles peuvent effectuer.</span><span class="sxs-lookup"><span data-stu-id="999fc-104">Resource capabilities describe what operations resources can do.</span></span> <span data-ttu-id="999fc-105">Lors de la planification, les exigences de chaque tâche et opération sont mises en correspondance avec les capacités des ressources disponibles.</span><span class="sxs-lookup"><span data-stu-id="999fc-105">During scheduling, the requirements of each job and operation are matched against the capabilities of the available resources.</span></span> <span data-ttu-id="999fc-106">Ce guide des tâches vous aidera à créer une capacité et à l'affecter à une ressource.</span><span class="sxs-lookup"><span data-stu-id="999fc-106">This task guide will help you create a resource capability and assign it to a resource.</span></span> <span data-ttu-id="999fc-107">Les données fictives utilisées pour créer cette tâche correspondent à la société USMF.</span><span class="sxs-lookup"><span data-stu-id="999fc-107">The demo data company used to create this task is USMF.</span></span>
 
 
-## <a name="create-a-resource-capability"></a>Créer une capacité de ressource
-1. Allez dans Capacités de ressources.
-2. Cliquez sur Nouveau.
-3. Dans le champ Capacité, entrez l'ID de la capacité de la ressource.
-    * Pour une opération donnée, vous devez utiliser l'ID de capacité pour spécifier que les ressources doivent avoir cette possibilité d'exécuter l'opération.  
-4. Dans le champ Description, entrez la description de la capacité.
+## <a name="create-a-resource-capability"></a><span data-ttu-id="999fc-108">Créer une capacité de ressource</span><span class="sxs-lookup"><span data-stu-id="999fc-108">Create a resource capability</span></span>
+1. <span data-ttu-id="999fc-109">Allez dans Capacités de ressources.</span><span class="sxs-lookup"><span data-stu-id="999fc-109">Go to Resource capabilities.</span></span>
+2. <span data-ttu-id="999fc-110">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="999fc-110">Click New.</span></span>
+3. <span data-ttu-id="999fc-111">Dans le champ Capacité, entrez l'ID de la capacité de la ressource.</span><span class="sxs-lookup"><span data-stu-id="999fc-111">In the Capability field, type the ID of the resource capability.</span></span>
+    * <span data-ttu-id="999fc-112">Pour une opération donnée, vous devez utiliser l'ID de capacité pour spécifier que les ressources doivent avoir cette possibilité d'exécuter l'opération.</span><span class="sxs-lookup"><span data-stu-id="999fc-112">For a given operation, you use the capability ID to specify that resources must have this capability to perform the operation.</span></span>  
+4. <span data-ttu-id="999fc-113">Dans le champ Description, entrez la description de la capacité.</span><span class="sxs-lookup"><span data-stu-id="999fc-113">In the Description field, enter a description of the capability.</span></span>
 
-## <a name="assign-capability-to-a-resource"></a>Affecter la capacité à une ressource
-1. Cliquez sur Ajouter.
-2. Dans le champ Ressource, entrez l'ID de la capacité de la ressource.
-    * Une capacité de la ressource peut être affectée à une ou plusieurs ressources.  
-3. Dans le champ Expiration, entrer une date et une heure.
-    * Vous pouvez utiliser ce champ pour spécifier qu'une ressource a la capacité pour une durée limitée uniquement.  
-4. Dans le champ Priorité, entrer un numéro.
-    * Lorsque vous planifiez des tâches et des opérations, vous pouvez spécifier si les ressources doivent être sélectionnées par priorité ou non. Si vous choisissez de le faire et que plusieurs ressources peuvent exécuter la tâche ou l'opération pour la date demandée, la ressource ayant la priorité la plus faible par rapport à la capacité nécessaire est sélectionnée.  
-5. Dans le champ Niveau, entrez un nombre.
-    * Si vous spécifiez qu'une tâche ou une opération nécessite une capacité particulière, vous pouvez également spécifier le niveau minimal requis. Utilisez le niveau de la capacité pour différencier les ressources capables d'effectuer la même tâche, mais à des vitesses, des forces, des tailles, etc. différentes.  
+## <a name="assign-capability-to-a-resource"></a><span data-ttu-id="999fc-114">Affecter la capacité à une ressource</span><span class="sxs-lookup"><span data-stu-id="999fc-114">Assign capability to a resource</span></span>
+1. <span data-ttu-id="999fc-115">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="999fc-115">Click Add.</span></span>
+2. <span data-ttu-id="999fc-116">Dans le champ Ressource, entrez l'ID de la capacité de la ressource.</span><span class="sxs-lookup"><span data-stu-id="999fc-116">In the Resource field, type the ID of the resource.</span></span>
+    * <span data-ttu-id="999fc-117">Une capacité de la ressource peut être affectée à une ou plusieurs ressources.</span><span class="sxs-lookup"><span data-stu-id="999fc-117">A resource capability can be assigned to one or more resources.</span></span>  
+3. <span data-ttu-id="999fc-118">Dans le champ Expiration, entrer une date et une heure.</span><span class="sxs-lookup"><span data-stu-id="999fc-118">In the Expiration field, enter a date.</span></span>
+    * <span data-ttu-id="999fc-119">Vous pouvez utiliser ce champ pour spécifier qu'une ressource a la capacité pour une durée limitée uniquement.</span><span class="sxs-lookup"><span data-stu-id="999fc-119">You can use this field to specify that a resource has the capability for only a limited time.</span></span>  
+4. <span data-ttu-id="999fc-120">Dans le champ Priorité, entrer un numéro.</span><span class="sxs-lookup"><span data-stu-id="999fc-120">In the Priority field, enter a number.</span></span>
+    * <span data-ttu-id="999fc-121">Lorsque vous planifiez des tâches et des opérations, vous pouvez spécifier si les ressources doivent être sélectionnées par priorité ou non.</span><span class="sxs-lookup"><span data-stu-id="999fc-121">When you schedule jobs and operations, you can specify whether to select resources by priority.</span></span> <span data-ttu-id="999fc-122">Si vous choisissez de le faire et que plusieurs ressources peuvent exécuter la tâche ou l'opération pour la date demandée, la ressource ayant la priorité la plus faible par rapport à la capacité nécessaire est sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="999fc-122">If you choose to do this, and more than one resource can perform the job or operation by the requested date, the resource that has the lowest priority with respect to the required capability is selected.</span></span>  
+5. <span data-ttu-id="999fc-123">Dans le champ Niveau, entrez un nombre.</span><span class="sxs-lookup"><span data-stu-id="999fc-123">In the Level field, enter a number.</span></span>
+    * <span data-ttu-id="999fc-124">Si vous spécifiez qu'une tâche ou une opération nécessite une capacité particulière, vous pouvez également spécifier le niveau minimal requis.</span><span class="sxs-lookup"><span data-stu-id="999fc-124">When you specify that a job or operation requires a particular capability, you can also specify the minimum level that is required.</span></span> <span data-ttu-id="999fc-125">Utilisez le niveau de la capacité pour différencier les ressources capables d'effectuer la même tâche, mais à des vitesses, des forces, des tailles, etc. différentes.</span><span class="sxs-lookup"><span data-stu-id="999fc-125">Use the capability level to differentiate resources that can perform the same job, but at different speeds, strengths, sizes, and so on.</span></span>  
 
 

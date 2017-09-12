@@ -18,45 +18,45 @@ ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 957626a283b750645adefa5176480e68cc27e4f1
+ms.sourcegitcommit: 97d374230cc6e833b9f585de000e1252f2a78b9d
+ms.openlocfilehash: c46b659a0ecffd6180fd0a76ff1b8d228f121571
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/30/2017
 
 ---
 
-# <a name="import-historical-data-for-demand-forecasts"></a>Importer les données d'historique pour les prévisions de la demande
+# <a name="import-historical-data-for-demand-forecasts"></a><span data-ttu-id="13a57-104">Importer les données d'historique pour les prévisions de la demande</span><span class="sxs-lookup"><span data-stu-id="13a57-104">Import historical data for demand forecasts</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-Pour garantir la précision des prévisions de la demande, vous devez disposer d'autant de données de demande d'historique que possible par article ou par clé de répartition par article. Si les données de demande d'historique ne sont pas déjà importées, utilisez l'entité de données **Demande externe d'historique** (ReqDemPlanHistoricalExternalDemandEntity) dans Microsoft Dynamics 365 for Finance and Operations pour les importer.
+<span data-ttu-id="13a57-105">Pour garantir la précision des prévisions de la demande, vous devez disposer d'autant de données de demande d'historique que possible par article ou par clé de répartition par article.</span><span class="sxs-lookup"><span data-stu-id="13a57-105">To help guarantee the accuracy of demand forecasts, you must have as much historical demand data as you can get per item or item allocation key.</span></span> <span data-ttu-id="13a57-106">Si les données de demande d'historique ne sont pas déjà importées, utilisez l'entité de données **Demande externe d'historique** (ReqDemPlanHistoricalExternalDemandEntity) dans Microsoft Dynamics 365 for Finance and Operations pour les importer.</span><span class="sxs-lookup"><span data-stu-id="13a57-106">If the historical demand data isn't already imported, use the **Historical external demand** (ReqDemPlanHistoricalExternalDemandEntity) data entity in Microsoft Dynamics 365 for Finance and Operations to import it.</span></span>
 
-L'espace de travail **Gestion des données** donne une vue d'ensemble de tous les champs de l'entité.
+<span data-ttu-id="13a57-107">L'espace de travail **Gestion des données** donne une vue d'ensemble de tous les champs de l'entité.</span><span class="sxs-lookup"><span data-stu-id="13a57-107">In the **Data management** workspace, you can see an overview of all the fields in the entity.</span></span>
 
-1. Ouvrez l'espace de travail **Gestion des données**.
-2. Cliquez sur la vignette **Entités de données**.
-3. Recherchez **Demande externe d'historique** dans la liste d'entités.
-4. Cliquez sur **Champs cibles**. Les champs d'entité suivants sont obligatoires : site (**DeliveringSiteId**), date (**DemandDate**), quantité (**DemandQuantity**) et numéro d'article (**ItemNumber**) ou clé de répartition par article (**ProductAllocationKeyId**).
+1. <span data-ttu-id="13a57-108">Ouvrez l'espace de travail **Gestion des données**.</span><span class="sxs-lookup"><span data-stu-id="13a57-108">Open the **Data management** workspace.</span></span>
+2. <span data-ttu-id="13a57-109">Cliquez sur la vignette **Entités de données**.</span><span class="sxs-lookup"><span data-stu-id="13a57-109">Click the **Data entities** tile.</span></span>
+3. <span data-ttu-id="13a57-110">Recherchez **Demande externe d'historique** dans la liste d'entités.</span><span class="sxs-lookup"><span data-stu-id="13a57-110">Search the entity list for **Historical external demand**.</span></span>
+4. <span data-ttu-id="13a57-111">Cliquez sur **Champs cibles**.</span><span class="sxs-lookup"><span data-stu-id="13a57-111">Click **Target fields**.</span></span> <span data-ttu-id="13a57-112">Les champs d'entité suivants sont obligatoires : site (**DeliveringSiteId**), date (**DemandDate**), quantité (**DemandQuantity**) et numéro d'article (**ItemNumber**) ou clé de répartition par article (**ProductAllocationKeyId**).</span><span class="sxs-lookup"><span data-stu-id="13a57-112">The following entity fields are mandatory: site (**DeliveringSiteId**), date (**DemandDate**), quantity (**DemandQuantity**), and either item number (**ItemNumber**) or item allocation key (**ProductAllocationKeyId**).</span></span>
 
-Pour utiliser l'entité de données, vous devez disposer d'un fichier Microsoft Excel ou d'un fichier de valeurs séparées par des virgules (CSV) contenant les données de demande d'historique. L'exemple suivant montre comment importer les données à partir d'un fichier CSV.
+<span data-ttu-id="13a57-113">Pour utiliser l'entité de données, vous devez disposer d'un fichier Microsoft Excel ou d'un fichier de valeurs séparées par des virgules (CSV) contenant les données de demande d'historique.</span><span class="sxs-lookup"><span data-stu-id="13a57-113">To use the data entity, you must have a Microsoft Excel file or comma-separated values (CSV) file that contains the historical demand data.</span></span> <span data-ttu-id="13a57-114">L'exemple suivant montre comment importer les données à partir d'un fichier CSV.</span><span class="sxs-lookup"><span data-stu-id="13a57-114">The following example shows how to import the data from a CSV file.</span></span>
 
-## <a name="example"></a>Exemple
+## <a name="example"></a><span data-ttu-id="13a57-115">Exemple</span><span class="sxs-lookup"><span data-stu-id="13a57-115">Example</span></span>
 
-Vous pouvez utiliser le fichier suivant comme exemple. Téléchargez le fichier [HistoricalDemandData](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/365OperationsDemandForecast). Ce fichier contient les données de demande d'historique pour l'article D0001. Il contient uniquement les champs obligatoires suivants : site, quantité et date de la demande.
+<span data-ttu-id="13a57-116">Vous pouvez utiliser le fichier suivant comme exemple.</span><span class="sxs-lookup"><span data-stu-id="13a57-116">You can use the following file as an example.</span></span> <span data-ttu-id="13a57-117">Téléchargez le fichier [HistoricalDemandData](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/365OperationsDemandForecast).</span><span class="sxs-lookup"><span data-stu-id="13a57-117">Download the [HistoricalDemandData](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/365OperationsDemandForecast).</span></span> <span data-ttu-id="13a57-118">Ce fichier contient les données de demande d'historique pour l'article D0001.</span><span class="sxs-lookup"><span data-stu-id="13a57-118">This file contains the historical demand data for item D0001.</span></span> <span data-ttu-id="13a57-119">Il contient uniquement les champs obligatoires suivants : site, quantité et date de la demande.</span><span class="sxs-lookup"><span data-stu-id="13a57-119">It contains only the following mandatory fields: site, quantity, and the demand date.</span></span>
 
-1. Sélectionnez la société dans laquelle importer les données de demande d'historique.
-2. Ouvrez l'espace de travail **Gestion des données**.
-3. Cliquez sur la vignette **Importer**.
-4. Entrez un nom pour le projet d'importation, par exemple **Importer la demande d'historique pour l'article D0001**.
-5. Dans le champ **Format des données source**, sélectionnez le format du fichier que vous importez. Pour importer le fichier HistoricalDemandData pour cet exemple, sélectionnez **CSV**.
-6. Dans le champ **Nom d'entité**, sélectionnez **Demande externe d'historique**.
-7. Enregistrez le fichier sur votre ordinateur, puis téléchargez-le.
-8. Cliquez sur **Importer**.
-9. La page **Synthèse de l'exécution** s'ouvre automatiquement. Vérifiez les données importées dans la page.
+1. <span data-ttu-id="13a57-120">Sélectionnez la société dans laquelle importer les données de demande d'historique.</span><span class="sxs-lookup"><span data-stu-id="13a57-120">Select the company to import the historical demand data into.</span></span>
+2. <span data-ttu-id="13a57-121">Ouvrez l'espace de travail **Gestion des données**.</span><span class="sxs-lookup"><span data-stu-id="13a57-121">Open the **Data management** workspace.</span></span>
+3. <span data-ttu-id="13a57-122">Cliquez sur la vignette **Importer**.</span><span class="sxs-lookup"><span data-stu-id="13a57-122">Click the **Import** tile.</span></span>
+4. <span data-ttu-id="13a57-123">Entrez un nom pour le projet d'importation, par exemple **Importer la demande d'historique pour l'article D0001**.</span><span class="sxs-lookup"><span data-stu-id="13a57-123">Enter a name for the import project, such as **Import historical demand for item D0001**.</span></span>
+5. <span data-ttu-id="13a57-124">Dans le champ **Format des données source**, sélectionnez le format du fichier que vous importez.</span><span class="sxs-lookup"><span data-stu-id="13a57-124">In the **Source data format** field, select the file format of the file that you're importing.</span></span> <span data-ttu-id="13a57-125">Pour importer le fichier HistoricalDemandData pour cet exemple, sélectionnez **CSV**.</span><span class="sxs-lookup"><span data-stu-id="13a57-125">To import the HistoricalDemandData file for this example, select **CSV**.</span></span>
+6. <span data-ttu-id="13a57-126">Dans le champ **Nom d'entité**, sélectionnez **Demande externe d'historique**.</span><span class="sxs-lookup"><span data-stu-id="13a57-126">In the **Entity name** field, select **Historical external demand**.</span></span>
+7. <span data-ttu-id="13a57-127">Enregistrez le fichier sur votre ordinateur, puis téléchargez-le.</span><span class="sxs-lookup"><span data-stu-id="13a57-127">Save the file to your computer, and then upload it.</span></span>
+8. <span data-ttu-id="13a57-128">Cliquez sur **Importer**.</span><span class="sxs-lookup"><span data-stu-id="13a57-128">Click **Import**.</span></span>
+9. <span data-ttu-id="13a57-129">La page **Synthèse de l'exécution** s'ouvre automatiquement.</span><span class="sxs-lookup"><span data-stu-id="13a57-129">The **Execution summary** page is opened automatically.</span></span> <span data-ttu-id="13a57-130">Vérifiez les données importées dans la page.</span><span class="sxs-lookup"><span data-stu-id="13a57-130">Verify the imported data on the page.</span></span>
 
-Après avoir importé les données de demande d'historique, vous pouvez générer une prévision de la demande.
+<span data-ttu-id="13a57-131">Après avoir importé les données de demande d'historique, vous pouvez générer une prévision de la demande.</span><span class="sxs-lookup"><span data-stu-id="13a57-131">After you've imported the historical demand data, you can generate a demand forecast.</span></span>
 
-## <a name="see-also"></a>Voir également :
+## <a name="see-also"></a><span data-ttu-id="13a57-132">Voir également :</span><span class="sxs-lookup"><span data-stu-id="13a57-132">See also</span></span>
 
-[Générer des prévisions de base statistiques](generate-statistical-baseline-forecast.md)
+[<span data-ttu-id="13a57-133">Générer des prévisions de base statistiques</span><span class="sxs-lookup"><span data-stu-id="13a57-133">Generate a statistical baseline forecast</span></span>](generate-statistical-baseline-forecast.md)
 

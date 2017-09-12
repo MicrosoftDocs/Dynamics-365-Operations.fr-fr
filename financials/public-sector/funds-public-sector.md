@@ -27,86 +27,86 @@ ms.lasthandoff: 08/09/2017
 
 ---
 
-# <a name="funds-in-the-public-sector"></a>Fonds dans le secteur public
+# <a name="funds-in-the-public-sector"></a><span data-ttu-id="8947b-104">Fonds dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="8947b-104">Funds in the public sector</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Un fonds est un ensemble de registres financiers en équilibre qui permet de contrôler et de surveiller l'utilisation planifiée de ressources, souvent pour se conformer aux exigences légales et administratives. Les organisations du secteur public se servent des fonds pour attester de leur responsabilité financière.
+<span data-ttu-id="8947b-105">Un fonds est un ensemble de registres financiers en équilibre qui permet de contrôler et de surveiller l'utilisation planifiée de ressources, souvent pour se conformer aux exigences légales et administratives.</span><span class="sxs-lookup"><span data-stu-id="8947b-105">A fund is a self-balancing set of financial books that is used to control and monitor the planned use of resources, often in compliance with legal and administrative requirements.</span></span> <span data-ttu-id="8947b-106">Les organisations du secteur public se servent des fonds pour attester de leur responsabilité financière.</span><span class="sxs-lookup"><span data-stu-id="8947b-106">Public-sector organizations use funds to demonstrate their fiscal accountability.</span></span>
 
-<a name="what-general-ledger-parameters-should-be-set-for-funds"></a>Quels paramètres de comptabilité doivent être définis pour les fonds ?
+<a name="what-general-ledger-parameters-should-be-set-for-funds"></a><span data-ttu-id="8947b-107">Quels paramètres de comptabilité doivent être définis pour les fonds ?</span><span class="sxs-lookup"><span data-stu-id="8947b-107">What General ledger parameters should be set for funds?</span></span>
 -------------------------------------------------------
 
-Pour en savoir plus sur les paramètres de comptabilité requis pour les fonds, voir [Comptabilité dans le secteur public](general-ledger-public-sector.md).
+<span data-ttu-id="8947b-108">Pour en savoir plus sur les paramètres de comptabilité requis pour les fonds, voir [Comptabilité dans le secteur public](general-ledger-public-sector.md).</span><span class="sxs-lookup"><span data-stu-id="8947b-108">To learn about the General ledger parameters required for funds, see [General ledger in the public sector](general-ledger-public-sector.md).</span></span>
 
-## <a name="what-fund-classes-and-fund-types-do-i-need-to-set-up"></a>Quels classes et types de fonds dois-je paramétrer ?
-Le Governmental Accounting Standards Board (GASB) recommande un ensemble de principes comptables généralement reconnus (GAAP) pour la comptabilité gouvernementale et locale.  GAAP identifie huit types de fonds catégorisés en trois classes de fonds :
+## <a name="what-fund-classes-and-fund-types-do-i-need-to-set-up"></a><span data-ttu-id="8947b-109">Quels classes et types de fonds dois-je paramétrer ?</span><span class="sxs-lookup"><span data-stu-id="8947b-109">What fund classes and fund types do I need to set up?</span></span>
+<span data-ttu-id="8947b-110">Le Governmental Accounting Standards Board (GASB) recommande un ensemble de principes comptables généralement reconnus (GAAP) pour la comptabilité gouvernementale et locale.</span><span class="sxs-lookup"><span data-stu-id="8947b-110">The Governmental Accounting Standards Board (GASB) recommends a set of Generally Accepted Accounting Principles (GAAP) for state and local governmental accounting.</span></span>  <span data-ttu-id="8947b-111">GAAP identifie huit types de fonds catégorisés en trois classes de fonds :</span><span class="sxs-lookup"><span data-stu-id="8947b-111">The GAAP identifies eight fund types that are categorized under the three fund classes:</span></span>
 
--   Fonds gouvernementaux
-    -   Fonds général
-    -   Fonds de financement particulier
-    -   Fonds de projets d'immobilisations
-    -   Fonds de service de la dette
--   Fonds propriétaires ou de type commercial
-    -   Fonds d'entreprise
-    -   Fonds de service interne
--   Fonds fiduciaires
-    -   Fonds d'affectation spéciale
-    -   Fonds en fidéicommis
+-   <span data-ttu-id="8947b-112">Fonds gouvernementaux</span><span class="sxs-lookup"><span data-stu-id="8947b-112">Governmental funds</span></span>
+    -   <span data-ttu-id="8947b-113">Fonds général</span><span class="sxs-lookup"><span data-stu-id="8947b-113">General fund</span></span>
+    -   <span data-ttu-id="8947b-114">Fonds de financement particulier</span><span class="sxs-lookup"><span data-stu-id="8947b-114">Special revenue funds</span></span>
+    -   <span data-ttu-id="8947b-115">Fonds de projets d'immobilisations</span><span class="sxs-lookup"><span data-stu-id="8947b-115">Capital project funds</span></span>
+    -   <span data-ttu-id="8947b-116">Fonds de service de la dette</span><span class="sxs-lookup"><span data-stu-id="8947b-116">Debt service funds</span></span>
+-   <span data-ttu-id="8947b-117">Fonds propriétaires ou de type commercial</span><span class="sxs-lookup"><span data-stu-id="8947b-117">Proprietary, or business-type, funds</span></span>
+    -   <span data-ttu-id="8947b-118">Fonds d'entreprise</span><span class="sxs-lookup"><span data-stu-id="8947b-118">Enterprise funds</span></span>
+    -   <span data-ttu-id="8947b-119">Fonds de service interne</span><span class="sxs-lookup"><span data-stu-id="8947b-119">Internal service funds</span></span>
+-   <span data-ttu-id="8947b-120">Fonds fiduciaires</span><span class="sxs-lookup"><span data-stu-id="8947b-120">Fiduciary funds</span></span>
+    -   <span data-ttu-id="8947b-121">Fonds d'affectation spéciale</span><span class="sxs-lookup"><span data-stu-id="8947b-121">Trust funds</span></span>
+    -   <span data-ttu-id="8947b-122">Fonds en fidéicommis</span><span class="sxs-lookup"><span data-stu-id="8947b-122">Agency funds</span></span>
 
-Les trois classes de fonds GAAP, plus une classe **Mémo**, sont des options prédéfinies dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. 
+<span data-ttu-id="8947b-123">Les trois classes de fonds GAAP, plus une classe **Mémo**, sont des options prédéfinies dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span><span class="sxs-lookup"><span data-stu-id="8947b-123">The three GAAP fund classes, plus a **Memo** class, are predefined options in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> 
 
-Les types de fonds sont définis en fonction des besoins de l'organisation. Dans la plupart des cas, vous paramètrerez les huit types de fonds GAAP. Les types de fonds regroupent les fonds à des fins de suivi et de génération d'états fiscaux détaillés. Si de nombreux fonds peuvent être inclus dans un seul état de niveau supérieur, chaque fonds reste toutefois une entité fiscale et comptable distincte disposant d'une comptabilité, de comptes de résultats et de bilans qui lui sont propres. 
+<span data-ttu-id="8947b-124">Les types de fonds sont définis en fonction des besoins de l'organisation.</span><span class="sxs-lookup"><span data-stu-id="8947b-124">Fund types are defined according to the needs of the organization.</span></span> <span data-ttu-id="8947b-125">Dans la plupart des cas, vous paramètrerez les huit types de fonds GAAP.</span><span class="sxs-lookup"><span data-stu-id="8947b-125">In most cases, you’ll set up the eight GAAP fund types.</span></span> <span data-ttu-id="8947b-126">Les types de fonds regroupent les fonds à des fins de suivi et de génération d'états fiscaux détaillés.</span><span class="sxs-lookup"><span data-stu-id="8947b-126">The fund types group funds for detailed fiscal tracking and reporting.</span></span> <span data-ttu-id="8947b-127">Si de nombreux fonds peuvent être inclus dans un seul état de niveau supérieur, chaque fonds reste toutefois une entité fiscale et comptable distincte disposant d'une comptabilité, de comptes de résultats et de bilans qui lui sont propres.</span><span class="sxs-lookup"><span data-stu-id="8947b-127">Many funds can be included in a single high-level report, but each fund remains a separate fiscal and accounting entity with its own general ledger, income statements, and balance sheet reports.</span></span> 
 
-Chaque fonds doit disposer d'un numéro de fonds unique. Dans Finance and Operations, les numéros de fonds servent de valeurs de dimension dans les numéros de compte financier, dans la mesure où une dimension a été mise en correspondance avec un fonds. Lorsqu'un numéro de compte est lié à un fonds spécifique, il fait partie de l'ensemble de registres financiers contenu dans ce fonds.
+<span data-ttu-id="8947b-128">Chaque fonds doit disposer d'un numéro de fonds unique.</span><span class="sxs-lookup"><span data-stu-id="8947b-128">Each fund must have a unique fund number.</span></span> <span data-ttu-id="8947b-129">Dans Finance and Operations, les numéros de fonds servent de valeurs de dimension dans les numéros de compte financier, dans la mesure où une dimension a été mise en correspondance avec un fonds.</span><span class="sxs-lookup"><span data-stu-id="8947b-129">In Finance and Operations, fund numbers are used as dimension values in financial account numbers where a dimension has been mapped to a fund.</span></span> <span data-ttu-id="8947b-130">Lorsqu'un numéro de compte est lié à un fonds spécifique, il fait partie de l'ensemble de registres financiers contenu dans ce fonds.</span><span class="sxs-lookup"><span data-stu-id="8947b-130">When an account number is linked to a particular fund, it belongs to the set of financial books that are contained by that fund.</span></span>
 
-### <a name="example"></a>Exemple
+### <a name="example"></a><span data-ttu-id="8947b-131">Exemple</span><span class="sxs-lookup"><span data-stu-id="8947b-131">Example</span></span>
 
-Voici une liste de certains fonds qui peuvent être utilisés par une municipalité :
+<span data-ttu-id="8947b-132">Voici une liste de certains fonds qui peuvent être utilisés par une municipalité :</span><span class="sxs-lookup"><span data-stu-id="8947b-132">Here’s a list of some of the funds that might be used by a town government:</span></span>
 
--   Fonds général
--   École de technologie
--   Technologies de l'information
--   Marché de producteurs
--   Commission de services publics
--   Service de messagerie
--   Fonds de rémunération des travailleurs
--   Régime de santé complet
--   Rémunération différée
--   Perceptions de taxes locales
--   Greffier
+-   <span data-ttu-id="8947b-133">Fonds général</span><span class="sxs-lookup"><span data-stu-id="8947b-133">General Fund</span></span>
+-   <span data-ttu-id="8947b-134">École de technologie</span><span class="sxs-lookup"><span data-stu-id="8947b-134">School of Technology</span></span>
+-   <span data-ttu-id="8947b-135">Technologies de l'information</span><span class="sxs-lookup"><span data-stu-id="8947b-135">Information Technology</span></span>
+-   <span data-ttu-id="8947b-136">Marché de producteurs</span><span class="sxs-lookup"><span data-stu-id="8947b-136">Farmers Market</span></span>
+-   <span data-ttu-id="8947b-137">Commission de services publics</span><span class="sxs-lookup"><span data-stu-id="8947b-137">Utilities Commission</span></span>
+-   <span data-ttu-id="8947b-138">Service de messagerie</span><span class="sxs-lookup"><span data-stu-id="8947b-138">Courier Service</span></span>
+-   <span data-ttu-id="8947b-139">Fonds de rémunération des travailleurs</span><span class="sxs-lookup"><span data-stu-id="8947b-139">Worker’s Compensation Fund</span></span>
+-   <span data-ttu-id="8947b-140">Régime de santé complet</span><span class="sxs-lookup"><span data-stu-id="8947b-140">Comprehensive Major Medical Plan</span></span>
+-   <span data-ttu-id="8947b-141">Rémunération différée</span><span class="sxs-lookup"><span data-stu-id="8947b-141">Deferred Compensation</span></span>
+-   <span data-ttu-id="8947b-142">Perceptions de taxes locales</span><span class="sxs-lookup"><span data-stu-id="8947b-142">Local Sales Tax Collections</span></span>
+-   <span data-ttu-id="8947b-143">Greffier</span><span class="sxs-lookup"><span data-stu-id="8947b-143">Clerk of Courts</span></span>
 
-Le tableau suivant présente affiche ces fonds regroupés par classe et type de fonds.
+<span data-ttu-id="8947b-144">Le tableau suivant présente affiche ces fonds regroupés par classe et type de fonds.</span><span class="sxs-lookup"><span data-stu-id="8947b-144">The following table shows these funds grouped by fund class and fund type.</span></span>
 
 |                |                        |                 |                                  |
 |----------------|------------------------|-----------------|----------------------------------|
-| **Classe de fonds** | **Type de fonds**          | **Numéro de fonds** | **Nom du fonds**                    |
-| Gouvernemental   | Fonds général           | 1103            | Fonds général                     |
-|                | Fonds de financement particulier  | 1343            | École de technologie             |
-|                |                        | 1372            | Technologies de l'information           |
-| Propriétaire    | Fonds d'entreprise       | 2501            | Marché de producteurs                   |
-|                |                        | 2541            | Commission de services publics             |
-|                | Fonds de service interne | 2723            | Service de messagerie                  |
-|                |                        | 2738            | Fonds de rémunération des travailleurs       |
-| Fiduciaire      | Caisses de retraite en fiducie    | 3320            | Régime de santé complet |
-|                |                        | 3324            | Rémunération différée            |
-|                | Fonds en fidéicommis           | 3912            | Perceptions de taxes locales      |
-|                |                        | 3914            | Greffier                  |
+| <span data-ttu-id="8947b-145">**Classe de fonds**</span><span class="sxs-lookup"><span data-stu-id="8947b-145">**Fund class**</span></span> | <span data-ttu-id="8947b-146">**Type de fonds**</span><span class="sxs-lookup"><span data-stu-id="8947b-146">**Fund type**</span></span>          | <span data-ttu-id="8947b-147">**Numéro de fonds**</span><span class="sxs-lookup"><span data-stu-id="8947b-147">**Fund number**</span></span> | <span data-ttu-id="8947b-148">**Nom du fonds**</span><span class="sxs-lookup"><span data-stu-id="8947b-148">**Fund name**</span></span>                    |
+| <span data-ttu-id="8947b-149">Gouvernemental</span><span class="sxs-lookup"><span data-stu-id="8947b-149">Governmental</span></span>   | <span data-ttu-id="8947b-150">Fonds général</span><span class="sxs-lookup"><span data-stu-id="8947b-150">General Fund</span></span>           | <span data-ttu-id="8947b-151">1103</span><span class="sxs-lookup"><span data-stu-id="8947b-151">1103</span></span>            | <span data-ttu-id="8947b-152">Fonds général</span><span class="sxs-lookup"><span data-stu-id="8947b-152">General Fund</span></span>                     |
+|                | <span data-ttu-id="8947b-153">Fonds de financement particulier</span><span class="sxs-lookup"><span data-stu-id="8947b-153">Special Revenue Funds</span></span>  | <span data-ttu-id="8947b-154">1343</span><span class="sxs-lookup"><span data-stu-id="8947b-154">1343</span></span>            | <span data-ttu-id="8947b-155">École de technologie</span><span class="sxs-lookup"><span data-stu-id="8947b-155">School of Technology</span></span>             |
+|                |                        | <span data-ttu-id="8947b-156">1372</span><span class="sxs-lookup"><span data-stu-id="8947b-156">1372</span></span>            | <span data-ttu-id="8947b-157">Technologies de l'information</span><span class="sxs-lookup"><span data-stu-id="8947b-157">Information Technology</span></span>           |
+| <span data-ttu-id="8947b-158">Propriétaire</span><span class="sxs-lookup"><span data-stu-id="8947b-158">Proprietary</span></span>    | <span data-ttu-id="8947b-159">Fonds d'entreprise</span><span class="sxs-lookup"><span data-stu-id="8947b-159">Enterprise Funds</span></span>       | <span data-ttu-id="8947b-160">2501</span><span class="sxs-lookup"><span data-stu-id="8947b-160">2501</span></span>            | <span data-ttu-id="8947b-161">Marché de producteurs</span><span class="sxs-lookup"><span data-stu-id="8947b-161">Farmers Market</span></span>                   |
+|                |                        | <span data-ttu-id="8947b-162">2541</span><span class="sxs-lookup"><span data-stu-id="8947b-162">2541</span></span>            | <span data-ttu-id="8947b-163">Commission de services publics</span><span class="sxs-lookup"><span data-stu-id="8947b-163">Utilities Commission</span></span>             |
+|                | <span data-ttu-id="8947b-164">Fonds de service interne</span><span class="sxs-lookup"><span data-stu-id="8947b-164">Internal Service Funds</span></span> | <span data-ttu-id="8947b-165">2723</span><span class="sxs-lookup"><span data-stu-id="8947b-165">2723</span></span>            | <span data-ttu-id="8947b-166">Service de messagerie</span><span class="sxs-lookup"><span data-stu-id="8947b-166">Courier Service</span></span>                  |
+|                |                        | <span data-ttu-id="8947b-167">2738</span><span class="sxs-lookup"><span data-stu-id="8947b-167">2738</span></span>            | <span data-ttu-id="8947b-168">Fonds de rémunération des travailleurs</span><span class="sxs-lookup"><span data-stu-id="8947b-168">Worker’s Compensation Fund</span></span>       |
+| <span data-ttu-id="8947b-169">Fiduciaire</span><span class="sxs-lookup"><span data-stu-id="8947b-169">Fiduciary</span></span>      | <span data-ttu-id="8947b-170">Caisses de retraite en fiducie</span><span class="sxs-lookup"><span data-stu-id="8947b-170">Pension Trust Funds</span></span>    | <span data-ttu-id="8947b-171">3320</span><span class="sxs-lookup"><span data-stu-id="8947b-171">3320</span></span>            | <span data-ttu-id="8947b-172">Régime de santé complet</span><span class="sxs-lookup"><span data-stu-id="8947b-172">Comprehensive Major Medical Plan</span></span> |
+|                |                        | <span data-ttu-id="8947b-173">3324</span><span class="sxs-lookup"><span data-stu-id="8947b-173">3324</span></span>            | <span data-ttu-id="8947b-174">Rémunération différée</span><span class="sxs-lookup"><span data-stu-id="8947b-174">Deferred Compensation</span></span>            |
+|                | <span data-ttu-id="8947b-175">Fonds en fidéicommis</span><span class="sxs-lookup"><span data-stu-id="8947b-175">Agency Funds</span></span>           | <span data-ttu-id="8947b-176">3912</span><span class="sxs-lookup"><span data-stu-id="8947b-176">3912</span></span>            | <span data-ttu-id="8947b-177">Perceptions de taxes locales</span><span class="sxs-lookup"><span data-stu-id="8947b-177">Local Sales Tax Collections</span></span>      |
+|                |                        | <span data-ttu-id="8947b-178">3914</span><span class="sxs-lookup"><span data-stu-id="8947b-178">3914</span></span>            | <span data-ttu-id="8947b-179">Greffier</span><span class="sxs-lookup"><span data-stu-id="8947b-179">Clerk of Courts</span></span>                  |
 
-## <a name="how-are-financial-dimensions-used-with-funds"></a>Comment les dimensions financières sont-elles utilisées avec les fonds ?
-Chaque fonds doit disposer d'un numéro de fonds unique. Dans Finance and Operations, les numéros de fonds servent de valeurs de dimension dans les numéros de compte financier, dans la mesure où une dimension a été mise en correspondance avec un fonds. Lorsqu'un numéro de compte est lié à un fonds spécifique, il fait partie de l'ensemble de registres financiers contenu dans ce fonds. 
+## <a name="how-are-financial-dimensions-used-with-funds"></a><span data-ttu-id="8947b-180">Comment les dimensions financières sont-elles utilisées avec les fonds ?</span><span class="sxs-lookup"><span data-stu-id="8947b-180">How are financial dimensions used with funds?</span></span>
+<span data-ttu-id="8947b-181">Chaque fonds doit disposer d'un numéro de fonds unique.</span><span class="sxs-lookup"><span data-stu-id="8947b-181">Each fund must have a unique fund number.</span></span> <span data-ttu-id="8947b-182">Dans Finance and Operations, les numéros de fonds servent de valeurs de dimension dans les numéros de compte financier, dans la mesure où une dimension a été mise en correspondance avec un fonds.</span><span class="sxs-lookup"><span data-stu-id="8947b-182">In Finance and Operations, fund numbers are used as dimension values in financial account numbers where a dimension has been mapped to a fund.</span></span> <span data-ttu-id="8947b-183">Lorsqu'un numéro de compte est lié à un fonds spécifique, il fait partie de l'ensemble de registres financiers contenu dans ce fonds.</span><span class="sxs-lookup"><span data-stu-id="8947b-183">When an account number is linked to a particular fund, it belongs to the set of financial books that are contained by that fund.</span></span> 
 
-Les organisations du secteur public ont généralement besoin des écritures équilibrées pour les dimensions financières associées aux fonds. Lorsqu'une dimension financière ou une combinaison de dimensions est marquée pour exiger des écritures équilibrées, le système ne valide pas une transaction si les débits ne sont pas égaux aux crédits pour la dimension financière.
+<span data-ttu-id="8947b-184">Les organisations du secteur public ont généralement besoin des écritures équilibrées pour les dimensions financières associées aux fonds.</span><span class="sxs-lookup"><span data-stu-id="8947b-184">Public sector organizations usually require balanced entries for financial dimensions related to funds.</span></span> <span data-ttu-id="8947b-185">Lorsqu'une dimension financière ou une combinaison de dimensions est marquée pour exiger des écritures équilibrées, le système ne valide pas une transaction si les débits ne sont pas égaux aux crédits pour la dimension financière.</span><span class="sxs-lookup"><span data-stu-id="8947b-185">When a financial dimension or a combination of dimensions is marked to require balanced entries, the system will not post a transaction where debits do not equal credits for the financial dimension.</span></span>
 
-## <a name="how-do-i-set-a-fund-balance-to-carry-over-to-the-new-year"></a>Comment paramétrer un solde de fonds de sorte qu'il soit reporté sur la nouvelle année ?
-Pour en savoir plus sur le traitement de fin d'exercice pour les fonds, voir [Traitement de fin d'exercice dans le secteur public](year-end-processing-public-sector.md).
+## <a name="how-do-i-set-a-fund-balance-to-carry-over-to-the-new-year"></a><span data-ttu-id="8947b-186">Comment paramétrer un solde de fonds de sorte qu'il soit reporté sur la nouvelle année ?</span><span class="sxs-lookup"><span data-stu-id="8947b-186">How do I set a fund balance to carry over to the new year?</span></span>
+<span data-ttu-id="8947b-187">Pour en savoir plus sur le traitement de fin d'exercice pour les fonds, voir [Traitement de fin d'exercice dans le secteur public](year-end-processing-public-sector.md).</span><span class="sxs-lookup"><span data-stu-id="8947b-187">To learn about year-end processing for funds, see [Year-end processing in the public sector](year-end-processing-public-sector.md).</span></span>
 
 
-Pour plus d'informations, voir les rubriques suivantes :
+<span data-ttu-id="8947b-188">Pour plus d'informations, voir les rubriques suivantes :</span><span class="sxs-lookup"><span data-stu-id="8947b-188">For more information, see the following topics:</span></span>
 
-[Création d'un type de fonds](tasks/create-fund-type-public-sector.md)
+[<span data-ttu-id="8947b-189">Création d'un type de fonds</span><span class="sxs-lookup"><span data-stu-id="8947b-189">Create a fund type</span></span>](tasks/create-fund-type-public-sector.md)
 
-[Paramétrer un fonds](tasks/set-up-fund-public-sector.md)
+[<span data-ttu-id="8947b-190">Paramétrer un fonds</span><span class="sxs-lookup"><span data-stu-id="8947b-190">Set up a fund</span></span>](tasks/set-up-fund-public-sector.md)
 
 
 

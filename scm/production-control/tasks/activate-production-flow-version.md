@@ -17,27 +17,27 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 814aec9ba27f690143fd9463e2d95bdca0670418
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 7f081d9d591c71cbe02e25bbdb50aa999b558ffa
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="activate-a-production-flow-version"></a>Activer la version d'un flux de production
+# <a name="activate-a-production-flow-version"></a><span data-ttu-id="c5496-103">Activer la version d'un flux de production</span><span class="sxs-lookup"><span data-stu-id="c5496-103">Activate a production flow version</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Avant que des tâche de kanban puissent être créées et des activités puissent être traitées pour une version de flux de production, vous devez activer la version. Il est recommandé d'activer la version avant l'expiration de la date et l'heure de début. Pour accomplir cette tâche, vous devez avoir une version de flux de production ayant le statut Brouillon afin d'activer la version. 
+<span data-ttu-id="c5496-104">Avant que des tâche de kanban puissent être créées et des activités puissent être traitées pour une version de flux de production, vous devez activer la version.</span><span class="sxs-lookup"><span data-stu-id="c5496-104">Before kanban jobs can be created and activities can be processed for a production flow version, you should activate the version.</span></span> <span data-ttu-id="c5496-105">Il est recommandé d'activer la version avant l'expiration de la date et l'heure de début.</span><span class="sxs-lookup"><span data-stu-id="c5496-105">As a best practice, activate the version before its effective start date and time expire.</span></span> <span data-ttu-id="c5496-106">Pour accomplir cette tâche, vous devez avoir une version de flux de production ayant le statut Brouillon afin d'activer la version.</span><span class="sxs-lookup"><span data-stu-id="c5496-106">To complete this task, you must have a production flow version that has the Draft status in order to activate the version.</span></span> 
 
 
-## <a name="find-and-activate-a-production-flow-version"></a>Rechercher et activer la version d'un flux de production
-1. Allez dans Flux de production.
-2. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-    * Sélectionnez une version de flux de production qui contient Brouillon dans le champ Statut du plan.  
-3. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-4. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-    * Sélectionnez une version de flux de production qui contient Brouillon dans le champ Statut du plan.  
-5. Cliquez sur Activer.
-6. Cliquez sur OK.
+## <a name="find-and-activate-a-production-flow-version"></a><span data-ttu-id="c5496-107">Rechercher et activer la version d'un flux de production</span><span class="sxs-lookup"><span data-stu-id="c5496-107">Find and activate a production flow version</span></span>
+1. <span data-ttu-id="c5496-108">Allez dans Flux de production.</span><span class="sxs-lookup"><span data-stu-id="c5496-108">Go to Production flows.</span></span>
+2. <span data-ttu-id="c5496-109">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="c5496-109">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="c5496-110">Sélectionnez une version de flux de production qui contient Brouillon dans le champ Statut du plan.</span><span class="sxs-lookup"><span data-stu-id="c5496-110">Select a production flow version that has Draft in the Plan status field.</span></span>  
+3. <span data-ttu-id="c5496-111">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="c5496-111">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="c5496-112">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="c5496-112">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="c5496-113">Sélectionnez une version de flux de production qui contient Brouillon dans le champ Statut du plan.</span><span class="sxs-lookup"><span data-stu-id="c5496-113">Select a production flow version that has Draft in the Plan status field.</span></span>  
+5. <span data-ttu-id="c5496-114">Cliquez sur Activer.</span><span class="sxs-lookup"><span data-stu-id="c5496-114">Click Activate.</span></span>
+6. <span data-ttu-id="c5496-115">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="c5496-115">Click OK.</span></span>
 
 

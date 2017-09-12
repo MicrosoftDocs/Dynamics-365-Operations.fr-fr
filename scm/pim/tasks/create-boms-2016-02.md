@@ -14,87 +14,87 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
+ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 2ce5156f3b9b16e98272b89500f1ecd11d8119ce
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: f8ad4b0e230fb0f018355e486e3b898895a61f28
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-boms-february-2016-only"></a>Créer des nomenclatures (février 2016 uniquement)
+# <a name="create-boms-february-2016-only"></a><span data-ttu-id="f516a-103">Créer des nomenclatures (février 2016 uniquement)</span><span class="sxs-lookup"><span data-stu-id="f516a-103">Create BOMs (February 2016 only)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Cette tâche consiste à créer la structure d'une nomenclature pour un produit fini et un produit semi-fini. Il s'agit de la quatrième tâche de la série de calculs des nomenclatures. Les données fictives utilisées pour créer cette tâche correspondent à la société USMF.
+<span data-ttu-id="f516a-104">Cette tâche consiste à créer la structure d'une nomenclature pour un produit fini et un produit semi-fini.</span><span class="sxs-lookup"><span data-stu-id="f516a-104">This task focuses on creating the bill of materials structure for a finished product and a semi-finished product.</span></span> <span data-ttu-id="f516a-105">Il s'agit de la quatrième tâche de la série de calculs des nomenclatures.</span><span class="sxs-lookup"><span data-stu-id="f516a-105">It is the fourth task in the BOM calculation series.</span></span> <span data-ttu-id="f516a-106">Les données fictives utilisées pour créer cette tâche correspondent à la société USMF.</span><span class="sxs-lookup"><span data-stu-id="f516a-106">The demo data company used to create this task is USMF.</span></span>
 
 
-## <a name="create-bom-for-a-semi-finished-product"></a>Créer une nomenclature pour un produit semi-fini
-1. Allez à Gestion des informations sur les produits > Produits > Produits lancés.
-2. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-    * Sélectionnez le numéro d'article BOM_2.  
-3. Cliquez sur Ingénieur dans le volet Actions.
-4. Cliquez sur Versions de nomenclature.
-5. Cliquez sur Nouveau.
-6. Cliquez sur Nomenclature et version de nomenclature.
-7. Tapez une valeur dans le champ Nom.
-    * Entrez BOM_2, par exemple.  
-8. Saisissez ou sélectionnez une valeur dans le champ Site.
-    * Pour cet exemple, entrez ou sélectionnez le site 1.  
-9. Cliquez sur OK.
-10. Cliquez sur Nouveau.
-11. Tapez une valeur dans le champ Numéro d'article.
-    * Pour cet exemple, tapez ITEM_C.  
-12. Dans le champ Entrepôt, saisissez ou sélectionnez une valeur.
-    * Pour cet exemple, entrez ou sélectionnez 11  
-13. Cliquez sur En-tête.
-14. Cliquez sur Approbation d'approuver des nomenclatures.
-15. Cliquez sur OK.
-16. Cliquez sur Approuver.
-    * Le bouton Approuver se trouve dans la barre d'outils dans la section de versions de nomenclature. S'il est invisible, cliquez sur En-tête dans le coin supérieur droit de la page Nomenclatures afin de le faire apparaître.  
-17. Cliquez sur OK.
-18. Cliquez sur Activer.
-19. Fermez la page.
-20. Fermez la page.
-21. Fermez la page.
+## <a name="create-bom-for-a-semi-finished-product"></a><span data-ttu-id="f516a-107">Créer une nomenclature pour un produit semi-fini</span><span class="sxs-lookup"><span data-stu-id="f516a-107">Create BOM for a semi-finished product</span></span>
+1. <span data-ttu-id="f516a-108">Allez à Gestion des informations sur les produits > Produits > Produits lancés.</span><span class="sxs-lookup"><span data-stu-id="f516a-108">Go to Product information management > Products > Released products.</span></span>
+2. <span data-ttu-id="f516a-109">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="f516a-109">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="f516a-110">Sélectionnez le numéro d'article BOM_2.</span><span class="sxs-lookup"><span data-stu-id="f516a-110">Select the item number BOM_2.</span></span>  
+3. <span data-ttu-id="f516a-111">Cliquez sur Ingénieur dans le volet Actions.</span><span class="sxs-lookup"><span data-stu-id="f516a-111">On the Action Pane, click Engineer.</span></span>
+4. <span data-ttu-id="f516a-112">Cliquez sur Versions de nomenclature.</span><span class="sxs-lookup"><span data-stu-id="f516a-112">Click BOM versions.</span></span>
+5. <span data-ttu-id="f516a-113">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="f516a-113">Click New.</span></span>
+6. <span data-ttu-id="f516a-114">Cliquez sur Nomenclature et version de nomenclature.</span><span class="sxs-lookup"><span data-stu-id="f516a-114">Click BOM and BOM version.</span></span>
+7. <span data-ttu-id="f516a-115">Tapez une valeur dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="f516a-115">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="f516a-116">Entrez BOM_2, par exemple.</span><span class="sxs-lookup"><span data-stu-id="f516a-116">For example, type BOM_2.</span></span>  
+8. <span data-ttu-id="f516a-117">Saisissez ou sélectionnez une valeur dans le champ Site.</span><span class="sxs-lookup"><span data-stu-id="f516a-117">In the Site field, enter or select a value.</span></span>
+    * <span data-ttu-id="f516a-118">Pour cet exemple, entrez ou sélectionnez le site 1.</span><span class="sxs-lookup"><span data-stu-id="f516a-118">For this example, enter or select Site 1.</span></span>  
+9. <span data-ttu-id="f516a-119">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="f516a-119">Click OK.</span></span>
+10. <span data-ttu-id="f516a-120">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="f516a-120">Click New.</span></span>
+11. <span data-ttu-id="f516a-121">Tapez une valeur dans le champ Numéro d'article.</span><span class="sxs-lookup"><span data-stu-id="f516a-121">In the Item number field, type a value.</span></span>
+    * <span data-ttu-id="f516a-122">Pour cet exemple, tapez ITEM_C.</span><span class="sxs-lookup"><span data-stu-id="f516a-122">For this example, type ITEM_C.</span></span>  
+12. <span data-ttu-id="f516a-123">Dans le champ Entrepôt, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="f516a-123">In the Warehouse field, enter or select a value.</span></span>
+    * <span data-ttu-id="f516a-124">Pour cet exemple, entrez ou sélectionnez 11</span><span class="sxs-lookup"><span data-stu-id="f516a-124">For this example, enter or select 11.</span></span>  
+13. <span data-ttu-id="f516a-125">Cliquez sur En-tête.</span><span class="sxs-lookup"><span data-stu-id="f516a-125">Click Header.</span></span>
+14. <span data-ttu-id="f516a-126">Cliquez sur Approbation d'approuver des nomenclatures.</span><span class="sxs-lookup"><span data-stu-id="f516a-126">Click Approval to approve bills of materials.</span></span>
+15. <span data-ttu-id="f516a-127">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="f516a-127">Click OK.</span></span>
+16. <span data-ttu-id="f516a-128">Cliquez sur Approuver.</span><span class="sxs-lookup"><span data-stu-id="f516a-128">Click Approve.</span></span>
+    * <span data-ttu-id="f516a-129">Le bouton Approuver se trouve dans la barre d'outils dans la section de versions de nomenclature.</span><span class="sxs-lookup"><span data-stu-id="f516a-129">The Approve button is on the ToolBar in the  BOM versions section.</span></span> <span data-ttu-id="f516a-130">S'il est invisible, cliquez sur En-tête dans le coin supérieur droit de la page Nomenclatures afin de le faire apparaître.</span><span class="sxs-lookup"><span data-stu-id="f516a-130">If it is invisible, click Header at the upper right of the Bills of materials page to display Approve.</span></span>  
+17. <span data-ttu-id="f516a-131">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="f516a-131">Click OK.</span></span>
+18. <span data-ttu-id="f516a-132">Cliquez sur Activer.</span><span class="sxs-lookup"><span data-stu-id="f516a-132">Click Activate.</span></span>
+19. <span data-ttu-id="f516a-133">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="f516a-133">Close the page.</span></span>
+20. <span data-ttu-id="f516a-134">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="f516a-134">Close the page.</span></span>
+21. <span data-ttu-id="f516a-135">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="f516a-135">Close the page.</span></span>
 
-## <a name="create-bom-for-a-finished-product"></a>Créer une nomenclature pour un produit fini
-1. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-    * Sélectionnez le numéro d'article BOM_1.  
-2. Cliquez sur Ingénieur dans le volet Actions.
-3. Cliquez sur Versions de nomenclature.
-4. Cliquez sur Nouveau.
-5. Cliquez sur Nomenclature et version de nomenclature.
-6. Tapez une valeur dans le champ Nom.
-    * Entrez BOM_1, par exemple.  
-7. Saisissez ou sélectionnez une valeur dans le champ Site.
-    * Pour cet exemple, entrez ou sélectionnez le site 1.  
-8. Cliquez sur OK.
-9. Cliquez sur Nouveau.
-10. Tapez une valeur dans le champ Numéro d'article.
-    * Pour cet exemple, tapez ITEM_A.  
-11. Dans le champ Entrepôt, saisissez ou sélectionnez une valeur.
-    * Pour cet exemple, sélectionnez 11.  
-12. Cliquez sur Nouveau.
-13. Tapez une valeur dans le champ Numéro d'article.
-    * Pour cet exemple, tapez ITEM_B.  
-14. Dans le champ Entrepôt, saisissez ou sélectionnez une valeur.
-    * Pour cet exemple, entrez ou sélectionnez 11  
-15. Cliquez sur Nouveau.
-16. Tapez une valeur dans le champ Numéro d'article.
-    * Pour cet exemple, tapez BOM_2.  
-17. Dans la liste, marquez la ligne sélectionnée.
-18. Dans le champ Entrepôt, saisissez ou sélectionnez une valeur.
-    * Pour cet exemple, entrez ou sélectionnez l'entrepôt 11.  
-19. Cliquez sur En-tête.
-20. Cliquez sur Approbation d'approuver des nomenclatures.
-21. Cliquez sur OK.
-22. Cliquez sur Approuver.
-    * Le bouton Approuver se trouve dans la barre d'outils dans la section de versions de nomenclature. S'il est invisible, cliquez sur En-tête dans le coin supérieur droit de la page Nomenclatures afin de le faire apparaître.  
-23. Cliquez sur OK.
-24. Cliquez sur Activer.
-25. Fermez la page.
-26. Fermez la page.
-27. Fermez la page.
+## <a name="create-bom-for-a-finished-product"></a><span data-ttu-id="f516a-136">Créer une nomenclature pour un produit fini</span><span class="sxs-lookup"><span data-stu-id="f516a-136">Create BOM for a finished product</span></span>
+1. <span data-ttu-id="f516a-137">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="f516a-137">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="f516a-138">Sélectionnez le numéro d'article BOM_1.</span><span class="sxs-lookup"><span data-stu-id="f516a-138">Select the item number BOM_1.</span></span>  
+2. <span data-ttu-id="f516a-139">Cliquez sur Ingénieur dans le volet Actions.</span><span class="sxs-lookup"><span data-stu-id="f516a-139">On the Action Pane, click Engineer.</span></span>
+3. <span data-ttu-id="f516a-140">Cliquez sur Versions de nomenclature.</span><span class="sxs-lookup"><span data-stu-id="f516a-140">Click BOM versions.</span></span>
+4. <span data-ttu-id="f516a-141">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="f516a-141">Click New.</span></span>
+5. <span data-ttu-id="f516a-142">Cliquez sur Nomenclature et version de nomenclature.</span><span class="sxs-lookup"><span data-stu-id="f516a-142">Click BOM and BOM version.</span></span>
+6. <span data-ttu-id="f516a-143">Tapez une valeur dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="f516a-143">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="f516a-144">Entrez BOM_1, par exemple.</span><span class="sxs-lookup"><span data-stu-id="f516a-144">For example, type BOM_1.</span></span>  
+7. <span data-ttu-id="f516a-145">Saisissez ou sélectionnez une valeur dans le champ Site.</span><span class="sxs-lookup"><span data-stu-id="f516a-145">In the Site field, enter or select a value.</span></span>
+    * <span data-ttu-id="f516a-146">Pour cet exemple, entrez ou sélectionnez le site 1.</span><span class="sxs-lookup"><span data-stu-id="f516a-146">For this example, enter or select Site 1.</span></span>  
+8. <span data-ttu-id="f516a-147">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="f516a-147">Click OK.</span></span>
+9. <span data-ttu-id="f516a-148">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="f516a-148">Click New.</span></span>
+10. <span data-ttu-id="f516a-149">Tapez une valeur dans le champ Numéro d'article.</span><span class="sxs-lookup"><span data-stu-id="f516a-149">In the Item number field, type a value.</span></span>
+    * <span data-ttu-id="f516a-150">Pour cet exemple, tapez ITEM_A.</span><span class="sxs-lookup"><span data-stu-id="f516a-150">For this example, type ITEM_A.</span></span>  
+11. <span data-ttu-id="f516a-151">Dans le champ Entrepôt, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="f516a-151">In the Warehouse field, enter or select a value.</span></span>
+    * <span data-ttu-id="f516a-152">Pour cet exemple, sélectionnez 11.</span><span class="sxs-lookup"><span data-stu-id="f516a-152">For this example, select 11.</span></span>  
+12. <span data-ttu-id="f516a-153">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="f516a-153">Click New.</span></span>
+13. <span data-ttu-id="f516a-154">Tapez une valeur dans le champ Numéro d'article.</span><span class="sxs-lookup"><span data-stu-id="f516a-154">In the Item number field, type a value.</span></span>
+    * <span data-ttu-id="f516a-155">Pour cet exemple, tapez ITEM_B.</span><span class="sxs-lookup"><span data-stu-id="f516a-155">For this example, type ITEM_B.</span></span>  
+14. <span data-ttu-id="f516a-156">Dans le champ Entrepôt, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="f516a-156">In the Warehouse field, enter or select a value.</span></span>
+    * <span data-ttu-id="f516a-157">Pour cet exemple, entrez ou sélectionnez 11</span><span class="sxs-lookup"><span data-stu-id="f516a-157">For this example, enter or select 11.</span></span>  
+15. <span data-ttu-id="f516a-158">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="f516a-158">Click New.</span></span>
+16. <span data-ttu-id="f516a-159">Tapez une valeur dans le champ Numéro d'article.</span><span class="sxs-lookup"><span data-stu-id="f516a-159">In the Item number field, type a value.</span></span>
+    * <span data-ttu-id="f516a-160">Pour cet exemple, tapez BOM_2.</span><span class="sxs-lookup"><span data-stu-id="f516a-160">For this example, type BOM_2.</span></span>  
+17. <span data-ttu-id="f516a-161">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="f516a-161">In the list, mark the selected row.</span></span>
+18. <span data-ttu-id="f516a-162">Dans le champ Entrepôt, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="f516a-162">In the Warehouse field, enter or select a value.</span></span>
+    * <span data-ttu-id="f516a-163">Pour cet exemple, entrez ou sélectionnez l'entrepôt 11.</span><span class="sxs-lookup"><span data-stu-id="f516a-163">For this example, enter or select warehouse 11.</span></span>  
+19. <span data-ttu-id="f516a-164">Cliquez sur En-tête.</span><span class="sxs-lookup"><span data-stu-id="f516a-164">Click Header.</span></span>
+20. <span data-ttu-id="f516a-165">Cliquez sur Approbation d'approuver des nomenclatures.</span><span class="sxs-lookup"><span data-stu-id="f516a-165">Click Approval to approve bills of materials.</span></span>
+21. <span data-ttu-id="f516a-166">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="f516a-166">Click OK.</span></span>
+22. <span data-ttu-id="f516a-167">Cliquez sur Approuver.</span><span class="sxs-lookup"><span data-stu-id="f516a-167">Click Approve.</span></span>
+    * <span data-ttu-id="f516a-168">Le bouton Approuver se trouve dans la barre d'outils dans la section de versions de nomenclature.</span><span class="sxs-lookup"><span data-stu-id="f516a-168">The Approve button is on the ToolBar in the  BOM versions section.</span></span> <span data-ttu-id="f516a-169">S'il est invisible, cliquez sur En-tête dans le coin supérieur droit de la page Nomenclatures afin de le faire apparaître.</span><span class="sxs-lookup"><span data-stu-id="f516a-169">If it is invisible, click Header at the upper right of the Bills of materials page to display Approve.</span></span>  
+23. <span data-ttu-id="f516a-170">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="f516a-170">Click OK.</span></span>
+24. <span data-ttu-id="f516a-171">Cliquez sur Activer.</span><span class="sxs-lookup"><span data-stu-id="f516a-171">Click Activate.</span></span>
+25. <span data-ttu-id="f516a-172">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="f516a-172">Close the page.</span></span>
+26. <span data-ttu-id="f516a-173">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="f516a-173">Close the page.</span></span>
+27. <span data-ttu-id="f516a-174">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="f516a-174">Close the page.</span></span>
 
 

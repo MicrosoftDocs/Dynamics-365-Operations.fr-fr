@@ -14,40 +14,40 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.author: yuyus
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
+ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 5076e6b0f0ffa06fe8135b87e4814bf551b08761
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: f53de983389dd8cbfb2c29af84539f1a73dc0a85
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-bar-code-for-a-product"></a>Créer un code-barres pour un produit
+# <a name="create-a-bar-code-for-a-product"></a><span data-ttu-id="4fdd0-103">Créer un code-barres pour un produit</span><span class="sxs-lookup"><span data-stu-id="4fdd0-103">Create a bar code for a product</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Cette procédure indique comment créer manuellement un code-barres en utilisant le numéro d'article M0001 comme exemple. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
+<span data-ttu-id="4fdd0-104">Cette procédure indique comment créer manuellement un code-barres en utilisant le numéro d'article M0001 comme exemple.</span><span class="sxs-lookup"><span data-stu-id="4fdd0-104">This procedure shows how to manually create a bar code using the item number M0001 as an example.</span></span> <span data-ttu-id="4fdd0-105">Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.</span><span class="sxs-lookup"><span data-stu-id="4fdd0-105">The demo data company used to create this procedure is USMF.</span></span>
 
-1. Cliquez sur Gestion des produits lancés.
-2. Cliquez sur Produits lancés.
-3. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-4. Dans le volet Actions, cliquez sur Gérer le stock.
-5. Cliquez sur Code-barres.
-6. Cliquez sur Nouveau.
-7. Dans la liste, marquez la ligne sélectionnée.
-8. Dans le champ Paramétrage des codes-barres, saisissez ou sélectionnez une valeur.
-9. Dans le champ Code-barres, entrez ou sélectionnez une valeur.
-10. Dans le champ Code-barres, tapez une valeur.
-    * Appuyez sur la touche Tab.  
-11. Fermez la page.
-12. Dans le champ Quantité, entrer un numéro.
-13. Cliquez sur Enregistrer.
-    * Lorsque vous cliquez sur Enregistrer, le contrôle de code-barres est exécuté. Dans ce cas, il affiche une erreur indiquant que le chiffre de contrôle attendu est 8, mais le chiffre affiché est 3. Mettez à jour manuellement le numéro de code-barres afin que le chiffre 8 s'affiche à la fin.  
-14. Dans le champ Code-barres, entrez ou sélectionnez une valeur.
-15. Dans le champ Code-barres, tapez une valeur.
-    * Appuyez sur la touche Tab.  
-16. Fermez la page.
-17. Cliquez sur Enregistrer.
-18. Fermez la page.
+1. <span data-ttu-id="4fdd0-106">Cliquez sur Gestion des produits lancés.</span><span class="sxs-lookup"><span data-stu-id="4fdd0-106">Click Released product maintenance.</span></span>
+2. <span data-ttu-id="4fdd0-107">Cliquez sur Produits lancés.</span><span class="sxs-lookup"><span data-stu-id="4fdd0-107">Click Released products.</span></span>
+3. <span data-ttu-id="4fdd0-108">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="4fdd0-108">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="4fdd0-109">Dans le volet Actions, cliquez sur Gérer le stock.</span><span class="sxs-lookup"><span data-stu-id="4fdd0-109">On the Action Pane, click Manage inventory.</span></span>
+5. <span data-ttu-id="4fdd0-110">Cliquez sur Code-barres.</span><span class="sxs-lookup"><span data-stu-id="4fdd0-110">Click Bar codes.</span></span>
+6. <span data-ttu-id="4fdd0-111">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="4fdd0-111">Click New.</span></span>
+7. <span data-ttu-id="4fdd0-112">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="4fdd0-112">In the list, mark the selected row.</span></span>
+8. <span data-ttu-id="4fdd0-113">Dans le champ Paramétrage des codes-barres, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="4fdd0-113">In the Barcode setup field, enter or select a value.</span></span>
+9. <span data-ttu-id="4fdd0-114">Dans le champ Code-barres, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="4fdd0-114">In the Bar code field, enter or select a value.</span></span>
+10. <span data-ttu-id="4fdd0-115">Dans le champ Code-barres, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="4fdd0-115">In the Bar code field, type a value.</span></span>
+    * <span data-ttu-id="4fdd0-116">Appuyez sur la touche Tab.</span><span class="sxs-lookup"><span data-stu-id="4fdd0-116">Press the Tab key.</span></span>  
+11. <span data-ttu-id="4fdd0-117">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="4fdd0-117">Close the page.</span></span>
+12. <span data-ttu-id="4fdd0-118">Dans le champ Quantité, entrer un numéro.</span><span class="sxs-lookup"><span data-stu-id="4fdd0-118">In the Quantity field, enter a number.</span></span>
+13. <span data-ttu-id="4fdd0-119">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="4fdd0-119">Click Save.</span></span>
+    * <span data-ttu-id="4fdd0-120">Lorsque vous cliquez sur Enregistrer, le contrôle de code-barres est exécuté.</span><span class="sxs-lookup"><span data-stu-id="4fdd0-120">When you click Save, the barcode check is run, and in this case it will display an error stating that the expected check digit is 8, but that 3 was found.</span></span> <span data-ttu-id="4fdd0-121">Dans ce cas, il affiche une erreur indiquant que le chiffre de contrôle attendu est 8, mais le chiffre affiché est 3. Mettez à jour manuellement le numéro de code-barres afin que le chiffre 8 s'affiche à la fin.</span><span class="sxs-lookup"><span data-stu-id="4fdd0-121">Manually update the barcode number so that 8 is at the end.</span></span>  
+14. <span data-ttu-id="4fdd0-122">Dans le champ Code-barres, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="4fdd0-122">In the Bar code field, enter or select a value.</span></span>
+15. <span data-ttu-id="4fdd0-123">Dans le champ Code-barres, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="4fdd0-123">In the Bar code field, type a value.</span></span>
+    * <span data-ttu-id="4fdd0-124">Appuyez sur la touche Tab.</span><span class="sxs-lookup"><span data-stu-id="4fdd0-124">Press the Tab key.</span></span>  
+16. <span data-ttu-id="4fdd0-125">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="4fdd0-125">Close the page.</span></span>
+17. <span data-ttu-id="4fdd0-126">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="4fdd0-126">Click Save.</span></span>
+18. <span data-ttu-id="4fdd0-127">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="4fdd0-127">Close the page.</span></span>
 
 

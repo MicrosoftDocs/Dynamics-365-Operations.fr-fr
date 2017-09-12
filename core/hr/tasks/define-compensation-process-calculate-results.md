@@ -16,89 +16,89 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 34a6485c6f4c11d794fbdb5f4d33f22c0e577221
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: ba28cf1fa6a8e9a4497d3bac1a2161098ec53db1
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="define-compensation-process-and-calculate-results"></a>Définir le processus de rémunération et calculer les résultats
+# <a name="define-compensation-process-and-calculate-results"></a><span data-ttu-id="34ec9-103">Définir le processus de rémunération et calculer les résultats</span><span class="sxs-lookup"><span data-stu-id="34ec9-103">Define compensation process and calculate results</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Des processus de rémunération permettent de déterminer de nouveaux montants et primes de rémunération pour les employés inscrits aux régimes de rémunération fixes et variables. Vous pouvez exécuter les processus de rémunération plusieurs fois afin d'effectuer une analyse d'hypothèse, et vérifier ainsi que toutes les modifications et tous les paramètres sont corrects. Cette procédure crée un processus de rémunération, exécute le processus, et affiche les résultats. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
+<span data-ttu-id="34ec9-104">Des processus de rémunération permettent de déterminer de nouveaux montants et primes de rémunération pour les employés inscrits aux régimes de rémunération fixes et variables.</span><span class="sxs-lookup"><span data-stu-id="34ec9-104">Compensation processes are used to determine new compensation amounts and awards for employees enrolled in fixed and variable compensation plans.</span></span> <span data-ttu-id="34ec9-105">Vous pouvez exécuter les processus de rémunération plusieurs fois afin d'effectuer une analyse d'hypothèse, et vérifier ainsi que toutes les modifications et tous les paramètres sont corrects.</span><span class="sxs-lookup"><span data-stu-id="34ec9-105">Compensation processes can be run multiple times to perform "what-if" analysis, to verify all changes and settings are correct.</span></span> <span data-ttu-id="34ec9-106">Cette procédure crée un processus de rémunération, exécute le processus, et affiche les résultats.</span><span class="sxs-lookup"><span data-stu-id="34ec9-106">This procedure will create a compensation process, run the process, and view the results.</span></span> <span data-ttu-id="34ec9-107">Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.</span><span class="sxs-lookup"><span data-stu-id="34ec9-107">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="create-a-compensation-process"></a>Créer un processus de rémunération
-1. Accédez à Ressources humaines > Rémunération > Processus > Processus de rémunération.
-2. Cliquez sur Nouveau.
-3. Dans le champ Processus, tapez une valeur.
-4. Dans le champ Description, entrez une valeur.
-5. Dans le champ Type de processus, sélectionnez une option.
-    * Un cycle spécifie la période évaluée pour déterminer la rémunération. L'évaluation prend en compte les postes détenus par les employés, les classements de résultats à inclure, le calcul du pourcentage de temps pendant lequel le collaborateur a été employé au cours du cycle, et plus encore. Un exemple d'une date de début de cycle peut être le premier jour du dernier exercice.  
-6. Dans le champ Début de cycle, entrez une date.
-    * La date de fin de cycle est importante car il s'agit de la date permettant de déterminer quels employés ont été en service actif et inscrits à un ou plusieurs régimes de rémunération.  
-7. Dans le champ Fin de cycle, entrez une date.
-    * La date active de transaction est la date à laquelle les nouveaux taux de rémunération doivent entrer en vigueur. De nombreuses sociétés incluent quelques mois entre la fin d'un cycle et la date à laquelle les nouveaux taux de rémunération entrent en vigueur. Le temps supplémentaire est utilisé pour traiter et examiner la nouvelle rémunération.  
-8. Dans le champ Date de transaction active, entrez une date.
-    * La date de moment donné est utilisée pour les régimes de rémunération variable qui déterminent le montant de la prime des employés en fonction de leur taux de rémunération à ce moment.  
-    * La date d'embauche au pro rata du salaire fixe est utilisée avec les régimes de rémunération fixe, avec une règle d'embauche en pourcentage.  Les employés qui sont embauchés entre le début de cycle et la date d'embauche au pro rata du salaire fixe recevront 100 % de leur augmentation de rémunération calculée, plutôt qu'un pourcentage proportionnel.  
-9. Dans le champ Paiement fixe au pro rata de la date d'embauche, entrez une date.
-    * Le date limite de révision est la date à laquelle tous les résultats de processus doivent être examinés afin qu'ils puissent être chargés dans l'enregistrement de rémunération d'un employé avant la date active de transaction. Ce champ est fourni uniquement à titre indicatif.  
-10. Dans le champ Examiner la date limite, entrez une date.
-11. Cliquez sur Enregistrer.
+## <a name="create-a-compensation-process"></a><span data-ttu-id="34ec9-108">Créer un processus de rémunération</span><span class="sxs-lookup"><span data-stu-id="34ec9-108">Create a compensation process</span></span>
+1. <span data-ttu-id="34ec9-109">Accédez à Ressources humaines > Rémunération > Processus > Processus de rémunération.</span><span class="sxs-lookup"><span data-stu-id="34ec9-109">Go to Human resources > Compensation > Process > Compensation processes.</span></span>
+2. <span data-ttu-id="34ec9-110">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="34ec9-110">Click New.</span></span>
+3. <span data-ttu-id="34ec9-111">Dans le champ Processus, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="34ec9-111">In the Process field, type a value.</span></span>
+4. <span data-ttu-id="34ec9-112">Dans le champ Description, entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="34ec9-112">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="34ec9-113">Dans le champ Type de processus, sélectionnez une option.</span><span class="sxs-lookup"><span data-stu-id="34ec9-113">In the Process type field, select an option.</span></span>
+    * <span data-ttu-id="34ec9-114">Un cycle spécifie la période évaluée pour déterminer la rémunération.</span><span class="sxs-lookup"><span data-stu-id="34ec9-114">A cycle specifies the time period evaluated to determine compensation.</span></span> <span data-ttu-id="34ec9-115">L'évaluation prend en compte les postes détenus par les employés, les classements de résultats à inclure, le calcul du pourcentage de temps pendant lequel le collaborateur a été employé au cours du cycle, et plus encore.</span><span class="sxs-lookup"><span data-stu-id="34ec9-115">The evaluation considers which positions were held by employees, which performance ratings to include, calculation of the percentage of time the employee was employed during the cycle, and more.</span></span> <span data-ttu-id="34ec9-116">Un exemple d'une date de début de cycle peut être le premier jour du dernier exercice.</span><span class="sxs-lookup"><span data-stu-id="34ec9-116">An example of a cycle start date might be the first day of the past fiscal year.</span></span>  
+6. <span data-ttu-id="34ec9-117">Dans le champ Début de cycle, entrez une date.</span><span class="sxs-lookup"><span data-stu-id="34ec9-117">In the Cycle start field, enter a date.</span></span>
+    * <span data-ttu-id="34ec9-118">La date de fin de cycle est importante car il s'agit de la date permettant de déterminer quels employés ont été en service actif et inscrits à un ou plusieurs régimes de rémunération.</span><span class="sxs-lookup"><span data-stu-id="34ec9-118">The cycle end date is  important because it is the date used to determine which employees were actively employed and enrolled in one or more compensation plans.</span></span>  
+7. <span data-ttu-id="34ec9-119">Dans le champ Fin de cycle, entrez une date.</span><span class="sxs-lookup"><span data-stu-id="34ec9-119">In the Cycle end field, enter a date.</span></span>
+    * <span data-ttu-id="34ec9-120">La date active de transaction est la date à laquelle les nouveaux taux de rémunération doivent entrer en vigueur.</span><span class="sxs-lookup"><span data-stu-id="34ec9-120">The transaction active date is the date the new compensation rates should take effect.</span></span> <span data-ttu-id="34ec9-121">De nombreuses sociétés incluent quelques mois entre la fin d'un cycle et la date à laquelle les nouveaux taux de rémunération entrent en vigueur.</span><span class="sxs-lookup"><span data-stu-id="34ec9-121">Many companies include a few months between their end of a cycle and the time the new compensation rates go into effect.</span></span> <span data-ttu-id="34ec9-122">Le temps supplémentaire est utilisé pour traiter et examiner la nouvelle rémunération.</span><span class="sxs-lookup"><span data-stu-id="34ec9-122">The additional time is used for processing and reviewing the new compensation.</span></span>  
+8. <span data-ttu-id="34ec9-123">Dans le champ Date de transaction active, entrez une date.</span><span class="sxs-lookup"><span data-stu-id="34ec9-123">In the Transaction active date field, enter a date.</span></span>
+    * <span data-ttu-id="34ec9-124">La date de moment donné est utilisée pour les régimes de rémunération variable qui déterminent le montant de la prime des employés en fonction de leur taux de rémunération à ce moment.</span><span class="sxs-lookup"><span data-stu-id="34ec9-124">The point-in-time date is used for variable compensation plans that determine an employee's award amount based on their compensation rate at this point in time.</span></span>  
+    * <span data-ttu-id="34ec9-125">La date d'embauche au pro rata du salaire fixe est utilisée avec les régimes de rémunération fixe, avec une règle d'embauche en pourcentage.</span><span class="sxs-lookup"><span data-stu-id="34ec9-125">The fixed pay pro rated hire date is used with fixed compensation plans with a hire rule of Percent.</span></span>  <span data-ttu-id="34ec9-126">Les employés qui sont embauchés entre le début de cycle et la date d'embauche au pro rata du salaire fixe recevront 100 % de leur augmentation de rémunération calculée, plutôt qu'un pourcentage proportionnel.</span><span class="sxs-lookup"><span data-stu-id="34ec9-126">Employees who are hired between the cycle start and the fixed pay pro rated hire date will receive 100% of their calculated compensation increase, instead of pro-rated percentage.</span></span>  
+9. <span data-ttu-id="34ec9-127">Dans le champ Paiement fixe au pro rata de la date d'embauche, entrez une date.</span><span class="sxs-lookup"><span data-stu-id="34ec9-127">In the Fixed pay pro rated hire date field, enter a date.</span></span>
+    * <span data-ttu-id="34ec9-128">Le date limite de révision est la date à laquelle tous les résultats de processus doivent être examinés afin qu'ils puissent être chargés dans l'enregistrement de rémunération d'un employé avant la date active de transaction.</span><span class="sxs-lookup"><span data-stu-id="34ec9-128">The review deadline is the date by which all process results should be reviewed so that they can be loaded into an employee's compensation record before the transaction active date.</span></span> <span data-ttu-id="34ec9-129">Ce champ est fourni uniquement à titre indicatif.</span><span class="sxs-lookup"><span data-stu-id="34ec9-129">This field is informational only.</span></span>  
+10. <span data-ttu-id="34ec9-130">Dans le champ Examiner la date limite, entrez une date.</span><span class="sxs-lookup"><span data-stu-id="34ec9-130">In the Review deadline field, enter a date.</span></span>
+11. <span data-ttu-id="34ec9-131">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="34ec9-131">Click Save.</span></span>
 
-## <a name="setup-the-compensation-plans-and-actions-for-a-compensation-process"></a>Configurer les régimes et actions de rémunération pour un processus de rémunération.
-1. Cliquez sur Paramétrage.
-    * La page de paramétrage permet de sélectionner les régimes à traiter dans le cadre de ce processus de rémunération, ainsi que les actions à entreprendre pour chaque régime.  
-2. Dans le champ Régime, saisissez ou sélectionnez une valeur.
-3. Cliquez sur Enregistrer.
-4. Cliquez sur Ajouter.
-5. Dans le champ Action, sélectionnez une action de type Capitaux propres.
-6. Cliquez sur Ajouter.
-7. Dans le champ Action, sélectionnez une action de type Mérite.
-    * Les actions de rémunération peuvent être « chaînées » ensemble à l'aide du champ Utiliser le résultat précédent afin d'indiquer si l'action sélectionnée doit utiliser le salaire de base de l'employé ou le résultat de l'action précédente comme point de départ pour le calcul de cette action.  
-8. Dans le champ Utiliser le résultat précédent, sélectionnez Oui.
-9. Cliquez sur Ajouter.
-10. Dans le champ Action, sélectionnez une action de type Générale.
-    * Différents types d'action de rémunération activent différents champs. Pour un type d'action de rémunération générale, vous pouvez spécifier un pourcentage d'augmentation ou un montant d'augmentation.  
-11. Sélectionnez l'option Sélectionner le montant de l'augmentation.
-12. Dans le champ Montant de l'augmentation, entrez un nombre.
-13. Cliquez sur Ajouter.
-14. Dans le champ Action, sélectionnez une action de type Promotion.
-    * La promotion et les types d'action Autre changement de niveau permettent aux utilisateurs permet d'effectuer des ajustements manuels à la rémunération d'employé. Les recommandations peuvent être activées pour ces types d'action, ainsi que pour d'autres types d'action afin de vous permettre de spécifier une nouvelle valeur de rémunération recommandée pour un employé.  
-15. Cliquez sur Ajouter.
-16. Sélectionnez une option dans le champ Type.
-    * Les régimes de rémunération fixe et variable peuvent être exécutés dans le même processus de rémunération.  
-17. Dans le champ Régime, saisissez ou sélectionnez une valeur.
-    * Utilisez la case Activer le paiement basé sur les résultats pour déterminer si les montants de rémunération fixe et variable doivent être ajustés sur l'évaluation des performances d'un employé.  
-    * Le chiffre peut être remplacé dans les régimes de rémunération variable.  
-18. Cliquez sur Enregistrer.
-19. Cliquez sur Ajouter.
-20. Fermez la page.
+## <a name="setup-the-compensation-plans-and-actions-for-a-compensation-process"></a><span data-ttu-id="34ec9-132">Configurer les régimes et actions de rémunération pour un processus de rémunération.</span><span class="sxs-lookup"><span data-stu-id="34ec9-132">Setup the compensation plans and actions for a compensation process</span></span>
+1. <span data-ttu-id="34ec9-133">Cliquez sur Paramétrage.</span><span class="sxs-lookup"><span data-stu-id="34ec9-133">Click Setup.</span></span>
+    * <span data-ttu-id="34ec9-134">La page de paramétrage permet de sélectionner les régimes à traiter dans le cadre de ce processus de rémunération, ainsi que les actions à entreprendre pour chaque régime.</span><span class="sxs-lookup"><span data-stu-id="34ec9-134">The Setup page is used to select which plans to process as part of this compensation process, as well as which actions should be taken against each plan.</span></span>  
+2. <span data-ttu-id="34ec9-135">Dans le champ Régime, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="34ec9-135">In the Plan field, enter or select a value.</span></span>
+3. <span data-ttu-id="34ec9-136">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="34ec9-136">Click Save.</span></span>
+4. <span data-ttu-id="34ec9-137">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="34ec9-137">Click Add.</span></span>
+5. <span data-ttu-id="34ec9-138">Dans le champ Action, sélectionnez une action de type Capitaux propres.</span><span class="sxs-lookup"><span data-stu-id="34ec9-138">In the Action field, select an Equity type of action.</span></span>
+6. <span data-ttu-id="34ec9-139">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="34ec9-139">Click Add.</span></span>
+7. <span data-ttu-id="34ec9-140">Dans le champ Action, sélectionnez une action de type Mérite.</span><span class="sxs-lookup"><span data-stu-id="34ec9-140">In the Action field, select a Merit type of action.</span></span>
+    * <span data-ttu-id="34ec9-141">Les actions de rémunération peuvent être « chaînées » ensemble à l'aide du champ Utiliser le résultat précédent afin d'indiquer si l'action sélectionnée doit utiliser le salaire de base de l'employé ou le résultat de l'action précédente comme point de départ pour le calcul de cette action.</span><span class="sxs-lookup"><span data-stu-id="34ec9-141">Compensation actions can be "chained" together using the Use previous result field to indicate whether the selected action should use the employees base pay or the result of the previous action as the starting point for this action's calculation.</span></span>  
+8. <span data-ttu-id="34ec9-142">Dans le champ Utiliser le résultat précédent, sélectionnez Oui.</span><span class="sxs-lookup"><span data-stu-id="34ec9-142">Select Yes in the Use previous result field.</span></span>
+9. <span data-ttu-id="34ec9-143">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="34ec9-143">Click Add.</span></span>
+10. <span data-ttu-id="34ec9-144">Dans le champ Action, sélectionnez une action de type Générale.</span><span class="sxs-lookup"><span data-stu-id="34ec9-144">In the Action field, select a General type of Action.</span></span>
+    * <span data-ttu-id="34ec9-145">Différents types d'action de rémunération activent différents champs.</span><span class="sxs-lookup"><span data-stu-id="34ec9-145">Different compensation action types enable different fields.</span></span> <span data-ttu-id="34ec9-146">Pour un type d'action de rémunération générale, vous pouvez spécifier un pourcentage d'augmentation ou un montant d'augmentation.</span><span class="sxs-lookup"><span data-stu-id="34ec9-146">For a General compensation action type, an increase percent or increase amount can be specified.</span></span>  
+11. <span data-ttu-id="34ec9-147">Sélectionnez l'option Sélectionner le montant de l'augmentation.</span><span class="sxs-lookup"><span data-stu-id="34ec9-147">Select the Select increase amount option.</span></span>
+12. <span data-ttu-id="34ec9-148">Dans le champ Montant de l'augmentation, entrez un nombre.</span><span class="sxs-lookup"><span data-stu-id="34ec9-148">In the Increase amount field, enter a number.</span></span>
+13. <span data-ttu-id="34ec9-149">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="34ec9-149">Click Add.</span></span>
+14. <span data-ttu-id="34ec9-150">Dans le champ Action, sélectionnez une action de type Promotion.</span><span class="sxs-lookup"><span data-stu-id="34ec9-150">In the Action field, select a Promotion type of Action.</span></span>
+    * <span data-ttu-id="34ec9-151">La promotion et les types d'action Autre changement de niveau permettent aux utilisateurs permet d'effectuer des ajustements manuels à la rémunération d'employé.</span><span class="sxs-lookup"><span data-stu-id="34ec9-151">Promotion and Other level change action types enable users to make manual adjustments to employee compensation.</span></span> <span data-ttu-id="34ec9-152">Les recommandations peuvent être activées pour ces types d'action, ainsi que pour d'autres types d'action afin de vous permettre de spécifier une nouvelle valeur de rémunération recommandée pour un employé.</span><span class="sxs-lookup"><span data-stu-id="34ec9-152">Recommendations can be enabled for these action types, as well as other action types to enable you to enter a new recommended compensation value for an employee.</span></span>  
+15. <span data-ttu-id="34ec9-153">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="34ec9-153">Click Add.</span></span>
+16. <span data-ttu-id="34ec9-154">Sélectionnez une option dans le champ Type.</span><span class="sxs-lookup"><span data-stu-id="34ec9-154">In the Type field, select an option.</span></span>
+    * <span data-ttu-id="34ec9-155">Les régimes de rémunération fixe et variable peuvent être exécutés dans le même processus de rémunération.</span><span class="sxs-lookup"><span data-stu-id="34ec9-155">Fixed and variable compensation plans can be run in the same compensation process.</span></span>  
+17. <span data-ttu-id="34ec9-156">Dans le champ Régime, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="34ec9-156">In the Plan field, enter or select a value.</span></span>
+    * <span data-ttu-id="34ec9-157">Utilisez la case Activer le paiement basé sur les résultats pour déterminer si les montants de rémunération fixe et variable doivent être ajustés sur l'évaluation des performances d'un employé.</span><span class="sxs-lookup"><span data-stu-id="34ec9-157">Use the Enable pay for performance check box to determined whether fixed and variable compensation amounts should be adjusted based on the employee's performance rating.</span></span>  
+    * <span data-ttu-id="34ec9-158">Le chiffre peut être remplacé dans les régimes de rémunération variable.</span><span class="sxs-lookup"><span data-stu-id="34ec9-158">Leverage can be overridden on variable compensation plans.</span></span>  
+18. <span data-ttu-id="34ec9-159">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="34ec9-159">Click Save.</span></span>
+19. <span data-ttu-id="34ec9-160">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="34ec9-160">Click Add.</span></span>
+20. <span data-ttu-id="34ec9-161">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="34ec9-161">Close the page.</span></span>
 
-## <a name="run-the-compensation-process"></a>Exécuter le processus de rémunération
-1. Cliquez sur Exécuter le processus.
-    * La commande Afficher les résultats du traitement vous permet d'afficher les messages de traitement pour le processus de rémunération complet lorsque le processus est terminé.  
-2. Dans le champ Afficher les résultats du traitement, sélectionnez Oui.
-3. Cliquez sur OK.
+## <a name="run-the-compensation-process"></a><span data-ttu-id="34ec9-162">Exécuter le processus de rémunération</span><span class="sxs-lookup"><span data-stu-id="34ec9-162">Run the compensation process</span></span>
+1. <span data-ttu-id="34ec9-163">Cliquez sur Exécuter le processus.</span><span class="sxs-lookup"><span data-stu-id="34ec9-163">Click Run process.</span></span>
+    * <span data-ttu-id="34ec9-164">La commande Afficher les résultats du traitement vous permet d'afficher les messages de traitement pour le processus de rémunération complet lorsque le processus est terminé.</span><span class="sxs-lookup"><span data-stu-id="34ec9-164">The Show processing results control lets you view processing messages for the complete compensation process when processing has finished.</span></span>  
+2. <span data-ttu-id="34ec9-165">Dans le champ Afficher les résultats du traitement, sélectionnez Oui.</span><span class="sxs-lookup"><span data-stu-id="34ec9-165">Select Yes in the Show processing results field.</span></span>
+3. <span data-ttu-id="34ec9-166">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="34ec9-166">Click OK.</span></span>
 
-## <a name="view-the-results"></a>Afficher les résultats
-1. Cliquez sur Résultats du processus.
-2. Cliquez sur Résultats des employés.
-3. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-4. Développez la section Rémunération fixe.
-    * Développez les organisateurs pour afficher les résultats du processus. Si l'activation des recommandations est marquée pour une action de rémunération, les champs Recommandation sont activés pour cette action.  
-5. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-    * Vous pouvez afficher les résultats pour un seul employé en cliquant sur le bouton Afficher les résultats.  
-    * Vous pouvez remplacer le montant de rémunération calculé en ajustant le pourcentage ou le montant de l'augmentation dans les champs de recommandation.  
-6. Dans le champ Pourcentage recommandé, entrez un nombre.
-7. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-8. Dans le champ Pourcentage recommandé, entrez un nombre.
-    * La fonction Recalculer vous permet d'ignorer toutes modifications apportées à l'enregistrement existant et de générer un nouveau résultat de rémunération pour l'employé sélectionné.  
-    * Lorsque toutes les modifications sont terminées pour un employé, modifiez le statut pour le définir à Approuvé.  
-9. Cliquez sur Modifier le statut.
-10. Cliquez sur Approuvé.
-    * Une fois l'enregistrement approuvé, il peut être chargé vers l'enregistrement de rémunération officiel de l'employé. La nouvelle rémunération est effective dès la date de la transaction définie dans le processus de rémunération.  
+## <a name="view-the-results"></a><span data-ttu-id="34ec9-167">Afficher les résultats</span><span class="sxs-lookup"><span data-stu-id="34ec9-167">View the results</span></span>
+1. <span data-ttu-id="34ec9-168">Cliquez sur Résultats du processus.</span><span class="sxs-lookup"><span data-stu-id="34ec9-168">Click Process results.</span></span>
+2. <span data-ttu-id="34ec9-169">Cliquez sur Résultats des employés.</span><span class="sxs-lookup"><span data-stu-id="34ec9-169">Click Employee results.</span></span>
+3. <span data-ttu-id="34ec9-170">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="34ec9-170">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="34ec9-171">Développez la section Rémunération fixe.</span><span class="sxs-lookup"><span data-stu-id="34ec9-171">Expand the Fixed compensation section.</span></span>
+    * <span data-ttu-id="34ec9-172">Développez les organisateurs pour afficher les résultats du processus.</span><span class="sxs-lookup"><span data-stu-id="34ec9-172">Expand the FastTabs to view the results of the process.</span></span> <span data-ttu-id="34ec9-173">Si l'activation des recommandations est marquée pour une action de rémunération, les champs Recommandation sont activés pour cette action.</span><span class="sxs-lookup"><span data-stu-id="34ec9-173">If Enable recommendations was marked for a compensation action, the Recommendation fields will be enabled for that action.</span></span>  
+5. <span data-ttu-id="34ec9-174">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="34ec9-174">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="34ec9-175">Vous pouvez afficher les résultats pour un seul employé en cliquant sur le bouton Afficher les résultats.</span><span class="sxs-lookup"><span data-stu-id="34ec9-175">The results for a single employee can be viewed by clicking the View results button.</span></span>  
+    * <span data-ttu-id="34ec9-176">Vous pouvez remplacer le montant de rémunération calculé en ajustant le pourcentage ou le montant de l'augmentation dans les champs de recommandation.</span><span class="sxs-lookup"><span data-stu-id="34ec9-176">You can overwrite the calculated compensation amount by adjusting the percent or the increase amount in the Recommendation fields.</span></span>  
+6. <span data-ttu-id="34ec9-177">Dans le champ Pourcentage recommandé, entrez un nombre.</span><span class="sxs-lookup"><span data-stu-id="34ec9-177">In the percent recommended field, enter a number.</span></span>
+7. <span data-ttu-id="34ec9-178">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="34ec9-178">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="34ec9-179">Dans le champ Pourcentage recommandé, entrez un nombre.</span><span class="sxs-lookup"><span data-stu-id="34ec9-179">In the percent recommended field, enter a number.</span></span>
+    * <span data-ttu-id="34ec9-180">La fonction Recalculer vous permet d'ignorer toutes modifications apportées à l'enregistrement existant et de générer un nouveau résultat de rémunération pour l'employé sélectionné.</span><span class="sxs-lookup"><span data-stu-id="34ec9-180">Recalculate can be used to ignore any changes made to the existing record and generate a new compensation result for the selected employee.</span></span>  
+    * <span data-ttu-id="34ec9-181">Lorsque toutes les modifications sont terminées pour un employé, modifiez le statut pour le définir à Approuvé.</span><span class="sxs-lookup"><span data-stu-id="34ec9-181">When all changes are complete for an employee, change the status to Approved.</span></span>  
+9. <span data-ttu-id="34ec9-182">Cliquez sur Modifier le statut.</span><span class="sxs-lookup"><span data-stu-id="34ec9-182">Click Change status.</span></span>
+10. <span data-ttu-id="34ec9-183">Cliquez sur Approuvé.</span><span class="sxs-lookup"><span data-stu-id="34ec9-183">Click Approved.</span></span>
+    * <span data-ttu-id="34ec9-184">Une fois l'enregistrement approuvé, il peut être chargé vers l'enregistrement de rémunération officiel de l'employé.</span><span class="sxs-lookup"><span data-stu-id="34ec9-184">After the record has been approved it can be loaded to the employee's official compensation record.</span></span> <span data-ttu-id="34ec9-185">La nouvelle rémunération est effective dès la date de la transaction définie dans le processus de rémunération.</span><span class="sxs-lookup"><span data-stu-id="34ec9-185">The new compensation will be effective as of the transaction date set on the compensation process.</span></span>  
 
 

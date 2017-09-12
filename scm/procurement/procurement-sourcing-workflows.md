@@ -19,61 +19,61 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 67bdb8436ff379b0e55cfe1660597e8f93235eeb
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 80853a06e599786e2dcaf049ac733c47dfe4d9a5
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="procurement-and-sourcing-workflows"></a>Workflows d'approvisionnements
+# <a name="procurement-and-sourcing-workflows"></a><span data-ttu-id="a3c0c-104">Workflows d'approvisionnements</span><span class="sxs-lookup"><span data-stu-id="a3c0c-104">Procurement and sourcing workflows</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Certaines organisations demandent que les demandes d'achat et les commandes fournisseur soient approuvées par un utilisateur autre que celui qui a saisi la transaction. Pour paramétrer un processus d'approbation, vous pouvez créer un workflow.
+<span data-ttu-id="a3c0c-105">Certaines organisations demandent que les demandes d'achat et les commandes fournisseur soient approuvées par un utilisateur autre que celui qui a saisi la transaction.</span><span class="sxs-lookup"><span data-stu-id="a3c0c-105">Some organizations require that purchase requisitions and purchase orders are approved by a user other than the person who entered the transaction.</span></span> <span data-ttu-id="a3c0c-106">Pour paramétrer un processus d'approbation, vous pouvez créer un workflow.</span><span class="sxs-lookup"><span data-stu-id="a3c0c-106">To set up an approval process, you can create a workflow.</span></span>
 
-Un workflow représente un processus entreprise. Il définit le transfert d'un document dans le système et indique qui doit traiter une tâche ou approuver un document. L'utilisation du système de workflow dans votre organisation présente plusieurs avantages :
--   **Processus cohérents** — Vous pouvez définir le processus d'approbation pour des documents spécifiques, tels que des demandes d'achat ou des états de dépenses. Le système de workflow permet de s'assurer que les documents sont traités et approuvés de manière cohérente et efficace.
--   **Visibilité de processus** — Vous pouvez suivre le statut, l'historique et les mesures de performance d'une instance de workflow spécifique. Vous pouvez ainsi déterminer si des modifications doivent être apportées au workflow afin d'en optimiser l'efficacité.
--   **Liste de travail centralisée** — Les utilisateurs peuvent afficher une liste de travail centralisée pour consulter les tâches et les approbations de workflow qui leur sont affectées dans l'ensemble des workflows auxquels ils participent. Cette option est disponible dans la page Éléments de travail.
+<span data-ttu-id="a3c0c-107">Un workflow représente un processus entreprise.</span><span class="sxs-lookup"><span data-stu-id="a3c0c-107">A workflow represents a business process.</span></span> <span data-ttu-id="a3c0c-108">Il définit le transfert d'un document dans le système et indique qui doit traiter une tâche ou approuver un document.</span><span class="sxs-lookup"><span data-stu-id="a3c0c-108">It defines how a document flows through the system and indicates who must complete a task or approve a document.</span></span> <span data-ttu-id="a3c0c-109">L'utilisation du système de workflow dans votre organisation présente plusieurs avantages :</span><span class="sxs-lookup"><span data-stu-id="a3c0c-109">There are several benefits of using the workflow system in your organization:</span></span>
+-   <span data-ttu-id="a3c0c-110">**Processus cohérents** — Vous pouvez définir le processus d'approbation pour des documents spécifiques, tels que des demandes d'achat ou des états de dépenses.</span><span class="sxs-lookup"><span data-stu-id="a3c0c-110">**Consistent processes**— You can define the approval process for specific documents, such as purchase requisitions and expense reports.</span></span> <span data-ttu-id="a3c0c-111">Le système de workflow permet de s'assurer que les documents sont traités et approuvés de manière cohérente et efficace.</span><span class="sxs-lookup"><span data-stu-id="a3c0c-111">Using the workflow system helps to ensure that documents are processed and approved in a consistent and efficient manner.</span></span>
+-   <span data-ttu-id="a3c0c-112">**Visibilité de processus** — Vous pouvez suivre le statut, l'historique et les mesures de performance d'une instance de workflow spécifique.</span><span class="sxs-lookup"><span data-stu-id="a3c0c-112">**Process visibility**— You can track the status, history, and performance metrics of a specific workflow instance.</span></span> <span data-ttu-id="a3c0c-113">Vous pouvez ainsi déterminer si des modifications doivent être apportées au workflow afin d'en optimiser l'efficacité.</span><span class="sxs-lookup"><span data-stu-id="a3c0c-113">This helps you determine whether changes should be made to the workflow to improve efficiency.</span></span>
+-   <span data-ttu-id="a3c0c-114">**Liste de travail centralisée** — Les utilisateurs peuvent afficher une liste de travail centralisée pour consulter les tâches et les approbations de workflow qui leur sont affectées dans l'ensemble des workflows auxquels ils participent.</span><span class="sxs-lookup"><span data-stu-id="a3c0c-114">**Centralized work list**— Users can view a centralized work list to view the workflow tasks and approvals assigned to them across all workflows they participate in.</span></span> <span data-ttu-id="a3c0c-115">Cette option est disponible dans la page Éléments de travail.</span><span class="sxs-lookup"><span data-stu-id="a3c0c-115">This is available in the Work items page.</span></span>
 
-## <a name="the-types-of-workflows-that-you-can-create"></a> Types de workflows qu'il est possible de créer
-Les types de workflows suivants sont disponibles pour le module Approvisionnements.
+## <a name="the-types-of-workflows-that-you-can-create"></a><span data-ttu-id="a3c0c-116"> Types de workflows qu'il est possible de créer</span><span class="sxs-lookup"><span data-stu-id="a3c0c-116">The types of workflows that you can create</span></span>
+<span data-ttu-id="a3c0c-117">Les types de workflows suivants sont disponibles pour le module Approvisionnements.</span><span class="sxs-lookup"><span data-stu-id="a3c0c-117">The following workflow types are available for Procurement and sourcing.</span></span>
 
 |                                  |                                                               |
 |----------------------------------|---------------------------------------------------------------|
-| **Tapez**                         | **Utilisation**                                          |
-| Révision de la demande d'achat      | Permet de créer des workflows de révision pour les demandes d'achat.            |
-| Analyse de la ligne de demande d'achat | Permet de créer des workflows de révision pour les lignes de demandes d'achat.       |
-| Workflow de commande fournisseur          | Permet de créer des workflows de révision et d'approbation pour les commandes fournisseur.     |
-| Workflow de ligne de commande fournisseur     | Permet de créer des workflows de révision et d'approbation pour les lignes de commande fournisseur. |
+| <span data-ttu-id="a3c0c-118">**Tapez**</span><span class="sxs-lookup"><span data-stu-id="a3c0c-118">**Type**</span></span>                         | <span data-ttu-id="a3c0c-119">**Utilisation**</span><span class="sxs-lookup"><span data-stu-id="a3c0c-119">**Use this type to**</span></span>                                          |
+| <span data-ttu-id="a3c0c-120">Révision de la demande d'achat</span><span class="sxs-lookup"><span data-stu-id="a3c0c-120">Purchase requisition review</span></span>      | <span data-ttu-id="a3c0c-121">Permet de créer des workflows de révision pour les demandes d'achat.</span><span class="sxs-lookup"><span data-stu-id="a3c0c-121">Create review workflows for purchase requisitions.</span></span>            |
+| <span data-ttu-id="a3c0c-122">Analyse de la ligne de demande d'achat</span><span class="sxs-lookup"><span data-stu-id="a3c0c-122">Purchase requisition line review</span></span> | <span data-ttu-id="a3c0c-123">Permet de créer des workflows de révision pour les lignes de demandes d'achat.</span><span class="sxs-lookup"><span data-stu-id="a3c0c-123">Create review workflows for purchase requisition lines.</span></span>       |
+| <span data-ttu-id="a3c0c-124">Workflow de commande fournisseur</span><span class="sxs-lookup"><span data-stu-id="a3c0c-124">Purchase order workflow</span></span>          | <span data-ttu-id="a3c0c-125">Permet de créer des workflows de révision et d'approbation pour les commandes fournisseur.</span><span class="sxs-lookup"><span data-stu-id="a3c0c-125">Create review and approval workflows for purchase orders.</span></span>     |
+| <span data-ttu-id="a3c0c-126">Workflow de ligne de commande fournisseur</span><span class="sxs-lookup"><span data-stu-id="a3c0c-126">Purchase order line workflow</span></span>     | <span data-ttu-id="a3c0c-127">Permet de créer des workflows de révision et d'approbation pour les lignes de commande fournisseur.</span><span class="sxs-lookup"><span data-stu-id="a3c0c-127">Create review and approve workflows for purchase order lines.</span></span> |
 
-## <a name="creating-a-workflow"></a>Création d'un workflow
-Pour créer un workflow, accédez à Approvisionnements &gt; Paramétrage &gt; Workflows d'approvisionnement, puis créez un workflow en sélectionnant le type de workflow à créer.  
+## <a name="creating-a-workflow"></a><span data-ttu-id="a3c0c-128">Création d'un workflow</span><span class="sxs-lookup"><span data-stu-id="a3c0c-128">Creating a workflow</span></span>
+<span data-ttu-id="a3c0c-129">Pour créer un workflow, accédez à Approvisionnements &gt; Paramétrage &gt; Workflows d'approvisionnement, puis créez un workflow en sélectionnant le type de workflow à créer.</span><span class="sxs-lookup"><span data-stu-id="a3c0c-129">To create a workflow, go to Procurement and sourcing &gt; Setup &gt; Procurement and sourcing workflows and create a new workflow by selecting the type of workflow you want to create.</span></span>  
 
-Dans le canevas de workflow, vous pouvez faire glisser des éléments de workflow dans le concepteur et lier les éléments dans un flux. Les éléments de workflow doivent être configurés. Pour les éléments de workflow d'approbation et de tâche, vous pouvez configurer le participant qui doit effectuer l'action.
-Types de participants
+<span data-ttu-id="a3c0c-130">Dans le canevas de workflow, vous pouvez faire glisser des éléments de workflow dans le concepteur et lier les éléments dans un flux.</span><span class="sxs-lookup"><span data-stu-id="a3c0c-130">In the workflow canvas you can drag workflow elements into the designer and link the elements into a flow.</span></span> <span data-ttu-id="a3c0c-131">Les éléments de workflow doivent être configurés.</span><span class="sxs-lookup"><span data-stu-id="a3c0c-131">The workflow elements should be configured.</span></span> <span data-ttu-id="a3c0c-132">Pour les éléments de workflow d'approbation et de tâche, vous pouvez configurer le participant qui doit effectuer l'action.</span><span class="sxs-lookup"><span data-stu-id="a3c0c-132">For approval and task workflow elements you can configure which participant should take action.</span></span>
+<span data-ttu-id="a3c0c-133">Types de participants</span><span class="sxs-lookup"><span data-stu-id="a3c0c-133">Types of participants</span></span>
 ----------------------
 
-Vous pouvez affecter une étape d'approbation aux groupes suivants de participants.
+<span data-ttu-id="a3c0c-134">Vous pouvez affecter une étape d'approbation aux groupes suivants de participants.</span><span class="sxs-lookup"><span data-stu-id="a3c0c-134">You can assign an approval step to the following groups of participants.</span></span>
 
-| Groupe d'utilisateurs    | Description                                                               |
+| <span data-ttu-id="a3c0c-135">Groupe d'utilisateurs</span><span class="sxs-lookup"><span data-stu-id="a3c0c-135">User group</span></span>    | <span data-ttu-id="a3c0c-136">Description</span><span class="sxs-lookup"><span data-stu-id="a3c0c-136">Description</span></span>                                                               |
 |---------------|---------------------------------------------------------------------------|
-| Participant   | Permet d'affecter l'étape d'approbation aux membres d'un groupe ou rôle.                   |
-| Hiérarchie     | Permet d'affecter l'étape d'approbation aux utilisateurs d'une hiérarchie d'organisation spécifique. |
-| Utilisateur du workflow | Permet d'affecter l'étape d'approbation aux utilisateurs de ce workflow.                       |
-| File d'attente         | Permet d'affecter l'étape d'approbation à une file d'attente des éléments de travail.                            |
-| Utilisateur          | Permet d'affecter l'étape d'approbation à des utilisateurs spécifiques.                               |
+| <span data-ttu-id="a3c0c-137">Participant</span><span class="sxs-lookup"><span data-stu-id="a3c0c-137">Participant</span></span>   | <span data-ttu-id="a3c0c-138">Permet d'affecter l'étape d'approbation aux membres d'un groupe ou rôle.</span><span class="sxs-lookup"><span data-stu-id="a3c0c-138">Assign the approval step to members of a group or role.</span></span>                   |
+| <span data-ttu-id="a3c0c-139">Hiérarchie</span><span class="sxs-lookup"><span data-stu-id="a3c0c-139">Hierarchy</span></span>     | <span data-ttu-id="a3c0c-140">Permet d'affecter l'étape d'approbation aux utilisateurs d'une hiérarchie d'organisation spécifique.</span><span class="sxs-lookup"><span data-stu-id="a3c0c-140">Assign the approval step to users in a specific organizational hierarchy.</span></span> |
+| <span data-ttu-id="a3c0c-141">Utilisateur du workflow</span><span class="sxs-lookup"><span data-stu-id="a3c0c-141">Workflow user</span></span> | <span data-ttu-id="a3c0c-142">Permet d'affecter l'étape d'approbation aux utilisateurs de ce workflow.</span><span class="sxs-lookup"><span data-stu-id="a3c0c-142">Assign the approval step to users of this workflow.</span></span>                       |
+| <span data-ttu-id="a3c0c-143">File d'attente</span><span class="sxs-lookup"><span data-stu-id="a3c0c-143">Queue</span></span>         | <span data-ttu-id="a3c0c-144">Permet d'affecter l'étape d'approbation à une file d'attente des éléments de travail.</span><span class="sxs-lookup"><span data-stu-id="a3c0c-144">Assign the approval step to a work item queue.</span></span>                            |
+| <span data-ttu-id="a3c0c-145">Utilisateur</span><span class="sxs-lookup"><span data-stu-id="a3c0c-145">User</span></span>          | <span data-ttu-id="a3c0c-146">Permet d'affecter l'étape d'approbation à des utilisateurs spécifiques.</span><span class="sxs-lookup"><span data-stu-id="a3c0c-146">Assign the approval step to specific users.</span></span>                               |
 
 
 
-<a name="see-also"></a>Voir également :
+<a name="see-also"></a><span data-ttu-id="a3c0c-147">Voir également :</span><span class="sxs-lookup"><span data-stu-id="a3c0c-147">See also</span></span>
 --------
 
-[Defining business process workflows for purchase requisitions](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions) (livre blanc)
+<span data-ttu-id="a3c0c-148">[Defining business process workflows for purchase requisitions](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions) (livre blanc)</span><span class="sxs-lookup"><span data-stu-id="a3c0c-148">[Defining business process workflows for purchase requisitions](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)</span></span>
 
-[workflow de demande d'achat](purchase-requisitions-workflow.md)
+[<span data-ttu-id="a3c0c-149">workflow de demande d'achat</span><span class="sxs-lookup"><span data-stu-id="a3c0c-149">Purchase requisition workflow</span></span>](purchase-requisitions-workflow.md)
 
 
 

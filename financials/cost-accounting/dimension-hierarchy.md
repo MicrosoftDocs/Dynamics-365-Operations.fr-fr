@@ -17,321 +17,321 @@ ms.assetid:
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: YuyuScheller
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: dcbab70d2057a2eb252538a51343fa8bae16873d
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 7fb7efdd574c705c2ecfbb46e302985db0729517
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="dimension-hierarchy"></a>Hiérarchie des dimensions
+# <a name="dimension-hierarchy"></a><span data-ttu-id="9a7b4-104">Hiérarchie des dimensions</span><span class="sxs-lookup"><span data-stu-id="9a7b4-104">Dimension hierarchy</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-Cette rubrique fournit des informations sur les hiérarchies de dimensions. Vous utilisez une hiérarchie de dimensions pour définir la structure d'entreprise, les stratégies de coût et le paramétrage de la sécurité dans le contrôle de gestion.  
+<span data-ttu-id="9a7b4-105">Cette rubrique fournit des informations sur les hiérarchies de dimensions.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-105">This topic provides information about dimension hierarchies.</span></span> <span data-ttu-id="9a7b4-106">Vous utilisez une hiérarchie de dimensions pour définir la structure d'entreprise, les stratégies de coût et le paramétrage de la sécurité dans le contrôle de gestion.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-106">You use a dimension hierarchy to define the reporting structure, cost policies, and security setup in Cost accounting.</span></span>  
 
-## <a name="overview"></a>Vue d'ensemble
+## <a name="overview"></a><span data-ttu-id="9a7b4-107">Vue d'ensemble</span><span class="sxs-lookup"><span data-stu-id="9a7b4-107">Overview</span></span>
 
-Les hiérarchies de dimensions sont utilisées dans divers endroits dans le contrôle de gestion. Une hiérarchie de dimensions vous permet de définir les informations suivantes :
+<span data-ttu-id="9a7b4-108">Les hiérarchies de dimensions sont utilisées dans divers endroits dans le contrôle de gestion.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-108">Dimension hierarchies are used in various places in Cost accounting.</span></span> <span data-ttu-id="9a7b4-109">Une hiérarchie de dimensions vous permet de définir les informations suivantes :</span><span class="sxs-lookup"><span data-stu-id="9a7b4-109">A dimension hierarchy lets you define the following information:</span></span>
 
--  La structure hiérarchique qui est intégrée au exigences de l'organisation
--  Stratégies de coût
--  Paramétrage de la sécurité
+-  <span data-ttu-id="9a7b4-110">La structure hiérarchique qui est intégrée au exigences de l'organisation</span><span class="sxs-lookup"><span data-stu-id="9a7b4-110">The reporting structure that fits into the organization's requirements</span></span>
+-  <span data-ttu-id="9a7b4-111">Stratégies de coût</span><span class="sxs-lookup"><span data-stu-id="9a7b4-111">Cost policies</span></span>
+-  <span data-ttu-id="9a7b4-112">Paramétrage de la sécurité</span><span class="sxs-lookup"><span data-stu-id="9a7b4-112">The security setup</span></span>
 
-Voici un exemple d'une hiérarchie de dimensions.
+<span data-ttu-id="9a7b4-113">Voici un exemple d'une hiérarchie de dimensions.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-113">Here is an example of a dimension hierarchy.</span></span>
 
 ![Exemple d'une hiérarchie de dimensions](./media/dimension-hierarchy.png)
 
-Une hiérarchie de dimensions peut être créée pour les types de dimensions suivants :
+<span data-ttu-id="9a7b4-115">Une hiérarchie de dimensions peut être créée pour les types de dimensions suivants :</span><span class="sxs-lookup"><span data-stu-id="9a7b4-115">A dimension hierarchy can be created for the following types of dimensions:</span></span>
 
--  Dimensions d'éléments de coût
--  Dimensions d'objets de coût
--  Dimensions statistiques
+-  <span data-ttu-id="9a7b4-116">Dimensions d'éléments de coût</span><span class="sxs-lookup"><span data-stu-id="9a7b4-116">Cost element dimensions</span></span>
+-  <span data-ttu-id="9a7b4-117">Dimensions d'objets de coût</span><span class="sxs-lookup"><span data-stu-id="9a7b4-117">Cost object dimensions</span></span>
+-  <span data-ttu-id="9a7b4-118">Dimensions statistiques</span><span class="sxs-lookup"><span data-stu-id="9a7b4-118">Statistical dimensions</span></span>
 
 > [!NOTE]
-> - Vous pouvez créer plusieurs hiérarchies de dimensions pour la même dimension si différentes perspectives sont nécessaires.
-> - Une hiérarchie de dimensions ne peut être associée qu'à une seule dimension.
-> - Une hiérarchie de dimensions peut avoir des niveaux illimités dans sa structure. Tous les niveaux sont disponibles dans l'espace de travail **Contrôle des coûts**. Lorsque vous utilisez Microsoft Excel ou Microsoft Power BI pour les déclarations, seuls les 15 premiers niveaux de la hiérarchie de dimensions sont exportés. Cette limitation existe car Excel et Power BI nécessitent un schéma fixe.
-> - Une hiérarchie de dimensions n'a pas de date d'effet. Par conséquent, toute modification apportée à une hiérarchie de dimensions est immédiatement stockée dans l'enregistrement, et vous ne pouvez pas comparer la date antérieure et la date postérieure.
+> - <span data-ttu-id="9a7b4-119">Vous pouvez créer plusieurs hiérarchies de dimensions pour la même dimension si différentes perspectives sont nécessaires.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-119">You can create multiple dimension hierarchies for the same dimension if different perspectives are required.</span></span>
+> - <span data-ttu-id="9a7b4-120">Une hiérarchie de dimensions ne peut être associée qu'à une seule dimension.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-120">A dimension hierarchy can be associated with only one dimension.</span></span>
+> - <span data-ttu-id="9a7b4-121">Une hiérarchie de dimensions peut avoir des niveaux illimités dans sa structure.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-121">A dimension hierarchy can have unlimited levels in its structure.</span></span> <span data-ttu-id="9a7b4-122">Tous les niveaux sont disponibles dans l'espace de travail **Contrôle des coûts**.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-122">All the levels will be available in the **Cost control** workspace.</span></span> <span data-ttu-id="9a7b4-123">Lorsque vous utilisez Microsoft Excel ou Microsoft Power BI pour les déclarations, seuls les 15 premiers niveaux de la hiérarchie de dimensions sont exportés.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-123">When you use Microsoft Excel or Microsoft Power BI for reporting purposes, only the first 15 levels of the dimension hierarchy are exported.</span></span> <span data-ttu-id="9a7b4-124">Cette limitation existe car Excel et Power BI nécessitent un schéma fixe.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-124">This limitation exists because both Excel and Power BI require a fixed schema.</span></span>
+> - <span data-ttu-id="9a7b4-125">Une hiérarchie de dimensions n'a pas de date d'effet.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-125">A dimension hierarchy isn't date-effective.</span></span> <span data-ttu-id="9a7b4-126">Par conséquent, toute modification apportée à une hiérarchie de dimensions est immédiatement stockée dans l'enregistrement, et vous ne pouvez pas comparer la date antérieure et la date postérieure.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-126">Therefore, any change to a dimension hierarchy is immediately saved to the record, and you can't compare the before date and after date.</span></span>
 
-## <a name="dimension-hierarchy-type"></a>Type de hiérarchie de dimension
+## <a name="dimension-hierarchy-type"></a><span data-ttu-id="9a7b4-127">Type de hiérarchie de dimension</span><span class="sxs-lookup"><span data-stu-id="9a7b4-127">Dimension hierarchy type</span></span>
 
-Lorsque vous créez une nouvelle hiérarchie de dimensions, vous devez sélectionner un type de hiérarchie. Accédez à **Contrôle de gestion** > **Dimensions** > **Hiérarchies des dimensions**. Cliquez sur **Nouveau**, puis sélectionnez un type de hiérarchie de dimensions. Vous pouvez sélectionner **Hiérarchie de catégorisation de dimension** ou **Hiérarchie de classification de dimension**.
+<span data-ttu-id="9a7b4-128">Lorsque vous créez une nouvelle hiérarchie de dimensions, vous devez sélectionner un type de hiérarchie.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-128">When you create a new dimension hierarchy, you must select a hierarchy type.</span></span> <span data-ttu-id="9a7b4-129">Accédez à **Contrôle de gestion** > **Dimensions** > **Hiérarchies des dimensions**.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-129">Go to **Cost accounting** > **Dimensions** > **Dimension hierarchies**.</span></span> <span data-ttu-id="9a7b4-130">Cliquez sur **Nouveau**, puis sélectionnez un type de hiérarchie de dimensions.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-130">Click **New**, and select a dimension hierarchy type.</span></span> <span data-ttu-id="9a7b4-131">Vous pouvez sélectionner **Hiérarchie de catégorisation de dimension** ou **Hiérarchie de classification de dimension**.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-131">You can select either **Dimension categorization hierarchy** or **Dimension classification hierarchy**.</span></span>
 
-### <a name="dimension-categorization-hierarchy"></a>Hiérarchie de catégorisation de dimension
+### <a name="dimension-categorization-hierarchy"></a><span data-ttu-id="9a7b4-132">Hiérarchie de catégorisation de dimension</span><span class="sxs-lookup"><span data-stu-id="9a7b4-132">Dimension categorization hierarchy</span></span>
 
-Le type **Hiérarchie de catégorisation de dimension** est utilisé pour les déclarations. Il ne prend en charge que les dimensions d'élément de coût. Si vous sélectionnez ce type, les règles suivantes s'appliquent :
+<span data-ttu-id="9a7b4-133">Le type **Hiérarchie de catégorisation de dimension** est utilisé pour les déclarations.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-133">The **Dimension categorization hierarchy** type is used for reporting purposes.</span></span> <span data-ttu-id="9a7b4-134">Il ne prend en charge que les dimensions d'élément de coût.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-134">It supports only the cost element dimensions.</span></span> <span data-ttu-id="9a7b4-135">Si vous sélectionnez ce type, les règles suivantes s'appliquent :</span><span class="sxs-lookup"><span data-stu-id="9a7b4-135">When you select this type, the following rules apply:</span></span>
 
--  Un membre de la dimension peut être associé à plusieurs reprises dans la structure de la hiérarchie.
--  Vous pouvez placer un membre de dimension d'élément de coût dans divers nœuds en affectant un comportement de coût au nœud terminal.
+-  <span data-ttu-id="9a7b4-136">Un membre de la dimension peut être associé à plusieurs reprises dans la structure de la hiérarchie.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-136">A dimension member can be associated more than one time in the hierarchy structure.</span></span>
+-  <span data-ttu-id="9a7b4-137">Vous pouvez placer un membre de dimension d'élément de coût dans divers nœuds en affectant un comportement de coût au nœud terminal.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-137">You can put a cost element dimension member in different nodes by assigning a cost behavior to the leaf node.</span></span>
 
-### <a name="dimension-classification-hierarchy"></a>Hiérarchie de classification de dimension
+### <a name="dimension-classification-hierarchy"></a><span data-ttu-id="9a7b4-138">Hiérarchie de classification de dimension</span><span class="sxs-lookup"><span data-stu-id="9a7b4-138">Dimension classification hierarchy</span></span>
 
-Le type **Hiérarchie de classification de dimension** est utilisé pour définir les règles et les déclarations. Il prend en charge toutes les dimensions, comme les objets de coût, les éléments de coût et les dimensions statistiques. Lorsque vous sélectionnez ce type, un membre de la dimension peut être associé une seule fois dans la structure de la hiérarchie.
+<span data-ttu-id="9a7b4-139">Le type **Hiérarchie de classification de dimension** est utilisé pour définir les règles et les déclarations.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-139">The **Dimension classification hierarchy** type is used to define rules and for reporting purposes.</span></span> <span data-ttu-id="9a7b4-140">Il prend en charge toutes les dimensions, comme les objets de coût, les éléments de coût et les dimensions statistiques.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-140">It supports all dimensions, such as cost objects, cost elements, and statistical dimensions.</span></span> <span data-ttu-id="9a7b4-141">Lorsque vous sélectionnez ce type, un membre de la dimension peut être associé une seule fois dans la structure de la hiérarchie.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-141">When you select this type, a dimension member can be associated only one time in the hierarchy structure.</span></span>
 
-## <a name="create-and-maintain-a-dimension-hierarchy"></a>Créer et tenir à jour une hiérarchie de dimensions
+## <a name="create-and-maintain-a-dimension-hierarchy"></a><span data-ttu-id="9a7b4-142">Créer et tenir à jour une hiérarchie de dimensions</span><span class="sxs-lookup"><span data-stu-id="9a7b4-142">Create and maintain a dimension hierarchy</span></span>
 
-Une hiérarchie de dimensions est créée comme structure arborescente qui inclut des relations de nœuds et des nœuds terminaux.
+<span data-ttu-id="9a7b4-143">Une hiérarchie de dimensions est créée comme structure arborescente qui inclut des relations de nœuds et des nœuds terminaux.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-143">A dimension hierarchy is created as a tree structure that has node and leaf node relationships.</span></span>
 
--  Un nœud peut comporter 1 : sous-nœuds de _n_.
--  Un nœud ne peut pas avoir des sous-nœuds et des nœuds terminaux qui lui sont affectés à la fois.
--  Un nœud terminal ne peut être affecté qu'au plus bas dans la hiérarchie.
+-  <span data-ttu-id="9a7b4-144">Un nœud peut comporter 1 : sous-nœuds de _n_.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-144">A node can have 1:_n_ subnodes.</span></span>
+-  <span data-ttu-id="9a7b4-145">Un nœud ne peut pas avoir des sous-nœuds et des nœuds terminaux qui lui sont affectés à la fois.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-145">A node can’t have both subnodes and leaf nodes assigned to it.</span></span>
+-  <span data-ttu-id="9a7b4-146">Un nœud terminal ne peut être affecté qu'au plus bas dans la hiérarchie.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-146">A leaf node can be assigned only at the lowest level in the hierarchy.</span></span>
 
-### <a name="example"></a>Exemple
+### <a name="example"></a><span data-ttu-id="9a7b4-147">Exemple</span><span class="sxs-lookup"><span data-stu-id="9a7b4-147">Example</span></span>
 
-Une petite société a la structure d'organisation suivante, où les services Finances et Ressources humaines sont des départements dépendants de l'administrateur, et les services Assemblage et Emballage sont des départements relevant de la production.
+<span data-ttu-id="9a7b4-148">Une petite société a la structure d'organisation suivante, où les services Finances et Ressources humaines sont des départements dépendants de l'administrateur, et les services Assemblage et Emballage sont des départements relevant de la production.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-148">A small company has the following organization structure, where Finance and Human resources are departments under Admin, and Assembly and Packaging are departments under Production.</span></span>
 
 ![Exemple d'une structure d'organisation](./media/dimension-hierarchy-org.png)
 
-Une dimension d'objet de coût représente tous les centres de coût dans l'organisation.
+<span data-ttu-id="9a7b4-150">Une dimension d'objet de coût représente tous les centres de coût dans l'organisation.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-150">A cost object dimension represents all the cost centers in the organization.</span></span>
 
-- Dimension d'objet de coût
-    - Centres de coût
+- <span data-ttu-id="9a7b4-151">Dimension d'objet de coût</span><span class="sxs-lookup"><span data-stu-id="9a7b4-151">Cost object dimension</span></span>
+    - <span data-ttu-id="9a7b4-152">Centres de coût</span><span class="sxs-lookup"><span data-stu-id="9a7b4-152">Cost centers</span></span>
 
-La dimension d'objet de coût qui représente tous les centres de coût peut être paramétrée comme indiqué ici.
+<span data-ttu-id="9a7b4-153">La dimension d'objet de coût qui représente tous les centres de coût peut être paramétrée comme indiqué ici.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-153">The cost object dimension that represents all the cost centers can be set up as shown here.</span></span>
 
-| Centres de coût | Description |
+| <span data-ttu-id="9a7b4-154">Centres de coût</span><span class="sxs-lookup"><span data-stu-id="9a7b4-154">Cost centers</span></span> | <span data-ttu-id="9a7b4-155">Description</span><span class="sxs-lookup"><span data-stu-id="9a7b4-155">Description</span></span> |
 |--------------|-------------|
-| CC001        | RH          |
-| CC002        | Finances     |
-| CC003        | Taxes         |
-| CC007        | Achats/Ventes       |
-| CC005        | Assemblage    |
-| CC006        | Emballage   |
+| <span data-ttu-id="9a7b4-156">CC001</span><span class="sxs-lookup"><span data-stu-id="9a7b4-156">CC001</span></span>        | <span data-ttu-id="9a7b4-157">RH</span><span class="sxs-lookup"><span data-stu-id="9a7b4-157">HR</span></span>          |
+| <span data-ttu-id="9a7b4-158">CC002</span><span class="sxs-lookup"><span data-stu-id="9a7b4-158">CC002</span></span>        | <span data-ttu-id="9a7b4-159">Finances</span><span class="sxs-lookup"><span data-stu-id="9a7b4-159">Finance</span></span>     |
+| <span data-ttu-id="9a7b4-160">CC003</span><span class="sxs-lookup"><span data-stu-id="9a7b4-160">CC003</span></span>        | <span data-ttu-id="9a7b4-161">Taxes</span><span class="sxs-lookup"><span data-stu-id="9a7b4-161">Tax</span></span>         |
+| <span data-ttu-id="9a7b4-162">CC007</span><span class="sxs-lookup"><span data-stu-id="9a7b4-162">CC007</span></span>        | <span data-ttu-id="9a7b4-163">Achats/Ventes</span><span class="sxs-lookup"><span data-stu-id="9a7b4-163">AR/AP</span></span>       |
+| <span data-ttu-id="9a7b4-164">CC005</span><span class="sxs-lookup"><span data-stu-id="9a7b4-164">CC005</span></span>        | <span data-ttu-id="9a7b4-165">Assemblage</span><span class="sxs-lookup"><span data-stu-id="9a7b4-165">Assembly</span></span>    |
+| <span data-ttu-id="9a7b4-166">CC006</span><span class="sxs-lookup"><span data-stu-id="9a7b4-166">CC006</span></span>        | <span data-ttu-id="9a7b4-167">Emballage</span><span class="sxs-lookup"><span data-stu-id="9a7b4-167">Packaging</span></span>   |
 
-Une dimension d'élément de coût représente tous les éléments de coût dans l'organisation.
+<span data-ttu-id="9a7b4-168">Une dimension d'élément de coût représente tous les éléments de coût dans l'organisation.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-168">A cost element dimension represents all the cost elements in the organization.</span></span>
 
-- Dimension d'élément de coût
-    - Éléments de coût
+- <span data-ttu-id="9a7b4-169">Dimension d'élément de coût</span><span class="sxs-lookup"><span data-stu-id="9a7b4-169">Cost element dimension</span></span>
+    - <span data-ttu-id="9a7b4-170">Éléments de coût</span><span class="sxs-lookup"><span data-stu-id="9a7b4-170">Cost elements</span></span>
 
-La dimension d'élément de coût qui représente tous les éléments de coût peut être paramétrée comme indiqué ici.
+<span data-ttu-id="9a7b4-171">La dimension d'élément de coût qui représente tous les éléments de coût peut être paramétrée comme indiqué ici.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-171">The cost element dimension that represents all the cost elements can be set up as shown here.</span></span>
 
-| Éléments de coût | Description |
+| <span data-ttu-id="9a7b4-172">Éléments de coût</span><span class="sxs-lookup"><span data-stu-id="9a7b4-172">Cost elements</span></span> | <span data-ttu-id="9a7b4-173">Description</span><span class="sxs-lookup"><span data-stu-id="9a7b4-173">Description</span></span> |
 |---------------|-------------|
-| 10001         | Électricité |
-| 10010         | Nettoyage    |
-| 10011         | Chauffage     |
-| 40001         | Coût des marchandises vendues        |
+| <span data-ttu-id="9a7b4-174">10001</span><span class="sxs-lookup"><span data-stu-id="9a7b4-174">10001</span></span>         | <span data-ttu-id="9a7b4-175">Électricité</span><span class="sxs-lookup"><span data-stu-id="9a7b4-175">Electricity</span></span> |
+| <span data-ttu-id="9a7b4-176">10010</span><span class="sxs-lookup"><span data-stu-id="9a7b4-176">10010</span></span>         | <span data-ttu-id="9a7b4-177">Nettoyage</span><span class="sxs-lookup"><span data-stu-id="9a7b4-177">Cleaning</span></span>    |
+| <span data-ttu-id="9a7b4-178">10011</span><span class="sxs-lookup"><span data-stu-id="9a7b4-178">10011</span></span>         | <span data-ttu-id="9a7b4-179">Chauffage</span><span class="sxs-lookup"><span data-stu-id="9a7b4-179">Heating</span></span>     |
+| <span data-ttu-id="9a7b4-180">40001</span><span class="sxs-lookup"><span data-stu-id="9a7b4-180">40001</span></span>         | <span data-ttu-id="9a7b4-181">Coût des marchandises vendues</span><span class="sxs-lookup"><span data-stu-id="9a7b4-181">COGS</span></span>        |
 
-Une hiérarchie de dimensions qui répond aux conditions de génération d'états d'organisation peut être paramétrée comme indiqué ici.
+<span data-ttu-id="9a7b4-182">Une hiérarchie de dimensions qui répond aux conditions de génération d'états d'organisation peut être paramétrée comme indiqué ici.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-182">A dimension hierarchy that meets the organizational reporting requirements can be set up as shown here.</span></span>
 
-**Détails sur la hiérarchie des dimensions**
+<span data-ttu-id="9a7b4-183">**Détails sur la hiérarchie des dimensions**</span><span class="sxs-lookup"><span data-stu-id="9a7b4-183">**Dimension hierarchy details**</span></span>
 
-| Nom de la hiérarchie des dimensions | Dimension    | Nom du type de hiérarchie des dimensions      | Hiérarchie de la liste d'accès |
+| <span data-ttu-id="9a7b4-184">Nom de la hiérarchie des dimensions</span><span class="sxs-lookup"><span data-stu-id="9a7b4-184">Dimension hierarchy name</span></span> | <span data-ttu-id="9a7b4-185">Dimension</span><span class="sxs-lookup"><span data-stu-id="9a7b4-185">Dimension</span></span>    | <span data-ttu-id="9a7b4-186">Nom du type de hiérarchie des dimensions</span><span class="sxs-lookup"><span data-stu-id="9a7b4-186">Dimension hierarchy type name</span></span>      | <span data-ttu-id="9a7b4-187">Hiérarchie de la liste d'accès</span><span class="sxs-lookup"><span data-stu-id="9a7b4-187">Access list hierarchy</span></span> |
 |--------------------------|--------------|------------------------------------|-----------------------|
-| Organisation             | Centres de coût | Hiérarchie de classification de dimension | N°                    |
+| <span data-ttu-id="9a7b4-188">Organisation</span><span class="sxs-lookup"><span data-stu-id="9a7b4-188">Organization</span></span>             | <span data-ttu-id="9a7b4-189">Centres de coût</span><span class="sxs-lookup"><span data-stu-id="9a7b4-189">Cost centers</span></span> | <span data-ttu-id="9a7b4-190">Hiérarchie de classification de dimension</span><span class="sxs-lookup"><span data-stu-id="9a7b4-190">Dimension classification hierarchy</span></span> | <span data-ttu-id="9a7b4-191">N°</span><span class="sxs-lookup"><span data-stu-id="9a7b4-191">No</span></span>                    |
 
-La hiérarchie de dimensions pour générer un état peut être paramétrée comme indiqué ici.
+<span data-ttu-id="9a7b4-192">La hiérarchie de dimensions pour générer un état peut être paramétrée comme indiqué ici.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-192">The dimension hierarchy for reporting can be set up as shown here.</span></span>
 
-|                   | Plages de membres de la dimension   |                         |
+|                   | <span data-ttu-id="9a7b4-193">Plages de membres de la dimension</span><span class="sxs-lookup"><span data-stu-id="9a7b4-193">Dimension member ranges</span></span>   |                         |
 |-------------------|---------------------------|-------------------------|
-| **Nœuds**         | **Membre de la dimension de départ** | **Membre de la dimension de fin** |
-| Organisation      |                           |                         |
-| &nbsp;&nbsp;Admin         |                           |                         |
-|&nbsp;&nbsp;&nbsp;&nbsp;Finances   | CC002                     | CC003                   |
-|                   | CC007                     | CC007                   |
-| &nbsp;&nbsp;&nbsp;&nbsp;RH        | CC001                     | CC001                   |
-| &nbsp;&nbsp;Production    |                           |                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;Emballage | CC005                     | CC005                   |
-| &nbsp;&nbsp;&nbsp;&nbsp;Assemblage  | CC006                     | CC006                   |
+| <span data-ttu-id="9a7b4-194">**Nœuds**</span><span class="sxs-lookup"><span data-stu-id="9a7b4-194">**Nodes**</span></span>         | <span data-ttu-id="9a7b4-195">**Membre de la dimension de départ**</span><span class="sxs-lookup"><span data-stu-id="9a7b4-195">**From dimension member**</span></span> | <span data-ttu-id="9a7b4-196">**Membre de la dimension de fin**</span><span class="sxs-lookup"><span data-stu-id="9a7b4-196">**To dimension member**</span></span> |
+| <span data-ttu-id="9a7b4-197">Organisation</span><span class="sxs-lookup"><span data-stu-id="9a7b4-197">Organization</span></span>      |                           |                         |
+| <span data-ttu-id="9a7b4-198">&nbsp;&nbsp;Admin</span><span class="sxs-lookup"><span data-stu-id="9a7b4-198">&nbsp;&nbsp;Admin</span></span>         |                           |                         |
+|<span data-ttu-id="9a7b4-199">&nbsp;&nbsp;&nbsp;&nbsp;Finances</span><span class="sxs-lookup"><span data-stu-id="9a7b4-199">&nbsp;&nbsp;&nbsp;&nbsp;Finance</span></span>   | <span data-ttu-id="9a7b4-200">CC002</span><span class="sxs-lookup"><span data-stu-id="9a7b4-200">CC002</span></span>                     | <span data-ttu-id="9a7b4-201">CC003</span><span class="sxs-lookup"><span data-stu-id="9a7b4-201">CC003</span></span>                   |
+|                   | <span data-ttu-id="9a7b4-202">CC007</span><span class="sxs-lookup"><span data-stu-id="9a7b4-202">CC007</span></span>                     | <span data-ttu-id="9a7b4-203">CC007</span><span class="sxs-lookup"><span data-stu-id="9a7b4-203">CC007</span></span>                   |
+| <span data-ttu-id="9a7b4-204">&nbsp;&nbsp;&nbsp;&nbsp;RH</span><span class="sxs-lookup"><span data-stu-id="9a7b4-204">&nbsp;&nbsp;&nbsp;&nbsp;HR</span></span>        | <span data-ttu-id="9a7b4-205">CC001</span><span class="sxs-lookup"><span data-stu-id="9a7b4-205">CC001</span></span>                     | <span data-ttu-id="9a7b4-206">CC001</span><span class="sxs-lookup"><span data-stu-id="9a7b4-206">CC001</span></span>                   |
+| <span data-ttu-id="9a7b4-207">&nbsp;&nbsp;Production</span><span class="sxs-lookup"><span data-stu-id="9a7b4-207">&nbsp;&nbsp;Production</span></span>    |                           |                         |
+| <span data-ttu-id="9a7b4-208">&nbsp;&nbsp;&nbsp;&nbsp;Emballage</span><span class="sxs-lookup"><span data-stu-id="9a7b4-208">&nbsp;&nbsp;&nbsp;&nbsp;Packaging</span></span> | <span data-ttu-id="9a7b4-209">CC005</span><span class="sxs-lookup"><span data-stu-id="9a7b4-209">CC005</span></span>                     | <span data-ttu-id="9a7b4-210">CC005</span><span class="sxs-lookup"><span data-stu-id="9a7b4-210">CC005</span></span>                   |
+| <span data-ttu-id="9a7b4-211">&nbsp;&nbsp;&nbsp;&nbsp;Assemblage</span><span class="sxs-lookup"><span data-stu-id="9a7b4-211">&nbsp;&nbsp;&nbsp;&nbsp;Assembly</span></span>  | <span data-ttu-id="9a7b4-212">CC006</span><span class="sxs-lookup"><span data-stu-id="9a7b4-212">CC006</span></span>                     | <span data-ttu-id="9a7b4-213">CC006</span><span class="sxs-lookup"><span data-stu-id="9a7b4-213">CC006</span></span>                   |
 
-Une hiérarchie de dimensions qui répond aux exigences de stratégie peut être paramétrée comme indiqué ici.
+<span data-ttu-id="9a7b4-214">Une hiérarchie de dimensions qui répond aux exigences de stratégie peut être paramétrée comme indiqué ici.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-214">A dimension hierarchy that meets the policy requirement can be set up as shown here.</span></span>
 
-**Détails sur la hiérarchie des dimensions**
+<span data-ttu-id="9a7b4-215">**Détails sur la hiérarchie des dimensions**</span><span class="sxs-lookup"><span data-stu-id="9a7b4-215">**Dimension hierarchy details**</span></span>
 
-| Nom de la hiérarchie des dimensions | Dimension     | Nom du type de hiérarchie des dimensions      |
+| <span data-ttu-id="9a7b4-216">Nom de la hiérarchie des dimensions</span><span class="sxs-lookup"><span data-stu-id="9a7b4-216">Dimension hierarchy name</span></span> | <span data-ttu-id="9a7b4-217">Dimension</span><span class="sxs-lookup"><span data-stu-id="9a7b4-217">Dimension</span></span>     | <span data-ttu-id="9a7b4-218">Nom du type de hiérarchie des dimensions</span><span class="sxs-lookup"><span data-stu-id="9a7b4-218">Dimension hierarchy type name</span></span>      |
 |--------------------------|---------------|------------------------------------|
-| Comportement de coûts            | Éléments de coût | Hiérarchie de classification de dimension |
+| <span data-ttu-id="9a7b4-219">Comportement de coûts</span><span class="sxs-lookup"><span data-stu-id="9a7b4-219">Cost behavior</span></span>            | <span data-ttu-id="9a7b4-220">Éléments de coût</span><span class="sxs-lookup"><span data-stu-id="9a7b4-220">Cost elements</span></span> | <span data-ttu-id="9a7b4-221">Hiérarchie de classification de dimension</span><span class="sxs-lookup"><span data-stu-id="9a7b4-221">Dimension classification hierarchy</span></span> |
 
-La hiérarchie de dimensions pour générer la stratégie peut être paramétrée comme indiqué ici.
+<span data-ttu-id="9a7b4-222">La hiérarchie de dimensions pour générer la stratégie peut être paramétrée comme indiqué ici.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-222">The dimension hierarchy for the policy can be set up as shown here.</span></span>
 
-|                   | Plages de membres de la dimension   |                         |
+|                   | <span data-ttu-id="9a7b4-223">Plages de membres de la dimension</span><span class="sxs-lookup"><span data-stu-id="9a7b4-223">Dimension member ranges</span></span>   |                         |
 |-------------------|---------------------------|-------------------------|
-| **Nœuds**         | **Membre de la dimension de départ** | **Membre de la dimension de fin** |
-| Comportement de coûts     |                           |                         |
-| &nbsp;&nbsp;Coût fixe    | 10001                     | 10011                   |
-|&nbsp;&nbsp;Coût variable | 40001                     | 40010                   |
+| <span data-ttu-id="9a7b4-224">**Nœuds**</span><span class="sxs-lookup"><span data-stu-id="9a7b4-224">**Nodes**</span></span>         | <span data-ttu-id="9a7b4-225">**Membre de la dimension de départ**</span><span class="sxs-lookup"><span data-stu-id="9a7b4-225">**From dimension member**</span></span> | <span data-ttu-id="9a7b4-226">**Membre de la dimension de fin**</span><span class="sxs-lookup"><span data-stu-id="9a7b4-226">**To dimension member**</span></span> |
+| <span data-ttu-id="9a7b4-227">Comportement de coûts</span><span class="sxs-lookup"><span data-stu-id="9a7b4-227">Cost behavior</span></span>     |                           |                         |
+| <span data-ttu-id="9a7b4-228">&nbsp;&nbsp;Coût fixe</span><span class="sxs-lookup"><span data-stu-id="9a7b4-228">&nbsp;&nbsp;Fixed cost</span></span>    | <span data-ttu-id="9a7b4-229">10001</span><span class="sxs-lookup"><span data-stu-id="9a7b4-229">10001</span></span>                     | <span data-ttu-id="9a7b4-230">10011</span><span class="sxs-lookup"><span data-stu-id="9a7b4-230">10011</span></span>                   |
+|<span data-ttu-id="9a7b4-231">&nbsp;&nbsp;Coût variable</span><span class="sxs-lookup"><span data-stu-id="9a7b4-231">&nbsp;&nbsp;Variable cost</span></span> | <span data-ttu-id="9a7b4-232">40001</span><span class="sxs-lookup"><span data-stu-id="9a7b4-232">40001</span></span>                     | <span data-ttu-id="9a7b4-233">40010</span><span class="sxs-lookup"><span data-stu-id="9a7b4-233">40010</span></span>                   |
 
 > [!NOTE]
-> Sous **Plages de membres de la dimension**, un nœud peut contenir des plages membres de dimension de 1:_n_. Vous pouvez insérer des ID membre de dimension qui n'existent pas encore comme membres de la dimension. Cette approche rend la hiérarchie résiliente pour l'avenir.  
+> <span data-ttu-id="9a7b4-234">Sous **Plages de membres de la dimension**, un nœud peut contenir des plages membres de dimension de 1:_n_.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-234">Under **Dimension member ranges**, a node can contain 1:_n_ dimension member ranges.</span></span> <span data-ttu-id="9a7b4-235">Vous pouvez insérer des ID membre de dimension qui n'existent pas encore comme membres de la dimension.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-235">You can insert dimension member IDs that don’t yet exist as dimension members.</span></span> <span data-ttu-id="9a7b4-236">Cette approche rend la hiérarchie résiliente pour l'avenir.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-236">This approach makes the hierarchy resilient for the future.</span></span>  
 
-### <a name="copy-a-hierarchy"></a>Copier une hiérarchie
+### <a name="copy-a-hierarchy"></a><span data-ttu-id="9a7b4-237">Copier une hiérarchie</span><span class="sxs-lookup"><span data-stu-id="9a7b4-237">Copy a hierarchy</span></span>
 
-Vous pouvez copier une hiérarchie de dimension actuelle comme point de départ pour une nouvelle hiérarchie de dimension. Cette approche peut être utile si vous souhaitez comparer la hiérarchie de dimension précédente avec la nouvelle hiérarchie de dimension.
+<span data-ttu-id="9a7b4-238">Vous pouvez copier une hiérarchie de dimension actuelle comme point de départ pour une nouvelle hiérarchie de dimension.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-238">You can copy a current dimension hierarchy as the starting point for a new dimension hierarchy.</span></span> <span data-ttu-id="9a7b4-239">Cette approche peut être utile si vous souhaitez comparer la hiérarchie de dimension précédente avec la nouvelle hiérarchie de dimension.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-239">This approach can be useful if you want to compare the previous dimension hierarchy to the new dimension hierarchy.</span></span>
 
-### <a name="rearrange-nodes-in-a-hierarchy"></a>Réorganisation des nœuds dans une hiérarchie
+### <a name="rearrange-nodes-in-a-hierarchy"></a><span data-ttu-id="9a7b4-240">Réorganisation des nœuds dans une hiérarchie</span><span class="sxs-lookup"><span data-stu-id="9a7b4-240">Rearrange nodes in a hierarchy</span></span>
 
-Vous pouvez déplacer le niveau d'un nœud vers le haut ou vers le bas au sein de la structure. De cette manière, vous pouvez réorganiser l'ordre des nœuds pour générer un rapport dans l'espace de travail **Contrôle des coûts**.
+<span data-ttu-id="9a7b4-241">Vous pouvez déplacer le niveau d'un nœud vers le haut ou vers le bas au sein de la structure.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-241">You can move a node up and down within its current level in the structure.</span></span> <span data-ttu-id="9a7b4-242">De cette manière, vous pouvez réorganiser l'ordre des nœuds pour générer un rapport dans l'espace de travail **Contrôle des coûts**.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-242">In this way, you can rearrange the order of nodes for reporting in the **Cost control** workspace.</span></span>
 
-Vous déplacez un nœud vers un nouvel emplacement dans la hiérarchie en sélectionnant le nœud cible. Vous pouvez déplacer un nœud de deux manières :
+<span data-ttu-id="9a7b4-243">Vous déplacez un nœud vers un nouvel emplacement dans la hiérarchie en sélectionnant le nœud cible.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-243">You move a node to a new location in the hierarchy by selecting the target node.</span></span> <span data-ttu-id="9a7b4-244">Vous pouvez déplacer un nœud de deux manières :</span><span class="sxs-lookup"><span data-stu-id="9a7b4-244">There are two ways to move a node:</span></span>
 
-- **Déplacer dessous** – Déplacement du nœud sélectionné de sa position actuelle dans la hiérarchie pour l'insérer **sous** le nœud cible sélectionné.
-- **Déplacer après** – Déplacement du nœud sélectionné de sa position actuelle dans la hiérarchie pour l'insérer **après** le nœud cible sélectionné à son niveau dans la hiérarchie.
+- <span data-ttu-id="9a7b4-245">**Déplacer dessous** – Déplacement du nœud sélectionné de sa position actuelle dans la hiérarchie pour l'insérer **sous** le nœud cible sélectionné.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-245">**Move below** – Move the selected node from its current position in the hierarchy, and insert it **under** the selected target node.</span></span>
+- <span data-ttu-id="9a7b4-246">**Déplacer après** – Déplacement du nœud sélectionné de sa position actuelle dans la hiérarchie pour l'insérer **après** le nœud cible sélectionné à son niveau dans la hiérarchie.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-246">**Move after** – Move the selected node from its current position in the hierarchy, and insert it **after** the selected target node at its level of the hierarchy.</span></span>
 
 > [!NOTE] 
-> L'ordre des nœuds n'est pas mis à jour lorsque vous exportez des données dans Excel ou Power BI, car ces outils utilisent un ordre de tri alphanumérique par défaut. Vous devez réorganiser l'ordre manuellement.
+> <span data-ttu-id="9a7b4-247">L'ordre des nœuds n'est pas mis à jour lorsque vous exportez des données dans Excel ou Power BI, car ces outils utilisent un ordre de tri alphanumérique par défaut.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-247">The order of the nodes isn't maintained when you export data to Excel or Power BI, because those tools use an alphanumeric sort order by default.</span></span> <span data-ttu-id="9a7b4-248">Vous devez réorganiser l'ordre manuellement.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-248">You should manually rearrange the order.</span></span>
 
-## <a name="define-dimension-hierarchies-for-reporting"></a>Définir les hiérarchies de dimensions pour la génération d'états
+## <a name="define-dimension-hierarchies-for-reporting"></a><span data-ttu-id="9a7b4-249">Définir les hiérarchies de dimensions pour la génération d'états</span><span class="sxs-lookup"><span data-stu-id="9a7b4-249">Define dimension hierarchies for reporting</span></span>
 
-Les hiérarchies de dimensions sont importantes pour la génération d'états. Elles permettent de définir la structure spécifique qui est intégrée à l'organisation individuelle. Les agrégations effectuées au niveau du nœud de la hiérarchie de dimensions permettent aux actionnaires à n'importe quel niveau de l'organisation de voir les données à tous les niveaux.
+<span data-ttu-id="9a7b4-250">Les hiérarchies de dimensions sont importantes pour la génération d'états.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-250">Dimension hierarchies are important for reporting.</span></span> <span data-ttu-id="9a7b4-251">Elles permettent de définir la structure spécifique qui est intégrée à l'organisation individuelle.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-251">They let you define the specific structure that fits into the individual organization.</span></span> <span data-ttu-id="9a7b4-252">Les agrégations effectuées au niveau du nœud de la hiérarchie de dimensions permettent aux actionnaires à n'importe quel niveau de l'organisation de voir les données à tous les niveaux.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-252">The aggregations that are done at the node level of the dimension hierarchy let stakeholders at any level of the organization see data at any level.</span></span>
 
-Les hiérarchies de dimensions sont disponibles dans les outils de génération d'états suivants. Cette approche garantit la cohérence dans la structure hiérarchique.
+<span data-ttu-id="9a7b4-253">Les hiérarchies de dimensions sont disponibles dans les outils de génération d'états suivants.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-253">Dimension hierarchies are available in the following reporting tools.</span></span> <span data-ttu-id="9a7b4-254">Cette approche garantit la cohérence dans la structure hiérarchique.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-254">This approach helps guarantee consistency in the reporting structure.</span></span>
 
-- Espace de travail **Contrôle des coûts** (Client) :
+- <span data-ttu-id="9a7b4-255">Espace de travail **Contrôle des coûts** (Client) :</span><span class="sxs-lookup"><span data-stu-id="9a7b4-255">**Cost control** workspace (Client):</span></span>
 
-    - Contrôlé par la configuration
+    - <span data-ttu-id="9a7b4-256">Contrôlé par la configuration</span><span class="sxs-lookup"><span data-stu-id="9a7b4-256">Controlled by configuration.</span></span>
 
-- Espace de travail **Contrôle des coûts** (Application mobile) :
+- <span data-ttu-id="9a7b4-257">Espace de travail **Contrôle des coûts** (Application mobile) :</span><span class="sxs-lookup"><span data-stu-id="9a7b4-257">**Cost control** workspace (Mobile application):</span></span>
 
-    - Contrôlé par la configuration
+    - <span data-ttu-id="9a7b4-258">Contrôlé par la configuration</span><span class="sxs-lookup"><span data-stu-id="9a7b4-258">Controlled by configuration.</span></span>
 
-- Excel
+- <span data-ttu-id="9a7b4-259">Excel</span><span class="sxs-lookup"><span data-stu-id="9a7b4-259">Excel</span></span>
 
-    - Fournit la possibilité de sélectionner les hiérarchies de dimensions spécifiques par définition d'exportation :
+    - <span data-ttu-id="9a7b4-260">Fournit la possibilité de sélectionner les hiérarchies de dimensions spécifiques par définition d'exportation :</span><span class="sxs-lookup"><span data-stu-id="9a7b4-260">Provides the option to select specific dimension hierarchies per export definition:</span></span>
 
-        - Une hiérarchie de dimensions d'élément de coût (obligatoire)
-        - Une hiérarchie de dimensions d'objet de coût par défaut (facultatif)
-        - Une hiérarchie de dimensions statistiques (facultatif)
+        - <span data-ttu-id="9a7b4-261">Une hiérarchie de dimensions d'élément de coût (obligatoire)</span><span class="sxs-lookup"><span data-stu-id="9a7b4-261">One cost element dimension hierarchy (mandatory)</span></span>
+        - <span data-ttu-id="9a7b4-262">Une hiérarchie de dimensions d'objet de coût par défaut (facultatif)</span><span class="sxs-lookup"><span data-stu-id="9a7b4-262">One cost object dimension hierarchy (optional)</span></span>
+        - <span data-ttu-id="9a7b4-263">Une hiérarchie de dimensions statistiques (facultatif)</span><span class="sxs-lookup"><span data-stu-id="9a7b4-263">One statistical dimension hierarchy (optional)</span></span>
 
-- Power BI :
+- <span data-ttu-id="9a7b4-264">Power BI :</span><span class="sxs-lookup"><span data-stu-id="9a7b4-264">Power BI:</span></span>
 
-    - Toutes les hiérarchies de dimensions sont disponibles.
+    - <span data-ttu-id="9a7b4-265">Toutes les hiérarchies de dimensions sont disponibles.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-265">All dimension hierarchies are available.</span></span>
     
-Si vous créez des états à l'aide d'Excel ou de Power BI, seuls les 15 premiers niveaux de hiérarchies de dimensions sont exportés. Cette limitation existe car un schéma fixe est requis dans Excel et Power BI. Si une hiérarchie a plus de 15 niveaux, aucun niveau supplémentaire ne sera exporté. La table normalisée contient un enregistrement pour chaque membre de dimension dans la hiérarchie. Par conséquent, l'agrégation automatisée se produit. Ce comportement permet de garantir que les soldes à l'un des 15 niveaux disponibles dans la hiérarchie sont toujours corrects.
+<span data-ttu-id="9a7b4-266">Si vous créez des états à l'aide d'Excel ou de Power BI, seuls les 15 premiers niveaux de hiérarchies de dimensions sont exportés.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-266">If you create reports by using Excel or Power BI, only the first 15 levels of the dimension hierarchies are exported.</span></span> <span data-ttu-id="9a7b4-267">Cette limitation existe car un schéma fixe est requis dans Excel et Power BI.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-267">This limitation exists because a fixed schema is required in Excel and Power BI.</span></span> <span data-ttu-id="9a7b4-268">Si une hiérarchie a plus de 15 niveaux, aucun niveau supplémentaire ne sera exporté.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-268">If a hierarchy has more than 15 levels, the additional levels won't be exported.</span></span> <span data-ttu-id="9a7b4-269">La table normalisée contient un enregistrement pour chaque membre de dimension dans la hiérarchie.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-269">The normalized table contains a record for each dimension member in the hierarchy.</span></span> <span data-ttu-id="9a7b4-270">Par conséquent, l'agrégation automatisée se produit.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-270">Therefore, automated aggregation occurs.</span></span> <span data-ttu-id="9a7b4-271">Ce comportement permet de garantir que les soldes à l'un des 15 niveaux disponibles dans la hiérarchie sont toujours corrects.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-271">This behavior helps guarantee that the balances at any of the 15 available levels in the hierarchy are still correct.</span></span>
 
-L'exemple suivant montre la structure d'une hiérarchie de dimensions dans la structure hiérarchique.
+<span data-ttu-id="9a7b4-272">L'exemple suivant montre la structure d'une hiérarchie de dimensions dans la structure hiérarchique.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-272">The following example shows what a dimension hierarchy might look like in the reporting structure.</span></span>
 
-| Hiérarchie de dimensions d'objet de coût - Niveau 1 | Hiérarchie de dimensions d'objet de coût - Niveau 2 | Hiérarchie de dimensions d'objet de coût - Niveau 3 | Hiérarchie de dimensions d'objet de coût - Niveau 4 | Hiérarchie de dimensions d'objet de coût - Niveau 15 |
+| <span data-ttu-id="9a7b4-273">Hiérarchie de dimensions d'objet de coût - Niveau 1</span><span class="sxs-lookup"><span data-stu-id="9a7b4-273">Cost object dimension hierarchy – Level 1</span></span> | <span data-ttu-id="9a7b4-274">Hiérarchie de dimensions d'objet de coût - Niveau 2</span><span class="sxs-lookup"><span data-stu-id="9a7b4-274">Cost object dimension hierarchy – Level 2</span></span> | <span data-ttu-id="9a7b4-275">Hiérarchie de dimensions d'objet de coût - Niveau 3</span><span class="sxs-lookup"><span data-stu-id="9a7b4-275">Cost object dimension hierarchy – Level 3</span></span> | <span data-ttu-id="9a7b4-276">Hiérarchie de dimensions d'objet de coût - Niveau 4</span><span class="sxs-lookup"><span data-stu-id="9a7b4-276">Cost object dimension hierarchy – Level 4</span></span> | <span data-ttu-id="9a7b4-277">Hiérarchie de dimensions d'objet de coût - Niveau 15</span><span class="sxs-lookup"><span data-stu-id="9a7b4-277">Cost object dimension hierarchy – Level 15</span></span> |
 |-------------------------------------------|-------------------------------------------|-------------------------------------------|-------------------------------------------|--------------------------------------------|
-| Organisation                              | Admin                                     | Finances                                   | CC002                                     |                                            |
-| Organisation                              | Admin                                     | Finances                                   | CC003                                     |                                            |
-| Organisation                              | Admin                                     | Finances                                   | CC007                                     |                                            |
-| Organisation                              | Admin                                     | RH                                        | CC001                                     |                                            |
-| Organisation                              | Production                                | Emballage                                 | CC005                                     |                                            |
-| Organisation                              | Production                                | Assemblage                                  | CC006                                     |                                            |
+| <span data-ttu-id="9a7b4-278">Organisation</span><span class="sxs-lookup"><span data-stu-id="9a7b4-278">Organization</span></span>                              | <span data-ttu-id="9a7b4-279">Admin</span><span class="sxs-lookup"><span data-stu-id="9a7b4-279">Admin</span></span>                                     | <span data-ttu-id="9a7b4-280">Finances</span><span class="sxs-lookup"><span data-stu-id="9a7b4-280">Finance</span></span>                                   | <span data-ttu-id="9a7b4-281">CC002</span><span class="sxs-lookup"><span data-stu-id="9a7b4-281">CC002</span></span>                                     |                                            |
+| <span data-ttu-id="9a7b4-282">Organisation</span><span class="sxs-lookup"><span data-stu-id="9a7b4-282">Organization</span></span>                              | <span data-ttu-id="9a7b4-283">Admin</span><span class="sxs-lookup"><span data-stu-id="9a7b4-283">Admin</span></span>                                     | <span data-ttu-id="9a7b4-284">Finances</span><span class="sxs-lookup"><span data-stu-id="9a7b4-284">Finance</span></span>                                   | <span data-ttu-id="9a7b4-285">CC003</span><span class="sxs-lookup"><span data-stu-id="9a7b4-285">CC003</span></span>                                     |                                            |
+| <span data-ttu-id="9a7b4-286">Organisation</span><span class="sxs-lookup"><span data-stu-id="9a7b4-286">Organization</span></span>                              | <span data-ttu-id="9a7b4-287">Admin</span><span class="sxs-lookup"><span data-stu-id="9a7b4-287">Admin</span></span>                                     | <span data-ttu-id="9a7b4-288">Finances</span><span class="sxs-lookup"><span data-stu-id="9a7b4-288">Finance</span></span>                                   | <span data-ttu-id="9a7b4-289">CC007</span><span class="sxs-lookup"><span data-stu-id="9a7b4-289">CC007</span></span>                                     |                                            |
+| <span data-ttu-id="9a7b4-290">Organisation</span><span class="sxs-lookup"><span data-stu-id="9a7b4-290">Organization</span></span>                              | <span data-ttu-id="9a7b4-291">Admin</span><span class="sxs-lookup"><span data-stu-id="9a7b4-291">Admin</span></span>                                     | <span data-ttu-id="9a7b4-292">RH</span><span class="sxs-lookup"><span data-stu-id="9a7b4-292">HR</span></span>                                        | <span data-ttu-id="9a7b4-293">CC001</span><span class="sxs-lookup"><span data-stu-id="9a7b4-293">CC001</span></span>                                     |                                            |
+| <span data-ttu-id="9a7b4-294">Organisation</span><span class="sxs-lookup"><span data-stu-id="9a7b4-294">Organization</span></span>                              | <span data-ttu-id="9a7b4-295">Production</span><span class="sxs-lookup"><span data-stu-id="9a7b4-295">Production</span></span>                                | <span data-ttu-id="9a7b4-296">Emballage</span><span class="sxs-lookup"><span data-stu-id="9a7b4-296">Packaging</span></span>                                 | <span data-ttu-id="9a7b4-297">CC005</span><span class="sxs-lookup"><span data-stu-id="9a7b4-297">CC005</span></span>                                     |                                            |
+| <span data-ttu-id="9a7b4-298">Organisation</span><span class="sxs-lookup"><span data-stu-id="9a7b4-298">Organization</span></span>                              | <span data-ttu-id="9a7b4-299">Production</span><span class="sxs-lookup"><span data-stu-id="9a7b4-299">Production</span></span>                                | <span data-ttu-id="9a7b4-300">Assemblage</span><span class="sxs-lookup"><span data-stu-id="9a7b4-300">Assembly</span></span>                                  | <span data-ttu-id="9a7b4-301">CC006</span><span class="sxs-lookup"><span data-stu-id="9a7b4-301">CC006</span></span>                                     |                                            |
 
-### <a name="update-the-dimension-hierarchies-that-are-used-for-reporting"></a>Mettre à jour des hiérarchies de dimensions utilisées pour la génération d'états 
+### <a name="update-the-dimension-hierarchies-that-are-used-for-reporting"></a><span data-ttu-id="9a7b4-302">Mettre à jour des hiérarchies de dimensions utilisées pour la génération d'états</span><span class="sxs-lookup"><span data-stu-id="9a7b4-302">Update the dimension hierarchies that are used for reporting</span></span> 
 
-Au fil du temps, les hiérarchies de dimensions utilisées dans les outils de génération d'état précités doivent être mises à jour. Vous pouvez mettre à jour les hiérarchies de dimensions en actualisant le client.
+<span data-ttu-id="9a7b4-303">Au fil du temps, les hiérarchies de dimensions utilisées dans les outils de génération d'état précités doivent être mises à jour.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-303">Over time, the dimension hierarchies that are used in the previously mentioned reporting tools will have to be updated.</span></span> <span data-ttu-id="9a7b4-304">Vous pouvez mettre à jour les hiérarchies de dimensions en actualisant le client.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-304">You can update dimension hierarchies by refreshing the client.</span></span>
 
-- Espace de travail **Contrôle des coûts** (Client)
-- Espace de travail **Contrôle des coûts** (Application mobile)
+- <span data-ttu-id="9a7b4-305">Espace de travail **Contrôle des coûts** (Client)</span><span class="sxs-lookup"><span data-stu-id="9a7b4-305">**Cost control** workspace (Client)</span></span>
+- <span data-ttu-id="9a7b4-306">Espace de travail **Contrôle des coûts** (Application mobile)</span><span class="sxs-lookup"><span data-stu-id="9a7b4-306">**Cost control** workspace (Mobile application)</span></span>
 
-Les mises à jour des hiérarchies de dimensions sont remontées toutes les 24 heures par une tâche de mise en cache. Une fois que les données exportées sont mises à jour, les hiérarchies de dimensions mises à jour sont disponibles dans les outils suivants :
+<span data-ttu-id="9a7b4-307">Les mises à jour des hiérarchies de dimensions sont remontées toutes les 24 heures par une tâche de mise en cache.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-307">Updates to dimension hierarchies are picked up every 24 hours by a pre-cached job.</span></span> <span data-ttu-id="9a7b4-308">Une fois que les données exportées sont mises à jour, les hiérarchies de dimensions mises à jour sont disponibles dans les outils suivants :</span><span class="sxs-lookup"><span data-stu-id="9a7b4-308">After the exported data is updated, the updated dimension hierarchies are available in the following tools:</span></span>
 
-- Excel
-- Power BI
+- <span data-ttu-id="9a7b4-309">Excel</span><span class="sxs-lookup"><span data-stu-id="9a7b4-309">Excel</span></span>
+- <span data-ttu-id="9a7b4-310">Power BI</span><span class="sxs-lookup"><span data-stu-id="9a7b4-310">Power BI</span></span>
 
 > [!NOTE] 
-> Pour déclencher manuellement une mise à jour du cache de la hiérarchie de dimensions, vous pouvez créer une exportation vers Excel pour la hiérarchie de dimensions ou les hiérarchies qui doivent être mises à jour.
+> <span data-ttu-id="9a7b4-311">Pour déclencher manuellement une mise à jour du cache de la hiérarchie de dimensions, vous pouvez créer une exportation vers Excel pour la hiérarchie de dimensions ou les hiérarchies qui doivent être mises à jour.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-311">To manually trigger an update of the dimension hierarchy cache, you can create a new export to Excel for the dimension hierarchy or hierarchies that must be updated.</span></span>
 
-## <a name="define-dimension-hierarchies-for-cost-policies"></a>Définir les hiérarchies de dimensions pour les stratégies de coût
+## <a name="define-dimension-hierarchies-for-cost-policies"></a><span data-ttu-id="9a7b4-312">Définir les hiérarchies de dimensions pour les stratégies de coût</span><span class="sxs-lookup"><span data-stu-id="9a7b4-312">Define dimension hierarchies for cost policies</span></span>
 
-Le contrôle de gestion comprend plusieurs stratégies où des règles détaillées sont définies. Vous devez définir une ou plusieurs hiérarchies de dimensions pour les stratégies suivantes :
+<span data-ttu-id="9a7b4-313">Le contrôle de gestion comprend plusieurs stratégies où des règles détaillées sont définies.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-313">Cost accounting consists of multiple policies where detailed rules are defined.</span></span> <span data-ttu-id="9a7b4-314">Vous devez définir une ou plusieurs hiérarchies de dimensions pour les stratégies suivantes :</span><span class="sxs-lookup"><span data-stu-id="9a7b4-314">You must define one or more dimension hierarchies for the following policies:</span></span>
 
-- Comportement de coûts
-- Distribution des coûts
-- Affectation des coûts
-- Repositionnement des coûts
+- <span data-ttu-id="9a7b4-315">Comportement de coûts</span><span class="sxs-lookup"><span data-stu-id="9a7b4-315">Cost behavior</span></span>
+- <span data-ttu-id="9a7b4-316">Distribution des coûts</span><span class="sxs-lookup"><span data-stu-id="9a7b4-316">Cost distribution</span></span>
+- <span data-ttu-id="9a7b4-317">Affectation des coûts</span><span class="sxs-lookup"><span data-stu-id="9a7b4-317">Cost allocation</span></span>
+- <span data-ttu-id="9a7b4-318">Repositionnement des coûts</span><span class="sxs-lookup"><span data-stu-id="9a7b4-318">Cost rollup</span></span>
 
-Les hiérarchies de dimensions simplifient la création des règles. Pour éviter de devoir créer des règles pour chaque membre de dimension, vous pouvez tirer parti des agrégations des membres de dimension fournis par des niveaux de la hiérarchie des dimensions. Si des règles se chevauchent, vous devez définir des règles spécifiques que le système utilise lorsqu'il effectue un calcul des frais généraux.
+<span data-ttu-id="9a7b4-319">Les hiérarchies de dimensions simplifient la création des règles.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-319">Dimension hierarchies make it easy to create rules.</span></span> <span data-ttu-id="9a7b4-320">Pour éviter de devoir créer des règles pour chaque membre de dimension, vous pouvez tirer parti des agrégations des membres de dimension fournis par des niveaux de la hiérarchie des dimensions.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-320">To avoid having to create rules for every dimension member, you can take advantage of the aggregations of dimension members that are provided by dimension hierarchy levels.</span></span> <span data-ttu-id="9a7b4-321">Si des règles se chevauchent, vous devez définir des règles spécifiques que le système utilise lorsqu'il effectue un calcul des frais généraux.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-321">If you have overlapping rules, you must define specific rules that the system will consider when it does the overhead calculation.</span></span>
 
-### <a name="example-define-a-cost-behavior-policy"></a>Exemple : Définir une stratégie de comportement de coût
+### <a name="example-define-a-cost-behavior-policy"></a><span data-ttu-id="9a7b4-322">Exemple : Définir une stratégie de comportement de coût</span><span class="sxs-lookup"><span data-stu-id="9a7b4-322">Example: Define a cost behavior policy</span></span>
 
-Une nouvelle stratégie de comportement de coût est créée, et des hiérarchies de dimensions appropriées sont affectées à la stratégie, comme affiché ici.
+<span data-ttu-id="9a7b4-323">Une nouvelle stratégie de comportement de coût est créée, et des hiérarchies de dimensions appropriées sont affectées à la stratégie, comme affiché ici.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-323">A new cost behavior policy is created, and appropriate dimension hierarchies are assigned to the policy, as shown here.</span></span>
 
-**Stratégie de comportement de coûts**
+<span data-ttu-id="9a7b4-324">**Stratégie de comportement de coûts**</span><span class="sxs-lookup"><span data-stu-id="9a7b4-324">**Cost behavior policy**</span></span>
 
-| Nom de la stratégie   | Hiérarchie des dimensions d'élément de coût | Hiérarchie des dimensions d'objet de coût | Devise comptable |
+| <span data-ttu-id="9a7b4-325">Nom de la stratégie</span><span class="sxs-lookup"><span data-stu-id="9a7b4-325">Policy name</span></span>   | <span data-ttu-id="9a7b4-326">Hiérarchie des dimensions d'élément de coût</span><span class="sxs-lookup"><span data-stu-id="9a7b4-326">Cost element dimension hierarchy</span></span> | <span data-ttu-id="9a7b4-327">Hiérarchie des dimensions d'objet de coût</span><span class="sxs-lookup"><span data-stu-id="9a7b4-327">Cost object dimension hierarchy</span></span> | <span data-ttu-id="9a7b4-328">Devise comptable</span><span class="sxs-lookup"><span data-stu-id="9a7b4-328">Accounting currency</span></span> |
 |---------------|----------------------------------|---------------------------------|---------------------|
-| Comportement de coûts | Comportement de coûts                    | Organisation                    | USD                 |
+| <span data-ttu-id="9a7b4-329">Comportement de coûts</span><span class="sxs-lookup"><span data-stu-id="9a7b4-329">Cost behavior</span></span> | <span data-ttu-id="9a7b4-330">Comportement de coûts</span><span class="sxs-lookup"><span data-stu-id="9a7b4-330">Cost behavior</span></span>                    | <span data-ttu-id="9a7b4-331">Organisation</span><span class="sxs-lookup"><span data-stu-id="9a7b4-331">Organization</span></span>                    | <span data-ttu-id="9a7b4-332">USD</span><span class="sxs-lookup"><span data-stu-id="9a7b4-332">USD</span></span>                 |
 
-**Règles**
+<span data-ttu-id="9a7b4-333">**Règles**</span><span class="sxs-lookup"><span data-stu-id="9a7b4-333">**Rules**</span></span>
 
-| Nœud de hiérarchie des dimensions d'élément de coût | Nœud de hiérarchie des dimensions d'objet de coût | Pourcentage fixe | Montant fixe | Début de validité | Fin de validité |
+| <span data-ttu-id="9a7b4-334">Nœud de hiérarchie des dimensions d'élément de coût</span><span class="sxs-lookup"><span data-stu-id="9a7b4-334">Cost element dimension hierarchy node</span></span> | <span data-ttu-id="9a7b4-335">Nœud de hiérarchie des dimensions d'objet de coût</span><span class="sxs-lookup"><span data-stu-id="9a7b4-335">Cost object dimension hierarchy node</span></span> | <span data-ttu-id="9a7b4-336">Pourcentage fixe</span><span class="sxs-lookup"><span data-stu-id="9a7b4-336">Fixed percentage</span></span> | <span data-ttu-id="9a7b4-337">Montant fixe</span><span class="sxs-lookup"><span data-stu-id="9a7b4-337">Fixed amount</span></span> | <span data-ttu-id="9a7b4-338">Début de validité</span><span class="sxs-lookup"><span data-stu-id="9a7b4-338">Valid from</span></span> | <span data-ttu-id="9a7b4-339">Fin de validité</span><span class="sxs-lookup"><span data-stu-id="9a7b4-339">Valid to</span></span> |
 |---------------------------------------|--------------------------------------|------------------|--------------|------------|----------|
-| Coût fixe                            | Organisation                         | 100,00           | 0,00         | 1/1/2017   | Jamais    |
-| 10001                                 | Organisation                         | 0,00             | 150,00       | 1/1/2017   | Jamais    |
-| 10001 (\*)                             | Finances                              |                  | 50,00        | 1/1/2017   | Jamais    |
-| Comportement ou coût variable de coût (\*\*)   | Organisation                         | 0,00             | 0,00         | 1/1/2017   | Jamais    |
+| <span data-ttu-id="9a7b4-340">Coût fixe</span><span class="sxs-lookup"><span data-stu-id="9a7b4-340">Fixed cost</span></span>                            | <span data-ttu-id="9a7b4-341">Organisation</span><span class="sxs-lookup"><span data-stu-id="9a7b4-341">Organization</span></span>                         | <span data-ttu-id="9a7b4-342">100,00</span><span class="sxs-lookup"><span data-stu-id="9a7b4-342">100.00</span></span>           | <span data-ttu-id="9a7b4-343">0,00</span><span class="sxs-lookup"><span data-stu-id="9a7b4-343">0.00</span></span>         | <span data-ttu-id="9a7b4-344">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="9a7b4-344">1/1/2017</span></span>   | <span data-ttu-id="9a7b4-345">Jamais</span><span class="sxs-lookup"><span data-stu-id="9a7b4-345">Never</span></span>    |
+| <span data-ttu-id="9a7b4-346">10001</span><span class="sxs-lookup"><span data-stu-id="9a7b4-346">10001</span></span>                                 | <span data-ttu-id="9a7b4-347">Organisation</span><span class="sxs-lookup"><span data-stu-id="9a7b4-347">Organization</span></span>                         | <span data-ttu-id="9a7b4-348">0,00</span><span class="sxs-lookup"><span data-stu-id="9a7b4-348">0.00</span></span>             | <span data-ttu-id="9a7b4-349">150,00</span><span class="sxs-lookup"><span data-stu-id="9a7b4-349">150.00</span></span>       | <span data-ttu-id="9a7b4-350">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="9a7b4-350">1/1/2017</span></span>   | <span data-ttu-id="9a7b4-351">Jamais</span><span class="sxs-lookup"><span data-stu-id="9a7b4-351">Never</span></span>    |
+| <span data-ttu-id="9a7b4-352">10001 (\*)</span><span class="sxs-lookup"><span data-stu-id="9a7b4-352">10001 (\*)</span></span>                             | <span data-ttu-id="9a7b4-353">Finances</span><span class="sxs-lookup"><span data-stu-id="9a7b4-353">Finance</span></span>                              |                  | <span data-ttu-id="9a7b4-354">50,00</span><span class="sxs-lookup"><span data-stu-id="9a7b4-354">50.00</span></span>        | <span data-ttu-id="9a7b4-355">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="9a7b4-355">1/1/2017</span></span>   | <span data-ttu-id="9a7b4-356">Jamais</span><span class="sxs-lookup"><span data-stu-id="9a7b4-356">Never</span></span>    |
+| <span data-ttu-id="9a7b4-357">Comportement ou coût variable de coût (\*\*)</span><span class="sxs-lookup"><span data-stu-id="9a7b4-357">Cost behavior or Variable cost (\*\*)</span></span>   | <span data-ttu-id="9a7b4-358">Organisation</span><span class="sxs-lookup"><span data-stu-id="9a7b4-358">Organization</span></span>                         | <span data-ttu-id="9a7b4-359">0,00</span><span class="sxs-lookup"><span data-stu-id="9a7b4-359">0.00</span></span>             | <span data-ttu-id="9a7b4-360">0,00</span><span class="sxs-lookup"><span data-stu-id="9a7b4-360">0.00</span></span>         | <span data-ttu-id="9a7b4-361">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="9a7b4-361">1/1/2017</span></span>   | <span data-ttu-id="9a7b4-362">Jamais</span><span class="sxs-lookup"><span data-stu-id="9a7b4-362">Never</span></span>    |
 
-\* Le nœud de coût variable n'est pas nécessaire. Si un coût n'est pas classé comme coût fixe, il doit être un coût variable.
+<span data-ttu-id="9a7b4-363">\* Le nœud de coût variable n'est pas nécessaire.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-363">\* The variable cost node isn't required.</span></span> <span data-ttu-id="9a7b4-364">Si un coût n'est pas classé comme coût fixe, il doit être un coût variable.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-364">If a cost isn't classified as a fixed cost, it must be a variable cost.</span></span>
 
-\*\* Une règle détaillée est créée pour la combinaison du membre d'élément de coût 10001 et de tous les membres d'objet de coût qui sont regroupés sous le niveau de hiérarchie Finances (CC002, CC003, CC007).
+<span data-ttu-id="9a7b4-365">\*\* Une règle détaillée est créée pour la combinaison du membre d'élément de coût 10001 et de tous les membres d'objet de coût qui sont regroupés sous le niveau de hiérarchie Finances (CC002, CC003, CC007).</span><span class="sxs-lookup"><span data-stu-id="9a7b4-365">\*\* A detailed rule is created for the combination of cost element member 10001 and all cost object members that are aggregated under the Finance hierarchy level (CC002, CC003, CC007).</span></span>
 
-Les règles précédentes montrent la flexibilité que fournissent les hiérarchies des dimensions. En définissant des règles de haut niveau, vous pouvez réduire la maintenance. Vous pouvez alors définir des règles détaillées à insérer dans les objectifs commerciaux spécifiques.
+<span data-ttu-id="9a7b4-366">Les règles précédentes montrent la flexibilité que fournissent les hiérarchies des dimensions.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-366">The preceding rules show the flexibility that dimension hierarchies provide.</span></span> <span data-ttu-id="9a7b4-367">En définissant des règles de haut niveau, vous pouvez réduire la maintenance.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-367">By defining high-level rules, you can help minimize maintenance.</span></span> <span data-ttu-id="9a7b4-368">Vous pouvez alors définir des règles détaillées à insérer dans les objectifs commerciaux spécifiques.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-368">You can then define detailed rules to fit into a specific business objective.</span></span>
 
-Si les hiérarchies de dimensions utilisées dans les règles sont mises à jour, le système met automatiquement les mises à jour en avant.
+<span data-ttu-id="9a7b4-369">Si les hiérarchies de dimensions utilisées dans les règles sont mises à jour, le système met automatiquement les mises à jour en avant.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-369">If the dimension hierarchies that are used in rules are updated, the system automatically brings the updates forward.</span></span>
 
-Si un niveau de granularité dans les règles n'est plus nécessaire, la règle peut expirer.
+<span data-ttu-id="9a7b4-370">Si un niveau de granularité dans les règles n'est plus nécessaire, la règle peut expirer.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-370">If a level of granularity in the rules is no longer required, the rule can be expired.</span></span>
 
-Par exemple, une règle de comportement de coût spécifique pour le nœud de hiérarchie de dimensions d'objet de coût Finances n'est plus nécessaire. Dans ce cas, cliquez sur **Règle d'expiration** pour appliquer une expiration à la règle.
+<span data-ttu-id="9a7b4-371">Par exemple, une règle de comportement de coût spécifique pour le nœud de hiérarchie de dimensions d'objet de coût Finances n'est plus nécessaire.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-371">For example, a specific cost behavior rule for the Finance cost object dimension hierarchy node is no longer required.</span></span> <span data-ttu-id="9a7b4-372">Dans ce cas, cliquez sur **Règle d'expiration** pour appliquer une expiration à la règle.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-372">In this case, click **Expire rule** to expire the rule.</span></span>
 
-| Nœud de hiérarchie des dimensions d'élément de coût | Nœud de hiérarchie des dimensions d'objet de coût | Pourcentage fixe | Montant fixe | Début de validité | Fin de validité  |
+| <span data-ttu-id="9a7b4-373">Nœud de hiérarchie des dimensions d'élément de coût</span><span class="sxs-lookup"><span data-stu-id="9a7b4-373">Cost element dimension hierarchy node</span></span> | <span data-ttu-id="9a7b4-374">Nœud de hiérarchie des dimensions d'objet de coût</span><span class="sxs-lookup"><span data-stu-id="9a7b4-374">Cost object dimension hierarchy node</span></span> | <span data-ttu-id="9a7b4-375">Pourcentage fixe</span><span class="sxs-lookup"><span data-stu-id="9a7b4-375">Fixed percentage</span></span> | <span data-ttu-id="9a7b4-376">Montant fixe</span><span class="sxs-lookup"><span data-stu-id="9a7b4-376">Fixed amount</span></span> | <span data-ttu-id="9a7b4-377">Début de validité</span><span class="sxs-lookup"><span data-stu-id="9a7b4-377">Valid from</span></span> | <span data-ttu-id="9a7b4-378">Fin de validité</span><span class="sxs-lookup"><span data-stu-id="9a7b4-378">Valid to</span></span>  |
 |---------------------------------------|--------------------------------------|------------------|--------------|------------|-----------|
-| Coût fixe                            | Organisation                         | 100,00           | 0 00         | 1/1/2017   | Jamais     |
-| 10001                                 | Organisation                         | 0 00             | 150,00       | 1/1/2017   | Jamais     |
-| 10001                                 | Finances                              |                  | 50,00        | 1/1/2017   | 20/1/2017 |
-| Comportement ou coût variable de coût        | Organisation                         | 0 00             | 0 00         | 1/1/2017   | Jamais     |
+| <span data-ttu-id="9a7b4-379">Coût fixe</span><span class="sxs-lookup"><span data-stu-id="9a7b4-379">Fixed cost</span></span>                            | <span data-ttu-id="9a7b4-380">Organisation</span><span class="sxs-lookup"><span data-stu-id="9a7b4-380">Organization</span></span>                         | <span data-ttu-id="9a7b4-381">100,00</span><span class="sxs-lookup"><span data-stu-id="9a7b4-381">100,00</span></span>           | <span data-ttu-id="9a7b4-382">0 00</span><span class="sxs-lookup"><span data-stu-id="9a7b4-382">0,00</span></span>         | <span data-ttu-id="9a7b4-383">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="9a7b4-383">1/1/2017</span></span>   | <span data-ttu-id="9a7b4-384">Jamais</span><span class="sxs-lookup"><span data-stu-id="9a7b4-384">Never</span></span>     |
+| <span data-ttu-id="9a7b4-385">10001</span><span class="sxs-lookup"><span data-stu-id="9a7b4-385">10001</span></span>                                 | <span data-ttu-id="9a7b4-386">Organisation</span><span class="sxs-lookup"><span data-stu-id="9a7b4-386">Organization</span></span>                         | <span data-ttu-id="9a7b4-387">0 00</span><span class="sxs-lookup"><span data-stu-id="9a7b4-387">0,00</span></span>             | <span data-ttu-id="9a7b4-388">150,00</span><span class="sxs-lookup"><span data-stu-id="9a7b4-388">150,00</span></span>       | <span data-ttu-id="9a7b4-389">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="9a7b4-389">1/1/2017</span></span>   | <span data-ttu-id="9a7b4-390">Jamais</span><span class="sxs-lookup"><span data-stu-id="9a7b4-390">Never</span></span>     |
+| <span data-ttu-id="9a7b4-391">10001</span><span class="sxs-lookup"><span data-stu-id="9a7b4-391">10001</span></span>                                 | <span data-ttu-id="9a7b4-392">Finances</span><span class="sxs-lookup"><span data-stu-id="9a7b4-392">Finance</span></span>                              |                  | <span data-ttu-id="9a7b4-393">50,00</span><span class="sxs-lookup"><span data-stu-id="9a7b4-393">50,00</span></span>        | <span data-ttu-id="9a7b4-394">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="9a7b4-394">1/1/2017</span></span>   | <span data-ttu-id="9a7b4-395">20/1/2017</span><span class="sxs-lookup"><span data-stu-id="9a7b4-395">20/1/2017</span></span> |
+| <span data-ttu-id="9a7b4-396">Comportement ou coût variable de coût</span><span class="sxs-lookup"><span data-stu-id="9a7b4-396">Cost behavior or Variable cost</span></span>        | <span data-ttu-id="9a7b4-397">Organisation</span><span class="sxs-lookup"><span data-stu-id="9a7b4-397">Organization</span></span>                         | <span data-ttu-id="9a7b4-398">0 00</span><span class="sxs-lookup"><span data-stu-id="9a7b4-398">0,00</span></span>             | <span data-ttu-id="9a7b4-399">0 00</span><span class="sxs-lookup"><span data-stu-id="9a7b4-399">0,00</span></span>         | <span data-ttu-id="9a7b4-400">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="9a7b4-400">1/1/2017</span></span>   | <span data-ttu-id="9a7b4-401">Jamais</span><span class="sxs-lookup"><span data-stu-id="9a7b4-401">Never</span></span>     |
 
-Le calcul des frais généraux qui est effectué après le 20 janvier 2017, ne considère plus cette règle.
+<span data-ttu-id="9a7b4-402">Le calcul des frais généraux qui est effectué après le 20 janvier 2017, ne considère plus cette règle.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-402">Any overhead calculation that is run after January 20, 2017, no longer considers this rule.</span></span>
 
 > [!NOTE] 
-> Les champs **Début de validité** et **Fin de validité** sont des dates effectives et présentent un gain de temps. Vous pouvez faire expirer la règle et exécuter un nouveau calcul des frais généraux le même jour.
+> <span data-ttu-id="9a7b4-403">Les champs **Début de validité** et **Fin de validité** sont des dates effectives et présentent un gain de temps.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-403">The **Valid from** and **Valid to** fields are date-effective and time-effective.</span></span> <span data-ttu-id="9a7b4-404">Vous pouvez faire expirer la règle et exécuter un nouveau calcul des frais généraux le même jour.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-404">You can expire the rule and run a new overhead calculation on the same day.</span></span>
 
-## <a name="define-dimension-hierarchies-for-security-setup"></a>Définir les hiérarchies de dimensions pour le paramétrage de la sécurité
+## <a name="define-dimension-hierarchies-for-security-setup"></a><span data-ttu-id="9a7b4-405">Définir les hiérarchies de dimensions pour le paramétrage de la sécurité</span><span class="sxs-lookup"><span data-stu-id="9a7b4-405">Define dimension hierarchies for security setup</span></span>
 
-Les données de contrôle de gestion doivent être disponibles à tous les gestionnaires qui sont responsables d'une unité organisationnelle. Dans la terminologie du contrôle de gestion, une unité organisationnelle est représentée comme un objet de coût ou un ensemble d'objets de coût.
+<span data-ttu-id="9a7b4-406">Les données de contrôle de gestion doivent être disponibles à tous les gestionnaires qui sont responsables d'une unité organisationnelle.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-406">Cost accounting data should be made available to all managers who are responsible for a reporting unit.</span></span> <span data-ttu-id="9a7b4-407">Dans la terminologie du contrôle de gestion, une unité organisationnelle est représentée comme un objet de coût ou un ensemble d'objets de coût.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-407">In Cost accounting terminology, a reporting unit is represented as a cost object or a set of cost objects.</span></span>
 
-Potentiellement, tous les responsables pourront accéder aux données commerciales très sensibles, telles que les revenus et les marges. Par conséquent, il est important de paramétrer la sécurité, de sorte que les responsables ne voient que les données qui leur sont appropriées. Pour contrôler la sécurité des données, définissez des hiérarchies de dimensions.
+<span data-ttu-id="9a7b4-408">Potentiellement, tous les responsables pourront accéder aux données commerciales très sensibles, telles que les revenus et les marges.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-408">Potentially, all managers will be able to access highly sensitive business data, such revenues and margins.</span></span> <span data-ttu-id="9a7b4-409">Par conséquent, il est important de paramétrer la sécurité, de sorte que les responsables ne voient que les données qui leur sont appropriées.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-409">Therefore, it's important that you set up security, so that managers see only the data that is relevant to them.</span></span> <span data-ttu-id="9a7b4-410">Pour contrôler la sécurité des données, définissez des hiérarchies de dimensions.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-410">To help control data security, you define dimension hierarchies.</span></span>
 
-- L'utilisation de hiérarchies de dimensions s'applique uniquement lorsque la valeur de dimension sélectionnée dans la référence de hiérarchie de dimension est une dimension d'objet de coût.
-- Une seule hiérarchie de dimension peut être activée par dimension d'objet de coût dans la hiérarchie de la liste d'accès.
+- <span data-ttu-id="9a7b4-411">L'utilisation de hiérarchies de dimensions s'applique uniquement lorsque la valeur de dimension sélectionnée dans la référence de hiérarchie de dimension est une dimension d'objet de coût.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-411">The use of dimension hierarchies applies only when the dimension value that is selected in the dimension hierarchy reference is a cost object dimension.</span></span>
+- <span data-ttu-id="9a7b4-412">Une seule hiérarchie de dimension peut être activée par dimension d'objet de coût dans la hiérarchie de la liste d'accès.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-412">Only one dimension hierarchy can be enabled per cost object dimension in the access list hierarchy.</span></span>
 
-**Détails sur la hiérarchie des dimensions**
+<span data-ttu-id="9a7b4-413">**Détails sur la hiérarchie des dimensions**</span><span class="sxs-lookup"><span data-stu-id="9a7b4-413">**Dimension hierarchy details**</span></span>
 
-| Nom de la hiérarchie des dimensions | Dimension    | Nom du type de hiérarchie des dimensions      | Hiérarchie de la liste d'accès |
+| <span data-ttu-id="9a7b4-414">Nom de la hiérarchie des dimensions</span><span class="sxs-lookup"><span data-stu-id="9a7b4-414">Dimension hierarchy name</span></span> | <span data-ttu-id="9a7b4-415">Dimension</span><span class="sxs-lookup"><span data-stu-id="9a7b4-415">Dimension</span></span>    | <span data-ttu-id="9a7b4-416">Nom du type de hiérarchie des dimensions</span><span class="sxs-lookup"><span data-stu-id="9a7b4-416">Dimension hierarchy type name</span></span>      | <span data-ttu-id="9a7b4-417">Hiérarchie de la liste d'accès</span><span class="sxs-lookup"><span data-stu-id="9a7b4-417">Access list hierarchy</span></span> |
 |--------------------------|--------------|------------------------------------|-----------------------|
-| Organisation             | Centres de coût | Hiérarchie de classification de dimension | **Oui**               |
+| <span data-ttu-id="9a7b4-418">Organisation</span><span class="sxs-lookup"><span data-stu-id="9a7b4-418">Organization</span></span>             | <span data-ttu-id="9a7b4-419">Centres de coût</span><span class="sxs-lookup"><span data-stu-id="9a7b4-419">Cost centers</span></span> | <span data-ttu-id="9a7b4-420">Hiérarchie de classification de dimension</span><span class="sxs-lookup"><span data-stu-id="9a7b4-420">Dimension classification hierarchy</span></span> | <span data-ttu-id="9a7b4-421">**Oui**</span><span class="sxs-lookup"><span data-stu-id="9a7b4-421">**Yes**</span></span>               |
 
-Un nouvel organisateur **Utilisateurs** est disponible dans le concepteur de hiérarchies. Ici, vous pouvez ajouter un ou plusieurs ID utilisateur à chaque nœud dans la hiérarchie.
+<span data-ttu-id="9a7b4-422">Un nouvel organisateur **Utilisateurs** est disponible dans le concepteur de hiérarchies.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-422">A new **Users** FastTab is available in the hierarchy designer.</span></span> <span data-ttu-id="9a7b4-423">Ici, vous pouvez ajouter un ou plusieurs ID utilisateur à chaque nœud dans la hiérarchie.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-423">Here, you can insert one or more user IDs at each node in the hierarchy.</span></span>
 
-|                 | Utilisateurs            | Plages de membres de la dimension   |                         |
+|                 | <span data-ttu-id="9a7b4-424">Utilisateurs</span><span class="sxs-lookup"><span data-stu-id="9a7b4-424">Users</span></span>            | <span data-ttu-id="9a7b4-425">Plages de membres de la dimension</span><span class="sxs-lookup"><span data-stu-id="9a7b4-425">Dimension member ranges</span></span>   |                         |
 |-----------------|------------------|---------------------------|-------------------------|
-| **Nœuds**       | **ID utilisateur**      | **Membre de la dimension de départ** | **Membre de la dimension de fin** |
-| Organisation    | Benjamin, Claire |                           |                         |
-| &nbsp;&nbsp;Admin         | Avril            |                           |                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;Finances   | Alicia           | CC002                     | CC003                   |
-|                 |                  | CC007                     | CC007                   |
-| &nbsp;&nbsp;&nbsp;&nbsp;RH        | Arnie            | CC001                     | CC001                   |
-| &nbsp;&nbsp;Production    | David            |                           |                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;Emballage | Ellen            | CC005                     | CC005                   |
-| &nbsp;&nbsp;&nbsp;&nbsp;Assemblage  | Chris            | CC006                     | CC006                   |
+| <span data-ttu-id="9a7b4-426">**Nœuds**</span><span class="sxs-lookup"><span data-stu-id="9a7b4-426">**Nodes**</span></span>       | <span data-ttu-id="9a7b4-427">**ID utilisateur**</span><span class="sxs-lookup"><span data-stu-id="9a7b4-427">**User ID**</span></span>      | <span data-ttu-id="9a7b4-428">**Membre de la dimension de départ**</span><span class="sxs-lookup"><span data-stu-id="9a7b4-428">**From dimension member**</span></span> | <span data-ttu-id="9a7b4-429">**Membre de la dimension de fin**</span><span class="sxs-lookup"><span data-stu-id="9a7b4-429">**To dimension member**</span></span> |
+| <span data-ttu-id="9a7b4-430">Organisation</span><span class="sxs-lookup"><span data-stu-id="9a7b4-430">Organization</span></span>    | <span data-ttu-id="9a7b4-431">Benjamin, Claire</span><span class="sxs-lookup"><span data-stu-id="9a7b4-431">Benjamin, Claire</span></span> |                           |                         |
+| <span data-ttu-id="9a7b4-432">&nbsp;&nbsp;Admin</span><span class="sxs-lookup"><span data-stu-id="9a7b4-432">&nbsp;&nbsp;Admin</span></span>         | <span data-ttu-id="9a7b4-433">Avril</span><span class="sxs-lookup"><span data-stu-id="9a7b4-433">April</span></span>            |                           |                         |
+| <span data-ttu-id="9a7b4-434">&nbsp;&nbsp;&nbsp;&nbsp;Finances</span><span class="sxs-lookup"><span data-stu-id="9a7b4-434">&nbsp;&nbsp;&nbsp;&nbsp;Finance</span></span>   | <span data-ttu-id="9a7b4-435">Alicia</span><span class="sxs-lookup"><span data-stu-id="9a7b4-435">Alicia</span></span>           | <span data-ttu-id="9a7b4-436">CC002</span><span class="sxs-lookup"><span data-stu-id="9a7b4-436">CC002</span></span>                     | <span data-ttu-id="9a7b4-437">CC003</span><span class="sxs-lookup"><span data-stu-id="9a7b4-437">CC003</span></span>                   |
+|                 |                  | <span data-ttu-id="9a7b4-438">CC007</span><span class="sxs-lookup"><span data-stu-id="9a7b4-438">CC007</span></span>                     | <span data-ttu-id="9a7b4-439">CC007</span><span class="sxs-lookup"><span data-stu-id="9a7b4-439">CC007</span></span>                   |
+| <span data-ttu-id="9a7b4-440">&nbsp;&nbsp;&nbsp;&nbsp;RH</span><span class="sxs-lookup"><span data-stu-id="9a7b4-440">&nbsp;&nbsp;&nbsp;&nbsp;HR</span></span>        | <span data-ttu-id="9a7b4-441">Arnie</span><span class="sxs-lookup"><span data-stu-id="9a7b4-441">Arnie</span></span>            | <span data-ttu-id="9a7b4-442">CC001</span><span class="sxs-lookup"><span data-stu-id="9a7b4-442">CC001</span></span>                     | <span data-ttu-id="9a7b4-443">CC001</span><span class="sxs-lookup"><span data-stu-id="9a7b4-443">CC001</span></span>                   |
+| <span data-ttu-id="9a7b4-444">&nbsp;&nbsp;Production</span><span class="sxs-lookup"><span data-stu-id="9a7b4-444">&nbsp;&nbsp;Production</span></span>    | <span data-ttu-id="9a7b4-445">David</span><span class="sxs-lookup"><span data-stu-id="9a7b4-445">David</span></span>            |                           |                         |
+| <span data-ttu-id="9a7b4-446">&nbsp;&nbsp;&nbsp;&nbsp;Emballage</span><span class="sxs-lookup"><span data-stu-id="9a7b4-446">&nbsp;&nbsp;&nbsp;&nbsp;Packaging</span></span> | <span data-ttu-id="9a7b4-447">Ellen</span><span class="sxs-lookup"><span data-stu-id="9a7b4-447">Ellen</span></span>            | <span data-ttu-id="9a7b4-448">CC005</span><span class="sxs-lookup"><span data-stu-id="9a7b4-448">CC005</span></span>                     | <span data-ttu-id="9a7b4-449">CC005</span><span class="sxs-lookup"><span data-stu-id="9a7b4-449">CC005</span></span>                   |
+| <span data-ttu-id="9a7b4-450">&nbsp;&nbsp;&nbsp;&nbsp;Assemblage</span><span class="sxs-lookup"><span data-stu-id="9a7b4-450">&nbsp;&nbsp;&nbsp;&nbsp;Assembly</span></span>  | <span data-ttu-id="9a7b4-451">Chris</span><span class="sxs-lookup"><span data-stu-id="9a7b4-451">Chris</span></span>            | <span data-ttu-id="9a7b4-452">CC006</span><span class="sxs-lookup"><span data-stu-id="9a7b4-452">CC006</span></span>                     | <span data-ttu-id="9a7b4-453">CC006</span><span class="sxs-lookup"><span data-stu-id="9a7b4-453">CC006</span></span>                   |
 
 > [!NOTE] 
-> Les comptables doivent être affectés au niveau supérieur de la hiérarchie, de sorte qu'ils puissent visualiser toutes les écritures du contrôle de gestion.
+> <span data-ttu-id="9a7b4-454">Les comptables doivent être affectés au niveau supérieur de la hiérarchie, de sorte qu'ils puissent visualiser toutes les écritures du contrôle de gestion.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-454">Cost accountants should be assigned to the top level of the hierarchy, so that they can see all entries in Cost accounting.</span></span>
 
-Pour activer la hiérarchie de la liste d'accès et ses paramètres de sécurité, accédez à **Contrôle de gestion** > **Paramétrage** > **Paramètres** > **Général**. Sélectionnez le paramètre **Activer l'affichage pour les membres de dimension d'objet de coût**.
+<span data-ttu-id="9a7b4-455">Pour activer la hiérarchie de la liste d'accès et ses paramètres de sécurité, accédez à **Contrôle de gestion** > **Paramétrage** > **Paramètres** > **Général**.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-455">To enable the access list hierarchy and its security settings, go to **Cost accounting** > **Setup** > **Parameters** > **General**.</span></span> <span data-ttu-id="9a7b4-456">Sélectionnez le paramètre **Activer l'affichage pour les membres de dimension d'objet de coût**.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-456">Select the **Enable view access for cost object dimension members** parameter.</span></span>
 
-Les paramètres de la hiérarchie de la liste d'accès sont utilisés pour contrôler les données affichées dans les sections suivantes :
+<span data-ttu-id="9a7b4-457">Les paramètres de la hiérarchie de la liste d'accès sont utilisés pour contrôler les données affichées dans les sections suivantes :</span><span class="sxs-lookup"><span data-stu-id="9a7b4-457">The settings for the access list hierarchy are used to control the data that is shown in the following areas:</span></span>
 
-- Espace de travail **Contrôle des coûts** (Client) :
+- <span data-ttu-id="9a7b4-458">Espace de travail **Contrôle des coûts** (Client) :</span><span class="sxs-lookup"><span data-stu-id="9a7b4-458">**Cost control** workspace (Client):</span></span>
 
-    - Données des écrans utilisés dans les scénarios d'extraction
+    - <span data-ttu-id="9a7b4-459">Données des écrans utilisés dans les scénarios d'extraction</span><span class="sxs-lookup"><span data-stu-id="9a7b4-459">Data in forms that are used to drill through scenarios</span></span>
 
-- Espace de travail **Contrôle des coûts** (Application mobile) :
+- <span data-ttu-id="9a7b4-460">Espace de travail **Contrôle des coûts** (Application mobile) :</span><span class="sxs-lookup"><span data-stu-id="9a7b4-460">**Cost control** workspace (Mobile application):</span></span>
 
-    - Soldes dans les cartes
+    - <span data-ttu-id="9a7b4-461">Soldes dans les cartes</span><span class="sxs-lookup"><span data-stu-id="9a7b4-461">Balances in cards</span></span>
 
-- Power BI :
+- <span data-ttu-id="9a7b4-462">Power BI :</span><span class="sxs-lookup"><span data-stu-id="9a7b4-462">Power BI:</span></span>
 
-    - Données qui sont affichées dans une visualisation Power BI
-    - Les visualisations des données Power BI sont intégrées dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition client
+    - <span data-ttu-id="9a7b4-463">Données qui sont affichées dans une visualisation Power BI</span><span class="sxs-lookup"><span data-stu-id="9a7b4-463">Data that is shown in Power BI visualizations</span></span>
+    - <span data-ttu-id="9a7b4-464">Les visualisations des données Power BI sont intégrées dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition client</span><span class="sxs-lookup"><span data-stu-id="9a7b4-464">Data Power BI visualizations that are embedded in the Microsoft Dynamics 365 for Finance and Operations, Enterprise edition client</span></span>
 
 > [!NOTE] 
-> - Avant que la hiérarchie de la liste d'accès puisse affecter des données Power BI, la hiérarchie de la liste d'accès et la sécurité au niveau de la ligne dans Power BI doivent être jumelées. Pour plus d'informations, voir [Paramétrer la sécurité pour le pack de contenu de gestion des coûts](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack).
-> - La hiérarchie de la liste d'accès ne permet pas de sécuriser l'exportation des données dans Excel. Par conséquent, cet outil de génération d'états doit uniquement être utilisé par les comptables et les responsables de coût qui doivent avoir un accès complet pour afficher les données.
+> - <span data-ttu-id="9a7b4-465">Avant que la hiérarchie de la liste d'accès puisse affecter des données Power BI, la hiérarchie de la liste d'accès et la sécurité au niveau de la ligne dans Power BI doivent être jumelées.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-465">Before the access list hierarchy can affect data in Power BI, access list hierarchy and row-level security in Power BI must be paired.</span></span> <span data-ttu-id="9a7b4-466">Pour plus d'informations, voir [Paramétrer la sécurité pour le pack de contenu de gestion des coûts](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack).</span><span class="sxs-lookup"><span data-stu-id="9a7b4-466">For more information, see [Set up security for Cost accounting content pack](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack).</span></span>
+> - <span data-ttu-id="9a7b4-467">La hiérarchie de la liste d'accès ne permet pas de sécuriser l'exportation des données dans Excel.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-467">The access list hierarchy doesn't help secure the export of data to Excel.</span></span> <span data-ttu-id="9a7b4-468">Par conséquent, cet outil de génération d'états doit uniquement être utilisé par les comptables et les responsables de coût qui doivent avoir un accès complet pour afficher les données.</span><span class="sxs-lookup"><span data-stu-id="9a7b4-468">Therefore, that reporting tool should be used only by cost accountants and managers who must have full access to view the data.</span></span>
 

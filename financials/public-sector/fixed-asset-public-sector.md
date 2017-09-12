@@ -20,35 +20,35 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7002a2df4f2c49eb9f7b49eb79927c4738f98c39
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 6c8cd94315617be741622e3561e863327f201429
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="fixed-assets-in-the-public-sector"></a>Immobilisations dans le secteur public
+# <a name="fixed-assets-in-the-public-sector"></a><span data-ttu-id="bbf56-103">Immobilisations dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="bbf56-103">Fixed assets in the public sector</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Cet article décrit la fonctionnalité des immobilisations disponible pour le secteur public. 
+<span data-ttu-id="bbf56-104">Cet article décrit la fonctionnalité des immobilisations disponible pour le secteur public.</span><span class="sxs-lookup"><span data-stu-id="bbf56-104">This article describes the fixed assets functionality that is available for public sector.</span></span> 
 
-<a name="what-do-i-need-to-know-about-disposing-of-fixed-assets"></a>Que dois-je savoir à propos de la cession des immobilisations ?
+<a name="what-do-i-need-to-know-about-disposing-of-fixed-assets"></a><span data-ttu-id="bbf56-105">Que dois-je savoir à propos de la cession des immobilisations ?</span><span class="sxs-lookup"><span data-stu-id="bbf56-105">What do I need to know about disposing of fixed assets?</span></span>
 -------------------------------------------------------
 
-Les organisations du secteur public peuvent utiliser les propositions de rebut et de vente pour céder plus d'une immobilisation à la fois.
+<span data-ttu-id="bbf56-106">Les organisations du secteur public peuvent utiliser les propositions de rebut et de vente pour céder plus d'une immobilisation à la fois.</span><span class="sxs-lookup"><span data-stu-id="bbf56-106">Public sector organizations can use scrap and sales proposals to dispose of more than one fixed asset at a time.</span></span>
 
-## <a name="why-do-i-have-to-enter-transfer-from-and-transfer-to-accounts-when-i-transfer-fixed-assets-between-funds"></a>Pourquoi dois-je entrer des comptes d'origine et de destination du transfert lorsque je transfère des immobilisations entre les fonds ?
-Les organisations du secteur public ont généralement besoin des écritures équilibrées pour la dimension financière utilisée pour désigner les fonds. Lorsque vous transférez des immobilisations entre les fonds, si la dimension de fonds exige des écritures équilibrées, vous devez renseigner les champs des comptes d'origine et de destination de la page des transferts d'immobilisation. 
+## <a name="why-do-i-have-to-enter-transfer-from-and-transfer-to-accounts-when-i-transfer-fixed-assets-between-funds"></a><span data-ttu-id="bbf56-107">Pourquoi dois-je entrer des comptes d'origine et de destination du transfert lorsque je transfère des immobilisations entre les fonds ?</span><span class="sxs-lookup"><span data-stu-id="bbf56-107">Why do I have to enter transfer-from and transfer-to accounts when I transfer fixed assets between funds?</span></span>
+<span data-ttu-id="bbf56-108">Les organisations du secteur public ont généralement besoin des écritures équilibrées pour la dimension financière utilisée pour désigner les fonds.</span><span class="sxs-lookup"><span data-stu-id="bbf56-108">Public sector organizations typically require balanced entries for the financial dimension used to designate funds.</span></span> <span data-ttu-id="bbf56-109">Lorsque vous transférez des immobilisations entre les fonds, si la dimension de fonds exige des écritures équilibrées, vous devez renseigner les champs des comptes d'origine et de destination de la page des transferts d'immobilisation.</span><span class="sxs-lookup"><span data-stu-id="bbf56-109">When you transfer fixed assets between funds, if the fund dimension requires balanced entries, the transfer-from and transfer-to account fields on the asset transfer page are required.</span></span> 
 
 > [!NOTE] 
-> Il ne s'agit pas d'une propriété des immobilisations ni des fonds. En revanche, il s'agit d'une propriété de la dimension financière. Lorsque vous transférez une immobilisation, si une dimension financière associée à l'immobilisation exige des écritures équilibrées, vous devez renseigner les champs des comptes d'origine et de destination. 
+> <span data-ttu-id="bbf56-110">Il ne s'agit pas d'une propriété des immobilisations ni des fonds.</span><span class="sxs-lookup"><span data-stu-id="bbf56-110">This is not a property of fixed assets or of funds.</span></span> <span data-ttu-id="bbf56-111">En revanche, il s'agit d'une propriété de la dimension financière.</span><span class="sxs-lookup"><span data-stu-id="bbf56-111">Rather, it’s a property of the financial dimension.</span></span> <span data-ttu-id="bbf56-112">Lorsque vous transférez une immobilisation, si une dimension financière associée à l'immobilisation exige des écritures équilibrées, vous devez renseigner les champs des comptes d'origine et de destination.</span><span class="sxs-lookup"><span data-stu-id="bbf56-112">When you transfer a fixed asset, if any financial dimension associated with the asset requires balanced entries, the transfer-from and transfer-to accounts are required.</span></span> 
 
-Les comptes d'origine et de destination ne sont pas les comptes dans lesquels la valeur nette de l'immobilisation est conservée. En revanche, Les comptes d'origine et de destination sont les comptes principaux utilisés pour équilibrer les écritures dans les dimensions financières. Ils sont utilisés uniquement lorsqu'une dimension financière pour l'immobilisation exige un équilibrage. Le compte Prov. transfert présentera une entrée de débit, et le compte Dest. transfert présentera une entrée de crédit.
+<span data-ttu-id="bbf56-113">Les comptes d'origine et de destination ne sont pas les comptes dans lesquels la valeur nette de l'immobilisation est conservée.</span><span class="sxs-lookup"><span data-stu-id="bbf56-113">The transfer-from and transfer-to accounts are not the accounts in which the fixed asset’s net book value is held.</span></span> <span data-ttu-id="bbf56-114">En revanche, Les comptes d'origine et de destination sont les comptes principaux utilisés pour équilibrer les écritures dans les dimensions financières.</span><span class="sxs-lookup"><span data-stu-id="bbf56-114">Rather, the transfer-from and transfer-to accounts are the main accounts used to balance entries in financial dimensions.</span></span> <span data-ttu-id="bbf56-115">Ils sont utilisés uniquement lorsqu'une dimension financière pour l'immobilisation exige un équilibrage.</span><span class="sxs-lookup"><span data-stu-id="bbf56-115">They are used only when a financial dimension for the fixed asset requires balancing.</span></span> <span data-ttu-id="bbf56-116">Le compte Prov. transfert présentera une entrée de débit, et le compte Dest. transfert présentera une entrée de crédit.</span><span class="sxs-lookup"><span data-stu-id="bbf56-116">The transfer-from account will have a debit entry, and the transfer-to account will have a credit entry.</span></span>
 
-Pour plus d'informations, voir [Fonds dans le secteur public](funds-public-sector.md).
+<span data-ttu-id="bbf56-117">Pour plus d'informations, voir [Fonds dans le secteur public](funds-public-sector.md).</span><span class="sxs-lookup"><span data-stu-id="bbf56-117">For details, see [Funds in the public sector](funds-public-sector.md).</span></span>
 
 
 

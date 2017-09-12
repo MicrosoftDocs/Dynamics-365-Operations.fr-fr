@@ -14,7 +14,7 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
@@ -24,29 +24,29 @@ ms.lasthandoff: 07/27/2017
 
 ---
 
-# <a name="mixed-license-plate-receiving"></a>Réception de contenant mixte
+# <a name="mixed-license-plate-receiving"></a><span data-ttu-id="11946-103">Réception de contenant mixte</span><span class="sxs-lookup"><span data-stu-id="11946-103">Mixed license plate receiving</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-La réception de contenant mixte vous permet de générer un contenant composé de plusieurs articles avant d'enregistrer et de créer le travail de rangement. 
+<span data-ttu-id="11946-104">La réception de contenant mixte vous permet de générer un contenant composé de plusieurs articles avant d'enregistrer et de créer le travail de rangement.</span><span class="sxs-lookup"><span data-stu-id="11946-104">Mixed license plate receiving allows you to build a license plate consisting of multiple items before you register and create put-away work.</span></span> 
 
-Un contenant composé de plusieurs articles ne doit pas être réparti au niveau du quai de réception pour que vous puissiez enregistrer chaque article. 
+<span data-ttu-id="11946-105">Un contenant composé de plusieurs articles ne doit pas être réparti au niveau du quai de réception pour que vous puissiez enregistrer chaque article.</span><span class="sxs-lookup"><span data-stu-id="11946-105">A license plate that consists of multiple items does not have to be split at the receiving dock for you to register each item.</span></span> 
 
-Lorsque vous utilisez un flux relatif aux articles pour identifier les lignes du document source, vous pouvez lire les codes-barres sur le contrôle de l'article. Si le code-barres présente une quantité et une unité de mesure (UOM) configurés dessus, l'article et la quantité seront automatiquement ajoutés au contenant mixte, et vous serez renvoyé à l'écran permettant de lire un autre article. Cela vous permet d'analyser rapidement tous les articles sans devoir apporter une confirmation à chaque étape. 
+<span data-ttu-id="11946-106">Lorsque vous utilisez un flux relatif aux articles pour identifier les lignes du document source, vous pouvez lire les codes-barres sur le contrôle de l'article.</span><span class="sxs-lookup"><span data-stu-id="11946-106">When using an item-related flow to identify the source document lines, you can scan bar codes on the item control.</span></span> <span data-ttu-id="11946-107">Si le code-barres présente une quantité et une unité de mesure (UOM) configurés dessus, l'article et la quantité seront automatiquement ajoutés au contenant mixte, et vous serez renvoyé à l'écran permettant de lire un autre article.</span><span class="sxs-lookup"><span data-stu-id="11946-107">If the bar code has a quantity and a unit of measure (UOM) configured on it, the item and quantity will automatically be added to the mixed license plate, and you will be returned to the screen to scan another item.</span></span> <span data-ttu-id="11946-108">Cela vous permet d'analyser rapidement tous les articles sans devoir apporter une confirmation à chaque étape.</span><span class="sxs-lookup"><span data-stu-id="11946-108">This allows you to quickly scan all the items without having to make a confirmation at each step.</span></span> 
 
-Dans le flux de la réception du contenant mixte, vous pouvez afficher la liste des articles qui sont déjà lus dans le contenant et de là, vous pourrez modifier ou corriger la quantité d'un article.
+<span data-ttu-id="11946-109">Dans le flux de la réception du contenant mixte, vous pouvez afficher la liste des articles qui sont déjà lus dans le contenant et de là, vous pourrez modifier ou corriger la quantité d'un article.</span><span class="sxs-lookup"><span data-stu-id="11946-109">In the flow for mixed license plate receiving, you can display the list of items that are already scanned to the license plate and from here you can modify or correct the quantity of an item.</span></span>
 
-## <a name="where-it-applies"></a>Dans ce cas
+## <a name="where-it-applies"></a><span data-ttu-id="11946-110">Dans ce cas</span><span class="sxs-lookup"><span data-stu-id="11946-110">Where it applies</span></span>
 
-La réception du contenant mixte correspond à un appareil mobile recevant un flux pour enregistrer et créer du travail pour plusieurs lignes/articles en même temps. Cela est utile si vous recevez des contenants entrants avec plusieurs articles. 
+<span data-ttu-id="11946-111">La réception du contenant mixte correspond à un appareil mobile recevant un flux pour enregistrer et créer du travail pour plusieurs lignes/articles en même temps.</span><span class="sxs-lookup"><span data-stu-id="11946-111">Mixed license plate receiving is a mobile device receiving flow to register and create work for multiple lines/items at the same time.</span></span> <span data-ttu-id="11946-112">Cela est utile si vous recevez des contenants entrants avec plusieurs articles.</span><span class="sxs-lookup"><span data-stu-id="11946-112">This is useful if you receive inbound license plates with multiple items.</span></span> 
 
-## <a name="how-to-set-up-mixed-license-plate-receiving"></a>Comment configurer une réception de contenant mixte
-Une réception de contenant mixte est paramétré en tant qu'option de menu d'appareil mobile.
+## <a name="how-to-set-up-mixed-license-plate-receiving"></a><span data-ttu-id="11946-113">Comment configurer une réception de contenant mixte</span><span class="sxs-lookup"><span data-stu-id="11946-113">How to set up mixed license plate receiving</span></span>
+<span data-ttu-id="11946-114">Une réception de contenant mixte est paramétré en tant qu'option de menu d'appareil mobile.</span><span class="sxs-lookup"><span data-stu-id="11946-114">Mixed license plate receiving is set up as a mobile device menu item.</span></span>
 
-Vous devez créer une option de menu avec le mode de travail qui n'utilise pas le travail existant, mais l'une des méthodes suivantes :
+<span data-ttu-id="11946-115">Vous devez créer une option de menu avec le mode de travail qui n'utilise pas le travail existant, mais l'une des méthodes suivantes :</span><span class="sxs-lookup"><span data-stu-id="11946-115">You need to create a new menu item with mode work that does not use existing work and use one of the following methods:</span></span>
 
-- Réception de contenant mixte
-- Réception et rangement de contenant mixte
+- <span data-ttu-id="11946-116">Réception de contenant mixte</span><span class="sxs-lookup"><span data-stu-id="11946-116">Mixed license plate receiving</span></span>
+- <span data-ttu-id="11946-117">Réception et rangement de contenant mixte</span><span class="sxs-lookup"><span data-stu-id="11946-117">Mixed license plate receiving and put away</span></span>
 
-Les options permettant d'identifier les lignes du document source sont Article de commande fournisseur, Ligne de commande fournisseur, Ordre de retour, Article d'ordre de transfert et Ligne d'ordre de transfert. Ces options peuvent modifier l'ordre de réception dans un contenant unique. La dernière option concerne le chargement d'articles. Vous pouvez ajouter plusieurs articles à un contenant, mais vous ne pouvez pas basculer entre plusieurs chargements.
+<span data-ttu-id="11946-118">Les options permettant d'identifier les lignes du document source sont Article de commande fournisseur, Ligne de commande fournisseur, Ordre de retour, Article d'ordre de transfert et Ligne d'ordre de transfert.</span><span class="sxs-lookup"><span data-stu-id="11946-118">The options to identify the source document lines are purchase order item, purchase order line, return order, transfer order item, and transfer order line.</span></span> <span data-ttu-id="11946-119">Ces options peuvent modifier l'ordre de réception dans un contenant unique.</span><span class="sxs-lookup"><span data-stu-id="11946-119">These options can change the receiving order on a single license plate.</span></span> <span data-ttu-id="11946-120">La dernière option concerne le chargement d'articles.</span><span class="sxs-lookup"><span data-stu-id="11946-120">The last option is by load item.</span></span> <span data-ttu-id="11946-121">Vous pouvez ajouter plusieurs articles à un contenant, mais vous ne pouvez pas basculer entre plusieurs chargements.</span><span class="sxs-lookup"><span data-stu-id="11946-121">You can add multiple items to a license plate, but you cannot switch between multiple loads.</span></span>
 

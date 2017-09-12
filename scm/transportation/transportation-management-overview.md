@@ -15,24 +15,24 @@ ms.custom: 30251
 ms.assetid: d4e3550c-bca8-469c-82df-56ac0083e4ac
 ms.search.region: Global
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 2fbea4f5e86a6bef98be5df3a2b69aac36e371e5
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: ccd167b2c90b2602a79dcb1cc8577020a60327b8
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="transportation-management-overview"></a>Vue d'ensemble de la gestion du transport
+# <a name="transportation-management-overview"></a><span data-ttu-id="5a7b6-103">Vue d'ensemble de la gestion du transport</span><span class="sxs-lookup"><span data-stu-id="5a7b6-103">Transportation management overview</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Cette rubrique fournit une vue d'ensemble de la fonctionnalité de gestion du transport dans Microsoft Dynamics 365 for Finance and Operations.
+<span data-ttu-id="5a7b6-104">Cette rubrique fournit une vue d'ensemble de la fonctionnalité de gestion du transport dans Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="5a7b6-104">This topic gives an overview of the transportation management functionality in Microsoft Dynamics 365 for Finance and Operations.</span></span>
 
-La Gestion du transport vous permet de gérer les transports de votre société et d'identifier les solutions utilisant des fournisseurs et des prestataires d'acheminement spécifiques pour les commandes entrantes et sortantes. Par exemple, vous pouvez identifier le parcours le plus rapide ou le moins cher pour une expédition. Le tableau suivant décrit les principaux scénarios utilisés pour la gestion du transport dans Microsoft Dynamics 365 for Finance and Operations.
+<span data-ttu-id="5a7b6-105">La Gestion du transport vous permet de gérer les transports de votre société et d'identifier les solutions utilisant des fournisseurs et des prestataires d'acheminement spécifiques pour les commandes entrantes et sortantes.</span><span class="sxs-lookup"><span data-stu-id="5a7b6-105">Transportation management lets you use manage your company’s transportation, and also lets you identify vendor and routing solutions for inbound and outbound orders.</span></span> <span data-ttu-id="5a7b6-106">Par exemple, vous pouvez identifier le parcours le plus rapide ou le moins cher pour une expédition.</span><span class="sxs-lookup"><span data-stu-id="5a7b6-106">For example, you can identify the fastest route or the least expensive rate for a shipment.</span></span> <span data-ttu-id="5a7b6-107">Le tableau suivant décrit les principaux scénarios utilisés pour la gestion du transport dans Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="5a7b6-107">The following table describes the main scenarios for using Transportation management in Microsoft Dynamics 365 for Finance and Operations.</span></span>
 
 <table>
 <colgroup>
@@ -41,50 +41,50 @@ La Gestion du transport vous permet de gérer les transports de votre société 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Scénario</th>
-<th>Avantages de la Gestion du transport</th>
+<th><span data-ttu-id="5a7b6-108">Scénario</span><span class="sxs-lookup"><span data-stu-id="5a7b6-108">Scenario</span></span></th>
+<th><span data-ttu-id="5a7b6-109">Avantages de la Gestion du transport</span><span class="sxs-lookup"><span data-stu-id="5a7b6-109">How Transportation management can help</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Utilisez des fournisseurs logistique externes pour les activités de transport.</td>
-<td>Utilisez la Gestion du transport pour le transport entrant et/ou sortant.</td>
+<td><span data-ttu-id="5a7b6-110">Utilisez des fournisseurs logistique externes pour les activités de transport.</span><span class="sxs-lookup"><span data-stu-id="5a7b6-110">Use external logistics providers for transportation activities.</span></span></td>
+<td><span data-ttu-id="5a7b6-111">Utilisez la Gestion du transport pour le transport entrant et/ou sortant.</span><span class="sxs-lookup"><span data-stu-id="5a7b6-111">Use Transportation management for inbound and/or outbound transportation.</span></span></td>
 </tr>
 <tr class="even">
-<td>La propre flotte de la société est disponible pour la livraison/le chargement et les frais de livraison sont transférés aux clients.</td>
-<td>Pour les processus sortants, vous pouvez utiliser la Gestion du transport pour déterminer les frais de transport et les transférer aux clients. Toutefois, le processus de rapprochement de la facture du transporteur n'est nécessaire.</td>
+<td><span data-ttu-id="5a7b6-112">La propre flotte de la société est disponible pour la livraison/le chargement et les frais de livraison sont transférés aux clients.</span><span class="sxs-lookup"><span data-stu-id="5a7b6-112">The company's own fleet is available for delivery/pickup, and delivery charges are passed on to customers.</span></span></td>
+<td><span data-ttu-id="5a7b6-113">Pour les processus sortants, vous pouvez utiliser la Gestion du transport pour déterminer les frais de transport et les transférer aux clients.</span><span class="sxs-lookup"><span data-stu-id="5a7b6-113">For the outbound processes, you can use Transportation management to determine the transportation charges and pass them on to customers.</span></span> <span data-ttu-id="5a7b6-114">Toutefois, le processus de rapprochement de la facture du transporteur n'est nécessaire.</span><span class="sxs-lookup"><span data-stu-id="5a7b6-114">However, the carrier invoice reconciliation process isn't required.</span></span></td>
 </tr>
 <tr class="odd">
-<td>La propre flotte de la société est disponible pour la livraison/le chargement, mais des frais de livraison ne sont pas transférés aux clients, car les prix des produits comprennent le transport.</td>
-<td>Une grande partie de la fonctionnalité Gestion du transport n'est pas nécessaire. Toutefois, vous pouvez utiliser la Gestion du transport pour déterminer les taux de transport et pour ajuster le prix de vente en conséquence.</td>
+<td><span data-ttu-id="5a7b6-115">La propre flotte de la société est disponible pour la livraison/le chargement, mais des frais de livraison ne sont pas transférés aux clients, car les prix des produits comprennent le transport.</span><span class="sxs-lookup"><span data-stu-id="5a7b6-115">The company's own fleet is available for delivery/pickup, but delivery charges aren't passed on to customers, because product prices include transportation.</span></span></td>
+<td><span data-ttu-id="5a7b6-116">Une grande partie de la fonctionnalité Gestion du transport n'est pas nécessaire.</span><span class="sxs-lookup"><span data-stu-id="5a7b6-116">A lot of the Transportation management functionality isn't required.</span></span> <span data-ttu-id="5a7b6-117">Toutefois, vous pouvez utiliser la Gestion du transport pour déterminer les taux de transport et pour ajuster le prix de vente en conséquence.</span><span class="sxs-lookup"><span data-stu-id="5a7b6-117">However, you can use Transportation management to determine the transportation rates and adjust the sales price accordingly.</span></span></td>
 </tr>
 <tr class="even">
-<td>Le service logistique est fourni par une autre entité juridique dans la même société.</td>
+<td><span data-ttu-id="5a7b6-118">Le service logistique est fourni par une autre entité juridique dans la même société.</span><span class="sxs-lookup"><span data-stu-id="5a7b6-118">Logistics service is provided by another legal entity in the same company.</span></span></td>
 <td><ul>
-<li>Utilisez la Gestion du transport en traitant l'autre entité juridique comme n'importe quel transporteur. Vous ne pouvez pas automatiser les transactions économiques entre les entités juridiques. Par conséquent, vous devez gérer ces transactions manuellement (par exemple, en créant une commande fournisseur).</li>
-<li>Dans l'entité juridique qui fournit les services logistiques, la Gestion du transport peut être utilisée pour déterminer les taux de transport.</li>
+<li><span data-ttu-id="5a7b6-119">Utilisez la Gestion du transport en traitant l'autre entité juridique comme n'importe quel transporteur.</span><span class="sxs-lookup"><span data-stu-id="5a7b6-119">You can use Transportation management by treating the other legal entity like any other shipping carrier.</span></span> <span data-ttu-id="5a7b6-120">Vous ne pouvez pas automatiser les transactions économiques entre les entités juridiques.</span><span class="sxs-lookup"><span data-stu-id="5a7b6-120">You can't automate the economic transactions between legal entities.</span></span> <span data-ttu-id="5a7b6-121">Par conséquent, vous devez gérer ces transactions manuellement (par exemple, en créant une commande fournisseur).</span><span class="sxs-lookup"><span data-stu-id="5a7b6-121">Therefore, you must handle these transactions manually (for example, by creating a purchase order).</span></span></li>
+<li><span data-ttu-id="5a7b6-122">Dans l'entité juridique qui fournit les services logistiques, la Gestion du transport peut être utilisée pour déterminer les taux de transport.</span><span class="sxs-lookup"><span data-stu-id="5a7b6-122">In the legal entity that provides the logistics services, Transportation management can be used to determine transportation rates.</span></span></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="planning-transportation-in-finance-and-operations"></a>Planification du transport dans Finance and Operations
-Dans Gestion du transport, la planification des transports peut être basée sur les commandes ou sur les expéditions créées selon ces commandes. Les expéditions existent toujours à un moment donné mais elles ne sont pas requises pour la planification des transports. Les ordres de transfert font partie du scénario sortant et peuvent être planifiés avec des commandes client. 
+## <a name="planning-transportation-in-finance-and-operations"></a><span data-ttu-id="5a7b6-123">Planification du transport dans Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="5a7b6-123">Planning transportation in Finance and Operations</span></span>
+<span data-ttu-id="5a7b6-124">Dans Gestion du transport, la planification des transports peut être basée sur les commandes ou sur les expéditions créées selon ces commandes.</span><span class="sxs-lookup"><span data-stu-id="5a7b6-124">In Transportation management, transportation planning can be based either on orders or on the shipments that are created based on those orders.</span></span> <span data-ttu-id="5a7b6-125">Les expéditions existent toujours à un moment donné mais elles ne sont pas requises pour la planification des transports.</span><span class="sxs-lookup"><span data-stu-id="5a7b6-125">The shipments always exist at some point in time but aren't required for transportation planning.</span></span> <span data-ttu-id="5a7b6-126">Les ordres de transfert font partie du scénario sortant et peuvent être planifiés avec des commandes client.</span><span class="sxs-lookup"><span data-stu-id="5a7b6-126">Transfer orders are part of the outbound scenario and can be planned together with sales orders.</span></span> 
 
 ![Load drawing](./media/Load-drawing1-1024x477.jpg)
 
-## <a name="inbound-transportation"></a>Transport entrant
-Lorsque vous commandez des articles à un fournisseur et que ces articles doivent être livrés à votre entrepôt, vous pouvez souhaiter organiser le transport des articles vous-même. Utilisez Finance and Operations pour planifier le transport et la réception de la charge entrante. La figure suivante indique le flux du processus entreprise de planification du transport pour un chargement entrant. 
+## <a name="inbound-transportation"></a><span data-ttu-id="5a7b6-128">Transport entrant</span><span class="sxs-lookup"><span data-stu-id="5a7b6-128">Inbound transportation</span></span>
+<span data-ttu-id="5a7b6-129">Lorsque vous commandez des articles à un fournisseur et que ces articles doivent être livrés à votre entrepôt, vous pouvez souhaiter organiser le transport des articles vous-même.</span><span class="sxs-lookup"><span data-stu-id="5a7b6-129">When you order items from a vendor, and the items must be delivered to your warehouse, you might want to arrange the transport of the items yourself.</span></span> <span data-ttu-id="5a7b6-130">Utilisez Finance and Operations pour planifier le transport et la réception de la charge entrante.</span><span class="sxs-lookup"><span data-stu-id="5a7b6-130">You can use Finance and Operations to plan the transportation and receipt of the inbound load.</span></span> <span data-ttu-id="5a7b6-131">La figure suivante indique le flux du processus entreprise de planification du transport pour un chargement entrant.</span><span class="sxs-lookup"><span data-stu-id="5a7b6-131">The following illustration shows the business process flow for planning transportation for an inbound load.</span></span> 
 
 ![Flux de processus entreprise pour le transport de chargement entrant](./media/Businessprocessflowforinboundloadtransportation.jpg)
 
-## <a name="outbound-transportation"></a>Transport sortant
-Vous pouvez planifier et traiter une charge sortante pour expédier des articles spécifiques de l'entrepôt d'une société à un client. Utilisez Finance and Operations pour planifier le transport et l'expédition d'une charge sortante. La figure suivante indique le flux du processus entreprise de planification et le traitement des charges sortantes pour l'expédition. 
+## <a name="outbound-transportation"></a><span data-ttu-id="5a7b6-133">Transport sortant</span><span class="sxs-lookup"><span data-stu-id="5a7b6-133">Outbound transportation</span></span>
+<span data-ttu-id="5a7b6-134">Vous pouvez planifier et traiter une charge sortante pour expédier des articles spécifiques de l'entrepôt d'une société à un client.</span><span class="sxs-lookup"><span data-stu-id="5a7b6-134">You can plan and process an outbound load to ship specific items from a company’s warehouse to a customer.</span></span> <span data-ttu-id="5a7b6-135">Utilisez Finance and Operations pour planifier le transport et l'expédition d'une charge sortante.</span><span class="sxs-lookup"><span data-stu-id="5a7b6-135">You can use Finance and Operations to plan the transportation and shipping of an outbound load.</span></span> <span data-ttu-id="5a7b6-136">La figure suivante indique le flux du processus entreprise de planification et le traitement des charges sortantes pour l'expédition.</span><span class="sxs-lookup"><span data-stu-id="5a7b6-136">The following illustration shows the business process flow for planning and processing outbound loads for shipping.</span></span> 
 
 ![Planification et traitement des charges sortantes](./media/Planningandprocessingoutboundloads.jpg)
 
-## <a name="load-building"></a>Création de chargement
-Finance and Operations fournit une stratégie de création de chargement qui est nommée Stratégie de création de chargement basée sur le volume. Cette stratégie vous permet d'utiliser les valeurs maximales spécifiées pour la hauteur et le poids dans le modèle de chargement, sinon vous pouvez remplacer les paramètres en entrant de nouvelles valeurs. Pour utiliser cette stratégie, sélectionnez-la dans le champ **Stratégie de création de chargement** dans l'organisateur **Paramétrage** sur la page **Atelier de création de chargement**. En outre, vous pouvez ajouter vos propres stratégies de création de chargement en créant une nouvelle classe dans l'arbre d'objets d'application (AOA).
+## <a name="load-building"></a><span data-ttu-id="5a7b6-138">Création de chargement</span><span class="sxs-lookup"><span data-stu-id="5a7b6-138">Load building</span></span>
+<span data-ttu-id="5a7b6-139">Finance and Operations fournit une stratégie de création de chargement qui est nommée Stratégie de création de chargement basée sur le volume.</span><span class="sxs-lookup"><span data-stu-id="5a7b6-139">Finance and Operations provides a load building strategy that is named the Volume-based load building strategy.</span></span> <span data-ttu-id="5a7b6-140">Cette stratégie vous permet d'utiliser les valeurs maximales spécifiées pour la hauteur et le poids dans le modèle de chargement, sinon vous pouvez remplacer les paramètres en entrant de nouvelles valeurs.</span><span class="sxs-lookup"><span data-stu-id="5a7b6-140">This strategy lets you use the maximum values that are specified for height and weight in the load template, or you can override the settings by entering new values.</span></span> <span data-ttu-id="5a7b6-141">Pour utiliser cette stratégie, sélectionnez-la dans le champ **Stratégie de création de chargement** dans l'organisateur **Paramétrage** sur la page **Atelier de création de chargement**.</span><span class="sxs-lookup"><span data-stu-id="5a7b6-141">To use this strategy, select it in the **Load building strategy** field on the **Setup** FastTab on the **Load building workbench** page.</span></span> <span data-ttu-id="5a7b6-142">En outre, vous pouvez ajouter vos propres stratégies de création de chargement en créant une nouvelle classe dans l'arbre d'objets d'application (AOA).</span><span class="sxs-lookup"><span data-stu-id="5a7b6-142">In addition, you can add your own load-building strategies by creating a new class in the Application Object Tree (AOT).</span></span>
 
 
 

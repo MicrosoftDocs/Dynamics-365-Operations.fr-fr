@@ -23,30 +23,30 @@ ms.contentlocale: fr-fr
 ms.lasthandoff: 07/28/2017
 
 ---
-# <a name="process-loyalty-reward-point-adjustments"></a> Traiter les ajustements de points de récompense de fidélité
+# <a name="process-loyalty-reward-point-adjustments"></a><span data-ttu-id="f616d-103"> Traiter les ajustements de points de récompense de fidélité</span><span class="sxs-lookup"><span data-stu-id="f616d-103">Process loyalty reward point adjustments</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-Cette procédure illustre comment rechercher des informations de carte de fidélité et ajuster les points de récompense de fidélité. La société fictive utilisée pour créer cette tâche est USRT. Cette tâche est destinée au rôle Gestionnaire des opérations de vente au détail ou à un rôle de directeur du service clientèle.
+<span data-ttu-id="f616d-104">Cette procédure illustre comment rechercher des informations de carte de fidélité et ajuster les points de récompense de fidélité.</span><span class="sxs-lookup"><span data-stu-id="f616d-104">This procedure demonstrates how to look up loyalty card information and adjust loyalty reward points.</span></span> <span data-ttu-id="f616d-105">La société fictive utilisée pour créer cette tâche est USRT.</span><span class="sxs-lookup"><span data-stu-id="f616d-105">The demo data company used to create this task is USRT.</span></span> <span data-ttu-id="f616d-106">Cette tâche est destinée au rôle Gestionnaire des opérations de vente au détail ou à un rôle de directeur du service clientèle.</span><span class="sxs-lookup"><span data-stu-id="f616d-106">This task is intended for the Retail operations manager role or a Customer service manager role.</span></span>
 
-1. Accédez à Cartes de fidélité.
-2. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-3. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-4. Cliquez sur Transactions de carte.
-    * Sur cette page, vous pouvez afficher toutes les transactions de fidélité pour la carte de fidélité sélectionnée.  
-5. Fermez la page.
-6. Cliquez sur Ajustements de carte.
-7. Cliquez sur Nouveau.
-8. Dans le champ Points de récompense, saisissez ou sélectionnez une valeur.
-9. Dans le champ Montant ou quantité, entrez un nombre.
-    * Vous pouvez ajouter ou supprimer des points de la carte de fidélité par l'intermédiaire de montants positifs ou négatifs.  
-10. Dans le champ Programme de fidélité, saisissez ou sélectionnez une valeur.
-11. Dans le champ Commentaire, tapez une valeur.
-12. Cliquez sur Valider l'ajustement.
-13. Cliquez sur Oui.
-14. Fermez la page.
-    * C'est normalement à ce stade que vous actualiseriez la page pour afficher le résultat de l'ajustement des points de récompense sous l'onglet Récapitulatif des points de récompense. Mais si vous exécutez cela comme un guide de tâche, n'actualisez pas maintenant, sinon le guide de tâche s'arrêtera.  
-15. Cliquez sur Transactions de carte.
-16. Fermez la page.
+1. <span data-ttu-id="f616d-107">Accédez à Cartes de fidélité.</span><span class="sxs-lookup"><span data-stu-id="f616d-107">Go to Loyalty cards.</span></span>
+2. <span data-ttu-id="f616d-108">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="f616d-108">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="f616d-109">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="f616d-109">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="f616d-110">Cliquez sur Transactions de carte.</span><span class="sxs-lookup"><span data-stu-id="f616d-110">Click Card transactions.</span></span>
+    * <span data-ttu-id="f616d-111">Sur cette page, vous pouvez afficher toutes les transactions de fidélité pour la carte de fidélité sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="f616d-111">On this page you can view all loyalty transactions for the selected loyalty card.</span></span>  
+5. <span data-ttu-id="f616d-112">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="f616d-112">Close the page.</span></span>
+6. <span data-ttu-id="f616d-113">Cliquez sur Ajustements de carte.</span><span class="sxs-lookup"><span data-stu-id="f616d-113">Click Card adjustments.</span></span>
+7. <span data-ttu-id="f616d-114">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="f616d-114">Click New.</span></span>
+8. <span data-ttu-id="f616d-115">Dans le champ Points de récompense, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="f616d-115">In the Reward point field, enter or select a value.</span></span>
+9. <span data-ttu-id="f616d-116">Dans le champ Montant ou quantité, entrez un nombre.</span><span class="sxs-lookup"><span data-stu-id="f616d-116">In the Amount or quantity field, enter a number.</span></span>
+    * <span data-ttu-id="f616d-117">Vous pouvez ajouter ou supprimer des points de la carte de fidélité par l'intermédiaire de montants positifs ou négatifs.</span><span class="sxs-lookup"><span data-stu-id="f616d-117">You can add or remove points from the loyalty card by using positive or negative amounts.</span></span>  
+10. <span data-ttu-id="f616d-118">Dans le champ Programme de fidélité, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="f616d-118">In the Loyalty program field, enter or select a value.</span></span>
+11. <span data-ttu-id="f616d-119">Dans le champ Commentaire, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="f616d-119">In the Comment field, type a value.</span></span>
+12. <span data-ttu-id="f616d-120">Cliquez sur Valider l'ajustement.</span><span class="sxs-lookup"><span data-stu-id="f616d-120">Click Post adjustment.</span></span>
+13. <span data-ttu-id="f616d-121">Cliquez sur Oui.</span><span class="sxs-lookup"><span data-stu-id="f616d-121">Click Yes.</span></span>
+14. <span data-ttu-id="f616d-122">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="f616d-122">Close the page.</span></span>
+    * <span data-ttu-id="f616d-123">C'est normalement à ce stade que vous actualiseriez la page pour afficher le résultat de l'ajustement des points de récompense sous l'onglet Récapitulatif des points de récompense.</span><span class="sxs-lookup"><span data-stu-id="f616d-123">Normally at this point you'd refresh the page to see the result of the reward points adjustment in the Reward point summary tab.</span></span> <span data-ttu-id="f616d-124">Mais si vous exécutez cela comme un guide de tâche, n'actualisez pas maintenant, sinon le guide de tâche s'arrêtera.</span><span class="sxs-lookup"><span data-stu-id="f616d-124">But if you are running this as a task guide, don't refresh now because if you do, the task guide will stop.</span></span>  
+15. <span data-ttu-id="f616d-125">Cliquez sur Transactions de carte.</span><span class="sxs-lookup"><span data-stu-id="f616d-125">Click Card transactions.</span></span>
+16. <span data-ttu-id="f616d-126">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="f616d-126">Close the page.</span></span>
 
 

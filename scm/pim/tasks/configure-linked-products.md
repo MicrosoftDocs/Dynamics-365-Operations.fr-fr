@@ -16,28 +16,28 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 126447cad226c843afa2cf9bc609a316cab7b8cb
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 306e9ebca811c576b06de3aef697ed64cbe85180
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="configure-linked-products"></a>Configurer les produits liés
+# <a name="configure-linked-products"></a><span data-ttu-id="c634b-103">Configurer les produits liés</span><span class="sxs-lookup"><span data-stu-id="c634b-103">Configure linked products</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Cette procédure décrit la configuration de produits liés. Cette procédure utilise les données de démonstration USRT et suppose que les deux produits ont déjà été créés et lancés.
+<span data-ttu-id="c634b-104">Cette procédure décrit la configuration de produits liés.</span><span class="sxs-lookup"><span data-stu-id="c634b-104">This procedure walks through configuring linked products.</span></span> <span data-ttu-id="c634b-105">Cette procédure utilise les données de démonstration USRT et suppose que les deux produits ont déjà été créés et lancés.</span><span class="sxs-lookup"><span data-stu-id="c634b-105">This procedure uses the USRT demo data, and assumes both products have already been created and released.</span></span>
 
-1. Allez à Gestion des informations sur les produits > Produits > Produits lancés.
-2. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-3. Dans le volet Actions, cliquez sur Vente au détail.
-4. Cliquez sur Produits liés.
-5. Cliquez sur Modifier.
-6. Dans le champ Numéro de produit lié, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-7. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-8. Dans le champ Unité, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-9. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-10. Dans le champ Quantité, entrer un numéro.
-11. Cliquez sur Enregistrer.
+1. <span data-ttu-id="c634b-106">Allez à Gestion des informations sur les produits > Produits > Produits lancés.</span><span class="sxs-lookup"><span data-stu-id="c634b-106">Go to Product information management > Products > Released products.</span></span>
+2. <span data-ttu-id="c634b-107">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="c634b-107">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="c634b-108">Dans le volet Actions, cliquez sur Vente au détail.</span><span class="sxs-lookup"><span data-stu-id="c634b-108">On the Action Pane, click Retail.</span></span>
+4. <span data-ttu-id="c634b-109">Cliquez sur Produits liés.</span><span class="sxs-lookup"><span data-stu-id="c634b-109">Click Linked products.</span></span>
+5. <span data-ttu-id="c634b-110">Cliquez sur Modifier.</span><span class="sxs-lookup"><span data-stu-id="c634b-110">Click Edit.</span></span>
+6. <span data-ttu-id="c634b-111">Dans le champ Numéro de produit lié, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="c634b-111">In the Linked product number field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="c634b-112">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="c634b-112">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="c634b-113">Dans le champ Unité, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="c634b-113">In the Unit field, click the drop-down button to open the lookup.</span></span>
+9. <span data-ttu-id="c634b-114">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="c634b-114">In the list, click the link in the selected row.</span></span>
+10. <span data-ttu-id="c634b-115">Dans le champ Quantité, entrer un numéro.</span><span class="sxs-lookup"><span data-stu-id="c634b-115">In the Quantity field, enter a number.</span></span>
+11. <span data-ttu-id="c634b-116">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="c634b-116">Click Save.</span></span>
 
 

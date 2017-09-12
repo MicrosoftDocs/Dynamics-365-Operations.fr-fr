@@ -16,34 +16,34 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 856ad74ce30bb58975f78aeb3fafc6e2e2805c79
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: d9307abf5e9543c8a2c880330c4430f5e4c5b340
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-new-product"></a>Créer un nouveau produit
+# <a name="create-a-new-product"></a><span data-ttu-id="929e6-103">Créer un nouveau produit</span><span class="sxs-lookup"><span data-stu-id="929e6-103">Create a new product</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Cette tâche indique comment créer un nouveau produit partagé. Elle est généralement effectuée par un concepteur de produit. Les données fictives utilisées pour créer cette tâche correspondent à la société USMF.
+<span data-ttu-id="929e6-104">Cette tâche indique comment créer un nouveau produit partagé.</span><span class="sxs-lookup"><span data-stu-id="929e6-104">This task shows how to create a new shared product.</span></span> <span data-ttu-id="929e6-105">Elle est généralement effectuée par un concepteur de produit.</span><span class="sxs-lookup"><span data-stu-id="929e6-105">It is usually carried out by a product designer.</span></span> <span data-ttu-id="929e6-106">Les données fictives utilisées pour créer cette tâche correspondent à la société USMF.</span><span class="sxs-lookup"><span data-stu-id="929e6-106">The demo data company used to create this task is USMF.</span></span>
 
-1. Accédez à Gestion des informations sur les produits > Produits > Produits.
+1. <span data-ttu-id="929e6-107">Accédez à Gestion des informations sur les produits > Produits > Produits.</span><span class="sxs-lookup"><span data-stu-id="929e6-107">Go to Product information management > Products > Products.</span></span>
 
-## <a name="create-a-product"></a>Créer un produit
-1. Cliquez sur Nouveau.
-2. Dans le champ Numéro du produit, saisissez une valeur.
-    * Si une souche de numéros n'a pas été paramétrée pour le numéro de produit, elle doit être entrée manuellement.  
-3. Dans le champ Nom du produit, saisissez une valeur.
-    * Le nom de produit est par défaut le nom de recherche. Vous pouvez la modifier si nécessaire.  
-4. Cliquez sur OK.
+## <a name="create-a-product"></a><span data-ttu-id="929e6-108">Créer un produit</span><span class="sxs-lookup"><span data-stu-id="929e6-108">Create a product</span></span>
+1. <span data-ttu-id="929e6-109">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="929e6-109">Click New.</span></span>
+2. <span data-ttu-id="929e6-110">Dans le champ Numéro du produit, saisissez une valeur.</span><span class="sxs-lookup"><span data-stu-id="929e6-110">In the Product number field, type a value.</span></span>
+    * <span data-ttu-id="929e6-111">Si une souche de numéros n'a pas été paramétrée pour le numéro de produit, elle doit être entrée manuellement.</span><span class="sxs-lookup"><span data-stu-id="929e6-111">If a number sequence has not been set up for the product number, it must be entered manually.</span></span>  
+3. <span data-ttu-id="929e6-112">Dans le champ Nom du produit, saisissez une valeur.</span><span class="sxs-lookup"><span data-stu-id="929e6-112">In the Product name field, type a value.</span></span>
+    * <span data-ttu-id="929e6-113">Le nom de produit est par défaut le nom de recherche.</span><span class="sxs-lookup"><span data-stu-id="929e6-113">The product name defaults to the search name.</span></span> <span data-ttu-id="929e6-114">Vous pouvez la modifier si nécessaire.</span><span class="sxs-lookup"><span data-stu-id="929e6-114">You can change this if needed.</span></span>  
+4. <span data-ttu-id="929e6-115">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="929e6-115">Click OK.</span></span>
 
-## <a name="set-up-dimension-groups"></a>Paramétrer des groupes de dimensions
-1. Cliquez sur Groupes de dimensions pour ouvrir la boîte de dialogue.
-2. Saisissez ou sélectionnez une valeur dans le champ Groupe de dimension de stockage.
-    * Le groupe de dimension de stockage détermine les dimensions de stockage que vous devez entrer dans chaque transaction pour le produit et la manière dont il est suivi dans le stock.  
-3. Saisissez ou sélectionnez une valeur dans le champ Groupe de dimension de suivi.
-    * Le groupe de dimension de suivi détermine les dimensions de suivi que vous devez entrer pour chaque transaction pour le produit et la manière dont il sera géré dans le stock.  
-4. Cliquez sur OK.
+## <a name="set-up-dimension-groups"></a><span data-ttu-id="929e6-116">Paramétrer des groupes de dimensions</span><span class="sxs-lookup"><span data-stu-id="929e6-116">Set up dimension groups</span></span>
+1. <span data-ttu-id="929e6-117">Cliquez sur Groupes de dimensions pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="929e6-117">Click Dimension groups to open the drop dialog.</span></span>
+2. <span data-ttu-id="929e6-118">Saisissez ou sélectionnez une valeur dans le champ Groupe de dimension de stockage.</span><span class="sxs-lookup"><span data-stu-id="929e6-118">In the Storage dimension group field, enter or select a value.</span></span>
+    * <span data-ttu-id="929e6-119">Le groupe de dimension de stockage détermine les dimensions de stockage que vous devez entrer dans chaque transaction pour le produit et la manière dont il est suivi dans le stock.</span><span class="sxs-lookup"><span data-stu-id="929e6-119">The storage dimension group determines which storage dimensions you must enter on each transaction for the product and how it will be tracked in inventory.</span></span>  
+3. <span data-ttu-id="929e6-120">Saisissez ou sélectionnez une valeur dans le champ Groupe de dimension de suivi.</span><span class="sxs-lookup"><span data-stu-id="929e6-120">In the Tracking dimension group field, enter or select a value.</span></span>
+    * <span data-ttu-id="929e6-121">Le groupe de dimension de suivi détermine les dimensions de suivi que vous devez entrer pour chaque transaction pour le produit et la manière dont il sera géré dans le stock.</span><span class="sxs-lookup"><span data-stu-id="929e6-121">The tracking dimension group determines which tracking dimensions you must enter for each transaction for the product, and how it will be handled in inventory.</span></span>  
+4. <span data-ttu-id="929e6-122">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="929e6-122">Click OK.</span></span>
 
 

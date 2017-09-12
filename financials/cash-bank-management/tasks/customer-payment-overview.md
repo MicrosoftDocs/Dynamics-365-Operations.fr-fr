@@ -14,52 +14,52 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
+ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 748ea62e981a2bcea0cd85ef512030a8cebf6649
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: e6e10d0d0a05b0594ba5cf6a77f474b461bd9dca
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="customer-payment-overview"></a>Vue d'ensemble des paiements client
+# <a name="customer-payment-overview"></a><span data-ttu-id="9c46f-103">Vue d'ensemble des paiements client</span><span class="sxs-lookup"><span data-stu-id="9c46f-103">Customer payment overview</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Ce guide de tâche présente diverses méthodes utilisées pour entrer des paiements client. La société fictive USMF est citée en exemple dans cette tâche.
+<span data-ttu-id="9c46f-104">Ce guide de tâche présente diverses méthodes utilisées pour entrer des paiements client.</span><span class="sxs-lookup"><span data-stu-id="9c46f-104">This task guide walks through various methods used to enter customer payments.</span></span> <span data-ttu-id="9c46f-105">La société fictive USMF est citée en exemple dans cette tâche.</span><span class="sxs-lookup"><span data-stu-id="9c46f-105">This task uses the USMF demo company.</span></span>
 
-1. Accédez à Comptabilité client > Paiements > Journal des paiements.
-2. Cliquez sur Nouveau.
-3. Sélectionnez le journal des paiements dans lequel les paiements client seront enregistrés.
-4. Sélectionnez le journal ou entrez-le manuellement.
-5. Cliquez sur Entrer les paiements client.
-    * La page Entrer les paiements client est utilisée pour enregistrer un paiement client à la fois. Vous entrez les données de paiement en haut, puis vous pouvez marquer les factures qui ont été payées par le paiement, toutes depuis la même page.  
-6. Entrez le client qui a envoyé le paiement.
-    * Si vous ne connaissez pas le client mais avez connaissance d'une transaction qui a été payée, vous pouvez utiliser le champ Transaction pour entrer le paiement. Entrez ou sélectionnez la facture dans le champ Transaction. Le client sera automatiquement transféré après que vous avez sélectionné la transaction.  
-7. Dans le champ Référence de paiement, entrez une référence de paiement.
-    * La référence de paiement peut être le numéro de chèque ou une référence du client issu du paiement électronique du client. La référence de paiement n'est requise que si vous choisissez d'inclure le paiement sur un bordereau de remise.  
-8. Indiquez si le paiement est inclus dans un bordereau de remise. 
-9. Entrez le montant du paiement client.
-    * Le montant du paiement ne sera pas transféré. Il doit être entré manuellement.  
-10. Marquez les factures qui ont été payées par le client.
-    * Si le paiement est un acompte, il n'est pas nécessaire de marquer d'autres factures pour le règlement. Il reste toujours possible d'enregistrer et de valider le paiement. Le règlement d'une facture peut se faire à une date ultérieure.  
-11. Entrez le montant du paiement qui doit être réglé sur les factures marquées. 
-    * Ce champ peut être utilisé lorsque le paiement concerne un paiement partiel. Si vous n'entrez pas de montant, le montant à régler est automatiquement déterminé pour vous.  
-12. Cliquez sur Enregistrer dans le journal.
-    * Avant d'enregistrer le paiement dans le journal, assurez-vous que le compte de contrepartie est défini. Avec Sauvegarde dans le journal, vous sauvegarderez le paiement et le déplacerez dans le journal. Vous pouvez ensuite continuer et entrer le paiement suivant.  
-13. Fermez la page.
-14. Cliquez sur Lignes.
-    * Lors de l'ouverture de Lignes, vous verrez tous les paiements consignés sur la page Entrer les paiements client et enregistrés dans le journal. Cette page permet également d'entrer de nouveaux paiements client ou de modifier un paiement client existant avant sa validation.  
-15. Cliquez sur Nouveau pour créer un autre paiement. 
-16. Sélectionnez le client qui a envoyé le paiement.
-    * Si vous ne connaissez pas le client, mais avez connaissance d'une facture payée par le paiement, utilisez le champ Facture pour entrer ou sélectionner manuellement la facture. Le client sera transféré une fois la facture sélectionnée.  
-17. Cliquez sur Régler les transactions pour marquer les factures qui ont été payées.
-    * Vous n'avez besoin de régler le paiement d'aucune facture. S'il s'agit d'un acompte ou si vous ne savez pas quelle facture a été payée, vous pouvez entrer et valider le paiement. Le paiement peut être réglé ultérieurement sur une facture.  
-18. Marquez les factures réglées à l'aide du paiement. 
-19. Entrez le montant du paiement qui sera réglé sur les factures marquées.
-20. Cliquez sur OK.
-21. Dans le champ Référence de paiement, entrez une référence de paiement. .
-    * La référence de paiement n'est requise que si vous choisissez d'inclure le paiement sur un bordereau de remise.  
-22. Validez les paiements client. 
+1. <span data-ttu-id="9c46f-106">Accédez à Comptabilité client > Paiements > Journal des paiements.</span><span class="sxs-lookup"><span data-stu-id="9c46f-106">Go to Accounts receivable > Payments > Payment journal.</span></span>
+2. <span data-ttu-id="9c46f-107">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="9c46f-107">Click New.</span></span>
+3. <span data-ttu-id="9c46f-108">Sélectionnez le journal des paiements dans lequel les paiements client seront enregistrés.</span><span class="sxs-lookup"><span data-stu-id="9c46f-108">Select the payment journal which the customer payments will be saved.</span></span>
+4. <span data-ttu-id="9c46f-109">Sélectionnez le journal ou entrez-le manuellement.</span><span class="sxs-lookup"><span data-stu-id="9c46f-109">Select or manually enter the journal.</span></span>
+5. <span data-ttu-id="9c46f-110">Cliquez sur Entrer les paiements client.</span><span class="sxs-lookup"><span data-stu-id="9c46f-110">Click Enter customer payments.</span></span>
+    * <span data-ttu-id="9c46f-111">La page Entrer les paiements client est utilisée pour enregistrer un paiement client à la fois.</span><span class="sxs-lookup"><span data-stu-id="9c46f-111">Enter customer payments is used to record one customer payment at a time.</span></span> <span data-ttu-id="9c46f-112">Vous entrez les données de paiement en haut, puis vous pouvez marquer les factures qui ont été payées par le paiement, toutes depuis la même page.</span><span class="sxs-lookup"><span data-stu-id="9c46f-112">You enter the payment information at the top, and then you can mark the invoices that were paid by the payment, all from the same page.</span></span>  
+6. <span data-ttu-id="9c46f-113">Entrez le client qui a envoyé le paiement.</span><span class="sxs-lookup"><span data-stu-id="9c46f-113">Enter the customer from whom you received the payment.</span></span>
+    * <span data-ttu-id="9c46f-114">Si vous ne connaissez pas le client mais avez connaissance d'une transaction qui a été payée, vous pouvez utiliser le champ Transaction pour entrer le paiement.</span><span class="sxs-lookup"><span data-stu-id="9c46f-114">If you don't know the customer but do know a transaction that was paid, you can use the Transaction field to enter the payment.</span></span> <span data-ttu-id="9c46f-115">Entrez ou sélectionnez la facture dans le champ Transaction.</span><span class="sxs-lookup"><span data-stu-id="9c46f-115">Enter or select the invoice in the Transaction field.</span></span> <span data-ttu-id="9c46f-116">Le client sera automatiquement transféré après que vous avez sélectionné la transaction.</span><span class="sxs-lookup"><span data-stu-id="9c46f-116">The customer will automatically default after you select the transaction.</span></span>  
+7. <span data-ttu-id="9c46f-117">Dans le champ Référence de paiement, entrez une référence de paiement.</span><span class="sxs-lookup"><span data-stu-id="9c46f-117">In the Payment reference field, enter a payment reference.</span></span>
+    * <span data-ttu-id="9c46f-118">La référence de paiement peut être le numéro de chèque ou une référence du client issu du paiement électronique du client.</span><span class="sxs-lookup"><span data-stu-id="9c46f-118">The payment reference could be the customer's check number or a reference from the customer's electronic payment.</span></span> <span data-ttu-id="9c46f-119">La référence de paiement n'est requise que si vous choisissez d'inclure le paiement sur un bordereau de remise.</span><span class="sxs-lookup"><span data-stu-id="9c46f-119">The payment reference is only required if you mark to include the payment on a deposit slip.</span></span>  
+8. <span data-ttu-id="9c46f-120">Indiquez si le paiement est inclus dans un bordereau de remise.</span><span class="sxs-lookup"><span data-stu-id="9c46f-120">Select whether the payment will be included on a deposit slip.</span></span> 
+9. <span data-ttu-id="9c46f-121">Entrez le montant du paiement client.</span><span class="sxs-lookup"><span data-stu-id="9c46f-121">Enter the amount of the customer payment.</span></span>
+    * <span data-ttu-id="9c46f-122">Le montant du paiement ne sera pas transféré.</span><span class="sxs-lookup"><span data-stu-id="9c46f-122">The payment amount will not default.</span></span> <span data-ttu-id="9c46f-123">Il doit être entré manuellement.</span><span class="sxs-lookup"><span data-stu-id="9c46f-123">It must be manually entered.</span></span>  
+10. <span data-ttu-id="9c46f-124">Marquez les factures qui ont été payées par le client.</span><span class="sxs-lookup"><span data-stu-id="9c46f-124">Mark the invoices that were paid by the customer.</span></span>
+    * <span data-ttu-id="9c46f-125">Si le paiement est un acompte, il n'est pas nécessaire de marquer d'autres factures pour le règlement.</span><span class="sxs-lookup"><span data-stu-id="9c46f-125">If the payment is a prepayment, you are not required to mark any invoices for settlement.</span></span> <span data-ttu-id="9c46f-126">Il reste toujours possible d'enregistrer et de valider le paiement.</span><span class="sxs-lookup"><span data-stu-id="9c46f-126">The payment can still be saved and posted.</span></span> <span data-ttu-id="9c46f-127">Le règlement d'une facture peut se faire à une date ultérieure.</span><span class="sxs-lookup"><span data-stu-id="9c46f-127">Settlement to an invoice can happen at a later time.</span></span>  
+11. <span data-ttu-id="9c46f-128">Entrez le montant du paiement qui doit être réglé sur les factures marquées.</span><span class="sxs-lookup"><span data-stu-id="9c46f-128">Enter the amount of the payment that should be settled to the marked invoice.</span></span> 
+    * <span data-ttu-id="9c46f-129">Ce champ peut être utilisé lorsque le paiement concerne un paiement partiel.</span><span class="sxs-lookup"><span data-stu-id="9c46f-129">This field can be used when the payment is for a partial payment.</span></span> <span data-ttu-id="9c46f-130">Si vous n'entrez pas de montant, le montant à régler est automatiquement déterminé pour vous.</span><span class="sxs-lookup"><span data-stu-id="9c46f-130">If you don't enter an amount, the amount to settle will automatically be determined for you.</span></span>  
+12. <span data-ttu-id="9c46f-131">Cliquez sur Enregistrer dans le journal.</span><span class="sxs-lookup"><span data-stu-id="9c46f-131">Click Save in journal.</span></span>
+    * <span data-ttu-id="9c46f-132">Avant d'enregistrer le paiement dans le journal, assurez-vous que le compte de contrepartie est défini.</span><span class="sxs-lookup"><span data-stu-id="9c46f-132">Before you save the payment to the journal, make sure that the offset account is defined.</span></span> <span data-ttu-id="9c46f-133">Avec Sauvegarde dans le journal, vous sauvegarderez le paiement et le déplacerez dans le journal.</span><span class="sxs-lookup"><span data-stu-id="9c46f-133">Using Save in journal will save the payment and move it to the journal.</span></span> <span data-ttu-id="9c46f-134">Vous pouvez ensuite continuer et entrer le paiement suivant.</span><span class="sxs-lookup"><span data-stu-id="9c46f-134">You can then continue entering the next payment.</span></span>  
+13. <span data-ttu-id="9c46f-135">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="9c46f-135">Close the page.</span></span>
+14. <span data-ttu-id="9c46f-136">Cliquez sur Lignes.</span><span class="sxs-lookup"><span data-stu-id="9c46f-136">Click Lines.</span></span>
+    * <span data-ttu-id="9c46f-137">Lors de l'ouverture de Lignes, vous verrez tous les paiements consignés sur la page Entrer les paiements client et enregistrés dans le journal.</span><span class="sxs-lookup"><span data-stu-id="9c46f-137">When opening Lines, you will see any payments you recorded on the Enter customer payments page and saved into the journal.</span></span> <span data-ttu-id="9c46f-138">Cette page permet également d'entrer de nouveaux paiements client ou de modifier un paiement client existant avant sa validation.</span><span class="sxs-lookup"><span data-stu-id="9c46f-138">You can also use this page to enter new customer payments, or edit existing customer payment before they are posted.</span></span>  
+15. <span data-ttu-id="9c46f-139">Cliquez sur Nouveau pour créer un autre paiement.</span><span class="sxs-lookup"><span data-stu-id="9c46f-139">Click New to create another payment.</span></span> 
+16. <span data-ttu-id="9c46f-140">Sélectionnez le client qui a envoyé le paiement.</span><span class="sxs-lookup"><span data-stu-id="9c46f-140">Select the customer from whom you received the payment.</span></span>
+    * <span data-ttu-id="9c46f-141">Si vous ne connaissez pas le client, mais avez connaissance d'une facture payée par le paiement, utilisez le champ Facture pour entrer ou sélectionner manuellement la facture.</span><span class="sxs-lookup"><span data-stu-id="9c46f-141">If you don't know the customer but know an invoice paid by the payment, use the Invoice field to manually enter or select the invoice.</span></span> <span data-ttu-id="9c46f-142">Le client sera transféré une fois la facture sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="9c46f-142">The customer will default after the invoice is selected.</span></span>  
+17. <span data-ttu-id="9c46f-143">Cliquez sur Régler les transactions pour marquer les factures qui ont été payées.</span><span class="sxs-lookup"><span data-stu-id="9c46f-143">Click Settle transctions to mark invoices that were paid.</span></span>
+    * <span data-ttu-id="9c46f-144">Vous n'avez besoin de régler le paiement d'aucune facture.</span><span class="sxs-lookup"><span data-stu-id="9c46f-144">You are not required to settle the payment to any invoices.</span></span> <span data-ttu-id="9c46f-145">S'il s'agit d'un acompte ou si vous ne savez pas quelle facture a été payée, vous pouvez entrer et valider le paiement.</span><span class="sxs-lookup"><span data-stu-id="9c46f-145">If this is a prepayment or if you don't know what invoice was paid, you can enter and post the payment.</span></span> <span data-ttu-id="9c46f-146">Le paiement peut être réglé ultérieurement sur une facture.</span><span class="sxs-lookup"><span data-stu-id="9c46f-146">The payment can be settled to an invoice at a later point.</span></span>  
+18. <span data-ttu-id="9c46f-147">Marquez les factures réglées à l'aide du paiement.</span><span class="sxs-lookup"><span data-stu-id="9c46f-147">Mark the invoices paid by the payment.</span></span> 
+19. <span data-ttu-id="9c46f-148">Entrez le montant du paiement qui sera réglé sur les factures marquées.</span><span class="sxs-lookup"><span data-stu-id="9c46f-148">Enter the amount of the payment that will be settled to the invoice.</span></span>
+20. <span data-ttu-id="9c46f-149">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="9c46f-149">Click OK.</span></span>
+21. <span data-ttu-id="9c46f-150">Dans le champ Référence de paiement, entrez une référence de paiement.</span><span class="sxs-lookup"><span data-stu-id="9c46f-150">In the Payment reference field, Enter a payment reference.</span></span> <span data-ttu-id="9c46f-151">.</span><span class="sxs-lookup"><span data-stu-id="9c46f-151">.</span></span>
+    * <span data-ttu-id="9c46f-152">La référence de paiement n'est requise que si vous choisissez d'inclure le paiement sur un bordereau de remise.</span><span class="sxs-lookup"><span data-stu-id="9c46f-152">The payment reference is only required if you mark to include the payment on a deposit slip.</span></span>  
+22. <span data-ttu-id="9c46f-153">Validez les paiements client.</span><span class="sxs-lookup"><span data-stu-id="9c46f-153">Post the customer payments.</span></span> 
 
 

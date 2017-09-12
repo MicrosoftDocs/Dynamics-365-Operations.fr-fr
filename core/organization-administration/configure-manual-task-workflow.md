@@ -18,67 +18,67 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 242abaae1aa17578ba8eab4b2664794ff2c2caec
+ms.sourcegitcommit: e2aa02ff489f105e85c0dc6801f398f79126a4dd
+ms.openlocfilehash: 98e25e1a132f0767b9c58334f177845c222c3863
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/23/2017
 
 ---
 
-# <a name="configure-a-manual-task-in-a-workflow"></a>Configurer une tâche manuelle dans un workflow
+# <a name="configure-a-manual-task-in-a-workflow"></a><span data-ttu-id="be597-103">Configurer une tâche manuelle dans un workflow</span><span class="sxs-lookup"><span data-stu-id="be597-103">Configure a manual task in a workflow</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Cette rubrique explique comment configurer les propriétés d'une tâche manuelle.
+<span data-ttu-id="be597-104">Cette rubrique explique comment configurer les propriétés d'une tâche manuelle.</span><span class="sxs-lookup"><span data-stu-id="be597-104">This topic explains how to configure the properties for a manual task.</span></span>
 
-Pour configurer une tâche manuelle, dans l'éditeur de workflow, cliquez avec le bouton droit sur la tâche, puis cliquez sur **Propriétés** pour ouvrir l'écran **Propriétés**. Suivez ensuite les procédures suivantes pour configurer les propriétés de la tâche manuelle.
+<span data-ttu-id="be597-105">Pour configurer une tâche manuelle, dans l'éditeur de workflow, cliquez avec le bouton droit sur la tâche, puis cliquez sur **Propriétés** pour ouvrir l'écran **Propriétés**.</span><span class="sxs-lookup"><span data-stu-id="be597-105">To configure a manual task in the workflow editor, right-click the task, and then click **Properties** to open the **Properties** page.</span></span> <span data-ttu-id="be597-106">Suivez ensuite les procédures suivantes pour configurer les propriétés de la tâche manuelle.</span><span class="sxs-lookup"><span data-stu-id="be597-106">Then use the following procedures to configure the properties for the manual task.</span></span>
 
-## <a name="name-the-task"></a>Saisie d'un nom pour la tâche
-Procédez comme suit pour entrer un nom pour la tâche manuelle.
+## <a name="name-the-task"></a><span data-ttu-id="be597-107">Saisie d'un nom pour la tâche</span><span class="sxs-lookup"><span data-stu-id="be597-107">Name the task</span></span>
+<span data-ttu-id="be597-108">Procédez comme suit pour entrer un nom pour la tâche manuelle.</span><span class="sxs-lookup"><span data-stu-id="be597-108">Follow these steps to enter a name for the manual task.</span></span>
 
-1.  Dans le volet gauche, cliquez sur **Paramètres de base**.
-2.  Entrez un nom unique pour la tâche dans le champ **Nom**.
+1.  <span data-ttu-id="be597-109">Dans le volet gauche, cliquez sur **Paramètres de base**.</span><span class="sxs-lookup"><span data-stu-id="be597-109">In the left pane, click **Basic Settings**.</span></span>
+2.  <span data-ttu-id="be597-110">Entrez un nom unique pour la tâche dans le champ **Nom**.</span><span class="sxs-lookup"><span data-stu-id="be597-110">In the **Name** field, enter a unique name for the task.</span></span>
 
-## <a name="enter-a-subject-line-and-instructions"></a>Saisie d'une ligne d'objet et des instructions
-Vous devez fournir une ligne d'objet et des instructions aux utilisateurs affectés à la tâche. Par exemple, si vous configurez une tâche pour des demandes d'achat, l'utilisateur concerné par cette tâche voit la ligne d'objet et les instructions dans la page **Demandes d'achat**. La ligne d'objet figure dans une barre de message de la page. L'utilisateur peut ensuite cliquer sur l'icône de la barre des messages pour afficher les instructions. Procédez comme suit pour entrer une ligne d'objet et des instructions.
+## <a name="enter-a-subject-line-and-instructions"></a><span data-ttu-id="be597-111">Saisie d'une ligne d'objet et des instructions</span><span class="sxs-lookup"><span data-stu-id="be597-111">Enter a subject line and instructions</span></span>
+<span data-ttu-id="be597-112">Vous devez fournir une ligne d'objet et des instructions aux utilisateurs affectés à la tâche.</span><span class="sxs-lookup"><span data-stu-id="be597-112">You must provide a subject line and instructions to users who are assigned to the task.</span></span> <span data-ttu-id="be597-113">Par exemple, si vous configurez une tâche pour des demandes d'achat, l'utilisateur concerné par cette tâche voit la ligne d'objet et les instructions dans la page **Demandes d'achat**.</span><span class="sxs-lookup"><span data-stu-id="be597-113">For example, if you're configuring a task for purchase requisitions, the user who is assigned to the task sees the subject line and instructions on the **Purchase requisitions** page.</span></span> <span data-ttu-id="be597-114">La ligne d'objet figure dans une barre de message de la page.</span><span class="sxs-lookup"><span data-stu-id="be597-114">The subject line appears in a message bar on the page.</span></span> <span data-ttu-id="be597-115">L'utilisateur peut ensuite cliquer sur l'icône de la barre des messages pour afficher les instructions.</span><span class="sxs-lookup"><span data-stu-id="be597-115">The user can then click the icon in the message bar to view the instructions.</span></span> <span data-ttu-id="be597-116">Procédez comme suit pour entrer une ligne d'objet et des instructions.</span><span class="sxs-lookup"><span data-stu-id="be597-116">Follow these steps to enter a subject line and instructions.</span></span>
 
-1.  Dans le volet gauche, cliquez sur **Paramètres de base**.
-2.  Entrez la ligne d'objet dans le champ **Objet de l'article de travail**.
-3.  Si vous souhaitez personnaliser la ligne, vous pouvez insérer des espaces réservés. Ils sont remplacés par les données appropriées lorsque la ligne d'objet s'affiche pour les utilisateurs. Pour insérer un espace réservé, procédez comme suit :
-    1.  Dans la zone de texte, cliquez pour spécifier l'endroit où l'espace réservé doit figurer.
-    2.  Cliquez sur **Insérer un espace réservé**.
-    3.  Dans la liste qui s'affiche, sélectionnez l'espace réservé que vous souhaitez insérer.
-    4.  Cliquez sur **Insérer**
+1.  <span data-ttu-id="be597-117">Dans le volet gauche, cliquez sur **Paramètres de base**.</span><span class="sxs-lookup"><span data-stu-id="be597-117">In the left pane, click **Basic Settings**.</span></span>
+2.  <span data-ttu-id="be597-118">Entrez la ligne d'objet dans le champ **Objet de l'article de travail**.</span><span class="sxs-lookup"><span data-stu-id="be597-118">In the **Work item subject** field, enter the subject line.</span></span>
+3.  <span data-ttu-id="be597-119">Si vous souhaitez personnaliser la ligne, vous pouvez insérer des espaces réservés.</span><span class="sxs-lookup"><span data-stu-id="be597-119">To personalize the subject line, you can insert placeholders.</span></span> <span data-ttu-id="be597-120">Ils sont remplacés par les données appropriées lorsque la ligne d'objet s'affiche pour les utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="be597-120">Placeholders are replaced with appropriate data when the subject line is shown to users.</span></span> <span data-ttu-id="be597-121">Pour insérer un espace réservé, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="be597-121">Follow these steps to insert a placeholder:</span></span>
+    1.  <span data-ttu-id="be597-122">Dans la zone de texte, cliquez pour spécifier l'endroit où l'espace réservé doit figurer.</span><span class="sxs-lookup"><span data-stu-id="be597-122">In the text box, click where the placeholder should appear.</span></span>
+    2.  <span data-ttu-id="be597-123">Cliquez sur **Insérer un espace réservé**.</span><span class="sxs-lookup"><span data-stu-id="be597-123">Click **Insert placeholder**.</span></span>
+    3.  <span data-ttu-id="be597-124">Dans la liste qui s'affiche, sélectionnez l'espace réservé que vous souhaitez insérer.</span><span class="sxs-lookup"><span data-stu-id="be597-124">In the list that appears, select the placeholder to insert.</span></span>
+    4.  <span data-ttu-id="be597-125">Cliquez sur **Insérer**</span><span class="sxs-lookup"><span data-stu-id="be597-125">Click **Insert**.</span></span>
 
-4.  Suivez les étapes suivantes pour ajouter une traduction de la ligne d'objet.
-    1.  Cliquez sur **Traductions**.
-    2.  Dans la page qui s'affiche, cliquez sur **Ajouter**.
-    3.  Dans la liste qui apparaît, sélectionnez la langue de saisie du texte.
-    4.  Entrez le texte dans le champ **Texte traduit**.
-    5.  Pour personnaliser le texte, vous pouvez insérer des espaces réservés tel que décrit à l'étape 3.
-    6.  Cliquez sur **Fermer**.
+4.  <span data-ttu-id="be597-126">Suivez les étapes suivantes pour ajouter une traduction de la ligne d'objet.</span><span class="sxs-lookup"><span data-stu-id="be597-126">To add translations of the subject line, follow these steps:</span></span>
+    1.  <span data-ttu-id="be597-127">Cliquez sur **Traductions**.</span><span class="sxs-lookup"><span data-stu-id="be597-127">Click **Translations**.</span></span>
+    2.  <span data-ttu-id="be597-128">Dans la page qui s'affiche, cliquez sur **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="be597-128">On the page that appears, click **Add**.</span></span>
+    3.  <span data-ttu-id="be597-129">Dans la liste qui apparaît, sélectionnez la langue de saisie du texte.</span><span class="sxs-lookup"><span data-stu-id="be597-129">In the list that appears, select the language that you're entering the text in.</span></span>
+    4.  <span data-ttu-id="be597-130">Entrez le texte dans le champ **Texte traduit**.</span><span class="sxs-lookup"><span data-stu-id="be597-130">In the **Translated text** field, enter the text.</span></span>
+    5.  <span data-ttu-id="be597-131">Pour personnaliser le texte, vous pouvez insérer des espaces réservés tel que décrit à l'étape 3.</span><span class="sxs-lookup"><span data-stu-id="be597-131">To personalize the text, you can insert placeholders as described in step 3.</span></span>
+    6.  <span data-ttu-id="be597-132">Cliquez sur **Fermer**.</span><span class="sxs-lookup"><span data-stu-id="be597-132">Click **Close**.</span></span>
 
-5.  Entrez les instructions dans le champ **Instructions de l'élément de travail**.
-6.  Pour personnaliser les instructions, vous pouvez insérer des espaces réservés. Ils sont remplacés par les données appropriées lorsque les instructions apparaissent aux utilisateurs. Pour insérer un espace réservé, procédez comme suit :
-    1.  Dans la zone de texte, cliquez pour spécifier l'endroit où l'espace réservé doit figurer.
-    2.  Cliquez sur **Insérer un espace réservé**.
-    3.  Dans la liste qui s'affiche, sélectionnez l'espace réservé que vous souhaitez insérer.
-    4.  Cliquez sur **Insérer**
+5.  <span data-ttu-id="be597-133">Entrez les instructions dans le champ **Instructions de l'élément de travail**.</span><span class="sxs-lookup"><span data-stu-id="be597-133">In the **Work item instructions** field, enter the instructions.</span></span>
+6.  <span data-ttu-id="be597-134">Pour personnaliser les instructions, vous pouvez insérer des espaces réservés.</span><span class="sxs-lookup"><span data-stu-id="be597-134">To personalize the instructions, you can insert placeholders.</span></span> <span data-ttu-id="be597-135">Ils sont remplacés par les données appropriées lorsque les instructions apparaissent aux utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="be597-135">Placeholders are replaced with appropriate data when the instructions are shown to users.</span></span> <span data-ttu-id="be597-136">Pour insérer un espace réservé, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="be597-136">Follow these steps to insert a placeholder:</span></span>
+    1.  <span data-ttu-id="be597-137">Dans la zone de texte, cliquez pour spécifier l'endroit où l'espace réservé doit figurer.</span><span class="sxs-lookup"><span data-stu-id="be597-137">In the text box, click where the placeholder should appear.</span></span>
+    2.  <span data-ttu-id="be597-138">Cliquez sur **Insérer un espace réservé**.</span><span class="sxs-lookup"><span data-stu-id="be597-138">Click **Insert placeholder**.</span></span>
+    3.  <span data-ttu-id="be597-139">Dans la liste qui s'affiche, sélectionnez l'espace réservé que vous souhaitez insérer.</span><span class="sxs-lookup"><span data-stu-id="be597-139">In the list that appears, select the placeholder to insert.</span></span>
+    4.  <span data-ttu-id="be597-140">Cliquez sur **Insérer**</span><span class="sxs-lookup"><span data-stu-id="be597-140">Click **Insert**.</span></span>
 
-7.  Suivez les étapes suivantes pour ajouter une traduction des instructions.
-    1.  Cliquez sur **Traductions**.
-    2.  Dans la page qui s'affiche, cliquez sur **Ajouter**.
-    3.  Dans la liste qui apparaît, sélectionnez la langue de saisie du texte.
-    4.  Entrez le texte dans le champ **Texte traduit**.
-    5.  Pour personnaliser le texte, vous pouvez insérer des espaces réservés tel que décrit à l'étape 6.
-    6.  Cliquez sur **Fermer**.
+7.  <span data-ttu-id="be597-141">Suivez les étapes suivantes pour ajouter une traduction des instructions.</span><span class="sxs-lookup"><span data-stu-id="be597-141">To add translations of the instructions, follow these steps:</span></span>
+    1.  <span data-ttu-id="be597-142">Cliquez sur **Traductions**.</span><span class="sxs-lookup"><span data-stu-id="be597-142">Click **Translations**.</span></span>
+    2.  <span data-ttu-id="be597-143">Dans la page qui s'affiche, cliquez sur **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="be597-143">On the page that appears, click **Add**.</span></span>
+    3.  <span data-ttu-id="be597-144">Dans la liste qui apparaît, sélectionnez la langue de saisie du texte.</span><span class="sxs-lookup"><span data-stu-id="be597-144">In the list that appears, select the language that you're entering the text in.</span></span>
+    4.  <span data-ttu-id="be597-145">Entrez le texte dans le champ **Texte traduit**.</span><span class="sxs-lookup"><span data-stu-id="be597-145">In the **Translated text** field, enter the text.</span></span>
+    5.  <span data-ttu-id="be597-146">Pour personnaliser le texte, vous pouvez insérer des espaces réservés tel que décrit à l'étape 6.</span><span class="sxs-lookup"><span data-stu-id="be597-146">To personalize the text, you can insert placeholders as described in step 6.</span></span>
+    6.  <span data-ttu-id="be597-147">Cliquez sur **Fermer**.</span><span class="sxs-lookup"><span data-stu-id="be597-147">Click **Close**.</span></span>
 
-## <a name="assign-the-task"></a>Affectation de la tâche
-Procédez comme suit pour indiquer à qui affecter la tâche manuelle.
+## <a name="assign-the-task"></a><span data-ttu-id="be597-148">Affectation de la tâche</span><span class="sxs-lookup"><span data-stu-id="be597-148">Assign the task</span></span>
+<span data-ttu-id="be597-149">Procédez comme suit pour indiquer à qui affecter la tâche manuelle.</span><span class="sxs-lookup"><span data-stu-id="be597-149">Follow these steps to specify who the manual task should be assigned to.</span></span>
 
-1.  Dans le volet gauche, cliquez sur **Affectation**.
-2.  Sous l'onglet **Type d'affectation**, sélectionnez l'une des options du tableau suivant et suivez les étapes supplémentaires concernant l'option avant de passer à l'étape 3.
+1.  <span data-ttu-id="be597-150">Dans le volet gauche, cliquez sur **Affectation**.</span><span class="sxs-lookup"><span data-stu-id="be597-150">In the left pane, click **Assignment**.</span></span>
+2.  <span data-ttu-id="be597-151">Sous l'onglet **Type d'affectation**, sélectionnez l'une des options du tableau suivant et suivez les étapes supplémentaires concernant l'option avant de passer à l'étape 3.</span><span class="sxs-lookup"><span data-stu-id="be597-151">On the **Assignment type** tab, select one of the options in the following table, and then follow the additional steps for that option before you go to step 3.</span></span>
     <table>
     <colgroup>
     <col width="33%" />
@@ -87,93 +87,94 @@ Procédez comme suit pour indiquer à qui affecter la tâche manuelle.
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Option</th>
-    <th>Utilisateurs à qui la tâche est affectée</th>
-    <th>Étapes supplémentaires</th>
+    <th><span data-ttu-id="be597-152">Option</span><span class="sxs-lookup"><span data-stu-id="be597-152">Option</span></span></th>
+    <th><span data-ttu-id="be597-153">Utilisateurs à qui la tâche est affectée</span><span class="sxs-lookup"><span data-stu-id="be597-153">Users that the task is assigned to</span></span></th>
+    <th><span data-ttu-id="be597-154">Étapes supplémentaires</span><span class="sxs-lookup"><span data-stu-id="be597-154">Additional steps</span></span></th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td>Participant</td>
-    <td>Utilisateurs affectés à un groupe ou à un rôle spécifique</td>
+    <td><span data-ttu-id="be597-155">Participant</span><span class="sxs-lookup"><span data-stu-id="be597-155">Participant</span></span></td>
+    <td><span data-ttu-id="be597-156">Utilisateurs affectés à un groupe ou à un rôle spécifique</span><span class="sxs-lookup"><span data-stu-id="be597-156">Users who are assigned to a specific group or role</span></span></td>
     <td><ol>
-    <li>Après avoir sélectionné <strong>Participant</strong>, sous l'onglet <strong>Basé sur le rôle</strong>, dans la liste <strong>Type de participant</strong>, sélectionnez le type de groupe ou de rôle auquel affecter la tâche.</li>
-    <li>Dans la liste <strong>Participant</strong>, sélectionnez le groupe ou le rôle auquel affecter la tâche.</li>
+    <li><span data-ttu-id="be597-157">Après avoir sélectionné <strong>Participant</strong>, sous l'onglet <strong>Basé sur le rôle</strong>, dans la liste <strong>Type de participant</strong>, sélectionnez le type de groupe ou de rôle auquel affecter la tâche.</span><span class="sxs-lookup"><span data-stu-id="be597-157">After you select <strong>Participant</strong>, on the <strong>Role based</strong> tab, in the <strong>Type of participant</strong> list, select the type of group or role to assign the task to.</span></span></li>
+    <li><span data-ttu-id="be597-158">Dans la liste <strong>Participant</strong>, sélectionnez le groupe ou le rôle auquel affecter la tâche.</span><span class="sxs-lookup"><span data-stu-id="be597-158">In the <strong>Participant</strong> list, select the group or role to assign the task to.</span></span></li>
     </ol></td>
     </tr>
     <tr class="even">
-    <td>Hiérarchie</td>
-    <td>Utilisateurs d'une hiérarchie organisationnelle spécifique</td>
+    <td><span data-ttu-id="be597-159">Hiérarchie</span><span class="sxs-lookup"><span data-stu-id="be597-159">Hierarchy</span></span></td>
+    <td><span data-ttu-id="be597-160">Utilisateurs d'une hiérarchie organisationnelle spécifique</span><span class="sxs-lookup"><span data-stu-id="be597-160">Users in a specific organizational hierarchy</span></span></td>
     <td><ol>
-    <li>Après avoir sélectionné <strong>Hiérarchie</strong>, sous l'onglet <strong>Sélection de hiérarchie</strong>, dans la liste <strong>Type de hiérarchie</strong>, sélectionnez le type de hiérarchie auquel affecter la tâche.</li>
-    <li>Le système doit extraire un ensemble de noms d'utilisateurs de la hiérarchie. Ces noms représentent les utilisateurs à qui la tâche peut être affectée. Pour indiquer le point de départ et le point final de l'ensemble de noms d'utilisateurs extraits par le système, procédez comme suit : <ol>
-    <li>Pour spécifier le point de départ, sélectionnez une personne dans la liste <strong>Commencer à</strong>.</li>
-    <li>pour indiquer le point final, cliquez sur <strong>Ajouter une condition</strong>. Entrez ensuite une condition pour indiquer où le système arrête l'extraction de noms dans la hiérarchie.</li>
+    <li><span data-ttu-id="be597-161">Après avoir sélectionné <strong>Hiérarchie</strong>, sous l'onglet <strong>Sélection de hiérarchie</strong>, dans la liste <strong>Type de hiérarchie</strong>, sélectionnez le type de hiérarchie auquel affecter la tâche.</span><span class="sxs-lookup"><span data-stu-id="be597-161">After you select <strong>Hierarchy</strong>, on the <strong>Hierarchy selection</strong> tab, in the <strong>Hierarchy type</strong> list, select the type of hierarchy to assign the task to.</span></span></li>
+    <li><span data-ttu-id="be597-162">Le système doit extraire un ensemble de noms d'utilisateurs de la hiérarchie.</span><span class="sxs-lookup"><span data-stu-id="be597-162">The system must retrieve a range of user names from the hierarchy.</span></span> <span data-ttu-id="be597-163">Ces noms représentent les utilisateurs à qui la tâche peut être affectée.</span><span class="sxs-lookup"><span data-stu-id="be597-163">These names represent users that the task can be assigned to.</span></span> <span data-ttu-id="be597-164">Pour indiquer le point de départ et le point final de l'ensemble de noms d'utilisateurs extraits par le système, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="be597-164">Follow these steps to specify the starting point and ending point of the range of user names that the system retrieves:</span></span> <ol>
+    <li><span data-ttu-id="be597-165">Pour spécifier le point de départ, sélectionnez une personne dans la liste <strong>Commencer à</strong>.</span><span class="sxs-lookup"><span data-stu-id="be597-165">To specify the starting point, select a person in the <strong>Start from</strong> list.</span></span></li>
+    <li><span data-ttu-id="be597-166">pour indiquer le point final, cliquez sur <strong>Ajouter une condition</strong>.</span><span class="sxs-lookup"><span data-stu-id="be597-166">To specify the ending point, click <strong>Add condition</strong>.</span></span> <span data-ttu-id="be597-167">Entrez ensuite une condition pour indiquer où le système arrête l'extraction de noms dans la hiérarchie.</span><span class="sxs-lookup"><span data-stu-id="be597-167">Then enter a condition that determines where in the hierarchy the system stops retrieving names.</span></span></li>
     </ol></li>
-    <li>Sous l'onglet <strong>Options de la hiérarchie</strong>, spécifiez les utilisateurs de la sélection auxquels affecter la tâche : <ul>
-    <li><strong>Affecter à tous les utilisateurs récupérés</strong> – La tâche est affectée à tous les utilisateurs de la sélection.</li>
-    <li><strong>Affecter uniquement au dernier utilisateur récupéré</strong> – La tâche est affectée uniquement au dernier utilisateur de la sélection.</li>
-    <li><strong>Exclure les utilisateurs à la condition suivante</strong> – La tâche n'est affectée à aucun des utilisateurs de la sélection qui remplissent une condition. Cliquez sur <strong>Ajouter une condition</strong> pour spécifier la condition.</li>
+    <li><span data-ttu-id="be597-168">Sous l'onglet <strong>Options de la hiérarchie</strong>, spécifiez les utilisateurs de la sélection auxquels affecter la tâche :</span><span class="sxs-lookup"><span data-stu-id="be597-168">On the <strong>Hierarchy options</strong> tab, specify which users in the range the task should be assigned to:</span></span> <ul>
+    <li><span data-ttu-id="be597-169"><strong>Affecter à tous les utilisateurs récupérés</strong> – La tâche est affectée à tous les utilisateurs de la sélection.</span><span class="sxs-lookup"><span data-stu-id="be597-169"><strong>Assign to all users retrieved</strong> – The task is assigned to all users in the range.</span></span></li>
+    <li><span data-ttu-id="be597-170"><strong>Affecter uniquement au dernier utilisateur récupéré</strong> – La tâche est affectée uniquement au dernier utilisateur de la sélection.</span><span class="sxs-lookup"><span data-stu-id="be597-170"><strong>Assign only to last user retrieved</strong> – The task is assigned to only the last user in the range.</span></span></li>
+    <li><span data-ttu-id="be597-171"><strong>Exclure les utilisateurs à la condition suivante</strong> – La tâche n'est affectée à aucun des utilisateurs de la sélection qui remplissent une condition.</span><span class="sxs-lookup"><span data-stu-id="be597-171"><strong>Exclude users with the following condition</strong> – The task isn't assigned to users in the range who meet a specific condition.</span></span> <span data-ttu-id="be597-172">Cliquez sur <strong>Ajouter une condition</strong> pour spécifier la condition.</span><span class="sxs-lookup"><span data-stu-id="be597-172">Click <strong>Add condition</strong> to specify the condition.</span></span></li>
     </ul></li>
     </ol></td>
     </tr>
     <tr class="odd">
-    <td>Utilisateur du workflow</td>
-    <td>Utilisateurs du workflow actuel</td>
+    <td><span data-ttu-id="be597-173">Utilisateur du workflow</span><span class="sxs-lookup"><span data-stu-id="be597-173">Workflow user</span></span></td>
+    <td><span data-ttu-id="be597-174">Utilisateurs du workflow actuel</span><span class="sxs-lookup"><span data-stu-id="be597-174">Users in the current workflow</span></span></td>
     <td><ul>
-    <li>Après avoir sélectionné <strong>Utilisateur du workflow</strong>, sous l'onglet <strong>Utilisateur du workflow</strong>, dans la liste <strong>Utilisateur du workflow</strong>, sélectionnez un utilisateur qui participe au workflow.</li>
+    <li><span data-ttu-id="be597-175">Après avoir sélectionné <strong>Utilisateur du workflow</strong>, sous l'onglet <strong>Utilisateur du workflow</strong>, dans la liste <strong>Utilisateur du workflow</strong>, sélectionnez un utilisateur qui participe au workflow.</span><span class="sxs-lookup"><span data-stu-id="be597-175">After you select <strong>Workflow user</strong>, on the <strong>Workflow user</strong> tab, in the <strong>Workflow user</strong> list, select a user who participates in the workflow.</span></span></li>
     </ul></td>
     </tr>
     <tr class="even">
-    <td>Utilisateur</td>
-    <td>Utilisateurs de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition spécifiques</td>
+    <td><span data-ttu-id="be597-176">Utilisateur</span><span class="sxs-lookup"><span data-stu-id="be597-176">User</span></span></td>
+    <td><span data-ttu-id="be597-177">Utilisateurs de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition spécifiques</span><span class="sxs-lookup"><span data-stu-id="be597-177">Specific Microsoft Dynamics 365 for Finance and Operations users</span></span></td>
     <td><ol>
-    <li>Sélectionnez <strong>Utilisateur</strong>, puis cliquez sur l'onglet <strong>Utilisateur</strong>.</li>
-    <li>La liste <strong>Utilisateurs disponibles</strong> inclut tous les utilisateurs Finance and Operations. Sélectionnez les utilisateurs à qui vous souhaitez affecter la tâche, puis déplacez-les dans la liste <strong>Utilisateurs sélectionnés</strong>.</li>
+    <li><span data-ttu-id="be597-178">Sélectionnez <strong>Utilisateur</strong>, puis cliquez sur l'onglet <strong>Utilisateur</strong>.</span><span class="sxs-lookup"><span data-stu-id="be597-178">After you select <strong>User</strong>, click the <strong>User</strong> tab.</span></span></li>
+    <li><span data-ttu-id="be597-179">La liste <strong>Utilisateurs disponibles</strong> inclut tous les utilisateurs Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="be597-179">The <strong>Available users</strong> list includes all Finance and Operations users.</span></span> <span data-ttu-id="be597-180">Sélectionnez les utilisateurs à qui vous souhaitez affecter la tâche, puis déplacez-les dans la liste <strong>Utilisateurs sélectionnés</strong>.</span><span class="sxs-lookup"><span data-stu-id="be597-180">Select the users to assign the task to, and then move those users to the <strong>Selected users</strong> list.</span></span></li>
     </ol></td>
     </tr>
     <tr class="odd">
-    <td>File d'attente</td>
-    <td>File d'attente des éléments de travail</td>
+    <td><span data-ttu-id="be597-181">File d'attente</span><span class="sxs-lookup"><span data-stu-id="be597-181">Queue</span></span></td>
+    <td><span data-ttu-id="be597-182">File d'attente des éléments de travail</span><span class="sxs-lookup"><span data-stu-id="be597-182">A work item queue</span></span></td>
     <td><ol>
-    <li>Après avoir sélectionné <strong>File d'attente</strong>, cliquez sur l'onglet <strong>Basé sur la file d'attente</strong>.</li>
-    <li>Pour affecter la tâche à une file d'attente donnée, procédez comme suit : <ol>
-    <li>Dans la liste <strong>Type de file d'attente</strong>, sélectionnez <strong>Files d'attente des éléments de travail</strong>.</li>
-    <li>Sélectionnez la file d'attente dans la liste <strong>Nom de file d'attente</strong>.</li>
+    <li><span data-ttu-id="be597-183">Après avoir sélectionné <strong>File d'attente</strong>, cliquez sur l'onglet <strong>Basé sur la file d'attente</strong>.</span><span class="sxs-lookup"><span data-stu-id="be597-183">After you select <strong>Queue</strong>, click the <strong>Queue based</strong> tab.</span></span></li>
+    <li><span data-ttu-id="be597-184">Pour affecter la tâche à une file d'attente donnée, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="be597-184">To assign the task to a specific queue, follow these steps:</span></span> <ol>
+    <li><span data-ttu-id="be597-185">Dans la liste <strong>Type de file d'attente</strong>, sélectionnez <strong>Files d'attente des éléments de travail</strong>.</span><span class="sxs-lookup"><span data-stu-id="be597-185">In the <strong>Queue type</strong> list, select <strong>Work item queues</strong>.</span></span></li>
+    <li><span data-ttu-id="be597-186">Sélectionnez la file d'attente dans la liste <strong>Nom de file d'attente</strong>.</span><span class="sxs-lookup"><span data-stu-id="be597-186">In the <strong>Queue name</strong> list, select the queue.</span></span></li>
     </ol></li>
-    <li>Si une condition détermine la file d'attente à laquelle la tâche est affectée, procédez comme suit : <ol>
-    <li>Dans la liste <strong>Type de file d'attente</strong>, sélectionnez <strong>Files d'attente conditionnelles des éléments de travail</strong>.</li>
-    <li>Dans la liste <strong>Nom de file d'attente</strong>, sélectionnez <strong>File d'attente conditionnelle</strong>.</li>
+    <li><span data-ttu-id="be597-187">Si une condition détermine la file d'attente à laquelle la tâche est affectée, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="be597-187">If a specific condition should determine which queue the task is assigned to, follow these steps:</span></span> <ol>
+    <li><span data-ttu-id="be597-188">Dans la liste <strong>Type de file d'attente</strong>, sélectionnez <strong>Files d'attente conditionnelles des éléments de travail</strong>.</span><span class="sxs-lookup"><span data-stu-id="be597-188">In the <strong>Queue type</strong> list, select <strong>Conditional work item queues</strong>.</span></span></li>
+    <li><span data-ttu-id="be597-189">Dans la liste <strong>Nom de file d'attente</strong>, sélectionnez <strong>File d'attente conditionnelle</strong>.</span><span class="sxs-lookup"><span data-stu-id="be597-189">In the <strong>Queue name</strong> list, select <strong>Conditional queue</strong>.</span></span></li>
     </ol></li>
-    </ol>
-    <strong>Remarque :</strong> Cette option est utilisée uniquement pour certains workflows, tels que Gestion des dossiers.</td>
+    </ol><span data-ttu-id="be597-190">
+    <strong>Remarque :</strong> Cette option est utilisée uniquement pour certains workflows, tels que Gestion des dossiers.</span><span class="sxs-lookup"><span data-stu-id="be597-190">
+    <strong>Note:</strong> This option is used for only a few workflows, such as Case management.</span></span></td>
     </tr>
     </tbody>
     </table>
 
-3.  Sous l'onglet **Limite de temps**, dans le champ **Durée**, indiquez le délai accordé à l'utilisateur pour réaliser la tâche. Permet de sélectionner l'une des options suivantes :
-    -   **Heures** – Permet d'entrer le nombre d'heures accordées à l'utilisateur pour terminer la tâche. Sélectionnez ensuite le calendrier utilisé par votre organisation, puis entrez les informations relatives à la semaine de travail de votre organisation.
-    -   **Jours** – Permet d'entrer le nombre de jours accordés à l'utilisateur pour terminer la tâche. Sélectionnez ensuite le calendrier utilisé par votre organisation, puis entrez les informations relatives à la semaine de travail de votre organisation.
-    -   **Semaines** – Permet d'entrer le nombre de semaines accordées à l'utilisateur pour terminer la tâche.
-    -   **Mois** – Permet de sélectionner le jour et la semaine où l'utilisateur doit terminer la tâche. Vous voudrez peut-être que l'utilisateur ait effectué la tâche d'ici le vendredi de la troisième semaine du mois.
-    -   **Années** – Permet de sélectionner le jour et le mois où l'utilisateur doit terminer la tâche. Vous voudrez peut-être que l'utilisateur ait effectué la tâche d'ici le vendredi de la troisième semaine de décembre.
+3.  <span data-ttu-id="be597-191">Sous l'onglet **Limite de temps**, dans le champ **Durée**, indiquez le délai accordé à l'utilisateur pour réaliser la tâche.</span><span class="sxs-lookup"><span data-stu-id="be597-191">On the **Time limit** tab, in the **Duration** field, specify how much time the user has to complete the task.</span></span> <span data-ttu-id="be597-192">Permet de sélectionner l'une des options suivantes :</span><span class="sxs-lookup"><span data-stu-id="be597-192">Select one of the following options:</span></span>
+    -   <span data-ttu-id="be597-193">**Heures** – Permet d'entrer le nombre d'heures accordées à l'utilisateur pour terminer la tâche.</span><span class="sxs-lookup"><span data-stu-id="be597-193">**Hours** – Enter the number of hours that the user has to complete the task.</span></span> <span data-ttu-id="be597-194">Sélectionnez ensuite le calendrier utilisé par votre organisation, puis entrez les informations relatives à la semaine de travail de votre organisation.</span><span class="sxs-lookup"><span data-stu-id="be597-194">Then select the calendar that your organization uses, and enter information about your organization's work week.</span></span>
+    -   <span data-ttu-id="be597-195">**Jours** – Permet d'entrer le nombre de jours accordés à l'utilisateur pour terminer la tâche.</span><span class="sxs-lookup"><span data-stu-id="be597-195">**Days** – Enter the number of days that the user has to complete the task.</span></span> <span data-ttu-id="be597-196">Sélectionnez ensuite le calendrier utilisé par votre organisation, puis entrez les informations relatives à la semaine de travail de votre organisation.</span><span class="sxs-lookup"><span data-stu-id="be597-196">Then select the calendar that your organization uses, and enter information about your organization's work week.</span></span>
+    -   <span data-ttu-id="be597-197">**Semaines** – Permet d'entrer le nombre de semaines accordées à l'utilisateur pour terminer la tâche.</span><span class="sxs-lookup"><span data-stu-id="be597-197">**Weeks** – Enter the number of weeks that the user has to complete the task.</span></span>
+    -   <span data-ttu-id="be597-198">**Mois** – Permet de sélectionner le jour et la semaine où l'utilisateur doit terminer la tâche.</span><span class="sxs-lookup"><span data-stu-id="be597-198">**Months** – Select the day and week that the user must complete the task by.</span></span> <span data-ttu-id="be597-199">Vous voudrez peut-être que l'utilisateur ait effectué la tâche d'ici le vendredi de la troisième semaine du mois.</span><span class="sxs-lookup"><span data-stu-id="be597-199">For example, you might want the user to complete the task by Friday of the third week of the month.</span></span>
+    -   <span data-ttu-id="be597-200">**Années** – Permet de sélectionner le jour et le mois où l'utilisateur doit terminer la tâche.</span><span class="sxs-lookup"><span data-stu-id="be597-200">**Years** – Select the day, week, and month that the user must complete the task by.</span></span> <span data-ttu-id="be597-201">Vous voudrez peut-être que l'utilisateur ait effectué la tâche d'ici le vendredi de la troisième semaine de décembre.</span><span class="sxs-lookup"><span data-stu-id="be597-201">For example, you might want the user to complete the task by Friday of the third week of December.</span></span>
 
-    Si l'utilisateur ne termine pas la tâche dans le délai imparti, la tâche est en retard. Une tâche en retard peut être réaffectée, conformément aux options que vous sélectionnez dans la zone **Escalade** de cette page.
+    <span data-ttu-id="be597-202">Si l'utilisateur ne termine pas la tâche dans le délai imparti, la tâche est en retard.</span><span class="sxs-lookup"><span data-stu-id="be597-202">If the user doesn't complete the task in the allotted time, the task is overdue.</span></span> <span data-ttu-id="be597-203">Une tâche en retard peut être réaffectée, conformément aux options que vous sélectionnez dans la zone **Escalade** de cette page.</span><span class="sxs-lookup"><span data-stu-id="be597-203">A task that is overdue can be escalated, based on the options that you select in the **Escalation** area of the page.</span></span>
 
-## <a name="specify-what-happens-when-the-task-is-overdue"></a>Spécification des conséquences du retard de la tâche
-Si un utilisateur ne termine pas la tâche manuelle dans le délai imparti, la tâche est en retard. Une tâche en retard peut être affectée à un échelon supérieur ou affectée automatiquement à un autre utilisateur. Procédez comme suit pour réaffecter la tâche en retard.
+## <a name="specify-what-happens-when-the-task-is-overdue"></a><span data-ttu-id="be597-204">Spécification des conséquences du retard de la tâche</span><span class="sxs-lookup"><span data-stu-id="be597-204">Specify what happens when the task is overdue</span></span>
+<span data-ttu-id="be597-205">Si un utilisateur ne termine pas la tâche manuelle dans le délai imparti, la tâche est en retard.</span><span class="sxs-lookup"><span data-stu-id="be597-205">If a user doesn't complete the manual task in the allotted time, the task is overdue.</span></span> <span data-ttu-id="be597-206">Une tâche en retard peut être affectée à un échelon supérieur ou affectée automatiquement à un autre utilisateur.</span><span class="sxs-lookup"><span data-stu-id="be597-206">A task that is overdue can be escalated, or automatically assigned to another user.</span></span> <span data-ttu-id="be597-207">Procédez comme suit pour réaffecter la tâche en retard.</span><span class="sxs-lookup"><span data-stu-id="be597-207">Follow these steps to escalate the task if it's overdue.</span></span>
 
-1.  Dans le volet gauche, cliquez sur **Escalade**.
-2.  Activez la case à cocher **Utiliser le chemin de réaffectation** pour créer un chemin de réaffectation. Le système affecte automatiquement la tâche aux utilisateurs répertoriés dans le chemin de réaffectation. Le tableau suivant présente un exemple de chemin de réaffectation.
+1.  <span data-ttu-id="be597-208">Dans le volet gauche, cliquez sur **Escalade**.</span><span class="sxs-lookup"><span data-stu-id="be597-208">In the left pane, click **Escalation**.</span></span>
+2.  <span data-ttu-id="be597-209">Activez la case à cocher **Utiliser le chemin de réaffectation** pour créer un chemin de réaffectation.</span><span class="sxs-lookup"><span data-stu-id="be597-209">Select the **Use escalation path** check box to create an escalation path.</span></span> <span data-ttu-id="be597-210">Le système affecte automatiquement la tâche aux utilisateurs répertoriés dans le chemin de réaffectation.</span><span class="sxs-lookup"><span data-stu-id="be597-210">The system automatically assigns the task to the users who are listed in the escalation path.</span></span> <span data-ttu-id="be597-211">Le tableau suivant présente un exemple de chemin de réaffectation.</span><span class="sxs-lookup"><span data-stu-id="be597-211">For example, the following table represents an escalation path.</span></span>
 
-    | Séquence | Chemin de réaffectation      |
+    | <span data-ttu-id="be597-212">Séquence</span><span class="sxs-lookup"><span data-stu-id="be597-212">Sequence</span></span> | <span data-ttu-id="be597-213">Chemin de réaffectation</span><span class="sxs-lookup"><span data-stu-id="be597-213">Escalation path</span></span>      |
     |----------|----------------------|
-    | 1        | Affecter à : Donna     |
-    | 2        | Affecter à : Erin      |
-    | 3        | Action finale : Rejeter |
+    | <span data-ttu-id="be597-214">1</span><span class="sxs-lookup"><span data-stu-id="be597-214">1</span></span>        | <span data-ttu-id="be597-215">Affecter à : Donna</span><span class="sxs-lookup"><span data-stu-id="be597-215">Assign to: Donna</span></span>     |
+    | <span data-ttu-id="be597-216">2</span><span class="sxs-lookup"><span data-stu-id="be597-216">2</span></span>        | <span data-ttu-id="be597-217">Affecter à : Erin</span><span class="sxs-lookup"><span data-stu-id="be597-217">Assign to: Erin</span></span>      |
+    | <span data-ttu-id="be597-218">3</span><span class="sxs-lookup"><span data-stu-id="be597-218">3</span></span>        | <span data-ttu-id="be597-219">Action finale : Rejeter</span><span class="sxs-lookup"><span data-stu-id="be597-219">Final action: Reject</span></span> |
 
-    Dans cet exemple, le système affecte la tâche en retard à Donna. Si celle-ci ne termine pas la tâche dans le délai imparti, le système affecte la tâche à Erin. Si celle-ci ne termine pas la tâche dans le délai imparti, le système rejette le document qui était soumis pour traitement.
-3.  Pour ajouter un utilisateur dans le chemin de réaffectation, cliquez sur **Ajouter une réaffectation**. Sous l'onglet **Type d'affectation**, sélectionnez l'une des options du tableau suivant et suivez les étapes supplémentaires concernant l'option avant de passer à l'étape 4.
+    <span data-ttu-id="be597-220">Dans cet exemple, le système affecte la tâche en retard à Donna.</span><span class="sxs-lookup"><span data-stu-id="be597-220">In this example, the system assigns the overdue task to Donna.</span></span> <span data-ttu-id="be597-221">Si celle-ci ne termine pas la tâche dans le délai imparti, le système affecte la tâche à Erin.</span><span class="sxs-lookup"><span data-stu-id="be597-221">If Donna doesn't complete the task in the allotted time, the system assigns the task to Erin.</span></span> <span data-ttu-id="be597-222">Si celle-ci ne termine pas la tâche dans le délai imparti, le système rejette le document qui était soumis pour traitement.</span><span class="sxs-lookup"><span data-stu-id="be597-222">If Erin doesn't complete the task in the allotted time, the system rejects the document that was submitted for processing.</span></span>
+3.  <span data-ttu-id="be597-223">Pour ajouter un utilisateur dans le chemin de réaffectation, cliquez sur **Ajouter une réaffectation**.</span><span class="sxs-lookup"><span data-stu-id="be597-223">To add a user to the escalation path, click **Add escalation**.</span></span> <span data-ttu-id="be597-224">Sous l'onglet **Type d'affectation**, sélectionnez l'une des options du tableau suivant et suivez les étapes supplémentaires concernant l'option avant de passer à l'étape 4.</span><span class="sxs-lookup"><span data-stu-id="be597-224">On the **Assignment type** tab, select one of the options in the following table, and then follow the additional steps for that option before you go to step 4.</span></span>
     <table>
     <colgroup>
     <col width="33%" />
@@ -182,100 +183,100 @@ Si un utilisateur ne termine pas la tâche manuelle dans le délai imparti, la t
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Option</th>
-    <th>Utilisateurs à qui la tâche est affectée</th>
-    <th>Étapes supplémentaires</th>
+    <th><span data-ttu-id="be597-225">Option</span><span class="sxs-lookup"><span data-stu-id="be597-225">Option</span></span></th>
+    <th><span data-ttu-id="be597-226">Utilisateurs à qui la tâche est affectée</span><span class="sxs-lookup"><span data-stu-id="be597-226">Users that the task is escalated to</span></span></th>
+    <th><span data-ttu-id="be597-227">Étapes supplémentaires</span><span class="sxs-lookup"><span data-stu-id="be597-227">Additional steps</span></span></th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td>Hiérarchie</td>
-    <td>Utilisateurs d'une hiérarchie organisationnelle spécifique</td>
+    <td><span data-ttu-id="be597-228">Hiérarchie</span><span class="sxs-lookup"><span data-stu-id="be597-228">Hierarchy</span></span></td>
+    <td><span data-ttu-id="be597-229">Utilisateurs d'une hiérarchie organisationnelle spécifique</span><span class="sxs-lookup"><span data-stu-id="be597-229">Users in a specific organizational hierarchy</span></span></td>
     <td><ol>
-    <li>Après avoir sélectionné <strong>Hiérarchie</strong>, sous l'onglet <strong>Sélection de hiérarchie</strong>, dans la liste <strong>Type de hiérarchie</strong>, sélectionnez le type de hiérarchie auquel réaffecter la tâche.</li>
-    <li>Le système doit extraire un ensemble de noms d'utilisateurs de la hiérarchie. Ces noms représentent les utilisateurs à qui la tâche peut être réaffectée. Pour indiquer le point de départ et le point final de l'ensemble de noms d'utilisateurs extraits par le système, procédez comme suit : <ol>
-    <li>Pour spécifier le point de départ, sélectionnez une personne dans la liste <strong>Commencer à</strong>.</li>
-    <li>pour indiquer le point final, cliquez sur <strong>Ajouter une condition</strong>. Entrez ensuite une condition pour indiquer où le système arrête l'extraction de noms dans la hiérarchie.</li>
+    <li><span data-ttu-id="be597-230">Après avoir sélectionné <strong>Hiérarchie</strong>, sous l'onglet <strong>Sélection de hiérarchie</strong>, dans la liste <strong>Type de hiérarchie</strong>, sélectionnez le type de hiérarchie auquel réaffecter la tâche.</span><span class="sxs-lookup"><span data-stu-id="be597-230">After you select <strong>Hierarchy</strong>, on the <strong>Hierarchy selection</strong> tab, in the <strong>Hierarchy type</strong> list, select the type of hierarchy to escalate the task to.</span></span></li>
+    <li><span data-ttu-id="be597-231">Le système doit extraire un ensemble de noms d'utilisateurs de la hiérarchie.</span><span class="sxs-lookup"><span data-stu-id="be597-231">The system must retrieve a range of user names from the hierarchy.</span></span> <span data-ttu-id="be597-232">Ces noms représentent les utilisateurs à qui la tâche peut être réaffectée.</span><span class="sxs-lookup"><span data-stu-id="be597-232">These names represent users that the task can be escalated to.</span></span> <span data-ttu-id="be597-233">Pour indiquer le point de départ et le point final de l'ensemble de noms d'utilisateurs extraits par le système, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="be597-233">Follow these steps to specify the starting point and ending point of the range of user names that the system retrieves:</span></span> <ol>
+    <li><span data-ttu-id="be597-234">Pour spécifier le point de départ, sélectionnez une personne dans la liste <strong>Commencer à</strong>.</span><span class="sxs-lookup"><span data-stu-id="be597-234">To specify the starting point, select a person in the <strong>Start from</strong> list.</span></span></li>
+    <li><span data-ttu-id="be597-235">pour indiquer le point final, cliquez sur <strong>Ajouter une condition</strong>.</span><span class="sxs-lookup"><span data-stu-id="be597-235">To specify the ending point, click <strong>Add condition</strong>.</span></span> <span data-ttu-id="be597-236">Entrez ensuite une condition pour indiquer où le système arrête l'extraction de noms dans la hiérarchie.</span><span class="sxs-lookup"><span data-stu-id="be597-236">Then enter a condition that determines where in the hierarchy the system stops retrieving names.</span></span></li>
     </ol></li>
-    <li>Sous l'onglet <strong>Options de la hiérarchie</strong>, spécifiez les utilisateurs de la sélection auxquels réaffecter la tâche : <ul>
-    <li><strong>Affecter à tous les utilisateurs récupérés</strong> – La tâche est réaffectée à tous les utilisateurs de la sélection.</li>
-    <li><strong>Affecter uniquement au dernier utilisateur récupéré</strong> – La tâche est réaffectée uniquement au dernier utilisateur de la sélection.</li>
-    <li><strong>Exclure les utilisateurs à la condition suivante</strong> – La tâche n'est réaffectée à aucun des utilisateurs de la sélection qui remplissent une condition. Cliquez sur <strong>Ajouter une condition</strong> pour spécifier la condition.</li>
+    <li><span data-ttu-id="be597-237">Sous l'onglet <strong>Options de la hiérarchie</strong>, spécifiez les utilisateurs de la sélection auxquels réaffecter la tâche :</span><span class="sxs-lookup"><span data-stu-id="be597-237">On the <strong>Hierarchy options</strong> tab, specify which users in the range the task should be escalated to:</span></span> <ul>
+    <li><span data-ttu-id="be597-238"><strong>Affecter à tous les utilisateurs récupérés</strong> – La tâche est réaffectée à tous les utilisateurs de la sélection.</span><span class="sxs-lookup"><span data-stu-id="be597-238"><strong>Assign to all users retrieved</strong> – The task is escalated to all users in the range.</span></span></li>
+    <li><span data-ttu-id="be597-239"><strong>Affecter uniquement au dernier utilisateur récupéré</strong> – La tâche est réaffectée uniquement au dernier utilisateur de la sélection.</span><span class="sxs-lookup"><span data-stu-id="be597-239"><strong>Assign only to last user retrieved</strong> – The task is escalated to only the last user in the range.</span></span></li>
+    <li><span data-ttu-id="be597-240"><strong>Exclure les utilisateurs à la condition suivante</strong> – La tâche n'est réaffectée à aucun des utilisateurs de la sélection qui remplissent une condition.</span><span class="sxs-lookup"><span data-stu-id="be597-240"><strong>Exclude users with the following condition</strong> – This task isn't escalated to users in the range who meet a specific condition.</span></span> <span data-ttu-id="be597-241">Cliquez sur <strong>Ajouter une condition</strong> pour spécifier la condition.</span><span class="sxs-lookup"><span data-stu-id="be597-241">Click <strong>Add condition</strong> to specify the condition.</span></span></li>
     </ul></li>
     </ol></td>
     </tr>
     <tr class="even">
-    <td>Utilisateur du workflow</td>
-    <td>Utilisateurs du workflow actuel</td>
+    <td><span data-ttu-id="be597-242">Utilisateur du workflow</span><span class="sxs-lookup"><span data-stu-id="be597-242">Workflow user</span></span></td>
+    <td><span data-ttu-id="be597-243">Utilisateurs du workflow actuel</span><span class="sxs-lookup"><span data-stu-id="be597-243">Users in the current workflow</span></span></td>
     <td><ul>
-    <li>Après avoir sélectionné <strong>Utilisateur du workflow</strong>, sous l'onglet <strong>Utilisateur du workflow</strong>, dans la liste <strong>Utilisateur du workflow</strong>, sélectionnez un utilisateur qui participe au workflow.</li>
+    <li><span data-ttu-id="be597-244">Après avoir sélectionné <strong>Utilisateur du workflow</strong>, sous l'onglet <strong>Utilisateur du workflow</strong>, dans la liste <strong>Utilisateur du workflow</strong>, sélectionnez un utilisateur qui participe au workflow.</span><span class="sxs-lookup"><span data-stu-id="be597-244">After you select <strong>Workflow user</strong>, on the <strong>Workflow user</strong> tab, in the <strong>Workflow user</strong> list, select a user who participates in the workflow.</span></span></li>
     </ul></td>
     </tr>
     <tr class="odd">
-    <td>Utilisateur</td>
-    <td>Utilisateurs Finance and Operations spécifiques</td>
+    <td><span data-ttu-id="be597-245">Utilisateur</span><span class="sxs-lookup"><span data-stu-id="be597-245">User</span></span></td>
+    <td><span data-ttu-id="be597-246">Utilisateurs Finance and Operations spécifiques</span><span class="sxs-lookup"><span data-stu-id="be597-246">Specific Finance and Operations users</span></span></td>
     <td><ol>
-    <li>Sélectionnez <strong>Utilisateur</strong>, puis cliquez sur l'onglet <strong>Utilisateur</strong>.</li>
-    <li>La liste <strong>Utilisateurs disponibles</strong> inclut tous les utilisateurs Finance and Operations. Sélectionnez les utilisateurs à qui vous souhaitez réaffecter la tâche, puis déplacez-les dans la liste <strong>Utilisateurs sélectionnés</strong>.</li>
+    <li><span data-ttu-id="be597-247">Sélectionnez <strong>Utilisateur</strong>, puis cliquez sur l'onglet <strong>Utilisateur</strong>.</span><span class="sxs-lookup"><span data-stu-id="be597-247">After you select <strong>User</strong>, click the <strong>User</strong> tab.</span></span></li>
+    <li><span data-ttu-id="be597-248">La liste <strong>Utilisateurs disponibles</strong> inclut tous les utilisateurs Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="be597-248">The <strong>Available users</strong> list includes all Finance and Operations users.</span></span> <span data-ttu-id="be597-249">Sélectionnez les utilisateurs à qui vous souhaitez réaffecter la tâche, puis déplacez-les dans la liste <strong>Utilisateurs sélectionnés</strong>.</span><span class="sxs-lookup"><span data-stu-id="be597-249">Select the users to escalate the task to, and then move those users to the <strong>Selected users</strong> list.</span></span></li>
     </ol></td>
     </tr>
     </tbody>
     </table>
 
-4.  Sous l'onglet **Limite de temps**, dans le champ **Durée**, indiquez le délai accordé à l'utilisateur pour réaliser la tâche. Permet de sélectionner l'une des options suivantes :
-    -   **Heures** – Permet d'entrer le nombre d'heures accordées à l'utilisateur pour terminer la tâche. Sélectionnez ensuite le calendrier utilisé par votre organisation, puis entrez les informations relatives à la semaine de travail de votre organisation.
-    -   **Jours** – Permet d'entrer le nombre de jours accordés à l'utilisateur pour terminer la tâche. Sélectionnez ensuite le calendrier utilisé par votre organisation, puis entrez les informations relatives à la semaine de travail de votre organisation.
-    -   **Semaines** – Permet d'entrer le nombre de semaines accordées à l'utilisateur pour terminer la tâche.
-    -   **Mois** – Permet de sélectionner le jour et la semaine où l'utilisateur doit terminer la tâche. Vous voudrez peut-être que l'utilisateur ait effectué la tâche d'ici le vendredi de la troisième semaine du mois.
-    -   **Années** – Permet de sélectionner le jour et le mois où l'utilisateur doit terminer la tâche. Vous voudrez peut-être que l'utilisateur ait effectué la tâche d'ici le vendredi de la troisième semaine de décembre.
+4.  <span data-ttu-id="be597-250">Sous l'onglet **Limite de temps**, dans le champ **Durée**, indiquez le délai accordé à l'utilisateur pour réaliser la tâche.</span><span class="sxs-lookup"><span data-stu-id="be597-250">On the **Time limit** tab, in the **Duration** field, specify how much time the user has to complete the task.</span></span> <span data-ttu-id="be597-251">Permet de sélectionner l'une des options suivantes :</span><span class="sxs-lookup"><span data-stu-id="be597-251">Select one of the following options:</span></span>
+    -   <span data-ttu-id="be597-252">**Heures** – Permet d'entrer le nombre d'heures accordées à l'utilisateur pour terminer la tâche.</span><span class="sxs-lookup"><span data-stu-id="be597-252">**Hours** – Enter the number of hours that the user has to complete the task.</span></span> <span data-ttu-id="be597-253">Sélectionnez ensuite le calendrier utilisé par votre organisation, puis entrez les informations relatives à la semaine de travail de votre organisation.</span><span class="sxs-lookup"><span data-stu-id="be597-253">Then select the calendar that your organization uses, and enter information about your organization's work week.</span></span>
+    -   <span data-ttu-id="be597-254">**Jours** – Permet d'entrer le nombre de jours accordés à l'utilisateur pour terminer la tâche.</span><span class="sxs-lookup"><span data-stu-id="be597-254">**Days** – Enter the number of days that the user has to complete the task.</span></span> <span data-ttu-id="be597-255">Sélectionnez ensuite le calendrier utilisé par votre organisation, puis entrez les informations relatives à la semaine de travail de votre organisation.</span><span class="sxs-lookup"><span data-stu-id="be597-255">Then select the calendar that your organization uses, and enter information about your organization's work week.</span></span>
+    -   <span data-ttu-id="be597-256">**Semaines** – Permet d'entrer le nombre de semaines accordées à l'utilisateur pour terminer la tâche.</span><span class="sxs-lookup"><span data-stu-id="be597-256">**Weeks** – Enter the number of weeks that the user has to complete the task.</span></span>
+    -   <span data-ttu-id="be597-257">**Mois** – Permet de sélectionner le jour et la semaine où l'utilisateur doit terminer la tâche.</span><span class="sxs-lookup"><span data-stu-id="be597-257">**Months** – Select the day and week that the user must complete the task by.</span></span> <span data-ttu-id="be597-258">Vous voudrez peut-être que l'utilisateur ait effectué la tâche d'ici le vendredi de la troisième semaine du mois.</span><span class="sxs-lookup"><span data-stu-id="be597-258">For example, you might want the user to complete the task by Friday of the third week of the month.</span></span>
+    -   <span data-ttu-id="be597-259">**Années** – Permet de sélectionner le jour et le mois où l'utilisateur doit terminer la tâche.</span><span class="sxs-lookup"><span data-stu-id="be597-259">**Years** – Select the day, week, and month that the user must complete the task by.</span></span> <span data-ttu-id="be597-260">Vous voudrez peut-être que l'utilisateur ait effectué la tâche d'ici le vendredi de la troisième semaine de décembre.</span><span class="sxs-lookup"><span data-stu-id="be597-260">For example, you might want the user to complete the task by Friday of the third week of December.</span></span>
 
-5.  Répétez les étapes 3 à 4 pour chaque utilisateur à ajouter au chemin de réaffectation. Vous pouvez modifier l'ordre des utilisateurs.
-6.  Si les utilisateurs du chemin de réaffectation ne terminent pas la tâche dans le délai imparti, le système agit sur la tâche. Pour indiquer l'action exécutée par le système, sélectionnez la ligne **Action**, puis sélectionnez une action sous l'onglet **Terminer l'action**.
+5.  <span data-ttu-id="be597-261">Répétez les étapes 3 à 4 pour chaque utilisateur à ajouter au chemin de réaffectation.</span><span class="sxs-lookup"><span data-stu-id="be597-261">Repeat steps 3 through 4 for each user that should be added to the escalation path.</span></span> <span data-ttu-id="be597-262">Vous pouvez modifier l'ordre des utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="be597-262">You can change the order of the users.</span></span>
+6.  <span data-ttu-id="be597-263">Si les utilisateurs du chemin de réaffectation ne terminent pas la tâche dans le délai imparti, le système agit sur la tâche.</span><span class="sxs-lookup"><span data-stu-id="be597-263">If the users in the escalation path don't complete the task in the allotted time, the system takes action on the task.</span></span> <span data-ttu-id="be597-264">Pour indiquer l'action exécutée par le système, sélectionnez la ligne **Action**, puis sélectionnez une action sous l'onglet **Terminer l'action**.</span><span class="sxs-lookup"><span data-stu-id="be597-264">To specify the action that the system takes, select the **Action** row, and then, on the **End action** tab, select an action.</span></span>
 
-## <a name="specify-when-the-system-automatically-acts-on-the-task"></a>Indication du moment où le système agit automatiquement sur la tâche
-Vous pouvez configurer le système pour qu'il agisse sur la tâche manuelle si elle répond à certaines conditions. Supposons qu'une tâche nécessite qu'un membre du département États de dépenses passe en revue les reçus soumis avec un état de dépenses. Selon la stratégie de l'entreprise, cette tâche doit être exécutée si le montant total de l'état de dépense est supérieur à 100 EUR. Dans ce cas, vous pouvez configurer le système de sorte qu'il marque automatiquement la tâche comme **Terminé** lorsque le montant total est inférieur à 100. Procédez comme suit pour indiquer quand le système agit sur la tâche manuelle.
+## <a name="specify-when-the-system-automatically-acts-on-the-task"></a><span data-ttu-id="be597-265">Indication du moment où le système agit automatiquement sur la tâche</span><span class="sxs-lookup"><span data-stu-id="be597-265">Specify when the system automatically acts on the task</span></span>
+<span data-ttu-id="be597-266">Vous pouvez configurer le système pour qu'il agisse sur la tâche manuelle si elle répond à certaines conditions.</span><span class="sxs-lookup"><span data-stu-id="be597-266">You can configure the system to take action on the manual task if specific conditions are met.</span></span> <span data-ttu-id="be597-267">Supposons qu'une tâche nécessite qu'un membre du département États de dépenses passe en revue les reçus soumis avec un état de dépenses.</span><span class="sxs-lookup"><span data-stu-id="be597-267">For example, a task requires that a member of the Expense reports department review the receipts that are submitted together with an expense report.</span></span> <span data-ttu-id="be597-268">Selon la stratégie de l'entreprise, cette tâche doit être exécutée si le montant total de l'état de dépense est supérieur à 100 EUR.</span><span class="sxs-lookup"><span data-stu-id="be597-268">According to company policy, this task must be performed if the total amount of the expense report is more than USD 100.</span></span> <span data-ttu-id="be597-269">Dans ce cas, vous pouvez configurer le système de sorte qu'il marque automatiquement la tâche comme **Terminé** lorsque le montant total est inférieur à 100.</span><span class="sxs-lookup"><span data-stu-id="be597-269">In this scenario, you can configure the system to automatically mark the task as **Complete** when the total amount is less than 100.</span></span> <span data-ttu-id="be597-270">Procédez comme suit pour indiquer quand le système agit sur la tâche manuelle.</span><span class="sxs-lookup"><span data-stu-id="be597-270">Follow these steps to specify when the system takes action on the manual task.</span></span>
 
-1.  Dans le volet gauche, cliquez sur **Actions automatiques**.
-2.  Activez la case à cocher **Activer les actions automatiques**.
-3.  Cliquez sur **Ajouter**.
-4.  Permet d'entrer une condition.
-5.  Entrez des conditions supplémentaires, si nécessaire.
-6.  Pour vérifier que les conditions que vous avez entrées sont correctement configurées, procédez comme suit :
-    1.  Cliquez sur **Tester**.
-    2.  Sur la page **Condition de workflow de test**, sélectionnez un enregistrement dans la zone **Contrôler la condition**.
-    3.  Cliquez sur **Tester**. Le système évalue l'enregistrement pour déterminer s'il répond aux conditions que vous avez spécifiées.
-    4.  Cliquez sur **OK** ou sur **Annuler** pour revenir à la page **Propriétés**.
+1.  <span data-ttu-id="be597-271">Dans le volet gauche, cliquez sur **Actions automatiques**.</span><span class="sxs-lookup"><span data-stu-id="be597-271">In the left pane, click **Automatic actions**.</span></span>
+2.  <span data-ttu-id="be597-272">Activez la case à cocher **Activer les actions automatiques**.</span><span class="sxs-lookup"><span data-stu-id="be597-272">Select the **Enable automatic actions** check box.</span></span>
+3.  <span data-ttu-id="be597-273">Cliquez sur **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="be597-273">Click **Add condition**.</span></span>
+4.  <span data-ttu-id="be597-274">Permet d'entrer une condition.</span><span class="sxs-lookup"><span data-stu-id="be597-274">Enter a condition.</span></span>
+5.  <span data-ttu-id="be597-275">Entrez des conditions supplémentaires, si nécessaire.</span><span class="sxs-lookup"><span data-stu-id="be597-275">Enter any additional conditions that are required.</span></span>
+6.  <span data-ttu-id="be597-276">Pour vérifier que les conditions que vous avez entrées sont correctement configurées, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="be597-276">To verify that the conditions that you entered are configured correctly, follow these steps:</span></span>
+    1.  <span data-ttu-id="be597-277">Cliquez sur **Tester**.</span><span class="sxs-lookup"><span data-stu-id="be597-277">Click **Test**.</span></span>
+    2.  <span data-ttu-id="be597-278">Sur la page **Condition de workflow de test**, sélectionnez un enregistrement dans la zone **Contrôler la condition**.</span><span class="sxs-lookup"><span data-stu-id="be597-278">On the **Test workflow condition** page, in the **Validate condition** area, select a record.</span></span>
+    3.  <span data-ttu-id="be597-279">Cliquez sur **Tester**.</span><span class="sxs-lookup"><span data-stu-id="be597-279">Click **Test**.</span></span> <span data-ttu-id="be597-280">Le système évalue l'enregistrement pour déterminer s'il répond aux conditions que vous avez spécifiées.</span><span class="sxs-lookup"><span data-stu-id="be597-280">The system evaluates the record to determine whether it meets the conditions that you defined.</span></span>
+    4.  <span data-ttu-id="be597-281">Cliquez sur **OK** ou sur **Annuler** pour revenir à la page **Propriétés**.</span><span class="sxs-lookup"><span data-stu-id="be597-281">Click **OK** or **Cancel** to return to the **Properties** page.</span></span>
 
-7.  Dans la liste **Action de saisie automatique**, sélectionnez l'action que le système doit appliquer à la tâche.
+7.  <span data-ttu-id="be597-282">Dans la liste **Action de saisie automatique**, sélectionnez l'action que le système doit appliquer à la tâche.</span><span class="sxs-lookup"><span data-stu-id="be597-282">In the **Auto complete action** list, select the action that the system should take on the task.</span></span>
 
-## <a name="specify-when-notifications-are-sent"></a>Spécification du moment où les notifications sont envoyées
-Vous pouvez envoyer des notifications aux personnes lorsqu'une tâche manuelle a été déléguée, réaffectée, terminée ou rejetée, ou encore lorsqu'une modification a été demandée. Procédez comme suit pour indiquer quand les notifications sont envoyées, et à qui.
+## <a name="specify-when-notifications-are-sent"></a><span data-ttu-id="be597-283">Spécification du moment où les notifications sont envoyées</span><span class="sxs-lookup"><span data-stu-id="be597-283">Specify when notifications are sent</span></span>
+<span data-ttu-id="be597-284">Vous pouvez envoyer des notifications aux personnes lorsqu'une tâche manuelle a été déléguée, réaffectée, terminée ou rejetée, ou encore lorsqu'une modification a été demandée.</span><span class="sxs-lookup"><span data-stu-id="be597-284">You can send notifications to people when a manual task has been delegated, escalated, completed, or rejected, or when a change has been requested.</span></span> <span data-ttu-id="be597-285">Procédez comme suit pour indiquer quand les notifications sont envoyées, et à qui.</span><span class="sxs-lookup"><span data-stu-id="be597-285">Follow these steps to specify when notifications are sent, and who the notifications are sent to.</span></span>
 
-1.  Dans le volet gauche, cliquez sur **Notifications**.
-2.  Activez la case à cocher en regard des événements pour lesquels les notifications doivent être envoyées.
-    -   **Déléguer** – La tâche a été affectée à un autre utilisateur.
-    -   **Réaffecter** – L'utilisateur affecté n'a pas terminé la tâche dans le délai imparti.
-    -   **Terminé** – L'utilisateur affecté a terminé la tâche.
-    -   **Rejeter** – L'utilisateur affecté a rejeté le document soumis.
-    -   **Demander une modification** – L'utilisateur affecté a demandé une modification du document soumis.
+1.  <span data-ttu-id="be597-286">Dans le volet gauche, cliquez sur **Notifications**.</span><span class="sxs-lookup"><span data-stu-id="be597-286">In the left pane, click **Notifications**.</span></span>
+2.  <span data-ttu-id="be597-287">Activez la case à cocher en regard des événements pour lesquels les notifications doivent être envoyées.</span><span class="sxs-lookup"><span data-stu-id="be597-287">Select the check box next to the events that notifications should be sent for:</span></span>
+    -   <span data-ttu-id="be597-288">**Déléguer** – La tâche a été affectée à un autre utilisateur.</span><span class="sxs-lookup"><span data-stu-id="be597-288">**Delegate** – The task has been assigned to another user.</span></span>
+    -   <span data-ttu-id="be597-289">**Réaffecter** – L'utilisateur affecté n'a pas terminé la tâche dans le délai imparti.</span><span class="sxs-lookup"><span data-stu-id="be597-289">**Escalate** – The assigned user hasn't completed the task in the allotted time.</span></span>
+    -   <span data-ttu-id="be597-290">**Terminé** – L'utilisateur affecté a terminé la tâche.</span><span class="sxs-lookup"><span data-stu-id="be597-290">**Complete** – The assigned user has completed the task.</span></span>
+    -   <span data-ttu-id="be597-291">**Rejeter** – L'utilisateur affecté a rejeté le document soumis.</span><span class="sxs-lookup"><span data-stu-id="be597-291">**Reject** – The assigned user has rejected the document that was submitted.</span></span>
+    -   <span data-ttu-id="be597-292">**Demander une modification** – L'utilisateur affecté a demandé une modification du document soumis.</span><span class="sxs-lookup"><span data-stu-id="be597-292">**Request change** – The assigned user has requested a change to the document that was submitted.</span></span>
 
-3.  Sélectionnez la ligne pour un événement sélectionné à l'étape 2.
-4.  Entrez le texte de la notification dans la zone de texte de l'onglet **Texte de notification**.
-5.  Pour personnaliser la notification, vous pouvez insérer des espaces réservés. Ils sont remplacés par les informations appropriées lorsque la notification s'affiche pour les utilisateurs. Pour insérer un espace réservé, procédez comme suit :
-    1.  Dans la zone de texte, cliquez pour spécifier l'endroit où l'espace réservé doit figurer.
-    2.  Cliquez sur **Insérer un espace réservé**.
-    3.  Dans la liste qui s'affiche, sélectionnez l'espace réservé que vous souhaitez insérer.
-    4.  Cliquez sur **Insérer**
+3.  <span data-ttu-id="be597-293">Sélectionnez la ligne pour un événement sélectionné à l'étape 2.</span><span class="sxs-lookup"><span data-stu-id="be597-293">Select the row for an event that you selected in step 2.</span></span>
+4.  <span data-ttu-id="be597-294">Entrez le texte de la notification dans la zone de texte de l'onglet **Texte de notification**.</span><span class="sxs-lookup"><span data-stu-id="be597-294">On the **Notification text** tab, in the text box, enter the text of the notification.</span></span>
+5.  <span data-ttu-id="be597-295">Pour personnaliser la notification, vous pouvez insérer des espaces réservés.</span><span class="sxs-lookup"><span data-stu-id="be597-295">To personalize the notification, you can insert placeholders.</span></span> <span data-ttu-id="be597-296">Ils sont remplacés par les informations appropriées lorsque la notification s'affiche pour les utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="be597-296">Placeholders are replaced with appropriate information when the notification is shown to users.</span></span> <span data-ttu-id="be597-297">Pour insérer un espace réservé, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="be597-297">Follow these steps to insert a placeholder:</span></span>
+    1.  <span data-ttu-id="be597-298">Dans la zone de texte, cliquez pour spécifier l'endroit où l'espace réservé doit figurer.</span><span class="sxs-lookup"><span data-stu-id="be597-298">In the text box, click where the placeholder should appear.</span></span>
+    2.  <span data-ttu-id="be597-299">Cliquez sur **Insérer un espace réservé**.</span><span class="sxs-lookup"><span data-stu-id="be597-299">Click **Insert placeholder**.</span></span>
+    3.  <span data-ttu-id="be597-300">Dans la liste qui s'affiche, sélectionnez l'espace réservé que vous souhaitez insérer.</span><span class="sxs-lookup"><span data-stu-id="be597-300">In the list that appears, select the placeholder to insert.</span></span>
+    4.  <span data-ttu-id="be597-301">Cliquez sur **Insérer**</span><span class="sxs-lookup"><span data-stu-id="be597-301">Click **Insert**.</span></span>
 
-6.  Suivez les étapes suivantes pour ajouter une traduction de la notification.
-    1.  Cliquez sur **Traductions**.
-    2.  Dans la page qui s'affiche, cliquez sur **Ajouter**.
-    3.  Dans la liste qui apparaît, sélectionnez la langue de saisie du texte.
-    4.  Entrez le texte dans le champ **Texte traduit**.
-    5.  Pour personnaliser le texte, vous pouvez insérer des espaces réservés tel que décrit à l'étape 5.
-    6.  Cliquez sur **Fermer**.
+6.  <span data-ttu-id="be597-302">Suivez les étapes suivantes pour ajouter une traduction de la notification.</span><span class="sxs-lookup"><span data-stu-id="be597-302">To add translations of the notification, follow these steps:</span></span>
+    1.  <span data-ttu-id="be597-303">Cliquez sur **Traductions**.</span><span class="sxs-lookup"><span data-stu-id="be597-303">Click **Translations**.</span></span>
+    2.  <span data-ttu-id="be597-304">Dans la page qui s'affiche, cliquez sur **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="be597-304">On the page that appears, click **Add**.</span></span>
+    3.  <span data-ttu-id="be597-305">Dans la liste qui apparaît, sélectionnez la langue de saisie du texte.</span><span class="sxs-lookup"><span data-stu-id="be597-305">In the list that appears, select the language that you're entering the text in.</span></span>
+    4.  <span data-ttu-id="be597-306">Entrez le texte dans le champ **Texte traduit**.</span><span class="sxs-lookup"><span data-stu-id="be597-306">In the **Translated text** field, enter the text.</span></span>
+    5.  <span data-ttu-id="be597-307">Pour personnaliser le texte, vous pouvez insérer des espaces réservés tel que décrit à l'étape 5.</span><span class="sxs-lookup"><span data-stu-id="be597-307">To personalize the text, you can insert placeholders as described in step 5.</span></span>
+    6.  <span data-ttu-id="be597-308">Cliquez sur **Fermer**.</span><span class="sxs-lookup"><span data-stu-id="be597-308">Click **Close**.</span></span>
 
-7.  Spécifiez à qui les notifications sont envoyées sous l'onglet **Destinataire**. Sélectionnez l'une des options du tableau suivant et suivez les étapes supplémentaires concernant l'option avant de passer à l'étape 8.
+7.  <span data-ttu-id="be597-309">Spécifiez à qui les notifications sont envoyées sous l'onglet **Destinataire**.</span><span class="sxs-lookup"><span data-stu-id="be597-309">On the **Recipient** tab, specify who the notifications are sent to.</span></span> <span data-ttu-id="be597-310">Sélectionnez l'une des options du tableau suivant et suivez les étapes supplémentaires concernant l'option avant de passer à l'étape 8.</span><span class="sxs-lookup"><span data-stu-id="be597-310">Select one of the options in the following table, and then follow the additional steps for that option before you go to step 8.</span></span>
     <table>
     <colgroup>
     <col width="33%" />
@@ -284,66 +285,66 @@ Vous pouvez envoyer des notifications aux personnes lorsqu'une tâche manuelle a
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Option</th>
-    <th>Destinataires de la notification</th>
-    <th>Étapes supplémentaires</th>
+    <th><span data-ttu-id="be597-311">Option</span><span class="sxs-lookup"><span data-stu-id="be597-311">Option</span></span></th>
+    <th><span data-ttu-id="be597-312">Destinataires de la notification</span><span class="sxs-lookup"><span data-stu-id="be597-312">Notification recipients</span></span></th>
+    <th><span data-ttu-id="be597-313">Étapes supplémentaires</span><span class="sxs-lookup"><span data-stu-id="be597-313">Additional steps</span></span></th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td>Participant</td>
-    <td>Utilisateurs affectés à un groupe ou à un rôle spécifique</td>
+    <td><span data-ttu-id="be597-314">Participant</span><span class="sxs-lookup"><span data-stu-id="be597-314">Participant</span></span></td>
+    <td><span data-ttu-id="be597-315">Utilisateurs affectés à un groupe ou à un rôle spécifique</span><span class="sxs-lookup"><span data-stu-id="be597-315">Users who are assigned to a specific group or role</span></span></td>
     <td><ol>
-    <li>Après avoir sélectionné <strong>Participant</strong>, sous l'onglet <strong>Basé sur le rôle</strong>, dans la liste <strong>Type de participant</strong>, sélectionnez le type de groupe ou de rôle auquel envoyer les notifications.</li>
-    <li>Dans la liste <strong>Participant</strong>, sélectionnez le type de groupe ou de rôle auquel envoyer les notifications.</li>
+    <li><span data-ttu-id="be597-316">Après avoir sélectionné <strong>Participant</strong>, sous l'onglet <strong>Basé sur le rôle</strong>, dans la liste <strong>Type de participant</strong>, sélectionnez le type de groupe ou de rôle auquel envoyer les notifications.</span><span class="sxs-lookup"><span data-stu-id="be597-316">After you select <strong>Participant</strong>, on the <strong>Role based</strong> tab, in the <strong>Type of participant</strong> list, select the type of group or role to send notifications to.</span></span></li>
+    <li><span data-ttu-id="be597-317">Dans la liste <strong>Participant</strong>, sélectionnez le type de groupe ou de rôle auquel envoyer les notifications.</span><span class="sxs-lookup"><span data-stu-id="be597-317">In the <strong>Participant</strong> list, select the group or role to send notifications to.</span></span></li>
     </ol></td>
     </tr>
     <tr class="even">
-    <td>Utilisateur du workflow</td>
-    <td>Utilisateurs du workflow actuel</td>
+    <td><span data-ttu-id="be597-318">Utilisateur du workflow</span><span class="sxs-lookup"><span data-stu-id="be597-318">Workflow user</span></span></td>
+    <td><span data-ttu-id="be597-319">Utilisateurs du workflow actuel</span><span class="sxs-lookup"><span data-stu-id="be597-319">Users in the current workflow</span></span></td>
     <td><ul>
-    <li>Après avoir sélectionné <strong>Utilisateur du workflow</strong>, sous l'onglet <strong>Utilisateur du workflow</strong>, dans la liste <strong>Utilisateur du workflow</strong>, sélectionnez un utilisateur qui participe au workflow.</li>
+    <li><span data-ttu-id="be597-320">Après avoir sélectionné <strong>Utilisateur du workflow</strong>, sous l'onglet <strong>Utilisateur du workflow</strong>, dans la liste <strong>Utilisateur du workflow</strong>, sélectionnez un utilisateur qui participe au workflow.</span><span class="sxs-lookup"><span data-stu-id="be597-320">After you select <strong>Workflow user</strong>, on the <strong>Workflow user</strong> tab, in the <strong>Workflow user</strong> list, select a user who participates in the workflow.</span></span></li>
     </ul></td>
     </tr>
     <tr class="odd">
-    <td>Utilisateur</td>
-    <td>Utilisateurs Finance and Operations spécifiques</td>
+    <td><span data-ttu-id="be597-321">Utilisateur</span><span class="sxs-lookup"><span data-stu-id="be597-321">User</span></span></td>
+    <td><span data-ttu-id="be597-322">Utilisateurs Finance and Operations spécifiques</span><span class="sxs-lookup"><span data-stu-id="be597-322">Specific Finance and Operations users</span></span></td>
     <td><ol>
-    <li>Sélectionnez <strong>Utilisateur</strong>, puis cliquez sur l'onglet <strong>Utilisateur</strong>.</li>
-    <li>La liste <strong>Utilisateurs disponibles</strong> inclut tous les utilisateurs Finance and Operations. Sélectionnez les utilisateurs à qui envoyer les notifications, puis déplacez-les dans la liste <strong>Utilisateurs sélectionnés</strong>.</li>
+    <li><span data-ttu-id="be597-323">Sélectionnez <strong>Utilisateur</strong>, puis cliquez sur l'onglet <strong>Utilisateur</strong>.</span><span class="sxs-lookup"><span data-stu-id="be597-323">After you select <strong>User</strong>, click the <strong>User</strong> tab.</span></span></li>
+    <li><span data-ttu-id="be597-324">La liste <strong>Utilisateurs disponibles</strong> inclut tous les utilisateurs Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="be597-324">The <strong>Available users</strong> list includes all Finance and Operations users.</span></span> <span data-ttu-id="be597-325">Sélectionnez les utilisateurs à qui envoyer les notifications, puis déplacez-les dans la liste <strong>Utilisateurs sélectionnés</strong>.</span><span class="sxs-lookup"><span data-stu-id="be597-325">Select the users to send notifications to, and then move those users to the <strong>Selected users</strong> list.</span></span></li>
     </ol></td>
     </tr>
     </tbody>
     </table>
 
-8.  Répétez les étapes 3 à 7 pour chaque événement que vous avez sélectionné à l'étape 2.
+8.  <span data-ttu-id="be597-326">Répétez les étapes 3 à 7 pour chaque événement que vous avez sélectionné à l'étape 2.</span><span class="sxs-lookup"><span data-stu-id="be597-326">Repeat steps 3 through 7 for each event that you selected in step 2.</span></span>
 
-## <a name="set-a-time-limit"></a>Définition d'un délai limite
-Si la tâche manuelle doit être exécutée dans un certain délai, procédez comme suit. 
+## <a name="set-a-time-limit"></a><span data-ttu-id="be597-327">Définition d'un délai limite</span><span class="sxs-lookup"><span data-stu-id="be597-327">Set a time limit</span></span>
+<span data-ttu-id="be597-328">Si la tâche manuelle doit être exécutée dans un certain délai, procédez comme suit.</span><span class="sxs-lookup"><span data-stu-id="be597-328">Follow these steps if the manual task must be completed in a specific time.</span></span> 
 
-**Remarque :** Les options sélectionnées dans cette procédure remplacent celles sélectionnées dans les zones **Affectation** et **Escalade** de la page.
+<span data-ttu-id="be597-329">**Remarque :** Les options sélectionnées dans cette procédure remplacent celles sélectionnées dans les zones **Affectation** et **Escalade** de la page.</span><span class="sxs-lookup"><span data-stu-id="be597-329">**Note:** The options that you select in this procedure override the options that you selected in the **Assignment** and **Escalation** areas of the page.</span></span>
 
-1.  Dans le volet gauche, cliquez sur **Paramètres avancés**.
-2.  Activez la case à cocher **Définir une limite de temps pour l'élément de workflow**.
-3.  Dans le champ **Durée**, spécifiez quand la tâche doit être exécutée. Permet de sélectionner l'une des options suivantes :
-    -   **Heures** – Permet d'entrer le nombre d'heures pendant lesquelles cette tâche doit être exécutée. Sélectionnez ensuite le calendrier utilisé par votre organisation, puis entrez les informations relatives à la semaine de travail de votre organisation.
-    -   **Jours** – Permet d'entrer le nombre de jours pendant lesquels cette tâche doit être exécutée. Sélectionnez ensuite le calendrier utilisé par votre organisation, puis entrez les informations relatives à la semaine de travail de votre organisation.
-    -   **Semaines** – Permet d'entrer le nombre de semaines accordé pour l'exécution de la tâche.
-    -   **Mois** – Permet de sélectionner le jour et la semaine et le mois limites où la tâche doit être terminée. Par exemple, vous voudrez peut-être que la tâche soit exécutée d'ici le vendredi de la troisième semaine du mois.
-    -   **Années** – Permet de sélectionner le jour, la semaine et le mois limites où la tâche doit être terminée. Vous voudrez peut-être que la tâche soit exécutée d'ici le vendredi de la troisième semaine de décembre.
+1.  <span data-ttu-id="be597-330">Dans le volet gauche, cliquez sur **Paramètres avancés**.</span><span class="sxs-lookup"><span data-stu-id="be597-330">In the left pane, click **Advanced settings**.</span></span>
+2.  <span data-ttu-id="be597-331">Activez la case à cocher **Définir une limite de temps pour l'élément de workflow**.</span><span class="sxs-lookup"><span data-stu-id="be597-331">Select the **Set a time limit for the workflow element** check box.</span></span>
+3.  <span data-ttu-id="be597-332">Dans le champ **Durée**, spécifiez quand la tâche doit être exécutée.</span><span class="sxs-lookup"><span data-stu-id="be597-332">In the **Duration** field, specify when the task must be completed.</span></span> <span data-ttu-id="be597-333">Permet de sélectionner l'une des options suivantes :</span><span class="sxs-lookup"><span data-stu-id="be597-333">Select one of the following options:</span></span>
+    -   <span data-ttu-id="be597-334">**Heures** – Permet d'entrer le nombre d'heures pendant lesquelles cette tâche doit être exécutée.</span><span class="sxs-lookup"><span data-stu-id="be597-334">**Hours** – Enter the number of hours that the task must be completed in.</span></span> <span data-ttu-id="be597-335">Sélectionnez ensuite le calendrier utilisé par votre organisation, puis entrez les informations relatives à la semaine de travail de votre organisation.</span><span class="sxs-lookup"><span data-stu-id="be597-335">Then select the calendar that your organization uses, and enter information about your organization's work week.</span></span>
+    -   <span data-ttu-id="be597-336">**Jours** – Permet d'entrer le nombre de jours pendant lesquels cette tâche doit être exécutée.</span><span class="sxs-lookup"><span data-stu-id="be597-336">**Days** – Enter the number of days that the task must be completed in.</span></span> <span data-ttu-id="be597-337">Sélectionnez ensuite le calendrier utilisé par votre organisation, puis entrez les informations relatives à la semaine de travail de votre organisation.</span><span class="sxs-lookup"><span data-stu-id="be597-337">Then select the calendar that your organization uses, and enter information about your organization's work week.</span></span>
+    -   <span data-ttu-id="be597-338">**Semaines** – Permet d'entrer le nombre de semaines accordé pour l'exécution de la tâche.</span><span class="sxs-lookup"><span data-stu-id="be597-338">**Weeks** – Enter the number of weeks that the task must be completed in.</span></span>
+    -   <span data-ttu-id="be597-339">**Mois** – Permet de sélectionner le jour et la semaine et le mois limites où la tâche doit être terminée.</span><span class="sxs-lookup"><span data-stu-id="be597-339">**Months** – Select the day and week that the task must be completed by.</span></span> <span data-ttu-id="be597-340">Par exemple, vous voudrez peut-être que la tâche soit exécutée d'ici le vendredi de la troisième semaine du mois.</span><span class="sxs-lookup"><span data-stu-id="be597-340">For example, you might want the task to be completed by Friday of the third week of the month.</span></span>
+    -   <span data-ttu-id="be597-341">**Années** – Permet de sélectionner le jour, la semaine et le mois limites où la tâche doit être terminée.</span><span class="sxs-lookup"><span data-stu-id="be597-341">**Years** – Select the day, week, and month that the task must be completed by.</span></span> <span data-ttu-id="be597-342">Vous voudrez peut-être que la tâche soit exécutée d'ici le vendredi de la troisième semaine de décembre.</span><span class="sxs-lookup"><span data-stu-id="be597-342">For example, you might want the task to be completed by Friday of the third week of December.</span></span>
 
-4.  Si le délai est dépassé, le système agit sur la tâche. Dans la liste **Action**, sélectionnez l'action que le système doit exécuter.
+4.  <span data-ttu-id="be597-343">Si le délai est dépassé, le système agit sur la tâche.</span><span class="sxs-lookup"><span data-stu-id="be597-343">If the time limit is exceeded, the system takes action on the task.</span></span> <span data-ttu-id="be597-344">Dans la liste **Action**, sélectionnez l'action que le système doit exécuter.</span><span class="sxs-lookup"><span data-stu-id="be597-344">In the **Action** list, select the action that the system should take.</span></span>
 
-## <a name="specify-which-actions-are-available-to-the-user"></a>Spécification des actions disponibles pour l'utilisateur
-Lorsque la tâche manuelle est affectée à un utilisateur, l'utilisateur doit agir sur la tâche. Procédez comme suit pour indiquer les actions que l'utilisateur peut exécuter sur la tâche. **Remarque :** les actions disponibles peuvent varier selon la conception de la tâche.
+## <a name="specify-which-actions-are-available-to-the-user"></a><span data-ttu-id="be597-345">Spécification des actions disponibles pour l'utilisateur</span><span class="sxs-lookup"><span data-stu-id="be597-345">Specify which actions are available to the user</span></span>
+<span data-ttu-id="be597-346">Lorsque la tâche manuelle est affectée à un utilisateur, l'utilisateur doit agir sur la tâche.</span><span class="sxs-lookup"><span data-stu-id="be597-346">When the manual task is assigned to a user, the user must take action on the task.</span></span> <span data-ttu-id="be597-347">Procédez comme suit pour indiquer les actions que l'utilisateur peut exécuter sur la tâche.</span><span class="sxs-lookup"><span data-stu-id="be597-347">Follow these steps to specify which actions the user can take on the task.</span></span> <span data-ttu-id="be597-348">**Remarque :** les actions disponibles peuvent varier selon la conception de la tâche.</span><span class="sxs-lookup"><span data-stu-id="be597-348">**Note:** The actions that are available vary, depending on the design of the task.</span></span>
 
-1.  Dans le volet gauche, cliquez sur **Paramètres avancés**.
-2.  Activez la case à cocher **Terminé** si vous voulez que l'utilisateur puisse marquer la tâche comme **Terminé**.
-3.  Activez la case à cocher **Rejeter** si vous voulez que l'utilisateur puisse rejeter le document envoyé.
-4.  Activez la case à cocher **Demander une modification** si vous voulez que l'utilisateur puisse demander des modifications du document envoyé.
-5.  Activez la case à cocher **Déléguer** si vous voulez que l'utilisateur puisse affecter la tâche à un autre utilisateur.
-6.  Activez la case à cocher **Réaffecter** si vous voulez que l'utilisateur puisse réaffecter la tâche à un autre utilisateur de la file d'attente des éléments de travail.
-7.  Activez la case à cocher **Lancer** si vous voulez que l'utilisateur puisse réaffecter la tâche à la file d'attente des éléments de travail. Un autre utilisateur peut effectuer la tâche.
+1.  <span data-ttu-id="be597-349">Dans le volet gauche, cliquez sur **Paramètres avancés**.</span><span class="sxs-lookup"><span data-stu-id="be597-349">In the left pane, click **Advanced settings**.</span></span>
+2.  <span data-ttu-id="be597-350">Activez la case à cocher **Terminé** si vous voulez que l'utilisateur puisse marquer la tâche comme **Terminé**.</span><span class="sxs-lookup"><span data-stu-id="be597-350">Select the **Complete** check box if the user should be able to mark the task as **Complete**.</span></span>
+3.  <span data-ttu-id="be597-351">Activez la case à cocher **Rejeter** si vous voulez que l'utilisateur puisse rejeter le document envoyé.</span><span class="sxs-lookup"><span data-stu-id="be597-351">Select the **Reject** check box if the user should be able to reject the document that was submitted.</span></span>
+4.  <span data-ttu-id="be597-352">Activez la case à cocher **Demander une modification** si vous voulez que l'utilisateur puisse demander des modifications du document envoyé.</span><span class="sxs-lookup"><span data-stu-id="be597-352">Select the **Request change** check box if the user should be able to request changes to the document that was submitted.</span></span>
+5.  <span data-ttu-id="be597-353">Activez la case à cocher **Déléguer** si vous voulez que l'utilisateur puisse affecter la tâche à un autre utilisateur.</span><span class="sxs-lookup"><span data-stu-id="be597-353">Select the **Delegate** check box if the user should be able to assign the task to another user.</span></span>
+6.  <span data-ttu-id="be597-354">Activez la case à cocher **Réaffecter** si vous voulez que l'utilisateur puisse réaffecter la tâche à un autre utilisateur de la file d'attente des éléments de travail.</span><span class="sxs-lookup"><span data-stu-id="be597-354">Select the **Reassign** check box if the user should be able to reassign the task to another user in the work item queue.</span></span>
+7.  <span data-ttu-id="be597-355">Activez la case à cocher **Lancer** si vous voulez que l'utilisateur puisse réaffecter la tâche à la file d'attente des éléments de travail.</span><span class="sxs-lookup"><span data-stu-id="be597-355">Select the **Release** check box if the user should be able to reassign the task to the work item queue.</span></span> <span data-ttu-id="be597-356">Un autre utilisateur peut effectuer la tâche.</span><span class="sxs-lookup"><span data-stu-id="be597-356">Another user can then complete the task.</span></span>
 
 
 

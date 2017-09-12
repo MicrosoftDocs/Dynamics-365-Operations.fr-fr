@@ -17,49 +17,49 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 10fc776641d0c7bc2576be13a4116281ac3a3768
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: c8e7bfbf6b51aca9cf8a7f800ac7db22c0330d00
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="configure-credit-card-processing"></a> Configurer le traitement de carte de crédit
+# <a name="configure-credit-card-processing"></a><span data-ttu-id="e8103-103"> Configurer le traitement de carte de crédit</span><span class="sxs-lookup"><span data-stu-id="e8103-103">Configure credit card processing</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-Cette procédure décrit comment afficher la liste des fournisseurs de paiement et comment configurer un compte de paiement pour la comptabilité client. Cette procédure utilise la société USRT dans les données de démonstration et est destinée aux administrateurs et aux professionnels de l'informatique.
+<span data-ttu-id="e8103-104">Cette procédure décrit comment afficher la liste des fournisseurs de paiement et comment configurer un compte de paiement pour la comptabilité client.</span><span class="sxs-lookup"><span data-stu-id="e8103-104">This procedure walks through how to view the list of payment providers and how to configure a payment account for accounts receivable.</span></span> <span data-ttu-id="e8103-105">Cette procédure utilise la société USRT dans les données de démonstration et est destinée aux administrateurs et aux professionnels de l'informatique.</span><span class="sxs-lookup"><span data-stu-id="e8103-105">This procedure uses the USRT company in demo data and is intended for Administrators and IT Professionals.</span></span>
 
 
-## <a name="view-a-list-of-payment-providers"></a>Afficher la liste des fournisseurs de paiement
-1. Accédez à Comptabilité client > Paramétrage des paiements > Services de paiement.
-2. Cliquez sur Afficher les fournisseurs disponibles.
+## <a name="view-a-list-of-payment-providers"></a><span data-ttu-id="e8103-106">Afficher la liste des fournisseurs de paiement</span><span class="sxs-lookup"><span data-stu-id="e8103-106">View a list of payment providers</span></span>
+1. <span data-ttu-id="e8103-107">Accédez à Comptabilité client > Paramétrage des paiements > Services de paiement.</span><span class="sxs-lookup"><span data-stu-id="e8103-107">Go to Accounts receivable > Payments setup > Payment services.</span></span>
+2. <span data-ttu-id="e8103-108">Cliquez sur Afficher les fournisseurs disponibles.</span><span class="sxs-lookup"><span data-stu-id="e8103-108">Click View available providers.</span></span>
 
-## <a name="configure-payment-account"></a>Configurer le compte de paiement
-1. Cliquez sur Nouveau.
-2. Dans le champ Service de paiement, tapez une valeur.
-3. Dans le champ Connecteur de paiement, sélectionnez une option.
-4. Activez ou désactivez l'extension de la section Compte de service de paiement.
-5. Dans le champ Environnement, tapez « PROD ».
-6. Cliquez sur Types de carte de crédit.
-7. Dans le champ Journal des paiements, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-8. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-9. Cliquez sur Ajouter.
-10. Tapez une valeur dans le champ Devise.
-11. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-12. Dans le champ Journal des paiements, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-13. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-14. Cliquez sur Ajouter.
-15. Tapez une valeur dans le champ Devise.
-16. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-    * Vous pouvez répéter ces étapes pour autant de types de cartes que nécessaire.  
-17. Dans le champ Journal des paiements, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-18. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-19. Cliquez sur Ajouter.
-20. Tapez une valeur dans le champ Devise.
-21. Cliquez sur Enregistrer.
-22. Fermez la page.
-23. Cliquez sur Valider.
-24. Activez la case à cocher Processeur par défaut pour les nouvelles cartes de crédit.
-25. Cliquez sur Enregistrer.
+## <a name="configure-payment-account"></a><span data-ttu-id="e8103-109">Configurer le compte de paiement</span><span class="sxs-lookup"><span data-stu-id="e8103-109">Configure payment account</span></span>
+1. <span data-ttu-id="e8103-110">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="e8103-110">Click New.</span></span>
+2. <span data-ttu-id="e8103-111">Dans le champ Service de paiement, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="e8103-111">In the Payment service field, type a value.</span></span>
+3. <span data-ttu-id="e8103-112">Dans le champ Connecteur de paiement, sélectionnez une option.</span><span class="sxs-lookup"><span data-stu-id="e8103-112">In the Payment connector field, select an option.</span></span>
+4. <span data-ttu-id="e8103-113">Activez ou désactivez l'extension de la section Compte de service de paiement.</span><span class="sxs-lookup"><span data-stu-id="e8103-113">Toggle the expansion of the Payment service account section.</span></span>
+5. <span data-ttu-id="e8103-114">Dans le champ Environnement, tapez « PROD ».</span><span class="sxs-lookup"><span data-stu-id="e8103-114">In the Environment: field, type 'PROD'.</span></span>
+6. <span data-ttu-id="e8103-115">Cliquez sur Types de carte de crédit.</span><span class="sxs-lookup"><span data-stu-id="e8103-115">Click Credit card types.</span></span>
+7. <span data-ttu-id="e8103-116">Dans le champ Journal des paiements, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="e8103-116">In the Payment journal field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="e8103-117">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="e8103-117">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="e8103-118">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="e8103-118">Click Add.</span></span>
+10. <span data-ttu-id="e8103-119">Tapez une valeur dans le champ Devise.</span><span class="sxs-lookup"><span data-stu-id="e8103-119">In the Currency field, type a value.</span></span>
+11. <span data-ttu-id="e8103-120">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="e8103-120">In the list, find and select the desired record.</span></span>
+12. <span data-ttu-id="e8103-121">Dans le champ Journal des paiements, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="e8103-121">In the Payment journal field, click the drop-down button to open the lookup.</span></span>
+13. <span data-ttu-id="e8103-122">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="e8103-122">In the list, click the link in the selected row.</span></span>
+14. <span data-ttu-id="e8103-123">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="e8103-123">Click Add.</span></span>
+15. <span data-ttu-id="e8103-124">Tapez une valeur dans le champ Devise.</span><span class="sxs-lookup"><span data-stu-id="e8103-124">In the Currency field, type a value.</span></span>
+16. <span data-ttu-id="e8103-125">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="e8103-125">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="e8103-126">Vous pouvez répéter ces étapes pour autant de types de cartes que nécessaire.</span><span class="sxs-lookup"><span data-stu-id="e8103-126">You can repeat these steps for as many card types as you need.</span></span>  
+17. <span data-ttu-id="e8103-127">Dans le champ Journal des paiements, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="e8103-127">In the Payment journal field, click the drop-down button to open the lookup.</span></span>
+18. <span data-ttu-id="e8103-128">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="e8103-128">In the list, click the link in the selected row.</span></span>
+19. <span data-ttu-id="e8103-129">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="e8103-129">Click Add.</span></span>
+20. <span data-ttu-id="e8103-130">Tapez une valeur dans le champ Devise.</span><span class="sxs-lookup"><span data-stu-id="e8103-130">In the Currency field, type a value.</span></span>
+21. <span data-ttu-id="e8103-131">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="e8103-131">Click Save.</span></span>
+22. <span data-ttu-id="e8103-132">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="e8103-132">Close the page.</span></span>
+23. <span data-ttu-id="e8103-133">Cliquez sur Valider.</span><span class="sxs-lookup"><span data-stu-id="e8103-133">Click Validate.</span></span>
+24. <span data-ttu-id="e8103-134">Activez la case à cocher Processeur par défaut pour les nouvelles cartes de crédit.</span><span class="sxs-lookup"><span data-stu-id="e8103-134">Click the Default processor for new credit cards checkbox.</span></span>
+25. <span data-ttu-id="e8103-135">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="e8103-135">Click Save.</span></span>
 
 

@@ -16,127 +16,127 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: d787cc951f8389fb07a265c99635fedeca132170
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 000cfe484865ff5c1003c2a68eac710491f6c536
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="configure-computations-to-do-counting-and-summing-for-electronic-reporting-er"></a>Configurer les calculs pour effectuer le comptage et la synthèse pour la gestion des états électroniques (ER)
+# <a name="configure-computations-to-do-counting-and-summing-for-electronic-reporting-er"></a><span data-ttu-id="4ebe9-103">Configurer les calculs pour effectuer le comptage et la synthèse pour la gestion des états électroniques (ER)</span><span class="sxs-lookup"><span data-stu-id="4ebe9-103">Configure computations to do counting and summing for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Les étapes suivantes expliquent comment un utilisateur affecté au rôle d'administrateur système ou de développeur d'états électroniques peut configurer un format de génération d'états électroniques (ER) pour effectuer le comptage et la synthèse en fonction des données de la sortie de texte déjà générée. Ces étapes peuvent être effectuées dans n'importe quelle société.
+<span data-ttu-id="4ebe9-104">Les étapes suivantes expliquent comment un utilisateur affecté au rôle d'administrateur système ou de développeur d'états électroniques peut configurer un format de génération d'états électroniques (ER) pour effectuer le comptage et la synthèse en fonction des données de la sortie de texte déjà générée.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-104">The following steps explain how a user assigned to the system administrator or electronic reporting developer role can configure an Electronic reporting (ER) format to do counting and summing based on data of the already generated text output.</span></span> <span data-ttu-id="4ebe9-105">Ces étapes peuvent être effectuées dans n'importe quelle société.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-105">These steps can be performed in any company.</span></span>
 
-Pour effectuer ces étapes, vous devez d'abord effectuer les étapes de la procédure « ER Configurer le format pour effectuer le comptage et la synthèse (Partie 1 : Créer un format) ».
+<span data-ttu-id="4ebe9-106">Pour effectuer ces étapes, vous devez d'abord effectuer les étapes de la procédure « ER Configurer le format pour effectuer le comptage et la synthèse (Partie 1 : Créer un format) ».</span><span class="sxs-lookup"><span data-stu-id="4ebe9-106">To complete these steps, you must first complete the steps in the “ER Configure format to do counting and summing (Part 1: Create format)” procedure.</span></span>
 
-Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.
+<span data-ttu-id="4ebe9-107">Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-107">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
 
-## <a name="create-a-format-configuration-to-add-counting-and-summing-details"></a>Créer une configuration de format pour ajouter les détails de comptage et de synthèse
-1. Accédez à Administration d'organisation > Espaces de travail > États électroniques.
-2. Cliquez sur Configurations des états.
-3. Dans l'arborescence, développez « Modèle de déclaration d'échanges de biens ».
-4. Dans l'arborescence, sélectionnez « Modèle de déclaration d'échanges de biens\Déclaration d'échanges de biens (Allemagne) ».
-    * Supposons que vous deviez personnaliser le format fourni par Microsoft en ajoutant des lignes avec des détails récapitulatifs à la fin de l'état de déclaration d'échanges de biens. Pour ce faire, vous devez dériver notre propre instance de la configuration de déclaration d'échanges de biens de l'instance de Microsoft pour apporter des modifications.  
-5. Cliquez sur Créer la configuration pour ouvrir la boîte de dialogue.
-6. Dans le champ Nouveau, entrez « Provenant du nom : Déclaration d'échanges de biens (Allemagne), Microsoft ».
-7. Dans le champ Nom, tapez « Déclaration d'échanges de biens (Allemagne) avec comptage et synthèse ».
-8. Cliquez sur Créer une configuration.
+## <a name="create-a-format-configuration-to-add-counting-and-summing-details"></a><span data-ttu-id="4ebe9-108">Créer une configuration de format pour ajouter les détails de comptage et de synthèse</span><span class="sxs-lookup"><span data-stu-id="4ebe9-108">Create a format configuration to add counting and summing details</span></span>
+1. <span data-ttu-id="4ebe9-109">Accédez à Administration d'organisation > Espaces de travail > États électroniques.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-109">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+2. <span data-ttu-id="4ebe9-110">Cliquez sur Configurations des états.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-110">Click Reporting configurations.</span></span>
+3. <span data-ttu-id="4ebe9-111">Dans l'arborescence, développez « Modèle de déclaration d'échanges de biens ».</span><span class="sxs-lookup"><span data-stu-id="4ebe9-111">In the tree, expand 'Intrastat model'.</span></span>
+4. <span data-ttu-id="4ebe9-112">Dans l'arborescence, sélectionnez « Modèle de déclaration d'échanges de biens\Déclaration d'échanges de biens (Allemagne) ».</span><span class="sxs-lookup"><span data-stu-id="4ebe9-112">In the tree, select 'Intrastat model\Intrastat (DE)'.</span></span>
+    * <span data-ttu-id="4ebe9-113">Supposons que vous deviez personnaliser le format fourni par Microsoft en ajoutant des lignes avec des détails récapitulatifs à la fin de l'état de déclaration d'échanges de biens.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-113">Assume that you need to customize the format provided by Microsoft by adding lines with summary details at the end of the Intrastat report.</span></span> <span data-ttu-id="4ebe9-114">Pour ce faire, vous devez dériver notre propre instance de la configuration de déclaration d'échanges de biens de l'instance de Microsoft pour apporter des modifications.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-114">You need to do that by deriving our own instance of the Intrastat configuration from the Microsoft instance to make modifications.</span></span>  
+5. <span data-ttu-id="4ebe9-115">Cliquez sur Créer la configuration pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-115">Click Create configuration to open the drop dialog.</span></span>
+6. <span data-ttu-id="4ebe9-116">Dans le champ Nouveau, entrez « Provenant du nom : Déclaration d'échanges de biens (Allemagne), Microsoft ».</span><span class="sxs-lookup"><span data-stu-id="4ebe9-116">In the New field, enter 'Derive from Name: Intrastat (DE), Microsoft'.</span></span>
+7. <span data-ttu-id="4ebe9-117">Dans le champ Nom, tapez « Déclaration d'échanges de biens (Allemagne) avec comptage et synthèse ».</span><span class="sxs-lookup"><span data-stu-id="4ebe9-117">In the Name field, type 'Intrastat (DE) with counting & summing'.</span></span>
+8. <span data-ttu-id="4ebe9-118">Cliquez sur Créer une configuration.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-118">Click Create configuration.</span></span>
 
-## <a name="configure-this-report-to-do-counting-and-summation-based-on-output-details"></a>Configurer cet état pour effectuer le comptage et la synthèse en fonction des détails de la sortie
-1. Cliquez sur Concepteur.
-2. Sélectionnez Oui dans le champ Collecter les détails sur les sorties.
-    * Cet indicateur active au moment de l'exécution le processus de collecte des détails de sortie pour générer le fichier de déclaration d'échanges de biens.  
-    * Vous devez effectuer le comptage pour différentes directions de déclaration d'échanges de biens. Par conséquent, ajoutez une énumération de modèle dédiée à la liste des sources de données de cette configuration de format.  
-3. Cliquez sur l'onglet Mise en relation.
-4. Cliquez sur Ajouter racine pour ouvrir la boîte de dialogue.
-5. Dans l'arborescence, sélectionnez « Modèle de données\Énumération ».
-6. Dans le champ Nom, tapez « Direction ».
-7. Dans le champ Énumération du modèle, entrez ou sélectionnez une valeur.
-    * Sélectionnez la valeur Direction.  
-8. Cliquez sur OK.
-9. Cliquez sur Ajouter racine pour ouvrir la boîte de dialogue.
-10. Dans l'arborescence, sélectionnez « Fonctions\Champ calculé ».
-11. Dans le champ Nom, tapez « $BlockName ».
-12. Cliquez sur Modifier la formule.
-13. Dans le champ Formule, entrez « bloc ».
-14. Cliquez sur Enregistrer.
-15. Fermez la page.
-16. Cliquez sur OK.
-17. Cliquez sur Ajouter racine pour ouvrir la boîte de dialogue.
-18. Dans l'arborescence, sélectionnez « Fonctions\Champ calculé ».
-19. Dans le champ Nom, tapez « $RecName ».
-20. Cliquez sur Modifier la formule.
-21. Dans le champ Formule, entrez « enregistrement ».
-22. Cliquez sur Enregistrer.
-23. Fermez la page.
-24. Cliquez sur OK.
-25. Cliquez sur Ajouter racine pour ouvrir la boîte de dialogue.
-26. Dans l'arborescence, sélectionnez « Fonctions\Champ calculé ».
-27. Dans le champ Nom, tapez « $InvName ».
-28. Cliquez sur Modifier la formule.
-29. Dans le champ Formule, entrez « InvoicedAmountEUR ».
-30. Cliquez sur Enregistrer.
-31. Fermez la page.
-32. Cliquez sur OK.
-33. Dans l'arborescence, sélectionnez « Déclaration d'échanges de biens\Données ».
-34. Cliquez sur le bouton Modifier pour le champ « Nom de clé de données collectées »
-35. Cliquez sur Ajouter une source de données.
-    * $BlockName  
-36. Cliquez sur Enregistrer.
-37. Fermez la page.
-38. Cliquez sur le bouton Modifier pour le champ Valeur de clé de données collectées.
-39. Dans le champ Formule, entrez « IF(Intrastat.CommodityRecord.Direction=Direction.Import, "Import", "Export") ».
-    * IF(Intrastat.CommodityRecord.Direction=Direction.Import, "Import", "Export")  
-40. Cliquez sur Enregistrer.
-41. Fermez la page.
-    * Dénombrez les lignes de cette séquence. Les résultats sont utilisés avec le nom « bloc » séparément pour différentes directions. La valeur « Importer » est utilisée pour les transactions de déclaration d'échanges de biens à l'arrivée. La valeur « Exporter » est utilisée pour les transactions de déclaration d'échanges de biens à l'expédition. Considérez cela comme une feuille de calcul Excel virtuelle. À chaque transaction correspond une ligne dont la première colonne « bloc » est remplie avec les valeurs « Importer » et « Exporter » en conséquence.  
-42. Dans l'arborescence, développez « Déclaration d'échanges de biens\Données : Souche ».
-43. Dans l'arborescence, sélectionnez « Déclaration d'échanges de biens\Données : Souche\Arrivées ? ».
-44. Cliquez sur le bouton Modifier pour le champ « Nom de clé de données collectées ».
-    * Dénombrez les lignes de cette séquence. Les résultats sont mémorisés à l'aide du nom « enregistrement ».  
-45. Dans l'arborescence, sélectionnez « RecName ».
-46. Cliquez sur Ajouter une source de données.
-47. Cliquez sur Enregistrer.
-48. Fermez la page.
-49. Cliquez sur le bouton Modifier pour le champ « Valeur de clé de données collectées ».
-50. Dans le champ Formule, entrez « Intrastat.CommodityRecord.CommodityCode ».
-51. Cliquez sur Enregistrer.
-52. Fermez la page.
-    * Dénombrez les lignes de cette séquence. Les résultats sont utilisés avec le nom « enregistrement » séparément pour différents codes marchandise. Considérez cela comme une feuille de calcul Excel virtuelle. À chaque transaction correspond une ligne dont la première colonne « bloc » est remplie avec les valeurs « Importer » et « Exporter » en conséquence et le second bloc « enregistrement » est rempli avec la valeur du code marchandise.  
-53. Dans l'arborescence, sélectionnez « Déclaration d'échanges de biens\Données : Souche\Répartitions ? ».
-54. Cliquez sur le bouton Modifier pour le champ « Nom de clé de données collectées »
-55. Dans l'arborescence, sélectionnez « RecName ».
-56. Cliquez sur Ajouter une source de données.
-57. Cliquez sur Enregistrer.
-58. Fermez la page.
-59. Cliquez sur le bouton Modifier pour le champ « Valeur de clé de données collectées ».
-60. Dans le champ Formule, entrez « Intrastat.CommodityRecord.CommodityCode ».
-61. Cliquez sur Enregistrer.
-62. Fermez la page.
-63. Dans l'arborescence, développez « Déclaration d'échanges de biens\Données : Souche\Répartitions : Souche ? ».
-64. Dans l'arborescence, développez « Déclaration d'échanges de biens\Données : Souche\Répartitions : Souche ?\Enregistrement = Intrastat.CommodityRecord ».
-65. Cliquez sur l'onglet Format.
-66. Dans l'arborescence, sélectionnez « Déclaration d'échanges de biens\Données\Répartitions\Enregistrement\Montant de la facture EUR ».
-67. Cliquez sur l'onglet Mise en relation.
-68. Cliquez sur le bouton Modifier pour le champ « Nom de clé de données collectées ».
-69. Dans l'arborescence, sélectionnez « $InvName ».
-70. Cliquez sur Ajouter une source de données.
-71. Cliquez sur Enregistrer.
-72. Fermez la page.
-    * Récapitulez les valeurs du montant facturé pour les lignes de cette séquence. Les résultats sont utilisés avec le nom « InvoicedAmountEUR » séparément pour différentes directions de déclaration d'échanges de biens et différents codes marchandise. Considérez cela comme une création virtuelle dans une feuille de calcul Excel. À chaque transaction correspond une ligne dont la première colonne « bloc » est remplie avec les valeurs « Importer » et « Exporter » en conséquence. Le second bloc « enregistrement » est rempli avec la valeur du code marchandise, et la troisième colonne « InvoicedAmountEUR » est remplie avec la valeur du montant de la facture.  
-73. Dans l'arborescence, développez « Déclaration d'échanges de biens\Données\Arrivées ? ».
-74. Dans l'arborescence, développez « Déclaration d'échanges de biens\Données\Arrivées ?\Enregistrement = Intrastat.CommodityRecord ».
-75. Cliquez sur l'onglet Format.
-76. Dans l'arborescence, sélectionnez « Déclaration d'échanges de biens\Données\Arrivées\Enregistrement\Montant de la facture EUR ».
-77. Cliquez sur l'onglet Mise en relation.
-78. Cliquez sur le bouton Modifier pour le champ « Nom de clé de données collectées ».
-79. Dans l'arborescence, sélectionnez « $InvName ».
-80. Cliquez sur Ajouter une source de données.
-81. Cliquez sur Enregistrer.
-82. Fermez la page.
-83. Cliquez sur Enregistrer.
-84. Fermez la page.
+## <a name="configure-this-report-to-do-counting-and-summation-based-on-output-details"></a><span data-ttu-id="4ebe9-119">Configurer cet état pour effectuer le comptage et la synthèse en fonction des détails de la sortie</span><span class="sxs-lookup"><span data-stu-id="4ebe9-119">Configure this report to do counting and summation based on output details</span></span>
+1. <span data-ttu-id="4ebe9-120">Cliquez sur Concepteur.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-120">Click Designer.</span></span>
+2. <span data-ttu-id="4ebe9-121">Sélectionnez Oui dans le champ Collecter les détails sur les sorties.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-121">Select Yes in the Collect output details field.</span></span>
+    * <span data-ttu-id="4ebe9-122">Cet indicateur active au moment de l'exécution le processus de collecte des détails de sortie pour générer le fichier de déclaration d'échanges de biens.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-122">This flag will activate at run-time the process of collecting output details for generating the Intrastat file.</span></span>  
+    * <span data-ttu-id="4ebe9-123">Vous devez effectuer le comptage pour différentes directions de déclaration d'échanges de biens. Par conséquent, ajoutez une énumération de modèle dédiée à la liste des sources de données de cette configuration de format.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-123">You need to do counting for different Intrastat directions, so add a dedicated model enumeration to the data sources’ list of this format configuration.</span></span>  
+3. <span data-ttu-id="4ebe9-124">Cliquez sur l'onglet Mise en relation.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-124">Click the Mapping tab.</span></span>
+4. <span data-ttu-id="4ebe9-125">Cliquez sur Ajouter racine pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-125">Click Add root to open the drop dialog.</span></span>
+5. <span data-ttu-id="4ebe9-126">Dans l'arborescence, sélectionnez « Modèle de données\Énumération ».</span><span class="sxs-lookup"><span data-stu-id="4ebe9-126">In the tree, select 'Data model\Enumeration '.</span></span>
+6. <span data-ttu-id="4ebe9-127">Dans le champ Nom, tapez « Direction ».</span><span class="sxs-lookup"><span data-stu-id="4ebe9-127">In the Name field, type 'Direction'.</span></span>
+7. <span data-ttu-id="4ebe9-128">Dans le champ Énumération du modèle, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-128">In the Model enumeration field, enter or select a value.</span></span>
+    * <span data-ttu-id="4ebe9-129">Sélectionnez la valeur Direction.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-129">Select the value Direction.</span></span>  
+8. <span data-ttu-id="4ebe9-130">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-130">Click OK.</span></span>
+9. <span data-ttu-id="4ebe9-131">Cliquez sur Ajouter racine pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-131">Click Add root to open the drop dialog.</span></span>
+10. <span data-ttu-id="4ebe9-132">Dans l'arborescence, sélectionnez « Fonctions\Champ calculé ».</span><span class="sxs-lookup"><span data-stu-id="4ebe9-132">In the tree, select 'Functions\Calculated field'.</span></span>
+11. <span data-ttu-id="4ebe9-133">Dans le champ Nom, tapez « $BlockName ».</span><span class="sxs-lookup"><span data-stu-id="4ebe9-133">In the Name field, type '$BlockName'.</span></span>
+12. <span data-ttu-id="4ebe9-134">Cliquez sur Modifier la formule.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-134">Click Edit formula.</span></span>
+13. <span data-ttu-id="4ebe9-135">Dans le champ Formule, entrez « bloc ».</span><span class="sxs-lookup"><span data-stu-id="4ebe9-135">In the Formula field, enter '"block"'.</span></span>
+14. <span data-ttu-id="4ebe9-136">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-136">Click Save.</span></span>
+15. <span data-ttu-id="4ebe9-137">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-137">Close the page.</span></span>
+16. <span data-ttu-id="4ebe9-138">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-138">Click OK.</span></span>
+17. <span data-ttu-id="4ebe9-139">Cliquez sur Ajouter racine pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-139">Click Add root to open the drop dialog.</span></span>
+18. <span data-ttu-id="4ebe9-140">Dans l'arborescence, sélectionnez « Fonctions\Champ calculé ».</span><span class="sxs-lookup"><span data-stu-id="4ebe9-140">In the tree, select 'Functions\Calculated field'.</span></span>
+19. <span data-ttu-id="4ebe9-141">Dans le champ Nom, tapez « $RecName ».</span><span class="sxs-lookup"><span data-stu-id="4ebe9-141">In the Name field, type '$RecName'.</span></span>
+20. <span data-ttu-id="4ebe9-142">Cliquez sur Modifier la formule.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-142">Click Edit formula.</span></span>
+21. <span data-ttu-id="4ebe9-143">Dans le champ Formule, entrez « enregistrement ».</span><span class="sxs-lookup"><span data-stu-id="4ebe9-143">In the Formula field, enter '"record"'.</span></span>
+22. <span data-ttu-id="4ebe9-144">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-144">Click Save.</span></span>
+23. <span data-ttu-id="4ebe9-145">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-145">Close the page.</span></span>
+24. <span data-ttu-id="4ebe9-146">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-146">Click OK.</span></span>
+25. <span data-ttu-id="4ebe9-147">Cliquez sur Ajouter racine pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-147">Click Add root to open the drop dialog.</span></span>
+26. <span data-ttu-id="4ebe9-148">Dans l'arborescence, sélectionnez « Fonctions\Champ calculé ».</span><span class="sxs-lookup"><span data-stu-id="4ebe9-148">In the tree, select 'Functions\Calculated field'.</span></span>
+27. <span data-ttu-id="4ebe9-149">Dans le champ Nom, tapez « $InvName ».</span><span class="sxs-lookup"><span data-stu-id="4ebe9-149">In the Name field, type '$InvName'.</span></span>
+28. <span data-ttu-id="4ebe9-150">Cliquez sur Modifier la formule.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-150">Click Edit formula.</span></span>
+29. <span data-ttu-id="4ebe9-151">Dans le champ Formule, entrez « InvoicedAmountEUR ».</span><span class="sxs-lookup"><span data-stu-id="4ebe9-151">In the Formula field, enter '"InvoicedAmountEUR"'.</span></span>
+30. <span data-ttu-id="4ebe9-152">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-152">Click Save.</span></span>
+31. <span data-ttu-id="4ebe9-153">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-153">Close the page.</span></span>
+32. <span data-ttu-id="4ebe9-154">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-154">Click OK.</span></span>
+33. <span data-ttu-id="4ebe9-155">Dans l'arborescence, sélectionnez « Déclaration d'échanges de biens\Données ».</span><span class="sxs-lookup"><span data-stu-id="4ebe9-155">In the tree, select 'Intrastat\Data'.</span></span>
+34. <span data-ttu-id="4ebe9-156">Cliquez sur le bouton Modifier pour le champ « Nom de clé de données collectées »</span><span class="sxs-lookup"><span data-stu-id="4ebe9-156">Click Edit button for the ‘Collected data key name’ field</span></span>
+35. <span data-ttu-id="4ebe9-157">Cliquez sur Ajouter une source de données.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-157">Click Add data source.</span></span>
+    * <span data-ttu-id="4ebe9-158">$BlockName</span><span class="sxs-lookup"><span data-stu-id="4ebe9-158">$BlockName</span></span>  
+36. <span data-ttu-id="4ebe9-159">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-159">Click Save.</span></span>
+37. <span data-ttu-id="4ebe9-160">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-160">Close the page.</span></span>
+38. <span data-ttu-id="4ebe9-161">Cliquez sur le bouton Modifier pour le champ Valeur de clé de données collectées.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-161">Click the Edit button for the Collected data key value field.</span></span>
+39. <span data-ttu-id="4ebe9-162">Dans le champ Formule, entrez « IF(Intrastat.CommodityRecord.Direction=Direction.Import, "Import", "Export") ».</span><span class="sxs-lookup"><span data-stu-id="4ebe9-162">In the Formula field, enter 'IF(Intrastat.CommodityRecord.Direction=Direction.Import, "Import", "Export")'.</span></span>
+    * <span data-ttu-id="4ebe9-163">IF(Intrastat.CommodityRecord.Direction=Direction.Import, "Import", "Export")</span><span class="sxs-lookup"><span data-stu-id="4ebe9-163">IF(Intrastat.CommodityRecord.Direction=Direction.Import, "Import", "Export")</span></span>  
+40. <span data-ttu-id="4ebe9-164">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-164">Click Save.</span></span>
+41. <span data-ttu-id="4ebe9-165">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-165">Close the page.</span></span>
+    * <span data-ttu-id="4ebe9-166">Dénombrez les lignes de cette séquence.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-166">Count the lines of this sequence.</span></span> <span data-ttu-id="4ebe9-167">Les résultats sont utilisés avec le nom « bloc » séparément pour différentes directions.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-167">The results will be used with the name “block” separately for different directions.</span></span> <span data-ttu-id="4ebe9-168">La valeur « Importer » est utilisée pour les transactions de déclaration d'échanges de biens à l'arrivée.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-168">Value “Import” will be used for any arrivals Intrastat transactions.</span></span> <span data-ttu-id="4ebe9-169">La valeur « Exporter » est utilisée pour les transactions de déclaration d'échanges de biens à l'expédition.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-169">The value “Export” will be used for any Intrastat dispatches transactions.</span></span> <span data-ttu-id="4ebe9-170">Considérez cela comme une feuille de calcul Excel virtuelle.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-170">Consider this to be a virtual Excel spreadsheet.</span></span> <span data-ttu-id="4ebe9-171">À chaque transaction correspond une ligne dont la première colonne « bloc » est remplie avec les valeurs « Importer » et « Exporter » en conséquence.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-171">For each transaction a row where the first column “block” is filled with the values “Import” and “Export” accordingly.</span></span>  
+42. <span data-ttu-id="4ebe9-172">Dans l'arborescence, développez « Déclaration d'échanges de biens\Données : Souche ».</span><span class="sxs-lookup"><span data-stu-id="4ebe9-172">In the tree, expand 'Intrastat\Data: Sequence'.</span></span>
+43. <span data-ttu-id="4ebe9-173">Dans l'arborescence, sélectionnez « Déclaration d'échanges de biens\Données : Souche\Arrivées ? ».</span><span class="sxs-lookup"><span data-stu-id="4ebe9-173">In the tree, select 'Intrastat\Data: Sequence\Arrivals?'.</span></span>
+44. <span data-ttu-id="4ebe9-174">Cliquez sur le bouton Modifier pour le champ « Nom de clé de données collectées ».</span><span class="sxs-lookup"><span data-stu-id="4ebe9-174">Click Edit button for the ‘Collected data key name’ field.</span></span>
+    * <span data-ttu-id="4ebe9-175">Dénombrez les lignes de cette séquence.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-175">Count the lines of this sequence.</span></span> <span data-ttu-id="4ebe9-176">Les résultats sont mémorisés à l'aide du nom « enregistrement ».</span><span class="sxs-lookup"><span data-stu-id="4ebe9-176">The results will be memorized using the name “record”.</span></span>  
+45. <span data-ttu-id="4ebe9-177">Dans l'arborescence, sélectionnez « RecName ».</span><span class="sxs-lookup"><span data-stu-id="4ebe9-177">In the tree, select '$RecName'.</span></span>
+46. <span data-ttu-id="4ebe9-178">Cliquez sur Ajouter une source de données.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-178">Click Add data source.</span></span>
+47. <span data-ttu-id="4ebe9-179">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-179">Click Save.</span></span>
+48. <span data-ttu-id="4ebe9-180">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-180">Close the page.</span></span>
+49. <span data-ttu-id="4ebe9-181">Cliquez sur le bouton Modifier pour le champ « Valeur de clé de données collectées ».</span><span class="sxs-lookup"><span data-stu-id="4ebe9-181">Click Edit button for the ‘Collected data key value’ field</span></span>
+50. <span data-ttu-id="4ebe9-182">Dans le champ Formule, entrez « Intrastat.CommodityRecord.CommodityCode ».</span><span class="sxs-lookup"><span data-stu-id="4ebe9-182">In the Formula field, enter 'Intrastat.CommodityRecord.CommodityCode'.</span></span>
+51. <span data-ttu-id="4ebe9-183">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-183">Click Save.</span></span>
+52. <span data-ttu-id="4ebe9-184">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-184">Close the page.</span></span>
+    * <span data-ttu-id="4ebe9-185">Dénombrez les lignes de cette séquence.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-185">Count the lines of this sequence.</span></span> <span data-ttu-id="4ebe9-186">Les résultats sont utilisés avec le nom « enregistrement » séparément pour différents codes marchandise.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-186">The results will be used with the name “record” separately for different commodity codes.</span></span> <span data-ttu-id="4ebe9-187">Considérez cela comme une feuille de calcul Excel virtuelle.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-187">Consider this to be a virtual Excel spreadsheet.</span></span> <span data-ttu-id="4ebe9-188">À chaque transaction correspond une ligne dont la première colonne « bloc » est remplie avec les valeurs « Importer » et « Exporter » en conséquence et le second bloc « enregistrement » est rempli avec la valeur du code marchandise.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-188">For each transaction a row where the first column “block” is filled with the values “Import” and “Export” accordingly and the second block “record” is filled with the commodity code value.</span></span>  
+53. <span data-ttu-id="4ebe9-189">Dans l'arborescence, sélectionnez « Déclaration d'échanges de biens\Données : Souche\Répartitions ? ».</span><span class="sxs-lookup"><span data-stu-id="4ebe9-189">In the tree, select 'Intrastat\Data: Sequence\Dispatches?'.</span></span>
+54. <span data-ttu-id="4ebe9-190">Cliquez sur le bouton Modifier pour le champ « Nom de clé de données collectées »</span><span class="sxs-lookup"><span data-stu-id="4ebe9-190">Click Edit button for the ‘Collected data key name’ field</span></span>
+55. <span data-ttu-id="4ebe9-191">Dans l'arborescence, sélectionnez « RecName ».</span><span class="sxs-lookup"><span data-stu-id="4ebe9-191">In the tree, select '$RecName'.</span></span>
+56. <span data-ttu-id="4ebe9-192">Cliquez sur Ajouter une source de données.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-192">Click Add data source.</span></span>
+57. <span data-ttu-id="4ebe9-193">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-193">Click Save.</span></span>
+58. <span data-ttu-id="4ebe9-194">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-194">Close the page.</span></span>
+59. <span data-ttu-id="4ebe9-195">Cliquez sur le bouton Modifier pour le champ « Valeur de clé de données collectées ».</span><span class="sxs-lookup"><span data-stu-id="4ebe9-195">Click the Edit button for the ‘Collected data key value’ field.</span></span>
+60. <span data-ttu-id="4ebe9-196">Dans le champ Formule, entrez « Intrastat.CommodityRecord.CommodityCode ».</span><span class="sxs-lookup"><span data-stu-id="4ebe9-196">In the Formula field, enter 'Intrastat.CommodityRecord.CommodityCode'.</span></span>
+61. <span data-ttu-id="4ebe9-197">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-197">Click Save.</span></span>
+62. <span data-ttu-id="4ebe9-198">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-198">Close the page.</span></span>
+63. <span data-ttu-id="4ebe9-199">Dans l'arborescence, développez « Déclaration d'échanges de biens\Données : Souche\Répartitions : Souche ? ».</span><span class="sxs-lookup"><span data-stu-id="4ebe9-199">In the tree, expand 'Intrastat\Data: Sequence\Dispatches: Sequence?'.</span></span>
+64. <span data-ttu-id="4ebe9-200">Dans l'arborescence, développez « Déclaration d'échanges de biens\Données : Souche\Répartitions : Souche ?\Enregistrement = Intrastat.CommodityRecord ».</span><span class="sxs-lookup"><span data-stu-id="4ebe9-200">In the tree, expand 'Intrastat\Data: Sequence\Dispatches: Sequence?\Record =  Intrastat.CommodityRecord'.</span></span>
+65. <span data-ttu-id="4ebe9-201">Cliquez sur l'onglet Format.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-201">Click the Format tab.</span></span>
+66. <span data-ttu-id="4ebe9-202">Dans l'arborescence, sélectionnez « Déclaration d'échanges de biens\Données\Répartitions\Enregistrement\Montant de la facture EUR ».</span><span class="sxs-lookup"><span data-stu-id="4ebe9-202">In the tree, select 'Intrastat\Data\Dispatches\Record\Invoice amount EUR'.</span></span>
+67. <span data-ttu-id="4ebe9-203">Cliquez sur l'onglet Mise en relation.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-203">Click the Mapping tab.</span></span>
+68. <span data-ttu-id="4ebe9-204">Cliquez sur le bouton Modifier pour le champ « Nom de clé de données collectées ».</span><span class="sxs-lookup"><span data-stu-id="4ebe9-204">Click the Edit button for the ‘Collected data key name’ field.</span></span>
+69. <span data-ttu-id="4ebe9-205">Dans l'arborescence, sélectionnez « $InvName ».</span><span class="sxs-lookup"><span data-stu-id="4ebe9-205">In the tree, select '$InvName'.</span></span>
+70. <span data-ttu-id="4ebe9-206">Cliquez sur Ajouter une source de données.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-206">Click Add data source.</span></span>
+71. <span data-ttu-id="4ebe9-207">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-207">Click Save.</span></span>
+72. <span data-ttu-id="4ebe9-208">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-208">Close the page.</span></span>
+    * <span data-ttu-id="4ebe9-209">Récapitulez les valeurs du montant facturé pour les lignes de cette séquence.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-209">Summarize the invoiced amount values for lines of this sequence.</span></span> <span data-ttu-id="4ebe9-210">Les résultats sont utilisés avec le nom « InvoicedAmountEUR » séparément pour différentes directions de déclaration d'échanges de biens et différents codes marchandise.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-210">The results will be used with the name “InvoicedAmountEUR” separately for different Intrastat directions and commodity codes.</span></span> <span data-ttu-id="4ebe9-211">Considérez cela comme une création virtuelle dans une feuille de calcul Excel.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-211">Consider this to be a virtual creation in Excel spreadsheet.</span></span> <span data-ttu-id="4ebe9-212">À chaque transaction correspond une ligne dont la première colonne « bloc » est remplie avec les valeurs « Importer » et « Exporter » en conséquence.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-212">For each transaction a row where the first column “block” is filled with the values “Import” and “Export” accordingly.</span></span> <span data-ttu-id="4ebe9-213">Le second bloc « enregistrement » est rempli avec la valeur du code marchandise, et la troisième colonne « InvoicedAmountEUR » est remplie avec la valeur du montant de la facture.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-213">The second block “record” is filled with the commodity code value, and the third column “InvoicedAmountEUR” is filled with the invoice amount value.</span></span>  
+73. <span data-ttu-id="4ebe9-214">Dans l'arborescence, développez « Déclaration d'échanges de biens\Données\Arrivées ? ».</span><span class="sxs-lookup"><span data-stu-id="4ebe9-214">In the tree, expand 'Intrastat\Data\Arrivals?'.</span></span>
+74. <span data-ttu-id="4ebe9-215">Dans l'arborescence, développez « Déclaration d'échanges de biens\Données\Arrivées ?\Enregistrement = Intrastat.CommodityRecord ».</span><span class="sxs-lookup"><span data-stu-id="4ebe9-215">In the tree, expand 'Intrastat\Data\Arrivals?\Record =  Intrastat.CommodityRecord'.</span></span>
+75. <span data-ttu-id="4ebe9-216">Cliquez sur l'onglet Format.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-216">Click the Format tab.</span></span>
+76. <span data-ttu-id="4ebe9-217">Dans l'arborescence, sélectionnez « Déclaration d'échanges de biens\Données\Arrivées\Enregistrement\Montant de la facture EUR ».</span><span class="sxs-lookup"><span data-stu-id="4ebe9-217">In the tree, select 'Intrastat\Data\Arrivals\Record\Invoice amount EUR'.</span></span>
+77. <span data-ttu-id="4ebe9-218">Cliquez sur l'onglet Mise en relation.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-218">Click the Mapping tab.</span></span>
+78. <span data-ttu-id="4ebe9-219">Cliquez sur le bouton Modifier pour le champ « Nom de clé de données collectées ».</span><span class="sxs-lookup"><span data-stu-id="4ebe9-219">Click the Edit button for the ‘Collected data key name’ field.</span></span>
+79. <span data-ttu-id="4ebe9-220">Dans l'arborescence, sélectionnez « $InvName ».</span><span class="sxs-lookup"><span data-stu-id="4ebe9-220">In the tree, select '$InvName'.</span></span>
+80. <span data-ttu-id="4ebe9-221">Cliquez sur Ajouter une source de données.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-221">Click Add data source.</span></span>
+81. <span data-ttu-id="4ebe9-222">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-222">Click Save.</span></span>
+82. <span data-ttu-id="4ebe9-223">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-223">Close the page.</span></span>
+83. <span data-ttu-id="4ebe9-224">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-224">Click Save.</span></span>
+84. <span data-ttu-id="4ebe9-225">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="4ebe9-225">Close the page.</span></span>
 
 

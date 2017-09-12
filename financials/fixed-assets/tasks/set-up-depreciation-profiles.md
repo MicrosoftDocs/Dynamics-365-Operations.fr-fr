@@ -16,28 +16,28 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: e6cfaaf715c157b7903860b292d1e70c03df8008
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 4cf469ad1ae0db6a8764eedbcc0160afa03c2808
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-and-create-depreciation-profiles"></a>Paramétrer et créer des profils d'amortissement
+# <a name="set-up-and-create-depreciation-profiles"></a><span data-ttu-id="c94a5-103">Paramétrer et créer des profils d'amortissement</span><span class="sxs-lookup"><span data-stu-id="c94a5-103">Set up and create depreciation profiles</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Les profils d'amortissement déterminent le type et la fréquence d'amortissement d'une immobilisation.   La société fictive USMF et le rôle de comptable sont cités en exemple dans cet enregistrement.
+<span data-ttu-id="c94a5-104">Les profils d'amortissement déterminent le type et la fréquence d'amortissement d'une immobilisation.</span><span class="sxs-lookup"><span data-stu-id="c94a5-104">Depreciation profiles determine the type and the frequency of depreciation for an asset.</span></span>   <span data-ttu-id="c94a5-105">La société fictive USMF et le rôle de comptable sont cités en exemple dans cet enregistrement.</span><span class="sxs-lookup"><span data-stu-id="c94a5-105">This recording uses the USMF demo company and the accountant role.</span></span>
 
 
-## <a name="create-a-depreciation-profile"></a>Créer un profil d'amortissement
-1. Accédez à Immobilisations > Configuration > Profils d'amortissement.
-2. Cliquez sur Nouveau.
-3. Tapez une valeur dans le champ Amortissement.
-4. Tapez une valeur dans le champ Nom.
-5. Sélectionnez une option dans le champ Méthode.
-    * Si vous sélectionnez l'amortissement dégressif, vous devez entrer un pourcentage dans le champ Pourcentage.  
-6. Sélectionnez une option dans le champ Année d'amortissement.
-7. Sélectionnez une option dans le champ Fréquence.
-8. Permet de fermer l'écran.
+## <a name="create-a-depreciation-profile"></a><span data-ttu-id="c94a5-106">Créer un profil d'amortissement</span><span class="sxs-lookup"><span data-stu-id="c94a5-106">Create a depreciation profile</span></span>
+1. <span data-ttu-id="c94a5-107">Accédez à Immobilisations > Configuration > Profils d'amortissement.</span><span class="sxs-lookup"><span data-stu-id="c94a5-107">Go to Fixed assets > Setup > Depreciation profiles.</span></span>
+2. <span data-ttu-id="c94a5-108">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="c94a5-108">Click New.</span></span>
+3. <span data-ttu-id="c94a5-109">Tapez une valeur dans le champ Amortissement.</span><span class="sxs-lookup"><span data-stu-id="c94a5-109">In the Depreciation profile field, type a value.</span></span>
+4. <span data-ttu-id="c94a5-110">Tapez une valeur dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="c94a5-110">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="c94a5-111">Sélectionnez une option dans le champ Méthode.</span><span class="sxs-lookup"><span data-stu-id="c94a5-111">In the Method field, select an option.</span></span>
+    * <span data-ttu-id="c94a5-112">Si vous sélectionnez l'amortissement dégressif, vous devez entrer un pourcentage dans le champ Pourcentage.</span><span class="sxs-lookup"><span data-stu-id="c94a5-112">If selecting reducing balance, you will need to enter a percentage in the Percentage field.</span></span>  
+6. <span data-ttu-id="c94a5-113">Sélectionnez une option dans le champ Année d'amortissement.</span><span class="sxs-lookup"><span data-stu-id="c94a5-113">In the Depreciation year field, select an option.</span></span>
+7. <span data-ttu-id="c94a5-114">Sélectionnez une option dans le champ Fréquence.</span><span class="sxs-lookup"><span data-stu-id="c94a5-114">In the Period frequency field, select an option.</span></span>
+8. <span data-ttu-id="c94a5-115">Permet de fermer l'écran.</span><span class="sxs-lookup"><span data-stu-id="c94a5-115">Close the form.</span></span>
 
 

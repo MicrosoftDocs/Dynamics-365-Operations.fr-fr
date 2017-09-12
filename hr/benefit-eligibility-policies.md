@@ -19,42 +19,42 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 8c158ac5badd22054db86d269b58d223274176d2
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: d0f599964833162dd4bf4b490019cbed692428eb
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="benefit-eligibility-policies"></a>Stratégies de droit aux avantages
+# <a name="benefit-eligibility-policies"></a><span data-ttu-id="6c7bd-103">Stratégies de droit aux avantages</span><span class="sxs-lookup"><span data-stu-id="6c7bd-103">Benefit eligibility policies</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-Cette rubrique fournit des informations sur les stratégies de droit aux avantages, qui vous permettent de définir qui peut prétendre à des avantages spécifiques.
+<span data-ttu-id="6c7bd-104">Cette rubrique fournit des informations sur les stratégies de droit aux avantages, qui vous permettent de définir qui peut prétendre à des avantages spécifiques.</span><span class="sxs-lookup"><span data-stu-id="6c7bd-104">This topic provides information about benefit eligibility policies, which help you define who is eligible for specific benefits.</span></span>
 
-Lorsque vous créez des avantages, vous décidez quels avantages sont accessibles pour des employés donnés. Le tableau suivant indique les exemples des avantages que vous pouvez rendre disponibles à des employés spécifiques.
+<span data-ttu-id="6c7bd-105">Lorsque vous créez des avantages, vous décidez quels avantages sont accessibles pour des employés donnés.</span><span class="sxs-lookup"><span data-stu-id="6c7bd-105">When you create benefits, you decide which benefits will be available to which employees.</span></span> <span data-ttu-id="6c7bd-106">Le tableau suivant indique les exemples des avantages que vous pouvez rendre disponibles à des employés spécifiques.</span><span class="sxs-lookup"><span data-stu-id="6c7bd-106">The following table shows examples of benefits that you might make available to specific employees.</span></span>
 
-| Avantage          | Pour qui l'avantage est disponible |
+| <span data-ttu-id="6c7bd-107">Avantage</span><span class="sxs-lookup"><span data-stu-id="6c7bd-107">Benefit</span></span>          | <span data-ttu-id="6c7bd-108">Pour qui l'avantage est disponible</span><span class="sxs-lookup"><span data-stu-id="6c7bd-108">Who the benefit is available to</span></span> |
 |------------------|---------------------------------|
-| Assurance médicale maladie | Tous les employés                   |
-| Téléphone portable     | Vendeurs, cadres         |
-| Cartes de parking   | Cadres                      |
+| <span data-ttu-id="6c7bd-109">Assurance médicale maladie</span><span class="sxs-lookup"><span data-stu-id="6c7bd-109">Health insurance</span></span> | <span data-ttu-id="6c7bd-110">Tous les employés</span><span class="sxs-lookup"><span data-stu-id="6c7bd-110">All employees</span></span>                   |
+| <span data-ttu-id="6c7bd-111">Téléphone portable</span><span class="sxs-lookup"><span data-stu-id="6c7bd-111">Mobile phone</span></span>     | <span data-ttu-id="6c7bd-112">Vendeurs, cadres</span><span class="sxs-lookup"><span data-stu-id="6c7bd-112">Sales staff, executives</span></span>         |
+| <span data-ttu-id="6c7bd-113">Cartes de parking</span><span class="sxs-lookup"><span data-stu-id="6c7bd-113">Parking passes</span></span>   | <span data-ttu-id="6c7bd-114">Cadres</span><span class="sxs-lookup"><span data-stu-id="6c7bd-114">Executives</span></span>                      |
 
-Les composants suivants permettent de créer des stratégies d'éligibilité :
+<span data-ttu-id="6c7bd-115">Les composants suivants permettent de créer des stratégies d'éligibilité :</span><span class="sxs-lookup"><span data-stu-id="6c7bd-115">The following components in are used to create eligibility policies:</span></span>
 
--   Types de règles de stratégie
--   Stratégies de droit aux avantages
+-   <span data-ttu-id="6c7bd-116">Types de règles de stratégie</span><span class="sxs-lookup"><span data-stu-id="6c7bd-116">Policy rule types</span></span>
+-   <span data-ttu-id="6c7bd-117">Stratégies de droit aux avantages</span><span class="sxs-lookup"><span data-stu-id="6c7bd-117">Benefit eligibility policies</span></span>
 
-Les types de règles de stratégie définissent les paramètres de requête utilisés lorsque vous développez des règles de stratégie spécifiques. Après avoir créé des types de règles de stratégie, vous pouvez créer des stratégies de droit aux avantages. Les stratégies permettent de créer une collection de règles qui s'appliquent à une ou plusieurs entités juridiques. Dans chaque stratégie, vous pouvez afficher les types de règles de stratégie de droit aux avantages que vous avez créés précédemment. 
+<span data-ttu-id="6c7bd-118">Les types de règles de stratégie définissent les paramètres de requête utilisés lorsque vous développez des règles de stratégie spécifiques.</span><span class="sxs-lookup"><span data-stu-id="6c7bd-118">Policy rule types define the query parameters that are used when you develop specific policy rules.</span></span> <span data-ttu-id="6c7bd-119">Après avoir créé des types de règles de stratégie, vous pouvez créer des stratégies de droit aux avantages.</span><span class="sxs-lookup"><span data-stu-id="6c7bd-119">After you create policy rule types, you can create benefit eligibility policies.</span></span> <span data-ttu-id="6c7bd-120">Les stratégies permettent de créer une collection de règles qui s'appliquent à une ou plusieurs entités juridiques.</span><span class="sxs-lookup"><span data-stu-id="6c7bd-120">The policies let you create a collection of rules that apply to one or more legal entities.</span></span> <span data-ttu-id="6c7bd-121">Dans chaque stratégie, vous pouvez afficher les types de règles de stratégie de droit aux avantages que vous avez créés précédemment.</span><span class="sxs-lookup"><span data-stu-id="6c7bd-121">Within each policy, you can view any of the benefit eligibility policy rule types that you created earlier.</span></span> 
 
-Vous définissez la portée de la règle dans la stratégie. Par exemple, si vous créez un type de règle de stratégie de droit aux avantages nommé **Direction**, vous pouvez spécifier ce qu'est la règle de cette stratégie. Dans cet exemple, la règle peut stipuler que toute fonction qui contient le mot « directeur » doit être comprise dans la règle. Après avoir défini les paramètres des règles incluses dans la stratégie, vous pouvez affecter une règle spécifique à l'avantage.
+<span data-ttu-id="6c7bd-122">Vous définissez la portée de la règle dans la stratégie.</span><span class="sxs-lookup"><span data-stu-id="6c7bd-122">You define the scope of the rule within the policy.</span></span> <span data-ttu-id="6c7bd-123">Par exemple, si vous créez un type de règle de stratégie de droit aux avantages nommé **Direction**, vous pouvez spécifier ce qu'est la règle de cette stratégie.</span><span class="sxs-lookup"><span data-stu-id="6c7bd-123">For example, if you create a benefit eligibility policy rule type that is named **Executive**, you can specify what the rule is within that policy.</span></span> <span data-ttu-id="6c7bd-124">Dans cet exemple, la règle peut stipuler que toute fonction qui contient le mot « directeur » doit être comprise dans la règle.</span><span class="sxs-lookup"><span data-stu-id="6c7bd-124">In this example, the rule might state that any job title that contains the word “executive” should be included in the rule.</span></span> <span data-ttu-id="6c7bd-125">Après avoir défini les paramètres des règles incluses dans la stratégie, vous pouvez affecter une règle spécifique à l'avantage.</span><span class="sxs-lookup"><span data-stu-id="6c7bd-125">After you've defined the parameters of the rule or rules that are included in the policy, you can assign a specific rule to the benefit.</span></span>
 
-<a name="see-also"></a>Voir également :
+<a name="see-also"></a><span data-ttu-id="6c7bd-126">Voir également :</span><span class="sxs-lookup"><span data-stu-id="6c7bd-126">See also</span></span>
 --------
 
-[Définition et gestion d'un programme social](manage-benefit-program.md)
+[<span data-ttu-id="6c7bd-127">Définition et gestion d'un programme social</span><span class="sxs-lookup"><span data-stu-id="6c7bd-127">Defining and managing a benefit program</span></span>](manage-benefit-program.md)
 
 
 

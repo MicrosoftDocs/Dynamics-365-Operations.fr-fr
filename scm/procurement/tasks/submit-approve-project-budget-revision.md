@@ -17,32 +17,32 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 5eb4ac60371c6f54cc19adde332a093fb524ead7
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: d62b7accad04291e35690c4407a55d6a63b82a73
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="submit-and-approve-project-budget-revisions"></a>Envoyer et approuver les révisions budgétaires des projets
+# <a name="submit-and-approve-project-budget-revisions"></a><span data-ttu-id="77843-103">Envoyer et approuver les révisions budgétaires des projets</span><span class="sxs-lookup"><span data-stu-id="77843-103">Submit and approve project budget revisions</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Cette procédure fournit des informations sur la révision d'un budget de projet. Vous pouvez réviser un budget de projet autant de fois que nécessaire, mais vous ne pouvez pas afficher le montant d'une révision individuelle si le budget a été révisé à plusieurs reprises. 
+<span data-ttu-id="77843-104">Cette procédure fournit des informations sur la révision d'un budget de projet.</span><span class="sxs-lookup"><span data-stu-id="77843-104">This procedure provides information about revising a project budget.</span></span> <span data-ttu-id="77843-105">Vous pouvez réviser un budget de projet autant de fois que nécessaire, mais vous ne pouvez pas afficher le montant d'une révision individuelle si le budget a été révisé à plusieurs reprises.</span><span class="sxs-lookup"><span data-stu-id="77843-105">You can revise a project budget as many times as necessary, however you can't see the amount of an individual revision if the budget has been revised more than one time.</span></span> 
 
-Cette tâche utilise l'ensemble de données SSI.
+<span data-ttu-id="77843-106">Cette tâche utilise l'ensemble de données SSI.</span><span class="sxs-lookup"><span data-stu-id="77843-106">This task uses the SSI data set.</span></span>
 
-1. Accédez à Gestion et comptabilité des projets > Projets > Tous les projets.
-2. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-3. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-4. Cliquez sur Planifier dans le volet Actions.
-5. Cliquez sur Budget de projet.
-6. Cliquez sur Nouvelle révision.
-7. Développez la section Coûts.
-8. Dans le champ Montant de révision, entrez un nombre.
-9. Cliquez sur Enregistrer.
-10. Cliquez sur Workflow.
-11. Cliquez sur Soumettre.
-12. Dans le champ Commentaire, tapez une valeur.
-13. Cliquez sur Soumettre.
+1. <span data-ttu-id="77843-107">Accédez à Gestion et comptabilité des projets > Projets > Tous les projets.</span><span class="sxs-lookup"><span data-stu-id="77843-107">Go to Project management and accounting > Projects > All projects.</span></span>
+2. <span data-ttu-id="77843-108">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="77843-108">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="77843-109">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="77843-109">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="77843-110">Cliquez sur Planifier dans le volet Actions.</span><span class="sxs-lookup"><span data-stu-id="77843-110">On the Action Pane, click Plan.</span></span>
+5. <span data-ttu-id="77843-111">Cliquez sur Budget de projet.</span><span class="sxs-lookup"><span data-stu-id="77843-111">Click Project budget.</span></span>
+6. <span data-ttu-id="77843-112">Cliquez sur Nouvelle révision.</span><span class="sxs-lookup"><span data-stu-id="77843-112">Click New revision.</span></span>
+7. <span data-ttu-id="77843-113">Développez la section Coûts.</span><span class="sxs-lookup"><span data-stu-id="77843-113">Expand the Costs section.</span></span>
+8. <span data-ttu-id="77843-114">Dans le champ Montant de révision, entrez un nombre.</span><span class="sxs-lookup"><span data-stu-id="77843-114">In the Revision amount field, enter a number.</span></span>
+9. <span data-ttu-id="77843-115">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="77843-115">Click Save.</span></span>
+10. <span data-ttu-id="77843-116">Cliquez sur Workflow.</span><span class="sxs-lookup"><span data-stu-id="77843-116">Click Workflow.</span></span>
+11. <span data-ttu-id="77843-117">Cliquez sur Soumettre.</span><span class="sxs-lookup"><span data-stu-id="77843-117">Click Submit.</span></span>
+12. <span data-ttu-id="77843-118">Dans le champ Commentaire, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="77843-118">In the Comment field, type a value.</span></span>
+13. <span data-ttu-id="77843-119">Cliquez sur Soumettre.</span><span class="sxs-lookup"><span data-stu-id="77843-119">Click Submit.</span></span>
 
 

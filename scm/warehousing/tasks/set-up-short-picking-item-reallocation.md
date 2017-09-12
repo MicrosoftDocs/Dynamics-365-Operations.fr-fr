@@ -17,40 +17,40 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: fedd815cddfea4e00ed61ec6e176b633468c8fb2
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: b67965b6c8641b5d91ab3c5b0a7a7fd28a07cba6
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-short-picking-item-reallocation"></a>Paramétrer la réaffectation des articles pour les prélèvements partiels
+# <a name="set-up-short-picking-item-reallocation"></a><span data-ttu-id="9ba6c-103">Paramétrer la réaffectation des articles pour les prélèvements partiels</span><span class="sxs-lookup"><span data-stu-id="9ba6c-103">Set up short picking item reallocation</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Cette procédure décrit comment les magasiniers peuvent trouver rapidement d'autres emplacements si le stock n'est pas suffisant à l'emplacement où ils ont été redirigés. Il est possible d'utiliser un processus de réaffectation automatique, qui utilise des instructions d'emplacement pour récupérer les marchandises si elles sont disponibles dans un autre emplacement. Lorsque la réaffectation manuelle est utilisée, la liste des emplacements avec la quantité disponible est affichée sur l'appareil mobile, ce qui permet au magasinier de choisir l'emplacement à partir duquel utiliser le stock. Vous pouvez utiliser cette procédure dans les données fictives de la société USMF. Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.
+<span data-ttu-id="9ba6c-104">Cette procédure décrit comment les magasiniers peuvent trouver rapidement d'autres emplacements si le stock n'est pas suffisant à l'emplacement où ils ont été redirigés.</span><span class="sxs-lookup"><span data-stu-id="9ba6c-104">This procedure shows you how to enable warehouse workers to quickly find alternative locations if there isn’t sufficient inventory at the location they’ve been directed to.</span></span> <span data-ttu-id="9ba6c-105">Il est possible d'utiliser un processus de réaffectation automatique, qui utilise des instructions d'emplacement pour récupérer les marchandises si elles sont disponibles dans un autre emplacement.</span><span class="sxs-lookup"><span data-stu-id="9ba6c-105">It’s possible to use an automatic re-allocation process, which uses location directives to retrieve the goods if they’re available at another location.</span></span> <span data-ttu-id="9ba6c-106">Lorsque la réaffectation manuelle est utilisée, la liste des emplacements avec la quantité disponible est affichée sur l'appareil mobile, ce qui permet au magasinier de choisir l'emplacement à partir duquel utiliser le stock.</span><span class="sxs-lookup"><span data-stu-id="9ba6c-106">Alternatively, when manual re-allocation is used, a list of the locations with the available quantity is shown on the mobile device, allowing the warehouse worker to choose which location to use inventory from.</span></span> <span data-ttu-id="9ba6c-107">Vous pouvez utiliser cette procédure dans les données fictives de la société USMF.</span><span class="sxs-lookup"><span data-stu-id="9ba6c-107">You can use this procedure in demo data company USMF.</span></span> <span data-ttu-id="9ba6c-108">Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.</span><span class="sxs-lookup"><span data-stu-id="9ba6c-108">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
 
-## <a name="set-up-work-exceptions"></a>Définir des exceptions de travail
-1. Allez dans Gestion des entrepôts > Paramétrage > Travail > Exceptions de travail.
-2. Cliquez sur Nouveau.
-    * Il est possible de définir plusieurs exceptions de travail avec différentes stratégies de réaffectation des articles pour permettre au magasinier d'en choisir une selon les besoins de l'expédition qu'il traite.  
-3. Dans le champ Code d'exception de travail, tapez une valeur.
-    * Donnez à l'exception de travail un titre pour indiquer son utilité. Par exemple, Prélèvement partiel manuel.  
-4. Dans le champ Description, entrez une valeur.
-5. Dans le champ Type d'exception, sélectionnez « Prélèvement partiel ».
-6. Activez la case à cocher Ajuster le stock.
-    * Cette option signifie que le stock est automatiquement ajusté sur 0 à l'emplacement de prélèvement partiel.  
-7. Dans le champ Code type d'ajustement par défaut, entrez ou sélectionnez une valeur.
-    * Par exemple, dans USMF, vous pouvez sélectionner « Supprimer Res Adj Out ».  
-8. Dans le champ Réaffectation des articles, sélectionnez « Manuel ».
-    * Si vous sélectionnez Manuel ou Automatique et manuel, le magasinier doit être autorisé à utiliser la réaffectation manuelle.  
+## <a name="set-up-work-exceptions"></a><span data-ttu-id="9ba6c-109">Définir des exceptions de travail</span><span class="sxs-lookup"><span data-stu-id="9ba6c-109">Set up work exceptions</span></span>
+1. <span data-ttu-id="9ba6c-110">Allez dans Gestion des entrepôts > Paramétrage > Travail > Exceptions de travail.</span><span class="sxs-lookup"><span data-stu-id="9ba6c-110">Go to Warehouse management > Setup > Work > Work exceptions.</span></span>
+2. <span data-ttu-id="9ba6c-111">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="9ba6c-111">Click New.</span></span>
+    * <span data-ttu-id="9ba6c-112">Il est possible de définir plusieurs exceptions de travail avec différentes stratégies de réaffectation des articles pour permettre au magasinier d'en choisir une selon les besoins de l'expédition qu'il traite.</span><span class="sxs-lookup"><span data-stu-id="9ba6c-112">It’s possible to define several work exceptions with different item reallocation policies to enable the warehouse worker to choose one based on the needs of the shipment that they are processing.</span></span>  
+3. <span data-ttu-id="9ba6c-113">Dans le champ Code d'exception de travail, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="9ba6c-113">In the Work exception code field, type a value.</span></span>
+    * <span data-ttu-id="9ba6c-114">Donnez à l'exception de travail un titre pour indiquer son utilité.</span><span class="sxs-lookup"><span data-stu-id="9ba6c-114">Give the work exception a title to indicate what it’s used for.</span></span> <span data-ttu-id="9ba6c-115">Par exemple, Prélèvement partiel manuel.</span><span class="sxs-lookup"><span data-stu-id="9ba6c-115">For example, Short picking manual.</span></span>  
+4. <span data-ttu-id="9ba6c-116">Dans le champ Description, entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="9ba6c-116">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="9ba6c-117">Dans le champ Type d'exception, sélectionnez « Prélèvement partiel ».</span><span class="sxs-lookup"><span data-stu-id="9ba6c-117">In the Exception type field, select 'Short pick'.</span></span>
+6. <span data-ttu-id="9ba6c-118">Activez la case à cocher Ajuster le stock.</span><span class="sxs-lookup"><span data-stu-id="9ba6c-118">Select the Adjust inventory check box.</span></span>
+    * <span data-ttu-id="9ba6c-119">Cette option signifie que le stock est automatiquement ajusté sur 0 à l'emplacement de prélèvement partiel.</span><span class="sxs-lookup"><span data-stu-id="9ba6c-119">This option means that inventory will automatically be adjusted to 0 at the short picked location.</span></span>  
+7. <span data-ttu-id="9ba6c-120">Dans le champ Code type d'ajustement par défaut, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="9ba6c-120">In the Default adjustment type code field, enter or select a value.</span></span>
+    * <span data-ttu-id="9ba6c-121">Par exemple, dans USMF, vous pouvez sélectionner « Supprimer Res Adj Out ».</span><span class="sxs-lookup"><span data-stu-id="9ba6c-121">For example, in USMF you can select 'Remove Res Adj Out'.</span></span>  
+8. <span data-ttu-id="9ba6c-122">Dans le champ Réaffectation des articles, sélectionnez « Manuel ».</span><span class="sxs-lookup"><span data-stu-id="9ba6c-122">In the Item reallocation field, select 'Manual'.</span></span>
+    * <span data-ttu-id="9ba6c-123">Si vous sélectionnez Manuel ou Automatique et manuel, le magasinier doit être autorisé à utiliser la réaffectation manuelle.</span><span class="sxs-lookup"><span data-stu-id="9ba6c-123">If you select Manual, or Automatic and Manual, the warehouse worker needs to be enabled to use manual reallocation.</span></span>  
 
-## <a name="set-up-a-worker-to-use-manual-item-reallocation"></a>Paramétrer un collaborateur pour utiliser la réaffectation manuelle des articles
-1. Fermez la page.
-2. Allez dans Gestion des entrepôts > Paramétrage > Collaborateur.
-3. Cliquez sur Modifier.
-4. Dans la liste, sélectionnez le collaborateur 24.
-5. Développez la section Travail.
-6. Sélectionnez Oui dans le champ Autoriser la réaffectation manuelle des articles.
+## <a name="set-up-a-worker-to-use-manual-item-reallocation"></a><span data-ttu-id="9ba6c-124">Paramétrer un collaborateur pour utiliser la réaffectation manuelle des articles</span><span class="sxs-lookup"><span data-stu-id="9ba6c-124">Set up a worker to use manual item reallocation</span></span>
+1. <span data-ttu-id="9ba6c-125">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="9ba6c-125">Close the page.</span></span>
+2. <span data-ttu-id="9ba6c-126">Allez dans Gestion des entrepôts > Paramétrage > Collaborateur.</span><span class="sxs-lookup"><span data-stu-id="9ba6c-126">Go to Warehouse management > Setup > Worker.</span></span>
+3. <span data-ttu-id="9ba6c-127">Cliquez sur Modifier.</span><span class="sxs-lookup"><span data-stu-id="9ba6c-127">Click Edit.</span></span>
+4. <span data-ttu-id="9ba6c-128">Dans la liste, sélectionnez le collaborateur 24.</span><span class="sxs-lookup"><span data-stu-id="9ba6c-128">In the list, select worker 24.</span></span>
+5. <span data-ttu-id="9ba6c-129">Développez la section Travail.</span><span class="sxs-lookup"><span data-stu-id="9ba6c-129">Expand the Work section.</span></span>
+6. <span data-ttu-id="9ba6c-130">Sélectionnez Oui dans le champ Autoriser la réaffectation manuelle des articles.</span><span class="sxs-lookup"><span data-stu-id="9ba6c-130">Select Yes in the Allow manual item reallocation field.</span></span>
 
 

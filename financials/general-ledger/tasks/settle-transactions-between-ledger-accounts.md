@@ -16,35 +16,35 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 066604417f842de84054a9ee56646fff242f303b
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 97a28069f8d560c98099a667852c932ba7658996
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="settle-transactions-between-ledger-accounts"></a>Règlement des transactions entre des comptes généraux
+# <a name="settle-transactions-between-ledger-accounts"></a><span data-ttu-id="30095-103">Règlement des transactions entre des comptes généraux</span><span class="sxs-lookup"><span data-stu-id="30095-103">Settle transactions between ledger accounts</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Cette procédure montre comment régler les transactions entre les comptes généraux et annuler un règlement comptable. La société fictive USMF sert d'exemple dans cette procédure.
+<span data-ttu-id="30095-104">Cette procédure montre comment régler les transactions entre les comptes généraux et annuler un règlement comptable.</span><span class="sxs-lookup"><span data-stu-id="30095-104">This procedure shows how to settle transactions between ledger accounts and cancel a ledger settlement.</span></span> <span data-ttu-id="30095-105">La société fictive USMF sert d'exemple dans cette procédure.</span><span class="sxs-lookup"><span data-stu-id="30095-105">This procedure uses the USMF demo data company.</span></span>
 
 
-## <a name="settle-transaction-between-ledger-accounts"></a>Régler une transaction entre des comptes généraux
-1. Accédez à Comptabilité > Tâches périodiques > Règlements comptables.
-2. Dans la liste, cherchez la transaction que vous souhaitez régler.
-    * Le solde du montant doit être nul.  
-3. Cliquez sur Inclure.
-4. Cliquez sur Accepter.
+## <a name="settle-transaction-between-ledger-accounts"></a><span data-ttu-id="30095-106">Régler une transaction entre des comptes généraux</span><span class="sxs-lookup"><span data-stu-id="30095-106">Settle transaction between ledger accounts</span></span>
+1. <span data-ttu-id="30095-107">Accédez à Comptabilité > Tâches périodiques > Règlements comptables.</span><span class="sxs-lookup"><span data-stu-id="30095-107">Go to General ledger > Periodic tasks > Ledger settlements.</span></span>
+2. <span data-ttu-id="30095-108">Dans la liste, cherchez la transaction que vous souhaitez régler.</span><span class="sxs-lookup"><span data-stu-id="30095-108">In the list, find the transaction that you want to settle.</span></span>
+    * <span data-ttu-id="30095-109">Le solde du montant doit être nul.</span><span class="sxs-lookup"><span data-stu-id="30095-109">The amount balance must be zero.</span></span>  
+3. <span data-ttu-id="30095-110">Cliquez sur Inclure.</span><span class="sxs-lookup"><span data-stu-id="30095-110">Click Include.</span></span>
+4. <span data-ttu-id="30095-111">Cliquez sur Accepter.</span><span class="sxs-lookup"><span data-stu-id="30095-111">Click Accept.</span></span>
 
-## <a name="cancel-a-ledger-settlement"></a>Annulation d'un règlement comptable
-1. Fermez la page.
-2. Accédez à Comptabilité > Recherches et états > Balance comptable.
-3. Cliquez sur Paramètres pour ouvrir la boîte de dialogue.
-4. Cliquez sur Mise à jour.
-5. Dans la liste, cherchez le compte qui présente la transaction réglée.
-6. Cliquez sur Toutes les transactions.
-7. Utilisez un filtre pour rechercher facilement la transaction dans la liste.
-8. Cliquez sur Règlements comptables.
-9. Dans la liste, marquez la ligne sélectionnée.
+## <a name="cancel-a-ledger-settlement"></a><span data-ttu-id="30095-112">Annulation d'un règlement comptable</span><span class="sxs-lookup"><span data-stu-id="30095-112">Cancel a ledger settlement</span></span>
+1. <span data-ttu-id="30095-113">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="30095-113">Close the page.</span></span>
+2. <span data-ttu-id="30095-114">Accédez à Comptabilité > Recherches et états > Balance comptable.</span><span class="sxs-lookup"><span data-stu-id="30095-114">Go to General ledger > Inquiries and reports > Trial balance.</span></span>
+3. <span data-ttu-id="30095-115">Cliquez sur Paramètres pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="30095-115">Click Parameters to open the drop dialog.</span></span>
+4. <span data-ttu-id="30095-116">Cliquez sur Mise à jour.</span><span class="sxs-lookup"><span data-stu-id="30095-116">Click Update.</span></span>
+5. <span data-ttu-id="30095-117">Dans la liste, cherchez le compte qui présente la transaction réglée.</span><span class="sxs-lookup"><span data-stu-id="30095-117">In the list, find the account that has the settled transaction.</span></span>
+6. <span data-ttu-id="30095-118">Cliquez sur Toutes les transactions.</span><span class="sxs-lookup"><span data-stu-id="30095-118">Click All transactions.</span></span>
+7. <span data-ttu-id="30095-119">Utilisez un filtre pour rechercher facilement la transaction dans la liste.</span><span class="sxs-lookup"><span data-stu-id="30095-119">Use a filter to easily find the transaction in the list.</span></span>
+8. <span data-ttu-id="30095-120">Cliquez sur Règlements comptables.</span><span class="sxs-lookup"><span data-stu-id="30095-120">Click Ledger settlements.</span></span>
+9. <span data-ttu-id="30095-121">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="30095-121">In the list, mark the selected row.</span></span>
 
 
