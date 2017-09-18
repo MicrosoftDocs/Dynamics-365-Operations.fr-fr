@@ -1,7 +1,7 @@
 ---
 title: "Espace de travail de contrôle des coûts"
 description: "Cette rubrique fournit des informations sur l'espace de travail Contrôle des coûts. Cet espace de travail est un point central où les responsables chargés de contrôler un objet de coût ou un ensemble d'objets de coûts dans une dimension ou dans plusieurs dimensions peuvent accéder aux états."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid:
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: YuyuScheller
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
