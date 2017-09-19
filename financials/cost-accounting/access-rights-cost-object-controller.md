@@ -1,7 +1,7 @@
 ---
 title: "Définir les droits d'accès des contrôleurs d'objets de coût"
 description: "Cette rubrique fournit des informations sur les droits d'accès pour les contrôleurs d'objet de coût."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/24/2017
 ms.topic: article
@@ -20,14 +20,14 @@ ms.author: YuyuScheller
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: c520e14233fb03646aa4a273362e596bd1990a8c
+ms.sourcegitcommit: eda924f36102550f2c543504b2bfb4acee810e9a
+ms.openlocfilehash: 05d32f0cf70975700718adbabbaeb6dcefd9e882
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/18/2017
 
 ---
 
-## <a name="access-rights-of-a-cost-object-controller"></a><span data-ttu-id="7c815-103">Droits d'accès d'un contrôleur d'objet de coût</span><span class="sxs-lookup"><span data-stu-id="7c815-103">Access rights of a cost object controller</span></span>
+# <a name="access-rights-of-a-cost-object-controller"></a><span data-ttu-id="7c815-103">Droits d'accès d'un contrôleur d'objet de coût</span><span class="sxs-lookup"><span data-stu-id="7c815-103">Access rights of a cost object controller</span></span>
 
 [!include[banner](../includes/banner.md)]
 
