@@ -1,0 +1,55 @@
+--- 
+title: " Envoyer des produits du centre de distribution au magasin à l'aide de la procédure de réassort magasin"
+description: "Cette procédure décrit les étapes pour créer et traiter un réassort magasin afin de distribuer les produits depuis un emplacement vers un ou plusieurs magasins."
+author: rubencdelgado
+manager: AnnBe
+ms.date: 02/17/2016
+ms.topic: business-process
+ms.prod: 
+ms.service: dynamics-ax-applications
+ms.technology: 
+audience: Application User
+ms.reviewer: josaw
+ms.search.scope: Operations
+ms.search.region: Global
+ms.search.industry: Retail
+ms.author: rubendel
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: AX 7.0.0
+ms.translationtype: HT
+ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
+ms.openlocfilehash: b73147d76880714d22db8e95d1369b4a01ddaae6
+ms.contentlocale: fr-fr
+ms.lasthandoff: 07/28/2017
+
+---
+# <a name="push-products-from-distribution-center-to-store-using-buyers-push"></a> Envoyer des produits du centre de distribution au magasin à l'aide de la procédure de réassort magasin
+
+[!include[task guide banner](../includes/task-guide-banner.md)]
+
+Cette procédure décrit les étapes pour créer et traiter un réassort magasin afin de distribuer les produits depuis un emplacement vers un ou plusieurs magasins. L'utilisateur peut définir plusieurs configurations et laisser le système décider de la distribution des produits, ou saisir manuellement l'emplacement de distribution des produits et la quantité distribuée dans chaque magasin. Cette procédure n'inclut pas le paramétrage des données pouvant être utilisées dans le réassort magasin, telles que les règles de réapprovisionnement, les hiérarchies organisationnelles et les poids des magasins. La société fictive USRT sert d'exemple dans cette procédure.
+
+1. Accédez à Réassort magasin.
+2. Cliquez sur Nouveau.
+3. Dans le champ Description, entrez une valeur.
+4. Saisissez ou sélectionnez une valeur dans le champ Site.
+5. Dans le champ Entrepôt, saisissez ou sélectionnez un entrepôt contenant des produits avec des quantités disponibles.
+6. Cliquez sur Ajouter.
+7. Dans la liste, marquer la ligne sélectionnée.
+8. Dans le champ Numéro d'article, saisissez ou sélectionnez un produit.
+9. Cliquez sur Ajouter.
+10. Dans la liste, marquer la ligne sélectionnée.
+11. Dans le champ Numéro d'article, saisissez ou sélectionnez une variante de produit.
+    * Lors de la saisie d'une variante de produit, des lignes sont créées pour chaque variante.  
+12. Dans la liste, marquez une ligne.
+13. Dans le champ Quantité proposée, saisissez la quantité du produit sélectionné que vous souhaitez distribuer.
+14. Dans le champ Quantité supplémentaire à proposer, saisissez la quantité des produits ayant une quantité disponible à distribuer.
+15. Dans le champ Distribution, saisissez « Priorité de l'entrepôt ».
+    * Vous pouvez sélectionner les autres types pour utiliser d'autres règles de distribution.  
+16. Dans le champ Hiérarchie des réapprovisionnements, sélectionnez une valeur.
+17. Sélectionnez Oui dans le champ Respecter les assortiments.
+18. Cliquez sur Calculer les quantités et examinez les quantités ajoutées aux lignes de la section Entrepôt.
+19. Cliquez sur Créer une commande.
+20. Cliquez sur Oui.
+
+
