@@ -451,6 +451,7 @@
 ### [Modèles de fractionnement](dev-tools/model-split.md)
 ### [Utiliser des délégués pour résoudre les dépendances entre les modèles](migration-upgrade/delegates-migration.md)
 
+
 ## Mise à niveau vers une mise à jour récente
 ### [Processus de déplacement vers la dernière mise à jour](migration-upgrade/upgrade-latest-update.md)
 ### [Stratégie de cycle de vie](migration-upgrade/versions-update-policy.md)
@@ -511,6 +512,8 @@
 ## [Charger des processus d'entreprise personnalisés](lifecycle-services/upload-business-processes-bpm-task-recorder.md)
 ## [Surveillance et diagnostics ](lifecycle-services/monitoring-diagnostics.md)
 ## [Bibliothèque d'actifs](lifecycle-services/asset-library.md)
+## [Microsoft Dynamics 365 - Vue d'ensemble du service de traduction](lifecycle-services/translation-service-overview.md)
+### [Guide de l'utilisateur du service de traduction de Microsoft Dynamics 365](lifecycle-services/use-translation-service.md)
 
 ## Fonctions de Dynamics AX 2012 Lifecycle Services
 ### Déploiement

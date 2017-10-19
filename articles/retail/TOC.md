@@ -1,5 +1,8 @@
 # [Bienvenue dans Dynamics 365 for Retail](index.md)
 
+# Mise en route
+## [Nouveautés ou changements](get-started/whats-new.md)
+
 # Paiements
 ## [Modes de paiement](payment-methods.md)
 ## [Paramétrage, autorisation et capture de carte de crédit](../financials/accounts-receivable/credit-card-authorizations.md)
@@ -173,8 +176,9 @@
 ### [Configuration et installation de Retail Modern POS](retail-modern-pos-device-activation.md)
 #### [Gérer les comptes et les périphériques de vente au détail depuis le siège](set-up-activation-accounts-validate-devices-hq.md)
 #### [Activation de périphérique Retail POS](dev-itpro/retail-device-activation.md)
-#### [Sécuriser le Cloud POS de vente au détail](dev-itpro/secure-retail-cloud-pos.md)
-### [Installation et configuration de la station matérielle de vente au détail](retail-hardware-station-configuration-installation.md)
+#### [Sécuriser le Retail Cloud POS](dev-itpro/secure-retail-cloud-pos.md)
+### [Installation et configuration de la station matérielle Retail](retail-hardware-station-configuration-installation.md)
+### [Déploiement en masse des composants en libre service Retail](dev-itpro/retail-mass-deployment.md)
 ### [Événements des composants Retail pour les diagnostics et le dépannage](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
 ### [Appliquer un package déployable](../dev-itpro/deployment/apply-deployable-package-system.md)
 
