@@ -19,34 +19,34 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: f8c633e09103c45aff5614270a94a3bfe4fc5e20
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
-# <a name="explosion-of-a-bom-version"></a><span data-ttu-id="ace07-103">Éclatement d'une version de nomenclature</span><span class="sxs-lookup"><span data-stu-id="ace07-103">Explosion of a BOM version</span></span>
+# <a name="explosion-of-a-bom-version"></a><span data-ttu-id="361dc-103">Éclatement d'une version de nomenclature</span><span class="sxs-lookup"><span data-stu-id="361dc-103">Explosion of a BOM version</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-<span data-ttu-id="ace07-104">Cet article décrit un scénario de planification qui implique l'éclatement d'une version de nomenclature.</span><span class="sxs-lookup"><span data-stu-id="ace07-104">This article explains a master planning scenario that involves explosion of a bill of materials (BOM) version.</span></span>
+<span data-ttu-id="361dc-104">Cet article décrit un scénario de planification qui implique l'éclatement d'une version de nomenclature.</span><span class="sxs-lookup"><span data-stu-id="361dc-104">This article explains a master planning scenario that involves explosion of a bill of materials (BOM) version.</span></span>
 
-<span data-ttu-id="ace07-105">Un éclatement de la demande d'une version de nomenclature crée une demande pour chaque ligne de nomenclature au niveau d'un site spécifique, et éventuellement d'un entrepôt spécifique.</span><span class="sxs-lookup"><span data-stu-id="ace07-105">A demand explosion of a bill of materials (BOM) version creates a demand for each BOM line item at a specific site and, possibly, at a specific warehouse.</span></span> <span data-ttu-id="ace07-106">Dans une nomenclature spécifique à un site, un entrepôt spécifique peut être défini pour chaque ligne de nomenclature.</span><span class="sxs-lookup"><span data-stu-id="ace07-106">In a site-specific BOM, a specific warehouse can be defined for each BOM line.</span></span> <span data-ttu-id="ace07-107">En outre, pour chaque ligne de nomenclature, les paramètres de dimension de l'article déterminent si un entrepôt est requis ou non.</span><span class="sxs-lookup"><span data-stu-id="ace07-107">Additionally, for each BOM line, the item's dimension settings determine whether the warehouse is required.</span></span> <span data-ttu-id="ace07-108">La demande qui en résulte pour chaque ligne de nomenclature devient le point de départ d'un autre éclatement de la demande.</span><span class="sxs-lookup"><span data-stu-id="ace07-108">The resulting demand for each BOM line item then becomes the starting point for additional demand explosion.</span></span> <span data-ttu-id="ace07-109">Ce scénario de planification implique les conditions suivantes :</span><span class="sxs-lookup"><span data-stu-id="ace07-109">This master planning scenario involves the following conditions:</span></span>
+<span data-ttu-id="361dc-105">Un éclatement de la demande d'une version de nomenclature crée une demande pour chaque ligne de nomenclature au niveau d'un site spécifique, et éventuellement d'un entrepôt spécifique.</span><span class="sxs-lookup"><span data-stu-id="361dc-105">A demand explosion of a bill of materials (BOM) version creates a demand for each BOM line item at a specific site and, possibly, at a specific warehouse.</span></span> <span data-ttu-id="361dc-106">Dans une nomenclature spécifique à un site, un entrepôt spécifique peut être défini pour chaque ligne de nomenclature.</span><span class="sxs-lookup"><span data-stu-id="361dc-106">In a site-specific BOM, a specific warehouse can be defined for each BOM line.</span></span> <span data-ttu-id="361dc-107">En outre, pour chaque ligne de nomenclature, les paramètres de dimension de l'article déterminent si un entrepôt est requis ou non.</span><span class="sxs-lookup"><span data-stu-id="361dc-107">Additionally, for each BOM line, the item's dimension settings determine whether the warehouse is required.</span></span> <span data-ttu-id="361dc-108">La demande qui en résulte pour chaque ligne de nomenclature devient le point de départ d'un autre éclatement de la demande.</span><span class="sxs-lookup"><span data-stu-id="361dc-108">The resulting demand for each BOM line item then becomes the starting point for additional demand explosion.</span></span> <span data-ttu-id="361dc-109">Ce scénario de planification implique les conditions suivantes :</span><span class="sxs-lookup"><span data-stu-id="361dc-109">This master planning scenario involves the following conditions:</span></span>
 
--   <span data-ttu-id="ace07-110">La dimension de site est obligatoire et doit être entrée dans la transaction de demande.</span><span class="sxs-lookup"><span data-stu-id="ace07-110">The site dimension is mandatory and must be entered on the demand transaction.</span></span>
--   <span data-ttu-id="ace07-111">La dimension de site est cohérente.</span><span class="sxs-lookup"><span data-stu-id="ace07-111">The site dimension is consistent.</span></span> <span data-ttu-id="ace07-112">Le site pour la demande de niveau inférieur est donc identique au site de la transaction de demande initiale.</span><span class="sxs-lookup"><span data-stu-id="ace07-112">Therefore, the site for lower-level demand is the same as the site on the initial demand transaction.</span></span>
+-   <span data-ttu-id="361dc-110">La dimension de site est obligatoire et doit être entrée dans la transaction de demande.</span><span class="sxs-lookup"><span data-stu-id="361dc-110">The site dimension is mandatory and must be entered on the demand transaction.</span></span>
+-   <span data-ttu-id="361dc-111">La dimension de site est cohérente.</span><span class="sxs-lookup"><span data-stu-id="361dc-111">The site dimension is consistent.</span></span> <span data-ttu-id="361dc-112">Le site pour la demande de niveau inférieur est donc identique au site de la transaction de demande initiale.</span><span class="sxs-lookup"><span data-stu-id="361dc-112">Therefore, the site for lower-level demand is the same as the site on the initial demand transaction.</span></span>
 
-<span data-ttu-id="ace07-113">L'illustration suivante présente le processus d'éclatement de la demande de planification.</span><span class="sxs-lookup"><span data-stu-id="ace07-113">The following illustration shows how the process for master planning demand explosion.</span></span> ![Éclatement de la demande à l'aide d'une version de nomenclature](./media/multisitedemandexplosionscenariousingbomversion.gif)
+<span data-ttu-id="361dc-113">L'illustration suivante présente le processus d'éclatement de la demande de planification.</span><span class="sxs-lookup"><span data-stu-id="361dc-113">The following illustration shows how the process for master planning demand explosion.</span></span> ![Éclatement de la demande à l'aide d'une version de nomenclature](./media/multisitedemandexplosionscenariousingbomversion.gif)
 
-<a name="see-also"></a><span data-ttu-id="ace07-115">Voir également :</span><span class="sxs-lookup"><span data-stu-id="ace07-115">See also</span></span>
+<a name="see-also"></a><span data-ttu-id="361dc-115">Voir également :</span><span class="sxs-lookup"><span data-stu-id="361dc-115">See also</span></span>
 --------
 
-[<span data-ttu-id="ace07-116">Planification - Méthode de détermination de la version de nomenclature</span><span class="sxs-lookup"><span data-stu-id="ace07-116">Master planning - how the BOM version is determined</span></span>](master-plan-bom-version-determined.md)
+[<span data-ttu-id="361dc-116">Planification - Méthode de détermination de la version de nomenclature</span><span class="sxs-lookup"><span data-stu-id="361dc-116">Master planning - how the BOM version is determined</span></span>](master-plan-bom-version-determined.md)
 
-[<span data-ttu-id="ace07-117">Planification et fonctionnalité multisite</span><span class="sxs-lookup"><span data-stu-id="ace07-117">Master planning and multisite functionality</span></span>](master-plan-multisite-functionality.md)
+[<span data-ttu-id="361dc-117">Planification et fonctionnalité multisite</span><span class="sxs-lookup"><span data-stu-id="361dc-117">Master planning and multisite functionality</span></span>](master-plan-multisite-functionality.md)
 
 
 

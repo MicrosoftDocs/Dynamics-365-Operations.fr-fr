@@ -17,47 +17,47 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 748c536692043a4cfe7d8b087066e12b3e7ddadc
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="create-online-channels-and-define-channel-attributes"></a><span data-ttu-id="817b5-103"> Créer des canaux en ligne et définir les attributs du canal</span><span class="sxs-lookup"><span data-stu-id="817b5-103">Create online channels and define channel attributes</span></span>
+# <a name="create-online-channels-and-define-channel-attributes"></a><span data-ttu-id="749e9-103"> Créer des canaux en ligne et définir les attributs du canal</span><span class="sxs-lookup"><span data-stu-id="749e9-103">Create online channels and define channel attributes</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-<span data-ttu-id="817b5-104">Cette procédure décrit la création d'un canal en ligne et son ajout à la hiérarchie d'organisation.</span><span class="sxs-lookup"><span data-stu-id="817b5-104">This procedure walks through creating a new online channel and adding it to the organization hierarchy.</span></span> <span data-ttu-id="817b5-105">Vous devez créer la hiérarchie d'organisation avant de créer un canal en ligne.</span><span class="sxs-lookup"><span data-stu-id="817b5-105">You must create the organization hierarchy before you can create a new online channel.</span></span> <span data-ttu-id="817b5-106">La société fictive USRT sert d'exemple dans cette procédure.</span><span class="sxs-lookup"><span data-stu-id="817b5-106">This procedure uses the USRT demo data company.</span></span>
+<span data-ttu-id="749e9-104">Cette procédure décrit la création d'un canal en ligne et son ajout à la hiérarchie d'organisation.</span><span class="sxs-lookup"><span data-stu-id="749e9-104">This procedure walks through creating a new online channel and adding it to the organization hierarchy.</span></span> <span data-ttu-id="749e9-105">Vous devez créer la hiérarchie d'organisation avant de créer un canal en ligne.</span><span class="sxs-lookup"><span data-stu-id="749e9-105">You must create the organization hierarchy before you can create a new online channel.</span></span> <span data-ttu-id="749e9-106">La société fictive USRT sert d'exemple dans cette procédure.</span><span class="sxs-lookup"><span data-stu-id="749e9-106">This procedure uses the USRT demo data company.</span></span>
 
 
-## <a name="create-a-new-online-channel"></a><span data-ttu-id="817b5-107">Créer un canal en ligne</span><span class="sxs-lookup"><span data-stu-id="817b5-107">Create a new online channel</span></span>
-1. <span data-ttu-id="817b5-108">Accédez à Commerce et vente au détail > Canaux > Magasins en ligne.</span><span class="sxs-lookup"><span data-stu-id="817b5-108">Go to Retail and commerce > Channels > Online stores.</span></span>
-2. <span data-ttu-id="817b5-109">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="817b5-109">Click New.</span></span>
-3. <span data-ttu-id="817b5-110">Tapez une valeur dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="817b5-110">In the Name field, type a value.</span></span>
-4. <span data-ttu-id="817b5-111">Dans le champ Entrepôt, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="817b5-111">In the Warehouse field, enter or select a value.</span></span>
-5. <span data-ttu-id="817b5-112">Dans le champ Fuseau horaire du magasin, sélectionnez une option.</span><span class="sxs-lookup"><span data-stu-id="817b5-112">In the Store time zone field, select an option.</span></span>
-6. <span data-ttu-id="817b5-113">Dans le champ Client par défaut, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="817b5-113">In the Default customer field, enter or select a value.</span></span>
-7. <span data-ttu-id="817b5-114">Dans le champ Carnet d'adresses du client, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="817b5-114">In the Customer address book field, enter or select a value.</span></span>
-8. <span data-ttu-id="817b5-115">Dans le champ Conditions de paiement, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="817b5-115">In the Terms of payment field, enter or select a value.</span></span>
-9. <span data-ttu-id="817b5-116">Entrez ou sélectionnez une valeur dans le champ Mode de paiement.</span><span class="sxs-lookup"><span data-stu-id="817b5-116">In the Method of payment field, enter or select a value.</span></span>
-10. <span data-ttu-id="817b5-117">Dans le champ Profil de notification par e-mail, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="817b5-117">In the Email notification profile field, enter or select a value.</span></span>
-11. <span data-ttu-id="817b5-118">Développez la section Dimensions financières.</span><span class="sxs-lookup"><span data-stu-id="817b5-118">Expand the Financial dimensions section.</span></span>
-12. <span data-ttu-id="817b5-119">Dans le champ Unité commerciale, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="817b5-119">In the BusinessUnit field, enter or select a value.</span></span>
-    * <span data-ttu-id="817b5-120">De même, définissez la valeur de toutes les autres dimensions par défaut.</span><span class="sxs-lookup"><span data-stu-id="817b5-120">Similarly set the value for all the other default dimensions.</span></span>  
-13. <span data-ttu-id="817b5-121">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="817b5-121">Click Save.</span></span>
+## <a name="create-a-new-online-channel"></a><span data-ttu-id="749e9-107">Créer un canal en ligne</span><span class="sxs-lookup"><span data-stu-id="749e9-107">Create a new online channel</span></span>
+1. <span data-ttu-id="749e9-108">Accédez à Commerce et vente au détail > Canaux > Magasins en ligne.</span><span class="sxs-lookup"><span data-stu-id="749e9-108">Go to Retail and commerce > Channels > Online stores.</span></span>
+2. <span data-ttu-id="749e9-109">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="749e9-109">Click New.</span></span>
+3. <span data-ttu-id="749e9-110">Tapez une valeur dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="749e9-110">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="749e9-111">Dans le champ Entrepôt, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="749e9-111">In the Warehouse field, enter or select a value.</span></span>
+5. <span data-ttu-id="749e9-112">Dans le champ Fuseau horaire du magasin, sélectionnez une option.</span><span class="sxs-lookup"><span data-stu-id="749e9-112">In the Store time zone field, select an option.</span></span>
+6. <span data-ttu-id="749e9-113">Dans le champ Client par défaut, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="749e9-113">In the Default customer field, enter or select a value.</span></span>
+7. <span data-ttu-id="749e9-114">Dans le champ Carnet d'adresses du client, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="749e9-114">In the Customer address book field, enter or select a value.</span></span>
+8. <span data-ttu-id="749e9-115">Dans le champ Conditions de paiement, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="749e9-115">In the Terms of payment field, enter or select a value.</span></span>
+9. <span data-ttu-id="749e9-116">Entrez ou sélectionnez une valeur dans le champ Mode de paiement.</span><span class="sxs-lookup"><span data-stu-id="749e9-116">In the Method of payment field, enter or select a value.</span></span>
+10. <span data-ttu-id="749e9-117">Dans le champ Profil de notification par e-mail, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="749e9-117">In the Email notification profile field, enter or select a value.</span></span>
+11. <span data-ttu-id="749e9-118">Développez la section Dimensions financières.</span><span class="sxs-lookup"><span data-stu-id="749e9-118">Expand the Financial dimensions section.</span></span>
+12. <span data-ttu-id="749e9-119">Dans le champ Unité commerciale, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="749e9-119">In the BusinessUnit field, enter or select a value.</span></span>
+    * <span data-ttu-id="749e9-120">De même, définissez la valeur de toutes les autres dimensions par défaut.</span><span class="sxs-lookup"><span data-stu-id="749e9-120">Similarly set the value for all the other default dimensions.</span></span>  
+13. <span data-ttu-id="749e9-121">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="749e9-121">Click Save.</span></span>
 
-## <a name="add-the-online-channel-to-organization-hierarchy"></a><span data-ttu-id="817b5-122">Ajouter le canal en ligne à la hiérarchie d'organisation</span><span class="sxs-lookup"><span data-stu-id="817b5-122">Add the online channel to organization hierarchy</span></span>
-1. <span data-ttu-id="817b5-123">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="817b5-123">Close the page.</span></span>
-2. <span data-ttu-id="817b5-124">Accédez à Administration d'organisation > Organisations > Hiérarchies d'organisation.</span><span class="sxs-lookup"><span data-stu-id="817b5-124">Go to Organization administration > Organizations > Organization hierarchies.</span></span>
-3. <span data-ttu-id="817b5-125">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="817b5-125">In the list, find and select the desired record.</span></span>
-4. <span data-ttu-id="817b5-126">Cliquez sur Afficher.</span><span class="sxs-lookup"><span data-stu-id="817b5-126">Click View.</span></span>
-5. <span data-ttu-id="817b5-127">Cliquez sur Modifier.</span><span class="sxs-lookup"><span data-stu-id="817b5-127">Click Edit.</span></span>
-    * <span data-ttu-id="817b5-128">Vous pouvez sélectionner un nœud de hiérarchie sous lequel vous souhaitez insérer le nouveau canal.</span><span class="sxs-lookup"><span data-stu-id="817b5-128">You can select any hierarchy node under which you want to insert the new channel.</span></span>  
-6. <span data-ttu-id="817b5-129">Cliquez sur Insérer</span><span class="sxs-lookup"><span data-stu-id="817b5-129">Click Insert.</span></span>
-7. <span data-ttu-id="817b5-130">Cliquez sur Canal de vente au détail.</span><span class="sxs-lookup"><span data-stu-id="817b5-130">Click Retail channel.</span></span>
-8. <span data-ttu-id="817b5-131">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="817b5-131">Click OK.</span></span>
-9. <span data-ttu-id="817b5-132">Cliquez sur Publier pour ouvrir l'écran de boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="817b5-132">Click Publish to open the drop dialog.</span></span>
-10. <span data-ttu-id="817b5-133">Entrez une date et une heure dans le champ Date d'effet.</span><span class="sxs-lookup"><span data-stu-id="817b5-133">In the Effective date field, enter a date and time.</span></span>
-11. <span data-ttu-id="817b5-134">Cliquez sur Publier.</span><span class="sxs-lookup"><span data-stu-id="817b5-134">Click Publish.</span></span>
+## <a name="add-the-online-channel-to-organization-hierarchy"></a><span data-ttu-id="749e9-122">Ajouter le canal en ligne à la hiérarchie d'organisation</span><span class="sxs-lookup"><span data-stu-id="749e9-122">Add the online channel to organization hierarchy</span></span>
+1. <span data-ttu-id="749e9-123">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="749e9-123">Close the page.</span></span>
+2. <span data-ttu-id="749e9-124">Accédez à Administration d'organisation > Organisations > Hiérarchies d'organisation.</span><span class="sxs-lookup"><span data-stu-id="749e9-124">Go to Organization administration > Organizations > Organization hierarchies.</span></span>
+3. <span data-ttu-id="749e9-125">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="749e9-125">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="749e9-126">Cliquez sur Afficher.</span><span class="sxs-lookup"><span data-stu-id="749e9-126">Click View.</span></span>
+5. <span data-ttu-id="749e9-127">Cliquez sur Modifier.</span><span class="sxs-lookup"><span data-stu-id="749e9-127">Click Edit.</span></span>
+    * <span data-ttu-id="749e9-128">Vous pouvez sélectionner un nœud de hiérarchie sous lequel vous souhaitez insérer le nouveau canal.</span><span class="sxs-lookup"><span data-stu-id="749e9-128">You can select any hierarchy node under which you want to insert the new channel.</span></span>  
+6. <span data-ttu-id="749e9-129">Cliquez sur Insérer</span><span class="sxs-lookup"><span data-stu-id="749e9-129">Click Insert.</span></span>
+7. <span data-ttu-id="749e9-130">Cliquez sur Canal de vente au détail.</span><span class="sxs-lookup"><span data-stu-id="749e9-130">Click Retail channel.</span></span>
+8. <span data-ttu-id="749e9-131">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="749e9-131">Click OK.</span></span>
+9. <span data-ttu-id="749e9-132">Cliquez sur Publier pour ouvrir l'écran de boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="749e9-132">Click Publish to open the drop dialog.</span></span>
+10. <span data-ttu-id="749e9-133">Entrez une date et une heure dans le champ Date d'effet.</span><span class="sxs-lookup"><span data-stu-id="749e9-133">In the Effective date field, enter a date and time.</span></span>
+11. <span data-ttu-id="749e9-134">Cliquez sur Publier.</span><span class="sxs-lookup"><span data-stu-id="749e9-134">Click Publish.</span></span>
 
 

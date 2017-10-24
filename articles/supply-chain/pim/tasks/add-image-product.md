@@ -16,24 +16,24 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: b6a0ffb1b5be1ecda929ad604fc39b260fa1c34c
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="add-an-image-to-a-product"></a><span data-ttu-id="65644-103">Ajouter une image à un produit</span><span class="sxs-lookup"><span data-stu-id="65644-103">Add an image to a product</span></span>
+# <a name="add-an-image-to-a-product"></a><span data-ttu-id="fbf8f-103">Ajouter une image à un produit</span><span class="sxs-lookup"><span data-stu-id="fbf8f-103">Add an image to a product</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="65644-104">Cette procédure indique comment ajouter une image à un produit. La société fictive utilisée pour créer cette tâche est USMF.</span><span class="sxs-lookup"><span data-stu-id="65644-104">This procedure shows how to add an image to a product The demo data company used to create this task is USMF.</span></span>
+<span data-ttu-id="fbf8f-104">Cette procédure indique comment ajouter une image à un produit. La société fictive utilisée pour créer cette tâche est USMF.</span><span class="sxs-lookup"><span data-stu-id="fbf8f-104">This procedure shows how to add an image to a product The demo data company used to create this task is USMF.</span></span>
 
-1. <span data-ttu-id="65644-105">Allez à Gestion des informations sur les produits > Produits > Produits lancés.</span><span class="sxs-lookup"><span data-stu-id="65644-105">Go to Product information management > Products > Released products.</span></span>
-2. <span data-ttu-id="65644-106">Augmentez le récapitulatif de l'image du produit.</span><span class="sxs-lookup"><span data-stu-id="65644-106">Expand the Product image FactBox.</span></span>
-3. <span data-ttu-id="65644-107">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="65644-107">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="65644-108">Par exemple, sélectionnez le numéro d'article C0002.</span><span class="sxs-lookup"><span data-stu-id="65644-108">For example, select the item number C0002.</span></span>  
-4. <span data-ttu-id="65644-109">Cliquez sur Modifier l'image.</span><span class="sxs-lookup"><span data-stu-id="65644-109">Click Change image.</span></span>
-5. <span data-ttu-id="65644-110">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="65644-110">Click New.</span></span>
-    * <span data-ttu-id="65644-111">Cliquez sur Parcourir.</span><span class="sxs-lookup"><span data-stu-id="65644-111">Click Browse.</span></span> <span data-ttu-id="65644-112">Recherchez l'image que vous souhaitez utiliser, sélectionnez-la, puis fermez la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="65644-112">Find the image that you want to use, select it, and then close the dialog box.</span></span>    
+1. <span data-ttu-id="fbf8f-105">Allez à Gestion des informations sur les produits > Produits > Produits lancés.</span><span class="sxs-lookup"><span data-stu-id="fbf8f-105">Go to Product information management > Products > Released products.</span></span>
+2. <span data-ttu-id="fbf8f-106">Augmentez le récapitulatif de l'image du produit.</span><span class="sxs-lookup"><span data-stu-id="fbf8f-106">Expand the Product image FactBox.</span></span>
+3. <span data-ttu-id="fbf8f-107">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="fbf8f-107">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="fbf8f-108">Par exemple, sélectionnez le numéro d'article C0002.</span><span class="sxs-lookup"><span data-stu-id="fbf8f-108">For example, select the item number C0002.</span></span>  
+4. <span data-ttu-id="fbf8f-109">Cliquez sur Modifier l'image.</span><span class="sxs-lookup"><span data-stu-id="fbf8f-109">Click Change image.</span></span>
+5. <span data-ttu-id="fbf8f-110">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="fbf8f-110">Click New.</span></span>
+    * <span data-ttu-id="fbf8f-111">Cliquez sur Parcourir.</span><span class="sxs-lookup"><span data-stu-id="fbf8f-111">Click Browse.</span></span> <span data-ttu-id="fbf8f-112">Recherchez l'image que vous souhaitez utiliser, sélectionnez-la, puis fermez la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="fbf8f-112">Find the image that you want to use, select it, and then close the dialog box.</span></span>    
 
 

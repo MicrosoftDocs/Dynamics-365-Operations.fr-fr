@@ -17,31 +17,31 @@ ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 2bae81073fa6561c02d2dac0cd83db6a10ad00c3
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="configure-and-run-a-job-to-calculate-statements"></a><span data-ttu-id="a0b85-103"> Configurer et exécuter une tâche de calcul des déclarations</span><span class="sxs-lookup"><span data-stu-id="a0b85-103">Configure and run a job to calculate statements</span></span>
+# <a name="configure-and-run-a-job-to-calculate-statements"></a><span data-ttu-id="b15db-103"> Configurer et exécuter une tâche de calcul des déclarations</span><span class="sxs-lookup"><span data-stu-id="b15db-103">Configure and run a job to calculate statements</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-<span data-ttu-id="a0b85-104">Cette procédure décrit la configuration et l'exécution de traitements par lots récurrents pour créer et calculer des relevés pour un magasin ou un groupe de magasins sélectionné.</span><span class="sxs-lookup"><span data-stu-id="a0b85-104">This procedure walks through configuring and running recurrent batch jobs to create and calculate statements for a selected store or group of stores.</span></span> <span data-ttu-id="a0b85-105">Cette procédure utilise la société USRT dans les données de démonstration.</span><span class="sxs-lookup"><span data-stu-id="a0b85-105">This procedure uses the USRT company in demo data.</span></span>
+<span data-ttu-id="b15db-104">Cette procédure décrit la configuration et l'exécution de traitements par lots récurrents pour créer et calculer des relevés pour un magasin ou un groupe de magasins sélectionné.</span><span class="sxs-lookup"><span data-stu-id="b15db-104">This procedure walks through configuring and running recurrent batch jobs to create and calculate statements for a selected store or group of stores.</span></span> <span data-ttu-id="b15db-105">Cette procédure utilise la société USRT dans les données de démonstration.</span><span class="sxs-lookup"><span data-stu-id="b15db-105">This procedure uses the USRT company in demo data.</span></span>
 
-1. <span data-ttu-id="a0b85-106">Accédez à Tous les espaces de travail > Finances du magasin de vente au détail.</span><span class="sxs-lookup"><span data-stu-id="a0b85-106">Go to All workspaces > Retail store financials.</span></span>
-2. <span data-ttu-id="a0b85-107">Cliquez sur Calcul des relevés.</span><span class="sxs-lookup"><span data-stu-id="a0b85-107">Click Calculate statements.</span></span>
-    * <span data-ttu-id="a0b85-108">Sélectionnez un magasin spécifique ou un nœud si vous souhaitez créer le traitement par lots pour un groupe de magasins.</span><span class="sxs-lookup"><span data-stu-id="a0b85-108">Select either a specific store, or a node if you want to create the batch job for a group of stores.</span></span>  
-    * <span data-ttu-id="a0b85-109">Cliquez sur la flèche pour ajouter votre sélection.</span><span class="sxs-lookup"><span data-stu-id="a0b85-109">Click the arrow to add your selection.</span></span>  
-3. <span data-ttu-id="a0b85-110">Cliquez sur l'onglet Exécuter à l'arrière-plan.</span><span class="sxs-lookup"><span data-stu-id="a0b85-110">Click the Run in the background tab.</span></span>
-4. <span data-ttu-id="a0b85-111">Sous Traitement par lots, sélectionnez « Oui ».</span><span class="sxs-lookup"><span data-stu-id="a0b85-111">Under Batch processing, select 'Yes'.</span></span>
-5. <span data-ttu-id="a0b85-112">Cliquez sur Répétition.</span><span class="sxs-lookup"><span data-stu-id="a0b85-112">Click Recurrence.</span></span>
-6. <span data-ttu-id="a0b85-113">Entrez une date dans le champ Date de début.</span><span class="sxs-lookup"><span data-stu-id="a0b85-113">In the Start date field, enter a date.</span></span>
-7. <span data-ttu-id="a0b85-114">Dans le champ Heure de début, saisissez une heure.</span><span class="sxs-lookup"><span data-stu-id="a0b85-114">In the Start time field, enter a time.</span></span>
-8. <span data-ttu-id="a0b85-115">Sélectionnez l'option Pas de date de fin.</span><span class="sxs-lookup"><span data-stu-id="a0b85-115">Select the No end date option.</span></span>
-9. <span data-ttu-id="a0b85-116">Dans le champ PatternUnit, saisissez « Jours ».</span><span class="sxs-lookup"><span data-stu-id="a0b85-116">In the PatternUnit field, enter 'Days'.</span></span>
-10. <span data-ttu-id="a0b85-117">Entrez un numéro dans le champ Par.</span><span class="sxs-lookup"><span data-stu-id="a0b85-117">In the Per field, enter a number.</span></span>
-11. <span data-ttu-id="a0b85-118">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="a0b85-118">Click OK.</span></span>
-12. <span data-ttu-id="a0b85-119">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="a0b85-119">Click OK.</span></span>
+1. <span data-ttu-id="b15db-106">Accédez à Tous les espaces de travail > Finances du magasin de vente au détail.</span><span class="sxs-lookup"><span data-stu-id="b15db-106">Go to All workspaces > Retail store financials.</span></span>
+2. <span data-ttu-id="b15db-107">Cliquez sur Calcul des relevés.</span><span class="sxs-lookup"><span data-stu-id="b15db-107">Click Calculate statements.</span></span>
+    * <span data-ttu-id="b15db-108">Sélectionnez un magasin spécifique ou un nœud si vous souhaitez créer le traitement par lots pour un groupe de magasins.</span><span class="sxs-lookup"><span data-stu-id="b15db-108">Select either a specific store, or a node if you want to create the batch job for a group of stores.</span></span>  
+    * <span data-ttu-id="b15db-109">Cliquez sur la flèche pour ajouter votre sélection.</span><span class="sxs-lookup"><span data-stu-id="b15db-109">Click the arrow to add your selection.</span></span>  
+3. <span data-ttu-id="b15db-110">Cliquez sur l'onglet Exécuter à l'arrière-plan.</span><span class="sxs-lookup"><span data-stu-id="b15db-110">Click the Run in the background tab.</span></span>
+4. <span data-ttu-id="b15db-111">Sous Traitement par lots, sélectionnez « Oui ».</span><span class="sxs-lookup"><span data-stu-id="b15db-111">Under Batch processing, select 'Yes'.</span></span>
+5. <span data-ttu-id="b15db-112">Cliquez sur Répétition.</span><span class="sxs-lookup"><span data-stu-id="b15db-112">Click Recurrence.</span></span>
+6. <span data-ttu-id="b15db-113">Entrez une date dans le champ Date de début.</span><span class="sxs-lookup"><span data-stu-id="b15db-113">In the Start date field, enter a date.</span></span>
+7. <span data-ttu-id="b15db-114">Dans le champ Heure de début, saisissez une heure.</span><span class="sxs-lookup"><span data-stu-id="b15db-114">In the Start time field, enter a time.</span></span>
+8. <span data-ttu-id="b15db-115">Sélectionnez l'option Pas de date de fin.</span><span class="sxs-lookup"><span data-stu-id="b15db-115">Select the No end date option.</span></span>
+9. <span data-ttu-id="b15db-116">Dans le champ PatternUnit, saisissez « Jours ».</span><span class="sxs-lookup"><span data-stu-id="b15db-116">In the PatternUnit field, enter 'Days'.</span></span>
+10. <span data-ttu-id="b15db-117">Entrez un numéro dans le champ Par.</span><span class="sxs-lookup"><span data-stu-id="b15db-117">In the Per field, enter a number.</span></span>
+11. <span data-ttu-id="b15db-118">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="b15db-118">Click OK.</span></span>
+12. <span data-ttu-id="b15db-119">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="b15db-119">Click OK.</span></span>
 
 

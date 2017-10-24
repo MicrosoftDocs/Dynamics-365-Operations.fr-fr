@@ -1,0 +1,57 @@
+---
+title: "Afficher côte à côte des pages à l'aide de l'icône Ouvrir dans une nouvelle fenêtre"
+description: "Cet article explique comment afficher des pages côte à côte dans Microsoft Dynamics 365 for Finance and Operations."
+author: aneesmsft
+manager: AnnBe
+ms.date: 09/07/2017
+ms.topic: article
+ms.prod: 
+ms.service: dynamics-ax-applications
+ms.technology: 
+audience: Application User
+ms.reviewer: sericks
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.custom: 17611
+ms.assetid: fc589d76-3927-4486-ab83-e86b9b47ba2c
+ms.search.region: Global
+ms.author: aneesa
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: b375e87af24a17633d6d1590277ece9e2df189da
+ms.contentlocale: fr-fr
+ms.lasthandoff: 09/29/2017
+
+---
+
+# <a name="display-pages-side-by-side-using-the-open-in-new-window-icon"></a><span data-ttu-id="cba4f-103">Afficher côte à côte des pages à l'aide de l'icône Ouvrir dans une nouvelle fenêtre</span><span class="sxs-lookup"><span data-stu-id="cba4f-103">Display pages side-by-side using the Open in New Window icon</span></span>
+
+[!include[banner](../includes/banner.md)]
+
+
+<span data-ttu-id="cba4f-104">Cet article explique comment afficher des pages côte à côte dans Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="cba4f-104">This article explains how to display pages side-by-side in Microsoft Dynamics 365 for Finance and Operations.</span></span>
+
+<span data-ttu-id="cba4f-105">Microsoft Dynamics 365 for Finance and Operations vous aide à effectuer vos tâches plus efficacement.</span><span class="sxs-lookup"><span data-stu-id="cba4f-105">Microsoft Dynamics 365 for Finance and Operations helps you perform tasks efficiently.</span></span> <span data-ttu-id="cba4f-106">Dans certains cas, vous pouvez afficher plusieurs pages côte à côte pour accomplir des tâches plus rapidement.</span><span class="sxs-lookup"><span data-stu-id="cba4f-106">In some cases, you may want to view multiple pages side-by-side to complete tasks quickly.</span></span> <span data-ttu-id="cba4f-107">Par exemple, vous souhaitez peut-être valider ou entrer des lignes dans plusieurs journaux.</span><span class="sxs-lookup"><span data-stu-id="cba4f-107">As an example, you might want to validate or enter lines in more than one journal.</span></span> <span data-ttu-id="cba4f-108">Généralement, pour ce faire vous devez aller et venir entre la page qui affiche la liste des journaux, et la page qui affiche les lignes d'un journal donné.</span><span class="sxs-lookup"><span data-stu-id="cba4f-108">Typically, to do this you would have to go back and forth between the page that displays a list of journals, and the page that displays lines for a given journal.</span></span> <span data-ttu-id="cba4f-109">Toutefois, la fonction **Ouvrir dans une nouvelle fenêtre** vous permet d'afficher ces pages côte à côte afin de pouvoir effectuer vos tâches rapidement.</span><span class="sxs-lookup"><span data-stu-id="cba4f-109">However, the **Open in new window** feature enables you to display these pages side-by-side so that you can perform your tasks quickly.</span></span> 
+
+<span data-ttu-id="cba4f-110">Dans la suite de l'exemple ci-dessus, quand vous affichez les lignes, vous pouvez cliquer sur l'icône **Ouvrir dans une nouvelle fenêtre**.</span><span class="sxs-lookup"><span data-stu-id="cba4f-110">Continuing with the example mentioned above, when viewing the lines, you can click the **Open in new window** icon.</span></span> 
+
+<span data-ttu-id="cba4f-111">[![open-in-new-window-icon](./media/open-in-new-window-icon.png)](./media/open-in-new-window-icon.png)</span><span class="sxs-lookup"><span data-stu-id="cba4f-111">[![open-in-new-window-icon](./media/open-in-new-window-icon.png)](./media/open-in-new-window-icon.png)</span></span> 
+
+<span data-ttu-id="cba4f-112">Cliquer sur l'icône **Ouvrir dans une nouvelle fenêtre** ouvre la page des lignes dans une nouvelle fenêtre de navigateur, puis permet de revenir à la fenêtre précédente qui affichait la liste des journaux.</span><span class="sxs-lookup"><span data-stu-id="cba4f-112">Clicking the **Open in new window** icon opens the lines page in a new, pop-up browser, and then navigates the original browser back in history to the page that displayed the list of journals.</span></span> <span data-ttu-id="cba4f-113">Vous pouvez ensuite afficher les deux pages côte à côte.</span><span class="sxs-lookup"><span data-stu-id="cba4f-113">You can then display both pages side-by-side.</span></span> <span data-ttu-id="cba4f-114">Lorsque vous avez terminer d'afficher un journal, vous pouvez modifier le journal sélectionné dans la page de liste de journal, alors la page des lignes dans la fenêtre contextuelle affichera automatiquement les lignes du journal récemment sélectionné.</span><span class="sxs-lookup"><span data-stu-id="cba4f-114">When you are done viewing a journal, you can change the selected journal on the journal list page, and the lines page in the pop-up window will automatically display the lines of the newly selected journal.</span></span> 
+
+<span data-ttu-id="cba4f-115">[![pages-show-side-by-side](./media/pages-show-side-by-side.png)](./media/pages-show-side-by-side.png)</span><span class="sxs-lookup"><span data-stu-id="cba4f-115">[![pages-show-side-by-side](./media/pages-show-side-by-side.png)](./media/pages-show-side-by-side.png)</span></span> 
+
+<span data-ttu-id="cba4f-116">La liaison dynamique et l'actualisation se produisent en raison des relations qui existent entre les données sous-jacentes dans ces pages.</span><span class="sxs-lookup"><span data-stu-id="cba4f-116">The dynamic linking and refreshing happens due to the relations that exist between the data that is backing these pages.</span></span> <span data-ttu-id="cba4f-117">Si le système ne se rend pas compte de la relation entre les données, la fenêtre contextuelle ne s'actualisera pas automatiquement en réponse à une modification dans la fenêtre dont elle provient.</span><span class="sxs-lookup"><span data-stu-id="cba4f-117">If the system is not aware of the relation between the data, the pop-up window will not refresh automatically in response to a change in the window it originated from.</span></span> 
+
+<span data-ttu-id="cba4f-118">Certaines pages ont plusieurs vues, comme la vue Grille, En-tête et Détails.</span><span class="sxs-lookup"><span data-stu-id="cba4f-118">Some pages have multiple views such as the Grid view, Header view, and Details view.</span></span> <span data-ttu-id="cba4f-119">L'icône **Ouvrir dans une nouvelle fenêtre** a pour effet que la page entière est ouverte dans la nouvelle fenêtre du navigateur.</span><span class="sxs-lookup"><span data-stu-id="cba4f-119">The **Open in new window** icon causes the entire page to be opened in the new browser window.</span></span> <span data-ttu-id="cba4f-120">Par conséquent, vous ne pouvez pas conserver deux vues de la même page côte à côte à l'aide de la fonction **Ouvrir dans une nouvelle fenêtre** .</span><span class="sxs-lookup"><span data-stu-id="cba4f-120">Therefore, you cannot keep two views of the same page side-by-side using the **Open in new window** feature.</span></span> <span data-ttu-id="cba4f-121">Toutefois, presque toutes ces pages ont une liste de navigation qui permet de basculer entre les enregistrements et obtenir un résultat similaire.</span><span class="sxs-lookup"><span data-stu-id="cba4f-121">However, almost all such pages have a navigation list that you can use to switch between records and achieve a similar experience.</span></span> 
+
+<span data-ttu-id="cba4f-122">Avant d'utiliser la fonctionnalité **Ouvrir dans une nouvelle fenêtre**, vous devez configurer le bloqueur de fenêtres contextuelles de votre navigateur pour autoriser toutes les fenêtres contextuelles de l'URL du site Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="cba4f-122">Before using the **Open in new window** feature, you should configure your browser's pop-up blocker to allow pop-ups from the URL of the Finance and Operations site.</span></span> <span data-ttu-id="cba4f-123">Comme exemple, vous pouvez autoriser les fenêtres de « \*.dynamics.com ».</span><span class="sxs-lookup"><span data-stu-id="cba4f-123">As an example, you could allow pop-ups from "\*.dynamics.com".</span></span> 
+
+<span data-ttu-id="cba4f-124">La fonction **Ouvrir dans une nouvelle fenêtre** n'est disponible que lorsqu'il existe plusieurs page ouvertes dans la fenêtre.</span><span class="sxs-lookup"><span data-stu-id="cba4f-124">The **Open in new window** feature is only available when there is more than one page open in the window.</span></span> <span data-ttu-id="cba4f-125">En outre, la fenêtre contextuelle se ferme automatiquement lorsqu'il n'y a plus de page ouverte (autrement dit, lorsque la dernière page dans cette fenêtre est fermée.)</span><span class="sxs-lookup"><span data-stu-id="cba4f-125">Also, the pop-up window automatically closes when there are no more pages open (that is, when the last page in that window is closed).</span></span> <span data-ttu-id="cba4f-126">Finance and Operations ferme également les pages ouvertes lorsque vous accédez à une autre zone de l'application.</span><span class="sxs-lookup"><span data-stu-id="cba4f-126">Finance and Operations also closes open pages when you navigate to a different area in the application.</span></span> <span data-ttu-id="cba4f-127">Par conséquent, si vous avez des fenêtres contextuelles ouvertes et que vous accédez à une autre zone de l'application, les fenêtres contextuelles sont automatiquement fermées car les pages de ces fenêtres ont été fermées par le système.</span><span class="sxs-lookup"><span data-stu-id="cba4f-127">Therefore, if you have pop-up windows open and navigate to a different area in the application, the pop-up windows are automatically closed because the pages in those windows were closed by the system.</span></span> 
+
+<span data-ttu-id="cba4f-128">La barre supérieure dans les fenêtres contextuelles affiche des informations sur la société dans laquelle la page a été ouverte et est en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="cba4f-128">The top bar in the pop-up windows displays information about the company the page was opened in and is read-only.</span></span> <span data-ttu-id="cba4f-129">Les fenêtres contextuelles s'appuient également sur les fenêtres du navigateur principal de Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="cba4f-129">The pop-up windows also rely on the main Finance and Operations browser window.</span></span> <span data-ttu-id="cba4f-130">Si la fenêtre principale est fermée ou actualisée, toutes les fenêtres contextuelles ouvertes passent en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="cba4f-130">If the main window is closed or refreshed, all open pop-up windows will become read only.</span></span> <span data-ttu-id="cba4f-131">Cela signifie que vous pouvez toujours voir les informations dans ces fenêtres, mais vous ne pourrez pas interagir avec.</span><span class="sxs-lookup"><span data-stu-id="cba4f-131">This means that you can still view the information in these windows, but you will not be able to interact with it.</span></span>
+
+
+
+
