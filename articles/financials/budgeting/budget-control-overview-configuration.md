@@ -15,13 +15,13 @@ ms.custom: 60493
 ms.assetid: be964167-43bc-431d-9adb-48bff32d68d5
 ms.search.region: Global
 ms.author: sigitac
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 77d6d9afeb5669c2ae8460f0503e68a3559514ec
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: d8565ec692036d7a9411cb8663d7293d3ab91a44
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -104,7 +104,7 @@ Puis, sur l'onglet **Définir les règles de contrôle budgétaire**, vous devez
 
 ### <a name="select-main-accounts"></a>Sélectionner les comptes principaux
 
-Si **Compte principal** n'est pas sélectionné en tant que dimension de contrôle budgétaire sur la page **Définir les paramètres**, mais que les dépenses spécifiques sont gérées, vous pouvez sélectionner ces dépenses sur l'onglet **Sélectionner les comptes principaux**. Si **Compte principal** est sélectionné comme dimension de contrôle budgétaire, aucune entrée n'est requise.  
+Si le **Compte principal** n'est pas sélectionné comme dimension de contrôle budgétaire sur la page **Définir les paramètres**, mais que des dépenses spécifiques sont gérées, vous pouvez sélectionner ces dépenses pour l'onglet **Sélectionner les comptes principaux**. Si le **Compte principal** est sélectionné comme dimension de contrôle budgétaire, aucune valeur n'est requise.  
 
 ### <a name="define-budget-groups"></a>Définir des groupes budgétaires
 
@@ -116,7 +116,7 @@ Si les messages d'avertissement de contrôle budgétaire sont supprimés pour le
 
 ### <a name="activate-budget-control"></a>Activer le contrôle budgétaire
 
-Une fois le contrôle budgétaire configuré, vous pouvez l'activer sur l'onglet **Activer le contrôle budgétaire**. La version brouillon sera ensuite validée.
+Une fois le contrôle budgétaire configuré, vous pouvez l'activer dans l'onglet **Activer le contrôle budgétaire**. La version provisoire deviendra alors effective.
 > [!Important]
 > Une fois le contrôle budgétaire activé et actif et une fois les transactions validées, il ne doit pas être désactivé en milieu d'année. Lorsque le contrôle budgétaire est désactivé, les activités ne sont pas enregistrées à des fins de contrôle budgétaire, et les vérifications budgétaires ne sont plus exécutées. Par conséquent, les documents qui ont déjà été validés ne peuvent refléter correctement aucun montant d'exonération ou solde figurant dans les recherches et les états concernant le contrôle budgétaire. Cela inclut les statistiques de contrôle budgétaire pour les documents et journaux en aval ou d'ajustement. 
 

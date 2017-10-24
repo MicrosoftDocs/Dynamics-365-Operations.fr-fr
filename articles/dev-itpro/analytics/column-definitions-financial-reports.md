@@ -16,13 +16,13 @@ ms.custom: 106601
 ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
-ms.openlocfilehash: d976988a599f65de9957c53a2d149576a1a11d83
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 924177f4974358d2283dfd46306d663c27ccd87b
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -49,17 +49,17 @@ Une définition de colonne peut contenir jusqu'à 255 colonnes.
 1.  Dans le générateur d'état, dans le volet de navigation, cliquez sur **Définitions de colonne**.
 2.  Double-cliquez sur une définition de colonne pour l'ouvrir.
 
-### <a name="add-a-column-to-a-column-definition"></a>Ajouter une colonne à une définition de colonne
+### <a name="add-a-column-to-a-column-definition"></a>Ajout d'une colonne à une définition de colonne
 
 1.  Dans le générateur d'état, cliquez sur **Définitions de colonne**, puis ouvrez ensuite la définition de colonne à modifier.
 2.  Sélectionnez la colonne dans laquelle une colonne doit être insérée.
-3.  Dans le menu **Édition**, cliquez sur **Insérer une colonne**. La nouvelle colonne s'affiche à gauche de la colonne sélectionnée.
+3.  Dans le menu **Édition**, cliquez sur **Insérer une colonne**. La nouvelle colonne s'affiche à gauche de la colonne que vous avez sélectionnée.
 
-### <a name="delete-a-column-from-a-column-definition"></a>Supprimer une colonne d'une définition de colonne
+### <a name="delete-a-column-from-a-column-definition"></a>Suppression d'une colonne dans une définition de colonne
 
-1.  Dans le générateur d'état, cliquez sur **Définitions de colonne**, puis ouvrez ensuite la définition de colonne à modifier.
+1.  Dans le Concepteur de rapports, cliquez sur **Définitions de colonne** puis ouvrez la définition de colonne à modifier.
 2.  Sélectionnez la colonne à supprimer.
-3.  Dans le menu **Édition**, cliquez sur **Supprimer une colonne**.
+3.  Dans le menu **Edition**, cliquez sur **Supprimer la colonne**.
 
 ## <a name="contents-of-a-column-definition"></a>Contenu d'une définition de colonne
 Une définition de colonne comprend les informations suivantes :
@@ -71,7 +71,7 @@ Une définition de colonne comprend les informations suivantes :
 
 Ces informations s'affichent dans les zones suivantes de la définition de colonne :
 
--   la zone d'en-tête de la définition de colonne contient le texte et la mise en forme de titre qui apparaissent dans l'état. Un en-tête peut s'appliquer à une colonne de données unique, peut couvrir plusieurs colonnes ou peut s'appliquer aux colonnes sur une base conditionnelle. La définition de colonne peut inclure autant de lignes d'en-tête de colonne que nécessaire. **Remarque :** les en-têtes de colonne s'appliquent à chaque colonne de données de l'état. Les en-têtes d'état s'appliquent à l'état entier. Vous définissez les en-têtes d'état sous l'onglet **En-têtes et pieds de page** de la définition d'état.
+-   la zone d'en-tête de la définition de colonne contient le texte et la mise en forme de titre qui apparaissent dans l'état. Un en-tête peut s'appliquer à une seule colonne de données, s'étendre sur plusieurs colonnes ou s'appliquer à certaines colonnes sous des conditions précises. La définition de colonne peut inclure autant de lignes d'en-tête de colonne que nécessaire. **Remarque :** les en-têtes de colonne s'appliquent à chaque colonne de données de l'état. Les en-têtes d'état s'appliquent à l'état entier. Vous définissez les en-têtes d'état sous l'onglet **En-têtes et pieds de page** de la définition d'état.
 -   Les lignes de détail de colonne sont les lignes sous les lignes d'en-tête dans la définition de colonne. Les lignes de détail de colonne définissent les informations incluses dans l'état. Le tableau suivant répertorie et décrit les lignes de détail de colonne.
 
     | Nom de la ligne de détail de colonne                                                | Description                                                                                            |
@@ -102,7 +102,7 @@ La cellule **Restrictions de colonne** peut inclure des codes qui limitent ou su
 2.  Double-cliquez sur la cellule **Restrictions de colonne** de la colonne à limiter.
 3.  Dans la boîte de dialogue **Restrictions de colonne**, sélectionnez un ou plusieurs codes dans la liste, puis cliquez sur **OK**.
 
-### <a name="column-restriction-codes"></a>Codes de restriction de colonne
+### <a name="column-restriction-codes"></a>Codes restriction de colonne
 
 Le tableau suivant décrit les codes de restriction de colonne.
 
@@ -142,7 +142,7 @@ Vous pouvez utiliser la boîte de dialogue **En-tête de colonne** pour ajouter,
 ### <a name="create-a-column-header"></a>Créer un en-tête de colonne
 
 1.  Dans le générateur d'état, ouvrez la définition de colonne à modifier.
-2.  Double-cliquez sur une cellule d'en-tête.
+2.  Double-cliquez dans une cellule d'en-tête.
 3.  Dans la boîte de dialogue **En-tête de colonne**, entrez le texte d'en-tête de colonne. Sinon, cliquez sur **Insertion texte auto**, puis sélectionnez une option.
 4.  Dans le champ **Options de mise en forme**, sélectionnez un format pour l'en-tête.
 5.  Dans le champ **Étendre à partir de**, entrez la lettre de la colonne où l'en-tête de colonne doit recommencer. Dans le champ **Étendre jusqu'à**, entrez la lettre de la colonne où l'en-tête de colonne doit terminer.
@@ -182,7 +182,7 @@ Le générateur d'états peut générer automatiquement des en-têtes de colonne
 
 ### <a name="create-a-conditional-spanning-header"></a>Créer un en-tête à étendue conditionnelle
 
-Les en-têtes à étendue conditionnelle peuvent couvrir plusieurs colonnes basées sur des données de périodes spécifiques. Par exemple, si vous avez un état de budget pour l'exercice et souhaitez afficher les budgets réels des mois écoulés avec les budgets projetés des mois à venir, vous pouvez utiliser un en-tête à étendue conditionnelle pour mettre automatiquement l'en-tête d'état à jour. Faites attention aux situations suivantes lorsque vous créez un en-tête à étendue conditionnelle :
+Les en-têtes à étendue conditionnelle peuvent couvrir plusieurs colonnes basées sur des données de périodes spécifiques. Par exemple, si vous avez un état de budget pour l'exercice et souhaitez afficher les budgets réels des mois écoulés avec les budgets projetés des mois à venir, vous pouvez utiliser un en-tête à étendue conditionnelle pour mettre automatiquement l'en-tête d'état à jour. Tenez compte des éléments suivants lorsque vous créez un en-tête de fractionnement conditionnel :
 
 -   toute condition d'arrêt (champ **Étendre jusqu'à**) mis en correspondance avant une condition de début (champ **Étendre à partir de**) est ignoré. Par exemple, la colonne B a la condition d'étendue définie comme BASE+1 jusqu'à BASE, BASE est dans la colonne C, et BASE+1 est dans la colonne D. Dans ce cas, la condition d'arrêt dans la colonne C est ignorée, et l'impression de l'en-tête débute à la colonne D.
 -   Si vous spécifiez des en-têtes de colonne qui se chevauchent, ils se chevaucheront lors de l'impression de l'état. L'état est généré, mais l'avertissement suivant s'affiche dans le champ **État de la file d'attente de rapports** : « Les en-têtes de colonne utilisant Base recoupent d'autres en-têtes de colonne et peuvent entraîner une superposition du texte ». Par exemple, la définition d'en-tête dans la colonne B est B à BASE+1, et la définition d'en-tête dans la colonne D est BASE+1 à F. Dans ce cas, les en-têtes sont imprimés l'un au-dessus de l'autre et sont illisibles. À chaque fois que BASE est utilisé dans une définition **Étendre à partir de/Étendre jusqu'à**, assurez-vous que l'état est généré pour voir si les en-têtes se chevauchent.
@@ -192,7 +192,7 @@ Les en-têtes à étendue conditionnelle peuvent couvrir plusieurs colonnes bas�
 #### <a name="create-a-conditional-spanning-header"></a>Créer un en-tête à étendue conditionnelle
 
 1.  Dans le générateur d'état, ouvrez la définition de colonne à modifier.
-2.  Double-cliquez sur une cellule d'en-tête.
+2.  Double-cliquez dans une cellule d'en-tête.
 3.  Dans la boîte de dialogue **En-tête de colonne**, entrez le texte d'en-tête de colonne. Sinon, cliquez sur **Insertion texte auto**, puis sélectionnez une option.
 4.   Dans le champ **Options de mise en forme**, sélectionnez un style de mise en forme pour l'en-tête.
 5.  Spécifie une période par rapport à la période de base spécifiée lorsque l'état est généré. Dans les champs **Étendre à partir de** et **Étendre jusqu'à**, entrez une des valeurs suivantes : **BASE**, **BASE-X** ou **BASE+X**, dans lequel X est le nombre de périodes à partir de la période de base. Par exemple, si vous entrez **BASE** dans le champ **Étendre à partir de**, l'en-tête de colonne à étendue conditionnelle commence dans l'en-tête de colonne où la valeur de la **Période de base** de la définition d'état est égale à la valeur de **Période** de la définition de colonne. Elle se termine dans la colonne indiquée dans le champ **Étendre jusqu'à**. Par conséquent, si l'étendue va de BASE à M, et que la valeur de la **Période de base** de la définition d'état est **4**, l'en-tête commence dans la colonne où la période est définie sur **4** et prend fin à la colonne M. Les en-têtes commencent et se terminent aux colonnes imprimées uniquement.
@@ -210,9 +210,9 @@ Phyllis crée un état pour une prévision dynamique de six mois. Elle veut que 
 | En-tête 3            |      |               |               |               |               |               |               |               |               |               |               |               |               |
 | Type de colonne         | DESC | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            |
 | Code registre/Attribut |      | RÉEL        | BUDGET2012    | RÉEL        | BUDGET2012    | RÉEL        | BUDGET2012    | RÉEL        | BUDGET2012    | RÉEL        | BUDGET2012    | RÉEL        | BUDGET2012    |
-| Exercice         |      | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          |
-| Période              |      | 1             | 1             | 2             | 2             | 3             | 3             | 4             | 4             | 5             | 5             | 6             | 6             |
-| Périodes couvertes     |      | PÉRIODIQUE      | PÉRIODIQUE      | PÉRIODIQUE      | PÉRIODIQUE      | PÉRIODIQUE      | PÉRIODIQUE      | PÉRIODIQUE      | PÉRIODIQUE      | PÉRIODIQUE      | PÉRIODIQUE      | PÉRIODIQUE      | PÉRIODIQUE      |
+| Année fiscale         |      | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          |
+| Période               |      | 1             | 1             | 2             | 2             | 3             | 3             | 4             | 4             | 5             | 5             | 6             | 6             |
+| Périodes couvertes     |      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      |
 | Largeur de colonne        | 30   | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            |
 | Contrôle d'impression       |      | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        |
 
@@ -224,7 +224,7 @@ Phyllis double-clique sur une cellule d'en-tête de colonne pour ouvrir la boît
 | Insertion texte auto    | Aucune sélection n'est effectuée. |
 | Options de mise en forme     | Zone                   |
 | Justification      | Aucune sélection n'est effectuée. |
-| Étendre à partir de        | G                     |
+| Étendre à partir de        | B                     |
 | Étendre jusqu'à          | BASE                  |
 | En-tête de budget      | BASE+1 jusqu'à la colonne de fin  |
 
@@ -282,10 +282,10 @@ La cellule **Espaces supplémentaires avant la colonne** spécifie la largeur du
 
 La cellule **Remplacement de format/devise** spécifie la mise en forme de la décimale, de la devise et des montants en pourcentage dans la colonne. Cette mise en forme remplace toute mise en forme spécifiée dans la définition d'état ou les réglages par défaut du système.
 
-#### <a name="assign-a-format-currency-override-to-a-report-column"></a>Affecter un remplacement de devise de format à une colonne de l'état
+#### <a name="assign-a-format-currency-override-to-a-report-column"></a>Application d'une substitution de format/devise à une colonne de rapport
 
-1.  Dans le générateur d'état, ouvrez la définition de colonne à modifier.
-2.  Double-cliquez sur une cellule **Remplacement de format/devise** dans une colonne de montant.
+1.  Dans le Concepteur de rapports, ouvrez la définition de colonne à modifier.
+2.  Double-cliquez dans une cellule **Substitution de format/devise** d'une colonne de montant.
 3.  Dans la boîte de dialogue **Remplacement de format**, sélectionnez les options de mise en forme.
 
 ### <a name="add-a-print-control-code"></a>Ajouter un code de contrôle d'impression
@@ -317,7 +317,7 @@ La cellule **Contrôle d'impression** peut contenir des codes qui règlent les c
 
 #### <a name="add-print-control-codes-to-a-report-column"></a>Ajouter des codes de contrôle d'impression à une colonne d'état
 
-1.  Dans le générateur d'état, ouvrez la définition de colonne à modifier.
+1.  Dans le Concepteur de rapports, ouvrez la définition de colonne à modifier.
 2.  Double-cliquez sur la cellule **Contrôle d'impression**.
 3.  Dans la boîte de dialogue **Contrôle d'impression**, sélectionnez un code dans la liste **Sélectionner des options de contrôle d'impression**. Pour sélectionner plusieurs codes, maintenez la touche CTRL enfoncée tout en sélectionnant les codes souhaités.
 4.  Sélectionnez une option dans le champ **Options d'impression conditionnelle**. Par défaut, **(aucun)** est sélectionné. Vous ne pouvez sélectionner qu'un code d'impression conditionnelle à la fois.
@@ -349,12 +349,12 @@ Le type d'informations que chaque colonne comporte dans un état est spécifié 
     <tbody>
     <tr class="odd">
     <td>FD</td>
-    <td>Permet d'afficher les données financières ou les données d'une feuille de calcul Excel lorsque vous utilisez une colonne <strong>Lier aux dimensions financières</strong> ou une colonne <strong>Lier à une feuille de calcul</strong> dans la définition de ligne. Lorsque vous sélectionnez le type de colonne <strong>FD</strong>, les paramètres par défaut sont automatiquement spécifiés pour les lignes suivantes : <ul>
-    <li><strong>Code registre/Catégorie d'attribut :</strong> RÉEL</li>
-    <li><strong>Code registre/Catégorie d'attribut :</strong> RÉEL</li>
-    <li><strong>Exercice :</strong> BASE</li>
+    <td>Utilisez ce code pour afficher des données financières ou des données à partir d'une feuille de calcul Excel lorsque vous utilisez une colonne <strong>Lien vers les dimensions financières</strong> ou <strong>Lien vers la feuille de calcul</strong> dans la définition de colonne. Lorsque vous sélectionnez le type de la colonne <strong>DF</strong>, les paramètres par défaut sont automatiquement spécifiés pour les lignes suivantes : <ul>
+    <li><strong>Code registre / Catégorie d'attribut :</strong> RÉEL</li>
+    <li><strong>Code registre / Catégorie d'attribut :</strong> RÉEL</li>
+    <li><strong>Année fiscale :</strong> BASE</li>
     <li><strong>Période :</strong> BASE</li>
-    <li><strong>Périodes couvertes :</strong> PÉRIODIQUE</li>
+    <li><strong>Périodes couvertes :</strong> – PERIODIC</li>
     <li><strong>Largeur de colonne :</strong> 14</li>
     </ul>
 Vous pouvez modifier ces paramètres par défaut.</td>
@@ -373,7 +373,7 @@ Vous pouvez modifier ces paramètres par défaut.</td>
     </tr>
     <tr class="odd">
     <td>ACCT (Codes compte)</td>
-    <td>Affiche les valeurs des segments de données financières ou les valeurs de dimension qui s'appliquent à chaque ligne. Pour les états de compte et de détails des transactions, le compte pleinement qualifié est imprimé (par exemple, <strong>110140-070-0101</strong>). Si des plages ont été spécifiées dans la colonne<strong>Lier aux dimensions financières</strong> dans une définition de ligne associée, la plage est entourée de crochets et est considérée comme une valeur unique (par exemple, <strong>[110140:110700]-070-[0101:0200]</strong>). Pour les états financiers et les états de niveau supérieur qui sont une combinaison de plusieurs comptes, le lien aux données financière de la définition de ligne est imprimé (par exemple, <strong>1100:1200</strong>).</td>
+    <td>Affiche les valeurs des segments de données financières ou les valeurs de dimension qui s'appliquent à chaque ligne. Pour les rapports détaillés du compte et des transactions, le compte complet est imprimé (par exemple, <strong>110140-070-0101</strong>). Si des plages sont spécifiées dans la colonne <strong>Lien vers les dimensions financières</strong> d'une définition de ligne associée, la plage est placée entre crochets et traitée comme une valeur unique (par exemple, <strong>[110140:110700]-070-[0101:0200]</strong>). Pour les rapports financiers et les rapports de haut niveau qui peuvent être une combinaison de plusieurs comptes, le lien vers les données financières à partir de la définition de ligne (par exemple, <strong>1100:1200</strong>) est imprimé.</td>
     </tr>
     <tr class="even">
     <td>FILL</td>
@@ -381,19 +381,19 @@ Vous pouvez modifier ces paramètres par défaut.</td>
     </tr>
     <tr class="odd">
     <td>PAGE</td>
-    <td>Insérer un saut de page vertical dans l'état. Les colonnes qui sont à droite de la colonne <strong>PAGE</strong> s'affichent sur une autre page.</td>
+    <td>Insérer un saut de page vertical dans l'état. Les colonnes qui se trouvent à droite de la colonne <strong>PAGE</strong> s'affichent sur une autre page.</td>
     </tr>
     <tr class="even">
     <td>WKS</td>
-    <td>Affiche les données extraites d'une feuille de calcul Excel. Lorsque vous sélectionnez le type de colonne <strong>WKS</strong>, les paramètres par défaut sont automatiquement spécifiés pour les lignes suivantes : <ul>
-    <li><strong>Exercice :</strong> PÉRIODIQUE</li>
+    <td>Affiche les données extraites d'une feuille de calcul Excel. Lorsque vous sélectionnez le type de la colonne <strong>FLC</strong>, les paramètres par défaut sont automatiquement spécifiés dans les lignes suivantes : <ul>
+    <li><strong>Année fiscale :</strong> PERIODIC</li>
     <li><strong>Période :</strong> BASE</li>
     </ul>
 Vous pouvez modifier ces paramètres par défaut.</td>
     </tr>
     <tr class="odd">
     <td>ATTR</td>
-    <td>Si votre système comptable prend en charge les attributs, affiche un attribut de compte ou de transaction dans la colonne. Un attribut, qui doit s'appliquer à un seul compte complet, extrait les informations sous-jacentes de compte ou de transaction à partir des données financières. Les attributs de niveau compte affichent les données du compte, et les attributs de niveau transaction affichent les données qui ont été générées au moment où la transaction a été validée. Si vous sélectionnez <strong>ATTR</strong> comme type de colonne, spécifiez la catégorie d'attribut dans la ligne détaillée <strong>Code registre/Catégorie d'attribut</strong> de la définition de colonne.</td>
+    <td>Si votre système comptable prend en charge les attributs, affiche un attribut de compte ou de transaction dans la colonne. Un attribut, qui doit s'appliquer à un seul compte complet, extrait les informations sous-jacentes de compte ou de transaction à partir des données financières. Les attributs de niveau Compte affichent des données à partir du compte et les attributs de niveau Transaction affichent les données générées lors de la validation de la transaction. Lorsque vous sélectionnez <strong>ATTR</strong> comme type de colonne, spécifiez la catégorie d'attribut dans la ligne de détails <strong>Code registre/Catégorie d'attribut</strong> de la définition de colonne.</td>
     </tr>
     </tbody>
     </table>
@@ -435,9 +435,9 @@ La cellule **Période** identifie la période fiscale que la colonne doit inclur
 
 Vous pouvez dépasser les limites de l'exercice dans toutes les spécifications de période, et vous pouvez combiner des années dans une plage de périodes. Par exemple, vous spécifiez des périodes comme **BASE-5** (pour représenter les six dernières périodes) et exécutez un état qui a une période de base 2. Dans ce cas, l'état présente les données des deux premières périodes de l'exercice spécifié et les quatre dernières périodes de l'exercice précédent.
 
-### <a name="specify-the-periods-for-an-fd-column"></a>Spécifier les périodes pour une colonne FD
+### <a name="specify-the-periods-for-an-fd-column"></a>Spécification des périodes d'une colonne DF
 
-1.  Dans le générateur d'état, ouvrez la définition de colonne à modifier.
+1.  Dans le Concepteur de rapports, ouvrez la définition de colonne à modifier.
 2.  Dans une colonne **FD**, double-cliquez sur la cellule dans la ligne **Période**, puis sélectionnez une option dans la liste.
 3.  Dans la barre de formule au-dessus du volet de navigation, ou dans la cellule **Période**, remplissez la formule. Remplacez tout symbole de chiffre (\#) par la valeur appropriée.
 
@@ -464,7 +464,7 @@ Les attributs sont des valeurs de données financières qui définissent de mani
 #### <a name="apply-an-attribute-filter-for-an-fd-column-on-a-report"></a>Appliquer un filtre d'attributs pour une colonne FD d'un état
 
 1.  Dans le générateur d'état, ouvrez la définition de colonne à modifier.
-2.  Double-cliquez sur la cellule **Filtre d'attribut** pour une colonne **FD**.
+2.  Double-cliquez sur la cellule **Filtre d'attribut** d'une colonne **DF**.
 3.  Dans la boîte de dialogue **Filtre d'attribut**, double-cliquez sur une cellule dans la colonne **Attribut**, puis sélectionnez le type de filtre.
 4.  Pour limiter davantage les résultats, entrez une plage dans les colonnes **À partir de** et **Jusqu'à**. La cellule **À partir de** doit contenir une valeur.
 5.  Cliquez sur **OK**.
@@ -473,11 +473,11 @@ Les attributs sont des valeurs de données financières qui définissent de mani
 
 L'exemple suivant montre une partie de description de colonne ayant un attribut de compte dans la ligne **Code registre/Catégorie d'attribut**. Le filtre d'attribut pour cette colonne spécifie la plage des valeurs à inclure dans l'état.
 
-|                              | A    | G                    |
+|                              | A    | B                    |
 |------------------------------|------|----------------------|
-| Type de colonne                  | DESC | FD                   |
+| Type de colonne                  | DESC | DF                   |
 | Code registre/Catégorie d'attribut |      | RÉEL               |
-| Exercice                  |      | BASE                 |
+| Année fiscale                  |      | BASE                 |
 | Période                       |      | 1:BASE               |
 | Périodes couvertes              |      | PÉRIODIQUE             |
 | ...                          |      |                      |
@@ -487,7 +487,7 @@ L'exemple suivant montre une partie de description de colonne ayant un attribut 
 
 ### <a name="dimension-filter-in-a-column-definition"></a>Filtre de dimension dans une définition de colonne
 
-Un filtre de dimension est utilisé pour limiter la colonne **FD** à des valeurs de dimension spécifiques. Le filtre peut inclure une seule dimension, une plage de dimensions, ou un groupe de dimensions. Le filtre peut aussi inclure des ensembles de valeurs de dimension. Comme les valeurs de dimension peuvent varier, un système basé sur les dimensions ne doit pas devoir correspondre à une longueur exacte. Le filtre est appliqué, indépendamment du fait que l'état inclut une arborescence de génération d'états. Vous pouvez utiliser un caractère générique (\* ou ?) à n'importe quelle position. Lorsque vous spécifiez plusieurs comptes, mettez une virgule entre les comptes, comme dans l'exemple suivant : +Compte=\[1200\], +Compte=\[1100\], Service=\[01?\] pour recevoir tous les services d'un compte spécifique, vous pouvez exclure la dimension de service du filtre de dimension. Par exemple, les deux filtres de dimension suivants sont traités de la même manière :
+Un filtre de dimension est utilisé pour limiter la colonne **FD** à des valeurs de dimension spécifiques. Le filtre peut inclure une seule dimension, une plage de dimensions ou un groupe de dimensions. Le filtre peut aussi inclure des ensembles de valeurs de dimension. Comme les valeurs de dimension peuvent varier, un système basé sur les dimensions ne doit pas devoir correspondre à une longueur exacte. Le filtre est appliqué, indépendamment du fait que l'état inclut une arborescence de génération d'états. Vous pouvez utiliser un caractère générique (\* ou ?) à n'importe quelle position. Lorsque vous spécifiez plusieurs comptes, mettez une virgule entre les comptes, comme dans l'exemple suivant : +Compte=\[1200\], +Compte=\[1100\], Service=\[01?\] pour recevoir tous les services d'un compte spécifique, vous pouvez exclure la dimension de service du filtre de dimension. Par exemple, les deux filtres de dimension suivants sont traités de la même manière :
 
 -   +Compte=\[1100\],Département
 -   +Compte=\[1100\]

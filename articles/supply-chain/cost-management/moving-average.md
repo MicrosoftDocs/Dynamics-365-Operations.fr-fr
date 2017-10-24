@@ -1,7 +1,7 @@
 ---
 title: Moyenne mobile
 description: 
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,13 +17,13 @@ ms.assetid: dfd10099-8f7f-44b1-917e-df37c2fe8773
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 0018f5df3d0d2882c300b6458bfb8adfba84e2ad
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: afc8f4922810983a6582558f0577a05aa21cbdbb
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 05/25/2017
 Voici les conditions préalables à respecter lorsque vous utilisez le coût de la moyenne de déplacement en tant que méthode d'évaluation des coûts.
 1.  Sur la page **Groupes de modèles d'article**, paramétrez un groupe de modèles d'article ayant une moyenne mobile sélectionnée dans le champ **Modèle de stock**. **Remarque :** par défaut, lorsque la moyenne mobile est sélectionnée, les champs **Valider le stock physique** et **Valider le stock financier** sont également sélectionnés. 
 
-2.  Sur la page **Validation**, affectez les comptes aux comptes **Différence de prix pour la moyenne mobile** et **Réévaluation des coûts pour la moyenne mobile** sous l'onglet **Stock**. Vous utilisez compte **Différence de prix pour la moyenne mobile** lorsque le coût doit être proportionnellement dépensé. Cela se produit en raison d'une différence de coût entre un reçu d'achat et la facture d'achat, et d'une différence entre la quantité de stock d'origine et la quantité disponible actuelle. Utilisez le compte **Réévaluation des coûts pour la moyenne mobile** lorsque vous souhaitez ajuster le coût de la moyenne de déplacement pour un produit sur un nouveau prix unitaire.
+2.  Sur la page **Validation**, affectez des comptes aux comptes **Différence de prix pour la moyenne mobile** et **Réévaluation des coûts pour la moyenne mobile** sur l'onglet **Stock**. Utilisez le compte **Différence de prix pour la moyenne mobile** lorsque le coût doit être dépensé proportionnellement. Cela se produit en raison d'une différence de coût entre un reçu d'achat et la facture d'achat, et d'une différence entre la quantité de stock d'origine et la quantité disponible actuelle. Utilisez le compte **Réévaluation des coûts pour la moyenne mobile** lorsque vous souhaitez ajuster le coût de la moyenne de déplacement pour un produit sur un nouveau prix unitaire.
 3.  Sur la page **Produits lancés**, affectez le groupe de modèles d'article de la moyenne de déplacement au produit. **Remarque :** le processus de clôture de stock clôture uniquement la période comptable. Il n'affecte pas les produits auxquels une moyenne de déplacement a été affectée en tant que groupe de modèles d'article.
 
 ## <a name="convert-to-the-moving-average-costing-method"></a>Convertir en méthode d'évaluation des coûts de la moyenne de déplacement

@@ -19,10 +19,10 @@ ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: dbc80ff756a5286a98489f1f1403959d9b18ebe6
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/04/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -63,7 +63,7 @@ Les personnalisations explicites sont les personnalisations que vous effectuez e
 
 Vous personnaliserez un élément sur la page de cette manière si vous souhaitez simplement modifier le nom de l'élément, masquer l'élément pour qu'il ne s'affiche dans la page (cela ne modifie aucune donnée, mais simplement ne vous montre plus les informations), inclure les informations dans la section de synthèse de l'organisateur (si l'élément est dans un organisateur), ignorer le champ en tabulant, ou faire en sorte que les données ne puissent pas être modifiées par le marquage « Ne pas modifier ». 
 
-Lorsque vous voulez déplacer ou masquer les éléments ou effectuer plusieurs modifications, vous pouvez utiliser la barre d'outils de personnalisation, disponible dans la fenêtre de propriété des éléments en choisissant **Personnaliser cet écran**. La barre d'outils de personnalisation est également disponible dans le volet Actions de l'écran, dans le groupe Personnaliser de l'onglet **Options**. Sélectionnez **Personnaliser cet écran** et vous verrez s'afficher la barre d'outils de personnalisation. 
+Lorsque vous voulez déplacer ou masquer les éléments ou effectuer plusieurs modifications, vous pouvez utiliser la barre d'outils de personnalisation, disponible dans la fenêtre de propriété des éléments en choisissant **Personnaliser cet écran**. La barre d'outils de personnalisation est également disponible dans le volet Actions de l'écran, sous le groupe Personnaliser de l'onglet **Options**. Sélectionnez **Personnaliser cet écran** et vous pourrez voir la barre d'outils de personnalisation. 
 
 [![Barre d'outils Personnalisation](./media/personalization-personalizationtoolbar.jpg)](./media/personalization-personalizationtoolbar.jpg)
 
@@ -90,7 +90,7 @@ Choisissez le bouton **Fermer** pour fermer la barre d'outils et remettre la pag
 Avec la barre d'outils de personnalisation, l'enregistrement est implicite. Vos personnalisations prennent effet immédiatement à mesure que vous les faites et il n'y a pas besoin de cliquer sur un bouton **Enregistrer**. Dans certains cas, vous verrez une icône de cadenas en regard d'un élément lorsque vous sélectionnez un outil. Cela signifie que pour que la page fonctionne correctement, vous ne pouvez pas modifier les propriétés liées à l'outil sélectionné. Lorsque la barre d'outils de personnalisation est ouverte, la page devient non-interactive. Vous ne pouvez pas entrer des données ni développer ou réduire les sections.
 
 ## <a name="explicit-personalization-adding-a-tile-or-list-to-a-workspace"></a>Personnalisation explicite : ajout d'une vignette ou d'une liste à un espace de travail
-Certaines pages avec des listes ont une fonctionnalité supplémentaire de personnalisation disponible dans leur Volet Actions, dans le groupe Personnaliser de l'onglet Options. Sélectionnez **Ajouter à l'espace de travail** pour ouvrir la liste déroulante qui vous donne la possibilité d'afficher les informations dans la liste actuelle (filtrées et triées ou par défaut) dans un espace de travail comme liste ou vignette récapitulative (pouvant être utilisée pour indiquer le nombre d'éléments dans la liste). 
+Certaines pages avec des listes disposeront d'une fonctionnalité de personnalisation supplémentaire accessible dans le volet Actions, sous le groupe Personnaliser de l'onglet Options. Sélectionnez **Ajouter à l'espace de travail** pour ouvrir la liste déroulante qui indique la capacité à afficher les informations dans la liste actuelle (filtrée et triée ou par défaut) d'un espace de travail sous la forme d'une liste ou d'une vignette de synthèse (indiquant le nombre d'articles dans la liste). 
 
 [![Ajouter à l'espace de travail](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png) 
 

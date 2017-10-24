@@ -17,12 +17,11 @@ ms.search.region: Switzerland
 ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: ef6fcc07f645c4ff8c3a049120915ff411cb221a
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 03a58ff77bb2999e450468039b7d24e9d1c0165e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -39,9 +38,9 @@ ESR est un service de débit électronique qui utilise des bordereaux de paiemen
 Les références de paiement doivent être imprimées sur le bordereau de paiement après validation. Vous pouvez également vérifier les références de paiement dans la page **Journal des factures** pour la commande client sélectionnée. Pour générer les références de paiement, les paramètres suivants doivent être spécifiés.
 
 1.  Définissez les paramètres de compte bancaire sur **ESR**, **ID BESR** et **Numéro d'acheminement**.
-2.  Définissez le champ **Nombre de caractères du compte de virement** dans la page **Paramètres de la comptabilité client** de l'onglet **Comptabilité et taxe**. Ce champ définit le nombre de symboles du compte client qui doivent être inclus dans la référence de paiement.
+2.  Définissez le champ **Nombre de caractères du compte de virement** sur la page **Paramètres de la comptabilité client** sur l'onglet **Comptabilité et taxe**. Cela définit combien de symboles du compte client doivent être inclus dans la référence de paiement.
 3.  La souche de numéros de la facture client doit être au format approprié (elle ne doit pas comporter des symboles autres que des chiffres et elle ne doit pas contenir des zéros non significatifs).
-4.  Le format **Orange** doit être spécifié pour le compte client dans le champ **Sur une facture client** ** de l'onglet **Facture et livraison**.
+4.  Le format **Orange** doit être spécifié pour le compte client dans le champ **Sur une facture client** de l'onglet **Facture et livraison**.
 
 Pour plus d'informations, voir [État du bordereau de paiement (virement)](emea-eur-payment-slip-report-giro.md).
 

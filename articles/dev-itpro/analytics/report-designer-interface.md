@@ -16,13 +16,13 @@ ms.custom: 59041
 ms.assetid: 054de5b0-8618-4195-be12-f031b4bb4d74
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-05-31T00:00:00.000Z
+ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: aad8f2617d94e9abc77dafe96cb95f7e191873bd
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 1fd7231ad204a0764d601e9b64bf2150255c6f78
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -85,7 +85,7 @@ Le menu **Édition** est à la disposition des utilisateurs ayant le rôle de **
 | Insérer les unités organisationnelles à partir des dimensions | Permet d'ouvrir la boîte de dialogue **Insérer les unités organisationnelles à partir des dimensions** dans laquelle vous pouvez sélectionner les valeurs de dimension à inclure dans la définition de l'organigramme d'entreprise. Cette commande est disponible à partir d'une définition d'organigramme d'entreprise. |
 | Importer une hiérarchie d'ensemble de dimensions         | Permet d'ouvrir la boîte de dialogue **Hiérarchie de l'ensemble de dimensions** dans laquelle vous pouvez importer une hiérarchie d'ensemble de dimensions depuis les données financières. Cette commande est disponible à partir d'une définition d'organigramme d'entreprise pour un système basé sur les ..\dimensions financières\dimensions.  |
 | Insérer une unité organisationnelle                  | Permet d'insérer une ligne vide dans la définition d'organigramme d'entreprise. Cette commande est disponible à partir d'une définition d'organigramme d'entreprise.                                                                                                |
-| Supprimer une unité organisationnelle                  | Permet de supprimer la ligne d'unité organisationnelle sélectionnée à partir de la définition d'organigramme d'entreprise. Cette commande est disponible à partir d'une définition d'organigramme d'entreprise.                                                                             |
+| Supprimer une unité organisationnelle                  | Permet de supprimer la ligne d'unité organisationnelle sélectionnée à partir de la définition d'organigramme d'entreprise. Cette commande est disponible dans une définition d'organigramme d'entreprise.                                                                             |
 
 ### <a name="view-menu"></a>Menu Affichage
 
@@ -96,7 +96,7 @@ Le menu **Affichage** est à la disposition de tous les utilisateurs et comprend
 | Volet de navigation | Permet d'afficher ou de masquer le volet de navigation.                                      |
 | Barres d'outils        | Permet de sélectionner les barres d'outils visibles.                                  |
 | Barre d'état      | Permet d'afficher ou de masquer les informations d'état dans la fenêtre **Concepteur de rapports**. |
-| Page de bienvenue    | Permet d'ouvrir la page **Accueil**.                                             |
+| Page d'accueil    | Permet d'ouvrir la page d'**accueil**.                                             |
 
 ### <a name="format-menu"></a>Menu Format
 

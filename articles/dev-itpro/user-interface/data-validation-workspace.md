@@ -14,11 +14,11 @@ ms.search.scope:
 ms.assetid: 
 ms.search.region: Global
 ms.author: bking
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: e105c4b171979a03c20718c1fa9d558c921cd704
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 447fd87cb2f71147d7a9f6476f4ed9e12d75640a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -37,7 +37,7 @@ Vous devez commencer par sélectionner un projet de contrôle des données en ha
 
 ### <a name="summary-tiles"></a>Vignettes récapitulatives
 
-Les vignettes **récapitulatives** fournissent une vue d'ensemble du processus et des indicateurs vous permettent de vous assurer que le processus de validation se déroule comme prévu. Vous pouvez voir toutes les tâches restantes, les tâches terminées, les tâches en cours et les tâches non commencées pour le processus. Ces informations sont destinées à toutes les sociétés incluses dans le projet de contrôle des données sélectionné.
+Les vignettes **Synthèse** fournissent une vue d'ensemble du processus, et les indicateurs vous permettent d'utiliser le processus de validation de données lors du suivi. Vous pouvez voir toutes les tâches restantes, tâches terminées, tâches en cours et tâches non commencées relatives au processus. Ces informations sont destinées à toutes les sociétés incluses dans le projet de contrôle des données sélectionné.
 
 ### <a name="tasks-and-status-section"></a>Section Tâches et statuts
 

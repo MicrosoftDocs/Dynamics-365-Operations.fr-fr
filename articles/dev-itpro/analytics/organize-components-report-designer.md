@@ -16,13 +16,13 @@ ms.custom: 59161
 ms.assetid: 32e728c5-3b06-4049-8070-ade01e951d49
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a8739f426c401aacbab56179bad429a231060f57
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: fade9e2acdb94daa6a908d949c578fd7ed439882
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -53,7 +53,7 @@ Vous pouvez regrouper les définitions d'état pour générer plusieurs états s
 
 1.  Dans le générateur d'états, dans le volet de navigation, cliquez sur **Groupes d'états** dans le volet de navigation.
 2.  Dans le menu **Fichier**, cliquez sur **Nouveau** &gt; **Définition de groupe d'état** pour ouvrir un nouveau groupe d'état dans la fenêtre du visualiseur. Sinon, cliquez sur le bouton **Groupe d'états** ![Groupe d'états](https://i-technet.sec.s-msft.com/dynimg/IC679515.gif "Groupe d'états") sur la barre d’outils.
-3.  Cliquez sur l'onglet **Groupe d'états**. Pour remplacer les informations sur les différentes définitions d'état pour la génération de cet état, activez la case à cocher **Remplacer les paramètres de la société, des détails et de date à partir des définitions d'état**. Les informations sur le nom de la société, le niveau de détail, les paramètres provisionnels et la date sont fournis automatiquement mais vous pouvez toujours effectuer des mises à jour.
+3.  Cliquez sur l'onglet **Groupe de rapports**. Pour remplacer les informations sur les différentes définitions d'état pour la génération de cet état, activez la case à cocher **Remplacer les paramètres de la société, des détails et de date à partir des définitions d'état**. Les informations sur le nom de la société, le niveau de détail, les paramètres provisionnels et la date sont fournis automatiquement mais vous pouvez toujours effectuer des mises à jour.
 4.  Pour générer plusieurs états affichant les devises de déclaration, activez la case à cocher **Inclure toutes les devises de déclaration**. Vous pouvez ensuite accéder à plusieurs en cliquant sur le bouton **Devise** dans la visionneuse Web lorsque vous afficherez l'état.
 5.  Dans le champ **États dans le groupe**, cliquez sur **Ajouter** pour sélectionner les états à inclure dans le groupe d'états. Pour sélectionner plusieurs états dans la boîte de dialogue **Ajouter**, maintenez la touche Ctrl enfoncée alors que vous sélectionnez des états. Lorsque vous avez terminé la sélection des états, cliquez sur **OK**.
 6.  Cliquez sur **Fichier** &gt; **Enregistrer** pour enregistrer le nouveau groupe d'états.
@@ -106,7 +106,7 @@ Le tableau suivant décrit les contrôles l'onglet **Groupe d'états**.
 <td>Niveau de détail</td>
 <td>Permet de spécifier le niveau de détail souhaité dans l'état.
 <ul>
-<li><strong>Financier</strong> : Rapport de synthèse de haut niveau. Vous ne pouvez pas effectuer de zoom avant dans les comptes et les dimensions, à l'exception de ceux ajoutés via une arborescence de génération d'états.</li>
+<li><strong>Rapport financier</strong> − Rapport de synthèse de haut niveau. Vous ne pouvez pas effectuer de zoom avant dans les comptes et les dimensions, à l'exception de ceux ajoutés via une arborescence de génération d'états.</li>
 <li><strong>Financier &amp; Compte</strong> − État qui contient une synthèse de haut niveau et des détails du compte.</li>
 <li><strong>Financier, Compte &amp; Transaction</strong> État qui contient une synthèse de haut niveau et des détails de la transaction.</li>
 </ul></td>
@@ -115,14 +115,14 @@ Le tableau suivant décrit les contrôles l'onglet **Groupe d'états**.
 <td>Provisionnel</td>
 <td>Permet de spécifier les types d'activités souhaités dans l'état.
 <ul>
-<li><strong>Activités validées uniquement</strong> : Inclut uniquement les transactions et les soldes validés dans vos données financières.</li>
-<li><strong>Activités validées et non validées</strong> : Inclut toutes les transactions et tous les soldes entrés et validés dans vos données financières.</li>
-<li><strong>Activités non validées uniquement</strong> : Inclut uniquement les transactions entrées mais pas encore validées dans vos données financières.</li>
+<li><strong>Activité validée uniquement</strong> − Inclut uniquement les transactions et les soldes validés dans vos données financières.</li>
+<li><strong>Activité validée et non validée</strong> − Inclut tous les soldes et transactions entrés et validés dans vos données financières.</li>
+<li><strong>Activité non validée uniquement</strong> − Inclut uniquement les transactions entrées mais pas encore validées dans vos données financières.</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Inclure toutes les devises de déclaration</td>
-<td>Toutes les devises de déclaration supplémentaires configurées dans votre système Microsoft Dynamics ERP sont indiquées ici. Activez cette case à cocher pour générer des états supplémentaires dans les devises indiquées. Pour afficher ces états dans la visionneuse Web, cliquez sur le bouton <strong>Devise</strong>, puis sélectionnez une devise.</td>
+<td>Toutes les devises de déclaration supplémentaires configurées dans votre système Microsoft Dynamics ERP sont indiquées ici. Activez cette case à cocher pour générer des états supplémentaires dans les devises indiquées. Pour afficher ces rapports dans la visionneuse Web, cliquez sur le bouton <strong>Devise</strong> et sélectionnez une devise.</td>
 </tr>
 <tr class="even">
 <td>Informations de date non enregistrées avec la définition d'état</td>
@@ -144,8 +144,8 @@ Seuls les paramètres de période de base par défaut sont enregistrés avec la 
 <td>États dans le groupe</td>
 <td>Permet d'ajouter, de supprimer, et de trier à nouveau les états dans le groupe d'états.
 <ul>
-<li>Pour ajouter des définitions d'état au groupe d'état, double-cliquez sur le groupe d'état pour l'ouvrir, puis cliquez sur <strong>Ajouter</strong>. Sélectionnez les rapports à inclure dans le groupe d'états, puis cliquez sur <strong>OK</strong>.</li>
-<li>Pour supprimer un état du groupe d'états, sélectionnez-le et cliquez sur <strong>Supprimer</strong>.</li>
+<li>Pour ajouter des définitions de rapport au groupe de rapports, double-cliquez sur ce dernier pour l'ouvrir, puis cliquez sur <strong>Ajouter</strong>. Sélectionnez les rapports à inclure dans le groupe de rapports, puis cliquez sur <strong>OK</strong>.</li>
+<li>Pour supprimer un rapport du groupe de rapports, sélectionnez-le, puis cliquez sur <strong>Supprimer</strong>.</li>
 <li>Pour modifier l'ordre dans lequel les états sont générés, sélectionnez un état dans la liste, puis cliquez sur <strong>Déplacer vers le haut</strong> ou <strong>Déplacer vers le bas</strong>.</li>
 </ul></td>
 </tr>

@@ -16,13 +16,13 @@ ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 01955aefb27bd18809b35fd025c9dd1b8eb70520
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 035c5d15e5508c78dd66a349defd534bfecc96bb
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -42,7 +42,7 @@ Selon vos autorisations, vous pouvez modifier le demandeur, l'entité juridique 
 Pour plus d'informations sur les stratégies, voir [Stratégies d'achat](../procurement/purchase-policies.md).
 
 - Pour rechercher des catalogues externes pour des catégories d'approvisionnement spécifiques, entrez du texte dans le champ de recherche de catalogue.
-- Pour ajouter des produits du catalogue externe d'un fournisseur sur le site Web du fournisseur, cliquez sur le catalogue externe. Ajoutez ensuite les produits dans le chariot, puis validez-le. Les lignes du chariot sont transférées vers Microsoft Dynamics 365.
+- Pour ajouter des produits du catalogue externe d'un fournisseur sur le site Web du fournisseur, cliquez sur le catalogue externe. Ajoutez ensuite les produits au chariot, puis procédez à l'extraction. Les lignes du chariot sont transférées vers Microsoft Dynamics 365.
 
 S'il existe plusieurs options pour les catégories d'approvisionnement, sélectionnez la catégorie d'approvisionnement appropriée avant d'ajouter les lignes à la demande.
 Une fois que les lignes ont été ajoutées à une demande, vous pouvez ajouter d'autres lignes sans utiliser des catalogues externes. Vous pouvez également continuer à utiliser des catalogues externes pour ajouter des lignes.

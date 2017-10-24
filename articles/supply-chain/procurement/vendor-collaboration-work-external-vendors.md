@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: cbd099403f48b502ca74bcb38ae12decedb8f2da
+ms.sourcegitcommit: 9036b7f9863871915f9ad39d76bf027ae4c2f4bf
+ms.openlocfilehash: aee8db8ddaeac135ed1f9d8b1b8a621609c6d358
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 10/05/2017
 
 ---
 
@@ -34,9 +34,9 @@ Cette rubrique décrit comment les agents des achats peuvent collaborer avec des
 
 Le module **Collaboration fournisseur** est destiné aux fournisseurs qui n'ont pas l'intégration d'échange de données informatisé (EDI) avec Microsoft Dynamics 365 for Finance and Operations. Il permet aux fournisseurs d'utiliser les informations sur la commande fournisseur, la facture, et le stock de consignation. Cette rubrique décrit comment vous pouvez collaborer avec des fournisseurs externes qui utilisent l'interface de collaboration fournisseur pour utiliser des CF et le stock de consignation. Elle décrit également comment autoriser un fournisseur spécifique à utiliser la collaboration fournisseur, et comment définir les informations que tous les fournisseurs verront lorsqu'ils répondent à une commande fournisseur. Pour plus d'informations sur ce que les fournisseurs externes peuvent effectuer dans l'interface de collaboration fournisseur, voir [Collaboration fournisseur avec des clients](vendor-collaboration-work-customers-dynamics-365-operations.md).  
 
-Pour plus d'informations sur la manière dont les fournisseurs peuvent utiliser la collaboration fournisseur dans les processus de facturation, voir [Espace de travail de facturation de collaboration fournisseur](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace). Pour plus d'informations sur la mise en service de nouveaux utilisateurs de la collaboration fournisseur, voir [Gérer les utilisateurs de la fonctionnalité de collaboration du fournisseur](manage-vendor-collaboration-users.md).
+Pour plus d'informations sur la manière dont les fournisseurs peuvent utiliser la collaboration fournisseur dans les processus de facturation, voir [Espace de travail de facturation de collaboration fournisseur](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). Pour plus d'informations sur la mise en service de nouveaux utilisateurs de la collaboration fournisseur, voir [Gérer les utilisateurs de la fonctionnalité de collaboration du fournisseur](manage-vendor-collaboration-users.md).
 
-Pour plus d'informations sur la manière dont les fournisseurs peuvent utiliser la collaboration fournisseur dans les processus de facturation, voir [Espace de travail de facturation de collaboration fournisseur](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace). 
+Pour plus d'informations sur la manière dont les fournisseurs peuvent utiliser la collaboration fournisseur dans les processus de facturation, voir [Espace de travail de facturation de collaboration fournisseur](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). 
 
 Pour plus d'informations sur la mise en service de nouveaux utilisateurs de la collaboration fournisseur, voir [Gérer les utilisateurs de la fonctionnalité de collaboration du fournisseur](manage-vendor-collaboration-users.md).
 
@@ -131,7 +131,7 @@ Pour modifier une CF ayant déjà reçu une réponse, vous devez envoyer une nou
 
 ### <a name="cancelling-a-po"></a>Annuler une CF
 
-Lorsque vous annulez une CF, le statut passe à **Approuvé**. Vous devez retransmettre la CF au fournisseur via le portail Fournisseur afin qu'il puisse confirmer ou rejeter l'annulation. Une fois l'annulation confirmée, la CF apparaît dans la liste des CF confirmées du fournisseur avec le statut **Annulé**.
+Lorsque vous annulez une CF, le statut passe à **Approuvé**. Vous devez retransmettre le bon de commande au fournisseur afin qu'il puisse confirmer ou rejeter l'annulation. Une fois l'annulation confirmée, la CF apparaît dans la liste des CF confirmées du fournisseur avec le statut **Annulé**.
 
 ### <a name="adding-attachments-to-a-po"></a>Ajouter des pièces jointes à une CF
 

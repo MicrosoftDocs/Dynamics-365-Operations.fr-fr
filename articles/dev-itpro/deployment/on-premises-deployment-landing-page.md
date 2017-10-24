@@ -18,24 +18,26 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
-ms.openlocfilehash: 4399dc7374ae11f2eca3add37b60c50574dfad9d
+ms.sourcegitcommit: 61395e0e57eb02aaa1c95a7dbd9c15082b822701
+ms.openlocfilehash: 15992b1666caea21cdcf440fefcf65ff18111801
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/04/2017
+ms.lasthandoff: 10/05/2017
 
 ---
 # <a name="on-premises-deployment-landing-page"></a>Page de destination de déploiement sur site
+
+[!include[banner](../includes/banner.md)]
 
 Vous pouvez déployer Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (sur site). Lorsque vous sélectionnez un type de déploiement sur site, la configuration système requise, le calibrage du matériel, et la fonctionnalité diffèrent d'un déploiement dans le cloud. Cette rubrique fournit des liens vers du contenu contenant des informations spécifiques sur les déploiements sur site.
 
 **Remarque :** Dynamics 365 for Operations (sur site) est actuellement renommé. Vous verrez Dynamics 365 for Operations (sur site) référencé tout au long des communications et des guides d'autorisation. Le nom du produit que vous verrez lors du déploiement du produit est Dynamics 365 for Finance and Operations, Enterprise edition. Les deux noms se réfèrent au même produit.
 
 ## <a name="get-started"></a>Mise en route
-- [Vue d'ensemble de Dynamics 365 for Finance and Operations, édition Enterprise (sur site)](on-premises-overview.md)
-- [Configuration requise pour les déploiements sur site](../get-started/system-requirements-on-prem.md)
-- [Sizing matériel pour les environnements sur site](../get-started/hardware-sizing-on-premises-environments.md)
+- [Vue d'ensemble de Dynamics 365 for Finance and Operations, Enterprise edition (sur site)](on-premises-overview.md)
+- [Configuration requise pour les déploiements sur site](../../fin-and-ops/get-started/system-requirements-on-prem.md)
+- [Sizing matériel pour les environnements sur site](../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
 - [Service en ligne et stratégie du cycle de vie de service de logiciel sur site](../migration-upgrade/versions-update-policy.md)
-- [Acheter Dynamics 365 for Finance and Operations, édition Enterprise (sur site)](../get-started/purchase-on-premises.md)
+- [Acheter Dynamics 365 for Finance and Operations, Enterprise edition (sur site)](../../fin-and-ops/get-started/purchase-on-premises.md)
 
 ## <a name="onboard"></a>Vue d'ensemble
 - [Créer un projet sur site dans Lifecycle Services](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
@@ -44,14 +46,14 @@ Vous pouvez déployer Microsoft Dynamics 365 for Finance and Operations, Enterp
 - [Développer et déployer les modèles personnalisés sur les environnements sur site](develop-deploy-custom-models-on-premises.md)
 
 ## <a name="work-in-your-on-premises-deployment"></a>Travail dans votre déploiement sur site
-- [Configurer la gestion des documents](/dynamics365/unified-operations/fin-and-ops/organization-administration/configure-document-management)
+- [Configurer la gestion des documents](../../fin-and-ops/organization-administration/configure-document-management.md)
 - [Importer des configurations de gestion des états électroniques](../analytics/electronic-reporting-import-ger-configurations.md)
 - [Génération de document, publication et capacités d'impression dans les déploiements sur site](../analytics/printing-capabilities-on-premises.md)
 - [Paramétrer le support technique](../lifecycle-services/support-experience.md)
 - [Dépannage de la connexion Internet du client](../user-interface/client-disconnected.md)
 
 ## <a name="other-resources"></a>Ressources connexes
-- [Fonctions non implémentées dans les déploiements sur site](../get-started/features-not-implemented-on-prem.md)
+- [Fonctions non implémentées dans les déploiements sur site](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
 - [Fonctionnalités obsolètes](../migration-upgrade/deprecated-features.md)
  
 
