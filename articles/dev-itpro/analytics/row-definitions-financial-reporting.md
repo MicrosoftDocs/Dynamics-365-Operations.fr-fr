@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
-ms.openlocfilehash: 6d4697af6f7467f25a461fae4e9320402f83b0e3
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 06a75889e62cbba6e47a8543cf663868df5ae2e3
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 06/13/2017
 
 Une définition de ligne est un composant de l’état, ou un bloc élémentaire, qui spécifie le contenu de chaque ligne d’un état financier. Une définition de ligne peut être combinée avec les définitions de colonne, les définitions d'arborescence de génération d'état et les définitions d'état pour créer un groupe de blocs élémentaires pouvant être utilisé par plusieurs sociétés.
 
-<a name="create-a-row-definition"></a>Créez une définition de ligne.
+<a name="create-a-row-definition"></a>Création d'une définition de ligne
 -----------------------
 
 1.  Dans le générateur d'état, dans le volet de navigation, cliquez sur **Définitions de ligne**.
@@ -68,7 +68,7 @@ Une dimension est une intersection de données et de valeurs. Vous pouvez regrou
 | Option                | Description                                                                                                                                                                                                                                                                      |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Dimension             | Le motif qui identifie la dimension à ajouter à la définition de ligne. Ce motif contient une esperluette (&) ou symbole dièse (\#) pour chaque position dans les dimensions. En général, utilisez les esperluettes pour la dimension Compte principal et tous les signes de numéros pour d'autres dimensions. |
-| Début de la plage de dimensions | La première valeur de cette dimension à ajouter à la définition de ligne.                                                                                                                                                                                                                 |
+| Début de la plage de dimensions | Première valeur de cette dimension à ajouter à la définition de ligne.                                                                                                                                                                                                                 |
 | Fin de la plage de dimensions   | La dernière valeur pour cette dimension à ajouter à la définition de ligne.                                                                                                                                                                                                                  |
 
 Pour ajouter des dimensions à une définition de ligne, procédez comme suit.
@@ -93,7 +93,7 @@ Si vous avez un bilan dans lequel les montants sont arrondis, les totaux peuvent
 Pour ajuster l'arrondi dans un bilan, procédez comme suit.
 
 1.  Dans le générateur d'état, cliquez sur **Définitions de ligne**, puis ouvrez ensuite la définition de ligne à modifier.
-2.  Dans le menu **Édition**, cliquez sur **Ajustement d'arrondi**.
+2.  Dans le menu **Edition**, cliquez sur **Ajustement d'arrondi**.
 3.  Dans la boîte de dialogue **Ajustements d'arrondi**, saisissez les valeurs suivantes :
     -   **Ligne d'ajustement d'arrondi** – Le code de ligne pour la ligne qui doit être ajusté au solde du bilan.
     -   **Ligne Total de l'actif** – Le code de ligne pour la ligne du bilan contenant le total de l'actif.
@@ -121,16 +121,16 @@ Vous pouvez créer et modifier des styles de police pour l'état. Vous pouvez en
 <td>Créer un style de police</td>
 <td><ol>
 <li>Dans le Concepteur de rapports, dans le menu <strong>Format</strong>, cliquez sur <strong>Styles et mise en forme</strong>.</li>
-<li>Dans la boîte de dialogue <strong>Styles et mise en forme</strong>, cliquez sur <strong>Nouveau</strong> puis entrez un nom unique pour le nouveau style.</li>
-<li>Effectuez vos sélections de police et cliquez sur <strong>OK</strong>.</li>
+<li>Cliquez sur <strong>Nouveau</strong> dans la boîte de dialogue <strong>Styles et mise en forme</strong>, puis entrez un nom unique pour le nouveau style.</li>
+<li>Sélectionnez vos polices, puis cliquez sur <strong>OK</strong>.</li>
 </ol></td>
 </tr>
 <tr class="even">
-<td>Modifier un style de police</td>
+<td>Modification d'un style de police</td>
 <td><ol>
 <li>Dans le Concepteur de rapports, dans le menu <strong>Format</strong>, cliquez sur <strong>Styles et mise en forme</strong>.</li>
-<li>Dans la boîte de dialogue <strong>Styles et mise en forme</strong>, sélectionnez un style à modifier, puis cliquez sur <strong>Modifier</strong>.</li>
-<li>Effectuez vos sélections de police et cliquez sur <strong>OK</strong>.</li>
+<li>Dans la boîte de dialogue <strong>Styles et mise en forme</strong>, sélectionnez un style à modifier puis cliquez sur <strong>Modifier</strong>.</li>
+<li>Sélectionnez vos polices, puis cliquez sur <strong>OK</strong>.</li>
 </ol></td>
 </tr>
 <tr class="odd">
@@ -164,7 +164,7 @@ Pour faciliter l'affichage des colonnes sur lesquelles vous travaillez dans la d
 ### <a name="hide-columns-in-the-view-pane"></a>Masquer les colonnes dans le volet d'affichage
 
 1.  Dans le Concepteur de rapports, ouvrez la définition de ligne à modifier.
-2.  Sélectionnez la colonne ou les colonnes à réduire.
+2.  Sélectionnez les colonnes à réduire.
 3.  Cliquez avec le bouton droit, puis cliquez sur **Masquer**.
 
 ### <a name="show-all-hidden-columns-in-the-view-pane"></a>Permet d'afficher toutes les colonnes masquées dans le volet d'affichage

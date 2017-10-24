@@ -16,13 +16,13 @@ ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
-ms.openlocfilehash: 40ae4e0774c5752d697baba6c8add8aaf44fbb6d
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: eb09c0bb28c2ba8e7b890854c444cec80fe8277c
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -35,11 +35,11 @@ Cet article décrit les informations nécessaires pour chaque cellule dans une d
 
 # <a name="specify-a-row-code-in-a-row-definition"></a>Spécifier un code de ligne dans une définition de ligne
 
-Dans les définitions de ligne, les nombres ou les libellés dans la cellule **Code de ligne** identifient chaque ligne dans la définition de ligne. Vous pouvez spécifier le code de ligne pour faire référence à des données dans les calculs et les totaux.
+Dans les définitions de ligne, les nombres ou les libellés dans la cellule **Code de ligne** identifient chaque ligne dans la définition de ligne. Vous pouvez spécifier le code ligne de manière à vous référer aux calculs et aux totaux.
 
-### <a name="row-code-requirements"></a>Conditions requises par les codes de ligne
+### <a name="row-code-requirements"></a>Configuration d'un code ligne
 
-Chaque ligne nécessite un code de ligne. Vous pouvez mixer les codes de ligne numériques, alphanumériques et non définis (vide) dans une définition de ligne. Le code de ligne peut être n'importe quel entier positif (inférieur à 100 000 000) ou un nom descriptif identifiant cette ligne. Un nom descriptif doit suivre les règles suivantes :
+Un code de ligne est requis pour toutes les lignes. Vous pouvez mixer les codes de ligne numériques, alphanumériques et non définis (vide) dans une définition de ligne. Le code de ligne peut être n'importe quel entier positif (inférieur à 100 000 000) ou un nom descriptif identifiant cette ligne. Un nom descriptif doit suivre les règles suivantes :
 
 -   le libellé doit commencer par une lettre (a à z ou A à Z), et peut être n'importe quelle combinaison des chiffres et de lettres jusqu'à 16 caractères. 
     > [!NOTE]
@@ -68,7 +68,7 @@ Les exemples suivants sont des codes de ligne valides :
 ## <a name="add-a-description"></a>Ajouter une description
 La cellule de description fournit la description des données financières contenues dans la ligne de l'état, par exemple « Produit »ou « Revenu net ». Le texte dans la cellule **Description** apparaît dans l'état exactement comme il a été entré dans la définition de ligne. 
 > [!NOTE]
-> La largeur de la colonne de description dans l'état est définie dans la définition de colonne. Si le texte dans la colonne **Description** dans la définition de ligne est long, vérifiez la largeur de la colonne **DESC**. Lorsque vous utilisez la boîte de dialogue **Insérer des lignes à partir de**, les valeurs dans la colonne **Description** sont les valeurs de segment ou les valeurs de dimension issues des données financières. Vous pouvez insérer des lignes pour ajouter un texte descriptif, tel qu'un en-tête de section ou un total de section, et pour ajouter une mise en forme, telle qu'une ligne avant une ligne de total. Si l'état inclut une arborescence de génération d'états, vous pouvez inclure le texte supplémentaire défini pour les unités de déclaration dans l'arborescence de génération d'états. Vous pouvez également limiter le texte supplémentaire à une unité de déclaration spécifique.
+> La largeur de la colonne de description dans l'état est définie dans la définition de colonne. Si le texte dans la colonne **Description** dans la définition de ligne est long, vérifiez la largeur de la colonne **DESC**. Lorsque vous utilisez la boîte de dialogue **Insérer des lignes à partir de**, les valeurs dans la colonne **Description** sont les valeurs de segment ou les valeurs de dimension issues des données financières. Vous pouvez insérer des lignes pour ajouter un texte descriptif (par exemple, le titre ou le total d'une section) et ajouter une mise en forme (par exemple, une ligne avant une ligne de total). Si l'état inclut une arborescence de génération d'états, vous pouvez inclure le texte supplémentaire défini pour les unités de déclaration dans l'arborescence de génération d'états. Vous pouvez également limiter le texte supplémentaire à une unité de déclaration spécifique.
 
 ### <a name="add-the-description-for-a-line-on-a-report"></a>Ajouter la description pour une ligne d'un état
 
@@ -112,12 +112,12 @@ La cellule **Code de format** offre une sélection de mises en forme prédéfini
     | ---                           | Soulignement simple                   | Met une ligne simple sous toutes les colonnes de montant de l'état.                                                                                                                                                     |
     | ===                           | Soulignement double                   | Met une ligne double sous toutes les colonnes de montant de l'état.                                                                                                                                                     |
     | LINE1                         | Ligne fine                          | Trace une ligne fine en travers de la page.                                                                                                                                                                      |
-    | LINE2                         | Ligne épaisse                         | Trace une ligne épaisse en travers de la page.                                                                                                                                                                     |
-    | LINE3                         | Ligne pointillée                        | Trace une ligne pointillée simple en travers de la page.                                                                                                                                                                    |
+    | LIGN2                         | Trait épais                         | Trace un trait épais simple à travers la page.                                                                                                                                                                     |
+    | LIGN3                         | Trait en pointillé                        | Trace une ligne pointillée simple en travers de la page.                                                                                                                                                                    |
     | LINE4                         | Ligne épaisse et ligne fine           | Trace une ligne double en travers de la page. La ligne supérieure est épaisse et la ligne inférieure est fine.                                                                                                                       |
     | LINE5                         | Ligne fine et ligne épaisse           | Trace une ligne double en travers de la page. La ligne supérieure est fine et la ligne inférieure est épaisse.                                                                                                                       |
     | BXB BXC                       | Ligne marquée par une bordure                          | Trace une bordure autour de les lignes d'état qui commencent par la ligne **BXB** et se terminent par la ligne **BXC**.                                                                                                               |
-    | REM                           | Remarque                             | Identifie une ligne correspondant à une ligne de commentaire qui ne doit pas être imprimée dans l'état. Par exemple, une ligne de remarque peut expliquer vos techniques de mise en forme.                                                            |
+    | REM                           | Remarque                             | Identifie une ligne de commentaire qui ne doit pas être imprimée dans le rapport. Par exemple, une ligne de remarque peut expliquer vos techniques de mise en forme.                                                            |
     | SORT ASORT SORTDESC ASORTDESC | Trier                               | Trie les dépenses ou les produits, trie un état de budget réel ou d'écart de budget par écart le plus important, ou trie les descriptions de ligne par ordre alphabétique.                                                                   |
 
 ## <a name="specify-related-formulasrowsunits"></a>Spécifier les formules/lignes/unités associées
@@ -145,7 +145,7 @@ Lorsque vous créez une formule de total de ligne, vous devez utiliser des codes
 
 ### <a name="create-a-row-total"></a>Créer un total de ligne
 
-1.  Dans le générateur d'état, cliquez sur **Définitions de ligne**, puis ouvrez ensuite la définition de ligne à modifier.
+1.  Dans le Concepteur de rapports, cliquez sur **Définitions de ligne** puis ouvrez la définition de ligne à modifier.
 2.  Double-cliquez sur la cellule **Code de format** dans la définition de ligne, et sélectionnez **TOT**.
 3.  Dans la cellule **Formules/Lignes/Unités associées**, entrez la formule du total.
 
@@ -177,7 +177,7 @@ Une ou plusieurs lignes de base sont définies dans la définition de ligne, pui
 -   Les lignes **CBR** ne sont pas imprimées dans l'état terminé.
 -   Le code de format **CBR** et son code de ligne associé sont positionnés au-dessus de la ligne ou de la section qui affiche les calculs associés.
 
-Dans une définition de colonne, le type de colonne **CALC** affiche la colonne qui spécifie une formule dans la ligne **Formule**. Cette formule traite les données de cette colonne de l'état et utilise le mot clé Baserow (ligne de référence) pour baser les calculs sur les codes format **CBR** dans la ligne. Dans la définition de ligne, le code de format **CBR** définit la ligne de base pour les colonnes qui calculent un pourcentage ou sont multipliées par la ligne de base pour chaque ligne de l'état. Vous pouvez avoir plusieurs codes de format **CBR** dans un format de ligne, comme un pour les ventes nettes, un pour les ventes brutes et un pour les dépenses totales. Généralement, le code de format **CBR** est utilisé pour créer un pourcentage pour les comptes qui sont comparés à une ligne de total. Une ligne de base est utilisée pour tous les calculs jusqu'à ce qu'une autre ligne de base soit définie. Vous devez définir un code de format **CBR** de début et un code de format **CBR** de fin. Par exemple, pour déterminer les dépenses comme un pourcentage des ventes nettes, vous pouvez diviser la valeur de chaque ligne de dépense par la valeur indiquée dans la ligne des ventes nettes. Dans ce cas, la ligne des ventes réelles est la ligne de base. Vous pouvez définir une définition de colonne qui indique les résultats en cours et pour l'année à ce jour, avec un pourcentage de base de chaque résultat, comme indiqué dans l'exemple qui suit. Commencez par une déclaration des revenus détaillée.
+Dans une définition de colonne, le type de colonne **CALC** indique une colonne qui spécifie une formule dans la ligne **Formule**. Cette formule traite les données de cette colonne de l'état et utilise le mot clé Baserow (ligne de référence) pour baser les calculs sur les codes format **CBR** dans la ligne. Dans la définition de ligne, le code de format **CBR** définit la ligne de base pour les colonnes qui calculent un pourcentage ou sont multipliées par la ligne de base pour chaque ligne de l'état. Vous pouvez avoir plusieurs codes de format **CBR** dans un format de ligne, comme un pour les ventes nettes, un pour les ventes brutes et un pour les dépenses totales. Généralement, le code de format **CBR** est utilisé pour créer un pourcentage pour les comptes qui sont comparés à une ligne de total. Une ligne de base est utilisée pour tous les calculs jusqu'à ce qu'une autre ligne de base soit définie. Vous devez définir un code de format **CBR** de début et un code de format **CBR** de fin. Par exemple, pour déterminer les dépenses comme un pourcentage des ventes nettes, vous pouvez diviser la valeur de chaque ligne de dépense par la valeur indiquée dans la ligne des ventes nettes. Dans ce cas, la ligne des ventes réelles est la ligne de base. Vous pouvez définir une définition de colonne qui indique les résultats en cours et pour l'année à ce jour, avec un pourcentage de base de chaque résultat, comme indiqué dans l'exemple qui suit. Commencez par une déclaration des revenus détaillée.
 
 ### <a name="select-the-base-row-in-a-row-definition-for-a-column-calculation"></a>Sélectionner la ligne de base dans une définition de ligne pour un calcul de colonne
 
@@ -197,7 +197,7 @@ Dans une définition de colonne, le type de colonne **CALC** affiche la colonne 
 Dans l'exemple suivant d'une définition de ligne, la ligne 100 indique que la ligne de base des calculs est la ligne 280. [![Exemple de calcul de ligne de base.](./media/cbrrowdefinition.png)](./media/cbrrowdefinition.png) Dans l'exemple suivant d'une définition de colonne, les calculs utilisent le code de format **CBR**. Le calcul dans la colonne C divise la valeur de la colonne B de l'état par la valeur contenue dans la ligne 280 et la colonne B. Le remplacement de format de la colonne B imprime le résultat du calcul sous la forme d'un pourcentage. De même, chaque montant dans la colonne E correspond au montant dans la colonne D sous la forme d'un pourcentage des ventes nettes. [![Exemple de définition de colonne.](./media/cbrcolumndefinition2.png)](./media/cbrcolumndefinition2.png) L'exemple suivant présente un état pouvant être généré à partir des calculs précédents. [![Exemple d'état à partir des calculs précédents.](./media/cbrreport-1024x272.png)](./media/cbrreport.png)
 
 ## <a name="select-a-sorting-code-for-a-row-definition"></a>Sélectionner un code de tri pour une définition de ligne
-Les codes de tri permettent de trier les comptes ou les valeurs, de trier un état de budget réel ou d'écart de budget par écart le plus important, ou de trier les descriptions de ligne par ordre alphabétique. Les codes de tri disponibles sont les suivants :
+Les codes de tri permettent de trier les comptes ou les valeurs, de trier un état de budget réel ou d'écart de budget par écart le plus important, ou de trier les descriptions de ligne par ordre alphabétique. Les codes tri ci-dessous sont disponibles :
 
 -   **SORT** – Trie l'état dans l'ordre croissant, selon les valeurs dans la colonne spécifiée.
 -   **ASORT** – Trie l'état dans l'ordre croissant, selon la valeur absolue des valeurs dans la colonne spécifiée. Autrement dit, le signe de chaque valeur est ignoré lorsque les valeurs sont triées. Ce code de format ordonne les valeurs par l'importance de l'écart, indépendamment du fait que cet écart est positif ou négatif.
@@ -217,17 +217,17 @@ Les codes de tri permettent de trier les comptes ou les valeurs, de trier un ét
 
 Dans l'exemple suivant, les valeurs de la colonne D de l'état seront triées dans l'ordre croissant pour les lignes 160 à 490. En outre, les valeurs absolues de la colonne G de l'état seront triées dans 'ordre décroissant pour les lignes 610 à 940.
 
-| Code de ligne | Description                                         | Code de format | Formules/lignes/unités associées | Solde normal | Restriction de colonne | Lier aux dimensions financières |
+| Code de ligne | Description                                         | Code de format | Formules/lignes/unités associées | Solde normal | Restriction de colonne | Lien vers les dimensions financières |
 |----------|-----------------------------------------------------|-------------|-----------------------------|----------------|--------------------|------------------------------|
 | 100      | Trié par écart mensuel dans l'ordre croissant       | DES         |                             |                |                    |                              |
-| 130      |                                                     | SORT        | 160:490                     |                | D                  |                              |
+| 130      |                                                     | TRI        | 160:490                     |                | D                  |                              |
 | 160      | Ventes                                               |             |                             | C              |                    | 4100                         |
-| 190      | Retours sur ventes                                       |             |                             |                |                    | 4110                         |
+| 190      | Retours sur vente                                       |             |                             |                |                    | 4110                         |
 |          | ...                                                 |             |                             |                |                    |                              |
-| 490      | Produits d'intérêts                                     |             |                             | C              |                    | 7000                         |
+| 490      | Revenu des intérêts                                     |             |                             | C              |                    | 7000                         |
 | 520      |                                                     | DES         |                             |                |                    |                              |
-| 550      | Trié par écart dans l'année en cours (en valeur absolue) dans l'ordre décroissant | DES         |                             |                |                    |                              |
-| 580      |                                                     | ASORTDESC   | 610:940                     |                | V                  |                              |
+| 550      | Tri, par ordre décroissant, selon l'écart absolu cumulé à ce jour | DES         |                             |                |                    |                              |
+| 580      |                                                     | TRIDECVA   | 610:940                     |                | G                  |                              |
 | 610      | Ventes                                               |             |                             | C              |                    | 4100                         |
 | 640      | Retours sur ventes                                       |             |                             |                |                    | 4110                         |
 |          | ...                                                 |             |                             |                |                    |                              |
@@ -270,9 +270,9 @@ La cellule **Remplacement de format** spécifie la mise en forme utilisée pour 
 
 ### <a name="currency-formatting"></a>Mise en forme de devise
 
-La mise en forme de devise s'applique au montant fiscal et inclut le symbole de devise. Les options suivantes sont disponibles :
+La mise en forme de devise s'applique au montant fiscal et inclut le symbole de devise. Les options disponibles sont les suivantes :
 
--   **Symbole de devise** – Le symbole de la devise pour l'état. Cette valeur remplace le paramètre des **Options régionales** pour les informations de l'entreprise.
+-   **Symbole monétaire** – Symbole monétaire du rapport. Cette valeur remplace le paramètre des **Options régionales** pour les informations de l'entreprise.
 -   **Nombres négatifs** – Les nombres négatifs peuvent avoir un signe moins (-), ils peuvent apparaître entre parenthèses, ou peuvent être munis d'un triangle (∆).
 -   **Décimales** – Le nombre de chiffres à afficher après le séparateur décimal.
 -   **Texte de remplacement de valeur nulle** – Le texte à inclure dans l'état si le montant est 0 (zéro). Ce texte s'affiche comme la dernière ligne dans la zone **Exemple**. 
@@ -303,7 +303,7 @@ La mise en forme de pourcentage inclut le signe de pourcentage (%). Les options 
 
 Utilisez la catégorie de mise en forme personnalisée pour créer un remplacement de format personnalisé. Les options suivantes sont disponibles :
 
--   **Type** – Le format personnalisé.
+-   **Type** – Format personnalisé.
 -   **Texte de remplacement de valeur nulle** – Le texte à inclure dans l'état si le montant est 0 (zéro). Ce texte s'affiche comme la dernière ligne dans la zone **Exemple**. 
     > [!NOTE]
     >  Si l'impression est supprimée pour les valeurs nulle ou une activité nulle sur la période, ce texte est supprimé.
@@ -384,8 +384,8 @@ La cellule **Lier aux dimensions financières** contient des liens vers des donn
 ### <a name="specify-a-dimension-or-range"></a>Spécifier une dimension ou une plage
 
 1.  Dans le Concepteur de rapports, ouvrez la définition de ligne à modifier.
-2.  Double-cliquez sur une cellule dans la colonne **Lier aux dimensions financières**.
-3.  Dans la boîte de dialogue **Dimensions**, double-cliquez sur une cellule sous le nom de la dimension.
+2.  Double-cliquez sur une cellule dans la colonne **Lien vers les dimensions financières**.
+3.  Dans la boîte de dialogue **Dimensions**, double-cliquez sur une cellule sous le nom de dimension.
 4.  Dans la boîte de dialogue pour la dimension, sélectionnez **Individuelle ou plage**.
 5.  Dans le champ **À partir de**, entrez la dimension de départ, ou cliquez sur ![Parcourir](https://i-technet.sec.s-msft.com/dynimg/IC679490.gif "Parcourir") pour rechercher des dimensions disponibles. Pour entrer une plage de dimensions, entrez la dimension de fin dans le champ **Jusqu'à**.
 6.  Cliquez sur **OK** pour fermer la boîte de dialogue pour la dimension. La boîte de dialogue **Dimensions** affiche la dimension ou la plage mise à jour.
@@ -464,7 +464,7 @@ Le tableau suivant décrit les champs de la boîte de dialogue **Dimensions**.
 | Compte de totalisation   | Dans le champ **Nom**, entrez ou recherchez une dimension des comptes de totalisation. Le champ **Formule** est rempli avec la formule issue de la cellule **Lier aux dimensions financières** pour ce compte de totalisation dans la définition d'état.                                                                       |
 
 ## <a name="add-dimension-value-sets-in-a-row-definition"></a>Ajouter des ensembles de valeurs de dimension dans une définition de ligne
-Un ensemble de valeurs de dimension est un groupe de valeurs de dimension auquel on a donné un nom. Un ensemble de valeurs de dimensions peut contenir des valeurs dans une seule dimension, mais vous pouvez utiliser un ensemble de valeurs de dimension dans plusieurs définitions de ligne, définitions de colonne, définitions d'arborescence de génération d'états et définitions d'état. Vous pouvez également combiner des ensembles de valeurs de dimension dans une définition d'état. Lorsqu'une modification de vos données financières requiert que vous modifiiez l'ensemble de valeurs de dimension, vous pouvez mettre à jour la définition de l'ensemble des valeurs de dimension, et cette mise à jour s'appliquera à toutes les zones utilisant l'ensemble de valeurs de dimension. Par exemple, si vous indiquez souvent une plage de valeurs pour lier vos données financières, comme les valeurs de 5100 à 5600, vous pouvez affecter cette plage à un ensemble de comptes nommé Ventes. Après avoir créé un ensemble de valeurs de dimension, vous pouvez sélectionner cet ensemble comme liaison aux données financière. Autre exemple, si la plage de valeur de 5100 à 5600 est affectée aux Ventes, et que 4175 est affectée aux Remises, vous pouvez déterminer le total des ventes en soustrayant les Remises des Ventes. Cette opération est indiquée comme **(5100:5600)-4175**.
+Un ensemble de valeurs de dimension est un groupe de valeurs de dimension auquel on a donné un nom. Un ensemble de valeurs de dimensions peut contenir des valeurs dans une seule dimension, mais vous pouvez utiliser un ensemble de valeurs de dimension dans plusieurs définitions de ligne, définitions de colonne, définitions d'arborescence de génération d'états et définitions d'état. Vous pouvez également combiner des ensembles de valeurs de dimension dans une définition d'état. Lorsqu'une modification de vos données financières requiert que vous modifiiez l'ensemble de valeurs de dimension, vous pouvez mettre à jour la définition de l'ensemble des valeurs de dimension, et cette mise à jour s'appliquera à toutes les zones utilisant l'ensemble de valeurs de dimension. Par exemple, si vous indiquez souvent une plage de valeurs pour lier vos données financières, comme les valeurs de 5100 à 5600, vous pouvez affecter cette plage à un ensemble de comptes nommé Ventes. Après avoir créé un ensemble de valeurs de dimension, vous pouvez le sélectionner comme lien vers vos données financières. Autre exemple, si la plage de valeurs de 5100 à 5600 est affectée aux Ventes, et que 4175 est affecté aux Remises, vous pouvez déterminer les ventes totales en soustrayant Remises de Ventes. Cette opération est indiquée comme **(5100:5600)-4175**.
 
 ### <a name="create-a-set-of-dimension-values"></a>Créer un ensemble de valeurs de dimension
 
@@ -478,9 +478,9 @@ Un ensemble de valeurs de dimension est un groupe de valeurs de dimension auquel
 8.  Lorsque la formule est terminée, cliquez sur **OK**.
 9.  Dans la boîte de dialogue **Gérer les ensembles de dimensions**, cliquez sur **Fermer**.
 
-### <a name="update-a-set-of-dimension-values"></a>Mettre à jour un ensemble de valeurs de dimension
+### <a name="update-a-set-of-dimension-values"></a>Mise à jour d'un ensemble de valeurs de dimension
 
-1.  Dans le générateur d'état, ouvrez la définition de ligne, de colonne ou d'arborescence à modifier.
+1.  Dans le Concepteur de rapports, ouvrez la définition de ligne, de colonne ou d'organigramme à modifier.
 2.  Dans le menu **Édition**, cliquez sur **Gérer les ensembles de valeurs de dimension**.
 3.  Dans la boîte de dialogue **Gérer les ensembles de valeurs de dimension**, dans le champ **Dimension**, sélectionnez le type de dimension.
 4.  Dans la liste, sélectionnez l'ensemble de valeurs de dimension à définir, puis cliquez sur **Modifier**.
@@ -498,9 +498,9 @@ Un ensemble de valeurs de dimension est un groupe de valeurs de dimension auquel
 4.  Dans la liste, sélectionnez l'ensemble à copier, puis cliquez sur **Enregistrer sous**.
 5.  Entrez un nouveau nom pour l'ensemble copié, puis cliquez sur **OK**.
 
-### <a name="delete-a-dimension-set"></a>Supprimer un ensemble de dimensions
+### <a name="delete-a-dimension-set"></a>Suppression d'un ensemble de dimensions
 
-1.  Dans le générateur d'état, ouvrez la définition de ligne, de colonne ou d'arborescence à modifier.
+1.  Dans le Concepteur de rapports, ouvrez la définition de ligne, de colonne ou d'organigramme à modifier.
 2.  Dans le menu **Édition**, cliquez sur **Gérer les ensembles de valeurs de dimension**.
 3.  Dans la boîte de dialogue **Gérer les ensembles de valeurs de dimension**, dans le champ **Dimension**, sélectionnez le type de dimension.
 4.  Sélectionnez l'ensemble à supprimer, puis cliquez sur **Supprimer**. Cliquez sur **Oui** pour supprimer définitivement cet ensemble de valeurs de dimensions.

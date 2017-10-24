@@ -16,13 +16,13 @@ ms.custom: 59071
 ms.assetid: a201cfcb-1672-45f6-897d-2db2dd181d9a
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-05-31T00:00:00.000Z
+ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 5c09b1fc061f95cd78e9f18c2bdf846fdbfc7cf1
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 074a2f377c16d47e95343dae3ebec6cbba4d5050
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -79,7 +79,7 @@ Les blocs élémentaires sont les définitions de ligne, de colonne, d'organigra
 
 Une fois un groupe de blocs créé, vous devez l’affecter à au moins une société. Vous pouvez ensuite créer des définitions de rapport, de ligne, de colonne et d'organigramme d'entreprise et les enregistrer dans le groupe de blocs élémentaires. Vous devez fermer tous les blocs élémentaires avant de commencer la procédure suivante.
 1.  Dans le générateur d'état, dans le menu **Société**, cliquez sur **Sociétés**.
-2.  Dans la boîte de dialogue **Sociétés**, sélectionnez la société à laquelle vous affectez un groupe de blocs élémentaires.
+2.  Dans la boîte de dialogue **Sociétés**, sélectionnez la société à laquelle affecter un groupe de blocs élémentaires.
 3.  Cliquez sur **Modifier**.
 4.  Dans la boîte de dialogue **Modifier la société**, dans le champ **Groupe de blocs élémentaires**, sélectionnez le groupe de blocs élémentaires à affecter à la société ou cliquez sur **Nouveau** pour créer un groupe de blocs élémentaires.
 5.  Cliquez sur **OK** pour affecter le groupe de blocs élémentaires.
@@ -96,7 +96,7 @@ Une fois un groupe de blocs élémentaires créé et utilisé, vous pouvez affic
 ### <a name="save-a-building-block-group-under-a-new-name"></a>Enregistrer un groupe de blocs élémentaires sous un nouveau nom
 
 Vous pouvez enregistrer un groupe de blocs élémentaires existant sous un nouveau nom. Vous pouvez ensuite modifier le nouveau groupe de blocs élémentaires sans modifier le groupe de blocs élémentaires d'origine.
-1.  Dans le Concepteur de rapports, sur le menu **Société**, cliquez sur **Groupes de blocs élémentaires**.
+1.  Dans le Concepteur de rapports, dans le menu **Société**, cliquez sur **Groupes de blocs élémentaires**.
 2.  Dans la boîte de dialogue **Groupes de blocs élémentaires**, sélectionnez le groupe de blocs élémentaires à enregistrer sous un nouveau nom.
 3.  Cliquez sur **Enregistrer sous**.
 4.  Entrez un nouveau nom et la description pour le groupe de blocs élémentaires.
@@ -104,12 +104,12 @@ Vous pouvez enregistrer un groupe de blocs élémentaires existant sous un nouve
 
 ### <a name="export-a-building-block-group"></a> Exportation d'un groupe de blocs élémentaires
 
-Vous pouvez exporter un groupe de blocs élémentaires ou des blocs élémentaires d'état spécifiques dans un groupe de blocs élémentaires. Vous pouvez utiliser le groupe de blocs élémentaires exporté en tant que sauvegarde. Vous pouvez également copier les données exportées entre des groupes de blocs élémentaires ou des installations Finance and Operations. Le concepteur d'états inclut les styles de police et ensembles de dimensions référencés avec le groupe de blocs élémentaires.
+Vous pouvez également exporter un groupe de blocs élémentaires ou des blocs élémentaires de génération d'états spécifiques dans un groupe de blocs élémentaires. Vous pouvez utiliser le groupe de blocs élémentaires exporté comme fichier de sauvegarde. Vous pouvez également copier les données exportées entre des groupes de blocs élémentaires ou des installations Finance and Operations. Le concepteur d'états inclut les styles de police et ensembles de dimensions référencés avec le groupe de blocs élémentaires.
 1.  Dans le Concepteur d'états, sur le menu **Société**, cliquez sur **Groupes de blocs élémentaires**.
-2.  Dans la boîte de dialogue **Groupes de blocs élémentaires**, sélectionnez le groupe de blocs élémentaires à exporter, puis cliquez sur **Exporter**.
+2.  Dans la boîte de dialogue **Groupes de blocs élémentaires**, sélectionnez le groupe à exporter, puis cliquez sur **Exporter**.
 3.  Dans la boîte de dialogue **Exporter**, sélectionnez les définitions de rapport à exporter :
     -   Pour exporter toutes vos définitions de rapport et les blocs élémentaires associés, cliquez sur **Sélectionner tout**.
-    -   Pour exporter des rapports, lignes, colonnes, organigrammes ou ensembles de dimensions spécifiques, cliquez sur l'onglet approprié et sélectionnez les éléments à exporter. Maintenez la touche CTRL enfoncée pour sélectionner plusieurs éléments dans un onglet. **Remarque :** Lorsque vous sélectionnez des rapports à exporter, les lignes, colonnes, organigrammes et ensembles de dimensions associés doivent être sélectionnés.
+    -   Pour exporter des rapports, lignes, colonnes, organigrammes ou ensembles de dimensions spécifiques, cliquez sur l'onglet approprié et sélectionnez les éléments à exporter. Maintenez la touche Ctrl enfoncée pour sélectionner plusieurs articles dans un onglet. **Remarque :** lorsque vous sélectionnez des rapports à exporter, les lignes, colonnes, arborescences et ensembles de dimensions associés sont sélectionnés.
 
 4.  Lorsque vous avez terminé de sélectionner les éléments à exporter, cliquez sur **Exporter**.
 5.  Dans la boîte de dialogue **Enregistrer sous**, sélectionnez un emplacement où exporter le groupe de blocs élémentaires.
@@ -120,7 +120,7 @@ Vous pouvez exporter un groupe de blocs élémentaires ou des blocs élémentair
 
 Vous pouvez importer un groupe de blocs élémentaires dans un groupe de blocs élémentaires existant, ou vous pouvez créer un nouveau groupe de blocs élémentaires pour les données. Tous les groupes de bloc élémentaires importés conservent leurs styles de police et les références de la société d’origine et incluent les ensembles de dimensions appropriés.
 1.  Dans le Concepteur de rapports, sur le menu **Société**, cliquez sur **Groupes de blocs élémentaires**.
-2.  Dans la boîte de dialogue **Groupes de blocs élémentaires**, sélectionnez le groupe de blocs élémentaires dans lequel importer un groupe de blocs élémentaires, puis cliquez sur **Importer**.
+2.  Dans la boîte de dialogue **Groupes de blocs élémentaires**, sélectionnez le bloc élémentaire dans lequel vous souhaitez importer un groupe de blocs élémentaires, puis cliquez sur **Importer**.
 3.  Dans la boîte de dialogue **Ouvrir**, sélectionnez le groupe de blocs élémentaires à importer, puis cliquez sur **Ouvrir**.
 4.  Dans la boîte de dialogue **Importer**, sélectionnez les définitions de rapport à importer :
     -   Pour importer toutes les définitions de rapport et les blocs élémentaires pris en charge, cliquez sur **Sélectionner tout**.
@@ -130,9 +130,9 @@ Vous pouvez importer un groupe de blocs élémentaires dans un groupe de blocs �
 
 ### <a name="undo-a-checkout-of-a-building-block"></a>Annulation de l'extraction d'un bloc élémentaire
 
-Lorsque vous ouvrez un bloc élémentaire, d'autres utilisateurs peuvent accéder uniquement à ce bloc élémentaire en mode lecture seule. Parfois les utilisateurs oublient de fermer un bloc élémentaire ou arrêtent son système sans fermer le bloc élémentaire. Par conséquent, le bloc élémentaire reste extrait et aucun autre utilisateur ne peut l'ouvrir. Dans ces situations, un administrateur de génération d'états financiers peut utiliser la boîte de dialogue **Éléments extraits** pour vérifier les blocs élémentaires que les utilisateurs l'ont laissé avec un statut extrait. **Remarque :** Vous devez avoir le rôle d'administrateur pour vérifier les blocs élémentaires depuis la boîte de dialogue **Éléments extraits**.
+Lorsque vous ouvrez un bloc élémentaire, d'autres utilisateurs peuvent accéder uniquement à ce bloc élémentaire en mode lecture seule. Parfois les utilisateurs oublient de fermer un bloc élémentaire ou arrêtent son système sans fermer le bloc élémentaire. Par conséquent, le bloc élémentaire reste extrait et aucun autre utilisateur ne peut l'ouvrir. Dans ces cas, un administrateur d'états financiers peut utiliser la boîte de dialogue **Éléments extraits** pour archiver les blocs élémentaires que les utilisateurs ont laissé extraire. **Remarque :** Vous devez avoir le rôle Administrateur pour archiver les blocs élémentaires à l'aide de la boîte de dialogue **Éléments extraits**.
 1.  Dans le Concepteur de rapports, sur le menu **Outils**, cliquez sur **Éléments extraits**.
-2.  Dans la boîte de dialogue **Éléments extraits**, sélectionnez **Afficher les éléments de tous les utilisateurs**. La liste est mise à jour pour afficher tous les blocs élémentaires qui sont extraits et les utilisateurs qui les ont extraits.
+2.  Dans la boîte de dialogue **Éléments extraits**, activez la case à cocher **Afficher les éléments de tous les utilisateurs**. La liste est mise à jour de manière à afficher tous les blocs élémentaires extraits et les utilisateurs qui ont effectué l'extraction.
 3.  Sélectionnez un bloc élémentaire, puis cliquez sur **Annuler l'extraction**.
 4.  Cliquez sur **Oui** pour vérifier le bloc élémentaire.
 

@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 624f38a7348ede3cc9e6fb7ce0b78a61b1452b61
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 6f665f34055e36775c8bb41be4aae9c4577639d7
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -59,7 +58,7 @@ Cet article décrit les types de journaux que vous pouvez paramétrer pour les j
 | Remises de billets à ordre            | Créer une remise de billet à ordre qui peut être envoyée à la banque de votre organisation.                                                                                                                                                                                                                                                                      | Journal des remises                                             |
 | Fournisseur - Paiements               | Créer des transactions de déboursement fournisseur.                                                                                                                                                                                                                                                                                                                    | Journal des paiements                                                |
 | Création des billets à ordre       | Créer des billets à ordre fournisseur comme mode de paiement. Pour utiliser ce type de journal, désactivez l'option **Créer et valider automatiquement le journal de création lors de la validation des factures** sur la page **Modes de paiement - fournisseurs**.                                                                                                                                          | Journal de création des billets à ordre                                   |
-| Registre de factures fournisseur hors comptabilité validation | Créer des transactions de facture fournisseur qui n'ont pas encore été validées dans un compte d'arrivée temporaire.                                                                                                                                                                                                                                                             | Registre de factures fournisseur excluant les détails de validation                  |
+| Registre de factures fournisseur hors comptabilité | Créer des transactions de facture fournisseur qui n'ont pas encore été validées dans un compte d'arrivée temporaire.                                                                                                                                                                                                                                                             | Registre de factures fournisseur excluant les détails de validation                  |
 | Registre de factures fournisseur               | Créer des transactions de registre de factures fournisseur.                                                                                                                                                                                                                                                                                                                    |                                                                |
 | Enregistrement de facture fournisseur          | Permet de valider les factures fournisseur qui figurent dans un journal.                                                                                                                                                                                                                                                                                                                 | Journal des factures                                                |
 | Renouvellement de billets à ordre     | Renouveler un billet à ordre préalablement réglé par la banque de votre organisation.                                                                                                                                                                                                                                                                      | Journal de renouvellement des billets à ordre                                 |

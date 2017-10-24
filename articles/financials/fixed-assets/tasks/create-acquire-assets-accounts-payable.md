@@ -16,17 +16,17 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: f814d20bc16bb3334ae4bc449cc0d45843487023
+ms.sourcegitcommit: 9149378047fc22efbd401b7af86df07c1403e4f5
+ms.openlocfilehash: cfe920b2ef493ab3ae36a9557001086ed99c3e4e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 10/05/2017
 
 ---
 # <a name="create-and-acquire-assets-from-accounts-payable"></a>Créer et acquérir des actifs à partir de la comptabilité fournisseur
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Ce guide de tâche décrit la création et l'acquisition d'une immobilisation avec le processus d'achat.  Il utilise les données de démonstration de la société fictive USMF et les fonctions de comptable et de commis à la comptabilité fournisseur.
+Ce guide de tâche décrit la création et l'acquisition d'une immobilisation avec le processus d'achat. Il utilise les données de démonstration de la société fictive USMF et les fonctions de comptable et de commis à la comptabilité fournisseur.
 
 
 ## <a name="set-fixed-assets-parameters"></a>Définir les paramètres des immobilisations

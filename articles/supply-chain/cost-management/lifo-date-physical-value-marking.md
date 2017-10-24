@@ -1,7 +1,7 @@
 ---
 title: Date LIFO avec valeur physique et marquage
 description: "Date LIFO (dernier entré, premier sorti) est un modèle de stock basé sur le principe LIFO. Les sorties de stock sont réglées avec les dernières réceptions, en fonction de la date du mouvement de stock. En utilisant Date LIFO, s'il n'y a aucune réception avant la sortie, la sortie est réglée avec les réceptions intervenant après la date de sortie. Plusieurs sorties intervenant à la même date peuvent être réglées dans l'ordre Dernière sortie, dernière réception."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,13 +17,13 @@ ms.assetid: d9f13274-3268-444f-85c8-b686fd39286d
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 96089fed3e8b522fb3a8646ffd87fadff8fe1f3e
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 116d2f34c0317f3246b8d9c6569430603e2cd2c6
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -137,7 +137,7 @@ La figure suivante illustre ces transactions :
 -   4a. Réception physique en stock pour une quantité de 1 à un coût de 30,00 EUR chacune.
 -   4b. Réception financière en stock pour une quantité de 1 à un coût de 30,00 EUR chacune.
 -   5a. Sortie physique de stock pour une quantité de 1 à un prix de revient de 21,25 EUR chacune (prix de revient moyen en vigueur des transactions mises à jour financièrement et physiquement).
--   5b. Sortie financière de stock pour une quantité 1 marquée par rapport à la réception en stock 2b avant la validation de la transaction. Cette transaction est validée avec un prix de revient de 20,00 EUR chacune.
+-   5a. Sortie financière de stock pour une quantité 1 marquée par rapport à la réception en stock 2b avant la validation de la transaction. Cette transaction est validée avec un prix de revient de 20,00 EUR chacune.
 -   6a. Sortie physique de stock pour une quantité 1 à un prix de revient unitaire de 21,25 EUR.
 -   7. La clôture du stock est effectuée. Étant donné que la transaction FIFO mise à jour financièrement est marquée par rapport à une réception existante, ces transactions sont réglées les unes avec les autres et aucun ajustement n'est effectué.
 

@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 2dffb2634701210852b4b146a762434cf6df07e3
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 9c0ae4ed27578301573bead17ff2175bb9042036
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -131,7 +130,7 @@ La fonction **Copier dans le scénario** fournit cette fonctionnalité. Notez qu
 
 ### <a name="modifying-forecast-positions"></a>Modification de postes de prévision
 
-Les modifications apportées aux postes de prévision sont limitées à ces postes de prévision. Les modifications n'affectent pas les enregistrements des postes de prévision dans les Ressources humaines. La plupart des modifications sont également limitées au poste de prévision qui est modifié. Autrement dit, les modifications sont spécifiques au processus de planification budgétaire et au scénario de plan budgétaire affectés. Les exceptions sont les modifications apportées aux champs qui sont partagés pour le poste entre plusieurs processus et scénarios. Ces champs sont notamment les champs sous l'onglet **Général** et l'onglet **Dimensions financières**. Lorsque ces champs sont modifiés, les nouvelles valeurs s'appliquent au poste dans tous les scénarios de planification budgétaire. C'est pourquoi, ces champs permettent de mettre rapidement toutes les versions à jour.
+Les modifications apportées aux postes de prévision sont limitées à ces postes de prévision. Les modifications n'affectent pas les enregistrements des postes de prévision dans les Ressources humaines. La plupart des modifications sont également limitées au poste de prévision qui est modifié. Autrement dit, les modifications sont spécifiques au processus de planification budgétaire et au scénario de plan budgétaire affectés. Les exceptions sont les modifications apportées aux champs qui sont partagés pour le poste entre plusieurs processus et scénarios. Ces champs comprennent les champs de l'onglet **Général** et l'onglet **Dimensions financières**. Lorsque ces champs sont modifiés, les nouvelles valeurs s'appliquent à la position dans tous les scénarios de planification budgétaire. C'est pourquoi, ces champs permettent de mettre rapidement toutes les versions à jour.
 
 #### <a name="budget-cost-elements"></a>Éléments de coût budgétaire
 

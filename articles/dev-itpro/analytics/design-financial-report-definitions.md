@@ -16,13 +16,13 @@ ms.custom: 59131
 ms.assetid: 966a3f1d-c59c-4a84-acd4-5bb7e65144c8
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 86b527b72ef0c9af71e70fe280bcdfe3992a36b1
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 96090a3ae15294d98d6207c8eb4a1e58429ca9eb
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 
 Cet article fournit des informations sur les définitions d'état. Une définition d'état est un composant d'état (ou bloc élémentaire) qui utilise une définition de ligne, de colonne et d'organigramme d'entreprise facultatif pour créer un état. Une définition d'état fournit également les paramètres et les options pour la personnalisation d’un état. 
 
-Une définition d'état est un composant d'état (ou bloc élémentaire) qui utilise une définition de ligne, de colonne et d'organigramme d'entreprise facultatif pour créer un état. Une définition d'état fournit également des options et des paramètres pour personnaliser un état. Après avoir défini des définitions de ligne et des définitions de colonne, vous devez les combiner dans une définition d'état. À ce stade, vous définissez également d'autres aspects des définitions, comme le niveau de détail et la date de l'état. Vous pouvez ensuite enregistrer et générer l'état. Les états financiers offrent les niveaux de détail suivants :
+Une définition d'état est un composant d'état (ou bloc élémentaire) qui utilise une définition de ligne, de colonne et d'organigramme d'entreprise facultatif pour créer un état. De plus, la définition de rapport comporte un grand nombre d'options et de paramètres pour personnaliser un rapport. Après avoir défini des définitions de ligne et des définitions de colonne, vous devez les combiner dans une définition d'état. À ce stade, vous définissez également d'autres aspects des définitions, comme le niveau de détail et la date de l'état. Vous pouvez ensuite enregistrer et générer l'état. Les états financiers offrent les niveaux de détail suivants :
 
 -   Financier
 -   Financier et Compte
@@ -55,7 +55,7 @@ Le tableau suivant décrit les onglets dans une définition d'état, ainsi que l
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tabulation</th>
+<th>Onglet</th>
 <th>Description</th>
 </tr>
 </thead>

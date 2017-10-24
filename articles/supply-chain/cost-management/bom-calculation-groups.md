@@ -1,7 +1,7 @@
 ---
 title: Groupes de calculs de nomenclature
 description: "Cet article fournit des informations sur les groupes de calcul des nomenclatures et leur configuration. Pour exécuter un calcul de nomenclature, vous devez soit définir les groupes de calcul et les affecter à des articles individuels ou définir un groupe de calcul par défaut. Les paramètres de calcul du groupe de calcul sont utilisés ensuite comme valeurs par défaut sur la page Calcul de coût nomenclature au moment du calcul du coût de nomenclature."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,13 +17,13 @@ ms.assetid: 63e1b7dc-c2c5-41b0-81ed-e3e02d1b39e0
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3372c22d6ed90e7669f1335fdd3366b8e167ad27
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: c91f7ac3ded942afd5e359b59cee2ff58256622f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -72,13 +72,21 @@ La case à cocher **Arrêter l’éclatement** est utilisée pour indiquer si un
 
 ### <a name="warnings"></a>Avertissements
 
-Sur l'organisateur **Avertissements**, vous sélectionnez les options pour les messages d’avertissement que les utilisateurs doivent recevoir lorsqu’ils font des calculs de coût de nomenclature. Par exemple, si vous activez la case à cocher **Aucune nomenclature**, l’utilisateur reçoit un avertissement si aucune version de nomenclature active n’est trouvée pour l’un des composants ou de l’article parent pour lequel le calcul de coût de nomenclature est exécuté. Si vous activez la case à cocher **Aucune gamme**, l'utilisateur reçoit un avertissement si aucune version de gamme active n'est détectée. Si vous utilisez des ressources sur les gammes et les opérations, vous pouvez demander au système de vérifier ces ressources. Ensuite, si aucune ressource n’est trouvée sur chaque ligne de la gamme active, l’utilisateur reçoit un avertissement. Vous pouvez également vérifier et contrôler la consommation. La consommation est la quantité d'une gamme particulière. En règle générale, elle représente la quantité de temps nécessaire pour effectuer une opération spécifique pour un processus de production. Vous pouvez vérifier si un article n’a aucun prix de revient. S’il n’existe aucun prix de revient actif pour un article, aucun coût supplémentaire n'est ajouté au calcul de coût de nomenclature. Vous pouvez également contrôler et vérifier l’âge du prix de revient. Par exemple, entrez **60** pour indiquer que le prix de revient unitaire doit être réévalué tous les 60 jours. Si cette limite est atteinte, le système génère un avertissement. Par exemple, un prix de revient a été saisi pour un article en janvier de cette année. Si nous sommes à présent en août, c'est-à-dire plus de 60 jours après l’entrée du prix de revient, l’utilisateur reçoit un avertissement lors de l’exécution du calcul de coût de nomenclature. Vous pouvez entrer un pourcentage dans la **marge contributive minimale**. Cette valeur indique le point à partir duquel la marge contributive minimale n’est pas respectée. Si la marge contributive d'un composant spécifique n’est pas respectée, l’utilisateur reçoit un avertissement. Par conséquent, ce champ permet de garantir que vous ne sous-cotiez pas les coûts et les coûts de stockage supplémentaires qui peuvent être requis pour vos articles.
-Paramétrage par défaut des paramètres de gestion des stocks et des entrepôts
---------------------------------------------------------------
+Sur l'organisateur **Avertissements**, vous sélectionnez les options pour les messages d’avertissement que les utilisateurs doivent recevoir lorsqu’ils font des calculs de coût de nomenclature. 
 
-Comme les groupes de calcul sont nécessaires pour exécuter des calculs, vous devez configurer un groupe de calcul par défaut dans les paramètres de gestion des stocks. Ce paramétrage permet aux entreprises d’avoir un groupe de coûts standard et un paramètre de profit pour tous les articles. Ensuite, si un article particulier a des exigences de calcul spécifiques, l’utilisateur peut affecter un autre groupe de calcul à cet article. En général, vous pouvez définir des groupes de calcul sur les articles de composant de nomenclature au lieu des articles de nomenclature. Toutefois, lorsque les messages d’avertissement sont affichés, les groupes de calcul peuvent être appliqués. Un groupe de calcul qui est affecté aux articles remplace la valeur par défaut définie dans les paramètres de gestion de stock. Vous pouvez définir le paramètre par défaut sur **Gestion des coûts** &gt; **Paramétrage des stratégies comptables de stock** &gt; **Paramètres** &gt; **Comptabilité de stock** &gt; **Groupe de calcul**. En définissant un groupe de configuration par défaut, vous pouvez également configurer les conditions d’avertissement qui invitent les utilisateurs pendant le processus de calcul de nomenclature, si les composants sélectionnés peuvent entraîner des erreurs de calcul.
-Afficher les messages d’avertissement sur la page Terminé
-------------------------------------------
+Par exemple, si vous activez la case à cocher **Aucune nomenclature**, l’utilisateur reçoit un avertissement si aucune version de nomenclature active n’est trouvée pour l’un des composants ou de l’article parent pour lequel le calcul de coût de nomenclature est exécuté. Si vous activez la case à cocher **Aucune gamme**, l'utilisateur reçoit un avertissement si aucune version de gamme active n'est détectée. Si vous utilisez des ressources sur les gammes et les opérations, vous pouvez demander au système de vérifier ces ressources. Ensuite, si aucune ressource n’est trouvée sur chaque ligne de la gamme active, l’utilisateur reçoit un avertissement. 
+
+Vous pouvez également vérifier et contrôler la consommation. La consommation est la quantité d'une gamme particulière. En règle générale, elle représente la quantité de temps nécessaire pour effectuer une opération spécifique pour un processus de production. Vous pouvez vérifier si un article n’a aucun prix de revient. S’il n’existe aucun prix de revient actif pour un article, aucun coût supplémentaire n'est ajouté au calcul de coût de nomenclature. 
+
+Vous pouvez également contrôler et vérifier l’âge du prix de revient. Par exemple, entrez **60** pour indiquer que le prix de revient unitaire doit être réévalué tous les 60 jours. Si cette limite est atteinte, le système génère un avertissement. Par exemple, un prix de revient a été saisi pour un article en janvier de cette année. Si nous sommes à présent en août, c'est-à-dire plus de 60 jours après l’entrée du prix de revient, l’utilisateur reçoit un avertissement lors de l’exécution du calcul de coût de nomenclature. Vous pouvez entrer un pourcentage dans la **marge contributive minimale**. Cette valeur indique le point à partir duquel la marge contributive minimale n’est pas respectée. Si la marge contributive d'un composant spécifique n’est pas respectée, l’utilisateur reçoit un avertissement. Par conséquent, ce champ permet de garantir que vous ne sous-cotiez pas les coûts et les coûts de stockage supplémentaires qui peuvent être requis pour vos articles.
+
+### <a name="default-setup-in-inventory-and-warehouse-management-parameters"></a>Paramétrage par défaut des paramètres de gestion des stocks et des entrepôts
+
+Comme les groupes de calcul sont nécessaires pour exécuter des calculs, vous devez configurer un groupe de calcul par défaut dans les paramètres de gestion des stocks. Ce paramétrage permet aux entreprises d’avoir un groupe de coûts standard et un paramètre de profit pour tous les articles. Ensuite, si un article particulier a des exigences de calcul spécifiques, l’utilisateur peut affecter un autre groupe de calcul à cet article. En général, vous pouvez définir des groupes de calcul sur les articles de composant de nomenclature au lieu des articles de nomenclature. Toutefois, lorsque les messages d’avertissement sont affichés, les groupes de calcul peuvent être appliqués. Un groupe de calcul qui est affecté aux articles remplace la valeur par défaut définie dans les paramètres de gestion de stock. 
+
+Vous pouvez définir le paramètre par défaut sur **Gestion des coûts** &gt; **Paramétrage des stratégies comptables de stock** &gt; **Paramètres** &gt; **Comptabilité de stock** &gt; **Groupe de calcul**. En définissant un groupe de configuration par défaut, vous pouvez également configurer les conditions d’avertissement qui invitent les utilisateurs pendant le processus de calcul de nomenclature, si les composants sélectionnés peuvent entraîner des erreurs de calcul.
+
+### <a name="view-warning-messages-on-the-complete-page"></a>Afficher les messages d’avertissement sur la page Terminé
 
 Un calcul de nomenclature génère des messages d’avertissement. Vous pouvez afficher les avertissements sur un article sélectionné. Par exemple, dans Ventes et marketing, créez une commande client pour l’article D0001. Puis, sur la ligne de commande client, sur le menu **Mettre à jour la ligne**, cliquez sur **Calculer sur la base de la nomenclature/formule** pour afficher les détails du calcul et les avertissements. Vous pouvez également afficher les résultats du calcul de nomenclature sur la page **Terminé**. Pour les messages d'avertissement, deux conditions d'avertissement s'appliquent uniquement aux articles fabriqués alors que quatre conditions d'avertissement s'appliquent à n'importe quel article :
 -   Identifier lorsqu'un article fabriqué ne possède pas de nomenclature active.

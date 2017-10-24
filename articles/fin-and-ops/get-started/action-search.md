@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: cd024f2bc06fca9c21ea41fbed44efbc519cee94
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 9b9bb0acc6f0dc1722c916f133eed766ffdd4cc8
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -62,7 +61,7 @@ Souvent, dans Finance and Operations, vous devez connaître l'emplacement et le 
 -   Séparateur de menu (si le bouton est à l'intérieur d'un groupe nommé à l'intérieur d'un bouton de menu)
 -   Groupe ou onglet dans la page (par exemple, le nom d'un organisateur)
 
-Par exemple, vous avez tapé **tot** dans le champ **recherche d'actions** et vous passez maintenant en revue la liste des résultats. La première entrée, pour un bouton nommé **Totaux**, est mise en surbrillance. Un chemin d'accès du bouton **Commande client** &gt; **Afficher** est également affiché. La partie **Commande client** du chemin d'accès correspond à l'onglet **Commande client** dans le volet Actions, et la partie **Afficher** du chemin d'accès correspond au groupe **Afficher** sous cet onglet. De même, le chemin d'accès du bouton **Remise totale** (**Vendre** &gt; **Calculer**) vous informe que ce bouton est situé dans le groupe **Calculer** sous l'onglet **Vendre** du volet Actions. C'est pourquoi, ces informations vous permettent de comprendre précisément quel bouton sera déclenché par la recherche d'actions (si vous sélectionnez ce bouton dans la liste des résultats). 
+Par exemple, vous avez tapé **tot** dans le champ **recherche d'actions** et vous passez maintenant en revue la liste des résultats. La première entrée, pour un bouton nommé **Totaux**, est mise en surbrillance. Un chemin d'accès du bouton **Commande client** &gt; **Afficher** est également affiché. La partie **Commande client** du chemin correspondant à l'onglet **Commande client** dans le volet Actions, et la partie **Affichage** du chemin correspond au groupe **Affichage** sous cet onglet. De même, le chemin du bouton **Remise totale** (**Vendre** &gt; **Calculer**) vous indique que ce bouton se trouve dans le groupe **Calculer** dans l'onglet **Vendre** du volet Actions. C'est pourquoi, ces informations vous permettent de comprendre précisément quel bouton sera déclenché par la recherche d'actions (si vous sélectionnez ce bouton dans la liste des résultats). 
 
 [![action-search-field-with-data](./media/action-search-field-with-data.png)](./media/action-search-field-with-data.png) 
 

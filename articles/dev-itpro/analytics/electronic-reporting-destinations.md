@@ -16,13 +16,13 @@ ms.custom: 97423
 ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.region: Global
 ms.author: mrolecki
-ms.search.validFrom: 2016-05-31T00:00:00.000Z
+ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: fb2aeee1f38823e7ea96071f773e8448d65ba8ff
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: dedabf13044be30a67a945ff4ca2ecfb1eea8150
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -101,7 +101,7 @@ L’emplacement détermine où le fichier est enregistré. Une fois la destinati
 
 #### <a name="sharepoint"></a>SharePoint
 
-Vous pouvez enregistrer un fichier dans un dossier SharePoint désigné. Vous définissez le serveur SharePoint par défaut dans **Administration d'organisation** &gt; **Gestion des documents** &gt; **Paramètres de gestion des documents** de l'onglet **SharePoint**. Après avoir configuré le dossier SharePoint, vous pouvez le sélectionner comme dossier dans lequel la sortie d'état électronique est enregistrée pour le type de document. 
+Vous pouvez enregistrer un fichier dans un dossier SharePoint désigné. Définissez le serveur SharePoint par défaut dans **Administration d'organisation** &gt; **Gestion des documents** &gt; **Paramètres de gestion des documents** dans l'onglet **SharePoint**. Une fois le dossier SharePoint configuré, vous pouvez le sélectionner comme dossier où la sortie d'état électronique sera enregistrée pour le type de document. 
 
 [![Sélection d'un dossier SharePoint](./media/ger_sharepointfolderselection-1024x543.jpg)](./media/ger_sharepointfolderselection.jpg) 
 

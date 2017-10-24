@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 5de5e3aad0b7a5853653ae53326dac078ec94fea
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 0bbf8f979aeb8b861164e345f9e46bb396f370ce
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -42,7 +41,7 @@ Vous devez commencer par sélectionner un programme de clôture en haut de l'esp
 
 ### <a name="summary-tiles"></a>Vignettes récapitulatives
 
-Les vignettes **récapitulatives** donnent une vue d'ensemble du processus et les indicateurs permettent de s'assurer que le processus de clôture se déroule comme prévu. Vous pouvez consulter les tâches en retard, les tâches restantes du jour, les tâches dues aujourd'hui mais bloquées en raison de dépendances, ainsi que les tâches restantes pour le processus. Ces informations sont destinées à toutes les sociétés incluses dans le programme de clôture sélectionné.
+Les vignettes **Synthèse** fournissent une vue d'ensemble du processus, et les indicateurs vous aident à maintenir le processus de clôture sur la bonne voie. Vous pouvez voir les tâches en retard, les tâches restantes pour aujourd'hui, les tâches qui sont dues aujourd'hui mais qui sont bloquées en raison des dépendances et toutes les tâches restantes pour le processus. Ces informations sont destinées à toutes les sociétés incluses dans le programme de clôture sélectionné.
 
 ### <a name="tasks-and-status-section"></a>Section Tâches et statuts
 
@@ -82,7 +81,7 @@ Les zones de tâches permettent de regrouper les tâches de clôture en zones lo
 
 ### <a name="calendars"></a>Calendriers
 
-Créez et modifiez des calendriers de clôture financière à l'aide de l'onglet Calendriers.  Vous y définirez les jours ouvrables pour les processus de clôture et vous y planifierez les tâches de clôture.  Créez un calendrier et indiquez les jours ouvrables à utiliser pour la planification des tâches.  Il est recommandé de créer un calendrier pour une longue période, par exemple une ou plusieurs années, car il peut être modifié après sa création.  Après la création du calendrier, cliquez sur le bouton Modifier pour mettre à jour le calendrier pour des jours spécifiques, tels que les congés.  Les tâches de clôture sont planifiées pour les jours où la valeur de contrôle est définie sur Ouvert.  Si les tâches de clôture ne doivent pas être programmées un jour spécifique, la valeur de contrôle de ce jour doit être définie sur Fermé.
+Créez et modifiez les calendriers de clôture financière à l'aide de l'onglet Calendriers.  Sous cet onglet, vous définirez les jours de travail pour les processus de clôture et vous les utiliserez pour planifier les tâches de clôture.  Créez un calendrier et indiquez les jours ouvrables à utiliser pour la planification des tâches.  Il est recommandé de créer un calendrier pour une longue période, par exemple une ou plusieurs années, car il peut être modifié après sa création.  Après la création du calendrier, cliquez sur le bouton Modifier pour mettre à jour le calendrier pour des jours spécifiques, tels que les congés.  Les tâches de clôture sont planifiées pour les jours où la valeur de contrôle est définie sur Ouvert.  Si les tâches de clôture ne doivent pas être programmées un jour spécifique, la valeur de contrôle de ce jour doit être définie sur Fermé.
 
 ### <a name="templates"></a>Modèles
 

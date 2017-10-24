@@ -18,10 +18,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
-ms.openlocfilehash: 721c5851cd399398a8dcec5ae110b97a4f17ae0a
+ms.sourcegitcommit: 25a6f326c57e84d6a7c356ac5407be7ed3095f83
+ms.openlocfilehash: 5edc6f0b2240e9dd2d3b72a13f35e96f016aa013
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/04/2017
+ms.lasthandoff: 10/04/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 08/04/2017
 Cette rubrique indique la configuration requise pour la version actuelle de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition pour des déploiements sur site. Avant d'installer Finance and Operations, si nécessaire, vérifiez que le système que vous utilisez répond ou excède la configuration minimale requise pour le réseau, le matériel et les logiciels.
 
 ## <a name="network-requirements"></a>Exigences réseau
-Microsoft Dynamics 365 for Finance and Operations, Édition Enterprise (local) peut fonctionner sur les réseaux qui utilisent les protocoles Internet IPv4 ou IPv6. Tenez compte de l'environnement réseau lorsque vous planifiez votre système et utilisez des recommandations suivantes.
+Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (local) peut fonctionner sur les réseaux qui utilisent les protocoles Internet IPv4 ou IPv6. Tenez compte de l'environnement réseau lorsque vous planifiez votre système et utilisez des recommandations suivantes.
 
 ### <a name="network-response-time"></a>Temps de réponse réseau
 Le tableau suivant répertorie la configuration réseau requise minimale pour la connexion entre le navigateur Web et le serveur d'objets d'application, ainsi que pour la connexion entre AOS et la base de données dans un système sur site.
@@ -87,7 +87,7 @@ La configuration matérielle requise réelle varie, selon la configuration syst�
 - Le nombre d'utilisateurs simultanés
 
 ## <a name="minimum-infrastructure-requirements"></a>Configuration minimale de l'infrastructure requise
-Finance and Operations (sur site) utilise Service Fabric pour héberger les services AOS, de traitement par lots, de gestion des données, Management reporter et d'orchestrateur d'environnement. Microsoft SQL Server Reporting Services (SSRS) n'est pas hébergé dans le cluster Service Fabric.
+Finance and Operations (sur site) utilise Service Fabric pour héberger les services AOS, de traitement par lots, de gestion des données, Management reporter et d'orchestrateur d'environnement. 
 
 SQL Server doit avoir une configuration HADRON à haute disponibilité avec au moins deux nœuds pour l'utilisation de production.
 
@@ -225,6 +225,12 @@ Le tableau suivant répertorie les versions de SQL Server pris en charge pour le
 |------------------------------------------------------------------|-------|
 | Microsoft SQL Server 2016 Standard Edition ou Enterprise Edition | Pour la configuration matérielle minimale de SQL Server 2016, voir [Configuration matérielle et logicielle pour l'installation de SQL Server 2016](/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server). |
 
+## <a name="software-requirements-for-application-object-server-aos"></a>Configuration logicielle du Serveur d'objets d'application 
+- SQL Server Integration Services (SSIS)
+
+## <a name="software-requirements-for-reporting-server-bi"></a>Configuration logicielle pour le Serveur de génération d'états (BI)
+- SQL Server Reporting Services (SSRS)
+
 ## <a name="software-requirements-for-client-computers"></a>La configuration logicielle requise pour tous les ordinateurs client
 L'application web Finance and Operations peut être exécutée sur n'importe quel périphérique avec un navigateur web compatible HTML 5.0. Voici certaines combinaisons de périphérique/navigateur spécifiques confirmées par Microsoft :
 
@@ -244,7 +250,7 @@ Le contrôleur de domaine doit être Windows Server 2012 R2 ou version ultérie
 ## <a name="supported-microsoft-office-applications"></a>Applications Microsoft Office prises en charge
 Les applications suivantes Microsoft Office sont prises en charge dans les déploiements dans le cloud et sur site de Finance and Operations :
 
--   Pour exécuter les compléments Microsoft Excel et Microsoft Word, vous devez disposer de Microsoft Office 2016 pour Windows ou Mac. Pour plus d'informations sur les exigences en matière de versions, voir [Dépannage de l'intégration d'Office](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-troubleshooting).
+-   Pour exécuter les compléments Microsoft Excel et Microsoft Word, vous devez disposer de Microsoft Office 2016 pour Windows ou Mac. Pour plus d'informations sur les exigences en matière de versions, voir [Dépannage de l'intégration d'Office](../../dev-itpro/office-integration/office-integration-troubleshooting.md).
 -   Pour afficher les documents qui sont générés par la fonctionnalité Exporter vers Excel ou Exporter vers Word, vous devez disposer de Microsoft Office 2007 ou version ultérieure.
  
 ## <a name="hardware-and-software-requirements-for-retail-components"></a>Configuration matérielle et logicielle requise pour les composants Retail
