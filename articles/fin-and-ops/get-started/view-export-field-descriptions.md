@@ -16,13 +16,13 @@ ms.custom: 11534
 ms.assetid: e2795f51-a8a7-4c74-bdb9-b1be93bdd358
 ms.search.region: Global
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 7898ff427ede4447a5798d4989ffd3088a776d9c
+ms.translationtype: HT
+ms.sourcegitcommit: 908f854e5ca50f4298110c08c87fefd9427b5cc9
+ms.openlocfilehash: 841c18630a59c3f5a7b51cd005962fa8a7f7163f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -37,7 +37,7 @@ Microsoft Dynamics 365 for Finance and Operations offre des descriptions pour l
 
 Toutes les pages n'ont pas des descriptions de champ. Nous souhaitons uniquement fournir des descriptions pour les champs plus complexes, et non ceux dont l'utilisation du champ est évidente. Par conséquent, certaines pages n’ont pas de descriptions de champ, certaines pages comportent quelques descriptions et certaines des pages plus complexes, comme la plupart des pages de paramètres, comportent de nombreuses descriptions. 
 
-Si vous avez accès à l'environnement de développement Finance and Operations, vous pouvez ajouter de nouvelles descriptions de champ et personnaliser les descriptions existantes. Par exemple, vous pouvez ajouter des informations spécifiques à la société dans une description de champ. Pour plus d'informations, voir [Personnaliser le champ d'aide](/dynamics365/unified-operations/dev-itpro/user-interface/customize-field-help).
+Si vous avez accès à l'environnement de développement Finance and Operations, vous pouvez ajouter de nouvelles descriptions de champ et personnaliser les descriptions existantes. Par exemple, vous pouvez ajouter des informations spécifiques à la société dans une description de champ. Pour plus d'informations, voir [Personnaliser le champ d'aide](../../dev-itpro/user-interface/customize-field-help.md).
 
 ## <a name="see-field-descriptions-in-the-user-interface"></a>Voir les descriptions des champs dans l'interface utilisateur
 Vous pouvez afficher les descriptions de champ en plaçant le curseur sur un champ. Si aucune description n’est disponible, vous voyez le nom du champ lorsque vous placez le pointeur sur le champ. (Remarque : dans Dynamics AX 7.0 (février 2016), les descriptions des champs ne s'affichent que dans la page **Descriptions des champs**.) L'illustration suivante présente la description du champ qui s'affiche lorsque vous survolez le champ **Verrouiller les articles lors du comptage**. 
@@ -101,7 +101,7 @@ Pour plus d’informations sur les différentes façons de trouver une page, con
 <a name="see-also"></a>Voir également :
 --------
 
-[Personnaliser l'aide du champ](/dynamics365/unified-operations/dev-itpro/user-interface/customize-field-help)
+[Personnaliser l'aide du champ](../../dev-itpro/user-interface/customize-field-help.md)
 
 
 

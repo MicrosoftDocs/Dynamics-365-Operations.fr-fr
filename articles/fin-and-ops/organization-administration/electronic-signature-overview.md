@@ -19,10 +19,10 @@ ms.author: maertenm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 9bc4dba3c31e82da2285ef5e339ace634fbd6fde
+ms.sourcegitcommit: d67ad79c068651f32ce7dc776bc460698557bc29
+ms.openlocfilehash: 069af29012f75aa1a15ba9df86fe1fc9e04eaf41
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -45,7 +45,7 @@ La signature électronique est un impératif de conformité aux réglementations
 ## <a name="electronic-signatures-in-dynamics-365-for-finance-and-operations"></a>Signatures électroniques dans Dynamics 365 for Finance and Operations
 Dans Finance and Operations, vous pouvez utiliser des signatures électroniques pour des processus d'entreprise importants. Certains processus disposent d'une fonction de signature électronique intégrée. Vous pouvez également créer des demandes de signature personnalisées pour les tables et les champs de base de données. 
 
-Les signatures électroniques disposent d'une fonction de signature numérique intégrée. Chaque utilisateur qui signe des documents doit obtenir un certificat cryptographique valide. Lorsqu'un document est signé, la clé privée associée à ce certificat est contrôlée. Finance and Operations enregistre des informations de signature électronique dans un journal pour fournir une piste d'audit. Pour configurer les signatures électroniques, consultez [Paramétrage de signatures électroniques (guide de tâche)](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-electronic-signatures).
+Les signatures électroniques disposent d'une fonction de signature numérique intégrée. Chaque utilisateur qui signe des documents doit obtenir un certificat cryptographique valide. Lorsqu'un document est signé, la clé privée associée à ce certificat est contrôlée. Finance and Operations enregistre des informations de signature électronique dans un journal pour fournir une piste d'audit. Pour configurer les signatures électroniques, consultez [Paramétrage de signatures électroniques (guide de tâche)](tasks/set-up-electronic-signatures.md).
 
 ## <a name="users-who-require-access-to-electronic-signatures"></a>Utilisateurs ayant besoin d'un accès aux signatures électroniques
 Trois types d'utilisateurs différents ont généralement besoin d'un accès de sécurité aux signatures électroniques : les administrateurs de signature électronique, les signataires et les auditeurs.

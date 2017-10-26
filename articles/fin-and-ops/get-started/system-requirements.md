@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
-ms.openlocfilehash: 46eacb2a01c3bfcc7144c7d8c39ee0189fd72e16
+ms.sourcegitcommit: d67ad79c068651f32ce7dc776bc460698557bc29
+ms.openlocfilehash: 7fe11966b27eb0793a47835e05e465d809bf3407
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/04/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -42,7 +42,7 @@ L'application Web peut s'exécuter dans n'importe lequel des navigateurs Web sui
 Pour trouver la dernière version pour chaque navigateur Web, accédez au site Internet du fournisseur logiciel. 
 
 > [!NOTE]
-> -   Vous devez installer une extension Chrome préliminaire pour permettre à l'enregistreur de tâches d'effectuer des captures d'écran et de les inclure dans les documents Microsoft Word générés. <!---For instructions about how to install the extension, see [Screenshot Extension setup](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder).-->
+> -   Vous devez installer une extension Chrome préliminaire pour permettre à l'enregistreur de tâches d'effectuer des captures d'écran et de les inclure dans les documents Microsoft Word générés. <!---For instructions about how to install the extension, see [Screenshot Extension setup](../../dev-itpro/user-interface/task-recorder).-->
 > -   L'éditeur de workflow démarre en tant qu'application ClickOnce. Seuls Microsoft Edge et Internet Explorer (dans une version prise en charge de Microsoft Windows) prennent en charge les applications ClickOnce. L'application ClickOnce d'éditeur de workflow nécessite un système d'exploitation compatible 64 bits.
 > -   Le Concepteur de rapports pour les États financiers démarre en tant qu'application ClickOnce. Il nécessite un système d'exploitation compatible 64 bits. Si vous utilisez Chrome, vous devez installer une extension ClickOnce pour télécharger le client Concepteur de rapports. Si vous utilisez Chrome en mode incognito, vérifiez que l'extension ClickOnce est également activée pour le mode incognito.
 > -   Pour afficher un aperçu des fichiers PDF, nous vous recommandons d'utiliser des navigateurs tels que Microsoft Edge (dernière version disponible) sous Windows 10, ou Google Chrome (dernière version disponible) sous Windows 10, Windows 8,1, Windows 8, Windows 7, ou sur la tablette Google Nexus 10.
@@ -70,7 +70,7 @@ Finance and Operations requiert la version Microsoft .NET Framework 4.6.2 pour 
 ## <a name="supported-microsoft-office-applications"></a>Applications Microsoft Office prises en charge
 Les applications suivantes Microsoft Office sont prises en charge dans les déploiements dans le cloud et sur site de Finance and Operations :
 
--   Pour exécuter les compléments Microsoft Excel et Word, vous devez disposer de Microsoft Office 2016 pour Windows ou Mac. Pour plus d'informations sur les exigences en matière de versions, voir [Dépannage de l'intégration d'Office](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-troubleshooting).
+-   Pour exécuter les compléments Microsoft Excel et Word, vous devez disposer de Microsoft Office 2016 pour Windows ou Mac. Pour plus d'informations sur les exigences en matière de versions, voir [Dépannage de l'intégration d'Office](../../dev-itpro/office-integration/office-integration-troubleshooting.md).
 -   Pour afficher les documents qui sont générés par la fonctionnalité Exporter vers Excel ou Exporter vers Word, vous devez disposer de Microsoft Office 2007 ou version ultérieure.
 
 ## <a name="retail-modern-pos-requirements"></a>Exigences de Retail Modern POS
@@ -153,10 +153,10 @@ L'ordinateur doit répondre à tous exigences système pour installer et utilise
 -   Au moins 10 Go d'espace libre (la base de données des canaux peut nécessiter un espace volumineux.)
 
 ## <a name="requirements-for-development-on-local-vms"></a>Exigences pour le développement sur les ordinateurs virtuels locaux
-Pour plus d'informations sur les exigences associées au développement sur les ordinateurs virtuels locaux, voir [Ordinateurs virtuels sur site](../dev-tools/access-instances.md).
+Pour plus d'informations sur les exigences associées au développement sur les ordinateurs virtuels locaux, voir [Ordinateurs virtuels sur site](../../dev-itpro/dev-tools/access-instances.md).
 
 
 ## <a name="see-also"></a>Voir également :
 
-[Obtenir une copie d'évaluation de Dynamics 365 for Finance and Operations, Enterprise Edition](/dynamics365/unified-operations/dev-itpro/dev-tools/get-evaluation-copy)
+[Obtenir une copie d'évaluation de Dynamics 365 for Finance and Operations, Enterprise Edition](../../dev-itpro/dev-tools/get-evaluation-copy.md)
 

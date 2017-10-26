@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 529751c09b8f99f986cad23a633bea661929d558
-ms.openlocfilehash: d5e4857081134808b194d3248dd8739f83b57d6e
+ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
+ms.openlocfilehash: 297fe730a432e05e1ab490be4802c37f9402b0a7
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/09/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -116,14 +116,14 @@ Vous pouvez télécharger et modifier les enregistrements de tâche de Microsoft
 11. Choisissez la manière dont vous souhaitez enregistrer l'enregistrement de tâche.
 
 ## <a name="include-your-task-recordings-in-the-help-pane"></a>Intégrer vos enregistrements de tâche dans le volet Aide
-Pour afficher vos propres enregistrements personnalisés de tâche dans le volet Aide afin qu'ils puissent être lus comme guides de tâche ou affichés comme texte, vous devez enregistrer vos enregistrements de tâches dans votre propre bibliothèque BPM, puis mettre à jour vos paramètres du système d'aide pour pointer vers votre bibliothèque BPM. Pour plus d'informations, voir [Connexion au système d'aide.](../get-started/help-connect.md)
+Pour afficher vos propres enregistrements personnalisés de tâche dans le volet Aide afin qu'ils puissent être lus comme guides de tâche ou affichés comme texte, vous devez enregistrer vos enregistrements de tâches dans votre propre bibliothèque BPM, puis mettre à jour vos paramètres du système d'aide pour pointer vers votre bibliothèque BPM. Pour plus d'informations, voir [Connexion au système d'aide.](../../fin-and-ops/get-started/help-connect.md)
 
 <a name="see-also"></a>Voir également :
 --------
 
-[Aperçu de l'aide](..\get-started\help-overview.md)
+[Aperçu de l'aide](../../fin-and-ops/get-started/help-overview.md)
 
-[Se connecter à l'aide](..\get-started\help-connect.md)
+[Se connecter à l'aide](../../fin-and-ops/get-started/help-connect.md)
 
 [Enregistreur de tâches](task-recorder.md)
 

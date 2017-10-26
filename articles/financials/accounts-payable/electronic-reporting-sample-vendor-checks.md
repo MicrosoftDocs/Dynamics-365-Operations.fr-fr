@@ -17,10 +17,10 @@ ms.author: twheeloc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: a8ba439ff643fce4811be9224a3edf96b2b9025c
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: c27960254a8e5f748935dfb51ada88af24f098a4
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -38,11 +38,11 @@ Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, comprend 
 
 ## <a name="what-do-i-have-to-set-up"></a>Que dois-je paramétrer ?
 
-- Avant d'imprimer des chèques en utilisant un état électronique, au moins une configuration de chèque active doit être importée dans vos configurations ER. Pour plus d'instructions, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
+- Avant d'imprimer des chèques en utilisant un état électronique, au moins une configuration de chèque active doit être importée dans vos configurations ER. Pour plus d'instructions, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
 - Lorsque vous configurez les chèques de trésorerie et de gestion bancaire pour le compte bancaire, sélectionnez la case à cocher **Format d'exportation électronique générique**, puis sélectionnez le format de chèque approprié comme configuration de format d'exportation.
 - Vous devez également spécifier le nombre de lignes de bordereau à imprimer sur la remise. Veillez à inclure les lignes d'en-tête lorsque vous calculez ce nombre. Pour les deux exemples de formats de chèque, le nombre de lignes recommandées est 17. Toutefois, ce nombre varie, selon votre stock de chèques et les pilotes d'imprimante.
 - Il est recommandé d'imprimer un chèque de test pour valider la mise en page des chèques. Pour imprimer un chèque de test, sélectionnez l'option **Test d'impression**. Les exemples de formats de chèque fonctionnent mieux lorsque **Marges** est défini sur **Aucun** dans les propriétés avancées de l'imprimante pour Microsoft Excel. Une fois que le chèque de test est généré, activez la modification de la sortie d'Excel, puis configurez la mise en page des pages afin que toutes les marges soient définies sur **0** (zéro). Comparez la copie de test des chèques avec votre stock de chèques, et ajustez les paramètres jusqu'à ce que vous soyez satisfait de l'alignement.
 - Lorsque vous générez des paiements pour le compte bancaire paramétré dans le journal des paiements, les chèques sont imprimés à l'aide du format spécifié.
 
-Pour plus d'informations, voir [Modifier un format de gestion d'états électroniques](/dynamics365/unified-operations/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template).
+Pour plus d'informations, voir [Modifier un format de gestion d'états électroniques](../../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md).
 

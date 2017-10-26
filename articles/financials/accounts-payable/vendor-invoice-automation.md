@@ -15,10 +15,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 172d952c79347e7dd563cfda70729750fa0ddde9
-ms.openlocfilehash: c47ca406e2c8be98f26f1c78d6f5e0a3f66690a5
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 75865ece49837e2a8758c4d739d3e29ce9128945
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="vendor-invoice-automation"></a>Automatisation des factures fournisseur
@@ -57,7 +57,7 @@ Un package de données est l'unité de travail qui doit être envoyée dans Fina
 
 Les pièces jointes des documents de facture fournisseur sont une nouvelle entité de données introduite dans le cadre de cette fonctionnalité. L'entité En-tête de facture fournisseur a été modifiée pour prendre en charge les pièces jointes. L'entité Ligne de facture fournisseur n'a pas été modifiée pour cette fonctionnalité.
 
-Cette rubrique ne donne pas de définition détaillée d'un package de données, ni ne décrit comment créer des packages de données. Pour obtenir ces informations, voir [Infrastructure d'entités de données et packages](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages).
+Cette rubrique ne donne pas de définition détaillée d'un package de données, ni ne décrit comment créer des packages de données. Pour obtenir ces informations, voir [Infrastructure d'entités de données et packages](../../dev-itpro/data-entities/data-entities-data-packages.md).
 
 Pour générer rapidement des données de test incluant des factures et des pièces jointes, procédez comme suit :
 

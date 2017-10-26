@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: e2c956969626836fadb0a6cac6dbb1d57f169f28
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 64d915a5e039ba242f6d5ae5f43c8e09d6ca282e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -78,7 +77,7 @@ Dans l'exemple suivant, le siège de l'entreprise établit une estimation des mo
 
 Dans la page **Hiérarchie d'organisation**, vous pouvez désigner une hiérarchie d'organisation comme étant la hiérarchie de planification budgétaire pour chaque processus de planification budgétaire. La hiérarchie de planification budgétaire peut être différente de la hiérarchie d'organisation standard utilisée à d'autres fins. Étant donné que cette hiérarchie permet de regrouper et répartir des données, vous pouvez modifier sa structure. Dans l'exemple de schéma, les départements des ventes sont subordonnés au siège, qui comprend les départements Budget et Finances. Cette structure diffère probablement de la structure mise en place pour gérer les opérations pour les départements des ventes. Une seule hiérarchie d'organisation peut être affectée à chaque processus de planification budgétaire. 
 
-Pour plus d'informations sur les hiérarchies d'organisation, voir [Organisations et hiérarchies d'organisation](/dynamics365/unified-operations/fin-and-ops/organization-administration/organizations-organizational-hierarchies).
+Pour plus d'informations sur les hiérarchies d'organisation, voir [Organisations et hiérarchies d'organisation](../../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md).
 
 ### <a name="user-security"></a>Sécurité utilisateur
 

@@ -15,18 +15,18 @@ ms.custom: 55651
 ms.assetid: 
 ms.search.region: Global
 ms.author: chwolf
-ms.search.validFrom: 2016-08-30T00:00:00.000Z
+ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: 4a1cab8c126ad063a52827421d2ea1104d0c7287
+ms.sourcegitcommit: c73eeaaf28df8db720431d4bcd317c9721baa99d
+ms.openlocfilehash: 5be9b195754d6c8315342c83451128092f64a241
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
 # <a name="hardware-sizing-for-on-premises-environments"></a>Sizing matériel pour les environnements sur site
-Avant de commencer le processus de calibrage du matériel et de l'infrastructure pour un environnement sur site, familiarisez-vous avec la [Configuration requise](../get-started/system-requirements.md) et les [Instructions de paramétrage et de déploiement](../deployment/setup-deploy-on-premises-environments.md) pour obtenir des connaissances approfondies de l'infrastructure sous-jacente. 
+Avant de commencer le processus de calibrage du matériel et de l'infrastructure pour un environnement sur site, familiarisez-vous avec la [Configuration requise](system-requirements.md) et les [Instructions de paramétrage et de déploiement](../../dev-itpro/deployment/setup-deploy-on-premises-environments.md) pour obtenir des connaissances approfondies de l'infrastructure sous-jacente. 
 
   **Remarque :** Faites attention aux meilleures pratiques de paramétrage système pour des résultats optimaux. 
 
@@ -89,7 +89,7 @@ Pour comprendre vos besoins en calibrage, vous devez connaître le volume de poi
 Nous vous recommandons de toujours utiliser SQL Server dans un cluster ou une configuration en miroir. Le second nœud SQL doit avoir le même nombre de noyaux que le nœud principal. 
 
 ### <a name="active-directory-federation-services-ad-fs"></a>Services ADFS (Active Directory Federation Services)
-Pour le calibrage d'AD FS, voir la [documentation relative à la capacité du server AD FS](https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/design/planning-for-ad-fs-server-capacity).
+Pour le calibrage d'AD FS, voir la [documentation relative à la capacité du server AD FS](/windows-server/identity/ad-fs/design/planning-for-ad-fs-server-capacity).
 
 Une [feuille de calibrage](http://adfsdocs.blob.core.windows.net/adfs/ADFSCapacity2016.xlsx) est disponible pour planifier le nombre d'instances dans votre déploiement.
 

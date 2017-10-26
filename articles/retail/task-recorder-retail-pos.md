@@ -18,11 +18,11 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
-ms.openlocfilehash: 007a7e8a34f3f5a2d0d18eb3955822a8fd8bdd0a
+ms.translationtype: HT
+ms.sourcegitcommit: 04d459a2fd0fdf9c201d9e96b37234846eb9ccf0
+ms.openlocfilehash: 9a1e3f08eeda93adeac4509edad244754770db65
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -126,7 +126,7 @@ Le texte que vous entrez dans le champ **Texte** apparaît *au-dessus* du texte 
 Le texte que vous entrez dans le champ **Notes** apparaît *en dessous* du texte de l'étape dans le guide de tâche. Pour lire le texte de la note, l'utilisateur peut développer le texte de l'étape dans la fenêtre contextuelle. Cet emplacement est approprié pour la documentation facultative à lire ou d'autres informations qui peuvent être utiles à l'utilisateur, mais ne sont pas nécessaires pour exécuter l'action.
 
 ## <a name="help-in-retail-modern-pos-and-cloud-pos"></a>Aide de Retail Modern POS et de Cloud POS
-Pour afficher vos propres enregistrements personnalisés de tâche dans le volet Aide de Retail Modern POS et de Cloud POS afin qu'ils puissent être affichés comme texte, vous devez enregistrer vos enregistrements de tâches dans votre propre bibliothèque BPM, puis mettre à jour vos paramètres du système d'aide pour pointer vers votre bibliothèque BPM. Pour plus d'informations, consultez [Connexion au système d'aide](/dynamics365/unified-operations/dev-itpro/get-started/help-connect). L'aide de Retail Modern POS et de Cloud POS effectue des recherches dans LCS en temps réel. Elle effectue des recherches dans toutes les bibliothèques BPM sélectionnées dans les paramètres du système d'aide de Microsoft Dynamics 365 for Retail et affiche les résultats pertinents. Pour accéder au menu **Aide**, cliquez sur le bouton **Aide** (point d'interrogation) en haut de l'écran, puis dans la zone de recherche, tapez le nom de votre processus et cliquez sur le bouton de recherche. 
+Pour afficher vos propres enregistrements personnalisés de tâche dans le volet Aide de Retail Modern POS et de Cloud POS afin qu'ils puissent être affichés comme texte, vous devez enregistrer vos enregistrements de tâches dans votre propre bibliothèque BPM, puis mettre à jour vos paramètres du système d'aide pour pointer vers votre bibliothèque BPM. Pour plus d'informations, consultez [Connexion au système d'aide](../fin-and-ops/get-started/help-connect.md). L'aide de Retail Modern POS et de Cloud POS effectue des recherches dans LCS en temps réel. Elle effectue des recherches dans toutes les bibliothèques BPM sélectionnées dans les paramètres du système d'aide de Microsoft Dynamics 365 for Retail et affiche les résultats pertinents. Pour accéder au menu **Aide**, cliquez sur le bouton **Aide** (point d'interrogation) en haut de l'écran, puis dans la zone de recherche, tapez le nom de votre processus et cliquez sur le bouton de recherche. 
 
 [![Bouton Aide](./media/help.jpg)](./media/help.jpg) 
 

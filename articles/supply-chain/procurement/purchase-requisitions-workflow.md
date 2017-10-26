@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 95d1d3a34728aab38f77635ae68bea16b08f6587
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 0b1ec4f11672c5c2f9a6f4d072637dfd22246f77
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -110,7 +110,7 @@ Pour utiliser l'un des réviseurs de dépenses que vous paramétrez dans un work
 <a name="see-also"></a>Voir également :
 --------
 
-[Créer un bon de commande pour la consommation (Guide de tâche)](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-requisition-consumption)
+[Créer un bon de commande pour la consommation (Guide de tâche)](tasks/create-requisition-consumption.md)
 
 [Définition des flux de travail de processus entreprise pour les demandes d'achat](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions) (livre blanc)
 
