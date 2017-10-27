@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 41436dab710a5fee0fe0800dff1ebefefa841afc
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 6119f1c85b68e6ed5dce01a266c4e681dfc4cd30
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 06/13/2017
 
 Cette rubrique décrit comment utiliser la collaboration fournisseur dans Finance and Operations pour utiliser des CF et surveiller le stock de consignation.
 
-Cette rubrique décrit comment utiliser la collaboration fournisseur avec les clients dans Microsoft Finance and Operations. Elle inclut des informations sur la manière de surveiller les commandes fournisseur et d'y répondre, et sur la manière de surveiller le stock de consignation. Il est également possible d'utiliser la collaboration du fournisseur avec les factures. Pour plus d'informations, voir [Espace de travail de facturation de collaboration fournisseur](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace).
+Cette rubrique décrit comment utiliser la collaboration fournisseur avec les clients dans Microsoft Finance and Operations. Elle inclut des informations sur la manière de surveiller les commandes fournisseur et d'y répondre, et sur la manière de surveiller le stock de consignation. Il est également possible d'utiliser la collaboration du fournisseur avec les factures. Pour plus d'informations, voir [Espace de travail de facturation de collaboration fournisseur](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md).
 
 ## <a name="working-with-purchase-orders"></a>Utilisation des commandes fournisseur
 L'espace de travail **Confirmation de commande fournisseur** vous permet de répondre aux CF soumises à vous pour révision. Il permet également d'afficher des informations sur les CF qui attendent une action du client, et les CF qui ont été confirmées, mais qui sont toujours en cours. Il existe trois listes dans l'espace de travail **Confirmation de commande fournisseur** :

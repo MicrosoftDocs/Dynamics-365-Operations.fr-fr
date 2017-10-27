@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: dd6f993e5c5fe343c6484383ff097f87f5dbf894
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 7aeb0438182fe177ac83580f03cbb547c79fd08a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -249,9 +249,9 @@ Vous ne pouvez pas utiliser de mots clés réservés comme nom de solveur pour l
 <a name="see-also"></a>Voir également :
 --------
 
-[Créer une contrainte d'expression (guide de tâche) (/dynamics365/unified-operations/supply-chain/pim/tasks/add-expression-constraint-product-configuration-model)
+[Création d'une contrainte d'expression (Guide de tâches)(tasks/add-expression-constraint-product-configuration-model.md)
 
-[Ajouter un calcul à un modèle de configuration de produit (guide de tâche)](/dynamics365/unified-operations/supply-chain/pim/tasks/add-calculation-product-configuration-model)
+[Ajouter un calcul à un modèle de configuration de produit (guide de tâche)](tasks/add-calculation-product-configuration-model.md)
 
 
 

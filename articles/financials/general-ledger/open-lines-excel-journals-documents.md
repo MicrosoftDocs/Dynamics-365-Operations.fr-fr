@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 1fed8d162a37736883365fa765a059e5beff06be
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: a4f9e2c5203881f3faeebe4d33e72c7b3bcaa591
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -50,7 +50,7 @@ Les utilisateurs peuvent entrer et publier des lignes pour les journaux financie
 
 Lorsque les lignes sont émises, elles sont validées pour s'assurer qu'elles sont conformes aux règles paramétrées dans les journaux financiers. Une fois que les lignes sont émises, les utilisateurs peuvent modifier ou valider les documents Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. 
 
-Pour ajouter des dimensions financières à un modèle, des modifications supplémentaires sont requises. Pour plus d'informations, voir [Ajouter des dimensions au modèle Microsoft Excel](/dynamics365/unified-operations/dev-itpro/financial/add-dimensions-excel-templates). Une fois que les dimensions sont ajoutées à l'entité, elles sont disponibles dans le concepteur Excel et peuvent être ajoutées au modèle.
+Pour ajouter des dimensions financières à un modèle, des modifications supplémentaires sont requises. Pour plus d'informations, voir [Ajouter des dimensions au modèle Microsoft Excel](../../dev-itpro/financial/add-dimensions-excel-templates.md). Une fois que les dimensions sont ajoutées à l'entité, elles sont disponibles dans le concepteur Excel et peuvent être ajoutées au modèle.
 
 
 

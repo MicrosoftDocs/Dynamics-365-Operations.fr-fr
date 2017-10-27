@@ -13,14 +13,14 @@ ms.reviewer: robinr
 ms.search.scope: Operations, Platform, UnifiedOperations
 ms.search.region: Global
 ms.author: tjvass
-ms.search.validFrom: 2017-06-30T00:00:00.000Z
+ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.intro: Platform update 8
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: e819aafbdf55fbc2a6dc996d275244de1e11d89b
+ms.sourcegitcommit: fc8102d945faf9ad533f57ec1a45b0e0dc344963
+ms.openlocfilehash: d36abbf7c08c56d84ed83dbec1bfa33f30b47ef5
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -47,10 +47,10 @@ Si vous étendez un espace de travail d'application existant ou que vous introdu
 4. Facultatif : ajoutez des extensions pour personnaliser la vue.
 
 > [!NOTE]
-> Pour plus d'informations sur la création des états analytiques, voir [Mise en route de Power BI Desktop](https://powerbi.microsoft.com/documentation/powerbi-desktop-getting-started/). Cette page est une grande source pour des informations qui vous permettent de créer des solutions de génération d'états analytiques attractifs.
+> Pour plus d'informations sur la création des états analytiques, voir [Mise en route de Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/). Cette page est une grande source pour des informations qui vous permettent de créer des solutions de génération d'états analytiques attractifs.
 
 # <a name="add-a-pbix-file-as-a-resource"></a>Ajoutez un fichier .pbix comme ressource
-Avant de commencer, vous devez créer ou obtenir l'état Power BI que vous inclurez de l'espace de travail. Pour plus d'informations sur la création des états analytiques, voir [Mise en route de Power BI Desktop](https://powerbi.microsoft.com/documentation/powerbi-desktop-getting-started/).
+Avant de commencer, vous devez créer ou obtenir l'état Power BI que vous inclurez de l'espace de travail. Pour plus d'informations sur la création des états analytiques, voir [Mise en route de Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).
  
 Procédez comme suit pour ajouter un fichier .pbix comme artefact de projet Visual Studio.
 

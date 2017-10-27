@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 0dc453ab56a2d381afa6e22d847f0b1eb7a16e7e
+ms.translationtype: HT
+ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
+ms.openlocfilehash: d1fbcefd80f1c48fafbbcb6315406856eaae68a0
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -50,7 +49,7 @@ Pour cet exercice, vous allez générer et explorer un état existant par défau
 4.  Accédez à **États financiers** sous **Recherches et états** dans la comptabilité.
 5.  Sélectionnez la ligne de l'état appelée **Détails de Comptabilité – valeur par défaut.**
 6.  Sélectionnez **Modifier.** Remarque : vous êtes invité à télécharger le concepteur d'état en un clic et à vous connecter. Utilisez vos informations d'identification pour vous connecter.
-7.  Modifiez l'année de référence à 2012 et sélectionnez **Générer**. Lorsqu'un état est généré à partir du concepteur d'état, il s'affiche dans un nouvel onglet du navigateur. Vous pouvez explorer l'état dans le nouvel onglet du navigateur ou accéder à l'onglet d'origine du navigateur et ouvrir l'état à partir de là en le sélectionnant dans la liste **États financiers**.
+7.  Modifiez l'année de référence à 2012 et sélectionnez **Générer**. Lorsqu'un rapport est généré à partir du concepteur de rapports, il s'ouvre dans un nouvel onglet du navigateur. Vous pouvez soit explorer le rapport dans le nouvel onglet du navigateur, soit accéder à l'onglet de votre navigateur d'origine et ouvrir le rapport à partir de là en le sélectionnant dans la liste **États financiers**.
 8.  Dans l'état ouvert, sélectionnez l'un des montants pour accéder aux détails du compte pour l'état.
 9.  Une fois dans les détails du compte, sélectionnez un compte avec des données et **accédez au niveau de la transaction d'état**. Au niveau de la transaction d'état, vous pouvez voir les propriétés (attributs) qui sont inclus dans la conception de cet état. Selon la transaction et le compte, certains ou tous les attributs peuvent être affichés.
 10. Fermez le niveau de la transaction d'état.
@@ -183,8 +182,8 @@ Dans cet exercice, vous créerez un état. L'état est un relevé des revenus d�
 18. **Enregistrez** vos modifications et **générez**. Une fois que l'état est généré et s'ouvre, vous pouvez explorer l'état.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
-[États financiers](/dynamics365/unified-operations/financials/general-ledger/financial-reporting-getting-started) 
-[Afficher les états financiers](/dynamics365/unified-operations/financials/general-ledger/view-financial-reports) 
+[États financiers](../../financials/general-ledger/financial-reporting-getting-started.md) 
+[Afficher les états financiers](../../financials/general-ledger/view-financial-reports.md) 
 [Blog États financiers Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 

@@ -17,11 +17,11 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 1d19276331a4278f44ad14292ed434c49b74d727
+ms.translationtype: HT
+ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
+ms.openlocfilehash: f596f84463f46fc37b14b77bd335b9ed8a62eea9
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -39,7 +39,7 @@ Comme le contenu **Analyse du contrôle de gestion** présente les écarts entre
 
 Le contenu **Analyse du contrôle de gestion** permet aux contrôleurs de gestion d'analyser la manière dont le coût se répercute sur les objets de coût de l'ensemble de l'organisation. 
 
-Pour en savoir plus sur le contrôle de gestion, voir [Page d'accueil du contrôle de gestion](/dynamics365/unified-operations/financials/cost-accounting/cost-accounting-home-page). 
+Pour en savoir plus sur le contrôle de gestion, voir [Page d'accueil du contrôle de gestion](../../financials/cost-accounting/cost-accounting-home-page.md). 
 
 En définissant la sécurité au niveau de l'accès dans le module Contrôle de gestion et en la combinant à la sécurité au niveau de la ligne dans Power BI, vous pouvez autoriser l'accès au contenu Power BI **Analyse du contrôle de gestion** à tous les propriétaires d'objet de coût. Toutes les données des visualisations seront ensuite filtrées selon le niveau d'accès contrôlé dans le contrôle de gestion. Pour en savoir plus sur la sécurité au niveau de l'accès et la sécurité au niveau de la ligne, voir [Paramétrer la sécurité du contenu Contrôle de gestion pour Power BI](setup-security-cost-accounting-content-pack.md).
 

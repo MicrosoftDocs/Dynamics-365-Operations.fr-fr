@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: ebcae0e323203a98a9b8ed1113db945fceaaa4af
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: e1c29f597b190bd36b6fc64b16913ecdd02daf75
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -68,7 +68,7 @@ Lorsque cette configuration est utilisée, une commande fournisseur est créée 
 Un ordre de fabrication peut avoir plusieurs opérations, et chaque opération peut être affectée à un autre fournisseur. Par conséquent, un ordre de fabrication de bout en bout peut engendrer des commandes fournisseur.
 
 ## <a name="subcontracting-of-production-flow-activities"></a>Sous-traitance des activités de flux de production
-Dans l'approche du [lean manufacturing](lean-manufacturing-overview.md), le travail de sous-traitance est modélisé comme un service associé à une activité de [flux de production](/dynamics365/unified-operations/supply-chain/production-control/tasks/create-production-flow-version) (rubrique du Guide de tâche). Par conséquent, ce type de sous-traitance est également appelé [Sous-traitance basée sur des activités.](activity-based-subcontracting.md) Un type spécial de groupe de coûts nommé **Externalisation directe** a été introduit, et les services de sous-traitance ne font plus partie d'une nomenclature de biens finis. Lorsque vous utilisez le production au plus juste, toutes les activités sont définies par des kanbans qui peuvent être liés à une ou plusieurs activités de flux de production. Jusqu'à présent, cette explication ressemble à une explication des ordres de fabrication. Toutefois, alors que les ordres de fabrication doivent toujours se terminer par un produit fini, vous pouvez créer des kanbans pour fournir un produit semi-fini. Vous n'avez pas besoin d'entrer un nouveau produit ni un niveau de nomenclature.  
+Dans l'approche du [lean manufacturing](lean-manufacturing-overview.md), le travail de sous-traitance est modélisé comme un service associé à une activité de [flux de production](tasks/create-production-flow-version.md) (rubrique du Guide de tâche). Par conséquent, ce type de sous-traitance est également appelé [Sous-traitance basée sur des activités.](activity-based-subcontracting.md) Un type spécial de groupe de coûts nommé **Externalisation directe** a été introduit, et les services de sous-traitance ne font plus partie d'une nomenclature de biens finis. Lorsque vous utilisez le production au plus juste, toutes les activités sont définies par des kanbans qui peuvent être liés à une ou plusieurs activités de flux de production. Jusqu'à présent, cette explication ressemble à une explication des ordres de fabrication. Toutefois, alors que les ordres de fabrication doivent toujours se terminer par un produit fini, vous pouvez créer des kanbans pour fournir un produit semi-fini. Vous n'avez pas besoin d'entrer un nouveau produit ni un niveau de nomenclature.  
 
 Comme les règles de kanban peuvent être très dynamiques, vous pouvez modéliser des variantes d'approvisionnement pour le même produit dans un flux de production. Lorsque vous utilisez la sous-traitance au plus juste, les flux des matières et le flux financier sont strictement séparés. Tous les flux de matières sont représentés par les activités de kanban. Les commandes fournisseur pour les produits de service et les validations de réception de ces services peuvent être automatiques, selon le statut des opérations kanban dans le flux de production. Les opérations kanban peuvent être démarrées et terminées avant la création des commandes fournisseur. Les documents de sous-traitance (commande fournisseur et réception de l'achat du service) peuvent être regroupés par période et service. Par conséquent, le nombre de documents et de lignes d'achat peut être petit, même dans les opérations très répétitives où les fournisseurs fournissent des services sous-traités dans un seul flux.
 

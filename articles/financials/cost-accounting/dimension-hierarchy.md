@@ -19,11 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: YuyuScheller
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: dcbab70d2057a2eb252538a51343fa8bae16873d
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: cef54fa8109ebce0f8a6ca67c93afc30ec8a6781
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -332,6 +332,6 @@ Les paramètres de la hiérarchie de la liste d'accès sont utilisés pour contr
     - Les visualisations des données Power BI sont intégrées dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition client
 
 > [!NOTE] 
-> - Avant que la hiérarchie de la liste d'accès puisse affecter des données Power BI, la hiérarchie de la liste d'accès et la sécurité au niveau de la ligne dans Power BI doivent être jumelées. Pour plus d'informations, voir [Paramétrer la sécurité pour le pack de contenu de gestion des coûts](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack).
+> - Avant que la hiérarchie de la liste d'accès puisse affecter des données Power BI, la hiérarchie de la liste d'accès et la sécurité au niveau de la ligne dans Power BI doivent être jumelées. Pour plus d'informations, voir [Paramétrer la sécurité pour le pack de contenu de gestion des coûts](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
 > - La hiérarchie de la liste d'accès ne permet pas de sécuriser l'exportation des données dans Excel. Par conséquent, cet outil de génération d'états doit uniquement être utilisé par les comptables et les responsables de coût qui doivent avoir un accès complet pour afficher les données.
 

@@ -16,13 +16,13 @@ ms.custom: 11124
 ms.assetid: 36b0f870-16d4-4bbb-8da5-e747e69b970d
 ms.search.region: Global
 ms.author: mrolecki
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: bc14ab554a298d09bb852e96503b4cd3f4b36d3c
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 49dfae79fe3914bcac9447d4fe3959128ff434ec
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -35,7 +35,7 @@ Cet article fournit des informations générales sur les virements ISO 20022, n
 
 ## <a name="what-is-a-credit-transfer-message"></a>Qu'est-ce qu'un message de virement ?
 Le message de virement est une demande qu'une partie initiatrice (votre société) envoie pour déplacer des fonds depuis son propre compte vers celui d'un créditeur. Il existe de nombreuses implémentations des messages de virement, spécifiques à chaque banque et à chaque pays ou région. Certains d'entre elles sont utilisés au sein d'une pays ou d'une région, et d'autres sont en passe de devenir la norme. Une norme bien établie au niveau mondial est la norme ISO 20022 et ses messages d'initiation, tels que le Virement. L'illustration suivante présente les relations et la couverture des messages de virement sélectionnés. 
-![Virement](./media/credit-transfer.jpg) Messages de virement\[/caption\] 
+![Virement](./media/credit-transfer.jpg) Messages de virement 
 
 ## <a name="what-are-iso-20022-and-sepa-payments"></a>Que sont les paiements ISO 20022 et SEPA ?
 L'Espace unique de paiement en euro (SEPA) est défini par la Commission européenne et stipule que tous les paiements électroniques sont considérés comme locaux, quel que soit le pays/la région où la personne, l'entreprise ou l'organisation et la banque sont localisées. Il n'existe aucune différence entre les paiements nationaux et transfrontières. Le SEPA inclut les 28 états membres de l'Union européenne (EU), plus l'Islande, le Liechtenstein, la Norvège, la Suisse, Monaco et San Marin. Le SEPA permet de former un marché unique pour les transactions de paiement dans l'Espace économique européen. Enfin, le SEPA est supposé réduire le nombre de formats de paiement pour les banques, les entreprises et les personnes. La Commission européenne a établi les fondements légaux des paiements SEPA dans la Directive sur les Services de Paiement (PSD, Payment Services Directive). Le Conseil européen des paiements (EPC) assure le fonctionnement du SEPA par les activités suivantes :
@@ -59,7 +59,7 @@ Le format de virement pour les pays européens est implémenté à l'aide de la 
 Vous devez toujours aller dans la bibliothèque d'actifs partagés de Microsoft Dynamics Lifecycle Services (LCS) et afficher la liste la plus récente des fichiers disponibles dont le type d'actif est **Configuration GER**. La section suivante, « Que je dois paramétrer ? », fournit un lien vers une rubrique qui explique comment créer un référentiel LCS pour examiner les configurations disponibles et importer les configurations sélectionnées.
 
 ## <a name="what-do-i-have-to-set-up"></a>Que dois-je paramétrer ?
--   Avant de créer des de virement, vous devez importer au moins une configuration de virement active dans vos configurations ER. Pour plus d'instructions, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
+-   Avant de créer des de virement, vous devez importer au moins une configuration de virement active dans vos configurations ER. Pour plus d'instructions, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
 -   Quand vous configurez les modes de paiement de la comptabilité fournisseur, cochez la case **États électroniques génériques** et sélectionnez le format de virement approprié (par exemple, **Virement ISO 20022 (AT)**) comme configuration de format d'exportation.
 -   Vous devez également paramétrer l'entité juridique et les informations de compte bancaire dans Finance and Operations.
 -   Les numéros de compte bancaire, IBAN, est parfois les codes SWIFT (BIC) ou d'autres identifiants sont nécessaires pour créer des paiements valides par virement. Par conséquent, vous devez les paramétrer pour le compte bancaire fournisseur et le compte bancaire de l'organisation qui demande le virement.

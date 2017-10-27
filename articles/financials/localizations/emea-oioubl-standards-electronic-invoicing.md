@@ -15,13 +15,13 @@ ms.custom: 10274
 ms.search.region: Austria, Denmark, Italy, Norway, Spain, France, Belgium, Netherlands
 ms.search.industry: 
 ms.author: mrolecki
-ms.search.validFrom: 2016-05-31T00:00:00.000Z
+ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: c944fd20273623ce3f7d03a24546addbe987084e
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: d41f4d454bc3a763ca6658babde6c3a6a44be73d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -45,7 +45,7 @@ Les formats de factures électroniques spécifiques au pays suivants sont dispon
 -   FacturaE v.3.2.1 pour l'Espagne
 -   FatturaPA v.1.2 pour l'Italie
 
-La facturation électronique est basée sur la [gestion des états électroniques](/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting). Il existe un **Modèle de facture client** et plusieurs configurations de format de génération d'états électroniques spécifiques au pays créées pour l'Autriche (AT), le Danemark (DK), l'Italie (IT), la Norvège (NO), l'Espagne (ES), la France (FR), la Belgique (BE) et les Pays-Bas (NL).
+La facturation électronique est basée sur la [gestion des états électroniques](../../dev-itpro/analytics/general-electronic-reporting.md). Il existe un **Modèle de facture client** et plusieurs configurations de format de génération d'états électroniques spécifiques au pays créées pour l'Autriche (AT), le Danemark (DK), l'Italie (IT), la Norvège (NO), l'Espagne (ES), la France (FR), la Belgique (BE) et les Pays-Bas (NL).
 
 -   Facture client OIOUBL pour AT, DK et NO
 -   Avoir de vente OIOUBL pour AT, DK et NO
@@ -71,7 +71,7 @@ La facturation électronique est basée sur la [gestion des états électronique
 Les factures électroniques et les avoirs que vous générez contiennent les informations requises, telles que le numéro EAN, la personne à contacter, le numéro de compte de dimension et les informations d'adresse pour le client. Les règles de contrôle sont appliquées lors de la génération des factures pour vous permettre de vérifier que les informations entrées sont correctes. L'ensemble des informations requises peut différer d'un pays à l'autre. Comme les exigences ainsi que les pays et formats pris en charge peuvent être modifiés, vous devez toujours aller dans la bibliothèque d'actifs partagés de Microsoft Dynamics Lifecycle Services (LCS) et afficher la liste la plus récente des fichiers disponibles dont le type d'actif est **Configuration GER**.
 
 ## <a name="additional-information"></a>Informations supplémentaires
-Pour plus de détails sur le paramétrage des factures électroniques, vous pouvez visionner [Guides de tâche](/dynamics365/unified-operations/dev-itpro/get-started/help-overview#task-guides) dans volet d'aide :
+Pour plus de détails sur le paramétrage des factures électroniques, vous pouvez visionner [Guides de tâche](../../fin-and-ops/get-started/help-overview.md#task-guides) dans volet d'aide :
 
  - Paramétrer la facturation électronique OIOUBL
  - Importer les configurations de facturation électronique OIOUBL

@@ -16,10 +16,10 @@ ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 0574c8c1164ef54095135bd9b3f2a946320f8996
-ms.openlocfilehash: e6d45094e8722fa51e545076c204459c41fd9131
+ms.sourcegitcommit: c73eeaaf28df8db720431d4bcd317c9721baa99d
+ms.openlocfilehash: d1650d351b5f7d476cea0d404ad261cfc7294dcc
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/07/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -37,12 +37,12 @@ Cette rubrique liste les espaces de travail mobiles qui peuvent être utilisés 
 |[Répertoire de la société](company-directory-mobile-workspace.md)| Permet de visualiser et de contacter d'autres employés de l'organisation.| 2017 juin |    
 |[Mon équipe](manager-self-service-mobile-workspace.md)| Vous pouvez voir vos rapports directs et votre personnel étendu, mais aussi envoyer des récompenses aux personnes de votre chaîne hiérarchique.|2017 juin |     
 |[Approbation de facture](invoice-approval-mobile-workspace.md)| Fournit une liste des factures qui vous ont été attribuées dans le cadre du processus de workflow de l'en-tête de la facture fournisseur.| 2017 juin   |
-| [Gestion des dépenses](/dynamics365/unified-operations/financials/expense-management/expense-management-mobile-workspace) | Vous pouvez capturer et charger une réception, afin de pouvoir l'associer à un état de dépenses ultérieurement. L'espace de travail mobile vous permet également de créer rapidement une ligne de dépense à l'aide d'une réception associée. | 2017 avril |
-| [Approbation de la commande fournisseur](/dynamics365/unified-operations/supply-chain/procurement/purchase-order-mobile-workspace) | Permet de voir et de répondre aux commandes fournisseur avec des actions telles que l'approbation ou le rejet. | 2017 avril |
-| [Entrée d'heure du projet](/dynamics365/unified-operations/financials/project-management/project-time-entry-mobile-workspace) | Vous pouvez entrer et gagner du temps sur un projet à l'aide de votre appareil mobile. | 2017 mars |
-| [Contrôle des coûts](/dynamics365/unified-operations/financials/cost-accounting/cost-controlling-mobile-workspace)     | Les responsables des centres de coût peuvent consulter les performances du centre de coût.                                                                                               |  Janvier 2017        |
-| [Stock disponible](/dynamics365/unified-operations/supply-chain/inventory/inventory-on-hand-mobile-workspace)    | Permet d'obtenir des informations sur le stock réservé et disponible.                                                                                                    |   Janvier 2017       |
-| [Commandes client](/dynamics365/unified-operations/supply-chain/sales-marketing/sales-orders-mobile-workspace)         | Vous pouvez rester à jour de vos commandes client.                                                                                                                          |  Janvier 2017                  |
-| [Collaboration du fournisseur](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-mobile-workspace) | Les fournisseurs peuvent être constamment informés des commandes fournisseur qui leur ont été envoyées pour approbation. Ils peuvent également afficher des informations sur les bons de commande et les contacts nouveaux et mis à jour. |Janvier 2017    |
+| [Gestion des dépenses](../../financials/expense-management/expense-management-mobile-workspace.md) | Vous pouvez capturer et charger une réception, afin de pouvoir l'associer à un état de dépenses ultérieurement. L'espace de travail mobile vous permet également de créer rapidement une ligne de dépense à l'aide d'une réception associée. | 2017 avril |
+| [Approbation de la commande fournisseur](../../supply-chain/procurement/purchase-order-mobile-workspace.md) | Permet de voir et de répondre aux commandes fournisseur avec des actions telles que l'approbation ou le rejet. | 2017 avril |
+| [Entrée d'heure du projet](../../financials/project-management/project-time-entry-mobile-workspace.md) | Vous pouvez entrer et gagner du temps sur un projet à l'aide de votre appareil mobile. | 2017 mars |
+| [Contrôle des coûts](../../financials/cost-accounting/cost-controlling-mobile-workspace.md)     | Les responsables des centres de coût peuvent consulter les performances du centre de coût.                                                                                               |  Janvier 2017        |
+| [Stock disponible](../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md)    | Permet d'obtenir des informations sur le stock réservé et disponible.                                                                                                    |   Janvier 2017       |
+| [Commandes client](../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md)         | Vous pouvez rester à jour de vos commandes client.                                                                                                                          |  Janvier 2017                  |
+| [Collaboration du fournisseur](../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md) | Les fournisseurs peuvent être constamment informés des commandes fournisseur qui leur ont été envoyées pour approbation. Ils peuvent également afficher des informations sur les bons de commande et les contacts nouveaux et mis à jour. |Janvier 2017    |
 
 
