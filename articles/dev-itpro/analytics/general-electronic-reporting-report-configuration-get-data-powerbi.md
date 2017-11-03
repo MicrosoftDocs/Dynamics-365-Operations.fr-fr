@@ -1,7 +1,7 @@
 ---
 title: "Configurer la génération d'états électronique pour extraire les données dans Power BI"
 description: "Cette rubrique explique comment vous pouvez utiliser la configuration de génération d'états électroniques (ER) pour organiser le transfert des données entre votre instance de Finance and Operations vers les services Power BI. En guise d'exemple, cette rubrique utilise les transactions de déclaration d'échanges de biens comme données commerciales qui doivent être transférées. La visualisation de carte Power BI utilise ces données de transaction de déclaration d'échanges de biens pour présenter une vue permettant l'analyse des activités d'importation/d'exportation de la société sur l'état Power BI."
-author: kfend
+author: NickSelin
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
