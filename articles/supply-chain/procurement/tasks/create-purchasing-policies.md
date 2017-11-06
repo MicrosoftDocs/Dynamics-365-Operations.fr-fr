@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: c2b3a66443394f5bfbe51b6685513281025d68fd
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-purchasing-policies"></a><span data-ttu-id="09d8f-103">Création des stratégies d'achat</span><span class="sxs-lookup"><span data-stu-id="09d8f-103">Create purchasing policies</span></span>

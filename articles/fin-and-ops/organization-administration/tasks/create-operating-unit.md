@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 838d1c2d5d1ab2524e9f4be423fbf529b89f5f59
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-an-operating-unit"></a><span data-ttu-id="b9269-103">Créer une unité opérationnelle</span><span class="sxs-lookup"><span data-stu-id="b9269-103">Create an operating unit</span></span>

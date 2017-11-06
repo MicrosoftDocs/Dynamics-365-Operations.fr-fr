@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: da186f7ad74bb607fd6e7220d77c2f414789f29c
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-an-intercompany-plan"></a><span data-ttu-id="13a86-103">Créer un plan intersociétés</span><span class="sxs-lookup"><span data-stu-id="13a86-103">Create an intercompany plan</span></span>

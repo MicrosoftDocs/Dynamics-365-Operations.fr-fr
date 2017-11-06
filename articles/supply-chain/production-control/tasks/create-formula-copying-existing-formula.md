@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: d34ca5befd04b0f82bf9564fd3976f4c2daab0ce
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-a-formula-by-copying-from-an-existing-formula"></a><span data-ttu-id="22ce6-103">Créer une formule par la copie d'une formule existante</span><span class="sxs-lookup"><span data-stu-id="22ce6-103">Create a formula by copying from an existing formula</span></span>

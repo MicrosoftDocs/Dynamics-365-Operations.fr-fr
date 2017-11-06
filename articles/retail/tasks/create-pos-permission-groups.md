@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: e924dc59c3e4cb9b6979014852512453dd3d70db
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-pos-permission-groups"></a><span data-ttu-id="0f30f-103"> Créer des groupes d'autorisations de PDV</span><span class="sxs-lookup"><span data-stu-id="0f30f-103">Create POS permission groups</span></span>

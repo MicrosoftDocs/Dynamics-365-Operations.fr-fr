@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 96974d7c1597db4ac31168be40cecbc7e12d6edd
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="map-a-data-model-to-selected-data-sources-for-electronic-reporting-er"></a><span data-ttu-id="05bd8-103">Mapper un modèle de données aux sources de données sélectionnées pour la gestion des états électroniques (ER)</span><span class="sxs-lookup"><span data-stu-id="05bd8-103">Map a data model to selected data sources for electronic reporting (ER)</span></span>

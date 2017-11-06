@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: dd77c20b622fd8a14e1cdf77883043699f9a6317
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-process-activities-for-lean-manufacturing"></a><span data-ttu-id="2243a-103">Créer des activités de processus pour la lean manufacturing</span><span class="sxs-lookup"><span data-stu-id="2243a-103">Create process activities for lean manufacturing</span></span>

@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: f7a6db585468c235e07c4a0117a83995ec93f4b0
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="configure-wave-processing"></a><span data-ttu-id="e0556-103">Configurer le traitement de la vague</span><span class="sxs-lookup"><span data-stu-id="e0556-103">Configure wave processing</span></span>

@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: ea2ff4416736993f63863f3059e244998026d1cd
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-cover-and-signature-pages-for-a-payments-report-for-the-public-sector"></a><span data-ttu-id="a955d-103">Créer une couverture et des pages de signature pour un état de paiement pour le secteur public</span><span class="sxs-lookup"><span data-stu-id="a955d-103">Create cover and signature pages for a payments report for the public sector</span></span>

@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: f9cdb0a7de0199363279c53e817c98085b31fe6b
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="define-cycle-counting"></a><span data-ttu-id="964b8-103">Définir l'inventaire tournant</span><span class="sxs-lookup"><span data-stu-id="964b8-103">Define cycle counting</span></span> 

@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: d65fe0363e418f9c2e78bd78e802a4b0ea98599c
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-a-calendar-and-generate-working-times"></a><span data-ttu-id="9eac4-103">Créer un calendrier et générer les horaires de travail</span><span class="sxs-lookup"><span data-stu-id="9eac4-103">Create a calendar and generate working times</span></span>

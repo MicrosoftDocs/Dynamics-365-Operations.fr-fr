@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 9b2300a593c9e153ee598fa72e29907c82f2b79e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="record-the-receipt-of-goods-on-the-purchase-order"></a><span data-ttu-id="69629-103">Enregistrer la réception de marchandises sur la commande fournisseur</span><span class="sxs-lookup"><span data-stu-id="69629-103">Record the receipt of goods on the purchase order</span></span>

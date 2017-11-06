@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 5dfe5c25b299284267bed91d58e0acefb7250570
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="hire-an-existing-employee-through-recruiting"></a><span data-ttu-id="0e526-103">Embaucher un employé existant via le recrutement</span><span class="sxs-lookup"><span data-stu-id="0e526-103">Hire an existing employee through recruiting</span></span>

@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 3bcb59c6edd04877dc2a052002be513205ae840a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="assign-a-free-text-invoice-template-to-a-customer"></a><span data-ttu-id="3a049-103">Affecter un modèle de facture financière à un client</span><span class="sxs-lookup"><span data-stu-id="3a049-103">Assign a free text invoice template to a customer</span></span>

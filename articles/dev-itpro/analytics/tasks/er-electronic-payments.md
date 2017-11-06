@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: a5d958d3b55bfa76f3cfbb3c1a289e4e89c49146
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="generate-electronic-documents-for-payments-using-a-format-configuration-for-electronic-reporting-er"></a><span data-ttu-id="b36b5-103">Générer les documents électroniques pour les paiements à l'aide d'une configuration de format pour la gestion des états électroniques (ER)</span><span class="sxs-lookup"><span data-stu-id="b36b5-103">Generate electronic documents for payments using a format configuration for electronic reporting (ER)</span></span>

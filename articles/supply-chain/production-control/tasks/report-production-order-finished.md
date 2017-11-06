@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 17b2285e4669f1ad8fa6cea1250693a2a70c7dfa
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="report-a-production-order-as-finished"></a><span data-ttu-id="2224b-103">Déclarer un ordre de fabrication terminé</span><span class="sxs-lookup"><span data-stu-id="2224b-103">Report a production order as finished</span></span>

@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 452cc5cf6060b71f91ad43e39e756dc23d759448
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-a-bom-line-event-kanban-rule"></a><span data-ttu-id="31767-103">Créer une règle de kanban d'événement de ligne de nomenclature</span><span class="sxs-lookup"><span data-stu-id="31767-103">Create a BOM line event kanban rule</span></span>

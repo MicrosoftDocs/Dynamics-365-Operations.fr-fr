@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 10addc195e4e5179d0ce34a078bbab4f5ac87a10
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-product-model-components"></a><span data-ttu-id="23f09-103">Créer des composants de modèle de produit</span><span class="sxs-lookup"><span data-stu-id="23f09-103">Create product model components</span></span>

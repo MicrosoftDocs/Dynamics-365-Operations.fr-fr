@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 7f992a6a1655cd868d79228c490d59b46bfae715
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="set-up-manual-packing-february--may-2016-only"></a><span data-ttu-id="64c50-103">Paramétrer l'emballage manuel (février et mai 2016 uniquement)</span><span class="sxs-lookup"><span data-stu-id="64c50-103">Set up manual packing (February & May 2016 only)</span></span>

@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 69a449766f2e5d9a6833127fcd28a2959d4578fc
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="change-the-date-for-the-session"></a><span data-ttu-id="2f0bd-103">Modifier la date de la session</span><span class="sxs-lookup"><span data-stu-id="2f0bd-103">Change the date for the session</span></span>

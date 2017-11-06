@@ -22,7 +22,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
 ms.openlocfilehash: 601681c64f5fa70aa99ab5179525d02b2c05ed2e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="leave-and-absence-management-overview"></a><span data-ttu-id="7fbd4-105">Vue d'ensemble de la gestion des congés et des absences</span><span class="sxs-lookup"><span data-stu-id="7fbd4-105">Leave and absence management overview</span></span>

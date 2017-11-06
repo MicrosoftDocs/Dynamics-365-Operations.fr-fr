@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: da9b072e9eeb1c581e900882648daa8b87d3bf1d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-a-billing-code-for-the-public-sector"></a><span data-ttu-id="a7cbb-103">Créer un code de facturation pour le secteur public</span><span class="sxs-lookup"><span data-stu-id="a7cbb-103">Create a billing code for the public sector</span></span>

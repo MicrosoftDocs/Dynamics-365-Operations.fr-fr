@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 88630311a4326508fa69a8938fa216f1a45ba089
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="enroll-an-employee-in-a-fixed-compensation-plan"></a><span data-ttu-id="56697-103">Inscrire un employé à un régime de rémunération fixe</span><span class="sxs-lookup"><span data-stu-id="56697-103">Enroll an employee in a fixed compensation plan</span></span>

@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: fa4548d3017246cbe49e2613f8990df6ea1c368b
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="approve-a-product-configuration-model"></a><span data-ttu-id="3e16f-103">Approuver un modèle de configuration de produit</span><span class="sxs-lookup"><span data-stu-id="3e16f-103">Approve a product configuration model</span></span>

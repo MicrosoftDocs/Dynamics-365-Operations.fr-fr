@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: e25d631dbfde4013ebf29d5ad3e88602ae3f317a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="classify-a-product-using-category-hierarchies"></a><span data-ttu-id="d9f84-103">Classer un produit à l'aide des hiérarchies de catégories</span><span class="sxs-lookup"><span data-stu-id="d9f84-103">Classify a product using category hierarchies</span></span>

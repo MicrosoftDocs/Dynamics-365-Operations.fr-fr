@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 59f6a4131f6a27c0089a1259e3f849f91a47bc87
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-sales-price-selection-criteria"></a><span data-ttu-id="7c80c-103">Créer des critères de sélection de prix de vente</span><span class="sxs-lookup"><span data-stu-id="7c80c-103">Create sales price selection criteria</span></span>

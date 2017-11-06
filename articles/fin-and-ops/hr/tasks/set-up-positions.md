@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: c902f532e189753a375d4b48edd9ef0b6d74020e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="set-up-positions"></a><span data-ttu-id="2f7c1-103">Paramétrer les postes</span><span class="sxs-lookup"><span data-stu-id="2f7c1-103">Set up positions</span></span>

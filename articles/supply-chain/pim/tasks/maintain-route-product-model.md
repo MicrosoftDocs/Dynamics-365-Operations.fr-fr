@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 2f3df2bd6018d07d65950398e38821cad475752e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="maintain-a-route-for-a-product-model"></a><span data-ttu-id="d6f4e-103">Tenir à jour une gamme pour un modèle de produit</span><span class="sxs-lookup"><span data-stu-id="d6f4e-103">Maintain a route for a product model</span></span>

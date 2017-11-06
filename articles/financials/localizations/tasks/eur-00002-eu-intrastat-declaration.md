@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: 34ec97b7cf761ee4478fa982fa6c153e66ad3a28
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="generate-an-eu-intrastat-declaration"></a><span data-ttu-id="34e03-103">Générer un fichier de déclaration d'échanges de biens de l'UE</span><span class="sxs-lookup"><span data-stu-id="34e03-103">Generate an EU Intrastat declaration</span></span>

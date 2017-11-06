@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: db813353eef97375451e78320d6d14de74292309
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-a-main-account"></a><span data-ttu-id="9d7c7-103">Création d'un compte principal</span><span class="sxs-lookup"><span data-stu-id="9d7c7-103">Create a main account</span></span>

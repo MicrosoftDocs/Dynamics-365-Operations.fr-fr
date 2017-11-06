@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: d545090daea6f5d4ec2e045da07f7dc1f756f560
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="configure-the-functionality-profile-for-a-sales-representative"></a><span data-ttu-id="32561-103"> Configurer le profil de fonctionnalité pour un commercial</span><span class="sxs-lookup"><span data-stu-id="32561-103">Configure the functionality profile for a sales representative</span></span>

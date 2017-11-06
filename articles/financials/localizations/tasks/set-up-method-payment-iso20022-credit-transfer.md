@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: bed51f8749dfa0264ad39f51f9ceb295ac46fe93
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="set-up-method-of-payment-for-iso20022-credit-transfer"></a><span data-ttu-id="5a595-103">Paramétrer le mode de paiement pour les virements ISO20022</span><span class="sxs-lookup"><span data-stu-id="5a595-103">Set up method of payment for ISO20022 credit transfer</span></span>

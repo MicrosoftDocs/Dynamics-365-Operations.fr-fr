@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 1d34a891a5b655f801e46b8c07525cdcbc7a65c8
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="estimate-a-production-order"></a><span data-ttu-id="1c300-103">Estimer un ordre de fabrication</span><span class="sxs-lookup"><span data-stu-id="1c300-103">Estimate a production order</span></span>

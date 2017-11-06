@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 1fcb2c4d47f0c8e701be025e0554ed476693d732
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="mass-create-sales-quotations"></a><span data-ttu-id="eeac9-103">Création en masse de devis de vente</span><span class="sxs-lookup"><span data-stu-id="eeac9-103">Mass create sales quotations</span></span>

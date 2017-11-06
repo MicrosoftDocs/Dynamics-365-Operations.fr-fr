@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 1f614b507d28429922902d6c3676483b689ac3d2
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="approve-application-inbox-records"></a><span data-ttu-id="56554-103">Approuver les enregistrements de la boîte de réception des candidatures</span><span class="sxs-lookup"><span data-stu-id="56554-103">Approve application inbox records</span></span>

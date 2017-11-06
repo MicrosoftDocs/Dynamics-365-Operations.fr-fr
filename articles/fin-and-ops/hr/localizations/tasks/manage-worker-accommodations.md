@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 10d34d0b2eca95034d1f67931ff72a035be9a6b8
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="manage-worker-accommodations"></a><span data-ttu-id="17bd4-103">Gérer les logements des collaborateurs</span><span class="sxs-lookup"><span data-stu-id="17bd4-103">Manage worker accommodations</span></span>

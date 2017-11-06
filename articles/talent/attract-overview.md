@@ -22,7 +22,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
 ms.openlocfilehash: 7d6bf4dd5aad3aae93bf1273e8fe576f4e7be278
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="attract-overview"></a><span data-ttu-id="fd67f-104">Vue d'ensemble de l'application Attract</span><span class="sxs-lookup"><span data-stu-id="fd67f-104">Attract overview</span></span>

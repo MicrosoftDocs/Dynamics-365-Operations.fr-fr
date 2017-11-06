@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: e5baa12a3915c76fde36435b1e95abaf96ba07dd
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-an-advanced-ledger-entry-in-the-public-sector"></a><span data-ttu-id="73acb-103">Créer une écriture comptable avancée dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="73acb-103">Create an advanced ledger entry in the public sector</span></span>

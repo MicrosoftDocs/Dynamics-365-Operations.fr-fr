@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: 8f8b63302dfd82910d7579d2890de8194989bb8e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="use-a-record-template-to-create-a-new-record"></a><span data-ttu-id="d2f9d-103">Utiliser un modèle d'enregistrement pour créer un enregistrement</span><span class="sxs-lookup"><span data-stu-id="d2f9d-103">Use a record template to create a new record</span></span>

@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
 ms.openlocfilehash: b5d9f9aab56441a7ecd2407b5571de77ece2ab3f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="bank-management-workspace"></a><span data-ttu-id="c1c17-106">Espace de travail de la gestion des banques</span><span class="sxs-lookup"><span data-stu-id="c1c17-106">Bank management workspace</span></span>

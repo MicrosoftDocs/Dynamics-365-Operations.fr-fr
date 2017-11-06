@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 1452c5d6f5dd8d0dd4cb08eb5cc9a48fd8f875f9
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-a-plan-for-a-site"></a><span data-ttu-id="5a7a4-103">Créer un plan pour un site</span><span class="sxs-lookup"><span data-stu-id="5a7a4-103">Create a plan for a site</span></span>

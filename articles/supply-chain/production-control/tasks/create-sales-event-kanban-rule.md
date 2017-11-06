@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: f1f66157b2e74ad1b490e10112cbc121ac9826fb
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-a-sales-event-kanban-rule"></a><span data-ttu-id="1e6ef-103">Créer une règle de kanban d'événement de vente</span><span class="sxs-lookup"><span data-stu-id="1e6ef-103">Create a sales event kanban rule</span></span>

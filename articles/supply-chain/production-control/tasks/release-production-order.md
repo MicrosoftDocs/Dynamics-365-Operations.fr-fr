@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 2ae2d84bd12d338c9bada5518c43178b22112006
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="release-a-production-order"></a><span data-ttu-id="998a2-103">Lancer un ordre de fabrication</span><span class="sxs-lookup"><span data-stu-id="998a2-103">Release a production order</span></span>

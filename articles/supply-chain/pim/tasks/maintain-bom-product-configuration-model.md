@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: c017d7719ac6af43b0c8a162080bb753587df030
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="maintain-bom-for-a-product-configuration-model"></a><span data-ttu-id="e995f-103">Tenir à jour la nomenclature d'un modèle de configuration de produit</span><span class="sxs-lookup"><span data-stu-id="e995f-103">Maintain BOM for a product configuration model</span></span>

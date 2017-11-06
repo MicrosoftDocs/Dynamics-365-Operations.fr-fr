@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: e633b35cdd5441f7f9d1c1465dbc468e047cdee5
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="configure-address-books"></a><span data-ttu-id="a8384-103">Configurer les carnets d'adresses</span><span class="sxs-lookup"><span data-stu-id="a8384-103">Configure address books</span></span>

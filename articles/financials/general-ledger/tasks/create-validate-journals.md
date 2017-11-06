@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: ca58d2cfc1788f9a9d4659d52a4bccc255bcfd72
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-and-validate-journals"></a><span data-ttu-id="1d4f1-103">Créer et valider des journaux</span><span class="sxs-lookup"><span data-stu-id="1d4f1-103">Create and validate journals</span></span>

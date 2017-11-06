@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: d3d5324a6a70539a2b2ba5bb208a546934a7782f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-a-product"></a><span data-ttu-id="79807-103">Créer un produit</span><span class="sxs-lookup"><span data-stu-id="79807-103">Create a product</span></span>

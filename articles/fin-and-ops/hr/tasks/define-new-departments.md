@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 36cf78bb9d97b1551ebfac6bf5f3f17ebbc78c6f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="define-new-departments"></a><span data-ttu-id="2b7da-103">Définir les nouveaux départements</span><span class="sxs-lookup"><span data-stu-id="2b7da-103">Define new departments</span></span>

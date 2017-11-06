@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: fc8dc0bc29c6bdb662c46808491abf5395f0be5d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-a-subcontracted-work-cell-for-lean-manufacturing"></a><span data-ttu-id="e99da-103">Créer une cellule de travail sous-traitée de lean manufacturing</span><span class="sxs-lookup"><span data-stu-id="e99da-103">Create a subcontracted work cell for lean manufacturing</span></span>

@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: adb759c59d7275e7323dbb760de56acdef2e3cff
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-a-vendor-bank-account"></a><span data-ttu-id="b94ac-103">Créer un compte bancaire fournisseur</span><span class="sxs-lookup"><span data-stu-id="b94ac-103">Create a vendor bank account</span></span>

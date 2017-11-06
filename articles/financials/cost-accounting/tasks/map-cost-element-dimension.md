@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 3ff31db3dbb6da9570bb85bbcaa3b444852d91d7
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="map-a-cost-element-dimension"></a><span data-ttu-id="97e1d-103">Mapper une dimension d'élément de coût</span><span class="sxs-lookup"><span data-stu-id="97e1d-103">Map a cost element dimension</span></span>

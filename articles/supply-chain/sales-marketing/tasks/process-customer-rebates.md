@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 348793abc6d219f38bcdc2629b77343d93927005
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="generate-and-process-customer-rebates"></a><span data-ttu-id="7e713-103">Générer et traiter les remises client</span><span class="sxs-lookup"><span data-stu-id="7e713-103">Generate and process customer rebates</span></span>

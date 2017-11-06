@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 4f2f1f1206f3cb3534ef93923d4945bb63814514
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="close-the-fiscal-year"></a><span data-ttu-id="909ef-103">Clôturer l'exercice</span><span class="sxs-lookup"><span data-stu-id="909ef-103">Close the fiscal year</span></span>

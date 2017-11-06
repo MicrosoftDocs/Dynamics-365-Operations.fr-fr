@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 512e24b5d0e20f00890e2a9abfe45b660a913913
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="define-model-mapping-and-select-data-sources-for-electronic-reporting-er"></a><span data-ttu-id="51f16-103">Définir le mappage de modèles et sélectionner des sources de données pour la gestion des états électroniques (ER)</span><span class="sxs-lookup"><span data-stu-id="51f16-103">Define model mapping and select data sources for electronic reporting (ER)</span></span>

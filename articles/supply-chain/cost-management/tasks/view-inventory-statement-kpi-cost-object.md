@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 6c83ac2ba2d93dfb0b453a93e92376f09dd86083
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="view-inventory-statement-and-kpi-by-cost-object"></a><span data-ttu-id="dbe1b-103">Afficher la déclaration de stock et les KPI par objet de coût</span><span class="sxs-lookup"><span data-stu-id="dbe1b-103">View inventory statement and KPI by cost object</span></span>

@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: b4c1b39bcae1fa3830f3a217d1ad89e84cd72134
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="split-a-fixed-asset"></a><span data-ttu-id="dfe31-103">Fractionner une immobilisation</span><span class="sxs-lookup"><span data-stu-id="dfe31-103">Split a fixed asset</span></span>

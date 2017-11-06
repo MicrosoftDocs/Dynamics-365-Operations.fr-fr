@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 665dd5868b9a731caf9c847b7ca33f039fe083e3
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="loan-items-to-a-worker"></a><span data-ttu-id="fa39c-103">Articles prêtés à un travailleur</span><span class="sxs-lookup"><span data-stu-id="fa39c-103">Loan items to a worker</span></span>

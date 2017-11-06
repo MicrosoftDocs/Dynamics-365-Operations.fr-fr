@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 5936196d4772c8fcfcc8a00767d17268f6609cde
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-new-users"></a><span data-ttu-id="a66f3-103">Création de nouveaux utilisateurs</span><span class="sxs-lookup"><span data-stu-id="a66f3-103">Create new users</span></span>

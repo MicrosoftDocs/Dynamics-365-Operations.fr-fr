@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: 5cd9448c95b7ec0c4a82aca3d21d961259dfb109
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="audit-invoices-and-key-data-in-accounts-payable"></a><span data-ttu-id="57291-103">Auditer les factures et les données clés dans la comptabilité fournisseur</span><span class="sxs-lookup"><span data-stu-id="57291-103">Audit invoices and key data in accounts payable</span></span>

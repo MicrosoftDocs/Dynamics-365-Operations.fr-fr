@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 75b91ea330258a5b57e9e58cb32539d57e458f28
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="end-a-production-order"></a><span data-ttu-id="c1fd0-103">Terminer un ordre de fabrication</span><span class="sxs-lookup"><span data-stu-id="c1fd0-103">End a production order</span></span>

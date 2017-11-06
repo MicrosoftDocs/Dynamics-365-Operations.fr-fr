@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 7d299657758b1e1322aef07bfe8c71f7bf00b0ca
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="process-ledger-allocation-journal"></a><span data-ttu-id="3cd27-103">Traiter le journal de répartition comptable</span><span class="sxs-lookup"><span data-stu-id="3cd27-103">Process ledger allocation journal</span></span>

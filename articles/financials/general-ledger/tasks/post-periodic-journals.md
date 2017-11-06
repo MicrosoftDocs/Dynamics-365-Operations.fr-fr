@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: 8eae11e0501db78e467e517b29a2bc19f5765e75
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="post-periodic-journals"></a><span data-ttu-id="e5a6a-103">Valider des journaux périodiques</span><span class="sxs-lookup"><span data-stu-id="e5a6a-103">Post periodic journals</span></span>

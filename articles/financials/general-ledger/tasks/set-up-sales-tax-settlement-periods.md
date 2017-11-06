@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: ab7d3a00a327f42a9f70c954d9b64a360a7f9163
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a><span data-ttu-id="02c85-103">Paramétrer des périodes de règlement fiscal</span><span class="sxs-lookup"><span data-stu-id="02c85-103">Set up sales tax settlement periods</span></span>

@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: 35fdc1e98897d449ce18fe38cc6b7896ca5c5278
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="manage-model-mapping-configurations-for-electronic-reporting-er"></a><span data-ttu-id="9cf68-103">Gérer des configurations de mappage de modèle pour la gestion des états électroniques (ER)</span><span class="sxs-lookup"><span data-stu-id="9cf68-103">Manage model mapping configurations for electronic reporting (ER)</span></span>

@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: c1c08bb05b7f6b57cfc8c86a1d0c0d1a7cc2ce5a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="propose-fixed-asset-acquisitions"></a><span data-ttu-id="f8849-103">Proposer des acquisitions d'immobilisations</span><span class="sxs-lookup"><span data-stu-id="f8849-103">Propose fixed asset acquisitions</span></span>

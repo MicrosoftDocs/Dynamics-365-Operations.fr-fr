@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
 ms.openlocfilehash: 2f35727376812b0de428ce929ebe0d33bc497984
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="modify-a-format-by-reapplying-a-microsoft-excel-template-for-electronic-reporting-er"></a><span data-ttu-id="c242b-103">Modifier un format de gestion d'états électroniques en réappliquant un modèle Microsoft Excel (ER)</span><span class="sxs-lookup"><span data-stu-id="c242b-103">Modify a format by reapplying a Microsoft Excel template for electronic reporting (ER)</span></span>

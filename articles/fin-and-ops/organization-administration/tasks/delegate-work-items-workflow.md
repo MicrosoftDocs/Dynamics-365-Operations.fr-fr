@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: 4765fec0cdce0e2f8859c979ff97d20aa6b20bfa
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="delegate-work-items-in-a-workflow"></a><span data-ttu-id="7f3c4-103">Délégation d'éléments de travail dans un workflow</span><span class="sxs-lookup"><span data-stu-id="7f3c4-103">Delegate work items in a workflow</span></span>

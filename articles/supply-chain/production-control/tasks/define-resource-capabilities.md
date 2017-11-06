@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 99c230c0e6a580f77d863b6f0be298615966c479
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="define-resource-capabilities"></a><span data-ttu-id="0ec98-103">Définir des capacités de ressources</span><span class="sxs-lookup"><span data-stu-id="0ec98-103">Define resource capabilities</span></span>

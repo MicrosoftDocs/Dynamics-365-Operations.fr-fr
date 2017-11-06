@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: d2dac4d1799a958b6eff4c7aa134fe0b136089ca
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="change-the-banner-or-logo"></a><span data-ttu-id="9d450-103">Modifier la bannière ou le logo</span><span class="sxs-lookup"><span data-stu-id="9d450-103">Change the banner or logo</span></span>

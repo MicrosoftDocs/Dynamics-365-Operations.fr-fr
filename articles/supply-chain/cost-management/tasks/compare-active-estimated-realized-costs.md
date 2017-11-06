@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 1429229096e8aa06bab982f07d0281bbbd5f7861
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="compare-active-estimated-and-realized-costs-on-a-production-order"></a><span data-ttu-id="a17fe-103">Comparer les coûts actifs, estimés et exécutés sur un ordre de fabrication</span><span class="sxs-lookup"><span data-stu-id="a17fe-103">Compare active, estimated, and realized costs on a production order</span></span>

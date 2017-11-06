@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: f702690f72b3e299f6c2744da326a23d5753eb5d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-call-center-orders"></a><span data-ttu-id="08615-103">Créer des commandes de centre d'appels</span><span class="sxs-lookup"><span data-stu-id="08615-103">Create call center orders</span></span>

@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: bef33595a09ea54ba246a04b5a838013c6d65271
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-a-new-benefit"></a><span data-ttu-id="0479e-103">Créer un avantage</span><span class="sxs-lookup"><span data-stu-id="0479e-103">Create a new benefit</span></span>

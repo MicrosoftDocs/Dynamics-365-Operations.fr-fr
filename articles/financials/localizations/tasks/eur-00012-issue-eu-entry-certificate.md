@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: ff00ff0df3835ee2cbf21219ad6f07bfeba6e7ac
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="issue-an-eu-entry-certificate"></a><span data-ttu-id="5b36e-103">Émettre un certificat d'entrée de l'UE</span><span class="sxs-lookup"><span data-stu-id="5b36e-103">Issue an EU entry certificate</span></span>

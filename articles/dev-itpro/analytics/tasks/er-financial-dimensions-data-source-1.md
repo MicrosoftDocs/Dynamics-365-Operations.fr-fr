@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: d8a03c4b85666975a7b42d46f3afdd35019e9b93
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="design-data-model-to-use-financial-dimensions-as-a-data-source-for-electronic-reporting-er"></a><span data-ttu-id="fdca1-103">Concevoir le modèle de données pour utiliser les dimensions financières comme source de données pour la gestion des états électroniques (ER)</span><span class="sxs-lookup"><span data-stu-id="fdca1-103">Design data model to use financial dimensions as a data source for electronic reporting (ER)</span></span>

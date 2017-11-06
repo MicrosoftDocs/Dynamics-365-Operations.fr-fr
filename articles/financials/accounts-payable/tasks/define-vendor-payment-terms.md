@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: a00ca73b1bc301960132a86846749d12c39ed3f7
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="define-vendor-payment-terms"></a><span data-ttu-id="c43bd-103">Définir les conditions de paiement fournisseur</span><span class="sxs-lookup"><span data-stu-id="c43bd-103">Define vendor payment terms</span></span>

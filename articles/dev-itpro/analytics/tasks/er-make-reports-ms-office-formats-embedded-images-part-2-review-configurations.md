@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: dcc162a4c0ba81079eefb7564ab037c1287acd92
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="review-configurations-to-make-reports-in-microsoft-office-formats-with-embedded-images-for-electronic-reporting-er"></a><span data-ttu-id="3cd9f-103">Passer en revue les configurations pour générer des états aux formats Microsoft Office avec des images intégrées pour la gestion des états électroniques (ER)</span><span class="sxs-lookup"><span data-stu-id="3cd9f-103">Review configurations to make reports in Microsoft Office formats with embedded images for electronic reporting (ER)</span></span>

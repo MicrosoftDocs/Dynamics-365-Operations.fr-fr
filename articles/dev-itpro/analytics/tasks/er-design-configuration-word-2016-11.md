@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: d602e07548d22bcdee3f375c3c327c0e8963c3b4
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="design-a-configuration-for-generating-reports-in-microsoft-word-format-for-electronic-reporting-er"></a><span data-ttu-id="18e9b-103">Définir une configuration pour générer des états au format Microsoft Word pour la gestion des états électroniques (ER)</span><span class="sxs-lookup"><span data-stu-id="18e9b-103">Design a configuration for generating reports in Microsoft Word format for electronic reporting (ER)</span></span>

@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 2705008908699bda9479eb54a4827c71f402b603
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-and-associate-a-hardware-station"></a><span data-ttu-id="9e2cc-103"> Créer et associer une station matérielle</span><span class="sxs-lookup"><span data-stu-id="9e2cc-103">Create and associate a hardware station</span></span>

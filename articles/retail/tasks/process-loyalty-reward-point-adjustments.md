@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: c0e0dc345903f9b2df0a1cd38b9b8d5a65b33afe
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="process-loyalty-reward-point-adjustments"></a><span data-ttu-id="cfc7a-103"> Traiter les ajustements de points de récompense de fidélité</span><span class="sxs-lookup"><span data-stu-id="cfc7a-103">Process loyalty reward point adjustments</span></span>

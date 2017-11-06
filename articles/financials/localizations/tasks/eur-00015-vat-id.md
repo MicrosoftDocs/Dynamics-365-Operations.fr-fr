@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: 20f64385b988ff48d865d2d521a9e580dc04c4a2
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="set-up-vat-id"></a><span data-ttu-id="9ab2c-103">Paramétrer l'ID de TVA</span><span class="sxs-lookup"><span data-stu-id="9ab2c-103">Set up VAT ID</span></span>

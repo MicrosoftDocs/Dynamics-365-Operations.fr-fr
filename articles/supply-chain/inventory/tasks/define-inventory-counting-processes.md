@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: c14c846c55a3d821945160835817cd4f467deda9
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="define-inventory-counting-processes"></a><span data-ttu-id="d9f88-103">Définir les processus de comptage d'inventaire</span><span class="sxs-lookup"><span data-stu-id="d9f88-103">Define inventory counting processes</span></span>

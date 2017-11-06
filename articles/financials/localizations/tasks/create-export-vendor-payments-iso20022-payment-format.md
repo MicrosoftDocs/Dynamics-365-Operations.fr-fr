@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 7cc90bc86cd489b124a806c480632dd53ba47f3f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-and-export-vendor-payments-using-iso20022-payment-format"></a><span data-ttu-id="0bf50-103">Créer et exporter des paiements fournisseur à l'aide du format de paiement ISO20022</span><span class="sxs-lookup"><span data-stu-id="0bf50-103">Create and export vendor payments using ISO20022 payment format</span></span>

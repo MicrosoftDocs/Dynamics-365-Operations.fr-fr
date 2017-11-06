@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 412a8c7acca06fc1be073019f91144e2a3f1c94b
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-a-purchase-order-from-a-sales-order"></a><span data-ttu-id="7686e-103">Création d'une commande fournisseur à partir d'une commande client</span><span class="sxs-lookup"><span data-stu-id="7686e-103">Create a purchase order from a sales order</span></span>

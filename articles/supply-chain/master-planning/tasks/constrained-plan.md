@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: 59c6a4a2b239b3fd6b6ddc8f06bfd007f0191f0a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="generate-a-constrained-plan"></a><span data-ttu-id="f0c03-103">Générer un plan avec contrainte</span><span class="sxs-lookup"><span data-stu-id="f0c03-103">Generate a constrained plan</span></span>

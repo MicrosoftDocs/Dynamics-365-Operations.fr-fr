@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: a0edbe6de43a1c99e2e5d8507f9190e6a7b04b8e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="enroll-and-remove-benefits-from-workers"></a><span data-ttu-id="293e6-103">Inscrire et annuler l'inscription des travailleurs à des avantages</span><span class="sxs-lookup"><span data-stu-id="293e6-103">Enroll and remove benefits from workers</span></span>

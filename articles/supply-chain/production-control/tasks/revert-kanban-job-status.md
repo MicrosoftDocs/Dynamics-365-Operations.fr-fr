@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 55d359232da5f3087b1e6baed182a20da09aeff7
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="revert-kanban-job-status"></a><span data-ttu-id="9fd1c-103">Rétablir le statut de l'opération kanban</span><span class="sxs-lookup"><span data-stu-id="9fd1c-103">Revert kanban job status</span></span>

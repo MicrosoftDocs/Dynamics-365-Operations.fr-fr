@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 036bd9f592ca584afad9d4b9b7a49a9787076056
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="copy-a-formula"></a><span data-ttu-id="70d77-103">Copier une formule</span><span class="sxs-lookup"><span data-stu-id="70d77-103">Copy a formula</span></span>

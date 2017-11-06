@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: d83713f9d54b396a10894995024ac1c8dd47a6f1
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="set-up-postdated-checks"></a><span data-ttu-id="58e8f-103">Paramétrage de chèques postdatés</span><span class="sxs-lookup"><span data-stu-id="58e8f-103">Set up postdated checks</span></span>

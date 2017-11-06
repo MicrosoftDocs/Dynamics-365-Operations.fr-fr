@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: acd6a8076288d8d1d1aa05af33e306c6a29780f7
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-payments-for-a-customer-who-have-direct-debit-mandates"></a><span data-ttu-id="60244-103">Créer des paiements pour les clients qui ont des mandats de débit direct</span><span class="sxs-lookup"><span data-stu-id="60244-103">Create payments for a customer who have direct debit mandates</span></span>

@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 775428bf84a752c03c492e764fa9ed576ab64fb8
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-a-schedule-for-a-site"></a><span data-ttu-id="8489b-103">Créer un programme pour un site</span><span class="sxs-lookup"><span data-stu-id="8489b-103">Create a schedule for a site</span></span>

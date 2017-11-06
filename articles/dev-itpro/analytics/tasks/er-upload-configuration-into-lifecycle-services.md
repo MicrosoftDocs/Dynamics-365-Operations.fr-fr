@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: d24679a380ec824fe08c56aacb4bc348ff40440a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="upload-a-configuration-into-lifecycle-services-for-electronic-reporting-er"></a><span data-ttu-id="b138e-103">Importer une configuration dans Lifecycle Services pour la gestion des états électroniques (ER)</span><span class="sxs-lookup"><span data-stu-id="b138e-103">Upload a configuration into Lifecycle Services for electronic reporting (ER)</span></span>

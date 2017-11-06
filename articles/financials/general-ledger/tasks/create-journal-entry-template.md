@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 055fe129b9fc9cf50e1d9e1a5b4cb77285f20c92
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-a-journal-entry-using-a-template"></a><span data-ttu-id="e6d74-103">Créer une entrée de journal à l'aide d'un modèle</span><span class="sxs-lookup"><span data-stu-id="e6d74-103">Create a journal entry using a template</span></span>

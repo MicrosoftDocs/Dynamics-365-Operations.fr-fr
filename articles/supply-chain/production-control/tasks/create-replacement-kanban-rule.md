@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: e5b27200a8d56192d473887f01076eced0f92e4c
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-a-replacement-kanban-rule"></a><span data-ttu-id="d428d-103">Créer une règle de kanban de remplacement</span><span class="sxs-lookup"><span data-stu-id="d428d-103">Create a replacement kanban rule</span></span>

@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 3db13646c82ea6dc6949aaa714a5769f9c5ad2a9
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="add-variant-products-to-purchase-orders-using-variant-weights"></a><span data-ttu-id="20e64-103">Ajouter des variantes de produits à des commandes fournisseur à l'aide des poids des variantes</span><span class="sxs-lookup"><span data-stu-id="20e64-103">Add variant products to purchase orders using variant weights</span></span>

@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 551048af26f46d334c562d1968963aed262a5e03
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="assign-users-to-security-roles"></a><span data-ttu-id="bf326-103">Affecter des utilisateurs à des rôles de sécurité</span><span class="sxs-lookup"><span data-stu-id="bf326-103">Assign users to security roles</span></span>

@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: ffc58d2afe73fa2290e4e73a058d47ffd64b8d54
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="approve-vendors-for-specific-products"></a><span data-ttu-id="308c8-103">Approuver des fournisseurs pour des produits spécifiques</span><span class="sxs-lookup"><span data-stu-id="308c8-103">Approve vendors for specific products</span></span>

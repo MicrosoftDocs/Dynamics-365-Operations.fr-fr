@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 02c7133d2e02b27fb428874deeda21e2bab28fb6
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-a-withdrawal-kanban-rule"></a><span data-ttu-id="93a18-103">Créer une règle de kanban de retrait</span><span class="sxs-lookup"><span data-stu-id="93a18-103">Create a withdrawal kanban rule</span></span>

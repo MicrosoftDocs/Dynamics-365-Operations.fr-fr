@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 2ce545650ee5d6151aa65d6e15b6b7bdcd6550e6
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="collaborate-with-internal-supply-chain-customers"></a><span data-ttu-id="15c1a-103">Collaborer avec les clients de la chaîne d'approvisionnement interne</span><span class="sxs-lookup"><span data-stu-id="15c1a-103">Collaborate with internal supply chain customers</span></span>

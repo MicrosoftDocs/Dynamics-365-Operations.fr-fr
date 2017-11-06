@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 2e269ef7b33b4d7e171d284d68d28c825c2fe86c
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="modify-a-demand-forecast-manually"></a><span data-ttu-id="c3f14-103">Modifier une prévision de la demande manuellement</span><span class="sxs-lookup"><span data-stu-id="c3f14-103">Modify a demand forecast manually</span></span>

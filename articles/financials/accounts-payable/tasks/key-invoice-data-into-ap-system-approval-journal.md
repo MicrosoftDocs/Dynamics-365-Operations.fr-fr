@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 604345d357e5019e334017b2b6d0413f40818acc
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="key-invoice-data-into-accounts-payable-using-an-approval-journal"></a><span data-ttu-id="de956-103">Indexer les données de facturation dans la comptabilité fournisseur à l'aide d'un journal d'approbation</span><span class="sxs-lookup"><span data-stu-id="de956-103">Key invoice data into accounts payable using an approval journal</span></span>

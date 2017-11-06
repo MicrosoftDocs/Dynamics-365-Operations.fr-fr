@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 6a947d4a5302c6ed1848396d50cfbfcb78aabf97
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="add-a-kanban-quantity-calculation-policy-to-a-kanban-rule"></a><span data-ttu-id="b6cb0-103">Ajouter une stratégie de calcul de quantité kanban à une règle de kanban</span><span class="sxs-lookup"><span data-stu-id="b6cb0-103">Add a kanban quantity calculation policy to a kanban rule</span></span>

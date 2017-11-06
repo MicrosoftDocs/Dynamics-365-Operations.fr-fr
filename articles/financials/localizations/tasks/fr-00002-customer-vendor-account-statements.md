@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: 00665b7f6bd18305f61573f3b62bbc1ff2605475
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="customer-and-vendor-account-statements-france"></a><span data-ttu-id="3ecf1-103">Relevés de compte client et fournisseur (France)</span><span class="sxs-lookup"><span data-stu-id="3ecf1-103">Customer and vendor account statements (France)</span></span>

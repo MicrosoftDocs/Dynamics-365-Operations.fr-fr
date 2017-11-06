@@ -22,7 +22,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
 ms.openlocfilehash: bba06ade1a8681d304ce8c7290ee4593ea33b4cd
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="generate-affordable-care-act-reports"></a><span data-ttu-id="19a94-103">Générer des états sur la Loi sur les soins abordables</span><span class="sxs-lookup"><span data-stu-id="19a94-103">Generate Affordable Care Act reports</span></span>

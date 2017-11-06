@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: daa42bb83d6b988e8fd18db6ad8386c67fd3e6e5
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="cross-dock-products-from-receiving-warehouse-to-stores"></a><span data-ttu-id="5153d-103">Produits croisés entre l'entrepôt de réception et les magasins</span><span class="sxs-lookup"><span data-stu-id="5153d-103">Cross-dock products from receiving warehouse to stores</span></span>

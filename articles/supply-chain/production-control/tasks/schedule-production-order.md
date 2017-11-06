@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 4aeb51fd2d9e916d5838b47c4a6b74800572a9ca
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="schedule-a-production-order"></a><span data-ttu-id="058b2-103">Programmer un ordre de fabrication</span><span class="sxs-lookup"><span data-stu-id="058b2-103">Schedule a production order</span></span>

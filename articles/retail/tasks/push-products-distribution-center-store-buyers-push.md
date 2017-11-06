@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: dce0016ede691a70a6eb1bf3240fa595efec0241
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="push-products-from-distribution-center-to-store-using-buyers-push"></a><span data-ttu-id="a40bf-103"> Envoyer des produits du centre de distribution au magasin à l'aide de la procédure de réassort magasin</span><span class="sxs-lookup"><span data-stu-id="a40bf-103">Push products from distribution center to store using buyer's push</span></span>

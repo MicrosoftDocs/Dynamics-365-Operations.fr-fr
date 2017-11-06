@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: c44ce1219c0fc860d621aa32c8eec7c5d640fa03
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="set-up-fixed-asset-groups"></a><span data-ttu-id="4ec77-103">Paramétrer les groupes d'immobilisations</span><span class="sxs-lookup"><span data-stu-id="4ec77-103">Set up fixed asset groups</span></span>

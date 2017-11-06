@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: cecda03dd4d224d4319f2b0b196560389bb54195
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-a-purchase-release-order-from-a-purchase-agreement"></a><span data-ttu-id="365a8-103">Créer un ordre de lancement d'achat à partir d'un contrat d'achat</span><span class="sxs-lookup"><span data-stu-id="365a8-103">Create a purchase release order from a purchase agreement</span></span>

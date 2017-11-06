@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: c8e7bfbf6b51aca9cf8a7f800ac7db22c0330d00
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="configure-credit-card-processing"></a><span data-ttu-id="2b4c6-103"> Configurer le traitement de carte de crédit</span><span class="sxs-lookup"><span data-stu-id="2b4c6-103">Configure credit card processing</span></span>

@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: f01947840553a65af4aba1309d89f9b3e9ced872
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="set-up-vendors-and-vendor-bank-accounts-for-iso20022-credit-transfers"></a><span data-ttu-id="3b548-103">Paramétrer les fournisseurs et les comptes bancaires fournisseur pour les virements ISO20022</span><span class="sxs-lookup"><span data-stu-id="3b548-103">Set up vendors and vendor bank accounts for ISO20022 credit transfers</span></span>

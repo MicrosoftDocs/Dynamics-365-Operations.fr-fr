@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 6ee84da7fd055c8b0b50c43f134c0fc048ecfaeb
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-a-sales-tax-payment"></a><span data-ttu-id="1373b-103">Créer un paiement de taxe</span><span class="sxs-lookup"><span data-stu-id="1373b-103">Create a sales tax payment</span></span>

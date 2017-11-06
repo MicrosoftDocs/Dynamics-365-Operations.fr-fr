@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 646606237f593d24792a0ae072948f2e12782283
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-a-sales-order-for-a-configurable-product"></a><span data-ttu-id="04429-103">Créer une commande client pour un produit configurable</span><span class="sxs-lookup"><span data-stu-id="04429-103">Create a sales order for a configurable product</span></span>

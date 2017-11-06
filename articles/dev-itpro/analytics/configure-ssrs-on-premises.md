@@ -21,7 +21,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
 ms.openlocfilehash: 2a1f11641a2ec055cfaa0157ac9a40525daa4006
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="configure-sql-server-reporting-services-for-an-on-premises-deployment"></a><span data-ttu-id="87bae-103">Configurer SQL Server Reporting Services pour un déploiement sur site</span><span class="sxs-lookup"><span data-stu-id="87bae-103">Configure SQL Server Reporting Services for an on-premises deployment</span></span>

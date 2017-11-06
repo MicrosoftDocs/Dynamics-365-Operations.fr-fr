@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: 3579148033023f648e1a78a3dd009018f153fdad
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="enter-an-addition-to-a-fixed-asset"></a><span data-ttu-id="19c9d-103">Saisie d'un supplément à une immobilisation</span><span class="sxs-lookup"><span data-stu-id="19c9d-103">Enter an addition to a fixed asset</span></span>

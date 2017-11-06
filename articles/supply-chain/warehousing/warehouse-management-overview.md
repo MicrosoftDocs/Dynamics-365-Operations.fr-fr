@@ -18,7 +18,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
 ms.openlocfilehash: ed8baca264e3c277f9c1ff33b20f89f1fd6991c0
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="warehouse-management"></a><span data-ttu-id="f6443-103">Gestion des entrepôts</span><span class="sxs-lookup"><span data-stu-id="f6443-103">Warehouse management</span></span>

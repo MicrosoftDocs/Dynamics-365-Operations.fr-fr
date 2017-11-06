@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 4f99b3b71e46aae1e510cc24efe2f99f1a258fa1
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="define-continuity-schedules"></a><span data-ttu-id="03ba5-103"> Définir les programmes périodiques</span><span class="sxs-lookup"><span data-stu-id="03ba5-103">Define continuity schedules</span></span>

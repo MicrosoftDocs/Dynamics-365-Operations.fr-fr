@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: d7eb282ddf9597385d6660a3fc0ef73f403ab898
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="trace-an-item-or-raw-material"></a><span data-ttu-id="1920b-103">Suivre un article ou une matière première</span><span class="sxs-lookup"><span data-stu-id="1920b-103">Trace an item or raw material</span></span>

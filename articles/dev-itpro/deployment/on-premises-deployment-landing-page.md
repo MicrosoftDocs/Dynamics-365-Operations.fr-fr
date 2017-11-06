@@ -21,7 +21,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 61395e0e57eb02aaa1c95a7dbd9c15082b822701
 ms.openlocfilehash: 15992b1666caea21cdcf440fefcf65ff18111801
 ms.contentlocale: fr-fr
-ms.lasthandoff: 10/05/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="on-premises-deployment-landing-page"></a><span data-ttu-id="cbe68-103">Page de destination de déploiement sur site</span><span class="sxs-lookup"><span data-stu-id="cbe68-103">On-premises deployment landing page</span></span>

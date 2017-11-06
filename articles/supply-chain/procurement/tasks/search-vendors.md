@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: fa02b4fb6f309e55d0c74e477952e928ad8dfb12
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="search-for-vendors"></a><span data-ttu-id="fc92b-103">Rechercher des fournisseurs</span><span class="sxs-lookup"><span data-stu-id="fc92b-103">Search for vendors</span></span>

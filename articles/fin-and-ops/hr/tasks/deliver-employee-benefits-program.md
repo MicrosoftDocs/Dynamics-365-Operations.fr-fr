@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: ec99b86d77c1381b4323a5faaea0487752eee9ed
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="deliver-an-employee-benefits-program"></a><span data-ttu-id="39918-103">Communiquer le programme d'avantages à un employé</span><span class="sxs-lookup"><span data-stu-id="39918-103">Deliver an employee benefits program</span></span>

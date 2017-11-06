@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 30e5f6ad184720d0e119f86fb703ed7211b27fab
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="generate-a-transfer-document-for-an-internal-inventory-transfer"></a><span data-ttu-id="bbcc6-103">Générer un document de transfert pour un transfert de stock interne</span><span class="sxs-lookup"><span data-stu-id="bbcc6-103">Generate a transfer document for an internal inventory transfer</span></span>

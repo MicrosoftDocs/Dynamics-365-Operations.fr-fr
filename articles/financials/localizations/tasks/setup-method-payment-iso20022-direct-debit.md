@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: 3a884837ab0b5a1f4211532969619b54206bbef4
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="set-up-method-of-payment-for-iso20022-direct-debit"></a><span data-ttu-id="949d3-103">Paramétrer le mode de paiement pour le débit direct ISO20022</span><span class="sxs-lookup"><span data-stu-id="949d3-103">Set up method of payment for ISO20022 direct debit</span></span>

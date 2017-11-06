@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 45323206550d1b0ed66d89f4be7b995c60af63fc
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="maintain-bar-code-types"></a><span data-ttu-id="cf9a5-103">Mettre à jour les types de codes-barres</span><span class="sxs-lookup"><span data-stu-id="cf9a5-103">Maintain bar code types</span></span>

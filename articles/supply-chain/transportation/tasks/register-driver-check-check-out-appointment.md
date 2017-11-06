@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: dcafcb067717a1d0ca6f45a57628fe001d1074f2
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="register-driver-check-in-and-check-out-for-an-appointment"></a><span data-ttu-id="b4a06-103">Enregistrer l'arrivée et le départ d'un chauffeur pour un rendez-vous</span><span class="sxs-lookup"><span data-stu-id="b4a06-103">Register driver check-in and check-out for an appointment</span></span>

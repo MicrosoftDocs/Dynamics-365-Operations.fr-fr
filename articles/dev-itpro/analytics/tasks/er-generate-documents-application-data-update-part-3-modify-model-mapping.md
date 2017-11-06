@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: a29e273e5ef377826c0002a9a0a956defef6aa77
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="modify-model-and-mapping-to-generate-documents-with-application-data-update-for-electronic-reporting-er"></a><span data-ttu-id="cc70b-103">Modifier le modèle et le mappage pour générer des documents avec la mise à jour des données de l'application pour la gestion des états électroniques (ER)</span><span class="sxs-lookup"><span data-stu-id="cc70b-103">Modify model and mapping to generate documents with application data update for electronic reporting (ER)</span></span>

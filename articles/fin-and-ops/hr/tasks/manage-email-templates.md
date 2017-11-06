@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 1eeaf1675b6653ab2c8c04d05ec1bff3cd0bb18d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="manage-email-templates"></a><span data-ttu-id="bf237-103">Gérer les modèles d'e-mails</span><span class="sxs-lookup"><span data-stu-id="bf237-103">Manage email templates</span></span>

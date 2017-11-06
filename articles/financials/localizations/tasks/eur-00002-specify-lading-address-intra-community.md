@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: fc54b59f6cf8aec8d489955c57cbcf34c4e6be0a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="specify-a-lading-address-for-an-intra-community-transaction"></a><span data-ttu-id="c93a7-103">Spécifier une adresse de chargement pour une transaction intracommunautaire</span><span class="sxs-lookup"><span data-stu-id="c93a7-103">Specify a lading address for an intra-community transaction</span></span>

@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 1c81a1268a56164e0d4465359a0f9ec425ee7c31
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="map-components-of-the-created-format-to-data-model-elements-for-electronic-reporting-er"></a><span data-ttu-id="c2d10-103">Mapper les composants du format créé aux éléments de modèle de données pour la gestion des états électroniques (ER)</span><span class="sxs-lookup"><span data-stu-id="c2d10-103">Map components of the created format to data model elements for electronic reporting (ER)</span></span>

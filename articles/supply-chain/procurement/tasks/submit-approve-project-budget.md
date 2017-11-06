@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: 7b1a248082b1ec8a7321b4aa94886d147be6a2b3
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="submit-and-approve-project-budgets"></a><span data-ttu-id="0fa43-103">Envoyer et approuver les budgets des projets</span><span class="sxs-lookup"><span data-stu-id="0fa43-103">Submit and approve project budgets</span></span>

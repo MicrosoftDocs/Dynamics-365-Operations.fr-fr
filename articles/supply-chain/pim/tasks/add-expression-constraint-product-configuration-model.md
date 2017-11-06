@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 8db46c5b8361c96745b440c0d0684e18c06a6c6f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="add-an-expression-constraint-to-a-product-configuration-model"></a><span data-ttu-id="03252-103">Ajouter une contrainte d'expression à un modèle de configuration de produit</span><span class="sxs-lookup"><span data-stu-id="03252-103">Add an expression constraint to a product configuration model</span></span>

@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: fadc5bc54654faf9e91e0831bdd0ff087cea3164
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="design-a-domain-specific-data-model-for-electronic-reporting-er"></a><span data-ttu-id="09498-103">Concevoir un modèle de données spécifique au domaine pour la gestion des états électroniques (ER)</span><span class="sxs-lookup"><span data-stu-id="09498-103">Design a domain-specific data model for electronic reporting (ER)</span></span>

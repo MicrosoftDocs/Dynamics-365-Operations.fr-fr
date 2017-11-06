@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: e40fca0d03d76b6aed118f3fbb59a6893f8da94b
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="manage-benefit-expiration-dates"></a><span data-ttu-id="a473d-103">Gérer les dates d'expiration des avantages</span><span class="sxs-lookup"><span data-stu-id="a473d-103">Manage benefit expiration dates</span></span>

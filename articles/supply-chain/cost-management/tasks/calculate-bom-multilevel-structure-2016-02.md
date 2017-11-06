@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 16c2cacaf70df5455c3ed49b8dcb5756e89f8cb8
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="calculate-a-bom-by-using-a-multilevel-structure-february-2016-only"></a><span data-ttu-id="e7bc9-103">Calculer une nomenclature à l'aide d'une structure à plusieurs niveaux (février 2016 uniquement)</span><span class="sxs-lookup"><span data-stu-id="e7bc9-103">Calculate a BOM by using a multilevel structure (February 2016 only)</span></span>

@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: 0fa4b57825bcf81778d91ee01484511bb40f6bd7
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="export-a-letter-of-credit"></a><span data-ttu-id="fe1af-103">Exporter une lettre de crédit</span><span class="sxs-lookup"><span data-stu-id="fe1af-103">Export a letter of credit</span></span>

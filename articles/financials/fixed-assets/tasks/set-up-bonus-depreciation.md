@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 7e6ebb13084626b477b6e0b24acdc09e2c0d3d6d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="set-up-bonus-depreciation"></a><span data-ttu-id="3dc76-103">Paramétrage de l'amortissement de la prime</span><span class="sxs-lookup"><span data-stu-id="3dc76-103">Set up bonus depreciation</span></span>

@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 791ec304b9ea7c49fbea506d73c4daffd4478739
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="process-rebates-for-payment"></a><span data-ttu-id="c4e24-103">Traiter les remises pour le paiement</span><span class="sxs-lookup"><span data-stu-id="c4e24-103">Process rebates for payment</span></span>

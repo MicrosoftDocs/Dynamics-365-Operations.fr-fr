@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: 34fac03a0ff3d71a2349b66f8f85e4e124dcd708
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="report-as-finished-to-a-plate-controlled-location"></a><span data-ttu-id="786bf-103">Déclarer comme terminé à un emplacement de contrôle de contenant</span><span class="sxs-lookup"><span data-stu-id="786bf-103">Report as finished to a plate-controlled location</span></span> 

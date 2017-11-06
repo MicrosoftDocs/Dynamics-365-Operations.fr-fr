@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 71c0175178203006e297466c4a37cd3e6319b6ea
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="import-iso20022-credit-transfer-configuration"></a><span data-ttu-id="7c64d-103">Importer la configuration du virement ISO20022</span><span class="sxs-lookup"><span data-stu-id="7c64d-103">Import ISO20022 credit transfer configuration</span></span>

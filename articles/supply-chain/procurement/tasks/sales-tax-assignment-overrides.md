@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: 816e00e4238cb0d90a2aea9b2bc070d31504c2ce
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="sales-tax-assignment-and-overrides"></a><span data-ttu-id="116ac-103">Affectation et remplacement des taxes</span><span class="sxs-lookup"><span data-stu-id="116ac-103">Sales tax assignment and overrides</span></span>

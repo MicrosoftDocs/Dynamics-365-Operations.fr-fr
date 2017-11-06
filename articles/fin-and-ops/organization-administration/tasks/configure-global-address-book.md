@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: f2ce9dcbe095125f709abafe3cf9fb139f262b52
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="configure-the-global-address-book"></a><span data-ttu-id="4ade1-103">Configurer le carnet d'adresses global</span><span class="sxs-lookup"><span data-stu-id="4ade1-103">Configure the global address book</span></span>

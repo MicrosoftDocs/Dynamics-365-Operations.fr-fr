@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 752eab976f740606154d416678ba2381641697df
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="execute-kanban-process-jobs"></a><span data-ttu-id="b8fed-103">Exécuter les opérations de traitement du kanban</span><span class="sxs-lookup"><span data-stu-id="b8fed-103">Execute kanban process jobs</span></span>

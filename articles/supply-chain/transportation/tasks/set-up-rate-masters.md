@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: b7c02e5a6f5eeee270ca4b6f91e90f7799c2ca11
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="set-up-rate-masters"></a><span data-ttu-id="9ecbe-103">Paramétrer des tables maître des taux</span><span class="sxs-lookup"><span data-stu-id="9ecbe-103">Set up rate masters</span></span>

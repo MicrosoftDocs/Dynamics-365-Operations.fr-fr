@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 490e9a4beda43f6e32b87792b11153c3e8e322d6
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="journalize-posted-journal-entries"></a><span data-ttu-id="615a0-103">Journaliser les entrées de journal validées</span><span class="sxs-lookup"><span data-stu-id="615a0-103">Journalize posted journal entries</span></span>

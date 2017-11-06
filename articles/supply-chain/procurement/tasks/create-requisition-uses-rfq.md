@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: d97ccd15031b2f7398486eee4a716ecef5e9dafd
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-a-requisition-that-uses-an-rfq"></a><span data-ttu-id="6e7b2-103">Créer une demande qui emploie un appel d'offre</span><span class="sxs-lookup"><span data-stu-id="6e7b2-103">Create a requisition that uses an RFQ</span></span>

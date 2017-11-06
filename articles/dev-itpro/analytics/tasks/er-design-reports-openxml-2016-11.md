@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: 04def14ddf9b079005bf11acbcaf64b21aa80fdb
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="design-a-configuration-for-generating-reports-in-openxml-format-for-electronic-reporting-er"></a><span data-ttu-id="9a50e-103">Définir une configuration pour générer des états au format OpenXML pour la gestion des états électroniques (ER)</span><span class="sxs-lookup"><span data-stu-id="9a50e-103">Design a configuration for generating reports in OpenXML format for electronic reporting (ER)</span></span>

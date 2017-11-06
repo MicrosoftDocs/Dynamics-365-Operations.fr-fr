@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: ac3394a40bff3aaee6a76448633e4f36c4049612
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-a-bank-facility-agreement-for-a-letter-of-credit"></a><span data-ttu-id="75157-103">Créer un accord d'établissement bancaire pour une lettre de crédit</span><span class="sxs-lookup"><span data-stu-id="75157-103">Create a bank facility agreement for a letter of credit</span></span>

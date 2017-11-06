@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: b2844621bf50a385ad1a4770c0df2d97623dc77a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="generate-documents-with-application-data-update-for-electronic-reporting-er"></a><span data-ttu-id="290fd-103">Générer des documents avec la mise à jour des données de l'application pour la gestion des états électroniques (ER)</span><span class="sxs-lookup"><span data-stu-id="290fd-103">Generate documents with application data update for electronic reporting (ER)</span></span>

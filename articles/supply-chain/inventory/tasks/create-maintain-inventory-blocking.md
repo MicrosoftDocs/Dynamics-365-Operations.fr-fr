@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 7272349cf16b9459823a752b8d3df915f42606ef
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-and-maintain-inventory-blocking"></a><span data-ttu-id="75fe2-103">Créer et tenir à jour un blocage du stock</span><span class="sxs-lookup"><span data-stu-id="75fe2-103">Create and maintain inventory blocking</span></span>

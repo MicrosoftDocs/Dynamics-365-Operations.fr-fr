@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 5023ca589b3ab25d808a52a9162f27430bd69241
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-project-purchase-order"></a><span data-ttu-id="eddbe-103">Créer une commande fournisseur de projet</span><span class="sxs-lookup"><span data-stu-id="eddbe-103">Create project purchase order</span></span>

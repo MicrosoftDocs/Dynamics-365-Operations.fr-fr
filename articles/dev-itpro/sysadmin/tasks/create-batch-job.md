@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 31c8e2ba87ef8c17a3147e1159104585258d4164
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-a-batch-job"></a><span data-ttu-id="2bc6f-103">Création d'un traitement par lots</span><span class="sxs-lookup"><span data-stu-id="2bc6f-103">Create a batch job</span></span>

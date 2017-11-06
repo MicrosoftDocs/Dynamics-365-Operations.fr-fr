@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: b193cf6fbed810f0d5234514573d0f5c23c7b2c8
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="transfer-a-fixed-asset"></a><span data-ttu-id="0a54b-103">Transférer une immobilisation</span><span class="sxs-lookup"><span data-stu-id="0a54b-103">Transfer a fixed asset</span></span>

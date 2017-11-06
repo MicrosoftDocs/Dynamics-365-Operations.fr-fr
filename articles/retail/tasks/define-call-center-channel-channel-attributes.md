@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: c3d2f6785b9054ede7ea96ebd48c5d1f23e510e7
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="define-call-center-channel-and-channel-attributes"></a><span data-ttu-id="c716d-103"> Définir un canal de centre d'appels et les attributs du canal</span><span class="sxs-lookup"><span data-stu-id="c716d-103">Define call center channel and channel attributes</span></span>

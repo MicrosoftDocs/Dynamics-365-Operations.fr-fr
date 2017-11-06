@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 5a47af6910a9686e74ab6d1069dd02079e60cb8a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="prepare-a-process-kanban-job-when-materials-are-not-available-for-the-work-cell"></a><span data-ttu-id="d9116-103">Préparer une tâche de kanban de processus lorsque les matières ne sont pas disponibles pour la cellule de travail</span><span class="sxs-lookup"><span data-stu-id="d9116-103">Prepare a process kanban job when materials are not available for the work cell</span></span>

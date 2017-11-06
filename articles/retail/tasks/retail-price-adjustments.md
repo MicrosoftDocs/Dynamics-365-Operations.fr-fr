@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: dab14468713f9f23d20e7ca648711e2a4337cf7c
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="retail-price-adjustments"></a><span data-ttu-id="68948-103"> Ajustements de prix de la vente au détail</span><span class="sxs-lookup"><span data-stu-id="68948-103">Retail price adjustments</span></span>

@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: f62d07ffa1ee4a525f0f266922bc88e5ac8d5ada
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="define-vendor-payment-fees"></a><span data-ttu-id="813f7-103">Définir les commissions de paiement fournisseur</span><span class="sxs-lookup"><span data-stu-id="813f7-103">Define vendor payment fees</span></span>

@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: d6d0c50da3124553124b65f6ba0e1c5ed35e8613
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-a-kanban-rule-for-multiple-activities"></a><span data-ttu-id="aeec7-103">Créer une règle de kanban pour des activités multiples</span><span class="sxs-lookup"><span data-stu-id="aeec7-103">Create a kanban rule for multiple activities</span></span>

@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: f0894bf962c139c2e9e4c9f8d1589fd933afcedb
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="fulfill-sales-agreements"></a><span data-ttu-id="4bf88-103">Fournir des contrats de vente</span><span class="sxs-lookup"><span data-stu-id="4bf88-103">Fulfill sales agreements</span></span>

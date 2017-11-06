@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: fa72cb0d651f5e60797fa41f6e2b2cf1891730b5
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="count-inventory-in-a-warehouse"></a><span data-ttu-id="88063-103">Énumérer le stock dans un entrepôt</span><span class="sxs-lookup"><span data-stu-id="88063-103">Count inventory in a warehouse</span></span>

@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 0e6829238b244cc01b070fde6acdf37bdaeb9670
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="calculate-a-bom-by-using-a-single-level-structure-february-2016-only"></a><span data-ttu-id="a48cd-103">Calculer une nomenclature à l'aide d'une structure à un seul niveau (février 2016 uniquement)</span><span class="sxs-lookup"><span data-stu-id="a48cd-103">Calculate a BOM by using a single level structure (February 2016 only)</span></span>

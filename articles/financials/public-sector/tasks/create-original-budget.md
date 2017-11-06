@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 2f50cc6bf8ec533db677d290c52dbd711d7a1de8
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-an-original-budget-and-reverse-preliminary-budget-entries-in-the-public-sector"></a><span data-ttu-id="a82a7-103">Créer un budget d'origine, puis contrepasser les écritures budgétaires préliminaires dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="a82a7-103">Create an original budget and reverse preliminary budget entries in the public sector</span></span>

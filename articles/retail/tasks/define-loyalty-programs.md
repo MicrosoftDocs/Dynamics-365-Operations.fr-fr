@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 7a949d5cb4f01518b46bc4b1769de34196109050
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="define-loyalty-programs"></a><span data-ttu-id="9e7a7-103"> Définir les programmes de fidélité</span><span class="sxs-lookup"><span data-stu-id="9e7a7-103">Define loyalty programs</span></span>

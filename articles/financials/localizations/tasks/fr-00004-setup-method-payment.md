@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: 123767806836bb9d4a98e5f729ade8d0d7909b59
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="set-up-method-of-payment-france"></a><span data-ttu-id="1c818-103">Paramétrer un mode de paiement (France)</span><span class="sxs-lookup"><span data-stu-id="1c818-103">Set up method of payment (France)</span></span>

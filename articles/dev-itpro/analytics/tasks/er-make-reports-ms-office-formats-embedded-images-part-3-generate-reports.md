@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: 4fa27996e59164126f7900edf4a509ca9273e7c1
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="generate-reports-in-microsoft-office-formats-with-embedded-images-for-electronic-reporting-er"></a><span data-ttu-id="35e2e-103">Générer des états aux formats Microsoft Office avec des images intégrées pour la gestion des états électroniques (ER)</span><span class="sxs-lookup"><span data-stu-id="35e2e-103">Generate reports in Microsoft Office formats with embedded images for electronic reporting (ER)</span></span>

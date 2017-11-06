@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 97f0c4d8fe06ab2fc252b9543cb688306214c79f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="set-up-automatic-freight-reconciliation"></a><span data-ttu-id="f81a5-103">Paramétrer le rapprochement automatique des frais de transport</span><span class="sxs-lookup"><span data-stu-id="f81a5-103">Set up automatic freight reconciliation</span></span>

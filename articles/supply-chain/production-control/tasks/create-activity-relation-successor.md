@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: 75a76252cc3cb6f3e7516309a7d9a6f2d1934ccd
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-activity-relation-successor"></a><span data-ttu-id="08179-103">Créer une relation d'activité : Successeur</span><span class="sxs-lookup"><span data-stu-id="08179-103">Create activity relation: Successor</span></span>

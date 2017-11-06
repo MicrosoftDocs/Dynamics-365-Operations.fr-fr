@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: e8c3f861a53a3f5c2de29248523ff4efd5e1d072
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="post-online-sales-and-payments"></a><span data-ttu-id="5c6d3-103"> Valider les ventes et les paiements en ligne</span><span class="sxs-lookup"><span data-stu-id="5c6d3-103">Post online sales and payments</span></span>

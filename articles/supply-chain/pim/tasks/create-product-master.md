@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f944258e7efdd5c9eba7daf9a80c67058a6cc055
 ms.openlocfilehash: 6e5cf92f7736523faf25ac97278a8a273e14ff88
 ms.contentlocale: fr-fr
-ms.lasthandoff: 10/25/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-a-product-master"></a><span data-ttu-id="5fa14-103">Créer un produit générique</span><span class="sxs-lookup"><span data-stu-id="5fa14-103">Create a product master</span></span>

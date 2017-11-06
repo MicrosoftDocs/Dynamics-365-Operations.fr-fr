@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: f36544993a9280ae10489a19252bc105abd40ac9
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="schedule-kanban-jobs"></a><span data-ttu-id="23ddb-103">Planification des tâches de kanban</span><span class="sxs-lookup"><span data-stu-id="23ddb-103">Schedule kanban jobs</span></span>

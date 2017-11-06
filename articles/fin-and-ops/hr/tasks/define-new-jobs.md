@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 8f2d835bf1c29bdf7a9a247fdcf4db4490a64fce
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="define-new-jobs"></a><span data-ttu-id="fa276-103">Définir les nouvelles tâches</span><span class="sxs-lookup"><span data-stu-id="fa276-103">Define new jobs</span></span>

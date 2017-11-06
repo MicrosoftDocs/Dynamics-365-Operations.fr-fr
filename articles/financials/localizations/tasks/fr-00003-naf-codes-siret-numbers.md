@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: 59cb753ddeb1fb85e4237da5d5e136577992b755
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="naf-codes-and-siret-numbers-france"></a><span data-ttu-id="05db4-103">Codes NAF et numéros SIRET (France)</span><span class="sxs-lookup"><span data-stu-id="05db4-103">NAF codes and Siret numbers (France)</span></span>
