@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: b9897b1184e8159b20a45d4cedbba56baef31a3c
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a><span data-ttu-id="af1b4-103">Paramétrage d'une hiérarchie des catégories d'approvisionnement</span><span class="sxs-lookup"><span data-stu-id="af1b4-103">Set up a procurement category hierarchy</span></span>
