@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: f9b7a3ea23298e5121e161b93faa8f145fdd1860
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="enter-worker-information"></a>Saisir les informations du collaborateur

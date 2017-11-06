@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 253440d81edd6f71b52ae349398e3c6a895bf05c
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-a-new-warehouse-layout"></a>Créer une structure d'entrepôt

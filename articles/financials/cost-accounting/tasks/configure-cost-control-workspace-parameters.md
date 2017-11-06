@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 8ede40951d08e159358b713fc3dde46576a1b4e3
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="configure-cost-control-workspace-parameters"></a>Configurer les paramètres de l'espace de travail de contrôle des coûts

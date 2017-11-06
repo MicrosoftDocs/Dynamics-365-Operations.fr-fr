@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: e232ba1f5803f6dee148f23098563c99c1622cdf
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>Ajouter à votre journal de performances et envoyer l'éloge à une personne

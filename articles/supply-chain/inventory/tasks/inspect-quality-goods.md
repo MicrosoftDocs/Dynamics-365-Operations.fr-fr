@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: aeed7eab750c606ea0009fa7c51baf96e2f9de51
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="inspect-the-quality-of-goods"></a>Inspecter la qualité des marchandises

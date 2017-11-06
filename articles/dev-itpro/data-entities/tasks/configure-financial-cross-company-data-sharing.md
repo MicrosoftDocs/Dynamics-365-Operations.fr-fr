@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: 779722bd3acd10a85b089a4d30757b62293ea4e4
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="configure-financial-cross-company-data-sharing"></a>Configurer le partage de données financières entre sociétés

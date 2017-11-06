@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: 63efa66ea550ab91435155d5975c732288095593
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="post-protest-draw-bill-of-exchange-journal-france"></a>Valider le journal de création et de contestation des lettres de change (France)

@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: b971e72febbd78ff7c27ad2029e5061b978dc44e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="set-up-an-item-arrival-overview-profile"></a>Paramétrer un profil de vue d'ensemble des arrivées

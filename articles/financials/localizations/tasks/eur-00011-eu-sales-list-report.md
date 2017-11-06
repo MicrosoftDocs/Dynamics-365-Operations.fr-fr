@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: 820c18eaa8d94b67c9d246c818ea13f3bdceeb39
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="generate-an-eu-sales-list-report"></a>Générer un état Liste des ventes intracommunautaires

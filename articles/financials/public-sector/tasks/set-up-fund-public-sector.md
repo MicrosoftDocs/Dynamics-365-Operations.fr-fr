@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 8c0d2eabd0519b1029f3c0a33a502f3550adb6e4
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="set-up-a-fund-in-the-public-sector"></a>Paramétrer un fonds dans le secteur public

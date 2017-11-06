@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 8020a37bf0c725fc260574cfe87861aeb017519e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-a-fixed-quantity-kanban-rule-for-manufacturing"></a>Créer une règle de kanban de quantité fixe pour la fabrication

@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: e688527bd9ae3346fd2eede956ea673e340f59b8
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="generate-and-run-out-of-box-reports"></a> Générer et exécuter les états prêts à l'emploi

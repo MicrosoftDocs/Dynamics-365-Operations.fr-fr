@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 9a0f246bfe42dde0befdf5c4f01d2ad1e1200b12
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="remove-a-kanban-job-from-the-schedule"></a>Supprimer une tâche de kanban du programme

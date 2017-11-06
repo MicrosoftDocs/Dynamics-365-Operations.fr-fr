@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 5925f5423d596adc4326dfff4734de2afd80b5a8
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="change-the-ownership-of-consignment-inventory-based-on-production-demand"></a>Modifier la propriété du stock de consignation en fonction de la demande de production

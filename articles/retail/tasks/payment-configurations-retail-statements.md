@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: f12d8ac9be11b92eaef4acce094ae183906278d4
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="payment-configurations-for-retail-statements"></a> Configurations de paiements pour les relevés de vente au détail

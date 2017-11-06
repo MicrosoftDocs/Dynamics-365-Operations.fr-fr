@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 7b8d20561ff092bd64c17c5d9335e9f54a1d191b
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-a-mobile-device-menu-item-for-license-plate-consolidation"></a>Créer une option de menu d'appareil mobile pour la consolidation de contenants

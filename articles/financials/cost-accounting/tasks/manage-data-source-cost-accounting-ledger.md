@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 5735cabd5a1eab23fbe2b92cf1395110cb33a93c
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="manage-a-data-source-for-the-cost-accounting-ledger"></a>Gérer une source de données pour la comptabilité de contrôle de gestion

@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: cac676c9c6ebb6769fe7e30ac08a2c8334befc24
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="store-configurations-for-retail-statements"></a> Enregistrer les configurations pour les relevés de vente au détail

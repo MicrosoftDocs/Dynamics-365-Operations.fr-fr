@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: bb58c0a286379c148888bbf4c1b76619c22ea844
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="control-access-to-purchase-agreements-in-the-public-sector"></a>Contrôler l'accès aux contrats d'achat dans le secteur public

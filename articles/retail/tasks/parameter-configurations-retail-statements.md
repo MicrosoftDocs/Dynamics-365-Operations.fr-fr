@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 731a3ec06efa103ba663df83240c77dfe78bb7cd
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="parameter-configurations-for-retail-statements"></a> Configurations de paramètres pour des relevés de vente au détail

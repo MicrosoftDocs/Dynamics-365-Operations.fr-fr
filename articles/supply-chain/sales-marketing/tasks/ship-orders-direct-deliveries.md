@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: f674de4877dd2d6e6f1ff02f16a68cb4805d9864
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Expédier des commandes en tant que livraisons directes

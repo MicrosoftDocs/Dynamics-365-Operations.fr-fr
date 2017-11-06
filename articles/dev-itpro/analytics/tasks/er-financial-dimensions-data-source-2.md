@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: a3eafa7b66dcc0c2481d7eeaf98bed7f58e4be33
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="map-models--to-use-financial-dimensions-as-a-data-source-for-electronic-reporting-er"></a>Mapper des modèles pour utiliser les dimensions financières comme source de données pour la gestion des états électroniques (ER)

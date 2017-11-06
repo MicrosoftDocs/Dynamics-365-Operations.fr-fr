@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: 71e40351e8b54092d1bbcbc73c6da69073791b74
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-format-to-use-document-management-files-in-format-outputs-for-electronic-reporting-er"></a>Créer un format pour utiliser les fichiers de gestion des documents dans les sorties de format pour la gestion des états électroniques (ER)

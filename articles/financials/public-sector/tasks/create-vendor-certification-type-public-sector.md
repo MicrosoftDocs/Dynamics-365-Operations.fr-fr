@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 477a2a65aab7aa11aa909c0b91b0a650e374cfab
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-a-vendor-certification-type-in-the-public-sector"></a>Créer un type de certification fournisseur dans le secteur public

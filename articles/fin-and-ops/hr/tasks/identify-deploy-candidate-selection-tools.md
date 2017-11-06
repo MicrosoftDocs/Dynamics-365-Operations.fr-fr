@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 1eb6e6121d39f9fc089afe38354b96eb88e5501d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a>Identifier et déployer les outils de sélection de candidats

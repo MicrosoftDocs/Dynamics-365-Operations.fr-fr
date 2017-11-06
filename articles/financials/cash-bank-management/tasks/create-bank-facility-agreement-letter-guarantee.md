@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 7b6e35c922edeb3c3c7a33ff741a25e699242abf
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-a-bank-facility-agreement-for-the-letter-of-guarantee"></a>Créer un accord d'établissement bancaire pour la lettre de garantie

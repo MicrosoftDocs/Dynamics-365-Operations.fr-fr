@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: d19fb20e8cc941daeaa506e4bf1cb0c7031cf2ee
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="add-a-predecessor-to-a-production-flow-activity"></a>Ajouter un prédécesseur à une activité de flux de production

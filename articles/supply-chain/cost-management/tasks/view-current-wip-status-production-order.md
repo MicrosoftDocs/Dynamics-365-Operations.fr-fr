@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 69199caf5a6c75d2e6ad2e26c3097d15d6fe8d2e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="view-current-wip-status-on-a-production-order"></a>Afficher le statut actuel des travaux en cours d'un ordre de fabrication

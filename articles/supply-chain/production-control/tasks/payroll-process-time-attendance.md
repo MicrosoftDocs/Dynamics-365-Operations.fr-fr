@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 22ce633f65847f10fbe507b71bfc2bb33f595501
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="enable-the-payroll-process-for-time-and-attendance"></a>Activer le processus de paie pour le pointage

@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: b2286efd7cf10fdf6c77ff081a0405413610271f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-a-one-time-vendor-and-invoice-in-the-public-sector"></a>Créer un fournisseur occasionnel et une facture dans le secteur public
