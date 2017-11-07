@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 04817d1f1851e43679995641e8b0ff99edaa83ad
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-a-format-configuration-for-electronic-reporting-er"></a>Créer une configuration de format pour la gestion des états électroniques (ER)

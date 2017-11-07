@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: 0cd1de95630d0f7c40c3b9948015892623a93686
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="design-a-format-to-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-for-electronic-reporting-er"></a>Concevoir un format pour utiliser des plages extensibles horizontalement pour ajouter dynamiquement des colonnes dans les états Excel pour la gestion des états électroniques (ER)

@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: bfd3dd7f7b804eb53cee2f6a9a056ae1a693cfa6
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="category-pricing-rules-to-create-trade-agreements"></a> Règles de tarification de catégorie en vue de créer des accords commerciaux

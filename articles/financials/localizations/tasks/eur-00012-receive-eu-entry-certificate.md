@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: c16815a1b573f749153d7ae5bfccf53a2a76a19f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="receive-an-eu-entry-certificate"></a>Recevoir un certificat d'entrée de l'UE

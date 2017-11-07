@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: dbf8c9603fa620fc6c75d5b6c3fd143798b7f9ad
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="approve-and-post-draw-bill-of-exchange-france"></a>Approuver et valider la création des lettres de change client (France)

@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: 6b61495342b18d6dbadb36d8ca146f5a68ba9f6c
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="set-up-company-bank-accounts-for-iso20022-direct-debits"></a>Paramétrer les comptes bancaires de société pour les débits directs ISO20022

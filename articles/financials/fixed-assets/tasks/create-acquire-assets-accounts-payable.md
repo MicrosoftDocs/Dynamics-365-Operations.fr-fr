@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 9149378047fc22efbd401b7af86df07c1403e4f5
 ms.openlocfilehash: cfe920b2ef493ab3ae36a9557001086ed99c3e4e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 10/05/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-and-acquire-assets-from-accounts-payable"></a>Créer et acquérir des actifs à partir de la comptabilité fournisseur

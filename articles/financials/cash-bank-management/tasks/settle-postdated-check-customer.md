@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: a905166dcfbf8cee5b0e5831b47c95d443a74f8d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="settle-a-postdated-check-from-a-customer"></a>Règlement d'un chèque postdaté provenant d'un client

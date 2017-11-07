@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustPaymMode, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 264584
 ms.search.region: Switzerland
 ms.author: v-lenest

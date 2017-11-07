@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 24c7721a1e5467e98e6c4d245f1d8e24a973f5aa
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a>Céder des immobilisations à l'aide d'une facture financière

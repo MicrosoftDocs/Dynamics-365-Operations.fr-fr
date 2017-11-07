@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 80543780c423b5beac3ec57f4fa035e560aaa4ce
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="copy-co-products-from-an-existing-formula-version"></a>Copier les coproduits à partir d'une version de formule existante

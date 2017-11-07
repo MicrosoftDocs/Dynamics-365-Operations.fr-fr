@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: 35617f5bec877fbe8a89d015eda16a66ee14d335
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="complete-basic-setup-of-a-released-product-master"></a>Finaliser le paramétrage de base d'un produit générique lancé

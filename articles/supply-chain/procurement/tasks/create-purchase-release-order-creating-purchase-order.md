@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 194d811da09c746167bd9489ce39ae6a6f810ec0
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-a-purchase-release-order-when-creating-the-purchase-order"></a>Créer un ordre de lancement d'achat à la création de la commande fournisseur

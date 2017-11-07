@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: a6e6a58fecad57673508f428f041009147125dc0
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-and-transfer-transactions-to-the-blwi-belgium"></a>Création et transfert de transactions vers l'état BLWI (Belgique)

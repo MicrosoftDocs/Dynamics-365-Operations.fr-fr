@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: 94f706241545282fd2744c3be4edc253f2998aff
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="batch-order-lifecycle-from-create-to-start"></a>Cycle de vie d'un lot de commandes de la création au démarrage

@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: c570574d15bbc55b4d0d79b8e62d74adcc15b387
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="define-benefit-eligibility-rules-and-policies"></a>Définir les règles d'admissibilité et les stratégies relatives aux avantages

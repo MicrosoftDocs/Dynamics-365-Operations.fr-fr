@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 96c1bc711350b447611977c3f2070fbc08fbae0f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="set-up-number-sequences-by-using-a-wizard"></a>Configurer les souches de numéros à l'aide d'un assistant

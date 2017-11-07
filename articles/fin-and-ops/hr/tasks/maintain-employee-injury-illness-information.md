@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: e22ce4950b065e7e80bace3fcd5c0f7d6627d124
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="maintain-employee-injury-and-illness-information"></a>Mettre à jour des informations relatives aux blessures et aux maladies des employés

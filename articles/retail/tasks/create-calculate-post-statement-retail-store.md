@@ -20,7 +20,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 42ab631e29a7fae1140acd41ad80c13e55ca1404
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-calculate-and-post-a-statement-for-a-retail-store"></a> Créer, calculer et valider un relevé pour un magasin de vente au détail
