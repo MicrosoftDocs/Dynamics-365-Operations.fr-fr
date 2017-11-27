@@ -1,10 +1,9 @@
 # [Bienvenue dans Dynamics 365 for Talent](index.md)
 
-# Mise en route
+# [Mise en route](talent-get-started.md)
 ## [Configuration système et politique de mise à jour](talent-versions-update-policy.md)
 
-# Développer une stratégie RH
-## [Organisation du personnel à l'aide des départements, tâches et postes](departments-jobs-positions.md)
+# [Développer une stratégie RH](departments-jobs-positions.md)
 ## [Configurer les composants de tâche](create-job.md)
 ## [Créer un département et l'associer à la hiérarchie des départements](create-department-add-department-hierarchy.md)
 ## [Configuration des paramètres RH dans les entités juridiques](set-up-hr-parameters-across-legal-entities.md)
@@ -28,13 +27,11 @@
 ## [Aligner les qualifications du personnel aux besoins de l'entreprise](skills.md)
 ## [Configurer des cours de formation](courses.md)
 
-# Créer des avantages et les tenir à jour
-## [Gérer un programme d'avantages](manage-benefit-program.md)
-## [Stratégies de droit aux avantages](benefit-eligibility-policies.md)
-## [Gérer les articles prêtés aux employés](loan-items.md)
+# [Créer des avantages et les tenir à jour](manage-benefit-program.md)
+# [Stratégies de droit aux avantages](benefit-eligibility-policies.md)
+## [Gérer les articles prêtés aux collaborateurs](loan-items.md)
 
-# Réunir des informations à l'aide de questionnaires
-## [Questionnaires](questionnaires.md)
+# [Réunir des informations à l'aide de questionnaires](questionnaires.md)
 ## [Conception d'un questionnaire](design-questionnaires.md)
 ## [Distribuer et remplir un questionnaire](distribute-questionnaires.md)
 ## [Évaluer les résultats d'un questionnaire](evaluate-questionnaire-results.md)

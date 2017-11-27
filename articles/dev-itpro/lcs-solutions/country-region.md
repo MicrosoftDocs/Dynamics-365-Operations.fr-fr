@@ -3,24 +3,24 @@ title: "Fonctions locales et relatives aux réglementations"
 description: "Cette rubrique liste des ressources utiles pour en savoir plus sur les fonctionnalisés spécifiques aux pays/régions."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/30/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 104173
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: c73eeaaf28df8db720431d4bcd317c9721baa99d
-ms.openlocfilehash: fd01d40d3e74503e3e310132882306ed8c23ad1d
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 25c8c6c9bbccf07ce94a909824ecc8096081cd2c
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 
@@ -34,7 +34,7 @@ Microsoft Dynamics 365 for Finance and Operations inclut une fonctionnalité po
 Cette rubrique liste des ressources utiles pour en savoir plus sur les solutions, mises à jour, alertes et fonctionnalisés spécifiques aux pays/régions. 
 
 ## <a name="developing-localized-solutions"></a>Développement des solutions localisées
-Les ressources suivantes fournissent des instructions et des informations qui peuvent aider les développeurs et les éditeurs de logiciels qui créent des personnalisations spécifiques à un pays/une région ou une solution pour un pays non pris en charge par Microsoft.
+Les ressources suivantes fournissent des instructions et des informations qui peuvent aider les développeurs et les ISV qui créent des personnalisations spécifiques à un pays/une région ou une solution pour un pays non pris en charge par Microsoft.
 -   [Modèles distincts de localisation](separate-localization-models.md)
 -   [Appliquer le contexte pays/région](apply-country-context.md)
 -   [Certifications de réglementation](regulatory-certifications.md)
@@ -64,7 +64,7 @@ L'outil de gestion des états électroniques (ER) vous permet de configurer des 
 -   [Destinations pour la gestion des états électroniques](../analytics/electronic-reporting-destinations.md)
 -   [Télécharger les configurations d'états électroniques à partir de Lifecycle Services](../analytics/download-electronic-reporting-configuration-lcs.md)
 -   [Importer des configurations de gestion des états électroniques](../analytics/electronic-reporting-import-ger-configurations.md)
--   [Configurer la génération d'états électronique pour extraire les données dans Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [Configurer la Gestion des états électroniques pour extraire les données dans Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
 -   [Générer des documents électroniques et mettre à jour les données d'application à l'aide de l'outil de gestion des états électroniques](../analytics/generate-electronic-documents-update-application-data.md)
 
 ## <a name="task-guides"></a>Guides de tâches
