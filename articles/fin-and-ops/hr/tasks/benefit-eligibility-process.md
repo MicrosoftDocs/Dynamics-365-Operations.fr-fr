@@ -1,9 +1,9 @@
 --- 
 title: Processus de droit aux avantages
-description: "Cette procédure illustre le fonctionnement du processus d'admissibilité aux avantages."
+description: "Cette procédure décrit le fonctionnement du processus d'admissibilité aux avantages."
 author: kherr75
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 11/01/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,17 +16,17 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7c05c7613ee0d37d6bdfcb42f4e9611629d215bd
+ms.sourcegitcommit: 950237499441e7f1d5b9e3355c4bd9513ad3783e
+ms.openlocfilehash: 96cae919a865fe70203b50c2867365e1171b4175
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="benefit-eligibility-process"></a>Processus de droit aux avantages
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Cette procédure illustre le fonctionnement du processus d'admissibilité aux avantages. Lorsque le processus est terminé, vous pouvez afficher les résultats. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
+Cette procédure décrit le fonctionnement du processus d'admissibilité aux avantages. Lorsque le processus est terminé, vous pouvez afficher les résultats. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 
 1. Accédez à Ressources humaines > Avantages > Avantages.
 2. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.

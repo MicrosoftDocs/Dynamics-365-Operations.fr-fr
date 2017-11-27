@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: AgreementClassification, BudgetParameters, ProcCategoryHierarchyManagement, PurchTableListPage, smmActivities, VendCertificationType, VendTableListPage
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 19681
 ms.assetid: c99b2aeb-4ac2-4abe-b8b9-786b664c103d
 ms.search.region: Global
@@ -19,12 +19,11 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: f76e431320414b508728cbe9fe20456f107cbe40
-ms.openlocfilehash: cf1fbe904d70a26fb7692e921d0465707b8b422a
+ms.translationtype: HT
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: b00c7f2ee619bcae03f427a41162ad11999d68f5
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/09/2017
-
+ms.lasthandoff: 11/06/2017
 
 ---
 
@@ -139,7 +138,7 @@ Supposons que vous affichiez une ligne de commande fournisseur contenant des ach
 
  
 
-Pour plus d'informations, voir [Approvisionnements](/dynamics365/unified-operations/supply-chain/procurement/procurement-sourcing-overview) et [Comptabilité fournisseur dans le secteur public](accounts-payable-public-sector.md).
+Pour plus d'informations, voir [Approvisionnements](../../supply-chain/procurement/procurement-sourcing-overview.md) et [Comptabilité fournisseur dans le secteur public](accounts-payable-public-sector.md).
 
 
 

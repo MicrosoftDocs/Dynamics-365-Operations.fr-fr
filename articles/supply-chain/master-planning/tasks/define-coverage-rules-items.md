@@ -3,7 +3,7 @@ title: "Définir des règles de couverture pour les articles"
 description: "Les données fictives utilisées pour créer cette procédure correspondent à la société USMF."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 11/02/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 14f56c30753da9458d66a46da8935305619fd0b8
+ms.sourcegitcommit: 76334f7ee4efe33df4a86aaa11a59748387cec89
+ms.openlocfilehash: fe92393cc264df68f084db6974f7d4607d37d3ab
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="define-coverage-rules-for-items"></a>Définir des règles de couverture pour les articles
@@ -100,7 +100,7 @@ Les données fictives utilisées pour créer cette procédure correspondent à l
 4. Cliquez sur l'onglet Général.
 5. Activez la case à cocher sous l'en-tête Remplacer les paramètres du groupe de couverture.
 6. Entrez 60 dans le champ Plage de gestion de la couverture (jours).
-    * Même si des articles du groupe de couverture Besoin sont planifiés à 90 jours dans le futur, cet article sera planifié à 60 jours dans le futur.  
+    * Même si des articles du groupe de couverture Besoin sont planifiés à 90 jours dans le futur, cet article sera planifié à 60 jours dans le futur.  
 7. Entrez 2 dans le champ Jours négatifs.
 8. Entrez 2 dans le champ Jours positifs.
 9. Cliquez sur l'onglet Délai.

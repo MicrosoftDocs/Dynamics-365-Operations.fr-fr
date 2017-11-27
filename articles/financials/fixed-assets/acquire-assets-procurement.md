@@ -1,9 +1,9 @@
 ---
 title: "Acquérir les actifs via l'approvisionnement"
-description: "Cet article décrit comment paramétrer l'intégration entre Immobilisations et Comptabilité fournisseur pour créer automatiquement des immobilisations à partir de commandes fournisseur ou de factures fournisseur ou pour valider automatiquement des transactions d'acquisition et d'ajustement d'acquisition pour des immobilisations."
+description: "Cette rubrique décrit comment paramétrer l'intégration entre Immobilisations et Comptabilité fournisseur pour créer automatiquement des immobilisations à partir de commandes fournisseur ou de factures fournisseur ou pour valider automatiquement des transactions d'acquisition et d'ajustement d'acquisition pour des immobilisations."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: AssetParameters
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 3481
 ms.assetid: d4e73a3f-633b-48b2-b8db-7a4a59a4d7ec
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 84e7e6eb17e5741a2984c570786a495864ffbc74
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 1e9b1dc6297f33ea25ca498895740596ebd020b8
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Cet article décrit comment paramétrer l'intégration entre Immobilisations et Comptabilité fournisseur pour créer automatiquement des immobilisations à partir de commandes fournisseur ou de factures fournisseur ou pour valider automatiquement des transactions d'acquisition et d'ajustement d'acquisition pour des immobilisations.
+Cette rubrique décrit comment paramétrer l'intégration entre Immobilisations et Comptabilité fournisseur pour créer automatiquement des immobilisations à partir de commandes fournisseur ou de factures fournisseur ou pour valider automatiquement des transactions d'acquisition et d'ajustement d'acquisition pour des immobilisations.
 
  Vous devez choisir l'une des méthodes d'intégration suivantes disponibles pour Immobilisations et Achats et l'utiliser pour toutes les immobilisations :
 -   Vous créez manuellement une immobilisation avant d'ajouter le numéro d'immobilisation à la ligne correspondante de la commande fournisseur ou de la facture fournisseur. Une transaction d'acquisition est validée automatiquement pour l'actif lorsque vous validez la facture fournisseur. Il s'agit de la méthode par défaut.
@@ -53,7 +53,7 @@ S'il est impossible de valider une acquisition, vous pouvez entrer manuellement 
 > [!NOTE]                                                                                                                              
 > Si Immobilisations est configuré pour limiter la validation des transactions d'acquisition à un groupe d'utilisateurs spécifique, vous devez appartenir à celui-ci pour pouvoir valider des transactions d'acquisition à partir de factures.
 
-## <a name="methods-for-automatically-creating-fixed-assets"></a> Méthodes permettant de créer automatiquement des immobilisations
+## <a name="methods-for-automatically-creating-fixed-assets"></a>Méthodes permettant de créer automatiquement des immobilisations
 Lorsque vous validez un accusé de réception de marchandises dont l'option Créer une nouvelle immobilisation est sélectionnée pour une ligne, une immobilisation est créée avec le statut Pas encore acquise. Puis, lorsque vous validez une facture fournisseur avec une nouvelle immobilisation, une transaction d'acquisition est validée pour le nouvel actif et le statut de l'actif devient Ouvert(e), à condition qu'Immobilisations soit paramétré pour autoriser les acquisitions d'actif émanant d'Achats et que vous soyez membre d'un groupe d'utilisateurs autorisé à valider des transactions d'acquisition. 
 
 Si l'option Nouvelle immobilisation ? n'était pas activée sur la ligne d'achat lorsque vous avez validé l'accusé de réception de marchandises, mais l'était lorsque vous avez validé la facture fournisseur, l'immobilisation est créée et prend le statut Ouvert(e), si Immobilisations accepte la création et l'acquisition. Un actif supplémentaire n'est pas créé lorsque vous avez validé une facture fournisseur créée lors de la validation de l'accusé de réception de marchandises.

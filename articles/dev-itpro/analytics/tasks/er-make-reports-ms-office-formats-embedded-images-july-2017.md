@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 93a40f36e38ef5ea393cf429ad9244b56504bbfc
+ms.sourcegitcommit: 809a1466b0f4674f503bc654175d8f94b37a6508
+ms.openlocfilehash: f610fe4b7f265c4fc38db89938d5c208b4f7661a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="make-reports-in-microsoft-office-formats-with-embedded-images-for-electronic-reporting-er--part-1"></a>Générer des états aux formats Microsoft Office avec des images intégrées pour la gestion des états électroniques (ER) (partie 1) 
@@ -62,7 +62,7 @@ Dans cet exemple, vous utiliserez les configurations ER créées pour la sociét
 1. Fermez la page.
 2. Fermez la page.
 3. Accédez à Administration d'organisation > États électroniques > Configurations.
-4. Dans l'arborescence, sélectionnez « Modèle pour les chèques »
+4. Dans l'arborescence, sélectionnez « Modèle pour les chèques ».
 5. Cliquez sur Concepteur.
 6. Cliquez sur Mettre en correspondance le modèle à la source de données.
 7. Cliquez sur Concepteur.

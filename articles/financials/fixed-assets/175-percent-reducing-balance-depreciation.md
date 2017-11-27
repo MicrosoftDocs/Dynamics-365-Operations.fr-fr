@@ -1,9 +1,9 @@
 ---
-title: "Amortissements dégressifs de 175 %"
-description: "Cet article donne une vue d'ensemble de la méthode d'amortissement dégressif de 175 %."
+title: "Amortissement dégressif de 175 %"
+description: "Cette rubrique donne une vue d'ensemble de la méthode d'amortissement dégressif de 175 %."
 author: saraschi2
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/30/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 13911
 ms.assetid: cc5d001f-bcfe-4602-9ec1-9e265e9fd188
 ms.search.region: Global
@@ -19,19 +19,19 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 318e111f784157666c2853bcd6d5b3af2c9ffdc5
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: a61e743898e3e65c0012a7aeb9837e55e9143d01
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 
-# <a name="175-percent-reducing-balance-depreciation"></a>Amortissements dégressifs de 175 %
+# <a name="175-percent-reducing-balance-depreciation"></a>Amortissement dégressif de 175 %
 
 [!include[banner](../includes/banner.md)]
 
 
-Cet article donne une vue d'ensemble de la méthode d'amortissement dégressif de 175 %.
+Cette rubrique donne une vue d'ensemble de la méthode d'amortissement dégressif de 175 %.
 
 Si vous définissez un profil d'amortissement d'immobilisation, puis sélectionnez **Amortissement dégressif de 175 %** dans le champ **Méthode** de la page **Profils d'amortissement**, les immobilisations qui sont affectées à ce profil d'amortissement sont amorties par le même pourcentage pour chaque période d'amortissement. 
 
@@ -58,7 +58,7 @@ Si vous sélectionnez **Calendrier** comme année d'amortissement, les options s
 
 ### <a name="fiscal"></a>Exercice
 
-Si vous sélectionnez **Exercice** dans le champ **Année d'amortissement**, l'amortissement dégressif de 175 % est calculé sur la base de l'exercice du calendrier fiscal spécifié pour le registre, ou pour le calendrier fiscal sélectionné sur la page **Comptabilité**. Les calendriers fiscaux sont paramétrés sur la page **Calendriers fiscaux**. Pour plus d'informations, consultez [Calendriers fiscaux, exercices et périodes.](..\budgeting\fiscal-calendars-fiscal-years-periods.md).
+Si vous sélectionnez **Exercice** dans le champ **Année d'amortissement**, l'amortissement dégressif de 175 % est calculé sur la base de l'exercice du calendrier fiscal spécifié pour le registre, ou pour le calendrier fiscal sélectionné sur la page **Comptabilité**. Les calendriers fiscaux sont paramétrés sur la page **Calendriers fiscaux**. Pour plus d'informations, voir [Calendriers fiscaux, exercices, et périodes.](..\budgeting\fiscal-calendars-fiscal-years-periods.md).
 
 Par exemple, pour l'exercice allant du 1er juillet au 30 juin, le calcul de l'amortissement commence le 1er juillet. L'exercice peut avoir une longueur supérieure ou inférieure à 12 mois. L'amortissement est automatiquement ajusté en fonction de chaque période fiscale et la longueur de l'exercice suivant est déterminé par la définition des périodes fiscales sur la page **Calendriers fiscaux**. 
 

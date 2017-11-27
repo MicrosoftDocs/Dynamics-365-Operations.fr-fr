@@ -3,7 +3,7 @@ title: "Créer et affecter un code de partenaire commercial dans le secteur publ
 description: "Créez un code partenaire commercial et affectez le à une agence gouvernementale avec laquelle votre organisation entretient des relations commerciales."
 author: twheeloc
 manager: AnnBe
-ms.date: 02/12/2016
+ms.date: 10/30/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 2b838d49417023d46d5bd313d604de3974dda94b
+ms.sourcegitcommit: e57db8f4b692aa9c27916625897e268f63031782
+ms.openlocfilehash: 27ea0937f33c40a61e03cb8670ad790ef87dd4cf
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-and-assign-a-trading-partner-code-in-the-public-sector"></a>Créer et affecter un code de partenaire commercial dans le secteur public

@@ -3,7 +3,7 @@ title: "Rapprochement de factures et commandes fournisseur intersociétés"
 description: "L'entité juridique acheteuse impliquée dans une transaction commerciale intersociétés peut être paramétrée pour utiliser le rapprochement de factures d'Achats. Dans ce cas, les conditions de validation pour le commerce intersociétés et le rapprochement de factures d'Achats doivent être remplies pour que les factures fournisseur intersociétés puissent être validées."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/20/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: PurchLineMatchingPolicy
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 3101
 ms.assetid: 9c7c2e44-45f8-4325-b6de-a09fe790f9cf
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: affdffd5e73958788ed2a5a4959eea71024140ab
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 3d0eb5c19c07313f4d4c0bac1b9c48375446afd9
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 
@@ -52,7 +52,7 @@ Les montants nets pour la facture fournisseur intersociétés et la facture clie
 2.  Dans Fabrikam Sales, enregistrez la réception des articles et validez un bon de livraison. Le statut de CCIS888 devient Livré. Le statut de CFIS222 devient Reçu.
 3.  Mettez à jour une facture pour CCIS888 dans Fabrikam Sales. Le prix unitaire est de 0,45 et 100 articles sont mis à jour.
 4.  Créez une facture pour CFIS222 dans Fabrikam Purchase. Modifiez accidentellement le prix net de 45,00 en 54,00. Une icône indiquant que le prix dépasse la tolérance de prix autorisée de 2 pour cent s'affiche.
-5.  Sélectionnez l'option permettant d'approuver la validation avec des écarts de rapprochement sur la page Détails de rapprochement de factures. Cliquez sur OK sur la page Facture fournisseur. Si la facture fournisseur n'est pas une facture fournisseur intersociétés, la validation a réussi. Toutefois, comme vous utilisez une facture fournisseur intersociétés, la validation échoue. Pour le commerce intersociétés, les totaux de la facture sur la commande client intersociétés doivent être égaux aux totaux de la facture sur la commande fournisseur intersociétés correspondante. Pour résoudre ce problème, vous devez corriger le prix net de la facture en revenant au montant par défaut de 45,00.
+5.  Sélectionnez l'option permettant d'approuver la validation avec des écarts de rapprochement sur la page Détails de rapprochement de factures. Sur la page Facture fournisseur cliquez sur OK. Si la facture fournisseur n'est pas une facture fournisseur intersociétés, la validation a réussi. Toutefois, comme vous utilisez une facture fournisseur intersociétés, la validation échoue. Pour le commerce intersociétés, les totaux de la facture sur la commande client intersociétés doivent être égaux aux totaux de la facture sur la commande fournisseur intersociétés correspondante. Pour résoudre ce problème, vous devez corriger le prix net de la facture en revenant au montant par défaut de 45,00.
 
 ## <a name="example-quantity-matching-with-intercompany-trade"></a>Exemple : mise en correspondance de la quantité avec le commerce intersociétés
 Les quantités de la commande fournisseur intersociétés et de la commande client intersociétés doivent être égales. Cette exigence prévaut sur toutes les approbations de rapprochement de facture applicables. Cet exemple utilise le paramétrage de commerce intersociétés supplémentaire suivant :

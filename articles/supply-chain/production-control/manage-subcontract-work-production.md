@@ -3,7 +3,7 @@ title: Gestion du travail de sous-traitance en production
 description: "Cette rubrique explique comment les opérations sous-traitées sont gérées dans Microsoft Dynamics 365 for Finance and Operations. En d'autres termes, elle explique comment les opérations de production qui sont affectées à une ressource sont gérées par un fournisseur."
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: LeanDocumentServiceCreation, PlanActivity, ProdBOMVendorListPage, ProdRoute, ProdTable, ProdTableListPage, PurchAgreementSubcontractorLookup, RouteTable, WrkCtrResourceGroup
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 268174
 ms.assetid: fe47c498-4f48-42a2-a0cf-5436c19ab3ea
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: e1c29f597b190bd36b6fc64b16913ecdd02daf75
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 26feea4d86cf8b976f41342c8543594593c4b135
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 09/29/2017
 
 Cette rubrique explique comment les opérations sous-traitées sont gérées dans Microsoft Dynamics 365 for Finance and Operations. En d'autres termes, elle explique comment les opérations de production qui sont affectées à une ressource sont gérées par un fournisseur.
 
-Dans [processus de production](production-process-overview.md), le travail peut être effectué par les ressources qui sont détenues ou administrées par les fournisseurs. Généralement, les ressources fournisseur sont utilisées pour niveler une demande excédentaire périodique qui dépasse la capacité disponible des propres ressources d'une société. Le fournisseur peut également pouvoir faire une offre de [capacités de ressource](resource-capabilities.md)ou de ressources spécifiques à un prix inférieur.  
+Dans [processus de production](production-process-overview.md), le travail peut être effectué par les ressources qui sont détenues ou administrées par les fournisseurs. Généralement, les ressources fournisseur sont utilisées pour niveler une demande excédentaire périodique qui dépasse la capacité disponible des propres ressources d'une société. Le fournisseur peut également pouvoir faire une offre de [capacités de ressource](resource-capabilities.md) ou de ressources spécifiques à un prix inférieur.  
 
 En fonction des ressources fournisseur utilisées dans le cadre d'un processus de production, une [gamme](routes-operations.md) offre souvent des besoins logistiques supplémentaires, car le matériel et les produits semi-finis doivent d'abord être transportés vers le site du fournisseur. Puis le résultat de l'opération sous-traitée doit être transporté soit vers l'emplacement affecté à la prochaine opération ou vers un entrepôt de produits finis.  
 
@@ -68,7 +68,7 @@ Lorsque cette configuration est utilisée, une commande fournisseur est créée 
 Un ordre de fabrication peut avoir plusieurs opérations, et chaque opération peut être affectée à un autre fournisseur. Par conséquent, un ordre de fabrication de bout en bout peut engendrer des commandes fournisseur.
 
 ## <a name="subcontracting-of-production-flow-activities"></a>Sous-traitance des activités de flux de production
-Dans l'approche du [lean manufacturing](lean-manufacturing-overview.md), le travail de sous-traitance est modélisé comme un service associé à une activité de [flux de production](tasks/create-production-flow-version.md) (rubrique du Guide de tâche). Par conséquent, ce type de sous-traitance est également appelé [Sous-traitance basée sur des activités.](activity-based-subcontracting.md) Un type spécial de groupe de coûts nommé **Externalisation directe** a été introduit, et les services de sous-traitance ne font plus partie d'une nomenclature de biens finis. Lorsque vous utilisez le production au plus juste, toutes les activités sont définies par des kanbans qui peuvent être liés à une ou plusieurs activités de flux de production. Jusqu'à présent, cette explication ressemble à une explication des ordres de fabrication. Toutefois, alors que les ordres de fabrication doivent toujours se terminer par un produit fini, vous pouvez créer des kanbans pour fournir un produit semi-fini. Vous n'avez pas besoin d'entrer un nouveau produit ni un niveau de nomenclature.  
+La solution [lean manufacturing](lean-manufacturing-overview.md) modélise le travail de sous-traitance comme un service associé à une activité de [flux de production](tasks/create-production-flow-version.md) (rubrique du Guide de tâche). Par conséquent, ce type de sous-traitance est également appelé [Sous-traitance basée sur des activités.](activity-based-subcontracting.md) Un type spécial de groupe de coûts nommé **Externalisation directe** a été introduit, et les services de sous-traitance ne font plus partie d'une nomenclature de biens finis. Lorsque vous utilisez le production au plus juste, toutes les activités sont définies par des kanbans qui peuvent être liés à une ou plusieurs activités de flux de production. Jusqu'à présent, cette explication ressemble à une explication des ordres de fabrication. Toutefois, alors que les ordres de fabrication doivent toujours se terminer par un produit fini, vous pouvez créer des kanbans pour fournir un produit semi-fini. Vous n'avez pas besoin d'entrer un nouveau produit ni un niveau de nomenclature.  
 
 Comme les règles de kanban peuvent être très dynamiques, vous pouvez modéliser des variantes d'approvisionnement pour le même produit dans un flux de production. Lorsque vous utilisez la sous-traitance au plus juste, les flux des matières et le flux financier sont strictement séparés. Tous les flux de matières sont représentés par les activités de kanban. Les commandes fournisseur pour les produits de service et les validations de réception de ces services peuvent être automatiques, selon le statut des opérations kanban dans le flux de production. Les opérations kanban peuvent être démarrées et terminées avant la création des commandes fournisseur. Les documents de sous-traitance (commande fournisseur et réception de l'achat du service) peuvent être regroupés par période et service. Par conséquent, le nombre de documents et de lignes d'achat peut être petit, même dans les opérations très répétitives où les fournisseurs fournissent des services sous-traités dans un seul flux.
 

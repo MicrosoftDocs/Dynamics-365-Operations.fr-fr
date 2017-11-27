@@ -1,9 +1,9 @@
 ---
 title: "Vue d'ensemble des recommandations produit personnalisées"
-description: "Dans Dynamics 365 for Retail, les recommandations de produits peuvent être affichées sur le point de vente (PDV). Les recommandations sont des articles susceptibles d'intéresser les clients en fonction de leur historique d'achat, des articles de leur liste de souhaits et des articles achetés par d'autres clients en ligne ou dans des magasins traditionnels. Pour les détaillants ayant de gros catalogues, les recommandations personnalisées aident le client à découvrir les produits proposés. En mettant en avant des produits ciblés selon les intérêts et les habitudes d'achat des clients, les recommandations de produit peuvent aider les détaillants à réaliser des ventes de gamme supérieure/croisée, et à accroître la conservation des clients. Dans Dynamics 365 for Retail, les recommandations de produit sont fondées sur le Machine learning et les Cognitive Services de Microsoft Azure."
+description: "Cette rubrique contient des informations sur les recommandations de produits Dynamics 365 for Retail qui peuvent être affichées sur l'appareil du point de vente (PDV)."
 author: ashishmsft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -19,10 +19,10 @@ ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d727718442f94a2a78a3864741e93439d7c36473
+ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
+ms.openlocfilehash: 942d6225a46b108ea39d3b8e4376b644c128ae6d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -66,8 +66,9 @@ Les recommandations de produit sont activées pour les scénarios de PDV suivant
 Pour paramétrer des recommandations de produit, procédez comme suit.
 
 1.  Vérifiez que vous avez sélectionné la bonne **entité juridique**.
-2.  Accédez au **Magasin des entités**, sélectionnez **Ventes au détail**, puis cliquez sur **Actualiser**. Les données (ou vos données) de démonstration issues de votre base de données opérationnelle seront utilisées et déplacées vers le magasin des entités.
+2.  Accédez à **Magasin des entités**, sélectionnez **Ventes au détail**, puis cliquez sur **Actualiser**. Cette procédure utilise les données de démonstration (ou vos données) de votre base de données opérationnelle et les déplace vers le Magasin des entités.
 3.  Facultatif : Pour afficher les recommandations dans l'écran de transaction, allez dans **Mise en page de l'écran**, choisissez une mise en page d'écran, lancez le **Concepteur de mise en page de l'écran**, puis faites glisser-déplacer le contrôle de **recommandations** à l'emplacement souhaité.
+
 4.  Accédez à **Paramètres des ventes au détail**, sélectionnez **Machine-learning**, sélectionnez **Oui** sous **Accepter des recommandations de PDV**.
 5.  Pour afficher les recommandations sur le PDV, exécutez une tâche de configuration globale **1110**. Pour refléter les modifications effectuées dans le concepteur de mise en page de l'écran du PDV, exécutez la tâche de configuration des canaux **1070**.
 

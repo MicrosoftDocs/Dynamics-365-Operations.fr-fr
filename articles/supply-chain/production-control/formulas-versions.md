@@ -10,7 +10,7 @@ ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Operations, Core
 ms.custom: 
 ms.assetid: 
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 53edebb31b969c13b566d03afe3d58718543bf23
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 4475695b1a00213ab7e3b5060fd38cc71883d2bd
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 
@@ -41,7 +41,7 @@ L'exemple d'une formule est la formule d'un biscuit aux pépites de chocolat. Le
 
 Lorsque vous créez une ligne de formule, utilisez le type de ligne pour indiquer comment le système doit gérer la ligne lorsque vous exécutez la planification principale et que vous créez des lots de commandes. Chaque type de ligne donne un résultat différent. Le tableau suivant décrit les types de ligne que vous pouvez sélectionner. 
 
-| Type de ligne     | Description   |
+| Type de ligne     | Description  |
 |---------------|--------------|
 | Article          | Sélectionnez **Article** lorsque l'article est une matière première ou un article semi-fini prélevé du stock ou un service. |
 | Fantôme       | Sélectionnez le type de ligne **Fantôme** lorsque vous souhaitez éclater les articles de formule de niveau inférieur contenus dans les lignes de formule. Lorsque vous estimez le lot de commandes, et que les éléments de formule sont éclatés, les composants sont répertoriés sous la forme de lignes de formule pour le lot de commandes. En outre, les gammes correspondantes sont ajoutées à la gamme de production. Les articles de formule sont éclatés à l'aide de la configuration actuelle. Lorsque vous utilisez un type de ligne **fantôme**, vous pouvez gérer la configuration de la production et des mesures qui surviennent aux différents niveaux de la formule. Si vous sélectionnez **Fantôme** pour un produit sur l'organisateur **Ingénieur** de la page **Détails des produits lancés**, puis utilisez ce produit dans une formule, le type de ligne de la ligne de formule devient **Fantôme**. Vous ne pouvez pas sélectionner **Fantôme** pour un article de poids variable, ou pour les articles dont le type de production est **Co-produit**, **Sous-produit** ou **Élément de planification**. |

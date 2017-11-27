@@ -1,9 +1,9 @@
 ---
 title: Nomenclatures et formules
-description: "Cet article fournit des informations sur les nomenclatures et les formules, qui sont un élément central de la définition des produits et des variantes de produit. Les nomenclatures et les formules spécifient les matières ou les ingrédients nécessaires pour un produit spécifique. Les formules spécifient également les coproduits et les sous-produits reçus dans un contexte de production spécifique."
+description: "Cette rubrique fournit des informations sur les nomenclatures et les formules, qui sont un élément central de la définition des produits et des variantes de produit."
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: BOMConsistOf, BOMDesigner, BOMTable, EcoResProductProcessManufacturingWorkspace
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 19331
 ms.assetid: c19b437a-2de2-4728-9477-2bcb0c2b1f5e
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 3137d93dd91ec3e58937e97bdddb5ca51ec4084c
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 430e2ab0c4438222ceb9102c011940af803acfbc
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Cet article fournit des informations sur les nomenclatures et les formules, qui sont un élément central de la définition des produits et des variantes de produit. Les nomenclatures et les formules spécifient les matières ou les ingrédients nécessaires pour un produit spécifique. Les formules spécifient également les coproduits et les sous-produits reçus dans un contexte de production spécifique. 
+Cette rubrique fournit des informations sur les nomenclatures et les formules, qui sont un élément central de la définition des produits et des variantes de produit. Les nomenclatures et les formules spécifient les matières ou les ingrédients nécessaires pour un produit spécifique. Les formules spécifient également les coproduits et les sous-produits reçus dans un contexte de production spécifique. 
 
 <a name="bills-of-materials"></a>Nomenclatures
 ------------------
@@ -96,7 +96,7 @@ Lorsque des ordres prévisionnels, des ordres de fabrication ou des kanbans sont
 ## <a name="bom-and-formula-lines"></a>Lignes de nomenclature et formule
 Une ligne de nomenclature est créée pour chaque matière, service ou ingrédient. La ligne définit la consommation prévue de la variante de produit spécifiée et définit également les différents attributs associés à la consommation prévue.  
 
-Les lignes de nomenclature peuvent avoir les types de ligne suivante : **Article****Fantôme****Approvisionnement invariable****Fournisseur**.
+Les lignes de nomenclature peuvent avoir les types de ligne suivante : **Article**, **Fantôme**, **Approvisionnement invariable**, **Fournisseur**.
 
 ### <a name="item"></a>Article
 

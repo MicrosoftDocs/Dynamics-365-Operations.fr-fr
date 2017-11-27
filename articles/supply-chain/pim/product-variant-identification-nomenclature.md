@@ -1,9 +1,9 @@
 ---
 title: "Nomenclature de numéros et de noms de variante de produit"
-description: "Cette rubrique décrit la procédure de paramétrage d'une nomenclature de numéros de produit pour remplacer le format [Numéro du produit générique - Configuration - Taille - Couleur - Style] fixe. La nouvelle nomenclature a un format ciblé qui inclut le numéro du produit générique, les dimensions du produit actif et les séparateurs de texte de votre choix. Vous pouvez également créer une nomenclature pour les noms de produit. Enfin, vous pouvez créer une nomenclature afin d'identifier les configurations créées par le configurateur de produit basé sur les contraintes. Ces nomenclatures peuvent contenir des attributs de votre choix."
+description: "Cette rubrique décrit la procédure de paramétrage d'une nomenclature de numéros de produit pour remplacer le format [Numéro du produit générique - Configuration - Taille - Couleur - Style] fixe."
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 05/10/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: 4ebebc1d287908dbe8ac7557c34fc6693c88bfae
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: 067e14d8a0ab9cb5b703c1d2596dab3e20487336
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 
@@ -68,7 +68,7 @@ Un T-shirt (TS1234) est produit dans trois tailles (S, M, L), quatre couleurs (r
 
 Dans ce cas, le numéro de variante de produit pour un T-shirt polo rouge de taille S sera TS1234-Red-Small-Polo.
 
-## <a name="nomenclature-of-constraintbased-configurations"></a>Nomenclature des configurations basées sur les dimensions
+## <a name="nomenclature-of-constraint-based-configurations"></a>Nomenclature des configurations basées sur les dimensions
 Pour les configurations basées sur les contraintes, vous pouvez créer une nomenclature dédiée pour la dimension de produit de configuration. Vous pouvez sélectionner les segments suivants sur la page **Nomenclature de produit** :
 
 -   Valeur de souche de numéros
@@ -92,7 +92,7 @@ Vous créez une nomenclature de configuration qui comporte les segments suivants
 
 Dans ce cas, l'ID de configuration des matières en bois avec une longueur de 78 est WoodAAA78.
 
-## <a name="nomenclature-of-dimensionbased-configurations"></a>Nomenclature des configurations basées sur les dimensions
+## <a name="nomenclature-of-dimension-based-configurations"></a>Nomenclature des configurations basées sur les dimensions
 Pour les configurations basées sur les dimensions, vous pouvez créer une nomenclature dédiée pour la dimension de produit de configuration. Vous pouvez sélectionner les segments suivants sur la page **Nomenclature de produit** :
 
 -   Valeur de souche de numéros

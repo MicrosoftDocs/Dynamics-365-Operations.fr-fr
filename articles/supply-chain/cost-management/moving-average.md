@@ -1,9 +1,9 @@
 ---
 title: Moyenne mobile
-description: 
+description: "La moyenne de déplacement est une méthode d'évaluation des coûts définitive basée sur le principe de moyenne, où les coûts des sorties de stock ne changent pas lorsque le coût d'achat est modifié. La différence est capitalisée et est basée sur un calcul proportionnel. Le montant restant est mis en dépenses."
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 65531
 ms.assetid: dfd10099-8f7f-44b1-917e-df37c2fe8773
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: afc8f4922810983a6582558f0577a05aa21cbdbb
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: c1f8a8cf4a58177d423709f245760a5ba9ca7e4e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 
@@ -31,8 +31,12 @@ ms.lasthandoff: 09/29/2017
 
 [!include[banner](../includes/banner.md)]
 
+La moyenne de déplacement est une méthode d'évaluation des coûts définitive basée sur le principe de moyenne, où les coûts des sorties de stock ne changent pas lorsque le coût d'achat est modifié. La différence est capitalisée et est basée sur un calcul proportionnel. Le montant restant est mis en dépenses. 
+
+Lorsque vous utilisez la moyenne de déplacement, les règlements de stock et le marquage du stock ne sont pas pris en charge. La clôture du stock n'affecte pas les produits qui ont une moyenne de déplacement comme le groupe de modèles de stock et elle ne génère pas de règlement entre les transactions.
 
 Voici les conditions préalables à respecter lorsque vous utilisez le coût de la moyenne de déplacement en tant que méthode d'évaluation des coûts.
+
 1.  Sur la page **Groupes de modèles d'article**, paramétrez un groupe de modèles d'article ayant une moyenne mobile sélectionnée dans le champ **Modèle de stock**. **Remarque :** par défaut, lorsque la moyenne mobile est sélectionnée, les champs **Valider le stock physique** et **Valider le stock financier** sont également sélectionnés. 
 
 2.  Sur la page **Validation**, affectez des comptes aux comptes **Différence de prix pour la moyenne mobile** et **Réévaluation des coûts pour la moyenne mobile** sur l'onglet **Stock**. Utilisez le compte **Différence de prix pour la moyenne mobile** lorsque le coût doit être dépensé proportionnellement. Cela se produit en raison d'une différence de coût entre un reçu d'achat et la facture d'achat, et d'une différence entre la quantité de stock d'origine et la quantité disponible actuelle. Utilisez le compte **Réévaluation des coûts pour la moyenne mobile** lorsque vous souhaitez ajuster le coût de la moyenne de déplacement pour un produit sur un nouveau prix unitaire.
@@ -97,7 +101,7 @@ Le coût actuel de la moyenne de déplacement est affecté aux transactions anti
 Sur la page **Mouvements de stock**, vous pouvez voir qu'une valeur de 4,00 mise en dépenses comme moyenne de déplacement actuelle du produit est 16,00. Vous pouvez valider à une date passée, mais la différence de coût est mise en dépenses de sorte que le coût de la moyenne de déplacement n'est pas affecté.
 
 ## <a name="inventory-value-report"></a>État de valeur de stock
-Dans cet exemple de moyenne de déplacement, l'état Valeur en stock est imprimé pour prendre en charge le calcul actuel de la moyenne de déplacement pour un produit. La valeur du stock peut imprimer les transactions dans l'ordre chronologique, ainsi que le coût, pour prendre en charge le calcul du coût de la moyenne de déplacement d'un produit. L'état affiche le coût de la moyenne de déplacement du produit. Dans la boîte de dialogue **États de valeur de stock**, un intervalle de dates vous permet de sélectionner l'**Heure de transaction** ou la **Date de validation** pour trier par état. L'option **Date de validation** permet de voir comment l'état est généralement imprimé. L'option **Heure de transaction** est la date réelle à laquelle la transaction est déclarée et le coût de la moyenne de déplacement du produit est mis à jour. Vous pouvez imprimer la valeur du stock à l'aide de l'option**Tri par heure de transaction** si vous souhaitez voir le calcul du coût de la moyenne de déplacement au fil du temps. Le tableau suivant affiche les transactions pour le produit pour lequel l'état est imprimé lorsque l'option de tri **Tri par heure de transaction** est utilisée.
+Dans cet exemple de moyenne de déplacement, l'état Valeur en stock est imprimé pour prendre en charge le calcul actuel de la moyenne de déplacement pour un produit. La valeur du stock peut imprimer les transactions dans l'ordre chronologique, ainsi que le coût, pour prendre en charge le calcul du coût de la moyenne de déplacement d'un produit. L'état affiche le coût de la moyenne de déplacement du produit. Dans la boîte de dialogue **États de valeur de stock**, un intervalle de dates vous permet de sélectionner l'**Heure de transaction** ou la **Date de validation** pour trier par état. L'option **Date de validation** permet de voir comment l'état est généralement imprimé. L'option **Heure de transaction** est la date réelle à laquelle la transaction est déclarée et le coût de la moyenne de déplacement du produit est mis à jour. Vous pouvez imprimer la valeur du stock à l'aide de l'option **Tri par heure de transaction** si vous souhaitez voir le calcul du coût de la moyenne de déplacement au fil du temps. Le tableau suivant affiche les transactions pour le produit pour lequel l'état est imprimé lorsque l'option de tri **Tri par heure de transaction** est utilisée.
 
 | Heure de transaction | Date         | Type de transaction           | la quantité ; | Montant | Coût unitaire moyen |
 |------------------|--------------|----------------------------|----------|--------|-------------------|

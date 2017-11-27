@@ -3,7 +3,7 @@ title: "Clôture du stock"
 description: "Dans le cadre du processus pour régler les transactions de sortie avec des transactions de réception, vous pouvez également choisir de mettre à jour la comptabilité pour refléter les ajustements effectués."
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/24/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventClosing
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 61973
 ms.assetid: c210c882-6849-4704-b78c-a777dd6cfdb6
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: dc192b332bd736fd2ba1aac16e9e4614f3afc1dd
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: dfb6b9c2f4bad95c165a8d8a1e888e7a67e66c69
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 
@@ -53,7 +53,7 @@ Lorsque vous créez une commande fournisseur à partir d'une commande client, le
 
 À l'issue de la mise à jour, vous pouvez passer en revue le numéro de document comptable qui a été validé suite à l'une de ces tâches.
 
-1.  Sur la page **Clôture et ajustement**, sous l'onglet **Vue d'ensemble**, sélectionnez la mise à jour à réviser.
+1.  Dans la page **Clôture et ajustement**, sous l'onglet **Vue d'ensemble**, sélectionnez la mise à jour à réviser.
 2.  Cliquez sur **Détails**, puis sélectionnez **N° document**.
 
 ## <a name="effects-of-the-inventory-close-process-on-the-general-ledger"></a>Effets du processus de clôture de stock dans la comptabilité

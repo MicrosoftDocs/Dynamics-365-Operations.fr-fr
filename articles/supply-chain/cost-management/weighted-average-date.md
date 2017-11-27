@@ -1,9 +1,9 @@
 ---
 title: "Date moyenne pondérée"
-description: 
+description: "La date moyenne pondérée est un modèle de stock basé sur le principe de moyenne pondérée, dans lequel les sorties de stock correspondent à la valeur moyenne des articles reçus en stock pour chaque jour de la période de clôture du stock."
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
+ms.search.scope: Core, Operations, Retail
 ms.custom: 28991
 ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 95cc937a97596e4f6ce28636fb30b86e9b328220
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: a258c7d6314546262a3f9d07d06da5cad797d99b
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 
@@ -33,8 +33,9 @@ ms.lasthandoff: 09/29/2017
 
 [!include[retail name](../includes/retail-name.md)]
 
+La date moyenne pondérée est un modèle de stock basé sur le principe de moyenne pondérée. Concernant le principe de la moyenne pondérée, les sorties de stock correspondent à la valeur moyenne des articles reçus en stock pour chaque jour de la période de clôture du stock. 
 
-La date moyenne pondérée est un modèle de stock basé sur le principe de moyenne pondérée. Concernant le principe de la moyenne pondérée, les sorties de stock correspondent à la valeur moyenne des articles reçus en stock pour chaque jour de la période de clôture du stock. Lorsque vous exécutez une clôture de stock avec une date moyenne pondérée, toutes les réceptions quotidiennes sont réglées avec une sortie virtuelle. Celle-ci contient la quantité totale reçue et la valeur pour cette journée. À cette sortie virtuelle correspond une réception virtuelle à partir de laquelle les sorties seront réglées. De cette manière, toutes les sorties obtiennent le même coût moyen. La sortie et la réception virtuelles peuvent être considérées comme un transfert virtuel appelé *transfert de clôture du stock moyen pondéré*. 
+Lorsque vous exécutez une clôture de stock avec une date moyenne pondérée, toutes les réceptions quotidiennes sont réglées avec une sortie virtuelle. Celle-ci contient la quantité totale reçue et la valeur pour cette journée. À cette sortie virtuelle correspond une réception virtuelle à partir de laquelle les sorties seront réglées. De cette manière, toutes les sorties obtiennent le même coût moyen. La sortie et la réception virtuelles peuvent être considérées comme un transfert virtuel appelé *transfert de clôture du stock moyen pondéré*. 
 
 Si une seule réception a été effectuée à cette date ou précédemment, il n'est pas nécessaire d'évaluer la moyenne. Cela est dû au fait que toutes les sorties sont réglées à partir de celle-ci et que le transfert virtuel n'est pas créé. De même, si seules des sorties ont lieu à cette date, il n'existe aucune réception à partir de laquelle évaluer la moyenne, et le transfert virtuel n'est pas créé. Lorsque vous utilisez une moyenne pondérée, vous pouvez marquer les mouvements de stock de manière ce qu'une réception d'article spécifique soit réglée avec une sortie spécifique. Cela signifie que vous n'utilisez pas la règle de date moyenne pondérée. Si vous utilisez le modèle de stock de date moyenne pondérée, nous vous recommandons une clôture de stock mensuelle. 
 

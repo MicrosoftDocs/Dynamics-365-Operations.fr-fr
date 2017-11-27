@@ -1,9 +1,9 @@
 --- 
-title: " Créer des modules de produit pour les commandes fournisseur"
+title: "Créer des modules de produit pour les commandes fournisseur"
 description: "Cette procédure vous guide lors de la création d'un ensemble de produits et de son utilisation sur une commande fournisseur."
 author: josaw1
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 11/14/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,13 +17,13 @@ ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: a3be1e7aca7f0382aea55fa8a371c33c8b53df95
+ms.sourcegitcommit: 8bbdbf882f6f73d03be0a036cb975109396e4a0d
+ms.openlocfilehash: 9d3ea8702c79d8aa6bb7cf7caa922277697610fa
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 11/14/2017
 
 ---
-# <a name="create-product-packages-for-purchase-orders"></a> Créer des modules de produit pour les commandes fournisseur
+# <a name="create-product-packages-for-purchase-orders"></a>Créer des modules de produit pour les commandes fournisseur
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
@@ -53,7 +53,7 @@ Cette procédure vous guide lors de la création d'un ensemble de produits et de
 20. Cliquez sur Enregistrer.
 21. Fermez la page.
 
-## <a name="add-package-to-puchase-order"></a>Ajouter un ensemble à une commande fournisseur
+## <a name="add-package-to-purchase-order"></a>Ajouter un ensemble à une commande fournisseur
 1. Accédez à Comptabilité fournisseur > Commandes fournisseur > Toutes les commandes fournisseur.
 2. Cliquez sur Nouveau.
 3. Dans le champ Compte fournisseur, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.

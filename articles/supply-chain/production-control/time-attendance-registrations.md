@@ -1,9 +1,9 @@
 ---
 title: Enregistrement de Pointage
-description: "Les collaborateurs qualifiés pour l'enregistrement des heures peuvent entrer plusieurs types d'enregistrements d'heures : par exemple, le pointage à l'arrivée, le pointage à la sortie, l'enregistrement des activités indirectes et l'enregistrement des absences. Cet article décrit les enregistrements, leur calcul, leur approbation, et l'utilisation du workflow pour ajouter la structure et l'approbation automatisée au processus d'approbation des feuilles de temps."
+description: "Les collaborateurs qualifiés pour l'enregistrement des heures peuvent entrer plusieurs types d'enregistrements d'heures : par exemple, le pointage à l'arrivée, le pointage à la sortie, l'enregistrement des activités indirectes et l'enregistrement des absences. Cette rubrique décrit les enregistrements, leur calcul, leur approbation, et l'utilisation du workflow pour ajouter la structure et l'approbation automatisée au processus d'approbation des feuilles de temps."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: HcmWorker, JmgCalcApprovePickDialog, JmgGroupApprove, JmgGroupCalc, JmgGroupSigningTable, JmgRegistration, JmgTimeCalcParmeters, WorkflowTableListPageRnr
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 53351
 ms.assetid: 885b0cdf-53d7-4cb4-92fe-da1b9e32b39f
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 83603b1f8d20c18b7f10cd7224d491b558ee1b8b
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 29040d0c96183898672bc405364ec59707bff53a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Les collaborateurs qualifiés pour l'enregistrement des heures peuvent entrer plusieurs types d'enregistrements d'heures : par exemple, le pointage à l'arrivée, le pointage à la sortie, l'enregistrement des activités indirectes et l'enregistrement des absences. Cet article décrit les enregistrements, leur calcul, leur approbation, et l'utilisation du workflow pour ajouter la structure et l'approbation automatisée au processus d'approbation des feuilles de temps. 
+Les collaborateurs qualifiés pour l'enregistrement des heures peuvent entrer plusieurs types d'enregistrements d'heures : par exemple, le pointage à l'arrivée, le pointage à la sortie, l'enregistrement des activités indirectes et l'enregistrement des absences. Cette rubrique décrit les enregistrements, leur calcul, leur approbation, et l'utilisation du workflow pour ajouter la structure et l'approbation automatisée au processus d'approbation des feuilles de temps. 
 
 <a name="registrations"></a>Enregistrements
 -------------
@@ -66,7 +66,7 @@ Après le paramétrage, les travailleurs peuvent entrer plusieurs types d'enregi
 -   Activités indirectes, qui sont des activités non productives qu'un travailleur peut effectuer au cours d'une journée de travail. Il peut s'agir par exemple de réunions ou du nettoyage de leur espace de travail.
 -   Heures supplémentaires qui peuvent être enregistrées comme heures supplémentaires ou heures flexibles.
 
-## <a name="adding-clockout-registrations"></a>Ajout d'enregistrements de pointage à la sortie
+## <a name="adding-clock-out-registrations"></a>Ajout d'enregistrements de pointage à la sortie
 Si un travailleur oublie de pointer à la fin de sa journée de travail, l'enregistrement manquant peut être ajouté en exécutant un traitement par lots. Le système compare l'heure de pointage à l'arrivée et l'heure de pointage à la sortie en fonction du profil associé du travailleur, et insère automatiquement l'enregistrement de pointage à la sortie manquant pour correspondre à l'heure de fin du profil. Les enregistrements de pointage à l'arrivée et à la sortie sont essentiels pour le calcul et l'approbation ultérieurs des enregistrements d'heures avant leur transfert vers la paie.
 
 ## <a name="calculating-registrations"></a>Calcul des enregistrements

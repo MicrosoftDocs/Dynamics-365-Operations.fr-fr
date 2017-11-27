@@ -3,7 +3,7 @@ title: "Création d'une ressource opérationnelle"
 description: "Une ressource opérationnelle réalise les activités d'un projet ou d'un processus de production."
 author: sorenva
 manager: AnnBe
-ms.date: 03/02/2016
+ms.date: 11/03/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,17 +17,17 @@ ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e05eb5df2d29e90ed24fb13ed16543ad470dfe6b
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: aa80e4b22d116c8f580c9aefe7c114cfe1d19cc8
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-an-operations-resource"></a>Création d'une ressource opérationnelle
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Une ressource opérationnelle réalise les activités d'un projet ou d'un processus de production. Ces procédures vous indiquent comment définir une ressource opérationnelle. Vous pouvez parcourir cette procédure dans la société fictive USMF ou utiliser vos propres données.
+Une ressource opérationnelle réalise les activités d'un projet ou d'un processus de production. Cette procédure vous indique comment définir une ressource opérationnelle. Vous pouvez parcourir cette procédure dans la société fictive USMF ou utiliser vos propres données.
 
 1. Allez dans Ressources.
 2. Cliquez sur Nouveau.

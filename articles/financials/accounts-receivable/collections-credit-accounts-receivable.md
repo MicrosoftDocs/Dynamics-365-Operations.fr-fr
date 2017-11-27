@@ -3,7 +3,7 @@ title: "Crédit et recouvrements dans la Comptabilité client"
 description: "Les informations de recouvrement de la Comptabilité client sont gérées dans une vue centrale unique qui utilise la page Recouvrements de Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Les directeurs des crédits et perceptions peuvent utiliser cette vue centrale pour gérer les recouvrements. Les agents de recouvrement peuvent lancer le processus de recouvrement soit à partir des listes de clients générées à l'aide de critères de recouvrement prédéfinis, soit à partir de la page Clients."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustAgingSnapshot, CustBankAccounts, CustCollections, CustCollectionsActivitiesListPage, CustCollectionsAgent, CustCollectionsCaseListPage, CustCollectionsPool, CustCollectionsPoolsListPage, CustTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 3061
 ms.assetid: fd851520-8d93-434b-845b-be127d6ac3a6
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 62f659d6e4529adce10e6eb2699dfc84a7329143
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: a071d3151fbcc9e29bd138b096b34b88bc405a4f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 
@@ -45,7 +45,7 @@ Avant de commencer à paramétrer ou utiliser des recouvrements, vous devez comp
 
 Les sections suivantes décrivent chaque concept.
 
-## <a name="customer-aging-snapshots"></a>Instantanés de balance âgée des clients 
+## <a name="customer-aging-snapshots"></a>Instantanés de balance âgée des clients
 Un instantané de balance âgée contient les balances âgées calculées pour un client à un moment donné. Ces informations s'affichent sur la page de liste Soldes chronologiques et sur la page Recouvrements. Vous devez créer un instantané de balance âgée avant de consulter des informations sur les pages de liste Recouvrements. 
 
 Pour chaque client, un instantané de balance âgée contient un en-tête d'instantané de balance âgée et les enregistrements détaillés correspondant à chaque plage âgée dans la définition de plage âgée. 
@@ -54,7 +54,7 @@ L'en-tête d'instantané de balance âgée contient le montant total dû, la lim
 
 Pour chaque plage âgée de la définition de plage âgée, un enregistrement détaillé d'instantané de balance âgée est créé. Chaque enregistrement détaillé d'instantané de balance âgée contient l'ID plage âgée et le montant total des transactions avec les dates comprises dans la plage âgée. Les transactions sont affectées à une plage âgée (par exemple, 30 jours de retard). La date est relative à la date Agé tel que spécifiée lors de la création de l'instantané de balance âgée. Ces informations sont indiquées dans la page de liste Soldes chronologiques et dans le récapitulatif Soldes chronologiques de la page Recouvrements.
 
-## <a name="collections-customer-pools"></a> Regroupement de clients pour recouvrement 
+## <a name="collections-customer-pools"></a>Regroupement de clients pour recouvrement
 Les regroupements de clients sont des requêtes qui définissent un groupe d'enregistrements client qui peuvent être affichés et gérés pour les processus liés aux recouvrements ou balances âgées. Les regroupements de clients permettent de filtrer des informations dans les pages de liste Soldes chronologiques, Activités de recouvrement et Dossiers de recouvrement. Vous pouvez également utiliser les regroupements de clients pour filtrer les comptes client inclus lors de la création des instantanés de balance âgée.
 
 ## <a name="collections-agents"></a>Agents de recouvrement
@@ -62,20 +62,20 @@ Par défaut, les utilisateurs de Microsoft Dynamics 365 for Finance and Operatio
 
 Un agent de recouvrement est une personne qui travaille avec les clients pour s'assurer que les paiements sont collectés en temps voulu. Dans Finance and Operations, les agents de recouvrement sont des collaborateurs paramétrés en tant qu'utilisateurs dans la page Paramétrage utilisateur.
 
-## <a name="collections-list-pages"></a> Pages de liste Recouvrements 
+## <a name="collections-list-pages"></a>Pages de liste Recouvrements
 Les pages de liste suivantes permettent d'organiser les informations de recouvrement.
 -   Soldes chronologiques – Les colonnes de la page de liste indiquent les soldes client et les montants âgés par plage âgée. Ces informations sont stockées dans un instantané de balance âgée. Les plages âgées sont déterminées par la définition de plage âgée utilisée. La définition de plage âgée est extraite du regroupement de clients éventuellement spécifié pour la requête de regroupement. Si le regroupement de clients ne dispose pas de définition de plage âgée, la définition de plage âgée par défaut spécifiée sur la page Paramètres de la comptabilité client est utilisée. Si aucune définition de plage âgée par défaut n'est spécifiée, la première définition de plage âgée figurant sur la page Définitions des plages âgées est utilisée.
 -   Activités de recouvrement – Les colonnes de la page de liste affichent les activités identifiées en tant qu'activités de recouvrement. Ces activités sont créées à l'aide de la page Recouvrements. Les activités permettent de suivre le travail effectué en relation avec les recouvrements.
 -   Dossiers de recouvrement – Les colonnes de la page de liste affichent les informations relatives aux demandes de devis associées à une catégorie de demande de devis et au type de demande de devis Recouvrements.
 
 > [!NOTE]
-> Vous devez créer un instantané de balance âgée avant d'afficher des informations dans ces pages de liste. Les informations sont affichées seulement pour les clients pour lesquels un instantané de balance âgée a été créé. Les enregistrements affichés sur la page de liste peuvent être filtrés comme suit :
+> Vous devez créer un instantané de balance âgée avant d'afficher des informations dans ces pages de liste. Les informations ne sont affichées que pour les clients pour lesquels un instantané de balance âgée a été créé. L'accès aux enregistrements affichés dans la page de liste peut également être filtré de la manière suivante :
 <li>Par défaut, un utilisateur de Finance and Operations a accès à tous les clients associés à un instantané de balance âgée.</li>
 <li>Si des regroupements de clients existent, un utilisateur doit être paramétré en tant qu'agent de recouvrement pour les utiliser afin de filtrer les informations des pages de liste de recouvrement. Les informations sont limitées aux clients inclus dans le regroupement de clients sélectionné.</li>
 <li>Si un utilisateur est paramétré en tant qu'agent de recouvrement, seuls les regroupements sélectionnés pour celui-ci sont disponibles dans la page de liste. Si l'option Autoriser l'agent à voir tous les regroupements de clients est sélectionnée sur la page Agent de recouvrement pour l'agent de recouvrement, tous les regroupements sont disponibles pour celui-ci.</li>
 
 
-## <a name="collections-page"></a> Page Recouvrements
+## <a name="collections-page"></a>Page Recouvrements
 La page Recouvrements permet d'afficher, de gérer et d'utiliser les informations, les activités et les demandes de devis de recouvrement pour un client spécifique. 
 
 Le volet supérieur affiche les incidents pour le client sélectionné. Le volet du milieu affiche les transactions pour le client. Le volet inférieur affiche les activités pour le client. Vous pouvez créer des demandes de devis de recouvrement pour suivre les informations de recouvrement pour une ou plusieurs transactions et activités. Les informations des volets supérieur et inférieur peuvent êtres filtrées par demande de devis. 
@@ -84,7 +84,7 @@ Les récapitulatifs affichent les informations relatives aux balances âgées et
 
 Le volet Actions inclut des boutons qui affichent les informations relatives au client, à la demande de devis, à la transaction ou à l'activité sélectionné. Vous pouvez également exécuter des actions courantes, telles que modifier le statut des recouvrements d'une transaction, envoyer un message électronique via l'intégration avec votre fournisseur de messagerie électronique, rembourser les clients, traiter les impayés et annuler les soldes irrécouvrables.
 
-## <a name="waive-reinstate-or-reverse-interest-and-fees"></a> Exonération, rétablissement ou contrepassation d'intérêts et de frais 
+## <a name="waive-reinstate-or-reverse-interest-and-fees"></a>Exonération, rétablissement ou contrepassation d'intérêts et de frais
 Vous pouvez exonérer, rétablir ou contrepasser l'intégralité des notes d'intérêt, ou les frais et les intérêts de transaction faisant partie des notes d'intérêt. Pour ce faire, accédez à l'onglet Recouvrement du volet Actions dans la page de liste Tous les clients, puis cliquez sur Note d'intérêt, Intérêt de la transaction ou Frais. 
 
 Ces ajustements affectent uniquement les notes d'intérêt, et les intérêts et les commissions qu'elles incluent. Les procédures décrites dans la section « Création de transactions d'annulation en une seule étape » permettent d'annuler l'ensemble des frais dus par le client.
@@ -104,7 +104,7 @@ La transaction d'annulation est créée dans la devise de la transaction.
 
 Pour plus d'informations, voir [Créer un journal d'annulation pour un client](tasks/create-write-off-journal-customer.md).
 
-<a name="process-not-sufficient-funds-nsf-payments"></a>Traitement des paiements des impayés  
+<a name="process-not-sufficient-funds-nsf-payments"></a>Traitement des paiements des impayés 
 --------------------------------------------
 
 Vous pouvez traiter les paiements des impayés en cliquant sur Paiement des impayés sur la page Recouvrements. Lorsque vous cliquez sur ce bouton, le paiement est annulé. Si des frais d'impayés s'appliquent au client, une transaction de frais est créée dans le journal des paiements. Le montant des frais est basé sur les paramètres relatifs aux frais automatiques. Les frais automatiques qui s'appliquent aux paiements des impayés sont spécifiés par le groupe de frais sélectionné sur la page Comptes bancaires pour le compte bancaire concerné.

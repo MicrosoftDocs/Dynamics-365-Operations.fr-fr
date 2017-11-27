@@ -3,7 +3,7 @@ title: Inventaire tournant de l'emplacement partiel
 description: "Les plans d'inventaire tournant guident les opérations tournantes réelles. Vous pouvez demander que seuls des produits et des variantes de produit spécifiques soient comptabilisés au lieu de tout le stock disponible à un emplacement."
 author: perlynne
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: WHSCycleCountPlan, WHSWorkLineCycleCount, WHSWorkTemplateLineGroup, WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: bis
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 626b2f9f35b94124168adb7bb09c75a086d38a97
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 0e0f9d81f4d5943a89d8ac87776e05acb32cb8d9
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 
@@ -54,7 +54,7 @@ Pour cet exemple, seul le numéro d'article A0001 doit être compté dans l'entr
 
 1.  Un modèle de travail pour l'inventaire tournant est créé. L'option **Pauses de ligne de travail** permet de regrouper des lignes de comptage traitées par numéro d'article. Par conséquent, le travail d'inventaire tournant créé aura des lignes par numéro d'article. Vous pouvez aussi regrouper les lignes par numéro de variante de produit.
 2.  Un nouveau plan d'inventaire tournant est créé qui référence le nouveau modèle de travail créé. Le plan d'inventaire tournant inclut tous les emplacements de l'entrepôt 61 (requête **Sélectionner des emplacements**) renfermant le numéro d'article A0001. La sélection de produits spécifiques est définie dans la section **Sélections de produits du plan d'inventaire tournant**.
-3.  Vous pouvez sélectionner des produits pour les plans d'inventaire tournant en définissant le champ **Emplacements vides** sur **Vides exclus**. Lorsque le plan d'inventaire tournant est traité, le travail d'inventaire tournant partiel pour le numéro d'article A0001 est créé. Le processus de comptage réel peut être exécuté à l'aide d'une option de menu du périphérique mobile pour l'inventaire tournant guidé.
+3.  Vous pouvez sélectionner des produits pour les plans d'inventaire tournant en définissant le champ **Emplacements vides** sur **Vides exclus**. Une fois le plan d'inventaire tournant traité, le travail d'inventaire tournant partiel du numéro d'article A0001 est créé. Le processus de comptage réel peut être exécuté à l'aide d'une option de menu du périphérique mobile pour l'inventaire tournant guidé.
 
 
 

@@ -3,7 +3,7 @@ title: "Créer une hiérarchie d'états d'organisation"
 description: "Utilisez cette procédure pour créer une hiérarchie d'état pour la génération d'états d'organisation."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/28/2017
+ms.date: 10/30/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f593c59660abcf5b0d5771ddd9daced6ec5fbfb4
+ms.sourcegitcommit: e57db8f4b692aa9c27916625897e268f63031782
+ms.openlocfilehash: 995f61bd82ac08d057b41a6db735b6695aa34c33
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="create-an-organization-report-hierarchy"></a>Créer une hiérarchie d'états d'organisation
@@ -74,7 +74,7 @@ Utilisez cette procédure pour créer une hiérarchie d'état pour la générati
 40. Dans le champ Membre de la dimension de départ, entrez ou sélectionnez une valeur.
     * Sélectionnez le membre de dimension qui correspond au nœud.  
 41. Cliquez sur Enregistrer.
-42. Dans l'arborescence, sélectionnez « Organisation USP2\PDG\Centres de coût du directeur financier.
+42. Dans l'arborescence, sélectionnez « Organisation USP2\PDG\Centres de coût du directeur financier ».
 43. Cliquez sur Nouveau.
 44. Dans le champ Nom du nœud, tapez « Salons commerciaux ».
 45. Cliquez sur Enregistrer.

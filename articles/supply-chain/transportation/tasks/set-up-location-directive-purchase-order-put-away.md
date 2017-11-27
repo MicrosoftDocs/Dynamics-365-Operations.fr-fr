@@ -3,7 +3,7 @@ title: "Paramétrer une instruction d'emplacement pour le rangement des commande
 description: "Cette procédure décrit le processus de paramétrage d'une simple instruction d'emplacement."
 author: BibiSp
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 11/02/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 45e1e54c807597d4d5ff7370748012cbf28c1c6b
+ms.sourcegitcommit: 4bb4af7cb7aff101a8b9e6162823515f63b12886
+ms.openlocfilehash: 98ce3ad38dddda33be5466490fcd39d81251679c
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Paramétrer une instruction d'emplacement pour le rangement des commandes fournisseur
@@ -61,7 +61,7 @@ Cette procédure décrit le processus de paramétrage d'une simple instruction d
 4. Dans le champ Unité, tapez une valeur.
     * Il s'agit de l'unité dans laquelle Quantité de départ et Quantité d'arrivée sont exprimées. Si vous ne renseignez pas ce champ, l'unité de stock de l'article est utilisée.  
 5. Dans le champ Localiser la quantité, sélectionnez une option.
-    * Aucune ou Quantité du contenant : la quantité enregistrée de chaque contenant. Quantité unitisée : la quantité entière qui est enregistrée. Quantité restante : la quantité à enregistrer à partir de la ligne de commande fournisseur. Quantité attendue : la quantité totale spécifiée sur la ligne de commande fournisseur.  
+    * Aucune ou Quantité du contenant : la quantité enregistrée de chaque contenant. Quantité unitisée : la quantité entière qui est enregistrée. Quantité restante : la quantité à enregistrer à partir de la ligne de commande fournisseur. Quantité attendue : la quantité totale spécifiée sur la ligne de commande fournisseur.  
 6. Activez ou désactivez la case à cocher Restreindre par unité.
     * Si vous sélectionnez cette option et spécifiez l'unité de la page Restreindre par unité, seuls les articles avec cette unité de mesure peuvent être mis dans l'emplacement. Par exemple, si l'unité de mesure correspond à des palettes, seuls les articles en palettes peuvent être rangés dans l'emplacement spécifié.  
 7. Activez ou désactivez la case à cocher Autoriser le fractionnement.

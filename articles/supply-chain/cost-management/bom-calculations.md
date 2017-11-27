@@ -1,7 +1,7 @@
 ---
 title: Calculs de nomenclature
 description: "Les calculs de repositionnement des coûts et des prix de vente sont qualifiés de calculs de la nomenclature et vous pouvez les exécuter à partir de la page Calculs. Cette rubrique fournit des informations sur les calculs BOM."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion, InventItemPrice, SalesQuotationTable, SalesTable, SMAServiceOrderTable
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 273763
 ms.assetid: c6fa3348-eafa-4847-9132-e65c5f55cbf4
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.dyn365.ops.intro: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: b1bcf11a8f6fc4921e8659fe1d00c093e3ad5b74
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: ad00a3b5e41892aaa705fd8eafa52cc199e1d806
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 
@@ -87,7 +87,7 @@ Avec une approche du prix de revient majoré, le prix de vente calculé de l'art
 -   **Calcul de nomenclature pour un article et une version d'évaluation des coûts spécifiée** − Le calcul de nomenclature génère un enregistrement de prix de vente en attente dans la version d'évaluation des coûts. Cet enregistrement de prix de vente fournit le point de départ pour l'affichage des détails du calcul (par exemple, pour la page **Calculer le coût de l'article**). L'enregistrement du prix de vente est tout d'abord une information de référence et il ne sert pas de base à un prix de vente sur les commandes client.
 -   **Calcul de nomenclature spécifique aux commandes** − Un écart dans la page **Calcul de nomenclature** est utilisé dans le contexte d'une ligne de commande client, de devis de vente ou de commande de service. Un calcul de nomenclature spécifique à une commande ne génère pas d'enregistrement dans une version d'évaluation des coûts. Au lieu de cela, il génère un enregistrement de calcul qui apparaît sur la page **Résultats du calcul de nomenclature**. Cet enregistrement de calcul fournit le point de départ pour l'affichage des détails du calcul (par exemple, pour la page **Calculer le coût de l'article**). Les informations relatives à l'enregistrement de calcul sélectionné peuvent être transférées vers la ligne d'origine. Par exemple, le prix de vente calculé peut être transféré vers la ligne de commande client.
 
-## <a name="orderspecific-bom-calculations"></a>Calculs de nomenclature spécifiques à la commande
+## <a name="order-specific-bom-calculations"></a>Calculs de nomenclature spécifiques à la commande
 Un calcul de nomenclature spécifique à la commande représente une variation d'un calcul de nomenclature pour un article fabriqué. Il est réalisé dans le cadre d'une ligne de commande client, de devis de vente ou de commande de service. Un calcul de nomenclature spécifique à la commande génère un enregistrement de calcul qui apparaît sur la page **Résultats du calcul de nomenclature**. Cet enregistrement comprend un poids calculé, un coût calculé basé sur les enregistrements de coûts actifs et un prix de vente calculé. Chaque calcul de nomenclature spécifique à la commande génère un enregistrement de calcul dans la page **Résultats du calcul de formule**, qui est identifié de manière unique par un numéro de calcul. Les résultats d'un enregistrement de calcul peuvent éventuellement être transférés vers la ligne d'origine. Un calcul de nomenclature spécifique à la commande se distingue d'un calcul de nomenclature pour un article fabriqué de deux façons :
 
 -   Un calcul de nomenclature spécifique à la commande ne génère pas un enregistrement des coûts d'un article dans une version d'évaluation des coûts. Par conséquent, les stratégies de calcul de nomenclature ne s'appliquent pas à la création d'un enregistrement des coûts d'un article ni au remplacement d'un enregistrement des coûts.
