@@ -1,16 +1,16 @@
 ---
 title: "Page d'accueil de la gestion de la chaîne d'approvisionnement"
-description: "Cette page redirige vers des ressources utiles pour exploiter plus efficacement Microsoft Dynamics 365 for Finance and Operations - Chaîne d'approvisionnement."
+description: "Cette rubrique fournit une liste de ressources et d'autres informations sur les fonctionnalités de gestion de la chaîne d'approvisionnement de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 07/20/2017
+ms.date: 11/02/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
 ms.search.region: global
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 04d459a2fd0fdf9c201d9e96b37234846eb9ccf0
-ms.openlocfilehash: 6cef449562ba75b03b10b4fe27a436ecff3a6691
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 0ca879fc4b0a43cd3af1e45c78a48f1c942a9a6a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/29/2017
 
 [!include[banner](includes/banner.md)]
 
-Cette page redirige vers des ressources utiles pour exploiter plus efficacement Microsoft Dynamics 365 for Finance and Operations - Chaîne d'approvisionnement. 
+Cette rubrique fournit une liste de ressources et d'autres informations sur les fonctionnalités de gestion de la chaîne d'approvisionnement de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. 
 
 ## <a name="whats-new-and-in-development"></a>Nouveautés et développements
 Accédez au <a href="https://roadmap.dynamics.com/">Calendrier de lancement de Dynamics 365</a> pour découvrir les nouvelles fonctions qui seront lancées ou qui sont en développement. 
@@ -41,7 +41,7 @@ Sélectionnez une zone de fonctionnalités pour en savoir plus.
 
 - [Contrôle de gestion](../financials/cost-accounting/cost-accounting-home-page.md)
 - [Gestion des coûts](cost-management/costing-sheets.md)  
-- [Gestion des stocks](inventory/consignment.md)
+- [Gestion des stocks](inventory/inventory-home-page.md)
 - [Planification](master-planning/introduction-demand-forecasting.md)
 - [Approvisionnements](procurement/procurement-sourcing-overview.md)
 - [Gestion des informations sur les produits](pim/product-information.md)

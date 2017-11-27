@@ -2,11 +2,16 @@
 
 # Mise en route
 ## [Nouveautés ou changements](get-started/whats-new.md)
+## [Avant d'acheter Dynamics 365 for Retail](get-started/before-you-buy.md)
+## [Souscrire un abonnement d'aperçu](../dev-itpro/dev-tools/sign-up-preview-subscription.md)
+## [Déployer un environnement de démonstration](../dev-itpro/deployment/deploy-demo-environment.md)
+## [Options de déploiement](dev-itpro/choose-deployment.md)
+
 
 # Paiements
 ## [Modes de paiement](payment-methods.md)
 ## [Paramétrage, autorisation et capture de carte de crédit](../financials/accounts-receivable/credit-card-authorizations.md)
-## [Configurer les modes de paiement pour le PDV](cash-denominations.md)
+## [Configurer les modes de paiement pour le POS](cash-denominations.md)
 ## [FAQ Paiements](dev-itpro/payments-retail.md)
 
 # Commandes fournisseur
@@ -38,10 +43,12 @@
 ## [Configuration et installation d'une station matérielle de vente au détail](retail-hardware-station-configuration-installation.md)
 ## [Pointage et présence - Vente au détail](retail-time-attendance.md)
 
-# Point de vente moderne (MPOS) et PDV Cloud
+# Point de vente moderne (MPOS) et Cloud POS
+## [Opérations POS](POS-operations.md)
+## [Mises en page de l'écran de données de démonstration dans MPOS/CPOS](demo-data.md)
 ## Périphériques matériels
 ### [Vue d'ensemble des périphériques de la vente au détail](retail-peripherals-overview.md)
-### [Périphériques matériels de PDV testés par Microsoft](microsoft-tested-pos-hardware-peripherals.md)
+### [Périphériques matériels de POS testés par Microsoft](microsoft-tested-pos-hardware-peripherals.md)
 ### [Simulateur périphérique pour la vente au détail](dev-itpro/retail-peripheral-simulator.md)
 ### [Définir et tenir à jour les clients de canal, y compris les caisses enregistreuses et les stations matérielles](define-maintain-channel-clients-registers-hw-stations.md)
 ## Mise en page de l'écran
@@ -59,11 +66,12 @@
 ### [Vue d'ensemble des commandes client](customer-orders-overview.md)
 ### [Commandes client hybrides](hybrid-customer-orders.md)
 ## Associés de vente
-### [Suivre les commissions dans le PDV avec des groupes de ventes](pos-sales-groups-track-commissions.md)
+### [Suivre les commissions dans POS avec des groupes de ventes](pos-sales-groups-track-commissions.md)
+## [Expédier une commande à partir d'un autre magasin](charge-send.md)
 ## Activation du périphérique
 ### [Configurer et installer MPOS](retail-modern-pos-device-activation.md)
-### [Paramétrer une connexion étendue pour le PDV cloud et MPOS](extended-logon.md)
-### [Gérer les comptes et les périphériques de vente au détail depuis le siège](set-up-activation-accounts-validate-devices-hq.md)
+### [Paramétrer une connexion étendue pour le Cloud POS et MPOS](extended-logon.md)
+### [Gérer les comptes et les périphériques Retail depuis le siège](set-up-activation-accounts-validate-devices-hq.md)
 ## Réceptions
 ### [Paramétrer des modèles de réception](receipt-templates-printing.md) 
 ### [Envoyer des reçus de caisse par e-mail depuis MPOS](email-receipts.md)
@@ -171,10 +179,10 @@
 ### [Contenu Power BI des performances du canal de vente au détail](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md)
 
 ## Déploiement et correctifs
-### [Configuration et installation de l'unité d'échelle de magasin Retail](dev-itpro/retail-store-scale-unit-configuration-installation.md)
-#### [Système de magasin Retail, avant de commencer](dev-itpro/retail-store-system-begin.md)
+### [Vue d'ensemble Unité d'échelle de magasin de vente au détail](dev-itpro/retail-store-system-begin.md)
+#### [Configuration et installation de l'unité d'échelle de magasin de vente au détail](dev-itpro/retail-store-scale-unit-configuration-installation.md)
 ### [Configuration et installation de Retail Modern POS](retail-modern-pos-device-activation.md)
-#### [Gérer les comptes et les périphériques de vente au détail depuis le siège](set-up-activation-accounts-validate-devices-hq.md)
+#### [Gérer les comptes et les périphériques Retail depuis le siège](set-up-activation-accounts-validate-devices-hq.md)
 #### [Activation de périphérique Retail POS](dev-itpro/retail-device-activation.md)
 #### [Sécuriser le Retail Cloud POS](dev-itpro/secure-retail-cloud-pos.md)
 ### [Installation et configuration de la station matérielle Retail](retail-hardware-station-configuration-installation.md)
@@ -187,16 +195,18 @@
 ### [Installer des composants N-1](dev-itpro/n-1-installation-configuration.md)
 
 ## Configuration de l'environnement
-### [Gérer Bing Maps](dev-itpro/manage-bing-maps.md)
+### [Ajouter des liens à la déclaration de confidentialité et aux conditions légales de votre organisation](../dev-itpro/sysadmin/legal-terms-privacy-statement.md)
+### [Gérer Bing Cartes](dev-itpro/manage-bing-maps.md)
 
 ## Extensibilité
 ### Point de vente
 #### [Mise en page de l'écran Retail POS](pos-screen-layouts.md)
-##### [Installer le concepteur de mise en page de PDV](install-pos-layout-designer.md)
+##### [Installer le concepteur de mise en page de POS](install-pos-layout-designer.md)
 #### [Configurer MPOS pour le mode hors connexion](dev-itpro/retail-modern-pos-offline.md)
 #### [Extensibilité du déclencheur MPOS et Cloud POS](dev-itpro/modern-pos-trigger-extensibility.md)
 #### [Ajouter un contrôle personnalisé à une vue POS](dev-itpro/pos-custom-control.md)
 #### [Extension de paiement POS](dev-itpro/pos-payment-extension.md)
+#### [Prise en charge de carte cadeau externe](dev-itpro/gift-card.md)
 ### [Créer une application d'expérience Retail](dev-itpro/create-retail-experience-app.md)
 ### [Vue d'ensemble et extensibilité de station matérielle](dev-itpro/hardware-station-extensibility.md)
 
@@ -205,7 +215,7 @@
 #### [Contrôleurs d'API web et OData](dev-itpro/odata-controllers-api.md)
 #### [API client et consommateur de serveur Retail](dev-itpro/retail-server-customer-consumer-api.md)
 #### [Étendre les métadonnées](dev-itpro/extend-metadata.md)
-#### [Étendre le runtime de commerce pour prendre en charge le mode hors connexion du PDV](dev-itpro/call-crt-service-offline.md)
+#### [Étendre le runtime de commerce pour prendre en charge le mode hors connexion du POS](dev-itpro/call-crt-service-offline.md)
 ### Runtime de commerce
 #### [Vue d'ensemble du runtime de commerce](dev-itpro/commerce-runtime-overview.md)
 #### [Extensibilité du runtime de commerce et du serveur Retail](dev-itpro/commerce-runtime-extensibility.md)
@@ -224,16 +234,22 @@
 #### [Déployer un connecteur de paiement](dev-itpro/deploy-payment-connector.md)
 #### [Créer un programme d'installation Windows pour un connecteur de paiement](dev-itpro/create-windows-installer-payment-connector.md)
 
-## Retail SDK
-### [Vue d'ensemble du kit Retail SDK](dev-itpro/retail-sdk/retail-sdk-overview.md)
-### [Intégrer le kit Retail SDK dans le système d'élaboration continue](dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md)
-### [Exemples d'extensibilité du kit Retail SDK](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
+## Kit de développement logiciel (SDK) Retail
+### [Vue d'ensemble du Kit de développement logiciel (SDK) Retail](dev-itpro/retail-sdk/retail-sdk-overview.md)
+### [Intégrer le Kit de développement logiciel (SDK) Retail dans le système d'élaboration continue](dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md)
+### [Exemples d'extensibilité du Kit de développement logiciel (SDK) Retail](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
 ### [Caisses enregistreuses pour la Suède](localizations/emea-swe-cash-registers.md)
 ### [Exemple pour l'intégration de Retail POS avec des unités de contrôle pour la Suède](dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
-### [Package du kit Retail SDK](dev-itpro/retail-sdk/retail-sdk-packaging.md)
-### [Exemples du kit Retail SDK ](dev-itpro/retail-sdk/retail-sdk-samples.md)
+### [Caisses enregistreuses pour la Norvège](localizations/emea-nor-cash-registers.md)
+### [Instructions de déploiement de caisses enregistreuses pour la Norvège](localizations/emea-nor-loc-deployment-guidelines.md)
+### [Package du Kit de développement logiciel (SDK) Retail](dev-itpro/retail-sdk/retail-sdk-packaging.md)
+### [Exemples du Kit de développement logiciel (SDK) Retail ](dev-itpro/retail-sdk/retail-sdk-samples.md)
 ### [Extensions de la base de données de canal](dev-itpro/channel-db-extensions.md)
 ### [Extensibilité CDX](dev-itpro/cdx-extensibility.md)
+### [Attributs de commande](dev-itpro/order-attributes.md)
+### [Attributs du client](dev-itpro/customer-attributes.md)
+### [Script Retail et proxy C#](dev-itpro/typescript-proxy-retail-pos.md)
+
 
 ## Runtime de commerce
 ### [Extension de fidélité](dev-itpro/retail-sdk/loyalty-extension-sample.md)
