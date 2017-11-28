@@ -1,9 +1,9 @@
 ---
-title: "Fonctionnalité du concepteur de nomenclatures"
-description: "Cet article décrit la manière dont vous pouvez utiliser la page du concepteur de nomenclatures pour concevoir et utiliser des structures arborescentes pour des nomenclatures. Vous pouvez cliquer sur Paramétrage pour sélectionner différentes configurations et spécifier les informations qui s'affichent dans les lignes de l'arborescence."
+title: "Fonctionnalités du concepteur de nomenclatures"
+description: "Cette rubrique décrit la manière dont vous pouvez utiliser la page du concepteur de nomenclatures pour concevoir et utiliser des structures arborescentes pour des nomenclatures."
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: BOMDesigner
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 20981
 ms.assetid: 2b92eec1-d28c-4965-9086-939c77b3c62b
 ms.search.region: Global
@@ -20,19 +20,19 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 011e8220e155a5202b7b0a18bbfa9581826645d0
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 41f629401731920a9cb6443ada8b1a34a70e8da9
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 
-# <a name="bom-designer-functionality"></a>Fonctionnalité du concepteur de nomenclatures
+# <a name="bom-designer-functionality"></a>Fonctionnalités du concepteur de nomenclatures
 
 [!include[banner](../includes/banner.md)]
 
 
-Cet article décrit la manière dont vous pouvez utiliser la page du concepteur de nomenclatures pour concevoir et utiliser des structures arborescentes pour des nomenclatures. Vous pouvez cliquer sur Paramétrage pour sélectionner différentes configurations et spécifier les informations qui s'affichent dans les lignes de l'arborescence.
+Cette rubrique décrit la manière dont vous pouvez utiliser la page du concepteur de nomenclatures pour concevoir et utiliser des structures arborescentes pour des nomenclatures. Vous pouvez cliquer sur Paramétrage pour sélectionner différentes configurations et spécifier les informations qui s'affichent dans les lignes de l'arborescence.
 
 Lorsque vous ouvrez la page **Concepteur de nomenclatures** depuis la page **Produits lancés**, celle-ci affiche la hiérarchie des nomenclatures actives et approuvées pour l'article sélectionné, le site de commande par défaut de l'article et la date réelle.  
 
@@ -66,7 +66,7 @@ Le filtre appliqué pour la nomenclature et la gamme s'affiche en en-tête du co
 <tbody>
 <tr class="odd">
 <td>Dimensions de produit</td>
-<td>Si le produit fini sélectionné est un produit générique, vous pouvez définir les dimensions de produit actives pour la sélection principale.<strong>Remarque :</strong> Si vous ouvrez le concepteur de nomenclatures pour un produit qui n'est pas un produit générique, aucune dimension de produit ne peut être sélectionnée dans la boîte de dialogue <strong>Filtre</strong>.</td>
+<td>Si le produit fini est un produit générique, vous pouvez définir les dimensions de produit actives pour la sélection principale. <strong>Remarque :</strong> si vous ouvrez le Concepteur de nomenclatures pour un produit qui n'est pas un produit générique, aucune dimension de produit ne pourra être sélectionnée dans la boîte de dialogue <strong>Filtrer</strong>.</td>
 </tr>
 <tr class="even">
 <td>site ;</td>
@@ -98,7 +98,7 @@ Le filtre appliqué pour la nomenclature et la gamme s'affiche en en-tête du co
 Si vous utilisez le concepteur de nomenclatures pour passer en revue ou modifier les nomenclatures constituées d'un ou de plusieurs niveaux de fantômes, la gamme associée à l'article supérieur couvre généralement la totalité de la hiérarchie de nomenclature. Pour simplifier la vue d'ensemble, vous pouvez verrouiller la gamme de niveau supérieur dans l'affichage en cliquant sur **Vue** &gt; **Verrouiller la gamme**. Pour déverrouiller la gamme, cliquez sur **Vue** &gt; **Déverrouiller la gamme**.
 
 ## <a name="adding-and-editing-boms-and-bom-lines"></a>Ajout et modification des nomenclatures et des lignes de nomenclature
-Utilisez les fonctions **Lignes de nomenclature**ou **Nomenclature** pour modifier les lignes de nomenclature ou la nomenclature. Si vous sélectionnez un nœud dans l'arborescence, le type de nœud détermine les fonctions disponibles.
+Utilisez les fonctions **Lignes de nomenclature** ou **Nomenclature** pour modifier les lignes de nomenclature ou la nomenclature. Si vous sélectionnez un nœud dans l'arborescence, le type de nœud détermine les fonctions disponibles.
 
 | Fonction                            | description ;                                                                                               | Type et conditions de nœud                                                                                                                                                                                                                                                                       |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

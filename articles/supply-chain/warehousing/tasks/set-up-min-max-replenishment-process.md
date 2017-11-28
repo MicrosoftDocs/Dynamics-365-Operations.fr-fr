@@ -3,7 +3,7 @@ title: "Paramétrer un processus de réapprovisionnement minimum/maximum"
 description: "Cette procédure décrit la manière de paramétrer un nouveau processus de réapprovisionnement qui utilise une stratégie de réapprovisionnement minimal/maximal."
 author: perlynne
 manager: AnnBe
-ms.date: 06/07/2016
+ms.date: 11/02/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 02af5d1beb2d4eb6a7162b47c42854725fbdbec2
+ms.sourcegitcommit: 76334f7ee4efe33df4a86aaa11a59748387cec89
+ms.openlocfilehash: 4d591eec163cfe2952f37b93e634eae676860889
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a>Paramétrer un processus de réapprovisionnement minimum/maximum
@@ -141,7 +141,7 @@ Cette procédure décrit la manière de paramétrer un nouveau processus de réa
 7. Définissez l'option Traitement par lots sur Oui.
 8. Cliquez sur Répétition.
 9. Sélectionnez l'option Pas de date de fin.
-10. Définissez le modèle de récurrence.
+10. Définissez le modèle de répétition.
     * Par exemple, sélectionnez Jours.  
 11. Cliquez sur OK.
 12. Cliquez sur OK.

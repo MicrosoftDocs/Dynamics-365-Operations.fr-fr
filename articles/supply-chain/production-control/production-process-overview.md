@@ -1,9 +1,9 @@
 ---
-title: Vue d'ensemble du processus de production
-description: "Cet article donne une vue d'ensemble des processus de production. Il décrit les différents stades des ordres de fabrication, des lots de commandes et des kanbans, de la création à la clôture de la période financière."
+title: Vue d'ensemble du processus de fabrication
+description: "Cette rubrique donne une vue d'ensemble des processus de production. Il décrit les différents stades des ordres de fabrication, des lots de commandes et des kanbans, de la création à la clôture de la période financière."
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: JmgProdStatusListPage, JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 19832
 ms.assetid: 0e83c7ea-feba-4ed6-8717-8b48a3b8804a
 ms.search.region: Global
@@ -20,19 +20,19 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e50e64057d19d0e1fbf5645c2abc31fbd19ea43a
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 779b27574a9d6d7e7aa6b71f468ba3cff8d4085a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 
-# <a name="production-process-overview"></a>Vue d'ensemble du processus de production
+# <a name="production-process-overview"></a>Vue d'ensemble du processus de fabrication
 
 [!include[banner](../includes/banner.md)]
 
 
-Cet article donne une vue d'ensemble des processus de production. Il décrit les différents stades des ordres de fabrication, des lots de commandes et des kanbans, de la création à la clôture de la période financière. 
+Cette rubrique donne une vue d'ensemble des processus de production. Il décrit les différents stades des ordres de fabrication, des lots de commandes et des kanbans, de la création à la clôture de la période financière. 
 
 La production de produits, un processus également appelé cycle de vie de la production, suit des étapes spécifiques nécessaires pour terminer la fabrication d'un article. Le cycle de vie commence avec la création de l'ordre de fabrication, du lot de commandes, ou du kanban. Il commence par la création de l'ordre de fabrication et se termine par un produit fini, fabriqué et prêt pour le client ou une autre phase de production. Chaque étape du cycle de vie requiert différents types d'informations pour l'exécution du processus. Lorsque chaque étape est terminée, l'ordre de fabrication, le lot de commandes ou le kanban l'indique en modifiant son statut de production. Les différents types de produits requièrent différents processus de fabrication.  
 
@@ -56,7 +56,7 @@ Pour sélectionner le principe de fabrication qui s'applique le mieux à une pro
 -   **Production sur stock** – Il s'agit du principe classique de fabrication, où les produits sont fabriqués pour le stock, selon les prévisions ou le rechargement de stock minimal (ce dernier est généralement calculé en fonction de la prévision ou de la consommation historique).
 -   **Production à la commande** – Les produits standard sont fabriqués ou finis sur commande. Bien que la préproduction puisse être effectuée à l'aide du principe Créer le stock, de coûteuses étapes de la chaîne de valeur, ou des étapes qui créent des variantes, sont déclenchées par une commande client ou un ordre de transfert.
 -   **Configuration à la commande** – À l'instar du principe de Production à la commande, les opérations finales de la chaîne de valeur sont fabriquées sur commande. La variante de produit réelle fabriquée n'est pas prédéfinie, mais est créée au moment de la saisie de commande, selon le modèle de configuration du produit de vente. Le principe de Configuration à la commande exige un certain niveau d'unification du processus pour une gamme de produits donnée.
--   **Conception à la commande** – Les processus de type « Conception à la commande » sont généralement traités par un projet et commencent habituellement par la phase d'ingénierie. Lors de la phase d'ingénierie, les produits réels nécessaires pour satisfaire la commande sont conçus et décrits. Les ordres de fabrication, les lots de commandes, ou les kanbans peuvent ensuite être créés pour fabriquer les produits.
+-   **Conception à la commande** – Les processus de type « Conception à la commande » sont généralement traités par un projet et commencent habituellement par la phase d'ingénierie. Lors de la phase d'ingénierie, les produits réels nécessaires pour satisfaire la commande sont conçus et décrits. Les ordres de fabrication, les lots de commandes, ou les kanbans peuvent ensuite être créés pour fabriquer les produits.
 
 ## <a name="overview-of-the-production-life-cycle"></a>Présentation du cycle de vie de production
 Les étapes suivantes dans le cycle de vie de la production peuvent se produire pour tous les types de commandes de fabrication en mode mixte. Toutefois, pas tous sont représentés comme statut d'ordre significatif.

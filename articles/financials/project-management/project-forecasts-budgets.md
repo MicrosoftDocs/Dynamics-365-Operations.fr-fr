@@ -1,9 +1,9 @@
 ---
 title: "Prévisions de projet et budgets"
-description: 
+description: "Microsoft Dynamics 365 for Finance and Operations fournit des prévisions de projet et des budgets de projet permettant de gérer et de contrôler vos projets."
 author: KimANelson
 manager: AnnBe
-ms.date: 09/14/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: ForecastModel, ProjYearEndProcess
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 23501
 ms.assetid: 4e6d1384-19a2-4232-b3f3-d2590c218bd7
 ms.search.region: Global
@@ -19,18 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 32dd89d92a496d6601d1983dbc3c8e7e579ee0b3
+ms.sourcegitcommit: 31abc719a8df7507e74b3bf6823306ba52261bc3
+ms.openlocfilehash: ebb3574b3f5c40b5512c0352c83520558f63879a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 
 # <a name="project-forecasts-and-budgets"></a>Prévisions de projet et budgets
 
 [!include[banner](../includes/banner.md)]
-
-
 
 
 Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition fournit deux méthodes permettant de gérer et de contrôler vos projets : les prévisions de projet et les budgets de projet. 
@@ -41,16 +39,16 @@ Les prévisions et les budgets de projets utilisent des modèles de prévision p
 
 Chaque méthode a ses avantages. Avant de sélectionner une méthode pour votre organisation, tenez compte des points suivants.
 
-|                           |                                                                                                                                                                                                                                                         |                                                                                                                                                                         |
-|---------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                           | **Prévisions de projet**                                                                                                                                                                                                                                 | **Budgétisation de projet**                                                                                                                                                   |
+|                           |                                          |                                                    |
+|---------------------------|------------------------------------------|----------------------------------------------------|
+|                           | **Prévisions de projet**                  | **Budgétisation de projet**                              |
 | **Répartition par période**     | Vous ne pouvez pas répartir explicitement des transactions sur une période fiscale. Au lieu de cela, la prévision et le contrôle de la prévision sont basés sur la durée de vie du projet. Étant donné que les prévisions sont basées sur une date spécifique, vous devez déduire la période à partir de la date. | Vous pouvez répartir les transactions sur l'ensemble du projet ou sur une période fiscale. Si vous procédez à une répartition sur une période, vous pouvez reporter les montants inutilisés sur la période fiscale suivante. |
 | **Consultation des transactions**  | Vous pouvez afficher les transactions dans les écrans de prévision, dans lesquels vous pouvez consulter les prévisions de l'intégralité de la société et pour tous les projets, indépendamment de la hiérarchie. Pour vous concentrer sur un projet spécifique, vous devez filtrer les données.                                       | Vous pouvez afficher les transactions budgétisées pour une hiérarchie de projet unique. Par conséquent, vous pouvez afficher les détails de transaction pour un projet parent ou ses sous-projets.                 |
-| **Variables de transaction** | Lorsque vous spécifiez les transactions de prévision, vous pouvez utiliser chaque attribut qui existe pour une transaction réelle. Cela permet de mieux détailler la prévision. Par exemple, vous pouvez détailler les quantités, les travailleurs, les articles ou les propriétés de ligne.         | Lorsque vous spécifiez les détails du budget, vous pouvez uniquement utiliser des montants, des catégories et des activités.                                                                                    |
-| **Sécurité**              | Les prévisions sont basées sur les transactions que vous entrez dans les écrans des prévisions et n'impliquent pas de mécanisme de contrôle du processus. Tout collaborateur doté d'autorisations pour un écran de prévision peut réviser les informations sans approbation.                                        | La budgétisation utilise le système de workflow, ce qui active la gestion des modifications et vous permet de conserver un historique des révisions.                                                       |
-| **Types d'entrées**           | Les entrées de transaction de prévision sont basées sur le nombre d'unités et sur les prix de vente et de revient unitaires.                                                                                                                                                       | Les détails de budget sont basés sur les montants, qui sont répartis entre les coûts et les produits.                                                                                        |
-| **Modèles de prévision**       | Étant donné que chaque prévision doit être associée à un modèle, vous pouvez créer plusieurs modèles de prévision et également paramétrer des sous-modèles.                                                                                                                               | La budgétisation du projet limite les modèles de prévision utilisés pour la budgétisation. Un nombre réduit de modèles de prévision permet d'augmenter la cohérence des projections.                           |
-| **Dépassement des coûts**         | Vous pouvez uniquement autoriser ou rejeter l'entrée des transactions qui provoqueront un dépassement des coûts.                                                                                                                                                                | La budgétisation du projet fournit des options de contrôle supplémentaires aux utilisateurs. Vous pouvez autoriser les avertissements et les dépassements.                                                                   |
+| **Variables de transaction** | Lorsque vous spécifiez les transactions de prévision, vous pouvez utiliser chaque attribut qui existe pour une transaction réelle. Cela permet de mieux détailler la prévision. Par exemple, vous pouvez détailler les quantités, les travailleurs, les articles ou les propriétés de ligne.         | Lorsque vous spécifiez les détails du budget, vous pouvez uniquement utiliser des montants, des catégories et des activités.                    |
+| **Sécurité**              | Les prévisions sont basées sur les transactions que vous entrez dans les écrans des prévisions et n'impliquent pas de mécanisme de contrôle du processus. Tout collaborateur doté d'autorisations pour un écran de prévision peut réviser les informations sans approbation.                                        | La budgétisation utilise le système de workflow, ce qui active la gestion des modifications et vous permet de conserver un historique des révisions.         |
+| **Types d'entrées**           | Les entrées de transaction de prévision sont basées sur le nombre d'unités et sur les prix de vente et de revient unitaires.  | Les détails de budget sont basés sur les montants, qui sont répartis entre les coûts et les produits.                                          |
+| **Modèles de prévision**       | Étant donné que chaque prévision doit être associée à un modèle, vous pouvez créer plusieurs modèles de prévision et également paramétrer des sous-modèles.           | La budgétisation du projet limite les modèles de prévision utilisés pour la budgétisation. Un nombre réduit de modèles de prévision permet d'augmenter la cohérence des projections.                           |
+| **Dépassement des coûts**         | Vous pouvez uniquement autoriser ou rejeter l'entrée des transactions qui provoqueront un dépassement des coûts.   | La budgétisation du projet fournit des options de contrôle supplémentaires aux utilisateurs. Vous pouvez autoriser les avertissements et les dépassements.                    |
 | **Contrôler**               | Le contrôle des prévisions s'effectue en utilisant la réduction prévisionnelle. Les montants réels sont soustraits des soldes des transactions de prévision sans piste d'audit. Cela peut compliquer le suivi de réalisation des transactions réelles.                   | Dans le contrôle budgétaire du projet, les montants réels sont soustraits des montants du budget restant. Cela permet de clarifier la piste d'audit.                                   |
 
 ## <a name="project-forecasts"></a>Prévisions de projet
@@ -66,7 +64,7 @@ Les modèles de prévision peuvent utiliser la réduction prévisionnelle comme 
 
 Vous pouvez réviser, copier, supprimer ou transférer les prévisions de projet vers un budget comptable. Toutefois, le processus n'est pas contrôlé. Tout collaborateur doté d'une autorisation pour un écran de prévision peut effectuer des modifications sans révision.
 
--   **Réviser **– Vous pouvez réviser une transaction de prévision dans les écrans de création des entrées d'origine.
+-   **Réviser** – Vous pouvez réviser une transaction de prévision dans les écrans de création des entrées d'origine.
 -   **Copier ou Supprimer** – Lorsque vous copiez des transactions de prévision, vous copiez les lignes de transaction d'un modèle de prévision vers un autre modèle de prévision. Lorsque vous supprimez une prévision, vous supprimez les transactions de prévision d'un modèle de prévision. Pour limiter les transactions de prévision qi sont copiées ou supprimées, sélectionnez des types et dates de transaction spécifiques. Cela vous permet de copier ou de supprimer uniquement certaines parties d'une prévision.
 -   **Transférer** – Lorsque vous transférez une prévision de projet vers un budget comptable, vous transférez les transactions de prévision d'un modèle de prévision vers un budget comptable. Vous pouvez remplacer les transactions précédemment transférées dans le budget comptable vers lequel vous transférez votre prévision de projet.
 

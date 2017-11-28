@@ -3,7 +3,7 @@ title: "Définir les cellules de travail pour la lean manufacturing"
 description: "Une cellule de travail est une forme spécifique des groupes de ressources qui peuvent être utilisés dans les activités de processus Lean Manufacturing."
 author: cvocph
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 11/03/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1d2381c045f9f0f98b35912fa732f3627b038785
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: f060f084baab055a51e390f488ca2553bd997b92
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="define-lean-manufacturing-work-cells"></a>Définir les cellules de travail pour la lean manufacturing
@@ -75,7 +75,7 @@ Une cellule de travail est une forme spécifique des groupes de ressources qui p
 30. Cliquez sur Ajouter.
 31. Dans le champ Modèle de flux de production, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
 32. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-    * Ces procédures exigent le type de modèle de flux de production Débit, afin d'indiquer la définition de la capacité de débit.  
+    * Cette procédure exige le type de modèle de flux de production Débit, afin d'indiquer la définition de la capacité de débit.  
 33. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 34. Dans le champ Période de capacité, sélectionnez une option.
     * Les options sont les suivantes : Jour de travail standard - la capacité est exprimée par la durée du jour de travail standard du calendrier de temps de travail pour la cellule de travail. Pour chaque jour, le temps de travail réel est déterminé à partir du calendrier et la capacité efficace disponible effet est calculée en conséquence.   Semaine - autorise une capacité hebdomadaire. Aucun ajustement n'est effectué par rapport au temps de travail réel.   Mois - autorise une capacité mensuelle. Aucun ajustement n'est effectué par rapport à la capacité réelle.   Généralement, le jour de travail standard est utilisé pour les périodes quotidiennes et la capacité hebdomadaire est utilisée pour les périodes de capacité hebdomadaires.  

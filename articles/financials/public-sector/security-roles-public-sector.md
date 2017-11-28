@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: UserRequestListPage
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 19721
 ms.assetid: e26a6d93-851e-46be-8543-de2798909350
 ms.search.region: Global
@@ -19,12 +19,11 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 7ab18fef7d2373fcc682ecacf83a981f067fae99
+ms.translationtype: HT
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 768448a0f2143e5abf01fb843864b296877e8cbd
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 11/06/2017
 
 ---
 
@@ -102,7 +101,7 @@ Une fois les utilisateurs créés, vous les affectez à des rôles sur la page *
 <a name="see-also"></a>Voir également :
 --------
 
-[Sécurité basée sur les rôles](/dynamics365/unified-operations/dev-itpro/sysadmin/role-based-security)
+[Sécurité basée sur les rôles](../../dev-itpro/sysadmin/role-based-security.md)
 
 
 

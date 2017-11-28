@@ -3,14 +3,14 @@ title: "Fonctionnalités obsolètes"
 description: "Cette rubrique décrit les fonctions qui ont été supprimées, ou qu'il est prévu de supprimer."
 author: sericks007
 manager: AnnBe
-ms.date: 07/10/2017
+ms.date: 10/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations, Platform, UnifiedOperations
+ms.search.scope: Operations
 ms.custom: 21821
 ms.assetid: 31019808-4cbf-47d7-b1ba-d791db4281ae
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 6
 ms.translationtype: HT
-ms.sourcegitcommit: c73eeaaf28df8db720431d4bcd317c9721baa99d
-ms.openlocfilehash: 3ebe8f2869b93050d320456ff457c0b5692c5eae
+ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
+ms.openlocfilehash: ee051bbf50a6124fe1700a244b36b5f9c599e714
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 
@@ -348,7 +348,7 @@ Un workflow pour la gestion de la création des objectifs de l'employé est l'un
 
 ### <a name="aif-axd-and-axbc-integrations"></a>Intégration d'AIF, AxD et AxBC
 
-Dans l'environnement d'intégration applicative (AIF), les données peuvent être échangées avec les systèmes externes via une logique métier exposée en tant que service. Dynamics AX inclut des services basés sur des documents et sur .NET Business Connector (AxBC). Un document est créé à l'aide de XML. XML inclut des informations d'en-tête qui sont ajoutées pour créer un *message* qui peut être transféré ou extrait de Dynamics AX. Parmi les exemples de documents on trouve les commandes client et les commandes fournisseur. Toutefois, pratiquement n'importe quelle entité (un client par exemple), peut être représentée par un document. Les services basés sur des documents utilisent les classes **Axd&lt;*Document*&gt;** .
+Dans l'environnement d'intégration applicative (AIF), les données peuvent être échangées avec les systèmes externes via une logique métier exposée en tant que service. Dynamics AX inclut des services basés sur des documents et sur .NET Business Connector (AxBC). Un document est créé à l'aide de XML. XML inclut des informations d'en-tête qui sont ajoutées pour créer un *message* qui peut être transféré ou extrait de Dynamics AX. Parmi les exemples de documents on trouve les commandes client et les commandes fournisseur. Toutefois, pratiquement n'importe quelle entité (un client par exemple), peut être représentée par un document. Les services basés sur des documents utilisent les classes **Axd &lt;*Document*&gt;** .
 
 |                              |                                                                                                                                                                                                          |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -615,7 +615,7 @@ La génération de notes préliminaires ne peut pas être effectuée à l'aide d
 
 ### <a name="gl-ssrs-reports"></a>États GL SSRS
 
-Les états qui comprennent les options de menu suivantes ont été supprimés : **Synthèse de balance comptable****Balance comptable détaillée****Plan de comptes****Piste d'audit****Soldes** et **Liste des soldes**.
+Les états qui comprennent les options de menu suivantes ont été supprimés : **Synthèse de balance comptable**, **Balance comptable détaillée**, **Plan de comptes**, **Piste d'audit**, **Soldes** et **Liste des soldes**.
 
 |                              |                                                                                                                                              |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|

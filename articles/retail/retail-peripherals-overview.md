@@ -1,9 +1,8 @@
 ---
 title: "Vue d'ensemble des périphériques de vente au détail"
-description: "Cette rubrique explique les concepts relatifs aux périphériques de vente au détail. Elle décrit les différentes méthodes de connexion des périphériques au point de vente (PDV) ainsi que les composants en charge de gérer la connexion avec le PDV."
-author: rubencdelgado
+description: "Cette rubrique explique les concepts relatifs aux périphériques de vente au détail."
 manager: AnnBe
-ms.date: 06/19/2017
+ms.date: 11/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -18,14 +17,14 @@ ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e886411421fda17bb67f8ecedc1f7f3420e1fa72
+ms.sourcegitcommit: 52b3e2e78a03ac67507ee65a03e0884e5ed44678
+ms.openlocfilehash: 347100651302bb97806783d00559f2396d031fcc
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
-# <a name="retail-peripherals-overview"></a>Vue d'ensemble des périphériques de vente au détail
+# <a name="retail-peripherals-overview"></a>Vue d'ensemble des périphériques de la vente au détail
 
 [!include[banner](includes/banner.md)]
 
@@ -575,7 +574,7 @@ Conformément aux normes de sécurité en vigueur, les paramètres suivants doiv
 ## <a name="peripheral-simulator"></a>Simulateur périphérique
 Pour plus d'informations, voir [Simulateur périphérique de vente au détail](dev-itpro/retail-peripheral-simulator.md).
 
-## <a name="microsofttested-peripheral-devices"></a>Périphériques testés par Microsoft
+## <a name="microsoft-tested-peripheral-devices"></a>Périphériques testés par Microsoft
 ### <a name="ipc-built-in-hardware-station"></a>Station matérielle IPC (intégrée)
 
 Les périphériques suivants ont été testés à l'aide de la station matérielle IPC intégrée dans Modern POS pour Windows.

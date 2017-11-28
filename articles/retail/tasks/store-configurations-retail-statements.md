@@ -3,7 +3,7 @@ title: " Enregistrer les configurations pour les relevés de vente au détail"
 description: "Cette procédure illustre les configurations du magasin de vente au détail qui affectent la manière dont les relevés de vente au détail sont créés et validés."
 author: jashanno
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 11/14/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: cac676c9c6ebb6769fe7e30ac08a2c8334befc24
+ms.sourcegitcommit: 8bbdbf882f6f73d03be0a036cb975109396e4a0d
+ms.openlocfilehash: 45aa0caf6fcef4cc49952557a251dd78f816125e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 # <a name="store-configurations-for-retail-statements"></a> Enregistrer les configurations pour les relevés de vente au détail
@@ -33,7 +33,7 @@ Cette procédure illustre les configurations du magasin de vente au détail qui 
 2. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
 3. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
     * Les paramètres de la section Relevé/clôture affectent la création, le contrôle et, la validation de relevés pour le magasin.  Ouvrez la section Relevé/clôture  
-    * Sélectionnez la méthode à utiliser sur pour regrouper les lignes de relevé.  
+    * Sélectionnez la méthode à utiliser pour regrouper les lignes de relevé.  
     * Sélectionnez « Oui » si un seul relevé doit être créé par jour lors de la création de relevés à partir du traitement par lots de la création de relevés.  
     * Le champ Calcul de comptage de caisse définit si les comptages de caisse doivent être ajoutés ensemble ou si c'est le dernier qui doit être utilisé.  
     * Sélectionnez le compte général dans lequel valider les différences d'arrondi.  

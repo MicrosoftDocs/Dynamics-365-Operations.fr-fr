@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: WMSOrder, WMSShipment, MCRPickingWorkbench, WMSPickingRegistration, CustomFilterGroup
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 274363
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.dyn365.ops.intro: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: 9c09a7bd314bb9005eb0b6c69d7cccad1c30cfdb
-ms.openlocfilehash: 7b395cab2184f8f9f3f50a7a595c6ed782645323
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 1b8b17b719713097d77a117cca53eff6886ff1c7
 ms.contentlocale: fr-fr
-ms.lasthandoff: 10/04/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 
@@ -63,7 +63,7 @@ Accédez à **Gestion des stocks** \> **Paramétrage** \> **Paramètres de gesti
 
 [![Option Fin de la commande de stock sortante](./media//end-output-inventory-order.png)](./media//end-output-inventory-order.png)
 
-Parfois, certains articles du stock ne peuvent pas être prélevés dans le cadre du processus de prélèvement. Par exemple, cette situation peut se produire si un employé de l'entrepôt réduit les quantités dans des lignes de prélèvement et traite les prélèvements. Si l'option **Fin de la commande de stock sortante** est définie sur **Oui**, les quantités restantes non prélevées sont déclarées et reviennent au niveau de la commande. Si l'option est définie sur **Non**, les quantités restantes non prélevées sont conservées en tant que quantités d'ordre de sortie en cours de traitement. Dans ce cas, les quantités restent libérées dans l'entrepôt et doivent être ajoutées à de nouveaux prélèvements dans le cadre de la fonctionnalité **Ouvrir les ordres de sortie**.
+Lorsque le magasinier réduit les quantités de prélèvements, les quantités de la commande de stock correspondantes sont supprimées de l'expédition. Lorsque le prélèvement est mis à jour à un moment donné, les quantités restantes sont déclarées et reviennent au niveau de la commande si l'option **Fin de la commande de stock sortante** est définie sur **Oui**. Si l'option **Fin de la commande de stock sortante** est définie sur **Non**, les quantités restantes sont conservées comme quantité d'ordre de sortie ouvert et doivent être ajoutées à un nouveau prélèvement dans le cadre de la fonctionnalité **Ouvrir les ordres de sortie**. 
 
 [![Commande Ouvrir les ordres de sortie du menu Fonctions](./media/open-output-order.png)](./media/open-output-order.png)
 

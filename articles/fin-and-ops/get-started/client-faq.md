@@ -3,14 +3,14 @@ title: FAQ client Finance and Operations
 description: "Cet article fournit des réponses aux questions fréquemment posées sur le client Microsoft Dynamics 365 for Finance and Operations."
 author: jasongre
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 12334
 ms.assetid: a9a57f0e-a67c-46b1-83c9-5d6350fb3b86
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 55d4fa4629d203aa888fe6400126a872d2eee000
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 658d5a1a031f2292dbd445fa7fb345be01c61947
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 
@@ -43,7 +43,7 @@ Les paramètres de sécurité de votre navigateur peuvent empêcher les symboles
 ## <a name="i-miss-the-ribbon-from-dynamics-ax-2012-can-i-keep-action-pane-tabs-open-all-the-time"></a>Il me manque le ruban de Dynamics AX 2012. Puis-je conserver les onglets du volet Actions ouverts en permanence ?
 Nous prévoyons d'implémenter cette fonction bientôt. Les utilisateurs pourront alors choisir de conserver les onglets du volet Actions ouverts en permanence. Sinon, les onglets seront réduits lorsqu'ils ne seront pas utilisés, permettant de conserver davantage d'espace d'écran pour la page.
 
-## <a name="why-do-i-sometimes-see-different-shortcut-menus-when-i-rightclick"></a>Pourquoi vois-je parfois différents menus contextuels lorsque je clique avec le bouton droit ?
+## <a name="why-do-i-sometimes-see-different-shortcut-menus-when-i-right-click"></a>Pourquoi vois-je parfois différents menus contextuels lorsque je clique avec le bouton droit ?
 Si vous cliquez avec le bouton droit sur un champ modifiable (ou si le texte est sélectionné), le menu contextuel du navigateur s'affiche. Ce menu vous donne accès aux commandes **Couper**, **Copier** et **Coller**. Nous pouvons ne pas inclure ces commandes dans les menus contextuels de Finance and Operations car, pour des raisons de sécurité, les navigateurs ne nous permettent pas d'accéder par programme au presse-papiers du système.
 
 Si vous cliquez avec le bouton droit sur une étiquette de champ ou sur la valeur d'un contrôle en lecture seule, vous verrez le menu contextuel de Finance and Operations.

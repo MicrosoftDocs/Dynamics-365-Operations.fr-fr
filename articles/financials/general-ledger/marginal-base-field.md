@@ -1,9 +1,9 @@
 ---
 title: Taux de taxe en fonction de la Base marginale et du Mode de calcul
-description: "Cet article décrit comment les valeurs des champs Base marginale et Mode de calcul déterminent les taux de taxe dans les transactions de vente et d'achat."
+description: "Cette rubrique décrit comment les valeurs des champs Base marginale et Mode de calcul déterminent les taux de taxe dans les transactions de vente et d'achat."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 7171
 ms.assetid: 381fc309-b32a-4927-b5b8-fa1c31b0bd72
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e16e91208cdd6c1a5c904fb763454371b02c71fd
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: bf0f8f2e3f553ea181e8cc9ab5b712fce64a89d4
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Cet article décrit comment les valeurs des champs Base marginale et Mode de calcul déterminent les taux de taxe dans les transactions de vente et d'achat.
+Cette rubrique décrit comment les valeurs des champs Base marginale et Mode de calcul déterminent les taux de taxe dans les transactions de vente et d'achat.
 
 La base marginale dans l'organisateur Calcul de la page Codes taxe détermine le montant utilisé pour le choix appropriés du (des) taux de taxe à partir des taux de la page Valeur de code taxe. Le type de montant dans le champ Base marginale, combinée avec la méthode du champ Mode de calcul détermine la logique permettant de rechercher le (les) taux de taxe corrects pour une transaction. 
 
@@ -40,7 +40,7 @@ Diverses combinaisons de valeurs dans ces champs produisent des calculs de la ta
 > [!Important]                                                                                                                  
 > Si la base marginale sur un ou plusieurs de vos codes taxe est basée sur des montants de ligne ou des unités, la valeur du champ Mode de calcul de la page Paramètres de comptabilité doit être définie à Ligne. |
 
-## <a name="net-amount-per-line"></a> Montant HT par ligne
+## <a name="net-amount-per-line"></a>Montant HT par ligne
 Cette option permet de déterminer les taux de taxe sur la base du montant HT des lignes de facture, à l'exclusion de toute autre taxe.
 
 ### <a name="example"></a>Exemple
@@ -82,7 +82,7 @@ Taxe totale = 25,00 + 25,00 = 50,00
 
 Montant total de la facture = 200,00 + 50,00 = 250,00 euros
 
-## <a name="net-amount-per-unit"></a> Montant HT par unité
+## <a name="net-amount-per-unit"></a>Montant HT par unité
 Cette option permet de déterminer les taux de taxe en fonction de la valeur de chaque unité, à l'exclusion de toute autre taxe. Lorsqu'une base marginale basée sur les unités est sélectionnée, alors une unité doit également être spécifiée pour le code taxe.
 
 ### <a name="example"></a>Exemple
@@ -105,7 +105,7 @@ Le montant HT de la ligne de facture est de 200 euros.
 
 La taxe est calculée comme suit : Taxe par unité = 25,00 = 30 % x 7,50 Taxe totale = 7,50 x 8 unités = 60,00 Montant total facturé = 200,00 + 60,00 = 260,00
 
-## <a name="net-amount-of-invoice-balance"></a> Montant HT du solde de la facture
+## <a name="net-amount-of-invoice-balance"></a>Montant HT du solde de la facture
 
 Cette option permet de déterminer les taux de taxe en fonction de la valeur totale de la facture, à l'exclusion de toute autre taxe.
 
@@ -123,7 +123,7 @@ Base marginale : **Montant HT du solde de la facture**
 
 Mode de calcul : **Intervalle** Une facture client a 2 lignes avec 4 lampes sur chaque ligne, à 25,00 chacune. Le montant HT du solde de facture est 4 x 25,00 + 4 x 25,00 = 200,00. La taxe est calculée comme suit : Taxe totale = 50 x 0,30 + 50 x 0,20 + 100 x 0,10 = 15 + 10 + 10 = 35,00 Montant total facturé = 200,00 + 35,00 = 235,00
 
-## <a name="gross-amount-per-line"></a> Montant brut par ligne
+## <a name="gross-amount-per-line"></a>Montant brut par ligne
 
 Cette option permet de déterminer les taux de taxe en fonction de la valeur de la ligne, en incluant toute autre taxe pour cette ligne.
 
@@ -140,13 +140,13 @@ Les taux de taxe sont paramétrés dans les intervalles suivants :
 | 50 à 100           | 20 %      |
 | 100 - 0 (&gt; 100) | 10 %      |
 
-Base marginale : **Montant brut par ligne** Mode de calcul : **Intervalle** En outre, il existe un autre code taxe calculé pour un droit de douane spécial de 5,00 sur chaque lampe. Le droit est ajouté au montant HT avant le calcul de la taxe. Vous achetez 8 lampes à 25,00 pièce. Le montant HT de la ligne de facture est de 200 euros. Le montant brut de la ligne de facture est 8 x 25,00 + 8 x 5,00 = 240,00. La taxe est calculée comme suit : Taxe totale = 50 x 0,30 + 50 x 0,20 + 140 x 0,10 = 15 + 20 + 14 = 39,00 Total des droits de douane = 5,00 x 8 = 40,00 Montant total facturé = 200,00 + 39,00 + 40,00 = 279,00
+Base marginale : **Montant brut par ligne** Mode de calcul : **Intervalle** En outre, il existe un autre code taxe calculé pour un droit de douane spécial de 5,00 sur chaque lampe. Le droit est ajouté au montant HT avant le calcul de la taxe. Vous achetez 8 lampes à 25,00 pièce. Le montant HT de la ligne de facture est de 200 euros. Le montant brut de la ligne de facture est 8 x 25,00 + 8 x 5,00 = 240,00. La taxe est calculée comme suit : Taxe totale = 50 x 0,30 + 50 x 0,20 + 140 x 0,10 = 15 + 20 + 14 = 39,00 Total des droits de douane = 5,00 x 8 = 40,00 Montant total facturé = 200,00 + 39,00 + 40,00 = 279,00
 
 **Variante** 
 
 Si la facture est créée à l'aide de deux lignes de facture de 4 articles chacune, le montant HT par ligne de facture est EUR 100. Le montant brut (y compris le droit de douane de 4 x 5,00) par ligne de facture est 120,00, et la taxe est créée comme suit : Ligne de facture de taxe 1 = 50 x 0,30 + 50 x 0,20 + 20 x 0,10 = 15 + 10 + 2 = 27,00 Ligne de facture de taxe 2 50 x 0,30 + 50 x 0,20 + 20 x 0,10 = 15 + 10 + 2 = 27,00 Taxe totale = 27,00 + 27,00 = 54,00 Total des droits de douane = 5,00 x 8 = 40,00 Montant total facturé = 200,00 + 54,00 + 40,00 = 294,00
 
-## <a name="gross-amount-per-unit"></a> Montant brut par unité
+## <a name="gross-amount-per-unit"></a>Montant brut par unité
 
 Cette option permet de déterminer les taux de taxe en fonction de la valeur de l'unité, en incluant toute autre taxe.
 
@@ -165,7 +165,7 @@ Les taux de taxe sont paramétrés dans les intervalles suivants :
 
 Base marginale : **Montant brut par unité** Il existe un droit de douane spécial de 5,00 sur chaque lampe. Le droit est ajouté au montant HT avant le calcul de la taxe. Vous achetez 8 lampes à 25,00 pièce. Le montant brut par unité est 30,00. La taxe est calculée comme suit : Taxe par unité = 30 x 30 % = 9,00 Taxe totale = 9,00 x 8 = 72,00 Total des droits de douane = 5,00 x 8 = 40,00 Montant total facturé = 200,00 + 72,00 + 40,00 = 312,00
 
-## <a name="invoice-total-incl-other-sales-tax-amounts"></a> Facture totale, autres taxe incluses
+## <a name="invoice-total-incl-other-sales-tax-amounts"></a>Facture totale, autres taxe incluses
 
 Cette option permet de déterminer les taux de taxe en fonction de la valeur totale de la facture, en incluant toute autre taxe.
 > [!NOTE]

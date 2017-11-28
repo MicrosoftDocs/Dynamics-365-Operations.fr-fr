@@ -3,7 +3,7 @@ title: Ressources Operations
 description: "Les ressources opérationnelles réalisent les activités d'un projet ou d'un processus de production. Elles peuvent être de différents types et avoir différentes capacités."
 author: sorenva
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: WrkCtrCapability
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 61943
 ms.assetid: a3847f07-fca4-4140-a26f-d83c6ac68dde
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7a333c4d9c0e614c513bf3e1a02b943b186fb1e5
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: c4018632e5e20470948ee59e4bb2a1cab905d829
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 
@@ -63,7 +63,7 @@ Les ressources opérationnelles sont affectées aux activités lorsqu'un projet 
 
 -   **Capacité** – Spécifiez la capacité horaire de la ressource opérationnelle en termes d'unité de mesure de la capacité.
 -   **Capacité du traitement par lots** – Spécifiez le nombre maximal de pièces que la ressource opérationnelle peut traiter par passage.
--   **Pourcentage de rendement** – Spécifiez le rendement attendu de la ressource opérationnelle. Le pourcentage d'efficacité règle le débit de la ressource opérationnelle et affecte le temps réservé pour celle-ci. Le délai des opérations qui utilisent la ressource opérationnelle est également ajusté en conséquence. Voici la formule utilisée pour le calcul : Planification du temps = Temps × 100 ÷ Pourcentage de rendement où le *Temps* inclut le temps d'exécution et le temps de réglage.
+-   **Pourcentage de rendement** – Spécifiez le rendement attendu de la ressource opérationnelle. Le pourcentage d'efficacité règle le débit de la ressource opérationnelle et affecte le temps réservé pour celle-ci. Le délai des opérations qui utilisent la ressource opérationnelle est également ajusté en conséquence. Voici la formule utilisée pour le calcul : Temps de planification = Temps x 100 ÷ Pourcentage de rendement. *Temps* comprend à la fois la durée d'exécution et le temps de réglage.
 -   **Pourcentage d'ordonnancement** – Spécifiez le pourcentage maximal de capacité de la ressource opérationnelle à utiliser dans l'ordonnancement. Pour permettre une certaine flexibilité de capacité lors de la planification de tâches, vous devez définir ce pourcentage sur une valeur inférieure à 100 %.
 -   **Capacité finie** – Définissez cette option sur **Oui** si la ressource opérationnelle est planifiée en fonction de la capacité réelle disponible, et si les réservations de capacité existantes sont prises en compte. Si cette option est définie sur **Non**, la ressource opérationnelle est supposée avoir une capacité infinie, et elle peut donc être surréservée.
 -   **Propriété limitée** – Définissez cette option sur **Oui** si vous souhaitez planifier la ressource opérationnelle en fonction de la capacité réelle disponible par rapport aux propriétés de planification du temps de travail requises.

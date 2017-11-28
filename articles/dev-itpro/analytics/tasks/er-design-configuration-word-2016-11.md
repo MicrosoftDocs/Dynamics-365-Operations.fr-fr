@@ -16,8 +16,8 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: d602e07548d22bcdee3f375c3c327c0e8963c3b4
+ms.sourcegitcommit: 7f80dc8411d38d051b01d77e35635a920d8803a6
+ms.openlocfilehash: 300cf6ed1a5a7098e71b812d682c1b51c2cf786c
 ms.contentlocale: fr-fr
 ms.lasthandoff: 11/06/2017
 
@@ -28,11 +28,11 @@ ms.lasthandoff: 11/06/2017
 
 Les étapes suivantes expliquent comment un utilisateur bénéficiant du rôle Administrateur système ou Développeur d'états électroniques peut configurer des formats de données de génération d'états électronique (ER) pour générer des états sous forme de fichiers Microsoft Word. Ces étapes peuvent être effectuées dans la société GBSI.
 
-Pour réaliser ces étapes, vous devez d'abord effectuer les étapes du Guide de tâche de la section « Créer une configuration ER pour générer des états au format OPENXML ». Au préalable, vous devez également télécharger et enregistrer localement les modèles suivants pour l'exemple d'état : http://msdynamics.blob.core.windows.net/media/2016/10/SampleVendPaymDocReport.docx http://msdynamics.blob.core.windows.net/media/2016/10/SampleVendPaymDocReportBounded.docx. Au préalable, vous devez également télécharger et enregistrer localement les modèles suivants pour l'exemple d'état :
+Pour réaliser ces étapes, vous devez d'abord effectuer les étapes du Guide de tâche de la section « Créer une configuration ER pour générer des états au format OPENXML ». Au préalable, vous devez également télécharger et enregistrer localement les modèles suivants pour l'exemple d'état :
 
-http://msdynamics.blob.core.windows.net/media/2016/10/SampleVendPaymDocReport.docx
+[Modèle d'état de paiement](https://go.microsoft.com/fwlink/?linkid=862266)
 
-http://msdynamics.blob.core.windows.net/media/2016/10/SampleVendPaymDocReportBounded.docx
+[Modèle lié d'état de paiement](https://go.microsoft.com/fwlink/?linkid=862266)
 
 Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Microsoft Dynamics 365 for Operations.
 
@@ -49,7 +49,7 @@ Cette procédure s'applique à une fonction qui a été ajoutée dans la version
 ## <a name="replace-the-excel-template-with-the-word-template"></a>Remplacez le modèle Excel par le modèle Word
     * Actuellement, le document Excel est utilisé comme modèle pour générer la sortie au format OPENXML. Nous importerons le modèle de l'état au format de Word.  
 1. Cliquez sur Documents joints.
-    * Remplacez le modèle Excel existant par le modèle Word SampleVendPaymDocReport.docx, que vous avez téléchargé antérieurement. Notez que ce modèle ne contient que la mise en page du document que nous souhaitons générer comme sortie ER.  
+    * Remplacez le modèle Excel existant par le modèle Word que vous avez téléchargé antérieurement, Modèle d'état de paiement. Notez que ce modèle ne contient que la mise en page du document que nous souhaitons générer comme sortie ER.  
 2. Cliquez sur Supprimer.
 3. Cliquez sur Oui.
 4. Cliquez sur Nouveau.

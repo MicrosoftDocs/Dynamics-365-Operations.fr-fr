@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: fbe32e248727912073631f1dfb8ee0a49cbf0a5e
+ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
+ms.openlocfilehash: 7563c749d0d2b5747f1b7886def82ba7191499b1
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -36,9 +36,8 @@ Configurez la Comptabilité client et les Crédit et relances pour assurer le su
 Vous pouvez paramétrer des groupes de clients, des clients, des profils de validation, différentes options de paiement, des notes d'intérêt, des lettres de relance, des commissions, des paramètres concernant les clients, des frais, des livraisons et des destinations, des lettres de change, ainsi que d'autres types d'informations relatives à la comptabilité client, ainsi qu'aux crédits et relances.
 Le tableau suivant répertorie les pages qui prennent en charge la configuration et la mise à jour des modules Comptabilité client et Crédit et relances. Les entrées du tableau sont organisées par tâche, puis alphabétiquement par nom de page.
 
-| ![Remarque](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Remarque")**Remarque**          |
-|--------------------------------------------------------------------------------------------------|
-| Certaines pages du tableau suivant nécessitent la configuration d'informations ou de paramètres pour y accéder. |
+> [!NOTE]
+> Vous ne pouvez pas accéder à certaines pages du tableau suivant à moins que des paramètres de données ou des valeurs de paramètres aient été entrés sur d'autres pages.
 
 | Tâche                                                 | Nom de la page                            | Utilisation                                                                                                                                                                                                                                                                             |
 |------------------------------------------------------|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

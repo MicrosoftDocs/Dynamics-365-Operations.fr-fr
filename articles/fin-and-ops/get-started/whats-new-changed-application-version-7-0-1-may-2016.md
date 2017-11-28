@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Operations
 ms.custom: 91213
 ms.assetid: f0bbc78f-87fc-40e9-b46a-6655893f69be
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f3853169b7452e307a36579facea0cf0ab83ca47
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: b8e4f306d2ee20323229b478c93c1c7eeaba50be
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 
@@ -70,7 +70,7 @@ Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifi�
 | Spécifiez que les plaques d’immatriculation d’un emplacement de sortie de production ne font pas l'objet d'un contrôle.                                                                                                                                                                                                                                                                                                               | Vous pouvez maintenant spécifier que les plaques d’immatriculation d’un emplacement de sortie de production ne font pas l'objet d'un contrôle. Par exemple, cette fonctionnalité est utile lorsqu’un ordre de fabrication en amont signale les éléments terminés directement à un emplacement qui sert d’emplacement d’entrée en production pour un ordre de fabrication en aval.                                                                                                                                                     |
 | Prenez en charge les nomenclatures qui incluent des articles dotés de dimensions de produit différentes d’un même article.                                                                                                                                                                                                                                                                                                     | Lorsque vous utilisez une ou plusieurs des dimensions de produit dans la production, vous pouvez avoir des situations où vous souhaitez produire un article, basé sur une autre variante du même article. Pour plus d'informations, voir [ce blog](https://blogs.msdn.microsoft.com/axmfg/2015/12/22/support-for-boms-that-includes-items-with-different-product-dimensions-of-the-same-item/).                                                                  |
 | Les ordres de fabrication avec des structures circulaires au premier niveau de leurs nomenclatures sont exclus du calcul de nomenclature pour la planification de la ressource matérielle.                                                                                                                                                                                                                                     | Il n’est pas possible d’affecter des niveaux de nomenclature corrects aux variantes de produit pour les ordres de fabrication entraînant une circularité dans la hiérarchie de nomenclature.                                                                                                                                                                                                                                                                                                  |
-| Calculez les différents niveaux de nomenclature pour la planification des ressources matérielles et le calcul de coût : • Pour la planification de ressource matérielle, les niveaux de nomenclature sont calculés dans la nouvelle table **ReqItemLevel**. Les ordres de fabrication terminés sont ignorés dans le calcul. • Pour le calcul des coûts de production, les niveaux de nomenclature sont calculés dans la table **InventTable**. Les ordres de fabrication terminés sont inclus dans le calcul. | • Lors de l’exécution de planification des ressources matérielles, par exemple, la planification planifie le plan et les explosions, seuls les niveaux de nomenclature utilisés pour la planification de ressource matérielle doivent être recalculés. Autrement dit, il n’est pas nécessaire de calculer les niveaux de la nomenclature utilisés pour le calcul de la production. • Lors de l’exécution des opérations d’évaluation des coûts, par exemple, les stocks de clôture, seuls les niveaux de nomenclature utilisés pour le calcul de coût de la production doivent recalculés. |
+| Calculez les différents niveaux de nomenclature pour la planification des ressources matérielles et le calcul de coût : • Pour la planification de ressource matérielle, les niveaux de nomenclature sont calculés dans la nouvelle table **ReqItemLevel**. Les ordres de fabrication terminés sont ignorés dans le calcul. • Pour le calcul des coûts de production, les niveaux de nomenclature sont calculés dans la table **InventTable**. Les ordres de fabrication terminés sont inclus dans le calcul. | • Lors de l’exécution de planification des ressources matérielles, par exemple, la planification planifie le plan et les explosions, seuls les niveaux de nomenclature utilisés pour la planification de ressource matérielle doivent être recalculés. Autrement dit, il n’est pas nécessaire de calculer les niveaux de la nomenclature utilisés pour le calcul de la production. • Lors de l’exécution des opérations d’évaluation des coûts, par exemple, les stocks de clôture, seuls les niveaux de nomenclature utilisés pour le calcul de coût de la production doivent être recalculés. |
 
  
 

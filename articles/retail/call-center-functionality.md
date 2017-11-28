@@ -1,9 +1,9 @@
 ---
 title: "Fonctionnalité de centre d'appels"
-description: "Cet article fournit une vue d'ensemble de la fonctionnalité de vente des centres d'appels dans Microsoft Dynamics 365 for Retail."
+description: "Cette rubrique fournit une vue d'ensemble de la fonctionnalité de vente des centres d'appels dans Microsoft Dynamics 365 for Retail."
 author: josaw1
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 00d24e9933d087f150ec5270da94ad911423824d
+ms.sourcegitcommit: 52b3e2e78a03ac67507ee65a03e0884e5ed44678
+ms.openlocfilehash: 75dc09ffc84ef8ec48f50ea410974c99aabc212e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -40,7 +40,7 @@ Dynamics 365 for Retail prend également en charge les centres d'appels comme ty
 
 Une fois que vous avez activé ces fonctionnalités dans les paramètres du centre d'appels, elles sont disponibles sur la page **Commande client** pour les utilisateurs associés au centre d'appels. La plupart de ces fonctions requièrent un paramétrage supplémentaire avant d'être utilisées. Avant que les utilisateurs puissent créer des commandes de centre d'appels, vous devez ajouter ces utilisateurs au centre d'appels en tant qu'utilisateurs du centre d'appels. Cette étape active la configuration et la fonctionnalité spécifiques au canal de centre d'appels. Voici quelques exemples de fonctionnalités qui deviennent disponibles :
 
--   La vente guidée fournit des options de configuration pour les scripts de téléventes et les images de produits, afin d'aider et guider les commis aux ventes lors de la prise de commandes.
+-   La vente guidée fournit des options de configuration pour les scripts de téléventes et les images de produits, afin d'aider et guider les commis aux ventes lors de la prise de commandes.
 -   Les commandes ne peuvent pas être bouclées tant que les commis aux ventes n'ont pas capturé au moins un mode de paiement.
 -   Les règles de vente de gamme supérieure et de vente croisée peuvent être configurés de sorte à inviter les commis aux vente à promouvoir des produits spécifiques auprès des clients.
 -   Les commis aux ventes peuvent capturer le code source pour le catalogue à partir duquel un client passe sa commande.

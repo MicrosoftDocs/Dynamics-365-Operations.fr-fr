@@ -1,27 +1,27 @@
 ---
 title: "Éléments du workflow"
-description: "Cet article décrit les divers éléments qui constituent un workflow."
+description: "Cette rubrique décrit les divers éléments qui constituent un workflow."
 author: sericks007
 manager: AnnBe
-ms.date: 08/23/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 56441
 ms.assetid: de740262-6ffd-42b9-a325-540eae5cec94
 ms.search.region: Global
-ms.author: tjvass
+ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 255777651a45b899850fc870c9da288f65df702c
+ms.sourcegitcommit: 8bbdbf882f6f73d03be0a036cb975109396e4a0d
+ms.openlocfilehash: 15cac09a97305c1b467cbb97da2d4b8a864ccbc7
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -30,9 +30,9 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Cet article décrit les divers éléments qui constituent un workflow.
+Cette rubrique décrit les divers éléments qui constituent un workflow.
 
-Un workflow consiste en des éléments. Les sections suivantes décrivent chaque type d'élément.
+Un workflow est constitué d'éléments. Les sections suivantes décrivent chaque type d'élément.
 
 ## <a name="tasks"></a>Tâches
 Une *tâche* est une unité de travail qui doit être réalisée. Deux types de tâche peuvent être ajoutés à un workflow : des tâches manuelles et des tâches automatiques.
@@ -56,10 +56,10 @@ Un *processus d'approbation* est un processus qui consiste en différentes étap
 
 -   approuver le document ;
 -   rejeter le document ;
--   demander une modification du document ;
+-   demander une modification du document ;
 -   affecter le document à un autre utilisateur pour approbation.
 
-## <a name="lineitem-workflow-elements"></a>Éléments de workflow pour ligne
+## <a name="line-item-workflow-elements"></a>Éléments de workflow pour ligne
 Vous pouvez créer un workflow pour traiter des documents ou les lignes d'un document. Par exemple, vous avez créé un workflow d'approbation pour des feuilles de temps. (Nous appellerons ce workflow le *workflow de document*.) Il est possible d'y ajouter un élément de *workflow pour ligne*. Lorsque l'élément de ligne est exécuté, chaque ligne du document est soumise pour traitement. Vous pouvez décider de faire traiter toutes les lignes par le même workflow pour ligne ou chaque ligne par un workflow pour ligne différent. Imaginons qu'un employé ait soumis une feuille de temps semblable à celle de la figure suivante.
 
 ![Workflow avec lignes](./media/workflow_lineitemworkflow.gif) 
@@ -70,7 +70,7 @@ Dans ce cas, il pourrait s'avérer utile de créer les workflows pour ligne suiv
 -   **Workflow pour ligne 2** – Ce workflow permet de traiter les lignes dont l'ID projet est 2222.
 -   **Workflow pour ligne 3** – Ce workflow permet de traiter les lignes dont l'ID projet est 3333.
 
-## <a name="flowcontrol-elements"></a>Éléments de contrôle des flux
+## <a name="flow-control-elements"></a>Éléments de contrôle des flux
 Les éléments suivants permettent de concevoir des workflows avec des branches secondaires ou avec des branches qui s'exécutent simultanément.
 
 ### <a name="manual-decision"></a>Décision manuelle

@@ -17,10 +17,10 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 184f38347e2525f3efef9b0d55003a94a75380d4
+ms.sourcegitcommit: 809a1466b0f4674f503bc654175d8f94b37a6508
+ms.openlocfilehash: c7148bd807ef29b0dd89204a0fbe9b8480095aba
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="register-items-for-a-basic-warehousing-enabled-item-using-an-item-arrival-journal"></a>Enregistrer des articles pour un article activé pour l'entreposage de base à l'aide d'un journal des arrivées d'articles
@@ -34,7 +34,7 @@ Cette procédure décrit la manière dont vous enregistrez des articles à l'aid
 1. Accédez à Gestion des stocks > Entrées de journal > Arrivée d'articles > Arrivée d'articles.
 2. Cliquez sur Nouveau.
 3. Tapez une valeur dans le champ Nom.
-    * Si vous utilisez USMF, vous pouvez taper WHS. Si vous utilisez d'autres données, le journal dont vous choisissez le nom doit avoir les propriétés suivantes : Vérifier l'emplacement de prélèvement doit être définie sur Non et Gestion des contrôles doit être définie sur Non.  
+    * Si vous utilisez USMF, vous pouvez taper WHS. Si vous utilisez d'autres données, le journal dont vous choisissez le nom doit avoir les propriétés suivantes : vérifiez l'emplacement de prélèvement doit être définie sur Non et Gestion des contrôles doit être définie sur Non.  
 4. Tapez une valeur dans le champ Bon de livraison.
     * Il s'agit de l'ID bon de livraison du bon de livraison émis par le fournisseur. Ajoutez un numéro unique.  
 5. Sélectionnez la commande fournisseur dans le champ Nombre.

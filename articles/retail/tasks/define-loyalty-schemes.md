@@ -1,9 +1,9 @@
 --- 
-title: " Définir les schémas de fidélité"
+title: "Définir les schémas de fidélité"
 description: "Cette procédure décrit comment définir un plan de fidélité."
 author: jashanno
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 11/14/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,14 +17,14 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 23c8876b1983d6bc20b68f24fa7cd5b042cfd488
+ms.sourcegitcommit: 8bbdbf882f6f73d03be0a036cb975109396e4a0d
+ms.openlocfilehash: 1fc193e113961705f18488a4341652b3576fb275
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
-# <a name="define-loyalty-schemes"></a> Définir les schémas de fidélité
+# <a name="define-loyalty-schemes"></a>Définir les schémas de fidélité
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
@@ -50,7 +50,7 @@ Cette procédure décrit comment définir un plan de fidélité. Les plans de fi
 13. Dans le champ ID de point de récompense, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
 14. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 15. Dans le champ Points de récompense, saisissez un nombre.
-    * Les points de récompense de type Montant enregistrent les montants obtenus avec les décimales. Par exemple, si la règle de gain indique 1 point de récompense obtenu pour chaque dollar canadien dépensé et que le client dépense 1,25 dollar canadien, il obtiendra 1,25 point de récompense. Les points de récompense de type Quantité enregistrent les montants obtenus en tant qu'entiers. Si on prend l'exemple où la règle de gain indique 1 point de récompense obtenu pour chaque dollar canadien dépensé et que le client dépense 1,25 dollar canadien, il obtiendra 1,0 point de récompense.  
+    * Les points de récompense de type Montant enregistrent les montants obtenus avec les décimales. Par exemple, si la règle de gain indique 1 point de récompense obtenu pour chaque dollar canadien dépensé et que le client dépense 1,25 dollar canadien, il obtiendra 1,25 point de récompense. Les points de récompense de type Quantité enregistrent les montants obtenus en tant qu'entiers. Si on prend l'exemple où la règle de gain indique 1 point de récompense obtenu pour chaque dollar canadien dépensé et que le client dépense 1,25 dollar canadien, il obtiendra 1,0 point de récompense.  
 16. Cliquez sur Enregistrer.
 17. Cliquez sur Ajouter une ligne.
     * Les règles de remboursement sont utilisées lorsque le mode de paiement de fidélité est utilisé.  

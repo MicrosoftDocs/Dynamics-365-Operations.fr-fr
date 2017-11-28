@@ -1,9 +1,9 @@
 ---
 title: "Présentation des demandes d'achat"
-description: "Cet article décrit le workflow de demande d'achat et les différents statuts qu'une demande d'achat peut avoir."
+description: "Cette rubrique décrit le workflow de demande d'achat et les différents statuts d'une demande d'achat."
 author: mkirknel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 2174
 ms.assetid: 77d07119-4d9f-4c0e-acbe-d319203571ab
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: 6fb8bbc7340650341618f3a9613f4234ef1e9c04
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: b96a89bcabdaa3e3a3be3786dda15f9725f5a50d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Cet article décrit le workflow de demande d'achat et les différents statuts qu'une demande d'achat peut avoir.
+Cette rubrique décrit le workflow de demande d'achat et les différents statuts d'une demande d'achat.
 
 En fonction du paramétrage de votre organisation, vous pouvez créer des demandes d'achat pour les produits utilisés par votre organisation. Une demande d'achat est un document interne qui autorise le département Achats à acheter des articles ou des services.  
 
@@ -70,7 +70,7 @@ Le statut global de la demande d'achat est déterminé par le statut des lignes 
 <tr class="odd">
 <td>Brouillon</td>
 <td>Brouillon</td>
-<td>La demande d'achat et la ligne associée ont été créées, mais n'ont pas été soumises pour révision. Les demandes d'achat et les lignes de demande d'achat qui présentent un statut <strong>Brouillon</strong> peuvent être modifiées. Une demande d'achat ou une ligne de demande d'achat a également le statut <strong>Brouillon</strong> si elle a été rappelée, mais pas soumise à nouveau en révision.<strong>Remarque :</strong> Vous pouvez soumettre ou rappeler une demande d'achat au niveau du document. Toutefois, vous ne pouvez pas soumettre ou rappeler une seule et unique ligne de demande d'achat.</td>
+<td>La demande d'achat et la ligne associée ont été créées, mais n'ont pas été soumises pour révision. Les demandes d'achat et les lignes de demande d'achat ayant le statut de <strong>Brouillon</strong> peuvent être modifiées. Une demande d'achat et la ligne associée peuvent également avoir le statut de <strong>Brouillon</strong> si elles sont rappelées et si elles n'ont pas été resoumises pour révision. <strong>Remarque :</strong> Vous pouvez uniquement soumettre ou rappeler une demande d'achat au niveau du document. Toutefois, vous ne pouvez pas soumettre ou rappeler une seule et unique ligne de demande d'achat.</td>
 </tr>
 <tr class="even">
 <td>En cours de révision</td>
@@ -111,7 +111,7 @@ Si vous resoumettez une ligne de demande d'achat rejetée, le processus de révi
 <tr class="odd">
 <td>Annulé</td>
 <td>Annulé</td>
-<td>La demande d'achat et toutes les lignes de demande d'achat ont été annulées.<strong>Remarque :</strong> Si vous n'avez plus besoin d'un article figurant sur une ligne de demande d'achat, vous devez annuler la ligne de demande d'achat si elle a déjà été approuvée. Seules les lignes de demande d'achat approuvées peuvent être annulées. Si des lignes de demande d'achat sont en cours de révision, la demande d'achat a également le statut <strong>En cours de révision</strong>. Dans ce cas, vous pouvez rappeler la demande d'achat et supprimer la ligne de demande d'achat appropriée.</td>
+<td>La demande d'achat et toutes les lignes de demande d'achat ont été annulées. <strong>Remarque :</strong> Si vous n'avez plus besoin d'un article figurant sur une ligne de demande d'achat, vous devez annuler la ligne de demande d'achat si elle a été approuvée. Seules les lignes de demande d'achat approuvées peuvent être annulées. Si des lignes de demande d'achat sont en cours de révision, la demande d'achat a également le statut <strong>En cours de révision</strong>. Dans ce cas, vous pouvez rappeler la demande d'achat et supprimer la ligne de demande d'achat appropriée.</td>
 </tr>
 <tr class="even">
 <td>Clôturé(e)</td>

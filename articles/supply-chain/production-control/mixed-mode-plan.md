@@ -1,9 +1,9 @@
 ---
 title: "Planification de mode mixte - combiner un approvisionnement discret, basé sur les processus et le lean manufacturing"
-description: "Cet article fournit des informations sur la planification de mode mixte. Dans la planification de mode mixte, vous pouvez modéliser la chaîne d'approvisionnement selon le flux des matières. Microsoft Dynamics 365 for Finance and Operations garantit que le flux des matières suit vos modèles, indépendamment de la stratégie d'approvisionnement sélectionnée (kanbans, ordres de fabrication, commandes fournisseur, lots de commandes, ou ordres de transfert)."
+description: Cette rubrique fournit des informations sur la planification de mode mixte.
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: EcoResStorageDimensionGroup, InventItemOrderSetup, ReqItemTable
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 52931
 ms.assetid: 2e8b5fd1-cee9-45da-a3ae-6961fb020b89
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 09ced68ffe8ff300a04beb65fdf8527e63456f04
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: bb8fa816d48ee808b92a5bf80c2c39c51f33a195
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Cet article fournit des informations sur la planification de mode mixte. Dans la planification de mode mixte, vous pouvez modéliser la chaîne d'approvisionnement selon le flux des matières. Microsoft Dynamics 365 for Finance and Operations garantit que le flux des matières suit vos modèles, indépendamment de la stratégie d'approvisionnement sélectionnée (kanbans, ordres de fabrication, commandes fournisseur, lots de commandes, ou ordres de transfert). 
+Cette rubrique fournit des informations sur la planification de mode mixte. Dans la planification de mode mixte, vous pouvez modéliser la chaîne d'approvisionnement selon le flux des matières. Microsoft Dynamics 365 for Finance and Operations garantit que le flux des matières suit vos modèles, indépendamment de la stratégie d'approvisionnement sélectionnée (kanbans, ordres de fabrication, commandes fournisseur, lots de commandes, ou ordres de transfert). 
 
 Vous pouvez sélectionner votre stratégie globale pour fournir un produit, indépendamment de la structure de produit.  
 
@@ -59,7 +59,7 @@ Généralement, les kanbans ne sont pas créés pour des dates futures, car le c
 
 La même est logique est présente pour tous les autres types de stratégie d'approvisionnement. Par conséquent, la planification à long terme des matières est basée sur la même logique que vous prévoyez d'exécuter avec les commandes réelles une fois que la production et l'approvisionnement sont approuvés.
 
-## <a name="materials-allocation-crosssupply-policy--resource-consumption-on-boms"></a>Stratégie d'approvisionnement croisée de répartition des matières – Consommation de ressources dans les nomenclatures
+## <a name="materials-allocation-cross-supply-policy--resource-consumption-on-boms"></a>Stratégie d'approvisionnement croisée de répartition des matières – Consommation de ressources dans les nomenclatures
 La consommation de ressources est une fonction importante. La consommation de ressources active un entrepôt de prélèvement des matières à sélectionner dynamiquement, en fonction de la stratégie d'approvisionnement (type de commande), et facilite également la maintenance des données de base.  
 
 La consommation de ressources exige que l'entrepôt d'où les matières sont prélevées soit affecté en fonction de la manière dont le produit est fourni. En d'autres termes, au moment de l'exécution, le système recherche les ressources qui doivent être utilisées pour la fabrication. En fonction de ces ressources, le système recherche alors l'entrepôt de prélèvement.  

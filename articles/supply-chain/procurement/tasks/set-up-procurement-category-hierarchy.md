@@ -3,7 +3,7 @@ title: "Paramétrage d'une hiérarchie des catégories d'approvisionnement"
 description: "Cette procédure vous indique comment créer de nouveaux nœuds dans une hiérarchie des catégories d'approvisionnement et comment configurer une catégorie d'approvisionnement à utiliser dans processus d'approvisionnement."
 author: mkirknel
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 11/06/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,8 +16,8 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b9897b1184e8159b20a45d4cedbba56baef31a3c
+ms.sourcegitcommit: 6ad5c8552a6989e9093d0b1325754bc0f6d19372
+ms.openlocfilehash: 4541d029c9c3be3ee42332e5d8ff183dd503f13e
 ms.contentlocale: fr-fr
 ms.lasthandoff: 11/06/2017
 
@@ -30,7 +30,7 @@ Cette procédure vous indique comment créer de nouveaux nœuds dans une hiérar
 
 
 ## <a name="add-a-new-procurement-category"></a>Ajouter une catégorie d'approvisionnement
-1. Accédez à Approvisionnements >  > Catégories d'approvisionnement.
+1. Accédez à Approvisionnements > Catégories d'approvisionnement.
 2. Cliquez sur Modifier la hiérarchie de la catégorie.
     * La hiérarchie des catégories d'approvisionnement actuelle s'affiche à la gauche de la page. Vous êtes sur le point de modifier la hiérarchie.  
 3. Cliquez sur Nouveau nœud de catégorie.
@@ -42,7 +42,7 @@ Cette procédure vous indique comment créer de nouveaux nœuds dans une hiérar
 7. Cliquez sur Enregistrer.
 
 ## <a name="add-products-to-your-new-procurement-category"></a>Ajouter des produits à une nouvelle catégorie d'approvisionnement
-1. Accédez à Approvisionnements >  > Catégories d'approvisionnement.
+1. Accédez à Approvisionnements > Catégories d'approvisionnement.
     * Sélectionnez le nœud que vous venez d'ajouter. Si vous exécutez cette procédure en tant que guide des tâches, vous devrez peut-être déverrouiller le guide des tâches pour sélectionner le nœud.  
 2. Activez ou désactivez l'extension de la section Produits.
 3. Cliquez sur Ajouter pour associer des produits à la catégorie d'approvisionnement.

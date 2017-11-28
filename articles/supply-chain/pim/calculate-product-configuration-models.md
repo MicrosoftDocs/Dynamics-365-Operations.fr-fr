@@ -1,9 +1,9 @@
 ---
 title: "Forums aux questions sur les calculs pour les modèles de configuration de produit"
-description: "Cet article décrit les calculs pour les modèles de configuration de produit et explique comment les utiliser avec les contraintes."
+description: "Cette rubrique décrit les calculs pour les modèles de configuration de produit et explique comment les utiliser avec les contraintes."
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: fea4e139d32c780769bafe08d603b828d366550c
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: 0763e5a02e7a14b6ef369103aa25e435559abe19
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Cet article décrit les calculs pour les modèles de configuration de produit et explique comment les utiliser avec les contraintes.
+Cette rubrique décrit les calculs pour les modèles de configuration de produit et explique comment les utiliser avec les contraintes.
 
 Les calculs peuvent être utilisés pour les opérations arithmétiques ou logiques. Ils complètent les contraintes d'expression dans les modèles de configuration de produit. Vous pouvez définir des calculs sur la page **Détails du modèle de configuration de produits basée sur les contraintes**, puis établissez des expressions pour les calculs dans l'éditeur d'expressions. Pour plus d'informations, voir Créer des calculs.
 
@@ -75,7 +75,7 @@ Les calculs se produisent lorsqu'une valeur a été fournie pour tous les attrib
 ## <a name="can-i-overwrite-the-value-that-is-calculated-for-the-target-attribute"></a>Est-ce que je peux remplacer la valeur calculée pour l'attribut cible ?
 Vous pouvez remplacer la valeur calculée pour l'attribut cible à moins que l'attribut cible soit défini comme masqué ou en lecture seule.
 
-## <a name="how-do-i-set-a-target-attribute-as-hidden-or-readonly"></a>Comment définir un attribut cible comme masqué ou en lecture seule ?
+## <a name="how-do-i-set-a-target-attribute-as-hidden-or-read-only"></a>Comment définir un attribut cible comme masqué ou en lecture seule ?
 Pour définir un attribut comme masqué ou en lecture seule, procédez comme suit :
 
 1.  Cliquez sur **Gestion des informations sur les produits** &gt; **Commun** &gt; **Modèles de configuration de produit**.

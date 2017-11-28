@@ -3,7 +3,7 @@ title: "Paramètres de commande par défaut pour les dimensions et les variantes
 description: "Les paramètres de commande par défaut définissent le site et l'entrepôt d'où les articles seront originaires ou stockés, les quantités minimales, maximales, multiples et standard qui seront utilisées pour le commerce ou la gestion des stocks, les délais, l'indicateur de fin, et la méthode de promesse de commande."
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 9954d3daeacd55ce951b5d0e9c4fe1b96feb96c2
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: 5e67be5687388d399e2f702d8070cd960cbe7939
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 09/29/2017
 [!include[retail name](../includes/retail-name.md)]
 
 
-Les paramètres de commande par défaut dans Microsoft Dynamics 365 for Finance and Operations, Enterpise edition définissent le site et l'entrepôt d'où les articles seront originaires ou stockés, les quantités minimales, maximales, multiples et standard qui seront utilisées pour le commerce ou la gestion des stocks, les délais, l'indicateur de fin, et la méthode de promesse de commande. Les paramètres de commande par défaut sont utilisés lors de la création de commandes fournisseur, de commandes client, d'ordres de transfert, de journaux de stock, et par la planification pour générer des ordres prévisionnels. Les paramètres de commande par défaut peuvent être spécifiques à l'article, au site, à une variante de produit, ou à une dimension de produit.
+Les paramètres de commande par défaut dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition définissent le site et l'entrepôt d'où les articles seront originaires ou stockés, les quantités minimales, maximales, multiples et standard qui seront utilisées pour le commerce ou la gestion des stocks, les délais, l'indicateur de fin, et la méthode de promesse de commande. Les paramètres de commande par défaut sont utilisés lors de la création de commandes fournisseur, de commandes client, d'ordres de transfert, de journaux de stock, et par la planification pour générer des ordres prévisionnels. Les paramètres de commande par défaut peuvent être spécifiques à l'article, au site, à une variante de produit, ou à une dimension de produit.
 
 Vous pouvez définir les paramètres de commande par défaut sur la page **Paramètres de commande par défaut**. Pour ouvrir cette page, accédez à **Gestion des informations sur les produits** &gt; **Produits** &gt; **Produits lancés** &gt; **Sélectionnez un produit lancé** &gt; sur le Volet d'action **Plan** ou **Gérer le stock** Paramètres de &gt; **la commande** &gt; **Paramètres de commande par défaut**.
 
@@ -89,7 +89,7 @@ Vous pouvez définir les paramètres de commande par défaut générales et auta
 
 ### <a name="rank-in-default-order-settings"></a>Classer les paramètres de commande par défaut
 
-Les règles de paramètrage de commande par défaut sont classées. Plus le classement est élevé, plus la règle est importante, ce qui signifie qu'elle a une priorité supérieure et est utilisée avant les règles avec des classements inférieurs. Les paramètres de commande généraux par défaut ont le classement zéro, qui ne peut pas être modifié. Il ne peut y avoir qu'une seule règle avec le classement zéro. Les règles peuvent avoir le même classement, à condition que les dimensions auxquelles elles s'appliquent diffèrent. Cela est utile pour modéliser des paramètres de commande spécifiques au site. Lorsqu'une règle de paramètrage de commande par défaut est créée, les valeurs des valeurs de commande, de l'indicateur de fin, etc. sont hérités de la règle avec le classement zéro, mais peuvent être remplacées.
+Les règles de paramètrage de commande par défaut sont classées. Plus le classement est élevé, plus la règle est importante, ce qui signifie qu'elle a une priorité supérieure et est utilisée avant les règles avec des classements inférieurs. Les paramètres de commande généraux par défaut ont le classement zéro, qui ne peut pas être modifié. Il ne peut y avoir qu'une seule règle avec le classement zéro. Les règles peuvent avoir le même classement, à condition que les dimensions auxquelles elles s'appliquent diffèrent. Cela est utile pour modéliser des paramètres de commande spécifiques au site. Lorsqu'une règle de paramétrage de commande par défaut est créée, les valeurs des valeurs de commande, de l'indicateur de fin, etc. sont hérités de la règle avec le classement zéro, mais peuvent être remplacées.
 
 ### <a name="default-order-settings-for-released-products"></a>Paramètres de commande par défaut pour les produits lancés
 

@@ -3,7 +3,7 @@ title: "Gestion et comptabilité des projets"
 description: "La fonctionnalité de gestion de projets et de comptabilité peut être utilisée dans plusieurs secteurs pour fournir un service, fabriquer un produit, ou atteindre résultat."
 author: KimANelson
 manager: AnnBe
-ms.date: 09/14/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: cd30c9278c58f8e0ca9b50f67a999708bd64c0a2
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: 6a2c51d9ffe288dad2db43ecd0a4c8f717c6379a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 
@@ -75,7 +75,7 @@ Pour plus d'informations, voir [Structures de répartition du travail](work-brea
 
 ### <a name="create-project-forecasts-and-budgets"></a>Création des prévisions de projet et des budgets de projet
 
-Vous pouvez utiliser la prévision si votre organisation a une perspective opérationnelle orientée sur les produits et les coûts qui sont dérivés des transactions spécifiques. Toutefois, vous pouvez utiliser la budgétisation si votre organisation s'oriente plus sur les montants financiers. Chaque méthode a ses avantages. Pour plus d'informations, consultez[Prévisions et budgets de projet](project-forecasts-budgets.md).
+Vous pouvez utiliser la prévision si votre organisation a une perspective opérationnelle orientée sur les produits et les coûts qui sont dérivés des transactions spécifiques. Toutefois, vous pouvez utiliser la budgétisation si votre organisation s'oriente plus sur les montants financiers. Chaque méthode a ses avantages. Pour plus d'informations, consultez [Prévisions et budgets de projet](project-forecasts-budgets.md).
 
 ### <a name="create-projects"></a>Créer des projets
 
@@ -118,7 +118,7 @@ Pour plus d'informations, voir [Structures de répartition du travail](work-brea
 
 Il existe deux méthodes permettant de gérer et de contrôler vos projets : les prévisions de projet et les budgets de projet. Vous pouvez utiliser la prévision si votre organisation a une perspective opérationnelle orientée sur les produits et les coûts qui sont dérivés des transactions spécifiques. Toutefois, vous pouvez utiliser la budgétisation si votre organisation s'oriente plus sur les montants financiers.
 
-Pour plus d'informations, consultez[Prévisions et budgets de projet](project-forecasts-budgets.md).
+Pour plus d'informations, consultez [Prévisions et budgets de projet](project-forecasts-budgets.md).
 
 ### <a name="create-production-orders"></a>Créer des ordres de fabrication
 
@@ -228,7 +228,7 @@ Le tableau suivant décrit les méthodes de calcul du coût à terminer du proje
 <tbody>
 <tr class="odd">
 <td>Coût total – Réel</td>
-<td>Les coûts estimés doivent être entrés manuellement. Une fois que la colonne <strong>Coût total</strong> ou <strong>Quantité totale</strong> de la page <strong>Estimation des coûts </strong>est remplie, les coûts réels sont soustraits des totaux entrés par l'utilisateur. Le résultat est le coût à terminer du projet. En général, la progression des coûts n'est pas suivie selon, par exemple, le nombre de séjours à l'hôtel et de repas enregistrés dans chaque période. Au lieu de cela, le suivi est généralement basé sur une comparaison par rapport au montant total d'heures estimées. Cette approche ne nécessite pas de modèle de prévision, et le coût total ou la quantité totale peut être modifiée manuellement. Lorsqu'une valeur est entrée dans la colonne <strong>Coût total</strong> ou <strong>Quantité totale</strong>, Finance and Operations compare cette valeur aux transactions réelles validées dans la période, puis diminue la valeur dans la colonne <strong>Quantité à atteindre</strong> ou <strong>Coût à terminer</strong>.</td>
+<td>Les coûts estimés doivent être entrés manuellement. Une fois que la colonne <strong>Coût total</strong> ou <strong>Quantité totale</strong> de la page <strong>Estimation des coûts</strong> est remplie, les coûts réels sont soustraits des totaux entrés par l'utilisateur. Le résultat est le coût pour terminer le projet. En règle générale, le suivi de la progression des coûts n'est pas basé, par exemple, sur le nombre de séjours à l'hôtel et de repas enregistré dans chaque période. Au lieu de cela, le suivi est généralement basé sur une comparaison par rapport au montant total d'heures estimées. Cette approche ne nécessite pas de modèle de prévision, et le coût total ou la quantité totale peut être modifiée manuellement. Lorsqu'une valeur est entrée dans la colonne <strong>Coût total</strong> ou <strong>Quantité totale</strong>, Finance and Operations compare cette valeur aux transactions réelles validées dans la période, puis diminue la valeur dans la colonne <strong>Quantité à atteindre</strong> ou <strong>Coût à terminer</strong>.</td>
 </tr>
 <tr class="even">
 <td>Budget total – Réel</td>
@@ -247,7 +247,7 @@ Finance and Operations ne diminue pas automatiquement les estimations prévues. 
 </tr>
 <tr class="even">
 <td>Comme estimation précédente</td>
-<td>La même méthode d'estimation utilisée dans la période précédente est appliquée. Cette méthode nécessite un modèle de prévision si la période précédente requérait un modèle de prévision.</td>
+<td>La même méthode d'estimation que celle utilisée dans la période précédente est appliquée. Cette méthode nécessite un modèle de prévision si la période précédente en requérait un.</td>
 </tr>
 <tr class="odd">
 <td>Définir le coût à terminer sur zéro</td>

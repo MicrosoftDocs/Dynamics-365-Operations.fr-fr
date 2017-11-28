@@ -3,7 +3,7 @@ title: "Enregistrer et valider un chèque postdaté pour un client"
 description: "Vous pouvez enregistrer les informations relatives à un chèque postdaté reçu d'un client."
 author: kweekley
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 10/26/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1610036815349f625a67d5dd67260114d42fff97
+ms.sourcegitcommit: 621ad64c06a6cebff90e888ac89bba922052cf35
+ms.openlocfilehash: f75dea40d0cc77c851569608f18229339ed30af9
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="register-and-post-a-postdated-check-for-a-customer"></a>Enregistrer et valider un chèque postdaté pour un client
@@ -38,7 +38,7 @@ Vous pouvez enregistrer les informations relatives à un chèque postdaté reçu
     * Entrez le montant spécifié dans le chèque postdaté.  
 8. Cliquez sur l'onglet Paiement.
 9. Tapez une valeur dans le champ Mode de paiement.
-    * Sélectionner le mode de paiement du chèque postdaté  
+    * Sélectionnez le mode de paiement du chèque postdaté.  
 10. Cliquez sur l'onglet Chèques postdatés.
 11. Dans le champ Date d'échéance, entrez une date.
     * Entrez la date de paiement du chèque postdaté.  

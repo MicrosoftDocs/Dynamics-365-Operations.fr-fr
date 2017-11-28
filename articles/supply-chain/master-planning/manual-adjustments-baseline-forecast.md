@@ -1,9 +1,9 @@
 ---
 title: "Effectuer des ajustements manuels sur la prévision de base"
-description: "Cet article explique comment effectuer des ajustements manuels sur une prévision de base et afficher les détails de la prévision."
+description: "Cette rubrique explique comment effectuer des ajustements manuels sur une prévision de base et afficher les détails de la prévision."
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: ReqDemPlanForecastViewer
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 72704
 ms.assetid: e7c5d44e-07bc-40b1-a4b3-8ba46483ef9e
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 218374cdb6b5588648422d97c04fb60f26e47ac7
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: dbc195da36d31e01400fe66a1c02ea49609400eb
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Cet article explique comment effectuer des ajustements manuels sur une prévision de base et afficher les détails de la prévision. 
+Cette rubrique explique comment effectuer des ajustements manuels sur une prévision de base et afficher les détails de la prévision. 
 
 Avant d'effectuer des ajustements manuels, il est important que vous compreniez certains concepts dans diverses pages.
 
@@ -43,7 +43,7 @@ La page **Ajustement de la prévision de demande** inclut une grille avec la str
 -   Les colonnes suivantes représentent les intervalles de prévision pour lesquels la prévision a été générée. Chaque en-tête de colonne est la permière date de l'intervalle de prévision que la colonne affiche.
 -   Les valeurs des cellules représentent la prévision pour un article, une clé de répartition par article, etc., pour cet intervalle de prévision spécifique.
 
-## <a name="forecast-aggregation-and-deaggregation"></a>Agrégation et désagrégation de prévision
+## <a name="forecast-aggregation-and-de-aggregation"></a>Agrégation et désagrégation de prévision
 Le sous-titre de la page affiche le niveau d'agrégation de prévision. 
 
 Par exemple, si le sous-titre de la page est **Société/site/clé de répartition/numéro d'article/couleur/taille/configuration/style**, il n'existe aucune agrégation de prévision, et la prévision est indiquée au niveau de l'article et de ses dimensions. Pour modifier l'agrégation, utilisez la page **Modifier les dimensions de prévision**, que vous pouvez ouvrir à partir du menu de l'application. 

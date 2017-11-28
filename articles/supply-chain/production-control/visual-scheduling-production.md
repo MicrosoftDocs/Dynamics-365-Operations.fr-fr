@@ -3,7 +3,7 @@ title: "Diagramme de Gantt pour la planification des tâches"
 description: "Les gestionnaires de production peuvent contrôler et optimiser les plans de production à l'aide des diagrammes de Gantt."
 author: johanhoffmann
 manager: AnnBe
-ms.date: 08/23/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: cc7543305ac634dfed3779bb83806ee4fd97d7fa
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 5a4b0450cc76c8d9307b9b21b78a170afcc298e4
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 
@@ -39,7 +39,7 @@ Un diagramme de Gantt est une représentation visuelle des activités planifiée
 -   Tâches issues des ordres de fabrication planifiés.
 -   Activités de projet planifiées par tâche de type Prévisions en heures.
 
-Le diagramme de Gantt peut être ouvert dans deux vues différentes, la **Vue Commande** et la **Vue Ressource**[.](https://authoring.help.dynamics.com/en/?post_type=incsub_wiki&p=1665154&preview=true)Dans la **Vue Commande**, les activités sont regroupées sous les ordres de fabrication. Cela peut être utile, par exemple, si vous souhaitez avoir une vue d'ensemble de toutes les tâches appartenant aux mêmes ordres de fabrication. Dans la **Vue Ressource**, toutes les tâches sont regroupées sous des ressources individuelles. Cette vue peut être utile lors l'optimisation du plan au niveau d'une ressource, par exemple, un ordinateur ou un groupe d'ordinateurs. Les diagrammes de Gantt présentés dans les illustrations ci-dessous affichent la **Vue Commande** et la **Vue Ressource** avec les éléments clés suivants :
+Le diagramme de Gantt peut être ouvert dans deux vues différentes, la **Vue Commande** et la **Vue Ressource**[](https://authoring.help.dynamics.com/en/?post_type=incsub_wiki&p=1665154&preview=true). Dans la **Vue Commande**, les activités sont regroupés sous des ordres de fabrication. Cela peut être utile, par exemple, si vous souhaitez avoir une vue d'ensemble de toutes les tâches appartenant aux mêmes ordres de fabrication. Dans la **Vue Ressource**, toutes les tâches sont regroupées sous des ressources individuelles. Cette vue peut être utile lors l'optimisation du plan au niveau d'une ressource, par exemple, un ordinateur ou un groupe d'ordinateurs. Les diagrammes de Gantt présentés dans les illustrations ci-dessous affichent la **Vue Commande** et la **Vue Ressource** avec les éléments clés suivants :
 
 1.  Activité du diagramme de Gantt
 2.  Icône de pénurie de matières
@@ -156,5 +156,7 @@ Le diagramme de Gantt peut être ouvert à partir des pages suivantes.
 | **Ordres de fabrication à lancer** (ouvert à partir de l'espace de travail **Gestion de l'atelier de production**) | La page Ordres de fabrication à lancer est ouverte partir de l'espace de travail **Gestion de l'atelier de production**. Cette page affiche les ordres de fabrication planifiés et les lots de commandes en attente de lancement. Dans cette page, vous pouvez ouvrir le diagramme de Gantt pour les ordres de fabrication sélectionnés.                                                                                                                                                                                                                                                        |
 ## <a name="see-also"></a>Voir également :  
 [Planification visuelle avec le diagramme de Gantt pour les ordres de fabrication et les lots de commandes (vidéo)](https://youtu.be/BtbuShkGj4I)
+
+[Planification visuelle pour la production (script de démonstration)](https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/how-to-articles/365finoptvisschep)
 
 

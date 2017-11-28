@@ -1,16 +1,16 @@
 ---
 title: "Création d'une facture client"
-description: 
+description: "Une **facture client pour une commande client** est une facture associée à une vente, remise par une organisation à un client."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 77772
 ms.assetid: 00b4b40c-1576-4098-9aed-ac376fdeb8c5
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 2a668e390935e157d9fc7f0ef597f25c2a7b9950
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 0e5605b65b6203a50ef2fef81d032a887da32bf9
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 
@@ -34,7 +34,7 @@ Une **facture client pour une commande client** est une facture associée à une
 
 Une **facture financière** n'est pas liée à une commande client. Elle contient des lignes de commande comprenant des comptes généraux, des descriptions en texte libre ainsi qu'une valeur de vente que vous entrez. Vous ne pouvez pas entrer de numéro d'article sur ce type de facture. Vous devez entrer les informations de taxe appropriées. Un compte principal associé à la vente figure sur chaque ligne de facture, que vous pouvez répartir entre plusieurs comptes généraux en cliquant sur **Répartir les montants** sur la page **Facture financière**. En outre, le solde du client est validé dans le compte collectif en fonction du profil de validation utilisé pour la facture financière.
 
-Pour plus d'informations, voir : 
+Pour plus d'informations, voir :
 
 [Créer une facture financière](tasks/create-free-text-invoice.md)
 
@@ -126,7 +126,7 @@ Les champs suivants modifient le comportement du processus de validation.
 </tr>
 <tr class="odd">
 <td>Envoyer un e-mail</td>
-<td>Sélectionnez cette option pour envoyer la facture correspondant à une commande client au client en tant que pièce jointe après la validation de la facture. Les pièces jointes sont envoyées sous la forme de fichiers PDF et XML. Cette option est uniquement disponible si vous sélectionnez l'option <strong>Activez les CFD (factures électroniques)</strong> sur la page <strong>Paramètres des factures électroniques </strong>. <strong>Remarque :</strong> (MEX) Ce contrôle est uniquement accessible aux entités juridiques dont l'adresse principale est au Mexique.</td>
+<td>Sélectionnez cette option pour envoyer la facture correspondant à une commande client au client en tant que pièce jointe après la validation de la facture. Les pièces jointes sont envoyées sous la forme de fichiers PDF et XML. Cette option est uniquement disponible si vous sélectionnez l'option <strong>Activez les CFD (factures électroniques)</strong> sur la page <strong>Paramètres des factures électroniques</strong>. <strong>Remarque :</strong> (MEX) Ce contrôle est uniquement accessible aux entités juridiques dont l'adresse principale est au Mexique.</td>
 </tr>
 <tr class="even">
 <td>Utiliser la destination de la gestion de l'impression</td>

@@ -1,9 +1,9 @@
 ---
-title: "Calculs de nomenclature avec coûts standard"
-description: 
+title: "Informations utilisées dans les calculs de nomenclature avec les coûts standard"
+description: "Les calculs de nomenclature utilisent les données de plusieurs sources pour calculer les coûts standard d'un article fabriqué. Les sources incluent des informations sur les articles, les gammes de nomenclatures, les formules de calcul des coûts indirects et la version d'évaluation des coûts."
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: BOMCalcDialog, BOMCalcGroup, BOMCalcTable, ProdParmBOMCalc
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 65571
 ms.assetid: ca17e6dd-b16a-4bbc-8682-b16345ab9906
 ms.search.region: Global
@@ -20,21 +20,21 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 60a84eaaf1f8aa4dbf4e1de10172a728a855e62b
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 187482f29e6982220b844777ef31997f0d5ef0d3
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 
-# <a name="bom-calculations-with-standard-costs"></a>Calculs de nomenclature avec coûts standard
+# <a name="information-used-in-bom-calculations-with-standard-costs"></a>Informations utilisées dans les calculs de nomenclature avec les coûts standard
 
 [!include[banner](../includes/banner.md)]
 
 
+Les calculs de nomenclature utilisent les données de plusieurs sources pour calculer les coûts standard d'un article fabriqué. Les sources incluent des informations sur les articles, les gammes de nomenclatures, les formules de calcul des coûts indirects et la version d'évaluation des coûts.
 
-
-Les informations sur l'article acheté utilisées dans le cadre du calcul de nomenclature pour un coût standard sont les suivantes :
+Les informations sur l'article acheté utilisées dans le cadre du calcul de nomenclature pour un coût standard sont les suivantes :
 -   Coût − Les coûts d'un article acheté correspondent à des enregistrements des coûts spécifiques au site dans une version d'évaluation des coûts standard. Chaque enregistrement des coûts comporte une date effective et la date de calcul de nomenclature détermine l'enregistrement des coûts à utiliser. Par exemple, un calcul de nomenclature avec une date de calcul ultérieure peut utiliser un enregistrement des coûts avec un statut en attente et une date effective ultérieure.
 -   Groupe de coûts − Le groupe de coûts affecté à un article acheté fournit la base de la segmentation des coûts dans les coûts calculés d'un article fabriqué.
 -   Les conditions d'avertissement qui sont incorporées dans le groupe de calcul de nomenclature de l'article permettent au calcul de nomenclature d'identifier les problèmes potentiels. Cela peut se produire lorsque l'article acheté a un coût nul, une quantité nulle dans une nomenclature, ou un enregistrement de coût obsolète. Les conditions d'avertissement applicables peuvent être remplacées lors de l'élaboration d'un calcul de nomenclature.
