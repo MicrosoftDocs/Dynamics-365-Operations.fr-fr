@@ -2,6 +2,8 @@
 
 # [Mise en route](talent-get-started.md)
 ## [Configuration système et politique de mise à jour](talent-versions-update-policy.md)
+## [Mettre en service Microsoft Dynamics 365 for Talent](provisioning-talent.md)
+## [Prolonger la fonctionnalité de Talent](extend-talent-functionality.md)
 
 # [Développer une stratégie RH](departments-jobs-positions.md)
 ## [Configurer les composants de tâche](create-job.md)
