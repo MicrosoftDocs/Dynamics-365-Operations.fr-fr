@@ -3,7 +3,7 @@ title: "Contenu Power BI des performances financières"
 description: "Cette rubrique décrit le contenu Power BI Performances financières. Elle décrit le tableau de bord et les états inclus, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu."
 author: kweekley
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 2a501fcb851f1c201e03b59bb3ea951684c6e552
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 3638f5acf6a05ec419dc4308e861d95f0d7b2cea
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -38,7 +38,7 @@ Vous pouvez accéder au contenu Power BI **Performances financières** à partir
 ### <a name="available-from-lcs"></a>Disponible à partir de LCS
 Le contenu Power BI **Performances financières** qui est disponible à partir de LCS prend en charge les versions suivantes :
 
-- Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (Juillet 2017)
+- Microsoft Dynamics 365 for Finance and Operations, versions Enterprise Edition
 - Microsoft Dynamics 365 for Operations version 1611 
 
 Vous pouvez trouver le contenu Power BI dans la bibliothèque Actif partagé dans LCS. Pour savoir comment télécharger le pack de contenu et l'implémenter dans votre organisation, voir [Contenu Power BI dans LCS de Microsoft et de vos partenaires](power-bi-content-microsoft-partners.md). Pour visionner une démonstration sur l'implémentation du contenu Power BI, voir la présentation Office Mix [Contenu Power BI de Microsoft et de vos partenaires dans Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.

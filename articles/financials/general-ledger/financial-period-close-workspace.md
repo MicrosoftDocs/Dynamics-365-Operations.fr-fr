@@ -3,7 +3,7 @@ title: "Espace de travail de clôture de période comptable"
 description: "Cet article fournit une vue d'ensemble de l'espace de travail de clôture de période comptable et la configuration associée."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/29/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 0bbf8f979aeb8b861164e345f9e46bb396f370ce
+ms.sourcegitcommit: 6a03274da9b81bf71b32a62f4ebba2a374688ae5
+ms.openlocfilehash: 8b6c14d41cac13e7c1fb5a580759514d46d776ee
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/29/2017
 
 ---
 
@@ -91,7 +91,8 @@ Vous pouvez affecter une tâche dans le modèle à une ou plusieurs sociétés d
 
 L'option de menu **Lien des tâches** est associée au travail correspondant à la tâche et peut être utilisée pour accéder directement à la page associée à partir du lien de tâche dans l'espace de travail. Par exemple, une tâche de clôture destinée à exécuter le processus de réévaluation de la devise pour la Comptabilité fournisseur peut être liée à la page **Réévaluation des comptes en devises** dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Vous pouvez également lier à une URL externe. 
 
-> [!Astuce] Si vous souhaitez lier un état Management Reporter spécifique à une tâche de clôture de période comptable, vous pouvez utiliser l'URL de l'état. Pour accéder à l'URL de l'état, ouvrez l'état dans le concepteur d'état, puis cliquez sur **Fichier** &gt; **Afficher l'état** pour ouvrir l'état dans un navigateur Web. Vous pouvez ensuite copier l'URL dans la barre d'adresse du navigateur et la coller dans le champ **Lien des tâches** **URL**. 
+> [!TIP]
+> Si vous souhaitez lier un état Management Reporter spécifique à une tâche de clôture de période comptable, vous pouvez utiliser l'URL de l'état. Pour accéder à l'URL de l'état, ouvrez l'état dans le concepteur d'état, puis cliquez sur **Fichier** &gt; **Afficher l'état** pour ouvrir l'état dans un navigateur Web. Vous pouvez ensuite copier l'URL dans la barre d'adresse du navigateur et la coller dans le champ **Lien des tâches** **URL**. 
 
 Vous pouvez définir les dépendances des tâches dans le modèle. Si une tâche a été paramétrée pour dépendre d'une ou de plusieurs tâches, elle ne peut pas être marquée comme terminée jusqu'à ce que toutes les dépendances soient terminées. 
 

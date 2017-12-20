@@ -3,7 +3,7 @@ title: "Contenu Power BI Perfectionnement de l'employé"
 description: "Cette rubrique décrit le contenu Power BI Perfectionnement de l'employé. Elle explique également comment accéder aux états, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu."
 author: jcart1106
 manager: AnnBe
-ms.date: 05/24/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 91f7071cc759686dd90b5893adaf58d1521e9185
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: f8ba7a968a1a5b376bac52106671607247f061d9
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -31,7 +31,7 @@ Cette rubrique décrit le contenu Microsoft Power BI **Perfectionnement de l'emp
 
 ## <a name="accessing-the-power-bi-content"></a>Accès au contenu Power BI
 
-Si vous utilisez Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (Juillet 2017), vous pouvez trouver le pack de contenu **Perfectionnement de l'employé** dans la bibliothèque Actifs partagés dans Microsoft Dynamics Lifecycle Services (LCS). Pour savoir comment télécharger le pack de contenu et le connecter à vos données, voir [Contenu Power BI dans LCS de Microsoft et de vos partenaires](power-bi-content-microsoft-partners.md).
+Vous trouverez le pack de contenu **Perfectionnement de l'employé** dans la bibliothèque Actifs partagés de Microsoft Dynamics Lifecycle Services (LCS). Pour savoir comment télécharger le pack de contenu et le connecter à vos données, voir [Contenu Power BI dans LCS de Microsoft et de vos partenaires](power-bi-content-microsoft-partners.md).
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>États inclus dans le contenu Power BI
 Les états inclus dans le contenu Power BI **Perfectionnement de l'employé** contiennent des graphiques et des tables qui fournissent des informations supplémentaires. Le tableau suivant décrit ces états.

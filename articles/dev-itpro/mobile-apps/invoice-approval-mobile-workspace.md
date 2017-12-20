@@ -3,7 +3,7 @@ title: Espace de travail mobile Approbations de factures
 description: "Cette rubrique fournit des informations sur l'espace de travail mobile Approbations de factures. Cet espace de travail fournit une liste de factures qui vous ont été affectées dans le processus de workflow d'en-tête de facture fournisseur."
 author: abruer
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: c73eeaaf28df8db720431d4bcd317c9721baa99d
-ms.openlocfilehash: 190f48f4d5e304902b701f74f2cbefcbe7b36b15
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 03179fdfd23e26250af92eb70d2ede710bd7007f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -49,7 +49,7 @@ Avant d'utiliser cet espace de travail mobile, les conditions requises suivantes
 </thead>
 <tbody>
 <tr class="odd">
-<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (Juillet 2017), doit être déployé dans votre organisation.</td>
+<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition doit être déployé dans votre organisation.</td>
 <td>Administrateur système</td>
 <td>Voir <a href="../deployment/deploy-demo-environment.md">Déployer un environnement de démonstration</a>.
 </td>

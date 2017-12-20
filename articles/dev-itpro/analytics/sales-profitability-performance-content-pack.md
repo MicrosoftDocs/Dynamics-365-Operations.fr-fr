@@ -3,7 +3,7 @@ title: "Contenu Power BI des performances de rentabilité et de vente"
 description: "Cette rubrique décrit ce qui est inclus dans le contenu Power BI des performances de rentabilité et de vente. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 97c8f3d57ba1accb8d940c7edd3ddcac2146968b
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: c065eb2f19bbbd553e070f06c29f73114e3efad5
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -49,7 +49,7 @@ La rentabilité peut être analysée de plusieurs manières :
 -   Rentabilité de client (par produit par rapport à la marge brute)
 
 ## <a name="accessing-the-power-bi-content"></a>Accès au contenu Power BI
-Si vous utilisez Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (Juillet 2017), la contenu Power BI **Performances de rentabilité et de vente** s'affiche sur la page **Performances de rentabilité et de vente** (**Vente et marketing** > **Recherches et états** > **Analyse des performances de vente** > **Performances de rentabilité et de vente**). 
+Le contenu Power BI **Performances de rentabilité et de vente** s'affiche sur la page **Performances de rentabilité et de vente** (**Ventes et marketing** > **Recherches et états** > **Analyse des performances de vente** > **Performances de rentabilité et de vente**). 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Mesures incluses dans le contenu Power BI
 Le contenu Power BI **Performances de rentabilité et de vente** comprend un état constitué d'un ensemble d'éléments de mesure. Ces mesures sont visualisées sous forme de graphiques, vignettes et tableaux. Le tableau suivant offre une vue d'ensemble des visualisations proposées dans le contenu.

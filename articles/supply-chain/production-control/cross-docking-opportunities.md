@@ -18,10 +18,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: a3f193b5b16406aa6ac3ed6a96f909318d100439
+ms.sourcegitcommit: ff0d19a2d712ccb17762803e2fe4ab2ed5aa024e
+ms.openlocfilehash: bd5f055ef816f050ed99390c455a613d46dd6323
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 12/06/2017
 
 ---
 
@@ -74,7 +74,7 @@ Dans **Stratégie de cross-docking**, définissez les types de document s'appliq
 ### <a name="cross-docking-policy-name-transfer-order"></a>Nom de la stratégie de cross-docking : Ordre de transfert
 
 -   Numéro de souche : 10
--   Type d'ordre d'exécution : Sortie de transfert
+ -   Type d'ordre d'exécution : Sortie de transfert
 -   Demande de cross-docking nécessite un emplacement : Faux
 -   Stratégie de cross-docking : Date et heure
 
@@ -102,10 +102,9 @@ Une fois le produit déclaré terminé dans la ligne de production, il est trans
 6.  Créez un ordre de transfert. Créez l'ordre de transfert pour le numéro d'article L0101. Quantité = 20.
 7.  Lancez l'ordre de transfert depuis l'atelier de planification des chargements. Dans l'onglet **Expédier**, sélectionnez l'option de menu pour l'atelier de planification des chargements, puis dans le menu **Lancer** de la ligne de chargement, sélectionnez **Libérer dans l'entrepôt**. Une ligne de vague en cours du type **Sortie de transfert** existe désormais pour l'ordre de transfert.
 8.  Créez un ordre de fabrication. Accédez à la page de liste **Ordre de fabrication**, puis créez un ordre de fabrication pour le produit L0101. Quantité = 20. Estimez et démarrez l'ordre de fabrication. Notez que le champ **Valider immédiatement les prélèvements** reste défini sur **Non**.
-9.  Déclarer comme terminé à partir de l'appareil mobile. Accédez au portail de l'appareil mobile et sélectionnez l'option de menu **Déclarer comme terminé et ranger**. Maintenant, déclarez L0101 comme terminé à partir de l'appareil portable. Notez que l'emplacement de rangement est **BAYDOOR**. Cet emplacement se trouve dans l'instruction d'emplacement **Sortie de transfert** pour le type d'ordre de fabrication **Placer**. Notez également que ce travail du type **Sortie de transfert** a été créé et exécuté. Accédez aux détails du travail d'ordre de transfert pour vérifier le travail.
-10. Essayez maintenant de commencer 20 pièces de plus sur l'ordre de production, puis essayez de déclarer 20 comme terminé en utilisant l'appareil portable. Cette fois, l'emplacement **LP-001** est suggéré comme emplacement de rangement. Cet emplacement figure dans l'instruction d'emplacement de **Rangement des produits finis**. Cette instruction d'emplacement est utilisée, car aucune opportunité pour le cross-docking n'existe. L'ordre de transfert pour LP-001 a été entièrement exécuté par la première activité de cross-docking.
-
-Le travail du type **Rangement des produits finis** a été créé et traité.
+9.  Déclarer comme terminé à partir de l'appareil mobile. Accédez au portail de l'appareil mobile et sélectionnez l'option de menu **Déclarer comme terminé et ranger**. Maintenant, déclarez L0101 comme terminé à partir de l'appareil portable. Quantité = 10. Notez que l'emplacement de rangement est **BAYDOOR**. Cet emplacement se trouve dans l'instruction d'emplacement **Sortie de transfert** pour le type d'ordre de fabrication **Placer**. Notez également que ce travail du type **Sortie de transfert** a été créé et exécuté. Accédez aux détails du travail d'ordre de transfert pour vérifier le travail.
+10. Déclarez maintenant 10 pièces supplémentaires de l'appareil mobile. Notez que l'emplacement de rangement est à nouveau **BAYDOOR**. Notez également qu'un nouveau travail du type **Sortie de transfert** a été créé pour les 10 pièces.
+11. Essayez maintenant de commencer 20 pièces de plus sur l'ordre de production, puis essayez de déclarer 20 comme terminé en utilisant l'appareil portable. Cette fois, l'emplacement **LP-001** est suggéré comme emplacement de rangement. Cet emplacement figure dans l'instruction d'emplacement de **Rangement des produits finis**. Cette instruction d'emplacement est utilisée, car aucune opportunité pour le cross-docking n'existe. L'ordre de transfert pour LP-001 a été entièrement exécuté par les deux activités de cross-docking à l'étape 9 et 10. Notez que le travail du type **Rangement des produits finis** a été créé et traité.
 
 #### <a name="scenario-2---cross-docking-from-production-to-transfer-orders-with-an-appointment-schedule"></a>Scénario 2 - Cross-docking entre les ordres de production et les ordres de transfert avec un programme de rendez-vous
 
@@ -123,7 +122,7 @@ Une fois que le produit est déclaré terminé à la ligne de production, il est
 
 ### <a name="additional-information"></a>Informations supplémentaires
 
--   Le scénario de cross-docking est pris en charge pour les articles contrôlés par lot et de série, avec les dimensions de lot et de numéro de série définies au-dessus de l'emplacement dans la hiérarchie de réservation.
+-   Le scénario de cross-docking est pris en charge pour les articles contrôlés par lot et de série, avec les dimensions de lot et de numéro de série définies au-dessus de l'emplacement dans la hiérarchie de réservation. 
 
 
 

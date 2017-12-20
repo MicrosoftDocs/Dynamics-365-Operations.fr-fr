@@ -3,7 +3,7 @@ title: Raccourcis clavier
 description: "Les raccourcis clavier suivants s'appliquent à l'ensemble de Dynamics 365 for Finance and Operations, Enterprise edition."
 author: jasongre
 manager: AnnBe
-ms.date: 09/12/2017
+ms.date: 10/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 9371e22a6f2139ab28382ef8297cc615d5e167ea
+ms.sourcegitcommit: 7a828090fa34eb96d2b557eb06e48ad05b421ae8
+ms.openlocfilehash: 8e87721af34e1527d1d8eb254f0443e37d137730
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/20/2017
 
 ---
 
@@ -33,6 +33,10 @@ ms.lasthandoff: 09/29/2017
 Les raccourcis clavier suivants s'appliquent à l'ensemble de Dynamics 365 for Finance and Operations, Enterprise edition. 
 
 **Remarque :** les raccourcis clavier décrits ici font référence au type de clavier en usage aux États-Unis. Il se peut que les touches des autres types de claviers ne correspondent pas exactement aux touches des claviers en usage aux États-Unis.
+
+## <a name="finding-a-shorcut"></a>Recherche d'un raccourci
+À partir de la mise à jour 11 de la plateforme, les utilisateurs peuvent découvrir les raccourcis actuellement disponibles directement à partir de l'interface utilisateur. Cliquez simplement avec le bouton droit sur un contrôle et sélectionnez **Afficher les raccourcis**. Une boîte de dialogue s'ouvre pour afficher les raccourcis que vous pouvez utiliser en fonction de là où vous êtes sur la page. 
+
 
 ## <a name="action-shortcuts"></a>Raccourcis d'action
 |                                                   |                                  |
@@ -48,13 +52,14 @@ Les raccourcis clavier suivants s'appliquent à l'ensemble de Dynamics 365 for F
 | Exécuter le bouton par défaut dans un écran ou une boîte de dialogue   | Alt+Entrée                        |
 | Cliquer sur un bouton ou une vignette                            | Entrée ou Espace                   |
 | Afficher les informations actualisées pour une vignette de comptage         | Alt + Flèche Haut                     |
+| Afficher les raccourcis actuellement disponibles                | Alt+Maj+ K                      |                              
 
 ## <a name="date-picker-shortcuts"></a>Raccourcis du sélecteur de date
 |                                       |                                           |
 |---------------------------------------|-------------------------------------------|
 | **Opération**                        | **Raccourci**                                 |
 | Ouvrir le sélecteur de date                  | Alt + Flèche Bas                            |
-| Se déplacer entre les dates du sélecteur de date | Ctrl+Touches de direction                               |
+| Se déplacer entre les dates du sélecteur de date | Ctrl+Touches de direction                           |
 | Accéder au mois suivant/précédent       | Page suivante/Page précédente                       |
 | Accéder à l'année suivante/précédente        | Ctrl+Maj+Page suivante/Ctrl+Maj+Page précédente |
 | Effectuer un déplacement vers aujourd'hui                         | Ctrl + Début                                 |
@@ -65,6 +70,7 @@ Les raccourcis clavier suivants s'appliquent à l'ensemble de Dynamics 365 for F
 ## <a name="factbox-shortcuts"></a>Raccourcis de récapitulatif
 |                                                                                 |                                           |
 |---------------------------------------------------------------------------------|-------------------------------------------|
+| **Opération**                                                                  | **Raccourci**                                 |
 | Ouvrir le volet Récapitulatif (ou déplacer le focus sur le volet Récapitulatif s'il est déjà ouvert) | Alt+M, B ou Ctrl+F2                        |
 | Fermer le volet Récapitulatif (avec le focus sur le volet Récapitulatif)                         | Échap                                       |
 | Accéder au récapitulatif suivant/précédent (avec le focus sur le volet Récapitulatif)              | Alt+Maj+Flèche Bas/Alt+Maj+Flèche Haut |

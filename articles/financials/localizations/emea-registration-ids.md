@@ -3,7 +3,7 @@ title: ID enregistrement
 description: "Cette rubrique fournit des informations sur le paramétrage et l'utilisation des ID d'enregistrement."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: c2c625e9c4f0df762abd6120201a2623ac756bf9
+ms.sourcegitcommit: 3d3ad89f80c3e3f42e117109f4a76232795b7d64
+ms.openlocfilehash: e908d4ec41263ed4230ea5e70fa08db793abedc6
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/28/2017
 
 ---
 
@@ -98,6 +98,12 @@ Le tableau suivant répertorie les types d'enregistrement pris en charge dans Fi
 | OGRN                                                          | Fédération de Russie| OGRN (OGRN de type législatif dans AX 2012 R3) |
 | SNILS                                                         | Fédération de Russie| SNILS (SNILS de type législatif dans AX 2012 R3)|
 | CIFTS                                                         | Fédération de Russie| CIFTS (CIFTS de type législatif dans AX 2012 R3)|
+| Passeport                                                      | Espagne             | Passeport|
+| Document d'identification officiel                              | Espagne             | Document d'identification officiel|
+| Certificat de résidence                                         | Espagne             | Certificat de résidence|
+| Autre document d'identification                                 | Espagne             | Autre document d'identification|
+| Non recensé                                                  | Espagne             | Non disponible dans AX 2012 R3|
+
 
 Pour plus d'informations sur le traitement des ID d'enregistrement, notamment les conditions préalables requises, consultez les enregistrements de tâche suivants pour l'ID de TVA dans Lifecycle Services (LCS) :
 

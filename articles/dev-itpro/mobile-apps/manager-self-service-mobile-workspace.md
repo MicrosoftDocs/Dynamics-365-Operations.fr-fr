@@ -3,7 +3,7 @@ title: "Mon espace de travail mobile Équipe"
 description: "Cette rubrique fournit des informations sur l'espace de travail mobile Mon équipe, qui permet aux responsables d'afficher leurs rapports directs et leur personnel étendu. Les utilisateurs peuvent également envoyer des récompenses aux personnes de leur chaîne hiérarchique."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: c73eeaaf28df8db720431d4bcd317c9721baa99d
-ms.openlocfilehash: edd27d3c8e15fae182da82f2b84b15d753b0dc40
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 30a5b88b5f4a0b107b39742770587eeb4bcb87cf
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -53,7 +53,7 @@ Avant d'utiliser cet espace de travail mobile, les conditions requises suivantes
 <tbody>
 <tr class="odd">
 <td>Un des produits suivants doit être déployés dans votre organisation :
-<ul><li>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (Juillet 2017)</li>
+<ul><li>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</li>
 <li>Microsoft Dynamics 365 for Talent</li>
 </ul>
 </td>

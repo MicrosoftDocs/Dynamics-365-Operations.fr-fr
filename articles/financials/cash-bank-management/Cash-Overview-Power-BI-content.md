@@ -3,7 +3,7 @@ title: "Contenu Power BI Vue d'ensemble des disponibilités"
 description: "Cette rubrique décrit le contenu Power BI Vue d'ensemble des disponibilités. Elle explique également comment accéder aux états inclus dans le contenu, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu."
 author: saraschi2
 manager: AnnBe
-ms.date: 06/22/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: e891f501727842e176741953df5ef9dd0336a2d5
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 8a3d12b3b0f71ea8b84b1618d9bb6bbc416e3b1d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -35,7 +35,7 @@ Le contenu Power BI **Vue d'ensemble des disponibilités** a été créé pour l
 
 ## <a name="accessing-the-power-bi-content"></a>Accès au contenu Power BI
 
-Si vous utilisez Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (Juillet 2017), les états du contenu Power BI **Vue d'ensemble des disponibilités** s'affichent dans les espaces de travail **Vue d'ensemble des disponibilités** et **Gestion des banques**.
+Les états du contenu Power BI **Vue d'ensemble des disponibilités** s'affichent dans les espaces de travail **Vue d'ensemble des disponibilités** et **Gestion des banques**.
 
 Pour afficher les états de prévisions de flux de trésorerie avec des données, vous devez exécuter le processus de calcul de prévision à l'aide de la fonction **Calculer les prévisions de flux de trésorerie** de la zone de gestion bancaire et de liquidités.  Il doit être terminé pour chaque société incluse dans la prévision.  Vous devez actualiser la mesure de regroupement LedgerCovLiquidityMeasurement sur la page **Magasin des entités**.  
 
