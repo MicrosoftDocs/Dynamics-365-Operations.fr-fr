@@ -57,8 +57,9 @@ Pour générer une déclaration de TVA, vous devez paramétrer les éléments su
 
 ### <a name="sales-tax-authorities-for-vat-reporting"></a>Administrations fiscales pour la déclaration de TVA
 
-<!---For general information about setting up a sales tax authority, see [Set up sales tax authorities](general-ledger/tasks/set-up-sales-tax-authorities). -->
 Avant de paramétrer les codes déclaration de taxe, vous devez sélectionner la présentation d'état correcte pour l'administration fiscale. Dans la page **Administrations fiscales**, dans la section **Général**, sélectionnez une **Présentation d'état**. Cette présentation sera utilisée lors du paramétrage des codes déclaration de taxe.
+
+<!---For general information about setting up a sales tax authority, see [Set up sales tax authorities](../general-ledger/tasks/set-up-sales-tax-authorities.md). -->
 
 ### <a name="sales-tax-reporting-codes"></a>Codes déclaration de taxe
 
