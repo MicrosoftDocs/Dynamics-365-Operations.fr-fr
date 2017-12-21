@@ -3,7 +3,7 @@ title: "Contenu Power BI pour les performances de l'entrepôt"
 description: "Cette rubrique décrit les données incluses dans le contenu Power BI pour les performances de l'entrepôt. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu."
 author: Mirzaab
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: mirzaab
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: b4963c11f0cf3fb05e1905b265d4156323407e84
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: ea53e2bcd01cd06ccdd836ead1671b54aa9e9750
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -42,7 +42,7 @@ Les responsables d'entrepôt peuvent utiliser le contenu Power BI **Performances
 -   **Précision du stock d'emplacement** : la précision du stock est une donnée Business Intelligence (BI) interne importante pour l'entrepôt. Il est primordial que vous déterminiez le degré de précision du comptage en général. Toutefois, il est également important que vous déterminiez le degré de précision avec lequel vous stockez les articles dans les emplacements corrects, et que vous identifiez les écarts, afin de rechercher de meilleurs emplacements pour des articles ou lanciez un comptage total de certains articles spécifiques. (Actuellement, la nouvelle fonctionnalité de comptage d'articles est fournie sous la forme d'un correctif.) Si vous utilisez ce contenu Power BI pour déterminer l'exactitude du stock disponible par entrepôt, vous pouvez également prévenir le vol dans vos magasins. Vous pouvez également déterminer si des emplacements disposent de quantités disponibles qui diffèrent des données de planification des ressources d'entreprise (ERP). Ces emplacements peuvent être trop grands, ou impossibles à compter. Autre cas de figure, certains emplacements physiques peuvent être incorrects, de sorte qu'il est difficile de conserver un seul type d'article synchronisé avec les données disponibles.
 
 ## <a name="accessing-the-power-bi-content-pack"></a>Accès au pack de contenu Power BI
-Si vous utilisez Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (Juillet 2017), le contenu Power BI **Performances d'entrepôt** s'affiche sur la page **Performances d'entrepôt** (**Gestion des entrepôts** > **Recherches et états** > **Analyses des performances d'entrepôt** > **Performances d'entrepôt**). 
+Le contenu Power BI **Performances d'entrepôt** s'affiche sur la page **Performances d'entrepôt** (**Gestion des entrepôts** > **Recherches et états** > **Analyse des performances d'entrepôt** > **Performances d'entrepôt**). 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Mesures incluses dans le contenu Power BI
 Le contenu Power BI **Performances de l'entrepôt** inclut un état. Cet état contient un ensemble de mesures visualisées sous forme de graphiques, de vignettes et de tables. Le tableau suivant donne une vue d'ensemble des visualisations dans le contenu Power BI **Performances de l'entrepôt**.

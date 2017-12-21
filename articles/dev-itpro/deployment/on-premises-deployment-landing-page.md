@@ -18,10 +18,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 61395e0e57eb02aaa1c95a7dbd9c15082b822701
-ms.openlocfilehash: 15992b1666caea21cdcf440fefcf65ff18111801
+ms.sourcegitcommit: 855967a9aacd4881315c5d5fefa06b909cd4cb59
+ms.openlocfilehash: 69151ed1c0a0a06e72bbdc8b33eb2fc68e9cc8eb
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 11/28/2017
 
 ---
 # <a name="on-premises-deployment-landing-page"></a>Page de destination de déploiement sur site
@@ -30,14 +30,13 @@ ms.lasthandoff: 11/06/2017
 
 Vous pouvez déployer Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (sur site). Lorsque vous sélectionnez un type de déploiement sur site, la configuration système requise, le calibrage du matériel, et la fonctionnalité diffèrent d'un déploiement dans le cloud. Cette rubrique fournit des liens vers du contenu contenant des informations spécifiques sur les déploiements sur site.
 
-**Remarque :** Dynamics 365 for Operations (sur site) est actuellement renommé. Vous verrez Dynamics 365 for Operations (sur site) référencé tout au long des communications et des guides d'autorisation. Le nom du produit que vous verrez lors du déploiement du produit est Dynamics 365 for Finance and Operations, Enterprise edition. Les deux noms se réfèrent au même produit.
-
 ## <a name="get-started"></a>Mise en route
-- [Vue d'ensemble de Dynamics 365 for Finance and Operations, Enterprise edition (sur site)](on-premises-overview.md)
+- [Vue d'ensemble de Dynamics 365 for Finance and Operations, édition Enterprise (sur site)](on-premises-overview.md)
 - [Configuration requise pour les déploiements sur site](../../fin-and-ops/get-started/system-requirements-on-prem.md)
 - [Sizing matériel pour les environnements sur site](../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
 - [Service en ligne et stratégie du cycle de vie de service de logiciel sur site](../migration-upgrade/versions-update-policy.md)
-- [Acheter Dynamics 365 for Finance and Operations, Enterprise edition (sur site)](../../fin-and-ops/get-started/purchase-on-premises.md)
+- [Acheter Dynamics 365 for Finance and Operations, édition Enterprise (sur site)](../../fin-and-ops/get-started/purchase-on-premises.md)
+- [Comparaison des fonctions dans le cloud et sur site](../../fin-and-ops/get-started/cloud-prem-comparison.md)
 
 ## <a name="onboard"></a>Vue d'ensemble
 - [Créer un projet sur site dans Lifecycle Services](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
@@ -51,9 +50,12 @@ Vous pouvez déployer Microsoft Dynamics 365 for Finance and Operations, Enterp
 - [Génération de document, publication et capacités d'impression dans les déploiements sur site](../analytics/printing-capabilities-on-premises.md)
 - [Paramétrer le support technique](../lifecycle-services/support-experience.md)
 - [Dépannage de la connexion Internet du client](../user-interface/client-disconnected.md)
+- [Appliquer des mises à jour à un déploiement sur site](apply-updates-on-premises.md)
+- [Redéployer un déploiement sur site](redeploy-on-prem.md)
 
 ## <a name="other-resources"></a>Ressources connexes
 - [Fonctions non implémentées dans les déploiements sur site](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
 - [Fonctionnalités obsolètes](../migration-upgrade/deprecated-features.md)
+- [Stratégie du cycle de vie de logiciel et liste des versions](../migration-upgrade/versions-update-policy.md)
  
 

@@ -1,15 +1,15 @@
 ---
 title: "Génération d'états financiers pour Finance and Operations"
 description: "La génération d'états financiers pour Finance and Operations permet aux professionnels financiers et commerciaux de créer, tenir à jour, déployer et afficher les tableaux d'analyse. Elle dépasse les contraintes traditionnelles liées à la génération d'états pour vous aider à concevoir efficacement différents types d'états."
-author: ShylaThompson
+author: aprilolson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: twheeloc
 ms.search.scope: Operations
 ms.custom: 68813
 ms.assetid: fe8b27e7-a40a-4689-ac6a-7f7401c387f5
@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: de8167eeea1f4a4db764a7f6398533ec3b9f4306
+ms.sourcegitcommit: 81c09c551dfa4238782c3796f5d08990b30ca575
+ms.openlocfilehash: b23883c1f66cda8a719db64a2f50e00605f6bfe9
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -33,6 +33,17 @@ ms.lasthandoff: 09/29/2017
 La génération d'états financiers pour Finance and Operations permet aux professionnels financiers et commerciaux de créer, tenir à jour, déployer et afficher les tableaux d'analyse. Elle dépasse les contraintes traditionnelles liées à la génération d'états pour vous aider à concevoir efficacement différents types d'états.
 
 La génération d’états financiers comprend la prise en charge de la dimension. Par conséquent, les segments de comptes ou de dimensions sont immédiatement disponibles. Aucun outil supplémentaire ni étape de configuration n'est nécessaire.
+
+## <a name="financial-reporting-setup"></a>Configuration des états financiers
+La page **Configuration des états financiers** contient une liste de toutes les dimensions financières du système. **Comptabilité** > **Paramétrage de la comptabilité** > **Configuration des états financiers**. 
+
+La page **Configuration des états financiers** comporte deux sections qui déterminent les données pour lesquelles vous générez un état dans les états financiers :
+
+•   **Onglet Dimensions** - Comme chaque société utilise des dimensions et des structures de compte différentes, il n'existe aucun moyen de déterminer l'ordre dans lequel les utilisateurs souhaitent afficher toutes les dimensions financières dans les états. Cette page vous permet de définir l'ordre dans lequel les dimensions financières doivent apparaître lorsque vous créez et affichez un état dans les états financiers.
+
+•   **Onglet Attributs** - Permet d'indiquer si vous souhaitez utiliser **Fournisseurs** et **Clients** comme attributs pour le filtrage et la conception d'états. La génération d'un état sur le fournisseur et le client n'est utile que si vous n'entrez pas plusieurs fournisseurs ou clients dans un document unique lors de la validation des transactions. Si vous sélectionnez Fournisseur et/ou Client, cela ajoute du temps supplémentaire à l'intégration.
+
+
 
 ## <a name="financial-reporting-components"></a>Composants de la génération d'états financiers
 Les composants suivants la génération d'états financiers sont simples à utiliser pour créer, afficher et planifier les rapports.

@@ -1,16 +1,16 @@
 ---
 title: "Générer un état financier"
 description: "Cette rubrique fournit des informations sur la génération d'un état financier."
-author: ShylaThompson
+author: aprilolson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.custom: 68843
 ms.assetid: 271df6f4-12b7-4b3e-b2d7-36ea98ef1871
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
-ms.openlocfilehash: 2986d218318951b7e46cb5dfafcbd17f2d513755
+ms.sourcegitcommit: 81c09c551dfa4238782c3796f5d08990b30ca575
+ms.openlocfilehash: 95669d83fdf69a6d55dd7ee1e4e33a67108e0371
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -40,15 +40,31 @@ Pour générer un état, ouvrez la définition d'état, puis cliquez sur le bout
 
 Le tableau suivant décrit les options disponibles pour générer des états.
 
-| Option                                                                                | Plus d'informations |
-|---------------------------------------------------------------------------------------|----------------------|
-| Paramétrer un calendrier pour générer un état ou un groupe d'états automatiquement              |                      |
-| Vérifier les comptes manquants ou les données manquants dans un état, et validez la précision d'un état |                      |
+| Option                                                                                | 
+|---------------------------------------------------------------------------------------|
+| Paramétrer un calendrier pour générer un état ou un groupe d'états automatiquement              |   
+| Vérifier les comptes manquants ou les données manquants dans un état, et validez la précision d'un état |   
 
 Lorsque vous générez un état, les options que vous avez spécifiées sous les onglets Définition d'état sont utilisées. L'onglet Sortie et distribution permet de spécifier un emplacement de bibliothèque d'états, qui fournit une manière unique de partager l'état.
 
-## <a name="schedule-report-generation"></a> Programmer la génération d'états
-De nombreuses sociétés ont des ensembles d'états qui sont exécutés à intervalles planifiés afin de s'aligner avec les processus d'entreprise. Vous pouvez programmer la génération régulière d'un état, par exemple chaque jour, chaque semaine, chaque mois ou chaque année. Il peut s'agir d'un seul rapport ou d'un groupe de rapports incluant plusieurs sociétés. Vous devez entrer vos informations d'identification pour chaque société spécifiée, par exemple, chaque société de la définition d'organigramme d'entreprise. Si les informations d'identification ne sont pas valides, l'état affiche uniquement les informations auxquelles vous êtes autorisé à accéder, comme la société à laquelle vous êtes connecté. Les informations de sortie sont lues d'abord à partir du groupe d'état, puis à partir des états individuels.
+## <a name="generate-a-financial-report"></a>Générer un état financier
+
+Pour générer un état financier avec Microsoft Dynamics 365 for Finance and Operations, accédez à **Comptabilité** > **Recherches et états** > **États financiers**. 
+ - Sélectionnez un état à générer, puis cliquez sur **Générer**. 
+ - Renseignez le champ **Date de l'état** et cliquez sur **OK**.
+ 
+ Une fois que l'état a été généré, il est disponible dans la section **États**.
+ Vous pouvez choisir d'**Afficher** ou de **Supprimer** l'état.
+ 
+ 
+Pour générer un état à l'aide du **Concepteurs d'états**, ouvrez la définition de l'état, puis cliquez sur le bouton Générer dans la barre d'outils. La fenêtre État de la file d'attente de rapports s'ouvre et affiche l'emplacement de votre état dans la file d'attente. Par défaut, le rapport généré s'affiche dans la visionneuse Web.
+
+> [!NOTE]
+> Vous pouvez générer des états uniquement dans les dossiers et les emplacements auxquels vous êtes autorisé à accéder.
+
+
+## <a name="schedule-report-generation"></a>Programme de génération des rapports
+De nombreuses sociétés disposent d'un ensemble principal de rapports qui sont exécutés à intervalles planifiés correspondant à leurs processus métiers. Vous pouvez programmer la génération régulière d'un état, par exemple chaque jour, chaque semaine, chaque mois ou chaque année. Il peut s'agir d'un seul rapport ou d'un groupe de rapports incluant plusieurs sociétés. Vous devez entrer vos informations d'identification pour chaque société spécifiée, par exemple, chaque société de la définition d'organigramme d'entreprise. Si les informations d'identification ne sont pas valides, l'état affiche uniquement les informations auxquelles vous êtes autorisé à accéder, comme la société à laquelle vous êtes connecté. Les informations de sortie sont lues d'abord à partir du groupe d'état, puis à partir des états individuels.
 
 À mesure que les programmations d'états sont créées et enregistrées, elles sont affichées dans le volet de navigation sous Programmations d'états. Vous pouvez créer des dossiers pour organiser les rapports. Même si l'un des rapports du programme n'est pas exécuté, les autres rapports continuent à être exécutés.
 

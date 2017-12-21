@@ -3,7 +3,7 @@ title: Contenu Power BI
 description: "Cette rubrique répertorie le contenu Power BI qui est disponible et vous indique les ressources complémentaires."
 author: sericks007
 manager: AnnBe
-ms.date: 08/07/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
-ms.openlocfilehash: 56fc06a599264334d8a5f06207ebc7ce52399c72
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: ae19b4afa9e36800988b790398e46d8861ba432d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -31,8 +31,8 @@ ms.lasthandoff: 09/29/2017
 
 Cette rubrique répertorie le contenu Microsoft Power BI qui est disponible et vous indique les ressources complémentaires.
 
-## <a name="power-bi-content-for-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>Contenu Power BI pour Dynamics 365 for Finance and Operations, Enterprise edition (Juillet 2017)
-Si vous utilisez Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (Juillet 2017), le contenu Power BI suivant est disponible :
+## <a name="power-bi-content-for-dynamics-365-for-finance-and-operations-enterprise-edition"></a>Contenu Power BI pour Dynamics 365 for Finance and Operations, Enterprise Edition
+Si vous utilisez Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, le contenu Power BI suivant est disponible :
 
 - [Contenu Power BI Comparatif Réel/Budget](ledger-budgets-power-bi.md)
 - [Contenu Power BI Avantages](benefits-power-bi.md)

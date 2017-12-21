@@ -3,7 +3,7 @@ title: Contenu Power BI Vue d'ensemble d'un processus CFO
 description: "Cette rubrique décrit le contenu Microsoft Power BI Vue d'ensemble d'un processus CFO."
 author: kweekley
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: kweekley
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
-ms.openlocfilehash: dfc5b5f1ced098a445762653f98c672eb896a104
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: fcc93daf96f65cd340d6be766c6ef83a74d62cc5
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -32,7 +32,7 @@ Cette rubrique décrit le contenu Microsoft Power BI **Vue d'ensemble d'un proce
 
 ## <a name="accessing-the-power-bi-content"></a>Accès au contenu Power BI
 
-Si vous utilisez Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (Juillet 2017), les états du contenu Power BI **Vue d'ensemble d'un processus CFO** s'affichent dans l'espace de travail **Vue d'ensemble d'un processus CFO**.
+Les états du contenu Power BI **Vue d'ensemble d'un processus CFO** s'affichent dans l'espace de travail **Vue d'ensemble d'un processus CFO**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>États inclus dans le contenu Power BI
 Le contenu Power BI **Vue d'ensemble d'un processus CFO** est un composite d'états d'autres contenus divers Power BI, avec certains soldes réels et budgétaires émis par la comptabilité. Par conséquent, ce contenu Power BI donne au directeur financier une vue d'ensemble de l'organisation.

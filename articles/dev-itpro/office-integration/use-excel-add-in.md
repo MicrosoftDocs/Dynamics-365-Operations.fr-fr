@@ -3,7 +3,7 @@ title: "Utiliser le module complémentaire Excel"
 description: "Cette rubrique explique comment ouvrir des données d'entité dans Microsoft Excel, puis les étudier, les mettre à jour et les modifier à l'aide du module complémentaire Microsoft Dynamics Office pour Excel."
 author: ChrisGarty
 manager: AnnBe
-ms.date: 11/06/2017
+ms.date: 11/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b1f25f3630ad5126edd20c5508b83a9811a65f8
-ms.openlocfilehash: dd986d8f82c42c4e229e6e60bdfe8d15a273e149
+ms.sourcegitcommit: bf2607596993d01abaf5e8a66f14f8c091791d4a
+ms.openlocfilehash: b4151ca929d0dbe073c1a8444cf63a90ac74e20c
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 11/27/2017
 
 ---
 
@@ -104,17 +104,6 @@ Vous pouvez utiliser le concepteur pour ajuster les colonnes qui sont automatiqu
 
 4. Pour appliquer les modifications à la source de données, cliquez sur **Mettre à jour**. Ensuite, cliquez sur **Terminé** pour quitter le concepteur.
 5. Si vous avez ajouté un champ (colonne), cliquez sur **Actualiser** pour extraire un jeu de données mis à jour.
-
-## <a name="copy-environment-data"></a>Copier les données de l'environnement
-Les données qui sont lues dans le classeur à partir d'un environnement peuvent être copiées vers un autre environnement. Toutefois, vous ne pouvez pas uniquement modifier l'URL de connexion, car le cache de données dans le classeur continuera à traiter les données comme des données existantes. Au lieu de cela, vous devez utiliser la fonctionnalité Copier les données de l'environnement pour publier des données dans un nouvel environnement comme de nouvelles données.
-
-1. Sélectionnez le bouton **Imprimer** (le symbole de vitesse), puis, dans l'organisateur **Connecteur de données**, sélectionnez **Copier les données de l'environnement**.
-2. Indiquez l'URL du serveur pour le nouvel environnement.
-3. Cliquez sur **OK**, puis cliquez sur **Oui** pour confirmer l'action. Le complément Excel est relancé et se connecte au nouvel environnement. Toutes les données existantes du classeur sont traitées comme des nouvelles données.
-
-    Une fois que le complément Excel a redémarré, une zone de message indique que le classeur est en mode Copie de l'environnement.
-
-4. Pour copier des données dans le nouvel environnement comme de nouvelles données, sélectionnez **Publier**. Pour annuler l'opération de copie dans l'environnement et examiner les données existantes dans le nouvel environnement, sélectionnez **Actualiser**.
 
 ## <a name="troubleshooting"></a>Dépannage
 Il existe quelques problèmes pouvant être résolus en quelques pas.

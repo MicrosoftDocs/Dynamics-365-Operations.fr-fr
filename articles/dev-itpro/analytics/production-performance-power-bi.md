@@ -3,7 +3,7 @@ title: Contenu Power BI pour les performances de production
 description: "Cette rubrique décrit ce qui est inclus dans le contenu Power BI Performances de production. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu."
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -16,10 +16,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
-ms.openlocfilehash: f0551a9b58b58f6bdac433b88f44919428c14426
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 898a1a513850024fd0164955bdd204ee4b08c632
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -42,7 +42,7 @@ Ce contenu Power BI vous permet également d'analyser les écarts de production.
 Le contenu Power BI **Performances de production** inclut les données provenant des ordres de fabrication et des lots de commandes. Les états n'incluent pas les données liées aux productions de kanban.
 
 ## <a name="accessing-the-power-bi-content"></a>Accès au contenu Power BI
-Si vous utilisez Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (Juillet 2017), le contenu Power BI **Performances de production** s'affiche sur la page **Performances de production** (**Contrôle de la production** > **Recherches et états** > **Analyse des performances de production** > **Performances de production**). 
+Le contenu Power BI **Performances de production** s'affiche sur la page **Performances de production** (**Contrôle de la production** > **Recherches et états** > **Analyse des performances de production** > **Performances de production**). 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Mesures incluses dans le contenu Power BI
 

@@ -18,10 +18,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: 6b05dbef279b06fefc1eccd87689693edf2a418e
+ms.sourcegitcommit: ff1818d927f7ab9212c4d5d9109c426be5e0e152
+ms.openlocfilehash: 0d11e4fecc4c42636be63c1ce622f0b2f8e58f2c
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/29/2017
 
 ---
 
@@ -61,7 +61,7 @@ Vous pouvez créer une nouvelle facture fournisseur en sélectionnant l'action *
 
 
 
-Pour plus d'informations, voir [Collaborer avec des fournisseurs à l'aide du portail Fournisseur](../../supply-chain/procurement/collaborate-vendors-vendor-portal.md)
+Pour plus d'informations, voir [Collaboration fournisseur avec des fournisseurs externes](../../supply-chain/procurement/vendor-collaboration-work-external-vendors.md)
 
 
 

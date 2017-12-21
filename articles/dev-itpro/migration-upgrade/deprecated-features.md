@@ -3,7 +3,7 @@ title: "Fonctionnalités obsolètes"
 description: "Cette rubrique décrit les fonctions qui ont été supprimées, ou qu'il est prévu de supprimer."
 author: sericks007
 manager: AnnBe
-ms.date: 10/23/2017
+ms.date: 11/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 6
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: ee051bbf50a6124fe1700a244b36b5f9c599e714
+ms.sourcegitcommit: 408854737847590841814ed74209618bbf22ec23
+ms.openlocfilehash: b0eb041ee1a4309b010e510e1f7428d6c930e4a0
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 11/27/2017
 
 ---
 
@@ -490,8 +490,8 @@ Les partitions de données fournissent une séparation logique des données dans
 
 |   |   |
 |---|---|
-| **Motif de la suppression**       | Les partitions de données ont été introduites dans Microsoft Dynamics AX 2012 R2 pour permettre l'isolement des données. Dans un scénario courant, une société possède des filiales, et les données d’une filiale ne doivent pas être visibles d'une autre filiale, même si les deux filiales sont gérés par le même service informatique. Toutefois, des scripts supplémentaires et du temps système de gestion tout au long du programme ont été requis afin de créer des partitions et de les remplir avec des données et pour sauvegarder les données de la partition. Dans le cloud, sur lequel nous avons accès aux services de base de données PaaS (Platform as a Service) (base de données Microsoft Azure SQL), il est beaucoup plus efficace d’utiliser une base de données en tant que conteneur d’isolation que de faire de l’isolation dans le programme. Même si le partitionnement des données est requis pour les filiales, pour plusieurs locataires ou juste pour une mise à l'échelle, nous pensons que les scénarios peuvent être mieux gérés par l’intermédiaire de plusieurs bases de données ou de plusieurs instances de Dynamics AX. |
-| **Remplacé par une autre fonctionnalité ?** | Les partitions de données seront remplacées par l’intermédiaire de la prise en charge de plusieurs bases de données ou instances de Dynamics AX dans une version ultérieure.    |
+| **Motif de la suppression**       | Les partitions de données ont été introduites dans Microsoft Dynamics AX 2012 R2 pour permettre l'isolement des données. Dans un scénario courant, une société possède des filiales, et les données d’une filiale ne doivent pas être visibles d'une autre filiale, même si les deux filiales sont gérés par le même service informatique. Toutefois, des scripts supplémentaires et du temps système de gestion tout au long du programme ont été requis afin de créer des partitions et de les remplir avec des données et pour sauvegarder les données de la partition. Dans le cloud, sur lequel nous avons accès aux services de base de données PaaS (Platform as a Service) (base de données Microsoft Azure SQL), il est beaucoup plus efficace d’utiliser une base de données en tant que conteneur d’isolation que de faire de l’isolation dans le programme. Même si le partitionnement des données est requis pour les filiales, pour plusieurs locataires ou juste pour une mise à l'échelle, nous pensons que les scénarios peuvent être mieux gérés par l’intermédiaire de plusieurs instances de Finance and Operations. |
+| **Remplacé par une autre fonctionnalité ?** | Les clients qui utilisent les partitions de données doivent utiliser plusieurs instances de Finance and Operations si la séparation au niveau de la base de données est un problème critique.    |
 | **Modules concernés**             | Tout  |
 
 ### <a name="database-and-file-share-storage-for-attachments"></a>Stockage de base de données et de partage de fichiers pour les pièces jointes

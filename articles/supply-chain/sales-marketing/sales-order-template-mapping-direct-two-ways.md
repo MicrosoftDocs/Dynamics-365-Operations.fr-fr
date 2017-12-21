@@ -1,6 +1,6 @@
 ---
 title: Synchronisation entre les commandes client directement entre Sales et Finance and Operations
-description: "La rubrique présente les modèles et les tâches sous-jacentes utilisés pour exécuter une synchronisation bidirectionnelle des en-têtes et des lignes de commande client entre Microsoft Dynamics 365 for Sales et Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
+description: "La rubrique présente les modèles et les tâches sous-jacentes utilisés pour exécuter la synchronisation des commandes client directement entre Microsoft Dynamics 365 for Sales et Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/31/2017
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.intro: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 568c33a63efdc58a179dadcb617634dcf533fd4b
-ms.openlocfilehash: c31d65328250539fbe172f220272eec9d8b59bbf
+ms.sourcegitcommit: 7a828090fa34eb96d2b557eb06e48ad05b421ae8
+ms.openlocfilehash: 9aa8c78f5aea5a818d517c2baa9051750b132fc6
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/20/2017
 
 ---
 
@@ -31,13 +31,13 @@ ms.lasthandoff: 11/13/2017
 
 [!include[banner](../includes/banner.md)]
 
-La rubrique présente les modèles et les tâches sous-jacentes utilisés pour exécuter une synchronisation bidirectionnelle des en-têtes et des lignes de commande client entre Microsoft Dynamics 365 for Sales et Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
+La rubrique présente les modèles et les tâches sous-jacentes utilisés pour exécuter la synchronisation des commandes client directement entre Microsoft Dynamics 365 for Sales et Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
 
 ## <a name="templates-and-tasks"></a>Modèles et tâches
 
 Pour accéder à des modèles disponibles, ouvrir [Centre d'administrateur PowerApps](https://preview.admin.powerapps.com/dataintegration). Sélectionnez **Projets**, puis, dans le coin supérieur droit, sélectionnez **Nouveau projet** pour sélectionner les modèles publics.
 
-Les modèles et les tâches sous-jacentes suivants sont utilisés pour exécuter une synchronisation bidirectionnelle des en-têtes et des lignes directement entre Sales et Finance and Operations:
+Les modèles et les tâches sous-jacentes suivants sont utilisés pour exécuter la synchronisation des commandes client directement entre Sales et Finance and Operations :
 
 - **Noms des modèles dans l'intégration des données :** 
 

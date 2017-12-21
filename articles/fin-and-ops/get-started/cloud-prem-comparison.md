@@ -3,7 +3,7 @@ title: Comparaison des fonctions dans le cloud et sur site
 description: "La rubrique indique les fonctionnalités prises en charge dans le cloud et sur site."
 author: robinarh
 manager: AnnBe
-ms.date: 07/13/2017
+ms.date: 11/29/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -15,13 +15,13 @@ ms.custom: 89563
 ms.assetid: 
 ms.search.region: Global
 ms.author: robinr
-ms.search.validFrom: 2017-07-13
+ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: efe06929db414475f6457dfe49ff1791a3d609d5
+ms.sourcegitcommit: cfd3b475b113fdab4ceeb3e636fea6c9134ab982
+ms.openlocfilehash: 32cc0c01a096cd678c605f57e0cccfe42d0479aa
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -39,29 +39,32 @@ Les tableaux suivants décrivent les zones de produit. La prise en charge en clo
 | Secteur | Fonction | Cloud | Sur site|
 |---|---|---|---|
 | Conformité et certifications | | Oui | Oui |
-| | Type de certification SOC 1 Type 1| Oui | N° |
+| | Type de certification SOC 1 Type 1| Oui | Non |
 | Contrôle de gestion | | Oui | Oui |
-| | Pack de contenu Contrôle de gestion pour Power BI| Oui | N° |
-| | Espace de travail Contrôle de gestion pour application mobile| Oui | N° |
+| | Pack de contenu Contrôle de gestion pour Power BI| Oui | Non |
+| | Espace de travail Contrôle de gestion pour application mobile| Oui | Non |
 | Gestion des coûts| | Oui | Oui |
-| | Pack de contenu Gestion des coûts pour Power BI | Oui | N° |
+| | Pack de contenu Gestion des coûts pour Power BI | Oui | Non |
 | Intégration et gestion des données| | Oui | Oui |
-| | Extension pilotée par la configuration| Oui | N° |
-| | Exportation des données vers votre propre entrepôt de données| Oui | N° |
-| | Activation de l'exportation des mises à jour incrémentielles vers une entité de données | Oui | N° |
+| | Extension pilotée par la configuration| Oui | Non |
+| | Exportation des données vers votre propre entrepôt de données| Oui | Non |
+| | Activation de l'exportation des mises à jour incrémentielles vers une entité de données | Oui | Non |
 | Gestion des documents| | Oui| Oui |
 | Gestion financière|  | Oui | Oui |
-| ?| | Oui | N° |
+| ?| | Oui | Non |
 | Ressources humaines | | Oui | Oui |
 | Intelligence| | Oui | Oui |
-| | Gestion des états électroniques - Intégration à LCS | Oui | N°|
-| | Gestion des états électroniques - Intégration à SharePoint | Oui | N°|
-| | Intégration à PowerBI.com| Oui | N° |
-| | Espaces de travail analytiques | Oui | N° |
-| | Processus métier intelligent : Recommandations| Oui | N° |
+| | Gestion des états électroniques - Intégration à LCS | Oui | Non|
+| | Gestion des états électroniques - Intégration à SharePoint | Oui | Non|
+| | Intégration à PowerBI.com| Oui | Non |
+| | Espaces de travail analytiques | Oui | Non |
+| | Processus métier intelligent : Recommandations| Oui | Non |
+| | Création d'états Power BI avec OData à l'aide des outils Power BI Desktop ou Excel PowerQuery | Oui | Non |
+| | SQL Server Reporting Services (SSRS) prend en charge la mise à l'échelle  | Oui | Non |
+| | La télémétrie est transférée dans le cloud | Oui | Non |
 | Gestion des stocks| | Oui | Oui |
 | Lifecycle Services| | Oui | Oui |
-| | Processus métier configurables | Oui | N° |
+| | Processus métier configurables | Oui | Non |
 | Localisations| | Oui | Oui |
 | Fabrication| | Oui | Oui |
 | Planification et prévisions| | Oui | Oui |
@@ -69,29 +72,29 @@ Les tableaux suivants décrivent les zones de produit. La prise en charge en clo
 | Intégration Office| | Oui | Oui |
 | Administration d'organisation | | Oui | Oui |
 | Paie|  | Oui | Oui |
-| | Dépôt direct| Oui | N° |
+| | Dépôt direct| Oui | Non |
 | Approvisionnements| | Oui | Oui |
-| | Extraction du catalogue externe à partir de la demande d'achat| Oui | N° |
-| | États Power BI Analyse des dépenses d'achat| Oui | N° |
+| | Extraction du catalogue externe à partir de la demande d'achat| Oui | Non |
+| | États Power BI Analyse des dépenses d'achat| Oui | Non |
 | Gestion des informations sur les produits | | Oui | Oui |
 | Données de produit générique| | Oui | Oui|
 | Production | | Oui | Oui |
-| | États Power BI pour les performances de production| Oui | N° |
+| | États Power BI pour les performances de production| Oui | Non |
 | Gestion et comptabilité du projet|  | Oui | Oui |
 | Vente| | Oui | Oui |
-| | États Power BI pour les performances de rentabilité et de vente| Oui | N° |
+| | États Power BI pour les performances de rentabilité et de vente| Oui | Non |
 | Sécurité | | Oui | Oui |
 | Gestion des services| | Oui | Oui |
 | Gestion de la chaîne d'approvisionnement.| | Oui | Oui |
 | Gestion du transport| | Oui | Oui |
 | Collaboration du fournisseur| | Oui | Oui|
 | Gestion des entrepôts| | Oui | Oui |
-| | Application d'entrepôt mobile| Oui | N° |
-| | États Power BI d'entrepôt| Oui | N° |
+| | Application d'entrepôt mobile| Oui | Oui |
+| | États Power BI d'entrepôt| Oui | Non |
 | Client Web | | Oui | Oui |
-| | Enregistreur de tâches - Enregistrer ou charger des enregistrements à partir de la bibliothèque BPM| Oui | N° |
+| | Enregistreur de tâches - Enregistrer ou charger des enregistrements à partir de la bibliothèque BPM| Oui | Non |
 | Assistance | | Oui | Oui |
-| | Accès au support via le menu Aide et support| Oui | N° |
+| | Accès au support via le menu Aide et support| Oui | Non |
 
 ### <a name="development-and-administration"></a>Développement et administration
 
@@ -102,10 +105,11 @@ Les tableaux suivants décrivent les zones de produit. La prise en charge en clo
 | Surveillance et télémétrie  || Oui | Oui |
 | Compatibilité de plateforme  || Oui | Oui |
 | Maintenance | | Oui | Oui |
-| | Environnements de maintenance | Oui | N° |
+| | Environnements de maintenance | Oui | Non |
+| Trace Parser et PerfTimer | | Oui | Non |
 | Mettre à niveau | | Oui | Oui |
-| | Mettre à niveau | Oui | N° |
-| | Mise à niveau et prise en charge des versions précédentes | Oui | N° |
+| | Mettre à niveau | Oui | Non |
+| | Mise à niveau et prise en charge des versions précédentes | Oui | Non |
 | Développement Visual Studio |  | Oui | Oui |
 
 
@@ -113,14 +117,16 @@ Les tableaux suivants décrivent les zones de produit. La prise en charge en clo
 
 | Secteur | Fonction | Cloud | Sur site|
 |---|---|---|---|
-| Toutes les zones de vente au détail | Toutes les fonctionnalités de vente au détail | Oui | N° |
+| Toutes les zones de vente au détail | Toutes les fonctionnalités de vente au détail | Oui | Non |
 
 ## <a name="dynamics-365-for-talent"></a>Dynamics 365 for Talent
 
 | Secteur | Fonction | Cloud | Sur site|
 |---|---|---|---|
-| Toutes les zones Talent | Toutes les fonctionnalités Talent | Oui | N° |
+| Toutes les zones Talent | Toutes les fonctionnalités Talent | Oui | Non |
 
+## <a name="see-also"></a>Voir aussi
 
+- [Fonctions non implémentées dans les déploiements sur site](features-not-implemented-on-prem.md)
 
 

@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: c73eeaaf28df8db720431d4bcd317c9721baa99d
-ms.openlocfilehash: 6a08be4608d131967eec00fc0d6d0e606a2f9f53
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 0bbb17cd5053c68d9108ca9771e2f24611ba1995
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -53,7 +53,7 @@ Avant d'utiliser cet espace de travail mobile, les conditions requises suivantes
 <tbody>
 <tr class="odd">
 <td>Un des produits suivants doit être déployés dans votre organisation :
-<ul><li>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (Juillet 2017)</li>
+<ul><li>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</li>
 <li>Microsoft Dynamics 365 for Talent</li>
 </ul>
 </td>

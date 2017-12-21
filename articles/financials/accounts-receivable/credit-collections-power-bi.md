@@ -3,7 +3,7 @@ title: "Contenu Power BI pour la gestion des crédits et des relances"
 description: "Cette rubrique décrit les données incluses dans le contenu Power BI de gestion des crédits et des relances. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: 7aec3d81fca86abdab4f5fcee54f832f917ffe92
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 536ebae3ec44954aba314a966c9b0d2dabef45d1
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -41,7 +41,7 @@ Tous les montants sont indiqués dans la devise système. Vous pouvez définir l
 Par défaut, les données liées aux crédits et aux relances pour la société actuelle s'affichent. Pour afficher les données entre toutes les sociétés, affectez le droit **CustCollectionsBICrossCompany** au rôle.
 
 ## <a name="accessing-the-power-bi-content"></a>Accès au contenu Power BI
-Si vous utilisez Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (Juillet 2017), le contenu Power BI **Gestion des crédits et des relances** s'affiche dans l'espace de travail **Crédits et relances client**.
+Le contenu Power BI **Gestion des crédits et des relances** s'affiche dans l'espace de travail **Crédits et relances client**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>États inclus dans le contenu Power BI
 
