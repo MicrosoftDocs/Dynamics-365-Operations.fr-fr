@@ -3,7 +3,7 @@ title: Vue d'ensemble des factures fournisseur
 description: "Cet article fournit des informations générales sur les factures fournisseur. Les factures fournisseur sont des demandes de paiement pour les biens et services reçus. Les factures fournisseur peuvent représenter une facture pour les services en cours, ou elles peuvent être basées sur des commandes fournisseur pour des articles et services spécifiques."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 01/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

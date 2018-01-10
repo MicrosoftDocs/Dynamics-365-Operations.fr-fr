@@ -3,7 +3,7 @@ title: "Gestion et comptabilité des projets"
 description: "La fonctionnalité de gestion de projets et de comptabilité peut être utilisée dans plusieurs secteurs pour fournir un service, fabriquer un produit, ou atteindre résultat."
 author: KimANelson
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 01/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
