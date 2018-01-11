@@ -3,7 +3,7 @@ title: "Prévision des flux de trésorerie"
 description: "Cette rubrique fournit une vue d'ensemble du processus de prévisions des flux de trésorerie. Elle décrit également comment les prévisions des flux de trésorerie sont intégrées avec d'autres modules dans le système."
 author: saraschi
 manager: AnnBe
-ms.date: 05/15/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: sarasch
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 75b47611f1c73a3fb771e63dc1dd12cadf8c4b32
+ms.sourcegitcommit: 263bfe858f2ca5f7fe2f7426565938899d98130f
+ms.openlocfilehash: 203f28c9c2d179e2173f65472b05019dc69af45a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 01/11/2018
 
 ---
 
