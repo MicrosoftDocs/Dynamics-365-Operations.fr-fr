@@ -3,7 +3,7 @@ title: "Espace de travail de validation des données"
 description: "L'espace de travail Liste de contrôle de contrôle des données vous permet de suivre les processus de validation des données pour les sociétés, les secteurs et les individus. La liste de contrôle peut être utilisée lors d'une implémentation, après une mise à niveau ou après une migration."
 author: bking
 manager: AnnBe
-ms.date: 05/11/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -15,10 +15,10 @@ ms.assetid:
 ms.search.region: Global
 ms.author: bking
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: daded9d8ef48456cbd3f97a7bae5fa75885ce9d1
+ms.sourcegitcommit: 8db36355f4ef05fb6c11b9eff2090df8d6ad03b4
+ms.openlocfilehash: 935e8901758a1779af2273b74f55a5becedc3e07
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 01/12/2018
 
 ---
 
