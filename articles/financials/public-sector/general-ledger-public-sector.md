@@ -1,7 +1,7 @@
 ---
 title: "Comptabilité dans le secteur public"
 description: "Cette rubrique décrit la fonctionnalité de comptabilité disponible pour le secteur public."
-author: rschloma
+author: twheeloc
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AdvancedLedgerEntry, JournalizingDefinition, LedgerDerivedFinHierarchies, LedgerFundType, LedgerParameters
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.custom: 27211
 ms.assetid: d737c743-e224-4a30-b4c3-e9568eaddd8c
@@ -20,10 +20,10 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8010d38b015dcdb1d589c5342496dba4762cf429
+ms.sourcegitcommit: 47336a19899b1fad0e63265173fd7fd02fc74ec3
+ms.openlocfilehash: c917cc91d47e4461f884a2bf59358e92e5d8a011
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 01/12/2018
 
 ---
 

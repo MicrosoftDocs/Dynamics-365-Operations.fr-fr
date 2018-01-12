@@ -1,16 +1,16 @@
 ---
 title: "Comptabilité client dans le secteur public"
 description: "Cette rubrique décrit la fonctionnalité de Comptabilité client disponible pour le secteur public."
-author: rschloma
+author: twheeloc
 manager: AnnBe
-ms.date: 08/07/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CustInvoiceJournal, CustParameters, CustTradingPartnerCode
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.custom: 26281
 ms.assetid: a411ec87-a209-471c-a141-5f5a92f2e45e
@@ -20,10 +20,10 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: eeb3d8eccf3f98c961f29eca50e7af088e3430ab
+ms.sourcegitcommit: 47336a19899b1fad0e63265173fd7fd02fc74ec3
+ms.openlocfilehash: 593924e8d6be1e24f79795768e1facbb7dcf1e56
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 01/12/2018
 
 ---
 

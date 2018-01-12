@@ -1,16 +1,16 @@
 ---
 title: "Budgétisation dans le secteur public"
 description: "Cette vue d'ensemble présente la fonctionnalité de budgétisation disponible pour le secteur public. Cela inclut l'analyse de budget, les budgets et les répartitions préliminaires, et les définitions de validation."
-author: rschloma
+author: twheeloc
 manager: AnnBe
-ms.date: 08/07/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BudgetControlApportionments, BudgetControlConfiguration, BudgetControlStatistics, BudgetParameters
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.custom: 19471
 ms.assetid: 8cecf3cc-8916-44d7-8c73-d6254a61f62b
@@ -20,10 +20,10 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 60f1bdd14e2c42a71a3f39202d9483b4ac03c208
+ms.sourcegitcommit: 47336a19899b1fad0e63265173fd7fd02fc74ec3
+ms.openlocfilehash: 6e6d933acb9aa6917f0bf1ed5eb34156aa60ebd2
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 01/12/2018
 
 ---
 
