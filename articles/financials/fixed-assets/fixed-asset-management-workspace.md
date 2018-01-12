@@ -3,7 +3,7 @@ title: Espace de travail Gestion des immobilisations
 description: "Cette rubrique fournit des informations sur l'espace de travail Gestion des immobilisations. Cet espace de travail affiche les informations liées aux immobilisations entrées dans le système. Il inclut une vue Synthèse et une vue Analyses."
 author: saraschi
 manager: AnnBe
-ms.date: 10/27/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

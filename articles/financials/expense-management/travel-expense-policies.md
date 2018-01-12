@@ -3,7 +3,7 @@ title: "Définir les stratégies de dépenses"
 description: "Vous pouvez définir des stratégies de dépenses que vos employés doivent suivre lorsqu'ils saisissent et soumettent des états de dépenses et des demandes de voyage dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: saraschi2
 manager: AnnBe
-ms.date: 09/19/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
