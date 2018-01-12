@@ -3,7 +3,7 @@ title: "Création d'une facture client"
 description: "Une **facture client pour une commande client** est une facture associée à une vente, remise par une organisation à un client."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 10/26/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
