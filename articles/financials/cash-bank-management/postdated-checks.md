@@ -3,7 +3,7 @@ title: "Chèques postdatés"
 description: "Cet article fournit des informations sur la prise en charge des chèques postdatés dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Les chèques postdatés sont des chèques émis à des fins d'émission ou de réception de paiements à une date future. Par conséquent, le chèque ne peut pas être encaissé avant la date spécifiée."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: afa181830fb822c85dedbc8009fec903d1b98479
+ms.sourcegitcommit: 63bf043124797b328116fd7951913eaeda6ff97b
+ms.openlocfilehash: 68d3029f750e2f2feb5912bbb64bfe105b9d9718
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 01/12/2018
 
 ---
 

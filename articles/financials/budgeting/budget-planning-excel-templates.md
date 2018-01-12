@@ -3,7 +3,7 @@ title: "Modèles de planification budgétaire pour Excel"
 description: "Cette rubrique décrit la procédure de création de modèles Microsoft Excel qui peuvent être utilisés avec les plans budgétaires."
 author: ryansandness
 manager: AnnBe
-ms.date: 07/27/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 96df6bbfe5c9e158b616230c2b061762a5edda08
+ms.sourcegitcommit: 63bf043124797b328116fd7951913eaeda6ff97b
+ms.openlocfilehash: 747e57b11c13f71c672d43531255751ff273f57c
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 01/12/2018
 
 ---
 
@@ -92,7 +92,7 @@ ms.lasthandoff: 11/06/2017
 > [!NOTE] 
 > <span data-ttu-id="a6bf5-154">Pour définir la formule, créez la formule dans la feuille de calcul, puis copiez-la dans la fenêtre **Créer**.</span><span class="sxs-lookup"><span data-stu-id="a6bf5-154">To define the formula, create the formula in the spreadsheet, and then copy it to the **Design** window.</span></span> <span data-ttu-id="a6bf5-155">Une table liée Finance and Operations sera généralement nommée « AXTable1 ».</span><span class="sxs-lookup"><span data-stu-id="a6bf5-155">A Finance and Operations bound table will typically be named "AXTable1".</span></span> <span data-ttu-id="a6bf5-156">Par exemple, pour récapituler les colonnes Demande T1 : Demande T4 dans la feuille de calcul, utilisez la formule = AxTable1\[Request Q1\]+AxTable1\[Request Q2\]+AxTable1\[Request Q3\]+AxTable1\[Request Q4\].</span><span class="sxs-lookup"><span data-stu-id="a6bf5-156">For example, to summarize Request Q1 : Request Q4 columns in the spreadsheet, the formula = AxTable1\[Request Q1\]+AxTable1\[Request Q2\]+AxTable1\[Request Q3\]+AxTable1\[Request Q4\].</span></span>
 
-<span data-ttu-id="a6bf5-157">Répétez ces étapes pour insérer la colonne **Ajustement**.</span><span class="sxs-lookup"><span data-stu-id="a6bf5-157">Repeat these steps to insert the **Adjustment** column.</span></span> <span data-ttu-id="a6bf5-158">Utilisez la formule = AxTable1\[Total request\]\*$I$1 pour cette colonne.</span><span class="sxs-lookup"><span data-stu-id="a6bf5-158">Use formula = AxTable1\[Total request\]\*$I$1 for this column.</span></span> <span data-ttu-id="a6bf5-159">Elle utilise la valeur de la cellule I1 et multiplie les valeurs de la colonne **Demande totale** pour calculer les montants de l'ajustement.</span><span class="sxs-lookup"><span data-stu-id="a6bf5-159">This will take the value in cell I1 and multiply the values in the **Total request** column to calculate adjustment amounts.</span></span>
+<span data-ttu-id="a6bf5-157">Répétez ces étapes pour insérer la colonne **Ajustement**.</span><span class="sxs-lookup"><span data-stu-id="a6bf5-157">Repeat these steps to insert the **Adjustment** column.</span></span> <span data-ttu-id="a6bf5-158">Utilisez la formule = AxTable1\[Total request\]\\*$I$1 pour cette colonne.</span><span class="sxs-lookup"><span data-stu-id="a6bf5-158">Use formula = AxTable1\[Total request\]\\*$I$1 for this column.</span></span> <span data-ttu-id="a6bf5-159">Elle utilise la valeur de la cellule I1 et multiplie les valeurs de la colonne **Demande totale** pour calculer les montants de l'ajustement.</span><span class="sxs-lookup"><span data-stu-id="a6bf5-159">This will take the value in cell I1 and multiply the values in the **Total request** column to calculate adjustment amounts.</span></span>
 
 <span data-ttu-id="a6bf5-160">Enregistrez et fermez le fichier Excel.</span><span class="sxs-lookup"><span data-stu-id="a6bf5-160">Save and close the Excel file.</span></span> <span data-ttu-id="a6bf5-161">Revenez à Finance and Operations, et dans **Mises en page**, cliquez sur **Modèle &gt; Télécharger** pour télécharger le modèle Excel enregistré qui sera utilisé pour le plan budgétaire.</span><span class="sxs-lookup"><span data-stu-id="a6bf5-161">Return to Finance and Operations, and in **Layouts**, click **Template &gt; Upload** to upload the saved Excel template to be used for the budget plan.</span></span> 
 

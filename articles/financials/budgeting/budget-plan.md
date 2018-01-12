@@ -3,7 +3,7 @@ title: "Planification budgétaire"
 description: "L'objectif de cet atelier consiste à fournir une vue guidée des mises à jour de fonctionnalités Microsoft Dynamics 365 for Finance and Operations, Enterprise edition dans la zone de planification budgétaire. Cet atelier pratique consiste à illustrer un exemple de configuration rapide du module planification budgétaire et à présenter l'accomplissement de la planification budgétaire à l'aide de cette configuration.  Cet atelier pratique se concentrera spécifiquement sur les processus ou les tâches d'entreprise : - Création de la hiérarchie d'organisation pour la planification budgétaire et la configuration de la sécurité utilisateur - Définition de scénarios de plan budgétaire, de colonnes de plan budgétaire, de mises en page et de modèles Excel - Création et activation du processus de planification budgétaire - Création de document de plan budgétaire par l'extraction de chiffres réels de la comptabilité - Utilisation des répartitions pour ajuster les données du document de plan budgétaire - Modification de données de document de plan budgétaire dans Excel"
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c6440591f847cbbb6be352270e3629a49d71598e
+ms.sourcegitcommit: 63bf043124797b328116fd7951913eaeda6ff97b
+ms.openlocfilehash: 8d1174599e383f96a9eaa7a9235664079079906c
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 01/12/2018
 
 ---
 
