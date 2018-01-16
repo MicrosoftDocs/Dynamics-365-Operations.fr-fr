@@ -2,6 +2,7 @@
 # [Configuration requise pour les déploiements Cloud](../fin-and-ops/get-started/system-requirements.md)
 # [Configuration requise pour les déploiements sur site](../fin-and-ops/get-started/system-requirements-on-prem.md)
 # [Données de démonstration](../fin-and-ops/get-started/demo-data.md)
+## [Générer des données de démonstration avec les packages](data-entities/generate-demo-data-packages.md)
 
 
 # [Développement et personnalisation à l'aide de Visual Studio](dev-tools/developer-home-page.md)
@@ -28,7 +29,7 @@
 ### [Exportation et importation d'un modèle](dev-tools/models-export-import.md)
 ### [Recherche de métadonnées dans Visual Studio](dev-tools/metadata-search-visual-studio.md)
 ### [Modèles](dev-tools/models.md)
-### [Projets dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition](dev-tools/projects.md)
+### [Projets dans Microsoft Dynamics 365 for Finance and Operations, édition Enterprise](dev-tools/projects.md)
 ### [Modules complémentaires d'outils pour Visual Studio](dev-tools/developer-tools-add-ins.md)
 ### [Désactiver la personnalisation de modèle et les fonctionnalités obsolètes](dev-tools/lock-models.md)
 ### [Mettre à jour les outils de développement Visual Studio](dev-tools/update-development-tools.md)
@@ -160,8 +161,8 @@
 ### [Construire la navigation](user-interface/build-navigation.md)
 ### [Construire un espace de travail](user-interface/build-workspace.md)
 ## Ecrans
-### [Navigation dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition](user-interface/page-navigation.md)
-### [Mise en page dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition](user-interface/page-layout.md)
+### [Navigation dans Microsoft Dynamics 365 for Finance and Operations, édition Enterprise](user-interface/page-navigation.md)
+### [Mise en page dans Microsoft Dynamics 365 for Finance and Operations, édition Enterprise](user-interface/page-layout.md)
 ### [Police Symbol](user-interface/symbol-font.md)
 ### [Écrans de test avec modèles personnalisés](user-interface/testing-forms-custom-patterns.md)
 ### [Créer et utiliser des liens profonds](user-interface/create-deep-links.md)
@@ -362,6 +363,7 @@
 ### [OData](data-entities/odata.md)
 ### [Services personnalisés](data-entities/custom-services.md)
 ### [Intégrations récurrentes](data-entities/recurring-integrations.md)
+### [Utiliser les utilitaires de test de service tiers avec les services](data-entities/third-party-service-test.md)
 
 ## Développement pour l'intégration
 ### [Intégration des données à l'aide d'entités de données](data-entities/data-management-integration-data-entity.md)
@@ -396,6 +398,7 @@
 ### [Packages de données de configuration](data-entities/configuration-data-packages.md)
 ### [Copier des données de configuration entre des sociétés](data-entities/copy-configuration.md)
 ### [Modèles de données de configuration](data-entities/configuration-data-templates.md)
+### [Modèles de données avec plusieurs feuilles de calcul](data-entities/excel-template-multiple.md)
 ### [Suivre les modifications d'une entité](data-entities/entity-change-track.md)
 
 ## Entités de données standard
@@ -497,17 +500,20 @@
 
 ## Déploiement Cloud
 ### [Intégration du gestionnaire de ressources Azure](deployment/arm-onboarding.md)
-### [Azure ExpressRoute e Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition](deployment/expressroute.md)
+### [Azure ExpressRoute et Microsoft Dynamics 365 for Finance and Operations, édition Enterprise](deployment/expressroute.md)
 
 ## [Déploiement sur site](deployment/on-premises-deployment-landing-page.md)
 ### [Vue d'ensemble sur site](deployment/on-premises-overview.md)
+### [Planification de votre déploiement sur site](deployment/plan-onprem-deployment.md)
 ### [Dimension du matériel](../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
 ### [Créer un projet sur site](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [Paramétrer et déployer les environnements sur site](deployment/setup-deploy-on-premises-environments.md)
 ### [Développer et déployer les modèles personnalisés sur les environnements sur site](deployment/develop-deploy-custom-models-on-premises.md)
 ### [Appliquer des mises à jour à un déploiement sur site](deployment/apply-updates-on-premises.md)
 ### [Redéployer un déploiement sur site](deployment/redeploy-on-prem.md)
-### [Résolution des problèmes de Dynamics 365 for Finance and Operations, Enterprise edition (sur site)](deployment/troubleshoot-on-prem.md)
+### [Mettre à jour l'agent local](lifecycle-services/update-local-agent.md)
+### [Reconfigurer votre environnement](lifecycle-services/reconfigure-environment.md)
+### [Résolution des problèmes de Dynamics 365 for Finance and Operations, édition Enterprise (sur site)](deployment/troubleshoot-on-prem.md)
 
 ## Déployer du code personnalisé
 ### [Créer un package déployable](deployment/create-apply-deployable-package.md)
@@ -695,10 +701,10 @@
 ## [Demander une actualisation de base de données de type bac à sable](database/database-refresh.md)
 
 # Assistance
-## [Obtenir de l'aide sur Dynamics 365 for Finance and Operations, Enterprise Edition et Lifecycle Services](lifecycle-services/lcs-support.md)
+## [Obtenir de l'aide sur Dynamics 365 for Finance and Operations, édition Enterprise et Lifecycle Services](lifecycle-services/lcs-support.md)
 ## [Enregistrer un ticket d'assistance Premier](lifecycle-services/premier-support.md)
 ## [Soumettre une demande à l'équipe d'ingénierie de service de Dynamics](lifecycle-services/submit-request-dynamics-service-engineering-team.md)
-## [Configurer le support technique pour Dynamics 365 for Finance and Operations, Enterprise Edition](lifecycle-services/support-experience.md) 
+## [Configurer le support technique pour Dynamics 365 for Finance and Operations, édition Enterprise](lifecycle-services/support-experience.md) 
 ## [FAQ sur la fenêtre de maintenance planifiée](lifecycle-services/planned-maintenance-window-faq.md) 
 ## [Opérations et maintenance de cloud](lifecycle-services/cloud-operations-servicing.md)
 ## [Gérer les expériences d'assistance Finance and Operations](lifecycle-services/cloud-powered-support-lcs.md)

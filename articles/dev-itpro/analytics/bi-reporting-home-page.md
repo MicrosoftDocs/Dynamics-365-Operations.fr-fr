@@ -1,9 +1,9 @@
 ---
 title: Intelligence
-description: "Cette rubrique décrit les ressources que vous pouvez utiliser pour en savoir plus sur les outils Business Intelligence et de génération d'états disponibles dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
+description: "Cette rubrique décrit les ressources que vous pouvez utiliser pour en savoir plus sur les outils Business Intelligence et de génération d'états disponibles dans Microsoft Dynamics 365 for Finance and Operations, édition Enterprise."
 author: sericks007
 manager: AnnBe
-ms.date: 09/07/2017
+ms.date: 12/18/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
-ms.openlocfilehash: 9d9d6fe03c876097aedc501422b88d2f3e70f1d0
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: 2477062ad324f91ff07f1c79cfccd4389b37badf
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 [!include[banner](../includes/banner.md)]
 
-Cette rubrique décrit les ressources que vous pouvez utiliser pour en savoir plus sur les outils Business Intelligence (BI) et de génération d'états disponibles dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
+Cette rubrique décrit les ressources que vous pouvez utiliser pour en savoir plus sur les outils Business Intelligence (BI) et de génération d'états disponibles dans Microsoft Dynamics 365 for Finance and Operations, édition Enterprise.
 
 ## <a name="get-started"></a>Mise en route
 - [Accès aux informations et génération d'états](information-access-reporting.md)
@@ -48,7 +48,6 @@ Les utilisateurs peuvent interagir avec les données en cliquant ou en appuyant 
  - [Power BI intégré dans les espaces de travail](embed-power-bi-workspaces.md)
  - [Intégration de Power BI Embedded](power-bi-embedded-integration.md)
  - [Ajouter des analyses aux espaces de travail à l'aide de Power BI Embedded](add-analytics-tab-workspaces.md)
- - [Publier des applications d'analyse sur Power BI](publish-apps-powerbi.md)
  - [Aide à sécuriser des espaces de travail et des états analytiques à l'aide de Power BI Embedded](secure-analytical-workspaces.md)
  - [Contenu Power BI pour Finance and Operations](power-bi-home-page.md)
 
@@ -59,7 +58,7 @@ Les solutions de génération d'états sont souvent utilisées pour capturer et 
 
 Pour en savoir plus, consultez les rubriques suivantes :
 
-- [Vue d'ensemble de Reporting Services de document](document-reporting-services.md)
+- [Vue d'ensemble de Document Reporting Services](document-reporting-services.md)
 - [Impression dans les applications Finance and Operations](print-documents.md)
 - [Installer l'agent d'acheminement de document pour activer les périphériques d'imprimante réseau](install-document-routing-agent.md)
 
@@ -88,10 +87,7 @@ Pour en savoir plus, consultez les rubriques suivantes :
 ## <a name="technical-reference-reports"></a>États de référence technique
 Les états suivants fournissent des informations de référence sur les objets dans Finance and Operations :
 
-- [État d'entités de données regroupées](aggregate-data-entities-report.md)
-- [État de mesures regroupées](aggregate-measurements-report.md)
 - [État d'entités de données](../data-entities/data-entities-report.md)
-- [État des indicateurs de performance clé (KPI)](key-performance-indicators-report.md)
 - [État des codes licence et des clés de configuration](../sysadmin/license-codes-configuration-keys-report.md)
 - [États SQL Server Reporting Services](SSRS-report.md)
 - [Rapport sur les types de workflow](../../fin-and-ops/organization-administration/workflow-types-report.md)
