@@ -29,7 +29,7 @@
 ### [Exportation et importation d'un modèle](dev-tools/models-export-import.md)
 ### [Recherche de métadonnées dans Visual Studio](dev-tools/metadata-search-visual-studio.md)
 ### [Modèles](dev-tools/models.md)
-### [Projets dans Microsoft Dynamics 365 for Finance and Operations, édition Enterprise](dev-tools/projects.md)
+### [Projets dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition](dev-tools/projects.md)
 ### [Modules complémentaires d'outils pour Visual Studio](dev-tools/developer-tools-add-ins.md)
 ### [Désactiver la personnalisation de modèle et les fonctionnalités obsolètes](dev-tools/lock-models.md)
 ### [Mettre à jour les outils de développement Visual Studio](dev-tools/update-development-tools.md)
@@ -161,8 +161,8 @@
 ### [Construire la navigation](user-interface/build-navigation.md)
 ### [Construire un espace de travail](user-interface/build-workspace.md)
 ## Ecrans
-### [Navigation dans Microsoft Dynamics 365 for Finance and Operations, édition Enterprise](user-interface/page-navigation.md)
-### [Mise en page dans Microsoft Dynamics 365 for Finance and Operations, édition Enterprise](user-interface/page-layout.md)
+### [Navigation dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition](user-interface/page-navigation.md)
+### [Mise en page dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition](user-interface/page-layout.md)
 ### [Police Symbol](user-interface/symbol-font.md)
 ### [Écrans de test avec modèles personnalisés](user-interface/testing-forms-custom-patterns.md)
 ### [Créer et utiliser des liens profonds](user-interface/create-deep-links.md)
@@ -500,7 +500,7 @@
 
 ## Déploiement Cloud
 ### [Intégration du gestionnaire de ressources Azure](deployment/arm-onboarding.md)
-### [Azure ExpressRoute et Microsoft Dynamics 365 for Finance and Operations, édition Enterprise](deployment/expressroute.md)
+### [Azure ExpressRoute et Microsoft Dynamics 365 for Finance and Operations, Enterprise edition](deployment/expressroute.md)
 
 ## [Déploiement sur site](deployment/on-premises-deployment-landing-page.md)
 ### [Vue d'ensemble sur site](deployment/on-premises-overview.md)
@@ -513,7 +513,7 @@
 ### [Redéployer un déploiement sur site](deployment/redeploy-on-prem.md)
 ### [Mettre à jour l'agent local](lifecycle-services/update-local-agent.md)
 ### [Reconfigurer votre environnement](lifecycle-services/reconfigure-environment.md)
-### [Résolution des problèmes de Dynamics 365 for Finance and Operations, édition Enterprise (sur site)](deployment/troubleshoot-on-prem.md)
+### [Résolution des problèmes de Dynamics 365 for Finance and Operations, Enterprise edition (sur site)](deployment/troubleshoot-on-prem.md)
 
 ## Déployer du code personnalisé
 ### [Créer un package déployable](deployment/create-apply-deployable-package.md)
@@ -701,10 +701,10 @@
 ## [Demander une actualisation de base de données de type bac à sable](database/database-refresh.md)
 
 # Assistance
-## [Obtenir de l'aide sur Dynamics 365 for Finance and Operations, édition Enterprise et Lifecycle Services](lifecycle-services/lcs-support.md)
+## [Obtenir de l'aide sur Dynamics 365 for Finance and Operations, Enterprise edition et Lifecycle Services](lifecycle-services/lcs-support.md)
 ## [Enregistrer un ticket d'assistance Premier](lifecycle-services/premier-support.md)
 ## [Soumettre une demande à l'équipe d'ingénierie de service de Dynamics](lifecycle-services/submit-request-dynamics-service-engineering-team.md)
-## [Configurer le support technique pour Dynamics 365 for Finance and Operations, édition Enterprise](lifecycle-services/support-experience.md) 
+## [Configurer le support technique pour Dynamics 365 for Finance and Operations, Enterprise edition](lifecycle-services/support-experience.md) 
 ## [FAQ sur la fenêtre de maintenance planifiée](lifecycle-services/planned-maintenance-window-faq.md) 
 ## [Opérations et maintenance de cloud](lifecycle-services/cloud-operations-servicing.md)
 ## [Gérer les expériences d'assistance Finance and Operations](lifecycle-services/cloud-powered-support-lcs.md)

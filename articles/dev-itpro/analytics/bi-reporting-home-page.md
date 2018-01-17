@@ -1,6 +1,6 @@
 ---
 title: Intelligence
-description: "Cette rubrique décrit les ressources que vous pouvez utiliser pour en savoir plus sur les outils Business Intelligence et de génération d'états disponibles dans Microsoft Dynamics 365 for Finance and Operations, édition Enterprise."
+description: "Cette rubrique décrit les ressources que vous pouvez utiliser pour en savoir plus sur les outils Business Intelligence et de génération d'états disponibles dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition."
 author: sericks007
 manager: AnnBe
 ms.date: 12/18/2017
@@ -29,7 +29,7 @@ ms.lasthandoff: 12/18/2017
 
 [!include[banner](../includes/banner.md)]
 
-Cette rubrique décrit les ressources que vous pouvez utiliser pour en savoir plus sur les outils Business Intelligence (BI) et de génération d'états disponibles dans Microsoft Dynamics 365 for Finance and Operations, édition Enterprise.
+Cette rubrique décrit les ressources que vous pouvez utiliser pour en savoir plus sur les outils Business Intelligence (BI) et de génération d'états disponibles dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
 
 ## <a name="get-started"></a>Mise en route
 - [Accès aux informations et génération d'états](information-access-reporting.md)
