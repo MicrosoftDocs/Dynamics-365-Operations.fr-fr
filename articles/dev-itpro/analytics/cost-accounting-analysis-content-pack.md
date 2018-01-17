@@ -3,7 +3,7 @@ title: "Contenu Power BI d'analyse du contrôle de gestion"
 description: "Cette rubrique décrit les données incluses dans le contenu Power BI d'analyse du contrôle de gestion. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu."
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
-ms.openlocfilehash: f596f84463f46fc37b14b77bd335b9ed8a62eea9
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: 2d0fb4de84838f1778625d977bdd2ceeaac61f8c
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -44,7 +44,7 @@ Pour en savoir plus sur le contrôle de gestion, voir [Page d'accueil du contrô
 En définissant la sécurité au niveau de l'accès dans le module Contrôle de gestion et en la combinant à la sécurité au niveau de la ligne dans Power BI, vous pouvez autoriser l'accès au contenu Power BI **Analyse du contrôle de gestion** à tous les propriétaires d'objet de coût. Toutes les données des visualisations seront ensuite filtrées selon le niveau d'accès contrôlé dans le contrôle de gestion. Pour en savoir plus sur la sécurité au niveau de l'accès et la sécurité au niveau de la ligne, voir [Paramétrer la sécurité du contenu Contrôle de gestion pour Power BI](setup-security-cost-accounting-content-pack.md).
 
 ## <a name="accessing-the-power-bi-content"></a>Accès au contenu Power BI
-Vous trouverez le contenu Power BI **Analyse du contrôle de gestion** dans la bibliothèque Actifs partagés de Microsoft Dynamics Lifecycle Services (LCS). Pour savoir comment télécharger le contenu et l'implémenter dans votre organisation, voir [Contenu Power BI dans LCS de Microsoft et de vos partenaires](power-bi-content-microsoft-partners.md). Pour visionner une démonstration sur l'implémentation du contenu Power BI, voir la présentation Office Mix [Contenu Power BI de Microsoft et de vos partenaires dans Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.
+Vous trouverez le contenu Power BI **Analyse du contrôle de gestion** dans la bibliothèque Actifs partagés de Microsoft Dynamics Lifecycle Services (LCS). Pour savoir comment télécharger le contenu et l'implémenter dans votre organisation, voir [Contenu Power BI dans LCS de Microsoft et de vos partenaires](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/). Pour visionner une démonstration sur l'implémentation du contenu Power BI, voir la présentation Office Mix [Contenu Power BI de Microsoft et de vos partenaires dans Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.
 
 Veillez à télécharger le contenu **Analyse du contrôle de gestion** qui s'applique à la version de Microsoft Dynamics 365 que vous utilisez.
 

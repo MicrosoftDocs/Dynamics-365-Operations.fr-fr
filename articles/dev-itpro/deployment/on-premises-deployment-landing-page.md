@@ -3,7 +3,7 @@ title: "Déploiement sur site"
 description: "Cette rubrique fournit des informations et des liens vers du contenu sur les déploiements sur site."
 author: kfend
 manager: AnnBe
-ms.date: 06/24/2017
+ms.date: 12/11/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 855967a9aacd4881315c5d5fefa06b909cd4cb59
-ms.openlocfilehash: 69151ed1c0a0a06e72bbdc8b33eb2fc68e9cc8eb
+ms.sourcegitcommit: 346f5b7a5fbbe2c41aaa54e0b36fe0c46baec0af
+ms.openlocfilehash: 697f5a43124aace645e0cc8c6df98a4f986ab852
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 12/20/2017
 
 ---
 # <a name="on-premises-deployment-landing-page"></a>Page de destination de déploiement sur site
@@ -32,6 +32,7 @@ Vous pouvez déployer Microsoft Dynamics 365 for Finance and Operations, Enterp
 
 ## <a name="get-started"></a>Mise en route
 - [Vue d'ensemble de Dynamics 365 for Finance and Operations, édition Enterprise (sur site)](on-premises-overview.md)
+- [Planification de votre déploiement sur site](plan-onprem-deployment.md)
 - [Configuration requise pour les déploiements sur site](../../fin-and-ops/get-started/system-requirements-on-prem.md)
 - [Sizing matériel pour les environnements sur site](../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
 - [Service en ligne et stratégie du cycle de vie de service de logiciel sur site](../migration-upgrade/versions-update-policy.md)
@@ -41,6 +42,7 @@ Vous pouvez déployer Microsoft Dynamics 365 for Finance and Operations, Enterp
 ## <a name="onboard"></a>Vue d'ensemble
 - [Créer un projet sur site dans Lifecycle Services](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
 - [Paramétrer et déployer les environnements sur site](setup-deploy-on-premises-environments.md)
+- [Installer des périphériques d'impression réseau dans les environnements sur site](../analytics/install-network-printer-onprem.md)
 - [Configurer SQL Server Reporting Services pour un déploiement sur site](../analytics/configure-ssrs-on-premises.md)
 - [Développer et déployer les modèles personnalisés sur les environnements sur site](develop-deploy-custom-models-on-premises.md)
 
@@ -54,6 +56,7 @@ Vous pouvez déployer Microsoft Dynamics 365 for Finance and Operations, Enterp
 - [Redéployer un déploiement sur site](redeploy-on-prem.md)
 
 ## <a name="other-resources"></a>Ressources connexes
+- [Résolution des problèmes de Dynamics 365 for Finance and Operations, Enterprise edition (sur site)](troubleshoot-on-prem.md)
 - [Fonctions non implémentées dans les déploiements sur site](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
 - [Fonctionnalités obsolètes](../migration-upgrade/deprecated-features.md)
 - [Stratégie du cycle de vie de logiciel et liste des versions](../migration-upgrade/versions-update-policy.md)

@@ -1,9 +1,9 @@
 ---
 title: "Contenu Power BI Perfectionnement de l'employé"
-description: "Cette rubrique décrit le contenu Power BI Perfectionnement de l'employé. Elle explique également comment accéder aux états, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu."
+description: "Cette rubrique décrit le contenu Power BI Perfectionnement de l'employé."
 author: jcart1106
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: f8ba7a968a1a5b376bac52106671607247f061d9
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 99ae772f3a7fe9ad274a46398a577ad96f18e251
 ms.contentlocale: fr-fr
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -27,11 +27,7 @@ ms.lasthandoff: 12/01/2017
 
 [!include[banner](../includes/banner.md)]
 
-Cette rubrique décrit le contenu Microsoft Power BI **Perfectionnement de l'employé**. Elle explique également comment accéder aux états, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
-
-## <a name="accessing-the-power-bi-content"></a>Accès au contenu Power BI
-
-Vous trouverez le pack de contenu **Perfectionnement de l'employé** dans la bibliothèque Actifs partagés de Microsoft Dynamics Lifecycle Services (LCS). Pour savoir comment télécharger le pack de contenu et le connecter à vos données, voir [Contenu Power BI dans LCS de Microsoft et de vos partenaires](power-bi-content-microsoft-partners.md).
+Cette rubrique décrit le contenu Microsoft Power BI **Perfectionnement de l'employé**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>États inclus dans le contenu Power BI
 Les états inclus dans le contenu Power BI **Perfectionnement de l'employé** contiennent des graphiques et des tables qui fournissent des informations supplémentaires. Le tableau suivant décrit ces états.
@@ -74,5 +70,4 @@ Vous pouvez filtrer les graphiques et les vignettes affichés sur ces états et 
 | Performances              | Classement, description et modèle de classement                                                                      | Employé actuel, Poste actuel, Tendance de l'employé, Qualification préférée par tâche, Affectation antérieure de postes, Tendance du poste, Employé dont le contrat est terminé |
 |  Qualification                   | Qualification, type de qualification et évaluation                                                                              | Analyse des qualifications de l'employé, Qualification préférée pour la tâche |                                                                                                                        
 
-Ces entités ont été utilisées pour créer des mesures calculées dans le modèle de données. Ces entités calculées sont ensuite utilisées pour calculer les indicateurs de performance clés (KPI) et les états utilisés dans le contenu Power BI. Si vous souhaitez inclure des calculs supplémentaires dans vos rapports et tableaux de bord, vous pouvez télécharger et modifier le fichier .pbix de LCS. Ce fichier est le modèle de données par défaut utilisé pour créer le contenu Power BI. Une fois que vous avez apporté vos modifications, vous pouvez créer un pack de contenu et un tableau de bord de l'organisation contenant les informations que vous avez ajoutées.
 

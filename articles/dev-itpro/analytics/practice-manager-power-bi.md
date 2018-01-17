@@ -3,7 +3,7 @@ title: Contenu Power BI du gestionnaire de pratique
 description: "Cette rubrique décrit les données incluses dans le contenu Power BI du gestionnaire de pratique. Elle explique également comment accéder aux états inclus dans le contenu, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu."
 author: KimANelson
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,10 +17,10 @@ ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 836997f9f5b146ff48252c3f06153791ec1aabed
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: 44f017fc3460b83b730f2f7c909c6b88480dd918
 ms.contentlocale: fr-fr
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -39,7 +39,9 @@ Le contenu Power BI **Gestionnaire de pratique** contient cinq pages d'état : 
 Tous les montants du contenu sont indiqués dans la devise du système. Vous pouvez définir la devise du système dans la page **Paramètres système**.
 
 ## <a name="accessing-the-power-bi-content"></a>Accès au contenu Power BI
+
 Le contenu Power BI **Gestionnaire de pratique** s'affiche dans l'espace de travail **Gestion de projets**.
+
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>États inclus dans le contenu Power BI
 
@@ -47,7 +49,7 @@ Le tableau suivant fournit des détails sur les mesures disponibles sur chaque p
 
 | Page d'état       | Métriques |
 |-------------------|---------|
-| Vue d'ensemble des projets | <ul><li>Projets créés</li><li>Projets estimés</li><li>Projets en cours</li><li>Nombre de projets par phase</li><li>Nombre de projets par ville</li><li>Produit réel par client</li><li>Marge budgétaire brute par projet</li><li>Vue d'ensemble de la gestion de la valeur gagnée</li></ul> |
+| Vue d'ensemble des projets | <ul><li>Projets créés</li><li>Projets estimés</li><li>Projets en cours</li><li>Produit réel par client</li><li>Marge budgétaire brute par projet</li><li>Vue d'ensemble de la gestion de la valeur gagnée</li></ul> |
 | Charge              | <ul><li>Coût réel et budgété par mois</li><li>Coût réel et budgété par année</li><li>Coût réel et budgété par catégorie</li><li>Coût réel par type de transaction</li></ul> |
 | Produit           | <ul><li>Produit réel par mois</li><li>Produit réel par code postal</li><li>Produit réel et budgété par catégorie</li><li>Produit réel par secteur d'activité du client</li></ul> |
 | EVM               | Indice de performance des coûts et de l'échéancier par projet |
@@ -55,74 +57,67 @@ Le tableau suivant fournit des détails sur les mesures disponibles sur chaque p
 
 Les graphiques et les vignettes sur tous ces états peuvent être filtrés et épinglés au tableau de bord. Pour savoir comment filtrer et épingler dans Power BI, voir [Créer et configurer un tableau de bord](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Vous pouvez également utiliser la fonctionnalité Exporter les données sous-jacentes pour exporter les données sous-jacentes qui sont résumées dans une visualisation.
 
-## <a name="extending-the-power-bi-content"></a>Extension du contenu Power BI
-Grâce aux packs de contenu disponibles dans Microsoft Dynamics Lifecycle Services (LCS), vous pouvez fournir une analyse approfondie aux personnes qui ne se connectent pas à Microsoft Dynamics 365. Vous pouvez modifier ces packs de contenu pour qu'ils permettent d'inclure d'autres rapports ou visuels, et de les publier via votre locataire Power BI.com pour analyse. 
-
-Le contenu Power BI **Gestionnaire de pratique** se trouve dans la bibliothèque de ressources partagées dans LCS. Pour savoir comment télécharger le contenu et l'implémenter dans votre organisation, voir [Contenu Power BI dans LCS de Microsoft et de vos partenaires](power-bi-content-microsoft-partners.md). Pour visionner une démonstration sur l'implémentation du contenu Power BI, voir la présentation Office Mix [Contenu Power BI de Microsoft et de vos partenaires dans Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.
-
-Veillez à télécharger le contenu **Gestionnaire de pratique** qui s'applique à la version de Dynamics 365 que vous utilisez.
-
 ## <a name="understanding-the-data-model-and-entities"></a>Compréhension du modèle de données et des entités
 
 Les données suivantes sont utilisées pour remplir les pages d'état dans le contenu Power BI **Gestionnaire de pratique**. Ces données sont représentées sous la forme de mesures globales indexées dans le magasin des entités. Le magasin des entités est une base de données Microsoft SQL Server optimisée pour les analyses. Pour plus d'informations, voir [Vue d'ensemble de l'intégration de Power BI au magasin d'entité](power-bi-integration-entity-store.md)
 
 Les sections suivantes décrivent les mesures globales utilisées dans chaque entité.
 
-### <a name="entity-projectaccountingcubeactualhourutilization"></a>Entité : ProjectAccountingCube_ActualHourUtilization
+### <a name="entity-projectaccountingcubeactualhourutilization"></a>Entité : ProjectAccountingCube\_ActualHourUtilization
 **Source de données :** ProjEmplTrans
 
-| Mesure globale clé      | Champ                              | Description | 
+| Mesure globale clé      | Champ                              | Description |
 |--------------------------------|------------------------------------|-------------|
 | Heures utilisées facturables réelles | Sum(ActualUtilizationBillableRate) | Total des heures utilisées facturables réelles. |
 | Heures de la charge facturable réelles   | Sum(ActualBurdenBillableRate)      | Total du taux de charge réel. |
 
-### <a name="entity-projectaccountingcubeactuals"></a>Entité : ProjectAccountingCube_Actuals
+### <a name="entity-projectaccountingcubeactuals"></a>Entité : ProjectAccountingCube\_Actuals
 **Source de données :** ProjTransPosting
 
-| Mesure globale clé | Champ              | Description | 
+| Mesure globale clé | Champ              | Description |
 |---------------------------|--------------------|-------------|
-| Produit réel            | Sum(ActualRevenue) | Total du produit validé pour toutes les transactions. |   
+| Produit réel            | Sum(ActualRevenue) | Total du produit validé pour toutes les transactions. |
 | Coût réel               | Sum(ActualCost)    | Total du coût validé pour tous les types de transactions. |
 
-### <a name="entity-projectaccountingcubecustomer"></a>Entité : ProjectAccountingCube_Customer
+### <a name="entity-projectaccountingcubecustomer"></a>Entité : ProjectAccountingCube\_Customer
 **Source de données :** CustTable
 
-| Mesure globale clé | Champ                                            | Description | 
-|---------------------------|--------------------------------------------------|-------------|
-| Nombre de projets        | COUNTA(ProjectAccountingCube_Projects[PROJECTS]) | Nombre de projets disponibles. |
+| Mesure globale clé | Champ                                             | Description  |
+|---------------------------|---------------------------------------------------|-------------|
+| Nombre de projets        | COUNTA(ProjectAccountingCube\_Projects[PROJECTS]) | Nombre de projets disponibles. |
 
 
-### <a name="entity-projectaccountingcubeforecasts"></a>Entité : ProjectAccountingCube_Forecasts
+### <a name="entity-projectaccountingcubeforecasts"></a>Entité : ProjectAccountingCube\_Forecasts
 **Source de données :** ProjTransBudget
 
-| Mesure globale clé | Champ                  | Description | 
+| Mesure globale clé | Champ                  | Description |
 |---------------------------|------------------------|-------------|
 | Coût budgétaire               | Sum(BudgetCost)        | Total du coût prévisionnel pour tous les types de transactions. |
-| Produit budgété            | Sum(BudgetRevenue)     | Total du produit provisionné/facturé prévisionnel.  |
+| Produit budgété            | Sum(BudgetRevenue)     | Total du produit provisionné/facturé prévisionnel. |
 | Marge budgétaire brute       | Sum(BudgetGrossMargin) | Différence entre la somme du produit prévisionnel total et la somme du coût prévisionnel total. |
 
-### <a name="entity-projectaccountingcubeprojectplancostsview"></a>Entité : ProjectAccountingCube_ProjectPlanCostsView
+### <a name="entity-projectaccountingcubeprojectplancostsview"></a>Entité : ProjectAccountingCube\_ProjectPlanCostsView
 **Source de données :** Project
 
-| Mesure globale clé | Champ                    | Description | 
+| Mesure globale clé | Champ                    | Description |
 |---------------------------|--------------------------|-------------|
 | Coût planifié              | Sum(SumOfTotalCostPrice) | Prix de revient total pour les estimations pour tous les types de transactions de projet avec des tâches planifiées. |
 
-### <a name="entity-projectaccountingcubeprojects"></a>Entité : ProjectAccountingCube_Projects
+### <a name="entity-projectaccountingcubeprojects"></a>Entité : ProjectAccountingCube\_Projects
 **Source de données :** Project
 
-| Mesure globale clé    | Champ | Description | 
+| Mesure globale clé    | Champ | Description  |
 |------------------------------|-------|-------------|
-| Indice de performances des coûts       | ProjectAccountingCube_Projects[Valeur gagnée] / ProjectAccountingCube_Projects[Coût réel total des tâches terminées] | Calcul de la valeur gagnée totale divisée par le coût réel total. |
-| Indice de performances de l'échéancier   | ProjectAccountingCube_Projects[Valeur gagnée] / ProjectAccountingCube_Projects[Coût prévisionnel total des tâches terminées] | Calcul de la valeur gagnée totale divisée par le coût prévu total. |
-| Pourcentage de travail terminé | Pourcentage de travail terminé = ProjectAccountingCube_Projects[Coût réel total des tâches terminées] / ProjectAccountingCube_Projects[Coût réel total des tâches terminées] + ProjectAccountingCube_Projects[Coût prévisionnel total du projet] - ProjectAccountingCube_Projects [Coût prévisionnel total des tâches terminées]) | Pourcentage total de travail terminé basé sur le coût réel total des tâches terminées et le coût prévisionnel du projet. |
-| Taux d'heures facturables réelles  | ProjectAccountingCube_Projects [Heures utilisées facturables réelles totales du projet /(ProjectAccountingCube_Projects [Heures utilisées facturables réelles totales du projet] + ProjectAccountingCube_Projects [Heures non facturables réelles totales du projet]) | Le nombre total d'heures facturables réelles, en fonction des heures d'utilisation et des heures de charge. |
-| Valeur gagnée                 | ProjectAccountingCube_Projects[Coût prévisionnel total du projet] * ProjectAccountingCube_Projects[Pourcentage de travail terminé] | Coût prévisionnel total multiplié par le pourcentage de travail terminé. |
+| Indice de performances des coûts       | ProjectAccountingCube\_Projects[Valeur gagnée] ÷ ProjectAccountingCube\_Projects[Coût réel total des tâches terminées] | Calcul de la valeur gagnée totale divisée par le coût réel total. |
+| Indice de performances de l'échéancier   | ProjectAccountingCube\_Projects[Valeur gagnée] ÷ ProjectAccountingCube\_Projects[Coût prévisionnel total des tâches terminées] | Calcul de la valeur gagnée totale divisée par le coût prévu total. |
+| Pourcentage de travail terminé | Pourcentage de travail terminé = ProjectAccountingCube\_Projects[Coût réel total des tâches terminées] ÷ (ProjectAccountingCube\_Projects[Coût réel total des tâches terminées] + ProjectAccountingCube\_Projects[Coût prévisionnel total du projet] – ProjectAccountingCube\_Projects[Coût prévisionnel total des tâches terminées]) | Pourcentage total de travail terminé basé sur le coût réel total des tâches terminées et le coût prévisionnel du projet. |
+| Taux d'heures facturables réelles  | ProjectAccountingCube\_Projects[Heures utilisées facturables réelles totales du projet] ÷(ProjectAccountingCube\_Projects[Heures utilisées facturables réelles totales du projet] + ProjectAccountingCube\_Projects[Heures non facturables réelles totales du projet]) | Le nombre total d'heures facturables réelles, en fonction des heures d'utilisation et des heures de charge. |
+| Valeur gagnée                 | ProjectAccountingCube\_Projects[Coût prévisionnel total du projet] × ProjectAccountingCube\_Projects[Pourcentage de travail terminé] | Coût prévisionnel total multiplié par le pourcentage de travail terminé. |
 
-### <a name="entity-projectaccountingcubetotalestimatedcosts"></a>Entité : ProjectAccountingCube_TotalEstimatedCosts 
+### <a name="entity-projectaccountingcubetotalestimatedcosts"></a>Entité : ProjectAccountingCube\_TotalEstimatedCosts 
 **Source de données :** ProjTable
 
-| Mesure globale clé       | Champ               | Description | 
+| Mesure globale clé       | Champ               | Description |
 |---------------------------------|---------------------|-------------|
 | Coût prévisionnel de l'activité terminée | Sum(TotalCostPrice) | Prix de revient total pour les estimations pour tous les types de transactions de projet avec des tâches terminées. |
 

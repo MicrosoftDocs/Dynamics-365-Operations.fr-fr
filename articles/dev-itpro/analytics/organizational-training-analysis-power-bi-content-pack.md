@@ -1,9 +1,9 @@
 ---
 title: Contenu Power BI Formation dans l'organisation
-description: "Cette rubrique décrit le contenu Power BI Formation dans l'organisation dans Finance and Operations. Elle explique également comment accéder au pack de contenu, et décrit le modèle de données et les entités qui permettent de créer le pack de contenu."
+description: "Cette rubrique décrit le contenu Power BI Formation dans l'organisation dans Finance and Operations."
 author: jcart1106
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e49d9af8b8bd8d5edb977c49742861199c6964fd
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 1e26785b658815fcc5026d73e4d8cfe39bd246c3
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -30,12 +30,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Cette rubrique décrit le contenu Power BI Formation dans l'organisation dans Finance and Operations. Elle explique également comment accéder au pack de contenu, et décrit le modèle de données et les entités qui permettent de créer le pack de contenu.
-
-<a name="accessing-the-content-pack"></a>Accès au pack de contenu
---------------------------
-
-Vous trouverez le pack de contenu Formation dans l'organisation dans la bibliothèque Actifs partagés de Microsoft Dynamics Lifecycle Services (LCS). Pour savoir comment télécharger le pack de contenu et le connecter à vos données Microsoft Dynamics 365 for Finance and Operations, voir [Contenu Power BI dans LCS de Microsoft et de vos partenaires](power-bi-content-microsoft-partners.md).
+Cette rubrique décrit le contenu Power BI Formation dans l'organisation dans Finance and Operations. 
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>États inclus dans le pack de contenu
 Après avoir connecté le pack de contenu à vos données Finance and Operations, les données de votre organisation s'affichent dans les états. Si vous n'avez jamais utilisé Microsoft Power BI auparavant, consultez la [Page d'apprentissage guidé pour Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData) pour en savoir plus. Les états inclus dans le pack de contenu contiennent des graphiques et des tables qui fournissent des informations supplémentaires. Le tableau suivant décrit ces états.
@@ -65,16 +60,6 @@ Les données Finance and Operations sont utilisées pour remplir les états du p
 | Training\_Position        | Poste, fonction et équivalent du temps plein                  | Training\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
 | Training\_WorkerName      | Prénom, nom et nom complet                             | Training\_CourseAttendees                                                                                                                                                                          |
 | Training\_WorkerTitle     | Titre et date d'ancienneté                                         | Training\_CourseAttendees                                                                                                                                                                          |
-
-Ces entités ont été utilisées pour créer des mesures calculées dans le modèle de données. Ces entités calculées sont ensuite utilisées pour calculer les indicateurs de performance clés (KPI) et les états utilisés dans le pack de contenu. Si vous souhaitez inclure des calculs supplémentaires dans vos rapports et tableaux de bord, vous pouvez télécharger et modifier le fichier Training.pbix de LCS. Ce fichier est le modèle de données par défaut utilisé pour créer le pack de contenu. Une fois que vous avez apporté vos modifications, vous pouvez créer un pack de contenu et un tableau de bord de l'organisation contenant les informations que vous avez ajoutées.
-
-## <a name="additional-resources"></a>Ressources supplémentaires
-Voici quelques liens utiles liés aux entités et à la création du contenu Power BI :
-
--   [Entités de données](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/)
--   [Création de packs de contenu d'organisation](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
--   [Modélisation de données à l'aide de Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
--   [Ajout de vignettes Power BI aux espaces de travail](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/07/06/pinning-power-bi-reports-to-dynamics-ax-client/)
 
 
 

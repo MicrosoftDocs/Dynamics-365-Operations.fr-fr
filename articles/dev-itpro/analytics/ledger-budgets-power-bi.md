@@ -3,7 +3,7 @@ title: "Contenu Power BI Comparatif Réel/Budget"
 description: "Cette rubrique décrit le contenu Power BI Comparatif Réel/Budget. Elle explique également comment accéder aux états inclus dans le contenu, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu."
 author: ryansandness
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: ryansand
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 2a0ad5af4e4d7da09690331dc9d1a51d2e97a664
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: fa0c56f4773b9062d616772e2bca9a576ad37ce2
 ms.contentlocale: fr-fr
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -48,10 +48,6 @@ Le tableau suivant fournit des détails sur les mesures disponibles sur chaque p
 | Produit                     | <ul><li>Produit total de cette année</li><li>Objectif des produits basés sur le budget </li><ul> |
 | Revenu net                  | <ul><li>Revenu net de cette année</li><li>Objectif du revenu net basé sur le budget </li><ul> |
 
-## <a name="extending-the-power-bi-content"></a>Extension du contenu Power BI
-Grâce aux packs de contenu disponibles dans Microsoft Dynamics Lifecycle Services (LCS), vous pouvez fournir une analyse approfondie aux personnes qui ne se connectent pas à Microsoft Dynamics 365. Vous pouvez modifier ces packs de contenu pour qu'ils permettent d'inclure d'autres rapports ou visuels, et de publier les packs de contenu via votre locataire Power BI.com pour analyse. 
-
-Le contenu Power BI **Comparatif Réel/Budget** se trouve dans la bibliothèque de ressources partagées dans LCS. Pour savoir comment télécharger le contenu et l'implémenter dans votre organisation, voir [Contenu Power BI dans LCS de Microsoft et de vos partenaires](power-bi-content-microsoft-partners.md). Pour visionner une démonstration sur l'implémentation du contenu Power BI, voir la présentation Office Mix [Contenu Power BI de Microsoft et de vos partenaires dans Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.
 
 # <a name="understanding-the-data-model-and-entities"></a>Compréhension du modèle de données et des entités
 

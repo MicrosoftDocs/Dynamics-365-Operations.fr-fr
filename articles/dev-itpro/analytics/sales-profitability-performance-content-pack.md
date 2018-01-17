@@ -3,7 +3,7 @@ title: "Contenu Power BI des performances de rentabilité et de vente"
 description: "Cette rubrique décrit ce qui est inclus dans le contenu Power BI des performances de rentabilité et de vente. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: c065eb2f19bbbd553e070f06c29f73114e3efad5
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: 55699cb41c712b49954f9ad6b03c2e7813a3a98a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -76,15 +76,6 @@ Le contenu Power BI **Performances de rentabilité et de vente** comprend un ét
 
 \* Produit cette année et l'année dernière, et croissance par catégorie de vente.
 
-## <a name="extending-the-power-bi-content"></a>Extension du contenu Power BI
-Grâce aux packs de contenu disponibles dans Microsoft Dynamics Lifecycle Services (LCS), vous pouvez fournir une analyse approfondie aux personnes qui ne se connectent pas à Microsoft Dynamics 365. Vous pouvez modifier ces packs de contenu pour qu'ils permettent d'inclure d'autres rapports ou visuels, et de publier les packs de contenu via votre locataire Power BI.com pour analyse.
-
-Le contenu Power BI **Performances de rentabilité et de vente** se trouve dans la bibliothèque de ressources partagées dans LCS. Pour savoir comment télécharger le contenu et l'implémenter dans votre organisation, voir [Contenu Power BI dans LCS de Microsoft et de vos partenaires](power-bi-content-microsoft-partners.md). Pour visionner une démonstration sur l'implémentation du contenu Power BI, voir la présentation Office Mix [Contenu Power BI de Microsoft et de vos partenaires dans Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.
-
-Veillez à télécharger le contenu **Performances de rentabilité et de vente** qui s'applique à la version de Dynamics 365 que vous utilisez.
-
-> [!NOTE]
-> Si vous utilisez la version 1611 de Microsoft Dynamics 365 for Operations, le KB 4011327 doit être consulté au préalable pour ce contenu Power BI. Une fois que vous êtes connecté à LCS, vous pouvez accéder à la Base de connaissances à l'adresse https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Compréhension du modèle de données et des entités
 Les données suivantes sont utilisées pour remplir les pages d'état dans le contenu Power BI **Performances de rentabilité et de vente**. Ces données sont représentées sous la forme de mesures globales indexées dans le magasin des entités. Le magasin des entités est une base de données Microsoft SQL Server optimisée pour les analyses. Pour plus d'informations, voir [Vue d'ensemble de l'intégration de Power BI au magasin d'entité](power-bi-integration-entity-store.md) 

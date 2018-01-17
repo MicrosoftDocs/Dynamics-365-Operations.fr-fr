@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 80853a06e599786e2dcaf049ac733c47dfe4d9a5
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: ce9bc42751cf0f537a0ddb5069aca7c9779a6bb1
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -43,11 +43,12 @@ Les types de workflows suivants sont disponibles pour le module Approvisionnemen
 
 |                                  |                                                               |
 |----------------------------------|---------------------------------------------------------------|
-| **Tapez**                         | **Utilisation**                                          |
-| Révision de la demande d'achat      | Permet de créer des workflows de révision pour les demandes d'achat.            |
-| Analyse de la ligne de demande d'achat | Permet de créer des workflows de révision pour les lignes de demandes d'achat.       |
+| **Type**                         | **Utilisation**                                          |
+| Révision de la demande d'achat      | Permet de créer des workflows de révision et d'approbation pour les demandes d'achat.            |
+| Analyse de la ligne de demande d'achat | Permet de créer des workflows de révision et d'approbation pour les lignes de demande d'achat.       |
 | Workflow de commande fournisseur          | Permet de créer des workflows de révision et d'approbation pour les commandes fournisseur.     |
 | Workflow de ligne de commande fournisseur     | Permet de créer des workflows de révision et d'approbation pour les lignes de commande fournisseur. |
+| Workflow d'application d'ajout de fournisseur  | Permet de créer des workflows de révision et d'approbation pour ajouter de nouveaux fournisseurs via les demandes fournisseur. |
 
 ## <a name="creating-a-workflow"></a>Création d'un workflow
 Pour créer un workflow, accédez à Approvisionnements &gt; Paramétrage &gt; Workflows d'approvisionnement, puis créez un workflow en sélectionnant le type de workflow à créer.  
@@ -71,10 +72,10 @@ Vous pouvez affecter une étape d'approbation aux groupes suivants de participan
 <a name="see-also"></a>Voir également :
 --------
 
-[Defining business process workflows for purchase requisitions](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions) (livre blanc)
+[Définition des flux de travail de processus entreprise pour les demandes d'achat](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions) (livre blanc)
 
-[workflow de demande d'achat](purchase-requisitions-workflow.md)
+[Workflow de demande d'achat](purchase-requisitions-workflow.md)
 
-
+[Intégration des fournisseurs](vendor-onboarding.md)
 
 

@@ -1,9 +1,9 @@
 ---
 title: Contenu Power BI Apprentissage
-description: "Cette rubrique décrit le contenu Power BI Apprentissage. Elle explique également comment accéder aux états, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu."
+description: "Cette rubrique décrit le contenu Power BI Apprentissage."
 author: jcart1106
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: bb4a2d6d725f79fe3f095a37b8a37d47339a7966
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: e5a78812aabaa5c835fe23787a9cbb57d1a7770e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -27,11 +27,7 @@ ms.lasthandoff: 12/01/2017
 
 [!include[banner](../includes/banner.md)]
 
-Cette rubrique décrit le contenu Microsoft Power BI **Apprentissage**. Elle explique également comment accéder au contenu, et décrit le modèle de données et les entités qui permettent de créer le contenu.
-
-## <a name="accessing-the-power-bi-content"></a>Accès au contenu Power BI
-
-Vous trouverez le contenu Power BI **Apprentissage** dans la bibliothèque Actifs partagés de Microsoft Dynamics Lifecycle Services (LCS). Pour savoir comment télécharger le contenu et l'implémenter dans votre organisation, voir [Contenu Power BI dans LCS de Microsoft et de vos partenaires](power-bi-content-microsoft-partners.md). Pour visionner une démonstration sur l'implémentation du contenu Power BI, voir la présentation Office Mix [Contenu Power BI de Microsoft et de vos partenaires dans Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.
+Cette rubrique décrit le contenu Microsoft Power BI **Apprentissage**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>États inclus dans le contenu Power BI
 
@@ -69,5 +65,5 @@ Les données suivantes sont utilisées pour remplir les états dans le contenu P
 | Nom de l'employé    | Prénom, nom et nom complet                             | Participants aux cours |
 | Titre de l'employé   | Titre et date d'ancienneté                                         | Participants aux cours |
 
-Ces entités ont été utilisées pour créer des mesures calculées dans le modèle de données. Ces entités calculées sont ensuite utilisées pour calculer les indicateurs de performance clés (KPI) et les états utilisés dans le contenu. Si vous souhaitez inclure des calculs supplémentaires dans vos rapports et tableaux de bord, vous pouvez télécharger et modifier le fichier .pbix de LCS. Ce fichier est le modèle de données par défaut utilisé pour créer le contenu. Une fois que vous avez apporté vos modifications, vous pouvez créer un pack de contenu et un tableau de bord de l'organisation contenant les informations que vous avez ajoutées.
+
 
