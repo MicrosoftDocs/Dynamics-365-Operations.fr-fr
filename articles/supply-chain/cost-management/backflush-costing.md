@@ -17,7 +17,7 @@ ms.assetid: 62a2a7da-ff79-49bf-a6e8-29460ba5252f
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: conradv
-ms.dyn365.ops.intro: Version 1611
+ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
 ms.sourcegitcommit: 04d459a2fd0fdf9c201d9e96b37234846eb9ccf0

@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: YuyuScheller
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -23,14 +23,14 @@ ms.contentlocale: fr-fr
 ms.lasthandoff: 11/06/2017
 
 ---
-# Ajuster les niveaux des stocks dans l'entrepôt (entreposage de base)
+# <a name="adjust-stock-levels-in-the-warehouse-basic-warehousing"></a>Ajuster les niveaux des stocks dans l'entrepôt (entreposage de base)
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure vous accompagne au long du processus de création et de validation d'un journal d'ajustement du stock afin d'ajuster les niveaux de stock des produits dans l'entrepôt. Avant de commencer, vous devez avoir configuré un nom de journal de stock pour les ajustements du stock. Vous pouvez parcourir cette procédure dans la société fictive USMF ou utiliser vos propres données. Ces tâches sont normalement effectuées par un employé de l'entrepôt.
 
 
-## Créer un journal d'ajustement du stock
+## <a name="create-an-inventory-adjustment-journal"></a>Créer un journal d'ajustement du stock
 1. Accédez à Gestion des stocks > Entrées de journal > Articles > Ajustement d'inventaire.
 2. Cliquez sur Nouveau.
 3. Dans le champ Nom, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
@@ -38,7 +38,7 @@ Cette procédure vous accompagne au long du processus de création et de validat
     * Certains autres champs seront remplis en fonction du paramétrage du nom du journal d'ajustement du stock que vous avez sélectionné.  
 5. Cliquez sur OK.
 
-## Créer des lignes de journal
+## <a name="create-journal-lines"></a>Créer des lignes de journal
 1. Cliquez sur Nouveau.
 2. Dans la liste, marquez le champ Numéro d'article.
 3. Dans le champ Numéro d'article, sélectionnez un article. Si vous utilisez les données de démonstration de la société USMF, entrez « D0001 ».
@@ -50,7 +50,7 @@ Cette procédure vous accompagne au long du processus de création et de validat
 8. Dans le champ Quantité, entrer un numéro.
     * Le champ Prix de revient permet de spécifier le coût unitaire des réceptions de stock. Si le coût n'est pas spécifié pour le numéro d'article ou si vous souhaitez le modifier manuellement, vous pouvez le faire ici.  
 
-## Contrôler et valider le journal d'ajustement du stock
+## <a name="validate-and-post-the-inventory-adjustment-journal"></a>Contrôler et valider le journal d'ajustement du stock
 1. Cliquez sur Valider.
 2. Cliquez sur OK.
 3. Cliquez sur Valider.
