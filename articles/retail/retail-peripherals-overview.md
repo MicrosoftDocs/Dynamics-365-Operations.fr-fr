@@ -7,6 +7,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
 ms.technology: 
+ms.search.form: RetailTerminalTable, RetailDevice, RetailHardwareProfile
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -17,10 +18,10 @@ ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 52b3e2e78a03ac67507ee65a03e0884e5ed44678
-ms.openlocfilehash: 347100651302bb97806783d00559f2396d031fcc
+ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
+ms.openlocfilehash: 7573a81916a60c18ae6ca4a2fdfc60bc2e641319
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 
@@ -724,7 +725,7 @@ ms.lasthandoff: 11/14/2017
 
 ### <a name="shared-iis-hardware-station"></a><span data-ttu-id="d1974-859">Station matérielle IIS partagée</span><span class="sxs-lookup"><span data-stu-id="d1974-859">Shared IIS hardware station</span></span>
 
-<span data-ttu-id="d1974-860">Les périphériques suivants ont été testés à l'aide d'une station matérielle IIS partagée, associée à Modern POS pour Windows et Cloud POS.</span><span class="sxs-lookup"><span data-stu-id="d1974-860">The following peripherals were tested by using a shared IIS hardware station together with Modern POS for Windows and Cloud POS.</span></span> <span data-ttu-id="d1974-861">**Remarque :*** Seuls une imprimante, un terminal de paiement et un tiroir-caisse sont pris en charge.</span><span class="sxs-lookup"><span data-stu-id="d1974-861">**Note:** Only a printer, payment terminal, and cash drawer are supported.</span></span>
+<span data-ttu-id="d1974-860">Les périphériques suivants ont été testés à l'aide d'une station matérielle IIS partagée, associée à Modern POS pour Windows et Cloud POS.</span><span class="sxs-lookup"><span data-stu-id="d1974-860">The following peripherals were tested by using a shared IIS hardware station together with Modern POS for Windows and Cloud POS.</span></span> <span data-ttu-id="d1974-861">**Remarque :**\* Seuls une imprimante, un terminal de paiement et un tiroir-caisse sont pris en charge.</span><span class="sxs-lookup"><span data-stu-id="d1974-861">**Note:** Only a printer, payment terminal, and cash drawer are supported.</span></span>
 
 #### <a name="printer"></a><span data-ttu-id="d1974-862">Imprimante</span><span class="sxs-lookup"><span data-stu-id="d1974-862">Printer</span></span>
 
