@@ -3,11 +3,12 @@ title: "Comptes de contrepartie par défaut pour les journaux de facture fournis
 description: "Cette rubrique vous aide à décider où affecter les comptes par défaut pour les journaux des factures."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 10/25/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerJournalTable
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

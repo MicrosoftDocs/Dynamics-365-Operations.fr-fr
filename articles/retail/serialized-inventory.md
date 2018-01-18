@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-ax-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: josaw
@@ -17,10 +17,10 @@ ms.author: shajain
 ms.search.validFrom: 2017-08-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 214452d0f40265c0ed9fac7a74844ad89782257d
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: 83c2ce79f5bef058f55af0ecf498b207efc0507a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -41,4 +41,5 @@ En fonction des paramètres de Retail Headquarters, les produits peuvent être c
     
 - **Les numéros de série ne sont pas obligatoires pour passer des commandes client** – Les commandes client peuvent être passées dans un magasin et exécutées par un autre. Un caissier qui passe une commande client n'a pas à fournir de numéro de série. Le numéro de série devra être fourni au cours de l'étape de prélèvement. Toutefois, un numéro de série doit être indiqué pour toutes les lignes si le type de livraison **Exécuter** est sélectionné. Sinon, la transaction ne peut pas être effectuée.    
 - **Les produits sérialisés ne sont pas regroupés dans l'écran de transaction** – Le paramètre **Regrouper des produits** dans le groupe de champs **Terminal** sur la page **Profil de la fonctionnalité** vous permet de regrouper les mêmes produits non sérialisés dans l'écran de transaction. Lorsque les mêmes produits sont regroupés, il est plus simple de les afficher dans la grille de transaction. Toutefois, comme les numéros de série sont généralement uniques et que les chargés de vente ne doivent pas saisir de numéro de série avant l'extraction, le paramètre **Regrouper des produits** ne s'applique pas aux produits sérialisés. Par conséquent, les produits sérialisés ne sont pas regroupés dans l'écran de transaction si le paramètre **Regrouper des produits** est sélectionné.
+- **Possibilité de rechercher les journaux par numéro de série** - Les journaux peuvent aussi faire l'objet d'une recherche par numéro de série. Pour ce faire, ouvrez l'opération « Journaux » et appuyez sur le bouton « Recherche avancée » dans la barre d'application. À l'aide du bouton « Ajouter un filtre », un filtre peut être appliqué pour rechercher aussi les numéros de série.
 

@@ -3,11 +3,12 @@ title: Vue d'ensemble de la planification de budget
 description: "Cet article présente la planification budgétaire et contient des informations qui vous aident à configurer la planification budgétaire et à paramétrer ses processus."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BudgetPlanningConfiguration
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

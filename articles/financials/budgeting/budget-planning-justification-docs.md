@@ -3,11 +3,12 @@ title: "Documents justificatifs de planification budgétaire"
 description: "Les documents justificatifs fournissent des informations narratives pour ceux qui demandent un budget pour expliquer pourquoi un budget spécifique est nécessaire."
 author: ryansandness
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BudgetPlanJustificationTemplate
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

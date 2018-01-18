@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: YuyuScheller
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -23,14 +23,14 @@ ms.contentlocale: fr-fr
 ms.lasthandoff: 11/06/2017
 
 ---
-# Vérifier la disponibilité du stock
+# <a name="check-the-availability-of-stock"></a>Vérifier la disponibilité du stock
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure vous indique comment contrôler le stock physique disponible pour un article spécifique. Elle vous indique également comment obtenir des informations d'approvisionnement associées à un article. Le stock physique disponible représente le stock disponible (c'est-à-dire tout ce qui est acheté, reçu et enregistré). Le stock disponible inclut le stock disponible, mais également le stock commandé et prévu, mais pas encore reçu ou enregistré. Vous pouvez parcourir cette procédure dans la société fictive USMF ou utiliser vos propres données. Si vous utilisez USMF, vous pouvez utiliser les valeurs des exemples affichées. Ces tâches sont généralement effectuées par un magasinier.
 
 
-## Vérifier un article dans le stock disponible
+## <a name="check-on-hand-inventory-for-an-item"></a>Vérifier un article dans le stock disponible
 1. Accédez à Gestion des stocks > Recherches et états > Stock disponible.
 2. Sélectionnez la ligne Numéro d'article.
     * Pour rechercher le stock disponible par numéro d'article, sélectionnez la ligne où Tableau est défini sur Stock disponible et Champ est défini sur Numéro d'article.  
@@ -49,7 +49,7 @@ Cette procédure vous indique comment contrôler le stock physique disponible po
 11. Fermez la page.
 12. Fermez la page.
 
-## Vérifier le stock physique disponible
+## <a name="check-physical-on-hand-inventory"></a>Vérifier le stock physique disponible
 1. Accédez à Gestion des entrepôts > Recherches et états > Stock physique disponible.
 2. Tapez une valeur dans le champ Numéro d'article.
     * Vous pouvez utiliser les champs Site et Entrepôt pour filtrer la liste des articles.  
@@ -59,7 +59,7 @@ Cette procédure vous indique comment contrôler le stock physique disponible po
 5. Cliquez sur OK.
 6. Fermez la page.
 
-## Vérifier le stock disponible par emplacement
+## <a name="check-on-hand-inventory-by-location"></a>Vérifier le stock disponible par emplacement
 1. Accédez à Gestion des entrepôts > Recherches et états > Disponible par emplacement.
 2. Tapez une valeur dans le champ Entrepôts.
     * Si vous utilisez la société fictive USMF, vous pouvez utiliser 51.  

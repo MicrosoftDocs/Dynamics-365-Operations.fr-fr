@@ -3,16 +3,17 @@ title: "Dépenses intersociétés"
 description: "Un travailleur qui est employé par une seule entité juridique au sein d'une organisation peut travailler pour une autre entité juridique au sein de la même organisation. Dans ce cas, vous pouvez utiliser la fonctionnalité de dépense intersociétés pour affecter les dépenses du travailleur à l'entité juridique pour laquelle le travail a été effectué."
 author: saraschi2
 manager: AnnBe
-ms.date: 09/19/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: TrvParameters
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: saraschi2
+ms.author: saraschi
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd

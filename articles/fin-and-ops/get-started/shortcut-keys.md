@@ -3,7 +3,7 @@ title: Raccourcis clavier
 description: "Les raccourcis clavier suivants s'appliquent à l'ensemble de Dynamics 365 for Finance and Operations, Enterprise edition."
 author: jasongre
 manager: AnnBe
-ms.date: 10/10/2017
+ms.date: 12/12/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7a828090fa34eb96d2b557eb06e48ad05b421ae8
-ms.openlocfilehash: 8e87721af34e1527d1d8eb254f0443e37d137730
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: 8bf0f44583d183d992547c773f2cf7a8ac1db5fc
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/20/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -34,7 +34,7 @@ Les raccourcis clavier suivants s'appliquent à l'ensemble de Dynamics 365 for F
 
 **Remarque :** les raccourcis clavier décrits ici font référence au type de clavier en usage aux États-Unis. Il se peut que les touches des autres types de claviers ne correspondent pas exactement aux touches des claviers en usage aux États-Unis.
 
-## <a name="finding-a-shorcut"></a>Recherche d'un raccourci
+## <a name="finding-a-shortcut"></a>Recherche d'un raccourci
 À partir de la mise à jour 11 de la plateforme, les utilisateurs peuvent découvrir les raccourcis actuellement disponibles directement à partir de l'interface utilisateur. Cliquez simplement avec le bouton droit sur un contrôle et sélectionnez **Afficher les raccourcis**. Une boîte de dialogue s'ouvre pour afficher les raccourcis que vous pouvez utiliser en fonction de là où vous êtes sur la page. 
 
 
@@ -143,6 +143,9 @@ Les raccourcis clavier suivants s'appliquent à l'ensemble de Dynamics 365 for F
 | Accéder au premier enregistrement                                                                                               | Ctrl + Début                       |
 | Accéder au dernier enregistrement                                                                                                | Ctrl + Fin                        |
 | Exécuter l'action par défaut dans une grille<br><br>**Remarque :** Ce raccourci est activé lorsque le focus est sur une cellule contenant un lien hypertexte et que toutes les cellules de cette colonne ont des liens hypertexte.                 | Entrer                           |
+| Basculer la vue entre la ligne sélectionnée et la ligne d'en-tête                                                               | Alt+Maj+H                     |
+| Agrandir/réduire la colonne active (avec le focus sur la ligne d'en-tête)                                                  | Flèche droite/Flèche gauche        |
+| Ouvrir le filtrage de grille pour la colonne active (avec le focus sur la ligne d'en-tête)                                              | Entrer                           |
 
 ## <a name="input-control-shortcuts"></a>Raccourcis de contrôle d'entrée
 |                                                                              |                               |

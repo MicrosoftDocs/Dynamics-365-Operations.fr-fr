@@ -3,7 +3,7 @@ title: "Réinitialiser le mini-data warehouse d'états financiers"
 description: "Cette rubrique décrit la procédure de réinitialisation du mini-data warehouse d'états financiers."
 author: aolson
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/11/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,10 +17,10 @@ ms.author: aloson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 0786d3377b914791106ef30455d676e5ab2ae03d
-ms.openlocfilehash: c708fa18b8676d8ff57c26b3176a36d86df29387
+ms.sourcegitcommit: 5b956dcc5a4a93033396ae0ffcf8b7aeba2cf3f2
+ms.openlocfilehash: a07e8b5bae2c4f71e9212cd2f8080d2481769818
 ms.contentlocale: fr-fr
-ms.lasthandoff: 12/07/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -34,7 +34,7 @@ Cette rubrique explique la procédure de réinitialisation du mini-data warehous
 - Version 7.0.10000.4 et ultérieure de Microsoft Dynamics 365 for Finance and Operations Financial Reporting
 - Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (local)
 
-Pour obtenir la version 7.2.6.0 de Finance and Operations Financial Reporting, vous pouvez télécharger l'article KB 4052514 à l'adresse <https://support.microsoft.com/en-us/help/4052514>.
+Pour obtenir la version 7.2.6.0 de Finance and Operations Financial Reporting, vous pouvez télécharger l'article KB 4052514 à l'adresse <https://fix.lcs.dynamics.com/Issue/Resolved?kb=4052514>.
 
 ## <a name="reset-the-financial-reporting-data-mart-for-finance-and-operations-financial-reporting-release-7260-and-later"></a>Réinitialiser le mini-data warehouse d'états financiers pour la version 7.2.6.0 et ultérieure de Finance and Operations Financial Reporting
 
@@ -55,7 +55,7 @@ La réinitialisation du mini-data warehouse doit être effectuée uniquement à 
 
 Pour réinitialiser le mini-data warehouse, dans le concepteur d'états, dans le menu **Outils**, sélectionnez **Réinitialiser le mini-data warehouse**. La boîte de dialogue qui s'affiche comporte deux sections : **Statistiques** et **Réinitialiser**.
 
-[![Boîte de dialogue Réinitialiser le mini-data warehouse](./media/Statistics.png)](./media/Statistics.png)
+[![Boîte de dialogue Réinitialiser le mini-data warehouse](./media/Reset-72.jpg)](./media/Reset-72.jpg)
 
 ##### <a name="integration-attempts"></a>Tentatives d'intégration
 
@@ -83,8 +83,10 @@ Si vous déterminez qu'une réinitialisation du mini-data warehouse est nécessa
 - **Restaurer la base de données** – La base de données Finance and Operations a été restaurée, mais pas celle du mini-data warehouse d'états financiers.
 - **Autre** – Vous réinitialisez le mini-data warehouse pour un autre motif. Si vous êtes préoccupé par un problème, contactez le support technique pour l'identifier.
 
+[![Réinitialiser le mini-data warehouse](./media/Integration.png)](./media/Integration.png)
+
 > [!NOTE]
-> Vérifiez que l'intégration de toutes les tâches existantes est terminée avant d'effectuer les étapes. Vous pouvez afficher le statut de l'intégration en sélectionnant **Outils** &gt; **Statut de l'intégration**.
+> Vérifiez que le chargement initial de toutes les tâches de réinitialisation du mini-data est terminé avant de commencer la réinitialisation. Pour ce faire, recherchez une valeur dans la colonne Heure de la dernière exécution sous **Outils** &gt; **Statut de l'intégration**.
 
 #### <a name="clear-users-and-companies"></a>Effacer les utilisateurs et les sociétés
 
@@ -94,7 +96,10 @@ Lorsque vous êtes prêt à démarrer le processus de réinitialisation, sélect
 
 Si vous souhaitez examiner le statut de l'intégration, sélectionnez &gt; **Outils** **Statut de l'intégration** pour afficher la dernière date d'exécution de l'intégration et le statut.
 
-[![Afficher le statut de l'intégration](./media/Integration.png)](./media/Integration.png)
+[![Afficher le statut de l'intégration](./media/New-integration.PNG)](./media/New-integration.PNG)
+
+> [!NOTE]
+> La réinitialisation est terminée lorsque toutes les mises en correspondance affichent le statut RanToCompletion et que la fenêtre Statut de l'intégration indique « Intégration terminée » dans le coin inférieur gauche.
 
 ## <a name="reset-the-financial-reporting-data-mart-for-finance-and-operations-financial-reporting-release-70100004-and-later"></a>Réinitialiser le mini-data warehouse d'états financiers pour la version 7.0.10000.4 et ultérieure de Finance and Operations Financial Reporting
 
@@ -142,7 +147,9 @@ Les services Microsoft Windows suivants maintiendront les connexions ouvertes da
 
 #### <a name="download-the-latest-minorversiondataupgradezip-package"></a>Télécharger le package MinorVersionDataUpgrade.zip le plus récent
 
-Téléchargez le package MinorVersionDataUpgrade.zip le plus récent. Pour obtenir des instructions sur la recherche et le téléchargement de la version correcte du package de mise à niveau des données, voir [Télécharger le dernier package déployable de mise à niveau des données](..\migration-upgrade\upgrade-data-to-latest-update.md#download-the-latest-data-upgrade-deployable-packages). Une mise à niveau n'est pas nécessaire pour télécharger le package MinorVersionDataUpgrade.zip. Par conséquent, vous devez simplement suivre les étapes décrites dans la section « Télécharger le dernier package déployable de mise à niveau des données » de cette rubrique. Vous pouvez ignorer toutes les autres étapes de la rubrique.
+Téléchargez le package MinorVersionDataUpgrade.zip le plus récent. Pour obtenir des instructions sur la recherche et le téléchargement de la version correcte du package de mise à niveau des données, voir [Télécharger le dernier package déployable de mise à niveau des données](..\migration-upgrade\upgrade-data-to-latest-update.md#download-the-latest-data-upgrade-deployable-package). 
+
+Une mise à niveau n'est pas nécessaire pour télécharger le package MinorVersionDataUpgrade.zip. Par conséquent, vous devez simplement suivre les étapes décrites dans la section « Télécharger le dernier package déployable de mise à niveau des données » de cette rubrique. Vous pouvez ignorer toutes les autres étapes de la rubrique.
 
 #### <a name="run-scripts-against-the-finance-and-operations-database"></a>Exécuter les scripts sur la base de données Finance and Operations
 

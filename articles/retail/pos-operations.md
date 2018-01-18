@@ -19,10 +19,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 02d777da3b97706f9e63478a1978ac9b230a591e
+ms.sourcegitcommit: 8e294f71355219890ac6f807094a930ac2acc279
+ms.openlocfilehash: 41dc188138436947c4bf7eaf074ef704c201e0cf
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -104,6 +104,7 @@ Les colonnes suivantes indiquent où les opérations peuvent être invoquées :
 | 521 | Solde de points de la carte de fidélité | Permet d'afficher le solde de points de la carte de fidélité spécifiée. | Oui | Oui | N° | N° | N° |
 | 914 | Réduire la fenêtre du PDV | Cette opération n'est pas prise en charge. | Non applicable | Non applicable | Non applicable | Non applicable | N° |
 | 1 000 | Ouvrir tiroir-caisse | Permet d'exécuter une opération sans vente, puis d'ouvrir le tiroir-caisse actuellement sélectionné. | Oui | Oui | Oui | Oui | N° |
+| 928 | Exécution de l'ordre | Cette opération permet aux utilisateurs de prélever, emballer, expédier ou rappeler des commandes pour un retrait en magasin. | Oui | Oui | Oui | N° | N° |
 | 129 | Remplacer la taxe sur le produit de la ligne | Permet de remplacer la taxe spécifiée par une autre sur la ligne sélectionnée. | Oui | Oui | N° | Oui | N° |
 | 130 | Remplacer la taxe sur le produit de la ligne de la liste | Permet de remplacer la taxe sur la ligne sélectionnée par la taxe sélectionnée dans une liste par l'utilisateur. | Oui | Oui | N° | Oui | N° |
 | 127 | Remplacer la taxe sur les transactions | Permet de remplacer la taxe spécifiée sur la transaction par une autre. | Oui | Oui | N° | Oui | N° |

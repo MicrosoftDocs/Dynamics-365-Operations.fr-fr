@@ -3,7 +3,7 @@ title: Contenu Power BI pour les performances de production
 description: "Cette rubrique décrit ce qui est inclus dans le contenu Power BI Performances de production. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu."
 author: AndersGirke
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -16,10 +16,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 898a1a513850024fd0164955bdd204ee4b08c632
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 592514e9ef8b0ec1e3bacda0f26d5991da88449e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -59,15 +59,6 @@ Le tableau suivant offre une vue d'ensemble des visualisations incluses.
 | Tendance des défauts par ressource                  | Taux de défectuosité (ppm) par quantité traitée | |
 | Écarts de production pour le coût de revient par commande | <ul><li>Écart de production par date et type de groupe de coûts</li><li>Écart de production par site et type de groupe de coûts</li><li>10 premiers produits avec un écart de production défavorable</li><li>10 premiers produits avec un écart de production défavorable par ressource</li></ul> | <ul><li>Coût réalisé</li><li>Écart de production</li><li>Pourcentage d'écart de production</li></ul> |
 
-## <a name="extending-the-power-bi-content"></a>Extension du contenu Power BI
-Grâce aux packs de contenu disponibles dans Microsoft Dynamics Lifecycle Services (LCS), vous pouvez fournir une analyse approfondie aux personnes qui ne se connectent pas à Microsoft Dynamics 365. Vous pouvez modifier ces packs de contenu pour qu'ils permettent d'inclure d'autres rapports ou visuels, et de publier les packs de contenu via votre locataire Power BI.com pour analyse.
-
-Le contenu Power BI **Performances de production** se trouve dans la bibliothèque de ressources partagées dans LCS. Pour savoir comment télécharger le contenu et l'implémenter dans votre organisation, voir [Contenu Power BI dans LCS de Microsoft et de vos partenaires](power-bi-content-microsoft-partners.md). Pour visionner une démonstration sur l'implémentation du contenu Power BI, voir la présentation Office Mix [Contenu Power BI de Microsoft et de vos partenaires dans Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.
-
-Veillez à télécharger le contenu **Performances de production** qui s'applique à la version de Dynamics 365 que vous utilisez.
-
-> [!NOTE]
-> Si vous utilisez la version 1611 de Microsoft Dynamics 365 for Operations, le KB 4011327 doit être consulté au préalable pour ce contenu Power BI. Une fois que vous êtes connecté à LCS, vous pouvez accéder à la Base de connaissances à l'adresse https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Compréhension du modèle de données et des entités
 
@@ -139,12 +130,5 @@ Le tableau suivant affiche les dimensions clés utilisées comme filtres pour di
 | Ressources                 | ID de ressource, nom de la ressource, type de ressource et groupe de ressources |
 | Produits                  | Numéro de produit, nom du produit, ID d'article et groupe d'articles         |
 
-## <a name="additional-resources"></a>Ressources supplémentaires
 
-Voici quelques liens utiles liés aux entités et à la création du contenu Power BI :
-
-- [Entités de données](../data-entities/data-entities.md)
-- [Création de packs de contenu d'organisation](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
-- [Modélisation de données à l'aide de Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
-- [Ajout de vignettes Power BI aux espaces de travail](configure-power-bi-integration.md)
 

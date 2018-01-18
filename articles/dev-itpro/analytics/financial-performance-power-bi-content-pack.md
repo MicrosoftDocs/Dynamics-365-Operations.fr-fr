@@ -1,9 +1,9 @@
 ---
 title: "Contenu Power BI des performances financières"
-description: "Cette rubrique décrit le contenu Power BI Performances financières. Elle décrit le tableau de bord et les états inclus, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu."
+description: "Cette rubrique décrit le contenu Power BI Performances financières."
 author: kweekley
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 3638f5acf6a05ec419dc4308e861d95f0d7b2cea
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 83ea868e7612f30afa1b99f374878f4ba415113f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -30,21 +30,6 @@ ms.lasthandoff: 12/01/2017
 [!include[banner](../includes/banner.md)]
 
 Cette rubrique décrit le contenu Microsoft Power BI **Performances financières**. Elle décrit le tableau de bord et les états inclus, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
-
-## <a name="accessing-the-power-bi-content"></a>Accès au contenu Power BI
-
-Vous pouvez accéder au contenu Power BI **Performances financières** à partir de Microsoft Dynamics Lifecycle Services (LCS) et de PowerBI.com.
-
-### <a name="available-from-lcs"></a>Disponible à partir de LCS
-Le contenu Power BI **Performances financières** qui est disponible à partir de LCS prend en charge les versions suivantes :
-
-- Microsoft Dynamics 365 for Finance and Operations, versions Enterprise Edition
-- Microsoft Dynamics 365 for Operations version 1611 
-
-Vous pouvez trouver le contenu Power BI dans la bibliothèque Actif partagé dans LCS. Pour savoir comment télécharger le pack de contenu et l'implémenter dans votre organisation, voir [Contenu Power BI dans LCS de Microsoft et de vos partenaires](power-bi-content-microsoft-partners.md). Pour visionner une démonstration sur l'implémentation du contenu Power BI, voir la présentation Office Mix [Contenu Power BI de Microsoft et de vos partenaires dans Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.
-
-### <a name="available-from-powerbicom"></a>Disponible dans PowerBI.com
-Le contenu Power BI **Performances financières** disponible dans PowerBI.com prend en charge les versions 7.0 et 7.0.1 de Microsoft Dynamics AX. Pour plus d'informations sur la procédure de connexion et de chargement de vos données Dynamics AX, voir [Accéder au contenu Power BI depuis PowerBI.com](power-bi-home-page.md).
 
 ## <a name="main-account-setup"></a>Paramétrage des comptes principaux
 Comme les organisations souhaitent que les passifs et les montants du produit apparaissent comme des montants positifs dans les états, le paramétrage des comptes principaux est important. Pour faire apparaître ces comptes principaux comme montants positifs, le type de compte principal doit être défini sur **Passif** ou **Produit**. Lorsque ces types de comptes sont utilisés, la génération d'états via Power BI contrepasse les signes et affiche les montants comme positifs.
@@ -101,5 +86,5 @@ Les entités suivantes ont été utilisées comme base du contenu Power BI **Per
 - Comptabilités
 - ChartofAccounts
 
-Ces entités ont été utilisées pour créer des mesures calculées dans le modèle de données. Les entités calculées sont utilisées pour calculer les indicateurs de performance clés (KPI) et les états utilisés dans le contenu. Par défaut, le contenu fournit des données pour les trois dernières années et une année dans le futur. Pour inclure des calculs supplémentaires dans vos rapports et dans le tableau de bord, vous pouvez modifier le [classeur Microsoft Excel](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). Ce classeur est le modèle de données par défaut utilisé pour créer le contenu. Une fois que vous avez apporté vos modifications, vous pouvez créer un pack de contenu et un tableau de bord de l'organisation contenant les informations que vous avez ajoutées.
+Ces entités ont été utilisées pour créer des mesures calculées dans le modèle de données. Les entités calculées sont utilisées pour calculer les indicateurs de performance clés (KPI) et les états utilisés dans le contenu. Par défaut, le contenu fournit des données pour les trois dernières années et une année dans le futur. Pour inclure des calculs supplémentaires dans vos rapports et dans le tableau de bord, vous pouvez modifier le [classeur Microsoft Excel](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). Ce classeur est le modèle de données par défaut utilisé pour créer le contenu. 
 
