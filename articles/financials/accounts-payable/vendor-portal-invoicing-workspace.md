@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: VendInvoiceWorkspace
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: ff1818d927f7ab9212c4d5d9109c426be5e0e152
-ms.openlocfilehash: 0d11e4fecc4c42636be63c1ce622f0b2f8e58f2c
+ms.sourcegitcommit: 17a7d9c40d07524378a671397fed566b9bd3af6b
+ms.openlocfilehash: af284d31714df7fe87d49b311c951f9df818fa22
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/29/2017
+ms.lasthandoff: 01/19/2018
 
 ---
 
@@ -47,10 +48,12 @@ ms.lasthandoff: 11/29/2017
 -   <span data-ttu-id="8055d-113">Les factures payées sont celles qui ont été complètement réglées dans Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="8055d-113">Paid invoices are those that have been fully paid in Finance and Operations.</span></span>
 
 <span data-ttu-id="8055d-114">Cliquez sur une vignette pour ouvrir une vue filtrée de la page **Liste des factures**.</span><span class="sxs-lookup"><span data-stu-id="8055d-114">Clicking on a tile will open a filtered view of the **Invoices list** page.</span></span>
+
 ### <a name="tabular-lists"></a><span data-ttu-id="8055d-115">Listes tabulaires</span><span class="sxs-lookup"><span data-stu-id="8055d-115">Tabular lists</span></span>
 
 <span data-ttu-id="8055d-116">Dans la section **Listes tabulaires**, le statut de la facturation est réparti de manière similaire aux vignettes de synthèse : listes Brouillon et Envoyées, non approuvées.</span><span class="sxs-lookup"><span data-stu-id="8055d-116">In the **Tabular lists** section, the status of the invoicing is broken down in similar ways as the summary tiles: Draft and Submitted, not approved lists.</span></span> <span data-ttu-id="8055d-117">Tandis que dans l'état Brouillon, une facture peut être envoyée au workflow ou être supprimée.</span><span class="sxs-lookup"><span data-stu-id="8055d-117">While in the Draft state, an invoice can be submitted to workflow or deleted.</span></span> <span data-ttu-id="8055d-118">La dernière liste tabulaire est un moyen de rechercher des factures.</span><span class="sxs-lookup"><span data-stu-id="8055d-118">The last tabular list is an option to find invoices.</span></span> <span data-ttu-id="8055d-119">Vous pouvez définir les filtres au fil de la recherche, afin d'accélérer celle-ci.</span><span class="sxs-lookup"><span data-stu-id="8055d-119">You can filter as you search, to allow for faster searches.</span></span>
-<span data-ttu-id="8055d-120">Page de liste Toutes les factures fournisseur</span><span class="sxs-lookup"><span data-stu-id="8055d-120">All vendor invoices list page</span></span>
+
+<a name="all-vendor-invoices-list-page"></a><span data-ttu-id="8055d-120">Page de liste Toutes les factures fournisseur</span><span class="sxs-lookup"><span data-stu-id="8055d-120">All vendor invoices list page</span></span>
 -----------------------------
 
 <span data-ttu-id="8055d-121">Vous pouvez afficher toutes les factures fournisseurs validées ou non validées dans la page de liste **Factures de la collaboration du fournisseur**.</span><span class="sxs-lookup"><span data-stu-id="8055d-121">You can view all posted and unposted vendor invoices on the **Vendor collaboration invoices** list page.</span></span> <span data-ttu-id="8055d-122">Vous pouvez utiliser cette page de liste pour afficher le statut de paiement des factures.</span><span class="sxs-lookup"><span data-stu-id="8055d-122">You can use this list page to view the payment status of the invoices.</span></span> <span data-ttu-id="8055d-123">Les statuts de règlement incluent Non validée, Impayée, Partiellement payée, et totalement payée.</span><span class="sxs-lookup"><span data-stu-id="8055d-123">The payment statuses include Unposted, Unpaid, Partially paid, and Fully paid.</span></span>
