@@ -98,7 +98,7 @@ Les composants suivants la génération d'états financiers sont simples à util
 </tbody>
 </table>
 
-#<a name="see-also"></a>Voir également :
+## <a name="see-also"></a>Voir également :
 [Générer un état financier](generate-financial-report.md)
 
 

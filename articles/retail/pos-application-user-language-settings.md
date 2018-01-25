@@ -34,9 +34,7 @@ ms.lasthandoff: 09/29/2017
 
 Cette rubrique décrit la modification des paramètres de langue dans Retail Modern POS (MPOS) et Cloud POS.
 
-<a name="overview"></a>Vue d'ensemble
-========
-
+## <a name="overview"></a>Vue d'ensemble
 Retail Modern POS (MPOS) et Cloud POS prennent en charge les environnements dans lesquels les paramètres de langue et les traductions peuvent varier entre le magasin et les paramètres d'utilisateur. Par exemple, le magasin peut être situé dans une région où l'anglais est la langue la plus parlée par les clients, mais certains collaborateurs préfèrent utiliser l'application avec des traductions françaises.
 
 ## <a name="data-language"></a>Langue des données

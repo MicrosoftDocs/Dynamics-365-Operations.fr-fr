@@ -53,10 +53,9 @@ Julia utilise le modèle Excel suivant pour préparer le budget :
 
 [![Modèle Excel](./media/screenshot2-1024x352.png)](./media/screenshot2.png)
 
-<a name="exercise-1-configuration"></a>Exercice 1 : Configuration
-=========================
+## <a name="exercise-1-configuration"></a>Exercice 1 : Configuration
 
-## <a name="task-1-create-organizational-hierarchy"></a>**Tâche 1 : Créer une hiérarchie d'organisation**
+### <a name="task-1-create-organizational-hierarchy"></a>**Tâche 1 : Créer une hiérarchie d'organisation**
 Comme tout le processus de budgétisation se produit au département Finances, par conséquent Julia doit créer une hiérarchie organisationnelle très simple – se composant du département Finances uniquement. 1.1. Accédez aux hiérarchies d'organisation (Administration d'organisation &gt; Organisations &gt; Hiérarchies d'organisation) et cliquez sur le bouton Nouveau
 
 ![Hiérarchie de l'organisation](./media/screenshot3.png) 
@@ -85,7 +84,7 @@ Comme tout le processus de budgétisation se produit au département Finances, p
 
 [![Date d'effet](./media/screenshot9.png)](./media/screenshot9.png)
 
-## <a name="task-2-configure-user-security"></a>Tâche 2 : Configurez la sécurité des utilisateurs
+### <a name="task-2-configure-user-security"></a>Tâche 2 : Configurez la sécurité des utilisateurs
 La planification budgétaire utilise des stratégies de sécurité spéciales pour configurer l'accès aux données des plans budgétaires. Julia doit octroyer l'accès aux plans budgétaires des Finances pour elle-même. 
 
 2.1. Passez au contexte d'entité juridique DEMF. 
@@ -109,7 +108,7 @@ La planification budgétaire utilise des stratégies de sécurité spéciales po
 
 [![Accorder l'accès](./media/screenshot14.png)](./media/screenshot14.png)
 
-## <a name="task-3-create-scenarios"></a>Tâche 3 : Créez des scénarios
+### <a name="task-3-create-scenarios"></a>Tâche 3 : Créez des scénarios
 3.1. Accédez à Budgétisation &gt; Paramétrage &gt; Planification budgétaire &gt; Configuration de la planification budgétaire. Dans la page Scénarios notez les scénarios que nous allons utiliser plus loin dans cet atelier pratique : Chiffres réels de l'année précédente et Budgété. 
 
 *Remarque : vous pouvez créer des scénarios pour cet exercice si vous le voulez et les utiliser à la place.* 
@@ -118,7 +117,7 @@ La planification budgétaire utilise des stratégies de sécurité spéciales po
 
 *Remarque : comme Julia n'utilise pas le processus d'approbation officielle pour la préparation de budget, nous ignorerons les stades et les workflows paramétrés dans cet atelier pratique et utiliserons le paramétrage existant pour approuver automatiquement cette configuration de workflow.*
 
-## <a name="task-4-create-budget-plan-columns"></a>Tâche 4 : Créez les colonnes du plan budgétaire
+### <a name="task-4-create-budget-plan-columns"></a>Tâche 4 : Créez les colonnes du plan budgétaire
 Les colonnes du plan budgétaire sont des colonnes monétaires ou basées sur la quantité utilisables dans la structure de document du plan budgétaire. Dans notre exemple nous devons créer une colonne pour les Chiffres réels de l'année précédente et 12 colonnes pour représenter chaque mois de l'année budgétisée. Les colonnes peuvent être créées en cliquant simplement sur le bouton Ajouter et en renseignant les valeurs, ou avec l'aide d'une Entité de données. Dans cet atelier pratique nous emploierons l'Entité de données pour renseigner les valeurs. 
 
 4.1. Dans Budgétisation &gt; Paramétrage &gt; Planification budgétaire &gt; Configuration de la planification budgétaire, ouvrez la page Colonnes. Cliquez sur le bouton Agence dans le coin supérieur droit de l'écran et choisissez Colonnes (non filtrées) 
@@ -151,7 +150,7 @@ Les colonnes du plan budgétaire sont des colonnes monétaires ou basées sur la
 
 [![Actualiser](./media/screenshot23.png)](./media/screenshot23.png)
 
-## <a name="task-5-create-budget-plan-document-layouts-and-templates"></a>Tâche 5 : Créez des structures et des modèles de document de plan budgétaire
+### <a name="task-5-create-budget-plan-document-layouts-and-templates"></a>Tâche 5 : Créez des structures et des modèles de document de plan budgétaire
 La structure définit à quoi la grille de lignes de document du plan budgétaire ressemble lorsque l'utilisateur ouvre le document de plan budgétaire. Il est également possible de changer la structure de document du plan budgétaire pour afficher les mêmes données dans différents angles. À présent qu'elle a défini les colonnes à utiliser avec notre document de plan budgétaire, Julia doit créer une structure de document du plan budgétaire similaire au tableau Excel qu'elle utilise pour créer les données du budget (voir la section Vue d'ensemble du scénario dans cet atelier pratique) 
 
 5.1. Dans Budgétisation &gt; Paramétrage &gt; Planification budgétaire &gt; Configuration de la planification budgétaire, ouvrez la page Structures. Créez une structure pour l'écriture budgétaire mensuelle :
@@ -171,7 +170,7 @@ En s'appuyant sur la définition de la structure du plan budgétaire, nous pouvo
 
 5.3. &lt;Étape facultative&gt; Modifiez le modèle Excel pour le rendre plus convivial – ajoutez des formules de total, des champs d'en-tête, une mise en forme, etc. Sauvegardez les modifications et téléchargez le fichier dans la structure du plan budgétaire en cliquant sur Présentation &gt; Télécharger [![Télécharger](./media/screenshot26.png)](./media/screenshot26.png)
 
-## <a name="task-6-create-a-budget-planning-process"></a>Tâche 6 : Créez un processus de planification budgétaire
+### <a name="task-6-create-a-budget-planning-process"></a>Tâche 6 : Créez un processus de planification budgétaire
 Julia doit créer et activer un nouveau processus de planification budgétaire en combinant le paramétrage ci-dessus pour commencer à entrer des plans budgétaires. Le processus de planification budgétaire définit les organisations, le workflow, les structures et les modèles de budgétisation qui seront utilisés pour créer des plans budgétaires. 
 
 6.1. Accédez à Budgétisation &gt; Paramétrage &gt; Planification de budget &gt; Processus de planification budgétaire et créez un enregistrement.
@@ -192,10 +191,9 @@ Julia doit créer et activer un nouveau processus de planification budgétaire e
 
 [![Activer](./media/screenshot28.png)](./media/screenshot28.png)
 
-<a name="exercise-2-process-simulation"></a>Exercice 2 : Simulation du processus
-==============================
+## <a name="exercise-2-process-simulation"></a>Exercice 2 : Simulation du processus
 
-## <a name="task-7-generate-initial-data-for-budget-plan-from-general-ledger"></a>Tâche 7 : Générez des données initiales pour le plan budgétaire à partir de la comptabilité
+### <a name="task-7-generate-initial-data-for-budget-plan-from-general-ledger"></a>Tâche 7 : Générez des données initiales pour le plan budgétaire à partir de la comptabilité
 7.1. Accédez à Budgétisation &gt; Périodique &gt; Générer le plan budgétaire à partir de la comptabilité. Renseignez les paramètres du processus périodique et cliquez sur le bouton Générer. 
 
 [![Générer](./media/screenshot29.png)](./media/screenshot29.png) 
@@ -208,7 +206,7 @@ Julia doit créer et activer un nouveau processus de planification budgétaire e
 
 [![Affichage de plan budgétaire](./media/screenshot31.png)](./media/screenshot31.png)
 
-## <a name="task-8-create-current-year-budget-based-on-previous-year-actuals"></a>Tâche 8 : Créez un budget de l'année en cours basé sur les chiffres réels de l'année précédente
+### <a name="task-8-create-current-year-budget-based-on-previous-year-actuals"></a>Tâche 8 : Créez un budget de l'année en cours basé sur les chiffres réels de l'année précédente
 Les méthodes de répartition peuvent être utilisées dans le plan budgétaire pour copier facilement les informations des plans budgétaires d'un scénario à un autre / les répartir sur des périodes / répartir sur des dimensions. Nous emploierons des répartitions pour créer le budget de l'année en cours à partir des chiffres réels de l'année précédente. 
 
 8.1. Choisissez toutes les lignes de la grille de document du plan budgétaire et cliquez sur le bouton répartir le budget 
@@ -223,7 +221,7 @@ Les montants effectifs de l'année précédente seront copiés dans le budget de
 
 [![Courbe de vente](./media/screenshot34.png)](./media/screenshot34.png)
 
-## <a name="task-9-adjust-budget-plan-document-using-excel-and-finalize-the-document"></a>Tâche 9 : Ajustez le document de plan budgétaire à l'aide d'Excel et finalisez le document
+### <a name="task-9-adjust-budget-plan-document-using-excel-and-finalize-the-document"></a>Tâche 9 : Ajustez le document de plan budgétaire à l'aide d'Excel et finalisez le document
 9.1. Cliquez sur le bouton feuille de calcul pour ouvrir le contenu du document dans Excel
 
 [![Excel](./media/screenshot35.png)](./media/screenshot35.png)
@@ -238,8 +236,7 @@ Les montants effectifs de l'année précédente seront copiés dans le budget de
 
 Une fois le workflow terminé, le stade du document de plan budgétaire devient Approuvé. [![Approuvé](./media/screenshot38.png)](./media/screenshot38.png)
 
-<a name="appendix"></a>Annexe
-========
+## <a name="appendix"></a>Annexe
 
 ### <a name="auto-approve-workflow-configuration"></a>Configuration du workflow d'approbation automatique.
 

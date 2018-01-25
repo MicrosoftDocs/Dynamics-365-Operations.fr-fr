@@ -34,8 +34,7 @@ ms.lasthandoff: 09/29/2017
 
 Cette rubrique couvre les options de configuration de la connexion étendue pour Cloud POS et Retail Modern POS (MPOS).
 
-<a name="setting-up-extended-logon"></a>Paramétrage d'une connexion étendue
-=========================
+## <a name="setting-up-extended-logon"></a>Paramétrage d'une connexion étendue
 
 Vous trouverez le paramétrage des masques de code-barres dans **Vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage du PDV** &gt; **Profils PDV** &gt; **Profils de fonctionnalités**. L'organisateur **Fonctions** inclut les options suivantes relatives à la connexion étendue.
 
@@ -55,23 +54,19 @@ Lorsque l'option **Connexion du personnel par carte** est activée, les collabor
 
 Lorsque l'option **La connexion du personnel par carte nécessite un mot de passe** est activée, la connexion du personnel par carte sélectionne uniquement le collaborateur qui est affecté à la connexion étendue présentée. Les collaborateurs doivent toujours entrer leur mot de passe lorsque cette option est activée.
 
-<a name="assigning-an-extended-logon"></a>Affectation d'une connexion étendue
-===========================
+## <a name="assigning-an-extended-logon"></a>Affectation d'une connexion étendue
 
 Par défaut, seuls les responsables peuvent affecter une connexion étendue aux collaborateurs. Pour affecter une connexion étendue, accédez à **Connexion étendue** dans le PDV. Recherchez ensuite un collaborateur en entrant son ID d'opérateur dans le champ de recherche. Sélectionnez le collaborateur, puis cliquez sur **Affecter**. Sur la page suivante, faites glisser ou scannez la connexion étendue à affecter au collaborateur. Si cette opération permet une lecture correcte, le bouton **OK** devient disponible. Cliquez sur **OK** pour enregistrer la connexion étendue pour ce collaborateur.
 
-<a name="deleting-an-extended-logon"></a>Suppression d'une connexion étendue
-==========================
+## <a name="deleting-an-extended-logon"></a>Suppression d'une connexion étendue
 
 Pour supprimer la connexion étendue affectée à un collaborateur, recherchez le collaborateur à l'aide de l'opération **Connexion étendue**. Sélectionnez le collaborateur, puis cliquez sur **Annuler l'affectation**. Toutes les informations d'identification de la connexion étendue associées à ce collaborateur sont supprimées.
 
-<a name="extending-extended-logon"></a>Extension de connexion étendue
-========================
+## <a name="extending-extended-logon"></a>Extension de connexion étendue
 
 Le service de connexion peut être étendu pour prendre en charge les périphériques de connexion étendue supplémentaires, tels que des scanneurs de paume. Pour plus d'informations, voir la documentation sur l'extensibilité de PDV.
 
-<a name="using-extended-logon"></a>Utilisation d'une connexion étendue
-====================
+## <a name="using-extended-logon"></a>Utilisation d'une connexion étendue
 
 Lorsque la connexion étendue est configurée, et qu'un collaborateur a été affecté à un code-barres ou une bande magnétique, celui-ci doit juste faire glisser ou scanner sa carte lorsque la page de connexion de PDV s'affiche. Si un mot de passe est également requis pour pouvoir continuer la connexion, le collaborateur est invité à entrer son mot de passe.
 

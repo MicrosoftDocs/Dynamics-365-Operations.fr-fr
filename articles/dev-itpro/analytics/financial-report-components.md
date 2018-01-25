@@ -112,7 +112,7 @@ Lorsque vous ouvrez un bloc élémentaire, d'autres utilisateurs peuvent accéde
 3.  Sélectionnez un bloc élémentaire, puis cliquez sur **Annuler l'extraction**.
 4.  Cliquez sur **Oui** pour vérifier le bloc élémentaire.
 
-# <a name="see-also"></a>Voir également :
+## <a name="see-also"></a>Voir également :
 
 [États financiers](financial-reporting-intro.md)
 
