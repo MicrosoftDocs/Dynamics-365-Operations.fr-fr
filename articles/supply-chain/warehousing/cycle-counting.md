@@ -19,10 +19,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ddb035eaa496a7c84f117f0523d509eccdf58505
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: 68ae9bad8c15f06689c4660ccad27eff5d01c93c
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -137,7 +137,7 @@ ms.lasthandoff: 11/06/2017
 
 <span data-ttu-id="69527-192">Ajustez les différences dans la valeur d'inventaire puis acceptez la valeur d'inventaire dans la page **Inventaire tournant en attente de révision**.</span><span class="sxs-lookup"><span data-stu-id="69527-192">You can adjust differences in the counted value and then accept the counted value on the **Cycle count pending review** page.</span></span> <span data-ttu-id="69527-193">Vous pouvez vérifier le compte modifié de la quantité d'articles dans la page **Disponible par emplacement**.</span><span class="sxs-lookup"><span data-stu-id="69527-193">You can verify the modified count of the item quantity on the **On hand by location** page.</span></span> <span data-ttu-id="69527-194">La valeur d'inventaire est rejetée si la différence ne peut pas être approuvée.</span><span class="sxs-lookup"><span data-stu-id="69527-194">The counted value is rejected if the difference can't be approved.</span></span>
 
-# <a name="see-also"></a><span data-ttu-id="69527-195">Voir également :</span><span class="sxs-lookup"><span data-stu-id="69527-195">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="69527-195">Voir également :</span><span class="sxs-lookup"><span data-stu-id="69527-195">See also</span></span>
 [<span data-ttu-id="69527-196">Configurer des appareils mobiles pour un travail d'entrepôt</span><span class="sxs-lookup"><span data-stu-id="69527-196">Configure mobile devices for warehouse work</span></span>](configure-mobile-devices-warehouse.md)
 
 

@@ -17,10 +17,10 @@ ms.author: ryansand
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: a351418583ee29ad57bd2586121bb92d24635fb8
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: 13f7cfa8776436ed2c73fc588948ce88fee93326
 ms.contentlocale: fr-fr
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -31,14 +31,14 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="8b5fb-105">Cette rubrique décrit le contenu Power BI **Comparatif Réel/Budget**.</span><span class="sxs-lookup"><span data-stu-id="8b5fb-105">This topic describes the **Actual vs budget** Microsoft Power BI content.</span></span> <span data-ttu-id="8b5fb-106">Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.</span><span class="sxs-lookup"><span data-stu-id="8b5fb-106">It explains how to access the Power BI reports, and provides information about the data model and entities that were used to build the content.</span></span> 
 
-# <a name="overview"></a><span data-ttu-id="8b5fb-107">Vue d'ensemble</span><span class="sxs-lookup"><span data-stu-id="8b5fb-107">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="8b5fb-107">Vue d'ensemble</span><span class="sxs-lookup"><span data-stu-id="8b5fb-107">Overview</span></span>
 
 <span data-ttu-id="8b5fb-108">Le contenu Power BI **Comparatif Réel/Budget** a été créé pour les personnes chargées de surveiller le comparatif des performances de budget dans leur organisation.</span><span class="sxs-lookup"><span data-stu-id="8b5fb-108">The **Actual vs budget** Power BI content was created for individuals who are responsible for monitoring actual versus budget performance in their organization.</span></span> <span data-ttu-id="8b5fb-109">Le contenu Power BI **Comparatif Réel/Budget** fournit une visibilité dans les écarts de budget.</span><span class="sxs-lookup"><span data-stu-id="8b5fb-109">The **Actual vs budget** Power BI content provides visibility into your budget variances.</span></span> <span data-ttu-id="8b5fb-110">Vous pouvez analyser le budget de l'année en cours par catégorie de compte, code budgétaire, compte principal, description de compte principal ou période fiscale pour obtenir une meilleure compréhension de la cause de tous les écarts.</span><span class="sxs-lookup"><span data-stu-id="8b5fb-110">You can analyze budget for the current year by account category, budget code, main account, main account descriptions, or fiscal period to get a better understanding of the cause of any variances.</span></span> 
 
-# <a name="accessing-the-power-bi-content"></a><span data-ttu-id="8b5fb-111">Accès au contenu Power BI</span><span class="sxs-lookup"><span data-stu-id="8b5fb-111">Accessing the Power BI content</span></span>
+## <a name="accessing-the-power-bi-content"></a><span data-ttu-id="8b5fb-111">Accès au contenu Power BI</span><span class="sxs-lookup"><span data-stu-id="8b5fb-111">Accessing the Power BI content</span></span>
 <span data-ttu-id="8b5fb-112">Les états du contenu Power BI **Comparatif Réel/Budget** s'affichent dans les espaces de travail **Budget comptable et prévisions** et **CFO**.</span><span class="sxs-lookup"><span data-stu-id="8b5fb-112">Reports from the **Actual vs budget** Power BI content are shown in the **Ledger budget and forecasts** and **CFO** workspaces.</span></span>
 
-# <a name="reports-that-are-included-in-the-power-bi-content"></a><span data-ttu-id="8b5fb-113">États inclus dans le contenu Power BI</span><span class="sxs-lookup"><span data-stu-id="8b5fb-113">Reports that are included in the Power BI content</span></span>
+## <a name="reports-that-are-included-in-the-power-bi-content"></a><span data-ttu-id="8b5fb-113">États inclus dans le contenu Power BI</span><span class="sxs-lookup"><span data-stu-id="8b5fb-113">Reports that are included in the Power BI content</span></span>
 <span data-ttu-id="8b5fb-114">Le tableau suivant fournit des détails sur les mesures disponibles sur chaque page d'état du contenu Power BI **Comparatif Réel/Budget**.</span><span class="sxs-lookup"><span data-stu-id="8b5fb-114">The following table provides details about the metrics that are found on each report page in the **Actual vs budget** Power BI content.</span></span>
 
 | <span data-ttu-id="8b5fb-115">Etat</span><span class="sxs-lookup"><span data-stu-id="8b5fb-115">Report</span></span>                      | <span data-ttu-id="8b5fb-116">Métriques</span><span class="sxs-lookup"><span data-stu-id="8b5fb-116">Metrics</span></span> |
@@ -50,7 +50,7 @@ ms.lasthandoff: 01/17/2018
 | <span data-ttu-id="8b5fb-129">Revenu net</span><span class="sxs-lookup"><span data-stu-id="8b5fb-129">Net income</span></span>                  | <ul><li><span data-ttu-id="8b5fb-130">Revenu net de cette année</span><span class="sxs-lookup"><span data-stu-id="8b5fb-130">Net income this year</span></span></li><li><span data-ttu-id="8b5fb-131">Objectif du revenu net basé sur le budget</span><span class="sxs-lookup"><span data-stu-id="8b5fb-131">Goal for net income based on budget</span></span> </li><ul> |
 
 
-# <a name="understanding-the-data-model-and-entities"></a><span data-ttu-id="8b5fb-132">Compréhension du modèle de données et des entités</span><span class="sxs-lookup"><span data-stu-id="8b5fb-132">Understanding the data model and entities</span></span>
+## <a name="understanding-the-data-model-and-entities"></a><span data-ttu-id="8b5fb-132">Compréhension du modèle de données et des entités</span><span class="sxs-lookup"><span data-stu-id="8b5fb-132">Understanding the data model and entities</span></span>
 
 | <span data-ttu-id="8b5fb-133">Entité</span><span class="sxs-lookup"><span data-stu-id="8b5fb-133">Entity</span></span>                    | <span data-ttu-id="8b5fb-134">Sommaire</span><span class="sxs-lookup"><span data-stu-id="8b5fb-134">Contents</span></span> |
 |---------------------------|----------|
