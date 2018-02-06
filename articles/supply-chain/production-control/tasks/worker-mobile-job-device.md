@@ -69,4 +69,3 @@ Cette procédure vous indique comment affecter des rôles corrects au compte uti
 6. Dans le champ Unité de production, vous pouvez définir le filtre par défaut pour le collaborateur. Cela garantit que seules les tâches de production pour l'unité de production sélectionnée sont affichées lorsque le collaborateur se connecte au périphérique.
 7. Fermez la page.
 
-

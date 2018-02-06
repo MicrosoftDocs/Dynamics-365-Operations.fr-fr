@@ -1,4 +1,4 @@
---- 
+---
 title: Programmer un ordre de fabrication
 description: "Cette procédure indique comment planifier un ordre de fabrication."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -53,5 +53,4 @@ Cette procédure indique comment planifier un ordre de fabrication. Les données
     * La page Charge de la capacité affiche la capacité réservée via la planification des tâches, le nombre total d'heures qui sont actuellement réservées pour la ressource, et le nombre d'heures encore disponibles pour la planification des tâches de la ressource.  
 6. Fermez la page.
 7. Fermez la page.
-
 

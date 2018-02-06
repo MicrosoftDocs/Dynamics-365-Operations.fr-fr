@@ -1,4 +1,4 @@
---- 
+---
 title: "Préparer une tâche de kanban de processus lorsque les matières sont disponibles pour la cellule de travail"
 description: "Cette tâche se concentre sur la préparation d'une tâche de kanban de processus lorsque toutes les matières ne sont pas disponibles pour la cellule de travail."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -40,5 +40,4 @@ Cette tâche se concentre sur la préparation d'une tâche de kanban de processu
     * Si plusieurs tâches sont activées, les prélèvements indique la somme de tous les articles nécessaires pour les tâches sélectionnées.  
 6. Cliquez sur Préparer.
     * Le processus de préparation est désormais terminé. La case à cocher activée pour toutes les lignes des prélèvements indique que le statut d'approvisionnement est prélevé.  
-
 

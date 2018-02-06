@@ -1,4 +1,4 @@
---- 
+---
 title: "Déclarer un ordre de fabrication terminé"
 description: "Cette procédure montre comment déclarer un ordre de fabrication comme terminé."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -50,5 +50,4 @@ Cette procédure montre comment déclarer un ordre de fabrication comme terminé
 3. Dans la liste, marquez la ligne sélectionnée.
 4. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
     * Le journal Déclarer comme terminé est validé. Si vous souhaitez effectuer des ajustements du journal, vous pouvez créer manuellement un nouveau journal dans lequel vous pouvez apporter des modifications.  
-
 
