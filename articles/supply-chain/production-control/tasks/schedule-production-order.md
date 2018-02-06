@@ -1,4 +1,4 @@
---- 
+---
 title: Programmer un ordre de fabrication
 description: "Cette procédure indique comment planifier un ordre de fabrication."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -17,10 +17,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 4aeb51fd2d9e916d5838b47c4a6b74800572a9ca
+ms.sourcegitcommit: dadf0e87eac8522f61bb094c146e37f46a21fc09
+ms.openlocfilehash: 6cbbf509c9e60040e08ab7932fcb0e8eed5ddd22
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 02/06/2018
 
 ---
 # <a name="schedule-a-production-order"></a><span data-ttu-id="058b2-103">Programmer un ordre de fabrication</span><span class="sxs-lookup"><span data-stu-id="058b2-103">Schedule a production order</span></span>
@@ -53,5 +53,4 @@ ms.lasthandoff: 11/06/2017
     * <span data-ttu-id="058b2-127">La page Charge de la capacité affiche la capacité réservée via la planification des tâches, le nombre total d'heures qui sont actuellement réservées pour la ressource, et le nombre d'heures encore disponibles pour la planification des tâches de la ressource.</span><span class="sxs-lookup"><span data-stu-id="058b2-127">The Capacity load page displays the capacity that is reserved through job scheduling, the total number of hours that are currently reserved on the resource, and the number of hours that remain available for job scheduling on the resource.</span></span>  
 6. <span data-ttu-id="058b2-128">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="058b2-128">Close the page.</span></span>
 7. <span data-ttu-id="058b2-129">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="058b2-129">Close the page.</span></span>
-
 

@@ -1,4 +1,4 @@
---- 
+---
 title: Activer le processus de paie pour le pointage
 description: "Cette procédure décrit comment activer le processus de paie pour le pointage."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -17,10 +17,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 22ce633f65847f10fbe507b71bfc2bb33f595501
+ms.sourcegitcommit: dadf0e87eac8522f61bb094c146e37f46a21fc09
+ms.openlocfilehash: 16d8fc2120dfb7b356b238957019a29d05963f9a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 02/06/2018
 
 ---
 # <a name="enable-the-payroll-process-for-time-and-attendance"></a><span data-ttu-id="f7ec5-103">Activer le processus de paie pour le pointage</span><span class="sxs-lookup"><span data-stu-id="f7ec5-103">Enable the payroll process for time and attendance</span></span>
@@ -68,5 +68,4 @@ ms.lasthandoff: 11/06/2017
 6. <span data-ttu-id="f7ec5-141">Développez la section Enregistrement du temps.</span><span class="sxs-lookup"><span data-stu-id="f7ec5-141">Expand the Time registration section.</span></span>
 7. <span data-ttu-id="f7ec5-142">Cliquez sur Modifier.</span><span class="sxs-lookup"><span data-stu-id="f7ec5-142">Click Edit.</span></span>
 8. <span data-ttu-id="f7ec5-143">Saisissez ou sélectionnez une valeur dans le champ Accord salarial.</span><span class="sxs-lookup"><span data-stu-id="f7ec5-143">In the Pay agreement field, enter or select a value.</span></span>
-
 

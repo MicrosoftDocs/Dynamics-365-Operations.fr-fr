@@ -1,4 +1,4 @@
---- 
+---
 title: Estimer un ordre de fabrication
 description: "Vous pouvez exécuter cette procédure en utilisant les données de démonstration de la société USMF ou utiliser vos propres données."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -17,10 +17,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1d34a891a5b655f801e46b8c07525cdcbc7a65c8
+ms.sourcegitcommit: dadf0e87eac8522f61bb094c146e37f46a21fc09
+ms.openlocfilehash: 862281adac67757e1ce0e9ddd1e96483363abb9a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 02/06/2018
 
 ---
 # <a name="estimate-a-production-order"></a><span data-ttu-id="1c300-103">Estimer un ordre de fabrication</span><span class="sxs-lookup"><span data-stu-id="1c300-103">Estimate a production order</span></span>
@@ -42,5 +42,4 @@ ms.lasthandoff: 11/06/2017
 1. <span data-ttu-id="1c300-115">Cliquez sur Gérer les coûts dans le volet Actions.</span><span class="sxs-lookup"><span data-stu-id="1c300-115">On the Action Pane, click Manage costs.</span></span>
 2. <span data-ttu-id="1c300-116">Cliquez sur Afficher les détails du calcul.</span><span class="sxs-lookup"><span data-stu-id="1c300-116">Click View calculation details.</span></span>
     * <span data-ttu-id="1c300-117">Cette page affiche la répartition des coûts.</span><span class="sxs-lookup"><span data-stu-id="1c300-117">This page displays the cost breakdown.</span></span> <span data-ttu-id="1c300-118">Par exemple, vous pouvez afficher le prix de revient total par unité pour le produit fini dans la première ligne.</span><span class="sxs-lookup"><span data-stu-id="1c300-118">For example, you can view the total cost price per unit for the finished product in the first row.</span></span> <span data-ttu-id="1c300-119">Les lignes suivantes contiennent les coûts correspondant à la nomenclature, à la gamme de production, et aux coûts indirects.</span><span class="sxs-lookup"><span data-stu-id="1c300-119">The subsequent rows contain costs according to the bill of materials, production route, and indirect costs.</span></span>  
-
 
