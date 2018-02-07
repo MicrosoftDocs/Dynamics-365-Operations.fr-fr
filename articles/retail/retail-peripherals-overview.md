@@ -1,6 +1,7 @@
 ---
 title: "Vue d'ensemble des périphériques de vente au détail"
 description: "Cette rubrique explique les concepts relatifs aux périphériques de vente au détail."
+author: rubencdelgado
 manager: AnnBe
 ms.date: 11/14/2017
 ms.topic: article
