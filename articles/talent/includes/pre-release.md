@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> Cette fonctionnalité fait partie d'une version ciblée et n'est accessible qu'aux utilisateurs qui ont choisi le Programme des avantages de la mise à jour automatique continue (PAMAC). Cette fonctionnalité sera incluse dans une prochaine version à disponibilité générale. Pour plus d'informations sur les versions standard et ciblées, voir [Versions de plateforme standard et ciblées](../../fin-and-ops/get-started/public-preview-releases.md)

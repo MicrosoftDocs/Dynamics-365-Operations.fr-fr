@@ -3,7 +3,7 @@ title: "Page d'accueil de la gestion de la chaîne d'approvisionnement"
 description: "Cette rubrique fournit une liste de ressources et d'autres informations sur les fonctionnalités de gestion de la chaîne d'approvisionnement de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 01/10/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 98008b494f675209949afd961e3cd06dfdc9ec9a
-ms.openlocfilehash: 81a5d21233f12e7c26f0cce6a6c05fefde2ca7dd
+ms.sourcegitcommit: 6c193a3a9deba215d4374ccffc3bf2d854fbd0f2
+ms.openlocfilehash: 9314a129b85cf6cb2d2ca379eafc142ce234d535
 ms.contentlocale: fr-fr
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 01/22/2018
 
 ---
 
@@ -52,9 +52,12 @@ Sélectionnez une zone de fonctionnalités pour en savoir plus.
 
 ## <a name="videos"></a>Vidéos
 
-### <a name="get-started"></a>Mise en route  
+Ces courtes vidéos vous permettent de découvrir les nouvelles fonctions incluses dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 (décembre 2017).
 
-Ces courtes vidéos permettent la mise en route des nouvelles fonctions incluses dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (juillet 2017).
+-  [Intégration de la solution Prospect en disponibilités](https://youtu.be/AVV9x5x-XCg) 
+-  [Conseiller en optimisation](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
+
+Ces courtes vidéos vous permettent de découvrir les nouvelles fonctions incluses dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 (juillet 2017).
 
 -  [Mise en route du contrôle de gestion](https://youtu.be/1pUDtJQZ8FU)
 -  [Espace de travail mobile de contrôle des coûts](https://youtu.be/imsuTg8rUVk)
@@ -62,8 +65,7 @@ Ces courtes vidéos permettent la mise en route des nouvelles fonctions incluses
 -  [Approuver les commandes fournisseur sur un appareil mobile](https://youtu.be/gZ-gOlJe7H8)
 -  [Planification visuelle avec le diagramme de Gantt pour les ordres de fabrication et les lots de commandes](https://youtu.be/BtbuShkGj4I)
 
-### <a name="tech-conference-recordings"></a>Enregistrements de conférence technique
-La plupart de ces enregistrements traitent de la fonctionnalité du produit dans la version précédente de Finance and Operations, mais les mêmes concepts s'appliquent toujours et les procédures sont similaires dans la version actuelle. 
+Ces enregistrements techniques traitent de la fonctionnalité du produit dans la version précédente de Finance and Operations, mais les mêmes concepts s'appliquent toujours et les procédures sont similaires dans la version actuelle. 
 
 -  <a href="https://youtu.be/zotrj3SbCl4">Configurateur de produits dans Microsoft Dynamics AX</a>
 -  <a href="https://youtu.be/7v8BPmEs9Dg">Planification - conseils et astuces pour résoudre les problèmes de performances</a>
