@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: VendInvoiceWorkspace
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -47,10 +48,12 @@ Les vignettes **Synthèse** fournissent une vue d'ensemble des factures du fourn
 -   Les factures payées sont celles qui ont été complètement réglées dans Finance and Operations.
 
 Cliquez sur une vignette pour ouvrir une vue filtrée de la page **Liste des factures**.
+
 ### <a name="tabular-lists"></a>Listes tabulaires
 
 Dans la section **Listes tabulaires**, le statut de la facturation est réparti de manière similaire aux vignettes de synthèse : listes Brouillon et Envoyées, non approuvées. Tandis que dans l'état Brouillon, une facture peut être envoyée au workflow ou être supprimée. La dernière liste tabulaire est un moyen de rechercher des factures. Vous pouvez définir les filtres au fil de la recherche, afin d'accélérer celle-ci.
-Page de liste Toutes les factures fournisseur
+
+<a name="all-vendor-invoices-list-page"></a>Page de liste Toutes les factures fournisseur
 -----------------------------
 
 Vous pouvez afficher toutes les factures fournisseurs validées ou non validées dans la page de liste **Factures de la collaboration du fournisseur**. Vous pouvez utiliser cette page de liste pour afficher le statut de paiement des factures. Les statuts de règlement incluent Non validée, Impayée, Partiellement payée, et totalement payée.

@@ -137,7 +137,7 @@ Une différence au niveau de l'inventaire tournant se produit dans les scénario
 
 Ajustez les différences dans la valeur d'inventaire puis acceptez la valeur d'inventaire dans la page **Inventaire tournant en attente de révision**. Vous pouvez vérifier le compte modifié de la quantité d'articles dans la page **Disponible par emplacement**. La valeur d'inventaire est rejetée si la différence ne peut pas être approuvée.
 
-# <a name="see-also"></a>Voir également :
+## <a name="see-also"></a>Voir également :
 [Configurer des appareils mobiles pour un travail d'entrepôt](configure-mobile-devices-warehouse.md)
 
 

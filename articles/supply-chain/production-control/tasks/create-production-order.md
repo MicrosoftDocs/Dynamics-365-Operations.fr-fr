@@ -1,4 +1,4 @@
---- 
+---
 title: "Créer un ordre de fabrication"
 description: "Cette procédure permet d'indiquer comment créer un ordre de fabrication."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -69,5 +69,4 @@ Cette procédure permet d'indiquer comment créer un ordre de fabrication. Les d
     * Le fait de modifier le temps d'exécution affecte la consommation de gamme estimée et le coût de l'ordre de fabrication.  
 6. Cliquez sur Enregistrer.
 7. Fermez la page.
-
 

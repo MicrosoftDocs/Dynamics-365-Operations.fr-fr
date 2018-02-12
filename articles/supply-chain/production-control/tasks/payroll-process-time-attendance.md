@@ -1,4 +1,4 @@
---- 
+---
 title: Activer le processus de paie pour le pointage
 description: "Cette procédure décrit comment activer le processus de paie pour le pointage."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -68,5 +68,4 @@ Cette procédure décrit comment activer le processus de paie pour le pointage. 
 6. Développez la section Enregistrement du temps.
 7. Cliquez sur Modifier.
 8. Saisissez ou sélectionnez une valeur dans le champ Accord salarial.
-
 

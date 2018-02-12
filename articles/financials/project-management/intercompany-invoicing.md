@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerInterCompany
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -59,9 +60,9 @@ Pour cet exemple, FRSI doit être un client dans l’entité juridique USSI et U
 
 1.  Configurez l’entité juridique FRSI en tant que cliente de l'entté juridique USSI et configurez USSI comme fournisseur dans l’entité juridique FRSI. Il existe trois points d’entrée pour les étapes qui sont requises pour cette tâche.
     | Etape | Point d'entrée                                                                       | description ;   |
-    |------|-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | A    | Dans USSI, cliquez sur **Comptabilité client** &gt; **Clients** &gt; **Tous les clients**. | Créez un enregistrement de client pour FRSI et sélectionnez le groupe de clients.                                                                                                                                                                                                                           |
-    | B    | Dans FRSI, cliquez sur **Comptabilité fournisseur** &gt; **Fournisseurs** &gt; **Tous les fournisseurs**.        | Créez un enregistrement de fournisseur pour USSI et sélectionnez le groupe de fournisseurs.                                                                                                                                                                                                                               |
+    |------|-----------------------------------------------------------------------------------|------------------|
+    | A    | Dans USSI, cliquez sur **Comptabilité client** &gt; **Clients** &gt; **Tous les clients**. | Créez un enregistrement de client pour FRSI et sélectionnez le groupe de clients.                                                                                  |
+    | B    | Dans FRSI, cliquez sur **Comptabilité fournisseur** &gt; **Fournisseurs** &gt; **Tous les fournisseurs**.        | Créez un enregistrement de fournisseur pour USSI et sélectionnez le groupe de fournisseurs.                                                                                    |
     | C    | Dans FRSI, ouvrez l’enregistrement du fournisseur que vous venez de créer.                            | Dans le volet Actions, sous l'onglet **Général**, dans le groupe **Paramétrer**, cliquez sur **Intersociétés**. Dans la page **Intersociétés**, sur l'onglet **Relation commerciale**, définissez le curseur **Actif** sur **Oui**. Dans le champ **Société du client**, sélectionnez l’enregistrement de client que vous avez créé à l’étape A. |
 
 2.  Cliquez sur **Gestion et comptabilité du projet** &gt; **Paramétrage** &gt; **Paramètres de gestion et comptabilité des projets**, puis cliquez sur l'onglet **Intersociétés**. La façon dont vous définissez les paramètres varie selon que vous êtes l'entité juridique emprunteuse ou l'entité juridique prêteuse.

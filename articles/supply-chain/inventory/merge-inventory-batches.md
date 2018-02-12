@@ -1,7 +1,7 @@
 ---
 title: Fusionner les traitements par lots de stock
 description: "Cet article fournit des informations sur la manière de consolider au moins deux traitements par lots de stock dans un traitement par lots fusionné."
-author: perlynne
+author: pjacobse
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article

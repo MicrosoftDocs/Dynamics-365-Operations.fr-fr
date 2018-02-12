@@ -1,7 +1,7 @@
 ---
 title: Composants des rapports financiers
 description: "Cet article décrit l’utilisation des composants ou des blocs élémentaires, de définitions d'état dans la génération d’états financiers. Ces blocs élémentaires incluent les définitions de lignes, les définitions de colonnes et les définitions d'arborescence de génération d'états. Cet article explique comment organiser et verrouiller les blocs élémentaires et comment utiliser des groupes de blocs élémentaires."
-author: aolson
+author: aprilolson
 manager: AnnBe
 ms.date: 10/27/2017
 ms.topic: article
@@ -112,7 +112,7 @@ Lorsque vous ouvrez un bloc élémentaire, d'autres utilisateurs peuvent accéde
 3.  Sélectionnez un bloc élémentaire, puis cliquez sur **Annuler l'extraction**.
 4.  Cliquez sur **Oui** pour vérifier le bloc élémentaire.
 
-# <a name="see-also"></a>Voir également :
+## <a name="see-also"></a>Voir également :
 
 [États financiers](financial-reporting-intro.md)
 

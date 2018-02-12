@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application user, IT Pro
 ms.reviewer: robinr
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
@@ -30,14 +30,14 @@ ms.lasthandoff: 11/06/2017
 > [!NOTE]
 > Cette fonction est prise en charge dans Dynamics 365 for Finance and Operations (version 7.2 et ultérieure).
 
-# <a name="introduction"></a>Introduction
+## <a name="introduction"></a>Introduction
 Cette rubrique explique comment inclure un état Microsoft Power BI sous l'onglet **Analyses** d'un espace de travail. Pour l'exemple qui est indiqué ici, nous étendrons l'espace de travail **Gestion des réservations** dans l'application Gestion de flotte pour inclure un espace de travail analytique sur un onglet **Analyses**.
 
-# <a name="prerequisites"></a>Conditions préalables
+## <a name="prerequisites"></a>Conditions préalables
 + Accédez à un environnement de développeur qui exécute la plateforme mise à jour 8 ou ultérieure.
 + Un état analytique (fichier .pbix) qui a été créé à l'aide de Microsoft Power BI Desktop, et un autre disposant d'un modèle de données qui est originaire de la base de données du magasin d'entités.
 
-# <a name="overview"></a>Vue d'ensemble
+## <a name="overview"></a>Vue d'ensemble
 Si vous étendez un espace de travail d'application existant ou que vous introduisez un nouvel espace de travail personnalisé, vous pouvez utiliser les vues analytiques intégrées pour fournir des vues pertinentes et interactives de vos données commerciales. Le processus pour ajouter un onglet d'espace de travail analytique se compose de quatre étapes.
 
 1. Ajoutez un fichier .pbix comme ressource Dynamics 365.
@@ -48,7 +48,7 @@ Si vous étendez un espace de travail d'application existant ou que vous introdu
 > [!NOTE]
 > Pour plus d'informations sur la création des états analytiques, voir [Mise en route de Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/). Cette page est une grande source pour des informations qui vous permettent de créer des solutions de génération d'états analytiques attractifs.
 
-# <a name="add-a-pbix-file-as-a-resource"></a>Ajoutez un fichier .pbix comme ressource
+## <a name="add-a-pbix-file-as-a-resource"></a>Ajoutez un fichier .pbix comme ressource
 Avant de commencer, vous devez créer ou obtenir l'état Power BI que vous inclurez de l'espace de travail. Pour plus d'informations sur la création des états analytiques, voir [Mise en route de Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).
  
 Procédez comme suit pour ajouter un fichier .pbix comme artefact de projet Visual Studio.
@@ -66,7 +66,7 @@ Procédez comme suit pour ajouter un fichier .pbix comme artefact de projet Visu
   
 Maintenant que vous avez ajouté le fichier .pbix comme ressource Dynamics 365, vous pouvez inclure les états dans des espaces de travail et ajouter des liens directs à l'aide des options de menu.
 
-# <a name="add-a-tab-control-to-an-application-workspace"></a>Ajoutez un contrôle d'onglet à un espace de travail d'application
+## <a name="add-a-tab-control-to-an-application-workspace"></a>Ajoutez un contrôle d'onglet à un espace de travail d'application
 Dans cet exemple, nous étendrons l'espace de travail **Gestion des réservations** dans le modèle de gestion de flotte en ajoutant l'onglet **Analytises** à la définition de l'écran **FMClerkWorkspace**.
  
 L'illustration suivante indique à quoi ressemble l'écran **FMClerkWorkspace** dans le concepteur de Microsoft Visual Studio.
@@ -105,7 +105,7 @@ Maintenant que vous avez ajouté des contrôles d'écrans qui seront utilisés p
  
 Vous avez terminé la tâche d'extension de la définition d'écran d'application. Pour plus d'informations sur l'utilisation d'extensions pour effectuer des personnalisations, voir [Personnalisation : superposition de couches et extensions](../extensibility/customization-overlayering-extensions.md).
 
-# <a name="add-x-business-logic-to-embed-a-viewer-control"></a>Ajoutez la logique métier X++ pour inclure un contrôle de la visionneuse
+## <a name="add-x-business-logic-to-embed-a-viewer-control"></a>Ajoutez la logique métier X++ pour inclure un contrôle de la visionneuse
 Procédez comme suit pour ajouter une logique métier qui initialise le contrôle de la visionneuse de rapports qui est intégrée à l'espace de travail **Gestion des réservations**.
 
 1. Ouvrez le concepteur d'écran **FMClerkWorkspace** pour étendre la définition de conception.
@@ -151,12 +151,12 @@ Vous avez terminé la tâche d'ajouter une logique métier pour initialiser le c
 > [!NOTE]
 > Vous pouvez accéder à la vue opérationnelle existante à l'aide des onglets de l'espace de travail sous le titre de la page.
 
-# <a name="reference"></a>Référence
+## <a name="reference"></a>Référence
 
-## <a name="pbireporthelperinitializereportcontrol-method"></a>Méthode PBIReportHelper.initializeReportControl
+### <a name="pbireporthelperinitializereportcontrol-method"></a>Méthode PBIReportHelper.initializeReportControl
 Cette section fournit des informations sur la classe d'aide utilisée pour inclure un état Power BI (ressource .pbix) à un contrôle de groupe d'écrans.
 
-### <a name="syntax"></a>Syntaxe
+#### <a name="syntax"></a>Syntaxe
 ```
 public static void initializeReportControl(
      str                 _resourceName,
@@ -167,7 +167,7 @@ public static void initializeReportControl(
      List                _defaultFilters = new List(Types::Class))
 ```
 
-### <a name="parameters"></a>Paramètres
+#### <a name="parameters"></a>Paramètres
 
 | Nom | Description |
 |---|---|

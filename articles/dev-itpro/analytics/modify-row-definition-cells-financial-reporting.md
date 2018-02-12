@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations
 ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
 ms.search.region: Global
@@ -33,7 +33,7 @@ ms.lasthandoff: 09/29/2017
 
 Cet article décrit les informations nécessaires pour chaque cellule dans une définition de ligne sur un état financier et explique comment entrer ces informations. 
 
-# <a name="specify-a-row-code-in-a-row-definition"></a>Spécifier un code de ligne dans une définition de ligne
+## <a name="specify-a-row-code-in-a-row-definition"></a>Spécifier un code de ligne dans une définition de ligne
 
 Dans les définitions de ligne, les nombres ou les libellés dans la cellule **Code de ligne** identifient chaque ligne dans la définition de ligne. Vous pouvez spécifier le code ligne de manière à vous référer aux calculs et aux totaux.
 
@@ -506,8 +506,7 @@ Un ensemble de valeurs de dimension est un groupe de valeurs de dimension auquel
 4.  Sélectionnez l'ensemble à supprimer, puis cliquez sur **Supprimer**. Cliquez sur **Oui** pour supprimer définitivement cet ensemble de valeurs de dimensions.
 
 
-<a name="see-also"></a>Voir également :
---------
+## <a name="see-also"></a>Voir également :
 
 [États financiers](financial-reporting-intro.md)
 

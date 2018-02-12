@@ -1,7 +1,7 @@
 --- 
 title: "Lancer un produit/produit générique à destination des entités juridiques"
 description: "Cette procédure indique comment lancer un produit ou un produit générique dans une ou plusieurs entités juridiques."
-author: josaw1
+author: BibiSp
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process

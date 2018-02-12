@@ -1,4 +1,4 @@
---- 
+---
 title: Estimer un ordre de fabrication
 description: "Vous pouvez exécuter cette procédure en utilisant les données de démonstration de la société USMF ou utiliser vos propres données."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -42,5 +42,4 @@ Vous pouvez exécuter cette procédure en utilisant les données de démonstrati
 1. Cliquez sur Gérer les coûts dans le volet Actions.
 2. Cliquez sur Afficher les détails du calcul.
     * Cette page affiche la répartition des coûts. Par exemple, vous pouvez afficher le prix de revient total par unité pour le produit fini dans la première ligne. Les lignes suivantes contiennent les coûts correspondant à la nomenclature, à la gamme de production, et aux coûts indirects.  
-
 

@@ -1,4 +1,4 @@
---- 
+---
 title: Lancer un ordre de fabrication
 description: "Cette procédure permet d'indiquer comment lancer un ordre de fabrication."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: johanho
@@ -39,5 +39,4 @@ Cette procédure permet d'indiquer comment lancer un ordre de fabrication. Les d
 5. Cochez la case Imprimer la fiche production.
 6. Cliquez sur OK.
 7. Fermez la page.
-
 

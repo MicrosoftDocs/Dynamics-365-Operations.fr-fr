@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: GeneralJournalEntryWorkspace
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -43,7 +44,7 @@ Vous pouvez répartir ou distribuer les montants en devises vers un ou plusieurs
 
 [![Processus d'entreprise](./media/GL-process.PNG)](./media/GL-process.PNG)
 
-# <a name="sales-tax"></a>Taxe
+## <a name="sales-tax"></a>Taxe
 Toutes les sociétés collectent et paient des taxes auprès de diverses administrations fiscales. Les règles et taux varient par pays/région, état, département et ville.
 Par ailleurs, les règles doivent être mises à jour périodiquement en cas de modification des conditions requises par les administrations fiscales. Les codes taxe contiennent les informations de base sur le montant collecté et payé auprès des administrations. Lors du paramétrage des codes taxe, vous devez définir les montants ou pourcentages qui doivent être collectés. Vous devez également définir les diverses méthodes d'application de ces montants ou pourcentages aux montants de transaction. Les rubriques de cette section fournissent des informations sur le paramétrage des codes taxe pour les méthodes et taux requis par vos administrations fiscales.
 
@@ -52,13 +53,13 @@ Par ailleurs, les règles doivent être mises à jour périodiquement en cas de 
  - [Règles d'arrondissement et de paiements de taxe](round-sales-tax-payments.md)
 
 
-### <a name="additional-resources"></a>Ressources supplémentaires
+## <a name="additional-resources"></a>Ressources supplémentaires
 
-#### <a name="whats-new-and-in-development"></a>Nouveautés et développements
+### <a name="whats-new-and-in-development"></a>Nouveautés et développements
 
 Accédez au [Calendrier de lancement de Microsoft Dynamics 365](https://roadmap.dynamics.com/) pour découvrir les nouvelles fonctions qui ont été lancées ou qui sont en développement. 
 
-#### <a name="blogs"></a>Blogs
+### <a name="blogs"></a>Blogs
 
 Vous trouverez des avis, des actualités et d'autres informations concernant la Comptabilité fournisseur et d'autres solutions sur le [Blog de Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
 
@@ -66,10 +67,10 @@ De nombreuses publications concernent la Comptabilité fournisseur dans le [blog
 
 Le [Blog de la communauté de partenaires Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) offre aux partenaires de Microsoft Dynamics une ressource unique pour découvrir les nouveautés et les tendances de MBS Operations.
 
-#### <a name="task-guides"></a>Guides de tâches
+### <a name="task-guides"></a>Guides de tâches
 Une aide supplémentaire est disponible sous forme de guides de tâche dans Finance and Operations. Pour accéder aux guides de tâche, cliquez sur le bouton Aide de n'importe quelle page.
 
-#### <a name="videos"></a>Vidéos
+### <a name="videos"></a>Vidéos
 
 Consultez les vidéos de procédure qui sont désormais disponibles sur la [chaîne YouTube de Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 

@@ -114,6 +114,7 @@
 #### [Personnalisation : superposition de couches et extensions](extensibility/customization-overlayering-extensions.md)
 ### Nouveautés
 #### [Modifications de l'extensibilité (juillet 2017)](extensibility/changes-july-2017.md)
+#### [Modifications de l'extensibilité dans Dynamics 365 for Finance and Operations, Enterprise edition 7.3](extensibility/extensibility-changes-73.md)
 ### Principes fondamentaux
 #### [Personnalisations intrusives](extensibility/intrusive-customizations.md)
 #### [Extensions de classe](extensibility/class-extensions.md)
@@ -138,14 +139,19 @@
 #### [Modifier les propriétés d'un contrôle d'écran](extensibility/modify-control-properties.md)
 #### [Modifier une étiquette](extensibility/change-label.md)
 #### [Étendre la portée de la souche de numéros](extensibility/extend-number-sequence-scope.md)
+#### [Ajouter une nouvelle dimension de stock](extensibility/inventory-dimensions.md)
+#### [Modifications de l'extensibilité du prix et de la remise](extensibility/pricing-app73.md)
+#### [Extension des mises en correspondance de table](extensibility/map-extensions.md)
+#### [Étendre les mises en correspondance de table utilisées comme interfaces](extensibility/maps-as-interfaces.md)
+#### [Étendre les mises en correspondance de table utilisées pour le contrôle de version](extensibility/maps-with-versioning.md)
 
 
 
 
 ## Performances
-### [Effectuer un suivi à l'aide de l'Analyseur de suivi](perf-test/trace-trace-tutorial.md)
-### [PerfSDK et test multi-utilisateur avec les Visual Studio team services](perf-test/perfsdk-tutorial.md)
-### [Diagnostiquer les problèmes et analyser les problèmes de performances à l'aide de l'Analyseur de suivi](perf-test/trace-parser.md)
+### [Effectuer un suivi à l'aide de Trace Parser](perf-test/trace-trace-tutorial.md)
+### [PerfSDK et test multi-utilisateur avec Visual Studio Team Services](perf-test/perfsdk-tutorial.md)
+### [Diagnostiquer les problèmes et analyser les problèmes de performances à l'aide de Trace Parser](perf-test/trace-parser.md)
 ### [Minuteur de performance](perf-test/performance-timer.md)
 ## Tester la prise en charge dans Visual Studio
 ### [Test et validations](perf-test/testing-validation.md)
@@ -523,19 +529,19 @@
 
 # [Mise à niveau et migration](migration-upgrade/upgrade-home-page.md)
 ## [Mise à niveau d'AX 2012 vers Dynamics 365 for Finance and Operations](migration-upgrade/upgrade-overview-2012.md)
-### [Analyser - Utiliser l'analyseur de mise à niveau pour planifier la mise à niveau](migration-upgrade/upgrade-analyzer-tool.md)
-### [Analyser – Utiliser le service de mise à niveau du code pour estimer l'effort de mise à niveau du code](migration-upgrade/analyze-code-upgrade.md)
-### [Analyser - Déployer un environnement de bac à sable](migration-upgrade/analysis-sandbox.md)
-### [Mise à niveau - Mise à niveau des données dans un environnement de développement](migration-upgrade/data-upgrade-2012.md)
-### [Mise à niveau - Tâches de mise à niveau des données AX 2012](migration-upgrade/prepare-data-upgrade.md)
-### [Mise à niveau - Mise à niveau des données dans un environnement de bac à sable](migration-upgrade/upgrade-data-sandbox.md)
-### [Validation - Test de limite](migration-upgrade/upgrade-cutover-testing.md)
-### [Validation - Tâches à exécuter après la mise à niveau](migration-upgrade/app-validation-process.md)
-### [Validation- Test fonctionnel](migration-upgrade/upgrade-functional-validation.md)
-### [Validation - Préparation au lancement](migration-upgrade/upgrade-go-live-prep.md)
+### [Mise à niveau d'AX 2012 - Utiliser l'analyseur de mise à niveau pour la planification](migration-upgrade/upgrade-analyzer-tool.md)
+### [Mise à niveau d'AX 2012 – Utiliser le service de mise à niveau du code pour estimer l'effort](migration-upgrade/analyze-code-upgrade.md)
+### [Mise à niveau d'AX 2012 - Déployer un environnement de bac à sable](migration-upgrade/analysis-sandbox.md)
+### [Mise à niveau d'AX 2012 - Mise à niveau des données dans un environnement de développement](migration-upgrade/data-upgrade-2012.md)
+### [Mise à niveau d'AX 2012 - Tâches de mise à niveau des données AX 2012](migration-upgrade/prepare-data-upgrade.md)
+### [Mise à niveau d'AX 2012 - Mise à niveau des données dans un environnement de bac à sable](migration-upgrade/upgrade-data-sandbox.md)
+### [Mise à niveau d'AX 2012 - Test de limite](migration-upgrade/upgrade-cutover-testing.md)
+### [Mise à niveau d'AX 2012 - Tâches à exécuter après la mise à niveau](migration-upgrade/app-validation-process.md)
+### [Mise à niveau d'AX 2012 - Réussite du test fonctionnel](migration-upgrade/upgrade-functional-validation.md)
+### [Mise à niveau d'AX 2012 - Préparation au lancement](migration-upgrade/upgrade-go-live-prep.md)
 
 
-### Modifications qui affectent la mise à niveau à partir de AX 2012
+### Modifications qui affectent la mise à niveau à partir d'AX 2012
 #### [Mise à niveau de document simple et de réévaluation de devise ](migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md)
 #### [Modèle de données de planification de ressources projet](migration-upgrade/data-model-changes-resource-management.md)
 #### [Modifications d'un sous-système de workflow](migration-upgrade/workflow-subsystem.md)
@@ -590,6 +596,8 @@
 ## [Traitement par lots](sysadmin/batch-processing-overview.md)
 ### [Vue d'ensemble du serveur de traitement par lots](sysadmin/batch-server-overview.md)
 ### [Créer un traitement par lots](sysadmin/tasks/create-batch-job.md)
+
+## [Créer des règles pour le conseiller en optimisation](sysadmin/optimization-advisor.md)
 
 # Lifecycle Services
 ## [Vue d'ensemble de Lifecycle Services](lifecycle-services/lcs.md)

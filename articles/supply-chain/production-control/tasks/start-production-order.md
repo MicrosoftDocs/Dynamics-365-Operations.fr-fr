@@ -1,4 +1,4 @@
---- 
+---
 title: "Démarrer un ordre de fabrication"
 description: "Cette procédure indique comment démarrer un ordre de fabrication à l'atelier."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -70,5 +70,4 @@ Cette procédure indique comment démarrer un ordre de fabrication à l'atelier.
 7. Cliquez sur Valider.
 8. Cliquez sur OK.
     * Dans le journal des fiches production, le temps passé sur les opérations individuelles est enregistré. Les quantités correctes et erronées peuvent également être déclarées.  
-
 

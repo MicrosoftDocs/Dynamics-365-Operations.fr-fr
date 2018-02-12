@@ -1,4 +1,4 @@
---- 
+---
 title: Terminer un ordre de fabrication
 description: "Cette procédure permet d'indiquer comment mettre fin à un ordre de fabrication."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -46,5 +46,4 @@ Cette procédure permet d'indiquer comment mettre fin à un ordre de fabrication
 1. Cliquez sur Gérer les coûts dans le volet Actions.
 2. Cliquez sur Afficher la comparaison du coût.
     * Après avoir terminé l'ordre de fabrication, vous pouvez comparer le prix de revient estimé par rapport au prix de revient réel afin d'obtenir une vue d'ensemble des écarts de production.  
-
 
