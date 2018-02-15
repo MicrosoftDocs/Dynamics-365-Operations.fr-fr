@@ -6,19 +6,22 @@ manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
+ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
-ms.search.scope: 
+ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
+ms.search.industry: retail
 ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: 346f5b7a5fbbe2c41aaa54e0b36fe0c46baec0af
-ms.openlocfilehash: bb4d8fae432eca7fe9163dcb0763fff5c8d465f0
+ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
+ms.openlocfilehash: 2fa843aee8927a1cb4f642c31d6f5683098d3c74
 ms.contentlocale: fr-fr
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/19/2018
 
 ---
 
@@ -49,9 +52,9 @@ Au niveau du point de vente, un paramètre de configuration est disponible pour 
 
 Par défaut, les lignes de commande affectées à un magasin sont marquées comme **Acceptées**. Cela signifie qu'elles sont censées être exécutées à partir du magasin affecté et ne sont pas soumises à d'autres affectations. Dans certains cas, les détaillants souhaitent accepter manuellement les commandes avant qu'elles puissent être exécutées. Par exemple, si un magasin manque de personnel et n'est pas en mesure d'exécuter les commandes, un directeur de magasin accepte uniquement le nombre de commandes à traiter qui, selon lui, peuvent être traitées correctement dans une journée donnée. Tant qu'une commande n'est pas acceptée, elle peut être réaffectée par l'arrière-guichet à un autre magasin. Ainsi, l'acceptation de commandes permet également d'indiquer qu'une commande a été reçue par un magasin et sera exécutée. 
 
-Les lignes de commande pour prélèvement en magasin sont toujours marquées comme **En attente** et ne sont pas soumises à acceptation.
+Les lignes de commande pour prélèvement en magasin sont marquées comme **En attente** et ne sont pas soumises à acceptation.
 
-Pour activer l'acceptation manuelle ou les lignes de commande, accédez à **Vente au détail** > **Canaux** > **Magasins de vente au détail** > **Tous les magasins de vente au détail**. Sélectionnez le magasin et cliquez sur l'ID magasin pour afficher les détails du magasin. Cliquez sur **Modifier**. Dans l'organisateur **Général**, localisez le sous en-tête **Exécution des commandes** et modifiez l'option **Acceptation manuelle** de **Non** en **Oui**. 
+Pour activer l'acceptation manuelle des lignes de commande, accédez à **Vente au détail** > **Canaux** > **Magasins de vente au détail** > **Tous les magasins de vente au détail**. Sélectionnez le magasin et cliquez sur l'ID magasin pour afficher les détails du magasin. Cliquez sur **Modifier**. Dans l'organisateur **Général**, localisez le sous en-tête **Exécution des commandes** et modifiez l'option **Acceptation manuelle** de **Non** en **Oui**. 
 
 ### <a name="enable-reject-order-line-capability"></a>Activer la fonction de rejet de ligne de commande
 
@@ -114,7 +117,7 @@ Par défaut, les commandes ont le statut **Accepté**. Le statut des commandes p
 
 **Emballer** - Cette option prend en charge deux actions : **Imprimer le bon de livraison** imprime un bon de livraison pour les lignes sélectionnées et **Marquer comme emballé** marque les lignes comme emballées et livrées dans l'arrière-guichet. Seules les lignes de commande appartenant à la même commande et présentant le même mode de livraison peuvent être emballées en même temps. Les formats de bon de livraison sont contrôlés dans le cadre des formats de réception. Pour plus d'informations sur le paramétrage des formats de réception, voir [Modèles de réception et impression](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/receipt-templates-printing).
 
-**Expédier** - Cette action marque les lignes sélectionnées comme **Livrées** dans l'arrière-guichet. Une fois qu'une ligne a été entièrement expédiée, elle n'apparaît plus dans la vue d'exécution.
+**Expédier** - Cette action marque les lignes sélectionnées comme **Livrées** dans l'arrière-guichet. Une fois qu'une ligne a été entièrement expédiée, elle n'apparaît plus dans la vue d'exécution des commandes.
 
 **Prélever** - Cette action ajoute les lignes à la vue des transactions pour le prélèvement. Si d'autres lignes de la commande ne sont pas en cours de prélèvement, elles sont ajoutées à la vue des transactions avec zéro comme quantité. Une fois qu'une ligne a été entièrement prélevée, elle n'apparaît plus dans la vue d'exécution des commandes. 
 

@@ -20,10 +20,10 @@ ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: e66208ccceb4c248c2704bb7358d77447e032205
-ms.openlocfilehash: 43360ea18ccc0fc4622f6da70ff10f2aca8b56c8
+ms.sourcegitcommit: 867c9952eb323a4c0566ec98c1a871041c0fd400
+ms.openlocfilehash: da749dec273be2afd8b6d24f4139746cebf5d741
 ms.contentlocale: fr-fr
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 02/01/2018
 
 ---
 
@@ -102,7 +102,7 @@ Pour reprendre une session d'enregistrement suspendue, cliquez sur **Continuer**
 L'enregistreur de tâches peut effectuer des captures d'écran de l'interface utilisateur de Retail Modern POS lorsque vous enregistrez un processus d'entreprise. Pour activer la fonction de capture d'écran, définissez l'option **Capturer les écrans** sur **Oui**, puis effectuez l'enregistrement. Une fois que l'enregistrement est terminé, cliquez sur **Arrêter** et téléchargez le document Word. Le document contient les étapes avec les captures d'écran appropriées.
 
 #### <a name="note"></a>Remarque
-> La fonctionnalité Capturer les écrans n'est pas prise en charge dans Modern POS.
+> La fonctionnalité Capturer les écrans n'est pas prise en charge dans Cloud POS.
 
 ### <a name="start-task-and-end-task"></a>Commencer la tâche et Terminer la tâche
 

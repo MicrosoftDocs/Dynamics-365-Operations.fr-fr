@@ -1,16 +1,17 @@
 ---
 title: "Vue d'ensemble de la gestion des congés et des absences"
-description: "Cette rubrique fournit une vue d'ensemble du module de gestion des congés et des absences. Ce module offre un cadre flexible pour définir le processus de gestion des absences. Des plans de congé et d'absence peuvent être créés pour déterminer la manière dont les employés accumulent ou se voient accorder des congés."
+description: "Cette rubrique fournit une vue d'ensemble du module de gestion des congés et des absences."
 author: ryansandness
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-talent
+ms.service: dynamics-365-talent
 ms.technology: 
+ms.search.form: LeaveAbsenceWorkspace
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Core, Operations
+ms.search.scope: Core, Operations, Talent
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
@@ -18,10 +19,10 @@ ms.author: ryansand
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 3fd3842f2e69e8f5d5e269a61ca7f3ec0ff471c0
+ms.sourcegitcommit: a523ff097eedf9a4a2cb0341b3be9d05abfa09fa
+ms.openlocfilehash: b0081ba5f1cbd63f03334af792c3d82c4f103f41
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 01/31/2018
 
 ---
 # <a name="leave-and-absence-management-overview"></a>Vue d'ensemble de la gestion des congés et des absences

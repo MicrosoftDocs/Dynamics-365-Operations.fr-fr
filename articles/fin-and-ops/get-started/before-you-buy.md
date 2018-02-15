@@ -1,7 +1,7 @@
 ---
 title: Avant d'acheter
 description: "Recommandation pas-à-pas à utiliser lorsque vous envisagez d'acheter Dynamics 365 for Finance and Operations, édition Entreprise."
-author: margoc
+author: kfend
 manager: AnnBe
 ms.date: 07/10/2017
 ms.topic: article
@@ -13,14 +13,14 @@ ms.reviewer: margoc
 ms.search.scope: Core, Operations
 ms.custom: 21761
 ms.search.region: Global
-ms.author: margoc
+ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
 ms.translationtype: HT
-ms.sourcegitcommit: c73eeaaf28df8db720431d4bcd317c9721baa99d
-ms.openlocfilehash: 75e2a31f1c0e82c6f0dcf92309d7673243e1bdc9
+ms.sourcegitcommit: 98740e5b992283b924adab34f291b9c1f2703457
+ms.openlocfilehash: d6c4e475925cdc94be614822ffb242eb7ac8cfa7
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 01/31/2018
 
 ---
 
@@ -35,7 +35,17 @@ Vous pouvez tester Dynamics 365 for Finance and Operations pendant 30 jours vi
 
 ## <a name="step-two-choose-a-deployment-option"></a>Étape deux : Choisissez une option de déploiement
 Vous pouvez à présent déployer Microsoft Dynamics 365 for Finance and Operations, Enterprise edition dans le cloud ou sur site. Les déploiements dans le cloud offrent un service d'ERP qui est entièrement géré par Microsoft, tandis que les déploiements sur site sont déployés localement dans le centre de données d'un client.
-Pour plus d'informations, voir [Options de déploiement](../../dev-itpro/deployment/choose-deployment-type.md). 
+
+Les points suivants doivent être pris en compte lorsque vous choisissez l'option de déploiement sur site :
+- Besoins en matière de réglementation et de conformité qui ne sont pas disponibles dans les [certifications du cloud](https://explore.dynamics.com/operations/microsoft-dynamics-365-for-operations-certification-priorities)
+- Processus d'entreprise déconnecté avec une connectivité Internet intermittente requise pour accéder à Microsoft Dynamics Lifecycle Services (LCS) pour la gestion du cycle de vie de l'application
+- [Fonctions non implémentées actuellement dans les déploiements sur site](features-not-implemented-on-prem.md)
+- [Configuration minimale de l'infrastructure requise](system-requirements-on-prem.md#minimum-infrastructure-requirements)
+
+> [!IMPORTANT]
+> Les déploiements sur site de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition ne sont pris en charge dans une infrastructure de cloud public, notamment Azure. 
+
+Pour plus d'informations, voir [Options de déploiement](../../dev-itpro/deployment/choose-deployment-type.md).
 
 ## <a name="step-three-buy-and-manage-a-subscription"></a>Étape trois : Validez et gérez un abonnement
 Pour explorer les options d'abonnement, accédez à la page de la tarification [Dynamics 365](https://www.microsoft.com/en-us/dynamics365/pricing). Cette page inclut plusieurs forfaits afin de s'adapter aux besoins de votre organisation.

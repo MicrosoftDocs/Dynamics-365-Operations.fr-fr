@@ -3,14 +3,14 @@ title: Planifier votre plan de comptes
 description: Cet article fournit des informations vous permettant de planifier le plan de comptes de votre organisation.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 01/04/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: DimensionConfigureAccountStructure, LedgerChartOfAccounts
 audience: Application User
-ms.reviewer: robinr
+ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.custom: 14051
 ms.assetid: 10edb129-33f0-4cf9-b2a7-4b7ffa09b229
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 848da7ec8f4a7915f3b78945b808b564f4510434
+ms.sourcegitcommit: ad55dd57483de4351c8501c5e226180fc73606aa
+ms.openlocfilehash: 3d2cdeaf2fdeb2f587f82c97249886fb8db49154
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 01/11/2018
 
 ---
 
@@ -45,12 +45,12 @@ Voici des facteurs dont vous devez tenir compte lorsque vous planifiez la struct
 -   les conditions de génération d'états de votre entité juridique ;
 -   le degré de spécification requis, à la fois pour les organisations externes et votre organisation.
 
-Créez le plan de comptes dans la page **Plan de comptes**. Les comptes principaux peuvent être créés à partir de la page **Plan de comptes** ou de la page **Comptes principaux**. Vos comptes principaux ne doivent pas utiliser de caractères spéciaux utilisés comme séparateurs de plan de comptes. Si vous avez un caractère spécial qui est identique à votre séparateur de plan de comptes, il peut y avoir une instabilité, ou la nécessité de toujours utiliser des recherches ou le menu volant pour saisir le compte et les combinaisons de dimensions. Pour plus d'informations, voir [Créer un compte principal](tasks/create-account-structures.md).
+Créez le plan de comptes dans la page **Plan de comptes**. Les comptes principaux peuvent être créés à partir de la page **Plan de comptes** ou de la page **Comptes principaux**. Vos comptes principaux ne doivent pas utiliser de caractères spéciaux utilisés comme séparateurs de plan de comptes. Si vous avez un caractère spécial qui est identique à votre séparateur de plan de comptes, il peut y avoir une instabilité, ou la nécessité de toujours utiliser des recherches ou le menu volant pour saisir le compte et les combinaisons de dimensions. Pour plus d'informations, voir [Créer un compte principal](tasks/create-main-account.md).
 
 
 Il est préférable de lier les comptes principaux aux catégories de compte principal, afin de pouvoir tirer profit des états financiers par défaut sans devoir apporter des modifications. Par conséquent, vous pouvez concevoir et tenir à jour les états plus rapidement et plus facilement. 
 
-Utilisez la page **Configurer les structures de compte** pour créer des structures de compte. Les structures de compte définissent les combinaisons valides. Les combinaisons, associées aux comptes principaux, forment un plan de comptes.  Pour plus d'informations, voir [Créer des structures de compte](tasks/create-main-account.md).
+Utilisez la page **Configurer les structures de compte** pour créer des structures de compte. Les structures de compte définissent les combinaisons valides. Les combinaisons, associées aux comptes principaux, forment un plan de comptes.  Pour plus d'informations, voir [Créer des structures de compte](tasks/create-account-structures.md).
 
 **Remplacements des entités juridiques** 
 

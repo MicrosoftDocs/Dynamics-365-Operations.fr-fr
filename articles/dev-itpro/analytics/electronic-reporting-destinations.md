@@ -19,10 +19,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: dedabf13044be30a67a945ff4ca2ecfb1eea8150
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: cbe0374ff21ff39ed2bbc8d647bd933ced9dcff6
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -52,7 +52,7 @@ Une fois que vous avez créé une référence, vous pouvez créer une destinatio
 
 [![Création d'une destination de fichier](./media/ger-destinations-1611-1024x586.jpg)](./media/ger-destinations-1611.jpg)
 
-**Remarque :** vous pouvez créer une destination de fichier pour chaque composant de sortie du même format, tel qu'un dossier ou un fichier sélectionné dans le champ **Nom du fichier**. Vous pouvez ensuite activer et désactiver des destinations individuelles pour la destination de fichier dans la boîte de dialogue **Paramètres de destination**. Le bouton **Paramètres** est utilisé pour contrôler l’ensemble des destinations pour une destination de fichier sélectionnée. Dans la boîte de dialogue **Paramètres de destination**, vous pouvez contrôler séparément chaque destination en définissant l'option **Activé** pour celle-ci.
+> ![REMARQUE] Vous pouvez créer une destination de fichier pour chaque composant de sortie de même format, tel qu'un dossier ou un fichier sélectionné dans le champ **Nom du fichier**. Vous pouvez ensuite activer et désactiver des destinations individuelles pour la destination de fichier dans la boîte de dialogue **Paramètres de destination**. Le bouton **Paramètres** est utilisé pour contrôler l’ensemble des destinations pour une destination de fichier sélectionnée. Dans la boîte de dialogue **Paramètres de destination**, vous pouvez contrôler séparément chaque destination en définissant l'option **Activé** pour celle-ci.
 
 [![Boîte de dialogue Paramètres de destination](./media/ger-destinations-settings-1611-1024x589.jpg)](./media/ger-destinations-settings-1611.jpg)
 
@@ -129,9 +129,9 @@ Deux types de privilèges et de droits sont utilisés pour les destinations d'é
 | ERDeveloper                         | Développeur d'états électroniques             | ERFormatDestinationConfigure        | Configurer la destination du format des états électroniques                |
 | ERFunctionalConsultant              | Consultant fonctionnel des états électroniques | ERFormatDestinationConfigure        | Configurer la destination du format des états électroniques                |
 | PaymAccountsPayablePaymentsClerk    | Commis au paiement de la comptabilité fournisseur            | ERFormatDestinationRuntimeConfigure | Configurer la destination du format des états électroniques durant l'exécution |
-| PaymAccountsReceivablePaymentsClerk | Commis au paiement de la comptabilité client         | ERFormatDestinationRuntimeConfigure | Configurer la destination du format des états électroniques durant l'exécution |
+| PaymAccountsReceivablePaymentsClerk | Commis au paiement de la comptabilité client         | ERFormatDestinationRuntimeConfigure | Configurer la destination du format de gestion des états électroniques durant l'exécution |
 
-**Remarque :** deux privilèges sont utilisés dans les droits précédents. Ces privilèges ont les mêmes noms que les droits correspondants : **ERFormatDestinationConfigure** et **ERFormatDestinationRuntimeConfigure**.
+> ![REMARQUE] Deux privilèges sont utilisés dans les droits précédents. Ces privilèges ont les mêmes noms que les droits correspondants : **ERFormatDestinationConfigure** et **ERFormatDestinationRuntimeConfigure**.
 
 ## <a name="frequently-asked-questions"></a>Forum aux questions
 ### <a name="i-have-imported-electronic-configurations-and-i-see-them-on-the-electronic-reporting-configurations-page-but-why-dont-i-see-them-on-the-electronic-reporting-destinations-page"></a>J’ai importé des configurations électroniques et je les vois sur la page Configurations des états électroniques. Mais pourquoi je ne les vois pas dans la page Destinations des états électroniques ?
@@ -154,7 +154,7 @@ La formule est spécifique à la configuration de l'état électronique. Par exe
 
 La condition préalable est que le format doit être disponible dans les configurations d'états électroniques. Si vous avez votre format, ouvrez la page **Destination des états électroniques** et créez une nouvelle référence pour cette configuration. Vous devez ensuite disposer de quatre destinations de fichiers, une pour chaque composant de sortie. Créez la première destination du fichier, donnez-lui un nom tel que **Dossier**, puis sélectionnez un nom de fichier qui représente un dossier dans votre configuration. Puis cliquez sur **Paramètres** et assurez-vous que toutes les destinations sont désactivées. Pour cette destination de fichier, le dossier ne sera pas créé. Par défaut, en raison des relations hiérarchiques entre les fichiers et les dossiers parents, les fichiers se comportent de la même manière. En d’autres termes, ils ne seront envoyés nulle part. Pour remplacer ce comportement par défaut, vous devez créer trois destinations de fichier supplémentaires, une pour chaque fichier. Dans les paramètres de la destination de chacun, vous devez activer la destination à laquelle le fichier doit être envoyé.
 
-# <a name="see-also"></a>Voir également :
+## <a name="see-also"></a>Voir également :
 
 [Vue d'ensemble des États électroniques](general-electronic-reporting.md)
 
