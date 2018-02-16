@@ -16,10 +16,10 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c788b018f621144755cc0b4ee4b55cb633cd81be
+ms.sourcegitcommit: 40bfc3f1f7c5fe1eec788d252cbe7be7d1c7536f
+ms.openlocfilehash: 3bd6eaa0518bd4752704836c04457dccd486d692
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 01/19/2018
 
 ---
 
@@ -28,6 +28,9 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 Pour créer et gérer des tâches d'importation et d'exportation de données dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, utilisez l'espace de travail **Gestion des données**. Par défaut, le processus d'importation et d'exportation de données crée une table intermédiaire pour chaque entité dans la base de données cible. Les tables intermédiaires permettent de vérifier, nettoyer ou convertir des données avant de les déplacer.
+
+> [!NOTE]
+> La présente rubrique suppose que vous êtes familiarisé avec les [entités de données](data-entities.md).
 
 ## <a name="data-importexport-process"></a>Processus d'importation et d'exportation de données
 Voici les étapes pour importer ou exporter des données.

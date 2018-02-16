@@ -3,7 +3,7 @@ title: "Contenu Power BI de gestion des coûts"
 description: "Cette rubrique décrit les données incluses dans le contenu Power BI de gestion des coûts."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 12/19/2017
+ms.date: 02/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: e0f9042b2647a484a70670d1d29e8036401b39f1
+ms.sourcegitcommit: b167d7577823bbc88d8e64952333110f9a652b64
+ms.openlocfilehash: 1f552e1ee0286326e3a2a8bb6a7bfb84df53b45d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 02/02/2018
 
 ---
 
@@ -30,10 +30,10 @@ ms.lasthandoff: 12/19/2017
 
 [!include[banner](../includes/banner.md)]
 
+> [Remarque] Ce pack de contenu a été déconseillé comme indiqué dans [Packs de contenu Power BI publiés sur PowerBI.com](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom).
+
 
 Cette rubrique décrit les données incluses dans le contenu Power BI de gestion des coûts. 
-
-# <a name="overview"></a>Vue d'ensemble
 
 Le contenu Microsoft Power BI **Gestion des coûts** est destiné aux contrôleurs de gestion ou aux responsables du stock au sein de l'organisation. Le contenu Power BI **Gestion des coûts** donne un aperçu de la gestion du stock et du stock des travaux en cours, et explique comment le coût se répercute sur les stocks par catégorie dans le temps. Les informations peuvent également être utilisées comme complément détaillé au tableau d'analyse.
 

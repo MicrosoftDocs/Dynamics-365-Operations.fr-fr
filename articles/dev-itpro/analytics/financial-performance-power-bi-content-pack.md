@@ -3,7 +3,7 @@ title: "Contenu Power BI des performances financières"
 description: "Cette rubrique décrit le contenu Power BI Performances financières."
 author: kweekley
 manager: AnnBe
-ms.date: 12/19/2017
+ms.date: 02/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,16 +18,18 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: 83ea868e7612f30afa1b99f374878f4ba415113f
+ms.sourcegitcommit: b167d7577823bbc88d8e64952333110f9a652b64
+ms.openlocfilehash: 53d0654608e99aa85a5911d76397fbc7fadbf26e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 02/02/2018
 
 ---
 
 # <a name="financial-performance-power-bi-content"></a>Contenu Power BI des performances financières
 
 [!include[banner](../includes/banner.md)]
+
+> [Remarque] Ce pack de contenu a été déconseillé comme indiqué dans [Packs de contenu Power BI publiés sur PowerBI.com](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom).
 
 Cette rubrique décrit le contenu Microsoft Power BI **Performances financières**. Elle décrit le tableau de bord et les états inclus, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
 

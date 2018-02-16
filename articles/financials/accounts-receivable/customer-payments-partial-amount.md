@@ -3,11 +3,12 @@ title: Paiements client pour un montant partiel
 description: "Il se peut que des clients effectuent un paiement inférieur au montant de la facture. Cet article décrit les différentes options pour gérer cette situation. Leur disponibilité dépend de vos exigences métier et de votre configuration."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 01/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CustPaymEntry
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6e4fac197e75b80609486be7ea7c50c4b48beeb7
+ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
+ms.openlocfilehash: 6b7494a05392cbee70e6d5883bae0295e8b55ac9
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 
@@ -41,7 +42,7 @@ Les clients peuvent effectuer un paiement partiel, parce qu'ils n'ont pas assez 
 Vous pouvez offrir aux clients un escompte de règlement pour le paiement d'une facture avant la date d'échéance. Par exemple, vous saisissez une facture d'une valeur de 100,00 qui indique un escompte de règlement de 2 % si la facture est payée au cours des 10 jours suivant sa date d'émission. Les conditions de date d'échéance sont de 30 jours. Si vous recevez un paiement de 98,00 d'ici 10 jours, vous entrez le paiement de 98,00. Puis, lorsque la facture est marquée pour règlement, l'escompte de règlement est prélevé automatiquement.
 
 ## <a name="partial-payments-with-cash-discounts"></a>Paiements partiels avec escomptes de règlement
-Si les clients font un paiement partiel, ils peuvent souhaiter faire un paiement partiel supplémentaire afin de régler complètement la facture. Pour accepter un escompte de règlement pour un paiement partiel, vous devez définir l'option **Calculer les escomptes de règlement pour les paiements partiels** sur **Oui** sur la page **Paramètres de la comptabilité client**. 
+Si les clients font un paiement partiel, ils peuvent souhaiter faire un paiement partiel supplémentaire afin de régler complètement la facture. Pour accepter un escompte de règlement pour un paiement partiel, vous devez définir l'option **Calcule les escomptes de règlement pour les paiements partiels** sur **Oui** sur la page **Paramètres des ventes**. 
 
 Par exemple, vous offrez un escompte de règlement de 2 % si la facture est payée au cours des 10 jours suivant sa date d'émission. Une facture d'un montant de 100,00 est validée. Si vous recevez un paiement de 49,00 dans les 10 jours, vous entrez un crédit de 49,00 dans un journal des paiements. Lorsque vous réglez le paiement partiel sur la page **Régler les transactions**, **1,00** apparaît dans le champ **Montant de l'escompte de règlement à accepter**. Le montant de la remise est validé dans un compte d'escompte de règlement. 
 

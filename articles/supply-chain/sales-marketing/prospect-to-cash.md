@@ -3,12 +3,12 @@ title: "Prospect en disponibilités"
 description: "Cette rubrique fournit une vue d'ensemble de la solution Prospect en disponibilités entre Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition et Microsoft Dynamics 365 for Sales."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 12/20/2017
+ms.date: 02/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: 
+ms.search.form: CustTable, SalesTable, EcoResProductListPage
 audience: Application User, IT Pro
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
@@ -17,13 +17,13 @@ ms.assetid:
 ms.search.region: global
 ms.search.industry: 
 ms.author: crytt
-ms.dyn365.ops.intro: July 2017 update
+ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: f169b0ee20a7ca0c8d05c8bdcf2c04d411722f01
-ms.openlocfilehash: ff166f89d13acbc3aefcbdb39f485881c81cb42c
+ms.sourcegitcommit: 602873e8af976c57f27ce53b76391516351755e3
+ms.openlocfilehash: 29d33d3ecf97c15fed0247d172ff6fb3bbdaa018
 ms.contentlocale: fr-fr
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -31,17 +31,21 @@ ms.lasthandoff: 12/21/2017
 
 [!include[banner](../includes/banner.md)]
 
-La solution Prospect en disponibilités fournit une synchronisation directe entre Dynamics 365 for Finance and Operations, Enterprise Edition et Dynamics 365 for Sales. Les modèles Prospect en disponibilités disponibles avec la fonction d'intégration de données activent le flux de données pour les comptes, contacts, produits, devis de vente, commandes client et factures client entre Finance and Operations et Sales. Bien que les données transitent entre Finance and Operations et Sales, vous pouvez effectuer des activités de vente et de marketing dans Sales, et vous pouvez gérer l'exécution de commande à l'aide de la gestion des stocks de Finance and Operations.
+La solution Prospect en disponibilités fournit une synchronisation directe entre Dynamics 365 for Finance and Operations, Enterprise Edition et Dynamics 365 for Sales. Les modèles Prospect en disponibilités disponibles avec la fonction d'intégration de données activent le flux de données pour les comptes, contacts, produits, devis de vente, commandes client et factures client entre Finance and Operations et Sales. Bien que les données transitent entre Finance and Operations et Sales, vous pouvez effectuer des activités de vente et de marketing dans Sales, et vous pouvez gérer l'exécution de commande à l'aide de la gestion des stocks de Finance and Operations. 
+
+Pour plus d'informations sur l'intégration de la solution Prospect en disponibilités, consultez la courte vidéo YouTube :
+
+> [!Video https://www.youtube.com/embed/AVV9x5x-XCg]
 
 Dans la version actuelle, la solution Prospect en disponibilités fournit les types suivants de synchronisation directe :
 
 - [Tenir à jour les comptes dans Sales et les synchroniser directement avec Finance and Operations](accounts-template-mapping-direct.md)
 - [Tenir à jour des produits dans Finance and Operations et les synchroniser directement avec Sales](products-template-mapping-direct.md)
 - [Tenir à jour les contacts dans Sales et les synchroniser directement avec les contacts ou les clients dans Finance and Operations](contacts-template-mapping-direct.md)
-- [Synchroniser le devis de vente directement à partir de Sales sur Finance and Operations](sales-quotation-template-mapping-sales-fin.md)
+- [Synchroniser le devis de vente directement entre Sales et Finance and Operations (modèle en attente de lancement)](sales-quotation-template-mapping-sales-fin.md)
 - [Synchroniser les commandes client directement à partir de Finance and Operations avec Sales](sales-order-template-mapping-direct.md)
-- [Synchroniser les commandes client directement entre Sales et Finance and Operations](sales-order-template-mapping-direct-two-ways.md)
-- [Synchroniser les factures client directement entre Finance and Operations et Sales](sales-invoice-template-mapping-direct.md)
+- [Synchroniser les commandes client directement entre Sales et Finance and Operations (modèle en attente de lancement)](sales-order-template-mapping-direct-two-ways.md)
+- [Synchroniser les factures client directement à partir de Finance and Operations avec Sales](sales-invoice-template-mapping-direct.md)
 
 Dans les versions antérieures, la solution Prospect en disponibilités fournit les types suivants de synchronisation non directe :
 
@@ -54,11 +58,15 @@ Dans les versions antérieures, la solution Prospect en disponibilités fournit 
 
 ## <a name="system-requirements-for-finance-and-operations"></a>Configuration requise pour Finance and Operations
 
-Pour utiliser la solution Prospect en disponibilités, vous devez installer les composants suivants :
+L'intégration de la solution Prospect en disponibilités est prise en charge dans les versions suivantes :
+
+### <a name="microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-73-december-2017"></a>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (décembre 2017)
+
+- Dynamics 365 for Finance and Operations, Enterprise Edition (décembre 2017) - Version d'application 7.3.11971.56116 avec mise à jour 12 de la plateforme (7.0.4709.41129)
 
 ### <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>Dynamics 365 for Finance and Operations, Enterprise Edition (juillet 2017)
 
-- Dynamics 365 for Finance and Operations, Enterprise Edition (juillet 2017) avec mise à jour 8 de la plateforme (version d'application 7.2.11792.56024 avec version de plateforme 7.0.4565.16212)
+- Dynamics 365 for Finance and Operations, Enterprise Edition (juillet 2017) avec mise à jour 8 de la plateforme (version d'application 7.2.11792.56024 avec version de plateforme 7.0.4565.16212).
 - Les correctifs suivants sont requis :
 
     - **[KB4045570](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4045570&bugId=3851320&qc=ac1145034fd04ab71ccc4d14aa012f245176712c9af7c36bb77a118726d46160)** – Ce correctif permet la synchronisation des commandes client entre Sales et Finance and Operations via la fonctionnalité d'intégration de données. Il fournit également plusieurs autres améliorations.
@@ -68,7 +76,7 @@ Pour utiliser la solution Prospect en disponibilités, vous devez installer les 
     > [!NOTE]
     > Vous devez uniquement installer KB4045570 car l'installation inclut les modifications issues des autres correctifs. 
 
-### <a name="dynamics-365-for-finance-and-operations-version-1611-november-2016"></a>Dynamics 365 for Finance and Operations, version 1611 (novembre 2016) 
+### <a name="dynamics-365-for-finance-and-operations-version-1611-november-2016"></a>Dynamics 365 for Finance and Operations, version 1611 (novembre 2016)
 
 - Dynamics 365 for Finance and Operations, version 1611 (novembre 2016) avec mise à jour 8 ou plus de la plateforme
 
@@ -106,4 +114,6 @@ Pour utiliser la solution Prospect en disponibilités, vous devez installer les 
     2. Sélectionnez **Show advanced**.
     3. Pour une installation rapide, sélectionnez une région. Si vous sélectionnez **Don't know**, le système recherchera toutes les régions et le temps d'installation sera plus long.
     4. Entrez le nom d'utilisateur et le mot de passe d'un utilisateur administrateur disposant de droits d'installation.
+
+
 
