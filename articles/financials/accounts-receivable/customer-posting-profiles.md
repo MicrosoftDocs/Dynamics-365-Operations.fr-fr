@@ -54,10 +54,6 @@ Permet de spécifier les comptes généraux utilisés dans la validation des tra
 Si vous souhaitez que toutes les transactions client aient le même profil de validation, paramétrez un seul profil de validation à l'aide de la valeur Tous du champ Code de compte. Spécifiez les valeurs suivantes pour paramétrer votre profil de validation :
 
 <table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th>Champ</th>
