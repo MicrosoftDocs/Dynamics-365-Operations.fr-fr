@@ -19,13 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2bc175ceec7ee8771e09f1dac4ede7b3fa619322
+ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
+ms.openlocfilehash: fca7fb75b965886c2ebc06b12940434f2ffc2543
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 02/27/2018
 
 ---
 # <a name="modify-an-electronic-reporting-format-by-reapplying-a-microsoft-excel-template"></a><span data-ttu-id="51ab3-103">Modifier un format de gestion d'états électroniques en réappliquant un modèle Microsoft Excel</span><span class="sxs-lookup"><span data-stu-id="51ab3-103">Modify an Electronic reporting format by reapplying a Microsoft Excel template</span></span>
+
+[!include[banner](../includes/banner.md)]
+
 <span data-ttu-id="51ab3-104">L'outil d'états électroniques (ER) est utilisé pour générer les documents commerciaux dans un format électronique.</span><span class="sxs-lookup"><span data-stu-id="51ab3-104">The Electronic reporting (ER) tool is used to generate business documents in an electronic format.</span></span> <span data-ttu-id="51ab3-105">Pour générer un document commercial, vous devez créer un format d'ER, puis utilisez le concepteur d'ER pour définir la mise en page du document commercial et spécifier les données à y inclure.</span><span class="sxs-lookup"><span data-stu-id="51ab3-105">To generate a business document, you must create an ER format, and then use the ER designer to define the layout of the business document and specify the data that should be included in it.</span></span> <span data-ttu-id="51ab3-106">Vous pouvez ensuite exécuter le format d'ER pour générer le document commercial.</span><span class="sxs-lookup"><span data-stu-id="51ab3-106">You can then run the ER format to generate the business document.</span></span>
 
 <span data-ttu-id="51ab3-107">L'outil d'ER peut être utilisé pour générer des documents commerciaux en tant que fichiers Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="51ab3-107">The ER tool can be used to generate business documents as Microsoft Excel files.</span></span> <span data-ttu-id="51ab3-108">Vous pouvez utiliser un document Excel comme modèle pour ces documents.</span><span class="sxs-lookup"><span data-stu-id="51ab3-108">You can use an Excel document as a template for these documents.</span></span> <span data-ttu-id="51ab3-109">Pour définir le modèle de document dans le concepteur d'ER, vous pouvez importer le contenu du document Excel que vous souhaitez utiliser comme modèle dans le format défini d'ER.</span><span class="sxs-lookup"><span data-stu-id="51ab3-109">To define the document layout in the ER designer, you can import the contents of the Excel document that you want to use as a template into the defined ER format.</span></span> <span data-ttu-id="51ab3-110">Pour plus d'informations et pour mettre en pratique ce scénario, visionnez le guide de tâche **ER Concevoir une configuration pour générer des états au format OPENXML** (qui fait partie du processus d'entreprise 7.5.4.3 Acquérir/Développer des composants de services/solutions informatiques (10677)).</span><span class="sxs-lookup"><span data-stu-id="51ab3-110">For more details, and to practice this scenario, play the task guide **ER Design a configuration for generating reports in OPENXML format** (part of the 7.5.4.3 Acquire/Develop IT service/solution components (10677) business process).</span></span>
