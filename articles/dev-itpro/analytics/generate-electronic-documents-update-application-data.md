@@ -28,6 +28,8 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="generate-electronic-documents-and-update-application-data-using-the-electronic-reporting-tool"></a>Générer des documents électroniques et mettre à jour les données d'application à l'aide de l'outil de gestion des états électroniques
 
+[!include[banner](../includes/banner.md)]
+
 Vous pouvez concevoir des formats d'états électroniques (ER) qui peuvent être utilisés dans l'application Finance and Operations pour générer des documents électroniques sortants. Vous pouvez également concevoir les formats ER qui analysent les documents électroniques entrants et utilisent le contenu de ces documents pour mettre à jour des données d'application. 
 
 Avec cette fonctionnalité, un format ER simple peut être utilisé pour générer les documents électroniques sortants, puis de mettre à jour les données de l'application. Cette fonction peut être utilisée dans les scénarios suivants :
