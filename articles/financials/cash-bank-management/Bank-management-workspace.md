@@ -17,13 +17,15 @@ ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 421dc85a3f8ccd490993412c12f8766f46d3242a
+ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
+ms.openlocfilehash: 3c38807e9ed3b2ced37ada35b72e388c125bd654
 ms.contentlocale: fr-fr
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 03/05/2018
 
 ---
 # <a name="bank-management-workspace"></a><span data-ttu-id="c1c17-106">Espace de travail de la gestion des banques</span><span class="sxs-lookup"><span data-stu-id="c1c17-106">Bank management workspace</span></span>
+
+[!include[banner](../includes/banner.md)]
 
 <span data-ttu-id="c1c17-107">L'espace de travail **Gestion des banques** affichent des informations concernant les comptes bancaires de la société.</span><span class="sxs-lookup"><span data-stu-id="c1c17-107">The **Bank management** workspace shows information that is related to company bank accounts.</span></span> <span data-ttu-id="c1c17-108">Cet espace de travail contient une vue **Synthèse** et une page **Analyses**.</span><span class="sxs-lookup"><span data-stu-id="c1c17-108">This workspace includes a **Summary** view and an **Analytics** page.</span></span> <span data-ttu-id="c1c17-109">La vue **Synthèse** affiche des vignettes de synthèse, des informations sur les comptes bancaires, un graphique du solde et des informations associées.</span><span class="sxs-lookup"><span data-stu-id="c1c17-109">The **Summary** view shows summary tiles, bank account information, a balance chart, and related information.</span></span> <span data-ttu-id="c1c17-110">La page **Analyses** utilise les fonctionnalités de Microsoft Power BI pour afficher les éléments visuels associés aux soldes de comptes bancaires.</span><span class="sxs-lookup"><span data-stu-id="c1c17-110">The **Analytics** page uses the capabilities of Microsoft Power BI to show visuals that are related to bank account balances.</span></span>
 

@@ -17,14 +17,16 @@ ms.author: v-semaz
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 49af11e8f047ba9a9993e7b0d188092f81d3d4cb
+ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
+ms.openlocfilehash: 0528cf2f40f552506cd5b3638045f65e3db11873
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 03/05/2018
 
 ---
 
 # <a name="corrective-invoicing"></a><span data-ttu-id="fa3e8-103">Facturation corrective</span><span class="sxs-lookup"><span data-stu-id="fa3e8-103">Corrective invoicing</span></span>
+
+[!include[banner](../includes/banner.md)]
 
 <span data-ttu-id="fa3e8-104">Un avoir ou un mémorandum d'avoir (mémo) est un document qui réduit ou élimine le montant que l'acheteur doit payer.</span><span class="sxs-lookup"><span data-stu-id="fa3e8-104">A credit note or credit memorandum (memo) is a document that reduces or eliminates the amount that the buyer has to pay.</span></span>
 
