@@ -25,6 +25,8 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="vendor-invoice-automation"></a>Automatisation des factures fournisseur
 
+[!include[banner](../includes/banner.md)]
+
 Cette rubrique explique les fonctionnalités disponibles pour l'automatisation de bout en bout des factures fournisseur, y compris les factures contenant des pièces jointes.
 
 Les organisations qui souhaitent simplifier leurs processus de compatibilité fournisseur identifient souvent le traitement des factures comme l'un des principaux domaines de processus dont l'efficacité doit être améliorée. Dans de nombreux cas, ces organisations confient le traitement des factures papier à un fournisseur de services de reconnaissance optique des caractères (OCR) tiers. Elles reçoivent ensuite les métadonnées de facture dans un format lisible par une machine avec une image numérisée de chaque facture. Pour faciliter l'automatisation, une solution de « dernier kilomètre » est créée pour activer la consommation de ces artefacts dans le système de facturation. Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition active automatiquement cette automatisation de « dernier kilomètre », par le biais d'une solution d'automatisation des factures.

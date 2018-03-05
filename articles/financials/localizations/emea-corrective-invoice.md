@@ -26,6 +26,8 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="corrective-invoicing"></a>Facturation corrective
 
+[!include[banner](../includes/banner.md)]
+
 Un avoir ou un mémorandum d'avoir (mémo) est un document qui réduit ou élimine le montant que l'acheteur doit payer.
 
 Un avoir répertorie les produits, les quantités, et les prix conclus pour des produits ou services que le vendeur a fourni à l'acheteur, mais que l'acheteur a retourné ou n'a pas reçus. Il peut être émis dans le cas de marchandises endommagées, d'erreurs, ou d'exonérations.

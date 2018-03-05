@@ -25,6 +25,8 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="bank-management-workspace"></a>Espace de travail de la gestion des banques
 
+[!include[banner](../includes/banner.md)]
+
 L'espace de travail **Gestion des banques** affichent des informations concernant les comptes bancaires de la société. Cet espace de travail contient une vue **Synthèse** et une page **Analyses**. La vue **Synthèse** affiche des vignettes de synthèse, des informations sur les comptes bancaires, un graphique du solde et des informations associées. La page **Analyses** utilise les fonctionnalités de Microsoft Power BI pour afficher les éléments visuels associés aux soldes de comptes bancaires.
 
 ## <a name="summary-view"></a>Vue Synthèse

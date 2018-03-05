@@ -27,6 +27,8 @@ ms.lasthandoff: 12/01/2017
 
 # <a name="cloud-and-on-premises-feature-comparison"></a>Comparaison des fonctions dans le cloud et sur site
 
+[!include[banner](../includes/banner.md)]
+
 Cette rubrique indique si chaque fonction est disponible dans ces produits :
 
 + Dynamics 365 for Finance and Operations, Enterprise edition (cloud)
