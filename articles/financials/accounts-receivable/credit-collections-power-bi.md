@@ -26,6 +26,8 @@ ms.lasthandoff: 12/18/2017
 
 # <a name="credit-and-collections-management-power-bi-content"></a>Contenu Power BI pour la gestion des crédits et des relances
 
+[!include[banner](../includes/banner.md)]
+
 Cette rubrique décrit les données incluses dans le contenu Power BI **Gestion des crédits et des relances**. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
 
 ## <a name="overview"></a>Vue d'ensemble

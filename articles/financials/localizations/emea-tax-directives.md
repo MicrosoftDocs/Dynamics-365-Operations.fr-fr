@@ -24,6 +24,9 @@ ms.lasthandoff: 09/29/2017
 ---
 
 # <a name="tax-directives-for-europe"></a>Instructions relatives à la taxe pour Europe
+
+[!include[banner](../includes/banner.md)]
+
 La Directive de l'UE prévoit une réglementation à suivre par tous les États membres en ce qui concerne les règles de facturation et les informations qui doivent être incluses lors de la création des factures. La Directive de l'UE énumère les informations requises par les fournisseurs pour leurs clients dans l'UE Par exemple, une facture peut inclure une référence qui décrit les raisons juridiques pour une catégorie de TVA à zéro ou une exonération. Si une facture règle une facture émise plus tôt, comme un avoir, une référence sans ambiguïté doit être faite à la facture d'origine.
 
 - Pour imprimer une description de codes taxe sur une facture client, la facture financière ou l'état des factures du projet, paramétrez le texte de référence aux instructions relatives à la taxe sur les codes de taxe.

@@ -62,7 +62,7 @@ Les étapes suivantes décrivent comment créer un champ personnalisé et l'ins�
 10.   Cliquez sur **Insérer** pour insérer les champs marqués dans la zone sélectionnée de l'écran. 
 11.   **Facultatif :** activez le mode **Déplacer** dans la barre d'outils de personnalisation pour déplacer les nouveaux champs vers l'emplacement souhaité dans la zone sélectionnée. Consultez [Personnaliser l'expérience utilisateur](personalize-user-experience.md) pour plus d'informations sur l'utilisation des différentes fonctions de personnalisation pour optimiser un écran pour votre utilisation personnelle.  
 
-### <a name="sharing-custom-fields-with-other-users"></a>Partage de champs personnalisés avec d'autres utilisateurs
+## <a name="sharing-custom-fields-with-other-users"></a>Partage de champs personnalisés avec d'autres utilisateurs
 Une fois que vous avez créé un champ personnalisé et l'avez affiché dans un écran, vous pouvez partager cette vue de page mise à jour contenant le nouveau champ avec d'autres utilisateurs du système. Cette opération peut être effectuée de deux manières à l'aide des fonctions de personnalisation du produit :
 
 -   La méthode recommandée est par le biais de l'administrateur système, qui peut envoyer une personnalisation à tous les utilisateurs ou à un sous-ensemble d'utilisateurs. Consultez [Personnaliser l'expérience utilisateur](personalize-user-experience.md) pour plus d'informations. 

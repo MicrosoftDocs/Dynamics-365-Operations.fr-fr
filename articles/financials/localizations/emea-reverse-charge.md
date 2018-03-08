@@ -24,6 +24,9 @@ ms.lasthandoff: 09/29/2017
 ---
 
 # <a name="reverse-charge-vat"></a>Taxe au preneur
+
+[!include[banner](../includes/banner.md)]
+
 Cette rubrique décrit une approche générique pour paramétrer la taxe sur la valeur ajoutée au preneur (TVA) pour les pays européens.
 
 La taxe au preneur est un schéma de taxe qui déplace la responsabilité comptable et la déclaration de TVA du vendeur vers l'acheteur des marchandises et/ou des services. Par conséquent, les destinataires des marchandises et/ou des services signalent la TVA d'aval (rôle de vendeur) et la TVA d'amont (rôle d'acheteur) dans leur déclaration de TVA.

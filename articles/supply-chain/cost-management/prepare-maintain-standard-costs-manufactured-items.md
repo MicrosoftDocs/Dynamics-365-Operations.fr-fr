@@ -30,6 +30,8 @@ ms.lasthandoff: 01/19/2018
 
 # <a name="prepare-to-maintain-standard-costs-for-manufactured-items"></a>Préparation de la mise à jour des coûts standard pour les articles fabriqués
 
+[!include[banner](../includes/banner.md)]
+
 Cette rubrique décrit les étapes de préparation de la mise à jour des coûts pour les articles fabriqués. Les étapes pour les articles fabriqués diffèrent légèrement des étapes pour les articles achetés.
 
 Les stratégies appliquées aux articles fabriqués peuvent affecter les calculs de coûts pour les articles fabriqués parents. Pour préparer la mise à jour des coûts pour les articles fabriqués, procédez comme suit :

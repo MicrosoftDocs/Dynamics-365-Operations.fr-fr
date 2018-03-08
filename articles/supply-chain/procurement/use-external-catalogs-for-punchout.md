@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: PurchTable, PurchVendorPortalRequests
+ms.search.form: PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: bis
 ms.search.scope: Core, Operations
@@ -27,6 +27,9 @@ ms.lasthandoff: 09/29/2017
 ---
 
 # <a name="use-external-catalogs-for-punchout-eprocurement"></a>Utiliser des catalogues externes pour PunchOut eProcurement
+
+[!include[banner](../includes/banner.md)]
+
 En utilisant des catalogues externes pour PunchOut eProcurement, il n'est pas nécessaire de tenir à jour les informations sur les produits de vos fournisseurs dans vos propres données principales. À la place, le chariot sur le site Web d'un fournisseur est converti en lignes de demande contenant les informations correctes sur les produits. 
 
 Vous devez éviter de tenir à jour les descriptions et les prix des produits de vos fournisseurs dans vos propres données principales. Utilisez plutôt des catalogues externes pour PunchOut eProcurement. Lorsque les employés créent des demandes, ils peuvent « pointer » vers le site du catalogue externe d'un fournisseur (autrement dit, ils quittent votre système et se rendent sur le site du fournisseur). Les produits ajoutés au chariot sur le site Web du fournisseur peuvent ensuite être convertis en lignes de demande. Ainsi, vous obtenez des informations correctes sur les produits : ID de produit, nom, prix, etc.

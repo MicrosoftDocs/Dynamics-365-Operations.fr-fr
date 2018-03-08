@@ -28,6 +28,8 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="design-a-questionnaire"></a>Conception d'un questionnaire
 
+[!include[banner](includes/banner.md)]
+
 Cette rubrique décrit le processus de création d'un questionnaire. La première étape consiste à concevoir le questionnaire. Lorsque vous créez un questionnaire, vous entrez non seulement les questions et les réponses, mais créez également la structure qui active l'enregistrement et l'organisation des réponses. 
 
 Plus la conception d'un questionnaire est soignée, plus la qualité des données collectées est élevée. Grâce à une conception soignée, vous pouvez mieux sélectionner les options appropriées du questionnaire lorsque vous en avez besoin. Les points suivants peuvent vous aider à planifier un questionnaire efficace :

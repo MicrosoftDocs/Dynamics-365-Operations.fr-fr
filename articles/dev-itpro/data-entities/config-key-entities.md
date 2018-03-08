@@ -26,6 +26,9 @@ ms.lasthandoff: 01/19/2018
 ---
 
 # <a name="configuration-keys-and-data-entities"></a>Clés de configuration et entités de données
+
+[!include[banner](../includes/banner.md)]
+
 Avant d'utiliser les entités de données pour importer ou exporter des données, nous vous recommandons de déterminer au préalable l'impact des clés de configuration sur les entités de données que vous comptez utiliser. 
 
 Pour en savoir plus sur les clés de configuration dans Finance and Operations, voir [État des codes licence et des clés de configuration](../sysadmin/license-codes-configuration-keys-report.md).

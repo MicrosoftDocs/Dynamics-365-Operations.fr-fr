@@ -26,6 +26,8 @@ ms.lasthandoff: 11/14/2017
 
 # <a name="create-an-engaging-onboarding-experience"></a>Créer une expérience d'intégration attractive
 
+[!include[banner](includes/banner.md)]
+
 Lorsqu'elle est efficace, l'intégration aide les nouveaux employés à effectuer leur travail plus efficacement tout en acquérant un sentiment d'appartenance dans leur nouveau rôle. L'intégration peut aider les nouveaux employés à comprendre leur nouveau rôle plus rapidement et avec plus de précision qu'ils ne l'auraient fait autrement et ils ont une longueur d'avance sur l'établissement de relations qui peuvent les aider à réussir. Sinon, une expérience d'intégration inefficace pourrait laisser les employés remettre en question leur décision de rejoindre votre organisation. Une étude menée par Gartner en 2014 a révélé que près d'un tiers des 1 005 personnes interrogées qui ont quitté un emploi au cours des six premiers mois l'ont fait parce que les directives données par leur direction n'étaient pas claires, que leur formation n'était pas efficace ou parce qu'ils n'ont pas établi de relations efficaces dans leur nouvel environnement.
 
 ## <a name="have-an-onboarding-program-in-place"></a>Mettre en place un programme d'intégration
