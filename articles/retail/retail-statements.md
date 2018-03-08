@@ -20,14 +20,17 @@ ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: f9ea6190823a5af951538e0da2760f05896ee993
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: ddceadb797af98f85670df72a335b2714fe2f01e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/07/2018
 
 ---
 
 # <a name="retail-statements"></a><span data-ttu-id="f440d-103">Relevés de la vente au détail</span><span class="sxs-lookup"><span data-stu-id="f440d-103">Retail statements</span></span>
+
+[!include[banner](includes/banner.md)]
+
 <span data-ttu-id="f440d-104">Dans Microsoft Dynamics 365 for Retail, le processus de validation des relevés est utilisé pour comptabiliser les transactions qui ont lieu dans le point de vente (PDV) du cloud ou le Modern POS (MPOS).</span><span class="sxs-lookup"><span data-stu-id="f440d-104">In Microsoft Dynamics 365 for Retail, the statement posting process is used to account for the transactions that occur in Cloud point of sale (POS) or Modern POS (MPOS).</span></span> <span data-ttu-id="f440d-105">Le processus de validation des relevés utilise le programme de distribution pour extraire un ensemble de transactions de PDV au siège du client.</span><span class="sxs-lookup"><span data-stu-id="f440d-105">The statement posting process uses the distribution schedule to pull a set of POS transactions into the headquarters (HQ) client.</span></span> <span data-ttu-id="f440d-106">Les paramètres définis sur les pages **Paramètres des ventes au détail** et **Magasins** permettent de sélectionner les transactions qui sont extraites dans des relevés individuels.</span><span class="sxs-lookup"><span data-stu-id="f440d-106">The parameters that are defined on the **Retail parameters** and **Stores** pages are used to select the transactions that are pulled into individual statements.</span></span>  
 
 <span data-ttu-id="f440d-107">L'illustration suivante présente le processus de validation du relevé.</span><span class="sxs-lookup"><span data-stu-id="f440d-107">The following illustration shows the statement posting process.</span></span> <span data-ttu-id="f440d-108">Dans ce processus, les transactions enregistrées dans le PDV sont transmises au client à l'aide de Retail Planification.</span><span class="sxs-lookup"><span data-stu-id="f440d-108">In this process, transactions that are recorded in the POS are transmitted to the client by using the Retail scheduler.</span></span> <span data-ttu-id="f440d-109">Une fois que le client a reçu les transactions, vous pouvez créer, calculer et valider les relevés de transaction du magasin.</span><span class="sxs-lookup"><span data-stu-id="f440d-109">After the client receives the transactions, you can create, calculate, and post the transaction statement for the store.</span></span> 

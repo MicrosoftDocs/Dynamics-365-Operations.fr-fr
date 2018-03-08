@@ -18,14 +18,16 @@ ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: a1206aea3f78246951581c1dc6338e39a0942ea2
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: d4af3436c609ad7612e72a1dcace2e3c0ffd078a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/07/2018
 
 ---
 
 # <a name="display-notifications-in-point-of-sale"></a><span data-ttu-id="1e52d-103">Afficher les notifications dans POS</span><span class="sxs-lookup"><span data-stu-id="1e52d-103">Display notifications in Point of Sale</span></span>
+
+[!include[banner](includes/banner.md)]
 
 <span data-ttu-id="1e52d-104">Dans l'environnement de vente au détail moderne actuel, diverses tâches sont affectées aux associés du magasin, par exemple aider les clients, saisir des transactions, effectuer des inventaires et réceptionner les commandes en magasin.</span><span class="sxs-lookup"><span data-stu-id="1e52d-104">In today's modern retail environment, store associates are assigned various tasks, such as helping customers, entering transactions, performing stock counts, and receiving orders in store.</span></span> <span data-ttu-id="1e52d-105">Le client POS permet aux associés d'effectuer ces tâches et bien plus, dans une même application.</span><span class="sxs-lookup"><span data-stu-id="1e52d-105">The Point of Sale (POS) client empowers the associates to do these tasks and much more, all in a single application.</span></span> <span data-ttu-id="1e52d-106">Avec plusieurs tâches à effectuer dans une journée, les associés doivent être informés lorsqu'un événement nécessite leur attention.</span><span class="sxs-lookup"><span data-stu-id="1e52d-106">With various tasks to be performed during a day, associates may need to be notified when something requires their attention.</span></span> <span data-ttu-id="1e52d-107">L'infrastructure de notification dans POS résout ce problème en autorisant les détaillants à configurer des notifications basées sur les rôles.</span><span class="sxs-lookup"><span data-stu-id="1e52d-107">The notification framework in the POS solves this problem by allowing the retailers to configure role-based notifications.</span></span> <span data-ttu-id="1e52d-108">Avec Dynamics 365 for Retail avec mise à jour 5 de l'application, ces notifications ne peuvent être configurées que pour les opérations POS.</span><span class="sxs-lookup"><span data-stu-id="1e52d-108">With Dynamics 365 for Retail with Application update 5, these notifications can be only configured for POS operations.</span></span>
 
