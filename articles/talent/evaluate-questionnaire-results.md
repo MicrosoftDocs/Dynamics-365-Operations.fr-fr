@@ -28,6 +28,8 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="view-and-evaluate-the-results-of-a-questionnaire"></a>Afficher et évaluer les résultats d'un questionnaire
 
+[!include[banner](includes/banner.md)]
+
 Cette rubrique explique comment afficher et évaluer les résultats des questionnaires que les personnes interrogées remplissent. 
 
 Une fois que des personnes interrogées ont rempli un questionnaire, vous pouvez afficher et évaluer les résultats du questionnaire en procédant comme suit :

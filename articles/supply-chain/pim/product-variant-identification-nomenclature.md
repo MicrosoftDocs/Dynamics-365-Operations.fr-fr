@@ -29,6 +29,8 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="nomenclature-of-product-variant-numbers-and-names"></a>Nomenclature de numéros et de noms de variante de produit
 
+[!include[banner](../includes/banner.md)]
+
 Cette rubrique décrit la procédure de paramétrage d'une nomenclature de numéros de produit pour remplacer le format [Numéro du produit générique - Configuration - Taille - Couleur - Style] fixe. La nouvelle nomenclature a un format ciblé qui inclut le numéro du produit générique, les dimensions du produit actif et les séparateurs de texte de votre choix. Vous pouvez également créer une nomenclature pour les noms de produit. Enfin, vous pouvez créer une nomenclature afin d'identifier les configurations créées par le configurateur de produit basé sur les contraintes. Ces nomenclatures peuvent contenir des attributs de votre choix.
 
 Les nouvelles nomenclatures des numéros et des noms de variante de produit vous permettent d'inclure des segments dans les identificateurs des variantes de produit. Ces segments peuvent inclure le numéro et le nom du produit générique, les ID et noms de dimension de produit, les souches de numéros, les constantes de texte et les attributs. Cette fonctionnalité vous permet de rechercher rapidement une variante de produit spécifique lorsque vous créez une commande client ou fournisseur. Vous créez des nomenclatures pour les numéros et les noms de variante de produit à l'aide de la page **Nomenclature de produit**. Pour ouvrir cette page, cliquez sur **Gestion des informations sur les produits** &gt; **Paramétrage**.

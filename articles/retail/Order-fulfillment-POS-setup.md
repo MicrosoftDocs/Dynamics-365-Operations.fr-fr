@@ -28,6 +28,8 @@ ms.lasthandoff: 01/19/2018
 
 # <a name="set-up-order-fulfillment-for-stores"></a>Paramétrer l'exécution des commandes pour les magasins
 
+[!include[banner](includes/banner.md)]
+
 ## <a name="overview"></a>Vue d'ensemble
 De nombreuses détaillants souhaitent optimiser l'exécution des commandes en autorisant les magasins à exécuter les commandes. L'exécution des commandes au niveau du magasin permet de faciliter les scénarios de surstock pour un magasin spécifique, ou peut être nécessaire d'un point de vue logistique dans les cas où un magasin a des capacités supplémentaires ou est situé à une distance d'expédition proche du client. Pour répondre à ce besoin, une opération d'exécution de commandes unifiée est disponible dans le point de vente.
 

@@ -26,6 +26,9 @@ ms.lasthandoff: 09/29/2017
 ---
 
 # <a name="personnel-actions-faq"></a>Actions du personnel [FAQ]
+
+[!include[banner](includes/banner.md)]
+
 Cette rubrique contient des réponses aux questions que vous pouvez vous poser si votre organisation utilise les actions de membre du personnel. Les actions de membre du personnel sont des étapes supplémentaires que vous devez effectuer lorsque vous effectuez certaines tâches relatives aux membres du personnel. Par exemple, parmi les tâches qui peuvent nécessiter des actions de membre du personnel, on trouve la création de postes, la modification des valeurs de poste existantes, l'embauche de nouveaux collaborateurs, le transfert de collaborateurs, la modification de la rémunération du collaborateur, la modification des affectations de poste, ou la fin de contrat d'un collaborateur.
 
 **Remarque :** Les actions du personnel ne sont disponibles que si les champs **Activer des actions de collaborateur** et **Activer les actions liées aux postes** ont été définies sur **Oui**, dans l'onglet **Actions du personnel** sur la page **Paramètres partagés de ressources humaines**. 

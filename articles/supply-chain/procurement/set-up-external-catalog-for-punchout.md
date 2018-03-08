@@ -28,6 +28,8 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>Paramétrer un catalogue externe pour PunchOut eProcurement
 
+[!include[banner](../includes/banner.md)]
+
 L'utilisation du catalogue externe vous permet de vous assurer que les informations sur les produits et les prix que vous traitez par la suite dans Dynamics 365 for Finance and Operations, Enterprise Edition, juillet 2017 sont exactes et actualisées. La demande peut ensuite être approuvée et convertie en commande fournisseur et une commande peut être passée auprès du fournisseur.
 
 Lorsque le catalogue externe est paramétré et qu'un employé prépare une demande, une option permet de rediriger vers un site externe, le catalogue externe, et de renvoyer le panier créé sur le site externe. Cette communication est basée sur le protocole cXML et doit être paramétrée entre les systèmes de l'organisation d'achat et de vente.

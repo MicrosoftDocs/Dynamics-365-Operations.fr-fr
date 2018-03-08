@@ -26,6 +26,8 @@ ms.lasthandoff: 12/14/2017
 ---
 # <a name="visibility-into-material-exceptions"></a>Visibilité des exceptions de matières
 
+[!include[banner](../includes/banner.md)]
+
 Dans l'espace de travail **Gestion de l'atelier de production**, trois vignettes vous donnent une meilleure visibilité des exceptions de matières premières pour les ordres de fabrication et les lots de commandes :
 
 - Lignes de matières non libérées nécessitant une attention

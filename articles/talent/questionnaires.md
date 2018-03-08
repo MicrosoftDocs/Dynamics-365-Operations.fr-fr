@@ -28,6 +28,8 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="questionnaires"></a>Questionnaires
 
+[!include[banner](includes/banner.md)]
+
 Cette rubrique fournit des informations générales sur les questionnaires, et renvoie vers des informations plus détaillées. Un questionnaire est un ensemble de questions utilisé pour collecter des informations à diverses fins. Vous pouvez concevoir, créer, distribuer et compléter des questionnaires, puis analyser leurs résultats. 
 
 Vous pouvez personnaliser un questionnaire pour l'adapter à vos besoins spécifiques à l'aide des diverses fonctionnalités disponibles dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Voici quelques exemples d'utilisation des questionnaires :

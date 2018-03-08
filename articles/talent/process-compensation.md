@@ -26,6 +26,9 @@ ms.lasthandoff: 11/06/2017
 ---
 
 # <a name="process-compensation"></a>Traiter la rémunération
+
+[!include[banner](includes/banner.md)]
+
 Le traitement de la rémunération vous permet de calculer les nouveaux montants de rémunération de vos employés en fonction des augmentations pour mérite, des cibles d'augmentation au mérite et des performances. Cette rubrique couvre le flux de base du traitement de la rémunération pour les régimes de rémunération fixe sans tenir compte des performances d'un employé.
 
 ## <a name="plan-the-new-compensation-amounts-and-budgets"></a>Organiser les nouveaux montants et budgets de rémunération
