@@ -1,9 +1,9 @@
 ---
 title: "Page d'accueil de la gestion de la chaîne d'approvisionnement"
-description: "Cette rubrique fournit une liste de ressources et d'autres informations sur les fonctionnalités de gestion de la chaîne d'approvisionnement de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
+description: "Cette page fournit une liste de ressources et d'autres informations sur les fonctionnalités de gestion de la chaîne d'approvisionnement de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 01/10/2018
+ms.date: 02/15/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 6c193a3a9deba215d4374ccffc3bf2d854fbd0f2
-ms.openlocfilehash: 9314a129b85cf6cb2d2ca379eafc142ce234d535
+ms.sourcegitcommit: cab2f165a70e5ce8f09f0391282e055e51afb225
+ms.openlocfilehash: bf3192a5189a3b18ad28f3c5cb0dd6d402824ed5
 ms.contentlocale: fr-fr
-ms.lasthandoff: 01/22/2018
+ms.lasthandoff: 02/21/2018
 
 ---
 
@@ -40,7 +40,7 @@ Accédez au <a href="https://roadmap.dynamics.com/">Calendrier de lancement de D
 Sélectionnez une zone de fonctionnalités pour en savoir plus.
 
 - [Contrôle de gestion](../financials/cost-accounting/cost-accounting-home-page.md)
-- [Gestion des coûts](cost-management/costing-sheets.md)  
+- [Gestion des coûts](cost-management/cost-management-home-page.md)  
 - [Gestion des stocks](inventory/inventory-home-page.md)
 - [Planification](master-planning/master-planning-home-page.md)
 - [Approvisionnements](procurement/procurement-sourcing-overview.md)
@@ -56,6 +56,7 @@ Ces courtes vidéos vous permettent de découvrir les nouvelles fonctions inclus
 
 -  [Intégration de la solution Prospect en disponibilités](https://youtu.be/AVV9x5x-XCg) 
 -  [Conseiller en optimisation](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
+-  [Utiliser le modèle d'entrepôt pour copier une configuration](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
 Ces courtes vidéos vous permettent de découvrir les nouvelles fonctions incluses dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 (juillet 2017).
 
@@ -67,17 +68,36 @@ Ces courtes vidéos vous permettent de découvrir les nouvelles fonctions inclus
 
 Ces enregistrements techniques traitent de la fonctionnalité du produit dans la version précédente de Finance and Operations, mais les mêmes concepts s'appliquent toujours et les procédures sont similaires dans la version actuelle. 
 
--  <a href="https://youtu.be/zotrj3SbCl4">Configurateur de produits dans Microsoft Dynamics AX</a>
--  <a href="https://youtu.be/7v8BPmEs9Dg">Planification - conseils et astuces pour résoudre les problèmes de performances</a>
--  <a href="https://youtu.be/RLXybx20B5o">Besoin d'aide ! La production est lente !</a>
--  <a href="https://mix.office.com/watch/wpf78tr7rjuh/">Traitement des APE entrants dans la gestion des entrepôts</a> 
--  <a href="https://www.youtube.com/watch?v=--_didmZKHo&t=10s">Optimisez votre système de gestion des entrepôts</a>
--  <a href="https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s">Gestion avancée des entrepôts R3 - Traitement entrant et réapprovisionnement minimum/maximum</a>
--  <a href="https://youtu.be/Og0gLlVp7jA">Gestion avancée des entrepôts R3 - Un jour dans la vie, traitement sortant et réapprovisionnement de la demande</a>
--  <a href="https://youtu.be/5w1MngVchBA">Libellés de la nouvelle gestion des entrepôts Microsoft Dynamics AX 2012 R3</a>
--  <a href="https://www.youtube.com/embed/QUxXUrN-7n4">Dynamics AX 2012 R3 : Gestion avancée des entrepôts - Un jour dans la vie du traitement de la fabrication</a>
--  <a href="https://youtu.be/y1jrd3A_k70">Opérations et activités de sous-traitance de la fabrication</a>
--  <a href="https://youtu.be/jgmTgJIgEFQ">Gestion du transport (TMS) dans la nouvelle application Microsoft Dynamics AX</a>
+**Gestion des coûts**
+
+-  [Vue d'ensemble de la gestion des coûts](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
+
+**Planification**
+
+-  [Étendre la fonctionnalité de prévision de la demande](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
+-  [Planification - conseils et astuces pour résoudre les problèmes de performances](https://youtu.be/7v8BPmEs9Dg)
+-  [Besoin d'aide ! La production est lente !](https://youtu.be/RLXybx20B5o)
+
+**Gestion des informations sur les produits**
+
+-  [Configurateur de produits dans Microsoft Dynamics AX](https://youtu.be/zotrj3SbCl4)
+
+**Gestion des entrepôts** 
+
+-  [Traitement des APE entrants dans la gestion des entrepôts](https://mix.office.com/watch/wpf78tr7rjuh)  
+-  [Optimiser votre système de gestion des entrepôts](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
+-  [Gestion avancée des entrepôts R3 - Traitement entrant et réapprovisionnement minimum/maximum](https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s)
+-  [Gestion avancée des entrepôts R3 - Un jour dans la vie, traitement sortant et réapprovisionnement de la demande](https://youtu.be/Og0gLlVp7jA)
+-  [Libellés de la nouvelle gestion des entrepôts Microsoft Dynamics AX 2012 R3](https://youtu.be/5w1MngVchBA)
+-  [Dynamics AX 2012 R3 : Gestion avancée des entrepôts - Un jour dans la vie du traitement de la fabrication](https://www.youtube.com/embed/QUxXUrN-7n4)
+
+**Contrôle de la production**
+
+-  [Opérations et activités de sous-traitance de la fabrication](https://youtu.be/y1jrd3A_k70)
+
+**Gestion du transport**
+
+-  [Gestion du transport (TMS) dans la nouvelle application Microsoft Dynamics AX](https://youtu.be/jgmTgJIgEFQ)
 
 ## <a name="blogs"></a>Blogs
 Plusieurs rubriques sur la fabrication et la gestion de la chaîne d'approvisionnement sont consultables sur le <a href="https://blogs.msdn.microsoft.com/axmfg/">Blog de l'équipe R&D de Dynamics AX chargée de la fabrication</a> et sur le <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">Blog de l'équipe R&D de Dynamics AX chargée de la gestion de la chaîne d'approvisionnement</a>. La plupart de ces articles ont été rédigés pour la version précédente de Finance and Operations, mais les mêmes concepts s'appliquent toujours et les procédures sont similaires dans la version actuelle. 

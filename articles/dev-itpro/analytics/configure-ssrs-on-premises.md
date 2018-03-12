@@ -26,6 +26,8 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-sql-server-reporting-services-for-an-on-premises-deployment"></a>Configurer SQL Server Reporting Services pour un déploiement sur site
 
+[!include[banner](../includes/banner.md)]
+
 Utilisez les étapes de cette rubrique pour configurer SQL Server Reporting Services (SSRS) pour le déploiement de votre système Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (sur site).
 
 1. Ouvrez l'application Gestionnaire de configuration de Reporting Services.

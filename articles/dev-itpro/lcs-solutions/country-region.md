@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a523ff097eedf9a4a2cb0341b3be9d05abfa09fa
-ms.openlocfilehash: 1cb4305b3ef425ec19ae63c8186bffef212b9890
+ms.sourcegitcommit: 1f76359878d162e93d8f8b7c11be529c43c94455
+ms.openlocfilehash: c1c180432e014c69b43612693790a1cac6e54c34
 ms.contentlocale: fr-fr
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/08/2018
 
 ---
 
@@ -217,6 +217,21 @@ Les sections suivantes répertorient les ressources par pays/région.
 -   [Méthodes d'amortissement des immobilisations](../../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md)    
 -   [Déplacer une immobilisation vers le stock](../../financials/localizations/emea-hun-fixed-asset-to-inventory.md)
 -   [Immobilisations à faible coût](../../financials/localizations/emea-hun-low-cost-fixed-assets.md)
+
+### <a name="india"></a>Inde
+
+- [Immobilisations](../../financials/localizations/apac-ind-fixed-assets.md)
+    - [Transfert des éléments de capital vers l'immobilisation](../../financials/localizations/tasks/apac-ind-transfer-capital-items.md)
+    - [Associer un calendrier journalier à un registre des immobilisations](../../financials/localizations/tasks/apac-ind-attach-day-based-calendar.md)
+    - [Configurer les paramètres pour calculer l'amortissement](../../financials/localizations/tasks/apac-ind-set-up-depreciation.md)
+    - [Paramétrer l'amortissement des groupes d'immobilisations pour les registres d'amortissement](../../financials/localizations/tasks/apac-ind-set-up-asset-group-dep.md)
+    - [Créer un groupe de modèles de stock pour les éléments de capital](../../financials/localizations/tasks/apac-ind-create-inventory-model-group.md)
+    - [Calcul de l'amortissement par poste pour les immobilisations (Inde)](../../financials/localizations/tasks/apac-ind-shift-depreciation-rates.md)
+    - [Définir le type de poste et de secteur pour les registres et les associer à une immobilisation](../../financials/localizations/tasks/apac-ind-books-shift-industry-types.md)
+- [Vue d'ensemble du moteur de taxe](../../financials/general-ledger/tax-engine.md)
+    - [Intégration du moteur de taxe](../../financials/general-ledger/tax-engine-integration.md)
+    - [FAQ sur les seuils de taxe](../../financials/localizations/apac-ind-tax-thresholds.md)
+    - [Extension du moteur de taxe](../../financials/general-ledger/extend-tax-engine-configurations.md)
 
 ### <a name="italy"></a>Italie
 
