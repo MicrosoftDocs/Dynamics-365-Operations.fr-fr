@@ -1,7 +1,7 @@
 ---
 title: "Gammes et opérations"
 description: "Cette rubrique fournit des informations sur les gammes et les opérations."
-author: YuyuScheller
+author: sorenva
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article

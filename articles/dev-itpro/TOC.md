@@ -9,7 +9,7 @@
 ## [Applications et architecture de serveur](dev-tools/application-stack-server-architecture.md)
 ## [Recevoir un exemplaire d'évaluation](dev-tools/get-evaluation-copy.md)
 ## [Souscrire un abonnement](dev-tools/sign-up-preview-subscription.md)
-## [Instances d'accès](dev-tools/access-instances.md)
+## [Déployer un environnement de développement et y accéder](dev-tools/access-instances.md)
 ## [Configuration requise pour le développement](dev-tools/development-system-requirements.md)
 ## Exemple d'application de gestion de flotte
 ### [Exemple d'application de gestion de flotte](dev-tools/fleet-management-sample.md)
@@ -360,7 +360,7 @@
 #### [Type ValueMetadata](mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md)
 
 # Intégration de données
-## [Modèles d'intégration](data-entities/integration-overview.md)
+## [Choisir une stratégie (importation/exportation) d'intégration de données](data-entities/integration-overview.md)
 
 ## API d'intégration de données
 ### [API du package de gestion des données](data-entities/data-management-api.md)
@@ -381,12 +381,12 @@
 
 ### [Intégration des données à l'aide de Common Data Service](data-entities/data-integration-cds.md) 
 #### [Configurer un prospect dans le scénario de disponibilités](../supply-chain/sales-marketing/prospect-to-cash.md)
-##### [Synchroniser les produits provenant de Finance and Operations sur les produits du module Sales](../supply-chain/sales-marketing/products-template-mapping.md)
-##### [Synchroniser les comptes provenant du module Sales sur les clients de Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping.md)
-##### [Synchroniser les contacts provenant du module Sales sur les contacts ou clients de Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping.md)
-##### [Synchroniser les en-têtes et les lignes de devis de vente provenant du module Sales sur Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping.md)
-##### [Synchroniser les en-têtes et les lignes de commande client provenant du module Finance and Operations sur Sales](../supply-chain/sales-marketing/sales-order-template-mapping.md)
-##### [Synchroniser les en-têtes et les lignes de facture client provenant du module Finance and Operations sur Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping.md)
+##### [Synchroniser les produits provenant de Finance and Operations sur les produits du module Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
+##### [Synchroniser les comptes provenant du module Sales sur les clients de Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
+##### [Synchroniser les contacts provenant du module Sales sur les contacts ou clients de Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
+##### [Synchroniser les en-têtes et les lignes de devis de vente provenant du module Sales sur Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
+##### [Synchroniser les en-têtes et les lignes de commande client provenant du module Finance and Operations sur Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
+##### [Synchroniser les en-têtes et les lignes de facture client provenant du module Finance and Operations sur Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
 ##### [Synchroniser directement les comptes provenant du module Sales sur les clients de Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
 ##### [Synchroniser directement les produits provenant de Finance and Operations sur les produits du module Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
 ##### [Synchroniser directement les contacts provenant du module Sales sur les contacts ou clients de Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
@@ -452,6 +452,8 @@
 
 ## [Apportez votre propre base de données](analytics/export-entities-to-your-own-database.md)
 
+## [Ressources pour répondre à une demande de données RGPD](gdpr/gdpr-home-page.md)
+
 # [Page d'accueil de la livraison en continu](dev-tools/continuous-delivery-home-page.md)
 ## [FAQ développement et livraison en continu](dev-tools/continuous-delivery-faq.md)
 ## [Exclure les packages de test de la sortie de version](dev-tools/exclude-test-packages.md)
@@ -515,6 +517,7 @@
 ### [Créer un projet sur site](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [Paramétrer et déployer les environnements sur site](deployment/setup-deploy-on-premises-environments.md)
 ### [Développer et déployer les modèles personnalisés sur les environnements sur site](deployment/develop-deploy-custom-models-on-premises.md)
+### [Configurer le proxy de contrepassation pour votre environnement sur site](deployment/onprem-reverseproxy.md)
 ### [Appliquer des mises à jour à un déploiement sur site](deployment/apply-updates-on-premises.md)
 ### [Redéployer un déploiement sur site](deployment/redeploy-on-prem.md)
 ### [Mettre à jour l'agent local](lifecycle-services/update-local-agent.md)
@@ -527,7 +530,7 @@
 ### [Installer un package déployable](deployment/install-deployable-package.md)
 ### [Résoudre les problèmes d'application de package](deployment/deployable-package-troubleshooting.md)
 
-# [Mise à niveau et migration](migration-upgrade/upgrade-home-page.md)
+# [Mises à niveau, mises à jour et correctifs](migration-upgrade/upgrade-home-page.md)
 ## [Mise à niveau d'AX 2012 vers Dynamics 365 for Finance and Operations](migration-upgrade/upgrade-overview-2012.md)
 ### [Mise à niveau d'AX 2012 - Utiliser l'analyseur de mise à niveau pour la planification](migration-upgrade/upgrade-analyzer-tool.md)
 ### [Mise à niveau d'AX 2012 – Utiliser le service de mise à niveau du code pour estimer l'effort](migration-upgrade/analyze-code-upgrade.md)
@@ -555,8 +558,7 @@
 ### [Modèles de fractionnement](dev-tools/model-split.md)
 ### [Utiliser des délégués pour résoudre les dépendances entre les modèles](migration-upgrade/delegates-migration.md)
 
-
-## Mise à niveau vers une mise à jour récente
+## Mise à niveau vers une mise à jour récente (cloud)
 ### [Processus de déplacement vers la dernière mise à jour](migration-upgrade/upgrade-latest-update.md)
 ### [Stratégie de cycle de vie](migration-upgrade/versions-update-policy.md)
 ### [Appliquer la dernière mise à jour de plateforme à votre environnement](migration-upgrade/upgrade-latest-platform-update.md)
@@ -564,13 +566,17 @@
 ### [Mettre à niveau un environnement de bac à sable](migration-upgrade/upgrade-sandbox-environment.md)
 ### [Mettre à niveau des données dans un environnement de développement ou de démonstration](migration-upgrade/upgrade-data-to-latest-update.md)
 ### [Mettre à niveau des outils de développement](dev-tools/update-development-tools.md)
+
+## Mise à niveau vers une mise à jour récente (sur site)
 ### [Appliquer des mises à jour à un déploiement sur site](deployment/apply-updates-on-premises.md)
 ### [Redéployer un déploiement sur site](deployment/redeploy-on-prem.md)
 
-## Correctifs et maintenance
+## Correctifs
 ### [Télécharger des correctifs à partir de Lifecycle Services](migration-upgrade/download-hotfix-lcs.md)
+### [Appliquer des mises à jour à un environnement cloud](deployment/apply-deployable-package-system.md)
 ### [Installer un correctif de métadonnées](migration-upgrade/install-metadata-hotfix-package.md)
 ### [Appliquer un correctif aux Reporting Services dans un environnement à boîte unique](migration-upgrade/patch-reporting-service-environment.md)
+### [Mettre à jour les outils de développement Visual Studio](dev-tools/update-development-tools.md)
 
 ## Obsolescences
 ### [API obsolètes](migration-upgrade/deprecated-apis.md)
