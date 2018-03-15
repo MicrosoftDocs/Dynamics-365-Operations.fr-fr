@@ -19,10 +19,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 799cd4a940813e39f8be6b4c127b9efabc88e909
+ms.sourcegitcommit: b16f4ea27f406f3d5d5957670bd32a73d2d55529
+ms.openlocfilehash: bb616f8102c67db3f8c3e872101d61657b6b64d1
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/05/2018
 
 ---
 

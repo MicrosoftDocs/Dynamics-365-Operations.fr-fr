@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5a651fcd386e9f976559a1fc540c5d9191ab632b
+ms.sourcegitcommit: 18ed011fa1c1aa35b4a401d51bffc6af19395577
+ms.openlocfilehash: 6a0455c5d86f953e270501a7f1648f7700f717d0
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/13/2018
 
 ---
 
@@ -87,6 +87,8 @@ La prévision de la demande dans Finance and Operations est un outil qui permet 
 [Surveillance de la précision de la prévision](monitor-forecast-accuracy.md)
 
 [Supprimer les valeurs hors norme des données de transaction historiques lors du calcul d'une prévision de la demande](remove-historical-outliers-calculating-demand-forecast.md)
+
+[Prolonger la fonctionnalité de prévision de la demande](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
 
 
 

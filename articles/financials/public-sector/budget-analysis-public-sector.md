@@ -3,7 +3,7 @@ title: "Analyse budgétaire dans le secteur public"
 description: "Cette rubrique décrit l'utilisation de la page d'analyse de budget pour afficher les produits et les dépenses par dimension financière, puis elle répond aux questions posées fréquemment, notamment les différences entre la page d'analyse de budget et la page de statistiques de contrôle budgétaire."
 author: twheeloc
 manager: AnnBe
-ms.date: 10/30/2017
+ms.date: 02/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: dfdaa28dce86f42faa3ae7def6da6c3618e111e0
+ms.sourcegitcommit: 74606b1378e94e8a6945a408520c8b68648970d8
+ms.openlocfilehash: 597af28f9b07c7f590882c4bfa3b3f9e96b3dd5d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 02/07/2018
 
 ---
 
@@ -32,13 +32,13 @@ ms.lasthandoff: 11/06/2017
 [!include[banner](../includes/banner.md)]
 
 
-Cette rubrique décrit l'utilisation de la page d'analyse de budget pour afficher les produits et les dépenses par dimension financière, puis elle répond aux questions posées fréquemment, notamment les différences entre la page d'analyse de budget et la page de statistiques de contrôle budgétaire. 
+Cette rubrique décrit l'utilisation de la page d'analyse de budget pour afficher les produits et les dépenses publiés par dimension financière, puis elle répond aux questions posées fréquemment, notamment les différences entre la page d'analyse de budget et la page de statistiques de contrôle budgétaire. 
 
 Cette rubrique décrit la fonctionnalité d'analyse budgétaire pour le secteur public. 
 
 Avant de lire cette rubrique, vous devez également lire [Budgétisation dans le secteur public](budgeting-public-sector.md). 
 
-Il est possible que vous deviez paramétrer les fonctionnalités de budgétisation suivantes pour le secteur public : La page **Analyse budgétaire** permet d'afficher les produits et les dépenses par dimension financière, à l'aide d'une combinaison de données comptables et de contrôle budgétaire. Vous pouvez afficher les montants et les détails de transaction récapitulés pour les budgets révisés, les dépenses réelles, les engagements et les engagements préalables. 
+Il est possible que vous deviez paramétrer les fonctionnalités de budgétisation suivantes pour le secteur public : La page **Analyse budgétaire** permet d'afficher les produits et les dépenses publiés par dimension financière, à l'aide d'une combinaison de données comptables et de contrôle budgétaire. Vous pouvez afficher les montants et les détails de transaction récapitulés pour les budgets révisés, les dépenses réelles, les engagements et les engagements préalables. 
 
 Les produits et les dépenses peuvent être récapitulés par les différents niveaux des dimensions financières. Par exemple, si les dimensions de budget sont les fonds, l'organisation et le compte principal, vous pouvez sélectionner **Fonds**, **Organisation** ou **Compte principal** pour voir l'activité financière récapitulative à ce niveau. 
 
@@ -61,8 +61,8 @@ Vous pouvez sélectionner un article dans la grille et effectuer un zoom avant p
 ### <a name="tips"></a>Conseils
 
 -   Vous pouvez afficher les écritures de registre budgétaire révisées pour la recherche d'analyse budgétaire en cliquant sur **Budget révisé**dans le volet Actions. Les types de budget pour les écritures de registre budgétaires révisées comprennent le budget d'origine, le report, le transfert et la révision. Ces montants proviennent des tableaux d'entrées de registre budgétaire.
--   Pour afficher les dépenses réelles pour la recherche d'analyse budgétaire, cliquez sur **Réel**. La page affecte la page d'origine du document, par exemple une écriture comptable avancée. Ces montants proviennent des tableaux d'entrées de compte général.
--   Pour afficher les engagements et les transactions référencées pour la recherche d'analyse budgétaire, cliquez sur **Engagement**. La page affecte la commande fournisseur pour la transaction sélectionnée. Ces montants proviennent des tableaux de suivi de la source budgétaire.
+-   Pour afficher les dépenses réelles pour la recherche d'analyse budgétaire, cliquez sur **Réel**. La page affecte la page d'origine du document, par exemple une écriture comptable avancée. Ces montants proviennent des tables d'entrée de compte général, sauf si l'option **Dépense avec report** est sélectionnée. Lorsque cette option est sélectionnée, les tables source budgétaire sont utilisées.
+-   Pour afficher les engagements et les transactions référencées pour la recherche d'analyse budgétaire, cliquez sur **Engagement**. La page affecte la réservation budgétaire générale (si implémentée) ou la commande fournisseur pour la transaction sélectionnée. Ces montants proviennent des tableaux de suivi de la source budgétaire.
 -   Pour afficher les engagements préalables et les transactions référencées pour la recherche d'analyse budgétaire, cliquez sur **Engagement préalable**. La page affecte la demande d'achat pour la transaction sélectionnée. Ces montants proviennent des tableaux de suivi de la source budgétaire.
 
 ## <a name="should-i-use-the-budget-control-statistics-page-or-the-budget-analysis-page"></a>Dois-je utiliser la page Statistiques de contrôle budgétaire ou la page Analyse budgétaire ?

@@ -3,7 +3,7 @@ title: Financial Insights
 description: "Financial Insights utilise Microsoft Power BI pour regrouper les indicateurs financiers de performance clés, les graphiques et les tableaux d'analyse."
 author: kweekley
 manager: AnnBe
-ms.date: 01/09/2018
+ms.date: 02/28/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
-ms.openlocfilehash: 3da5344ec6edec0af28aa21d45af962307231e67
+ms.sourcegitcommit: d527df21e791978b41527c01c2e6b68b393861ac
+ms.openlocfilehash: 90dc6214f1eb31440a3ec78a58c6a07394245cd2
 ms.contentlocale: fr-fr
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/28/2018
 
 ---
 
@@ -102,10 +102,15 @@ Actuellement, les données des états Power BI intégrés ne peuvent pas être l
 | Afficher les informations financières entre sociétés   | •   Dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3, ce droit n'est pas affecté à un rôle. • Dans la prochaine version, ce droit sera affecté au rôle Directeur financier. | •    Ce droit permet d'accéder à l'option de menu de l'espace de travail Vue d'ensemble d'un processus CFO. •    Par défaut, la société active est utilisée comme filtre. Toutefois, vous pouvez ajouter toutes les entités juridiques, que l'utilisateur ait accès ou non aux autres entités juridiques.             |
 
 
-## <a name="how-financial-statements-work"></a>Fonctionnement des tableaux d'analyse
-Bien que **Financial Insights** contienne des tableaux d'analyse, il ne remplace pas l'outil Financial Reporting dans Finance and Operations. Les tableaux d'analyse par défaut dans **Financial Insights** sont limités en portée et n'incluent pas tous les types de tableaux d'analyse. Financial Reporting est toujours l'outil principal pour la conception, la création et la génération de tableaux d'analyse statutaires.
+## <a name="financial-reporting-vs-finanical-insights"></a>Comparaison entre les états financiers et les perspectives financières
+Bien que les **perspectives financières** contiennent des tableaux d'analyse, elles ne remplacent pas l'outil État financier dans Finance and Operations. Les tableaux d'analyse par défaut dans les **perspectives financières** sont limités en portée et n'incluent pas tous les types de tableaux d'analyse. Financial Reporting est toujours l'outil principal pour la conception, la création et la génération de tableaux d'analyse statutaires.
 
-Outre les éléments visuels de l'espace de travail **Vue d'ensemble d'un processus CFO** d'origine, de nouveaux indicateurs de performance clés, graphiques et tableaux d'analyse sont désormais disponibles. Les tableaux d'analyse suivants sont disponibles :
+Le tableau de comparaison suivant permet de différencier les deux options :
+
+|                                         | **États financiers**                            | **Perspectives financières**             | |-----------------------------------------|----------------------------------------------------|---------- -------------------------| | **Modifier les états par défaut**                | Oui                                                | Non                                 | | **Créer de nouveaux états**                  | Oui                                                | Non                                 | | **Imprimer les états**                       | Oui                                                | Non                                 | | **Exporter vers Excel**                     | Oui          | Données brutes d'exportations limitées à Excel, et non un état formaté       | | **Prise en charge de la hiérarchie de génération d'états/hiérarchie d'organisation**   | Oui                               | Non                                 | | **Générer un état sur les données de comptabilité auxiliaire**       | Oui limité uniquement au fournisseur, client    | Oui fournisseur, client, groupes de fournisseurs/clients, adresses du fournisseur/client, etc.  | | **Devise de déclaration**      | Oui devise comptable et conversion en devise de déclaration       | Aucune devise comptable uniquement      | | **Sécurité**                | Oui Adhère à Finance and Operations et organigramme d'entreprise | Rapports limités à toutes les sociétés (quelle que soit la sécurité de Finance and Operations) ou uniquement la société active | | **Prise en charge de différents plans de comptes et exercices** | Oui                   | Non                   | | **Rapport sur les données externes**                              | Non                   | Non                                   | | **Prise en charge des consolidations**                               | Oui                          | Limité Peut générer des rapports sur plusieurs sociétés mais utiliser la devise comptable uniquement                                     |
+
+
+Outre l'interface utilisateur de l'espace de travail **Vue d'ensemble d'un processus CFO** d'origine, de nouveaux indicateurs de performance clés, graphiques et tableaux d'analyse sont désormais disponibles. Les tableaux d'analyse suivants sont disponibles :
 
 •   Balance comptable
 

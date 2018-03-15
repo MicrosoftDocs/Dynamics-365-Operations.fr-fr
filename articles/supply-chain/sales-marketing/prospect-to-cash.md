@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 602873e8af976c57f27ce53b76391516351755e3
-ms.openlocfilehash: 29d33d3ecf97c15fed0247d172ff6fb3bbdaa018
+ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
+ms.openlocfilehash: 62f328c5a6bf5343c97de0b7d907bbcfe2fcde4d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/23/2018
 
 ---
 
@@ -46,15 +46,6 @@ Dans la version actuelle, la solution Prospect en disponibilités fournit les ty
 - [Synchroniser les commandes client directement à partir de Finance and Operations avec Sales](sales-order-template-mapping-direct.md)
 - [Synchroniser les commandes client directement entre Sales et Finance and Operations (modèle en attente de lancement)](sales-order-template-mapping-direct-two-ways.md)
 - [Synchroniser les factures client directement à partir de Finance and Operations avec Sales](sales-invoice-template-mapping-direct.md)
-
-Dans les versions antérieures, la solution Prospect en disponibilités fournit les types suivants de synchronisation non directe :
-
-- [Tenir à jour les comptes dans Sales et les synchroniser avec Finance and Operations](accounts-template-mapping.md)
-- [Tenir à jour des contacts dans Sales et les synchroniser sur Finance and Operations](contacts-template-mapping.md)
-- [Tenir à jour des produits dans Finance and Operations et les synchroniser avec Sales](products-template-mapping.md)
-- [Créer des devis dans Sales et les synchroniser avec Finance and Operations](sales-quotation-template-mapping.md)
-- [Créer des commandes client dans Finance and Operations et les synchroniser avec Sales](sales-order-template-mapping.md)
-- [Créer des factures client dans Finance and Operations et les synchroniser avec Sales](sales-invoice-template-mapping.md)
 
 ## <a name="system-requirements-for-finance-and-operations"></a>Configuration requise pour Finance and Operations
 
@@ -87,7 +78,7 @@ L'intégration de la solution Prospect en disponibilités est prise en charge da
     - **[KB4033093](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4033093&bugId=3824604&qc=bd7e15e1fb56066b3a82ce48b691cf1ffbc934a7473fa888545b2211a8d416c5)** - La prise en charge de l'intégration de la solution Prospect en disponibilités via les entités de données est requise.
     
     > [!NOTE]
-    > Après avoir installé les correctifs, vous devez déclencher le traitement par lots suivant à partir de l'écran **SalesPopulateProspectToCash**. Cet écran est masqué, car vous n'en avez besoin qu'une seule fois. Pour accéder à l'écran, connectez-vous à l'environnement et ajoutez ce qui suit à l'URL dans l'adresse du navigateur : &mi=action:SalesPopulateProspectToCash, par exemple, https://ax123456.cloud.test.dynamics.com/?cmp=USMF&mi=action:SalesPopulateProspectToCash. Lorsque l'écran s'ouvre, cliquez sur OK. Un nouveau champ **LineCreationSequnceNumber** dans les tables **SalesLine**, **SalesQuotationLine** et **CustInvoiceTrans** est renseigné avec des valeurs uniques et la liste des produits est actualisée. Cela est nécessaire pour assurer l'intégration de la solution Prospect en disponibilités.
+    > Après avoir installé les correctifs, vous devez déclencher le traitement par lots suivant à partir de l'écran **SalesPopulateProspectToCash**. Cet écran est masqué, car vous n'en avez besoin qu'une seule fois. Pour accéder à l'écran, connectez-vous à l'environnement et ajoutez ce qui suit à l'URL dans le champ d'adresse du navigateur, &mi=action:SalesPopulateProspectToCash, par exemple, `https://ax123456.cloud.test.dynamics.com/?cmp=USMF&mi=action:SalesPopulateProspectToCash`. Lorsque l'écran s'ouvre, cliquez sur OK. Un nouveau champ **LineCreationSequnceNumber** dans les tables **SalesLine**, **SalesQuotationLine** et **CustInvoiceTrans** est renseigné avec des valeurs uniques et la liste des produits est actualisée. Cela est nécessaire pour assurer l'intégration de la solution Prospect en disponibilités.
 
 
 ## <a name="system-requirements-for-sales"></a>Configuration requise pour Sales
@@ -96,12 +87,6 @@ Pour utiliser la solution Prospect en disponibilités, vous devez installer les 
 
 - Dynamics 365 for Sales version 1612 (8.2.1.207) (DB 8.2.1.207) en ligne
 - Solution Prospect en disponibilités pour Dynamics 365 for Sales, version 1.15.0.0 (v15). 
-
-   > [!NOTE]
-   >
-   > Les modèles avec la version 1.0.0.0 et 1.0.0.1 sont pris en charge dans la solution Prospect en disponibilités pour Dynamics 365 for Sales, version 1.14.1.0
-   >
-   > Les modèles avec la version 2.0.0.0 et 2.1.0.0 sont pris en charge dans la solution Prospect en disponibilités pour Dynamics 365 for Sales, version 1.15.0.0
 
 ### <a name="install-the-prospect-to-cash-solution-for-sales"></a>Installer le Prospect pour une solution de disponibilités pour Sales
 

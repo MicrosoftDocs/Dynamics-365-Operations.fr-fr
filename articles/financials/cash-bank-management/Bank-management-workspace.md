@@ -17,10 +17,10 @@ ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 91a6c2e5aeee4a10ffbd574f99218d49f9a19bbc
+ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
+ms.openlocfilehash: 3c38807e9ed3b2ced37ada35b72e388c125bd654
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/05/2018
 
 ---
 # <a name="bank-management-workspace"></a>Espace de travail de la gestion des banques

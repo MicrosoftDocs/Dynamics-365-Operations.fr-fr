@@ -18,10 +18,10 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: fc8102d945faf9ad533f57ec1a45b0e0dc344963
-ms.openlocfilehash: c5942ecb80047628c863deb878c0959727ab57bb
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: fc0e71e2ffc2adbaed598f788141b651fbcc616a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/07/2018
 
 ---
 
@@ -56,7 +56,7 @@ Exigences réseau
 
 ## <a name="supported-microsoft-office-applications"></a>Applications Microsoft Office prises en charge
 
-*   Pour exécuter les compléments Microsoft Excel et Word, vous devez disposer de Microsoft Office 2016 pour Windows ou Mac. Pour plus d'informations sur les versions requises, voir [Dépannage de l'intégration d'Office] (../dev-itpro/office-integration/office-integration-troubleshooting.md "Dépannage de l'intégration d'Office").
+*   Pour exécuter les compléments Microsoft Excel et Word, vous devez disposer de Microsoft Office 2016 pour Windows ou Mac. Pour plus de détails sur les exigences en matière de versions, voir [Dépannage de l'intégration d'Office] (../dev-itpro/office-integration/office-integration-troubleshooting.md "Dépannage de l'intégration d'Office").
 *   Pour afficher les documents qui sont générés par la fonctionnalité Exporter vers Excel ou Exporter vers Word, vous devez disposer de Microsoft Office 2007 ou version ultérieure.
 
 ## <a name="update-policy"></a>Stratégie de mise à jour

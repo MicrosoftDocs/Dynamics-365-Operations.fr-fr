@@ -20,10 +20,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 5737d9c52727077d34c6f5553c9788bf07032914
-ms.openlocfilehash: 0521f0b443efb761e7d3f63182728dd836dbf8a0
+ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
+ms.openlocfilehash: 0f83735ec42e945c5e0abf8d72b83936e076e60e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 01/15/2018
+ms.lasthandoff: 02/27/2018
 
 ---
 
@@ -33,7 +33,9 @@ ms.lasthandoff: 01/15/2018
 
 
 > [!NOTE]
-> Cette rubrique décrit comment configurer l'entreposage pour les déploiements cloud. Si vous souhaitez savoir comment configurer l'entreposage pour les déploiements sur site, consultez [Entreposage pour les déploiements sur site](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/deployment/warehousing-for-on-premise-deployments).
+
+> Cette rubrique décrit comment configurer l'entreposage pour les déploiements cloud. Si vous souhaitez savoir comment configurer l'entreposage pour les déploiements sur site, consultez [Entreposage pour les déploiements sur site](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
+
 
 Cette rubrique décrit la procédure d'installation et de configuration de Microsoft Dynamics 365 for Finance and Operations - Entreposage.
 
@@ -44,7 +46,7 @@ L'application est disponible sur les systèmes d'exploitation Android et Windows
 
 | Plateforme                    | Version                                                                                                                                                                     |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Android                     | 4.4, 5.0, 6.0                                                                                                                                                               |
+| Android                     | 4.4, 5.0, 6.0, 7.0, 8.0                                                                                                                                                     |
 | Windows (UWP)               | Windows 10 (toutes les versions)                                                                                                                                                   |
 | Finance and Operations | Microsoft Dynamics 365 for Operations, version 1611 <br>- ou - <br>Microsoft Dynamics AX version 7.0/7.0.1 et Microsoft Dynamics AX Platform - Mise à jour 2 avec correctif. Voir l'article de la base de connaissances 3210014 |
 
@@ -93,7 +95,7 @@ Vous devez configurer l'application sur le périphérique pour vous connecter au
     + **ID du client Azure Active Directory** - L'ID du client est obtenu à l'étape 9 dans « Créer une application de service Web dans Active Directory ». 
     + **Question secrète du client Azure Active Directory** - La question secrète est obtenue à l'étape 11 dans "Créer une application de service Web dans Active Directory". 
     + **Ressource Azure Active Directory** - la ressource Azure Active Directory représente l'URL racine de Finance and Operations. **Remarque** : ne terminez pas ce champ avec une barre oblique inverse (/). 
-    + **Locataire Azure Active Directory** - Le locataire Azure Active Directory représente l'URL racine de Finance and Operations : https://login.windows.net/your-AD-tenant-ID. Par exemple : https://login.windows.net/contosooperations.onmicrosoft.com.
+    + **Locataire Azure Active Directory** - Le locataire Azure Active Directory représente l'URL racine de Finance and Operations : `https://login.windows.net/your-AD-tenant-ID`. Exemple : `https://login.windows.net/contosooperations.onmicrosoft.com.` 
     <br>**Remarque** : ne terminez pas ce champ avec une barre oblique inverse (/). 
     + **Société** - Accédez à l'entité juridique de Finance and Operations à laquelle vous souhaitez que l'application se connecte. <br>[![wh-12-app-connection-settings](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
 4.  Sélectionnez le bouton **Précédent** dans le coin supérieur gauche de l'application. L'application se connecte maintenant à votre serveur Finance and Operations et l'écran de connexion du collaborateur d'entrepôt s'affiche. <br>[![wh-13-log-in-screen](./media/wh-13-log-in-screen-180x300.png)](./media/wh-13-log-in-screen.png)
@@ -103,7 +105,7 @@ En cas de périphérique perdu ou compromis, vous devez supprimer l'accès Finan
 
 1.  Dans Finance and Operations, accédez à **Administration du système** &gt; **Paramétrage** &gt; **Applications Azure Active Directory**.
 2.  Supprimez la ligne correspondant au périphérique auquel vous souhaitez supprimer l'accès. Mémorisez l'**ID client** utilisé pour le périphérique supprimé, vous en aurez besoin ultérieurement.
-3.  Connectez-vous au portail Azure à l'adresse <https://portal.azure.com>.
+3.  Connectez-vous au portail Azure à l'adresse suivante : <https://portal.azure.com>.
 4.  Cliquez sur l'icône **Active Directory** dans le menu de gauche, puis vérifiez que vous vous trouvez dans le répertoire approprié.
 5.  Dans la liste, cliquez sur **Enregistrements d'application**, puis sur l'application à configurer. La page **Paramètres** s'affiche avec les informations de configuration.
 6.  Assurez-vous que l'**ID client** de l'application est identique à celui de l'étape 2 de cette section.

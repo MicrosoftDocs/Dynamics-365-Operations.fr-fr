@@ -1,6 +1,6 @@
 ---
-title: Rechercher des produits et des variantes de produits lors de la saisie de commande
-description: "Utilisez le champ <strong>Numéro de l'article</strong> pour rechercher des produits et des variantes de produits lorsque vous créez manuellement une ligne de commande client ou une ligne de commande fournisseur.  Cela vous permet de rechercher rapidement des variantes de produits lorsque vous avez uniquement la chaîne de configuration ou l'une des dimensions de produit disponibles."
+title: Recherche de produits et de variantes de produits lors de la saisie de commande
+description: "Utilisez le champ <strong>Numéro de l'article </strong>pour rechercher des produits et des variantes de produits lorsque vous créez manuellement une ligne de commande client ou une ligne de commande fournisseur.  Cela vous permet de rechercher rapidement des variantes de produits lorsque vous avez uniquement la chaîne de configuration ou l'une des dimensions de produit disponibles."
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a834cb513d95c0244a29e1f9ec196020698c5983
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 08715b4c31c42dfa23d72b1035a1e7cc737c13a2
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 02/07/2018
 
 ---
 
@@ -72,7 +72,7 @@ Parmi les identificateurs et dimensions de produits et de variantes de produits 
 
 Accédez à la page **Ventes et marketing &gt; Paramétrage &gt; Recherche &gt; Critères de recherche**. La page **Critères de recherche** vous permet de définir des critères pour le client, le prospect, et la recherche de produit. Assurez-vous de filtrer la page à l'aide de critères de recherche de produit. Vous pouvez le faire en passant à **Produit** dans le menu de la page.  
 
-Pour ajouter le numéro de produit d'affichage aux critères de recherche, cliquez sur **Nouveau** dans le menu de la page. Cela ajoute un nouvel enregistrement dans la grille **Critères de recherche**. Ouvrez la recherche de colonne **Nom de champ** et choisissez **DisplayProductNumber**. Pour ajouter la configuration du produit aux critères de recherche, créez un enregistrement dans la grille **Critères de recherche ** et choisissez **configId** dans la colonne **Nom de champ**. De la même manière, créez un enregistrement avec **Nom de champ** **InventColorId** pour la dimension de la couleur, **InventSizeId** pour la dimension de la taille, et **InventStyleId** pour la dimension du style.
+Pour ajouter le numéro de produit d'affichage aux critères de recherche, cliquez sur **Nouveau** dans le menu de la page. Cela ajoute un nouvel enregistrement dans la grille **Critères de recherche**. Ouvrez la recherche de colonne **Nom de champ** et choisissez **DisplayProductNumber**. Pour ajouter la configuration du produit aux critères de recherche, créez un enregistrement dans la grille **Critères de recherche** et choisissez **configId** dans la colonne **Nom de champ**. De la même manière, créez un enregistrement avec **Nom de champ** **InventColorId** pour la dimension de la couleur, **InventSizeId** pour la dimension de la taille, et **InventStyleId** pour la dimension du style.
 
 ### <a name="step-2-populate-the-database-table-that-is-used-for-product-search"></a>Étape 2 : Remplir la table de la base de données utilisée pour la recherche de produit
 

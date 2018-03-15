@@ -18,14 +18,16 @@ ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: ec6cb212766dd90fa9db7719a2119419ecb935c7
-ms.openlocfilehash: e0aa0e576f88fd497472aa4141704a66d51605c3
+ms.sourcegitcommit: 997b6843fb729ed204e4e8ec5369c5a380efc25e
+ms.openlocfilehash: fb36f6ce81c5e781e3c98132f18ecbd84d0d4089
 ms.contentlocale: fr-fr
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/12/2018
 
 ---
 
 # <a name="store-order-fulfillment"></a>Exécution des commandes en magasin
+
+[!include[banner](includes/banner.md)]
 
 De nombreuses détaillants souhaitent optimiser l'exécution des commandes en autorisant les magasins à exécuter les commandes. L'exécution des commandes au niveau du magasin permet de faciliter les scénarios de surstock pour un magasin spécifique, ou peut être nécessaire d'un point de vue logistique dans les cas où un magasin a des capacités supplémentaires ou est situé à une distance d'expédition proche du client. Pour répondre à ce besoin, une opération d'exécution de commandes unifiée est disponible dans le point de vente.
 
@@ -56,7 +58,7 @@ Les lignes peuvent être sélectionnées à l'aide de la fonction **Sélectionne
 
 ## <a name="line-details"></a>Détails de ligne
 
-Les détails de la ligne peuvent être affichés à l'aide du menu volant Détails de la ligne. Lorsque ce menu est utilisé, deux onglets sont disponibles pour afficher des informations supplémentaires pour la ligne sélectionnée. Le premier onglet, **Détails de la ligne** affiche les détails de la ligne proprement dite, comme la quantité commandée et la quantité restante. Des détails supplémentaires sont fournis, notamment la quantité prélevée, emballée et facturée ainsi que le mode de livraison et l'adresse de livraison. L'onglet **Détails de la commande** fournit des informations sur l'en-tête de commande, notamment le client, l'ID client, le numéro de commande, le total de la commande et le solde.
+Les détails de la ligne peuvent être affichés à l'aide du menu volant Détails de la ligne. Lorsque ce menu est utilisé, trois onglets sont disponibles pour afficher des informations supplémentaires pour la ligne sélectionnée. Le premier onglet, **Détails de la ligne** affiche les détails de la ligne proprement dite, comme la quantité commandée et la quantité restante. Des détails supplémentaires sont fournis, notamment la quantité prélevée, emballée et facturée ainsi que le mode de livraison et l'adresse de livraison. L'onglet **Détails de la commande** fournit des informations sur l'en-tête de commande, notamment le client, l'ID client, le numéro de commande, le total de la commande et le solde. L'onglet **Stock** affiche des informations sur la ligne sélectionnée en termes d'inventaire physique disponible, d'inventaire réservé et d'inventaire commandé.
 
 Si plusieurs lignes sont sélectionnées, le menu volant des détails de la ligne de commande indique uniquement que plusieurs lignes sont sélectionnées. Pour afficher les détails d'une seule ligne, effacez les lignes jusqu'à ce qu'il n'en reste qu'une seule. 
 

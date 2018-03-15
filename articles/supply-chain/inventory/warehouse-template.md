@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: 87ade03ec2ba78c4d7f5832bfa6dc1b7eabd8d94
+ms.sourcegitcommit: a05fec7b79003d5b98470d85644d70bd1dbac285
+ms.openlocfilehash: 9e0c61505a8af864d7ff38655e7e896c4f6ccb65
 ms.contentlocale: fr-fr
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 02/06/2018
 
 ---
 
@@ -93,6 +93,11 @@ Vous pouvez télécharger un fichier zip pour le package de données. Ce fichier
 5. Sélectionnez **Importer**. Dans la vue **Améliorée**, vous pouvez utiliser l'option **Filtrer** pour obtenir un aperçu rapide des problèmes qui peuvent se produire pendant l'importation.
 
 L'option **Afficher le journal des exécutions** fournit des informations détaillées sur chaque entité de données importée. Vous pouvez utiliser la vue des données intermédiaires pour accéder rapidement aux données cibles. Vous pouvez ainsi voir l'apparence des données importées sur les pages associées de l'application. Lorsque vous utilisez les modèles de données par défaut, la séquence d'importation pour chaque entité de données fonctionne de la manière prédéfinie, afin de garantir que toutes les données dépendantes sont importées en premier. Si les entités de données personnalisées font partie du projet, vous devez vérifier que la séquence correcte est définie. Pour plus d'informations, voir [Modèles de données de configuration](../../dev-itpro/data-entities/configuration-data-templates.md).
+
+Pour en savoir plus sur l'utilisation du modèle d'entrepôt pour copier la configuration d'un entrepôt d'une entreprise à une nouvelle entreprise dans la même instance, consultez cette vidéo de 3 minutes sur YouTube.
+
+> [!Video https://www.youtube.com/embed/K2WIfFlqJYs]
+
 
 ## <a name="related-topic"></a>Rubrique connexe
 

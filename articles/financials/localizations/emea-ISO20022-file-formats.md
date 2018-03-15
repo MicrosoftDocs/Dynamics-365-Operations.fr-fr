@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CustPaymMode, CustBankAccounts, VendPaymMode, VendBankAccounts
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -16,16 +17,17 @@ ms.author: v-lenest
 ms.search.validFrom: 2017-06-01
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: fcab30f03aebf7dbe76d5b3b64260f726f291fb8
+ms.sourcegitcommit: 07d09512ef612b41bf527b74496fa440f23851fc
+ms.openlocfilehash: 1492e4d8220a3d515145d97ef8dad048727d97c8
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/14/2018
 
 ---
 
 # <a name="import-iso20022-files"></a>Importer des fichiers ISO20022
 
-## <a name="overview"></a>Vue d'ensemble
+[!include[banner](../includes/banner.md)]
+
 Vous pouvez importer les fichiers de paiement qui ont les formats suivants :
 
  - **Avis de crédit camt.054 ISO20022** : Importez des paiements entrants à partir d'un fichier dans ce format dans le journal des paiements client.
@@ -40,7 +42,7 @@ Vous devez effectuer les tâches préalables suivantes pour importer les message
 4. Sur la page **Comptes bancaires**, paramétrez des comptes bancaires d'entité légale en entrant les informations suivantes : IBAN ou numéro de compte bancaire, et code SWIFT ou numéro d'acheminement, devise et adresse.
 
     > [!NOTE]
-    > Si vous envisagez d'utiliser le rapprochement bancaire avancé, sous l'organisateur **Rapprochement**, définissez l'option **Rapprochement bancaire avancé** sur **Oui**. Si vous envisagez de rapprocher les paiements importés non validés, définissez l'option **Utiliser les relevés bancaires comme confirmation des paiements électroniques** sur **Oui**.
+        > Si vous envisagez d'utiliser le rapprochement bancaire avancé, sous l'organisateur **Rapprochement**, définissez l'option **Rapprochement bancaire avancé** sur **Oui**. Si vous envisagez de rapprocher les paiements importés non validés, définissez l'option **Utiliser les relevés bancaires comme confirmation des paiements électroniques** sur **Oui**.
 
 5. Facultatif : Sur la page **Mappage de code de transaction**, paramétrez la mise en correspondance entre les codes de transaction bancaire du fichier et les types de transaction bancaire.
 6. Si le fichier contient des frais de transaction que vous souhaitez valider avec le paiement entrant, créez des frais de paiement sur la page **Frais de paiement client**. Puis, sur la page **Modes de paiement**, associez les frais de paiement au compte bancaire dans le paramétrage de frais de paiement.
@@ -53,9 +55,7 @@ Vous devez effectuer les tâches préalables suivantes pour importer les message
 ## <a name="import-the-camt054-credit-advice-file-into-the-customer-payment-journal"></a>Importer le fichier de l'avis de crédit camt.054 dans le journal des paiements client
 1. Sur la page **Lignes du journal des paiements client**, cliquez sur **Fonctions** > **Importer les paiements**.
 2. Sélectionnez le mode de paiement incluant les paramètres requis pour le format camt.054 ISO20022.
-3. Indiquez les paramètres requis et le chemin d'accès du fichier, puis cliquez sur **OK**.
-
-Le fichier est importé.
+3. Indiquez les paramètres requis et le chemin d'accès du fichier, puis cliquez sur **OK**. Le fichier est importé.
 
 ## <a name="prerequisites-for-importing-files-in-the-pain002-status-return-and-camt054-debit-advice-formats-into-the-ap-payment-transfer-journal"></a>Conditions préalables pour l'importation de fichiers dans le statut du retour pain.002 et l'avis de débit camt.054 dans le journal de transfert de paiement d'achats
 Vous devez effectuer les tâches préalables suivantes avant d'importer les messages de la banque aux formats ISO20022 suivants sur la page **Transfert de paiement fournisseur** : messages du statut du retour pain.002.001.003 et avis de débit camt.054.001.002.
