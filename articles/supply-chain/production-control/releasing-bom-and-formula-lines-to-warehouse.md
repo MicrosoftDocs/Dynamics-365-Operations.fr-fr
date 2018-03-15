@@ -18,14 +18,16 @@ ms.author: johanho
 ms.search.validfrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: 6aec3532a36a2c1e67ee0c189e45a352ad7670f6
+ms.sourcegitcommit: a1e539c283800035327196520f6438904c94126d
+ms.openlocfilehash: 0affc07293c886c4c65f99259eb19f1998f277f6
 ms.contentlocale: fr-fr
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/04/2018
 
 ---
 
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Lancer les lignes de nomenclature et de formule dans l'entrepôt
+
+[!include[banner](../includes/banner.md)]
 
 Cette rubrique décrit le processus de lancement des matières premières des lignes de nomenclature et de formule dans l'entrepôt. Lorsque vous lancez une ligne de nomenclature ou de formule dans l'entrepôt, le système détermine d'abord si les matières sont déjà disponibles dans l'emplacement d'entrée en production de l'atelier où les matières sont consommées pour le processus de production.
 
@@ -40,6 +42,9 @@ La méthode utilisée pour lancer les lignes de nomenclature et de formule est c
 
 - **Lancer les lignes de nomenclature et de formule dans le cadre du lancement d'un ordre de fabrication ou d'un lot de commandes** – Dans cette méthode, les lignes de nomenclature et de formule d'un ordre de fabrication ou d'un lot de commandes sont lancées dans le cadre du processus de lancement de la commande. Généralement, lors du lancement d'un ordre de fabrication ou d'un lot de commandes, les tâches de production sont affectées aux employés de l'atelier, et les documents de production sont imprimés. Durant ce processus, le statut de la commande est également modifié en **Lancé**.
 - **Lancer les lignes de nomenclature et de formule via un traitement par lots ou en tant qu'interaction manuelle** – Dans cette méthode, les lignes de nomenclature et de formule ne peuvent être lancées que via le traitement par lots **Lancement automatique des lignes de nomenclature et de formule** ou en tant qu'interaction manuelle. Pour lancer manuellement les lignes de nomenclature et de formule, dans la page de liste des ordres de fabrication ou la page des détails de l'ordre de fabrication, dans le volet Actions, sélectionnez **Libérer dans l'entrepôt**.
+
+Pour une démonstration rapide de la façon de libérer des lignes de nomenclature et des formules en production à l'aide d'un traitement par lots, visionnez cette petite vidéo YouTube :
+[!Video https://www.youtube.com/embed/8urAJn50dQ8]
 
 ## <a name="releasing-the-bom-and-formula-lines-by-using-a-batch-job"></a>Lancement des lignes de nomenclature et de formule à l'aide d'un traitement par lots
 
@@ -79,6 +84,9 @@ Pour contrôler les opérations pour lesquelles des matières doivent être lanc
 L'illustration suivante présente un ordre de fabrication contenant deux opérations, 10 et 20. Dans cet exemple, si vous limitez le lancement à l'opération 10, seules les matières M9203 sont lancées.
 
 ![Exemple de lancement de matières par numéro d'opération](media/two-operations.PNG)
+
+Pour une démonstration rapide de la façon de lancer des matières en proportion à la quantité de produits finis, regardez cette petite vidéo YouTube :
+[!Video https://www.youtube.com/embed/Rm3ojAz6Zu0]
 
 ### <a name="release-material-in-proportion-to-the-amount-of-finished-goods"></a>Lancer les matières sur la base de la quantité de produits finis
 

@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 809a1466b0f4674f503bc654175d8f94b37a6508
-ms.openlocfilehash: 2dfa04f280249884af2a237807fb283059444a6c
+ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
+ms.openlocfilehash: 018aee917c13f576759ebd812d31cbc9d83e2d1a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 02/23/2018
 
 ---
 # <a name="create-a-configuration-provider-and-mark-it-as-active-for-electronic-reporting-er"></a>Créer un fournisseur de configuration et le marquer comme actif pour la gestion des états électroniques (ER)
@@ -33,11 +33,10 @@ Les étapes suivantes expliquent comment un utilisateur affecté au rôle d'admi
 1. Accédez à Administration d'organisation > Espaces de travail > États électroniques.
 2. Cliquez sur Fournisseurs de configuration.
 3. Cliquez sur Nouveau.
-    * Un enregistrement fournisseur a un nom et une URL uniques. Consultez le contenu de cette page et ignorez cette procédure si un enregistrement pour Litware, Inc.(http://www.litware.com) existe déjà.  
+    * Un enregistrement fournisseur a un nom et une URL uniques. Examinez le contenu de cette page et ignorez cette procédure s'il s'agit d'un enregistrement pour Litware, Inc. (`http://www.litware.com`) qui existe déjà.  
 4. Tapez Litware, Inc. dans le champ Nom.
     * Litware, Inc.  
-5. Tapez http://www.litware.com dans le champ d'adresse Internet.
-    * http://www.litware.com  
+5. Dans le champ Adresse Internet, tapez `http://www.litware.com`.
 6. Cliquez sur Enregistrer.
 7. Fermez la page.
 

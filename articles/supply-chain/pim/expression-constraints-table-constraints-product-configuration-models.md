@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: 7aeb0438182fe177ac83580f03cbb547c79fd08a
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 3206e53c4f2659c6d9b9be64b01ac28cdd17bc88
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/07/2018
 
 ---
 
@@ -249,7 +249,7 @@ Vous ne pouvez pas utiliser de mots clés réservés comme nom de solveur pour l
 <a name="see-also"></a>Voir également :
 --------
 
-[Création d'une contrainte d'expression (Guide de tâches)(tasks/add-expression-constraint-product-configuration-model.md)
+[Création d'une contrainte d'expression (Guide de tâches)](tasks/add-expression-constraint-product-configuration-model.md)
 
 [Ajouter un calcul à un modèle de configuration de produit (guide de tâche)](tasks/add-calculation-product-configuration-model.md)
 

@@ -16,10 +16,10 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 40bfc3f1f7c5fe1eec788d252cbe7be7d1c7536f
-ms.openlocfilehash: 3bd6eaa0518bd4752704836c04457dccd486d692
+ms.sourcegitcommit: e444168f249e798fa68b9b082556aa8e5e7d8113
+ms.openlocfilehash: 0e1c5120bf8558b955b66e059a8be8bbec2c2ce1
 ms.contentlocale: fr-fr
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/13/2018
 
 ---
 
@@ -50,6 +50,9 @@ Voici les étapes pour importer ou exporter des données.
 6. Nettoyez les tables intermédiaires.
 
 Les autres sections de cette rubrique fournissent plus de détails sur chaque étape du processus.
+
+> [!NOTE]
+> Afin d'actualiser l'écran Importation/exportation de données pour afficher la dernière progression, utilisez l'icône d'actualisation d'écran. L'actualisation au niveau du navigateur n'est pas recommandée car elle interrompt les tâches d'importation/d'exportation qui ne sont pas exécutées par lots.
 
 ## <a name="create-an-import-or-export-job"></a>Créer une tâche d'importation ou d'exportation
 Une tâche d'importation ou d'exportation de données peut être exécutée une ou plusieurs fois.
