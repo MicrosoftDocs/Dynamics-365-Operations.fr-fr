@@ -37,10 +37,11 @@
 ## [Options de paiement](work-with-payments.md)
 
 # Paramétrage et gestion du canal
-## [Initialiser les données d'origine dans un environnement de vente au détail](enable-configure-retail-functionality.md)
+## [Initialiser les données d'origine dans un environnement Retail](enable-configure-retail-functionality.md)
 ## [Définir les canaux de vente au détail](define-maintain-retail-channels.md)
+## [Gestion des assortiments](assortments.md)
 ## [Vue d'ensemble du magasin en ligne](online-stores.md)
-## [Configuration et installation d'une station matérielle de vente au détail](retail-hardware-station-configuration-installation.md)
+## [Configuration et installation d'une Retail hardware station](retail-hardware-station-configuration-installation.md)
 ## [Pointage et présence - Retail](retail-time-attendance.md)
 
 # Modern Point of Sale (MPOS) et Cloud POS
@@ -55,6 +56,7 @@
 ## Mise en page de l'écran
 ### [Configurer les mises en page d'écran pour le POS](pos-screen-layouts.md)
 ### [Installer le concepteur de mise en page de Retail POS](install-pos-layout-designer.md)
+### [Choisir les paramètres de notification](Notifications-POS.md)
 ### [Paramètres de langue et d'utilisateur de POS](pos-application-user-language-settings.md)
 ### [Définir des images pour MPOS](set-up-manage-images-retail-mpos.md)
 ## [Vue d'ensemble des codes d'informations](info-codes-retail.md) 
@@ -100,6 +102,7 @@
 # Produits et merchandising
 ## [Présentation des informations sur les produits](../supply-chain/pim/product-information.md)
 ## [Hiérarchies des ventes au détail](retail-hierarchies.md)
+## [Vue d'ensemble des attributs et des groupes d'attributs](attribute-attributegroups-lifecycle.md)
 ## [Création et gestion des attributs](create-manage-attributes.md)
 ## [Paramétrer les produits vendus au détail](set-up-retail-products.md)
 ## [Dimensions de produit](../supply-chain/pim/product-dimensions.md)
@@ -130,6 +133,16 @@
 # Ressources humaines
 ## [Organisation du personnel à l'aide des départements, tâches et postes](../talent/departments-jobs-positions.md)
 ## [Paramétrage des composants d'une tâche](../talent/create-job.md)
+
+# Fonctions locales et relatives aux réglementations
+## Inde
+### [Intégration GST des caisses enregistreuses pour l'Inde](localizations/apac-ind-cash-registers.md)
+### [Instructions de déploiement de caisses enregistreuses pour l'Inde](localizations/apac-ind-loc-deployment-guidelines.md)
+## Norvège
+### [Caisses enregistreuses pour la Norvège](localizations/emea-nor-cash-registers.md)
+### [Instructions de déploiement de caisses enregistreuses pour la Norvège](localizations/emea-nor-loc-deployment-guidelines.md)
+## Suède
+### [Caisses enregistreuses pour la Suède](localizations/emea-swe-cash-registers.md)
 
 # Tâches de Retail
 ## [Créer un produit](../supply-chain/pim/tasks/create-product.md)
@@ -249,12 +262,8 @@
 ## [Retail SDK](dev-itpro/retail-sdk/retail-sdk-overview.md)
 ### [Intégrer le kit Retail SDK dans le système d'élaboration continue](dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md)
 ### [Exemples d'extensibilité du kit Retail SDK](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
-### [Caisses enregistreuses pour la Suède](localizations/emea-swe-cash-registers.md)
-### [Exemple pour l'intégration de Retail POS avec des unités de contrôle pour la Suède](dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
-### [Caisses enregistreuses pour la Norvège](localizations/emea-nor-cash-registers.md)
-### [Instructions de déploiement de caisses enregistreuses pour la Norvège](localizations/emea-nor-loc-deployment-guidelines.md)
-### [Package du Kit de développement logiciel (SDK) Retail](dev-itpro/retail-sdk/retail-sdk-packaging.md)
-### [Exemples du Kit de développement logiciel (SDK) Retail ](dev-itpro/retail-sdk/retail-sdk-samples.md)
+### [Package du kit Retail SDK](dev-itpro/retail-sdk/retail-sdk-packaging.md)
+### [Exemples du kit Retail SDK ](dev-itpro/retail-sdk/retail-sdk-samples.md)
 ### [Extensions de la base de données de canal](dev-itpro/channel-db-extensions.md)
 ### [Extensibilité CDX](dev-itpro/cdx-extensibility.md)
 ### [Attributs de commande](dev-itpro/order-attributes.md)

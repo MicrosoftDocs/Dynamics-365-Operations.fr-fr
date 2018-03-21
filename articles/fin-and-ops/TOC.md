@@ -21,23 +21,24 @@
 #### [Fonctions d'AX 2012 ayant été reportées](get-started/ax-2012-features-not-implemented-but-not-deprecated.md)
 #### [Fonctions non implémentées dans les déploiements sur site](get-started/features-not-implemented-on-prem.md)
 #### [Versions et stratégie de cycle de vie](../dev-itpro/migration-upgrade/versions-update-policy.md)
+#### [Déploiements sur site (mars 2018)](get-started/whats-new-LBD-PU12-App72.md)
 #### [Platform update 13 (janvier 2018)](get-started/whats-new-platform-update-13.md)
 #### [Finance and Operations, Enterprise edition 7.3](get-started/whats-new-application-7.3-update.md)
 #### [Platform update 12 (novembre 2017)](get-started/whats-new-platform-update-12.md)
-#### [Mise à jour 11 de Plateform (octobre 2017)](get-started/whats-new-platform-update-11.md)
-#### [Mise à jour 10 de Plateform (août 2017)](get-started/whats-new-platform-update-10.md)
+#### [Platform update 11 (octobre 2017)](get-started/whats-new-platform-update-11.md)
+#### [Platform update 10 (août 2017)](get-started/whats-new-platform-update-10.md)
 #### [Finance and Operations, Enterprise edition (juillet 2017)](get-started/whats-new-application-July-2017-update.md)
-#### [Mise à jour 9 de Plateform (juillet 2017)](get-started/whats-new-platform-update-9.md)
-#### [Mise à jour 8 de Plateform (juin 2017)](get-started/whats-new-platform-update-8.md)
-#### [Mise à jour 7 de Plateform (mai 2017)](get-started/whats-new-platform-update-7.md)
-#### [Mise à jour 6 de Plateform (avril 2017)](get-started/whats-new-platform-update-6.md)
-#### [Mise à jour 5 de Plateform (mars 2017)](get-started/whats-new-platform-update-5.md)
-#### [Mise à jour 4 de Plateform (février 2017)](get-started/whats-new-platform-update-4.md)
+#### [Platform update 9 (juillet 2017)](get-started/whats-new-platform-update-9.md)
+#### [Platform update 8 (juin 2017)](get-started/whats-new-platform-update-8.md)
+#### [Platform update 7 (mai 2017)](get-started/whats-new-platform-update-7.md)
+#### [Platform update 6 (avril 2017)](get-started/whats-new-platform-update-6.md)
+#### [Platform update 5 (mars 2017)](get-started/whats-new-platform-update-5.md)
+#### [Platform update 4 (février 2017)](get-started/whats-new-platform-update-4.md)
 #### [Version 1611 de Opérations (novembre 2016)](get-started/whats-new-dynamics-365-operations-1611.md)
-#### [Mise à jour 3 de Plateform (novembre 2016)](get-started/whats-new-platform-update-3.md)
-#### [Mise à jour 2 de Plateform (août 2016)](get-started/whats-new-platform-update-2.md) 
+#### [Platform update 3 (novembre 2016)](get-started/whats-new-platform-update-3.md)
+#### [Platform update 2 (août 2016)](get-started/whats-new-platform-update-2.md) 
 #### [Version 7.0.1 de l'application Dynamics AX (mai 2016)](get-started/whats-new-changed-application-version-7-0-1-may-2016.md)
-#### [Mise à jour 1 de Plateform (mai 2016)](get-started/whats-new-changed-platform-version-7-1-may-2016.md)
+#### [Platform update 1 (mai 2016)](get-started/whats-new-changed-platform-version-7-1-may-2016.md)
 #### [Dynamics AX 7.0 (février 2016)](get-started/whats-new-changed-7-0-february-2016.md)
 #### Guides de tâches mis à jour
 ##### [Guides de tâches de novembre 2016](get-started/new-task-guides-november-2016.md)
@@ -134,7 +135,7 @@
 ### [Pack de contenu Power BI de gestion des coûts](../dev-itpro/analytics/cost-management-content-pack.md)
 
 ## Intégration de données
-### [Modèles d'intégration](../dev-itpro/data-entities/integration-overview.md)
+### [Choisir une stratégie (importation/exportation) d'intégration de données](../dev-itpro/data-entities/integration-overview.md)
 
 ### API d'intégration de données
 #### [API du package de gestion des données](../dev-itpro/data-entities/data-management-api.md)
@@ -157,10 +158,9 @@
 ###### [Tenir à jour les comptes dans Sales et les synchroniser directement avec Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
 ###### [Tenir à jour des produits dans Finance and Operations et les synchroniser directement avec Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
 ###### [Tenir à jour les contacts dans Sales et les synchroniser directement avec les contacts ou les clients dans Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
-###### [Synchroniser le devis de vente directement à partir de Sales sur Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
-###### [Synchroniser les commandes client directement à partir de Finance and Operations avec Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
-###### [Synchroniser les commandes client directement entre Sales et Finance and Operations](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
-###### [Synchroniser les factures client directement à partir de Finance and Operations avec Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+###### [Tenir à jour les devis dans Sales et les synchroniser directement avec Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
+###### [Tenir à jour les commandes client dans Finance and Operations et les synchroniser directement avec Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
+###### [Tenir à jour les factures client dans Finance and Operations et les synchroniser directement avec Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
 
 
 #### [Consommation de services Web externes](../dev-itpro/data-entities/consume-external-web-service.md)
@@ -473,7 +473,13 @@
 #### [Distributions d'un état de dépenses](../financials/expense-management/expense-report-distributions.md)
 #### [Dépenses intersociétés](../financials/expense-management/intercompany-expense.md)
 #### [Stratégies des dépenses](../financials/expense-management/travel-expense-policies.md)
-
+#### [Afficher un état de dépenses](../financials/expense-management/view-expense-report.md)
+#### [Valider un état de dépenses](../financials/expense-management/post-expense.md)
+#### [États de dépenses et approbateurs multiples](../financials/expense-management/expense-report-multiple-approvers.md)
+#### [Recouvrement de la TVA dans le module Gestion des dépenses](../financials/expense-management/VAT-expense-report.md)
+#### [Règles d'indemnités journalières](../financials/expense-management/per-diem.md)
+#### [Demandes de déplacement](../financials/expense-management/travel-req.md)
+#### [Dépenses personnelles dans un état de dépenses](../financials/expense-management/personal-expenses.md)
 
 ### [Budget](../financials/budgeting/budgeting-overview.md)
 #### [Vue d'ensemble de la planification de budget ](../financials/budgeting/budget-planning-overview-configuration.md)
@@ -631,6 +637,8 @@
 ##### [Intégration du moteur de taxe](../financials/general-ledger/tax-engine-integration.md)
 ##### [FAQ sur les seuils de taxe](../financials/localizations/apac-ind-tax-thresholds.md)
 ##### [Extension du moteur de taxe](../financials/general-ledger/extend-tax-engine-configurations.md)
+##### [Intégration GST des caisses enregistreuses](../retail/localizations/apac-ind-cash-registers.md)
+##### [Instructions de déploiement de caisses enregistreuses](../retail/localizations/apac-ind-loc-deployment-guidelines.md)
 
 #### Japon
 ##### [Acquérir une immobilisation et réclamer une subvention gouvernementale](../financials/localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md)
@@ -910,7 +918,10 @@
 ##### [Formats de paiement client et fournisseur](../financials/localizations/tasks/no-00003-customer-vendor-payment-formats.md)
 ##### [Paiement client basé sur l'ID de paiement](../financials/localizations/tasks/no-00002-customer-payment-based-payment-id.md)
 ##### [Format d'importation Nets](../financials/localizations/emea-nor-nets-import-format.md)
-##### [Déclaration de TVA](../financials/localizations/emea-nor-sales-tax-payment-report.md) 
+##### [Déclaration de TVA](../financials/localizations/emea-nor-sales-tax-payment-report.md)
+##### [Caisses enregistreuses](../retail/localizations/emea-nor-cash-registers.md)
+##### [Instructions de déploiement de caisses enregistreuses](../retail/localizations/emea-nor-loc-deployment-guidelines.md)
+
 #### Pologne
 ##### [Calcul de remises de ligne à partir de l'unité de prix](../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md)
 ##### [Notes de correction](../financials/localizations/emea-pol-correction-notes.md)
@@ -937,6 +948,7 @@
 ##### [Entrées spéciales et ouverture de la comptabilité](../financials/localizations/emea-esp-opening-sheets-spain.md)
 #### Suède
 ##### [Formats de paiement (importation)](../financials/localizations/emea-swe-payment-formats-import.md)
+##### [Caisses enregistreuses](../retail/localizations/emea-swe-cash-registers.md)
 #### Suisse
 ##### [Importer des paiements client dans ESR](../financials/localizations/emea-che-esr-customer-payments-import.md)
 #### Royaume-Uni
@@ -1644,6 +1656,7 @@
 ##### [Ressources opérationnelles](../supply-chain/production-control/operations-resources.md)
 ##### [Capacités de ressources](../supply-chain/production-control/resource-capabilities.md)
 ##### [Attributs de lot](../supply-chain/production-control/batch-attributes.md)
+##### [Équilibrage du lot](../supply-chain/production-control/batch-balancing.md)
 ##### [Copier une formule (guides de tâche)](../supply-chain/production-control/tasks/copy-formula.md)
 ##### [Créer une formule par la copie d'une formule existante (guide de tâche)](../supply-chain/production-control/tasks/create-formula-copying-existing-formula.md)
 ##### [Copier les coproduits à partir d'une version de formule existante (guide de tâche)](../supply-chain/production-control/tasks/copy-co-products-existing-formula-version.md)
@@ -1808,7 +1821,8 @@
 #### [Stratégies d'unité de mesure et de stockage](../supply-chain/warehousing/unit-measure-stocking-policies.md)
 #### [Contenu Power BI de l'entrepôt](../dev-itpro/analytics/warehouse-power-bi-content.md)
 #### [Regroupement système sur une liste des travaux en cours](../supply-chain/warehousing/system-group-on-open-work-list.md)
-#### [Prise en charges des codes-barres mobiles](../supply-chain/warehousing/mobile-barcode-support.md)
+#### [Lire les codes-barres à l'aide d'une caméra dans Dynamics 365 for Finance and Operations](../supply-chain/warehousing/scan-bar-codes-using-a-camera.md)
+#### [Prise en charge des codes-barres mobiles](../supply-chain/warehousing/mobile-barcode-support.md)
 ### [Stratégies de travail d'entrepôt](../supply-chain/warehousing/warehouse-work-policies.md)
 #### [Mouvements de stock avec le travail associé dans la gestion d'entrepôt](../supply-chain/warehousing/move-inventory-associated-work.md)
 #### [Gestion des magasiniers](../supply-chain/warehousing/manage-warehouse-workers.md)
@@ -1816,8 +1830,9 @@
 #### [Confirmation du contenant et du lot](../supply-chain/warehousing/batch-and-license-plate-confirmation.md)
 #### [Créer une option de menu d'appareil mobile pour la consolidation de contenants](../supply-chain/warehousing/tasks/create-mobile-device-license-plate-consolidation.md)
 #### [Réception de contenant mixte](../supply-chain/warehousing/mixed-license-plate-receiving.md)
-#### [Configuration des lots plus anciens d'affichage dans l'entrepôt sur un appareil mobile](../supply-chain/warehousing/display-older-batches-within-warehouses.md)
+#### [Configurer l'option Afficher les lots plus anciens dans l'entrepôt sur un appareil mobile](../supply-chain/warehousing/display-older-batches-within-warehouses.md)
 #### [Prélever le lot le plus ancien sur un appareil mobile](../supply-chain/warehousing/pick-oldest-batch.md)
+#### [Lire les codes-barres à l'aide d'une caméra dans Dynamics 365 for Finance and Operations](../supply-chain/warehousing/scan-bar-codes-using-a-camera.md)
 #### [Confirmation de prélèvement de pièces](../supply-chain/warehousing/piece-picking-confirmation.md)
 #### [Confirmation de produit pour la sélection du groupement](../supply-chain/warehousing/cluster-picking-item-confirmation.md)
 #### [Lancement par lots des ordres de transfert partiellement réservés](../supply-chain/warehousing/batch-release-of-partially-reserved-transfer-orders.md)
