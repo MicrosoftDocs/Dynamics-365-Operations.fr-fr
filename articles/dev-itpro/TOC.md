@@ -159,6 +159,7 @@
 ### [Déploiement avec élaboration continue et automatisation des tests](perf-test/continuous-build-test-automation.md)
 ## [Prise d'effet de date](dev-tools/date-effectivity.md)
 ## [Gestionnaire de licences ISV](dev-tools/isv-licensing.md)
+## [Gestionnaire de licences ISV (sur site)](dev-tools/isv-licensing-on-prem.md)
 
 # [Développement de l'interface utilisateur](user-interface/user-interface-development-home-page.md)
 ## Didacticiels
@@ -385,12 +386,12 @@
 ##### [Synchroniser les comptes provenant du module Sales sur les clients de Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
 ##### [Synchroniser les contacts provenant du module Sales sur les contacts ou clients de Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
 ##### [Synchroniser les en-têtes et les lignes de devis de vente provenant du module Sales sur Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
-##### [Synchroniser les en-têtes et les lignes de commande client provenant du module Finance and Operations sur Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
+##### [Synchroniser les en-têtes et les lignes de commande client provenant du module Finance and Operations sur Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
 ##### [Synchroniser les en-têtes et les lignes de facture client provenant du module Finance and Operations sur Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
 ##### [Synchroniser directement les comptes provenant du module Sales sur les clients de Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
 ##### [Synchroniser directement les produits provenant de Finance and Operations sur les produits du module Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
 ##### [Synchroniser directement les contacts provenant du module Sales sur les contacts ou clients de Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
-##### [Synchroniser directement les en-têtes et les lignes de commande client provenant du module Finance and Operations sur Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
+##### [Synchroniser directement les en-têtes et les lignes de commande client provenant du module Finance and Operations sur Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
 ##### [Synchroniser directement les en-têtes et les lignes de facture client provenant du module Finance and Operations sur Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
 
 ### [Consommation de services Web externes](data-entities/consume-external-web-service.md)
@@ -406,37 +407,11 @@
 ### [Modèles de données de configuration](data-entities/configuration-data-templates.md)
 ### [Modèles de données avec plusieurs feuilles de calcul](data-entities/excel-template-multiple.md)
 ### [Suivre les modifications d'une entité](data-entities/entity-change-track.md)
-
-## Entités de données standard
-### [État d'entités de données](data-entities/data-entities-report.md)
-### [Entités de données : comptabilité fournisseur et taxes](data-entities/data-entities-accounts-payable-taxes.md)
-### [Entités de données : Comptabilité client](data-entities/data-entities-accounts-receivable.md)
-### [Entités de données : banque](data-entities/data-entities-bank.md)
-### [Entités de données : soldes d'ouverture](data-entities/data-entities-beginning-balances.md)
-### [Entités de données : planification budgétaire](data-entities/data-entities-budget-plan.md)
-### [Entités de données : budget](data-entities/data-entities-budgeting.md)
-### [Entités de données : évaluation des coûts](data-entities/data-entities-costing.md)
-### [Entités de données : gestion des dépenses](data-entities/data-entities-expense-management.md)
-### [Entités de données : immobilisations](data-entities/data-entities-fixed-assets.md)
-### [Entités de données : comptabilité](data-entities/data-entities-general-ledger.md)
-### [Entités de données : carnet d'adresses global](data-entities/data-entities-global-address-book.md)
-### [Entités de données : ressources humaines](data-entities/data-entities-human-resources.md)
-### [Entités de données : gestion du stock](data-entities/data-entities-inventory-management.md)
-### [Entités de données : planification](data-entities/data-entities-master-plan.md)
-### [Entités de données : Approvisionnements](data-entities/data-entities-procurement-sourcing.md)
-### [Entités de données : gestion des informations sur les produits](data-entities/data-entities-product-information-management.md)
-### [Entités de données : contrôle de la production](data-entities/data-entities-production-control.md)
-### [Entités de données : comptabilité de projet](data-entities/data-entities-project-accounting.md)
-### [Entités de données : secteur public](data-entities/data-entities-public-sector.md)
-### [Entités de données : vente au détail](data-entities/data-entities-retail.md)
-### [Entités de données : exécution ventes et marketing](data-entities/data-entities-sales-marketing.md)
-### [Entités de données : exécution avant-vente Ventes et marketing](data-entities/data-entities-sales-marketing-pre-sales.md)
-### [Entités de données : administration du système](data-entities/data-entities-system-administration.md)
-### [Entités de données : workflow](data-entities/data-entities-workflow.md)
+### [Rechercher des informations sur les entités de données standard](data-entities/data-entities-report.md)
 
 ## [Tâches d'importation et d'exportation de données](data-entities/data-import-export-job.md)
 
-### [Bonnes pratiques pour l’importation de numéros document à l’aide de l’entité du journal des opérations diverses](data-entities/tips-tricks-import-general-journal-entity.md)
+### [Bonnes pratiques pour l'importation de numéros document à l'aide de l'entité du journal des opérations diverses](data-entities/tips-tricks-import-general-journal-entity.md)
 
 ## Développement d'entités de données
 ### [Créer des entités de données](data-entities/build-consuming-data-entities.md)
@@ -453,6 +428,12 @@
 ## [Apportez votre propre base de données](analytics/export-entities-to-your-own-database.md)
 
 ## [Ressources pour répondre à une demande de données RGPD](gdpr/gdpr-home-page.md)
+### [Guide de RGPD pour Microsoft Dynamics 365 for Finance and Operations](gdpr/gdpr-auditing-sensitive-data.md)
+### [Utiliser l'état Recherche d'une personne](gdpr/gdpr-person-search-report.md)
+### [Étendre l'état Recherche d'une personne](gdpr/gdpr-extend-person-search-report.md)
+### [Gérer l'accès aux données confidentielles](gdpr/gdpr-auditing-sensitive-data.md)
+### [Répondre à une demande de données personnelles à l'aide de Talent](gdpr/respond-dsr-request-talent.md)
+### [Répondre à une demande de données personnelles à l'aide de Microsoft Dynamics AX 2012](gdpr/gdpr-ax2012.md)
 
 # [Page d'accueil de la livraison en continu](dev-tools/continuous-delivery-home-page.md)
 ## [FAQ développement et livraison en continu](dev-tools/continuous-delivery-faq.md)
@@ -516,12 +497,16 @@
 ### [Dimension du matériel](../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
 ### [Créer un projet sur site](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [Paramétrer et déployer les environnements sur site](deployment/setup-deploy-on-premises-environments.md)
+#### [Déployer des environnements sur site avec Plateform update 12](deployment/setup-deploy-on-premises-pu12.md)
+#### [Déployer des environnements sur site avec Plateform update 8 et 11](deployment/setup-deploy-on-premises-pu8-pu11.md)
+
 ### [Développer et déployer les modèles personnalisés sur les environnements sur site](deployment/develop-deploy-custom-models-on-premises.md)
 ### [Configurer le proxy de contrepassation pour votre environnement sur site](deployment/onprem-reverseproxy.md)
 ### [Appliquer des mises à jour à un déploiement sur site](deployment/apply-updates-on-premises.md)
 ### [Redéployer un déploiement sur site](deployment/redeploy-on-prem.md)
 ### [Mettre à jour l'agent local](lifecycle-services/update-local-agent.md)
 ### [Reconfigurer votre environnement](lifecycle-services/reconfigure-environment.md)
+### [Connection Internet du client](user-interface/client-disconnected.md)
 ### [Résolution des problèmes de Dynamics 365 for Finance and Operations, Enterprise edition (sur site)](deployment/troubleshoot-on-prem.md)
 
 ## Déployer du code personnalisé
@@ -628,6 +613,7 @@
 ## [Organigrammes du concepteur de processus d'entreprise](lifecycle-services/flowcharts-business-process-modeler.md)
 ## [Charger des processus d'entreprise personnalisés](lifecycle-services/upload-business-processes-bpm-task-recorder.md)
 ## [Surveillance et diagnostics ](lifecycle-services/monitoring-diagnostics.md)
+## [Redémarrer les services d'environnement](lifecycle-services/restart-environment-services.md)
 ## [Suivre les connexions des utilisateurs](lifecycle-services/user-logins.md)
 ## [Bibliothèque d'actifs](lifecycle-services/asset-library.md)
 ## [Microsoft Dynamics 365 - Vue d'ensemble du service de traduction](lifecycle-services/translation-service-overview.md)

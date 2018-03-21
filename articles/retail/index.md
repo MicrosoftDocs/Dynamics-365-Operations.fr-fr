@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: b53f95a55e66f7df4f7b3b85dd0dee2047019439
-ms.openlocfilehash: f0f601b2cf66daf0d7d3175bc78938e13aa6cd19
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: 40d54a9a2920e87caba62c92b5ca6465fa68e3d4
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/07/2018
 
 ---
 
