@@ -20,10 +20,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
-ms.openlocfilehash: 0f83735ec42e945c5e0abf8d72b83936e076e60e
+ms.sourcegitcommit: 608543c9cfd93c4772e93089e1d174312d8b23a6
+ms.openlocfilehash: 411bb28668f5aa9d07774211814da4e9757ac43c
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/06/2018
 
 ---
 
@@ -99,6 +99,8 @@ Vous devez configurer l'application sur le périphérique pour vous connecter au
     <br>**Remarque** : ne terminez pas ce champ avec une barre oblique inverse (/). 
     + **Société** - Accédez à l'entité juridique de Finance and Operations à laquelle vous souhaitez que l'application se connecte. <br>[![wh-12-app-connection-settings](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
 4.  Sélectionnez le bouton **Précédent** dans le coin supérieur gauche de l'application. L'application se connecte maintenant à votre serveur Finance and Operations et l'écran de connexion du collaborateur d'entrepôt s'affiche. <br>[![wh-13-log-in-screen](./media/wh-13-log-in-screen-180x300.png)](./media/wh-13-log-in-screen.png)
+
+Pour plus d'informations sur la configuration de Dynamics 365 for Finance and Operations – Entreposage pour lire des codes-barres à l'aide d'une caméra sur un appareil mobile, consultez [Lire les codes-barres à l'aide d'une caméra dans Dynamics 365 for Finance and Operations – Entreposage](scan-bar-codes-using-a-camera.md)
 
 ## <a name="remove-access-for-a-device"></a>Suppression de l'accès pour un périphérique
 En cas de périphérique perdu ou compromis, vous devez supprimer l'accès Finance and Operations du périphérique. Les étapes suivantes décrivent le processus recommandé pour supprimer l'accès.

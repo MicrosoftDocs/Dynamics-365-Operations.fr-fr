@@ -3,7 +3,7 @@ title: Synchronisation entre les commandes client directement entre Sales et Fin
 description: "La rubrique présente les modèles et les tâches sous-jacentes utilisés pour exécuter la synchronisation des commandes client directement entre Microsoft Dynamics 365 for Sales et Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/31/2017
+ms.date: 03/13/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 7a828090fa34eb96d2b557eb06e48ad05b421ae8
-ms.openlocfilehash: 9aa8c78f5aea5a818d517c2baa9051750b132fc6
+ms.sourcegitcommit: 0928f9c0af52c2e19f0669841e433423ae9db467
+ms.openlocfilehash: 09c5cd14c5948818878d3f830639abc166d7072e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/20/2017
+ms.lasthandoff: 03/13/2018
 
 ---
 
@@ -132,6 +132,7 @@ Avant de synchroniser les commandes client, il est important de mettre les syst�
 
     Allez dans **Paramètres** &gt; **Sécurité** &gt; **Équipes**, sélectionnez l'équipe appropriée, cliquez sur **Gestion des rôles**, puis sélectionnez un rôle avec les autorisations souhaitées, par exemple, celles d'**Administrateur système**.
 
+- Pour garantir un calcul correct des remises dans Sales et Finance and Operations, **Mode de calcul de remise** doit être défini sur **Ligne**.
 - Allez dans **Paramètres** &gt; **Administration** &gt; **Paramètres système** &gt; **Sales**, et assurez-vous que les paramètres suivants sont utilisés :
 
     - L'option **Utiliser le système de calcul du prix du système** est définie **Oui**.

@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7dd5a1d9da4b648f07e87ad7921ac10ea92bb460
+ms.sourcegitcommit: 80374d6dce8aa5d5f2e5afc0656b42236ac974ec
+ms.openlocfilehash: 036e8079bd976087514a074529dd4593c5a2b0a5
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/13/2018
 
 ---
 
@@ -62,12 +62,12 @@ Lorsqu'une demande est envoyée, elle est ajoutée à la liste **Demandes d'util
 Avant de demander qu'un nouvel utilisateur soit mis en service, cette personne doit être paramétrée comme contact pour un ou plusieurs comptes fournisseur. Pour créer une demande d'utilisateur de collaboration fournisseur :
 
 1.  Sur la page **Tous les contacts**, cliquez sur **Mettre en service un utilisateur fournisseur**.
-2.  Entrez une adresse électronique pour l'utilisateur. Cette adresse sera utilisée par l'utilisateur pour se connecter à Finance and Operations. Si l'adresse de messagerie électronique appartient à un domaine enregistré comme un locataire de Microsoft Azure, celle-ci doit être un compte Azure Active Directory (ADD) existant pour que le processus demise en service réussisse. Si l'adresse de messagerie électronique n'appartient pas à un domaine enregistré dans Microsoft Azure, un compte ADD sera créé dans le cadre du processus de mise en service et le nouvel utilisateur recevra un message électronique d'invitation. Les adresses de messagerie électronique de consommateurs avec des domaines tels que @hotmail.com, @gmail.com ou @comcast.net ne peuvent pas être utilisés pour enregistrer un utilisateur Finance and Operations.
+2.  Entrez une adresse électronique pour l'utilisateur. Cette adresse sera utilisée par l'utilisateur pour se connecter à Finance and Operations. Si l'adresse de messagerie électronique appartient à un domaine enregistré comme un locataire de Microsoft Azure, celle-ci doit être un compte Azure Active Directory (AAD) existant pour que le processus demise en service réussisse. Si l'adresse de messagerie électronique n'appartient pas à un domaine enregistré dans Microsoft Azure, un compte ADD sera créé dans le cadre du processus de mise en service et le nouvel utilisateur recevra un message électronique d'invitation. Les adresses de messagerie électronique de consommateurs avec des domaines tels que @hotmail.com, @gmail.com ou @comcast.net ne peuvent pas être utilisés pour enregistrer un utilisateur Finance and Operations.
 3.  Définissez l'option **Accès autorisé à la collaboration fournisseur** sur **Oui** pour toutes les entités juridiques auxquelles l'utilisateur doit accéder.
 4.  Dans la section **Affecter des rôles utilisateur**, activez la case à cocher **Affecter** des rôles de sécurité que le nouvel utilisateur doit avoir.
 5.  Cliquez sur **Soumettre**.
 
-Lorsque la demande d'utilisateur fournisseur est envoyée, le champ **Accès autorisé à la collaboration fournisseur** est défini sur **Oui** pour le compte fournisseur sélectionné et un workflow de demande d'utilisateur est démarré. Dans le cadre du workflow, un utilisateur est créé dans Finance and Operations, et des rôles de sécurité sont affectés. En outre, un service Azur B2B est activé qui initie l'interaction avec le portail Azure et associe un compte AAD nouveau ou existant au compte d'utilisateur Finance and Operations.
+Lorsque la demande d'utilisateur fournisseur est envoyée, le champ **Accès autorisé à la collaboration fournisseur** est défini sur **Oui** pour le compte fournisseur sélectionné et un workflow de demande d'utilisateur est démarré. Dans le cadre du workflow, un utilisateur est créé dans Finance and Operations, et des rôles de sécurité sont affectés. En outre, un service Azur B2B est activé qui initie l'interaction avec le portail Azure et associe un compte AAD nouveau ou existant au compte d'utilisateur Finance and Operations. Pour plus d'informations, voir [Qu'est-ce que la collaboration Azure AD B2B ?](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
 
 ### <a name="inactivate-a-user"></a>Désactiver un utilisateur
 

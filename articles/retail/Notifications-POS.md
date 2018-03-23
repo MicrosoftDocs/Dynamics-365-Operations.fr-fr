@@ -1,9 +1,9 @@
 ---
-title: Afficher les notifications de commande dans POS
-description: "Cette rubrique décrit la procédure d'activation des notifications de commande dans POS et l'infrastructure de notifications, qui peut être étendue à d'autres opérations."
+title: Afficher les notifications dans le point de vente
+description: "Cette rubrique décrit la procédure d'activation des notifications de commande dans le point de vente et l'infrastructure de notifications. Le cas échéant, les développeurs pourront étendre ces notifications aux opérations en plus des opérations d'exécution de commande."
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 10/30/2017
+ms.date: 03/13/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -18,49 +18,58 @@ ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: a1206aea3f78246951581c1dc6338e39a0942ea2
+ms.sourcegitcommit: 0d409b3b7f19ca31d9c720bca191f1ddba81caa3
+ms.openlocfilehash: a55af4c26d74cc392d3c53aacb66e0a8bc97abf2
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/13/2018
 
 ---
 
-# <a name="display-notifications-in-point-of-sale"></a>Afficher les notifications dans POS
+# <a name="show-order-notifications-in-the-point-of-sale"></a>Afficher les notifications dans le point de vente
 
 [!include[banner](includes/banner.md)]
 
-Dans l'environnement de vente au détail moderne actuel, diverses tâches sont affectées aux associés du magasin, par exemple aider les clients, saisir des transactions, effectuer des inventaires et réceptionner les commandes en magasin. Le client POS permet aux associés d'effectuer ces tâches et bien plus, dans une même application. Avec plusieurs tâches à effectuer dans une journée, les associés doivent être informés lorsqu'un événement nécessite leur attention. L'infrastructure de notification dans POS résout ce problème en autorisant les détaillants à configurer des notifications basées sur les rôles. Avec Dynamics 365 for Retail avec mise à jour 5 de l'application, ces notifications ne peuvent être configurées que pour les opérations POS.
+Dans l'environnement de vente au détail moderne, diverses tâches sont affectées aux associés du magasin, par exemple aider les clients, saisir des transactions, effectuer des inventaires et réceptionner les commandes en magasin. Le client du point de vente (PDV) fournit une application unique aux associés leur permettant d'effectuer toutes ces tâches et bien plus. Du fait que plusieurs tâches doivent être effectuées dans une journée, les associés peuvent devoir être informés lorsqu'un événement nécessite leur attention. L'infrastructure de notification dans le PDV permet aux détaillants de configurer des notifications basées sur les rôles. Dans Microsoft Dynamics 365 for Retail avec la mise à jour de l'application 5, ces notifications ne peuvent être configurées uniquement pour les opérations du PDV.
 
-Actuellement, le système permet d'afficher les notifications pour l'opération d'exécution des commandes. Cependant, l'infrastructure est conçue pour être extensible afin que, dans l'avenir, les développeurs puissent rechercher une opération dans le gestionnaire de notification et afficher les notifications dans POS.  
+Actuellement, le système peut afficher des notifications uniquement pour les opérations d'exécution de commande. Toutefois, comme l'infrastructure est conçue pour être extensible, les développeurs peuvent, le cas échéant, écrire un gestionnaire de notification pour toutes les opérations, et afficher les notifications pour cette opération dans le PDV.
 
 ## <a name="enable-notifications-for-order-fulfillment-operations"></a>Activer les notifications pour les opérations d'exécution des commandes
 
-Pour activer les notifications pour les opérations d'exécution des commandes, consultez les étapes suivantes :
+Pour activer les notifications pour les opérations d'exécution des commandes, effectuez les étapes suivantes.
 
- - Accédez à la page **Opérations** (**Vente au détail** > **Paramétrage du canal** > **Paramétrage POS** > **POS** > **Opérations**).
- - Recherchez l'opération Exécution des commandes et activez la case à cocher **Activer les notifications** pour cette opération. L'infrastructure de notification doit rechercher l'opération d'exécution des commandes dans le gestionnaire. Si le gestionnaire est implémenté, les notifications s'affichent dans POS. Sinon, elles ne s'affichent pas pour cette opération.
-- Accédez aux autorisations POS associées aux collaborateurs et sous l'organisateur **Notifications**, ajoutez l'opération Exécution des commandes avec 1 comme « ordre d'affichage ». Lorsque plusieurs notifications sont configurées, l'ordre d'affichage permet de réorganiser les notifications de haut en bas, 1 étant en haut. Seules les opérations pour lesquelles la case à cocher **Activer les notifications** a été activée peuvent être ajoutées. En outre, les notifications s'affichent uniquement pour les opérations qui ont été ajoutées ici et uniquement aux collaborateurs pour lesquels les opérations ont été ajoutées aux autorisations POS correspondantes. 
+1. Accédez à **Retail** &gt; **Paramétrage du canal** &gt; **Paramétrage du PDV** &gt; **PDV** &gt; **Operations**.
+2. Recherchez l'opération **Exécution de l'ordre**, puis activez la case à cocher **Activer les notifications** pour qu'elle indique que l'infrastructure de notification doit écouter le gestionnaire pour cette opération. Si le gestionnaire est implémenté, les notifications de cette opération seront ensuite affichées dans le PDV.
+3. Accédez à **Retail** &gt; **Employés** &gt; **Collaborateurs** &gt;, sous l'onglet Retail, ouvrez les autorisations du PDV associées au travailleur. Développez l'organisateur **Notifications**, ajoutez l'opération **Exécution de l'ordre**, puis définissez le champ **Ordre d'affichage** sur **1**. Si plusieurs notifications sont configurées, ce champ est utilisé pour réorganiser les notifications. Les notifications ayant une valeur d'**Ordre d'affichage** inférieure s'affichent avant les notifications ayant une valeur supérieure. Les notifications ayant une valeur d'**Ordre d'affichage** de **1** se situent en premier.
+
+    Les notifications sont affichées uniquement pour les opérations ajoutées dans l'organisateur **Notifications**, et vous pouvez ajouter des opérations uniquement si la case à cocher **Activer les notifications** est sélectionnée pour ces opérations sur la page **Opérations du PDV**. En outre, les notifications d'une opération sont affichées pour les travailleurs uniquement si l'opération est ajoutée aux autorisations du PDV pour ceux-ci.
+
+    > [!NOTE]
+    > Les notifications peuvent être remplacées au niveau de l'utilisateur. Ouvrez l'enregistrement du travailleur, sélectionnez **Autorisations PDV**, puis modifiez l'abonnement à la notification de l'utilisateur.
+
+4. Accédez à **Retail** &gt; **Paramétrage du canal** &gt; **Paramétrage PDV** &gt; **Profils PDV** &gt; **Profils de fonctionnalité**. Dans le champ **Intervalle de notification**, spécifiez la fréquence à laquelle les notifications doivent être extraites. Pour certaines notifications, le PDV doit effectuer des appels en temps réel à l'application administrative. Ces appels consomment de la capacité de calcul de votre application administrative. Par conséquent, lorsque vous définissez l'intervalle de notification, vous devez prendre en compte à la fois vos exigences métier et l'impact des appels en temps réel à l'application administrative. Une valeur de **0** (zéro) désactive les notifications.
+5. Accédez à **Vente au détail** &gt; **Informatique de vente au détail** &gt; **Programme de distribution**. Sélectionnez le programme **1060** (**Personnel**) pour synchroniser les paramètres d'abonnement aux notifications, puis sélectionnez **Exécuter maintenant**. Ensuite, sélectionnez le programme **1070** (**Configuration des canaux**) pour synchroniser l'intervalle d'autorisation et sélectionnez **Exécuter maintenant**.
+
+## <a name="view-notifications-in-the-pos"></a>Afficher les notifications dans le PDV
+
+Après avoir terminé les étapes précédentes, les travailleurs peuvent afficher les notifications dans le PDV. Pour afficher les notifications, appuyez sur l'icône de notification dans le coin supérieur droit du PDV. Un centre de notification s'affiche avec les notifications pour l'opération d'exécution des commandes. Le centre de notification doit afficher les groupes suivants dans l'opération d'exécution des commandes :
+
+- **Prélèvement en magasin** : ce groupe affiche le nombre de commandes dont le mode de livraison est **Prélèvement** et le prélèvement est prévu à partir du magasin actuel. Vous pouvez appuyer sur le numéro du groupe pour ouvrir la page **Exécution de l'ordre**. Dans ce cas, la page est filtrée pour afficher uniquement les ordres actives paramétrées pour le prélèvement à partir du magasin actuel.
+- **Expédier à partir du magasin** : ce groupe affiche le nombre de commandes dont le mode de livraison est **Expédition** et l'expédition est prévue à partir du magasin actuel. Vous pouvez appuyer sur le numéro du groupe pour ouvrir la page **Exécution de l'ordre**. Dans ce cas, la page est filtrée pour afficher uniquement les ordres actives paramétrées pour l'expédition à partir du magasin actuel.
+
+Si de nouvelles commandes sont affectées au magasin pour exécution, l'icône de notification change pour indiquer les nouvelles notifications et le nombre des groupes correspondants est mis à jour. Bien que les groupes soient actualisés à intervalles réguliers, les utilisateurs du PDV peuvent actualiser manuellement les groupes à tout moment en sélectionnant le bouton **Actualiser** en regard du groupe. Enfin, si un groupe dispose d'un nouvel article et que le travailleur actuel ne l'a pas vu, le groupe affiche un symbole de rafale pour indiquer le nouveau contenu.
+
+## <a name="enable-live-content-on-pos-buttons"></a>Activer le contenu en direct sur les boutons du PDV
+
+Les boutons du PDV peuvent désormais afficher un nombre permettant aux travailleurs de déterminer facilement les tâches nécessitant leur attention immédiate. Pour afficher ce nombre sur un bouton du PDV, vous devez exécuter le paramétrage des notifications décrit plus haut dans cette rubrique (autrement dit, vous devez activer les notifications pour une opération, paramétrer un intervalle de notification, puis mettre le groupe d'autorisations du PDV à jour pour le travailleur). En outre, vous devez ouvrir le concepteur de grille de boutons, afficher les propriétés du bouton, puis activer la case à cocher **Activer le contenu en direct**. Dans le champ **Alignement de contenu**, vous pouvez choisir si le nombre doit s'afficher dans le coin supérieur droit du bouton (**Haut-Droite**) ou au centre (**Centré**).
 
 > [!NOTE]
-> Les notifications peuvent être remplacées au niveau de l'utilisateur en accédant à l'enregistrement du collaborateur, en sélectionnant **Autorisations POS** et en modifiant l'abonnement aux notifications de cet utilisateur.
+> Le contenu en direct peut être activé pour les opérations uniquement si la case à cocher **Activer les notifications** a été activée pour elles sur la page **Opérations du PDV**, comme décrit précédemment dans cette rubrique.
 
- - Accédez à la page **Profil de la fonctionnalité** (**Vente au détail** > **Paramétrage du canal** > **Paramétrage POS** > **Profils POS** > **Profils de fonctionnalité**). Mettez à jour la propriété **Intervalle de notification** pour définir l'intervalle d'affichage des notifications, en minutes. Il est recommandé de définir cette valeur sur 10 minutes pour éviter toute communication inutile avec le siège social. La définition de l'intervalle de notification sur « 0 » entraîne la désactivation des notifications.  
+L'illustration suivante présente les paramètres de contenu en direct dans le concepteur de grille de boutons.
 
- - Accédez à **Vente au détail** > **Informatique au détail** > **Programme de distribution**. Sélectionnez le programme « 1060-Personnel » pour synchroniser les paramètres d'abonnement aux notifications, puis cliquez sur **Exécuter maintenant**. Ensuite, synchronisez l'intervalle d'autorisation en sélectionnant « 1070-Configuration des canaux » et en cliquant sur **Exécuter maintenant**. 
+![Paramètres de contenu en direct dans le concepteur de grille de boutons](./media/ButtonGridDesigner.png "Paramètres de contenu en direct dans le concepteur de grille de boutons")
 
-## <a name="view-notifications-in-pos"></a>Afficher les notifications dans POS
+L'illustration suivante présente les effets de la sélection de **Haut-Droite** par rapport à **Centré** dans le champ **Alignement de contenu** pour les boutons de différentes tailles.
 
-Une fois les étapes ci-dessus terminées, les collaborateurs pour lesquels les notifications sont paramétrées peuvent visualiser les notifications dans POS. Pour afficher les notifications, cliquez sur l'icône de notification dans la barre de titre du POS. Un centre de notification s'affiche avec les notifications pour l'opération d'exécution des commandes. Le centre de notification doit afficher les groupes suivants dans l'opération d'exécution des commandes : 
-
-- **Commandes en attente** - Ce groupe affiche le nombre de commandes en attente, par exemple les commandes qui doivent être acceptées par un collaborateur POS disposant des autorisations requises pour l'exécution en magasin. Lorsque vous cliquez sur le nombre de commandes dans le groupe, la page **Exécution des commandes** s'ouvre. Elle est filtrée pour afficher uniquement les commandes en attente affectées au magasin pour exécution. Si les commandes sont automatiquement acceptées pour le magasin, le nombre de commandes pour ce groupe est égal à zéro.
-
-- **Prélèvement en magasin** - Ce groupe affiche le nombre de commandes dont le mode de livraison est **Prélèvement** et le prélèvement est prévu à partir du magasin actuel. Lorsque vous cliquez sur le nombre de commandes dans le groupe, la page **Exécution des commandes** s'ouvre. Elle est filtrée pour afficher les commandes actives qui sont paramétrées pour être prélevées à partir du magasin actuel.
-
-- **Expédier à partir du magasin** - Ce groupe affiche le nombre de commandes dont le mode de livraison est **Expédition** et l'expédition est prévue à partir du magasin actuel. Lorsque vous cliquez sur le nombre de commandes dans le groupe, la page **Exécution des commandes** s'ouvre. Elle est filtrée pour afficher les commandes actives qui sont paramétrées pour être expédiées à partir du magasin actuel.
-
-Si de nouvelles commandes sont affectées au magasin pour exécution, l'icône de notification change pour indiquer les nouvelles notifications et le nombre des groupes correspondants est mis à jour. L'utilisateur peut également cliquer sur l'icône d'actualisation, en regard du nom de l'opération, pour mettre à jour immédiatement le nombre de commandes des groupes. Le nombre est également mis à jour à l'intervalle prédéfini. Tout groupe contenant un nouvel article, qui n'est pas visible par le collaborateur actuel, affiche une icône de rafale pour indiquer que ce groupe contient un nouvel article. Lorsque vous cliquez sur les vignettes des notifications, l'opération spécifique pour laquelle la notification est configurée s'ouvre. Dans les scénarios ci-dessus, lorsque vous cliquez sur les notifications, la page **Exécution des commandes** s'ouvre et affiche les paramètres appropriés : Commandes en attente, Prélèvement en magasin, Expédier à partir du magasin. 
-
-> [!NOTE]
-> Les notifications de commandes en attente seront activées dans une mise à jour à venir pour Dynamics 365 for Retail. 
-
+![Contenu en direct sur les boutons du PDV](./media/ButtonsWithLiveContent.png "Contenu en direct sur les boutons du PDV")
 
