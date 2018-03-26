@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6c68c4482cacf70f003669cf335e52e47425d2f7
+ms.sourcegitcommit: 0d409b3b7f19ca31d9c720bca191f1ddba81caa3
+ms.openlocfilehash: def88c291538e3ef278c51e4b87462782e222de2
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 03/13/2018
 
 ---
 
@@ -116,7 +116,7 @@ L'illustration suivante présente un exemple de modèle de mise en correspondanc
 
 [Synchroniser directement les contacts de Sales avec les contacts ou clients de Finance and Operations](contacts-template-mapping-direct.md)
 
-[Synchroniser les en-têtes et les lignes de commande client directement entre le module Finance and Operations et Sales](sales-order-template-mapping-direct.md)
+[Synchroniser directement les en-têtes et les lignes de commande client provenant du module Finance and Operations sur Sales](sales-order-template-mapping-direct-two-ways.md)
 
 [Synchroniser les en-têtes et les lignes de facture client provenant directement du module Finance and Operations avec Sales](sales-invoice-template-mapping-direct.md)
 

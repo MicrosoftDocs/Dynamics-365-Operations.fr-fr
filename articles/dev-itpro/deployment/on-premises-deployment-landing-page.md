@@ -3,7 +3,7 @@ title: "Déploiement sur site"
 description: "Cette rubrique fournit des informations et des liens vers du contenu sur les déploiements sur site."
 author: kfend
 manager: AnnBe
-ms.date: 03/05/2018
+ms.date: 03/15/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,13 +18,13 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 797058bdbbdb63a08eb35034ffe3c913307f38df
-ms.openlocfilehash: 12b8a6e8f28501bce76d5a1d58b39e4711b75330
+ms.sourcegitcommit: 0d551818c8d352af96f6e64613cfbbc4aec5bf5b
+ms.openlocfilehash: e35769e45b1017eef2ee5a5b6c2baa35ae13d90c
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/15/2018
 
 ---
-# <a name="on-premises-deployment-landing-page"></a>Page de destination de déploiement sur site
+# <a name="on-premises-deployment-home-page"></a>Page d'accueil de déploiement sur site
 
 [!include[banner](../includes/banner.md)]
 
@@ -36,13 +36,13 @@ Vous pouvez déployer Microsoft Dynamics 365 for Finance and Operations, Enterp
 - [Planification de votre déploiement sur site](plan-onprem-deployment.md)
 - [Configuration requise pour les déploiements sur site](../../fin-and-ops/get-started/system-requirements-on-prem.md)
 - [Sizing matériel pour les environnements sur site](../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
-- [Service en ligne et stratégie du cycle de vie de service de logiciel sur site](../migration-upgrade/versions-update-policy.md)
 - [Acheter Dynamics 365 for Finance and Operations, édition Enterprise (sur site)](../../fin-and-ops/get-started/purchase-on-premises.md)
 - [Comparaison des fonctions dans le cloud et sur site](../../fin-and-ops/get-started/cloud-prem-comparison.md)
 
 ## <a name="onboard"></a>Vue d'ensemble
 - [Créer un projet sur site dans Lifecycle Services](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
-- [Paramétrer et déployer les environnements sur site](setup-deploy-on-premises-environments.md)
+- [Paramétrer et déployer les environnements sur site (Plateform update 12)](setup-deploy-on-premises-pu12.md)
+- [Paramétrer et déployer les environnements sur site (Plateform update 8 et 11)](setup-deploy-on-premises-pu8-pu11.md)
 - [Installer des périphériques d'impression réseau dans les environnements sur site](../analytics/install-network-printer-onprem.md)
 - [Configurer SQL Server Reporting Services pour un déploiement sur site](../analytics/configure-ssrs-on-premises.md)
 - [Développer et déployer les modèles personnalisés sur les environnements sur site](develop-deploy-custom-models-on-premises.md)

@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: 62f328c5a6bf5343c97de0b7d907bbcfe2fcde4d
+ms.sourcegitcommit: e342c67f53828c77f77d99a2c3f909a23ced8989
+ms.openlocfilehash: 5d9bc41c92258f9856088b04ec5af123c8e915e5
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/13/2018
 
 ---
 
@@ -42,9 +42,8 @@ Dans la version actuelle, la solution Prospect en disponibilités fournit les ty
 - [Tenir à jour les comptes dans Sales et les synchroniser directement avec Finance and Operations](accounts-template-mapping-direct.md)
 - [Tenir à jour des produits dans Finance and Operations et les synchroniser directement avec Sales](products-template-mapping-direct.md)
 - [Tenir à jour les contacts dans Sales et les synchroniser directement avec les contacts ou les clients dans Finance and Operations](contacts-template-mapping-direct.md)
-- [Synchroniser le devis de vente directement entre Sales et Finance and Operations (modèle en attente de lancement)](sales-quotation-template-mapping-sales-fin.md)
-- [Synchroniser les commandes client directement à partir de Finance and Operations avec Sales](sales-order-template-mapping-direct.md)
-- [Synchroniser les commandes client directement entre Sales et Finance and Operations (modèle en attente de lancement)](sales-order-template-mapping-direct-two-ways.md)
+- [Synchroniser le devis de vente directement à partir de Sales sur Finance and Operations](sales-quotation-template-mapping-sales-fin.md)
+- [Synchroniser les commandes client directement entre Sales et Finance and Operations](sales-order-template-mapping-direct-two-ways.md)
 - [Synchroniser les factures client directement à partir de Finance and Operations avec Sales](sales-invoice-template-mapping-direct.md)
 
 ## <a name="system-requirements-for-finance-and-operations"></a>Configuration requise pour Finance and Operations
@@ -85,7 +84,7 @@ L'intégration de la solution Prospect en disponibilités est prise en charge da
 
 Pour utiliser la solution Prospect en disponibilités, vous devez installer les composants suivants :
 
-- Dynamics 365 for Sales version 1612 (8.2.1.207) (DB 8.2.1.207) en ligne
+- Dynamics 365 pour la version de Sales 1612 (8.2.1.207) (DB 8.2.1.207) en ligne ou ultérieure
 - Solution Prospect en disponibilités pour Dynamics 365 for Sales, version 1.15.0.0 (v15). 
 
 ### <a name="install-the-prospect-to-cash-solution-for-sales"></a>Installer le Prospect pour une solution de disponibilités pour Sales

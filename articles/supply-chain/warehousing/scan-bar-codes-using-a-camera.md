@@ -18,14 +18,16 @@ ms.author: mafoge
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ffbd853c15e479fc4350a19121f2aebcedda9854
-ms.openlocfilehash: 31b9d421f3fd5378f26faeee3a83b66861ef5008
+ms.sourcegitcommit: 7be3e9970e2599c159e7c9d414b54876d0116350
+ms.openlocfilehash: f7fe3ab07578b09822fbfeaa4b07331b79f13610
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/09/2018
 
 ---
 
 # <a name="scan-bar-codes-using-a-camera-in-dynamics-365-for-finance-and-operations--warehousing"></a>Lire les codes-barres à l'aide d'une caméra dans Dynamics 365 for Finance and Operations – Entreposage
+
+[!include[banner](../includes/banner.md)]
 
 Cette rubrique explique comment configurer Dynamics 365 for Finance and Operations – Entreposage pour scanner des codes-barres à l'aide de la caméra d'un appareil mobile. 
 
@@ -47,8 +49,8 @@ La page Caméra sera lancée sur chaque page si le champ de saisie a pour son mo
 - Cliquez sur la caméra dans la page Tâche et détails pour revenir à la page Caméra. 
 
 | Page Tâche et détails | Page Caméra | 
-| --------------------- | -------------------- |
-| ![camera-scanning-example-task-detail-page](media/camera-scanning-example-task-detail-page.png)          | ![camera-scanning-example-camera-page](media/camera-scanning-example-camera-page.png)          |
+| :---------------------: | :--------------------: |
+| ![camera-scanning-example-task-detail-page](./media/camera-scanning-example-task-detail-page50.png)          | ![camera-scanning-example-camera-page-smaller](./media/camera-scanning-example-camera-page50.png)          |
 
 Sur la page Caméra, lorsque vous cliquez sur le bouton Caméra, il apparaît estompé lorsque vous tentez d'identifier un code-barres. Si un code-barres n'est pas reconnu dans les 5 secondes, le processus expirera et le bouton Caméra redeviendra disponible. Vous pourrez ensuite tenter de lire à nouveau un code-barres.
 

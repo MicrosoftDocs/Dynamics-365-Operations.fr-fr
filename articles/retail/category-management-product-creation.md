@@ -1,47 +1,63 @@
 ---
-title: "Gestion et création des catégories de produit"
-description: "Cette rubrique décrit les améliorations apportées à l'expérience de gestion des catégories de produits vendus au détail. Ces améliorations permettent aux responsables des ventes d'établir une corrélation entre la hiérarchie des produits de détail et les détails des produits lancés."
+title: "Gestion des catégories de produit"
+description: "Cette rubrique décrit comment les responsables des opérations commerciales peuvent utiliser des catégories de produit vendus au détail pour gérer les relations entre la hiérarchie des produits vendus au détail et les détails du produit lancé."
 author: ashishmsft
 manager: AnnBe
-ms.date: 09/01/2017
+ms.date: 10/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
 ms.technology: 
-ms.search.form: RetailCategoryAndProductWorkspace, RetailCategory
+ms.search.form: 
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
-ms.search.region: Global
-ms.search.industry: retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
+ms.custom: 
+ms.assetid: c7ed2ba5-87c6-4d99-9728-2a83e6d95ca9
+ms.search.region: global
+ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-09-01
-ms.dyn365.ops.version: 
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 74a8fa863736177bcf8cb4b3d90911c78122252b
+ms.sourcegitcommit: 25fa39dc81fc721d7593a25a102ce47041ebc5f0
+ms.openlocfilehash: 4b7ef962b777a31e1da238a8ec1be9a42ec5bb5f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/13/2018
 
 ---
 
-# <a name="product-category-management-and-creation"></a>Gestion et création des catégories de produit
+
+# <a name="enhanced-product-and-category-management"></a>Gestion des catégories et des produits améliorée
 
 [!include[banner](./includes/banner.md)]
 
-Les améliorations apportées à l'expérience de gestion des catégories de produits de vente au détail ont permis aux responsables des ventes d'établir une corrélation entre la hiérarchie des produits de détail et les détails des produits lancés. Pour visualiser ces améliorations, dans l'espace de travail **Gestion des catégories et des produits**, sélectionnez **Hiérarchie des produits vendus au détail** pour ouvrir la page **Nouvelle structure des catégories de produits vendus au détail**. 
+Cette rubrique décrit une manière améliorée de gérer des catégories de produits vendus au détail et des produits vendus au détail dans Dynamics 365 for Retail. Ces améliorations permettent aux responsables des ventes d'afficher une structure commune de propriétés de produit entre la hiérarchie des produits de détail et les détails des produits lancés.
 
-Dans les versions précédentes, les propriétés du produit étaient divisées en propriétés de base du produit et en propriétés du produit de détail, en fonction de l'étendue de leur applicabilité. Les propriétés des produits vendus au détail étaient *globales*. En d'autres termes, pour une propriété de produit donnée, la même valeur est partagée pour toutes les entités juridiques. Les propriétés de produit de base étaient *spécifiques à une entité juridique*. En d'autres termes, une propriété de produit donnée peut être différente dans les entités juridiques, selon les exigences de l'entreprise.
+Pour en savoir plus sur la gestion des catégories de produits vendus au détail, accédez à **Hiérarchie des produits vendus au détail** dans l'espace de travail **Gestion des catégories et des produits**, et prenez note de la structure améliorée de la page **Catégorie de produits vendus au détail**.
 
-Grâce à ces améliorations, pour les propriétés du produit dans la catégorie de produits vendus au détail, nous continuons à séparer les champs, en fonction de leur applicabilité au sein d'un groupe, afin de refléter la structure des écrans de détails de produit.
+![Espace de travail Gestion des catégories et des produits](media/LaunchRetailProductHierarchy.png)
 
-Vous pouvez basculer entre la gestion des propriétés spécifiques à l'entité juridique dans toutes les entités juridiques et leur gestion pour une entité juridique spécifique. Sélectionnez simplement **Afficher ou modifier pour toutes les entités juridiques** ou **Afficher/Modifier pour une entité juridique spécifique** comme vous le souhaitez.
+Dans les versions précédentes, les propriétés du produit étaient divisées en **propriétés de base du produit** et en **propriétés du produit vendu au détail**, en fonction de l'étendue de leur applicabilité. Les **propriétés du produit vendu au détail** étaient *globales* en fonction de l'étendue de leur applicabilité, ce qui signifie que pour une **propriété de produit vendu au détail** donné, la même valeur est partagée entre toutes les entités juridiques. Les **propriétés de produit de base** sont *spécifiques à une entité juridique*. En d'autres termes, pour une **propriété de produit de base** donnée, la valeur peut être différente entre les entités juridiques, selon les exigences de l'entreprise.
 
-Les responsables des ventes peuvent également définir des valeurs par défaut pour un autre ensemble de propriétés de produit au niveau d'une catégorie individuelle. Ces valeurs de propriété sont héritées par un produit, selon leur association avec une catégorie au moment de la création du produit.
+Dans la structure de la catégorie de produit vendu au détail améliorée, les propriétés du produit sont séparées de manière logique en fonction de leur applicabilité au sein d'un groupe, afin de refléter la structure des écrans de détails de produit.
 
-## <a name="select-properties-to-update-products-from-the-retail-product-category-form"></a>Sélectionner les propriétés pour mettre à jour les produits du formulaire de la catégorie de produits vendus au détail
+![Regroupement des champs selon leur portée d'applicabilité](media/NoticeGroupingOfFieldsBasedOnTheirScope.PNG)
 
-Vous pouvez utiliser les propriétés de regroupement logique pour sélectionner les propriétés du produit mises à jour qui doivent être transmises aux produits associés.
+Vous pouvez basculer entre la gestion des propriétés spécifiques à l'entité juridique dans toutes les entités juridiques et leur gestion pour une entité juridique spécifique. Pour cela, sélectionnez **Afficher ou modifier pour toutes les entités juridiques** ou **Afficher/Modifier pour une entité juridique spécifique**.
+
+![Basculer entre la vue d'un individu et toutes les entités juridiques](media/ToggleBackToEditForSpecificLegalEntity.PNG)
+
+![Basculer entre la vue d'un individu et toutes les entités juridiques](media/ToggleToEditForAllLegalEntities.PNG)  
+
+Comparée aux versions précédentes, dans la nouvelle structure de la catégories de produits vendus au détail, responsable de vente peut également définir des valeurs par défaut pour un ensemble de propriétés de produit supplémentaires à un niveau de catégorie individuel. Lors de la création du produit, ces valeurs de propriété de produit par défaut sont héritées par un produit, selon son association à une catégorie individuelle de la hiérarchie des produits vendus au détail. Ces propriétés de produit héritées peuvent également être modifiées pour chaque produit, afin de répondre aux exigences de l'entreprise.
+
+## <a name="select-properties-to-update-products-from-the-retail-product-category-form"></a>Sélectionner les propriétés pour mettre à jour les produits du formulaire de la catégorie de produits vendus au détail 
+ 
+Vous pouvez utiliser cette nouvelle structure améliorées pour les propriétés de produit afin de sélectionner les propriétés de produit mises à jour devant être incluses dans les produits associés. 
+
+![Nouvelle vue améliorée de Mettre à jour les produits](media/NewUpdateProductsEnhancedView.PNG) 
 
 Les responsables des ventes peuvent modifier ces propriétés de produit héritées pour chaque produit, afin de répondre aux exigences de l'entreprise.
+
 
