@@ -1,7 +1,7 @@
 --- 
 title: "Créer des gammes (février 2016 uniquement)"
 description: "Cette tâche consiste à créer des gammes de production pur un produit fini et semi-fini."
-author: BibiSp
+author: YuyuScheller
 manager: AnnBe
 ms.date: 02/07/2017
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis
