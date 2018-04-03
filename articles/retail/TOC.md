@@ -3,8 +3,8 @@
 # Mise en route
 ## [Nouveautés ou changements](get-started/whats-new.md)
 ## [Avant d'acheter Dynamics 365 for Retail](get-started/before-you-buy.md)
-## [Souscrire un abonnement d'aperçu](../dev-itpro/dev-tools/sign-up-preview-subscription.md)
-## [Déployer un environnement de démonstration](../dev-itpro/deployment/deploy-demo-environment.md)
+## [Souscrire un abonnement d'aperçu](../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/retail/toc.json)
+## [Déployer un environnement de démonstration](../dev-itpro/deployment/deploy-demo-environment.md?toc=/retail/toc.json)
 ## [Options de déploiement](dev-itpro/choose-deployment.md)
 
 
@@ -46,8 +46,9 @@
 
 # Modern Point of Sale (MPOS) et Cloud POS
 ## [Choix entre Modern POS et Cloud POS](MPOS-or-CPOS.md)
-## [Opérations POS](POS-operations.md)
+## [Opérations PDV, en ligne et hors connexion](pos-operations.md)
 ## [Mises en page de l'écran de données de démonstration dans MPOS/CPOS](demo-data.md)
+## [Vue d'ensemble de la recherche de produits et de clients dans un point de vente](POS-search-improvements.md)
 ## Périphériques matériels
 ### [Vue d'ensemble des périphériques de la vente au détail](retail-peripherals-overview.md)
 ### [Périphériques matériels de POS testés par Microsoft](microsoft-tested-pos-hardware-peripherals.md)
@@ -60,6 +61,7 @@
 ### [Paramètres de langue et d'utilisateur de POS](pos-application-user-language-settings.md)
 ### [Définir des images pour MPOS](set-up-manage-images-retail-mpos.md)
 ## [Vue d'ensemble des codes d'informations](info-codes-retail.md) 
+## [Améliorations apportées aux PDV pour les produits sérialisés](serialized-inventory.md)
 ## Recommandations produit
 ### [Vue d'ensemble des recommandations produit personnalisées](personalized-product-recommendations.md)
 ### [Ajouter un contrôle de recommandations sur un périphérique POS](add-recommendations-control-pos-screen.md)
@@ -97,6 +99,7 @@
 ## [Ajustements de prix et remises](price-adjustments-discounts.md)
 ## [Déterminer la combinaison optimale de cumuls de remises](optimal-combination-overlapping-discounts.md)
 ## [Définir les remises spécifiques à un canal](define-channel-specific-discounts.md)
+## [Empêcher les remises pour les produits vendus au détail](prevent-discounts.md)
 ## [Créer des coupons pour les ventes au détail](retail-coupons.md)
 
 # Produits et merchandising
@@ -105,6 +108,7 @@
 ## [Vue d'ensemble des attributs et des groupes d'attributs](attribute-attributegroups-lifecycle.md)
 ## [Création et gestion des attributs](create-manage-attributes.md)
 ## [Paramétrer les produits vendus au détail](set-up-retail-products.md)
+## [Gestion améliorée des catégories et des produits](category-management-product-creation.md)
 ## [Dimensions de produit](../supply-chain/pim/product-dimensions.md)
 ## [Paramétrer les codes-barres](set-up-bar-codes.md)
 ## [Paramétrer des masques de codes-barres](set-up-bar-code-masks.md)
@@ -190,13 +194,14 @@
 # [Développement et administration Retail](dev-itpro/dev-retail-home-page.md)
 
 ## Architecture
-### [Composants de Microsoft Dynamics 365 for Finance and Operations, Enterprise edition - Retail](retail-components.md)
-### [Architecture de serveur Retail](dev-itpro/retail-server-architecture.md)
+### [Composants de Microsoft Dynamics 365 for Finance and Operations - Retail](retail-components.md)
+### [Architecture de Retail Server](dev-itpro/retail-server-architecture.md)
 ### [Communications du canal de vente au détail](dev-itpro/define-retail-channel-communications-cdx.md)
 ### [Architecture MPOS](dev-itpro/retail-modern-pos-architecture.md)
 ### [Architecture de publication de magasin en ligne Retail](dev-itpro/retail-online-store-publishing-architecture.md)
-### [Contenu Power BI des performances du canal de vente au détail](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md)
+### [Contenu Power BI des performances du canal de vente au détail](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/retail/toc.json)
 ### [Certification PA-DSS (Payment Application Data Security Standards)](dev-itpro/PA-DSS-Certification.md)
+### [Fonctionnalités de vente au détail disponibles dans les déploiements sur site](retail-onprem.md)
 
 ## Déploiement et correctifs
 ### [Vue d'ensemble Unité d'échelle de magasin de vente au détail](dev-itpro/retail-store-system-begin.md)
@@ -208,7 +213,7 @@
 ### [Installation et configuration de la station matérielle Retail](retail-hardware-station-configuration-installation.md)
 ### [Déploiement en masse des composants en libre service Retail](dev-itpro/retail-mass-deployment.md)
 ### [Événements des composants Retail pour les diagnostics et le dépannage](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
-### [Appliquer un package déployable](../dev-itpro/deployment/apply-deployable-package-system.md)
+### [Appliquer un package déployable](../dev-itpro/deployment/apply-deployable-package-system.md?toc=/retail/toc.json)
 
 ## Mise à niveau et assistance N-1
 ### [Vue d'ensemble des mises à niveau et prise en charge N-1](dev-itpro/overview-upgrade-n-minus1.md)
@@ -218,7 +223,7 @@
 ### [Conseils de mise en œuvre pour la gestion des périphériques](implementation-considerations-devices.md)
 
 ## Configuration de l'environnement
-### [Ajouter des liens à la déclaration de confidentialité et aux conditions légales de votre organisation](../dev-itpro/sysadmin/legal-terms-privacy-statement.md)
+### [Ajouter des liens à la déclaration de confidentialité et aux conditions légales de votre organisation](../dev-itpro/sysadmin/legal-terms-privacy-statement.md?toc=/retail/toc.json)
 ### [Gérer Bing Cartes](dev-itpro/manage-bing-maps.md)
 
 ## Extensibilité du point de vente
