@@ -1,6 +1,6 @@
 ---
 title: "Page d'accueil de la gestion de la chaîne d'approvisionnement"
-description: "Cette page fournit une liste de ressources et d'autres informations sur les fonctionnalités de gestion de la chaîne d'approvisionnement de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
+description: "Cette page fournit une liste de ressources et d'autres informations sur les fonctionnalités de gestion de la chaîne d'approvisionnement de Microsoft Dynamics 365 for Finance and Operations."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 02/15/2018
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: cab2f165a70e5ce8f09f0391282e055e51afb225
-ms.openlocfilehash: bf3192a5189a3b18ad28f3c5cb0dd6d402824ed5
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 9e3551580cc03ebf62ec42283c5a9a885d8c8d8f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/21/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 02/21/2018
 
 [!include[banner](includes/banner.md)]
 
-Cette rubrique fournit une liste de ressources et d'autres informations sur les fonctionnalités de gestion de la chaîne d'approvisionnement de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. 
+Cette rubrique fournit une liste de ressources et d'autres informations sur les fonctionnalités de gestion de la chaîne d'approvisionnement de Microsoft Dynamics 365 for Finance and Operations. 
 
 ## <a name="whats-new-and-in-development"></a>Nouveautés et développements
 Accédez au <a href="https://roadmap.dynamics.com/">Calendrier de lancement de Dynamics 365</a> pour découvrir les nouvelles fonctions qui seront lancées ou qui sont en développement. 
@@ -106,7 +106,7 @@ Plusieurs rubriques sur la fabrication et la gestion de la chaîne d'approvision
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Ateliers pratiques sur le contrôle de gestion</a> 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Lean manufacturing : planification de capable to promise et des tâches de kanban</a> 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">Calcul de nomenclature à l'aide d'une feuille d'évaluation des coûts</a>
--  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Mobilité dans l'entrepôt facilitée par Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</a>
+-  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Mobilité dans l'entrepôt facilitée par Microsoft Dynamics 365 for Finance and Operations</a>
 
 ## <a name="elearning-courses"></a>Cours eLearning
 Pour plus d'informations sur la formation Microsoft Dynamics 365 for Finance and Operations, voir le <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">Portail de formation Microsoft Dynamics</a>. (nécessite un compte CustomerSource) 

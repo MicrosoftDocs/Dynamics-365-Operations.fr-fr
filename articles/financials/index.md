@@ -1,6 +1,6 @@
 ---
 title: "Page d'accueil de la gestion financière"
-description: "Cette rubrique fournit une liste de ressources et d'autres informations sur les fonctionnalités de gestion financière de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
+description: "Cette rubrique fournit une liste de ressources et d'autres informations sur les fonctionnalités de gestion financière de Microsoft Dynamics 365 for Finance and Operations."
 author: twheeloc
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,10 +18,10 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6b576be9986a0c0701792a87422a0865cd3f8e7a
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 881b44f1128e732bc768191088e19efc38552eca
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 [!include[banner](includes/banner.md)]
 
-Cette rubrique fournit une liste de ressources et d'autres informations sur les fonctionnalités de gestion financière de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. 
+Cette rubrique fournit une liste de ressources et d'autres informations sur les fonctionnalités de gestion financière de Microsoft Dynamics 365 for Finance and Operations. 
 
 Sélectionnez une zone de fonctionnalités pour en savoir plus.
 - [Comptabilité fournisseur](accounts-payable\accounts-payable.md) 
