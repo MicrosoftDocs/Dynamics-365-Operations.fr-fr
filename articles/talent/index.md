@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
-ms.openlocfilehash: 199a8961f782816c71e47f9e76e097c069fbf686
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: db8b2e87ad020dac16ec74f2fea62e445c38e116
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -43,7 +43,7 @@ Le module Talent vous permet d'effectuer les tâches suivantes :
 + Paramétrer, fournir et analyser des formations, notamment sur les emplois du temps, les sessions et les suivis.
 
 > [!NOTE] 
-> Dynamics 365 for Talent est étroitement lié au module Ressources humaines dans Dynamics 365 for Finance and Operations, Enterprise edition. Les mêmes fonctionnalités peuvent apparaître dans les deux produits. Par conséquent, dans les rubriques qui sont principalement dédiées aux Ressources humaines, le nom du produit sera Dynamics 365 for Finance and Operations, Enterprise Edition ; dans les rubriques qui sont principalement dédiées à Talent, le nom du produit sera Dynamics 365 for Talent. Les rubriques qui sont écrites pour un produit peuvent s'appliquer à la même fonctionnalité d'un produit associé.
+> Dynamics 365 for Talent est étroitement lié au module Ressources humaines dans Dynamics 365 for Finance and Operations. Les mêmes fonctionnalités peuvent apparaître dans les deux produits. Par conséquent, dans les rubriques qui sont principalement dédiées aux Ressources humaines, le nom du produit sera Dynamics 365 for Finance and Operations ; dans les rubriques qui sont principalement dédiées à Talent, le nom du produit sera Dynamics 365 for Talent. Les rubriques qui sont écrites pour un produit peuvent s'appliquer à la même fonctionnalité d'un produit associé.
 
 <a name="develop-a-strategy-for-managing-your-human-resources"></a>Développer une stratégie de gestion de vos ressources humaines
 ---------------------------------------------------------

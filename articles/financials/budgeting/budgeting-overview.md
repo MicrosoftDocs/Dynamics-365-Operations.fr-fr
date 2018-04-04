@@ -1,6 +1,6 @@
 ---
 title: "Page d'accueil de la fonctionnalité de budgétisation"
-description: "Cette rubrique fournit une vue d'ensemble des composants de la fonctionnalité de budgétisation, des outils de budgétisation et des fonctionnalités de génération d'états dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
+description: "Cette rubrique fournit une vue d'ensemble des composants de la fonctionnalité de budgétisation, des outils de budgétisation et des fonctionnalités de génération d'états dans Microsoft Dynamics 365 for Finance and Operations."
 author: twheeloc
 manager: AnnBe
 ms.date: 08/09/2017
@@ -19,10 +19,10 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e59c29370353a6e4a67d2b892e2024ca78d560fc
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: efe348d9967ab7594afd22a3ebb4df76dc6607f8
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
