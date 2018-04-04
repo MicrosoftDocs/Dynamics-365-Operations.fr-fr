@@ -1,6 +1,6 @@
 ---
 title: "Priorité de règlement (Secteur public)"
-description: "Dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, vous pouvez sélectionner manuellement les transactions à régler, ou vous pouvez utiliser la fonctionnalité de règlement automatique. Les organisations du secteur public ont des options supplémentaires pour classer les règlements à l'aide des classifications de facturation. Ces options peuvent être utilisées avec le règlement automatique ou manuel."
+description: "Dans Microsoft Dynamics 365 for Finance and Operations, vous pouvez sélectionner manuellement les transactions à régler, ou vous pouvez utiliser la fonctionnalité de règlement automatique. Les organisations du secteur public ont des options supplémentaires pour classer les règlements à l'aide des classifications de facturation. Ces options peuvent être utilisées avec le règlement automatique ou manuel."
 author: twheeloc
 manager: AnnBe
 ms.date: 06/20/2017
@@ -20,10 +20,10 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d79c1f7ee7236d9dc1d7d9e2857ba4fd04692a05
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 055021b237ae1c14ed974f72a7b0f73964362254
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 

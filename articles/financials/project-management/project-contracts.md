@@ -1,6 +1,6 @@
 ---
 title: Contrats de projet
-description: "Cette rubrique décrit les contrats de projet à créer pour divers types de projets et de sources de financement (et en fournit des exemples), ainsi que la manière de gérer les contrats et facturer les clients des projets dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
+description: "Cette rubrique fournit des exemples de contrats de projet à créer pour divers types de projets et de sources de financement (et en fournit des exemples), ainsi que la manière de gérer les contrats et facturer les clients des projets dans Microsoft Dynamics 365 for Finance and Operations."
 author: KimANelson
 manager: AnnBe
 ms.date: 11/03/2017
@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
-ms.openlocfilehash: c8328bd2d93bbe763e629248edc1b7b4576005ae
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: e46393b9ac8797bf12cca12099d177980b75ba38
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/06/2017
 [!include[banner](../includes/banner.md)]
 
 
-Cet article décrit les contrats de projet à créer pour divers types de projets et de sources de financement (et en fournit des exemples), ainsi que la manière de gérer les contrats et facturer les clients des projets dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
+Cet article fournit des exemples de contrats de projet à créer pour divers types de projets et de sources de financement (et en fournit des exemples), ainsi que la manière de gérer les contrats et facturer les clients des projets dans Microsoft Dynamics 365 for Finance and Operations.
 
 Le type de projet que vous créez pour un contrat de projet détermine la méthode utilisée pour facturer les clients du projet. Vous pouvez modifier un contrat de projet et le projet qui lui est associé, mais vous ne pouvez pas modifier le type de projet. 
 

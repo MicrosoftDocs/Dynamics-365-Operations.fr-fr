@@ -1,6 +1,6 @@
 ---
 title: Page d'accueil de l'administration de l'organisation
-description: "Cette rubrique redirige vers des ressources utiles pour exploiter Microsoft Dynamics 365 for Finance and Operations, Enterprise edition dans votre organisation."
+description: "Cette rubrique redirige vers des ressources utiles pour exploiter Microsoft Dynamics 365 for Finance and Operations dans votre organisation."
 author: sericks007
 manager: AnnBe
 ms.date: 08/18/2017
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: c73eeaaf28df8db720431d4bcd317c9721baa99d
-ms.openlocfilehash: eb8674a6401b11e8e33d3cba54add1fb4bca1cd3
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a2c1d846527eac4db0a043c7f1c51da0e73bd796
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Cette rubrique redirige vers un contenu qui aidera les utilisateurs et les administrateurs à configurer Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Ce contenu les aidera à configurer le système pour qu'il fonctionne sans heurts et efficacement pour votre organisation et votre activité.
+Cette rubrique redirige vers un contenu qui aidera les utilisateurs et les administrateurs à configurer Microsoft Dynamics 365 for Finance and Operations. Ce contenu les aidera à configurer le système pour qu'il fonctionne sans heurts et efficacement pour votre organisation et votre activité.
 
 La plupart du contenu répertorié ici s'applique aux fonctions du module **Administration de l'organisation**. Cependant, plusieurs tâches, telles que la création et l'utilisation d'un modèle d'enregistrement, peuvent être effectuées dans n'importe quel module pour aider votre organisation à fonctionner plus efficacement. 
 

@@ -18,10 +18,10 @@ ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 002c3bea2803fdf43b0c35620c8d46fc9400fafc
-ms.openlocfilehash: 9db4f7ed9cba0d91a9a8507a33882a9114bdb1f5
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: f3ed06dbbce21ac093107953d3a72d8ab086af2a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 01/04/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 01/04/2018
 
 [!include[banner](../includes/banner.md)]
 
-Cette rubrique explique comment ouvrir des données d'entité dans Microsoft Excel, puis les étudier, les mettre à jour et les modifier à l'aide du module complémentaire Microsoft Dynamics Office pour Excel. Pour ouvrir les données d'entité, vous pouvez utiliser Excel ou Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
+Cette rubrique explique comment ouvrir des données d'entité dans Microsoft Excel, puis les étudier, les mettre à jour et les modifier à l'aide du module complémentaire Microsoft Dynamics Office pour Excel. Pour ouvrir les données d'entité, vous pouvez utiliser Excel ou Microsoft Dynamics 365 for Finance and Operations.
 
 En ouvrant des données d'entité dans Excel, vous pouvez rapidement les étudier et les modifier à l'aide du module complémentaire pour Excel. Ce module complémentaire nécessite Microsoft Excel 2016.
 

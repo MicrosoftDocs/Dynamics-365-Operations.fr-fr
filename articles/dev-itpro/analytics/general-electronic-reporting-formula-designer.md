@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 946584d8afa8937afc7a26835e05b0eecebaad35
-ms.openlocfilehash: 67558889dea03738a665d8f1e2f30833b96c4656
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 41d5671d180bae039d873419352d52afe90e386b
 ms.contentlocale: fr-fr
-ms.lasthandoff: 12/23/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -36,7 +36,7 @@ Cette rubrique décrit l'utilisation du concepteur de formule dans la générati
 
 La fonctionnalité de génération d'états électroniques prend en charge le concepteur de formule. Par conséquent, au moment de la conception, vous pouvez configurer des expressions qui peuvent être utilisées pour les tâches suivantes au moment de l'exécution :
 
-- Transformer les données reçues d'une base de données Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, qui doivent être saisies dans un modèle de données de génération d'états électroniques qui est conçu pour être une source de données pour les formats de génération d'états électroniques. (Par exemple, ces transformations peuvent inclure le filtrage, le regroupement et la conversion des types de données.)
+- Transformer les données reçues d'une base de données Microsoft Dynamics 365 for Finance and Operations qui doivent être saisies dans un modèle de données de génération d'états électroniques qui est conçu pour être une source de données pour les formats de génération d'états électroniques. (Par exemple, ces transformations peuvent inclure le filtrage, le regroupement et la conversion des types de données.)
 - Mettre en forme des données qui doivent être émises vers un document électronique en cours de génération en accord avec la mise en forme et les conditions d'un format de génération d'états électroniques spécifique. (Par exemple, la mise en forme peut être effectuée en accord avec la langue, la culture ou le codage demandé.)
 - Contrôler le processus de création de documents électroniques. (Par exemple, les expressions peuvent activer ou désactiver l'émission d'éléments spécifiques du format, en fonction des données de traitement. Elles peuvent également interrompre le processus de création du document ou envoyer des messages aux utilisateurs.)
 
@@ -217,11 +217,11 @@ Les tables suivantes décrivent les fonctions de manipulation des données que v
 | NULLDATE () | Renvoie une valeur de date **null**. | |
 | NULLDATETIME () | Renvoie une valeur de date/heure **null**. | |
 | DATETIMEFORMAT (datetime, format) | Convertit la valeur de date/heure spécifiée en une chaîne dans le format spécifié. (Pour plus d'informations sur les formats pris en charge, consultez [standard](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) et [personnalisé](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (NOW(), "dd-MM-yyyy")** renvoie la date du serveur d'applications Finance and Operations actuelle, 24 décembre 2015, sous la forme **"24-12-2015"**, en fonction du format personnalisé spécifié. |
-| DATETIMEFORMAT (datetime, format, culture) | Convertit la valeur de date/heure spécifiée en une chaîne dans le format et la [culture](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx) spécifiés. (Pour plus d'informations sur les formats pris en charge, consultez [standard](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) et [personnalisé](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (NOW(), "d", "de")** renvoie la date du serveur d'applications Finance and Operations actuelle, 24 décembre 2015, sous la forme **"24.12.2015"**, en fonction de la culture allemande sélectionnée. |
+| DATETIMEFORMAT (datetime, format, culture) | Convertit la valeur de date/heure spécifiée en une chaîne dans le format et la [culture](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx) spécifiés. (Pour plus d'informations sur les formats pris en charge, consultez [standard](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) et [personnalisé](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx)). | **DATETIMEFORMAT (NOW(), "d", "de")** renvoie la date du serveur d'applications Finance and Operations actuelle, 24 décembre 2015, sous la forme **"24.12.2015"**, en fonction de la culture allemande sélectionnée. |
 | SESSIONTODAY () | Renvoie la date de la session Finance and Operations comme valeur de date. | |
 | SESSIONNOW () | Renvoie la date et l'heure de session Finance and Operations comme valeur de date/heure. | |
 | DATEFORMAT (date, format) | Renvoie une représentation sous forme de chaîne de la date spécifiée dans le format spécifié. | **DATEFORMAT (SESSIONTODAY (), "dd-MM-yyyy")** renvoie la date de la session Finance and Operations actuelle, 24 décembre 2015, sous la forme **"24-12-2015"**, en fonction du format personnalisé spécifié. |
-| DATEFORMAT (date, format, culture) | Convertit la valeur de date spécifiée en une chaîne dans le format et la [culture](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx) spécifiés. (Pour plus d'informations sur les formats pris en charge, consultez [standard](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) et [personnalisé](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (SESSIONNOW (), "d", "de")** renvoie la date de la session Finance and Operations actuelle, 24 décembre 2015, sous la forme **"24.12.2015"**, selon la culture allemande sélectionnée. |
+| DATEFORMAT (date, format, culture) | Convertit la valeur de date spécifiée en une chaîne dans le format et la [culture](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx) spécifiés. (Pour plus d'informations sur les formats pris en charge, consultez [standard](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) et [personnalisé](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx)). | **DATETIMEFORMAT (SESSIONNOW (), "d", "de")** renvoie la date de la session Finance and Operations actuelle, 24 décembre 2015, sous la forme **"24.12.2015"**, selon la culture allemande sélectionnée. |
 | DAYOFYEAR (date) | Renvoie une représentation sous forme de nombre entier du nombre de jours entre le 1er janvier et la date spécifiée. | **DAYOFYEAR (DATEVALUE ("01-03-2016", "dd-MM-yyyy"))** retourne **61**. **DAYOFYEAR (DATEVALUE ("01-01-2016", "dd-MM-yyyy"))** retourne **1**. |
 | DAYS (date 1, date 2) | Renvoie le nombre de jours entre la première date spécifiée et la deuxième date spécifiée. Renvoie une valeur positive lorsque la première date est postérieure à la deuxième date ; renvoie **0** (zéro) lorsque la première date est égale à la deuxième date ; sinon, renvoie une valeur négative. | **DAYS (TODAY (), DATEVALUE( DATETIMEFORMAT( ADDDAYS(NOW(), 1), "yyyyMMdd"), "yyyyMMdd"))** renvoie **-1**. |
 
@@ -540,7 +540,7 @@ L'expression <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> renvoie éga
 </tr>
 <tr class="even">
 <td>FORMAT (string 1, string 2[, string 3, …])</td>
-<td>Renvoie la chaîne spécifiée une fois qu'elle a été mise en forme en substituant toutes les occurrences de <strong>%N</strong> par le <em>n</em>ième argument. Les arguments sont des chaînes. Si un argument n'est pas fourni pour un paramètre, le paramètre est renvoyé comme <strong>&quot;%N&quot;</strong> dans la chaîne. Pour les valeurs de type <strong>real</strong>, la conversion de chaîne est limitée à deux décimales.</td>
+<td>Renvoie la chaîne spécifiée une fois qu'elle a été mise en forme en substituant toutes les occurrences de <strong>%N</strong> par le <em>ième</em> argument. Les arguments sont des chaînes. Si un argument n'est pas fourni pour un paramètre, le paramètre est renvoyé comme <strong>&quot;%N&quot;</strong> dans la chaîne. Pour les valeurs de type <strong>real</strong>, la conversion de chaîne est limitée à deux décimales.</td>
 <td>Dans l'illustration suivante, la source de données <strong>PaymentModel</strong> renvoie la liste des enregistrements client via le composant <strong>Customer</strong> et la valeur de la date de traitement via le champ <strong>ProcessingDate</strong>.
 <p><a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a></p>
 <p>Dans le format de génération d'états électroniques conçu pour générer un fichier électronique pur les clients sélectionnés, <strong>PaymentModel</strong> est sélectionné comme source de données et contrôle le flux de processus. Une exception est levée pour informer les utilisateurs finaux lorsqu'un client sélectionné est arrêté à la date lorsque l'état est traité. La formule qui est conçue pour ce type de contrôle de traitement peut utiliser les ressources suivantes :</p>

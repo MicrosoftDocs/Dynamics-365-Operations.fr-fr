@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1212a46cc937b9ccc6ebfa9cc4b89b931f144130
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c7de1d7e57a2a32c339bc576f929958b9de91fcc
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/06/2017
 
 Cet article présente le concept de devis de projet. Vous pouvez l'utiliser pour élaborer une offre attractive pour un client à la première étape de la phase de projet. Un devis peut inclure les articles et services qui font l'objet d'un devis, des informations de contact de base, des accords commerciaux spéciaux et des remises et d'éventuelles taxes et surcharges. 
 
-La capacité à surveiller, examiner et contrôler les opportunités de devis et de commandes de projet est une composante essentielle de la gestion de projet. Divers outils de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition peuvent vous aider à effectuer ces tâches. Par exemple, des définitions de données de référence correctes (types de devis, origine des devis, pronostic de devis et probabilité de devis) vous aident à analyser les opportunités. Vous pouvez utiliser ces outils pour catégoriser les raisons pour lesquelles un devis de projet a été remporté ou perdu et pour déterminer la valeur potentielle d'un devis. 
+La capacité à surveiller, examiner et contrôler les opportunités de devis et de commandes de projet est une composante essentielle de la gestion de projet. Divers outils de Microsoft Dynamics 365 for Finance and Operations peuvent vous aider à effectuer ces tâches. Par exemple, des définitions de données de référence correctes (types de devis, origine des devis, pronostic de devis et probabilité de devis) vous aident à analyser les opportunités. Vous pouvez utiliser ces outils pour catégoriser les raisons pour lesquelles un devis de projet a été remporté ou perdu et pour déterminer la valeur potentielle d'un devis. 
 
 Dans un devis de projet, vous entrez les services, les informations de contact de base, les accords commerciaux spéciaux et les remises, ainsi que les taxes et surcharges estimées pour un projet. Vous pouvez également sélectionner les activités ou tâches d'un projet et créer une hiérarchie de tâches et de sous-tâches. Pour chaque activité, vous pouvez entrer des détails sur l'échéance et la durée de l'activité, ainsi que sur les compétences et l'expérience nécessaires aux collaborateurs en charge de l'activité. 
 

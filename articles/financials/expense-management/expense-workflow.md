@@ -1,6 +1,6 @@
 ---
 title: "Workflow des dépenses"
-description: "Cette rubrique explique comment utiliser le système de flux de travail dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition pour configurer un processus de révision des notes de frais dans la Gestion des dépenses."
+description: "Cette rubrique explique comment utiliser le système de flux de travail dans Microsoft Dynamics 365 for Finance and Operations pour configurer un processus de révision des notes de frais dans la Gestion des dépenses."
 author: saraschi2
 manager: AnnBe
 ms.date: 09/13/2017
@@ -19,10 +19,10 @@ ms.search.validFrom:
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 2c2e01d4da04cd24c2df1690e6e354e1c03cb50d
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 6ee607f723659a5b6ecd655ba4fdfca35a4c582d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/29/2017
 
 [!include[banner](../includes/banner.md)]
 
-Vous pouvez utiliser le système de flux de travail dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition pour configurer un processus de révision des notes de frais dans la Gestion des dépenses. Vous pouvez paramétrer un workflow qui utilise les critères suivants pour déterminer qui approuve les états de dépenses :
+Vous pouvez utiliser le système de flux de travail dans Microsoft Dynamics 365 for Finance and Operations pour configurer un processus de révision des notes de frais dans la Gestion des dépenses. Vous pouvez paramétrer un workflow qui utilise les critères suivants pour déterminer qui approuve les états de dépenses :
 
 - La hiérarchie de génération d'états des employés et le plafond autorisé prédéfinis
 - Approbation à plusieurs niveaux qui prend en charge les approbateurs intermédiaires et un approbateur final

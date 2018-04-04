@@ -19,10 +19,10 @@ ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c616637922e617661482875d78531ea79fda4407
+ms.sourcegitcommit: 812db9f1d319e4d16f83700a7153a0a3b318963e
+ms.openlocfilehash: aaa8bdedc31ee03e96a0f7a5e78f25f888913e71
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/23/2018
 
 ---
 
@@ -42,7 +42,7 @@ Certains détails de la tâche, tels que le titre, le type et la fonction ont un
 ## <a name="job-titles"></a>Titres de tâche
 Avant de créer des tâches, vous devez paramétrer des titres pour celles-ci. Les postes héritent des titres des tâches auxquelles ils sont associés. 
 
-Tenez à jour les titres de tâche à l'aide de la page **Titres**, que vous pouvez ouvrir en utilisant la fonction de recherche. Sur la page Titres**, entrez les titres que vous prévoyez d'utiliser pour vos tâches.
+Tenez à jour les titres de tâche à l'aide de la page **Titres**, que vous pouvez ouvrir en utilisant la fonction de recherche. Sur la page **Titres**, entrez les titres que vous prévoyez d'utiliser pour vos tâches.
 
 ## <a name="job-types"></a>Types de missions
 Utilisez les types de tâches pour regrouper les tâches similaires en catégories. Les types de tâches sont facultatifs. si vous envisagez de les utiliser lors du paramétrage des règles d'admissibilité pour la gestion des rémunérations, vous devez les paramétrer avant de configurer des tâches. Certains exemples de types de tâches sont à temps plein et à temps partiel, ou payés à l'heure. Tenez à jour les types de tâches à l'aide de la page **Types de tâches**. Sur la page **Types de tâches**, entrez un nom et une brève description du type de tâche. Dans le champ **Statut de l'exemption**, sélectionnez l'une des options suivantes pour indiquer le statut d'exemption FLSA (Fair Labor Standards Act) des tâches de ce type :
@@ -91,6 +91,6 @@ Tenez à jour les tâches à l'aide de la page **Tâches**. Sur la page **Tâche
 ## <a name="areas-of-responsibility"></a>Domaines de responsabilité
 Utilisez les domaines de responsabilité pour indiquer les rôles, les processus et les produits dont un travailleur occupant un poste pour une tâche est responsable. Par exemple, pour une tâche intitulée « Comptable », un domaine de responsabilité peut être « Génération d'états financiers pour le produit A ». Tenez à jour les domaines de responsabilité à l'aide de la page **Domaines de responsabilité**, que vous pouvez rechercher à l'aide de la fonction de recherche. Sur la page **Domaines de responsabilité**, entrez un nom et une description pour la responsabilité. Dans le champ **Remarque**, vous pouvez éventuellement entrer des informations supplémentaires. Les notes peuvent être mises à jour pour une tâche spécifique sans modifier les notes que vous avez entrées ici.
 
-
-
+## <a name="steps-for-creating-a-job"></a>Étapes pour créer une tâche
+Reportez-vous à la rubrique [Définir les nouvelles tâches](../fin-and-ops/hr/tasks/define-new-jobs.md) pour connaître la procédure pas à pas pour créer une tâche. 
 

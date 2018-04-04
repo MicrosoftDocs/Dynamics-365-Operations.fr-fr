@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 8139134ed230cc1525c698fadb20309afee0a68f
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 2d31a5dfd16a4404e19c6c9693dacecff6f2f064
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 
 Cette rubrique fournit des informations sur les ressources de projet.
 
-La difficulté pour les chefs de projet et les responsables de ressources pendant le stade de planification du projet est l'allocation des ressources, dans laquelle ils doivent réserver la ressource correcte pour travailler sur un projet. Dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, les fonctionnalités de ressources pour les projets vous permettent de définir les rôles qui sont traités comme des ressources temporaires pouvant être réservées à un engagement spécifique ou à une partie d'engagement. Ce type de ressource permet aux chefs de projet et aux responsables de ressources d'accomplir les tâches suivantes :
+La difficulté pour les chefs de projet et les responsables de ressources pendant le stade de planification du projet est l'allocation des ressources, dans laquelle ils doivent réserver la ressource correcte pour travailler sur un projet. Dans Microsoft Dynamics 365 for Finance and Operations, les fonctionnalités de ressources pour les projets vous permettent de définir les rôles qui sont traités comme des ressources temporaires pouvant être réservées à un engagement spécifique ou à une partie d'engagement. Ce type de ressource permet aux chefs de projet et aux responsables de ressources d'accomplir les tâches suivantes :
 
 - Définir un rôle qui possède les qualifications requises pour simplifier le rapprochement des ressources.
 - Utiliser des rôles pour définir un programme initial d'engagement basé sur les ressources réservées.
@@ -232,7 +232,7 @@ Nous vous recommandons d'utiliser un traitement par lots. Les options sont dispo
 1. Sélectionnez **Gestion de projets et comptabilité** &gt; **Périodique** &gt; **Synchronisation des capacités** &gt; **Synchroniser les reports de capacité des ressources**.
 2. Définissez les options dans le tableau suivant.
 
-    | Option      | Description  |
+    | Option      | Description |
     |-------------|-------------|
     | Code période | Permet de sélectionner un code intervalle de dates de comptabilité pour définir les dates de début et de fin du processus de synchronisation pour les reports de capacité des ressources. |
     | Date de début  | Entrez la date de début du processus de synchronisation pour les reports de capacité des ressources. |
@@ -241,7 +241,7 @@ Nous vous recommandons d'utiliser un traitement par lots. Les options sont dispo
 [![Processus de synchronisation](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
 
 ## <a name="set-up-roles-on-wbs-templates"></a>Définir des rôles dans des modèles WBS
-Les chefs de projet peuvent paramétrer des modèles WBS qu'ils peuvent appliquer lorsqu'ils créent une structure WBS pour de nouveaux projets. Les chefs de projet peuvent ajouter des rôles lorsqu'ils créent un modèle. Utilisez la procédure suivante pour affecter un rôle à un modèle de WBS. 
+Les chefs de projet peuvent paramétrer des modèles WBS qu'ils peuvent appliquer lorsqu'ils créent une structure WBS pour de nouveaux projets. Les chefs de projet peuvent ajouter des rôles lorsqu'ils créent un modèle. Utilisez la procédure suivante pour affecter un rôle à un modèle de WBS.
 
 1. Sélectionnez **Gestion de projets et comptabilité** &gt; **Paramétrage** &gt; **Projets** &gt; **Modèles de structure de répartition du travail**.
 2. Sélectionnez **Détails** pour un modèle de WBS sélectionné.

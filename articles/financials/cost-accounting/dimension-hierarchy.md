@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: cef54fa8109ebce0f8a6ca67c93afc30ec8a6781
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 40a4a1d7549876b72186f30a9c0089f0d27cf3b6
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -76,7 +76,7 @@ Le type **Hiérarchie de classification de dimension** est utilisé pour défini
 
 Une hiérarchie de dimensions est créée comme structure arborescente qui inclut des relations de nœuds et des nœuds terminaux.
 
--  Un nœud peut comporter 1 : sous-nœuds de _n_.
+-  Un nœud peut comporter des sous-nœuds de 1:_n_.
 -  Un nœud ne peut pas avoir des sous-nœuds et des nœuds terminaux qui lui sont affectés à la fois.
 -  Un nœud terminal ne peut être affecté qu'au plus bas dans la hiérarchie.
 
@@ -329,7 +329,7 @@ Les paramètres de la hiérarchie de la liste d'accès sont utilisés pour contr
 - Power BI :
 
     - Données qui sont affichées dans une visualisation Power BI
-    - Les visualisations des données Power BI sont intégrées dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition client
+    - Les visualisations des données Power BI sont intégrées dans le client Microsoft Dynamics 365 for Finance and Operations
 
 > [!NOTE] 
 > - Avant que la hiérarchie de la liste d'accès puisse affecter des données Power BI, la hiérarchie de la liste d'accès et la sécurité au niveau de la ligne dans Power BI doivent être jumelées. Pour plus d'informations, voir [Paramétrer la sécurité pour le pack de contenu de gestion des coûts](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).

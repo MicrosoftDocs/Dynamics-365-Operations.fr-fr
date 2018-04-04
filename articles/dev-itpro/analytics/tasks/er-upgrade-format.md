@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: db9e66a67f20ca24de3a020c1871cdda0cf2f9be
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: cfc68c1d0810cbc296b35c09176dde2c948a50d0
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="upgrade-your-format-by-adopting-of-new-base-version-of-that-format-for-electronic-reporting-er"></a>Mettre à niveau votre format en adoptant la nouvelle version de base de ce format pour la génération d'états électroniques (ER)
@@ -107,7 +107,7 @@ Proseware, Inc. a reçu la version 1.1 de la configuration BACS (nom fictif brit
     * Notez que la configuration créée est enregistrée comme version 1.1.1 terminée. Cela signifie que c'est la version 1 du format BACS (nom personnalisé fictif britannique) personnalisé, qui est basé sur la version 1 du format BACS (nom fictif britannique), basé sur la version 1 du modèle de données Paiements (modèle simplifié).  
 
 ## <a name="test-the-customized-format-to-generate-payment-files"></a>Tester le format personnalisé pour générer des fichiers de paiement
-Suivez les étapes de la procédure « Utiliser le format créé pour générer des documents électroniques de paiement » dans une session parallèle de Dynamics 365 for Finance and Operations, Enterprise Edition. Sélectionnez le format BACS (nom personnalisé fictif britannique) dans les paramètres de mode de paiement électronique. Vérifiez que le fichier de paiement créé contient le nœud XML introduit récemment présentant le code IBAN conformément aux besoins spécifiques.  
+Suivez les étapes de la procédure « Utiliser le format créé pour générer des documents électroniques de paiement » dans une session parallèle de Dynamics 365 for Finance and Operations. Sélectionnez le format BACS (nom personnalisé fictif britannique) dans les paramètres de mode de paiement électronique. Vérifiez que le fichier de paiement créé contient le nœud XML introduit récemment présentant le code IBAN conformément aux besoins spécifiques.  
 
 ## <a name="update-the-existing-country-specific-configuration"></a>Mettre à jour la configuration spécifique au pays existant
 Litware, Inc. doit mettre à jour la configuration BACS (nom personnalisé fictif britannique) et adopter de nouvelles exigences spécifiques au pays pour gérer le format du document électronique. Cela sera ensuite associé à une nouvelle version de cette configuration qui sera proposée aux abonnés du service, notamment Proseware, Inc.  
@@ -203,6 +203,6 @@ Proseware, Inc. est informé qu'une nouvelle version 1.2 de la configuration de 
     * Notez que la configuration créée est enregistrée comme version 1.2.2 terminée : la version 2 du format BACS (nom personnalisé fictif britannique) de base, basé sur la version 2 du format du BACS (nom fictif britannique) de base, basé sur la version 1 du modèle de données Paiements (modèle simplifié).  
 
 ## <a name="test-the-customized-format-for-payment-files-generation"></a>Tester le format personnalisé pour la génération des fichiers de paiement
-Suivez les étapes de la procédure « Utiliser le format créé pour générer des documents électroniques de paiement » dans une session parallèle de Dynamics 365 for Finance and Operations, Enterprise Edition. Sélectionnez le format BACS (nom personnalisé fictif britannique) créé dans les paramètres de mode de paiement électronique. Vérifiez que le fichier de paiement créé contient le nœud XML introduit récemment par Proseware, Inc. présentant le code de compte IBAN conformément aux besoins spécifiques. Le fichier doit également contenir le nœud de XML récemment introduit par Litware, Inc. présentant le code de banque SWIFT dans l'accord aux besoins de pays.  
+Suivez les étapes de la procédure « Utiliser le format créé pour générer des documents électroniques de paiement » dans une session parallèle de Dynamics 365 for Finance and Operations. Sélectionnez le format BACS (nom personnalisé fictif britannique) créé dans les paramètres de mode de paiement électronique. Vérifiez que le fichier de paiement créé contient le nœud XML introduit récemment par Proseware, Inc. présentant le code de compte IBAN conformément aux besoins spécifiques. Le fichier doit également contenir le nœud de XML récemment introduit par Litware, Inc. présentant le code de banque SWIFT dans l'accord aux besoins de pays.  
 
 

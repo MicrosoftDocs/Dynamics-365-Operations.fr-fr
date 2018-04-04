@@ -19,10 +19,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: d5b1bb5f25710b7d4feea55414d68d5390c87308
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 99eece7b31034065694f8875c72eb2360088ec23
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -32,8 +32,8 @@ ms.lasthandoff: 02/23/2018
 
 Cette rubrique répertorie le contenu Microsoft Power BI qui est disponible et vous indique les ressources complémentaires.
 
-## <a name="power-bi-content-for-dynamics-365-for-finance-and-operations-enterprise-edition"></a>Contenu Power BI pour Dynamics 365 for Finance and Operations, Enterprise Edition
-Si vous utilisez Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, le contenu Power BI suivant est disponible :
+## <a name="power-bi-content-for-dynamics-365-for-finance-and-operations"></a>Contenu Power BI pour Dynamics 365 for Finance and Operations
+Si vous utilisez Microsoft Dynamics 365 for Finance and Operations, le contenu Power BI suivant est disponible :
 
 - [Contenu Power BI Comparatif Réel/Budget](ledger-budgets-power-bi.md)
 - [Contenu Power BI Avantages](benefits-power-bi.md)

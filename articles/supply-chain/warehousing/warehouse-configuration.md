@@ -19,10 +19,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: d38cbe149a2713bddb50a044b77f6e4789b50a21
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 9c2f8fd846181c404492ff32907a3396beb90685
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -36,7 +36,7 @@ Cet article explique comment configurer un entrepôt. Elle contient des informat
 **Remarque :** cet article s'applique aux fonctionnalités du module **Gestion des entrepôts** module (entreposage avancé). Il ne s'applique pas aux fonctionnalités dédiées aux entrepôts du module **Gestion des stocks**.
 
 ## <a name="warehouse-layout"></a>Disposition de l'entrepôt
-Le système de gestion des entrepôts de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition vous offre des moyens flexibles de définir la disposition de votre entrepôt pour répondre à vos besoins variables, afin de pouvoir atteindre le rendement optimal de l'entrepôt.
+Le système de gestion des entrepôts de Microsoft Dynamics 365 for Finance and Operations vous offre des moyens flexibles de définir la disposition de votre entrepôt pour répondre à vos besoins variables, afin de pouvoir atteindre le rendement optimal de l'entrepôt.
 
 -   Vous pouvez créer des zones de stockage à priorité haute et basse pour positionner les marchandises de manière optimale.
 -   Vous pouvez diviser votre entrepôt en zones pour répondre à des besoins de stockage variés, tels qu'une température de préférence ou des taux de rotation variables d'un article à l'autre.

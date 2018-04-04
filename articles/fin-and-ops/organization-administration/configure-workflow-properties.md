@@ -1,5 +1,5 @@
 ---
-title: "Configuration des propriétés d'un workflow"
+title: "Configuration des propriétés de workflow"
 description: "Cette rubrique explique comment configurer les différentes propriétés d'un workflow."
 author: sericks007
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6cad67d4108a81de545a1e633dc4e12a31af683b
+ms.sourcegitcommit: 19cc8f92b5bb6d9ddfdc77785e48de17ed005703
+ms.openlocfilehash: 7ea35d851613a19889392400e31cf8492d5dc799
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/23/2018
 
 ---
 
-# <a name="configure-the-properties-of-a-workflow"></a>Configuration des propriétés d'un workflow
+# <a name="configure-workflow-properties"></a>Configuration des propriétés de workflow
 
 [!include[banner](../includes/banner.md)]
 

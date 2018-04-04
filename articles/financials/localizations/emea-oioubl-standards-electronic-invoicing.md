@@ -1,6 +1,6 @@
 ---
 title: "Normes prises en charge pour la facturation électronique en Europe"
-description: "Cette rubrique explique le niveau de couverture existant pour la facturation électronique dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition en Europe."
+description: "Cette rubrique explique le niveau de couverture existant pour la facturation électronique dans Microsoft Dynamics 365 for Finance and Operations en Europe."
 author: mrolecki
 manager: AnnBe
 ms.date: 07/11/2017
@@ -18,10 +18,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: d41f4d454bc3a763ca6658babde6c3a6a44be73d
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 354b9fd50dbd628b91fd4d77c4cb323ddc36428f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 

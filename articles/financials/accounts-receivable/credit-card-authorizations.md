@@ -1,6 +1,6 @@
 ---
 title: "Paramétrage, autorisation et capture de carte de crédit"
-description: "Cet article fournit une vue d'ensemble de l'autorisation de carte de crédit dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Il inclut des informations sur le paramétrage d'un service de paiement, l'ajout d'une carte de crédit à une commande client et l'annulation d'une autorisation."
+description: "Cet article fournit une vue d'ensemble de l'autorisation de carte de crédit dans Microsoft Dynamics 365 for Finance and Operations. Il inclut des informations sur le paramétrage d'un service de paiement, l'ajout d'une carte de crédit à une commande client et l'annulation d'une autorisation."
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: dad3964003d0be0c22b0346aba2b3319278ffaa9
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 4a6354563fdebff901498f1cd6caed3aedae668b
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 09/29/2017
 [!include[retail name](../includes/retail-name.md)]
 
 
-Cet article fournit une vue d'ensemble de l'autorisation de carte de crédit dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Il inclut des informations sur le paramétrage d'un service de paiement, l'ajout d'une carte de crédit à une commande client et l'annulation d'une autorisation.
+Cet article fournit une vue d'ensemble de l'autorisation de carte de crédit dans Microsoft Dynamics 365 for Finance and Operations. Il inclut des informations sur le paramétrage d'un service de paiement, l'ajout d'une carte de crédit à une commande client et l'annulation d'une autorisation.
 
 <a name="setting-up-the-credit-card-payment-service"></a>Paramétrage du service de paiement par carte de crédit
 ------------------------------------------

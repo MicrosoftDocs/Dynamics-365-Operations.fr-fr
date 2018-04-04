@@ -19,10 +19,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 82c2fab72923cfec135e207dfe194fda7d16e8e9
+ms.sourcegitcommit: 8a24f8adc4f7886a1f942d83f7a4eb12e7034fcd
+ms.openlocfilehash: d8cf283321b81c377498cd449b098f8fac1fe01f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 
@@ -41,6 +41,8 @@ Les colonnes suivantes indiquent où les opérations peuvent être invoquées :
 - **Groupe de boutons** – L'opération peut être affectée aux boutons dans les groupes de boutons du PDV, qui font partie d'une mise en page de l'écran du PDV.
 - **Écran de transaction** – L'opération peut être invoquée à partir des groupes de boutons du PDV configurés sur l'écran de transaction du PDV.
 - **Écran de bienvenue** – L'opération peut être invoquée à partir des groupes de boutons du PDV configurés sur l'écran de bienvenue.
+
+Remarque : les opérations répertoriées ci-dessous s'appliquent à la version la plus récente de Dynamics 365 for Retail. Certaines opérations peuvent avoir été modifiées ou ne pas être disponibles dans les versions précédentes.
 
 | ID | Opération | Description | Groupe de boutons | Écran de transaction | Écran de bienvenue | Disponible hors connexion | Spécifique aux paramètres locaux |
 |----|-----------|-------------|-------------|--------------------|----------------|-------------------|-----------------|
@@ -105,6 +107,7 @@ Les colonnes suivantes indiquent où les opérations peuvent être invoquées :
 | 703 | Verrouiller la caisse enregistreuse | Permet de verrouiller le registre actuel, afin qu'il ne puisse pas être utilisé, mais sans déconnecter l'utilisateur actuel. | N° | N° | N° | Oui | N° |
 | 701 | Déconnexion | Permet de déconnecter l'utilisateur actuel du registre. | Oui | Oui | Oui | Oui | N° |
 | 521 | Solde de points de la carte de fidélité | Permet d'afficher le solde de points de la carte de fidélité spécifiée. | Oui | Oui | N° | N° | N° |
+| 918 | Gérer les équipes | Permet d'afficher une liste d'équipes actives, interrompues et clôturées en aveugle. | Oui | Oui | Oui | N° | N° |
 | 914 | Réduire la fenêtre du PDV | Cette opération n'est pas prise en charge. | Non applicable | Non applicable | Non applicable | Non applicable | N° |
 | 1 000 | Ouvrir tiroir-caisse | Permet d'exécuter une opération sans vente, puis d'ouvrir le tiroir-caisse actuellement sélectionné. | Oui | Oui | Oui | Oui | N° |
 | 928 | Exécution de l'ordre | Cette opération permet aux utilisateurs de prélever, emballer, expédier ou rappeler des commandes pour un retrait en magasin. | Oui | Oui | Oui | N° | N° |
@@ -162,7 +165,6 @@ Les colonnes suivantes indiquent où les opérations peuvent être invoquées :
 | 638 | Définir le représentant sur la ligne | Cette opération permet à l'utilisateur de sélectionner l'un des groupes de ventes de commission admissibles (commerciaux) pour la ligne sélectionnée actuellement. | Oui | Oui | N° | Oui | N° |
 | 630 | Expédier tous les produits | Permet de définir le mode d'exécution **Expédition** pour toutes les lignes. | Oui | Oui | N° | Oui\* | N° |
 | 629 | Expédier les produits sélectionnés | Permet de définir le mode d'exécution sur **Expédition** pour les lignes sélectionnées. | Oui | Oui | N° | Oui\* | N° |
-| 918 | Afficher les équipes de travail clôturées en aveugle | Permet d'afficher une liste d'équipes qui ont été clôturées en aveugle. | Oui | Oui | Oui | N° | N° |
 | 115 | Afficher le journal | Permet d'afficher le journal du magasin. Vous pouvez afficher les transactions, imprimer les reçus et les reçus de cadeaux, et rappeler les retours. | Oui | Oui | Oui | Oui\*\* | N° |
 | 802 | Inventaire | Cette opération permet à l'utilisateur de créer ou de modifier les journaux d'inventaire pour le stock physique ou les inventaires tournants. | Oui | Oui | Oui | N° | N° |
 | 401 | Sous-menu | Cette opération dirige l'utilisateur vers un autre groupe de boutons lié. | Oui | Oui | Oui | Oui | N° |

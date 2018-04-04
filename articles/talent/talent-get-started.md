@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: b2514b6ff7500863a312ee378be008a7dcfb7438
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3eb642944a31aad983758fc28bc692800bb6b4d2
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="getting-started-with-microsoft-dynamics-365-for-talent"></a>Prise en main de Microsoft Dynamics 365 for Talent
@@ -31,7 +31,7 @@ ms.lasthandoff: 03/07/2018
 Dans Microsoft Dynamics 365 for Talent, il est facile de modifier l'interface utilisateur et de définir des options qui rendent le logiciel plus intuitif pour vos besoins. Cette rubrique inclut des liens vers des rubriques qui fournissent des informations sur la procédure d'adaptation de l'interface utilisateur selon vos préférences. Elle inclut également des liens vers des informations qui vous aident à rechercher efficacement et correctement des informations dans le système. 
 
 > [!NOTE] 
-> Les produits suivants sont étroitement liés : Dynamics 365 for Finance and Operations, Enterprise edition, Dynamics 365 for Retail et Dynamics 365 for Talent. Les mêmes fonctionnalités peuvent apparaître dans les trois produits. Par conséquent, dans les rubriques qui sont généralement liées à la vente au détail, le nom du produit sera Dynamics 365 for Retail ; dans les rubriques qui sont généralement liées à Talent, le nom du produit sera Dynamics 365 for Talent ; et dans les rubriques associées au produit central, le nom du produit sera Dynamics 365 Finance and Operations. Les rubriques qui sont écrites pour un produit peuvent s'appliquer à la même fonctionnalité d'un produit associé.
+> Les produits suivants sont étroitement liés : Dynamics 365 for Finance and Operations, Dynamics 365 for Retail et Dynamics 365 for Talent. Les mêmes fonctionnalités peuvent apparaître dans les trois produits. Par conséquent, dans les rubriques qui sont généralement liées à la vente au détail, le nom du produit sera Dynamics 365 for Retail ; dans les rubriques qui sont généralement liées à Talent, le nom du produit sera Dynamics 365 for Talent ; et dans les rubriques associées au produit central, le nom du produit sera Dynamics 365 Finance and Operations. Les rubriques qui sont écrites pour un produit peuvent s'appliquer à la même fonctionnalité d'un produit associé.
 
 ### <a name="personalizing-talent"></a>Personnalisation de Talent 
 Les rubriques suivantes présentent la procédure de paramétrage de nombreuses fonctions dans Dynamics 365 for Talent afin de vous permettre de réaliser vos tâches en temps voulu. 

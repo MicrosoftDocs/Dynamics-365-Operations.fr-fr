@@ -18,10 +18,10 @@ ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: bbbe37330e16a079b817dfe04f4a47f046263e88
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 6f6add07a2426b1846cbeb9dee149a63f66f779e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -42,11 +42,11 @@ Plusieurs organisations exigent qu'une copie du reçu soit ajoutée à un état 
 
 Spécifiquement, l'espace de travail mobile **Gestion des dépenses** permet aux utilisateurs d'effectuer les tâches suivantes :
 
-- Prendre une photo d'un reçu, et la télécharger dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Vous pouvez ensuite joindre cette photo à un état de dépenses ultérieurement.
+- Prendre une photo d'un reçu, et la télécharger dans Microsoft Dynamics 365 for Finance and Operations. Vous pouvez ensuite joindre cette photo à un état de dépenses ultérieurement.
 - Charger un fichier contenant le reçu capturé. Vous pouvez ensuite joindre ce fichier à un état de dépenses ultérieurement.
 - Créer une nouvelle ligne de dépense à l'aide d'un reçu joint. Vous pouvez alors ajouter une ligne à un état de dépenses ultérieurement, et l'envoyer pour approbation et remboursement.
 
-Si vous utilisez Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, vous pouvez également utiliser les fonctionnalités suivantes :
+Si vous utilisez Microsoft Dynamics 365 for Finance and Operations, vous pouvez également utiliser les fonctionnalités suivantes :
 
 - Créer un nouvel état de dépenses.
 - Associer des transactions de carte de crédit et autres dépenses précédemment créées dans un état de dépenses.
@@ -60,8 +60,8 @@ Si vous utilisez Microsoft Dynamics 365 for Finance and Operations, Enterprise 
 ## <a name="prerequisites"></a>Conditions préalables
 Les conditions préalables varient, en fonction de la version de Microsoft Dynamics 365 qui a été déployée pour votre organisation.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition"></a>Conditions préalables si vous utilisez Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 
-Si Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition a été déployé pour votre organisation, l'administrateur système doit publier l'espace de travail mobile **Gestion des dépenses**. Pour obtenir des instructions, voir [Publier un espace de travail mobile](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Conditions préalables si vous utilisez Microsoft Dynamics 365 for Finance and Operations 
+Si Microsoft Dynamics 365 for Finance and Operations a été déployé pour votre organisation, l'administrateur système doit publier l'espace de travail mobile **Gestion des dépenses**. Pour obtenir des instructions, voir [Publier un espace de travail mobile](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Conditions préalables si vous utilisez la version 1611 de Microsoft Dynamics 365 for Operations avec la mise à jour de plateforme 3 ou ultérieure
 Si la version 1611 de Microsoft Dynamics 365 for Operations avec la mise à jour de plateforme 3 ou ultérieure a été déployée pour votre organisation, l'administrateur système doit effectuer les tâches préalables suivantes. 

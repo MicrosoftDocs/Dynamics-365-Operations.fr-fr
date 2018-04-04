@@ -20,10 +20,10 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 768448a0f2143e5abf01fb843864b296877e8cbd
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 32f22ab1ca64ace467a480161f3b68ea35f8546e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 11/06/2017
 
 Cet article décrit la fonctionnalité des rôles de sécurité du secteur public. Cette fonctionnalité inclut les rôles de chef de projet et d'acheteurs dans le secteur public.
 
-Pour que les utilisateurs puissent accéder à Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, au moins un rôle de sécurité doit leur être affecté. Les rôles de sécurité déterminent les responsabilités que les utilisateurs peuvent exercer et les parties de l'interface utilisateur qu'ils peuvent afficher.
+Pour que les utilisateurs puissent accéder à Microsoft Dynamics 365 for Finance and Operations, au moins un rôle de sécurité doit leur être affecté. Les rôles de sécurité déterminent les responsabilités que les utilisateurs peuvent exercer et les parties de l'interface utilisateur qu'ils peuvent afficher.
 
 ## <a name="what-are-the-prerequisites-for-assigning-security-roles-in-the-public-sector"></a>Quelles sont les conditions préalables à affecter des l'affectation des rôles de sécurité dans le secteur public ?
 Pour que vous puissiez affecter des utilisateurs à des rôles, ils doivent exister dans Finance and Operations. Même si vous utilisez l'affectation automatique des rôles, les utilisateurs eux-mêmes ne sont pas automatiquement ajoutés à Finance and Operations.

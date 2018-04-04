@@ -1,6 +1,6 @@
 ---
 title: "États financiers"
-description: "Cette rubrique explique où accéder aux états financiers dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, et comment utiliser les fonctionnalités de génération d'états financiers. Elle inclut une description des états financiers par défaut fournis."
+description: "Cette rubrique explique où accéder aux états financiers dans Microsoft Dynamics 365 for Finance and Operations et comment utiliser les fonctionnalités de génération d'états financiers. Elle inclut une description des états financiers par défaut fournis."
 author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: ed207bdc04041ec2f21cb1038451fc75b8d061a1
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 5de1f5b40af076173dd0b38c6f6110f83c04528a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Cette rubrique explique où accéder aux états financiers dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, et comment utiliser les fonctionnalités de génération d'états financiers. Elle inclut une description des états financiers par défaut fournis.
+Cette rubrique explique où accéder aux états financiers dans Microsoft Dynamics 365 for Finance and Operations et comment utiliser les fonctionnalités de génération d'états financiers. Elle inclut une description des états financiers par défaut fournis.
 
 <a name="accessing-financial-reporting"></a>Accès à la génération d'états financiers
 -----------------------------

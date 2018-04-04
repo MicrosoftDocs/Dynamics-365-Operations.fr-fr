@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: a4f9e2c5203881f3faeebe4d33e72c7b3bcaa591
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a2da864254efda2621e1b157413a16d251020786
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -48,7 +48,7 @@ Les utilisateurs peuvent entrer et publier des lignes pour les journaux financie
 | Journal des paiements client | Compte : Compte de contrepartie client : Comptabilité, Intersociétés banque est pris en charge.                                               | Journal des paiements client                                                                |
 | Journal des dépenses de projet  | Compte : Projet, Comptabilité, Client, Fournisseur, Compte de contrepartie fournisseur : Projet, Comptabilité, Client, Fournisseur, Intersociétés fournisseurs est pris en charge. | Dépenses de journal d'opérations diverses (sous Gestion de projets et comptabilité)                       |
 
-Lorsque les lignes sont émises, elles sont validées pour s'assurer qu'elles sont conformes aux règles paramétrées dans les journaux financiers. Une fois que les lignes sont émises, les utilisateurs peuvent modifier ou valider les documents Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. 
+Lorsque les lignes sont émises, elles sont validées pour s'assurer qu'elles sont conformes aux règles paramétrées dans les journaux financiers. Une fois que les lignes sont émises, les utilisateurs peuvent modifier ou valider les documents Microsoft Dynamics 365 for Finance and Operations. 
 
 Pour ajouter des dimensions financières à un modèle, des modifications supplémentaires sont requises. Pour plus d'informations, voir [Ajouter des dimensions au modèle Microsoft Excel](../../dev-itpro/financial/add-dimensions-excel-templates.md). Une fois que les dimensions sont ajoutées à l'entité, elles sont disponibles dans le concepteur Excel et peuvent être ajoutées au modèle.
 

@@ -1,6 +1,6 @@
 ---
 title: "Répartition des données de planification budgétaire"
-description: "Cet article décrit les différentes méthodes de répartition disponibles dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition et comment elles peuvent être utilisées."
+description: "Cet article décrit les différentes méthodes de répartition disponibles dans Microsoft Dynamics 365 for Finance and Operations et comment elles peuvent être utilisées."
 author: twheeloc
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: fd7ec30c8253f343b3d41d54c78696cd512b2ef7
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: b5f262318b4defb941f1216d0bfe06961f62bad4
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Cet article décrit les différentes méthodes de répartition disponibles dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition et comment elles peuvent être utilisées.  
+Cet article décrit les différentes méthodes de répartition disponibles dans Microsoft Dynamics 365 for Finance and Operations et comment elles peuvent être utilisées.  
 
 Vous pouvez répartir les données dans un plan budgétaire de plusieurs manières afin d'illustrer précisément les montants projetés.
 

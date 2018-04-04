@@ -18,10 +18,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 93eaaad55c64ca6a0f3c4008149cf6ecc622d2a3
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 34dac634e09a8daa8a22b9f1efbc18ca44444e21
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -54,7 +54,7 @@ Utilisez la page **Paramétrer le calcul pour la date d'échéance d'émission d
 Vous pouvez également définir des paramètres de contrôle de date pour garantir que les factures client et les avoirs pour les transactions client sont générés dans la période spécifiée, une fois la livraison effectuée. Vous pouvez trouver ces paramètres dans la zone **Contrôle des dates de facture** de la page **Paramètres des ventes**.
 
 ## <a name="example"></a>Exemple
-Pour paramétrer Microsoft Dynamics 365 for Finance and Operations, Enterprise edition pour calculer les dates d'échéance d'émission des factures pour les expéditions intra-européennes au 15ème jour du mois suivant une fois la livraison effectuée, créez un code intervalle de dates et une règle de calcul avec les paramètres suivants :
+Pour paramétrer Microsoft Dynamics 365 for Finance and Operations pour calculer les dates d'échéance d'émission des factures pour les expéditions intra-européennes au 15ème jour du mois suivant une fois la livraison effectuée, créez un code intervalle de dates et une règle de calcul avec les paramètres suivants :
 
 ### <a name="date-interval-code"></a>Code intervalle de dates
 

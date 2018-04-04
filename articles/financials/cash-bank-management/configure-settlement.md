@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: ade348540a6d3e9210321d3661e97ac716efaf58
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 89a13ad5a1d3cb7f93a469d33530ec99b39160da
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 09/29/2017
 
 La manière et le moment où les transactions sont réglées peuvent être des sujets complexes. Il est donc essentiel que vous compreniez et définissiez correctement les paramètres afin de répondre à vos exigences métier. Cet article décrit les paramètres utilisés pour le règlement de la Comptabilité fournisseur et de la Comptabilité client. 
 
-Les paramètres suivants affectent la manière dont les règlements sont traités dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Le règlement est le processus qui consiste à régler une facture à l'aide d'un paiement ou d'un avoir. Ces paramètres sont situés dans la zone **Règlement** des pages **Paramètres de la comptabilité client** et **Paramètres de la comptabilité fournisseur**.
+Les paramètres suivants affectent la manière dont les règlements sont traités dans Microsoft Dynamics 365 for Finance and Operations. Le règlement est le processus qui consiste à régler une facture à l'aide d'un paiement ou d'un avoir. Ces paramètres sont situés dans la zone **Règlement** des pages **Paramètres de la comptabilité client** et **Paramètres de la comptabilité fournisseur**.
 
 -   **Règlement automatique** – Définissez cette option sur **Oui** si une transaction doit être réglée automatiquement avec d'autres transactions en cours lors de sa validation. Si cette option est définie sur **Non**, les utilisateurs peuvent régler manuellement les transactions lorsqu'ils entrent des paiements, ou ultérieurement, à l'aide de la page **Règlement des transactions**.
 -   **Administration d'escompte de règlement** – Spécifiez comment un [escompte de règlement est géré lorsqu'une facture est surpayée](cash-discount-handling-overpayments.md). Pour un trop-perçu, l'escompte de règlement peut être réduit, il peut être considéré comme une différence, ou peut rester en compte pour le fournisseur ou le client.

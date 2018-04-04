@@ -18,10 +18,10 @@ ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 03a58ff77bb2999e450468039b7d24e9d1c0165e
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: f6b63f212bbd868cef5a2fef41825de0d789ca0a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 
 Cette rubrique fournit des informations sur l'importation de paiements client au format ESR.
 
-ESR est un service de débit électronique qui utilise des bordereaux de paiement pour collecter de l'argent. Il s'agit du système standard de paiement électronique créé par la Poste suisse. Vous pouvez recevoir les fichiers de paiement client au format ESR, qui peuvent inclure les transactions et les frais bancaires. Cette fonctionnalité est destinée aux transactions client importées basées sur les références de paiement initialement générées dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition et imprimées sur le bordereau de paiement.
+ESR est un service de débit électronique qui utilise des bordereaux de paiement pour collecter de l'argent. Il s'agit du système standard de paiement électronique créé par la Poste suisse. Vous pouvez recevoir les fichiers de paiement client au format ESR, qui peuvent inclure les transactions et les frais bancaires. Cette fonctionnalité est destinée aux transactions client importées basées sur les références de paiement initialement générées dans Microsoft Dynamics 365 for Finance and Operations et imprimées sur le bordereau de paiement.
 
 ## <a name="generate-payment-references"></a>Générer les références de paiement
 Les références de paiement doivent être imprimées sur le bordereau de paiement après validation. Vous pouvez également vérifier les références de paiement dans la page **Journal des factures** pour la commande client sélectionnée. Pour générer les références de paiement, les paramètres suivants doivent être spécifiés.

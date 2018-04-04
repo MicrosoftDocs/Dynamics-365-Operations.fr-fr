@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7be3e9970e2599c159e7c9d414b54876d0116350
-ms.openlocfilehash: 9c68cd0e1c214e22b8831e4f4a0c5d545387f982
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 5adf73c1316f701b3b5e9b9a22fa5743ba1cc419
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,10 +33,10 @@ ms.lasthandoff: 03/09/2018
 Cette rubrique fournit une vue d'ensemble des composants du système d'aide Microsoft Dynamics 365 for Finance and Operations. Il décrit également comment fournir de la documentation et une formation personnalisées à votre organisation. 
 
 > [!NOTE] 
-> Les produits suivants sont étroitement liés : Dynamics 365 for Finance and Operations, Enterprise edition, Dynamics 365 for Retail et Dynamics 365 for Talent. Les mêmes fonctionnalités peuvent apparaître dans les trois produits. Par conséquent, dans les rubriques qui sont généralement liées à la vente au détail, le nom du produit sera Dynamics 365 for Retail ; dans les rubriques qui sont généralement liées à Talent, le nom du produit sera Dynamics 365 for Talent ; et dans les rubriques associées au produit central, le nom du produit sera Dynamics 365 Finance and Operations. Les rubriques qui sont écrites pour un produit peuvent s'appliquer à la même fonctionnalité d'un produit associé.
+> Les produits suivants sont étroitement liés : Dynamics 365 for Finance and Operations, Dynamics 365 for Retail et Dynamics 365 for Talent. Les mêmes fonctionnalités peuvent apparaître dans les trois produits. Par conséquent, dans les rubriques qui sont généralement liées à la vente au détail, le nom du produit sera Dynamics 365 for Retail ; dans les rubriques qui sont généralement liées à Talent, le nom du produit sera Dynamics 365 for Talent ; et dans les rubriques associées au produit central, le nom du produit sera Dynamics 365 Finance and Operations. Les rubriques qui sont écrites pour un produit peuvent s'appliquer à la même fonctionnalité d'un produit associé.
 
 Le système d'aide est partagé par les produits suivants :
-- Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition
+- Dynamics 365 for Finance and Operations
 - Dynamics 365 for Retail
 - Dynamics 365 for Talent
 
@@ -52,7 +52,7 @@ Vous pouvez accéder aux rubriques d'aide et aux guides de tâches à partir du 
 Cette rubrique décrit le système d'aide, et explique comment créer une documentation personnalisée et des ressources de formation pour votre organisation.
 
 > [!IMPORTANT]
-> L'onglet **Guides de tâches** n'est pas disponible dans Microsoft Dynamics 365 for Talent et Microsoft Dynamics 365 for Retail. Nous œuvrons actuellement pour activer cette fonctionnalité dans une future version. Les guides des tâches dans l'expérience Mise en route dans Talent restent disponibles pour couvrir les fonctionnalités de base. L'aide procédurale est également disponible sur le site docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) pour Retail et Talent.
+> L'onglet **Guides de tâches** n'est pas disponible dans Microsoft Dynamics 365 for Talent et Microsoft Dynamics 365 for Retail. Nous œuvrons actuellement pour activer cette fonctionnalité dans une future version. Les guides des tâches dans l'expérience Mise en route dans Talent restent disponibles pour couvrir les fonctionnalités de base. L'aide procédurale est également disponible sur le site docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md) pour Retail et Talent.
 
 ## <a name="help-on-docsmicrosoftcom"></a>Aide sur docs.microsoft.com
 
@@ -108,7 +108,7 @@ Sur la droite, entrez une adresse e-mail et un mot de passe pour créer un compt
 ##### <a name="suggest-a-change-or-contribute-content-through-github"></a>Suggestion d'une modification ou contribution à du contenu via GitHub
 Pour proposer une modification, vous devez disposer d'un compte de GitHub, et signer un accord de licence de contributeur.  Après avoir soumis une demande d'extraction, nous examinerons vos modifications proposées. Si nécessaire, nous les aborderons en interne, et nous vous recontacterons.  
 
-Pour commencer, cliquez sur le bouton **Modifier** (crayon) sur une rubrique, ou accédez à notre référentiel à l'adresse https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public. 
+Pour commencer, cliquez sur le bouton **Modifier** (crayon) dans une rubrique, ou accédez à notre référentiel à l'adresse https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public. 
 
 Pour plus d'informations, reportez-vous à notre guide du contributeur : https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md. 
 

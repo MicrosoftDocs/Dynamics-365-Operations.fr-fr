@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 9c0ae4ed27578301573bead17ff2175bb9042036
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a44b3d2ee6e47e71103c7be04b731d4faa79c448
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -96,7 +96,7 @@ L'élément de coût de bénéfice sélectionné sous le groupe de rémunératio
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>Création de postes de prévision pour les postes existants
 
-Pour une planification budgétaire plus exacte, vous pouvez créer des postes de prévision à l'aide des détails des postes de prévision dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, que le poste soit actuellement rempli ou non. 
+Pour une planification budgétaire plus exacte, vous pouvez créer des postes de prévision à l'aide des détails des postes de prévision dans Microsoft Dynamics 365 for Finance and Operations, que le poste soit actuellement rempli ou non. 
 
 La fonction **Ajouter des postes existants** affiche tous les postes d'une organisation. En définissant la date **En date du**, vous pouvez modifier la liste des postes afin qu'elle contienne les postes qui ont existé à une date dans le passé ou, plus couramment, les postes futurs (par exemple, le début du cycle budgétaire suivant). Sélectionnez un processus de planification budgétaire et un scénario de plan budgétaire, sélectionnez des postes dans la liste, puis cliquez sur **OK** pour créer des postes de prévision pour les postes sélectionnés. Notez que vous ne pouvez créer qu'un seul poste de prévision pour chaque poste existant dans un processus et un scénario de planification budgétaire. Toutefois, vous pouvez créer des versions supplémentaires en affectant différents scénarios de plan budgétaire. 
 

@@ -19,10 +19,10 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7cec40859a8c68cb8a9751c5531c67cef7706258
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 156688b705337331e083ebc19fded57b028acb67
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -62,7 +62,7 @@ Le modèle Excel contiendra tous les éléments de la mise en page du document d
 [![Exemple](./media/bpt4-1024x615.png)](./media/bpt4.png)
 
 > [!NOTE] 
-> Pour éviter les problèmes potentiels d'affichage et de modification des données du plan budgétaire à l'aide d'Excel, le même utilisateur doit être connecté dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition et le connecteur de données du complément Office Microsoft Dynamics.
+> Pour éviter les problèmes potentiels d'affichage et de modification des données du plan budgétaire à l'aide d'Excel, le même utilisateur doit être connecté dans Microsoft Dynamics 365 for Finance and Operations et le connecteur de données du complément Office Microsoft Dynamics.
 
 ## <a name="add-a-header-to-budget-plan-document-template"></a>Ajouter un en-tête au modèle de document de plan budgétaire
 Pour ajouter des informations d'en-tête, sélectionnez la ligne supérieure dans le fichier Excel et insérez des lignes vides. Cliquez sur **Créer** dans le **Connecteur de données** pour ajouter des champs d'en-tête au fichier Excel.

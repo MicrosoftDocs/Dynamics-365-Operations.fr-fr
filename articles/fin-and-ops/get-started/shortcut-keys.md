@@ -1,6 +1,6 @@
 ---
 title: Raccourcis clavier
-description: "Les raccourcis clavier suivants s'appliquent à l'ensemble de Dynamics 365 for Finance and Operations, Enterprise edition."
+description: "Les raccourcis clavier suivants s'appliquent à l'ensemble de Dynamics 365 for Finance and Operations."
 author: jasongre
 manager: AnnBe
 ms.date: 12/12/2017
@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: 8bf0f44583d183d992547c773f2cf7a8ac1db5fc
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c4446a04cd01645b3b79f2d952622daf60953331
 ms.contentlocale: fr-fr
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 12/14/2017
 [!include[banner](../includes/banner.md)]
 
 
-Les raccourcis clavier suivants s'appliquent à l'ensemble de Dynamics 365 for Finance and Operations, Enterprise edition. 
+Les raccourcis clavier suivants s'appliquent à l'ensemble de Dynamics 365 for Finance and Operations. 
 
 **Remarque :** les raccourcis clavier décrits ici font référence au type de clavier en usage aux États-Unis. Il se peut que les touches des autres types de claviers ne correspondent pas exactement aux touches des claviers en usage aux États-Unis.
 
@@ -74,7 +74,7 @@ Les raccourcis clavier suivants s'appliquent à l'ensemble de Dynamics 365 for F
 | Ouvrir le volet Récapitulatif (ou déplacer le focus sur le volet Récapitulatif s'il est déjà ouvert) | Alt+M, B ou Ctrl+F2                        |
 | Fermer le volet Récapitulatif (avec le focus sur le volet Récapitulatif)                         | Échap                                       |
 | Accéder au récapitulatif suivant/précédent (avec le focus sur le volet Récapitulatif)              | Alt+Maj+Flèche Bas/Alt+Maj+Flèche Haut |
-| Accéder au &lt;n&gt;ième récapitulatif (avec le focus sur le volet Récapitulatif)                | Alt+&lt;n&gt; (&lt;n&gt; = 1 à 9)           |
+| Accéder au &lt;n&gt;ième récapitulatif (avec le focus sur le volet Récapitulatif)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
 | Développer un récapitulatif (avec le focus sur l'en-tête du récapitulatif)                             | Espace ou Entrée                            |
 | Réduire le récapitulatif actif                                                    | Alt+0                                     |
 
@@ -115,11 +115,11 @@ Les raccourcis clavier suivants s'appliquent à l'ensemble de Dynamics 365 for F
 | **Opération**                                      | **Raccourci**                                    |
 | Accéder au champ suivant/précédent                     | Tab/Maj+Tab                              |
 | Accéder à l'onglet suivant/précédent                       | Alt+Maj+Flèche Droite/Alt+Maj+Flèche Gauche |
-| Accéder au &lt;n&gt;ième onglet                         | Alt+Maj+&lt;n&gt; (&lt;n&gt; = 1 à 9)        |
+| Accéder au &lt;n&gt;ième onglet                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
 | Accéder à l'organisateur suivant/précédent                   | Alt+Maj+Flèche Bas/Alt+Maj+Flèche Haut    |
-| Accéder au &lt;n&gt;ième organisateur                     | Alt+&lt;n&gt; (&lt;n&gt; = 1 à 9)              |
+| Accéder au &lt;n&gt;ième organisateur                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
 | Effectuer un déplacement vers la lame suivante/précédente (tabulation verticale)      | Alt+Maj+Flèche Droite/Alt+Maj+Flèche Gauche |
-| Effectuer un déplacement vers la &lt;n&gt;ième lame (tabulation verticale)        | Alt+Maj+&lt;n&gt; (&lt;n&gt; = 1 à 9)        |
+| Effectuer un déplacement vers la &lt;n&gt;ième lame (tabulation verticale)        | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
 | Développer un organisateur (avec le focus sur l'en-tête de l'organisateur) | Espace ou Entrée                               |
 | Réduire l'organisateur actif                        | Alt+0                                        |
 | Basculer sur la vue grille                                 | Ctrl+Maj+G                                 |

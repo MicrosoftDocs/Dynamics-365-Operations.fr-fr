@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 6a03274da9b81bf71b32a62f4ebba2a374688ae5
-ms.openlocfilehash: 8b6c14d41cac13e7c1fb5a580759514d46d776ee
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: b999fd3c26304b81f24389a83faf73e1658c39b3
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -89,7 +89,7 @@ Vous utilisez un modèle de clôture financière pour définir toutes les tâche
 
 Vous pouvez affecter une tâche dans le modèle à une ou plusieurs sociétés dans lesquelles cette tâche s'applique. Si une personne différente est affectée à la réalisation de ce travail dans chaque société, il peut être utile de créer plusieurs tâches pour le même travail. Créez une tâche pour chaque société. 
 
-L'option de menu **Lien des tâches** est associée au travail correspondant à la tâche et peut être utilisée pour accéder directement à la page associée à partir du lien de tâche dans l'espace de travail. Par exemple, une tâche de clôture destinée à exécuter le processus de réévaluation de la devise pour la Comptabilité fournisseur peut être liée à la page **Réévaluation des comptes en devises** dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Vous pouvez également lier à une URL externe. 
+L'option de menu **Lien des tâches** est associée au travail correspondant à la tâche et peut être utilisée pour accéder directement à la page associée à partir du lien de tâche dans l'espace de travail. Par exemple, une tâche de clôture destinée à exécuter le processus de réévaluation de la devise pour la Comptabilité fournisseur peut être liée à la page **Réévaluation des comptes en devises** dans Microsoft Dynamics 365 for Finance and Operations. Vous pouvez également lier à une URL externe. 
 
 > [!TIP]
 > Si vous souhaitez lier un état Management Reporter spécifique à une tâche de clôture de période comptable, vous pouvez utiliser l'URL de l'état. Pour accéder à l'URL de l'état, ouvrez l'état dans le concepteur d'état, puis cliquez sur **Fichier** &gt; **Afficher l'état** pour ouvrir l'état dans un navigateur Web. Vous pouvez ensuite copier l'URL dans la barre d'adresse du navigateur et la coller dans le champ **Lien des tâches** **URL**. 

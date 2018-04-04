@@ -19,10 +19,10 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 84d5f60cdce4cd667c408d17d9892d7079947f58
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: fc7194e7f95a6a99587a6f7e8ab8a30957bbbd90
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 03/07/2018
 
 Cette rubrique fournit des informations générales sur les questionnaires, et renvoie vers des informations plus détaillées. Un questionnaire est un ensemble de questions utilisé pour collecter des informations à diverses fins. Vous pouvez concevoir, créer, distribuer et compléter des questionnaires, puis analyser leurs résultats. 
 
-Vous pouvez personnaliser un questionnaire pour l'adapter à vos besoins spécifiques à l'aide des diverses fonctionnalités disponibles dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Voici quelques exemples d'utilisation des questionnaires :
+Vous pouvez personnaliser un questionnaire pour l'adapter à vos besoins spécifiques à l'aide des diverses fonctionnalités disponibles dans Microsoft Dynamics 365 for Finance and Operations. Voici quelques exemples d'utilisation des questionnaires :
 
 -   tester les qualifications professionnelles des employés et des candidats ;
 -   évaluer si les participants aux cours ont appris le contenu des cours ;
