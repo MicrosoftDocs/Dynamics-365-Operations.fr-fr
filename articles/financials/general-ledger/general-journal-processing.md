@@ -1,6 +1,6 @@
 ---
 title: "Journaux d'opérations diverses"
-description: "Cet article décrit les fonctionnalités de Microsoft Dynamics 365 for Finance and Operations, Enterprise edition qui vous permettent d'effectuer le traitement du journal des opérations diverses, ainsi que de garantir que les données correctes sont capturées et que le contrôle interne n'est pas compromis."
+description: "Cet article décrit les fonctionnalités de Microsoft Dynamics 365 for Finance and Operations qui vous permettent d'effectuer le traitement du journal des opérations diverses, ainsi que de garantir que les données correctes sont capturées et que le contrôle interne n'est pas compromis."
 author: twheeloc
 manager: AnnBe
 ms.date: 08/01/2017
@@ -19,10 +19,10 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 68da281cb4793ed83f70c68d061d327aa8a8c772
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: eb46613f805999753c2ab73ffb91a6fdae04c68e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Cet article décrit les fonctionnalités de Microsoft Dynamics 365 for Finance and Operations, Enterprise edition qui vous permettent d'effectuer le traitement du journal des opérations diverses, ainsi que de garantir que les données correctes sont capturées et que le contrôle interne n'est pas compromis.  
+Cet article décrit les fonctionnalités de Microsoft Dynamics 365 for Finance and Operations qui vous permettent d'effectuer le traitement du journal des opérations diverses, ainsi que de garantir que les données correctes sont capturées et que le contrôle interne n'est pas compromis.  
 
 Noms de journal
 

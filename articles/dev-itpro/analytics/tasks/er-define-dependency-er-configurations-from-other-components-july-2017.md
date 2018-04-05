@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7de5fbcaa9f287752e3ae4834eb48d622d263579
-ms.openlocfilehash: 890f035a291dbec936594ceeabc5de284d160ad4
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a1ccd440353e986d296de370506fb1951331e2cf
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="define-the-dependency-of-configurations-from-other-components-for-electronic-reporting-er"></a>Définir la dépendance des configurations à partir d'autres composants pour la gestion des états électroniques (ER)
@@ -28,7 +28,7 @@ ms.lasthandoff: 11/06/2017
 
 Pour réaliser ces étapes, vous devez commencer par effectuer les étapes du guide de tâche, ER Gérer les configurations de mise en correspondance de modèle, et vous devez avoir accès à Microsoft Dynamics Lifecycle Services (LCS).
 
-Cette procédure indique comment créer une configuration ER et spécifier sa dépendance vis-à-vis d'autres composants logiciels, afin vous puissiez garantir que la configuration est correctement téléchargée vers une version spécifique de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Dans cet exemple, vous créerez les configurations ER requises pour la société fictive, Litware, Inc. 
+Cette procédure indique comment créer une configuration ER et spécifier sa dépendance vis-à-vis d'autres composants logiciels, afin vous puissiez garantir que la configuration est correctement téléchargée vers une version spécifique de Microsoft Dynamics 365 for Finance and Operations. Dans cet exemple, vous créerez les configurations ER requises pour la société fictive, Litware, Inc. 
 
 Cette procédure est destinée aux utilisateurs auxquels le rôle Administrateur système ou Développeur d'états électroniques a été affecté. Les étapes peuvent être effectuées dans n'importe quelle société, car les configurations ER sont partagées entre les sociétés. 
 

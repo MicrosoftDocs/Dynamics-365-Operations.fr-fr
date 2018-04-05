@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: cb5a674472936a52b624c548fd37079d57eb6cb7
-ms.openlocfilehash: 9a36b3e7a8e496632ca7041018abe8176a2e4f25
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 41d7b64f8414385629acef071c47a654d56005bd
 ms.contentlocale: fr-fr
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -36,7 +36,7 @@ Cet article décrit comment paramétrer le paiement positif et générer des fic
 Paramétrez le paiement positif pour générer la liste électronique de chèques qui est fournie à la banque. Puis, lorsque le chèque est présenté à la banque, la banque le compare avec la liste des chèques. Si le chèque correspond à un chèque de la liste, la banque le compense. Si le chèque ne correspond pas à un chèque dans la liste, la banque le conserve pour examen.
 
 ## <a name="security-for-positive-pay-files"></a>Sécurité pour les fichiers de paiement positif
-Les fichiers de paiement positif peuvent contenir des informations confidentielles sur les bénéficiaires et les montants des chèques. Veillez donc à utiliser les mesures de sécurité appropriées depuis la génération des fichiers jusqu'à leur réception par la banque. Les fichiers de paiement positif sont chargés à l'emplacement spécifié par votre navigateur Web. Comme les fichiers de paiement positif peuvent contenir des informations confidentielles, il est important que seuls les utilisateurs autorisés y aient accès pour générer et afficher ces informations dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Utilisez le tableau suivant pour vous permettre de déterminer les privilèges requis.
+Les fichiers de paiement positif peuvent contenir des informations confidentielles sur les bénéficiaires et les montants des chèques. Veillez donc à utiliser les mesures de sécurité appropriées depuis la génération des fichiers jusqu'à leur réception par la banque. Les fichiers de paiement positif sont chargés à l'emplacement spécifié par votre navigateur Web. Comme les fichiers de paiement positif peuvent contenir des informations confidentielles, il est important que seuls les utilisateurs autorisés y aient accès pour générer et afficher ces informations dans Microsoft Dynamics 365 for Finance and Operations. Utilisez le tableau suivant pour vous permettre de déterminer les privilèges requis.
 
 <table>
 <colgroup>

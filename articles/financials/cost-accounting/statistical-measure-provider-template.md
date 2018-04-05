@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: a59d9768161e0f456873b939c89b6e89b2fa0f67
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: baefad4efd51661c236459493b7f02747593bbab
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -73,7 +73,7 @@ Voici quelques exemples de membres classiques de la dimension statistique.
 
 ## <a name="statistical-measure-provider-template"></a>Modèle de fournisseur de mesures statistiques
 
-Les mesures statistiques peuvent provenir de plusieurs types de sources. Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, est une importante source d'extraction de mesures statistiques. Vous pouvez utiliser un modèle de fournisseur de mesures statistiques pour configurer facilement les mesures statistiques que vous souhaitez extraire.
+Les mesures statistiques peuvent provenir de plusieurs types de sources. Microsoft Dynamics 365 for Finance and Operations est une importante source d'extraction de mesures statistiques. Vous pouvez utiliser un modèle de fournisseur de mesures statistiques pour configurer facilement les mesures statistiques que vous souhaitez extraire.
 
 La définition d'un modèle de fournisseur de mesures statistiques est générique et peut être réutilisée dans plusieurs membres de la dimension statistique.
 
@@ -132,13 +132,13 @@ Avant de pouvoir entrer des mesures statistiques dans le module Contrôle de ges
 > [!NOTE]
 > Dans cet exemple, nous allons créer une relation uniquement pour la **Version réelle**.
 
-Accédez à **Comptabilité de contrôle de gestion** \> **Version réelle** \> **Gérer** \> **Mesures statistiques** pour établir la relation. Pour ce scénario, sélectionnez le connecteur de données **Dynamics 365 for Finance and Operations, Enterprise Edition – Mesures statistiques**, car nous souhaitons extraire des données de Finance and Operations.
+Accédez à **Comptabilité de contrôle de gestion** \> **Version réelle** \> **Gérer** \> **Mesures statistiques** pour établir la relation. Pour ce scénario, sélectionnez le connecteur de données **Dynamics 365 for Finance and Operations – Mesures statistiques**, car nous souhaitons extraire des données de Finance and Operations.
 
 **Source de données**
 
 | Nom        | Connecteur de données                                                                     | Membre de la dimension statistique |
 |-------------|------------------------------------------------------------------------------------|------------------------------|
-| ETP D365FO | Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition – Mesures statistiques | ETP                         |
+| ETP D365FO | Dynamics 365 for Finance and Operations – Mesures statistiques | ETP                         |
 
 **Configuration du fournisseur de données**
 
@@ -220,13 +220,13 @@ Avant de pouvoir entrer des mesures statistiques dans le module Contrôle de ges
 > [!NOTE]
 > Dans cet exemple, nous allons créer une relation uniquement pour la **Version réelle**.
 
-Accédez à **Comptabilité de contrôle de gestion** \> **Version réelle** \> **Gérer** \> **Mesures statistiques** pour établir la relation. Pour ce scénario, sélectionnez le connecteur de données **Dynamics 365 for Finance and Operations, Enterprise Edition – Mesures statistiques**, car nous souhaitons extraire des données de Finance and Operations.
+Accédez à **Comptabilité de contrôle de gestion** \> **Version réelle** \> **Gérer** \> **Mesures statistiques** pour établir la relation. Pour ce scénario, sélectionnez le connecteur de données **Dynamics 365 for Finance and Operations – Mesures statistiques**, car nous souhaitons extraire des données de Finance and Operations.
 
 **Source de données**
 
 | Nom           | Connecteur de données                                                                     | Membre de la dimension statistique |
 |----------------|------------------------------------------------------------------------------------|------------------------------|
-| CC emballage D365FO | Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition – Mesures statistiques | CC emballage                      |
+| CC emballage D365FO | Dynamics 365 for Finance and Operations – Mesures statistiques | CC emballage                      |
 
 Le système identifie que ProdRouteTrans est une table où chaque enregistrement appartient à une entité juridique distincte. Par conséquent, vous devez sélectionner l'entité juridique à partir de laquelle les transactions doivent être importées.
 

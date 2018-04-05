@@ -1,6 +1,6 @@
 ---
 title: "Groupes de comptes de consolidation et comptes de consolidation supplémentaires"
-description: "Cette rubrique fournit des informations sur les groupes de comptes de consolidation et les comptes de consolidation supplémentaires, et explique comment ils sont utilisés dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition."
+description: "Cette rubrique fournit des informations sur les groupes de comptes de consolidation et les comptes de consolidation supplémentaires, et explique comment ils sont utilisés dans Microsoft Dynamics 365 for Finance and Operations."
 author: aprilolson
 manager: AnnBe
 ms.date: 01/11/2018
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: eb69b8def1d0a4fc296ccf44490af6c70591cb7b
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 60486002b520fdf347ed2537cefa0a45e06d6271
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Cette rubrique fournit des informations sur les groupes de comptes de consolidation et les comptes de consolidation supplémentaires, et explique comment ils sont utilisés dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
+Cette rubrique fournit des informations sur les groupes de comptes de consolidation et les comptes de consolidation supplémentaires, et explique comment ils sont utilisés dans Microsoft Dynamics 365 for Finance and Operations.
 
 <a name="consolidation-account-groups"></a>Groupes de comptes de consolidation
 ----------------------------

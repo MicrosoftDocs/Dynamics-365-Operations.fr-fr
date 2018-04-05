@@ -1,6 +1,6 @@
 ---
 title: "Traiter les répartitions"
-description: "Cet article fournit des informations sur les répartitions, les options pour les traiter dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, et comment elles peuvent être utilisées dans la planification budgétaire. Les répartitions sont utilisées pour répartir les montants entre plusieurs combinaisons de compte général. Elles permettent de garantir que les dépenses ou le produit sont facturés pour l'objet approprié dans la comptabilité."
+description: "Cet article fournit des informations sur les répartitions, les options pour les traiter dans Microsoft Dynamics 365 for Finance and Operations, et comment elles peuvent être utilisées dans la planification budgétaire. Les répartitions sont utilisées pour répartir les montants entre plusieurs combinaisons de compte général. Elles permettent de garantir que les dépenses ou le produit sont facturés pour l'objet approprié dans la comptabilité."
 author: twheeloc
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,10 +19,10 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 8859359f70132e9116e6a2d534a0f5f1d0bfeb80
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 26e7f607e070ac6c09a92d7809d65bac34d51f0b
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Cet article fournit des informations sur les répartitions, les options pour les traiter dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, et comment elles peuvent être utilisées dans la planification budgétaire. Les répartitions sont utilisées pour répartir les montants entre plusieurs combinaisons de compte général. Elles permettent de garantir que les dépenses ou le produit sont facturés pour l'objet approprié dans la comptabilité.
+Cet article fournit des informations sur les répartitions, les options pour les traiter dans Microsoft Dynamics 365 for Finance and Operations, et comment elles peuvent être utilisées dans la planification budgétaire. Les répartitions sont utilisées pour répartir les montants entre plusieurs combinaisons de compte général. Elles permettent de garantir que les dépenses ou le produit sont facturés pour l'objet approprié dans la comptabilité.
 
 Microsoft Dynamics 365 for Finance and Operations fournit les fonctionnalités suivantes pour prendre en charge ce processus :
 

@@ -19,10 +19,10 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 2e711b14b202d477bd3f4bda09977fd33979fc94
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c4ac839e69440c8d3f1e86007a074999189e391d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -47,7 +47,7 @@ Un modèle de plan budgétaire est créé par le responsable du budget dans Micr
 
 1.  Cliquez sur **Créer** dans le complément Office Microsoft Dynamics une fois que vous êtes connecté.
 2.  Pour les informations d'en-tête, utilisez le bouton **Ajouter des champs**.
-3.  Sélectionnez la source de données d'entité BudgetPlanJustification, puis cliquez sur **Suivant**. **Remarque :** cette entité est requise pour tout document justificatif. D'autres entités peuvent être utilisées mais le téléchargement vers Microsoft Dynamics 365 for Finance and Operations, Enterprise edition échouera si cette entité n'est pas incluse.
+3.  Sélectionnez la source de données d'entité BudgetPlanJustification, puis cliquez sur **Suivant**. **Remarque :** cette entité est requise pour tout document justificatif. D'autres entités peuvent être utilisées mais le téléchargement vers Microsoft Dynamics 365 for Finance and Operations échouera si cette entité n'est pas incluse.
 4.  Ajoutez les étiquettes et les valeurs BudgetPlanName, BudgetPlanPreparer, ResponsibilityCenter et DocumentNumber dans le document Word. **Remarque :** vous pouvez utiliser vos propres étiquettes personnalisées au lieu des étiquettes standard, si nécessaire.
 5.  Cliquez sur **Terminé** pour terminer la section d'en-tête.
 6.  Pour le détail au niveau de la ligne des montants du plan budgétaire, cliquez sur **Ajouter une table**.

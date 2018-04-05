@@ -1,6 +1,6 @@
 ---
 title: Blocage du stock
-description: "Cet article fournit une vue d'ensemble du blocage du stock qui fait partie du processus d'inspection de qualité dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Vous pouvez utiliser le blocage du stock pour empêcher des articles d'être traités ou consommés."
+description: "Cet article fournit une vue d'ensemble du blocage du stock qui fait partie du processus d'inspection de qualité dans Microsoft Dynamics 365 for Finance and Operations. Vous pouvez utiliser le blocage du stock pour empêcher des articles d'être traités ou consommés."
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: a59a382f90cb34c9479d64931790137f00040c6b
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 0567cdad6f9f27097f534381655e5b468884bed8
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Cet article fournit une vue d'ensemble du blocage du stock qui fait partie du processus d'inspection de qualité dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Vous pouvez utiliser le blocage du stock pour empêcher des articles d'être traités ou consommés.
+Cet article fournit une vue d'ensemble du blocage du stock qui fait partie du processus d'inspection de qualité dans Microsoft Dynamics 365 for Finance and Operations. Vous pouvez utiliser le blocage du stock pour empêcher des articles d'être traités ou consommés.
 
 Les méthodes suivantes permettent de bloquer les articles en stock :
 -   Manuellement
@@ -64,7 +64,7 @@ Vous pouvez spécifier quels statuts du stock sont des statuts de blocage à l'a
 <a name="see-also"></a>Voir également :
 --------
 
-[Créer et tenir à jour un blocage du stock (guide de tâche)](tâches/create-maintain-inventory-blocking.md
+[Créer et tenir à jour un blocage du stock](tasks/create-maintain-inventory-blocking.md)
 
 [Processus de gestion de la qualité](quality-management-processes.md)
 

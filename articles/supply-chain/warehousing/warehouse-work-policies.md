@@ -20,10 +20,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: ec7dd3b91851729e866bc90ca85a118839f9d71d
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a0c900dc208736f1823be50e8522061406c9f126
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Les stratégies de travail d'entrepôt dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition contrôlent si le travail d'entrepôt est créé par les processus d'entrepôt pour la production, selon le type d'ordre de travail, l'emplacement de stockage et le produit.
+Les stratégies de travail d'entrepôt dans Microsoft Dynamics 365 for Finance and Operations contrôlent si le travail d'entrepôt est créé par les processus d'entrepôt pour la production, selon le type d'ordre de travail, l'emplacement de stockage et le produit.
 
 Cette stratégie de travail contrôle si le travail d'entrepôt est créé pour les processus d'entrepôt pour la production. Vous pouvez paramétrer la stratégie de travail à l'aide d'une combinaison de **types d'ordres d'exécution**, d'**emplacement de stockage**, et de **produit** Par exemple, le produit L0101 est déclaré comme terminé à l'emplacement de sortie 001. Le produit fini est consommé ultérieurement dans un autre ordre de fabrication à l'emplacement de sortie 001. Dans ce cas, vous pouvez paramétrer une stratégie de travail pour empêcher de créer un travail pour ranger le produit fini lorsque vous déclarez le produit L0101 terminé à l'emplacement de sortie 001. La stratégie de travail est une entité individuelle qui peut être décrite à l'aide des informations suivantes :
 
@@ -71,7 +71,7 @@ Voici un exemple de stratégie de travail que vous pouvez paramétrer, selon ces
 |                                         |                                                       |
 |-----------------------------------------|-------------------------------------------------------|
 |**Nom de la stratégie de travail**<br>                 |**Types d'ordre d'exécution**<br>                               |
-| Pas de rangement de 01                         |- Rangement du produit fini<br>                           |
+| Pas de rangement de 01     `                    |- Rangement du produit fini<br>                           |
 |                                         |**Emplacements**<br>                                      |
 |                                         |- O1   |                                               |
 |                                         |**Produits** <br>                                      |

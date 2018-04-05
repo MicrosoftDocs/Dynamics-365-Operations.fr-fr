@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: f3d494cc83b273eef071b23d0948b283ba85c17e
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: ebbd442c9f69290dc995c05462ca70b554f7d9f2
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="extend-data-model-to-use-document-management-files-in-format-outputs-for-electronic-reporting-er"></a>Étendre le modèle de données pour utiliser les fichiers de gestion des documents dans les sorties de format pour la gestion des états électroniques (ER)
@@ -57,7 +57,7 @@ Cette procédure s'applique à une fonction qui a été ajoutée dans la version
 17. Sélectionnez « Chaîne » dans le champ Type d'article.
 18. Cliquez sur Ajouter.
 
-## <a name="map-new-data-model-elements-to-dynamics-365-for-finance-and-operations-enterprise-edition-data-sources"></a>Mettre en correspondance les nouveaux éléments de modèle de données avec les sources de données Dynamics 365 for Finance and Operations, Enterprise edition
+## <a name="map-new-data-model-elements-to-dynamics-365-for-finance-and-operations-data-sources"></a>Mettre en correspondance les nouveaux éléments de modèle de données avec les sources de données Dynamics 365 for Finance and Operations
 1. Cliquez sur Mettre en correspondance le modèle à la source de données.
 2. Utilisez le filtre rapide pour filtrer le champ Définition avec la valeur « InvoiceCustomer ».
     * InvoiceCustomer  

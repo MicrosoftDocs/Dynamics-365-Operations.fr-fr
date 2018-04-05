@@ -19,10 +19,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6405599186c8d07ac5ade19d3b7d27ae83b036ff
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 77e46e8693c65410ac7c44754edcb3c181f2aa18
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -36,7 +36,7 @@ Cet article décrit les états par défaut des balances comptables. Il décrit �
 <a name="default-trial-balance-reports"></a>États de la balance comptable par défaut
 -----------------------------
 
-Trois états de balance comptable sont disponibles dans les états financiers dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
+Trois états de balance comptable sont disponibles dans les états financiers dans Microsoft Dynamics 365 for Finance and Operations.
 
 | État par défaut                                 | Fonction                                                                                                                                                                                        |
 |------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

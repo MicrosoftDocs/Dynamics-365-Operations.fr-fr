@@ -16,10 +16,10 @@ ms.assetid:
 ms.search.region: Global
 ms.author: bking
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 447fd87cb2f71147d7a9f6476f4ed9e12d75640a
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: bbf4da5a33876973a376a0580fd553e15bd6febc
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -47,7 +47,7 @@ Dans la section **Tâches et statut**, le statut du projet général de contrôl
 Le dernier onglet concerne la liste des tâches détaillée. Cette liste affiche la liste complète des tâches.
 Vous pouvez filtrer la liste des tâches de plusieurs manières. Cliquez sur **Modifier la tâche** pour modifier le statut d'une tâche ou affecter une tâche. Cliquez sur **Documents joints** pour afficher les pièces jointes pour une tâche.
 
-Le nom de la tâche est un lien hypertexte vers la page Microsoft Dynamics 365 for Finance and Operations, Enterprise edition où l'utilisateur doit effectuer le travail. Vous pouvez définir ce lien hypertexte à l'aide du champ **Nom de l'option de menu** lorsque vous modifiez ou créez une tâche dans l'écran **Configurer le projet de contrôle des données**.
+Le nom de la tâche est un lien hypertexte vers la page Microsoft Dynamics 365 for Finance and Operations où l'utilisateur doit effectuer le travail. Vous pouvez définir ce lien hypertexte à l'aide du champ **Nom de l'option de menu** lorsque vous modifiez ou créez une tâche dans l'écran **Configurer le projet de contrôle des données**.
 
 Vous pouvez joindre des fichiers, des notes, des images et des URL à une tâche à l'aide de l'action **Documents joints**. Par exemple, vous pouvez joindre un fichier d'état imprimé pour une tâche. Une icône apparaît dans la colonne **Pièce jointe** concernant la tâche si une pièce jointe est présente.
 

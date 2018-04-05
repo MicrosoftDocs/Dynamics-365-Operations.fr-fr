@@ -17,10 +17,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 1bd23b6e87c95d2c3d2131ec1ee9548bc4fe10cb
-ms.openlocfilehash: 2816fb094504bb5d0b595f812764620d480da401
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 7265e119a8b59399db1fa35373a7b6aba52ba8e0
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/04/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -28,7 +28,7 @@ ms.lasthandoff: 03/04/2018
 [!include[banner](../includes/banner.md)]
 ---
 
-De nouveaux fournisseurs peuvent être intégrés et enregistrés comme fournisseurs dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, en fonction des informations collectées auprès d'un représentant du fournisseur.
+De nouveaux fournisseurs peuvent être intégrés et enregistrés comme fournisseurs dans Microsoft Dynamics 365 for Finance and Operations en fonction des informations collectées auprès d'un représentant du fournisseur.
 
 Ce processus comprend les étapes suivantes, où différents rôles exécutent des actions dans le système.
 
@@ -57,7 +57,7 @@ La demande d'enregistrement du fournisseur potentiel est une entité dans Financ
 
 Le tableau suivant présente les informations contenues dans cette entité qui peuvent être importées.
 
-| Champ                        | Description  |
+| Champ                        | Description |
 |------------------------------|-------------|
 | Nom du fournisseur                  | Nom du fournisseur. |
 | Justification de la demande       | Motif(s) de la demande fournisseur. |
@@ -96,7 +96,7 @@ L'assistant reflète la configuration de la demande fournisseur. Le pays ou la r
 
 Pour plus d'informations sur la configuration de la demande fournisseur, voir [Paramétrer et mettre à jour la collaboration fournisseur](set-up-maintain-vendor-collaboration.md). Le tableau suivant offre une vue d'ensemble des pages de l'assistant et de l'objet de chaque page.
 
-| Page                       | Description  |
+| Page                       | Description |
 |----------------------------|-------------|
 | Pays/région             | Le pays ou la région détermine la configuration de la demande fournisseur qui est appliquée aux autres pages de l'assistant. Il détermine également les valeurs de la recherche **État de la taxe**. |
 | Conditions générales       | Cette page peut être disponible, selon la configuration de la demande fournisseur. Si elle est disponible, l'utilisateur doit accepter les conditions générales pour continuer. |
@@ -126,7 +126,7 @@ La demande fournisseur doit être envoyée à un workflow, puis acheminée vers 
 
 Le tableau suivant indique les statuts des demandes fournisseur.
 
-| État                      | Description  |
+| État                     | Description |
 |----------------------------|-------------|
 | Brouillon                      | La demande fournisseur n'a pas encore été envoyée. |
 | Demande soumise          | La demande fournisseur a été envoyée, et la première étape du workflow est en cours de traitement. |
@@ -164,7 +164,7 @@ Les différents statuts de la demande d'enregistrement d'un fournisseur potentie
 
 À l'aide de l'action **Supprimer** de la demande d'enregistrement du fournisseur potentiel, vous pouvez nettoyer et supprimer la chaîne d'enregistrements qui ont été créés, et vous pouvez désactiver le compte d'utilisateur. Le résultat de l'action **Supprimer** varie, selon le statut de la demande d'enregistrement du fournisseur potentiel, comme indiqué dans le tableau suivant.
 
-| État                    | Description du statut | Résultat de l'action Supprimer |
+| État                   | Description du statut | Résultat de l'action Supprimer |
 |--------------------------|--------------------|-----------------------------------|
 | Nouveau                      | Aucune action n'a été effectuée sur la demande. | La demande d'enregistrement du fournisseur potentiel est supprimée. |
 | Utilisateur demandé           | Lorsque vous sélectionnez **Inviter l'utilisateur**, le statut devient **Utilisateur demandé**, et une demande de l'utilisateur potentiel est créée et envoyée au workflow de demande de l'utilisateur. | Vous ne pouvez pas supprimer la demande d'enregistrement d'un fournisseur potentiel ayant ce statut, car le workflow de demande de l'utilisateur n'est pas terminé. |

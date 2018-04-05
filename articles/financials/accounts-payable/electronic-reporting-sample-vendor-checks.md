@@ -17,10 +17,10 @@ ms.author: twheeloc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: c27960254a8e5f748935dfb51ada88af24f098a4
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 6702ac241c41cc99d96bc46a515837235b3ae651
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -34,7 +34,7 @@ Vous pouvez utiliser un état électronique (ER) pour mettre en forme les chèqu
 
 Vous devez toujours aller dans la bibliothèque d'actifs partagés de Microsoft Dynamics Lifecycle Services (LCS) et afficher la liste actuelle des fichiers disponibles dont le type d'actif est **Configuration GER**. La section suivante, « Que je dois paramétrer ? », fournit un lien vers une rubrique qui explique comment créer un référentiel LCS pour examiner les configurations disponibles et importer les configurations sélectionnées.
 
-Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, comprend un exemple de format dans lequel le chèque est en premier, suivi de deux sections de remise. Il inclut également un exemple de format dans lequel le chèque est au milieu, entre deux sections de remise. Ces exemples de formats correspondent aux formats de chèques professionnels Deluxe.
+Microsoft Dynamics 365 for Finance and Operations comprend un exemple de format dans lequel le chèque est en premier, suivi de deux sections de remise. Il inclut également un exemple de format dans lequel le chèque est au milieu, entre deux sections de remise. Ces exemples de formats correspondent aux formats de chèques professionnels Deluxe.
 
 ## <a name="what-do-i-have-to-set-up"></a>Que dois-je paramétrer ?
 

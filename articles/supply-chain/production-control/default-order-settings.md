@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
-ms.openlocfilehash: 5e67be5687388d399e2f702d8070cd960cbe7939
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: d0e8d1ac8b775f9c728d6bfa6ba219dd889bf8a2
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 11/06/2017
 [!include[retail name](../includes/retail-name.md)]
 
 
-Les paramètres de commande par défaut dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition définissent le site et l'entrepôt d'où les articles seront originaires ou stockés, les quantités minimales, maximales, multiples et standard qui seront utilisées pour le commerce ou la gestion des stocks, les délais, l'indicateur de fin, et la méthode de promesse de commande. Les paramètres de commande par défaut sont utilisés lors de la création de commandes fournisseur, de commandes client, d'ordres de transfert, de journaux de stock, et par la planification pour générer des ordres prévisionnels. Les paramètres de commande par défaut peuvent être spécifiques à l'article, au site, à une variante de produit, ou à une dimension de produit.
+Les paramètres de commande par défaut dans Microsoft Dynamics 365 for Finance and Operations définissent le site et l'entrepôt d'où les articles seront originaires ou stockés, les quantités minimales, maximales, multiples et standard qui seront utilisées pour le commerce ou la gestion des stocks, les délais, l'indicateur de fin, et la méthode de promesse de commande. Les paramètres de commande par défaut sont utilisés lors de la création de commandes fournisseur, de commandes client, d'ordres de transfert, de journaux de stock, et par la planification pour générer des ordres prévisionnels. Les paramètres de commande par défaut peuvent être spécifiques à l'article, au site, à une variante de produit, ou à une dimension de produit.
 
 Vous pouvez définir les paramètres de commande par défaut sur la page **Paramètres de commande par défaut**. Pour ouvrir cette page, accédez à **Gestion des informations sur les produits** &gt; **Produits** &gt; **Produits lancés** &gt; **Sélectionnez un produit lancé** &gt; sur le Volet d'action **Plan** ou **Gérer le stock** Paramètres de &gt; **la commande** &gt; **Paramètres de commande par défaut**.
 

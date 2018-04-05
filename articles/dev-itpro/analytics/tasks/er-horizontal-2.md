@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 8e5c53905b903bc5242625283f3b093144243cf9
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3ca72ab5c7ac15f3a788ea457a360d93a0b505b0
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="run-a-format-that-uses-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-for-electronic-reporting-er"></a>Exécuter un format qui utilise des plages extensibles horizontalement pour ajouter dynamiquement des colonnes dans les états Excel pour la gestion des états électroniques (ER)
@@ -49,6 +49,6 @@ Cette procédure s'applique à une fonction qui a été ajoutée dans la version
     * 00057..00058  
 7. Cliquez sur OK.
 8. Cliquez sur OK.
-    * Examinez la sortie générée. Notez que le fichier Excel nouvellement créé contient le même nombre de colonnes sélectionnées que pour les dimensions financières. L'en-tête d'état de ces colonnes représente les noms des dimensions financières. Les lignes de transactions de ces colonnes représentent les dimensions financières. Exécutez cet état et sélectionnez différentes dimensions pour vérifier que l'état n'est pas dépendant du nombre de dimensions sélectionnées ou du nombre de dimensions configurées pour cette instance de Dynamics 365 for Finance and Operations, Enterprise Edition.  
+    * Examinez la sortie générée. Notez que le fichier Excel nouvellement créé contient le même nombre de colonnes sélectionnées que pour les dimensions financières. L'en-tête d'état de ces colonnes représente les noms des dimensions financières. Les lignes de transactions de ces colonnes représentent les dimensions financières. Exécutez cet état et sélectionnez différentes dimensions pour vérifier que l'état n'est pas dépendant du nombre de dimensions sélectionnées ou du nombre de dimensions configurées pour cette instance de Dynamics 365 for Finance and Operations.  
 
 

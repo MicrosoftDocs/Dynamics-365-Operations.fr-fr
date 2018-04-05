@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: ed6dead1f4da7abcf96df2487e90f612b57df198
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 1ec2f4a407c705fb37681f5593d0f7ea31f4cf0f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -40,7 +40,7 @@ La base de répartition est utilisée pour mesurer et quantifier les activités,
 
 **Contrôle de gestion**
 
-Le contrôle de gestion vous permet de collecter des données de différentes sources, telles que la comptabilité, les comptabilités auxiliaires, les budgets, et les informations statistiques. Vous pouvez ensuite analyser, résumer, et évaluer les données de coût, de sorte que la gestion puisse prendre les meilleures décisions possibles concernant les mises à jour de prix, les budgets, le contrôle des coûts, et ainsi de suite. Les données sources utilisées pour l'analyse des coûts sont traitées indépendamment dans le contrôle de gestion. Par conséquent, les mises à jour dans le contrôle de gestion n'affectent pas les données sources. Toutefois, lorsque vous regroupez des données de coût de différentes sources et, en particulier lorsque vous importez les comptes principaux de la comptabilité dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition en tant qu'éléments de coûts, il existe une redondance des données, car les mêmes données existent dans la comptabilité et le contrôle de gestion. Cette redondance est nécessaire, car vous utilisez la gestion financière pour la génération d'états externes et le contrôle des coûts pour la génération d'états internes.
+Le contrôle de gestion vous permet de collecter des données de différentes sources, telles que la comptabilité, les comptabilités auxiliaires, les budgets, et les informations statistiques. Vous pouvez ensuite analyser, résumer, et évaluer les données de coût, de sorte que la gestion puisse prendre les meilleures décisions possibles concernant les mises à jour de prix, les budgets, le contrôle des coûts, et ainsi de suite. Les données sources utilisées pour l'analyse des coûts sont traitées indépendamment dans le contrôle de gestion. Par conséquent, les mises à jour dans le contrôle de gestion n'affectent pas les données sources. Toutefois, lorsque vous regroupez des données de coût de différentes sources et, en particulier lorsque vous importez les comptes principaux de la comptabilité dans Microsoft Dynamics 365 for Finance and Operations en tant qu'éléments de coûts, il existe une redondance des données, car les mêmes données existent dans la comptabilité et le contrôle de gestion. Cette redondance est nécessaire, car vous utilisez la gestion financière pour la génération d'états externes et le contrôle des coûts pour la génération d'états internes.
 
 **Comptabilité de contrôle de gestion**
 
@@ -120,7 +120,7 @@ Il existe deux hiérarchies de dimensions : la hiérarchie de catégorisation et
 Le contrôle de gestion prend en charge l'intégration des données des systèmes sources via un ensemble de connecteurs de données. Les connecteurs de données suivants sont disponibles :
 
 -  Transactions importées (préconfigurées)
--  Dynamics 365 for Finance and Operations, Enterprise edition (préconfiguré)
+-  Dynamics 365 for Finance and Operations (préconfiguré)
 -  Dynamics AX (configuration obligatoire)
 
 **Remarque :** Les transactions importées du connecteur de données sont basées sur les entités de données.
@@ -129,7 +129,7 @@ Le contrôle de gestion prend en charge l'intégration des données des système
 
 La plupart des systèmes sources peuvent fournir les données qui correspondent à une ou plusieurs sources de données dans le contrôle de gestion. Pour aligner les données des systèmes sources à la source de données dans le contrôle de gestion, un fournisseur de données doit être configuré. Le tableau suivant répertorie la disponibilité des fournisseurs de données par connecteur de données et source de données.
 
-|  **Sources de données** |  **Connecteur de données pour les transactions importées** | **Connecteur de données Microsoft Dynamics 365 for Finance and Operations, Enterprise edition**  | **Connecteur de données Dynamics AX**  |
+|  **Sources de données** |  **Connecteur de données pour les transactions importées** | **Connecteur de données Dynamics 365 for Finance and Operations**  | **Connecteur de données Dynamics AX**  |
 |---|---|---|---|
 | Membres de la dimension d'élément de coût  |  Oui | Oui  | Oui  |
 |  Membres de la dimension d'objet de coût |  Oui | Oui  | Oui  |

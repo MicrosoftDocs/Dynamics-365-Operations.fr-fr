@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: d24679a380ec824fe08c56aacb4bc348ff40440a
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3d9c2192bac8477e9c9376aab3e3b561da777569
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="upload-a-configuration-into-lifecycle-services-for-electronic-reporting-er"></a>Importer une configuration dans Lifecycle Services pour la gestion des états électroniques (ER)
@@ -92,6 +92,6 @@ Dans cet exemple, vous allez créer une configuration et la télécharger dans L
 10. Cliquez sur Ouvrir.
     * Sélectionnez le référentiel LCS et ouvrez- le.  
     * Notez que la configuration sélectionnée est indiquée comme un actif du projet LCS sélectionné.  
-    * Ouvrez LCS à l'aide de l'adresse https://lcs.dynamics.com. Ouvrez un projet utilisé précédemment pour l'enregistrement du référentiel, ouvrez la bibliothèque d'actifs de ce projet, et développez le contenu du type d'actif Configuration GER, la configuration ER téléchargée est disponible. Notez que la configuration LCS téléchargée peut être importée dans une autre instance de Microsoft Dynamics 365 for Finance and Operations, Enterprise edition si les fournisseurs ont accès à ce projet LCS.  
+    * Ouvrez LCS à l'aide de https://lcs.dynamics.com. Ouvrez un projet utilisé précédemment pour l'enregistrement du référentiel, ouvrez la bibliothèque d'actifs de ce projet, et développez le contenu du type d'actif Configuration GER, la configuration ER téléchargée est disponible. Notez que la configuration LCS téléchargée peut être importée dans une autre instance de Microsoft Dynamics 365 for Finance and Operations si les fournisseurs ont accès à ce projet LCS.  
 
 

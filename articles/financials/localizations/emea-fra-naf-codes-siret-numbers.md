@@ -1,6 +1,6 @@
 ---
 title: "Codes NAF et numéros Siret"
-description: "Cette rubrique explique l'objectif et l'utilisation des codes de Nomenclature des Activités Françaises (NAF) et des numéros SIRET dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition."
+description: "Cette rubrique explique l'objectif et l'utilisation des codes de Nomenclature des Activités Françaises (NAF) et des numéros SIRET dans Microsoft Dynamics 365 for Finance and Operations."
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,10 +18,10 @@ ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 07d09512ef612b41bf527b74496fa440f23851fc
-ms.openlocfilehash: f1f30b51e23d8a751dfdd5bd656b128740fc7f5a
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: da8957845d190fd78c3e5d5d703a9a4629bd02ee
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 02/14/2018
 [!include[banner](../includes/banner.md)]
 
 
-Cette rubrique explique l'objectif et l'utilisation des codes de Nomenclature des Activités Françaises (NAF) et des numéros SIRET dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
+Cette rubrique explique l'objectif et l'utilisation des codes de Nomenclature des Activités Françaises (NAF) et des numéros SIRET dans Microsoft Dynamics 365 for Finance and Operations.
 
 <a name="naf-codes"></a>Codes NAF
 ---------

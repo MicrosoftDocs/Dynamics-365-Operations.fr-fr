@@ -18,10 +18,10 @@ ms.author: anasyash
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 07d09512ef612b41bf527b74496fa440f23851fc
-ms.openlocfilehash: ad74c4cbeb14526239e66d913879d027d89280c2
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a406df371c075e9e03133a48c3caca76a4915d3a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -50,7 +50,7 @@ Lorsque vous créez une configuration **Groupe d'immobilisations/modèle de vale
 | 2020      | 143.47                            | 50.21                               | 143.47                                | 0,00               |
 | **Total** | **Non applicable**                | **Non applicable**                  | **1 000,00**                          | **Non applicable** |
 
-**Remarque :** Si vous avez amorti une immobilisation à l'aide d'un logiciel d'immobilisation différent de Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, vous devez valider l'acquisition et l'amortissement cumulé dans Finance and Operations pour la période antérieure à l'utilisation de Finance and Operations. Par exemple, si vous avez commencé à utiliser Finance and Operations le 1er janvier 2016, vous devez valider l'acquisition et l'amortissement cumulé dans Finance and Operations pour la période se terminant le 31 décembre 2015. Après la validation de l'acquisition, vous devez modifier la date d'acquisition par la date correcte à partir de votre logiciel précédent et entrer la durée de vie restante de l'immobilisation. Vous pouvez ensuite amortir l'immobilisation normalement, à partir du 1er janvier 2016.
+**Remarque :** Si vous avez amorti une immobilisation à l'aide d'un logiciel d'immobilisation différent de Microsoft Dynamics 365 for Finance and Operations, vous devez valider l'acquisition et l'amortissement cumulé dans Finance and Operations pour la période antérieure à l'utilisation de Finance and Operations. Par exemple, si vous avez commencé à utiliser Finance and Operations le 1er janvier 2016, vous devez valider l'acquisition et l'amortissement cumulé dans Finance and Operations pour la période se terminant le 31 décembre 2015. Après la validation de l'acquisition, vous devez modifier la date d'acquisition par la date correcte à partir de votre logiciel précédent et entrer la durée de vie restante de l'immobilisation. Vous pouvez ensuite amortir l'immobilisation normalement, à partir du 1er janvier 2016.
 
 
 

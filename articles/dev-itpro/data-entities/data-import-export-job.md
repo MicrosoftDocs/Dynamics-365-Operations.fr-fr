@@ -16,10 +16,10 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e444168f249e798fa68b9b082556aa8e5e7d8113
-ms.openlocfilehash: 0e1c5120bf8558b955b66e059a8be8bbec2c2ce1
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: bd26ac6fd8376fd42467c7a3d2ecd2ec035a4479
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -27,7 +27,7 @@ ms.lasthandoff: 02/13/2018
 
 [!include[banner](../includes/banner.md)]
 
-Pour créer et gérer des tâches d'importation et d'exportation de données dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, utilisez l'espace de travail **Gestion des données**. Par défaut, le processus d'importation et d'exportation de données crée une table intermédiaire pour chaque entité dans la base de données cible. Les tables intermédiaires permettent de vérifier, nettoyer ou convertir des données avant de les déplacer.
+Pour créer et gérer des tâches d'importation et d'exportation de données dans Microsoft Dynamics 365 for Finance and Operations, utilisez l'espace de travail **Gestion des données**. Par défaut, le processus d'importation et d'exportation de données crée une table intermédiaire pour chaque entité dans la base de données cible. Les tables intermédiaires permettent de vérifier, nettoyer ou convertir des données avant de les déplacer.
 
 > [!NOTE]
 > La présente rubrique suppose que vous êtes familiarisé avec les [entités de données](data-entities.md).
@@ -66,7 +66,7 @@ Vous pouvez ajouter des entités spécifiques à une tâche d'importation ou d'e
 ### <a name="set-the-data-format-for-the-job"></a>Définir le format de données pour la tâche
 Lorsque vous sélectionnez une entité, vous devez sélectionner le format des données à exporter ou importer. Définissez des formats à l'aide de la vignette **Paramétrage de sources de données**. De nombreuses organisations commencent par les formats inclus par défaut dans l'ensemble de données de démonstration. Voici une liste de certains de ces formats :
 
-- AX (pour les données devant être importées ou exportées dans le même format utilisé pour Microsoft Dynamics 365 for Finance and Operations, Enterprise edition)
+- AX (pour les données devant être importées ou exportées dans le même format utilisé pour Microsoft Dynamics 365 for Finance and Operations)
 - ColonSeparated
 - CSV
 - Excel

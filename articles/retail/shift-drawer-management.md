@@ -3,7 +3,7 @@ title: "Gestion d'équipe et de tiroir-caisse"
 description: "Cet article explique comment configurer et utiliser les deux types d'équipes de travail de point de vente au détail (PDV) - partagée et autonome. Les équipes de travail partagées peuvent être utilisées par plusieurs utilisateurs à plusieurs endroits, alors que les équipes de travail autonomes peuvent être utilisées par un seul collaborateur à la fois."
 author: rubencdelgado
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/15/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -20,10 +20,10 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 72f73404f99330c3ff8b23dabed78477a0cd30cd
+ms.sourcegitcommit: 8a24f8adc4f7886a1f942d83f7a4eb12e7034fcd
+ms.openlocfilehash: c1483d3240d266845cea7789b70c038cb98fdfcc
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 
@@ -99,7 +99,60 @@ Une équipe partagée est utilisée dans un environnement où plusieurs caissier
 9.  Utilisez l'opération **Comptage de caisse** pour déclarer le montant total des disponibilités de tous les tiroirs-caisses qui sont inclus dans l’équipe de travail partagée.
 10. Utilisez l'opération **Clôturer l'équipe de travail** pour clôturer l’équipe de travail partagée.
 
+## <a name="shift-operations"></a>Opérations d'équipe
+Plusieurs actions peuvent être effectuées pour modifier l'état d'une équipe ou pour augmenter ou diminuer la somme d'argent dans le tiroir-caisse. La section ci-après décrit ces opérations d'équipe pour Dynamics 365 for Retail Modern POS et Cloud POS.
 
+**Équipe de travail en cours**
 
+POS exige qu'un utilisateur soit dans une équipe active et ouverte pour exécuter toutes les opérations débouchant sur une transaction financière comme une vente, un retour ou une commande client.  
 
+Lorsque cous vous connectez à POS, le système vérifie d'abord si l'utilisateur est dans une équipe active disponible sur le registre actuel. Si ce n'est pas le cas, l'utilisateur peut alors choisir d'ouvrir une nouvelle équipe, de reprendre une équipe de travail existante ou de continuer en se connectant en mode « non tiroir-caisse », en fonction de la configuration système et de ses autorisations.
+
+**Déclarer le montant de départ**
+
+Cette opération est souvent la première action effectuée avec une équipe récemment ouverte. Les utilisateurs spécifient le montant présent dans le tiroir-caisse en début d'équipe. Ceci est important, car le calcul de fin/court qui se produit à la fermeture d'une équipe tient compte de ce montant.
+
+**Entrée de fond de caisse**
+
+Les entrées de fond de caisse sont des transactions hors ventes qui sont effectuées au cours d'une équipe active et qui augmentent le montant des disponibilités dans le tiroir-caisse. Un exemple courant d'une entrée de fond de caisse consiste à ajouter de la monnaie supplémentaire dans le tiroir-caisse quand celui-ci en manque.
+
+**Vider la caisse**
+
+Les vidages de caisse sont des transactions hors ventes qui sont effectuées au cours d'une équipe active et qui diminuent le montant des disponibilités dans le tiroir-caisse. Ils sont le plus souvent utilisés conjointement à une entrée de fond de caisse dans une équipe différente. Par exemple, le registre 1 manque de fonds, l'utilisateur du registre 2 effectue un vidage de caisse pour réduire le montant du tiroir-caisse. L'utilisateur du registre 1 effectue ensuite une entrée de fond de caisse pour accroître son montant.
+
+**Suspendre l'équipe de travail**
+
+Les utilisateurs peuvent interrompre leur équipe active pour libérer le registre actuel pour un autre utilisateur, ou pour déplacer leur équipe à un registre différent (ceci est souvent appelé « tiroir-caisse flottant »). 
+
+L'interruption de l'équipe empêche toute nouvelle transaction ou changement d'équipe jusqu'à ce qu'elle reprenne.
+
+**Reprendre une équipe de travail**
+
+Cette opération permet à un utilisateur de reprendre une équipe précédemment interrompue sur une caisse enregistreuse qui n'a pas encore une équipe active.
+
+**Comptage de caisse**
+
+Le comptage de caisse est l'action effectuée par l'utilisateur pour spécifier la somme d'argent total actuelle dans le tiroir-caisse, le plus souvent avant fermeture de l'équipe. Il s'agit de la valeur comparée à l'équipe prévue pour calculer montant de fin/court.
+
+**Mise en coffre-fort**
+
+Les mises en coffre-fort peuvent être effectuées à tout moment pendant une équipe active. Cette opération permet de retirer l'argent du tiroir-caisse, afin qu'il puisse être transféré à un plus emplacement plus sûr tel qu'un coffre-fort dans une pièce à part. Le montant total enregistré pour les mises en coffre-fort est toujours inclus dans les totaux de l'équipe, mais n'a pas besoin d'être compté comme faisant partie du comptage de caisse.
+
+**Remise en banque**
+
+Comme les mises en coffre-fort, les remises en banque sont également effectuées pendant les équipes actives. Cette opération permet de retirer l'argent de l'équipe pour préparer le dépôt bancaire.
+
+**Clôturer l'équipe de travail en aveugle**
+
+Une clôture de l'équipe de travail en aveugle est une équipe qui n'est plus active mais qui n'a pas été entièrement clôturée. Les clôtures d'équipes de travail en aveugle ne peuvent pas être reprises comme des équipes interrompues, mais les procédures comme la déclaration des montants de départ et les comptages de caisse peuvent être exécutées ultérieurement ou depuis un registre distinct.
+
+Les clôtures d'équipe de travail en aveugle sont généralement utilisées pour libérer un registre pour un nouvel utilisateur ou une nouvelle équipe, sans devoir d'abord entièrement recompter, rapprocher, et clôturer l'équipe. 
+
+**Clôturer l'équipe de travail**
+
+Cette opération calcule les totaux d'équipe, les montants de fin/courts, puis finalise une équipe active ou clôturée en aveugle. Les équipes clôturées en aveugle ne peuvent pas être reprises ou modifiées.  
+
+**Gérer les équipes**
+
+Cette opération permet aux utilisateurs d'afficher toutes les équipes actives, interrompues, et clôturées à l'aveugle du magasin. En fonction de leurs autorisations, les utilisateurs peuvent effectuer leurs procédures de clôture finale, telles que le comptage de caisse et la clôture des équipes en aveugle pour les équipes clôturées en aveugle. Cette opération permet également aux utilisateurs d'afficher et de supprimer les équipes non valides dans le cas rare d'une équipe en mauvais état après avoir basculé entre les modes hors connexion et en ligne. Ces équipes non valides ne contiennent aucune information financière, ni donnée transactionnelle nécessaire pour le rapprochement. 
 

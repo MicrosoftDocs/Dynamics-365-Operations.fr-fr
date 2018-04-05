@@ -1,6 +1,6 @@
 ---
 title: "Vue d'ensemble du contrôle budgétaire"
-description: "Cet article présente le contrôle budgétaire et fournit des informations vous permettant de configurer le contrôle budgétaire dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition afin de pouvoir gérer les ressources financières."
+description: "Cet article présente le contrôle budgétaire et fournit des informations vous permettant de configurer le contrôle budgétaire dans Microsoft Dynamics 365 for Finance and Operations afin de pouvoir gérer les ressources financières."
 author: twheeloc
 manager: AnnBe
 ms.date: 01/11/2018
@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d8565ec692036d7a9411cb8663d7293d3ab91a44
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: e77760d6729b8faf3099590c60ea7673cfcb18ec
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Cet article présente le contrôle budgétaire et fournit des informations vous permettant de configurer le contrôle budgétaire dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition afin de pouvoir gérer les ressources financières.
+Cet article présente le contrôle budgétaire et fournit des informations vous permettant de configurer le contrôle budgétaire dans Microsoft Dynamics 365 for Finance and Operations afin de pouvoir gérer les ressources financières.
 
 <a name="overview"></a>Vue d'ensemble
 --------

@@ -19,10 +19,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: 49dfae79fe3914bcac9447d4fe3959128ff434ec
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3b6ded5e5accbbdba708c8b31119429e72bd58f5
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -53,7 +53,7 @@ L'EPC, qui est constitué de banques européennes, développe les infrastructure
 Le virement SEPA est un paiement d'une société ou d'une personne à une société ou une autre personne. Les paiements doivent être en euro, et doivent inclure le numéro de compte international (IBAN) et le code d'identificateur de la banque (BIC, Bank Identifier Code) pour les deux parties. (Le code BIC est également appelé SWIFT (Society for Worldwide Interbank Financial Telecommunication \[SWIFT\].) En outre, les coûts des transactions doivent être partagés entre les deux parties. Les virements bancaires qui surviennent entre les pièces doivent utiliser des fichiers XML conformes aux normes de traitement des paiements ISO 20022 et au format XML, tels qu'ils sont spécifiés par le CEP.
 
 ## <a name="how-is-a-credit-transfer-implemented"></a>Comment est implémenté un virement ?
-Le format de virement pour les pays européens est implémenté à l'aide de la fonctionnalité Génération d'états électroniques (ER) et de modes de paiement dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Quelques formats de virement utilisés dans d'autres régions utilisent toujours l'ancienne structure de paiement. Parmi de nombreux autres formats, il existe douze formats de virement ISO 20022 disponibles. Ces formats d'exportation sont conformes à la norme SEPA ISO 20022 XML. Ils sont utilisés pour générer des transferts de paiement non en euros pour les pays ou régions où ils sont utilisés et des paiements en euros comme spécifié dans la version 8.2 du Règlement des schémas de virement SEPA publié par l'EPC. Avant de pouvoir implémenter les virements, vous devez contacter votre banque pour obtenir le logiciel requis afin de télécharger les fichiers d'opérations bancaires électroniques. Vous l'utiliserez pour transférer les fichiers XML contenant les ordres de paiement à votre banque.
+Le format de virement pour les pays européens est implémenté à l'aide de la fonctionnalité Génération d'états électroniques (ER) et de modes de paiement dans Microsoft Dynamics 365 for Finance and Operations. Quelques formats de virement utilisés dans d'autres régions utilisent toujours l'ancienne structure de paiement. Parmi de nombreux autres formats, il existe douze formats de virement ISO 20022 disponibles. Ces formats d'exportation sont conformes à la norme SEPA ISO 20022 XML. Ils sont utilisés pour générer des transferts de paiement non en euros pour les pays ou régions où ils sont utilisés et des paiements en euros comme spécifié dans la version 8.2 du Règlement des schémas de virement SEPA publié par l'EPC. Avant de pouvoir implémenter les virements, vous devez contacter votre banque pour obtenir le logiciel requis afin de télécharger les fichiers d'opérations bancaires électroniques. Vous l'utiliserez pour transférer les fichiers XML contenant les ordres de paiement à votre banque.
 
 ## <a name="what-credit-transfer-formats-are-currently-supported-in-finance-and-operations"></a>Quels formats de virement sont actuellement pris en charge dans Finance and Operations ?
 Vous devez toujours aller dans la bibliothèque d'actifs partagés de Microsoft Dynamics Lifecycle Services (LCS) et afficher la liste la plus récente des fichiers disponibles dont le type d'actif est **Configuration GER**. La section suivante, « Que je dois paramétrer ? », fournit un lien vers une rubrique qui explique comment créer un référentiel LCS pour examiner les configurations disponibles et importer les configurations sélectionnées.

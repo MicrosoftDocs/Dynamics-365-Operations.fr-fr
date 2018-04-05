@@ -18,10 +18,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: 661c5a14d27f3ad9df6088c2977c507ca315a998
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 98e32298d1c8285437adf3df9820a71e7a0d7f6c
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Les fonctionnalités mobiles de Microsoft Dynamics 365 for Finance and Operations, Enterprise edition permettent à un utilisateur professionnel de concevoir des expériences mobiles. Pour les scénarios avancés, la plateforme permet également aux développeurs d'étendre les capacités comme ils le désirent. Le moyen le plus efficace d'apprendre quelques-uns des nouveaux concepts sur la fonction mobile est de passer en revue le processus de conception de quelques scénarios. Cette rubrique est destinée à fournir une approche pratique pour concevoir des scénarios mobiles en prenant les approbations de facture de fournisseur pour mobile en tant que cas d'utilisation. Cette rubrique doit vous aider à créer d'autres variations de scénarios et peut également être appliquée à d'autres scénarios non liés aux factures fournisseur.
+Les fonctionnalités mobiles de Microsoft Dynamics 365 for Finance and Operations permettent à un utilisateur professionnel de concevoir des expériences mobiles. Pour les scénarios avancés, la plateforme permet également aux développeurs d'étendre les capacités comme ils le désirent. Le moyen le plus efficace d'apprendre quelques-uns des nouveaux concepts sur la fonction mobile est de passer en revue le processus de conception de quelques scénarios. Cette rubrique est destinée à fournir une approche pratique pour concevoir des scénarios mobiles en prenant les approbations de facture de fournisseur pour mobile en tant que cas d'utilisation. Cette rubrique doit vous aider à créer d'autres variations de scénarios et peut également être appliquée à d'autres scénarios non liés aux factures fournisseur.
 
 <a name="prerequisites"></a>Conditions préalables
 -------------

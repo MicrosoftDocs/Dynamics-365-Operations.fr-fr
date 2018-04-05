@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: e4459e8be4bfab8e0789744eacd533286b6c05e0
+ms.sourcegitcommit: ba1a3a78d59f3aec91473ba9bb20bda4804ec92e
+ms.openlocfilehash: 0a43f5ff0987ede9f0cb80e5b4854f78e19e329b
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 03/23/2018
 
 ---
 # <a name="provision-microsoft-dynamics-365-for-talent"></a>Mettre en service Microsoft Dynamics 365 for Talent
@@ -47,13 +47,14 @@ Pour plus d'informations sur la mise en route de Talent, consultez la méthodolo
 Une fois que vous avez créé un projet LCS, vous pouvez mettre en service Talent dans un environnement.
 
 1. Dans votre projet LCS, sélectionnez la vignette **Gestion de l'application Talent**.
-2. Talent est toujours mis en service dans un environnement Microsoft PowerApps pour permettre l'intégration et l'extensibilité des applications PowerApps. Si vous ne disposez pas déjà d'un environnement PowerApps, suivez les étapes décrites dans la section « Créer un environnement PowerApps (si nécessaire) » de cette rubrique avant de continuer.
+2. Talent est toujours mis en service dans un environnement Microsoft PowerApps pour permettre l'intégration et l'extensibilité des applications PowerApps. Lisez la section « Sélectionnant d'un environnement PowerApps » de cette rubrique avant de continuer. 
+3. Si vous ne disposez pas déjà d'un environnement PowerApps, suivez les étapes décrites dans la section « Créer un environnement PowerApps (si nécessaire) » de cette rubrique avant de continuer.
 
     > [!NOTE]
     > Pour afficher les environnements existants ou en créer de nouveaux, la licence P2 PowerApps doit être affectée à l'administrateur qui met en service Talent. Si votre organisation ne dispose pas d'une licence P2 PowerApps, vous pouvez en obtenir une auprès de votre fournisseur CSP ou à partir de la [Page de tarification PowerApps](https://powerapps.microsoft.com/en-us/pricing/).
 
-3. Sélectionnez **Ajouter**, puis sélectionnez l'environnement dans lequel mettre en service Talent.
-4. Sélectionnez **Oui** pour accepter les termes et commencer le déploiement.
+4. Sélectionnez **Ajouter**, puis sélectionnez l'environnement dans lequel mettre en service Talent.
+5. Sélectionnez **Oui** pour accepter les termes et commencer le déploiement.
 
     Votre nouvel environnement apparaît dans la liste des environnements dans le volet de navigation à gauche. Toutefois, vous ne pouvez pas commencer à utiliser l'environnement jusqu'à ce que le statut de déploiement soit mis jour sur **Déployé**. Ce processus ne prend généralement que quelques minutes. Si le processus d'approvisionnement est infructueux, vous devez contacter le support technique.
 
@@ -65,32 +66,64 @@ Une fois que vous avez créé un projet LCS, vous pouvez mettre en service Talen
 > [!NOTE]
 > Les environnements Talent qui sont mis en service via LCS ne contiennent pas de données de démonstration configurées pour les tâches liées aux Ressources humaines (RH) ou spécifiques à Talent. Si vous exigez un environnement qui contient les données de démonstration, nous vous recommandons de vous inscrire gratuitement pour une période de 60 jours [Environnement d'évaluation Talent](https://dynamics.microsoft.com/en-us/talent/overview/). Bien qu'un environnement d'évaluation soit la propriété de l'utilisateur qui l'a demandé, d'autres utilisateurs peuvent être invités via l'expérience d'administration système pour Core RH. Les environnements d'évaluation contiennent des données fictives qui peuvent être utilisées pour explorer le programme de manière sûre. Ils ne sont pas destinés à être utilisés comme environnements de production. Notez que lorsque l'environnement d'évaluation expire après 60 jours, toutes les données qu'il contient sont supprimées et ne peuvent pas être récupérées. Vous pouvez vous inscrire à un nouvel environnement d'évaluation après expiration de l'environnement existant.
 
+## <a name="select-a-powerapps-environment"></a>Sélectionner un environnement PowerApps
+
+L'intégration entre les environnements Talent et PowerApps permet d'intégrer et d'étendre l'utilisation des données Talent à l'aide des outils PowerApps. La compréhension de l'objectif des environnements PowerApps vous aidera non seulement à créer des applications pour étendre Talent, mais aussi à sélectionner l'environnement approprié lorsque du provisionnement de Talent. Pour plus d'informations sur les environnements PowerApps, notamment la portée de l'environnement, l'accès à l'environnement ainsi que la création et le choix d'un environnement, voir [Annonce des environnements PowerApps](https://powerapps.microsoft.com/en-us/blog/powerapps-environments/). 
+
+Utilisez les consignes suivantes pour déterminer dans quel environnement PowerApps déployer Talent : 
+1. Dans LCS, sélectionnez Gérer les environnements, ou accédez directement au Centre d'administration de PowerApps, dans lequel vous pouvez afficher les environnements existants et créer des environnements.
+2. Un seul environnement Talent est mappé à un seul environnement PowerApps.
+3. Un environnement PowerApps « contient » l'application Talent, ainsi que les applications PowerApps, Flow et CDS correspondantes. Si l'environnement PowerApps est supprimé, les applications qu'il contient le sont aussi.
+4. Des stratégies d'intégration de données et de test doivent être envisagées, par exemple : Bac à sable (Sandbox), UAT, Production. Par conséquent, nous vous recommandons de définir les différentes implications pour le déploiement, car il sera difficile de modifier l'environnement Talent mappé à un environnement PowerApps par la suite.
+5. Les environnements PowerApps suivants ne peuvent pas être utilisés pour Talent et seront filtrés de la liste de sélection dans LCS :
+ 
+    **Environnements CDS 2.0** CDS 2.0 sera rendu disponible au public le 21 mars 2018 ; toutefois, Talent ne prend pas encore en charge CDS 2.0. Même si vous pouvez afficher et créer des bases de données CDS 2.0 dans le Centre d'administration PowerApps, elles ne sont pas utilisables dans Talent. L'option pour utiliser les environnements CDS 2.0 dans les déploiements de Talent sera disponible à une date ultérieure.
+   
+ > [!Note]
+ > Pour distinguer les environnements CDS 1.0 et 2.0 dans le portail d'administration, sélectionnez un environnement et consultez **Détails**. Les environnements CDS 2.0 font tous référence au fait que « Vous pouvez gérer ces paramètres dans le Centre d'administration de Dynamics 365 », pointent vers une version d'instance, et n'ont aucun onglet Base de données. 
+ 
+   **Environnements PowerApps par défaut** Bien que chaque locataire soit automatiquement provisionné avec un environnement PowerApps par défaut, nous ne vous recommandons pas de l'utiliser avec Talent, car tous les utilisateurs d'un locataire ont accès à l'environnement PowerApps et peuvent involontairement endommager des données de production lors de tests et en explorant avec les intégrations PowerApps ou Flow.
+   
+   **Environnements de test** Les environnements avec un nom comme « TestDrive – alias@domain » sont créés avec une période d'expiration de 60 jours et expirent après ce délai, entraînant la suppression automatique de votre environnement.
+   
+   **Zones non prises en charge** Actuellement, Talent n'est pris en charge que dans les zones suivantes : États-Unis, Europe ou Australie.
+  
+6. Il n'existe aucune action spécifique à effectuer une fois que vous avez déterminé l'environnement correct à utiliser. Poursuivez le processus de provisionnement. 
+ 
 ## <a name="create-a-new-powerapps-environment-if-required"></a>Créer un environnement PowerApps (si nécessaire)
-L'intégration entre les environnements Talent et PowerApps permet d'intégrer et d'étendre l'utilisation des données Talent à l'aide des outils PowerApps. Comprendre le but des environnements PowerApps vous aidera à créer des applications qui répondent aux besoins que vous avez en matière d'extension de Talent. Pour plus d'informations sur les environnements PowerApps, notamment la portée de l'environnement, l'accès à l'environnement ainsi que la création et le choix d'un environnement, voir [Annonce des environnements PowerApps](https://powerapps.microsoft.com/en-us/blog/powerapps-environments/). Chaque locataire met automatiquement en service un environnement PowerApps par défaut, qui n'est peut-être pas le meilleur environnement à utiliser pour votre déploiement Talent. Les stratégies d'intégration des données et de test doivent être prises en compte au cours de cette étape, il est donc recommandé de tenir compte des différentes implications pour votre déploiement, car tout changement ultérieur ne sera pas aisé. 
 
-Bien que chaque locataire soit automatiquement configuré dans un environnement PowerApps par défaut, cet environnement n'est peut-être pas le meilleur environnement à utiliser pour votre déploiement Talent. Les stratégies d'intégration et de test des données devraient être prises en compte lors de cette étape. Par conséquent, nous vous recommandons de définir les différentes implications pour le déploiement, car il sera difficile de modifier l'environnement PowerApps par la suite.
+Exécutez un script PowerShell pour créer un environnement PowerApps pour Talent dans le contexte de l'administrateur de locataire disposant de la licence PowerApps Plan 2. Le script automatise les étapes suivantes :
 
-1. Dans LCS, sélectionnez **Gérer les environnements**. Vous êtes redirigé vers le [Centre d'administration PowerApps](https://preview.admin.powerapps.com/environments), où vous pouvez afficher les environnements existants et en créer de nouveaux.
-2. Sélectionnez **Nouvel environnement**.
-3. Entrez un nom unique pour l'environnement, puis sélectionnez l'emplacement de déploiement.
 
-    > [!NOTE]
-    > Talent n'est pas disponible dans toutes les régions. Par conséquent, pensez à vérifier la disponibilité avant de sélectionner l'emplacement de votre environnement.
+ + Création d'un environnement PowerApps
+ + Création d'une base de données CDS 1.0
+ + Effacer tous les exemples de données dans la base de données CDS 1.0
 
-4. Lorsque le système vous demande si vous souhaitez créer une base de données, sélectionnez **Créer une base de données** pour créer la base de données Common Data Service (CDS) qui doit héberger une partie de vos données Talent. En créant une base de données, vous pouvez également intégrer des applications PowerApps à Talent.
-5. Le système vous demande le niveau d'accès à utiliser pour la base de données. Nous vous recommandons de sélectionner **Restriction de l'accès**, car cette option empêche les utilisateurs Talent d'accéder directement aux données confidentielles à l'aide d'une application PowerApps.
-6. La base de données CDS qui est créée contient les données de démonstration ajoutant des employés inactifs et des adresses fictives, entre autres informations, à votre environnement de production. Pour supprimer les données de démonstration, suivez les étapes ci-après une fois que vous avez terminé de créer la base de données CDS :
 
-    > [!IMPORTANT]
-    > Si vous avez déjà créé une base de données CDS et saisi les données de production de votre société, notez que ces étapes suppriment **toutes** les données de la base de données sélectionnée, même les données de production de votre société.
+Complétez les instructions suivantes pour exécuter le script :
 
-    1. Se connecter à [PowerApps](https://preview.web.powerapps.com/home).
-    2. Dans la liste déroulante en haut à droite, sélectionnez l'environnement que vous avez créé à l'étape 2.
-    3. Dans le volet de navigation gauche, développez le **Common Data Service**, puis sélectionnez **Entités**.
-    4. Sur le côté droit de la page, sélectionnez le bouton (**…**), puis sélectionnez **Effacer toutes les données**.
-    5. Sélectionnez **Supprimer les données** pour confirmer la suppression des données. Cette action supprime par défaut toutes les données de démonstration contenues dans la base de données CDS. Elle supprime également les autres données saisies dans la base de données sélectionnée.
+1. Téléchargez le fichier ProvisionCDSEnvironment.zip à l'emplacement suivant : [Scripts ProvisionCDSEnvironment](https://go.microsoft.com/fwlink/?linkid=870436)  
 
-Vous pouvez maintenant utiliser votre nouvel environnement.
+2. Décompressez le contenu complet du fichier ProvisionCDSEnviroinment.zip dans un dossier.
+
+3. Exécutez le programme Windows PowerShell ou Windows PowerShell ISE en tant qu'administrateur.
+
+   Visitez la rubrique [Définir la stratégie d'exécution](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6) pour en savoir plus sur la définition de la stratégie d'exécution afin que les scripts puissent être exécutés.
+  
+4. Dans PowerShell, accédez au dossier où vous avez décompressé le fichier et exécutez la commande suivante, pour remplacer les valeurs comme indiqué ci-dessous :
+ 
+   ```.\ProvisionCDSEnvironment -EnvironmentName MyNewEnvironment -Location YourLocation```
+
+    
+   **EnvironmentName** doit être remplacé par votre nom d'environnement. Ce nom s'affichera dans LCS et sera visible lorsque les utilisateurs sélectionnent l'environnement Talent à utiliser. 
+
+   **YourLocation** doit être remplacé par l'une des régions prises en charge par Talent : États-Unis, Europe, Australie. 
+
+   **-Verbose** est facultatif et fournit des informations détaillées à envoyer au support technique si des problèmes sont rencontrés.
+
+5. Poursuivez le processus de provisionnement.
+ 
+
 
 ## <a name="grant-access-to-the-environment"></a>Autoriser l'accès à l'environnement
 Par défaut, l'administrateur global ayant créé l'environnement y a accès. Cependant, les autres utilisateurs d'application doivent avoir un accès explicitement autorisé. Pour accorder l'accès, [ajoutez des utilisateurs](../dev-itpro/sysadmin/tasks/create-new-users.md) et [affectez-leurs les rôles appropriés](../dev-itpro/sysadmin/tasks/assign-users-security-roles.md) dans Core RH. Vous devez également ajouter ces utilisateurs à l'environnement PowerApps, afin qu'ils puissent accéder aux applications Attract et Onboard. La procédure est décrite ici. Si vous avez besoin d'aide pour effectuer les étapes, voir le billet de blog [Présentation du centre d'administration PowerApps](https://powerapps.microsoft.com/en-us/blog/introducing-admin-center-for-powerapps/).
@@ -101,5 +134,5 @@ Cette procédure est effectuée par l'administrateur global qui a déployé l'en
 2. Sélectionnez les environnements appropriés.
 3. Sous l'onglet **Sécurité**, ajoutez les utilisateurs requis au rôle **Créateur d'environnement**.
 
-Notez que cette dernière étape, dans laquelle vous ajoutez manuellement des utilisateurs à l'environnement PowerApps, est temporaire. Par la suite, elle sera effectuée automatiquement lorsque les utilisateurs sont ajoutés à Core RH.
+    Notez que cette dernière étape, dans laquelle vous ajoutez manuellement des utilisateurs à l'environnement PowerApps, est temporaire. Par la suite, elle sera effectuée automatiquement lorsque les utilisateurs sont ajoutés à Core RH.
 

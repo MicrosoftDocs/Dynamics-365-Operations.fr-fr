@@ -17,10 +17,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: 01841a2da44bfeebc8f8656229c406bd350cb6e5
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 93c005d4b85b56f77ddd488c91e477970f4ccd07
 ms.contentlocale: fr-fr
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ Cette rubrique décrit le contenu Microsoft Power BI **Rémunération**. Elle ex
 ## <a name="accessing-the-power-bi-content"></a>Accès au contenu Power BI
 Le contenu Power BI **Rémunération** s'affiche dans l'espace de travail **Gestion des rémunérations** si vous utilisez l'un des produits suivants :
 
-- Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition
+- Microsoft Dynamics 365 for Finance and Operations
 - Microsoft Dynamics 365 for Talent
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>États inclus dans le contenu Power BI

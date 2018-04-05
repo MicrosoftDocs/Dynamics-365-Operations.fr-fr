@@ -1,6 +1,6 @@
 ---
 title: "Comptabilité fournisseur dans le secteur public"
-description: "Cet article présente la fonctionnalité de Comptabilité fournisseur dans le secteur public qui est intégrée à Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Cette fonctionnalité inclut des codes commande fournisseur, des définitions de validation, la facturation à un fournisseur occasionnel, les formulaires fiscaux 1099, les escomptes de règlement, les types de certification de fournisseur, la synthèse des activités comptables du projet, les paiements électroniques, les page de garde et de signature des états, les montants des lignes de commande fournisseur, et les pages du journal des factures fournisseur."
+description: "Cet article présente la fonctionnalité de Comptabilité fournisseur dans le secteur public qui est intégrée à Microsoft Dynamics 365 for Finance and Operations. Cette fonctionnalité inclut des codes commande fournisseur, des définitions de validation, la facturation à un fournisseur occasionnel, les formulaires fiscaux 1099, les escomptes de règlement, les types de certification de fournisseur, la synthèse des activités comptables du projet, les paiements électroniques, les page de garde et de signature des états, les montants des lignes de commande fournisseur, et les pages du journal des factures fournisseur."
 author: twheeloc
 manager: AnnBe
 ms.date: 08/07/2017
@@ -20,10 +20,10 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 291b89bfa4d2845d55abc8ab1503c94f94cc108b
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: b18ce06d6d4dc4ca68e13d0298bd142464180710
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Cet article présente la fonctionnalité de Comptabilité fournisseur dans le secteur public qui est intégrée à Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Cette fonctionnalité inclut des codes commande fournisseur, des définitions de validation, la facturation à un fournisseur occasionnel, les formulaires fiscaux 1099, les escomptes de règlement, les types de certification de fournisseur, la synthèse des activités comptables du projet, les paiements électroniques, les page de garde et de signature des états, les montants des lignes de commande fournisseur, et les pages du journal des factures fournisseur. 
+Cet article présente la fonctionnalité de Comptabilité fournisseur dans le secteur public qui est intégrée à Microsoft Dynamics 365 for Finance and Operations. Cette fonctionnalité inclut des codes commande fournisseur, des définitions de validation, la facturation à un fournisseur occasionnel, les formulaires fiscaux 1099, les escomptes de règlement, les types de certification de fournisseur, la synthèse des activités comptables du projet, les paiements électroniques, les page de garde et de signature des états, les montants des lignes de commande fournisseur, et les pages du journal des factures fournisseur. 
 
 <a name="what-are-the-prerequisites-for-setting-up-accounts-payable-in-the-public-sector"></a>Quelles sont les conditions préalables au paramétrage de la comptabilité fournisseur dans le secteur public ?
 --------------------------------------------------------------------------------

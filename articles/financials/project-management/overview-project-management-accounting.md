@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
-ms.openlocfilehash: 6a2c51d9ffe288dad2db43ecd0a4c8f717c6379a
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3c4720795313180ba7ad784ea39484d6ffb9ac2f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -38,7 +38,7 @@ Un projet est un groupe d'activités qui est conçu pour fournir un service, fab
 ## <a name="projects-across-industries"></a>Projets couvrant plusieurs secteurs
 La fonctionnalité de gestion de projets et de comptabilité peut être utilisée dans plusieurs secteurs d'activité, comme le montre l'illustration suivante. [![Projets couvrant plusieurs secteurs](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
-Dans un centre d'appels, un ticket peut être utilisé pour décrire l'ensemble des actions requises pour résoudre un appel. Les sociétés de conseil, telles que les sociétés de gestion ou de consultance techniques ou les agences de publicité, désignent leurs activités comme des projets. En marketing, une campagne représente un ensemble de travail qui doit être livré. Dans la fabrication basée sur projet, un ordre de fabrication se rapporte à l'ensemble du travail varié qui doit être effectué pour produire des produits finis donnés. Quelque soit le nom que l'on emploie, ces projets impliquent des ressources, des programmes et des coûts, et la fonctionnalité de gestion de projets et de comptabilité dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition peut aider à organiser, exécuter et analyser ces projets.
+Dans un centre d'appels, un ticket peut être utilisé pour décrire l'ensemble des actions requises pour résoudre un appel. Les sociétés de conseil, telles que les sociétés de gestion ou de consultance techniques ou les agences de publicité, désignent leurs activités comme des projets. En marketing, une campagne représente un ensemble de travail qui doit être livré. Dans la fabrication basée sur projet, un ordre de fabrication se rapporte à l'ensemble du travail varié qui doit être effectué pour produire des produits finis donnés. Quelque soit le nom que l'on emploie, ces projets impliquent des ressources, des programmes et des coûts, et la fonctionnalité de gestion de projets et de comptabilité dans Microsoft Dynamics 365 for Finance and Operations peut aider à organiser, exécuter et analyser ces projets.
 
 ## <a name="project-phases"></a>Projet de projet
 Bien que le flux de processus suivant concerne des projets externes, ou des projets terminés pour un ou plusieurs clients, la fonctionnalité s'applique également aux projets internes et aux projets à coût uniquement. 

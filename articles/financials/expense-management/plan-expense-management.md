@@ -1,6 +1,6 @@
 ---
 title: "Configurer la gestion des dépenses"
-description: "Cet article décrit les considérations et les décisions que vous devez prendre au cours du processus de planification avant de configurer la gestion des dépenses dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition."
+description: "Cet article décrit les considérations et les décisions que vous devez prendre au cours du processus de planification avant de configurer la gestion des dépenses dans Microsoft Dynamics 365 for Finance and Operations."
 author: KimANelson
 manager: AnnBe
 ms.date: 08/29/2017
@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 198e37258f45966b92d963cc0c233d4790ca049e
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c87909d9eb3a4d717e0c40289353da0267a51f60
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Cette rubrique décrit les considérations et les décisions que vous devez prendre au cours du processus de planification avant de configurer la gestion des dépenses dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Dans Gestion des dépenses, vous pouvez stocker des informations sur les modes de paiement, des demandes de voyage, états de dépenses, et des stratégies, etc.
+Cette rubrique décrit les considérations et les décisions que vous devez prendre au cours du processus de planification avant de configurer la gestion des dépenses dans Microsoft Dynamics 365 for Finance and Operations. Dans Gestion des dépenses, vous pouvez stocker des informations sur les modes de paiement, des demandes de voyage, états de dépenses, et des stratégies, etc.
 
 Étant donné qu'un bon nombre des décisions que vous prenez lorsque vous planifiez la configuration de la gestion des dépenses sont basées sur la hiérarchie et la structure financière de votre organisation, vous devez vous référer aux documents de planification pour ces domaines.
 

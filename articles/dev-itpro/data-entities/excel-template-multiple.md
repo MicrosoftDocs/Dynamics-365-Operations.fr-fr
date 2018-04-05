@@ -1,6 +1,6 @@
 ---
 title: "Importer des données à partir des modèles d'entité de données Excel avec plusieurs feuilles de calcul"
-description: "Cette rubrique décrit la procédure d'importation de données à l'aide des modèles d'entité de données Excel dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
+description: "Cette rubrique décrit la procédure d'importation de données à l'aide des modèles d'entité de données Excel dans Microsoft Dynamics 365 for Finance and Operations."
 author: Sunil-Garg
 manager: AnnBe
 ms.date: 01/01/2018
@@ -18,10 +18,10 @@ ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
-ms.openlocfilehash: b314a649829dd14a525923802e19b847dc5a115e
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 2aefea9373df20bd3e99026e30aed096dcea9814
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 02/27/2018
 
 [!include[banner](../includes/banner.md)]
 
-La gestion des données dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition prend en charge les modèles Microsoft Excel pour les entités de données. Ces modèles peuvent contenir une ou plusieurs feuilles de calcul. Les modèles avec plusieurs feuilles de calcul sont souvent utilisés lorsqu'il est pratique de gérer les données d'un fichier unique et de les importer dans plusieurs entités de données. Il peut s'agir par exemple de sites et d'entrepôts.
+La gestion des données dans Microsoft Dynamics 365 for Finance and Operations prend en charge les modèles Microsoft Excel pour les entités de données. Ces modèles peuvent contenir une ou plusieurs feuilles de calcul. Les modèles avec plusieurs feuilles de calcul sont souvent utilisés lorsqu'il est pratique de gérer les données d'un fichier unique et de les importer dans plusieurs entités de données. Il peut s'agir par exemple de sites et d'entrepôts.
 
 ## <a name="upload-a-file-once-and-map-it-to-all-entities"></a>Télécharger un fichier une fois et le mettre en correspondance avec toutes les entités
 Prenons l'exemple d'un fichier Excel avec des feuilles de calcul intitulées **Sites** et **Entrepôts**. Pour paramétrer le projet d'importation de données, vous ajoutez la première entité de données **Sites**, puis téléchargez le fichier. Vous pourrez sélectionner **Sites** comme feuille de calcul à utiliser pour cette entité.

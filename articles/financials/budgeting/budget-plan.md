@@ -1,6 +1,6 @@
 ---
 title: "Planification budgétaire"
-description: "L'objectif de cet atelier consiste à fournir une vue guidée des mises à jour de fonctionnalités Microsoft Dynamics 365 for Finance and Operations, Enterprise edition dans la zone de planification budgétaire. Cet atelier pratique consiste à illustrer un exemple de configuration rapide du module planification budgétaire et à présenter l'accomplissement de la planification budgétaire à l'aide de cette configuration.  Cet atelier pratique se concentrera spécifiquement sur les processus ou les tâches d'entreprise : - Création de la hiérarchie d'organisation pour la planification budgétaire et la configuration de la sécurité utilisateur - Définition de scénarios de plan budgétaire, de colonnes de plan budgétaire, de mises en page et de modèles Excel - Création et activation du processus de planification budgétaire - Création de document de plan budgétaire par l'extraction de chiffres réels de la comptabilité - Utilisation des répartitions pour ajuster les données du document de plan budgétaire - Modification de données de document de plan budgétaire dans Excel"
+description: "L'objectif de cet atelier consiste à fournir une vue guidée des mises à jour de fonctionnalités Microsoft Dynamics 365 for Finance and Operations dans la zone Planification budgétaire. Cet atelier pratique consiste à illustrer un exemple de configuration rapide du module planification budgétaire et à présenter l'accomplissement de la planification budgétaire à l'aide de cette configuration.  Cet atelier pratique se concentrera spécifiquement sur les processus ou les tâches d'entreprise : - Création de la hiérarchie d'organisation pour la planification budgétaire et la configuration de la sécurité utilisateur - Définition de scénarios de plan budgétaire, de colonnes de plan budgétaire, de mises en page et de modèles Excel - Création et activation du processus de planification budgétaire - Création de document de plan budgétaire par l'extraction de chiffres réels de la comptabilité - Utilisation des répartitions pour ajuster les données du document de plan budgétaire - Modification de données de document de plan budgétaire dans Excel"
 author: twheeloc
 manager: AnnBe
 ms.date: 01/12/2018
@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 608ec87233acb05b0d46e367bcb7cd14985d7813
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 59781da7681ece1c0c013f59e0d1a5d7efc51c3a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-L'objectif de cet atelier consiste à fournir une vue guidée des mises à jour de fonctionnalités Microsoft Dynamics 365 for Finance and Operations, Enterprise edition dans la zone de planification budgétaire. Cet atelier pratique consiste à illustrer un exemple de configuration rapide du module planification budgétaire et à présenter l'accomplissement de la planification budgétaire à l'aide de cette configuration.  Cet atelier pratique se concentrera spécifiquement sur les processus ou les tâches d'entreprise : - Création de la hiérarchie d'organisation pour la planification budgétaire et la configuration de la sécurité utilisateur - Définition de scénarios de plan budgétaire, de colonnes de plan budgétaire, de mises en page et de modèles Excel - Création et activation du processus de planification budgétaire - Création de document de plan budgétaire par l'extraction de chiffres réels de la comptabilité - Utilisation des répartitions pour ajuster les données du document de plan budgétaire - Modification de données de document de plan budgétaire dans Excel 
+L'objectif de cet atelier consiste à fournir une vue guidée des mises à jour de fonctionnalités Microsoft Dynamics 365 for Finance and Operations dans la zone Planification budgétaire. Cet atelier pratique consiste à illustrer un exemple de configuration rapide du module planification budgétaire et à présenter l'accomplissement de la planification budgétaire à l'aide de cette configuration.  Cet atelier pratique se concentrera spécifiquement sur les processus ou les tâches d'entreprise : - Création de la hiérarchie d'organisation pour la planification budgétaire et la configuration de la sécurité utilisateur - Définition de scénarios de plan budgétaire, de colonnes de plan budgétaire, de mises en page et de modèles Excel - Création et activation du processus de planification budgétaire - Création de document de plan budgétaire par l'extraction de chiffres réels de la comptabilité - Utilisation des répartitions pour ajuster les données du document de plan budgétaire - Modification de données de document de plan budgétaire dans Excel 
 
 <a name="prerequisites"></a>Conditions préalables 
 ------------------

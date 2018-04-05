@@ -1,6 +1,6 @@
 ---
 title: Collaboration fournisseur avec des clients
-description: "Cette rubrique décrit comment utiliser la collaboration fournisseur dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, pour utiliser des CF et surveiller le stock de consignation."
+description: "Cette rubrique décrit comment utiliser la collaboration fournisseur dans Microsoft Dynamics 365 for Finance and Operations pour utiliser des CF et surveiller le stock de consignation."
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: 7646b2e01ea1f9cdca58b9971c3dea21b99525e2
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 4252112272e2f86c2c18dc399a713bf652e4228e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 12/14/2017
 
 [!include[banner](../includes/banner.md)]
 
-Cette rubrique décrit comment utiliser la collaboration fournisseur avec les clients dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Les fournisseurs peuvent effectuer une série de processus d'entreprise dans les espaces de travail suivants :
+Cette rubrique décrit comment utiliser la collaboration fournisseur avec les clients dans Microsoft Dynamics 365 for Finance and Operations. Les fournisseurs peuvent effectuer une série de processus d'entreprise dans les espaces de travail suivants :
 
 - **Confirmation de la commande fournisseur** – Permet de surveiller les commandes fournisseur et d'y répondre.
 - **Offre du fournisseur** – Permet d'afficher les appels d'offre et d'y répondre en saisissant des offres.

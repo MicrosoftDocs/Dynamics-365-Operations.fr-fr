@@ -1,6 +1,6 @@
 ---
 title: "N° de document unique avec plusieurs enregstrements client ou fournisseur"
-description: "Cette rubrique fournit une vue d'ensemble de ce qui se produit lorsque vous validez un N° de document unique avec plusieurs enregistrements client ou fournisseur. Cette fonctionnalité sera arrêtée dans les futures versions de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Par conséquent, il n'est pas recommandé d'utiliser cette méthode de validation en raison de l'impact comptable qu'elle a sur le traitement des règlements."
+description: "Cette rubrique fournit une vue d'ensemble de ce qui se produit lorsque vous validez un N° de document unique avec plusieurs enregistrements client ou fournisseur. Cette fonctionnalité sera arrêtée dans les futures versions de Microsoft Dynamics 365 for Finance and Operations, par conséquent, il n'est pas recommandé d'utiliser cette méthode de validation en raison de l'impact comptable qu'elle a sur le traitement des règlements."
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
@@ -18,10 +18,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: bc6fa9da49cb7f861941eb85f56e5be76b4b90de
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 4c499e31fb42a69dff6ac41faac0c78f7f4d1876
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Cette rubrique fournit une vue d'ensemble de ce qui se produit lorsque vous validez un N° de document unique avec plusieurs enregistrements client ou fournisseur. Cette fonctionnalité sera arrêtée dans les futures versions de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Par conséquent, il n'est pas recommandé d'utiliser cette méthode de validation en raison de l'impact comptable qu'elle a sur le traitement des règlements. 
+Cette rubrique fournit une vue d'ensemble de ce qui se produit lorsque vous validez un N° de document unique avec plusieurs enregistrements client ou fournisseur. Cette fonctionnalité sera arrêtée dans les futures versions de Microsoft Dynamics 365 for Finance and Operations, par conséquent, il n'est pas recommandé d'utiliser cette méthode de validation en raison de l'impact comptable qu'elle a sur le traitement des règlements. 
 
 Certains exemples courants dans lesquels un N° de document est utilisé pour plusieurs clients ou fournisseurs incluent les transferts de solde entre clients, et les soldes de compensation entre clients et fournisseurs de la même organisation. 
 
@@ -181,7 +181,7 @@ Ensuite, l'utilisateur transfère le solde dû d'ACME vers la compagnie d'assura
 |             |                  |             |                 |           |            |                 |                    |
 |-------------|------------------|-------------|-----------------|-----------|------------|-----------------|--------------------|
 | **Pièce justificative** | **Type de compte** | **Compte** | **Description** | **Débit** | **Crédit** | **Type de contrepartie** | **Compte de contrepartie** |
-| ARPAYM001   | Client          | ACME        | Transfert        |           | 100,00     | Client         | Assurance          |
+| ARPAYM001   | Client         | ACME        | Transfert        |           | 100,00     | Client        | Assurance          |
 
 Notez que l'entrée ci-dessus est contenue dans un N° de document. Ce N° de document contient deux enregistrements client. Le N° de document suivant est créé lorsque l'écriture comptable ci-dessus est validée.
 
@@ -212,8 +212,8 @@ Si l'utilisateur n'est pas satisfait de la valeur par défaut des dimensions fin
 |             |                  |             |                 |           |            |                 |                    |
 |-------------|------------------|-------------|-----------------|-----------|------------|-----------------|--------------------|
 | **Pièce justificative** | **Type de compte** | **Compte** | **Description** | **Débit** | **Crédit** | **Type de contrepartie** | **Compte de contrepartie** |
-| ARPAYM001   | Client          | ACME        |                 |           | 100,00     | Comptabilité          | 401100-002-023-    |
-| ARPAYM002   | Client          | Assurance   |                 | 100,00    |            | Comptabilité          | 401100-002-023-    |
+| ARPAYM001   | Client         | ACME        |                 |           | 100,00     | Comptabilité          | 401100-002-023-    |
+| ARPAYM002   | Client         | Assurance   |                 | 100,00    |            | Comptabilité          | 401100-002-023-    |
 
 Cela signifie que lorsque le client d'assurance paie 98,00 avec le N° de document ARPAYM02, les dimensions financières correctes de l'écriture de compte général du N° de document ARPAYM002 seront utilisées.
 
@@ -241,14 +241,14 @@ Pour illustrer cela, supposons que le fournisseur 1001 et le client US-008 soien
 |             |                  |             |                 |           |            |                 |                    |
 |-------------|------------------|-------------|-----------------|-----------|------------|-----------------|--------------------|
 | **Pièce justificative** | **Type de compte** | **Compte** | **Description** | **Débit** | **Crédit** | **Type de contrepartie** | **Compte de contrepartie** |
-| APPAYM001   | Fournisseur           | 1 001        | Compensation         |  75,00    |            | Client         | US-008             |
+| APPAYM001   | Fournisseur           | 1 001        | Compensation         |  75,00    |            | Client        | US-008             |
 
 Pour éviter les problèmes indésirables de futures règlements pour cette transaction, au lieu d'utiliser un N° de document, plusieurs N° de documents doivent être entrés dans le journal pour enregistrer la transaction de compensation. Notez que les soldes client et fournisseurs sont compensés par un compte de compensation unique afin d'éviter l'utilisation d'un N° de document contenant plusieurs soldes client et fournisseur.
 
 |             |                  |             |                 |           |            |                 |                    |
 |-------------|------------------|-------------|-----------------|-----------|------------|-----------------|--------------------|
 | **Pièce justificative** | **Type de compte** | **Compte** | **Description** | **Débit** | **Crédit** | **Type de contrepartie** | **Compte de contrepartie** |
-| 001         | Client          | US-008      |                 |           |  75,00     | Comptabilité          | 999999---          |
+| 001         | Client         | US-008      |                 |           |  75,00     | Comptabilité          | 999999---          |
 | 002         | Fournisseur           | 1 001        |                 |  75,00    |            | Comptabilité          | 999999---          |
 
  

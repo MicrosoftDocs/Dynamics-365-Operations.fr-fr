@@ -1,6 +1,6 @@
 ---
 title: "Rapprochement de relevés bancaires à l'aide du rapprochement bancaire avancé"
-description: "La fonctionnalité de rapprochement bancaire avancée vous permet d'importer des relevés bancaires électroniques et de les rapprocher automatiquement avec des transactions bancaires dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Cette rubrique explique le processus de rapprochement."
+description: "La fonctionnalité de rapprochement bancaire avancée vous permet d'importer des relevés bancaires électroniques et de les rapprocher automatiquement avec des transactions bancaires dans Microsoft Dynamics 365 for Finance and Operations. Cette rubrique explique le processus de rapprochement."
 author: saraschi2
 manager: AnnBe
 ms.date: 01/11/2018
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: a89ed8055b33af4ee39695cf6d8b4d6e1aad9c92
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: ed3a1fae6ca30b9411fde47e7ef8a08150d7d748
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-La fonctionnalité de rapprochement bancaire avancée vous permet d'importer des relevés bancaires électroniques et de les rapprocher automatiquement avec des transactions bancaires dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Cette rubrique explique le processus de rapprochement.  
+La fonctionnalité de rapprochement bancaire avancée vous permet d'importer des relevés bancaires électroniques et de les rapprocher automatiquement avec des transactions bancaires dans Microsoft Dynamics 365 for Finance and Operations. Cette rubrique explique le processus de rapprochement.  
 
 <a name="import-an-electronic-bank-statement"></a>Importer un relevé bancaire électronique
 -----------------------------------

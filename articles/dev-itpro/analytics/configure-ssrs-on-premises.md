@@ -18,17 +18,17 @@ ms.author: sarvanis
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 7be3e9970e2599c159e7c9d414b54876d0116350
-ms.openlocfilehash: 2b5abc98f5788c5091e5be61688cfd0d4076a510
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 2ecfb759a59292ddbce484b3ae20368c486fedd9
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="configure-sql-server-reporting-services-for-an-on-premises-deployment"></a>Configurer SQL Server Reporting Services pour un déploiement sur site
 
 [!include[banner](../includes/banner.md)]
 
-Utilisez les étapes de cette rubrique pour configurer SQL Server Reporting Services (SSRS) pour le déploiement de votre système Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (sur site).
+Utilisez les étapes de cette rubrique pour configurer SQL Server Reporting Services (SSRS) pour le déploiement de votre système Microsoft Dynamics 365 for Finance and Operations (sur site).
 
 1. Ouvrez l'application Gestionnaire de configuration de Reporting Services.
 2. Laissez la valeur par défaut de **Nom de serveur**, qui doit être le nom de la machine actuelle, et **Instance de serveur d'états**, **MSSQLSERVER**. 

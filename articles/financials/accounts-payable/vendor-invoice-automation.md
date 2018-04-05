@@ -17,10 +17,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
-ms.openlocfilehash: 34dc8d762db4a4802e52188ebda298db234ee376
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 551f3d5fc52fac725fcc9fedc37dc1c85fac5a26
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="vendor-invoice-automation"></a>Automatisation des factures fournisseur
@@ -29,7 +29,7 @@ ms.lasthandoff: 03/05/2018
 
 Cette rubrique explique les fonctionnalités disponibles pour l'automatisation de bout en bout des factures fournisseur, y compris les factures contenant des pièces jointes.
 
-Les organisations qui souhaitent simplifier leurs processus de compatibilité fournisseur identifient souvent le traitement des factures comme l'un des principaux domaines de processus dont l'efficacité doit être améliorée. Dans de nombreux cas, ces organisations confient le traitement des factures papier à un fournisseur de services de reconnaissance optique des caractères (OCR) tiers. Elles reçoivent ensuite les métadonnées de facture dans un format lisible par une machine avec une image numérisée de chaque facture. Pour faciliter l'automatisation, une solution de « dernier kilomètre » est créée pour activer la consommation de ces artefacts dans le système de facturation. Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition active automatiquement cette automatisation de « dernier kilomètre », par le biais d'une solution d'automatisation des factures.
+Les organisations qui souhaitent simplifier leurs processus de compatibilité fournisseur identifient souvent le traitement des factures comme l'un des principaux domaines de processus dont l'efficacité doit être améliorée. Dans de nombreux cas, ces organisations confient le traitement des factures papier à un fournisseur de services de reconnaissance optique des caractères (OCR) tiers. Elles reçoivent ensuite les métadonnées de facture dans un format lisible par une machine avec une image numérisée de chaque facture. Pour faciliter l'automatisation, une solution de « dernier kilomètre » est créée pour activer la consommation de ces artefacts dans le système de facturation. Microsoft Dynamics 365 for Finance and Operations active automatiquement cette automatisation de « dernier kilomètre », par le biais d'une solution d'automatisation des factures.
 
 ## <a name="solution-context"></a>Contexte de la solution
 

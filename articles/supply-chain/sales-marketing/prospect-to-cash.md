@@ -1,6 +1,6 @@
 ---
 title: "Prospect en disponibilités"
-description: "Cette rubrique fournit une vue d'ensemble de la solution Prospect en disponibilités entre Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition et Microsoft Dynamics 365 for Sales."
+description: "Cette rubrique fournit une vue d'ensemble de la solution Prospect en disponibilités entre Microsoft Dynamics 365 for Finance and Operations et Microsoft Dynamics 365 for Sales."
 author: ChristianRytt
 manager: AnnBe
 ms.date: 02/08/2018
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: e342c67f53828c77f77d99a2c3f909a23ced8989
-ms.openlocfilehash: 5d9bc41c92258f9856088b04ec5af123c8e915e5
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 025be8b44726194e6fc219816c40d2a15a7349df
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/13/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 03/13/2018
 
 [!include[banner](../includes/banner.md)]
 
-La solution Prospect en disponibilités fournit une synchronisation directe entre Dynamics 365 for Finance and Operations, Enterprise Edition et Dynamics 365 for Sales. Les modèles Prospect en disponibilités disponibles avec la fonction d'intégration de données activent le flux de données pour les comptes, contacts, produits, devis de vente, commandes client et factures client entre Finance and Operations et Sales. Bien que les données transitent entre Finance and Operations et Sales, vous pouvez effectuer des activités de vente et de marketing dans Sales, et vous pouvez gérer l'exécution de commande à l'aide de la gestion des stocks de Finance and Operations. 
+La solution Prospect en disponibilités fournit une synchronisation directe entre Dynamics 365 for Finance and Operations et Dynamics 365 for Sales. Les modèles Prospect en disponibilités disponibles avec la fonction d'intégration de données activent le flux de données pour les comptes, contacts, produits, devis de vente, commandes client et factures client entre Finance and Operations et Sales. Bien que les données transitent entre Finance and Operations et Sales, vous pouvez effectuer des activités de vente et de marketing dans Sales, et vous pouvez gérer l'exécution de commande à l'aide de la gestion des stocks de Finance and Operations. 
 
 Pour plus d'informations sur l'intégration de la solution Prospect en disponibilités, consultez la courte vidéo YouTube :
 

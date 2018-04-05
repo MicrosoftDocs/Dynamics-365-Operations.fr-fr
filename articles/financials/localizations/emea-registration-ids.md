@@ -18,10 +18,10 @@ ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 3d3ad89f80c3e3f42e117109f4a76232795b7d64
-ms.openlocfilehash: e908d4ec41263ed4230ea5e70fa08db793abedc6
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 978c6c6f2a3de803f252e93040d2d7eb2bc4a793
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -56,7 +56,7 @@ Une catégorie d'enregistrement est un identificateur d'enregistrement de pays/r
 |-----------------------|----------------|
 | Type d'enregistrement     | Type d'enregistrement dans un pays/région particulier.|
 | Limité à         | Le type de restriction s'applique au type d'enregistrement de taxe : Aucun, Personne, Organisation.|
-| Catégorie d'enregistrement | Identificateur d'enregistrement unique approuvé pour être utilisé dans le pays. Voici la liste complète des composants pris en charge dans les catégories Microsoft Dynamics 365 for Finance and Operations, Enterprise edition : |
+| Catégorie d'enregistrement | Identificateur d'enregistrement unique approuvé pour être utilisé dans le pays. Voici la liste complète des composants pris en charge dans les catégories Microsoft Dynamics 365 for Finance and Operations : |
 
 ## <a name="enter-registration-ids-for-global-address-book-records"></a>Entrer les ID d'enregistrement pour les enregistrements de carnet d'adresses global
 

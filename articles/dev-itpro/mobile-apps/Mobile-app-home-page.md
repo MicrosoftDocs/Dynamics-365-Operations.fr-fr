@@ -18,10 +18,10 @@ ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 233d91138b11905d971be90154da54e61bbe2919
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: b84778bd67e8c5bad6e8858d2af71f46e0dfe145
 ms.contentlocale: fr-fr
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -39,7 +39,7 @@ Cette rubrique décrit l'application mobile Microsoft Dynamics 365 for Unified O
 
 L'application mobile permet à votre organisation de rendre ses processus métiers disponibles sur des appareils mobiles. Lorsque votre administrateur informatique active des espaces de travail mobiles pour votre organisation, les utilisateurs peuvent se connecter à l'application et commencer à exécuter les processus métiers depuis leurs mobiles. L'application mobile inclut les fonctions suivantes qui permettent d'augmenter la productivité :
 
-- Les utilisateurs peuvent afficher, modifier, et agir sur les données commerciales, même avec une connectivité réseau intermittente ou si les appareils mobiles sont entièrement hors ligne. Lorsqu'un appareil rétablit une connexion réseau, les opérations de données hors ligne sont automatiquement synchronisées avec Dynamics 365 for Finance and Operations, Enterprise edition ou Microsoft Dynamics 365 for Finance and Operations.
+- Les utilisateurs peuvent afficher, modifier, et agir sur les données commerciales, même avec une connectivité réseau intermittente ou si les appareils mobiles sont entièrement hors ligne. Lorsqu'un appareil rétablira une connexion réseau, les opérations de données hors ligne seront automatiquement synchronisées avec Dynamics 365 for Finance and Operations.
 - Les administrateurs ou les développeurs informatiques peuvent générer et publier des espaces de travail mobiles conçus en fonction de leur organisation. L'application utilise vos actifs de code existants. Par conséquent, vous n'aurez pas à réexécuter vos procédures de contrôle, votre logique métier, ou votre configuration de sécurité.
 - Les administrateurs ou les développeurs informatiques peuvent concevoir facilement des espaces de travail mobiles à l'aide du concepteur d'espace de travail inclus dans le client, par simple pointer-cliquer.
 - Ils peuvent éventuellement optimiser les capacités hors connexion des espaces de travail à l'aide de la technologie d'extensibilité de logique du système. Comme les données continuent à être traitées lorsqu'un appareil est hors ligne, les scénarios mobiles restent riches et fluides, même si les appareils ne sont pas constamment connectés au réseau.
@@ -90,7 +90,7 @@ Le tableau suivant contient des liens vers des ressources qui vous aident à imp
 <tr class="even">
 <td>2</td>
 <td>Administrateur système</td>
-<td><strong>Si vous utilisez Microsoft Dynamics 365 for Finance and Operations version 1611 :</strong> Téléchargez et installez les articles de la Base de connaissances qui activent les espaces de travail mobiles fournis par Microsoft.</td>
+<td><strong>Si vous utilisez Microsoft Dynamics 365 for Operations version 1611 :</strong> Téléchargez et installez les articles de la Base de connaissances qui activent les espaces de travail mobiles fournis par Microsoft.</td>
 <td>Voir les rubriques suivantes pour plus d'informations :
 <ul>
 

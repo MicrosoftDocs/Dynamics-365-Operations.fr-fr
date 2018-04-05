@@ -19,10 +19,10 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ffeb97237e732b48dd14d3268f0ec3cd71b1f117
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: b87d96dca92f3ef4e755e71649bd0b183f62f982
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/06/2017
 
 Le titre de recette permet au directeur d'informer le comptable que l'organisation est autorisée à recouvrer un montant spécifique auprès d'une autre entité et d'autoriser le comptable à déposer ledit montant. Le directeur ou le comptable peut déléguer la tâche à un commercial, mais il a toujours la responsabilité de chaque tâche. Le titre permet de garantir une séparation nette obligatoire entre le rôle opérationnel du directeur et le rôle comptable du comptable.
 
-Dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, chaque titre est affecté à une seule ligne de facture financière. Cela permet de garantir que chaque titre ne concerne qu'un seul débiteur et n'inclut qu'un seul compte budgétaire. Un groupe de titres liés avec leurs documents associés sont affectés à un bordereau de titre pour être soumis au comptable.
+Dans Microsoft Dynamics 365 for Finance and Operations, chaque titre est affecté à une seule ligne de facture financière. Cela permet de garantir que chaque titre ne concerne qu'un seul débiteur et n'inclut qu'un seul compte budgétaire. Un groupe de titres liés avec leurs documents associés sont affectés à un bordereau de titre pour être soumis au comptable.
 
 ## <a name="directors-tasks"></a>Tâches du directeur
 Sur la page **Tenir à jour les titres de recette**, le directeur peut effectuer les tâches suivantes :

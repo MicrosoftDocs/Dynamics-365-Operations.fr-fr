@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 24a7a5654b20acadb3f7522bc33a8179f599f9f8
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a0530a569978bafffcdcc63c8d502b9bfa645bc5
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -34,7 +34,7 @@ Lorsque vous planifiez et paramétrez votre plan de comptes, vous devez vérifie
 
 ## <a name="chart-of-accounts-and-financial-dimension-components"></a>Composants Plan de comptes et Dimension financière
 
-Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, a un système riche basé sur les règles pour définir des combinaisons valides de comptes principaux et de valeurs de dimension financière. Cette section fournit une brève vue d'ensemble de la fonctionnalité de chaque composant et explique où vous pouvez rechercher le composant.
+Microsoft Dynamics 365 for Finance and Operations a un système riche basé sur les règles pour définir des combinaisons valides de comptes principaux et de valeurs de dimension financière. Cette section fournit une brève vue d'ensemble de la fonctionnalité de chaque composant et explique où vous pouvez rechercher le composant.
 
 ### <a name="account-structures"></a>Structures de compte
 

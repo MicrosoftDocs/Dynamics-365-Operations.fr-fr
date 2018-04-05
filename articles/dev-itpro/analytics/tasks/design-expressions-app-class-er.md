@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 74606b1378e94e8a6945a408520c8b68648970d8
-ms.openlocfilehash: b0a1dba5afbd7beba45149340f637223f6ecedcf
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 631fa7bae808856efb8b95700fd2a85e6d5f8725
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="design-expressions-to-call-application-class-methods-er"></a>Concevoir des expressions pour appeler les méthodes de classe d'application (ER)
@@ -28,13 +28,13 @@ ms.lasthandoff: 02/07/2018
 
 Ce guide fournit des informations sur la procédure de réutilisation de la logique d'application existante dans les configurations d'états électroniques en appelant les méthodes requises des classes d'application des expressions ER. Les valeurs des arguments d'appel des classes peuvent être définies dynamiquement au moment de l'exécution : par exemple, sur la base des informations du document d'analyse pour garantir leur exactitude. Dans ce guide, vous allez créer les configurations ER requises pour l'exemple de société, Litware, Inc. Cette procédure est créée pour les utilisateurs ayant le rôle d'administrateur système ou de développeur de gestion des états électroniques. 
 
-Ces étapes peuvent être effectuées à l'aide d'un ensemble de données quelconque. Vous devez également télécharger et enregistrer localement le fichier suivant : (https://go.microsoft.com/fwlink/?linkid=862266) : SampleIncomingMessage.txt.
+Ces étapes peuvent être effectuées à l'aide d'un ensemble de données quelconque. Vous devez également télécharger et enregistrer localement le fichier suivant : (https://go.microsoft.com/fwlink/?linkid=862266): SampleIncomingMessage.txt.
 
 Pour réaliser ces étapes, vous devez commencer par effectuer les étapes de la procédure « ER Créer un fournisseur de configuration et le marquer comme actif ».
 
 1. Accédez à Administration d'organisation > Espaces de travail > États électroniques.
     * Vérifiez que le fournisseur de la configuration pour la société fictive Litware, Inc. est disponible et marqué comme actif. Si vous ne voyez pas ce fournisseur de configuration, vous devez d'abord effectuer les étapes de la procédure « Créer un fournisseur de configuration et le marquer comme actif ».   
-    * Supposons que vous créiez un processus d'analyse des relevés bancaires entrants pour une mise à jour des données d'application. Vous recevrez les relevés bancaires entrants en tant que fichiers TXT contenant les codes IBAN. Dans le cadre du processus d'importation des relevés bancaires, vous devez valider l'exactitude des codes IBAN à l'aide de la logique qui est déjà disponible dans Dynamics 365 for Finance and Operations, Enterprise edition.   
+    * Supposons que vous créiez un processus d'analyse des relevés bancaires entrants pour une mise à jour des données d'application. Vous recevrez les relevés bancaires entrants en tant que fichiers TXT contenant les codes IBAN. Dans le cadre du processus d'importation des relevés bancaires, vous devez valider l'exactitude des codes IBAN à l'aide de la logique qui est déjà disponible dans Dynamics 365 for Finance and Operations.   
 
 ## <a name="import-a-new-er-model-configuration"></a>Importer une nouvelle configuration du modèle ER
 1. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.

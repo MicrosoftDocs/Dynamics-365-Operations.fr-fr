@@ -19,10 +19,10 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: adf3dbf8b7ffa906c872a6b66d9cb43eb8e02805
+ms.sourcegitcommit: 812db9f1d319e4d16f83700a7153a0a3b318963e
+ms.openlocfilehash: 3fc30669bf7a16616484bf7115cb121ce463840f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/23/2018
 
 ---
 
@@ -56,7 +56,6 @@ Pour ajouter un département à la hiérarchie des départements, procédez comm
 5.  Enregistrez vos modifications. Vous recevez un message indiquant qu'une version temporaire de la hiérarchie a été créée.
 6.  Lorsque vous êtes prêt, cliquez sur **Publier** dans le concepteur de hiérarchie. Vous pouvez entrer une date d'effet qui indique quand la hiérarchie doit être publiée. Par exemple, pour ajouter un nouveau département au début de l'année civile suivante, définissez la date d'effet au 1er janvier de la nouvelle année civile. Les modifications apportées à la hiérarchie entreront en vigueur à cette date.
 
-
-
-
+## <a name="steps-for-creating-a-department"></a>Étapes pour créer un département
+Reportez-vous à la rubrique [Définir les nouveaux départements](../fin-and-ops/hr/tasks/define-new-departments.md) pour connaître la procédure pas à pas pour créer un département. 
 

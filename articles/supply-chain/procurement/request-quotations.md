@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: 42ab7beb8a269cd37fd9100385bd302e4945c1e0
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: b86363004b8702d1a654f2a1da49bba82fc8ff2a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -46,7 +46,7 @@ Vous pouvez créer un appel d'offre à partir des commandes planifiées, d'une d
 
 Après avoir préparé le dossier d'appel d'offre et ajouté des fournisseurs, sélectionnez **Envoyer** dans le dossier d'appel d'offre. Un journal d'appel d'offre est généré pour chaque fournisseur auquel vous envoyez l'appel d'offre. Vous pouvez configurer les paramètres de gestion de l'impression pour l'action Envoyer afin d'imprimer un état pour chaque fournisseur dans une archive ou pour envoyer un état à l'adresse électronique de chaque fournisseur. En outre, vous pouvez utiliser le journal d'appel d'offre de chaque fournisseur pour générer un état que vous pouvez envoyer ou renvoyer au fournisseur ultérieurement. Vous pouvez également configurer l'action Envoyer afin de générer une feuille de réponse que le fournisseur peut compléter.
 
-Cette rubrique décrit le processus de gestion des appels d'offre lorsque la collaboration fournisseur n'est pas utilisée. Si votre système est paramétré pour la collaboration fournisseur, les fournisseurs peuvent entrer des offres directement dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Pour plus d'informations, voir [Collaboration fournisseur avec les clients](vendor-collaboration-work-customers-dynamics-365-operations.md).
+Cette rubrique décrit le processus de gestion des appels d'offre lorsque la collaboration fournisseur n'est pas utilisée. Si votre système est paramétré pour la collaboration fournisseur, les fournisseurs peuvent entrer des offres directement dans Microsoft Dynamics 365 for Finance and Operations. Pour plus d'informations, voir [Collaboration fournisseur avec les clients](vendor-collaboration-work-customers-dynamics-365-operations.md).
  
 Si vous devez modifier un appel d'offre après son envoi, vous pouvez le renvoyer aux fournisseurs lorsque vous avez terminé à l'aide des deux actions de modification : Créer et Finaliser.
 

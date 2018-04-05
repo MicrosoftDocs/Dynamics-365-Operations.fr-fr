@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: 64d915a5e039ba242f6d5ae5f43c8e09d6ca282e
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: e874d7353e0d9561ca55f313bfb5209299298169
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -38,7 +38,7 @@ Cet article présente la planification budgétaire et contient des informations 
 
 Vous procédez à la planification budgétaire lorsque vous préparez les budgets qui seront implémentés par une organisation. Une organisation peut configurer la planification budgétaire, puis paramétrer les processus afférents pour répondre à ses stratégies, procédures et exigences en matière de préparation du budget. 
 
-Lorsque vous comprenez les concepts et la terminologie utilisés dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, vous avez plus de facilité à implémenter la planification budgétaire dans votre organisation.
+Lorsque vous comprenez les concepts et la terminologie utilisés dans Microsoft Dynamics 365 for Finance and Operations, vous avez plus de facilité à implémenter la planification budgétaire dans votre organisation.
 
 ### <a name="key-terms"></a>Termes clés
 

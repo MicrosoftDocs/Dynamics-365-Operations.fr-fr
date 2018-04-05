@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7f8fe754a27a825ace862d5eac992c42ef973f10
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 882b8f21be94b8cbb0c162c965ffc129b47d7edf
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -132,7 +132,7 @@ Votre entité juridique (entité juridique A) vend des widgets à une autre enti
 Toutes ces transactions créent des transactions intersociétés validées sur des comptes vostro et nostro. De plus, ces transactions peuvent inclure des montants majorés et minorés lorsque le montant de la vente intersociétés est différent du coût des marchandises vendues.
 
 ## <a name="set-up-elimination-rules"></a>Configurer les règles d'élimination
-Lors du paramétrage des règles d'élimination dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, il est recommandé de créer une dimension financière spécialement à des fins d'élimination. La plupart des clients la nomment « Partenaire commercial » ou un nom similaire. Si vous décidez de ne pas utiliser une dimension financière, assurez-vous d'avoir des comptes principaux qui sont spécifiques aux transactions intersociétés uniquement. 
+Lors du paramétrage des règles d'élimination dans Microsoft Dynamics 365 for Finance and Operations, il est recommandé de créer une dimension financière spécialement à des fins d'élimination. La plupart des clients la nomment « Partenaire commercial » ou un nom similaire. Si vous décidez de ne pas utiliser une dimension financière, assurez-vous d'avoir des comptes principaux qui sont spécifiques aux transactions intersociétés uniquement. 
 
 Le paramétrage des éliminations est effectué dans la zone Paramétrage du module Consolidations. Après avoir entré une description pour la règle, vous devez sélectionner la société dans laquelle le journal d'élimination sera validé. Il doit s'agir d'une société pour laquelle l'option **Utiliser pour le processus d'élimination financière** est sélectionnée dans le paramétrage de l'entité juridique. 
 

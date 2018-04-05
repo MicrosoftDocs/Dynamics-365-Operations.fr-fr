@@ -1,6 +1,6 @@
 ---
 title: "Génération du fichier d'audit standard pour la France (FEC)"
-description: "Cette rubrique que vous lors de la génération du fichier d'audit standard pour la France (FEC) dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
+description: "Cette rubrique décrit le processus de génération du fichier d'audit standard pour la France (FEC) dans Microsoft Dynamics 365 for Finance and Operations."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/10/2017
@@ -16,14 +16,14 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7fd6f7daa023b5bc8cd662a3547b388bc0ba8a58
-ms.openlocfilehash: 7f7abb9809e105a6136de4831d3d71c2bf8968ac
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 62e418550d4a8ea5e31c51478574491753b4a481
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
-# <a name="create-standard-audit-file-for-france-fec"></a>Création du fichier d'audit standard pour la France (FEC)
+# <a name="create-standard-audit-file-for-france-fec"></a>Créer un fichier d'audit standard pour la France (FEC)
 
 [!include[banner](../includes/banner.md)]
 

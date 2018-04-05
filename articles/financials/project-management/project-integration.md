@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: a72963f755f8eddb19b8526d2938eff039ab7df2
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 4a3445417d5ae88e2ff3676962a82921a7ab475d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 01/17/2018
 La planification et la tenue à jour d'un programme de projet peuvent être complexes, les gestionnaires de projets doivent donc utiliser des outils pour les aider à gérer cette tâche. L'intégration avec le client Microsoft Project prend en charge l'ouverture et la gestion de la structure de répartition du travail pour un projet. Le gestionnaire de projets peut publier les modifications dans la structure de répartition du travail de Finance and Operations.
 
 > [!NOTE]
-> Si vous utilisez la mise à jour de juillet de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, vous devez installer KB 4054797 et 4055884.
+> Si vous utilisez la mise à jour de juillet de Microsoft Dynamics 365 for Finance and Operations, vous devez installer KB 4054797 et 4055884.
 
 ## <a name="configure-the-microsoft-project-client-add-in"></a>Configurer le complément du client Microsoft Project
 Pour activer l'intégration avec le client Microsoft Project, un complément Microsoft Dynamics 365 doit être installé dans l'application cliente Microsoft Project de l'utilisateur. Pour ce faire, ouvrez l'espace de travail **Gestion des projets**.

@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 2c37f0253454a23d90904dd6b000b955146ad121
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 2892feff0ab8845515543af1a71d8f9642113726
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/07/2018
 
 [!include[banner](../includes/banner.md)]
 
-L'utilisation du catalogue externe vous permet de vous assurer que les informations sur les produits et les prix que vous traitez par la suite dans Dynamics 365 for Finance and Operations, Enterprise Edition, juillet 2017 sont exactes et actualisées. La demande peut ensuite être approuvée et convertie en commande fournisseur et une commande peut être passée auprès du fournisseur.
+L'utilisation du catalogue externe vous permet de vous assurer que les informations sur les produits et les prix que vous traitez par la suite dans Dynamics 365 for Finance and Operations juillet 2017 sont exactes et actualisées. La demande peut ensuite être approuvée et convertie en commande fournisseur et une commande peut être passée auprès du fournisseur.
 
 Lorsque le catalogue externe est paramétré et qu'un employé prépare une demande, une option permet de rediriger vers un site externe, le catalogue externe, et de renvoyer le panier créé sur le site externe. Cette communication est basée sur le protocole cXML et doit être paramétrée entre les systèmes de l'organisation d'achat et de vente.
 
