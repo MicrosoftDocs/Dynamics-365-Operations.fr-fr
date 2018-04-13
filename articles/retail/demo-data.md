@@ -29,7 +29,7 @@ ms.lasthandoff: 03/05/2018
 
 # <a name="demo-data-screen-layouts-in-mposcpos"></a>Mises en page de l'écran de données de démonstration dans MPOS/CPOS
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Cette rubrique fournit des informations sur les mises en page d'écran incluses dans le jeu de données de démonstration pour les expériences de point de vente (PDV) dans Microsoft Dynamics 365 for Retail.
 

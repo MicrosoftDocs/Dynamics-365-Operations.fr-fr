@@ -27,10 +27,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="close-accounts-receivable"></a>Clôture des ventes
 
-[!include[banner](../includes/banner.md)]
-
-
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Le tableau suivant répertorie les pages qui prennent en charge processus d'entreprise Comptabilité client.
 

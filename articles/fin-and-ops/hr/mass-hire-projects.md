@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="mass-hire-projects"></a>Projets d'embauche collective
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Les projets d'embauche collective autorisent les spécialistes des ressources humaines à créer plusieurs postes et à embaucher de manière efficace des collaborateurs pour ces postes.
 
@@ -94,7 +93,7 @@ Sur la page **Projet d'embauche collective**, cliquez sur **Ouvrir le projet** o
 </tbody>
 </table>
 
- 
+
 
 
 

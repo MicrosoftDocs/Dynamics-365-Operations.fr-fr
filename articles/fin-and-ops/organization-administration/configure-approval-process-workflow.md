@@ -27,8 +27,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="configure-an-approval-process-in-a-workflow"></a>Configurer un processus d'approbation dans un workflow
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 La procédure suivante permet de configurer les propriétés du processus d'approbation.
 
@@ -136,6 +135,7 @@ Vous voudrez peut-être désigner un approbateur final pour les cas où l'approb
 
 ## <a name="set-a-time-limit"></a>Définition d'un délai limite
 Si le processus d'approbation doit être exécuté dans un certain délai, procédez comme suit.
+
 | **Remarque**                                                                                                                                                |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Les options sélectionnées dans ces étapes remplacent celles sélectionnées dans les zones **Affectation** et **Escalade** de chaque étape d'approbation. |

@@ -27,7 +27,7 @@ ms.lasthandoff: 12/18/2017
 
 # <a name="cost-accounting-analysis-power-bi-content"></a>Contenu Power BI d'analyse du contrôle de gestion
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique décrit les données incluses dans le contenu Microsoft Power BI **Analyse du contrôle de gestion**. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
 
@@ -111,18 +111,20 @@ Le tableau suivant indique comment les mesures globales clés sont utilisées po
 
 Les dimensions clés suivantes sont utilisées comme filtres pour diviser les mesures globales afin d'obtenir une plus grande granularité et de fournir des données d'analyse plus approfondies.
 
-| Entité                             | Exemples d'attributs                                                                                               |
+
+|               Entité               |                                                Exemples d'attributs                                                |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| Comptabilités de contrôle de gestion            | Comptabilité de contrôle de gestion                                                                                               |
-| Unités de contrôle des coûts                 | Nom de l'unité de contrôle des coûts                                                                                               |
-| Dimensions d'éléments de coût            | Nom de la dimension d'éléments de coût, nom du membre de la dimension d'élément de coût, description du membre de la dimension d'élément de coût          |
-| Dimensions d'objets de coût             | Nom de la dimension d'objet de coût, nom du membre de la dimension d'objet de coût, description du membre de la dimension d'objet de coût              |
-| Dimensions statistiques             | Nom de la dimension statistique, nom du membre de la dimension statistique, description du membre de la dimension statistique              |
-| Hiérarchies de dimensions d'objet de coût  | Nom de la hiérarchie de dimensions d'objet de coût, niveau de la hiérarchie de dimensions d'objet de coût, arborescence de la hiérarchie de dimensions d'objet de coût    |
+|      Comptabilités de contrôle de gestion       |                                                Comptabilité de contrôle de gestion                                                |
+|         Unités de contrôle des coûts         |                                                Nom de l'unité de contrôle des coûts                                                |
+|      Dimensions d'éléments de coût       |     Nom de la dimension d'éléments de coût, nom du membre de la dimension d'élément de coût, description du membre de la dimension d'élément de coût      |
+|       Dimensions d'objets de coût       |       Nom de la dimension d'objet de coût, nom du membre de la dimension d'objet de coût, description du membre de la dimension d'objet de coût        |
+|       Dimensions statistiques       |       Nom de la dimension statistique, nom du membre de la dimension statistique, description du membre de la dimension statistique        |
+| Hiérarchies de dimensions d'objet de coût  |  Nom de la hiérarchie de dimensions d'objet de coût, niveau de la hiérarchie de dimensions d'objet de coût, arborescence de la hiérarchie de dimensions d'objet de coût   |
 | Hiérarchies de dimensions d'élément de coût | Nom de la hiérarchie de dimensions d'élément de coût, niveau de la hiérarchie de dimensions d'élément de coût, arborescence de la hiérarchie de dimensions d'élément de coût |
-| Hiérarchies de dimensions statistiques  | Nom de la hiérarchie de dimensions statistiques, niveau de la hiérarchie de dimensions statistiques, arborescence de la hiérarchie de dimensions statistiques    |
-| Versions de transaction               | Nom de la version                                                                                                         |
-| Calendriers fiscaux                   | Calendrier, description du calendrier                                                                                       |
-| Exercices                       | Année civile                                                                                                        |
-| Périodes fiscales                     | Période de l'année civile                                                                                                 |
+| Hiérarchies de dimensions statistiques  |  Nom de la hiérarchie de dimensions statistiques, niveau de la hiérarchie de dimensions statistiques, arborescence de la hiérarchie de dimensions statistiques   |
+|        Versions de transaction        |                                                     Nom de la version                                                     |
+|          Calendriers fiscaux          |                                            Calendrier, description du calendrier                                            |
+|            Exercices            |                                                    Année civile                                                     |
+|           Périodes fiscales           |                                                 Période de l'année civile                                                 |
+
 

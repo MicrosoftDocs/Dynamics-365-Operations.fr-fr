@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a>Paramétrage des groupes de validation dans la comptabilité de la taxe
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 La taxe est calculée et validée dans les comptes principaux spécifiés dans les groupes de validation dans la comptabilité. Les groupes de validation dans la comptabilité sont associés à chaque code taxe. Vous pouvez paramétrer des groupes de validation dans la comptabilité individuels pour chaque code taxe ; vous pouvez utiliser un groupe de validations dans la comptabilité pour tous les codes taxe ou vous pouvez affecter plusieurs groupes de validations dans la comptabilité aux codes taxe. La société fictive DEMF sert d'exemple dans cet enregistrement. 
 

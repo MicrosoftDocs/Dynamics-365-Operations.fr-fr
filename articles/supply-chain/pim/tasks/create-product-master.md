@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-product-master"></a>Créer un produit générique
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Créez un produit générique pour les variantes prédéfinies. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Cette procédure est destinée au concepteur de produit.
 

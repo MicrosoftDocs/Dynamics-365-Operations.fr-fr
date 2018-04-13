@@ -28,8 +28,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="electronic-reporting-overview"></a>Vue d'ensemble des états électroniques
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique fournit une vue d'ensemble de l'outil de gestion des états électroniques (ER). Il comporte des informations sur les concepts essentiels, les scénarios pris en charge par l'ER et une liste des formats conçus et lancés dans le cadre de la solution.
 
@@ -287,6 +286,7 @@ ER vous permet de que créer (dériver) un nouveau composant à partir de la ver
 ER vous permet d'adopter automatiquement les modifications de la version la plus récente du composant de base dans la version brouillon actuelle du composant dérivé. Ce processus est appelé *redéfinition de la base*. Par exemple, une nouvelle modification réglementaire (introduite dans la version la plus récente du composant de format importé depuis LCS) peut être automatiquement fusionnée dans la propre version personnalisée de ce format de document électronique. Toutes les modifications qui ne peuvent pas être fusionnées automatiquement sont considérées comme des conflits. Ces conflits sont présentés pour une résolution manuelle dans l’outil de concepteur pour le composant approprié. Pour vous familiariser avec ce scénario en détails, visionnez le guide de tâche **ER Mettre à niveau le format par adoption d'une nouvelle version de base de ce format** (qui fait partie du processus d'entreprise **7.5.5.3 Acquérir/Développer un composant de services/solutions informatiques modifié (10683)**).
 
 ## <a name="list-of-er-configurations-that-are-delivered-in-the-finance-and-operations-solution"></a>Liste de configurations ER qui sont fournies dans la solution de Finance and Operations
+
 | Configurations de modèles de données spécifiques au domaine : titre | Domaine                | Configurations de format en fonction du modèle de données : titre | Description                                                        |
 |--------------------------------------------------|-----------------------|---------------------------------------------------|--------------------------------------------------------------------|
 | Modèle de fichier d'audit                                 | Audit financier       |                                                   |                                                                    |

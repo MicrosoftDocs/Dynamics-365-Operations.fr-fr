@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="process-interest"></a>Traiter les intérêts
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure permet d'indiquer comment créer, imprimer, et valider les notes d'intérêt. La société fictive USMF est citée en exemple dans cette tâche.
 

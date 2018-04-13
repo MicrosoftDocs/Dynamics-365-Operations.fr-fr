@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="distribute-questionnaires-using-scheduling"></a>Distribuer des questionnaires à l'aide d'une planification
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 La planification de questionnaire vous permet de planifier et répartir les questionnaires entre plusieurs personnes interrogées. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 

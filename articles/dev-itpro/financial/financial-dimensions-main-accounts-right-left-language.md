@@ -27,8 +27,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="financial-dimensions-and-main-accounts-in-a-right-to-left-language"></a>Dimensions financières et comptes principaux dans une langue qui se lit de droite à gauche
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique décrit certaines des décisions d'implémentation que vous devez prendre en compte lorsque vous utilisez une langue qui se lit de droite à gauche, et vous devez paramétrer des dimensions financières et des comptes principaux.
 

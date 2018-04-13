@@ -24,7 +24,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="release-a-productproduct-master-to-legal-entities"></a>Lancer un produit/produit générique à destination des entités juridiques
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure indique comment lancer un produit ou un produit générique dans une ou plusieurs entités juridiques. La société fictive utilisée pour créer cette tâche est USRT et la tâche est destinée au Gestionnaire du commerce et au Concepteur de produits.
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="online-store-overview"></a>Vue d'ensemble du magasin en ligne
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Cet article fournit des informations sur des stockages en ligne Retail et comment les paramétrer dans Microsoft Dynamics 365 for Retail.
 

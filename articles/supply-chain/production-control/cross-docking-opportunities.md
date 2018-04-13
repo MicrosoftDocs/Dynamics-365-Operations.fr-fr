@@ -28,7 +28,7 @@ ms.lasthandoff: 03/07/2018
 
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Cross-docking des ordres de fabrication aux quais d’expédition
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique décrit la procédure de gestion du processus du matériel de cross-docking qui est déclaré terminé d'une ligne de production à un quai de transport sortant.
 
@@ -76,10 +76,10 @@ Dans **Stratégie de cross-docking**, définissez les types de document s'appliq
 
 ### <a name="cross-docking-policy-name-transfer-order"></a>Nom de la stratégie de cross-docking : Ordre de transfert
 
--   Numéro de souche : 10
- -   Type d'ordre d'exécution : Sortie de transfert
--   Demande de cross-docking nécessite un emplacement : Faux
--   Stratégie de cross-docking : Date et heure
+- Numéro de souche : 10
+  -   Type d'ordre d'exécution : Sortie de transfert
+- Demande de cross-docking nécessite un emplacement : Faux
+- Stratégie de cross-docking : Date et heure
 
 ### <a name="sequence-number"></a>Souche de N°
 

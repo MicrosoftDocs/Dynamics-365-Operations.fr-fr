@@ -28,14 +28,14 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="prepayment-invoices-vs-prepayments"></a>Factures d'acompte et acomptes
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique décrit et compare les deux méthodes que les organisations peuvent utiliser pour les paiements en avance (acomptes). Dans la première, vous créez une facture d'acompte qui est associée à une commande fournisseur. Dans l'autre méthode, vous créez des N° document du journal des acomptes en créant des entrées de journal et en les marquant comme des N° document du journal des acomptes.
 
 Les organisations peuvent verser des acomptes (paiements en avance) aux fournisseurs pour des biens ou services avant que ceux-ci ne soient livrés. Deux méthodes permettent de verser des acomptes aux fournisseurs. Pour minimiser les risques, vous pouvez suivre les acomptes en définissant l'acompte sur une commande fournisseur. Pour cette méthode, vous devez créer une facture d'acompte associée à une commande fournisseur. Cette méthode est appelée facturation d'acompte. Les organisations qui ne souhaitent pas suivre les acomptes aussi étroitement ou qui ne reçoivent pas une facture d'acompte de leur fournisseur peuvent utiliser les N° documents du journal des acomptes au lieu de la méthode de facturation d'acompte. Vous pouvez créer des N° documents du journal des acomptes en créant des entrées de journal et en les marquant comme N° documents du journal des acomptes. Pour cette méthode, vous ne pouvez pas suivre les acomptes versés à un fournisseur, ni les commandes fournisseur concernées. Toutefois, vous pouvez marquer un acompte validé pour règlement pour une commande fournisseur.
 
 ## <a name="when-to-use-prepayment-invoicing-vs-prepayments"></a>Utilisation de la facturation d'acompte et des acomptes
+
 | Facturation d'acompte                                                                | Acomptes                                                              |
 |-------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
 | Définissez une valeur d'acompte sur la commande fournisseur.                                    | Aucune valeur d'acompte n'est définie sur la commande fournisseur.                    |

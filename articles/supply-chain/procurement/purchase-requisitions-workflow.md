@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="purchase-requisition-workflow"></a>workflow de demande d'achat
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Le processus de workflow déplace les demandes d'achat via le processus de révision, depuis le statut initial de Brouillon jusqu'au statut final Approuvé. Lorsqu'une demande d'achat est envoyée pour révision, le processus de workflow démarre. Lorsqu'une demande d'achat est approuvée, une commande fournisseur peut être générée pour les lignes de la demande d'achat et soumise au fournisseur pour honorer une commande.
 

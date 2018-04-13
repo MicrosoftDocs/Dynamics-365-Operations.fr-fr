@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="questionnaires"></a>Questionnaires
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Cette rubrique fournit des informations générales sur les questionnaires, et renvoie vers des informations plus détaillées. Un questionnaire est un ensemble de questions utilisé pour collecter des informations à diverses fins. Vous pouvez concevoir, créer, distribuer et compléter des questionnaires, puis analyser leurs résultats. 
 

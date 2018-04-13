@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="loan-items-to-a-worker"></a>Articles prêtés à un travailleur
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure décrit comment prêter un article à un collaborateur et comment enregistrer le collaborateur qui retourne un article. Les collaborateurs peuvent également emprunter des articles via les pages Libre-service employé. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 

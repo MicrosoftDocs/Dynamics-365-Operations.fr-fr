@@ -26,7 +26,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="credit-limits-for-customers"></a>Limites de crédit pour les clients
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 La définition d'une limite de crédit permet de spécifier le montant maximal de crédit accordé à vos clients. Si une limite de crédit est spécifiée, elle est vérifiée automatiquement lorsqu'un utilisateur tente de mettre à jour un document. Si la limite de crédit est dépassée, un message s'affiche pour l'utilisateur. Cet article fournit une vue d'ensemble de la façon dont fonctionnent les limites de crédit et répond aux questions suivantes :
 

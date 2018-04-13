@@ -28,7 +28,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="cost-accounting-home-page"></a>Page d'accueil du contrôle de gestion
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 ## <a name="learning-map"></a>Programme de formation 
 
@@ -37,6 +37,7 @@ Le programme de formation suivant montre les principaux concepts et tâches qui 
 [![Programme de formation du contrôle de gestion](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)
 
 ## <a name="quick-links"></a>Liens rapides
+
 |      |   |
 |------|---|
 |  [Configurer des entités de base (eLearning)](https://mbspartner.microsoft.com/Home) (nécessite un compte CustomerSource)  |[Créer des dimensions](cost-elements.md)  |

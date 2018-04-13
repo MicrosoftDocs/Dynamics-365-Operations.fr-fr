@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="vat-reconciliation-report"></a>État de rapprochement de TVA
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure indique comment générer l'état de rapprochement de la taxe qui est disponible pour les entités juridiques islandaises et norvégiennes. Cette tâche a été créée avec les données de démonstration de la société fictive DEMF, le pays/région de l'adresse principale de l'entité juridique étant actualisé en Norvège.
 

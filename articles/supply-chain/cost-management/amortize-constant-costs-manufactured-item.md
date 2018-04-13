@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="amortize-constant-costs-for-a-manufactured-item"></a>Amortissement des coûts constants pour un article fabriqué
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Les coûts constants d'un article fabriqué reflètent les temps de réglage de l'opération et les composants pour lesquels la quantité est constante ou la quantité de rebut est constante. 
 

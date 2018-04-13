@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="income-statement-financial-report"></a>Rapport financier du relevé des revenus
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article décrit l'état par défaut des comptes de résultats. Il décrit également les blocs de construction associés à cet état. 
 
@@ -60,7 +59,7 @@ Les définitions de colonne contiennent différents types de colonnes afin d'off
     -   **DF** – Données financières pour la période en cours
     -   **DF** – Données financières pour l'année en cours
 
- 
+
 
 <a name="see-also"></a>Voir également :
 --------

@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="set-up-a-ledger-account-alias"></a>Paramétrage d'un alias de compte général
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure montre comment créer un alias de compte qui fournit un raccourci pour entrer un numéro de compte. La société fictive USMF sert d'exemple dans cette procédure.
 

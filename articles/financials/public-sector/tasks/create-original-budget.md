@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-an-original-budget-and-reverse-preliminary-budget-entries-in-the-public-sector"></a>Créer un budget d'origine, puis contrepasser les écritures budgétaires préliminaires dans le secteur public
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Lorsque vous créez une écriture budgétaire d'origine et que vous utilisez le modèle de budget et des valeurs de dimension qui contiennent des montants budgétaires préliminaires, ceux-ci peuvent être contrepassés. Cette procédure a été créée à l'aide des données de la société fictive PSUS dans la partition du secteur public.
 

@@ -27,8 +27,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="new-task-guides-february-2016"></a>Nouveaux guides des tâches (février 2016)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique répertorie les tâches qui ont été publiées dans les bibliothèques Microsoft BPM à compter de février 2016.  Les bibliothèques qui ont été publiées incluent la bibliothèque unifiée APQC (février 2016) pour Microsoft Dynamics AX et Mise en route (février 2016).
 
@@ -50,8 +49,8 @@ La bibliothèque unifiée APQC (février 2016) contient les guides de tâches q
 | Configurer la validation du rapprochement de factures de la comptabilité fournisseur       | Général             |
 | Paramétrer des stratégies de facture fournisseur                            | Général             |
 
- 
 
+ 
 ### <a name="accounts-receivable"></a>Module Comptabilité client
 
 |                                                             |                    |
@@ -71,8 +70,8 @@ La bibliothèque unifiée APQC (février 2016) contient les guides de tâches q
 | Examiner les informations de recouvrement                              | Général             |
 | Paramétrer et générer des informations sur la plage âgée de la comptabilité client   | Général             |
 
- 
 
+ 
 ### <a name="cash-and-bank-management"></a>Gestion de la trésorerie et de la banque
 
 |                                                                      |                    |
@@ -99,8 +98,8 @@ La bibliothèque unifiée APQC (février 2016) contient les guides de tâches q
 | Règlement d'un chèque postdaté provenant d'un client                             | Général             |
 | Présentation des paiements fournisseurs                                              | Général             |
 
- 
 
+ 
 ### <a name="compliance"></a>Conformité
 
 |                                            |                    |
@@ -108,8 +107,8 @@ La bibliothèque unifiée APQC (février 2016) contient les guides de tâches q
 | **Ligne BPM**                               | **Pays/région** |
 | Définir des stratégies d'audit pour les documents sources | Général             |
 
- 
 
+ 
 ### <a name="cost-management"></a>Gestion des coûts
 
 |                                                                     |                    |
@@ -121,8 +120,8 @@ La bibliothèque unifiée APQC (février 2016) contient les guides de tâches q
 | Afficher le statut actuel des travaux en cours d'un ordre de fabrication                       | Général             |
 | Afficher la déclaration de stock et les KPI par objet de coût                     | Général             |
 
- 
 
+ 
 ### <a name="countryregion-functionality"></a>Fonctionnalité spécifique à un pays/une région
 
 |                                                                                                        |                                 |
@@ -263,8 +262,8 @@ La bibliothèque unifiée APQC (février 2016) contient les guides de tâches q
 | GB-00009 Créer un avoir sur la remise sur le règlement anticipé                                               | Royaume-Uni                  |
 | GB-00009 Configurer les paramètres de l'avoir de la remise de paiement dans les délais                                   | Royaume-Uni                  |
 
- 
 
+ 
 ### <a name="develop-vision-and-strategy"></a>Développer la vision et la stratégie
 
 |                                                                                          |                    |
@@ -276,8 +275,8 @@ La bibliothèque unifiée APQC (février 2016) contient les guides de tâches q
 | Rendre une question dépendante de la réponse à la question précédente (Questions conditionnelles) | Général             |
 | Noter un questionnaire en fonction de pourcentages                                                   | Général             |
 
- 
 
+ 
 ### <a name="electronic-reporting"></a>États électroniques
 
 |                                                 |                    |
@@ -289,8 +288,8 @@ La bibliothèque unifiée APQC (février 2016) contient les guides de tâches q
 | ER Mapper le modèle de données aux sources de données sélectionnées      | Général             |
 | ER Sélectionner un fournisseur de services                      | Général             |
 
- 
 
+ 
 ### <a name="expense-management"></a>Gestion des dépenses
 
 |                              |                    |
@@ -298,8 +297,8 @@ La bibliothèque unifiée APQC (février 2016) contient les guides de tâches q
 | **Ligne BPM**                 | **Pays/région** |
 | Configurer la gestion des dépenses | Général             |
 
- 
 
+ 
 ### <a name="fixed-assets"></a>Immobilisations
 
 |                                                           |                    |
@@ -321,8 +320,8 @@ La bibliothèque unifiée APQC (février 2016) contient les guides de tâches q
 | Fractionner une immobilisation                                       | Général             |
 | Transférer une immobilisation                                    | Général             |
 
- 
 
+ 
 ### <a name="general-ledger"></a>Comptabilité
 
 |                                                                   |                    |
@@ -354,8 +353,8 @@ La bibliothèque unifiée APQC (février 2016) contient les guides de tâches q
 | Afficher les entrées ou les transactions de journal                              | Général             |
 | Afficher le N° document intersociétés associé à partir du journal                    | Général             |
 
- 
 
+ 
 ### <a name="human-capital-management"></a>Gestion du capital humain
 
 |                                                                  |                    |
@@ -398,8 +397,8 @@ La bibliothèque unifiée APQC (février 2016) contient les guides de tâches q
 | Paramétrage des stratégies de droit aux avantages                             | Général             |
 | Configurer les types de documents I-9                                     | Général             |
 
- 
 
+ 
 ### <a name="inventory-management"></a>Gestion des stocks
 
 |                                                                                   |                    |
@@ -422,8 +421,8 @@ La bibliothèque unifiée APQC (février 2016) contient les guides de tâches q
 | Suivi d'un article ou d'une matière première                                                     | Général             |
 | Transférer du stock physique au sein de l'entrepôt                                  | Général             |
 
- 
 
+ 
 ### <a name="manufacturing"></a>Fabrication
 
 |                                                               |                    |
@@ -474,8 +473,8 @@ La bibliothèque unifiée APQC (février 2016) contient les guides de tâches q
 | Transférer des matières avec des tâches de kanban                            | Général             |
 | Valider le flux et la version de la production                          | Général             |
 
- 
 
+ 
 ### <a name="master-planning"></a>Planification
 
 |                                                   |                    |
@@ -487,8 +486,8 @@ La bibliothèque unifiée APQC (février 2016) contient les guides de tâches q
 | Identifier les matières critiques et la capacité des fournisseurs | Général             |
 | Modifier une prévision de la demande manuellement                 | Général             |
 
- 
 
+ 
 ### <a name="organization-administration"></a>Administration d'organisation
 
 |                                           |                    |
@@ -501,8 +500,8 @@ La bibliothèque unifiée APQC (février 2016) contient les guides de tâches q
 | Paramétrage de signatures électroniques              | Général             |
 | Configurer les souches de numéros à l'aide d'un assistant | Général             |
 
- 
 
+ 
 ### <a name="planning"></a>Planification
 
 |                        |                    |
@@ -510,8 +509,8 @@ La bibliothèque unifiée APQC (février 2016) contient les guides de tâches q
 | **Ligne BPM**           | **Pays/région** |
 | Déterminer la disponibilité | Général             |
 
- 
 
+ 
 ### <a name="procurement-and-sourcing"></a>Approvisionnements
 
 |                                                                  |                    |
@@ -525,8 +524,8 @@ La bibliothèque unifiée APQC (février 2016) contient les guides de tâches q
 | Rechercher des fournisseurs                                               | Général             |
 | Paramétrage d'une hiérarchie des catégories d'approvisionnement                          | Général             |
 
- 
 
+ 
 ### <a name="product-information-and-configuration"></a>Informations produit et configuration
 
 |                                                       |                    |
@@ -551,8 +550,8 @@ La bibliothèque unifiée APQC (février 2016) contient les guides de tâches q
 | Lancer un produit générique \de dimension financière\fondé sur les dimensions              | Général             |
 | Transférer des données pour des modèles de produit                      | Général             |
 
- 
 
+ 
 ### <a name="public-sector"></a>Secteur public
 
 |                                                                                         |                    |
@@ -577,8 +576,8 @@ La bibliothèque unifiée APQC (février 2016) contient les guides de tâches q
 | Configurer un fonds pour le secteur public                                                         | Général             |
 | Configurer les classifications de contrat d'achat pour le secteur public                             | Général             |
 
- 
 
+ 
 ### <a name="retail-and-commerce"></a>Commerce et vente au détail
 
 |                                                                                           |                    |
@@ -619,8 +618,8 @@ La bibliothèque unifiée APQC (février 2016) contient les guides de tâches q
 | Ajustement des prix de la vente au détail                                                                  | Général             |
 | Enregistrer les configurations pour les relevés de vente au détail                                                | Général             |
 
- 
 
+ 
 ### <a name="sales"></a>Ventes
 
 |                                            |                    |
@@ -642,8 +641,8 @@ La bibliothèque unifiée APQC (février 2016) contient les guides de tâches q
 | Expédier des commandes en tant que livraisons directes           | Général             |
 | Expédier des commandes client sans entreposage      | Général             |
 
- 
 
+ 
 ### <a name="sales-tax"></a>Taxe
 
 |                                                    |                    |
@@ -661,8 +660,8 @@ La bibliothèque unifiée APQC (février 2016) contient les guides de tâches q
 | Paramétrer la retenue à la source                             | Général             |
 | Afficher les transactions de taxe validées                 | Général             |
 
- 
 
+ 
 ### <a name="security"></a>Sécurité
 
 |                                                         |                    |
@@ -672,8 +671,8 @@ La bibliothèque unifiée APQC (février 2016) contient les guides de tâches q
 | Identifier et résoudre les conflits de répartition des tâches | Général             |
 | Configurer les règles de répartition des tâches                            | Général             |
 
- 
 
+ 
 ### <a name="warehouse-and-transportation"></a>Entrepôt et transport
 
 |                                                                                   |                    |
@@ -697,9 +696,10 @@ La bibliothèque unifiée APQC (février 2016) contient les guides de tâches q
 | Paramétrage des transporteurs                                                          | Général             |
 | Utiliser la console de planification des chargements pour planifier les charges et les expéditions                       | Général             |
 
- 
 
+ 
 ## <a name="task-guides-in-the-february-2016-getting-started-library"></a>Guides de tâches dans la Bibliothèque de mise en route (février 2016)
+
 |                                                    |                    |
 |----------------------------------------------------|--------------------|
 | **Ligne BPM**                                       | **Pays/région** |

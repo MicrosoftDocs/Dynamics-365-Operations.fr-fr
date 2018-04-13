@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-purchase-return-order"></a>Créer une commande fournisseur de retour
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure vous montre comment créer une commande fournisseur retournée à l'aide de l'action Avoir pour copier des lignes d'un document de facturation fournisseur à une nouvelle CF. Elle montre également comment confirmer la commande et traiter l'expédition des marchandises au fournisseur. L'exemple indiqué dans cette procédure peut être utilisé dans les données fictives de la société USMF. Cette tâche est généralement effectuée par un agent des achats.
 

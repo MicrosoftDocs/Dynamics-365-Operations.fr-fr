@@ -28,8 +28,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="fixed-asset-disposal-posting-accounts"></a>Comptes de validation de cession d'immobilisations
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique explique comment paramétrer les comptes de validation de la comptabilité afin de céder des immobilisations.
 

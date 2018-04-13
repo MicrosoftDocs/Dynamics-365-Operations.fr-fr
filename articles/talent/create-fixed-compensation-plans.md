@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="create-fixed-compensation-plans"></a>Créer des régimes de rémunération fixe
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 La rémunération fixe fait référence au salaire brut normal des employés. Cette rubrique décrit les composants qui doivent être définis avant de créer un régime de rémunération fixe et y inscrire des employés.
 

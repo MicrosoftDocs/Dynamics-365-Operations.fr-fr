@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="activity-based-subcontracting"></a>Sous-traitance basée sur des activités
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique décrit, en détail, comment utiliser les activités sous-traitées dans un flux de production pour le lean manufacturing.
 

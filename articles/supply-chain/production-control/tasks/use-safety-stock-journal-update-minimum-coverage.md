@@ -23,21 +23,21 @@ ms.contentlocale: fr-fr
 ms.lasthandoff: 11/06/2017
 
 ---
-# Utiliser le journal du stock de sécurité pour mettre à jour la couverture minimale
+# <a name="use-the-safety-stock-journal-to-update-minimum-coverage"></a>Utiliser le journal du stock de sécurité pour mettre à jour la couverture minimale
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure montre comment calculer des propositions de couverture minimale basées sur des transactions historiques et comment mettre à jour la couverture d'article avec ces propositions. Cette opération est effectuée à l'aide du journal du stock de sécurité. Les données fictives utilisées pour créer cette tâche correspondent à la société USMF. Cette tâche est destinée au responsable de production, pour aider à maintenir la couverture minimale.
 
 
-## Créer un nouveau nom de journal de stock
+## <a name="create-a-new-safety-stock-journal-name"></a>Créer un nouveau nom de journal de stock
 1. Allez dans Noms du journal du stock de sécurité.
 2. Cliquez sur Nouveau.
 3. Tapez Matériel dans le champ Nom.
 4. Tapez Matériel dans le champ Description.
 5. Fermez la page.
 
-## Créer un journal du stock de sécurité
+## <a name="create-a-safety-stock-journal"></a>Créer un journal du stock de sécurité
 1. Allez dans Calcul du stock de sécurité.
 2. Cliquez sur Nouveau.
 3. Saisissez ou sélectionnez une valeur dans le champ Nom.
@@ -50,7 +50,7 @@ Cette procédure montre comment calculer des propositions de couverture minimale
 7. Cliquez sur OK.
     * Ceci créera des lignes pour les dimensions qui ont des mouvements de stock.  
 
-## Calculer la proposition
+## <a name="calculate-proposal"></a>Calculer la proposition
 1. Cliquez sur Calculer la proposition.
 2. Sélectionnez l'option Utiliser la sortie moyenne pendant le délai.
 3. Définissez le facteur de multiplication sur 10.
@@ -58,7 +58,7 @@ Cette procédure montre comment calculer des propositions de couverture minimale
 4. Cliquez sur OK.
     * Faites défiler vers le bas jusqu'à M0002 et M0003. Affichez la colonne Quantité minimale calculée.   
 
-## Mettre à jour la quantité minimale
+## <a name="update-minimum-quantity"></a>Mettre à jour la quantité minimale
 1. Entrez un nombre dans le champ Nouvelle quantité minimale.
     * Mettre à jour la nouvelle quantité minimale pour correspondre à la valeur de la quantité minimale calculée. Si le minimum calculé est zéro, vous pouvez entrer la valeur future désirée. Par exemple, vous pouvez entrer la quantité minimale calculée dans ce champ pour M0002 qui a l'entrepôt 12.  
 2. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
@@ -66,7 +66,7 @@ Cette procédure montre comment calculer des propositions de couverture minimale
 3. Entrez un nombre dans le champ Nouvelle quantité minimale.
     * Mettre à jour la nouvelle quantité minimale pour correspondre à la valeur de la quantité minimale calculée. Si le minimum calculé est zéro, vous pouvez entrer la valeur future désirée.  
 
-## Valider la nouvelle quantité minimale et contrôler le résultat
+## <a name="post-the-new-minimum-quantity-and-validate-the-result"></a>Valider la nouvelle quantité minimale et contrôler le résultat
 1. Cliquez sur Valider.
 2. Cliquez sur OK.
 3. Cliquez pour suivre le lien dans le champ Numéro d'article.

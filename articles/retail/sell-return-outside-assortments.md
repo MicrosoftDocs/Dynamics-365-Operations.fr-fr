@@ -28,7 +28,7 @@ ms.lasthandoff: 03/07/2018
 
 # <a name="sell-and-return-products-outside-of-an-assortment"></a>Vente et retour de produits en dehors d'un assortiment
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Un scénario courant pour un détaillant est de vendre des produits à ses clients ou d'accepter des retours de ses clients même s'il ne propose pas les produits spécifiques dans son magasin (autrement dit, les produits ne sont pas assortis au magasin).
 Voici quelques scénarios classiques :

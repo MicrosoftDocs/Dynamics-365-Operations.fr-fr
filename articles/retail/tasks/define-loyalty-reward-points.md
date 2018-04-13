@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-loyalty-reward-points"></a> Définir les points de récompense de fidélité
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Cette procédure décrit la définition des points de récompense de fidélité. Vous devez paramétrer les points de récompense de fidélité avant de paramétrer un programme de fidélité. La société fictive USRT sert d'exemple dans cette procédure.
 

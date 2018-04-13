@@ -27,8 +27,7 @@ ms.lasthandoff: 02/23/2018
 
 # <a name="configure-electronic-reporting-to-pull-data-into-power-bi"></a>Configurer la Gestion des états électroniques pour extraire les données dans Power BI
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique explique comment vous pouvez utiliser la configuration de génération d'états électroniques (ER) pour organiser le transfert des données entre votre instance de Finance and Operations vers les services Power BI. En guise d'exemple, cette rubrique utilise les transactions de déclaration d'échanges de biens comme données commerciales qui doivent être transférées. La visualisation de carte Power BI utilise ces données de transaction de déclaration d'échanges de biens pour présenter une vue permettant l'analyse des activités d'importation/d'exportation de la société sur l'état Power BI.
 
@@ -118,9 +117,9 @@ Cliquez sur le bouton **Paramètres** pour le nouvel enregistrement de destinati
 ## <a name="create-a-power-bi-report-by-using-the-new-dataset"></a>Créer un état Power BI à l'aide du nouvel ensemble de données
 1. Cliquez sur l'ensemble de données Power BI **Détails d'importation et d'exportation** que vous avez créé. 
 2. Configurez la visualisation. Par exemple, sélectionnez la visualisation **Carte remplie**, et configurez-la comme suit :
- -   Affectez le champ d'ensemble de données **CountryOrigin** au champ **Emplacement** de la visualisation de carte.
- -   Affectez le champ d'ensemble de données **Montant** au champ **Saturation des couleurs** de la visualisation de carte.
- -   Ajoutez les champs d'ensembles de données **Activité** et **Année** à la collection de champs **Filtres** de la visualisation de carte.
+   -   Affectez le champ d'ensemble de données **CountryOrigin** au champ **Emplacement** de la visualisation de carte.
+   -   Affectez le champ d'ensemble de données **Montant** au champ **Saturation des couleurs** de la visualisation de carte.
+   -   Ajoutez les champs d'ensembles de données **Activité** et **Année** à la collection de champs **Filtres** de la visualisation de carte.
 
 3. Enregistrez l'état Power BI comme **État de détails d'importation et d'exportation**. [![État des détails d'importation et d'exportation](./media/ger-power-bi-added-report-1024x498.png)](./media/ger-power-bi-added-report.png) Notez que la carte affiche les pays/régions qui sont mentionnés dans le fichier Excel (Autriche et Suisse dans cet exemple). Ces pays/régions sont colorés pour afficher la proportion de montants facturés pour chacun. 
 4. Mettez à jour la liste des transactions de déclaration d'échanges de biens. La transaction d'exportation qui provient d'Italie est ajoutée. [![Liste des transactions de déclaration d'échanges de biens](./media/ger-power-bi-new-run-new-transaction-1024x321.png)](./media/ger-power-bi-new-run-new-transaction.png) 

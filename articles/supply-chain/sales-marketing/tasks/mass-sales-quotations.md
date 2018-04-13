@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="mass-create-sales-quotations"></a>Création en masse de devis de vente
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure illustre comment créer efficacement des devis offrant un ensemble de produits ou de services à envoyer à plusieurs clients. Cette création de devis en masse est basée sur des modèles de devis. Vous pouvez exécuter cette procédure avec vos propres données ou avec la société fictive de démonstration USMF.
 

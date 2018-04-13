@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="optimization-advisor-overview"></a>Vue d'ensemble du conseiller en optimisation
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique décrit comment utiliser le conseiller en optimisation pour garantir une configuration optimale de Microsoft Dynamics 365 Finance and Operations.
 

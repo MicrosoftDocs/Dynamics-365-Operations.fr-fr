@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="set-up-warehouse-work-policies"></a>Paramétrer les stratégies de travail d'entrepôt 
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Les processus d'entrepôt n'incluent pas systématiquement les tâches d'entrepôt. En définissant une stratégie de travail, vous pouvez empêcher la création de tâche pour le prélèvement de matières premières et le rangement de produits finis pour un ensemble de produits à des emplacements spécifiques. Les données fictives de la société USMF ont été utilisées pour créer cet enregistrement. L'application Dynamics AX 7.0.1 ou ultérieure est requise pour ce guide de tâche.
 

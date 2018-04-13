@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="report-designer-interface"></a>Interface du Concepteur de rapports
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article explique comment naviguer dans le générateur d'états et comment utiliser les différentes options pour répondre à vos besoins spécifiques. 
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="fixed-asset-transaction-options"></a>Options des transactions d'immobilisation
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article décrit les différentes méthodes disponibles pour créer des transactions d'immobilisation.
 

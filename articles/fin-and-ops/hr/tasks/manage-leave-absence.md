@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="manage-leave-of-absence"></a>Gérer les congés
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure décrit la création des enregistrements des congés des employés. Parmi les motifs de congés on trouve notamment les raisons médicales, éducatives ou parentales. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 

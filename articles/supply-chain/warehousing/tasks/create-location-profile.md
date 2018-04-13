@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-location-profile"></a>Créer un profil d'emplacement
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Chaque emplacement de l'entrepôt doit avoir un profil d'emplacement associé qui décrit les propriétés de l'emplacement, par exemple, si l'emplacement autorise les articles mixtes. Dans cette procédure, nous créerons un profil pour un emplacement qui ne nécessite pas de contrôle de contenant. Nous autoriserons les articles mixtes et les statuts de stock mixtes, ainsi que l'inventaire tournant. Vous pouvez utiliser cette procédure dans les données fictives de la société USMF.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="import-iso20022-direct-debit-configuration"></a>Importer la configuration du débit direct ISO20022
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure montre comment importer une configuration de génération d'états électroniques pour un paiement client. Cette procédure utilise le format de débit direct ISO 20022 comme exemple. 
 

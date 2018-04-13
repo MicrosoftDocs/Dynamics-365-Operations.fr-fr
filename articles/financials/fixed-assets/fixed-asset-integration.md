@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="fixed-assets-integration"></a>Intégration des immobilisations
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Le module Immobilisations peut être intégré avec les modules Comptabilité, Gestion des stocks, Ventes et Achats. Vous pouvez également paramétrer le module Immobilisations en vue de son intégration avec les commandes fournisseur.
 

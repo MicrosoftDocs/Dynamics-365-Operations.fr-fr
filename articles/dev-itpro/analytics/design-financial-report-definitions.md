@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="report-definitions-in-financial-report-designer"></a>Définitions d'états dans le générateur d'états financiers
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article fournit des informations sur les définitions d'état. Une définition d'état est un composant d'état (ou bloc élémentaire) qui utilise une définition de ligne, de colonne et d'organigramme d'entreprise facultatif pour créer un état. Une définition d'état fournit également les paramètres et les options pour la personnalisation d’un état. 
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="prerequisites-for-a-standard-cost-conversion"></a>Conditions préalables à la conversion de coût standard
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique décrit les tâches à effectuer avant d'exécuter une conversion de coût standard. 
 

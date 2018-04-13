@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="set-up-an-item-arrival-overview-profile"></a>Paramétrer un profil de vue d'ensemble des arrivées
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette tâche se concentre sur le paramétrage d'un profil de vue d'ensemble des arrivées. Le profil de vue d'ensemble des arrivées est une collection de règles qui sont appliquées lorsque la page de vue d'ensemble des arrivées est ouverte par un utilisateur. Vous pouvez utiliser cette procédure dans les données fictives de la société USMF. Cette procédure est généralement effectuée par la personne qui s'occuper de la réception.
 

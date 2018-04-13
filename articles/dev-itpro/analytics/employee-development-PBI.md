@@ -25,7 +25,7 @@ ms.lasthandoff: 12/19/2017
 
 # <a name="employee-development-power-bi-content"></a>Contenu Power BI Perfectionnement de l'employé
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique décrit le contenu Microsoft Power BI **Perfectionnement de l'employé**.
 
@@ -45,6 +45,7 @@ Les états inclus dans le contenu Power BI **Perfectionnement de l'employé** co
 Vous pouvez filtrer les graphiques et les vignettes affichés sur ces états et les épingler au tableau de bord. Pour savoir comment filtrer et épingler dans Power BI, voir [Créer et configurer un tableau de bord](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Compréhension du modèle de données et des entités
+
 | Entité                   | Sommaire                                                                                                   | Relations avec d'autres entités |
 |--------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------|
 | Décalage de calendrier          | Décalages de calendrier pour diviser les états                                                                          | Affectation antérieure de postes, Tendance du poste, Tendance de l'employé, Employé dont le contrat est terminé 

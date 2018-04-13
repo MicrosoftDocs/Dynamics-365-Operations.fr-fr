@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-and-transfer-transactions-to-the-blwi-belgium"></a>Création et transfert de transactions vers l'état BLWI (Belgique)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure vous guide dans la création d'un état BLWI pour la Belgique. Cette procédure a été créée à l'aide des données fictives de la société USSI. Cette fonctionnalité est disponible pour les entités juridiques dont l'adresse principale est en Belgique. Il est également nécessaire de paramétrer l'ID enregistrement pour la Belgique et de remplir le numéro d'enregistrement pour pouvoir créer la déclaration BLWI.
 

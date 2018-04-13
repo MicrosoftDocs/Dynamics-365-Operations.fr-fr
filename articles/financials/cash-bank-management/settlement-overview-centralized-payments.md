@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="settlement-overview-for-centralized-payments"></a>Vue d'ensemble des règlements des paiements centralisés
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Les organisations qui comprennent plusieurs entités juridiques peuvent créer et gérer des paiements à l'aide d'une entité juridique qui assure la gestion de tous les paiements. Cela élimine le besoin d'entrer la même transaction dans plusieurs entités juridiques et permet de gagner du temps en rationalisant le processus de proposition de paiement, le processus de règlement, la modification des transactions en cours et la modification des transactions clôturées pour les paiements centralisés. 
 

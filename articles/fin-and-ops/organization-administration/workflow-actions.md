@@ -27,8 +27,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="workflow-actions"></a>Actions de workflow
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article décrit les mesures que peut prendre chaque participant au processus d'approbation de workflow.
 

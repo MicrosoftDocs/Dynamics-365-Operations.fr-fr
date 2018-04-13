@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="configure-the-global-address-book"></a>Configurer le carnet d'adresses global
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure permet de définir les valeurs par défaut et les stratégies de sécurité du carnet d'adresses global. 
 

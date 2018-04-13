@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="set-up-positions"></a>Paramétrer les postes
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Les postes sont un élément important de niveau inférieur d'une hiérarchie d'organisation. Un poste est une instance individuelle d'une tâche. Par exemple, le poste « Responsable des ventes (est) » est l'un des postes associé à la tâche « Responsable des ventes ». Un poste existe dans un département et il ne peut y être associé qu'un seul employé. Dans cette tâche, vous allez parcourir les étapes requises pour créer un poste. Cette procédure est destinée aux spécialistes en ressources humaines.
 

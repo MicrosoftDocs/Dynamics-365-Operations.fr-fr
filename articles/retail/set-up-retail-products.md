@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="set-up-retail-products"></a>Paramétrer les produits vendus au détail
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Cet article décrit comment paramétrer les produits de vente au détail dans Microsoft Dynamics 365 for Retail.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="view-posted-sales-tax-transactions"></a>Afficher les transactions de taxe validées
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Vous pouvez afficher des transactions de taxe validées à partir de différentes pages en fonction de ce que vous devez afficher. La société fictive USMF est citée en exemple dans cette tâche.
 

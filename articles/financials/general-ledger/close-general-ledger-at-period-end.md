@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="close-the-general-ledger-at-period-end"></a>Clôture de la comptabilité en fin de période
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique décrit les tâches qui sont généralement effectuées lors de l'exécution d'une clôture de période pour la comptabilité. 
 

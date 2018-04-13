@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="set-up-an-appointment-for-a-load"></a>Paramétrer un rendez-vous pour une charge
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure indique comment configurer et planifier un rendez-vous de quai pour une charge. Cette opération est généralement réalisée par un coordinateur transport. Vous pouvez utiliser cette procédure dans les données fictives de la société USMF.
 

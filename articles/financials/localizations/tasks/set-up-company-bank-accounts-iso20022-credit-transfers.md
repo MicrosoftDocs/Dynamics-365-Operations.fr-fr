@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="set-up-company-bank-accounts-for-iso20022-credit-transfers"></a>Paramétrer les comptes bancaires de société pour les virements ISO20022
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure indique comment paramétrer les informations de compte bancaire spécifiques à une société qui sont requises pour la génération du fichier de paiement. Vous paramétrez les informations requises pour générer le format du virement ISO 20022, mais selon le format, d'autres informations peuvent être requises, comme l'ID société ou la priorité. 
 

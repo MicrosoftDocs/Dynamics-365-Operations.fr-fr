@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Contrôler le travail d'entrepôt à l'aide de modèles de travail et d'instructions d'emplacement
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article décrit comment utiliser les modèles de travail et les instructions d'emplacement pour déterminer comment et à quel endroit effectuer les travaux dans l'entrepôt.
 

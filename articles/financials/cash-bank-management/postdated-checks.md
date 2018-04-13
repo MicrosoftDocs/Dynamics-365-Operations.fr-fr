@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="postdated-checks"></a>Chèques postdatés
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article fournit des informations sur la prise en charge des chèques postdatés dans Microsoft Dynamics 365 for Finance and Operations. Les chèques postdatés sont des chèques émis à des fins d'émission ou de réception de paiements à une date future. Par conséquent, le chèque ne peut pas être encaissé avant la date spécifiée.
 
@@ -76,14 +75,14 @@ Si votre chèque d'origine à un fournisseur ou émis par un client est perdu ou
 <td>Vous pouvez annuler un chèque postdaté validé dans les situations suivantes : - Le chèque est retourné par la banque.
 - Le chèque est appliqué à une facture incorrecte.
 - Le montant du chèque est réglé par un paiement en espèces.
-</td>
-</tr>
-<tr class="even">
-<td>Arrêt du paiement d'un chèque postdaté</td>
-<td>Vous pouvez arrêter le paiement sur un chèque postdaté émis auprès d'un fournisseur pour diverses raisons (fonds insuffisants, modifications des conditions de l'accord avec le fournisseur, livraison de marchandises défectueuses par le fournisseur, retour de marchandises au fournisseur, etc.). Seul le paiement des chèques non compensés peut être arrêté.</td>
-</tr>
-</tbody>
-</table>
+  </td>
+  </tr>
+  <tr class="even">
+  <td>Arrêt du paiement d'un chèque postdaté</td>
+  <td>Vous pouvez arrêter le paiement sur un chèque postdaté émis auprès d'un fournisseur pour diverses raisons (fonds insuffisants, modifications des conditions de l'accord avec le fournisseur, livraison de marchandises défectueuses par le fournisseur, retour de marchandises au fournisseur, etc.). Seul le paiement des chèques non compensés peut être arrêté.</td>
+  </tr>
+  </tbody>
+  </table>
 
 
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-credit-note-on-project-invoices"></a>Créer un avoir sur des factures de projet
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 1. Accédez à Gestion et comptabilité des projets > Projets > Tous les projets. 
 2. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité. 

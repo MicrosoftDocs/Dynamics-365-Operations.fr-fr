@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="perform-self-service-to-download-hardware-station"></a> Assurer le libre service pour télécharger une station matérielle
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Cette procédure décrit comment télécharger une station matérielle prédéfinie. La société fictive utilisée pour cette procédure est USRT. Vous devez avoir créé un profil de station matérielle et une station matérielle avant de commencer cette tâche.
 

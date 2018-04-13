@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="register-and-post-a-postdated-check-for-a-vendor"></a>Enregistrement et validation d'un chèque postdaté pour un fournisseur
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Vous pouvez enregistrer les détails d'un chèque postdaté avant sa remise à un fournisseur, par l'intermédiaire du n° document de journal. Vous pouvez également valider le chèque postdaté et générer des transactions financières. Avant d'enregistrer et de valider un chèque postdaté reçu d'un client, effectuez la tâche suivante : 
 

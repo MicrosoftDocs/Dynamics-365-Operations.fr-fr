@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="fixed-asset-acquisition-posting-accounts"></a>Comptes de validation d'acquisition d'immobilisations
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article explique comment paramétrer les comtes de validation de la comptabilité afin d'acquérir des immobilisations.
 

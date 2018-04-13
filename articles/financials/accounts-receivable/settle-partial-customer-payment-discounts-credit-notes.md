@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Régler un paiement partiel client ayant des remises sur les avoirs
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article vous fait parcourir les étapes d'un scénario où un escompte de règlement est prélevé sur un avoir lorsque la facture d'origine a également bénéficié d'un escompte de règlement. 
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-bank-facility-agreement-for-a-letter-of-credit"></a>Créer un accord d'établissement bancaire pour une lettre de crédit
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette tâche illustre la création d'un accord d'établissement bancaire pour traiter une lettre de crédit. Vous devrez paramétrer des établissements bancaires et des profils de validation avant cette tâche.  Cette tâche utilise la société fictive USMF.  
 

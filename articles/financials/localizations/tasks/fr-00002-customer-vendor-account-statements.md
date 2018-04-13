@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="customer-and-vendor-account-statements-france"></a>Relevés de compte client et fournisseur (France)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Vous pouvez imprimer des relevés de compte pour les clients et les fournisseurs, affichant des informations pour une période sélectionnée.
 

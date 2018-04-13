@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="configure-screen-layouts-for-pos"></a>Configurer les mises en page d'écran pour le PDV
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Cette rubrique fournit des informations sur les mises en page de l'écran pour le point de vente (PDV) Microsoft Dynamics 365 for Retail utilisées.
 

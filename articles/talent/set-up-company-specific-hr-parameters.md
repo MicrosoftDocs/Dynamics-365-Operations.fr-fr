@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="set-up-company-specific-hr-parameters"></a>Définition des paramètres de RH spécifiques à la société
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Les réglages de certains paramètres des Ressources humaines (RH) sont partagés entre des sociétés, alors que les réglages d'autres paramètres sont spécifiques à la société. Cet article décrit comment définir les paramètres RH spécifiques à la société.
 

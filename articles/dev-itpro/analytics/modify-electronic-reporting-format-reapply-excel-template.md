@@ -27,7 +27,7 @@ ms.lasthandoff: 02/27/2018
 ---
 # <a name="modify-an-electronic-reporting-format-by-reapplying-a-microsoft-excel-template"></a>Modifier un format de gestion d'états électroniques en réappliquant un modèle Microsoft Excel
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 L'outil d'états électroniques (ER) est utilisé pour générer les documents commerciaux dans un format électronique. Pour générer un document commercial, vous devez créer un format d'ER, puis utilisez le concepteur d'ER pour définir la mise en page du document commercial et spécifier les données à y inclure. Vous pouvez ensuite exécuter le format d'ER pour générer le document commercial.
 

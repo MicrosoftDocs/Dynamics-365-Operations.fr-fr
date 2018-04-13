@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="assess-sales-performance-by-product"></a>Évaluer les performances des ventes par produit
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Vous pouvez étudier la rentabilité pour les 10 premiers produits à l'aide de Microsoft Dynamics 365 for Retail. 
 

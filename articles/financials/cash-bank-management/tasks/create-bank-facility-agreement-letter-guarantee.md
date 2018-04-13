@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-bank-facility-agreement-for-the-letter-of-guarantee"></a>Créer un accord d'établissement bancaire pour la lettre de garantie
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette tâche crée un accord d'établissement bancaire pour traiter une lettre de garantie. La société fictive USMF est citée en exemple dans cette tâche. 
 

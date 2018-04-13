@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="price-simulation"></a>Simulation de prix
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article fournit des informations sur la simulation de prix pour les devis. La simulation de prix vous permet d'évaluer l'effet des déductions sur le futur prix de vente au cours du processus de devis, avant de s'engager à un prix spécifique.
 

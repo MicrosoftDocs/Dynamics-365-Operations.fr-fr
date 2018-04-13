@@ -27,8 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="reconciliation-reports-for-belgium"></a>États de rapprochement pour la Belgique
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique décrit les états standard que Microsoft Dynamics 365 for Finance and Operations fournit pour l'analyse de la déclaration de taxe INTERVAT et de rapprochement.
 

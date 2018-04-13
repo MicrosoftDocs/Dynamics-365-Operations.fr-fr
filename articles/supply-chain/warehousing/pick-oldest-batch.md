@@ -27,7 +27,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="pick-oldest-batch-on-a-mobile-device"></a>Prélever le lot le plus ancien sur un appareil mobile
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Vous pouvez accéder à la configuration **Prélever le traitement par lots le plus ancien** via le menu d'un appareil mobile qui vous permet de forcer ou d'avertir des collaborateurs de l'entrepôt pour qu'ils prélèvent le lot le plus ancien de son emplacement actuel.  
 

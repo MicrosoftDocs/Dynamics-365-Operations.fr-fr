@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budgeting-home-page"></a>Page d'accueil de la fonctionnalité de budgétisation
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique fournit une vue d'ensemble des composants de la fonctionnalité de budget, des outils de budgétisation et des fonctionnalités de génération d'états dans Finance and Operations. 
 

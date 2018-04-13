@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="derived-financial-hierarchies-in-the-public-sector"></a>Hiérarchies financières dérivées dans le secteur public
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article décrit la fonctionnalité des hiérarchies financières dérivées disponible pour le secteur public. 
 
@@ -47,7 +46,7 @@ Une organisation a un programme de bien-être des employés et un programme de f
 -   **Paramétrer des règles de filtre :** Utilisez la page **Hiérarchies financières dérivées** pour créer des règles de filtre pour les valeurs des comptes principaux et des dimensions financières associées aux nœuds « Bien-être des employés » et « Formation des employés » dans la hiérarchie financière dérivée « Programmes pour les employés ». **Conseil :** pour entrer plusieurs valeurs de dimension dans un filtre, utilisez une virgule sans espaces comme séparateur. Par exemple, entrez 100,110 ou Avantages,Assurance.
 -   **Analyser des données de transaction validée :** Dans les résultats de filtre, affichez les numéros de compte et leurs détails de compte et de dimension financière.
 
- 
+
 
 
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="approve-and-post-draw-bill-of-exchange-france"></a>Approuver et valider la création des lettres de change client (France)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure vous guide dans l'approbation et la validation des lettres de change.
 

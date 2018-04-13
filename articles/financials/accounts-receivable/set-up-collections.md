@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="set-up-credit-and-collections"></a>Paramétrage du crédit et des recouvrements
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article décrit la procédure de paramétrage de la fonctionnalité de recouvrement.
 
@@ -97,9 +96,9 @@ Si aucun commercial n'est spécifié, le commercial principal de l'organisation 
 Pour plus d'informations, voir les rubriques suivantes :
 
  - [Créer une série de lettres de relance](tasks/create-collection-letter-sequence.md)
- 
+
  - [Traiter les lettres de relance](tasks/process-collection-letters.md)
- 
+
  - [Réviser les informations de recouvrement](tasks/review-collections-information.md)
 
 

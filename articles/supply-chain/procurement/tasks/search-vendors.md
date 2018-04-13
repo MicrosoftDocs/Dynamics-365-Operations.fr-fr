@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="search-for-vendors"></a>Rechercher des fournisseurs
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Découvrez comment rechercher des fournisseurs en fonction de critères spécifiques. Cet exemple décrit la manière dont vous recherchez des fournisseurs agréés pour une catégorie d'approvisionnement spécifique et qui ont une adresse principale dans un pays spécifique. Vous pouvez exécuter cette procédure dans la société fictive de démonstration USMF ou utiliser vos propres données. Cette tâche est généralement effectuée par un professionnel de l'approvisionnement.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>Membres de la dimension statistique et modèles de fournisseur de mesures statistiques
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Une dimension statistique et ses membres permettent d'enregistrer et de contrôler les entrées non monétaires dans le module Contrôle de gestion. Les membres de la dimension statistique peuvent être utilisés à deux fins :
 

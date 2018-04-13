@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-product-packages-for-purchase-orders"></a>Créer des modules de produit pour les commandes fournisseur
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Cette procédure vous guide lors de la création d'un ensemble de produits et de son utilisation sur une commande fournisseur. La commande fournisseur sera utilisée pour créer une commande pour un ensemble prédéfini de produits. La société fictive USRT sert d'exemple dans cette procédure.
 

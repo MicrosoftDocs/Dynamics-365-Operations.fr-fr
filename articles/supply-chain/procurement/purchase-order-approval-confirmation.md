@@ -28,9 +28,9 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="approve-and-confirm-purchase-orders"></a>Approuver et confirmer des commandes fournisseur
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Cet article décrit les statuts par lesquels passe une commande fournisseur (CF) après qu'elle a été créée et les conséquences de l’activation de la gestion des modifications sur les CF.
 

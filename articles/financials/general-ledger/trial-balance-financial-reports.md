@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="trial-balance-financial-reports"></a>États financiers de balance comptable
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article décrit les états par défaut des balances comptables. Il décrit également les blocs élémentaires associés à ces états et comment il est possible de modifier ces états pour les adapter à vos exigences métier. 
 
@@ -99,7 +98,7 @@ Chaque état de balance comptable utilise une définition de colonne différente
     -   **FD** : Données financières qui contiennent uniquement des débits pour l'année dernière
     -   **FD** : Données financières qui contiennent uniquement des crédits pour l'année dernière
 
- 
+
 
 <a name="see-also"></a>Voir également :
 --------

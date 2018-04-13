@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="pos-hardware-peripherals"></a>Périphériques matériels de PDV
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Retail Modern point of sale (PDV) et PDV Cloud peuvent utiliser un large éventail des périphériques matériels de PDV, avec des interfaces et des options de déploiement multiples pour exécuter différents scénarios métier d'un détaillant. 
 

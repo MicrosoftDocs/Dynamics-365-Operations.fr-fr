@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="accounting-distributions-and-subledger-journal-entries-for-vendor-invoices"></a>Répartitions comptables et écritures de journal de comptabilité auxiliaire pour les factures fournisseur
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Les répartitions comptables permettent de définir la façon dont un montant sera pris en compte, par exemple, la manière dont la dépense, l'immobilisation, la taxe ou les frais seront reportés sur la facture fournisseur. Chaque montant qui doit être pris en compte lorsque la facture fournisseur est journalisée aura une ou plusieurs répartitions comptables. 
 
@@ -231,7 +230,7 @@ Lorsque vous entrez une facture fournisseur, chaque montant est réparti comme s
 </tbody>
 </table>
 
- 
+
 <a name="distributing-taxes"></a>Répartition des taxes
 ------------------
 

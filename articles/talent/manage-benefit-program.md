@@ -28,8 +28,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="define-and-manage-a-benefits-program"></a>Définir et gérer un programme social
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Les ressources humaines proposent un ensemble d'outils pouvant servir à paramétrer et à mettre à jour les avantages, les déductions et les plans de compensation des collaborateurs qu'une organisation offre ou gère pour ses collaborateurs. Cette rubrique fournit des informations sur la manière de paramétrer et de gérer les avantages.
 

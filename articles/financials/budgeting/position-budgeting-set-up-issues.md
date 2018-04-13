@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="position-budgeting-troubleshooting"></a>Dépannage de la budgétisation de poste
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article contient les réponses aux questions que vous vous posez lorsque vous configurez la budgétisation du poste. Elle répond aux questions fréquemment posées sur la création des éléments de coût budgétaire, des groupes de rémunération, et des grilles de rémunération. 
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="upgrade-your-format-by-adopting-of-new-base-version-of-that-format-for-electronic-reporting-er"></a>Mettre à niveau votre format en adoptant la nouvelle version de base de ce format pour la génération d'états électroniques (ER)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Les étapes suivantes expliquent comment un utilisateur dont le rôle est Administrateur système ou Développeur d'états électroniques peut conserver une configuration de format pour la génération d'états électronique (ER). Cette procédure explique comment une version personnalisée d'un format peut être créée en fonction du format reçu d'un fournisseur de configuration. Elle décrit également comment adopter une nouvelle version de base de ce format.
 

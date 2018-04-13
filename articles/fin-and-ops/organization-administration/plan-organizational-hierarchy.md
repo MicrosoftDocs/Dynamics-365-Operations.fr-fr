@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="plan-your-organizational-hierarchy"></a>Planification de votre hiérarchie d'organisation
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Avant de paramétrer des organisations et des hiérarchies d'organisation dans Microsoft Dynamics 365 for Finance and Operations, veillez à planifier votre modèle d'entreprise. Le modèle d'organisation a un impact considérable sur l'implémentation de Finance and Operations et les processus entreprise. 
 
@@ -158,7 +157,7 @@ Si les lois et la pratique comptable diffèrent entre les pays/régions où vos 
 
 #### <a name="if-the-organization-is-modeled-as-an-operating-unit"></a>Si l'organisation est modélisée comme unité opérationnelle 
 Si les lois et la pratique comptable sont identiques entre les pays/régions où vos organisations sont localisées, vous pouvez utiliser un seul ensemble de procédures de fin d'exercice. Cela signifie que vous pouvez modéliser les organisations comme unités opérationnelles. Toutes les unités opérationnelles doivent utiliser la même procédure de clôture de fin d'exercice. 
-   
+
 ### <a name="number-sequences"></a>Souches de numéros
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>Si l'organisation est modélisée comme entité juridique
 Les souches de numéros pour certains références peuvent être paramétrées par entité juridique. Certaines souches de numéros peuvent être partagées. 

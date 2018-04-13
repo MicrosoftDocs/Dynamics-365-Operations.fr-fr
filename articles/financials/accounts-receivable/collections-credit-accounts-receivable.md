@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="credit-and-collections-in-accounts-receivable"></a>Crédit et recouvrements dans le module Ventes
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Les informations de recouvrement de la Comptabilité client sont gérées dans une vue centrale unique qui utilise la page Finance and Operations. Les directeurs des crédits et perceptions peuvent utiliser cette vue centrale pour gérer les recouvrements. Les agents de recouvrement peuvent lancer le processus de recouvrement soit à partir des listes de clients générées à l'aide de critères de recouvrement prédéfinis, soit à partir de la page Clients.
 
@@ -70,9 +69,9 @@ Les pages de liste suivantes permettent d'organiser les informations de recouvre
 
 > [!NOTE]
 > Vous devez créer un instantané de balance âgée avant d'afficher des informations dans ces pages de liste. Les informations ne sont affichées que pour les clients pour lesquels un instantané de balance âgée a été créé. L'accès aux enregistrements affichés dans la page de liste peut également être filtré de la manière suivante :
-<li>Par défaut, un utilisateur de Finance and Operations a accès à tous les clients associés à un instantané de balance âgée.</li>
-<li>Si des regroupements de clients existent, un utilisateur doit être paramétré en tant qu'agent de recouvrement pour les utiliser afin de filtrer les informations des pages de liste de recouvrement. Les informations sont limitées aux clients inclus dans le regroupement de clients sélectionné.</li>
-<li>Si un utilisateur est paramétré en tant qu'agent de recouvrement, seuls les regroupements sélectionnés pour celui-ci sont disponibles dans la page de liste. Si l'option Autoriser l'agent à voir tous les regroupements de clients est sélectionnée sur la page Agent de recouvrement pour l'agent de recouvrement, tous les regroupements sont disponibles pour celui-ci.</li>
+> <li>Par défaut, un utilisateur de Finance and Operations a accès à tous les clients associés à un instantané de balance âgée.</li>
+> <li>Si des regroupements de clients existent, un utilisateur doit être paramétré en tant qu'agent de recouvrement pour les utiliser afin de filtrer les informations des pages de liste de recouvrement. Les informations sont limitées aux clients inclus dans le regroupement de clients sélectionné.</li>
+> <li>Si un utilisateur est paramétré en tant qu'agent de recouvrement, seuls les regroupements sélectionnés pour celui-ci sont disponibles dans la page de liste. Si l'option Autoriser l'agent à voir tous les regroupements de clients est sélectionnée sur la page Agent de recouvrement pour l'agent de recouvrement, tous les regroupements sont disponibles pour celui-ci.</li>
 
 
 ## <a name="collections-page"></a>Page Recouvrements

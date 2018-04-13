@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="configure-linked-products"></a>Configurer les produits liés
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure décrit la configuration de produits liés. Cette procédure utilise les données de démonstration USRT et suppose que les deux produits ont déjà été créés et lancés.
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 03/05/2018
 
 # <a name="websearchax-retired"></a>WebSearchAX désactivé
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Nous avons dû désactiver la page WebSearchAX. Nous vous recommandons d'utiliser la recherche du site de votre moteur de recherche favori pour la remplacer.  Par exemple : 
 

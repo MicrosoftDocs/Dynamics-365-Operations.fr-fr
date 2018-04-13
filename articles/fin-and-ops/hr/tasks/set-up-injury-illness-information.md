@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="set-up-injury-and-illness-information"></a>Paramétrer les informations sur les blessures et les maladies
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Les employeurs doivent savoir si leurs employés sont victimes de blessures ou de maladies en raison de risques sur le lieu de travail. La page Blessures et maladies vous permet de paramétrer les informations qui facilitent la déclaration de blessures et de maladies survenues sur le lieu de travail. Vous pouvez paramétrer les types de blessures et de maladies, notamment les types de traitements, les coûts, et les conséquences. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 

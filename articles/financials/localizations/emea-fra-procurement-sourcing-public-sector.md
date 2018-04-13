@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="procurement-and-sourcing-in-the-public-sector-in-france"></a>Approvisionnements dans le secteur public en France
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article explique comment les fonctionnalités standard associées aux approvisionnements ont été étendues pour les entités françaises du secteur public. Ces fonctionnalités permettent de répondre aux besoins du Code des marchés publics. 
 
@@ -60,7 +59,7 @@ Vous pouvez créer des classifications de contrat d'achat qui ajoutent des champ
 -   Pour ajouter aux contrats d'achat des informations relatives aux certifications pour les fournisseurs, sélectionnez l'option **Certifications** de la classification de contrat d'achat. Les informations de certification permettent de générer un état que vous pouvez utiliser pour vérifier que les fournisseurs répondent bien aux exigences en matière de certification.
 -   Pour ajouter aux contrats d'achat des informations relatives aux jalons et aux tâches, sélectionnez l'option **Activités** de la classification de contrat d'achat.
 
- 
+
 
 
 

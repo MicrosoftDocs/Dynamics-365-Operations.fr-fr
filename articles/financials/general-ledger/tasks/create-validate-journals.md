@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-and-validate-journals"></a>Créer et valider des journaux
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Ce guide crée et valide les journaux et les lignes de journal. La société fictive USMF est utilisée dans cette tâche.  
 

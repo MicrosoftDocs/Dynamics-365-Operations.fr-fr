@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="demand-forecasting-setup"></a>Paramétrage de la prévision de la demande
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique décrit les tâches de paramétrage que vous devez effectuer pour préparer la prévision de la demande.  
 

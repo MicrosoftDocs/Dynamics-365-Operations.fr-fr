@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="enter-worker-information"></a>Saisir les informations du collaborateur
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Une fois que le recruteur a créé un projet d'embauche collective et généré les postes, l'étape suivante consiste à entrer les informations sur les collaborateurs pour les personnes embauchées. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Les données de démonstration contiennent un projet d'embauche collective en cours. Pour démarrer cette procédure, allez dans Ressources humaines > Recrutement > Projets d'embauche collective.
 

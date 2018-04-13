@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="post-fixed-asset-transactions-to-posting-layers"></a>Valider des transactions d'immobilisation dans des couches de validation
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article donne une vue d'ensemble de la fonctionnalité de couche de validation pour les transactions d'immobilisation.
 

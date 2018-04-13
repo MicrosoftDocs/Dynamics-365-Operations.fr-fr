@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="daily-interest-calculation-for-late-payment-and-lump-sum-in-the-invoice-and-collection-letter-france"></a>Calcul des intérêts quotidien de paiement tardif et de montant forfaitaire dans la facture et la lettre de relance (France)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Indiquez le calcul des intérêts sur une facture.
 

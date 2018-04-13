@@ -23,14 +23,14 @@ ms.contentlocale: fr-fr
 ms.lasthandoff: 11/06/2017
 
 ---
-# Créer une règle de kanban à l'aide d'un événement de stock minimal
+# <a name="create-a-kanban-rule-using-a-minimum-stock-event"></a>Créer une règle de kanban à l'aide d'un événement de stock minimal
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure consiste à réaliser le paramétrage nécessaire pour créer une règle de kanban à l'aide d'un événement de stock minimal pour s'assurer qu'un produit spécifique est toujours disponible à un emplacement spécifique. Une règle de kanban est créée pour transférer le matériel vers l'emplacement quand le niveau d'inventaire chute en-dessous de 200 pièces. L'exécution du traitement de l'événement de l'origine des besoins permet de créer les kanbans nécessaires. Les données fictives utilisées pour créer cette tâche correspondent à la société USMF. Cette tâche est destinée à l'ingénieur processus ou au responsable de la chaîne de valeur, car ils préparent la production d'un produit nouveau ou modifié dans un environnement lean.
 
 
-## Créer une règle de kanban
+## <a name="create-a-new-kanban-rule"></a>Créer une règle de kanban
 1. Accédez à Gestion des informations sur les produits > Lean manufacturing > Règles de kanban.
 2. Cliquez sur Nouveau.
 3. Sélectionnez Prélèvement dans le champ Type.
@@ -46,7 +46,7 @@ Cette procédure consiste à réaliser le paramétrage nécessaire pour créer u
 9. Sélectionnez « Traitement par lots » dans le champ Événement de réapprovisionnement de stock.
     * Ceci crée des kanbans pour répondre aux besoins en matériaux à l'emplacement associé pendant le traitement d'événement de l'origine des besoins.  
 
-## Définissez la quantité minimale pour l'article.
+## <a name="set-the-minimum-quantity-for-the-item"></a>Définissez la quantité minimale pour l'article.
 1. Cliquez pour suivre le lien dans le champ Produit.
 2. Cliquez pour suivre le lien dans le champ Numéro d'article.
 3. Augmentez le récapitulatif de l'image du produit.
@@ -58,7 +58,7 @@ Cette procédure consiste à réaliser le paramétrage nécessaire pour créer u
     * Définissez Entrepôt sur 12.  
 9. Définissez Minimum sur 200.
 
-## Exécuter le job de création d'événement de traitement par lots
+## <a name="run-the-batch-event-creation-job"></a>Exécuter le job de création d'événement de traitement par lots
 1. Allez dans Contrôle de la production > Tâches périodiques > Traitement par lots de tâche de Kanban > Traitement d'événements d'origine des besoins.
 2. Cliquez sur OK.
 3. Accédez à Gestion des informations sur les produits > Lean manufacturing > Règles de kanban.

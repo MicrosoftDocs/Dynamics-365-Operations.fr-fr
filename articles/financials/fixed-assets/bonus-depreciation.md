@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="bonus-depreciation"></a>amortissement de la prime
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article offre une vue d'ensemble de la fonctionnalité d'amortissement de la prime.
 

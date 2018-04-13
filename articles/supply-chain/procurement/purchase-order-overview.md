@@ -28,10 +28,9 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="purchase-order-overview"></a>Présentation des commandes fournisseur
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Cet article fournit des informations générales sur les commandes fournisseur (CF) et des liens vers d’autres articles qui sont liés aux différentes étapes par lesquelles passe CF.
 

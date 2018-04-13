@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="release-production-orders"></a>Lancement des ordres de fabrication
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Un ordre de fabrication lancé est une commande qui a été autorisée pour la production. Le terme Lancé permet de décrire un état du cycle de vie de l'ordre de fabrication où l'ordre de fabrication est disponible pour l'exécution dans l'atelier de production et pour les processus d'entrepôt. 
 

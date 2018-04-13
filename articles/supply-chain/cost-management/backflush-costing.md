@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="backflush-costing"></a>Calcul des coûts de post-consommation
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique présente le concept de comptabilité à rebours utilisé pour la production au plus juste. 
 

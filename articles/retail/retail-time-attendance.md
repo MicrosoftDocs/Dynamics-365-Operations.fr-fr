@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="retail-time-and-attendance"></a>Pointage et présence - Vente au détail
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Cette rubrique décrit les scénarios pris en charge pour la gestion des heures et de la présence dans Microsoft Dynamics 365 for Retail. 
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="sepa-direct-debit-overview"></a>Vue d'ensemble du débit direct SEPA
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 L'Espace unique de paiement en euros (SEPA) est défini par la Commission européenne et stipule que tous les paiements électroniques sont considérés comme locaux, quel que soit le pays/la région où la personne, l'entreprise ou l'organisation et la banque sont localisées. Il n'existe aucune différence entre les paiements nationaux et transfrontières. Le SEPA inclut les 28 états membres de l'Union européenne (EU), ainsi que l'Islande, le Liechtenstein, la Norvège, la Suisse, Monaco et San Marin. Le SEPA permet de former un marché unique pour les transactions de paiement dans l'Espace économique européen. Enfin, le SEPA est supposé réduire le nombre de formats de paiement pour les banques, les entreprises et les personnes.   
 

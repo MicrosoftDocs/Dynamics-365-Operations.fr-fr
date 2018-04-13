@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="reserve-inventory-quantities"></a>Réservation de quantités en stock
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 La présente rubrique décrit les différentes options disponibles pour la réservation du stock.
 
@@ -50,6 +49,7 @@ Les stratégies de réservation de stock sont définies sur la page **Groupes de
 ### <a name="policies-on-the-item-model-groups-page"></a>Stratégies sur la page Groupes de modèles d'article
 
 La section **Stratégies de stock** contient les stratégies suivantes pour réservation.
+
 |                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Stratégie de réservation**  | **Description**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -63,6 +63,7 @@ La section **Stratégies de stock** contient les stratégies suivantes pour rés
 #### <a name="example-for-fifo-date-controlled-and-backward-from-ship-date"></a>Exemples de Date FIFO contrôlée et de En arrière à partir de la date d'expédition
 
 Dans cet exemple, le stock disponible pour le numéro d'article A existe pour trois numéros de lot différents.
+
 | numéro d'article | Numéro du lot | Quantité | date ;             |
 |-------------|--------------|----------|------------------|
 | A           | 1 000         | 5        | 2 février 2016 |

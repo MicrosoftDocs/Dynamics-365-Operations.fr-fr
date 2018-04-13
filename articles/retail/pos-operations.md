@@ -28,7 +28,7 @@ ms.lasthandoff: 03/22/2018
 
 # <a name="pos-operations-online-and-offline"></a>Opérations PDV, en ligne et hors connexion
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 La plupart des actions que l'utilisateur exécute dans le point de vente (PDV) sont considérées comme des opérations. Les opérations sont configurées et gérées dans les services administratifs de Microsoft Dynamics 365 for Retail. De nombreuses opérations peuvent être ajoutées aux boutons du groupe de boutons du PDV. Les utilisateurs peuvent ensuite sélectionner les boutons pour appeler les opérations et effectuer leur fonction. D'autres opérations font partie de l'application de PDV principale, et sont appelées par les boutons à l'écran ou dans le cadre d'autres workflows ou processus.
 

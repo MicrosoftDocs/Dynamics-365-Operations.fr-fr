@@ -27,8 +27,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>Nouveautés ou modifications apportées à la version 7.0.1 de l’application Dynamics AX (mai 2016)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans la version 7.0.1 de Microsoft Dynamics AX. Cette version a été publiée en mai 2016 et a pour numéro de version 7.0.1265.23014.
 
@@ -44,12 +43,14 @@ Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifi�
 | Configurez les destinations d'états électroniques afin que le résultat d’un format de sortie soit dirigé vers une destination spécifique : fichier, courrier électronique ou archive (dossier Microsoft SharePoint ou stockage Microsoft Azure). | Auparavant, lorsque vous exécutiez une configuration d'état électronique, une zone de message apparaissait nécessitant une de l'utilisateur pour enregistrer ou ouvrir un fichier. Vous pouvez maintenant configurer une destination pour chaque configuration de format et pour chaque composant de sortie (un dossier ou un fichier) séparément. Les utilisateurs qui disposent des droits d’accès appropriés peuvent également modifier les paramètres de destination au moment de l’exécution. |
 
 ## <a name="pos--microsoft-dynamics-ax-retail"></a>POS – Microsoft Dynamics AX Retail
+
 |                                |                                                                                                                                                                                         |
 |--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Que pouvez-vous faire ?**           | **Pourquoi est-ce important ?**                                                                                                                                                              |
 | Utilisez le navigateur Google Chrome. | Les détaillants peuvent maintenant démarrer Cloud POS depuis le navigateur Chrome et peuvent bénéficier de toutes les fonctionnalités qui sont disponible dans la version de Cloud POS sur Internet Explorer et Microsoft Edge. |
 
 ## <a name="financial-reporting"></a>États financiers
+
 |                                                                     |                                                                                                                                                                                                                                                                                                                    |
 |---------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Que pouvez-vous faire ?**                                                | **Pourquoi est-ce important ?**                                                                                                                                                                                                                                                                                         |
@@ -57,12 +58,14 @@ Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifi�
 | Vous ne pouvez plus sélectionner les options du générateur d'états qui ne sont pas valides. | Plusieurs options du générateur d'états qui étaient utilisées dans les versions de mise sur le marché de Management reporter ne s’appliquent pas à cette version de Dynamics AX. Ces options étaient liées à la génération, la sortie et la liaison d'états financiers. Ces options ont été supprimées du générateur d'états financiers pour empêcher les erreurs de l’utilisateur. |
 
 ## <a name="financial-management"></a>Gestion financière
+
 |                                                            |                                                                  |
 |------------------------------------------------------------|------------------------------------------------------------------|
 | **Que pouvez-vous faire ?**                                       | **Pourquoi est-ce important ?**                                       |
 | Générez des fichiers de paiement positif pour les paiemets de Comptabilité fournisseur. | Les fichiers de paiement positifs peuvent être générés pour aider les banques à empêcher les fraudes par chèque. |
 
 ## <a name="warehouse-and-production"></a>Entrepôt et production
+
 |                                                                                                                                                                                                                                                                                                                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Que pouvez-vous faire ?**                                                                                                                                                                                                                                                                                                                                                                    | **Pourquoi est-ce important ?**                                                                                                                                                                                                                                                                                                                                                                                                              |
@@ -72,7 +75,7 @@ Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifi�
 | Les ordres de fabrication avec des structures circulaires au premier niveau de leurs nomenclatures sont exclus du calcul de nomenclature pour la planification de la ressource matérielle.                                                                                                                                                                                                                                     | Il n’est pas possible d’affecter des niveaux de nomenclature corrects aux variantes de produit pour les ordres de fabrication entraînant une circularité dans la hiérarchie de nomenclature.                                                                                                                                                                                                                                                                                                  |
 | Calculez les différents niveaux de nomenclature pour la planification des ressources matérielles et le calcul de coût : • Pour la planification de ressource matérielle, les niveaux de nomenclature sont calculés dans la nouvelle table **ReqItemLevel**. Les ordres de fabrication terminés sont ignorés dans le calcul. • Pour le calcul des coûts de production, les niveaux de nomenclature sont calculés dans la table **InventTable**. Les ordres de fabrication terminés sont inclus dans le calcul. | • Lors de l’exécution de planification des ressources matérielles, par exemple, la planification planifie le plan et les explosions, seuls les niveaux de nomenclature utilisés pour la planification de ressource matérielle doivent être recalculés. Autrement dit, il n’est pas nécessaire de calculer les niveaux de la nomenclature utilisés pour le calcul de la production. • Lors de l’exécution des opérations d’évaluation des coûts, par exemple, les stocks de clôture, seuls les niveaux de nomenclature utilisés pour le calcul de coût de la production doivent être recalculés. |
 
- 
+
 
 <a name="see-also"></a>Voir également :
 --------

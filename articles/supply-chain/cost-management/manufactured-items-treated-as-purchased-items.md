@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="set-up-products-that-can-be-produced-or-procured"></a>Paramétrer les produits pouvant être produits ou approvisionnés
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 L'approvisionnement des produits peut se faire suivant différentes manières -  ils peuvent être produits (fabriqués) ou être obtenus (achetés). Cet article décrit certains points habituels dont vous devez tenir compte lors de la configuration des produits pour prendre en charge le multi- approvisionnement. 
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-purchasing-policies"></a>Création des stratégies d'achat
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure vous montre comment créer des stratégies d'achat pour les aligner avec vos processus d'entreprise pour les achats. Avant de pouvoir créer des stratégies d'achat, vous devez définir les paramètres de politique d'achat. Il est possible de créer, de modifier, et de retirer une politique d'achat, mais vous ne pouvez pas supprimer une politique d'achat. Cette procédure est généralement effectuée par un gestionnaire des achats. Vous pouvez utiliser cette procédure dans la société fictive de démonstration USMF ou utiliser vos propres données.
 

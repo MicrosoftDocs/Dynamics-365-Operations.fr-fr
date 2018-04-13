@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="assess-customer-and-product-profitability"></a>Évaluer la rentabilité client et produit
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Cet article détaille la manière dont vous pouvez utiliser les analyses en mémoire et en temps réel pour accéder, explorer et obtenir un aperçu de la rentabilité client et produit, à partir de vos données Microsoft Dynamics 365 for Retail. 
 

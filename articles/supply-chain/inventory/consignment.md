@@ -28,8 +28,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="set-up-consignment"></a>Définir une consignation
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique explique comment utiliser les processus de stock de consignation entrant.
 

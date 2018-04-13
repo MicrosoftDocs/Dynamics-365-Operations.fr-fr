@@ -27,8 +27,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="configure-a-manual-decision-in-a-workflow"></a>Configurer une décision manuelle dans un workflow
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique explique comment configurer les différentes propriétés d'une décision manuelle.
 
@@ -252,73 +251,74 @@ Procédez comme suit pour indiquer à qui affecter une décision manuelle.
 ## <a name="specify-what-happens-when-a-decision-is-overdue"></a>Spécification des conséquences du retard d'une décision
 Si un utilisateur ne prend pas la décision dans le délai imparti, la décision est en retard. Une décision en retard peut être affectée à un échelon supérieur ou affectée automatiquement à un autre utilisateur. Procédez comme suit pour réaffecter la décision en retard.
 
-1.  Dans le volet gauche, cliquez sur **Escalade**.
-2.  Activez la case à cocher **Utiliser le chemin de réaffectation** pour créer un chemin de réaffectation. Le système affecte automatiquement la décision aux utilisateurs répertoriés dans le chemin de réaffectation. Le tableau suivant présente un exemple de chemin de réaffectation.
-    | Séquence | Chemin de réaffectation            |
-    |----------|----------------------------|
-    | 1        | Affecter à : Donna           |
-    | 2        | Affecter à : Erin            |
-    | 3        | Action finale : \[Choix 1\] |
+1. Dans le volet gauche, cliquez sur **Escalade**.
+2. Activez la case à cocher **Utiliser le chemin de réaffectation** pour créer un chemin de réaffectation. Le système affecte automatiquement la décision aux utilisateurs répertoriés dans le chemin de réaffectation. Le tableau suivant présente un exemple de chemin de réaffectation.
 
-    Dans cet exemple, le système affecte la décision en retard à Donna. Si celle-ci ne prend pas la décision dans le délai imparti, le système affecte la décision à Erin. Si celle-ci ne prend pas la décision dans le délai imparti, le système sélectionne le **\[Choix 1\]** comme décision.
-3.  Pour ajouter un utilisateur dans le chemin de réaffectation, cliquez sur **Ajouter une réaffectation**. Sélectionnez l'une des options du tableau suivant et suivez les étapes supplémentaires concernant l'option avant de passer à l'étape 4.
-    <table>
-    <colgroup>
-    <col width="33%" />
-    <col width="33%" />
-    <col width="33%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Option</th>
-    <th>Utilisateurs à qui la décision est affectée</th>
-    <th>Étapes supplémentaires</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Hiérarchie</td>
-    <td>Utilisateurs d'une hiérarchie organisationnelle spécifique</td>
-    <td><ol>
-    <li>Après avoir sélectionné <strong>Hiérarchie</strong>, sous l'onglet <strong>Sélection de hiérarchie</strong>, dans la liste <strong>Type de hiérarchie</strong>, sélectionnez le type de hiérarchie à laquelle réaffecter la décision.</li>
-    <li>Le système doit extraire un ensemble de noms d'utilisateurs de la hiérarchie. Ces noms représentent les utilisateurs à qui la décision peut être réaffectée. Pour indiquer le point de départ et le point final de l'ensemble de noms d'utilisateurs extraits par le système, procédez comme suit : <ol>
-    <li>Pour spécifier le point de départ, sélectionnez une personne dans la liste <strong>Commencer à</strong>.</li>
-    <li>pour indiquer le point final, cliquez sur <strong>Ajouter une condition</strong>. Entrez ensuite une condition pour indiquer où le système arrête l'extraction de noms dans la hiérarchie.</li>
-    </ol></li>
-    <li>Sous l'onglet <strong>Options de la hiérarchie</strong>, indiquez les utilisateurs de la sélection à qui la décision est réaffecté : <ul>
-    <li><strong>Affecter à tous les utilisateurs récupérés</strong> – La décision est réaffecté à tous les utilisateurs de la sélection.</li>
-    <li><strong>Affecter uniquement au dernier utilisateur récupéré</strong> – La décision est réaffecté uniquement au dernier utilisateur de la sélection.</li>
-    <li><strong>Exclure les utilisateurs à la condition suivante</strong> – La décision n'est réaffectée à aucun des utilisateurs de la sélection qui remplissent une condition. Cliquez sur <strong>Ajouter une condition</strong> pour spécifier la condition.</li>
-    </ul></li>
-    </ol></td>
-    </tr>
-    <tr class="even">
-    <td>Utilisateur du workflow</td>
-    <td>Utilisateurs du workflow actuel</td>
-    <td><ul>
-    <li>Après avoir sélectionné <strong>Utilisateur du workflow</strong>, sous l'onglet <strong>Utilisateur du workflow</strong>, dans la liste <strong>Utilisateur du workflow</strong>, sélectionnez un utilisateur qui participe au workflow.</li>
-    </ul></td>
-    </tr>
-    <tr class="odd">
-    <td>Utilisateur</td>
-    <td>Utilisateurs Finance and Operations spécifiques</td>
-    <td><ol>
-    <li>Sélectionnez <strong>Utilisateur</strong>, puis cliquez sur l'onglet <strong>Utilisateur</strong>.</li>
-    <li>La liste <strong>Utilisateurs disponibles</strong> inclut tous les utilisateurs Finance and Operations. Sélectionnez les utilisateurs à qui réaffecter la décision, puis déplacez-les dans la liste <strong>Utilisateurs sélectionnés</strong>.</li>
-    </ol></td>
-    </tr>
-    </tbody>
-    </table>
+   | Séquence | Chemin de réaffectation            |
+   |----------|----------------------------|
+   | 1        | Affecter à : Donna           |
+   | 2        | Affecter à : Erin            |
+   | 3        | Action finale : \[Choix 1\] |
 
-4.  Sous l'onglet **Limite de temps**, dans le champ **Durée**, indiquez le délai accordé à l'utilisateur pour prendre la décision. Permet de sélectionner l'une des options suivantes :
-    -   **Heures** – Permet d'entrer le nombre d'heures accordées à l'utilisateur pour prendre la décision. Sélectionnez ensuite le calendrier utilisé par votre organisation, puis entrez les informations relatives à la semaine de travail de votre organisation.
-    -   **Jours** – Permet d'entrer le nombre de jours accordés à l'utilisateur pour prendre la décision. Sélectionnez ensuite le calendrier utilisé par votre organisation, puis entrez les informations relatives à la semaine de travail de votre organisation.
-    -   **Semaines** – Permet d'entrer le nombre de semaines accordées à l'utilisateur pour prendre la décision.
-    -   **Mois** – Permet de sélectionner le jour et la semaine où l'utilisateur doit prendre la décision. Vous voudrez peut-être que l'utilisateur prenne la décision d'ici le vendredi de la troisième semaine du mois.
-    -   **Années** – Permet de sélectionner le jour, la semaine et le mois où l'utilisateur doit prendre la décision. Vous voudrez peut-être que l'utilisateur prenne la décision d'ici le vendredi de la troisième semaine du mois de décembre.
+   Dans cet exemple, le système affecte la décision en retard à Donna. Si celle-ci ne prend pas la décision dans le délai imparti, le système affecte la décision à Erin. Si celle-ci ne prend pas la décision dans le délai imparti, le système sélectionne le **\[Choix 1\]** comme décision.
+3. Pour ajouter un utilisateur dans le chemin de réaffectation, cliquez sur **Ajouter une réaffectation**. Sélectionnez l'une des options du tableau suivant et suivez les étapes supplémentaires concernant l'option avant de passer à l'étape 4.
+   <table>
+   <colgroup>
+   <col width="33%" />
+   <col width="33%" />
+   <col width="33%" />
+   </colgroup>
+   <thead>
+   <tr class="header">
+   <th>Option</th>
+   <th>Utilisateurs à qui la décision est affectée</th>
+   <th>Étapes supplémentaires</th>
+   </tr>
+   </thead>
+   <tbody>
+   <tr class="odd">
+   <td>Hiérarchie</td>
+   <td>Utilisateurs d'une hiérarchie organisationnelle spécifique</td>
+   <td><ol>
+   <li>Après avoir sélectionné <strong>Hiérarchie</strong>, sous l'onglet <strong>Sélection de hiérarchie</strong>, dans la liste <strong>Type de hiérarchie</strong>, sélectionnez le type de hiérarchie à laquelle réaffecter la décision.</li>
+   <li>Le système doit extraire un ensemble de noms d'utilisateurs de la hiérarchie. Ces noms représentent les utilisateurs à qui la décision peut être réaffectée. Pour indiquer le point de départ et le point final de l'ensemble de noms d'utilisateurs extraits par le système, procédez comme suit : <ol>
+   <li>Pour spécifier le point de départ, sélectionnez une personne dans la liste <strong>Commencer à</strong>.</li>
+   <li>pour indiquer le point final, cliquez sur <strong>Ajouter une condition</strong>. Entrez ensuite une condition pour indiquer où le système arrête l'extraction de noms dans la hiérarchie.</li>
+   </ol></li>
+   <li>Sous l'onglet <strong>Options de la hiérarchie</strong>, indiquez les utilisateurs de la sélection à qui la décision est réaffecté : <ul>
+   <li><strong>Affecter à tous les utilisateurs récupérés</strong> – La décision est réaffecté à tous les utilisateurs de la sélection.</li>
+   <li><strong>Affecter uniquement au dernier utilisateur récupéré</strong> – La décision est réaffecté uniquement au dernier utilisateur de la sélection.</li>
+   <li><strong>Exclure les utilisateurs à la condition suivante</strong> – La décision n'est réaffectée à aucun des utilisateurs de la sélection qui remplissent une condition. Cliquez sur <strong>Ajouter une condition</strong> pour spécifier la condition.</li>
+   </ul></li>
+   </ol></td>
+   </tr>
+   <tr class="even">
+   <td>Utilisateur du workflow</td>
+   <td>Utilisateurs du workflow actuel</td>
+   <td><ul>
+   <li>Après avoir sélectionné <strong>Utilisateur du workflow</strong>, sous l'onglet <strong>Utilisateur du workflow</strong>, dans la liste <strong>Utilisateur du workflow</strong>, sélectionnez un utilisateur qui participe au workflow.</li>
+   </ul></td>
+   </tr>
+   <tr class="odd">
+   <td>Utilisateur</td>
+   <td>Utilisateurs Finance and Operations spécifiques</td>
+   <td><ol>
+   <li>Sélectionnez <strong>Utilisateur</strong>, puis cliquez sur l'onglet <strong>Utilisateur</strong>.</li>
+   <li>La liste <strong>Utilisateurs disponibles</strong> inclut tous les utilisateurs Finance and Operations. Sélectionnez les utilisateurs à qui réaffecter la décision, puis déplacez-les dans la liste <strong>Utilisateurs sélectionnés</strong>.</li>
+   </ol></td>
+   </tr>
+   </tbody>
+   </table>
 
-5.  Répétez les étapes 3 à 4 pour chaque utilisateur à ajouter au chemin de réaffectation. Vous pouvez modifier l'ordre des utilisateurs.
-6.  Si les utilisateurs du chemin de réaffectation ne prennent pas la décision dans le délai imparti, le système prend la décision. Pour indiquer l'option exécutée par le système, sélectionnez la ligne **Action**, puis sélectionnez une option sous l'onglet **Terminer l'action**.
+4. Sous l'onglet **Limite de temps**, dans le champ **Durée**, indiquez le délai accordé à l'utilisateur pour prendre la décision. Permet de sélectionner l'une des options suivantes :
+   -   **Heures** – Permet d'entrer le nombre d'heures accordées à l'utilisateur pour prendre la décision. Sélectionnez ensuite le calendrier utilisé par votre organisation, puis entrez les informations relatives à la semaine de travail de votre organisation.
+   -   **Jours** – Permet d'entrer le nombre de jours accordés à l'utilisateur pour prendre la décision. Sélectionnez ensuite le calendrier utilisé par votre organisation, puis entrez les informations relatives à la semaine de travail de votre organisation.
+   -   **Semaines** – Permet d'entrer le nombre de semaines accordées à l'utilisateur pour prendre la décision.
+   -   **Mois** – Permet de sélectionner le jour et la semaine où l'utilisateur doit prendre la décision. Vous voudrez peut-être que l'utilisateur prenne la décision d'ici le vendredi de la troisième semaine du mois.
+   -   **Années** – Permet de sélectionner le jour, la semaine et le mois où l'utilisateur doit prendre la décision. Vous voudrez peut-être que l'utilisateur prenne la décision d'ici le vendredi de la troisième semaine du mois de décembre.
+
+5. Répétez les étapes 3 à 4 pour chaque utilisateur à ajouter au chemin de réaffectation. Vous pouvez modifier l'ordre des utilisateurs.
+6. Si les utilisateurs du chemin de réaffectation ne prennent pas la décision dans le délai imparti, le système prend la décision. Pour indiquer l'option exécutée par le système, sélectionnez la ligne **Action**, puis sélectionnez une option sous l'onglet **Terminer l'action**.
 
 ## <a name="set-a-time-limit"></a>Définition d'un délai limite
 Si la décision doit être prise dans un certain délai, procédez comme suit. **Remarque :** Les options sélectionnées dans cette procédure remplacent celles sélectionnées dans les zones **Affectation** et **Escalade** de la page.

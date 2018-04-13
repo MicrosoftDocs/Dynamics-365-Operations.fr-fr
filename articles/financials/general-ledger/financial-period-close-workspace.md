@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="financial-period-close-workspace"></a>Espace de travail de clôture de période comptable
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article fournit une vue d'ensemble de l'espace de travail de clôture de période comptable et la configuration associée.
 

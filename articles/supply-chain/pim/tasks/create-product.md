@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-product"></a>Créer un produit
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure décrit la création d'un produit dans la hiérarchie des produits vendus au détail. La société fictive utilisée pour créer cette tâche est USRT et cette tâche est destinée au Gestionnaire du commerce et au Concepteur de produits.
 

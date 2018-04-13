@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Paramétrage du processus d'importation du rapprochement bancaire avancé
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 La fonctionnalité de rapprochement bancaire avancée vous permet d'importer des relevés bancaires électroniques et de les rapprocher automatiquement avec des transactions bancaires dans Microsoft Dynamics 365 for Finance and Operations. Cet article explique comment configurer la fonctionnalité d’importation de vos relevés bancaires. 
 
@@ -57,7 +56,7 @@ Voici des exemples de définitions de mise en page techniques de fichier d'impor
 | DynamicsAXISO20022Layout                                | ISO20022StatementExample             |
 | DynamicsAXBAI2Layout                                    | BAI2StatementExample                 |
 
- 
+
 
 ## <a name="set-up-the-import-of-iso20022-bank-statements"></a>Paramétrer l'importation des relevés bancaires ISO20022
 Tout d’abord, vous devez définir le groupe de traitement du format du relevé bancaire pour les relevés bancaires ISO20022 à l’aide de l’infrastructure d’entité de données.

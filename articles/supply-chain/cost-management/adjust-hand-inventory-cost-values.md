@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="adjust-on-hand-inventory-cost-values"></a>Ajustement des valeurs de coût du stock disponible
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Utilisez la page Ajustement du stock disponible pour ajuster le coût des quantités de stock disponible une fois qu'un processus de clôture de stock a été exécuté.
 

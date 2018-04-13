@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="accounts-receivable-in-the-public-sector"></a>Comptabilité client dans le secteur public
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique décrit la fonctionnalité de Comptabilité client disponible pour le secteur public.
 

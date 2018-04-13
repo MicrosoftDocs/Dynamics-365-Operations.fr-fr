@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="cost-entries"></a>Écritures de coût
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article fournit des informations sur les entrées de coût et à quel moment elles sont créées. Une entrée de coût est un enregistrement qui enregistre la quantité et le coût d'un événement donné.
 

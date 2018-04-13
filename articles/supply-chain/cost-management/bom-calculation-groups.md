@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="bom-calculations-groups"></a>Groupes de calculs de nomenclature
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article fournit des informations sur les groupes de calcul des nomenclatures et leur configuration. Pour exécuter un calcul de nomenclature, vous devez soit définir les groupes de calcul et les affecter à des articles individuels ou définir un groupe de calcul par défaut. Les paramètres de calcul du groupe de calcul sont utilisés ensuite comme valeurs par défaut sur la page Calcul de coût nomenclature au moment du calcul du coût de nomenclature. 
 

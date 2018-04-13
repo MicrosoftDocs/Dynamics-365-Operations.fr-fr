@@ -27,7 +27,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="movement-of-inventory-with-associated-work-in-warehouse-management"></a>Mouvements de stock avec le travail associé dans la gestion d'entrepôt
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Grâce au mouvement de stock, vous pouvez déterminer quels collaborateurs d'entrepôt sont autorisés à déplacer le stock réservé. Ceci permet une grande flexibilité dans les entrepôts définis où vous pouvez choisir de ne pas permettre à un collaborateur de choisir un nouvel emplacement de prélèvement pour le travail de prélèvement qui est déjà créé. Il permet également à un gestionnaire d'entrepôt de contrôler les capacités que certains collaborateurs moins expérimentés doivent posséder.
 

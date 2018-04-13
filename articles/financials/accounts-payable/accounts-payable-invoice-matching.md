@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="accounts-payable-invoice-matching"></a>Rapprochement des factures dans le module Achats
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Le rapprochement de factures du module Achats est le processus de rapprochement des informations de la facture fournisseur, de la commande fournisseur et de l'accusé de réception de marchandises.
 

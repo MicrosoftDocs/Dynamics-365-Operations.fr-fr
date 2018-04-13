@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="supply-chain-management-home-page"></a>Page d'accueil de la gestion de la chaîne d'approvisionnement
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Cette rubrique fournit une liste de ressources et d'autres informations sur les fonctionnalités de gestion de la chaîne d'approvisionnement de Microsoft Dynamics 365 for Finance and Operations. 
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="fixed-asset-management-workspace"></a>Espace de travail Gestion des immobilisations
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 L'espace de travail **Gestion des immobilisations** affiche les informations liées aux immobilisations entrées dans le système. Cet espace de travail contient une vue Synthèse et une vue Analyses. L'onglet **Mon travail** affiche les vignettes de synthèse, les détails des immobilisations et les informations associées sur les immobilisations de la société actuelle. Vous pouvez également ajouter des analyses à la section Analyses Power BI directement dans l'espace de travail. L'onglet **Analyses - toutes les sociétés** utilise les fonctionnalités de Microsoft Power BI pour afficher les visuels associés aux immobilisations de toutes les sociétés.
 

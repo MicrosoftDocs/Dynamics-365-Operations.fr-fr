@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-an-organization-hierarchy"></a>Créer une hiérarchie d'organisation
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Procédez comme suit pour créer une hiérarchie organisationnelle. Les hiérarchies organisationnelles vous permettent d'afficher et de créer des états relatifs à votre entreprise à partir de perspectives différentes. Par exemple, vous pouvez paramétrer une hiérarchie pour les déclarations légales ou fiscales. Vous pouvez ensuite paramétrer une autre hiérarchie pour déclarer des informations financières qui ne sont pas requises par la loi, mais qui sont utilisées à des fins de déclaration interne. 
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-subcontracted-work-cell-for-lean-manufacturing"></a>Créer une cellule de travail sous-traitée de lean manufacturing
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Pour modéliser le travail sous-traité pour lean manufacturing, vous devez créer une cellule de travail associée au fournisseur qui fournit le travail. Une cellule de travail sous-traitée est liée au fournisseur via l'association d'une ressource du type Fournisseur. Si vous lisez cet enregistrement dans la société fictive USMF, vous pouvez sélectionner l'ID compte fournisseur 1002 et le site 1.
 

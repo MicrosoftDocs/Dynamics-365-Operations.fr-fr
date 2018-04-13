@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="enter-project-timesheets"></a>Saisir des feuilles de temps du projet
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure vous permet de créer une feuille de temps à l'aide d'un écran Feuille de temps vide. La nouvelle feuille de temps peut être basée sur les informations issues d'une feuille de temps précédente, ou d'affectations d'activité et de projet dans la page Mes favoris. Par défaut, la page de liste Toutes les feuilles de temps affiche toutes vos feuilles de temps pour la période en cours. Vous pouvez utiliser la liste déroulante pour le champ Afficher de la page Mes feuilles de temps afin de filtrer la liste des feuilles de temps par période ou par projet, ou pour afficher les feuilles de temps créées au nom d'autres collaborateurs. Les données fictives utilisées pour créer cette procédure correspondent à la société USSI. Pour démarrer cette procédure, accédez à Gestion et comptabilité des projets > Feuilles de temps > Mes feuilles de temps
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="create-dimensions-and-import-dimension-members"></a>Créer des dimensions et importer des membres de la dimension
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Le Contrôle de gestion est un module indépendant qui nécessite les données d'autres modules. Ces données sont classées par catégorie comme suit :
 

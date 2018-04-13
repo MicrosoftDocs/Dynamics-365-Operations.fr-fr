@@ -29,8 +29,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="time-and-attendance-registration"></a>Enregistrement de Pointage
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Les collaborateurs qualifiés pour l'enregistrement des heures peuvent entrer plusieurs types d'enregistrements d'heures : par exemple, le pointage à l'arrivée, le pointage à la sortie, l'enregistrement des activités indirectes et l'enregistrement des absences. Cette rubrique décrit les enregistrements, leur calcul, leur approbation, et l'utilisation du workflow pour ajouter la structure et l'approbation automatisée au processus d'approbation des feuilles de temps. 
 
@@ -95,7 +94,7 @@ Vous pouvez paramétrer un processus d'approbation de workflow qui approuve auto
 | Total des jours de pointage            | Le workflow contrôle les enregistrements, par exemple, par rapport au nombre attendu d'heures de travail pour la journée. |                                                                                                                                                                                                                                                       |
 | Enregistrement du journal de pointage. | Le workflow contrôle chaque type d'enregistrement par rapport à la date de l'enregistrement.                           | Pointage • Pointage à l'arrivée • Pointage à la sortie • Absence • Pause• Code de report • Projet • Activité de projet • Activité indirecte • Tâches de production • Temps d'attente avant • Paramétrage • Processus • Chevauchement • Transport • Temps d'attente après • Début d'assistance • Fin d'assistance |
 
- 
+
 
 ## <a name="transferring-approved-registrations"></a>Transfert des enregistrements approuvés
 Après approbation des enregistrements, vous pouvez les transférer vers une tâche de paie périodique. Un enregistrement transféré est validé pour une activité ou une tâche à laquelle il a trait, par exemple, un ordre de fabrication ou un projet. Les transactions de paie sont générées pour chaque travailleur sur la base des enregistrements.  

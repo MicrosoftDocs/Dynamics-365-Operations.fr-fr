@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="accounting-distributions"></a>Répartitions comptables
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article fournit des informations sur les répartitions comptables et décrit les options disponibles pour les traiter. Les répartitions comptables sont utilisées pour répartir les montants en devises d'un document source dans des comptes généraux spécifiques. 
 

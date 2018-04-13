@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="sales-orders-mobile-workspace"></a>Espace de travail mobile Commandes client
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique fournit des informations sur l'espace de travail mobile **Commandes client**. Cet espace de travail vous permet de rester à jour de vos commandes client à tout moment et n'importe où. 
 

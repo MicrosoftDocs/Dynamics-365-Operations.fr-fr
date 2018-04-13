@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="125-percent-reducing-balance-depreciation"></a>Amortissement dégressif de 125 %
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article donne une vue d'ensemble de la méthode d'amortissement dégressif de 125 %.
 
@@ -68,6 +67,7 @@ Si vous sélectionnez **Exercice** comme année d'amortissement, les options sui
 -   **Période fiscale**valide le montant total de l'amortissement calculé pour l'exercice. Ce montant est régularisé dans les périodes fiscales définies sur la page **Calendriers fiscaux**.
 
 ## <a name="example-of-125-reducing-balance-depreciation"></a>Exemple d'amortissement dégressif de 125 %
+
 |                                |        |
 |--------------------------------|--------|
 | Prix d'acquisition               | 11 000 |

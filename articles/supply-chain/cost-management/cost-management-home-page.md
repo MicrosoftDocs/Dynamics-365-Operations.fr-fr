@@ -29,7 +29,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="cost-management-home-page"></a>Page d'accueil Gestion des coûts
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 [Gestion des coûts (vidéo)](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be) vous permet d'utiliser l'évaluation et la comptabilité des matières premières, des produits semi-finis, des produits finis et des immobilisations en cours. Il s'agit du processus de définition, de gestion et de génération d'états [Comptabilité de stock](cost-object.md) et [Comptabilité de fabrication](bom-calculations.md).
 

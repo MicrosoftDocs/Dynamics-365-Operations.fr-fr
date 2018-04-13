@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="import-iso20022-files"></a>Importer des fichiers ISO20022
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Vous pouvez importer les fichiers de paiement qui ont les formats suivants :
 
@@ -41,8 +41,8 @@ Vous devez effectuer les tâches préalables suivantes pour importer les message
 3. Sur la page **Compte bancaire client**, paramétrez un enregistrement de compte bancaire client en entrant les informations suivantes : IBAN ou numéro de compte bancaire, et code SWIFT ou numéro d'acheminement.
 4. Sur la page **Comptes bancaires**, paramétrez des comptes bancaires d'entité légale en entrant les informations suivantes : IBAN ou numéro de compte bancaire, et code SWIFT ou numéro d'acheminement, devise et adresse.
 
-    > [!NOTE]
-        > Si vous envisagez d'utiliser le rapprochement bancaire avancé, sous l'organisateur **Rapprochement**, définissez l'option **Rapprochement bancaire avancé** sur **Oui**. Si vous envisagez de rapprocher les paiements importés non validés, définissez l'option **Utiliser les relevés bancaires comme confirmation des paiements électroniques** sur **Oui**.
+   > [!NOTE]
+   > Si vous envisagez d'utiliser le rapprochement bancaire avancé, sous l'organisateur **Rapprochement**, définissez l'option **Rapprochement bancaire avancé** sur **Oui**. Si vous envisagez de rapprocher les paiements importés non validés, définissez l'option **Utiliser les relevés bancaires comme confirmation des paiements électroniques** sur **Oui**.
 
 5. Facultatif : Sur la page **Mappage de code de transaction**, paramétrez la mise en correspondance entre les codes de transaction bancaire du fichier et les types de transaction bancaire.
 6. Si le fichier contient des frais de transaction que vous souhaitez valider avec le paiement entrant, créez des frais de paiement sur la page **Frais de paiement client**. Puis, sur la page **Modes de paiement**, associez les frais de paiement au compte bancaire dans le paramétrage de frais de paiement.

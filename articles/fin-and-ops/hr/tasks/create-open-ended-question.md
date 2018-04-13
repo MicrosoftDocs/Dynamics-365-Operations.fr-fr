@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-an-open-ended-question"></a>Créer une question ouverte
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Les questions ouvertes permettent aux personnes interrogées d'indiquer leur propre réponse. Vous pouvez contrôler si la réponse est un nombre, une décimale, une date, un commentaire et ainsi de suite. Cette procédure décrit le processus de création d'un type de question spécifique, une question ouverte. Pour démarrer cette procédure, allez dans Questionnaire > Conception > Questions. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 

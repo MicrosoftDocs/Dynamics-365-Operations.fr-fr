@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="200-percent-reducing-balance-depreciation"></a>Amortissements dégressifs de 200 %
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article propose une vue d'ensemble de la méthode d'amortissement dégressif de 200 %.
 
@@ -70,6 +69,7 @@ Si vous sélectionnez **Fiscal** comme année d'amortissement, les options suiva
 -   **Période fiscale**valide le montant total de l'amortissement calculé pour l'exercice. Ce montant est régularisé dans les périodes fiscales définies sur la page **Calendriers fiscaux**.
 
 ## <a name="example-of-200-reducing-balance-depreciation"></a>Exemple d'amortissement dégressif de 200 %
+
 |                                |        |
 |--------------------------------|--------|
 | Prix d'acquisition               | 11 000 |

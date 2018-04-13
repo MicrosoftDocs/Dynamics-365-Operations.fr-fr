@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="production-setup-requirements"></a>Conditions requises pour le paramétrage de la production
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article fournit des informations sur les conditions requises pour le paramétrage avant d'utiliser le contrôle de la production. 
 

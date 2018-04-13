@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="set-up-and-create-depreciation-profiles"></a>Paramétrer et créer des profils d'amortissement
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Les profils d'amortissement déterminent le type et la fréquence d'amortissement d'une immobilisation.   La société fictive USMF et le rôle de comptable sont cités en exemple dans cet enregistrement.
 

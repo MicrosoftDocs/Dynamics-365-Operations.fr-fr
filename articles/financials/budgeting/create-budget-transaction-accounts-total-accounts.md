@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="create-a-budget-from-transaction-accounts-and-total-accounts"></a>Créer un budget à partir des comptes de transactions et des comptes de type Total
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article fournit une vue d'ensemble du processus de création des budgets en fonction des comptes de type total. Il décrit également comment activer le contrôle budgétaire des comptes de type total, si le contrôle budgétaire est requis.
 

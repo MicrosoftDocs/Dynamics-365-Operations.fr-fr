@@ -28,7 +28,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="service-objects"></a>Objets du service 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Les objets de service sont des actifs et des produits d'un client pour lesquels vous pouvez effectuer un service. Selon le type de service fourni, les objets peuvent être tangibles ou intangibles :
 

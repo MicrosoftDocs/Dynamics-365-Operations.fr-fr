@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="define-new-jobs"></a>Définir les nouvelles tâches
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette tâche se concentre sur la création d'une nouvelle tâche. Elle est effectuée à l'aide de la saisie manuelle et de la copie à partir de la fonctionnalité de modèle. Les données fictives utilisées pour créer cette tâche correspondent à la société USMF. Cette tâche est destinée au spécialiste en ressources humaines.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Planifier des itinéraires de transport de fret avec plusieurs arrêts
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article décrit les différents éléments que vous utilisez pour planifier des routes de transport dans Microsoft Dynamics 365 for Finance and Operations.
 

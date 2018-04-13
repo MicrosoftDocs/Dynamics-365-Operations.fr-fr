@@ -27,8 +27,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="upgrade-budget-planning"></a>Mise à jour de la planification budgétaire
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Il existe des différences significatives dans la planification budgétaire entre Microsoft Dynamics AX 2012 et Microsoft Dynamics 365 for Finance and Operations. Certaines fonctions n'ont pas été mises à jour et nécessitent par conséquent une reconfiguration. Cette rubrique explique ce qui doit être reconfiguré et décrit également les nouvelles fonctions qui doivent être examinées après la mise à niveau.  
 
@@ -70,26 +69,27 @@ Pour vous aider à déterminer comment configurer le système mis à niveau, l'e
 
 ### <a name="define-columns-and-layouts"></a>Définir les colonnes et les mises en page
 
-1.  Sur la page **Configuration de planification budgétaire**, cliquez sur l'onglet **Colonnes**. Dans le cadre de la mise à niveau, de nouvelles colonnes sont créées automatiquement en fonction de vos lignes de plan budgétaire. Les colonnes utilisent désormais des dates dynamiques, où l'heure et l'année sont déduites de l'exercice défini dans le processus de planification budgétaire. **Remarque :** pour des raisons de performances lors de la mise à niveau, il est supposé que tous les cycles budgétaires représentent des années civiles, et non des exercices. Si vous utilisez des exercices, vous devez apporter des modifications pour bien mettre en correspondance les colonnes et leur exercice. Par exemple, les éléments suivants existaient dans AX 2012 :
-    -   Scénarios de plan budgétaire : Chiffres réels, Référence, Demande budgétaire, Budget approuvé
-    -   Lignes de plan budgétaire pour tous les scénarios en 2017, et chiffres réels pour 2017 et 2016
+1. Sur la page **Configuration de planification budgétaire**, cliquez sur l'onglet **Colonnes**. Dans le cadre de la mise à niveau, de nouvelles colonnes sont créées automatiquement en fonction de vos lignes de plan budgétaire. Les colonnes utilisent désormais des dates dynamiques, où l'heure et l'année sont déduites de l'exercice défini dans le processus de planification budgétaire. **Remarque :** pour des raisons de performances lors de la mise à niveau, il est supposé que tous les cycles budgétaires représentent des années civiles, et non des exercices. Si vous utilisez des exercices, vous devez apporter des modifications pour bien mettre en correspondance les colonnes et leur exercice. Par exemple, les éléments suivants existaient dans AX 2012 :
+   -   Scénarios de plan budgétaire : Chiffres réels, Référence, Demande budgétaire, Budget approuvé
+   -   Lignes de plan budgétaire pour tous les scénarios en 2017, et chiffres réels pour 2017 et 2016
 
-    Les colonnes suivantes sont créées dans Finance and Operations :
-    | Nom de la colonne    | Scénario de plan budgétaire | Période de la colonne | Contrepartie de l'année |
-    |----------------|----------------------|--------------------|-------------|
-    | Scénario 1 Janvier | Chiffres réels              | 1                  | 0           |
-    | Scénario 2 Janvier | Référence             | 1                  | 0           |
-    | Scénario 3 Janvier | Demande budgétaire       | 1                  | 0           |
-    | Scénario 4 Janvier | Budget approuvé      | 1                  | 0           |
-    | Scénario 5 Janvier | Chiffres réels              | 1                  | -1          |
-    | Scénario 1 Février | Chiffres réels              | 1                  | 0           |
-    | ...            | ...                  | ...                | ...         |
+   Les colonnes suivantes sont créées dans Finance and Operations :
 
-    Dans cet exemple, une colonne appelée **Scénario 1 Janvier** est créée pour les données de transaction du plan budgétaire les plus récentes qui se trouvent là où des transactions existent en janvier. Une colonne similaire est créée pour chaque scénario qui contient des données. Une fois les colonnes créées pour toutes les périodes de cette année, des colonnes sont créées pour les années précédentes.
-2.  Modifiez les noms et descriptions de colonne, et les autres détails, soit manuellement dans le client soit en effectuant des mises à jour en vrac dans le complément Excel qui pointe vers l'entité de données des colonnes du plan budgétaire. Tous les filtres qui ont été définis précédemment pour les champs de matrice sont maintenant définis dans les colonnes.
-3.  Créez une nouvelle mise en page de plan budgétaire. Une mise en page pointe vers plusieurs colonnes pour définir l'affichage qui apparaît dans Excel et le client. La mise en page nécessite d'abord que vous spécifiez un ensemble de dimensions comptables pour déterminer les dimensions financières qui peuvent être entrées. Une fois que vous avez spécifié l'ensemble de dimensions, cliquez sur **Description** pour sélectionner des descriptions de dimension à inclure dans la mise en page.
-4.  Dans l'organisateur **Éléments de mise en page**, cliquez sur **Ajouter** pour ajouter les métadonnées pour chaque ligne, telles qu'une devise, un commentaire, ou une classe de budget qui détermine le produit par rapport aux lignes de dépense. Ensuite, ajoutez les colonnes pour la période, et les scénarios qui s'appliquent à ce cycle budgétaire et à ce stade. Vous pouvez effectuer ces modifications manuellement dans le client ou via le complément Excel qui pointe vers l'entité de données des éléments de mise en page du plan budgétaire.
-5.  Pour chaque élément de mise en page, indiquez si la colonne doit être modifiée, et si la colonne doit également être affichée dans le classeur Excel pour cette mise en page. **Remarque :** pour nos plans historiques, il peut être utile d'utiliser une mise en page qui indique 12 colonnes mensuelles pour tous les scénarios de plan budgétaire de ce processus.
+   | Nom de la colonne    | Scénario de plan budgétaire | Période de la colonne | Contrepartie de l'année |
+   |----------------|----------------------|--------------------|-------------|
+   | Scénario 1 Janvier | Chiffres réels              | 1                  | 0           |
+   | Scénario 2 Janvier | Référence             | 1                  | 0           |
+   | Scénario 3 Janvier | Demande budgétaire       | 1                  | 0           |
+   | Scénario 4 Janvier | Budget approuvé      | 1                  | 0           |
+   | Scénario 5 Janvier | Chiffres réels              | 1                  | -1          |
+   | Scénario 1 Février | Chiffres réels              | 1                  | 0           |
+   | ...            | ...                  | ...                | ...         |
+
+   Dans cet exemple, une colonne appelée **Scénario 1 Janvier** est créée pour les données de transaction du plan budgétaire les plus récentes qui se trouvent là où des transactions existent en janvier. Une colonne similaire est créée pour chaque scénario qui contient des données. Une fois les colonnes créées pour toutes les périodes de cette année, des colonnes sont créées pour les années précédentes.
+2. Modifiez les noms et descriptions de colonne, et les autres détails, soit manuellement dans le client soit en effectuant des mises à jour en vrac dans le complément Excel qui pointe vers l'entité de données des colonnes du plan budgétaire. Tous les filtres qui ont été définis précédemment pour les champs de matrice sont maintenant définis dans les colonnes.
+3. Créez une nouvelle mise en page de plan budgétaire. Une mise en page pointe vers plusieurs colonnes pour définir l'affichage qui apparaît dans Excel et le client. La mise en page nécessite d'abord que vous spécifiez un ensemble de dimensions comptables pour déterminer les dimensions financières qui peuvent être entrées. Une fois que vous avez spécifié l'ensemble de dimensions, cliquez sur **Description** pour sélectionner des descriptions de dimension à inclure dans la mise en page.
+4. Dans l'organisateur **Éléments de mise en page**, cliquez sur **Ajouter** pour ajouter les métadonnées pour chaque ligne, telles qu'une devise, un commentaire, ou une classe de budget qui détermine le produit par rapport aux lignes de dépense. Ensuite, ajoutez les colonnes pour la période, et les scénarios qui s'appliquent à ce cycle budgétaire et à ce stade. Vous pouvez effectuer ces modifications manuellement dans le client ou via le complément Excel qui pointe vers l'entité de données des éléments de mise en page du plan budgétaire.
+5. Pour chaque élément de mise en page, indiquez si la colonne doit être modifiée, et si la colonne doit également être affichée dans le classeur Excel pour cette mise en page. **Remarque :** pour nos plans historiques, il peut être utile d'utiliser une mise en page qui indique 12 colonnes mensuelles pour tous les scénarios de plan budgétaire de ce processus.
 
 ### <a name="update-budget-planning-processes-to-use-the-appropriate-layout-for-each-budget-stage"></a>Mettez les processus de planification budgétaire à jour pour utiliser la mise en page appropriée pour chaque stade de budget
 

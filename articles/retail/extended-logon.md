@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="set-up-extended-logon-functionality-for-cloud-pos-and-mpos"></a>Paramétrer une fonctionnalité de connexion étendue pour Cloud POS et MPOS
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Cette rubrique couvre les options de configuration de la connexion étendue pour Cloud POS et Retail Modern POS (MPOS).
 

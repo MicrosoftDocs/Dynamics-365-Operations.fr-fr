@@ -29,8 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="plan-for-one-time-vendors-in-the-public-sector"></a>Planifier pour les fournisseurs occasionnels dans le secteur public
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article fournit des informations sur l'importation et la création de fournisseurs occasionnels et de factures. 
 
@@ -88,6 +87,7 @@ Le tableau suivant répertorie les champs que le fichier d'importation doit cont
 
 
 **Section de distribution**
+
 | Champ                                                | Détails                                  |
 |------------------------------------------------------|------------------------------------------|
 | Nombre                                               | Numéro de ligne de répartition comptable      |

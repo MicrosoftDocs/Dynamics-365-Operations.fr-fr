@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-replacement-kanban-rule"></a>Créer une règle de kanban de remplacement
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure se concentre sur le remplacement d'une règle de kanban existante par une nouvelle règle de kanban à une date spécifique. Cela est utile lorsque des modifications du flux de production ou des règles de réapprovisionnement doivent être coordonnés et planifiées. La société fictive de démonstration utilisée pour créer cette procédure est USMF. Cette procédure est destinée à l'ingénieur processus ou au responsable de la chaîne de valeur quand ils préparent la production pour un flux de production modifié ou une nouvelle règle d'approvisionnement. Cette tâche remplace la règle de kanban 000022 par une nouvelle règle et augmente la quantité maximale de 48 à 100 pour cette nouvelle règle.
 

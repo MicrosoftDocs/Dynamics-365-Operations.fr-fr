@@ -29,8 +29,7 @@ ms.lasthandoff: 01/17/2018
 
 # <a name="prerequisites-for-standard-costs"></a>Prérequis pour les coûts standard
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique décrit les étapes essentielles de l'utilisation des coûts standard. Les étapes suivantes dépendent des opérations de la société. Par exemple, les étapes diffèrent pour un environnement hors fabrication, un environnement de fabrication qui n'utilise pas de gammes et un environnement de fabrication qui utilise des gammes. 
 

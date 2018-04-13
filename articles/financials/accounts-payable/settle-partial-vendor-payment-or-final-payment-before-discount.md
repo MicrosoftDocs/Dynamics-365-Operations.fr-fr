@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Règlement d'un paiement fournisseur partiel et règlement total du paiement final avant la date de remise
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article vous fait parcourir les étapes d'un scénario dans lequel des paiements partiels sont effectués pour une facture fournisseur et un escompte de règlement est prélevé.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-an-organization-report-hierarchy"></a>Créer une hiérarchie d'états d'organisation
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Utilisez cette procédure pour créer une hiérarchie d'état pour la génération d'états d'organisation. Cet enregistrement a pour but de vous guider dans la hiérarchie de dimension afin que vous puissiez continuer jusqu'à ce que la structure de génération d'états d'organisation soit créée. Cet enregistrement utilise la société fictive USP2.
 

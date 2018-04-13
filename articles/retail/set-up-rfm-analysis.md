@@ -29,8 +29,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="set-up-rfm-analysis"></a>Paramétrer l'analyse RFM
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Cette rubrique décrit comment paramétrer une analyse RFM (récence, fréquence et valeur monétaire) de vos clients.
 
@@ -60,25 +59,25 @@ Si votre organisation utilise un nombre entier pour le score, les classements in
     - Si chaque section du score RFM doit contenir un nombre égal de clients, activez la case à cocher **Distribution égale**. 
     - Activez la case à cocher **Ajouter des scores** pour additionner les trois scores. Par exemple, le client aurait un score RFM de 13 au lieu de 535. 
     - Activez la case à cocher **Enregistrer l'historique** pour exiger que le système enregistre les données statistiques des clients afin que les données puissent être utilisées pour calculer le score RFM.
-  
+
 5.  Dans l'organisateur **Récence**, procédez comme suit : 
     - Dans le champ **Dvisions**, entrez le nombre de divisions ou de groupes qui seront utilisés pour calculer le score de récence des clients. Par exemple, si vous avez 100 clients, une division de 5 signifie qu'il y a 20 clients pour chaque score. Les 20 clients qui ont effectué des achats le plus récemment ont un score de récence de 5. Les 20 clients suivants ont un score de récence de 4, etc. Si vous avez 50 clients, 10 clients ont un score de récence de 5, 10 ont un score de récence de 4, etc. 
     - Dans le champ **Priorité**, sélectionnez l'importance du paramètre de récence par rapport aux autres paramètres lorsque le score RFM est calculé pour un client. Par exemple, vous pouvez accorder plus d'importance au score de récence qu'au score monétaire. 
     - Dans le champ **Multiplicateur**, entrez la valeur par laquelle multiplier le score de récence. Si vous n'entrez pas de valeur, le score ne sera pas multiplié. 
     - Dans le champ **Période**, sélectionnez la période pendant laquelle le score de récence est calculé. Par exemple, par semaine ou par mois.
-   
+
 6.  Dans l'organisateur **Fréquence**, procédez comme suit : 
     - Dans le champ **Divisions**, entrez le nombre de divisions ou de groupes qui seront utilisés pour calculer le score de fréquence des clients. 
     - Dans le champ **Priorité**, sélectionnez l'importance du paramètre de fréquence par rapport aux autres paramètres lorsque le score RFM est calculé pour un client. 
     - Dans le champ **Multiplicateur**, entrez la valeur par laquelle multiplier le score de fréquence. Si vous n'entrez pas de valeur, le score ne sera pas multiplié.
-   
+
 7.  Dans l'organisateur **Monétaire**, procédez comme suit : 
     - Dans le champ **Divisions**, entrez le nombre de divisions ou de groupes qui seront utilisés pour calculer le score monétaire des clients. 
     - Dans le champ **Priorité**, sélectionnez l'importance du paramètre monétaire par rapport aux autres paramètres lorsque le score RFM est calculé pour un client. 
     - Dans le champ **Multiplicateur**, entrez la valeur par laquelle multiplier le score monétaire. Si vous n'entrez pas de valeur, le score ne sera pas multiplié. 
     - Dans le champ **Brut/net**, indiquez si le score monétaire du client doit être calculé à l'aide du montant net ou brut des factures. 
     - Si les montants des retours client doivent être soustraits du calcul du total des factures du client, activez la case à cocher **Soustraire les retours**. 
- 
+
 ## <a name="view-a-customers-rfm-score"></a>Affichage du score RFM d'un client
 Suivez cette procédure pour afficher le score RFM d'un client. 
 

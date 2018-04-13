@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>Télécharger les configurations des états électroniques à partir de Lifecycle Services
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique explique comment télécharger des configurations d'états électroniques à partir de Microsoft Dynamics Lifecycle Services (LCS).
 

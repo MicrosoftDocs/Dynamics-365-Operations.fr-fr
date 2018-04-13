@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="enter-account-and-dimension-combinations-segmented-entry-control"></a>Entrer des combinaisons de compte et de dimensions (contrôle d'accès segmenté)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article décrit comment entrer des combinaisons de comptes et de dimensions ou de comptes généraux. L'expérience de saisie est souvent appelée « contrôle d'accès segmenté ».
 
@@ -112,7 +111,7 @@ Le tableau suivant décrit les raccourcis clavier qui peuvent être utilisés lo
 </tbody>
 </table>
 
- 
+
 
 
 

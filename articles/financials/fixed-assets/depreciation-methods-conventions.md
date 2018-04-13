@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="depreciation-methods-and-conventions"></a>Méthodes et conventions d'amortissement
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article fournit une vue d'ensemble des conventions d'amortissement et des méthodes d'amortissement prises en charge par Microsoft Dynamics 365 for Finance and Operations.
 
@@ -62,7 +61,7 @@ Vous pouvez choisir parmi les méthodes d'amortissement suivantes.
 -   Amortissement dégressif de 150 %
 -   Amortissement dégressif de 125 %
 
- 
+
 
 
 

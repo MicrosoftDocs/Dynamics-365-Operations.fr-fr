@@ -29,10 +29,9 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="tracking-running-average-cost-per-inventory-dimension"></a>Suivi du coût moyen en vigueur par dimension de stock
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Un groupe de dimensions de stock est associé à chaque article en stock. Par conséquent, le prix de revient moyen en vigueur d'un article est calculé à partir des dimensions de stock sélectionnées qui sont suivies au niveau financier.
 

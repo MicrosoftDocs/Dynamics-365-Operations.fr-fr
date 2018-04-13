@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="sales-tax-payments-and-rounding-rules"></a>Règles d'arrondissement et de paiements de taxe
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article explique le fonctionnement du paramétrage de la règle d'arrondi sur les administrations fiscales et de l'arrondi du solde de taxe au cours de la tâche Régler et valider la taxe.
 

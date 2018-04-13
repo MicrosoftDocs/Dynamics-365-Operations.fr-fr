@@ -24,7 +24,7 @@ ms.lasthandoff: 02/13/2018
 ---
 # <a name="create-routes-february-2016-only"></a>Créer des gammes (février 2016 uniquement)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette tâche consiste à créer des gammes de production pur un produit fini et semi-fini. Il s'agit de la cinquième tâche dans la série de calculs des nomenclatures. Les données fictives utilisées pour créer cette tâche correspondent à la société USMF.
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 02/13/2018
 
 # <a name="master-planning-home-page"></a>Page d'accueil de la planification
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 La planification permet essentiellement aux sociétés de déterminer et d'équilibrer les futurs besoins en matières premières et en capacités afin d'atteindre leurs objectifs. La planification évalue les éléments suivants : 
 
@@ -58,6 +57,7 @@ Le programme de formation suivant montre les principaux concepts et tâches qui 
 [![Programme de formation pour la planification](./media/master-planning-learning-map.png)](./media/master-planning-learning-map.png)
 
 ## <a name="quick-links"></a>Liens rapides
+
 |      |   |
 |------|---|
 |        [Plans généraux](master-plans.md)       |     [Générer un plan avec contrainte](./tasks/constrained-plan.md)  |

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/14/2017
 
 # <a name="call-center-functionality"></a>Fonctionnalité de centre d'appels
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Cet article fournit une vue d'ensemble de la fonctionnalité de vente des centres d'appels dans Microsoft Dynamics 365 for Retail.
 

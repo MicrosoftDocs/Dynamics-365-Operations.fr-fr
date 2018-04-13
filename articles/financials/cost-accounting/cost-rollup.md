@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Stratégie de repositionnement des coûts et calcul des frais généraux 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Le contrôle de gestion vous permet de mieux comprendre comment le flux des coûts se rapporte aux produits et services fournis dans une organisation. Pour voir la transparence des coûts, il est primordial d'effectuer la répartition des coûts entre les objets de coût en fonction d'une base de répartition appropriée. Par défaut, la répartition des coûts est effectuée pour l'élément de coût principal, qui est désiré dans certains cas, mais elle comporte certaines implications qui doivent être prises en compte.
 

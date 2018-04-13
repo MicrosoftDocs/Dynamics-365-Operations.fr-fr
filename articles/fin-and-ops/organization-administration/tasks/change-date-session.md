@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="change-the-date-for-the-session"></a>Modifier la date de la session
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Par défaut, la date actuelle est utilisée lors de la saisie et la validation des écritures de journal ou des documents source. Vous pouvez modifier la date utilisée pour votre session active. Utilisez cette fonction pour antidater des écritures de journal ou des documents source, le cas échéant.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="base-price-and-trade-agreements"></a> Prix de base et accords commerciaux
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Cette procédure décrit la création d'accords commerciaux sur les prix de vente spécifiques au canal. La société fictive USRT sert d'exemple dans cette procédure.
 

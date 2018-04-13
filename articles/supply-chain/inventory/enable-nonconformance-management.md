@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="nonconformance-management"></a>Gestion de la non-conformité
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article décrit le paramétrage de base requis afin d'utiliser les non-conformités. Un paramétrage supplémentaire est requis si vous souhaitez utiliser des ordres de qualité.
 

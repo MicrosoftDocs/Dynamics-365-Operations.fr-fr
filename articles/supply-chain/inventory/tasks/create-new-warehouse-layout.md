@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-new-warehouse-layout"></a>Créer une structure d'entrepôt
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure vous montre comment définir des informations sur les emplacements d'un entrepôt. Cela s'applique uniquement aux entrepôts créés à l'aide de « l'entreposage de base » dans le module Gestion des stocks, pas aux entrepôts créés dans le module Gestion des entrepôts. Vous pouvez utiliser cette procédure dans la société USMF fictive ou utiliser vos propres données.
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="operations-resources"></a>Ressources Operations
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Les ressources opérationnelles réalisent les activités d'un projet ou d'un processus de production. Elles peuvent être de différents types et avoir différentes capacités. 
 

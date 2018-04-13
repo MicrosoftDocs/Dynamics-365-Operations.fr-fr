@@ -27,8 +27,7 @@ ms.lasthandoff: 02/14/2018
 
 # <a name="derogatory-depreciation-for-france"></a>Amortissement dérogatoire pour la France
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article fournit des informations sur l'amortissement dérogatoire et la manière de le paramétrer. Dans l'amortissement dérogatoire, un montant d'amortissement supplémentaire est calculé comme étant la différence entre le montant d'amortissement du Registre des taxes et le montant d'amortissement du livre comptable pendant la durée de vie d'une immobilisation.
 

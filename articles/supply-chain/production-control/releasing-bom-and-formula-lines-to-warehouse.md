@@ -27,7 +27,7 @@ ms.lasthandoff: 03/07/2018
 
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Lancer les lignes de nomenclature et de formule dans l'entrepôt
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique décrit le processus de lancement des matières premières des lignes de nomenclature et de formule dans l'entrepôt. Lorsque vous lancez une ligne de nomenclature ou de formule dans l'entrepôt, le système détermine d'abord si les matières sont déjà disponibles dans l'emplacement d'entrée en production de l'atelier où les matières sont consommées pour le processus de production.
 
@@ -44,7 +44,7 @@ La méthode utilisée pour lancer les lignes de nomenclature et de formule est c
 - **Lancer les lignes de nomenclature et de formule via un traitement par lots ou en tant qu'interaction manuelle** – Dans cette méthode, les lignes de nomenclature et de formule ne peuvent être lancées que via le traitement par lots **Lancement automatique des lignes de nomenclature et de formule** ou en tant qu'interaction manuelle. Pour lancer manuellement les lignes de nomenclature et de formule, dans la page de liste des ordres de fabrication ou la page des détails de l'ordre de fabrication, dans le volet Actions, sélectionnez **Libérer dans l'entrepôt**.
 
 Pour une démonstration rapide de la façon de libérer des lignes de nomenclature et des formules en production à l'aide d'un traitement par lots, visionnez cette petite vidéo YouTube :
-[!Video https://www.youtube.com/embed/8urAJn50dQ8]
+[!Video <https://www.youtube.com/embed/8urAJn50dQ8>]
 
 ## <a name="releasing-the-bom-and-formula-lines-by-using-a-batch-job"></a>Lancement des lignes de nomenclature et de formule à l'aide d'un traitement par lots
 
@@ -86,7 +86,7 @@ L'illustration suivante présente un ordre de fabrication contenant deux opérat
 ![Exemple de lancement de matières par numéro d'opération](media/two-operations.PNG)
 
 Pour une démonstration rapide de la façon de lancer des matières en proportion à la quantité de produits finis, regardez cette petite vidéo YouTube :
-[!Video https://www.youtube.com/embed/Rm3ojAz6Zu0]
+[!Video <https://www.youtube.com/embed/Rm3ojAz6Zu0>]
 
 ### <a name="release-material-in-proportion-to-the-amount-of-finished-goods"></a>Lancer les matières sur la base de la quantité de produits finis
 

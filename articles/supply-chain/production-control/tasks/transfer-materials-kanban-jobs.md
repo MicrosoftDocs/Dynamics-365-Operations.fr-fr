@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="transfer-materials-with-kanban-jobs-february-2016-only"></a>Transférer des matières avec des tâches de kanban (février 2016 uniquement)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure traite de l'exécution d'une tâche de kanban de prélèvement pour transférer des matériaux. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Cette procédure est destinée au magasinier.
 

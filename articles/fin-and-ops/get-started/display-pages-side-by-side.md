@@ -27,8 +27,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="display-pages-side-by-side-using-the-open-in-new-window-icon"></a>Afficher côte à côte des pages à l'aide de l'icône Ouvrir dans une nouvelle fenêtre
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article explique comment afficher des pages côte à côte dans Microsoft Dynamics 365 for Finance and Operations.
 

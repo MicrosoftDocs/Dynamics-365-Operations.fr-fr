@@ -28,14 +28,14 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="financial-report-components"></a>Composants des rapports financiers
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article décrit l’utilisation des composants ou des blocs élémentaires, de définitions d'état dans la génération d’états financiers. Ces blocs élémentaires incluent les définitions de lignes, les définitions de colonnes et les définitions d'arborescence de génération d'états. Cet article explique comment organiser et verrouiller des blocs élémentaires. 
 
 La philosophie de conception derrière le générateur d'états financiers consiste à décomposer les informations en composants ou blocs élémentaires les plus petits possibles, puis de mélanger et faire correspondre les composants selon les besoins. Par conséquent, votre mise en forme d'état est distincte de vos données financières, et vous pouvez modifier la mise ne page d'un état sans modifier les données financières de votre système Microsoft Dynamics ERP. En utilisant cette approche de bloc élémentaire, vous pouvez combiner le texte, les montants et les calculs afin de générer les rapports dont vous avez besoin. De plus, cette flexibilité encourage la créativité en simplifiant l'affichage de vos opérations de différentes manières. Les différents blocs élémentaires d'une définition de rapport sont similaires à une feuille de calcul tridimensionnelle, mais plus performants. Une définition de rapport précise la définition de ligne, de colonne et d'organigramme d'entreprise facultatif à utiliser pour le rapport. Elle comprend également les informations relatives à l'emplacement de stockage du rapport généré ainsi qu'à sa mise en page. 
 
 ## <a name="building-blocks-of-a-report"></a>Blocs élémentaires d'un rapport
+
 | Bloc élémentaire            | Description                     | Plus d'informations                                    |
 |---------------------------|---------------------------------|---------------------------------------------------------|
 | Définition de ligne            | Une définition de ligne définit les lignes descriptives, par exemple, les salaires ou les ventes, dans un rapport. Elle répertorie également les valeurs de segment ou les dimensions contenant les valeurs pour chaque article de ligne et inclut la mise en page et les calculs de ligne.                                                    | [Définitions de ligne](row-definitions-financial-reporting.md)                       |

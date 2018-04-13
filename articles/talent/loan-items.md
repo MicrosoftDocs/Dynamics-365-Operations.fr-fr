@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="manage-items-lent-to-workers"></a>Gérer les articles prêtés aux employés
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Les articles empruntés sont des enregistrements qui permettent aux responsables de suivre les articles physiques que votre société prête aux employés. 
 
@@ -51,7 +50,7 @@ Les responsables peuvent afficher les articles empruntés pour leurs états dire
 
 Si un article est endommagé ou égaré, entrez un enregistrement de retour fictif. Ensuite, supprimez l'article ou conservez-le dans la vue d'ensemble et modifiez la description pour indiquer que l'article n'est pas disponible.
 
- 
+
 <a name="see-also"></a>Voir également :
 --------
 

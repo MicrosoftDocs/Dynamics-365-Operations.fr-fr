@@ -26,7 +26,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="pos-improvements-for-serialized-products"></a>Améliorations apportées aux PDV pour les produits sérialisés
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 ## <a name="overview"></a>Vue d'ensemble 
 En fonction des paramètres de Retail Headquarters, les produits peuvent être classés comme étant sérialisés ou non sérialisés. Lorsque des produits sont sérialisés, chaque article peut recevoir un numéro unique qui permet de suivre les garanties, de tracer les articles et de confirmer la propriété. Bien que, la capacité à fournir des numéros de série pour les produits sérialisés existait dans notre point de vente (PDV) moderne/cloud, certaines améliorations ont été ajoutées pour permettre aux caissiers de gagner du temps et d'être plus productifs.  

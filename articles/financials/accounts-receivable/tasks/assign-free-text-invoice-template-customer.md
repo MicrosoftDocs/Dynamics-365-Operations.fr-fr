@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="assign-a-free-text-invoice-template-to-a-customer"></a>Affecter un modèle de facture financière à un client
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette tâche montre comment affecter un modèle de facture financière à un client. La société fictive USMF est citée en exemple dans cette tâche qui est destinée à l'utilisateur chargé de gérer et de traiter des factures de comptes clients.
 

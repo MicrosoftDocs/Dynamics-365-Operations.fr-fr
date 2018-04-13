@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="establish-customer-payment-terms"></a>Établir les conditions de paiement client
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure définit un escompte de règlement et une date d'échéance. La société fictive USMF sert d'exemple dans ce guide de tâche.
 

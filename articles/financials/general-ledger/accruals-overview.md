@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="accruals-overview"></a>Vue d'ensemble des régularisations
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article décrit les régularisations, et fournit des informations sur leur paramétrage pour créer des transactions.
 

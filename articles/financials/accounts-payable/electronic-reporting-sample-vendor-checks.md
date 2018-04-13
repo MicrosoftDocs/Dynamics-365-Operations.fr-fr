@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 
 ---
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 # <a name="electronic-reporting-sample-check-formats"></a>Gestion des états électroniques pour les formats de chèques
 

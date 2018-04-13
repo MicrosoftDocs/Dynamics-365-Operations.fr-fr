@@ -25,7 +25,7 @@ ms.lasthandoff: 02/08/2018
 ---
 
 # <a name="vendor-request-configurations"></a>Configuration des demandes fournisseur
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Pour effectuer une demande fournisseur, un contact fournisseur doit exécuter l'assistant d'enregistrement du fournisseur potentiel.
 
@@ -39,12 +39,12 @@ Par défaut, une configuration fournisseur est disponible dans l'écran Configur
 
 Il n'est pas possible de sélectionner un pays ou une région pour la configuration par défaut, la section **Pays/Régions** ne peut donc pas être modifiée.
 
-1.  Cliquez sur **Approvisionnements** > **Paramétrage** > **Fournisseurs**, puis cliquez sur **Configuration des demandes fournisseur**.
-2.  Cliquez sur l'onglet **Champs** pour définir le statut des champs répertoriés.
--   Masqué (pas visible)
--   Affiché (visible mais pas obligatoire)
--   Requis (visible et obligatoire)
-3.  Cliquez sur l'onglet **Contenu** pour indiquer si le texte doit être affiché dans l'assistant et si la confirmation de l'utilisateur fournisseur potentiel est requise avant de passer à l'étape suivante de l'assistant. Une confirmation est demandée pour les conditions générales que l'utilisateur doit accepter pour continuer.
+1. Cliquez sur **Approvisionnements** > **Paramétrage** > **Fournisseurs**, puis cliquez sur **Configuration des demandes fournisseur**.
+2. Cliquez sur l'onglet **Champs** pour définir le statut des champs répertoriés.
+3. Masqué (pas visible)
+4. Affiché (visible mais pas obligatoire)
+5. Requis (visible et obligatoire)
+6. Cliquez sur l'onglet **Contenu** pour indiquer si le texte doit être affiché dans l'assistant et si la confirmation de l'utilisateur fournisseur potentiel est requise avant de passer à l'étape suivante de l'assistant. Une confirmation est demandée pour les conditions générales que l'utilisateur doit accepter pour continuer.
 
 Vous pouvez également entrer un message de confirmation qui s'affiche lorsque l'assistant est finalisé, et vous pouvez ajouter un ou plusieurs questionnaires.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="define-vendor-payment-fees"></a>Définir les commissions de paiement fournisseur
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Paramétrez les frais de paiement fournisseur. La société fictive USMF est citée en exemple dans cette tâche.
 

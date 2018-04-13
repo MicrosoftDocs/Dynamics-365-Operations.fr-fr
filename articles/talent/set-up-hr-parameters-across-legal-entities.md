@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="set-up-hr-parameters-across-legal-entities"></a>Configuration des paramètres de RH dans les entités juridiques
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Vous devez définir des paramètres partagés pour les enregistrements communs à des sociétés, tels que les Enregistrements de poste. Cet article explique comment définir des paramètres de Ressources humaines communs à des entités juridiques.
 

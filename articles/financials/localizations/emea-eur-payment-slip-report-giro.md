@@ -27,8 +27,7 @@ ms.lasthandoff: 02/14/2018
 
 # <a name="payment-slip-report-for-europe"></a>État du bordereau de paiement pour l'Europe
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique fournit des informations sur les états de bordereau de paiement pour l'Europe.
 

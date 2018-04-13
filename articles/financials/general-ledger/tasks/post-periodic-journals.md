@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="post-periodic-journals"></a>Valider des journaux périodiques
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Les journaux périodiques sont parfois appelés journaux récurrents car le montant, le texte, ainsi que d'autres informations sont répétés à chaque extraction du journal périodique. Lorsque vous créez le journal périodique vous devez spécifier l'intervalle de périodes de la récurrence (des jours ou des mois, par exemple). Ce guide de tâche crée un journal périodique avec une récurrence mensuelle.
 

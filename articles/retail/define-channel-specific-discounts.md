@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="define-channel-specific-discounts"></a>Définir les remises spécifiques à un canal
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Les détaillants définissent souvent des remises dans différents canaux. Cette rubrique passe en revue les concepts que vous devez connaître pour créer une remise à un canal spécifique. 
 
@@ -61,7 +60,7 @@ L'exemple suivant illustre les tâches impliquées dans le paramétrage d'une re
 4.  Une fois la nouvelle remise **Back-to-School** créée, vous devez cliquer sur **Groupes de prix** en haut de la page **Remise**. La page **Groupes de prix après remise** s'ouvre. Cliquez ensuite sur **Nouveau** et sélectionnez le groupe de prix **Houston-PG**.
 5.  Vous pouvez désormais activer la remise et la transférer vers le canal.
 
- 
+
 
 <a name="see-also"></a>Voir également :
 --------

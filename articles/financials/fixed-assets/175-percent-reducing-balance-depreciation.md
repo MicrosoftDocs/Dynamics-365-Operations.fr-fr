@@ -28,8 +28,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="175-percent-reducing-balance-depreciation"></a>Amortissement dégressif de 175 %
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique donne une vue d'ensemble de la méthode d'amortissement dégressif de 175 %.
 
@@ -68,6 +67,7 @@ Si vous sélectionnez **Exercice** comme année d'amortissement, les options sui
 -   **Période fiscale** calcule le montant total de l'amortissement pour l'exercice. Ce montant est régularisé dans les périodes fiscales définies sur la page **Calendriers fiscaux**.
 
 ## <a name="example-of-175-reducing-balance-depreciation"></a>Exemple d'amortissement dégressif de 175 %
+
 |                                |        |
 |--------------------------------|--------|
 | Prix d'acquisition               | 11 000 |

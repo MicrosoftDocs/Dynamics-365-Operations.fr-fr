@@ -29,7 +29,7 @@ ms.lasthandoff: 03/07/2018
 
 # <a name="task-recorder-and-help-for-pos"></a>Enregistreur de tâches et aide de PDV
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Cette rubrique décrit comment utiliser l'enregistreur de tâches dans Retail Modern POS et Cloud POS.
 

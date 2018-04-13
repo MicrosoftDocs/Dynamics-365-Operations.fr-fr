@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="report-as-finished-to-a-plate-controlled-location"></a>Déclarer comme terminé à un emplacement de contrôle de contenant 
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Ce guide de tâche présente un exemple de déclaration de fin à un emplacement qui ne fait pas l'objet d'un contrôle de contenant. Une stratégie de travail applicable correspond est une condition préalable pour cette tâche. Un guide de tâche précédent a indiqué le paramétrage de la stratégie de travail. L'application Dynamics AX 7.0.1 ou ultérieure est requise pour ce guide de tâche.
 

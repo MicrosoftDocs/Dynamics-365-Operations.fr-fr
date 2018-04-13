@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="modify-a-format-by-reapplying-a-microsoft-excel-template-for-electronic-reporting-er"></a>Modifier un format de gestion d'états électroniques en réappliquant un modèle Microsoft Excel (ER)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Pour réaliser les étapes de cette procédure, vous devez d'abord effectuer la procédure, ER - Concevoir une configuration pour générer des états au format OPENXML ».
 

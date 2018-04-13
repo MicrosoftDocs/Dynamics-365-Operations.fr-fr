@@ -29,8 +29,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="arrival-overview"></a>Vue d'ensemble des arrivées
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique fournit des informations sur la fonctionnalité Vue d'ensemble des arrivées. La page Vue d'ensemble des arrivées fait partie de cette fonction et fournit une vue d'ensemble de tous les articles attendus en tant qu'articles entrants.
 

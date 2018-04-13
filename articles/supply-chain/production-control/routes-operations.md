@@ -29,8 +29,7 @@ ms.lasthandoff: 03/09/2018
 
 # <a name="routes-and-operations"></a>Gammes et opérations
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique fournit des informations sur les gammes et les opérations. Une gamme définit le processus de fabrication d'un produit ou d'une variante de produit. Elle décrit chaque étape (opération) dans le processus de fabrication et l'ordre dans lequel ces étapes doivent être effectuées. Pour chaque étape, la gamme définit également les ressources opérationnelles requises, la durée de configuration et d'exécution requise et la manière dont le coût doit être calculé.
 

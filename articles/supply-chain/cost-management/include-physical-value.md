@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="include-physical-value"></a>Inclure la valeur physique
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Vous utilisez la case à cocher Inclure la valeur physique dans l'organisateur Modèle de stock de la page Groupes de modèles d'article pour spécifier si les transactions mises à jour physiquement sont considérées dans le calcul du prix de revient moyen en cours pour un article.
 

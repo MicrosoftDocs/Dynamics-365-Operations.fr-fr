@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="expense-policies"></a>Stratégies des dépenses
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Vous pouvez définir des stratégies ou règles que vos collaborateurs sont tenus de suivre lorsqu'ils entrent et soumettent des états de dépenses et des demandes de voyage.         
 L'application de stratégies des dépenses permet une gestion efficace des dépenses.         
@@ -39,14 +39,14 @@ définissez la stratégie.
 Vous pouvez définir trois types de stratégies :         
         
 - Avertissement – Permet au travailleur d'envoyer un état de dépenses ou une demande de voyage, mais la dépense sera marquée pour tous les approbateurs et        
-pour un état ultérieur.        
+  pour un état ultérieur.        
 
 - Erreur – Nécessite que le travailleur modifie la dépense pour respecter la stratégie avant d'envoyer l'état de dépenses ou la demande de voyage.       
  
- - Justification – Nécessite que le travailleur ou un responsable entre une justification du dépassement du montant prévu par la stratégie avant d'envoyer l'état de dépenses ou la demande de voyage.        
+  - Justification – Nécessite que le travailleur ou un responsable entre une justification du dépassement du montant prévu par la stratégie avant d'envoyer l'état de dépenses ou la demande de voyage.        
  
- Vous pouvez également paramétrer une plage de dates pendant laquelle les stratégies des dépenses s'appliquent. Par exemple, il se peut que le prix des vols entre le Danemark      
- et New York soient chers pendant la période de vacances. Vous pouvez définir une règle de frais de vol limitant      
- les frais des vols vers New York à 5 000 DKK et spécifier que cette règle s'applique entre le 15 mars et      
- le 15 septembre.
+  Vous pouvez également paramétrer une plage de dates pendant laquelle les stratégies des dépenses s'appliquent. Par exemple, il se peut que le prix des vols entre le Danemark      
+  et New York soient chers pendant la période de vacances. Vous pouvez définir une règle de frais de vol limitant      
+  les frais des vols vers New York à 5 000 DKK et spécifier que cette règle s'applique entre le 15 mars et      
+  le 15 septembre.
 

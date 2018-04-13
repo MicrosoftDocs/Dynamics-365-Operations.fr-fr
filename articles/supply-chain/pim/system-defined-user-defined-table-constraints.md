@@ -29,8 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="system-defined-and-user-defined-table-constraints"></a>Contraintes de table définies par l'utilisateur et par le système
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article explique les deux types de contraintes de table pour les composants d'un modèle de configuration de produit : définie par l'utilisateur et définie par le système. Les contraintes de table représentent des matrices des combinaisons d'attributs autorisées dans lesquelles chaque ligne définit un ensemble de valeurs d'attribut possibles.
 

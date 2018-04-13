@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="create-a-bill-of-lading"></a>Créer une feuille de chargement
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique décrit la procédure de création d'une feuille de chargement lors de l'utilisation des processus de gestion des entrepôts.  
 

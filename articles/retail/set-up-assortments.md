@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="set-up-assortments"></a>Paramétrage d'assortiments
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Cet article décrit ce qu'est un assortiment et explique comment paramétrer des assortiments dans Microsoft Dynamics 365 for Retail.
 

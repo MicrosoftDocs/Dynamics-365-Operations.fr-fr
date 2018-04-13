@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="map-components-of-the-created-format-to-data-model-elements-for-electronic-reporting-er"></a>Mapper les composants du format créé aux éléments de modèle de données pour la gestion des états électroniques (ER)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 La procédure suivante explique comment un utilisateur dont le rôle est Administrateur système ou Développeur d'états électroniques peut mettre en correspondance des éléments de modèle de données aux composants de la configuration de la gestion des états électroniques, qui définit un format de document électronique pour le domaine de paiements de l'entreprise. Ce format sera utilisé ultérieurement pour générer des documents électroniques pour traiter les paiements. Dans cet exemple, vous créerez une configuration de format pour la société fictive, Litware, Inc. Ces étapes peuvent être effectuées dans n'importe quelle société car les fournisseurs de configurations ER sont partagés pour toutes les sociétés. Pour mener à bien ces étapes, vous devez d'abord effectuer les étapes du Guide de tâche « Créer une configuration de format ».
 

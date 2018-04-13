@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="update-standard-costs-for-a-new-manufactured-item"></a>Mettre à jour des coûts standard pour un nouvel article fabriqué
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article fournit des instructions pour mettre à jour les coûts standard pour un nouvel article fabriqué. 
 

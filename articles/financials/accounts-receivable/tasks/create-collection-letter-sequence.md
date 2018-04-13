@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-collection-letter-sequence"></a>Créer une série de lettres de relance
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Utilisez ce guide de tâche pour créer une série de lettres de relance. La société fictive USMF est citée en exemple dans cette tâche.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 02/23/2018
 
 # <a name="set-up-training-courses"></a>Paramétrer les cours de formation
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Les administrateurs des ressources humaines et les responsables peuvent utiliser les fonctionnalités du cours pour tenir à jour des informations sur la formation qui est offerte aux employés.
 
@@ -81,15 +80,15 @@ Le tableau suivant répertorie les trois types de paramétrage pour les cours. L
 
 ## <a name="course-tasks"></a>Tâches de cours
 Pour chaque cours, vous pouvez effectuer les tâches suivantes.
--   Enregistrer les participants
--   Spécifier une date limite d'inscription
--   Définir le nombre minimal et le nombre maximal de participants
--   Affecter un lieu de cours et une classe
--   Recommander des hôtels aux participants
--   Créer une description du cours, que vous pouvez ensuite annoncer sur le libre-service pour employés
+- Enregistrer les participants
+- Spécifier une date limite d'inscription
+- Définir le nombre minimal et le nombre maximal de participants
+- Affecter un lieu de cours et une classe
+- Recommander des hôtels aux participants
+- Créer une description du cours, que vous pouvez ensuite annoncer sur le libre-service pour employés
 
   >**Remarque** : vous pouvez supprimer un cours uniquement si personne n'y est inscrit. 
-    
+
 ## <a name="course-statuses"></a>Statuts de cours
 Le tableau suivant répertorie les statuts de cours possibles et les actions que vous pouvez effectuer lorsque le cours a un statut spécifique.
 

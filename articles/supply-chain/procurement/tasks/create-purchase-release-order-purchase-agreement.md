@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-purchase-release-order-from-a-purchase-agreement"></a>Créer un ordre de lancement d'achat à partir d'un contrat d'achat
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure indique comment utiliser un contrat d'achat lorsque vous créez une commande fournisseur. Le contrat d'achat doit être appliqué lorsque vous créez la commande fournisseur car il existe des conditions générales qui doivent être copiées dans l'en-tête de la commande fournisseur. Cette tâche est généralement effectuée par un agent des achats. Comme préalable à ce guide, vous devez posséder un contrat d'achat effectif avec un engagement de quantité de produits pour un fournisseur et des articles. La même procédure peut être utilisée si vous avez un contrat d'achat avec d'autres types d'engagements. Vous pouvez exécuter ce guide dans les données de démonstration de la société fictive USMF. Si vous utilisez USMF, vous pouvez d'abord exécuter le guide « Créer un contrat d'achat » pour paramétrer les conditions préalables nécessaires pour ce guide.
 

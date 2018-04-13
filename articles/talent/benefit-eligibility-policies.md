@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="benefit-eligibility-policies"></a>Stratégies de droit aux avantages
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Cette rubrique fournit des informations sur les stratégies de droit aux avantages, qui vous permettent de définir qui peut prétendre à des avantages spécifiques.
 

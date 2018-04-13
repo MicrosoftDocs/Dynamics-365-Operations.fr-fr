@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-project-purchase-order"></a>Créer une commande fournisseur de projet
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure vous indique comment créer une commande fournisseur de projet. Cette tâche utilise l'ensemble de données USSI.
 

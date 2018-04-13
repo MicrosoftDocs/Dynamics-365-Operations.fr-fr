@@ -29,8 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="security-roles-in-the-public-sector"></a>Rôles de sécurité dans le secteur public
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article décrit la fonctionnalité des rôles de sécurité du secteur public. Cette fonctionnalité inclut les rôles de chef de projet et d'acheteurs dans le secteur public.
 

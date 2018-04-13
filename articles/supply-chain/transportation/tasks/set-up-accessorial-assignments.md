@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="set-up-accessorial-assignments"></a>Paramétrer les affectations d'élément accessoire
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure décrit comment paramétrer une affectation d'élément accessoire. Cette opération est généralement réalisée par un coordinateur transport. Avant d'utiliser ce guide, vous devez suivre le guide « Configurer les frais annexes de terminal et les données principales annexes ».
 

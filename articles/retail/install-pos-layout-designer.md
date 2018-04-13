@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="install-the-retail-pos-layout-designer"></a>Installez le concepteur de mise en page de Retail POS
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Vous pouvez utiliser le concepteur en un seul clic pour concevoir différentes mises en page Retail Modern POS (MPOS) et PDV Cloud, en mode paysage ou en mode portrait, pour les magasins, les caisses enregistreuses, les caissiers, et les responsables.
 

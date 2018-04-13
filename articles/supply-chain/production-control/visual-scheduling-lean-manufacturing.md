@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="visual-scheduling-for-lean-manufacturing"></a>Planification visuelle pour Lean manufacturing
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique fournit des informations relatives à la carte de programme du kanban, que le gestionnaire de production peut utiliser pour contrôler et optimiser le plan de production pour les tâches de kanban.
 

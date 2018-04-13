@@ -28,7 +28,7 @@ ms.lasthandoff: 02/19/2018
 
 # <a name="service-agreement-groups"></a>Groupes d'accords de service 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Les groupes d'accords de service permettent de trier et de filtrer les accords de service. Utilisez les groupes d'accords de service pour regrouper les accords de service selon, par exemple, la taille de l'entreprise, l'emplacement géographique, ou le type d'activité. Sinon, vous pouvez utiliser les groupes d'accords pour regrouper les accords de service par niveau de service offre à un client.
 

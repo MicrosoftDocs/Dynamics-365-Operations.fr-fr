@@ -27,8 +27,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Paramétrer la sécurité du contenu Power BI Analyse du contrôle de gestion
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique explique comment propager la sécurité au niveau des accès dans le contrôle de gestion à la sécurité au niveau des lignes dans Microsoft Power BI. Cette fonctionnalité permet de garantir que les utilisateurs n'affichent que les données Power BI auxquelles ils sont autorisés à accéder.
 

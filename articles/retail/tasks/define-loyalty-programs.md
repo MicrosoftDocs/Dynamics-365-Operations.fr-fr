@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-loyalty-programs"></a> Définir les programmes de fidélité
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Cette procédure décrit comment paramétrer un programme de fidélité à deux niveaux de fidélité. La société fictive USRT sert d'exemple dans cette procédure.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-and-associate-registers"></a> Créer et associer des caisses enregistreuses
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Cette procédure montre comment créer un registre de point de vente. La société fictive USRT sert d'exemple dans cette procédure.
 

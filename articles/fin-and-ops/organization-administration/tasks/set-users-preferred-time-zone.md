@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="set-a-users-preferred-time-zone"></a>Configuration d'un fuseau horaire préféré de l'utilisateur
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure suivante explique comment un utilisateur ayant un rôle d'administrateur système peut définir un fuseau horaire pour un utilisateur.
 

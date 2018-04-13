@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="depreciation-effects-with-reversals"></a>Effets d'amortissement avec contrepassations
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article traite des conséquences potentielles de la contrepassation d'une transaction d'immobilisation. 
 

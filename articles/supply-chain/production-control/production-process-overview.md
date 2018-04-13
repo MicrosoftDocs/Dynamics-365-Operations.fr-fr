@@ -29,8 +29,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="production-process-overview"></a>Vue d'ensemble du processus de fabrication
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique donne une vue d'ensemble des processus de production. Il décrit les différents stades des ordres de fabrication, des lots de commandes et des kanbans, de la création à la clôture de la période financière. 
 

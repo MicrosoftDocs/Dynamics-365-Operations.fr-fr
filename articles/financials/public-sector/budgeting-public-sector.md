@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="budgeting-in-the-public-sector"></a>Budgétisation dans le secteur public
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette vue d'ensemble présente la fonctionnalité de budgétisation disponible pour le secteur public. Cela inclut l'analyse de budget, les budgets et les répartitions préliminaires, et les définitions de validation.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="map-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>Mappage de membres de dimension d'élément de coût à un ensemble commun de membres de dimension
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 En mappant différents membres de la dimension d'élément de coût à un ensemble commun de membres de la dimension d'élément de coût, vous fusionnez les données en un format commun à des fins de analyse.
 

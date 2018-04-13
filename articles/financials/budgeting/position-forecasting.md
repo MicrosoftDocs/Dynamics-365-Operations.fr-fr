@@ -28,9 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="position-forecasting"></a>Prévision des postes
 
-[!include[banner](../includes/banner.md)]
-
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Les dépenses liées aux collaborateurs représentent souvent une grande proportion des coûts d'une organisation. La prévision de poste permet de planifier ces dépenses et de les inclure dans la planification des budgets.
 

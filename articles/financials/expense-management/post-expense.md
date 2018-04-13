@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="post-an-expense-report"></a>Valider un état de dépenses
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Après son approbation et son transfert dans le journal des opérations diverses, un état de dépenses peut être validé dans la comptabilité. Lorsque vous validez un état des dépenses, les dépenses admissibles pour la récupération de la taxe sur la valeur ajoutée (TVA) sont identifiées. La tâche de vérification et de récupération des paiements de TVA est affectée à l'employé responsable de la vérification de l'état de dépenses.
 

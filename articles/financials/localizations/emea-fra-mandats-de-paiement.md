@@ -27,8 +27,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="mandats-de-paiement-in-the-public-sector-in-france"></a>Mandats de paiement dans le secteur public en France
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Le mandat de paiement est utilisé par le directeur pour informer le comptable que l'organisation doit payer un montant donné à une autre entité et pour autoriser le comptable à payer ledit montant. Le mandat permet de garantir une séparation nette obligatoire entre le rôle opérationnel du directeur et le rôle comptable du comptable.
 
@@ -53,21 +52,26 @@ Pour soumettre des mandats au comptable pour paiement, le directeur recueille le
 ## <a name="using-the-database-inquiry-page"></a>Utilisation de la page de recherche dans la base de données
 Pour ouvrir la page de recherche dans la base de données à partir de la page **Tenir à jour les mandats de paiement**, spécifiez si vous souhaitez travailler avec des factures en attente ou validées et la plage de dates dans laquelle vous souhaitez sélectionner des factures. Cliquez ensuite sur **Récupérer les lignes**. Cela ouvre la page de **recherche dans** **la base de donnée**, sur laquelle vous pouvez spécifier les critères pour les lignes de facture que vous souhaitez récupérer. Lorsque vous fermez l'écran, toutes les lignes de facture qui correspondent aux critères sélectionnés s'affichent dans la grille. Les lignes des factures qui sont en cours de modification ne sont pas récupérées. **Conseil** : utilisez les critères suivants dans la page de recherche dans la base de données pour récupérer des lignes.
 
--   Lignes de facture qui n'ont pas été révisées par le directeur.
-    | Enregistrement  | Table dérivée | Champ                         | Critères       |
-    |--------|---------------|-------------------------------|----------------|
-    | Mandat | Mandat        | Statut d'autorisation du directeur | « Non révisé(e) » |
+- Lignes de facture qui n'ont pas été révisées par le directeur.
 
--   Lignes de facture des mandats qui ont été autorisés pour paiement par le directeur, mais pas encore approuvés par le comptable.
-    | Enregistrement  | Table dérivée | Champ                         | Critères       |
-    |--------|---------------|-------------------------------|----------------|
-    | Mandat | Mandat        | Statut d'autorisation du directeur | « Autorisé(e) »   |
-    | Mandat | Mandat        | Statut d'acceptation du comptable  | « Non révisé(e) » |
+  | Enregistrement  | Table dérivée |             Champ             |    Critères    |
+  |--------|---------------|-------------------------------|----------------|
+  | Mandat |    Mandat     | Statut d'autorisation du directeur | « Non révisé(e) » |
 
--   Lignes de facture des mandats qui ont été rejetés par le comptable.
-    | Enregistrement  | Table dérivée | Champ                        | Critères   |
-    |--------|---------------|------------------------------|------------|
-    | Mandat | Mandat        | Statut d'acceptation du comptable | « Rejeté(e) » |
+
+- Lignes de facture des mandats qui ont été autorisés pour paiement par le directeur, mais pas encore approuvés par le comptable.
+
+  | Enregistrement  | Table dérivée |             Champ             |    Critères    |
+  |--------|---------------|-------------------------------|----------------|
+  | Mandat |    Mandat     | Statut d'autorisation du directeur |  « Autorisé(e) »  |
+  | Mandat |    Mandat     | Statut d'acceptation du comptable  | « Non révisé(e) » |
+
+
+- Lignes de facture des mandats qui ont été rejetés par le comptable.
+
+  | Enregistrement  | Table dérivée | Champ                        | Critères   |
+  |--------|---------------|------------------------------|------------|
+  | Mandat | Mandat        | Statut d'acceptation du comptable | « Rejeté(e) » |
 
 
 

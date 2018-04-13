@@ -24,7 +24,7 @@ ms.lasthandoff: 02/14/2018
 ---
 # <a name="benefit-eligibility-process"></a>Processus de droit aux avantages
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure décrit le fonctionnement du processus d'admissibilité aux avantages. Lorsque le processus est terminé, vous pouvez afficher les résultats. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 

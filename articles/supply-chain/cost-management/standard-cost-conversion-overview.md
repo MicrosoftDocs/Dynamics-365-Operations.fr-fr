@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="standard-cost-conversion-overview"></a>Vue d'ensemble de la conversion du coût standard
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article fournit une vue d'ensemble du processus pour vous aider à paramétrer et exécuter une conversion de coût standard. Les étapes répertoriées sont destinées à être effectuées après que vous avez réalisé les conditions préalables à la conversion de coût standard. 
 

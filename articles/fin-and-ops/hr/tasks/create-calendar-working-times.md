@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-calendar-and-generate-working-times"></a>Créer un calendrier et générer les horaires de travail
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Les calendriers décrivent la capacité et les heures de travail des ressources opérationnelles. Cette procédure vous aide à définir un calendrier de travail fondé sur un modèle de temps de travail. Vous pouvez parcourir cette procédure dans la société fictive USMF ou utiliser vos propres données.
 

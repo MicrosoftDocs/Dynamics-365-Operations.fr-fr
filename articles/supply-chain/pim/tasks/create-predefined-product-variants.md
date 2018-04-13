@@ -24,7 +24,7 @@ ms.lasthandoff: 11/08/2017
 ---
 # <a name="create-predefined-product-variants"></a>Créer des variantes de produits prédéfinies
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure décrit la création des variantes de produit pour un produit générique à l'aide des combinaisons de dimensions de produit. La société fictive de démonstration utilisée pour créer cette procédure est USMF.
 
