@@ -17,15 +17,15 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: a74fb34db71ba4b539c1b6ede361329aaeb94920
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d151f68de574f362e14001c98655429e82f3b2c0
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="add-an-existing-activity-to-a-production-flow-version"></a><span data-ttu-id="d4d90-103">Ajouter une activité existante à une version de flux de production</span><span class="sxs-lookup"><span data-stu-id="d4d90-103">Add an existing activity to a production flow version</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="d4d90-104">Lors de la création de nouvelles versions des flux de production, vous pouvez choisir d'ajouter des activités créées pour les versions antérieures, à la nouvelle version.</span><span class="sxs-lookup"><span data-stu-id="d4d90-104">When creating new versions of production flows, you can choose to add activities created for the older versions, to the new version.</span></span> <span data-ttu-id="d4d90-105">Cette procédure décrit la manière dont une version est créée pour un flux de production existant, sans copier les activités.</span><span class="sxs-lookup"><span data-stu-id="d4d90-105">This procedure shows how a new version is created for an existing production flow, without copying the activities.</span></span> <span data-ttu-id="d4d90-106">Dans l'étape suivante, une activité existante est ajoutée à la nouvelle version.</span><span class="sxs-lookup"><span data-stu-id="d4d90-106">In the next step, an existing activity is added to the new version.</span></span> 
 

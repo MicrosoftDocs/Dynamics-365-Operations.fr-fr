@@ -16,15 +16,15 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 352d8700df234f80381c4778c5f90b4b6f1a2297
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 977d175f89865682c4bdc1ae7e93581b5d6c67e9
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-fixed-asset"></a><span data-ttu-id="f1a00-103">Création d'une immobilisation</span><span class="sxs-lookup"><span data-stu-id="f1a00-103">Create a fixed asset</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="f1a00-104">La société fictive USMF sert d'exemple dans ce guide de tâche.</span><span class="sxs-lookup"><span data-stu-id="f1a00-104">This task guide uses the USMF demo company.</span></span>  <span data-ttu-id="f1a00-105">Une nouvelle immobilisation sera alors créée à l'aide de la page de liste Immobilisations.</span><span class="sxs-lookup"><span data-stu-id="f1a00-105">It will create a new fixed asset using the Fixed asset list page.</span></span>
 

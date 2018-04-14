@@ -20,17 +20,16 @@ ms.author: prabhup
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: 2066f6c9dd71144a330e00a71f02dfc21dd930bc
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: dccb702c072b7fae41f5200783a9c95eb8c54988
 ms.contentlocale: fr-fr
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-and-manage-attributes"></a><span data-ttu-id="2d375-104">Création et gestion des attributs</span><span class="sxs-lookup"><span data-stu-id="2d375-104">Create and manage attributes</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="2d375-105">Cet article décrit les attributs dans Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="2d375-105">This article describes attributes in Microsoft Dynamics 365 for Retail.</span></span> <span data-ttu-id="2d375-106">Les attributs vous permettent de décrire un produit et ses caractéristiques via les champs définis par l'utilisateur.</span><span class="sxs-lookup"><span data-stu-id="2d375-106">Attributes let you describe a product and its characteristics through user-defined fields.</span></span>
 
@@ -58,7 +57,7 @@ ms.lasthandoff: 01/17/2018
 
 ## <a name="attribute-type"></a><span data-ttu-id="2d375-173">Type d'attribut</span><span class="sxs-lookup"><span data-stu-id="2d375-173">Attribute type</span></span>
   <span data-ttu-id="2d375-174">[![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png)</span><span class="sxs-lookup"><span data-stu-id="2d375-174">[![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png)</span></span> 
-  
+
 <span data-ttu-id="2d375-175">Les attributs sont basés sur les types d'attributs.</span><span class="sxs-lookup"><span data-stu-id="2d375-175">Attributes are based on attribute types.</span></span> <span data-ttu-id="2d375-176">Les types d'attributs identifient le type de données pouvant être spécifiées pour un attribut spécifique.</span><span class="sxs-lookup"><span data-stu-id="2d375-176">Attribute types identify the type of data that can be entered for a specific attribute.</span></span> <span data-ttu-id="2d375-177">Actuellement, Microsoft Dynamics 365 for Retail prend en charge les types d'attributs suivants :</span><span class="sxs-lookup"><span data-stu-id="2d375-177">Currently, Microsoft Dynamics 365 for Retail supports the following attribute types:</span></span>
 
 -   <span data-ttu-id="2d375-178">**Devise** – Ce type d'attribut prend en charge les valeurs de devise.</span><span class="sxs-lookup"><span data-stu-id="2d375-178">**Currency** – This attribute type supports currency values.</span></span> <span data-ttu-id="2d375-179">Il peut être lié (autrement dit, il peut prendre en charge une plage de valeurs), ou il peut être laissé ouvert.</span><span class="sxs-lookup"><span data-stu-id="2d375-179">It can be bounded (that is, it can support a value range), or it can be left open.</span></span>

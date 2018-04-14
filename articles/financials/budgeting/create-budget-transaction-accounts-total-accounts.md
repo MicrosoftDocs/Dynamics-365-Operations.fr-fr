@@ -19,17 +19,16 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3e3c86bd32a05a392fcb82a86f2c461cc3abfb03
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 85b778caf209c2fb1845665169e08210bfeb45c1
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-a-budget-from-transaction-accounts-and-total-accounts"></a><span data-ttu-id="cc3df-104">Créer un budget à partir des comptes de transactions et des comptes de type Total</span><span class="sxs-lookup"><span data-stu-id="cc3df-104">Create a budget from transaction accounts and total accounts</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="cc3df-105">Cet article fournit une vue d'ensemble du processus de création des budgets en fonction des comptes de type total.</span><span class="sxs-lookup"><span data-stu-id="cc3df-105">This article provides an overview of the process for creating budgets based on total accounts.</span></span> <span data-ttu-id="cc3df-106">Il décrit également comment activer le contrôle budgétaire des comptes de type total, si le contrôle budgétaire est requis.</span><span class="sxs-lookup"><span data-stu-id="cc3df-106">It also explains how to turn on budget control for total accounts, if budget control is required.</span></span>
 

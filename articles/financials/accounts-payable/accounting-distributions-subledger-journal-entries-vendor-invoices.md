@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 00550b4e3fa52108533c516d7ae1de0454c065ec
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 510e3ac8bbec891436eaf6849dfe00b68ba2eb40
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="accounting-distributions-and-subledger-journal-entries-for-vendor-invoices"></a><span data-ttu-id="edd15-104">Répartitions comptables et écritures de journal de comptabilité auxiliaire pour les factures fournisseur</span><span class="sxs-lookup"><span data-stu-id="edd15-104">Accounting distributions and subledger journal entries for vendor invoices</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="edd15-105">Les répartitions comptables permettent de définir la façon dont un montant sera pris en compte, par exemple, la manière dont la dépense, l'immobilisation, la taxe ou les frais seront reportés sur la facture fournisseur.</span><span class="sxs-lookup"><span data-stu-id="edd15-105">Accounting distributions are used to define how an amount will be accounted for, such as how the expense, tax, or charges will be accounted for on a vendor invoice.</span></span> <span data-ttu-id="edd15-106">Chaque montant qui doit être pris en compte lorsque la facture fournisseur est journalisée aura une ou plusieurs répartitions comptables.</span><span class="sxs-lookup"><span data-stu-id="edd15-106">Every amount that must be accounted for when the vendor invoice is journalized will have one or more accounting distributions.</span></span> 
 
@@ -231,7 +230,7 @@ ms.lasthandoff: 11/06/2017
 </tbody>
 </table>
 
- 
+
 <a name="distributing-taxes"></a><span data-ttu-id="edd15-213">Répartition des taxes</span><span class="sxs-lookup"><span data-stu-id="edd15-213">Distributing taxes</span></span>
 ------------------
 

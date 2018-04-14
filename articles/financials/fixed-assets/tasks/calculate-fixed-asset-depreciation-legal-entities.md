@@ -16,15 +16,15 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d804480167414cd038f8229db312dc9c52d131f8
-ms.openlocfilehash: 4c45da124136b7fecb916d2ff9098c8ffeff6cb1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 662554b1b6bed63e5017aad3a292dad7a2f0bcea
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="calculate-fixed-asset-depreciation-across-legal-entities"></a><span data-ttu-id="5c28e-103">Calculer l'amortissement des immobilisations dans les entités juridiques</span><span class="sxs-lookup"><span data-stu-id="5c28e-103">Calculate fixed asset depreciation across legal entities</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="5c28e-104">L'amortissement d'immobilisation peut être exécuté dans les entités juridiques en une seule étape.</span><span class="sxs-lookup"><span data-stu-id="5c28e-104">Fixed asset depreciation can be run across legal entities in a single step.</span></span> <span data-ttu-id="5c28e-105">Cette procédure décrit comment paramétrer et exécuter le processus pour plusieurs entités juridiques.</span><span class="sxs-lookup"><span data-stu-id="5c28e-105">This procedure shows you to how set up and run the process for multiple legal entities.</span></span> <span data-ttu-id="5c28e-106">Elle utilise le rôle de comptable.</span><span class="sxs-lookup"><span data-stu-id="5c28e-106">It uses the accountant role.</span></span>  
 

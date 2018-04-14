@@ -17,15 +17,15 @@ ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 0694ba1c69697e745f75db856bdc5b38454a68dc
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 84ed2bfa708664674af781c575cfab35640e7079
 ms.contentlocale: fr-fr
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="adjust-stock-levels-in-the-warehouse-basic-warehousing"></a><span data-ttu-id="8954e-103">Ajuster les niveaux des stocks dans l'entrepôt (entreposage de base)</span><span class="sxs-lookup"><span data-stu-id="8954e-103">Adjust stock levels in the warehouse (basic warehousing)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="8954e-104">Cette procédure vous accompagne au long du processus de création et de validation d'un journal d'ajustement du stock afin d'ajuster les niveaux de stock des produits dans l'entrepôt.</span><span class="sxs-lookup"><span data-stu-id="8954e-104">This procedure walks you through the process of creating and posting an inventory adjustment journal in order to adjust stock levels of products in the warehouse.</span></span> <span data-ttu-id="8954e-105">Avant de commencer, vous devez avoir configuré un nom de journal de stock pour les ajustements du stock.</span><span class="sxs-lookup"><span data-stu-id="8954e-105">You need to have an inventory journal name set up for inventory adjustments before you start this.</span></span> <span data-ttu-id="8954e-106">Vous pouvez parcourir cette procédure dans la société fictive USMF ou utiliser vos propres données.</span><span class="sxs-lookup"><span data-stu-id="8954e-106">You can walk through this procedure in demo data company USMF, or using your own data.</span></span> <span data-ttu-id="8954e-107">Ces tâches sont normalement effectuées par un employé de l'entrepôt.</span><span class="sxs-lookup"><span data-stu-id="8954e-107">These tasks would normally be carried out by a warehouse employee.</span></span>
 

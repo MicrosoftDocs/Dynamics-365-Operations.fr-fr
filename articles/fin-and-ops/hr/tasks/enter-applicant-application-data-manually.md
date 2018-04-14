@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6aef83b18ba5f18506921e08f3674b6bb272d3ab
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e0da2c4e308ef377b7657f0905fec56e47f27b99
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="enter-applicant-and-application-data-manually"></a><span data-ttu-id="5b854-103">Entrer le candidat et les données de la candidature manuellement</span><span class="sxs-lookup"><span data-stu-id="5b854-103">Enter applicant and application data manually</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="5b854-104">Cette procédure permet d'indiquer comment mettre à jour manuellement les informations sur les candidats et leur candidature.</span><span class="sxs-lookup"><span data-stu-id="5b854-104">This procedure shows how to manually maintain information about applicants and their application.</span></span>   <span data-ttu-id="5b854-105">Vous pouvez entrer et tenir à jour des informations personnelles, les dates et heures d'entretien, les références, les compétences et les demandes de logement des candidats.</span><span class="sxs-lookup"><span data-stu-id="5b854-105">You can enter and maintain personal information, interview dates and times, references, competencies, and accommodation requests for applicants.</span></span> <span data-ttu-id="5b854-106">Vous pouvez également mettre à jour le statut des candidatures d'emploi et créer à jour des lettres ou des messages e-mail pour communiquer avec des candidats.</span><span class="sxs-lookup"><span data-stu-id="5b854-106">You can also update the status of applicants’ applications for employment and create letters or email messages to communicate with applicants.</span></span> <span data-ttu-id="5b854-107">Lorsque vous créez un enregistrement de candidat, un enregistrement de personne pour ce candidat est créé dans le carnet d'adresses global.</span><span class="sxs-lookup"><span data-stu-id="5b854-107">When you create an applicant record, a person record for that applicant is created in the global address book.</span></span>       <span data-ttu-id="5b854-108">Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.</span><span class="sxs-lookup"><span data-stu-id="5b854-108">The demo data company used to create this procedure is USMF.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 3a884837ab0b5a1f4211532969619b54206bbef4
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: aa159fdf8a8ef543c338546a389d37e1644676a3
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-method-of-payment-for-iso20022-direct-debit"></a><span data-ttu-id="949d3-103">Paramétrer le mode de paiement pour le débit direct ISO20022</span><span class="sxs-lookup"><span data-stu-id="949d3-103">Set up method of payment for ISO20022 direct debit</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="949d3-104">Cette procédure indique comment paramétrer le mode de paiement client pour le débit direct ISO20022 ou un autre type de paiement en utilisant les états électroniques.</span><span class="sxs-lookup"><span data-stu-id="949d3-104">This procedure shows how to set up the customer method of payment for ISO20022 direct debit or any other payment type using electronic reporting.</span></span> 
 

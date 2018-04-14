@@ -17,15 +17,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8a0432b5ff01bf88b9c18de0cac0661618c654ba
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3553eda3aa893cc27cd535a5f8061a31fcbbe5e9
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="report-progress-on-a-mobile-job-device"></a><span data-ttu-id="86b9c-103">Générer un état de la progression sur un périphérique mobile</span><span class="sxs-lookup"><span data-stu-id="86b9c-103">Report progress on a mobile job device</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="86b9c-104">Cette procédure vous indique comment démarrer une tâche de production et générer un état de la progression de celle-ci dans le formulaire d'enregistrement du périphérique de tâche.</span><span class="sxs-lookup"><span data-stu-id="86b9c-104">This procedure shows you how to start and report progress on a production job in the job device registration form.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 18ad27eb673745d09569f6a49c8bc66132550f35
-ms.openlocfilehash: 9ad19534091bdbd8924f90174b720d818b9ed778
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e2d80ce02f45260aa364db68692ee19d813ade54
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-bank-facilities-and-posting-profiles-for-letter-of-credit"></a><span data-ttu-id="8f32e-103">Paramétrer les établissements bancaires et les profils de validation pour les lettres de crédit</span><span class="sxs-lookup"><span data-stu-id="8f32e-103">Set up bank facilities and posting profiles for letter of credit</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="8f32e-104">Cette procédure décrit la création d'un établissement bancaire et un profil de validation requis pour traiter les lettres de crédit.</span><span class="sxs-lookup"><span data-stu-id="8f32e-104">This procedure walks through creating a Bank facility and posting profile required to process Letters of credit.</span></span> 
 

@@ -20,17 +20,16 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 32f22ab1ca64ace467a480161f3b68ea35f8546e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ab91d4e6bc7a86e473aa8cd4735409eff19283b7
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="security-roles-in-the-public-sector"></a><span data-ttu-id="bfe79-104">Rôles de sécurité dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="bfe79-104">Security roles in the public sector</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="bfe79-105">Cet article décrit la fonctionnalité des rôles de sécurité du secteur public.</span><span class="sxs-lookup"><span data-stu-id="bfe79-105">This article describes the functionality for public sector security roles.</span></span> <span data-ttu-id="bfe79-106">Cette fonctionnalité inclut les rôles de chef de projet et d'acheteurs dans le secteur public.</span><span class="sxs-lookup"><span data-stu-id="bfe79-106">This functionality includes the Project manager and Purchasing agent roles for the public sector.</span></span>
 

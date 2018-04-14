@@ -16,15 +16,15 @@ ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 2bebb8069c3b74ef495b14fa6f33dabe1679ca22
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c230bf064cb6d88f077d16d98c3b7feda201f691
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="update-method-of-payment-on-customer-france"></a><span data-ttu-id="56fc5-103">Mettre à jour un mode de paiement pour le client (France)</span><span class="sxs-lookup"><span data-stu-id="56fc5-103">Update method of payment on customer (France)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="56fc5-104">Cette procédure vous guide dans l'ajout d'un compte bancaire pour un enregistrement client en France et dans la mise à jour d'un mode de paiement pour le même client.</span><span class="sxs-lookup"><span data-stu-id="56fc5-104">This procedure walks you through adding a bank account to a customer record in France and updating a method of payment for the same customer.</span></span>
 

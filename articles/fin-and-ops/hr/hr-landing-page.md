@@ -17,16 +17,16 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
-ms.openlocfilehash: 4ded4aee8f7cb15960bcecd30ec30b812b086d92
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 437e6e0cd3052083bb1094f42bb741d491b27242
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="welcome-to-human-resources"></a><span data-ttu-id="fd82f-105">Bienvenue dans le module Ressources humaines</span><span class="sxs-lookup"><span data-stu-id="fd82f-105">Welcome to human resources</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="fd82f-106">Le module Ressources humaines simplifie de nombreuses tâches d'archivage de routine et automatise un certain nombre de processus liés à la dotation en personnel de votre organisation.</span><span class="sxs-lookup"><span data-stu-id="fd82f-106">Human resources streamlines many routine recordkeeping tasks and automates a number of processes related to staffing your organization.</span></span> <span data-ttu-id="fd82f-107">Il fournit également un cadre permettant au personnel des ressources humaines d'assurer une supervision appropriée.</span><span class="sxs-lookup"><span data-stu-id="fd82f-107">It also provides a framework for human resources staff to manage areas of oversight.</span></span> <span data-ttu-id="fd82f-108">Ces domaines incluent le recrutement et la rétention des employés, l'administration des avantages, la formation, les évaluations des performances et la gestion des modifications.</span><span class="sxs-lookup"><span data-stu-id="fd82f-108">These areas include employee recruitment and retention, benefits administration, training, performance reviews, and change management.</span></span>
 

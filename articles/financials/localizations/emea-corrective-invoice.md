@@ -17,19 +17,20 @@ ms.author: v-semaz
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 554c350961baed8be8f37854dd1b095d4342ae0e
-ms.openlocfilehash: c14752f944dc6989c3efa4c2e618e914b46a62e1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 584bcff56ec1faeffe5d4b2edcbea46a441b0253
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/21/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="corrective-invoicing"></a><span data-ttu-id="bf021-103">Facturation corrective</span><span class="sxs-lookup"><span data-stu-id="bf021-103">Corrective invoicing</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
+
  > [!NOTE]
  > <span data-ttu-id="bf021-104">Cette rubrique s'applique aux entités juridiques ayant une adresse principale au Danemark, en Allemagne, en France, en Irlande, aux Pays-Bas ou au Royaume-Uni.</span><span class="sxs-lookup"><span data-stu-id="bf021-104">This topic applies to legal entities with a primary address in Denmark, Germany, France, Ireland, the Netherlands, or the United Kingdom.</span></span>
- 
+
 <span data-ttu-id="bf021-105">Un avoir ou un mémorandum d'avoir (mémo) est un document qui réduit ou élimine le montant que l'acheteur doit payer.</span><span class="sxs-lookup"><span data-stu-id="bf021-105">A credit note or credit memorandum (memo) is a document that reduces or eliminates the amount that the buyer has to pay.</span></span>
 
 <span data-ttu-id="bf021-106">Un avoir répertorie les produits, les quantités, et les prix conclus pour des produits ou services que le vendeur a fourni à l'acheteur, mais que l'acheteur a retourné ou n'a pas reçus.</span><span class="sxs-lookup"><span data-stu-id="bf021-106">A credit note lists the products, quantities, and agreed prices for products or services that the seller provided the buyer, but the buyer returned or did not receive.</span></span> <span data-ttu-id="bf021-107">Il peut être émis dans le cas de marchandises endommagées, d'erreurs, ou d'exonérations.</span><span class="sxs-lookup"><span data-stu-id="bf021-107">It may be issued in the case of damaged goods, errors, or allowances.</span></span> <span data-ttu-id="bf021-108">Dans certains pays ou certaines régions, la fonctionnalité d'avoir vous permet d'ajouter une ligne de correction et une nouvelle ligne correcte.</span><span class="sxs-lookup"><span data-stu-id="bf021-108">For some countries/regions, the credit note functionality allows you to add both a correction line and a new correct line.</span></span> <span data-ttu-id="bf021-109">L'avoir pour les factures client et les factures financières utilise la même mise en page que la facture avec les différences suivantes :</span><span class="sxs-lookup"><span data-stu-id="bf021-109">The credit note for sales invoices and free text invoices uses the same layout as the invoice with the following differences:</span></span>

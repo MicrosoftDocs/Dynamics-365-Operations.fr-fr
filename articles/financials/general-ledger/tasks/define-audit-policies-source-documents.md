@@ -16,15 +16,15 @@ ms.author: ryansand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 4b05f744120e940bfea3e92b8aac3e41fc8151d9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1bd87a5c65fb01e0a277d7bd790e2b86686fbf55
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="define-audit-policies-for-source-documents"></a><span data-ttu-id="1c9a0-103">Définir des stratégies d'audit pour les documents sources</span><span class="sxs-lookup"><span data-stu-id="1c9a0-103">Define audit policies for source documents</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="1c9a0-104">Cette procédure décrit comment paramétrer et exécuter des règles de stratégie d'audit.</span><span class="sxs-lookup"><span data-stu-id="1c9a0-104">This procedure shows how to set up and run audit policy rules.</span></span> <span data-ttu-id="1c9a0-105">L'exemple utilise des états de dépenses avec le type de dépense Hôtel.</span><span class="sxs-lookup"><span data-stu-id="1c9a0-105">The example uses expense reports with the hotel expense type.</span></span> <span data-ttu-id="1c9a0-106">La société fictive USMF sert d'exemple dans cette procédure.</span><span class="sxs-lookup"><span data-stu-id="1c9a0-106">This procedure uses the USMF demo company.</span></span> <span data-ttu-id="1c9a0-107">Le rôle d'auditeur contient les autorisations adéquates afin d'exécuter ces tâches.</span><span class="sxs-lookup"><span data-stu-id="1c9a0-107">The auditor role contains the correct permissions in order to perform these tasks.</span></span>
 

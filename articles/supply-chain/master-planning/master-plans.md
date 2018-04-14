@@ -20,17 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d8eb8a8c4e98dde0b1e8583a8b7f6f603bc736c7
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4a10007be4b9277defe9f170b24e68d3fba30ed7
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="master-plans"></a><span data-ttu-id="29b0a-103">Plans généraux</span><span class="sxs-lookup"><span data-stu-id="29b0a-103">Master plans</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="29b0a-104">Utilisez différents plans généraux pour prendre en charge les opérations de travail quotidiennes de votre entreprise, simuler différentes stratégies de planification que vous souhaitez surveiller et mettre en œuvre une politique d'entreprise, par exemple en ce qui concerne les performances internes ou la satisfaction des clients.</span><span class="sxs-lookup"><span data-stu-id="29b0a-104">Use various master plans to support your company's daily working operations, simulate different planning strategies that you want to monitor, and implement a company policy, such as a policy about internal performance or customer satisfaction.</span></span> 
 

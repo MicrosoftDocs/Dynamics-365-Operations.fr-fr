@@ -18,17 +18,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ad840f4ed2cf27615e699a13fcd8be7f3c2cd5c8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d57f3138f5a456c85550baf1eb18b4f99733a3d1
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="convert-accounting-or-reporting-currencies"></a><span data-ttu-id="bcff9-103">Convertir des devises comptables ou de déclaration</span><span class="sxs-lookup"><span data-stu-id="bcff9-103">Convert accounting or reporting currencies</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="bcff9-104">Une société qui doit modifier sa devise comptable ou sa devise de déclaration a deux options.</span><span class="sxs-lookup"><span data-stu-id="bcff9-104">A company that must change its accounting currency or reporting currency has two options.</span></span> <span data-ttu-id="bcff9-105">La première option est de créer une société et de répartir à zéro.</span><span class="sxs-lookup"><span data-stu-id="bcff9-105">The first option is to create a new company and start fresh.</span></span> <span data-ttu-id="bcff9-106">La deuxième option est d'exécuter le processus de conversion des devises comptables et de déclaration.</span><span class="sxs-lookup"><span data-stu-id="bcff9-106">The second option is to run the accounting and reporting currency conversion process.</span></span> <span data-ttu-id="bcff9-107">Il s'agit d'un processus très long qui modifie chaque transaction dans le système.</span><span class="sxs-lookup"><span data-stu-id="bcff9-107">This is a very long-running process that changes every transaction in the system.</span></span> <span data-ttu-id="bcff9-108">Des paramétrages sont également nécessaires avant d'exécuter le processus.</span><span class="sxs-lookup"><span data-stu-id="bcff9-108">Some setup is also required before the process can be run.</span></span>
 

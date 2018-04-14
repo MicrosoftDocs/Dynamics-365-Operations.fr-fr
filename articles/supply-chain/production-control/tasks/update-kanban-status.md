@@ -17,15 +17,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 3c2b5a5fbfc5bd83cc68ffafaa243dac9244c003
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9f491558c38a48a47e1477c0140d8d1b5f9c8016
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="update-kanban-status"></a><span data-ttu-id="583a0-103">Mettre à jour le statut d'opération kanban</span><span class="sxs-lookup"><span data-stu-id="583a0-103">Update kanban status</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="583a0-104">Lorsqu'un kanban est vidé par erreur ou qu'un kanban reçu doit être vidé, vous devez mettre le statut du kanban à jour.</span><span class="sxs-lookup"><span data-stu-id="583a0-104">When a kanban is emptied by mistake or a received kanban needs to be emptied, you need to update kanban status.</span></span> <span data-ttu-id="583a0-105">Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.</span><span class="sxs-lookup"><span data-stu-id="583a0-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="583a0-106">Cette procédure est destinée au responsable de magasin.</span><span class="sxs-lookup"><span data-stu-id="583a0-106">This procedure is intended for the shop supervisor.</span></span>
 

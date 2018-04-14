@@ -17,15 +17,15 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7b8d20561ff092bd64c17c5d9335e9f54a1d191b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4d7e1115d8a53a6667768dd5da1dc0cffded61cd
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-mobile-device-menu-item-for-license-plate-consolidation"></a><span data-ttu-id="fbc0e-103">Créer une option de menu d'appareil mobile pour la consolidation de contenants</span><span class="sxs-lookup"><span data-stu-id="fbc0e-103">Create a mobile device menu item for license plate consolidation</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="fbc0e-104">Cette procédure décrit comment créer une option de menu d'appareil mobile pour le travail de consolidation de contenants.</span><span class="sxs-lookup"><span data-stu-id="fbc0e-104">This procedure shows you how to create a mobile device menu item for license plate consolidation work.</span></span> <span data-ttu-id="fbc0e-105">Cela permet aux magasiniers de consolider les articles d'un contenant avec les articles d'un autre contenant dans le même emplacement.</span><span class="sxs-lookup"><span data-stu-id="fbc0e-105">This enables warehouse workers to consolidate items on one license plate with items on another license place within the same location.</span></span> <span data-ttu-id="fbc0e-106">Par exemple, ils peuvent utiliser cette procédure si les étapes intermédiaires suivantes sont les mêmes sur les deux ordres d'exécution, de sorte que le travail ne doit être exécuté qu'une seule fois pour les articles fusionnés.</span><span class="sxs-lookup"><span data-stu-id="fbc0e-106">For example, they might use this if subsequent staging steps were the same on both work orders, so that the work only needs to be performed once for the merged items.</span></span> <span data-ttu-id="fbc0e-107">Vous pouvez utiliser cette procédure dans les données fictives de la société USMF.</span><span class="sxs-lookup"><span data-stu-id="fbc0e-107">You can use this procedure in demo data company USMF.</span></span> <span data-ttu-id="fbc0e-108">La tâche est généralement effectuée par un responsable d'entrepôt.</span><span class="sxs-lookup"><span data-stu-id="fbc0e-108">The task would typically be carried out by a warehouse manager.</span></span> <span data-ttu-id="fbc0e-109">Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.</span><span class="sxs-lookup"><span data-stu-id="fbc0e-109">This procedure is for a feature that was added in Dynamics 365 for Operations, version 1611.</span></span>
 

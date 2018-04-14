@@ -20,17 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 1ec2f4a407c705fb37681f5593d0f7ea31f4cf0f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3c493ab60952e60e6816ebdc3decb1ebe670806f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cost-accounting-terminology"></a><span data-ttu-id="cad4f-103">Terminologie du contrôle de gestion</span><span class="sxs-lookup"><span data-stu-id="cad4f-103">Cost accounting terminology</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="cad4f-104">Cette rubrique définit les termes clés utilisées dans le contrôle de gestion.</span><span class="sxs-lookup"><span data-stu-id="cad4f-104">This topic defines the key terms that are used in Cost accounting.</span></span>
 
@@ -150,14 +149,14 @@ ms.lasthandoff: 03/26/2018
 |  + |  <span data-ttu-id="cad4f-241">Addition</span><span class="sxs-lookup"><span data-stu-id="cad4f-241">Addition</span></span> |
 |  <span data-ttu-id="cad4f-242">–</span><span class="sxs-lookup"><span data-stu-id="cad4f-242">–</span></span> |  <span data-ttu-id="cad4f-243">Soustraction</span><span class="sxs-lookup"><span data-stu-id="cad4f-243">Subtraction</span></span> |
 | *  | <span data-ttu-id="cad4f-244">Multiplication</span><span class="sxs-lookup"><span data-stu-id="cad4f-244">Multiplication</span></span>  |
-    
+
 <span data-ttu-id="cad4f-245">Les instructions IF traditionnelles ne sont pas prises en charge.</span><span class="sxs-lookup"><span data-stu-id="cad4f-245">Traditional IF statements are not supported.</span></span> <span data-ttu-id="cad4f-246">Toutefois, vous pouvez créer des instructions et les valider si elles sont vraies.</span><span class="sxs-lookup"><span data-stu-id="cad4f-246">However, you can create statements and validate whether they are true.</span></span>
 
 |  <span data-ttu-id="cad4f-247">**Validation du relevé**</span><span class="sxs-lookup"><span data-stu-id="cad4f-247">**Statement  Validation**</span></span> | <span data-ttu-id="cad4f-248">**Résultat**</span><span class="sxs-lookup"><span data-stu-id="cad4f-248">**Result**</span></span>  |
 |---|---|
 |  <span data-ttu-id="cad4f-249">a > b</span><span class="sxs-lookup"><span data-stu-id="cad4f-249">a > b</span></span>| <span data-ttu-id="cad4f-250">Vrai</span><span class="sxs-lookup"><span data-stu-id="cad4f-250">True</span></span>  |
 |  <span data-ttu-id="cad4f-251">a > b</span><span class="sxs-lookup"><span data-stu-id="cad4f-251">a > b</span></span> |  <span data-ttu-id="cad4f-252">Faux</span><span class="sxs-lookup"><span data-stu-id="cad4f-252">False</span></span> |
-    
+
 <span data-ttu-id="cad4f-253">**Frais généraux**</span><span class="sxs-lookup"><span data-stu-id="cad4f-253">**Overhead cost**</span></span>
 
 <span data-ttu-id="cad4f-254">Les frais généraux font référence aux dépenses constantes liées à l'exploitation d'une entreprise.</span><span class="sxs-lookup"><span data-stu-id="cad4f-254">Overhead costs refer to the ongoing expenses of operating a business.</span></span> <span data-ttu-id="cad4f-255">Il s'agit des coûts qui ne peuvent pas être liés directement à des activités d'entreprise spécifiques.</span><span class="sxs-lookup"><span data-stu-id="cad4f-255">They are the costs that can’t be linked directly to specific business activities.</span></span> <span data-ttu-id="cad4f-256">Voici quelques exemples de frais généraux :</span><span class="sxs-lookup"><span data-stu-id="cad4f-256">Here are some examples of overhead costs:</span></span>

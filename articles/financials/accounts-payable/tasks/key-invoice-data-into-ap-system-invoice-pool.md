@@ -16,15 +16,15 @@ ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 96040b1c1ba130f773ba0defbf7bf1dcebedfc13
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fd5f9bb94817478939eeaea5890349c138de977b
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="key-invoice-data-into-the-ap-system-using-invoice-pool"></a><span data-ttu-id="ffe57-103">Indexer les données de facturation dans la comptabilité fournisseur à l'aide d'un registre de factures</span><span class="sxs-lookup"><span data-stu-id="ffe57-103">Key invoice data into the AP system using invoice pool</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="ffe57-104">Ce guide de tâche va vous indiquer comment utiliser le registre des factures pour créer des factures.</span><span class="sxs-lookup"><span data-stu-id="ffe57-104">This task guide will show you how to use the invoice register to create invoices.</span></span>  <span data-ttu-id="ffe57-105">Utilisez ensuite le regroupement de factures pour mettre en correspondance la facture avec une commande fournisseur et finalisez la dépense dans la page de facture fournisseur.</span><span class="sxs-lookup"><span data-stu-id="ffe57-105">Then use the invoice pool to match the invoice to a purchase order and finalize the expense in the vendor invoice page.</span></span>
 

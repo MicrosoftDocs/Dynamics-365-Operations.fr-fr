@@ -16,15 +16,15 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7d299657758b1e1322aef07bfe8c71f7bf00b0ca
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 394a25ff224c52263e1ad52f733ec007462efeaa
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="process-ledger-allocation-journal"></a><span data-ttu-id="3cd27-103">Traiter le journal de répartition comptable</span><span class="sxs-lookup"><span data-stu-id="3cd27-103">Process ledger allocation journal</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="3cd27-104">Utilisez la page Traiter la demande de répartition pour créer un journal de répartition qui puisse être consulté et approuvé avant la validation dans la comptabilité ou être validé directement dans la comptabilité.</span><span class="sxs-lookup"><span data-stu-id="3cd27-104">Use the Process allocation request page to create an allocation journal that can be reviewed and approved before posting to General ledger, or posted directly to General ledger.</span></span> <span data-ttu-id="3cd27-105">Avant de créer un journal de répartition, il doit exister au moins une règle de répartition de comptabilité active.</span><span class="sxs-lookup"><span data-stu-id="3cd27-105">Before you can create an allocations journal, there must be least one active Ledger allocation rule.</span></span> <span data-ttu-id="3cd27-106">La société fictive USMF est citée en exemple dans cette tâche.</span><span class="sxs-lookup"><span data-stu-id="3cd27-106">This task uses the USMF demo company.</span></span>
 

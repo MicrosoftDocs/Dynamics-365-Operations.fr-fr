@@ -19,17 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: eecd53d181a086a5cf295f54f9fa72aa2960c272
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4f4edc910bea2ea97e868a0e5c935df2aec205ca
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="manage-the-electronic-reporting-configuration-lifecycle"></a><span data-ttu-id="7489c-103">Gérer le cycle de vie de la configuration des états électroniques</span><span class="sxs-lookup"><span data-stu-id="7489c-103">Manage the Electronic reporting configuration lifecycle</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="7489c-104">Cette rubrique décrit comment gérer le cycle de vie des configurations d'états électroniques (ER) pour la solution Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="7489c-104">This topic describes how to manage the lifecycle of Electronic reporting (ER) configurations for the Microsoft Dynamics 365 for Finance and Operations solution.</span></span>
 

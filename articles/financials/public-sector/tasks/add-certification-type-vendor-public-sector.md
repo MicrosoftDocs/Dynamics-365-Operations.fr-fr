@@ -17,15 +17,15 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 078c1dcb22e385bc658befcdf81497f567bef494
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2253ad78f750b9f4738885b0433c34440e760172
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="add-a-certification-type-to-a-vendor-in-the-public-sector"></a><span data-ttu-id="fda74-103">Ajouter un type de certification à un fournisseur dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="fda74-103">Add a certification type to a vendor in the public sector</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="fda74-104">Vous pouvez créer et affecter aux fournisseurs n'importe quel type de certification qu'ils sont susceptibles de détenir.</span><span class="sxs-lookup"><span data-stu-id="fda74-104">You can create and assign to vendors any type of certification that they may hold.</span></span> <span data-ttu-id="fda74-105">Cette procédure a été créée à l'aide des données de la société fictive PSUS dans la partition du secteur public.</span><span class="sxs-lookup"><span data-stu-id="fda74-105">This procedure was created using the PSUS demo company data in the public sector partition.</span></span>
 

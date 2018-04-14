@@ -16,15 +16,15 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
-ms.openlocfilehash: e46c49a136896fd166b92dd08c63993b0684536d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ee053759be244f04efaa6ef6e2cf98e6509da230
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="maintain-employee-injury-and-illness-information"></a><span data-ttu-id="0de0f-103">Mettre à jour des informations relatives aux blessures et aux maladies des employés</span><span class="sxs-lookup"><span data-stu-id="0de0f-103">Maintain employee injury and illness information</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="0de0f-104">Il est recommandé de terminer d'abord le guide de tâche « Paramétrer les informations sur les blessures et les maladies », car certaines des informations de paramétrage sont utilisées ici.</span><span class="sxs-lookup"><span data-stu-id="0de0f-104">It is recommended to complete the 'Setup injury and illness' task guide first, as some of the setup information is used here.</span></span> 
 

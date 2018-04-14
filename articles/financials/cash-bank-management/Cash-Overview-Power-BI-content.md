@@ -17,16 +17,16 @@ ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: dfac5fe931cd6932da3a3e851b2578267449ea7b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 948fdefc52db2e5cb46e7708d36d172b38285913
 ms.contentlocale: fr-fr
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cash-overview-power-bi-content"></a><span data-ttu-id="a2e47-104">Contenu Power BI Vue d'ensemble des disponibilités</span><span class="sxs-lookup"><span data-stu-id="a2e47-104">Cash overview Power BI content</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="a2e47-105">Cette rubrique décrit le contenu Microsoft Power BI **Vue d'ensemble des disponibilités**.</span><span class="sxs-lookup"><span data-stu-id="a2e47-105">This topic describes the **Cash overview** Microsoft Power BI content.</span></span> <span data-ttu-id="a2e47-106">Elle explique également comment accéder aux états inclus dans le contenu, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.</span><span class="sxs-lookup"><span data-stu-id="a2e47-106">It explains how to access the reports that are included in the content, and provides information about the data model and entities that were used to build the content.</span></span>
 

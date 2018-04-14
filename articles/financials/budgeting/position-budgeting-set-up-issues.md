@@ -19,17 +19,16 @@ ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f2ef04008a5e6339a2193f9fcc77f2e0e6643557
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 36270b6e7f9c1b49d7191a077b9c43f952b92a80
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="position-budgeting-troubleshooting"></a><span data-ttu-id="76706-104">Dépannage de la budgétisation de poste</span><span class="sxs-lookup"><span data-stu-id="76706-104">Position budgeting troubleshooting</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="76706-105">Cet article contient les réponses aux questions que vous vous posez lorsque vous configurez la budgétisation du poste.</span><span class="sxs-lookup"><span data-stu-id="76706-105">This article provides answers to questions that you might have when you configure position budgeting.</span></span> <span data-ttu-id="76706-106">Elle répond aux questions fréquemment posées sur la création des éléments de coût budgétaire, des groupes de rémunération, et des grilles de rémunération.</span><span class="sxs-lookup"><span data-stu-id="76706-106">It addresses frequently asked questions about how to create budget cost elements, compensation groups, and compensation grids.</span></span> 
 

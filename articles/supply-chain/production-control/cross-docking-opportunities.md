@@ -19,16 +19,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 62194012cfbe101d19e9de3254afb004da79a562
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 06416e3cec2915071f13acf485d21482da2eef21
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a><span data-ttu-id="19251-103">Cross-docking des ordres de fabrication aux quais d’expédition</span><span class="sxs-lookup"><span data-stu-id="19251-103">Cross-docking from production orders to outbound docks</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="19251-104">Cette rubrique décrit la procédure de gestion du processus du matériel de cross-docking qui est déclaré terminé d'une ligne de production à un quai de transport sortant.</span><span class="sxs-lookup"><span data-stu-id="19251-104">This topic describes how to manage the process of cross-docking material that is being reported as finished from a production line to an outbound transportation dock.</span></span>
 
@@ -76,10 +76,10 @@ ms.lasthandoff: 03/07/2018
 
 ### <a name="cross-docking-policy-name-transfer-order"></a><span data-ttu-id="19251-135">Nom de la stratégie de cross-docking : Ordre de transfert</span><span class="sxs-lookup"><span data-stu-id="19251-135">Cross-docking policy name: Transfer order</span></span>
 
--   <span data-ttu-id="19251-136">Numéro de souche : 10</span><span class="sxs-lookup"><span data-stu-id="19251-136">Sequence number: 10</span></span>
- -   <span data-ttu-id="19251-137">Type d'ordre d'exécution : Sortie de transfert</span><span class="sxs-lookup"><span data-stu-id="19251-137">Work order type: Transfer issue</span></span>
--   <span data-ttu-id="19251-138">Demande de cross-docking nécessite un emplacement : Faux</span><span class="sxs-lookup"><span data-stu-id="19251-138">Cross docking demand requires location: False</span></span>
--   <span data-ttu-id="19251-139">Stratégie de cross-docking : Date et heure</span><span class="sxs-lookup"><span data-stu-id="19251-139">Cross docking strategy: Date and time</span></span>
+- <span data-ttu-id="19251-136">Numéro de souche : 10</span><span class="sxs-lookup"><span data-stu-id="19251-136">Sequence number: 10</span></span>
+  -   <span data-ttu-id="19251-137">Type d'ordre d'exécution : Sortie de transfert</span><span class="sxs-lookup"><span data-stu-id="19251-137">Work order type: Transfer issue</span></span>
+- <span data-ttu-id="19251-138">Demande de cross-docking nécessite un emplacement : Faux</span><span class="sxs-lookup"><span data-stu-id="19251-138">Cross docking demand requires location: False</span></span>
+- <span data-ttu-id="19251-139">Stratégie de cross-docking : Date et heure</span><span class="sxs-lookup"><span data-stu-id="19251-139">Cross docking strategy: Date and time</span></span>
 
 ### <a name="sequence-number"></a><span data-ttu-id="19251-140">Souche de N°</span><span class="sxs-lookup"><span data-stu-id="19251-140">Sequence number</span></span>
 

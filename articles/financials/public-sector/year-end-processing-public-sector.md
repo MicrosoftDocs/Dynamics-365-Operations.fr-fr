@@ -20,17 +20,16 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 743841195844dd5a4e1cb692cf332a4e35c1f719
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ea11e7096975e3cec59570bda62c3c28e4f73054
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="year-end-processing-in-the-public-sector"></a><span data-ttu-id="bc9e1-103">Traitement de fin d'exercice dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="bc9e1-103">Year-end processing in the public sector</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="bc9e1-104">Cet article fournit des informations sur le processus de fin d'exercice pour des organisations du secteur public.</span><span class="sxs-lookup"><span data-stu-id="bc9e1-104">This article provides information about year-end processing for a public sector organizations.</span></span>
 

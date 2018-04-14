@@ -20,17 +20,16 @@ ms.author: yuyus
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 350e9da6ec0521d765dfcd8ffbae2176f0447a7c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b9c179cf49295aadb9fc626aba04528933c2b7b8
 ms.contentlocale: fr-fr
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="display-charges-for-a-manufactured-item"></a><span data-ttu-id="2c68c-103">Affichage des frais pour un article fabriqué</span><span class="sxs-lookup"><span data-stu-id="2c68c-103">Display charges for a manufactured item</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="2c68c-104">Les coûts constants d'un article fabriqué reflètent les temps de réglage de l'opération et les composants pour lesquels la quantité est constante ou la quantité de rebut est constante.</span><span class="sxs-lookup"><span data-stu-id="2c68c-104">The constant costs of a manufactured item reflect the operation setup times and the components that have a constant quantity or a constant scrap amount.</span></span>
 

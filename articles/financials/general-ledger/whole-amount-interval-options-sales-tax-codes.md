@@ -19,28 +19,26 @@ ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6ac0e2abcb5dce58ad16737a0ef689ceaeb50c44
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8923f75370c6707ab6a4304dd139081807c6decd
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a><span data-ttu-id="4305d-103">Options de calcul Montant entier et Intervalle pour les codes taxe</span><span class="sxs-lookup"><span data-stu-id="4305d-103">Whole amount and Interval calculation options for sales tax codes</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="4305d-104">Cet article décrit les options du champ Mode de calcul sous codes taxe et comment la taxe est calculée pour les intervalles et les montants entiers.</span><span class="sxs-lookup"><span data-stu-id="4305d-104">This article explains the options for the Calculation method field on sales tax codes and how sales tax is calculated for intervals and whole amounts.</span></span>
 
 <span data-ttu-id="4305d-105">Vous pouvez paramétrer un code taxe à calculer en fonction d'un montant entier ou d'un intervalle.</span><span class="sxs-lookup"><span data-stu-id="4305d-105">You can set up a sales tax code to be calculated based on a whole amount or an interval amount.</span></span> <span data-ttu-id="4305d-106">Dans la page Codes taxe, utilisez le champ Mode de calcul de l'organisateur Calcul pour sélectionner le mode de calcul du code taxe.</span><span class="sxs-lookup"><span data-stu-id="4305d-106">In the Sales tax codes page, use the Calculation method field on the Calculation FastTab to select how to calculate a sales tax code.</span></span>
--   <span data-ttu-id="4305d-107">Montant entier – Le taux de taxe est appliqué au montant imposable entier.</span><span class="sxs-lookup"><span data-stu-id="4305d-107">Whole amount – The tax rate is applied to the whole taxable amount.</span></span>
--   <span data-ttu-id="4305d-108">Intervalle – Le montant imposable est divisé en plusieurs parts s'inscrivant chacune dans une plage associée à un taux de taxe spécifique.</span><span class="sxs-lookup"><span data-stu-id="4305d-108">Interval – The taxable amount is divided into parts, each of which falls in a range that has a specific sales tax rate.</span></span> <span data-ttu-id="4305d-109">La part du montant s'inscrivant dans un intervalle donné est taxée au taux correspondant.</span><span class="sxs-lookup"><span data-stu-id="4305d-109">The part of the amount that falls in a given interval is taxed according to the tax rate for that interval.</span></span> <span data-ttu-id="4305d-110">La taxe est égale à la somme des montants de taxe calculés pour chaque intervalle.</span><span class="sxs-lookup"><span data-stu-id="4305d-110">The sales tax is the sum of the tax amounts that are calculated for each amount interval.</span></span>
-> [!NOTE]                                                                                                                              
-> <span data-ttu-id="4305d-111">L'option Intervalle est disponible uniquement si vous sélectionnez Ligne dans le champ Mode de calcul de la zone Taxe de la page Paramètres de comptabilité.</span><span class="sxs-lookup"><span data-stu-id="4305d-111">The Interval option is available only when you select Line in the Calculation method field in the Sales tax area of the General ledger parameters page.</span></span> 
+- <span data-ttu-id="4305d-107">Montant entier – Le taux de taxe est appliqué au montant imposable entier.</span><span class="sxs-lookup"><span data-stu-id="4305d-107">Whole amount – The tax rate is applied to the whole taxable amount.</span></span>
+- <span data-ttu-id="4305d-108">Intervalle – Le montant imposable est divisé en plusieurs parts s'inscrivant chacune dans une plage associée à un taux de taxe spécifique.</span><span class="sxs-lookup"><span data-stu-id="4305d-108">Interval – The taxable amount is divided into parts, each of which falls in a range that has a specific sales tax rate.</span></span> <span data-ttu-id="4305d-109">La part du montant s'inscrivant dans un intervalle donné est taxée au taux correspondant.</span><span class="sxs-lookup"><span data-stu-id="4305d-109">The part of the amount that falls in a given interval is taxed according to the tax rate for that interval.</span></span> <span data-ttu-id="4305d-110">La taxe est égale à la somme des montants de taxe calculés pour chaque intervalle.</span><span class="sxs-lookup"><span data-stu-id="4305d-110">The sales tax is the sum of the tax amounts that are calculated for each amount interval.</span></span>
+  > [!NOTE]                                                                                                                              
+  > <span data-ttu-id="4305d-111">L'option Intervalle est disponible uniquement si vous sélectionnez Ligne dans le champ Mode de calcul de la zone Taxe de la page Paramètres de comptabilité.</span><span class="sxs-lookup"><span data-stu-id="4305d-111">The Interval option is available only when you select Line in the Calculation method field in the Sales tax area of the General ledger parameters page.</span></span> 
 
 <span data-ttu-id="4305d-112">Les intervalles sont paramétrés dans la page Valeurs de code taxe en entrant les montants limites minimal et maximal par taux de taxe.</span><span class="sxs-lookup"><span data-stu-id="4305d-112">Intervals are set up in the Sales tax code values page by entering Minimum and Maximum limit amounts per tax rate.</span></span> <span data-ttu-id="4305d-113">Pour que les taxes soient calculées sur tous les montants imposables (quelle que soit la méthode de calcul sélectionnée), les intervalles doivent être conformes aux règles suivantes :</span><span class="sxs-lookup"><span data-stu-id="4305d-113">For taxes to be calculated on all taxable amounts, regardless of which calculation method is selected, intervals must follow these rules:</span></span>
 -   <span data-ttu-id="4305d-114">La limite minimale du premier intervalle doit être de zéro.</span><span class="sxs-lookup"><span data-stu-id="4305d-114">The first interval must have a Minimum limit of zero.</span></span>
@@ -51,6 +49,7 @@ ms.lasthandoff: 11/06/2017
 
 ## <a name="example-whole-amount-method-of-calculation"></a><span data-ttu-id="4305d-119">Exemple : mode de calcul Montant entier</span><span class="sxs-lookup"><span data-stu-id="4305d-119">Example: Whole amount method of calculation</span></span>
 <span data-ttu-id="4305d-120">Dans la page Valeurs de code taxe, les taux de taxe sont paramétrés dans les intervalles suivants :</span><span class="sxs-lookup"><span data-stu-id="4305d-120">In the Sales tax code values page, sales tax rates are set up in the following intervals:</span></span>
+
 |                   |                   |              |
 |-------------------|-------------------|--------------|
 | <span data-ttu-id="4305d-121">**Limite inférieure**</span><span class="sxs-lookup"><span data-stu-id="4305d-121">**Minimum limit**</span></span> | <span data-ttu-id="4305d-122">**Limite maximale**</span><span class="sxs-lookup"><span data-stu-id="4305d-122">**Maximum limit**</span></span> | <span data-ttu-id="4305d-123">**Taux de taxe**</span><span class="sxs-lookup"><span data-stu-id="4305d-123">**Tax rate**</span></span> |
@@ -86,7 +85,7 @@ ms.lasthandoff: 11/06/2017
 | <span data-ttu-id="4305d-173">85,00</span><span class="sxs-lookup"><span data-stu-id="4305d-173">85.00</span></span>                  | <span data-ttu-id="4305d-174">(50,00 \* 0,30 = 15,00) + (35,00 \* 0,20 = 7,00)</span><span class="sxs-lookup"><span data-stu-id="4305d-174">(50.00 \* 0.30 = 15.00) + (35.00 \* 0.20 = 7.00)</span></span>                          | <span data-ttu-id="4305d-175">22,00</span><span class="sxs-lookup"><span data-stu-id="4305d-175">22.00</span></span>     |
 | <span data-ttu-id="4305d-176">305,00</span><span class="sxs-lookup"><span data-stu-id="4305d-176">305.00</span></span>                 | <span data-ttu-id="4305d-177">(50,00 \* 0,30 = 15,00) + (50,00 \* 0,20 = 10,00) + (205 \* 0,10 = 20,50)</span><span class="sxs-lookup"><span data-stu-id="4305d-177">(50.00 \* 0.30 = 15.00) + (50.00 \* 0.20 = 10.00) + (205 \* 0.10 = 20.50)</span></span> | <span data-ttu-id="4305d-178">45,50</span><span class="sxs-lookup"><span data-stu-id="4305d-178">45.50</span></span>     |
 
- 
+
 
 <span data-ttu-id="4305d-179">Pour plus d'informations, voir [Détermination des taux de taxe en fonction des champs Base marginale et Mode de calcul](marginal-base-field.md).</span><span class="sxs-lookup"><span data-stu-id="4305d-179">For more information, see [Determining sale tax rates based on the Marginal base and Calculation method fields](marginal-base-field.md).</span></span>
 

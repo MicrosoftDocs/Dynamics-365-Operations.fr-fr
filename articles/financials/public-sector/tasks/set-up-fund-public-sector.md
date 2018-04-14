@@ -17,15 +17,15 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 8c0d2eabd0519b1029f3c0a33a502f3550adb6e4
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6d2bc03d28c108611f49c500a5d5337f7ec17278
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-a-fund-in-the-public-sector"></a><span data-ttu-id="7a04a-103">Paramétrer un fonds dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="7a04a-103">Set up a fund in the public sector</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="7a04a-104">Vous devez créer des types de fonds avant de pouvoir paramétrer des fonds.</span><span class="sxs-lookup"><span data-stu-id="7a04a-104">Fund types must be created before you set up funds.</span></span> <span data-ttu-id="7a04a-105">Chaque fonds doit posséder un nom et un numéro unique ; un type et une classe de fonds doivent lui être affectés.</span><span class="sxs-lookup"><span data-stu-id="7a04a-105">Each fund must have a name and a unique number, and must be assigned a fund type and fund class.</span></span> <span data-ttu-id="7a04a-106">Cette procédure a été créée à l'aide des données de la société fictive PSUS dans la partition du secteur public.</span><span class="sxs-lookup"><span data-stu-id="7a04a-106">This procedure was created using the PSUS demo company data in the public sector partition.</span></span>
 

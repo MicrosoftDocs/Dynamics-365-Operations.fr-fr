@@ -18,16 +18,16 @@ ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 0886f60dbdfc531893cd2c1b23df5b52a4a2f4b6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0d58a7138ac9c47718304ca443203d1c4a9f175b
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="process-compensation"></a><span data-ttu-id="331fb-103">Traiter la rémunération</span><span class="sxs-lookup"><span data-stu-id="331fb-103">Process compensation</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="331fb-104">Le traitement de la rémunération vous permet de calculer les nouveaux montants de rémunération de vos employés en fonction des augmentations pour mérite, des cibles d'augmentation au mérite et des performances.</span><span class="sxs-lookup"><span data-stu-id="331fb-104">Compensation processing allows you to calculate new base compensation amounts for your employees based on equity adjustments, merit increase targets, and performance.</span></span> <span data-ttu-id="331fb-105">Cette rubrique couvre le flux de base du traitement de la rémunération pour les régimes de rémunération fixe sans tenir compte des performances d'un employé.</span><span class="sxs-lookup"><span data-stu-id="331fb-105">This topic covers the basic flow of compensation processing for fixed compensation plans without factoring an employee's performance.</span></span>
 

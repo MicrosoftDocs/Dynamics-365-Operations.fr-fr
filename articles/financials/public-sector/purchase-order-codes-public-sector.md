@@ -20,17 +20,16 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b966c7c6ffc23aff08fb9018b80eb921ffa60839
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 698d5d00f7aa43acd593016d47ffa1a8283de552
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="purchase-order-codes-in-the-public-sector"></a><span data-ttu-id="e7fef-104">Codes de commande fournisseur dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="e7fef-104">Purchase order codes in the public sector</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="e7fef-105">Cet article fournit des informations sur les codes et les messages spéciaux pouvant être utilisés lors de la confirmation des commandes fournisseur.</span><span class="sxs-lookup"><span data-stu-id="e7fef-105">This article provides information about the codes and special messages that can be used with confirming purchase orders.</span></span> <span data-ttu-id="e7fef-106">Une commande fournisseur de confirmation contourne le processus d'achat habituel.</span><span class="sxs-lookup"><span data-stu-id="e7fef-106">A confirming purchase order bypasses the typical purchasing process.</span></span>
 
@@ -44,7 +43,7 @@ ms.lasthandoff: 11/06/2017
 -   <span data-ttu-id="e7fef-115">Si vous modifiez un code commande fournisseur de confirmation déjà affecté à une commande fournisseur, le nouveau code remplace l'ancien.</span><span class="sxs-lookup"><span data-stu-id="e7fef-115">If you change a confirming PO code that was already assigned to a purchase order, the new code will replace the old code.</span></span> <span data-ttu-id="e7fef-116">Cette modification affecte à la fois les nouvelles commandes fournisseur et les commandes fournisseur qui ont été validées.</span><span class="sxs-lookup"><span data-stu-id="e7fef-116">This change affects both new purchase orders and purchase orders that have been posted.</span></span> <span data-ttu-id="e7fef-117">Par exemple, une commande fournisseur avait un code de confirmation de commande fournisseur **Confirmation** lorsqu'elle a été validée, mais ce code a été modifié ultérieurement pour devenir **Urgence**.</span><span class="sxs-lookup"><span data-stu-id="e7fef-117">For example, a purchase order had a confirming PO code of **Confirming** when it was posted, but that code is later changed to **Emergency**.</span></span> <span data-ttu-id="e7fef-118">Dans ce cas, chaque commande fournisseur dotée du code **Confirmation**sera désormais dotée du code **Urgence**.</span><span class="sxs-lookup"><span data-stu-id="e7fef-118">In this case, every purchase order that had the **Confirming** code will now have the **Emergency** code instead.</span></span>
 -   <span data-ttu-id="e7fef-119">Vous pouvez créer des messages dans différentes langues.</span><span class="sxs-lookup"><span data-stu-id="e7fef-119">You can create messages in different languages.</span></span> <span data-ttu-id="e7fef-120">Cette fonctionnalité s'avère utile lorsque vous effectuez des achats auprès de fournisseurs implantés dans d'autres pays ou régions.</span><span class="sxs-lookup"><span data-stu-id="e7fef-120">This feature is helpful when you are purchasing from merchants in other countries or regions.</span></span> <span data-ttu-id="e7fef-121">Par exemple, votre organisation est implantée dans un pays ou une région anglophone et vous souhaitez créer un message en espagnol pour les commandes fournisseur de confirmation ayant **Confirmation** pour code de commande fournisseur de confirmation.</span><span class="sxs-lookup"><span data-stu-id="e7fef-121">For example, your organization is located in an English-speaking country or region, and you want to create a Spanish message for confirming purchase orders that have a confirming PO code **Confirming**.</span></span>
 
- 
+
 
 
 

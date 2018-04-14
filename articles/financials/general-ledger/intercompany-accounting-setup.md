@@ -19,17 +19,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 48e0b00e2a9bd1a1387780747e1976bd386200eb
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b23c0d1e544a18c72fd1cbf6b2346ae542541177
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="intercompany-accounting-setup"></a><span data-ttu-id="20ca7-103">Paramétrage de la comptabilité intersociétés</span><span class="sxs-lookup"><span data-stu-id="20ca7-103">Intercompany accounting setup</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="20ca7-104">Cette rubrique décrit la procédure de paramétrage de la comptabilité intersociétés afin de pouvoir utiliser les journaux intersociétés pour les répartitions comptables et les journaux financiers, tels que les journaux, les journaux de factures fournisseurs, et les journaux des paiements d'opérations diverses.</span><span class="sxs-lookup"><span data-stu-id="20ca7-104">This topic explains how to set up intercompany accounting so that you can use intercompany journals for ledger allocations and financial journals, such as daily journals, vendor invoice journals, and payment journals.</span></span>
 

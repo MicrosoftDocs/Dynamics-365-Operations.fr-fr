@@ -19,17 +19,16 @@ ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 7626928bdb8c44036a8f995ccf6d5fd5c684438d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 157eff2dfaaecd105d1f8c371adbea659d5b4662
 ms.contentlocale: fr-fr
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="income-statement-financial-report"></a><span data-ttu-id="f18d4-104">Rapport financier du relevé des revenus</span><span class="sxs-lookup"><span data-stu-id="f18d4-104">Income statement financial report</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="f18d4-105">Cet article décrit l'état par défaut des comptes de résultats.</span><span class="sxs-lookup"><span data-stu-id="f18d4-105">This article describes the default report for income statements.</span></span> <span data-ttu-id="f18d4-106">Il décrit également les blocs de construction associés à cet état.</span><span class="sxs-lookup"><span data-stu-id="f18d4-106">It also describes the building blocks that are associated with this report.</span></span> 
 
@@ -60,7 +59,7 @@ ms.lasthandoff: 01/19/2018
     -   <span data-ttu-id="f18d4-128">**DF** – Données financières pour la période en cours</span><span class="sxs-lookup"><span data-stu-id="f18d4-128">**FD** – Financial data for the current period</span></span>
     -   <span data-ttu-id="f18d4-129">**DF** – Données financières pour l'année en cours</span><span class="sxs-lookup"><span data-stu-id="f18d4-129">**FD** – Financial data for the year to date</span></span>
 
- 
+
 
 <a name="see-also"></a><span data-ttu-id="f18d4-130">Voir également :</span><span class="sxs-lookup"><span data-stu-id="f18d4-130">See also</span></span>
 --------

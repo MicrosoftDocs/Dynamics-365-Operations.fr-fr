@@ -18,17 +18,16 @@ ms.author: shylaw
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: b6268775c707a777a8391bcb41b061c1635b8942
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 292849d53b5b2ef40e00e2230a09c156328dfa66
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="reconciliation-reports-for-belgium"></a><span data-ttu-id="a64da-103">États de rapprochement pour la Belgique</span><span class="sxs-lookup"><span data-stu-id="a64da-103">Reconciliation reports for Belgium</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="a64da-104">Cette rubrique décrit les états standard que Microsoft Dynamics 365 for Finance and Operations fournit pour l'analyse de la déclaration de taxe INTERVAT et de rapprochement.</span><span class="sxs-lookup"><span data-stu-id="a64da-104">This topic describes the standard reports that Microsoft Dynamics 365 for Finance and Operations provides to help you with the INTERVAT tax declaration and reconciliation analysis.</span></span>
 

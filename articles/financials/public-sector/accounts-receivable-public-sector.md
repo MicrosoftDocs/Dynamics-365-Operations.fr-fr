@@ -20,17 +20,16 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 47336a19899b1fad0e63265173fd7fd02fc74ec3
-ms.openlocfilehash: 593924e8d6be1e24f79795768e1facbb7dcf1e56
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: aff05047ceee7c994532851808474e63fb422517
 ms.contentlocale: fr-fr
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="accounts-receivable-in-the-public-sector"></a><span data-ttu-id="ff7df-103">Comptabilité client dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="ff7df-103">Accounts receivable in the public sector</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="ff7df-104">Cette rubrique décrit la fonctionnalité de Comptabilité client disponible pour le secteur public.</span><span class="sxs-lookup"><span data-stu-id="ff7df-104">This topic describes the Accounts receivable functionality that is available for the public sector.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6ff2357d5266c45be2f403e463c72089d73db21b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 829a0bbb1b5ab01728c096872b0ada27cfc570c9
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-vendor-account"></a><span data-ttu-id="085f9-103">Création d'un compte fournisseur</span><span class="sxs-lookup"><span data-stu-id="085f9-103">Create a vendor account</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="085f9-104">Cette procédure indique comment créer un compte fournisseur, puis ajouter une adresse et des informations de contact.</span><span class="sxs-lookup"><span data-stu-id="085f9-104">This procedure shows how to create a vendor account, and add an address and contact information.</span></span> <span data-ttu-id="085f9-105">La procédure ne montre pas comment renseigner tous les champs à des fins d'achat et de gestion financière.</span><span class="sxs-lookup"><span data-stu-id="085f9-105">The procedure does not show how to populate all fields for purchasing and financial purposes.</span></span> <span data-ttu-id="085f9-106">Pour plus d'informations sur ces champs, lisez les descriptions des champs.</span><span class="sxs-lookup"><span data-stu-id="085f9-106">To learn more about those fields, please read the field descriptions.</span></span> <span data-ttu-id="085f9-107">Vous pouvez utiliser cette procédure dans la société fictive de démonstration USMF ou utiliser vos propres données.</span><span class="sxs-lookup"><span data-stu-id="085f9-107">You can use this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="085f9-108">Les comptes fournisseur sont généralement créés par un professionnel de l'approvisionnement ou de la comptabilité client.</span><span class="sxs-lookup"><span data-stu-id="085f9-108">Vendor accounts are typically created by a procurement professional or accounts receivable personnel.</span></span>
 

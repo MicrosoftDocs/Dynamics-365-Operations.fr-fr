@@ -20,17 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 29040d0c96183898672bc405364ec59707bff53a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a83a3325c80eb6fc1a19371a6115413ca9b82185
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="time-and-attendance-registration"></a><span data-ttu-id="3f2b2-104">Enregistrement de Pointage</span><span class="sxs-lookup"><span data-stu-id="3f2b2-104">Time and attendance registration</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="3f2b2-105">Les collaborateurs qualifiés pour l'enregistrement des heures peuvent entrer plusieurs types d'enregistrements d'heures : par exemple, le pointage à l'arrivée, le pointage à la sortie, l'enregistrement des activités indirectes et l'enregistrement des absences.</span><span class="sxs-lookup"><span data-stu-id="3f2b2-105">Time registration workers can enter different types of time registrations, for example, clock in, clock out, register indirect activities, and absence registration.</span></span> <span data-ttu-id="3f2b2-106">Cette rubrique décrit les enregistrements, leur calcul, leur approbation, et l'utilisation du workflow pour ajouter la structure et l'approbation automatisée au processus d'approbation des feuilles de temps.</span><span class="sxs-lookup"><span data-stu-id="3f2b2-106">This topic describes registrations, their calculation, approval, and the use of workflow to add structure and automated approval to the process of approving timesheets.</span></span> 
 
@@ -95,7 +94,7 @@ ms.lasthandoff: 11/06/2017
 | <span data-ttu-id="3f2b2-168">Total des jours de pointage</span><span class="sxs-lookup"><span data-stu-id="3f2b2-168">Time and attendance days total</span></span>            | <span data-ttu-id="3f2b2-169">Le workflow contrôle les enregistrements, par exemple, par rapport au nombre attendu d'heures de travail pour la journée.</span><span class="sxs-lookup"><span data-stu-id="3f2b2-169">The workflow validates registrations against, for example, the expected number of work hours for the day.</span></span> |                                                                                                                                                                                                                                                       |
 | <span data-ttu-id="3f2b2-170">Enregistrement du journal de pointage.</span><span class="sxs-lookup"><span data-stu-id="3f2b2-170">Time and attendance journal registration.</span></span> | <span data-ttu-id="3f2b2-171">Le workflow contrôle chaque type d'enregistrement par rapport à la date de l'enregistrement.</span><span class="sxs-lookup"><span data-stu-id="3f2b2-171">The workflow validates each registration type for the date of the registration.</span></span>                           | <span data-ttu-id="3f2b2-172">Pointage • Pointage à l'arrivée • Pointage à la sortie • Absence • Pause• Code de report • Projet • Activité de projet • Activité indirecte • Tâches de production • Temps d'attente avant • Paramétrage • Processus • Chevauchement • Transport • Temps d'attente après • Début d'assistance • Fin d'assistance</span><span class="sxs-lookup"><span data-stu-id="3f2b2-172">Time and attendance • Clock-in • Clock-out • Absence • Break • Switch code • Project • Project activity • Indirect activity Production jobs • Queue before • Setup • Process • Overlap • Transport • Queue after • Start assistance • Stop assistance</span></span> |
 
- 
+
 
 ## <a name="transferring-approved-registrations"></a><span data-ttu-id="3f2b2-173">Transfert des enregistrements approuvés</span><span class="sxs-lookup"><span data-stu-id="3f2b2-173">Transferring approved registrations</span></span>
 <span data-ttu-id="3f2b2-174">Après approbation des enregistrements, vous pouvez les transférer vers une tâche de paie périodique.</span><span class="sxs-lookup"><span data-stu-id="3f2b2-174">After approval of the registrations you can transfer them to a periodic payroll job.</span></span> <span data-ttu-id="3f2b2-175">Un enregistrement transféré est validé pour une activité ou une tâche à laquelle il a trait, par exemple, un ordre de fabrication ou un projet.</span><span class="sxs-lookup"><span data-stu-id="3f2b2-175">A transferred registration is posted to an activity or job that it relates to, for example, a production order or a project.</span></span> <span data-ttu-id="3f2b2-176">Les transactions de paie sont générées pour chaque travailleur sur la base des enregistrements.</span><span class="sxs-lookup"><span data-stu-id="3f2b2-176">Payroll transactions are generated for each worker based on the registrations.</span></span>  

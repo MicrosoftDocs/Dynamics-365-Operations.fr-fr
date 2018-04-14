@@ -16,15 +16,15 @@ ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 59cb753ddeb1fb85e4237da5d5e136577992b755
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2fa67bf53f32edeb89a60aa2f45fb638925c9235
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="naf-codes-and-siret-numbers-france"></a><span data-ttu-id="05db4-103">Codes NAF et numéros SIRET (France)</span><span class="sxs-lookup"><span data-stu-id="05db4-103">NAF codes and Siret numbers (France)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="05db4-104">Cette procédure indique comment créer des codes NAF et comment les entrer pour les entités juridiques, les clients, les fournisseurs, et les prospects.</span><span class="sxs-lookup"><span data-stu-id="05db4-104">This procedure shows how to create NAF codes and then enter the codes for legal entities, customers, vendors, and prospects.</span></span> <span data-ttu-id="05db4-105">Vous pouvez utiliser les codes NAF pour identifier le secteur d'activité d'une entreprise.</span><span class="sxs-lookup"><span data-stu-id="05db4-105">NAF codes are used to identify the business of an enterprise.</span></span> <span data-ttu-id="05db4-106">Par exemple, si votre entité juridique fabrique des ordinateurs, son code NAF pourrait être 300C, à savoir le code NAF de fabrication d'ordinateurs et de matériel informatique.</span><span class="sxs-lookup"><span data-stu-id="05db4-106">For instance, if your legal entity manufactures computers, the NAF code for your legal entity may be 300C, which is the NAF code for manufacturing computers and other computer hardware.</span></span> <span data-ttu-id="05db4-107">Si votre entité juridique est active dans le secteur de la construction, votre code NAF pourra être 452A.</span><span class="sxs-lookup"><span data-stu-id="05db4-107">If your legal entity is involved in building houses, your NAF code may be 452A.</span></span>
 

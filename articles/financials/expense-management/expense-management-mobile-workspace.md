@@ -18,16 +18,16 @@ ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 6f6add07a2426b1846cbeb9dee149a63f66f779e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 93e45257dec65dee0d20f4a6b14a7cc682fa0ab5
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="expense-management-mobile-workspace"></a><span data-ttu-id="6d6b9-105">Espace de travail mobile pour la gestion des dépenses</span><span class="sxs-lookup"><span data-stu-id="6d6b9-105">Expense management mobile workspace</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="6d6b9-106">Cette rubrique fournit des informations sur l'espace de travail mobile **pour la gestion des dépenses**.</span><span class="sxs-lookup"><span data-stu-id="6d6b9-106">This topic provides information about the **Expense management** mobile workspace.</span></span> <span data-ttu-id="6d6b9-107">Cet espace de travail permet aux utilisateurs de capturer et charger une réception, afin de pouvoir l'associer à un état de dépenses ultérieurement.</span><span class="sxs-lookup"><span data-stu-id="6d6b9-107">This workspace lets users capture and upload a receipt, so that they can attach it to an expense report later.</span></span> <span data-ttu-id="6d6b9-108">Les utilisateurs peuvent également créer rapidement une ligne de dépense à l'aide d'un reçu joint, puis créer et gérer leurs états de dépenses.</span><span class="sxs-lookup"><span data-stu-id="6d6b9-108">Users can also quickly create an expense line by using an attached receipt, and create and manage their expense reports.</span></span> <span data-ttu-id="6d6b9-109">En outre, les approbateurs peuvent utiliser l'espace de travail mobile de **gestion des dépenses** pour afficher les états de dépenses qui leur sont affectés, et d'approuver ou de rejeter ces états de dépenses.</span><span class="sxs-lookup"><span data-stu-id="6d6b9-109">Additionally, approvers can use the **Expense management** mobile workspace to view expense reports that are assigned to them, and either approve or reject those expense reports.</span></span>
 

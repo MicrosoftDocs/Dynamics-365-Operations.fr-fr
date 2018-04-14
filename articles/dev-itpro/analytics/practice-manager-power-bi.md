@@ -18,16 +18,16 @@ ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 903eeac732f0c5dc3d94d609ee08988029e33f0c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1285b62130e0c3b0eb30773b3ccaa7a31d844461
 ms.contentlocale: fr-fr
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="practice-manager-power-bi-content"></a><span data-ttu-id="93241-104">Contenu Power BI du gestionnaire de pratique</span><span class="sxs-lookup"><span data-stu-id="93241-104">Practice manager Power BI content</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="93241-105">Cette rubrique décrit ce qui est inclus dans le contenu Microsoft Power BI **Gestionnaire de pratique**.</span><span class="sxs-lookup"><span data-stu-id="93241-105">This topic describes what is included in the **Practice manager** Microsoft Power BI content.</span></span> <span data-ttu-id="93241-106">Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.</span><span class="sxs-lookup"><span data-stu-id="93241-106">It explains how to access the Power BI reports, and provides information about the data model and entities that are used to build the content.</span></span>
 
@@ -118,7 +118,9 @@ ms.lasthandoff: 01/17/2018
 ### <a name="entity-projectaccountingcubetotalestimatedcosts"></a><span data-ttu-id="93241-228">Entité : ProjectAccountingCube\_TotalEstimatedCosts</span><span class="sxs-lookup"><span data-stu-id="93241-228">Entity: ProjectAccountingCube\_TotalEstimatedCosts</span></span> 
 <span data-ttu-id="93241-229">**Source de données :** ProjTable</span><span class="sxs-lookup"><span data-stu-id="93241-229">**Data source:** ProjTable</span></span>
 
-| <span data-ttu-id="93241-230">Mesure globale clé</span><span class="sxs-lookup"><span data-stu-id="93241-230">Key aggregate measurement</span></span>       | <span data-ttu-id="93241-231">Champ</span><span class="sxs-lookup"><span data-stu-id="93241-231">Field</span></span>               | <span data-ttu-id="93241-232">Description</span><span class="sxs-lookup"><span data-stu-id="93241-232">Description</span></span> |
-|---------------------------------|---------------------|-------------|
+
+|    <span data-ttu-id="93241-230">Mesure globale clé</span><span class="sxs-lookup"><span data-stu-id="93241-230">Key aggregate measurement</span></span>    |        <span data-ttu-id="93241-231">Champ</span><span class="sxs-lookup"><span data-stu-id="93241-231">Field</span></span>        |                                          <span data-ttu-id="93241-232">Description</span><span class="sxs-lookup"><span data-stu-id="93241-232">Description</span></span>                                           |
+|---------------------------------|---------------------|------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="93241-233">Coût prévisionnel de l'activité terminée</span><span class="sxs-lookup"><span data-stu-id="93241-233">Completed activity planned cost</span></span> | <span data-ttu-id="93241-234">Sum(TotalCostPrice)</span><span class="sxs-lookup"><span data-stu-id="93241-234">Sum(TotalCostPrice)</span></span> | <span data-ttu-id="93241-235">Prix de revient total pour les estimations pour tous les types de transactions de projet avec des tâches terminées.</span><span class="sxs-lookup"><span data-stu-id="93241-235">The total cost price in estimates for all project transaction types that have completed tasks.</span></span> |
+
 

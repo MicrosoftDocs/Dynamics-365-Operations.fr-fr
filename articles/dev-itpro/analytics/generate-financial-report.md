@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 81c09c551dfa4238782c3796f5d08990b30ca575
-ms.openlocfilehash: 95669d83fdf69a6d55dd7ee1e4e33a67108e0371
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e4c49a9aaae2d6c7324dfb6a13f6079610bb24fa
 ms.contentlocale: fr-fr
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="generate-a-financial-report"></a><span data-ttu-id="09473-103">Générer un état financier</span><span class="sxs-lookup"><span data-stu-id="09473-103">Generate a financial report</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="09473-104">Cette rubrique fournit des informations sur la génération d'un état financier.</span><span class="sxs-lookup"><span data-stu-id="09473-104">This topic provides information about generating a financial report.</span></span> 
 
@@ -50,13 +49,13 @@ ms.lasthandoff: 12/01/2017
 ## <a name="generate-a-financial-report"></a><span data-ttu-id="09473-115">Générer un état financier</span><span class="sxs-lookup"><span data-stu-id="09473-115">Generate a financial report</span></span>
 
 <span data-ttu-id="09473-116">Pour générer un état financier avec Microsoft Dynamics 365 for Finance and Operations, accédez à **Comptabilité** > **Recherches et états** > **États financiers**.</span><span class="sxs-lookup"><span data-stu-id="09473-116">To generate a financal report with Microsoft Dynamics 365 for Finance and Operations, go to **General ledger** > **Inquiries and reports** > **Financial reports**.</span></span> 
- - <span data-ttu-id="09473-117">Sélectionnez un état à générer, puis cliquez sur **Générer**.</span><span class="sxs-lookup"><span data-stu-id="09473-117">Select a report to generate and click **Generate**.</span></span> 
- - <span data-ttu-id="09473-118">Renseignez le champ **Date de l'état** et cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="09473-118">Fill in the **Report date** field and click **OK**.</span></span>
- 
- <span data-ttu-id="09473-119">Une fois que l'état a été généré, il est disponible dans la section **États**.</span><span class="sxs-lookup"><span data-stu-id="09473-119">After the report has been generated, the report will be available to view in the **Reports** section.</span></span>
- <span data-ttu-id="09473-120">Vous pouvez choisir d'**Afficher** ou de **Supprimer** l'état.</span><span class="sxs-lookup"><span data-stu-id="09473-120">You can select to **View** or **Delete** the report.</span></span>
- 
- 
+- <span data-ttu-id="09473-117">Sélectionnez un état à générer, puis cliquez sur **Générer**.</span><span class="sxs-lookup"><span data-stu-id="09473-117">Select a report to generate and click **Generate**.</span></span> 
+- <span data-ttu-id="09473-118">Renseignez le champ **Date de l'état** et cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="09473-118">Fill in the **Report date** field and click **OK**.</span></span>
+
+  <span data-ttu-id="09473-119">Une fois que l'état a été généré, il est disponible dans la section **États**.</span><span class="sxs-lookup"><span data-stu-id="09473-119">After the report has been generated, the report will be available to view in the **Reports** section.</span></span>
+  <span data-ttu-id="09473-120">Vous pouvez choisir d'**Afficher** ou de **Supprimer** l'état.</span><span class="sxs-lookup"><span data-stu-id="09473-120">You can select to **View** or **Delete** the report.</span></span>
+
+
 <span data-ttu-id="09473-121">Pour générer un état à l'aide du **Concepteurs d'états**, ouvrez la définition de l'état, puis cliquez sur le bouton Générer dans la barre d'outils.</span><span class="sxs-lookup"><span data-stu-id="09473-121">To generate a report using **Report designer**, open the report definition and then click the Generate button in the toolbar.</span></span> <span data-ttu-id="09473-122">La fenêtre État de la file d'attente de rapports s'ouvre et affiche l'emplacement de votre état dans la file d'attente.</span><span class="sxs-lookup"><span data-stu-id="09473-122">The Report Queue Status window will open and indicate the location of your report in the queue.</span></span> <span data-ttu-id="09473-123">Par défaut, le rapport généré s'affiche dans la visionneuse Web.</span><span class="sxs-lookup"><span data-stu-id="09473-123">By default, the generated report will open in the Web Viewer.</span></span>
 
 > [!NOTE]
@@ -159,7 +158,7 @@ ms.lasthandoff: 12/01/2017
 | <span data-ttu-id="09473-237">Ouvrir la définition d'état sélectionnée</span><span class="sxs-lookup"><span data-stu-id="09473-237">Open the selected report definition</span></span>  | <span data-ttu-id="09473-238">Ctrl+R</span><span class="sxs-lookup"><span data-stu-id="09473-238">Ctrl+R</span></span>                     |
 | <span data-ttu-id="09473-239">Ouvrir la définition de ligne sélectionnée</span><span class="sxs-lookup"><span data-stu-id="09473-239">Open the selected row definition</span></span>     | <span data-ttu-id="09473-240">Ctrl+O</span><span class="sxs-lookup"><span data-stu-id="09473-240">Ctrl+O</span></span>                     |
 
- 
+
 <a name="see-also"></a><span data-ttu-id="09473-241">Voir également :</span><span class="sxs-lookup"><span data-stu-id="09473-241">See also</span></span>
 --------
 

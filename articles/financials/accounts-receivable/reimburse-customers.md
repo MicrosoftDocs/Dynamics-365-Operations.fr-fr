@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 01c9dcebe82544624c6dd0feb3672d1c5bdfe2d1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2d1a05ffe39c208748a316bd711d9442f1ed875a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="reimburse-customers"></a><span data-ttu-id="da60b-104">Rembourser les clients</span><span class="sxs-lookup"><span data-stu-id="da60b-104">Reimburse customers</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="da60b-105">Cet article explique la création des transactions de remboursement pour un groupe de clients.</span><span class="sxs-lookup"><span data-stu-id="da60b-105">This article explains how to create reimbursement transactions for a group of customers.</span></span> <span data-ttu-id="da60b-106">Si un client a un solde créditeur, vous pouvez le rembourser pour le montant du solde.</span><span class="sxs-lookup"><span data-stu-id="da60b-106">If a customer has a credit balance, you can reimburse the customer for the amount of the balance.</span></span> 
 

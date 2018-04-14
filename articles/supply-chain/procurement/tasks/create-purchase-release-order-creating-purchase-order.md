@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 194d811da09c746167bd9489ce39ae6a6f810ec0
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: bc133306fccd747f15e6a0c6eb347d04a80df0fb
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-purchase-release-order-when-creating-the-purchase-order"></a><span data-ttu-id="06b5b-103">Créer un ordre de lancement d'achat à la création de la commande fournisseur</span><span class="sxs-lookup"><span data-stu-id="06b5b-103">Create a purchase release order when creating the purchase order</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="06b5b-104">Cette procédure indique comment utiliser un contrat d'achat lorsque vous créez une commande fournisseur.</span><span class="sxs-lookup"><span data-stu-id="06b5b-104">This procedure shows how to use a purchase agreement when you create a purchase order.</span></span> <span data-ttu-id="06b5b-105">Le contrat d'achat doit être appliqué lorsque vous créez la commande fournisseur car il existe des conditions générales qui doivent être copiées dans l'en-tête de la commande fournisseur.</span><span class="sxs-lookup"><span data-stu-id="06b5b-105">The purchase agreement has to be applied when you create the purchase order because there are general terms that should be copied to the purchase order header.</span></span> <span data-ttu-id="06b5b-106">Cette tâche est généralement effectuée par un agent des achats.</span><span class="sxs-lookup"><span data-stu-id="06b5b-106">Typically this task would be carried out by a purchasing agent.</span></span> <span data-ttu-id="06b5b-107">Comme préalable à ce guide, vous devez posséder un contrat d'achat effectif avec un engagement de quantité de produits pour un fournisseur et des articles.</span><span class="sxs-lookup"><span data-stu-id="06b5b-107">As a prerequisite for this guide, you must have an effective purchase agreement with a product quantity commitment for a vendor and items.</span></span> <span data-ttu-id="06b5b-108">La même procédure peut être utilisée si vous avez un contrat d'achat avec d'autres types d'engagements.</span><span class="sxs-lookup"><span data-stu-id="06b5b-108">The same procedure can be used if you have a purchase agreement with other types of commitments.</span></span> <span data-ttu-id="06b5b-109">Vous pouvez exécuter ce guide dans les données de démonstration de la société fictive USMF.</span><span class="sxs-lookup"><span data-stu-id="06b5b-109">You can run this guide in demo data company USMF.</span></span> <span data-ttu-id="06b5b-110">Si vous utilisez USMF, vous pouvez d'abord exécuter le guide « Créer un contrat d'achat » pour paramétrer les conditions préalables nécessaires pour ce guide.</span><span class="sxs-lookup"><span data-stu-id="06b5b-110">If you’re using USMF, you can run the “Create a purchase agreement” guide first to set up the necessary preconditions for this guide.</span></span>
 

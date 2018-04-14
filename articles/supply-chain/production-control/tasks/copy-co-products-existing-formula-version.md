@@ -17,15 +17,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 80543780c423b5beac3ec57f4fa035e560aaa4ce
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e6ca0de2956e7e2b76f1286b0d01a3a2e3f3d53d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="copy-co-products-from-an-existing-formula-version"></a><span data-ttu-id="89091-103">Copier les coproduits à partir d'une version de formule existante</span><span class="sxs-lookup"><span data-stu-id="89091-103">Copy co-products from an existing formula version</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="89091-104">Cette procédure vous indique comment copier des coproduits à partir d'une version de formule existante vers une autre version de formule pour un produit lancé.</span><span class="sxs-lookup"><span data-stu-id="89091-104">This procedure shows how to copy co-products from an existing formula version to a different formula version for a released product.</span></span> <span data-ttu-id="89091-105">Condition préalable : au moins une version de formule doit être associée à des coproduits.</span><span class="sxs-lookup"><span data-stu-id="89091-105">It is a prerequisite that there is at least one formula version associated with co-products.</span></span> <span data-ttu-id="89091-106">Pour créer cette procédure, la société fictive de démonstration USP2 est utilisée.</span><span class="sxs-lookup"><span data-stu-id="89091-106">The demo data company USP2 is used to create this procedure.</span></span>
 

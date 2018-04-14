@@ -20,17 +20,16 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 813bc36af77c338021a82665a84f21fd4389fc05
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 108c0fdb85507b983f4d206117beefb969053aba
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="fixed-assets-in-the-public-sector"></a><span data-ttu-id="ea140-103">Immobilisations dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="ea140-103">Fixed assets in the public sector</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="ea140-104">Cet article décrit la fonctionnalité des immobilisations disponible pour le secteur public.</span><span class="sxs-lookup"><span data-stu-id="ea140-104">This article describes the fixed assets functionality that is available for public sector.</span></span> 
 

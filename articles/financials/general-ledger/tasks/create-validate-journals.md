@@ -16,15 +16,15 @@ ms.author: ryansand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: ca58d2cfc1788f9a9d4659d52a4bccc255bcfd72
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b752c11987c72895a3a11cce7beda2f8528e2246
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-and-validate-journals"></a><span data-ttu-id="1d4f1-103">Créer et valider des journaux</span><span class="sxs-lookup"><span data-stu-id="1d4f1-103">Create and validate journals</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="1d4f1-104">Ce guide crée et valide les journaux et les lignes de journal.</span><span class="sxs-lookup"><span data-stu-id="1d4f1-104">This task guide creates and validates journals and journal lines.</span></span> <span data-ttu-id="1d4f1-105">La société fictive USMF est utilisée dans cette tâche.</span><span class="sxs-lookup"><span data-stu-id="1d4f1-105">This tasks uses the USMF demo company.</span></span>  
 

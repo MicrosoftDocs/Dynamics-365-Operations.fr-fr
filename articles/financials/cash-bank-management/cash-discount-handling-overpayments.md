@@ -19,17 +19,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b664ad6d084c5437111149266a859d7157b22ee9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 24bc45b1c0c91b9fb8e634f330a14cec5cc0f4ca
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="handling-cash-discounts-for-overpayments"></a><span data-ttu-id="7bf76-103">Traitement de l'escompte de règlement pour les trop-perçus</span><span class="sxs-lookup"><span data-stu-id="7bf76-103">Handling cash discounts for overpayments</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="7bf76-104">Cet article fournit des scénarios qui indiquent comment un paiement est assuré lorsque le client bénéficie d'un escompte de règlement tout en payant un montant supérieur.</span><span class="sxs-lookup"><span data-stu-id="7bf76-104">This article provides scenarios that show how a payment is handled when the customer takes a cash discount but also overpays.</span></span> 
 

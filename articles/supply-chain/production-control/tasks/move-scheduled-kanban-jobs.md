@@ -16,15 +16,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 2a12a6859a3a436706822873bc6fdd781e0ef032
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a20765f29a3d8b3bff75229ebbb1996a4d601154
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="move-scheduled-kanban-jobs"></a><span data-ttu-id="9f342-103">Déplacer les tâches de kanban planifiées</span><span class="sxs-lookup"><span data-stu-id="9f342-103">Move scheduled kanban jobs</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="9f342-104">Cette procédure se concentre sur le déplacement des tâches de kanban d'un processus planifié dans une autre période.</span><span class="sxs-lookup"><span data-stu-id="9f342-104">This procedure focuses on moving planned process kanban jobs to a different period.</span></span> <span data-ttu-id="9f342-105">Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.</span><span class="sxs-lookup"><span data-stu-id="9f342-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="9f342-106">Cette procédure est destinée au superviseur d'atelier ou au responsable de production qui utilisent des kanbans.</span><span class="sxs-lookup"><span data-stu-id="9f342-106">This procedure is intended for the shop floor supervisor or production planner working with kanbans.</span></span>
 

@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6381416640ffacf0a9d96d7da96bc33612ca7137
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6d09e32c9e2c41c49e376320d507593849f68cb0
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-hub-accessorial-charges-and-accessorial-masters"></a><span data-ttu-id="137b8-103">Paramétrer des frais annexes de terminal et des données principales annexes</span><span class="sxs-lookup"><span data-stu-id="137b8-103">Set up hub accessorial charges and accessorial masters</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="137b8-104">Cette procédure décrit la création de données principales annexes pour un terminal et l'utilisation de ces données principales pour créer des frais annexes de terminal.</span><span class="sxs-lookup"><span data-stu-id="137b8-104">This procedure shows how to create an accessorial master for a hub and use that master to create a hub accessorial charge.</span></span> <span data-ttu-id="137b8-105">La procédure utilise le dataset USMF.</span><span class="sxs-lookup"><span data-stu-id="137b8-105">The procedure uses the USMF dataset.</span></span> <span data-ttu-id="137b8-106">Cette configuration est généralement réalisée par un coordinateur transport.</span><span class="sxs-lookup"><span data-stu-id="137b8-106">This set up will typically be done by a transportation coordinator.</span></span>
 

@@ -19,16 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 6084ddb1c5b8fae9111ea1459f6e94b14930bfc5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9ec77585e259bc759b422b97f4f3b10271a02b02
 ms.contentlocale: fr-fr
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="sales-and-profitability-performance-power-bi-content"></a><span data-ttu-id="ffc7f-104">Contenu Power BI des performances de rentabilité et de vente</span><span class="sxs-lookup"><span data-stu-id="ffc7f-104">Sales and profitability performance Power BI content</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="ffc7f-105">Cette rubrique décrit ce qui est inclus dans le contenu Microsoft Power BI **Performances de rentabilité et de vente**.</span><span class="sxs-lookup"><span data-stu-id="ffc7f-105">This topic describes what is included in the **Sales and profitability performance** Microsoft Power BI content.</span></span> <span data-ttu-id="ffc7f-106">Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.</span><span class="sxs-lookup"><span data-stu-id="ffc7f-106">It explains how to access the Power BI reports, and provides information about the data model and entities that are used to build the content.</span></span>
 
@@ -64,7 +64,7 @@ ms.lasthandoff: 01/17/2018
 | <span data-ttu-id="ffc7f-140">Produit par produit</span><span class="sxs-lookup"><span data-stu-id="ffc7f-140">Revenue by product</span></span>     | <span data-ttu-id="ffc7f-141">Produit et profit brut par catégorie de vente</span><span class="sxs-lookup"><span data-stu-id="ffc7f-141">Revenue & gross profit by sales category</span></span>   | <span data-ttu-id="ffc7f-142">\# total de produits</span><span class="sxs-lookup"><span data-stu-id="ffc7f-142">Total \# of products</span></span>                                    |
 |                        | <span data-ttu-id="ffc7f-143">10 meilleurs produits par produit</span><span class="sxs-lookup"><span data-stu-id="ffc7f-143">Top 10 products by revenue</span></span>                 | <span data-ttu-id="ffc7f-144">Nombre total de produit actifs et pourcentage du total</span><span class="sxs-lookup"><span data-stu-id="ffc7f-144">Total number of active products and percentage of total</span></span> |
 |                        | <span data-ttu-id="ffc7f-145">Produit total par catégorie de vente</span><span class="sxs-lookup"><span data-stu-id="ffc7f-145">Total revenue by sales category</span></span>            | <span data-ttu-id="ffc7f-146">Numéro de produit constituant 80 % du produit</span><span class="sxs-lookup"><span data-stu-id="ffc7f-146">Number of products accounting for 80% revenue</span></span>           |
-| <span data-ttu-id="ffc7f-147">Produit par période\\*</span><span class="sxs-lookup"><span data-stu-id="ffc7f-147">Revenue by period\\*</span></span>    | <span data-ttu-id="ffc7f-148">Produit par mois</span><span class="sxs-lookup"><span data-stu-id="ffc7f-148">Revenue by month</span></span>                           | <span data-ttu-id="ffc7f-149">Croissance du produit en cumul annuel</span><span class="sxs-lookup"><span data-stu-id="ffc7f-149">YOY revenue growth</span></span>                                      |
+| <span data-ttu-id="ffc7f-147">Produit par période\*</span><span class="sxs-lookup"><span data-stu-id="ffc7f-147">Revenue by period\*</span></span>    | <span data-ttu-id="ffc7f-148">Produit par mois</span><span class="sxs-lookup"><span data-stu-id="ffc7f-148">Revenue by month</span></span>                           | <span data-ttu-id="ffc7f-149">Croissance du produit en cumul annuel</span><span class="sxs-lookup"><span data-stu-id="ffc7f-149">YOY revenue growth</span></span>                                      |
 |                        | <span data-ttu-id="ffc7f-150">Variance du produit, en cumul annuel</span><span class="sxs-lookup"><span data-stu-id="ffc7f-150">Trailing revenue variance, YOY</span></span>             | <span data-ttu-id="ffc7f-151">Croissance du produit en %</span><span class="sxs-lookup"><span data-stu-id="ffc7f-151">YOY revenue growth %</span></span>                                    |
 |                        | <span data-ttu-id="ffc7f-152">Variance des ventes totales par région de clientèle</span><span class="sxs-lookup"><span data-stu-id="ffc7f-152">Total sales variance by customer region</span></span>    |                                                         |
 | <span data-ttu-id="ffc7f-153">Produit par emplacement</span><span class="sxs-lookup"><span data-stu-id="ffc7f-153">Revenue by location</span></span>    | <span data-ttu-id="ffc7f-154">Produit de vente par ville</span><span class="sxs-lookup"><span data-stu-id="ffc7f-154">Sales revenue by city</span></span>                      |                                                         |
@@ -75,7 +75,7 @@ ms.lasthandoff: 01/17/2018
 |                        | <span data-ttu-id="ffc7f-162">15 meilleurs clients par marge brute</span><span class="sxs-lookup"><span data-stu-id="ffc7f-162">Top 15 customers by gross margin</span></span>           |                                                         |
 |                        | <span data-ttu-id="ffc7f-163">Marge brute par mois, en cumul annuel</span><span class="sxs-lookup"><span data-stu-id="ffc7f-163">Gross profit by month, YOY</span></span>                 |                                                         |
 
-<span data-ttu-id="ffc7f-164">\\* Produit cette année et l'année dernière, et croissance par catégorie de vente.</span><span class="sxs-lookup"><span data-stu-id="ffc7f-164">\\* Revenue this and last year, and growth by sales category.</span></span>
+<span data-ttu-id="ffc7f-164">\* Produit cette année et l'année dernière, et croissance par catégorie de vente.</span><span class="sxs-lookup"><span data-stu-id="ffc7f-164">\* Revenue this and last year, and growth by sales category.</span></span>
 
 
 ## <a name="understanding-the-data-model-and-entities"></a><span data-ttu-id="ffc7f-165">Compréhension du modèle de données et des entités</span><span class="sxs-lookup"><span data-stu-id="ffc7f-165">Understanding the data model and entities</span></span>

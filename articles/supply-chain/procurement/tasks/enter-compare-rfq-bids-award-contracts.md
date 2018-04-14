@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5dea9d7bfb1bf7b11f6c49cccaab1b73d4e58d16
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 140d9f7a48b6cb06f02d3c4e6440d0a99a9d8161
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a><span data-ttu-id="773ca-103">Entrer et comparer des appels d'offre et octroyer des contrats</span><span class="sxs-lookup"><span data-stu-id="773ca-103">Enter and compare RFQ bids and award contracts</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="773ca-104">Cette procédure décrit comment entrer des réponses à un appel d'offre, marquer et comparer les offres, puis attribuer une offre à l'un des fournisseurs.</span><span class="sxs-lookup"><span data-stu-id="773ca-104">This procedure shows you how to enter replies to an RFQ, score and compare bids, and then award the bid to one of the vendors.</span></span> <span data-ttu-id="773ca-105">Vous pouvez utiliser cette procédure dans les données fictives de la société USMF.</span><span class="sxs-lookup"><span data-stu-id="773ca-105">You can use this procedure in demo data company USMF.</span></span> <span data-ttu-id="773ca-106">Avant de commencer, vous devez avoir un appel d'offre avec deux lignes qui a été envoyé au moins à deux fournisseurs.</span><span class="sxs-lookup"><span data-stu-id="773ca-106">Before you start, you must have an RFQ with two lines that has been sent to at least two vendors.</span></span> <span data-ttu-id="773ca-107">Vous pouvez exécuter la procédure « Création d'une demande de devis » comme étape préliminaire pour créer cela.</span><span class="sxs-lookup"><span data-stu-id="773ca-107">You can run the "Create a request for quotation" procedure as a prerequisite to create this.</span></span> <span data-ttu-id="773ca-108">Vous devez avoir paramétré les critères d'attribution de score pour pouvoir exécuter cette procédure.</span><span class="sxs-lookup"><span data-stu-id="773ca-108">You need to have set up scoring criteria before you can run this procedure.</span></span>
 

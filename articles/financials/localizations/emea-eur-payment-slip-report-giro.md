@@ -18,17 +18,16 @@ ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 07d09512ef612b41bf527b74496fa440f23851fc
-ms.openlocfilehash: 2afdc11b428ffe5d2ca0f65d040507e89e0b8c02
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 213cabd17b24471cfc4657a433c7ad02ac03b24a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="payment-slip-report-for-europe"></a><span data-ttu-id="f3127-103">État du bordereau de paiement pour l'Europe</span><span class="sxs-lookup"><span data-stu-id="f3127-103">Payment slip report for Europe</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="f3127-104">Cette rubrique fournit des informations sur les états de bordereau de paiement pour l'Europe.</span><span class="sxs-lookup"><span data-stu-id="f3127-104">This topic provides information about payment slip reports for Europe.</span></span>
 

@@ -19,17 +19,16 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: efe348d9967ab7594afd22a3ebb4df76dc6607f8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9bc89c1213f50fd27faa4135cf1601ccb5f39ac1
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="budgeting-home-page"></a><span data-ttu-id="184fa-103">Page d'accueil de la fonctionnalité de budgétisation</span><span class="sxs-lookup"><span data-stu-id="184fa-103">Budgeting home page</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="184fa-104">Cette rubrique fournit une vue d'ensemble des composants de la fonctionnalité de budget, des outils de budgétisation et des fonctionnalités de génération d'états dans Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="184fa-104">This topic provides an overview of the budgeting functionality components, budgeting tools, and reporting capabilities in Finance and Operations.</span></span> 
 

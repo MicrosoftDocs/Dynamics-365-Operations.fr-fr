@@ -16,15 +16,15 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: ab7d3a00a327f42a9f70c954d9b64a360a7f9163
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6de8dbd33a02183ee8bafca720c3738e8eac44e8
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a><span data-ttu-id="02c85-103">Paramétrer des périodes de règlement fiscal</span><span class="sxs-lookup"><span data-stu-id="02c85-103">Set up sales tax settlement periods</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="02c85-104">Les périodes de règlement fiscal contiennent des informations sur l'intervalle pour lequel les taxes doivent être déclarées et payées.</span><span class="sxs-lookup"><span data-stu-id="02c85-104">Sales tax settlement periods contain information about the period intervals for which sales tax needs to be reported and paid.</span></span> <span data-ttu-id="02c85-105">Un processus de règlement peut être exécuté pour une période de règlement pour un intervalle de dates spécifique.</span><span class="sxs-lookup"><span data-stu-id="02c85-105">A settlement process can be run for a settlement period for a specific date interval.</span></span> <span data-ttu-id="02c85-106">Tous les codes taxe associés à la période de règlement seront fixés.</span><span class="sxs-lookup"><span data-stu-id="02c85-106">All tax codes associated with the settlement period will be settled.</span></span> <span data-ttu-id="02c85-107">Selon la configuration de l'administration fiscale associée, l'impôt à payer est validé soit dans un fournisseur soit dans un compte général.</span><span class="sxs-lookup"><span data-stu-id="02c85-107">Depending on the set up of the related Sales tax authority, the tax liability is posted either to a vendor or a General ledger account.</span></span>
 

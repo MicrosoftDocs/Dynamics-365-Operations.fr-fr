@@ -17,15 +17,15 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: f02e37a21e2417d46c5ad990e165c2eff5a70811
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e3058987dcd511c59a9eae1b79ef5d1b6d4b3d68
 ms.contentlocale: fr-fr
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="change-the-ownership-of-consignment-inventory-based-on-production-demand"></a><span data-ttu-id="9d011-103">Modifier la propriété du stock de consignation en fonction de la demande de production</span><span class="sxs-lookup"><span data-stu-id="9d011-103">Change the ownership of consignment inventory based on production demand</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="9d011-104">Cette procédure indique comment faire passer le propriétaire du stock de consignation du fournisseur à votre entité juridique lorsqu'il existe une demande de stock en production.</span><span class="sxs-lookup"><span data-stu-id="9d011-104">This procedure shows how to change the owner of consignment inventory from the vendor to your legal entity when there is demand for the inventory in production.</span></span> <span data-ttu-id="9d011-105">Cette modification de propriété est effectuée en créant et en validant un journal des modifications de propriété du stock.</span><span class="sxs-lookup"><span data-stu-id="9d011-105">This change of ownership is done by creating and posting an inventory ownership change journal.</span></span> <span data-ttu-id="9d011-106">Les lignes du journal des modifications de propriété peuvent être créées manuellement ou, comme indiqué dans cet enregistrement, selon la demande de production existante.</span><span class="sxs-lookup"><span data-stu-id="9d011-106">The ownership change journal lines can be created manually or, as shown in this recording, based on existing production demand.</span></span> <span data-ttu-id="9d011-107">Généralement, un superviseur d'atelier exécute cette tâche.</span><span class="sxs-lookup"><span data-stu-id="9d011-107">Typically, a shop floor supervisor performs this task.</span></span> <span data-ttu-id="9d011-108">Vous pouvez utiliser cette procédure dans les données fictives de la société USMF ou utiliser vos propres données.</span><span class="sxs-lookup"><span data-stu-id="9d011-108">You can use this procedure in the USMF demo data company or on your own data.</span></span> <span data-ttu-id="9d011-109">Si vous utilisez vos propres données, vérifiez que les conditions préalables suivantes sont remplies : un nom de journal de stock paramétré pour la modification de propriété du stock, des articles disponibles appartenant au fournisseur physiquement enregistré et une ou plusieurs lignes d'ordre de fabrication pour les matières.</span><span class="sxs-lookup"><span data-stu-id="9d011-109">If you're using your own data, make sure that you have the following prerequisites: an inventory journal name that has been set up for inventory ownership change, physically recorded vendor-owned on-hand items, and one or more production order lines for the material.</span></span> <span data-ttu-id="9d011-110">Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.</span><span class="sxs-lookup"><span data-stu-id="9d011-110">This procedure is for a feature that was added in Dynamics 365 for Operations, version 1611.</span></span>
 

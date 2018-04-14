@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 7b5d757361c1163bbd0300abd3da4e0a2dd6b0e0
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e17ac2b9f4eff06bdff7cdb210acdc05ed2ef4e5
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-register-received-items"></a><span data-ttu-id="efc1a-103">Paramétrer une option de menu d'appareil mobile pour enregistrer les articles reçus</span><span class="sxs-lookup"><span data-stu-id="efc1a-103">Set up a mobile device menu item to register received items</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="efc1a-104">Cette tâche consiste à réaliser le paramétrage d'une option de menu d'appareil mobile.</span><span class="sxs-lookup"><span data-stu-id="efc1a-104">This task focuses on the setup of a mobile device menu item.</span></span> <span data-ttu-id="efc1a-105">Cette option de menu est utilisée pour l'enregistrement de la réception des articles commandés via des commandes fournisseur.</span><span class="sxs-lookup"><span data-stu-id="efc1a-105">This menu item is used for registration of the receipt of items ordered via purchase orders.</span></span> 
 

@@ -19,17 +19,16 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4a7dba99c08d4dfc6afd1047130cea51b6bdab1d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8a91074fb6d8bca223d9b143763b2be580a08cd4
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="manage-a-recruiting-process"></a><span data-ttu-id="d56e1-103">Gestion d'un processus de recrutement</span><span class="sxs-lookup"><span data-stu-id="d56e1-103">Manage a recruiting process</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="d56e1-104">Cette rubrique décrit un concept que les recruteurs peuvent utiliser pour suivre les étapes d'un processus de recrutement, notamment les moyens pour annoncer les postes vacants et recruter des candidats, en suivant les informations propres aux candidats et aux candidatures, en interviewant les candidats et en sélectionnant un ou plusieurs candidats pour pourvoir les postes vacants au sein de votre organisation.</span><span class="sxs-lookup"><span data-stu-id="d56e1-104">This topic describes a concept that recruiters can use to track the steps in a recruiting process, including efforts to advertise open positions and recruit applicants, tracking applicant and application information, interviewing applicants, and selecting one or more candidates to fill the open positions in your organization.</span></span>
 

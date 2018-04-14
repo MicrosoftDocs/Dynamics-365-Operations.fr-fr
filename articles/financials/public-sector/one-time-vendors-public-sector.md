@@ -20,17 +20,16 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: f4ab83517c91fa3d31c8af572ac9acc583c52b9f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9a4da0e6e1963381d118f19c1d3adda4116972e3
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="one-time-vendors-in-the-public-sector"></a><span data-ttu-id="61f46-103">Fournisseurs occasionnels dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="61f46-103">One-time vendors in the public sector</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="61f46-104">Cet article fournit des informations sur la création d'un fournisseur occasionnel et d'une facture, et sur l'importation et la création de plusieurs fournisseurs occasionnels et factures.</span><span class="sxs-lookup"><span data-stu-id="61f46-104">This article provides information about how to create a one-time vendor and invoice, and how to import and create multiple one-time vendors and invoices.</span></span> 
 

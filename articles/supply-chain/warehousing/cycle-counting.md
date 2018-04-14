@@ -19,17 +19,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
-ms.openlocfilehash: 68ae9bad8c15f06689c4660ccad27eff5d01c93c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 75aac23ae8b751b3507e068272fc3764ebc365de
 ms.contentlocale: fr-fr
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cycle-counting"></a><span data-ttu-id="69527-104">Inventaire tournant</span><span class="sxs-lookup"><span data-stu-id="69527-104">Cycle counting</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="69527-105">Cet article décrit la manière dont vous pouvez utiliser l'inventaire tournant associé à la solution de stockage disponible dans le module Gestion des entrepôts.</span><span class="sxs-lookup"><span data-stu-id="69527-105">This article describes how you can use cycle counting with the warehousing solution that is available in Warehouse management.</span></span> <span data-ttu-id="69527-106">Cet article ne s'applique pas à la solution de stockage disponible dans la Gestion des stocks.</span><span class="sxs-lookup"><span data-stu-id="69527-106">This article doesn't apply to the warehousing solution that's available in Inventory management.</span></span>
 

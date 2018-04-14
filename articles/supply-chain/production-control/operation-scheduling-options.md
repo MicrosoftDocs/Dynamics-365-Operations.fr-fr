@@ -20,17 +20,16 @@ ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 56eeb2b56261dc3e576192c0ede405996d82b2b7
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 485d6aa5e17b15f6db4d30be014811ce9f7292a1
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="operations-scheduling-options"></a><span data-ttu-id="f63ed-104">Options d'ordonnancement des opérations</span><span class="sxs-lookup"><span data-stu-id="f63ed-104">Operations scheduling options</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="f63ed-105">Cette rubrique décrit les options de l'ordonnancement.</span><span class="sxs-lookup"><span data-stu-id="f63ed-105">This topic describes the options for operations scheduling.</span></span> <span data-ttu-id="f63ed-106">Vous pouvez utiliser l'ordonnancement pour fournir une estimation globale du processus de production dans le temps.</span><span class="sxs-lookup"><span data-stu-id="f63ed-106">You can use operations scheduling to provide a general estimate of the production process over time.</span></span>
 

@@ -20,17 +20,16 @@ ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 52b3e2e78a03ac67507ee65a03e0884e5ed44678
-ms.openlocfilehash: b6dd6d929d771e0b1fc2604b90a2a1522447e168
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 055ff18b16fa2680c73564b7a7ef0c087c55e701
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="define-and-maintain-retail-channels"></a><span data-ttu-id="98022-104">Définir et tenir à jour les canaux de vente au détail</span><span class="sxs-lookup"><span data-stu-id="98022-104">Define and maintain retail channels</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="98022-105">Cette rubrique fournit une vue d'ensemble du processus de paramétrage des magasins traditionnels, qui sont appelés des magasins de vente au détail dans Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="98022-105">This topic provides an overview of the process for setting up brick-and-mortar stores, which are referred to as retail stores in Microsoft Dynamics 365 for Retail.</span></span> <span data-ttu-id="98022-106">Il inclut des informations sur les tâches que vous devez effectuer avant et après avoir paramétré un magasin de vente au détail.</span><span class="sxs-lookup"><span data-stu-id="98022-106">It includes information about the tasks that you must complete both before and after you set up a retail store.</span></span>
 

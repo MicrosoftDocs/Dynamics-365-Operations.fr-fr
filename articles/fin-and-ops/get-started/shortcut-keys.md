@@ -18,17 +18,16 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c4446a04cd01645b3b79f2d952622daf60953331
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 445c639dc56a5d240f4e35353276ef893f2137da
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="keyboard-shortcuts"></a><span data-ttu-id="5a38f-103">Raccourcis clavier</span><span class="sxs-lookup"><span data-stu-id="5a38f-103">Keyboard shortcuts</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="5a38f-104">Les raccourcis clavier suivants s'appliquent à l'ensemble de Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="5a38f-104">The following keyboard shortcuts apply across Dynamics 365 for Finance and Operations.</span></span> 
 
@@ -39,6 +38,7 @@ ms.lasthandoff: 03/26/2018
 
 
 ## <a name="action-shortcuts"></a><span data-ttu-id="5a38f-111">Raccourcis d'action</span><span class="sxs-lookup"><span data-stu-id="5a38f-111">Action shortcuts</span></span>
+
 |                                                   |                                  |
 |---------------------------------------------------|----------------------------------|
 | <span data-ttu-id="5a38f-112">**Opération**</span><span class="sxs-lookup"><span data-stu-id="5a38f-112">**To do this**</span></span>                                    | <span data-ttu-id="5a38f-113">**Raccourci**</span><span class="sxs-lookup"><span data-stu-id="5a38f-113">**Press**</span></span>                        |
@@ -55,6 +55,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="5a38f-134">Afficher les raccourcis actuellement disponibles</span><span class="sxs-lookup"><span data-stu-id="5a38f-134">View currently available shortcuts</span></span>                | <span data-ttu-id="5a38f-135">Alt+Maj+ K</span><span class="sxs-lookup"><span data-stu-id="5a38f-135">Alt+Shift+K</span></span>                      |                              
 
 ## <a name="date-picker-shortcuts"></a><span data-ttu-id="5a38f-136">Raccourcis du sélecteur de date</span><span class="sxs-lookup"><span data-stu-id="5a38f-136">Date picker shortcuts</span></span>
+
 |                                       |                                           |
 |---------------------------------------|-------------------------------------------|
 | <span data-ttu-id="5a38f-137">**Opération**</span><span class="sxs-lookup"><span data-stu-id="5a38f-137">**To do this**</span></span>                        | <span data-ttu-id="5a38f-138">**Raccourci**</span><span class="sxs-lookup"><span data-stu-id="5a38f-138">**Press**</span></span>                                 |
@@ -68,6 +69,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="5a38f-153">Ne jamais prélever (ou la date maximale)</span><span class="sxs-lookup"><span data-stu-id="5a38f-153">Pick Never (or the max date)</span></span>          | <span data-ttu-id="5a38f-154">N</span><span class="sxs-lookup"><span data-stu-id="5a38f-154">N</span></span>                                         |
 
 ## <a name="factbox-shortcuts"></a><span data-ttu-id="5a38f-155">Raccourcis de récapitulatif</span><span class="sxs-lookup"><span data-stu-id="5a38f-155">FactBox shortcuts</span></span>
+
 |                                                                                 |                                           |
 |---------------------------------------------------------------------------------|-------------------------------------------|
 | <span data-ttu-id="5a38f-156">**Opération**</span><span class="sxs-lookup"><span data-stu-id="5a38f-156">**To do this**</span></span>                                                                  | <span data-ttu-id="5a38f-157">**Raccourci**</span><span class="sxs-lookup"><span data-stu-id="5a38f-157">**Press**</span></span>                                 |
@@ -79,6 +81,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="5a38f-168">Réduire le récapitulatif actif</span><span class="sxs-lookup"><span data-stu-id="5a38f-168">Collapse the current FactBox</span></span>                                                    | <span data-ttu-id="5a38f-169">Alt+0</span><span class="sxs-lookup"><span data-stu-id="5a38f-169">Alt+0</span></span>                                     |
 
 ## <a name="filtering-shortcuts"></a><span data-ttu-id="5a38f-170">Raccourcis de filtrage</span><span class="sxs-lookup"><span data-stu-id="5a38f-170">Filtering shortcuts</span></span>
+
 |                                    |                          |
 |------------------------------------|--------------------------|
 | <span data-ttu-id="5a38f-171">**Opération**</span><span class="sxs-lookup"><span data-stu-id="5a38f-171">**To do this**</span></span>                     | <span data-ttu-id="5a38f-172">**Appuyer**</span><span class="sxs-lookup"><span data-stu-id="5a38f-172">**Press**</span></span>                |
@@ -89,6 +92,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="5a38f-181">Ouvrir le filtrage ou le tri avancé</span><span class="sxs-lookup"><span data-stu-id="5a38f-181">Open advanced filtering/sort</span></span>                                      | <span data-ttu-id="5a38f-182">Ctrl+Maj+F3</span><span class="sxs-lookup"><span data-stu-id="5a38f-182">Ctrl+Shift+F3</span></span>            | 
 
 ## <a name="form-shortcuts"></a><span data-ttu-id="5a38f-183">Raccourcis d'écran</span><span class="sxs-lookup"><span data-stu-id="5a38f-183">Form shortcuts</span></span>
+
 |                                                     |                   |
 |-----------------------------------------------------|-------------------|
 | <span data-ttu-id="5a38f-184">**Opération**</span><span class="sxs-lookup"><span data-stu-id="5a38f-184">**To do this**</span></span>                                      | <span data-ttu-id="5a38f-185">**Appuyer**</span><span class="sxs-lookup"><span data-stu-id="5a38f-185">**Press**</span></span>         |
@@ -110,6 +114,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="5a38f-216">Fermer l'écran en ignorant les modifications non enregistrées</span><span class="sxs-lookup"><span data-stu-id="5a38f-216">Close the form discarding any unsaved changes</span></span>       | <span data-ttu-id="5a38f-217">Alt+Maj+Q</span><span class="sxs-lookup"><span data-stu-id="5a38f-217">Alt+Shift+Q</span></span>       |
 
 ## <a name="form-navigation-shortcuts"></a><span data-ttu-id="5a38f-218">Raccourcis de navigation dans les écrans</span><span class="sxs-lookup"><span data-stu-id="5a38f-218">Form navigation shortcuts</span></span>
+
 |                                                     |                                              |
 |-----------------------------------------------------|----------------------------------------------|
 | <span data-ttu-id="5a38f-219">**Opération**</span><span class="sxs-lookup"><span data-stu-id="5a38f-219">**To do this**</span></span>                                      | <span data-ttu-id="5a38f-220">**Raccourci**</span><span class="sxs-lookup"><span data-stu-id="5a38f-220">**Press**</span></span>                                    |
@@ -128,6 +133,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="5a38f-245">Basculer sur la vue Lignes</span><span class="sxs-lookup"><span data-stu-id="5a38f-245">Switch to lines view</span></span>                                | <span data-ttu-id="5a38f-246">Ctrl+Maj+L</span><span class="sxs-lookup"><span data-stu-id="5a38f-246">Ctrl+Shift+L</span></span>                                 |
 
 ## <a name="grid-shortcuts"></a><span data-ttu-id="5a38f-247">Raccourcis de grille</span><span class="sxs-lookup"><span data-stu-id="5a38f-247">Grid shortcuts</span></span>
+
 |                                                                                                                        |                                 |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
 | <span data-ttu-id="5a38f-248">**Opération**</span><span class="sxs-lookup"><span data-stu-id="5a38f-248">**To do this**</span></span>                                                                                                         | <span data-ttu-id="5a38f-249">**Raccourci**</span><span class="sxs-lookup"><span data-stu-id="5a38f-249">**Press**</span></span>                       |
@@ -148,6 +154,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="5a38f-283">Ouvrir le filtrage de grille pour la colonne active (avec le focus sur la ligne d'en-tête)</span><span class="sxs-lookup"><span data-stu-id="5a38f-283">Open grid filtering for the current column (with focus in the header row)</span></span>                                              | <span data-ttu-id="5a38f-284">Entrer</span><span class="sxs-lookup"><span data-stu-id="5a38f-284">Enter</span></span>                           |
 
 ## <a name="input-control-shortcuts"></a><span data-ttu-id="5a38f-285">Raccourcis de contrôle d'entrée</span><span class="sxs-lookup"><span data-stu-id="5a38f-285">Input control shortcuts</span></span>
+
 |                                                                              |                               |
 |------------------------------------------------------------------------------|-------------------------------|
 | <span data-ttu-id="5a38f-286">**Opération**</span><span class="sxs-lookup"><span data-stu-id="5a38f-286">**To do this**</span></span>                                                               | <span data-ttu-id="5a38f-287">**Raccourci**</span><span class="sxs-lookup"><span data-stu-id="5a38f-287">**Press**</span></span>                     |
@@ -163,6 +170,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="5a38f-306">Effectuer un basculement de la vue entre la zone de texte et la barre d'outils dans un contrôle d'éditeur HTML</span><span class="sxs-lookup"><span data-stu-id="5a38f-306">Switch focus between the text area and the toolbar in an HTML editor control</span></span> | <span data-ttu-id="5a38f-307">F6</span><span class="sxs-lookup"><span data-stu-id="5a38f-307">F6</span></span>                            |
 
 ## <a name="messaging-shortcuts"></a><span data-ttu-id="5a38f-308">Raccourcis de messagerie</span><span class="sxs-lookup"><span data-stu-id="5a38f-308">Messaging shortcuts</span></span>
+
 |                          |               |
 |--------------------------|---------------|
 | <span data-ttu-id="5a38f-309">**Opération**</span><span class="sxs-lookup"><span data-stu-id="5a38f-309">**To do this**</span></span>           | <span data-ttu-id="5a38f-310">**Raccourci**</span><span class="sxs-lookup"><span data-stu-id="5a38f-310">**Press**</span></span>     |
@@ -170,6 +178,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="5a38f-313">Accéder à la barre de messages</span><span class="sxs-lookup"><span data-stu-id="5a38f-313">Go to the Message Bar</span></span>    | <span data-ttu-id="5a38f-314">Ctrl+F7</span><span class="sxs-lookup"><span data-stu-id="5a38f-314">Ctrl+F7</span></span>       |
 
 ## <a name="navigation-shortcuts"></a><span data-ttu-id="5a38f-315">Raccourcis de navigation</span><span class="sxs-lookup"><span data-stu-id="5a38f-315">Navigation shortcuts</span></span>
+
 |                                                                               |                            |
 |-------------------------------------------------------------------------------|----------------------------|
 | <span data-ttu-id="5a38f-316">**Opération**</span><span class="sxs-lookup"><span data-stu-id="5a38f-316">**To do this**</span></span>                                                                | <span data-ttu-id="5a38f-317">**Raccourci**</span><span class="sxs-lookup"><span data-stu-id="5a38f-317">**Press**</span></span>                  |
@@ -191,6 +200,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="5a38f-348">Effectuer un déplacement vers le volet Récapitulatif (qui peut permettre de l'ouvrir)</span><span class="sxs-lookup"><span data-stu-id="5a38f-348">Move to the FactBox pane (which may include opening it)</span></span>                       | <span data-ttu-id="5a38f-349">Alt+M, B ou Ctrl+F2</span><span class="sxs-lookup"><span data-stu-id="5a38f-349">Alt+M,B or Ctrl+F2</span></span>         |
 
 ## <a name="personalization-shortcuts"></a><span data-ttu-id="5a38f-350">Raccourcis de personnalisation</span><span class="sxs-lookup"><span data-stu-id="5a38f-350">Personalization shortcuts</span></span>
+
 |                                                                                                                        |                                     |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
 | <span data-ttu-id="5a38f-351">**Opération**</span><span class="sxs-lookup"><span data-stu-id="5a38f-351">**To do this**</span></span>                                                                                                         | <span data-ttu-id="5a38f-352">**Raccourci**</span><span class="sxs-lookup"><span data-stu-id="5a38f-352">**Press**</span></span>                           |
@@ -219,6 +229,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="5a38f-397">Quitter le mode personnalisation (lorsque vous êtes en mode personnalisation)</span><span class="sxs-lookup"><span data-stu-id="5a38f-397">Exit personalization mode (when in personalization mode)</span></span>                                                               | <span data-ttu-id="5a38f-398">Échap</span><span class="sxs-lookup"><span data-stu-id="5a38f-398">Esc</span></span>                                 |
 
 ## <a name="segmented-entry-shortcuts"></a><span data-ttu-id="5a38f-399">Raccourcis d'entrée segmentée</span><span class="sxs-lookup"><span data-stu-id="5a38f-399">Segmented entry shortcuts</span></span>
+
 |                                                                                                                         |                                  |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
 | <span data-ttu-id="5a38f-400">**Opération**</span><span class="sxs-lookup"><span data-stu-id="5a38f-400">**To do this**</span></span>                                                                                                          | <span data-ttu-id="5a38f-401">**Raccourci**</span><span class="sxs-lookup"><span data-stu-id="5a38f-401">**Press**</span></span>                        |

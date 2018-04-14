@@ -16,15 +16,15 @@ ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f47dfd99a99995bff3a5c443631fa724d36165bf
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b5dba9bab003dfc0156e5453da46fef3f7844dbb
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="party-search-using-vat-id"></a><span data-ttu-id="fb873-103">Recherche de partie à l'aide de l'ID de TVA</span><span class="sxs-lookup"><span data-stu-id="fb873-103">Party search using VAT ID</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="fb873-104">Cette procédure indique comment effectuer une recherche de partie à l'aide d'un ID d'enregistrement.</span><span class="sxs-lookup"><span data-stu-id="fb873-104">This procedure shows how to complete a party search using a registration ID.</span></span> <span data-ttu-id="fb873-105">Pour pouvoir effectuer cette procédure, vous devez paramétrer les ID de TVA et entrer les ID de TVA des fournisseurs, clients ou entités juridiques.</span><span class="sxs-lookup"><span data-stu-id="fb873-105">Before you can complete this procedure, you must set up VAT IDs and enter any VAT IDs for vendors, customers, or legal entities.</span></span>
 

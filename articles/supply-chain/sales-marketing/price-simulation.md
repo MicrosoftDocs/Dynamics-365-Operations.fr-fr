@@ -19,17 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 577204b49355a470769237eb46ad74e7f319a55e
-ms.openlocfilehash: f8407825e60c5d82f234f098a73928443b1c77b0
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b1630c6560753dab7fb615a49fbe84fc186f8487
 ms.contentlocale: fr-fr
-ms.lasthandoff: 01/15/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="price-simulation"></a><span data-ttu-id="2e32c-104">Simulation de prix</span><span class="sxs-lookup"><span data-stu-id="2e32c-104">Price simulation</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="2e32c-105">Cet article fournit des informations sur la simulation de prix pour les devis.</span><span class="sxs-lookup"><span data-stu-id="2e32c-105">This article provides information about price simulation for quotations.</span></span> <span data-ttu-id="2e32c-106">La simulation de prix vous permet d'évaluer l'effet des déductions sur le futur prix de vente au cours du processus de devis, avant de s'engager à un prix spécifique.</span><span class="sxs-lookup"><span data-stu-id="2e32c-106">Price simulation helps you to evaluate the effect of deductions on the future sales price during the quotation process, before you commit to a specific price.</span></span>
 

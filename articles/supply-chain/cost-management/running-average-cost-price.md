@@ -20,19 +20,18 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: aeb23f78d9bec93cf92214470e9ace3cd88b92c3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 36ae8e44043c64984a0a8bb4e16ed5d3517041b7
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="running-average-cost-price"></a><span data-ttu-id="73325-104">Prix de revient moyen en cours</span><span class="sxs-lookup"><span data-stu-id="73325-104">Running average cost price</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="73325-105">La clôture du stock règle les transactions de sortie avec des transactions de réception sur la base du modèle d'évaluation du stock sélectionné dans le groupe de modèles d'article associé à l'article.</span><span class="sxs-lookup"><span data-stu-id="73325-105">The inventory close process settles issue transactions to receipt transactions, based on the inventory valuation method that is selected in the item’s item model group.</span></span> <span data-ttu-id="73325-106">Toutefois, avant d'exécuter la clôture du stock, le système calcule un prix de revient moyen en cours qui est généralement utilisé lorsque les transactions de sortie sont validées.</span><span class="sxs-lookup"><span data-stu-id="73325-106">However, before inventory close is run, the system calculates a running average cost price that is typically used when issue transactions are posted.</span></span>
 

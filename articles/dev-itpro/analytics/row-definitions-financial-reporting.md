@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: c80c8316cc58bda23d79ee7804762539750f57a1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8855d695e799f89375cf2db990160936e09c569d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="row-definitions-in-financial-report-designer"></a><span data-ttu-id="f6a85-104">Définitions de ligne dans le générateur d'états financiers</span><span class="sxs-lookup"><span data-stu-id="f6a85-104">Row definitions in financial report designer</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="f6a85-105">Une définition de ligne est un composant de l’état, ou un bloc élémentaire, qui spécifie le contenu de chaque ligne d’un état financier.</span><span class="sxs-lookup"><span data-stu-id="f6a85-105">A row definition is a report component, or building block, that specifies the contents of each row on a financial report.</span></span> <span data-ttu-id="f6a85-106">Une définition de ligne peut être combinée avec les définitions de colonne, les définitions d'arborescence de génération d'état et les définitions d'état pour créer un groupe de blocs élémentaires pouvant être utilisé par plusieurs sociétés.</span><span class="sxs-lookup"><span data-stu-id="f6a85-106">A row definition can be combined with column definitions, reporting tree definitions, and report definitions to create a building block group that can be used by multiple companies.</span></span>
 

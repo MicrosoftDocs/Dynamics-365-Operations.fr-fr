@@ -17,15 +17,15 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f7a6db585468c235e07c4a0117a83995ec93f4b0
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ad45fd25a6911ca8f9976ee0040f193da0b3a993
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="configure-wave-processing"></a><span data-ttu-id="e0556-103">Configurer le traitement de la vague</span><span class="sxs-lookup"><span data-stu-id="e0556-103">Configure wave processing</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="e0556-104">Cette rubrique décrit la procédure de paramétrage des critères qui déterminent le travail généré pour un entrepôt lorsqu'une vague est traitée et si les vagues sont traitées manuellement ou automatiquement.</span><span class="sxs-lookup"><span data-stu-id="e0556-104">This guide describes how to set up the criteria that determine what work is generated for a warehouse when a wave is processed, and whether waves are processed manually or automatically.</span></span> <span data-ttu-id="e0556-105">Vous devez spécifier les critères en paramétrant des modèles de vague et des requêtes qui correspondent à une vague avec des lignes libérées dans des commandes client, des ordres de fabrication ou de kanbans.</span><span class="sxs-lookup"><span data-stu-id="e0556-105">You specify the criteria by setting up wave templates and queries that match a wave with released lines in sales orders, production orders, or kanban orders.</span></span> <span data-ttu-id="e0556-106">Le traitement de vague est utilisé dans des entrepôts qui utilisent la fonctionnalité dans le module Gestion des entrepôts, et non ceux qui utilisent la fonctionnalité dans le module Gestion des stocks.</span><span class="sxs-lookup"><span data-stu-id="e0556-106">Wave processing is used in warehouses that use the functionality in the Warehouse management module, and not those that use the functionality in the Inventory management module.</span></span> <span data-ttu-id="e0556-107">Vous pouvez exécuter cette procédure dans les données de démonstration de la société fictive USMF.</span><span class="sxs-lookup"><span data-stu-id="e0556-107">You can run this procedure in demo data company USMF.</span></span>
 

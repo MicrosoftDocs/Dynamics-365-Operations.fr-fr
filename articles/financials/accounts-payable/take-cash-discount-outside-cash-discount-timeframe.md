@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3ff83f0ab68f7a87921dc2b6c3dcad43e5d331b7
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 351d759650ad0f0047ba8ffb6abf55c6bf354f5b
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="take-a-cash-discount-outside-the-cash-discount-period"></a><span data-ttu-id="95fbd-103">Prélever un escompte de règlement en dehors de la période d'escompte de règlement</span><span class="sxs-lookup"><span data-stu-id="95fbd-103">Take a cash discount outside the cash discount period</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="95fbd-104">Cet article fournit deux scénarios qui indiquent comment un escompte de règlement peut être pris même si le paiement est effectué en dehors de la période d'escompte de règlement.</span><span class="sxs-lookup"><span data-stu-id="95fbd-104">This article provides two scenarios that show how a cash discount can be taken even if the payment is made outside the cash discount period.</span></span>
 

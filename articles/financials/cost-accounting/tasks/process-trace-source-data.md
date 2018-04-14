@@ -16,15 +16,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7093338fd306e90df79a787f9de9861b3fe49dd5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 57884660fb9459c8cd918e5d1ba4df14efcf6db3
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="process-and-trace-source-data"></a><span data-ttu-id="f7fa9-103">Traiter et effectuer le suivi des données source</span><span class="sxs-lookup"><span data-stu-id="f7fa9-103">Process and trace source data</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="f7fa9-104">Le traitement des données est exécuté par tâche.</span><span class="sxs-lookup"><span data-stu-id="f7fa9-104">All data processing is run by jobs.</span></span> <span data-ttu-id="f7fa9-105">Pour chaque tâche et fournisseur de données, un journal est créé pour indiquer que le processus a été exécuté et que les entrées ont été traitées dans la tâche actuelle.</span><span class="sxs-lookup"><span data-stu-id="f7fa9-105">For each job and data provider, a journal is created to document that the process has been run, and that the entries were processed in the current job.</span></span> <span data-ttu-id="f7fa9-106">Utilisez cette procédure pour paramétrer une source de données et suivre l'origine d'une entrée de coût spécifique.</span><span class="sxs-lookup"><span data-stu-id="f7fa9-106">Use this procedure to set up a data source and then  trace the origin of a specific cost entry.</span></span> <span data-ttu-id="f7fa9-107">Cet enregistrement utilise la société fictive USP2.</span><span class="sxs-lookup"><span data-stu-id="f7fa9-107">This recording uses the USP2 demo data company USP2.</span></span> <span data-ttu-id="f7fa9-108">Avant d'effectuer cette tâche, veillez à lire les guides de tâche suivants : « Créer une comptabilité de contrôle de gestion, « Définir les unités de contrôle des coûts « et « Gérer la source de données pour la comptabilité de contrôle de gestion ».</span><span class="sxs-lookup"><span data-stu-id="f7fa9-108">Before you complete this task, make sure that you play the following task guides: "Create a cost accounting ledger," "Define cost control units," and "Manage data source for the cost accounting ledger."</span></span>
 

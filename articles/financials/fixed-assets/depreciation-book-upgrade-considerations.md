@@ -18,17 +18,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e95fa9dd15dfe5e6b26de61b5dbc1a9a6c0d768d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: dfba6a237548d962bd3677d20da3745f59638ede
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="depreciation-book-upgrade-overview"></a><span data-ttu-id="2d3d3-105">Vue d'ensemble de la mise à niveau du registre des amortissements</span><span class="sxs-lookup"><span data-stu-id="2d3d3-105">Depreciation book upgrade overview</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="2d3d3-106">Dans les versions précédentes, il y avait deux concepts d'évaluation pour les immobilisations : modèles de valeur et registres des amortissements.</span><span class="sxs-lookup"><span data-stu-id="2d3d3-106">In previous releases, there were two valuation concepts for fixed assets -  value models and depreciation books.</span></span> <span data-ttu-id="2d3d3-107">Dans Microsoft Dynamics 365 for Operations (1611), la fonctionnalité de modèle de valeur et la fonctionnalité du registre des amortissements ont été fusionnées en un concept unique appelé registre.</span><span class="sxs-lookup"><span data-stu-id="2d3d3-107">In Microsoft Dynamics 365 for Operations (1611), the value model functionality and depreciation book functionality have been merged into a single concept that is known as a book.</span></span> <span data-ttu-id="2d3d3-108">Cette rubrique fournit des éléments à prendre en compte pour la mise à niveau.</span><span class="sxs-lookup"><span data-stu-id="2d3d3-108">This topic provides some things to consider for the upgrade.</span></span> 
 

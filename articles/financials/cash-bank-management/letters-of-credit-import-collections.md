@@ -19,17 +19,16 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ebabff4d467df54b2e79485ba3a16344435140e6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3bab4b9981f58c133e8c5ed693e6ed345248809d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="letters-of-credit-and-import-collections"></a><span data-ttu-id="aa8de-104">Lettres de crédit et relances d'importation</span><span class="sxs-lookup"><span data-stu-id="aa8de-104">Letters of credit and import collections</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="aa8de-105">Cet article fournit des informations générales sur les lettres de crédit et des relances d'importation.</span><span class="sxs-lookup"><span data-stu-id="aa8de-105">This article provides general information about letters of credit and import collections.</span></span> <span data-ttu-id="aa8de-106">Ces deux types de documents bancaires sont fréquemment utilisés pour l'achat et la vente de biens au-delà des frontières internationales.</span><span class="sxs-lookup"><span data-stu-id="aa8de-106">Both types of bank document are often used for the purchase and sale of goods across international borders.</span></span>
 

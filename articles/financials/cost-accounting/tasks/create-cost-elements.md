@@ -16,15 +16,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1e665fc53455e457a2488f4ec28ebb5b715d90eb
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 266cb53b3734c8252810ba8e82759d9dec785196
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-cost-elements"></a><span data-ttu-id="1a9ca-103">Créer des éléments de coût</span><span class="sxs-lookup"><span data-stu-id="1a9ca-103">Create cost elements</span></span> 
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="1a9ca-104">Il existe plusieurs façons de créer des éléments de coût dans le contrôle de gestion.</span><span class="sxs-lookup"><span data-stu-id="1a9ca-104">There are several ways to create cost elements in Cost accounting.</span></span> <span data-ttu-id="1a9ca-105">Cette procédure indique comment créer des éléments de coût en important les comptes principaux via un connecteur de données.</span><span class="sxs-lookup"><span data-stu-id="1a9ca-105">This procedure shows how to create cost elements by importing main accounts via a data connector.</span></span> <span data-ttu-id="1a9ca-106">La société fictive USMF a été utilisée pour créer cette procédure.</span><span class="sxs-lookup"><span data-stu-id="1a9ca-106">The USMF demo company was used to create this procedure.</span></span> <span data-ttu-id="1a9ca-107">Cette procédure s'applique à une fonction Contrôle de gestion qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.</span><span class="sxs-lookup"><span data-stu-id="1a9ca-107">This procedure is for a Cost accounting feature that was added in Dynamics 365 for Operations, version 1611.</span></span>
 

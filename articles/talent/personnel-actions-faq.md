@@ -18,16 +18,16 @@ ms.author: shielas
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 58089418ac233d31a2a4f0298af5e884d77a67d3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f3abbb2d124ee6c11e46e3680a342ecb12a12ec3
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="personnel-actions-faq"></a><span data-ttu-id="22f62-104">Actions du personnel [FAQ]</span><span class="sxs-lookup"><span data-stu-id="22f62-104">Personnel actions [FAQ]</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="22f62-105">Cette rubrique contient des réponses aux questions que vous pouvez vous poser si votre organisation utilise les actions de membre du personnel.</span><span class="sxs-lookup"><span data-stu-id="22f62-105">This topic contains answers to questions that you might have if your organization uses personnel actions.</span></span> <span data-ttu-id="22f62-106">Les actions de membre du personnel sont des étapes supplémentaires que vous devez effectuer lorsque vous effectuez certaines tâches relatives aux membres du personnel.</span><span class="sxs-lookup"><span data-stu-id="22f62-106">Personnel actions are additional steps that you must complete when you perform certain personnel-related tasks.</span></span> <span data-ttu-id="22f62-107">Par exemple, parmi les tâches qui peuvent nécessiter des actions de membre du personnel, on trouve la création de postes, la modification des valeurs de poste existantes, l'embauche de nouveaux collaborateurs, le transfert de collaborateurs, la modification de la rémunération du collaborateur, la modification des affectations de poste, ou la fin de contrat d'un collaborateur.</span><span class="sxs-lookup"><span data-stu-id="22f62-107">Examples of tasks that might require personnel actions are when you create new positions, modify existing position values, hire new workers, transfer workers, change worker compensation, change position assignments, or terminate workers.</span></span>
 
@@ -64,9 +64,9 @@ ms.lasthandoff: 03/07/2018
 <span data-ttu-id="22f62-140">Si une demande d'action de membre du personnel échoue, procédez comme suit pour résoudre l'erreur et resoumettre la demande :</span><span class="sxs-lookup"><span data-stu-id="22f62-140">If a personnel action request fails, follow these steps to resolve the error and resubmit the request:</span></span>
 
 > 1. <span data-ttu-id="22f62-141">Dans le **volet Actions**, cliquez sur le bouton **Texte d'erreur** pour afficher le texte du message qui décrit le problème.</span><span class="sxs-lookup"><span data-stu-id="22f62-141">On the **Action Pane**, click the **Error text** button to view the message text that describes the problem.</span></span>
-
+> 
 > 2. <span data-ttu-id="22f62-142">Dans le **volet Actions**, cliquez sur **Réactiver** pour charger les dernières informations et pour définir le statut de l'action de membre du personnel de nouveau sur **Brouillon**.</span><span class="sxs-lookup"><span data-stu-id="22f62-142">On the **Action Pane**, click **Reactivate** to load the latest information and set the status of the personnel action back to **Draft**.</span></span>
-
+> 
 > 3. <span data-ttu-id="22f62-143">Corrigez l'erreur, puis cliquez sur **Terminé** ou **Envoyer**.</span><span class="sxs-lookup"><span data-stu-id="22f62-143">Resolve the error, and then click **Complete** or **Submit**.</span></span>
 
 ## <a name="what-happens-to-a-personnel-action-that-uses-workflow-when-the-final-approval-is-completed"></a><span data-ttu-id="22f62-144">Qu'arrive-t-il à une action de membre du personnel qui utilise le workflow lorsque l'approbation finale est terminée ?</span><span class="sxs-lookup"><span data-stu-id="22f62-144">What happens to a personnel action that uses workflow when the final approval is completed?</span></span>

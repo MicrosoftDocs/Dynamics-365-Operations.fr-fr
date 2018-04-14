@@ -18,16 +18,16 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 97bf72769f58d19d84f73f9de5ca9d1b354843ac
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8e5ddb8991d98aafc0a18788107ee65f0a950059
 ms.contentlocale: fr-fr
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="pick-oldest-batch-on-a-mobile-device"></a><span data-ttu-id="f07e1-103">Prélever le lot le plus ancien sur un appareil mobile</span><span class="sxs-lookup"><span data-stu-id="f07e1-103">Pick oldest batch on a mobile device</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="f07e1-104">Vous pouvez accéder à la configuration **Prélever le traitement par lots le plus ancien** via le menu d'un appareil mobile qui vous permet de forcer ou d'avertir des collaborateurs de l'entrepôt pour qu'ils prélèvent le lot le plus ancien de son emplacement actuel.</span><span class="sxs-lookup"><span data-stu-id="f07e1-104">You can access the configuration **Pick oldest batch** via a mobile device menu and it allows you to force or warn warehouse workers to pick the oldest batch in their current location.</span></span>  
 

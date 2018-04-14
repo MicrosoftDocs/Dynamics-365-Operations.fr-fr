@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 4bb4af7cb7aff101a8b9e6162823515f63b12886
-ms.openlocfilehash: 98ce3ad38dddda33be5466490fcd39d81251679c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 115dfc163dce580244c2b2b6975e49ea3b69f1ef
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a><span data-ttu-id="9a524-103">Paramétrer une instruction d'emplacement pour le rangement des commandes fournisseur</span><span class="sxs-lookup"><span data-stu-id="9a524-103">Set up a location directive for purchase order put-away</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="9a524-104">Cette procédure décrit le processus de paramétrage d'une simple instruction d'emplacement.</span><span class="sxs-lookup"><span data-stu-id="9a524-104">This procedure shows you how to set up a simple location directive.</span></span> <span data-ttu-id="9a524-105">L'exemple qui est indiqué crée une instruction d'emplacement à utiliser pour déterminer où mettre les articles reçus pour une commande fournisseur.</span><span class="sxs-lookup"><span data-stu-id="9a524-105">The example that’s shown creates a location directive to be used to determine where to put items that have been received for a purchase order.</span></span> <span data-ttu-id="9a524-106">Vous pouvez lire ce guide des tâches avec les données mentionnées en utilisant la société USMF de données de démonstration.</span><span class="sxs-lookup"><span data-stu-id="9a524-106">You can play this task guide with the data mentioned using demo data company USMF.</span></span> <span data-ttu-id="9a524-107">Conditions préalables : vous devez créer un code disposition.</span><span class="sxs-lookup"><span data-stu-id="9a524-107">Pre-conditions: You need to create a disposition code.</span></span> <span data-ttu-id="9a524-108">Dans cette procédure nous utilisons un code disposition appelé Relabel.</span><span class="sxs-lookup"><span data-stu-id="9a524-108">In this procedure we use a disposition code called Relabel.</span></span> <span data-ttu-id="9a524-109">Si vous créez une instruction d'emplacement dans vos propres données, vous devez avoir configuré la gestion des entrepôts avancée pour votre entrepôt et vos articles.</span><span class="sxs-lookup"><span data-stu-id="9a524-109">If you’re creating a location directive in your own data, you need to have set up advanced warehouse management for your warehouse and items.</span></span>  <span data-ttu-id="9a524-110">Cette procédure est destinée au gestionnaire d'entrepôts.</span><span class="sxs-lookup"><span data-stu-id="9a524-110">This procedure is intended for the warehouse manager.</span></span>
 

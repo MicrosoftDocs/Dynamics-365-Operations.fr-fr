@@ -19,17 +19,16 @@ ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 938c70faf11acc9a3ab76691b09bb37e51af02c2
-ms.openlocfilehash: e2c5bc4bc64f0f90834fab14b71cc87e3fd202dc
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 11e7aa072d4c99bd33cfea7114032b7968d8d024
 ms.contentlocale: fr-fr
-ms.lasthandoff: 01/22/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="action-messages"></a><span data-ttu-id="7f2a5-103">Messages d'action</span><span class="sxs-lookup"><span data-stu-id="7f2a5-103">Action messages</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="7f2a5-104">Un message d'action est une suggestion générée par le système visant à modifier un ordre prévisionnel ou confirmé existant.</span><span class="sxs-lookup"><span data-stu-id="7f2a5-104">An action message is a system-generated suggestion to change an existing planned or firmed order.</span></span>
 

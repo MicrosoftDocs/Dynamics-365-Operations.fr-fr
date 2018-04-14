@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 83945932d56abf6bf44476e5647f8ae7abdc3602
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3ee04497653b21600cd42fa9c90e7876e613acee
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="approve-vendors-for-specific-procurement-categories"></a><span data-ttu-id="fc6d6-103">Approuver les fournisseurs pour des catégories d'approvisionnement spécifiques</span><span class="sxs-lookup"><span data-stu-id="fc6d6-103">Approve vendors for specific procurement categories</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="fc6d6-104">Quand une demande d'achat est créée, il peut y avoir une condition pour choisir un fournisseur agréé ou préféré, selon la façon dont les politiques d'achat sont définies.</span><span class="sxs-lookup"><span data-stu-id="fc6d6-104">When a purchase requisition is created, there may be a requirement to select an approved or preferred vendor, depending on how the purchasing policies are set up.</span></span> <span data-ttu-id="fc6d6-105">Cette procédure vous montre comment spécifier qu'un vendeur est agréé ou préféré pour une catégorie spécifique d'approvisionnement.</span><span class="sxs-lookup"><span data-stu-id="fc6d6-105">This procedure shows you how to specify that a vendor is approved or preferred for a specific procurement category.</span></span> <span data-ttu-id="fc6d6-106">Cette tâche est généralement effectuée par un professionnel de l'approvisionnement.</span><span class="sxs-lookup"><span data-stu-id="fc6d6-106">This task would usually be carried out by a procurement professional.</span></span> <span data-ttu-id="fc6d6-107">Vous pouvez utiliser cette procédure dans les données fictives de la société USMF.</span><span class="sxs-lookup"><span data-stu-id="fc6d6-107">You can use this procedure in demo data company USMF.</span></span>
 

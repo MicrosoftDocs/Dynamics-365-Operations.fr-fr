@@ -16,15 +16,15 @@ ms.author: mfalkner
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ef3cad6538d9efbd1c1881f4b7d771382d9b1ba8
-ms.openlocfilehash: 87e293008fd748aa0dcc6b3caa94a4889bed35de
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ca7c0f46f0cab298580e37c236bd10e4325e011b
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-free-text-invoice"></a><span data-ttu-id="c20ca-103">Créer une facture financière</span><span class="sxs-lookup"><span data-stu-id="c20ca-103">Create a free text invoice</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="c20ca-104">Ce guide de tâche illustre la création d'une facture financière.</span><span class="sxs-lookup"><span data-stu-id="c20ca-104">This task guide demonstrates creating a free text invoice.</span></span> <span data-ttu-id="c20ca-105">La société fictive USMF est citée en exemple dans cette tâche.</span><span class="sxs-lookup"><span data-stu-id="c20ca-105">This task uses the USMF demo company.</span></span>
 

@@ -17,15 +17,15 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e57db8f4b692aa9c27916625897e268f63031782
-ms.openlocfilehash: 27ea0937f33c40a61e03cb8670ad790ef87dd4cf
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 15f9023f5a269ea9dd68bb4aa0ddc391b55c9df7
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-and-assign-a-trading-partner-code-in-the-public-sector"></a><span data-ttu-id="9e98f-103">Créer et affecter un code de partenaire commercial dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="9e98f-103">Create and assign a trading partner code in the public sector</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="9e98f-104">Créez un code partenaire commercial et affectez le à une agence gouvernementale avec laquelle votre organisation entretient des relations commerciales.</span><span class="sxs-lookup"><span data-stu-id="9e98f-104">Create a trading partner code and assign it to a government agency that your organization does business with.</span></span> <span data-ttu-id="9e98f-105">Pour que vous puissiez effectuer cette tâche, l'enregistrement client pour l'agence doit exister.</span><span class="sxs-lookup"><span data-stu-id="9e98f-105">The customer record for the agency must exist before you can perform this task.</span></span> <span data-ttu-id="9e98f-106">Cette procédure a été créée à l'aide des données de la société fictive PSUS dans la partition du secteur public.</span><span class="sxs-lookup"><span data-stu-id="9e98f-106">This procedure was created using the PSUS demo company data in the public sector partition.</span></span>
 

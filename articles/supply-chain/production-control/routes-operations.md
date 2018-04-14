@@ -20,17 +20,16 @@ ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7af00d0c66f70aa41cfab0ffccef39ba4c115803
-ms.openlocfilehash: 4026fa937ddf88f006cdcd13a8eda10c326ada62
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 90a12b501b55bc6406ea13c2e643cd58f8128390
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="routes-and-operations"></a><span data-ttu-id="0612f-103">Gammes et opérations</span><span class="sxs-lookup"><span data-stu-id="0612f-103">Routes and operations</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="0612f-104">Cette rubrique fournit des informations sur les gammes et les opérations.</span><span class="sxs-lookup"><span data-stu-id="0612f-104">This topic provides information about routes and operations.</span></span> <span data-ttu-id="0612f-105">Une gamme définit le processus de fabrication d'un produit ou d'une variante de produit.</span><span class="sxs-lookup"><span data-stu-id="0612f-105">A route defines the process for producing a product or product variant.</span></span> <span data-ttu-id="0612f-106">Elle décrit chaque étape (opération) dans le processus de fabrication et l'ordre dans lequel ces étapes doivent être effectuées.</span><span class="sxs-lookup"><span data-stu-id="0612f-106">It describes each step (operation) in the production process and the order that these steps must be performed in.</span></span> <span data-ttu-id="0612f-107">Pour chaque étape, la gamme définit également les ressources opérationnelles requises, la durée de configuration et d'exécution requise et la manière dont le coût doit être calculé.</span><span class="sxs-lookup"><span data-stu-id="0612f-107">For each step, the route also defines the required operations resources, the required setup time and run time, and how the cost should be calculated.</span></span>
 

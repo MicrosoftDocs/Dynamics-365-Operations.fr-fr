@@ -18,16 +18,16 @@ ms.author: Mirzaab
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 3c43a42822f291607fbc9708dd07ebf99b9d7ec4
-ms.openlocfilehash: 3cae5d4c4680f61b671f63616908bc3b6c463da6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6cf870974b2f772e82fbf828e83f065dc945d377
 ms.contentlocale: fr-fr
-ms.lasthandoff: 01/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="mobile-bar-code-support"></a><span data-ttu-id="5411f-103">Prise en charge des codes-barres mobiles</span><span class="sxs-lookup"><span data-stu-id="5411f-103">Mobile bar code support</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="5411f-104">Comme Android est un projet en open source, tout fabricant de matériel pour les scanneurs de code-barres d'entrepôt peut fabriquer un périphérique pour exécuter le système d'exploitation Android.</span><span class="sxs-lookup"><span data-stu-id="5411f-104">Because Android is an open source project, any manufacturer of hardware for warehouse bar code scanners can build a device to run the Android operating system.</span></span> <span data-ttu-id="5411f-105">Un périphérique est compatible avec Android uniquement s'il peut exécuter des applications qui sont écrites pour l'environnement d'exécution Android.</span><span class="sxs-lookup"><span data-stu-id="5411f-105">A device is only Android-compatible if it can run apps that are written for the Android execution environment.</span></span>
 <span data-ttu-id="5411f-106">Toutefois, un fournisseur de matériel peut modifier et créer des superpositions de la version Android qui s'exécutent sur leur matériel.</span><span class="sxs-lookup"><span data-stu-id="5411f-106">However, a hardware vendor can modify and create overlays for the Android version that runs on their hardware.</span></span> <span data-ttu-id="5411f-107">Microsoft ne peut pas être tenu responsable de s'assurer qu'une application de lecture de code-barres mobile pour Android est compatible avec le matériel de lecture du code-barres d'un fabricant et la version d'Android qui s'exécute sur celui-ci.</span><span class="sxs-lookup"><span data-stu-id="5411f-107">Microsoft cannot take any responsibility to ensure that a mobile bar code scanning app for Android is compatible with a manufacturer’s bar code scanning hardware and the Android version that runs on it.</span></span> 

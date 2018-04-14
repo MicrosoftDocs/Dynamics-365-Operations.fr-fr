@@ -18,17 +18,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e0c0faf0b12368273decacfae88c57707b350bf4
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5fcf299cbf0a5e334ab4f30e19a563b586753dfe
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a><span data-ttu-id="e8177-104">Paramétrer la sécurité du contenu Power BI Analyse du contrôle de gestion</span><span class="sxs-lookup"><span data-stu-id="e8177-104">Set up security for the Cost accounting analysis Power BI content</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="e8177-105">Cette rubrique explique comment propager la sécurité au niveau des accès dans le contrôle de gestion à la sécurité au niveau des lignes dans Microsoft Power BI.</span><span class="sxs-lookup"><span data-stu-id="e8177-105">This topic explains how you can propagate the access-level security in Cost accounting to row-level security in Microsoft Power BI.</span></span> <span data-ttu-id="e8177-106">Cette fonctionnalité permet de garantir que les utilisateurs n'affichent que les données Power BI auxquelles ils sont autorisés à accéder.</span><span class="sxs-lookup"><span data-stu-id="e8177-106">This functionality helps guarantee that users see only Power BI data that they are granted access to.</span></span>
 

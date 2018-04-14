@@ -17,15 +17,15 @@ ms.author: rubendel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 9d9a5d4fdece1cfb573224bd54d96ccd281c0f09
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f827cae291644bea0e6a1af8af9f692b118534ad
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="push-products-from-distribution-center-to-store-using-buyers-push"></a><span data-ttu-id="4c5af-103"> Envoyer des produits du centre de distribution au magasin à l'aide de la procédure de réassort magasin</span><span class="sxs-lookup"><span data-stu-id="4c5af-103">Push products from distribution center to store using buyer's push</span></span>
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="4c5af-104">Cette procédure décrit les étapes pour créer et traiter un réassort magasin afin de distribuer les produits depuis un emplacement vers un ou plusieurs magasins.</span><span class="sxs-lookup"><span data-stu-id="4c5af-104">This procedure walks through the steps to create and process a Buyer´s push to distribute products from one location to one or many stores.</span></span> <span data-ttu-id="4c5af-105">L'utilisateur peut définir plusieurs configurations et laisser le système décider de la distribution des produits, ou saisir manuellement l'emplacement de distribution des produits et la quantité distribuée dans chaque magasin.</span><span class="sxs-lookup"><span data-stu-id="4c5af-105">The user can define multiple configurations and have the system suggest how to distribute the products, or manually enter where the products are distributed to and how much gets distributed to each store.</span></span> <span data-ttu-id="4c5af-106">Cette procédure n'inclut pas le paramétrage des données pouvant être utilisées dans le réassort magasin, telles que les règles de réapprovisionnement, les hiérarchies organisationnelles et les poids des magasins.</span><span class="sxs-lookup"><span data-stu-id="4c5af-106">This procedure doesn't include setup of data that can be used in the Buyer´s push, such as replenishment rules, organizational hierarchies, and store weights.</span></span> <span data-ttu-id="4c5af-107">La société fictive USRT sert d'exemple dans cette procédure.</span><span class="sxs-lookup"><span data-stu-id="4c5af-107">This procedure uses the USRT demo company.</span></span>
 

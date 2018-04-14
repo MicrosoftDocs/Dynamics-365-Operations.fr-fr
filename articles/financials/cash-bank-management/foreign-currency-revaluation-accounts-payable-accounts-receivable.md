@@ -19,17 +19,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 259b487b0f11b19af9609d63f12114dcaa61be52
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 87bafa5817ceef8428cf28c60ec336c127e432d4
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="foreign-currency-revaluation-for-accounts-payable-and-accounts-receivable"></a><span data-ttu-id="3b1a4-104">Réévaluation des comptes en devises pour les Achats et les Ventes</span><span class="sxs-lookup"><span data-stu-id="3b1a4-104">Foreign currency revaluation for Accounts payable and Accounts receivable</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="3b1a4-105">Des fluctuations des taux de change entraînent une variation de la valeur théorique (valeur comptable) des transactions en cours en devises étrangères avec le temps.</span><span class="sxs-lookup"><span data-stu-id="3b1a4-105">Fluctuations in exchange rates cause the theoretical value (book value) of open transactions in foreign currencies to vary over time.</span></span> <span data-ttu-id="3b1a4-106">Cet article fournit des informations sur le processus de réévaluation des comptes en devises que vous exécutez pour mettre à jour la valeur des transactions en cours dans Comptabilité fournisseur et Comptabilité client.</span><span class="sxs-lookup"><span data-stu-id="3b1a4-106">This article provides information about the foreign currency revaluation process that you run to update the value of open transactions in Accounts payable and Accounts receivable.</span></span> 
 

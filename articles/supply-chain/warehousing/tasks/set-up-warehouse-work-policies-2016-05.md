@@ -17,15 +17,15 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b7d579ca7e2b9ca8cbead74b2c2ababfd142f171
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fe237543770fd05198b46cc7fc72b21926177807
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-warehouse-work-policies"></a><span data-ttu-id="68168-103">Paramétrer les stratégies de travail d'entrepôt</span><span class="sxs-lookup"><span data-stu-id="68168-103">Set up warehouse work policies</span></span> 
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="68168-104">Les processus d'entrepôt n'incluent pas systématiquement les tâches d'entrepôt.</span><span class="sxs-lookup"><span data-stu-id="68168-104">Warehouse processes don’t always include warehouse work.</span></span> <span data-ttu-id="68168-105">En définissant une stratégie de travail, vous pouvez empêcher la création de tâche pour le prélèvement de matières premières et le rangement de produits finis pour un ensemble de produits à des emplacements spécifiques.</span><span class="sxs-lookup"><span data-stu-id="68168-105">By defining a work policy, you can prevent the creation of work for raw material picking and put-away of finished goods for a set of products at specific locations.</span></span> <span data-ttu-id="68168-106">Les données fictives de la société USMF ont été utilisées pour créer cet enregistrement.</span><span class="sxs-lookup"><span data-stu-id="68168-106">The USMF demo data company was used to create this recording.</span></span> <span data-ttu-id="68168-107">L'application Dynamics AX 7.0.1 ou ultérieure est requise pour ce guide de tâche.</span><span class="sxs-lookup"><span data-stu-id="68168-107">This task guide requires Dynamics AX application 7.0.1 or later.</span></span>
 

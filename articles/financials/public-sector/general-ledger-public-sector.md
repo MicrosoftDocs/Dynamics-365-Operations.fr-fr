@@ -20,17 +20,16 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 47336a19899b1fad0e63265173fd7fd02fc74ec3
-ms.openlocfilehash: c917cc91d47e4461f884a2bf59358e92e5d8a011
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 28e0ee34a16b38b5ae82a93baee3053389703b81
 ms.contentlocale: fr-fr
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="general-ledger-in-the-public-sector"></a><span data-ttu-id="9d058-103">Comptabilité dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="9d058-103">General ledger in the public sector</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="9d058-104">Cette rubrique décrit la fonctionnalité de comptabilité disponible pour le secteur public.</span><span class="sxs-lookup"><span data-stu-id="9d058-104">This topic describes the General ledger functionality that is available for the public sector.</span></span>
 

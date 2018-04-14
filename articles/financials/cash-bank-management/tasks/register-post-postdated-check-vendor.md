@@ -16,15 +16,15 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 632b04848cdb6d71e7e7dbd6c6bc710d0577950a
-ms.openlocfilehash: 776121532c42fde8b1c3e29b4af0bf833952c0cd
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: cd00227ed6d288a4b2041630bc7a604ac94d3c70
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="register-and-post-a-postdated-check-for-a-vendor"></a><span data-ttu-id="08acc-103">Enregistrement et validation d'un chèque postdaté pour un fournisseur</span><span class="sxs-lookup"><span data-stu-id="08acc-103">Register and post a postdated check for a vendor</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="08acc-104">Vous pouvez enregistrer les détails d'un chèque postdaté avant sa remise à un fournisseur, par l'intermédiaire du n° document de journal.</span><span class="sxs-lookup"><span data-stu-id="08acc-104">You can register the details of a postdated check before you issue the check to a vendor by using the journal voucher.</span></span> <span data-ttu-id="08acc-105">Vous pouvez également valider le chèque postdaté et générer des transactions financières.</span><span class="sxs-lookup"><span data-stu-id="08acc-105">You can also post the postdated check and generate financial transactions.</span></span> <span data-ttu-id="08acc-106">Avant d'enregistrer et de valider un chèque postdaté reçu d'un client, effectuez la tâche suivante :</span><span class="sxs-lookup"><span data-stu-id="08acc-106">Before you register and post a postdated check from a vendor, complete the following task:</span></span> 
 

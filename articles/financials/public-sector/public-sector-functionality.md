@@ -20,39 +20,38 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 920f5b338c127b21bb350ba848ac852cf6758c8b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 09c49bdd097d83c98526a7ed8af455b0f5761b9f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="public-sector-home-page"></a><span data-ttu-id="de3ef-103">Page d'accueil de la fonctionnalité Secteur public</span><span class="sxs-lookup"><span data-stu-id="de3ef-103">Public sector home page</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="de3ef-104">Finance and Operations active les processus d'entreprise communs aux secteurs public et privé, comme les tâches de budgétisation, de comptabilité fournisseur et de comptabilité client.</span><span class="sxs-lookup"><span data-stu-id="de3ef-104">Finance and Operations enable business processes that are common to both the public and private sectors, such as budgeting, purchasing, accounts payable, and accounts receivable tasks.</span></span> 
 
 <span data-ttu-id="de3ef-105">La fonctionnalité Secteur public permet de se conformer aux règles, aux réglementations et aux conditions de génération d'états pour les organisations du domaine public :</span><span class="sxs-lookup"><span data-stu-id="de3ef-105">Use the Public sector functionality to meet the rules, regulations, and reporting requirements for organizations that serve the public.</span></span> <span data-ttu-id="de3ef-106">Les processus entreprise affectés sont :</span><span class="sxs-lookup"><span data-stu-id="de3ef-106">The business processes affected include:</span></span> 
 
--   <span data-ttu-id="de3ef-107">Comptabilité de fonds, hiérarchies financières dérivées et définitions de validation pour les modules Ventes et Comptabilité.</span><span class="sxs-lookup"><span data-stu-id="de3ef-107">Fund accounting, derived financial hierarchies, and posting definitions for accounts receivable and the general ledger.</span></span>
--   <span data-ttu-id="de3ef-108">Budgets préliminaires, répartitions et engagements.</span><span class="sxs-lookup"><span data-stu-id="de3ef-108">Preliminary budgets, apportionments, and commitments.</span></span>
--   <span data-ttu-id="de3ef-109">Codes facturation, classifications de facturation, codes partenaire commerciale et champs personnalisés pour les factures financières.</span><span class="sxs-lookup"><span data-stu-id="de3ef-109">Billing codes, billing classifications, trading partner codes, and custom fields for free text invoices.</span></span>
--   <span data-ttu-id="de3ef-110">Processus de fin d'exercice comptable comprenant les engagements sur les commandes fournisseur.</span><span class="sxs-lookup"><span data-stu-id="de3ef-110">General ledger year-end processing, which includes encumbrances and commitments on purchase orders.</span></span>
--   <span data-ttu-id="de3ef-111">Paiements électroniques aux fournisseurs, pages de signature pour les états de paiement et mise en attente du paiement des factures.</span><span class="sxs-lookup"><span data-stu-id="de3ef-111">Electronic payments to vendors, signature pages for payment reports, and invoice payment holds.</span></span>
+- <span data-ttu-id="de3ef-107">Comptabilité de fonds, hiérarchies financières dérivées et définitions de validation pour les modules Ventes et Comptabilité.</span><span class="sxs-lookup"><span data-stu-id="de3ef-107">Fund accounting, derived financial hierarchies, and posting definitions for accounts receivable and the general ledger.</span></span>
+- <span data-ttu-id="de3ef-108">Budgets préliminaires, répartitions et engagements.</span><span class="sxs-lookup"><span data-stu-id="de3ef-108">Preliminary budgets, apportionments, and commitments.</span></span>
+- <span data-ttu-id="de3ef-109">Codes facturation, classifications de facturation, codes partenaire commerciale et champs personnalisés pour les factures financières.</span><span class="sxs-lookup"><span data-stu-id="de3ef-109">Billing codes, billing classifications, trading partner codes, and custom fields for free text invoices.</span></span>
+- <span data-ttu-id="de3ef-110">Processus de fin d'exercice comptable comprenant les engagements sur les commandes fournisseur.</span><span class="sxs-lookup"><span data-stu-id="de3ef-110">General ledger year-end processing, which includes encumbrances and commitments on purchase orders.</span></span>
+- <span data-ttu-id="de3ef-111">Paiements électroniques aux fournisseurs, pages de signature pour les états de paiement et mise en attente du paiement des factures.</span><span class="sxs-lookup"><span data-stu-id="de3ef-111">Electronic payments to vendors, signature pages for payment reports, and invoice payment holds.</span></span>
 
- <span data-ttu-id="de3ef-112">Pour plus d'informations, voir les rubriques suivantes :</span><span class="sxs-lookup"><span data-stu-id="de3ef-112">For more information, see the following topics:</span></span>
+  <span data-ttu-id="de3ef-112">Pour plus d'informations, voir les rubriques suivantes :</span><span class="sxs-lookup"><span data-stu-id="de3ef-112">For more information, see the following topics:</span></span>
 
--   [<span data-ttu-id="de3ef-113">Planification pour la fonctionnalité Secteur public</span><span class="sxs-lookup"><span data-stu-id="de3ef-113">Planning for Public sector functionality</span></span>](plan-public-sector-functionality.md)
--   [<span data-ttu-id="de3ef-114">Comptabilité fournisseur dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="de3ef-114">Accounts payable in the Public sector</span></span>](accounts-payable-public-sector.md)
--   [<span data-ttu-id="de3ef-115">Comptabilité client dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="de3ef-115">Accounts receivable in the Public sector</span></span>](accounts-receivable-public-sector.md)
--   [<span data-ttu-id="de3ef-116">Budgétisation dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="de3ef-116">Budgeting in the Public sector</span></span>](budgeting-public-sector.md)
--   [<span data-ttu-id="de3ef-117">Immobilisations dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="de3ef-117">Fixed assets in the Public sector</span></span>](fixed-asset-public-sector.md)
--   [<span data-ttu-id="de3ef-118">Fonctions de réglementation française</span><span class="sxs-lookup"><span data-stu-id="de3ef-118">French regulatory features</span></span>](../localizations/emea-fra-public-sector-accounting.md)
--   [<span data-ttu-id="de3ef-119">Comptabilité dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="de3ef-119">General ledger in the Public sector</span></span>](general-ledger-public-sector.md)
--   [<span data-ttu-id="de3ef-120">Approvisionnements dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="de3ef-120">Procurement and sourcing in the Public sector</span></span>](procurement-sourcing-public-sector.md)
--   [<span data-ttu-id="de3ef-121">Rôles de sécurité dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="de3ef-121">Security roles in the Public sector</span></span>](security-roles-public-sector.md)
+- [<span data-ttu-id="de3ef-113">Planification pour la fonctionnalité Secteur public</span><span class="sxs-lookup"><span data-stu-id="de3ef-113">Planning for Public sector functionality</span></span>](plan-public-sector-functionality.md)
+- [<span data-ttu-id="de3ef-114">Comptabilité fournisseur dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="de3ef-114">Accounts payable in the Public sector</span></span>](accounts-payable-public-sector.md)
+- [<span data-ttu-id="de3ef-115">Comptabilité client dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="de3ef-115">Accounts receivable in the Public sector</span></span>](accounts-receivable-public-sector.md)
+- [<span data-ttu-id="de3ef-116">Budgétisation dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="de3ef-116">Budgeting in the Public sector</span></span>](budgeting-public-sector.md)
+- [<span data-ttu-id="de3ef-117">Immobilisations dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="de3ef-117">Fixed assets in the Public sector</span></span>](fixed-asset-public-sector.md)
+- [<span data-ttu-id="de3ef-118">Fonctions de réglementation française</span><span class="sxs-lookup"><span data-stu-id="de3ef-118">French regulatory features</span></span>](../localizations/emea-fra-public-sector-accounting.md)
+- [<span data-ttu-id="de3ef-119">Comptabilité dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="de3ef-119">General ledger in the Public sector</span></span>](general-ledger-public-sector.md)
+- [<span data-ttu-id="de3ef-120">Approvisionnements dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="de3ef-120">Procurement and sourcing in the Public sector</span></span>](procurement-sourcing-public-sector.md)
+- [<span data-ttu-id="de3ef-121">Rôles de sécurité dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="de3ef-121">Security roles in the Public sector</span></span>](security-roles-public-sector.md)
 
 <span data-ttu-id="de3ef-122">\* Applicable uniquement si votre organisation est en France.</span><span class="sxs-lookup"><span data-stu-id="de3ef-122">\* Applicable only if your organization is in France.</span></span>
 

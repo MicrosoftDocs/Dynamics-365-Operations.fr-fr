@@ -16,15 +16,15 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: db813353eef97375451e78320d6d14de74292309
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 286f7d94b13d4869704d60851dc01e5a637a5b52
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-main-account"></a><span data-ttu-id="9d7c7-103">Création d'un compte principal</span><span class="sxs-lookup"><span data-stu-id="9d7c7-103">Create a main account</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="9d7c7-104">Ce guide accompagne l'utilisateur lors de l'ajout d'un compte principal à un plan de comptes existant.</span><span class="sxs-lookup"><span data-stu-id="9d7c7-104">This task guide steps through adding a main account to an existing chart of accounts.</span></span> <span data-ttu-id="9d7c7-105">La société fictive USMF sert d'exemple dans cet enregistrement.</span><span class="sxs-lookup"><span data-stu-id="9d7c7-105">This recording uses the USMF demo company.</span></span>  
 

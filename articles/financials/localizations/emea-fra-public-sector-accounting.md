@@ -19,17 +19,16 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c999055a4e849332a104276ef8d3ea3ce781e2e3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 89d66302b0880750ea100f9ca7d42d0a8d15c919
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="public-sector-accounting-in-france"></a><span data-ttu-id="3bb38-103">Comptabilité du secteur public en France</span><span class="sxs-lookup"><span data-stu-id="3bb38-103">Public sector accounting in France</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="3bb38-104">Cet article décrit la comptabilité du secteur public en France.</span><span class="sxs-lookup"><span data-stu-id="3bb38-104">This article describes public sector accounting in France.</span></span>
 

@@ -20,17 +20,16 @@ ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 1ba80e48c8b3b5ed94b9e03302788099a1d31909
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4ea00653be087982134ecc5474512ef18a01ca22
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="payment-methods"></a><span data-ttu-id="ad398-104">Modes de paiement</span><span class="sxs-lookup"><span data-stu-id="ad398-104">Payment methods</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="ad398-105">Chaque type de paiement accepté par un détaillant doit être configurée lors du paramétrage du système.</span><span class="sxs-lookup"><span data-stu-id="ad398-105">Each payment type that a retailer accepts must be configured when the system is set up.</span></span> <span data-ttu-id="ad398-106">Cet article décrit les types de paiement que vous pouvez paramétrer, ainsi que leur procédure de paramétrage.</span><span class="sxs-lookup"><span data-stu-id="ad398-106">This article describes the payment types that you can set up and describes the process for setting them up.</span></span>
 

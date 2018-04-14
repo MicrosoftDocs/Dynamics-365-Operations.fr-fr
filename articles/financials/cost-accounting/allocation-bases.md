@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: fe0be9164a285ce3884d1f35e99bdad80eb8b581
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1a32b49e7589113d518ef17a39eecc4c518b362d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="allocation-bases"></a><span data-ttu-id="4007f-104">Bases de répartition</span><span class="sxs-lookup"><span data-stu-id="4007f-104">Allocation bases</span></span> 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="4007f-105">Une base de répartition est la base sur laquelle le contrôle de gestion affecte les frais généraux.</span><span class="sxs-lookup"><span data-stu-id="4007f-105">An allocation base is the basis on which Cost accounting allocates overhead costs.</span></span> <span data-ttu-id="4007f-106">Une base de répartition peut être une quantité, telles que les heures-machine utilisées, les kilowatt-heures (kWh) qui sont consommées, ou la superficie qui est occupée.</span><span class="sxs-lookup"><span data-stu-id="4007f-106">An allocation base can be a quantity, such as machine hours that are used, kilowatt hours (kWh) that are consumed, or square footage that is occupied.</span></span> <span data-ttu-id="4007f-107">Les bases de répartition sont la plupart utilisées pour affecter des frais généraux dans le stock qui est produit.</span><span class="sxs-lookup"><span data-stu-id="4007f-107">Allocation bases are mostly used to assign overhead costs to inventory that is produced.</span></span> <span data-ttu-id="4007f-108">Par exemple, un service informatique affecte les dépenses en fonction du nombre d'ordinateurs que chaque département utilise.</span><span class="sxs-lookup"><span data-stu-id="4007f-108">For example, an IT department allocates its expenses according to the number of computers that each department uses.</span></span>
 
@@ -424,9 +424,11 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="4007f-775">Voici l'exemple d'une règle de répartition des coûts si la base de répartition de la formule prédéfinie Électricité fixe est affectée comme base de répartition dans celle-ci.</span><span class="sxs-lookup"><span data-stu-id="4007f-775">Here is an example of a cost distribution rule if the Electricity fixed formula allocation base is assigned as the allocation base in it.</span></span>
 
-| <span data-ttu-id="4007f-776">Objet de coût</span><span class="sxs-lookup"><span data-stu-id="4007f-776">Cost object</span></span> |  <span data-ttu-id="4007f-777">Description</span><span class="sxs-lookup"><span data-stu-id="4007f-777">Description</span></span>  | <span data-ttu-id="4007f-778">Ampleur</span><span class="sxs-lookup"><span data-stu-id="4007f-778">Magnitude</span></span> | <span data-ttu-id="4007f-779">Facteur de répartition</span><span class="sxs-lookup"><span data-stu-id="4007f-779">Allocation factor</span></span>                |
-|-------------|----|-----------|----------------------------------|
-| <span data-ttu-id="4007f-780">CC001</span><span class="sxs-lookup"><span data-stu-id="4007f-780">CC001</span></span>       | <span data-ttu-id="4007f-781">RH</span><span class="sxs-lookup"><span data-stu-id="4007f-781">HR</span></span> | <span data-ttu-id="4007f-782">1,837.50</span><span class="sxs-lookup"><span data-stu-id="4007f-782">1,837.50</span></span>  | <span data-ttu-id="4007f-783">(1,837.50 ÷ 18,162.50) × Montant</span><span class="sxs-lookup"><span data-stu-id="4007f-783">(1,837.50 ÷ 18,162.50) × Amount</span></span>  |
-| <span data-ttu-id="4007f-784">CC002</span><span class="sxs-lookup"><span data-stu-id="4007f-784">CC002</span></span>       | <span data-ttu-id="4007f-785">FI</span><span class="sxs-lookup"><span data-stu-id="4007f-785">FI</span></span> | <span data-ttu-id="4007f-786">3,075.00</span><span class="sxs-lookup"><span data-stu-id="4007f-786">3,075.00</span></span>  | <span data-ttu-id="4007f-787">(3,075.00 ÷ 18,162.50) × Montant</span><span class="sxs-lookup"><span data-stu-id="4007f-787">(3,075.00 ÷ 18,162.50) × Amount</span></span>  |
-| <span data-ttu-id="4007f-788">CC003</span><span class="sxs-lookup"><span data-stu-id="4007f-788">CC003</span></span>       | <span data-ttu-id="4007f-789">TS</span><span class="sxs-lookup"><span data-stu-id="4007f-789">IT</span></span> | <span data-ttu-id="4007f-790">13,250.00</span><span class="sxs-lookup"><span data-stu-id="4007f-790">13,250.00</span></span> | <span data-ttu-id="4007f-791">(13,250.00 ÷ 18,162.50) × Montant</span><span class="sxs-lookup"><span data-stu-id="4007f-791">(13,250.00 ÷ 18,162.50) × Amount</span></span> |
+
+| <span data-ttu-id="4007f-776">Objet de coût</span><span class="sxs-lookup"><span data-stu-id="4007f-776">Cost object</span></span> | <span data-ttu-id="4007f-777">Description</span><span class="sxs-lookup"><span data-stu-id="4007f-777">Description</span></span> | <span data-ttu-id="4007f-778">Ampleur</span><span class="sxs-lookup"><span data-stu-id="4007f-778">Magnitude</span></span> |        <span data-ttu-id="4007f-779">Facteur de répartition</span><span class="sxs-lookup"><span data-stu-id="4007f-779">Allocation factor</span></span>         |
+|-------------|-------------|-----------|----------------------------------|
+|    <span data-ttu-id="4007f-780">CC001</span><span class="sxs-lookup"><span data-stu-id="4007f-780">CC001</span></span>    |     <span data-ttu-id="4007f-781">RH</span><span class="sxs-lookup"><span data-stu-id="4007f-781">HR</span></span>      | <span data-ttu-id="4007f-782">1,837.50</span><span class="sxs-lookup"><span data-stu-id="4007f-782">1,837.50</span></span>  | <span data-ttu-id="4007f-783">(1,837.50 ÷ 18,162.50) × Montant</span><span class="sxs-lookup"><span data-stu-id="4007f-783">(1,837.50 ÷ 18,162.50) × Amount</span></span>  |
+|    <span data-ttu-id="4007f-784">CC002</span><span class="sxs-lookup"><span data-stu-id="4007f-784">CC002</span></span>    |     <span data-ttu-id="4007f-785">FI</span><span class="sxs-lookup"><span data-stu-id="4007f-785">FI</span></span>      | <span data-ttu-id="4007f-786">3,075.00</span><span class="sxs-lookup"><span data-stu-id="4007f-786">3,075.00</span></span>  | <span data-ttu-id="4007f-787">(3,075.00 ÷ 18,162.50) × Montant</span><span class="sxs-lookup"><span data-stu-id="4007f-787">(3,075.00 ÷ 18,162.50) × Amount</span></span>  |
+|    <span data-ttu-id="4007f-788">CC003</span><span class="sxs-lookup"><span data-stu-id="4007f-788">CC003</span></span>    |     <span data-ttu-id="4007f-789">TS</span><span class="sxs-lookup"><span data-stu-id="4007f-789">IT</span></span>      | <span data-ttu-id="4007f-790">13,250.00</span><span class="sxs-lookup"><span data-stu-id="4007f-790">13,250.00</span></span> | <span data-ttu-id="4007f-791">(13,250.00 ÷ 18,162.50) × Montant</span><span class="sxs-lookup"><span data-stu-id="4007f-791">(13,250.00 ÷ 18,162.50) × Amount</span></span> |
+
 

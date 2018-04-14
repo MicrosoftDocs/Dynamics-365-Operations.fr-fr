@@ -16,15 +16,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: e928bcc4f9fd00bdb36dd5e61743191c23c68827
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8a651453fe9693fdb22875d860d7c118ea009b3e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-sales-price-selection-criteria"></a><span data-ttu-id="7c80c-103">Créer des critères de sélection de prix de vente</span><span class="sxs-lookup"><span data-stu-id="7c80c-103">Create sales price selection criteria</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="7c80c-104">Cette procédure indique comment créer un critère de sélection de prix de vente pour les modèles de prix de vente basés sur des attributs.</span><span class="sxs-lookup"><span data-stu-id="7c80c-104">This procedure shows how to create a sales price selection criterion for attribute-based sales price models.</span></span> <span data-ttu-id="7c80c-105">Cette procédure nécessite qu'au moins un modèle de prix de vente soit disponible.</span><span class="sxs-lookup"><span data-stu-id="7c80c-105">This procedure requires that at least one sales price model be available.</span></span> <span data-ttu-id="7c80c-106">Cet exemple utilise le modèle de prix du modèle de prix de vente de la solution Haut-parleur dans les données de démonstration de la société fictive USMF.</span><span class="sxs-lookup"><span data-stu-id="7c80c-106">This example uses the price model for the Speaker solution sales price model in the USMF demo data company.</span></span> <span data-ttu-id="7c80c-107">Généralement, un responsable de produit utilise cette procédure.</span><span class="sxs-lookup"><span data-stu-id="7c80c-107">Typically, a product manager uses this procedure.</span></span>
 

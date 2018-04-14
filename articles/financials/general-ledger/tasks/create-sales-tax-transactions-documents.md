@@ -16,15 +16,15 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 27bf4ba33bd7d22443512d072572b9b1ffc164fa
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4a5fb8782b0e7aecd0e01a7d61046d904d46fc54
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-sales-tax-transactions-on-documents"></a><span data-ttu-id="99d08-103">Créer des transactions de taxe sur les documents</span><span class="sxs-lookup"><span data-stu-id="99d08-103">Create sales tax transactions on documents</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="99d08-104">La taxe sur les documents est calculée en indiquant un groupe de taxe et un groupe de taxe d'article sur les lignes du document.</span><span class="sxs-lookup"><span data-stu-id="99d08-104">Sales tax on documents is calculated by providing a Sales tax group and an Item sales tax group on document lines.</span></span> <span data-ttu-id="99d08-105">Ces valeurs proviennent par défaut des données principales mais peuvent être modifiées manuellement le cas échéant.</span><span class="sxs-lookup"><span data-stu-id="99d08-105">These default from master data but can be changed manually if necessary.</span></span> <span data-ttu-id="99d08-106">La taxe calculée peut être vérifiée sur une ligne et au niveau du document.</span><span class="sxs-lookup"><span data-stu-id="99d08-106">The calculated sales tax can be checked on a line and document level.</span></span> <span data-ttu-id="99d08-107">La société fictive USMF est citée en exemple dans cette tâche.</span><span class="sxs-lookup"><span data-stu-id="99d08-107">This task uses the USMF demo company.</span></span>
 

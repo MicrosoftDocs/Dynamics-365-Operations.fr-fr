@@ -17,15 +17,15 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: bb58c0a286379c148888bbf4c1b76619c22ea844
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 886b5e0f1be9cc39efd112251fe508bffd7e6e3f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="control-access-to-purchase-agreements-in-the-public-sector"></a><span data-ttu-id="6f968-103">Contrôler l'accès aux contrats d'achat dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="6f968-103">Control access to purchase agreements in the public sector</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="6f968-104">Vous pouvez vous assurer que seuls les départements approuvés peuvent accéder à un contrat d'achat.</span><span class="sxs-lookup"><span data-stu-id="6f968-104">You can make sure that only approved departments can access a purchase agreement.</span></span> <span data-ttu-id="6f968-105">Vous pouvez également limiter le montant que chaque département peut dépenser dans le cadre du contrat d'achat.</span><span class="sxs-lookup"><span data-stu-id="6f968-105">You can also limit the amount that each department can spend against the purchase agreement.</span></span> <span data-ttu-id="6f968-106">Pour ce faire, la structure de compte et les dimensions financières pour l'accès au département doivent être définies dans l'écran Paramètres de la comptabilité fournisseur.</span><span class="sxs-lookup"><span data-stu-id="6f968-106">In order to do this, the account structure and financial dimensions for department access must be set on the Accounts payable parameters form.</span></span> <span data-ttu-id="6f968-107">Cette procédure a été créée pour les organisations du secteur public français, en utilisant les données de la société fictive PSUS dans la partition du secteur public.</span><span class="sxs-lookup"><span data-stu-id="6f968-107">This procedure was created for French public sector organizations using the PSUS demo company data in the public sector partition.</span></span>
 

@@ -20,17 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 26feea4d86cf8b976f41342c8543594593c4b135
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 67c0ebb47cc24b2d47add00eac07101abf596266
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="manage-subcontracting-work-in-production"></a><span data-ttu-id="806c4-104">Gestion du travail de sous-traitance en production</span><span class="sxs-lookup"><span data-stu-id="806c4-104">Manage subcontracting work in production</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="806c4-105">Cette rubrique explique comment les opérations sous-traitées sont gérées dans Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="806c4-105">This topic explains how subcontracted operations are managed in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="806c4-106">En d'autres termes, elle explique comment les opérations de production qui sont affectées à une ressource sont gérées par un fournisseur.</span><span class="sxs-lookup"><span data-stu-id="806c4-106">In other words, it explains how production operations that are allocated to a resource are managed by a vendor.</span></span>
 

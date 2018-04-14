@@ -19,19 +19,18 @@ ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b36b290026f384109ccd710a9979892dd5268307
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4c1e1a588e07b9f60880dcf1c34139c5c1ceba35
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a><span data-ttu-id="0de4b-103">Méthodes de calcul de la taxe dans le champ Origine</span><span class="sxs-lookup"><span data-stu-id="0de4b-103">Sales tax calculation methods in the Origin field</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="0de4b-104">Cet article décrit les options du champ Origine dans la page de codes taxe et la manière dont la taxe est calculée selon l'option sélectionnée pour un code taxe.</span><span class="sxs-lookup"><span data-stu-id="0de4b-104">This article explains the options in the Origin field on the sales tax codes page and how sales tax is calculated based on the selected option for a sales tax code.</span></span>
 
@@ -53,11 +52,12 @@ ms.lasthandoff: 11/06/2017
 -   <span data-ttu-id="0de4b-122">TAXE = 25 %, à l'aide de la méthode de calcul Pourcentage du montant brut</span><span class="sxs-lookup"><span data-stu-id="0de4b-122">SALESTAX = 25%, using the Percentage of gross amount calculation method</span></span>
 
 <span data-ttu-id="0de4b-123">Si le montant HT = 10,00, alors les DROITS DE DOUANE 1 = 1,00 (10,00 x 10 %) et les DROITS DE DOUANE 2 = 2,00 (10,00 x 20 %).</span><span class="sxs-lookup"><span data-stu-id="0de4b-123">If the net amount is 10.00, then DUTY 1 is 1.00 (10.00 x 10%) and DUTY 2 = 2.00 (10.00 x 20%).</span></span> <span data-ttu-id="0de4b-124">Les montants sont les suivants : Montant brut = Montant HT + montant DROITS DE DOUANE 1 + montant DROITS DE DOUANE 2 (10,00 + 1,00 + 2,00) = 13,00 TAXE = 13,00 x 25 % = 3,25 Total DROITS DE DOUANE et TAXE = 1,00 + 2,00 + 3,25 = 6,25 Montant total = 10,00 + 6,25 = 16,25</span><span class="sxs-lookup"><span data-stu-id="0de4b-124">The amounts would be as follows: Gross amount: Net amount + DUTY 1 amount + DUTY 2 amount (10.00 + 1.00 + 2.00) = 13.00 SALESTAX = 13.00 x 25% = 3.25 Total DUTIES and SALESTAX: 1.00 + 2.00 + 3.25 = 6.25 Total amount: 10.00 + 6.25 = 16.25</span></span>
+
 | <span data-ttu-id="0de4b-125">**Remarque**</span><span class="sxs-lookup"><span data-stu-id="0de4b-125">**Note**</span></span>                                                                                                                                                                                                                 |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="0de4b-126">Un seul code taxe avec Origine = Pourcentage du montant brut peut être utilisé pour une transaction.</span><span class="sxs-lookup"><span data-stu-id="0de4b-126">Only one tax code with Origin = Percentage of gross amount can be used for a transaction.</span></span> <span data-ttu-id="0de4b-127">Si plusieurs codes taxe sont déterminés pour une transaction, une erreur s'affiche pour indiquer que la taxe ne peut pas être calculée.</span><span class="sxs-lookup"><span data-stu-id="0de4b-127">If more than one such tax code is determined for a transaction an error will be displayed that sales tax cannot be calculated.</span></span> |
 
- 
+
 <a name="percentage-of-sales-tax"></a><span data-ttu-id="0de4b-128">Pourcentage de taxe</span><span class="sxs-lookup"><span data-stu-id="0de4b-128">Percentage of sales tax</span></span>
 -----------------------
 
@@ -70,6 +70,7 @@ ms.lasthandoff: 11/06/2017
 -   <span data-ttu-id="0de4b-136">TAXE = 25 %, à l'aide de la méthode Pourcentage du montant brut</span><span class="sxs-lookup"><span data-stu-id="0de4b-136">SALESTAX = 25%, using the Percentage of gross amount method</span></span>
 
 <span data-ttu-id="0de4b-137">Montant HT = 10,00 DROITS DE DOUANE 1 = 10,00 x 10 % = 1,00 DROITS DE DOUANE 2 = 1,00 x 20 % = 0,20 Montant brut = 10,00 + 1,00 + 0,20 = 11,20 TAXE = 11,20 x 25 % = 2,80 Total DROITS DE DOUANE et TAXE = 1,00 + 0,20 + 2,80 = 4,00 Montant total = 10,00 + 4,00 = 14,00</span><span class="sxs-lookup"><span data-stu-id="0de4b-137">Net amount: 10.00 DUTY 1: 10.00 x 10% = 1.00 DUTY 2: 1.00 x 20% = 0.20 Gross amount: 10.00 + 1.00 + 0.20 = 11.20 SALESTAX: 11.20 x 25% = 2.80 Total DUTIES and SALESTAX: 1.00 + 0.20 + 2.80 = 4.00 Total amount: 10.00 + 4.00 = 14.00</span></span>
+
 | <span data-ttu-id="0de4b-138">**Remarque**</span><span class="sxs-lookup"><span data-stu-id="0de4b-138">**Note**</span></span>                                                                                                                                                                                                                    |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="0de4b-139">Les calculs de taxe sur taxe à plusieurs niveaux ne sont pas possibles.</span><span class="sxs-lookup"><span data-stu-id="0de4b-139">Multilevel tax on tax calculations are not possible.</span></span> <span data-ttu-id="0de4b-140">Une taxe ne peut pas être calculée sur la base d'une taxe qui est déjà calculée sur la base d'une autre taxe.</span><span class="sxs-lookup"><span data-stu-id="0de4b-140">A tax cannot be calculated based on a tax which already is calculated based on another tax.</span></span> <span data-ttu-id="0de4b-141">Plusieurs codes de taxe sur taxe à niveau unique peuvent être calculés sur une transaction.</span><span class="sxs-lookup"><span data-stu-id="0de4b-141">Multiple single level tax on tax codes can be calculated on a transaction.</span></span> |
@@ -79,6 +80,7 @@ ms.lasthandoff: 11/06/2017
 ### <a name="example"></a><span data-ttu-id="0de4b-146">Exemple</span><span class="sxs-lookup"><span data-stu-id="0de4b-146">Example</span></span>
 
 <span data-ttu-id="0de4b-147">Le code taxe est paramétré comme suit : 1,20 EUR par unité = boîte Sur une ligne de facture client, 25 boîtes d'un article sont vendues La taxe est calculée comme suit = 25 x 1,20 = 30,00</span><span class="sxs-lookup"><span data-stu-id="0de4b-147">Sales tax code is set up as: USD 1.20 per unit = box On a sales invoice line 25 boxes of an item are sold Sales tax is calculated as 25 x 1.20 = 30.00</span></span>
+
 | <span data-ttu-id="0de4b-148">**Remarque**</span><span class="sxs-lookup"><span data-stu-id="0de4b-148">**Note**</span></span>                                                                                                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="0de4b-149">Si la transaction est entrée dans une unité autre que l'unité spécifiée sur le code taxe, elle est automatiquement convertie en fonction des conversions d'unités paramétrées dans la page Conversion d'unités.</span><span class="sxs-lookup"><span data-stu-id="0de4b-149">If the transaction is entered in different unit than the unit specified on the sales tax code, it is converted automatically based on the unit conversions that are set up in the Unit conversions page.</span></span> |

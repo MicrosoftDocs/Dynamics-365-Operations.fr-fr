@@ -17,15 +17,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
-ms.openlocfilehash: e9b22a6f846607e8afc5d4f01c685f1364b1c01d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9089b9ad773890424a6f73107a26a35a32e988ae
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="vendor-request-configurations"></a><span data-ttu-id="67ab3-103">Configuration des demandes fournisseur</span><span class="sxs-lookup"><span data-stu-id="67ab3-103">Vendor request configurations</span></span>
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="67ab3-104">Pour effectuer une demande fournisseur, un contact fournisseur doit exécuter l'assistant d'enregistrement du fournisseur potentiel.</span><span class="sxs-lookup"><span data-stu-id="67ab3-104">To complete a vendor request, a vendor contact person must complete the prospective vendor registration wizard.</span></span>
 
@@ -39,12 +39,12 @@ ms.lasthandoff: 02/08/2018
 
 <span data-ttu-id="67ab3-111">Il n'est pas possible de sélectionner un pays ou une région pour la configuration par défaut, la section **Pays/Régions** ne peut donc pas être modifiée.</span><span class="sxs-lookup"><span data-stu-id="67ab3-111">It is not possible to select country/regions for the default configuration, so the **Countries/regions** section cannot be changed.</span></span>
 
-1.  <span data-ttu-id="67ab3-112">Cliquez sur **Approvisionnements** > **Paramétrage** > **Fournisseurs**, puis cliquez sur **Configuration des demandes fournisseur**.</span><span class="sxs-lookup"><span data-stu-id="67ab3-112">Click **Procurement and sourcing** > **Setup** > **Vendors**, and then click **Vendor request configurations**.</span></span>
-2.  <span data-ttu-id="67ab3-113">Cliquez sur l'onglet **Champs** pour définir le statut des champs répertoriés.</span><span class="sxs-lookup"><span data-stu-id="67ab3-113">Click the **Fields** tab to set the status of the listed fields.</span></span>
--   <span data-ttu-id="67ab3-114">Masqué (pas visible)</span><span class="sxs-lookup"><span data-stu-id="67ab3-114">Hidden (Not visible)</span></span>
--   <span data-ttu-id="67ab3-115">Affiché (visible mais pas obligatoire)</span><span class="sxs-lookup"><span data-stu-id="67ab3-115">Displayed (Visible but not mandatory)</span></span>
--   <span data-ttu-id="67ab3-116">Requis (visible et obligatoire)</span><span class="sxs-lookup"><span data-stu-id="67ab3-116">Required (Visible and mandatory)</span></span>
-3.  <span data-ttu-id="67ab3-117">Cliquez sur l'onglet **Contenu** pour indiquer si le texte doit être affiché dans l'assistant et si la confirmation de l'utilisateur fournisseur potentiel est requise avant de passer à l'étape suivante de l'assistant.</span><span class="sxs-lookup"><span data-stu-id="67ab3-117">Click the **Content** tab to specify if text is going to be shown on the wizard and if there should be an acknowledgement that the prospective vendor user must accept this before moving to the next step in the wizard.</span></span> <span data-ttu-id="67ab3-118">Une confirmation est demandée pour les conditions générales que l'utilisateur doit accepter pour continuer.</span><span class="sxs-lookup"><span data-stu-id="67ab3-118">The acknowledgement will be requested for any terms and conditions that the user must accept to continue.</span></span>
+1. <span data-ttu-id="67ab3-112">Cliquez sur **Approvisionnements** > **Paramétrage** > **Fournisseurs**, puis cliquez sur **Configuration des demandes fournisseur**.</span><span class="sxs-lookup"><span data-stu-id="67ab3-112">Click **Procurement and sourcing** > **Setup** > **Vendors**, and then click **Vendor request configurations**.</span></span>
+2. <span data-ttu-id="67ab3-113">Cliquez sur l'onglet **Champs** pour définir le statut des champs répertoriés.</span><span class="sxs-lookup"><span data-stu-id="67ab3-113">Click the **Fields** tab to set the status of the listed fields.</span></span>
+3. <span data-ttu-id="67ab3-114">Masqué (pas visible)</span><span class="sxs-lookup"><span data-stu-id="67ab3-114">Hidden (Not visible)</span></span>
+4. <span data-ttu-id="67ab3-115">Affiché (visible mais pas obligatoire)</span><span class="sxs-lookup"><span data-stu-id="67ab3-115">Displayed (Visible but not mandatory)</span></span>
+5. <span data-ttu-id="67ab3-116">Requis (visible et obligatoire)</span><span class="sxs-lookup"><span data-stu-id="67ab3-116">Required (Visible and mandatory)</span></span>
+6. <span data-ttu-id="67ab3-117">Cliquez sur l'onglet **Contenu** pour indiquer si le texte doit être affiché dans l'assistant et si la confirmation de l'utilisateur fournisseur potentiel est requise avant de passer à l'étape suivante de l'assistant.</span><span class="sxs-lookup"><span data-stu-id="67ab3-117">Click the **Content** tab to specify if text is going to be shown on the wizard and if there should be an acknowledgement that the prospective vendor user must accept this before moving to the next step in the wizard.</span></span> <span data-ttu-id="67ab3-118">Une confirmation est demandée pour les conditions générales que l'utilisateur doit accepter pour continuer.</span><span class="sxs-lookup"><span data-stu-id="67ab3-118">The acknowledgement will be requested for any terms and conditions that the user must accept to continue.</span></span>
 
 <span data-ttu-id="67ab3-119">Vous pouvez également entrer un message de confirmation qui s'affiche lorsque l'assistant est finalisé, et vous pouvez ajouter un ou plusieurs questionnaires.</span><span class="sxs-lookup"><span data-stu-id="67ab3-119">You can also enter a confirmation message that will be displayed when the wizard is finalized, and you can add one or more questionnaires.</span></span>
 

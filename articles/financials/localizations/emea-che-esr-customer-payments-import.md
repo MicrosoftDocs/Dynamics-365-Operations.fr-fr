@@ -18,17 +18,16 @@ ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: f6b63f212bbd868cef5a2fef41825de0d789ca0a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 08b5fb750cc6de96b3a0af428a97c6a6dc13e30f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="esr-customer-payments-import"></a><span data-ttu-id="d5fb9-103">Importation des paiements client ESR</span><span class="sxs-lookup"><span data-stu-id="d5fb9-103">ESR customer payments import</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="d5fb9-104">Cette rubrique fournit des informations sur l'importation de paiements client au format ESR.</span><span class="sxs-lookup"><span data-stu-id="d5fb9-104">This topic provides information about importing customer payments in the ESR format.</span></span>
 
@@ -45,12 +44,12 @@ ms.lasthandoff: 03/26/2018
 <span data-ttu-id="d5fb9-117">Pour plus d'informations, voir [État du bordereau de paiement (virement)](emea-eur-payment-slip-report-giro.md).</span><span class="sxs-lookup"><span data-stu-id="d5fb9-117">For more information, see [Payment slip report (Giro)](emea-eur-payment-slip-report-giro.md).</span></span>
 
 ## <a name="import-a-payment-file"></a><span data-ttu-id="d5fb9-118">Importer un fichier de paiement</span><span class="sxs-lookup"><span data-stu-id="d5fb9-118">Import a payment file</span></span>
-1.  <span data-ttu-id="d5fb9-119">Accédez à la page **Journal des paiements**.</span><span class="sxs-lookup"><span data-stu-id="d5fb9-119">Go to the **Payment journal** page</span></span>
-2.  <span data-ttu-id="d5fb9-120">Cliquez sur **Lignes**.</span><span class="sxs-lookup"><span data-stu-id="d5fb9-120">Click **Lines**.</span></span>
-3.  <span data-ttu-id="d5fb9-121">Cliquez sur **Fonctions** &gt; **Importer les paiements**.</span><span class="sxs-lookup"><span data-stu-id="d5fb9-121">Click **Functions** &gt; **Import payments**.</span></span>
-4.  <span data-ttu-id="d5fb9-122">Dans la boîte de dialogue, sélectionnez le mode de paiement, puis accédez à l'emplacement du fichier à importer.</span><span class="sxs-lookup"><span data-stu-id="d5fb9-122">In the dialog box, select the method of payment, and then browse to the location of the file to import.</span></span> 
-  > [!NOTE]
-  >  <span data-ttu-id="d5fb9-123">Avant de pouvoir effectuer cette étape, vous devez avoir déjà importé les configurations **ESR (CH)** à partir de Lifecycle Services (LCS) et paramétré le mode de paiement ESR.</span><span class="sxs-lookup"><span data-stu-id="d5fb9-123">Before you can complete this step, you must have already imported the **ESR (CH)** configurations from Lifecycle Services (LCS) and set up the ESR method of payment.</span></span> <span data-ttu-id="d5fb9-124">Pour plus d'informations, voir [Formats de fichier des modes de paiement](emea-select-file-formats-for-the-method-of-payments.md).</span><span class="sxs-lookup"><span data-stu-id="d5fb9-124">For more information, see [File formats for method of payments](emea-select-file-formats-for-the-method-of-payments.md).</span></span>
+1. <span data-ttu-id="d5fb9-119">Accédez à la page **Journal des paiements**.</span><span class="sxs-lookup"><span data-stu-id="d5fb9-119">Go to the **Payment journal** page</span></span>
+2. <span data-ttu-id="d5fb9-120">Cliquez sur **Lignes**.</span><span class="sxs-lookup"><span data-stu-id="d5fb9-120">Click **Lines**.</span></span>
+3. <span data-ttu-id="d5fb9-121">Cliquez sur **Fonctions** &gt; **Importer les paiements**.</span><span class="sxs-lookup"><span data-stu-id="d5fb9-121">Click **Functions** &gt; **Import payments**.</span></span>
+4. <span data-ttu-id="d5fb9-122">Dans la boîte de dialogue, sélectionnez le mode de paiement, puis accédez à l'emplacement du fichier à importer.</span><span class="sxs-lookup"><span data-stu-id="d5fb9-122">In the dialog box, select the method of payment, and then browse to the location of the file to import.</span></span> 
+   > [!NOTE]
+   >  <span data-ttu-id="d5fb9-123">Avant de pouvoir effectuer cette étape, vous devez avoir déjà importé les configurations **ESR (CH)** à partir de Lifecycle Services (LCS) et paramétré le mode de paiement ESR.</span><span class="sxs-lookup"><span data-stu-id="d5fb9-123">Before you can complete this step, you must have already imported the **ESR (CH)** configurations from Lifecycle Services (LCS) and set up the ESR method of payment.</span></span> <span data-ttu-id="d5fb9-124">Pour plus d'informations, voir [Formats de fichier des modes de paiement](emea-select-file-formats-for-the-method-of-payments.md).</span><span class="sxs-lookup"><span data-stu-id="d5fb9-124">For more information, see [File formats for method of payments](emea-select-file-formats-for-the-method-of-payments.md).</span></span>
 
 <span data-ttu-id="d5fb9-125">Après avoir importé le fichier de paiement, les lignes du journal des paiements sont créées et marquées pour règlement avec les factures client basées sur la référence de paiement.</span><span class="sxs-lookup"><span data-stu-id="d5fb9-125">After you import the payment file, payment journal lines are created and marked for settlement with customer invoices based on the payment reference.</span></span> <span data-ttu-id="d5fb9-126">Si des frais spécifiés pour le compte bancaire sont représentés dans le fichier, par exemple les transactions entre le compte principal et le compte de frais, ces frais seront ajoutés au journal.</span><span class="sxs-lookup"><span data-stu-id="d5fb9-126">If there are any fees specified for the bank account that are represented in the file, such as transactions between the main account and fee account, these fees will be added to the journal.</span></span>
 

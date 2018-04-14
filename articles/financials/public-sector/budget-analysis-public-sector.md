@@ -20,17 +20,16 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 74606b1378e94e8a6945a408520c8b68648970d8
-ms.openlocfilehash: 597af28f9b07c7f590882c4bfa3b3f9e96b3dd5d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 80672d5a6761eed733f79c6f4408c36d39401b0d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="budget-analysis-in-the-public-sector"></a><span data-ttu-id="ae66c-103">Analyse budgétaire dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="ae66c-103">Budget analysis in the public sector</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="ae66c-104">Cette rubrique décrit l'utilisation de la page d'analyse de budget pour afficher les produits et les dépenses publiés par dimension financière, puis elle répond aux questions posées fréquemment, notamment les différences entre la page d'analyse de budget et la page de statistiques de contrôle budgétaire.</span><span class="sxs-lookup"><span data-stu-id="ae66c-104">This topic describes how to use the Budget analysis page to view posted revenues and expenditures by financial dimension, and it answers frequently asked questions, including differences between the Budget analysis page and the Budget control statistics page.</span></span> 
 

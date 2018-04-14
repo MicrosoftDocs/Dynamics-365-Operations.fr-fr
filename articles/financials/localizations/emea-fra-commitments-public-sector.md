@@ -19,17 +19,16 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 57076909dfa68f818d66726c3652cc1d14aa7160
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5aedf57c61f0747ce77d96e73efe3c7365a4042b
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="commitments-in-the-public-sector-in-france"></a><span data-ttu-id="e439a-104">Engagements dans le secteur public en France</span><span class="sxs-lookup"><span data-stu-id="e439a-104">Commitments in the public sector in France</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="e439a-105">Les engagements sont des documents source de contrôle budgétaire utilisés par les entités du secteur public en France.</span><span class="sxs-lookup"><span data-stu-id="e439a-105">Commitments are budget control source documents used by public sector entities in France.</span></span> <span data-ttu-id="e439a-106">Ils permettent de réserver des montants budgétés afin qu'une organisation puisse explicitement suivre des réservations budgétaires à des fins de gestion et de déclaration tout au long du cycle des dépenses.</span><span class="sxs-lookup"><span data-stu-id="e439a-106">They are used to reserve budgeted amounts so that an organization can explicitly track budget reservations for management and reporting throughout the expenditure cycle.</span></span> 
 

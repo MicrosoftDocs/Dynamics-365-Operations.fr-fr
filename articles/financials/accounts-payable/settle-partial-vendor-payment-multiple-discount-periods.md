@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d88630a62cfdebf0daf19d3bb6af7fcc6e877876
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 605f681a21b769189770d85e4ec938b6708c01b1
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="settle-a-partial-vendor-payment-that-has-multiple-discount-periods"></a><span data-ttu-id="f54ab-103">Règlement d'un paiement fournisseur partiel avec plusieurs périodes de remise</span><span class="sxs-lookup"><span data-stu-id="f54ab-103">Settle a partial vendor payment that has multiple discount periods</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="f54ab-104">Cet article vous fait parcourir les étapes d'un scénario dans lequel plusieurs paiements partiels sont effectués pour un fournisseur qui offre plusieurs escomptes de règlement.</span><span class="sxs-lookup"><span data-stu-id="f54ab-104">This article walks you through a scenario where multiple partial payments are made to a vendor that offers multiple cash discounts.</span></span> 
 

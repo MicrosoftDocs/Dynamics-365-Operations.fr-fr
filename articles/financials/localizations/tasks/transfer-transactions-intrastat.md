@@ -16,15 +16,15 @@ ms.author: anasyash
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: cc21497a6905cdb57bd687b7bff0d9dc810ba9eb
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3d888ed34e1a582f74f0174fad941c889edabd06
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="transfer-transactions-to-the-intrastat"></a><span data-ttu-id="19381-103">Transférer des transactions dans la déclaration d'échanges de biens</span><span class="sxs-lookup"><span data-stu-id="19381-103">Transfer transactions to the Intrastat</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="19381-104">Cette procédure vous guide dans le paramétrage des paramètres de déclaration d'échanges de biens et le transfert des transactions dans la déclaration d'échanges de biens.</span><span class="sxs-lookup"><span data-stu-id="19381-104">This procedure walks you through how to set up Intrastat parameters and transfer transactions to Intrastat.</span></span> <span data-ttu-id="19381-105">Cette procédure a été créée à l'aide des données fictives de la société DEMF.</span><span class="sxs-lookup"><span data-stu-id="19381-105">This procedure was created using the demo data company DEMF.</span></span>
 

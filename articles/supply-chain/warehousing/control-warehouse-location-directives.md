@@ -19,17 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 269631124e9cab89a85bf4ff6936f3cd5d1dab2a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f4345bcaa4820aa037a405decaa5ee8f56ad49f0
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a><span data-ttu-id="dad03-103">Contrôler le travail d'entrepôt à l'aide de modèles de travail et d'instructions d'emplacement</span><span class="sxs-lookup"><span data-stu-id="dad03-103">Control warehouse work by using work templates and location directives</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="dad03-104">Cet article décrit comment utiliser les modèles de travail et les instructions d'emplacement pour déterminer comment et à quel endroit effectuer les travaux dans l'entrepôt.</span><span class="sxs-lookup"><span data-stu-id="dad03-104">This article describes how to use work templates and location directives to determine how and where work is carried out in the warehouse.</span></span>
 

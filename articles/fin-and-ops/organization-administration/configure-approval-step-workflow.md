@@ -18,17 +18,16 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d2fc157b54401463bbabf1e3f6d5dddc6bda9631
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c142534e9e5b5f154f478889d13540dc3d47ad18
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="configure-an-approval-step-in-a-workflow"></a><span data-ttu-id="c2a8a-103">Configurer une étape d'approbation dans un workflow</span><span class="sxs-lookup"><span data-stu-id="c2a8a-103">Configure an approval step in a workflow</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="c2a8a-104">Cette rubrique explique comment configurer les propriétés d'une étape d'approbation.</span><span class="sxs-lookup"><span data-stu-id="c2a8a-104">This topic explains how to configure the properties of an approval step.</span></span>
 
@@ -145,9 +144,9 @@ ms.lasthandoff: 11/06/2017
     <span data-ttu-id="c2a8a-192">Si l'utilisateur ne traite pas le document dans le délai imparti, le document est en retard.</span><span class="sxs-lookup"><span data-stu-id="c2a8a-192">If the user doesn't take action on the document in the allotted time, the document is overdue.</span></span> <span data-ttu-id="c2a8a-193">Un document en retard est réaffecté, conformément aux options que vous sélectionnez dans la zone **Escalade** de cette page.</span><span class="sxs-lookup"><span data-stu-id="c2a8a-193">A document that is overdue is escalated, based on the options that you select in the **Escalation** area of the page.</span></span>
 4.  <span data-ttu-id="c2a8a-194">Si vous avez affecté l'étape d'approbation à plusieurs utilisateurs ou à un groupe d'utilisateurs, cliquez sur l'onglet **Stratégie d'achèvement**, puis sélectionnez l'une des options suivantes :</span><span class="sxs-lookup"><span data-stu-id="c2a8a-194">If you assigned the approval step to multiple users or a group of users, on the **Completion policy** tab, select one of the following options:</span></span>
     -   <span data-ttu-id="c2a8a-195">**Un seul approbateur** – L'action appliquée au document est déterminée par la première personne qui répond.</span><span class="sxs-lookup"><span data-stu-id="c2a8a-195">**Single approver** – The action that is applied to the document is determined by the first person who responds.</span></span> <span data-ttu-id="c2a8a-196">Par exemple, Sam a soumis un état de dépenses de USD 15 000.</span><span class="sxs-lookup"><span data-stu-id="c2a8a-196">For example, Sam has submitted an expense report for USD 15,000.</span></span> <span data-ttu-id="c2a8a-197">L'état de dépenses est actuellement affecté à Sue, Jo et Bill.</span><span class="sxs-lookup"><span data-stu-id="c2a8a-197">The expense report is currently assigned to Sue, Jo, and Bill.</span></span> <span data-ttu-id="c2a8a-198">Si Sue est la première à répondre au document, l'action qu'elle effectue est appliquée au document.</span><span class="sxs-lookup"><span data-stu-id="c2a8a-198">If Sue is the first person who responds to the document, the action that she takes is applied to the document.</span></span> <span data-ttu-id="c2a8a-199">Si Sue rejette le document, il est rejeté et renvoyé à Sam.</span><span class="sxs-lookup"><span data-stu-id="c2a8a-199">If Sue rejects the document, it's rejected and sent back to Sam.</span></span> <span data-ttu-id="c2a8a-200">Si Sue approuve le document, il est envoyé à Ann pour approbation.</span><span class="sxs-lookup"><span data-stu-id="c2a8a-200">If Sue approves the document, it's sent to Ann for approval.</span></span> 
-    
+
     ![Workflow avec un processus d'approbation](./media/workflow_multipleusersinstep.gif)
-    
+
     -   <span data-ttu-id="c2a8a-202">**La majorité des approbateurs** – L'action appliquée au document est déterminée lorsque la majorité des approbateurs ont répondu.</span><span class="sxs-lookup"><span data-stu-id="c2a8a-202">**Majority of approvers** – The action that is applied to the document is determined when most of the approvers respond.</span></span> <span data-ttu-id="c2a8a-203">Par exemple, Sam a soumis un état de dépenses de USD 15 000.</span><span class="sxs-lookup"><span data-stu-id="c2a8a-203">For example, Sam has submitted an expense report for USD 15,000.</span></span> <span data-ttu-id="c2a8a-204">L'état de dépenses est actuellement affecté à Sue, Jo et Bill.</span><span class="sxs-lookup"><span data-stu-id="c2a8a-204">The expense report is currently assigned to Sue, Jo, and Bill.</span></span> <span data-ttu-id="c2a8a-205">Si Sue et Jo sont les deux premiers approbateurs à répondre, l'action qu'ils effectuent est appliquée au document.</span><span class="sxs-lookup"><span data-stu-id="c2a8a-205">If Sue and Jo are the first two approvers who respond, the action that they take is applied to the document.</span></span>
         -   <span data-ttu-id="c2a8a-206">Si Sue approuve le document, mais que Jo le rejette, le document est rejeté et renvoyé à Sam.</span><span class="sxs-lookup"><span data-stu-id="c2a8a-206">If Sue approves the document, but Jo rejects it, the document is rejected and sent back to Sam.</span></span>
         -   <span data-ttu-id="c2a8a-207">Si Sue et Jo approuvent le document, il est envoyé à Ann pour approbation.</span><span class="sxs-lookup"><span data-stu-id="c2a8a-207">If both Sue and Jo approve the document, it's sent to Ann for approval.</span></span>

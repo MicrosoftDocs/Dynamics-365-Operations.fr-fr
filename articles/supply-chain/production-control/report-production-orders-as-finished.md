@@ -20,17 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 80a882e51332d87835bdfb41a1bb1fcda2471f02
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fa40733e3f1310869ead8b0ac774bb621637e250
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="report-production-orders-as-finished"></a><span data-ttu-id="df960-104">Déclaration de fin des ordres de fabrication</span><span class="sxs-lookup"><span data-stu-id="df960-104">Report production orders as finished</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="df960-105">La déclaration de fin correspond à un stade de production.</span><span class="sxs-lookup"><span data-stu-id="df960-105">Report as finished is a production stage.</span></span> <span data-ttu-id="df960-106">À ce stade, un produit fini est signalé et passé de l'ordre de fabrication au stock.</span><span class="sxs-lookup"><span data-stu-id="df960-106">At this stage, a finished product is reported and moved from the production order to the inventory.</span></span>
 

@@ -19,16 +19,16 @@ ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 164932ac3bc701696f5c0b08c5e2d585d9a8ba6a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: dce403032c239053159fd3e79f3dab013b620eaf
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="welcome-to-dynamics-365-for-retail"></a><span data-ttu-id="69fdb-103">Bienvenue dans Dynamics 365 for Retail</span><span class="sxs-lookup"><span data-stu-id="69fdb-103">Welcome to Dynamics 365 for Retail</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="69fdb-104">Microsoft Dynamics 365 for Retail est une solution de bout en bout pour la vente au détail qui assure l'unification du commerce sur tous les canaux.</span><span class="sxs-lookup"><span data-stu-id="69fdb-104">Microsoft Dynamics 365 for Retail is an end-to-end retail solution that delivers unified commerce across all channels.</span></span> <span data-ttu-id="69fdb-105">Elle englobe les ventes, la mobilité, l'intelligence et la productivité pour aider les détaillants et les collaborateurs à accomplir plus d'une manière fondée sur le cloud et les technologies mobiles.</span><span class="sxs-lookup"><span data-stu-id="69fdb-105">It encompasses sales, mobility, intelligence, and productivity to help retailers and workers achieve more in a cloud-first, mobile-first manner.</span></span> <span data-ttu-id="69fdb-106">Retail offre une prise en charge complète pour exploiter un large éventail de processus d'entreprise, tels que les fonctionnalités de gestion de la promotion, du stock et des canaux.</span><span class="sxs-lookup"><span data-stu-id="69fdb-106">Retail offers comprehensive support to operate a wide range of business processes, such as merchandising, inventory, and channel management capabilities.</span></span> <span data-ttu-id="69fdb-107">Il fournit également des expériences client immersives entre tous les points de contact.</span><span class="sxs-lookup"><span data-stu-id="69fdb-107">It also provides immersive customer experiences across all touchpoints.</span></span>
 

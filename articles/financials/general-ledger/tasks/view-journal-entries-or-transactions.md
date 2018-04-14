@@ -16,15 +16,15 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ef3cad6538d9efbd1c1881f4b7d771382d9b1ba8
-ms.openlocfilehash: 2188d09fc074cdd7a8b1ce20e64652a2d6020e1d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e0be99edee63bde0ae82462bccb6db7d1616903a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="view-journal-entries-or-transactions"></a><span data-ttu-id="24eb0-103">Afficher les entrées de journal ou les transactions</span><span class="sxs-lookup"><span data-stu-id="24eb0-103">View journal entries or transactions</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="24eb0-104">Cette procédure indique comment utiliser la demande de transactions de N° document pour rechercher des entrées ou des transactions de journal.</span><span class="sxs-lookup"><span data-stu-id="24eb0-104">This procedure shows how to use the Voucher transactions inquiry to search for journal entries or transactions.</span></span>
 

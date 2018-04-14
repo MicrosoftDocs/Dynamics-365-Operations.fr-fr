@@ -18,17 +18,16 @@ ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: da8957845d190fd78c3e5d5d703a9a4629bd02ee
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b24aadb34bdafcf1493c9956102d28c42037c2bf
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="naf-codes-and-siret-numbers"></a><span data-ttu-id="02bb5-103">Codes NAF et numéros Siret</span><span class="sxs-lookup"><span data-stu-id="02bb5-103">NAF codes and siret numbers</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="02bb5-104">Cette rubrique explique l'objectif et l'utilisation des codes de Nomenclature des Activités Françaises (NAF) et des numéros SIRET dans Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="02bb5-104">This topic explains the purpose and usage of Nomenclature des Activités Françaises (NAF) codes and Siret numbers in Microsoft Dynamics 365 for Finance and Operations.</span></span>
 

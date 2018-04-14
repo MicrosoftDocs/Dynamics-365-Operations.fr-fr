@@ -16,15 +16,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: fbd44816fc2f2569dd477fc21f59418a575bb835
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 32f2bcee1f5905cf395a0e00305eab9b0d8a08a3
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-and-assign-a-cost-distribution-policy-to-a-cost-control-unit"></a><span data-ttu-id="13693-103">Créer et affecter une stratégie de distribution des coûts à une unité de contrôle des coûts</span><span class="sxs-lookup"><span data-stu-id="13693-103">Create and assign a cost distribution policy to a cost control unit</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="13693-104">Les règles de distribution des coûts sont utilisées pour distribuer les coûts qui ont été financièrement comptabilisés sur un centre de coût collectif.</span><span class="sxs-lookup"><span data-stu-id="13693-104">Cost distribution rules are used to distribute costs that have been financially counted on a collective cost center.</span></span> <span data-ttu-id="13693-105">Le comptable s'assure que le coût est distribué sur les centres de coût, selon la base de répartition sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="13693-105">The cost accountant makes sure that the cost is distributed to the cost centers, based on the selected allocation base.</span></span> <span data-ttu-id="13693-106">Une stratégie et les règles correspondantes sont affectées à une unité de contrôle des coûts.</span><span class="sxs-lookup"><span data-stu-id="13693-106">A policy and the corresponding rules are assigned to a cost control unit.</span></span> <span data-ttu-id="13693-107">Ce guide de tâche utilise un exemple pour indiquer comment créer une stratégie de distribution des coûts et les règles correspondantes.</span><span class="sxs-lookup"><span data-stu-id="13693-107">This task guide uses an example to show how to create a cost distribution policy and the corresponding rules.</span></span>
 

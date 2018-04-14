@@ -16,15 +16,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 1ddf2d9cd0b0aabf7cb210613b13bd51ee88f9ff
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9c547dc843f4eb467400fa6f84a1a738462123ce
 ms.contentlocale: fr-fr
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-dimension-based-product-master"></a><span data-ttu-id="aa6a1-103">Créer un produit générique fondé sur les dimensions</span><span class="sxs-lookup"><span data-stu-id="aa6a1-103">Create a dimension-based product master</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="aa6a1-104">Cette procédure indique comment créer un nouveau produit générique à l'aide de la technologie basée sur les dimensions.</span><span class="sxs-lookup"><span data-stu-id="aa6a1-104">This procedure shows how to create a new product master with dimension-based configuration technology.</span></span> <span data-ttu-id="aa6a1-105">Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.</span><span class="sxs-lookup"><span data-stu-id="aa6a1-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="aa6a1-106">Il s'agit de la première procédure (parmi les huit) qui explique comment créer des combinaisons pour la configuration basée sur les dimensions.</span><span class="sxs-lookup"><span data-stu-id="aa6a1-106">This is the first procedure out of eight that explains how to build combinations for dimension-based configuration.</span></span>
 

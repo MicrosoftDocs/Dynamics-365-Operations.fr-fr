@@ -18,14 +18,14 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a1c4b7623f3409d4474adcd04fb1331b944b9fbb
-ms.openlocfilehash: 530082a23163cf348bcbb133175e3af963d55f2b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8f9d287f5d2134d26296c1302a9c18505c426db3
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 # <a name="product-confirmation-for-cluster-picking"></a><span data-ttu-id="83806-103">Confirmation de produit pour la sélection du groupement</span><span class="sxs-lookup"><span data-stu-id="83806-103">Product confirmation for cluster picking</span></span>
 <span data-ttu-id="83806-104">La sélection du groupement vous permet de regrouper des articles pour plusieurs commandes simultanément.</span><span class="sxs-lookup"><span data-stu-id="83806-104">Cluster picking allows you to pick items for several orders at the same time.</span></span> <span data-ttu-id="83806-105">Lorsque la sélection du groupement est appliqué, la confirmation d'article est cruciale pour vérifier les articles qui sont ajoutés aux clusters.</span><span class="sxs-lookup"><span data-stu-id="83806-105">When cluster picking is applied, item confirmation is crucial to verify the items that are added to clusters.</span></span> <span data-ttu-id="83806-106">Vous pouvez vérifier les articles de la sélection du groupement lors du processus de sélection du groupement.</span><span class="sxs-lookup"><span data-stu-id="83806-106">You can verify items in cluster picking during the cluster picking process.</span></span>
@@ -37,7 +37,8 @@ ms.lasthandoff: 02/13/2018
 1.  <span data-ttu-id="83806-111">Dans une option de menu de l'appareil mobile, ouvrez l'écran de paramétrage pour la confirmation du travail : **Gestion des entrepôts** > **Gestion des entrepôts** > **Paramétrage** > **Appareil mobile** > **Options de menu d'appareil mobile**.</span><span class="sxs-lookup"><span data-stu-id="83806-111">On a mobile device menu item, open the setup form for work confirmation: **Warehouse management** > **Warehouse management** > **Setup** > **Mobile device** > **Mobile device menu items**.</span></span>
 2.  <span data-ttu-id="83806-112">Dans l'option de menu de l'appareil mobile, ouvrez **Paramétrage de la confirmation du travail**.</span><span class="sxs-lookup"><span data-stu-id="83806-112">From the mobile device menu item, open **Work confirmation setup**.</span></span>
 
-| <span data-ttu-id="83806-113">Option</span><span class="sxs-lookup"><span data-stu-id="83806-113">Option</span></span>        | <span data-ttu-id="83806-114">Description</span><span class="sxs-lookup"><span data-stu-id="83806-114">Description</span></span>   | 
-| ------------- | ------------- |
-|<span data-ttu-id="83806-115">Confirmation du produit</span><span class="sxs-lookup"><span data-stu-id="83806-115">Product confirmation</span></span> | <span data-ttu-id="83806-116">Permet de confirmer chaque pièce du stock de l'appareil mobile lors de la lecture.</span><span class="sxs-lookup"><span data-stu-id="83806-116">Allows you to verify each piece of inventory from the mobile device when scanned.</span></span>|
+|        <span data-ttu-id="83806-113">Option</span><span class="sxs-lookup"><span data-stu-id="83806-113">Option</span></span>        |                                    <span data-ttu-id="83806-114">Description</span><span class="sxs-lookup"><span data-stu-id="83806-114">Description</span></span>                                    |
+|----------------------|-----------------------------------------------------------------------------------|
+| <span data-ttu-id="83806-115">Confirmation du produit</span><span class="sxs-lookup"><span data-stu-id="83806-115">Product confirmation</span></span> | <span data-ttu-id="83806-116">Permet de confirmer chaque pièce du stock de l'appareil mobile lors de la lecture.</span><span class="sxs-lookup"><span data-stu-id="83806-116">Allows you to verify each piece of inventory from the mobile device when scanned.</span></span> |
+
 

@@ -17,15 +17,15 @@ ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: f3610b52fd690b698d50a608c41adfb918930266
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 13df47f7b04f5fc4b6c9a28b0c05a2b1bd0fe6a8
 ms.contentlocale: fr-fr
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="define-inventory-counting-processes"></a><span data-ttu-id="d9f88-103">Définir les processus de comptage d'inventaire</span><span class="sxs-lookup"><span data-stu-id="d9f88-103">Define inventory counting processes</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="d9f88-104">Cette procédure vous guide dans la configuration des processus de comptage d'inventaire basiques en créant un groupe de comptage et un journal d'inventaire.</span><span class="sxs-lookup"><span data-stu-id="d9f88-104">This procedure walks you through the configuration of basic inventory counting processes by creating a counting group and a counting journal.</span></span> <span data-ttu-id="d9f88-105">Elle vous indique également comment activer les stratégies d'inventaire dans un entrepôt et au niveau d'un article.</span><span class="sxs-lookup"><span data-stu-id="d9f88-105">It also shows you how to enable counting policies on a warehouse and item level.</span></span> <span data-ttu-id="d9f88-106">Ces tâches sont généralement effectuées par un superviseur de l'entrepôt.</span><span class="sxs-lookup"><span data-stu-id="d9f88-106">These tasks would typically be carried out by a warehouse supervisor.</span></span> <span data-ttu-id="d9f88-107">Il est impératif d'avoir déjà des produits lancés et des entrepôts.</span><span class="sxs-lookup"><span data-stu-id="d9f88-107">It is a prerequisite to have some existing released products and warehouses.</span></span> <span data-ttu-id="d9f88-108">Si vous utilisez une société fictive, vous pouvez exécuter cette procédure à l'aide de la société USMF avec n'importe quel article en stock.</span><span class="sxs-lookup"><span data-stu-id="d9f88-108">If you're using a demo data company, you can run this procedure in the USMF company with any stocked item.</span></span>
 

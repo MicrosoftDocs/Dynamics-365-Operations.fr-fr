@@ -18,16 +18,16 @@ ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2aefea9373df20bd3e99026e30aed096dcea9814
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 45e46e06e7c934f18f6d5406ddaafc3b09f3a98f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="excel-templates-with-multiple-worksheets"></a><span data-ttu-id="a9891-103">Modèles Excel avec plusieurs feuilles de calcul</span><span class="sxs-lookup"><span data-stu-id="a9891-103">Excel templates with multiple worksheets</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="a9891-104">La gestion des données dans Microsoft Dynamics 365 for Finance and Operations prend en charge les modèles Microsoft Excel pour les entités de données.</span><span class="sxs-lookup"><span data-stu-id="a9891-104">Data management in Microsoft Dynamics 365 for Finance and Operations supports Microsoft Excel-based templates for data entities.</span></span> <span data-ttu-id="a9891-105">Ces modèles peuvent contenir une ou plusieurs feuilles de calcul.</span><span class="sxs-lookup"><span data-stu-id="a9891-105">These templates can contain one or more worksheets.</span></span> <span data-ttu-id="a9891-106">Les modèles avec plusieurs feuilles de calcul sont souvent utilisés lorsqu'il est pratique de gérer les données d'un fichier unique et de les importer dans plusieurs entités de données.</span><span class="sxs-lookup"><span data-stu-id="a9891-106">Templates with multiple worksheets are often used when it is convenient to manage data in a single file and import it to multiple data entities.</span></span> <span data-ttu-id="a9891-107">Il peut s'agir par exemple de sites et d'entrepôts.</span><span class="sxs-lookup"><span data-stu-id="a9891-107">An example would be sites and warehouses.</span></span>
 

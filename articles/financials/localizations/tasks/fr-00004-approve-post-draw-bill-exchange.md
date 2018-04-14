@@ -16,15 +16,15 @@ ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: dbf8c9603fa620fc6c75d5b6c3fd143798b7f9ad
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: dd004019c6278165d0794711aac2665867a5d10c
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="approve-and-post-draw-bill-of-exchange-france"></a><span data-ttu-id="5420c-103">Approuver et valider la création des lettres de change client (France)</span><span class="sxs-lookup"><span data-stu-id="5420c-103">Approve and post draw bill of exchange (France)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="5420c-104">Cette procédure vous guide dans l'approbation et la validation des lettres de change.</span><span class="sxs-lookup"><span data-stu-id="5420c-104">This procedure walks you through approval and posting Bill of Exchange.</span></span>
 

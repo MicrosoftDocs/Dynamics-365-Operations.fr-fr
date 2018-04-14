@@ -20,19 +20,18 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bb2a3a193585944810c5dfac1eb3c019e074008f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 594fc72c40c2ab52b04f4a9152c377c572d43bd7
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="tracking-running-average-cost-per-inventory-dimension"></a><span data-ttu-id="7830d-104">Suivi du coût moyen en vigueur par dimension de stock</span><span class="sxs-lookup"><span data-stu-id="7830d-104">Tracking running average cost per inventory dimension</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="7830d-105">Un groupe de dimensions de stock est associé à chaque article en stock.</span><span class="sxs-lookup"><span data-stu-id="7830d-105">An inventory dimension group is attached to every inventory item.</span></span> <span data-ttu-id="7830d-106">Par conséquent, le prix de revient moyen en vigueur d'un article est calculé à partir des dimensions de stock sélectionnées qui sont suivies au niveau financier.</span><span class="sxs-lookup"><span data-stu-id="7830d-106">Therefore, the running average cost price of an item is calculated based on the selected inventory dimensions that are being tracked financially.</span></span>
 

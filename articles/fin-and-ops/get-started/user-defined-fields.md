@@ -17,18 +17,18 @@ ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: 454368ab5a467002ebf973db97fd98e31885dfe0
-ms.openlocfilehash: 4420eeb249a4d1bdac203e32d017dcebbddf95c3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c2638df96c47cf64c029e129d27af886b7ecbf4e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="custom-fields"></a><span data-ttu-id="d0dca-103">Champs personnalisés</span><span class="sxs-lookup"><span data-stu-id="d0dca-103">Custom fields</span></span>
 
-[!include[banner](../includes/banner.md)] 
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[banner](../includes/pre-release.md)] 
+[!INCLUDE [banner](../includes/pre-release.md)]
 
 <span data-ttu-id="d0dca-104">Microsoft Dynamics 365 for Finance and Operations fournit un ensemble étendu de champs prédéfinis pour gérer une large éventail de processus d'entreprise, mais une société doit parfois suivre des informations supplémentaires dans le système.</span><span class="sxs-lookup"><span data-stu-id="d0dca-104">While Microsoft Dynamics 365 for Finance and Operations provides an extensive set of fields out-of-the-box for managing a broad range of business processes, sometimes there is a need for a company to track additional information in the system.</span></span> <span data-ttu-id="d0dca-105">Pour répondre à ce besoin, Finance and Operations vous permet de créer des champs personnalisés pour adapter l'application à votre entreprise, à condition que vous disposiez des autorisations appropriées pour la fonction.</span><span class="sxs-lookup"><span data-stu-id="d0dca-105">To accommodate this need, Finance and Operations allows you to create custom fields to tailor the application to fit your business, provided you have permissions to the feature.</span></span> 
 

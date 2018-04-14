@@ -20,17 +20,16 @@ ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 99030966587a2784f61cecbfc7f9985f75f6d779
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0feb75e728517d24602025e3ceb12cb6ab1840f4
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="lean-manufacturing-overview"></a><span data-ttu-id="e062f-103">Vue d'ensemble du Lean manufacturing</span><span class="sxs-lookup"><span data-stu-id="e062f-103">Lean manufacturing overview</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="e062f-104">Cet article fournit une vue d'ensemble et la description des fonctionnalités de lean manufacturing dans Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="e062f-104">This article provides an overview and description of the lean manufacturing features in Microsoft Dynamics 365 for Finance and Operations.</span></span>
 
@@ -40,6 +39,7 @@ ms.lasthandoff: 03/26/2018
 -   <span data-ttu-id="e062f-109">Surveillez et mettez à jour des tâches de kanban.</span><span class="sxs-lookup"><span data-stu-id="e062f-109">Monitor and maintain kanban jobs.</span></span>
 
 <span data-ttu-id="e062f-110">L'architecture de lean manufacturing dans Finance and Operations est constituée de flux de production, d'activités, et de règles de kanban.</span><span class="sxs-lookup"><span data-stu-id="e062f-110">The lean manufacturing architecture in Finance and Operations consists of production flows, activities, and kanban rules.</span></span> <span data-ttu-id="e062f-111">Ces structures sont totalement intégrées aux processus Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="e062f-111">These structures are fully integrated with Finance and Operations processes.</span></span> <span data-ttu-id="e062f-112">Vous pouvez utiliser le lean manufacturing dans un environnement de fabrication en mode mixte combinant différentes stratégies d'approvisionnement et de production.</span><span class="sxs-lookup"><span data-stu-id="e062f-112">You can use lean manufacturing in a mixed-mode manufacturing environment that combines various supply, production, and sourcing strategies.</span></span> <span data-ttu-id="e062f-113">Ces dernières incluent des ordres de fabrication, des lots de commandes pour les secteurs de traitement, des commandes fournisseur, et des ordres de transfert.</span><span class="sxs-lookup"><span data-stu-id="e062f-113">These strategies include production orders, batch orders for process industries, purchase orders, and transfer orders.</span></span>
+
 | <span data-ttu-id="e062f-114">**Important**</span><span class="sxs-lookup"><span data-stu-id="e062f-114">**Important**</span></span>                                                                                                                                                                                                                                                                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="e062f-115">Finance and Operations vous permet de prendre en charge la mise en œuvre du concept de lean manufacturing avec des kanbans.</span><span class="sxs-lookup"><span data-stu-id="e062f-115">You can use Finance and Operations to support the implementation of lean manufacturing with kanbans.</span></span> <span data-ttu-id="e062f-116">Toutefois, une implémentation réussie des principes de production au plus juste dépend des processus entreprise internes que vous utilisez, et des conditions et de l'environnement de production réels.</span><span class="sxs-lookup"><span data-stu-id="e062f-116">However, a successful implementation of lean principles depends on the internal business processes that you use, and the actual production conditions and environment.</span></span> |

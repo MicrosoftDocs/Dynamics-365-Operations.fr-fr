@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: fbbe019bdca2d5182466a20370418a14032fe63d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8b5609c897466dbd0e504740cdc600fb2f800d37
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-a-work-template-for-purchase-orders"></a><span data-ttu-id="c6d74-103">Définir un modèle de travail pour les commandes fournisseur</span><span class="sxs-lookup"><span data-stu-id="c6d74-103">Set up a work template for purchase orders</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="c6d74-104">Cette procédure consiste à réaliser le paramétrage d'un modèle de travail simple à utiliser pour le rangement des articles reçus.</span><span class="sxs-lookup"><span data-stu-id="c6d74-104">This procedure focuses on the set up of a simple work template to be used when putting away received items.</span></span> <span data-ttu-id="c6d74-105">Les modèles de travail déterminent l'ensemble des instructions fournies à l'employé de l'entrepôt sur un appareil mobile lorsqu'il déplace des articles à partir de la zone de réception.</span><span class="sxs-lookup"><span data-stu-id="c6d74-105">Work templates determine the set of instructions presented to the warehouse worker on a mobile device when moving items from the receiving area.</span></span> <span data-ttu-id="c6d74-106">Vous pouvez utiliser cette procédure avec les données fournies avec la société fictive de démonstration USMF.</span><span class="sxs-lookup"><span data-stu-id="c6d74-106">You can use this procedure with the data mentioned in demo data company USMF.</span></span> <span data-ttu-id="c6d74-107">Avant de lancer ce guide, créez un ID de pool de travail.</span><span class="sxs-lookup"><span data-stu-id="c6d74-107">Before you start this guide, create a work pool ID.</span></span> <span data-ttu-id="c6d74-108">Dans cet exemple, on utilise un ID de pool de travail appelé Entrant.</span><span class="sxs-lookup"><span data-stu-id="c6d74-108">In this example, a work pool ID called in Inbound is used.</span></span> <span data-ttu-id="c6d74-109">Cette procédure est destinée au gestionnaire d'entrepôts.</span><span class="sxs-lookup"><span data-stu-id="c6d74-109">This procedure is intended for the warehouse manager.</span></span>
 

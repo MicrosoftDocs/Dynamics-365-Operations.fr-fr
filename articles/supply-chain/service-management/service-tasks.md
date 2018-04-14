@@ -19,16 +19,16 @@ ms.author: YuyuScheller
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 221b9dae7e83e7f4a535ac60f2a2011533d7861c
-ms.openlocfilehash: de180a1258bbfb95acbfd0985cb91c88efc320f2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 29b6414fe0127489a93ffe2a564e44dcb7a43b10
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/21/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="service-tasks"></a><span data-ttu-id="352f9-104">Tâches de service</span><span class="sxs-lookup"><span data-stu-id="352f9-104">Service tasks</span></span>  
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="352f9-105">Les tâches de service permettent de décrire la tâche à accomplir lors d'une commande de service.</span><span class="sxs-lookup"><span data-stu-id="352f9-105">Use service tasks to describe the task to be completed during a service order.</span></span>
 <span data-ttu-id="352f9-106">Les techniciens comme les clients ont accès à ces informations.</span><span class="sxs-lookup"><span data-stu-id="352f9-106">Both technicians and customers can see this information.</span></span>

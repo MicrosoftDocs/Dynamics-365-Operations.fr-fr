@@ -16,15 +16,15 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: dc837ea6513992a5f94e48baa366e279df297866
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5c146d6ef34137eb8eef3a5a5123ce0174df3033
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="process-collection-letters"></a><span data-ttu-id="086e0-103">Traiter les lettres de relance</span><span class="sxs-lookup"><span data-stu-id="086e0-103">Process collection letters</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="086e0-104">Cette procédure indique comment créer, imprimer, et valider les lettres de relance.</span><span class="sxs-lookup"><span data-stu-id="086e0-104">This procedure shows how to create, print, and post collection letters.</span></span> <span data-ttu-id="086e0-105">La société fictive USMF est citée en exemple dans cette tâche.</span><span class="sxs-lookup"><span data-stu-id="086e0-105">This task uses the USMF demo company.</span></span>
 

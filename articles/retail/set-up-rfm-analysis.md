@@ -20,17 +20,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: e7c815cc5b660b505cb06560efc3e7501645c350
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ec804559d6514b4443bd295ec9d9b8b192f45ec0
 ms.contentlocale: fr-fr
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-rfm-analysis"></a><span data-ttu-id="5670e-103">Paramétrer l'analyse RFM</span><span class="sxs-lookup"><span data-stu-id="5670e-103">Set up RFM analysis</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="5670e-104">Cette rubrique décrit comment paramétrer une analyse RFM (récence, fréquence et valeur monétaire) de vos clients.</span><span class="sxs-lookup"><span data-stu-id="5670e-104">This topic explains how to set up a Recency, Frequency, and Monetary (RFM) analysis of your customers.</span></span>
 
@@ -60,25 +59,25 @@ ms.lasthandoff: 01/17/2018
     - <span data-ttu-id="5670e-126">Si chaque section du score RFM doit contenir un nombre égal de clients, activez la case à cocher **Distribution égale**.</span><span class="sxs-lookup"><span data-stu-id="5670e-126">If each section of the RFM score must contain an equal count of customers, select the **Even distribution** check box.</span></span> 
     - <span data-ttu-id="5670e-127">Activez la case à cocher **Ajouter des scores** pour additionner les trois scores.</span><span class="sxs-lookup"><span data-stu-id="5670e-127">Select the **Add scores** check box to aggregate the three scores.</span></span> <span data-ttu-id="5670e-128">Par exemple, le client aurait un score RFM de 13 au lieu de 535.</span><span class="sxs-lookup"><span data-stu-id="5670e-128">For example, this would give a customer an RFM score of 13 instead of 535.</span></span> 
     - <span data-ttu-id="5670e-129">Activez la case à cocher **Enregistrer l'historique** pour exiger que le système enregistre les données statistiques des clients afin que les données puissent être utilisées pour calculer le score RFM.</span><span class="sxs-lookup"><span data-stu-id="5670e-129">Select the **Save history** check box to require the system to save the statistical data for customers so that the data can be used to calculate the RFM score.</span></span>
-  
+
 5.  <span data-ttu-id="5670e-130">Dans l'organisateur **Récence**, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="5670e-130">On the **Recency** FastTab, do the following:</span></span> 
     - <span data-ttu-id="5670e-131">Dans le champ **Dvisions**, entrez le nombre de divisions ou de groupes qui seront utilisés pour calculer le score de récence des clients.</span><span class="sxs-lookup"><span data-stu-id="5670e-131">In the **Divisions** field, enter the number of divisions, or groups, which will be used to calculate the recency score for customers.</span></span> <span data-ttu-id="5670e-132">Par exemple, si vous avez 100 clients, une division de 5 signifie qu'il y a 20 clients pour chaque score.</span><span class="sxs-lookup"><span data-stu-id="5670e-132">For example, if you have 100 customers, a division of 5 means that there are 20 customers for each score.</span></span> <span data-ttu-id="5670e-133">Les 20 clients qui ont effectué des achats le plus récemment ont un score de récence de 5.</span><span class="sxs-lookup"><span data-stu-id="5670e-133">The 20 customers who have made purchases most recently have a recency score of 5.</span></span> <span data-ttu-id="5670e-134">Les 20 clients suivants ont un score de récence de 4, etc.</span><span class="sxs-lookup"><span data-stu-id="5670e-134">The next 20 customers have a recency score of 4, and so on.</span></span> <span data-ttu-id="5670e-135">Si vous avez 50 clients, 10 clients ont un score de récence de 5, 10 ont un score de récence de 4, etc.</span><span class="sxs-lookup"><span data-stu-id="5670e-135">If you have 50 customers, 10 customers have a recency score of 5, 10 have a recency score of 4, and so on.</span></span> 
     - <span data-ttu-id="5670e-136">Dans le champ **Priorité**, sélectionnez l'importance du paramètre de récence par rapport aux autres paramètres lorsque le score RFM est calculé pour un client.</span><span class="sxs-lookup"><span data-stu-id="5670e-136">In the **Priority** field, select how much weight to give the recency parameter in relation to the other parameters when the RFM score is calculated for a customer.</span></span> <span data-ttu-id="5670e-137">Par exemple, vous pouvez accorder plus d'importance au score de récence qu'au score monétaire.</span><span class="sxs-lookup"><span data-stu-id="5670e-137">For example, you might place more value on the recency score than the monetary score.</span></span> 
     - <span data-ttu-id="5670e-138">Dans le champ **Multiplicateur**, entrez la valeur par laquelle multiplier le score de récence.</span><span class="sxs-lookup"><span data-stu-id="5670e-138">In the **Multiplier** field, enter the value by which to multiply the recency score.</span></span> <span data-ttu-id="5670e-139">Si vous n'entrez pas de valeur, le score ne sera pas multiplié.</span><span class="sxs-lookup"><span data-stu-id="5670e-139">If you do not enter a value, the score will not be multiplied.</span></span> 
     - <span data-ttu-id="5670e-140">Dans le champ **Période**, sélectionnez la période pendant laquelle le score de récence est calculé.</span><span class="sxs-lookup"><span data-stu-id="5670e-140">In the **Period** field, select the time period by which the recency score is calculated.</span></span> <span data-ttu-id="5670e-141">Par exemple, par semaine ou par mois.</span><span class="sxs-lookup"><span data-stu-id="5670e-141">For example, by week or by month.</span></span>
-   
+
 6.  <span data-ttu-id="5670e-142">Dans l'organisateur **Fréquence**, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="5670e-142">On the **Frequency** FastTab, do the following:</span></span> 
     - <span data-ttu-id="5670e-143">Dans le champ **Divisions**, entrez le nombre de divisions ou de groupes qui seront utilisés pour calculer le score de fréquence des clients.</span><span class="sxs-lookup"><span data-stu-id="5670e-143">In the **Divisions** field, enter the number of divisions, or groups, which will be used to calculate the frequency score for customers.</span></span> 
     - <span data-ttu-id="5670e-144">Dans le champ **Priorité**, sélectionnez l'importance du paramètre de fréquence par rapport aux autres paramètres lorsque le score RFM est calculé pour un client.</span><span class="sxs-lookup"><span data-stu-id="5670e-144">In the **Priority** field, select how much weight to give the frequency parameter in relation to the others when the RFM score is calculated for a customer.</span></span> 
     - <span data-ttu-id="5670e-145">Dans le champ **Multiplicateur**, entrez la valeur par laquelle multiplier le score de fréquence.</span><span class="sxs-lookup"><span data-stu-id="5670e-145">In the **Multiplier** field, enter the value by which to multiply the frequency score.</span></span> <span data-ttu-id="5670e-146">Si vous n'entrez pas de valeur, le score ne sera pas multiplié.</span><span class="sxs-lookup"><span data-stu-id="5670e-146">If you do not enter a value, the score will not be multiplied.</span></span>
-   
+
 7.  <span data-ttu-id="5670e-147">Dans l'organisateur **Monétaire**, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="5670e-147">On the **Monetary** FastTab, do the following:</span></span> 
     - <span data-ttu-id="5670e-148">Dans le champ **Divisions**, entrez le nombre de divisions ou de groupes qui seront utilisés pour calculer le score monétaire des clients.</span><span class="sxs-lookup"><span data-stu-id="5670e-148">In the **Divisions** field, enter the number of divisions, or groups, which will be used to calculate the monetary score for customers.</span></span> 
     - <span data-ttu-id="5670e-149">Dans le champ **Priorité**, sélectionnez l'importance du paramètre monétaire par rapport aux autres paramètres lorsque le score RFM est calculé pour un client.</span><span class="sxs-lookup"><span data-stu-id="5670e-149">In the **Priority** field, select how much weight to give the monetary parameter in relation to the others when the RFM score is calculated for a customer.</span></span> 
     - <span data-ttu-id="5670e-150">Dans le champ **Multiplicateur**, entrez la valeur par laquelle multiplier le score monétaire.</span><span class="sxs-lookup"><span data-stu-id="5670e-150">In the **Multiplier** field, enter the value by which to multiply the monetary score.</span></span> <span data-ttu-id="5670e-151">Si vous n'entrez pas de valeur, le score ne sera pas multiplié.</span><span class="sxs-lookup"><span data-stu-id="5670e-151">If you do not enter a value, the score will not be multiplied.</span></span> 
     - <span data-ttu-id="5670e-152">Dans le champ **Brut/net**, indiquez si le score monétaire du client doit être calculé à l'aide du montant net ou brut des factures.</span><span class="sxs-lookup"><span data-stu-id="5670e-152">In the **Gross/net** field, select whether the customer’s monetary score should be calculated by using the gross or net invoice amount.</span></span> 
     - <span data-ttu-id="5670e-153">Si les montants des retours client doivent être soustraits du calcul du total des factures du client, activez la case à cocher **Soustraire les retours**.</span><span class="sxs-lookup"><span data-stu-id="5670e-153">If a customer’s return amounts should be subtracted from the customer’s total invoice calculation, select the **Subtract returns** check box.</span></span> 
- 
+
 ## <a name="view-a-customers-rfm-score"></a><span data-ttu-id="5670e-154">Affichage du score RFM d'un client</span><span class="sxs-lookup"><span data-stu-id="5670e-154">View a customer’s RFM score</span></span>
 <span data-ttu-id="5670e-155">Suivez cette procédure pour afficher le score RFM d'un client.</span><span class="sxs-lookup"><span data-stu-id="5670e-155">Use this procedure to view a customer’s RFM score.</span></span> 
 

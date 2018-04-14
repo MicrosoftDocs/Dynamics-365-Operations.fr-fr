@@ -16,15 +16,15 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ef3cad6538d9efbd1c1881f4b7d771382d9b1ba8
-ms.openlocfilehash: a05f0777a14d627dc57ef4f4666abb6f92eee59a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: bfc514530149f25e6355992984b9e33f80194b2c
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-ledger-accrual-transactions"></a><span data-ttu-id="97ee0-103">Création de transactions de régularisation des comptes</span><span class="sxs-lookup"><span data-stu-id="97ee0-103">Create ledger accrual transactions</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="97ee0-104">Ce guide accompagne l'utilisateur dans la génération de transactions de régularisation des comptes fondées sur des plans de régularisation</span><span class="sxs-lookup"><span data-stu-id="97ee0-104">This task guide steps through generating ledger accrual transactions that are based on accrual schemes</span></span>
 

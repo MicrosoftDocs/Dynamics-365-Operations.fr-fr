@@ -19,17 +19,16 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 275e7926eb5ade1b7b03bd997a6fdc86d9f0bb20
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2b8ddd0fb056466b1d52c2494a3a0149cbd207af
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="procurement-and-sourcing-in-the-public-sector-in-france"></a><span data-ttu-id="6a0ca-104">Approvisionnements dans le secteur public en France</span><span class="sxs-lookup"><span data-stu-id="6a0ca-104">Procurement and sourcing in the public sector in France</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="6a0ca-105">Cet article explique comment les fonctionnalités standard associées aux approvisionnements ont été étendues pour les entités françaises du secteur public.</span><span class="sxs-lookup"><span data-stu-id="6a0ca-105">This article explains how the standard features that are related to procurement and sourcing are augmented for French entities in the public sector.</span></span> <span data-ttu-id="6a0ca-106">Ces fonctionnalités permettent de répondre aux besoins du Code des marchés publics.</span><span class="sxs-lookup"><span data-stu-id="6a0ca-106">These features are used to help meet the requirements of the Code des Marchés Publics.</span></span> 
 
@@ -60,7 +59,7 @@ ms.lasthandoff: 11/06/2017
 -   <span data-ttu-id="6a0ca-139">Pour ajouter aux contrats d'achat des informations relatives aux certifications pour les fournisseurs, sélectionnez l'option **Certifications** de la classification de contrat d'achat.</span><span class="sxs-lookup"><span data-stu-id="6a0ca-139">To add information about certifications for vendors to purchase agreements, select the **Certifications** option on the purchase agreement classification.</span></span> <span data-ttu-id="6a0ca-140">Les informations de certification permettent de générer un état que vous pouvez utiliser pour vérifier que les fournisseurs répondent bien aux exigences en matière de certification.</span><span class="sxs-lookup"><span data-stu-id="6a0ca-140">Certification information can be used to generate a report that lets you monitor vendor compliance with certification requirements.</span></span>
 -   <span data-ttu-id="6a0ca-141">Pour ajouter aux contrats d'achat des informations relatives aux jalons et aux tâches, sélectionnez l'option **Activités** de la classification de contrat d'achat.</span><span class="sxs-lookup"><span data-stu-id="6a0ca-141">To add information about milestones and tasks to purchase agreements, select the **Activities** option on the purchase agreement classification.</span></span>
 
- 
+
 
 
 

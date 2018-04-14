@@ -16,15 +16,15 @@ ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 42f93e6d8fcf62babc3e3244bc1fe76d1efd9d13
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 470ec0275fed46f48b072f85e6058bf35afc6d16
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="record-a-vendor-invoice-in-the-invoice-journal"></a><span data-ttu-id="cc242-103">Enregistrer une facture fournisseur dans le journal des factures</span><span class="sxs-lookup"><span data-stu-id="cc242-103">Record a vendor invoice in the invoice journal</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="cc242-104">Ce guide de tâche indique comment enregistrer des factures fournisseur qui ne sont pas associées à des commandes fournisseur.</span><span class="sxs-lookup"><span data-stu-id="cc242-104">This task guide will show how to record vendor invoices that are not associated with purchase orders.</span></span> <span data-ttu-id="cc242-105">Parmi les exemples de ce type de facture on trouve des dépenses pour les approvisionnements ou les services.</span><span class="sxs-lookup"><span data-stu-id="cc242-105">Examples of this type of invoice include expenses for supplies or services.</span></span>  <span data-ttu-id="cc242-106">La société fictive USMF sert d'exemple dans cet enregistrement.</span><span class="sxs-lookup"><span data-stu-id="cc242-106">This recording uses the USMF demo company.</span></span>
 

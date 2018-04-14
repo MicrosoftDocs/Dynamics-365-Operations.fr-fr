@@ -18,17 +18,16 @@ ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 07d09512ef612b41bf527b74496fa440f23851fc
-ms.openlocfilehash: 7898fbae09eb1f309f7c65520c2eb5acf10ac202
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: bc75253edbd01e79d4bf61eb1bc096b88d6f298b
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="penalties-for-past-due-customer-payments-in-france"></a><span data-ttu-id="d88a5-103">Pénalités pour les paiements client en retard en France</span><span class="sxs-lookup"><span data-stu-id="d88a5-103">Penalties for past due customer payments in France</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="d88a5-104">En France, vous pouvez appliquer une pénalité lorsqu'un paiement client est en retard et vous pouvez imprimer le texte de récupération de la somme forfaitaire qui affiche le montant de pénalité qui doit être payé sur la facture ainsi que la date d'échéance du paiement.</span><span class="sxs-lookup"><span data-stu-id="d88a5-104">In France, you can apply a penalty when a customer payment is past due and you can print the lump sum recovery text that displays the penalty amount that must be paid on the invoice, and the due date of the payment.</span></span> 
 

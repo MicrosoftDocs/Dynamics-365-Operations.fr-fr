@@ -17,15 +17,15 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 2652a75f9c4509addd5804d4798f1bc142106c60
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: cc42a3d43914dd62b97e1be1f9eb7f9c4f01ea09
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="configure-the-functionality-profile-for-a-sales-representative"></a><span data-ttu-id="a31ac-103"> Configurer le profil de fonctionnalité pour un commercial</span><span class="sxs-lookup"><span data-stu-id="a31ac-103">Configure the functionality profile for a sales representative</span></span>
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a31ac-104">Cette procédure illustre comment configurer les paramètres du profil de fonctionnalité d'un magasin qui s'appliquent aux commerciaux.</span><span class="sxs-lookup"><span data-stu-id="a31ac-104">This procedure demonstrates how to configure a store's functionality profile settings that apply to sales representatives.</span></span> <span data-ttu-id="a31ac-105">La société fictive USRT sert d'exemple dans cette procédure.</span><span class="sxs-lookup"><span data-stu-id="a31ac-105">This procedures uses the USRT demo data company.</span></span>
 

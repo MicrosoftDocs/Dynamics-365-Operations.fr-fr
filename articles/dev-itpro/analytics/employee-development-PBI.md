@@ -16,16 +16,16 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 4cf60021b96ab492c5d0b2535a117cb33ab13524
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a451a3e936916c6bec750ddfbc2bf71fadb7c222
 ms.contentlocale: fr-fr
-ms.lasthandoff: 01/31/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="employee-development-power-bi-content"></a><span data-ttu-id="c4485-103">Contenu Power BI Perfectionnement de l'employé</span><span class="sxs-lookup"><span data-stu-id="c4485-103">Employee development Power BI content</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="c4485-104">Cette rubrique décrit le contenu Microsoft Power BI **Perfectionnement de l'employé**.</span><span class="sxs-lookup"><span data-stu-id="c4485-104">This topic describes the **Employee development** Microsoft Power BI content.</span></span>
 
@@ -45,6 +45,7 @@ ms.lasthandoff: 01/31/2018
 <span data-ttu-id="c4485-124">Vous pouvez filtrer les graphiques et les vignettes affichés sur ces états et les épingler au tableau de bord.</span><span class="sxs-lookup"><span data-stu-id="c4485-124">You can filter the charts and tiles on these reports, and pin the charts and tiles to the dashboard.</span></span> <span data-ttu-id="c4485-125">Pour savoir comment filtrer et épingler dans Power BI, voir [Créer et configurer un tableau de bord](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).</span><span class="sxs-lookup"><span data-stu-id="c4485-125">For more information about how to filter and pin in Power BI, see [Create and Configure A Dashboard](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).</span></span>
 
 ## <a name="understanding-the-data-model-and-entities"></a><span data-ttu-id="c4485-126">Compréhension du modèle de données et des entités</span><span class="sxs-lookup"><span data-stu-id="c4485-126">Understanding the data model and entities</span></span>
+
 | <span data-ttu-id="c4485-127">Entité</span><span class="sxs-lookup"><span data-stu-id="c4485-127">Entity</span></span>                   | <span data-ttu-id="c4485-128">Sommaire</span><span class="sxs-lookup"><span data-stu-id="c4485-128">Contents</span></span>                                                                                                   | <span data-ttu-id="c4485-129">Relations avec d'autres entités</span><span class="sxs-lookup"><span data-stu-id="c4485-129">Relationships with other entities</span></span> |
 |--------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------|
 | <span data-ttu-id="c4485-130">Décalage de calendrier</span><span class="sxs-lookup"><span data-stu-id="c4485-130">Calendar Offset</span></span>          | <span data-ttu-id="c4485-131">Décalages de calendrier pour diviser les états</span><span class="sxs-lookup"><span data-stu-id="c4485-131">Calendar offsets to slice reports</span></span>                                                                          | <span data-ttu-id="c4485-132">Affectation antérieure de postes, Tendance du poste, Tendance de l'employé, Employé dont le contrat est terminé</span><span class="sxs-lookup"><span data-stu-id="c4485-132">Past Position Assignment, Position Trend, Employee Trend, Terminated Employee</span></span> 

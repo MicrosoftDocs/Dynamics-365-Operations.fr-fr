@@ -20,17 +20,16 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 495f867385d4f842e9cdd2c78432ccdcd27919cd
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4b50a0499fad343cdcdbf671a6ee2cda55f1627e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="plan-for-one-time-vendors-in-the-public-sector"></a><span data-ttu-id="87077-103">Planifier pour les fournisseurs occasionnels dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="87077-103">Plan for one-time vendors in the public sector</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="87077-104">Cet article fournit des informations sur l'importation et la création de fournisseurs occasionnels et de factures.</span><span class="sxs-lookup"><span data-stu-id="87077-104">This article explains how to prepare to import and create multiple one-time vendors and invoices.</span></span> 
 
@@ -88,6 +87,7 @@ ms.lasthandoff: 02/07/2018
 
 
 <span data-ttu-id="87077-178">**Section de distribution**</span><span class="sxs-lookup"><span data-stu-id="87077-178">**Distributions section**</span></span>
+
 | <span data-ttu-id="87077-179">Champ</span><span class="sxs-lookup"><span data-stu-id="87077-179">Field</span></span>                                                | <span data-ttu-id="87077-180">Détails</span><span class="sxs-lookup"><span data-stu-id="87077-180">Details</span></span>                                  |
 |------------------------------------------------------|------------------------------------------|
 | <span data-ttu-id="87077-181">Nombre</span><span class="sxs-lookup"><span data-stu-id="87077-181">Number</span></span>                                               | <span data-ttu-id="87077-182">Numéro de ligne de répartition comptable</span><span class="sxs-lookup"><span data-stu-id="87077-182">Accounting distribution line number</span></span>      |

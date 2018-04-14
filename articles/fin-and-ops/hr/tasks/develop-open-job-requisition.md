@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 0eb5ec731655e2f023d941724a10d1cf12f8e558
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 403e1d3d4c599050f118ab019288784d7782ac2b
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="develop-and-open-a-job-requisition"></a><span data-ttu-id="e5e34-103">Développer et ouvrir une demande de poste</span><span class="sxs-lookup"><span data-stu-id="e5e34-103">Develop and open a job requisition</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="e5e34-104">Les projets de recrutement permettent de gérer le processus de recrutement.</span><span class="sxs-lookup"><span data-stu-id="e5e34-104">Recruitment projects help manage the recruiting process.</span></span> <span data-ttu-id="e5e34-105">Pour chaque projet de recrutement, vous pouvez paramétrer des informations, telles que l'emploi pour lequel vous recrutez, le nom du recruteur, le statut du projet et le département auquel l'employé sera rattaché.</span><span class="sxs-lookup"><span data-stu-id="e5e34-105">For each recruitment project, you can set up information, such as the job that recruiting is for, the name of the recruiter, the status of the project and the department that the job will be located in.</span></span> <span data-ttu-id="e5e34-106">Après avoir créé un projet de recrutement, vous pouvez rédiger une annonce d'emploi pour le projet, la publier dans les pages Libre-service employé, associer des demandes d'emploi au projet et suivre les activités du projet.</span><span class="sxs-lookup"><span data-stu-id="e5e34-106">After creating a recruitment project, you can write a job advertisement for the project, publish the ad on Employee self-service pages, associate applications for employment with the project, and track activities for that project.</span></span> <span data-ttu-id="e5e34-107">Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.</span><span class="sxs-lookup"><span data-stu-id="e5e34-107">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="e5e34-108">Pour démarrer la procédure, allez dans Ressources humaines > Recrutement > Projets de recrutement > Projets de recrutement.</span><span class="sxs-lookup"><span data-stu-id="e5e34-108">To begin the procedure, go to Human resources > Recruitment > Recruitment projects > Recruitment projects</span></span>
 

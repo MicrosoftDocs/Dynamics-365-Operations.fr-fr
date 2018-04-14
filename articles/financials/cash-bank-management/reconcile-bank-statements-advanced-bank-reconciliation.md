@@ -19,17 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: ed3a1fae6ca30b9411fde47e7ef8a08150d7d748
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: dea67fb5ee233e9aa1862eb7d7ad6c5076d2b65a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a><span data-ttu-id="a5566-104">Rapprochement de relevés bancaires à l'aide du rapprochement bancaire avancé</span><span class="sxs-lookup"><span data-stu-id="a5566-104">Reconcile bank statements by using advanced bank reconciliation</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="a5566-105">La fonctionnalité de rapprochement bancaire avancée vous permet d'importer des relevés bancaires électroniques et de les rapprocher automatiquement avec des transactions bancaires dans Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="a5566-105">The Advanced bank reconciliation feature lets you import electronic bank statements and automatically reconcile them with bank transactions in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="a5566-106">Cette rubrique explique le processus de rapprochement.</span><span class="sxs-lookup"><span data-stu-id="a5566-106">This topic explains the reconciliation process.</span></span>  
 

@@ -19,17 +19,16 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 8ed76dd2b8b46056807ebc3e015cf413d357a035
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4b9a64c27e43c90e6a5c0be280d39fa2c6d5a1ea
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="vendor-invoice-payment-holds-in-the-public-sector-in-france"></a><span data-ttu-id="d050e-104">Mises en attente du paiement d'une facture fournisseur dans le secteur public en France</span><span class="sxs-lookup"><span data-stu-id="d050e-104">Vendor invoice payment holds in the public sector in France</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="d050e-105">Les processus standard liés aux mises en attente de paiement d'une facture fournisseur dans Microsoft Dynamics 365 for Finance and Operations ont été étendus pour les entités françaises du secteur public.</span><span class="sxs-lookup"><span data-stu-id="d050e-105">The standard processes related to vendor invoice payment holds in Microsoft Dynamics 365 for Finance and Operations are augmented for French entities in the public sector.</span></span> <span data-ttu-id="d050e-106">Cette rubrique décrit la fonctionnalité de mises en attente de paiement d'une facture fournisseur utilisée par le secteur public en France.</span><span class="sxs-lookup"><span data-stu-id="d050e-106">This topic describes the vendor invoice payment holds functionality used by the public sector in France.</span></span>
 

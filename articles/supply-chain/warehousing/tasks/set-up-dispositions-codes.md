@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c004543188656dfd53d7539717cd6e93d0b9f47a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e12a2ac565bb8a8383044bd76a97f01e0434c739
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-dispositions-codes"></a><span data-ttu-id="63c01-103">Paramétrer les codes disposition</span><span class="sxs-lookup"><span data-stu-id="63c01-103">Set up dispositions codes</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="63c01-104">Cette procédure se concentre sur le paramétrage du code disposition qui peut être utilisé sur un périphérique portable pour l'ordre de retour recevant le processus.</span><span class="sxs-lookup"><span data-stu-id="63c01-104">This procedure focuses on the setup of a disposition code that can be used on a mobile device for the return order receiving process.</span></span> <span data-ttu-id="63c01-105">Les codes disposition sont une collection de règles qu'il est possible d'utiliser lorsque des articles endommagés sont reçus.</span><span class="sxs-lookup"><span data-stu-id="63c01-105">Disposition codes are a collection of rules that can be used when items are received.</span></span> <span data-ttu-id="63c01-106">Par exemple, lorsqu'un utilisateur du travail utilise un périphérique portable pour recevoir les articles qui ont été endommagés, l'utilisateur doit numériser un code disposition pour les articles endommagés.</span><span class="sxs-lookup"><span data-stu-id="63c01-106">For example, when a work user uses a mobile device to receive items that were damaged, the user must scan a disposition code for damaged items.</span></span> <span data-ttu-id="63c01-107">Le statut du stock des marchandises reçues, le modèle de travail et la directive d'emplacement peuvent être déterminés à partir du code disposition numérisé.</span><span class="sxs-lookup"><span data-stu-id="63c01-107">The inventory status of the goods received, the work template, and the location directive can be determined from the scanned disposition code.</span></span> <span data-ttu-id="63c01-108">Pour la commande fournisseur recevant le processus et le rapport de l'ordre de fabrication comme étant terminés, l'utilisation de code disposition est facultative.</span><span class="sxs-lookup"><span data-stu-id="63c01-108">For the purchase order receiving process and the production order report as finished process, the use of a disposition code is optional.</span></span> <span data-ttu-id="63c01-109">Pour le processus de réception de retour de commande client, si les articles sont stockés à l'aide d'un périphérique mobile, l'utilisation de code disposition est obligatoire.</span><span class="sxs-lookup"><span data-stu-id="63c01-109">For the sales order return receiving process, if the items are registered using a mobile device, the use of disposition code is mandatory.</span></span>  <span data-ttu-id="63c01-110">Ce guide a été créé à l'aide des données fictives de la société USMF.</span><span class="sxs-lookup"><span data-stu-id="63c01-110">This guide was created using the demo data company USMF.</span></span> <span data-ttu-id="63c01-111">Cette procédure est destinée au gestionnaire d'entrepôts.</span><span class="sxs-lookup"><span data-stu-id="63c01-111">This procedure is intended for the warehouse manager.</span></span> 
 

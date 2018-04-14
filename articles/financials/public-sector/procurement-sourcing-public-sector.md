@@ -20,17 +20,16 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b00c7f2ee619bcae03f427a41162ad11999d68f5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 66251ed112dae9db73485df806be0aca5957e78e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="procurement-and-sourcing-in-the-public-sector"></a><span data-ttu-id="fac80-104">Approvisionnements dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="fac80-104">Procurement and sourcing in the public sector</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="fac80-105">Cette vue d'ensemble présente la fonctionnalité d'approvisionnements disponible pour le secteur public.</span><span class="sxs-lookup"><span data-stu-id="fac80-105">This overview introduces you to the public sector Procurement and sourcing functionality.</span></span> <span data-ttu-id="fac80-106">Cela inclut les codes de commande fournisseur, les types de certification des fournisseurs, la fonctionnalité de classification de contrat d'achat, et les montants de ligne de commande fournisseur.</span><span class="sxs-lookup"><span data-stu-id="fac80-106">This includes purchase order codes, vendor certification types, purchase agreement classification functionality, and purchase order line amounts.</span></span>
 
@@ -136,7 +135,7 @@ ms.lasthandoff: 11/06/2017
 </tbody>
 </table>
 
- 
+
 
 <span data-ttu-id="fac80-172">Pour plus d'informations, voir [Approvisionnements](../../supply-chain/procurement/procurement-sourcing-overview.md) et [Comptabilité fournisseur dans le secteur public](accounts-payable-public-sector.md).</span><span class="sxs-lookup"><span data-stu-id="fac80-172">For more information, see [Procurement and sourcing](../../supply-chain/procurement/procurement-sourcing-overview.md) and [Accounts payable in the public sector](accounts-payable-public-sector.md).</span></span>
 

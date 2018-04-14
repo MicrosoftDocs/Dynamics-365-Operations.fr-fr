@@ -20,17 +20,16 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 507d72973cef9a995d80971cdff6378561b6b4fb
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: aa88d18a8bed26e669a1e216105141bb51767249
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="derived-financial-hierarchies-in-the-public-sector"></a><span data-ttu-id="a3d5a-103">Hiérarchies financières dérivées dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="a3d5a-103">Derived financial hierarchies in the public sector</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="a3d5a-104">Cet article décrit la fonctionnalité des hiérarchies financières dérivées disponible pour le secteur public.</span><span class="sxs-lookup"><span data-stu-id="a3d5a-104">This article describes the derived financial hierarchies functionality that is available for the public sector.</span></span> 
 
@@ -47,7 +46,7 @@ ms.lasthandoff: 11/06/2017
 -   <span data-ttu-id="a3d5a-118">**Paramétrer des règles de filtre :** Utilisez la page **Hiérarchies financières dérivées** pour créer des règles de filtre pour les valeurs des comptes principaux et des dimensions financières associées aux nœuds « Bien-être des employés » et « Formation des employés » dans la hiérarchie financière dérivée « Programmes pour les employés ».</span><span class="sxs-lookup"><span data-stu-id="a3d5a-118">**Set up filter rules:** Use the **Derived financial hierarchies** page to create filter rules for the main accounts and financial dimension values associated with the “Employee wellness” and “Employee education” nodes in the “Employee programs” derived financial hierarchy.</span></span> <span data-ttu-id="a3d5a-119">**Conseil :** pour entrer plusieurs valeurs de dimension dans un filtre, utilisez une virgule sans espaces comme séparateur.</span><span class="sxs-lookup"><span data-stu-id="a3d5a-119">**Tip:** To enter more than one dimension value in a filter, use a comma without spaces as a separator.</span></span> <span data-ttu-id="a3d5a-120">Par exemple, entrez 100,110 ou Avantages,Assurance.</span><span class="sxs-lookup"><span data-stu-id="a3d5a-120">For example, enter 100,110 or Benefits,Insurance.</span></span>
 -   <span data-ttu-id="a3d5a-121">**Analyser des données de transaction validée :** Dans les résultats de filtre, affichez les numéros de compte et leurs détails de compte et de dimension financière.</span><span class="sxs-lookup"><span data-stu-id="a3d5a-121">**Analyze posted transaction data:** In the filter results, view account numbers and their account and financial dimension details.</span></span>
 
- 
+
 
 
 

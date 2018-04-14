@@ -19,17 +19,16 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9f8fc40f199b83a9e0cb36ce905163c3ed547057
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 60c7d291760ee5b8e597dbb42e10436279efd0c5
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="ledger-journal-types"></a><span data-ttu-id="5b5f5-104">Types de journaux comptables</span><span class="sxs-lookup"><span data-stu-id="5b5f5-104">Ledger journal types</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="5b5f5-105">Cet article décrit les types de journaux que vous pouvez paramétrer pour les journaux financiers.</span><span class="sxs-lookup"><span data-stu-id="5b5f5-105">This article describes the journal types that you can set up for financial journals.</span></span> <span data-ttu-id="5b5f5-106">Utilisez la page **Noms de journal** pour paramétrer les journaux que vous pouvez utiliser dans Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="5b5f5-106">Use the **Journal names** page to set up journals that you can use throughout Microsoft Dynamics 365 for Finance and Operations.</span></span>
 

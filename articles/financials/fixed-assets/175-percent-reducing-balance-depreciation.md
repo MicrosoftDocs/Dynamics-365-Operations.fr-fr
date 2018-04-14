@@ -19,17 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a61e743898e3e65c0012a7aeb9837e55e9143d01
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: cf5a2c03acd905ce76ed667fdcd792086ca77e02
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="175-percent-reducing-balance-depreciation"></a><span data-ttu-id="94333-103">Amortissement dégressif de 175 %</span><span class="sxs-lookup"><span data-stu-id="94333-103">175 percent reducing balance depreciation</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="94333-104">Cette rubrique donne une vue d'ensemble de la méthode d'amortissement dégressif de 175 %.</span><span class="sxs-lookup"><span data-stu-id="94333-104">This topic gives an overview of the 175 percent reducing balance method of depreciation.</span></span>
 
@@ -68,6 +67,7 @@ ms.lasthandoff: 11/06/2017
 -   <span data-ttu-id="94333-133">**Période fiscale** calcule le montant total de l'amortissement pour l'exercice.</span><span class="sxs-lookup"><span data-stu-id="94333-133">**Fiscal period** calculates the total amount of the depreciation for the fiscal year.</span></span> <span data-ttu-id="94333-134">Ce montant est régularisé dans les périodes fiscales définies sur la page **Calendriers fiscaux**.</span><span class="sxs-lookup"><span data-stu-id="94333-134">This amount is accrued into the fiscal periods that are defined on the **Fiscal calendars** page.</span></span>
 
 ## <a name="example-of-175-reducing-balance-depreciation"></a><span data-ttu-id="94333-135">Exemple d'amortissement dégressif de 175 %</span><span class="sxs-lookup"><span data-stu-id="94333-135">Example of 175% reducing balance depreciation</span></span>
+
 |                                |        |
 |--------------------------------|--------|
 | <span data-ttu-id="94333-136">Prix d'acquisition</span><span class="sxs-lookup"><span data-stu-id="94333-136">Acquisition cost</span></span>               | <span data-ttu-id="94333-137">11 000</span><span class="sxs-lookup"><span data-stu-id="94333-137">11,000</span></span> |

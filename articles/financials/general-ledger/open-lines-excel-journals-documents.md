@@ -19,21 +19,21 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a2da864254efda2621e1b157413a16d251020786
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 034e25eea8a4db3126f7f33ae0712b6f30606651
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="publish-journal-lines-and-documents-from-excel"></a><span data-ttu-id="6f777-104">Publier des lignes de journal et les documents d'Excel</span><span class="sxs-lookup"><span data-stu-id="6f777-104">Publish journal lines and documents from Excel</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="6f777-105">Cette rubrique explique comment entrer et publier des lignes de journaux d'opérations diverses issues de Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="6f777-105">This topic explains how to enter and publish lines for general journals from Microsoft Excel.</span></span> <span data-ttu-id="6f777-106">Elle inclut des informations sur les différents modèles que vous pouvez utiliser, en fonction du type de transactions que vous entrez.</span><span class="sxs-lookup"><span data-stu-id="6f777-106">It includes information about the various templates that you can use, depending on the type of transactions that you're entering.</span></span>
 
 <span data-ttu-id="6f777-107">Les utilisateurs peuvent entrer et publier des lignes pour les journaux financiers provenant de Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="6f777-107">Users can enter and publish lines for financial journals from Microsoft Excel.</span></span> <span data-ttu-id="6f777-108">Une fois qu'un utilisateur crée un journal, le bouton **Ouvrir les lignes dans Excel** indique les modèles disponibles.</span><span class="sxs-lookup"><span data-stu-id="6f777-108">After a user creates a journal, the **Open lines in Excel** button displays the templates that are available.</span></span> <span data-ttu-id="6f777-109">Les modèles sont conçus pour prendre en charge des scénarios spécifiques, mais toutes les combinaisons de type de compte ne sont pas prises en charge dans le journal.</span><span class="sxs-lookup"><span data-stu-id="6f777-109">Templates are designed to support specific scenarios, however not every combination of account type is supported in the journal.</span></span> <span data-ttu-id="6f777-110">Le tableau suivant indique les modèles disponibles et les types de comptes pris en charge.</span><span class="sxs-lookup"><span data-stu-id="6f777-110">The following table shows the templates that are available and the account types which they support.</span></span>
+
 |                          |                                                                                                                         |                                                                                         |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
 | <span data-ttu-id="6f777-111">**Modèle**</span><span class="sxs-lookup"><span data-stu-id="6f777-111">**Template**</span></span>             | <span data-ttu-id="6f777-112">**Types de compte pris en charge**</span><span class="sxs-lookup"><span data-stu-id="6f777-112">**Supported account types**</span></span>                                                                                             | <span data-ttu-id="6f777-113">**Procédure d'accès au modèle**</span><span class="sxs-lookup"><span data-stu-id="6f777-113">**How to access the template**</span></span>                                                          |

@@ -16,15 +16,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 76334f7ee4efe33df4a86aaa11a59748387cec89
-ms.openlocfilehash: fe92393cc264df68f084db6974f7d4607d37d3ab
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4d28abe06cb7bfd43fd95af8cd88e022a51f5380
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="define-coverage-rules-for-items"></a><span data-ttu-id="cf00b-103">Définir des règles de couverture pour les articles</span><span class="sxs-lookup"><span data-stu-id="cf00b-103">Define coverage rules for items</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="cf00b-104">Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.</span><span class="sxs-lookup"><span data-stu-id="cf00b-104">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="cf00b-105">Cet procédure indique comment créer des règles de couverture et remplacer des paramètres de couverture pour un article spécifique.</span><span class="sxs-lookup"><span data-stu-id="cf00b-105">This procedure shows how to create coverage rules and override coverage settings for a specific item.</span></span> <span data-ttu-id="cf00b-106">Il indique également comment spécifier les paramètres de stock par défaut.</span><span class="sxs-lookup"><span data-stu-id="cf00b-106">It also shows how to specify default inventory settings.</span></span>
 

@@ -18,17 +18,16 @@ ms.author: anasyash
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 07d09512ef612b41bf527b74496fa440f23851fc
-ms.openlocfilehash: 97cb87a3599364a76c70b25878c829504b1cdec6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6c6acc112686da10fc74d97d2207b6703be32aa3
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="derogatory-depreciation-for-france"></a><span data-ttu-id="886fc-104">Amortissement dérogatoire pour la France</span><span class="sxs-lookup"><span data-stu-id="886fc-104">Derogatory depreciation for France</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="886fc-105">Cet article fournit des informations sur l'amortissement dérogatoire et la manière de le paramétrer.</span><span class="sxs-lookup"><span data-stu-id="886fc-105">This article provides information about derogatory depreciation and how to set it up.</span></span> <span data-ttu-id="886fc-106">Dans l'amortissement dérogatoire, un montant d'amortissement supplémentaire est calculé comme étant la différence entre le montant d'amortissement du Registre des taxes et le montant d'amortissement du livre comptable pendant la durée de vie d'une immobilisation.</span><span class="sxs-lookup"><span data-stu-id="886fc-106">In derogatory depreciation, an extra amount of depreciation is calculated as the difference between the depreciation amount on the tax book and the depreciation amount on the accounting book during the life of a fixed asset.</span></span>
 

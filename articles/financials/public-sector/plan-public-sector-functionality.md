@@ -20,17 +20,16 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2aa24ef5538d4a38522af2c92d7ad5342efb8070
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0c09577235fb8917a2df9d50b7eef74bb1c99625
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="plan-for-public-sector-functionality"></a><span data-ttu-id="3c30a-103">Planification de la fonctionnalité Secteur public</span><span class="sxs-lookup"><span data-stu-id="3c30a-103">Plan for public sector functionality</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="3c30a-104">Cet article suggère les premières étapes pour paramétrer la fonctionnalité Secteur public dans Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="3c30a-104">This article suggests the first steps to setting up Public sector functionality in Microsoft Dynamics 365 for Finance and Operations.</span></span>
 
@@ -69,7 +68,7 @@ ms.lasthandoff: 03/26/2018
 
 <span data-ttu-id="3c30a-124">Type de certification Codes commande fournisseur de confirmation Montants des lignes des commandes fournisseur</span><span class="sxs-lookup"><span data-stu-id="3c30a-124">Certification type Confirming PO codes Purchase order line amounts</span></span>
 
- 
+
 
 <a name="see-also"></a><span data-ttu-id="3c30a-125">Voir également :</span><span class="sxs-lookup"><span data-stu-id="3c30a-125">See also</span></span>
 --------

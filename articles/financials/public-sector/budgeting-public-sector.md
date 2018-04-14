@@ -20,17 +20,16 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 47336a19899b1fad0e63265173fd7fd02fc74ec3
-ms.openlocfilehash: 6e6d933acb9aa6917f0bf1ed5eb34156aa60ebd2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0acafc8a3e89e901e901931e3ac309469ba12124
 ms.contentlocale: fr-fr
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="budgeting-in-the-public-sector"></a><span data-ttu-id="83e6f-104">Budgétisation dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="83e6f-104">Budgeting in the public sector</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="83e6f-105">Cette vue d'ensemble présente la fonctionnalité de budgétisation disponible pour le secteur public.</span><span class="sxs-lookup"><span data-stu-id="83e6f-105">This overview introduces you to the budgeting functionality that is available for public sector.</span></span> <span data-ttu-id="83e6f-106">Cela inclut l'analyse de budget, les budgets et les répartitions préliminaires, et les définitions de validation.</span><span class="sxs-lookup"><span data-stu-id="83e6f-106">This includes budget analysis, preliminary budgets and apportionments, and posting definitions.</span></span>
 
