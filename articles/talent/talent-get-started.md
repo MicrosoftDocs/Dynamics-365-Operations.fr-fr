@@ -33,7 +33,7 @@ Dans Microsoft Dynamics 365 for Talent, il est facile de modifier l'interface ut
 > [!NOTE] 
 > Les produits suivants sont étroitement liés : Dynamics 365 for Finance and Operations, Dynamics 365 for Retail et Dynamics 365 for Talent. Les mêmes fonctionnalités peuvent apparaître dans les trois produits. Par conséquent, dans les rubriques qui sont généralement liées à la vente au détail, le nom du produit sera Dynamics 365 for Retail ; dans les rubriques qui sont généralement liées à Talent, le nom du produit sera Dynamics 365 for Talent ; et dans les rubriques associées au produit central, le nom du produit sera Dynamics 365 Finance and Operations. Les rubriques qui sont écrites pour un produit peuvent s'appliquer à la même fonctionnalité d'un produit associé.
 
-### <a name="personalizing-talent"></a>Personnalisation de Talent 
+## <a name="personalizing-talent"></a>Personnalisation de Talent 
 Les rubriques suivantes présentent la procédure de paramétrage de nombreuses fonctions dans Dynamics 365 for Talent afin de vous permettre de réaliser vos tâches en temps voulu. 
 
 -   [Personnaliser l'expérience de l'utilisateur](../fin-and-ops/get-started/personalize-user-experience.md) - Cette rubrique explique les différentes manières de personnaliser Talent et d'adapter plusieurs parties du produit selon vos préférences.
@@ -44,7 +44,7 @@ Les rubriques suivantes présentent la procédure de paramétrage de nombreuses 
 
 -   [Raccourcis clavier](../fin-and-ops/get-started/shortcut-keys.md) - Cette rubrique répertorie les raccourcis clavier en usage aux États-Unis. 
 
-### <a name="accessing-information"></a>Accès aux informations
+## <a name="accessing-information"></a>Accès aux informations
 Les rubriques suivantes expliquent comment utiliser les fonctionnalités de recherche et de filtrage pour rechercher des informations rapidement. 
 
 -   [Utiliser les recherches pour trouver des informations](../fin-and-ops/get-started/use-lookups-to-find-information.md) - Cette rubrique explique comment les recherches peuvent vous aider à retrouver rapidement la valeur correcte ou souhaitée. Elle décrit comment les recherches fonctionnent et inclut des conseils afin d'optimiser votre utilisation de ces dernières.
