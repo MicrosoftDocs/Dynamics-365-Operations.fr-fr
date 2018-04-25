@@ -31,7 +31,7 @@
 ## [Catalogues de centre d'appels](call-center-catalogs.md)
 ## [Créer un catalogue de centre d'appels](create-call-center-catalogs.md)
 ## [Paramétrer les alertes de fraude](set-up-fraud-alerts.md)
-## [Paramétrer des options de traitement des commandes](set-up-order-processing-options.md)
+## [Paramétrer un centre d'appels](set-up-order-processing-options.md)
 ## [Paramétrer un programme de continuité pour un centre d'appels](set-up-continuity-program.md)
 ## [Blocage de commandes](work-with-order-holds.md)
 ## [Options de paiement](work-with-payments.md)
@@ -49,8 +49,9 @@
 ## [Opérations PDV, en ligne et hors connexion](pos-operations.md)
 ## [Mises en page de l'écran de données de démonstration dans MPOS/CPOS](demo-data.md)
 ## [Vue d'ensemble de la recherche de produits et de clients dans un point de vente](POS-search-improvements.md)
+## [Recherche de stock dans le point de vente](product-variants-POS.md)
 ## Périphériques matériels
-### [Vue d'ensemble des périphériques de la vente au détail](retail-peripherals-overview.md)
+### [Vue d'ensemble des périphériques Retail](retail-peripherals-overview.md)
 ### [Périphériques matériels de POS testés par Microsoft](microsoft-tested-pos-hardware-peripherals.md)
 ### [Simulateur périphérique pour la vente au détail](dev-itpro/retail-peripheral-simulator.md)
 ### [Définir et tenir à jour les clients de canal, y compris les caisses enregistreuses et les stations matérielles](define-maintain-channel-clients-registers-hw-stations.md)
@@ -96,6 +97,7 @@
 ## [Paramétrer l'analyse RFM](set-up-rfm-analysis.md)
 
 # Remises et ajustements de prix
+## [Gestion des prix de vente au détail](price-management.md)
 ## [Ajustements de prix et remises](price-adjustments-discounts.md)
 ## [Déterminer la combinaison optimale de cumuls de remises](optimal-combination-overlapping-discounts.md)
 ## [Définir les remises spécifiques à un canal](define-channel-specific-discounts.md)
@@ -124,7 +126,7 @@
 ## [Gérer le stock de magasin](work-with-store-inventory.md)
 ## [Numéros de série de la caisse enregistreuse dans le processus de vente](../supply-chain/sales-marketing/register-serial-numbers-sales-process.md)
 ## [Journaux de stock](../supply-chain/inventory/inventory-journals.md)
-## [Comptage des balises de stock](../supply-chain/inventory/inventory-tag-counting.md)
+## [Inventaire de balise de stock](../supply-chain/inventory/inventory-tag-counting.md)
 ## [FIFO avec valeur physique et marquage](../supply-chain/cost-management/fifo-physical-value-marking.md)
 ## [Date LIFO avec valeur physique et marquage](../supply-chain/cost-management/lifo-date-physical-value-marking.md)
 ## [LIFO avec valeur physique et marquage](../supply-chain/cost-management/lifo-physical-value-marking.md)
@@ -139,14 +141,18 @@
 ## [Paramétrage des composants d'une tâche](../talent/create-job.md)
 
 # Fonctions locales et relatives aux réglementations
+## France
+### [Caisses enregistreuses pour la France](localizations/emea-fra-cash-registers.md)
+### [Instructions de déploiement de caisses enregistreuses pour la France](localizations/emea-fra-deployment.md)
 ## Inde
-### [Intégration GST des caisses enregistreuses pour l'Inde](localizations/apac-ind-cash-registers.md)
-### [Instructions de déploiement de caisses enregistreuses pour l'Inde](localizations/apac-ind-loc-deployment-guidelines.md)
+### [Intégration GST des caisses enregistreuses](localizations/apac-ind-cash-registers.md)
+### [Instructions de déploiement de caisses enregistreuses en Inde](localizations/apac-ind-loc-deployment-guidelines.md)
 ## Norvège
 ### [Caisses enregistreuses pour la Norvège](localizations/emea-nor-cash-registers.md)
-### [Instructions de déploiement de caisses enregistreuses pour la Norvège](localizations/emea-nor-loc-deployment-guidelines.md)
+### [Instructions de déploiement de caisses enregistreuses en Norvège](localizations/emea-nor-loc-deployment-guidelines.md)
 ## Suède
 ### [Caisses enregistreuses pour la Suède](localizations/emea-swe-cash-registers.md)
+### [Exemple pour l'intégration de Retail POS avec des unités de contrôle](dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
 
 # Tâches de Retail
 ## [Créer un produit](../supply-chain/pim/tasks/create-product.md)
@@ -223,7 +229,7 @@
 ### [Conseils de mise en œuvre pour la gestion des périphériques](implementation-considerations-devices.md)
 
 ## Configuration de l'environnement
-### [Ajouter des liens à la déclaration de confidentialité et aux conditions légales de votre organisation](../dev-itpro/sysadmin/legal-terms-privacy-statement.md?toc=/retail/toc.json)
+### [Ajouter des liens vers la déclaration de confidentialité et les conditions juridiques de votre organisation](../dev-itpro/sysadmin/legal-terms-privacy-statement.md?toc=/retail/toc.json)
 ### [Gérer Bing Cartes](dev-itpro/manage-bing-maps.md)
 
 ## Extensibilité du point de vente
@@ -257,18 +263,20 @@
 ### [Configurer un magasin en ligne](dev-itpro/configure-online-store.md)
 ### [Configurer les fournisseurs d'authentification](dev-itpro/configure-authentication-providers.md)
 ### [Plateforme de e-Commerce](dev-itpro/ecommerce-platform.md)
-### [SDK de plateforme de e-Commerce](dev-itpro/ecommerce-platform-sdk.md)
+### [Kit de développement logiciel (SDK) de plateforme de e-Commerce](dev-itpro/ecommerce-platform-sdk.md)
 
 ## Extensibilité du connecteur de paiement
-### [Implémenter un connecteur de paiement et un périphérique de paiement (livre blanc)](http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
+### [Intégration de paiement avec un terminal de paiement](dev-itpro/end-to-end-payment-extension.md)
+### [Implémentation d'un connecteur de paiement et d'un périphérique de paiement (livre blanc)](http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
 ### [Déployer un connecteur de paiement](dev-itpro/deploy-payment-connector.md)
 ### [Créer un programme d'installation Windows pour un connecteur de paiement](dev-itpro/create-windows-installer-payment-connector.md)
 
 ## [Retail SDK](dev-itpro/retail-sdk/retail-sdk-overview.md)
 ### [Intégrer le kit Retail SDK dans le système d'élaboration continue](dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md)
-### [Exemples d'extensibilité du kit Retail SDK](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
-### [Package du kit Retail SDK](dev-itpro/retail-sdk/retail-sdk-packaging.md)
-### [Exemples du kit Retail SDK ](dev-itpro/retail-sdk/retail-sdk-samples.md)
+### [Exemples d'extensibilité du Kit de développement logiciel (SDK) Retail](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
+### [Empaquetage du Kit de développement logiciel (SDK) Retail](dev-itpro/retail-sdk/retail-sdk-packaging.md)
+### [Exemples de Kits de développement logiciel (SDK) Retail ](dev-itpro/retail-sdk/retail-sdk-samples.md)
+#### [Points d'extension pour les bons de livraison](dev-itpro/extensions-shipping-carrier-integration.md)
 ### [Extensions de la base de données de canal](dev-itpro/channel-db-extensions.md)
 ### [Extensibilité CDX](dev-itpro/cdx-extensibility.md)
 ### [Attributs de commande](dev-itpro/order-attributes.md)
