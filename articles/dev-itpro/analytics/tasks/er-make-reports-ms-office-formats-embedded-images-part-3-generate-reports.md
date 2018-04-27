@@ -1,5 +1,5 @@
 --- 
-title: "Générer des états aux formats Microsoft Office avec des images intégrées pour la gestion des états électroniques (ER)"
+title: "Générer des états dans des formats Microsoft Office avec des images intégrées"
 description: "Les étapes suivantes expliquent comment un utilisateur jouant le rôle de « Administrateur système » ou de « Développeur d'états électroniques » peut créer des configurations d'états électroniques (ER) pour générer des documents électroniques au format MS Office (Excel et Word) contenant des images intégrées."
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 4fa27996e59164126f7900edf4a509ca9273e7c1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e2ab89857f4bf4844123508837c8faa504bc8839
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="generate-reports-in-microsoft-office-formats-with-embedded-images-for-electronic-reporting-er"></a>Générer des états aux formats Microsoft Office avec des images intégrées pour la gestion des états électroniques (ER)
+# <a name="generate-reports-in-microsoft-office-formats-with-embedded-images"></a>Générer des états dans des formats Microsoft Office avec des images intégrées
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Les étapes suivantes expliquent comment un utilisateur jouant le rôle de « Administrateur système » ou de « Développeur d'états électroniques » peut créer des configurations d'états électroniques (ER) pour générer des documents électroniques au format MS Office (Excel et Word) contenant des images intégrées.
 

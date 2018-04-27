@@ -18,24 +18,23 @@ ms.author: josaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: c42a7e50d6efb6408e480b50b3e520f5812aeb56
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c301f27504f7f1545608bb214a4f1b4d4cecc47f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="new-or-updated-task-guides-may-2016"></a>Guides de tâches nouveaux ou mis à jour (mai 2016)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article répertorie les guides de tâches nouveaux ou mis à jour ont été publiés dans la bibliothèque unifiée APQC (mai 2016 - toutes les langues) de Microsoft pour Microsoft Dynamics AX. Aucune nouvelle Bibliothèque de mise en route n'a été publiée. 
 
 <a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()Guides de tâches dans la bibliothèque unifiée APQC (mai 2016 - toutes les langues) pour Microsoft Dynamics AX
 ------------------------------------------------------------------------------------------------
 
-La bibliothèque unifiée APQC (mai 2016) contient les guides de tâches qui sont destinés à être utilisés pour de l’aide avec la mise à jour de mai 2016 de Microsoft Dynamics AX et la version de février 2016 de Microsoft Dynamics AX. Des versions localisées des guides des tâches qui ont été publiés dans la bibliothèque unifiée APQC (février 2016) sont disponibles dans cette bibliothèque. Pour plus d’informations sur la façon de se connecter au système d’aide dans une bibliothèque de guide de tâche, voir [Prise en main de l'aide](help-overview.md). **Remarque :** un astérisque (**\***) en regard du titre d’une ligne de Concepteur de processus d'entreprise indique que le guide de tâche de ce processus a été créé pour la mise à jour de mai 2016 de Dynamics AX et qu’il n’est pas pris en charge dans les versions antérieures de Microsoft Dynamics AX.
+La bibliothèque unifiée APQC (mai 2016) contient les guides de tâches qui sont destinés à être utilisés pour de l’aide avec la mise à jour de mai 2016 de Microsoft Dynamics AX et la version de février 2016 de Microsoft Dynamics AX. Des versions localisées des guides des tâches qui ont été publiés dans la bibliothèque unifiée APQC (février 2016) sont disponibles dans cette bibliothèque. Pour plus d’informations sur la façon de se connecter au système d’aide dans une bibliothèque de guide de tâche, voir [Prise en main de l'aide](help-overview.md). <strong>Remarque :</strong> un astérisque (<strong>\</strong>*) en regard du titre d’une ligne de Concepteur de processus d'entreprise indique que le guide de tâche de ce processus a été créé pour la mise à jour de mai 2016 de Dynamics AX et qu’il n’est pas pris en charge dans les versions antérieures de Microsoft Dynamics AX.
 
 ### <a name="countryregion-functionality"></a>Fonctionnalité spécifique à un pays/une région
 
@@ -63,15 +62,15 @@ La bibliothèque unifiée APQC (mai 2016) contient les guides de tâches qui son
 
 ### <a name="electronic-reporting"></a>États électroniques
 
-| Ligne BPM                                                                   | Pays/Région |
+|                                  Ligne BPM                                  | Pays/Région |
 |----------------------------------------------------------------------------|----------------|
-| ER Configurer des destinations                                                  | Général         |
-| ER Concevoir une configuration pour générer des états au format OPENXML         | Général         |
-| ER Générer les documents électroniques pour les paiements à l'aide d'une configuration de format | Général         |
-| ER Charger une configuration à partir de Lifecycle Services                          | Général         |
-| **\***ER Sélectionner un fournisseur de services                                           | Général         |
-| ER Mettre à niveau votre format en adoptant la nouvelle version de base de ce format      | Général         |
-| ER Charger une configuration dans Lifecycle Services                          | Général         |
+|                         ER Configurer des destinations                          |     Général     |
+|     ER Concevoir une configuration pour générer des états au format OPENXML     |     Général     |
+| ER Générer les documents électroniques pour les paiements à l'aide d'une configuration de format |     Général     |
+|             ER Charger une configuration à partir de Lifecycle Services              |     Général     |
+|               <strong>\</strong>*ER Sélectionner un fournisseur de services                |     Général     |
+|   ER Mettre à niveau votre format en adoptant la nouvelle version de base de ce format    |     Général     |
+|             ER Charger une configuration dans Lifecycle Services              |     Général     |
 
 ### <a name="human-capital-management"></a>Gestion du capital humain
 
@@ -177,17 +176,15 @@ La bibliothèque unifiée APQC (mai 2016) contient les guides de tâches qui son
 
 ### <a name="warehouse-and-transportation"></a>Entrepôt et transport
 
-| Ligne BPM                                                            | Pays/région |
-|---------------------------------------------------------------------|----------------|
-| Configurer le traitement de la vague                                           | Général         |
-| **\***Déclarer comme terminé à un emplacement qui ne fait pas l'objet d'un contrôle de contenant | Général         |
-| Paramétrer un processus de réapprovisionnement minimum/maximum                              | Général         |
-| Paramétrer la mise en conteneur                                             | Général         |
-| Paramétrer le processus d'emballage manuel                                               | Général         |
-| Définir des contraintes de transport pour un article                       | Général         |
-| **\***Paramétrer les stratégies de travail d'entrepôt                                | Général         |
-
-
+|                                     Ligne BPM                                     | Pays/région |
+|----------------------------------------------------------------------------------|----------------|
+|                            Configurer le traitement de la vague                             |     Général     |
+| <strong>\</strong>*Déclarer comme terminé à un emplacement qui ne fait pas l'objet d'un contrôle de contenant |     Général     |
+|                      Paramétrer un processus de réapprovisionnement minimum/maximum                      |     Général     |
+|                             Paramétrer la mise en conteneur                              |     Général     |
+|                              Paramétrer le processus d'emballage manuel                               |     Général     |
+|                  Paramétrer des contraintes de transport pour un article                   |     Général     |
+|                <strong>\</strong>*Paramétrer les stratégies de travail d'entrepôt                 |     Général     |
 
 <a name="see-also"></a>Voir également :
 --------

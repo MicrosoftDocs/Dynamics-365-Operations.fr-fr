@@ -1,5 +1,5 @@
 --- 
-title: "Définir la dépendance des configurations à partir d'autres composants pour la gestion des états électroniques (ER)"
+title: "Définir la dépendance des configurations vis-à-vis d'autres composants"
 description: "Pour réaliser ces étapes, vous devez commencer par effectuer les étapes du guide de tâche, ER Gérer les configurations de mise en correspondance de modèle, et vous devez avoir accès à Microsoft Dynamics Lifecycle Services (LCS)."
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a1ccd440353e986d296de370506fb1951331e2cf
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: cbd65f0734f54ed497758faffb452e4f61ab2089
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="define-the-dependency-of-configurations-from-other-components-for-electronic-reporting-er"></a>Définir la dépendance des configurations à partir d'autres composants pour la gestion des états électroniques (ER)
+# <a name="define-the-dependency-of-configurations-from-other-components"></a>Définir la dépendance des configurations vis-à-vis d'autres composants 
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Pour réaliser ces étapes, vous devez commencer par effectuer les étapes du guide de tâche, ER Gérer les configurations de mise en correspondance de modèle, et vous devez avoir accès à Microsoft Dynamics Lifecycle Services (LCS).
 

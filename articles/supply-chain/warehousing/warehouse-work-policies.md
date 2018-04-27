@@ -20,17 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a0c900dc208736f1823be50e8522061406c9f126
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c2d72509b0dc4d0cea5b4f2478ae7f8fc163e78c
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="warehouse-work-policies"></a>Stratégies de travail d'entrepôt
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Les stratégies de travail d'entrepôt dans Microsoft Dynamics 365 for Finance and Operations contrôlent si le travail d'entrepôt est créé par les processus d'entrepôt pour la production, selon le type d'ordre de travail, l'emplacement de stockage et le produit.
 
@@ -68,14 +67,15 @@ Lorsque vous planifiez de configurer une stratégie de travail d'entrepôt pour 
 
 Voici un exemple de stratégie de travail que vous pouvez paramétrer, selon ces aspects.
 
-|                                         |                                                       |
-|-----------------------------------------|-------------------------------------------------------|
-|**Nom de la stratégie de travail**<br>                 |**Types d'ordre d'exécution**<br>                               |
-| Pas de rangement de 01     `                    |- Rangement du produit fini<br>                           |
-|                                         |**Emplacements**<br>                                      |
-|                                         |- O1   |                                               |
-|                                         |**Produits** <br>                                      |
-|                                         |- SC1                                                  |
+
+|                                       |                                       |
+|---------------------------------------|---------------------------------------|
+| <strong>Nom de la stratégie de travail</strong><br> | <strong>Types d'ordre d'exécution</strong><br> |
+|         Pas de rangement de 01     `          |     - Rangement du produit fini<br>      |
+|                                       |    <strong>Emplacements</strong><br>     |
+|                                       |                 - O1                  |
+|                                       |    <strong>Produits</strong> <br>     |
+|                                       |                 - SC1                 |
 
 Les procédures suivantes fournissent des instructions pas-à-pas sur le paramétrage de la stratégie de travail d'entrepôt pour ce scénario. Un exemple de paramétrage expliquant comment déclarer un ordre de fabrication comme terminé à un emplacement qui n'est pas contrôlé par contenant est également décrit.
 

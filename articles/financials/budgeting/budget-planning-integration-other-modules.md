@@ -19,16 +19,18 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: f50e58d63a9db4d6a8b5390174e2c7b87970717d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6db51f9fa180f0b8ce203fd2812c562b0201afa8
 ms.contentlocale: fr-fr
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="budget-planning-integration-with-other-modules"></a>Intégration de la planification budgétaire avec d'autres modules
 
-[!include[banner](../includes/banner.md)] Les plans budgétaires peuvent être générés à partir de plusieurs ressources différentes : Les éléments de base du processus périodique sont identiques pour toutes les ressources. 
+[!INCLUDE [banner](../includes/banner.md)]
+
+Les plans budgétaires peuvent être générés à partir de plusieurs ressources différentes : Les éléments de base du processus périodique sont identiques pour toutes les ressources. 
 
 
 
@@ -66,7 +68,7 @@ L'option **Historique** de l'onglet **Cible** permet d'utiliser les dates des do
 
 Le champ **Total regroupement par** en haut de la page détermine également la date utilisée. Ce champ calcule le total des montants et fixe éventuellement la date d'effet au premier jour de l'exercice ou de la période fiscale. 
 
-Plusieurs champs sous l'onglet **Cible** deviennent modifiables ou en lecture seule, selon l'action que vous sélectionnez. Lorsque vous passez de la création d'un plan budgétaire à la mise à jour d'un plan existant, le champ **Nom du plan budgétaire** n'est plus disponible, et les champs associés à la sélection d'un plan existant deviennent disponibles. Sous les deux onglets **Cible** et **Source**, le champ **Comptabilité** n'est jamais disponible, car la valeur est déterminée par le processus de planification budgétaire sélectionné. 
+Plusieurs champs sous l'onglet <strong>Cible</strong> deviennent modifiables ou en lecture seule, selon l'action que vous sélectionnez. Lorsque vous passez de la création d'un plan budgétaire à la mise à jour d'un plan existant, le champ <strong>Nom du plan budgétaire</strong> n'est plus disponible, et les champs associés à la sélection d'un plan existant deviennent disponibles. Sous les deux onglets <strong>Cible</strong> et <strong>Source**, le champ **Comptabilité</strong> n'est jamais disponible, car la valeur est déterminée par le processus de planification budgétaire sélectionné. 
 
 Le champ **Classe de budget** permet de définir les lignes du plan budgétaire en tant que transactions de dépense ou transactions de produit. Généralement, les transactions de produit sont des crédits dans un compte général et sont donc enregistrées comme montants négatifs. Généralement, ces transactions apparaissent également comme des montants négatifs dans le plan budgétaire. Toutefois, en ajoutant la classe budget comme champ dans la structure du plan, vous pouvez autoriser le produit à afficher des montants positifs.
 
@@ -111,7 +113,7 @@ Il n'existe aucun champ **Classe de budget**, car la classe budget (**Dépense**
 
 Vous pouvez utiliser des budgets de projet comme source en sélectionnant le modèle de prévision qui contient les montants de budget de projet. N'oubliez pas que les budgets de projet créent des entrées de prévision de projet en tant qu'approuvées.
 
-Pour sélectionner uniquement des coûts ou des produits pour les lignes de plan budgétaire, utilisez le filtre pour sélectionner **Mises à jour budgétaires : Type de montant = coût**. Pour sélectionner un seul type de prévision, utilisez le filtre pour sélectionner **Mises à jour budgétaires : Type de transaction = *xxx***. 
+Pour sélectionner uniquement des coûts ou des produits pour les lignes de plan budgétaire, utilisez le filtre pour sélectionner <strong>Mises à jour budgétaires : Type de montant = coût</strong>. Pour sélectionner un seul type de prévision, utilisez le filtre pour sélectionner <strong>Mises à jour budgétaires : Type de transaction = *xxx</strong>*. 
 
 Seul un modèle de prévision peut être utilisé pour générer un scénario de plan budgétaire. Si vous exécutez le processus pour un modèle de prévision, puis effectuez une mise à jour et essayez de spécifier un autre modèle, le premier modèle est remplacé si le même projet et les mêmes comptes généraux s'appliquent. Pour générer un scénario de plan budgétaire à partir de plusieurs modèles de prévision, générez-le en différents scénarios de plan budgétaire, et utilisez les options de répartition pour les regrouper dans un autre scénario. 
 

@@ -19,17 +19,16 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: dc78b3721b35705ba65370a64bfe3606308766ce
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c8d2bdd40c16000e080c215aa4eaaf807770949f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="posting-definitions-in-the-public-sector"></a>Définitions de validation dans le secteur public
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article fournit des exemples de définitions de validation dans le secteur public qui vous permettent de créer les lignes du journal de comptabilité auxiliaire pour les transactions d'origine correspondant aux critères sélectionnés. Ces exemples incluent des affectations budgétaires, des réglementations en espèces regroupés, des radiations, des règlements de contre remboursement, des écritures comptables avancées, une clôture de fin d'exercice de comptabilité et des fonds propriétaires.
 
@@ -349,10 +348,10 @@ Ensuite, dans la définition de validation, entrez les critères de rapprochemen
 
 ### <a name="posting-definition--generated-entries-for-match-criteria--row-1"></a>Définition de validation – Entrées générées pour les critères de rapprochement – Ligne 1
 
-| Structure de compte | Numéro de compte généré                                                               | Débit/crédit généré |
-|-------------------|----------------------------------------------------------------------------------------|------------------------|
-| Solde           | 999 - 11530 (Débite l'entrée de type validation du solde client sur le crédit qui est émis.) | Balancement          |
-| Idem              | 999 - (Crédite les ventes dans le fonds 999.)                                         | Idem                   |La définition de validation doit contenir l'entrée suivante pour chaque fonds autre que le fonds du trésorier (999).
+| Structure de compte |                                 Numéro de compte généré                                  | Débit/crédit généré |
+|-------------------|-------------------------------------------------------------------------------------------|------------------------|
+|      Solde      | 999 - 11530 (Débite l'entrée de type validation du solde client sur le crédit qui est émis.) |       Balancement        |
+|       Idem        |                      999 - (Crédite les ventes dans le fonds 999.)                       |          Idem          |
 
 ### <a name="posting-definition--match-criteria--row-2"></a>Définition de validation – Critères de rapprochement – Ligne 2
 

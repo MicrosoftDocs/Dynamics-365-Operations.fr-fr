@@ -18,15 +18,15 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ba1a3a78d59f3aec91473ba9bb20bda4804ec92e
-ms.openlocfilehash: 0a43f5ff0987ede9f0cb80e5b4854f78e19e329b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b4b54e97bdebc158adc3bc6d57a6661cd536f5fb
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="provision-microsoft-dynamics-365-for-talent"></a>Mettre en service Microsoft Dynamics 365 for Talent
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Cette rubrique décrit le processus de mise en service d'un nouvel environnement de production pour Microsoft Dynamics 365 for Talent. Cette rubrique suppose que vous avez acheté Talent par l'intermédiaire d'un fournisseur de solutions Cloud (CSP) ou dans le cadre d'un contrat d'architecture d'entreprise (EA). Si vous disposez d'une licence Microsoft Dynamics 365 existante qui inclut déjà le plan de service Talent et que vous ne pouvez pas effectuer les étapes décrites dans cette rubrique, contactez le support technique.
 
@@ -79,12 +79,12 @@ Utilisez les consignes suivantes pour déterminer dans quel environnement PowerA
  
     **Environnements CDS 2.0** CDS 2.0 sera rendu disponible au public le 21 mars 2018 ; toutefois, Talent ne prend pas encore en charge CDS 2.0. Même si vous pouvez afficher et créer des bases de données CDS 2.0 dans le Centre d'administration PowerApps, elles ne sont pas utilisables dans Talent. L'option pour utiliser les environnements CDS 2.0 dans les déploiements de Talent sera disponible à une date ultérieure.
    
- > [!Note]
- > Pour distinguer les environnements CDS 1.0 et 2.0 dans le portail d'administration, sélectionnez un environnement et consultez **Détails**. Les environnements CDS 2.0 font tous référence au fait que « Vous pouvez gérer ces paramètres dans le Centre d'administration de Dynamics 365 », pointent vers une version d'instance, et n'ont aucun onglet Base de données. 
+   > [!Note]
+   > Pour distinguer les environnements CDS 1.0 et 2.0 dans le portail d'administration, sélectionnez un environnement et consultez **Détails**. Les environnements CDS 2.0 font tous référence au fait que « Vous pouvez gérer ces paramètres dans le Centre d'administration de Dynamics 365 », pointent vers une version d'instance, et n'ont aucun onglet Base de données. 
  
    **Environnements PowerApps par défaut** Bien que chaque locataire soit automatiquement provisionné avec un environnement PowerApps par défaut, nous ne vous recommandons pas de l'utiliser avec Talent, car tous les utilisateurs d'un locataire ont accès à l'environnement PowerApps et peuvent involontairement endommager des données de production lors de tests et en explorant avec les intégrations PowerApps ou Flow.
    
-   **Environnements de test** Les environnements avec un nom comme « TestDrive – alias@domain » sont créés avec une période d'expiration de 60 jours et expirent après ce délai, entraînant la suppression automatique de votre environnement.
+   <strong>Environnements de test</strong> Les environnements avec un nom comme « TestDrive – alias@domain » sont créés avec une période d'expiration de 60 jours et expirent après ce délai, entraînant la suppression automatique de votre environnement.
    
    **Zones non prises en charge** Actuellement, Talent n'est pris en charge que dans les zones suivantes : États-Unis, Europe ou Australie.
   
@@ -115,7 +115,7 @@ Complétez les instructions suivantes pour exécuter le script :
    ```.\ProvisionCDSEnvironment -EnvironmentName MyNewEnvironment -Location YourLocation```
 
     
-   **EnvironmentName** doit être remplacé par votre nom d'environnement. Ce nom s'affichera dans LCS et sera visible lorsque les utilisateurs sélectionnent l'environnement Talent à utiliser. 
+   **MyNewEnvironment** doit être remplacé par votre nom d'environnement. Ce nom s'affichera dans LCS et sera visible lorsque les utilisateurs sélectionnent l'environnement Talent à utiliser. 
 
    **YourLocation** doit être remplacé par l'une des régions prises en charge par Talent : États-Unis, Europe, Australie. 
 

@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: d9b61e545067db592545d5fbce7b4315c51a8bf8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a4cfd017fe10bbda6eda0e3a9a045e0832b08753
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="formula-designer"></a>Concepteur de formule
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique décrit l'utilisation du concepteur de formules pour analyser et tenir à jour les formules dans une arborescence.
 
@@ -88,7 +88,7 @@ Le filtre appliqué pour la formule et la gamme s'affiche en en-tête du concept
 </tr>
 <tr class="odd">
 <td>Quantité de départ</td>
-<td>Filtrez les versions en sélectionnant une quantité de « début » spécifique. Si vous définissez une valeur, différentes versions de formule et de gamme peuvent être sélectionnées.</td>
+<td>Filtrez les versions en sélectionnant une quantité de &quot;début&quot; spécifique. Si vous définissez une valeur, différentes versions de formule et de gamme peuvent être sélectionnées.</td>
 </tr>
 <tr class="even">
 <td>Afficher valides uniquement</td>
@@ -116,8 +116,10 @@ Utilisez les fonctions **Lignes de nomenclature** ou **Formule** pour modifier l
 ## <a name="configuring-the-tree-view"></a>Paramétrage de l'arborescence
 Cliquez sur **Paramétrage** pour personnaliser les informations qui s'affichent dans l'arborescence du concepteur de formules.
 
-| Groupe de champs | Description |
-|-------------|-------------|
-| Nomenclature         | Utilisez les cases à cocher pour sélectionner les critères affichés dans l'arborescence. Le concepteur de formule affiche les critères sélectionnés en bas des deux onglets. |
-| Gamme       | Utilisez les cases à cocher pour sélectionner les critères affichés pour les gammes. |
+
+| Groupe de champs |                                                                          Description                                                                          |
+|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|     Nomenclature     | Utilisez les cases à cocher pour sélectionner les critères affichés dans l'arborescence. Le concepteur de formule affiche les critères sélectionnés en bas des deux onglets. |
+|    Gamme    |                                           Utilisez les cases à cocher pour sélectionner les critères affichés pour les gammes.                                           |
+
 

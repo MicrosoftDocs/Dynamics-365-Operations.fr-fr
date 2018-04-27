@@ -19,16 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 53f40b8988182312d753472af10b0752ee862bd2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8bc3d23fac6112622e722e57b61fdb686f5a98ed
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="work-breakdown-structures"></a>Structures de répartition du travail
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Une structure de répartition du travail (WBS) est une description du travail qui sera effectué pour un projet. Il s'agit d'une hiérarchie des tâches qui représente la compréhension par l'équipe projet de la composition du travail, de son étendue, du coût et de la durée de chaque composant ou tâche. Une WBS a trois objectifs principaux :
 
@@ -115,7 +115,7 @@ L'estimation de planification est généralement la deuxième étape de la créa
 
 La date de début d'une tâche de nœud terminal qui n'a pas de prédécesseur est automatiquement définie sur la date de début de la planification de projet. La durée d'une tâche de nœud terminal est toujours calculée comme le nombre de jours ouvrables entre sa date de début et sa date de fin. 
 
-****Règles de planification**** Lorsque l'aide de planification automatique est activée, les règles suivantes s'appliquent à la planification des tâches pour les tâches de nœud terminal :
+*<strong><em>Règles de planification</em></strong>* Lorsque l'aide de planification automatique est activée, les règles suivantes s'appliquent à la planification des tâches pour les tâches de nœud terminal :
 
 -   Les dates de début et de fin d'une tâche donnée doivent être des jours ouvrables, en fonction du calendrier de planification du projet.
 -   La date de début d'une tâche qui a des prédécesseurs est automatiquement définie à la dernière date de fin de tous ses prédécesseurs.

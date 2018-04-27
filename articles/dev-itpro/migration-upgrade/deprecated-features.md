@@ -3,7 +3,7 @@ title: "Fonctionnalités obsolètes"
 description: "Cette rubrique décrit les fonctions qui ont été supprimées, ou qu'il est prévu de supprimer."
 author: sericks007
 manager: AnnBe
-ms.date: 02/05/2018
+ms.date: 03/22/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,16 +18,16 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 0618d71fdb4b29bfdacd6b9e1a8ed47e03abe00d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e629673c3a923ec74809e276ec39464bfacda124
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="removed-or-deprecated-features"></a>Fonctions supprimées ou déconseillées
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique décrit les fonctions qui ont été supprimées ou déconseillées pour Dynamics 365 for Finance and Operations.
 
@@ -37,7 +37,10 @@ Cette rubrique décrit les fonctions qui ont été supprimées ou déconseillée
 Cette liste est conçue pour vous aider à prendre en compte ces suppressions et abandons pour votre propre planification. 
 
 > [!Note]
-> À partir de la version de juillet 2017 de Dynamics 365 for Finance and Operations, Enterprise Edition avec mise à jour 8 de la plateforme, les types de déploiements sont indiqués pour chaque fonction supprimée ou déconseillée. Toutes les versions précédentes mentionnées dans cette rubrique ne prenaient en charge que les déploiements dans le cloud.
+> À partir de la version de juillet 2017 de Dynamics 365 for Finance and Operations avec platform update 8, les types de déploiements sont indiqués pour chaque fonction supprimée ou déconseillée. Toutes les versions précédentes mentionnées dans cette rubrique ne prenaient en charge que les déploiements dans le cloud.
+
+## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>Dynamics 365 for Finance and Operations avec platform update 15
+Aucune fonctionnalité n'a été supprimée ou rendue obsolète avec cette version. Platform update 15 est cumulative et contient les fonctionnalités, nouvelles ou modifiées, depuis Platform update 13, Platform update 14, et Platform update 15.
 
 ## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 avec mise à jour 12 de la plateforme
 
@@ -96,7 +99,7 @@ L'interface utilisateur standard de gestion des données est l'interface utilisa
 | **Remplacé par une autre fonctionnalité ?**   | La nouvelle interface utilisateur appelée *Vues améliorées* remplace l'ancienne interface utilisateur.            |
 | **Zones de produit affectées**         | Espace de travail de gestion des données                                                     |
 | **Option de déploiement**              | Tout                                                                           |
-| **Statut**                         | Déconseillé : le délai cible pour la suppression de la fonctionnalité est le premier trimestre 2018. |
+| **Statut**                         | Obsolète : le délai cible pour la suppression de la fonctionnalité est le deuxième trimestre 2018. |
 
 ### <a name="excise-sales-tax-service-tax-for-india"></a>Contributions indirectes, taxe, taxe sur les services pour l'Inde
 
@@ -1033,10 +1036,11 @@ L'application pour tablettes Windows 8 a fourni la fonctionnalité pour la sais
 
 ### <a name="x-financial-statements"></a>Tableaux d'analyse X++
 
-|   |  |
-|------------|--------------------|
-| **Motif de l'abandon/de la suppression** | Cette fonctionnalité a été remplacée par une autre.                                    |
-| **Remplacé par une autre fonctionnalité ?**   | Management Reporter (appelé **États financiers** dans la version actuelle de Dynamics AX) |
-| **Zones de produit affectées**         | Comptabilité                                                                              |
-| **Statut**                         | Supprimé à partir de Dynamics AX 2012                                                              |
+|                                                 |                                                                                                          |
+|-------------------------------------------------|----------------------------------------------------------------------------------------------------------|
+| <strong>Motif de l'abandon/de la suppression</strong> |                         Cette fonctionnalité a été remplacée par une autre.                         |
+|  <strong>Remplacé par une autre fonctionnalité ?</strong>  | Management Reporter (appelé <strong>États financiers</strong> dans la version actuelle de Dynamics AX) |
+|     <strong>Zones de produit affectées</strong>     |                                              Comptabilité                                              |
+|             <strong>Statut</strong>             |                                      Supprimé à partir de Dynamics AX 2012                                      |
+
 

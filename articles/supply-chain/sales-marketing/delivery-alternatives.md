@@ -20,17 +20,16 @@ ms.author: crytt
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: cbfbdf5f79ef557ea934505285b57562b0b289ba
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 58c083b2fa76e90d10ec8a197a4743a9e315db46
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="delivery-alternatives"></a>Autres modes de livraison
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Les responsables des commandes client peuvent utiliser la page Autres modes de livraison pour connaître les options alternatives d'exécution de commande.
 
@@ -61,7 +60,7 @@ La méthode de contrôle de la date de livraison détermine comment le système 
 <td><strong>Description</strong></td>
 </tr>
 <tr class="even">
-<td><strong>Aucune</strong></td>
+<td><strong>Aucun</strong></td>
 <td><ul>
 <li>Les alternatives de livraison pour les lignes de vente ne sont pas prises en charge. Cette option arrête le contrôle des données de livraison.</li>
 </ul></td>

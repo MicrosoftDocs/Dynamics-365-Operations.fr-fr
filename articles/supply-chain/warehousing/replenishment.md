@@ -20,16 +20,16 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 1b6086f7769086a9cdbb61c03882ea21d908ab4a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 41f77a837f446e0ef263f1554a333d6e48248a0e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="replenishment"></a>Réapprovisionnement
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique décrit les stratégies de réapprovisionnement disponibles pour les entrepôts qui utilisent la fonctionnalité qui est disponible dans Gestion des entrepôts. Ces informations dans cette rubrique ne s'appliquent pas à la solution de stockage disponible dans la Gestion des stocks.
 
@@ -67,13 +67,15 @@ Le réapprovisionnement de demande de chargement additionne la demande de plusie
 Au lieu de devoir ajouter la demande à la fin d'un processus de répartition et effectuer le réapprovisionnement sur la base de la quantité récapitulative, vous pouvez appliquer la stratégie de réapprovisionnement automatique. Lorsque vous utilisez cette stratégie, le stock peut être réapprovisionné immédiatement après qu'une ligne d'instruction d'emplacement échoue. Par conséquent, vous pouvez configurer le réapprovisionnement afin qu'il soit limité par des unités spécifiques et qu'il utilise des quantités définies pour des emplacements spécifiques.
 
 ## <a name="replenishment-prerequisites"></a>Conditions prérequises du réapprovisionnement
-| Logiciel requis            | Description |
-|-------------------------|-------------|
-| Article                    | L'article doit être activé pour les processus de gestion des entrepôts. |
-| Entrepôt               | L'entrepôt doit être activé pour les processus de gestion des entrepôts. Pour activer un entrepôt pour les processus de gestion des entrepôts, dans la page **Entrepôts**, sélectionnez l'entrepôt, puis activez l'option **Utiliser les processus de gestion des entrepôts**. |
-| Modèles de réapprovisionnement | Au moins un modèle de réapprovisionnement doit être configuré pour le réapprovisionnement minimal/maximal, le réapprovisionnement de la demande de vague ou le réapprovisionnement de la demande de chargement. |
-| Lieux               | Les emplacements doivent être créés et associés à un profil d’emplacement. |
-| Profils d'emplacement       | Les profils d’emplacement sont nécessaires pour créer des emplacements. |
-| Instructions d'emplacement     | Les instructions d’emplacement sont nécessaires pour guider le travail vers les emplacements où le réapprovisionnement est requis et vers les emplacements d'où est tiré le stock. |
-| Modèles de travail          | Les modèles de travail du type **Réapprovisionnement** sont requis pour créer le travail de réapprovisionnement afin que le stock puisse être déplacé vers les emplacements souhaités. |
+
+|      Logiciel requis       |                                                                                                                                Description                                                                                                                                 |
+|-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|          Article           |                                                                                                        L'article doit être activé pour les processus de gestion des entrepôts.                                                                                                        |
+|        Entrepôt        | L'entrepôt doit être activé pour les processus de gestion des entrepôts. Pour activer un entrepôt pour les processus de gestion des entrepôts, dans la page <strong>Entrepôts</strong>, sélectionnez l'entrepôt, puis activez l'option <strong>Utiliser les processus de gestion des entrepôts</strong>. |
+| Modèles de réapprovisionnement |                                                                   Au moins un modèle de réapprovisionnement doit être configuré pour le réapprovisionnement minimal/maximal, le réapprovisionnement de la demande de vague ou le réapprovisionnement de la demande de chargement.                                                                   |
+|        Lieux        |                                                                                                       Les emplacements doivent être créés et associés à un profil d’emplacement.                                                                                                       |
+|    Profils d'emplacement    |                                                                                                        Les profils d’emplacement sont nécessaires pour créer des emplacements.                                                                                                        |
+|   Instructions d'emplacement   |                                                       Les instructions d’emplacement sont nécessaires pour guider le travail vers les emplacements où le réapprovisionnement est requis et vers les emplacements d'où est tiré le stock.                                                        |
+|     Modèles de travail      |                                                   Les modèles de travail du type <strong>Réapprovisionnement</strong> sont requis pour créer le travail de réapprovisionnement afin que le stock puisse être déplacé vers les emplacements souhaités.                                                    |
+
 

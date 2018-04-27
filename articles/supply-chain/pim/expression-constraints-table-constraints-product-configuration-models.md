@@ -20,17 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 3206e53c4f2659c6d9b9be64b01ac28cdd17bc88
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0235cf112b59ee86f77d26044e47eb9bff8f67db
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Contraintes d'expression et contraintes de table dans les modèles de configuration de produit
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique décrit l'utilisation des contraintes d'expression et de table. Les contraintes permettent de contrôler les valeurs d'attribut que vous pouvez sélectionner lorsque vous configurez des produits pour une commande client, un devis de vente, une commande fournisseur ou un ordre de fabrication. Vous pouvez utiliser des contraintes d'expression ou des contraintes de table selon la façon dont vous préférez créer les contraintes. 
 
@@ -171,7 +170,7 @@ Les tableaux suivants répertorient les opérateurs et la notation d'infixe que 
 </tr>
 <tr class="even">
 <td>Puissance</td>
-<td>Prend un exponentiel. L'exponentiation est appliquée de droite à gauche. Autrement dit, elle est associative à droite. Par conséquent, <strong>Power[a, b, c]</strong> est équivalent à <strong>Power[a, Power[b, c]]</strong>. <strong>Power</strong> peut être utilisé uniquement si l'exposant est une constante positive.</td>
+<td>Prend un exponentiel. L'exponentiation est appliquée de droite à gauche. (Autrement dit, elle est associative à droite.) Par conséquent, <strong>Power[a, b, c]</strong> est équivalent à <strong>Power[a, Power[b, c]]</strong>. <strong>Power</strong> peut être utilisé uniquement si l'exposant est une constante positive.</td>
 <td>Power[args], infix: a ^ b ^ ... ^ z</td>
 <td><ul>
 <li><strong>Opérateur :</strong> Power[x, 2] == y</li>
@@ -204,23 +203,24 @@ Les tableaux suivants répertorient les opérateurs et la notation d'infixe que 
 
 Les exemples du tableau suivant indiquent comment entrer une notation d'infixe.
 
-| Notation d'infixe    | description ;                                                                                   |
+
+|  Notation d'infixe   |                                          description ;                                          |
 |-------------------|-----------------------------------------------------------------------------------------------|
-| x + y + z         | Addition                                                                                      |
-| x \* y \* z       | Multiplication                                                                                |
-| x - y             | La soustraction binaire est traduite de la même façon que l'addition binaire avec un second négatif. |
-| x ^ y ^ z         | Exponentiation avec associativité à droite                                                   |
-| !x                | Non booléen                                                                                   |
-| x -: y            | Implication booléenne                                                                           |
-| x | y | z         | Ou booléen                                                                                    |
-| x & y & z         | Et booléen                                                                                   |
-| x == y == z       | Égalité                                                                                      |
-| x != y != z       | Distinct                                                                                      |
-| x &lt; y &lt; z   | Inférieur à                                                                                     |
-| x &gt; y &gt; z   | Supérieur                                                                                  |
-| x &lt;= y &lt;= z | Inférieur ou égal à                                                                         |
-| x &gt;= y &gt;= z | Supérieur ou égal à                                                                      |
-| (x)               | Les parenthèses remplacent la priorité par défaut.                                                      |
+|     x + y + z     |                                           Addition                                            |
+|    x \* y \* z    |                                        Multiplication                                         |
+|       x - y       | La soustraction binaire est traduite de la même façon que l'addition binaire avec un second négatif. |
+|     x ^ y ^ z     |                          Exponentiation avec associativité à droite                          |
+|        !x         |                                          Non booléen                                          |
+|      x -: y       |                                      Implication booléenne                                      |
+|         x         |                                               y                                               |
+|     x & y & z     |                                          Et booléen                                          |
+|    x == y == z    |                                           Égalité                                            |
+|    x != y != z    |                                           Distinct                                            |
+|  x &lt; y &lt; z  |                                           Inférieur à                                           |
+|  x &gt; y &gt; z  |                                         Supérieur                                          |
+| x &lt;= y &lt;= z |                                     Inférieur ou égal à                                     |
+| x &gt;= y &gt;= z |                                   Supérieur ou égal à                                    |
+|        (x)        |                           Les parenthèses remplacent la priorité par défaut.                            |
 
 ## <a name="why-arent-my-expression-constraints-validated-correctly"></a>Pourquoi mes contraintes d'expression ne sont-elle pas validées correctement ?
 Vous ne pouvez pas utiliser de mots clés réservés comme nom de solveur pour les attributs, les composants ou les sous-composants dans un modèle de configuration de produit. Voici la liste des mots clés réservés que vous n'avez pas le droit d'utiliser :

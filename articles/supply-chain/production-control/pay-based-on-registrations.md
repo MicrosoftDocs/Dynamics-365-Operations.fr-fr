@@ -19,16 +19,16 @@ ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 6cd1e3a1f6b5c979a4f60d97cc2203cdcd32bbbe
-ms.openlocfilehash: 6de88b82c9a663bfe6d2756fde6f1a7412a44b1e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1ae0f142ebd2252b1df414998c153d32127bc1b7
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="pay-based-on-registrations"></a>Salaire basé sur les enregistrements
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique explique, en détail, comment le salaire est calculé sur la base des enregistrements des collaborateurs. Elle contient des exemples qui montrent la manière dont les différentes combinaisons d'options de paramétrage disponibles pour le calcul affectent le résultat. Voici quelques-uns des points qui seront abordés :
 
@@ -446,7 +446,7 @@ Vous pouvez créer une absence planifiée pour les collaborateurs dans la page *
 La tâche est basée sur une requête. Par conséquent, vous pouvez créer une absence planifiée pour plusieurs collaborateurs, par exemple les collaborateurs appartenant au même groupe de calcul. Si l'absence planifiée concerne un collaborateur unique, l'enregistrement peut être entré à partir de la page **Présence** ou de la page **Enregistrement du temps des collaborateurs**.
 
 - Pour entrer un enregistrement d'absence à partir de la page **Présence**, sélectionnez **Pointage** &gt; **Recherches et états** &gt; **Présence** &gt; **Présence**, puis sélectionnez **Enregistrement d'absence**.
-- Pour entrer un enregistrement d'absence à partir de la page ****Enregistrement du temps des collaborateurs****, sélectionnez **Pointage** &gt; **Paramétrage** &gt; **Enregistrement du temps des collaborateurs**, puis sous l'onglet **Temps**, sous **Attribution du temps**, sélectionnez **Enregistrements d'absence**.
+- Pour entrer un enregistrement d'absence à partir de la page *<strong><em>Enregistrement du temps des collaborateurs</em></strong>*, sélectionnez <strong>Pointage</strong> &gt; <strong>Paramétrage</strong> &gt; <strong>Enregistrement du temps des collaborateurs</strong>, puis sous l'onglet <strong>Temps</strong>, sous <strong>Attribution du temps</strong>, sélectionnez <strong>Enregistrements d'absence</strong>.
 
 Vous pouvez utiliser l'état **Absences planifiées** pour afficher une vue d'ensemble des absences planifiées des collaborateurs. Pour ouvrir cet état, sélectionnez **Pointage** &gt; **Recherches et états** &gt; **États des absences** &gt; **Absences planifiées**.
 

@@ -18,29 +18,29 @@ ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
-ms.openlocfilehash: 27c03f7bd61ee7d4cb1d01f04af2f1821e9988e1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 93333757995c874c2cf03514acff28a54ae7f787
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="enter-payroll-beginning-balances"></a>Saisir des soldes d'ouverture de salaire
 
-[!include[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 La rubrique décrit les étapes pour entrer des soldes d'ouverture pour les codes de rémunération, les déductions, les avantages et les taxes. Ces informations sont précieuses pour les partenaires qui transfèrent des données pour une nouvelle implémentation du salaire à partir d'un autre système. Pour commencer à entrer les soldes d'ouverture de salaires, nous vérifions les informations suivantes :
 
 > * Les enregistrements employé sont entrés et disponibles dans le système
 > * Les données suivantes sont configurées et attribuées aux employés :
-
+> 
 > > * Cycles de paie et périodes de rémunération
 > > * Codes de rémunérations
 > > * Taxes
 > > * Avantages et déductions
-
+> 
 > * La société doit avoir sélectionné une date à laquelle les soldes d'ouverture de salaire peuvent être définies.
-
+> 
 > * Les informations recueillies ont été collectées à partir de tous les bénéfices, avantages/déductions, contributions pour les avantages, cotisations de l'employé et cotisations de l'employeur, ainsi que de leurs montants de cumul annuel issus du système hérité.
 
 Comme vous envisagez d'entrer des soldes d'ouverture, déterminez le contenu des données. La plupart des entreprises entre un seul montant consolidé de l'année en cours. Cependant si des informations plus détaillées sont nécessaires, les soldes peuvent être entrés en incréments trimestriels. Déterminer le niveau de détail qui est nécessaire indique le nombre de bordereaux de paie manuels devant être créés pour chaque collaborateur. Pour un seul montant de l'année en cours, un seul relevé manuel est nécessaire pour chaque employé. Pour ce faire, utilisez les montants cumulés depuis le bordereau de paie final issu du système précédent lorsque vous saisissez le montant dans le nouveau système de paie.
@@ -128,26 +128,26 @@ Après avoir généré les bordereaux de paie avec des soldes d'ouverture, vous 
 
 4. Ouvrez l'onglet **Déductions des avantages** et entrez les informations suivantes :
 
-| Champ                           | Valeur            |
-|---------------------------------|------------------|
-| Avantage                         | Montant de la déduction |
-| 401K | Participer              | 3000.00          |
-| assurance pour les soins dentaires. | SubSp                  | 495,00           |
-| Dépenses liées aux soins au niveau du département | Participer | 2500.00          |
-| Vision | SupSp                  | 500,00           |
+|       Champ       |      Valeur        |
+|-------------------|------------------|
+|      Avantage      | Montant de la déduction |
+|       401K        |   Participer    |
+|      assurance pour les soins dentaires.       |      SubSp       |
+| Dépenses liées aux soins au niveau du département |   Participer    |
+|      Vision       |      SupSp       |
 
 5. Dans l'onglet **Contributions pour les avantages**, entrez les informations suivantes :
 
-| Champ              | Valeur               |
-|--------------------|---------------------|
-| Avantage            | Montant de la contribution |
-| 401K | Participer | 3000,00             |
-| assurance pour les soins dentaires. | SubSp     | 495,00              |
-| Vision | SubSp     | 500,00              |
+|  Champ  |        Valeur         |
+|---------|---------------------|
+| Avantage | Montant de la contribution |
+|  401K   |     Participer     |
+| assurance pour les soins dentaires.  |        SubSp        |
+| Vision  |        SubSp        |
 
 6. Dans l'onglet **Retenues fiscales**, entrez les informations suivantes :
 
-| Champ           | Valeur            |
+| Champ           | Valeur             |
 |-----------------|------------------|
 | Code taxe        | Montant de la déduction |
 | USA-FED-ER-FICA | 1600.00          |
@@ -156,8 +156,8 @@ Après avoir généré les bordereaux de paie avec des soldes d'ouverture, vous 
 7. Dans l'onglet **Contributions fiscales**, entrez les informations suivantes :
 
 8. Cliquez sur **Calculer.**
-> [!IMPORTANT] 
-> Validez les totaux du bordereau de paie pour qu'ils correspondent au cumul annuel du système hérité pour le collaborateur. Vous voudrez peut-être empêcher la finalisation à l'étape suivante pour effectuer une validation globale de tous les bordereaux de paie dans l'ensemble. Une fois validé, exécutez tous les bordereaux de paie et finalisez-les.
+   > [!IMPORTANT] 
+   > Validez les totaux du bordereau de paie pour qu'ils correspondent au cumul annuel du système hérité pour le collaborateur. Vous voudrez peut-être empêcher la finalisation à l'étape suivante pour effectuer une validation globale de tous les bordereaux de paie dans l'ensemble. Une fois validé, exécutez tous les bordereaux de paie et finalisez-les.
 
 Le même processus peut être effectué par incréments trimestriels, si nécessaire, pour tous les trimestres antérieurs, chaque année. Cela n'est nécessaire que si le client doit voir les données par trimestre sans revenir au système existant.
 

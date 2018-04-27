@@ -19,17 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e43b9397dd4e362eff9d78f302732e6bcc53d1db
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5081b3ff940167f305a6e17f97e246e5f8000185
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="manual-depreciation"></a>Amortissement manuel
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article donne une vue d'ensemble de la méthode d'amortissement manuelle.
 
@@ -67,7 +66,7 @@ Si vous sélectionnez **Mensuel** dans le champ**Période fréquence**, vous par
 | Janvier  | (11 000 – 1 000) × 10 % = 1 000 |
 | Février | (11 000 – 1 000) × 50 % = 5 000 |
 
-Si vous sélectionnez **Semestriel** dans le champ **Période fréquence**, vous paramétrez deux intervalles de planification manuels. Le tableau suivant illustre les montants d'amortissement pour ces deux intervalles.
+Si vous sélectionnez <strong>Semestriel</strong> dans le champ *<strong><em>Période fréquence</em>*</strong>, vous paramétrez deux intervalles de planification manuels. Le tableau suivant illustre les montants d'amortissement pour ces deux intervalles.
 
 | Intervalle    | Montant d'amortissement            |
 |-------------|--------------------------------|

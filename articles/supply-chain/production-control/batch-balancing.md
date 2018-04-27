@@ -19,19 +19,20 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 84e00ef62a995d37878de6b2786dbc2ee2277070
-ms.openlocfilehash: 8a1ec5a3b19d1022232527f4960617bd985bc2b3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 7d00df6263530ba9fff4c246cb3593cd607f6719
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="batch-balancing"></a>Équilibrage du lot
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
+Cette rubrique décrit la prise en charge du processus d'équilibrage du lot. 
 
-Cette rubrique décrit la prise en charge du processus d'équilibrage du lot.
+Visionnez une [vidéo sur l'équilibrage du lot dans Microsoft Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be)
 
 Lors du processus d'équilibrage du lot, le nombre de substances à utiliser dans un lot de production est calculé à partir de la concentration de substances actives dans les lots de produits sélectionnés.
 
@@ -179,7 +180,7 @@ Une fois les quantités de substances calculées, vous pouvez confirmer et lance
 
 -   Si un produit est activé pour les processus de gestion des entrepôts, la ligne de formule est lancée à l'entrepôt selon les principes appliqués aux processus de gestion des entrepôts. La ligne de formule est lancée dans des quantités correspondant aux quantités équilibrées, et elle est lancée pour les lots spécifiques sélectionnés pour les substances actives.
 
->   [!NOTE]
+> [!NOTE]
 >   Les lignes de formule peuvent être lancées à l'entrepôt uniquement dans le cadre du processus d'équilibrage du lot. Bien qu'il existe d'autres options de lancement des matières premières pour la production à l'entrepôt, celles-ci ne peuvent pas être utilisées pour les lignes de formule.
 
 -   Si un produit n'est pas activé pour les processus de gestion des entrepôts, un prélèvement en production est créé pour le produit lorsque vous confirmez et lancez la formule.

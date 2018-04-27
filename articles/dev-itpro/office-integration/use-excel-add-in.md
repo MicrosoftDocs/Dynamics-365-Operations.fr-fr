@@ -3,7 +3,7 @@ title: "Utiliser le module complémentaire Excel"
 description: "Cette rubrique explique comment ouvrir des données d'entité dans Microsoft Excel, puis les étudier, les mettre à jour et les modifier à l'aide du module complémentaire Microsoft Dynamics Office pour Excel."
 author: ChrisGarty
 manager: AnnBe
-ms.date: 11/30/2017
+ms.date: 04/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,16 +18,16 @@ ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: f3ed06dbbce21ac093107953d3a72d8ab086af2a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e0e3e86820e0857b320d832c3bf3c94757667919
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="use-the-excel-add-in"></a>Utiliser le module complémentaire Excel
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique explique comment ouvrir des données d'entité dans Microsoft Excel, puis les étudier, les mettre à jour et les modifier à l'aide du module complémentaire Microsoft Dynamics Office pour Excel. Pour ouvrir les données d'entité, vous pouvez utiliser Excel ou Microsoft Dynamics 365 for Finance and Operations.
 
@@ -35,6 +35,11 @@ En ouvrant des données d'entité dans Excel, vous pouvez rapidement les étudie
 
 > [!NOTE]
 > Remarque : si votre location Microsoft Azure Active Directory (Azure AD) est configurée pour utiliser les services AD FS (Active Directory Federation Services), vous devez vous assurer que la mise à jour de mai 2016 pour Office a été appliquée, de sorte de pouvoir vous connecter correctement au module complémentaire Excel.
+
+Pour en savoir plus sur l'utilisation du module complémentaire Excel, consultez la courte vidéo [Créer un modèle Excel pour les modèles d'en-tête et de ligne dans Dynamics 365 for Finance and Operations](https://youtu.be/RTicLb-6dbI).
+
+> [!Video https://www.youtube.com/embed/RTicLb-6dbI]
+
 
 ## <a name="open-entity-data-in-excel-when-you-start-from-finance-and-operations"></a>Ouvrir des données d'entité dans Excel au démarrage de Finance and Operations
 1. Dans une page de Finance and Operations, cliquez sur **Ouvrir dans Microsoft Office**.

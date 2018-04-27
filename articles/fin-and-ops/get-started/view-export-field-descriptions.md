@@ -19,17 +19,16 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 908f854e5ca50f4298110c08c87fefd9427b5cc9
-ms.openlocfilehash: 841c18630a59c3f5a7b51cd005962fa8a7f7163f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0164d64b8c37c19a3b8b13970dbda5927073eca8
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="view-and-export-field-descriptions"></a>Afficher et exporter les descriptions de champ
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article décrit comment afficher les descriptions des champs et comment utiliser la page Descriptions de champ pour exporter des descriptions.
 
@@ -77,7 +76,7 @@ Il existe plusieurs manières de rechercher une page dans le champ **Sélectionn
     -   S’il existe plus d’une correspondance exacte, aucune description n’est affichées. Vous devez ouvrir la liste déroulante et sélectionner la page que vous souhaitez.
     -   Si le nom que vous avez tapé est la partie du nom d’une autre page, vous voyez les descriptions de votre page. Cependant, si vous ouvrez la liste déroulante, vous voyez des pages supplémentaires qui contiennent ce nom.
 
-Par exemple, aucune description n’est affichée lorsque vous tapez **Comptage** dans le champ ****Sélectionner une page****. Vous ouvrez la liste déroulante et vous voyez qu'il existe deux pages avec le nom **Comptage**, ainsi que plusieurs pages qui contiennent le mot « Comptage » dans leur nom. Si vous choisissez la page qui a le nom AOA **InventJournalCount** », des descriptions de champ s'affichent pour cette page. Toutefois, si vous ouvrez de nouveau la liste déroulante, vous verrez que la liste contient désormais toutes les pages dont le nom de page AOA contient « InventJournalCount ».
+Par exemple, aucune description n’est affichée lorsque vous tapez <strong>Comptage</strong> dans le champ *<strong><em>Sélectionner une page</em></strong>*. Vous ouvrez la liste déroulante et vous voyez qu'il existe deux pages avec le nom <strong>Comptage</strong>, ainsi que plusieurs pages qui contiennent le mot « Comptage » dans leur nom. Si vous choisissez la page qui a le nom AOA <strong>InventJournalCount</strong> », des descriptions de champ s'affichent pour cette page. Toutefois, si vous ouvrez de nouveau la liste déroulante, vous verrez que la liste contient désormais toutes les pages dont le nom de page AOA contient « InventJournalCount ».
 
 ## <a name="troubleshooting"></a>Dépannage
 Cette section fournit des informations pour vous aider à résoudre les problèmes que vous pouvez rencontrer lorsque vous utilisez les descriptions de champ.

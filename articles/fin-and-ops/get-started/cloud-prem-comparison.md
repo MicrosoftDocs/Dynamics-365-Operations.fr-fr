@@ -18,16 +18,16 @@ ms.author: robinr
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: cd267f6e5623bd83bfbd21a49a72dd216259167a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 911996f9d1854f027f5085725538bd87ba307c25
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cloud-and-on-premises-feature-comparison"></a>Comparaison des fonctions dans le cloud et sur site
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique indique si chaque fonction est disponible dans ces produits :
 
@@ -51,7 +51,7 @@ Les tableaux suivants décrivent les zones de produit. La prise en charge en clo
 | | Extension pilotée par la configuration| Oui | N° |
 | | Exportation des données vers votre propre entrepôt de données| Oui | Oui |
 | | Activation de l'exportation des mises à jour incrémentielles vers une entité de données | Oui | N° |
-| | Intégrations récurrentes                 |Oui | N°|
+| | Intégration de données                 |Oui | Oui|
 | Gestion des documents| | Oui| Oui |
 | Gestion financière|  | Oui | Oui |
 | ?| | Oui | Non |

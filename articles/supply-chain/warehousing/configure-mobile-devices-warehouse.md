@@ -19,17 +19,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: ac756ccbbec36a59bce522a3e75ce87305bffe11
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e0033461e7cd2601993c006aba2ec7c8f6ac0c89
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Paramétrer des appareils mobiles pour un travail d'entrepôt
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article décrit la manière de configurer les options de menu utilisées par les collaborateurs d'entrepôt pour travailler sur un appareil mobile.
 
@@ -209,7 +208,7 @@ Outre la configuration des options de menu pour créer le travail d'entrepôt, v
 </thead>
 <tbody>
 <tr class="odd">
-<td>Aucun(e)</td>
+<td>None</td>
 <td>Cette valeur par défaut ne traite pas le travail.</td>
 </tr>
 <tr class="even">
@@ -307,7 +306,7 @@ Le tableau suivant décrit ces options.
 </tr>
 <tr class="even">
 <td>Afficher le code disposition de traitement par lots</td>
-<td>Sélectionnez cette option pour afficher les codes disposition de lot. Par exemple, vous pouvez afficher les codes disposition de lot lorsque vous recevez un lot retourné. Les collaborateurs peuvent ensuite évaluer le statut ou la qualité d'un lot et sélectionner le code approprié. Les règles du code disposition de lot déterminent si le lot est disponible à d'autres processus d'entrepôt. Si vous ne sélectionnez pas cette option, l'un des codes disposition de lot ci-dessous est utilisé :
+<td>Sélectionnez cette option pour afficher les codes disposition de lot. Par exemple, vous pouvez afficher les codes disposition de lot lorsque vous recevez un lot retourné. Les collaborateurs peuvent ensuite évaluer le statut ou la qualité d'un lot et sélectionner le code approprié. Les règles du code disposition de lot déterminent si le lot est disponible à d'autres processus d'entrepôt. Si vous ne sélectionnez pas cette option, l'un des codes disposition de lot ci-dessous est utilisé :
 <ul>
 <li>Si vous recevez un nouveau numéro de lot, le code disposition de lot par défaut spécifié dans le groupe de modèles d'article est utilisé.</li>
 <li>Le code disposition de lot qui est déjà affecté au lot est utilisé.</li>

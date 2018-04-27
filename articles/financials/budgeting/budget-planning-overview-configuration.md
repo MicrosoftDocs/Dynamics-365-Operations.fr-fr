@@ -19,17 +19,16 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: e874d7353e0d9561ca55f313bfb5209299298169
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b008e70c7d834c6aacad7aef4987e60b12ed8a6d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="budget-planning-overview"></a>Vue d'ensemble de la planification de budget
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article présente la planification budgétaire et contient des informations qui vous aident à configurer la planification budgétaire et à paramétrer ses processus.
 
@@ -116,18 +115,18 @@ Dans la planification budgétaire, vous pouvez répartir les montants ou les qua
 
 Les programmes de répartition allouent automatiquement des lignes de plan budgétaire lors du traitement du workflow. Vous pouvez effectuer des répartitions à l'aide de l'une des méthodes suivantes de la liste **Mode de répartition** :
 
--   **Répartir par le biais de périodes** : une clé de répartition par période permet d'affecter les lignes du plan budgétaire depuis le scénario de plan budgétaire source sur plusieurs périodes du scénario de destination. **Remarque :** Avant de répartir sur plusieurs périodes, vous devez paramétrer des clés de répartition par période dans la page ****Catégories de répartition par période****.
--   **Répartition vers les dimensions** : Les lignes du plan budgétaire sont réparties depuis le scénario de plan budgétaire source sur plusieurs dimensions financières du scénario de destination. **Remarque :** Avant de pouvoir effectuer la répartition sur plusieurs dimensions, vous devez paramétrer les conditions de répartition budgétaire sur la page ****Conditions de répartition budgétaire****.
--   **Regroupement** : Les lignes du plan budgétaire sont regroupées depuis le scénario de plan budgétaire source des plans budgétaires associés vers le scénario de destination du plan budgétaire parent.
--   **Répartir** : Les lignes du plan budgétaire sont réparties depuis le scénario de plan budgétaire source du plan budgétaire parent vers le scénario de destination des plans budgétaires associés.
--   **Utiliser les règles de répartition comptable** : Les lignes de plan budgétaire sont réparties du scénario de plan budgétaire source vers le scénario de destination en fonction de la règle de répartition comptable sélectionnée.
--   **Copier à partir d'un plan budgétaire** : Vous pouvez sélectionner un autre plan budgétaire à utiliser comme source de répartition.
+- <strong>Répartir par le biais de périodes</strong> : une clé de répartition par période permet d'affecter les lignes du plan budgétaire depuis le scénario de plan budgétaire source sur plusieurs périodes du scénario de destination. <strong>Remarque :</strong> Avant de répartir sur plusieurs périodes, vous devez paramétrer des clés de répartition par période dans la page *<strong><em>Catégories de répartition par période</em></strong>*.
+- <strong>Répartition vers les dimensions</strong> : Les lignes du plan budgétaire sont réparties depuis le scénario de plan budgétaire source sur plusieurs dimensions financières du scénario de destination. <strong>Remarque :</strong> Avant de pouvoir effectuer la répartition sur plusieurs dimensions, vous devez paramétrer les conditions de répartition budgétaire sur la page *<strong><em>Conditions de répartition budgétaire</em></strong>*.
+- **Regroupement** : Les lignes du plan budgétaire sont regroupées depuis le scénario de plan budgétaire source des plans budgétaires associés vers le scénario de destination du plan budgétaire parent.
+- **Répartir** : Les lignes du plan budgétaire sont réparties depuis le scénario de plan budgétaire source du plan budgétaire parent vers le scénario de destination des plans budgétaires associés.
+- **Utiliser les règles de répartition comptable** : Les lignes de plan budgétaire sont réparties du scénario de plan budgétaire source vers le scénario de destination en fonction de la règle de répartition comptable sélectionnée.
+- **Copier à partir d'un plan budgétaire** : Vous pouvez sélectionner un autre plan budgétaire à utiliser comme source de répartition.
 
 ### <a name="stage-allocations"></a>Répartitions de stade
 
 Les répartitions de stades sont utilisées pour répartir automatiquement des lignes de plan budgétaire lors du traitement du workflow. Lorsque les répartitions de stades sont utilisées, les lignes de plan budgétaire du scénario de destination peuvent être créées et modifiées sans l'intervention du préparateur ou du réviseur du plan budgétaire.
 
-Lorsque vous paramétrez une répartition de stades, vous associez le workflow et le stade de planification budgétaire au programme de répartition. Le workflow de planification budgétaire doit être associé à un workflow de budgétisation utilisant la tâche de workflow automatique ****Répartition de stade de planification budgétaire****. Lorsque le workflow atteint le stade spécifié, la répartition s'effectue automatiquement. Cette tâche automatique peut servir à créer des lignes de plan budgétaire dans un nouveau scénario. 
+Lorsque vous paramétrez une répartition de stades, vous associez le workflow et le stade de planification budgétaire au programme de répartition. Le workflow de planification budgétaire doit être associé à un workflow de budgétisation utilisant la tâche de workflow automatique *<strong><em>Répartition de stade de planification budgétaire</em></strong>*. Lorsque le workflow atteint le stade spécifié, la répartition s'effectue automatiquement. Cette tâche automatique peut servir à créer des lignes de plan budgétaire dans un nouveau scénario. 
 
 Dans l'exemple de schéma donné précédemment, une répartition est exécutée pour transférer les montants d'un plan budgétaire et de scénarios du stade Référence du siège vers un autre plan budgétaire et d'autres scénarios du stade Estimation du département des ventes. L'illustration suivante montre la section appropriée de l'exemple de schéma.
 

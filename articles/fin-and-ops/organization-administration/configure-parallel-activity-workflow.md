@@ -18,17 +18,16 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5473327c0665c9183746eb8125c7a368fbedc21e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ec1c1d8abc49deb8ef16322370c59d40b01d344c
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="configure-a-parallel-activity-in-a-workflow"></a>Configurer une activité parallèle dans un workflow
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Pour configurer une activité parallèle, exécutez les procédures suivantes dans l'éditeur de workflow.
 
@@ -43,13 +42,15 @@ Procédez comme suit pour entrer un nom pour une activité parallèle.
 
 ## <a name="configure-the-branches-of-a-parallel-activity"></a>Configuration des branches d'une activité parallèle
 Pour ajouter et configurer les branches de cette activité parallèle, procédez comme suit.
-1.  Double-cliquez sur l'activité parallèle pour afficher les branches de l'activité parallèle.
-2.  Pour ajouter une branche, faites glisser l'élément **Branche** de la zone **Élément de workflow** vers un point d'insertion sur le canevas. La figure suivante présente un point d'insertion.![Insertion point](./media/workflow_insertionpoint.gif)
-    | **Remarque**                                                                                                         |
-    |------------------------------------------------------------------------------------------------------------------|
-    | L'ordre des branches est sans importance, car toutes les branches d'une activité parallèle s'exécutent simultanément. |
+1. Double-cliquez sur l'activité parallèle pour afficher les branches de l'activité parallèle.
+2. Pour ajouter une branche, faites glisser l'élément **Branche** de la zone **Élément de workflow** vers un point d'insertion sur le canevas. La figure suivante présente un point d'insertion.![Insertion point](./media/workflow_insertionpoint.gif)
 
-3.  Pour configurer chaque branche, voir [Configuration d'une branche parallèle](configure-parallel-branch-workflow.md).
+   |                                              <strong>Remarque</strong>                                               |
+   |------------------------------------------------------------------------------------------------------------------|
+   | L'ordre des branches est sans importance, car toutes les branches d'une activité parallèle s'exécutent simultanément. |
+
+
+3. Pour configurer chaque branche, voir [Configuration d'une branche parallèle](configure-parallel-branch-workflow.md).
 
 
 

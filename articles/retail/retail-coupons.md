@@ -19,17 +19,16 @@ ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7e05361bf865e44ba6073198fba94d7102b1ed19
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9b4e792cae66e38546b3bdfdfbd59a2e36d891c2
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-coupons-for-retail-sales"></a>Créer des coupons pour les ventes au détail
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 ## <a name="overview-of-coupons"></a>Vue d'ensemble des coupons
 
@@ -46,9 +45,12 @@ Pour créer un coupon, vous devez créer la remise et le coupon séparément. Vo
 
 ### <a name="limited-use-coupons"></a>Coupons à utilisation limitée
 
-Les coupons peuvent être configurés comme des coupons à utilisation limitée. La limite d'utilisation peut être définie par client ou par canal, ou comme une limite globale. Cette limite est appliquée lorsque le code ou le code-barres est saisi ou numérisé dans POS ou lors de la saisie de la commande client. Un coupon est enregistré comme utilisé lorsqu'une commande est terminée avec le coupon qui lui est associé.
+Les coupons peuvent être configurés comme des coupons à utilisation limitée. La limite d'utilisation peut être définie par client ou par canal, ou comme une limite globale. Cette limite est appliquée lorsque le code ou le code-barres est saisi ou numérisé dans POS ou lors de la saisie de la commande client.
 
 La limite est appliquée par code de coupon sur un coupon. Par exemple, un coupon à utilisation unique qui a deux codes de coupon peut être utilisé deux fois : une fois pour chaque code de coupon. Chaque code sur un coupon peut être défini indépendamment sur Actif.
+
+> [!NOTE]
+> Une fois qu'un code de coupons a atteint sa limite d'utilisation, le système n'effectue *pas* automatiquement la modification du statut du code de coupons à « Utilisé ». Toutefois, le système n'autorise pas davantage l'utilisation d'un code de coupon qui a atteint sa limite d'utilisation. Si le statut du code d'un coupon est défini manuellement sur tout sauf « Actif », ce code de coupon ne peut pas être utilisé dans aucun canal.
 
 ## <a name="managing-coupons"></a>Gestion des coupons
 
@@ -68,8 +70,8 @@ Avant de paramétrer un coupon, vous devez paramétrer le code-barres du coupon 
     > [!NOTE]
     > Pour les deux souches de numéros, vous devez définir le champ **Portée** sur **Société**. Dans la plupart des cas, vous devez générer automatiquement les deux souches de numéros.
 
-5.  Dans la page **Paramètres partagés de la vente au détail**, sous l'onglet **Codes-barres**, sélectionnez le code-barres créé précédemment.
-6.  Dans la page **Paramètres des ventes au détail**, sous l'onglet **Souches de numéros**, sélectionnez les souches de numéros que vous avez créées pour le numéro de coupon et l'ID du code de coupon.
+5.  Dans la page **Paramètres Retail**, sous l'onglet **Codes-barres**, sélectionnez le code-barres créé précédemment.
+6.  Dans la page **Paramètres partagés Retail**, sous l'onglet **Souches de numéros**, sélectionnez les souches de numéros que vous avez créées pour le numéro de coupon et l'ID du code de coupon.
 7.  Vous pouvez maintenant ouvrir la page **Coupons** et créer des coupons.
 
 ## <a name="the-effect-of-partial-updates-on-coupons"></a>Effet des mises à jour partielles des coupons

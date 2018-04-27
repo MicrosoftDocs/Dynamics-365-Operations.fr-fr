@@ -19,17 +19,16 @@ ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7af00d0c66f70aa41cfab0ffccef39ba4c115803
-ms.openlocfilehash: 98f5696cd6a279bdf0f8d9026a74e5a9bccd2f13
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 60edc05bb45db973eb2e16dd833015c9a4873918
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Suivi des articles et des matières premières dans le stock, la production et les ventes
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique décrit la manière dont vous pouvez utiliser le suivi d'article pour identifier où les articles ou les matières premières ont été, sont ou seront utilisés dans les processus de production et de vente.
 
@@ -129,7 +128,7 @@ Après avoir effectué le suivi, vous pouvez utiliser les options suivantes du b
 Si vous souhaitez utiliser les options **Nouveau suivi en arrière** ou **Nouveau suivi en avant**, vous devez utiliser la fonctionnalité **Ouvrir dans une nouvelle fenêtre** pour qu'un nouveau suivi apparaisse dans une nouvelle fenêtre.
 
 ## <a name="can-i-save-the-trace-details"></a>Puis-je enregistrer les détails du suivi ?
-Enregistrez les informations dans l'onglet **Détails** en tant que fichier XML en cliquant sur **Exporter** sous l'action ****Suivi**** dans le volet Actions. Outre les détails du suivi, le fichier XML inclut les critères de suivi, le nœud parent et la quantité disponible. La capacité d'enregistrer les détails d'un suivi est utile si, par exemple, vous souhaitez joindre les informations à un ordre de qualité ou à une autre documentation de conformité. Vous pouvez spécifier l'emplacement d'enregistrement du fichier. Pour afficher directement le fichier, activez l'option **Afficher le document**. **Remarque :** Le fichier est toujours enregistré, même si vous souhaitez uniquement l'afficher. Par défaut, le fichier XML s'ouvre dans une fenêtre de navigateur. Toutefois, vous pouvez cliquer avec le bouton droit sur le fichier, puis choisir **Ouvrir avec** puis sélectionner le programme à utiliser pour afficher le contenu.
+Enregistrez les informations dans l'onglet <strong>Détails</strong> en tant que fichier XML en cliquant sur <strong>Exporter</strong> sous l'action *<strong><em>Suivi</em></strong>* dans le volet Actions. Outre les détails du suivi, le fichier XML inclut les critères de suivi, le nœud parent et la quantité disponible. La capacité d'enregistrer les détails d'un suivi est utile si, par exemple, vous souhaitez joindre les informations à un ordre de qualité ou à une autre documentation de conformité. Vous pouvez spécifier l'emplacement d'enregistrement du fichier. Pour afficher directement le fichier, activez l'option <strong>Afficher le document</strong>. <strong>Remarque :</strong> Le fichier est toujours enregistré, même si vous souhaitez uniquement l'afficher. Par défaut, le fichier XML s'ouvre dans une fenêtre de navigateur. Toutefois, vous pouvez cliquer avec le bouton droit sur le fichier, puis choisir <strong>Ouvrir avec</strong> puis sélectionner le programme à utiliser pour afficher le contenu.
 
 ## <a name="can-i-calculate-a-balance-for-a-particular-item-or-ingredient"></a>Est-ce que je peux calculer un solde pour un article ou un ingrédient donné ?
 Exportez les informations des pages récapitulatives dans Microsoft Excel. Ouvrez la page appropriée, cliquez sur l'icone **Ouvrir dans Microsoft Office**, puis sélectionnez **Exporter vers Microsoft Excel**. Cette fonctionnalité est particulièrement utile lorsque vous souhaitez calculer un bilan de matières pour un article ou une substance à partir de la page **Synthèse des transactions**. Dans la page **Synthèse des transactions**, vous pouvez filtrer l'article ou la substance et le traitement par lots (en option), puis exporter les informations dans Excel. Dans Excel, vous pouvez par exemple isoler la quantité disponible, la quantité vendue et le montant utilisé dans la production.

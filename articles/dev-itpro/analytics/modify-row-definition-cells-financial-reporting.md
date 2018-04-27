@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: dd34fb71f7a5d31a075c6475c2fe6627193d891f
-ms.openlocfilehash: 6bb405937288b46f49420a1735c32b5b7c16248e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3131173e10ff7eefeaca18285054ce2312d7ab57
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="modify-row-definition-cells"></a>Modifier les cellules de définition de ligne
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article décrit les informations nécessaires pour chaque cellule dans une définition de ligne sur un état financier et explique comment entrer ces informations. 
 
@@ -104,26 +103,26 @@ La cellule **Code de format** offre une sélection de mises en forme prédéfini
 2.  Double-cliquez sur la cellule **Code de format**.
 3.  Sélectionnez un code de format dans la liste. Le tableau suivant décrit les codes de format et leurs actions.
 
-| **Code de format**               | **Interprétation du code format** | **Action**                                                                                                                                                                                                     |
-|-------------------------------|---------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| (Aucun)                        |                                       | Désactive la cellule **Code de format**.                                                                                                                                                                               |
-| TOT                           | Total                                 |  Identifie une ligne qui utilise des opérateurs mathématiques dans la colonne **Formules/Lignes/Unités associées**. Les totaux contiennent des opérateurs simples, comme **+** ou **-**.                                                     |
-| CAL                           | Calcul                           | Identifie une ligne qui utilise des opérateurs mathématiques dans la colonne **Formules/Lignes/Unités associées**. Les calculs contiennent des opérateurs complexes tels que **+**, **-**, **\***, **/** et **IF/THEN/ELSE**. |
-| DES                           | description ;                           | Identifie un en-tête ou une ligne vide dans un état.                                                                                                                                                        |
-| LFT RGT CEN                   | Gauche Droite Centre                     |  Aligne le texte de description de la ligne dans la page de l'état, quel que soit le positionnement du texte dans la définition de colonne.                                                                                              |
-| CBR                           | Modifier la ligne de base                       | Identifie une ligne qui définit la ligne de base pour les calculs de colonne.                                                                                                                                               |
-| COLUMN                        | Saut de colonne                          | Démarre une nouvelle colonne dans l'état.                                                                                                                                                                             |
-| PAGE                          | Saut de page                            | Démarre une nouvelle page dans l'état.                                                                                                                                                                               |
-| \---                          | Soulignement simple                      | Met une ligne simple sous toutes les colonnes de montant de l'état.                                                                                                                                                     |
-|  ===                          | Soulignement double                      | Met une ligne double sous toutes les colonnes de montant de l'état.                                                                                                                                                     |
-| LINE1                         | Ligne fine                             | Trace une ligne fine en travers de la page.                                                                                                                                                                      |
-| LIGN2                         | Trait épais                            | Trace un trait épais simple à travers la page.                                                                                                                                                                     |
-| LIGN3                         | Trait en pointillé                           | Trace une ligne pointillée simple en travers de la page.                                                                                                                                                                    |
-| LINE4                         | Ligne épaisse et ligne fine              | Trace une ligne double en travers de la page. La ligne supérieure est épaisse et la ligne inférieure est fine.                                                                                                                       |
-| LINE5                         | Ligne fine et ligne épaisse              | Trace une ligne double en travers de la page. La ligne supérieure est fine et la ligne inférieure est épaisse.                                                                                                                       |
-| BXB BXC                       | Ligne marquée par une bordure                             | Trace une bordure autour de les lignes d'état qui commencent par la ligne **BXB** et se terminent par la ligne **BXC**.                                                                                                               |
-| REM                           | Remarque                                | Identifie une ligne de commentaire qui ne doit pas être imprimée dans le rapport. Par exemple, une ligne de remarque peut expliquer vos techniques de mise en forme.                                                            |
-| SORT ASORT SORTDESC ASORTDESC | Trier                                  | Trie les dépenses ou les produits, trie un état de budget réel ou d'écart de budget par écart le plus important, ou trie les descriptions de ligne par ordre alphabétique.                                                                   |
+| <strong>Code de format</strong>  | <strong>Interprétation du code format</strong> |                                                                                                                             <strong>Action</strong>                                                                                                                              |
+|-------------------------------|----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|            (Aucun)             |                                                    |                                                                                                                  Efface la cellule <strong>Code format</strong>.                                                                                                                   |
+|              TOT              |                       Total                        |                                         Identifie une ligne qui utilise des opérateurs mathématiques dans la colonne <strong>Formules/Lignes/Unités associées</strong>. Les totaux contiennent des opérateurs simples, comme <strong>+</strong> ou <strong>-</strong>.                                         |
+|              CAL              |                    Calcul                     | Identifie une ligne qui utilise les opérateurs mathématiques dans la colonne <strong>Formules/Lignes/Unités associées</strong>. Les calculs contiennent des opérateurs complexes tels que <strong>+</strong>, <strong>-</strong>, <strong>\</strong><em>, **/</em><em>, et les instructions **IF/THEN/ELSE</em>*. |
+|              DES              |                    Description                     |                                                                                                             Identifie un en-tête ou une ligne vide dans un état.                                                                                                              |
+|          LFT RGT CEN          |                 Gauche Droite Centre                  |                                                                                 Aligne le texte de description de la ligne dans la page de l'état, quel que soit le positionnement du texte dans la définition de colonne.                                                                                 |
+|              CBR              |                  Modifier la ligne de base                   |                                                                                                         Identifie une ligne qui définit la ligne de base pour les calculs de colonne.                                                                                                         |
+|            COLUMN             |                    Saut de colonne                    |                                                                                                                        Démarre une nouvelle colonne dans l'état.                                                                                                                        |
+|             PAGE              |                     Saut de page                     |                                                                                                                         Démarre une nouvelle page dans l'état.                                                                                                                         |
+|             \---              |                  Soulignement simple                  |                                                                                                            Met une ligne simple sous toutes les colonnes de montant de l'état.                                                                                                            |
+|              ===              |                  Soulignement double                  |                                                                                                            Met une ligne double sous toutes les colonnes de montant de l'état.                                                                                                            |
+|             LINE1             |                     Ligne fine                      |                                                                                                                    Trace une ligne fine en travers de la page.                                                                                                                     |
+|             LIGN2             |                     Trait épais                     |                                                                                                                    Trace un trait épais simple à travers la page.                                                                                                                    |
+|             LIGN3             |                    Trait en pointillé                     |                                                                                                                   Trace une ligne pointillée simple en travers de la page.                                                                                                                    |
+|             LINE4             |              Ligne épaisse et ligne fine              |                                                                                             Trace une ligne double en travers de la page. La ligne supérieure est épaisse et la ligne inférieure est fine.                                                                                             |
+|             LINE5             |              Ligne fine et ligne épaisse              |                                                                                             Trace une ligne double en travers de la page. La ligne supérieure est fine et la ligne inférieure est épaisse.                                                                                             |
+|            BXB BXC            |                     Ligne marquée par une bordure                      |                                                                            Trace un cadre autour des lignes du rapport qui commencent par la ligne <strong>CDRD</strong> et se terminent par la ligne <strong>CDRC</strong>.                                                                            |
+|              REM              |                       Remarque                       |                                                               Identifie une ligne de commentaire qui ne doit pas être imprimée dans le rapport. Par exemple, une ligne de remarque peut expliquer vos techniques de mise en forme.                                                                |
+| SORT ASORT SORTDESC ASORTDESC |                        Trier                        |                                                                   Trie les dépenses ou les produits, trie un état de budget réel ou d'écart de budget par écart le plus important, ou trie les descriptions de ligne par ordre alphabétique.                                                                   |
 
 ## <a name="specify-related-formulasrowsunits"></a>Spécifier les formules/lignes/unités associées
 La cellule **Formules/lignes/unités associées** a plusieurs fonctionnalités. Selon le type de ligne, une cellule **Formules/Lignes/Unités associées** peut exécuter une des tâches suivantes :
@@ -211,12 +210,12 @@ Les codes de tri permettent de trier les comptes ou les valeurs, de trier un ét
 
 ### <a name="select-a-sorting-code"></a>Sélectionner un code de tri
 
-1.  Dans le générateur d'état, cliquez sur **Définitions de ligne**, puis ouvrez ensuite la définition de ligne à modifier.
-2.  Double-cliquez sur la cellule **Code de format**, puis sélectionnez un code de tri.
-3.  Dans la cellule **Formules/Lignes/Unités associées**, spécifiez la plage de codes de ligne à trier. Pour spécifier une plage, entrez le premier code de ligne, deux-points (:), puis le dernier code de ligne. Par exemple, entrez **160:490** pour indiquer que la plage va de la ligne 160 à la ligne 490.
-4.  Dans la cellule **Restriction de colonne**, entrez la lettre de la colonne d'état à utiliser pour le tri. 
-> [!Note] 
-> N'incluez que les lignes de montant dans un calcul de tri.
+1. Dans le générateur d'état, cliquez sur **Définitions de ligne**, puis ouvrez ensuite la définition de ligne à modifier.
+2. Double-cliquez sur la cellule **Code de format**, puis sélectionnez un code de tri.
+3. Dans la cellule **Formules/Lignes/Unités associées**, spécifiez la plage de codes de ligne à trier. Pour spécifier une plage, entrez le premier code de ligne, deux-points (:), puis le dernier code de ligne. Par exemple, entrez **160:490** pour indiquer que la plage va de la ligne 160 à la ligne 490.
+4. Dans la cellule **Restriction de colonne**, entrez la lettre de la colonne d'état à utiliser pour le tri. 
+   > [!Note] 
+   > N'incluez que les lignes de montant dans un calcul de tri.
 
 ### <a name="examples-of-ascending-and-descending-column-values"></a>Exemples de valeurs de colonne croissantes et décroissantes
 
@@ -258,41 +257,41 @@ La cellule **Remplacement de format** spécifie la mise en forme utilisée pour 
 
 La mise en forme de devise s'applique au montant fiscal et inclut le symbole de devise. Les options disponibles sont les suivantes :
 
--   **Symbole monétaire** – Symbole monétaire du rapport. Cette valeur remplace le paramètre des **Options régionales** pour les informations de l'entreprise.
--   **Nombres négatifs** – Les nombres négatifs peuvent avoir un signe moins (-), ils peuvent apparaître entre parenthèses, ou peuvent être munis d'un triangle (∆).
--   **Décimales** – Le nombre de chiffres à afficher après le séparateur décimal.
--   **Texte de remplacement de valeur nulle** – Le texte à inclure dans l'état si le montant est 0 (zéro). Ce texte s'affiche comme la dernière ligne dans la zone **Exemple**. 
-> [!Note] 
-> Si l'impression est supprimée pour les valeurs nulle ou une activité nulle sur la période, ce texte est supprimé.
+- **Symbole monétaire** – Symbole monétaire du rapport. Cette valeur remplace le paramètre des **Options régionales** pour les informations de l'entreprise.
+- **Nombres négatifs** – Les nombres négatifs peuvent avoir un signe moins (-), ils peuvent apparaître entre parenthèses, ou peuvent être munis d'un triangle (∆).
+- **Décimales** – Le nombre de chiffres à afficher après le séparateur décimal.
+- **Texte de remplacement de valeur nulle** – Le texte à inclure dans l'état si le montant est 0 (zéro). Ce texte s'affiche comme la dernière ligne dans la zone **Exemple**. 
+  > [!Note] 
+  > Si l'impression est supprimée pour les valeurs nulle ou une activité nulle sur la période, ce texte est supprimé.
 
 ### <a name="numeric-formatting"></a>Mise en forme numérique
 
 La mise en forme numérique s'applique à n'importe quel montant et n'inclut pas de symbole de devise. Les options suivantes sont disponibles :
 
--   **Nombres négatifs** – Les nombres négatifs peuvent avoir un signe moins (-), ils peuvent apparaître entre parenthèses, ou peuvent être munis d'un triangle (∆).
--   **Décimales** – Le nombre de chiffres à afficher après le séparateur décimal.
--   **Texte de remplacement de valeur nulle** – Le texte à inclure dans l'état si le montant est 0 (zéro). Ce texte s'affiche comme la dernière ligne dans la zone **Exemple**. 
-> [!Note] 
-> Si l'impression est supprimée pour les valeurs nulle ou une activité nulle sur la période, ce texte est supprimé.
+- **Nombres négatifs** – Les nombres négatifs peuvent avoir un signe moins (-), ils peuvent apparaître entre parenthèses, ou peuvent être munis d'un triangle (∆).
+- **Décimales** – Le nombre de chiffres à afficher après le séparateur décimal.
+- **Texte de remplacement de valeur nulle** – Le texte à inclure dans l'état si le montant est 0 (zéro). Ce texte s'affiche comme la dernière ligne dans la zone **Exemple**. 
+  > [!Note] 
+  > Si l'impression est supprimée pour les valeurs nulle ou une activité nulle sur la période, ce texte est supprimé.
 
 ### <a name="percentage-formatting"></a>Mise en forme de pourcentage
 
 La mise en forme de pourcentage inclut le signe de pourcentage (%). Les options suivantes sont disponibles :
 
--   **Nombres négatifs** – Les nombres négatifs peuvent avoir un signe moins (-), ils peuvent apparaître entre parenthèses, ou peuvent être munis d'un triangle (∆).
--   **Décimales** – Le nombre de chiffres à afficher après le séparateur décimal.
--   **Texte de remplacement de valeur nulle** – Le texte à inclure dans l'état si le montant est 0 (zéro). Ce texte s'affiche comme la dernière ligne dans la zone **Exemple**. 
-> [!Note] 
-> Si l'impression est supprimée pour les valeurs nulle ou une activité nulle sur la période, ce texte est supprimé.
+- **Nombres négatifs** – Les nombres négatifs peuvent avoir un signe moins (-), ils peuvent apparaître entre parenthèses, ou peuvent être munis d'un triangle (∆).
+- **Décimales** – Le nombre de chiffres à afficher après le séparateur décimal.
+- **Texte de remplacement de valeur nulle** – Le texte à inclure dans l'état si le montant est 0 (zéro). Ce texte s'affiche comme la dernière ligne dans la zone **Exemple**. 
+  > [!Note] 
+  > Si l'impression est supprimée pour les valeurs nulle ou une activité nulle sur la période, ce texte est supprimé.
 
 ### <a name="custom-formatting"></a>Mise en forme personnalisée
 
 Utilisez la catégorie de mise en forme personnalisée pour créer un remplacement de format personnalisé. Les options suivantes sont disponibles :
 
--   **Type** – Format personnalisé.
--   **Texte de remplacement de valeur nulle** – Le texte à inclure dans l'état si le montant est 0 (zéro). Ce texte s'affiche comme la dernière ligne dans la zone **Exemple**. 
-> [!Note] 
-> Si l'impression est supprimée pour les valeurs nulle ou une activité nulle sur la période, ce texte est supprimé.
+- **Type** – Format personnalisé.
+- **Texte de remplacement de valeur nulle** – Le texte à inclure dans l'état si le montant est 0 (zéro). Ce texte s'affiche comme la dernière ligne dans la zone **Exemple**. 
+  > [!Note] 
+  > Si l'impression est supprimée pour les valeurs nulle ou une activité nulle sur la période, ce texte est supprimé.
 
 Le type doit représenter la valeur positive, puis la valeur négative. En général, vous entrez un format similaire qui différencie les valeurs positives et des valeurs négatives. Par exemple, pour spécifier que les valeurs positives et négatives ont deux décimales, mais que les valeurs négatives apparaissent entre parenthèses, entrez **0.00;(0.00)**. Le tableau suivant présente des formats personnalisés que vous pouvez utiliser pour contrôler le format de vos valeurs. Tous ces exemples démarrent à la valeur 1234,56.
 
@@ -387,7 +386,7 @@ Par défaut, le générateur d'états n'imprime aucune ligne n'ayant pas de sold
 3.  Dans le menu **Fichier**, cliquez sur **Enregistrer** pour enregistrer vos modifications.
 
 ## <a name="use-wildcard-characters-and-ranges-in-a-row-definition"></a>Utiliser des caractères génériques et des plages dans une définition de ligne
-Quand vous entrez une valeur de segment naturel dans la boîte de dialogue **Dimensions**, vous pouvez utiliser un caractère générique (? ou \*) à n'importe quelle position d'un segment. Le générateur d'états extrait toutes les valeurs pour les positions définies, sans tenir compte des caractères génériques. Par exemple, la définition de ligne ne contient que des valeur de segment naturel, et les segments naturels ont quatre caractères. En entrant **6???** dans une ligne, vous demandez au générateur d'états d'inclure tous les comptes ayant une valeur de segment naturel commençant par 6. Si vous entrez **6\***, vous obtenez les mêmes résultats, mais ceux-ci incluent en plus les valeurs d'autre longueur, telles que **60** et **600000**. Le générateur d'états remplace chaque caractère générique (?) par la gamme complète des valeurs possibles, qui incluent des lettres et des caractères spéciaux. Par exemple, dans la plage **12?0** à **12?4**, le caractère générique dans **12?0** est remplacé par la valeur la plus faible dans le jeu de caractères, et le caractère générique dans **12?4** est remplacé par la valeur la plus élevée dans le jeu de caractères. 
+Quand vous entrez une valeur de segment naturel dans la boîte de dialogue <strong>Dimensions</strong>, vous pouvez utiliser un caractère générique (? ou \*) à n'importe quelle position d'un segment. Le générateur d'états extrait toutes les valeurs pour les positions définies, sans tenir compte des caractères génériques. Par exemple, la définition de ligne ne contient que des valeur de segment naturel, et les segments naturels ont quatre caractères. En entrant <strong>6???</strong> dans une ligne, vous demandez au générateur d'états d'inclure tous les comptes ayant une valeur de segment naturel commençant par 6. Si vous entrez <strong>6\</strong><em>, vous obtenez les mêmes résultats, mais ceux-ci incluent en plus les valeurs d'autre longueur, telles que **60</em>* et <strong>600000</strong>. Le générateur d'états remplace chaque caractère générique (?) par la gamme complète des valeurs possibles, qui incluent des lettres et des caractères spéciaux. Par exemple, dans la plage <strong>12?0</strong> à <strong>12?4</strong>, le caractère générique dans <strong>12?0</strong> est remplacé par la valeur la plus faible dans le jeu de caractères, et le caractère générique dans <strong>12?4</strong> est remplacé par la valeur la plus élevée dans le jeu de caractères. 
 > [!Note] 
 > Vous devez éviter d'utiliser des caractères génériques pour les comptes de début et de fin de plages. Si vous utilisez des caractères génériques dans le compte de début ou le compte de fin, vous pouvez obtenir des résultats inattendus.
 
@@ -466,15 +465,15 @@ Un ensemble de valeurs de dimension est un groupe de valeurs de dimension auquel
 
 ### <a name="update-a-set-of-dimension-values"></a>Mise à jour d'un ensemble de valeurs de dimension
 
-1.  Dans le Concepteur de rapports, ouvrez la définition de ligne, de colonne ou d'organigramme à modifier.
-2.  Dans le menu **Édition**, cliquez sur **Gérer les ensembles de valeurs de dimension**.
-3.  Dans la boîte de dialogue **Gérer les ensembles de valeurs de dimension**, dans le champ **Dimension**, sélectionnez le type de dimension.
-4.  Dans la liste, sélectionnez l'ensemble de valeurs de dimension à définir, puis cliquez sur **Modifier**.
-5.  Dans la boîte de dialogue **Modifier**, modifiez les valeurs de la formule à inclure dans l'ensemble. 
-> [!Note] 
-> Si vous ajoutez de nouveaux comptes ou dimensions, vérifiez que vous modifiez les ensembles de valeurs de dimension existants pour incorporer les modifications.
-6.  Double-cliquez sur la cellule, puis sélectionnez l'opérateur, le compte **À partir de**, et le compte **Jusqu'à** appropriés.
-7.  Cliquez sur **OK** pour fermer la boîte de dialogue **Modifier** et enregistrer vos modifications.
+1. Dans le Concepteur de rapports, ouvrez la définition de ligne, de colonne ou d'organigramme à modifier.
+2. Dans le menu **Édition**, cliquez sur **Gérer les ensembles de valeurs de dimension**.
+3. Dans la boîte de dialogue **Gérer les ensembles de valeurs de dimension**, dans le champ **Dimension**, sélectionnez le type de dimension.
+4. Dans la liste, sélectionnez l'ensemble de valeurs de dimension à définir, puis cliquez sur **Modifier**.
+5. Dans la boîte de dialogue **Modifier**, modifiez les valeurs de la formule à inclure dans l'ensemble. 
+   > [!Note] 
+   > Si vous ajoutez de nouveaux comptes ou dimensions, vérifiez que vous modifiez les ensembles de valeurs de dimension existants pour incorporer les modifications.
+6. Double-cliquez sur la cellule, puis sélectionnez l'opérateur, le compte **À partir de**, et le compte **Jusqu'à** appropriés.
+7. Cliquez sur **OK** pour fermer la boîte de dialogue **Modifier** et enregistrer vos modifications.
 
 ### <a name="copy-a-dimension-set"></a>Copier un ensemble de dimensions
 

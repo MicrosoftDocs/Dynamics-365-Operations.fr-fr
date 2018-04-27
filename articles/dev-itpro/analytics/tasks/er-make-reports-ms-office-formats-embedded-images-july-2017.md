@@ -1,5 +1,5 @@
 --- 
-title: "Créer des configurations pour générer des états aux formats Microsoft Office avec des images intégrées pour la gestion des états électroniques (Partie 1)"
+title: "Concevoir des configurations pour générer des états dans des formats Microsoft Office avec des images intégrées"
 description: "Les étapes de cette rubrique donnent des informations sur la création de configurations d'états électroniques qui génèrent des documents électroniques aux formats Microsoft Office (Excel et Word) qui contiennent des images intégrées."
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9cb9343028acacc387370e1cdd2202b84919185e
-ms.openlocfilehash: 844d8de1d5a1958457eaab1d434bef015f92e33c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5e3ba5c76df3dcc5042074a565d102ceaeeadfb0
 ms.contentlocale: fr-fr
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="design-configurations-to-generate-reports-in-microsoft-office-formats-with-embedded-images-for-electronic-reporting-er-part-1"></a>Créer des configurations pour générer des états aux formats Microsoft Office avec des images intégrées pour la gestion des états électroniques (Partie 1) 
+# <a name="design-configurations-to-generate-reports-in-microsoft-office-formats-with-embedded-images"></a>Concevoir des configurations pour générer des états dans des formats Microsoft Office avec des images intégrées
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Pour réaliser les étapes de cette procédure, commencez par effectuer la procédure, « ER Créer un fournisseur de configuration et le marquer comme actif ». Cette procédure explique comment créer des configurations d'états électroniques pour générer un document Microsoft Excel ou Word contenant des images intégrées. Dans cette procédure, vous créerez les configurations d'états électroniques requises pour la société fictive, Litware, Inc. Ces étapes peuvent être effectuées à l'aide de l'ensemble de données USMF. Cette procédure est créée pour les utilisateurs auxquels le rôle Administrateur système ou Développeur d'états électroniques a été affecté. Avant de commencer, téléchargez et enregistrez les fichiers répertoriés dans la rubrique d'aide [Intégrer des images et des formes dans les documents commerciaux générés à l'aide de l'outil de gestion d'états électroniques](../electronic-reporting-embed-images-shapes.md). Les fichiers sont : Modèle pour les chèques.xml, Format d'impression des chèques.xml, Logo de société.png, Image de signature.png, Image de signature 2.png et Modèle de chèque Word.docx.
 

@@ -16,16 +16,16 @@ ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: ee95c3d79f7f401c767b9bc8415b21369c14478b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d8cd3a6b3cbfa1219f0ebcf9d4d2132197167220
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Ajouter des analyses aux espaces de travail à l'aide de Power BI Embedded
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 > [!NOTE]
 > Cette fonction est prise en charge dans Dynamics 365 for Finance and Operations (version 7.2 et ultérieure).
@@ -50,7 +50,7 @@ Si vous étendez un espace de travail d'application existant ou que vous introdu
 
 ## <a name="add-a-pbix-file-as-a-resource"></a>Ajoutez un fichier .pbix comme ressource
 Avant de commencer, vous devez créer ou obtenir l'état Power BI que vous inclurez de l'espace de travail. Pour plus d'informations sur la création des états analytiques, voir [Mise en route de Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).
- 
+
 Procédez comme suit pour ajouter un fichier .pbix comme artefact de projet Visual Studio.
 
 1. Créez un projet dans le modèle approprié.
@@ -63,12 +63,12 @@ Procédez comme suit pour ajouter un fichier .pbix comme artefact de projet Visu
 5. Cherchez le fichier .pbix contenant la définition de l'état analytique, puis cliquez sur **Ouvrir**.
 
     ![Sélectionnez une boîte de dialogue Fichier de ressource](media/analytical-workspace-select-resource.png)
-  
+
 Maintenant que vous avez ajouté le fichier .pbix comme ressource Dynamics 365, vous pouvez inclure les états dans des espaces de travail et ajouter des liens directs à l'aide des options de menu.
 
 ## <a name="add-a-tab-control-to-an-application-workspace"></a>Ajoutez un contrôle d'onglet à un espace de travail d'application
 Dans cet exemple, nous étendrons l'espace de travail **Gestion des réservations** dans le modèle de gestion de flotte en ajoutant l'onglet **Analytises** à la définition de l'écran **FMClerkWorkspace**.
- 
+
 L'illustration suivante indique à quoi ressemble l'écran **FMClerkWorkspace** dans le concepteur de Microsoft Visual Studio.
 
 ![Écran FMClerkWorkspace avant les modifications](media/analytical-workspace-definition-before.png)
@@ -93,16 +93,16 @@ Procédez comme suit pour prolonger la définition d'écran pour l'espace de tra
 16. Cliquez avec le bouton droit et sélectionnez la page **Supprimer le modèle**.
 17. Cliquez avec le bouton droit de nouveau, puis sélectionnez **Ajouter un modèle** > **Espace de travail tabulé**.
 18. Créez un build pour vérifier vos modifications.
- 
+
 L'illustration suivante présente ce à quoi la conception ressemble une fois ces modifications appliquées.
 
 ![FMClerkWorkspace après des modifications](media/analytical-workspace-definition-after.png)
 
 Maintenant que vous avez ajouté des contrôles d'écrans qui seront utilisés pour inclure l'état de l'espace de travail, vous devez définir la taille du contrôle parent de sorte qu'il s'adapte à la mise en page. Par défaut, la page **Volet de filtres** et la page **Onglet** sont visibles sur l'état. Toutefois, vous pouvez modifier la visibilité de ces contrôles en fonction du client cible de l'état.
- 
+
 > [!NOTE]
 > Pour les espaces de travail intégrés, nous vous recommandons d'utiliser des extensions pour masquer les pages **Volet de filtres** et **Onglet**, pour des raisons de cohérence.
- 
+
 Vous avez terminé la tâche d'extension de la définition d'écran d'application. Pour plus d'informations sur l'utilisation d'extensions pour effectuer des personnalisations, voir [Personnalisation : superposition de couches et extensions](../extensibility/customization-overlayering-extensions.md).
 
 ## <a name="add-x-business-logic-to-embed-a-viewer-control"></a>Ajoutez la logique métier X++ pour inclure un contrôle de la visionneuse
@@ -169,12 +169,13 @@ public static void initializeReportControl(
 
 #### <a name="parameters"></a>Paramètres
 
-| Nom | Description |
-|---|---|
-| resourceName | Nom de la ressource .pbix |
-| formGroupControl | Contrôle de groupe d'écrans auquel appliquer le contrôle de l'état Power BI. |
-| defaultPageName | Nom de la page par défaut |
-| showFilterPane | Valeur booléenne qui indique si le volet de filtre doit être affiché (**vrai**) ou masqué (**faux**). |
-| showNavPane | Valeur booléenne qui indique si le volet de navigation doit être affiché (**vrai**) ou masqué (**faux**). |
-| defaultFilters | Filtres par défaut pour l'état Power BI. |
+|       Nom       |                                                              Description                                                               |
+|------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+|   resourceName   |                                                    Nom de la ressource .pbix                                                     |
+| formGroupControl |                                    Contrôle de groupe d'écrans auquel appliquer le contrôle de l'état Power BI.                                     |
+| defaultPageName  |                                                         Nom de la page par défaut                                                         |
+|  showFilterPane  |   Valeur booléenne qui indique si le volet de filtre doit être affiché (<strong>vrai</strong>) ou masqué (<strong>faux</strong>).   |
+|   showNavPane    | Valeur booléenne qui indique si le volet de navigation doit être affiché (<strong>vrai</strong>) ou masqué (<strong>faux</strong>). |
+|  defaultFilters  |                                              Filtres par défaut pour l'état Power BI.                                              |
+
 

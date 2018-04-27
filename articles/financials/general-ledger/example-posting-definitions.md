@@ -19,17 +19,16 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 004f3f24ec410d9f0e7d1e7264ec2730b9467410
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 10015952773ce0ae6ab36912df636919b572704d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="posting-definition-examples"></a>Exemples de définitions de validation
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article fournit des exemples décrivant la manière dont les définitions de validation sont utilisées pour les engagements de commande fournisseur et les affectations budgétaires.
 
@@ -57,7 +56,7 @@ Toutes les transactions de N° document pour les engagements de commandes fourni
 |-------------------------|----------------------|----------|
 | Structure de compte - Résultat | \*                   | 1        |
 
-*Une valeur vide dans le champ **Numéro de compte de rapprochement** signifie que tous les comptes correspondants de la structure de compte définie appartiennent à la règle de rapprochement.
+<em>Une valeur vide dans le champ **Numéro de compte de rapprochement</em>* signifie que tous les comptes correspondants de la structure de compte définie appartiennent à la règle de rapprochement.
 
 ### <a name="posting-definition--generated-entries"></a>Définition de validation – Entrées générées
 
@@ -98,7 +97,7 @@ Lorsque les définitions de validation et les affectations budgétaires sont act
 |-------------------------|----------------------|----------|
 | Structure de compte - Résultat | \*                   | 1        |
 
-*Une valeur vide dans le champ **Numéro de compte de rapprochement** signifie que tous les comptes correspondants de la structure de compte définie appartiennent à la règle de rapprochement.
+<em>Une valeur vide dans le champ **Numéro de compte de rapprochement</em>* signifie que tous les comptes correspondants de la structure de compte définie appartiennent à la règle de rapprochement.
 
 ### <a name="posting-definition--generated-entries"></a>Définition de validation – Entrées générées
 

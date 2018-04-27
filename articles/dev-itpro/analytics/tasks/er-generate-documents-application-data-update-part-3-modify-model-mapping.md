@@ -1,5 +1,5 @@
 --- 
-title: "Modifier le modèle et le mappage pour générer des documents avec la mise à jour des données de l'application pour la gestion des états électroniques (ER)"
+title: "Modifier le modèle et la mise en correspondance pour générer des documents contenant des données d'application"
 description: "Pour réaliser les étapes de cette procédure, vous devez commencer par effectuer la procédure, « ER Générer des documents avec la mise à jour des données d'application (Partie 2 - Générer des documents) »."
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: a29e273e5ef377826c0002a9a0a956defef6aa77
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c112b2895175bd23db313888ec1e964bdf5ed295
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="modify-model-and-mapping-to-generate-documents-with-application-data-update-for-electronic-reporting-er"></a>Modifier le modèle et le mappage pour générer des documents avec la mise à jour des données de l'application pour la gestion des états électroniques (ER)
+# <a name="modify-model-and-mapping-to-generate-documents-with-application-data"></a>Modifier le modèle et la mise en correspondance pour générer des documents contenant des données d'application
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Pour réaliser les étapes de cette procédure, vous devez commencer par effectuer la procédure, « ER Générer des documents avec la mise à jour des données d'application (Partie 2 : Générer des documents). 
 

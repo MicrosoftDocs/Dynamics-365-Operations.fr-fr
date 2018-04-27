@@ -20,16 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: b24bb43e740835da25d44cb971e8f528db9cfacb
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a0a28ba5072d55b8133f5458f75befa752a3dcdf
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="production-parameters-in-manufacturing-execution"></a>Paramètres de production dans Contrôle et suivi de la production
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique fournit des informations sur la configuration des paramètres de production dans Contrôle et suivi de la production.
 
@@ -69,17 +69,17 @@ Pour chaque étape, le champ **Consommation automatique de nomenclature** permet
 
 - **Principe d'effacement** – Cette option est utilisée en combinaison avec une option définie pour la nomenclature dans le module **Production**. Cliquez sur **Contrôle de la production** &gt; **Commun** &gt; **Ordres de fabrication** &gt; **Tous les ordres de fabrication**. Dans la page **Tous les ordres de fabrication**, sélectionnez un ordre de fabrication dans la liste, puis, dans le volet Actions, cliquez sur **Nomenclature**. Dans la page **Nomenclature**, sous l'onglet **Paramétrage**, dans le champ **Principe d'effacement**, sélectionnez l'une des options suivantes :
 
-    - **Début**
-    - **Terminer**
-    - **Manuel**
-    - Vide (Aucune option n'est sélectionnée.)
-    - **Disponible à l'emplacement**
+  - **Début**
+  - **Terminer**
+  - **Manuel**
+  - Vide (Aucune option n'est sélectionnée.)
+  - **Disponible à l'emplacement**
 
     Dans le module Contrôle et suivi de la production, si l'option **Principe d'effacement** est sélectionnée dans le champ **Consommation automatique de nomenclature** de l'onglet **Début**, toutes les matières définies sur **Début** dans la nomenclature sont déduites du stock lorsque l'opération est démarrée. L'option **Disponible à l'emplacement** est utilisée pour les produits activés pour les processus d'entrepôt avancés. Si vous sélectionnez ce principe d'effacement, les matières sont vidées lorsque le travail d'entrepôt pour le prélèvement de matières premières est terminé. Les matières sont également vidées lorsqu'une ligne de nomenclature qui utilise ce principe d'effacement est libérée dans l'entrepôt et les matières sont disponibles à l'emplacement de l'entrée en production.
-    
+
     > [!NOTE]
     > Si le champ **Principe d'effacement** est défini sur l'onglet **Démarrer** dans Contrôle et suivi de la production, vous devez sélectionner le même principe dans l'onglet **Opérations** ou l'onglet **Déclarer comme terminé**. Cette exigence permet de garantir que les matériaux sont déduits de l'inventaire des nomenclatures qui utilisent **Terminer** comme principe d'effacement pour l'ordre de fabrication. Si le même principe d'effacement n'est pas sélectionné dans l'onglet **Opérations** ou l'onglet **Déclaration de fin**, les matières peuvent être déduites du stock deux fois.
- 
+
 - **Toujours** – Si vous activez cette option pour un étape, les matières sont toujours déduites du stock à ce stade. Par exemples, les matières destinées à la production sont déduites lors du lancement de l'ordre de fabrication. Ce paramètre requiert que **Jamais** soit sélectionné dans les onglets **Opérations** et **Déclaration de fin**. Cela permet d'empêcher que des articles soient déduits du stock deux fois.
 - **Jamais** – Si vous sélectionnez cette option pour un stade, aucune consommation de nomenclature n'a lieu à ce stade. Par exemple, si vous sélectionnez **Jamais** dans les trois onglets (**Début**, **Opérations** et **Déclaration de fin**), les matières doivent être déduites manuellement du stock.
 
@@ -146,11 +146,13 @@ Sur la base des sélections décrites plus haut dans cette section, les journaux
 
 Vous pouvez utiliser les paramètres suivants si des matières doivent être déduites manuellement du stock. Dans ce cas, les journaux des prélèvements ne sont pas validés.
 
-| Onglet                | Champ                          | Paramètre    |
-|--------------------|--------------------------------|------------|
-| Commencement              | Mettre à jour commencement en ligne           | **Statut** |
-| Commencement              | Consommation de nomenclature automatique      | **Jamais**  |
-| Operations         | Consommation de nomenclature automatique      | **Jamais**  |
-| Déclaration de fin | Consommation de nomenclature automatique      | **Jamais**  |
-| Déclaration de fin | Mettre à jour déclaration de fin en ligne | **Statut** |
+
+|        Onglet         |             Champ              |         Paramètre         |
+|--------------------|--------------------------------|-------------------------|
+|       Commencement        |      Mettre à jour commencement en ligne      | <strong>Statut</strong> |
+|       Commencement        |   Consommation de nomenclature automatique    | <strong>Jamais</strong>  |
+|     Operations     |   Consommation de nomenclature automatique    | <strong>Jamais</strong>  |
+| Déclaration de fin |   Consommation de nomenclature automatique    | <strong>Jamais</strong>  |
+| Déclaration de fin | Mettre à jour déclaration de fin en ligne | <strong>Statut</strong> |
+
 

@@ -18,16 +18,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7b5c4428c8610a7b2d4cf1a28287ba2bb1f9c2ea
-ms.openlocfilehash: b7cb5f2096f0be5211024fc6ecbfaa61d6c48c9a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1fc3ab4f2a4b4604126ff72c570fc9d85e209f3c
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/06/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="financial-performance-power-bi-content"></a>Contenu Power BI des performances financières
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 > [!Note]
 > Ce pack de contenu a été déconseillé comme indiqué dans [Packs de contenu Power BI publiés sur PowerBI.com](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom).
@@ -58,7 +58,7 @@ Chaque vignette est soutenue par un état de prise en charge. Ces états contien
 
 | Etat                      | Les informations que l'état doit contenir |
 |-----------------------------|--------------------------------------|
-| Analyse des disponibilités               | Disponibilités par entité juridique, disponibilités par trimestre, disponibilités totales et disponibilités par compte<blockquote>[!NOTE]<br>Les informations relatives aux disponibilités par trimestre n'incluent pas les soldes d'ouverture dans le total du premier trimestre. Il présente le total des nouvelles transactions validées dans chaque trimestre.</blockquote> |
+| Analyse des disponibilités               | Disponibilités par entité juridique, disponibilités par trimestre, disponibilités totales et disponibilités par compte<br><br>**Remarque :** les informations relatives aux disponibilités par trimestre n'incluent pas les soldes d'ouverture dans le total du premier trimestre. Il présente le total des nouvelles transactions validées dans chaque trimestre.|
 | Analyse du taux actuel      | Taux actuel par entité juridique, taux actuel par trimestre et soldes pour les immobilisations actuelles et le passif actuel. |
 | Analyse du taux rapide        | Taux rapide par entité juridique, taux rapide par trimestre et soldes pour les disponibilités, comptabilité client et passif actuel |
 | Analyse du coût des marchandises vendues | Coût des marchandises vendues (COGS) par entité juridique, coût des marchandises vendues cette année et l'année dernière par trimestre, coût des marchandises vendues par entité juridique, coût des marchandises vendues totales et coût des marchandises vendues en pourcentage des ventes |
@@ -69,7 +69,7 @@ Chaque vignette est soutenue par un état de prise en charge. Ces états contien
 | Analyse des bénéfices           | Recettes budgétaires et réelles avant intérêts et taxes (EBIT) par entité juridique, EBIT de cette année et de l'année dernière, dépenses en pourcentage de produit, et dépenses budgétaires et réelles du produit |
 | Analyse du produit            | Produit total, recettes budgétaires et réelles par entité juridique, produit total de cette année et de l'année dernière, écart du budget de produit par entité juridique, et produit total de cette période et de la période passée |
 | Analyse des dépenses            | Dépenses totales, dépenses totales budgétaires et réelles par entité juridique, dépenses réelles et budgétaires par trimestre, dépenses totales par catégorie de compte, et taux de frais d'exploitation |
-| Analyse de produit facturée     | Total de la comptabilité client, total de la comptabilité client par entité juridique, total de la comptabilité client par trimestre et soldes des comptes de ventes<blockquote>[!NOTE]<br>Les informations n'incluent pas les soldes d'ouverture des comptes généraux du module Comptabilité client. Elles indiquent le total des nouvelles transactions validées dans la comptabilité client.</blockquote> |
+| Analyse de produit facturée     | Total de la comptabilité client, total de la comptabilité client par entité juridique, total de la comptabilité client par trimestre et soldes des comptes de ventes<br><br>**Remarque :** les informations n'incluent pas les soldes d'ouverture des comptes généraux du module Comptabilité client. Elles indiquent le total des nouvelles transactions validées dans la comptabilité client. |
 
 Les graphiques et les vignettes sur tous ces états peuvent être filtrés et épinglés au tableau de bord. Pour savoir comment filtrer et épingler dans Power BI, voir [Créer et configurer un tableau de bord](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 

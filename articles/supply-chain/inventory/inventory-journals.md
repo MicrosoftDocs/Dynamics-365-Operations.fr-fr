@@ -1,9 +1,9 @@
 ---
 title: Journaux de stock
-description: "Cet article décrit la manière dont vous pouvez utiliser les journaux de stock pour valider différents types de transactions de stock physique."
-author: MarkusFogelberg
+description: "Cette rubrique décrit la manière dont vous pouvez utiliser les journaux de stock pour valider différents types de transactions de stock physique."
+author: perlynne
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 04/05/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,21 +19,20 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: 6dfb82acb5dafd365d878949b35d4fe6ff58793d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 7e6ac46cc4d4961cdd76f6127d8900a9b3d13a39
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="inventory-journals"></a>Journaux de stock
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
-
-Cet article décrit la manière dont vous pouvez utiliser les journaux de stock pour valider différents types de transactions de stock physique.
+Cette rubrique décrit la manière dont vous pouvez utiliser les journaux de stock pour valider différents types de transactions de stock physique.
 
 Les journaux de stock de Microsoft Dynamics 365 for Finance and Operations permettent de valider les mouvements de stock physique de différents types, tels que la validation des sorties et des réceptions, les mouvements de stock, la création de nomenclatures et le rapprochement du stock physique. Tous ces journaux de stock sont utilisés de façon similaire, mais ils sont divisés en différents types.
 
@@ -51,7 +50,7 @@ Les types de journaux de stock suivants sont disponibles :
 
 ### <a name="movement"></a>Mouvement
 
-Lorsque vous utilisez un journal de mouvements de stock, vous pouvez ajouter un coût à un article lorsque vous ajoutez le stock, mais vous devez affecter manuellement le coût supplémentaire à un compte général particulier en spécifiant un compte général de contrepartie lorsque vous créez le journal. Ce type de journal de stock est utile si vous souhaitez imputer la dépense liée à un article à un autre département, ou si vous souhaitez supprimer des articles du stock pour des objectifs de dépenses.
+Lorsque vous utilisez un journal de mouvements de stock, vous pouvez ajouter un coût à un article lorsque vous ajoutez le stock, mais vous devez affecter manuellement le coût supplémentaire à un compte général particulier en spécifiant un compte général de contrepartie lorsque vous créez le journal. Ce type de journal de stock est utile si vous souhaitez remplacer les comptes de validation par défaut.
 
 ### <a name="inventory-adjustment"></a>Ajustement de stock
 
@@ -61,8 +60,8 @@ Lorsque vous utilisez un journal d'ajustement de stock, vous pouvez ajouter un c
 
 Vous pouvez utiliser les journaux de transfert pour transférer des articles entre les emplacements de stockage, les traitements par lots ou les variantes de produit sans associer aucune implications en matière de coût. Par exemple, vous pouvez transférer des articles d'un entrepôt à un autre au sein de la même société. Lorsque vous utilisez un journal de transfert, vous devez spécifier les dimensions de stock « de » et « vers » (par exemple, pour le site et l'entrepôt). Le stock disponible pour les dimensions de stock définies est modifié en conséquence. Les transferts de stock reflètent le mouvement immédiat des matières. Le suivi du stock en transit n'est pas effectué. Si le suivi du stock en transit doit être effectué, vous devez alors utiliser un ordre de transfert. Lorsque vous validez un journal de transfert, deux mouvements de stock sont créés pour chaque ligne de journal :
 
--   Une sortie de stock à l'emplacement « de »
--   Une réception de stock à l'emplacement « vers »
+-   Une sortie de stock à l'emplacement « de ».
+-   Une réception de stock à l'emplacement « vers ».
 
 ### <a name="bom"></a>Nomenclature
 
@@ -78,11 +77,11 @@ Les journaux des entrée en production fonctionnent comme les journaux d'arrivé
 
 ### <a name="counting"></a>Comptage
 
-Les journaux d'inventaire vous permettent de corriger le stock disponible actuel qui est enregistré pour des articles ou des groupes d'articles, puis de valider le compte physique réel, pour pouvoir effectuer les ajustements nécessaires afin de rapprocher les différences. Vous pouvez associer les stratégies d'inventaire aux groupes d'inventaire pour aider à regrouper des articles qui ont diverses caractéristiques, de sorte que ces articles soient inclus dans un journal d'inventaire. Par exemple, vous pouvez paramétrer des groupes d'inventaire pour compter les articles ayant une fréquence spécifique, ou pour compter les articles lorsque le stock tombe à un niveau spécifique. Pour plus d'informations sur la façon de définir les groupes d'inventaire, voir [Définir les processus de comptage d'inventaire (Guide de tâche)](tasks/define-inventory-counting-processes.md).
+Les journaux d'inventaire vous permettent de corriger le stock disponible actuel qui est enregistré pour des articles ou des groupes d'articles, puis de valider le compte physique réel, pour pouvoir effectuer les ajustements nécessaires en vue de rapprocher les différences. Vous pouvez associer les stratégies d'inventaire aux groupes d'inventaire pour aider à regrouper des articles qui ont diverses caractéristiques, de sorte que ces articles soient inclus dans un journal d'inventaire. Par exemple, vous pouvez paramétrer des groupes d'inventaire pour compter les articles ayant une fréquence spécifique, ou pour compter les articles lorsque le stock tombe à un niveau spécifique. Pour plus d'informations sur la façon de définir les groupes d'inventaire, voir [Définir les processus de comptage d'inventaire (Guide de tâche)](tasks/define-inventory-counting-processes.md).
 
 ### <a name="tag-counting"></a>Comptage des balises
 
-Les journaux d'inventaire des balises permettent d'affecter une balise numérotée à un lot de compte. La balise doit contenir un numéro de balise, un numéro d'article, et une quantité d'articles. Pour garantir qu'une balise est utilisée une seule fois, et que toutes les balises sont utilisées, chaque numéro d'article doit avoir un ensemble de balises unique doté de sa propre souche de numéros. Trois valeurs de statut peuvent être définies pour chaque balise :
+Les journaux d'inventaire des balises permettent d'affecter une balise numérotée à un lot de compte. La balise doit contenir un numéro de balise, un numéro d'article, et une quantité d'articles. Pour vous assurer qu'une balise est utilisée une seule fois, et que toutes les balises sont utilisées, chaque numéro d'article doit avoir un ensemble de balises unique doté de sa propre souche de numéros. Trois valeurs de statut peuvent être définies pour chaque balise :
 
 -   **Utilisée** – Le numéro d'article est compté pour cette balise.
 -   **Annulée** – Le numéro d'article est annulé pour cette balise.
@@ -95,4 +94,30 @@ Un journal n'est accessible que par un seul utilisateur à la fois. Si plusieurs
 
 ## <a name="posting-journal-lines"></a>Validation des lignes de journal
 Vous pouvez valider les lignes de journal que vous créez à tout moment jusqu'à ce que vous ayez verrouillé un article des transactions supplémentaires. Les données que vous entrez dans un journal y sont conservées, même si vous fermez le journal sans valider les lignes.
+
+## <a name="data-entity-support-for-inventory-journals"></a>Prise en charge d'entité de données pour les journaux de stock
+
+Les entités de données prennent en charge les types de scénarios d'intégration suivants :
+-    Service synchrone (OData)
+-  Intégration asynchrone
+
+Pour plus d'informations, voir [Entités de données](../../dev-itpro/data-entities/data-entities.md).
+
+> [!NOTE]
+> OData est activé sur tous les journaux de stock, vous ne pouvez donc pas utiliser le connecteur de données Excel pour que les données soient oubliées, mises à jour et ré-importées dans Dynamics 365 for Finance and Operations. 
+
+Une autre différence entre les entités de données de journal est la possibilité d'utiliser des entités composites qui incluent les données d'en-tête et de ligne. Actuellement, vous pouvez utiliser les entités composites pour :
+-   Journal d'ajustement du stock
+-   Journal des mouvements de stock
+
+Ces deux journaux de stock prennent en charge uniquement le scénario *Initialiser le stock* dans le cadre d'un projet d'importation de gestion des données :
+-  Lorsqu'un numéro d'en-tête de journal n'est spécifié, mais qu'une souche de numéros est spécifiée pour le type de journal, la tâche d'importation crée automatiquement des en-têtes de journal toutes les 1 000 lignes. Par exemple, l'importation de 2 020 lignes entraîne les trois en-têtes de journal suivants :
+    -  En-tête 1 : contient 1 000 lignes
+    -  En-tête 2 : contient 1 000 lignes
+    -  En-tête 3 : contient 20 lignes
+-  On considère qu'une information de ligne unique existe par dimension de stock, qui peut être un produit, un stockage, et une dimension de suivi. Par conséquent, il n'est pas possible d'importer des lignes de journal lorsque seul le champ de date diffère sur les lignes du même projet d'importation.
+
+## <a name="additional-resources"></a>Ressources supplémentaires
+
+[Entités de données](../../dev-itpro/data-entities/data-entities.md)
 

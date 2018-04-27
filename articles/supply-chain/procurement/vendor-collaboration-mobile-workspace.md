@@ -18,16 +18,16 @@ ms.author: mkirknel
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: bfbc0fdfcff809a7d22362961b9778355ed7317b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 83fcf1d0432d5afa71d6f9d7d22cea5a583777bf
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="vendor-collaboration-mobile-workspace"></a>Espace de travail de collaboration fournisseur sur téléphone mobile
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique fournit des informations sur l'espace de travail mobile **Collaboration du fournisseur**. Cet espace de travail permet aux fournisseurs d'être constamment informés des commandes fournisseur qui leur ont été envoyées pour approbation. Ils peuvent également afficher des informations sur les bons de commande et les contacts nouveaux et mis à jour.
 
@@ -76,9 +76,9 @@ Si la version 1611 de Microsoft Dynamics 365 for Operations avec la mise à jo
 </thead>
 <tbody>
 <tr class="odd">
-<td>Le KB 3216943 doit être implémenté si vous utilisez la mise à jour 3 de la plateforme.</td>
+<td>Le KB 3216943 doit être implémenté si vous utilisez Platform update 3.</td>
 <td>Administrateur système</td>
-<td>Le KB 3216943 est une mise à jour binaire qui est requise si vous utilisez la mise à jour 3 de la plateforme. Pour implémenter ce KB, l'administrateur système doit procéder comme suit :
+<td>Le KB 3216943 est une mise à jour binaire qui est requise si vous utilisez Platform update 3. Pour implémenter ce KB, l'administrateur système doit procéder comme suit :
 <ol>
 <li>Téléchargez le KB 3216943 depuis Microsoft Dynamics Lifecycle Services (LCS).</li>
 <li>Installez la mise à jour binaire, qui est fournie en tant que package déployable. Pour plus d'informations sur l'application d'un package déployable, voir <a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Appliquer un package déployable</a>.</li>

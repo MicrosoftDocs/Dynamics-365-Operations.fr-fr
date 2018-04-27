@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: ProjTable
+ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -19,17 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3c4720795313180ba7ad784ea39484d6ffb9ac2f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 404f7d2b050aba1532cae0955a9579e1c2f174e3
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="project-management-and-accounting"></a>Gestion et comptabilité des projets
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 La fonctionnalité de gestion de projets et de comptabilité peut être utilisée dans plusieurs secteurs pour fournir un service, fabriquer un produit, ou atteindre résultat.  
 
@@ -83,6 +82,7 @@ Vous pouvez utiliser la prévision si votre organisation a une perspective opér
 Vous pouvez créer six types de projets dans Microsoft Finance and Operations. Chaque type de projet est paramétré différemment pour les coûts et la constatation du produit. La sélection d'un type de projet dépend de l'objectif du projet. Le tableau suivant décrit l'utilisation typique de chaque type de projet.
 
                                                                                                                                                                          |
+
 | Type de projet      | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Régie | Dans les projets en régie, le client est facturé pour tous les coûts engagés sur un projet. Ces coûts incluent notamment les heures, les dépenses, les articles et les frais.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
@@ -127,10 +127,10 @@ Un ordre de fabrication associé à un projet peut être lié à une commande cl
 
 En fonction des combinaisons de ces facteurs, utilisez l'une des méthodes suivantes :
 
--   **Article fini/lié à la commande** – Lie le projet à une commande client ou à une demande d'articles. Avec cette méthode, les coûts de projet réels sont validés lorsque la commande client est facturée ou lorsque le bon de livraison est mis à jour avec la demande d'articles. Le coût est validé en tant qu'article fini.
--   **Article fini/pas de lien avec la commande** – Les coûts réels ne peuvent pas être validés tant que le cycle de production d'un article a le statut **Terminé**. Le coût de l'article fini est validé en tant que transaction unique.
--   **Article consommé/lié à la commande** – Lie le projet à une demande d'articles. Cette méthode permet d'afficher les coûts de projet réels lorsque la production a le statut **Commencé** ou est déclarée terminée. Les coûts seront validés sous la forme de plusieurs transactions d’article de projet pour les matières premières et les heures consommées pour la production. Lorsque le bon de livraison est mis à jour avec la demande d'articles, aucun coût de projet n'est validé. Vous pouvez également définir le niveau de hiérarchie de la nomenclature auquel les projets sont suivis dans la production.
--   ****Article consommé/lié à la commande**** – Lie le projet à une demande d'articles. Cette méthode permet d'afficher les coûts de projet réels lorsque la production a le statut **Commencé** ou est déclarée terminée. Les coûts sont validés sous la forme de plusieurs transactions d’article de projet pour les matières premières et les heures consommées pour la production. Vous pouvez également définir le niveau de hiérarchie de la nomenclature auquel les projets sont suivis dans la production.
+- **Article fini/lié à la commande** – Lie le projet à une commande client ou à une demande d'articles. Avec cette méthode, les coûts de projet réels sont validés lorsque la commande client est facturée ou lorsque le bon de livraison est mis à jour avec la demande d'articles. Le coût est validé en tant qu'article fini.
+- **Article fini/pas de lien avec la commande** – Les coûts réels ne peuvent pas être validés tant que le cycle de production d'un article a le statut **Terminé**. Le coût de l'article fini est validé en tant que transaction unique.
+- **Article consommé/lié à la commande** – Lie le projet à une demande d'articles. Cette méthode permet d'afficher les coûts de projet réels lorsque la production a le statut **Commencé** ou est déclarée terminée. Les coûts seront validés sous la forme de plusieurs transactions d’article de projet pour les matières premières et les heures consommées pour la production. Lorsque le bon de livraison est mis à jour avec la demande d'articles, aucun coût de projet n'est validé. Vous pouvez également définir le niveau de hiérarchie de la nomenclature auquel les projets sont suivis dans la production.
+- *<strong><em>Article consommé/lié à la commande</em></strong>* – Lie le projet à une demande d'articles. Cette méthode permet d'afficher les coûts de projet réels lorsque la production a le statut <strong>Commencé</strong> ou est déclarée terminée. Les coûts sont validés sous la forme de plusieurs transactions d’article de projet pour les matières premières et les heures consommées pour la production. Vous pouvez également définir le niveau de hiérarchie de la nomenclature auquel les projets sont suivis dans la production.
 
 ### <a name="procure-products-and-services"></a>Définition de l'approvisionnement des produits et des services
 
@@ -239,9 +239,8 @@ Le tableau suivant décrit les méthodes de calcul du coût à terminer du proje
 <li>Comparez les transactions de prévision avec les transactions réelles.</li>
 <li>Mettez à jour, soustrayez ou additionnez les estimations pour la période suivante.</li>
 </ol>
-Finance and Operations ne diminue pas automatiquement les estimations prévues. Par conséquent, il est judicieux de tenir à jour un modèle de prévision d'origine pour le projet à prix fixe afin d'établir une ligne de base pour comparaison une fois le projet terminé. 
-> [!NOTE] utilisez au moins deux modèles de prévision lorsque vous appliquez cette approche. Un modèle doit contenir la prévision d'origine. Pour l'autre modèle, vous devez copier les transactions de prévision d'un autre modèle. Cette méthode est valide uniquement pour les projets à prix fixe ou d'investissement.</td>
-> </tr>
+Finance and Operations ne diminue pas automatiquement les estimations prévues. Par conséquent, il est judicieux de tenir à jour un modèle de prévision d'origine pour le projet à prix fixe afin d'établir une ligne de base pour comparaison une fois le projet terminé. &gt; [!NOTE] &gt; utilisez au moins deux modèles de prévision lorsque vous appliquez cette approche. Un modèle doit contenir la prévision d'origine. Pour l'autre modèle, vous devez copier les transactions de prévision d'un autre modèle. Cette méthode est valide uniquement pour les projets à prix fixe ou d'investissement.</td>
+</tr>
 <tr class="odd">
 <td>Budget restant</td>
 <td>Cette méthode utilise un modèle de budget restant pour calculer le coût à terminer du projet. Lorsque vous utilisez cette méthode, les coûts réels et les montants prévus dans le modèle de budget restant sont additionnés entre eux. Le résultat est un coût total. Avant d'utiliser cette méthode, un modèle de budget restant doit être paramétré pour déduire les transactions en fonction des transactions réelles enregistrées dans le système. Dans la page <strong>Modèles de prévision</strong>, vérifiez que les champs sont marqués dans le groupe <strong>Réduction automatique des prévisions</strong>. En règle générale, un budget restant est copié à parti d'un budget d'origine. À mesure que les transactions sont entrées, les transactions du budget restant sont diminuées. Au fur et à mesure de la progression du projet, si vous déterminez le budget restant doit être ajusté, vous pouvez facturer des transactions de prévision sur le budget restant. <strong>Remarque :</strong> cette méthode peut être appliquée uniquement si un modèle de prévision est associé à l'estimation.</td>

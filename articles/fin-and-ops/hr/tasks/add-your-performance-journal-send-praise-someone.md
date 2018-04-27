@@ -16,15 +16,15 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e232ba1f5803f6dee148f23098563c99c1622cdf
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9b898a5ab5ad2837ef1d9ef8ebf88aaa05f56b3a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>Ajouter à votre journal de performances et envoyer l'éloge à une personne
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Le journal des performance contient des informations relatives à la réalisation de vos objectifs ou à vos performances pendant une période. Vous pouvez également récompenser les actions d'un collaborateur à partir du journal. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.
 
@@ -42,7 +42,7 @@ Le journal des performance contient des informations relatives à la réalisatio
 9. Dans le champ Mots clés, tapez une valeur.
 10. Cliquez sur Ajouter un lien externe.
 11. Dans le champ Description, tapez « Envision ».
-12. Dans le champ d'adresse Internet, tapez « https://www.microsoft.com/en/envision/default ».
+12. Dans le champ Adresse Internet, tapez « <https://www.microsoft.com/en/envision/default> ».
 13. Cliquez sur la légende sous le bouton d'enregistrement intitulée « Journal des performances » pour revenir à la grille.
     * Vous pouvez ajouter le ou les journaux sélectionnés à un objectif pour qu'ils s'affichent lorsque vous ouvrez l'objectif. Un lien est ajouté dans l'organisateur Liens.    Si vous ajoutez un journal à un objectif et ajoutez l'objectif à une révision, le journal apparaît automatiquement dans la révision.  
     * Vous pouvez ajouter le ou les journaux sélectionnés à une révision pour qu'ils s'affichent lorsque vous ouvrez la révision.    Un lien est ajouté dans l'organisateur Liens.  

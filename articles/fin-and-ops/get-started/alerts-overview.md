@@ -17,18 +17,18 @@ ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
 ms.translationtype: HT
-ms.sourcegitcommit: 454368ab5a467002ebf973db97fd98e31885dfe0
-ms.openlocfilehash: 1f0b5ff383c8bb2d1ac892ef771e15f0afec2655
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ad9373faa19761cccca2b5d581de05f0ac9dd165
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="alerts-overview"></a>Vue d'ensemble des alertes
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[banner](../includes/pre-release.md)] 
+[!INCLUDE [banner](../includes/pre-release.md)]
 
 ## <a name="about-alerts"></a>À propos des alertes
 Les alertes forment un système de notification pour les événements critiques dans Microsoft Dynamics 365 for Finance and Operations. Vous pouvez utiliser les alertes pour rester informé des événements que vous voulez suivre durant votre journée de travail. Vous pouvez facilement créer votre propre ensemble de règles d'alerte pour être prévenu des livraisons en retard, des suppressions de commandes, des modifications de prix et d'autres événements nécessitant une réaction de votre part.
@@ -71,4 +71,7 @@ Une règle d'alerte a cinq composants :
 
     > [!NOTE]
     > Cette option est limitée aux administrateurs de l'organisation.
+
+## <a name="email-notifications-from-alerts"></a>Notifications par e-mail des alertes
+Les notifications par e-mail des alertes ne sont pas encore été activées. Cette option sera activée dans une prochaine mise à jour.
 

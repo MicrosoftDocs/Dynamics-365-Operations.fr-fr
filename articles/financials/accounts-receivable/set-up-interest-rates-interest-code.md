@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 59acfaa93b1352f2be6d750dea6bdd740bac0312
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c0e80bae4716d2b12f515f38d3b641de24680571
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Paramétrage des taux d'intérêt pour un code intérêt
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Les codes intérêt contiennent des paramètres qui déterminent quand les intérêts sont facturés et comment ils sont calculés sur les comptes qui présentent des retards.
 
@@ -47,17 +46,17 @@ Lorsqu'un code intérêt est utilisé pour calculer des intérêts, une note d'i
 ## <a name="interest-rates-based-on-a-percentage"></a>Taux d'intérêt basés sur un pourcentage
 Vous pouvez paramétrer des taux d'intérêt qui calculent un pourcentage spécifié.
 
--   Le montant des intérêts s'applique à toutes les devises.
--   Vous pouvez spécifier des limites du montant des intérêts facultatives.
--   L'option **Pourcentage** est sélectionnée dans le champ **Calculer les intérêts sur base de** dans la page **Paramétrer les codes intérêt**.
+- Le montant des intérêts s'applique à toutes les devises.
+- Vous pouvez spécifier des limites du montant des intérêts facultatives.
+- L'option <strong>Pourcentage</strong> est sélectionnée** <strong>dans le champ **Calculer les intérêts sur base de</strong> de la page <strong>Paramétrer les codes intérêt</strong>.
 
 Par exemple, pour paramétrer un code intérêt qui évalue 5 % d'intérêts pour chaque période de deux mois après la date d'échéance de la transaction pour le paiement de la facture, entrez 2 dans le champ **Calculer les intérêts tous les** et sélectionnez **Mois**.
 
 ## <a name="interest-rates-based-on-amounts"></a>Taux d'intérêt basés sur des montants
 Vous pouvez paramétrer des taux d'intérêt qui calculent un montant spécifié par devise.
--   Un montant des intérêts est spécifié pour chaque devise dans le code intérêt.
--   Vous pouvez spécifier des limites du montant des intérêts facultatives.
--   L'option **Montant **est sélectionnée dans le champ **Calculer les intérêts sur base de** de la page **Paramétrer les codes intérêt**.
+- Un montant des intérêts est spécifié pour chaque devise dans le code intérêt.
+- Vous pouvez spécifier des limites du montant des intérêts facultatives.
+- L'option <strong>Montant** est sélectionnée dans le champ **Calculer les intérêts sur base de</strong> de la page <strong>Paramétrer les codes intérêt</strong>.
 
 Par exemple, pour paramétrer un code intérêt qui évalue un intérêt de 25,00 pour chaque période de 20 jours après la date d'échéance de la transaction pour le paiement de la facture, entrez 20 dans le champ **Calculer les intérêts tous les** et sélectionnez **Jour**.
 
@@ -84,7 +83,7 @@ Vous devez paramétrer les informations de tranches comme suit.
 | 1,001          | 2                  |
 | 5,001          | 3                  |
 
- 
+
 ## <a name="example-2-interest-by-range--days"></a>Exemple 2 : Intérêts par tranche = jours
 --------------------------------------------------
 
@@ -105,7 +104,7 @@ Vous devez paramétrer les informations de tranches comme suit.
 | 61             | 15                 |
 | 91             | 20                 |
 
- 
+
 ## <a name="example-3-interest-by-range--months"></a>Exemple 3 : Intérêts par tranche = mois
 ----------------------------------------------------
 

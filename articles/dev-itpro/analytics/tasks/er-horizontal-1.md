@@ -1,5 +1,5 @@
 --- 
-title: "Concevoir un format pour utiliser des plages extensibles horizontalement pour ajouter dynamiquement des colonnes dans les états Excel pour la gestion des états électroniques (ER)"
+title: "Concevoir un format pour utiliser des plages extensibles horizontalement pour ajouter dynamiquement des colonnes dans les états Excel"
 description: "Les étapes suivantes expliquent comment un utilisateur affecté au rôle d'administrateur système ou de développeur d'états électroniques peut configurer un format d'états électroniques pour générer des états en tant que fichiers de feuilles de calcul (Excel) OPENXML dans lesquels les colonnes requises peuvent être créées dynamiquement sous forme de plages extensibles horizontalement."
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1ccf3b2d81066fce80fe14428fab24020ab85496
-ms.openlocfilehash: b921b5ff51f951112031fe8b1bc2faa90cf29a28
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d9c3cf17cd406a50a9f92e78991289f9139d7c73
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="design-a-format-to-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-for-electronic-reporting-er"></a>Concevoir un format pour utiliser des plages extensibles horizontalement pour ajouter dynamiquement des colonnes dans les états Excel pour la gestion des états électroniques (ER)
+# <a name="design-a-format-to-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports"></a>Concevoir un format pour utiliser des plages extensibles horizontalement pour ajouter dynamiquement des colonnes dans les états Excel
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Les étapes suivantes expliquent comment un utilisateur affecté au rôle d'administrateur système ou de développeur d'états électroniques peut configurer un format d'états électroniques pour générer des états en tant que fichiers de feuilles de calcul (Excel) OPENXML dans lesquels les colonnes requises peuvent être créées dynamiquement sous forme de plages extensibles horizontalement. Ces étapes peuvent être effectuées dans n'importe quelle société.
 
@@ -36,7 +36,7 @@ Pour réaliser ces étapes, vous devez d'abord effectuer les étapes des trois g
 
 « ER Utiliser les dimensions financières comme source de données (Partie 2 : Mise en correspondance des modèles) »
 
-Vous devez également télécharger et enregistrer une copie locale du modèle avec un exemple de rapport indiqué ici, [https://go.microsoft.com/fwlink/?linkid=862266](https://go.microsoft.com/fwlink/?linkid=862266). 
+Vous devez également télécharger et enregistrer une copie locale du modèle avec un exemple d'état indiqué ici, [https://go.microsoft.com/fwlink/?linkid=862266](https://go.microsoft.com/fwlink/?linkid=862266). 
 
 
 Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.

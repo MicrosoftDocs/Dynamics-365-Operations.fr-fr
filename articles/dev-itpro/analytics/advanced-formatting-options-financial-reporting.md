@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 4064a44601712a860d2a70a84ed415fda4669db3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8652766766a557d8399e6a94088a6f9bc82ff018
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Options de mise en forme avancées dans les états financiers
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Lorsque vous créez un état dans les états financiers, les fonctions de mise en forme supplémentaires sont disponibles, notamment des filtres pour des dimensions, des restrictions pour des colonnes et des unités organisationnelles, des lignes non imprimées, et des instructions IF/THEN/ELSE dans les calculs. 
 
@@ -66,12 +65,13 @@ Les exemples suivants indiquent comment mettre en forme la définition de ligne 
 
 Le tableau suivant présente un exemple de définition de ligne qui utilise le forçage de base.
 
-| Code ligne | Description                       | Code format | Formules/Lignes/Unités connexes | Modificateur de ligne | Lien vers les dimensions financières |
-|----------|----------------------------------|-------------|-----------------------------|----------------|----|
-| 100      | Disponibilités, début de période (NP) |             |                             | Modificateur de compte = \[/BB\] | +Segment2 = \[1100\]         |
-| 130      | Caisse au début de la période      | CAL         | C=C.100,F=D.100             |               |     |   |
-| 160      |                                  |             |                             |              |     |   |
-| 190      |                                  |             |                             |                 |     |   |
+
+| Code ligne |           Description            | Code format | Formules/Lignes/Unités connexes |        Modificateur de ligne        | Lien vers les dimensions financières |
+|----------|----------------------------------|-------------|-----------------------------|----------------------------|------------------------------|
+|   100    | Disponibilités, début de période (NP) |             |                             | Modificateur de compte = \[/BB\] |     +Segment2 = \[1100\]     |
+|   130    |   Caisse au début de la période    |     CAL     |       C=C.100,F=D.100       |                            |                              |
+|   160    |                                  |             |                             |                            |                              |
+|   190    |                                  |             |                             |                            |                              |
 
 > [!NOTE] 
 > Les colonnes vides ont été supprimées du tableau précédent à des fins de présentation : les colonnes Substitution de format, Solde normal, Contrôle d'impression, Restriction de colonne ne sont pas affichées.
@@ -180,11 +180,11 @@ La cellule **Restriction de colonne** dans une définition de ligne a plusieurs 
 -   La cellule peut préciser la colonne des montants à trier.
 
 ## <a name="using-a-calculation-formula-in-a-row-definition"></a>Utilisation d'une formule de calcul dans une définition de ligne
-Une formule de calcul dans une définition de ligne peut inclure les opérateurs **+**, **-**, **\*** et **/** ainsi que des instructions **IF/THEN/ELSE**. En outre, un calcul peut impliquer des cellules et des montants absolus (les nombres réels inclus dans la formule). La formule peut comporter jusqu'à 1 024 caractères. Les calculs ne peuvent pas être appliqués aux lignes contenant des cellules de type **Liens vers les dimensions financières** (FD). Toutefois, vous pouvez inclure des calculs dans les lignes consécutives, supprimer l'impression de ces lignes, puis totaliser les lignes de calcul.
+Une formule de calcul dans une définition de ligne peut inclure les opérateurs <strong>+</strong>, <strong>-</strong>, <strong>\\</strong> et **/** ainsi que des instructions <strong>IF/THEN/ELSE</strong>. En outre, un calcul peut impliquer des cellules et des montants absolus (les nombres réels inclus dans la formule). La formule peut comporter jusqu'à 1 024 caractères. Les calculs ne peuvent pas être appliqués aux lignes contenant des cellules de type <strong>Liens vers les dimensions financières</strong> (FD). Toutefois, vous pouvez inclure des calculs dans les lignes consécutives, supprimer l'impression de ces lignes, puis totaliser les lignes de calcul.
 
 ### <a name="operators-in-a-calculation-formula"></a>Opérateurs dans une formule de calcul
 
-Une formule de calcul utilise des opérateurs plus complexes qu'une formule de total de ligne. Toutefois, vous pouvez utiliser les opérateurs **\*** et **/** avec les opérateurs supplémentaires pour multiplier (\*) et pour diviser (/) des montants. Pour utiliser une plage ou une somme dans une formule de calcul, vous devez utiliser un arobase (@) devant tout code de ligne, sauf si vous utilisez une colonne dans la définition de ligne. Par exemple, pour ajouter le montant de la ligne 100 au montant de la ligne 330, vous pouvez utiliser la formule de total de ligne **100+330** ou la formule de calcul **@100+@330**. **Remarque :** Vous devez utiliser un arobase (@) avant chaque code de ligne que vous utilisez dans une formule de calcul. Sinon, le nombre est désigné comme un montant absolu. Par exemple, la formule **@100+330** ajoute 330 EUR au montant de la ligne 100. Lorsque vous référencez une colonne dans une formule de calcul, le signe arobase (@) n'est pas nécessaire.
+Une formule de calcul utilise des opérateurs plus complexes qu'une formule de total de ligne. Toutefois, vous pouvez utiliser les opérateurs <strong>\\</strong>* et <strong>/</strong> avec les opérateurs supplémentaires pour multiplier (\*) et pour diviser (/) des montants. Pour utiliser une plage ou une somme dans une formule de calcul, vous devez utiliser un arobase (@) devant tout code de ligne, sauf si vous utilisez une colonne dans la définition de ligne. Par exemple, pour ajouter le montant de la ligne 100 au montant de la ligne 330, vous pouvez utiliser la formule de total de ligne <strong>100+330</strong> ou la formule de calcul <strong>@100+@330</strong>. <strong>Remarque :</strong> Vous devez utiliser un arobase (@) avant chaque code de ligne que vous utilisez dans une formule de calcul. Sinon, le nombre est désigné comme un montant absolu. Par exemple, la formule <strong>@100+330</strong> ajoute 330 EUR au montant de la ligne 100. Lorsque vous référencez une colonne dans une formule de calcul, le signe arobase (@) n'est pas nécessaire.
 
 ### <a name="create-a-calculation-formula"></a>Créer une formule de calcul
 
@@ -202,7 +202,7 @@ Dans cet exemple, la formule de calcul **@100+@330** signifie que le montant de 
 | 370      | Disponibilités, début d'exercice   | CAL         | @100+@330                  | NP (aucune impression)            |              |                              |
 | 400      | Disponibilités, début de période | TOT         | 340+370                    |               |              |                              |
 
-Lorsque le code de format d'une ligne dans une définition de ligne est **CAL**, et que vous entrez un calcul mathématique dans la cellule **Formules/lignes/unités associées**, vous devez également entrer la lettre de la colonne et de la ligne associées dans l'état. Par exemple, entrez **A.120** pour représenter la colonne A, ligne 120. Sinon, vous pouvez utiliser un arobase (@) pour indiquer toutes les colonnes. Par exemple, entrez **@120** pour représenter toutes les colonnes de la ligne 120. Tout calcul mathématique qui n'a pas une lettre de colonne ou un arobase (@) est un nombre réel. **Remarque :** si vous utilisez le code de ligne d'étiquette pour référencer une ligne, vous devez utiliser un point (.) comme séparateur entre la lettre de colonne et l'étiquette (par exemple, **A.GROSS\_MARGIN/A.SALES**). Si vous utilisez un arobase (@), un séparateur n'est pas obligatoire (par exemple, **@GROSS\_MARGIN/@SALES**).
+Lorsque le code de format d'une ligne dans une définition de ligne est <strong>CAL</strong>, et que vous entrez un calcul mathématique dans la cellule <strong>Formules/lignes/unités associées</strong>, vous devez également entrer la lettre de la colonne et de la ligne associées dans l'état. Par exemple, entrez <strong>A.120</strong> pour représenter la colonne A, ligne 120. Sinon, vous pouvez utiliser un arobase (@) pour indiquer toutes les colonnes. Par exemple, entrez <strong>@120</strong> pour représenter toutes les colonnes de la ligne 120. Tout calcul mathématique qui n'a pas une lettre de colonne ou un arobase (@) est un nombre réel. <strong>Remarque :</strong> si vous utilisez le code de ligne d'étiquette pour référencer une ligne, vous devez utiliser un point (.) comme séparateur entre la lettre de colonne et l'étiquette (par exemple, <strong>A.GROSS\_MARGIN/A.SALES</strong>). Si vous utilisez un arobase (@), un séparateur n'est pas obligatoire (par exemple, <strong>@GROSS\_MARGIN/@SALES</strong>).
 
 ### <a name="example-of-a-calculation-formula-for-a-specific-column"></a>Exemple d'une formule de calcul pour une colonne spécifique
 
@@ -255,17 +255,17 @@ Les formules **THEN** et **ELSE** peuvent être n'importe quel calcul valide et 
 
 ### <a name="restricting-a-calculation-to-a-reporting-unit-in-a-row-definition"></a>Restriction d'un calcul dans une unité de déclaration dans une définition de ligne
 
-Pour limiter un calcul à une seule unité de génération dans une arborescence de génération d'états, de sorte que le montant qui en résulte ne soit pas reporté sur une unité de niveau supérieur, vous pouvez utiliser le code **@Unit** la cellule **Formules/lignes/unités associées** dans la définition de ligne. Le code **@Unit** est répertorié dans la colonne B de l'arborescence de génération d'états **Nom d'unité**. Lorsque vous utilisez le code **@Unit**, les valeurs ne sont pas reportées, mais le calcul est évalué à chaque niveau de l'arborescence de génération d'états. **Remarque :** Pour utiliser cette fonction, une arborescence de génération d'états doit être associée à la définition de ligne. La ligne de calcul peut faire référence à une ligne de calcul ou à une ligne de données financières. Le calcul est enregistré dans la cellule **Formules/lignes/unités associées** de la définition de ligne et de la restriction financière du type de données. Le calcul doit utiliser un calcul conditionnel commençant par la construction **IF @Unit**. Voici un exemple : IF @Unit(SALES) THEN @100 ELSE 0 Ce calcul comprend le montant à partir de la ligne 100 dans chaque colonne de l'état, mais uniquement pour l'unité de vente. Si plusieurs unités sont nommées SALES, le montant apparaît dans chacune d'entre elles. En outre, la ligne 100 peut être une ligne de données financières et peut être définie comme non imprimée. Dans ce cas, le montant n'apparaît pas dans les unités de l'arborescence. Vous pouvez également limiter le montant à une seule colonne de l'état, comme la colonne H par exemple, à l'aide d'une restriction de colonne pour imprimer la valeur uniquement dans cette colonne de l'état. Vous pouvez inclure des combinaisons **OR** dans une instruction **IF**. Voici un exemple : IF @Unit(SALES) OR @Unit(SALESWEST) THEN 5 ELSE @100 Vous pouvez spécifier une unité dans une restriction de type de calcul de l'une des manières suivantes :
+Pour limiter un calcul à une seule unité de génération dans une arborescence de génération d'états, de sorte que le montant qui en résulte ne soit pas reporté sur une unité de niveau supérieur, vous pouvez utiliser le code <strong>@Unit</strong> la cellule <strong>Formules/lignes/unités associées</strong> dans la définition de ligne. Le code <strong>@Unit</strong> est répertorié dans la colonne B de l'arborescence de génération d'états <strong>Nom d'unité</strong>. Lorsque vous utilisez le code <strong>@Unit</strong>, les valeurs ne sont pas reportées, mais le calcul est évalué à chaque niveau de l'arborescence de génération d'états. <strong>Remarque :</strong> Pour utiliser cette fonction, une arborescence de génération d'états doit être associée à la définition de ligne. La ligne de calcul peut faire référence à une ligne de calcul ou à une ligne de données financières. Le calcul est enregistré dans la cellule <strong>Formules/lignes/unités associées</strong> de la définition de ligne et de la restriction financière du type de données. Le calcul doit utiliser un calcul conditionnel commençant par la construction <strong>IF @Unit</strong>. Voici un exemple : IF @Unit(SALES) THEN @100 ELSE 0 Ce calcul comprend le montant à partir de la ligne 100 dans chaque colonne de l'état, mais uniquement pour l'unité de vente. Si plusieurs unités sont nommées SALES, le montant apparaît dans chacune d'entre elles. En outre, la ligne 100 peut être une ligne de données financières et peut être définie comme non imprimée. Dans ce cas, le montant n'apparaît pas dans les unités de l'arborescence. Vous pouvez également limiter le montant à une seule colonne de l'état, comme la colonne H par exemple, à l'aide d'une restriction de colonne pour imprimer la valeur uniquement dans cette colonne de l'état. Vous pouvez inclure des combinaisons <strong>OR</strong> dans une instruction <strong>IF</strong>. Voici un exemple : IF @Unit(SALES) OR @Unit(SALESWEST) THEN 5 ELSE @100 Vous pouvez spécifier une unité dans une restriction de type de calcul de l'une des manières suivantes :
 
--   Entrez un nom d'unité pour inclure les unités qui correspondent. Par exemple, **IF @Unit(SALES)** active le calcul pour toute unité nommée SALES, même s'il existe plusieurs unités de vente dans l'arborescence de génération d'états.
--   Entrez le nom d'unité et la société pour limiter le calcul aux unités spécifiques d'une société spécifique. Par exemple, entrez **IF @Unit(ACME:SALES**) pour limiter le calcul aux unités de vente de la société ACME.
--   Entrez le code hiérarchique complet à partir de l'arborescence de génération d'états pour limiter le calcul à une unité spécifique. Par exemple, entrez **IF @Unit(SUMMARY^ACME^WEST COAST^SALES)**. **Remarque :** Pour rechercher le code hiérarchique complet, cliquez dans la définition d'arborescence de génération d'état, puis sélectionnez **Copier Identificateur d'unité de génération d'états (code H-)**.
+- Entrez un nom d'unité pour inclure les unités qui correspondent. Par exemple, <strong>IF @Unit(SALES)</strong> active le calcul pour toute unité nommée SALES, même s'il existe plusieurs unités de vente dans l'arborescence de génération d'états.
+- Entrez le nom d'unité et la société pour limiter le calcul aux unités spécifiques d'une société spécifique. Par exemple, entrez <strong>IF @Unit(ACME:SALES</strong>) pour limiter le calcul aux unités de vente de la société ACME.
+- Entrez le code hiérarchique complet à partir de l'arborescence de génération d'états pour limiter le calcul à une unité spécifique. Par exemple, entrez <strong>IF @Unit(SUMMARY^ACME^WEST COAST^SALES)</strong>. <strong>Remarque :</strong> Pour rechercher le code hiérarchique complet, cliquez dans la définition d'arborescence de génération d'état, puis sélectionnez <strong>Copier Identificateur d'unité de génération d'états (code H-)</strong>.
 
 #### <a name="restrict-a-calculation-to-a-reporting-unit"></a>Limitation d'un calcul à une unité organisationnelle
 
-1.  Dans le Concepteur de rapports, cliquez sur **Définitions de ligne** puis ouvrez la définition de ligne à modifier.
-2.  Double-cliquez sur la cellule **Code de format**, puis sélectionnez **CAL**.
-3.  Cliquez sur la cellule **Formules/lignes/unités associées**, puis entrez un calcul conditionnel commençant par une construction **IF @Unit**.
+1. Dans le Concepteur de rapports, cliquez sur **Définitions de ligne** puis ouvrez la définition de ligne à modifier.
+2. Double-cliquez sur la cellule **Code de format**, puis sélectionnez **CAL**.
+3. Cliquez sur la cellule <strong>Formules/lignes/unités associées</strong>, puis entrez un calcul conditionnel commençant par une construction <strong>IF @Unit</strong>.
 
 ### <a name="ifthenelse-statements-in-a-column-definition"></a>Instructions IF/THEN/ELSE dans une définition de colonne
 
