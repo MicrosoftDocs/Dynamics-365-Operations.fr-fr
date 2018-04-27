@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a>Identifier et déployer les outils de sélection de candidats
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Il peut être difficile de trouver un groupe de candidats qualifiés pour pourvoir les postes vacants, en particulier lorsqu'un poste nécessite un seul ensemble de qualifications.  Toutefois, les candidats ayant les qualifications dont vous avez besoin sont peut-être déjà employés sans votre organisation. Vous pouvez rechercher un ensemble de compétences spécifiques parmi les employés existants ou les nouveaux candidats. Cela permet à un recruteur de trouver et de sélectionner rapidement des candidats qui viennent de postuler à un poste vacant ou qui l'ont fait dans le passé, ou de rechercher des candidats potentiels dans un groupe d'employés existant. Utilisez cet enregistrement de tâche pour savoir comment la fonctionnalité de mise en correspondance des qualifications peut vous aider à rechercher la bonne personne pour un poste vacant. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 

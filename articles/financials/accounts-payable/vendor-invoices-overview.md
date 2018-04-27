@@ -28,8 +28,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="vendor-invoices-overview"></a>Vue d'ensemble des factures fournisseur
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article fournit des informations générales sur les factures fournisseur. Les factures fournisseur sont des demandes de paiement pour les biens et services reçus. Les factures fournisseur peuvent représenter une facture pour les services en cours, ou elles peuvent être basées sur des commandes fournisseur pour des articles et services spécifiques. 
 
@@ -87,11 +86,11 @@ Pour plus d'informations, voir :
  - [Paramétrer des stratégies de facture fournisseur](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md) 
 
  - [Indexer les données de facturation dans la comptabilité fournisseur à l'aide d'une facture fournisseur](tasks/key-invoice-data-ap-system-vendor-invoice.md)
- 
+
  - [Indexer les données de facturation dans la comptabilité fournisseur à l'aide d'un journal d'approbation](tasks/key-invoice-data-into-ap-system-approval-journal.md)
-  
+
  - [Indexer les données de facturation dans la comptabilité fournisseur à l'aide d'un registre de factures](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
- 
+
  - [Enregistrer une facture fournisseur dans le journal des factures](tasks/record-vendor-invoice-invoice-journal.md)
 
 

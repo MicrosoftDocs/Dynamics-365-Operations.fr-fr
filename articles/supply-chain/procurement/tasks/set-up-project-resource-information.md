@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="set-up-project-resource-information"></a>Définir des informations sur le projet de recrutement
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure décrit comment paramétrer une ressource de projet. Cette tâche utilise l'ensemble de données USMF.
 

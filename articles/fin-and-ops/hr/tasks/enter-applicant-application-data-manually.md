@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="enter-applicant-and-application-data-manually"></a>Entrer le candidat et les données de la candidature manuellement
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure permet d'indiquer comment mettre à jour manuellement les informations sur les candidats et leur candidature.   Vous pouvez entrer et tenir à jour des informations personnelles, les dates et heures d'entretien, les références, les compétences et les demandes de logement des candidats. Vous pouvez également mettre à jour le statut des candidatures d'emploi et créer à jour des lettres ou des messages e-mail pour communiquer avec des candidats. Lorsque vous créez un enregistrement de candidat, un enregistrement de personne pour ce candidat est créé dans le carnet d'adresses global.       Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 

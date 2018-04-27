@@ -26,7 +26,7 @@ ms.lasthandoff: 03/07/2018
 ---
 # <a name="attract-overview"></a>Vue d'ensemble de l'application Attract
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 L'application Attract fournit des capacités pour gérer le processus d'embauche de nouveaux talents. Les candidats peuvent être ajoutés aux emplois vacants et passés d'étape en étape jusqu'à ce qu'une offre soit étendue ou que l'application la rejette. À chaque étape, les candidats passent par des activités comme les appels de présélection, les évaluations ou la programmation des entrevues. Après avoir postulé, les candidats reçoivent un e-mail les invitant à se connecter à Attract, où ils peuvent suivre l'état du poste, leur candidature et répondre aux postes qui leur sont assignés.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-cost-accrual-on-purchase-receipts"></a>Régularisation des coûts de projet dans les réceptions d'achat
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique décrit la manière dont les coûts de projet des réceptions d'achat peuvent être suivis dans Microsoft Dynamics 365 for Finance and Operations. 
 

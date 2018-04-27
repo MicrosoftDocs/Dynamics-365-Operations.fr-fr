@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="microsoft-project-client-integration"></a>Intégration du client Microsoft Project
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 La planification et la tenue à jour d'un programme de projet peuvent être complexes, les gestionnaires de projets doivent donc utiliser des outils pour les aider à gérer cette tâche. L'intégration avec le client Microsoft Project prend en charge l'ouverture et la gestion de la structure de répartition du travail pour un projet. Le gestionnaire de projets peut publier les modifications dans la structure de répartition du travail de Finance and Operations.
 

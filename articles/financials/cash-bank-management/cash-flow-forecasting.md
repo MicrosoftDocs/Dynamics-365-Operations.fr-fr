@@ -26,7 +26,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="cash-flow-forecasting"></a>Prévision des flux de trésorerie
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Vous pouvez utiliser les outils de prévisions des flux de trésorerie pour analyser les besoins à venir en devises et vous permettre d'estimer les futurs besoins en disponibilités de votre société. Pour obtenir une prévision des flux de trésorerie, vous devez effectuer les tâches suivantes :
 

@@ -27,8 +27,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="best-practices-for-importing-vouchers-using-the-general-journal-entity"></a>Bonnes pratiques pour l’importation de numéros document à l’aide de l’entité du journal des opérations diverses
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique fournit des conseils pour l’importation de données dans le Journal des opérations diverses à l’aide de l'entité de Journal des opérations diverses.  
 

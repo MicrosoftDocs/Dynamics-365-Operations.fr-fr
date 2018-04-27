@@ -28,8 +28,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="set-up-sepa-direct-debit-mandate"></a>Paramétrer un mandat de débit direct SEPA
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Un débit direct dans l'Espace unique de paiement en euros (SEPA) permet à un créditeur d'encaisser des fonds à partir du compte bancaire d'un client, à condition que le client ait accordé un mandat signé au créditeur. Le mandat que le client signe autorise le créditeur à encaisser un paiement et demande à la banque du client de payer la créance. Cette rubrique présente le processus de paramétrage des mandats de débit direct SEPA.
 

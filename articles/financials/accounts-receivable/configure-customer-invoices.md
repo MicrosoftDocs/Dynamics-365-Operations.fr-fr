@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0e5605b65b6203a50ef2fef81d032a887da32bf9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f08131e01fddb259d3bb537b1625ea2615a1e958
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-a-customer-invoice"></a>Création d'une facture client
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Une **facture client pour une commande client** est une facture associée à une vente, remise par une organisation à un client. Ce type de facture client est créé sur la base d'une commande client, laquelle comporte des lignes de commande et des numéros d'article. Les numéros d'article sont spécifiés et validés dans la comptabilité. Les écritures de journal de comptabilité auxiliaire ne sont pas disponibles pour une facture client associée à une commande client. Pour plus d'informations, voir [Créer des factures de commande client](tasks/create-sales-order-invoices.md).
 
@@ -98,7 +97,7 @@ Les champs suivants modifient le comportement du processus de validation.
 </ul></td>
 </tr>
 <tr class="even">
-<td>Validation</td>
+<td>Comptabilisation</td>
 <td><ul>
 <li>Sélectionnez cette option pour journaliser la commande client.</li>
 <li>Désactivez cette option pour imprimer une commande client pro forma. <strong>Remarque :</strong> si vous avez créé un accord pour un échéancier de paiement, ce dernier ne s'affiche pas sur la facture client pro forma. Les échéanciers de paiement ne seront visibles que sur les commandes client réelles.</li>

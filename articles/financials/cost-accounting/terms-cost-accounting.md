@@ -29,8 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="cost-accounting-terminology"></a>Terminologie du contrôle de gestion
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique définit les termes clés utilisées dans le contrôle de gestion.
 
@@ -150,14 +149,14 @@ Les bases de répartition des formules vous permettent de définir des formules 
 |  + |  Addition |
 |  – |  Soustraction |
 | *  | Multiplication  |
-    
+
 Les instructions IF traditionnelles ne sont pas prises en charge. Toutefois, vous pouvez créer des instructions et les valider si elles sont vraies.
 
 |  **Validation du relevé** | **Résultat**  |
 |---|---|
 |  a > b| Vrai  |
 |  a > b |  Faux |
-    
+
 **Frais généraux**
 
 Les frais généraux font référence aux dépenses constantes liées à l'exploitation d'une entreprise. Il s'agit des coûts qui ne peuvent pas être liés directement à des activités d'entreprise spécifiques. Voici quelques exemples de frais généraux :

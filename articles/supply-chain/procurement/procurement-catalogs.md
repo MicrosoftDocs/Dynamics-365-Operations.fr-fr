@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="procurement-catalogs"></a>Catalogues d'approvisionnement
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article décrit, à un niveau supérieur, comment les acheteurs peuvent paramétrer et tenir à jour les catalogues d'approvisionnement. Des catalogues d'approvisionnement définissent les articles et les services que les employés de la société peuvent commander pour un usage interne.
 

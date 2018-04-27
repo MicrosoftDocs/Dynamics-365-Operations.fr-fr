@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="set-up-and-process-recurring-invoices"></a>Paramétrer et traiter des factures récurrentes
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article explique comment paramétrer et traiter les factures récurrentes. Vous pouvez utiliser des factures récurrentes si vous devez facturer des clients pour le même montant régulièrement.
 

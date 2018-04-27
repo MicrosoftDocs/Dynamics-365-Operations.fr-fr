@@ -29,8 +29,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="personalized-product-recommendations-overview"></a>Vue d'ensemble des recommandations produit personnalisées
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 > [!NOTE]
 > Nous supprimons la version actuelle du service de recommandation de produit car nous remodelons cette fonction avec un meilleur algorithme et de nouvelles fonctionnalités orientées détail. Pour plus d'informations voir [Fonctions supprimées ou obsolètes](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features). Accédez au bas de la page si vous rencontrez des problèmes avec les recommandations produit déjà activées pour votre environnement. 
@@ -86,9 +85,9 @@ Lorsque vous sélectionnez **Activer les recommandations** et exécutez les tâc
 -   Les informations d'identification et l'ID du modèle sont mis à la disposition de CRT afin que les appels de recommandations de produits de Cloud POS et MPOS en mode en ligne puissent être respectés.
 
 > ## <a name="troubleshoot-issues-where-you-have-product-recommendations-already-enabled"></a>Résoudre les problèmes que vous rencontrez lorsque vous avez des recommandations produit déjà activées 
->- Accédez à **Paramètres Retail** > **Machine Learning** > **Désactiver les recommandations produit** et exécutez **Tâche de configuration globale [1110]**. Si vous ne parvenez pas à localiser l'onglet **Machine Learning**, contactez le support technique de Dynamics. 
-
->- Si vous avez ajouté le **Contrôle de recommandations** à votre écran de transaction à l'aide du **Concepteur de mise en page de l'écran**, supprimez-le également. 
+> - Accédez à **Paramètres Retail** > **Machine Learning** > **Désactiver les recommandations produit** et exécutez **Tâche de configuration globale [1110]**. Si vous ne parvenez pas à localiser l'onglet **Machine Learning**, contactez le support technique de Dynamics. 
+> 
+> - Si vous avez ajouté le **Contrôle de recommandations** à votre écran de transaction à l'aide du **Concepteur de mise en page de l'écran**, supprimez-le également. 
 
 
 

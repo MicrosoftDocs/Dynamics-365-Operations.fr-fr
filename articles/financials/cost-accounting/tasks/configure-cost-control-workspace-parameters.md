@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="configure-cost-control-workspace-parameters"></a>Configurer les paramètres de l'espace de travail de contrôle des coûts
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure permet de configurer l'espace de travail Contrôle des coûts afin que les gestionnaires à différents niveaux d'une organisation puissent obtenir des informations sur leurs objets de coût, tels que les centres de coût et les groupes de produits. La société fictive USP2 a été utilisée pour créer cet enregistrement.
 

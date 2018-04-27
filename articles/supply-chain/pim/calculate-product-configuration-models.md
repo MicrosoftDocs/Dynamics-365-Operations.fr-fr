@@ -29,8 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="calculations-for-product-configuration-models-faq"></a>Forums aux questions sur les calculs pour les modèles de configuration de produit
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique décrit les calculs pour les modèles de configuration de produit et explique comment les utiliser avec les contraintes.
 

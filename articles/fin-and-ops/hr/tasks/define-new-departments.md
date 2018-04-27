@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 36cf78bb9d97b1551ebfac6bf5f3f17ebbc78c6f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ccd1714d5ac594e04eea65d997fe198bdae32a86
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="define-new-departments"></a>Définir les nouveaux départements
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Les départements sont des unités opérationnelles qui représentent une zone fonctionnelle d'une entreprise, comme les ventes ou la comptabilité. De nombreuses sociétés ont des hiérarchies organisationnelles qui affichent les divers départements d'une entreprise. Cette procédure illustre le processus de création des départements et l'ajout de ces départements à une hiérarchie de société. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 

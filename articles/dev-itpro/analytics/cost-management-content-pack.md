@@ -3,11 +3,12 @@ title: "Contenu Power BI de gestion des coûts"
 description: "Cette rubrique décrit les données incluses dans le contenu Power BI de gestion des coûts."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 02/02/2018
+ms.date: 03/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
+ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -19,124 +20,195 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7b5c4428c8610a7b2d4cf1a28287ba2bb1f9c2ea
-ms.openlocfilehash: 6739d769c3f7876f67d80554743458b0abd5aae5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a4eacafdf9b9e0eabe7fe599e679fca18c749733
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/06/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cost-management-power-bi-content"></a>Contenu Power BI de gestion des coûts
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
+
+## <a name="overview"></a>Vue d'ensemble
+
+Le contenu Microsoft Power BI **Gestion des coûts** est prévu pour des comptables de stock ou des personnes de l'organisation responsables ou intéressés par le statut du stock ou des travaux en cours, ou responsables ou intéressés par l'analyse des écarts de coûts standard.
 
 > [!Note]
-> Ce pack de contenu a été déconseillé comme indiqué dans [Packs de contenu Power BI publiés sur PowerBI.com](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom).
+> Le contenu Power BI de **Gestion des coûts** décrit dans cette rubrique s'applique à Dynamics 365 for Finance and Operations 8.0.
+> 
+> Le pack du contenu Power BI de **Gestion des coûts**, publié sur le site de PowerBI.com est devenu obsolète. Pour plus d'informations sur cette obsolescence, voir [Packs de contenu Power BI publiés sur PowerBI.com](../migration-upgrade/deprecated-features.md#power-bi-content-packs-published-to-powerbicom).
 
 
-Cette rubrique décrit les données incluses dans le contenu Power BI de gestion des coûts. 
+Ce contenu Power BI fournit un format catégorisé qui vous aide à surveiller les performances des stocks et à visualiser la manière dont le coût circulent. Vous pouvez obtenir des analyses managériales telles que le taux de rotation, le nombre de jours pendant lequel le stock est disponible, la précision, et la « classification ABC » à votre niveau agrégé préféré (société, article, groupe d'articles, ou site). Les informations rendues disponibles peuvent également être utilisées comme complément détaillé au tableau d'analyse.
 
-Le contenu Microsoft Power BI **Gestion des coûts** est destiné aux contrôleurs de gestion ou aux responsables du stock au sein de l'organisation. Le contenu Power BI **Gestion des coûts** donne un aperçu de la gestion du stock et du stock des travaux en cours, et explique comment le coût se répercute sur les stocks par catégorie dans le temps. Les informations peuvent également être utilisées comme complément détaillé au tableau d'analyse.
+Le contenu Power BI est basé sur la mesure agrégée **CostObjectStatementCacheMonthly**, qui a la table **CostObjectStatementCache** comme principale source de données. Cette table est gérée par la structure du cache d'ensemble de données. Par défaut, la table est mise à jour toutes les 24 heures, mais vous modifier la fréquence de mise à jour ou activer les mises à jour manuelles dans la configuration du cache du jeu de données. Des mises à jour manuelles peuvent être effectuées dans l'espace de travail **Administration des coûts** ou l'espace de travail **Analyse des coûts**.
 
-## <a name="key-measures"></a>Mesures clés
+Après chaque mise à jour de la table **CostObjectStatementCache**, la mesure associée **CostObjectStatementCacheMonthly** doit être mise à jour avant que les données des visualisation Power BI soient mises à jour.
 
-+ Solde d'ouverture
-+ Solde de fin
-+ Modification nette
-+ Modification nette en %
-+ Balance âgée
+## <a name="accessing-the-power-bi-content"></a>Accès au contenu Power BI
 
-## <a name="key-performance-indicators"></a>Indicateurs de performances clés
-+ Rotation des stocks
-+ Précision du stock
+Le contenu Power BI de **Gestion des coûts** est affiché dans les espaces de travail **Administration des coûts** et **Analyse des coûts**.
 
-La principale source de données pour CostAggregatedCostStatementEntryEntity est la table CostStatementCache. Cette table est gérée par la structure du cache d'ensemble de données. Par défaut, la table est mise à jour toutes les 24 heures, mais vous pouvez activer les mises à jour manuelles dans la configuration du cache de données. Vous pouvez ensuite effectuer une mise à jour manuelle dans l'espace de travail **Gestion des coûts** ou **Analyse des coûts**. Une fois la mise à jour de CostStatementCache exécutée, vous devez mettre à jour la connexion OData sur Power BI.com pour consulter les données mises à jour sur le site. Les mesures d'écart (achat, production) de ce contenu Power BI concernent uniquement les articles évalués selon la méthode de stock de coût standard. L'écart de production est calculé comme la différence entre le coût actif et le coût réalisé. L'écart de production est calculé lorsque l'ordre de fabrication a le statut **Terminé**. Pour plus d'informations sur les types d'écart de production et le calcul de chaque type, voir [À propos de l'analyse des écarts pour un ordre de fabrication terminé](https://technet.microsoft.com/en-us/library/gg242850.aspx)
+L'espace de travail **Administration des coûts** contient les onglets suivants :
+
+- **Vue d'ensemble** – Cet onglet affiche les données d'application.
+- **Statut de la comptabilité de stock** – Cet onglet affiche le contenu Power BI.
+- **Statut de la comptabilité de fabrication** – Cet onglet affiche le contenu Power BI.
+
+L'espace de travail **Analyse des coûts** contient les onglets suivants :
+
+- **Vue d'ensemble** – Cet onglet affiche les données d'application.
+- **Analyse de la comptabilité de stock** – Cet onglet affiche le contenu Power BI.
+- **Analyse de la comptabilité de fabrication** – Cet onglet affiche le contenu Power BI.
+- **Analyse des écarts de coût standard** – Cet onglet affiche le contenu Power BI.
+
+## <a name="report-pages-that-are-included-in-the-power-bi-content"></a>Pages d'état incluses dans le contenu Power BI
+
+Le contenu Power BI **Gestion des coûts** inclut un ensemble de pages d'état composé d'un ensemble de mesures. Ces mesures sont visualisées sous forme de graphiques, vignettes et tableaux. 
+
+Les tableaux suivants fournissent une vue d'ensemble des visualisations dans le contenu Power BI **Gestion des coûts**.
+
+### <a name="inventory-accounting-status"></a>Statut de la comptabilité de stock
+
+| Page d'état                               | Visualisation                                   |
+|-------------------------------------------|-------------------------------------------------|
+| Vue d'ensemble du stock                        | Solde d'ouverture                               |
+|                                           | Modification nette                                      |
+|                                           | % de modification nette                                    |
+|                                           | Solde de fin                                  |
+|                                           | Précision du stock                              |
+|                                           | Taux de rotation du stock                        |
+|                                           | Nombre de jours de stock disponible                          |
+|                                           | Produit actif au cours de la période                        |
+|                                           | Objets de coûts actifs au cours de la période                   |
+|                                           | Solde par groupe d'articles                           |
+|                                           | Solde par site                                 |
+|                                           | Déclaration par catégorie                           |
+|                                           | Modification nette par trimestre                           |
+| Vue d'ensemble du stock par site et par groupe d'articles | Précision du stock par site                      |
+|                                           | Taux de rotation du stock par site                |
+|                                           | Solde de fin de stock par site                |
+|                                           | Précision du stock par groupe d'articles                |
+|                                           | Taux de rotation du stock par groupe d'articles          |
+|                                           | Solde de fin de stock par site et groupe d'articles |
+| Relevé de stock                       | Relevé de stock                             |
+| Relevé de stock par site               | Relevé de stock par site                     |
+| Relevé de stock par hiérarchie de produits  | Relevé de stock                             |
+| Relevé de stock par hiérarchie de produits  | Relevé de stock par site                     |
+
+### <a name="manufacturing-accounting-status"></a>Statut de la comptabilité de fabrication
+
+| Page d'état                | Visualisation                       |
+|----------------------------|-------------------------------------|
+| Vue d'ensemble des travaux en cours de l'année en cours           | Solde d'ouverture                   |
+|                            | Modification nette                          |
+|                            | % de modification nette                        |
+|                            | Solde de fin                      |
+|                            | Ratio chiffre d'affaires des travaux en cours                  |
+|                            | Jours de travaux en cours disponibles                    |
+|                            | Objet de coûts actif au cours de la période        |
+|                            | Modification nette par groupe de ressources        |
+|                            | Solde par site                     |
+|                            | Déclaration par catégorie               |
+|                            | Modification nette par trimestre               |
+| relevé des travaux en cours              | Solde d'ouverture                   |
+|                            | Solde de fin                      |
+|                            | Relevé des travaux en cours en cours par catégorie           |
+| Relevé des travaux en cours en cours par site      | Solde d'ouverture                   |
+|                            | Solde de fin                      |
+|                            | Relevé des travaux en cours par catégorie et par site  |
+| Relevé des travaux en cours en cours par hiérarchie | Solde d'ouverture                   |
+|                            | Solde de fin                      |
+|                            | Relevé des travaux en cours par hiérarchie de catégories |
+
+### <a name="inventory-accounting-analysis"></a>Analyse de la comptabilité de stock
+
+| Page d'état        | Visualisation                                                                |
+|--------------------|------------------------------------------------------------------------------|
+| Détails du stock  | 10 premières ressources par solde de fin                                           |
+|                    | 10 premières ressources par augmentation de modification nette                                      |
+|                    | 10 premières ressources par diminution de modification nette                                      |
+|                    | 10 premières ressources par taux de rotation du stock                                 |
+|                    | Ressources par taux de rotation de stock bas et solde de fin au-dessus du seuil |
+|                    | 10 premières ressources par précision faible                                             |
+| Classification ABC | Solde de fin de stock                                                     |
+|                    | Matière utilisée                                                            |
+|                    | Vendu (COGS)                                                                  |
+| Tendances de stock   | Solde de fin de stock                                                     |
+|                    | Modification nette du stock                                                         |
+|                    | Taux de rotation du stock                                                     |
+|                    | Précision du stock                                                           |
+
+### <a name="manufacturing-accounting-analysis"></a>Analyse de la comptabilité de fabrication
+
+| Page d'état | Visualisation      |
+|-------------|--------------------|
+| Tendances des travaux en cours  | Solde de fin des travaux en cours |
+|             | Modification nette des travaux en cours     |
+|             | Ratio chiffre d'affaires des travaux en cours |
+
+### <a name="std-cost-variance-analysis"></a>Analyse des écarts de coût standard
+
+| Page d'état                             | Visualisation                                        |
+|-----------------------------------------|------------------------------------------------------|
+| Écart de prix d'achat (coût std.) année en cours | Solde d'achat                                     |
+|                                         | Écart de prix d'achat                              |
+|                                         | Taux d'écart de prix d'achat                        |
+|                                         | Écart par groupe d'articles                               |
+|                                         | Écart par site                                     |
+|                                         | Prix d'achat par trimestre                            |
+|                                         | Prix d'achat par trimestre et groupe d'articles             |
+|                                         | 10 premières ressources par taux de prix d'achat défavorable |
+|                                         | 10 premières ressources par taux de prix d'achat favorable   |
+| Écart de production (coût std.) année en cours     | Coût de fabrication                                    |
+|                                         | Écart de production                                  |
+|                                         | Taux d'écart de production                            |
+|                                         | Écart par groupe d'articles                               |
+|                                         | Écart par site                                     |
+|                                         | Écart de production par trimestre                       |
+|                                         | Écart de production par trimestre et type d'écart     |
+|                                         | 10 premières ressources par écart de production défavorable  |
+|                                         | 10 premières ressources par écart de production favorable    |
+
+### <a name="understanding-the-data-model-and-entities"></a>Compréhension du modèle de données et des entités
+
+Les données de Microsoft Dynamics 365 for Finance and Operations sont utilisées pour remplir les pages d'états du contenu Power BI de la **Gestion des coûts**. Ces données sont représentées sous forme de mesures globales stockées dans le magasin d'entité, qui est une base de données Microsoft SQL Server optimisée pour l'analyse. Pour plus d'informations, voir [Intégration de Power BI au magasin d'entité](power-bi-integration-entity-store.md)
+
+Les mesures globales clés des objets suivants sont utilisées comme base du contenu Power BI.
+
+| Objet                          | Mesures globales clés | Source de données Finance and Operations | Champ               |
+|---------------------------------|----------------------------|----------------------------------------|---------------------|
+| CostObjectStatementCacheMonthly | Montant                     | CostObjectStatementCache               | Montant              |
+| CostObjectStatementCacheMonthly | Quantité                   | CostObjectStatementCache               | Qté                 |
+| CostInventoryAccountingKPIGoal  | AnnualInventoryTurn        | CostInventoryAccountingKPIGoal         | AnnualInventoryTurn |
+| CostInventoryAccountingKPIGoal  | InventoryAccuracy          | CostInventoryAccountingKPIGoal         | InventoryAccuracy   |
+
+Le tableau suivant montre les mesures clés calculées dans le contenu Power BI.
+
+| Mesure                            | Calcul |
+|------------------------------------|-------------|
+| Solde d'ouverture                  | Solde de début = [Solde de fin]-[Modification nette] |
+| Qté du solde de début             | Qté du solde de début = [Qté solde de fin]-[Qté modification nette] |
+| Solde de fin                     | Solde de fin = (CALCULATE(SUM([Amount]), FILTER(ALL(FiscalCalendar) ,FiscalCalendar[MONTHSTARTDATE] \<= MAX(FiscalCalendar[MONTHSTARTDATE])))) |
+| Qté de solde de fin                | Qté de solde de fin = (CALCULATE(SUM([QTY]), FILTER(ALL(FiscalCalendar),FiscalCalendar[MONTHSTARTDATE] \<= MAX(FiscalCalendar[MONTHSTARTDATE]))) |
+| Modification nette                         | Modification nette = SUM([AMOUNT]) |
+| Qté modification nette                    | Qté modification nette = SUM([QTY]) |
+| Taux de rotation du stock par montant | Taux de rotation du stock par montant = if(OR([Solde moyen de stock] \<= 0, [Problèmes de stock vendu ou utilisé] \>= 0), 0, ABS([Problèmes de stock vendu ou utilisé])/[Solde moyen de stock]) |
+| Solde moyen de stock          | Solde moyen de stock = (([Solde de fin] + [Solde de début]) / 2) |
+| Nombre de jours de stock disponible             | Nombre de jours de stock disponible = 365/CostObjectStatementEntries[Taux de rotation du stock par montant] |
+| Précision du stock                 | Précision du stock par montant = IF([Solde de fin] \<= 0, IF(OR([Montant de stock comptabilisé] \<\> 0, [Solde de fin] \< 0), 0, 1), MAX(0, ([Solde de fin] - ABS([Montant de stock comptabilisé]))/[Solde de fin])) |
+
+Les dimensions clés suivantes sont utilisées comme filtres pour diviser les mesures globales afin d'atteindre une meilleure granularité et d'obtenir une analyse plus approfondie.
 
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Mesures incluses dans le contenu Power BI
-Le contenu comprend un ensemble de pages d'état. Chaque page contient un ensemble de mesures visualisées sous forme de graphiques, de vignettes et de tables. Le tableau suivant donne une vue d'ensemble des visualisations dans le contenu Power BI **Gestion des coûts**.
-
-| Page d'état | Graphiques | Titres |
-|---|---|---|
-|Stock global (valeur par défaut par période actuelle) |Précision |Mesures de stock :<br>Solde de fin de stock<br>Modification nette du stock<br>Modification nette du stock en %<br>|
-| |Rotation des stocks | |
-| |Solde de fin de stock par groupe de ressources | |
-| |Modification nette du stock par nom de catégorie de niveau 1 et nom de catégorie de niveau 2| |
-| |Écarts d'achat par groupe de ressources et nom de catégorie de niveau 3 | |
-|Stock par site (valeur par défaut par période actuelle) |Solde de fin de stock par nom de site et groupe de ressources | |
-| |Rotation des stocks par nom de site et groupe de ressources | |
-| |Solde de fin de stock par ville et groupe de ressources | |
-|Stock par groupe de ressources (valeur par défaut par période actuelle) |Mesures de stock | |
-| |Précision du stock par montant par groupe de ressources | |
-| |Rotation des stocks par montant par groupe de ressources | |
-|Stock en cumul annuel (année actuelle et année précédente par défaut) |Mesures de stock | |
-| |Indicateurs de performance clés du stock :<br>Rotation des stocks<br>Précision du stock | |
-| |Solde de fin de stock par année et groupe de ressources | |
-| |Écarts d'achat par année et nom de catégorie de niveau 3 | |
-|Stock - Balance âgée (valeur par défaut par année en cours) |Stock - Balance âgée par trimestre et groupe de ressources | |
-| |Stock - Balance âgée par trimestre et nom de site | |
-|Travaux en cours globaux (valeur par défaut par période actuelle) |Modification nette des travaux en cours par nom de catégorie de niveau 1 et nom de catégorie de niveau 2 |Mesures des travaux en cours :<br>Solde de fin des travaux en cours<br>Modification nette des travaux en cours<br>Modification nette des travaux en cours en %<br> |
-| |Écarts de production par groupe de ressources et nom de catégorie de niveau 3 | |
-| |Modification nette des travaux en cours par groupe de ressources | |
-|Travaux en cours par site (valeur par défaut par période actuelle) |Mesures des travaux en cours | |
-| |Modification nette des travaux en cours par nom de site et nom de catégorie de niveau 2 | |
-| |Écarts de production par nom de site et nom de catégorie de niveau 3 | |
-
-## <a name="understanding-the-data-model-and-entities"></a>Compréhension du modèle de données et des entités
-Les données Finance and Operations sont utilisées pour remplir les pages d'état dans le contenu Power BI **Gestion des coûts**. Ces données sont représentées sous forme de mesures globales stockées dans le magasin d'entité, qui est une base de données SQL Microsoft optimisée pour l'analyse. Pour plus d'informations, voir [Vue d'ensemble de l'intégration de Power BI au magasin d'entité](power-bi-integration-entity-store.md) Les mesures globales clés suivantes sont utilisées comme base du contenu.
-
-| Entité            | Mesure globale clé | Source de données Finance and Operations | Champ             | Description                       |
-|-------------------|---------------------------|---------------------------------------------|-------------------|-----------------------------------|
-| Entrées de relevé | Modification nette                | CostAggregatedCostStatementEntryEntity      | sum(\[Montant\])   | Montant en devise comptable |
-| Entrées de relevé | Quantité de modification nette       | CostAggregatedCostStatementEntryEntity      | sum(\[Quantité\]) |                                   |
-
-Le tableau suivant indique comment les mesures globales clés sont utilisées pour créer plusieurs mesures calculées dans l'ensemble de données du contenu.
-
-| Mesure                                 | Méthode de calcul de la mesure                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Solde d'ouverture                       | \[Solde de fin\]-\[Modification nette\]                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| Quantité de solde d'ouverture              | \[Quantité de solde de fin\]-\[Quantité de modification nette\]                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| Solde de fin                          | CALCULATE(SUM(\[Montant\]), FILTER(ALLEXCEPT('Calendriers fiscaux', 'Calendriers fiscaux'\[LedgerRecId\], 'entités'\[ID\], 'entités'\[Nom\], 'Comptabilités'\[Devise\], 'Comptabilités'\[Description\], 'Comptabilités'\[Nom\]), 'Calendriers fiscaux'\[Date\] &lt;= MAX('Calendriers fiscaux'\[Date\])))                                                                                                                                                                                           |
-| Quantité de solde de fin                 | CALCULATE(SUM(\[Quantité\]), FILTER(ALLEXCEPT('Calendriers fiscaux', 'Calendriers fiscaux'\[LedgerRecId\], 'entités'\[ID\], 'entités'\[Nom\], 'Comptabilités'\[Devise\], 'Comptabilités'\[Description\], 'Comptabilités'\[Nom\]), 'Comptabilités'\[Date\] &lt;= MAX('Calendriers fiscaux'\[Date\])))                                                                                                                                                                                         |
-| Solde d'ouverture de stock             | CALCULATE(\[Solde d'ouverture\], 'Entrées de relevé'\[Type de relevé\] = "Stock")                                                                                                                                                                                                                                                                                                                                                                                      |
-| Solde de fin de stock                | CALCULATE(\[Solde de fin\], 'Entrées de relevé'\[Type de relevé\] = "Stock")                                                                                                                                                                                                                                                                                                                                                                                         |
-| Modification nette du stock                    | CALCULATE(\[Modification nette\], 'Entrées de relevé'\[Type de relevé\] = "Stock")                                                                                                                                                                                                                                                                                                                                                                                             |
-| Quantité de modification nette du stock           | CALCULATE(\[Quantité de modification nette\], 'Entrées de relevé'\[Type de relevé\] = "Stock")                                                                                                                                                                                                                                                                                                                                                                                    |
-| Modification nette du stock en %                  | IF(\[Solde de fin de stock\] = 0, 0, \[Modification nette du stock\] / \[Solde de fin de stock\])                                                                                                                                                                                                                                                                                                                                                                           |
-| Rotation des stocks par montant                | if(OR(\[Solde moyen de stock\] &lt;= 0, \[Problèmes de stock vendu ou utilisé\] &gt;= 0), 0, ABS(\[Problèmes de stock vendu ou utilisé\])/\[Solde moyen de stock\])                                                                                                                                                                                                                                                                                                  |
-| Solde moyen de stock               | (\[Solde de fin de stock\] + \[Solde d'ouverture de stock\]) / 2                                                                                                                                                                                                                                                                                                                                                                                                       |
-| Problèmes de stock vendu ou utilisé       | \[Stock vendu\] + \[Coût des matières utilisées dans le stock\]                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| Coût des matières utilisées dans le stock        | CALCULATE(\[Modification nette du stock\], 'Entrées de relevé'\[Nom de catégorie - niveau 2\_\] = "ConsumedMaterialsCost")                                                                                                                                                                                                                                                                                                                                                            |
-| Stock vendu                          | CALCULATE(\[Modification nette du stock\], 'Entrées de relevé'\[Nom de catégorie - niveau 2\_\] = "Vendu")                                                                                                                                                                                                                                                                                                                                                                             |
-| Précision du stock par montant            | IF(\[Solde de fin de stock\] &lt;= 0, IF(OR(\[Montant de stock comptabilisé\] &lt;&gt; 0, \[Solde de fin de stock\] &lt; 0), 0, 1), MAX(0, (\[Solde de fin de stock\] - ABS(\[Montant de stock comptabilisé\]))/\[Solde de fin de stock\]))                                                                                                                                                                                                                              |
-| Montant de stock comptabilisé                | CALCULATE(\[Modification nette du stock\], 'Entrées de relevé'\[Nom de catégorie - niveau 3\_\] = "Comptage")                                                                                                                                                                                                                                                                                                                                                                         |
-| Stock - Balance âgée                         | if(ISBLANK(max('Calendriers fiscaux'\[Date\])), blank(), MAX(0, MIN(\[Quantité de réceptions de stock\], \[Quantité de solde de fin de stock\] - \[Quantité de réceptions de stock dans le futur\]))) \* \[Coût unitaire moyen de stock\]                                                                                                                                                                                                                                |
-| Quantité de réceptions de stock       | IF(\[minDate\] = \[minDateAllSelected\], CALCULATE(\[Quantité de modification nette du stock\], 'Entrées de relevé'\[Quantité\] &gt; 0, FILTER(ALLEXCEPT('Calendriers fiscaux', 'Calendriers fiscaux'\[LedgerRecId\], 'entités'\[ID\], 'entités'\[Nom\], 'Comptabilités'\[Devise\], 'Comptabilités'\[Description\], 'Comptabilités'\[Nom\]), 'Calendriers fiscaux'\[Date\] &lt;= MAX('Calendriers fiscaux'\[Date\]))), CALCULATE(\[Quantité de modification nette du stock\], 'Entrées de relevé'\[Quantité\] &gt; 0)) |
-| Quantité de solde de fin de stock | \[Quantité de solde de fin de stock\] + CALCULATE(\[Quantité de modification nette du stock\], FILTER(ALLEXCEPT('Calendriers fiscaux', 'Calendriers fiscaux'\[LedgerRecId\], 'entités'\[ID\], 'entités'\[Nom\], 'Comptabilités'\[Devise\], 'Comptabilités'\[Description\], 'Comptabilités'\[Nom\]), 'Calendriers fiscaux'\[Date\] &gt; max('Calendriers fiscaux'\[Date\]) ))                                                                                                                                 |
-| Réceptions de stock dans le futur  | CALCULATE(\[Modification nette du stock\], 'Entrées de relevé'\[Montant\] &gt; 0, FILTER(ALLEXCEPT('Calendriers fiscaux', 'Calendriers fiscaux'\[LedgerRecId\], 'entités'\[ID\], 'entités'\[Nom\], 'Comptabilités'\[Devise\], 'Comptabilités'\[Description\], 'Comptabilités'\[Nom\]), 'Calendriers fiscaux'\[Date\] &gt; MAX('Calendriers fiscaux'\[Date\])))                                                                                                                                             |
-| Coût unitaire moyen du stock                 | CALCULATE(\[Solde de fin de stock\] / \[Quantité de solde de fin de stock\],ALLEXCEPT('Calendriers fiscaux', 'Calendriers fiscaux'\[LedgerRecId\], 'entités'\[ID\], 'entités'\[Nom\], 'Comptabilités'\[Devise\], 'Comptabilités'\[Description\], 'Comptabilités'\[Nom\]))                                                                                                                                                                                                                 |
-| Écarts d'achat                      | CALCULATE(SUM(\[Montant\]), 'Entrées de relevé'\[Nom de catégorie - niveau 2\_\] = "Approvisionné", 'Entrées de relevé'\[Type de relevé\] = "Écart")                                                                                                                                                                                                                                                                                                                              |
-| Solde d'ouverture des travaux en cours                   | CALCULATE(\[Solde d'ouverture\], 'Entrées de relevé'\[Type de relevé\] = "Travaux en cours")                                                                                                                                                                                                                                                                                                                                                                                            |
-| Solde de fin des travaux en cours                      | CALCULATE(\[Solde de fin\], 'Entrées de relevé'\[Type de relevé\] = "Travaux en cours")                                                                                                                                                                                                                                                                                                                                                                                               |
-| Modification nette des travaux en cours                          | CALCULATE(\[Modification nette\], 'Entrées de relevé'\[Type de relevé\] = "Travaux en cours")                                                                                                                                                                                                                                                                                                                                                                                                   |
-| Modification nette des travaux en cours en %                        | IF(\[Solde de fin des travaux en cours\] = 0, 0, \[Modification nette des travaux en cours\] / \[Solde de fin des travaux en cours\])                                                                                                                                                                                                                                                                                                                                                                                             |
-| Écarts de production                    | CALCULATE(SUM(\[Montant\]), 'Entrées de relevé'\[Nom de catégorie - niveau 2\_\] = "ManufacturedCost", 'Entrées de relevé'\[Type de relevé\] = "Écart")                                                                                                                                                                                                                                                                                                                      |
-| Nom de catégorie - niveau 1                 | switch(\[Nom de catégorie - niveau 1\_\], "Aucun", "Aucun", "NetSourcing", "Approvisionnement net", "NetUsage", "Utilisation nette", "NetConversionCost", "Coût de conversion net", "NetCostOfGoodsManufactured", "Coût net des marchandises fabriquées", "BeginningBalance", "Solde d'ouverture")                                                                                                                                                                                                         |
-| Nom de catégorie - niveau 2                 | switch(\[Nom de catégorie - niveau 2\_\], "Aucun", "Aucun", "Approvisionné", "Approvisionné", "Cédé", "Cédé", "Transféré", "Transféré", "Vendu", "Vendu", "ConsumedMaterialsCost", "Coût des matières utilisées", "ConsumedManufacturingCost", "Coût de fabrication utilisé", "ConsumedOutsourcingCost", "Coût d'externalisation utilisé", "ConsumedIndirectCost", "Coût indirect utilisé", "ManufacturedCost", "Coût de fabrication", "Écarts", "Écarts")                            |
-| Nom de catégorie - niveau 3                 | switch(\[Nom de catégorie - niveau 3\_\], "Aucun", "Aucun", "Comptage", "Aucun", "ProductionPriceVariance", "Prix de production", "QuantityVariance", "Quantité", "SubstitutionVariance", "Remplacement", "ScrapVariance", "Rebut", "LotSizeVariance", "Taille de lot", "RevaluationVariance", "Réévaluation", "PurchasePriceVariance", "Prix d'achat", "CostChangeVariance", "Modification de coût", "RoundingVariance", "Écart d'arrondi")                                                   |
-
-Les dimensions clés suivantes sont utilisées comme filtres pour diviser les mesures globales afin d'obtenir une plus grande granularité et de fournir des données d'analyse plus approfondies.
-
-| Entité           | Exemples d'attributs                       |
-|------------------|----------------------------------------------|
-| Entités         | ID, nom                                     |
-| Calendriers fiscaux | Calendrier, mois, période, trimestre, année       |
-| Objectifs de l'indicateur de performance clé        | Objectif de précision du stock, objectif de rotation des stocks |
-| Comptabilités          | Devise, nom, description                  |
-| Sites            | ID, nom, pays, ville                      |
-
-
-
-
+|                         Entité                          |             Exemples d'attributs              |
+|---------------------------------------------------------|-------------------------------------------------|
+|                        Produits                         | Numéro de produit, Nom du produit, Unité, Groupes d'articles |
+| Hiérarchies de catégories (affectées au rôle Gestion des coûts) |       Hiérarchie de catégories, niveau de catégorie        |
+|                     Entités juridiques                      |               Noms d'entité juridique                |
+|                    Calendriers fiscaux                     |  Calendrier fiscal, Année, Trimestre, Période, Mois  |
+|                          Site                           |        ID, Nom, Adresse, Région, Pays        |
 
 

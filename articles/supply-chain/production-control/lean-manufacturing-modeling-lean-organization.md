@@ -29,8 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="modeling-a-lean-organization"></a>Modélisation d'une organisation au plus juste
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 L'article fournit des informations sur les concepts clés de la modélisation d'une organisation au plus juste. 
 

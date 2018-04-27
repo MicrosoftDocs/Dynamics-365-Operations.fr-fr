@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="allocate-time-to-jobs-in-a-job-bundle"></a>Répartir du temps aux tâches figurant dans un regroupement de tâches
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dans Contrôle et suivi de la production, vous pouvez regrouper des tâches. Vous pouvez ensuite démarrer plusieurs tâches simultanément dans la page Liste de tâches.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="expense-workflow"></a>Workflow des dépenses
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Vous pouvez utiliser le système de flux de travail dans Microsoft Dynamics 365 for Finance and Operations pour configurer un processus de révision des notes de frais dans la Gestion des dépenses. Vous pouvez paramétrer un workflow qui utilise les critères suivants pour déterminer qui approuve les états de dépenses :
 

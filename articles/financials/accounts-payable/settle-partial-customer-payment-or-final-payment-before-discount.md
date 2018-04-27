@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="settle-a-partial-customer-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Règlement d'un paiement client partiel et règlement total du paiement final avant la date de remise
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article fournit des scénarios qui indiquent comment enregistrer des paiements partiels pour un client et prendre des escomptes de règlement pendant la période d'escompte de règlement.
 

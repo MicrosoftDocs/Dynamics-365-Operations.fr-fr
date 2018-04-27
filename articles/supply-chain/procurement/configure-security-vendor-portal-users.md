@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="vendor-portal-user-security"></a>Sécurité de l'utilisateur du portail fournisseur
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article détaille la procédure de paramétrage de la sécurité pour les fournisseurs externes qui utilisent le portail Fournisseur. Ces informations ne s'appliquent qu'aux versions de février 2016 et de mai 2016 de Dynamics AX.
 

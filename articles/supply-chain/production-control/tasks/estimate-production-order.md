@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="estimate-a-production-order"></a>Estimer un ordre de fabrication
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Vous pouvez exécuter cette procédure en utilisant les données de démonstration de la société USMF ou utiliser vos propres données. Dans les deux cas, vous devez avoir un ordre de fabrication en cours dont le statut est Créé. Il s'agit de la deuxième des sept procédures expliquant le cycle de vie de l'ordre de fabrication.
 

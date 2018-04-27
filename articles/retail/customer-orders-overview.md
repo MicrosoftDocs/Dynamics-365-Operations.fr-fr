@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="customer-orders-overview"></a>Vue d'ensemble des commandes client
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Cette rubrique fournit des informations sur les commandes client dans Retail Modern POS (MPOS). Les commandes client sont également appelées commandes spéciales. La rubrique inclut une discussion sur les paramètres associés et les flux de transaction.
 

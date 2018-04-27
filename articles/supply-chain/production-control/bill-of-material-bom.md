@@ -29,8 +29,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="bills-of-materials-and-formulas"></a>Nomenclatures et formules
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique fournit des informations sur les nomenclatures et les formules, qui sont un élément central de la définition des produits et des variantes de produit. Les nomenclatures et les formules spécifient les matières ou les ingrédients nécessaires pour un produit spécifique. Les formules spécifient également les coproduits et les sous-produits reçus dans un contexte de production spécifique. 
 

@@ -19,16 +19,18 @@ ms.search.validFrom:
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: eb8ff11a03ba18b78595cd04f63b2456aec53bf2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: cf35406b43c1ec40a7c248b970559b65fcd8a6c6
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-workflows-for-expense"></a>Définir des workflows pour les dépenses
 
-[!include[banner](../includes/banner.md)] Vous pouvez paramétrer un processus de workflow utilisé pour réviser et approuver les documents de déplacement et de dépenses. Les documents pour lesquels des workflows peuvent être définis incluent les états de dépenses, les demandes de voyage et les demandes d'avance de disponibilités.
+[!INCLUDE [banner](../includes/banner.md)]
+
+ Vous pouvez paramétrer un processus de workflow utilisé pour réviser et approuver les documents de déplacement et de dépenses. Les documents pour lesquels des workflows peuvent être définis incluent les états de dépenses, les demandes de voyage et les demandes d'avance de disponibilités.
 
 Un workflow représente un processus entreprise. Il définit le transfert d'un document dans le système et indique qui doit traiter une tâche ou approuver un document. L'utilisation du système de workflow dans votre organisation présente plusieurs avantages :
 
@@ -42,13 +44,15 @@ Un workflow représente un processus entreprise. Il définit le transfert d'un d
 
 Le tableau suivant répertorie les types de workflows que vous pouvez créer dans le module **Budgétisation**.
 
-| **Type**                           | **Utilisation**                                                 |     
-|------------------------------------|----------------------------------------------------------------------|
-| **État de dépenses**                 | Créer des workflows d'approbation pour les états de dépenses.                       |      
-| **Validation automatique de l'état de dépenses**    | Créer des workflows de validation automatique pour les états de dépenses.              |     
-| **Article de ligne de dépense**              | Créer des workflows d'approbation pour les lignes des états de dépenses.         |     
-| **Validation automatique des lignes de dépense** | Créer des workflows de validation automatique pour les lignes des états de dépenses.|
-| **Demande d'achat de déplacement**             | Créer des workflows d'approbation pour les demandes de voyage.                   |    
-| **Demande d'avance de disponibilités**           | Créer des workflows d'approbation pour les demandes d'avance de disponibilités.                 |     
-| **Recouvrement fiscal de la TVA**               | Créer des workflows d'approbation pour la récupération de la taxe sur la valeur ajoutée (VAT). |       
+
+|              <strong>Type</strong>              |                   <strong>Utilisation</strong>                   |
+|-------------------------------------------------|-----------------------------------------------------------------------|
+|         <strong>État de dépenses</strong>         |            Créer des workflows d'approbation pour les états de dépenses.             |
+|  <strong>Validation automatique de l'état de dépenses</strong>   |        Créer des workflows de validation automatique pour les états de dépenses.        |
+|       <strong>Article de ligne de dépense</strong>        |     Créer des workflows d'approbation pour les lignes des états de dépenses.      |
+| <strong>Validation automatique des lignes de dépense</strong> | Créer des workflows de validation automatique pour les lignes des états de dépenses. |
+|       <strong>Demande d'achat de déplacement</strong>       |          Créer des workflows d'approbation pour les demandes de voyage.           |
+|      <strong>Demande d'avance de disponibilités</strong>      |         Créer des workflows d'approbation pour les demandes d'avance de disponibilités.          |
+|        <strong>Recouvrement fiscal de la TVA</strong>        | Créer des workflows d'approbation pour la récupération de la taxe sur la valeur ajoutée (VAT).  |
+
 

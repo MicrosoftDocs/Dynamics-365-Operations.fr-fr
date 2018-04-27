@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="design-a-domain-specific-data-model-for-electronic-reporting-er"></a>Concevoir un modèle de données spécifique au domaine pour la gestion des états électroniques (ER)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Les étapes suivantes expliquent comment un utilisateur dont le rôle est Administrateur système ou Développeur d'états électroniques peut créer une configuration de format pour la génération d'états électronique (ER) qui contient un modèle de données pour les documents de paiement électronique. Ce modèle de données sera utilisé ultérieurement comme source de données quand vous créerez le format des documents de paiement.
 

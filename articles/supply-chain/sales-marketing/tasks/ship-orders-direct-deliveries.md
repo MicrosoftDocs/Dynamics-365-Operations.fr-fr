@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Expédier des commandes en tant que livraisons directes
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure illustre comment créer une livraison directe pour une commande client. Vous utilisez la livraison directe si vous souhaitez expédier des marchandises au client directement à partir de votre fournisseur, plutôt que les expédier à votre propre entrepôt en premier. Vous pouvez exécuter cette procédure dans la société fictive de démonstration USMF ou utiliser vos propres données. Pour exécuter correctement la deuxième sous-tâche « Créer des livraisons directes à partir de la console », assurez-vous que l'article que vous choisissez dans la commande client a un fournisseur par défaut spécifié dans l'onglet rapide Achat du produit générique lancé.
 

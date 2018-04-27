@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="set-up-fixed-asset-groups"></a>Paramétrer les groupes d'immobilisations
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure permet d'indiquer comment créer un groupe d'immobilisations. Il utilise le rôle de comptable et les données de démonstration de l'entité juridique USMF.
 

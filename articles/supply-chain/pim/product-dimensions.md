@@ -29,10 +29,9 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="product-dimensions"></a>Dimensions de produit
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[Retail name](../includes/retail-name.md)]
-
+[!INCLUDE [Retail name](../includes/retail-name.md)]
 
 Il existe quatre dimensions de produit -  Couleur, Configuration, Taille et Style. Vous combinez des dimensions de produit dans les groupes de dimensions et vous affectez des groupes de dimensions aux produits génériques. Les combinaisons de dimensions de produit déterminent la manière dont les variantes de produit sont définies.
 
@@ -51,6 +50,7 @@ Les valeurs de dimensions de produit telles que la taille, la couleur et le styl
 -   Cliquez sur **Gestion des informations sur les produits** &gt; **Produits lancés**. Sélectionnez un produit générique. Dans le volet **Actions**, cliquez sur **Produit**. Dans le groupe **Produit générique**, cliquez sur **Dimensions de produit**.
 
 Le nombre de variantes que vous pouvez créer pour un article est limité par le nombre de combinaisons possibles de dimension de produit.
+
 | **Conseil**                                                                                                                                              |
 |------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Lorsque vous utilisez un produit sur, par exemple, une ligne de commande, vous sélectionnez les dimensions de produit pour identifier la variante de produit avec laquelle vous souhaitez travailler. |

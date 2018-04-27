@@ -16,15 +16,15 @@ ms.author: dkrame
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c902f532e189753a375d4b48edd9ef0b6d74020e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 110dde293fea31f82fb4b2b1c54bf96d5baa04b3
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-positions"></a>Paramétrer les postes
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Les postes sont un élément important de niveau inférieur d'une hiérarchie d'organisation. Un poste est une instance individuelle d'une tâche. Par exemple, le poste « Responsable des ventes (est) » est l'un des postes associé à la tâche « Responsable des ventes ». Un poste existe dans un département et il ne peut y être associé qu'un seul employé. Dans cette tâche, vous allez parcourir les étapes requises pour créer un poste. Cette procédure est destinée aux spécialistes en ressources humaines.
 

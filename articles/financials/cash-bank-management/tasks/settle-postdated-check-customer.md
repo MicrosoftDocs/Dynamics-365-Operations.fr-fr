@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="settle-a-postdated-check-from-a-customer"></a>Règlement d'un chèque postdaté provenant d'un client
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Vous pouvez régler un chèque postdaté après que celui-ci ait été compensé par la banque. Cette transaction financière permet également d'effacer la transaction de compte d'attente pour le chèque postdaté. 
 

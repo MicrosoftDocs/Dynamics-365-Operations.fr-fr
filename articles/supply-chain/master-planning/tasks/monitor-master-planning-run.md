@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="monitor-a-master-planning-run"></a>Surveiller l'exécution d'une planification générale
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Le responsable de production veut voir si une exécution de la planification est en cours. Utilisez les données fictives de la société USMF pour réaliser cette procédure.
 

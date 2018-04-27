@@ -3,12 +3,12 @@ title: "Page d'accueil du contrôle de gestion"
 description: "Cette rubrique fournit une liste des rubriques d'aide et d'autres ressources disponibles pour le contrôle de gestion."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 08/20/2017
+ms.date: 04/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration
+ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration, CAMCostAccountingLedgerAdminWorkspace
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
@@ -28,7 +28,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="cost-accounting-home-page"></a>Page d'accueil du contrôle de gestion
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 ## <a name="learning-map"></a>Programme de formation 
 
@@ -37,6 +37,7 @@ Le programme de formation suivant montre les principaux concepts et tâches qui 
 [![Programme de formation du contrôle de gestion](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)
 
 ## <a name="quick-links"></a>Liens rapides
+
 |      |   |
 |------|---|
 |  [Configurer des entités de base (eLearning)](https://mbspartner.microsoft.com/Home) (nécessite un compte CustomerSource)  |[Créer des dimensions](cost-elements.md)  |

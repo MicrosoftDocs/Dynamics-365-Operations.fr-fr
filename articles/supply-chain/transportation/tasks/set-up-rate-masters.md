@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="set-up-rate-masters"></a>Paramétrer des tables maître des taux
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure décrit le processus de paramétrage des données principales de taux. Le responsable logistique configure généralement les données principales de taux en fonction des contacts signés avec les transporteurs. Dans ce scénario vous paramètrerez des données principales de taux pour un transporteur aérien. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 

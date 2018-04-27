@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f9b7a3ea23298e5121e161b93faa8f145fdd1860
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: bfcebf61a5f613517e05af5c1548b5ceaaed53ee
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="enter-worker-information"></a>Saisir les informations du collaborateur
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Une fois que le recruteur a créé un projet d'embauche collective et généré les postes, l'étape suivante consiste à entrer les informations sur les collaborateurs pour les personnes embauchées. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Les données de démonstration contiennent un projet d'embauche collective en cours. Pour démarrer cette procédure, allez dans Ressources humaines > Recrutement > Projets d'embauche collective.
 

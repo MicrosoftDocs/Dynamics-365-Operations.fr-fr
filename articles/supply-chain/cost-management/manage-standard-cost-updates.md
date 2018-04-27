@@ -29,8 +29,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="manage-standard-cost-updates"></a>Gérer des mises à jour des coûts standard
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Les mises à jour des données de coût standard peuvent être gérées à l'aide de deux approches : l'approche à une version ou l'approche à deux versions. 
 

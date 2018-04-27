@@ -28,7 +28,7 @@ ms.lasthandoff: 02/27/2018
 
 # <a name="service-templates"></a>Modèles de service
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Vous pouvez définir un accord de service comme modèle et, ultérieurement, copier les lignes du modèle dans un autre accord de service ou dans une commande de service.
 

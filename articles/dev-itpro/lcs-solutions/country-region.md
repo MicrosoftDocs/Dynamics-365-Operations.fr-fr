@@ -3,7 +3,7 @@ title: "Fonctions locales et relatives aux réglementations"
 description: "Cette rubrique liste des ressources utiles pour en savoir plus sur les fonctionnalisés spécifiques aux pays/régions."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/30/2017
+ms.date: 04/12/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,17 +18,16 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1f76359878d162e93d8f8b7c11be529c43c94455
-ms.openlocfilehash: c1c180432e014c69b43612693790a1cac6e54c34
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 389efbe1853264c1503737b55dd7767fdcb966ca
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="localization-and-regulatory-features"></a>Fonctions locales et relatives aux réglementations
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Microsoft Dynamics 365 for Finance and Operations inclut une fonctionnalité pour les pays/régions documentée dans le [Guide de disponibilité internationale du produit](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf). Cette fonctionnalité est activée en fonction de l'adresse principale de l'entité juridique active. 
 
@@ -51,10 +50,10 @@ Les ressources suivantes fournissent des informations sur les nouvelles fonction
 
 ### <a name="communication-and-alerts"></a>Communication et alertes
 -   [Veille et communications réglementaires mises à jour](regulatory-watch-communication.md)
--   [Informer Microsoft des alertes réglementaires de pays/région et suivre le statut des fonctions liées aux réglementations](submit-localization-alerts.md)
+-   [Informer Microsoft des alertes réglementaires nationales/régionales et suivre le statut des fonctions de réglementation](submit-localization-alerts.md)
 
-### <a name="dynamics-365-roadmap"></a>Calendrier de lancement de Dynamics 365
-Le [Calendrier de lancement de Dynamics 365](https://roadmap.dynamics.com/) fournit un instantané de ce sur quoi nous travaillons. Ce calendrier de lancement vous permet de savoir ce qui est généralement rendu disponible et ce qui est en cours de développement. Toutes les dates et fonctionnalités qui sont en cours de développement sont préliminaires, basées sur des attentes actuelles, et peuvent faire l'objet de modifications sans préavis.
+### <a name="dynamics-365-release-notes"></a>Notes de publication de Dynamics 365
+Les [Notes de publication de Dynamics 365 (téléchargement PDF)](https://aka.ms/businessappsreleasenotes) fournissent des descriptions des capacités, nouvelles et améliorées, des applications d'entreprises et des plateformes d'application Dynamics 365. 
 
 ## <a name="electronic-reporting"></a>Gestion des états électroniques
 L'outil de gestion des états électroniques (ER) vous permet de configurer des formats électroniques conformes aux obligations légales de différents pays/régions. Il vous permet de gérer ces formats au cours de tout leur cycle de vie. Pour plus d'informations, voir l'une des rubriques suivantes :
@@ -79,25 +78,9 @@ Pour plus d'informations, voir [Guides de tâches](../../fin-and-ops/get-started
 ## <a name="countryregion-specific-help-topics"></a>Rubriques d'aide spécifiques à un pays/une région
 Les sections suivantes répertorient les ressources par pays/région.
 
-### <a name="australia"></a>Australie
-
--   [Formats de fichier bancaire](../../financials/localizations/apac-aus-method-of-payment-pay-vendors-banks.md)
--   [BAS (Business Activity Statement)](../../financials/localizations/apac-aus-business-activity-statement.md)
--   [Amortissement du regroupement de faible valeur](../../financials/localizations/apac-aus-low-value-pool-depreciation.md)
-
-### <a name="austria"></a>Autriche
-
-- [Amortissement semestriel](../../financials/localizations/emea-aut-half-year-depreciation.md)
-- [Commissions sur les matières d'emballage](../../financials/localizations/emea-aut-packing-material-fee-calculation.md)
-- [Droits de douane sur les achats](../../financials/localizations/emea-aut-purchase-duties.md)
-- [Déclaration de TVA](../../financials/localizations/emea-aut-vat-statement-details.md)
-
-### <a name="belgium"></a>Belgique
-
--   [Relevé bancaire CODA](../../financials/localizations/emea-bel-coda-bank-statement-import.md)
--   [Déclaration de taxe INTERVAT](../../financials/localizations/emea-bel-intervat-tax-declaration.md)
--   [Paramétrage d'états PRODCOM](../../financials/localizations/emea-bel-prodcom-report.md)
--   [États de rapprochement](../../financials/localizations/emea-bel-reconciliation-reports.md)
+### <a name="australiafinancialslocalizationsaustraliamd"></a>[Australie](../../financials/localizations/australia.md)
+### <a name="austriafinancialslocalizationsaustriamd"></a>[Autriche](../../financials/localizations/austria.md)
+### <a name="belgiumfinancialslocalizationsbelgiummd"></a>[Belgique](../../financials/localizations/belgium.md)
 
 ### <a name="brazil"></a>Brésil
 
@@ -132,25 +115,12 @@ Les sections suivantes répertorient les ressources par pays/région.
 -   [Importation d'entité de données Chinese Golden Tax](../../financials/localizations/apac-chn-import-golden-tax-data-entity.md)
 -   [Modèle de coût moyen mensuel](../../financials/localizations/apac-chn-monthly-average-cost-model.md)
 -   [Comptes principaux après stock par site](../../financials/localizations/apac-chn-post-inventory-main-accounts-by-site.md)
--   [Affichage des crédits et des débits pour le compte général](../../financials/localizations/apac-chn-negative-debits-credits.md)
+-   [Afficher les montants débiteurs et créditeurs pour les comptes généraux](../../financials/localizations/apac-chn-negative-debits-credits.md)
 
-### <a name="the-czech-republic"></a>République tchèque
-
--   [Escompte de règlement pour l'avoir](../../financials/localizations/emea-cze-credit-note-cash-discount.md)
--   [Arrondissement de l'amortissement](../../financials/localizations/emea-cze-depreciation-rounding.md)
--   [Amortissement sur un semestre pour la cession d'immobilisations - République tchèque](../../financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal.md)
--   [Suspension d'amortissement (holidays.md)](../../financials/localizations/emea-cze-depreciation-suspension-holidays.md)
--   [Méthodes d'amortissement d'immobilisations - République tchèque](../../financials/localizations/emea-cze-fixed-assets-depreciation.md)
--   [Validation de pré-acquisition de l'immobilisation](../../financials/localizations/emea-pre-acquisition-acquisition-fixed-asset.md)
--   [Relevé de TVA - République tchèque](../../financials/localizations/emea-cze-vat-statement-details.md)
--   [Déclaration de taxe ](../../financials/localizations/emea-cze-intra-community-vat-transactions.md)
--   [Fractionnement de périodes dans les journaux périodiques](../../financials/localizations/emea-create-post-periodic-journals.md)
--   [Paramétrage de signataires pour l'impression d'écrans](../../financials/localizations/emea-set-up-signers-for-printing-forms.md)
--   [Modification du mode d'affichage des montants dans les états et documents](../../financials/localizations/emea-amount-printing-forms.md)
+### <a name="the-czech-republicfinancialslocalizationsczech-republicmd"></a>[République tchèque](../../financials/localizations/czech-republic.md)
 
 ### <a name="estonia"></a>Estonie
-
--   [Détails de relevé de TVA pour l'Estonie](../../financials/localizations/emea-est-vat-statement-details.md)
+-   [Détails de déclaration de TVA pour l'Estonie](../../financials/localizations/emea-est-vat-statement-details.md)
 -   [Cession d'immobilisations](../../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md)
 
 ### <a name="europe"></a>Europe
@@ -188,7 +158,7 @@ Les sections suivantes répertorient les ressources par pays/région.
 - [Taux de change TVA](../../financials/localizations/emea-vat-exchange-rate.md)
 - [Transactions d'enregistrement de TVA pour l'Europe de l'Est](../../financials/localizations/emea-vat-register-transactions.md)
 - [Génération d'états TVA](../../financials/localizations/emea-vat-reporting.md)
-- [Affichage des transactions pour règlement](../../financials/localizations/emea-transactions-settlement-form.md)
+- [Afficher les transactions pour règlement](../../financials/localizations/emea-transactions-settlement-form.md)
 
 ### <a name="france"></a>France
 -   [Facture et n° document chronologiques](../../financials/localizations/emea-fra-chronological-invoices-vouchers.md)
@@ -242,7 +212,7 @@ Les sections suivantes répertorient les ressources par pays/région.
 -   [Modello 770](../../financials/localizations/emea-ita-modello770.md)
 -   [Vérification de la date de bon de livraison sur les factures pour l'Italie](../../financials/localizations/emea-ita-packing-slip-date-verification-on-invoice.md)
 -   [Registres des taxes italiens](../../financials/localizations/emea-ita-fiscal-books.md)
--   [Paiement fractionné des factures émises (Secteur public)](../../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md)
+-   [Fractionner le paiement des factures émises pour le secteur public](../../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md)
 -   [Retenue à la source](../../financials/localizations/emea-ita-withholding-tax.md)
 
 ### <a name="japan"></a>Japon
@@ -280,7 +250,7 @@ Les sections suivantes répertorient les ressources par pays/région.
 -   [État de déclaration d'ajustement pour inflation](../../financials/localizations/latam-mex-adjustment-inflation-declaration-report.md)
 -   [État de déclaration ISR](../../financials/localizations/latam-mex-isr-declaration-report-supporting-processes.md)
 -   [CFDI (factures électroniques)](../../financials/localizations/latam-mex-CFDI-electronic-invoices.md)
-   
+
 ### <a name="malaysia"></a>Malaisie
 
 -   [Taxe sur les Produits et Services (GST)](../../financials/localizations/apac-mys-gst.md)
@@ -327,7 +297,7 @@ Les sections suivantes répertorient les ressources par pays/région.
 -   [Impression de chèques avec un format espagnol](../../financials/localizations/emea-esp-print-checks-with-spanish-layout.md)
 -   [Options de billet à ordre (Espagne)](../../financials/localizations/emea-esp-promissory-note-options.md)
 -   [Cycles de vente et d'achat](../../financials/localizations/emea-esp-sales-purchase-cycle.md)
--   [Entrées spéciales et ouverture de la comptabilité](../../financials/localizations/emea-esp-opening-sheets-spain.md)
+-   [Entrées spéciales et feuilles d'ouverture](../../financials/localizations/emea-esp-opening-sheets-spain.md)
 -   [Utiliser les données fiscales du compte de facturation](../../financials/localizations/emea-esp-fiscal-data-invoice-account.md)
 
 ### <a name="sweden"></a>Suède

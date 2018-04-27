@@ -27,8 +27,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="configure-a-manual-task-in-a-workflow"></a>Configurer une tâche manuelle dans un workflow
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique explique comment configurer les propriétés d'une tâche manuelle.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="cost-control-overview"></a>Vue d'ensemble du Contrôle des coûts 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 L'espace de travail **Contrôle des coûts** est un point central où les responsables chargés de contrôler un objet de coût ou un ensemble d'objets de coûts dans une dimension ou dans plusieurs dimensions peuvent accéder aux états. Les états dans l'espace de travail sont entièrement gérés par des comptables, de sorte que la mise en page et les données utilisées pour la génération des états sont cohérentes dans l'ensemble de l'organisation.
 

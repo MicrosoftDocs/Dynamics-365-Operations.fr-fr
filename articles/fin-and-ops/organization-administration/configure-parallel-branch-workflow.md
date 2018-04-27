@@ -27,8 +27,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="configure-a-parallel-branch-in-a-workflow"></a>Configurer une branche parallèle dans un workflow
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Pour configurer une branche parallèle, exécutez les procédures suivantes dans l'éditeur de workflow.
 

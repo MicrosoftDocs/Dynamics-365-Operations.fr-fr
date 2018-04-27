@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="settle-transactions-between-ledger-accounts"></a>Règlement des transactions entre des comptes généraux
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure montre comment régler les transactions entre les comptes généraux et annuler un règlement comptable. La société fictive USMF sert d'exemple dans cette procédure.
 

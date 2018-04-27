@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="maintain-financial-dimension-default-templates"></a>Tenir à jour les modèles par défaut de dimension financière
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure indique comment paramétrer les modèles par défaut de dimension financière. Les modèles peuvent être utilisés pour répartir rapidement les montants sur les documents source.
 

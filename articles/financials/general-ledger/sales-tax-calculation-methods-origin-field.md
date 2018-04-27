@@ -28,10 +28,9 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>Méthodes de calcul de la taxe dans le champ Origine
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Cet article décrit les options du champ Origine dans la page de codes taxe et la manière dont la taxe est calculée selon l'option sélectionnée pour un code taxe.
 
@@ -53,11 +52,12 @@ L'administration fiscale impose des droits de douanes spéciaux sur un article. 
 -   TAXE = 25 %, à l'aide de la méthode de calcul Pourcentage du montant brut
 
 Si le montant HT = 10,00, alors les DROITS DE DOUANE 1 = 1,00 (10,00 x 10 %) et les DROITS DE DOUANE 2 = 2,00 (10,00 x 20 %). Les montants sont les suivants : Montant brut = Montant HT + montant DROITS DE DOUANE 1 + montant DROITS DE DOUANE 2 (10,00 + 1,00 + 2,00) = 13,00 TAXE = 13,00 x 25 % = 3,25 Total DROITS DE DOUANE et TAXE = 1,00 + 2,00 + 3,25 = 6,25 Montant total = 10,00 + 6,25 = 16,25
+
 | **Remarque**                                                                                                                                                                                                                 |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Un seul code taxe avec Origine = Pourcentage du montant brut peut être utilisé pour une transaction. Si plusieurs codes taxe sont déterminés pour une transaction, une erreur s'affiche pour indiquer que la taxe ne peut pas être calculée. |
 
- 
+
 <a name="percentage-of-sales-tax"></a>Pourcentage de taxe
 -----------------------
 
@@ -70,6 +70,7 @@ Prenons les codes taxe suivants :
 -   TAXE = 25 %, à l'aide de la méthode Pourcentage du montant brut
 
 Montant HT = 10,00 DROITS DE DOUANE 1 = 10,00 x 10 % = 1,00 DROITS DE DOUANE 2 = 1,00 x 20 % = 0,20 Montant brut = 10,00 + 1,00 + 0,20 = 11,20 TAXE = 11,20 x 25 % = 2,80 Total DROITS DE DOUANE et TAXE = 1,00 + 0,20 + 2,80 = 4,00 Montant total = 10,00 + 4,00 = 14,00
+
 | **Remarque**                                                                                                                                                                                                                    |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Les calculs de taxe sur taxe à plusieurs niveaux ne sont pas possibles. Une taxe ne peut pas être calculée sur la base d'une taxe qui est déjà calculée sur la base d'une autre taxe. Plusieurs codes de taxe sur taxe à niveau unique peuvent être calculés sur une transaction. |
@@ -79,6 +80,7 @@ Lorsque vous sélectionnez Montant par unité dans le champ Origine, la taxe est
 ### <a name="example"></a>Exemple
 
 Le code taxe est paramétré comme suit : 1,20 EUR par unité = boîte Sur une ligne de facture client, 25 boîtes d'un article sont vendues La taxe est calculée comme suit = 25 x 1,20 = 30,00
+
 | **Remarque**                                                                                                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Si la transaction est entrée dans une unité autre que l'unité spécifiée sur le code taxe, elle est automatiquement convertie en fonction des conversions d'unités paramétrées dans la page Conversion d'unités. |

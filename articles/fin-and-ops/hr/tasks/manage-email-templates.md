@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="manage-email-templates"></a>Gérer les modèles d'e-mails
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Vous pouvez transférer des informations à partir de la base de données de votre organisation vers les signets d'un nouveau document et les utiliser dans des modèles qui vous aident à mieux communiquer avec les candidats Pour ce faire, vous devez créer un modèle contenant du texte standard et certains signets où les données du système doivent être insérées. Par exemple, vous pouvez insérer les coordonnées d'un candidat dans un document Microsoft Word que vous pouvez utiliser lorsque vous communiquez avec ce candidat. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 

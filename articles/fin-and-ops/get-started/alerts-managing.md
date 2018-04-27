@@ -24,9 +24,9 @@ ms.lasthandoff: 03/23/2018
 ---
 
 # <a name="batch-processing-for-alerts"></a>Traitement par lots des alertes
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[banner](../includes/pre-release.md)] 
+[!INCLUDE [banner](../includes/pre-release.md)]
 
 Les alertes sont traitées par la fonctionnalité de traitement par lots dans Microsoft Dynamics 365 for Finance and Operations. Vous devez paramétrer le traitement par lots avant que les alertes puissent être remises.
 

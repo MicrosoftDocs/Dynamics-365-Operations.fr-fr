@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="reimburse-customers"></a>Rembourser les clients
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article explique la création des transactions de remboursement pour un groupe de clients. Si un client a un solde créditeur, vous pouvez le rembourser pour le montant du solde. 
 

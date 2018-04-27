@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Règlement d'un paiement client partiel avec plusieurs périodes de remise
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article décrit la manière dont les paiements client partiels sont réglés lorsqu'il existe plusieurs périodes de remise.
 

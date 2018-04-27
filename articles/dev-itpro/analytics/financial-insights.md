@@ -18,16 +18,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 33a8bc78006ae9e7d5ca905a98886fd7af706604
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6679215a664ddf938a204196b00f3bc28bf65f8f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="financial-insights"></a>Financial Insights
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 **Financial Insights** utilise Microsoft Power BI pour regrouper les indicateurs financiers de performance clés, les graphiques et les tableaux d'analyse. Power BI est intégré dans Microsoft Dynamics 365 for Finance and Operations.
 **Financial Insights** est axé sur la génération d'états analytiques. Les employés d'une organisation peuvent afficher, rechercher, comprendre et agir. 
@@ -107,8 +107,20 @@ Bien que les **perspectives financières** contiennent des tableaux d'analyse, e
 
 Le tableau de comparaison suivant permet de différencier les deux options :
 
-|                                         | **États financiers**                            | **Perspectives financières**             | |-----------------------------------------|----------------------------------------------------|---------- -------------------------| | **Modifier les états par défaut**                | Oui                                                | Non                                 | | **Créer de nouveaux états**                  | Oui                                                | Non                                 | | **Imprimer les états**                       | Oui                                                | Non                                 | | **Exporter vers Excel**                     | Oui          | Données brutes d'exportations limitées à Excel, et non un état formaté       | | **Prise en charge de la hiérarchie de génération d'états/hiérarchie d'organisation**   | Oui                               | Non                                 | | **Générer un état sur les données de comptabilité auxiliaire**       | Oui limité uniquement au fournisseur, client    | Oui fournisseur, client, groupes de fournisseurs/clients, adresses du fournisseur/client, etc.  | | **Devise de déclaration**      | Oui devise comptable et conversion en devise de déclaration       | Aucune devise comptable uniquement      | | **Sécurité**                | Oui Adhère à Finance and Operations et organigramme d'entreprise | Rapports limités à toutes les sociétés (quelle que soit la sécurité de Finance and Operations) ou uniquement la société active | | **Prise en charge de différents plans de comptes et exercices** | Oui                   | Non                   | | **Rapport sur les données externes**                              | Non                   | Non                                   | | **Prise en charge des consolidations**                               | Oui                          | Limité Peut générer des rapports sur plusieurs sociétés mais utiliser la devise comptable uniquement                                     |
 
+|                                                                       |               <strong>États financiers</strong>                |                                      <strong>Financial Insights</strong>                                      |
+|-----------------------------------------------------------------------|-------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+|                 <strong>Modifier les états par défaut</strong>                 |                                Oui                                |                                                      N°                                                       |
+|                  <strong>Créer des rapports</strong>                  |                                Oui                                |                                                      N°                                                       |
+|                    <strong>Imprimer des rapports</strong>                     |                                Oui                                |                                                      N°                                                       |
+|                   <strong>Exporter vers Excel</strong>                    |                                Oui                                |                           Exportations limitées de données brutes vers Excel, et non dans un état formaté                           |
+|  <strong>Prise en charge de la hiérarchie/hiérarchie d'organisation de génération d'états</strong>  |                                Oui                                |                                                      N°                                                       |
+|               <strong>État sur les données de comptabilité auxiliaire</strong>               |               Oui Limité uniquement au fournisseur, client                |                 Oui Fournisseur, client, fournisseur/groupes de clients, adresses fournisseur/client, et ainsi de suite.                 |
+|                  <strong>Devise de déclaration</strong>                  |    Oui Devise comptable et convertir dans la devise de déclaration    |                                          Non Devise comptable uniquement                                          |
+|                       <strong>Sécurité</strong>                       | Oui Adhère à Finance and Operations et à la sécurité d'organigramme d'entreprise | Rapports limités à toutes les sociétés (quelle que soit la sécurité de Finance and Operations) ou uniquement la société active |
+| <strong>Prend en charge différents plan de comptes et exercices</strong> |                                Oui                                |                                                      N°                                                       |
+|               <strong>état sur les données externes</strong>                |                                N°                                 |                                                      N°                                                       |
+|                <strong>Prendre en charge les consolidations</strong>                |                                Oui                                |                   Limité Peut générer des rapports sur plusieurs sociétés mais utiliser la devise comptable uniquement                   |
 
 Outre l'interface utilisateur de l'espace de travail **Vue d'ensemble d'un processus CFO** d'origine, de nouveaux indicateurs de performance clés, graphiques et tableaux d'analyse sont désormais disponibles. Les tableaux d'analyse suivants sont disponibles :
 

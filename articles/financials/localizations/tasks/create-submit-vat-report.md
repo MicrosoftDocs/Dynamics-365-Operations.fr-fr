@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-and-submit-vat-report"></a>Créer et envoyer un état TVA
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure vous montre toutes les étapes requises pour la création et l'envoi d'un état TVA pour l'administration allemande.
 

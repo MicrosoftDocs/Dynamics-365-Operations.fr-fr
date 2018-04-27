@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 63a02a64ff28531bae950f1b61d9167eaa0b0373
-ms.openlocfilehash: 7fd32467cfbc8c30b398659d16b268f183b6b3d3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d2a4a0b2bf2d33530dedc7ce3974ee558d063878
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="develop-salarycompensation-structure-and-plans"></a>Développer les plans et la structure du salaire/de la rémunération
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Ce guide de tâche décrit le processus de création d'un régime de rémunération fixe et d'activation des employés à inscrire dans le plan via des règles d'admissibilité. Les données fictives utilisées pour créer cette tâche correspondent à la société USMF et la tâche est destinée aux gestionnaires de rémunération et avantages.
 

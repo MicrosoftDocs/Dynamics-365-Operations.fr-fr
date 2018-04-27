@@ -19,17 +19,16 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 616366009ce7bf7135704e980becc331617cf5af
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4361311be0cf5c33c9b2fa4700b084a7b43f5b65
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="advanced-filtering-and-query-syntax"></a>Syntaxe de requête et de filtrage avancé
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article décrit les options de filtrage et de requête disponibles lorsque vous utilisez l'opérateur de correspondances dans la boîte de dialogue Filtre/tri avancé.
 
@@ -68,7 +67,7 @@ Cet article décrit les options de filtrage et de requête disponibles lorsque v
 <td><em>valeur de début</em>..<em>valeur de fin</em> (deux points)</td>
 <td>Entre les deux valeurs séparées par deux points</td>
 <td>Tapez la valeur de début, puis deux points, puis la valeur de fin.</td>
-<td><strong>1..10</strong> permet de rechercher toutes les valeurs de 1 à 10. Cependant, dans un champ de chaîne, <strong>A..C</strong> permet de trouver toutes les valeurs commençant par &quot;A&quot; et &quot;B&quot; et les valeurs exactement égales à &quot;C&quot;. Par exemple, cette requête ne recherche pas &quot;Ca&quot;. Pour rechercher toutes les valeurs de &quot;A*&quot; à &quot;C*&quot;,tapez <strong>A..D</strong>.</td>
+<td><strong>1..10</strong> permet de rechercher toutes les valeurs de 1 à 10. Cependant, dans un champ de chaîne, <strong>A..C</strong> permet de trouver toutes les valeurs commençant par &quot;A&quot; et &quot;B&quot; et les valeurs exactement égales à &quot;C&quot;. Par exemple, cette requête ne recherche pas &quot;Ca&quot;. Pour rechercher toutes les valeurs de &quot;A<em>&quot; à &quot;C</em>&quot;,tapez <strong>A..D</strong>.</td>
 </tr>
 <tr class="even">
 <td>..<em>valeur</em> (deux points)</td>
@@ -97,20 +96,20 @@ Cet article décrit les options de filtrage et de requête disponibles lorsque v
 <tr class="even">
 <td><em>valeur</em>* (astérisque)</td>
 <td>Commence par la valeur entrée</td>
-<td>Tapez la valeur de début, puis un astérisque (<strong>*</strong>).</td>
-<td><strong>S*</strong> permet de rechercher les chaînes commençant par &quot;S&quot;, telles que &quot;Stockholm&quot;, &quot;Sydney&quot; et &quot;San Francisco&quot;.</td>
+<td>Tapez la valeur de début, puis un astérisque (<strong><em></strong>).</td>
+<td><strong>S</em></strong> permet de rechercher les chaînes commençant par &quot;S&quot;, telles que &quot;Stockholm&quot;, &quot;Sydney&quot; et &quot;San Francisco&quot;.</td>
 </tr>
 <tr class="odd">
-<td>*<em>valeur</em> (astérisque)</td>
+<td><em><em>valeur</em> (astérisque)</td>
 <td>Finit par la valeur entrée</td>
 <td>Tapez un astérisque, puis la valeur de fin.</td>
-<td><strong>*est</strong> permet de rechercher les chaînes finissant par &quot;est&quot;, telles que &quot;nord-est&quot; et &quot;sud-est&quot;.</td>
+<td><strong></em>est</strong> permet de rechercher les chaînes finissant par &quot;est&quot;, telles que &quot;nord-est&quot; et &quot;sud-est&quot;.</td>
 </tr>
 <tr class="even">
-<td>*<em>valeur</em>* (astérisque)</td>
+<td><em><em>valeur</em></em> (astérisque)</td>
 <td>Contenant la valeur entrée</td>
 <td>Tapez un astérisque, puis une valeur, puis un autre astérisque.</td>
-<td><strong>**es**</strong> permet de rechercher les chaînes contenant &quot;es&quot;, telles que &quot;nord-est&quot; et &quot;sud-est&quot;.</td>
+<td><strong><em>es</em></strong> permet de rechercher les chaînes contenant &quot;es&quot;, telles que &quot;nord-est&quot; et &quot;sud-est&quot;.</td>
 </tr>
 <tr class="odd">
 <td>? (point d'interrogation)</td>
@@ -131,7 +130,7 @@ Cet article décrit les options de filtrage et de requête disponibles lorsque v
 <td><strong><span class="code">(data source.Fieldname != &quot;A&quot;)</span></strong></td>
 </tr>
 <tr class="even">
-<td>Ma</td>
+<td>T</td>
 <td>Date du jour</td>
 <td>Tapez <strong>T</strong>.</td>
 <td><strong>T</strong> correspond à la date du jour.</td>

@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="kanban-transfer-board-support-for-barcode-scanners"></a>Prise en charge du tableau de transfert kanban pour les scanneurs de codes-barres
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 La tableau de transfert kanban prend en charge l'entrée de scanneur à partir d'un lecteur de codes-barres de widget pour Sélectionner, Démarrer, Terminer et Vider une tâche de kanban.
 
@@ -38,6 +37,7 @@ La tableau de transfert kanban prend en charge l'entrée de scanneur à partir d
 ------------------
 
 Dans l'organisateur **Enregistrement du scanneur**, vous pouvez sélectionner le mode d'enregistrement, qui contrôle l'action lorsque vous numérisez un numéro de carte kanban ou entrez manuellement le numéro dans le champ Numéro de carte kanban.
+
 | Définir le mode d'enregistrement | Description                                                                                     |
 |-----------------------|-------------------------------------------------------------------------------------------------|
 | Commencer                 | Enregistre une opération de transfert de kanban avec le statut « En cours ».                                                 |

@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="validate-a-production-flow-and-version"></a>Valider un flux de production et une version
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure montre comment créer un flux de production et une première version pour la lean manufacturing. Conditions préalables : les paramètres de production pour la lean manufacturing et les unités de mesure du temps des classes doivent être définis. Vous devez également définir une Chaîne de valeur et un Groupe de production. Consultez les livres blancs sur la lean manufacturing pour vous familiariser avec les concepts des flux de production et des activités. Cette procédure fait référence à l'entité juridique USMF dans les données de démonstration. Toutefois, en supposant que l'entité juridique est configurée pour la lean manufacturing, il est possible d'utiliser d'autres entités juridiques.
 

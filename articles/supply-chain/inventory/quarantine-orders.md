@@ -28,8 +28,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="quarantine-orders"></a>Ordres de contrôle
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique décrit la manière dont les ordres de contrôle sont utilisés pour bloquer le stock.
 

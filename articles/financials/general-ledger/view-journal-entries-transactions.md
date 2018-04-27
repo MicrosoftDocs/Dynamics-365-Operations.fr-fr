@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="view-journal-entries-and-transactions"></a>Afficher les entrées de journal et les transactions
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article explique les différentes manières dont vous pouvez afficher les entrées de journal et les transactions. 
 
@@ -55,7 +54,7 @@ Outre les états financiers, vous pouvez utiliser les états suivants de comptab
 -   **Origine de la transaction** – Cet état de transaction affiche le compte par journal, et par devise de transaction, comptable et de déclaration. Il indique également chaque ligne du journal qui a été utilisé comme contrepartie.
 
 
-##<a name="see-also"></a>Voir également :
+## <a name="see-also"></a>Voir également :
 - [Soldes de la comptabilité](general-ledger-account-balances.md) 
 - [Explorateur de comptabilité source](..\accounts-payable\accounting-source-explorer.md)
 - [États financiers](financial-reporting-getting-started.md)

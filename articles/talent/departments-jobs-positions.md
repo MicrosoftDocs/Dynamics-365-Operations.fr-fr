@@ -28,10 +28,9 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="organize-your-workforce-using-departments-jobs-and-positions"></a>Organiser le personnel à l'aide des départements, tâches et postes
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
-[!include[retail name](includes/retail-name.md)]
-
+[!INCLUDE [retail name](includes/retail-name.md)]
 
 Les départements, les tâches et les postes sont des éléments d'organisation qui sont tenus à jour au sein des Ressources humaines. Cette rubrique décrit des informations conceptuelles sur ces éléments. 
 
@@ -48,7 +47,7 @@ L'exemple suivant est utilisé pour illustrer les concepts décrits dans cette r
 |**Ressources humaines**|Directeur RH (ouest)|Directeur RH|
 |**Ressources humaines**|Directeur RH (centre)|Directeur RH|
 
- 
+
  <a name="departments"></a>Départements
 ------------
 

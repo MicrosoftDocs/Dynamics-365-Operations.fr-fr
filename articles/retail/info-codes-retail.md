@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="info-codes"></a>Codes info
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Cet article fournit une vue d'ensemble à propos des codes d'informations, des groupes de codes d'informations et la manière de les utiliser.
 
@@ -52,7 +51,7 @@ Dans Dynamics 365 for Retail, vous pouvez créer des groupes de codes info. Les 
 
 **Exemple 2 : lier des codes info à des groupes de codes info** Lorsque vous vendez certains produits, par exemple des appareils mobiles, vous souhaitez toujours collecter un ensemble spécifique d'informations tel que le numéro de téléphone, l'identificateur de l'équipement mobile (MEID) et le numéro de série. Toutefois, vous souhaitez également collecter des informations différentes pour une tablette/un téléphone portable. Vous pouvez paramétrer un groupe de codes info qui inclut des invites pour le numéro de téléphone, le MEID et le numéro de série, puis lier le groupe de codes info à un code info individuel. Lorsque le code info spécifique au produit est déclenché, le groupe de codes info peut être ensuite déclenché pour vous permettre de collecter les données communes sans devoir définir plusieurs ensembles de codes info liés pour chaque périphérique.
 
- 
+
 
 
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-purchase-order-from-a-sales-order"></a>Création d'une commande fournisseur à partir d'une commande client
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure vous montre comment créer une commande fournisseur sur la base d'une commande client. Les quantités du produit dans la commande fournisseur sont alors désignées pour honorer la demande de la commande client d'origine. La satisfaction des commandes par ce moyen constitue une alternative à une méthode plus complète et plus optimisée de planification des besoins de distribution. Vous pouvez exécuter cette procédure dans la société fictive de démonstration USMF ou utiliser vos propres données.
 

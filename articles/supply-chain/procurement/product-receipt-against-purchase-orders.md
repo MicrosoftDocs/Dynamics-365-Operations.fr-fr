@@ -28,10 +28,9 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="product-receipt-against-purchase-orders"></a>Accusé de réception de marchandises et commandes fournisseur
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Cet article décrit les différentes options d’enregistrement des marchandises comme étant reçues.
 

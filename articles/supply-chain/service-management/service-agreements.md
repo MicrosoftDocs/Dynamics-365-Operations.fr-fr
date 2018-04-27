@@ -28,8 +28,7 @@ ms.lasthandoff: 02/19/2018
 
 # <a name="service-agreements"></a>Accords de service
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Les accords de service permettent de définir les ressources utilisées dans une visite de service classique et leur mode de facturation au client.
 

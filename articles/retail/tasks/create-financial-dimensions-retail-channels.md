@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-financial-dimensions-for-retail-channels-and-configure-dimension-values-on-stores"></a> Créer des dimensions financières pour les canaux de vente au détail et configurer les valeurs de dimension pour les magasins
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Cette procédure vous guide au cours de la création d'une dimension financière de canal de vente au détail avec des valeurs de dimension et des étapes pour configurer les valeurs de dimension financière dans des magasins de vente au détail. Le sujet n'inclut pas d'autres étapes associées, telles que la création d'ensembles de dimensions et de structures de compte. Cette procédure utilise la société USRT dans les données de démonstration.
 

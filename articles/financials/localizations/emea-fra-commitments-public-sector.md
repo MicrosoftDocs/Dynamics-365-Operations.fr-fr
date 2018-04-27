@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="commitments-in-the-public-sector-in-france"></a>Engagements dans le secteur public en France
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Les engagements sont des documents source de contrôle budgétaire utilisés par les entités du secteur public en France. Ils permettent de réserver des montants budgétés afin qu'une organisation puisse explicitement suivre des réservations budgétaires à des fins de gestion et de déclaration tout au long du cycle des dépenses. 
 

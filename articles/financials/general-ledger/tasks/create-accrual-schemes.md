@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-accrual-schemes"></a>Création de plans de régularisation
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Ce guide accompagne l'utilisateur le long de la création d'un plan de régularisation. La société fictive USMF est citée en exemple dans cette tâche.
 

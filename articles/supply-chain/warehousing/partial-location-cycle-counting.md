@@ -29,8 +29,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="partial-location-cycle-counting"></a>Inventaire tournant de l'emplacement partiel
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Les plans d'inventaire tournant guident les opérations tournantes réelles. Vous pouvez demander que seuls des produits et des variantes de produit spécifiques soient comptabilisés au lieu de tout le stock disponible à un emplacement.
 

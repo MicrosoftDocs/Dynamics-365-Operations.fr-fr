@@ -3,7 +3,7 @@ title: "N° document"
 description: "La fonctionnalité N° document pour les journaux financiers (journal des opérations diverses, journal des immobilisations, journal des paiements fournisseur, etc.) permet d'entrer plusieurs transactions de comptabilité auxiliaire dans le contexte d'un N° document unique."
 author: kweekley
 manager: AnnBe
-ms.date: 03/19/2018
+ms.date: 04/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,16 +19,16 @@ ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: 3831a6b5ec458495134b4b490d33a9acd76b6d2e
-ms.openlocfilehash: 76ea8470786bd50896400a65564d698d96119d6f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9f996131830f9bd4efd534143b3fb761c5ccc756
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="one-voucher"></a>N° document
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 > [!NOTE]
 >  Cette fonctionnalité sera disponible dans la version 8.0 de Dynamics 365 for Finance and Operations, qui sera disponible dans la version printemps 2018.   
@@ -38,9 +38,12 @@ ms.lasthandoff: 03/20/2018
 
 La fonctionnalité existante pour les journaux financiers (journal des opérations diverses, journal des immobilisations, journal des paiements fournisseur, etc.) permet d'entrer plusieurs transactions de comptabilité auxiliaire dans le contexte d'un N° document unique. Nous appelons cette fonctionnalité « N° document ». Vous pouvez créer un N° document à l'aide de l'une des méthodes suivantes :
 
--   Paramétrez le nom du journal (**Comptabilité** \> **Paramétrage de journaux** \>**Noms de journal**) afin que le champ **Nouveau N° document** soit défini sur **Un seul N° document**. Chaque ligne que vous ajoutez au journal est désormais incluse sur le même N° document. Comme chaque ligne est ajoutée au même N° document, le N° document peut être entré comme un N° document multiligne, comme un compte/compte de contrepartie sur la même ligne, ou comme une combinaison.
+-   Paramétrez le nom du journal (**Comptabilité** \> **Paramétrage de journaux** \>**Noms de journal**) afin que le champ **Nouveau N° document** soit défini sur **Un seul N° document**. * Chaque ligne que vous ajoutez au journal est désormais incluse sur le même N° document. Comme chaque ligne est ajoutée au même N° document, le N° document peut être entré comme un N° document multiligne, comme un compte/compte de contrepartie sur la même ligne, ou comme une combinaison.
 
 [![Ligne unique](./media/same-line.png)](./media/same-line.png)
+ 
+> [!IMPORTANT] 
+> *  Notez que la définition de « Un N° document » n'inclut PAS les noms de journaux paramétrés comme **Un N° document** uniquement et que l'utilisateur entre ensuite un document qui inclut uniquement des types de comptes généraux.  Dans ce document, « un N° document » signifie un N° document contenant plusieurs fournisseurs, clients, banques, immobilisations, ou projets. 
 
 -   Entrez un N° document multiligne lorsqu'il n'existe pas de compte de contrepartie.
 
@@ -68,13 +71,16 @@ Vous générez ensuite l'état **Dépenses par fournisseur** dans l'espace de tr
 
 En raison des problèmes mentionnés précédemment, la fonctionnalité N° document va devenir obsolète. Toutefois, comme il existe des écarts fonctionnels qui dépendent de cette fonctionnalité, la fonctionnalité ne deviendra pas obsolète d'un seul coup. Nous utiliserons le calendrier suivant : 
 
--   **Version printemps 2018** – La fonctionnalité sera désactivée par défaut via le paramètre Comptabilité. Toutefois, vous pouvez activer la fonctionnalité si votre organisation a un scénario qui s'inscrit dans les écarts de scénario d'entreprise répertoriés plus loin dans cette rubrique.
+- **Version printemps 2018** – La fonctionnalité sera désactivée par défaut via le paramètre Comptabilité. Toutefois, vous pouvez activer la fonctionnalité si votre organisation a un scénario qui s'inscrit dans les écarts de scénario d'entreprise répertoriés plus loin dans cette rubrique.
 
-    -   Si un client a un scénario d'entreprise qui ne nécessite pas la fonctionnalité N° document, n'activez pas la fonctionnalité. Nous ne corrigerons pas les « bogues » dans les zones identifiées plus loin dans cette rubrique si cette fonctionnalité est utilisée même si une autre solution existe.
+  -   Si un client a un scénario d'entreprise qui ne nécessite pas la fonctionnalité N° document, n'activez pas la fonctionnalité. Nous ne corrigerons pas les « bogues » dans les zones identifiées plus loin dans cette rubrique si cette fonctionnalité est utilisée même si une autre solution existe.
 
-    -   Arrêtez d'utiliser la fonctionnalité N° document pour les intégrations dans Microsoft Dynamics 365 Finance and Operations, sauf si la fonctionnalité est requise pour l'un des écarts fonctionnels.
+  -   Arrêtez d'utiliser la fonctionnalité N° document pour les intégrations dans Microsoft Dynamics 365 Finance and Operations, sauf si la fonctionnalité est requise pour l'un des écarts fonctionnels.
 
--   **Version automne 2018 et versions ultérieures** – Les écarts fonctionnels seront comblés. Une fois les écarts fonctionnels comblés, la fonctionnalité N° document sera définitivement désactivée.
+- **Version automne 2018 et versions ultérieures** – Les écarts fonctionnels seront comblés. Une fois les écarts fonctionnels comblés, la fonctionnalité N° document sera définitivement désactivée.
+
+- > [!IMPORTANT]
+  > Notez que l'option **Un seul N° document** n'a PAS été supprimée du paramétrage du nom de journal.  Cette option est toujours prise en charge lorsque le N° document contient uniquement des types de comptes généraux.  Les clients doivent être prudents lors de l'utilisation de ce paramètre, car le N° document n'est pas validée s'ils utilisent **Un seul N° document** sans entrer plusieurs clients, fournisseurs, banques, immobilisations, ou projets.  En outre, les clients peuvent entrer une combinaison de types de sous-comptes généraux, tels qu'un paiement dans un N° document unique contenant des types de compte fournisseur/banque.  
 
 <a name="why-use-one-voucher"></a>Pourquoi utiliser la fonctionnalité N° document ?
 ====================
@@ -102,13 +108,13 @@ Les scénarios suivants peuvent être réalisés uniquement à l'aide de la fonc
 
 >   Si une organisation doit afficher ensemble les écritures comptables d'un événement commercial, elle doit utiliser la fonctionnalité N° document. 
 
--   **Fonctionnalités spécifiques à un pays**
+- **Fonctionnalités spécifiques à un pays**
 
- -   La fonctionnalité Document administratif unique (SAD) pour la Pologne requiert actuellement l'utilisation d'un N° document unique. Tant qu'une option de regroupement n'est pas disponible pour cette fonctionnalité, vous devez continuer à utiliser la fonctionnalité N° document. Des fonctionnalités supplémentaires spécifiques au pays peuvent nécessiter la fonctionnalité N° document.
+  -   La fonctionnalité Document administratif unique (SAD) pour la Pologne requiert actuellement l'utilisation d'un N° document unique. Tant qu'une option de regroupement n'est pas disponible pour cette fonctionnalité, vous devez continuer à utiliser la fonctionnalité N° document. Des fonctionnalités supplémentaires spécifiques au pays peuvent nécessiter la fonctionnalité N° document.
 
--   **Journal des paiements client avec acompte contenant des taxes sur plusieurs « lignes »**
+- **Journal des paiements client avec acompte contenant des taxes sur plusieurs « lignes »**
 
- -   Un client effectue un acompte pour une commande, et les lignes de la commande ont plusieurs taxes qui doivent être enregistrées pour l'acompte. Le paiement client avec acompte est une transaction qui simule les lignes de la commande, afin que la taxe appropriée puisse être enregistrée pour le montant sur chaque ligne.
+  -   Un client effectue un acompte pour une commande, et les lignes de la commande ont plusieurs taxes qui doivent être enregistrées pour l'acompte. Le paiement client avec acompte est une transaction qui simule les lignes de la commande, afin que la taxe appropriée puisse être enregistrée pour le montant sur chaque ligne.
 
 Dans ce scénario, les clients indiqués dans le N° document unique sont les mêmes clients, car la transaction simule les lignes d'une commande client. L'acompte doit être entré dans un N° document unique, car le calcul de la taxe doit être effectué sur les « lignes » du paiement unique effectué par le client.
 

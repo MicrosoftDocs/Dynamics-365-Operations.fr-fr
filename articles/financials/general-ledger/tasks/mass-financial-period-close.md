@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="mass-financial-period-close"></a>Secteur de clôture de période comptable
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure indique comment mettre une période en attente ou clôturer définitivement une période ou plusieurs entités juridiques simultanément. En outre, la tâche indique comment limiter la validation de groupe d'utilisateurs à des modules spécifiques.
 

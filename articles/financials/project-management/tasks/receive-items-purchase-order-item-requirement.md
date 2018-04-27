@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="receive-items-on-purchase-order-from-item-requirement"></a>Recevoir des articles sur une commande fournisseur à partir d'une demande d'articles
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure montre le mode de réception des articles sur une commande fournisseur à partir d'une demande d'articles.
 

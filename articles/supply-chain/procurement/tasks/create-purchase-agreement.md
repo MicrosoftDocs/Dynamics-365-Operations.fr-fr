@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-purchase-agreement"></a>Créer un contrat d'achat
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure vous guide via la création d'un contrat d'achat. Cela est généralement effectué par un gestionnaire des achats. Vous pouvez utiliser cette procédure dans la société fictive de démonstration USMF ou utiliser vos propres données. Vous devez avoir configuré des classifications de contrat d'achat avant de commencer. Une fois que vous avez créé un accord, vous pouvez l'utiliser lorsque vous créez une commande fournisseur. Cela copiera les conditions du contrat d'achat dans l'en-tête et sur toutes les lignes de la commande qui sont affectées par l'accord.
 

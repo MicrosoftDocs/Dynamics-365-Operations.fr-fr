@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-ledger-accrual-transactions"></a>Création de transactions de régularisation des comptes
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Ce guide accompagne l'utilisateur dans la génération de transactions de régularisation des comptes fondées sur des plans de régularisation
 

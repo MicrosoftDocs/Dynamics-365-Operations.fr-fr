@@ -25,8 +25,7 @@ ms.lasthandoff: 02/23/2018
 
 # <a name="cfo-overview-power-bi-content"></a>Contenu Power BI Vue d'ensemble d'un processus CFO
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)] 
 
 Cette rubrique décrit le contenu Microsoft Power BI **Vue d'ensemble d'un processus CFO**. Ce contenu Power BI s'applique à ceux qui utilisent Microsoft Dynamics 365 for Finance and Operations version 7.2. Si vous utilisez la version 7.3 ou ultérieure, reportez-vous à [Perspectives financières](financial-insights.md).
 

@@ -29,15 +29,14 @@ ms.lasthandoff: 02/08/2018
 
 # <a name="product-lifecycle-state"></a>État du cycle de vie des produits 
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 L'état du cycle de vie des produits documente l'état du cycle de vie d'un produit ou d'une variante de produit lancé. Les états du cycle de vie des produits sont définis par l'utilisateur, généralement un responsable de produit ou un responsable des données principales de produit. Des processus d'entreprise spécifiques, tels que la planification, peuvent être affectés par un état spécifique du cycle de vie.   
- 
+
 Un produit ou une variante de produit lancé peut être associé à un état du cycle de vie des produits qui documente dans quel état du cycle de vie se trouve actuellement un produit ou une variante de produit spécifique. Vous pouvez définir plusieurs états du cycle de vie des produits en affectant un nom et une description. Vous pouvez sélectionner un état du cycle de vie comme valeur par défaut pour les nouveaux produits lancés. Les variantes de produit lancé héritent leur état de cycle de vie de leur produit générique lancé lors de la création. Lors de la modification de l'état du cycle de vie d'un produit générique lancé, vous pouvez choisir de mettre à jour toutes les variantes existantes qui ont le même état initial.  
 
 ## <a name="create-a-new-product-lifecycle-state"></a>Créer un état du cycle de vie des produits 
- 
+
 - Pour créer un état du cycle de vie des produits, lisez le guide de tâches **Créer un état du cycle de vie des produits**. 
 
 -  Pour créer un état du cycle de vie des produits par défaut, lisez le guide de tâches **Créer un état du cycle de vie des produits par défaut**.   
@@ -73,7 +72,7 @@ Pour des informations détaillées sur l'utilisation de l'état du cycle de vie 
 
 > [!NOTE]
 > Pour des raisons de performances, il est fortement recommandé d'associer les produits ou les variantes de produit lancés obsolètes, surtout lorsque vous travaillez avec des variantes de configuration de produit non réutilisables, avec un état du cycle de vie des produits qui est désactivé pour la planification.  
- 
+
 ## <a name="default-migration-import-and-export"></a>Migration, importation et exportation par défaut 
 
 Les états du cycle de vie des produits ne sont pas pris en charge par les entités de données, et l'état du cycle de vie ne peut pas être défini sur un état variable via les entités de données de produits lancés.
@@ -81,18 +80,18 @@ Les états du cycle de vie des produits ne sont pas pris en charge par les entit
 -  Lors de la migration à partir de versions précédentes, l'état du cycle de vie de tous les produits et variantes de produit est vide.  
 -  Lors de l'importation de produits lancés via une entité de données, l'état du cycle de vie par défaut est appliqué lors de la création.  
 -  Lors de l'importation de variantes de produit lancé via une entité de données, l'état du cycle de vie du produit générique lancé est importé.   
- 
+
 ## <a name="find-obsolete-products-and-products-variants"></a>Rechercher des produits et des variantes de produit obsolètes 
- 
+
 Vous pouvez exécuter une analyse de simulation pour rechercher les produits ou les variantes de produit lancés obsolètes et mettre à jour le statut de leur cycle de vie. Pour rechercher des produits obsolètes, lisez le guide de tâches **Rechercher des variantes de produit obsolètes et affecter un état du cycle de vie des produits**. Ce guide de tâches décrit comment rechercher des produits ou des variantes de produit lancés obsolètes et comment associer un état du cycle de vie aux produits obsolètes. Il explique également comment afficher les résultats de la simulation et évaluer le nombre de produits et de variantes de produit à associer à un nouvel état du cycle de vie des produits lors de l'exécution de la mise à jour sans simulation.  
- 
+
 En exécutant l'analyse en mode de simulation, les produits et les variantes de produit identifiés comme obsolètes sont affichés dans un écran spécifique, où ils peuvent facilement être examinés. L'analyse recherche des transactions et des données principales spécifiques pour identifier les produits sans demande dans une période variable et sans données principales pouvant entraîner une demande. Les nouveaux produits lancés dans une période variable peuvent être exclus de l'analyse. Lorsque la simulation de l'analyse renvoie le résultat attendu, l'utilisateur peut exécuter l'analyse et définir un nouvel état du cycle de vie pour tous les produits identifiés comme obsolètes par l'analyse.  
- 
+
 > [!NOTE]
 > Notez que toutes les analyses et mises à jour doivent être effectuées dans la même entité juridique.  
- 
+
 ## <a name="criteria-to-select-and-update-released-products-or-product-variants"></a>Critères de sélection et de mise à jour des produits ou des variantes de produit lancés 
- 
+
 Utilisez les critères suivants pour sélectionner et mettre à jour les produits et les variantes de produit lancés : 
 
 -    L'état du cycle de vie du produit ou de la variante de produit doit être différent du nouvel état souhaité. 

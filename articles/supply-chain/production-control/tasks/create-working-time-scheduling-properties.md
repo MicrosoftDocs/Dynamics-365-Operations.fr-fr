@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-working-time-scheduling-properties"></a>Créer les propriétés de la planification du temps de travail
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Les propriétés de la planification du temps de travail sont utilisées pour classer les intervalles de temps de travail et définir les paramètres que les opérateurs doivent prendre en compte. Cette procédure permet d'indiquer comment définir une propriété de planification du temps de travail et les valeurs de propriété associées. Vous pouvez parcourir cette procédure dans la société fictive USMF ou utiliser vos propres données.
 

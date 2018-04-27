@@ -27,8 +27,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="single-voucher-and-currency-revaluation-upgrade"></a>Mise à jour de document simple et de réévaluation de devise
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Certaines organisations saisissent des journaux qui contiennent un N° document unique pour plusieurs clients ou fournisseurs, et elles exécutent le processus de réévaluation des comptes en devises de la comptabilité client ou de la comptabilité fournisseur. Cette rubrique décrit les étapes à suivre par ces organisations lorsqu'elles effectuent la mise à niveau vers Microsoft Dynamics 365 for Operations, version 1611.
 

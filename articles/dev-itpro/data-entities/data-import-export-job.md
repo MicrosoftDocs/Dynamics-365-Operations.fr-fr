@@ -16,16 +16,16 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: bd26ac6fd8376fd42467c7a3d2ecd2ec035a4479
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fc47f6cd9cfe4a850e0959bf89da086ca82f3b69
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="data-import-and-export-jobs"></a>Tâches d'importation et d'exportation de données
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Pour créer et gérer des tâches d'importation et d'exportation de données dans Microsoft Dynamics 365 for Finance and Operations, utilisez l'espace de travail **Gestion des données**. Par défaut, le processus d'importation et d'exportation de données crée une table intermédiaire pour chaque entité dans la base de données cible. Les tables intermédiaires permettent de vérifier, nettoyer ou convertir des données avant de les déplacer.
 
@@ -64,13 +64,15 @@ Nous vous recommandons de prendre le temps de sélectionner une catégorie de pr
 Vous pouvez ajouter des entités spécifiques à une tâche d'importation ou d'exportation ou sélectionner un modèle à appliquer. Les modèles remplissent une tâche avec une liste d'entités. L'option **Appliquer un modèle** n'est disponible qu'après avoir attribué un nom à la tâche et enregistré la tâche.
 
 ### <a name="set-the-data-format-for-the-job"></a>Définir le format de données pour la tâche
-Lorsque vous sélectionnez une entité, vous devez sélectionner le format des données à exporter ou importer. Définissez des formats à l'aide de la vignette **Paramétrage de sources de données**. De nombreuses organisations commencent par les formats inclus par défaut dans l'ensemble de données de démonstration. Voici une liste de certains de ces formats :
+Lorsque vous sélectionnez une entité, vous devez sélectionner le format des données à exporter ou importer. Définissez des formats à l'aide de la vignette **Paramétrage de sources de données**. Un format de données sources est une combinaison de **Type**, de **Format de fichier**, de **Séparateur de ligne** et de **Séparateur de colonne**. Il existe également d'autres attributs, mais ceux-ci sont les principaux à comprendre. Le tableau suivant répertorie les combinaisons valides.
 
-- AX (pour les données devant être importées ou exportées dans le même format utilisé pour Microsoft Dynamics 365 for Finance and Operations)
-- ColonSeparated
-- CSV
-- Excel
-- Ensemble
+| **Format de fichier**        | **Séparateur de colonnes/lignes**                   | **Style XML**             |
+|------------------------|--------------------------------------------|---------------------------|
+| Excel                  | Excel                                      | \-S/O-                     |
+| XML                    | \-S/O-                                      | Élément XML Attribut XML |
+| Délimité, largeur fixe | Virgule, point-virgule, onglet, barre verticale, deux points | \-S/O-                     |
+
+
 
 ### <a name="sequence-the-entities"></a>Séquencer les entités
 Les entités peuvent être séquencées dans un modèle de données, ou dans des tâches d'importation et d'exportation. Lorsque vous exécutez une tâche qui contient plusieurs entités de données, vous devez vous assurer que les entités de données sont correctement séquencées. Séquencez principalement les entités afin de pouvoir traiter les dépendances fonctionnelles entre les entités. Si les entités n'ont aucune dépendance fonctionnelle, elles peuvent être planifiées pour l'importation ou l'exportation parallèle.

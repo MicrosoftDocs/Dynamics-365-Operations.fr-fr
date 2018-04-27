@@ -17,15 +17,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 7265e119a8b59399db1fa35373a7b6aba52ba8e0
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 325cf12345afcf531181f65a41d0e5262798c14f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="onboard-vendors"></a>Intégrer des fournisseurs
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
+
 ---
 
 De nouveaux fournisseurs peuvent être intégrés et enregistrés comme fournisseurs dans Microsoft Dynamics 365 for Finance and Operations en fonction des informations collectées auprès d'un représentant du fournisseur.
@@ -164,13 +165,15 @@ Les différents statuts de la demande d'enregistrement d'un fournisseur potentie
 
 À l'aide de l'action **Supprimer** de la demande d'enregistrement du fournisseur potentiel, vous pouvez nettoyer et supprimer la chaîne d'enregistrements qui ont été créés, et vous pouvez désactiver le compte d'utilisateur. Le résultat de l'action **Supprimer** varie, selon le statut de la demande d'enregistrement du fournisseur potentiel, comme indiqué dans le tableau suivant.
 
-| État                   | Description du statut | Résultat de l'action Supprimer |
-|--------------------------|--------------------|-----------------------------------|
-| Nouveau                      | Aucune action n'a été effectuée sur la demande. | La demande d'enregistrement du fournisseur potentiel est supprimée. |
-| Utilisateur demandé           | Lorsque vous sélectionnez **Inviter l'utilisateur**, le statut devient **Utilisateur demandé**, et une demande de l'utilisateur potentiel est créée et envoyée au workflow de demande de l'utilisateur. | Vous ne pouvez pas supprimer la demande d'enregistrement d'un fournisseur potentiel ayant ce statut, car le workflow de demande de l'utilisateur n'est pas terminé. |
-| Utilisateur invité             | Le workflow de demande de l'utilisateur est approuvé, et l'utilisateur est créé. | Une demande de désactivation de l'utilisateur est créée, et la demande d'enregistrement du fournisseur potentiel est supprimée. |
-| Enregistrement en cours | Le nouvel utilisateur s'est connecté et a démarré l'assistant d'enregistrement du fournisseur. | Une demande de désactivation de l'utilisateur est créée, et la demande d'enregistrement du fournisseur potentiel et les données saisies dans l'assistant d'enregistrement du fournisseur sont supprimées. |
-| Demande fournisseur créée   | L'assistant d'enregistrement du fournisseur a été exécuté. | Une demande de désactivation de l'utilisateur est créée, et la demande d'enregistrement du fournisseur potentiel, les données saisies dans l'assistant d'enregistrement du fournisseur et la demande fournisseur sont supprimées.<blockquote>[!NOTE]<br>Vous ne pouvez pas utiliser l'action **Supprimer** lorsque la demande fournisseur est en cours de révision dans le workflow.</blockquote> |
-| Approbation                 | La demande fournisseur est approuvée. | La demande d'enregistrement du fournisseur potentiel, les données saisies dans l'assistant d'enregistrement du fournisseur et la demande fournisseur sont supprimées. |
-| Rejeté                 | La demande fournisseur est rejetée. | La demande d'enregistrement du fournisseur potentiel, les données saisies dans l'assistant d'enregistrement du fournisseur et la demande fournisseur sont supprimées. |
+
+|          État          |                                                                                     Description du statut                                                                                      |                                                                                                                                                            Résultat de l'action Supprimer                                                                                                                                                             |
+|--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|           Nouveau            |                                                                         Aucune action n'a été effectuée sur la demande.                                                                          |                                                                                                                                              La demande d'enregistrement du fournisseur potentiel est supprimée.                                                                                                                                               |
+|      Utilisateur demandé      | Lorsque vous sélectionnez <strong>Inviter l'utilisateur</strong>, le statut devient <strong>Utilisateur demandé</strong>, et une demande de l'utilisateur potentiel est créée et envoyée au workflow de demande de l'utilisateur. |                                                                                                          Vous ne pouvez pas supprimer la demande d'enregistrement d'un fournisseur potentiel ayant ce statut, car le workflow de demande de l'utilisateur n'est pas terminé.                                                                                                          |
+|       Utilisateur invité       |                                                               Le workflow de demande de l'utilisateur est approuvé, et l'utilisateur est créé.                                                               |                                                                                                                      Une demande de désactivation de l'utilisateur est créée, et la demande d'enregistrement du fournisseur potentiel est supprimée.                                                                                                                      |
+| Enregistrement en cours |                                                         Le nouvel utilisateur s'est connecté et a démarré l'assistant d'enregistrement du fournisseur.                                                          |                                                                                     Une demande de désactivation de l'utilisateur est créée, et la demande d'enregistrement du fournisseur potentiel et les données saisies dans l'assistant d'enregistrement du fournisseur sont supprimées.                                                                                      |
+|  Demande fournisseur créée  |                                                                     L'assistant d'enregistrement du fournisseur a été exécuté.                                                                      | Une demande de désactivation de l'utilisateur est créée, et la demande d'enregistrement du fournisseur potentiel, les données saisies dans l'assistant d'enregistrement du fournisseur et la demande fournisseur sont supprimées.<blockquote>[!NOTE]<br>Vous ne pouvez pas utiliser l'action <strong>Supprimer</strong> lorsque la demande fournisseur est en cours de révision dans le workflow.</blockquote> |
+|         Approbation         |                                                                               La demande fournisseur est approuvée.                                                                               |                                                                                                   La demande d'enregistrement du fournisseur potentiel, les données saisies dans l'assistant d'enregistrement du fournisseur et la demande fournisseur sont supprimées.                                                                                                    |
+|         Rejeté         |                                                                               La demande fournisseur est rejetée.                                                                               |                                                                                                   La demande d'enregistrement du fournisseur potentiel, les données saisies dans l'assistant d'enregistrement du fournisseur et la demande fournisseur sont supprimées.                                                                                                    |
+
 

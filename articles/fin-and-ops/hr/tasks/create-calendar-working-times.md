@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d65fe0363e418f9c2e78bd78e802a4b0ea98599c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a8dcef8d8ba6f6d41a997b5b0623cb9577ce00d3
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-calendar-and-generate-working-times"></a>Créer un calendrier et générer les horaires de travail
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Les calendriers décrivent la capacité et les heures de travail des ressources opérationnelles. Cette procédure vous aide à définir un calendrier de travail fondé sur un modèle de temps de travail. Vous pouvez parcourir cette procédure dans la société fictive USMF ou utiliser vos propres données.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="financial-dimensions-and-posting"></a>Dimension financières et validation 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Lorsque vous planifiez et paramétrez votre plan de comptes, vous devez vérifier la manière dont les différents composants fonctionneront ensemble lorsque vous validez un document ou un journal. Ces composants incluent les structures de compte, des règles avancées, et bilan et des dimensions fixes. Cette rubrique explique ce qu'est chaque composant et comment les composants fonctionnent ensemble.
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="resource-capabilities"></a>Capacités de ressources
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article fournit des informations sur les capacités de ressource. Une capacité est la capacité d'une ressource opérationnelle à exercer une activité spécifique. L'article décrit la manière dont les capacités et les concepts liés, tels que le niveau de qualification et la priorité, permettent de sélectionner les ressources appropriées pour une activité.
 

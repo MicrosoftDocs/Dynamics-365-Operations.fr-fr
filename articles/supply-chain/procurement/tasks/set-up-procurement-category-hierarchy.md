@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>Paramétrage d'une hiérarchie des catégories d'approvisionnement
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure vous indique comment créer de nouveaux nœuds dans une hiérarchie des catégories d'approvisionnement et comment configurer une catégorie d'approvisionnement à utiliser dans processus d'approvisionnement. Ces tâches sont généralement effectuées par un responsable des achats. Avant de démarrer cette procédure, il doit y avoir une hiérarchie de catégories de type Approvisionnement. Si vous utilisez une société de données de démonstration, vous pouvez exécuter cette procédure à l'aide de la société USMF.
 

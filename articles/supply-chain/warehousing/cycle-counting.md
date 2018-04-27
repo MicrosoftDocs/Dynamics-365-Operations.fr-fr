@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="cycle-counting"></a>Inventaire tournant
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article décrit la manière dont vous pouvez utiliser l'inventaire tournant associé à la solution de stockage disponible dans le module Gestion des entrepôts. Cet article ne s'applique pas à la solution de stockage disponible dans la Gestion des stocks.
 

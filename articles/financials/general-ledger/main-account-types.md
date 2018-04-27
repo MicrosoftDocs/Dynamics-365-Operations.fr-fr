@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="main-account-types"></a>Types de compte principal
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Les types de comptes principaux déterminent le mode d'utilisation du compte principal dans le plan de comptes.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="delegate-work-items-in-a-workflow"></a>Délégation d'éléments de travail dans un workflow
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Si vous pensez vous absenter du bureau ou être dans l'incapacité d'agir sur des éléments de travail, vous pouvez déléguer ou réaffecter vos éléments de travail à d'autres utilisateurs. Cette procédure vous permet de configurer le système pour déléguer automatiquement vos éléments de travail à un autre utilisateur.
 

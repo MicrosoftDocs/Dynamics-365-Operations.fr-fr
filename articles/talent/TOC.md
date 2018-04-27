@@ -3,7 +3,7 @@
 # [Mise en route](talent-get-started.md)
 ## [Configuration système et politique de mise à jour](talent-versions-update-policy.md)
 ## [Mettre en service Microsoft Dynamics 365 for Talent](provisioning-talent.md)
-## [Supprimer un environnement Talent](remove-test-environment.md)
+## [Supprimer un environnement Talent](remove-talent-environment.md)
 ## [Mettre en service les applications modulaires Microsoft Dynamics 365 for Talent](modular-app-tech-faq.md)
 ## [Prolonger la fonctionnalité de Talent](extend-talent-functionality.md)
 
@@ -11,9 +11,10 @@
 ## [Configurer les composants de tâche](create-job.md)
 ## [Créer un département et l'associer à la hiérarchie des départements](create-department-add-department-hierarchy.md)
 ## [Configuration des paramètres RH dans les entités juridiques](set-up-hr-parameters-across-legal-entities.md)
-## [Définition des paramètres spécifiques à la société](set-up-company-specific-hr-parameters.md)
-## [FAQ Actions du personnel](personnel-actions-faq.md)
-## [Utiliser un workflow pour gérer les informations d'employé](workflow-manage-employee-information.md)
+## [Configurer les paramètres RH spécifiques à la société](set-up-company-specific-hr-parameters.md)
+## [FAQ sur les actions du personnel](personnel-actions-faq.md)
+## [Formaliser les processus d'entreprise](formalize-business-processes.md)
+## [Utiliser un workflow pour gérer les informations relatives aux employés](workflow-manage-employee-information.md)
 ## [Vue d'ensemble des congés et des absences](leave-absence-overview.md)
 
 # Dotation en personnel de votre organisation

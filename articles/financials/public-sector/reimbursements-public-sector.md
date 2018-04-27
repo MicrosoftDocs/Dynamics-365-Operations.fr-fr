@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="reimbursements-in-the-public-sector"></a>Remboursements dans le secteur public
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique répond aux questions courantes associées aux remboursements dans le secteur public. 
 

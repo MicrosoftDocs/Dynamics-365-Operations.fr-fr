@@ -29,8 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="plan-for-public-sector-functionality"></a>Planification de la fonctionnalité Secteur public
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article suggère les premières étapes pour paramétrer la fonctionnalité Secteur public dans Microsoft Dynamics 365 for Finance and Operations.
 
@@ -69,7 +68,7 @@ Synthèse de solde Engagement Clôture d'engagement Tenir à jour les mandats de
 
 Type de certification Codes commande fournisseur de confirmation Montants des lignes des commandes fournisseur
 
- 
+
 
 <a name="see-also"></a>Voir également :
 --------

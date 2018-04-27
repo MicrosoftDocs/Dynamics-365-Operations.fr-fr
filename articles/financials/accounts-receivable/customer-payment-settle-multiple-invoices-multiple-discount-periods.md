@@ -28,8 +28,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="use-a-customer-payment-to-settle-multiple-invoices-that-span-multiple-discount-periods"></a>Utiliser un paiement client pour régler plusieurs factures qui couvrent plusieurs périodes de remise
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique montre comment plusieurs factures sont payées lorsque chaque facture est qualifiée pour un escompte de règlement. Les scénarios dans cet article illustrent la variation des escomptes de règlement qui sont pris, en fonction de la manière dont le paiement est effectué.
 

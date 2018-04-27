@@ -16,15 +16,15 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e40fca0d03d76b6aed118f3fbb59a6893f8da94b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5a7767433750a0f76fa234ebdba91991d3b8e947
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="manage-benefit-expiration-dates"></a>Gérer les dates d'expiration des avantages
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure indique comment faire expirer ou prolonger un avantage et gérer les dates d'inscription des collaborateurs inscrits dans cet avantage. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 

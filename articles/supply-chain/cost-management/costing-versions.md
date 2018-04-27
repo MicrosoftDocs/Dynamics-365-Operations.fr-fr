@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="costing-versions"></a>Versions d'évaluation des coûts
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article fournit des informations sur les versions d'évaluation des coûts, comment les tenir à jour, et les types de données que vous pouvez y inclure. L'objectif principal d'une version d'évaluation de coûts est de contenir des enregistrements de coûts relatifs aux articles, des catégories de coûts et des formules de calcul pour les coûts indirects.
 

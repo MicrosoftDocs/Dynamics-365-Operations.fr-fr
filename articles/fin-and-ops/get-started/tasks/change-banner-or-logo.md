@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="change-the-banner-or-logo"></a>Modifier la bannière ou le logo
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 La procédure suivante répertorie les étapes que les administrateurs système peuvent utiliser pour mettre à jour l'image de bannière ou de logo affichée pour une entité juridique. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 

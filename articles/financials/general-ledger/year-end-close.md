@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="year-end-close"></a>Clôture de fin d'exercice
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique décrit le paramétrage et les étapes nécessaires pour exécuter le processus de clôture de fin d'exercice dans la comptabilité. 
 

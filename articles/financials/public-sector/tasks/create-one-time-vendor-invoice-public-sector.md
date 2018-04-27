@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-one-time-vendor-and-invoice-in-the-public-sector"></a>Créer un fournisseur occasionnel et une facture dans le secteur public
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 L'enregistrement fournisseur utilise les valeurs du compte fournisseur occasionnel par défaut. Pour afficher les détails du compte, accédez à la page Tous les fournisseurs, puis double-cliquez sur le numéro de compte du fournisseur occasionnel par défaut. Vous pouvez créer et affecter aux fournisseurs n'importe quels types de certification qu'ils sont susceptibles de détenir. Ce guide de tâche a été créée en utilisant les données de la société fictive PSUS dans la partition du secteur public.
 

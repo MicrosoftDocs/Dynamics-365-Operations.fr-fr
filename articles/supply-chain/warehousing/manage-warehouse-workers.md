@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="manage-warehouse-workers"></a>Gestion des magasiniers
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article décrit la manière dont vous pouvez utiliser Microsoft Dynamics 365 for Finance and Operations pour mieux contrôler et surveiller le travail qui est mené à bien par les employés dans vos entrepôts.
 

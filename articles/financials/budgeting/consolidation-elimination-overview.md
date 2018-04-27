@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="consolidation-and-elimination-overview"></a>Vue d'ensemble de la consolidation et de l'élimination
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article fournit des informations générales sur le processus de consolidation et d'élimination. Il inclut des réponses à un certain nombre de questions posées fréquemment.
 

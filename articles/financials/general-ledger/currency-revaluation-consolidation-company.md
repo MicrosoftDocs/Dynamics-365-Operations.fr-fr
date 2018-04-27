@@ -28,10 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="currency-revaluation-in-a-consolidation-company"></a>Réévaluer une devise dans une société de consolidation
 
-[!include[banner](../includes/banner.md)]
-
-
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Lorsque vous consolidez des données d'une devise comptable vers une autre, vous devez toujours exécuter la réévaluation de devise en cas de changement dans les taux de change, de sorte que les soldes de compte soient correctement réévalués. Lorsque vous consolidez initialement des données, utilisez l'onglet **Conversion de devises** pour sélectionner les taux de change initiaux pour la traduction lors du processus de consolidation. Une fois qu'un nouveau taux de change est entré (par exemple, le mois prochain), vous devez réévaluer les soldes de compte. Les profits non réalisés ou les pertes sont alors mis à jour, selon le nouveau taux de change et la date. L'exemple suivant illustre les écritures comptables créées lors du processus.
 
@@ -52,6 +49,7 @@ Lorsque vous consolidez des données d'une devise comptable vers une autre, vous
 | 10/11/2015 | 130100 – Comptabilité client | USD      | -500   |
 
 ## <a name="exchange-rates"></a>Taux de change
+
 | Devise de départ | Devise d'arrivée | Date de début | Taux de change |
 |---------------|-------------|------------|---------------|
 | EUR           | USD         | 10/1/2015  | 200           |

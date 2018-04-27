@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="order-entry-deadlines"></a>Dates limites de saisie de commande
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article fournit des informations sur les dates limites de saisie de commande. Un date limite de saisie de commande est une heure limite qui détermine si une commande client est traitée (et exécutée) comme si elle avait été reçue le jour même ou le lendemain.
 

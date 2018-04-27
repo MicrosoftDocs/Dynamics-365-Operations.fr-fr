@@ -29,8 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="accounts-payable-in-the-public-sector"></a>Comptabilité fournisseur dans le secteur public
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article présente la fonctionnalité de Comptabilité fournisseur dans le secteur public qui est intégrée à Microsoft Dynamics 365 for Finance and Operations. Cette fonctionnalité inclut des codes commande fournisseur, des définitions de validation, la facturation à un fournisseur occasionnel, les formulaires fiscaux 1099, les escomptes de règlement, les types de certification de fournisseur, la synthèse des activités comptables du projet, les paiements électroniques, les page de garde et de signature des états, les montants des lignes de commande fournisseur, et les pages du journal des factures fournisseur. 
 
@@ -45,17 +44,17 @@ Avant de commencer à ajuster les paramètres et à entrer vos données, vous de
 
 Après avoir paramétré les conditions préalables, vous devez paramétrer les fonctionnalités suivantes de la comptabilité fournisseur :
 
--   [Codes de commandes fournisseur dans le secteur public](purchase-order-codes-public-sector.md) – Vous pouvez créer des codes et des messages spéciaux pour la confirmation des commandes fournisseur. Une commande fournisseur de confirmation contourne le processus d'achat habituel. Par exemple, vous autorisez une commande non planifiée par l'intermédiaire d'un numéro de commande fournisseur au moment d'un achat, plutôt que via un document qui est fourni avant que l'article soit requis. 
-> [!NOTE]
-> Cela s'applique également à l'approvisionnement.
+- [Codes de commandes fournisseur dans le secteur public](purchase-order-codes-public-sector.md) – Vous pouvez créer des codes et des messages spéciaux pour la confirmation des commandes fournisseur. Une commande fournisseur de confirmation contourne le processus d'achat habituel. Par exemple, vous autorisez une commande non planifiée par l'intermédiaire d'un numéro de commande fournisseur au moment d'un achat, plutôt que via un document qui est fourni avant que l'article soit requis. 
+  > [!NOTE]
+  > Cela s'applique également à l'approvisionnement.
 
--   [Définitions de validation dans le secteur public](posting-definitions-public-sector.md) – Les définitions permettent de créer les lignes du journal de comptabilité auxiliaire pour les transactions d'origine correspondant aux critères sélectionnés. Par exemple, les définitions de validation vous permettent de générer plusieurs écritures comptables équilibrées en fonction d'attributs tels que les types de transactions et les comptes. 
-> [!NOTE]
-> Cela s'applique également à la comptabilité, à la budgétisation et à la comptabilité client.
+- [Définitions de validation dans le secteur public](posting-definitions-public-sector.md) – Les définitions permettent de créer les lignes du journal de comptabilité auxiliaire pour les transactions d'origine correspondant aux critères sélectionnés. Par exemple, les définitions de validation vous permettent de générer plusieurs écritures comptables équilibrées en fonction d'attributs tels que les types de transactions et les comptes. 
+  > [!NOTE]
+  > Cela s'applique également à la comptabilité, à la budgétisation et à la comptabilité client.
 
 
--   [Fournisseurs occasionnels dans le secteur public](one-time-vendors-public-sector.md) – Lorsqu'une approbation ou un contrat sous forme d'une commande fournisseur n'est pas nécessaire, vous pouvez rapidement créer une ou plusieurs factures tout en créant un enregistrement pour le fournisseur. Pour plus d'informations, voir [Planification pour les fournisseurs occasionnels dans le secteur public](plan-one-time-vendors-public-sector.md).
--   Vue d'ensemble du formulaire de déclaration des honoraires dans le secteur public – Si vous entretenez des relations commerciales avec des fournisseurs américains assujettis à la taxe sur les honoraires, vous devez effectuer le suivi du montant réglé à chaque fournisseur et le déclarer à la fin de l'année civile. Les organisations du secteur public utilisent les formulaires 1099-G et 1099-S.
+- [Fournisseurs occasionnels dans le secteur public](one-time-vendors-public-sector.md) – Lorsqu'une approbation ou un contrat sous forme d'une commande fournisseur n'est pas nécessaire, vous pouvez rapidement créer une ou plusieurs factures tout en créant un enregistrement pour le fournisseur. Pour plus d'informations, voir [Planification pour les fournisseurs occasionnels dans le secteur public](plan-one-time-vendors-public-sector.md).
+- Vue d'ensemble du formulaire de déclaration des honoraires dans le secteur public – Si vous entretenez des relations commerciales avec des fournisseurs américains assujettis à la taxe sur les honoraires, vous devez effectuer le suivi du montant réglé à chaque fournisseur et le déclarer à la fin de l'année civile. Les organisations du secteur public utilisent les formulaires 1099-G et 1099-S.
 
 > [!NOTE]
 > Cela s'applique également à l'approvisionnement.

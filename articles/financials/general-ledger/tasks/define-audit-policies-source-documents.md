@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="define-audit-policies-for-source-documents"></a>Définir des stratégies d'audit pour les documents sources
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure décrit comment paramétrer et exécuter des règles de stratégie d'audit. L'exemple utilise des états de dépenses avec le type de dépense Hôtel. La société fictive USMF sert d'exemple dans cette procédure. Le rôle d'auditeur contient les autorisations adéquates afin d'exécuter ces tâches.
 

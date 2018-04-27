@@ -27,8 +27,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="configure-an-approval-step-in-a-workflow"></a>Configurer une étape d'approbation dans un workflow
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique explique comment configurer les propriétés d'une étape d'approbation.
 
@@ -145,9 +144,9 @@ Procédez comme suit pour indiquer à qui affecter la tâche d'approbation.
     Si l'utilisateur ne traite pas le document dans le délai imparti, le document est en retard. Un document en retard est réaffecté, conformément aux options que vous sélectionnez dans la zone **Escalade** de cette page.
 4.  Si vous avez affecté l'étape d'approbation à plusieurs utilisateurs ou à un groupe d'utilisateurs, cliquez sur l'onglet **Stratégie d'achèvement**, puis sélectionnez l'une des options suivantes :
     -   **Un seul approbateur** – L'action appliquée au document est déterminée par la première personne qui répond. Par exemple, Sam a soumis un état de dépenses de USD 15 000. L'état de dépenses est actuellement affecté à Sue, Jo et Bill. Si Sue est la première à répondre au document, l'action qu'elle effectue est appliquée au document. Si Sue rejette le document, il est rejeté et renvoyé à Sam. Si Sue approuve le document, il est envoyé à Ann pour approbation. 
-    
+
     ![Workflow avec un processus d'approbation](./media/workflow_multipleusersinstep.gif)
-    
+
     -   **La majorité des approbateurs** – L'action appliquée au document est déterminée lorsque la majorité des approbateurs ont répondu. Par exemple, Sam a soumis un état de dépenses de USD 15 000. L'état de dépenses est actuellement affecté à Sue, Jo et Bill. Si Sue et Jo sont les deux premiers approbateurs à répondre, l'action qu'ils effectuent est appliquée au document.
         -   Si Sue approuve le document, mais que Jo le rejette, le document est rejeté et renvoyé à Sam.
         -   Si Sue et Jo approuvent le document, il est envoyé à Ann pour approbation.

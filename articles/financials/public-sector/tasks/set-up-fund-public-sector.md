@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="set-up-a-fund-in-the-public-sector"></a>Paramétrer un fonds dans le secteur public
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Vous devez créer des types de fonds avant de pouvoir paramétrer des fonds. Chaque fonds doit posséder un nom et un numéro unique ; un type et une classe de fonds doivent lui être affectés. Cette procédure a été créée à l'aide des données de la société fictive PSUS dans la partition du secteur public.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="copy-co-products-from-an-existing-formula-version"></a>Copier les coproduits à partir d'une version de formule existante
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure vous indique comment copier des coproduits à partir d'une version de formule existante vers une autre version de formule pour un produit lancé. Condition préalable : au moins une version de formule doit être associée à des coproduits. Pour créer cette procédure, la société fictive de démonstration USP2 est utilisée.
 

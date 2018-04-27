@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6d8044b177d963842f02d787b7e40c96287f4b11
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d0307db3a49bcdb62146b815383f744c5b8e0fde
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="user-preferences-in-financial-report-designer"></a>Préférences de l’utilisateur dans le générateur d'états financiers
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article explique comment définir les préférences de l’utilisateur pour personnaliser vos interactions utilisateur dans le générateur d'états financiers et de contrôler l’expérience de connexion initiale. Vous pouvez également contrôler comment les états individuels, la bibliothèque d'états et les emplacements de fichiers par défaut sont affichés. 
 

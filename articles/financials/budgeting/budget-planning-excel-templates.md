@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budget-planning-templates-for-excel"></a>Modèles de planification budgétaire pour Excel
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique décrit la procédure de création de modèles Microsoft Excel qui peuvent être utilisés avec les plans budgétaires.
 
@@ -42,11 +41,11 @@ Les documents du plan budgétaire peuvent être affichés et modifiés à l'aide
 1. Ouvrez la liste **Plans budgétaires** (**Budgétisation** &gt; **Plans budgétaires**). 
 2. Cliquez sur **Nouveau** pour créer un document de plan budgétaire. 
 
-  [![Liste des plans budgétaires](./media/bpt11-1024x552.png)](./media/bpt11.png) 
+   [![Liste des plans budgétaires](./media/bpt11-1024x552.png)](./media/bpt11.png) 
 
 3. Utilisez l'option de ligne **Ajouter** pour ajouter des lignes. Cliquez sur **Mises en page** pour afficher la configuration de la mise en page du document de plan budgétaire. 
 
-  [![Ajout de plans budgétaires](./media/bpt2-1024x274.png)](./media/bpt2.png) 
+   [![Ajout de plans budgétaires](./media/bpt2-1024x274.png)](./media/bpt2.png) 
 
 Vous pouvez examiner la configuration de la mise en page et l'ajuster si nécessaire. 
 1. Accédez à **Modèle** &gt; **Générer** pour créer un fichier Excel pour cette mise en page. 

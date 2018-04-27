@@ -28,8 +28,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="plan-how-to-configure-the-global-address-book-and-additional-address-books"></a>Planification pour la configuration du carnet d'adresses global et de carnets d'adresses supplémentaires
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique décrit les considérations et les décisions que vous devez prendre au cours du processus de planification avant de paramétrer et configurer le carnet d'adresses global et des carnets d'adresses supplémentaires dans Microsoft Dynamics 365 for Finance and Operations. Certaines de ces décisions nécessitent que vous confirmiez les décisions qui ont été prises pour d'autres zones du produit, telles que la hiérarchie d'organisation.
 

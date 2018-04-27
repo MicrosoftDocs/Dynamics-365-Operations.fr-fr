@@ -1,5 +1,5 @@
 --- 
-title: "Utiliser les calculs pour générer la sortie pour effectuer le comptage et la synthèse pour la gestion des états électroniques (ER)"
+title: "Utiliser les calculs pour générer la sortie permettant d'effectuer le comptage et la synthèse"
 description: "Les étapes suivantes expliquent comment un utilisateur affecté au rôle d'administrateur système ou de développeur d'états électroniques peut configurer un format de génération d'états électroniques (ER) pour effectuer le comptage et la synthèse en fonction des données de la sortie de texte déjà générée."
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 143856f65eaf1d6d667f4f7dfb229807da6f4ad8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5b7f0cc5b94ab7be11a013ef3e5909d84847e885
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="use-computations-to-make-the-output-for-counting-and-summing-for-electronic-reporting-er"></a>Utiliser les calculs pour générer la sortie pour effectuer le comptage et la synthèse pour la gestion des états électroniques (ER)
+# <a name="use-computations-to-make-the-output-for-counting-and-summing"></a>Utiliser les calculs pour générer la sortie permettant d'effectuer le comptage et la synthèse 
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Les étapes suivantes expliquent comment un utilisateur affecté au rôle d'administrateur système ou de développeur d'états électroniques peut configurer un format de génération d'états électroniques (ER) pour effectuer le comptage et la synthèse en fonction des données de la sortie de texte déjà générée. Ces étapes peuvent être effectuées dans n'importe quelle société.
 

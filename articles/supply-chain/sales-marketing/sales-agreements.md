@@ -28,8 +28,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="sales-agreements"></a>Contrats de vente
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique fournit des informations sur les contrats de vente. Un contrat de vente est un contrat qui engage le client à acheter une certaine quantité ou un certain montant de produit sur une période définie en échange de prix spéciaux et de remises.
 

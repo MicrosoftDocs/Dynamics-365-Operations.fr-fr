@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="ledger-allocation-rules"></a>Règles d'affectation comptable
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article fournit des informations générales sur les règles de répartition comptable. Il décrit les différents composants de ces règles de répartition et les méthodes de répartition utilisables pour elles.
 

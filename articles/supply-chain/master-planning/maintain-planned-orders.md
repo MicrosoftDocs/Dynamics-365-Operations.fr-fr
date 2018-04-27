@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="maintain-planned-orders"></a>Tenir à jour les ordres prévisionnels
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article fournit des informations sur la gestion des ordres prévisionnels. Il décrit la manière dont vous pouvez mettre à jour le statut des ordres prévisionnels, les confirmer et filtrer les ordres prévisionnels ayant le même statut qu'un ordre prévisionnel sélectionné.
 

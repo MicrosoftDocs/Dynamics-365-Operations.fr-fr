@@ -29,8 +29,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="bom-calculations"></a>Calculs de nomenclature
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Les calculs de repositionnement des coûts et des prix de vente sont qualifiés de calculs de la nomenclature et vous pouvez les exécuter à partir de la page Calculs. Cette rubrique fournit des informations sur les calculs BOM.
 

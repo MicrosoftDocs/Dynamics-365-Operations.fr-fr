@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="master-planning-and-multisite-functionality"></a>Planification et fonctionnalité multisite
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 La planification prend en compte les paramètres des dimensions de stock du site et de l'entrepôt. 
 

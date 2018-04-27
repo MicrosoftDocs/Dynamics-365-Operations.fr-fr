@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="assign-users-to-security-roles"></a>Affecter des utilisateurs à des rôles de sécurité
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Pour accéder à Microsoft Dynamics 365 for Finance and Operations, des rôles de sécurité doivent être affectés aux utilisateurs. Cette procédure explique comment les administrateurs système peuvent affecter des utilisateurs aux rôles automatiquement, selon les données commerciales. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 

@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="view-an-expense-report"></a>Afficher un état de dépenses
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Lorsque vous exécutez une requête pour afficher des transactions dans la comptabilité ou les approvisionnements, la requête peut retourner trop d'informations. Par conséquent, vous voudrez peut-être affiner votre recherche. Pour obtenir les informations requises, vous pouvez naviguer dans la hiérarchie pour atteindre la transaction afin de consulter l'état de dépenses sur lequel elle apparaît.
 

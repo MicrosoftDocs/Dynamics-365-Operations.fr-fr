@@ -25,7 +25,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="warehouse-management"></a>Gestion des entrepôts
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Le module Gestion des entrepôts pour Dynamics 365 for Finance and Operations vous permet de gérer les processus d'entrepôt dans les entreprises de fabrication, de distribution et de vente au détail. Ce module offre un large éventail de fonctions pour prendre en charge les entrepôts à un niveau optimal, à tout moment. Le module Gestion des entrepôts intègre entièrement d'autres processus métier dans Finance and Operations, tels que le transport, la fabrication, le contrôle de la qualité, les achats, le transfert, les ventes et les retours.
 

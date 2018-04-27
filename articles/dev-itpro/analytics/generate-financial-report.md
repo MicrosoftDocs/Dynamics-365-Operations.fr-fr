@@ -28,8 +28,7 @@ ms.lasthandoff: 12/01/2017
 
 # <a name="generate-a-financial-report"></a>Générer un état financier
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique fournit des informations sur la génération d'un état financier. 
 
@@ -50,13 +49,13 @@ Lorsque vous générez un état, les options que vous avez spécifiées sous les
 ## <a name="generate-a-financial-report"></a>Générer un état financier
 
 Pour générer un état financier avec Microsoft Dynamics 365 for Finance and Operations, accédez à **Comptabilité** > **Recherches et états** > **États financiers**. 
- - Sélectionnez un état à générer, puis cliquez sur **Générer**. 
- - Renseignez le champ **Date de l'état** et cliquez sur **OK**.
- 
- Une fois que l'état a été généré, il est disponible dans la section **États**.
- Vous pouvez choisir d'**Afficher** ou de **Supprimer** l'état.
- 
- 
+- Sélectionnez un état à générer, puis cliquez sur **Générer**. 
+- Renseignez le champ **Date de l'état** et cliquez sur **OK**.
+
+  Une fois que l'état a été généré, il est disponible dans la section **États**.
+  Vous pouvez choisir d'**Afficher** ou de **Supprimer** l'état.
+
+
 Pour générer un état à l'aide du **Concepteurs d'états**, ouvrez la définition de l'état, puis cliquez sur le bouton Générer dans la barre d'outils. La fenêtre État de la file d'attente de rapports s'ouvre et affiche l'emplacement de votre état dans la file d'attente. Par défaut, le rapport généré s'affiche dans la visionneuse Web.
 
 > [!NOTE]
@@ -159,7 +158,7 @@ Lorsque vous exécutez une analyse de compte manquante, les raccourcis clavier s
 | Ouvrir la définition d'état sélectionnée  | Ctrl+R                     |
 | Ouvrir la définition de ligne sélectionnée     | Ctrl+O                     |
 
- 
+
 <a name="see-also"></a>Voir également :
 --------
 

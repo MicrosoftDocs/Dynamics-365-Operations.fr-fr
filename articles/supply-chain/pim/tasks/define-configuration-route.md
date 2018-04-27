@@ -24,7 +24,7 @@ ms.lasthandoff: 11/08/2017
 ---
 # <a name="define-configuration-routes"></a>Définir des gammes de configuration
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure se focalise sur la définition d'une gamme de configuration qui détermine l'ordre dans lequel les groupes de configurations sont présentés. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Il s'agit de la sixième procédure (parmi les huit) qui explique comment créer des combinaisons pour la configuration basée sur les dimensions.
 

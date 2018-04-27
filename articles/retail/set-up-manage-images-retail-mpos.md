@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="set-up-and-manage-images-for-retail-modern-pos"></a>Paramétrer et gérer des images pour Retail Modern POS
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Cet article décrit les étapes impliquées dans le paramétrage et la gestion des images pour les différentes entités qui apparaissent dans Retail Modern POS (MPOS).
 
@@ -141,7 +140,7 @@ Les images de produits qui doivent être utilisées en mode hors connexion peuve
 6.  Alors que MPOS est en mode en ligne, exécutez la tâche de catalogue dans HQ, assurez-vous que les données sont envoyées au moins une fois à la base de données hors ligne.
 7.  Mettez MPOS en mode hors ligne. Vous devez voir l'image que vous avez téléchargée pour le produit spécifique dans HQ. [![offline1](./media/offline1.png)](./media/offline1.png)
 
- 
+
 
 ### <a name="set-up-catalog-category-employee-and-customer-images-to-appear-in-offline-mode-for-mpos"></a>Paramétrer des images de catalogue, de catégorie, d'employé et de client à afficher en mode hors connexion pour MPOS
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="start-a-production-order"></a>Démarrer un ordre de fabrication
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure indique comment démarrer un ordre de fabrication à l'atelier. La consommation de matières et de temps est déclarée dans ce processus. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Il s'agit de la cinquième des sept procédures expliquant le cycle de vie de l'ordre de fabrication.
 

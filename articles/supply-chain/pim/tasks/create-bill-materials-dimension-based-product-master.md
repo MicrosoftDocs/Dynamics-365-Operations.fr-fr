@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-bill-of-materials-for-a-dimension-based-product-master"></a>Créer une nomenclature pour un produit générique fondé sur les dimensions
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Pour cette procédure, vous devez avoir déjà suivi les 4 premiers guides de cette séquence de huit enregistrements. Les 4 premiers enregistrements paramètrent les données requises pour exécuter cette procédure. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Cette tâche est généralement gérée par le concepteur de produit.
 

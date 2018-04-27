@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="purchase-agreements"></a>Contrats d'achat
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article fournit des informations sur les contrats d'achat. Un contrat d'achat est un contrat par lequel une organisation s'engage à acheter une quantité ou un montant spécifique au moyen de plusieurs commandes fournisseur sur une certaine période. En échange de cet engagement, l'acheteur a droit à des prix spéciaux et des remises. 
 

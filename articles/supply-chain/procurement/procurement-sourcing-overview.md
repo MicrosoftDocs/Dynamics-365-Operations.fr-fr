@@ -28,8 +28,7 @@ ms.lasthandoff: 02/08/2018
 
 # <a name="procurement-and-sourcing-overview"></a>Présentation des approvisionnements
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article fournit une vue d'ensemble de la fonctionnalité disponible dans le module Approvisionnement.
 
@@ -39,7 +38,7 @@ Le module Approvisionnements couvre toutes les étapes : identification d'un bes
 Le besoin de produits ou de services peut venir de *demandes*, par exemple, lorsqu'un employé a besoin d'un produit. Des *catalogues de produits* peuvent être paramétrés pour guider la sélection sur des produits disponibles, ou des demandes peuvent être effectuées pour les produits qui ne sont pas encore à disposition dans un catalogue, ce qui permet au département des achats de prendre en considération la manière dont le produit peut être fourni.  
 
 Des *Plafonds de dépenses* peuvent être utilisés pour limiter le montant de la demande, puis le *workflow d'achat* ajoute l'option de demande d'approbation avant que la commande soit passée. Il est également possible de spécifier la répartition des fonds budgétaires, le cas échéant.  
-  
+
 Le département d'approvisionnement identifie les fournisseurs pour les biens et services nécessaires, et cela peut impliquer qu'une *demande de devis* soit envoyée à plusieurs fournisseurs potentiels. Il est possible de partager les spécifications du produit demandé que les fournisseurs potentiels peuvent afficher pour voir s'ils peuvent fournir un produit conforme. Les fournisseurs retournent leurs offres qui sont alors examinées par le département d'approvisionnement afin de sélectionner le fournisseur auprès duquel se fournir.  
 
 Les commandes fournisseur incluent une option pour envoyer au fournisseur une *demande de renseignements sur les achats* au lieu d'un processus plus complet de demande de devis. La demande de renseignements sur les achats peut être utilisée pour établir des conditions comme les prix, les remises, ainsi que la date de livraison de la commande. Si les fournisseurs sont paramétrés pour utiliser le portail **Fournisseur**, la fonctionnalité de demande de renseignements sur les achats est désactivée. À la place la commande est partagée dans le portail**Fournisseur** et lorsqu'une *demande de confirmation* est envoyée, le fournisseur peut directement confirmer la commande.  

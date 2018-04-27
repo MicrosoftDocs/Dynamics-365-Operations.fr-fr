@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="collaborate-with-internal-supply-chain-customers"></a>Collaborer avec les clients de la chaîne d'approvisionnement interne
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure indique comment afficher tous les ordres prévisionnels qui seront honorés par un fournisseur intersociétés. La société fictive de démonstration utilisée pour créer cette procédure est DEMF.
 

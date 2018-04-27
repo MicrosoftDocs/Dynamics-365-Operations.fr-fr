@@ -28,8 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="accounts-receivable-home-page"></a>Page d'accueil de la comptabilité client
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Le module Comptabilité client permet d'assurer le suivi des paiements entrants et des factures client. 
 

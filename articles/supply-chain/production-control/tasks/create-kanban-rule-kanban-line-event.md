@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-kanban-rule-using-a-kanban-line-event"></a>Créer une règle de kanban à l'aide d'un événement de ligne de kanban
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure crée une règle de kanban à l'aide du paramètre d'événement de ligne kanban pour déclencher l'extraction d'une activité de processus. La règle de kanban est déclenchée par une activité de processus kanban, avec une quantité égale ou supérieure à 25 pour chaque. Les données fictives utilisées pour créer cette tâche correspondent à la société USMF. Cette tâche est destinée à l'ingénieur processus ou au responsable de la chaîne de valeur, car ils préparent la production d'un produit nouveau ou modifié dans un environnement lean.
 

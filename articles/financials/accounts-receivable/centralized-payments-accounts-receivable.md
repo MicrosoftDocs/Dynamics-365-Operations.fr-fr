@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="centralized-payments-for-accounts-receivable"></a>Paiements centralisés pour la comptabilité client
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Les organisations qui comprennent plusieurs entités juridiques peuvent créer et gérer des paiements à l'aide d'une entité juridique unique qui assure la gestion de tous les paiements. Par conséquent, la même transaction ne doit pas être entrée dans plusieurs entités juridiques. Cet article fournit des exemples décrivant la manière dont la validation des paiements centralisés est gérée dans divers scénarios.
 

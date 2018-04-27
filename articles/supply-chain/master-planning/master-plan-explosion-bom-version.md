@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="explosion-of-a-bom-version"></a>Éclatement d'une version de nomenclature
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article décrit un scénario de planification qui implique l'éclatement d'une version de nomenclature.
 

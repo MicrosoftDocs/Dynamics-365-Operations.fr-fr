@@ -29,7 +29,7 @@ ms.lasthandoff: 02/06/2018
 
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Paramétrer un entrepôt à l'aide d'un modèle de configuration d'entrepôt
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique explique comment paramétrer un entrepôt à l'aide d'un modèle de configuration d'entrepôt. Il existe plusieurs modèles de configuration prédéfinis que vous pouvez utiliser. Pour plus d'informations sur l'utilisation de ces modèles, voir [Modèles de données de configuration](../../dev-itpro/data-entities/configuration-data-templates.md).
 

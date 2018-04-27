@@ -19,17 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 2be3dc22977d6c00a9542211bfb7aaf649b17e1a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6d11e772cfbcd8ab7a0d4a08ccd71049723f9e32
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-variable-compensation-plans"></a>Créer un régime de rémunération variable
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 La rémunération variable compose le salaire irrégulier des employés, comme les primes ou des primes en actions. Cet article décrit les composants qui doivent être définis avant d'utiliser une rémunération variable et inscrire des employés à un régime de rémunération variable.
 
@@ -78,12 +77,12 @@ Quand vous êtes prêt à inscrire des employés dans un régime de rémunérati
 
 **Remarque :** les règles d'admissibilité déterminent l'admissibilité aux régimes de rémunération fixe et variable. Les règles d'admissibilité utilisent les champs suivants dans les enregistrements de la tâche, du poste, et de l'employé pour déterminer si un employé peut prétendre à un régime de rémunération :
 
--   Dans la page **Tâche** :
-    -   le champ **Tâche**
-    -   Les champs **Fonction** et **Type de tâche** sous l'onglet **Classification des tâches**
-    -   Le champ **Niveau** sous l'onglet **Rémunération**
--   Dans la page **Postes** : les champs **Département** et **Région de rémunération**
--   Dans la page **Employés** : les informations sur les syndicats associées à l'employé sous **Informations personnelles** &gt; **Syndicats** dans l'onglet ****Collaborateur****
+- Dans la page **Tâche** :
+  -   le champ **Tâche**
+  -   Les champs **Fonction** et **Type de tâche** sous l'onglet **Classification des tâches**
+  -   Le champ **Niveau** sous l'onglet **Rémunération**
+- Dans la page **Postes** : les champs **Département** et **Région de rémunération**
+- Dans la page <strong>Employés</strong> : les informations sur les syndicats associées à l'employé sous <strong>Informations personnelles</strong> &gt; <strong>Syndicats</strong> dans l'onglet *<strong><em>Collaborateur</em></strong>*
 
 ### <a name="enable-enrollment-for-the-variable-compensation-plan"></a>Activer l'inscription au régime de rémunération variable
 

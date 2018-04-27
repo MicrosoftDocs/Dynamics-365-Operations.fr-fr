@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-consolidation-groups-and-additional-consolidation-accounts"></a>Créer des groupes de consolidation et comptes de consolidation supplémentaires
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure montre comment créer un groupe de comptes de consolidation puis ajouter des comptes au groupe. La société fictive USMF sert d'exemple dans cette procédure.
 

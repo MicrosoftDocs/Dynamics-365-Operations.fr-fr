@@ -29,10 +29,9 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="lifo-with-physical-value-and-marking"></a>LIFO avec valeur physique et marquage
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Dernier entré, premier sorti (Last In, First Out ou LIFO) est un modèle de stock dans lequel les dernières réceptions sont sorties en premier. Les sorties de stock sont réglées avec les dernières réceptions, en fonction de la date du mouvement de stock. 
 
@@ -62,16 +61,16 @@ Le nouveau prix de revient moyen en vigueur reflète la moyenne des transactions
 
 **Clés du diagramme**
 
--   Les mouvements de stock sont représentés par les flèches verticales.
--   Les réceptions en stock sont représentées par les flèches verticales au-dessus de la ligne temporelle.
--   Les sorties de stock sont représentées par les flèches verticales en dessous de la ligne temporelle.
--   Au-dessus (ou en dessous) de chaque flèche verticale, la valeur du mouvement de stock est spécifiée au format prix Quantity@Unit.
--   La valeur d'un mouvement de stock entre parenthèses indique que le mouvement de stock est physiquement validé dans le stock.
--   La valeur d'un mouvement de stock qui n'est pas entre parenthèses indique que le mouvement de stock est financièrement validé dans le stock.
--   Chaque nouvelle transaction de réception ou de sortie est désignée par un nouveau libellé.
--   Chaque flèche verticale est marquée par un identificateur séquentiel, comme *1a*. Les identificateurs indiquent l'ordre des validations des mouvements de stock sur la ligne temporelle.
--   Les clôtures de stock sont représentées par une ligne pointillée verticale rouge et le libellé *Clôture du stock*.
--   Les règlements effectués par clôture de stock sont représentés par des flèches rouges en diagonale d'une réception vers une sortie.
+- Les mouvements de stock sont représentés par les flèches verticales.
+- Les réceptions en stock sont représentées par les flèches verticales au-dessus de la ligne temporelle.
+- Les sorties de stock sont représentées par les flèches verticales en dessous de la ligne temporelle.
+- Au-dessus (ou en dessous) de chaque flèche verticale, la valeur du mouvement de stock est spécifiée au format prix Quantity@Unit.
+- La valeur d'un mouvement de stock entre parenthèses indique que le mouvement de stock est physiquement validé dans le stock.
+- La valeur d'un mouvement de stock qui n'est pas entre parenthèses indique que le mouvement de stock est financièrement validé dans le stock.
+- Chaque nouvelle transaction de réception ou de sortie est désignée par un nouveau libellé.
+- Chaque flèche verticale est marquée par un identificateur séquentiel, comme *1a*. Les identificateurs indiquent l'ordre des validations des mouvements de stock sur la ligne temporelle.
+- Les clôtures de stock sont représentées par une ligne pointillée verticale rouge et le libellé *Clôture du stock*.
+- Les règlements effectués par clôture de stock sont représentés par des flèches rouges en diagonale d'une réception vers une sortie.
 
 ## <a name="lifo-with-the-include-physical-value-option"></a>LIFO avec l'option Inclure la valeur physique
 Si la case à cocher **Inclure la valeur physique** est activée pour un article dans la page **Groupes de modèles d'article**, le système utilise à la fois les transactions de réception physique et financière pour calculer le prix de revient moyen en cours. Au besoin, le système ajuste la transaction de sortie mise à jour physiquement. Si la case à cocher **Inclure la valeur physique** est désactivée, la clôture de stock avec le modèle de stock LIFO ne règle que les transactions financièrement mises à jour. 
@@ -96,16 +95,16 @@ Les illustrations suivantes indiquent l'impact du modèle de stock LIFO sur cett
 
 **Clés du diagramme**
 
--   Les mouvements de stock sont représentés par les flèches verticales.
--   Les réceptions en stock sont représentées par les flèches verticales au-dessus de la ligne temporelle.
--   Les sorties de stock sont représentées par les flèches verticales en dessous de la ligne temporelle.
--   Au-dessus (ou en dessous) de chaque flèche verticale, la valeur du mouvement de stock est spécifiée au format prix Quantity@Unit.
--   La valeur d'un mouvement de stock entre parenthèses indique que le mouvement de stock est physiquement validé dans le stock.
--   La valeur d'un mouvement de stock qui n'est pas entre parenthèses indique que le mouvement de stock est financièrement validé dans le stock.
--   Chaque nouvelle transaction de réception ou de sortie est désignée par un nouveau libellé.
--   Chaque flèche verticale est marquée par un identificateur séquentiel, comme *1a*. Les identificateurs indiquent l'ordre des validations des mouvements de stock sur la ligne temporelle.
--   Les clôtures de stock sont représentées par une ligne pointillée verticale rouge et le libellé *Clôture du stock*.
--   Les règlements effectués par clôture de stock sont représentés par des flèches rouges en diagonale d'une réception vers une sortie.
+- Les mouvements de stock sont représentés par les flèches verticales.
+- Les réceptions en stock sont représentées par les flèches verticales au-dessus de la ligne temporelle.
+- Les sorties de stock sont représentées par les flèches verticales en dessous de la ligne temporelle.
+- Au-dessus (ou en dessous) de chaque flèche verticale, la valeur du mouvement de stock est spécifiée au format prix Quantity@Unit.
+- La valeur d'un mouvement de stock entre parenthèses indique que le mouvement de stock est physiquement validé dans le stock.
+- La valeur d'un mouvement de stock qui n'est pas entre parenthèses indique que le mouvement de stock est financièrement validé dans le stock.
+- Chaque nouvelle transaction de réception ou de sortie est désignée par un nouveau libellé.
+- Chaque flèche verticale est marquée par un identificateur séquentiel, comme *1a*. Les identificateurs indiquent l'ordre des validations des mouvements de stock sur la ligne temporelle.
+- Les clôtures de stock sont représentées par une ligne pointillée verticale rouge et le libellé *Clôture du stock*.
+- Les règlements effectués par clôture de stock sont représentés par des flèches rouges en diagonale d'une réception vers une sortie.
 
 ## <a name="lifo-with-marking"></a>LIFO avec marquage
 Le marquage est un processus qui vous permet de lier, ou de marquer, une transaction de sortie à une transaction de réception. Cette opération peut être effectuée avant ou après la validation d'une transaction. Vous pouvez utiliser le marquage si vous voulez être sûr du coût exact du stock lors de la validation de la transaction ou de l'exécution de la clôture de stock. Par exemple, le service à la clientèle a accepté une commande urgente d'un client important. Comme il s'agit d'une commande urgente, vous devez payer plus cher pour cet article afin de satisfaire la demande de votre client. 
@@ -138,16 +137,16 @@ Les illustrations suivantes montrent les effets du modèle de stock LIFO sur cet
 
 **Clés du diagramme**
 
--   Les mouvements de stock sont représentés par les flèches verticales.
--   Les réceptions en stock sont représentées par les flèches verticales au-dessus de la ligne temporelle.
--   Les sorties de stock sont représentées par les flèches verticales en dessous de la ligne temporelle.
--   Au-dessus (ou en dessous) de chaque flèche verticale, la valeur du mouvement de stock est spécifiée au format prix Quantity@Unit.
--   La valeur d'un mouvement de stock entre parenthèses indique que le mouvement de stock est physiquement validé dans le stock.
--   La valeur d'un mouvement de stock qui n'est pas entre parenthèses indique que le mouvement de stock est financièrement validé dans le stock.
--   Chaque nouvelle transaction de réception ou de sortie est désignée par un nouveau libellé.
--   Chaque flèche verticale est marquée par un identificateur séquentiel, comme *1a*. Les identificateurs indiquent l'ordre des validations des mouvements de stock sur la ligne temporelle.
--   Les clôtures de stock sont représentées par une ligne pointillée verticale rouge et le libellé *Clôture du stock*.
--   Les règlements effectués par clôture de stock sont représentés par des flèches rouges en diagonale d'une réception vers une sortie.
+- Les mouvements de stock sont représentés par les flèches verticales.
+- Les réceptions en stock sont représentées par les flèches verticales au-dessus de la ligne temporelle.
+- Les sorties de stock sont représentées par les flèches verticales en dessous de la ligne temporelle.
+- Au-dessus (ou en dessous) de chaque flèche verticale, la valeur du mouvement de stock est spécifiée au format prix Quantity@Unit.
+- La valeur d'un mouvement de stock entre parenthèses indique que le mouvement de stock est physiquement validé dans le stock.
+- La valeur d'un mouvement de stock qui n'est pas entre parenthèses indique que le mouvement de stock est financièrement validé dans le stock.
+- Chaque nouvelle transaction de réception ou de sortie est désignée par un nouveau libellé.
+- Chaque flèche verticale est marquée par un identificateur séquentiel, comme *1a*. Les identificateurs indiquent l'ordre des validations des mouvements de stock sur la ligne temporelle.
+- Les clôtures de stock sont représentées par une ligne pointillée verticale rouge et le libellé *Clôture du stock*.
+- Les règlements effectués par clôture de stock sont représentés par des flèches rouges en diagonale d'une réception vers une sortie.
 
 
 

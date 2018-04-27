@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="reserve-the-same-batch-for-a-sales-order"></a>Réserver le même lot pour une commande client
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article explique comment paramétrer un produit pour autoriser la réservation du stock par rapport à un lot de stock unique.
 

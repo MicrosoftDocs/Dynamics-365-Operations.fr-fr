@@ -28,10 +28,9 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="create-purchase-orders"></a>Création de commandes fournisseur
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Cet article décrit les processus et les options lorsque vous créez manuellement une commande fournisseur.
 

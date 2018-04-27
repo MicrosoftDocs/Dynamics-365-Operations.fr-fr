@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="define-discrete-manufacturing-resource-group"></a>Définir un groupe de ressources pour la fabrication discrète
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Un groupe de ressources est un ensemble de ressources opérationnelles correspondant généralement à l'organisation physique des cellules de travail, définie par des lignes jaunes dans l'atelier de production. Cette procédure vous indique comment définir un groupe de ressources pour une utilisation dans la production discrète. Vous pouvez parcourir cette procédure dans la société USMF fictive ou utiliser vos propres données.
 

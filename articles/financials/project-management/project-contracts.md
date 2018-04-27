@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-contracts"></a>Contrats de projet
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article fournit des exemples de contrats de projet à créer pour divers types de projets et de sources de financement (et en fournit des exemples), ainsi que la manière de gérer les contrats et facturer les clients des projets dans Microsoft Dynamics 365 for Finance and Operations.
 

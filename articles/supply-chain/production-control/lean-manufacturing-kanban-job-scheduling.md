@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="kanban-job-scheduling-for-lean-manufacturing"></a>Planification des tâches de kanban pour lean manufacturing
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article fournit des informations sur le contrôle visuel de la planification des tâches de kanban et différentes manières de planifier des tâches de kanban.  
 

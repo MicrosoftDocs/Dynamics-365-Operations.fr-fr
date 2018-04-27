@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="factor-depreciation"></a>Amortissement paramétrable
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article donne une vue d'ensemble de la méthode d'amortissement paramétrable.
 

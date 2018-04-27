@@ -3,7 +3,7 @@ title: "Étendre les fonctionnalités de Microsoft Dynamics 365 for Talent"
 description: "Si vous avez créé des applications Microsoft PowerApps, vous pouvez démarrer ces applications à partir des liens contenus dans Microsoft Dynamics 365 for Talent."
 author: rschloma
 manager: AnnBe
-ms.date: 11/28/2017
+ms.date: 03/21/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -26,7 +26,7 @@ ms.lasthandoff: 03/07/2018
 ---
 # <a name="extend-the-functionality-of-microsoft-dynamics-365-for-talent"></a>Étendre les fonctionnalités de Microsoft Dynamics 365 for Talent
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Si vous avez créé des applications Microsoft PowerApps, vous pouvez démarrer ces applications à partir des liens contenus dans Microsoft Dynamics 365 for Talent. Pour paramétrer l'accès à vos applications, vous devrez configurer certaines informations de Talent sur une page de configuration que vous pouvez ouvrir à partir de l'espace de travail **Administration du système**.
 
@@ -35,15 +35,16 @@ Utilisez la page **Définir les applications Microsoft PowerApps incorporées** 
 
 Les informations suivantes sont saisies ou définies sur cette page : 
 
-> - Nom descriptif ou identificateur de chaque application PowerApps.
-> - Identificateur unique (GUID) de chaque application que vous ajoutez à une page Talent. L'ID d'application est disponible sur le site PowerApps [powerapps.com](http://powerapps.com/). 
-> - Page à partir de laquelle les utilisateurs peuvent ouvrir une application ou un état. Certaines pages Talent prennent en charge les applications PowerApps incorporées et les états Power BI. 
+ -  Nom descriptif ou identificateur de chaque application PowerApps.
+ -  Identificateur unique (GUID) de chaque application que vous ajoutez à une page Talent. L'ID d'application est disponible sur le site PowerApps [powerapps.com](http://powerapps.com/). 
+ -  Page à partir de laquelle les utilisateurs peuvent ouvrir une application ou un état. Certaines pages Talent prennent en charge les applications PowerApps incorporées et les états Power BI. 
 
  > [!NOTE]
  >  Entrez le nom interne de la page au lieu du nom complet qui apparaît en haut de la page. Pour rechercher le nom interne, ouvrez la page dont vous avez besoin du nom interne, puis cliquez avec le bouton droit n'importe où sur la page. Lorsque le menu s'ouvre, placez votre pointeur sur l'élément **Informations sur l'écran**. Le nom d'écran interne s'affiche en regard de l'élément **Informations sur l'écran** dans le menu.
  
-> - Spécifiez le contrôle d'écran à partir duquel l'application peut extraire les données de contexte. Par exemple, une application peut utiliser les données concernant un collaborateur. Si vous ouvrez la page **Collaborateur** dans le champ **Contexte**, la page **Collaborateur** s'ouvre lorsque vous démarrez l'application. La saisie de données dans le champ **Contexte** est facultative. 
-> - Définissez la taille de la boîte de dialogue dans laquelle l'application PowerApps s'exécute. Les boîtes de dialogue sont conçues comme « petites » ou « grandes » afin d'optimiser l'interface utilisateur lorsque votre application s'exécute sur un téléphone ou un appareil plus grand, respectivement. 
+-   Spécifiez le contrôle d'écran à partir duquel l'application peut extraire les données de contexte. Par exemple, une application peut utiliser les données concernant un collaborateur. Si vous ouvrez la page **Collaborateur** dans le champ **Contexte**, la page **Collaborateur** s'ouvre lorsque vous démarrez l'application. La saisie de données dans le champ **Contexte** est facultative. 
+-   Définissez la taille de la boîte de dialogue dans laquelle l'application PowerApps s'exécute. Les boîtes de dialogue sont conçues comme « petites » ou « grandes » afin d'optimiser l'interface utilisateur lorsque votre application s'exécute sur un téléphone ou un appareil plus grand, respectivement. 
+
 
 Vous pouvez également spécifier les entités juridiques pour lesquelles une application est disponible, ou vous pouvez la rendre accessible à toutes vos entités juridiques. Par défaut, vos applications PowerApps sont accessibles à toutes les entités juridiques.
 

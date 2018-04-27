@@ -27,7 +27,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="piece-picking-confirmation"></a>Confirmation de prélèvement de pièces
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Le prélèvement de pièces vous permet de confirmer chaque pièce du stock via le travail de prélèvement d'inventaire sur un appareil mobile. Pour les prélèvements, vous pouvez confirmer la quantité de travail à traiter jusqu'à la quantité spécifiée dans le travail à prélever. Pour le travail d'inventaire, vous pouvez analyser le stock que vous comptez et suivre la quantité totale.
 
@@ -46,8 +46,10 @@ Les travaux de prélèvement des pièces fonctionnent dans le cadre du travail d
 
 Les options suivantes sont disponibles pour la sélection lorsque le type de travail est prélèvement ou comptage.
 
-| Option        | Description   | 
-| ------------- | ------------- |
-| Confirmation de prélèvement de pièces   | Disponible pour les types de travail de prélèvement et d'inventaire. La confirmation de produit est automatiquement activée. Permet de confirmer chaque pièce du stock de l'appareil mobile. | 
-| Nombre maximal de pièces     | Disponible pour le travail de prélèvement si la confirmation de prélèvement de pièce est activée. Fixe une limite au nombre de pièces que vous devez confirmer. |  
+
+|           Option           |                                                                            Description                                                                            |
+|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Confirmation de prélèvement de pièces | Disponible pour les types de travail de prélèvement et d'inventaire. La confirmation de produit est automatiquement activée. Permet de confirmer chaque pièce du stock de l'appareil mobile. |
+|  Nombre maximal de pièces  |                   Disponible pour le travail de prélèvement si la confirmation de prélèvement de pièce est activée. Fixe une limite au nombre de pièces que vous devez confirmer.                   |
+
 

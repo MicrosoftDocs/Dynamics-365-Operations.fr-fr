@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="hire-a-candidate-through-recruiting"></a>Embaucher un candidat via le recrutement
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure permet à un recruteur d'embaucher un candidat ayant déposé une candidature via un projet de recrutement spécifique. Lorsque vous engagez un candidat via un projet de recrutement, un nouvel enregistrement de collaborateur est créé et l'enregistrement du candidat aura le statut Employé. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Pour terminer cette procédure, allez dans : Ressources humaines > Recrutement > Candidatures > Candidatures 
 

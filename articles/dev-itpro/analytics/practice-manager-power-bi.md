@@ -27,7 +27,7 @@ ms.lasthandoff: 12/18/2017
 
 # <a name="practice-manager-power-bi-content"></a>Contenu Power BI du gestionnaire de pratique
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique décrit ce qui est inclus dans le contenu Microsoft Power BI **Gestionnaire de pratique**. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
 
@@ -118,7 +118,9 @@ Les sections suivantes décrivent les mesures globales utilisées dans chaque en
 ### <a name="entity-projectaccountingcubetotalestimatedcosts"></a>Entité : ProjectAccountingCube\_TotalEstimatedCosts 
 **Source de données :** ProjTable
 
-| Mesure globale clé       | Champ               | Description |
-|---------------------------------|---------------------|-------------|
+
+|    Mesure globale clé    |        Champ        |                                          Description                                           |
+|---------------------------------|---------------------|------------------------------------------------------------------------------------------------|
 | Coût prévisionnel de l'activité terminée | Sum(TotalCostPrice) | Prix de revient total pour les estimations pour tous les types de transactions de projet avec des tâches terminées. |
+
 

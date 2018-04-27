@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-request-for-quotation"></a>Créer un appel d'offre
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure décrit comment créer un appel d'offre. Cette action est généralement effectuée par un agent des achats. Vous pouvez utiliser cette procédure dans la société fictive de démonstration USMF ou utiliser vos propres données. Vous devez disposer de types de sollicitation avant de commencer. Une fois que vous avez terminé cette tâche et que vous avez créé et soumis un appel d'offre, vous pouvez ensuite entrer les réponses par fournisseur, les comparer, et attribuer le contrat.
 

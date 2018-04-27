@@ -28,7 +28,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="create-service-objects"></a>Créer des objets de service  
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
    
 Les objets de service sont des actifs et des produits d'un client pour lesquels vous pouvez effectuer un service. 
 

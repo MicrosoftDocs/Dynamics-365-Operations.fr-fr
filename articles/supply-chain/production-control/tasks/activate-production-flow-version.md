@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="activate-a-production-flow-version"></a>Activer la version d'un flux de production
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Avant que des tâche de kanban puissent être créées et des activités puissent être traitées pour une version de flux de production, vous devez activer la version. Il est recommandé d'activer la version avant l'expiration de la date et l'heure de début. Pour accomplir cette tâche, vous devez avoir une version de flux de production ayant le statut Brouillon afin d'activer la version. 
 

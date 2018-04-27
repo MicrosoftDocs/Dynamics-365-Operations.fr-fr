@@ -29,11 +29,10 @@ ms.lasthandoff: 03/06/2018
 
 # <a name="install-and-configure-microsoft-dynamics-365-for-finance-and-operations-8211-warehousing"></a>Installation et configuration de Microsoft Dynamics 365 for Finance and Operations &#8211; Entreposage
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 > [!NOTE]
-
+> 
 > Cette rubrique décrit comment configurer l'entreposage pour les déploiements cloud. Si vous souhaitez savoir comment configurer l'entreposage pour les déploiements sur site, consultez [Entreposage pour les déploiements sur site](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="service-object-groups"></a>Groupes d'objets de service 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Les groupes d'objets permettent de trier et de filtrer les données relatives à des objets pour générer des états et des statistiques. Par exemple, vous pouvez regrouper des objets par emplacement géographique ou par type.
 

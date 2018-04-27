@@ -28,10 +28,9 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="inventory-tag-counting"></a>Comptage des balises de stock
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Cet article fournit des informations sur l'inventaire de balises, que vous utilisez pour comparer le contenu réel d'un entrepôt au stock disponible.
 

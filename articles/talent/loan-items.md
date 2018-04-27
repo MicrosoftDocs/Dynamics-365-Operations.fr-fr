@@ -19,17 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 17fb54c07f817b6f4a65c01cd0277c8d677e2e78
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ba1b158908ac2328c29f7efe23756248be5be33c
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="manage-items-lent-to-workers"></a>Gérer les articles prêtés aux employés
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Les articles empruntés sont des enregistrements qui permettent aux responsables de suivre les articles physiques que votre société prête aux employés. 
 
@@ -51,7 +50,7 @@ Les responsables peuvent afficher les articles empruntés pour leurs états dire
 
 Si un article est endommagé ou égaré, entrez un enregistrement de retour fictif. Ensuite, supprimez l'article ou conservez-le dans la vue d'ensemble et modifiez la description pour indiquer que l'article n'est pas disponible.
 
- 
+
 <a name="see-also"></a>Voir également :
 --------
 

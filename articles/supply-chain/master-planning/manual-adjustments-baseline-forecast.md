@@ -29,8 +29,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Effectuer des ajustements manuels sur la prévision de base
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique explique comment effectuer des ajustements manuels sur une prévision de base et afficher les détails de la prévision. 
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="use-tracing-for-explosion"></a>Utiliser leu suivi pour l'éclatement
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article décrit comment utiliser le suivi pour explorer les causes derrière les résultats d'un éclatement de commande.
 

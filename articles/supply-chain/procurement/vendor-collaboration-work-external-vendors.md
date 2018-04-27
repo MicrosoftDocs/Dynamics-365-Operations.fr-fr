@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 76c2b078b583a1f8f2235eef15dbba514e57b0f8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 961f0bbc4bb66536d953fa5103f98fcd6924adba
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="vendor-collaboration-with-external-vendors"></a>Collaboration fournisseur avec des fournisseurs externes
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Le module **Collaboration fournisseur** est destiné aux fournisseurs qui n'ont pas l'intégration d'échange de données informatisé (EDI) avec Microsoft Dynamics 365 for Finance and Operations. Il permet aux fournisseurs d'utiliser les commandes fournisseur, les factures, les informations sur le stock de consignation et les appels d'offre. Il leur permet également d'accéder à des parties de leurs données principales. Cette rubrique explique comment vous pouvez collaborer avec des fournisseurs externes qui utilisent l'interface de collaboration fournisseur pour utiliser les CF, les appels d'offre et le stock de consignation. Elle explique également comment autoriser un fournisseur spécifique à utiliser la collaboration fournisseur, et comment définir les informations visibles par tous les fournisseurs qui répondent à une commande fournisseur.
 
@@ -113,10 +113,10 @@ La CF envoyée au fournisseur avec le statut <strong>En cours de révision exter
 <ul>
 <li>Modifier les dates ou les quantités.</li>
 <li>Fractionnez des lignes pour différentes dates de livraison ou quantités.</li>
-<li>Remplcez un article.</li>
+<li>Remplacez un article.</li>
 </ul>
 Le fournisseur ne peut pas modifier les informations sur les prix et les frais. Toutefois, il peut proposer ces modifications à l'aide de notes.</td>
-<td>La réponse du fournisseur est enregistrée comme <strong>Accepté avec des modifications</strong>, mais le statut de la CF reste <strong>En cours de révision externe</strong>. Les statuts indiquent les types de modifications suggérées par le fournisseur. Pour plus d'informations sur la consommation automatique des modifications, consultez la section « Mettre à jour la CF lorsqu'un fournisseur propose des modifications » plus loin dans cette rubrique. </td>
+<td>La réponse du fournisseur est enregistrée comme <strong>Accepté avec des modifications</strong>, mais le statut de la CF reste <strong>En cours de révision externe</strong>. Les statuts indiquent les types de modifications suggérées par le fournisseur. Pour plus d'informations sur la consommation automatique des modifications, consultez la section &quot;Mettre à jour la CF lorsqu'un fournisseur propose des modifications&quot; plus loin dans cette rubrique. </td>
 </tr>
 </tbody>
 </table>

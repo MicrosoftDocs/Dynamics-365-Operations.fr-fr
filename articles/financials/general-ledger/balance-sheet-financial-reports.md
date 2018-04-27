@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="balance-sheet-financial-reports"></a>États financiers du bilan
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article décrit les états par défaut des bilans. Il décrit également les blocs de construction associés à ces états. 
 
@@ -71,7 +70,7 @@ Les définitions de colonne contiennent différents types de colonnes afin d'off
     -   **DESC** : Description de la définition de ligne.
     -   **DF** – Données financières pour l'année en cours
 
- 
+
 
 <a name="see-also"></a>Voir également :
 --------

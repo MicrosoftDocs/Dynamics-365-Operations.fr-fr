@@ -27,7 +27,7 @@ ms.lasthandoff: 03/09/2018
 
 # <a name="scan-bar-codes-using-a-camera-in-dynamics-365-for-finance-and-operations--warehousing"></a>Lire les codes-barres à l'aide d'une caméra dans Dynamics 365 for Finance and Operations – Entreposage
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique explique comment configurer Dynamics 365 for Finance and Operations – Entreposage pour scanner des codes-barres à l'aide de la caméra d'un appareil mobile. 
 

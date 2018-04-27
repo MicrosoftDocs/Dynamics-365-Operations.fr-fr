@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-fund-type-in-the-public-sector"></a>Créer un type de fonds dans le secteur public
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Les types de fonds sont des catégories que vous pouvez utiliser pour regrouper des fonds à des fins de suivi et de génération d'états fiscaux détaillés. Les principes comptables généralement reconnus (GAAP) pour la comptabilité gouvernementale et locale fournissent des normes que vous pouvez suivre lorsque vous paramétrez votre système de fonds et de types de fonds. 
 

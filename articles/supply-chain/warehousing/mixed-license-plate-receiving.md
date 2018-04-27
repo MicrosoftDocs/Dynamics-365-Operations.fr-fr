@@ -27,7 +27,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="mixed-license-plate-receiving"></a>Réception de contenant mixte
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 La réception de contenant mixte vous permet de générer un contenant composé de plusieurs articles avant d'enregistrer et de créer le travail de rangement. 
 

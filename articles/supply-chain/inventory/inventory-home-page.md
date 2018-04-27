@@ -29,7 +29,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="inventory-management"></a>Gestion des stocks 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 La gestion des stocks vous permet d'effectuer les tâches suivantes :
 

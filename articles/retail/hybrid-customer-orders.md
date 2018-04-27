@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="hybrid-customer-orders"></a>Commandes client hybrides
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Une commande client hybride est une commande unique, qui contient les produits qui peuvent être exécutés hors du magasin par le client, ainsi que les produits qui sont prélevés ou expédiés par la suite.
 

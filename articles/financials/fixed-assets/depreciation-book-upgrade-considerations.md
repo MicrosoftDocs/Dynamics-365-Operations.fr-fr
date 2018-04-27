@@ -27,8 +27,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="depreciation-book-upgrade-overview"></a>Vue d'ensemble de la mise à niveau du registre des amortissements
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dans les versions précédentes, il y avait deux concepts d'évaluation pour les immobilisations : modèles de valeur et registres des amortissements. Dans Microsoft Dynamics 365 for Operations (1611), la fonctionnalité de modèle de valeur et la fonctionnalité du registre des amortissements ont été fusionnées en un concept unique appelé registre. Cette rubrique fournit des éléments à prendre en compte pour la mise à niveau. 
 

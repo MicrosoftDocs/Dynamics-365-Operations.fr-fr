@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-vendor-certification-type-in-the-public-sector"></a>Créer un type de certification fournisseur dans le secteur public
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Vous pouvez créer et affecter aux organisations de fournisseurs tout type de certification détenus par les fournisseurs, tels que des informations d'identification professionnelles, l'assurance en responsabilité civile, le statut minoritaire ou la conformité avec diverses normes de sécurité relatives à l'environnement ou au consommateur. Ce guide de tâche a été créée en utilisant les données de la société fictive PSUS dans la partition du secteur public.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="import-historical-data-for-demand-forecasts"></a>Importer les données d'historique pour les prévisions de la demande
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Pour garantir la précision des prévisions de la demande, vous devez disposer d'autant de données de demande d'historique que possible par article ou par clé de répartition par article. Si les données de demande d'historique ne sont pas déjà importées, utilisez l'entité de données **Demande externe d'historique** (ReqDemPlanHistoricalExternalDemandEntity) dans Microsoft Dynamics 365 for Finance and Operations pour les importer.
 

@@ -19,17 +19,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 9a5464a483e1d7760c82041bf49a70a5a80a7dca
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 813d13738171969b48d16a5ed52f2b04a8beaeef
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="transportation-management-engines"></a>Moteurs de gestion de transport
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Les moteurs de gestion de transport définissent la logique utilisée pour générer et traiter les frais de transport dans Gestion du transport. 
 
@@ -47,7 +46,7 @@ Le tableau suivant répertorie les moteurs de gestion de transport disponibles d
 | **Moteur de zone**                  | Calcule la zone en fonction de l'adresse actuelle, ainsi que le nombre de zones qui doivent être traversées pour aller de l'adresse A à l'adresse B.                                                                                                                                                                    |
 | **Type de facture des frais de transport**            | Standardise la facture de transport et les lignes de la facture de frais de transport et permet de mettre en correspondance automatiquement la facture de frais de transport.                                                                                                                                                                                                                |
 
- 
+
 <a name="what-engines-must-be-configured-to-rate-a-shipment"></a>Quels moteurs doit-on configurer pour évaluer une expédition ?
 ---------------------------------------------------
 
@@ -60,13 +59,13 @@ Un moteur de gestion de transport requiert le paramétrage de données d'initial
 -   Données de configuration simples.
 
 Dans la plupart des cas, vous pouvez cliquer sur le bouton **Paramètres** dans les écrans de paramétrage du moteur de gestion du transport pour configurer les données d'initialisation. **Exemple de configuration d'un moteur de frais faisant référence à un moteur de kilométrage** L'exemple suivant présente le paramétrage requis pour un moteur de frais basé sur le type de moteur .NET Microsoft.Dynamics.Ax.Tms.Bll.MileageRateEngine et référence un moteur de kilométrage.
-| Paramètre             | Description                                                                                                                                                                                                                                                                                                                                                                      |
-|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *RateBaseAssigner*    | Type .NET qui interprète les données d'affectation de base des frais pour un schéma particulier. La syntaxe de la valeur de paramètre est composée de deux segments délimités par une barre verticale (|). Le premier segment contient le nom de l'assembly qui définit le type d'assignateur. Le second segment définit le nom complet du type d'assignateur. Cela inclut l'espace de noms du type. |
-| *MileageEngineCode*   | Code de moteur de kilométrage qui identifie l'enregistrement du moteur de kilométrage dans la base de données Microsoft Dynamics 365 for Finance and Operations.                                                                                                                                                                                                                                                             |
-| *ApportionmentEngine* | Code de moteur générique qui identifie le moteur de répartition dans la base de données Microsoft Dynamics 365 for Finance and Operations.                                                                                                                                                                                                                                                              |
 
- 
+|          Paramètre           |                                                                                  Description                                                                                  |
+|------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  <em>RateBaseAssigner</em>   | Type .NET qui interprète les données d'affectation de base des frais pour un schéma particulier. La syntaxe de la valeur de paramètre est composée de deux segments délimités par une barre verticale ( |
+|  <em>MileageEngineCode</em>  |                       Code de moteur de kilométrage qui identifie l'enregistrement du moteur de kilométrage dans la base de données Microsoft Dynamics 365 for Finance and Operations.                        |
+| <em>ApportionmentEngine</em> |                        Code de moteur générique qui identifie le moteur de répartition dans la base de données Microsoft Dynamics 365 for Finance and Operations.                        |
+
 <a name="how-is-metadata-used-in-transportation-management-engines"></a>Comment utilise-t-on les métadonnées dans les moteurs de gestion de transport ?
 ----------------------------------------------------------
 
@@ -77,6 +76,7 @@ Les données utilisées lorsque vous calculez des frais dans Microsoft Dynamics�
 
 ## <a name="do-all-engine-configurations-require-metadata"></a>Toutes les configurations de moteur requièrent-elles des métadonnées ?
 Non, les moteurs de gestion de transport utilisés pour extraire les données requises pour le calcul de frais à partir de systèmes externes n'ont pas besoin de métadonnées. Les données de frais pour ces moteurs peuvent être récupérées à partir des systèmes du transporteur externe, généralement via un service Web. Par exemple, vous pouvez utiliser un moteur de kilométrage qui récupère les données directement de Bing Maps. Vous n'avez donc pas besoin de métadonnées pour ce moteur.
+
 | **Remarque**                                                                                                                                                                                                                                                                                                                                                                     |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Les moteurs de gestion du transport qui sont livrés avec Finance and Operations se fondent sur des données extraites de l'application. Les moteurs qui se connectent à des systèmes externes ne sont pas inclus dans Operations. Toutefois, le modèle d'extensibilité basé sur le moteur permet de créer des extensions avec Microsoft Dynamics 365 for Finance and Operations Visual Studio Tools. |

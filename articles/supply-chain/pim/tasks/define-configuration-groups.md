@@ -24,7 +24,7 @@ ms.lasthandoff: 11/08/2017
 ---
 # <a name="define-configuration-groups"></a>Définir des groupes de configuration
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure indique comment définir des groupes de configuration de produits en créant deux groupes dans la société fictive USMF. Il s'agit de la quatrième procédure (parmi les huit) qui explique comment créer des combinaisons pour la configuration basée sur les dimensions.
 

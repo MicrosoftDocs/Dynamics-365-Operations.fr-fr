@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Paramétrer une instruction d'emplacement pour le rangement des commandes fournisseur
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure décrit le processus de paramétrage d'une simple instruction d'emplacement. L'exemple qui est indiqué crée une instruction d'emplacement à utiliser pour déterminer où mettre les articles reçus pour une commande fournisseur. Vous pouvez lire ce guide des tâches avec les données mentionnées en utilisant la société USMF de données de démonstration. Conditions préalables : vous devez créer un code disposition. Dans cette procédure nous utilisons un code disposition appelé Relabel. Si vous créez une instruction d'emplacement dans vos propres données, vous devez avoir configuré la gestion des entrepôts avancée pour votre entrepôt et vos articles.  Cette procédure est destinée au gestionnaire d'entrepôts.
 

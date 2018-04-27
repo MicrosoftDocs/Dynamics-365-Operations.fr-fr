@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a>Paramétrer un processus de réapprovisionnement minimum/maximum
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure décrit la manière de paramétrer un nouveau processus de réapprovisionnement qui utilise une stratégie de réapprovisionnement minimal/maximal. Lorsque le stock passe en dessous du niveau minimal, le travail est créé pour réapprovisionner l'emplacement. La procédure indique également comment utiliser les emplacements de prélèvement fixes pour autoriser la remise en stock même si le stock passe en dessous du niveau minimal et comment activer le processus de réapprovisionnement pour qu'il s'exécute régulièrement en utilisant un traitement par lots. Ces tâches sont généralement effectuées par un responsable de l'entrepôt. Vous pouvez exécuter cette procédure dans les données fictives de la société USMF à l'aide des valeurs d'exemple dans les notes, ou pouvez l'exécuter sur vos propres données. Si vous utilisez vos propres données, vérifiez que vous avez un entrepôt qui est activé pour les processus de gestion des entrepôts.
 

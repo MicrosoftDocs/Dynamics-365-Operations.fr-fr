@@ -19,16 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 41d5671d180bae039d873419352d52afe90e386b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: adbbb36da2bc1e9a2211c703823370571105ecab
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="formula-designer-in-electronic-reporting"></a>Concepteur de formule dans les états électroniques
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique décrit l'utilisation du concepteur de formule dans la génération d'états électroniques. Lorsque vous créez un format pour un document électronique spécifique dans ER, vous pouvez utiliser des formules pour transformer les données afin qu'elles répondent aux exigences d'exécution et de mise en forme du document. Ces formules ressemblent aux formules dans Microsoft Excel. Plusieurs types de fonctions sont pris en charge dans les formules : texte, date et heure, mathématique, logique, informations, conversion du type de données et autre (fonctions spécifiques au métier).
 
@@ -227,7 +227,7 @@ Les tables suivantes décrivent les fonctions de manipulation des données que v
 
 ### <a name="data-conversion-functions"></a>Fonctions de conversion des données
 
-| Fonction | Description  | Exemple |
+| Fonction | Description | Exemple |
 |----------|-------------|---------|
 | DATETODATETIME (date) | Convertit la valeur de date spécifiée en valeur de date/heure. | **DATETODATETIME (CompInfo. 'getCurrentDate()')** renvoie la date de la session Finance and Operations actuelle, 24 décembre 2015, sous la forme **12/24/2015 12:00:00 AM**. Dans cet exemple, **CompInfo** est une source de données de génération d'états électroniques de type **Finance and Operations/Table** qui fait référence à la table CompanyInfo. |
 | DATEVALUE (chaîne, format) | Renvoie une représentation sous forme de date de la chaîne spécifiée dans le format spécifié. | **DATEVALUE ("21-Dec-2016", "dd-MMM-yyyy")** renvoie la date 21 décembre 2016, en fonction du format personnalisé spécifié et de la culture par défaut **EN-US** de l'application. |
@@ -246,7 +246,7 @@ Les tables suivantes décrivent les fonctions de manipulation des données que v
 <thead>
 <tr class="header">
 <th>Fonction</th>
-<th>Description </th>
+<th>Description</th>
 <th>Exemple</th>
 </tr>
 </thead>
@@ -356,7 +356,7 @@ Les tables suivantes décrivent les fonctions de manipulation des données que v
 <ul>
 <li>Nom</li>
 <li>Étiquette</li>
-<li>Description </li>
+<li>Description</li>
 </ul>
 À l'exécution, les champs <strong>Étiquette</strong> et <strong>Description</strong> renvoient des valeurs basées sur les paramètres de langue du format.</td>
 <td>Dans l'illustration suivante, une énumération est présentée dans un modèle de données.
@@ -381,7 +381,7 @@ Selon les paramètres de langue configurés pour les éléments de format FILE e
 <ul>
 <li>Nom</li>
 <li>Étiquette</li>
-<li>Description </li>
+<li>Description</li>
 <li>Est traduit</li>
 </ul>
 <p>À l'exécution, les champs <strong>Étiquette</strong> et <strong>Description</strong> renvoient des valeurs basées sur les paramètres de langue du format et la langue spécifiée. Le champ <strong>Est traduit</strong> indique si le champ <strong>Libellé</strong> a été traduit dans la langue spécifiée.</td>
@@ -395,7 +395,9 @@ Dans ce cas, vous pouvez utiliser l'expression suivante pour obtenir l'étiquett
 <tr class="even">
 <td>STRINGJOIN (list, field name, delimiter)</td>
 <td>Renvoie une chaîne composée des valeurs concaténées du champ spécifié dans la liste spécifiée. Les valeurs sont séparées par le séparateur spécifié.</td>
-<td>Si vous entrez <strong>SPLIT(&quot;abc&quot; , 1)</strong> comme source de données (DS), l'expression <strong>STRINGJOIN (DS, DS.Value, &quot;:&quot;)</strong> renvoie <strong>&quot;a:b:c&quot;</strong>.</td>
+
+<td>Si vous entrez <strong>SPLIT(&quot;abc&quot; , 1)</strong> comme source de données (DS), l'expression <strong>STRINGJOIN (DS, DS.Value, &quot;:&quot;)</strong> renvoie <strong>&quot;a</strong><strong>:b</strong><strong>:c&quot;</strong>.</td>
+
 </tr>
 <tr class="odd">
 <td>SPLITLISTBYLIMIT (list, limit value, limit source)</td>
@@ -423,7 +425,7 @@ La limite n'est pas appliquée au dernier article de la liste d'origine, car la 
 
 ### <a name="logical-functions"></a>Fonctions logiques
 
-| Fonction | Description  | Exemple |
+| Fonction | Description | Exemple |
 |----------|-------------|---------|
 | CASE (expression, option 1, result 1 \[, option 2, result 2\] ... \[, default result\]) | Permet d'évaluer la valeur d'expression spécifiée par rapport aux autres options spécifiées. Renvoie le résultat de l'option qui est égal à la valeur de l'expression. Sinon, renvoie le résultat par défaut en option, si un résultat par défaut est spécifié. (Le résultat par défaut est le dernier paramètre qui n'est pas précédé par une option.) | **CASE( DATETIMEFORMAT( NOW(), "MM"), "10", "WINTER", "11", "WINTER", "12", "WINTER", "")** renvoie la chaîne **"WINTER"** lorsque la date de session Finance and Operations actuelle se situe entre octobre et décembre. Sinon, elle renvoie une chaîne vide. |
 | IF (condition, value 1, value 2) | Renvoie la première valeur spécifiée lorsque la condition spécifiée est remplie. Sinon, renvoie la deuxième valeur spécifiée. Si la valeur 1 et la valeur 2 sont des enregistrements ou des listes d'enregistrements, le résultat affiche uniquement les champs qui existent dans les deux listes. | **IF (1=2, "condition is met", "condition is not met")** renvoie la chaîne **"condition is not met"**. |
@@ -472,7 +474,7 @@ La limite n'est pas appliquée au dernier article de la liste d'origine, car la 
 <thead>
 <tr class="header">
 <th>Fonction</th>
-<th>Description </th>
+<th>Description</th>
 <th>Exemple</th>
 </tr>
 </thead>
@@ -608,14 +610,14 @@ L'indicateur Imprimer le nom de la devise et les paramètres Décimales sont ana
 
 ### <a name="data-conversion-functions"></a>Fonctions de conversion des données
 
-| Fonction | Description  | Exemple |
+| Fonction | Description | Exemple |
 |----------|-------------|---------|
 | TEXT (input) | Renvoie l'entrée spécifiée une fois qu'elle a été convertie en une chaîne de texte qui est mise en forme en fonction des paramètres régionaux du serveur de l'instance Finance and Operations actuelle. Pour les valeurs de type **real**, la conversion de chaîne est limitée à deux décimales. | Si les paramètres régionaux du serveur de l'instance Finance and Operations sont définis comme **EN-US**, **TEXT (NOW ())** renvoie la date de la session Finance and Operations actuelle, 17 décembre 2015, comme chaîne de texte **12/17/2015 07:59:23 AM**. **TEXT (1/3)** renvoie **"0.33"**. |
 | QRCODE (chaîne) | Renvoie une image de code QR au format binaire base64 pour la chaîne spécifiée. | **QRCODE ("Sample text")** renvoie **U2FtcGxlIHRleHQ=**. |
 
 ### <a name="data-collection-functions"></a>Fonctions de collecte des données
 
-| Fonction | Description  | Exemple |
+| Fonction | Description | Exemple |
 |----------|-------------|---------|
 | FORMATELEMENTNAME () | Renvoie le nom de l'élément du format actuel. Renvoie une chaîne vide lorsque l'indicateur **Collecter les détails sur les sorties** des fichiers actuels est désactivé. | Pour en savoir plus sur l'utilisation de cette fonction, consultez le guide de tâche **ER Utiliser les données de la sortie du format pour compter et additionner**, qui fait partie du processus d'entreprise **Acquérir/Développer des composants de services/solutions informatiques**. |
 | SUMIFS (key string for summing, criteria range1 string, criteria value1 string \[, criteria range2 string, criteria value2 string, …\]) | Renvoie la somme des valeurs des nœuds XML (où le nom est défini comme clé) qui a été collectée durant l'exécution du format et qui remplit les conditions spécifiées (paires de plages et de valeurs). Renvoie une valeur **0** (zéro) lorsque l'indicateur **Collecter les détails sur les sorties** des fichiers actuels est désactivé. | |

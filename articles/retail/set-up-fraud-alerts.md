@@ -29,7 +29,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="set-up-fraud-alerts"></a>Paramétrer les alertes de fraude
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Cette rubrique explique comment paramétrer des critères et des règles afin de mettre d'éventuelles commandes client frauduleuses en attente pour une révision ultérieure. La fonctionnalité de vérification de fraude est utilisée pour déterminer la validité des informations dans une commande client. Si les informations d'une commande client semblent douteuses selon les critères et les règles de fraude d'une organisation, la commande peut être mise en attente afin d'être vérifiée par un administrateur.
 

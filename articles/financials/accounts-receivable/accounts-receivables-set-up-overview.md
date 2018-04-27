@@ -28,8 +28,7 @@ ms.lasthandoff: 11/14/2017
 
 # <a name="configure-accounts-receivables-and-credit-and-collections"></a>Configuration des modules Comptabilité client et Crédit et relances
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Configurez la Comptabilité client et les Crédit et relances pour assurer le suivi des factures et des paiements entrants des clients.
 
@@ -107,7 +106,7 @@ Le tableau suivant répertorie les pages qui prennent en charge la configuration
 |                                                      | Informations sur les impayés                     | Permet de paramétrer les informations relatives aux impayés sur le compte bancaire à utiliser lorsqu'un paiement est marqué comme transaction impayée sur la page Recouvrements.                                                                                                                                              |
 |                                                      | Informations sur le commercial              | Permet de paramétrer les adresses e-mail des commerciaux. Ces adresses figurent sur la page Recouvrements et vous permettent d'envoyer un e-mail à un commercial à partir de cette page.                                                                                                                |
 
- 
+
 Pour plus d'informations, voir [Crédit et recouvrements dans la Comptabilité client](collections-credit-accounts-receivable.md).
 
 

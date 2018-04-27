@@ -27,8 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="esr-customer-payments-import"></a>Importation des paiements client ESR
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique fournit des informations sur l'importation de paiements client au format ESR.
 
@@ -45,12 +44,12 @@ Les références de paiement doivent être imprimées sur le bordereau de paieme
 Pour plus d'informations, voir [État du bordereau de paiement (virement)](emea-eur-payment-slip-report-giro.md).
 
 ## <a name="import-a-payment-file"></a>Importer un fichier de paiement
-1.  Accédez à la page **Journal des paiements**.
-2.  Cliquez sur **Lignes**.
-3.  Cliquez sur **Fonctions** &gt; **Importer les paiements**.
-4.  Dans la boîte de dialogue, sélectionnez le mode de paiement, puis accédez à l'emplacement du fichier à importer. 
-  > [!NOTE]
-  >  Avant de pouvoir effectuer cette étape, vous devez avoir déjà importé les configurations **ESR (CH)** à partir de Lifecycle Services (LCS) et paramétré le mode de paiement ESR. Pour plus d'informations, voir [Formats de fichier des modes de paiement](emea-select-file-formats-for-the-method-of-payments.md).
+1. Accédez à la page **Journal des paiements**.
+2. Cliquez sur **Lignes**.
+3. Cliquez sur **Fonctions** &gt; **Importer les paiements**.
+4. Dans la boîte de dialogue, sélectionnez le mode de paiement, puis accédez à l'emplacement du fichier à importer. 
+   > [!NOTE]
+   >  Avant de pouvoir effectuer cette étape, vous devez avoir déjà importé les configurations **ESR (CH)** à partir de Lifecycle Services (LCS) et paramétré le mode de paiement ESR. Pour plus d'informations, voir [Formats de fichier des modes de paiement](emea-select-file-formats-for-the-method-of-payments.md).
 
 Après avoir importé le fichier de paiement, les lignes du journal des paiements sont créées et marquées pour règlement avec les factures client basées sur la référence de paiement. Si des frais spécifiés pour le compte bancaire sont représentés dans le fichier, par exemple les transactions entre le compte principal et le compte de frais, ces frais seront ajoutés au journal.
 

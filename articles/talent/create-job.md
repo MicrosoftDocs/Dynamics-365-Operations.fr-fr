@@ -19,19 +19,18 @@ ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 812db9f1d319e4d16f83700a7153a0a3b318963e
-ms.openlocfilehash: aaa8bdedc31ee03e96a0f7a5e78f25f888913e71
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 88e8c1ae98ad5618feff3d2bb88d8f8cfe2ff9ba
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="setting-up-the-components-of-a-job"></a>Paramétrage des composants d'une tâche
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
-[!include[retail name](includes/retail-name.md)]
-
+[!INCLUDE [retail name](includes/retail-name.md)]
 
 Cette rubrique décrit les éléments conceptuels pouvant être inclus dans une tâche et fournit des exemples d'utilisation de ces éléments dans votre organisation. 
 
@@ -76,7 +75,7 @@ Les descriptifs de tâche décrivent les tâches de base devant être accomplies
 <td>Responsable des ventes</td>
 <td><ul>
 <li><strong>Examen des performances</strong> – examen du rendement au travail de chaque commercial.</li>
-<li><strong>Examen des absences</strong> – approbation ou rejet des demandes ou enregistrements d'absence de chaque commercial.</li>
+<li><strong>Examen des absences</strong> – approbation ou rejet des demandes ou enregistrement d'absence de chaque commercial.</li>
 </ul></td>
 </tr>
 <tr class="even">

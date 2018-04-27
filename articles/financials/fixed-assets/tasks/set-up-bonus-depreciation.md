@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="set-up-bonus-depreciation"></a>Paramétrage de l'amortissement de la prime
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure indique comment créer une provision spéciale pour amortissement et l'associer à un registre d'immobilisations. Elle utilise le rôle de comptable et les données de démonstration de l'entité juridique USMF.
 

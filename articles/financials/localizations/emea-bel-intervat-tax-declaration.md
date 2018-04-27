@@ -27,8 +27,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="intervat-tax-declaration"></a>Déclaration de taxe INTERVAT
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique fournit les informations spécifiques au pays/à la région pour la configuration et la création de la déclaration de taxe INTERVAT pour les entités juridiques en Belgique uniquement.
 

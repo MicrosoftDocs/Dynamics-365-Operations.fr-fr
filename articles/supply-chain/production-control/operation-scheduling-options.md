@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="operations-scheduling-options"></a>Options d'ordonnancement des opérations
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique décrit les options de l'ordonnancement. Vous pouvez utiliser l'ordonnancement pour fournir une estimation globale du processus de production dans le temps.
 

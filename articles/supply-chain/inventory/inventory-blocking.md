@@ -29,8 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="inventory-blocking"></a>Blocage du stock
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article fournit une vue d'ensemble du blocage du stock qui fait partie du processus d'inspection de qualité dans Microsoft Dynamics 365 for Finance and Operations. Vous pouvez utiliser le blocage du stock pour empêcher des articles d'être traités ou consommés.
 

@@ -19,17 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 7cd19340c913fcda3fb537162dfbae52b5c8e922
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3d4354316d0c37c6556c0ec3d27a3c62c5afb7b0
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="intercompany-invoicing"></a>Facturation intersociétés
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article fournit des informations et des exemples sur la facturation intersociétés de projets dans Microsoft Dynamics 365 for Finance and Operations.
 
@@ -58,20 +57,22 @@ Dans cet exemple, USSI est une entité juridique prêteuse et ses ressources dé
 
 Pour cet exemple, FRSI doit être un client dans l’entité juridique USSI et USSI doit être un fournisseur dans l’entité juridique FRSI. Puis, vous pouvez définir une relation intersociétés entre les deux entités juridiques. La procédure suivante montre comment définir les paramètres afin que les deux entités juridiques puissent participer à la facturation intersociétés.
 
-1.  Configurez l’entité juridique FRSI en tant que cliente de l'entté juridique USSI et configurez USSI comme fournisseur dans l’entité juridique FRSI. Il existe trois points d’entrée pour les étapes qui sont requises pour cette tâche.
-    | Etape | Point d'entrée                                                                       | description ;   |
-    |------|-----------------------------------------------------------------------------------|------------------|
-    | A    | Dans USSI, cliquez sur **Comptabilité client** &gt; **Clients** &gt; **Tous les clients**. | Créez un enregistrement de client pour FRSI et sélectionnez le groupe de clients.                                                                                  |
-    | B    | Dans FRSI, cliquez sur **Comptabilité fournisseur** &gt; **Fournisseurs** &gt; **Tous les fournisseurs**.        | Créez un enregistrement de fournisseur pour USSI et sélectionnez le groupe de fournisseurs.                                                                                    |
-    | C    | Dans FRSI, ouvrez l’enregistrement du fournisseur que vous venez de créer.                            | Dans le volet Actions, sous l'onglet **Général**, dans le groupe **Paramétrer**, cliquez sur **Intersociétés**. Dans la page **Intersociétés**, sur l'onglet **Relation commerciale**, définissez le curseur **Actif** sur **Oui**. Dans le champ **Société du client**, sélectionnez l’enregistrement de client que vous avez créé à l’étape A. |
+1. Configurez l’entité juridique FRSI en tant que cliente de l'entté juridique USSI et configurez USSI comme fournisseur dans l’entité juridique FRSI. Il existe trois points d’entrée pour les étapes qui sont requises pour cette tâche.
 
-2.  Cliquez sur **Gestion et comptabilité du projet** &gt; **Paramétrage** &gt; **Paramètres de gestion et comptabilité des projets**, puis cliquez sur l'onglet **Intersociétés**. La façon dont vous définissez les paramètres varie selon que vous êtes l'entité juridique emprunteuse ou l'entité juridique prêteuse.
-    -   Si vous êtes l’entité juridique emprunteuse, sélectionnez la catégorie d’approvisionnement qui doit être utilisée pour correspondre aux factures fournisseur, qui sont automatiquement générées.
-    -   Si vous êtes l’entité juridique prêteuse, pour chaque entité emprunteuse, sélectionnez une catégorie de projet par défaut pour chaque type de transaction. Les catégories de projet sont utilisées pour la configuration de taxe lorsque la catégorie facturée dans les transactions intersociétés existe uniquement dans l’entité juridique emprunteuse. Vous pouvez choisir de provisionner le produit pour les transactions intersociétés. Cette régularisation est effectuée lorsque les transactions sont validées, et elle est ensuite inversée lors de la validation de la facture intersociétée.
+   | Etape |                                                       Point d'entrée                                                        |                                                                                                                                                                                               description ;                                                                                                                                                                                               |
+   |------|--------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+   |  A   | Dans USSI, cliquez sur <strong>Comptabilité client</strong> &gt; <strong>Clients</strong> &gt; <strong>Tous les clients</strong>. |                                                                                                                                                                  Créez un enregistrement de client pour FRSI et sélectionnez le groupe de clients.                                                                                                                                                                  |
+   |  B   |    Dans FRSI, cliquez sur <strong>Comptabilité fournisseur</strong> &gt; <strong>Fournisseurs</strong> &gt; <strong>Tous les fournisseurs</strong>.     |                                                                                                                                                                    Créez un enregistrement de fournisseur pour USSI et sélectionnez le groupe de fournisseurs.                                                                                                                                                                    |
+   |  C   |                                  Dans FRSI, ouvrez l’enregistrement du fournisseur que vous venez de créer.                                  | Dans le volet Actions, sous l'onglet <strong>Général</strong>, dans le groupe <strong>Paramétrer</strong>, cliquez sur <strong>Intersociétés</strong>. Dans la page <strong>Intersociétés</strong>, sur l'onglet <strong>Relation commerciale</strong>, définissez le curseur <strong>Actif</strong> sur <strong>Oui</strong>. Dans le champ <strong>Société du client</strong>, sélectionnez l’enregistrement de client que vous avez créé à l’étape A. |
 
-3.  Cliquez sur **Gestion de projets et comptabilité** &gt; **Paramétrer** &gt; **Prix** &gt; **Prix de transfert**.
-4.  Sélectionnez une devise, le type de transaction et le modèle de prix de transfert. La devise utilisée sur la facture est la devise configurée dans l’enregistrement du client pour l’entité juridique emprunteuse dans l’entité juridique prêteuse. La devise est utilisée pour correspondre aux entrées de la table de prix de transfert.
-5.  Cliquez sur **Comptabilité** &gt; **Paramétrage de la validation** &gt; **Comptabilité intersociétés** et paramétrez une relation pour USSI et FRSI.
+
+2. Cliquez sur **Gestion et comptabilité du projet** &gt; **Paramétrage** &gt; **Paramètres de gestion et comptabilité des projets**, puis cliquez sur l'onglet **Intersociétés**. La façon dont vous définissez les paramètres varie selon que vous êtes l'entité juridique emprunteuse ou l'entité juridique prêteuse.
+   -   Si vous êtes l’entité juridique emprunteuse, sélectionnez la catégorie d’approvisionnement qui doit être utilisée pour correspondre aux factures fournisseur, qui sont automatiquement générées.
+   -   Si vous êtes l’entité juridique prêteuse, pour chaque entité emprunteuse, sélectionnez une catégorie de projet par défaut pour chaque type de transaction. Les catégories de projet sont utilisées pour la configuration de taxe lorsque la catégorie facturée dans les transactions intersociétés existe uniquement dans l’entité juridique emprunteuse. Vous pouvez choisir de provisionner le produit pour les transactions intersociétés. Cette régularisation est effectuée lorsque les transactions sont validées, et elle est ensuite inversée lors de la validation de la facture intersociétée.
+
+3. Cliquez sur **Gestion de projets et comptabilité** &gt; **Paramétrer** &gt; **Prix** &gt; **Prix de transfert**.
+4. Sélectionnez une devise, le type de transaction et le modèle de prix de transfert. La devise utilisée sur la facture est la devise configurée dans l’enregistrement du client pour l’entité juridique emprunteuse dans l’entité juridique prêteuse. La devise est utilisée pour correspondre aux entrées de la table de prix de transfert.
+5. Cliquez sur **Comptabilité** &gt; **Paramétrage de la validation** &gt; **Comptabilité intersociétés** et paramétrez une relation pour USSI et FRSI.
 
 ## <a name="example-2-create-and-post-an-intercompany-timesheet"></a>Exemple 2 : Créer et valider une feuille de temps intersociétés
 USSI, l’entité juridique prêteuse, doit créer et valider la feuille de temps pour un projet de FRSI, l’entité juridique emprunteuse. Il existe deux points d’entrée pour les étapes qui sont requises pour cette tâche.

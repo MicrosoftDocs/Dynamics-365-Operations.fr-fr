@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="public-sector-accounting-in-france"></a>Comptabilité du secteur public en France
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article décrit la comptabilité du secteur public en France.
 

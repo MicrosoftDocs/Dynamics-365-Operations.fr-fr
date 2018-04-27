@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-cost-accounting-ledger"></a>Créer une comptabilité de contrôle de gestion
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Une comptabilité de contrôle de gestion représente l'unité organisationnelle globale. Elle est définie par une dimension d'élément de coût, une dimension statistique, un calendrier fiscal et une devise. Elle est liée au concept d'entités juridiques. Une entité juridique et ses données peuvent être associées à plusieurs comptabilités de contrôle de gestion. Cet enregistrement utilise la société fictive USP2.
 

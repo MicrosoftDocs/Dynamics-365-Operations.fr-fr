@@ -25,7 +25,7 @@ ms.lasthandoff: 02/13/2018
 
 ---
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 # <a name="product-confirmation-for-cluster-picking"></a>Confirmation de produit pour la sélection du groupement
 La sélection du groupement vous permet de regrouper des articles pour plusieurs commandes simultanément. Lorsque la sélection du groupement est appliqué, la confirmation d'article est cruciale pour vérifier les articles qui sont ajoutés aux clusters. Vous pouvez vérifier les articles de la sélection du groupement lors du processus de sélection du groupement.
@@ -37,7 +37,8 @@ La vérification d'article pour la sélection du groupement fonctionne de la mê
 1.  Dans une option de menu de l'appareil mobile, ouvrez l'écran de paramétrage pour la confirmation du travail : **Gestion des entrepôts** > **Gestion des entrepôts** > **Paramétrage** > **Appareil mobile** > **Options de menu d'appareil mobile**.
 2.  Dans l'option de menu de l'appareil mobile, ouvrez **Paramétrage de la confirmation du travail**.
 
-| Option        | Description   | 
-| ------------- | ------------- |
-|Confirmation du produit | Permet de confirmer chaque pièce du stock de l'appareil mobile lors de la lecture.|
+|        Option        |                                    Description                                    |
+|----------------------|-----------------------------------------------------------------------------------|
+| Confirmation du produit | Permet de confirmer chaque pièce du stock de l'appareil mobile lors de la lecture. |
+
 

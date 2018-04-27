@@ -28,8 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="retail-peripherals-overview"></a>Vue d'ensemble des périphériques de la vente au détail
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Cette rubrique explique les concepts relatifs aux périphériques de vente au détail. Elle décrit les différentes méthodes de connexion des périphériques au point de vente (PDV) ainsi que les composants en charge de gérer la connexion avec le PDV.
 

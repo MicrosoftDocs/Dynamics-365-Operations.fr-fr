@@ -28,7 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="intercompany-expenses"></a>Dépenses intersociétés
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Un travailleur qui est employé par une seule entité juridique au sein d'une organisation peut travailler pour une autre entité juridique au sein de la même organisation. Dans ce cas, vous pouvez utiliser la fonctionnalité de dépense intersociétés pour affecter les dépenses du travailleur à l'entité juridique pour laquelle le travail a été effectué. L'entité juridique qui emploie le travailleur est l'entité juridique prêteuse. L'entité juridique pour laquelle le travailleur engage les dépenses est appelée entité juridique emprunteuse. 
 

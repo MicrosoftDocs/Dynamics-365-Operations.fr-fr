@@ -16,15 +16,15 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 60f1c836400c2da39cfce7a5024075634a0b54e0
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: afb045ba29ef720e6b1ec03511dc812be4e4c2de
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-injury-and-illness-information"></a>Paramétrer les informations sur les blessures et les maladies
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Les employeurs doivent savoir si leurs employés sont victimes de blessures ou de maladies en raison de risques sur le lieu de travail. La page Blessures et maladies vous permet de paramétrer les informations qui facilitent la déclaration de blessures et de maladies survenues sur le lieu de travail. Vous pouvez paramétrer les types de blessures et de maladies, notamment les types de traitements, les coûts, et les conséquences. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 

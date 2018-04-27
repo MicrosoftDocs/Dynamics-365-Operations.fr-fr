@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-vendor-bank-account"></a>Créer un compte bancaire fournisseur
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure décrit comment créer un compte bancaire pour un fournisseur. Vous pouvez utiliser cette procédure dans les données fictives de la société USMF.
 

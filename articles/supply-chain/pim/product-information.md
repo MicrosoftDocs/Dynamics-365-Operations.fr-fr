@@ -29,9 +29,9 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="product-information-overview"></a>Présentation des informations sur les produits
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Cette rubrique fournit des informations sur la gestion des informations sur les produits. La gestion des informations sur les produits nécessite une définition, une catégorisation et des identifiants de produits partagés dans toutes les entités juridiques, ainsi que les configurations spécifiques d'un produit, pour s'adapter aux processus d'entreprise. 
 

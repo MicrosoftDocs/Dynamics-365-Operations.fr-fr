@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="attributes-attribute-groups-and-their-associations-with-various-retail-entities-in-finance-and-operations"></a>Les attributs, les groupes d'attributs et leurs associations contenant diverses entités Retail dans Finance and Operations
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Les *Attributs* permettent de décrire de façon plus précise un produit et ses caractéristiques dans les champs définis par l'utilisateur (tels que **Capacité de stockage**, **Capacité du disque dur**, **Est conforme à la norme Energy Star**, etc.). Dans Microsoft Dynamics 365 for Finance and Operations, les attributs peuvent être associés à diverses entités Retail, telles que des catégories de produits et des canaux de vente au détail, et des valeurs par défaut peuvent être définies pour eux. Les produits héritent ensuite les attributs et les valeurs par défaut lorsqu'ils sont associés aux catégories de produits ou à des canaux de vente au détail. Les valeurs par défaut peuvent être remplacées au niveau du produit individuel, au niveau de canal de vente au détail, ou dans un catalogue de vente au détail.
  
@@ -227,13 +227,13 @@ Les valeurs par défaut des attributs peuvent être remplacées pour les produit
 5. Dans l'organisateur **Produits**, sélectionnez le produit requis, puis sélectionnez **Attributs** au-dessus de la grille de produit.
 6. Dans les organisateurs suivants, mettez à jour les valeurs des attributs exigés :
 
-    - Support de produit partagé
-    - Attributs de produit partagés
-    - Canal du support
-    - Attributs de produit de canal
+   - Support de produit partagé
+   - Attributs de produit partagés
+   - Canal du support
+   - Attributs de produit de canal
 
-    > [!NOTE]
-    > Si le support de produit partagé et les attributs de produit partagés sont créés dans Finance and Operations, ils s'appliquent à tous les produits vendus au détail.
+     > [!NOTE]
+     > Si le support de produit partagé et les attributs de produit partagés sont créés dans Finance and Operations, ils s'appliquent à tous les produits vendus au détail.
 
 ![Groupe d'attributs de produit du catalogue](media/CatalogProdAttrValues.png)
 
@@ -249,11 +249,11 @@ Les valeurs par défaut des attributs peuvent être remplacées pour les produit
 
 5. Dans les organisateurs suivants, mettez à jour les valeurs des attributs exigés :
 
-    - Support de produit partagé
-    - Attributs de produit partagés
-    - Canal du support
-    - Attributs de produit de canal
+   - Support de produit partagé
+   - Attributs de produit partagés
+   - Canal du support
+   - Attributs de produit de canal
 
-    > [!NOTE]
-    > Si le support de produit partagé et les attributs de produit partagés sont créés dans Finance and Operations, ils s'appliquent à tous les produits vendus au détail.
+     > [!NOTE]
+     > Si le support de produit partagé et les attributs de produit partagés sont créés dans Finance and Operations, ils s'appliquent à tous les produits vendus au détail.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="define-vendor-payment-terms"></a>Définir les conditions de paiement fournisseur
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Définissez les conditions de paiement pour les factures fournisseur. La société fictive USMF est citée en exemple dans cette tâche.
 

@@ -17,15 +17,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 809a1466b0f4674f503bc654175d8f94b37a6508
-ms.openlocfilehash: 17195b28ebe828423b4e5bb862f5c2e9884471ce
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fdc9567040a2ea4e50325c98a2da19da039586bb
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="enter-project-timesheets"></a>Saisir des feuilles de temps du projet
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure vous permet de créer une feuille de temps à l'aide d'un écran Feuille de temps vide. La nouvelle feuille de temps peut être basée sur les informations issues d'une feuille de temps précédente, ou d'affectations d'activité et de projet dans la page Mes favoris. Par défaut, la page de liste Toutes les feuilles de temps affiche toutes vos feuilles de temps pour la période en cours. Vous pouvez utiliser la liste déroulante pour le champ Afficher de la page Mes feuilles de temps afin de filtrer la liste des feuilles de temps par période ou par projet, ou pour afficher les feuilles de temps créées au nom d'autres collaborateurs. Les données fictives utilisées pour créer cette procédure correspondent à la société USSI. Pour démarrer cette procédure, accédez à Gestion et comptabilité des projets > Feuilles de temps > Mes feuilles de temps
 

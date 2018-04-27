@@ -24,7 +24,7 @@ ms.lasthandoff: 11/14/2017
 ---
 # <a name="create-product-model-components"></a>Créer des composants de modèle de produit
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Les modèles de configuration de produit basés sur les contraintes utilisent des composants comme éléments constitutifs pour créer la structure du modèle de produit. Les composants doivent être créés avant qu'un modèle de produit puisse être établi. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="define-financial-dimensions"></a>Définir des dimensions financières
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Ce guide illustre l'ajout d'une dimension financière soutenue par une entité et d'une dimension financière personnalisée.  La société fictive USMF sert d'exemple dans ce guide.
 

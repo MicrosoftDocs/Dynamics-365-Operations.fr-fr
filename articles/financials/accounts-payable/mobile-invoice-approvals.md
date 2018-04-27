@@ -18,17 +18,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 98e32298d1c8285437adf3df9820a71e7a0d7f6c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a44e5d04edf327da2b3ba4676c8b823291801abe
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="mobile-invoice-approvals"></a>Approbations de factures par téléphone portable
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Les fonctionnalités mobiles de Microsoft Dynamics 365 for Finance and Operations permettent à un utilisateur professionnel de concevoir des expériences mobiles. Pour les scénarios avancés, la plateforme permet également aux développeurs d'étendre les capacités comme ils le désirent. Le moyen le plus efficace d'apprendre quelques-uns des nouveaux concepts sur la fonction mobile est de passer en revue le processus de conception de quelques scénarios. Cette rubrique est destinée à fournir une approche pratique pour concevoir des scénarios mobiles en prenant les approbations de facture de fournisseur pour mobile en tant que cas d'utilisation. Cette rubrique doit vous aider à créer d'autres variations de scénarios et peut également être appliquée à d'autres scénarios non liés aux factures fournisseur.
 
@@ -127,7 +126,7 @@ En général, lorsque vous travaillez avec le Concepteur mobile, veillez à « 
 ### <a name="create-the-workspace"></a>Créer l'espace de travail
 
 1.  Dans un navigateur, ouvrez Finance and Operations, puis connectez-vous.
-2.  Après vous être connecté, ajoutez **&mode=mobile** à l'URL comme indiqué dans l'exemple suivant, puis rafraîchissez la page : https://&lt;yoururl&gt;/?cmp=usmf&mi=DefaultDashboard**&mode=mobile**
+2.  Après vous être connecté, ajoutez **&mode=mobile** à l'URL comme indiqué dans l'exemple suivant, puis rafraîchissez la page : https://&lt;yoururl&gt;/?cmp=usmf&mi=DefaultDashboard **&mode=mobile**
 3.  Cliquez sur le bouton **Paramètres** (engrenage) dans la partie supérieure droite de la page, puis cliquez sur **Application mobile**. Le Concepteur d'application mobile doit s'afficher, ainsi que l'Enregistreur de tâches.
 4.  Cliquez sur **Ajouter** pour créer un espce de travail. Pour cet exemple, nommez l'espace de travail **Mes approbations**.
 5.  Entrez une description.
@@ -173,23 +172,23 @@ La première page mobile que vous devez configurer est la liste des factures aff
 
 Pour déterminer la page Détails de facture pour la fonction mobile, utilisez la page **VendMobileInvoiceHeaderDetails** dans Finance and Operations. Notez qu'en fonction du nombre de factures que vous avez dans votre système, cette page affiche l'ancienne facture (la facture qui a été créée préalablement). Pour trouver une facture spécifique, vous pouvez utiliser le filtre à gauche. Toutefois, nous n'avons pas besoin d'une facture spécifique pour cet exemple. Nous avons juste besoin de certaines données de factures afin que nous puissions concevoir la page mobile. [![Page Workflow](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
 
-1.  Dans l'URL Finance and Operations, remplacez le nom de l'option de menu par **VendMobileInvoiceHeaderDetails** pour ouvrir l'écran
-2.  Ouvrez le Concepteur mobile à partir du bouton **Paramètres** (engrenage)
-3.  Cliquez sur le bouton **Modifier** pour passer en mode d'édition dans l'espace de travail.
-4.  Sélectionnez la page **Mes factures fournisseur** créée précédemment, puis cliquez sur **Modifier**.
-5.  Sous l'onglet **Champs**, cliquez sur l'en-tête de colonne **Grille**.
-6.  Cliquez sur **Propriétés** &gt; **Ajouter une page**. **Remarque :** lorsque vous cliquez sur l'en-tête **Grille** et que vous ajoutez une page, la relation avec la page de détails est établie automatiquement.
-7.  Entrez un titre de page, tel que **Détails de la facture**, et une description, par exemple **Afficher les détails de l'en-tête et de la ligne**.
-8.  Cliquez sur **Sélectionner des champs**. Notez que l'ordre dans lequel vous ajoutez est l'ordre dans lequel les champs seront affichés à l'utilisateur final. La seule façon de modifier l'ordre des champs consiste à sélectionner tous les champs. 
-9.  Ajoutez les champs suivants à partir de l'en-tête selon la configuration requise pour ce scénario :
-    - Nom du fournisseur
-    - Total de la facture
-    - Compte de facturation
-    - Numéro de facture
-    - Date de facture
-    - Description de la facture
-    - Date d'échéance
-    - Devise de facturation
+1. Dans l'URL Finance and Operations, remplacez le nom de l'option de menu par **VendMobileInvoiceHeaderDetails** pour ouvrir l'écran
+2. Ouvrez le Concepteur mobile à partir du bouton **Paramètres** (engrenage)
+3. Cliquez sur le bouton **Modifier** pour passer en mode d'édition dans l'espace de travail.
+4. Sélectionnez la page <strong>Mes factures fournisseur** créée précédemment, puis cliquez sur **Modifier</strong>.
+5. Sous l'onglet **Champs**, cliquez sur l'en-tête de colonne **Grille**.
+6. Cliquez sur **Propriétés** &gt; **Ajouter une page**. **Remarque :** lorsque vous cliquez sur l'en-tête **Grille** et que vous ajoutez une page, la relation avec la page de détails est établie automatiquement.
+7. Entrez un titre de page, tel que **Détails de la facture**, et une description, par exemple **Afficher les détails de l'en-tête et de la ligne**.
+8. Cliquez sur **Sélectionner des champs**. Notez que l'ordre dans lequel vous ajoutez est l'ordre dans lequel les champs seront affichés à l'utilisateur final. La seule façon de modifier l'ordre des champs consiste à sélectionner tous les champs. 
+9. Ajoutez les champs suivants à partir de l'en-tête selon la configuration requise pour ce scénario :
+   - Nom du fournisseur
+   - Total de la facture
+   - Compte de facturation
+   - Numéro de facture
+   - Date de facture
+   - Description de la facture
+   - Date d'échéance
+   - Devise de facturation
 
 10. Ajoutez les champs suivants à partir de la grille de lignes dans la page :
     - Catégorie d'approvisionnement
@@ -199,7 +198,7 @@ Pour déterminer la page Détails de facture pour la fonction mobile, utilisez l
     - Montant des honoraires
 
 11. Une fois que l'ensemble des champs des deux étapes précédentes ont été ajoutés, cliquez sur **Terminé**. La page doit ressembler à l'illustration suivante.
-[![Page après l'ajout des champs](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
+    [![Page après l'ajout des champs](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
 12. Cliquez sur **Terminé** pour quitter le mode d'édition.
 13. Cliquez sur **Précédent**, puis **Terminé** pour quitter l'espace de travail
 14. Cliquez sur **Publier l'espace de travail** pour enregistrer votre travail
@@ -296,14 +295,14 @@ Pour ajouter des actions de workflow, utilisez la page **VendMobileInvoiceHeader
 
 ### <a name="vendor-invoice-attachments"></a>Pièces jointes facture fournisseur
 
-1.  Cliquez sur le bouton **Paramètres** (engrenage) dans la partie supérieure droite de la page, puis cliquez sur **Application mobile**
-2.  Cliquez sur le bouton **Modifier** pour passer en mode d'édition dans l'espace de travail.
-3.  Sélectionnez la page **Détails de la facture** créée précédemment, puis cliquez sur **Modifier**.
-4.  Définissez l'option **Gestion des documents** sur **Oui** comme suit. **Remarque :** s'il n'existe aucune exigence d'afficher les pièces jointes sur le périphérique mobile, vous pouvez laisser cette option définie sur **Non**, qui est le paramètre par défaut.
-![Gestion des documents](./media/docmanagement-216x300.png)
-6.  Cliquez sur **Terminé** pour quitter le mode d'édition.
-7.  Cliquez sur **Précédent**, puis **Terminé** pour quitter l'espace de travail
-8.  Cliquez sur **Publier l'espace de travail** pour enregistrer votre travail
+1. Cliquez sur le bouton **Paramètres** (engrenage) dans la partie supérieure droite de la page, puis cliquez sur **Application mobile**
+2. Cliquez sur le bouton **Modifier** pour passer en mode d'édition dans l'espace de travail.
+3. Sélectionnez la page <strong>Détails de la facture** créée précédemment, puis cliquez sur **Modifier</strong>.
+4. Définissez l'option **Gestion des documents** sur **Oui** comme suit. **Remarque :** s'il n'existe aucune exigence d'afficher les pièces jointes sur le périphérique mobile, vous pouvez laisser cette option définie sur **Non**, qui est le paramètre par défaut.
+   ![Gestion des documents](./media/docmanagement-216x300.png)
+5. Cliquez sur **Terminé** pour quitter le mode d'édition.
+6. Cliquez sur **Précédent**, puis **Terminé** pour quitter l'espace de travail
+7. Cliquez sur **Publier l'espace de travail** pour enregistrer votre travail
 
 ### <a name="vendor-invoice-line-distributions"></a>Répartitions des lignes de factures fournisseur
 

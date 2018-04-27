@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>Paramétrer des périodes de règlement fiscal
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Les périodes de règlement fiscal contiennent des informations sur l'intervalle pour lequel les taxes doivent être déclarées et payées. Un processus de règlement peut être exécuté pour une période de règlement pour un intervalle de dates spécifique. Tous les codes taxe associés à la période de règlement seront fixés. Selon la configuration de l'administration fiscale associée, l'impôt à payer est validé soit dans un fournisseur soit dans un compte général.
 

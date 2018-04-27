@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-and-assign-advanced-rule-structures"></a>Créer et affecter des structures de règle avancées
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Ce guide accompagne l'utilisateur le long de la création et de l'affectation d'une structure de règle avancée à une structure de compte. La société fictive USMF sert d'exemple dans ce guide.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="enter-an-addition-to-a-fixed-asset"></a>Saisie d'un supplément à une immobilisation
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure décrit comment ajouter un supplément à une immobilisation existante. L'objectif des ajouts d'immobilisations est de suivre les suppléments, la maintenance, ou les améliorations d'un actif, à titre indicatif uniquement. Toutes les modifications de la valeur ou de la durée de vie de l'immobilisation doivent être apportées séparément.   
 

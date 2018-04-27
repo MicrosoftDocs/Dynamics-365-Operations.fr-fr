@@ -26,7 +26,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="define-loyalty-schemes"></a>Définir les schémas de fidélité
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Cette procédure décrit comment définir un plan de fidélité. Les plans de fidélité sont des règles de gain ou de remboursement pour un programme de fidélité. La société fictive USRT sert d'exemple dans cette procédure.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="project-invoicing"></a>Facturation de projet
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article fournit une vue d'ensemble des projets en régie et des projets à prix fixe. Il inclut des informations sur les propositions de facture (factures préliminaires), le contrôle de facture, la facturation en compte, la facturation fournisseur, et les avoirs.
 

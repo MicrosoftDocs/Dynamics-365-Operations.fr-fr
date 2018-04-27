@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budget-planning-data-allocation"></a>Répartition de données de planification budgétaire
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article décrit les différentes méthodes de répartition disponibles dans Microsoft Dynamics 365 for Finance and Operations et comment elles peuvent être utilisées.  
 

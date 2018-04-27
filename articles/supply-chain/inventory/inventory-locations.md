@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="inventory-locations"></a>Emplacement de stockage
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Les emplacements de stockage sont utilisés avec l'entreposage de base (WMS I) pour déterminer où les articles sont enregistrés et où les articles sont prélevés dans un entrepôt WMS I.
 

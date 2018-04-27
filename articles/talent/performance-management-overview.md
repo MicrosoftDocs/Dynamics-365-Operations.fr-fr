@@ -27,8 +27,7 @@ ms.lasthandoff: 02/14/2018
 
 # <a name="performance-management-overview"></a>Vue d'ensemble de la gestion des performances
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Le processus de gestion des performances permet aux employés de documenter et de discuter de leurs performances avec leur responsable. Les responsables peuvent ensuite à leur tour faire des commentaires et fournir des instructions aux employés.  
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 11/08/2017
 ---
 # <a name="create-a-finished-product-february-2016-only"></a>Créer un produit fini (février 2016 uniquement)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette tâche consiste à créer un produit fini. Il s'agit de la première tâche dans la série de calculs des nomenclatures. Les données fictives utilisées pour créer cette tâche correspondent à la société USMF.
 

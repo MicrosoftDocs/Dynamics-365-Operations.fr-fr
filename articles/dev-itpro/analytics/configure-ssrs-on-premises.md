@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="configure-sql-server-reporting-services-for-an-on-premises-deployment"></a>Configurer SQL Server Reporting Services pour un déploiement sur site
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Utilisez les étapes de cette rubrique pour configurer SQL Server Reporting Services (SSRS) pour le déploiement de votre système Microsoft Dynamics 365 for Finance and Operations (sur site).
 
@@ -52,13 +52,13 @@ Utilisez les étapes de cette rubrique pour configurer SQL Server Reporting Serv
 
     [![Onglet URL du portail Web](./media/ssrs-config-manager-05.png)](./media/ssrs-config-manager-05.png)
     
-  Une fois le portail configuré, l'onglet **Portail Web** correspondra au graphique suivant.
+   Une fois le portail configuré, l'onglet **Portail Web** correspondra au graphique suivant.
     [![Onglet Portail Web](./media/ssrs-config-manager-06.png)](./media/ssrs-config-manager-06.png)
     
 8. Cliquez sur l'URL des états pour afficher le portail Web SQL Server Reporting Services. 
-9.  Lorsque vous êtes dans le portail, créez un dossier nommé **Dynamics**.
+9. Lorsque vous êtes dans le portail, créez un dossier nommé **Dynamics**.
 
-    [![Dossier Dynamics](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)
+   [![Dossier Dynamics](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)
     
 10. Dans **Gestionnaire de configuration Reporting Services**, cliquez sur l'onglet **Paramètres d'e-mail** et vérifiez que les paramètres correspondent au graphique suivant.
 
@@ -68,15 +68,15 @@ Utilisez les étapes de cette rubrique pour configurer SQL Server Reporting Serv
 
     [![Onglet Compte d'exécution](./media/ssrs-config-manager-09.png)](./media/ssrs-config-manager-09.png)
     
-  Ne modifiez pas les paramètres par défaut de l'onglet **Clés de chiffrement**. [![onglet clés de chiffrement](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)
+    Ne modifiez pas les paramètres par défaut de l'onglet **Clés de chiffrement**. [![onglet clés de chiffrement](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)
     
 12. Cliquez sur l'onglet **Paramètres d'abonnement** et vérifiez que les paramètres correspondent au graphique suivant.
 
     [![Onglet Paramètres d'abonnement](./media/ssrs-config-manager-11.png)](./media/ssrs-config-manager-11.png)
     
-  Ne modifiez pas les paramètres par défaut de l'onglet **Déploiement avec montée en puissance parallèle**. [![onglet déploiement avec montée en puissance parallèle](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)
+    Ne modifiez pas les paramètres par défaut de l'onglet **Déploiement avec montée en puissance parallèle**. [![onglet déploiement avec montée en puissance parallèle](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)
     
-  Ne modifiez pas les paramètres par défaut de l'onglet **Intégration Power BI**. [![onglet intégration power bi](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png) 
+    Ne modifiez pas les paramètres par défaut de l'onglet **Intégration Power BI**. [![onglet intégration power bi](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png) 
     
 13. Cliquez sur **Quitter** pour fermer le **Gestionnaire de configuration de Reporting Services**.
 

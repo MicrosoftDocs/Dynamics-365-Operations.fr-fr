@@ -1,5 +1,5 @@
 --- 
-title: "Générer des documents avec la mise à jour des données de l'application pour la gestion des états électroniques (ER)"
+title: "Concevoir des configurations pour générer des documents contenant des données d'application"
 description: "Pour réaliser les étapes de cette procédure, vous devez commencer par effectuer la procédure, ER Générer des documents avec la mise à jour des données d'application (Partie 1 - Importer les configurations)."
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: c724ce3c39ed7097a5a842b44a095628dcdfa131
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ad5508ea5807f505b29f2e60a1459c9c22552694
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="generate-documents-with-application-data-update-for-electronic-reporting-er"></a>Générer des documents avec la mise à jour des données de l'application pour la gestion des états électroniques (ER)
+# <a name="design-configurations-to-generate-documents-with-application-data"></a>Concevoir des configurations pour générer des documents contenant des données d'application
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Pour réaliser les étapes de cette procédure, vous devez commencer par effectuer la procédure, ER Générer des documents avec la mise à jour des données d'application (Partie 1 : Importer les configurations).
 

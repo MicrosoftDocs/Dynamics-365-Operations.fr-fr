@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="approve-application-inbox-records"></a>Approuver les enregistrements de la boîte de réception des candidatures
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure décrit comment réviser les candidatures reçues via les pages Libre-service employé. En plus de réviser les candidatures, vous pouvez les approuver dans les enregistrements de la boîte de réception que vous sélectionnez. Les enregistrements de la boîte de réception des candidatures représentent les candidatures qui ont été soumises à la société en vue de leur examen. Une fois un enregistrement approuvé, un enregistrement de candidat sera créé pour la personne ayant soumis sa candidature. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 

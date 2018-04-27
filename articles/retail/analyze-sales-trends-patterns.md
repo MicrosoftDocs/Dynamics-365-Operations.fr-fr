@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="analyze-sales-trends-and-patterns"></a>Analyser les évolutions et modèles des ventes
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Vous pouvez étudier les évolutions et les modèles des ventes en temps réel dans Microsoft Dynamics 365 for Retail.
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="inventory-object-values"></a>Valeurs d'un objet de stock
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article fournit des informations sur la manière dont les valeurs d'un objet de stock sont calculées. 
 

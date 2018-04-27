@@ -27,7 +27,7 @@ ms.lasthandoff: 03/07/2018
 
 # <a name="personnel-actions-faq"></a>Actions du personnel [FAQ]
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Cette rubrique contient des réponses aux questions que vous pouvez vous poser si votre organisation utilise les actions de membre du personnel. Les actions de membre du personnel sont des étapes supplémentaires que vous devez effectuer lorsque vous effectuez certaines tâches relatives aux membres du personnel. Par exemple, parmi les tâches qui peuvent nécessiter des actions de membre du personnel, on trouve la création de postes, la modification des valeurs de poste existantes, l'embauche de nouveaux collaborateurs, le transfert de collaborateurs, la modification de la rémunération du collaborateur, la modification des affectations de poste, ou la fin de contrat d'un collaborateur.
 
@@ -64,9 +64,9 @@ Ouvrez l'une des pages de liste d'action de membre du personnel et sélectionnez
 Si une demande d'action de membre du personnel échoue, procédez comme suit pour résoudre l'erreur et resoumettre la demande :
 
 > 1. Dans le **volet Actions**, cliquez sur le bouton **Texte d'erreur** pour afficher le texte du message qui décrit le problème.
-
+> 
 > 2. Dans le **volet Actions**, cliquez sur **Réactiver** pour charger les dernières informations et pour définir le statut de l'action de membre du personnel de nouveau sur **Brouillon**.
-
+> 
 > 3. Corrigez l'erreur, puis cliquez sur **Terminé** ou **Envoyer**.
 
 ## <a name="what-happens-to-a-personnel-action-that-uses-workflow-when-the-final-approval-is-completed"></a>Qu'arrive-t-il à une action de membre du personnel qui utilise le workflow lorsque l'approbation finale est terminée ?

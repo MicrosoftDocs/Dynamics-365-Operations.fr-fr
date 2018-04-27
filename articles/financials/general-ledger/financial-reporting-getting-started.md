@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="financial-reporting"></a>États financiers
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique explique où accéder aux états financiers dans Microsoft Dynamics 365 for Finance and Operations et comment utiliser les fonctionnalités de génération d'états financiers. Elle inclut une description des états financiers par défaut fournis.
 

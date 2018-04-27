@@ -1,5 +1,5 @@
 --- 
-title: "Créer le format pour effectuer le comptage et la synthèse pour la gestion des états électroniques (ER)"
+title: "Créer un format pour effectuer le comptage et la synthèse"
 description: "Les étapes suivantes expliquent comment un utilisateur affecté au rôle d'administrateur système ou de développeur d'états électroniques peut configurer un format de génération d'états électroniques (ER) pour effectuer le comptage et la synthèse en fonction des données de la sortie de texte déjà générée."
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5d4f57ae2a309d9e15c1afe60c3e91d7d7eb3870
-ms.openlocfilehash: 3c4ae958a03d4681a85f5b83d81fe64b9ac99cf5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 7613b78d4a9ab63f5be9773a8699fe3ed94636eb
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="create-format-for-counting-and-summing-for-electronic-reporting-er"></a>Créer le format pour effectuer le comptage et la synthèse pour la gestion des états électroniques (ER)
+# <a name="create-format-for-counting-and-summing"></a>Créer un format pour effectuer le comptage et la synthèse 
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Les étapes suivantes expliquent comment un utilisateur affecté au rôle d'administrateur système ou de développeur d'états électroniques peut configurer un format de génération d'états électroniques (ER) pour effectuer le comptage et la synthèse en fonction des données de la sortie de texte déjà générée. Ces étapes peuvent être effectuées dans n'importe quelle société.
 

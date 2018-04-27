@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="set-up-a-customer-loyalty-program"></a>Paramétrer un programme de fidélisation des clients
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Cet article décrit le paramétrage des composants d'un programme de fidélité. Les programmes de fidélité peuvent améliorer la fidélité des clients en les récompensant pour l'achat de produits dans vos magasins de vente au détail. Dans Microsoft Dynamics 365 for Retail, vous pouvez paramétrer des programmes de fidélité simples ou complexes qui s'appliquent entre les entités juridiques de tout canal de vente au détail.
 

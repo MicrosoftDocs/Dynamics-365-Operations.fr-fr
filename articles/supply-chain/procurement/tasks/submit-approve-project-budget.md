@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="submit-and-approve-project-budgets"></a>Envoyer et approuver les budgets des projets
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure décrit comment créer et envoyer le budget d'un projet. 
 

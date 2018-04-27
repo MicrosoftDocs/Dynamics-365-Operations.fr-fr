@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="establish-customer-method-of-payment"></a>Établir le mode de paiement client
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Créez un mode de paiement pour les paiements client. La société fictive USMF est citée en exemple dans cette tâche.
 

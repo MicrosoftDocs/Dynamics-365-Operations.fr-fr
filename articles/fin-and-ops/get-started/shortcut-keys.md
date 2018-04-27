@@ -27,8 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="keyboard-shortcuts"></a>Raccourcis clavier
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Les raccourcis clavier suivants s'appliquent à l'ensemble de Dynamics 365 for Finance and Operations. 
 
@@ -39,6 +38,7 @@ Les raccourcis clavier suivants s'appliquent à l'ensemble de Dynamics 365 for 
 
 
 ## <a name="action-shortcuts"></a>Raccourcis d'action
+
 |                                                   |                                  |
 |---------------------------------------------------|----------------------------------|
 | **Opération**                                    | **Raccourci**                        |
@@ -55,6 +55,7 @@ Les raccourcis clavier suivants s'appliquent à l'ensemble de Dynamics 365 for 
 | Afficher les raccourcis actuellement disponibles                | Alt+Maj+ K                      |                              
 
 ## <a name="date-picker-shortcuts"></a>Raccourcis du sélecteur de date
+
 |                                       |                                           |
 |---------------------------------------|-------------------------------------------|
 | **Opération**                        | **Raccourci**                                 |
@@ -68,6 +69,7 @@ Les raccourcis clavier suivants s'appliquent à l'ensemble de Dynamics 365 for 
 | Ne jamais prélever (ou la date maximale)          | N                                         |
 
 ## <a name="factbox-shortcuts"></a>Raccourcis de récapitulatif
+
 |                                                                                 |                                           |
 |---------------------------------------------------------------------------------|-------------------------------------------|
 | **Opération**                                                                  | **Raccourci**                                 |
@@ -79,6 +81,7 @@ Les raccourcis clavier suivants s'appliquent à l'ensemble de Dynamics 365 for 
 | Réduire le récapitulatif actif                                                    | Alt+0                                     |
 
 ## <a name="filtering-shortcuts"></a>Raccourcis de filtrage
+
 |                                    |                          |
 |------------------------------------|--------------------------|
 | **Opération**                     | **Appuyer**                |
@@ -89,6 +92,7 @@ Les raccourcis clavier suivants s'appliquent à l'ensemble de Dynamics 365 for 
 | Ouvrir le filtrage ou le tri avancé                                      | Ctrl+Maj+F3            | 
 
 ## <a name="form-shortcuts"></a>Raccourcis d'écran
+
 |                                                     |                   |
 |-----------------------------------------------------|-------------------|
 | **Opération**                                      | **Appuyer**         |
@@ -110,6 +114,7 @@ Les raccourcis clavier suivants s'appliquent à l'ensemble de Dynamics 365 for 
 | Fermer l'écran en ignorant les modifications non enregistrées       | Alt+Maj+Q       |
 
 ## <a name="form-navigation-shortcuts"></a>Raccourcis de navigation dans les écrans
+
 |                                                     |                                              |
 |-----------------------------------------------------|----------------------------------------------|
 | **Opération**                                      | **Raccourci**                                    |
@@ -128,6 +133,7 @@ Les raccourcis clavier suivants s'appliquent à l'ensemble de Dynamics 365 for 
 | Basculer sur la vue Lignes                                | Ctrl+Maj+L                                 |
 
 ## <a name="grid-shortcuts"></a>Raccourcis de grille
+
 |                                                                                                                        |                                 |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
 | **Opération**                                                                                                         | **Raccourci**                       |
@@ -148,6 +154,7 @@ Les raccourcis clavier suivants s'appliquent à l'ensemble de Dynamics 365 for 
 | Ouvrir le filtrage de grille pour la colonne active (avec le focus sur la ligne d'en-tête)                                              | Entrer                           |
 
 ## <a name="input-control-shortcuts"></a>Raccourcis de contrôle d'entrée
+
 |                                                                              |                               |
 |------------------------------------------------------------------------------|-------------------------------|
 | **Opération**                                                               | **Raccourci**                     |
@@ -163,6 +170,7 @@ Les raccourcis clavier suivants s'appliquent à l'ensemble de Dynamics 365 for 
 | Effectuer un basculement de la vue entre la zone de texte et la barre d'outils dans un contrôle d'éditeur HTML | F6                            |
 
 ## <a name="messaging-shortcuts"></a>Raccourcis de messagerie
+
 |                          |               |
 |--------------------------|---------------|
 | **Opération**           | **Raccourci**     |
@@ -170,6 +178,7 @@ Les raccourcis clavier suivants s'appliquent à l'ensemble de Dynamics 365 for 
 | Accéder à la barre de messages    | Ctrl+F7       |
 
 ## <a name="navigation-shortcuts"></a>Raccourcis de navigation
+
 |                                                                               |                            |
 |-------------------------------------------------------------------------------|----------------------------|
 | **Opération**                                                                | **Raccourci**                  |
@@ -191,6 +200,7 @@ Les raccourcis clavier suivants s'appliquent à l'ensemble de Dynamics 365 for 
 | Effectuer un déplacement vers le volet Récapitulatif (qui peut permettre de l'ouvrir)                       | Alt+M, B ou Ctrl+F2         |
 
 ## <a name="personalization-shortcuts"></a>Raccourcis de personnalisation
+
 |                                                                                                                        |                                     |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
 | **Opération**                                                                                                         | **Raccourci**                           |
@@ -219,6 +229,7 @@ Les raccourcis clavier suivants s'appliquent à l'ensemble de Dynamics 365 for 
 | Quitter le mode personnalisation (lorsque vous êtes en mode personnalisation)                                                               | Échap                                 |
 
 ## <a name="segmented-entry-shortcuts"></a>Raccourcis d'entrée segmentée
+
 |                                                                                                                         |                                  |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
 | **Opération**                                                                                                          | **Raccourci**                        |

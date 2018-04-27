@@ -28,7 +28,7 @@ ms.lasthandoff: 02/19/2018
 
 # <a name="service-subscriptions"></a>Services récurrents
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Les abonnements sont basés sur un projet en régie. Vous pouvez créer des abonnement à partir d'un projet, à partir de la page **Services récurrents** ou à l'aide d'un groupe de services récurrents.
 

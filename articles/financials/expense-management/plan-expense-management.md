@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="configure-expense-management"></a>Configurer la gestion des dépenses
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique décrit les considérations et les décisions que vous devez prendre au cours du processus de planification avant de configurer la gestion des dépenses dans Microsoft Dynamics 365 for Finance and Operations. Dans Gestion des dépenses, vous pouvez stocker des informations sur les modes de paiement, des demandes de voyage, états de dépenses, et des stratégies, etc.
 

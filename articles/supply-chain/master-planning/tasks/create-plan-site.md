@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-plan-for-a-site"></a>Créer un plan pour un site
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Le gestionnaire de production calcule les besoins en matériaux et en capacité pour la production d'un article spécifique. Une fois les suggestions d'approvisionnement créées, il recherche les commandes sur le site pour lequel il effectue la planification et confirme les commandes, en commençant par celles qui sont urgentes. Les commandes les plus urgentes sont celles qui doivent être confirmées à la date actuelle. Utilisez les données fictives de société USMF pour effectuer ces tâches.
 

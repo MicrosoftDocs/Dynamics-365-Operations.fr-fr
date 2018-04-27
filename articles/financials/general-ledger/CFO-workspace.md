@@ -28,7 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a>Ajouter des dimensions financières à l'espace de travail CFO
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique explique comment ajouter des dimensions financières à l'espace de travail Directeur financier, afin qu'elles puissent être utilisées pour les états comptables et budgétaires. L'espace de travail CFO contient un onglet **Vue d'ensemble** et un onglet **Rapport financier**. Les états de ces deux onglets sont soutenus par deux mesures : LedgerActivityMeasure et BudgetActivityMeasure. Dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (Juillet 2017), il existe une relation entre ces deux mesures et l'entité DimensionCombinationEntity. Par conséquent, vous pouvez sélectionner des dimensions.
 

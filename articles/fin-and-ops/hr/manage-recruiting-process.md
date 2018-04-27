@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="manage-a-recruiting-process"></a>Gestion d'un processus de recrutement
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique décrit un concept que les recruteurs peuvent utiliser pour suivre les étapes d'un processus de recrutement, notamment les moyens pour annoncer les postes vacants et recruter des candidats, en suivant les informations propres aux candidats et aux candidatures, en interviewant les candidats et en sélectionnant un ou plusieurs candidats pour pourvoir les postes vacants au sein de votre organisation.
 

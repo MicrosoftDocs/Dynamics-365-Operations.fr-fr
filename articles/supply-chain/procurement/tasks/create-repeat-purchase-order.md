@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-repeat-purchase-order"></a>Créer une commande fournisseur répétée
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure vous montre comment créer une commande fournisseur répétée (CF) en copiant des lignes d'un document de commande fournisseur précédent dans un nouveau CF ou un CF existant. Il y a deux méthodes pour créer des commandes répétées. Vous pouvez utiliser les actions disponibles au niveau du document à partir du volet Actions ou vous pouvez utiliser les actions de détails de ligne. Les actions de niveau du document sont principalement prévues pour créer une commande fournisseur en ajoutant des lignes et des informations d'en-tête à partir d'une autre commande, alors que l'action de détails de ligne sert principalement à ajouter des lignes à une commande existante. L'exemple indiqué dans ce guide peut être utilisé dans les données fictives de la société USMF. Cette tâche est généralement effectuée par un agent des achats.
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="production-posting"></a>Validation de la production
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article fournit des informations sur différents types de validations du processus de production.
 

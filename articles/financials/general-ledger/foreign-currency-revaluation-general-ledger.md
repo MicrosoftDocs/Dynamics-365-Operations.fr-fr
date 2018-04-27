@@ -28,8 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Réévaluation des comptes en devises pour la comptabilité
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique fournit une vue d'ensemble des fonctionnalités du processus de réévaluation des comptes en devises de la comptabilité : paramétrage, exécution du processus, calcul du processus, et contrepassation des transactions de réévaluation, si nécessaire. 
 

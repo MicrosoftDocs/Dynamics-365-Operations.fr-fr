@@ -28,7 +28,7 @@ ms.lasthandoff: 03/07/2018
 
 # <a name="register-material-consumption-using-a-mobile-device"></a>Enregistrement de la consommation de matières à l'aide d'un appareil mobile
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cette rubrique décrit un workflow qui active l'enregistrement de la consommation de matières premières dans la production à l'aide d'un appareil portable.
 

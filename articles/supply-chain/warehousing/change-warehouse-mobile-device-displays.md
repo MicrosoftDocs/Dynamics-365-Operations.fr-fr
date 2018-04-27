@@ -28,8 +28,7 @@ ms.lasthandoff: 02/05/2018
 
 # <a name="warehouse-mobile-device-display-settings"></a>Paramètres d'affichage de l'appareil mobile de l'entrepôt
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cet article décrit comment définir l'apparence d'affichage d'un appareil mobile, et comment mettre en correspondance les raccourcis clavier avec les contrôles, tels que les boutons. 
 

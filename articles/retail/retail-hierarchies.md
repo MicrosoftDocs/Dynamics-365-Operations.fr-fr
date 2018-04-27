@@ -29,8 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="retail-hierarchies"></a>Hiérarchies des ventes au détail
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Cet article décrit les hiérarchies de ventes au détail dans Microsoft Dynamics 365 for Retail.
 

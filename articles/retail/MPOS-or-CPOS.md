@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="choose-between-modern-pos-and-cloud-pos"></a>Choix entre Modern POS et Cloud POS
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Cette rubrique fournit aux responsables de l'implémentation un contexte, des conseils et des instructions supplémentaires sur les facteurs qu'ils doivent prendre en considération lorsqu'ils déploient Microsoft Dynamics 365 for Retail. En passant en revue et en suivant ces instructions dans le cadre du processus de déploiement, les responsables de l'implémentation peuvent éviter les problèmes susceptibles d'affecter la satisfaction ou les performances de l'utilisateur.
 
@@ -92,8 +92,8 @@ Tenez compte des informations suivantes lorsque vous planifiez votre implémenta
 
     À moins que la connectivité d'un appareil donné soit très dépendante et résiliente, ou qu'un certain temps d'interruption soit acceptable pour le revendeur, nous vous recommandons l'une des options suivantes :
 
-    - Utilisez MPOS dans Windows et activez le mode hors connexion.
-    - Déployez un RSSU sur site.
+  - Utilisez MPOS dans Windows et activez le mode hors connexion.
+  - Déployez un RSSU sur site.
 
     Ces deux options ne sont pas mutuellement exclusives. Pour la topologie la plus fiable, les détaillants peuvent déployer un RSSU local pour réduire la dépendance vis-à-vis de la connexion Internet ou de la disponibilité d'Azure, et ils peuvent également déployer des caisses enregistreuses POS lorsque le mode hors connexion est activé si le serveur ou réseau local rencontre un problème.
 

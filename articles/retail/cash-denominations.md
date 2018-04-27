@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="configure-cash-denominations-for-pos"></a>Configurer les dénominations des disponibilités pour le PDV
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Les dénominations des disponibilités pour les billets et les pièces peuvent être définies dans l'arrière-guichet qui sera utilisé par les caissiers, les associés de vente et les directeurs du magasin à partir du PDV. Ces dénominations peuvent être utilisées pour faciliter le comptage de caisse en fin de journée ou pour enregistrer rapidement une vente.
 

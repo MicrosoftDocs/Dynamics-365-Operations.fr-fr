@@ -27,8 +27,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="configure-a-conditional-decision-in-a-workflow"></a>Configurer une décision conditionnelle dans un workflow
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 La procédure suivante permet de configurer les propriétés d'une décision conditionnelle.
 
