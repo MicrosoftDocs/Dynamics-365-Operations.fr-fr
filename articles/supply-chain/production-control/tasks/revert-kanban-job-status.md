@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="revert-kanban-job-status"></a>Rétablir le statut de l'opération kanban
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure traite du rétablissement d'un statut de tâche de kanban incorrect. Cela est utile au cas où l'opérateur mettrait à jour la tâche incorrecte, ou définirait le statut incorrect par erreur. Dans cette procédure, une tâche de kanban est enregistrée comme préparée par erreur, et le statut est rétabli. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Cette procédure est destinée au responsable de magasin ou à l'opérateur travaillant pour une société de lean manufacturing.
 

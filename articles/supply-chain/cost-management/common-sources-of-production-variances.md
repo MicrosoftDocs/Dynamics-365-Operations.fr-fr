@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="common-sources-of-production-variances"></a>Sources courantes des écarts de production
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article décrit diverses sources typiques de chaque type d'écart de production. 
 

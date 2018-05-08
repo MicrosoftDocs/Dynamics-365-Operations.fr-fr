@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="close-the-fiscal-year"></a>Clôturer l'exercice
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure guide l'utilisateur tout au long du processus de clôture de fin d'exercice qui transfère les soldes vers le nouvel exercice.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="set-up-vendor-accounts"></a>Paramétrer les comptes fournisseur
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit les types d'informations que vous devez spécifier lorsque vous créez un nouveau compte fournisseur.
 

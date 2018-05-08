@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-advanced-rules-for-journals"></a>Créer des règles avancées pour les journaux
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure consiste à créer des règles avancées pour les journaux. Cela inclut de définir un contrôle des journaux et des restrictions de validation utilisateur. La société fictive USMF sert d'exemple dans cette procédure.
 

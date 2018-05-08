@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="settlement-priority-in-the-public-sector"></a>Priorité de règlement (Secteur public)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dans Finance and Operations, vous pouvez sélectionner manuellement les transactions à régler, ou vous pouvez utiliser la fonctionnalité de règlement automatique. Les organisations du secteur public ont des options supplémentaires pour classer les règlements à l'aide des classifications de facturation. Ces options peuvent être utilisées avec le règlement automatique ou manuel.
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="distributions-on-an-expense-report"></a>Distributions d'un état de dépenses
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
  Lorsque vous entrez des dépenses dans un état de dépenses, vous pouvez répartir les dépenses entre plusieurs projets, dimensions financières ou comptes de votre organisation.
 

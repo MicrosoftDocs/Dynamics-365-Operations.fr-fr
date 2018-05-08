@@ -28,7 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="200-percent-reducing-balance-depreciation"></a>Amortissements dégressifs de 200 %
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article propose une vue d'ensemble de la méthode d'amortissement dégressif de 200 %.
 

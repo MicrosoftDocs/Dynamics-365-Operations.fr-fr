@@ -28,7 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="reverse-a-vendor-payment"></a>Contrepasser un paiement fournisseur
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article décrit les différences entre contrepasser, supprimer, annuler et rejeter un paiement. En outre, il détaille les deux méthodes pour contrepasser une vérification fournisseur. 
 

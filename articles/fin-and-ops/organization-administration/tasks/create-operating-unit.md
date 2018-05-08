@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-an-operating-unit"></a>Créer une unité opérationnelle
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Une section est une organisation utilisée pour partager le contrôle des ressources économiques et des processus opérationnels dans une société. Dans une section, les personnes ont la responsabilité d'optimiser l'utilisation des ressources rares, d'améliorer les processus et de justifier leurs performances. Les types de sections incluent les centres de coût, les unités commerciales, les départements et les chaînes de valeurs. Procédez comme suit pour créer une unité opérationnelle. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 

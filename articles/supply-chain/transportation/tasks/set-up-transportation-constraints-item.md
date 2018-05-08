@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="set-up-transportation-constraints-for-an-item"></a>Paramétrer des contraintes de transport pour un article
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure paramètrera une contrainte de transport pour empêcher un article sélectionné d'être transporté via un concentrateur sélectionné. Cette tâche est généralement effectuée par un coordinateur de transport. Vous pouvez utiliser cette procédure dans les données fictives de la société USMF ou utiliser vos propres données.
 

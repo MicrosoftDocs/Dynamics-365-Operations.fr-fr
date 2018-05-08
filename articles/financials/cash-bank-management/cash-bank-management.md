@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="cash-and-bank-management-home-page"></a>Page d'accueil de gestion de la trésorerie et de la banque
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Vous pouvez utiliser le module Gestion des fonds et des banques pour mettre à jour les comptes bancaires de l'entité juridique et les instruments financiers qui y sont associés. 
 

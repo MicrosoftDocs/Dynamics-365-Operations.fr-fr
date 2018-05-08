@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="create-a-new-benefit"></a>Créer un avantage
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette tâche vous indique comment créer des détails des avantages qui seront utilisés lors de la création d'un nouvel avantage. Les données fictives utilisées pour créer cette tâche correspondent à la société USMF. Cette tâche est destinée à un gestionnaire de rémunération et avantages.
 

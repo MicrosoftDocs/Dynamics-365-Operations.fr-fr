@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="update-standard-costs-in-a-non-manufacturing-environment"></a>Mettre à jour des coûts standard dans un environnement hors fabrication
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article fournit des instructions pour mettre à jour les coûts standard dans un environnement hors fabrication.
 

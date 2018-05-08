@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="set-up-sales-tax-authorities"></a>Paramétrage des administrations fiscales
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Les administrations fiscales sont des entités auprès desquelles les taxes doivent être déclarées et payées. Vous pouvez payer des taxes à l'administration directement ou via un compte fournisseur que vous créez pour l'administration fiscale. Dans ce cas, la société peut utiliser ses routines de paiement habituelles pour payer l'administration fiscale à temps. Si vous ne paramétrez pas l'administration fiscale comme fournisseur, un paiement manuel doit être préparé, à remettre à l'administration fiscale à la date d'échéance appropriée. La société fictive USMF est citée en exemple dans cette tâche.
 

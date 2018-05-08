@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="report-production-orders-as-finished"></a>Déclaration de fin des ordres de fabrication
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 La déclaration de fin correspond à un stade de production. À ce stade, un produit fini est signalé et passé de l'ordre de fabrication au stock.
 

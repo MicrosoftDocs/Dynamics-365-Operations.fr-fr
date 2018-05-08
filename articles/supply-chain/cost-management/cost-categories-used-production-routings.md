@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="cost-categories-used-in-production-routing"></a>Catégories de coûts utilisées dans l'acheminement de la production
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article fournit des informations sur les catégories de coûts qui s'appliquent aux environnements de fabrication qui utilisent l'acheminement.
 

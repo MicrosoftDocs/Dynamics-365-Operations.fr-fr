@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="confirm-sales-orders"></a>Confirmer les commandes client
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure illustre comment confirmer des commandes client. Vous découvrirez comment confirmer une seule commande et comment confirmer plusieurs commandes à la fois. Ces tâches sont généralement effectuées par un préparateur de commandes client. Vous pouvez utiliser cette procédure dans la société fictive de démonstration USMF ou utiliser vos propres données. Avant de commencer, assurez-vous qu'il existe plusieurs commandes client en cours pour le même client. Si vous utilisez USMF, vous pouvez utiliser le client US-027.
 

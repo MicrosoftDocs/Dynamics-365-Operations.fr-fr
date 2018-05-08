@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="develop-salarycompensation-structure-and-plans"></a>Développer les plans et la structure du salaire/de la rémunération
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ce guide de tâche décrit le processus de création d'un régime de rémunération fixe et d'activation des employés à inscrire dans le plan via des règles d'admissibilité. Les données fictives utilisées pour créer cette tâche correspondent à la société USMF et la tâche est destinée aux gestionnaires de rémunération et avantages.
 

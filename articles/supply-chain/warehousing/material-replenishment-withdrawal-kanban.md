@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="replenishment-with-withdrawal-kanbans"></a>Réapprovisionnement avec des kanbans de prélèvement
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit comment le kanban de prélèvement est utilisé pour le réapprovisionnement des matières dans le cadre des activités de fabrication.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="define-compensation-process-and-calculate-results"></a>Définir le processus de rémunération et calculer les résultats
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Des processus de rémunération permettent de déterminer de nouveaux montants et primes de rémunération pour les employés inscrits aux régimes de rémunération fixes et variables. Vous pouvez exécuter les processus de rémunération plusieurs fois afin d'effectuer une analyse d'hypothèse, et vérifier ainsi que toutes les modifications et tous les paramètres sont corrects. Cette procédure crée un processus de rémunération, exécute le processus, et affiche les résultats. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 

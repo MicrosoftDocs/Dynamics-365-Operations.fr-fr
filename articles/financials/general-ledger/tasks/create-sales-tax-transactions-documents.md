@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-sales-tax-transactions-on-documents"></a>Créer des transactions de taxe sur les documents
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 La taxe sur les documents est calculée en indiquant un groupe de taxe et un groupe de taxe d'article sur les lignes du document. Ces valeurs proviennent par défaut des données principales mais peuvent être modifiées manuellement le cas échéant. La taxe calculée peut être vérifiée sur une ligne et au niveau du document. La société fictive USMF est citée en exemple dans cette tâche.
 

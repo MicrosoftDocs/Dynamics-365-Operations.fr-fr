@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="before-you-buy"></a>Avant d'acheter 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Nouveautés de Dynamics 365 for Finance and Operations ? Nous vous préparé des instructions pas-à-pas si vous évaluez Finance and Operations ou si vous êtes prêt à effectuer un achat.
 

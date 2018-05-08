@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>Paramétrer la validation du rapprochement de factures de la compatibilité fournisseur.
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 La société fictive USMF sert d'exemple dans cet enregistrement. Les différentes étapes seront effectuées par le responsable comptabilité fournisseur ou le gestionnaire comptable. Avant de commencer, vérifiez que la clé de configuration Rapprochement de factures est sélectionnée. Si l'entité juridique suit des dépenses, comme les frais de transport, à l'aide des frais, vérifiez que la clé de configuration Frais est sélectionnée.  Le rapprochement de factures du module Achats est le processus de rapprochement des informations de la facture fournisseur, de la commande fournisseur et de l'accusé de réception de marchandises. Les différences entre ces documents sont appelées des écarts de rapprochement. Ces derniers sont comparés aux tolérances spécifiées. Si un écart de rapprochement dépasse le pourcentage ou le montant de tolérance, des icônes d'écart de rapprochement sont affichées dans les écrans Facture fournisseur et Détails de rapprochement de factures.
 

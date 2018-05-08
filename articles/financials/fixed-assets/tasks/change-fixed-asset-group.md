@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="change-a-fixed-asset-group"></a>Modifier un groupe d'immobilisations
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Les immobilisations doivent être affectées au groupe d'immobilisations approprié. Le groupe d'immobilisations est utilisé lorsque vous effectuez les opérations suivantes :
 

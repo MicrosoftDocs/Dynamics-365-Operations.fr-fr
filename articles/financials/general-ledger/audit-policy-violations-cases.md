@@ -28,7 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="audit-policy-violations-and-cases"></a>Violations et incidents de stratégie d'audit
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article décrit la manière dont les incident d'audit sont générés à la suite de violations des règles de stratégie d'audit. Il inclut également des informations sur les différentes manières dont les stratégies d'audit utilisent la plage de dates de sélection de document.
 

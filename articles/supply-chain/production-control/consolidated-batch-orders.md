@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="consolidated-batch-orders"></a>Lots de production consolidés
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article décrit le concept des lots de production consolidés.
 

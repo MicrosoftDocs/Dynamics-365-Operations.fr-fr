@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-released-product-for-a-single-company"></a>Créer un produit lancé pour une seule société
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure commence par la création d'un produit unique dans le contexte d'une seule unité juridique. Une fois le produit lancé créé, il est immédiatement disponible dans cette unité uniquement. Vous pouvez parcourir cette procédure dans la société fictive USMF. Cette tâche est généralement effectuée par un concepteur de produit.
 

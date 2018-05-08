@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="job-scheduling"></a>Planification de tâche
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article fournit des informations sur la planification des tâches, qui constitue une forme plus détaillée de planification que la planification d'opérations. La planification des tâches permet de programmer des tâches ou ordres d'atelier, et de contrôler l'environnement de fabrication.
 

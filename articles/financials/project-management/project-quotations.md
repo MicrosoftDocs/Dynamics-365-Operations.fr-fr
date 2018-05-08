@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-quotations"></a>Devis de projet
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article présente le concept de devis de projet. Vous pouvez l'utiliser pour élaborer une offre attractive pour un client à la première étape de la phase de projet. Un devis peut inclure les articles et services qui font l'objet d'un devis, des informations de contact de base, des accords commerciaux spéciaux et des remises et d'éventuelles taxes et surcharges. 
 

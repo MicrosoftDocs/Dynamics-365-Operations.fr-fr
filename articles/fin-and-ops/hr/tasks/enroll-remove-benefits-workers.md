@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="enroll-and-remove-benefits-from-workers"></a>Inscrire et annuler l'inscription des travailleurs à des avantages
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure illustre comment un collaborateur peut être inscrit à un ou plusieurs avantages, et comment plusieurs collaborateurs peuvent être inscrits à un avantage. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 

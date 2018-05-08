@@ -28,7 +28,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="acquire-assets-through-procurement"></a>Acquérir les actifs via l'approvisionnement
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit comment paramétrer l'intégration entre Immobilisations et Comptabilité fournisseur pour créer automatiquement des immobilisations à partir de commandes fournisseur ou de factures fournisseur ou pour valider automatiquement des transactions d'acquisition et d'ajustement d'acquisition pour des immobilisations.
 

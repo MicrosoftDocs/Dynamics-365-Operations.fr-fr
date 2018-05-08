@@ -28,7 +28,7 @@ ms.lasthandoff: 03/07/2018
 
 # <a name="use-external-catalogs-for-punchout-eprocurement"></a>Utiliser des catalogues externes pour PunchOut eProcurement
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 En utilisant des catalogues externes pour PunchOut eProcurement, il n'est pas nécessaire de tenir à jour les informations sur les produits de vos fournisseurs dans vos propres données principales. À la place, le chariot sur le site Web d'un fournisseur est converti en lignes de demande contenant les informations correctes sur les produits. 
 

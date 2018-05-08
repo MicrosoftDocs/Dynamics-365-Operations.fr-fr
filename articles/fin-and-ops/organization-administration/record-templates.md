@@ -27,7 +27,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="record-templates"></a>Modèles d'enregistrement
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article présente le concept des modèles d'enregistrement et explique comment ils permettent de créer des enregistrements partageant des informations.
 

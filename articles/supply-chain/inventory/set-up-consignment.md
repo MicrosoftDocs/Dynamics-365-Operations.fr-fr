@@ -28,7 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="set-up-consignment"></a>Paramétrer la consignation
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique explique comment configurer les opérations de stock de consignation entrant.
 

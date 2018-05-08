@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-online-channels-and-define-channel-attributes"></a> Créer des canaux en ligne et définir les attributs du canal
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Cette procédure décrit la création d'un canal en ligne et son ajout à la hiérarchie d'organisation. Vous devez créer la hiérarchie d'organisation avant de créer un canal en ligne. La société fictive USRT sert d'exemple dans cette procédure.
 

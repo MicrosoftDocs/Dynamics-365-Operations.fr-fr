@@ -27,7 +27,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>Fusion du modèle de la valeur d'immobilisation et du registre d'amortissement
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dans les versions précédentes, il y avait deux concepts d'évaluation pour les immobilisations : modèles de valeur et registres des amortissements. Dans Microsoft Dynamics 365 for Operations (1611), la fonctionnalité de modèle de valeur et la fonctionnalité du registre des amortissements ont été fusionnées en un concept unique appelé registre.
 

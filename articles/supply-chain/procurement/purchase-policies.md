@@ -28,7 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="purchasing-policies"></a>Politiques d'achat
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article fournit des informations sur les politiques d'achat. Une stratégie d'achat est une collection de règles qui contrôlent le processus de demande. Les stratégies d'achat permettent aux administrateurs de l'approvisionnement d'implémenter leur stratégie d'approvisionnement en créant une structure de stratégie qui est aligné sur les besoins d'achats stratégiques de l'organisation.
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="removed-or-deprecated-features"></a>Fonctions supprimées ou déconseillées
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit les fonctions qui ont été supprimées ou déconseillées pour Dynamics 365 for Finance and Operations.
 

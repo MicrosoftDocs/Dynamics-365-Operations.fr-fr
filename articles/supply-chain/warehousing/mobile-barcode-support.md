@@ -27,7 +27,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="mobile-bar-code-support"></a>Prise en charge des codes-barres mobiles
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Comme Android est un projet en open source, tout fabricant de matériel pour les scanneurs de code-barres d'entrepôt peut fabriquer un périphérique pour exécuter le système d'exploitation Android. Un périphérique est compatible avec Android uniquement s'il peut exécuter des applications qui sont écrites pour l'environnement d'exécution Android.
 Toutefois, un fournisseur de matériel peut modifier et créer des superpositions de la version Android qui s'exécutent sur leur matériel. Microsoft ne peut pas être tenu responsable de s'assurer qu'une application de lecture de code-barres mobile pour Android est compatible avec le matériel de lecture du code-barres d'un fabricant et la version d'Android qui s'exécute sur celui-ci. 

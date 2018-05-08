@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="define-and-maintain-channel-clients-registers-and-hardware-stations"></a>Définir et tenir à jour les clients de canal, y compris les caisses enregistreuses et les stations matérielles
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Cette rubrique décrit comment connecter des périphériques à votre Retail POS.
 

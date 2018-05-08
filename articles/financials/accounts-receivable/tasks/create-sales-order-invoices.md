@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-sales-order-invoices"></a>Créer des factures de commande client
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ce guide de tâche décrit la facturation d'une commande client, notamment la fusion des factures et le traitement par lots. La société fictive USMF sert d'exemple dans cette procédure.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-value-stream"></a>Créer une chaîne de valeur
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Les chaînes de valeur sont des unités opérationnelles qui regroupent un ou plusieurs flux de production. Pour définir un flux de production, vous devez définir une chaîne de valeur.
 

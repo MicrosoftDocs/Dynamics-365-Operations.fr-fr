@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-vendor-account"></a>Création d'un compte fournisseur
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure indique comment créer un compte fournisseur, puis ajouter une adresse et des informations de contact. La procédure ne montre pas comment renseigner tous les champs à des fins d'achat et de gestion financière. Pour plus d'informations sur ces champs, lisez les descriptions des champs. Vous pouvez utiliser cette procédure dans la société fictive de démonstration USMF ou utiliser vos propres données. Les comptes fournisseur sont généralement créés par un professionnel de l'approvisionnement ou de la comptabilité client.
 

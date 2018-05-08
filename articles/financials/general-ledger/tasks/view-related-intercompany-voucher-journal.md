@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="view-a-related-intercompany-voucher-from-a-journal"></a>Afficher un document intersociétés associé d'un journal
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 La fenêtre associée de numéro de document affiche le numéro de document de la société de contrepartie lors de la validation d'une transaction intersociétés du journal des opérations diverses.
 

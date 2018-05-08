@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="microsoft-dynamics-365-for-talent-system-requirements-and-update-policy"></a>Configuration système et politique de mise à jour de Microsoft Dynamics 365 for Talent
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Cette rubrique répertorie la configuration requise pour Microsoft Dynamics 365 for Talent. Elle décrit également la stratégie de mise à jour.
 

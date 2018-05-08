@@ -27,7 +27,7 @@ ms.lasthandoff: 03/05/2018
 
 # <a name="hardware-sizing-for-on-premises-environments"></a>Sizing matériel pour les environnements sur site
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Avant de commencer le processus de calibrage du matériel et de l'infrastructure pour un environnement sur site, familiarisez-vous avec la [Configuration requise](system-requirements.md) et les [Instructions de paramétrage et de déploiement](../../dev-itpro/deployment/setup-deploy-on-premises-environments.md) pour obtenir des connaissances approfondies de l'infrastructure sous-jacente. 
 

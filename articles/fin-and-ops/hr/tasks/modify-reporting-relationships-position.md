@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="modify-reporting-relationships-for-a-position"></a>Modifier les relations hiérarchiques d'un poste
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure illustre comment modifier la relation hiérarchique pour un employé. La relation hiérarchique peut être utilisée pour acheminer des documents dans le workflow. La procédure illustre également la manière d'affecter l'employé à des hiérarchies supplémentaires. Par exemple, un employé peut faire partie d'une équipe de projet avec une relation hiérarchique informelle envers un superviseur du projet. Les relations hiérarchiques supplémentaires peuvent être définies par rapport au poste afin de convenir à divers scénarios de projet ou de matrice. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="set-up-depreciation-books"></a>Paramétrer les registres d'amortissement  
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ce guide de tâche va créer un registre des amortissements et l'associera à un groupe d'immobilisations.  Il utilise le rôle de comptable et les données de démonstration de l'entité juridique USMF.
 

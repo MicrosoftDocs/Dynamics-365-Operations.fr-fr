@@ -28,7 +28,7 @@ ms.lasthandoff: 02/19/2018
 
 # <a name="create-service-agreements"></a>Création d'accords de service
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit l'utilisation des fonctionnalités des modules de comptabilité Gestion des services et Gestion de projets pour la création d'accords de service.
 

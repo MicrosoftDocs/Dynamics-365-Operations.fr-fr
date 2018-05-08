@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="set-up-prerequisites-for-management"></a>Paramétrer des conditions préalables pour la gestion
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Utilisez cette procédure pour activer les processus de gestion de non-conformité. Une non-conformité décrit une procédure ou un article présentant un problème qualitatif (des informations descriptives incluent la source et le type du problème). La société fictive USMF sert d'exemple dans cette procédure. Cette procédure est généralement effectuée par un responsable de la qualité.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="register-and-post-a-postdated-check-for-a-customer"></a>Enregistrer et valider un chèque postdaté pour un client
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Vous pouvez enregistrer les informations relatives à un chèque postdaté reçu d'un client. Vous pouvez également valider le chèque postdaté et générer des transactions financières.   Effectuez les tâches suivantes avant d'enregistrer et de valider un chèque postdaté reçu d'un client :   • Paramétrez les chèques postdatés dans la page Gestion de la trésorerie et de la banque • Paramétrez un mode de paiement pour les chèques postdatés. Le rôle pour cette procédure est Trésorier. La société fictive USMF sert d'exemple dans cette procédure.
 

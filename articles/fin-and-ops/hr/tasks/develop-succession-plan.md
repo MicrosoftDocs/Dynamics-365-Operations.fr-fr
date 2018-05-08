@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="develop-a-succession-plan"></a>Développer un plan de succession
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 À mesure que votre organisation se développe et que vous planifiez la relève, vous pouvez souhaiter rechercher une personne ayant des qualifications similaires à une autre personne.  La mise en correspondance des qualifications vous permet d'analyser les employés et les candidats existants pour voir s'ils ont les mêmes compétences que les bons employés. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 

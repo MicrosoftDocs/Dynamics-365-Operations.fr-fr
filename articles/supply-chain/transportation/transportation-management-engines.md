@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="transportation-management-engines"></a>Moteurs de gestion de transport
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Les moteurs de gestion de transport définissent la logique utilisée pour générer et traiter les frais de transport dans Gestion du transport. 
 

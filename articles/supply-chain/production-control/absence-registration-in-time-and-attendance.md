@@ -27,7 +27,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="absence-registration-in-time-and-attendance"></a>Enregistrement d'absence dans le module Pointage
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit les concepts de l'absence et explique la gestion des absences dans le module Pointage.
 

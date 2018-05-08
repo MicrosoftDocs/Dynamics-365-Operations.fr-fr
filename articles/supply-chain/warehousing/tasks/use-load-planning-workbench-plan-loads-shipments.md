@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="plan-loads-and-shipments-using-the-load-planning-workbench"></a>Planifier les chargements et les expéditions à l'aide de l'atelier Planification des chargements
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure indique comment utiliser la console de planification des chargements pour créer une charge pour une commande client. Il est indispensable de créer la commande client en premier. Cette procédure fait partie du travail quotidien pour le coordinateur de transport. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 

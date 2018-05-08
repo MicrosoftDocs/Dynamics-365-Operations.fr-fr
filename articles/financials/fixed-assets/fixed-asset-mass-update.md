@@ -27,7 +27,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="fixed-asset-mass-update"></a>Mise à jour collective des immobilisations
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Si vous utilisez des registres, vous pouvez modifier les conventions d'amortissement pour les groupes d'immobilisations faisant partie du même registre.
 

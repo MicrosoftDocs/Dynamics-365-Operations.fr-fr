@@ -28,7 +28,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="create-a-workflow"></a>Création d'un workflow
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique illustre la création d'un workflow.
 

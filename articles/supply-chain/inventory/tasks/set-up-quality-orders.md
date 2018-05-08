@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="set-up-quality-orders"></a>Paramétrer les ordres de qualité
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure décrit comment activer un processus de gestion de la qualité dans lequel le stock entrant doit être inspecté immédiatement après l'enregistrement des arrivées. La procédure est généralement effectuée par un responsable de la qualité. Le processus inclut la création d'un groupe de qualité, pour définir les articles qui vont être échantillonnés, et un groupe de test pour regrouper les tests à exécuter sur des articles dans le groupe de qualité. Vous pouvez exécuter ce guide dans les données de démonstration de la société fictive USMF.
 

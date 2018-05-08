@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="cost-management-power-bi-content"></a>Contenu Power BI de gestion des coûts
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 ## <a name="overview"></a>Vue d'ensemble
 

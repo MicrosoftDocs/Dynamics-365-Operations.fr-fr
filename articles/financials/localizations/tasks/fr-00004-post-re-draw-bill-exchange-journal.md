@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="post-re-draw-bill-of-exchange-journal-france"></a>Valider le journal de renouvellement des lettres de change (France)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure vous guide dans l'approbation d'un journal de renouvellement de lettres de change.
 

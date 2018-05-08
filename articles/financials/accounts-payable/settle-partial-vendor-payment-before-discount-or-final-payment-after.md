@@ -28,7 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="settle-a-partial-vendor-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Régler un paiement partiel fournisseur avant la date de remise avec un paiement final après la date de remise
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article vous fait parcourir un scénario où plusieurs paiements partiels sont effectués, certains au cours de la période d'escompte de règlement et d'autres en dehors de la période d'escompte de règlement.
 

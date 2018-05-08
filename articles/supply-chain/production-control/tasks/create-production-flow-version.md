@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-production-flow-version"></a>Créer une version de flux de production
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure est orientée vers la création d'une nouvelle version de flux de production. Pour cette procédure, les paramètres de production pour la lean manufacturing et les unités de mesure du temps des classes doivent être définis. Vous devez également définir une chaîne de valeur et un groupe de production. Pour plus d'informations sur les flux de production et des activités en lean manufacturing, consultez les livres blancs sur la Lean manufacturing pour Microsoft Dynamics AX. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 

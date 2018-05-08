@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="general-ledger"></a>Comptabilité 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Utilisez le module Comptabilité pour définir et gérer les enregistrements financiers de l'entité juridique. La comptabilité est un registre des entrées de débit et de crédit. Ces entrées sont classifiées à l'aide des comptes répertoriés dans le plan de comptes. 
 

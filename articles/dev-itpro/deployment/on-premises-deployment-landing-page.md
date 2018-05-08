@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="on-premises-deployment-home-page"></a>Page d'accueil de déploiement sur site
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Vous pouvez déployer Microsoft Dynamics 365 for Finance and Operations (sur site). Lorsque vous sélectionnez un type de déploiement sur site, la configuration système requise, le calibrage du matériel, et la fonctionnalité diffèrent d'un déploiement dans le cloud. Cette rubrique fournit des liens vers du contenu contenant des informations spécifiques sur les déploiements sur site.
 

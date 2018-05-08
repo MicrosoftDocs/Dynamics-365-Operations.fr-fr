@@ -27,7 +27,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="configure-an-approval-process-in-a-workflow"></a>Configurer un processus d'approbation dans un workflow
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 La procédure suivante permet de configurer les propriétés du processus d'approbation.
 

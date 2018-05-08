@@ -28,7 +28,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="fixed-asset-depreciation"></a>Amortissement des immobilisations
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique fournit une vue d'ensemble de l'amortissement des immobilisations.
 

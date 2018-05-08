@@ -27,7 +27,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="configure-display-older-batches-within-warehouse-on-a-mobile-device"></a>Configuration des lots plus anciens d'affichage dans l'entrepôt sur un périphérique mobile
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 La configuration **Lots plus anciens d'affichage dans l'entrepôt** permet d'afficher une liste des emplacements avec des lots plus anciens que l'emplacement actuel de la ligne de travail. La liste des emplacements affichés inclut des informations sur les lots plus anciens de l'emplacement avec la date d'expiration et le stock physique de chaque lot. Vous pouvez choisir de collecter à un nouvel emplacement ou de continuer à collecter à l'emplacement actuel. 
 - Collecte à un nouvel emplacement : Si vous sélectionnez un nouvel emplacement de collecte, la ligne de travail actuelle est mise à jour pour utiliser le nouvel emplacement et le travail continuera normalement avec le nouvel emplacement. Pour que le nouvel emplacement soit valide, il doit avoir suffisamment de quantité disponible pour la ligne de travail entière. Si la quantité requise n'est pas disponible, la ligne de travail n'est pas mise à jour, et la liste s'affiche. 

@@ -28,7 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="reserve-inventory-quantities"></a>Réservation de quantités en stock
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 La présente rubrique décrit les différentes options disponibles pour la réservation du stock.
 

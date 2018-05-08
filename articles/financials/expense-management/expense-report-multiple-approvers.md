@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="expense-reports-and-multiple-approvers"></a>États de dépenses et approbateurs multiples
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 En fonction des stratégies d'approbation des dépenses de votre organisation, il se peut que plusieurs personnes doivent approuver un état de dépenses envoyé par un employé. Lorsque vous paramétrez le processus de workflow pour l'approbation des états de dépenses, vous pouvez ajouter des éléments de workflow qui incluent des tâches ou des étapes pour un ou plusieurs approbateurs des états de dépenses. Par exemple, vous pouvez exiger que tous les états de dépenses soient approuvés d'abord par le responsable de l'employé ayant soumis l'état, puis par le coordinateur des Achats.
 

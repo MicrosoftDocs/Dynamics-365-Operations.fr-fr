@@ -28,7 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="correct-a-free-text-invoice"></a>Correction d'une facture financière
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article explique comment corriger une facture financière validée et en émettre une nouvelle comme facture corrigée.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="round-off-amount-for-depreciation-calculations"></a>Montant arrondi pour les calculs d'amortissement
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article présente le champ Arrondir l'amortissement qui est indiqué dans les pages de paramétrage du registre.
 

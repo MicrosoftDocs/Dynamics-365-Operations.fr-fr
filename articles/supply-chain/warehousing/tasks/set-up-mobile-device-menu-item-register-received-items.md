@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-register-received-items"></a>Paramétrer une option de menu d'appareil mobile pour enregistrer les articles reçus
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette tâche consiste à réaliser le paramétrage d'une option de menu d'appareil mobile. Cette option de menu est utilisée pour l'enregistrement de la réception des articles commandés via des commandes fournisseur. 
 

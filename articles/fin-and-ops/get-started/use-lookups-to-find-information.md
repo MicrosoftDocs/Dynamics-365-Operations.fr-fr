@@ -27,7 +27,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="use-lookups-to-find-information"></a>Utiliser les recherches pour trouver des informations
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dans Microsoft Dynamics 365 for Finance and Operations, de nombreux champs sont pourvus d'une option de recherche qui vous permettent de facilement retrouver la valeur correcte ou souhaitée. Plusieurs améliorations ont été ajoutées aux recherches qui rendent ces commandes plus faciles à utiliser et augmentent la productivité des utilisateurs. Dans cette rubrique, vous découvrirez les nouvelles fonctionnalités de recherche et recevrez des conseils utiles pour exploiter les recherches de manière optimale dans le système.  
 

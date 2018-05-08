@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-commitment-to-reserve-budget-funds-for-the-public-sector"></a>Créer un engagement de réserver des fonds budgétaires pour le secteur public
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Les engagements sont des documents source de contrôle budgétaire utilisés par les entités du secteur public en France. Ce guide de tâche a été créée en utilisant les données de la société fictive PSUS dans la partition du secteur public.
 

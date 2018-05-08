@@ -28,7 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="125-percent-reducing-balance-depreciation"></a>Amortissement dégressif de 125 %
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article donne une vue d'ensemble de la méthode d'amortissement dégressif de 125 %.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="set-up-sales-commission-rules"></a>Paramétrer les règles de commission sur les ventes
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure vous montre comment paramétrer et activer le calcul et le suivi des commissions sur les ventes. La procédure montre comment créer des groupes de commissions client et article, puis lier un client et un produit sélectionnés aux groupes respectifs. Ces groupes sont alors utilisés dans le paramétrage du calcul de la commission pour créer une combinaison client, article et commercial qui doit être mise en correspondance avec la commande client pour que le commercial ait droit à la commission. La création des groupes de commissions client et articles est facultative, comme le calcul de la commission peut également être effectué pour un client et/ou un article individuels. Vous pouvez exécuter cette procédure dans la société fictive de démonstration USMF ou utiliser vos propres données.
 

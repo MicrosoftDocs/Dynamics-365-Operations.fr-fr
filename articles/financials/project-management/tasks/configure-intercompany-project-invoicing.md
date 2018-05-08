@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="configure-intercompany-project-invoicing"></a>Configurer la facturation de projets intersociétés
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure décrit comment paramétrer la facturation d'un projet entre deux sociétés de votre organisation. Cette tâche utilise l'ensemble de données USSI.
 

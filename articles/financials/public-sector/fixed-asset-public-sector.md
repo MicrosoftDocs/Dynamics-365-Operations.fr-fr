@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="fixed-assets-in-the-public-sector"></a>Immobilisations dans le secteur public
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article décrit la fonctionnalité des immobilisations disponible pour le secteur public. 
 

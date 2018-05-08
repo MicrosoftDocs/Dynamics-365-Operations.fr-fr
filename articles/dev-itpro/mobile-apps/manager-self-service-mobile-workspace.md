@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="my-team-mobile-workspace"></a>Mon espace de travail mobile Équipe
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique fournit des informations sur l'espace de travail mobile **Mon équipe**. Cet espace de travail permet aux responsables de voir leurs rapports directs et leur personnel étendu. lls peuvent également envoyer des récompenses aux personnes de leur chaîne hiérarchique.
 

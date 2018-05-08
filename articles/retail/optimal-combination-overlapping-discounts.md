@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>Déterminer la combinaison optimale de chevauchement les remises
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Lorsque les remises se chevauchent, vous devez déterminer la combinaison de chevauchement des remises qui produit le plus petit total de transaction ou la remise totale la plus élevée. Lorsque le montant de la remise varie en fonction du prix des produits achetés, comme dans le cas de la vente au détail « Buy 1, get 1 X percent off» (BOGO), ce processus devient un problème d'optimisation combinatoire.
 

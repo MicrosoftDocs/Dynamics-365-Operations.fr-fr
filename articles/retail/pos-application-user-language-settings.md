@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="pos-application-and-user-language-settings"></a>Paramètres de langue d'application et d'utilisateur de PDV
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Cette rubrique décrit la modification des paramètres de langue dans Retail Modern POS (MPOS) et Cloud POS.
 

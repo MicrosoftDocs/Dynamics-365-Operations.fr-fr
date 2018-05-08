@@ -28,7 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="settle-a-partial-vendor-payment-that-has-discounts-on-vendor-credit-notes"></a>Régler un paiement partiel fournisseur ayant des remises sur les avoirs fournisseur
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article vous fait parcourir les étapes d'un scénario dans lequel un avoir est réglé grâce à une facture.
 

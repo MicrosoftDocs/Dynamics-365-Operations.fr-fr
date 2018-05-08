@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="view-inventory-statement-and-kpi-by-cost-object"></a>Afficher la déclaration de stock et les KPI par objet de coût
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Cette procédure est destinée au contrôleur de coûts.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-transfer-activities-for-lean-manufacturing"></a>Créer des activités de transfert pour la lean manufacturing
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Créez une activité de transfert pour la lean manufacturing. 
 

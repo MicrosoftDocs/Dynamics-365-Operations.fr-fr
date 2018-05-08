@@ -28,7 +28,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="cost-accounting-home-page"></a>Page d'accueil du contrôle de gestion
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 ## <a name="learning-map"></a>Programme de formation 
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="production-feedback"></a>Rétroaction de production
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article fournit des informations sur les commentaires de production qui donnent aux collaborateurs des commentaires sur les tâches de production. L'article inclut des informations sur les différentes manières de mettre à jour les commentaires de production.
 

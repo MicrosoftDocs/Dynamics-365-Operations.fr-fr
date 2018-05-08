@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="use-a-continuity-program"></a> Utiliser un programme de continuité
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Cette procédure vous guide dans la vente d'un programme périodique et le traitement des commandes client associées. Pour exécuter cette procédure, l'utilisateur doit être configuré comme utilisateur du centre d'appels. La société fictive USRT sert d'exemple dans cette procédure.
 

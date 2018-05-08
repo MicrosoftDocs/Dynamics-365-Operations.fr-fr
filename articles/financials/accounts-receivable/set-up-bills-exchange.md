@@ -28,7 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="set-up-bills-of-exchange"></a>Paramétrage de lettres de change
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit la procédure de paramétrage des lettres de change.
 

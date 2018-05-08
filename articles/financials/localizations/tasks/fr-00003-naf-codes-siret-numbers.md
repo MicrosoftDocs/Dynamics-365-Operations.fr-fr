@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="naf-codes-and-siret-numbers-france"></a>Codes NAF et numéros SIRET (France)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure indique comment créer des codes NAF et comment les entrer pour les entités juridiques, les clients, les fournisseurs, et les prospects. Vous pouvez utiliser les codes NAF pour identifier le secteur d'activité d'une entreprise. Par exemple, si votre entité juridique fabrique des ordinateurs, son code NAF pourrait être 300C, à savoir le code NAF de fabrication d'ordinateurs et de matériel informatique. Si votre entité juridique est active dans le secteur de la construction, votre code NAF pourra être 452A.
 

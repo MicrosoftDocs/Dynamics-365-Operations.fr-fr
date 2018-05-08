@@ -27,7 +27,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="procurement-and-sourcing-home-page"></a>Page d'accueil Approvisionnements
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique fournit une liste des rubriques d'aide et d'autres ressources disponibles pour les approvisionnements.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-account-structures"></a>Créer des structures de compte
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ce guide accompagne l'utilisateur le long de la création d'une structure de compte. La société fictive USMF est citée en exemple dans les étapes.
 

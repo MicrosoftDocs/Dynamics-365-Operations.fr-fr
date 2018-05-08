@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="initialize-stock-levels-in-the-warehouse"></a>Initialiser les niveaux des stocks dans l'entrepôt
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure décrit la manière dont vous obtenez le stock disponible mis à jour manuellement à l'aide du journal des mouvements de stock. (Il est également possible de mettre à jour le stock disponible en important les transactions dans des entités de données.) Vous pouvez exécuter ce guide avec les données de démonstration de la société USMF dans lesquelles toutes les conditions préalables, comme le nom de journal, le paramétrage des articles, les profils de validation et les comptes sont disponibles. Le guide propose des valeurs spécifiques pour l'article et les dimensions utilisés. Si vous sélectionnez un article différent, vous devrez peut-être entrer des valeurs pour des dimensions différentes.
 

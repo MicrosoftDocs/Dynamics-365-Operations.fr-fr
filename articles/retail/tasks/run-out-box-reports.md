@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="generate-and-run-out-of-box-reports"></a> Générer et exécuter les états prêts à l'emploi
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Utilisez ce guide de tâche pour exécuter des états prêts à l'emploi dans le siège à partir de différents espaces de travail et des états Recherches et ventes situés sous Commerce et vente au détail.
 

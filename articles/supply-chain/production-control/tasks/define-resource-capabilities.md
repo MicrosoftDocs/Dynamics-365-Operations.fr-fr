@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="define-resource-capabilities"></a>Définir des capacités de ressources
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Les capacités de ressource décrivent ce que les ressources opérationnelles peuvent effectuer. Lors de la planification, les exigences de chaque tâche et opération sont mises en correspondance avec les capacités des ressources disponibles. Ce guide des tâches vous aidera à créer une capacité et à l'affecter à une ressource. Les données fictives utilisées pour créer cette tâche correspondent à la société USMF.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-procurement-catalog"></a>Créer un catalogue d'approvisionnement
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ce guide vous indique comment créer un catalogue d'approvisionnement. Cette tâche est généralement effectuée par un professionnel de l'approvisionnement. Vous apprendrez également comment les employés peuvent utiliser le catalogue quand ils créent une demande. Avant que vous puissiez créer un catalogue, il doit y avoir une hiérarchie des catégories d'approvisionnement dans votre système. La hiérarchie est héritée par le nouveau catalogue, avec tous les produits qui sont dans la hiérarchie. Vous pouvez utiliser ce guide dans les données de démonstration de la société USMF où la hiérarchie des catégories d'approvisionnement est disponible, ainsi que les exemples utilisés dans les étapes de procédure.
 

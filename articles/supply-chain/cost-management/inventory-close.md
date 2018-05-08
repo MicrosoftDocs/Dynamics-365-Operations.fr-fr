@@ -29,7 +29,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="inventory-close"></a>Clôture du stock
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dans le cadre du processus pour régler les transactions de sortie avec des transactions de réception, vous pouvez également choisir de mettre à jour la comptabilité pour refléter les ajustements effectués.
 

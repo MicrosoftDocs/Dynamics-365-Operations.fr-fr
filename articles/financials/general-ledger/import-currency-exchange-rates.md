@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="import-currency-exchange-rates"></a>Importer les taux de change des devises
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Si une entité juridique a reçu des factures dans des devises étrangères, il est nécessaire de convertir la devise étrangère en devise locale. Cela signifie que des taux de change à jour pour les différentes devises sont requis. Cette rubrique donne un aperçu des paramètres requis et du traitement pour l'importation de taux de référence de change publiés sur Internet par les fournisseurs de taux, tels que la Banque centrale européenne et la Banque centrale de Russie.
 

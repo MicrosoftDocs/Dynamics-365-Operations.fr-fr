@@ -24,7 +24,7 @@ ms.lasthandoff: 11/08/2017
 ---
 # <a name="enter-the-gtin-code-for-a-product"></a>Entrer le code GTIN d'un produit
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Les codes GTIN sont affectés par l'organisation GS1. Dans cet exemple, vous entrez un code pour le numéro de produit M0001 dans les données de démonstration de la société USMF.
 

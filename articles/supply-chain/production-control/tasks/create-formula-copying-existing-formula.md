@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-formula-by-copying-from-an-existing-formula"></a>Créer une formule par la copie d'une formule existante
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure illustre comment créer rapidement une nouvelle formule en copiant sur une formule existante. Pour créer USPI cette procédure, vous pouvez utiliser les sociétés fictives USMF, USP2 ou USPI.
 

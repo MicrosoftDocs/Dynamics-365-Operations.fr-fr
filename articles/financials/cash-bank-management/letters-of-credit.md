@@ -28,7 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="letters-of-credit"></a>Lettres de crédit
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Les lettres de crédit sont des documents bancaires fréquemment utilisés pour l'achat et la vente de biens au-delà des frontières internationales. 
 

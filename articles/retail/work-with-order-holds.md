@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="order-holds"></a>Blocage de commandes
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Cette rubrique décrit les blocages sur les commandes à l'aide de Dynamics 365 for Retail.
 

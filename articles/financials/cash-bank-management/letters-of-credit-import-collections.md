@@ -28,7 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="letters-of-credit-and-import-collections"></a>Lettres de crédit et relances d'importation
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article fournit des informations générales sur les lettres de crédit et des relances d'importation. Ces deux types de documents bancaires sont fréquemment utilisés pour l'achat et la vente de biens au-delà des frontières internationales.
 

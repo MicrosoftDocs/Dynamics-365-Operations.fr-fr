@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="schedule-kanban-jobs"></a>Planification des tâches de kanban
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure se concentre sur des tâches de kanban du processus de planification pour une cellule de travail spécifique. La procédure « Préparer une tâche de kanban de processus lorsque les matières ne sont pas disponibles » est une étape préliminaire à la création de cette procédure. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Cette tâche est destinée au superviseur d'atelier et au responsable de production qui utilisent des kanbans.
 

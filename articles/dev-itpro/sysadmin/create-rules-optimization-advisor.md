@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="create-rules-for-optimization-advisor"></a>Créer des règles pour le Conseiller en optimisation
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique explique comment créer des règles pour le **Conseiller en optimisation**. Par exemple, vous pouvez créer une règle qui identifie les dossiers d'appels d'offre qui ont un titre vide. L'attribution de titres aux dossiers facilite leur identification et leur recherche. Tout en étant relativement simple, cet exemple montre ce qu'il est possible de réaliser avec les règles d'optimisation. 
 

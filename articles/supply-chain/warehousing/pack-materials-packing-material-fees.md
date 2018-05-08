@@ -29,7 +29,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="packing-materials-and-fees"></a>Matières et taxes d'emballage
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Des taxes sur les matières d'emballage sont payées à intervalles réguliers à une entreprise de recyclage. Un montant par unité de poids est payé pour chaque matière composant une unité d'emballage. Les taxes sur les matières d'emballage sont calculées et déclarées, mais aucune écriture comptable n'est validée car ces frais ne sont pas considérés comme devant être payés à une administration.
 

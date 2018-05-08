@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="add-a-certification-type-to-a-vendor-in-the-public-sector"></a>Ajouter un type de certification à un fournisseur dans le secteur public
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Vous pouvez créer et affecter aux fournisseurs n'importe quel type de certification qu'ils sont susceptibles de détenir. Cette procédure a été créée à l'aide des données de la société fictive PSUS dans la partition du secteur public.
 

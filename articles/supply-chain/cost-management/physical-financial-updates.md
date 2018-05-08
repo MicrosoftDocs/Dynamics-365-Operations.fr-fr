@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="physical-and-financial-updates"></a>Mises à jour physiques et financières
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique fournit une vue d'ensemble des types de transactions qui augmentent les quantités en stock ou de celles qui les diminuent. 
 

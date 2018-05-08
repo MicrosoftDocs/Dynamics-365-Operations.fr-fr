@@ -27,7 +27,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="update-the-bank-journal-composite-entity"></a>Mise à jour de l'entité composite du journal des banques
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Les étapes suivantes sont requises pour ajouter le champ BankTransactionType supplémentaire au BankJournalEntity composite.
 

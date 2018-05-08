@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-purchase-order-with-a-delivery-schedule"></a>Créer une commande fournisseur avec un plan de livraison
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure illustre comment créer un calendrier de livraison pour une commande fournisseur. Un plan de livraison est utilisé lorsqu'une quantité sur une commande ou un journal doit être livré dans le cadre de plusieurs expéditions. L'exemple indiqué dans ce guide peut être utilisé dans les données fictives de la société USMF. Cette procédure est généralement effectuée par un agent des achats.
 

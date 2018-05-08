@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="simulate-cost-changes-by-using-a-costing-version-for-planned-costs"></a>Simuler des modifications de coûts à l'aide d'une version d'évaluation des coûts pour les coûts planifiés
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article explique comment simuler les effets des modifications de coûts sur les coûts calculés d'un article fabriqué à l'aide d'une version d'évaluation des coûts séparée pour les coûts planifiés.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="sales-tax-assignment-and-overrides"></a>Affectation et remplacement des taxes
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure illustre comment affecter des groupes de taxe aux canaux de vente au détail. Elle décrit également le processus de création d'un nouveau remplacement de taxe et son affectation à un groupe de remplacement de taxe existant. Cette procédure
 

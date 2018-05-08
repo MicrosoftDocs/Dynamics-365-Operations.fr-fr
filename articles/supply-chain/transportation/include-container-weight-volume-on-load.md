@@ -27,7 +27,7 @@ ms.lasthandoff: 10/02/2017
 
 # <a name="include-container-weight-and-volume-on-load"></a>Inclure le poids et le volume du conteneur dans la charge
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 La fonctionnalité permettant d'inclure le poids et le volume du conteneur sur une charge donne une représentation claire du poids total et du volume des conteneurs et des articles en cours de chargement.
 

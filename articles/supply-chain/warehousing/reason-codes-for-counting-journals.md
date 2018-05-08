@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="reason-codes-for-inventory-counting"></a>Codes motif d'inventaire de stock
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Les codes motif permettent d'analyser les résultats d'un processus d'inventaire et les écarts qui surviennent lors de ce processus. Vous pouvez indiquer le motif du comptage, tel qu'une palette brisée ou un ajustement du stock basé sur des exemples de stock.
 

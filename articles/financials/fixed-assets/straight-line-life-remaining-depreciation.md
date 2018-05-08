@@ -28,7 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="straight-line-life-remaining-depreciation"></a>Amortissement linéaire sur la durée de vie restante
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article propose une vue d'ensemble de la méthode d'amortissement linéaire sur la durée de vie restante.
 

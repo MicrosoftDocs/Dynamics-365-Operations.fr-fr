@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="define-new-departments"></a>Définir les nouveaux départements
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Les départements sont des unités opérationnelles qui représentent une zone fonctionnelle d'une entreprise, comme les ventes ou la comptabilité. De nombreuses sociétés ont des hiérarchies organisationnelles qui affichent les divers départements d'une entreprise. Cette procédure illustre le processus de création des départements et l'ajout de ces départements à une hiérarchie de société. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 

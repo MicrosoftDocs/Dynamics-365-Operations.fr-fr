@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="immediate-replenishment"></a>Réapprovisionnement immédiat
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Le réapprovisionnement immédiat vous permet de réapprovisionner immédiatement le stock lorsqu'une ligne d'instruction d'emplacement échoue à affecter le stock. Le réapprovisionnement est basé sur une ligne unique dans le paramétrage de l'instruction d'emplacement. Si le stock n'est pas disponible dans l'unité de mesure spécifiée par cette ligne, le réapprovisionnement de cette unité de mesure se produit immédiatement.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="costing-sheets"></a>Feuilles de coûts
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Le paramétrage de la feuille d'évaluation des coûts a deux objectifs. Premièrement, vous définissez le format d'affichage des informations des prix des marchandises vendues sur un article fabriqué ou un ordre de fabrication. L'affichage formaté est appelé feuille de coûts. Deuxièmement, vous définissez la base de calcul des coûts indirects. Le paramétrage de la feuille d'évaluation des coûts se base sur la fonctionnalité de groupe de coûts pour l'affichage d'informations et pour les formules de calcul des coûts indirects. Les deux objectifs du paramétrage de la feuille d'évaluation des coûts sont décrits dans cet article. 
 

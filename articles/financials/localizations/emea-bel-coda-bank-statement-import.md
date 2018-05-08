@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="coda-bank-statement"></a>Relevé bancaire CODA
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique contient des informations sur CODA, qui est un format d'état utilisé par le système d'opérations bancaires électroniques belge. 
 

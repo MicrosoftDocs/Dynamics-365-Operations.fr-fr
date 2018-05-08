@@ -28,7 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="plan-your-organizational-hierarchy"></a>Planification de votre hiérarchie d'organisation
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Avant de paramétrer des organisations et des hiérarchies d'organisation dans Microsoft Dynamics 365 for Finance and Operations, veillez à planifier votre modèle d'entreprise. Le modèle d'organisation a un impact considérable sur l'implémentation de Finance and Operations et les processus entreprise. 
 

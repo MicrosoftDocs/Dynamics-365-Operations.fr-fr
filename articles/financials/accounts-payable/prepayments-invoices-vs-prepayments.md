@@ -28,7 +28,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="prepayment-invoices-vs-prepayments"></a>Factures d'acompte et acomptes
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit et compare les deux méthodes que les organisations peuvent utiliser pour les paiements en avance (acomptes). Dans la première, vous créez une facture d'acompte qui est associée à une commande fournisseur. Dans l'autre méthode, vous créez des N° document du journal des acomptes en créant des entrées de journal et en les marquant comme des N° document du journal des acomptes.
 

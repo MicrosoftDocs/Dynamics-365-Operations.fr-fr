@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="find-support-for-microsoft-dynamics-365-for-finance-and-operations-and-dynamics-lifecycle-services"></a>Trouver de l'aide sur Microsoft Dynamics 365 for Finance and Operations et Dynamics Lifecycle Services
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article explique comment obtenir de l'aide pour Finance and Operations ou Microsoft Dynamics Lifecycle Services (LCS). 
 

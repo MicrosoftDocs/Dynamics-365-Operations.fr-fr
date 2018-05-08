@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="receive-an-eu-entry-certificate"></a>Recevoir un certificat d'entrée de l'UE
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure présente la démarche pour enregistrer un certificat d'entrée de l'UE émis par un tiers et reçu de votre client.
 

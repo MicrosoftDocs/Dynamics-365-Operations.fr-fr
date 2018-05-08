@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="product-configuration-models-overview"></a>Vue d'ensemble des modèles de configuration de produit
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article définit les conditions et les concepts pertinents pour les modèles de configuration de produit. Les modèles de configuration de produit permettent de créer une structure de produit générale pouvant être utilisée pour configurer plusieurs variantes de produit pour un produit unique.
 

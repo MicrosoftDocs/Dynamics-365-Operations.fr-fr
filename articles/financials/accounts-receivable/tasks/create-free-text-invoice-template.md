@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-free-text-invoice-template"></a>Créer un modèle de facture financière
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 La société fictive USMF sert d'exemple dans cet enregistrement. L'enregistrement est destiné à l'utilisateur chargé de gérer et de traiter des factures de comptes clients.
 

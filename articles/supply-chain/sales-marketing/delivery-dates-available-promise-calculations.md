@@ -28,7 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="order-promising"></a>Promesse de commande
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article fournit des informations sur les promesses de commande. Les promesses de commandes vous permettent de promettre de manière fiable des dates de livraison à vos clients et vous offre une certaine flexibilité pour pouvoir respecter ces dates.
 

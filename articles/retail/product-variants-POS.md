@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="inventory-lookup-in-the-point-of-sale"></a>Recherche de stock dans le point de vente 
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 La recherche de stock dans le point de vente (PDV) permet aux détaillants d'atteindre l'excellence opérationnelle en temps réel et d'acquérir des connaissances en connectant les magasins, le PDV, et les services administratifs. Cette fonctionnalité fournit une vue en temps réel précise du stock de produits entre les magasins et les centres de distribution. Elle permet également aux détaillants d'acquérir de l'efficacité supplémentaire et de réaliser des économies en améliorant la planification de stock en temps réel.
 

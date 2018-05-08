@@ -28,7 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="direct-deliveries"></a>Livraison directe
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article fournit des informations sur les livraisons directes. Les livraisons directes sont des livraisons expédiées directement du fournisseur au client.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="cost-element-dimensions"></a>Dimensions d'éléments de coût
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 En tant que l'un des piliers de base du contrôle de gestion, les dimensions d'éléments de coût sont utilisées pour catégoriser et suivre le flux des coûts. 
 

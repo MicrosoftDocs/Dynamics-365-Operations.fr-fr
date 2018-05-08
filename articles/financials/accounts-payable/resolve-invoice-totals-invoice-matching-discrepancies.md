@@ -28,7 +28,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="resolve-discrepancies-during-invoice-totals-matching"></a>Résolution des écarts lors du rapprochement des totaux de factures
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Un type de validation du rapprochement de factures est le rapprochement des totaux de facture. Pour spécifier que le système doit effectuer le rapprochement des totaux de facture, sur la page **Paramètres de la comptabilité fournisseur**, sous l'onglet **Contrôle de la facture**, définissez l'option **Mettre en correspondance les totaux de la facture** à **Oui**. 
 

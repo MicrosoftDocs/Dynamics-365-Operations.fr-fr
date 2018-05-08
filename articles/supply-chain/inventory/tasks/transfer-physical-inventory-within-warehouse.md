@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="transfer-physical-inventory-within-the-warehouse"></a>Transférer du stock physique au sein de l'entrepôt
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure vous accompagne dans le processus de création et de validation d'un journal de transfert de stock en vue d'enregistrer le mouvement d'un article à partir d'un emplacement dans un entrepôt vers un autre. Avant de commencer, vous devez avoir configuré un nom de journal de stock pour les transferts de stock. Vous pouvez suivre cette procédure avec les données de démonstration de la société fictive USMF à l'aide des valeurs d'exemple affichées, ou utiliser vos propres données si vous avez des produits et des emplacements configurés. Ces tâches sont normalement effectuées par un employé de l'entrepôt.
 

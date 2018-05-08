@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="allocation-bases"></a>Bases de répartition 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Une base de répartition est la base sur laquelle le contrôle de gestion affecte les frais généraux. Une base de répartition peut être une quantité, telles que les heures-machine utilisées, les kilowatt-heures (kWh) qui sont consommées, ou la superficie qui est occupée. Les bases de répartition sont la plupart utilisées pour affecter des frais généraux dans le stock qui est produit. Par exemple, un service informatique affecte les dépenses en fonction du nombre d'ordinateurs que chaque département utilise.
 

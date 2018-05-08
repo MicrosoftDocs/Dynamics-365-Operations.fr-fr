@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="manage-benefit-expiration-dates"></a>Gérer les dates d'expiration des avantages
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure indique comment faire expirer ou prolonger un avantage et gérer les dates d'inscription des collaborateurs inscrits dans cet avantage. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 

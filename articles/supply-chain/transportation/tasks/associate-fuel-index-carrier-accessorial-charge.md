@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="associate-a-fuel-index-with-a-carrier-as-an-accessorial-charge"></a>Associer un index de carburant à un transporteur comme frais annexes
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ce guide indique comment créer une affectation annexe, des frais annexes transporteur et des données principales annexes pour la surcharge carburant, ainsi que comment associer un index de carburant de transport à un transporteur. Vous devez avoir paramétré un index de carburant du transporteur avant d'exécuter ce guide. Pour ce faire, vous pouvez utiliser le guide « Paramétrer un index de carburant de transporteur ». Ces tâches de paramétrage sont généralement effectuées par un responsable logistique. Les données de démonstration utilisées pour créer cette procédure sont USMF.
 

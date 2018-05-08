@@ -24,7 +24,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-call-center-channel-and-channel-attributes"></a> Définir un canal de centre d'appels et les attributs du canal
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Cette procédure décrit la création d'un nouveau canal de vente au détail et la définition des attributs de canal. La société fictive utilisée pour créer cette tâche est USRT. Cette procédure est destinée au rôle Informatique au détail.
 

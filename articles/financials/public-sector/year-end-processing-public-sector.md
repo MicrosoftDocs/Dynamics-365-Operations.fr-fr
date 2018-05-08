@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="year-end-processing-in-the-public-sector"></a>Traitement de fin d'exercice dans le secteur public
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article fournit des informations sur le processus de fin d'exercice pour des organisations du secteur public.
 

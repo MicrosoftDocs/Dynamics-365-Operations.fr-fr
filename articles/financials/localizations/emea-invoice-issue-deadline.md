@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="invoice-issue-deadline"></a>Délai d'émission de facture
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article explique comment définir les paramètres pour calculer les dates d'échéance d'émission des factures client et des factures fournisseur dans l'Union européenne (UE).
 

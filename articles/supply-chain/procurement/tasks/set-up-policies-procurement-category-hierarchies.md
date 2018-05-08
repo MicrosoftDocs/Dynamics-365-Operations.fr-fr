@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="set-up-policies-for-procurement-category-hierarchies"></a>Paramétrer des stratégies pour les hiérarchies de catégories d'approvisionnement
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure permet de définir des règles pour commander des produits dans une catégorie. Les règles sont définies pour une politique d'achat spécifique. La règle d'accès à la catégorie détermine à quelles catégories d'approvisionnement les utilisateurs ont accès lorsqu'ils créent une demande. Lorsqu'une demande est créée, la règle d'accès aux catégories et la politique d'achat à appliquer est déterminée en fonction de l'entité juridique et l'unité opérationnelle auxquelles l'employé appartient. Vous pouvez utiliser cette procédure dans les données fictives de la société USMF. Cette tâche est généralement effectuée par un responsable des achats.
 

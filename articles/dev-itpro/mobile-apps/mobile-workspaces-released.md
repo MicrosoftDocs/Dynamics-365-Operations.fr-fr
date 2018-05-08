@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="mobile-workspaces"></a>Espaces de travail mobiles
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique liste les espaces de travail mobiles qui peuvent être utilisés avec l'application mobile Dynamics 365 for Unified Operations.
 

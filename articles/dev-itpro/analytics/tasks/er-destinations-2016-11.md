@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="configure-destinations-for-electronic-reporting-er"></a>Configurer les destinations pour la gestion des états électroniques (ER)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure illustre le paramétrage et l'utilisation de différentes destinations pour les composants de sortie de génération d'états électroniques (ER), tels qu'un dossier ou un fichier. La société fictive de démonstration utilisée pour créer cette procédure est DEMF. L'Allemagne est le pays\région de l'adresse principale de l'entité juridique, toutefois, vous pouvez utiliser n'importe quelle entité juridique pour cette procédure. 
 

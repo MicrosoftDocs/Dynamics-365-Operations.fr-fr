@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="change-depreciation-conventions-for-multiple-fixed-assets"></a>Modification des conventions d'amortissement pour plusieurs immobilisations
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette tâche permet de mettre à jour la convention d'amortissement pour un groupe d'immobilisations spécifié. La société fictive USMF sert d'exemple dans ce guide de tâche.
 

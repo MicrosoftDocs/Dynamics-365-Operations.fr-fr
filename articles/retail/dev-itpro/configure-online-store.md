@@ -27,7 +27,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="configure-an-online-store"></a>Configuration d'un magasin en ligne
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article fournit des liens vers des rubriques qui vous aident à configurer et à gérer de manière centralisée un magasin en ligne.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="set-up-compensation-grids"></a>Paramétrer les grilles de rémunération
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Les grilles de rémunération permettent de définir et de tenir à jour les structures de paie pour les régimes de rémunération fixe. Les grilles de rémunération peuvent être partagées entre plusieurs régimes ou être copiées lors de la création d'un régime de rémunération.  Avant de créer une grille de rémunération, vous devez configurer les niveaux et les points de référence. Cet exemple crée un type de catégorie de grille de rémunération en utilisant des données de démonstration pour les niveaux et les points de référence. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 

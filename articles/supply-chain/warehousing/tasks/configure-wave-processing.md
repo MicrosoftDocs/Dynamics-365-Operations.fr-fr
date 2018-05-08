@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="configure-wave-processing"></a>Configurer le traitement de la vague
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette rubrique décrit la procédure de paramétrage des critères qui déterminent le travail généré pour un entrepôt lorsqu'une vague est traitée et si les vagues sont traitées manuellement ou automatiquement. Vous devez spécifier les critères en paramétrant des modèles de vague et des requêtes qui correspondent à une vague avec des lignes libérées dans des commandes client, des ordres de fabrication ou de kanbans. Le traitement de vague est utilisé dans des entrepôts qui utilisent la fonctionnalité dans le module Gestion des entrepôts, et non ceux qui utilisent la fonctionnalité dans le module Gestion des stocks. Vous pouvez exécuter cette procédure dans les données de démonstration de la société fictive USMF.
 
