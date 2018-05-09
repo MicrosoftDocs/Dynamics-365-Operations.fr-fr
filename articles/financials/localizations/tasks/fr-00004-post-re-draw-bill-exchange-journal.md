@@ -16,15 +16,15 @@ ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9da8cc396da37555f2fedfb8eb6c260dc81bd13f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c2cece60ebeaece7293d74da9d1d2c6ad89be4b6
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="post-re-draw-bill-of-exchange-journal-france"></a><span data-ttu-id="4d786-103">Valider le journal de renouvellement des lettres de change (France)</span><span class="sxs-lookup"><span data-stu-id="4d786-103">Post re-draw bill of exchange journal (France)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="4d786-104">Cette procédure vous guide dans l'approbation d'un journal de renouvellement de lettres de change.</span><span class="sxs-lookup"><span data-stu-id="4d786-104">This procedure walks you through posting a re-draw bill of exchange.</span></span>
 

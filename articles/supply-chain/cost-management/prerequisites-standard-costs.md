@@ -20,16 +20,16 @@ ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f7f1cef3198462eab15c1c7d2de4c5d4a5576919
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b1b0de596c1b40a4213128d5ed51066ee414681d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="prerequisites-for-standard-costs"></a><span data-ttu-id="e5262-103">Prérequis pour les coûts standard</span><span class="sxs-lookup"><span data-stu-id="e5262-103">Prerequisites for standard costs</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="e5262-104">Cette rubrique décrit les étapes essentielles de l'utilisation des coûts standard.</span><span class="sxs-lookup"><span data-stu-id="e5262-104">This topic describes the basic steps for using standard costs.</span></span> <span data-ttu-id="e5262-105">Les étapes suivantes dépendent des opérations de la société.</span><span class="sxs-lookup"><span data-stu-id="e5262-105">Subsequent steps depend on the company's operations.</span></span> <span data-ttu-id="e5262-106">Par exemple, les étapes diffèrent pour un environnement hors fabrication, un environnement de fabrication qui n'utilise pas de gammes et un environnement de fabrication qui utilise des gammes.</span><span class="sxs-lookup"><span data-stu-id="e5262-106">For example, the steps differ for a nonmanufacturing environment, a manufacturing environment that doesn't use routings, and a manufacturing environment that uses routings.</span></span> 
 

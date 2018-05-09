@@ -16,15 +16,15 @@ ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 094bb9fa2403ed6a57d690952558701289c240d7
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c9ce92f7e99513650499c8786f6f7f5760a53adf
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="post-protest-draw-bill-of-exchange-journal-france"></a><span data-ttu-id="32a70-103">Valider le journal de création et de contestation des lettres de change (France)</span><span class="sxs-lookup"><span data-stu-id="32a70-103">Post protest draw bill of exchange journal (France)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="32a70-104">Cette procédure vous guide au cours des étapes des contestation d'une lettre de change impayée.</span><span class="sxs-lookup"><span data-stu-id="32a70-104">This procedure walks you through the steps of protesting bill of exchange.</span></span>
 

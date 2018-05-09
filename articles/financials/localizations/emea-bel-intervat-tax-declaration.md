@@ -18,16 +18,16 @@ ms.author: v-oloski
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f4b665016707f6d9d659f19bcba628ba2e1e1861
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c7c30076abfdfe0758d751559257c0c557ca146e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="intervat-tax-declaration"></a><span data-ttu-id="78779-103">Déclaration de taxe INTERVAT</span><span class="sxs-lookup"><span data-stu-id="78779-103">INTERVAT tax declaration</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="78779-104">Cette rubrique fournit les informations spécifiques au pays/à la région pour la configuration et la création de la déclaration de taxe INTERVAT pour les entités juridiques en Belgique uniquement.</span><span class="sxs-lookup"><span data-stu-id="78779-104">This topic provides country/region-specific information about how to set up and create the INTERVAT tax declaration for legal entities in Belgium only.</span></span>
 

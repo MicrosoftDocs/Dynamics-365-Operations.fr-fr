@@ -18,16 +18,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d4bcf59ecd25acdbc51c784c42c75231d8aef9ba
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 615d8c73f3b83a3060ffb8e1aa7d4dd3eeef82c5
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="procurement-and-sourcing-home-page"></a><span data-ttu-id="918b7-103">Page d'accueil Approvisionnements</span><span class="sxs-lookup"><span data-stu-id="918b7-103">Procurement and sourcing home page</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="918b7-104">Cette rubrique fournit une liste des rubriques d'aide et d'autres ressources disponibles pour les approvisionnements.</span><span class="sxs-lookup"><span data-stu-id="918b7-104">This topic provides a list of the help topics and other resources that are available for Procurement and sourcing.</span></span>
 

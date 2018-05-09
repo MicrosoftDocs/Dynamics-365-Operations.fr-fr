@@ -17,16 +17,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7cd2e56dab48ad8f2380dcaa72e3317250b5b2f0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a76acb4912e6f4ace8bedfe45764f8a9594b9801
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="expense-reports-and-multiple-approvers"></a><span data-ttu-id="adb01-103">États de dépenses et approbateurs multiples</span><span class="sxs-lookup"><span data-stu-id="adb01-103">Expense reports and multiple approvers</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="adb01-104">En fonction des stratégies d'approbation des dépenses de votre organisation, il se peut que plusieurs personnes doivent approuver un état de dépenses envoyé par un employé.</span><span class="sxs-lookup"><span data-stu-id="adb01-104">Depending on your organization's expense approval policies, more than one person might have to approve an expense report that is submitted by an employee.</span></span> <span data-ttu-id="adb01-105">Lorsque vous paramétrez le processus de workflow pour l'approbation des états de dépenses, vous pouvez ajouter des éléments de workflow qui incluent des tâches ou des étapes pour un ou plusieurs approbateurs des états de dépenses.</span><span class="sxs-lookup"><span data-stu-id="adb01-105">When you set up the workflow process for expense report approval, you can add workflow elements that include tasks or steps for one or more expense report approvers.</span></span> <span data-ttu-id="adb01-106">Par exemple, vous pouvez exiger que tous les états de dépenses soient approuvés d'abord par le responsable de l'employé ayant soumis l'état, puis par le coordinateur des Achats.</span><span class="sxs-lookup"><span data-stu-id="adb01-106">For example, you might require that all expense reports be approved first by the manager of the employee who submitted the report and then by the Accounts payable coordinator.</span></span>
 

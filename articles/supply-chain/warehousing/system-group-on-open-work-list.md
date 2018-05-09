@@ -18,16 +18,16 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d9ca6b0d4a9909d419d6241a044336d7a02aea02
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c9ff5df219c5e8b52e3d64d340fd55be7f51919a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="system-grouping-on-an-open-work-list"></a><span data-ttu-id="501c8-103">Regroupement système sur une liste des travaux en cours</span><span class="sxs-lookup"><span data-stu-id="501c8-103">System grouping on an open work list</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="501c8-104">En utilisant un champ de regroupement système, vous pouvez filtrer la liste des travaux en cours sans avoir à modifier l'option de menu de l'appareil mobile.</span><span class="sxs-lookup"><span data-stu-id="501c8-104">By using a system grouping field, you can filter an open work list without having to edit the mobile device menu item.</span></span>
 <span data-ttu-id="501c8-105">Dans ce cas, le regroupement système permet de filtrer la liste des travaux dans un champ d'en-tête de travail unique.</span><span class="sxs-lookup"><span data-stu-id="501c8-105">Where it applies, system grouping works for filtering a work list on a single work header field.</span></span> <span data-ttu-id="501c8-106">Vous ne pouvez pas utiliser le regroupement système pour filtrer les champs au niveau de la ligne.</span><span class="sxs-lookup"><span data-stu-id="501c8-106">You cannot use system grouping to filter on line level fields.</span></span>

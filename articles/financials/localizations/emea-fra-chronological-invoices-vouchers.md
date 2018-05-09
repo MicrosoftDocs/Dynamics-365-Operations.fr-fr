@@ -18,16 +18,16 @@ ms.author: ilyako
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d974e054c666ccc1d82b4bbdcc58315c42564594
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4f57cc7e472dc0e2081056f7df1d59c1ade25347
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="chronological-invoice-and-voucher-numbers-for-france"></a><span data-ttu-id="6cf55-103">Numéros de facture et de document chronologiques pour la France</span><span class="sxs-lookup"><span data-stu-id="6cf55-103">Chronological invoice and voucher numbers for France</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="6cf55-104">Cette rubrique explique comment paramétrer et utiliser des numéros chronologiques pour les factures et les documents dans la comptabilité client pour les entités juridiques en France.</span><span class="sxs-lookup"><span data-stu-id="6cf55-104">This topic explains how to set up and use chronological numbers for invoices and vouchers in Accounts receivable for legal entities in France.</span></span>  
 

@@ -19,16 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: fe7332eae681ea4e89a4fda0e97f85e6fc2f7d05
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 94bd18697c5074deb17980d4354dc0e690233f6f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="reduce-balance-depreciation"></a><span data-ttu-id="c26d1-103">Effectuer un amortissement dégressif</span><span class="sxs-lookup"><span data-stu-id="c26d1-103">Reduce balance depreciation</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="c26d1-104">Cet article donne une vue d'ensemble de la méthode d'amortissement dégressif.</span><span class="sxs-lookup"><span data-stu-id="c26d1-104">This article gives an overview of the Reducing balance method of depreciation.</span></span>
 

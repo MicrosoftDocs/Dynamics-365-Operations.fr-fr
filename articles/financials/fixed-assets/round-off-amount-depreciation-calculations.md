@@ -19,16 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d0eceb90806b3d4cbe953ce496142ab1ab5ae43f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ddc7e50805eac5d083e76471ff82b9ea0f985736
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="round-off-amount-for-depreciation-calculations"></a><span data-ttu-id="0c677-103">Montant arrondi pour les calculs d'amortissement</span><span class="sxs-lookup"><span data-stu-id="0c677-103">Round-off amount for depreciation calculations</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="0c677-104">Cet article présente le champ Arrondir l'amortissement qui est indiqué dans les pages de paramétrage du registre.</span><span class="sxs-lookup"><span data-stu-id="0c677-104">This article discusses the Round-off depreciation field that is found on the Book setup pages.</span></span>
 

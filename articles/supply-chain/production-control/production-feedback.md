@@ -20,16 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6a4525734c468bf6eb8bc1da0c1b98f19e8d343c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 812bf62d3d2cd84b79e46b615ec6ed856feff13f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="production-feedback"></a><span data-ttu-id="5684c-104">Rétroaction de production</span><span class="sxs-lookup"><span data-stu-id="5684c-104">Production feedback</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="5684c-105">Cet article fournit des informations sur les commentaires de production qui donnent aux collaborateurs des commentaires sur les tâches de production.</span><span class="sxs-lookup"><span data-stu-id="5684c-105">This article provides information about production feedback, which gives workers feedback about production jobs.</span></span> <span data-ttu-id="5684c-106">L'article inclut des informations sur les différentes manières de mettre à jour les commentaires de production.</span><span class="sxs-lookup"><span data-stu-id="5684c-106">The article includes information about the various ways that production feedback can be updated.</span></span>
 

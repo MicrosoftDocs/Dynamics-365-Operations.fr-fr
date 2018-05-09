@@ -16,15 +16,15 @@ ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 58ed417c72fd18ab67c1792d1801a58b6c4cfdb7
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 147a2bf84459a5b67ffe633d5a7dd24b31bf10da
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-and-transfer-transactions-to-the-blwi-belgium"></a><span data-ttu-id="d505e-103">Création et transfert de transactions vers l'état BLWI (Belgique)</span><span class="sxs-lookup"><span data-stu-id="d505e-103">Create and transfer transactions to the BLWI (Belgium)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="d505e-104">Cette procédure vous guide dans la création d'un état BLWI pour la Belgique.</span><span class="sxs-lookup"><span data-stu-id="d505e-104">This procedure walks you through creating BLWI report for the Belgium.</span></span> <span data-ttu-id="d505e-105">Cette procédure a été créée à l'aide des données fictives de la société USSI.</span><span class="sxs-lookup"><span data-stu-id="d505e-105">This procedure was created using the demo data company USSI.</span></span> <span data-ttu-id="d505e-106">Cette fonctionnalité est disponible pour les entités juridiques dont l'adresse principale est en Belgique.</span><span class="sxs-lookup"><span data-stu-id="d505e-106">This functionality is available for legal entities whose primary address is in the Belgium.</span></span> <span data-ttu-id="d505e-107">Il est également nécessaire de paramétrer l'ID enregistrement pour la Belgique et de remplir le numéro d'enregistrement pour pouvoir créer la déclaration BLWI.</span><span class="sxs-lookup"><span data-stu-id="d505e-107">Also it is necessary to set up Registration ID for Belgium and fill in Registration number in order to create BLWI declaration.</span></span>
 

@@ -19,16 +19,16 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: fe01425fa236655731e6e0723f3a1e57c05035cc
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 0d787dac50374af11d878652103145c9ae9b6877
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="reason-codes-for-inventory-counting"></a><span data-ttu-id="56f5b-103">Codes motif d'inventaire de stock</span><span class="sxs-lookup"><span data-stu-id="56f5b-103">Reason codes for inventory counting</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="56f5b-104">Les codes motif permettent d'analyser les résultats d'un processus d'inventaire et les écarts qui surviennent lors de ce processus.</span><span class="sxs-lookup"><span data-stu-id="56f5b-104">Reason codes let you analyze the results of a counting process and any discrepancies that occur during that process.</span></span> <span data-ttu-id="56f5b-105">Vous pouvez indiquer le motif du comptage, tel qu'une palette brisée ou un ajustement du stock basé sur des exemples de stock.</span><span class="sxs-lookup"><span data-stu-id="56f5b-105">You can specify the reason for doing the count, such as a broken pallet or a stock adjustment that is based on inventory samples.</span></span>
 

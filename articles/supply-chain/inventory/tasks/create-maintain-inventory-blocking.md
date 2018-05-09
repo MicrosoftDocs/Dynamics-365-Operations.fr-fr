@@ -17,15 +17,15 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 066db26cd2eed41746bae70adb3b6ff6c43a4394
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 06b1e552b1a0467e2e5665ebc9f44c9247e45180
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-and-maintain-inventory-blocking"></a><span data-ttu-id="75fe2-103">Créer et tenir à jour un blocage du stock</span><span class="sxs-lookup"><span data-stu-id="75fe2-103">Create and maintain inventory blocking</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="75fe2-104">Cette procédure décrit comment empêcher le stock physique disponible d'être réservée par d'autres documents sources sortants en utilisant le blocage du stock.</span><span class="sxs-lookup"><span data-stu-id="75fe2-104">This procedure shows how to prevent physical on-hand inventory from being reserved by other outbound source documents by using the inventory blocking.</span></span> <span data-ttu-id="75fe2-105">Vous pouvez exécuter la procédure dans la société USMF fictive avec les valeurs d'exemple affichées.</span><span class="sxs-lookup"><span data-stu-id="75fe2-105">You can run the procedure in demo data company USMF using the example values that are shown.</span></span> <span data-ttu-id="75fe2-106">Vous devez posséder d'un article avec le stock physique disponible avant de commencer cette procédure.</span><span class="sxs-lookup"><span data-stu-id="75fe2-106">You need to have an item with physical on-hand inventory available before you start this procedure.</span></span>
 

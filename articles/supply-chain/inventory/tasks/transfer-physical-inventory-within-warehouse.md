@@ -17,15 +17,15 @@ ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 442a608d2f7c7923ec50654d3d96cc429d205537
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 63685e48cf13cf9a78779db92b27063d3dd1ac12
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="transfer-physical-inventory-within-the-warehouse"></a><span data-ttu-id="bd847-103">Transférer du stock physique au sein de l'entrepôt</span><span class="sxs-lookup"><span data-stu-id="bd847-103">Transfer physical inventory within the warehouse</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="bd847-104">Cette procédure vous accompagne dans le processus de création et de validation d'un journal de transfert de stock en vue d'enregistrer le mouvement d'un article à partir d'un emplacement dans un entrepôt vers un autre.</span><span class="sxs-lookup"><span data-stu-id="bd847-104">This procedure walks you through the process of creating and posting an inventory transfer journal in order to register movement of an item from one location in a warehouse to another.</span></span> <span data-ttu-id="bd847-105">Avant de commencer, vous devez avoir configuré un nom de journal de stock pour les transferts de stock.</span><span class="sxs-lookup"><span data-stu-id="bd847-105">You need to have an inventory journal name set up for inventory transfers before you start this.</span></span> <span data-ttu-id="bd847-106">Vous pouvez suivre cette procédure avec les données de démonstration de la société fictive USMF à l'aide des valeurs d'exemple affichées, ou utiliser vos propres données si vous avez des produits et des emplacements configurés.</span><span class="sxs-lookup"><span data-stu-id="bd847-106">You can walk through this procedure in demo data company USMF using the example values that are shown, or using you can use your own data if you have products and locations set up.</span></span> <span data-ttu-id="bd847-107">Ces tâches sont normalement effectuées par un employé de l'entrepôt.</span><span class="sxs-lookup"><span data-stu-id="bd847-107">These tasks would normally be carried out by a warehouse employee.</span></span>
 

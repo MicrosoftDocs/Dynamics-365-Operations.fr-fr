@@ -16,15 +16,15 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: fe7127e84868492e9e22cf7d651d77f4415a4a26
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 067f0d211330d0b85d2836556f43495a1e378e44
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="view-a-related-intercompany-voucher-from-a-journal"></a><span data-ttu-id="ab203-103">Afficher un document intersociétés associé d'un journal</span><span class="sxs-lookup"><span data-stu-id="ab203-103">View a related intercompany voucher from a journal</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="ab203-104">La fenêtre associée de numéro de document affiche le numéro de document de la société de contrepartie lors de la validation d'une transaction intersociétés du journal des opérations diverses.</span><span class="sxs-lookup"><span data-stu-id="ab203-104">The related voucher window shows the voucher from the offset company when posting an intercompany transaction from the general journal.</span></span>
 

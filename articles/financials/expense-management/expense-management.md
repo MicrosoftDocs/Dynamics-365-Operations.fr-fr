@@ -19,16 +19,16 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 185f6878e8ffb18b7685439e3ccb5803726e3118
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 56ceba3d3a2495079f621148476cc70ac694834a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="expense-management"></a><span data-ttu-id="e909f-103">Gestion des dépenses</span><span class="sxs-lookup"><span data-stu-id="e909f-103">Expense management</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="e909f-104">Utilisez le module Gestion des dépenses pour créer un workflow intégré dans lequel vous pouvez stocker les informations de mode de paiement, importer les transactions de carte de crédit et effectuer un suivi de l'argent dépensé par les employés lorsqu'ils exposent leurs dépenses.</span><span class="sxs-lookup"><span data-stu-id="e909f-104">Use Expense management to create an integrated workflow where you can store payment method information, import credit card transactions, and track the money that employees are spending when they incur expenses for your business.</span></span> <span data-ttu-id="e909f-105">Vous pouvez également définir des stratégies de dépenses et automatiser le remboursement des frais de déplacement.</span><span class="sxs-lookup"><span data-stu-id="e909f-105">You can also define expense policies and automate the reimbursement of travel expenses.</span></span> 
 

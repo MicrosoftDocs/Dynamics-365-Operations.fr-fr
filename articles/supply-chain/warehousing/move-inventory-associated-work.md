@@ -18,16 +18,16 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7d81397ed30751f5b3dd7c46ffe6b27b8153c8f9
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2889f04017bdd20be05174146ba88a24cbefacbb
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="movement-of-inventory-with-associated-work-in-warehouse-management"></a><span data-ttu-id="aa267-103">Mouvements de stock avec le travail associé dans la gestion d'entrepôt</span><span class="sxs-lookup"><span data-stu-id="aa267-103">Movement of inventory with associated work in Warehouse management</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="aa267-104">Grâce au mouvement de stock, vous pouvez déterminer quels collaborateurs d'entrepôt sont autorisés à déplacer le stock réservé.</span><span class="sxs-lookup"><span data-stu-id="aa267-104">Using movement of inventory, you can decide which warehouse workers are allowed to move reserved inventory.</span></span> <span data-ttu-id="aa267-105">Ceci permet une grande flexibilité dans les entrepôts définis où vous pouvez choisir de ne pas permettre à un collaborateur de choisir un nouvel emplacement de prélèvement pour le travail de prélèvement qui est déjà créé.</span><span class="sxs-lookup"><span data-stu-id="aa267-105">This provides a flexibility in regulated warehouses where you can decide to not allow a worker to choose a new pick location for pick work that is already created.</span></span> <span data-ttu-id="aa267-106">Il permet également à un gestionnaire d'entrepôt de contrôler les capacités que certains collaborateurs moins expérimentés doivent posséder.</span><span class="sxs-lookup"><span data-stu-id="aa267-106">It also allows a warehouse manager to control which capabilities some less experienced workers should have.</span></span>
 

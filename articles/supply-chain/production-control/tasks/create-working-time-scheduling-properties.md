@@ -17,15 +17,15 @@ ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 87828c5ea2ccd804675f2fbcf7aafef1bf422503
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f7ce0b83fb20ca034646cb00d3c9860c5a3cf0d2
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-working-time-scheduling-properties"></a><span data-ttu-id="191f6-103">Créer les propriétés de la planification du temps de travail</span><span class="sxs-lookup"><span data-stu-id="191f6-103">Create working time scheduling properties</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="191f6-104">Les propriétés de la planification du temps de travail sont utilisées pour classer les intervalles de temps de travail et définir les paramètres que les opérateurs doivent prendre en compte.</span><span class="sxs-lookup"><span data-stu-id="191f6-104">Working time scheduling properties are used to categorize working time intervals and define the settings that operators must take into account.</span></span> <span data-ttu-id="191f6-105">Cette procédure permet d'indiquer comment définir une propriété de planification du temps de travail et les valeurs de propriété associées.</span><span class="sxs-lookup"><span data-stu-id="191f6-105">This procedure shows how to define a working time scheduling property and associated property values.</span></span> <span data-ttu-id="191f6-106">Vous pouvez parcourir cette procédure dans la société fictive USMF ou utiliser vos propres données.</span><span class="sxs-lookup"><span data-stu-id="191f6-106">You can walk through this procedure in demo data company USMF, or using your own data.</span></span>
 

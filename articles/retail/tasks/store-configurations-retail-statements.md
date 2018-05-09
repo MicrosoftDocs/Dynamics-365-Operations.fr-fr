@@ -17,15 +17,15 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d28e9cd63277a3a0c8dc0bce61177d7f7ae9c1ab
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d7a2c1acc37253a21fcae4c1fa38ece80dd3978d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="store-configurations-for-retail-statements"></a><span data-ttu-id="56bac-103"> Enregistrer les configurations pour les relevés de vente au détail</span><span class="sxs-lookup"><span data-stu-id="56bac-103">Store configurations for Retail statements</span></span>
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="56bac-104">Cette procédure illustre les configurations du magasin de vente au détail qui affectent la manière dont les relevés de vente au détail sont créés et validés.</span><span class="sxs-lookup"><span data-stu-id="56bac-104">This procedure walks through configurations for the Retail store that affect how Retail statements get created and posted.</span></span> <span data-ttu-id="56bac-105">Les dimensions financières pour les magasins de vente au détail sont traitées dans une autre procédure.</span><span class="sxs-lookup"><span data-stu-id="56bac-105">Financial dimensions on Retail stores are covered in another procedure.</span></span> <span data-ttu-id="56bac-106">La société fictive USRT sert d'exemple dans cette procédure.</span><span class="sxs-lookup"><span data-stu-id="56bac-106">This procedure uses the USRT demo company.</span></span>
 

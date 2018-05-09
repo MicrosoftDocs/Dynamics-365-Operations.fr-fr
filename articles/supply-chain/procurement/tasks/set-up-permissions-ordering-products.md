@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5839962a5a3be5d7836c74fc8476ceafa414d48c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 30d91d2ffab74250b3a8a46d7b7c5441a94d8dfd
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-permissions-for-ordering-products-on-behalf-of-someone-else"></a><span data-ttu-id="60f2c-103">Paramétrer des autorisations permettant de commander des produits au nom d'un tiers</span><span class="sxs-lookup"><span data-stu-id="60f2c-103">Set up permissions for ordering products on behalf of someone else</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="60f2c-104">Cette procédure montre comment accorder à des collaborateurs l'autorisation de préparer des demandes d'achat au nom d'autres collaborateurs.</span><span class="sxs-lookup"><span data-stu-id="60f2c-104">This procedure shows how to grant workers permission to prepare purchase requisitions on behalf of other workers.</span></span> <span data-ttu-id="60f2c-105">En d'autres termes, un « préparateur » de demande d'achat peut créer une demande pour un autre « demandeur ».</span><span class="sxs-lookup"><span data-stu-id="60f2c-105">In other words, a purchase requisition “preparer” can create a requisition for another “requester.”</span></span> <span data-ttu-id="60f2c-106">La procédure montre également comment accorder à un collaborateur une autorisation de commander des articles et des services dans différentes entités juridiques ou unités opérationnelles.</span><span class="sxs-lookup"><span data-stu-id="60f2c-106">The procedure also shows how to grant a worker permission to order items and services in different legal entities or operating units.</span></span> <span data-ttu-id="60f2c-107">Ces tâches sont généralement effectuées par un gestionnaire des achats.</span><span class="sxs-lookup"><span data-stu-id="60f2c-107">Typically, these tasks are performed by a purchasing manager.</span></span> <span data-ttu-id="60f2c-108">Vous pouvez utiliser cette procédure soit dans les données fictives de la société USMF soit dans vos propres données.</span><span class="sxs-lookup"><span data-stu-id="60f2c-108">You can use this procedure either on data for the USMF demo company or on your own data.</span></span>
 

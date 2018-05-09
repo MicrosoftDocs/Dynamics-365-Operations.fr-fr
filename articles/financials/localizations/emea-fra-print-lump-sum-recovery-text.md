@@ -18,16 +18,16 @@ ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 20312ba5f1fbd9b56b5f9fc13325960c24f2c5aa
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5730f21249f0b81a8e70be44a9c9d61ac04c7677
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="print-lump-sum-recovery-text-on-a-customer-invoice"></a><span data-ttu-id="cf11b-103">Impression du texte récupéré du montant forfaitaire sur une facture client</span><span class="sxs-lookup"><span data-stu-id="cf11b-103">Print lump sum recovery text on a customer invoice</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="cf11b-104">Cet article fournit des informations sur la procédure pour imprimer un texte récupéré du montant forfaitaire qui affiche le montant de la pénalité sur les factures client pour la France.</span><span class="sxs-lookup"><span data-stu-id="cf11b-104">This article provides information about how to print a lump sum recovery text that shows the penalty amount on customer invoices for France.</span></span>
 

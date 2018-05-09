@@ -16,15 +16,15 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e326acd4a7f681b02ee4846d36e94559ce6dbdfa
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b2587af5e004bb6ccebe01487a7b3b92ee965f38
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a><span data-ttu-id="3bd71-103">Paramétrage des groupes de validation dans la comptabilité de la taxe</span><span class="sxs-lookup"><span data-stu-id="3bd71-103">Set up ledger posting groups for sales tax</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="3bd71-104">La taxe est calculée et validée dans les comptes principaux spécifiés dans les groupes de validation dans la comptabilité.</span><span class="sxs-lookup"><span data-stu-id="3bd71-104">Sales tax is calculated and posted to main accounts that are specified in the Ledger posting groups.</span></span> <span data-ttu-id="3bd71-105">Les groupes de validation dans la comptabilité sont associés à chaque code taxe.</span><span class="sxs-lookup"><span data-stu-id="3bd71-105">Ledger posting groups are attached to each sales tax code.</span></span> <span data-ttu-id="3bd71-106">Vous pouvez paramétrer des groupes de validation dans la comptabilité individuels pour chaque code taxe ; vous pouvez utiliser un groupe de validations dans la comptabilité pour tous les codes taxe ou vous pouvez affecter plusieurs groupes de validations dans la comptabilité aux codes taxe.</span><span class="sxs-lookup"><span data-stu-id="3bd71-106">You can set up individual ledger posting groups for each sales tax code, use one ledger posting group for all sales tax codes or assign multiple ledger posting groups to the sales tax codes.</span></span> <span data-ttu-id="3bd71-107">La société fictive DEMF sert d'exemple dans cet enregistrement.</span><span class="sxs-lookup"><span data-stu-id="3bd71-107">This recording uses the DEMF demo company.</span></span> 
 

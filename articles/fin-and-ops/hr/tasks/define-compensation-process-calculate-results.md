@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 93f6cddd8d698dbc1a3539a156a762b8e6017aa6
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d32a6245b7fcbbccb319c1ff37ce7a843e1851d2
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="define-compensation-process-and-calculate-results"></a><span data-ttu-id="f9780-103">Définir le processus de rémunération et calculer les résultats</span><span class="sxs-lookup"><span data-stu-id="f9780-103">Define compensation process and calculate results</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="f9780-104">Des processus de rémunération permettent de déterminer de nouveaux montants et primes de rémunération pour les employés inscrits aux régimes de rémunération fixes et variables.</span><span class="sxs-lookup"><span data-stu-id="f9780-104">Compensation processes are used to determine new compensation amounts and awards for employees enrolled in fixed and variable compensation plans.</span></span> <span data-ttu-id="f9780-105">Vous pouvez exécuter les processus de rémunération plusieurs fois afin d'effectuer une analyse d'hypothèse, et vérifier ainsi que toutes les modifications et tous les paramètres sont corrects.</span><span class="sxs-lookup"><span data-stu-id="f9780-105">Compensation processes can be run multiple times to perform "what-if" analysis, to verify all changes and settings are correct.</span></span> <span data-ttu-id="f9780-106">Cette procédure crée un processus de rémunération, exécute le processus, et affiche les résultats.</span><span class="sxs-lookup"><span data-stu-id="f9780-106">This procedure will create a compensation process, run the process, and view the results.</span></span> <span data-ttu-id="f9780-107">Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.</span><span class="sxs-lookup"><span data-stu-id="f9780-107">The demo data company used to create this procedure is USMF.</span></span>
 

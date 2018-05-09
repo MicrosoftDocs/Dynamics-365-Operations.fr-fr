@@ -16,15 +16,15 @@ ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3bc4431f56157a0586f28046eaa40c002f1547b1
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 080a73996cb8afe2f10704023c76a85da95e4894
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="daily-interest-calculation-for-late-payment-and-lump-sum-in-the-invoice-and-collection-letter-france"></a><span data-ttu-id="fc6a6-103">Calcul des intérêts quotidien de paiement tardif et de montant forfaitaire dans la facture et la lettre de relance (France)</span><span class="sxs-lookup"><span data-stu-id="fc6a6-103">Daily interest calculation for late payment and lump sum in the invoice and collection letter (France)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="fc6a6-104">Indiquez le calcul des intérêts sur une facture.</span><span class="sxs-lookup"><span data-stu-id="fc6a6-104">Indicate the interest calculation on an invoice.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d0d7fbc5f9b928a43870899836ead4f8adbc1a56
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6cbaaf6fcb943089886f60e72f4fbab5029b2f8d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a><span data-ttu-id="4e79a-103">Identifier et déployer les outils de sélection de candidats</span><span class="sxs-lookup"><span data-stu-id="4e79a-103">Identify and deploy candidate selection tools</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="4e79a-104">Il peut être difficile de trouver un groupe de candidats qualifiés pour pourvoir les postes vacants, en particulier lorsqu'un poste nécessite un seul ensemble de qualifications.</span><span class="sxs-lookup"><span data-stu-id="4e79a-104">Finding a qualified pool of candidates to fill vacancies can be difficult, especially when a position requires a unique set of skills.</span></span>  <span data-ttu-id="4e79a-105">Toutefois, les candidats ayant les qualifications dont vous avez besoin sont peut-être déjà employés sans votre organisation.</span><span class="sxs-lookup"><span data-stu-id="4e79a-105">However, candidates with the skills you need might already be employed in your organization.</span></span> <span data-ttu-id="4e79a-106">Vous pouvez rechercher un ensemble de compétences spécifiques parmi les employés existants ou les nouveaux candidats.</span><span class="sxs-lookup"><span data-stu-id="4e79a-106">You can search for a specific skill set among existing employees, or new applicants.</span></span> <span data-ttu-id="4e79a-107">Cela permet à un recruteur de trouver et de sélectionner rapidement des candidats qui viennent de postuler à un poste vacant ou qui l'ont fait dans le passé, ou de rechercher des candidats potentiels dans un groupe d'employés existant.</span><span class="sxs-lookup"><span data-stu-id="4e79a-107">This allows a recruiter to quickly gather and screen applicants who have applied for open position now or in the past, or to find potential candidates from their existing pool of employees.</span></span> <span data-ttu-id="4e79a-108">Utilisez cet enregistrement de tâche pour savoir comment la fonctionnalité de mise en correspondance des qualifications peut vous aider à rechercher la bonne personne pour un poste vacant.</span><span class="sxs-lookup"><span data-stu-id="4e79a-108">Use this task recording to learn how the skill mapping functionality can help you find the right person for an open position.</span></span> <span data-ttu-id="4e79a-109">Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.</span><span class="sxs-lookup"><span data-stu-id="4e79a-109">The demo data company used to create this procedure is USMF.</span></span>
 

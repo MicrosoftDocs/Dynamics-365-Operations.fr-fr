@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 258f3e801b735ee54db3642e7fbdfc0f0ff153a0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6876f8ed0f69ec5a34c4c9671081c76245945b1e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-solicitation-types-and-scoring-criteria-for-rfqs"></a><span data-ttu-id="4583b-103">Créer des types de sollicitation et des critères d'attribution pour les demandes de devis</span><span class="sxs-lookup"><span data-stu-id="4583b-103">Create solicitation types and scoring criteria for RFQs</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="4583b-104">Ce guide montre comment créer un type de sollicitation et l'associer à une méthode d'attribution de score.</span><span class="sxs-lookup"><span data-stu-id="4583b-104">This guide shows you how to create a solicitation type and associate this with a scoring method.</span></span> <span data-ttu-id="4583b-105">Il montre également comment utiliser le type de sollicitation sur un appel d'offre qui définit ensuite la méthode d'attribution de score par défaut.</span><span class="sxs-lookup"><span data-stu-id="4583b-105">It also shows how to use the solicitation type on a request for quotation (RFQ) which then sets the default scoring method.</span></span> <span data-ttu-id="4583b-106">Ces tâches sont généralement effectuées par un responsable des achats.</span><span class="sxs-lookup"><span data-stu-id="4583b-106">These tasks would typically be carried out by a purchasing manager.</span></span> <span data-ttu-id="4583b-107">Vous pouvez utiliser cette procédure dans la société fictive de démonstration USMF ou utiliser vos propres données.</span><span class="sxs-lookup"><span data-stu-id="4583b-107">You can use this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="4583b-108">Vous devez avoir une méthode d'attribution de score disponible avant de commencer.</span><span class="sxs-lookup"><span data-stu-id="4583b-108">You need to have a scoring method available before you start.</span></span>
 

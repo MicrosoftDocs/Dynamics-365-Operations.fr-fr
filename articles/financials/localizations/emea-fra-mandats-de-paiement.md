@@ -18,16 +18,16 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6028fbc6ac79765a0c390883fe8af2fa3fb6fc27
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 57f6285b403ba68fd9795836dceef1fae2067974
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="mandats-de-paiement-in-the-public-sector-in-france"></a><span data-ttu-id="c0aee-104">Mandats de paiement dans le secteur public en France</span><span class="sxs-lookup"><span data-stu-id="c0aee-104">Mandats de paiement in the public sector in France</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="c0aee-105">Le mandat de paiement est utilisé par le directeur pour informer le comptable que l'organisation doit payer un montant donné à une autre entité et pour autoriser le comptable à payer ledit montant.</span><span class="sxs-lookup"><span data-stu-id="c0aee-105">The mandat de paiement is used by the director to notify the accountant that the organization is obligated to pay a specific amount to another entity, and to authorize the accountant to pay that amount.</span></span> <span data-ttu-id="c0aee-106">Le mandat permet de garantir une séparation nette obligatoire entre le rôle opérationnel du directeur et le rôle comptable du comptable.</span><span class="sxs-lookup"><span data-stu-id="c0aee-106">The mandat maintains the strict separation that is required between the operational role of the director and the accounting role of the accountant.</span></span>
 

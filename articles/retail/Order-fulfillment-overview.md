@@ -18,16 +18,16 @@ ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5ab58a7e977b5a23825c60a53c8064c831bae512
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 76bdea6e3a90c5984b882dd86b4716647438b91c
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="store-order-fulfillment"></a><span data-ttu-id="d0804-103">Exécution des commandes en magasin</span><span class="sxs-lookup"><span data-stu-id="d0804-103">Store order fulfillment</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="d0804-104">De nombreuses détaillants souhaitent optimiser l'exécution des commandes en autorisant les magasins à exécuter les commandes.</span><span class="sxs-lookup"><span data-stu-id="d0804-104">Many retailers would like to optimize order fulfillment by enabling stores to fill orders.</span></span> <span data-ttu-id="d0804-105">L'exécution des commandes au niveau du magasin permet de faciliter les scénarios de surstock pour un magasin spécifique, ou peut être nécessaire d'un point de vue logistique dans les cas où un magasin a des capacités supplémentaires ou est situé à une distance d'expédition proche du client.</span><span class="sxs-lookup"><span data-stu-id="d0804-105">Order fulfillment at the store level can help to ease overstock scenarios for a specific store, or may be needed from a logistical standpoint in cases where a store has extra capacity or is located within closer shipping distance to the customer.</span></span> <span data-ttu-id="d0804-106">Pour répondre à ce besoin, une opération d'exécution de commandes unifiée est disponible dans le point de vente.</span><span class="sxs-lookup"><span data-stu-id="d0804-106">To address this need, a unified order fulfillment operation is available at the point of sale.</span></span>
 

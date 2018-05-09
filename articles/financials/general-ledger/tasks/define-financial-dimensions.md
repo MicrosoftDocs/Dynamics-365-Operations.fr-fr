@@ -16,15 +16,15 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7ea96953d07b4025f294a07040ea9d8b1db87945
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 192af4e8a9f77e4728954375d9d9699187137803
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="define-financial-dimensions"></a><span data-ttu-id="6cd89-103">Définir des dimensions financières</span><span class="sxs-lookup"><span data-stu-id="6cd89-103">Define financial dimensions</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="6cd89-104">Ce guide illustre l'ajout d'une dimension financière soutenue par une entité et d'une dimension financière personnalisée.</span><span class="sxs-lookup"><span data-stu-id="6cd89-104">This task guide demonstrates adding an entity backed financial dimension and a custom financial dimension.</span></span>  <span data-ttu-id="6cd89-105">La société fictive USMF sert d'exemple dans ce guide.</span><span class="sxs-lookup"><span data-stu-id="6cd89-105">The guide uses the USMF demo company.</span></span>
 

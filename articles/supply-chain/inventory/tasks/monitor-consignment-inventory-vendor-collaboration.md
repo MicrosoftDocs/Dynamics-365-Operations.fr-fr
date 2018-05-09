@@ -17,15 +17,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f071b9c2358e6720bd9c69e4ed7be6e059521113
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a934f3396ee68145fd9e83777078b5f4053b47cc
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="monitor-consignment-inventory-using-vendor-collaboration"></a><span data-ttu-id="eb8ce-103">Contrôler le stock de consignation à l'aide de la collaboration fournisseur</span><span class="sxs-lookup"><span data-stu-id="eb8ce-103">Monitor consignment inventory using vendor collaboration</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="eb8ce-104">Cette procédure indique comment utiliser la collaboration du fournisseur pour afficher des informations sur le niveau de stock du produit que vous avez placé en consignation auprès d'un client.</span><span class="sxs-lookup"><span data-stu-id="eb8ce-104">This procedure shows how to use vendor collaboration to see information about the stock level of product that you have placed in consignment with a customer.</span></span> <span data-ttu-id="eb8ce-105">Vous pouvez également contrôler la consommation du stock lorsque le client s'approprie le stock.</span><span class="sxs-lookup"><span data-stu-id="eb8ce-105">You can also monitor the consumption of the stock when the customer takes ownership of the inventory.</span></span> <span data-ttu-id="eb8ce-106">Vous pouvez utiliser cette procédure dans les données fictives de la société USMF.</span><span class="sxs-lookup"><span data-stu-id="eb8ce-106">You can use this procedure in the USMF demo data company.</span></span> <span data-ttu-id="eb8ce-107">Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.</span><span class="sxs-lookup"><span data-stu-id="eb8ce-107">This procedure is for a feature that was added in Dynamics 365 for Operations, version 1611.</span></span>
 

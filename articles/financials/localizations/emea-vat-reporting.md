@@ -18,16 +18,16 @@ ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: afcc2ea8c0ca3a5877b44fd758aec9d2caf92d92
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5c5cd61c45eb7cbc6f040f054a99d9a54e1ee854
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="vat-reporting-for-europe"></a><span data-ttu-id="cbb96-103">Déclaration de TVA pour l'Europe</span><span class="sxs-lookup"><span data-stu-id="cbb96-103">VAT reporting for Europe</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="cbb96-104">Cette rubrique fournit des informations générales sur le paramétrage et la génération de la déclaration de TVA pour certains pays européens.</span><span class="sxs-lookup"><span data-stu-id="cbb96-104">This topic provides general information about setting up and generating the value-added tax (VAT) statement for some European countries.</span></span>
 

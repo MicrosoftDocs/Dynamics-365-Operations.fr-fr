@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 41daec8028b1a07c89967b9087fa125fada3bb5b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 54adbc511f3a43ed04f0ab49ea8b21b109e53376
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="waive-reinstate-or-reverse-interest-fees"></a><span data-ttu-id="0d3fd-103">Exonération, rétablissement ou contrepassation de commissions d'intérêt</span><span class="sxs-lookup"><span data-stu-id="0d3fd-103">Waive, reinstate, or reverse interest fees</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="0d3fd-104">Cet article explique comment exonérer, rétablir, et contrepasser les frais pour les intérêts et les frais.</span><span class="sxs-lookup"><span data-stu-id="0d3fd-104">This article explains how to waive, reinstate, and reverse charges for interest and fees.</span></span>
 

@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 8ac8ebede5c333835b0974843a69e70e51028117
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 05ac3b28c4d0806f71f1e0cb069c0d48137a4332
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="moving-average"></a><span data-ttu-id="e2817-105">Moyenne mobile</span><span class="sxs-lookup"><span data-stu-id="e2817-105">Moving average</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="e2817-106">La moyenne de déplacement est une méthode d'évaluation des coûts définitive basée sur le principe de moyenne, où les coûts des sorties de stock ne changent pas lorsque le coût d'achat est modifié.</span><span class="sxs-lookup"><span data-stu-id="e2817-106">Moving average is a perpetual costing method based on the average principle, where the costs on inventory issues do not change when the purchase cost does.</span></span> <span data-ttu-id="e2817-107">La différence est capitalisée et est basée sur un calcul proportionnel.</span><span class="sxs-lookup"><span data-stu-id="e2817-107">The difference is capitalized and is based on a proportional calculation.</span></span> <span data-ttu-id="e2817-108">Le montant restant est mis en dépenses.</span><span class="sxs-lookup"><span data-stu-id="e2817-108">The amount that remains is expensed.</span></span> 
 

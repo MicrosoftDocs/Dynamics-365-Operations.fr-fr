@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 37010003ad638e068ed7650532da29c6dbc033cb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c3c048a18ee8150880ed9df139cd498f2ec52852
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-a-mobile-device-menu-item-for-completing-work-in-a-purchase-order"></a><span data-ttu-id="5e02c-103">Paramétrer une option de menu d'appareil mobile pour terminer le travail d'une commande fournisseur</span><span class="sxs-lookup"><span data-stu-id="5e02c-103">Set up a mobile device menu item for completing work in a purchase order</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="5e02c-104">Cette procédure montre comment configurer une option du menu Appareil mobile.</span><span class="sxs-lookup"><span data-stu-id="5e02c-104">This procedure shows how to set up a Mobile device menu item.</span></span> <span data-ttu-id="5e02c-105">Dans cet exemple, l'option de menu est utilisée pour effectuer le travail de type commande fournisseur.</span><span class="sxs-lookup"><span data-stu-id="5e02c-105">In this example, the menu item is used for performing work of type Purchase order.</span></span> <span data-ttu-id="5e02c-106">La classe de travail associée à l'option de menu qui détermine quel travail est valide.</span><span class="sxs-lookup"><span data-stu-id="5e02c-106">The work class that’s associated with the menu item determines which work is valid.</span></span> <span data-ttu-id="5e02c-107">Vous pouvez utiliser ce guide dans les données de démonstration de la société fictive USMF.</span><span class="sxs-lookup"><span data-stu-id="5e02c-107">You can use this guide in demo data company USMF.</span></span> <span data-ttu-id="5e02c-108">Cette procédure est généralement effectuée par un gestionnaire de l'entrepôt.</span><span class="sxs-lookup"><span data-stu-id="5e02c-108">This procedure is typically carried out by a warehouse manager.</span></span>
 

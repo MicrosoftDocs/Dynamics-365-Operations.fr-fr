@@ -20,16 +20,16 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7d92331443599fe37fb250a21af2d47f53e57eb8
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 47e76842622416f00446cd66d2d16a1c19cc7b39
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="billing-classifications-and-billing-codes-in-the-public-sector"></a><span data-ttu-id="89b3d-103">Classifications de facturation et codes facturation dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="89b3d-103">Billing classifications and billing codes in the public sector</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="89b3d-104">Les organisations du secteur public peuvent utiliser les classifications de facturation et des codes de facturation pour gérer les factures financières.</span><span class="sxs-lookup"><span data-stu-id="89b3d-104">Public-sector organizations can use billing classifications and billing codes to help manage free text invoices.</span></span> 
 

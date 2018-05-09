@@ -18,16 +18,16 @@ ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: fcae9bf8068913f8cda61e3fd3063f0a6122ae4d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 40742ff82e916b64e68662f79899baf2549b1f2c
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="bank-statement-and-payment-reconciliation-for-the-eu"></a><span data-ttu-id="98a2e-103">Rapprochement des relevés bancaires et des paiements pour l'UE</span><span class="sxs-lookup"><span data-stu-id="98a2e-103">Bank statement and payment reconciliation for the EU</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="98a2e-104">Cette rubrique donne une vue d'ensemble de la fonctionnalité permettant de rapprocher les informations de paiement des banques dans les formats utilisés par les pays européens.</span><span class="sxs-lookup"><span data-stu-id="98a2e-104">This topic provides an overview of the functionality that you can use to reconcile payment information from banks in formats that are used by European countries.</span></span>
 

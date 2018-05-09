@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5a3be54d336b5a0e4e85844307c3c7d60c1aef69
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e98d48fc31a9dfd4959e88f31e00317afbfeb8c1
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="benefit-eligibility-process"></a><span data-ttu-id="e5fef-103">Processus de droit aux avantages</span><span class="sxs-lookup"><span data-stu-id="e5fef-103">Benefit eligibility process</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="e5fef-104">Cette procédure décrit le fonctionnement du processus d'admissibilité aux avantages.</span><span class="sxs-lookup"><span data-stu-id="e5fef-104">This procedure shows how the benefit eligibility process works.</span></span> <span data-ttu-id="e5fef-105">Lorsque le processus est terminé, vous pouvez afficher les résultats.</span><span class="sxs-lookup"><span data-stu-id="e5fef-105">When the process is complete you can view the results.</span></span> <span data-ttu-id="e5fef-106">Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.</span><span class="sxs-lookup"><span data-stu-id="e5fef-106">The demo data company used to create this procedure is USMF.</span></span>
 

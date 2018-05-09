@@ -18,16 +18,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 113f8ff7842a664c49e33473f3691051afac84fe
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 857f2c7ea948717695c3c741a20f6b3e922b33e1
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="financial-dimensions-and-main-accounts-in-a-right-to-left-language"></a><span data-ttu-id="338cd-103">Dimensions financières et comptes principaux dans une langue qui se lit de droite à gauche</span><span class="sxs-lookup"><span data-stu-id="338cd-103">Financial dimensions and main accounts in a right-to-left language</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="338cd-104">Cette rubrique décrit certaines des décisions d'implémentation que vous devez prendre en compte lorsque vous utilisez une langue qui se lit de droite à gauche, et vous devez paramétrer des dimensions financières et des comptes principaux.</span><span class="sxs-lookup"><span data-stu-id="338cd-104">This topic describes some of the implementation decisions that you should consider when you use a right-to-left language, and you must set up financial dimensions and main accounts.</span></span>
 

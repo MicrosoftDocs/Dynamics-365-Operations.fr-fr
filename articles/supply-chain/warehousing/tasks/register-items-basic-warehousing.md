@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ab824bd99347cbd090e99435217f9ce8ae992b3d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7dd92935d3d19526c04cbdec15754d52f8dad34a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="register-items-for-a-basic-warehousing-enabled-item-using-an-item-arrival-journal"></a><span data-ttu-id="00bf2-103">Enregistrer des articles pour un article activé pour l'entreposage de base à l'aide d'un journal des arrivées d'articles</span><span class="sxs-lookup"><span data-stu-id="00bf2-103">Register items for a basic warehousing enabled item using an item arrival journal</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="00bf2-104">Cette procédure décrit la manière dont vous enregistrez des articles à l'aide des journaux d'arrivée des articles lorsque vous utilisez l'« entreposage de base » dans le module Gestion des stocks.</span><span class="sxs-lookup"><span data-stu-id="00bf2-104">This procedure shows you how to register items using the item arrival journal when you are using “basic warehousing” in the Inventory management module.</span></span> <span data-ttu-id="00bf2-105">Cette opération est généralement effectuée par la personne qui s'occupe de la réception.</span><span class="sxs-lookup"><span data-stu-id="00bf2-105">This would usually be done by a receiving clerk.</span></span> <span data-ttu-id="00bf2-106">Vous pouvez exécuter cette procédure dans la société USMF fictive avec les valeurs d'exemple affichées.</span><span class="sxs-lookup"><span data-stu-id="00bf2-106">You can run this procedure in demo data company USMF with the example values that are shown.</span></span>  <span data-ttu-id="00bf2-107">Si vous n'utilisez pas USMF, vous devez avoir une commande fournisseur confirmée avec une ligne de commande fournisseur en cours avant de lancer ce guide.</span><span class="sxs-lookup"><span data-stu-id="00bf2-107">If you are not using USMF, you need to have a confirmed purchase order with an open purchase order line before you start this guide.</span></span> <span data-ttu-id="00bf2-108">L'article de la ligne doit être stocké et il ne doit ni utiliser les variantes de produit ni avoir des dimensions de suivi.</span><span class="sxs-lookup"><span data-stu-id="00bf2-108">The item on the line must be stocked, and it must not use product variants, and must not have tracking dimensions.</span></span> <span data-ttu-id="00bf2-109">Et l'article doit être associé à un groupe de dimension de stockage, dans lequel le site et l'entrepôt sont actifs.</span><span class="sxs-lookup"><span data-stu-id="00bf2-109">And the item needs to be associated with a storage dimension group, where site and warehouse are active.</span></span>
 

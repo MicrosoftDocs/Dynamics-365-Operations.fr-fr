@@ -17,16 +17,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: bc2431a8008ce6518974e240d12dc07f097bdbb0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1047af93727f98fc0f15a82c93b388de5d9860f0
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="view-an-expense-report"></a><span data-ttu-id="06209-103">Afficher un état de dépenses</span><span class="sxs-lookup"><span data-stu-id="06209-103">View an expense report</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="06209-104">Lorsque vous exécutez une requête pour afficher des transactions dans la comptabilité ou les approvisionnements, la requête peut retourner trop d'informations.</span><span class="sxs-lookup"><span data-stu-id="06209-104">When you run a query to view transactions in General ledger or Procurement and sourcing, the query might return too much information.</span></span> <span data-ttu-id="06209-105">Par conséquent, vous voudrez peut-être affiner votre recherche.</span><span class="sxs-lookup"><span data-stu-id="06209-105">Therefore, you might want to narrow your search.</span></span> <span data-ttu-id="06209-106">Pour obtenir les informations requises, vous pouvez naviguer dans la hiérarchie pour atteindre la transaction afin de consulter l'état de dépenses sur lequel elle apparaît.</span><span class="sxs-lookup"><span data-stu-id="06209-106">To get the information that you require, you can drill down into a transaction to see the expense report that it appeared on.</span></span>
 

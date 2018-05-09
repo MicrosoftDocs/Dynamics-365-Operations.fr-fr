@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: cd9842a14d512353bda399a9d83eb7296a75d982
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3a6a02c2eca3cecc8b7519a5951a958aa5bc637b
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-a-carrier-fuel-index"></a><span data-ttu-id="7f98a-103">Paramétrer un index de carburant du transporteur</span><span class="sxs-lookup"><span data-stu-id="7f98a-103">Set up a carrier fuel index</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="7f98a-104">Ce guide indique comment créer une région de l'index de carburant, un index de carburant et un index de carburant du transporteur.</span><span class="sxs-lookup"><span data-stu-id="7f98a-104">This guide shows how to create a fuel index region, a fuel index and a carrier fuel index.</span></span> <span data-ttu-id="7f98a-105">La région d'index de carburant spécifie à quelle région l'index doit s'appliquer, et l'index de carburant spécifie un prix du carburant pour une période spécifique.</span><span class="sxs-lookup"><span data-stu-id="7f98a-105">The fuel index region specifies which region the fuel index should apply to, and the fuel index specifies a fuel price for a particular period of time.</span></span> <span data-ttu-id="7f98a-106">Pour refléter la modification des prix du carburant au fil du temps, vous pouvez associer une région à plusieurs index de carburant à un transporteur.</span><span class="sxs-lookup"><span data-stu-id="7f98a-106">To reflect the change in fuel prices over time, you can associate multiple fuel indexes with a carrier.</span></span>  <span data-ttu-id="7f98a-107">Ces tâches sont normalement effectuées par un coordinateur de transport.</span><span class="sxs-lookup"><span data-stu-id="7f98a-107">These tasks are normally done by a transportation coordinator.</span></span> <span data-ttu-id="7f98a-108">Vous pouvez utiliser cette procédure dans les données de démonstration de la société fictive USMF ou utiliser vos propres données.</span><span class="sxs-lookup"><span data-stu-id="7f98a-108">You can use this procedure in demo data company USMF or using your own data.</span></span>
 

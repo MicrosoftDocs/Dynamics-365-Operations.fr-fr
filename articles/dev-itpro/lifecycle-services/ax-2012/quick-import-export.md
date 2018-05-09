@@ -18,16 +18,16 @@ ms.author: margoc
 ms.search.validFrom: 
 ms.dyn365.ops.version: AX 2012 R3 CU8
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0c4c77933a877492ff6214f2fd8e17641bf1463e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4bb5bf73210abfc3fc06f7f291ae60fdf4298b71
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="run-the-test-data-transfer-tool-beta-for-dynamics-ax-ax-2012"></a><span data-ttu-id="7aa8d-103">Exécuter l'Outil de transfert de données de test (bêta) dans Dynamics AX (AX 2012)</span><span class="sxs-lookup"><span data-stu-id="7aa8d-103">Run the Test Data Transfer Tool (beta) for Dynamics AX (AX 2012)</span></span>
 
-[!INCLUDE [banner](../../includes/banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 <span data-ttu-id="7aa8d-104">Le but de l’exportation/importation rapide est de vous permettre d’importer et d'exporter avec moins d’étapes.</span><span class="sxs-lookup"><span data-stu-id="7aa8d-104">The purpose of Quick import export is to let you import and export with fewer steps.</span></span>
 

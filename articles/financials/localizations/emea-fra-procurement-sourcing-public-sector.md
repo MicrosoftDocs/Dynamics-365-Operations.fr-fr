@@ -19,16 +19,16 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2b8ddd0fb056466b1d52c2494a3a0149cbd207af
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7cf70c9dace0a1e8239ae9964eed853244c7c38e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="procurement-and-sourcing-in-the-public-sector-in-france"></a><span data-ttu-id="6a0ca-104">Approvisionnements dans le secteur public en France</span><span class="sxs-lookup"><span data-stu-id="6a0ca-104">Procurement and sourcing in the public sector in France</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="6a0ca-105">Cet article explique comment les fonctionnalités standard associées aux approvisionnements ont été étendues pour les entités françaises du secteur public.</span><span class="sxs-lookup"><span data-stu-id="6a0ca-105">This article explains how the standard features that are related to procurement and sourcing are augmented for French entities in the public sector.</span></span> <span data-ttu-id="6a0ca-106">Ces fonctionnalités permettent de répondre aux besoins du Code des marchés publics.</span><span class="sxs-lookup"><span data-stu-id="6a0ca-106">These features are used to help meet the requirements of the Code des Marchés Publics.</span></span> 
 

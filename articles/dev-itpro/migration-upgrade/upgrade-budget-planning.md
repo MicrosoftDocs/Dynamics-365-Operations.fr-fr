@@ -18,16 +18,16 @@ ms.author: ryansand
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 68365439269c38ff28258600856a98642838de4b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3d57419ca5c59be185c87b869302b41bef05a3c7
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="upgrade-budget-planning"></a><span data-ttu-id="f6305-105">Mise à jour de la planification budgétaire</span><span class="sxs-lookup"><span data-stu-id="f6305-105">Upgrade budget planning</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="f6305-106">Il existe des différences significatives dans la planification budgétaire entre Microsoft Dynamics AX 2012 et Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="f6305-106">There are significant differences in budget planning between Microsoft Dynamics AX 2012 and Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="f6305-107">Certaines fonctions n'ont pas été mises à jour et nécessitent par conséquent une reconfiguration.</span><span class="sxs-lookup"><span data-stu-id="f6305-107">Some features were not upgraded and therefore require reconfiguration.</span></span> <span data-ttu-id="f6305-108">Cette rubrique explique ce qui doit être reconfiguré et décrit également les nouvelles fonctions qui doivent être examinées après la mise à niveau.</span><span class="sxs-lookup"><span data-stu-id="f6305-108">This topic explains what must be reconfigured and also describes new features that should be considered after the upgrade is completed.</span></span>  
 

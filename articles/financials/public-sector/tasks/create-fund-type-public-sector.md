@@ -17,15 +17,15 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: cf2c3d3b69a4cd98401b1f3ba029d8eef151905a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 02676d79d560c91c5288e348a3841779b577c25a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-fund-type-in-the-public-sector"></a><span data-ttu-id="070e7-103">Créer un type de fonds dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="070e7-103">Create a fund type in the public sector</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="070e7-104">Les types de fonds sont des catégories que vous pouvez utiliser pour regrouper des fonds à des fins de suivi et de génération d'états fiscaux détaillés.</span><span class="sxs-lookup"><span data-stu-id="070e7-104">Fund types are categories that you can use to group funds for detailed fiscal tracking and reporting.</span></span> <span data-ttu-id="070e7-105">Les principes comptables généralement reconnus (GAAP) pour la comptabilité gouvernementale et locale fournissent des normes que vous pouvez suivre lorsque vous paramétrez votre système de fonds et de types de fonds.</span><span class="sxs-lookup"><span data-stu-id="070e7-105">The Generally Accepted Accounting Principles (GAAP) for state and local governmental accounting provides standards that you can follow when you set up your system of funds and fund types.</span></span> 
 

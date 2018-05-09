@@ -16,15 +16,15 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 89cc5e0e45b91f3f58c88bc2e3ab197eb074540d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 27292a086bcaa3388f80f968a79b40c1d6e64dfb
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-and-create-depreciation-profiles"></a><span data-ttu-id="ba1ac-103">Paramétrer et créer des profils d'amortissement</span><span class="sxs-lookup"><span data-stu-id="ba1ac-103">Set up and create depreciation profiles</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="ba1ac-104">Les profils d'amortissement déterminent le type et la fréquence d'amortissement d'une immobilisation.</span><span class="sxs-lookup"><span data-stu-id="ba1ac-104">Depreciation profiles determine the type and the frequency of depreciation for an asset.</span></span>   <span data-ttu-id="ba1ac-105">La société fictive USMF et le rôle de comptable sont cités en exemple dans cet enregistrement.</span><span class="sxs-lookup"><span data-stu-id="ba1ac-105">This recording uses the USMF demo company and the accountant role.</span></span>
 

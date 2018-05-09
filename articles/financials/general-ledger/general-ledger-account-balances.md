@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 8634b8f2c41b530fcd06f253358145fdc9389d2d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 16509a70bbbd64071af1b06289557f4dd25cdb26
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="general-ledger-account-balances"></a><span data-ttu-id="eb004-104">Soldes de la comptabilité</span><span class="sxs-lookup"><span data-stu-id="eb004-104">General ledger account balances</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="eb004-105">Cet article décrit deux manières d'afficher les soldes de compte général : la page de liste de balance comptable et les états financiers.</span><span class="sxs-lookup"><span data-stu-id="eb004-105">This article explains two ways to view general ledger account balances -  the Trial balance list page and financial reports.</span></span> <span data-ttu-id="eb004-106">Il explique également comment mettre à jour les soldes de l'ensemble de dimensions.</span><span class="sxs-lookup"><span data-stu-id="eb004-106">It also discusses how to update dimension set balances.</span></span>
 

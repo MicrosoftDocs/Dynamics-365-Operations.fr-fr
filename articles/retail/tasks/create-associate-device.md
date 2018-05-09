@@ -17,15 +17,15 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c12980fed5e6b26cc23aed93ce1f5ed71ea05b2b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a6cbf5473419e9a390cd223706d12ba1e3c887bb
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-and-associate-a-device"></a><span data-ttu-id="37148-103"> Créer et associer un périphérique</span><span class="sxs-lookup"><span data-stu-id="37148-103">Create and associate a device</span></span>
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="37148-104">Cette procédure décrit comment créer un périphérique et l'associer à une caisse enregistreuse.</span><span class="sxs-lookup"><span data-stu-id="37148-104">This procedure walks through how to create a new device and associate it to a register.</span></span> <span data-ttu-id="37148-105">On suppose que la caisse enregistreuse est déjà créée.</span><span class="sxs-lookup"><span data-stu-id="37148-105">It is assumed that the register is already created.</span></span>  <span data-ttu-id="37148-106">Cette tâche utilise la société USRT dans les données de démonstration.</span><span class="sxs-lookup"><span data-stu-id="37148-106">This task uses the USRT company in demo data.</span></span> <span data-ttu-id="37148-107">Cette tâche est destinée aux administrateurs, professionnels de l'informatique ou responsables informatiques de la vente au détail, ainsi qu'au rôle Directeur de magasin.</span><span class="sxs-lookup"><span data-stu-id="37148-107">This task is intended for Administrators, IT Professional or Retail IT, and the Store Manager roles.</span></span>
 

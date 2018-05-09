@@ -17,15 +17,15 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: cdc133105f393544af4aee33269a30bc364752c3
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a8aceb273f940b0c01c4ca0f45bd8a16968f6f4f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="report-a-production-order-as-finished"></a><span data-ttu-id="30450-103">Déclarer un ordre de fabrication terminé</span><span class="sxs-lookup"><span data-stu-id="30450-103">Report a production order as finished</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="30450-104">Cette procédure montre comment déclarer un ordre de fabrication comme terminé.</span><span class="sxs-lookup"><span data-stu-id="30450-104">This procedure shows how to report a production order as finished.</span></span> <span data-ttu-id="30450-105">Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.</span><span class="sxs-lookup"><span data-stu-id="30450-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="30450-106">Il s'agit de la sixième des sept procédures expliquant le cycle de vie de l'ordre de fabrication.</span><span class="sxs-lookup"><span data-stu-id="30450-106">This is the sixth procedure out of seven which explains the production order lifecycle.</span></span>
 

@@ -17,15 +17,15 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d1effe8ec115e5a9699fe14d968778a739268a0c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6926f2716dcae3b1af28dd0cea315bfbd88c6724
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-one-time-vendor-and-invoice-in-the-public-sector"></a><span data-ttu-id="3a2bb-103">Créer un fournisseur occasionnel et une facture dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="3a2bb-103">Create a one-time vendor and invoice in the public sector</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="3a2bb-104">L'enregistrement fournisseur utilise les valeurs du compte fournisseur occasionnel par défaut.</span><span class="sxs-lookup"><span data-stu-id="3a2bb-104">The vendor record uses values from the default one-time vendor account.</span></span> <span data-ttu-id="3a2bb-105">Pour afficher les détails du compte, accédez à la page Tous les fournisseurs, puis double-cliquez sur le numéro de compte du fournisseur occasionnel par défaut.</span><span class="sxs-lookup"><span data-stu-id="3a2bb-105">To view the account details, go to the All vendors page, and then double-click the vendor account number of the default one-time vendor.</span></span> <span data-ttu-id="3a2bb-106">Vous pouvez créer et affecter aux fournisseurs n'importe quels types de certification qu'ils sont susceptibles de détenir.</span><span class="sxs-lookup"><span data-stu-id="3a2bb-106">You can create and assign to vendors any types of certification that they may hold.</span></span> <span data-ttu-id="3a2bb-107">Ce guide de tâche a été créée en utilisant les données de la société fictive PSUS dans la partition du secteur public.</span><span class="sxs-lookup"><span data-stu-id="3a2bb-107">This task guide was created using the PSUS demo company data in the public sector partition.</span></span>
 

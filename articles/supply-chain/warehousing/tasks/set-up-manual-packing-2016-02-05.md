@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 31b689b6c31563f24892525eed5911af3a35bd51
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 714fd4762ae54f8f6638e81dd19fdd636091b88e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-manual-packing-february--may-2016-only"></a><span data-ttu-id="64c50-103">Paramétrer l'emballage manuel (février et mai 2016 uniquement)</span><span class="sxs-lookup"><span data-stu-id="64c50-103">Set up manual packing (February & May 2016 only)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="64c50-104">Le processus d'emballage vous permet de valider et conditionner les produits dans des conteneurs.</span><span class="sxs-lookup"><span data-stu-id="64c50-104">The packing process allows you to validate and pack products into containers.</span></span> <span data-ttu-id="64c50-105">Dans ce processus, les magasiniers prélèvent les produits dans les emplacements de stockage et les déplacent dans un centre d'emballage dans lequel ils vérifient les quantités et les types d'article, puis ils les affectent aux conteneurs appropriés.</span><span class="sxs-lookup"><span data-stu-id="64c50-105">In this process, warehouse workers pick products from the storage locations and move them to a packing station where they check the item quantities and types, and assign them to appropriate containers.</span></span> <span data-ttu-id="64c50-106">Lorsqu'un conteneur est entièrement emballé, ils peuvent le fermer et le déplacer vers les quais d’expédition, et les produits sont alors prêts à expédier.</span><span class="sxs-lookup"><span data-stu-id="64c50-106">When a container is fully packed, they can close it and move it to the outbound docks, and the products are ready to ship.</span></span> <span data-ttu-id="64c50-107">La société fictive USMF sert d'exemple dans cette procédure.</span><span class="sxs-lookup"><span data-stu-id="64c50-107">This procedure uses the USMF demo company.</span></span>
 

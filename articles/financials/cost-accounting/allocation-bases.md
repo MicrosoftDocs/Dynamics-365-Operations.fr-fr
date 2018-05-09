@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1a32b49e7589113d518ef17a39eecc4c518b362d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d3de34eeef042cb3f283ee53579b199c6a4c9091
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="allocation-bases"></a><span data-ttu-id="4007f-104">Bases de répartition</span><span class="sxs-lookup"><span data-stu-id="4007f-104">Allocation bases</span></span> 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="4007f-105">Une base de répartition est la base sur laquelle le contrôle de gestion affecte les frais généraux.</span><span class="sxs-lookup"><span data-stu-id="4007f-105">An allocation base is the basis on which Cost accounting allocates overhead costs.</span></span> <span data-ttu-id="4007f-106">Une base de répartition peut être une quantité, telles que les heures-machine utilisées, les kilowatt-heures (kWh) qui sont consommées, ou la superficie qui est occupée.</span><span class="sxs-lookup"><span data-stu-id="4007f-106">An allocation base can be a quantity, such as machine hours that are used, kilowatt hours (kWh) that are consumed, or square footage that is occupied.</span></span> <span data-ttu-id="4007f-107">Les bases de répartition sont la plupart utilisées pour affecter des frais généraux dans le stock qui est produit.</span><span class="sxs-lookup"><span data-stu-id="4007f-107">Allocation bases are mostly used to assign overhead costs to inventory that is produced.</span></span> <span data-ttu-id="4007f-108">Par exemple, un service informatique affecte les dépenses en fonction du nombre d'ordinateurs que chaque département utilise.</span><span class="sxs-lookup"><span data-stu-id="4007f-108">For example, an IT department allocates its expenses according to the number of computers that each department uses.</span></span>
 

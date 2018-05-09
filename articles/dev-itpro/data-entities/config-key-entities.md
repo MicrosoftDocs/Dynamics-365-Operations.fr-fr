@@ -18,16 +18,16 @@ ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5e6392091e90b1eaf48ddf61a6328d0863b1a9bd
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 31af0098f67b9528dba3391e15263f5c991da394
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configuration-keys-and-data-entities"></a><span data-ttu-id="0e00d-103">Clés de configuration et entités de données</span><span class="sxs-lookup"><span data-stu-id="0e00d-103">Configuration keys and data entities</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="0e00d-104">Avant d'utiliser les entités de données pour importer ou exporter des données, nous vous recommandons de déterminer au préalable l'impact des clés de configuration sur les entités de données que vous comptez utiliser.</span><span class="sxs-lookup"><span data-stu-id="0e00d-104">Before you use data entities to import or export data, we recommended that you first determine the impact of configuration keys on the data entities that you are planning to use.</span></span> 
 

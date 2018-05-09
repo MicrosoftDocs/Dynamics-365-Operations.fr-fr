@@ -17,15 +17,15 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2e2628dcc3eee97ed9431f7d27ac47f41c29515f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9ffa45c8e18596b4f4ef4360929d70f79c76a28d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-cover-and-signature-pages-for-a-payments-report-for-the-public-sector"></a><span data-ttu-id="a955d-103">Créer une couverture et des pages de signature pour un état de paiement pour le secteur public</span><span class="sxs-lookup"><span data-stu-id="a955d-103">Create cover and signature pages for a payments report for the public sector</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a955d-104">Lorsque vous créez les pages de couverture et de signature pour un état de paiement, vous pouvez spécifier les informations qui doivent y figurer.</span><span class="sxs-lookup"><span data-stu-id="a955d-104">When you create cover and signature pages for a payment report, you can specify what information should appear.</span></span> <span data-ttu-id="a955d-105">Notamment, par exemple, les noms et les fonctions des personnes qui doivent approuver les paiements proposés.</span><span class="sxs-lookup"><span data-stu-id="a955d-105">This includes, for example, the names and titles of the people who should approve the proposed payments.</span></span> <span data-ttu-id="a955d-106">Cette procédure a été créée à l'aide des données de la société fictive PSUS dans la partition du secteur public.</span><span class="sxs-lookup"><span data-stu-id="a955d-106">This procedure was created using the PSUS demo company data in the public sector partition.</span></span>
 

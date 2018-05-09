@@ -16,15 +16,15 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d1e3df13c644ffa39621e73d1c907084bbd7ba7c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 69a057196d1503da664cb629ad5f20c523d57c33
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="register-and-post-a-postdated-check-for-a-customer"></a><span data-ttu-id="b04ed-103">Enregistrer et valider un chèque postdaté pour un client</span><span class="sxs-lookup"><span data-stu-id="b04ed-103">Register and post a postdated check for a customer</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="b04ed-104">Vous pouvez enregistrer les informations relatives à un chèque postdaté reçu d'un client.</span><span class="sxs-lookup"><span data-stu-id="b04ed-104">You can register details of a postdated check received from a customer.</span></span> <span data-ttu-id="b04ed-105">Vous pouvez également valider le chèque postdaté et générer des transactions financières.</span><span class="sxs-lookup"><span data-stu-id="b04ed-105">You can also post the postdated check and generate financial transactions.</span></span>   <span data-ttu-id="b04ed-106">Effectuez les tâches suivantes avant d'enregistrer et de valider un chèque postdaté reçu d'un client :   • Paramétrez les chèques postdatés dans la page Gestion de la trésorerie et de la banque • Paramétrez un mode de paiement pour les chèques postdatés. Le rôle pour cette procédure est Trésorier.</span><span class="sxs-lookup"><span data-stu-id="b04ed-106">Complete the following tasks before you register and post a postdated check received from a customer:   • Set up postdated check in the Cash and bank management page • Set up a method of payment for postdated checks   The role for this procedure is Treasurer.</span></span> <span data-ttu-id="b04ed-107">La société fictive USMF sert d'exemple dans cette procédure.</span><span class="sxs-lookup"><span data-stu-id="b04ed-107">This procedure uses the USMF demo company.</span></span>
 

@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d090a668988aeaeb8f1b779bc565d03a506a8f15
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a569d9264097d7a0b742bc7bf47c2504c58cdb4e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="warehouse-management"></a><span data-ttu-id="3844c-103">Gestion des entrepôts</span><span class="sxs-lookup"><span data-stu-id="3844c-103">Warehouse management</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="3844c-104">Le module Gestion des entrepôts pour Dynamics 365 for Finance and Operations vous permet de gérer les processus d'entrepôt dans les entreprises de fabrication, de distribution et de vente au détail.</span><span class="sxs-lookup"><span data-stu-id="3844c-104">The Warehouse management module for Dynamics 365 for Finance and Operations lets you manage warehouse processes in manufacturing, distribution, and retail companies.</span></span> <span data-ttu-id="3844c-105">Ce module offre un large éventail de fonctions pour prendre en charge les entrepôts à un niveau optimal, à tout moment.</span><span class="sxs-lookup"><span data-stu-id="3844c-105">This module has a wide range of features to support the warehouse facility at an optimal level, at any time.</span></span> <span data-ttu-id="3844c-106">Le module Gestion des entrepôts intègre entièrement d'autres processus métier dans Finance and Operations, tels que le transport, la fabrication, le contrôle de la qualité, les achats, le transfert, les ventes et les retours.</span><span class="sxs-lookup"><span data-stu-id="3844c-106">Warehouse management is fully integrated with other business processes in Finance and Operations such as transportation, manufacturing, quality control, purchase, transfer, sales, and returns.</span></span>
 

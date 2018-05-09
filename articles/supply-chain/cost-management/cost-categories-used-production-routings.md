@@ -20,16 +20,16 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1bda8d9d656f1760061599d100ca4af9186742ea
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1eb7da2ce5323fe0c06c57855435510f88f0601f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cost-categories-used-in-production-routing"></a><span data-ttu-id="b0553-103">Catégories de coûts utilisées dans l'acheminement de la production</span><span class="sxs-lookup"><span data-stu-id="b0553-103">Cost categories used in production routing</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="b0553-104">Cet article fournit des informations sur les catégories de coûts qui s'appliquent aux environnements de fabrication qui utilisent l'acheminement.</span><span class="sxs-lookup"><span data-stu-id="b0553-104">This article provides information about cost categories that apply to manufacturing environments that use routing.</span></span>
 

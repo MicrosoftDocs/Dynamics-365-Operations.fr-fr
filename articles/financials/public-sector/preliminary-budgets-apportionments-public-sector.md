@@ -20,16 +20,16 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f69cbcf01a485056be7547b2c31a6590a12250f9
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d86cd05ef94099fd0b107c76200574ea2fdad625
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="preliminary-budgets-and-apportionments-in-the-public-sector"></a><span data-ttu-id="7be59-103">Budgets préliminaires et répartitions dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="7be59-103">Preliminary budgets and apportionments in the public sector</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="7be59-104">Cette rubrique couvre la création d'un budget préliminaire, et le paramétrage de la budgétisation et du contrôle budgétaire pour les répartitions et un budget préliminaire.</span><span class="sxs-lookup"><span data-stu-id="7be59-104">This topic covers creating a preliminary budget, and setting up budgeting and budget control for apportionments and a preliminary budget.</span></span> 
 

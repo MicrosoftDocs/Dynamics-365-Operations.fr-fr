@@ -18,16 +18,16 @@ ms.author: pjacobse
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 39e70aa7b020cdceb53e9ed4af8fa87268161f54
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 614bce43e486667a894e77cbf03f3a18f9d5d68a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="batch-release-of-partially-reserved-transfer-orders"></a><span data-ttu-id="c785b-103">Lancement par lots des ordres de transfert partiellement réservés</span><span class="sxs-lookup"><span data-stu-id="c785b-103">Batch release of partially reserved transfer orders</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="c785b-104">La fonctionnalité de lancement par lots des ordres de transfert partiellement réservés permet de lancer partiellement des ordres de transfert à l'attention à un entrepôt à l'aide d'un traitement par lots.</span><span class="sxs-lookup"><span data-stu-id="c785b-104">The functionality for batch release of partially reserved transfer orders lets you partially release transfer orders to a warehouse by using a batch job.</span></span>
 <span data-ttu-id="c785b-105">Comme vous avez la possibilité de lancer une quantité partielle, vous ne devez pas attendre que la quantité de la commande entière soit disponible dans l'entrepôt avant de lancer un ordre.</span><span class="sxs-lookup"><span data-stu-id="c785b-105">Because you have the option to release a partial quantity, you don’t have to wait for the whole order quantity to be available in the warehouse before you release an order.</span></span>

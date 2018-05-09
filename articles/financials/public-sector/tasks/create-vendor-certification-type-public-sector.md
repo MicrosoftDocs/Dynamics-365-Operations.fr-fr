@@ -17,15 +17,15 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7494ca453a53e89ae8b035c46afde9d8a1deccb6
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b0c4e51d5dfb5357d80ff5fff210f9246ed60ec1
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-vendor-certification-type-in-the-public-sector"></a><span data-ttu-id="1dd79-103">Créer un type de certification fournisseur dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="1dd79-103">Create a vendor certification type in the public sector</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="1dd79-104">Vous pouvez créer et affecter aux organisations de fournisseurs tout type de certification détenus par les fournisseurs, tels que des informations d'identification professionnelles, l'assurance en responsabilité civile, le statut minoritaire ou la conformité avec diverses normes de sécurité relatives à l'environnement ou au consommateur.</span><span class="sxs-lookup"><span data-stu-id="1dd79-104">You can create and assign vendor organizations any type of certification that the vendors hold, such as professional credentials, liability insurance, minority status, or compliance with various environmental or consumer safety standards.</span></span> <span data-ttu-id="1dd79-105">Ce guide de tâche a été créée en utilisant les données de la société fictive PSUS dans la partition du secteur public.</span><span class="sxs-lookup"><span data-stu-id="1dd79-105">This task guide was created using the PSUS demo company data in the public sector partition.</span></span>
 

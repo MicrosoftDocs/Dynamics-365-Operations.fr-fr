@@ -19,16 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d412c60f22347a38e38ca5f2c5515bd132814f25
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a54e1281dc54e1656298ea86c0724ad18ceff9a2
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="microsoft-project-client-integration"></a><span data-ttu-id="f4beb-104">Intégration du client Microsoft Project</span><span class="sxs-lookup"><span data-stu-id="f4beb-104">Microsoft Project client integration</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="f4beb-105">La planification et la tenue à jour d'un programme de projet peuvent être complexes, les gestionnaires de projets doivent donc utiliser des outils pour les aider à gérer cette tâche.</span><span class="sxs-lookup"><span data-stu-id="f4beb-105">Planning and maintaining a project schedule can be complex, so project managers need to use tools that help them manage this task.</span></span> <span data-ttu-id="f4beb-106">L'intégration avec le client Microsoft Project prend en charge l'ouverture et la gestion de la structure de répartition du travail pour un projet.</span><span class="sxs-lookup"><span data-stu-id="f4beb-106">Integration with Microsoft Project Client provides support to open and manage a project work breakdown structure.</span></span> <span data-ttu-id="f4beb-107">Le gestionnaire de projets peut publier les modifications dans la structure de répartition du travail de Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="f4beb-107">The project manager can publish any changes back to the Finance and Operations project work breakdown structure.</span></span>
 

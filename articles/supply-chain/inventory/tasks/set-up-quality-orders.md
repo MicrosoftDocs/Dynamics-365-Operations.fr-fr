@@ -17,15 +17,15 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0ad16d00788122eb1ab22dd03561cac488b9fad6
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e44b585c6e6e86d244328e73846a5c91f94233eb
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-quality-orders"></a><span data-ttu-id="fd06e-103">Paramétrer les ordres de qualité</span><span class="sxs-lookup"><span data-stu-id="fd06e-103">Set up quality orders</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="fd06e-104">Cette procédure décrit comment activer un processus de gestion de la qualité dans lequel le stock entrant doit être inspecté immédiatement après l'enregistrement des arrivées.</span><span class="sxs-lookup"><span data-stu-id="fd06e-104">This procedure shows you how to enable a quality management process where incoming inventory must be inspected immediately after arrival registration.</span></span> <span data-ttu-id="fd06e-105">La procédure est généralement effectuée par un responsable de la qualité.</span><span class="sxs-lookup"><span data-stu-id="fd06e-105">The procedure will typically be carried out by a quality manager.</span></span> <span data-ttu-id="fd06e-106">Le processus inclut la création d'un groupe de qualité, pour définir les articles qui vont être échantillonnés, et un groupe de test pour regrouper les tests à exécuter sur des articles dans le groupe de qualité.</span><span class="sxs-lookup"><span data-stu-id="fd06e-106">The process includes the creation of a quality group, to define the items that are going to be sampled, and a test group to group the tests that are to be performed on items in the quality group.</span></span> <span data-ttu-id="fd06e-107">Vous pouvez exécuter ce guide dans les données de démonstration de la société fictive USMF.</span><span class="sxs-lookup"><span data-stu-id="fd06e-107">You can run this guide in the USMF demo data company.</span></span>
 

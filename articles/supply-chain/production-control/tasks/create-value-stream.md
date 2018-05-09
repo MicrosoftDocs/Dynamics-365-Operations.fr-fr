@@ -17,15 +17,15 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e65e3d335c8c05b360e96847b29c7c123f5dfa31
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 760e2e51216d0ed032de11c37167a6adbd07efaf
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-value-stream"></a><span data-ttu-id="f8dc7-103">Créer une chaîne de valeur</span><span class="sxs-lookup"><span data-stu-id="f8dc7-103">Create a value stream</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="f8dc7-104">Les chaînes de valeur sont des unités opérationnelles qui regroupent un ou plusieurs flux de production.</span><span class="sxs-lookup"><span data-stu-id="f8dc7-104">Value streams are operating units, that group one or multiple production flows.</span></span> <span data-ttu-id="f8dc7-105">Pour définir un flux de production, vous devez définir une chaîne de valeur.</span><span class="sxs-lookup"><span data-stu-id="f8dc7-105">To define a production flow, you first must define a value stream.</span></span>
 

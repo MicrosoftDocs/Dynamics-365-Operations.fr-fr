@@ -20,16 +20,16 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 698d5d00f7aa43acd593016d47ffa1a8283de552
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 067cc01edb1cbf8bde1ec5bfa9d210030c66cad7
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="purchase-order-codes-in-the-public-sector"></a><span data-ttu-id="e7fef-104">Codes de commande fournisseur dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="e7fef-104">Purchase order codes in the public sector</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="e7fef-105">Cet article fournit des informations sur les codes et les messages spéciaux pouvant être utilisés lors de la confirmation des commandes fournisseur.</span><span class="sxs-lookup"><span data-stu-id="e7fef-105">This article provides information about the codes and special messages that can be used with confirming purchase orders.</span></span> <span data-ttu-id="e7fef-106">Une commande fournisseur de confirmation contourne le processus d'achat habituel.</span><span class="sxs-lookup"><span data-stu-id="e7fef-106">A confirming purchase order bypasses the typical purchasing process.</span></span>
 

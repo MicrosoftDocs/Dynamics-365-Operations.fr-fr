@@ -16,15 +16,15 @@ ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a7cefd66b9eaae26fd52dd9027fcadb56e4f8018
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ac000228f16199c4b80c651373ec4d9a253f4fcf
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="customer-and-vendor-account-statements-france"></a><span data-ttu-id="3ecf1-103">Relevés de compte client et fournisseur (France)</span><span class="sxs-lookup"><span data-stu-id="3ecf1-103">Customer and vendor account statements (France)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="3ecf1-104">Vous pouvez imprimer des relevés de compte pour les clients et les fournisseurs, affichant des informations pour une période sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="3ecf1-104">You can print accounts statements for customers and vendors that display information for a time period that you select.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a3f46d282937468351c94dfe3f06403ee2900f82
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 002d0b72322c6a02fe1fcdbe6392fdb6c5c88747
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-routes-february-2016-only"></a><span data-ttu-id="ff1bf-103">Créer des gammes (février 2016 uniquement)</span><span class="sxs-lookup"><span data-stu-id="ff1bf-103">Create routes (February 2016 only)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="ff1bf-104">Cette tâche consiste à créer des gammes de production pur un produit fini et semi-fini.</span><span class="sxs-lookup"><span data-stu-id="ff1bf-104">This task focuses on creating the production routes for a finished product and a semi-finished product.</span></span> <span data-ttu-id="ff1bf-105">Il s'agit de la cinquième tâche dans la série de calculs des nomenclatures.</span><span class="sxs-lookup"><span data-stu-id="ff1bf-105">It is the fifth task in the BOM calculation series.</span></span> <span data-ttu-id="ff1bf-106">Les données fictives utilisées pour créer cette tâche correspondent à la société USMF.</span><span class="sxs-lookup"><span data-stu-id="ff1bf-106">The demo data company used to create this task is USMF.</span></span>
 

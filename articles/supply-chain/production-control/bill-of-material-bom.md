@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 203eddac527bc91b448ca4227ae2b67086069c58
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4fd2c6355611812432ee47241f6d37bc2fb508c6
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="bills-of-materials-and-formulas"></a><span data-ttu-id="b022f-103">Nomenclatures et formules</span><span class="sxs-lookup"><span data-stu-id="b022f-103">Bills of materials and formulas</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="b022f-104">Cette rubrique fournit des informations sur les nomenclatures et les formules, qui sont un élément central de la définition des produits et des variantes de produit.</span><span class="sxs-lookup"><span data-stu-id="b022f-104">This topic provides information about bills of materials (BOMs) and formulas, which are a central part of the definition of products and product variants.</span></span> <span data-ttu-id="b022f-105">Les nomenclatures et les formules spécifient les matières ou les ingrédients nécessaires pour un produit spécifique.</span><span class="sxs-lookup"><span data-stu-id="b022f-105">BOMs and formulas specify the required materials or ingredients for a specific product.</span></span> <span data-ttu-id="b022f-106">Les formules spécifient également les coproduits et les sous-produits reçus dans un contexte de production spécifique.</span><span class="sxs-lookup"><span data-stu-id="b022f-106">Formulas also specify the co-products and by-products that are received in a specific production context.</span></span> 
 

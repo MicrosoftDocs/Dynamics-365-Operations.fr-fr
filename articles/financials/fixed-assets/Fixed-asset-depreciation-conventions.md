@@ -19,16 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c69fd798c2e978935a63b079fb11c68d8555594c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 730da7caaa4caae0cc47d392798ceec02bbcd743
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="fixed-asset-depreciation-conventions"></a><span data-ttu-id="4add7-103">Conventions d'amortissement des immobilisations</span><span class="sxs-lookup"><span data-stu-id="4add7-103">Fixed asset depreciation conventions</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="4add7-104">Les conventions d'amortissement sont utilisées pour déterminer quand et comment l'amortissement est calculé pour l'année où l'immobilisation est acquise et l'année où l'immobilisation est cédée.</span><span class="sxs-lookup"><span data-stu-id="4add7-104">Depreciation conventions are used to determine when and how depreciation is calculated for both the year when the fixed asset is acquired and the year when the fixed asset is disposed of.</span></span>
 

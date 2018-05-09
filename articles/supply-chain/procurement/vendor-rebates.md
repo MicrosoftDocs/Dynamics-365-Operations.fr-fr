@@ -17,15 +17,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 17b5c679381d1f8d1b0a757a19e125f0c50b950c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5a1b4326f56302dff5af663a9c8dce357fd83892
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="vendor-rebates"></a><span data-ttu-id="fa5e8-104">Remises fournisseur</span><span class="sxs-lookup"><span data-stu-id="fa5e8-104">Vendor rebates</span></span>
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="fa5e8-105">Les remises fournisseur aident au mieux les sociétés à gérer leurs programmes de remise fournisseur en automatisant les tâches nécessaires afin d'administrer, de suivre et de réclamer les remises dues.</span><span class="sxs-lookup"><span data-stu-id="fa5e8-105">Vendor rebates help companies better manage their supplier rebate programs by automating tasks that are required in order to administer, track, and claim rebates that are earned.</span></span>
 

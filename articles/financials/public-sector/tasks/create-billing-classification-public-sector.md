@@ -17,15 +17,15 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3a9fd9aba69271c6dbaa14449a7c4ae3efe8e8f5
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7c9d59255f7fe5138809025791b7031588937c91
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-billing-classification-in-the-public-sector"></a><span data-ttu-id="86ecc-103">Créer une classification de facturation dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="86ecc-103">Create a billing classification in the public sector</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="86ecc-104">Les organisations du secteur public peuvent utiliser les classifications de facturation pour gérer les factures financières.</span><span class="sxs-lookup"><span data-stu-id="86ecc-104">Public-sector organizations can use billing classifications to help manage free text invoices.</span></span> <span data-ttu-id="86ecc-105">Les classifications de facturation permettent de regrouper les factures financières similaires pour le traitement et l'affichage.</span><span class="sxs-lookup"><span data-stu-id="86ecc-105">Billing classifications are used to group similar free text invoices for processing and viewing.</span></span> <span data-ttu-id="86ecc-106">Avant d'utiliser cette procédure, vérifiez qu'un code facturation existe et qu'il peut être affecté à une classification de facturation.</span><span class="sxs-lookup"><span data-stu-id="86ecc-106">Before using this procedure, verify that a billing code exists that can be assigned to a billing classification.</span></span> <span data-ttu-id="86ecc-107">Cette procédure a été créée à l'aide des données de la société fictive PSUS dans la partition du secteur public.</span><span class="sxs-lookup"><span data-stu-id="86ecc-107">This procedure was created using the PSUS demo company data in the public sector partition.</span></span>
 

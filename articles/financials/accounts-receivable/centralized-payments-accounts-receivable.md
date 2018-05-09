@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 73dbde80d2d4282afb74aa8af6092b3d50d42739
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 11e5f4c971ca1f870ff5c22fbef64faff358bae4
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="centralized-payments-for-accounts-receivable"></a><span data-ttu-id="cf5cc-105">Paiements centralisés pour la comptabilité client</span><span class="sxs-lookup"><span data-stu-id="cf5cc-105">Centralized payments for Accounts receivable</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="cf5cc-106">Les organisations qui comprennent plusieurs entités juridiques peuvent créer et gérer des paiements à l'aide d'une entité juridique unique qui assure la gestion de tous les paiements.</span><span class="sxs-lookup"><span data-stu-id="cf5cc-106">Organizations that include multiple legal entities can create and manage payments by using a single legal entity that handles all payments.</span></span> <span data-ttu-id="cf5cc-107">Par conséquent, la même transaction ne doit pas être entrée dans plusieurs entités juridiques.</span><span class="sxs-lookup"><span data-stu-id="cf5cc-107">Therefore, the same transaction doesn't have to be entered in multiple legal entities.</span></span> <span data-ttu-id="cf5cc-108">Cet article fournit des exemples décrivant la manière dont la validation des paiements centralisés est gérée dans divers scénarios.</span><span class="sxs-lookup"><span data-stu-id="cf5cc-108">This article provides examples that show how posting for centralized payments is handled in various scenarios.</span></span>
 

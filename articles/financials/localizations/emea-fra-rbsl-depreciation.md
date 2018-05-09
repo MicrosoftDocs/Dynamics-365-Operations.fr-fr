@@ -18,16 +18,16 @@ ms.author: anasyash
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b18d7ec1eb38edfe2763306741fb0f15a84fdcbe
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f4375fb247b47ddca04e92a61ed24ea4a8d75581
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="rbsl-depreciation"></a><span data-ttu-id="6ffd5-105">Amortissement dégressif fiscal</span><span class="sxs-lookup"><span data-stu-id="6ffd5-105">RB/SL depreciation</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="6ffd5-106">La méthode d'amortissement dégressif fiscal est une méthode d'amortissement utilisée en France.</span><span class="sxs-lookup"><span data-stu-id="6ffd5-106">RB/SL is a depreciation method that is used in France.</span></span> <span data-ttu-id="6ffd5-107">Les montants d'amortissement sont calculés à l'aide de la méthode d'amortissement dégressif et de la méthode d'amortissement linéaire.</span><span class="sxs-lookup"><span data-stu-id="6ffd5-107">Depreciation amounts are calculated by using both the reducing balance depreciation method and the straight-line remaining depreciation method.</span></span> <span data-ttu-id="6ffd5-108">Le plus grand des deux montants d'amortissement calculés est ensuite utilisé comme montant d'amortissement dégressif fiscal.</span><span class="sxs-lookup"><span data-stu-id="6ffd5-108">The larger of the two calculated depreciation amounts is then used as the RB/SL reducing balance depreciation amount.</span></span>
 

@@ -17,16 +17,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 4c0975cf36d87125b8184a7be8a6a8696eef2d3e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: eb2c5317e5ac386bebfd7262eb9a98d559de3023
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="post-an-expense-report"></a><span data-ttu-id="e77c6-103">Valider un état de dépenses</span><span class="sxs-lookup"><span data-stu-id="e77c6-103">Post an expense report</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="e77c6-104">Après son approbation et son transfert dans le journal des opérations diverses, un état de dépenses peut être validé dans la comptabilité.</span><span class="sxs-lookup"><span data-stu-id="e77c6-104">After an expense report has been approved and transferred to the general journal, it can be posted to the general ledger.</span></span> <span data-ttu-id="e77c6-105">Lorsque vous validez un état des dépenses, les dépenses admissibles pour la récupération de la taxe sur la valeur ajoutée (TVA) sont identifiées.</span><span class="sxs-lookup"><span data-stu-id="e77c6-105">When you post an expense report, expenses that are eligible for recovery of value-added tax (VAT) are identified.</span></span> <span data-ttu-id="e77c6-106">La tâche de vérification et de récupération des paiements de TVA est affectée à l'employé responsable de la vérification de l'état de dépenses.</span><span class="sxs-lookup"><span data-stu-id="e77c6-106">The task of verifying and recovering VAT payments is assigned to the employee who is responsible for verifying the expense report.</span></span>
 

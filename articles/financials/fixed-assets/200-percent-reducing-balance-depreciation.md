@@ -19,16 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e6600176cbbcb6e30fc451613acff1fb487e7c76
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3db58ec2583036be93d70cdd044bcaddfc05ba7e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="200-percent-reducing-balance-depreciation"></a><span data-ttu-id="ddd6d-103">Amortissements dégressifs de 200 %</span><span class="sxs-lookup"><span data-stu-id="ddd6d-103">200 percent reducing balance depreciation</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="ddd6d-104">Cet article propose une vue d'ensemble de la méthode d'amortissement dégressif de 200 %.</span><span class="sxs-lookup"><span data-stu-id="ddd6d-104">This article gives an overview of the 200 percent reducing balance method of depreciation.</span></span>
 

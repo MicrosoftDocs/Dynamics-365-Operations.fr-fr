@@ -19,16 +19,16 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 28b216ae250c195e2bff59c0874ee72bd323377b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 0ba76e50abd5ce124b91515eacf860dbe2e81ae2
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="titres-de-recette-in-the-public-sector-in-france"></a><span data-ttu-id="6d702-105">Titres de recette dans le secteur public en France</span><span class="sxs-lookup"><span data-stu-id="6d702-105">Titres de recette in the public sector in France</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="6d702-106">Le titre de recette permet au directeur d'informer le comptable que l'organisation est autorisée à recouvrer un montant spécifique auprès d'une autre entité et d'autoriser le comptable à déposer ledit montant.</span><span class="sxs-lookup"><span data-stu-id="6d702-106">The titre de recette is used by the director to notify the accountant that the organization is entitled to collect a specific amount from another entity, and to authorize the accountant to deposit that amount.</span></span> <span data-ttu-id="6d702-107">Le directeur ou le comptable peut déléguer la tâche à un commercial, mais il a toujours la responsabilité de chaque tâche.</span><span class="sxs-lookup"><span data-stu-id="6d702-107">The director or the accountant may delegate a representative to perform the task, but the responsibility for each task remains with the director or the accountant.</span></span> <span data-ttu-id="6d702-108">Le titre permet de garantir une séparation nette obligatoire entre le rôle opérationnel du directeur et le rôle comptable du comptable.</span><span class="sxs-lookup"><span data-stu-id="6d702-108">The titre maintains the strict separation that is required between the operational role of the director and the accounting role of the accountant.</span></span>
 

@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 450d347a0ddcb407a116a07d7de7f61028dd4290
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 23932351cc9f164a341e83a7b84fc7c76ab331f4
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="master-planning-and-multisite-functionality"></a><span data-ttu-id="bb0c1-103">Planification et fonctionnalité multisite</span><span class="sxs-lookup"><span data-stu-id="bb0c1-103">Master planning and multisite functionality</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="bb0c1-104">La planification prend en compte les paramètres des dimensions de stock du site et de l'entrepôt.</span><span class="sxs-lookup"><span data-stu-id="bb0c1-104">Master planning takes the settings of the site and warehouse inventory dimensions into account.</span></span> 
 

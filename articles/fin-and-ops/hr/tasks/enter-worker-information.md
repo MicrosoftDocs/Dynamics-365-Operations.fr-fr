@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: bfcebf61a5f613517e05af5c1548b5ceaaed53ee
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7304d49cdaafb1521b56747e98a39f97183e12f2
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="enter-worker-information"></a><span data-ttu-id="d9c25-103">Saisir les informations du collaborateur</span><span class="sxs-lookup"><span data-stu-id="d9c25-103">Enter worker information</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="d9c25-104">Une fois que le recruteur a créé un projet d'embauche collective et généré les postes, l'étape suivante consiste à entrer les informations sur les collaborateurs pour les personnes embauchées.</span><span class="sxs-lookup"><span data-stu-id="d9c25-104">After a recruiter has created a mass hire project and generated the positions, the next step is to enter the worker information for the people being hired.</span></span> <span data-ttu-id="d9c25-105">Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.</span><span class="sxs-lookup"><span data-stu-id="d9c25-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="d9c25-106">Les données de démonstration contiennent un projet d'embauche collective en cours.</span><span class="sxs-lookup"><span data-stu-id="d9c25-106">The demo data contains an open mass hire project.</span></span> <span data-ttu-id="d9c25-107">Pour démarrer cette procédure, allez dans Ressources humaines > Recrutement > Projets d'embauche collective.</span><span class="sxs-lookup"><span data-stu-id="d9c25-107">To begin this procedure, go to Human resources > Recruitment > Mass hire projects.</span></span>
 

@@ -17,16 +17,16 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: fa3f93dae69040c77ff28484a2bea4d1503a616d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3cbe43dc7c913971f679e4e82ebaa5bcfe751685
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="compensation-power-bi-content"></a><span data-ttu-id="acadd-104">Contenu Power BI Rémunération</span><span class="sxs-lookup"><span data-stu-id="acadd-104">Compensation Power BI content</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="acadd-105">Cette rubrique décrit le contenu Microsoft Power BI **Rémunération**.</span><span class="sxs-lookup"><span data-stu-id="acadd-105">This topic describes the **Compensation** Microsoft Power BI content.</span></span> <span data-ttu-id="acadd-106">Elle explique également comment accéder aux états, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.</span><span class="sxs-lookup"><span data-stu-id="acadd-106">It explains how to access the reports, and provides information about the data model and entities that were used to build the content.</span></span>
 

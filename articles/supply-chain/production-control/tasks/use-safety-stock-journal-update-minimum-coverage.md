@@ -17,15 +17,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b9e3245af746b120117a23b3859e03bd4216e1cd
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ad194efd151dab8c8fe5542cb40de2d811fb4b3d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="use-the-safety-stock-journal-to-update-minimum-coverage"></a><span data-ttu-id="15285-103">Utiliser le journal du stock de sécurité pour mettre à jour la couverture minimale</span><span class="sxs-lookup"><span data-stu-id="15285-103">Use the safety stock journal to update minimum coverage</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="15285-104">Cette procédure montre comment calculer des propositions de couverture minimale basées sur des transactions historiques et comment mettre à jour la couverture d'article avec ces propositions.</span><span class="sxs-lookup"><span data-stu-id="15285-104">This procedure shows how to calculate minimum coverage proposals based on historical transactions and then update the item coverage with the proposals.</span></span> <span data-ttu-id="15285-105">Cette opération est effectuée à l'aide du journal du stock de sécurité.</span><span class="sxs-lookup"><span data-stu-id="15285-105">This is done using the safety stock journal.</span></span> <span data-ttu-id="15285-106">Les données fictives utilisées pour créer cette tâche correspondent à la société USMF.</span><span class="sxs-lookup"><span data-stu-id="15285-106">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="15285-107">Cette tâche est destinée au responsable de production, pour aider à maintenir la couverture minimale.</span><span class="sxs-lookup"><span data-stu-id="15285-107">This task is intended for the production planner, to help maintain minimum coverage.</span></span>
 

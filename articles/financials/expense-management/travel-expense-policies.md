@@ -17,16 +17,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 73e4fc7c1d0273c51be57d9c3ab04dbfbd839327
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 062d6f01bb07324ad5b8dc6b9fd7617756502c17
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="expense-policies"></a><span data-ttu-id="0b436-103">Stratégies des dépenses</span><span class="sxs-lookup"><span data-stu-id="0b436-103">Expense policies</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="0b436-104">Vous pouvez définir des stratégies ou règles que vos collaborateurs sont tenus de suivre lorsqu'ils entrent et soumettent des états de dépenses et des demandes de voyage.</span><span class="sxs-lookup"><span data-stu-id="0b436-104">You can define policies that your workers must follow when entering and submitting expense reports and travel requisitions.</span></span>         
 <span data-ttu-id="0b436-105">L'application de stratégies des dépenses permet une gestion efficace des dépenses.</span><span class="sxs-lookup"><span data-stu-id="0b436-105">Implementing expense policies can help you manage expenses effectively.</span></span>         

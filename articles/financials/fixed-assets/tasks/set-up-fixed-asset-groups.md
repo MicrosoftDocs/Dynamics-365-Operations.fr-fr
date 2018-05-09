@@ -16,15 +16,15 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a4d50e5e559e16a569e80b85076176c7c79503f7
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3c184b4d078e48b036909743b9f691195f442266
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-fixed-asset-groups"></a><span data-ttu-id="4ec77-103">Paramétrer les groupes d'immobilisations</span><span class="sxs-lookup"><span data-stu-id="4ec77-103">Set up fixed asset groups</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="4ec77-104">Cette procédure permet d'indiquer comment créer un groupe d'immobilisations.</span><span class="sxs-lookup"><span data-stu-id="4ec77-104">This procedure shows how to create a new fixed asset group.</span></span> <span data-ttu-id="4ec77-105">Il utilise le rôle de comptable et les données de démonstration de l'entité juridique USMF.</span><span class="sxs-lookup"><span data-stu-id="4ec77-105">It uses the Accountant role and demo data for the USMF legal entity.</span></span>
 

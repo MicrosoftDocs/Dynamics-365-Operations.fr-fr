@@ -20,16 +20,16 @@ ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d49bea9579a54d175cf21780a97d67f2c35982e8
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3fe905dc5550ee2e4289d3714d1dde5ea10bd61c
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="job-scheduling"></a><span data-ttu-id="401d9-104">Planification de tâche</span><span class="sxs-lookup"><span data-stu-id="401d9-104">Job scheduling</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="401d9-105">Cet article fournit des informations sur la planification des tâches, qui constitue une forme plus détaillée de planification que la planification d'opérations.</span><span class="sxs-lookup"><span data-stu-id="401d9-105">This article provides information about job scheduling, which is a more detailed form of scheduling than operations scheduling.</span></span> <span data-ttu-id="401d9-106">La planification des tâches permet de programmer des tâches ou ordres d'atelier, et de contrôler l'environnement de fabrication.</span><span class="sxs-lookup"><span data-stu-id="401d9-106">You can use job scheduling to schedule individual jobs or shop orders, and to control the manufacturing environment.</span></span>
 

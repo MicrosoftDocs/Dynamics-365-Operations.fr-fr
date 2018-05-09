@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2f088e07cb02f1aab3f1dae6d0693705693b24bd
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 14dbf3fcfca15ab2c058bbdb98362dd8a07cf031
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="settle-a-partial-customer-payment-and-the-final-payment-in-full-before-the-discount-date"></a><span data-ttu-id="1eae5-103">Règlement d'un paiement client partiel et règlement total du paiement final avant la date de remise</span><span class="sxs-lookup"><span data-stu-id="1eae5-103">Settle a partial customer payment and the final payment in full before the discount date</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="1eae5-104">Cet article fournit des scénarios qui indiquent comment enregistrer des paiements partiels pour un client et prendre des escomptes de règlement pendant la période d'escompte de règlement.</span><span class="sxs-lookup"><span data-stu-id="1eae5-104">This article provides scenarios that show how to record partial payments for a customer and take cash discounts within the cash discount period.</span></span>
 

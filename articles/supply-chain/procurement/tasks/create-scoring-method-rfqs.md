@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 892b06210ca1af29c314edd68ccd656ead32d2ec
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 89f0a316699a2b3e244c1b47a259f2cda6c97bd2
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-scoring-method-for-rfqs"></a><span data-ttu-id="676fd-103">Créer une méthode d'attribution pour les demandes de devis</span><span class="sxs-lookup"><span data-stu-id="676fd-103">Create a scoring method for RFQs</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="676fd-104">Cette procédure vous indique comment créer une méthode d'attribution de score.</span><span class="sxs-lookup"><span data-stu-id="676fd-104">This procedure shows you how to create a scoring method.</span></span> <span data-ttu-id="676fd-105">Une méthode d'attribution de score est un ensemble de critères qui peut être employé pour comparer les offres qui sont envoyées en réponse à un appel d'offre.</span><span class="sxs-lookup"><span data-stu-id="676fd-105">A scoring method is a set of criteria that can be used to compare bids that are sent in reply to a request for quotation (RFQ).</span></span> <span data-ttu-id="676fd-106">Par exemple, vous pouvez souhaiter évaluer une performance passée d'un fournisseur, ou évaluer si la société est écologique ou un bon collaborateur, ou comparer des offres selon le prix.</span><span class="sxs-lookup"><span data-stu-id="676fd-106">For example, you might want to rate a vendor on past performance, or rate whether the company is environmentally friendly or a good collaborator, or you might want to compare bids based on price.</span></span> <span data-ttu-id="676fd-107">La méthode d'attribution de score peut être associée à un type de sollicitation comme méthode d'attribution de score par défaut pour les demandes de devis de ce type.</span><span class="sxs-lookup"><span data-stu-id="676fd-107">The scoring method can be associated with a solicitation type as the default scoring method for RFQs of that type.</span></span> <span data-ttu-id="676fd-108">Ces tâches sont généralement effectuées par un responsable des achats.</span><span class="sxs-lookup"><span data-stu-id="676fd-108">These tasks would typically be carried out by a purchasing manager.</span></span> <span data-ttu-id="676fd-109">Vous pouvez utiliser cette procédure dans la société fictive de démonstration USMF ou utiliser vos propres données.</span><span class="sxs-lookup"><span data-stu-id="676fd-109">You can use this procedure in demo data company USMF or on your own data.</span></span>
 

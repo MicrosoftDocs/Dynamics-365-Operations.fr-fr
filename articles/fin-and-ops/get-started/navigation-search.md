@@ -18,16 +18,16 @@ ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b336fcdeb0a844a5af0d17793416fa77f2ccdc04
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: aae2207585800cbe0bedc3c08184033876009bf4
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="navigation-search"></a><span data-ttu-id="4a4a9-103">Recherche de navigation</span><span class="sxs-lookup"><span data-stu-id="4a4a9-103">Navigation search</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="4a4a9-104">Cette rubrique explique comment utiliser la fonctionnalité de recherche pour accéder aux pages dans Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="4a4a9-104">This topic explains how to use the search functionality to navigate to pages in Microsoft Dynamics 365 for Finance and Operations.</span></span>
 

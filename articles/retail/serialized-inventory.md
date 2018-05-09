@@ -17,16 +17,16 @@ ms.author: shajain
 ms.search.validFrom: 2017-08-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7af390ceaff145849a06cfece8a662d4cba0e86d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 24f8fab744a186ef9070814a738a93bc99a479de
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="pos-improvements-for-serialized-products"></a><span data-ttu-id="8c125-103">Améliorations apportées aux PDV pour les produits sérialisés</span><span class="sxs-lookup"><span data-stu-id="8c125-103">POS improvements for serialized products</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 ## <a name="overview"></a><span data-ttu-id="8c125-104">Vue d'ensemble</span><span class="sxs-lookup"><span data-stu-id="8c125-104">Overview</span></span> 
 <span data-ttu-id="8c125-105">En fonction des paramètres de Retail Headquarters, les produits peuvent être classés comme étant sérialisés ou non sérialisés.</span><span class="sxs-lookup"><span data-stu-id="8c125-105">Based on the settings in Retail headquarters, products can be classified as either serialized or non-serialized.</span></span> <span data-ttu-id="8c125-106">Lorsque des produits sont sérialisés, chaque article peut recevoir un numéro unique qui permet de suivre les garanties, de tracer les articles et de confirmer la propriété.</span><span class="sxs-lookup"><span data-stu-id="8c125-106">When products are serialized, each item can be assigned a unique number that helps track warranties, trace items, and confirm ownership.</span></span> <span data-ttu-id="8c125-107">Bien que, la capacité à fournir des numéros de série pour les produits sérialisés existait dans notre point de vente (PDV) moderne/cloud, certaines améliorations ont été ajoutées pour permettre aux caissiers de gagner du temps et d'être plus productifs.</span><span class="sxs-lookup"><span data-stu-id="8c125-107">Although, the ability to provide serial numbers for serialized products existed in our Modern/Cloud Point of Sale (POS), some improvements have been added to help cashiers save time and be more productive.</span></span>  

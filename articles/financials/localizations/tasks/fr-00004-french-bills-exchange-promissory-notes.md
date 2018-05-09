@@ -16,15 +16,15 @@ ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f409939a08ca6b55e0f043d422d9c7259467ef87
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b4afbc4cff78ea88ec4c5b855bed071250e8a7c1
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="french-bills-of-exchange-and-promissory-notes-france"></a><span data-ttu-id="aea7a-103">Lettres de change et billets à ordre français (France)</span><span class="sxs-lookup"><span data-stu-id="aea7a-103">French bills of exchange and promissory notes (France)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="aea7a-104">L'état de remise de lettre de change française affiche les détails sur les lettres de change renvoyées.</span><span class="sxs-lookup"><span data-stu-id="aea7a-104">The French bill of exchange remittance report displays details about remitted bills of exchange.</span></span> <span data-ttu-id="aea7a-105">L'état inclut des informations sur le compte bancaire, l'entité juridique et le type de remise.</span><span class="sxs-lookup"><span data-stu-id="aea7a-105">The report includes information about your bank account, legal entity, and remittance type.</span></span> <span data-ttu-id="aea7a-106">Il fournit également la liste des transactions client qui sont affectées par la lettre de change.</span><span class="sxs-lookup"><span data-stu-id="aea7a-106">It also provides a list of customer transactions that are affected by the bill of exchange.</span></span> <span data-ttu-id="aea7a-107">Cet état est utilisé par les commis à la comptabilité client et les commis à la comptabilité fournisseur pour mettre à jour des paiements client.</span><span class="sxs-lookup"><span data-stu-id="aea7a-107">This report is used by accounts receivable clerks and accounts payable clerks to maintain customer payments.</span></span> 
 
