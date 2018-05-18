@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="reconcile-freight-in-transportation-management"></a>Rapprochement du fret dans la gestion du transport
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article décrit le processus de rapprochement du fret.
 

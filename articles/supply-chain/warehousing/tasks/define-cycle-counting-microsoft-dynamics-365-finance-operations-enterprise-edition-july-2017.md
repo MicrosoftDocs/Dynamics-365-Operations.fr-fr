@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="define-cycle-counting"></a>Définir l'inventaire tournant 
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 L'inventaire tournant est un processus d'entrepôt qui permet d'auditer les articles en stock disponibles. Cet enregistrement de tâche indique comment paramétrer la priorité par défaut du travail d'inventaire, activer une option de menu d'appareil mobile pour traiter à la fois les opérations de prélèvement et d'inventaire, activer un déclencheur de seuil de comptage lorsqu'un emplacement devient vide et activer un plan d'inventaire tournant pour un article spécifique dans un entrepôt particulier. Ces tâches sont généralement effectuées par un gestionnaire d'entrepôt. Vous pouvez exécuter cette procédure avec la société fictive de démonstration USMF ou avec vos propres données.
 

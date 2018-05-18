@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="set-up-manual-packing-february--may-2016-only"></a>Paramétrer l'emballage manuel (février et mai 2016 uniquement)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Le processus d'emballage vous permet de valider et conditionner les produits dans des conteneurs. Dans ce processus, les magasiniers prélèvent les produits dans les emplacements de stockage et les déplacent dans un centre d'emballage dans lequel ils vérifient les quantités et les types d'article, puis ils les affectent aux conteneurs appropriés. Lorsqu'un conteneur est entièrement emballé, ils peuvent le fermer et le déplacer vers les quais d’expédition, et les produits sont alors prêts à expédier. La société fictive USMF sert d'exemple dans cette procédure.
 

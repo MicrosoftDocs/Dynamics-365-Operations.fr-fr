@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="use-a-record-template-to-create-a-new-record"></a>Utiliser un modèle d'enregistrement pour créer un enregistrement
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure montre comment utiliser un modèle d'enregistrement précédemment défini pour créer un enregistrement. Pour exécuter cette procédure, vous devez d'abord exécuter la procédure « Créer un modèle d'enregistrement pour faciliter la saisie des données ».
 

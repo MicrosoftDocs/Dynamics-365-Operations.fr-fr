@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="material-substitution-in-manufacturing"></a>Remplacement des matériaux lors de la fabrication
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit comment remplacer des matériaux durant le processus de production. 
 

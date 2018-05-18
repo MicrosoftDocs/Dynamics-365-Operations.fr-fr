@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="set-up-bank-reconciliation-matching-rules"></a>Configurer les règles de correspondance de rapprochement bancaire
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique explique comment paramétrer des règles de correspondance de rapprochement et des ensembles de règles de correspondance de rapprochement pour faciliter le processus de rapprochement bancaire. Les règles de correspondance de rapprochement sont un ensemble de critères utilisés pour filtrer les lignes de relevé bancaire et les lignes de document bancaire lors du processus de rapprochement.
 

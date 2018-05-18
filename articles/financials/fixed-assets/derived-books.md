@@ -28,7 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="derived-books"></a>Registres dérivés
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article fournit une vue d'ensemble de la fonctionnalité de registre déduit.
 

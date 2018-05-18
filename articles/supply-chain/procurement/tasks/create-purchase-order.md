@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-purchase-order"></a>Créer une commande fournisseur
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure vous indique comment créer une commande fournisseur manuellement. Il est plus classique de créer automatiquement les commandes fournisseur suite à l'exécution d'une planification générale, d'une livraison directe ou d'autres processus. Les commandes fournisseur sont généralement créées par un agent des achats. L'exemple indiqué ici peut être utilisé dans les données fictives de la société USMF à l'aide des valeurs suggérées dans les notes pour les différentes étapes.
 

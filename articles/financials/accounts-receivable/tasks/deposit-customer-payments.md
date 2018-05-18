@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="deposit-customer-payments"></a>Déposer les paiements client
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Déposez des paiements client. La société fictive USMF est citée en exemple dans cette tâche.
 

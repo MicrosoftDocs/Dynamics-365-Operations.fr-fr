@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="view-journal-entries-or-transactions"></a>Afficher les entrées de journal ou les transactions
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure indique comment utiliser la demande de transactions de N° document pour rechercher des entrées ou des transactions de journal.
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="mandats-de-paiement-in-the-public-sector-in-france"></a>Mandats de paiement dans le secteur public en France
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Le mandat de paiement est utilisé par le directeur pour informer le comptable que l'organisation doit payer un montant donné à une autre entité et pour autoriser le comptable à payer ledit montant. Le mandat permet de garantir une séparation nette obligatoire entre le rôle opérationnel du directeur et le rôle comptable du comptable.
 

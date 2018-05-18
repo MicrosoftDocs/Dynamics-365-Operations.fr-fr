@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-fixed-asset"></a>Création d'une immobilisation
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 La société fictive USMF sert d'exemple dans ce guide de tâche.  Une nouvelle immobilisation sera alors créée à l'aide de la page de liste Immobilisations.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 03/09/2018
 ---
 # <a name="use-a-model-mapping-configuration-for-aggregate-calculations-at-the-database-leveler"></a>Utiliser une configuration de mappage de modèle pour les calculs agrégés au niveau de la base de données (ER) 
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure fournit des informations sur la création d'une configuration de mise en correspondance des modèles d'états électroniques et l'utilisation des fonctions ER intégrées pour effectuer des calculs globaux efficaces. Dans cette procédure, vous créerez une configuration pour la société fictive, Litware, Inc. 
 

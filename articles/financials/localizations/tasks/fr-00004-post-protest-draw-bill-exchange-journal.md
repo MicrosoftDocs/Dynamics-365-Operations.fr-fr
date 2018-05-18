@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="post-protest-draw-bill-of-exchange-journal-france"></a>Valider le journal de création et de contestation des lettres de change (France)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure vous guide au cours des étapes des contestation d'une lettre de change impayée.
 

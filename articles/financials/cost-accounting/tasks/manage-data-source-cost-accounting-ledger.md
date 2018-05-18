@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="manage-a-data-source-for-the-cost-accounting-ledger"></a>Gérer une source de données pour la comptabilité de contrôle de gestion
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Utilisez cette procédure pour gérer la source de données pour une comptabilité de contrôle de gestion. Avant d'effectuer cette tâche, veillez à lire les guides de tâche « Créer une comptabilité de contrôle de gestion » et « Définir les unités de contrôle des coûts ». Cet enregistrement utilise la société fictive USP2.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="product-related-translations-faq"></a>FAQ sur les traductions relatives au produit
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique explique comment gérer les traductions de produits, les valeurs de dimension des produits, et les attributs des produits. 
 

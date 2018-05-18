@@ -27,7 +27,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="configure-an-automated-task-in-a-workflow"></a>Configurer une tâche automatique dans un workflow
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique explique comment configurer les propriétés d'une tâche automatique.
 

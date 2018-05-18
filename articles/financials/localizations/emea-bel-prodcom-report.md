@@ -27,7 +27,7 @@ ms.lasthandoff: 04/14/2018
 
 # <a name="set-up-and-maintain-prodcom"></a>Paramétrer et tenir à jour PRODCOM
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique explique la procédure de paramétrage et de mise à jour de PRODCOM dans Microsoft Dynamics 365 for Finance and Operations. 
 

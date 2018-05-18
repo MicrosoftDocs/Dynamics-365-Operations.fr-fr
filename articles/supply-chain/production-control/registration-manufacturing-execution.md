@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="registration-for-manufacturing-execution"></a>Enregistrement dans Contrôle et suivi de la production
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit les concepts et les termes importants que vous devez comprendre pour configurer et utiliser le contrôle et suivi de la production. 
 

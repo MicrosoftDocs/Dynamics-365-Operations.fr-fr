@@ -29,9 +29,9 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="weighted-average-date"></a>Date moyenne pondérée
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 La date moyenne pondérée est un modèle de stock basé sur le principe de moyenne pondérée. Concernant le principe de la moyenne pondérée, les sorties de stock correspondent à la valeur moyenne des articles reçus en stock pour chaque jour de la période de clôture du stock. 
 

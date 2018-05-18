@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="correct-inventory-tracking-information"></a>Corriger les informations de suivi de stock
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure vous guide dans le processus de création et de validation d'un journal de transfert de stock afin de corriger les informations de suivi de stock. Dans cet exemple, nous allons mettre à jour les informations d'un article contrôlé via le traitement par lots en modifiant un traitement par lots incorrectement enregistré vers un autre traitement par lots. Vous pouvez parcourir cette procédure dans la société fictive de démonstration USPI ou en utilisant vos propres données. Si vous utilisez vos propres données, vous devez posséder un article pour lequel le traitement par lots est activé, et qui ne doit pas être contrôlé par emplacement. Vous devez également avoir configuré un nom de journal de stock pour les transferts de stock. Ces tâches sont normalement effectuées par un employé de l'entrepôt.
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="configure-a-line-item-workflow"></a>Configuration d'un workflow pour ligne
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique explique comment configurer un élément de workflow pour ligne.
 

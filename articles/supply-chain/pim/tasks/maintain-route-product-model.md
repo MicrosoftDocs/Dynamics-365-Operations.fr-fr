@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="maintain-a-route-for-a-product-model"></a>Tenir à jour une gamme pour un modèle de produit
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 L'exécution de cette procédure nécessite qu'il existe un modèle de configuration de produit. Cette procédure utilise le modèle de haut-parleur haut de gamme de la société fictive USMF.
 

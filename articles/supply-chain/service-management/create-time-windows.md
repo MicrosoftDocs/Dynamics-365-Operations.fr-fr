@@ -28,7 +28,7 @@ ms.lasthandoff: 02/20/2018
 
 # <a name="create-time-windows"></a>Création de fenêtres Délai   
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Vous pouvez utiliser les fenêtres Délai pour optimiser la planification des lignes de commande de service.
 

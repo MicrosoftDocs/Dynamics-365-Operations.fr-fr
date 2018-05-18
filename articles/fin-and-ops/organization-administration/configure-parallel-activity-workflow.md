@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="configure-a-parallel-activity-in-a-workflow"></a>Configurer une activité parallèle dans un workflow
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Pour configurer une activité parallèle, exécutez les procédures suivantes dans l'éditeur de workflow.
 

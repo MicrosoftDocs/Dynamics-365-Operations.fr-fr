@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="intercompany-invoicing"></a>Facturation intersociétés
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article fournit des informations et des exemples sur la facturation intersociétés de projets dans Microsoft Dynamics 365 for Finance and Operations.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="balanced-journals-for-interunit-accounting"></a>Journaux équilibrés pour la comptabilité interunités
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article décrit la manière dont un journal est automatiquement équilibré lorsqu'une dimension financière d'équilibrage est activée dans la page de comptabilité. 
 

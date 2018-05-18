@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="receipt-templates-and-printing"></a>Modèles et impression de ticket de caisse
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Cet article décrit comment modifier des mises en page d'impression pour contrôler la manière dont les tickets de caisse, les factures et d'autres documents sont imprimés. Microsoft Dynamics 365 for Retail comprend un concepteur de mise en page d'impression que vous pouvez utiliser pour créer et modifier facilement différents types de mises en page d'impression.
 

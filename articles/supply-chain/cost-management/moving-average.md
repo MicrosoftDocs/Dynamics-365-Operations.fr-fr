@@ -29,7 +29,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="moving-average"></a>Moyenne mobile
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 La moyenne de déplacement est une méthode d'évaluation des coûts définitive basée sur le principe de moyenne, où les coûts des sorties de stock ne changent pas lorsque le coût d'achat est modifié. La différence est capitalisée et est basée sur un calcul proportionnel. Le montant restant est mis en dépenses. 
 

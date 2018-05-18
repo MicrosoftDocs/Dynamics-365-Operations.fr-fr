@@ -24,7 +24,7 @@ ms.lasthandoff: 11/08/2017
 ---
 # <a name="create-dimension-based-configurations"></a>Créer les configurations basées sur les dimensions
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure permet d'indiquer comment définir une configuration pour un produit fondé sur les dimensions. Il s'agit de la dernière procédure de la série qui explique comment créer des combinaisons pour la configuration basée sur les dimensions. L'exécution de cette procédure dépend des données créées dans les sept enregistrements précédents. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 

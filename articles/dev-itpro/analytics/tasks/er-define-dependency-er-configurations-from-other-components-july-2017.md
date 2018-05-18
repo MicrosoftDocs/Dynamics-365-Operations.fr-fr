@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="define-the-dependency-of-configurations-from-other-components"></a>Définir la dépendance des configurations vis-à-vis d'autres composants 
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Pour réaliser ces étapes, vous devez commencer par effectuer les étapes du guide de tâche, ER Gérer les configurations de mise en correspondance de modèle, et vous devez avoir accès à Microsoft Dynamics Lifecycle Services (LCS).
 

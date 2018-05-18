@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-sales-event-kanban-rule"></a>Créer une règle de kanban d'événement de vente
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure consiste à réaliser le paramétrage nécessaire pour créer une règle de kanban qui est déclenchée pendant la création d'une commande client. La règle de kanban d'événement réalise le réapprovisionnement des besoins provenant des lignes de commande client. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Elle est destinée à l'ingénieur processus ou au responsable de la chaîne de valeur, car ils préparent la production d'un produit nouveau ou modifié.
 

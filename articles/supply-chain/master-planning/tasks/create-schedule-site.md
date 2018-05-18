@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-schedule-for-a-site"></a>Créer un programme pour un site
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure décrit comment planifier les ordres de fabrication qui n'ont pas encore commencé pour un site.  Les données fictives de la société USMF sont utilisées pour réaliser cette procédure.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="settlement-overview"></a>Vue d'ensemble des règlements
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article fournit des informations générales sur le processus de règlement. Il décrit les types de transactions pouvant être réglées, quand et comment les transactions peuvent être réglées ainsi que les résultats du processus de règlement.
 

@@ -27,9 +27,9 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="purchase-order-approval-mobile-workspace"></a>Espace de travail mobile Approbation des commandes fournisseur
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Cette rubrique fournit des informations sur l'espace de travail mobile **Approbation des commandes fournisseur**. Cet espace de travail permet d'afficher les commandes fournisseur et d'y répondre par des actions. Par exemple, vous pouvez approuver ou rejeter une commande fournisseur.
  

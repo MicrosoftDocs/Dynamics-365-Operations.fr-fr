@@ -28,7 +28,7 @@ ms.lasthandoff: 02/20/2018
 
 # <a name="service-intervals"></a>Intervalles de services
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 L'intervalle d'accords de service indique la fréquence de création des lignes de commande de service pour les lignes d'accord de service lorsque vous créez automatiquement des commandes de service.
 

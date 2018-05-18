@@ -26,7 +26,7 @@ ms.lasthandoff: 02/14/2018
 
 # <a name="welcome-to-human-resources"></a>Bienvenue dans le module Ressources humaines
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Le module Ressources humaines simplifie de nombreuses tâches d'archivage de routine et automatise un certain nombre de processus liés à la dotation en personnel de votre organisation. Il fournit également un cadre permettant au personnel des ressources humaines d'assurer une supervision appropriée. Ces domaines incluent le recrutement et la rétention des employés, l'administration des avantages, la formation, les évaluations des performances et la gestion des modifications.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 02/20/2018
 
 # <a name="create-a-service-template-group"></a>Créer un groupe de modèles de service  
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Vous pouvez utiliser des groupes de modèles de service pour trier et filtrer les modèles de service.
 

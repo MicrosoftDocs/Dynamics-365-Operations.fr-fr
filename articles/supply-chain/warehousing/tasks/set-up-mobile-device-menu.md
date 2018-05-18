@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="set-up-a-mobile-device-menu-item-for-completing-work-in-a-purchase-order"></a>Paramétrer une option de menu d'appareil mobile pour terminer le travail d'une commande fournisseur
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure montre comment configurer une option du menu Appareil mobile. Dans cet exemple, l'option de menu est utilisée pour effectuer le travail de type commande fournisseur. La classe de travail associée à l'option de menu qui détermine quel travail est valide. Vous pouvez utiliser ce guide dans les données de démonstration de la société fictive USMF. Cette procédure est généralement effectuée par un gestionnaire de l'entrepôt.
 

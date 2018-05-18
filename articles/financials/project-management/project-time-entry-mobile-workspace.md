@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-time-entry-mobile-workspace"></a>Espace de travail mobile de saisie de l'heure du projet
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique fournit des informations sur l'espace de travail mobile **Saisie des heures du projet**. Cet espace de travail permet aux utilisateurs d'entrer et de gagner du temps sur un projet à l'aide d'un appareil mobile.
 

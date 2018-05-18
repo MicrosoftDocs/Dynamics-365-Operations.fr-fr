@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="esr-customer-payments-import"></a>Importation des paiements client ESR
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique fournit des informations sur l'importation de paiements client au format ESR.
 

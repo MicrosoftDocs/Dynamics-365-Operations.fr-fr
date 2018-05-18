@@ -28,9 +28,9 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="setting-up-the-components-of-a-job"></a>Paramétrage des composants d'une tâche
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
-[!INCLUDE [retail name](includes/retail-name.md)]
+[!include [retail name](includes/retail-name.md)]
 
 Cette rubrique décrit les éléments conceptuels pouvant être inclus dans une tâche et fournit des exemples d'utilisation de ces éléments dans votre organisation. 
 

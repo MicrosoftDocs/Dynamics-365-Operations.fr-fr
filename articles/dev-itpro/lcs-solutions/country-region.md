@@ -18,18 +18,18 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 389efbe1853264c1503737b55dd7767fdcb966ca
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c925b2e996f51b8c5d5332217643c3155cfc03c0
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="localization-and-regulatory-features"></a>Fonctions locales et relatives aux réglementations
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Finance and Operations inclut une fonctionnalité pour les pays/régions documentée dans le [Guide de disponibilité internationale du produit](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf). Cette fonctionnalité est activée en fonction de l'adresse principale de l'entité juridique active. 
+Microsoft Dynamics 365 for Finance and Operations inclut une fonctionnalité pour les pays/régions documentée dans le [Guide de disponibilité internationale du produit](http://download.microsoft.com/documents/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf). Cette fonctionnalité est activée en fonction de l'adresse principale de l'entité juridique active. 
 
 Cette rubrique liste des ressources utiles pour en savoir plus sur les solutions, mises à jour, alertes et fonctionnalisés spécifiques aux pays/régions. 
 
@@ -92,7 +92,7 @@ Les sections suivantes répertorient les ressources par pays/région.
 -   [Documents fiscaux](../../financials/localizations/latam-bra-fiscal-documents-fiscal-document-framework.md)
 -   [Documents fiscaux ICMS](../../financials/localizations/latam-bra-icms-tax-fiscal-documents.md)
 -   [Importation et vérification de documents XML NF-e et de fichiers DANFE](../../financials/localizations/latam-bra-import-verify-nf-e-xml-documents-danfe-emails.md)
--   [Importation de documents fiscaux](../../financials/localizations/latam-bra-import-fiscal-documents.md)
+-   [Importer des documents fiscaux](../../financials/localizations/latam-bra-import-fiscal-documents.md)
 -   [Journaux générés lors du processus de retour de paiement électronique](../../financials/localizations/latam-bra-examples-journals-generated-electronic-payment-return-process.md)
 -   [Processus NF-e](../../financials/localizations/latam-bra-nf-e-process.md)
 -   [Paramètres d'entités juridiques](../../financials/localizations/latam-bra-legal-entity-parameters.md)
@@ -101,8 +101,8 @@ Les sections suivantes répertorient les ressources par pays/région.
 -   [Documents fiscaux référencés](../../financials/localizations/latam-bra-referenced-fiscal-documents.md)
 -   [Documents fiscaux de vente supplémentaires](../../financials/localizations/latam-bra-sales-complementary-fiscal-documents.md)
 -   [Document fiscal électronique de service](../../financials/localizations/latam-bra-service-electronic-fiscal-document.md)
--   [Configuration, importation et vérification de documents XML NF-e et de fichiers DANFE](../../financials/localizations/latam-bra-set-up-import-nfe.md)
--   [Attributs fiscaux](../../financials/localizations/latam-bra-tax-attributes.md)
+-   [Paramétrer, importer et vérifier des documents XML NF-e et des fichiers DANFE](../../financials/localizations/latam-bra-set-up-import-nfe.md)
+-   [Attributs de taxe](../../financials/localizations/latam-bra-tax-attributes.md)
 -   [Paiements de taxe](../../financials/localizations/latam-bra-tax-payments.md)
 -   [Taxes](../../financials/localizations/latam-bra-calculate-taxes.md)
 
@@ -151,10 +151,10 @@ Les sections suivantes répertorient les ressources par pays/région.
 - [Vue d'ensemble des virements SEPA](../../financials/accounts-payable/sepa-credit-transfer.md)
 - [Vue d'ensemble du débit direct SEPA](../../financials/accounts-receivable/sepa-direct-debit-overview.md)
 - [Paramétrage de la rémunération des clients et des fournisseurs](../../financials/localizations/emea-compensation-customer-vendor-transactions.md)
-- [Paramétrage de signataires pour l'impression d'écrans](../../financials/localizations/emea-set-up-signers-for-printing-forms.md)
+- [Paramétrer des signataires pour l'impression d'écrans](../../financials/localizations/emea-set-up-signers-for-printing-forms.md)
 - [Contre-passation](../../financials/localizations/emea-storno.md)
 - [Instructions relatives à la taxe](../../financials/localizations/emea-tax-directives.md)
-- [Modification du mode d'affichage des montants dans les états et documents](../../financials/localizations/emea-amount-printing-forms.md) 
+- [Mettre à jour le mode d'affichage des montants dans les états et documents](../../financials/localizations/emea-amount-printing-forms.md) 
 - [Taux de change TVA](../../financials/localizations/emea-vat-exchange-rate.md)
 - [Transactions d'enregistrement de TVA pour l'Europe de l'Est](../../financials/localizations/emea-vat-register-transactions.md)
 - [Génération d'états TVA](../../financials/localizations/emea-vat-reporting.md)
@@ -194,7 +194,7 @@ Les sections suivantes répertorient les ressources par pays/région.
     - [Transfert des éléments de capital vers l'immobilisation](../../financials/localizations/tasks/apac-ind-transfer-capital-items.md)
     - [Associer un calendrier journalier à un registre des immobilisations](../../financials/localizations/tasks/apac-ind-attach-day-based-calendar.md)
     - [Configurer les paramètres pour calculer l'amortissement](../../financials/localizations/tasks/apac-ind-set-up-depreciation.md)
-    - [Paramétrer l'amortissement des groupes d'immobilisations pour les registres d'amortissement](../../financials/localizations/tasks/apac-ind-set-up-asset-group-dep.md)
+    - [Paramétrer l'amortissement des groupes d'actifs pour les registres d'amortissement](../../financials/localizations/tasks/apac-ind-set-up-asset-group-dep.md)
     - [Créer un groupe de modèles de stock pour les éléments de capital](../../financials/localizations/tasks/apac-ind-create-inventory-model-group.md)
     - [Calcul de l'amortissement par poste pour les immobilisations (Inde)](../../financials/localizations/tasks/apac-ind-shift-depreciation-rates.md)
     - [Définir le type de poste et de secteur pour les registres et les associer à une immobilisation](../../financials/localizations/tasks/apac-ind-books-shift-industry-types.md)
@@ -247,7 +247,7 @@ Les sections suivantes répertorient les ressources par pays/région.
 
 -   [Relevé de déclaration DIOT](../../financials/localizations/latam-mex-diot-declaration-statement.md)
 -   [Relevés de comptabilité électronique](../../financials/localizations/latam-mex-electronic-ledger-accounting-statements.md)
--   [État de déclaration d'ajustement pour inflation](../../financials/localizations/latam-mex-adjustment-inflation-declaration-report.md)
+-   [État de déclaration de l'ajustement de l'inflation](../../financials/localizations/latam-mex-adjustment-inflation-declaration-report.md)
 -   [État de déclaration ISR](../../financials/localizations/latam-mex-isr-declaration-report-supporting-processes.md)
 -   [CFDI (factures électroniques)](../../financials/localizations/latam-mex-CFDI-electronic-invoices.md)
 

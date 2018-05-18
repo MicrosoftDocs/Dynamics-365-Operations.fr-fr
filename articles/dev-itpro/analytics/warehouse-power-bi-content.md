@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="warehouse-performance-power-bi-content"></a>Contenu Power BI pour les performances de l'entrepôt
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit ce qui est inclus dans le contenu Microsoft Power BI **Performances de l'entrepôt**. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
 

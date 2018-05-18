@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="enter-payroll-beginning-balances"></a>Saisir des soldes d'ouverture de salaire
 
-[!INCLUDE [banner](../../includes/banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 La rubrique décrit les étapes pour entrer des soldes d'ouverture pour les codes de rémunération, les déductions, les avantages et les taxes. Ces informations sont précieuses pour les partenaires qui transfèrent des données pour une nouvelle implémentation du salaire à partir d'un autre système. Pour commencer à entrer les soldes d'ouverture de salaires, nous vérifions les informations suivantes :
 

@@ -26,7 +26,7 @@ ms.lasthandoff: 03/21/2018
 
 # <a name="corrective-invoicing"></a>Facturation corrective
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
  > [!NOTE]
  > Cette rubrique s'applique aux entités juridiques ayant une adresse principale au Danemark, en Allemagne, en France, en Irlande, aux Pays-Bas ou au Royaume-Uni.

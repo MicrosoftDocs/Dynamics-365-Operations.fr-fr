@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-mass-hire-project"></a>Créer un projet d'embauche collective
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure décrit le processus de paramétrage d'un projet d'embauche collective. Le recruteur peut utiliser des projets d'embauche collective pour créer facilement plusieurs postes et pour embaucher plusieurs travailleurs. Pour démarrer cette procédure, allez dans Ressources humaines > Recrutement > Projets d'embauche collective. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 02/08/2018
 
 # <a name="controlling-raw-material-consumption-by-using-flushing-principles"></a>Contrôler la consommation de matières premières à l'aide des principes d'effacement
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Les principes d'effacement reflètent différents stratégies de consommation des matières premières utilisées dans les processus de production. La consommation est le processus qui déduit le matériel du stock disponible et définit la valeur des matières consommées sur **Travail en cours** pour les ordres de fabrication et des lots de commandes. Les matières premières sont consommées généralement à un emplacement qui est configuré pour le processus qui consomme les matières. Cet emplacement est appelé l'emplacement d'entrée en production.
 

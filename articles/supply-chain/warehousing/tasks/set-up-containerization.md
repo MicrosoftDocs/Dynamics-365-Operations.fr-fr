@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="set-up-containerization"></a>Définir une logique de mise en conteneur
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure décrit comment automatiser la mise en conteneur des charges dans la gestion des entrepôts. La mise en conteneur automatisée crée des conteneurs et le travail de prélèvement pour les expéditions lorsqu'une vague est traitée et des lignes de travail peuvent être fractionnées en quantités ajustées aux conteneurs. Cela permet aux magasiniers de prélever les articles directement dans le conteneur sélectionné. Comparé au processus d'emballage manuel, des tâches telles que la création de conteneurs, l'affectation d'articles et la fermeture des conteneurs sont automatisées par le système. La société fictive USMF sert d'exemple dans cette procédure qui est effectuée par un gestionnaire des entrepôts.
 

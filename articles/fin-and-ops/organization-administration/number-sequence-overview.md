@@ -28,7 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="number-sequences"></a>Souches de numéros
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Les souches de numéros permettent de générer des identificateurs uniques et consultables pour les enregistrements de données principales et de transactions qui en exigent. Un enregistrement de données principales ou de transaction nécessitant un identificateur est également appelé *référence*.
 

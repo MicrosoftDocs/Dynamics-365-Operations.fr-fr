@@ -29,7 +29,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="information-used-in-bom-calculations-with-standard-costs"></a>Informations utilisées dans les calculs de nomenclature avec les coûts standard
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Les calculs de nomenclature utilisent les données de plusieurs sources pour calculer les coûts standard d'un article fabriqué. Les sources incluent des informations sur les articles, les gammes de nomenclatures, les formules de calcul des coûts indirects et la version d'évaluation des coûts.
 

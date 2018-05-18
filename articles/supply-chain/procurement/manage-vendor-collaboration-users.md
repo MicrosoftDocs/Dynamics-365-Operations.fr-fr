@@ -28,7 +28,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="manage-vendor-collaboration-users"></a>Gérer les utilisateurs de la fonctionnalité de collaboration du fournisseur
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit comment vous pouvez demander la mise en service de nouveaux utilisateurs de collaboration fournisseur, et comment ajouter de nouveaux contacts de collaboration fournisseur. 
 

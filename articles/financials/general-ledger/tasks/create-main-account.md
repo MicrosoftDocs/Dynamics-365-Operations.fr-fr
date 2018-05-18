@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-main-account"></a>Création d'un compte principal
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ce guide accompagne l'utilisateur lors de l'ajout d'un compte principal à un plan de comptes existant. La société fictive USMF sert d'exemple dans cet enregistrement.  
 

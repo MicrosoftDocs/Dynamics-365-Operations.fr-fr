@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>Entrer et comparer des appels d'offre et octroyer des contrats
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure décrit comment entrer des réponses à un appel d'offre, marquer et comparer les offres, puis attribuer une offre à l'un des fournisseurs. Vous pouvez utiliser cette procédure dans les données fictives de la société USMF. Avant de commencer, vous devez avoir un appel d'offre avec deux lignes qui a été envoyé au moins à deux fournisseurs. Vous pouvez exécuter la procédure « Création d'une demande de devis » comme étape préliminaire pour créer cela. Vous devez avoir paramétré les critères d'attribution de score pour pouvoir exécuter cette procédure.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="set-up-electronic-signatures"></a>Paramétrage de signatures électroniques
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Utilisez cette procédure pour configurer des signatures électroniques. Une signature électronique confirme l'identité d'une personne qui va commencer ou approuver une procédure informatique. La société fictive de démonstration utilisée pour créer cette procédure est DAT.
 

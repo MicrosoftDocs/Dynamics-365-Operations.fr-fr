@@ -28,7 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="import-and-maintain-credit-card-transactions"></a>Importer et tenir à jour les transactions de carte de crédit
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Les transactions par carte de crédit liées aux dépenses peuvent être configurées de manière à être automatiquement importées selon un calendrier récurrent. Sinon, les transactions peuvent être importées manuellement lorsqu'elles sont requises. Les transactions de carte de crédit sont importées via l'entité de données de transactions de carte de crédit.
 

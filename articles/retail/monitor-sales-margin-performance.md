@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="monitor-sales-and-margin-performance"></a>Surveiller les performances des ventes et des marges
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Vous pouvez surveiller les ventes et les performances de marge en temps réel à l'aide de Microsoft Dynamics 365 for Retail.
 

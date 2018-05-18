@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="design-a-configuration-for-generating-reports-in-microsoft-word-format-for-electronic-reporting-er"></a>Définir une configuration pour générer des états au format Microsoft Word pour la gestion des états électroniques (ER)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Les étapes suivantes expliquent comment un utilisateur bénéficiant du rôle Administrateur système ou Développeur d'états électroniques peut configurer des formats de données de génération d'états électronique (ER) pour générer des états sous forme de fichiers Microsoft Word. Ces étapes peuvent être effectuées dans la société GBSI.
 

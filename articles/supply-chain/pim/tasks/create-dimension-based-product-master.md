@@ -24,7 +24,7 @@ ms.lasthandoff: 11/08/2017
 ---
 # <a name="create-a-dimension-based-product-master"></a>Créer un produit générique fondé sur les dimensions
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure indique comment créer un nouveau produit générique à l'aide de la technologie basée sur les dimensions. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Il s'agit de la première procédure (parmi les huit) qui explique comment créer des combinaisons pour la configuration basée sur les dimensions.
 

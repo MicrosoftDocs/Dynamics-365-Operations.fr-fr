@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="create-a-customer-invoice"></a>Création d'une facture client
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Une **facture client pour une commande client** est une facture associée à une vente, remise par une organisation à un client. Ce type de facture client est créé sur la base d'une commande client, laquelle comporte des lignes de commande et des numéros d'article. Les numéros d'article sont spécifiés et validés dans la comptabilité. Les écritures de journal de comptabilité auxiliaire ne sont pas disponibles pour une facture client associée à une commande client. Pour plus d'informations, voir [Créer des factures de commande client](tasks/create-sales-order-invoices.md).
 

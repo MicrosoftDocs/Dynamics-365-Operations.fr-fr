@@ -26,7 +26,7 @@ ms.lasthandoff: 04/13/2018
 # <a name="reverse-charge-vat"></a>Taxe au preneur
 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 
 Cette rubrique décrit une approche générique pour paramétrer la taxe sur la valeur ajoutée au preneur (TVA) pour l'Arabie saoudite et les pays européens.

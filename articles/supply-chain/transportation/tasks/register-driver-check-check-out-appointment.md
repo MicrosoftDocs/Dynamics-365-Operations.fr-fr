@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="register-driver-check-in-and-check-out-for-an-appointment"></a>Enregistrer l'arrivée et le départ d'un chauffeur pour un rendez-vous
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure montre comment enregistrer l'arrivée et le départ d'un chauffeur. Cela est généralement fait par un coordonnateur transport. Vous pouvez utiliser cette procédure dans les données fictives de la société USMF. Avant de commencer, un rendez-vous doit être paramétré pour une charge. Pour créer un rendez-vous, vous pouvez exécuter la procédure « Paramétrer un rendez-vous pour une charge » comme condition préalable.
 

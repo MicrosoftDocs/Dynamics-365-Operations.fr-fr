@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="transfer-transactions-to-the-intrastat"></a>Transférer des transactions dans la déclaration d'échanges de biens
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure vous guide dans le paramétrage des paramètres de déclaration d'échanges de biens et le transfert des transactions dans la déclaration d'échanges de biens. Cette procédure a été créée à l'aide des données fictives de la société DEMF.
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="convert-accounting-or-reporting-currencies"></a>Convertir des devises comptables ou de déclaration
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Une société qui doit modifier sa devise comptable ou sa devise de déclaration a deux options. La première option est de créer une société et de répartir à zéro. La deuxième option est d'exécuter le processus de conversion des devises comptables et de déclaration. Il s'agit d'un processus très long qui modifie chaque transaction dans le système. Des paramétrages sont également nécessaires avant d'exécuter le processus.
 

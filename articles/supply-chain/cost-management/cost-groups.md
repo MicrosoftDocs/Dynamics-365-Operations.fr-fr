@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="cost-groups"></a>Groupes de coûts
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Les groupes de coûts servent de base pour la segmentation et l'analyse des contributions de coûts dans le coût calculé d'un article fabriqué, telles que les contributions de coûts pour les matériaux, la main-d'œuvre et les frais généraux. La segmentation des groupes de coûts a plusieurs synonymes dans les environnements de fabrication, comme répartition des coûts, décomposition des coûts ou classification des coûts. 
 

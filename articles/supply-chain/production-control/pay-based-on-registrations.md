@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="pay-based-on-registrations"></a>Salaire basé sur les enregistrements
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique explique, en détail, comment le salaire est calculé sur la base des enregistrements des collaborateurs. Elle contient des exemples qui montrent la manière dont les différentes combinaisons d'options de paramétrage disponibles pour le calcul affectent le résultat. Voici quelques-uns des points qui seront abordés :
 

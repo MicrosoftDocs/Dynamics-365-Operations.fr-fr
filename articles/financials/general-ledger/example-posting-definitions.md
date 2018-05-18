@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="posting-definition-examples"></a>Exemples de définitions de validation
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article fournit des exemples décrivant la manière dont les définitions de validation sont utilisées pour les engagements de commande fournisseur et les affectations budgétaires.
 

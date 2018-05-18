@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="set-up-fixed-asset-posting-profiles"></a>Paramétrage de profils de validation d'immobilisation
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ce guide de tâche va paramétrer les profils de validation d'immobilisation.  Il utilise le rôle de comptable et les données de démonstration de l'entité juridique USMF.  Les exemples donnés dans le guide de tâches concernent un profil de validation de base, même s'il faut créer des profils de validation pour les besoins spécifiques de vos plans de comptes et de vos états financiers.
 

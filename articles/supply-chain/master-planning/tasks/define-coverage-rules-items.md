@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="define-coverage-rules-for-items"></a>Définir des règles de couverture pour les articles
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Cet procédure indique comment créer des règles de couverture et remplacer des paramètres de couverture pour un article spécifique. Il indique également comment spécifier les paramètres de stock par défaut.
 

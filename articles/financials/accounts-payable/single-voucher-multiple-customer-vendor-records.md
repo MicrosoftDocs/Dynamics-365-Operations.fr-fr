@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>N° de document unique avec plusieurs enregstrements client ou fournisseur
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique fournit une vue d'ensemble de ce qui se produit lorsque vous validez un N° de document unique avec plusieurs enregistrements client ou fournisseur. Cette fonctionnalité sera arrêtée dans les futures versions de Microsoft Dynamics 365 for Finance and Operations, par conséquent, il n'est pas recommandé d'utiliser cette méthode de validation en raison de l'impact comptable qu'elle a sur le traitement des règlements. 
 

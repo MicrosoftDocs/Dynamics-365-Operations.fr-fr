@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="register-a-vendor-vat-id"></a>Enregistrer un ID de TVA du fournisseur
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure indique comment ajouter des ID d'enregistrement de TVA et un numéro sans TVA à un compte fournisseur. Ce processus est similaire pour les entités juridiques et les clients. 
 

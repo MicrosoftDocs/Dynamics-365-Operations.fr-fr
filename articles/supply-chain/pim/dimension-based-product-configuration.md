@@ -29,7 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="dimension-based-product-configuration"></a>Configuration de produit basée dur les dimensions
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 la configuration de produit basée sur les dimensions représente une solution simple pour créer plusieurs variantes de produit à partir d'un produit générique unique et de sa nomenclature.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="configure-address-books"></a>Configurer les carnets d'adresses
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Utilisez cette procédure et les décisions que vous avez prises dans la rubrique Planification et configuration du carnet d'adresses global et les autres rubriques du carnet d'adresses pour paramétrer des carnets d'adresses supplémentaires pour votre organisation.
 

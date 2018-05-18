@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="process-loyalty-reward-point-adjustments"></a> Traiter les ajustements de points de récompense de fidélité
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Cette procédure illustre comment rechercher des informations de carte de fidélité et ajuster les points de récompense de fidélité. La société fictive utilisée pour créer cette tâche est USRT. Cette tâche est destinée au rôle Gestionnaire des opérations de vente au détail ou à un rôle de directeur du service clientèle.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="manage-subcontracting-work-in-production"></a>Gestion du travail de sous-traitance en production
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique explique comment les opérations sous-traitées sont gérées dans Microsoft Dynamics 365 for Finance and Operations. En d'autres termes, elle explique comment les opérations de production qui sont affectées à une ressource sont gérées par un fournisseur.
 

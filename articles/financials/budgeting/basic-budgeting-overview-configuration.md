@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budgeting-overview"></a>Vue d'ensemble du budget 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Presque toutes les sociétés qui utilisent la fonctionnalité Finances dans Microsoft Dynamics 365 for Finance and Operations pourront créer des états budgétés et réels. Cet article décrit la configuration minimale requise pour créer des budgets dans Finance and Operations ou les charger dans un programme tiers.
 

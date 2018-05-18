@@ -27,7 +27,7 @@ ms.lasthandoff: 03/07/2018
 ---
 # <a name="leave-and-absence-management-overview"></a>Vue d'ensemble de la gestion des congés et des absences
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Le module **Gestion des congés et des absences** offre un cadre flexible pour définir le processus de gestion des absences. Des plans de congé et d'absence peuvent être créés pour déterminer la manière dont les employés accumulent ou se voient accorder des congés. Une fois les employés inscrits dans un plan, ils peuvent envoyer des demandes de congés pour approbation par les responsables. Le suivi des congés permet aux responsables de premier niveau et responsables des Ressources humaines (RH) de savoir qui prend des congés et de combien de congés chaque employé dispose toujours.  
 

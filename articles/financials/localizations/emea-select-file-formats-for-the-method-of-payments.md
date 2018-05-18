@@ -27,7 +27,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="file-formats-for-methods-of-payment"></a>Formats de fichier des modes de paiement
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit les deux méthodes d'obtention des formats de fichier que vous pouvez utiliser pour les modes de paiement.
 

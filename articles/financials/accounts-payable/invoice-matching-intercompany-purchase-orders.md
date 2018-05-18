@@ -28,7 +28,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a>Rapprochement de factures et commandes fournisseur intersociétés
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 L'entité juridique acheteuse impliquée dans une transaction commerciale intersociétés peut être paramétrée pour utiliser le rapprochement de factures d'Achats. Dans ce cas, les conditions de validation pour le commerce intersociétés et le rapprochement de factures d'Achats doivent être remplies pour que les factures fournisseur intersociétés puissent être validées.
 

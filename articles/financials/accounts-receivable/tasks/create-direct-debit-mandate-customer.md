@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-direct-debit-mandate-for-a-customer"></a>Créer un mandat de débit direct pour un client
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ce guide de tâche montre comment créer un mandat de débit direct et l'utiliser dans une facture.
 

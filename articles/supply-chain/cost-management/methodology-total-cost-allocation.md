@@ -29,7 +29,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="total-cost-allocation-method"></a>Méthode de répartition des coûts totaux
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique fournit des instructions pour utiliser la répartition des coûts totaux (RCT). La RCT est une méthode de calcul du coût entre l'élément de formule principal pour un lot de commandes et des coproduits définis pour la formule.
 

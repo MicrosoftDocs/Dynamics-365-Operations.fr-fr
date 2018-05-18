@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="sepa-credit-transfer-overview"></a>Vue d'ensemble des virements SEPA
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article fournit des informations générales sur les virements ISO 20022, notamment les virements SEPA (Single Euro Payments Area) et tous les autres moyens de paiement électronique des fournisseurs. Le virement SEPA est un type particulier de paiement en euros d'une société ou d'une personne à une société ou une autre personne. Cette rubrique explique également comment paramétrer et transmettre un fichier de paiement par virement.
 

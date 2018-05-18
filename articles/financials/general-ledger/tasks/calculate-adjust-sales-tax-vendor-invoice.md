@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="calculate-and-adjust-sales-tax-on-a-vendor-invoice"></a>Calculer et ajuster la taxe sur une facture fournisseur
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Si le document source d'origine affiche différents montants de taxe calculés, vous pouvez régler ces montants avant la validation. La société fictive DEMF est citée en exemple dans cette tâche.
 

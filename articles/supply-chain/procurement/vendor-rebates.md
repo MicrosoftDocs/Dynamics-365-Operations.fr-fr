@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 
 # <a name="vendor-rebates"></a>Remises fournisseur
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Les remises fournisseur aident au mieux les sociétés à gérer leurs programmes de remise fournisseur en automatisant les tâches nécessaires afin d'administrer, de suivre et de réclamer les remises dues.
 

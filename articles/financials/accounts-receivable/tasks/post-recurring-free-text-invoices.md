@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="generate-and-post-recurring-free-text-invoices"></a>Générer et valider les factures financières récurrentes
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Les factures récurrentes permettent de facturer les clients régulièrement pour le même compte. La société fictive USMF sert d'exemple dans cet enregistrement. L'enregistrement est destiné à la personne chargée de gérer et de traiter des factures de comptes clients.
 

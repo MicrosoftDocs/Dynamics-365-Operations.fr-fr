@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="set-up-workflows-for-expense"></a>Définir des workflows pour les dépenses
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
  Vous pouvez paramétrer un processus de workflow utilisé pour réviser et approuver les documents de déplacement et de dépenses. Les documents pour lesquels des workflows peuvent être définis incluent les états de dépenses, les demandes de voyage et les demandes d'avance de disponibilités.
 

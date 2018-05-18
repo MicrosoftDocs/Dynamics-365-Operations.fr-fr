@@ -3,12 +3,12 @@ title: Calculs de nomenclature
 description: "Les calculs de repositionnement des coûts et des prix de vente sont qualifiés de calculs de la nomenclature et vous pouvez les exécuter à partir de la page Calculs. Cette rubrique fournit des informations sur les calculs BOM."
 author: AndersGirke
 manager: AnnBe
-ms.date: 04/10/2017
+ms.date: 05/01/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion, InventItemPrice, SalesQuotationTable, SalesTable, SMAServiceOrderTable
+ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion, InventItemPrice
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
@@ -29,7 +29,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="bom-calculations"></a>Calculs de nomenclature
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Les calculs de repositionnement des coûts et des prix de vente sont qualifiés de calculs de la nomenclature et vous pouvez les exécuter à partir de la page Calculs. Cette rubrique fournit des informations sur les calculs BOM.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budget-control-overview"></a>Vue d'ensemble des contrôles budgétaires 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article présente le contrôle budgétaire et fournit des informations vous permettant de configurer le contrôle budgétaire dans Microsoft Dynamics 365 for Finance and Operations afin de pouvoir gérer les ressources financières.
 

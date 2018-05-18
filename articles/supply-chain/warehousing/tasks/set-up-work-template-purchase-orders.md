@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="set-up-a-work-template-for-purchase-orders"></a>Définir un modèle de travail pour les commandes fournisseur
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure consiste à réaliser le paramétrage d'un modèle de travail simple à utiliser pour le rangement des articles reçus. Les modèles de travail déterminent l'ensemble des instructions fournies à l'employé de l'entrepôt sur un appareil mobile lorsqu'il déplace des articles à partir de la zone de réception. Vous pouvez utiliser cette procédure avec les données fournies avec la société fictive de démonstration USMF. Avant de lancer ce guide, créez un ID de pool de travail. Dans cet exemple, on utilise un ID de pool de travail appelé Entrant. Cette procédure est destinée au gestionnaire d'entrepôts.
 

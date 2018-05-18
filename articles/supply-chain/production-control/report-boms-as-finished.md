@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="report-boms-as-finished"></a>Déclarer la fin des nomenclatures
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article fournit des informations sur les nomenclatures déclarées terminées
 

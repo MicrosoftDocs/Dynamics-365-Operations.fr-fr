@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="set-up-permissions-for-ordering-products-on-behalf-of-someone-else"></a>Paramétrer des autorisations permettant de commander des produits au nom d'un tiers
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure montre comment accorder à des collaborateurs l'autorisation de préparer des demandes d'achat au nom d'autres collaborateurs. En d'autres termes, un « préparateur » de demande d'achat peut créer une demande pour un autre « demandeur ». La procédure montre également comment accorder à un collaborateur une autorisation de commander des articles et des services dans différentes entités juridiques ou unités opérationnelles. Ces tâches sont généralement effectuées par un gestionnaire des achats. Vous pouvez utiliser cette procédure soit dans les données fictives de la société USMF soit dans vos propres données.
 

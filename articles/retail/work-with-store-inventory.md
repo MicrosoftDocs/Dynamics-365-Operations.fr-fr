@@ -28,7 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="manage-store-inventory"></a>Gérer le stock de magasin
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Cet article décrit les types de documents qui peuvent être utilisés pour gérer le stock.
 

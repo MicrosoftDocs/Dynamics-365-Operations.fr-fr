@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="waive-reinstate-or-reverse-interest-fees"></a>Exonération, rétablissement ou contrepassation de commissions d'intérêt
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article explique comment exonérer, rétablir, et contrepasser les frais pour les intérêts et les frais.
 

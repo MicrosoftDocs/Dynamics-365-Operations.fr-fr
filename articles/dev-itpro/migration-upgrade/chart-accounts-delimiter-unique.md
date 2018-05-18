@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="chart-of-accounts-delimiter-must-be-unique"></a>Le délimiteur du plan de comptes doit être unique
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dans Microsoft Dynamics AX 2012, vous pouviez utiliser le même délimiteur pour votre plan de comptes et les valeurs de dimension. Dans Dynamics 365 for Finance and Operations, vous ne pouvez pas avoir le même délimiteur pour le plan de comptes et les valeurs de dimension. Si un délimiteur est en double, vous pouvez le modifier après la mise à niveau. 
 

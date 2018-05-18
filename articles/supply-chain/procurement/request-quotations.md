@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="requests-for-quotation-rfqs"></a>Appels d'offre
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique fournit une vue d'ensemble des appels d'offre. Les organisations émettent des appels d'offre lorsqu'elles souhaitent comparer les offres de plusieurs fournisseurs pour les articles ou les services qu'elles doivent acheter. Dans une demande de devis, vous demandez aux fournisseurs d'indiquer les prix et les délais de livraison pour des quantités de produits que vous spécifiez.
 Vous pouvez également demander aux fournisseurs de spécifier s'il y a des frais accessoires, comme des frais de transport, ou si le fournisseur offre des remises pour les commandes importantes ou le paiement anticipé de la facture fournisseur.
@@ -57,8 +57,8 @@ Lorsque vous recevez des offres par courrier électronique, vous pouvez gérer c
 
 Si une deuxième itération d'une réponse d'un fournisseur est requise, sélectionnez **Retour** sur la page **Appel d'offre**. L'action Retour génère un nouveau journal et un état qui seront imprimés, archivés et envoyés conformément à vos paramètres d'impression.
 
-[!NOTE]
-Le nom de la page **Appel d'offre** a été modifiée. Dans les versions antérieures de Dynamics 365 for Finance and Operations, cette page était appelée **Réponse d'appel d'offre**.
+> [!NOTE]
+> Le nom de la page **Appel d'offre** a été modifiée. Dans les versions antérieures de Dynamics 365 for Finance and Operations, cette page était appelée **Réponse d'appel d'offre**.
 
 Si vous avez ajouté des critères de score à votre dossier d'appel d'offre, la demande de devis dispose d'un volet de score où vous pouvez saisir les scores. Tous les scores s'affichent sur l'appel d'offre lorsque vous comparez les réponses sur la page **Comparer les réponses**. Sur la page **Comparer les réponses**, vous pouvez également comparer les autres données de réponse, telles que le prix de la ligne, la date de livraison et le prix total.
 
@@ -126,8 +126,8 @@ Si vous souhaitez utiliser des codes motif d'une offre pour indiquer la raison p
 
 Sur la page **Paramétrage d'écran** du module Approvisionnements, vous pouvez configurer l'apparence de vos documents d'appel d'offre imprimés ou stockés.
 
-[!NOTE]
-Pour une configuration du secteur public, vous devez utiliser le processus d'avenant pour modifier un appel d'offre qui a déjà été envoyé. Lorsqu'un appel d'offre est envoyé, les champs sont verrouillés.
+> [!NOTE]
+> Pour une configuration du secteur public, vous devez utiliser le processus d'avenant pour modifier un appel d'offre qui a déjà été envoyé. Lorsqu'un appel d'offre est envoyé, les champs sont verrouillés.
 Par conséquent, pour apporter des modifications à l'appel d'offre, vous devez sélectionner **Créer** pour démarrer le processus d'avenant, comme décrit précédemment. Le comportement de verrouillage est contrôlé par l'option **Verrouiller les appels d'offre lorsqu'ils sont envoyés** dans la page **Paramètres d'approvisionnement**. Par défaut, ce paramètre est défini sur **Oui** et pour une configuration du secteur public, le paramètre par défaut ne peut pas être modifié. Par conséquent, bien que le processus d'avenant puisse être géré manuellement dans une configuration hors secteur public, il doit être utilisé pour une configuration du secteur public.
 
 Lorsque vous créez une demande de devis de type Commande fournisseur et ajoutez un article en stock à la demande de devis, un mouvement de stock ayant le statut de réception **Réception de devis** est également créé. Seules les lignes de demande de devis avec ce statut sont prises en compte lorsque vous utilisez un plan général pour calculer les approvisionnements. Si vous souhaitez que le plan général inclut les lignes de demande de devis comme une réception prévue, vous devez configurer ce comportement dans le paramétrage de la planification principale.

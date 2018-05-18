@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="work-breakdown-structures"></a>Structures de répartition du travail
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Une structure de répartition du travail (WBS) est une description du travail qui sera effectué pour un projet. Il s'agit d'une hiérarchie des tâches qui représente la compréhension par l'équipe projet de la composition du travail, de son étendue, du coût et de la durée de chaque composant ou tâche. Une WBS a trois objectifs principaux :
 

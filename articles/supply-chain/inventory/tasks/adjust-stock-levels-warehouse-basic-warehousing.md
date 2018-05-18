@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="adjust-stock-levels-in-the-warehouse-basic-warehousing"></a>Ajuster les niveaux des stocks dans l'entrepôt (entreposage de base)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure vous accompagne au long du processus de création et de validation d'un journal d'ajustement du stock afin d'ajuster les niveaux de stock des produits dans l'entrepôt. Avant de commencer, vous devez avoir configuré un nom de journal de stock pour les ajustements du stock. Vous pouvez parcourir cette procédure dans la société fictive USMF ou utiliser vos propres données. Ces tâches sont normalement effectuées par un employé de l'entrepôt.
 

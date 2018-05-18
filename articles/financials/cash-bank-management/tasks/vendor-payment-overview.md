@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="vendor-payment-overview"></a>Vue d'ensemble des paiements fournisseurs
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ce guide de tâche décrit diverses méthodes permettent de créer des paiements fournisseurs, notamment l'utilisation d'une proposition de paiement ou la saisie manuelle d'un paiement unique. La société fictive USMF sert d'exemple dans cette procédure.
 

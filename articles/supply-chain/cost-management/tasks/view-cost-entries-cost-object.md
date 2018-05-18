@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="view-cost-entries-for-a-cost-object"></a>Afficher les entrées de coût d'un objet de coût
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure décrit la manière d'afficher les entrées de coût pour un objet de coût. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Cette procédure est destinée au contrôleur de coûts.
 

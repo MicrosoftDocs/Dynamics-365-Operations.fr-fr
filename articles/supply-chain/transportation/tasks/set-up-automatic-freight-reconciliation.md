@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="set-up-automatic-freight-reconciliation"></a>Paramétrer le rapprochement automatique des frais de transport
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure indique comment paramétrer des données pour le rapprochement automatique des frais de transport. Elle est généralement effectuée par un gestionnaire d'entrepôt. Vous pouvez utiliser cette procédure dans les données fictives de la société USMF.
 

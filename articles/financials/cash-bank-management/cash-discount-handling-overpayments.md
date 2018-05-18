@@ -28,7 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="handling-cash-discounts-for-overpayments"></a>Traitement de l'escompte de règlement pour les trop-perçus
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article fournit des scénarios qui indiquent comment un paiement est assuré lorsque le client bénéficie d'un escompte de règlement tout en payant un montant supérieur. 
 

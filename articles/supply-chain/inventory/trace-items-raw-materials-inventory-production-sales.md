@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Suivi des articles et des matières premières dans le stock, la production et les ventes
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit la manière dont vous pouvez utiliser le suivi d'article pour identifier où les articles ou les matières premières ont été, sont ou seront utilisés dans les processus de production et de vente.
 

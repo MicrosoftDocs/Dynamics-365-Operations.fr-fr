@@ -26,7 +26,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="expense-management-parameters"></a>Paramètres de gestion des dépenses
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 -----------------------------
 

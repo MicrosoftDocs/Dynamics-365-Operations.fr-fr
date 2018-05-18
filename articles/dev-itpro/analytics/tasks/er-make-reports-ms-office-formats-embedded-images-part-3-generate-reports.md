@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="generate-reports-in-microsoft-office-formats-with-embedded-images"></a>Générer des états dans des formats Microsoft Office avec des images intégrées
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Les étapes suivantes expliquent comment un utilisateur jouant le rôle de « Administrateur système » ou de « Développeur d'états électroniques » peut créer des configurations d'états électroniques (ER) pour générer des documents électroniques au format MS Office (Excel et Word) contenant des images intégrées.
 

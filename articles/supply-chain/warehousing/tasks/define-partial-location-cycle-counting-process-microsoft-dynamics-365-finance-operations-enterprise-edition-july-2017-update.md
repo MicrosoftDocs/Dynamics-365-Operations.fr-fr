@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="define-partial-location-cycle-counting-process"></a>Définir le processus de comptage de cycle partiel d'emplacement 
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Lorsque vous utilisez des plans d'inventaire tournant pour créer le travail d'inventaire, vous pouvez guider les opérations d'inventaire réelles en demandant que seuls des produits et des variantes de produit spécifiques soient comptabilisés au lieu de l'ensemble du stock disponible dans l'emplacement. Lorsque vous appliquez un filtre sur des produits spécifiques, le gestionnaire d'entrepôt peut réduire les frais généraux de révision, éviter toute erreur de consolidation et gagner du temps. Généralement, un gestionnaire d'entrepôt effectue les tâches de paramétrage. Vous pouvez exécuter cette procédure avec la société fictive de démonstration USMF ou avec vos propres données.
 

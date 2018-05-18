@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="keyboard-shortcuts"></a>Raccourcis clavier
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Les raccourcis clavier suivants s'appliquent à l'ensemble de Dynamics 365 for Finance and Operations. 
 

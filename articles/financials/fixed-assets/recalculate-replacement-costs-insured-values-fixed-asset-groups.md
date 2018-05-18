@@ -27,7 +27,7 @@ ms.lasthandoff: 01/12/2018
 
 # <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Recalculer les coûts de remplacement et les valeurs assurées pour des groupes d'immobilisations
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article décrit le processus pour mettre à jour les coûts de remplacement et les valeurs assurées pour des immobilisations.
 

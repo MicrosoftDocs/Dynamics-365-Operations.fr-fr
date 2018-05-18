@@ -27,7 +27,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="show-order-notifications-in-the-point-of-sale"></a>Afficher les notifications dans le point de vente
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Dans l'environnement de vente au détail moderne, diverses tâches sont affectées aux associés du magasin, par exemple aider les clients, saisir des transactions, effectuer des inventaires et réceptionner les commandes en magasin. Le client du point de vente (PDV) fournit une application unique aux associés leur permettant d'effectuer toutes ces tâches et bien plus. Du fait que plusieurs tâches doivent être effectuées dans une journée, les associés peuvent devoir être informés lorsqu'un événement nécessite leur attention. L'infrastructure de notification dans le PDV permet aux détaillants de configurer des notifications basées sur les rôles. Dans Microsoft Dynamics 365 for Retail avec la mise à jour de l'application 5, ces notifications ne peuvent être configurées uniquement pour les opérations du PDV.
 

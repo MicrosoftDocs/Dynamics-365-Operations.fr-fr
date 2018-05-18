@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="generate-an-eu-sales-list-report"></a>Générer un état Liste des ventes intracommunautaires
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure vous guide dans la génération de l'état de la liste des ventes intracommunautaires. Cela inclut le transfert des transactions d'échanges intracommunautaires dans la liste des ventes intracommunautaires et l'exécution de l'état. Cette procédure inclut également la création d'une transaction d'échanges intracommunautaires à des fins de démonstration. Pour plus d'informations sur la déclaration de la liste des ventes intracommunautaires, notamment les conditions préalables requises, reportez-vous à l'aide de Dynamics 365 for Finance and Operations.
 

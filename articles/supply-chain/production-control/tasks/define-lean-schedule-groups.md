@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="define-lean-schedule-groups"></a>Définir les groupes de calendriers de production au plus juste
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Les groupes de calendriers de production au plus juste sont définis pour regrouper et distinguer les produits dans le calendrier kanban. Le regroupement peut être effectuée comme l'association générique par société ou être spécifique à une cellule de travail. Chaque groupe est doté d'un code couleur pour l'indication visuelle dans la page de liste de calendrier kanban. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 

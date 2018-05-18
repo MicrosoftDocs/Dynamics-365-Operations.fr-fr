@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="welcome-to-microsoft-dynamics-365-for-talent"></a>Bienvenue dans Microsoft Dynamics 365 for Talent
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Le module Microsoft Dynamics 365 for Talent simplifie de nombreuses tâches d'archivage de routine et automatise un certain nombre de processus liés à la dotation en personnel de votre organisation. Ces processus incluent la rétention des employés, l'administration des avantages, la formation, les évaluations des performances et la gestion des modifications. Il fournit également un cadre permettant au personnel des ressources humaines d'assurer une supervision appropriée.
 

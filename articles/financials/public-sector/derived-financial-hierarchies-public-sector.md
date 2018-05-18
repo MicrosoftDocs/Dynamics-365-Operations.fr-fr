@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="derived-financial-hierarchies-in-the-public-sector"></a>Hiérarchies financières dérivées dans le secteur public
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article décrit la fonctionnalité des hiérarchies financières dérivées disponible pour le secteur public. 
 

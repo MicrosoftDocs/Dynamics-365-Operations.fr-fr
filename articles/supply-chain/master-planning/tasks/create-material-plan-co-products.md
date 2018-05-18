@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-material-plan-for-co-products"></a>Créer un plan matières pour des coproduits
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Le responsable de production organise les besoins en matières pour les articles qui sont des coproduits de formules. La société fictive de démonstration utilisée pour créer cette procédure est USP2.
 

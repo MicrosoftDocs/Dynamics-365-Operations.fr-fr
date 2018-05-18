@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="specify-a-lading-address-for-an-intra-community-transaction"></a>Spécifier une adresse de chargement pour une transaction intracommunautaire
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure indique comment spécifier une adresse de chargement pour une transaction d'échanges intracommunautaires. Par exemple, une société allemande commande des articles auprès d'un fournisseur ayant une adresse professionnelle allemande. Ce fournisseur a un entrepôt en Italie et expédie les articles depuis cet emplacement. Cette livraison doit être portée dans la déclaration d'échanges de biens. Le même comportement est valide pour les retours client.
 Cette procédure s'applique à tous les pays/régions européens. La tâche a été créée avec les données de démonstration de la société fictive DEMF, avec une adresse principale en Allemagne. Avant d'exécuter cette procédure, vous devez configurer la génération d'états de déclaration d'échanges de biens. Cette procédure est destinée aux comptables. Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.

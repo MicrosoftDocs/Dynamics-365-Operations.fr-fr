@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="create-required-configurations-to-import-data-from-an-external-file-for-electronic-reporting-er"></a>Créer des configurations requises pour importer des données à partir d'un fichier externe pour la génération d'états électroniques (ER)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Les étapes suivantes expliquent comment un utilisateur dont le rôle est Administrateur système ou Développeur d'états électroniques peut concevoir des configurations de format pour la génération d'états électroniques (ER) pour importer des données dans une application Dynamics 365 for Finance and Operations à partir d'un fichier externe. Dans cet exemple, vous allez créer les configurations ER requises pour l'exemple de société, Litware, Inc. Pour effectuer ces étapes, vous devez d'abord effectuer les étapes du Guide de tâche, « ER Créer un fournisseur de configuration et le marquer comme actif. » Ces étapes peuvent être effectuées à l'aide de l'ensemble de données USMF. Vous devez également télécharger et enregistrer localement les fichiers suivants à l'aide des liens de la rubrique Vue d'ensemble des états électroniques (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.
 

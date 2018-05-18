@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>Rechercher les prix et remises applicables
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure décrit comment rechercher le prix ou la remise pour un produit qui est actuellement valide pour un client spécifique, sans créer de commande client. La procédure décrit un exemple spécifique et vous devez suivre l'exemple à l'aide de la société de démonstration USMF afin de sélectionner les valeurs nécessaires.
 

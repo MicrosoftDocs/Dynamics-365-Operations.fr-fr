@@ -27,7 +27,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="chronological-invoice-and-voucher-numbers-for-france"></a>Numéros de facture et de document chronologiques pour la France
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique explique comment paramétrer et utiliser des numéros chronologiques pour les factures et les documents dans la comptabilité client pour les entités juridiques en France.  
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-sales-orders"></a>Créer une commande client
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure vous indique comment créer une commande client. Vous pouvez utiliser cette procédure dans les données de démonstration de la société fictive USMF. Les commandes client sont généralement créées par un préparateur de commandes client. 
 

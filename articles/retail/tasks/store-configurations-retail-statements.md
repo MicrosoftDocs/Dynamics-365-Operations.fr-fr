@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="store-configurations-for-retail-statements"></a> Enregistrer les configurations pour les relevés de vente au détail
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Cette procédure illustre les configurations du magasin de vente au détail qui affectent la manière dont les relevés de vente au détail sont créés et validés. Les dimensions financières pour les magasins de vente au détail sont traitées dans une autre procédure. La société fictive USRT sert d'exemple dans cette procédure.
 

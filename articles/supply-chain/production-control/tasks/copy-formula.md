@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="copy-a-formula"></a>Copier une formule
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure se focalise sur la création d'une formule incluant les mêmes ingrédients qu'une formule existante, mais avec des différences mineures. Pour créer les lignes de la formule, vous pouvez utiliser la fonction Copie pour copier une formule existante qui a la plupart des ingrédients dont vous avez besoin. Vous pouvez ensuite effectuer toutes les modifications nécessaires aux différentes lignes dans la nouvelle version. En utilisant la fonction Copie, il n'est pas nécessaire de créer plusieurs formules qui sont presque identiques. La société fictive de démonstration utilisée pour créer cette tâche est USP2.
 

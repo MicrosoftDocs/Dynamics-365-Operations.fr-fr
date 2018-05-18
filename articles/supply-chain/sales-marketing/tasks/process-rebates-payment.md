@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="process-rebates-for-payment"></a>Traiter les remises pour le paiement
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure illustre comment convertir des remises client approuvées et traitées en avoirs. Vous pouvez utiliser ce guide à l'aide de la société USMF fictive. La condition préalable à ce guide est d'avoir une ou plusieurs réclamations de remise qui présentent le statut Marquer. Si vous utilisez USMF, vous devez exécuter le guide « Générer et traiter les remises client » avant de lancer ce guide.
 

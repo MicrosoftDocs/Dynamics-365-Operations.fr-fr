@@ -24,7 +24,7 @@ ms.lasthandoff: 11/20/2017
 ---
 # <a name="create-a-requisition-for-consumption"></a>Créer un bon de commande pour la consommation
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure décrit le processus de création d'une demande. Elle vous indique les différentes manières de rechercher des produits dans votre catalogue d'approvisionnement et comment ajouter un produit qui n'est pas dans votre catalogue. Avant de démarrer cette procédure, vous devez avoir un paramétrage de stratégie d'achat avec Consommation comme type de demande par défaut. Vous pouvez parcourir cette procédure dans la société fictive USMF ou utiliser vos propres données. La procédure peut uniquement être réalisée par un profil utilisateur qui est paramétré en tant que collaborateur.  Cette tâche serait normalement réalisée par un employé. Le rôle de sécurité Employé vous permettra d'effectuer les tâches, ou si vous utilisez USMF, vous pouvez vous connecter en tant qu'Alicia.
 

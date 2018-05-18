@@ -28,7 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="intercompany-accounting-setup"></a>Paramétrage de la comptabilité intersociétés
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit la procédure de paramétrage de la comptabilité intersociétés afin de pouvoir utiliser les journaux intersociétés pour les répartitions comptables et les journaux financiers, tels que les journaux, les journaux de factures fournisseurs, et les journaux des paiements d'opérations diverses.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="compare-active-estimated-and-realized-costs-on-a-production-order"></a>Comparer les coûts actifs, estimés et exécutés sur un ordre de fabrication
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure permet d'afficher les motifs pour l'écart élevé de production pour un ordre de fabrication. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Cette procédure est destinée au contrôleur de coûts.
 

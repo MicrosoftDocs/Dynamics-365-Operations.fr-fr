@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="allocate-a-project-budget-or-budget-revision-across-periods"></a>Répartition d'un budget de projet ou d'une révision budgétaire sur plusieurs périodes
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
  Vous pouvez répartir les montants sur plusieurs périodes après avoir entré un budget de projet ou une révision budgétaire de projet, et avant de la soumettre pour approbation. Si le budget ou la révision budgétaire est rejeté, vous pouvez également répartir les montants avant de la resoumettre. 
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="identify-and-resolve-conflicts-in-segregation-of-duties"></a>Identifier et résoudre les conflits de répartition des tâches
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Vous pouvez configurer des règles sur des tâches séparées qui doivent être effectuées par les utilisateurs. Ce concept est appelé répartition des tâches. Lorsque la définition d'un rôle de sécurité ou les affectations de rôle d'un utilisateur violent les règles, le conflit est consigné. Tous les conflits doivent être résolus par l'administrateur. Procédez comme suit pour identifier et résoudre les conflits. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 

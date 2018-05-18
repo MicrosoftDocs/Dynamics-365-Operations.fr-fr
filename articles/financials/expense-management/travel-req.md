@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="travel-requisitions"></a>Demandes de déplacement
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Une *demande de déplacement* est un document source qui répertorie les dépenses qui seront engagées dans le cadre d'un déplacement. Une demande de voyage est soumise à la révision et peut ensuite être utilisée pour autoriser des dépenses.
 

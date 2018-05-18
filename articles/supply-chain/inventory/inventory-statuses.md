@@ -28,7 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="inventory-statuses"></a>Statuts du stock
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article décrit la manière dont vous pouvez utiliser les statuts du stock pour classer et faire le suivi du stock.
 

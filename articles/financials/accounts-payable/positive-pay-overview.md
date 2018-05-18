@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="positive-pay-overview"></a>Vue d'ensemble des paiements positifs
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article fournit des informations sur le paiement positif qui est utilisé pour générer une liste électronique de chèques devant être présentés à la banque. 
 

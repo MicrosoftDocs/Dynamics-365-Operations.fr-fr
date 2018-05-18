@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-batch-attributes-for-a-product"></a>Créer les attributs de lot pour un produit
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure décrit comment créer un attribut de lot, affecter des plages de valeur par défaut et inclure l'attribut à un groupe. La société fictive de démonstration utilisée pour créer cette procédure s'appelle USP2.
 

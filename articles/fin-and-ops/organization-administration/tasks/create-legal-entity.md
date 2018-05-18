@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-legal-entity"></a>Créer une entité juridique
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Une entité juridique est une organisation identifiée par son enregistrement auprès d'une autorité juridique. Les entités juridiques peuvent passer des contrats et sont tenues de préparer des relevés faisant état de leurs performances. Les procédures suivantes expliquent comment créer une entité juridique. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 

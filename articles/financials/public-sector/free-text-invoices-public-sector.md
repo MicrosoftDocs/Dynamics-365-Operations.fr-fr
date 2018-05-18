@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="free-text-invoices-in-the-public-sector"></a>Factures financières dans le secteur public
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit la fonctionnalité de facture financière disponible pour le secteur public et répond aux questions courantes sur l'utilisation des classifications de facturation et des codes de facturation avec les factures financières.
 

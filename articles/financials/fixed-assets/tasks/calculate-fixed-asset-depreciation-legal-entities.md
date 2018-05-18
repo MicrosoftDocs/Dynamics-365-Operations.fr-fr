@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="calculate-fixed-asset-depreciation-across-legal-entities"></a>Calculer l'amortissement des immobilisations dans les entités juridiques
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 L'amortissement d'immobilisation peut être exécuté dans les entités juridiques en une seule étape. Cette procédure décrit comment paramétrer et exécuter le processus pour plusieurs entités juridiques. Elle utilise le rôle de comptable.  
 

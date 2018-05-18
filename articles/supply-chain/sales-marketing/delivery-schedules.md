@@ -28,7 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="delivery-schedules"></a>Plans de livraison
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Les plans de livraison vous permettent de suivre la quantité sur la ligne de commande lorsque vous effectuez plusieurs livraisons pour une seule commande client, un devis de vente ou une commande fournisseur.
 

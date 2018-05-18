@@ -28,7 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="set-up-centralized-payments"></a>Paramétrage de paiements centralisés
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette procédure permet de préparer le traitement des paiements dans une entité juridique au nom d'autres entités juridiques de votre organisation. Avant de commencer, vous devez effectuer les procédures de paramétrage suivantes :
 

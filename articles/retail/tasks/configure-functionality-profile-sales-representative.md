@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="configure-the-functionality-profile-for-a-sales-representative"></a> Configurer le profil de fonctionnalité pour un commercial
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Cette procédure illustre comment configurer les paramètres du profil de fonctionnalité d'un magasin qui s'appliquent aux commerciaux. La société fictive USRT sert d'exemple dans cette procédure.
 

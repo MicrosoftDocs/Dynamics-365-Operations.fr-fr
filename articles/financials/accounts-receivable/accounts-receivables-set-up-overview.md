@@ -28,7 +28,7 @@ ms.lasthandoff: 11/14/2017
 
 # <a name="configure-accounts-receivables-and-credit-and-collections"></a>Configuration des modules Comptabilité client et Crédit et relances
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Configurez la Comptabilité client et les Crédit et relances pour assurer le suivi des factures et des paiements entrants des clients.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="design-configurations-to-generate-reports-in-microsoft-office-formats-with-embedded-images"></a>Concevoir des configurations pour générer des états dans des formats Microsoft Office avec des images intégrées
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Pour réaliser les étapes de cette procédure, commencez par effectuer la procédure, « ER Créer un fournisseur de configuration et le marquer comme actif ». Cette procédure explique comment créer des configurations d'états électroniques pour générer un document Microsoft Excel ou Word contenant des images intégrées. Dans cette procédure, vous créerez les configurations d'états électroniques requises pour la société fictive, Litware, Inc. Ces étapes peuvent être effectuées à l'aide de l'ensemble de données USMF. Cette procédure est créée pour les utilisateurs auxquels le rôle Administrateur système ou Développeur d'états électroniques a été affecté. Avant de commencer, téléchargez et enregistrez les fichiers répertoriés dans la rubrique d'aide [Intégrer des images et des formes dans les documents commerciaux générés à l'aide de l'outil de gestion d'états électroniques](../electronic-reporting-embed-images-shapes.md). Les fichiers sont : Modèle pour les chèques.xml, Format d'impression des chèques.xml, Logo de société.png, Image de signature.png, Image de signature 2.png et Modèle de chèque Word.docx.
 

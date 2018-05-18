@@ -28,7 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="action-messages"></a>Messages d'action
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Un message d'action est une suggestion générée par le système visant à modifier un ordre prévisionnel ou confirmé existant.
 

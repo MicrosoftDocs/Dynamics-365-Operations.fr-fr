@@ -28,7 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="letters-of-guarantee"></a>Lettres de garantie
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article fournit des informations sur les lettres de garantie. Dans une lettre de garantie, une banque s'engage à payer une somme d'argent spécifique à une personne si l'un des clients de la banque ne règle pas un paiement ou une obligation au bénéficiaire. 
 

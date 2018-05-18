@@ -29,9 +29,9 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="lifo-with-physical-value-and-marking"></a>LIFO avec valeur physique et marquage
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Dernier entré, premier sorti (Last In, First Out ou LIFO) est un modèle de stock dans lequel les dernières réceptions sont sorties en premier. Les sorties de stock sont réglées avec les dernières réceptions, en fonction de la date du mouvement de stock. 
 

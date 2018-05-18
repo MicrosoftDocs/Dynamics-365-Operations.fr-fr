@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="process-collection-letters"></a>Traiter les lettres de relance
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure indique comment créer, imprimer, et valider les lettres de relance. La société fictive USMF est citée en exemple dans cette tâche.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="company-directory-mobile-workspace"></a>Espace de travail mobile Répertoire de la société
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique fournit des informations sur l'espace de travail mobile **Répertoire de la société**. Cet espace de travail permet de visualiser et de contacter d'autres employés de l'organisation.
 

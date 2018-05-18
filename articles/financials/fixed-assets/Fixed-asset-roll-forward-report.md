@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="fixed-assets-roll-forward-report"></a>État Récupération d'immobilisations
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 L'état **Récupération d'immobilisations** fournit, dans un format Microsoft Excel facile à lire, des données détaillées sur les immobilisations qui sont nécessaires pour la clôture de période, les tableaux d'analyse et la déclaration de taxe. L'état inclut les soldes de début et de fin des immobilisations, ainsi que les mouvements d'évaluation pour la période et les nouvelles acquisitions et cessions d'immobilisation au cours de la période. Les données sont fournies pour des immobilisations individuelles, et les valeurs sont également résumées pour les groupes d'immobilisations et l'entité juridique.
 

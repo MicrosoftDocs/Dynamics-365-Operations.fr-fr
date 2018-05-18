@@ -29,7 +29,7 @@ ms.lasthandoff: 03/07/2018
 
 # <a name="retail-statements"></a>Relevés de la vente au détail
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Dans Microsoft Dynamics 365 for Retail, le processus de validation des relevés est utilisé pour comptabiliser les transactions qui ont lieu dans le point de vente (PDV) du cloud ou le Modern POS (MPOS). Le processus de validation des relevés utilise le programme de distribution pour extraire un ensemble de transactions de PDV au siège du client. Les paramètres définis sur les pages **Paramètres des ventes au détail** et **Magasins** permettent de sélectionner les transactions qui sont extraites dans des relevés individuels.  
 

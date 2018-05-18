@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-delivery-schedule"></a>Créer un plan de livraison
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure illustre comment créer un calendrier de livraison pour une commande client. Un plan de livraison est utilisé lorsqu'une quantité sur une commande ou un devis doit être livrée dans le cadre de plusieurs expéditions. Vous pouvez exécuter cette procédure dans la société fictive de démonstration USMF ou utiliser vos propres données.
 

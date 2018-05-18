@@ -27,7 +27,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="eu-entry-certificates"></a>Certificat d'entrée dans l'UE
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article fournit des informations sur les certificats d'entrée dans l'Union européenne (UE).
 

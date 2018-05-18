@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="expense-management"></a>Gestion des dépenses
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Utilisez le module Gestion des dépenses pour créer un workflow intégré dans lequel vous pouvez stocker les informations de mode de paiement, importer les transactions de carte de crédit et effectuer un suivi de l'argent dépensé par les employés lorsqu'ils exposent leurs dépenses. Vous pouvez également définir des stratégies de dépenses et automatiser le remboursement des frais de déplacement. 
 

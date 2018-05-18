@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="vat-reporting-for-europe"></a>Déclaration de TVA pour l'Europe
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique fournit des informations générales sur le paramétrage et la génération de la déclaration de TVA pour certains pays européens.
 

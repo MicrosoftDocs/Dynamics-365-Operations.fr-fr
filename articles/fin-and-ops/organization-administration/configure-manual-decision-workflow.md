@@ -27,7 +27,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="configure-a-manual-decision-in-a-workflow"></a>Configurer une décision manuelle dans un workflow
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique explique comment configurer les différentes propriétés d'une décision manuelle.
 

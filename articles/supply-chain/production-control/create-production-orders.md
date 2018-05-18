@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="create-production-orders"></a>Créer des ordres de fabrication
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Lors de la création d'un ordre de fabrication, une demande de lancement de fabrication d'un article est effectuée. L'ordre de fabrication contient des informations sur l'article à fabriquer, la quantité à fabriquer, ainsi que la date de fin de fabrication prévue. Il inclut également des informations sur les matières à consommer et quel processus suivre pour produire l'article.
 

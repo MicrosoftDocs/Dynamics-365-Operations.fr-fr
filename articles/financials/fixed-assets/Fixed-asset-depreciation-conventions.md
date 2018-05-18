@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="fixed-asset-depreciation-conventions"></a>Conventions d'amortissement des immobilisations
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Les conventions d'amortissement sont utilisées pour déterminer quand et comment l'amortissement est calculé pour l'année où l'immobilisation est acquise et l'année où l'immobilisation est cédée.
 

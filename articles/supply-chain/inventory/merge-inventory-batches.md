@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="merge-inventory-batches"></a>Fusionner les traitements par lots de stock
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article fournit des informations sur la manière de consolider au moins deux traitements par lots de stock dans un traitement par lots fusionné.
 

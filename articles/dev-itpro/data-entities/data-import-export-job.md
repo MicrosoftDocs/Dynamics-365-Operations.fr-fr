@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="data-import-and-export-jobs"></a>Tâches d'importation et d'exportation de données
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Pour créer et gérer des tâches d'importation et d'exportation de données dans Microsoft Dynamics 365 for Finance and Operations, utilisez l'espace de travail **Gestion des données**. Par défaut, le processus d'importation et d'exportation de données crée une table intermédiaire pour chaque entité dans la base de données cible. Les tables intermédiaires permettent de vérifier, nettoyer ou convertir des données avant de les déplacer.
 

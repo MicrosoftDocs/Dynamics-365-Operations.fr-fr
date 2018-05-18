@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="configure-settlement"></a>Configurer un règlement
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 La manière et le moment où les transactions sont réglées peuvent être des sujets complexes. Il est donc essentiel que vous compreniez et définissiez correctement les paramètres afin de répondre à vos exigences métier. Cet article décrit les paramètres utilisés pour le règlement de la Comptabilité fournisseur et de la Comptabilité client. 
 

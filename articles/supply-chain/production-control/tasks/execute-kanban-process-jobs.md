@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="execute-kanban-process-jobs"></a>Exécuter les opérations de traitement du kanban
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure se concentre sur l'exécution des tâches de traitement de kanban. La première tâche est terminée avec la quantité prévue et il n'y a pas d'erreurs. La deuxième tâche est exécutée avec des erreurs. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Cette procédure est destinée à l'opérateur.
 

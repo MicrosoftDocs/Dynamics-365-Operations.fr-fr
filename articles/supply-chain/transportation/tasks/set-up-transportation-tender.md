@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="set-up-a-transportation-tender"></a>Paramétrer une offre de transport
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure décrit comment paramétrer une offre de transport. Cette opération est généralement réalisée par un coordinateur transport. Vous pouvez utiliser cette procédure dans les données fictives de la société USMF.
 

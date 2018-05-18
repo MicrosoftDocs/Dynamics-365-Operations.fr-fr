@@ -27,7 +27,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="sales-and-marketing"></a>Ventes et marketing
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Vous pouvez faire appel à ce module pour obtenir, stocker et utiliser différents types de données dans le cadre du flux commercial. Ces données vont de l'initiative commerciale de départ aux futures ventes réalisées, en passant par les actions de suivi.
 

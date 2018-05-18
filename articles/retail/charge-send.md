@@ -28,7 +28,7 @@ ms.lasthandoff: 03/05/2018
 
 # <a name="ship-an-order-from-a-different-store"></a>Expédier une commande depuis un autre magasin
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Avec la fonction Facturer l'envoi de Dynamics 365 for Retail, les commandes client peuvent être passées dans un magasin et expédiées depuis un autre magasin. Les commandes client du point de vente (PDV) prennent en charge les plusieurs options d'exécution. Parmi les options d'exécution de commande notons :
 -   Prélèvement dans le même magasin à une date différente.

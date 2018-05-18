@@ -25,7 +25,7 @@ ms.lasthandoff: 02/13/2018
 
 ---
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 # <a name="product-confirmation-for-cluster-picking"></a>Confirmation de produit pour la sélection du groupement
 La sélection du groupement vous permet de regrouper des articles pour plusieurs commandes simultanément. Lorsque la sélection du groupement est appliqué, la confirmation d'article est cruciale pour vérifier les articles qui sont ajoutés aux clusters. Vous pouvez vérifier les articles de la sélection du groupement lors du processus de sélection du groupement.

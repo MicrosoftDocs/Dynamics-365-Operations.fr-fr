@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="budget-planning-overview"></a>Vue d'ensemble de la planification de budget
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article présente la planification budgétaire et contient des informations qui vous aident à configurer la planification budgétaire et à paramétrer ses processus.
 

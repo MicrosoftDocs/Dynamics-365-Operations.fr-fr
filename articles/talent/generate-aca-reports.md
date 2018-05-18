@@ -26,7 +26,7 @@ ms.lasthandoff: 03/07/2018
 ---
 # <a name="generate-affordable-care-act-reports"></a>Générer des états sur la Loi sur les soins abordables
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 La fonctionnalité est disponible pour aider les employeurs qui ont besoin de suivre les informations déclarées dans les formulaires 1095-B et 1095-C à l'appui de la partie **Mandat de l'employeur** de la Loi sur les soins abordables. Notez que cette fonctionnalité est uniquement activée pour les entités juridiques aux États-Unis.
 

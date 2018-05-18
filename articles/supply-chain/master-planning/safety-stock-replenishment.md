@@ -29,7 +29,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="safety-stock-fulfillment-for-items"></a>Traitement du stock de sécurité pour les articles
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Le stock de sécurité est une quantité supplémentaire d'un article détenu en stock afin de réduire le risque de rupture de stock de l'article. Le stock de sécurité est utilisé comme stock tampon dans le cas où des commandes client arrivent et que le fournisseur ne peut pas livrer les articles supplémentaires pour respecter la date d'expédition demandée par le client. Si le stock de sécurité est utilisé pour exécuter une commande client, il est réduit. Vous pouvez utiliser le module Planification pour ramener automatiquement le stock au niveau de sécurité.    
 

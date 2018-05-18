@@ -28,7 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Prélever un escompte de règlement en dehors de la période d'escompte de règlement
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article fournit deux scénarios qui indiquent comment un escompte de règlement peut être pris même si le paiement est effectué en dehors de la période d'escompte de règlement.
 

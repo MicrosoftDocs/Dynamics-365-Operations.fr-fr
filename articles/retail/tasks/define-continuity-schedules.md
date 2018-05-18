@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-continuity-schedules"></a> Définir les programmes périodiques
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Cette rubrique vous guide dans le paramétrage d'un programme périodique (également appelé commandes récurrentes). Elle utilise la société USRT dans les données de démonstration.
 

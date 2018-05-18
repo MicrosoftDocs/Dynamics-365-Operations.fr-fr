@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="use-the-excel-add-in"></a>Utiliser le module complémentaire Excel
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique explique comment ouvrir des données d'entité dans Microsoft Excel, puis les étudier, les mettre à jour et les modifier à l'aide du module complémentaire Microsoft Dynamics Office pour Excel. Pour ouvrir les données d'entité, vous pouvez utiliser Excel ou Microsoft Dynamics 365 for Finance and Operations.
 

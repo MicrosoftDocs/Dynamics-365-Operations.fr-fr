@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="hire-an-existing-employee-through-recruiting"></a>Embaucher un employé existant via le recrutement
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Les postes vacants peuvent parfois être remplis par des candidats déjà employés de votre organisation. Cette procédure décrit les étapes pour embaucher un employé existant dans le processus de recrutement. Dans cette procédure, un projet de recrutement a déjà été paramétré, et un employé existant a déjà envoyé une candidature pour le projet de recrutement. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 

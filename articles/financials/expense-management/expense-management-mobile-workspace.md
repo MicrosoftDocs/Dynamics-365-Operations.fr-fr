@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="expense-management-mobile-workspace"></a>Espace de travail mobile pour la gestion des dépenses
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique fournit des informations sur l'espace de travail mobile **pour la gestion des dépenses**. Cet espace de travail permet aux utilisateurs de capturer et charger une réception, afin de pouvoir l'associer à un état de dépenses ultérieurement. Les utilisateurs peuvent également créer rapidement une ligne de dépense à l'aide d'un reçu joint, puis créer et gérer leurs états de dépenses. En outre, les approbateurs peuvent utiliser l'espace de travail mobile de **gestion des dépenses** pour afficher les états de dépenses qui leur sont affectés, et d'approuver ou de rejeter ces états de dépenses.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="cost-object-dimensions"></a>Dimensions d'objets de coût
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Lorsque vous analysez les coûts, vous utilisez des dimensions d'élément de coût pour déterminer le flux des coûts. Vous utilisez les dimensions d'objet de coût pour déterminer où vous devez affecter des coûts. Cette rubrique fournit des informations sur les dimensions d'objet de coût.
 

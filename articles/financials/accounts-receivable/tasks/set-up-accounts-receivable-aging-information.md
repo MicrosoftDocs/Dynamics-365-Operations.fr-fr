@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="set-up-and-generate-accounts-receivable-aging-information"></a>Paramétrer et générer des informations sur la plage âgée de la comptabilité client
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ce guide vous aidera à paramétrer une définition de plage âgée, des soldes client échus et à afficher des soldes dans la liste Solde échu et sur la page Recouvrement. La société fictive USMF sert d'exemple dans cet enregistrement.
 

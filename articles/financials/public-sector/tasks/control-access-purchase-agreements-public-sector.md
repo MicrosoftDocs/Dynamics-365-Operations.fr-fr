@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="control-access-to-purchase-agreements-in-the-public-sector"></a>Contrôler l'accès aux contrats d'achat dans le secteur public
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Vous pouvez vous assurer que seuls les départements approuvés peuvent accéder à un contrat d'achat. Vous pouvez également limiter le montant que chaque département peut dépenser dans le cadre du contrat d'achat. Pour ce faire, la structure de compte et les dimensions financières pour l'accès au département doivent être définies dans l'écran Paramètres de la comptabilité fournisseur. Cette procédure a été créée pour les organisations du secteur public français, en utilisant les données de la société fictive PSUS dans la partition du secteur public.
 

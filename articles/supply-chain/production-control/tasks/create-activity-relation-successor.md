@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-activity-relation-successor"></a>Créer une relation d'activité : Successeur
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Le flux des activités dans un flux de production lean est documenté via les relations d'activités. Cet enregistrement indique comment créer une relation d'activité.
 

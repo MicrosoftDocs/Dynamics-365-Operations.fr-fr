@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="per-diem-rules"></a>Règles d'indemnités journalières
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Une *indemnité journalière* est une indemnité payée à un travailleur qui est en déplacement dans le cadre de son travail. Dans Gestion des dépenses, vous pouvez créer des règles d'indemnités journalières pour différents cas de déplacements. Les taux d'indemnités journalières peuvent être basés sur la période de l'année ou sur la destination du déplacement, voire sur les deux. Lorsque vous créez une règle d'indemnité journalière, vous pouvez indiquer qu'un pourcentage du taux d'indemnité journalière soit retenu si un travailleur reçoit des repas ou des services gratuits. Vous pouvez également définir un nombre d'heures minimal et maximal pendant lequel s'applique le taux d'indemnité journalière dans le cadre du déplacement d'un travailleur.
 

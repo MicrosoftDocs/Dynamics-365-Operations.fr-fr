@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-and-assign-a-cost-behavior-policy-to-a-cost-control-unit"></a>Créer et affecter une stratégie de comportement des coûts à une unité de contrôle des coûts
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Le comportement de coûts est la classification des coûts comme fixe ou variable. Une stratégie et les règles correspondantes doivent être affectées à une unité de contrôle des coûts pour que la stratégie prenne effet. Utilisez cette procédure pour créer une stratégie et l'affecter à une unité de contrôle des coûts.
 

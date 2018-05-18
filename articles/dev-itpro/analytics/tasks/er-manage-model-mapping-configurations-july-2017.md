@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="manage-model-mapping-configurations-for-electronic-reporting-er"></a>Gérer des configurations de mappage de modèle pour la gestion des états électroniques (ER)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Les étapes suivantes expliquent comment un utilisateur affecté au rôle d'administrateur système ou de développeur d'états électroniques peut gérer des mises en correspondance de modèle d'états électroniques dans des configurations ER distinctes. Dans ce guide de tâche, vous allez créer les configurations ER requises pour l'exemple de société, Litware, Inc. Pour réaliser les étapes de ce guide de tâche, vous devez d'abord effectuer les étapes du guide de tâche, « ER Créer un fournisseur de configuration et le marquer comme actif ». 
 

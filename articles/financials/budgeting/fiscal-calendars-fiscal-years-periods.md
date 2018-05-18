@@ -28,7 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>Calendriers fiscaux, exercices et périodes
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article présente des calendriers fiscaux, des exercices et des périodes et la manière de les utiliser pour les entités juridiques, les immobilisations et la budgétisation.
 

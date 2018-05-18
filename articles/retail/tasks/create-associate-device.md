@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-and-associate-a-device"></a> Créer et associer un périphérique
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Cette procédure décrit comment créer un périphérique et l'associer à une caisse enregistreuse. On suppose que la caisse enregistreuse est déjà créée.  Cette tâche utilise la société USRT dans les données de démonstration. Cette tâche est destinée aux administrateurs, professionnels de l'informatique ou responsables informatiques de la vente au détail, ainsi qu'au rôle Directeur de magasin.
 

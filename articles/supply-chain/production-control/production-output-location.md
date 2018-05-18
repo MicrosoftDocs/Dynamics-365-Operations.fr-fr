@@ -27,7 +27,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="production-output-location"></a>Emplacement de la sortie de production
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit la hiérarchie utilisée pour identifier l'emplacement de sortie de production.
 

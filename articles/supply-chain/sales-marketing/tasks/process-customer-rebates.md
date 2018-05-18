@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="generate-and-process-customer-rebates"></a>Générer et traiter les remises client
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure illustre comment traiter les remises client de la génération de la réclamation à l'étape pendant laquelle elles passent en régularisations à la comptabilité client. Elle présente un exemple spécifique pour expliquer la manière dont les différentes conditions sur les lignes de remise affectent les montants finaux qui sont crédités sur le client. Vous devez utiliser la société de données de démonstration USMF, puis effectuer les tâches suivantes avant de commencer le guide : (1) Accédez à la page Paramètres comptabilité et développez l'onglet Prix, puis l'onglet Détails de prix, et vérifier que l'option Activer les détails de prix est définie sur Oui. (2) Accédez à la page Accords de remise et sélectionnez l'accord de remise du client : USMF-000001. Si le champ Statut de l'approbation du workflow n'est pas défini sur Approuvé, vous devez cliquez sur Validation sur le volet Action pour l'approuver.
 

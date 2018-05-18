@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="excel-templates-with-multiple-worksheets"></a>Modèles Excel avec plusieurs feuilles de calcul
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 La gestion des données dans Microsoft Dynamics 365 for Finance and Operations prend en charge les modèles Microsoft Excel pour les entités de données. Ces modèles peuvent contenir une ou plusieurs feuilles de calcul. Les modèles avec plusieurs feuilles de calcul sont souvent utilisés lorsqu'il est pratique de gérer les données d'un fichier unique et de les importer dans plusieurs entités de données. Il peut s'agir par exemple de sites et d'entrepôts.
 

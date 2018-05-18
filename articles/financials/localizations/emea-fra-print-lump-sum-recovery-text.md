@@ -27,7 +27,7 @@ ms.lasthandoff: 02/14/2018
 
 # <a name="print-lump-sum-recovery-text-on-a-customer-invoice"></a>Impression du texte récupéré du montant forfaitaire sur une facture client
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article fournit des informations sur la procédure pour imprimer un texte récupéré du montant forfaitaire qui affiche le montant de la pénalité sur les factures client pour la France.
 

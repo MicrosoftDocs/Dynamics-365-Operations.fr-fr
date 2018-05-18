@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="use-the-safety-stock-journal-to-update-minimum-coverage"></a>Utiliser le journal du stock de sécurité pour mettre à jour la couverture minimale
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure montre comment calculer des propositions de couverture minimale basées sur des transactions historiques et comment mettre à jour la couverture d'article avec ces propositions. Cette opération est effectuée à l'aide du journal du stock de sécurité. Les données fictives utilisées pour créer cette tâche correspondent à la société USMF. Cette tâche est destinée au responsable de production, pour aider à maintenir la couverture minimale.
 

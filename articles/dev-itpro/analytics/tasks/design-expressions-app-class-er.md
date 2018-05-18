@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="design-expressions-to-call-application-class-methods-er"></a>Concevoir des expressions pour appeler les méthodes de classe d'application (ER)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ce guide fournit des informations sur la procédure de réutilisation de la logique d'application existante dans les configurations d'états électroniques en appelant les méthodes requises des classes d'application des expressions ER. Les valeurs des arguments d'appel des classes peuvent être définies dynamiquement au moment de l'exécution : par exemple, sur la base des informations du document d'analyse pour garantir leur exactitude. Dans ce guide, vous allez créer les configurations ER requises pour l'exemple de société, Litware, Inc. Cette procédure est créée pour les utilisateurs ayant le rôle d'administrateur système ou de développeur de gestion des états électroniques. 
 

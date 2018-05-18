@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="reverse-the-production-order-status"></a>Inverser le statut d'ordre de fabrication
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit la procédure pour contrepasser le statut de l'ordre de fabrication. 
 

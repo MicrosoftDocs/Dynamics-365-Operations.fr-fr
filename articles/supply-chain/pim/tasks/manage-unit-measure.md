@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="manage-unit-of-measure"></a>Gérer l'unité de mesure
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure décrit comment définir une unité de mesure, fournir des traductions pour l'unité et sa description, et définir des règles de conversion pour les unités associées. Vous pouvez découvrir cette procédure à l'aide de la société fictive de démonstration USMF ou de vos propres données.
 

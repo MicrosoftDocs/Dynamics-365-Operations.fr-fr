@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="overhead-calculation"></a>Calcul des frais généraux
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit les processus habituels pour calculer et affecter des frais généraux.
 

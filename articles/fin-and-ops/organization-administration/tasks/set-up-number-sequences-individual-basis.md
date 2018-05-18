@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>Paramétrer des souches de numéros sur une base individuelle
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Les souches de numéros permettent de générer des identificateurs uniques et consultables pour les enregistrements de données principales et de transaction qui en ont besoin. Un enregistrement de données principales ou de transaction nécessitant un identificateur est également appelé référence. Avant de pouvoir créer des enregistrements pour une référence, vous devez paramétrer une souche de numéros et l'associer à la référence. Vous pouvez paramétrer toutes les souches de numéros requises à l'aide de l'Assistant Définir des souches de numéros, ou créer ou modifier des souches de numéros individuelles à l'aide de l'écran Souches de numéros.
 

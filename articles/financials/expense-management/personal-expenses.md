@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="personal-expenses-on-an-expense-report"></a>Dépenses personnelles dans un état de dépenses
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Au cours des déplacements professionnels, il est possible que les travailleurs fassent des dépenses personnelles avec leur carte de crédit professionnelle. Si vous n'avez pas défini de processus pour gérer les dépenses personnelles, le processus d'approbation de l'état de dépenses peut être interrompu lorsque les travailleurs soumettent leurs états de dépenses détaillés. 
 

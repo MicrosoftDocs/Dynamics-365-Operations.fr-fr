@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-new-product"></a>Créer un nouveau produit
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette tâche indique comment créer un nouveau produit partagé. Elle est généralement effectuée par un concepteur de produit. Les données fictives utilisées pour créer cette tâche correspondent à la société USMF.
 

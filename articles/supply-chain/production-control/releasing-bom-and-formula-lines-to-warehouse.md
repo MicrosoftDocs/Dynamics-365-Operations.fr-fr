@@ -27,7 +27,7 @@ ms.lasthandoff: 03/07/2018
 
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Lancer les lignes de nomenclature et de formule dans l'entrepôt
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit le processus de lancement des matières premières des lignes de nomenclature et de formule dans l'entrepôt. Lorsque vous lancez une ligne de nomenclature ou de formule dans l'entrepôt, le système détermine d'abord si les matières sont déjà disponibles dans l'emplacement d'entrée en production de l'atelier où les matières sont consommées pour le processus de production.
 

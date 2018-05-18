@@ -28,7 +28,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="automatic-settlement-and-prioritization"></a>Règlement automatique et attribution de priorités
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit la manière dont les transactions sont réglées si vous sélectionnez le Règlement automatique dans la page de paramètres de la Comptabilité client. Il décrit également comment le règlement automatique peut être utilisé en combinaison avec la priorité de paiement.
 

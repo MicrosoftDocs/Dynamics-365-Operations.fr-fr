@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="set-up-number-sequences-by-using-a-wizard"></a>Configurer les souches de numéros à l'aide d'un assistant
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Les souches de numéros permettent de générer des identificateurs uniques et consultables pour les enregistrements de données principales et de transaction qui en ont besoin. Un enregistrement de données principales ou de transaction nécessitant un identificateur est également appelé référence. Avant de pouvoir créer des enregistrements pour une référence, vous devez paramétrer une souche de numéros et l'associer à la référence. Cette procédure explique comment définir toutes les souches de numéros requises en même temps à l'aide d'un Assistant. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 

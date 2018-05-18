@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="bom-designer-functionality"></a>Fonctionnalités du concepteur de nomenclatures
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit la manière dont vous pouvez utiliser la page du concepteur de nomenclatures pour concevoir et utiliser des structures arborescentes pour des nomenclatures. Vous pouvez cliquer sur Paramétrage pour sélectionner différentes configurations et spécifier les informations qui s'affichent dans les lignes de l'arborescence.
 

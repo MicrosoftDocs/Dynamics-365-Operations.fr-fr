@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="view-current-wip-status-on-a-production-order"></a>Afficher le statut actuel des travaux en cours d'un ordre de fabrication
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure indique comment afficher le relevé des travaux en cours d'un ordre de fabrication. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Cette procédure est destinée au contrôleur de coûts.
 

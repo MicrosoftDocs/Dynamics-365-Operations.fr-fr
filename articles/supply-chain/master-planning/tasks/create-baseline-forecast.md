@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-baseline-forecast"></a>Créer une prévision de base
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Un responsable de production peut créer une prévision de base à l'aide des modèles de prévision de série chronologiques ou en copiant la demande historique. Cette procédure indique comment copier la demande historique pour créer une prévision de base pour tous les produits à l'aide d'une clé de répartition par article. 
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="reduce-balance-depreciation"></a>Effectuer un amortissement dégressif
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article donne une vue d'ensemble de la méthode d'amortissement dégressif.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="formulas-and-formula-versions"></a>Formules et versions de formule
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Une formule définit les matières, les ingrédients et les résultats d'un processus spécifique du traitement de la production. Avec la gamme correspondante, la formule définit l'ensemble du processus dans le traitement de la production. Les formules sont utilisées pour planifier et générer des produits dans le traitement de la production.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="set-up-credit-and-collections"></a>Paramétrage du crédit et des recouvrements
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article décrit la procédure de paramétrage de la fonctionnalité de recouvrement.
 

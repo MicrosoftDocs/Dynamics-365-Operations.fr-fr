@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="develop-and-open-a-job-requisition"></a>Développer et ouvrir une demande de poste
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Les projets de recrutement permettent de gérer le processus de recrutement. Pour chaque projet de recrutement, vous pouvez paramétrer des informations, telles que l'emploi pour lequel vous recrutez, le nom du recruteur, le statut du projet et le département auquel l'employé sera rattaché. Après avoir créé un projet de recrutement, vous pouvez rédiger une annonce d'emploi pour le projet, la publier dans les pages Libre-service employé, associer des demandes d'emploi au projet et suivre les activités du projet. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Pour démarrer la procédure, allez dans Ressources humaines > Recrutement > Projets de recrutement > Projets de recrutement.
 

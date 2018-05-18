@@ -27,7 +27,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="depreciation-book-upgrade-overview"></a>Vue d'ensemble de la mise à niveau du registre des amortissements
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dans les versions précédentes, il y avait deux concepts d'évaluation pour les immobilisations : modèles de valeur et registres des amortissements. Dans Microsoft Dynamics 365 for Operations (1611), la fonctionnalité de modèle de valeur et la fonctionnalité du registre des amortissements ont été fusionnées en un concept unique appelé registre. Cette rubrique fournit des éléments à prendre en compte pour la mise à niveau. 
 
@@ -62,17 +62,17 @@ Option 2 : **Souche de numéros définie par l'utilisateur existante** - Cette
 Les paramètres sont situés au début de la classe ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans. 
 
 *// Spécifiez une approche préférable pour la répartition de documents* 
-*//true, si vous souhaitez utiliser un code souche de numéros existant* 
-*//false, si vous souhaitez utiliser la souche de numéros définie par le système (par défaut)* const boolean NumberSequenceUseExistingCode = false;  
+ *//true, si vous souhaitez utiliser un code souche de numéros existant* 
+ *//false, si vous souhaitez utiliser la souche de numéros définie par le système (par défaut)* const boolean NumberSequenceUseExistingCode = false;  
 
 *// Si vous utilisez la méthode de souches de numéros définies par le système, spécifiez les paramètres de la souche de numéros.*
-*// Une nouvelle souche de numéros sera créée avec ces paramètres.* const str NumberSequenceDefaultCode = 'FADBUpgr'; const str NumberSequenceDefaultParameterPrefix = 'FADBUpgr'; const int NumberSequenceDefaultParameterAlpanumericLength = 9; const int NumberSequenceDefaultParameterStartNumber = 1;   
+ *// Une nouvelle souche de numéros sera créée avec ces paramètres.* const str NumberSequenceDefaultCode = 'FADBUpgr'; const str NumberSequenceDefaultParameterPrefix = 'FADBUpgr'; const int NumberSequenceDefaultParameterAlpanumericLength = 9; const int NumberSequenceDefaultParameterStartNumber = 1;   
 
 *// Si vous utilisez l'approche de souche de numéros existante, spécifiez le code de souche de numéros existant.* 
-*// La répartition de N° de documents se fera ligne par ligne pour les souches de numéros existantes.* const str NumberSequenceExistingCode = ''; *// Spécifiez la portée du code de la souche de numéros existante.* 
-*// true, si la souche de numéros spécifiée est partagée* 
-*// false, si la souche de numéros spécifiée est par société* 
-*// La souche de numéros définie par le système par défaut sera utilisée si un code de souche de numéros avec la portée spécifiée est introuvable.* const boolean NumberSequenceExistingIsShared = true; 
+ *// La répartition de N° de documents se fera ligne par ligne pour les souches de numéros existantes.* const str NumberSequenceExistingCode = ''; *// Spécifiez la portée du code de la souche de numéros existante.* 
+ *// true, si la souche de numéros spécifiée est partagée* 
+ *// false, si la souche de numéros spécifiée est par société* 
+ *// La souche de numéros définie par le système par défaut sera utilisée si un code de souche de numéros avec la portée spécifiée est introuvable.* const boolean NumberSequenceExistingIsShared = true; 
 
 Permet de recréer le projet contenant la classe une fois les constantes suivantes modifiées. 
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="procurement-and-sourcing-in-the-public-sector-in-france"></a>Approvisionnements dans le secteur public en France
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article explique comment les fonctionnalités standard associées aux approvisionnements ont été étendues pour les entités françaises du secteur public. Ces fonctionnalités permettent de répondre aux besoins du Code des marchés publics. 
 

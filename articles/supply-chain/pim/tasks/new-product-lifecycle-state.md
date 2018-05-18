@@ -24,7 +24,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-a-new-product-lifecycle-state"></a>Créer un état du cycle de vie des produits
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure décrit comment créer un état du cycle de vie des produits. L'état du cycle de vie des produits documente l'état du cycle de vie d'un produit ou d'une variante de produit lancé. Les états du cycle de vie des produits sont définis par l'utilisateur, généralement un responsable de produit ou un responsable des données principales de produit. Des processus d'entreprise spécifiques, par exemple la planification, peuvent être affectés par un état spécifique du cycle de vie.
 

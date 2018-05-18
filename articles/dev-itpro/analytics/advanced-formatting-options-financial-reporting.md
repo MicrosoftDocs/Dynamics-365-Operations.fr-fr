@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Options de mise en forme avancées dans les états financiers
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Lorsque vous créez un état dans les états financiers, les fonctions de mise en forme supplémentaires sont disponibles, notamment des filtres pour des dimensions, des restrictions pour des colonnes et des unités organisationnelles, des lignes non imprimées, et des instructions IF/THEN/ELSE dans les calculs. 
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="french-bills-of-exchange-and-promissory-notes-france"></a>Lettres de change et billets à ordre français (France)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 L'état de remise de lettre de change française affiche les détails sur les lettres de change renvoyées. L'état inclut des informations sur le compte bancaire, l'entité juridique et le type de remise. Il fournit également la liste des transactions client qui sont affectées par la lettre de change. Cet état est utilisé par les commis à la comptabilité client et les commis à la comptabilité fournisseur pour mettre à jour des paiements client. 
 

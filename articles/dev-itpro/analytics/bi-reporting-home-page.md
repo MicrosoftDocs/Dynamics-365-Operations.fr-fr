@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="intelligence"></a>Intelligence
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit les ressources que vous pouvez utiliser pour en savoir plus sur les outils Business Intelligence (BI) et de génération d'états disponibles dans Microsoft Dynamics 365 for Finance and Operations.
 

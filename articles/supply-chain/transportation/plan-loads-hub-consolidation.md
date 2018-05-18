@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="plan-loads-using-hub-consolidation"></a>Planifier des charges à l’aide de la consolidation de point de transbordement
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article décrit la fonctionnalité de consolidation des expéditions dans un point de transbordement lorsque vous livrez des marchandises provenant d’entrepôts différents pour le même client, ou lorsque vous recevez des marchandises à partir de plusieurs fournisseurs dans le même entrepôt.
 

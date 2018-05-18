@@ -28,7 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="view-and-design-financial-reports"></a>Afficher et créer des états financiers
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article propose des exercices qui traitent de l'affichage et de la création d'états financiers pour Microsoft Dynamics 365 for Finance and Operations. La génération d'états financiers comprend une expérience d'affichage dans Finance and Operations et un concepteur d'état en un clic qui permet de créer et de modifier des états financiers.  
 

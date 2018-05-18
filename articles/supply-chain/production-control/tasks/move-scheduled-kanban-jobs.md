@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="move-scheduled-kanban-jobs"></a>Déplacer les tâches de kanban planifiées
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure se concentre sur le déplacement des tâches de kanban d'un processus planifié dans une autre période. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Cette procédure est destinée au superviseur d'atelier ou au responsable de production qui utilisent des kanbans.
 

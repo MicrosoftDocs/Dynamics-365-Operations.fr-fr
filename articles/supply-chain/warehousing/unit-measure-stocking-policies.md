@@ -28,7 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="unit-of-measure-and-stocking-policies"></a>Stratégies d'unité de mesure et de stockage
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article décrit la manière dont les unités par défaut, les séquences d'unité et les conversions d'unités sont utilisées dans les processus d'entrepôt.
 

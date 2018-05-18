@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>Configurer les emplacements dans un entrepôt compatible WMS
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ce guide vous indique comment configurer le paramétrage d'emplacement pour un nouvel entrepôt compatible WMS (un entrepôt qui utilise des processus avancés de gestion des entrepôts). Le processus est généralement effectué par un gestionnaire d'entrepôt. Vous pouvez exécuter ce guide dans la société fictive de démonstration USMF ou utiliser vos propres données. Une condition préalable est qu'au moins un site soit configuré.
 

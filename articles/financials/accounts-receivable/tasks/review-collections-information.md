@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="review-collections-information"></a>Revoir les informations de recouvrement
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure vous guide dans l'examen des informations de recouvrement ainsi que dans l'utilisation de diverses options relatives au paramétrage et aux transactions de recouvrement. La société fictive USMF sert d'exemple dans cette procédure.
 

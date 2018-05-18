@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="info-codes"></a>Codes info
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Cet article fournit une vue d'ensemble à propos des codes d'informations, des groupes de codes d'informations et la manière de les utiliser.
 

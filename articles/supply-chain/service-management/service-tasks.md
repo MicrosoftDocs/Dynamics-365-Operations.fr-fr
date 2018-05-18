@@ -28,7 +28,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="service-tasks"></a>Tâches de service  
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Les tâches de service permettent de décrire la tâche à accomplir lors d'une commande de service.
 Les techniciens comme les clients ont accès à ces informations.

@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="set-up-books"></a>Paramétrer des registres
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure indique comment créer un nouveau registre d'immobilisations et l'associer à un groupe d'immobilisations. Elle utilise le rôle de comptable et les données de démonstration de l'entité juridique USMF.
 

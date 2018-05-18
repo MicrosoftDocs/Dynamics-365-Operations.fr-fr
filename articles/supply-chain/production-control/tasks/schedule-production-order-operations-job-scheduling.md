@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="schedule-a-production-order-with-operations-and-job-scheduling"></a>Programmer un ordre de fabrication avec la planification d'opérations et de travaux
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure se concentre sur la planification d’un ordre de fabrication avec la planification des opérations et la planification des tâches. Aucune tâche n'est créée avec la planification des opérations tandis que des travaux sont créés avec la planification des tâches. Les données fictives utilisées pour créer cette tâche correspondent à la société USMF. Cette procédure est conçue pour le gestionnaire de production, le planificateur de production ou le superviseur d'atelier travaillant dans un environnement de fabrication discrète.
 

@@ -1,2 +1,2 @@
 > [!IMPORTANT]
-> Cette fonction est disponible uniquement dans Dynamics 365 for Finance and Operations, version 8.0 et pour les utilisateurs ciblés ayant choisi le programme Continuous Auto-update Advantage Program (CAAP) pour les mises à jour de plateforme. Pour plus d'informations sur les versions standard et ciblées, voir [Versions de plateforme standard et ciblées](../../fin-and-ops/get-started/public-preview-releases.md)
+> Cette fonction est disponible dans Platform update 15 (7.0.4841) ou versions ultérieures. Cette mise à jour est actuellement disponible pour des clients ciblés et sera proposé à tous les utilisateurs en juin 2018.

@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="determine-the-bom-version"></a>Déterminer la version de nomenclature
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Lors de l'éclatement d'une demande, si le type d'ordre par défaut d'un article est défini sur Production, le moteur de planification détecte une version de nomenclature valide dans le site. 
 

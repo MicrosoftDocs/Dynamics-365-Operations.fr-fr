@@ -28,7 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="general-ledger-account-balances"></a>Soldes de la comptabilité
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article décrit deux manières d'afficher les soldes de compte général : la page de liste de balance comptable et les états financiers. Il explique également comment mettre à jour les soldes de l'ensemble de dimensions.
 

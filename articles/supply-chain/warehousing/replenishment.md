@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="replenishment"></a>Réapprovisionnement
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit les stratégies de réapprovisionnement disponibles pour les entrepôts qui utilisent la fonctionnalité qui est disponible dans Gestion des entrepôts. Ces informations dans cette rubrique ne s'appliquent pas à la solution de stockage disponible dans la Gestion des stocks.
 

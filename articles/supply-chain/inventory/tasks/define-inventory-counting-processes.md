@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="define-inventory-counting-processes"></a>Définir les processus de comptage d'inventaire
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure vous guide dans la configuration des processus de comptage d'inventaire basiques en créant un groupe de comptage et un journal d'inventaire. Elle vous indique également comment activer les stratégies d'inventaire dans un entrepôt et au niveau d'un article. Ces tâches sont généralement effectuées par un superviseur de l'entrepôt. Il est impératif d'avoir déjà des produits lancés et des entrepôts. Si vous utilisez une société fictive, vous pouvez exécuter cette procédure à l'aide de la société USMF avec n'importe quel article en stock.
 

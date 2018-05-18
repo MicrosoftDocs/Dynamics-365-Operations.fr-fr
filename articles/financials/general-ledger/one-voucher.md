@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="one-voucher"></a>N° document
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 > [!NOTE]
 >  Cette fonctionnalité sera disponible dans la version 8.0 de Dynamics 365 for Finance and Operations, qui sera disponible dans la version printemps 2018.   

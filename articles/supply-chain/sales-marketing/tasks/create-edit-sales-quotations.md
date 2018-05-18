@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-and-edit-sales-quotations"></a>Créer et modifier des devis de vente
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure illustre comment créer et mettre à jour un devis de vente. Vous pouvez exécuter cette procédure avec vos propres données ou avec la société fictive de démonstration USMF.
 

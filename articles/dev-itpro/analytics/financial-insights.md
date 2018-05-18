@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="financial-insights"></a>Financial Insights
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 **Financial Insights** utilise Microsoft Power BI pour regrouper les indicateurs financiers de performance clés, les graphiques et les tableaux d'analyse. Power BI est intégré dans Microsoft Dynamics 365 for Finance and Operations.
 **Financial Insights** est axé sur la génération d'états analytiques. Les employés d'une organisation peuvent afficher, rechercher, comprendre et agir. 

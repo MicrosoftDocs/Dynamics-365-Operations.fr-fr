@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="define-cost-control-units"></a>Définir des unités de contrôle des coûts
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure indique comment définir des unités de contrôle des coûts dans la comptabilité de contrôle de gestion. Vous sélectionnez la dimension d'objet de coût pour laquelle vous souhaitez contrôler les coûts dans la comptabilité. Les membres de la dimension d'objet de coût sont transformés en objets de coût des unités de contrôle des coûts. La société fictive de démonstration utilisée pour créer cette procédure est USP2.
 

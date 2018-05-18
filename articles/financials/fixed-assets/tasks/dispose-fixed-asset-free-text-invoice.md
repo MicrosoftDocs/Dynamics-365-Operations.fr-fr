@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a>Céder des immobilisations à l'aide d'une facture financière
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure indique comment acquérir une immobilisation à l'aide de la proposition d'acquisition du journal des immobilisations. Elle utilise le rôle de comptable et les données de démonstration de l'entité juridique USMF.
 

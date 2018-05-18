@@ -28,7 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="post-with-derived-books"></a>Valider avec des registres dérivés
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article décrit l'utilisation des registres déduits.
 

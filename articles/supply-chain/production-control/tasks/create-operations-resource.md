@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-an-operations-resource"></a>Création d'une ressource opérationnelle
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Une ressource opérationnelle réalise les activités d'un projet ou d'un processus de production. Cette procédure vous indique comment définir une ressource opérationnelle. Vous pouvez parcourir cette procédure dans la société fictive USMF ou utiliser vos propres données.
 

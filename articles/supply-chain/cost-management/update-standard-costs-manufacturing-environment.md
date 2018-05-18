@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="update-standard-costs-in-a-manufacturing-environment"></a>Mise à jour des coûts standard dans un environnement de fabrication
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article fournit des instructions sur la mise à jour des coûts standard dans un environnement de fabrication. 
 

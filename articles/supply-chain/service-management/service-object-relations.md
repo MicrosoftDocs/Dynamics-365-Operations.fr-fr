@@ -28,7 +28,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="service-object-relations"></a>Relations d'objets de service 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Vous pouvez créer des relations d'objets de service entre un objet de service et un accord de service ou une commande de service. Lorsque vous créez une relation, vous associez l'objet de service à l'accord de service ou la commande de service.
 

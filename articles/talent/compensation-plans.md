@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="compensation-plans"></a>Régimes de rémunération
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Les gestionnaires de rémunération et avantages peuvent utiliser la gestion des rémunérations pour tenir à jour et traiter les régimes de rémunération fixes et variables des employés de l'organisation.
 
