@@ -24,6 +24,7 @@
 # Taxe
 ## [Vue d'ensemble des taxes](../financials/general-ledger/indirect-taxes-overview.md)
 ## [Modes de calcul des taxes dans le champ Origine](../financials/general-ledger/sales-tax-calculation-methods-origin-field.md)
+## #### [Affectation et remplacement des taxes](../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md)
 ## [Options de calcul montant entier et intervalle pour les codes taxe](../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md)
 
 # Centre d'appels
@@ -167,8 +168,9 @@
 ## [Créer et associer une station matérielle](tasks/create-associate-hardware-station.md)
 ## [Créer et associer des caisses enregistreuses](tasks/create-associate-registers.md)
 ## [Créer, calculer et valider un relevé pour un magasin de vente au détail](tasks/create-calculate-post-statement-retail-store.md)
+## [Améliorations de la validation du relevé](statement-posting-EOD.md)
 ## [Créer des commandes de centre d'appels](tasks/create-call-center-orders.md)
-## [Créer des dimensions financières pour les caisses de POS et configurer les valeurs de dimension dans les registres](tasks/create-financial-dimensions-pos.md)
+## [Créer des dimensions financières pour les caisses enregistreuses de PDV et configurer les valeurs de dimension sur les caisses enregistreuses](tasks/create-financial-dimensions-pos.md)
 ## [Créer des dimensions financières pour les canaux de vente au détail et configurer les valeurs de dimension pour les magasins](tasks/create-financial-dimensions-retail-channels.md)
 ## [Créer des canaux en ligne et définir les attributs du canal](tasks/create-online-channel-define-channel-attributes.md)
 ## [Créer des groupes d'autorisations POS](tasks/create-pos-permission-groups.md)
@@ -289,7 +291,6 @@
 ### [Appeler une API ou une opération POS à partir d'une extension POS](dev-itpro/pos-api-extension.md)
 ### [Déclencheurs et impression de Retail Modern POS](dev-itpro/pos-trigger-printing.md)
 ### [Ajouter un contrôle personnalisé à une vue de concepteur Retail Modern POS](dev-itpro/pos-control-non-screen.md)
-### [Générer le proxy Retail pour POS et e-Commerce](dev-itpro/pos-generate-retail-proxy.md)
 ### [Étapes de configuration pour les développeurs Retail travaillant dans les zones de développement hébergées dans le cloud](dev-itpro/cloud-dev-box.md)
 
 ## Runtime de commerce
