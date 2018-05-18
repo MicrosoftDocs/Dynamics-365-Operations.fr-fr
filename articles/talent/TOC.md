@@ -5,7 +5,8 @@
 ## [Mettre en service Microsoft Dynamics 365 for Talent](provisioning-talent.md)
 ## [Supprimer un environnement Talent](remove-talent-environment.md)
 ## [Mettre en service les applications modulaires Microsoft Dynamics 365 for Talent](modular-app-tech-faq.md)
-## [Prolonger la fonctionnalité de Talent](extend-talent-functionality.md)
+## [Prolonger la fonctionnalité Talent](extend-talent-functionality.md)
+## [Accéder aux fonctions d'aperçu de Dynamics 365 for Talent : Attract](access-preview-feature.md)
 
 # [Développer une stratégie RH](departments-jobs-positions.md)
 ## [Configurer les composants de tâche](create-job.md)
