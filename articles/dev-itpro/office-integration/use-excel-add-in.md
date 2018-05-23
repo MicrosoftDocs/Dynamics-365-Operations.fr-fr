@@ -38,9 +38,6 @@ En ouvrant des données d'entité dans Excel, vous pouvez rapidement les étudie
 
 Pour en savoir plus sur l'utilisation du module complémentaire Excel, consultez la courte vidéo [Créer un modèle Excel pour les modèles d'en-tête et de ligne dans Dynamics 365 for Finance and Operations](https://youtu.be/RTicLb-6dbI).
 
-> [!Video https://www.youtube.com/embed/RTicLb-6dbI]
-
-
 ## <a name="open-entity-data-in-excel-when-you-start-from-finance-and-operations"></a>Ouvrir des données d'entité dans Excel au démarrage de Finance and Operations
 1. Dans une page de Finance and Operations, cliquez sur **Ouvrir dans Microsoft Office**.
 
