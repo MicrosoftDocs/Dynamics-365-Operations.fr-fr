@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6e55999dcbc1bb9e569f3ec2374f4efb95323fb8
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 42ea3a6cf85802fc42c53111d17afbce042a6d44
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="generate-a-statistical-baseline-forecast"></a>Générer des prévisions de base statistiques
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article fournit des informations sur les paramètres et les filtres utilisés dans le calcul de prévision de la demande. 
 
@@ -64,7 +64,7 @@ Le groupe d'organisation intersociétés, les clés de répartition par article,
 
 Si la prévision n'est pas générée pour un grand ensemble d'articles, mais, par exemple, pour un article ou une clé de répartition par article à la fois, alors afin d'obtenir de meilleures performances, vous pouvez activer la case à cocher **Utilisation du mode de réponse aux requêtes** sous l'onglet **Planification - Paramétrage - Prévision de la demande** - **Paramètres de prévision de la demande - Azure Machine Learning**.
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Paramétrage de la prévision de la demande](demand-forecasting-setup.md)

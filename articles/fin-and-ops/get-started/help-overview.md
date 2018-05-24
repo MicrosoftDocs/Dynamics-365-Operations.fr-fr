@@ -19,16 +19,16 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 5adf73c1316f701b3b5e9b9a22fa5743ba1cc419
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2c02af887e662fd346d5e3e09cce755bfb58d520
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="help-system-overview"></a>Vue d'ensemble du système d'aide
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique fournit une vue d'ensemble des composants du système d'aide Microsoft Dynamics 365 for Finance and Operations. Il décrit également comment fournir de la documentation et une formation personnalisées à votre organisation. 
 
@@ -60,7 +60,7 @@ Le site docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](
 
 -   **L'accès au contenu le plus récent** – Le site est un moyen plus rapide et plus flexible pour créer, mettre à disposition et mettre à jour la documentation produit . Par conséquent, il aide à garantir que vous avez accès aux dernières informations techniques.
 -   **Un contenu rédigé par des experts** – Le site fournit un ensemble plus riche de documentation produit pouvant être amélioré par les membres de la Communauté, aussi bien à l'intérieur qu'à l'extérieur de Microsoft.
--   **Accès à différents types de contenu** – Le site permet d'accéder rapidement à différents types de contenu sur Finance and Operations, comme les présentations Microsoft Office Mix, les guides de tâches, les vidéos et les rubriques.
+-   **Accès à différents types de contenu** – Le site permet d'accéder rapidement à différents types de contenu sur Finance and Operations, comme les guides de tâches, les vidéos et les rubriques.
 -   **Un contenu utile pour vos processus métier** – Le site inclut des contenus orientés sur les processus métier, qui tirent profit du modeleur de processus métier (BPM) des LCS (Lifecycle Services) de Microsoft Dynamics.
 
 ### <a name="searching-on-docsmicrosoftcom"></a>Recherche sur docs.microsoft.com
@@ -204,7 +204,7 @@ Le tableau suivant répertorie nos sites Web. Le contenu de nos sites Web est or
 
 
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 [Système d'aide de Finance and Operations (fiche téléchargeable)](https://mbs.microsoft.com/customersource/global/AX/learning/fact-sheets/msdaxhelpsystemfactsheet)
 

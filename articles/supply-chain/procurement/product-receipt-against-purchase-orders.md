@@ -19,18 +19,18 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: 714a87f15bf2a25dbe80660d9be044ecde16cb16
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c227664da360f6f8d54b49f15e1b7160aa142ba9
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="product-receipt-against-purchase-orders"></a>Accusé de réception de marchandises et commandes fournisseur
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Cet article décrit les différentes options d’enregistrement des marchandises comme étant reçues.
 
@@ -61,10 +61,10 @@ Une fois l’accusé de réception de marchandises traitée sur la CF, le statut
 
 Vous pouvez accéder à cette page à partir du groupe d'actions **Réception** sur la page **Commande fournisseur**. Les informations contenues dans les journaux incluent des détails sur les quantités, les dates et les dimensions.
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
-[Présentation des commandes fournisseur](purchase-order-overview.md)
+[Vue d'ensemble des commandes fournisseur](purchase-order-overview.md)
 
 [Création de commandes fournisseur](purchase-order-creation.md)
 

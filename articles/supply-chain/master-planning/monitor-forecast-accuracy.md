@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c2f9482a9906ad6c607d275769ac06b29b22c25d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1f54251b6f6937c59293bd44a0fc27272ffd3d55
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="monitor-forecast-accuracy"></a>Surveiller la précision de la prévision
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article décrit les types de précision de prévision que Microsoft Dynamics 365 for Finance and Operations calcule, et explique comment vous pouvez afficher les valeurs de précision.
 
@@ -41,7 +41,7 @@ Finance and Operations calcule les types de précision de prévision suivants :
 **Remarque :** si vous utilisez le service Microsoft Azure Machine Learning de prévision de la demande de Finance and Operations, le calcul de la précision du modèle interne est basé sur l'ensemble de données de test. Pour spécifier la taille de l'ensemble de données de test, définissez le paramètre **TEST\_SET\_SIZE\_PERCENT** dans la page **Paramètres de prévision de la demande**. Par exemple, si vous définissez la valeur sur **20**, les derniers 20 % des données historiques seront utilisés pour calculer la précision du modèle interne.
 
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Autorisation de la prévision ajustée](authorize-adjusted-forecast.md)

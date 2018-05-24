@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 08cfd2cfa24bef0f0c92126f5d1052a12ceba37a
-ms.openlocfilehash: 1863814d6dd645da8602495858d024fbad2e7149
+ms.sourcegitcommit: ace66c037953f4b1b2e8b93a315faefdb090b1eb
+ms.openlocfilehash: 6672e283a5e56b068e3494d53a0fd6dd08253ba9
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/11/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
@@ -95,4 +95,16 @@ Tâche : **Lignes de facture**
 Assurez-vous que la valeur par défaut du champ Finance and Operations **Valeur d'affichage du compte principal** est mise à jour pour correspondre à la valeur souhaitée.
 
 Le modèle de valeur par défaut est **401100**.
+
+## <a name="template-mapping-in-data-integration"></a>Mise en correspondance de modèles dans l'intégration de données
+
+Les illustrations suivantes présentent la mise en correspondance de modèles dans le module Intégration des données.
+
+### <a name="agreement-invoices-field-service-to-fin-and-ops-invoice-headers"></a>Factures d'accord (Field Service vers Fin and Ops) : En-têtes de facture
+
+[![Mise en correspondance de modèles dans l'intégration de données](./media/FSFreeTextInvoice1.png)](./media/FSFreeTextInvoice1.png)
+
+### <a name="agreement-invoices-field-service-to-fin-and-ops-invoice-lines"></a>Factures d'accord (Field Service vers Fin and Ops) : Lignes de facture
+
+[![Mise en correspondance de modèles dans l'intégration de données](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
 

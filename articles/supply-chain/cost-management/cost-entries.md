@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 8df830b54d578ed9be4f34c8f52986aca16dc5dc
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ac83ec4f37f5bafde30e5afc131a138df8dae419
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cost-entries"></a>Écritures de coût
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article fournit des informations sur les entrées de coût et à quel moment elles sont créées. Une entrée de coût est un enregistrement qui enregistre la quantité et le coût d'un événement donné.
 
@@ -66,7 +66,7 @@ La page **Écritures de coût** active le filtrage par ID et date de document.
 > [!NOTE]
 > Ls écritures de coût sont disponibles uniquement pour les [objets de coût](cost-object.md) ou les produits lancés.
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Objets de coût](cost-object.md)

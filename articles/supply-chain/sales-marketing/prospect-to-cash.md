@@ -3,7 +3,7 @@ title: "Prospect en disponibilités"
 description: "Cette rubrique fournit une vue d'ensemble de la solution Prospect en disponibilités entre Microsoft Dynamics 365 for Finance and Operations et Microsoft Dynamics 365 for Sales."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 04/03/2018
+ms.date: 04/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,22 +20,24 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: bc0fa8fe3e20ae4be3e572932f99ccc54e3b746b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f43b3943ce27c44cc0b4756d1d5f23e3be093273
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="prospect-to-cash"></a>Prospect en disponibilités
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 La solution Prospect en disponibilités fournit une synchronisation directe entre Dynamics 365 for Finance and Operations et Dynamics 365 for Sales. Les modèles Prospect en disponibilités disponibles avec la fonction d'intégration de données activent le flux de données pour les comptes, contacts, produits, devis de vente, commandes client et factures client entre Finance and Operations et Sales. Bien que les données transitent entre Finance and Operations et Sales, vous pouvez effectuer des activités de vente et de marketing dans Sales, et vous pouvez gérer l'exécution de commande à l'aide de la gestion des stocks de Finance and Operations. 
 
 Pour plus d'informations sur l'intégration de la solution Prospect en disponibilités, consultez la courte vidéo YouTube :
 
 > [!Video https://www.youtube.com/embed/AVV9x5x-XCg]
+
+[Intégration de la solution Prospect en disponibilités (vidéo YouTube)](https://youtu.be/AVV9x5x-XCg) 
 
 Dans la version actuelle, la solution Prospect en disponibilités fournit les types suivants de synchronisation directe :
 
@@ -76,7 +78,7 @@ L'intégration de la solution Prospect en disponibilités est prise en charge da
   - **[KB4033093](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4033093&bugId=3824604&qc=bd7e15e1fb56066b3a82ce48b691cf1ffbc934a7473fa888545b2211a8d416c5)** - La prise en charge de l'intégration de la solution Prospect en disponibilités via les entités de données est requise.
     
     > [!NOTE]
-    > Après avoir installé les correctifs, vous devez déclencher le traitement par lots suivant à partir de l'écran **SalesPopulateProspectToCash**. Cet écran est masqué, car vous n'en avez besoin qu'une seule fois. Pour accéder à l'écran, connectez-vous à l'environnement et ajoutez ce qui suit à l'URL dans le champ d'adresse du navigateur, &mi=action:SalesPopulateProspectToCash, par exemple, `https://ax123456.cloud.test.dynamics.com/?cmp=USMF&mi=action:SalesPopulateProspectToCash`. Lorsque l'écran s'ouvre, cliquez sur OK. Un nouveau champ **LineCreationSequnceNumber** dans les tables **SalesLine**, **SalesQuotationLine** et **CustInvoiceTrans** est renseigné avec des valeurs uniques et la liste des produits est actualisée. Cela est nécessaire pour assurer l'intégration de la solution Prospect en disponibilités.
+    > Après avoir installé les correctifs, vous devez déclencher le traitement par lots suivant à partir de l'écran **SalesPopulateProspectToCash**. Cet écran est masqué, car vous n'en avez besoin qu'une seule fois. Pour accéder à l'écran, connectez-vous à l'environnement et ajoutez ce qui suit à l'URL dans le champ d'adresse du navigateur, *&mi=action:SalesPopulateProspectToCash*, par exemple, `https://ax123456.cloud.test.dynamics.com/?cmp=USMF&mi=action:SalesPopulateProspectToCash`. Lorsque l'écran s'ouvre, cliquez sur OK. Un nouveau champ **LineCreationSequnceNumber** dans les tables **SalesLine**, **SalesQuotationLine** et **CustInvoiceTrans** est renseigné avec des valeurs uniques et la liste des produits est actualisée. Cela est nécessaire pour assurer l'intégration de la solution Prospect en disponibilités.
 
 
 ## <a name="system-requirements-for-sales"></a>Configuration requise pour Sales

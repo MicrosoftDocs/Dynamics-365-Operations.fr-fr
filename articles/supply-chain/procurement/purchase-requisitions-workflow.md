@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: 0b1ec4f11672c5c2f9a6f4d072637dfd22246f77
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a5dcc294b3dde7dc7e0f789d9e7678b75bc699b0
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="purchase-requisition-workflow"></a>workflow de demande d'achat
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Le processus de workflow déplace les demandes d'achat via le processus de révision, depuis le statut initial de Brouillon jusqu'au statut final Approuvé. Lorsqu'une demande d'achat est envoyée pour révision, le processus de workflow démarre. Lorsqu'une demande d'achat est approuvée, une commande fournisseur peut être générée pour les lignes de la demande d'achat et soumise au fournisseur pour honorer une commande.
 
@@ -106,7 +106,7 @@ Vous pouvez paramétrer les réviseurs de dépenses dans la page **Réviseurs de
 
 Pour utiliser l'un des réviseurs de dépenses que vous paramétrez dans un workflow, vous devez définir l'option **Type de participant** sur **Participants aux dépenses** dans les propriétés **Affectation** de l'élément de workflow approprié.
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Créer un bon de commande pour la consommation (Guide de tâche)](tasks/create-requisition-consumption.md)

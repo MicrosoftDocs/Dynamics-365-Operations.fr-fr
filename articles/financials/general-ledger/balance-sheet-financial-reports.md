@@ -19,16 +19,16 @@ ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6323a2bf40a853edff4b3cef31eea7e95542a92e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1c92ccb37b62a39e5ab4808454f8c6f84560d917
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="balance-sheet-financial-reports"></a>États financiers du bilan
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article décrit les états par défaut des bilans. Il décrit également les blocs de construction associés à ces états. 
 
@@ -72,7 +72,7 @@ Les définitions de colonne contiennent différents types de colonnes afin d'off
 
 
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [États financiers](financial-reporting-getting-started.md)

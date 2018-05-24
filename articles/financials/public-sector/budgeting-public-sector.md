@@ -20,16 +20,16 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 435af77c5861f454ff06877a64f71f5974a76326
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 0f58a2c42d9f78d7d974542ff2869b48c6a4ba37
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="budgeting-in-the-public-sector"></a>Budgétisation dans le secteur public
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette vue d'ensemble présente la fonctionnalité de budgétisation disponible pour le secteur public. Cela inclut l'analyse de budget, les budgets et les répartitions préliminaires, et les définitions de validation.
 
@@ -53,12 +53,12 @@ Il est possible que vous deviez paramétrer les fonctionnalités de budgétisati
 
 **Remarque :** cela s'applique également à la comptabilité, à la comptabilité fournisseur, et à la comptabilité client.
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
-[Budgétisation](../budgeting/budgeting-overview.md)
+[Budget](../budgeting/budgeting-overview.md)
 
-[Comptabilité fournisseur dans le secteur public](accounts-payable-public-sector.md)
+[Comptabilité fournisseur (Secteur public)](accounts-payable-public-sector.md)
 
 [Comptabilité client (Secteur public)](accounts-receivable-public-sector.md)
 

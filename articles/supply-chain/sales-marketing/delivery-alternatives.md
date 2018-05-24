@@ -20,23 +20,23 @@ ms.author: crytt
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 58c083b2fa76e90d10ec8a197a4743a9e315db46
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 855fdd0e57a7001628b715038785379d5a986789
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="delivery-alternatives"></a>Autres modes de livraison
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-Les responsables des commandes client peuvent utiliser la page Autres modes de livraison pour connaître les options alternatives d'exécution de commande.
+Les responsables des commandes client peuvent utiliser la page **Autres modes de livraison** pour connaître les options alternatives d'exécution de commande.
 
-Dans Microsoft Dynamics 365 for Operations version 1611 (novembre 2016), les responsables des commandes client peuvent utiliser la page **Autres modes de livraison** pour connaître les options alternatives d'exécution de commande. La mise en page revisitée fournit une meilleure vue d'ensemble de toutes les options alternatives. Elle permet également aux responsables des commandes d'accéder à des informations autres que celles de la société actuelle pour saisir des occasions d'exécution de commande. Ils peuvent désormais afficher les opportunités intersociétés et les opportunités des fournisseurs externes. En triant les options par date de livraison, les responsables des commandes client peuvent afficher une liste intelligente répertoriant les alternatives de livraison. En outre, les paramètres les aident à mieux gérer les livraisons suggérées. Puisque le temps de transport peut affecter les dates de livraison, les responsables des commandes client peuvent explorer les différents choix de transport offerts par les transporteurs. Des informations détaillées sont affichées pour chaque suggestion, de sorte que les responsables des commandes peuvent prendre des décisions informées directement depuis la page **Autres modes de livraison**.
+La mise en page **Autres modes de livraison** fournit une vue d'ensemble de toutes les options alternatives. Elle permet également aux responsables des commandes d'accéder à des informations autres que celles de la société actuelle pour saisir des occasions d'exécution de commande. Ils peuvent désormais afficher les opportunités intersociétés et les opportunités des fournisseurs externes. En triant les options par date de livraison, les responsables des commandes client peuvent afficher une liste intelligente répertoriant les alternatives de livraison. En outre, les paramètres les aident à mieux gérer les livraisons suggérées. Puisque le temps de transport peut affecter les dates de livraison, les responsables des commandes client peuvent explorer les différents choix de transport offerts par les transporteurs. Des informations détaillées sont affichées pour chaque suggestion, de sorte que les responsables des commandes peuvent prendre des décisions informées directement depuis la page **Autres modes de livraison**.
 
 ## <a name="open-the-delivery-alternatives-page"></a>Ouvrir la page Autres modes de livraison
-Vous pouvez ouvrir la page **Autres** **modes de livraison** depuis la ligne de la commande client.
+Vous pouvez ouvrir la page **Autres modes de livraison** depuis la ligne de la commande client.
 
 1.  Cliquez sur **Produits et approvisionnement** &gt; **Autres modes de livraison**.
 2.  Cliquez sur **Détails de ligne** &gt; **Livraison** &gt; **Autres modes de livraison.**
@@ -146,7 +146,7 @@ Les informations de cet onglet se rapportent à la ligne d'alternative de livrai
 
 Cet onglet met en surbrillance l'impact de l'alternative de livraison sélectionnée. Si vous cliquez sur **OK**, la ligne est mise à jour avec les valeurs en surbrillance dans les colonnes SÉLECTIONNÉES. Notez que, si la quantité de l'alternative de livraison sélectionnée est inférieure à la quantité de la ligne de vente, un plan de livraison est créé, et la ligne de commande est fractionnée en deux lignes : une ligne pour la quantité sélectionnée et une ligne pour la quantité restante. Vous pouvez également mettre à jour la ligne commerciale afin qu'elle corresponde aux lignes planifiées et affecte la tarification.
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Promesse de commande](delivery-dates-available-promise-calculations.md)

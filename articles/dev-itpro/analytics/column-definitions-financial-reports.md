@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 88570a8dc9da6f6a2b4d3a9499e1ea406f681451
-ms.openlocfilehash: 4608f43a3db9308881d4737e49df949190e3ede2
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 18ae41c3c1b19edc2d56a7e3480890c8aea28054
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/14/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="column-definitions-in-financial-reports"></a>Définitions de colonne dans les états financiers
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article fournit des informations sur les définitions de colonne. Une définition de colonne est un composant de l’état, ou un bloc élémentaire, qui spécifie le contenu des colonnes d’un état. Comme les définitions de ligne, des définitions de colonne de base peuvent être utilisées dans plusieurs états.
 
@@ -212,7 +212,7 @@ Phyllis crée un état pour une prévision dynamique de six mois. Elle veut que 
 |     Type de colonne     | DESC |      FD       |      FD       |      FD       |      FD       |      FD       |      FD       |      FD       |      FD       |      FD       |      FD       |      FD       |      FD       |
 | Code registre/Attribut |      |    RÉEL     |  BUDGET2012   |    RÉEL     |  BUDGET2012   |    RÉEL     |  BUDGET2012   |    RÉEL     |  BUDGET2012   |    RÉEL     |  BUDGET2012   |    RÉEL     |  BUDGET2012   |
 |     Année fiscale     |      |     BASE      |     BASE      |     BASE      |     BASE      |     BASE      |     BASE      |     BASE      |     BASE      |     BASE      |     BASE      |     BASE      |     BASE      |
-|       Période        |      |       1       |       1       |       2       |       2       |       3       |       3       |       4       |       4       |       5       |       5       |       6       |       6       |
+|       Période         |      |       1       |       1       |       2       |       2       |       3       |       3       |       4       |       4       |       5       |       5       |       6       |       6       |
 |   Périodes couvertes   |      |   PERIODIC    |   PERIODIC    |   PERIODIC    |   PERIODIC    |   PERIODIC    |   PERIODIC    |   PERIODIC    |   PERIODIC    |   PERIODIC    |   PERIODIC    |   PERIODIC    |   PERIODIC    |
 |    Largeur de colonne     |  30  |      10       |      10       |      10       |      10       |      10       |      10       |      10       |      10       |      10       |      10       |      10       |      10       |
 |    Contrôle d'impression    |      |    P&lt;=B    |    P&gt;B     |    P&lt;=B    |    P&gt;B     |    P&lt;=B    |    P&gt;B     |    P&lt;=B    |    P&gt;B     |    P&lt;=B    |    P&gt;B     |    P&lt;=B    |    P&gt;B     |
@@ -488,7 +488,7 @@ L'exemple suivant montre une partie de description de colonne ayant un attribut 
 
 ### <a name="dimension-filter-in-a-column-definition"></a>Filtre de dimension dans une définition de colonne
 
-Un filtre de dimension est utilisé pour limiter la colonne **FD** à des valeurs de dimension spécifiques. Le filtre peut inclure une seule dimension, une plage de dimensions ou un groupe de dimensions. Le filtre peut aussi inclure des ensembles de valeurs de dimension. Comme les valeurs de dimension peuvent varier, un système basé sur les dimensions ne doit pas devoir correspondre à une longueur exacte. Le filtre est appliqué, indépendamment du fait que l'état inclut une arborescence de génération d'états. Vous pouvez utiliser un caractère générique (\* ou ?) à n'importe quelle position. Lorsque vous spécifiez plusieurs comptes, mettez une virgule entre les comptes, comme dans l'exemple suivant : +Compte=\[1200\], +Compte=\[1100\], Service=\[01?\] pour recevoir tous les services d'un compte spécifique, vous pouvez exclure la dimension de service du filtre de dimension. Par exemple, les deux filtres de dimension suivants sont traités de la même manière :
+Un filtre de dimension est utilisé pour limiter la colonne **FD** à des valeurs de dimension spécifiques. Le filtre peut inclure une seule dimension, une plage de dimensions ou un groupe de dimensions. Le filtre peut aussi inclure des ensembles de valeurs de dimension. Comme les valeurs de dimension peuvent varier, il n'est pas nécessaire qu'un système basé sur les \financial-dimensions\dimension-based corresponde à une longueur exacte. Le filtre est appliqué, indépendamment du fait que l'état inclut une arborescence de génération d'états. Vous pouvez utiliser un caractère générique (\* ou ?) à n'importe quelle position. Lorsque vous spécifiez plusieurs comptes, mettez une virgule entre les comptes, comme dans l'exemple suivant : +Compte=\[1200\], +Compte=\[1100\], Service=\[01?\] pour recevoir tous les services d'un compte spécifique, vous pouvez exclure la dimension de service du filtre de dimension. Par exemple, les deux filtres de dimension suivants sont traités de la même manière :
 
 -   +Compte=\[1100\],Département
 -   +Compte=\[1100\]
@@ -583,7 +583,7 @@ Vous pouvez créer une colonne qui affiche toutes les valeurs dans une colonne s
 
 Vous pouvez diviser le montant dans une colonne par un nombre de périodes spécifié. Par exemple, la formule **B/Périodes** divise la valeur de la colonne B par le nombre de périodes dans la colonne B. Si le calcul s'étend sur plusieurs colonnes, spécifiez le nombre de périodes à utiliser dans le calcul. Par exemple, la formule **(B+C)/Périodes** ajoute les montants de la colonne B et de la colonne C, puis divise le résultat par la valeur de période.
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Définitions de ligne dans les états financiers](row-definitions-financial-reporting.md)

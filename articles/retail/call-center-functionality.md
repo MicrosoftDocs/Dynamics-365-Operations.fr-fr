@@ -3,7 +3,7 @@ title: "Fonctionnalité de centre d'appels"
 description: "Cette rubrique fournit une vue d'ensemble de la fonctionnalité de vente des centres d'appels dans Microsoft Dynamics 365 for Retail."
 author: josaw1
 manager: AnnBe
-ms.date: 11/14/2017
+ms.date: 04/03/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -20,35 +20,43 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 52b3e2e78a03ac67507ee65a03e0884e5ed44678
-ms.openlocfilehash: 75dc09ffc84ef8ec48f50ea410974c99aabc212e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e85b65e116b32adca09e46252d7d3bbe5101e1cf
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
-# <a name="call-center-functionality"></a>Fonctionnalité de centre d'appels
+# <a name="call-center"></a>Centre d'appels 
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
-Cet article fournit une vue d'ensemble de la fonctionnalité de vente des centres d'appels dans Microsoft Dynamics 365 for Retail.
+Dans Dynamics 365 for Retail, un centre d'appels est un type de canal de vente au détail qui peut être défini dans l'application. La définition d'un canal spécifique pour vos entités de centre d'appels permet au système d'associer les valeurs par défaut de données spécifiques et les valeurs par défaut du traitement des commandes aux commandes client créées par un utilisateur du canal de centre d'appels.
 
-Dynamics 365 for Retail prend également en charge les centres d'appels comme type de canal de vente au détail. Dans un centre d'appels, les collaborateurs prennent les commandes des clients par téléphone et créent les commandes client. La fonctionnalité de centre d'appels inclut les fonctionnalités conçues pour faciliter la prise de commandes par téléphone et la gestion du service client via le processus d'exécution de commande. Par exemple, les collaborateurs de centre d'appels peuvent entrer des informations de paiement directement dans la commande client, et peuvent afficher un résumé détaillé des frais et des paiements avant d'envoyer la commande. Les collaborateurs disposent également d'options pour contrôler la tarification, et peuvent accéder à diverses données sur les clients, les produits, et les prix à partir de la page **Commande client**. En outre, les centres d'appel disposent d'une fonctionnalité améliorée de suivi de l'historique client et du statut des commandes. Chaque centre d'appels peut avoir ses propres utilisateurs, modes de paiement, groupes de prix, dimensions financières, et modes de livraison. Vous pouvez configurer ces options lorsque vous créez les centres d'appels. Vous pouvez également utiliser la page **Centre d'appels** pour activer ou désactiver les groupes de fonctions suivants, qui sont uniques aux centres d'appels :
+Les fonctionnalités du centre d'appels comprennent les prix et les promotions de vente au détail avancés, les catalogues, les cartes cadeaux, les programmes de fidélité et les coupons. Les commandes du centre d'appels sont également utilisées par l'application POS pour prendre en charge les scénarios d'exécution des commandes sur plusieurs canaux.
 
--   **Achèvement de commande** – Ce groupe inclut les fonctionnalités liées aux paiements et à l'achèvement des commandes sur la page **Commande client**.
--   **Vente directe** – Ce groupe inclut les fonctionnalités associées aux codes sources, aux scripts, et aux demandes de catalogue.
+Il est important de noter que le module Centre d'appels peut être utilisé par d'autres secteurs d'activité en dehors de la vente au détail, mais la version actuelle de l'application de centre d'appels Dynamics 365 for Retail n'a pas été optimisée pour une utilisation dans les scénarios de traitement des commandes interentreprises (B2B), ou les scénarios où les commandes contiennent un grand nombre de lignes de vente. Il est recommandé aux utilisateurs qui souhaitent utiliser les fonctionnalités du centre d'appels pour le traitement des commandes en dehors du traitement standard des transactions destinées directement aux consommateurs, de prendre le temps nécessaire de tester et de valider que l'activation de la fonctionnalité de centre d'appels répond aux besoins fonctionnels et de performances.
 
-Une fois que vous avez activé ces fonctionnalités dans les paramètres du centre d'appels, elles sont disponibles sur la page **Commande client** pour les utilisateurs associés au centre d'appels. La plupart de ces fonctions requièrent un paramétrage supplémentaire avant d'être utilisées. Avant que les utilisateurs puissent créer des commandes de centre d'appels, vous devez ajouter ces utilisateurs au centre d'appels en tant qu'utilisateurs du centre d'appels. Cette étape active la configuration et la fonctionnalité spécifiques au canal de centre d'appels. Voici quelques exemples de fonctionnalités qui deviennent disponibles :
+Outre la prise en charge de la création des commandes, le module Centre d'appels fournit également une application de service client conviviale qui permet aux utilisateurs de localiser facilement les comptes client et d'examiner l'ensemble des données et attributs de commande client associés. L'écran du service client est conçu pour permettre à un utilisateur d'accéder rapidement aux données associées aux commandes afin de répondre aux questions les plus courantes transmises par les clients.
 
--   La vente guidée fournit des options de configuration pour les scripts de téléventes et les images de produits, afin d'aider et guider les commis aux ventes lors de la prise de commandes.
--   Les commandes ne peuvent pas être bouclées tant que les commis aux ventes n'ont pas capturé au moins un mode de paiement.
--   Les règles de vente de gamme supérieure et de vente croisée peuvent être configurés de sorte à inviter les commis aux vente à promouvoir des produits spécifiques auprès des clients.
--   Les commis aux ventes peuvent capturer le code source pour le catalogue à partir duquel un client passe sa commande.
--   Les commis aux ventes peuvent ajouter les coupons d'un détaillant à une commande.
--   Les commis aux ventes peuvent vendre des programmes périodiques.
--   Les commandes peuvent être mise en attente manuellement ou automatiquement, de sorte à indiquer que des recherches complémentaires sont nécessaires avant que la commande puisse être traitée.
+Cette page fournit des liens vers la documentation appropriée associée au paramétrage, à la configuration et à l'utilisation fonctionnelle des fonctionnalités du centre d'appels dans Dynamics 365 for Retail.
 
+## <a name="configure-the-call-center"></a>Configurer le centre d'appels
+[Paramétrer des options de traitement des commandes](set-up-order-processing-options.md)
 
+## <a name="configure-order-processing"></a>Configurer le traitement des commandes
+[Paramétrer les alertes de fraude](set-up-fraud-alerts.md)
+[Blocage manuel des commandes](work-with-order-holds.md)
 
+## <a name="configure-payment-processing"></a>Configurer le traitement des paiements
+[Modes de paiement dans un centre d'appels](work-with-payments.md)
+
+## <a name="configure-direct-marketing"></a>Configurer le marketing direct
+[Catalogues de centre d'appels](call-center-catalogs.md)
+
+[Paramétrer l'analyse RFM](set-up-rfm-analysis.md)
+
+## <a name="configure-continuity-programs"></a>Configurer les programmes de continuité
+[Paramétrer un programme de continuité pour un centre d'appels](set-up-continuity-program.md)
 
 

@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 088883f35fe73c933c1d8558297bee0e3ccc3cb2
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1150a63fe7c9d51c5fa83f4b0295cfdca7b998dc
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Stratégie de repositionnement des coûts et calcul des frais généraux 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Le contrôle de gestion vous permet de mieux comprendre comment le flux des coûts se rapporte aux produits et services fournis dans une organisation. Pour voir la transparence des coûts, il est primordial d'effectuer la répartition des coûts entre les objets de coût en fonction d'une base de répartition appropriée. Par défaut, la répartition des coûts est effectuée pour l'élément de coût principal, qui est désiré dans certains cas, mais elle comporte certaines implications qui doivent être prises en compte.
 
@@ -297,7 +297,7 @@ Cette séparation précise entre **Affectation des coûts** et **Stratégies de 
 
 
 
-## <a name="see-also"></a>Voir également :
+## <a name="additional-resources"></a>Ressources supplémentaires
 -  [Dimensions d'objets de coût](cost-objects.md)
 -  [Dimensions d'éléments de coût](cost-elements.md)
 -  [Hiérarchies des dimensions](dimension-hierarchy.md)

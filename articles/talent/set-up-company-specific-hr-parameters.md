@@ -19,16 +19,16 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e19c0eb8f28f16ba827d5218a96ee21c976aacb7
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e195f9976465a933ceaaeb0bd2cbec4f814bc5f8
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-company-specific-hr-parameters"></a>Définition des paramètres de RH spécifiques à la société
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Les réglages de certains paramètres des Ressources humaines (RH) sont partagés entre des sociétés, alors que les réglages d'autres paramètres sont spécifiques à la société. Cet article décrit comment définir les paramètres RH spécifiques à la société.
 
@@ -57,10 +57,10 @@ Les paramètres de l'onglet **FMLA** définissent le nombre d'heures qu'un emplo
 
 **Remarque :** le nombre d'heures travaillées ne peut pas dépasser 1 250, et la durée de l'emploi ne peut pas dépasser 12 mois. Ces valeurs maximales sont conformes à la législation fédérale des États-Unis. Enfin, les paramètres de l'onglet **Libre-service employé** déterminent les informations qu'un responsable peut entrer au nom de ses employés.
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
-[Configuration des paramètres de RH dans les entités juridiques](set-up-hr-parameters-across-legal-entities.md)
+[Configuration des paramètres RH dans les entités juridiques](set-up-hr-parameters-across-legal-entities.md)
 
 
 

@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: yuyus
-ms.search.scope: Core (Operations, Core)
+ms.search.scope: Operations, Core
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c055c673443255f3e6dda5e1179e1ef28d90e693
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c2a957038bfad065361b46e85b8195214779cc2d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="optimization-advisor-overview"></a>Vue d'ensemble du conseiller en optimisation
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit comment utiliser le conseiller en optimisation pour garantir une configuration optimale de Microsoft Dynamics 365 Finance and Operations.
 
@@ -50,8 +50,6 @@ Les stratégies de sécurité standard s'appliquent aux opportunités d'optimisa
 Lorsque vous prenez des mesures sur certaines opportunités d'optimisation, le système calcule l'impact de l'opportunité en termes de réduction sur l'exécution des processus d'entreprise. Malheureusement, cette fonction n'est pas disponible pour toutes les opportunités d'optimisation.
 
 Pour en savoir plus sur le conseiller en optimisation, visionnez la courte vidéo [Conseiller en optimisation dans Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=MRsAzgFCUSQ).
-
-> [!Video https://www.youtube.com/embed/MRsAzgFCUSQ]
 
 ## <a name="optimization-rules"></a>Règles d'optimisation
 
@@ -93,7 +91,7 @@ Si une opportunité ne s'applique pas à votre rôle, vous pouvez sélectionner 
 
 Pour désactiver l'évaluation de règles spécifiques, sélectionnez l'opportunité générée par la règle, puis sélectionnez **Désactiver l'analyse**.
 
-## <a name="see-also"></a>Voir également :
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Créer des règles](./create-rules-optimization-advisor.md)
 

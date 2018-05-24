@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 08cfd2cfa24bef0f0c92126f5d1052a12ceba37a
-ms.openlocfilehash: 854240bef9d6193c8f0f608687b68e6842fe272c
+ms.sourcegitcommit: ace66c037953f4b1b2e8b93a315faefdb090b1eb
+ms.openlocfilehash: 933d9755085d507310dd46d96a492d2124647ec3
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/11/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
@@ -230,7 +230,47 @@ L'intégration d'ordre d'exécution requiert que vous définissiez l'origine des
 6. Définissez le champ **Type d'origine des ventes** sur **Intégration de l'ordre d'exécution**.
 7. Sélectionnez **Enregistrer**.
 
-### <a name="template-mapping-in-data-integration"></a>Mise en correspondance de modèles dans l'intégration de données
 
-(Prochainement)
+### <a name="setup-in-data-integration"></a>Paramétrage dans le module Intégration des données
+
+Vérifiez que la **Clé d'intégration** existe pour **msdyn_workorders**
+1. Accédez au module Intégration des données
+2. Sélectionnez l'onglet **Ensemble de connexions**
+3. Sélectionnez l'ensemble de connexions utilisé pour la synchronisation des ordres d'exécution
+4. Sélectionnez l'onglet **Clé d'intégration**
+5. Recherchez msdyn_workorders et vérifiez que la clé **msdyn_name (numéro d'ordre de travail)** est ajoutée. Si elle n'est pas affichée, ajoutez-la en cliquant sur **Ajouter une clé**, puis sur **Enregistrer** en haut de la page
+
+## <a name="template-mapping-in-data-integration"></a>Mise en correspondance de modèles dans l'intégration de données
+
+Les illustrations suivantes présentent la mise en correspondance de modèles dans le module Intégration des données.
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderheader"></a>Ordres d'exécution sur commandes client (Field Service vers Fin and Ops) : WorkOrderHeader
+
+Filtre : (msdyn_systemstatus ne 690970005) et (msdyn_systemstatus ne 690970000) et (msdynce_hasexternallymaintainedproductsonly eq true)
+
+[![Mise en correspondance de modèles dans l'intégration de données](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderservicelineestimate"></a>Ordres d'exécution sur commandes client (Field Service vers Fin and Ops) : WorkOrderServiceLineEstimate
+
+Filtre : (msdynce_headersystemstatus ne 690970005) et (msdynce_headersystemstatus ne 690970000) et (msdynce_orderhasexternalmaintainedproductsonly eq true) et (msdyn_linestatus eq 690970000) and (msdynce_headersystemstatus ne 690970004)
+
+[![Mise en correspondance de modèles dans l'intégration de données](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderservicelineused"></a>Ordres d'exécution sur commandes client (Field Service vers Fin and Ops) : WorkOrderServiceLineUsed
+
+Filtre : (msdynce_headersystemstatus ne 690970005) et (msdynce_headersystemstatus ne 690970000) et (msdynce_orderhasexternalmaintainedproductsonly eq true) et ((msdyn_linestatus eq 690970001) ou (msdynce_headersystemstatus eq 690970004))
+
+[![Mise en correspondance de modèles dans l'intégration de données](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderproductlineestimate"></a>Ordres d'exécution sur commandes client (Field Service vers Fin and Ops) : WorkOrderProductLineEstimate
+
+Filtre : (msdynce_headersystemstatus ne 690970005) et (msdynce_headersystemstatus ne 690970000) et (msdynce_orderhasexternalmaintainedproductsonly eq true) et (msdyn_linestatus eq 690970000) and (msdynce_headersystemstatus ne 690970004) et (msdyn_allocated eq true)
+
+[![Mise en correspondance de modèles dans l'intégration de données](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderproductlineused"></a>Ordres d'exécution sur commandes client (Field Service vers Fin and Ops) : WorkOrderProductLineUsed
+
+Filtre : (msdynce_headersystemstatus ne 690970005) et (msdynce_headersystemstatus ne 690970000) et (msdynce_orderhasexternalmaintainedproductsonly eq true) et ((msdyn_linestatus eq 690970001) ou (msdynce_headersystemstatus eq 690970004) ou (msdyn_allocated ne true))
+
+[![Mise en correspondance de modèles dans l'intégration de données](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
 

@@ -19,16 +19,16 @@ ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: ba9c828efc39d45a78500d30295e5d1d6c770c99
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 77f475b0937672af268d6da938d5b2a1c9f6448b
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="retail-peripherals-overview"></a>Vue d'ensemble des périphériques de la vente au détail
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Cette rubrique explique les concepts relatifs aux périphériques de vente au détail. Elle décrit les différentes méthodes de connexion des périphériques au point de vente (PDV) ainsi que les composants en charge de gérer la connexion avec le PDV.
 
@@ -75,11 +75,11 @@ Les périphériques de PDV sont généralement divisés en classes. Cette sectio
 
 ### <a name="printer"></a>Imprimante
 
-Les imprimantes comprennent les imprimantes traditionnelles de tickets de PDV et les imprimantes pleine page. Les imprimante sont prises en charge via le standard Liaison et incorporation d'objets pour PDV (OPOS\\\) et les interfaces de pilotes Microsoft Windows. Il est possible d'utiliser jusqu'à deux imprimantes en même temps. Cette capacité prend en charge les cas où les tickets clients des transactions au comptant sans livraison sont imprimés sur les imprimantes de ticket, alors que les commandes client, qui contiennent plus d'informations, sont imprimées sur une imprimante pleine page. Les imprimantes de tickets peuvent être connectées directement à un ordinateur par USB, à un réseau par Ethernet, ou être connectées par Bluetooth.
+Les imprimantes comprennent les imprimantes traditionnelles de tickets de PDV et les imprimantes pleine page. Les imprimante sont prises en charge via le standard Liaison et incorporation d'objets pour PDV (OPOS) et les interfaces de pilotes Microsoft Windows. Il est possible d'utiliser jusqu'à deux imprimantes en même temps. Cette capacité prend en charge les cas où les tickets clients des transactions au comptant sans livraison sont imprimés sur les imprimantes de ticket, alors que les commandes client, qui contiennent plus d'informations, sont imprimées sur une imprimante pleine page. Les imprimantes de tickets peuvent être connectées directement à un ordinateur par USB, à un réseau par Ethernet, ou être connectées par Bluetooth.
 
 ### <a name="scanner"></a>Scanneur
 
-Il est possible d'utiliser jusqu'à deux lecteur de codes-barres en même temps. Cette capacité prend en charge les cas où, pour accélérer le passage en caisse, il faut utiliser un lecteur plus mobile pour scanner les articles lourds ou volumineux, alors que le lecteur fixe intégré sert à scanner les articles de taille standard. Les lecteurs peuvent être pris en charge par OPOS, par la plateforme UWP (Universal Windows Platform), ou par les interfaces clavier wedge\\\. Un lecteur peut être connecté à un ordinateur par USB ou par Bluetooth.
+Il est possible d'utiliser jusqu'à deux lecteur de codes-barres en même temps. Cette capacité prend en charge les cas où, pour accélérer le passage en caisse, il faut utiliser un lecteur plus mobile pour scanner les articles lourds ou volumineux, alors que le lecteur fixe intégré sert à scanner les articles de taille standard. Les lecteurs peuvent être pris en charge par OPOS, par la plateforme UWP (Universal Windows Platform), ou par les interfaces clavier wedge. Un lecteur peut être connecté à un ordinateur par USB ou par Bluetooth.
 
 ### <a name="msr"></a>LBM
 
@@ -321,7 +321,7 @@ Les périphériques réseau peuvent être pris en charge directement via la stat
 <td>OPOS</td>
 </tr>
 <tr class="odd">
-<td>Terminal de paiement </td>
+<td>Terminal de paiement</td>
 <td><ul>
 <li>Prise en charge de périphérique personnalisée</li>
 <li>Réseau (pour plus d'informations, voir la documentation du connecteur de paiement.)</li>
@@ -405,7 +405,7 @@ Les périphériques réseau peuvent être pris en charge directement via la stat
 <td>OPOS</td>
 </tr>
 <tr class="even">
-<td>Terminal de paiement </td>
+<td>Terminal de paiement</td>
 <td><ul>
 <li>Prise en charge de périphérique personnalisée</li>
 <li>Réseau (pour plus d'informations, voir la documentation du connecteur de paiement.)</li>
@@ -461,7 +461,7 @@ Les périphériques réseau peuvent être pris en charge directement via la stat
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Terminal de paiement </td>
+<td>Terminal de paiement</td>
 <td><ul>
 <li>Prise en charge de périphérique personnalisée</li>
 <li>Réseau (pour plus d'informations, voir la documentation du connecteur de paiement.)</li>
@@ -607,7 +607,7 @@ Les périphériques suivants ont été testés à l'aide de la station matériel
 |--------------|--------|-----------|-------------------------------------------------|
 | VeriFone     | 1000SE | OPOS      | Nécessite la personnalisation du connecteur de paiement |
 
-#### <a name="payment-terminal"></a>Terminal de paiement 
+#### <a name="payment-terminal"></a>Terminal de paiement
 
 | Fabricant | Modèle | Interface | Commentaires                                                                       |
 |--------------|-------|-----------|--------------------------------------------------------------------------------|
@@ -680,7 +680,7 @@ Les périphériques suivants ont été testés à l'aide d'une station matériel
 |--------------|--------|-----------|-------------------------------------------------|
 | VeriFone     | 1000SE | OPOS      | Nécessite la personnalisation du connecteur de paiement |
 
-#### <a name="payment-terminal"></a>Terminal de paiement 
+#### <a name="payment-terminal"></a>Terminal de paiement
 
 | Fabricant | Modèle | Interface | Commentaires                                                                       |
 |--------------|-------|-----------|--------------------------------------------------------------------------------|
@@ -738,7 +738,7 @@ Les périphériques suivants ont été testés à l'aide d'une station matériel
 | Star         | TSP100   | OPOS      | Nécessite les pilotes TSP650II |
 | HP           | F7M67AA  | OPOS      | Alimenté par USB               |
 
-#### <a name="payment-terminal"></a>Terminal de paiement 
+#### <a name="payment-terminal"></a>Terminal de paiement
 
 | Fabricant | Modèle | Interface | Commentaires                                                                       |
 |--------------|-------|-----------|--------------------------------------------------------------------------------|
@@ -783,7 +783,7 @@ Les périphériques suivants ont été testés à l'aide d'une station matériel
 -   Si le périphérique de vente au détail est partagé avec plusieurs périphériques de PDV, assurez-vous qu'il appartient à une des catégories suivantes :
     -   Tiroir-caisse
     -   Imprimante réception
-    -   Terminal de paiement 
+    -   Terminal de paiement
 
     Si le périphérique n'appartient pas à une de ces catégories, la station matérielle n'est pas conçue pour permettre que le périphérique soit partagé entre plusieurs périphériques de PDV.
 -   Parfois, les pilotes de périphérique peuvent empêcher les objets de contrôle commun (CCO) de fonctionner correctement. Si un périphérique a été récemment installé, mais qu'il ne fonctionne pas correctement ou que vous remarquez d'autres problèmes, vous pouvez souvent résoudre ceux-ci en réinstallant les CCO. Pour télécharger les CCO, rendez-vous sur <http://monroecs.com/oposccos_current.htm>.
@@ -801,10 +801,10 @@ Les périphériques suivants ont été testés à l'aide d'une station matériel
     6.  Une fois les hôtes DLL fermés, redémarrez Modern POS.
 
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
-[Simulateur périphérique de vente au détail](dev-itpro/retail-peripheral-simulator.md)
+[Simulateur périphérique pour la vente au détail](dev-itpro/retail-peripheral-simulator.md)
 
 
 

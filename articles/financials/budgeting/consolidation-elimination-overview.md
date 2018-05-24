@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 14b294c1b707236c970c3ff177740a242ec1d834
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d4c966badd87b80e203f475cc632f5388ad1d8e5
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="consolidation-and-elimination-overview"></a>Vue d'ensemble de la consolidation et de l'élimination
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article fournit des informations générales sur le processus de consolidation et d'élimination. Il inclut des réponses à un certain nombre de questions posées fréquemment.
 
@@ -88,7 +88,7 @@ L'option **États financiers** constitue la solution. Les hiérarchies d'organis
 Vous pouvez consolider les données à l'aide de l'option **Exporter soldes de la société** pour exporter à partir d'une instance, puis l'option **Consolider avec importation** sur l'autre instance.
 
 
-Pour plus d'informations, voir [Réévaluation de devise dans une société de consolidation](..\general-ledger\currency-revaluation-consolidation-company.md)
+Pour plus d'informations, voir [Réévaluation de devise dans une société de consolidation](../general-ledger/currency-revaluation-consolidation-company.md)
 
 
 

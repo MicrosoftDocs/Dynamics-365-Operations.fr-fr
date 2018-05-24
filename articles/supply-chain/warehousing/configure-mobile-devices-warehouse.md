@@ -19,16 +19,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e0033461e7cd2601993c006aba2ec7c8f6ac0c89
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: bb0d6af3a17653ea33e3f84a416bda244a27507c
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Paramétrer des appareils mobiles pour un travail d'entrepôt
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article décrit la manière de configurer les options de menu utilisées par les collaborateurs d'entrepôt pour travailler sur un appareil mobile.
 
@@ -407,10 +407,10 @@ Le tableau suivant décrit les différents types de travail avec lesquels vous p
 
 **Remarque :** vous ne pouvez demander la confirmation du produit que pour les types de prélèvement et de rangement.
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
-[Paramètres d'affichage de l'appareil mobile de l'entrepôt](change-warehouse-mobile-device-displays.md)
+[Paramètres d'affichage de l'appareil mobile d'entrepôt](change-warehouse-mobile-device-displays.md)
 
 [Configurer une option de menu de périphérique portable pour terminer le travail du type commande fournisseur (guide de tâche)](tasks/set-up-mobile-device-menu.md)
 

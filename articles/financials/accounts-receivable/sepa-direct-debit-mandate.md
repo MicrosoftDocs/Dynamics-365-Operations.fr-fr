@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 5b9afeb24692010ca5de33156f372d86f167161e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 242d6d3d517ad5190b96ace36bd585a5769ae994
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-sepa-direct-debit-mandate"></a>Paramétrer un mandat de débit direct SEPA
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Un débit direct dans l'Espace unique de paiement en euros (SEPA) permet à un créditeur d'encaisser des fonds à partir du compte bancaire d'un client, à condition que le client ait accordé un mandat signé au créditeur. Le mandat que le client signe autorise le créditeur à encaisser un paiement et demande à la banque du client de payer la créance. Cette rubrique présente le processus de paramétrage des mandats de débit direct SEPA.
 
@@ -49,7 +49,7 @@ Le tableau suivant indique la configuration requise qui doit être en place avan
 -   Facultatif : si vous prévoyez que chacun de vos clients aura plusieurs mandats, dans le champ **Période**, sélectionnez **Facture**. Cette opération crée un paiement distinct pour chaque facture, et chaque paiement utilisera le mandat indiqué pour la facture.
 -   Sélectionnez l'option **Demander un mandat** pour créer des paiements par l'intermédiaire des mandats de débit direct. L'option **Demander un mandat** est uniquement disponible si vous sélectionnez **Paiement électronique** dans le champ **Type de paiement**.
 
-Voir aussi
+Ressources supplémentaires
 
 [Vue d'ensemble du débit direct](sepa-direct-debit-overview.md) 
 

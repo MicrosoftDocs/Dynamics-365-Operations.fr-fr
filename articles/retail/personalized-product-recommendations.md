@@ -20,19 +20,19 @@ ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: c5b9ee57b0b855766628caca239059205c103b86
-ms.openlocfilehash: 4a0586324dddc10d64ad6760222f2540f31d6bce
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 006ea02d4fb10092fed82516f1d17d0da750c6a1
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="personalized-product-recommendations-overview"></a>Vue d'ensemble des recommandations produit personnalisées
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 > [!NOTE]
-> Nous supprimons la version actuelle du service de recommandation de produit car nous remodelons cette fonction avec un meilleur algorithme et de nouvelles fonctionnalités orientées détail. Pour plus d'informations voir [Fonctions supprimées ou obsolètes](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features). Accédez au bas de la page si vous rencontrez des problèmes avec les recommandations produit déjà activées pour votre environnement. 
+> Nous supprimons la version actuelle du service de recommandation de produit car nous remodelons cette fonction avec un meilleur algorithme et de nouvelles fonctionnalités orientées détail. Pour plus d'informations voir [Fonctions supprimées ou obsolètes](../dev-itpro/migration-upgrade/deprecated-features.md). Accédez au bas de la page si vous rencontrez des problèmes avec les recommandations produit déjà activées pour votre environnement. 
 
 Dans Dynamics 365 for Retail, les recommandations de produits peuvent être affichées sur le point de vente (PDV). Les recommandations sont des articles susceptibles d'intéresser les clients en fonction de leur historique d'achat, des articles de leur liste de souhaits et des articles achetés par d'autres clients en ligne ou dans des magasins traditionnels. Pour les détaillants ayant de gros catalogues, les recommandations personnalisées aident le client à découvrir les produits proposés. En mettant en avant des produits ciblés selon les intérêts et les habitudes d'achat des clients, les recommandations de produit peuvent aider les détaillants à réaliser des ventes de gamme supérieure/croisée, et à accroître la conservation des clients. Dans Dynamics 365 for Retail, les recommandations de produit sont fondées sur le Machine learning et les Cognitive Services de Microsoft Azure.
 
@@ -72,7 +72,7 @@ Pour paramétrer des recommandations de produit, procédez comme suit.
 4.  Accédez à **Paramètres des ventes au détail**, sélectionnez **Machine-learning**, sélectionnez **Oui** sous **Accepter des recommandations de PDV**.
 5.  Pour afficher les recommandations sur le PDV, exécutez une tâche de configuration globale **1110**. Pour refléter les modifications effectuées dans le concepteur de mise en page de l'écran du PDV, exécutez la tâche de configuration des canaux **1070**.
 
-## <a name="how-does-it-work"></a>[]()Comment ça fonctionne ?
+## <a name="how-does-it-work"></a>Comment ça fonctionne ?
 Lorsque vous actualisez l'entité **Magasin des entités**, les actions suivantes ont lieu.
 
 -   Les données au format requis par les services cognitifs sont extraites de la base de données Dynamics 365 for Retail et envoyées au magasin des entités.
@@ -91,7 +91,7 @@ Lorsque vous sélectionnez **Activer les recommandations** et exécutez les tâc
 
 
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Ajouter un contrôle de recommandations à la page de transaction sur un périphérique de PDV](add-recommendations-control-pos-screen.md)

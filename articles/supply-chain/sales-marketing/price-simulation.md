@@ -19,16 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 35bf73b63f0b06793df72d4cbb89675f21339127
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6df840de688975b9fa11b866361d88a730426bd0
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="price-simulation"></a>Simulation de prix
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article fournit des informations sur la simulation de prix pour les devis. La simulation de prix vous permet d'évaluer l'effet des déductions sur le futur prix de vente au cours du processus de devis, avant de s'engager à un prix spécifique.
 
@@ -36,7 +36,7 @@ Une simulation de prix pour un devis affiche un nouveau montant total basé sur 
 
 Lors d'une simulation de prix, le prix du devis n'est pas modifié. Si la simulation de prix est appliquée à l'ensemble du devis, elle est considérée comme une remise spéciale sur l'en-tête du devis. Si la simulation de prix est appliquée à des articles spécifiques, elle est considérée comme une remise spéciale sur les lignes du devis. Le prix de vente unitaire sur une ligne de devis créée ne change pas lorsqu'une simulation de prix est appliquée. À la place, un pourcentage de remise qui correspond à la réduction de prix du devis est appliqué. Lorsqu'une simulation de prix est appliquée, le prix de vente unitaire et le pourcentage de remise sont transférés vers la ligne de devis ou l'en-tête du devis.  
 
-**Remarque :** lorsque vous exécutez une simulation de prix, seule la devise de vente actuelle est utilisée pour créer la simulation. Toutefois, lorsque vous affichez les totaux du devis, vous découvrez une combinaison de la devise de la société et de la devise de vente.  
+>[Remarque!] Lorsque vous exécutez une simulation de prix, seule la devise de vente actuelle est utilisée pour créer la simulation. Toutefois, lorsque vous affichez les totaux du devis, vous découvrez une combinaison de la devise de la société et de la devise de vente.  
 
 Les articles supplémentaires ajoutés à des lignes de devis peuvent engendrer des remises sur une ou plusieurs lignes. Ils peuvent également déclencher des remises totales modifiant l'état des marges contributives et des taux de contribution des lignes de devis et de la remise complète.  
 

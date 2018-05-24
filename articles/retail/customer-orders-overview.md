@@ -20,16 +20,16 @@ ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f68f9dce544256a2b1a9927f019a676a6845f46d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f46cf7d4df4a8cb0ad1846882292965aa492239b
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="customer-orders-overview"></a>Vue d'ensemble des commandes client
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Cette rubrique fournit des informations sur les commandes client dans Retail Modern POS (MPOS). Les commandes client sont également appelées commandes spéciales. La rubrique inclut une discussion sur les paramètres associés et les flux de transaction.
 
@@ -95,7 +95,7 @@ Les commandes client peuvent être créées à partir du client de point de vent
 
 Lorsque l'option **Créer une commande client en mode asynchrone** est définie sur **Oui**, les commandes client sont toujours créées en mode asynchrone, même si Retail Transaction Service (RTS) est disponible. Si vous définissez cette option sur **Non**, les commandes client sont toujours créées en mode synchrone à l'aide de RTS. Lorsque les commandes client sont créées en mode asynchrone, elles sont extraites et insérées dans Dynamics AX par les tâches de traction Retail (P). Les commandes client correspondantes sont créées dans Retail lorsque l'option **Synchroniser les commandes** est exécutée manuellement ou via un processus de traitement par lots.
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Commandes client hybrides](hybrid-customer-orders.md)

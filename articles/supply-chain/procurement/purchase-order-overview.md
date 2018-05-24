@@ -19,18 +19,18 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: c36795a071cc72721558bfa8984ecf1f47501c91
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d01ef1c496c7c79795d9d740ee755e84434dfdf1
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="purchase-order-overview"></a>Présentation des commandes fournisseur
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Cet article fournit des informations générales sur les commandes fournisseur (CF) et des liens vers d’autres articles qui sont liés aux différentes étapes par lesquelles passe CF.
 
@@ -82,7 +82,7 @@ Le champ **Statut d’approbation** est utilisé lorsqu'une CF passe par un proc
 -   **Confirmée** : ce statut est attribué une fois que la commande a été confirmée. En général, cet état est le dernier état qui est affecté à une commande.
 
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Création de commandes fournisseur](purchase-order-creation.md)

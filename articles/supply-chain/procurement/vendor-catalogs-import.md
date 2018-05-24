@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2018-04-20
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a56e6ea0a8470f205b1c74379c887c0cac85a6b4
-ms.openlocfilehash: c290bcd4787144fb4dd4232c06d2fb9e1e67ca3e
+ms.sourcegitcommit: ac7754bd6361ad74f7ab4d564ae3114dd4b9f165
+ms.openlocfilehash: caf801ea27ade63c24bb0907313e7f8294c50702
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 04/26/2018
 
 ---
 
@@ -59,7 +59,7 @@ Les produits approuvés sont ajoutés au produit générique et sont lancés dan
 
 ## <a name="generate-a-catalog-import-file-template"></a>Génération d'un modèle de fichier d'importation de catalogue
 
-Le modèle de fichier d'importation de catalogue est un fichier XSD standard que vous pouvez utiliser pour créer un fichier DMC pour les produits d'un fournisseur. Le fichier DMC que vous créez permet de créer, de remplacer ou de modifier un catalogue.
+Le modèle de fichier d'importation de catalogue est un fichier XSD que vous pouvez utiliser pour créer un fichier DMC pour les produits d'un fournisseur. Le fichier DMC que vous créez permet de créer, de remplacer ou de modifier un catalogue.
 
 1.  Sélectionnez **Approvisionnements** \> **Catalogues** \> **Catalogues fournisseur** et double-cliquez sur le catalogue à utiliser.
 

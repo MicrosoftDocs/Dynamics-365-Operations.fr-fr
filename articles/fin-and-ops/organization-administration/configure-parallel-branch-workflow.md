@@ -18,16 +18,16 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 88c927505dde933f10f77922397aeb1c89a5fce5
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d0e45f4a6b1f6bcf94103dbcf4a8ca01457dc85d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configure-a-parallel-branch-in-a-workflow"></a>Configurer une branche parallèle dans un workflow
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Pour configurer une branche parallèle, exécutez les procédures suivantes dans l'éditeur de workflow.
 
@@ -47,7 +47,7 @@ Pour concevoir et configurer les éléments d'une branche parallèle, procédez 
 
 
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Création d'un workflow](create-workflow.md)

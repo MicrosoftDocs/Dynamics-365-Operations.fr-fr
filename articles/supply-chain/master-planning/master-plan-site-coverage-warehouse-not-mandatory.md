@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 79582e92daeaf0afb032448d36be12edd0926089
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 0b97f5f9a9a1447027e55d6c6b30253506caff70
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="master-planning-for-site-coverage-warehouse-not-mandatory"></a>Planification pour couverture de site, entrepôt non obligatoire
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit comment un article disposant de la dimension du site comme couverture est planifié.
 
@@ -49,7 +49,7 @@ Le graphique suivant illustre l'exécution du calcul de planification. Les param
 
 
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Planification et fonctionnalité multisite](master-plan-multisite-functionality.md)

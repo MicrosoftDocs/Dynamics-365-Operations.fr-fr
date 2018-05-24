@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: e4892223d1e92e0483a67b1b473ef20c3f68bbfa
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 60f39b19a627e9c3288f30872d237b8c0ccd8ac4
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="inventory-object-values"></a>Valeurs d'un objet de stock
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article fournit des informations sur la manière dont les valeurs d'un objet de stock sont calculées. 
 
@@ -137,7 +137,7 @@ Le tableau suivant donne le résultat du calcul pour un objet de stock. Vous pou
 
 
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Objets de coût](cost-object.md)

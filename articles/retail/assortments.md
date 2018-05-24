@@ -3,27 +3,28 @@ title: Gestion des assortiments
 description: "Cette rubrique explique les concepts fondamentaux relatifs à la gestion des assortiments dans Microsoft Dynamics 365 for Retail et fournit des considérations pour la mise en œuvre de votre projet."
 author: jblucher
 manager: AnnBe
-ms.date: 3/12/2018
+ms.date: 03/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application user
+ms.reviewer: josaw
 ms.search.scope: Retail, Operations
 ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
 ms.translationtype: HT
-ms.sourcegitcommit: 44b0c4e39ac7410d27ce531c898bb8c423af334a
-ms.openlocfilehash: 303f86d6a57e039cb51700744697949845239b10
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 033968667048faf475b13f8fb95e693dc26935ca
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="assortment-management"></a>Gestion des assortiments
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 ## <a name="overview"></a>Vue d'ensemble
 Microsoft Dynamics 365 for Retail fournit des *assortiments* vous permettant de gérer la disponibilité des produits entre plusieurs canaux. Les assortiments déterminent les produits disponibles dans des magasins spécifiques et pendant une période spécifique.
@@ -35,25 +36,25 @@ Le mélange global de produits d'un canal est déterminé par les assortiments p
 ### <a name="basic-assortment-setup"></a>Paramétrage de base des assortiments
 Dans l'exemple suivant, un seul assortiment est configuré pour chaque magasin. Dans ce cas, seul le produit 1 est disponible dans le magasin 1, et seul le produit 2 est disponible dans le magasin 2.
 
-![Chaque produit est disponible dans un magasin](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure1.png?raw=true "Chaque produit est disponible dans un magasin")
+![Chaque produit est disponible dans un magasin](./media/Managing-assortments-figure1.png)
 
 Pour rendre le produit 2 disponible dans le magasin 1, vous pouvez ajouter le produit à l'assortiment 1.
 
-![Produit 2 ajouté à l'assortiment 1](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure2.png?raw=true "Produit 2 ajouté à l'assortiment 1")
+![Produit 2 ajouté à l'assortiment 1](./media/Managing-assortments-figure2.png)
 
 Sinon, vous pouvez ajouter le magasin 1 à l'assortiment 2.
 
-![Magasin 1 ajouté à l'assortiment 2](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure3.png?raw=true "Magasin 1 ajouté à l'assortiment 2")
+![Magasin 1 ajouté à l'assortiment 2](./media/Managing-assortments-figure3.png)
 
 ### <a name="organization-hierarchies"></a>Hiérarchies de l'organisation
 Dans les situations où plusieurs canaux partagent les mêmes assortiments de produits, vous pouvez configurer les assortiments à l'aide de la hiérarchie d'organisation d'assortiments Retail. Lorsque des nœuds de cette hiérarchie sont ajoutés, tous les canaux de ce nœud et ses nœuds enfants sont inclus.
 
-![Hiérarchie d'organisation](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure4.png?raw=true "Hiérarchie d'organisation")
+![Hiérarchie d'organisation](./media/Managing-assortments-figure4.png)
 
 ### <a name="product-categories"></a>Catégories de produits
 De même, côté produit, vous pouvez inclure des groupes de produits à l'aide de hiérarchies de catégories de produits. Vous pouvez configurer des assortiments en incluant un ou plusieurs nœuds de hiérarchie de catégories. Dans ce cas, l'assortiment permet d'inclure tous les produits dans ce nœud de catégorie, ainsi que ses nœuds enfants.
 
-![Catégories de produits](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure5.png?raw=true "Catégories de produits")
+![Catégories de produits](./media/Managing-assortments-figure5.png)
 
 ### <a name="excluded-products-or-categories"></a>Produits ou catégories exclus
 En plus d'inclure des produits et des catégories dans les assortiments, vous pouvez utiliser l'option Exclure pour définir des produits ou des catégories spécifiques à exclure des assortiments. Dans l'exemple suivant, vous souhaitez inclure tous les produits dans une catégorie spécifique, sauf le produit 2. Dans ce cas, vous n'avez pas besoin de définir l'assortiment produit par produit ou de créer des nœuds de catégorie supplémentaires. Au lieu de cela, vous pouvez inclure simplement la catégorie mais exclure le produit.
@@ -61,7 +62,7 @@ En plus d'inclure des produits et des catégories dans les assortiments, vous po
 > [!NOTE]
 > Si un produit est inclus et exclu dans un ou plusieurs assortiments par définition, le produit sera toujours considéré comme exclu.
 
-![Produit exclu](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure6.png?raw=true "Produit exclu")
+![Produit exclu](./media/Managing-assortments-figure6.png)
 
 ### <a name="global-and-released-products"></a>Produits globaux et lancés
 Les assortiments sont définis à un niveau global et peuvent contenir des canaux de plusieurs entités juridiques. Les produits et les catégories inclus dans des assortiments sont également partagés entre plusieurs entités juridiques. Toutefois, un produit doit être lancé pour de pouvoir être vendu, commandée, calculé, ou reçu réellement dans le canal (par exemple, dans le point de vente \[PDV\]). Par conséquent, bien que deux magasins d'entités juridiques distinctes puissent partager un assortiment contenant les mêmes produits, ceux-ci ne sont disponibles que s'ils ont été lancés dans ces entités juridiques.

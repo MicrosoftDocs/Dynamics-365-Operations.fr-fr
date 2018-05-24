@@ -1,5 +1,5 @@
 ---
-title: "Migration de produits et gestion des entrepôts depuis AX 2012 vers Finance and Operations"
+title: "Mettre à niveau la gestion des entrepôts de Microsoft Dynamics AX 2012 vers Finance and Operations"
 description: Cette rubrique fournit une vue d'ensemble des options de migration de produits et des stocks.
 author: perlynne
 manager: AnnBe
@@ -19,56 +19,52 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 92d0b4dd9611de4d717f30dc8736c673835bea29
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e0ff3a22b89ce22096198d2e1dd1ea9ed10239a9
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
-# <a name="migrate-products-and-warehouse-management-from-ax-2012-to-finance-and-operations"></a>Migration de produits et gestion des entrepôts depuis AX 2012 vers Finance and Operations
+# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-finance-and-operations"></a>Mettre à niveau la gestion des entrepôts de Microsoft Dynamics AX 2012 vers Finance and Operations
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-Cette rubrique donne une vue d'ensemble des options de migration de la gestion des produits et des entrepôts dans Microsoft Dynamics 365 for Finance and Operations.
+Cette rubrique fournit une vue d'ensemble du processus de mise à niveau de Microsoft Dynamics AX 2012 R3, exécutant le module WMSII, vers Microsoft Dynamics 365 for Finance and Operations.
 
-<a name="introduction"></a>Introduction
-------------
+Finance and Operations ne prend plus en charge le module **WMSII** hérité de Microsoft Dynamics AX 2012. À la place, vous pouvez utiliser le module **Gestion des entrepôts**. Dans le module WMSII, les dimensions de stock Emplacement et ID palette peuvent être sélectionnées pour le stock financier. Cependant, la dimension de stock ID palette ne peut pas être utilisée pour le stock financier dans Finance and Operations.
 
-Lors d'une mise à niveau vers Finance and Operations, les produits sont bloqués s'ils sont associés à un groupe de dimensions de stockage dont les paramètres ne correspondent pas à la configuration requise pour les paramètres du groupe de dimensions de stockage dans Finance and Operations. Toutefois, après la mise à niveau, vous pouvez utiliser un ensemble d'options de migration dans le processus **Modifier le groupe de dimensions de stockage pour les articles** pour débloquer les produits qui ont été bloqués pendant la mise à niveau. Vous pouvez ensuite traiter les transactions associés à ces produits. Certains articles sont peut-être déjà associés à des groupes de dimensions de stockage dans lesquels les dimensions de stock Site, Entrepôt et Emplacement sont actives et physiquement suivies. Dans ce cas, vous pouvez utiliser le processus **Modifier le groupe de dimensions de stockage pour les articles** pour pouvoir utiliser ces articles dans les processus de gestion des entrepôts. Cette fonction est utile si vous souhaitez utiliser la fonctionnalité de gestion des entrepôts pour les articles existants.
+Lors d'une mise à niveau, tous les produits associés à un groupe de dimensions de stockage qui utilise la dimension de stock ID palette sont identifiés, marqués comme bloqués et non traités pour la mise à niveau.
 
 ## <a name="upgrading-to-finance-and-operations-when-ax-2012-r3-wmsii-is-used"></a>Mise à niveau vers Finance and Operations lorsque AX 2012 R3 WMSII est utilisé
-Finance and Operations ne prend plus en charge le module **WMSII** hérité de Microsoft Dynamics AX 2012. À la place, vous pouvez utiliser le nouveau module **Gestion des entrepôts**. Dans les versions précédentes, les dimensions de stock Emplacement et ID palette pouvaient être sélectionnées pour le stock financier. Toutefois, dans le cadre du processus de mise à niveau, la dimension de stock ID palette ne peut plus être activée pour le stock financier. Tous les produits associés à un groupe de dimensions de stockage qui utilise la dimension de stock ID palette seront bloqués et ne seront pas traités.
+Après la mise à niveau, vous pouvez utiliser un ensemble d'options dans l'écran **Modifier le groupe de dimensions de stockage pour les articles** pour débloquer les produits qui ont été bloqués pendant la mise à niveau, puis traiter les transactions pour ces produits.
 
 ### <a name="enabling-items-in-finance-and-operations"></a>Activation des articles dans Finance and Operations
+Cette modifications est requise, car la traçabilité des articles fait partie des processus de gestion des entrepôts dans Finance and Operations. Pour ces processus, tous les entrepôts et leurs emplacements doivent être associés à un profil d'emplacement. Si vous souhaitez utiliser les processus de gestion des entrepôts, les éléments suivants doivent être configurés :
+-   Les entrepôts existants doivent être activés pour utiliser les processus de gestion des entrepôts 
+-   Les produits lancés existants doivent être associés à un groupe de dimensions de stockage qui utilise les processus de gestion des entrepôts 
 
-Dans Finance and Operations, les articles qui sont utilisés dans le cadre des processus de gestion des entrepôts doivent être associés à un groupe de dimensions de stockage dans lequel le paramètre **Utiliser les processus de gestion des entrepôts** est sélectionné. Lorsque ce paramètre est sélectionné, les dimensions de stock Site, Entrepôt, Statut du stock, Emplacement et Contenant deviennent actives. Vous pouvez utiliser ce type de groupe de dimensions de stockage uniquement pour les articles qui sont déjà associés à des groupes de dimensions de stockage dans lesquels la dimension de stock Emplacement est active.
+Si les groupes de dimensions de stockage source utilisent la dimension de stock ID palette, les emplacements du stock disponible existant qui utilisaient la dimension de stock ID palette doivent être associés à un profil d'emplacement dans lequel le paramètre **Utiliser le suivi des contenants** est sélectionné. Si les entrepôts existants ne doivent pas être activés pour utiliser les processus de gestion des entrepôts, vous pouvez modifier les groupes de dimensions de stockage du stock disponible existant en groupes qui gèrent uniquement les dimensions de stock Site, Entrepôt et Emplacement. 
 
-### <a name="items-that-are-blocked-for-inventory-updates"></a>Articles bloqués pour les mises à jour de stock
+> [!NOTE] 
+>  Vous pouvez modifier le groupe de dimensions de stockage pour les articles même si des mouvements de stock en cours existent.
 
+## <a name="find-products-that-were-blocked-because-of-pallet-id"></a>Rechercher des produits qui ont été bloqués en raison de l'ID palette
 Pour afficher la liste des produits lancés qui ont été bloqués pendant la mise à niveau et ne peuvent pas être traités, cliquez sur **Gestion des stocks** &gt; **Paramétrage** &gt; **Stock** &gt; **Articles bloqués pour les mises à jour de stock**.
 
-### <a name="reapplying-blocked-products"></a>Réapplication des produits bloqués
+## <a name="change-storage-dimension-group-for-blocked-products"></a>Modifier le groupe de dimensions de stockage pour les produits bloqués 
+ 
+Pour pouvoir être utilisé dans le cadre d'un processus de gestion des entrepôts, un article doit être associé à un groupe de dimensions de stockage dans lequel la dimension de stock Emplacement est active et le paramètre **Utiliser les processus de gestion des entrepôts** est sélectionné. Lorsque ce paramètre est sélectionné, les dimensions de stock Site, Entrepôt, Statut du stock, Emplacement et Contenant deviennent actives.
 
 Pour débloquer les produits qui ont été bloqués pendant la mise à niveau, vous devez sélectionner un nouveau groupe de dimensions de stockage pour les produits. Notez que vous pouvez modifier le groupe de dimensions de stockage même si des mouvements de stock en cours existent. Pour utiliser les articles qui ont été bloqués pendant la mise à niveau, vous avez deux options :
 
 -   Modifiez le groupe de dimensions de stockage de l'article en un groupe de dimensions de stockage qui utilise uniquement les dimensions de stock Site, Entrepôt et Emplacement. Suite à cette modification, la dimension de stock ID palette n'est plus utilisée.
 -   Modifiez le groupe de dimensions de stockage de l'article en un groupe de dimensions de stockage qui utilise les processus de gestion des entrepôts. Suite à cette modification, la dimension de stock Contenant est à présent utilisée.
 
-### <a name="migration-processes"></a>Processus de migration
-
-Dans Finance and Operations, la traçabilité des articles fait partie des processus de gestion des entrepôts. Pour ces processus, tous les entrepôts et leurs emplacements doivent être associés à un profil d'emplacement. Conceptuellement, si vous souhaitez utiliser les processus de gestion des entrepôts, deux processus doivent être gérés :
-
--   Les entrepôts existants doivent être activés pour utiliser les processus de gestion des entrepôts.
--   Les produits lancés existants doivent être associés à un nouveau groupe de dimensions de stockage qui utilise les processus de gestion des entrepôts.
-
-Si les groupes de dimensions de stockage source utilisent la dimension de stock ID palette, les emplacements du stock disponible existant qui utilisaient la dimension de stock ID palette doivent être associés à un profil d'emplacement dans lequel le paramètre **Utiliser le suivi des contenants** est sélectionné. Si les entrepôts existants ne doivent pas être activés pour utiliser les processus de gestion des entrepôts, vous pouvez modifier les groupes de dimensions de stockage du stock disponible existant en groupes qui gèrent uniquement les dimensions de stock Site, Entrepôt et Emplacement.
-
-### <a name="using-the-warehouse-management-processes"></a>Utilisation des processus de gestion des entrepôts
-
+## <a name="configure-warehouse-management-processes"></a>Configurer les processus de gestion des entrepôts
 Pour pouvoir utiliser des produits lancés dans le module **Gestion des entrepôts**, les produits doivent utiliser un groupe de dimensions de stockage dans lequel le paramètre **Utiliser les processus de gestion des entrepôts** est sélectionné.
 
-#### <a name="enable-warehouses-to-use-warehouse-management-processes"></a>Activer les entrepôts pour utiliser les processus de gestion des entrepôts
+### <a name="enable-warehouses-to-use-warehouse-management-processes"></a>Activer les entrepôts pour utiliser les processus de gestion des entrepôts
 
 1.  Créez au moins un profil d'emplacement.
 2.  Cliquez sur **Gestion des entrepôts** &gt; **Paramétrage** &gt; **Activer les processus de gestion des entrepôts** &gt; **Activer le paramétrage des entrepôts**.
@@ -77,7 +73,7 @@ Pour pouvoir utiliser des produits lancés dans le module **Gestion des entrepô
 5.  Validez les modifications. Dans le cadre du processus de validation, différentes validations de l'intégrité des données se produisent. Dans le cadre d'un processus de mise à niveau plus vaste, les problèmes qui se produisent doivent être ajustés sur l'implémentation source. Dans ce cas, une mise à niveau supplémentaire des données sera nécessaire.
 6.  Traitez les modifications.
 
-#### <a name="change-the-storage-dimension-group-for-items-so-that-it-uses-warehouse-management-processes"></a>Modifier le groupe de dimensions de stockage pour les articles, afin qu'il utilise les processus de gestion des entrepôts
+### <a name="change-the-storage-dimension-group-for-items-so-that-it-uses-warehouse-management-processes"></a>Modifier le groupe de dimensions de stockage pour les articles, afin qu'il utilise les processus de gestion des entrepôts
 
 1.  Créez une valeur **Statut du stock**, puis définissez-la comme **ID statut de stock par défaut** dans les **Paramètres de gestion des entrepôts**.
 2.  Créez un groupe de dimensions de stockage dans lequel le paramètre **Utiliser les processus de gestion des entrepôts** est sélectionné.
@@ -87,6 +83,4 @@ Pour pouvoir utiliser des produits lancés dans le module **Gestion des entrepô
 6.  Dans la page **Modifier le groupe de dimensions de stockage pour les articles**, ajoutez les numéros d'article, les groupes de dimensions de stockage et les groupes de séquences d'unités. Vous pouvez effectuer cette étape directement sur la page, à l'aide de l'intégration Microsoft Office, ou en utilisant le traitement de l'entité de données dans [Gestion des données](../../dev-itpro/data-entities/data-entities.md).
 7.  Validez les modifications. Dans le cadre du processus de validation, différentes validations de l'intégrité des données se produisent. Dans le cadre d'un processus de mise à niveau plus vaste, les problèmes qui se produisent doivent être ajustés sur l'implémentation source. Dans ce cas, une mise à niveau supplémentaire des données sera nécessaire.
 8.  Traitez les modifications. Une mise à jour de toutes les dimensions de stock peut prendre un certain temps. Vous pouvez surveiller la progression à l'aide des tâches de traitement par lots.
-
-
 

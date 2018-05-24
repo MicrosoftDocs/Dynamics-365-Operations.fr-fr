@@ -18,16 +18,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f43b3cc1d41d96b2236d07d05bacc1e1bc25af87
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: eeb56ec9697447ebd2385f3a0a516fcc9dc1bd3e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="new-task-guides-february-2016"></a>Nouveaux guides des tâches (février 2016)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique répertorie les tâches qui ont été publiées dans les bibliothèques Microsoft BPM à compter de février 2016.  Les bibliothèques qui ont été publiées incluent la bibliothèque unifiée APQC (février 2016) pour Microsoft Dynamics AX et Mise en route (février 2016).
 
@@ -719,7 +719,7 @@ La bibliothèque unifiée APQC (février 2016) contient les guides de tâches q
 
  
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Guides de tâches nouveaux ou mis à jour (mai 2016)](new-updated-task-guides-available-may-2016.md)

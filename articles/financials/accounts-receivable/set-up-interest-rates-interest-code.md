@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c0e80bae4716d2b12f515f38d3b641de24680571
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1c19cb68df5be5245722da43f3ef9c2072873a34
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Paramétrage des taux d'intérêt pour un code intérêt
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Les codes intérêt contiennent des paramètres qui déterminent quand les intérêts sont facturés et comment ils sont calculés sur les comptes qui présentent des retards.
 
@@ -56,7 +56,7 @@ Par exemple, pour paramétrer un code intérêt qui évalue 5 % d'intérêts po
 Vous pouvez paramétrer des taux d'intérêt qui calculent un montant spécifié par devise.
 - Un montant des intérêts est spécifié pour chaque devise dans le code intérêt.
 - Vous pouvez spécifier des limites du montant des intérêts facultatives.
-- L'option <strong>Montant** est sélectionnée dans le champ **Calculer les intérêts sur base de</strong> de la page <strong>Paramétrer les codes intérêt</strong>.
+- L'option **Montant** est sélectionnée dans le champ **Calculer les intérêts sur base de** de la page **Paramétrer les codes intérêt**.
 
 Par exemple, pour paramétrer un code intérêt qui évalue un intérêt de 25,00 pour chaque période de 20 jours après la date d'échéance de la transaction pour le paiement de la facture, entrez 20 dans le champ **Calculer les intérêts tous les** et sélectionnez **Jour**.
 

@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5d379b034c996cb0eff20a44960ba1e2701af81a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 942693ed3d2d54c6e973e5d3f86454b195f0fdee
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="purchase-requisition-overview"></a>Présentation des demandes d'achat
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit le workflow de demande d'achat et les différents statuts d'une demande d'achat.
 
@@ -192,7 +192,7 @@ Pour consolider les lignes de demande d'achat approuvées, procédez comme suit 
 5.  Créez des commandes fournisseur pour les lignes de demande consolidées ou pour les lignes de demande d'achat dans une opportunité de consolidation.
 
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Créer un bon de commande pour la consommation (Guide de tâche)](tasks/create-requisition-consumption.md)

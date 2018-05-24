@@ -19,16 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: adbbb36da2bc1e9a2211c703823370571105ecab
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3988c437afda3d57e56a03264d3c1588af497920
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="formula-designer-in-electronic-reporting"></a>Concepteur de formule dans les états électroniques
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit l'utilisation du concepteur de formule dans la génération d'états électroniques. Lorsque vous créez un format pour un document électronique spécifique dans ER, vous pouvez utiliser des formules pour transformer les données afin qu'elles répondent aux exigences d'exécution et de mise en forme du document. Ces formules ressemblent aux formules dans Microsoft Excel. Plusieurs types de fonctions sont pris en charge dans les formules : texte, date et heure, mathématique, logique, informations, conversion du type de données et autre (fonctions spécifiques au métier).
 
@@ -647,7 +647,7 @@ L'indicateur Imprimer le nom de la devise et les paramètres Décimales sont ana
 
 La génération d'état électroniques prend en charge une capacité d'extension de la liste des fonctions utilisées dans les expressions de génération d'états électroniques. Pour cela, certaines opérations d'ingénierie sont requises. Pour obtenir des informations détaillées, consultez [Extension de la liste des fonctions de génération d'états électroniques](general-electronic-reporting-formulas-list-extension.md).
 
-## <a name="see-also"></a>Voir également :
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Vue d'ensemble des États électroniques](general-electronic-reporting.md)
 

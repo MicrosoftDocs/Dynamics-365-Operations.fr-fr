@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 3ec45e7426f65827f161245870f9114e52e035ab
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3d7afda9371b4d21e58f2e56de3d477b1c9950a1
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="maintain-planned-orders"></a>Tenir à jour les ordres prévisionnels
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article fournit des informations sur la gestion des ordres prévisionnels. Il décrit la manière dont vous pouvez mettre à jour le statut des ordres prévisionnels, les confirmer et filtrer les ordres prévisionnels ayant le même statut qu'un ordre prévisionnel sélectionné.
 
@@ -47,7 +47,7 @@ Vous pouvez gérer les ordres prévisionnels à partir de l'espace de travail **
 
 Après confirmation, l'ordre prévisionnel est déplacé vers la section Commandes du module approprié. **Remarque :** vous pouvez cliquer avec le bouton droit sur un ordre prévisionnel ayant un statut particulier et effectuer un filtrage afin de trouver d'autres ordres prévisionnels avec le même statut. Cette fonctionnalité est utile si, par exemple, vous souhaitez filtrer tous les ordres prévisionnels ayant le statut **Approuvé**, afin de les confirmer.
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Plans généraux](master-plans.md)

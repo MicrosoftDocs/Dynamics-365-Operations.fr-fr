@@ -19,21 +19,21 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d67ad79c068651f32ce7dc776bc460698557bc29
-ms.openlocfilehash: a27b21ffcde9bfbb7e6276ef35b2e48bd23af70d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a1449d44149f328f780f02e798c5200595557474
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="connect-the-help-system"></a>Connexion au système d'aide
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit les composants du système d'aide Microsoft Dynamics 365 for Finance and Operations. Elle fournit une vue d'ensemble de la procédure de connexion de ces composants et une synthèse de la création de l'aide personnalisée. 
 
 ## <a name="help-architecture"></a>Architecture de l'aide
-La figure suivante illustre les parties du système d'aide de Finance and Operations. Le système d'aide intégré au produit extrait des articles du site Finance and Operations sur https://docs.microsoft.com, ainsi que les guides de tâche enregistrés dans le Concepteur de processus d'entreprise de Lifecycle Services (LCS) de Microsoft Dynamics. 
+La figure suivante illustre les parties du système d'aide de Finance and Operations. Le système d'aide intégré au produit extrait des articles du site Finance and Operations sur https://docs.microsoft.com, ainsi que les guides de tâche enregistrés dans le Concepteur de processus d'entreprise de Lifecycle Services (LCS). 
 > [!NOTE]
 > Les fonctionnalités indiquées dans le schéma avec un astérisque (\*) sont planifiées, mais ne sont pas encore disponibles. [![Architecture de l'aide](./media/help-architecture.png)](./media/help-architecture.png)
 
@@ -72,10 +72,10 @@ Vous pouvez créer une aide personnalisée pour votre implémentation de Finance
 
 Pour les partenaires, si vous faites d'une bibliothèque une bibliothèque d'entreprise et la comprenez dans une solution, elle sera à la disposition de vos clients. Vous pouvez également faire une copie de la bibliothèque globale unifiée APQC, puis ouvrir votre copie, ouvrir des enregistrements de tâches à partit de celle-ci et enregistrer les enregistrements avec vos modifications. Pour plus d'informations, consultez [Création d'un enregistrement de tâche pour l'utiliser comme documentation ou formation](../../dev-itpro/user-interface/task-recorder.md).
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
-[Vue d'ensemble de l'Aide](help-overview.md)
+[Aperçu de l'aide](help-overview.md)
 
 [Vue d'ensemble de l'enregistreur de tâches](../../dev-itpro/user-interface/task-recorder.md)
 

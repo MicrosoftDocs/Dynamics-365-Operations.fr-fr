@@ -19,16 +19,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9550faec1bbbdc233631e149c09b8e4faf25f5ff
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: fbf7edbd141f5e94c333b64beedf9126d2900d47
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-documentation-or-training-using-task-recordings"></a>Création d'une documentation ou d'une formation à l'aide d'enregistrements de tâche
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique explique ce que sont l'enregistreur de tâches et les guides de tâche, comment créer des enregistrements de tâches, et comment personnaliser les guides de tâches Microsoft et les inclure dans votre rubrique d'aide.
 
@@ -118,7 +118,7 @@ Vous pouvez télécharger et modifier les enregistrements de tâche de Microsoft
 ## <a name="include-your-task-recordings-in-the-help-pane"></a>Intégrer vos enregistrements de tâche dans le volet Aide
 Pour afficher vos propres enregistrements personnalisés de tâche dans le volet Aide afin qu'ils puissent être lus comme guides de tâche ou affichés comme texte, vous devez enregistrer vos enregistrements de tâches dans votre propre bibliothèque BPM, puis mettre à jour vos paramètres du système d'aide pour pointer vers votre bibliothèque BPM. Pour plus d'informations, voir [Connexion au système d'aide.](../../fin-and-ops/get-started/help-connect.md)
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Aperçu de l'aide](../../fin-and-ops/get-started/help-overview.md)

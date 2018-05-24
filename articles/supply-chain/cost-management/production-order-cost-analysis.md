@@ -20,16 +20,16 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7aab1da9c35a2a35e7c759fad57e6daec0d15643
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 40ac5108216fd6d9eb5cd6e76fefd66828a7da84
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="production-order-cost-analysis"></a>Analyse du coût de l'ordre de fabrication
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article fournit des informations sur l'analyse des coûts que vous pouvez effectuer pour les ordres de fabrication terminés et en cours. Analysez les coûts estimés et réels à l'aide de la page Calcul des prix ou les estimations des coûts ou de l'état Estimations et évaluations des coûts. Vous pouvez afficher les informations relatives aux coûts estimés et réels (et à la quantité) pour chaque composant, opération de gamme et coût indirect.
 
@@ -59,7 +59,7 @@ Des états séparés présentent des informations sur chaque type de transaction
 -   **Articles finis en cours**− Cet état répertorie les ordres de fabrication en cours et les transactions déclarées terminées à partir d'une date de transaction spécifiée.
 
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Sources courantes des écarts de production](common-sources-of-production-variances.md)

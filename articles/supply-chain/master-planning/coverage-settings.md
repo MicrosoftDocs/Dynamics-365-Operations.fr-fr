@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 591b1cd739bb3be61299f33f180ca7c264d21a35
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 858328ec60e0ffa5ca46a98b365fb0fc599ae1f0
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="coverage-settings"></a>Paramètres de couverture
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Le calcul PDP/MRP utilise les paramètres de couverture pour calculer les demandes d'articles. 
 
@@ -45,11 +45,11 @@ Vous pouvez spécifier des paramètres de couverture de plusieurs façons :
 
 <!-- -->
 
-- Spécifiez des paramètres de couverture pour un groupe de dimensions. Cliquez sur <strong>Gestion des informations sur les produits &gt; Commun &gt; Produits lancés</strong>. Dans la page <strong>Détails des produits lancés**, sous l'onglet **Général</strong>, dans le groupe <strong>Administration</strong>, cliquez sur le lien <strong>Groupe de dimension de stockage</strong>. Dans la page <strong>Groupe de dimensions de stockage</strong>, sélectionnez le champ <strong>Plan de couverture par dimension</strong> pour créer les paramètres de couverture d'une dimension dans le groupe de dimensions de stockage. Le champ <strong>Plan de couverture par dimension</strong> doit être sélectionné pour toutes les dimensions de produit, telles que la configuration, la couleur, la taille et le style.
+- Spécifiez des paramètres de couverture pour un groupe de dimensions. Cliquez sur **Gestion des informations sur les produits &gt; Commun &gt; Produits lancés**. Dans la page **Détails des produits lancés**, sous l'onglet **Général**, dans le groupe **Administration**, cliquez sur le lien **Groupe de dimension de stockage**. Dans la page **Groupe de dimensions de stockage**, sélectionnez le champ **Plan de couverture par dimension** pour créer les paramètres de couverture d'une dimension dans le groupe de dimensions de stockage. Le champ **Plan de couverture par dimension** doit être sélectionné pour toutes les dimensions de produit, telles que la configuration, la couleur, la taille et le style.
 
 
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Plans généraux](master-plans.md)

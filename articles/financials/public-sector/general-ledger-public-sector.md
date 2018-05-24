@@ -20,16 +20,16 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 9b6c695ecf58e9856ab12dc20147edf09354a3e0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d6927eced6b7c36f89a958800b6e1e6aed1d178f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="general-ledger-in-the-public-sector"></a>Comptabilité dans le secteur public
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit la fonctionnalité de comptabilité disponible pour le secteur public.
 
@@ -59,7 +59,7 @@ Vous pouvez utiliser les définitions de validation pour créer des lignes de jo
 ## <a name="how-do-i-collect-and-analyze-data-to-meet-the-common-governmentwide-accounting-classification-cgac-requirements"></a>Comment recueillir et analyser des données pour répondre aux exigences des principales classifications comptables applicables au niveau gouvernemental ?
 Vous pouvez utiliser des hiérarchies financières dérivées afin de recueillir et d'analyser des données de transaction validées pour des numéros de compte principal, des numéros de compte complet et des valeurs de dimension financière spécifiques. Pour plus d'informations, voir [Hiérarchies financières dérivées dans le secteur public](derived-financial-hierarchies-public-sector.md).
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Comptabilité](../general-ledger/general-ledger.md)

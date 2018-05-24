@@ -19,16 +19,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 055001c992e70ceacf57cf25a8bf83207d8d7334
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d9c7bcb8cae7b17636ffc0c87bb1147b9d27a6c8
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="view-financial-reports"></a>Afficher les états financiers
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article décrit comment afficher et explorer les états financiers dans Microsoft Dynamics 365 for Finance and Operations. Il inclut des informations sur les différentes options que vous pouvez appliquer à des états financiers pour modifier leur apparence et les données qu’ils incluent.
 
@@ -84,7 +84,7 @@ Après avoir terminé de définir les options d'impression, cliquez sur **Imprim
 ## <a name="export-a-financial-report"></a>Exporter un état financier
 Pour exporter un état financier, dans le Volet Action, cliquez sur **Exporter**. L'état est exporté vers Microsoft Excel, et votre navigateur vous invite à ouvrir ou enregistrer le fichier exporté. Les paramètres d'exportation définis dans la création de l'état sont appliqués à l'état exporté.    
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Génération d'états financiers pour Microsoft Dynamics AX](../../dev-itpro/analytics/financial-reporting-intro.md)

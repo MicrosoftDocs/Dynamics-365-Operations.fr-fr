@@ -18,16 +18,16 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ab12a55e41cd32c2479eb46796de57926652942f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3ba9025aa5394b29bdba80e589c77fa4bd2bd47f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Nouveautés ou modifications apportées à Dynamics AX 7.0 (février 2016)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics AX 7.0. Cette version contient des fonctions de plateforme et d’application et a été publiée en février 2016.
 
@@ -536,7 +536,7 @@ Aucune nouvelle fonctionnalité n'a été ajoutée :
 </tr>
 <tr class="odd">
 <td>(UE) Déclarez la quantité dans les unités supplémentaires pour la déclaration d'échanges de biens à l’aide du paramètre de conversion d’unité.</td>
-<td>Le code de marchandise de la déclaration d'échanges de biens a un champ de texte pour identifier les unités supplémentaires et la carte **Produit** a un champ pour identifier la quantité d’unités supplémentaires en kilogrammes.</td>
+<td>Le code de marchandise de la déclaration d'échanges de biens a un champ de texte pour identifier les unités supplémentaires et la carte<strong> Produit</strong> a un champ pour identifier la quantité d’unités supplémentaires en kilogrammes.</td>
 <td>Les unités supplémentaires du code de marchandise de la déclaration d'échanges de biens sont choisies dans la liste des unités. La quantité d’unités supplémentaires est calculée au moyen des paramètres de conversion d’unité.</td>
 <td>Cela unifie l’approche pour le nouveau calcul d’unités de transaction dans les unités supplémentaires.</td>
 </tr>
@@ -1081,7 +1081,7 @@ Aucune nouvelle fonctionnalité n'a été ajoutée :
 
 
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Ce qui est nouveau ou modifié](whats-new-changed.md)

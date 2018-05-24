@@ -19,18 +19,18 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: 325807509601d02bad079e5ac60576e1f708e5cd
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 475470fa87455e187e0a93148046cb1df634da1f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="approve-and-confirm-purchase-orders"></a>Approuver et confirmer des commandes fournisseur
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Cet article décrit les statuts par lesquels passe une commande fournisseur (CF) après qu'elle a été créée et les conséquences de l’activation de la gestion des modifications sur les CF.
 
@@ -75,10 +75,10 @@ Si une partie de la quantité commandée d'une ligne de CF a été livrée, vous
 
 Une fois qu'une commande a été confirmée, vous ne pouvez plus la supprimer. Toutefois, vous pouvez annuler la quantité totale ou la quantité restante d’une commande, sous réserve que la quantité n’a pas été reçue ou facturée.
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
-[Présentation des commandes fournisseur](purchase-order-overview.md)
+[Vue d'ensemble des commandes fournisseur](purchase-order-overview.md)
 
 [Création de commandes fournisseur](purchase-order-creation.md)
 

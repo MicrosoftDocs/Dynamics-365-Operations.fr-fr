@@ -19,16 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9c2f8fd846181c404492ff32907a3396beb90685
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 79e0ce728cb3c1eec450d0814d0a3aeda131fe89
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="warehouse-configuration"></a>Configuration de l'entrepôt
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article explique comment configurer un entrepôt. Elle contient des informations sur l'activation d'une présentation d'entrepôt et sur les processus d'entrepôt.
 
@@ -112,7 +112,7 @@ Comme leur nom l'indique, les directives d'emplacement sont utilisées pour diri
 
 Pour faciliter et accélérer la définition des actions associées à chaque ligne de directive d'emplacement, utilisez l'une des stratégies prédéfinies. Par exemple, vous pouvez utiliser la stratégie **Emplacement vide sans travail entrant** pour rechercher des emplacements libres dans un entrepôt, ou vous pouvez utiliser la stratégie **Réservation de traitement par lots FEFO** pour le prélèvement sortant des ventes.
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Configurer l'emplacement dans un entrepôt compatible WMS (guide de tâche)](tasks/configure-locations-wms-enabled-warehouse.md)

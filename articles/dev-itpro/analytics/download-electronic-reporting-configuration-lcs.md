@@ -19,16 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: a4411b25285128c849a715fdc7a2f5fe51580a3b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1a4e8c25fb65b35a52a0d1bc0f1a745c06ca53ab
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>Télécharger les configurations des états électroniques à partir de Lifecycle Services
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique explique comment télécharger des configurations d'états électroniques à partir de Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -58,10 +58,10 @@ Ce didacticiel vous guide via le processus de téléchargement de la version la 
 
 **Remarque :** Selon les paramètres d'états électroniques, les configurations sont validées après leur importation. Il est possible que vous soyez averti des problèmes d'incohérences qui sont détectés. Vous devez résoudre ces problèmes avant d'utiliser la version de configuration importée. Pour plus d'informations, voir la liste des articles associés pour cette rubrique.
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
-[Vue d'ensemble des États électroniques](general-electronic-reporting.md)
+[Vue d'ensemble des états électroniques](general-electronic-reporting.md)
 
 
 

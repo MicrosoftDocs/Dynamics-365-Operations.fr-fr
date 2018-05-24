@@ -18,20 +18,20 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: 838dc40fb3fa2b0de7fa131850754c3674266d73
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c7fc274bb9d942e85012211b1a7a14873447e5f3
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="new-or-updated-task-guides-august-2016"></a>Guides de tâches nouveaux ou mis à jour (août 2016)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique répertorie les guides de tâches nouveaux ou mis à jour ont été publiés dans la bibliothèque unifiée APQC (août 2016 - toutes les langues) de Microsoft pour Microsoft Dynamics AX. Aucune nouvelle Bibliothèque de mise en route n'a été publiée.
 
-<a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()Guides de tâches dans la bibliothèque unifiée APQC (août 2016 - toutes les langues) pour Microsoft Dynamics AX
+<a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Guides de tâches dans la bibliothèque unifiée APQC (août 2016 - toutes les langues) pour Microsoft Dynamics AX
 ---------------------------------------------------------------------------------------------------
 
 La bibliothèque unifiée APQC (août 2016 - toutes les langues) contient les guides de tâches qui sont destinés à être utilisés pour de l’aide avec la mise à jour 2 de Microsoft Dynamics AX Platform, la mise à jour 2016 de l'application Dynamics AX et la version de février 2016 de Microsoft Dynamics AX. Pour plus d'informations sur ces versions, voir [Nouveautés ou changements](whats-new-changed.md). Les versions localisées aux guides de tâche sont disponibles dans cette bibliothèque. Pour plus d’informations sur la façon de se connecter au système d’aide dans une bibliothèque de guide de tâche, voir [Prise en main de l'aide](help-overview.md).
@@ -97,7 +97,7 @@ La bibliothèque unifiée APQC (août 2016 - toutes les langues) contient les gu
 
 
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Nouveaux guides des tâches (février 2016)](new-task-guides-available-february-2016.md)

@@ -19,16 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 3954ec2a06c7a2ec964b656e088f8c677094c963
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 61aebf9190bd7f76a8d4d3e80c06adae1d27f7a3
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="distribute-and-complete-a-questionnaire"></a>Distribuer et remplir un questionnaire
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Cette rubrique décrit comment distribuer les questionnaires que vous créez pour qu'ils soient à la disposition de la personne ou du groupe de personnes qui les complèteront. 
 
@@ -124,7 +124,7 @@ Une fois le questionnaire conçu et distribué, il peut être rempli par les per
 
 Les questionnaires peuvent être accessibles à des utilisateurs ou groupes d'utilisateurs spécifiques, ou à tous les utilisateurs d'un réseau.
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Conception de questionnaires](design-questionnaires.md)

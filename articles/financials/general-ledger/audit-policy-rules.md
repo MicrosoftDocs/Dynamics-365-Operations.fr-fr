@@ -19,16 +19,16 @@ ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 31c3fac2117fbc580e0c40d840a037f3073d66b4
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6bebe9ce83c4b979ffbb7c86ef67ad03a650e0c2
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="audit-policy-rules"></a>Règles de stratégie d'audit
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Les stratégies d'audit permettent d'évaluer la conformité des états de dépenses, factures fournisseur et commandes fournisseur avec les règles de stratégie que vous créez. Toutes les règles associées à une stratégie d'audit sont exécutées en mode de traitement par lots selon le programme que vous spécifiez.  Chaque règle de stratégie est une instance d'un type de règle de stratégie. Pour chaque type de règle de stratégie, une seule règle de stratégie peut être active à la fois. 
 
@@ -95,7 +95,7 @@ L'ensemble des règles de stratégie pour une stratégie d'audit spécifique par
 
 
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Violations et incidents de stratégie d'audit](audit-policy-violations-cases.md)

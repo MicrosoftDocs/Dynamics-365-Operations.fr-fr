@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 3679ccf304a32385c162ba3663eba2300f028817
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5599135eebfcffdedaaadec86beb214c5c04cbaf
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="financial-report-components"></a>Composants des rapports financiers
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article décrit l’utilisation des composants ou des blocs élémentaires, de définitions d'état dans la génération d’états financiers. Ces blocs élémentaires incluent les définitions de lignes, les définitions de colonnes et les définitions d'arborescence de génération d'états. Cet article explique comment organiser et verrouiller des blocs élémentaires. 
 
@@ -110,9 +110,9 @@ Lorsque vous ouvrez un bloc élémentaire, d'autres utilisateurs peuvent accéde
 1.  Dans le Concepteur de rapports, sur le menu **Outils**, cliquez sur **Éléments extraits**.
 2.  Dans la boîte de dialogue **Éléments extraits**, activez la case à cocher **Afficher les éléments de tous les utilisateurs**. La liste est mise à jour de manière à afficher tous les blocs élémentaires extraits et les utilisateurs qui ont effectué l'extraction.
 3.  Sélectionnez un bloc élémentaire, puis cliquez sur **Annuler l'extraction**.
-4.  Cliquez sur **Oui** pour vérifier le bloc élémentaire.
+4.  Pour archiver le bloc élémentaire, cliquez sur **Oui**.
 
-## <a name="see-also"></a>Voir également :
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [États financiers](financial-reporting-intro.md)
 

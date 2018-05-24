@@ -16,30 +16,28 @@ ms.assetid:
 ms.search.region: Global
 ms.author: bking
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: bbf4da5a33876973a376a0580fd553e15bd6febc
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7046b687f99df32a3e1410c37c9a30ca285fa08f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="data-validation-workspace"></a>Espace de travail de validation des données
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique fournit une vue d'ensemble de l'espace de travail **Liste de contrôle de contrôle des données** et de la configuration associée.
-
-## <a name="data-validation-checklist-workspace"></a>Espace de travail Liste de contrôle de contrôle des données
 
 L'espace de travail **Liste de contrôle de contrôle des données** vous permet de suivre les processus de validation des données pour les sociétés, les secteurs et les individus. La liste de contrôle peut être utilisée lors d'une implémentation, après une mise à niveau ou après une migration. Selon votre affichage de l'espace de travail **Liste de contrôle de contrôle des données**, vous verrez l'ensemble des tâches et statuts d'un projet de contrôle des données, ou seulement les tâches qui vous sont affectées.
 
 Vous devez commencer par sélectionner un projet de contrôle des données en haut de l'espace de travail. Toutes les données qui figurent sur l'espace de travail sont ensuite filtrées pour le projet de contrôle des données sélectionné.
 
-### <a name="summary-tiles"></a>Vignettes récapitulatives
+## <a name="summary-tiles"></a>Vignettes récapitulatives
 
 Les vignettes **Synthèse** fournissent une vue d'ensemble du processus, et les indicateurs vous permettent d'utiliser le processus de validation de données lors du suivi. Vous pouvez voir toutes les tâches restantes, tâches terminées, tâches en cours et tâches non commencées relatives au processus. Ces informations sont destinées à toutes les sociétés incluses dans le projet de contrôle des données sélectionné.
 
-### <a name="tasks-and-status-section"></a>Section Tâches et statuts
+## <a name="tasks-and-status-section"></a>Section Tâches et statuts
 
 Dans la section **Tâches et statut**, le statut du projet général de contrôle de données s'affiche de plusieurs manières : statut par entité juridique, par zone, puis par liste de tâches. Vous pouvez également sélectionner le filtre pour afficher le statut d'une société spécifique. Chaque onglet de statut fournit une répartition en pourcentage terminé et en nombre de tâches restantes.
 
@@ -52,11 +50,11 @@ Vous pouvez joindre des fichiers, des notes, des images et des URL à une tâche
 
 L'option **Complété par** sera rempli automatiquement à la fin de la tâche avec le nom du collaborateur qui a effectué la tâche. Lorsqu'une tâche est marquée comme terminée, le champ **Date de fin** est automatiquement mis à jour avec la date et l'heure actuelles.
 
-### <a name="configure-data-validation-project-page"></a>Configurer la page du projet de contrôle des données
+## <a name="configure-data-validation-project-page"></a>Configurer la page du projet de contrôle des données
 
 Avant de pouvoir utiliser l'espace de travail **Liste de contrôle de contrôle des données**, vous devez configurer un processus à l'aide de la page **Configuration du projet de contrôle des données**. (Cliquez sur **Espaces de travail** \> **Liste de contrôle de contrôle des données** \> **Configurer le projet de contrôle des données**.)
 
-### <a name="task-areas"></a>Zones des tâches
+## <a name="task-areas"></a>Zones des tâches
 
 Les zones de tâches permettent de regrouper les tâches de validation des données en zones logiques de propriété au sein de votre organisation. Par exemple, la Comptabilité fournisseur, la Comptabilité client ou la Comptabilité peuvent être utilisées comme des zones de tâches.
 

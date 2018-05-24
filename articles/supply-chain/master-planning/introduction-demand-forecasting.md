@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 18ed011fa1c1aa35b4a401d51bffc6af19395577
-ms.openlocfilehash: 6a0455c5d86f953e270501a7f1648f7700f717d0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 20eb67a341f462328bc73907fb3052b3405190d4
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="demand-forecasting-overview"></a>Vue d'ensemble de la prévision de la demande
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 La prévision de la demande est utilisée pour prévoir une demande indépendante des commandes client et une demande dépendante à n'importe quel point de découplage pour les commandes client. Les règles améliorées de réduction de prévision de la demande fournissent une solution idéale pour la personnalisation collective.
 
@@ -72,7 +72,7 @@ Vous pouvez utiliser Finance and Operations pour visualiser et modifier les pré
 ## <a name="limitations"></a>Limites
 La prévision de la demande dans Finance and Operations est un outil qui permet aux clients de l'industrie de fabrication de créer des processus de prévision. Elle offre les principales fonctionnalités d'une solution de prévision de la demande et est conçue de façon à pouvoir être facilement étendue. Il se peut que la prévision de la demande ne convienne pas aux clients des secteurs tels que la vente au détail, la vente en gros, le stockage, le transport ou d'autres services professionnels.
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Paramétrage de la prévision de la demande](demand-forecasting-setup.md)

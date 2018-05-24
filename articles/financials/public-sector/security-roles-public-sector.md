@@ -20,16 +20,16 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 32f22ab1ca64ace467a480161f3b68ea35f8546e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 824579816662c14351eef5ee7ebc07694d43cfd2
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="security-roles-in-the-public-sector"></a>Rôles de sécurité dans le secteur public
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article décrit la fonctionnalité des rôles de sécurité du secteur public. Cette fonctionnalité inclut les rôles de chef de projet et d'acheteurs dans le secteur public.
 
@@ -97,10 +97,10 @@ Le rôle de sécurité **Agent des achats - Secteur public** prend en charge les
 ## <a name="what-do-i-do-next"></a>Que faire ensuite ?
 Une fois les utilisateurs créés, vous les affectez à des rôles sur la page **Affecter des utilisateurs aux rôles**.
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
-[Sécurité basée sur les rôles](../../dev-itpro/sysadmin/role-based-security.md)
+[sécurité basée sur les rôles](../../dev-itpro/sysadmin/role-based-security.md)
 
 
 

@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: ab096bcc7003f60851077d9c7e03b16c5d46ce2a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5819d21a91ac2a7c91f19fd6d80fd7b983411545
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="vendor-portal-user-security"></a>Sécurité de l'utilisateur du portail fournisseur
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article détaille la procédure de paramétrage de la sécurité pour les fournisseurs externes qui utilisent le portail Fournisseur. Ces informations ne s'appliquent qu'aux versions de février 2016 et de mai 2016 de Dynamics AX.
 
@@ -44,7 +44,7 @@ Avant de créer un compte utilisateur pour une personne qui utilise le portail F
 
 Si la même personne a besoin d'accéder au portail Fournisseur pour plusieurs comptes fournisseur (pour différentes entités juridiques, peut-être), chacun des comptes d'utilisateurs de cette personne doit être associé à la même personne à contacter enregistrée. Le rôle **Fournisseur (externe)** inclut toutes les fonctionnalités de base requises afin d'utiliser la fonctionnalité disponible dans le portail Fournisseur. Ce paramétrage permet de garantir que l'interface utilisateur vue par l'utilisateur externe est concentrée uniquement sur le scénario prévu.
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Collaboration du fournisseur](collaborate-vendors-vendor-portal.md)

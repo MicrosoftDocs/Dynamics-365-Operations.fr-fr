@@ -19,16 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6d11e772cfbcd8ab7a0d4a08ccd71049723f9e32
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 338e58522f9b9fba3ce22b22488affbab24b1315
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-variable-compensation-plans"></a>Créer un régime de rémunération variable
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 La rémunération variable compose le salaire irrégulier des employés, comme les primes ou des primes en actions. Cet article décrit les composants qui doivent être définis avant d'utiliser une rémunération variable et inscrire des employés à un régime de rémunération variable.
 
@@ -100,7 +100,7 @@ Vous pouvez utiliser l'onglet **Remplacements** pour remplacer des valeurs spéc
 
 Les **Remplacements organisationnels** permettent de baser la prime d'un employé sur les performances d'un ou plusieurs départements. Le pourcentage qui est réparti entre les départements doit se monter à un total de 100 %. Les performances individuelles d'un employé sont également prises en compte. Ces paramètres sont utilisés uniquement si **Paiement en fonction des résultats** est sélectionné lorsque le processus de rémunération est exécuté.
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Régimes de rémunération](compensation-plans.md)

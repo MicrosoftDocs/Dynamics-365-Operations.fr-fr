@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0235cf112b59ee86f77d26044e47eb9bff8f67db
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b6b5b7e7894cb74e33e08893934b3eaede957556
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Contraintes d'expression et contraintes de table dans les modèles de configuration de produit
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit l'utilisation des contraintes d'expression et de table. Les contraintes permettent de contrôler les valeurs d'attribut que vous pouvez sélectionner lorsque vous configurez des produits pour une commande client, un devis de vente, une commande fournisseur ou un ordre de fabrication. Vous pouvez utiliser des contraintes d'expression ou des contraintes de table selon la façon dont vous préférez créer les contraintes. 
 
@@ -235,7 +235,7 @@ Vous ne pouvez pas utiliser de mots clés réservés comme nom de solveur pour l
 -   Implique
 -   Journal
 -   Max.
--   Min.
+-   Min
 -   Moins
 -   Plus
 -   Puissance
@@ -246,7 +246,7 @@ Vous ne pouvez pas utiliser de mots clés réservés comme nom de solveur pour l
 -   Objectif
 
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Création d'une contrainte d'expression (Guide de tâches)](tasks/add-expression-constraint-product-configuration-model.md)

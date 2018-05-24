@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: fda51a8382cb7d8a9aa7392224486189c442550f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9768154e117ca09ae84c6a9c82d43000752c2b34
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="view-journal-entries-and-transactions"></a>Afficher les entrées de journal et les transactions
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article explique les différentes manières dont vous pouvez afficher les entrées de journal et les transactions. 
 
@@ -54,9 +54,9 @@ Outre les états financiers, vous pouvez utiliser les états suivants de comptab
 -   **Origine de la transaction** – Cet état de transaction affiche le compte par journal, et par devise de transaction, comptable et de déclaration. Il indique également chaque ligne du journal qui a été utilisé comme contrepartie.
 
 
-## <a name="see-also"></a>Voir également :
+## <a name="additional-resources"></a>Ressources supplémentaires
 - [Soldes de la comptabilité](general-ledger-account-balances.md) 
-- [Explorateur de comptabilité source](..\accounts-payable\accounting-source-explorer.md)
+- [Explorateur de comptabilité source](../accounts-payable/accounting-source-explorer.md)
 - [États financiers](financial-reporting-getting-started.md)
 - [Afficher les entrées de journal](tasks/view-journal-entries-or-transactions.md)
 
