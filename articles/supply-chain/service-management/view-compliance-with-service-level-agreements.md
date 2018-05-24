@@ -1,0 +1,53 @@
+---
+title: "Affichage de la conformité avec les contrats SLA"
+description: "Affichage de la conformité avec les contrats SLA."
+author: YuyuScheller
+manager: AnnBe
+ms.date: 05/07/2018
+ms.topic: article
+ms.prod: 
+ms.service: dynamics-ax-applications
+ms.technology: 
+ms.search.form: SMAServiceOrderTable
+audience: Application User
+ms.reviewer: yuyus
+ms.search.scope: Core, Operations
+ms.custom: 
+ms.assetid: 
+ms.search.region: Global
+ms.author: YuyuScheller
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.translationtype: HT
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 16f1d95de155e108a234b4d0a57939faf957968f
+ms.contentlocale: fr-fr
+ms.lasthandoff: 05/08/2018
+
+---
+
+# <a name="view-compliance-with-service-level-agreements"></a><span data-ttu-id="188c4-103">Affichage de la conformité avec les contrats SLA</span><span class="sxs-lookup"><span data-stu-id="188c4-103">View compliance with service level agreements</span></span>    
+
+[!include [banner](../includes/banner.md)]
+
+
+## <a name="view-compliance-with-a-service-level-agreement"></a><span data-ttu-id="188c4-104">Affichage de la conformité avec un contrat SLA</span><span class="sxs-lookup"><span data-stu-id="188c4-104">View compliance with a service level agreement</span></span>
+
+1.  <span data-ttu-id="188c4-105">Cliquez sur **Gestion des services** \> **Commun** \> **Commandes de service** \> **Commandes de service**.</span><span class="sxs-lookup"><span data-stu-id="188c4-105">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span> <span data-ttu-id="188c4-106">Sélectionnez une commande de service et double-cliquez dessus pour ouvrir l'écran indiquant les détails relatifs à la commande.</span><span class="sxs-lookup"><span data-stu-id="188c4-106">Select a service order and double-click to open the details form for the order.</span></span>
+
+2.  <span data-ttu-id="188c4-107">Sous l'onglet **Général**, dans le champ **Conformité**, voyez le pourcentage de temps consacré à la commande de service par rapport au délai spécifié dans le contrat SLA.</span><span class="sxs-lookup"><span data-stu-id="188c4-107">On the **General** tab, in the **Compliance** field, view the percentage of time that was spent on the service order compared to the time frame specified in the service level agreement.</span></span>
+
+
+> [!TIP]
+> <P><span data-ttu-id="188c4-108">Si la valeur du champ <STRONG>Conformité</STRONG> est supérieure à 100, le délai du contrat SLA a été dépassé.</span><span class="sxs-lookup"><span data-stu-id="188c4-108">If the value in the <STRONG>Compliance</STRONG> field is larger than 100, the time limit of the service level agreement has been exceeded.</span></span></P>
+
+
+
+## <a name="see-also"></a><span data-ttu-id="188c4-109">Voir également :</span><span class="sxs-lookup"><span data-stu-id="188c4-109">See also</span></span>
+
+[<span data-ttu-id="188c4-110">Contrats de niveau de service</span><span class="sxs-lookup"><span data-stu-id="188c4-110">Service level agreements</span></span>](service-level-agreements.md)
+
+  
+
+
+

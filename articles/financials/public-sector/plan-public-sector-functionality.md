@@ -20,60 +20,60 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0c09577235fb8917a2df9d50b7eef74bb1c99625
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6be36c04abb08657b2e025270eb7815795bb0224
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
-# <a name="plan-for-public-sector-functionality"></a><span data-ttu-id="3c30a-103">Planification de la fonctionnalité Secteur public</span><span class="sxs-lookup"><span data-stu-id="3c30a-103">Plan for public sector functionality</span></span>
+# <a name="plan-for-public-sector-functionality"></a><span data-ttu-id="537eb-103">Planification de la fonctionnalité Secteur public</span><span class="sxs-lookup"><span data-stu-id="537eb-103">Plan for public sector functionality</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="3c30a-104">Cet article suggère les premières étapes pour paramétrer la fonctionnalité Secteur public dans Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="3c30a-104">This article suggests the first steps to setting up Public sector functionality in Microsoft Dynamics 365 for Finance and Operations.</span></span>
+<span data-ttu-id="537eb-104">Cet article suggère les premières étapes pour paramétrer la fonctionnalité Secteur public dans Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="537eb-104">This article suggests the first steps to setting up Public sector functionality in Microsoft Dynamics 365 for Finance and Operations.</span></span>
 
-<a name="what-should-i-do-first"></a><span data-ttu-id="3c30a-105">Que dois-je faire en premier lieu ?</span><span class="sxs-lookup"><span data-stu-id="3c30a-105">What should I do first?</span></span>
+<a name="what-should-i-do-first"></a><span data-ttu-id="537eb-105">Que dois-je faire en premier lieu ?</span><span class="sxs-lookup"><span data-stu-id="537eb-105">What should I do first?</span></span>
 -----------------------
 
-<span data-ttu-id="3c30a-106">Avant de commencer à ajuster les paramètres et à entrer vos données, vous devez prendre en compte les modules Finance and Operations que vous devez paramétrer pour votre organisation du secteur public.</span><span class="sxs-lookup"><span data-stu-id="3c30a-106">Before you begin to adjust the settings and input your data, you should consider which Finance and Operations modules you’ll need to set up for your Public sector organization.</span></span> <span data-ttu-id="3c30a-107">La fonctionnalité Secteur public est intégrée aux modules Finance and Operations et produits Microsoft suivants :</span><span class="sxs-lookup"><span data-stu-id="3c30a-107">Public sector functionality is integrated with the following Finance and Operations modules and Microsoft products.</span></span>
+<span data-ttu-id="537eb-106">Avant de commencer à ajuster les paramètres et à entrer vos données, vous devez prendre en compte les modules Finance and Operations que vous devez paramétrer pour votre organisation du secteur public.</span><span class="sxs-lookup"><span data-stu-id="537eb-106">Before you begin to adjust the settings and input your data, you should consider which Finance and Operations modules you’ll need to set up for your Public sector organization.</span></span> <span data-ttu-id="537eb-107">La fonctionnalité Secteur public est intégrée aux modules Finance and Operations et produits Microsoft suivants :</span><span class="sxs-lookup"><span data-stu-id="537eb-107">Public sector functionality is integrated with the following Finance and Operations modules and Microsoft products.</span></span>
 
-### <a name="accounts-payable"></a><span data-ttu-id="3c30a-108">Module Comptabilité fournisseur</span><span class="sxs-lookup"><span data-stu-id="3c30a-108">Accounts payable</span></span>
+### <a name="accounts-payable"></a><span data-ttu-id="537eb-108">Module Comptabilité fournisseur</span><span class="sxs-lookup"><span data-stu-id="537eb-108">Accounts payable</span></span>
 
-<span data-ttu-id="3c30a-109">page de garde de l'état de paiement générer Montants des lignes de commande fournisseur</span><span class="sxs-lookup"><span data-stu-id="3c30a-109">Cover page for payments report Purchase order line amounts</span></span>
+<span data-ttu-id="537eb-109">page de garde de l'état de paiement générer Montants des lignes de commande fournisseur</span><span class="sxs-lookup"><span data-stu-id="537eb-109">Cover page for payments report Purchase order line amounts</span></span>
 
-### <a name="accounts-receivable"></a><span data-ttu-id="3c30a-110">Module Comptabilité client</span><span class="sxs-lookup"><span data-stu-id="3c30a-110">Accounts receivable</span></span>
+### <a name="accounts-receivable"></a><span data-ttu-id="537eb-110">Module Comptabilité client</span><span class="sxs-lookup"><span data-stu-id="537eb-110">Accounts receivable</span></span>
 
-<span data-ttu-id="3c30a-111">Classification de facturation Champs personnalisés de code personnalisé de facturation Codes de facturation Champs personnalisés de facture financière Lignes d'intérêt Codes partenaires commerciaux</span><span class="sxs-lookup"><span data-stu-id="3c30a-111">Billing classifications Billing code custom fields Billing codes Free text invoice line custom fields Interest lines Trading partner codes</span></span>
+<span data-ttu-id="537eb-111">Classification de facturation Champs personnalisés de code personnalisé de facturation Codes de facturation Champs personnalisés de facture financière Lignes d'intérêt Codes partenaires commerciaux</span><span class="sxs-lookup"><span data-stu-id="537eb-111">Billing classifications Billing code custom fields Billing codes Free text invoice line custom fields Interest lines Trading partner codes</span></span>
 
-### <a name="budgeting"></a><span data-ttu-id="3c30a-112">Budget</span><span class="sxs-lookup"><span data-stu-id="3c30a-112">Budgeting</span></span>
+### <a name="budgeting"></a><span data-ttu-id="537eb-112">Budget</span><span class="sxs-lookup"><span data-stu-id="537eb-112">Budgeting</span></span>
 
-<span data-ttu-id="3c30a-113">Analyse de budget Analyse de budget pour les budgets révisés Analyse de budget pour les dépenses réelles Analyse de budget pour les engagements Analyse de budget pour les engagements préalables</span><span class="sxs-lookup"><span data-stu-id="3c30a-113">Budget analysis Budget analysis for revised budgets Budget analysis for actual expenditures Budget analysis for encumbrances Budget analysis for pre-encumbrances</span></span>
+<span data-ttu-id="537eb-113">Analyse de budget Analyse de budget pour les budgets révisés Analyse de budget pour les dépenses réelles Analyse de budget pour les engagements Analyse de budget pour les engagements préalables</span><span class="sxs-lookup"><span data-stu-id="537eb-113">Budget analysis Budget analysis for revised budgets Budget analysis for actual expenditures Budget analysis for encumbrances Budget analysis for pre-encumbrances</span></span>
 
-### <a name="french-regulatory-options"></a><span data-ttu-id="3c30a-114">Options de réglementation française</span><span class="sxs-lookup"><span data-stu-id="3c30a-114">French regulatory options</span></span>
+### <a name="french-regulatory-options"></a><span data-ttu-id="537eb-114">Options de réglementation française</span><span class="sxs-lookup"><span data-stu-id="537eb-114">French regulatory options</span></span>
 
-<span data-ttu-id="3c30a-115">**Remarque** Pour plus d'informations sur les options de réglementation françaises, consultez [Comptabilité du secteur public en France](../localizations/emea-fra-public-sector-accounting.md).</span><span class="sxs-lookup"><span data-stu-id="3c30a-115">**Note** For information about French regulatory options, see [Public sector accounting in France](../localizations/emea-fra-public-sector-accounting.md).</span></span> <span data-ttu-id="3c30a-116">Les pages suivantes ne sont disponibles que si les trois conditions suivantes sont remplies :</span><span class="sxs-lookup"><span data-stu-id="3c30a-116">The following pages are available only if the following conditions are met:</span></span>
+<span data-ttu-id="537eb-115">**Remarque** Pour plus d'informations sur les options de réglementation françaises, consultez [Comptabilité du secteur public en France](../localizations/emea-fra-public-sector-accounting.md).</span><span class="sxs-lookup"><span data-stu-id="537eb-115">**Note** For information about French regulatory options, see [Public sector accounting in France](../localizations/emea-fra-public-sector-accounting.md).</span></span> <span data-ttu-id="537eb-116">Les pages suivantes ne sont disponibles que si les trois conditions suivantes sont remplies :</span><span class="sxs-lookup"><span data-stu-id="537eb-116">The following pages are available only if the following conditions are met:</span></span>
 
--   <span data-ttu-id="3c30a-117">La clé de configuration **Secteur public** est sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="3c30a-117">The **Public sector** configuration key is selected.</span></span>
--   <span data-ttu-id="3c30a-118">La sous-clé de configuration **Réglementation française** est sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="3c30a-118">The **French regulatory** configuration subkey is selected.</span></span>
--   <span data-ttu-id="3c30a-119">L'option **Utiliser les règles comptables du secteur public français** est sélectionnée sur la page **Paramètres du budget**.</span><span class="sxs-lookup"><span data-stu-id="3c30a-119">The **Use French Public sector accounting rules** option is selected on the **Budget parameters** page.</span></span>
+-   <span data-ttu-id="537eb-117">La clé de configuration **Secteur public** est sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="537eb-117">The **Public sector** configuration key is selected.</span></span>
+-   <span data-ttu-id="537eb-118">La sous-clé de configuration **Réglementation française** est sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="537eb-118">The **French regulatory** configuration subkey is selected.</span></span>
+-   <span data-ttu-id="537eb-119">L'option **Utiliser les règles comptables du secteur public français** est sélectionnée sur la page **Paramètres du budget**.</span><span class="sxs-lookup"><span data-stu-id="537eb-119">The **Use French Public sector accounting rules** option is selected on the **Budget parameters** page.</span></span>
 
-<span data-ttu-id="3c30a-120">Synthèse de solde Engagement Clôture d'engagement Tenir à jour les mandats de paiement Tenir à jour les titres de recette Accès du département au contrat d'achat Arborescence des contrats d'achat Seuils de dépense par catégorie Historique des blocages de paiements de factures fournisseur</span><span class="sxs-lookup"><span data-stu-id="3c30a-120">Balance summary Commitment Commitment close Maintain mandats de paiement Maintain titres de recette Purchase agreement department access Purchase agreement tree Spending thresholds by category Vendor invoice payment hold history</span></span>
+<span data-ttu-id="537eb-120">Synthèse de solde Engagement Clôture d'engagement Tenir à jour les mandats de paiement Tenir à jour les titres de recette Accès du département au contrat d'achat Arborescence des contrats d'achat Seuils de dépense par catégorie Historique des blocages de paiements de factures fournisseur</span><span class="sxs-lookup"><span data-stu-id="537eb-120">Balance summary Commitment Commitment close Maintain mandats de paiement Maintain titres de recette Purchase agreement department access Purchase agreement tree Spending thresholds by category Vendor invoice payment hold history</span></span>
 
-### <a name="general-ledger"></a><span data-ttu-id="3c30a-121">Comptabilité</span><span class="sxs-lookup"><span data-stu-id="3c30a-121">General ledger</span></span>
+### <a name="general-ledger"></a><span data-ttu-id="537eb-121">Comptabilité</span><span class="sxs-lookup"><span data-stu-id="537eb-121">General ledger</span></span>
 
-<span data-ttu-id="3c30a-122">Écritures comptables avancées Associer des hiérarchies financières dérivées Hiérarchies financières Filtrer les résultats Types de fonds Fonds Aperçu des transactions de comptabilité de fin d'exercice</span><span class="sxs-lookup"><span data-stu-id="3c30a-122">Advanced ledger entries Associate derived financial hierarchies Derived financial hierarchies Filter results Fund types Funds Preview year end general ledger transactions</span></span>
+<span data-ttu-id="537eb-122">Écritures comptables avancées Associer des hiérarchies financières dérivées Hiérarchies financières Filtrer les résultats Types de fonds Fonds Aperçu des transactions de comptabilité de fin d'exercice</span><span class="sxs-lookup"><span data-stu-id="537eb-122">Advanced ledger entries Associate derived financial hierarchies Derived financial hierarchies Filter results Fund types Funds Preview year end general ledger transactions</span></span>
 
-### <a name="procurement-and-sourcing"></a><span data-ttu-id="3c30a-123">Approvisionnements</span><span class="sxs-lookup"><span data-stu-id="3c30a-123">Procurement and sourcing</span></span>
+### <a name="procurement-and-sourcing"></a><span data-ttu-id="537eb-123">Approvisionnements</span><span class="sxs-lookup"><span data-stu-id="537eb-123">Procurement and sourcing</span></span>
 
-<span data-ttu-id="3c30a-124">Type de certification Codes commande fournisseur de confirmation Montants des lignes des commandes fournisseur</span><span class="sxs-lookup"><span data-stu-id="3c30a-124">Certification type Confirming PO codes Purchase order line amounts</span></span>
+<span data-ttu-id="537eb-124">Type de certification Codes commande fournisseur de confirmation Montants des lignes des commandes fournisseur</span><span class="sxs-lookup"><span data-stu-id="537eb-124">Certification type Confirming PO codes Purchase order line amounts</span></span>
 
 
 
-<a name="see-also"></a><span data-ttu-id="3c30a-125">Voir également :</span><span class="sxs-lookup"><span data-stu-id="3c30a-125">See also</span></span>
+<a name="additional-resources"></a><span data-ttu-id="537eb-125">Ressources supplémentaires</span><span class="sxs-lookup"><span data-stu-id="537eb-125">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="3c30a-126">Fonctionnalité Secteur public</span><span class="sxs-lookup"><span data-stu-id="3c30a-126">Public sector functionality</span></span>](public-sector-functionality.md)
+[<span data-ttu-id="537eb-126">Fonctionnalité Secteur public</span><span class="sxs-lookup"><span data-stu-id="537eb-126">Public sector functionality</span></span>](public-sector-functionality.md)
 
 
 
