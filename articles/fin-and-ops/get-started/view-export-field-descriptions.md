@@ -19,16 +19,16 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0164d64b8c37c19a3b8b13970dbda5927073eca8
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d1ee87dbe9dab089a893d9c69d2573a4c4b11b58
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="view-and-export-field-descriptions"></a>Afficher et exporter les descriptions de champ
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article décrit comment afficher les descriptions des champs et comment utiliser la page Descriptions de champ pour exporter des descriptions.
 
@@ -97,7 +97,7 @@ Pour afficher tous les champs d'une page, définissez l'option **Inclure les cha
 
 Pour plus d’informations sur les différentes façons de trouver une page, consultez la section « Recherche de pages » plus tôt dans cet article. Si vous avez tapé le nom exact de la page, il est possible que les descriptions de champ ne s'affichent pas s'il existe plusieurs pages avec le même nom. Cliquez sur la flèche dans le champ **Sélectionner une page** pour ouvrir une liste filtrée des pages disponibles.
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Personnaliser l'aide du champ](../../dev-itpro/user-interface/customize-field-help.md)

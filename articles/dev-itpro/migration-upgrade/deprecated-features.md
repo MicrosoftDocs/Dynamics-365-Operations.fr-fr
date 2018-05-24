@@ -3,7 +3,7 @@ title: "Fonctionnalités obsolètes"
 description: "Cette rubrique décrit les fonctions qui ont été supprimées, ou qu'il est prévu de supprimer."
 author: sericks007
 manager: AnnBe
-ms.date: 03/22/2018
+ms.date: 05/09/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e629673c3a923ec74809e276ec39464bfacda124
+ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
+ms.openlocfilehash: c935b0c14f09b0a3a738266e4c9c577c96f0ea77
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/09/2018
 
 ---
 
@@ -78,13 +78,13 @@ Ces deux rapports ne sont plus pris en charge dans Finance and Operations. À la
 | **Option de déploiement**        | Tout|
 | **Statut**                       | Déconseillé : les options de menu des deux états ont été supprimées dans la version 7.3. Toutefois, le code des états est conservé dans le produit. L'objectif est de supprimer le code dans une prochaine version. |
 
-### <a name="power-bi-content-packs-published-to-powerbicom"></a>Packs de contenu Power BI publiés sur PowerBI.com
-Les packs de contenu **Gestion des coûts**, **Performances financières** et **Performances du canal de vente au détail**, qui ont été publiés sur le site PowerBI.com, sont déconseillés suite aux mises à jour de produit dans Microsoft Power BI. Les écrans d'administration du système utilisés pour déployer ces packs de contenu sur PowerBI.com sont également déconseillés dans Finance and Operations.
+### <a name="power-bi-content-packs-available-on-appsource"></a>Packs de contenu Power BI disponibles sur AppSource
+Les packs de contenu **Gestion des coûts**, **Performances financières** et **Performances du canal de vente au détail**, disponibles sur le site [Microsoft AppSource](https://appsource.microsoft.com), sont déconseillés suite aux mises à jour de produit dans Microsoft Power BI. Les écrans d'administration du système utilisés pour déployer ces packs de contenu sur PowerBI.com sont également déconseillés dans Finance and Operations.
 
 |   |  |
 |------------|--------------------|
 | **Motif de l'abandon/de la suppression** | Mises à jour de produit dans Microsoft Power BI. |
-| **Remplacé par une autre fonctionnalité ?**   | Les packs de contenu Power BI (publiés sur PowerBI.com) sont remplacés par des applications analytiques qui permettent l'intégration de solutions au niveau de la base de données. Pour plus d'informations sur les applications analytiques, voir [Power BI intégré dans les espaces de travail](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
+| **Remplacé par une autre fonctionnalité ?**   | Les packs de contenu **Gestion des coûts**, **Performances financières** et **Performances du canal de vente au détail**, disponibles sur le site [AppSource](https://appsource.microsoft.com), sont remplacés par des applications analytiques qui permettent l'intégration de solutions au niveau de la base de données. Pour plus d'informations sur les applications analytiques, voir [Power BI intégré dans les espaces de travail](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
 | **Zones de produit affectées**         | Gestion des coûts, Finance et Vente au détail                                                                                               |
 | **Option de déploiement**              | Cloud uniquement (l'intégration à PowerBI.com n'est pas prise en charge dans les déploiements sur site.)                                                                                                            |
 | **Statut**                         | Déconseillé : le délai cible pour la suppression de la fonctionnalité est le deuxième trimestre 2018.    |

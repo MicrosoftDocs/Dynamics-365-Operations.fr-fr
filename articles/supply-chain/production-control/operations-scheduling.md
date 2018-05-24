@@ -20,16 +20,16 @@ ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b9436bcf7a9ebcd19b6b79fdf35280ac586a2333
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 660d6b2dfb5fbed58a5c28b77aac3bb4604c7d8d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="operations-scheduling"></a>Ordonnancement
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique fournit des informations sur l'ordonnancement. Vous pouvez utiliser l'ordonnancement pour fournir une estimation globale du processus de production dans le temps.
 
@@ -75,7 +75,7 @@ Lorsque vous exécutez l'ordonnancement, vous pouvez annuler certaines parties d
 ## <a name="finite-materials"></a>Matières limitées
 Si vous utilisez des matières limitées, la planification dépend également de la disponibilité des matières requises pour la production. Si les composants disponibles ne sont pas suffisants pour la production, la production peut être retardée. Vous pouvez baser la planification sur l'utilisation des matières en spécifiant les matières qui doivent être disponibles pour la production. Lorsque vous optimisez la capacité de la ressource et la disponibilité des matières, la production est calculée selon ces restrictions. Un ordre de fabrication ne peut pas être planifié tant que la capacité et les matières ne sont pas disponibles simultanément et dans les quantités requises.
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Options d'ordonnancement](operation-scheduling-options.md)

@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: a8b2949fde28d83968f45535a5c47f263efbb18f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5f1044e6731fd757532e34292109b9d81ca38719
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="kanban-job-scheduling-for-lean-manufacturing"></a>Planification des tâches de kanban pour lean manufacturing
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article fournit des informations sur le contrôle visuel de la planification des tâches de kanban et différentes manières de planifier des tâches de kanban.  
 
@@ -69,7 +69,7 @@ La capacité disponible par jour ou par semaine est définie par le calendrier a
 
 La page de liste **Planification de tâches de kanban** contient un Récapitulatif qui affiche la capacité de période disponible et réservée pour la cellule de travail sélectionnée. En fonction des périodes de planification sélectionnées dans le modèle de flux de production, les périodes indiquent des jours ou des semaines.
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 

@@ -19,16 +19,16 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c8d2bdd40c16000e080c215aa4eaaf807770949f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e537c19fec5b4ae1964d81d34fe299d477e564ae
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="posting-definitions-in-the-public-sector"></a>Définitions de validation dans le secteur public
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article fournit des exemples de définitions de validation dans le secteur public qui vous permettent de créer les lignes du journal de comptabilité auxiliaire pour les transactions d'origine correspondant aux critères sélectionnés. Ces exemples incluent des affectations budgétaires, des réglementations en espèces regroupés, des radiations, des règlements de contre remboursement, des écritures comptables avancées, une clôture de fin d'exercice de comptabilité et des fonds propriétaires.
 
@@ -609,14 +609,14 @@ Dans cet exemple, le fonds 601 est défini en tant que classe de fonds **Propri�
 
 La définition de validation recherche un rapprochement avec toute partie du compte de la structure de compte Dépenses. C'est pourquoi, lorsque 601-66100-130- est évalué, le même compte général est utilisé, le montant est contrepassé pour clôturer le compte et l'écriture comptable générée par le solde est créée.
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
-[Comptabilité fournisseur](../accounts-payable/accounts-payable.md)
+[Module Comptabilité fournisseur](../accounts-payable/accounts-payable.md)
 
-[Comptabilité fournisseur dans le secteur public](accounts-payable-public-sector.md)
+[Comptabilité fournisseur (Secteur public)](accounts-payable-public-sector.md)
 
-[Comptabilité client dans le secteur public](accounts-receivable-public-sector.md)
+[Comptabilité client (Secteur public)](accounts-receivable-public-sector.md)
 
 [Budgétisation dans le secteur public](budgeting-public-sector.md)
 

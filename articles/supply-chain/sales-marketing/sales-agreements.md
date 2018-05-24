@@ -19,16 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 21e9c53f39b0f4def0052bf7f04c77279bfc610b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4db47f445fe820e65389799ddcb6ea4a99949178
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="sales-agreements"></a>Contrats de vente
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique fournit des informations sur les contrats de vente. Un contrat de vente est un contrat qui engage le client à acheter une certaine quantité ou un certain montant de produit sur une période définie en échange de prix spéciaux et de remises.
 
@@ -38,7 +38,7 @@ La période de validité d'un contrat de vente est définie par les champs **Dat
 
 Vous pouvez créer une commande client directement à partir d'un contrat de vente à l'aide de l'action **Lancer la commande**. Vous pouvez également sélectionner un contrat de vente en vigueur lorsque vous acceptez des commandes (voir la section « Application des contrats de vente dans le processus de commande » de cet article).  
 
-**Remarque :** dans les versions antérieures de , les contrats de vente étaient nommés Commandes ouvertes vente.
+> [Remarque!] Dans les versions antérieures, les contrats de vente étaient nommés Commandes ouvertes vente.
 
 ## <a name="commitment-types"></a>Types d'engagements
 Chaque ligne d'un accord de vente exprime un engagement à vendre quelque chose. En général il existe deux catégories d'engagement :

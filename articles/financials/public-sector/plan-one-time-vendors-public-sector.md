@@ -20,16 +20,16 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 495f867385d4f842e9cdd2c78432ccdcd27919cd
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 90f409c170da0a2c7bc0b55512a39f2d0ea2513b
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="plan-for-one-time-vendors-in-the-public-sector"></a>Planifier pour les fournisseurs occasionnels dans le secteur public
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article fournit des informations sur l'importation et la création de fournisseurs occasionnels et de factures. 
 
@@ -100,12 +100,12 @@ Le tableau suivant répertorie les champs que le fichier d'importation doit cont
 ## <a name="what-do-i-do-next"></a>Que faire ensuite ?
 Après avoir paramétré les conditions préalables nécessaires, consultez [Fournisseurs occasionnels dans le secteur public](one-time-vendors-public-sector.md).
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
-[Fournisseurs occasionnels dans le secteur public](one-time-vendors-public-sector.md)
+[Fournisseurs occasionnels (Secteur public)](one-time-vendors-public-sector.md)
 
-[Comptabilité fournisseur dans le secteur public](accounts-payable-public-sector.md)
+[Comptabilité fournisseur (Secteur public)](accounts-payable-public-sector.md)
 
 
 

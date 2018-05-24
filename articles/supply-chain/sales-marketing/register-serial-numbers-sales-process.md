@@ -20,24 +20,22 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 23683ff3b232d485d0e4386963b3dcf37cd96c6f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 62f59c857980932f4cf75d928deb0f89fae2f8eb
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="register-serial-numbers-in-the-sales-process"></a>Numéros de série de la caisse enregistreuse dans le processus de vente
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Cette rubrique explique comment vous pouvez enregistrer des numéros de série sur des bons de livraison ou des factures pendant le processus de vente. Cette fonctionnalité est utile si une société souhaite capturer des numéros de série à des fins de service et de garantie, sans avoir à mettre à jour des numéros de série dans le stock de la réception à la sortie.
 
 De nombreuses sociétés souhaitent simplement capturer des numéros de série à des fins de service et de garantie, et ne doivent pas mettre à jour des numéros de série dans le stock (de la réception à la sortie). Dans ces scénarios, Microsoft Dynamics 365 for Finance and Operations permet d'enregistrer les numéros de série sur les bons de livraison ou les factures lorsque les produits sont vendus. Si des produits sont ultérieurement renvoyés, vous pouvez ensuite suivre un produit sur une facture pour déterminer si vous avez vendu le produit, et si le service ou les obligations de garantie sont valides.
-Y-a-t-il une configuration requise ?
-----------------------------
 
 Vous devez activer les numéros de série pour le processus de vente en sélectionnant l'option **Actif dans le processus de vente** sur la page **Groupes de dimension de suivi**. Les événements suivants se produisent dans Microsoft Dynamics 365 for Finance and Operations :
 -   Sur l'organisateur **Numéros de série**, l'option **Contrôle des numéros de série** est sélectionnée. Si cette option est sélectionnée, vous devez enregistrer un numéro de série pour chaque article figurant sur le bon de livraison ou sur la facture.
@@ -71,8 +69,8 @@ Non, vous ne pouvez pas afficher les articles fabriqués en série disponibles, 
 
 ## <a name="can-i-register-serial-numbers-for-catchweight-items"></a>Est-ce que je peux enregistrer les numéros de série pour les articles de poids variable ?
 Non, vous ne pouvez pas enregistrer des numéros de série pour les articles de poids variable dans le processus de vente. Vous ne pouvez pas non plus affecter un produit défini comme article de poids variable à un groupe de dimensions de suivi paramétré pour utiliser des numéros de série uniquement lors du processus de vente.
-Puis-je enregistrer les numéros de série au point de vente au détail ?
-------------------------------------------------
+
+## <a name="can-i-register-serial-numbers-at-the-retail-pos"></a>Puis-je enregistrer les numéros de série au point de vente au détail ?
 
 Oui, le point de vente au détail invitera l'utilisateur à saisir un numéro de série lorsque l'utilisateur vend un article affecté un groupe de dimensions de suivi paramétré pour utiliser des numéros de série uniquement lors du processus de vente.
 

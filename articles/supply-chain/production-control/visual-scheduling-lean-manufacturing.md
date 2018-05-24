@@ -20,16 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 6218f54364e096bdd718ea35edb0b3666e65f2c1
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d2ead061fe39c3dcb54d697f246c2c826339b699
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="visual-scheduling-for-lean-manufacturing"></a>Planification visuelle pour Lean manufacturing
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique fournit des informations relatives à la carte de programme du kanban, que le gestionnaire de production peut utiliser pour contrôler et optimiser le plan de production pour les tâches de kanban.
 
@@ -91,7 +91,7 @@ Vous pouvez ouvrir la carte de programme du kanban à l'aide de l'option de menu
 -   Page **Visualisation du flux de production**
 
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Lean manufacturing – Planification des tâches de kanban](lean-manufacturing-kanban-job-scheduling.md)

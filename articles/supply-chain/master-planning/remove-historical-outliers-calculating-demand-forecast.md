@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: ea3f08b20e25af6ebb738c2373b65532d74a0c80
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b4805d343518a880ad0d6e6568c5493583a17783
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="remove-outliers-from-historical-transaction-data-when-calculating-a-demand-forecast"></a>Supprimer les valeurs hors norme des données de transaction historiques lors du calcul d'une prévision de la demande
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette article décrit la procédure d'exclusion des valeurs hors norme des données historiques utilisées pour calculer une prévision de la demande. En excluant des les valeurs hors normes, vous pouvez améliorer la précision de prévision.
 
@@ -43,7 +43,7 @@ Vous pouvez exclure les valeurs hors normes pour améliorer la précision de pr�
 
 **Remarque :** vous pouvez également créer une requête basée sur une requête existante. Sélectionnez la requête à copier, puis cliquez sur **Dupliquer**. Le champ **Date de la requête** identifie la version. Vous pouvez utiliser la requête telle qu'elle est, ou vous pouvez cliquer sur **Modifier la requête** pour modifier les critères. Vous pouvez également, si vous le souhaitez, modifier le nom et la description de la nouvelle requête.
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Présentation de la prévision de la demande](introduction-demand-forecasting.md)

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: JmgProdStatusListPage, JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview
+ms.search.form: JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview, EcoResProductDiscreteManufacturingWorkspace, KanbanPrepareProductForLeanWorkspace, EcoResProductProcessManufacturingWorkspace, OpResLifecycleManagementWorkspace
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 779b27574a9d6d7e7aa6b71f468ba3cff8d4085a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8a12627db93b131450015539bb92ea4780518ed3
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="production-process-overview"></a>Vue d'ensemble du processus de fabrication
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique donne une vue d'ensemble des processus de production. Il décrit les différents stades des ordres de fabrication, des lots de commandes et des kanbans, de la création à la clôture de la période financière. 
 
@@ -78,7 +78,7 @@ Les étapes suivantes dans le cycle de vie de la production peuvent se produire 
 12. **Clôture de période** – Certains principes de contrôle de gestion, tels que la moyenne périodique, le coût de post-consommation, FIFO ou LIFO, exigent que les activités périodiques clôturent la période du stock ou financière. En général, le système essaie de déclarer la consommation de toutes les matières et de toutes les ressources, ainsi que les corrections du stock et la mise au rebut, avant la clôture des périodes. Cette déclaration est généralement effectuée à l'aide de journaux de mouvements de stock ou des journaux d'ajustement. L'objectif consiste à évaluer la performance économique des unités opérationnelles par période. Dans certains cas, lorsque les ordres de fabrication à long terme sont utilisés couvrant les périodes des états financiers, les journaux de production sont utilisés pour déclarer la progression de la production et la consommation des ressources d'ici à la fin de la période.
 
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Rétroaction de production](production-feedback.md)

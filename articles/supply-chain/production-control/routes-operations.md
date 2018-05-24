@@ -20,16 +20,16 @@ ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7af00d0c66f70aa41cfab0ffccef39ba4c115803
-ms.openlocfilehash: 4026fa937ddf88f006cdcd13a8eda10c326ada62
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 95e7f5179ac88c0cd6b2336a914c2c527d37d57f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="routes-and-operations"></a>Gammes et opérations
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique fournit des informations sur les gammes et les opérations. Une gamme définit le processus de fabrication d'un produit ou d'une variante de produit. Elle décrit chaque étape (opération) dans le processus de fabrication et l'ordre dans lequel ces étapes doivent être effectuées. Pour chaque étape, la gamme définit également les ressources opérationnelles requises, la durée de configuration et d'exécution requise et la manière dont le coût doit être calculé.
 
@@ -230,7 +230,7 @@ Si vous ne spécifiez pas de ressource opérationnelle ou de groupe de ressource
 -   **Lot de ressource** – Cette option est fondamentalement la même que l'option **Lot**. Toutefois, le calcul comprend le champ **Capacité de lot** issu des ressources opérationnelles. Par conséquent, la durée dépend des ressources.
 
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Nomenclatures et formules](bill-of-material-bom.md)

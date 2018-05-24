@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 81c09c551dfa4238782c3796f5d08990b30ca575
-ms.openlocfilehash: 95669d83fdf69a6d55dd7ee1e4e33a67108e0371
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 73d1a3316db7589d114c70a4dbf847dc67aa077b
 ms.contentlocale: fr-fr
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="generate-a-financial-report"></a>Générer un état financier
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique fournit des informations sur la génération d'un état financier. 
 
@@ -155,11 +155,11 @@ Lorsque vous exécutez une analyse de compte manquante, les raccourcis clavier s
 | Exclure le bloc élémentaire sélectionné  | Alt + X                      |
 | Exclure la définition de ligne sélectionnée  | Ctrl + B                     |
 | Exclure la valeur de dimension sélectionnée | Ctrl + D                     |
-| Ouvrir la définition d'état sélectionnée  | Ctrl+R                     |
-| Ouvrir la définition de ligne sélectionnée     | Ctrl+O                     |
+| Ouvrir la définition de rapport sélectionnée  | Ctrl + R                     |
+| Ouvrir la définition de ligne sélectionnée     | Ctrl + O                     |
 
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [États financiers](financial-reporting-intro.md)

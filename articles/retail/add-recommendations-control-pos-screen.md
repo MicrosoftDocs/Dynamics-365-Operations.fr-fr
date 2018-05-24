@@ -20,16 +20,16 @@ ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 16bdf2176869e5822ddf8732c829b65f1e60632c
-ms.openlocfilehash: b99d1d30fc320bca5c49921b7c4ccdd7e977f67c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: eac70614770189d1e45f347b282c94e645e95b00
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="add-a-recommendations-control-to-the-transaction-page-on-a-pos-device"></a>Ajouter un contrôle de recommandations à la page de transaction sur un périphérique de PDV
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 > [!NOTE]
 > Nous supprimons la version actuelle du service de recommandation de produit car nous remodelons cette fonction avec un meilleur algorithme et de nouvelles fonctionnalités orientées détail. Pour plus d'informations voir [Fonctions supprimées ou obsolètes](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features). 
@@ -78,10 +78,10 @@ Deux options de configuration sont disponibles. Choisissez l'option qui convient
 12. Cliquez sur **Exécuter maintenant**.
 
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
-[Vue d'ensemble des recommandations de produit personnalisées](personalized-product-recommendations.md)
+[Vue d'ensemble des recommandations produit personnalisées](personalized-product-recommendations.md)
 
 
 

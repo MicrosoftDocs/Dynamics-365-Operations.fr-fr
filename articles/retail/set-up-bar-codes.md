@@ -20,16 +20,16 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: fdc56bf468babd4b0b0652d9791114af676c8470
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e4ad8c2a984229b96cc5b81c0fd505a264ba58f0
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-bar-codes"></a>Paramétrer les codes-barres
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Cet article décrit l'utilisation des codes-barres dans Microsoft Dynamics 365 for Retail.
 
@@ -41,10 +41,10 @@ Vous pouvez utiliser les codes-barres pour acheter et vendre des articles, des v
 4.  Créez les codes-barres pour les produits spécifiques.
 
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
-[Paramétrage de masques de codes-barres](set-up-bar-code-masks.md)
+[Paramétrer des masques de codes-barres](set-up-bar-code-masks.md)
 
 
 

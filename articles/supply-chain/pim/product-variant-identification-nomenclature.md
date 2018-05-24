@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 6a620f2a0105d578d419d3aac816c7d78fbf3e46
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3baf1d7313d8ff03ae5ece035b6f3641c0f1d707
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="nomenclature-of-product-variant-numbers-and-names"></a>Nomenclature de numéros et de noms de variante de produit
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit la procédure de paramétrage d'une nomenclature de numéros de produit pour remplacer le format [Numéro du produit générique - Configuration - Taille - Couleur - Style] fixe. La nouvelle nomenclature a un format ciblé qui inclut le numéro du produit générique, les dimensions du produit actif et les séparateurs de texte de votre choix. Vous pouvez également créer une nomenclature pour les noms de produit. Enfin, vous pouvez créer une nomenclature afin d'identifier les configurations créées par le configurateur de produit basé sur les contraintes. Ces nomenclatures peuvent contenir des attributs de votre choix.
 
@@ -192,10 +192,10 @@ Selon la nomenclature, le système peut tenter d'affecter un numéro de variante
 
 Au cours d'une étape du processus de configuration, le système suggère une valeur de configuration selon la nomenclature. À cette étape, vous pouvez modifier manuellement la valeur de la configuration. Lorsque vous enregistrez la configuration, le système vérifie que la valeur de configuration est unique. Si la valeur entrée n'est pas unique, vous recevez un message d'erreur. Pour enregistrer la configuration, vous devez entrer une valeur de configuration unique.
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
-[Créer une nomenclature de numéros de produit pour des variantes de produit prédéfinies](tasks/create-product-number-nomenclature-predefined-variants-2016-11.md)
+[Créer une nomenclature de numéro de produit pour les variantes de produit prédéfinies](tasks/create-product-number-nomenclature-predefined-variants-2016-11.md)
 
 [Créer une nomenclature de numéros de produit pour des variantes de produit configurées](tasks/create-product-number-nomenclature-product-variants_2016_11.md)
 

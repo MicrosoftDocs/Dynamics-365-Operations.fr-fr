@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f4b70f1aee6b0b55a41dbfd33fcd1216579bb78c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 54a3409e7bd0f1c704cf9f7dd1d860100ec83d7f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="financial-reporting-for-finance-and-operations"></a>Génération d'états financiers pour Finance and Operations
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 La génération d'états financiers pour Finance and Operations permet aux professionnels financiers et commerciaux de créer, tenir à jour, déployer et afficher les tableaux d'analyse. Elle dépasse les contraintes traditionnelles liées à la génération d'états pour vous aider à concevoir efficacement différents types d'états.
 
@@ -97,7 +97,7 @@ Les composants suivants la génération d'états financiers sont simples à util
 </tbody>
 </table>
 
-## <a name="see-also"></a>Voir également :
+## <a name="additional-resources"></a>Ressources supplémentaires
 [Générer un état financier](generate-financial-report.md)
 
 

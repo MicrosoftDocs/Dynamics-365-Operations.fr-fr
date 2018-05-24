@@ -19,16 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e2125b3616310196b2c5ede0ddcaab24856ddc34
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d4da2ed8d61ffae3a4a4dc24793d82de22e86e59
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="sales-returns"></a>Retours sur ventes
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique fournit des informations sur le processus d'ordre de retour. Elle comporte des informations sur les retours client et leurs effets sur l'évaluation des coûts et les quantités de stock disponible.
 
@@ -88,7 +88,7 @@ Après avoir réalisé l'en-tête de retour, vous pouvez créer des lignes de re
 -   Entrez manuellement les détails de l'article, la quantité et les autres informations pour chaque ligne de retour.
 -   Créez une ligne de retour à l'aide la fonction **Rechercher une commande client**. Il est recommandé d'utiliser cette fonction quand vous créez un ordre de retour. La fonction **Rechercher une commande client** établit une référence entre la ligne de retour et la ligne de commande client facturée, et extrait des détails de ligne tels que le numéro d'article, la quantité, le prix, la remise, et le coût à partir de la ligne de vente. Vous aide de référence garantissent que, lorsque le produit est retourné à la société, elle a la valeur du même coût unitaire qu'elle a été vendu à. La référence valide également que les ordres de retour ne sont pas créés pour une quantité supérieure à la quantité vendue sur la facture.
 
-**Remarque :** les lignes de retour faisant référence à une commande client sont traitées comme des corrections, ou des inversions de la vente Pour plus d'informations, voir la section « Valider dans la comptabilité » plus loin dans cette rubrique.
+>[Remarque!] Les lignes de retour faisant référence à une commande client sont traitées comme des corrections, ou des contrepassations de la vente. Pour plus d'informations, voir la section « Valider dans la comptabilité » plus loin dans cette rubrique.
 
 ### <a name="charges"></a>Frais
 
@@ -193,15 +193,26 @@ Pendant le processus d'arrivée, les retours sont intégrés au processus géné
 
 ### <a name="identify-products-in-the-arrival-overview-list"></a>Identifier les produits dans la liste de vue d'ensemble des arrivées
 
-La page **Vue d'ensemble des arrivées** répertorie toutes les arrivées entrantes prévues. **Remarque :** les arrivées provenant d'ordres de retour doivent être traitées séparément des autres types de transactions d'arrivée. Après avoir identifié un article entrant dans la page **Vue d'ensemble des arrivées** (par exemple, à l'aide du document de retour marchandise d'accompagnement), dans le volet Action, cliquez sur **Commencer une arrivée** pour créer et initialiser un journal des arrivées correspondant à l'arrivée.
+La page **Vue d'ensemble des arrivées** répertorie toutes les arrivées entrantes prévues. 
+>[Remarque!] Les arrivées provenant d'ordres de retour doivent être traitées séparément des autres types de transactions d'arrivée. Après avoir identifié un article entrant dans la page **Vue d'ensemble des arrivées** (par exemple, à l'aide du document de retour marchandise d'accompagnement), dans le volet Action, cliquez sur **Commencer une arrivée** pour créer et initialiser un journal des arrivées correspondant à l'arrivée.
 
 ### <a name="edit-the-arrival-journal"></a>Modifier le journal des arrivées
 
-En définissant l'option **Gestion des contrôles** sur **Oui**, vous pouvez créer un ordre de contrôle pour la ligne de retour. Si une ligne a été soumise au contrôle pour inspection, vous ne pouvez pas spécifier le code disposition. **Remarque :** si vous définissez l'option **Gestion des contrôles** sur **Oui** dans le groupe de modèles de stock de l'article, l'option **Gestion des contrôles** de la page **Lignes de journal** sera marquée pour la ligne de journal des arrivées et ne pourra pas être modifiée. Si la ligne est soumise au contrôle, vous devez spécifier l'entrepôt de contrôle approprié. Si la ligne entrante n'est pas soumise à inspection, l'employé en charge des arrivées à l'entrepôt doit spécifier le code disposition directement sur la ligne de journal des arrivées puis valider le journal des arrivées. S'il ne convient pas d'affecter le même code disposition à toute la quantité de la ligne de retour, ou si la quantité complète de la ligne n'a pas été reçue, vous devez diviser la ligne. Si vous divisez une ligne de journal des arrivées, vous devez également diviser la ligne de retour (**SalesLine**) et créer un nouvel ID de lot. Vous pouvez diviser la ligne en réduisant la quantité de la ligne du journal des arrivées. Lorsque le journal est validé, il crée une nouvelle ligne de retour ayant le statut **Prévu** pour la quantité restante. Vous pouvez également diviser la ligne en cliquant sur **Fonctions** &gt; **Diviser**.
+En définissant l'option **Gestion des contrôles** sur **Oui**, vous pouvez créer un ordre de contrôle pour la ligne de retour. Si une ligne a été soumise au contrôle pour inspection, vous ne pouvez pas spécifier le code disposition. 
+ 
+Si vous définissez l'option **Gestion des contrôles** sur **Oui** dans le groupe de modèles de stock de l'article, l'option **Gestion des contrôles** de la page **Lignes de journal** sera marquée pour la ligne de journal des arrivées et ne pourra pas être modifiée. Si la ligne est soumise au contrôle, vous devez spécifier l'entrepôt de contrôle approprié. 
+
+Si la ligne entrante n'est pas soumise à inspection, l'employé en charge des arrivées à l'entrepôt doit spécifier le code disposition directement sur la ligne de journal des arrivées puis valider le journal des arrivées. S'il ne convient pas d'affecter le même code disposition à toute la quantité de la ligne de retour, ou si la quantité complète de la ligne n'a pas été reçue, vous devez diviser la ligne. Si vous divisez une ligne de journal des arrivées, vous devez également diviser la ligne de retour (**SalesLine**) et créer un nouvel ID de lot. Vous pouvez diviser la ligne en réduisant la quantité de la ligne du journal des arrivées. Lorsque le journal est validé, il crée une nouvelle ligne de retour ayant le statut **Prévu** pour la quantité restante. Vous pouvez également diviser la ligne en cliquant sur **Fonctions** &gt; **Diviser**.
 
 ### <a name="process-the-quarantine-order"></a>Traiter de l'ordre de contrôle
 
-Si les produits retournés sont envoyés à l'inspection à l'entrepôt de contrôle, le traitement supplémentaire est réalisé dans un ordre de contrôle. Un ordre de contrôle est créé pour chaque ligne d'arrivée envoyée au contrôle. Le code disposition indique le résultat du processus d'inspection. Vous pouvez fractionner un ordre de contrôle, tout comme vous pouvez fractionner le journal des arrivées. Si vous fractionnez l'ordre de contrôle, vous provoquez un fractionnement correspondant de la ligne de retour. Une fois le code disposition entré, complétez l'ordre de contrôle en utilisant, soit la fonction **Fin**, soit la fonction **Déclarer comme terminé**. Si vous sélectionnez **Déclarer comme terminé**, une nouvelle arrivée est créer dans l'entrepôt désigné. Vous pouvez ensuite traiter cette arrivée à l'aide de la page **Vue d'ensemble des arrivées**. Si l'arrivée provient d'un ordre de contrôle, vous ne pouvez pas modifier le code disposition affecté au cours de l'inspection. Si vous terminez l'ordre de contrôle à l'aide de la fonction **Fin**, le lot est automatiquement enregistré. Parfois, un article peut être renvoyé du contrôle au département d'expédition et de réception. Par exemple, l'inspecteur du contrôle peut ne pas savoir où enregistrer l'article dans le stock. Dans ce cas, le bon de livraison correspondant doit être mis à jour pour enregistrer correctement le code disposition spécifié en raison du contrôle et agir en conséquence. L'accusé de réception de la réception peut être envoyé au client lorsque la ligne de retour est enregistrée. Le rapport **Accusé de réception de retour** ressemble document d'ordre de retour. La rapport **Accusé de réception de retour** n'est pas journalisé ni autrement enregistré dans le système, et ce n'est pas une étape obligatoire dans le processus d'ordre de retour.
+Si les produits retournés sont envoyés à l'inspection à l'entrepôt de contrôle, le traitement supplémentaire est réalisé dans un ordre de contrôle. Un ordre de contrôle est créé pour chaque ligne d'arrivée envoyée au contrôle. Le code disposition indique le résultat du processus d'inspection. 
+
+Vous pouvez fractionner un ordre de contrôle, tout comme vous pouvez fractionner le journal des arrivées. Si vous fractionnez l'ordre de contrôle, vous provoquez un fractionnement correspondant de la ligne de retour. Une fois le code disposition entré, complétez l'ordre de contrôle en utilisant, soit la fonction **Fin**, soit la fonction **Déclarer comme terminé**. Si vous sélectionnez **Déclarer comme terminé**, une nouvelle arrivée est créer dans l'entrepôt désigné. Vous pouvez ensuite traiter cette arrivée à l'aide de la page **Vue d'ensemble des arrivées**. 
+
+Si l'arrivée provient d'un ordre de contrôle, vous ne pouvez pas modifier le code disposition affecté au cours de l'inspection. Si vous terminez l'ordre de contrôle à l'aide de la fonction **Fin**, le lot est automatiquement enregistré. Parfois, un article peut être renvoyé du contrôle au département d'expédition et de réception. Par exemple, l'inspecteur du contrôle peut ne pas savoir où enregistrer l'article dans le stock. Dans ce cas, le bon de livraison correspondant doit être mis à jour pour enregistrer correctement le code disposition spécifié en raison du contrôle et agir en conséquence. 
+
+L'accusé de réception de la réception peut être envoyé au client lorsque la ligne de retour est enregistrée. Le rapport **Accusé de réception de retour** ressemble document d'ordre de retour. La rapport **Accusé de réception de retour** n'est pas journalisé ni autrement enregistré dans le système, et ce n'est pas une étape obligatoire dans le processus d'ordre de retour.
 
 ## <a name="replace-a-product"></a>Remplacement d'un produit
 Il existe deux méthodes pour gérer le remplacement de produit :
@@ -223,7 +234,9 @@ Si vous expédiez un article de remplacement au client, et que vous utilisez l'a
 
 ![Processus de remplacement lors de l'utilisation d'un code disposition](./media/SalesReturn05.png)
 
-L'article de remplacement sera livré à l'aide d'une commande client est indépendante, la commande client de remplacement. Cette commande client est créée lorsque le bon de livraison de l'ordre de retour est généré. L'en-tête de l'ordre utilise les informations du client référencé dans l'en-tête de l'ordre de retour. Les informations de ligne sont collectées à partir des informations entrées dans la page **Article de remplacement**. La page **Article de remplacement** doit être remplie pour les lignes ayant des actions de disposition commençant par le mot « remplacer ». Toutefois, ni la quantité ni l'identité de l'article de remplacement n'est validée ou limitée. Cela permet de traiter les cas où le client souhaite recevoir le même article, mais dans une taille ou une configuration différente, ainsi que les cas où le client souhaite un article complètement différent. Par défaut, un article identiques est entré dans la page **Article de remplacement**. Toutefois, vous pouvez sélectionner un autre article, à condition que la fonction ait été paramétrée. **Remarque :** vous pouvez modifier et supprimer la commande client de remplacement une fois qu'elle a été créée.
+L'article de remplacement sera livré à l'aide d'une commande client est indépendante, la commande client de remplacement. Cette commande client est créée lorsque le bon de livraison de l'ordre de retour est généré. L'en-tête de l'ordre utilise les informations du client référencé dans l'en-tête de l'ordre de retour. Les informations de ligne sont collectées à partir des informations entrées dans la page **Article de remplacement**. La page **Article de remplacement** doit être remplie pour les lignes ayant des actions de disposition commençant par le mot « remplacer ». Toutefois, ni la quantité ni l'identité de l'article de remplacement n'est validée ou limitée. Cela permet de traiter les cas où le client souhaite recevoir le même article, mais dans une taille ou une configuration différente, ainsi que les cas où le client souhaite un article complètement différent. Par défaut, un article identiques est entré dans la page **Article de remplacement**. Toutefois, vous pouvez sélectionner un autre article, à condition que la fonction ait été paramétrée. 
+
+>[Remarque!] Vous pouvez modifier et supprimer la commande client de remplacement une fois qu'elle a été créée.
 
 ## <a name="generate-a-packing-slip"></a>Générer un bon de livraison
 Pour pouvoir recevoir des retours marchandises dans le stock, vous devez mettre à jour le bon de livraison relatif à la commande à laquelle appartiennent les articles. Toute comme le traitement de mise à jour de facture consiste à mettre à jour la transaction financière, le traitement de mise à jour de bon de livraison consiste à mettre à jour physiquement l'enregistrement de stock. En d'autres termes, ce processus valide les modifications apportées au stock. En cas de retour, les opérations affectées à l'action de disposition sont exécutées durant la mise à jour du bon de livraison. Lorsque vous générez le bon de livraison, les événements suivants se produisent :
@@ -233,14 +246,19 @@ Pour pouvoir recevoir des retours marchandises dans le stock, vous devez mettre 
 -   Les articles qui ont été marqués avec l'action de disposition **Retourner au client** sont réceptionnés et livrés au client. Ces articles n'ont aucun effet net sur le stock.
 -   Une commande client de remplacement est créée. Cette commande client est basé sur les informations de la page **Article de remplacement**.
 
-Vous pouvez générer le bon de livraison uniquement pour les lignes ayant le statut de retour **Enregistré**, et seulement pour la quantité complète indiquée dans la ligne de retour. Si plusieurs lignes de l'ordre de retour ont le statut **Enregistré**, vous pouvez générer le bon de livraison pour un sous-ensemble de lignes en supprimant les autres lignes de la page **Validation du bon de livraison**. Les retours partiels sont définis en termes de lignes d'ordre de retour, pas en termes d'expéditions de retour. Par conséquent, si vous recevez la quantité complète indiquée sur une ligne d'ordre de retour, mais rien en rapport avec les autres lignes, la livraison n'est pas partielle. En revanche, si une ligne d'ordre de retour indique que dix unités d'un article doivent être retournées et que vous n'en recevez que quatre, la livraison est partielle. Si tous les articles de retour prévus ne sont pas arrivés, vous pouvez mettre l'expédition de côté en attendant l'arrivée du reste de la quantité à retourner. Sinon, vous pouvez enregistrer et valider la quantité partielle. Dans le cadre du traitement de validation des bons de livraison, vous pouvez associer le numéro de référence du bon de livraison figurant sur les documents d'expédition du client aux lignes de commande. Cette association est purement indicative. Elle n'entraîne pas de mises à jour de transactions. De manière générale, vous pouvez ignorer le processus de bon de livraison et passer directement à la facturation. Dans ce cas, les étapes que vous auriez effectuées lors de la génération du bon de livraison sont effectuées lors de la facturation.
+Vous pouvez générer le bon de livraison uniquement pour les lignes ayant le statut de retour **Enregistré**, et seulement pour la quantité complète indiquée dans la ligne de retour. Si plusieurs lignes de l'ordre de retour ont le statut **Enregistré**, vous pouvez générer le bon de livraison pour un sous-ensemble de lignes en supprimant les autres lignes de la page **Validation du bon de livraison**. 
+
+Les retours partiels sont définis en termes de lignes d'ordre de retour, pas en termes d'expéditions de retour. Par conséquent, si vous recevez la quantité complète indiquée sur une ligne d'ordre de retour, mais rien en rapport avec les autres lignes, la livraison n'est pas partielle. En revanche, si une ligne d'ordre de retour indique que dix unités d'un article doivent être retournées et que vous n'en recevez que quatre, la livraison est partielle. Si tous les articles de retour prévus ne sont pas arrivés, vous pouvez mettre l'expédition de côté en attendant l'arrivée du reste de la quantité à retourner. Sinon, vous pouvez enregistrer et valider la quantité partielle. Dans le cadre du traitement de validation des bons de livraison, vous pouvez associer le numéro de référence du bon de livraison figurant sur les documents d'expédition du client aux lignes de commande. Cette association est purement indicative. Elle n'entraîne pas de mises à jour de transactions. 
+
+De manière générale, vous pouvez ignorer le processus de bon de livraison et passer directement à la facturation. Dans ce cas, les étapes que vous auriez effectuées lors de la génération du bon de livraison sont effectuées lors de la facturation.
 
 ## <a name="generate-an-invoice"></a>Générer une facture
 Bien que la page **Ordre de retour** contienne les informations et les actions nécessaires pour traiter les aspects logistiques spéciaux de l'ordre de retour, vous devez utiliser la page **Commande client** pour exécuter le processus de facturation. Votre organisation peut ensuite facturer les ordres de retour et les commandes client simultanément, et la même personne peut réaliser la facturation, selon les besoins. Pour afficher l'ordre de retour à partir de la page **Commande client**, cliquez sur le lien correspondant au numéro de commande client pour ouvrir la commande client associée. Vous pouvez également trouver l'ordre de retour dans la page **Toutes les commandes client**. Les ordres de retour sont des commandes client ayant le type de commande **Commande retournée**.
 
 ### <a name="credit-correction"></a>Correction de crédit
 
-Dans le cadre du processus de facturation, vérifiez que tous les frais divers sont corrects. Pour que les validations dans la comptabilité deviennent des corrections (Storno), envisagez d'utiliser l'option **Correction de crédit** de l'onglet **Autre** de la page **Validation de la facture** quand vous validez la facture ou l'avoir. **Remarque :** par défaut, l'option **Correction de crédit** est activée si l'option **Avoir comme correction** de la page **Paramètres de la comptabilité client** est activée. Cependant, il est recommandé de ne pas valider les retours avec la méthode Storno.
+Dans le cadre du processus de facturation, vérifiez que tous les frais divers sont corrects. Pour que les validations dans la comptabilité deviennent des corrections (Storno), envisagez d'utiliser l'option **Correction de crédit** de l'onglet **Autre** de la page **Validation de la facture** quand vous validez la facture ou l'avoir. 
+>[Remarque!] Par défaut, l'option **Correction de crédit** est activée si l'option **Avoir comme correction** de la page **Paramètres de la comptabilité client** est activée. Cependant, il est recommandé de ne pas valider les retours avec la méthode Storno.
 
 ## <a name="create-intercompany-return-orders"></a>Créer des ordres de retour intersociétés
 Les ordres de retour peuvent être réalisés entre deux sociétés de votre organisation. Les scénarios suivants sont pris en charge :
@@ -294,7 +312,7 @@ L'ordre de retour ne fait pas référence à une facture client. L'article retou
 
 ![L'ordre de retour ne fait pas référence à une facture client](./media/SalesReturn09.png)  
 
-**Remarque :** le prix de base de l'article sert de valeur par défaut pour le paramètre **Prix de revient du retour**. Le prix par défaut diffère du prix de revient au moment de la sortie du stock. Par conséquent, l'implication est qu'une perte de 3 a été subie. En outre, l'ordre de retour n'inclut pas la remise qui a été accordée au client sur la commande client. Par conséquent, un crédit excessif apparaît.
+>[Remarque!] Le prix de base de l'article sert de valeur par défaut pour le paramètre **Prix de vente de retour**. Le prix par défaut diffère du prix de revient au moment de la sortie du stock. Par conséquent, l'implication est qu'une perte de 3 a été subie. En outre, l'ordre de retour n'inclut pas la remise qui a été accordée au client sur la commande client. Par conséquent, un crédit excessif apparaît.
 
 ### <a name="example-2-credit-correction-is-selected-for-the-return-order"></a>Exemple 2 : la correction de crédit est sélectionnée pour l'ordre de retour
 
@@ -302,7 +320,7 @@ L'exemple 2 est le même que l'exemple 1, mais le paramètre **Correction de c
 
 ![Ordre de retour lorsque la correction de crédit est sélectionnée ](./media/SalesReturn10.png)  
 
-**Remarque :** les validations comptables sont entrées comme des corrections négatives.
+>[Remarque!] Les validations comptables sont entrées comme des corrections négatives.
 
 ### <a name="example-3-the-return-order-line-is-created-by-using-the-find-sales-order-function"></a>Exemple 3 : la ligne d'ordre de retour est créée à l'aide de la fonction Rechercher une commande client
 
@@ -310,7 +328,7 @@ Dans cet exemple, la ligne d'ordre de retour est créée à l'aide de la fonctio
 
 ![Ligne d'ordre de retour créée à l'aide de la fonction Rechercher une commande client ](./media/SalesReturn11.png)  
 
-**Remarque :** **Remise** et **Prix de revient du retour** sont définis correctement. Par conséquent, une contrepassation exacte de la facture client est réalisée.
+>[Remarque!] **Remise** et **Prix de vente de retour** sont définis correctement. Par conséquent, une contrepassation exacte de la facture client est réalisée.
 
 
 

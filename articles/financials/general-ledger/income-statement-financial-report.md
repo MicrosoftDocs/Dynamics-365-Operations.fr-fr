@@ -19,16 +19,16 @@ ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 0017d13b7f7594462dfff4ef896f4139607d4bc5
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9310508082ff710cd040b74519044f5a90c23988
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="income-statement-financial-report"></a>Rapport financier du relevé des revenus
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article décrit l'état par défaut des comptes de résultats. Il décrit également les blocs de construction associés à cet état. 
 
@@ -61,7 +61,7 @@ Les définitions de colonne contiennent différents types de colonnes afin d'off
 
 
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [États financiers](financial-reporting-getting-started.md)

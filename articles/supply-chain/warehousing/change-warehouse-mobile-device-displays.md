@@ -19,16 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: b16f4ea27f406f3d5d5957670bd32a73d2d55529
-ms.openlocfilehash: bb616f8102c67db3f8c3e872101d61657b6b64d1
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a1413337888c8e2da95e33ebee6528f228ad3972
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/05/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="warehouse-mobile-device-display-settings"></a>Paramètres d'affichage de l'appareil mobile de l'entrepôt
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article décrit comment définir l'apparence d'affichage d'un appareil mobile, et comment mettre en correspondance les raccourcis clavier avec les contrôles, tels que les boutons. 
 
@@ -97,7 +97,7 @@ Chaque sous-expression nécessite un à deux chiffres pour le jour et le mois, e
 
 Vous pouvez spécifier plusieurs expression dans le même fichier. Chaque expression doit être sur une ligne distincte. La première expression mise en correspondance est utilisée pour analyser la date.
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Configuration des appareils mobiles pour le travail d'entrepôt](configure-mobile-devices-warehouse.md)

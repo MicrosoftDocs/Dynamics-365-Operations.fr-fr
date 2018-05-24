@@ -19,18 +19,18 @@ ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f5683b8b3e5457a05e5039876eed40357ae84e4b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1473eeb2950296f5ae6250d7a53794af3d9cba81
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>Méthodes de calcul de la taxe dans le champ Origine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Cet article décrit les options du champ Origine dans la page de codes taxe et la manière dont la taxe est calculée selon l'option sélectionnée pour un code taxe.
 
@@ -125,7 +125,7 @@ Le document ou journal est défini sur Montants, taxe incluse = Non Montant de l
 
 
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Détermination des taux de taxe en fonction des champs Base marginale et Mode de calcul](marginal-base-field.md)

@@ -1,6 +1,6 @@
 ---
 title: Recherche de produits et de variantes de produits lors de la saisie de commande
-description: "Utilisez le champ <strong>Numéro de l'article </strong>pour rechercher des produits et des variantes de produits lorsque vous créez manuellement une ligne de commande client ou une ligne de commande fournisseur.  Cela vous permet de rechercher rapidement des variantes de produits lorsque vous avez uniquement la chaîne de configuration ou l'une des dimensions de produit disponibles."
+description: "Utilisez le champ **Numéro de l'article** pour rechercher des produits et des variantes de produits lorsque vous créez manuellement une ligne de commande client ou une ligne de commande fournisseur. Cela vous permet de rechercher rapidement des variantes de produits lorsque vous avez uniquement la chaîne de configuration ou l'une des dimensions de produit disponibles."
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
@@ -20,20 +20,20 @@ ms.author: conradv
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2441f7cbf95512677f62eb862be99af90f3c4b17
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d6a45d89ba20994c06a77c646fa5099fa34b3b2e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="search-for-products-and-product-variants-during-order-entry"></a>Recherche de produits et de variantes de produits lors de la saisie de commande
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [Retail name](../includes/retail-name.md)]
+[!include [Retail name](../includes/retail-name.md)]
 
-Utilisez le champ <strong>Numéro de l'article </strong>pour rechercher des produits et des variantes de produits lorsque vous créez manuellement une ligne de commande client ou une ligne de commande fournisseur.  Cela vous permet de rechercher rapidement des variantes de produits lorsque vous avez uniquement la chaîne de configuration ou l'une des dimensions de produit disponibles.
+Utilisez le champ **Numéro de l'article** pour rechercher des produits et des variantes de produits lorsque vous créez manuellement une ligne de commande client ou une ligne de commande fournisseur.  Cela vous permet de rechercher rapidement des variantes de produits lorsque vous avez uniquement la chaîne de configuration ou l'une des dimensions de produit disponibles.
 
 Parfois, avoir trop de quelque chose n'est pas le plus judicieux, et c'est particulièrement vrai si vous vendez un certain nombre de produits similaires, et que vous tentez de vous souvenir des numéros d'articles ou des noms de produits pour rechercher le produit à insérer dans une commande client. Vous pouvez utiliser le champ **Numéro d'article** sur une ligne de commande client ou une ligne de commande fournisseur comme champ de recherche. Vous pouvez entrer n'importe quelle partie du nom, du numéro ou de la dimension d'un produit, et d'obtenir une recherche qui affiche tous les articles qui correspondent au mot de recherche.
 
@@ -47,7 +47,7 @@ Lorsque vous recherchez des produits ou des variantes de produits, il est import
 
 ### <a name="examples"></a>Exemples
 
-Les exemples suivants utilisent des produits et des variantes de produits pour illustrer comment la recherche est traitée dans des scénarios différents. **Conditions préalables :** sous **Ventes et marketing &gt; Paramétrage &gt; Recherche &gt; Paramètres de recherche** &gt; **Type de recherche**, , sélectionnez l'option **Correspondance totale**.
+Les exemples suivants utilisent des produits et des variantes de produits pour illustrer comment la recherche est traitée dans des scénarios différents. **Conditions préalables** : sous **Ventes et marketing &gt; Paramétrage &gt; Recherche &gt; Paramètres de recherche &gt; Type de recherche**, sélectionnez l'option **Correspondance totale**.
 
 | Type de produit     | Nom du produit    | Afficher le numéro du produit | numéro d'article | Configuration |
 |------------------|-----------------|------------------------|-------------|---------------|
@@ -72,7 +72,7 @@ Parmi les identificateurs et dimensions de produits et de variantes de produits 
 
 Accédez à la page **Ventes et marketing &gt; Paramétrage &gt; Recherche &gt; Critères de recherche**. La page **Critères de recherche** vous permet de définir des critères pour le client, le prospect, et la recherche de produit. Assurez-vous de filtrer la page à l'aide de critères de recherche de produit. Vous pouvez le faire en passant à **Produit** dans le menu de la page.  
 
-Pour ajouter le numéro de produit d'affichage aux critères de recherche, cliquez sur <strong>Nouveau</strong> dans le menu de la page. Cela ajoute un nouvel enregistrement dans la grille <strong>Critères de recherche</strong>. Ouvrez la recherche de colonne <strong>Nom de champ</strong> et choisissez <strong>DisplayProductNumber</strong>. Pour ajouter la configuration du produit aux critères de recherche, créez un enregistrement dans la grille <strong>Critères de recherche** et choisissez **configId</strong> dans la colonne <strong>Nom de champ</strong>. De la même manière, créez un enregistrement avec <strong>Nom de champ</strong> <strong>InventColorId</strong> pour la dimension de la couleur, <strong>InventSizeId</strong> pour la dimension de la taille, et <strong>InventStyleId</strong> pour la dimension du style.
+Pour ajouter le numéro de produit d'affichage aux critères de recherche, cliquez sur **Nouveau** dans le menu de la page. Cela ajoute un nouvel enregistrement dans la grille **Critères de recherche**. Ouvrez la recherche de colonne **Nom de champ** et choisissez **DisplayProductNumber**. Pour ajouter la configuration du produit aux critères de recherche, créez un enregistrement dans la grille **Critères de recherche** et choisissez **configId** dans la colonne **Nom de champ**. De la même manière, créez un enregistrement avec **Nom de champ** **InventColorId** pour la dimension de la couleur, **InventSizeId** pour la dimension de la taille, et **InventStyleId** pour la dimension du style.
 
 ### <a name="step-2-populate-the-database-table-that-is-used-for-product-search"></a>Étape 2 : Remplir la table de la base de données utilisée pour la recherche de produit
 

@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 25dd62081e4a6e196bffaa6cc72ff40ed68c736c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2fa152c5586a1122a109762780d23fd8c2240702
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Collaborer avec des fournisseurs à l'aide du portail Fournisseur
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit comment les agents des achats peuvent utiliser le portail Fournisseur pour collaborer avec des fournisseurs externes lors du processus de confirmation de commande fournisseur. Ces informations ne s'appliquent qu'aux versions de février 2016 et de mai 2016 de Dynamics AX.
 
@@ -96,7 +96,7 @@ Le tableau suivant présente un exemple des modifications de statut et de versio
 |                           Vous envoyez la nouvelle version de la CF vers le portail fournisseur.                            |                                                                                                                                                                    La nouvelle version est enregistrée dans le portail Fournisseur et le statut devient <strong>En cours de révision externe</strong>.                                                                                                                                                                     |
 |                                Le fournisseur approuve la nouvelle version de la CF.                                 |                                                                                                                                                     Le statut devient <strong>Confirmé</strong> automatiquement ou lorsque vous recevez la réponse du fournisseur, puis vous confirmez la CF.                                                                                                                                                     |
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Configuration de la sécurité pour les utilisateurs de la collaboration fournisseur](configure-security-vendor-portal-users.md)

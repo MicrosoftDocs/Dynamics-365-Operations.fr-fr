@@ -19,16 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: 8b6fb933ba4866a76baf24dd092fadc9815562e7
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 18920dd3490b69e9668e2d023c5ca1cc094c8126
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="quality-management-processes"></a>Processus de gestion de la qualité
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article fournit des informations sur le processus de gestion de la qualité pour les produits non conformes. Elle décrit comment utiliser la fonctionnalité de contrôle qualité, comment définir et tenir à jour les non-conformités et gérer les corrections.
 
@@ -88,7 +88,7 @@ La page **Corrections** permet de créer une liste de non-conformités qui doive
 
 Il est judicieux de définir un type de document unique pour les corrections à l'aide de la page **Type de document**. Vous pouvez ensuite utiliser la page **Paramétrage d'état** pour définir si les commentaires pour ce type de document doivent être imprimés dans l'état de correction. Un état des corrections imprimé affiche les informations sur la non-conformité et les notes de non-conformité associées. L'état inclut également des informations de correction, telles que le type de diagnostic, et les notes de correction associées.
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Activation de la gestion de la qualité](enable-quality-management.md)

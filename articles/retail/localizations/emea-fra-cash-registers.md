@@ -18,10 +18,10 @@ ms.author: epopov
 ms.search.validFrom: 2018-2-28
 ms.dyn365.ops.version: 7.3.2
 ms.translationtype: HT
-ms.sourcegitcommit: 580b357baf3e712a288dc896650b2da5d0c70d14
-ms.openlocfilehash: dc2181b0589ebb2bb5cf532dea2a12c5482aa30e
+ms.sourcegitcommit: 2e5dd8f852ac1a6c2997a50a60f03db6adfd218c
+ms.openlocfilehash: 2ce81e3ca1056c1ffdaed3dcd873b778e798efea
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/01/2018
 
 ---
 # <a name="cash-registers-for-france"></a>Caisses enregistreuses pour la France
@@ -314,7 +314,7 @@ Pour signer numériquement les journaux du total général de la période et les
 - Le certificat doit être téléchargé vers le stockage du coffre de clés.
 - L'application Serveur d'objets d'application (AOS) doit être autorisée pour lire les secrets du stockage du coffre de clés.
 
-Pour plus d'informations sur l'utilisation du coffre de clés, voir [Prise en main d'Azure KeyVault](https://docs.microsoft.com/en-us/azure/key-vault/key-vault-get-started).
+Pour plus d'informations sur l'utilisation du coffre de clés, voir [Prise en main d'Azure KeyVault](https://docs.microsoft.com/azure/key-vault/key-vault-get-started).
 
 Puis, sur la page **Paramètres du coffre de clés**, vous devez spécifier les paramètres d'accès au stockage du coffre de clés :
 

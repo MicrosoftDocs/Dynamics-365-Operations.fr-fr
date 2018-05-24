@@ -20,16 +20,16 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c207f4982872b7c620ef4fa8abb2dc83d6fc0e56
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8dad7e19b7b2913ced1e7fec4f35f680d1b0ac00
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="accounts-receivable-in-the-public-sector"></a>Comptabilité client dans le secteur public
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit la fonctionnalité de Comptabilité client disponible pour le secteur public.
 
@@ -60,10 +60,10 @@ Vous pouvez conserver les dimensions financières par défaut pour le groupe de 
 ## <a name="what-can-i-use-accounts-receivable-posting-definitions-for"></a>À quelles fins puis-je utiliser les définitions de validation de la comptabilité client ?
 Vous pouvez utiliser les définitions de validation pour créer des lignes de journal de comptabilité auxiliaire pour les transactions d'origine qui répondent aux critères sélectionnés, par exemple, pour générer plusieurs écritures comptables équilibrées basées sur des attributs tels que des types de transactions et des comptes. Pour plus d'informations sur les définitions de validation, voir [Définitions de validation dans le secteur public](posting-definitions-public-sector.md).
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
-[Ventes](..\accounts-receivable\accounts-receivable.md)
+[Module Comptabilité client](../accounts-receivable/accounts-receivable.md)
 
 [Créer un code facturation](tasks/create-billing-code-public-sector.md)
 

@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 4252112272e2f86c2c18dc399a713bf652e4228e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6ab1d60839131b3d4bb1782319754ba63d54cfd7
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="vendor-collaboration-with-customers"></a>Collaboration fournisseur avec des clients
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit comment utiliser la collaboration fournisseur avec les clients dans Microsoft Dynamics 365 for Finance and Operations. Les fournisseurs peuvent effectuer une série de processus d'entreprise dans les espaces de travail suivants :
 
@@ -141,7 +141,7 @@ En tant que fournisseur, vous pouvez accéder à une partie des informations gé
 
 Les informations accessibles sont le nom du fournisseur, les adresses, les informations de contact, les personnes à contacter et leurs informations de contact, les numéros d'identification, les numéros d'identification fiscale, les catégories d'approvisionnement dans lesquelles le fournisseur est agréé pour vendre au client et les informations sur les certifications.
 
-## <a name="see-also"></a>Voir également :
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Gérer les utilisateurs de la fonctionnalité de collaboration fournisseur](manage-vendor-collaboration-users.md)
 

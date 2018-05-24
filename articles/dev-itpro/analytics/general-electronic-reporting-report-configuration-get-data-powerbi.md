@@ -18,16 +18,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: 8f89d0740098fbd5af9d838f1f4b7ddf47ee7e10
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 45717bc1a7093c0282d214fc4ce5fdf153bb14a1
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configure-electronic-reporting-to-pull-data-into-power-bi"></a>Configurer la Gestion des états électroniques pour extraire les données dans Power BI
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique explique comment vous pouvez utiliser la configuration de génération d'états électroniques (ER) pour organiser le transfert des données entre votre instance de Finance and Operations vers les services Power BI. En guise d'exemple, cette rubrique utilise les transactions de déclaration d'échanges de biens comme données commerciales qui doivent être transférées. La visualisation de carte Power BI utilise ces données de transaction de déclaration d'échanges de biens pour présenter une vue permettant l'analyse des activités d'importation/d'exportation de la société sur l'état Power BI.
 
@@ -132,12 +132,12 @@ Paramétrez l'intégration entre Finance and Operations et Power BI. Pour plus d
 2. Sélectionnez l'état Power BI **Détails de l'importation et de l'exportation** que vous avez créé, pour l'afficher comme élément d'action sur la page sélectionnée. 
 3. Cliquez sur l'élément d'action pour ouvrir la page Finance and Operations affichant l'état que vous avez conçu dans Power BI. [![État des détails d'importation et d'exportation](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
-[Destinations des états électroniques](electronic-reporting-destinations.md)
+[Destinations pour la gestion des états électroniques](electronic-reporting-destinations.md)
 
-[Vue d'ensemble des États électroniques](general-electronic-reporting.md)
+[Vue d'ensemble des états électroniques](general-electronic-reporting.md)
 
 
 

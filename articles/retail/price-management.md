@@ -3,7 +3,7 @@ title: Gestion des prix de vente dans Retail
 description: "Cette rubrique décrit les concepts de création et de gestion des prix de vente dans Microsoft Dynamics 365 for Retail."
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 03/27/2018
+ms.date: 04/20/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-retail
@@ -18,16 +18,16 @@ ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a7e6babe1bfec60ece4f84a77bbd838faf7274e0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6da38f69abe72665fc79a43e0e163a856f9ee34d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="retail-sales-price-management"></a>Gestion des prix de vente dans Retail
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Cette rubrique fournit des informations sur le processus de création et de gestion des prix de vente dans Microsoft Dynamics 365 for Retail. Elle se concentre sur les concepts impliqués dans ce processus, et sur les effets des différentes options de configuration sur les prix de vente.
 
@@ -111,7 +111,7 @@ Deux produits que le détaillant vend sont le produit 1, un T-shirt standard, e
 | T-shirt | 15 $ | Non déf | Non déf |
 | Jeans de mode | 50 $ | 70 $ | Non déf |
 
-Le T-shirt se vend au même prix (autrement dit, 15 $) dans les magasins de Boston et de Manhattan, car seul un prix est défini dans le groupe de prix Nord-Est lié aux deux canaux. Les jeans de mode se vendent 550 $ dans le magasin de Boston, car ce prix est le seul prix disponible dans ce magasin. Toutefois, dans le magasin de Manhattan, deux prix sont disponibles : 50 $ et 70 $. Comme la priorité de la tarification de 5 pour le groupe de prix de NYC est supérieure à la priorité de la tarification de 0 (zéro) du groupe de prix du Nord-Est, le prix sera passé à 70 $ dans le système POS.
+Le T-shirt se vend au même prix (autrement dit, 15 $) dans les magasins de Boston et de Manhattan, car seul un prix est défini dans le groupe de prix Nord-Est lié aux deux canaux. Les jeans de mode se vendent 50 $ dans le magasin de Boston, car ce prix est le seul prix disponible dans ce magasin. Toutefois, dans le magasin de Manhattan, deux prix sont disponibles : 50 $ et 70 $. Comme la priorité de la tarification de 5 pour le groupe de prix de NYC est supérieure à la priorité de la tarification de 0 (zéro) du groupe de prix du Nord-Est, le prix sera passé à 70 $ dans le système POS.
 
 > [!NOTE]
 > Pour chaque priorité de tarification, la réussite complète via la logique du moteur de tarification de vente au détail est requise. Par conséquent, pour aider à gérer les performances du calcul de prix et de remise, vous devez utiliser les priorités de tarification avec parcimonie.
@@ -198,32 +198,6 @@ Microsoft SQL Server Express est souvent utilisé pour des bases de données de 
 Lorsque vous définissez des prix de vente dans Microsoft Dynamics 365, vous ne spécifiez pas si la valeur de prix que vous définissez inclut ou exclut la taxe. La valeur est uniquement le prix. Toutefois, le paramètre **Prix inclut la taxe** sur les canaux de vente au détail vous permet de configurer des canaux de vente au détail de façon à ce que ils incluent ou excluent la taxe des prix. Ce paramètre est défini dans le canal et peut varier même dans une seule société.
 
 Si vous utilisez des types de taxes inclusifs et exclusifs, il est primordial que vous définissiez les prix correctement, car le montant total payé par le client change si le paramètre **Prix inclut la taxe** sur le canal est modifié.
-
-### <a name="effect-of-the-price-includes-sales-tax-setting-on-financial-postings"></a>Effet du paramètre Prix inclut la taxe sur les validations financières
-Tous les montants validés dans la comptabilité pour les comptes de produit et de remise sont affectés par le paramètre **Prix inclut la taxe**. L'exemple suivant montre comment ce paramètre affecte les validations financières.
-
-L'exemple présente uniquement les validations des ventes, car le paramètre **Prix inclut la taxe** n'affecte pas la validation des coûts de stock.
-
-#### <a name="example"></a>Exemple
-Pour cet exemple, les montants de remise sont configurés de façon à ce qu'ils soient validés séparément du produit.
-
-Vous vendez un produit 100 $ avec un taux de taxe de 10 %, et une remise 5 % est appliquée. Les comptes suivants des données de démonstration d'USRT sont utilisés :
-
-- **Produit :** 401 100
-- **Remise :** 403 200
-- **Taxe :** 202 100
-
-**Cas 1 : Hors taxe (également appelée taxe)**
-
-- **Produit :** 100 $
-- **Remise :** 5 $
-- **Taxe :** 9,5 $ (= 10 % de 95 $)
-
-**Cas 2 : Taxe incluse (également appelée taxe sur la valeur ajoutée \[TVA\])**
-
-- **Produit :** 90 $
-- **Remise :** 4,5 $ (= 5 pourcent de 90 $)
-- **Taxe :** 10 $
 
 ## <a name="differences-between-retail-pricing-and-non-retail-pricing"></a>Différences entre la tarification au détail et la tarification hors vente au détail
 Un seul moteur de tarification permet de calculer les prix de vente au détail de tous les canaux : centre d'appels, magasin de vente au détail, et magasins en ligne. Cela permet d'activer les scénarios de commerce unifié. 

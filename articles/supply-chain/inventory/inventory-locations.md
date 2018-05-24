@@ -20,16 +20,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: 6d40069b4116d38f25a12340df0d939afa2866e7
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 11be82682fc870cb21959d9e531ff8bf67993fa3
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="inventory-locations"></a>Emplacement de stockage
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Les emplacements de stockage sont utilisés avec l'entreposage de base (WMS I) pour déterminer où les articles sont enregistrés et où les articles sont prélevés dans un entrepôt WMS I.
 
@@ -63,7 +63,7 @@ Il est possible de copier des emplacements d'un entrepôt à un autre et de cré
 
 
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Créer une structure d'entrepôt (guide de tâche)](tasks/create-new-warehouse-layout.md)

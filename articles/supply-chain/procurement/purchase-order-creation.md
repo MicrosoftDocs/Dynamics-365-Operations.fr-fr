@@ -19,18 +19,18 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: 1cf09af8de2a312ce17cd88ccc4d8c5c2c051927
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c71ce3045bd91a136288016cb55b460f7ac787ae
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-purchase-orders"></a>Création de commandes fournisseur
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Cet article décrit les processus et les options lorsque vous créez manuellement une commande fournisseur.
 
@@ -86,10 +86,10 @@ Les CF peuvent être configurées pour exiger que les fonds budgétaires soient 
 
 Il se peut que vous deviez retarder l’achèvement d’une CF. Par exemple, vous pouvez avoir besoin de plus d’informations sur les produits ou services, ou vous devrez peut-être obtenir une autorisation pour la dépense. Il existe plusieurs façons de suspendre une commande. Par exemple, vous pouvez attendre pour confirmer la commande. Sinon, si un workflow de gestion de modification est utilisé, vous ne soumettez pas la commande à l'approbation. Si vous devez bloquer toutes les commandes pour un fournisseur particulier, vous pouvez également le marquer en tant que **En attente** pour le traitement des données principales sur le fournisseur. Il existe également des circonstances qui pourraient empêcher le traitement de la commande. Par exemple, le traitement peut être empêché si les limites de crédit ont été dépassées, ou si les fonds budgétaires ne sont pas disponibles.
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
-[Présentation des commandes fournisseur](purchase-order-overview.md)
+[Vue d'ensemble des commandes fournisseur](purchase-order-overview.md)
 
 [Approbation et confirmation de la commande fournisseur](purchase-order-approval-confirmation.md)
 

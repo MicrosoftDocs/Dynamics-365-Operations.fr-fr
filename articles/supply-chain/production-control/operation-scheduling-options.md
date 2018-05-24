@@ -20,16 +20,16 @@ ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5a64445b58c3d6b523b766b4e864aeea9f93de2b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 41d5d933a43f5cc4c84c33bdb0896c9d4a9a28cc
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="operations-scheduling-options"></a>Options d'ordonnancement des opérations
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit les options de l'ordonnancement. Vous pouvez utiliser l'ordonnancement pour fournir une estimation globale du processus de production dans le temps.
 
@@ -128,7 +128,7 @@ Vous pouvez enregistrer les valeurs actuelles comme des valeurs par défaut. Deu
 -   Définir comme valeur par défaut pour tout le monde
 
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Ordonnancement](operations-scheduling.md)

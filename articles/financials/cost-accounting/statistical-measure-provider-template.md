@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: baefad4efd51661c236459493b7f02747593bbab
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8c74c47a5e0ca72fc4509786b091a70b5e292b54
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>Membres de la dimension statistique et modèles de fournisseur de mesures statistiques
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Une dimension statistique et ses membres permettent d'enregistrer et de contrôler les entrées non monétaires dans le module Contrôle de gestion. Les membres de la dimension statistique peuvent être utilisés à deux fins :
 
@@ -344,7 +344,7 @@ Si la base de répartition des membres de la dimension prédéfinie Électricit�
 | CC002       | FI | 4,100.00  | (4,100 ÷ 21,550) × Montant  |
 | CC003       | TS | 15 000,00 | (15,000 ÷ 21,550) × Montant |
 
-## <a name="see-also"></a>Voir également :
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Bases de répartition](allocation-bases.md)
 

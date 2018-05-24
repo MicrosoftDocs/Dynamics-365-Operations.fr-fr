@@ -3,7 +3,7 @@ title: Groupes d'objets de service
 description: "Les groupes d'objets permettent de trier et de filtrer les données relatives à des objets pour générer des états et des statistiques."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 02/21/2018
+ms.date: 05/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,16 +19,16 @@ ms.author: YuyuScheller
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 221b9dae7e83e7f4a535ac60f2a2011533d7861c
-ms.openlocfilehash: fa503ac82286099a0eafc7034d169e165b538e2c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2ab3ed8a8f36f980473b17b5dfed8cb3d0054253
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/21/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="service-object-groups"></a>Groupes d'objets de service 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Les groupes d'objets permettent de trier et de filtrer les données relatives à des objets pour générer des états et des statistiques. Par exemple, vous pouvez regrouper des objets par emplacement géographique ou par type.
 
@@ -48,6 +48,23 @@ Cette méthode de regroupement permet d'afficher les types d'objets pour lesquel
 
 Un client appelle pour conclure un accord de service concernant un appareil de conditionnement d'air, HIJ. Vous n'avez pas encore d'enregistrement pour cet appareil. Toutefois, vous avez paramétré un groupe d'objets nommé Conditionnement d'air que vous avez associé à tous les objets de conditionnement d'air. Vous pouvez donc rapidement rechercher et identifier tous les autres appareils de conditionnement d'air et utiliser les informations modèles de ces derniers comme base pour les lignes d'accord de service de HIJ. L'utilisation de groupes d'objets de cette manière permet de paramétrer rapidement de nouveaux objets et de déterminer les tâches de service à exécuter sur ces derniers. 
 
+## <a name="create-service-object-groups"></a>Créer des groupes d'objets de service
+
+Créez des groupes auxquels vous pouvez affecter des objets de service. Les objets de service sont des articles en stock et d'autres produits pour lesquels des services sont assurés. En regroupant des objets de service, vous pouvez créer des états pour des objets de service similaires et connexes. Par exemple, un groupe d'objets de service peut comporter deux objets de service : un objet de service qui correspond à un kit, et un deuxième objet de service qui est le service d'installation du kit.
+
+Pour créer des groupes d'objets de service, procédez comme suit :
+
+1. Cliquez sur **Gestion des services > Paramétrage > Objets du service > Groupes d'objets de service**.
+
+2. Cliquez sur **Nouveau** pour créer un groupe d'objets de service.
+
+3. Entrez un nom unique pour le groupe d'objets de service, et éventuellement une description.
+
+Vous pouvez affecter des objets de service au groupe à l'aide de l'écran **Objets de service**. 
+
+## <a name="see-also"></a>Voir également :
+
+[Créer des objets de service](create-service-objects.md)
 
 
 

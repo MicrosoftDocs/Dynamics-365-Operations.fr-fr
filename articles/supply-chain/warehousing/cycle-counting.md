@@ -19,16 +19,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 2437d3efe7841021ff4bd35f307fddddc76eb4c6
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9da40e90982d9d4aca38890ed121782f4236712d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cycle-counting"></a>Inventaire tournant
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article décrit la manière dont vous pouvez utiliser l'inventaire tournant associé à la solution de stockage disponible dans le module Gestion des entrepôts. Cet article ne s'applique pas à la solution de stockage disponible dans la Gestion des stocks.
 
@@ -136,7 +136,7 @@ Une différence au niveau de l'inventaire tournant se produit dans les scénario
 
 Ajustez les différences dans la valeur d'inventaire puis acceptez la valeur d'inventaire dans la page **Inventaire tournant en attente de révision**. Vous pouvez vérifier le compte modifié de la quantité d'articles dans la page **Disponible par emplacement**. La valeur d'inventaire est rejetée si la différence ne peut pas être approuvée.
 
-## <a name="see-also"></a>Voir également :
+## <a name="additional-resources"></a>Ressources supplémentaires
 [Configurer des appareils mobiles pour un travail d'entrepôt](configure-mobile-devices-warehouse.md)
 
 

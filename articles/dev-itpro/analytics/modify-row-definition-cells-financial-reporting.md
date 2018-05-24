@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3131173e10ff7eefeaca18285054ce2312d7ab57
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 23b8e0b51f63ecabc704a2fc5b3ebafe657b52f6
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="modify-row-definition-cells"></a>Modifier les cellules de définition de ligne
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article décrit les informations nécessaires pour chaque cellule dans une définition de ligne sur un état financier et explique comment entrer ces informations. 
 
@@ -398,7 +398,7 @@ Vous pouvez spécifier une plage de valeurs de segment ou de valeurs de dimensio
 
 ### <a name="multiple-segment-or-multiple-dimension-ranges"></a>Plages de plusieurs segment ou de plusieurs dimensions
 
-Lorsque vous entrez une plage à l'aide de combinaisons de plusieurs valeurs de dimension, la comparaison de plage est effectuée sur la base d'une dimension financière\dimension par dimension. La comparaison de plage ne peut pas être effectuée caractère par caractère ou sur la base d'un segment partiel. Par exemple, l'intervalle **+Compte=\[5000:6000\], Département=\[1000:2000\], Centre de coût=\[00\]** inclut uniquement les comptes correspondant à chaque segment. Dans ce cas, la première dimension doit se situer dans la plage de 5000 à 6000, la deuxième dimension doit se situer dans la plage de 1000 à 2000, et la dernière dimension doit être 00. Par exemple, **+Compte=\[5100\], Département=\[1100\], Centre de coût=\[01\]** n'est pas inclus dans l'état, car le dernier segment est hors de la plage spécifiée. Si une valeur de segment inclut des espaces, entourez cette valeur par des crochets (\[ \]). Les valeurs suivantes sont valides pour un segment à quatre caractères : **\[ 234\], \[123 \], \[1 34\]**. Les valeurs de dimension doivent être entourées de crochets (\[ \]), et le générateur d'états ajoute ces crochets pour vous. Quand une plage de plusieurs segment ou de plusieurs dimensions inclut des caractères génériques (? ou \*), les extrémités haute et basse de la plage entière de plusieurs segments ou de plusieurs dimensions sont déterminées, puis les valeurs de fin et toutes les valeurs entre elles sont incluses. Si vous avez une plage étendue, comme toute la plage de comptes de 40000 à 99999, vous devez spécifier un compte de début et un compte de fin valides à chaque fois que c'est possible. 
+Lorsque vous entrez une plage à l'aide de combinaisons de plusieurs valeurs de dimension, la comparaison de plages est effectuée sur la base de \financial-dimensions\dimension-by-dimension par dimension. La comparaison de plage ne peut pas être effectuée caractère par caractère ou sur la base d'un segment partiel. Par exemple, l'intervalle **+Compte=\[5000:6000\], Département=\[1000:2000\], Centre de coût=\[00\]** inclut uniquement les comptes correspondant à chaque segment. Dans ce cas, la première dimension doit se situer dans la plage de 5000 à 6000, la deuxième dimension doit se situer dans la plage de 1000 à 2000, et la dernière dimension doit être 00. Par exemple, **+Compte=\[5100\], Département=\[1100\], Centre de coût=\[01\]** n'est pas inclus dans l'état, car le dernier segment est hors de la plage spécifiée. Si une valeur de segment inclut des espaces, entourez cette valeur par des crochets (\[ \]). Les valeurs suivantes sont valides pour un segment à quatre caractères : **\[ 234\], \[123 \], \[1 34\]**. Les valeurs de dimension doivent être entourées de crochets (\[ \]), et le générateur d'états ajoute ces crochets pour vous. Quand une plage de plusieurs segment ou de plusieurs dimensions inclut des caractères génériques (? ou \*), les extrémités haute et basse de la plage entière de plusieurs segments ou de plusieurs dimensions sont déterminées, puis les valeurs de fin et toutes les valeurs entre elles sont incluses. Si vous avez une plage étendue, comme toute la plage de comptes de 40000 à 99999, vous devez spécifier un compte de début et un compte de fin valides à chaque fois que c'est possible. 
 > [!Note] 
 > Le générateur d'état ne peut pas sélectionner de comptes, de dimensions ni de champs à partir du système ERP Microsoft Dynamics comportant des caractères réservés suivants : &, \*, \[, \], {, ou }. Vous pouvez ajouter une esperluette (&) que lorsque vous générez automatiquement des définitions de ligne à l'aide de la boîte de dialogue **Insérer des lignes à partir de dimensions** .
 
@@ -488,10 +488,10 @@ Un ensemble de valeurs de dimension est un groupe de valeurs de dimension auquel
 1.  Dans le Concepteur de rapports, ouvrez la définition de ligne, de colonne ou d'organigramme à modifier.
 2.  Dans le menu **Édition**, cliquez sur **Gérer les ensembles de valeurs de dimension**.
 3.  Dans la boîte de dialogue **Gérer les ensembles de valeurs de dimension**, dans le champ **Dimension**, sélectionnez le type de dimension.
-4.  Sélectionnez l'ensemble à supprimer, puis cliquez sur **Supprimer**. Cliquez sur **Oui** pour supprimer définitivement cet ensemble de valeurs de dimensions.
+4.  Sélectionnez l'ensemble à supprimer, puis cliquez sur **Supprimer**. Cliquez sur **Oui** pour supprimer l'ensemble de valeurs de dimension de façon permanente.
 
 
-## <a name="see-also"></a>Voir également :
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [États financiers](financial-reporting-intro.md)
 

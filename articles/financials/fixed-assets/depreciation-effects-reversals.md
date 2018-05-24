@@ -19,16 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7309cb3175f65bc6b806edb875ac9406a8faaf66
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: fbef7cb9a9fb18809dff96d4a44454d0dc6a31fc
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="depreciation-effects-with-reversals"></a>Effets d'amortissement avec contrepassations
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article traite des conséquences potentielles de la contrepassation d'une transaction d'immobilisation. 
 
@@ -90,7 +90,7 @@ L'amortissement est sous-évalué de 16,95 (983,62 - 966,67).
 
 
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Amortissement des immobilisations](fixed-asset-depreciation.md)

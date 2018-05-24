@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: 029f70a995bed25b991d374608d782768b20988c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e4414ead4d2c767ecdd3e631035034b01de55b27
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="purchase-agreements"></a>Contrats d'achat
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article fournit des informations sur les contrats d'achat. Un contrat d'achat est un contrat par lequel une organisation s'engage à acheter une quantité ou un montant spécifique au moyen de plusieurs commandes fournisseur sur une certaine période. En échange de cet engagement, l'acheteur a droit à des prix spéciaux et des remises. 
 
@@ -91,7 +91,7 @@ Si vous créez une commande fournisseur intersociétés qui utilise le contrat d
 ## <a name="financial-dimensions-on-purchase-agreements"></a>Dimensions financières sur les contrats d'achat
 Vous pouvez copier les dimensions financières vers des en-têtes de document ou des lignes individuelles d'un contrat d'achat. Si vous modifiez les dimensions dans l'en-tête ou la ligne de l'accord, la modification n'affecte aucune commande lancée, mais elle sera reflétée sur toutes les nouvelles commandes.
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Créer un contrat d'achat (guide de tâche)](tasks/create-purchase-agreement.md)

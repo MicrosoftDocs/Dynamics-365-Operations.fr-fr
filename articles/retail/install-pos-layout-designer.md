@@ -20,16 +20,16 @@ ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 36c9b70ab16498ec22a7113d0d5debd5de63658a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 30adfefd5ec70ddce348dab2481d518875e01ff2
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="install-the-retail-pos-layout-designer"></a>Installez le concepteur de mise en page de Retail POS
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Vous pouvez utiliser le concepteur en un seul clic pour concevoir différentes mises en page Retail Modern POS (MPOS) et PDV Cloud, en mode paysage ou en mode portrait, pour les magasins, les caisses enregistreuses, les caissiers, et les responsables.
 
@@ -51,7 +51,7 @@ Le l'interface de conception graphique de MPOS ou PDV Cloud est contrôlée par 
 
 **Problème connu :** Le concepteur ne fonctionne pas correctement dans les navigateurs Google Chrome et Mozilla Firefox. Nous œuvrons à corriger ce problème.
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Configurer, télécharger, installer, et activer Retail Modern POS](retail-modern-pos-device-activation.md)

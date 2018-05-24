@@ -18,15 +18,15 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b4b54e97bdebc158adc3bc6d57a6661cd536f5fb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 343e372ad9e29372649e975a5bee16e8913b66c8
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="provision-microsoft-dynamics-365-for-talent"></a>Mettre en service Microsoft Dynamics 365 for Talent
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Cette rubrique décrit le processus de mise en service d'un nouvel environnement de production pour Microsoft Dynamics 365 for Talent. Cette rubrique suppose que vous avez acheté Talent par l'intermédiaire d'un fournisseur de solutions Cloud (CSP) ou dans le cadre d'un contrat d'architecture d'entreprise (EA). Si vous disposez d'une licence Microsoft Dynamics 365 existante qui inclut déjà le plan de service Talent et que vous ne pouvez pas effectuer les étapes décrites dans cette rubrique, contactez le support technique.
 
@@ -54,17 +54,18 @@ Une fois que vous avez créé un projet LCS, vous pouvez mettre en service Talen
     > Pour afficher les environnements existants ou en créer de nouveaux, la licence P2 PowerApps doit être affectée à l'administrateur qui met en service Talent. Si votre organisation ne dispose pas d'une licence P2 PowerApps, vous pouvez en obtenir une auprès de votre fournisseur CSP ou à partir de la [Page de tarification PowerApps](https://powerapps.microsoft.com/en-us/pricing/).
 
 4. Sélectionnez **Ajouter**, puis sélectionnez l'environnement dans lequel mettre en service Talent.
-5. Sélectionnez **Oui** pour accepter les termes et commencer le déploiement.
+5. Sélectionnez l'option « Inclure les données de démonstration » si vous souhaitez que votre environnement inclut le même ensemble de données de démonstration que celui utilisé dans l'environnement de test de Talent.  Cette option est utile pour les environnements de démonstration ou de formation à long terme, et ne doit jamais être utilisée pour les environnements de production.  Notez que vous devez sélectionner cette option lors du déploiement initial et vous ne pouvez pas mettre à jour un déploiement existant ultérieurement.
+6. Sélectionnez **Oui** pour accepter les termes et commencer le déploiement.
 
     Votre nouvel environnement apparaît dans la liste des environnements dans le volet de navigation à gauche. Toutefois, vous ne pouvez pas commencer à utiliser l'environnement jusqu'à ce que le statut de déploiement soit mis jour sur **Déployé**. Ce processus ne prend généralement que quelques minutes. Si le processus d'approvisionnement est infructueux, vous devez contacter le support technique.
 
-6. Sélectionnez **Se connecter à Talent** pour utiliser votre nouvel environnement.
+7. Sélectionnez **Se connecter à Talent** pour utiliser votre nouvel environnement.
 
 > [!NOTE]
 > Si vous ne vous êtes pas encore déconnecté, vous pouvez déployer une instance de test de Talent dans le projet. Vous pouvez ensuite utiliser cette instance pour tester votre solution jusqu'à ce que vous vous déconnectiez. Si vous utilisez votre nouvel environnement pour les tests, vous devez répéter cette procédure pour créer un environnement de production.
 
 > [!NOTE]
-> Les environnements Talent qui sont mis en service via LCS ne contiennent pas de données de démonstration configurées pour les tâches liées aux Ressources humaines (RH) ou spécifiques à Talent. Si vous exigez un environnement qui contient les données de démonstration, nous vous recommandons de vous inscrire gratuitement pour une période de 60 jours [Environnement d'évaluation Talent](https://dynamics.microsoft.com/en-us/talent/overview/). Bien qu'un environnement d'évaluation soit la propriété de l'utilisateur qui l'a demandé, d'autres utilisateurs peuvent être invités via l'expérience d'administration système pour Core RH. Les environnements d'évaluation contiennent des données fictives qui peuvent être utilisées pour explorer le programme de manière sûre. Ils ne sont pas destinés à être utilisés comme environnements de production. Notez que lorsque l'environnement d'évaluation expire après 60 jours, toutes les données qu'il contient sont supprimées et ne peuvent pas être récupérées. Vous pouvez vous inscrire à un nouvel environnement d'évaluation après expiration de l'environnement existant.
+> Comme seuls deux environnements LCS sont autorisés dans le cadre de l'abonnement Talent, vous pouvez également envisager d'utiliser un [environnement d'évaluation Talent](https://dynamics.microsoft.com/en-us/talent/overview/) gratuit pendant 60 jours. Bien qu'un environnement d'évaluation soit la propriété de l'utilisateur qui l'a demandé, d'autres utilisateurs peuvent être invités via l'expérience d'administration système pour Core RH. Les environnements d'évaluation contiennent des données fictives qui peuvent être utilisées pour explorer le programme de manière sûre. Ils ne sont pas destinés à être utilisés comme environnements de production. Notez que lorsqu'un environnement d'évaluation expire après 60 jours, toutes les données qu'il contient sont supprimées et ne peuvent pas être récupérées. Vous pouvez vous inscrire à un nouvel environnement d'évaluation après expiration de l'environnement existant.
 
 ## <a name="select-a-powerapps-environment"></a>Sélectionner un environnement PowerApps
 
@@ -104,13 +105,15 @@ Complétez les instructions suivantes pour exécuter le script :
 
 1. Téléchargez le fichier ProvisionCDSEnvironment.zip à l'emplacement suivant : [Scripts ProvisionCDSEnvironment](https://go.microsoft.com/fwlink/?linkid=870436)  
 
-2. Décompressez le contenu complet du fichier ProvisionCDSEnviroinment.zip dans un dossier.
+2. Dans votre dossier de téléchargements, cliquez avec le bouton droit sur le fichier ProvisionCDSEnvironment.zip que vous venez de télécharger et sélectionnez **Propriétés**.  Si une note de sécurité s'affiche en bas de la boîte de dialogue qui indique « Ce fichier provenait d'un autre ordinateur et peut être bloqué pour protéger cet ordinateur », activez la case à cocher associée à **Débloquer**, cliquez sur **Appliquer** puis sur **OK**.
 
-3. Exécutez le programme Windows PowerShell ou Windows PowerShell ISE en tant qu'administrateur.
+3. Décompressez le contenu complet du fichier ProvisionCDSEnviroinment.zip dans un dossier autre que votre dossier racine.
 
-   Visitez la rubrique [Définir la stratégie d'exécution](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6) pour en savoir plus sur la définition de la stratégie d'exécution afin que les scripts puissent être exécutés.
+4. Exécutez le programme Windows PowerShell ou Windows PowerShell ISE en tant qu'administrateur.
+
+   Visitez la rubrique [Définir la stratégie d'exécution](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6) pour en savoir plus sur la définition de la stratégie d'exécution afin que les scripts puissent être exécutés. Nous vous conseillons d'utiliser la commande suivante, « Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process », mais veillez à suivre les stratégies de sécurité de votre société et à fermer la fenêtre PowerShell lorsque vous avez terminé. 
   
-4. Dans PowerShell, accédez au dossier où vous avez décompressé le fichier et exécutez la commande suivante, pour remplacer les valeurs comme indiqué ci-dessous :
+5. Dans PowerShell, accédez au dossier où vous avez décompressé le fichier et exécutez la commande suivante, pour remplacer les valeurs comme indiqué ci-dessous :
  
    ```.\ProvisionCDSEnvironment -EnvironmentName MyNewEnvironment -Location YourLocation```
 
@@ -121,18 +124,10 @@ Complétez les instructions suivantes pour exécuter le script :
 
    **-Verbose** est facultatif et fournit des informations détaillées à envoyer au support technique si des problèmes sont rencontrés.
 
-5. Poursuivez le processus de provisionnement.
+6. Poursuivez le processus de provisionnement.
  
 
-
 ## <a name="grant-access-to-the-environment"></a>Autoriser l'accès à l'environnement
-Par défaut, l'administrateur global ayant créé l'environnement y a accès. Cependant, les autres utilisateurs d'application doivent avoir un accès explicitement autorisé. Pour accorder l'accès, [ajoutez des utilisateurs](../dev-itpro/sysadmin/tasks/create-new-users.md) et [affectez-leurs les rôles appropriés](../dev-itpro/sysadmin/tasks/assign-users-security-roles.md) dans Core RH. Vous devez également ajouter ces utilisateurs à l'environnement PowerApps, afin qu'ils puissent accéder aux applications Attract et Onboard. La procédure est décrite ici. Si vous avez besoin d'aide pour effectuer les étapes, voir le billet de blog [Présentation du centre d'administration PowerApps](https://powerapps.microsoft.com/en-us/blog/introducing-admin-center-for-powerapps/).
+Par défaut, l'administrateur global ayant créé l'environnement y a accès. Cependant, les autres utilisateurs d'application doivent avoir un accès explicitement autorisé. Pour accorder l'accès, [ajoutez des utilisateurs](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) et [affectez-leurs les rôles appropriés](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles) dans Core RH. L'administrateur global qui a déployé Talent doit également lancer les applications Attract et Onboard pour terminer l'initialisation et activer l'accès pour les autres utilisateurs.  Sinon, les autres utilisateurs ne pourront pas accéder aux applications Attract et Onboard et recevront des erreurs de violation de l'accès.
 
-Cette procédure est effectuée par l'administrateur global qui a déployé l'environnement Talent.
-
-1. Ouvrez le [Centre d'administration PowerApps](https://preview.admin.powerapps.com/environments).
-2. Sélectionnez les environnements appropriés.
-3. Sous l'onglet **Sécurité**, ajoutez les utilisateurs requis au rôle **Créateur d'environnement**.
-
-    Notez que cette dernière étape, dans laquelle vous ajoutez manuellement des utilisateurs à l'environnement PowerApps, est temporaire. Par la suite, elle sera effectuée automatiquement lorsque les utilisateurs sont ajoutés à Core RH.
 

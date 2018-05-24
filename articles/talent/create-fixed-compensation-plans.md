@@ -19,16 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c5d13024ba15744f81406c4c8f5d5d33de658d63
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: cea4aec80bc0b519a6b393724835555b4d0937a8
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-fixed-compensation-plans"></a>Créer des régimes de rémunération fixe
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 La rémunération fixe fait référence au salaire brut normal des employés. Cette rubrique décrit les composants qui doivent être définis avant de créer un régime de rémunération fixe et y inscrire des employés.
 
@@ -101,7 +101,7 @@ Vous pouvez désormais affecter un employé à un régime de rémunération fixe
 
 Le système vérifie que le montant de rémunération spécifié pour un régime de rémunération du type niveau ou structure est compris dans les points de référence minimum et maximum pour le niveau de rémunération donné dans la tâche de l'employé. Si le montant de rémunération est en dehors de la plage autorisée, un avertissement ou un message d'erreur s'affiche, selon le niveau de tolérance défini dans le régime de rémunération fixe.
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Régimes de rémunération](compensation-plans.md)

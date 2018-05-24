@@ -18,16 +18,16 @@ ms.author: robinr
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 911996f9d1854f027f5085725538bd87ba307c25
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7bb152334b3b06c86dff024d0e99aea9bb452deb
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cloud-and-on-premises-feature-comparison"></a>Comparaison des fonctions dans le cloud et sur site
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique indique si chaque fonction est disponible dans ces produits :
 
@@ -126,9 +126,9 @@ Les tableaux suivants décrivent les zones de produit. La prise en charge en clo
 
 | Secteur | Fonction | Cloud | Sur site|
 |---|---|---|---|
-| Toutes les zones Talent | Toutes les fonctionnalités Talent | Oui | Non |
+| Toutes les zones Talent | Toutes les fonctionnalités Talent | Oui | N° |
 
-## <a name="see-also"></a>Voir aussi
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 - [Fonctions non implémentées dans les déploiements sur site](features-not-implemented-on-prem.md)
 

@@ -19,16 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7344fad7c4dffabd99993924604e2e497bebc5ef
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: fc325b519299098a4f8257c013bce0842237f9ea
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="define-and-manage-a-benefits-program"></a>Définir et gérer un programme social
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Les ressources humaines proposent un ensemble d'outils pouvant servir à paramétrer et à mettre à jour les avantages, les déductions et les plans de compensation des collaborateurs qu'une organisation offre ou gère pour ses collaborateurs. Cette rubrique fournit des informations sur la manière de paramétrer et de gérer les avantages.
 
@@ -66,7 +66,7 @@ Parfois, une organisation cesse d'offrir certains avantages. Dans ce cas, vous d
 
 De même, l'extension de l'avantage collectif vous permet de prolonger la date d'expiration d'un avantage ainsi que l'inscription des collaborateurs à cet avantage si vous décidez d'offrir un avantage plus longtemps que prévu.
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Stratégies de droit aux avantages](benefit-eligibility-policies.md)

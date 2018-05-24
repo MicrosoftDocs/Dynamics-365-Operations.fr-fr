@@ -1,6 +1,6 @@
 ---
 title: "Création de paiements fournisseur via une proposition de paiement"
-description: "Cette rubrique fournit une vue d'ensemble des options de proposition de paiement et il inclut quelques exemples qui indiquent comment les propositions de paiement sont exécutées. Les propositions de paiement sont souvent utilisées pour créer des paiements fournisseurs car la demande de proposition de paiement peut être utilisée pour sélectionner rapidement les factures fournisseur pour le paiement, en fonction de critères tels que la date d'échéance et l'escompte de règlement."
+description: "Cette rubrique fournit une vue d'ensemble des options de proposition de paiement et il inclut quelques exemples qui indiquent comment les propositions de paiement sont exécutées."
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 04/04/2018
@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1199329f7d669a291249e22e393842673a8907c3
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5afdace14d1db4b36027634b3af3df1029ae12a2
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Création de paiements fournisseur via une proposition de paiement
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique fournit une vue d'ensemble des options de proposition de paiement et il inclut quelques exemples qui indiquent comment les propositions de paiement sont exécutées. Les propositions de paiement sont souvent utilisées pour créer des paiements fournisseurs car la demande de proposition de paiement peut être utilisée pour sélectionner rapidement les factures fournisseur pour le paiement, en fonction de critères tels que la date d'échéance et l'escompte de règlement. 
 
@@ -47,7 +47,7 @@ La demande de proposition de paiement contient différents onglets, chacun ayant
 - **Vérifier le solde fournisseur** – Si cette option est définie sur **Oui**, le système vérifie qu'un fournisseur n'a pas de solde débiteur avant le règlement de n'importe quelle facture. Si un fournisseur a un solde débiteur, aucun paiement n'est créé. Par exemple, le fournisseur peut avoir des avoirs ou des paiements qui ont été validés, mais qui n'ont pas encore été réglés. Dans ces cas, le fournisseur ne doit pas être payé. Au lieu de cela, les avoirs ou les paiements doivent être réglés par rapport aux factures en attente.
 - **Supprimer les paiements négatifs** – Cette option fonctionne différemment, selon les paiements effectués pour les factures individuelles ou pour la somme des factures qui répondent aux critères de paiement. Ce comportement est défini sur la méthode de paiement.
 - **Paiement pour chaque facture** – Si l'option **Supprimer les paiements négatifs** est définie sur **Oui**, et si une facture et un paiement non réglés existent pour un fournisseur, seule la facture est sélectionnée pour paiement. Le paiement existant n'est pas réglé avec la facture. Si l'option **Supprimer les paiements négatifs** est définie sur **Non** et si une facture et un paiement ne sont pas réglés, la facture et le paiement sont sélectionnés pour paiement. Un paiement est créé pour paiement, puis un remboursement (paiement négatif) est créé pour le paiement.
-- <strong>Paiement de la somme des factures</strong> – Si l'option <strong>Supprimer les paiements négatifs</strong> est définie sur <strong>Oui</strong>, et si une facture et un paiement non réglés existent pour un fournisseur, les deux sont sélectionnés pour paiement et les montants sont ajoutés pour générer montant total du paiement. La seule exception se produit si la somme entraîne un remboursement. Dans ce cas, ni la facture ni le paiement n'est sélectionné. Si l'option <strong>Supprimer les paiements négatifs**est définie sur **Non</strong> et si une facture et un paiement ne sont pas réglés, les deux sont sélectionnés pour paiement et les montants sont ajoutés pour générer le montant total du paiement.
+- **Paiement de la somme des factures** – Si l'option **Supprimer les paiements négatifs** est définie sur **Oui**, et si une facture et un paiement non réglés existent pour un fournisseur, les deux sont sélectionnés pour paiement et les montants sont ajoutés pour générer montant total du paiement. La seule exception se produit si la somme entraîne un remboursement. Dans ce cas, ni la facture ni le paiement n'est sélectionné. Si l'option **Supprimer les paiements négatifs** est définie sur **Non** et si une facture et un paiement ne sont pas réglés, les deux sont sélectionnés pour paiement et les montants sont ajoutés pour générer le montant total du paiement.
 - **Imprimer l'état uniquement** – Définissez cette option sur **Oui** pour voir les résultats de la proposition de paiement sur un état, mais sans créer de paiement.
 - **Inclure les factures fournisseur d'autres entités juridiques** – Si votre organisation a un processus centralisé pour le paiement, et si la proposition de paiement doit inclure les factures d'autres entités juridiques incluses dans les critères de recherche, définissez cette option sur **Oui**.
 - **Proposer un paiement fournisseur séparé par entité juridique** – Si cette option est définie sur **Oui**, un paiement distinct est créé pour chaque entité juridique par fournisseur. Le fournisseur du paiement est le fournisseur de la facture de chaque entité juridique. Si cette option est définie sur **Non**, et si des factures doivent être payées à un fournisseur dans plusieurs entités juridiques, un paiement est créé pour le montant total des factures sélectionnées de toutes les sociétés sélectionnées. Le fournisseur pour le paiement correspond à l'entité juridique active. Si ce compte n'existe pas dans l'entité juridique active, le compte fournisseur de la première facture à payer est utilisé.
@@ -115,7 +115,8 @@ Le contrôle des dimensions vous permet de contrôler le regroupement de lignes 
 -   Le champ **Contrôle de dimension** est activé sans définir davantage les dimensions. La proposition de paiement est créée sans prendre en considération les dimensions. La transaction créée n'hérite d'aucune dimension de l'entrée appliquée.
 -   Le champ **Contrôle de dimension** est activé et d'autres dimensions sont activées. Maintenant vous définissez comment les dimensions seront copiées dans le journal. Par exemple : • Activez la case à cocher **BusinessUnit** pour créer une proposition de paiement par unité commerciale pour le mode de paiement, • Activez la case à cocher **CostCenter** pour créer une proposition de paiement par centre de coût pour le mode de paiement
 
-**Remarque :** si vous sélectionnez plusieurs dimensions dans la troisième option, une proposition de paiement est créée pour une combinaison de dimensions.
+> [[!NOTE]
+> Si vous sélectionnez plusieurs dimensions dans la troisième option, une proposition de paiement est créée pour une combinaison de dimensions.
 
 #### <a name="bank-account-selection"></a>Sélection de compte bancaire
 

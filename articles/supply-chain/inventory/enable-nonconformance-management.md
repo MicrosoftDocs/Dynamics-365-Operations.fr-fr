@@ -19,16 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: ba518bc1b2e0811d07ed2811e8e1da4812d02899
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 93a7ed31dcad19a29a85352a2bf200915766036c
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="nonconformance-management"></a>Gestion de la non-conformité
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article décrit le paramétrage de base requis afin d'utiliser les non-conformités. Un paramétrage supplémentaire est requis si vous souhaitez utiliser des ordres de qualité.
 
@@ -47,7 +47,7 @@ Pour activer la gestion de non-conformité, procédez comme suit :
 6.  Définissez les opérations associées qui seront affectées aux non-conformités. Utilisez la page **Opérations** pour définir une classification des tâches pouvant être exécutées pour une non-conformité approuvée. Lorsque vous affectez une opération associée à une non-conformité, vous pouvez également fournir des informations détaillées, notamment sur la matière, les heures travaillées et charges diverses associées requises pour l'exécution de l'opération. Ces informations servent à calculer le coût estimé de l'opération. Les informations détaillées et les coûts estimés sont fournis à titre de référence. Les opérations associées pour la qualité diffèrent des opérations pouvant être définies pour une gamme de production.
 
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Créer et traiter une non-conformité (guide de tâche)](tasks/create-process-non-conformance.md)

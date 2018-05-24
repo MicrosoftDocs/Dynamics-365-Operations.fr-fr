@@ -20,16 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f7001158a498aa28028167a0f76ad610ec09b43c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c3726038d9782891988e16cb98cf04cf47b7e66c
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="gantt-chart-for-job-scheduling"></a>Diagramme de Gantt pour la planification des tâches
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Le diagramme de Gantt est conçu pour permettre aux gestionnaires de production de contrôler et d'optimiser le plan de production. Le diagramme de Gantt assure la transparence du flux d'opérations et facilite l'ajustement de la planification de la production tout en tenant compte des pénuries de matières ou de ressources. Les gestionnaires de production peuvent ainsi optimiser les ressources disponibles, réduire les travaux en cours et optimiser les délais d'exécution des ordres de fabrication.
 
@@ -156,7 +156,7 @@ Le diagramme de Gantt peut être ouvert à partir des pages suivantes.
 |           <strong>Tâches à effectuer</strong> (liste dans l'espace de travail <strong>Gestion de l'atelier de production</strong>)            |                                                                                               L'espace de travail <strong>Liste des tâches à effectuer dans la gestion de l'atelier de production</strong> affiche les tâches de production et les lots de commandes en cours sur les ressources sélectionnées pour l'espace de travail. Dans l'option de menu <strong>Diagramme de Gantt</strong>, vous pouvez ouvrir le diagramme de Gantt, où toutes les tâches sélectionnées dans la liste sont chargées dans le diagramme.                                                                                               |
 | <strong>Ordres de fabrication à lancer</strong> (ouvert à partir de l'espace de travail <strong>Gestion de l'atelier de production</strong>) |                                                                                                                                         La page Ordres de fabrication à lancer est ouverte partir de l'espace de travail <strong>Gestion de l'atelier de production</strong>. Cette page affiche les ordres de fabrication planifiés et les lots de commandes en attente de lancement. Dans cette page, vous pouvez ouvrir le diagramme de Gantt pour les ordres de fabrication sélectionnés.                                                                                                                                          |
 
-## <a name="see-also"></a>Voir également :  
+## <a name="additional-resources"></a>Ressources supplémentaires  
 [Planification visuelle avec le diagramme de Gantt pour les ordres de fabrication et les lots de commandes (vidéo)](https://youtu.be/BtbuShkGj4I)
 
 [Planification visuelle pour la production (script de démonstration)](https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/how-to-articles/365finoptvisschep)

@@ -19,16 +19,16 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1224e7983341fdb8be6a1e731e394106d27b2960
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2d36867016f6bfeb149e417c1d86b585e01d59b2
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="commitments-in-the-public-sector-in-france"></a>Engagements dans le secteur public en France
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Les engagements sont des documents source de contrôle budgétaire utilisés par les entités du secteur public en France. Ils permettent de réserver des montants budgétés afin qu'une organisation puisse explicitement suivre des réservations budgétaires à des fins de gestion et de déclaration tout au long du cycle des dépenses. 
 
@@ -74,7 +74,7 @@ Les engagements doivent être clôturés manuellement.
 
 **Important** : lorsque vous sélectionnez les engagements que vous souhaitez clôturer, vérifiez de ne pas sélectionner les engagements que vous avez déjà créés pour le nouvel exercice. La clôture d'une ligne d'engagement ne peut pas être contrepassée. Si vous clôturez accidentellement une ligne d'engagement, vous devez créer un autre engagement pour restaurer la réservation budgétaire. Pour en savoir plus sur le processus de fin d'exercice, voir [Traitement de fin d'exercice dans le secteur public](../public-sector/year-end-processing-public-sector.md).
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Comptabilité du secteur public en France](emea-fra-public-sector-accounting.md)

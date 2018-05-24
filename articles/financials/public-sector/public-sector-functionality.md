@@ -20,16 +20,16 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 920f5b338c127b21bb350ba848ac852cf6758c8b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 24dfa9c151f8930bc62463cdd6acf8b4c4cdd870
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="public-sector-home-page"></a>Page d'accueil de la fonctionnalité Secteur public
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Finance and Operations active les processus d'entreprise communs aux secteurs public et privé, comme les tâches de budgétisation, de comptabilité fournisseur et de comptabilité client. 
 
@@ -68,7 +68,7 @@ Le tableau suivant fournit des informations sur le lien entre cette clé de conf
 | Clés enfants | **Clé de configuration Écriture comptable avancée** (AdvancedLedgerEntry) **Clé de configuration Secteur public 1099G** (Tax1099G) **Clé de configuration Secteur public 1099S** (Tax1099S) **Clé de configuration Réglementation française** |
 
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Planification pour la fonctionnalité Secteur public](plan-public-sector-functionality.md)

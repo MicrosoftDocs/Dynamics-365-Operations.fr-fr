@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: 6aa1a57e82f2403508815cd7d445c379e4532595
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d667f2abbc7bd00d46f40178b9f6e9d21c6f79f3
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="procurement-catalogs"></a>Catalogues d'approvisionnement
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article décrit, à un niveau supérieur, comment les acheteurs peuvent paramétrer et tenir à jour les catalogues d'approvisionnement. Des catalogues d'approvisionnement définissent les articles et les services que les employés de la société peuvent commander pour un usage interne.
 
@@ -70,7 +70,7 @@ Les mises à jour sont publiées automatiquement ou manuellement, selon l'option
 -   **Les deux** – Si le catalogue inclut des catégories de produits dont le type de mise à jour par défaut est **Statique**, il doit être mis à jour manuellement lors de la mise à jour de ces catégories. Si le catalogue inclut des catégories de produits dont le type de mise à jour par défaut est **Dynamique**, il est automatiquement mis à jour à chaque modification.
 
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Paramétrage d'une hiérarchie des catégories d'approvisionnement (Guide de tâche)](tasks/set-up-procurement-category-hierarchy.md)

@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f6ef6c58b346b93b6bdfbe5c2dceb6c6cf9bae47
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c530284f83f13bce6941bf889aaddbb1a1e82dae
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="master-plans"></a>Plans généraux
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Utilisez différents plans généraux pour prendre en charge les opérations de travail quotidiennes de votre entreprise, simuler différentes stratégies de planification que vous souhaitez surveiller et mettre en œuvre une politique d'entreprise, par exemple en ce qui concerne les performances internes ou la satisfaction des clients. 
 
@@ -47,7 +47,7 @@ Vous pouvez également définir le plan dynamique de démarrage de manière à c
 
 
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Paramètres de couverture](coverage-settings.md)

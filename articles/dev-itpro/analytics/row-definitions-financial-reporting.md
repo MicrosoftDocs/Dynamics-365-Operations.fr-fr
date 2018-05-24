@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 06a75889e62cbba6e47a8543cf663868df5ae2e3
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ea1386bc06c0e91a2d1f23dd05794ca6ff99106a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="row-definitions-in-financial-report-designer"></a>Définitions de ligne dans le générateur d'états financiers
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Une définition de ligne est un composant de l’état, ou un bloc élémentaire, qui spécifie le contenu de chaque ligne d’un état financier. Une définition de ligne peut être combinée avec les définitions de colonne, les définitions d'arborescence de génération d'état et les définitions d'état pour créer un groupe de blocs élémentaires pouvant être utilisé par plusieurs sociétés.
 
@@ -172,7 +172,7 @@ Pour faciliter l'affichage des colonnes sur lesquelles vous travaillez dans la d
 2.  Cliquez avec le bouton droit sur la colonne réduite à afficher, puis cliquez sur **Afficher**.
 
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [États financiers](financial-reporting-intro.md)

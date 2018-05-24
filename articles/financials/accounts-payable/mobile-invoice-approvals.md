@@ -18,16 +18,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a44e5d04edf327da2b3ba4676c8b823291801abe
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: fc1483285d6ec675637c013af4949b9c7acf92b3
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="mobile-invoice-approvals"></a>Approbations de factures par téléphone portable
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Les fonctionnalités mobiles de Microsoft Dynamics 365 for Finance and Operations permettent à un utilisateur professionnel de concevoir des expériences mobiles. Pour les scénarios avancés, la plateforme permet également aux développeurs d'étendre les capacités comme ils le désirent. Le moyen le plus efficace d'apprendre quelques-uns des nouveaux concepts sur la fonction mobile est de passer en revue le processus de conception de quelques scénarios. Cette rubrique est destinée à fournir une approche pratique pour concevoir des scénarios mobiles en prenant les approbations de facture de fournisseur pour mobile en tant que cas d'utilisation. Cette rubrique doit vous aider à créer d'autres variations de scénarios et peut également être appliquée à d'autres scénarios non liés aux factures fournisseur.
 
@@ -175,9 +175,9 @@ Pour déterminer la page Détails de facture pour la fonction mobile, utilisez l
 1. Dans l'URL Finance and Operations, remplacez le nom de l'option de menu par **VendMobileInvoiceHeaderDetails** pour ouvrir l'écran
 2. Ouvrez le Concepteur mobile à partir du bouton **Paramètres** (engrenage)
 3. Cliquez sur le bouton **Modifier** pour passer en mode d'édition dans l'espace de travail.
-4. Sélectionnez la page <strong>Mes factures fournisseur** créée précédemment, puis cliquez sur **Modifier</strong>.
+4. Sélectionnez la page **Mes factures fournisseur** créée précédemment, puis cliquez sur **Modifier**.
 5. Sous l'onglet **Champs**, cliquez sur l'en-tête de colonne **Grille**.
-6. Cliquez sur **Propriétés** &gt; **Ajouter une page**. **Remarque :** lorsque vous cliquez sur l'en-tête **Grille** et que vous ajoutez une page, la relation avec la page de détails est établie automatiquement.
+6. Cliquez sur **Propriétés &gt; Ajouter une page**. **Remarque :** lorsque vous cliquez sur l'en-tête **Grille** et que vous ajoutez une page, la relation avec la page de détails est établie automatiquement.
 7. Entrez un titre de page, tel que **Détails de la facture**, et une description, par exemple **Afficher les détails de l'en-tête et de la ligne**.
 8. Cliquez sur **Sélectionner des champs**. Notez que l'ordre dans lequel vous ajoutez est l'ordre dans lequel les champs seront affichés à l'utilisateur final. La seule façon de modifier l'ordre des champs consiste à sélectionner tous les champs. 
 9. Ajoutez les champs suivants à partir de l'en-tête selon la configuration requise pour ce scénario :

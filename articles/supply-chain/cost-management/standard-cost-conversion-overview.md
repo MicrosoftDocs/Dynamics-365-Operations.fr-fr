@@ -20,16 +20,16 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 2e59fd6e137d5f677ed4055385ef88922c8c42ba
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2985e58bd308295e1f698c391f57fc3d116835bd
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="standard-cost-conversion-overview"></a>Vue d'ensemble de la conversion du coût standard
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article fournit une vue d'ensemble du processus pour vous aider à paramétrer et exécuter une conversion de coût standard. Les étapes répertoriées sont destinées à être effectuées après que vous avez réalisé les conditions préalables à la conversion de coût standard. 
 
@@ -96,7 +96,7 @@ L'état **Relevé d'analyse d'écart** vous permet d'analyser l'écart de réév
 -   Analysez les mouvements de stock antidatés. Utilisez l'état **Valeur en stock** pour afficher les mouvements de stock antidatés qui ont été entrés après la conversion. Les dates de début et de fin pur l'état doivent correspondent à la date de début de transition et à la date de conversion, moins un jour. Les critères de sélection d'état doivent indiquer les articles convertis. L'état présente les mouvements de stock qui ont été effectués à un coût standard durant la période de transition.
 
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Conditions préalables à la conversion de coût standard](prerequisites-standard-cost-conversion.md)

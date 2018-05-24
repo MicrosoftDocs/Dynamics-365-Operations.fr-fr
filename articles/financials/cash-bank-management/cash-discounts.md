@@ -19,25 +19,24 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 668e3ebdd2729efb48e2833fd5beec3cefdb17b0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5ccf41d1184280d3c4a000db13847733fd2cf4d2
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cash-discounts"></a>Escomptes de règlement
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Les escomptes de règlement sont paramétrés et partagés pour la Comptabilité fournisseur et la Comptabilité client.  L'escompte de règlement disponible peut être défini sur la facture client ou la facture fournisseur, et sera utilisé si la facture est payée pendant la période d'escompte de règlement. 
 
-<a name="cash-discounts"></a>Escomptes de règlement
---------------
+## <a name="cash-discounts"></a>Escomptes de règlement
 
 Les escomptes de règlement à la fois pour les clients ou les fournisseurs peuvent être créés dans la page Escomptes de règlement. À l'aide du champ Code remise suivant, vous pouvez également définir une série d'escomptes de règlement qui se succèdent au fur et à mesure que les dates des escomptes de règlement précédentes expirent. Pour plus d'informations, voir la section « Exemple : série d'escomptes de règlement » plus loin dans cette rubrique. Si la facture, la transaction créditrice (paiement ou avoir), voire les deux, utilisent une devise autre que la devise comptable de l'entité juridique, l'escompte de règlement est calculé en fonction de la date du paiement ou de l'avoir. Si la facture et le document de crédit sont indiqués dans des entités juridiques différentes, et si les devises comptables des entités juridiques diffèrent, le taux de change est tiré de l'entité juridique de la facture, à la date du document de crédit. Pour plus d'informations, voir la section « Exemple : taux de change des escomptes de règlement » plus loin dans cette rubrique.
-Commande par défaut du compte principal d'escompte de règlement
-----------------------------------------------
+
+## <a name="defaulting-order-of-cash-discount-main-account"></a>Commande par défaut du compte principal d'escompte de règlement
 
 Si une facture est réglée à temps pour justifier l'obtention d'un escompte de règlement, celui-ci est automatiquement validé sur un compte principal des escomptes de règlement, conformément à la priorité par défaut suivante :
 1.  Le compte principal spécifié dans le champ Autre compte des escomptes de règlement sur la page Régler les transactions en cours - client ou la page Régler les transactions en cours - fournisseur.
@@ -65,15 +64,7 @@ La devise comptable de votre entité juridique est EUR et les taux de change sui
 
 Une facture de 1 000 USD avec des conditions d'escompte de règlement de 20D2% est validée le 15 février. Le montant de la facture, exprimé en devise comptable, est de 1 100 EUR. Un paiement de 980 USD est réglé avec la facture le 1er mars. Le montant de l'escompte de règlement est de 20 USD. Le montant du paiement en devise comptable est de 784 EUR. Le montant de l'escompte de règlement, exprimé en devise comptable, est calculé à partir du taux de change du 1er mars : 20 \* 80 / 100 = 16 EUR.
 
-| **Remarque**                                                                                                                                                                                                                             |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Si l'option Calcule les escomptes de règlement pour les paiements partiels est sélectionnée dans les pages Paramètres de la comptabilité client ou Paramètres de la comptabilité fournisseur, le taux de change en vigueur à la date de chaque paiement partiel est utilisé. |
-
- 
-=
-
- 
-
-
+> [!NOTE]
+> Si l'option Calcule les escomptes de règlement pour les paiements partiels est sélectionnée dans les pages Paramètres de la comptabilité client ou Paramètres de la comptabilité fournisseur, le taux de change en vigueur à la date de chaque paiement partiel est utilisé. 
 
 

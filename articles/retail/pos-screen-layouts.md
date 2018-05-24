@@ -20,16 +20,16 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: dd2a42ac824dcf55646594b7cb686401214bb3bc
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9082c156fde52aa0c822f8e4753de816f8cc0558
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configure-screen-layouts-for-pos"></a>Configurer les mises en page d'écran pour le PDV
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Cette rubrique fournit des informations sur les mises en page de l'écran pour le point de vente (PDV) Microsoft Dynamics 365 for Retail utilisées.
 
@@ -89,9 +89,9 @@ Chaque taille de mise en page dans une mise en page de l'écran doit être confi
 
 **Image** - Le contrôle Image peut être utilisée pour afficher le logo de magasin ou une autre image de marque dans l'écran de transaction. Le contrôle Image est disponible uniquement pour les mises en page complètes. 
 
-**Produits recommandés** - Si configuré pour l'environnement, le contrôle Produits recommandés affichera les suggestions de produits basées sur Machine Learning. Le contrôle Produits recommandés est disponible uniquement pour les mises en page complètes dans Dynamics 365 for Retail version 1611. **Contrôle personnalisé **- Le contrôle personnalisé agit comme un espace réservé dans la mise en page de l'écran pour permettre aux utilisateurs de réserver de l'espace pour un contenu personnalisé. Le contrôle Personnalisé est disponible uniquement pour les mises en page complètes.
+**Produits recommandés** - Si configuré pour l'environnement, le contrôle Produits recommandés affichera les suggestions de produits basées sur Machine Learning. Le contrôle Produits recommandés est disponible uniquement pour les mises en page complètes dans Dynamics 365 for Retail version 1611. **Contrôle personnalisé**- Le contrôle personnalisé agit comme un espace réservé dans la mise en page de l'écran pour permettre aux utilisateurs de réserver de l'espace pour un contenu personnalisé. Le contrôle Personnalisé est disponible uniquement pour les mises en page complètes.
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Installer le concepteur de mise en page de Retail POS](install-pos-layout-designer.md)

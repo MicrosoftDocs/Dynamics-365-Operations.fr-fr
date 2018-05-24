@@ -19,16 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 35288f5c2edfa8a340f963a5c7216041765a58b4
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f3d6463ab07aaaf69a16aa0d59840cbe47427335
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="manage-the-electronic-reporting-configuration-lifecycle"></a>Gérer le cycle de vie de la configuration des états électroniques
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit comment gérer le cycle de vie des configurations d'états électroniques (ER) pour la solution Microsoft Dynamics 365 for Finance and Operations.
 
@@ -74,10 +74,10 @@ Pour les raisons suivantes associées à ER, nous recommandons que vous concevie
 
 Les configurations ER conçues dans l'environnement de développement peuvent être téléchargées dans l'environnement de test pour l'évaluation de la configuration (intégration correcte au processus, exactitude des résultats et des performances) et l'assurance qualité, comme l'exactitude des droits d'accès motivés par le rôle et la répartition des tâches. Les fonctions qui activent l'échange de configuration ER peuvent être utilisées à cet effet. Enfin, les configurations ER éprouvées peuvent être téléchargées soit dans LCS où elles peuvent être partagées avec des abonnés au service, ou dans l'environnement de production pour une utilisation interne, comme indiqué dans l'illustration suivante. ![Cycle de vie de la configuration ER](./media/ger-configuration-lifecycle.png)
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
-[Vue d'ensemble des États électroniques](general-electronic-reporting.md)
+[Vue d'ensemble des états électroniques](general-electronic-reporting.md)
 
 
 

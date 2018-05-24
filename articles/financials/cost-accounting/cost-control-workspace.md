@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 07787b67a84e8229cb3ce0a4434a39af3bd5a4e0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 934ab83d45aad32c067e8422c5415d4a0a6481b4
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cost-control-overview"></a>Vue d'ensemble du Contrôle des coûts 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 L'espace de travail **Contrôle des coûts** est un point central où les responsables chargés de contrôler un objet de coût ou un ensemble d'objets de coûts dans une dimension ou dans plusieurs dimensions peuvent accéder aux états. Les états dans l'espace de travail sont entièrement gérés par des comptables, de sorte que la mise en page et les données utilisées pour la génération des états sont cohérentes dans l'ensemble de l'organisation.
 
@@ -154,7 +154,7 @@ Dans l'exemple suivant, la base de répartition est du type **Base de répartiti
 
 ![Calculs par objet de coût](./media/cost-entries-allocation-base.png)
 
-Voir également : 
+Ressources supplémentaires 
 
 [Définir les droits d'accès des contrôleurs d'objet de coût](access-rights-cost-object-controller.md)
 

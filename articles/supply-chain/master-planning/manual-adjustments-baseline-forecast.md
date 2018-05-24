@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: dbc195da36d31e01400fe66a1c02ea49609400eb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 543a88a8df4252e5bf1b6b27b5209650c1ceca0b
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Effectuer des ajustements manuels sur la prévision de base
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique explique comment effectuer des ajustements manuels sur une prévision de base et afficher les détails de la prévision. 
 
@@ -76,7 +76,7 @@ La page **Détails de prévision de la demande** affiche les informations suivan
 
 Vous pouvez également effectuer des ajustements manuels de la prévision dans la page **Détails de prévision de la demande**, en modifiant les valeurs dans la ligne **Prévision** dans la section **Prévision**.
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Surveillance de la précision de la prévision](monitor-forecast-accuracy.md)

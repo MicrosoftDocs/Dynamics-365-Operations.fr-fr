@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1fd7231ad204a0764d601e9b64bf2150255c6f78
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 683d3de59a427df296bb0d3d644f0ec23b3a8e5e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="report-designer-interface"></a>Interface du Concepteur de rapports
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cet article explique comment naviguer dans le générateur d'états et comment utiliser les différentes options pour répondre à vos besoins spécifiques. 
 
@@ -220,11 +220,11 @@ La barre d'outils du générateur d'états fournit l'accès rapide aux commandes
 | [![Bouton Définition de colonne](./media/columnc130389.png)](./media/columnc130389.png)                 | Permet d'afficher la définition de colonne affectée à la définition de rapport active.                                                                                                 |
 | [![Bouton Définition d'organigramme d'entreprise](./media/treec130389.png)](./media/treec130389.png)             | Permet d'afficher la définition d'organigramme d'entreprise affectée à la définition de rapport active.                                                                                         |
 | [![Bouton Visionneuse de rapports](./media/reportviewerc130389.png)](./media/reportviewerc130389.png)         | Permet de lancer la visionneuse de rapports et d'afficher la dernière version du rapport généré. Ce bouton est disponible à partir d'une définition de rapport si vous avez généré au moins un rapport. |
-| [![Bouton Générer le rapport](./media/generate-to-ddvc130389.png)](./media/generate-to-ddvc130389.png) | Permet de générer un rapport à partir de la définition de rapport active. Ce bouton est disponible à partir d'une définition de rapport.                                                                      |
+| [![Bouton Générer le rapport](./media/generate-to-ddvc130389.png)](./media/generate-to-ddvc130389.png) | Génère un rapport à partir de la définition de rapport active. Ce bouton est disponible dans une définition de rapport.                                                                      |
 
 
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [États financiers](financial-reporting-intro.md)

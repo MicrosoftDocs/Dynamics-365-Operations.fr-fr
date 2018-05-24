@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 905794e39933c9788a7ff5247807baf0ebb807d8
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: be962bffd9dfe756b444f6946990058971896a27
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="demand-forecasting-setup"></a>Paramétrage de la prévision de la demande
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit les tâches de paramétrage que vous devez effectuer pour préparer la prévision de la demande.  
 
@@ -78,7 +78,7 @@ Pour créer des prévisions de la demande, vous pouvez déployer votre propre se
 ## <a name="settings-for-the-finance-and-operations-demand-forecasting-machine-learning-service"></a>Paramètres du service Machine Learning de prévision de la demande de Finance and Operations
 Pour afficher les paramètres qui peuvent être configurés pour le service de prévision de la demande de Finance and Operations, accédez à **Planification** &gt; **Paramétrage** &gt; **Prévision de la demande** &gt; **Paramètres de l'algorithme de prévision**. La page **Paramètres de l'algorithme de prévision** indique les valeurs par défaut des paramètres. Vous pouvez remplacer ces paramètres dans la page **Paramètres de prévision de la demande**. Utilisez l'onglet **Général** pour remplacer les paramètres globalement ou utilisez l'onglet **Clés de répartition par article** pour remplacer les paramètres par clé de répartition par article. Les paramètres qui sont remplacés pour une clé de répartition par article n'affectent que la prévision des articles associés à cette clé de répartition par article.
 
-<a name="see-also"></a>Voir également :
+<a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Présentation de la prévision de la demande](introduction-demand-forecasting.md)
