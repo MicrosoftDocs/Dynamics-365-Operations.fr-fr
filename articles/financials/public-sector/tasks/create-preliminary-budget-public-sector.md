@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Operations
 ms.search.region: Global
-ms.search.industry: Service industries
+ms.search.industry: Public Sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 3fd607bf186d82c9fbacbc208f277d2fdc4dbcb9
+ms.sourcegitcommit: c689087f499330c8d662aed2632fd2e079145fde
+ms.openlocfilehash: 0f66bae1114f83d00dc15c4991ab93617c070e4b
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/30/2018
 
 ---
 # <a name="create-a-preliminary-budget-for-public-sector"></a><span data-ttu-id="14e5e-103">Créer un budget préliminaire pour le secteur public</span><span class="sxs-lookup"><span data-stu-id="14e5e-103">Create a preliminary budget for public sector</span></span>
