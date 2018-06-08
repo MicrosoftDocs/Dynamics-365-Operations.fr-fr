@@ -3,7 +3,7 @@ title: "Créer des alertes"
 description: "Cette rubrique fournit des informations sur les alertes et décrit la procédure de création d'une règle d'alerte pour être informé d'événements, par exemple une date qui arrive ou une modification spécifique qui se produit."
 author: tjvass
 manager: AnnBe
-ms.date: 03/20/2018
+ms.date: 06/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -27,8 +27,6 @@ ms.lasthandoff: 03/23/2018
 # <a name="create-alerts"></a>Créer des alertes
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/pre-release.md)]
 
 ## <a name="getting-started"></a>Mise en route
 Avant de définir une règle d'alerte, déterminez quand ou dans quelles situations vous souhaitez recevoir des alertes. Après avoir déterminé l'événement dont vous souhaitez être averti, dans Microsoft Dynamics 365 for Finance and Operations, recherchez la page où les données causant cet événement apparaissent. L'événement peut être une date qui arrive ou une modification spécifique qui se produit. Par conséquent, vous devez rechercher la page dans laquelle la date est spécifiée, ou dans laquelle le champ modifié ou le nouvel enregistrement créé apparaît. Une fois que vous disposez de ces informations, vous pouvez créer la règle d'alerte.
