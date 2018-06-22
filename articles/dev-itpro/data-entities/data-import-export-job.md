@@ -16,10 +16,10 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: fc47f6cd9cfe4a850e0959bf89da086ca82f3b69
+ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
+ms.openlocfilehash: d58bab48c65bb891155af95c79738b019e5760bf
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/22/2018
 
 ---
 
@@ -96,6 +96,9 @@ Le menu **Reséquençage** est disponible si plusieurs entités sont sélectionn
 
 #### <a name="sorting"></a>Tri
 Vous pouvez utiliser l'option **Trier par** pour afficher la liste des entités dans l'ordre séquentiel.
+
+### <a name="truncating"></a>Troncation
+Pour les projets d'importation, vous pouvez choisir de tronquer des enregistrements dans les entités avant l'importation. Cela est utile si vos enregistrements doivent être importés dans un nouvel ensemble de tables. Ce paramètre est désactivé par défaut.
 
 ## <a name="validate-that-the-source-data-and-target-data-are-mapped-correctly"></a>Vérifier que les données sources et cibles sont mises en correspondance correctement
 La mise en correspondance est une fonction qui s'applique aux tâches d'importation et d'exportation.

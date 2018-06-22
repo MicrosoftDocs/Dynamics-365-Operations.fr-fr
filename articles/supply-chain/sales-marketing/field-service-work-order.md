@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: ace66c037953f4b1b2e8b93a315faefdb090b1eb
-ms.openlocfilehash: 933d9755085d507310dd46d96a492d2124647ec3
+ms.sourcegitcommit: 8914723f6ef436bfc9e3a98cc82d5486042b0761
+ms.openlocfilehash: 250b7caa1e1495140d0d4f688ecae4acb8814467
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/07/2018
 
 ---
 
@@ -158,7 +158,7 @@ La synchronisation des valeurs **Estimé** comparées aux valeurs **Utilisé** e
     - **Ligne de produit :** Qté estimée = 5ea, Qté utilisée = 6ea, Statut de ligne = Utilisé, Affecté = Oui
     - **Ligne service :** Qté estimée = 2 h, Qté utilisée = 1,5 h, Statut de ligne = Utilisé
 
-    Dans cet exemple, la valeur **Qté utilisée** du produit de **6** et la valeur **Qté estimée** du service de **1,5 h** sont synchronisées sur Finance and Operations.
+    Dans cet exemple, la valeur **Qté utilisée** du produit de **6** et la valeur **Qté utilisée** du service de **1,5 h** sont synchronisées sur Finance and Operations.
 
 ## <a name="sales-order-origin-and-status"></a>Origine et statut de la commande client
 

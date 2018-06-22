@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: fecdca72839ef8ce204b62db6e02e8fa809a30d5
+ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
+ms.openlocfilehash: 613fcf941576b9fb05f5c059699e4cc9c4cabe3e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/23/2018
 
 ---
 
@@ -94,7 +94,7 @@ Les états financiers fournissent 22 états financiers par défaut. Chaque état
 | Détails d'audit – Par défaut                                  | Permet d'afficher les informations détaillées du solde pour tous les comptes. Cet état indique les soldes de débit et de crédit dans la devise de déclaration et la devise locale, ainsi que les informations des transactions supplémentaires, telles que l'ID utilisateur, l'utilisateur ayant modifié les données en dernier, la date de la dernière modification et l'ID de journal. |
 | Liste de solde – Par défaut                                   | Permet d'afficher les informations détaillées du solde pour tous les comptes. Cet état indique les soldes d'ouverture et de clôture, et les soldes de débit et de crédit pour la période actuelle et l'année jusqu'à présent, ainsi que les informations des transactions supplémentaires, telles que le N° document.                                                                    |
 | Bilan – Par défaut                                   | Permet d'afficher la position financière de l'organisation pour l'année.                                                                                                                                                                                                                                                             |
-| Bilan et relevé des revenus côte à côte – Par défaut] | Permet d'afficher la position financière et la rentabilité de l'organisation pour l'année, côte à côte.                                                                                                                                                                                                                              |
+| Bilan et relevé des revenus côte à côte – Par défaut | Permet d'afficher la position financière et la rentabilité de l'organisation pour l'année, côte à côte.                                                                                                                                                                                                                              |
 | Flux de trésorerie – Par défaut                                       | Renseigne sur la trésorerie entrante et sortante de l'organisation.                                                                                                                                                                                                                                   |
 | Révision détaillée JE et TB – Par défaut                      | Permet d'afficher le solde d'ouverture et les informations d'activité pour tous les comptes.                                                                                                                                                                                                                                                      |
 | Balance comptable détaillée – Par défaut                         | Permet d'afficher les informations de solde pour tous les comptes ayant des soldes de débit et de crédit, et le net de ces soldes, avec la date de la transaction, le N° document et la description de journal.                                                                                                                                  |
@@ -117,12 +117,9 @@ Lorsque vous cliquez sur le menu **États financiers**, la liste des états fina
 ## <a name="creating-and-modifying-financial-reports"></a>Création et modification d'états financiers
 Dans la liste des états financiers, vous pouvez créer un nouvel état ou modifier un état existant. Si vous disposez des autorisations appropriées, vous pouvez créer un état financier en cliquant sur **Nouveau** dans le volet Actions. Un programme de concepteur d'états est téléchargé sur votre périphérique. Une fois que le concepteur d'états démarre, vous pouvez créer l'état. Après avoir enregistré le nouvel état, il apparaît dans la liste des états financiers. La liste affiche uniquement les états créés pour la société utilisés dans Finance and Operations. Pour plus d'informations sur le processus de création et de modification d'états financiers dans Finance and Operations, reportez-vous à ces [publications de blog](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/tag/learning/) dans le blog de génération d'états financiers Dynamics. **Remarque :** la version 4.6.2 de Microsoft .NET Framework doit être installée sur l'ordinateur sur lequel vous téléchargez le client Concepteur d'états. Cette version de Microsoft .NET Framework peut être téléchargée et installée à partir d'[ici](https://www.microsoft.com/en-us/download/details.aspx?id=53345). Si vous utilisez Chrome, vous devez installer une extension ClickOnce afin de télécharger le client Concepteur d'états. Si vous utilisez le mode incognito, vérifiez que l'extension ClickOnce est activée pour le mode incognito. Vous pouvez également modifier un état qui apparaît dans la liste des états financiers. Lorsque la zone autour du nom de l'état est activée, cliquez sur **Édition** dans le Volet Actions. Le programme de concepteur d'état démarre.
 
-<a name="additional-resources"></a>Ressources supplémentaires
---------
-
-[Afficher les états financiers](view-financial-reports.md)
-
-[États financiers Dynamics (blog)](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+## <a name="additional-resources"></a>Ressources supplémentaires
+- [Afficher les états financiers](view-financial-reports.md)
+- [États financiers Dynamics (blog)](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 
 

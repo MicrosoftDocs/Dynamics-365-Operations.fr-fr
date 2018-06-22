@@ -18,10 +18,10 @@ ms.author: johanho
 ms.search.validfrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 838dc1e5867b8380823275aba5fc425003a54523
+ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
+ms.openlocfilehash: 2bccabb033f5ba142b145e69930ce516aad596f2
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 05/23/2018
 
 ---
 
@@ -43,8 +43,7 @@ La méthode utilisée pour lancer les lignes de nomenclature et de formule est c
 - **Lancer les lignes de nomenclature et de formule dans le cadre du lancement d'un ordre de fabrication ou d'un lot de commandes** – Dans cette méthode, les lignes de nomenclature et de formule d'un ordre de fabrication ou d'un lot de commandes sont lancées dans le cadre du processus de lancement de la commande. Généralement, lors du lancement d'un ordre de fabrication ou d'un lot de commandes, les tâches de production sont affectées aux employés de l'atelier, et les documents de production sont imprimés. Durant ce processus, le statut de la commande est également modifié en **Lancé**.
 - **Lancer les lignes de nomenclature et de formule via un traitement par lots ou en tant qu'interaction manuelle** – Dans cette méthode, les lignes de nomenclature et de formule ne peuvent être lancées que via le traitement par lots **Lancement automatique des lignes de nomenclature et de formule** ou en tant qu'interaction manuelle. Pour lancer manuellement les lignes de nomenclature et de formule, dans la page de liste des ordres de fabrication ou la page des détails de l'ordre de fabrication, dans le volet Actions, sélectionnez **Libérer dans l'entrepôt**.
 
-Pour une démonstration rapide de la façon de libérer des lignes de nomenclature et des formules en production à l'aide d'un traitement par lots, visionnez cette petite vidéo YouTube :
-[!Video <https://www.youtube.com/embed/8urAJn50dQ8>]
+Pour une démonstration rapide du lancement des lignes de nomenclature et de formule en production à l'aide d'un traitement par lots, visionnez cette petite vidéo YouTube : [Lancer le prélèvement en production dans l'entrepôt en mode de traitement par lots](https://www.youtube.com/watch?v=8urAJn50dQ8).
 
 ## <a name="releasing-the-bom-and-formula-lines-by-using-a-batch-job"></a>Lancement des lignes de nomenclature et de formule à l'aide d'un traitement par lots
 
@@ -85,8 +84,7 @@ L'illustration suivante présente un ordre de fabrication contenant deux opérat
 
 ![Exemple de lancement de matières par numéro d'opération](media/two-operations.PNG)
 
-Pour une démonstration rapide de la façon de lancer des matières en proportion à la quantité de produits finis, regardez cette petite vidéo YouTube :
-[!Video <https://www.youtube.com/embed/Rm3ojAz6Zu0>]
+Pour une démonstration rapide du lancement des matières sur la base de la quantité de produits finis, visionnez cette courte vidéo YouTube : [Améliorations du processus de lancement d'un ordre de fabrication dans Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=Rm3ojAz6Zu0)
 
 ### <a name="release-material-in-proportion-to-the-amount-of-finished-goods"></a>Lancer les matières sur la base de la quantité de produits finis
 

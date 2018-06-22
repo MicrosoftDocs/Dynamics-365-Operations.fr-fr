@@ -1,9 +1,9 @@
 ---
-title: Contenu Power BI
-description: "Cette rubrique répertorie le contenu Power BI qui est disponible et vous indique les ressources complémentaires."
+title: Solutions PowerBI.com
+description: "Cette rubrique répertorie les solutions PowerBI.com disponibles et vous indique les ressources complémentaires."
 author: sericks007
 manager: AnnBe
-ms.date: 04/02/2018
+ms.date: 05/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,69 +19,49 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2473fa408ae8884b8713198debfff489ff6e6c46
+ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
+ms.openlocfilehash: 0aa9971226e5aa79cab85f098e098dbb789a1e2d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/22/2018
 
 ---
 
-# <a name="power-bi-content"></a>Contenu Power BI
-[!include [banner](../includes/banner.md)]
+# <a name="powerbicom-solutions"></a>Solutions PowerBI.com
+Les solutions PowerBI.com suivantes sont disponibles pour les environnements Dynamics 365 for Finance and Operations. 
 
-Cette rubrique répertorie le contenu Microsoft Power BI qui est disponible et vous indique les ressources complémentaires.
+## <a name="powerbicom-solutions-available-from-lifecycle-services-lcs"></a>Solutions PowerBI.com disponibles dans Lifecycle Services (LCS)
 
-## <a name="power-bi-content-for-dynamics-365-for-finance-and-operations"></a>Contenu Power BI pour Dynamics 365 for Finance and Operations
-Si vous utilisez Microsoft Dynamics 365 for Finance and Operations, le contenu Power BI suivant est disponible :
-
-- [Contenu Power BI Comparatif Réel/Budget](ledger-budgets-power-bi.md)
-- [Contenu Power BI Avantages](benefits-power-bi.md)
-- [Contenu Power BI Vue d'ensemble des disponibilités](../../financials/cash-bank-management/Cash-Overview-Power-BI-content.md)
-- [Contenu Power BI Vue d'ensemble d'un processus CFO](CFO-power-bi.md)
-- [Contenu Power BI Rémunération](compensation-power-bi.md)
-- [Analyse de contrôle de gestion - Contenu Power BI](cost-accounting-analysis-content-pack.md) 
-- [Contenu Power BI de gestion des coûts](cost-management-content-pack.md)    
-- [Contenu Power BI Gestion des crédits et des relances](../../financials/accounts-receivable/credit-collections-power-bi.md)
-- [Contenu Power BI Perfectionnement de l'employé](employee-development-PBI.md) 
-- [Contenu Power BI des perspectives financières](financial-insights.md)
-- [Contenu Power BI des performances financières](financial-performance-power-bi-content-pack.md)
-- [Contenu Power BI Gestion des immobilisations](../../financials/fixed-assets/Fixed-asset-management-workspace.md)
-- [Contenu Power BI Apprentissage](learning-power-bi.md)
-- [Contenu Power BI du gestionnaire de pratique](practice-manager-power-bi.md)
-- [Contenu Power BI Performances de production](production-performance-power-bi.md)
-- [Analyse des dépenses d'achat de contenu Power BI](purchase-content-pack-for-power-bi.md) 
-- [Recrutement du contenu Power BI](recruiting-analysis-power-bi-content-pack.md) 
-- [Contenu Power BI des performances de rentabilité et de vente](sales-profitability-performance-content-pack.md)
-- [Contenu Power BI Paiements fournisseur](../../financials/accounts-payable/Vendor-payments-workspace.md)
-- [Contenu Power BI pour les performances de l'entrepôt](warehouse-power-bi-content.md)
-- [Contenu Power BI de mesures de la main-d'œuvre](workforce-analysis-power-bi-content-pack.md)  
-
-## <a name="power-bi-content-for-dynamics-365-for-operations-version-1611"></a>Contenu Power BI pour Dynamics 365 for Operations version 1611
-Si vous utilisez la version 1611 de Microsoft Dynamics 365 for Operations, le contenu Power BI suivant est disponible :
-
-- [Contenu Power BI des rémunérations et avantages](compensation-and-benefits-analysis-power-bi-content-pack.md)   
-- [Analyse de contrôle de gestion - Contenu Power BI](cost-accounting-analysis-content-pack.md) 
-- [Contenu Power BI Gestion des crédits et des relances](../../financials/accounts-receivable/credit-collections-power-bi.md)
-- [Contenu Power BI des compétences et du développement des employés](employee-competencies-and-development-analysis-power-bi-content-pack.md) 
-- [Contenu Power BI des performances financières](financial-performance-power-bi-content-pack.md)
-- [Contenu Power BI Formation dans l'organisation](organizational-training-analysis-power-bi-content-pack.md) 
-- [Contenu Power BI du gestionnaire de pratique](practice-manager-power-bi.md)
-- [Contenu Power BI Performances de production](production-performance-power-bi.md)
-- [Analyse des dépenses d'achat de contenu Power BI](purchase-content-pack-for-power-bi.md) 
-- [Recrutement du contenu Power BI](recruiting-analysis-power-bi-content-pack.md) 
-- [Contenu Power BI des performances de rentabilité et de vente](sales-profitability-performance-content-pack.md)
-- [Contenu Power BI pour les performances de l'entrepôt](warehouse-power-bi-content.md)
-- [Contenu Power BI de mesures de la main-d'œuvre](workforce-analysis-power-bi-content-pack.md)  
-
-## <a name="power-bi-content-for-microsoft-dynamics-ax"></a>Contenu Power BI pour Microsoft Dynamics AX
-Si vous utilisez Microsoft Dynamics AX 7.0 or Microsoft Dynamics AX 7.0.1, le contenu Power BI suivant est disponible :
+Les solutions PowerBI.com suivantes sont disponibles dans la bibliothèque Actifs partagés de LCS. Consultez les informations de version dans la bibliothèque Actifs partagés pour télécharger la version correcte pour votre environnement. 
 
 > [!Note]
-> Ces packs de contenu sont déconseillés comme indiqué dans [Packs de contenu Power BI publiés sur PowerBI.com](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom).
+> La plupart des solutions PowerBI.com contenues dans la liste suivante ont été intégrées dans les espaces de travail analytiques des versions récentes de Dynamics 365 for Finance and Operations. Lorsque vous utilisez les espaces de travail analytiques, il n'est pas nécessaire de télécharger ces solutions à partir de la bibliothèque Actifs partagés de LCS. Les rubriques de cette liste indiquent où ces solutions PowerBI.com ont été intégrées dans Finance and Operations, si nécessaire. 
 
-- [Contenu Power BI de gestion des coûts](cost-management-content-pack.md)    
-- [Contenu Power BI des performances financières](financial-performance-power-bi-content-pack.md)
-- [Contenu Power BI Performances du canal de vente au détail](retail-channel-performance-dashboard-power-bi-data.md) 
+- [Comparatif Réel/Budget](ledger-budgets-power-bi.md)
+- [Vue d'ensemble des disponibilités](../../financials/cash-bank-management/Cash-Overview-Power-BI-content.md)
+- [Rémunération et avantages](compensation-and-benefits-analysis-power-bi-content-pack.md)   
+- [Analyse du contrôle de gestion](cost-accounting-analysis-content-pack.md) 
+- [Gestion des crédits et des relances](../../financials/accounts-receivable/credit-collections-power-bi.md)
+- [Compétences et développement des employés](employee-competencies-and-development-analysis-power-bi-content-pack.md) 
+- [Performances financières](financial-performance-power-bi-content-pack.md)
+- [Gestion des immobilisations](../../financials/fixed-assets/Fixed-asset-management-workspace.md)
+- [Formation dans l'organisation](organizational-training-analysis-power-bi-content-pack.md) 
+- [Gestionnaire de pratique](practice-manager-power-bi.md)
+- [Performances de production](production-performance-power-bi.md)
+- [Analyse des dépenses d'achat](purchase-content-pack-for-power-bi.md) 
+- [Recrutement](recruiting-analysis-power-bi-content-pack.md)
+- [Performances de rentabilité et de ventes](sales-profitability-performance-content-pack.md)
+- [Paiements fournisseur](../../financials/accounts-payable/Vendor-payments-workspace.md)
+- [Performances d'entrepôt](warehouse-power-bi-content.md)
+- [Mesures de main-d'œuvre](workforce-analysis-power-bi-content-pack.md)  
 
+## <a name="powerbicom-solutions-available-from-appsource"></a>Solutions PowerBI.com disponibles dans AppSource
 
+Les solutions PowerBI.com suivantes sont disponibles dans [Microsoft AppSource](https://appsource.microsoft.com).
+
+> [!Note]
+> Ces solutions ne sont plus utilisées comme indiqué dans [Packs de contenu Power BI disponibles sur AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+
+- Gestion des coûts    
+- [Performances financières](financial-performance-power-bi-content-pack.md)
+- [Performances du canal de vente au détail](retail-channel-performance-dashboard-power-bi-data.md) 
 
