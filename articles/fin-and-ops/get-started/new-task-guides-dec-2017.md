@@ -1,0 +1,1053 @@
+---
+title: "Guides de tâches nouveaux ou mis à jour (décembre 2017)"
+description: "Cette rubrique répertorie les guides de tâches nouveaux ou mis à jour qui ont été publiés dans la bibliothèque unifiée APQC (décembre 2016 - toutes les langues) de Microsoft pour Microsoft Dynamics 365 for Operations. Aucune nouvelle Bibliothèque de mise en route n'a été publiée."
+author: josaw1
+manager: AnnBe
+ms.date: 06/20/2017
+ms.topic: article
+ms.prod: 
+ms.service: dynamics-ax-platform
+ms.technology: 
+audience: Application User, IT Pro
+ms.reviewer: josaw
+ms.search.scope: Operations
+ms.search.region: global
+ms.author: josaw
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: 7.3
+ms.translationtype: HT
+ms.sourcegitcommit: a6bec9c0e9b591f99a0c00e554c18a5ebe440859
+ms.openlocfilehash: 25ee17c98d1071129e212512d75883dccd32791f
+ms.contentlocale: fr-fr
+ms.lasthandoff: 05/24/2018
+
+---
+
+# <a name="new-or-updated-task-guides-december-2017"></a><span data-ttu-id="dac40-104">Guides de tâches nouveaux ou mis à jour (décembre 2017)</span><span class="sxs-lookup"><span data-stu-id="dac40-104">New or updated Task guides (December 2017)</span></span>
+
+<span data-ttu-id="dac40-105">Cette rubrique répertorie les guides de tâches nouveaux ou mis à jour qui ont été publiés dans la bibliothèque unifiée APQC (décembre 2016 - toutes les langues) de Microsoft pour Microsoft Dynamics 365 for Operations.</span><span class="sxs-lookup"><span data-stu-id="dac40-105">This topic lists the new or updated Task guides that were released to the Microsoft (December 2016 - all languages) APQC Unified Library for Microsoft Dynamics 365 for Operations.</span></span>
+
+
+<a name="new-task-guides"></a><span data-ttu-id="dac40-106">Nouveaux guides de tâches</span><span class="sxs-lookup"><span data-stu-id="dac40-106">New task guides</span></span>
+---------------
+
+<table>
+<tbody>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-107">ER Créer des états aux formats MS Office avec des images intégrées (Partie 1 : Configurer les paramètres)</span><span class="sxs-lookup"><span data-stu-id="dac40-107">ER Make reports in MS Office formats with embedded images (Part 1: Set up parameters)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-108">Déplacer les tâches de kanban planifiées (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-108">Move scheduled Kanban jobs (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-109">Gérer l'état du cycle de vie des produits</span><span class="sxs-lookup"><span data-stu-id="dac40-109">Manage product lifecycle state</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-110">Créer un état du cycle de vie des produits pour exclure des produits de la planification (décembre 2017)</span><span class="sxs-lookup"><span data-stu-id="dac40-110">Create a product lifecycle state to exclude products from Master planning (December 2017)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-111">Rechercher des variantes de produit obsolètes et affecter un état du cycle de vie des produits (décembre 2017)</span><span class="sxs-lookup"><span data-stu-id="dac40-111">Find obsolete product variants and assign a product lifecycle state (December 2017)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-112">Affecter un état du cycle de vie des produits à un produit générique lancé (décembre 2017)</span><span class="sxs-lookup"><span data-stu-id="dac40-112">Assign a product lifecycle state to a released product master (December 2017)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-113">Affecter un état du cycle de vie des produits à un produit lancé (décembre 2017)</span><span class="sxs-lookup"><span data-stu-id="dac40-113">Assign a product lifecycle state to a released product (December 2017)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-114">Créer un état du cycle de vie des produits par défaut (décembre 2017)</span><span class="sxs-lookup"><span data-stu-id="dac40-114">Create a default product lifecycle state (December 2017)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-115">Créer un état du cycle de vie des produits (décembre 2017)</span><span class="sxs-lookup"><span data-stu-id="dac40-115">Create a new product lifecycle state (December 2017)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-116">ER Créer une configuration pour importer des données à partir d'un fichier externe au format CSV (mise à jour 7.3)</span><span class="sxs-lookup"><span data-stu-id="dac40-116">ER Design a configuration to import data from an external file in CSV format (7.3 Update)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-117">ER Créer des expressions pour appeler les méthodes des classes d'application avec des arguments dont les valeurs sont définies au moment de l'exécution (mise à jour 7.3)</span><span class="sxs-lookup"><span data-stu-id="dac40-117">ER Design expressions to call methods of application classes with arguments the values of which are defined at run-time (7.3 Update)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-118">Améliorations ER de l'analyse des documents entrants pour mettre à jour les données d'application (mise à jour 7.3)</span><span class="sxs-lookup"><span data-stu-id="dac40-118">ER improvements in parsing incoming documents to update application data (7.3 Update)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-119">Les états électroniques améliorent l'efficacité des calculs globaux en les effectuant au niveau de la base de données (mise à jour 7.3)</span><span class="sxs-lookup"><span data-stu-id="dac40-119">ER improves the efficiency of aggregate calculations by performing them on database level (7.3 Update)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-120">Les états électroniques améliorent l'efficacité des calculs globaux en les effectuant au niveau de la base de données (Partie 1 : Préparer les configurations)</span><span class="sxs-lookup"><span data-stu-id="dac40-120">ER improves the efficiency of aggregate calculations by performing them on database level (Part 1: Prepare configurations)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-121">Les états électroniques améliorent l'efficacité des calculs globaux en les effectuant au niveau de la base de données (Partie 2 : Créer une mise en correspondance des modèles)</span><span class="sxs-lookup"><span data-stu-id="dac40-121">ER improves the efficiency of aggregate calculations by performing them on database level (Part 2: Design model mapping)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-122">Configurer les paramètres pour calculer l'amortissement (décembre 2017)</span><span class="sxs-lookup"><span data-stu-id="dac40-122">Set up parameters to calculate depreciation (December 2017)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-123">Paramétrer l'amortissement des groupes d'immobilisations pour les registres d'amortissement (décembre 2017)</span><span class="sxs-lookup"><span data-stu-id="dac40-123">Set up asset group depreciation for depreciation books (December 2017)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-124">Paramétrer un calendrier fiscal journalier (décembre 2017)</span><span class="sxs-lookup"><span data-stu-id="dac40-124">Set up a day-based fiscal calendar (December 2017)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-125">Définir le type de poste et de secteur pour les registres et les associer à une immobilisation (décembre 2017)</span><span class="sxs-lookup"><span data-stu-id="dac40-125">Define type of shift and industry for books and attach to fixed asset (December 2017)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-126">Définir les taux d'amortissement par poste (décembre 2017)</span><span class="sxs-lookup"><span data-stu-id="dac40-126">Define shift depreciation rates (December 2017)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-127">Créer un groupe de modèles de stock pour les éléments de capital (décembre 2017)</span><span class="sxs-lookup"><span data-stu-id="dac40-127">Create an inventory model group for capital items (December 2017)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-128">Associer un calendrier journalier à un registre des immobilisations (décembre 2017)</span><span class="sxs-lookup"><span data-stu-id="dac40-128">Attach a day-based calendar to a fixed asset book (December 2017)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-129">IN - Transfert des éléments de capital vers l'immobilisation (décembre 2017)</span><span class="sxs-lookup"><span data-stu-id="dac40-129">IN-Transfer of capital items to the fixed asset (December 2017)</span></span></td>
+</tr>
+</tbody>
+</table>
+
+<a name="task-guides-updated"></a><span data-ttu-id="dac40-130">Guides de tâches mis à jour</span><span class="sxs-lookup"><span data-stu-id="dac40-130">Task Guides updated</span></span>
+-------------------
+
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-131">Identifier et déployer les outils de sélection de candidats (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-131">Identify and deploy candidate selection tools (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-132">Configurer les coûts standard pour le travail et les dépenses (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-132">Configure standard costs for labor and expenses (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-133">Utiliser le journal du stock de sécurité pour mettre à jour la couverture minimale (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-133">Use the safety stock journal to update minimum coverage (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-134">Définir les capacités des ressources (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-134">Define resource capabilities (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-135">Définir un groupe de ressources pour la fabrication discrète (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-135">Define discrete manufacturing resource group (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-136">Collaborer avec les clients de la chaîne d'approvisionnement interne (mai 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-136">Collaborate with internal supply chain customers (May 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-137">Afficher le besoin prévisionnel intersociétés en sortie (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-137">View outbound planned intercompany demand (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-138">Créer une structure d'entrepôt (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-138">Create a new warehouse layout (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-139">Entrer et comparer des appels d'offre et octroyer des contrats (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-139">Enter and compare RFQ bids and award contracts (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-140">Créer un appel d'offre (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-140">Create a request for quotation (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-141">Comparer les coûts actifs, estimés et exécutés sur un ordre de fabrication (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-141">Compare active, estimated, and realized costs on a production order (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-142">Afficher le statut actuel des travaux en cours d'un ordre de fabrication (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-142">View current WIP status on a production order (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-143">Configurer la facturation de projets intersociétés (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-143">Configure intercompany project invoicing (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-144">Créer des factures de commande client (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-144">Create sales order invoices (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-145">Créer des canaux en ligne et définir les attributs du canal (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-145">Create online channels and define channel attributes (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-146">Enregistrer la réception de marchandises sur la commande fournisseur (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-146">Record the receipt of goods on the purchase order (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-147">Créer une commande fournisseur de projet (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-147">Create project purchase order (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-148">Définir des informations sur le projet de recrutement (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-148">Set up project resource information (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-149">Envoyer et approuver les révisions budgétaires des projets (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-149">Submit and approve project budget revisions (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-150">Envoyer et approuver les budgets des projets (novembre 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-150">Submit and approve project budgets (November 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-151">Activer l'impression d'étiquette de contenant (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-151">Enable license plate label printing (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-152">Initialiser les niveaux des stocks dans l'entrepôt (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-152">Initialize stock levels in the warehouse (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-153">Créer un accord d'établissement bancaire pour une lettre de crédit (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-153">Create a bank facility agreement for a letter of credit (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-154">Activer le processus de paie pour le pointage (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-154">Enable the payroll process for time and attendance (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-155">Approuver et valider les feuilles de temps du projet</span><span class="sxs-lookup"><span data-stu-id="dac40-155">Approve and post project timesheets</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-156">Créer des structures de compte (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-156">Create account structures (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-157">Créer un compte principal (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-157">Create a main account (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-158">Valider des journaux périodiques (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-158">Post periodic journals (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-159">Créer des plans de régularisation (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-159">Create accrual schemes (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-160">Clôturer l'exercice (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-160">Close the fiscal year (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-161">Créer des groupes d'autorisations POS (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-161">Create POS permission groups (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-162">Produits croisés entre l'entrepôt de réception et les magasins (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-162">Cross-dock products from receiving warehouse to stores (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-163">Envoyer des produits du centre de distribution au magasin à l'aide de la procédure de réassort magasin (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-163">Push products from distribution center to store using buyer's push (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-164">Paramétrer les règles et les paramètres pour le cross-docking et le réassort magasin (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-164">Set up rules and parameters for cross docking and buyer's push (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-165">Ajustements de prix de la vente au détail (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-165">Retail price adjustments (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-166">Prix de base et accords commerciaux (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-166">Base price and trade agreements (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-167">Règles de tarification de catégorie en vue de créer des accords commerciaux (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-167">Category pricing rules to create trade agreements (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-168">Lancer un produit/produit générique à destination des entités juridiques (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-168">Release a product/product master to legal entities (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-169">Créer un produit générique (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-169">Create a product master (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-170">Créer un produit (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-170">Create a product (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-171">Définir les points de récompense de fidélité (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-171">Define loyalty reward points (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-172">Créer les relations entre les unités de l'organisation (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-172">Design the relationships between organizational units (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-173">ES-00016 Facturation de crédit</span><span class="sxs-lookup"><span data-stu-id="dac40-173">ES-00016 Credit invoicing</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-174">EE-00004 Référence de la facture originale (juillet 2017)</span><span class="sxs-lookup"><span data-stu-id="dac40-174">EE-00004 Original invoice reference (July 2017)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-175">Définir l'inventaire tournant (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-175">Define cycle counting (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-176">Ajuster les niveaux des stocks dans l'entrepôt (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-176">Adjust stock levels in the warehouse (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-177">Développer un plan de succession (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-177">Develop succession plan (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-178">Développer et ouvrir une demande de poste (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-178">Develop and open job requisition (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-179">Développer les plans et la structure du salaire/de la rémunération (février 206)</span><span class="sxs-lookup"><span data-stu-id="dac40-179">Develop salary/compensation structure and plans (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-180">Communiquer le programme d'avantages à un employé (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-180">Deliver employee benefits program (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-181">Gérer les congés (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-181">Manage leave of absence (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-182">Générer un plan avec contrainte (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-182">Generate a constrained plan (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-183">Créer une ressource opérationnelle (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-183">Create an operations resource (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-184">NL-00010 Déclarations de taxe électroniques (EVAT) (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-184">NL-00010 Electronic tax declarations (EVAT) (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-185">JP-00027 Écran 26 pour la déclaration de taxe amortissable (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-185">JP-00027 Form 26 for depreciable tax declaration (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-186">DE-00003 Transmission électronique de la déclaration de TVA (ELSTER) (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-186">DE-00003 Electronic transmission of VAT declaration (ELSTER) (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-187">Définir des stratégies d'audit pour les documents sources (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-187">Define audit policies for source documents (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-188">Créer un plan pour un site (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-188">Create a plan for a site (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-189">Créer un programme pour un site (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-189">Create a schedule for a site (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-190">Rechercher ou résoudre les exceptions (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-190">Research or resolve exceptions (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-191">Auditer les factures et les données clés dans la comptabilité fournisseur (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-191">Audit invoices and key data in accounts payable (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-192">FR-00018 Calcul des intérêts quotidien de paiement tardif et de montant forfaitaire dans la facture et la lettre de relance (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-192">FR-00018 Daily interest calculation for late payment and lump sum in the invoice and collection letter (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-193">EE-00015 Outil de génération de référence de paiement (novembre 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-193">EE-00015 Payment reference generation tool (November 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-194">MX-00010 Facturation électronique CFDI (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-194">MX-00010 E-invoicing CFDI (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-195">MY-00005 Imprimer les factures de taxe GST (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-195">MY-00005 Print GST tax invoices (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-196">MX-00007 ID d'enregistrement de clients et autres informations (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-196">MX-00007 Customer registration IDs and other information (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-197">NO-00002 Paiement client basé sur l'ID de paiement (novembre 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-197">NO-00002 Customer payment based on payment ID (November 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-198">CN-00010 Hiérarchie du plan de comptes pour la Chine (novembre 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-198">CN-00010 Chinese hierarchy of chart of accounts (November 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-199">JP-00005 Journal de saisie dans la page de compte T (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-199">JP-00005 Input journal in T account page (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-200">HU-00001 Calcul du taux de change (novembre 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-200">HU-00001 Exchange rate calculation (November 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-201">CN-00004 Allocation spéciale pour amortissement d'immobilisation (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-201">CN-00004 Fixed asset depreciation allocation (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-202">DE-00002 Ajustements d'amortissement pour les acquisitions supplémentaires au cours de la deuxième année (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-202">DE-00002 Depreciate adjustments for additional acquisitions in the second year (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-203">FR-00002 Relevés de compte client et fournisseur (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-203">FR-00002 Customer and vendor account statements (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-204">NL-00003 Intégration Semansys XBRL (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-204">NL-00003 Semansys XBRL integration (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-205">BE-00011 BLWI (balance des paiements)</span><span class="sxs-lookup"><span data-stu-id="dac40-205">BE-00011 BLWI (Payment balance)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-206">MX-00020 Produire l'état de comptabilité générale électronique version 1.1 (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-206">MX-00020 Produce electronic ledger accounting report version 1.1 (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-207">MX-00008 : ID d'enregistrement de fournisseurs (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-207">MX-00008: Vendor registration IDs (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-208">IT-00002 Modello 770</span><span class="sxs-lookup"><span data-stu-id="dac40-208">IT-00002 Modello 770</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-209">MY-00004 Gérer le débit et le crédit fournisseur pour GST (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-209">MY-00004 Manage vendor debit and credit for GST (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-210">MY-00007 Autofacturation (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-210">MY-00007 Self-billed invoices (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-211">CN-00016 Journal des opérations d'utilisateur par règle de travail de la Chine (novembre 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-211">CN-00016 User operation log by China working rule (November 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-212">BR-00057 Taxe dans les devis de vente (juillet 2017)</span><span class="sxs-lookup"><span data-stu-id="dac40-212">BR-00057 Tax in sales quotations (July 2017)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-213">BR-00031 Calculer la taxe sur les devis d'achat (juillet 2017)</span><span class="sxs-lookup"><span data-stu-id="dac40-213">BR-00031 Calculate tax on purchase quotations (July 2017)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-214">BR-00080 Gérer le texte fiscal de document dans des documents d'approvisionnement (juillet 2017)</span><span class="sxs-lookup"><span data-stu-id="dac40-214">BR-00080 Manage fiscal document text in procurement documents (July 2017)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-215">BR-00038 Publier des documents fiscaux client (juillet 2017)</span><span class="sxs-lookup"><span data-stu-id="dac40-215">BR-00038 Issue customer fiscal documents (July 2017)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-216">BR-00084 Publier des documents fiscaux client (services) (juillet 2017)</span><span class="sxs-lookup"><span data-stu-id="dac40-216">BR-00084 Issue customer fiscal documents (services) (July 2017)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-217">BR-00085 Publier des documents fiscaux client (immobilisations) (juillet 2017)</span><span class="sxs-lookup"><span data-stu-id="dac40-217">BR-00085 Issue customer fiscal documents (fixed assets) (July 2017)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-218">BR-00086 Publier des documents fiscaux client (projet) (juillet 2017)</span><span class="sxs-lookup"><span data-stu-id="dac40-218">BR-00086 Issue customer fiscal documents (project) (July 2017)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-219">BR-00087 Publier des documents fiscaux client (pour les utilisateurs finaux) (juillet 2017)</span><span class="sxs-lookup"><span data-stu-id="dac40-219">BR-00087 Issue customer fiscal documents (for end users) (July 2017)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-220">BR-00088 Publier des documents fiscaux client (pour les clients SUFRAMA) (juillet 2017)</span><span class="sxs-lookup"><span data-stu-id="dac40-220">BR-00088 Issue customer fiscal documents (for SUFRAMA customers) (July 2017)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-221">BR-00050 Frais divers sur des factures financières (juillet 2017)</span><span class="sxs-lookup"><span data-stu-id="dac40-221">BR-00050 Miscellaneous charge on free text invoices (July 2017)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-222">BR-00053 NF-e 3.10 (juillet 2017)</span><span class="sxs-lookup"><span data-stu-id="dac40-222">BR-00053 NF-e 3.10 (July 2017)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-223">BR-00058 Transmission automatique des documents fiscaux NF-e (juillet 2017)</span><span class="sxs-lookup"><span data-stu-id="dac40-223">BR-00058 Automatic transmission of NF-e fiscal documents (July 2017)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-224">BR-00042 Retenues à la source sur les paiements de clients (juillet 2017)</span><span class="sxs-lookup"><span data-stu-id="dac40-224">BR-00042 Withholding taxes on customers payments (July 2017)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-225">BR-10016 Opérations non fiscales (juillet 2017)</span><span class="sxs-lookup"><span data-stu-id="dac40-225">BR-10016 Non-fiscal operations (July 2017)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-226">BR-00076 Notes de débit de projet (juillet 2017)</span><span class="sxs-lookup"><span data-stu-id="dac40-226">BR-00076 Project debit notes (July 2017)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-227">BR-00067 Gestion des paiements électroniques pour les paiements fournisseur (juillet 2017)</span><span class="sxs-lookup"><span data-stu-id="dac40-227">BR-00067 Electronic payment management for vendor payments (July 2017)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-228">BR-00061 Retenues à la source sur les paiements de fournisseurs (juillet 2017)</span><span class="sxs-lookup"><span data-stu-id="dac40-228">BR-00061 Withholding taxes on vendors payments (July 2017)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-229">BR-00024 Recevoir un document fiscal fournisseur (produits) (juillet 2017)</span><span class="sxs-lookup"><span data-stu-id="dac40-229">BR-00024 Receive vendor fiscal document (products) (July 2017)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-230">BR-00082 Recevoir un document fiscal fournisseur (immobilisations - ICMS récupérables à long terme) (juillet 2017)</span><span class="sxs-lookup"><span data-stu-id="dac40-230">BR-00082 Receive vendor fiscal document (fixed assets - ICMS long term recoverable) (July 2017)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-231">BR-00014 Recevoir un document fiscal fournisseur (immobilisations - PIS et COFINS récupérables à long terme) (juillet 2017)</span><span class="sxs-lookup"><span data-stu-id="dac40-231">BR-00014 Receive vendor fiscal document (fixed assets - PIS and COFINS long term recoverable) (July 2017)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-232">BR-00033 Publier un document fiscal pour les fournisseurs (juillet 2017)</span><span class="sxs-lookup"><span data-stu-id="dac40-232">BR-00033 Issue fiscal document for vendors (July 2017)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-233">BR-00002 Attributs fiscaux de taxe d'établissement (juillet 2017)</span><span class="sxs-lookup"><span data-stu-id="dac40-233">BR-00002 Fiscal establishment tax attributes (July 2017)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-234">BR-00009 Retenues à la source (juillet 2017)</span><span class="sxs-lookup"><span data-stu-id="dac40-234">BR-00009 Withholding taxes (July 2017)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-235">BR-10005 Évaluation fiscale pour taxe ISS (juillet 2017)</span><span class="sxs-lookup"><span data-stu-id="dac40-235">BR-10005 Tax assessment for ISS tax (July 2017)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-236">BR-00071 Publier des documents fiscaux de virement de taxe ICMS (juillet 2017)</span><span class="sxs-lookup"><span data-stu-id="dac40-236">BR-00071 Issue ICMS tax credit transfer fiscal documents (July 2017)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-237">RU-00072 Publier des documents fiscaux de virement de taxe ICMS (juillet 2017)</span><span class="sxs-lookup"><span data-stu-id="dac40-237">BR-00072 Issue ICMS tax credit fiscal documents (July 2017)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-238">Entrer des contrats de vente (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-238">Enter sales agreements (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-239">Gérer les commandes en attente (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-239">Manage order holds (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-240">Créer des commandes client (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-240">Create sales orders (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-241">Créer un plan de livraison (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-241">Create delivery schedule (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-242">BR-00041 Bons de livraison (juillet 2017)</span><span class="sxs-lookup"><span data-stu-id="dac40-242">BR-00041 Delivery slips (July 2017)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-243">Définir des dimensions financières (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-243">Define financial dimensions (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-244">Créer et affecter un document d'écriture de réduction (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-244">Create and assign a reduction entry document (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-245">Acquérir une immobilisation et réclamer une subvention gouvernementale (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-245">Acquire a fixed asset and claim for the government grant subsidy (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-246">Déprécier des immobilisations avec l'entrée de réduction validée (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-246">Depreciate fixed assets with reduction entry posted (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-247">Céder une immobilisation avec la saisie de réduction (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-247">Dispose of a fixed asset with reduction entry (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-248">Créer des groupes UGT et des unités génératrices de trésorerie (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-248">Create CGU groups and cash generating units (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-249">Répartir le montant reporté d'actif partagé et de fonds de commerce sur les unités génératrices de disponibilités (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-249">Allocate carrying amount of shared asset and goodwill to cash generating units (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-250">Créer et confirmer un test de constatation (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-250">Create and confirm a recognition test (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-251">Proposer et valider le montant de la dégradation sur une unité génératrice de trésorerie (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-251">Propose and post the impairment amount on a cash generating unit (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-252">Créer et affecter un groupe d'équipement (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-252">Create and assign an equipment group (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-253">Créer un profil d'amortissement accéléré et l'affecter au registre (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-253">Create accelerated depreciation profile and assign it to book (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-254">Configurer les paramètres d'amortissement accéléré et les profils de validation (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-254">Configure accelerated depreciation parameters and posting profiles (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-255">Proposer et valider un amortissement accéléré (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-255">Propose and post accelerated depreciation (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-256">Créer et associer un périphérique (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-256">Create and associate a device (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-257">Créer et associer une station matérielle (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-257">Create and associate a hardware station (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-258">Assurer le libre service pour télécharger une station matérielle (mai 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-258">Perform self-service to download hardware station (May 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-259">Créer, calculer et valider un relevé pour un magasin de vente au détail (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-259">Create, calculate, and post a statement for a retail store (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-260">Configurer et exécuter une tâche de calcul des déclarations (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-260">Configure and run a job to calculate statements (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-261">Configurer et exécuter une tâche de validation des relevés (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-261">Configure and run a job to post statements (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-262">Valider les ventes et les paiements en ligne (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-262">Post online sales and payments (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-263">Paramétrer et générer des informations sur la plage âgée de la comptabilité client (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-263">Set up and generate accounts receivable aging information (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-264">Indexer les données de facturation dans la comptabilité fournisseur à l'aide d'une facture fournisseur (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-264">Key invoice data into accounts payable using a vendor invoice (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-265">Créer une nouvelle immobilisation (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-265">Create a fixed asset (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-266">Paramétrer les administrations fiscales (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-266">Set up sales tax authorities (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-267">Paramétrer des périodes de règlement fiscal (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-267">Set up sales tax settlement periods (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-268">Paramétrer des groupes de validation dans la comptabilité de la taxe (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-268">Set up ledger posting groups for sales tax (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-269">Paramétrer des codes déclaration de taxe (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-269">Set up sales tax reporting codes (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-270">Paramétrer des codes déclaration de taxe (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-270">Set up sales tax codes (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-271">Paramétrer des groupes de taxe et groupes de taxe d'article (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-271">Set up sales tax groups and item sales tax groups (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-272">Paramétrer la retenue à la source (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-272">Set up withholding tax (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-273">Créer un paiement de taxe (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-273">Create a sales tax payment (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-274">Créer des transactions de taxe sur les documents (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-274">Create sales tax transactions on documents (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-275">Calculer et ajuster la taxe sur une facture fournisseur (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-275">Calculate and adjust sales tax on a vendor invoice (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-276">GB-00002 Paramétrer des groupes de taxes pour la taxe au preneur (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-276">GB-00002 Set up sales tax groups for reverse charge VAT (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-277">GB-00002 Paramétrer des groupes de taxes d'article pour la taxe au preneur (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-277">GB-00002 Set up item sales tax groups for reverse charge VAT (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-278">GB-00002 Paramétrer les groupes, règles et paramètres d'articles pour la taxe au preneur (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-278">GB-00002 Set up reverse charge VAT item groups, rules, and parameters (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-279">MX-00006 Paramétrer des codes déclaration de taxe (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-279">MX-00006 Set up sales tax codes (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-280">MX-00010 Définir les paramètres d'une facture électronique (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-280">MX-00010 Set parameters for an electronic invoice (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-281">MX-00010 Rechercher et imprimer une facture électronique (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-281">MX-00010 Inquire and print an electronic invoice (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-282">MX-00010 Annuler une facture électronique (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-282">MX-00010 Cancel an electronic invoice (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-283">MX-00010 Valider une facture financière (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-283">MX-00010 Post a free text invoice (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-284">MY-00010 GST - Générer des fichiers de GAF au format requis (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-284">MY-00010 GST - Generate GAF files in the required format (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-285">Afficher les transactions de composant de taxe validées (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-285">View posted sales tax transactions (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-286">Définir les nouvelles tâches (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-286">Define new jobs (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-287">Configurer les comptes principaux pour la validation des obligations de suppression des actifs et les taux de remise sur le marché (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-287">Configure main accounts for asset retirement obligation posting and market discount rates (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-288">Paramétrer les documents d'obligation de suppression des immobilisations et entrer le montant ARO (obligation de suppression des immobilisations) sur une immobilisation (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-288">Set up asset retirement obligation documents and enter ARO amount on a fixed asset (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-289">Acquérir une immobilisation avec des obligations de suppression d'immobilisation (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-289">Acquire a fixed asset with asset retirement obligations (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-290">Amortir et provisionner les frais financiers relatifs aux obligations de suppression des immobilisations (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-290">Depreciate and accrue the interest expense for asset retirement obligations (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-291">Ajuster une estimation d'obligation de suppression d'immobilisation (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-291">Adjust an asset retirement obligation estimate (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-292">Activer le format de fichier de paiement JBA (novembre 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-292">Enable JBA payment file format (November 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-293">Générer un fichier de paiement TEF au format JBA (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-293">Generate an EFT payment file with JBA format (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-294">Importer un paiement client au format de fichier JBA (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-294">Import a customer payment with JBA file format (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-295">Entrer le programme des taux d'amortissement et l'associer au profil d'amortissement (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-295">Enter a depreciation rate schedule and associate to a depreciation profile (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-296">Configurer le profil d'amortissement et le profil de validation pour l'amortissement supplémentaire (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-296">Configure depreciation profile and posting profile for additional depreciation (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-297">Créer une immobilisation avec un amortissement supplémentaire (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-297">Create a fixed asset with additional depreciation (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-298">Proposer un amortissement supplémentaire (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-298">Propose additional depreciation (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-299">Configurer le profil d'amortissement et le profil de validation pour l'amortissement spécial (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-299">Configure depreciation profile and posting profile for special depreciation (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-300">Créer une immobilisation avec un profil d'amortissement spécial (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-300">Create a fixed asset with special depreciation profile (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-301">Proposer un amortissement spécial (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-301">Propose special depreciation (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-302">Créer des immobilisations à amortissement de montant forfaitaire à l'aide de la méthode de répartition égale (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-302">Create lump-sum depreciation assets using equally-divided method (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-303">Modifier la méthode d'amortissement pendant la durée de vie de l'actif pour un actif (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-303">Change the depreciation method during the asset life for one asset (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-304">Modifier la méthode d'amortissement pendant la durée de vie de l'actif pour un registre (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-304">Change the depreciation method during the asset life for book (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-305">Créer et confirmer une facture consolidée client (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-305">Create and confirm a customer consolidated invoice (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-306">JP-00011 Rouvrir et modifier une facture consolidée client (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-306">JP-00011 Reopen and edit a customer consolidated invoice (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-307">MY-00011 02 Générer la note de débit client pour les ventes de projet (novembre 2016 uniquement)</span><span class="sxs-lookup"><span data-stu-id="dac40-307">MY-00011 02 Generate customer debit for project sales (November 2016 only)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-308">Modifier les conventions d'amortissement pour plusieurs immobilisations (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-308">Change depreciation conventions for multiple fixed assets (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-309">Fractionner une immobilisation (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-309">Split a fixed asset (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-310">Créer et acquérir des actifs à partir de la comptabilité fournisseur (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-310">Create and acquire assets from accounts payable (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-311">Proposer des acquisitions d'immobilisations (novembre 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-311">Propose fixed asset acquisitions (November 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-312">Créer une proposition d'amortissement (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-312">Create depreciation proposal (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-313">Céder des immobilisations à l'aide d'une facture financière (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-313">Dispose of a fixed asset using a free text invoice (November 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-314">Transférer une immobilisation (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-314">Transfer a fixed asset (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-315">Paramétrer des profils de validation d'immobilisation (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-315">Set up fixed asset posting profiles (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-316">Paramétrer et créer des profils d'amortissement (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-316">Set up and create depreciation profiles (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-317">Paramétrer les registres des amortissements (mai 2016 uniquement)</span><span class="sxs-lookup"><span data-stu-id="dac40-317">Set up depreciation books (May 2016 only)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-318">Paramétrer l'amortissement de la prime (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-318">Set up bonus depreciation (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-319">Saisir un supplément à une immobilisation (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-319">Enter an addition to a fixed asset (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-320">Reclassifier des immobilisations (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-320">Reclassify fixed assets (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-321">Paramétrer des modèles de valeur (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-321">Set up value models (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-322">Paramétrer les groupes d'immobilisations (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-322">Set up fixed asset groups (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-323">GB-00002 Création d'une commande fournisseur qui inclut des articles soumis à la TVA au preneur (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-323">GB-00002 Create a purchase order that includes items subject to reverse charge VAT (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-324">GB-00002 Création d'une commande client qui inclut des articles soumis à la TVA au preneur (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-324">GB-00002 Create a sales order that includes items subject to reverse charge VAT (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-325">MY-00006 01 Paramétrer les clauses d'allègement GST (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-325">MY-00006 01 Set up GST relief clauses (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-326">MY-00006 02 Imprimer les factures client de GST avec une clause d'allègement (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-326">MY-00006 02 Print GST customer invoices with a relief clause (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-327">Vérifier la disponibilité du stock (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-327">Check the availability of stock (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-328">Paramétrer les ordres de qualité (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-328">Set up quality orders (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-329">Indexer les données de facturation dans la comptabilité fournisseur à l'aide d'un registre de factures (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-329">Key invoice data into the AP system using invoice pool (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-330">Paramétrer la validation du rapprochement de factures de la comptabilité fournisseur (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-330">Set up accounts payable invoice matching validation (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-331">Traiter le journal de répartition comptable (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-331">Process ledger allocation journal (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-332">Tenir à jour les modèles par défaut de dimension financière (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-332">Maintain financial dimension default templates (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-333">Créer une entrée de journal à l'aide d'un modèle (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-333">Create a journal entry using a template (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-334">Créer et valider des journaux (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-334">Create and validate journals (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-335">Lancer un ordre de fabrication (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-335">Release a production order (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-336">Créer des groupes de consolidation et comptes de consolidation supplémentaires (novembre 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-336">Create consolidation groups and additional consolidation accounts (November 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-337">Paramétrer les catégories de compte principal (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-337">Set up main account categories (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-338">Paramétrer un alias de compte général (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-338">Set up a ledger account alias (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-339">Créer et affecter des structures de règle avancées (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-339">Create and assign advanced rule structures (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-340">Afficher les entrées de journal ou les transactions (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-340">View journal entries or transactions (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-341">Créer des transactions de régularisation des comptes (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-341">Create ledger accrual transactions (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-342">Établir les conditions de paiement client (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-342">Establish customer payment terms (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-343">Établir le mode de paiement client (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-343">Establish customer method of payment (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-344">Établir les commissions de paiement client (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-344">Establish customer payment fees (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-345">Déposer des paiements client (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-345">Deposit customer payments (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-346">Définir les conditions de paiement fournisseur (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-346">Define vendor payment terms (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-347">Définir les commissions de paiement fournisseur (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-347">Define vendor payment fees (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-348">Rechercher des transactions liées à l'obligation de suppression des immobilisations (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-348">Inquire on asset retirement obligation-related transactions (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-349">Définir les processus de comptage d'inventaire (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-349">Define inventory counting processes (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-350">Traiter les intérêts (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-350">Process interest (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-351">Créer une série de lettres de relance (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-351">Create a collection letter sequence (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-352">Créer un modèle de facture financière (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-352">Create a free text invoice template (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-353">Générer et valider les factures financières récurrentes (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-353">Generate and post recurring free text invoices (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-354">Créer un mandat de débit direct pour un client (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-354">Create a direct debit mandate for a customer (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-355">Créer un journal d'annulation pour un client (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-355">Create a write off journal for a customer (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-356">Affecter un modèle de facture financière à un client (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-356">Assign a free text invoice template to a customer (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-357">JP-00011 Paramétrer les factures consolidées pour la Comptabilité client (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-357">JP-00011 Set up consolidated invoices for accounts receivable (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-358">JP-00011 Paramétrer un client et une commande client comme cibles d'une facture consolidée (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-358">JP-00011 Set up a customer and sales order to be target of consolidated invoice (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-359">JP-00011 Régler les factures client consolidées à l'aide d'un journal des paiements (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-359">JP-00011 Settle customer consolidated invoices by using a payment journal (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-360">JP-00011 Régler les factures client consolidées à l'aide des transactions de règlement (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-360">JP-00011 Settle customer consolidated invoices by using settle transactions (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-361">Enregistrer des articles pour un article activé pour l'entreposage de base à l'aide d'un journal des arrivées d'articles (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-361">Register items for a basic warehousing enabled item using an item arrival journal (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-362">Importer la configuration du virement ISO20022 (novembre 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-362">Import ISO20022 credit transfer configuration (November 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-363">Paramétrer le mode de paiement pour les virements ISO20022 (novembre 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-363">Set up method of payment for ISO20022 credit transfer (November 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-364">Paramétrer les fournisseurs et les comptes bancaires fournisseur pour les virements ISO20022 (novembre 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-364">Set up vendors and vendor bank accounts for ISO20022 credit transfers (November 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-365">Paramétrer les comptes bancaires de société pour les virements ISO20022 (novembre 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-365">Set up company bank accounts for ISO20022 credit transfers (November 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-366">Créer et exporter des paiements fournisseur à l'aide du format de paiement ISO20022 (novembre 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-366">Create and export vendor payments using ISO20022 payment format (November 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-367">EUR-00012 Recevoir un certificat d'entrée de l'UE (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-367">EUR-00012 Receive an EU entry certificate (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-368">EUR-00012 Émettre un certificat d'entrée de l'UE (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-368">EUR-00012 Issue an EU entry certificate (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-369">Importer la configuration du débit direct ISO20022 (novembre 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-369">Import ISO20022 direct debit configuration (November 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-370">Paramétrer le mode de paiement pour le débit direct ISO20022 (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-370">Set up method of payment for ISO20022 direct debit (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-371">Paramétrer les comptes bancaires de société pour les débits directs ISO20022 (novembre 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-371">Set up company bank accounts for ISO20022 direct debits (November 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-372">Paramétrer les clients et les comptes bancaires du client pour les débits directs ISO20022 (novembre 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-372">Set up customers and customer bank accounts for ISO20022 direct debits (November 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-373">Paramétrer une déclaration de facture pour les fournisseurs (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-373">Set up an invoice declaration for vendors (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-374">Créer un compte fournisseur et joindre une déclaration de facture (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-374">Create a vendor account and attach the invoice declaration (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-375">Mettre à jour les déclarations de facture fournisseur et générer l'état associé (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-375">Update vendor invoice declarations and generate the report (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-376">Créer un fournisseur de configuration et le marquer comme actif pour la gestion des états électroniques (février 2016 uniquement)</span><span class="sxs-lookup"><span data-stu-id="dac40-376">Create a configuration provider and mark it as active for electronic reporting (ER) (February 2016 only)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-377">Planifier les tâches de kanban (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-377">Schedule kanban jobs (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-378">Supprimer une tâche de kanban du programme (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-378">Remove a kanban job from the schedule (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-379">Inscription d'employés à un régime de rémunération fixe (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-379">Enroll employees in a fixed compensation plan (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-380">Inscription d'employés à un régime de rémunération variable (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-380">Enroll employees in a variable compensation plan (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-381">Créer un projet d'embauche collective (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-381">Create a mass hire project (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-382">Articles prêtés à un travailleur (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-382">Loan items to a worker (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-383">Saisir les informations du collaborateur (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-383">Enter worker information (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-384">Embaucher un candidat via le recrutement (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-384">Hire a candidate through recruiting (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-385">Créer des articles empruntés (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-385">Create loan items (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-386">Gérer les dates d'expiration des avantages (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-386">Manage benefit expiration dates (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-387">Définir les règles d'admissibilité et les stratégies relatives aux avantages (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-387">Define benefit eligibility rules and policies (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-388">Entrer le candidat et les données de la candidature manuellement (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-388">Enter applicant and application data manually (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-389">Approuver les enregistrements de la boîte de réception des candidatures (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-389">Approve application inbox records (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-390">Gérer les modèles d'e-mails (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-390">Manage email templates (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-391">Analyser les résultats de questionnaire (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-391">Analyze questionnaire results (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-392">Créer une question ouverte (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-392">Create an open-ended question (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-393">Créer et tenir à jour un blocage du stock (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-393">Create and maintain inventory blocking (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-394">Inspecter la qualité des marchandises (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-394">Inspect the quality of goods (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-395">Créer une prévision de base (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-395">Create a baseline forecast (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-396">Modifier une prévision de la demande manuellement (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-396">Modify a demand forecast manually (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-397">Préparer une tâche de kanban de processus lorsque les matières ne sont pas disponibles pour la cellule de travail (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-397">Prepare a process kanban job when materials are not available for the work cell (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-398">Préparer une tâche de kanban de processus lorsque les matières sont disponibles pour la cellule de travail (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-398">Prepare a process kanban job when materials are available for the work cell (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-399">Ajouter une stratégie de calcul de quantité kanban à une règle de kanban (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-399">Add a kanban quantity calculation policy to a kanban rule (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-400">Créer un plan matières pour des coproduits</span><span class="sxs-lookup"><span data-stu-id="dac40-400">Create a material plan for co-products</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-401">MX-00010 Entrer des ID d'enregistrement de taxe pour les entités juridiques (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-401">MX-00010 Enter tax registration IDs for legal entities (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-402">AU-00006 Ajouter des zones de déclaration et générer la déclaration BAS (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-402">AU-00006 Add report boxes and generate the BAS (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-403">AU-00006 Paramétrer les codes motif pour la déclaration BAS (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-403">AU-00006 Set up reason codes for the BAS (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-404">Valider une facture de projet avec un bordereau de paiement (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-404">Post a project invoice with a payment slip (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-405">Valider une facture financière avec un bordereau de paiement (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-405">Post a free text invoice with a payment slip (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-406">Valider une facture de vente avec un bordereau de paiement (novembre 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-406">Post a sales invoice with a payment slip (November 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-407">MX-00020 Paramétrer le plan de comptes d'une entité juridique (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-407">MX-00020 Set up the chart of accounts for a legal entity (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-408">Paramétrer un fonds dans le secteur public (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-408">Set up a fund in the public sector (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-409">Paramétrer une hiérarchie financière dérivée dans le secteur public (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-409">Set up a derived financial hierarchy in the public sector (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-410">Créer une écriture comptable avancée dans le secteur public (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-410">Create an advanced ledger entry in the public sector (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-411">Créer une couverture et des pages de signature pour un état de paiement pour le secteur public (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-411">Create cover and signature pages for a payments report for the public sector (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-412">Créer un fournisseur et une facture occasionnels dans le secteur public (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-412">Create a one-time vendor and invoice in the public sector (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-413">Importer et créer plusieurs fournisseurs et factures occasionnels dans le secteur public (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-413">Import and create multiple one-time vendors and invoices in the public sector (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-414">Paramétrer les classifications de contrat d'achat dans le secteur public (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-414">Set up purchase agreement classifications in the public sector (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-415">Créer un budget préliminaire pour le secteur public (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-415">Create a preliminary budget for public sector (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-416">Créer un budget d'origine, puis contrepasser les écritures budgétaires préliminaires dans le secteur public (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-416">Create an original budget and reverse preliminary budget entries in the public sector (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-417">Paramétrer les données principales pour l'inclusion des dépenses déductibles pour plusieurs couches de validation (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-417">Set up master data for inclusion of deductible expenses for multiple posting layers (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-418">Tenir à jour les fichiers de données principales d'immobilisation pour les dépenses déductibles (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-418">Maintain fixed asset master data files for deductible expenses (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-419">Règlement périodique du montant de sur et sous-amortissement (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-419">Periodic settlement of over and under depreciation (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-420">Se renseigner sur les dépenses déductibles (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-420">Inquire on deductible expenses (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-421">JP-00004 Paramétrer la déclaration de taxe sur la consommation (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-421">JP-00004 Set up the consumption tax report (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-422">JP-00004 Générer la déclaration de taxe sur la consommation (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-422">JP-00004 Generate the consumption tax report (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-423">EUR-00011 Paramétrer une déclaration de la liste des ventes intracommunautaires (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-423">EUR-00011 Set up EU sales list reporting (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-424">GB-00009 Configurer les paramètres d'un avoir pour la remise de paiement dans les délais (février 206)</span><span class="sxs-lookup"><span data-stu-id="dac40-424">GB-00009 Set up parameters for a credit note for prompt payment discount (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-425">GB-00009 Créer un crédit sur la remise du règlement (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-425">GB-00009 Create a credit on the settlement discount (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-426">MX-00020 Spécifier l'ID enregistrement RFC des comptes bancaires (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-426">MX-00020 Specify the RFC registration ID for bank accounts (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-427">Créer des règles de kanban de quantité fixe (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-427">Create fixed quantity kanban rules (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-428">Créer une règle de kanban d'événement de vente (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-428">Create a sales event kanban rule (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-429">Créer des règles de kanban en dupliquant des règles de kanban existantes (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-429">Create new kanban rules by duplicating existing kanban rules (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-430">Créer des activités de processus pour la lean manufacturing (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-430">Create process activities for lean manufacturing (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-431">Créer des activités de transfert pour la lean manufacturing (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-431">Create transfer activities for lean manufacturing (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-432">Valider un flux de production et une version (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-432">Validate a production flow and version (February 2016)</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-433">Créer une relation d'activité : Successeur (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-433">Create activity relation: Successor (February 2016)</span></span></td>
+</tr>
+<tr class="even">
+<td align="left"><span data-ttu-id="dac40-434">Calculer l'amortissement des immobilisations dans les entités juridiques</span><span class="sxs-lookup"><span data-stu-id="dac40-434">Calculate fixed asset depreciation across legal entities</span></span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-435">Transférer des matières avec des tâches de kanban (février 2016)</span><span class="sxs-lookup"><span data-stu-id="dac40-435">Transfer material with kanban jobs (February 2016)</span></span></td>
+</tr>
+</tbody>
+</table>
+
+<a name="bpm-lines-deleted"></a><span data-ttu-id="dac40-436">Lignes BPM supprimées</span><span class="sxs-lookup"><span data-stu-id="dac40-436">BPM lines deleted</span></span>
+-----------------
+
+<span data-ttu-id="dac40-437">Lorsqu'une ligne BPM est supprimée, le guide de tâches associé à la ligne BPM est également supprimé.</span><span class="sxs-lookup"><span data-stu-id="dac40-437">When a BPM line is deleted, any task guide that was associated with the BPM line is also deleted.</span></span>
+
+<table>
+<thead>
+<tr class="header">
+<th align="left"><span data-ttu-id="dac40-438">Ligne BPM supprimée</span><span class="sxs-lookup"><span data-stu-id="dac40-438">Deleted BPM Line</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><span data-ttu-id="dac40-439">Déplacer les tâches de kanban planifiées</span><span class="sxs-lookup"><span data-stu-id="dac40-439">Move scheduled kanban jobs</span></span></td>
+</tr>
+</tbody>
+</table>
+
+
+
