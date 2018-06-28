@@ -18,10 +18,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d810ff4028884cce5089c59d424aa92981dc5673
+ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
+ms.openlocfilehash: 4de2ac36ec13f95c7603d097a0800b317014bbd0
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 05/22/2018
 
 ---
 
@@ -121,6 +121,9 @@ Une facture financière est une facture qui n'est pas liée à une commande clie
 
 Une facture pro forma est une facture préparée comme une estimation du montant de facture réel avant la validation de la facture. Vous pouvez imprimer une facture pro forma pour une facture client ou une facture financière.
 
+### <a name="additional-resources"></a>Ressources supplémentaires
 
+#### <a name="blogs"></a>Blogs
 
+Vous trouverez une vue d'ensemble d'un processus de vente dans le billet de blog[Fonctionnement des ventes dans Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/05/15/how-sales-work-in-dynamics-365-for-finance-and-operations).
 

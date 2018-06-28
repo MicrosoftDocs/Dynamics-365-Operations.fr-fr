@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2e5dd8f852ac1a6c2997a50a60f03db6adfd218c
-ms.openlocfilehash: 5500bfc1cdd1949d301ae82fad5506dfdbeb59f3
+ms.sourcegitcommit: dc2ab66bf6e3195e1ebf394f99182f59c3ee2125
+ms.openlocfilehash: 63e0a52919e12c1f497e6809244939c6047826a7
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/01/2018
+ms.lasthandoff: 05/15/2018
 
 ---
 
@@ -72,8 +72,6 @@ Vous pouvez utiliser le paramètre **Fonctionnalités d'aperçu** dans le centre
     > Les postes publiés sont visibles uniquement par les clients qui se sont abonnés à un ou plusieurs produits de la liste des postes sur LinkedIn. Sinon, les clients voient un poste uniquement s'ils effectuent une recherche explicite. Les postes sont publiés sur LinkedIn avec du retard. L'affichage d'un poste peut prendre quelques heures après sa publication depuis Attract.
 
 - **Postulant** – Les candidats internes et externes peuvent désormais postuler directement depuis la page des postes sur le site de carrière.
-- **Évaluations** – Dans le cadre du processus de recrutement configurable, pour un poste spécifique ou lorsqu'un modèle de poste est utilisé, les utilisateurs ont désormais accès à un nouveau type d'activité **Évaluation**. Ils peuvent ensuite utiliser l'application Projet : « Gauge » dans Talent pour créer des évaluations de base qu'ils peuvent envoyer aux candidats. L'application Projet : « Gauge » est également en mode aperçu public. D'autres fournisseurs seront ajoutés ultérieurement.
-- **Projet : « Gauge »** – Projet : « Gauge » est une application dans Talent qui permet aux utilisateurs de créer des évaluations ou enquêtes simples.
 - **Gestion des offres** – Les utilisateurs peuvent désormais créer des lettres d'offre à partir de modèles qui incluent des espaces réservés. Lorsque les candidats passent à l'étape Offre, les recruteurs et les responsables du recrutement peuvent utiliser l'outil Offre pour préparer l'offre formelle d'un candidat à l'aide de modèles, envoyer l'offre pour approbation interne et enfin envoyer l'offre au candidat pour signature. De nombreuses fonctionnalités seront ajoutées à l'outil Offre au fil du temps, et la fonctionnalité d'aperçu sera mise à jour avec ces fonctionnalités dès que nous serons prêts à les publier en mode aperçu.
 
 ### <a name="core-hr"></a>Ressources humaines principales
@@ -90,7 +88,7 @@ Que vos commentaires soient positifs ou négatifs, nous souhaitons en savoir plu
     - [Idées pour Attract](https://powerusers.microsoft.com/t5/Ideas-for-Attract/idb-p/Attract)
     - [Ressources humaines principales](https://powerusers.microsoft.com/t5/Ideas-for-Human-Resources/idb-p/HumanResources)
 
-N'ajoutez pas des données personnelles (toute information susceptible de vous identifier) dans vos commentaires ou vos demandes d'évaluation du produit. Les informations collectées peuvent être analysées davantage, et elles ne seront pas utilisées pour répondre à des demandes aux termes des lois applicables sur la confidentialité. Les données personnelles qui sont collectées séparément dans le cadre de ces programmes sont soumises à la [Déclaration de confidentialité Microsoft](https://privacy.microsoft.com/en-us/privacystatement).
+N'ajoutez pas des données personnelles (toute information susceptible de vous identifier) dans vos commentaires ou vos demandes d'évaluation du produit. Les informations collectées peuvent être analysées davantage, et elles ne seront pas utilisées pour répondre à des demandes aux termes des lois applicables sur la confidentialité. Les données personnelles qui sont collectées séparément dans le cadre de ces programmes sont soumises à la [Déclaration de confidentialité Microsoft](https://privacy.microsoft.com/privacystatement).
 
 > [!TIP]
 > Marquez cette rubrique et consultez-la régulièrement pour rester informé des nouvelles fonctionnalités d'aperçu dès leur parution.

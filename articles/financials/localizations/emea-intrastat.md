@@ -1,6 +1,6 @@
 ---
 title: "Déclaration d'échanges de biens"
-description: "Cet article fournit des informations sur la génération d'états de déclaration d'échanges de biens pour le commerce de marchandises et, dans certains cas, pour les services entre les pays/régions de l'Union européenne (UE). Il fournit une vue d'ensemble du processus de déclaration, et décrit les paramètres et les conditions préalables requises."
+description: "Cette rubrique fournit des informations sur la génération d'états de déclaration d'échanges de biens pour le commerce de marchandises et, dans certains cas, pour les services entre les pays/régions de l'Union européenne (UE). Il fournit une vue d'ensemble du processus de déclaration, et décrit les paramètres et les conditions préalables requises."
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,10 +18,10 @@ ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2ee60f3d1155b89d342b94832fbdbe898a5063c6
+ms.sourcegitcommit: b4b3d8f7da4fbb107353a25ff177492a0744b4c1
+ms.openlocfilehash: 50eb50c636d70dbdc374e8cfc89438433fb1f1b0
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/17/2018
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 [!include [banner](../includes/banner.md)]
 
-Cet article fournit des informations sur la génération d'états de déclaration d'échanges de biens pour le commerce de marchandises et, dans certains cas, pour les services entre les pays/régions de l'Union européenne (UE). Il fournit une vue d'ensemble du processus de déclaration, et décrit les paramètres et les conditions préalables requises.
+Cette rubrique fournit des informations sur la génération d'états de déclaration d'échanges de biens pour le commerce de marchandises et, dans certains cas, pour les services entre les pays/régions de l'Union européenne (UE). Il fournit une vue d'ensemble du processus de déclaration, et décrit les paramètres et les conditions préalables requises.
 
 Intrastat est le système de collecte d'informations et de génération de statistiques sur le commerce de marchandises entre les pays/régions de l'Union européenne (UE). Une génération d'états Intrastat est requise chaque fois qu'un produit franchit la frontière d'un autre pays/région de l'Union Européenne. Dans plusieurs pays/régions, la génération d'états Intrastat s'applique également aux services. Les éléments obligatoires et facultatifs peuvent être collectés dans la génération d'états Intrastat. Les éléments suivants sont obligatoires : le numéro de taxe sur la valeur ajoutée (TVA) de la partie responsable de fournir les informations, la période de référence, le flux (arrivée ou expédition), le code marchandise à huit chiffres, l'état membre partenaire (état membre de provenance à l'arrivée et état membre de destination à l'expédition), la valeur des marchandises, la quantité des marchandises (masse nette et unité supplémentaire) et la nature de la transaction. Les pays/régions peuvent également recueillir des éléments facultatifs sous diverses conditions. Certains éléments facultatifs sont le pays/la région d'origine, les conditions de livraison, le mode de transport, un code marchandise plus détaillé que CN8, la région d'origine à l'expédition et la région de destination à l'arrivée, la procédure statistique, la valeur statistique, une description des marchandises, et le port/aéroport de chargement/déchargement.
 
@@ -223,6 +223,7 @@ La page **Paramètres de commerce extérieur** permet de définir les paramètre
 </ul></li>
 <li><strong>États électroniques</strong> – Permet de spécifier les références aux configurations de génération d'états électroniques, afin que vous puissiez générer un fichier électronique et un état.</li>
 <li><strong>Hiérarchie des nomenclatures douanières</strong> – Permet de spécifier la hiérarchie de catégories du type de <strong>Code marchandise</strong> qui représente le code marchandise Intrastat CN8.</li>
+  <li> <strong>Type de taux de change</strong> – Permet de spécifier éventuellement un taux de change à utiliser pour la génération d'états sur les transactions de vente et d'achat de déclaration d'échanges de biens en devises étrangères. Ce paramètre est utilisé si le taux est différent de celui appliqué lors de la validation de la transaction.</li>  
 </ul></td>
 </tr>
 <tr class="even">
@@ -239,9 +240,5 @@ La page **Paramètres de commerce extérieur** permet de définir les paramètre
 </tr>
 </tbody>
 </table>
-
-
-
-
 
 

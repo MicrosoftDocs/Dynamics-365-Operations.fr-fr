@@ -1,28 +1,28 @@
 ---
 title: Gestion des services
 description: "Utilisez le module Gestion des services pour établir des accords de service et des services récurrents, traiter des commandes de service et des demandes de renseignements des clients, ainsi que pour gérer et analyser la fourniture de services aux clients."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
-ms.date: 05/09/2018
+ms.date: 05/24/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: SMAServiceOrderTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: Global
-ms.author: YuyuScheller
+ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 02cdf4615e2071f2b7de2e86b6f9e6637c6e5d8d
-ms.openlocfilehash: 236ab21b2d1c5a4e82270e5381d163e97437cb7f
+ms.sourcegitcommit: 80a3cb74279f72e8cb94f3a2c38230f409067a47
+ms.openlocfilehash: 89035687d87c674cca7fa5fd3126100c4c0ad892
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/24/2018
 
 ---
 
@@ -44,7 +44,7 @@ Vous pouvez créer des commandes de service pour gérer les informations relativ
 
 4.  les dépenses et les frais associés au service ou à la réparation.
 
-Les clients peuvent envoyer des demandes de service par Internet via Enterprise Portal. Vous pouvez recevoir, traiter et répartir ces demandes. Après avoir créé une commande de service, vous pouvez utiliser les stades du service pour surveiller sa progression et spécifier des règles contrôlant les actions mises en œuvre à chaque stade. À la fin d'une commande de service, vous pouvez fermer la session de la commande afin de confirmer qu'elle est terminée, puis la valider afin de lancer le processus de facturation.
+Vous pouvez recevoir, traiter et répartir les demandes de service. Après avoir créé une commande de service, vous pouvez utiliser les stades du service pour surveiller sa progression et spécifier des règles contrôlant les actions mises en œuvre à chaque stade. À la fin d'une commande de service, vous pouvez fermer la session de la commande afin de confirmer qu'elle est terminée, puis la valider afin de lancer le processus de facturation.
 
 Utilisez les outils de génération d'états pour surveiller les marges de commande de service et les transactions d'abonnement, ainsi que pour imprimer les descriptions de travail et les accusés de réception des travaux.
 
@@ -56,47 +56,19 @@ Le schéma suivant présente les processus entreprise généraux associés au mo
 
 ## <a name="service-management-at-a-glance"></a>Aperçu du module Gestion des services
 
-<table>
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Tâches importantes</p></th>
-<th><p>Écrans principaux</p></th>
-<th><p>États courants</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>Réalisation d'accords de service</a></p></td>
-<td><p><a href="https://technet.microsoft.com/en-us/library/aa617823(v=ax.60)">Accords de service (écran)</a></p></td>
-<td><p><strong>Marge de commande de service</strong></p></td>
-</tr>
-<tr class="even">
-<td><p>Traitement des demandes des clients</a></p></td>
-<td><p><a href="https://technet.microsoft.com/en-us/library/aa554361(v=ax.60)">Commandes de service (écran)</a></p></td>
-<td><p><strong>Description du travail</strong></p></td>
-</tr>
-<tr class="odd">
-<td><p></p></td>
-<td><p><a href="https://technet.microsoft.com/en-us/library/hh242789(v=ax.60)">Tableau d'affectation (écran)</a></p></td>
-<td><p><strong>Transaction - Abonnement</strong></p></td>
-</tr>
-<tr class="even">
-<td><p></p></td>
-<td><p></p></td>
-<td><p><strong>Transactions de frais d'abonnement</strong></p></td>
-</tr>
-</tbody>
-</table>
+|Tâches importantes           | Pages principales                         |États courants              |
+|--------------------------|---------------------------------------|-----------------------------|
+|Réalisation d'accords de service|Accords de service                     |Marge de commande de service         |
+|Traitement des demandes des clients |Commandes de service                         |Description du travail             |
+|                          |Tableau d'affectation                         |Transaction - Abonnement   |
+|                          |                                       |Transactions de frais d'abonnement|
 
 
 ## <a name="integration-of-service-management"></a>Intégration du module Gestion des services
 
-Le module Gestion des services peut être intégré aux modules suivants dans Microsoft Dynamics 365 for Finance and Operations :
+Le module Gestion des services peut être intégré aux modules suivants :
 
   - [Ventes et marketing](../sales-marketing/overview-sales-marketing.md)
-
   - [Ressources humaines](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/index)
 
   

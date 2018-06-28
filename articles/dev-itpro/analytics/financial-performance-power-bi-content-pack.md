@@ -1,6 +1,6 @@
 ---
-title: "Contenu Power BI des performances financières"
-description: "Cette rubrique décrit le contenu Power BI Performances financières."
+title: "Solution PowerBI.com Performances financières"
+description: "Cette rubrique décrit la solution PowerBI.com Performances financières."
 author: kweekley
 manager: AnnBe
 ms.date: 05/09/2018
@@ -18,26 +18,26 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
-ms.openlocfilehash: d062937d8d1cb7d8e4f4cc055eb4514fa56b4eab
+ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
+ms.openlocfilehash: b70d470da2160670848d2dca9c97f6d7a2d6cf60
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/22/2018
 
 ---
 
-# <a name="financial-performance-power-bi-content"></a>Contenu Power BI des performances financières
+# <a name="financial-performance-powerbicom-solution"></a>Solution PowerBI.com Performances financières
 
 [!include [banner](../includes/banner.md)]
 
 > [!Note]
-> Ce pack de contenu n'est plus utilisé comme indiqué dans [Packs de contenu Power BI disponibles sur AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> Cette solution PowerBI.com n'est plus utilisée comme indiqué dans [Packs de contenu Power BI disponibles sur AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
-Cette rubrique décrit le contenu Microsoft Power BI **Performances financières**. Elle décrit le tableau de bord et les états inclus, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
+Cette rubrique décrit la solution PowerBI.com **Performances financières**. Elle décrit le tableau de bord et les états inclus, et fournit des informations sur le modèle de données et les entités qui permettent de créer la solution.
 
 ## <a name="main-account-setup"></a>Paramétrage des comptes principaux
 Comme les organisations souhaitent que les passifs et les montants du produit apparaissent comme des montants positifs dans les états, le paramétrage des comptes principaux est important. Pour faire apparaître ces comptes principaux comme montants positifs, le type de compte principal doit être défini sur **Passif** ou **Produit**. Lorsque ces types de comptes sont utilisés, la génération d'états via Power BI contrepasse les signes et affiche les montants comme positifs.
 
-## <a name="dashboard-and-reports-that-are-included-in-the-power-bi-content"></a>Tableau de bord et états inclus dans le contenu Power BI
+## <a name="dashboard-and-reports-that-are-included-in-the-powerbicom-solution"></a>Tableau de bord et états inclus dans la solution PowerBI.com
 Le tableau de bord contient les vignettes résumées des données basées sur les états sous-jacents. Chaque vignette contient des informations résumées pour l'année en cours dans toutes les sociétés d'une organisation. Voici quelques-unes des vignettes :
 
 - Espèces
@@ -74,7 +74,7 @@ Chaque vignette est soutenue par un état de prise en charge. Ces états contien
 Les graphiques et les vignettes sur tous ces états peuvent être filtrés et épinglés au tableau de bord. Pour savoir comment filtrer et épingler dans Power BI, voir [Créer et configurer un tableau de bord](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Compréhension du modèle de données et des entités
-Les entités suivantes ont été utilisées comme base du contenu Power BI **Performances financières** :
+Les entités suivantes ont été utilisées comme base de la solution PowerBI.com **Performances financières** :
 
 **Entités de données agrégées**
 

@@ -1,16 +1,16 @@
 ---
 title: "Configurer un règlement"
-description: "La manière et le moment où les transactions sont réglées peuvent être des sujets complexes. Il est donc essentiel que vous compreniez et définissiez correctement les paramètres afin de répondre à vos exigences métier. Cet article décrit les paramètres utilisés pour le règlement de la Comptabilité fournisseur et de la Comptabilité client."
+description: "La manière et le moment où les transactions sont réglées peuvent être des sujets complexes. Il est donc essentiel que vous compreniez et définissiez correctement les paramètres afin de répondre à vos exigences métier. Cette rubrique décrit les paramètres utilisés pour le règlement de la Comptabilité fournisseur et de la Comptabilité client."
 author: kweekley
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 05/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CustOpenTrans, CustParameters, VendOpenTrans, VendParameters
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 14601
 ms.assetid: 6b61e08c-aa8b-40c0-b904-9bca4e8096e7
@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0ed520ce3a67fab81da24b36b042152f530d75dd
+ms.sourcegitcommit: 66e2fdbf7038a2c15fb373d4f96cd6e6c4c87ea0
+ms.openlocfilehash: 1361bce94f6542112cf29e369f2238f211d0647e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/23/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 04/13/2018
 
 [!include [banner](../includes/banner.md)]
 
-La manière et le moment où les transactions sont réglées peuvent être des sujets complexes. Il est donc essentiel que vous compreniez et définissiez correctement les paramètres afin de répondre à vos exigences métier. Cet article décrit les paramètres utilisés pour le règlement de la Comptabilité fournisseur et de la Comptabilité client. 
+La manière et le moment où les transactions sont réglées peuvent être des sujets complexes. Il est donc essentiel que vous compreniez et définissiez correctement les paramètres afin de répondre à vos exigences métier. Cette rubrique décrit les paramètres utilisés pour le règlement de la Comptabilité fournisseur et de la Comptabilité client. 
 
 Les paramètres suivants affectent la manière dont les règlements sont traités dans Microsoft Dynamics 365 for Finance and Operations. Le règlement est le processus qui consiste à régler une facture à l'aide d'un paiement ou d'un avoir. Ces paramètres sont situés dans la zone **Règlement** des pages **Paramètres de la comptabilité client** et **Paramètres de la comptabilité fournisseur**.
 
@@ -43,7 +43,7 @@ Les paramètres suivants affectent la manière dont les règlements sont traité
   -   Si le trop-perçu ou le moins-perçu entraîne une différence inférieure à celle définie dans le champ **Différence minime maximale**, le montant de la différence minime est validé sur le compte de différence minime.
   -   Si le trop-perçu ou le moins-perçu entraîne une différence supérieure à celle définie dans le champ **Différence minime maximale**, le montant de la différence est validé sur le compte de différence sélectionné pour le type de validation **Client - Escompte de règlement** ou **Fournisseur - Escompte de règlement** sur le **Comptes pour transactions automatiques**.
 - **Calculez les escomptes de règlement pour les paiements partiels** – Définissez cette option sur **Oui** pour activer les escomptes de règlement à calculer automatiquement pour les paiements partiels.
-  -   Cet effet de cette option dépend de la valeur du champ **Utiliser un escompte de règlement** dans la page **Régler les transactions**. Si cette option est définie sur **Oui**, la remise est acceptée lorsque le champ **Utiliser un escompte de règlement** est défini sur **Normal**. Lorsque le champ **Utiliser un escompte de règlement** est défini sur **Toujours**, l'escompte de règlement est toujours accepté, quel que soit le paramètre de ce champ. Lorsque le champ **Utiliser un escompte de règlement** est défini sur **Jamais**, l'escompte de règlement n'est jamais accepté, quel que soit le paramètre de ce champ.
+  -   L'effet de cette option dépend de la valeur du champ **Utiliser un escompte de règlement** dans la page **Régler les transactions**. Si cette option est définie sur **Oui**, la remise est acceptée lorsque le champ **Utiliser un escompte de règlement** est défini sur **Normal**. Lorsque le champ **Utiliser un escompte de règlement** est défini sur **Toujours**, l'escompte de règlement est toujours accepté, quel que soit le paramètre de ce champ. Lorsque le champ **Utiliser un escompte de règlement** est défini sur **Jamais**, l'escompte de règlement n'est jamais accepté, quel que soit le paramètre de ce champ.
   -   Si cette option est définie sur **Oui** et qu'un utilisateur modifie la valeur dans le champ **Montant à régler** de la page **Régler les transactions**, la remise est calculée automatiquement et affichée comme entrée par défaut dans le champ **Montant de l'escompte de règlement à accepter**.
   -   Si cette option est définie sur **Non** et qu'un utilisateur modifie la valeur dans le champ **Montant à régler** de la page **Régler les transactions**, l'entrée par défaut du champ **Montant de l'escompte de règlement à accepter** est **0** (zéro).
 - **Calculez les escomptes de règlement pour les avoirs** – Définissez cette option sur **Oui** pour calculer automatiquement un escompte de règlement pour les avoirs. Dans Comptabilité client, une transaction d'avoir est une transaction négative ayant une valeur dans le champ **Facture** de la page **Facture financière** ou un retour dans la page **Commande client**.
@@ -58,7 +58,14 @@ Les paramètres suivants affectent la manière dont les règlements sont traité
 - **Classer le règlement par ordre de priorité (AR uniquement)** – Définissez cette option sur **Oui** pour activer le bouton **Marque par priorité** dans les pages **Entrer les paiements client** et **Régler les transactions**. Ce bouton permet aux utilisateurs d'affecter la commande prédéterminée de règlement des transactions.  Une fois l'ordre de règlement appliqué à une transaction, vous pouvez modifier l'ordre et la répartition des paiements avant la validation.
 - **Utiliser la priorité pour les règlements automatiques** – Définissez cette option sur **Oui** pour utiliser l'ordre de priorité défini lorsque les transactions sont automatiquement réglées. Ce champ n'est disponible que si les options **Classer le règlement par ordre de priorité** et **Règlement automatique** sont définies **Oui**.
 
+## <a name="fixed-dimensions-on-accounts-receivableaccounts-payable-main-accounts"></a>Dimensions fixes des comptes principaux de la comptabilité client/comptabilité fournisseur
 
+Lorsque des dimensions fixes sont utilisées dans le compte principal de la comptabilité client/comptabilité fournisseur, des écritures comptables supplémentaires et deux transactions fournisseur supplémentaires sont validées par le processus de règlement. Le règlement compare le compte général de la comptabilité client/comptabilité fournisseur à partir de la facture et du paiement.  Lorsque le paiement et le règlement sont effectués ensemble, ce qui correspond au scénario classique, l'écriture comptable du paiement n'est pas validée dans la comptabilité tant que le processus de règlement n'est pas terminé. En raison de l'ordre de traitement des événements, le règlement ne peut pas déterminer le compte général réel de la comptabilité client/comptabilité fournisseur à partir de l'écriture comptable du paiement. Le règlement reconstruit quel compte général sera utilisé pour le paiement. Cela pose un problème lorsqu'une dimension fixe est utilisée pour le compte principal de la comptabilité client/comptabilité fournisseur.
 
+Pour reconstruire le compte général, le compte principal de la comptabilité client/comptabilité fournisseur est extrait du profil de validation et les dimensions financières sont extraites de l'enregistrement de la transaction fournisseur pour le paiement, comme défini dans le journal des paiements. Les dimensions fixes ne sont pas définies par défaut sur les journaux des paiements, mais sont appliquées au compte principal en tant que dernière étape du processus de validation. Par conséquent, la valeur de la dimension fixe n'est probablement pas contenue dans la transaction fournisseur, à moins qu'elle ait été définie par défaut à partir d'une autre source, telle que le fournisseur. Le compte reconstruit n'inclut pas la dimension fixe. Le traitement du règlement détermine qu'une écriture d'ajustement doit être créée, car la facture a été validée avec la valeur de la dimension fixe, contrairement au compte de paiement reconstruit.  Lorsque le règlement poursuit la validation de l'écriture d'ajustement, la dernière étape de la validation consiste à appliquer la dimension fixe. En ajoutant la dimension fixe à l'écriture d'ajustement, elle est validée avec un débit et un crédit sur le même compte général. Le règlement ne peut pas annuler l'écriture comptable.
 
+Pour éviter les écritures comptables supplémentaires, le débit et le crédit sur le même compte général, les solutions de contournement suivantes doivent être prises en compte, selon les besoins de votre entreprise. 
+
+-   Les organisations utilisent souvent des dimensions fixes pour renseigner avec des zéros une dimension financière qui n'est pas requise. Cela est généralement le cas pour les comptes de bilan, tels que la comptabilité client/comptabilité fournisseur. Les structures de compte peuvent être utilisées pour ne pas suivre les dimensions financières qui sont généralement renseignées avec des zéros.  Vous pouvez supprimer la dimension financière pour les comptes de bilan, ce qui évite d'utiliser des dimensions fixes.
+-   Si votre organisation nécessite des dimensions fixes sur le compte principal de la comptabilité client/comptabilité fournisseur, trouvez un moyen de définir par défaut la dimension fixe sur le paiement, afin que la valeur de la dimension fixe soit enregistrée dans la transaction fournisseur pour le paiement. Cela permet au système de reconstruire le compte principal de la comptabilité client/comptabilité fournisseur pour inclure les valeurs de la dimension fixe. La valeur de la dimension fixe peut être définie comme valeur par défaut sur les fournisseurs ou le nom de journal pour le journal des paiements.
 

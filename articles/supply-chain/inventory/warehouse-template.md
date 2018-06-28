@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a05fec7b79003d5b98470d85644d70bd1dbac285
-ms.openlocfilehash: 9e0c61505a8af864d7ff38655e7e896c4f6ccb65
+ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
+ms.openlocfilehash: e952a2f988645ccff7617817262cbf0e90bfd8ab
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/06/2018
+ms.lasthandoff: 05/23/2018
 
 ---
 
@@ -94,10 +94,7 @@ Vous pouvez télécharger un fichier zip pour le package de données. Ce fichier
 
 L'option **Afficher le journal des exécutions** fournit des informations détaillées sur chaque entité de données importée. Vous pouvez utiliser la vue des données intermédiaires pour accéder rapidement aux données cibles. Vous pouvez ainsi voir l'apparence des données importées sur les pages associées de l'application. Lorsque vous utilisez les modèles de données par défaut, la séquence d'importation pour chaque entité de données fonctionne de la manière prédéfinie, afin de garantir que toutes les données dépendantes sont importées en premier. Si les entités de données personnalisées font partie du projet, vous devez vérifier que la séquence correcte est définie. Pour plus d'informations, voir [Modèles de données de configuration](../../dev-itpro/data-entities/configuration-data-templates.md).
 
-Pour en savoir plus sur l'utilisation du modèle d'entrepôt pour copier la configuration d'un entrepôt d'une entreprise à une nouvelle entreprise dans la même instance, consultez cette vidéo de 3 minutes sur YouTube.
-
-> [!Video https://www.youtube.com/embed/K2WIfFlqJYs]
-
+Pour plus d'informations sur l'utilisation du modèle d'entrepôt pour copier la configuration d'un entrepôt d'une société à une nouvelle société dans la même instance, consultez cette vidéo de 3 minutes sur YouTube : [Utiliser le modèle d'entrepôt pour copier la configuration dans Microsoft Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs).
 
 ## <a name="related-topic"></a>Rubrique connexe
 

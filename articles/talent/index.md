@@ -1,9 +1,9 @@
 ---
 title: "Microsoft Dynamics 365 for Talent"
 description: "Le module Talent simplifie de nombreuses tâches d'archivage de routine et automatise un certain nombre de processus liés à la dotation en personnel de votre organisation. Ces processus incluent la rétention des employés, l'administration des avantages, la formation, les évaluations des performances et la gestion des modifications."
-author: rschloma
+author: josaw
 manager: AnnBe
-ms.date: 09/19/2017
+ms.date: 06/04/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: db8b2e87ad020dac16ec74f2fea62e445c38e116
+ms.sourcegitcommit: bde68c9167e18cae6be4988865123d20274753c0
+ms.openlocfilehash: 9bc09a822f78b9792c2afdb0d297809edea7551a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 06/06/2018
 
 ---
 
@@ -42,6 +42,9 @@ Le module Talent vous permet d'effectuer les tâches suivantes :
 + Évaluer les performances et implémenter les objectifs des collaborateurs.
 + Paramétrer, fournir et analyser des formations, notamment sur les emplois du temps, les sessions et les suivis.
 
+Explorer Dynamics 365 for Talent en consultant la vidéo [Comment démarrer avec Dynamics 365 for Talent.](https://www.youtube.com/watch?v=6rg2ByadbN0)
+
+
 > [!NOTE] 
 > Dynamics 365 for Talent est étroitement lié au module Ressources humaines dans Dynamics 365 for Finance and Operations. Les mêmes fonctionnalités peuvent apparaître dans les deux produits. Par conséquent, dans les rubriques qui sont principalement dédiées aux Ressources humaines, le nom du produit sera Dynamics 365 for Finance and Operations ; dans les rubriques qui sont principalement dédiées à Talent, le nom du produit sera Dynamics 365 for Talent. Les rubriques qui sont écrites pour un produit peuvent s'appliquer à la même fonctionnalité d'un produit associé.
 
@@ -53,8 +56,10 @@ Lorsque vous travaillez avec le module Talent, vous décidez comment structurer 
 -   [Organisation du personnel à l'aide des départements, tâches et postes](departments-jobs-positions.md)
 -   [Définition des paramètres spécifiques à la société](set-up-company-specific-hr-parameters.md)
 -   [Configuration des paramètres RH dans les entités juridiques](set-up-hr-parameters-across-legal-entities.md) 
--   [FAQ Actions du personnel](personnel-actions-faq.md)
+-   [FAQ sur les actions du personnel](personnel-actions-faq.md)
 -   [Vue d'ensemble des congés et des absences](leave-absence-overview.md)
+-   [Comment utiliser Dynamics 365 for Talent : Congé et absence (vidéo)](https://www.youtube.com/watch?v=1q1UhKmO4tw)
+-   [Procédure de gestion du personnel dans Dynamics 365 for Talent (vidéo)](https://www.youtube.com/watch?v=h1T5IjKKAuA)
 
 ## <a name="staffing-your-organization"></a>Dotation en personnel de votre organisation
 
@@ -71,6 +76,7 @@ Vous pouvez définir des plans pour gérer efficacement et équitablement la ré
 -   [Traiter la rémunération](process-compensation.md)
 -   [Créer des régimes de rémunération fixe](create-fixed-compensation-plans.md)
 -   [Créer des régimes de rémunération variable](create-variable-compensation-plans.md)
+-   [Procédure de gestion de la compensation dans Dynamics 365 for Talent (vidéo)](https://www.youtube.com/watch?v=lEw5oKopHDk)
 
 ## <a name="develop-and-train-employees"></a>Faire évoluer et former les employés
 
@@ -79,6 +85,7 @@ Pour aider vos employés à atteindre leurs objectifs de carrière tout en répo
 -   [Gestion des performances](performance-management-overview.md)
 -   [Aligner les qualifications du personnel aux besoins de l'entreprise](skills.md)
 -   [Administrer la formation via des cours](courses.md)
+-   [Procédure de gestion du développement des employés dans Dynamics 365 for Talent (vidéo)](https://www.youtube.com/watch?v=xB8SU7fqBOQ)
 
 ## <a name="create-and-maintain-benefits"></a>Créer des avantages et les tenir à jour
 
@@ -87,10 +94,11 @@ En plus de rémunérer votre équipe avec des traitements, des salaires et des p
 -   [Gérer un programme d'avantages](manage-benefit-program.md)
 -   [Stratégies de droit aux avantages](benefit-eligibility-policies.md)
 -   [Gérer les articles prêtés aux collaborateurs](loan-items.md)
+-   [Procédure de gestion des avantages des employés dans Dynamics 365 for Talent (vidéo)](https://www.youtube.com/watch?v=nUWkeJTad1o)
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>Tenir à jour la conformité et la sécurité de l’espace de travail
 
-LE module Talent peut vous aider à maintenir un environnement de travail sécurisé conforme aux lois applicables, y compris à la législation sur le handicap, l’immigration et la naturalisation, entre autres. Par exemple, vous pouvez gérer les exigences physiques pour des tâches spécifiques, ainsi que le suivi des demandes d'aménagements pouvant aider votre organisation à optimiser les qualifications de son personnel.
+Le module Talent peut vous aider à maintenir un environnement de travail sécurisé conforme aux lois applicables, y compris à la législation sur le handicap, l’immigration et la naturalisation, entre autres. Par exemple, vous pouvez gérer les exigences physiques pour des tâches spécifiques, ainsi que le suivi des demandes d'aménagements pouvant aider votre organisation à optimiser les qualifications de son personnel.
 
 -   [Écran I-9 - Vérification d'emploi](../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md)
 -   [Respect de l'ADA](../fin-and-ops/hr/localizations/noam-usa-comply-ada.md)

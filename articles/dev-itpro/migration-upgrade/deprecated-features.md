@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
-ms.openlocfilehash: c935b0c14f09b0a3a738266e4c9c577c96f0ea77
+ms.sourcegitcommit: 65101b5f0030a25973a584b68ec9697506868294
+ms.openlocfilehash: 6b954d1eedb7c7af1c9a5eda92aa1dd6132a19fa
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/30/2018
 
 ---
 
@@ -162,6 +162,18 @@ Les utilisateurs peuvent le télécharger à partir du portail gouvernemental.
 
 
 ## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>Dynamics 365 for Finance and Operations, Enterprise Edition, juillet 2017, avec mise à jour 8 de la plateforme
+
+### <a name="currency-conversion-for-accounting-and-reporting-currencies"></a>Conversion de devise pour les devises comptables et de déclaration
+
+La conversion de devise pour les devises comptables et de déclaration a été introduite avec l'introduction de l'euro.
+
+|   |  |
+|------------|--------------------|
+| **Motif de l'abandon/de la suppression** | Utilisation limitée et ajout de la fonctionnalité Copier l'entité juridique en remplacement.      |
+| **Remplacé par une autre fonctionnalité ?**   | Non, mais les fonctionnalités Copier l'entité juridique et Configurations ont été ajoutées pour pouvoir passer facilement à une société dont les besoins de base évoluent. |
+| **Zones de produit affectées**         | Gestion financière     |
+| **Statut**                         | Déconseillé : une date de suppression n'a pas été définie pour cette fonction.   |
+
 
 ### <a name="warehouse-mobile-devices-portal"></a>Portail des appareils mobiles d'entrepôt
 
