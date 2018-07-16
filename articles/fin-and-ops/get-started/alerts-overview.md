@@ -3,7 +3,7 @@ title: Vue d'ensemble des alertes
 description: "Cette rubrique donne des informations générales sur les alertes dans Microsoft Dynamics 365 for Finance and Operations. Vous pouvez utiliser les alertes pour rester informé des événements que vous voulez suivre durant votre journée de travail."
 author: tjvass
 manager: AnnBe
-ms.date: 03/20/2018
+ms.date: 07/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -27,8 +27,6 @@ ms.lasthandoff: 04/13/2018
 # <a name="alerts-overview"></a>Vue d'ensemble des alertes
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/pre-release.md)]
 
 ## <a name="about-alerts"></a>À propos des alertes
 Les alertes forment un système de notification pour les événements critiques dans Microsoft Dynamics 365 for Finance and Operations. Vous pouvez utiliser les alertes pour rester informé des événements que vous voulez suivre durant votre journée de travail. Vous pouvez facilement créer votre propre ensemble de règles d'alerte pour être prévenu des livraisons en retard, des suppressions de commandes, des modifications de prix et d'autres événements nécessitant une réaction de votre part.
