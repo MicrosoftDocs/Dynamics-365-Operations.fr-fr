@@ -3,7 +3,7 @@ title: Vue d'ensemble des alertes
 description: "Cette rubrique donne des informations générales sur les alertes dans Microsoft Dynamics 365 for Finance and Operations. Vous pouvez utiliser les alertes pour rester informé des événements que vous voulez suivre durant votre journée de travail."
 author: tjvass
 manager: AnnBe
-ms.date: 03/20/2018
+ms.date: 07/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,18 +17,16 @@ ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1232e4ec7676403c826787b724b6cca82c1e93f6
+ms.sourcegitcommit: ec005285eb561f77c005f8d84eeff69c37ce6833
+ms.openlocfilehash: a3145cad682177ae3be2450889f788d695b25df4
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 07/16/2018
 
 ---
 
 # <a name="alerts-overview"></a><span data-ttu-id="a3a1c-104">Vue d'ensemble des alertes</span><span class="sxs-lookup"><span data-stu-id="a3a1c-104">Alerts overview</span></span>
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/pre-release.md)]
 
 ## <a name="about-alerts"></a><span data-ttu-id="a3a1c-105">À propos des alertes</span><span class="sxs-lookup"><span data-stu-id="a3a1c-105">About alerts</span></span>
 <span data-ttu-id="a3a1c-106">Les alertes forment un système de notification pour les événements critiques dans Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="a3a1c-106">Alerts form a notification system for critical events in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="a3a1c-107">Vous pouvez utiliser les alertes pour rester informé des événements que vous voulez suivre durant votre journée de travail.</span><span class="sxs-lookup"><span data-stu-id="a3a1c-107">You can use alerts to stay informed about events that you want to track during the workday.</span></span> <span data-ttu-id="a3a1c-108">Vous pouvez facilement créer votre propre ensemble de règles d'alerte pour être prévenu des livraisons en retard, des suppressions de commandes, des modifications de prix et d'autres événements nécessitant une réaction de votre part.</span><span class="sxs-lookup"><span data-stu-id="a3a1c-108">You can easily create your own set of alert rules so that you're alerted about deliveries that are overdue, orders that are deleted, prices that change, or other events that you must respond to.</span></span>
