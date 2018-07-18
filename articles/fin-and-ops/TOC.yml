@@ -1653,6 +1653,7 @@
                 - name: Clôture de fin d'exercice
                   href: ../financials/localizations/emea-cze-hun-year-end.md
             - name: Danemark
+              href: ../financials/localizations/denmark.md
               items:
                 - name: Affecter un format de bordereau de paiement à un compte client
                   href: ../financials/localizations/tasks/assign-payment-slip-format-customer-account.md
@@ -1684,6 +1685,7 @@
                 - name: Déclaration de TVA
                   href: ../financials/localizations/emea-est-vat-statement-details.md
             - name: France
+              href: ../financials/localizations/france.md
               items:
                 - name: Secteur public
                   items:
@@ -1760,6 +1762,7 @@
                 - name: Paramétrer la déclaration de taxe électronique
                   href: ../dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/fin-and-ops/toc.json
             - name: Hongrie
+              href: ../financials/localizations/hungary.md
               items:
                 - name: Calcul du taux de change
                   href: ../financials/localizations/tasks/hu-00001-exchange-rate-calculation.md
@@ -1774,6 +1777,7 @@
                 - name: Clôture de fin d'exercice
                   href: ../financials/localizations/emea-cze-hun-year-end.md
             - name: Islande
+              href: ../financials/localizations/iceland.md
               items:
                 - name: Créer un compte fournisseur et associer une catégorie de déclaration de facture
                   href: ../financials/localizations/tasks/create-vendor-account-attach-invoice-declaration-category.md
@@ -1784,6 +1788,7 @@
                 - name: Mettre à jour les déclarations de facture fournisseur et générer l'état associé
                   href: ../financials/localizations/tasks/update-vendor-invoice-declarations-report.md
             - name: Italie
+              href: ../financials/localizations/italy.md
               items:
                 - name: Détails de relevés de TVA
                   href: ../financials/localizations/emea-ita-vat-statements-details.md
@@ -1806,6 +1811,7 @@
                 - name: Retenue à la source
                   href: ../financials/localizations/emea-ita-withholding-tax.md
             - name: Lettonie
+              href: ../financials/localizations/latvia.md
               items:
                 - name: Comptabilité immobilisations
                   href: ../financials/localizations/emea-lva-fixed-assets-accounting.md
@@ -1818,6 +1824,7 @@
                 - name: Détails de relevé de TVA
                   href: ../financials/localizations/emea-lva-vat-statement-details.md
             - name: Lituanie
+              href: ../financials/localizations/lithuania.md
               items:
                 - name: Relevé de réparation d'immobilisations
                   href: ../financials/localizations/emea-ltu-fixed-asset-repair-statement.md
@@ -1828,12 +1835,14 @@
                 - name: Détails de relevé de TVA
                   href: ../financials/localizations/emea-ltu-vat-statement-details.md
             - name: Pays-Bas
+              href: ../financials/localizations/netherlands.md
               items:
                 - name: Déclarations fiscales électroniques (EVAT)
                   href: ../financials/localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: "Intégration Semansys\_XBRL"
                   href: ../financials/localizations/tasks/nl-00003-semansys-xbrl-integration.md
             - name: Norvège
+              href: ../financials/localizations/norway.md
               items:
                 - name: Formats de paiement client et fournisseur
                   href: ../financials/localizations/tasks/no-00003-customer-vendor-payment-formats.md
@@ -1848,6 +1857,7 @@
                 - name: Instructions de déploiement de caisses enregistreuses
                   href: ../retail/localizations/emea-nor-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
             - name: Pologne
+              href: ../financials/localizations/poland.md
               items:
                 - name: Calcul de remises de ligne à partir de l'unité de prix
                   href: ../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md
@@ -1870,6 +1880,7 @@
                 - name: Relevé du chiffre d'affaires et des soldes
                   href: ../financials/localizations/emea-pol-turnover-balances-statement.md
             - name: Espagne
+              href: ../financials/localizations/spain.md
               items:
                 - name: Escompte de règlement appliqué dans la facture
                   href: ../financials/localizations/emea-esp-cash-discount-applied-invoice.md
@@ -1898,6 +1909,7 @@
                 - name: Entrées spéciales et feuilles d'ouverture
                   href: ../financials/localizations/emea-esp-opening-sheets-spain.md
             - name: Suède
+              href: ../financials/localizations/sweden.md
               items:
                 - name: Exporter des informations financières pour les auditeurs en Suède
                   href: ../financials/localizations/emea-swe-sie-standard-report.md
@@ -1906,10 +1918,12 @@
                 - name: Caisses enregistreuses
                   href: ../retail/localizations/emea-swe-cash-registers.md?toc=/fin-and-ops/toc.json
             - name: Suisse
+              href: ../financials/localizations/switzerland.md
               items:
                 - name: Importer des paiements client dans ESR
                   href: ../financials/localizations/emea-che-esr-customer-payments-import.md
             - name: Royaume-Uni
+              href: ../financials/localizations/united-kingdom.md
               items:
                 - name: 'Schéma de l''industrie de la construction '
                   href: ../financials/localizations/emea-gbr-cis-construction-industry-scheme.md
