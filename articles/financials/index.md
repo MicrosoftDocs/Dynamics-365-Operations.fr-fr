@@ -1,46 +1,78 @@
 ---
 title: "Page d'accueil de la gestion financière"
 description: "Cette rubrique fournit une liste de ressources et d'autres informations sur les fonctionnalités de gestion financière de Microsoft Dynamics 365 for Finance and Operations."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/20/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 206434
 ms.assetid: 8a6238bd-9d6f-48d9-8752-3966836364a4
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 19ba20ce16c9916e09b862b0ebedbf68259c7769
+ms.sourcegitcommit: b8f2f3a33dc19c2ebc941d1a504eae0c276f3cdf
+ms.openlocfilehash: a64621c5310e5f68b9d6f1545bb39ce1519d71cf
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
-# <a name="financial-management-home-page"></a><span data-ttu-id="22e6b-103">Page d'accueil de la gestion financière</span><span class="sxs-lookup"><span data-stu-id="22e6b-103">Financial management home page</span></span>
+# <a name="financial-management-home-page"></a><span data-ttu-id="72c46-103">Page d'accueil de la gestion financière</span><span class="sxs-lookup"><span data-stu-id="72c46-103">Financial management home page</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="22e6b-104">Cette rubrique fournit une liste de ressources et d'autres informations sur les fonctionnalités de gestion financière de Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="22e6b-104">This topic provides a list of the help topics and other resources for the financial management features in Microsoft Dynamics 365 for Finance and Operations.</span></span> 
+<span data-ttu-id="72c46-104">Cette rubrique fournit une liste de ressources et d'autres informations sur les fonctionnalités de gestion financière de Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="72c46-104">This topic provides a list of the help topics and other resources for the financial management features in Microsoft Dynamics 365 for Finance and Operations.</span></span> 
 
-<span data-ttu-id="22e6b-105">Sélectionnez une zone de fonctionnalités pour en savoir plus.</span><span class="sxs-lookup"><span data-stu-id="22e6b-105">Select a feature area to learn more about it.</span></span>
-- [<span data-ttu-id="22e6b-106">Comptabilité fournisseur</span><span class="sxs-lookup"><span data-stu-id="22e6b-106">Accounts payable</span></span>](accounts-payable/accounts-payable.md) 
-- [<span data-ttu-id="22e6b-107">Comptabilité client</span><span class="sxs-lookup"><span data-stu-id="22e6b-107">Accounts receivable</span></span>](accounts-receivable/accounts-receivable.md) 
-- [<span data-ttu-id="22e6b-108">Gestion de la trésorerie et de la banque</span><span class="sxs-lookup"><span data-stu-id="22e6b-108">Cash and bank management</span></span>](cash-bank-management/cash-bank-management.md)
-- [<span data-ttu-id="22e6b-109">Contrôle de gestion</span><span class="sxs-lookup"><span data-stu-id="22e6b-109">Cost accounting</span></span>](cost-accounting/cost-accounting-home-page.md)
-- [<span data-ttu-id="22e6b-110">Immobilisations</span><span class="sxs-lookup"><span data-stu-id="22e6b-110">Fixed assets</span></span>](fixed-assets/fixed-assets.md)
-- [<span data-ttu-id="22e6b-111">Comptabilité</span><span class="sxs-lookup"><span data-stu-id="22e6b-111">General ledger</span></span>](general-ledger/general-ledger.md) 
-- [<span data-ttu-id="22e6b-112">Gestion de projets</span><span class="sxs-lookup"><span data-stu-id="22e6b-112">Project management</span></span>](project-management/overview-project-management-accounting.md)
-- [<span data-ttu-id="22e6b-113">Secteur public</span><span class="sxs-lookup"><span data-stu-id="22e6b-113">Public sector</span></span>](public-sector/public-sector-functionality.md) 
-- [<span data-ttu-id="22e6b-114">Budget</span><span class="sxs-lookup"><span data-stu-id="22e6b-114">Budgeting</span></span>](budgeting/budgeting-overview.md) 
+<span data-ttu-id="72c46-105">Sélectionnez une zone de fonctionnalités pour en savoir plus.</span><span class="sxs-lookup"><span data-stu-id="72c46-105">Select a feature area to learn more about it.</span></span>
 
+<span data-ttu-id="72c46-106">:::row::: :::column::: - [Comptabilité fournisseur](accounts-payable/accounts-payable.md) 
+        - [Comptabilité client](accounts-receivable/accounts-receivable.md)
+        - [Budget](budgeting/budgeting-overview.md) 
+        - [Gestion de la trésorerie et de la banque](cash-bank-management/cash-bank-management.md)
+        - [Contrôle de gestion](cost-accounting/cost-accounting-home-page.md) :::column-end::: :::column::: - [Gestion des dépenses](expense-management/expense-management.md)
+        - [États financiers](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
+        - [Immobilisations](fixed-assets/fixed-assets.md)
+        - [Comptabilité](general-ledger/general-ledger.md) 
+        - [Gestion de projets](project-management/overview-project-management-accounting.md)
+        - [Secteur public](public-sector/public-sector-functionality.md) :::column-end::: :::row-end:::</span><span class="sxs-lookup"><span data-stu-id="72c46-106">:::row::: :::column::: - [Accounts payable](accounts-payable/accounts-payable.md) 
+        - [Accounts receivable](accounts-receivable/accounts-receivable.md)
+        - [Budgeting](budgeting/budgeting-overview.md) 
+        - [Cash and bank management](cash-bank-management/cash-bank-management.md)
+        - [Cost accounting](cost-accounting/cost-accounting-home-page.md) :::column-end::: :::column::: - [Expense management](expense-management/expense-management.md)
+        - [Financial reporting](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
+        - [Fixed assets](fixed-assets/fixed-assets.md)
+        - [General ledger](general-ledger/general-ledger.md) 
+        - [Project management](project-management/overview-project-management-accounting.md)
+        - [Public sector](public-sector/public-sector-functionality.md) :::column-end::: :::row-end:::</span></span>
+
+
+## <a name="additional-resources"></a><span data-ttu-id="72c46-107">Ressources supplémentaires</span><span class="sxs-lookup"><span data-stu-id="72c46-107">Additional resources</span></span>
+
+### <a name="blogs"></a><span data-ttu-id="72c46-108">Blogs</span><span class="sxs-lookup"><span data-stu-id="72c46-108">Blogs</span></span>
+
+<span data-ttu-id="72c46-109">Vous trouverez des avis, des actualités et d'autres informations concernant la Comptabilité fournisseur et d'autres solutions sur le [Blog de Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).</span><span class="sxs-lookup"><span data-stu-id="72c46-109">You can find opinions, news, and other information about Accounts payable and other solutions on the [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).</span></span>
+
+<span data-ttu-id="72c46-110">De nombreuses publications concernent la gestion financière dans le [blog de l'équipe de produit Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/).</span><span class="sxs-lookup"><span data-stu-id="72c46-110">There are many posts about financial management on the [Microsoft Dynamics AX product team blog](https://blogs.msdn.microsoft.com/dax/).</span></span> <span data-ttu-id="72c46-111">Bien que certains de ces articles aient été rédigés pour une version antérieure du produit, les mêmes concepts s'appliquent toujours et les procédures sont également similaires dans la version actuelle.</span><span class="sxs-lookup"><span data-stu-id="72c46-111">Although some of these posts were written for an older version of the product, the same concepts still apply, and the procedures are also similar in the current version.</span></span>
+
+<span data-ttu-id="72c46-112">Le [Blog de la communauté de partenaires Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) offre aux partenaires de Microsoft Dynamics une ressource unique pour découvrir les nouveautés et les tendances de MBS Operations.</span><span class="sxs-lookup"><span data-stu-id="72c46-112">The [Microsoft Dynamics Operations Partner Community Blog](https://community.dynamics.com/partner/b/operationspartnercommunityblog) gives Microsoft Dynamics Partners a single resource where they can learn what is new and trending in MBS Operations.</span></span>
+
+### <a name="task-guides"></a><span data-ttu-id="72c46-113">Guides de tâches</span><span class="sxs-lookup"><span data-stu-id="72c46-113">Task guides</span></span>
+<span data-ttu-id="72c46-114">Une aide supplémentaire est disponible sous forme de guides de tâche dans Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="72c46-114">Additional help is available as task guides inside Finance and Operations.</span></span> <span data-ttu-id="72c46-115">Pour accéder aux guides de tâche, cliquez sur le bouton Aide de n'importe quelle page.</span><span class="sxs-lookup"><span data-stu-id="72c46-115">To access task guides, click the Help button on any page.</span></span>
+
+### <a name="videos"></a><span data-ttu-id="72c46-116">Vidéos</span><span class="sxs-lookup"><span data-stu-id="72c46-116">Videos</span></span>
+
+<span data-ttu-id="72c46-117">Consultez les vidéos de procédure qui sont désormais disponibles sur la [chaîne YouTube de Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span><span class="sxs-lookup"><span data-stu-id="72c46-117">Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span></span>
+
+### <a name="countryregion-functionality"></a><span data-ttu-id="72c46-118">Fonctionnalité spécifique à un pays/une région</span><span class="sxs-lookup"><span data-stu-id="72c46-118">Country/region functionality</span></span>
+
+<span data-ttu-id="72c46-119">Les réglementations spécifiques à un pays/une région affectent le paramétrage des taxes et d'autres domaines de la gestion financière.</span><span class="sxs-lookup"><span data-stu-id="72c46-119">Country/region regulations affect tax setup and other areas of financial management.</span></span> <span data-ttu-id="72c46-120">Reportez-vous à la section [Fonctions locales et relatives aux réglementations](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json) de notre contenu d'aide pour en savoir plus sur les fonctionnalités spécifiques à un pays/une région.</span><span class="sxs-lookup"><span data-stu-id="72c46-120">Refer to the [Localization and regulatory features](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json) section of our help content to learn about country/region-specific functionality.</span></span>
 
 
