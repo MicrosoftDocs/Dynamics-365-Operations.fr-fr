@@ -3,7 +3,7 @@ title: Synchroniser les produits directement de Finance and Operations sur les p
 description: "Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les produits entre Microsoft Dynamics 365 for Finance and Operations et Microsoft Dynamics 365 for Sales."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/25/2017
+ms.date: 06/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3ae50372edcd473f2288f8172b71eac33e24b636
+ms.sourcegitcommit: 03bab1d03be71c0e23a6ea93f542d6a52a212a1f
+ms.openlocfilehash: 66506953790fd77c2105591d3211c76991eced08
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
@@ -78,7 +78,8 @@ Le champ **Géré en externe** aide à garantir que seuls les devis et les comma
 Les produits mis à jour en externe sont automatiquement ajoutés au premier tarif valide avec la même devise. Les tarifs sont organisés alphabétiquement par nom. Le prix de vente du produit de Finance and Operations est utilisé comme prix sur le tarif. Par conséquent, un tarif doit figurer dans Sales pour chaque devise de vente de produit dans Finance and Operations. La devise des produits vendables lancés est définie sur la devise comptable de l'entité juridique, depuis laquelle le produit est exporté.
 
 > [!NOTE]
-> La synchronisation de produits ne réussira pas si un tarif n'a pas de devise correspondante.
+> - La synchronisation des produits ne réussit pas si une liste de prix n'a pas de devise correspondante.
+> - Vous pouvez contrôler la liste de prix utilisée avec l'intégration en mettant en correspondance le pricelevelid.name [Liste de prix par défaut (nom)] dans le projet d'intégration de données. La saisie doit être effectuée en lettres minuscules. Par exemple, la valeur par défaut pour une liste de prix dans Sales nommée « Standard » est : Champ de destination : pricelevelid.name [Liste de prix par défaut (nom)] et Type de carte : [ { "transformType": "Default", "defaultValue": "standard" } ].
 
 ## <a name="preconditions-and-mapping-setup"></a>Conditions préalables et paramétrage de mise en correspondance
 

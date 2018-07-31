@@ -1,16 +1,16 @@
 ---
 title: "Planification budgétaire"
-description: "L'objectif de cet atelier consiste à fournir une vue guidée des mises à jour de fonctionnalités Microsoft Dynamics 365 for Finance and Operations dans la zone Planification budgétaire. Cet atelier pratique consiste à illustrer un exemple de configuration rapide du module planification budgétaire et à présenter l'accomplissement de la planification budgétaire à l'aide de cette configuration.  Cet atelier pratique se concentrera spécifiquement sur les processus ou les tâches d'entreprise : - Création de la hiérarchie d'organisation pour la planification budgétaire et la configuration de la sécurité utilisateur - Définition de scénarios de plan budgétaire, de colonnes de plan budgétaire, de mises en page et de modèles Excel - Création et activation du processus de planification budgétaire - Création de document de plan budgétaire par l'extraction de chiffres réels de la comptabilité - Utilisation des répartitions pour ajuster les données du document de plan budgétaire - Modification de données de document de plan budgétaire dans Excel"
-author: twheeloc
+description: "L'objectif de cet atelier consiste à fournir une vue guidée des mises à jour de fonctionnalités Microsoft Dynamics 365 for Finance and Operations dans la zone Planification budgétaire. Cet atelier pratique consiste à illustrer un exemple de configuration rapide du module planification budgétaire et à présenter l'accomplissement de la planification budgétaire à l'aide de cette configuration."
+author: ShylaThompson
 manager: AnnBe
-ms.date: 01/12/2018
+ms.date: 06/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 10763
 ms.assetid: 0f2ba752-1f6d-4f28-b9e9-b2e97d10b6d1
@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 59781da7681ece1c0c013f59e0d1a5d7efc51c3a
+ms.sourcegitcommit: b8f2f3a33dc19c2ebc941d1a504eae0c276f3cdf
+ms.openlocfilehash: ac2e98dbbd45becf06e28b6ea4eb9d0ec15e30f6
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
@@ -30,9 +30,15 @@ ms.lasthandoff: 03/26/2018
 
 [!include [banner](../includes/banner.md)]
 
-L'objectif de cet atelier consiste à fournir une vue guidée des mises à jour de fonctionnalités Microsoft Dynamics 365 for Finance and Operations dans la zone Planification budgétaire. Cet atelier pratique consiste à illustrer un exemple de configuration rapide du module planification budgétaire et à présenter l'accomplissement de la planification budgétaire à l'aide de cette configuration.  Cet atelier pratique se concentrera spécifiquement sur les processus ou les tâches d'entreprise : - Création de la hiérarchie d'organisation pour la planification budgétaire et la configuration de la sécurité utilisateur - Définition de scénarios de plan budgétaire, de colonnes de plan budgétaire, de mises en page et de modèles Excel - Création et activation du processus de planification budgétaire - Création de document de plan budgétaire par l'extraction de chiffres réels de la comptabilité - Utilisation des répartitions pour ajuster les données du document de plan budgétaire - Modification de données de document de plan budgétaire dans Excel 
+L'objectif de cet atelier consiste à fournir une vue guidée des mises à jour de fonctionnalités Microsoft Dynamics 365 for Finance and Operations dans la zone Planification budgétaire. Cet atelier pratique consiste à illustrer un exemple de configuration rapide du module planification budgétaire et à présenter l'accomplissement de la planification budgétaire à l'aide de cette configuration.  Cet atelier pratique est consacré aux processus et tâches d'entreprise suivants :
+- Création de la hiérarchie d'organisation pour la planification budgétaire et la configuration de la sécurité utilisateur
+- Définition de scénarios de plan budgétaire, de colonnes de plan budgétaire, de mises en page et de modèles Excel
+- Création et activation du processus de planification budgétaire
+- Création du document de plan budgétaire par l'extraction de chiffres réels de la comptabilité
+- Utilisation des répartitions pour ajuster les données du document de plan budgétaire
+- Modification des données du document de plan budgétaire dans Excel 
 
-<a name="prerequisites"></a>Conditions préalables 
+<a name="prerequisites"></a>Logiciels requis 
 ------------------
 
 Pour ce didacticiel, vous devez accéder à l'environnement Finance and Operations avec les données de démonstration de Contoso, et bénéficier des droits d'administrateur sur l'instance. N'utilisez pas le mode privé du navigateur pour l'atelier pratique - déconnectez-vous de tout autre compte dans le navigateur si nécessaire et connectez-vous à l'aide des informations d'identification de l'administrateur de Finance and Operations. Lors de la connexion à Finance and Operations, vous **DEVEZ** activer la case à cocher « Maintenir la connexion ». Cette opération crée un cookie persistant dont l'application Excel a besoin actuellement. Si vous vous connectez à Finance and Operations via un navigateur autre qu'IE, vous êtes invité à vous connecter dans l'application Excel. Lorsque vous cliquez sur « Connexion » dans l'application Excel, une fenêtre contextuelle d'IE s'ouvre et lors de la connexion, vous **DEVEZ** activer la case à cocher « Maintenir la connexion ». Si cliquer dans « Connexion » dans l'application Excel ne produit aucun effet, alors vous devez désactiver le cache des cookies d'IE.
@@ -104,8 +110,6 @@ La planification budgétaire utilise des stratégies de sécurité spéciales po
 2.5. Sélectionnez « Accorder l'accès à des organisations spécifiques ». Choisissez une Hiérarchie d'organisation créée dans la première étape. Choisissez le nœud Finances et cliquez sur le bouton Accorder à l'organisation enfant 
 
 ***Important !*** *Assurez-vous que vous êtes dans le contexte d'entité juridique DEMF en effectuant cette tâche, car la Sécurité d'organisation est appliquée par entité juridique* 
-
-[![Accorder l'accès](./media/screenshot14.png)](./media/screenshot14.png)
 
 ### <a name="task-3-create-scenarios"></a>Tâche 3 : Créez des scénarios
 3.1. Accédez à Budgétisation &gt; Paramétrage &gt; Planification budgétaire &gt; Configuration de la planification budgétaire. Dans la page Scénarios notez les scénarios que nous allons utiliser plus loin dans cet atelier pratique : Chiffres réels de l'année précédente et Budgété. 
