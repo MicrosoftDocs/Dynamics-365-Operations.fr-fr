@@ -17,10 +17,10 @@ ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 86b301833f3655f7172e2d38ddca4239be71760c
-ms.openlocfilehash: bcb4af426e5967643a1c438bb19495576ce51b63
+ms.sourcegitcommit: 4961ee7fcc56af0646e421c9e040e2129cc322c4
+ms.openlocfilehash: e6d6ede65764c0b35c9ce0985af0d9f2cd6653c0
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/12/2018
 
 ---
 
@@ -58,6 +58,8 @@ Dans le cadre des améliorations de la fonction de validation des relevés, troi
 - **Désactivation du comptage obligatoire** – Lorsque cette option est définie sur **Oui**, le processus de validation d'un relevé continue, même si la différence entre le montant calculé et le montant de la transaction sur le relevé dépasse le seuil défini dans l'organisateur **Relevé** pour les magasins de vente au détail.
 
 En outre, le champ **Nombre maximal de validation de relevés en parallèle** a été introduit dans l'organisateur **Traitement par lots**. Ce champ définit le nombre de tâches de traitement par lots à exécuter simultanément. Pour le moment, vous devez définir manuellement la valeur de ce champ.
+
+En outre, avec le nouveau processus de validation, il est nécessaire de définir un **Produit de la carte cadeau** dans l'organisateur **Carte cadeau** sous l'onglet **Validation** de la page **Paramètres des ventes au détail**. Cela est valable même si aucune carte cadeau n'est utilisée par l'organisation. 
 
 Notez que tous les paramètres associés aux validations de relevé et définis dans les magasins de vente au détail et sur la page **Paramètres des ventes au détail** s'appliquent à la fonction améliorée de validation des relevés.
 

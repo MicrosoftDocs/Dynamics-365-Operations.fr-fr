@@ -1,9 +1,9 @@
 ---
 title: "Gestion d'équipe et de tiroir-caisse"
-description: "Cet article explique comment configurer et utiliser les deux types d'équipes de travail de point de vente au détail (PDV) - partagée et autonome. Les équipes de travail partagées peuvent être utilisées par plusieurs utilisateurs à plusieurs endroits, alors que les équipes de travail autonomes peuvent être utilisées par un seul collaborateur à la fois."
-author: rubencdelgado
+description: "Cette rubrique explique comment paramétrer et utiliser les équipes dans Retail POS."
+author: jblucher
 manager: AnnBe
-ms.date: 02/15/2018
+ms.date: 05/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -20,10 +20,10 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 8a24f8adc4f7886a1f942d83f7a4eb12e7034fcd
-ms.openlocfilehash: c1483d3240d266845cea7789b70c038cb98fdfcc
+ms.sourcegitcommit: da5519eb0746347905e3b3d3d81161850c429f57
+ms.openlocfilehash: f0856a3a36ff97773c0fadbe94fe680762c5206b
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/22/2018
 
 ---
 
@@ -31,127 +31,109 @@ ms.lasthandoff: 03/22/2018
 
 [!include [banner](includes/banner.md)]
 
-Cet article explique comment configurer et utiliser les deux types d'équipes de travail de point de vente au détail (PDV) - partagée et autonome. Les équipes de travail partagées peuvent être utilisées par plusieurs utilisateurs à plusieurs endroits, alors que les équipes de travail autonomes peuvent être utilisées par un seul collaborateur à la fois.
+Cette rubrique explique comment paramétrer et utiliser les équipes dans Retail POS. 
 
-Il existe deux types d'équipes de point de vente (PDV) : autonome et partagé. Les équipes autonomes peuvent être utilisées par un seul collaborateur à la fois. Les équipes de travail partagées peuvent être utilisées par plusieurs utilisateurs à plusieurs endroits. Par conséquent, ils créent efficacement une seule équipe pour plusieurs collaborateurs dans un magasin.
+Dans Microsoft Dynamics 365 for Retail, le terme *équipe* décrit l'ensemble des activités et des données de transaction POS entre deux périodes de temps. Pour chaque équipe, la somme d'argent attendue est comparée au montant comptabilisé et déclaré.
 
-## <a name="standalone-shifts"></a>Équipes autonomes
-Les équipes autonomes sont utilisées dans un scénario de PDV traditionnel fixe, où les disponibilités sont rapprochées indépendamment pour chaque caisse enregistreuse de PDV. Par exemple, dans un schéma d’épicerie, il existe généralement plusieurs caisses enregistreuses de PDV fixe et un caissier est affecté à chaque caisse enregistreuse. Dans ce cas, chaque caisse enregistreuse est susceptible d’utiliser une équipe autonome, et le caissier est responsable du tiroir-caisse ou des disponibilités physiques à cette caisse enregistreuse. Une équipe de travail autonome englobe toutes les activités sur cette caisse enregistreuse au cours de l’équipe du caissier. Ces activités peuvent inclure le montant déposé à l’ouverture dans le tiroir-caisse, tous les soustraction et addition de disponibilités par des opérations de remises en banque et de saisie flottante, et le comptage de caisse à la fin de l’équipe.
+Généralement, les équipes sont ouvertes au début du jour ouvrable. À ce stade, un utilisateur déclare le montant de départ contenu dans le tiroir-caisse. Les transactions de vente sont ensuite exécutées tout au long de la journée. Enfin, à la fin de la journée, le tiroir-caisse est comptabilisé, et les montants de clôture sont déclarés. L'équipe est clôturée, et un Z de caisse est généré. Le Z de caisse indique s'il y a un excédent ou un déficit.
 
-### <a name="set-up-a-stand-alone-shift"></a>Définir une équipe autonome
+## <a name="typical-shift-scenarios"></a>Scénarios d'équipe courants
+Retail propose plusieurs options de configuration et opérations POS pour prendre en charge un large éventail de processus d'entreprise de clôture de caisse pour le POS. Cette section décrit certains scénarios d'équipe courants.
 
-Une équipe autonome est désignée au niveau du tiroir-caisse. Cette procédure explique comment définir une équipe autonome sur une caisse enregistreuse de PDV.
+### <a name="fixed-till"></a>Tiroir-caisse fixe
+Traditionnellement, ce scénario a été utilisé le plus souvent. Il est toujours largement utilisé. Dans une équipe « tiroir-caisse fixe », l'équipe et le tiroir-caisse sont associés à une caisse enregistreuse spécifique. Ils ne sont pas déplacés d'une caisse enregistreuse à une autre. Une équipe « tiroir-caisse fixe » peut être utilisée par un seul utilisateur ou être partagée entre plusieurs utilisateurs. Les équipes « tiroir-caisse fixe » ne nécessitent pas de configuration spéciale.
 
-1.  Cliquez sur **Vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage POS** &gt; **Profils POS** &gt; **Profils du matériel**.
-2.  Sélectionnez le profil matériel à utiliser pour l’équipe autonome.
-3.  Sur l'organisateur **Tiroir**, confirmez que l'option **Tiroir-caisse partagé par l'équipe de travail** est définie sur **Non**.
-4.  Cliquez sur **Enregistrer**.
-5.  Cliquez sur **Vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage POS** &gt; **Caisses enregistreuses**.
-6.  Sélectionnez la caisse enregistreuse nécessitant une équipe autonome, puis cliquez sur **Modifier**.
-7.  Dans le champ **Profil matériel**, sélectionnez le profil matériel que vous avez sélectionné à l’étape 2.
-8.  Cliquez sur **Enregistrer**.
-9.  Cliquez sur **Vente au détail** &gt; **Informatique de vente au détail** &gt; **Programme de distribution**.
-10. Sélectionnez le programme de distribution **1090**, puis cliquez sur **Exécuter maintenant** pour synchroniser les modifications apportées au PDV.
+### <a name="floating-till"></a>Tiroir-caisse flottant
+Dans une équipe « tiroir-caisse flottant », l'équipe et le tiroir-caisse peuvent être déplacés d'une caisse enregistreuse à une autre. Bien qu'une caisse enregistreuse ne puisse avoir qu'une seule équipe active par tiroir-caisse, les équipes peuvent être suspendues puis reprises ultérieurement ou sur une autre caisse enregistreuse.
 
-### <a name="use-a-stand-alone-shift"></a>Utiliser une équipe autonome
+Par exemple, un magasin a deux caisses enregistreuses. Chaque caisse enregistreuse est ouverte au début de la journée lorsque le caissier ouvre une nouvelle équipe et indique le montant de départ. Lorsqu'un caissier est prêt à faire une pause, il suspend son équipe et retire le tiroir-caisse de la caisse enregistreuse. Cette caisse enregistreuse devient alors disponible pour d'autres caissiers. Un autre caissier peut se connecter et ouvrir sa propre équipe sur la caisse enregistreuse. Une fois que la pause du premier caissier est terminée, il peut reprendre son équipe lorsque l'une des autres caisses enregistreuses devient disponible. Les équipes « tiroir-caisse flottante » ne nécessitent pas de configuration ou d'autorisation spéciale.
 
-1.  Connectez-vous au PDV.
-2.  Si aucune équipe n’est ouverte, sélectionnez **Ouvrir une nouvelle équipe de travail**.
-3.  Accédez à l'opération **Déclarer le montant de départ**, spécifiez le montant de disponibilités qui est ajouté au tiroir-caisse pour démarrer la journée de travail.
-4.  Effectuez des transactions.
-5.  À la fin de la journée, sélectionnez **Comptage de caisse** pour déclarer le montant de disponibilités qui reste dans le tiroir-caisse.
-6.  Entrez le montant en espèces, puis cliquez sur **Enregistrer** pour enregistrer le comptage de caisse.
-7.  Sélectionnez **Clôturer l'équipe de travail** pour clôturer l’équipe de travail.
+### <a name="single-user"></a>Utilisateur unique
+De nombreuses détaillants préfèrent autoriser un seul utilisateur par équipe, pour garantir le niveau de responsabilité le plus élevé pour les disponibilités dans le tiroir-caisse. Si un seul utilisateur est autorisé à utiliser le tiroir-caisse associé à une équipe, cet utilisateur peut être tenu pour seul responsable en cas d'écarts. Si plusieurs utilisateurs utilisent une équipe, il est difficile de déterminer qui a commis une erreur, ou qui tente de voler de l'argent dans la caisse.
 
-**Remarque :** d'autres opérations sont disponibles pendant l’équipe de travail, selon les processus d'entreprise en place. Les opérations **Mise en coffre-fort**, **Remise en banque**, et **Vider la caisse** peuvent être utilisées pour supprimer l'argent du tiroir-caisse pendant la journée, ou avant la clôture de l’équipe de travail. Si un tiroir-caisse vient à manquer de disponibilités, l'opération **Entrée de fond de caisse** peut être utilisée pour ajouter des espèces au tiroir-caisse.
+### <a name="multiple-users"></a>Utilisateurs multiples
+Certains détaillants préfèrent sacrifier le niveau de responsabilité qu'offrent les équipes à un seul utilisateur et autoriser plusieurs utilisateurs par équipe. Cette approche est courante lorsqu'il y a plus d'utilisateurs que de caisses enregistreuses disponibles, et la nécessité de faire preuve de flexibilité et de rapidité l'emporte sur le risque de perte. Elle permet également aux directeurs de magasin qui n'ont pas leurs propres équipes d'utiliser les équipes de leurs caissiers, si nécessaire. Pour se connecter et utiliser une équipe qui a été ouverte par un autre utilisateur, un utilisateur doit disposer de l'autorisation POS **Autoriser la connexion multiple de plusieurs équipes**.
 
-## <a name="shared-shifts"></a>Équipes partagées
-Une équipe partagée est utilisée dans un environnement où plusieurs caissiers partagent un tiroir-caisse ou un ensemble de tiroirs-caisses tout au long de la journée de travail. En général, une équipe partagée est utilisée dans les environnements de PDV mobiles. Dans un environnement mobile, chaque caissier n’est pas affecté ni responsable d'un tiroir-caisse unique. Au lieu de cela, tous les caissiers doivent pouvoir enregistrer une vente et ajouter des disponibilités au tiroir-caisse le plus proche d'eux. Dans ce scénario, les tiroirs-caisses qui sont partagés entre les caissiers sont inclus dans une équipe partagée. Tous les tiroirs-caisses d'une équipe partagée sont inclus dans la même équipe de travail aux fins des activités liées à la gestion des disponibilités de cette équipe. Par conséquent, le montant de départ de l'équipe de travail doit inclure la somme de toutes les disponibilités de tous les tiroirs-caisses qui sont inclus dans l’équipe de travail partagée. De même, le comptage de caisse sera la somme de toutes les disponibilités de tous les tiroirs-caisses qui sont inclus dans l’équipe de travail partagée. **Remarque :** une seule équipe partagée peut être ouverte à la fois dans chaque magasin. Les équipes partagées et les équipes autonomes peuvent être utilisées dans le même magasin.
+### <a name="shared-shift"></a>Équipe partagée
+Une configuration de type « équipe partagée » permet aux détaillants d'avoir une équipe unique pour plusieurs caisses enregistreuses, tiroirs-caisses et utilisateurs. Une équipe partagée a un montant de départ unique et un montant de clôture unique qui sont résumés sur tous les tiroirs-caisses. Les équipes partagées sont les plus courantes lorsque des appareils mobiles sont utilisés. Dans ce scénario, un tiroir-caisse distinct n'est pas réservé pour chaque caisse enregistreuse. À la place, toutes les caisses enregistreuses peuvent partager un tiroir-caisse.
 
-### <a name="set-up-a-shared-shift"></a>Configuration d'une équipe partagée
+Pour pouvoir utiliser les équipes partagées dans un magasin, le tiroir-caisse doit être configuré comme « tiroir-caisse partagé par l'équipe de travail » sous **Vente au détail \> Paramétrage de canal \> Paramétrage POS \> Profils POS \> Profils du matériel \>Tiroir-caisse**. En outre, les utilisateurs doivent disposer d'une ou des deux autorisations d'équipe partagées (Autoriser la gestion d'équipes de travail partagées et Autoriser l'utilisation d'équipes de travail partagées).
 
-1.  Cliquez sur **Vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage POS** &gt; **Profils POS** &gt; **Profils du matériel**.
-2.  Sélectionnez le profil matériel à utiliser pour l’équipe partagée.
-3.  Sur l'organisateur **Tiroir**, définissez l'option **Tiroir-caisse partagé par l'équipe de travail** sur **Oui**.
-4.  Cliquez sur **Enregistrer**.
-5.  Cliquez sur **Vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage POS** &gt; **Caisses enregistreuses**.
-6.  Sélectionnez la caisse enregistreuse nécessitant une équipe partagée, puis cliquez sur **Modifier**.
-7.  Dans le champ **Profil matériel**, sélectionnez le profil matériel que vous avez sélectionné à l’étape 2.
-8.  Cliquez sur **Enregistrer**.
-9.  Cliquez sur **Vente au détail** &gt; **Informatique de vente au détail** &gt; **Programme de distribution**.
-10. Sélectionnez le programme de distribution **1090**, puis cliquez sur **Exécuter maintenant** pour synchroniser les modifications apportées au PDV.
+> [!NOTE]
+> Une seule équipe partagée peut être ouverte à la fois dans chaque magasin. Les équipes partagées et les équipes autonomes peuvent être utilisées dans le même magasin.
 
-### <a name="use-a-shared-shift"></a>Utiliser une équipe de travail partagée
+## <a name="shift-and-drawer-operations"></a>Opérations liées aux équipes et tiroirs-caisses
+Plusieurs opérations peuvent être effectuées pour modifier l'état d'une équipe ou pour augmenter ou diminuer la somme d'argent dans le tiroir-caisse. Cette section décrit ces opérations d'équipe pour Microsoft Dynamics 365 for Retail Modern POS et Cloud POS.
 
-1.  Connectez-vous au PDV.
-2.  Si le PDV n’est pas encore connecté à une station matérielle, sélectionnez **Opération sans lien avec le tiroir-caisse**, puis sélectionnez l'opération **Sélectionner une station matérielle** pour activer une station matérielle pour l’équipe partagée. Cette étape est requise uniquement la première fois qu’une caisse enregistreuse est ajoutée à un environnement d’équipe partagée.
-3.  Déconnectez-vous du PDV et puis reconnectez-vous.
-4.  Sélectionnez **Créer une équipe**.
-5.  Sélectionnez **Déclarer le montant de départ**.
-6.  Entrez le montant de départ de tous les tiroirs-caisses dans le magasin qui font partie de l’équipe partagée, puis cliquez sur **Enregistrer**.
-    -   Pour ajouter la partie de la quantité de départ de chaque tiroir-caisse suivant, utilisez l'opération **Sélectionner une station matérielle** pour activer la station matérielle.
-    -   Pour ajouter tiroir-caisse à une caisse enregistreuse spécifique, utilisez l'opération **Ouvrir tiroir-caisse**.
-    -   Continuez jusqu'à ce que toutes les caisses enregistreuses de l’équipe de travail partagée aient leur part de la quantité de départ.
+### <a name="open-shift"></a>Équipe de travail en cours
+Le POS exige que les utilisateurs soient dans une équipe active et ouverte pour exécuter toutes les opérations débouchant sur une transaction financière comme une vente, un retour ou une commande client.
 
-7.  À la fin de la journée, ouvrez chaque caisse enregistreuse et supprimer les disponibilités.
-8.  Après avoir effacé les disponibilités du dernier tiroir-caisse, comptez toutes les disponibilités de toutes les tiroirs-caisses.
-9.  Utilisez l'opération **Comptage de caisse** pour déclarer le montant total des disponibilités de tous les tiroirs-caisses qui sont inclus dans l’équipe de travail partagée.
-10. Utilisez l'opération **Clôturer l'équipe de travail** pour clôturer l’équipe de travail partagée.
+Lorsqu'un utilisateur se connecte au POS, le système vérifie d'abord si une équipe active est disponible pour cet utilisateur dans la caisse enregistreuse actuelle. Si une équipe active n'est pas disponible, l'utilisateur peut ouvrir une nouvelle équipe, reprendre une équipe existante ou se connecter en mode « hors tiroir-caisse », en fonction de la configuration du système et des autorisations de l'utilisateur.
 
-## <a name="shift-operations"></a>Opérations d'équipe
-Plusieurs actions peuvent être effectuées pour modifier l'état d'une équipe ou pour augmenter ou diminuer la somme d'argent dans le tiroir-caisse. La section ci-après décrit ces opérations d'équipe pour Dynamics 365 for Retail Modern POS et Cloud POS.
+### <a name="declare-start-amount"></a>Déclarer le montant de départ
+Cette opération est souvent la première opération effectuée avec une équipe récemment ouverte. Pour cette opération, les utilisateurs spécifient le montant présent dans le tiroir-caisse en début d'équipe. Cette opération est importante, car le calcul de l'excédent ou du déficit qui se produit à la clôture d'une équipe tient compte du montant de départ.
 
-**Équipe de travail en cours**
+### <a name="float-entry"></a>Entrée de fond de caisse
+Les *entrées de fond de caisse* sont des transactions hors ventes qui sont effectuées au cours d'une équipe active et qui augmentent le montant des disponibilités dans le tiroir-caisse. Un exemple typique d'une entrée de fond de caisse est une transaction consistant à ajouter de la monnaie supplémentaire dans le tiroir-caisse quand celui-ci en manque.
 
-POS exige qu'un utilisateur soit dans une équipe active et ouverte pour exécuter toutes les opérations débouchant sur une transaction financière comme une vente, un retour ou une commande client.  
+### <a name="tender-removal"></a>Vider la caisse
+Les *vidages de caisse* sont des transactions hors ventes qui sont effectuées au cours d'une équipe active et qui diminuent le montant des disponibilités dans le tiroir-caisse. Cette opération est le plus souvent utilisée conjointement à une opération d'entrée de fond de caisse dans une équipe différente. Par exemple, comme la caisse enregistreuse 1 manque de fonds, l'utilisateur de la caisse enregistreuse 2 effectue un vidage de caisse pour réduire le montant de son tiroir-caisse. L'utilisateur de la caisse enregistreuse 1 effectue ensuite une entrée de fond de caisse pour augmenter le montant de son tiroir-caisse.
 
-Lorsque cous vous connectez à POS, le système vérifie d'abord si l'utilisateur est dans une équipe active disponible sur le registre actuel. Si ce n'est pas le cas, l'utilisateur peut alors choisir d'ouvrir une nouvelle équipe, de reprendre une équipe de travail existante ou de continuer en se connectant en mode « non tiroir-caisse », en fonction de la configuration système et de ses autorisations.
+### <a name="suspend-shift"></a>Suspendre l'équipe de travail
+Les utilisateurs peuvent interrompre leur équipe active pour libérer la caisse enregistreuse actuelle pour un autre utilisateur, ou pour déplacer leur équipe vers une autre caisse enregistreuse (dans ce cas, l'équipe est souvent appelée une équipe « tiroir-caisse flottant »).
 
-**Déclarer le montant de départ**
+L'interruption d'une équipe empêche toute nouvelle transaction ou changement d'équipe jusqu'à ce qu'elle reprenne.
 
-Cette opération est souvent la première action effectuée avec une équipe récemment ouverte. Les utilisateurs spécifient le montant présent dans le tiroir-caisse en début d'équipe. Ceci est important, car le calcul de fin/court qui se produit à la fermeture d'une équipe tient compte de ce montant.
+### <a name="resume-shift"></a>Reprendre une équipe de travail
+Cette opération permet aux utilisateurs de reprendre une équipe précédemment interrompue sur une caisse enregistreuse qui n'a pas encore une équipe active.
 
-**Entrée de fond de caisse**
+### <a name="tender-declaration"></a>Comptage de caisse
+Cette opération est effectuée pour spécifier la somme d'argent totale actuellement disponible dans le tiroir-caisse. Les utilisateurs effectuent souvent cette opération avant la clôture d'une équipe. Le montant spécifié est comparé au montant prévu de l'équipe pour calculer le montant de l'excédent ou du déficit.
 
-Les entrées de fond de caisse sont des transactions hors ventes qui sont effectuées au cours d'une équipe active et qui augmentent le montant des disponibilités dans le tiroir-caisse. Un exemple courant d'une entrée de fond de caisse consiste à ajouter de la monnaie supplémentaire dans le tiroir-caisse quand celui-ci en manque.
+### <a name="safe-drop"></a>Mise en coffre-fort
+Les mises en coffre-fort peuvent être effectuées à tout moment pendant une équipe active. Cette opération permet de retirer l'argent du tiroir-caisse, afin qu'il puisse être transféré à un plus emplacement plus sûr tel qu'un coffre-fort dans une pièce à part. Le montant total enregistré pour les mises en coffre-fort est toujours inclus dans les totaux de l'équipe, mais il n'a pas besoin d'être comptabilisé comme faisant partie du comptage de caisse.
 
-**Vider la caisse**
+### <a name="bank-drop"></a>Remise en banque
+Comme les mises en coffre-fort, les remises en banque sont effectuées pendant les équipes actives. Cette opération permet de retirer l'argent de l'équipe pour préparer le dépôt bancaire.
 
-Les vidages de caisse sont des transactions hors ventes qui sont effectuées au cours d'une équipe active et qui diminuent le montant des disponibilités dans le tiroir-caisse. Ils sont le plus souvent utilisés conjointement à une entrée de fond de caisse dans une équipe différente. Par exemple, le registre 1 manque de fonds, l'utilisateur du registre 2 effectue un vidage de caisse pour réduire le montant du tiroir-caisse. L'utilisateur du registre 1 effectue ensuite une entrée de fond de caisse pour accroître son montant.
+### <a name="blind-close-shift"></a>Clôturer l'équipe de travail en aveugle
+Les *équipes clôturées en aveugle* ne sont plus actives mais n'ont pas été entièrement clôturées. Contrairement aux équipes interrompues, les équipes clôturées en aveugle ne peuvent pas être reprises. Toutefois, les opérations comme Déclarer le montant de départ et Comptage de caisse peuvent y être exécutées ultérieurement ou depuis une caisse enregistreuse distincte.
 
-**Suspendre l'équipe de travail**
+Les équipes clôturées en aveugle sont généralement utilisées pour libérer une caisse enregistreuse pour un nouvel utilisateur ou une nouvelle équipe, sans devoir d'abord entièrement recompter, rapprocher et clôturer l'équipe.
 
-Les utilisateurs peuvent interrompre leur équipe active pour libérer le registre actuel pour un autre utilisateur, ou pour déplacer leur équipe à un registre différent (ceci est souvent appelé « tiroir-caisse flottant »). 
+### <a name="close-shift"></a>Clôturer l'équipe de travail
+Cette opération calcule les totaux d'équipe, les montants de l'excédent ou du déficit, puis finalise une équipe active ou clôturée en aveugle. Selon les autorisations de l'utilisateur, un Z de caisse est également imprimé pour l'équipe. Les équipes clôturées ne peuvent pas être reprises ou modifiées.
 
-L'interruption de l'équipe empêche toute nouvelle transaction ou changement d'équipe jusqu'à ce qu'elle reprenne.
+### <a name="print-x"></a>Imprimer X
+Cette opération génère et imprime un X de caisse pour l'équipe active actuelle.
 
-**Reprendre une équipe de travail**
+### <a name="reprint-z"></a>Réimprimer Z
+Cette opération réimprime le dernier Z de caisse généré par le système lorsqu'une équipe a été clôturée.
 
-Cette opération permet à un utilisateur de reprendre une équipe précédemment interrompue sur une caisse enregistreuse qui n'a pas encore une équipe active.
+### <a name="manage-shifts"></a>Gérer les équipes
+Cette opération permet aux utilisateurs d'afficher toutes les équipes actives, interrompues et clôturées à l'aveugle du magasin. En fonction de leurs autorisations, les utilisateurs peuvent effectuer leurs procédures de clôture finale, telles que les opérations de comptage de caisse et de clôture d'équipe pour les équipes clôturées en aveugle. Cette opération permet également aux utilisateurs d'afficher et de supprimer les équipes non valides dans le cas rare d'équipes en mauvais état après avoir basculé entre les modes hors connexion et en ligne. Ces équipes non valides ne contiennent aucune information financière, ni donnée transactionnelle nécessaire pour le rapprochement.
 
-**Comptage de caisse**
+## <a name="shift-and-drawer-permissions"></a>Autorisations pour les équipes et les tiroirs-caisses
+Les autorisations POS suivantes affectent ce qu'un utilisateur peut et ne peut pas faire dans divers scénarios :
 
-Le comptage de caisse est l'action effectuée par l'utilisateur pour spécifier la somme d'argent total actuelle dans le tiroir-caisse, le plus souvent avant fermeture de l'équipe. Il s'agit de la valeur comparée à l'équipe prévue pour calculer montant de fin/court.
+- **Autoriser la clôture en aveugle**
+- **Autoriser l'impression du X de caisse**
+- **Autoriser l'impression du Z de caisse**
+- **Autoriser le comptage de caisse**
+- **Autoriser la déclaration fond de caisse**
+- **Ouvrir tiroir-caisse sans vente**
+- **Autoriser la connexion multiple de plusieurs équipes** - Cette autorisation permet à l'utilisateur de se connecter et d'utiliser une équipe qui a été ouverte par un autre utilisateur. Les utilisateurs qui ne disposent pas de cette autorisation peuvent se connecter et utiliser uniquement les équipes qu'ils ont ouvertes.
+- **Autoriser la gestion d'équipes de travail partagées** – Les utilisateurs doivent disposer de cette autorisation pour ouvrir ou fermer une équipe partagée.
+- **Autoriser l'utilisation d'équipes de travail partagées** – Les utilisateurs doivent disposer de cette autorisation pour se connecter et utiliser une équipe partagée.
 
-**Mise en coffre-fort**
+## <a name="back-office-end-of-day-considerations"></a>Considérations relatives à la clôture de caisse dans l'arrière-guichet
+La façon dont les équipes et le rapprochement des tiroirs-caisses sont utilisés dans le POS diffère de la façon dont les données de transaction sont résumées lors du calcul des relevés. Il est important que vous compreniez cette différence. Selon votre configuration et vos processus d'entreprise, les données d'équipe dans le POS (Z de caisse) et un relevé calculé dans l'arrière-guichet peuvent donner des résultats différents. Cette différence ne signifie pas nécessairement que les données d'équipe ou le relevé calculé sont incorrectes, ou encore que les données présentent un problème. Cela signifie simplement que les paramètres fournis peuvent inclure des transactions supplémentaires ou moins de transactions, ou que les transactions ont été résumées différemment.
 
-Les mises en coffre-fort peuvent être effectuées à tout moment pendant une équipe active. Cette opération permet de retirer l'argent du tiroir-caisse, afin qu'il puisse être transféré à un plus emplacement plus sûr tel qu'un coffre-fort dans une pièce à part. Le montant total enregistré pour les mises en coffre-fort est toujours inclus dans les totaux de l'équipe, mais n'a pas besoin d'être compté comme faisant partie du comptage de caisse.
+Bien que chaque détaillant a ses propres exigences métier, nous vous recommandons de paramétrer votre système de la façon suivante afin d'éviter les situations où des différences de ce type se produisent :
 
-**Remise en banque**
+Accédez à **Vente au détail \> Canaux \> Magasins de vente au détail \> Tous les magasins de vente au détail \> Relevé/clôture**et, pour chaque magasin, définissez le champ **Méthode de relevé** et le champ **Méthode de clôture** sur **Équipe**.
 
-Comme les mises en coffre-fort, les remises en banque sont également effectuées pendant les équipes actives. Cette opération permet de retirer l'argent de l'équipe pour préparer le dépôt bancaire.
+Ce paramétrage permet de garantir que les relevés de l'arrière-guichet incluent les mêmes transactions que les équipes du POS, et que les données sont résumées en fonction de cette équipe.
 
-**Clôturer l'équipe de travail en aveugle**
-
-Une clôture de l'équipe de travail en aveugle est une équipe qui n'est plus active mais qui n'a pas été entièrement clôturée. Les clôtures d'équipes de travail en aveugle ne peuvent pas être reprises comme des équipes interrompues, mais les procédures comme la déclaration des montants de départ et les comptages de caisse peuvent être exécutées ultérieurement ou depuis un registre distinct.
-
-Les clôtures d'équipe de travail en aveugle sont généralement utilisées pour libérer un registre pour un nouvel utilisateur ou une nouvelle équipe, sans devoir d'abord entièrement recompter, rapprocher, et clôturer l'équipe. 
-
-**Clôturer l'équipe de travail**
-
-Cette opération calcule les totaux d'équipe, les montants de fin/courts, puis finalise une équipe active ou clôturée en aveugle. Les équipes clôturées en aveugle ne peuvent pas être reprises ou modifiées.  
-
-**Gérer les équipes**
-
-Cette opération permet aux utilisateurs d'afficher toutes les équipes actives, interrompues, et clôturées à l'aveugle du magasin. En fonction de leurs autorisations, les utilisateurs peuvent effectuer leurs procédures de clôture finale, telles que le comptage de caisse et la clôture des équipes en aveugle pour les équipes clôturées en aveugle. Cette opération permet également aux utilisateurs d'afficher et de supprimer les équipes non valides dans le cas rare d'une équipe en mauvais état après avoir basculé entre les modes hors connexion et en ligne. Ces équipes non valides ne contiennent aucune information financière, ni donnée transactionnelle nécessaire pour le rapprochement. 
+Pour plus d'informations sur les méthodes de relevé et de clôture, voir [Enregistrer les configurations pour les relevés de vente au détail](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements).
 

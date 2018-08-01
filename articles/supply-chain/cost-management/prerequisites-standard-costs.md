@@ -20,10 +20,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e63f2b4289b640e601492425331ea8f3804d139a
-ms.openlocfilehash: 4f505a2de89863d1a12d415795fdfb82b3557bc0
+ms.sourcegitcommit: 338e0847ea91ee2582df0aab3e31a97c4f24113e
+ms.openlocfilehash: 016eec12c31398beede7fdddc4548ec196ebd704
 ms.contentlocale: fr-fr
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
@@ -51,7 +51,7 @@ Avant de définir les règles de validation d'articles, utilisez la page **Combi
 
 **4. Définissez les paramètres de stock associés aux coûts standard.** 
 
--  L'onglet **Nomenclatures** de la page **Paramètres de stock** permet de définir deux paramètres de contrôle des coûts associés aux coûts standard. 
+-  L'onglet **Comptabilité de stock** de la page **Paramétrage des stratégies comptables de stock > Paramètres** permet de définir deux paramètres de contrôle des coûts associés aux coûts standard.
 
     -  Dans le champ **Analyse des coûts**, sélectionnez **Aucun** ou **Sous-comptabilité**. Si vous sélectionnez **Sous-comptabilité**, l'analyse des coûts est *active*. Une analyse active des coûts est essentielle pour le calcul, la retenue et l'affichage de la segmentation des groupes de coûts dans une structure de produits à plusieurs niveaux pour des articles de coûts standard. Lorsque l'analyse des coûts est active, vous pouvez déclarer et analyser le stock, les travaux en cours et le coût des marchandises vendues par groupe de coûts dans un niveau, dans plusieurs niveaux ou dans le format total. Lorsque l'analyse des coûts est active, l'activation du coût d'un article fabriqué entraînera le stockage de la segmentation des groupes de coûts dans l'enregistrement des coûts de l'article. 
 
