@@ -1,7 +1,7 @@
 ---
 title: "Création d'accords de service"
 description: "Cette rubrique décrit l'utilisation des fonctionnalités des modules de comptabilité Gestion des services et Gestion de projets pour la création d'accords de service."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 02/19/2018
 ms.topic: article
@@ -10,12 +10,12 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: SMAAgreementTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: Global
-ms.author: YuyuScheller
+ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT

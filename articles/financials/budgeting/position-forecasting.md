@@ -1,7 +1,7 @@
 ---
 title: "Prévision des postes"
 description: "Les dépenses liées aux collaborateurs représentent souvent une grande proportion des coûts d'une organisation. La prévision de poste permet de planifier ces dépenses et de les inclure dans la planification des budgets."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: HcmPositionForecast
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 64413
 ms.assetid: 35e791d2-1905-4808-a579-7f181ddddd91

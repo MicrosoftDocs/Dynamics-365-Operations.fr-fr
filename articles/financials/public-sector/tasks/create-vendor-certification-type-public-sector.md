@@ -1,7 +1,7 @@
 --- 
 title: "Créer un type de certification fournisseur dans le secteur public"
 description: "Vous pouvez créer et affecter aux organisations de fournisseurs tout type de certification détenus par les fournisseurs, tels que des informations d'identification professionnelles, l'assurance en responsabilité civile, le statut minoritaire ou la conformité avec diverses normes de sécurité relatives à l'environnement ou au consommateur."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 11/10/2016
 ms.topic: business-process
@@ -9,11 +9,11 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: twheeloc
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT

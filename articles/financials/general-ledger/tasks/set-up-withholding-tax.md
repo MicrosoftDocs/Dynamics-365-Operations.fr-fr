@@ -1,7 +1,7 @@
 --- 
 title: "Paramétrer la retenue à la source"
 description: "La retenue à la source est une taxe sur les fournisseurs qui ne crée pas de transaction de taxe."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: vstehman

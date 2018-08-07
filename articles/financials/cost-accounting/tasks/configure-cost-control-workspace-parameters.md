@@ -1,7 +1,7 @@
 --- 
 title: "Configurer les paramètres de l'espace de travail de contrôle des coûts"
 description: "Cette procédure permet de configurer l'espace de travail Contrôle des coûts afin que les gestionnaires à différents niveaux d'une organisation puissent obtenir des informations sur leurs objets de coût, tels que les centres de coût et les groupes de produits."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
@@ -9,10 +9,10 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: yuyus
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT

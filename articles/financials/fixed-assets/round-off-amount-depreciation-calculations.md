@@ -1,7 +1,7 @@
 ---
 title: Montant arrondi pour les calculs d'amortissement
 description: "Cet article présente le champ Arrondir l'amortissement qui est indiqué dans les pages de paramétrage du registre."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AssetBookTable, AssetDepBookTable
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 13931
 ms.assetid: faf7db87-046f-41d1-9baf-0df66e373e97
