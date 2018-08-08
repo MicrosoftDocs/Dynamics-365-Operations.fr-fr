@@ -1,7 +1,7 @@
 ---
 title: Planifier pour les fournisseurs occasionnels dans le secteur public
 description: "Cet article fournit des informations sur l'importation et la création de fournisseurs occasionnels et de factures."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerTransVoucher, SysConfiguration, Tax1099Summary, VendTableListPage
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 27251
 ms.assetid: 936570cb-932f-4027-b3c7-2235ad79bc1c
@@ -20,10 +20,10 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 90f409c170da0a2c7bc0b55512a39f2d0ea2513b
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 29468ab0dc20ff0c9c15ad242cfd5900c321ec0d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 

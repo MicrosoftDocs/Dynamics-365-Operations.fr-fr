@@ -1,7 +1,7 @@
 ---
 title: "Page d'accueil de la fonctionnalité Secteur public"
 description: "Microsoft Dynamics 365 for Finance and Operations active les processus communs aux secteurs public et privé, comme les tâches de budgétisation, d'achats, de comptabilité fournisseur et de comptabilité client."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: index-page
@@ -10,20 +10,20 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: SysConfiguration
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 20691
 ms.assetid: 391a6899-7011-40bc-b54b-5665b06bcecb
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: twheeloc
+ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 24dfa9c151f8930bc62463cdd6acf8b4c4cdd870
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 1b77e9289bd360631ea646951809705d58c9e189
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 

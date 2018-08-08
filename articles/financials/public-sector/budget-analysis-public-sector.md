@@ -1,7 +1,7 @@
 ---
 title: "Analyse budgétaire dans le secteur public"
 description: "Cette rubrique décrit l'utilisation de la page d'analyse de budget pour afficher les produits et les dépenses par dimension financière, puis elle répond aux questions posées fréquemment, notamment les différences entre la page d'analyse de budget et la page de statistiques de contrôle budgétaire."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 02/07/2018
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BudgetAnalysisInquiry_PSN, BudgetControlStatistics, DimensionDetails, LedgerPeriodCode, LedgerTrialBalanceListPage
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 19641
 ms.assetid: a1055712-0a20-425d-939d-de8564c358b8
@@ -20,10 +20,10 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 173e1e2c30b3a765ee7662c94fcc2ff62b1b0cda
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 103e7b855325cdf22e7ec455065110e416d105b4
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 

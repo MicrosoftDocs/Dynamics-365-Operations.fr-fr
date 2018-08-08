@@ -1,7 +1,7 @@
 ---
 title: Classifications de facturation et codes facturation dans le secteur public
 description: "Les organisations du secteur public peuvent utiliser les classifications de facturation et des codes de facturation pour gérer les factures financières."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CustBillingClassification, CustBillingCode, CustCustomField
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 19491
 ms.assetid: 47624566-0b4c-41dc-9cd4-801e213b5da3
@@ -20,10 +20,10 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 47e76842622416f00446cd66d2d16a1c19cc7b39
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 3c6d7655461e12e819a2ddc498000ab0a5fe09f1
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 

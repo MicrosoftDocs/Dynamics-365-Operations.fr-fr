@@ -1,7 +1,7 @@
 ---
 title: "Fusion du modèle de la valeur d'immobilisation et du registre d'amortissement"
 description: "Dans les versions précédentes, il y avait deux concepts d'évaluation pour les immobilisations : modèles de valeur et registres des amortissements. Dans Microsoft Dynamics 365 for Operations (1611), la fonctionnalité de modèle de valeur et la fonctionnalité du registre des amortissements ont été fusionnées en un concept unique appelé registre."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 221564
 ms.assetid: 7c68eb7c-8b1a-4dd9-afb8-04b4040e305e
@@ -18,10 +18,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 941b224aad9749a372b8b1176e7021985b024a4f
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 26f4b73f67064a83eb7b3d57f2dc98d90602c254
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 

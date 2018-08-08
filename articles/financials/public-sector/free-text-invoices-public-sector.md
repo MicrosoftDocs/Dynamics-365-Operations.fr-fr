@@ -1,7 +1,7 @@
 ---
 title: "Factures financières dans le secteur public"
 description: "Cette rubrique décrit la fonctionnalité de facture financière disponible pour le secteur public et répond aux questions courantes sur l'utilisation des classifications de facturation et des codes de facturation avec les factures financières."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CustBillingClassification, CustBillingCode, CustFreeInvoice
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 25821
 ms.assetid: 483e2726-ec48-4d1f-82f5-bffddea301ce
@@ -20,10 +20,10 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 493f18875c2f64488ea977f22136400dc324c1b5
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 98030d14d85770c427aa2ef6e3f0c5560fc6bc99
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 

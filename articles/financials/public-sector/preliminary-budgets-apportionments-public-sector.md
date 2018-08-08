@@ -1,7 +1,7 @@
 ---
 title: "Budgets préliminaires et répartitions dans le secteur public"
 description: "Cette rubrique couvre la création d'un budget préliminaire, et le paramétrage de la budgétisation et du contrôle budgétaire pour les répartitions et un budget préliminaire."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BudgetBalancesActuals, BudgetControlConfiguration, BudgetTransactionCode
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 19701
 ms.assetid: 8885478d-67f5-4db8-b97b-c0734216f8dd
@@ -20,10 +20,10 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: d86cd05ef94099fd0b107c76200574ea2fdad625
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: b94f565efca2cec3b7cecfe0b451cf2af89cb248
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 

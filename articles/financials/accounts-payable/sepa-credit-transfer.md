@@ -1,7 +1,7 @@
 ---
 title: Vue d'ensemble des virements SEPA
 description: "Cet article fournit des informations générales sur les virements ISO 20022, notamment les virements SEPA (Single Euro Payments Area) et tous les autres moyens de paiement électronique des fournisseurs. Le virement SEPA est un type particulier de paiement en euros d'une société ou d'une personne à une société ou une autre personne. Cette rubrique explique également comment paramétrer et transmettre un fichier de paiement par virement."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -19,10 +19,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: a2bf472d1850e1d97f5c51f66c215143ae646b5a
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: d6081c12ea65812a15b50c627330b4566ab4c679
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 

@@ -1,7 +1,7 @@
 --- 
 title: "Créer un modèle de configuration de produits"
 description: "Cette procédure montre comment créer un modèle de configuration de produit et entrer des informations de base telles que des attributs et les sous-composants."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 03/02/2016
 ms.topic: business-process
@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: bis
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 0a731a2a0fedcb92523b3f345abb49a18ff0e56a
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: e521cb9d19f2af8f931795b64ab338a3c6692399
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="create-a-product-configuration-model"></a><span data-ttu-id="25571-103">Créer un modèle de configuration de produits</span><span class="sxs-lookup"><span data-stu-id="25571-103">Create a product configuration model</span></span>

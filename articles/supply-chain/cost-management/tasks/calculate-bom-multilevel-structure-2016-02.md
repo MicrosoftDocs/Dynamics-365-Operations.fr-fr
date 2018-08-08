@@ -1,7 +1,7 @@
 --- 
 title: "Calculer une nomenclature à l'aide d'une structure à plusieurs niveaux (février 2016 uniquement)"
 description: "Cette procédure montre comment calculer le coût d'un produit fini à l'aide d'un éclatement à plusieurs niveaux basé sur la feuille de coûts."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 02/07/2017
 ms.topic: business-process
@@ -9,18 +9,18 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: yuyus
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 514cefdb78000eafc0dee7c91fc2d8181e9285e4
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: c562cff378f891ef655488c5fe64ba529896e910
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="calculate-a-bom-by-using-a-multilevel-structure-february-2016-only"></a><span data-ttu-id="e7bc9-103">Calculer une nomenclature à l'aide d'une structure à plusieurs niveaux (février 2016 uniquement)</span><span class="sxs-lookup"><span data-stu-id="e7bc9-103">Calculate a BOM by using a multilevel structure (February 2016 only)</span></span>

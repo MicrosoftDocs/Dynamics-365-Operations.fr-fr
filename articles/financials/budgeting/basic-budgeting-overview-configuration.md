@@ -1,7 +1,7 @@
 ---
 title: Vue d'ensemble du budget
 description: "Presque toutes les sociétés qui utilisent la fonctionnalité Finances dans Microsoft Dynamics 365 for Finance and Operations pourront créer des états budgétés et réels. Cet article décrit la configuration minimale requise pour créer des budgets dans Finance and Operations ou les charger dans un programme tiers."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BudgetParameters
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 60113
 ms.assetid: 28a9793e-d376-47af-a345-69046bad17df
@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: e50c646154bf17594d1de78eedc55edd54cde1c5
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 01b7970119b9abb26570c19162e159dd05496168
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 

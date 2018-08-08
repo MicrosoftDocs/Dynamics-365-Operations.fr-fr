@@ -1,7 +1,7 @@
 --- 
 title: "Lancer un produit générique fondé sur les dimensions"
 description: "Cette procédure décrit la manière dont lancer un produit générique, qui sera utilisé pour les configurations basées sur les dimensions."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 11/11/2016
 ms.topic: business-process
@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: bis
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 240e9282f75fbcae4d81eb224f90d968e0a88d9e
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: f2bfc54774ebd3fc860ea666480e54ec27f675e5
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="release-a-dimension-based-product-master"></a><span data-ttu-id="b559e-103">Lancer un produit générique fondé sur les dimensions</span><span class="sxs-lookup"><span data-stu-id="b559e-103">Release a dimension-based product master</span></span>

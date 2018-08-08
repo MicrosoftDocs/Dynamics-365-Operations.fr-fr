@@ -1,7 +1,7 @@
 ---
 title: "Rôles de sécurité dans le secteur public"
 description: "Cet article décrit la fonctionnalité des rôles de sécurité du secteur public. Cette fonctionnalité inclut les rôles de chef de projet et d'acheteurs dans le secteur public."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: UserRequestListPage
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 19721
 ms.assetid: e26a6d93-851e-46be-8543-de2798909350
@@ -20,10 +20,10 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 824579816662c14351eef5ee7ebc07694d43cfd2
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 8119ae2e5fbf24944f980db6b0ca4023032c501f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 

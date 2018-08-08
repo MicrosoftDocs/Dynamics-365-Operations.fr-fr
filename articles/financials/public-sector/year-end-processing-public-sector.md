@@ -1,7 +1,7 @@
 ---
 title: Traitement de fin d'exercice dans le secteur public
 description: Cet article fournit des informations sur le processus de fin d'exercice pour des organisations du secteur public.
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchYearEndClose
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 19601
 ms.assetid: ba9a7abc-bd18-47c2-b745-96cdcec8ac98
@@ -20,10 +20,10 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: fbb6bb45d442b00fe5ed628b66f2950416103b67
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: b9a89bd38feac2e580c3d1511d3bee8eca04115d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 

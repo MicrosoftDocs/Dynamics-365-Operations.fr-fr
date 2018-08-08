@@ -1,7 +1,7 @@
 --- 
 title: "Créer une couverture et des pages de signature pour un état de paiement pour le secteur public"
 description: "Lorsque vous créez les pages de couverture et de signature pour un état de paiement, vous pouvez spécifier les informations qui doivent y figurer."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 11/11/2016
 ms.topic: business-process
@@ -9,18 +9,18 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: twheeloc
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 9ffa45c8e18596b4f4ef4360929d70f79c76a28d
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 4dbdc4ff042aa2da3ae2866cd0f09b7d58b0adb2
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="create-cover-and-signature-pages-for-a-payments-report-for-the-public-sector"></a><span data-ttu-id="a955d-103">Créer une couverture et des pages de signature pour un état de paiement pour le secteur public</span><span class="sxs-lookup"><span data-stu-id="a955d-103">Create cover and signature pages for a payments report for the public sector</span></span>
