@@ -1,7 +1,7 @@
 --- 
 title: "Paramétrage des administrations fiscales"
 description: "Les administrations fiscales sont des entités auprès desquelles les taxes doivent être déclarées et payées."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: vstehman

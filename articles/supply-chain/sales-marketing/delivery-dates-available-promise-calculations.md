@@ -1,7 +1,7 @@
 ---
 title: Promesse de commande
 description: "Cet article fournit des informations sur les promesses de commande. Les promesses de commandes vous permettent de promettre de manière fiable des dates de livraison à vos clients et vous offre une certaine flexibilité pour pouvoir respecter ces dates."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: SalesATP, SalesAvailableDlvDates
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 193933
 ms.assetid: 676fc53a-fa25-4688-9f26-1005316763b8

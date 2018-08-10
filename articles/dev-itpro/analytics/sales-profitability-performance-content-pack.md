@@ -1,7 +1,7 @@
 ---
 title: "Contenu Power BI des performances de rentabilité et de vente"
 description: "Cette rubrique décrit ce qui est inclus dans le contenu Power BI des performances de rentabilité et de vente. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article

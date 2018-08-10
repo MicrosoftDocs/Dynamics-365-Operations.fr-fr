@@ -1,7 +1,7 @@
 ---
 title: "Comptabilité fournisseur dans le secteur public"
 description: "Cet article présente la fonctionnalité de Comptabilité fournisseur dans le secteur public qui est intégrée à Microsoft Dynamics 365 for Finance and Operations. Cette fonctionnalité inclut des codes commande fournisseur, des définitions de validation, la facturation à un fournisseur occasionnel, les formulaires fiscaux 1099, les escomptes de règlement, les types de certification de fournisseur, la synthèse des activités comptables du projet, les paiements électroniques, les page de garde et de signature des états, les montants des lignes de commande fournisseur, et les pages du journal des factures fournisseur."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 08/07/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BudgetParameters, CustParameters, LedgerJournalTable, OMLegalEntity, PurchAgreementListPage, PurchTableListPage, SrmParameters, VendCertificationType, VendCoverPageLayout, VendOpenInvoicesListPage, VendParametersVendParameters, VendTableListPage
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 19661
 ms.assetid: b4c903dd-5ec7-4ec5-9dc9-77ba4f00fab8

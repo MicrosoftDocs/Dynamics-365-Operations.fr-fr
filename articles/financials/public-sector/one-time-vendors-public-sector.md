@@ -1,7 +1,7 @@
 ---
 title: Fournisseurs occasionnels dans le secteur public
 description: "Cet article fournit des informations sur la création d'un fournisseur occasionnel et d'une facture, et sur l'importation et la création de plusieurs fournisseurs occasionnels et factures."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerTransVoucher, SysConfiguration, Tax1099Summary, VendTableListPage
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 19801
 ms.assetid: 403857a3-bebb-4ff7-b1b5-c88f41fc18ae

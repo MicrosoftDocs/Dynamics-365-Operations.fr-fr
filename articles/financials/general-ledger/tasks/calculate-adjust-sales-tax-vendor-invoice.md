@@ -1,7 +1,7 @@
 --- 
 title: Calculer et ajuster la taxe sur une facture fournisseur
 description: "Si le document source d'origine affiche différents montants de taxe calculés, vous pouvez régler ces montants avant la validation."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 11/10/2016
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: vstehman

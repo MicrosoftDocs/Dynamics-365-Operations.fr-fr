@@ -1,7 +1,7 @@
 ---
 title: Page d'accueil de la planification
 description: "La planification permet aux sociétés de déterminer et d'équilibrer les futurs besoins en matières premières et en capacités afin d'atteindre leurs objectifs."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 11/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 

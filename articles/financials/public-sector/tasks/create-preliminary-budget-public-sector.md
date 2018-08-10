@@ -1,7 +1,7 @@
 --- 
 title: "Créer un budget préliminaire pour le secteur public"
 description: "Vous pouvez créer des écritures de registre budgétaires préliminaires pour un modèle de budget et des valeurs de dimension spécifiques."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 02/12/2016
 ms.topic: business-process
@@ -9,11 +9,11 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Public Sector
-ms.author: twheeloc
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT

@@ -1,7 +1,7 @@
 ---
 title: "Définitions de validation dans le secteur public"
 description: "Cet article fournit des exemples de définitions de validation dans le secteur public qui vous permettent de créer les lignes du journal de comptabilité auxiliaire pour les transactions d'origine correspondant aux critères sélectionnés. Ces exemples incluent des affectations budgétaires, des réglementations en espèces regroupés, des radiations, des règlements de contre remboursement, des écritures comptables avancées, une clôture de fin d'exercice de comptabilité et des fonds propriétaires."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BudgetDetailsInquiry, CustGroup, JournalizingDefinition, JournalizingDefinitionTrans, LedgerFund, LedgerParameters, LedgerTransferOpening, MainAccount
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 27271
 ms.search.region: Global

@@ -1,7 +1,7 @@
 ---
 title: "Processus de configuration du rapprochement bancaire avancé"
 description: "Le rapprochement bancaire avancé permet d'importer des relevés bancaires électroniques et de les rapprocher automatiquement avec des transactions bancaires dans Microsoft Dynamics 365 for Finance and Operations.  Cet article décrit l’ensemble des processus de rapprochement."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BankReconciliationMatchRule, BankReconciliationMatchRuleSet
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 98303
 ms.assetid: ae071f04-f038-4b17-812d-0a241ed15521
