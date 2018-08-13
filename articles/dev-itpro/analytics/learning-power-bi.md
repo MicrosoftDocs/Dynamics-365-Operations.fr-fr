@@ -65,5 +65,3 @@ Les données suivantes sont utilisées pour remplir les états dans le contenu P
 | Nom de l'employé    | Prénom, nom et nom complet                             | Participants aux cours |
 | Titre de l'employé   | Titre et date d'ancienneté                                         | Participants aux cours |
 
-
-

@@ -33,7 +33,7 @@ ms.lasthandoff: 12/19/2017
 Cette rubrique décrit le contenu Microsoft Power BI **Recrutement**. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
 
 ## <a name="accessing-the-power-bi-content"></a>Accès au contenu Power BI
-Le contenu Power BI **Recrutement** s'affiche dans l'espace de travail **Gestion des recrutements**. 
+Le contenu Power BI **Recrutement** s'affiche dans l'espace de travail **Gestion des recrutements**.
 
 ## <a name="reports-and-visuals-in-the-recruitment-management-workspace"></a>États et éléments visuels de l'espace de travail Gestion des recrutements
 L'espace de travail **Gestion des recrutements** contient un onglet **Analyses** . Cet onglet contient le contenu Power BI intégré pour le recrutement. Le contenu se compose d'un onglet Vue d'ensemble et d'onglets supplémentaires contenant des détails. Le tableau suivant décrit les états de chaque onglet.
@@ -66,6 +66,4 @@ Le tableau suivant indique les entités sur lesquelles le contenu Power BI **Rec
 | Performances          | Classement, description et modèle de classement                            | Candidat, candidat employé, candidat dont le contrat est terminé |
 | Projet de recrutement  | Description, statut du projet, et ouvertures de projet                | Candidat, candidat employé, candidat dont le contrat est terminé |
 | Candidat dont le contrat est terminé | Candidats terminés, motif, performances et date de fin de contrat | Société, décalage de calendrier, date, emplacement géographique, performances, démographie, emploi, support, projet de recrutement, nom du candidat |
-
-
 

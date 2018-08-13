@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
 ms.openlocfilehash: 7e2a9297a417fb25384341dcabcafa41c50f8c84
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/22/2018
 - [Contenu Power BI Vue d'ensemble d'un processus CFO](CFO-power-bi.md)
 - [Contenu Power BI Rémunération](compensation-power-bi.md)
 - [Analyse de contrôle de gestion - Contenu Power BI](cost-accounting-analysis-content-pack.md) 
-- [Contenu Power BI de gestion des coûts](cost-management-content-pack.md)    
+- [Contenu Power BI de gestion des coûts](cost-management-content-pack.md)
 - [Contenu Power BI Gestion des crédits et des relances](../../financials/accounts-receivable/credit-collections-power-bi.md)
 - [Contenu Power BI Perfectionnement de l'employé](employee-development-PBI.md) 
 - [Contenu Power BI des perspectives financières](financial-insights.md)
@@ -46,5 +46,5 @@ ms.lasthandoff: 05/22/2018
 - [Contenu Power BI des performances de rentabilité et de vente](sales-profitability-performance-content-pack.md)
 - [Contenu Power BI Paiements fournisseur](../../financials/accounts-payable/Vendor-payments-workspace.md)
 - [Contenu Power BI pour les performances de l'entrepôt](warehouse-power-bi-content.md)
-- [Contenu Power BI de mesures de la main-d'œuvre](workforce-analysis-power-bi-content-pack.md)  
+- [Contenu Power BI de mesures de la main-d'œuvre](workforce-analysis-power-bi-content-pack.md)
 

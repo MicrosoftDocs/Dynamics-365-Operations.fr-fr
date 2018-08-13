@@ -21,7 +21,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: af87f3f7c3fab9b6baecefbedcd855a764f31cbe
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
@@ -33,18 +33,18 @@ Cette rubrique décrit les données incluses dans le contenu Microsoft Power BI 
 
 ## <a name="overview"></a>Vue d'ensemble
 
-Le contenu Power BI **Analyse du contrôle de gestion** est destiné aux contrôleurs de coûts ou à toute personne chargée de contrôler les coûts d'une organisation. Il inclut les mesures clés, telles que le coût, la magnitude et le taux de coût par coût réel, coût budgétaire et coût budgétaire flexible. Il utilise les données de transaction du module **Contrôle de gestion** et fournit une vue globale des coûts pour l'ensemble de l'organisation dans une devise de déclaration. Les responsables peuvent filtrer les données par objet de coût pour contrôler les coûts de leurs unités d'organisation, même si l'organisation peut avoir plusieurs entités juridiques. 
+Le contenu Power BI **Analyse du contrôle de gestion** est destiné aux contrôleurs de coûts ou à toute personne chargée de contrôler les coûts d'une organisation. Il inclut les mesures clés, telles que le coût, la magnitude et le taux de coût par coût réel, coût budgétaire et coût budgétaire flexible. Il utilise les données de transaction du module **Contrôle de gestion** et fournit une vue globale des coûts pour l'ensemble de l'organisation dans une devise de déclaration. Les responsables peuvent filtrer les données par objet de coût pour contrôler les coûts de leurs unités d'organisation, même si l'organisation peut avoir plusieurs entités juridiques.
 
-Comme le contenu **Analyse du contrôle de gestion** présente les écarts entre les coûts réels et les coûts budgétés, les responsables peuvent être informés des tendances positives et négatives pour leurs unités opérationnelles. Les responsables peuvent détailler les hiérarchies de l'élément de coût ou chaque élément de coût. Ainsi, les responsables peuvent obtenir une analyse détaillée de la manière dont les écarts de coûts sont survenus, puis agir en conséquence. 
+Comme le contenu **Analyse du contrôle de gestion** présente les écarts entre les coûts réels et les coûts budgétés, les responsables peuvent être informés des tendances positives et négatives pour leurs unités opérationnelles. Les responsables peuvent détailler les hiérarchies de l'élément de coût ou chaque élément de coût. Ainsi, les responsables peuvent obtenir une analyse détaillée de la manière dont les écarts de coûts sont survenus, puis agir en conséquence.
 
-Le contenu **Analyse du contrôle de gestion** permet aux contrôleurs de gestion d'analyser la manière dont le coût se répercute sur les objets de coût de l'ensemble de l'organisation. 
+Le contenu **Analyse du contrôle de gestion** permet aux contrôleurs de gestion d'analyser la manière dont le coût se répercute sur les objets de coût de l'ensemble de l'organisation.
 
-Pour en savoir plus sur le contrôle de gestion, voir [Page d'accueil du contrôle de gestion](../../financials/cost-accounting/cost-accounting-home-page.md). 
+Pour en savoir plus sur le contrôle de gestion, voir [Page d'accueil du contrôle de gestion](../../financials/cost-accounting/cost-accounting-home-page.md).
 
 En définissant la sécurité au niveau de l'accès dans le module Contrôle de gestion et en la combinant à la sécurité au niveau de la ligne dans Power BI, vous pouvez autoriser l'accès au contenu Power BI **Analyse du contrôle de gestion** à tous les propriétaires d'objet de coût. Toutes les données des visualisations seront ensuite filtrées selon le niveau d'accès contrôlé dans le contrôle de gestion. Pour en savoir plus sur la sécurité au niveau de l'accès et la sécurité au niveau de la ligne, voir [Paramétrer la sécurité du contenu Contrôle de gestion pour Power BI](setup-security-cost-accounting-content-pack.md).
 
 ## <a name="accessing-the-power-bi-content"></a>Accès au contenu Power BI
-Vous trouverez le contenu Power BI **Analyse du contrôle de gestion** dans la bibliothèque Actifs partagés de Microsoft Dynamics Lifecycle Services (LCS). Pour savoir comment télécharger le contenu et l'implémenter dans votre organisation, voir [Contenu Power BI dans LCS de Microsoft et de vos partenaires](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/). 
+Vous trouverez le contenu Power BI **Analyse du contrôle de gestion** dans la bibliothèque Actifs partagés de Microsoft Dynamics Lifecycle Services (LCS). Pour savoir comment télécharger le contenu et l'implémenter dans votre organisation, voir [Contenu Power BI dans LCS de Microsoft et de vos partenaires](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
 
 <!--To watch a demo that shows how to implement the Power BI content, see the [Power BI content from Microsoft and your partners in Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.-->
 
@@ -75,7 +75,7 @@ Le contenu comprend un ensemble de pages d'état. Chaque page contient un ensemb
 |                                  | Coût réel par nom du membre de la dimension d'objet de coût et nom du membre de la dimension d'élément de coût                                       |                                               |
 
 ## <a name="understanding-the-data-model-and-entities"></a>Compréhension du modèle de données et des entités
-Les données suivantes sont utilisées pour remplir les pages d'état dans le contenu Power BI **Analyse du contrôle de gestion**. Ces données sont représentées sous la forme de mesures globales indexées dans le magasin des entités. Le magasin des entités est une base de données Microsoft SQL Server optimisée pour les analyses. Pour plus d'informations, voir [Vue d'ensemble de l'intégration de Power BI au magasin d'entité](power-bi-integration-entity-store.md) 
+Les données suivantes sont utilisées pour remplir les pages d'état dans le contenu Power BI **Analyse du contrôle de gestion**. Ces données sont représentées sous la forme de mesures globales indexées dans le magasin des entités. Le magasin des entités est une base de données Microsoft SQL Server optimisée pour les analyses. Pour plus d'informations, voir [Vue d'ensemble de l'intégration de Power BI au magasin d'entité](power-bi-integration-entity-store.md)
 
 Les mesures globales clés suivantes sont utilisées comme base du contenu.
 
@@ -113,20 +113,18 @@ Le tableau suivant indique comment les mesures globales clés sont utilisées po
 
 Les dimensions clés suivantes sont utilisées comme filtres pour diviser les mesures globales afin d'obtenir une plus grande granularité et de fournir des données d'analyse plus approfondies.
 
-
-|               Entité               |                                                Exemples d'attributs                                                |
+| Entité                             | Exemples d'attributs                                                                                               |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-|      Comptabilités de contrôle de gestion       |                                                Comptabilité de contrôle de gestion                                                |
-|         Unités de contrôle des coûts         |                                                Nom de l'unité de contrôle des coûts                                                |
-|      Dimensions d'éléments de coût       |     Nom de la dimension d'éléments de coût, nom du membre de la dimension d'élément de coût, description du membre de la dimension d'élément de coût      |
-|       Dimensions d'objets de coût       |       Nom de la dimension d'objet de coût, nom du membre de la dimension d'objet de coût, description du membre de la dimension d'objet de coût        |
-|       Dimensions statistiques       |       Nom de la dimension statistique, nom du membre de la dimension statistique, description du membre de la dimension statistique        |
-| Hiérarchies de dimensions d'objet de coût  |  Nom de la hiérarchie de dimensions d'objet de coût, niveau de la hiérarchie de dimensions d'objet de coût, arborescence de la hiérarchie de dimensions d'objet de coût   |
+| Comptabilités de contrôle de gestion            | Comptabilité de contrôle de gestion                                                                                               |
+| Unités de contrôle des coûts                 | Nom de l'unité de contrôle des coûts                                                                                               |
+| Dimensions d'éléments de coût            | Nom de la dimension d'éléments de coût, nom du membre de la dimension d'élément de coût, description du membre de la dimension d'élément de coût          |
+| Dimensions d'objets de coût             | Nom de la dimension d'objet de coût, nom du membre de la dimension d'objet de coût, description du membre de la dimension d'objet de coût              |
+| Dimensions statistiques             | Nom de la dimension statistique, nom du membre de la dimension statistique, description du membre de la dimension statistique              |
+| Hiérarchies de dimensions d'objet de coût  | Nom de la hiérarchie de dimensions d'objet de coût, niveau de la hiérarchie de dimensions d'objet de coût, arborescence de la hiérarchie de dimensions d'objet de coût    |
 | Hiérarchies de dimensions d'élément de coût | Nom de la hiérarchie de dimensions d'élément de coût, niveau de la hiérarchie de dimensions d'élément de coût, arborescence de la hiérarchie de dimensions d'élément de coût |
-| Hiérarchies de dimensions statistiques  |  Nom de la hiérarchie de dimensions statistiques, niveau de la hiérarchie de dimensions statistiques, arborescence de la hiérarchie de dimensions statistiques   |
-|        Versions de transaction        |                                                     Nom de la version                                                     |
-|          Calendriers fiscaux          |                                            Calendrier, description du calendrier                                            |
-|            Exercices            |                                                    Année civile                                                     |
-|           Périodes fiscales           |                                                 Période de l'année civile                                                 |
-
+| Hiérarchies de dimensions statistiques  | Nom de la hiérarchie de dimensions statistiques, niveau de la hiérarchie de dimensions statistiques, arborescence de la hiérarchie de dimensions statistiques    |
+| Versions de transaction               | Nom de la version                                                                                                         |
+| Calendriers fiscaux                   | Calendrier, description du calendrier                                                                                       |
+| Exercices                       | Année civile                                                                                                        |
+| Périodes fiscales                     | Période de l'année civile                                                                                                 |
 
