@@ -1,7 +1,7 @@
 ---
 title: Identificateurs du produit
 description: "Cette rubrique fournit des informations sur les différents types d'identificateurs de produit et explique comment vous pouvez ajouter des identificateurs de produit à vos données de produit."
-auhor: cvocph
+author: cvocph
 manager: AnnBe
 ms.date: 03/23/2018
 ms.topic: article

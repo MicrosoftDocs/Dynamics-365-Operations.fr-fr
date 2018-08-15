@@ -1,7 +1,7 @@
 ---
 title: "Dépenses intersociétés"
 description: "Un travailleur qui est employé par une seule entité juridique au sein d'une organisation peut travailler pour une autre entité juridique au sein de la même organisation. Dans ce cas, vous pouvez utiliser la fonctionnalité de dépense intersociétés pour affecter les dépenses du travailleur à l'entité juridique pour laquelle le travail a été effectué."
-author: saraschi2
+author: ShylaThompson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
@@ -13,10 +13,8 @@ audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: saraschi
-ms.search.validFrom:
-- month/year of release that feature was introduced in
-- in format yyyy-mm-dd
+ms.author: shylaw
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
