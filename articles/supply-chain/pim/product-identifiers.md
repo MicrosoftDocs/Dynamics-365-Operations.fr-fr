@@ -1,7 +1,7 @@
 ---
 title: Identificateurs du produit
 description: "Cette rubrique fournit des informations sur les différents types d'identificateurs de produit et explique comment vous pouvez ajouter des identificateurs de produit à vos données de produit."
-auhor: cvocph
+author: cvocph
 manager: AnnBe
 ms.date: 03/23/2018
 ms.topic: article
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.dyn365.ops.version: 7.3
 ms.search.validFrom: 2017-12-31
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: e5920297d3e988b84d8fd59ae2e13e7350dd2b59
+ms.sourcegitcommit: 384c38f3e154495c882434d1c85cef63396cd897
+ms.openlocfilehash: 58a32bd7f857e8173996cd4eb21f176bae508587
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 08/15/2018
 
 ---
 
