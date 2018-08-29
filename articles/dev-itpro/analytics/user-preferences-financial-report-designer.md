@@ -22,62 +22,62 @@ ms.translationtype: HT
 ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: 78b41010e4ab56675121ab5479cada37645e9ee3
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="user-preferences-in-financial-report-designer"></a><span data-ttu-id="cc611-104">Préférences de l’utilisateur dans le générateur d'états financiers</span><span class="sxs-lookup"><span data-stu-id="cc611-104">User preferences in financial report designer</span></span>
+# <a name="user-preferences-in-financial-report-designer"></a><span data-ttu-id="7e4d8-104">Préférences de l’utilisateur dans le générateur d'états financiers</span><span class="sxs-lookup"><span data-stu-id="7e4d8-104">User preferences in financial report designer</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="cc611-105">Cet article explique comment définir les préférences de l’utilisateur pour personnaliser vos interactions utilisateur dans le générateur d'états financiers et de contrôler l’expérience de connexion initiale.</span><span class="sxs-lookup"><span data-stu-id="cc611-105">This article explains how to set user preferences to customize your user interactions in financial report designer and control the initial sign-in experience.</span></span> <span data-ttu-id="cc611-106">Vous pouvez également contrôler comment les états individuels, la bibliothèque d'états et les emplacements de fichiers par défaut sont affichés.</span><span class="sxs-lookup"><span data-stu-id="cc611-106">You can also control how individual reports, the report library, and the default file locations are displayed.</span></span> 
+<span data-ttu-id="7e4d8-105">Cet article explique comment définir les préférences de l’utilisateur pour personnaliser vos interactions utilisateur dans le générateur d'états financiers et de contrôler l’expérience de connexion initiale.</span><span class="sxs-lookup"><span data-stu-id="7e4d8-105">This article explains how to set user preferences to customize your user interactions in financial report designer and control the initial sign-in experience.</span></span> <span data-ttu-id="7e4d8-106">Vous pouvez également contrôler comment les états individuels, la bibliothèque d'états et les emplacements de fichiers par défaut sont affichés.</span><span class="sxs-lookup"><span data-stu-id="7e4d8-106">You can also control how individual reports, the report library, and the default file locations are displayed.</span></span> 
 
-<a name="set-user-preferences"></a><span data-ttu-id="cc611-107">Définition des préférences utilisateur</span><span class="sxs-lookup"><span data-stu-id="cc611-107">Set user preferences</span></span>
+<a name="set-user-preferences"></a><span data-ttu-id="7e4d8-107">Définition des préférences utilisateur</span><span class="sxs-lookup"><span data-stu-id="7e4d8-107">Set user preferences</span></span>
 --------------------
 
-1.  <span data-ttu-id="cc611-108">Dans le générateur d'états, dans le menu **Outils**, cliquez sur **Options**.</span><span class="sxs-lookup"><span data-stu-id="cc611-108">In Report Designer, on the **Tools** menu, click **Options**.</span></span>
-2.  <span data-ttu-id="cc611-109">Dans la boîte de dialogue **Options**, sélectionnez vos préférences.</span><span class="sxs-lookup"><span data-stu-id="cc611-109">In the **Options** dialog box, select your preferences.</span></span>
-3.  <span data-ttu-id="cc611-110">Cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="cc611-110">Click **OK**.</span></span>
+1.  <span data-ttu-id="7e4d8-108">Dans le générateur d'états, dans le menu **Outils**, cliquez sur **Options**.</span><span class="sxs-lookup"><span data-stu-id="7e4d8-108">In Report Designer, on the **Tools** menu, click **Options**.</span></span>
+2.  <span data-ttu-id="7e4d8-109">Dans la boîte de dialogue **Options**, sélectionnez vos préférences.</span><span class="sxs-lookup"><span data-stu-id="7e4d8-109">In the **Options** dialog box, select your preferences.</span></span>
+3.  <span data-ttu-id="7e4d8-110">Cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="7e4d8-110">Click **OK**.</span></span>
 
-## <a name="options-dialog-box-options"></a><span data-ttu-id="cc611-111">Options de la boîte de dialogue Options</span><span class="sxs-lookup"><span data-stu-id="cc611-111">Options dialog box options</span></span>
+## <a name="options-dialog-box-options"></a><span data-ttu-id="7e4d8-111">Options de la boîte de dialogue Options</span><span class="sxs-lookup"><span data-stu-id="7e4d8-111">Options dialog box options</span></span>
 <table>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="cc611-112">Option utilisateur</span><span class="sxs-lookup"><span data-stu-id="cc611-112">User option</span></span></th>
-<th><span data-ttu-id="cc611-113">description ;</span><span class="sxs-lookup"><span data-stu-id="cc611-113">Description</span></span></th>
+<th><span data-ttu-id="7e4d8-112">Option utilisateur</span><span class="sxs-lookup"><span data-stu-id="7e4d8-112">User option</span></span></th>
+<th><span data-ttu-id="7e4d8-113">description ;</span><span class="sxs-lookup"><span data-stu-id="7e4d8-113">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="cc611-114">Au démarrage</span><span class="sxs-lookup"><span data-stu-id="cc611-114">At startup</span></span></td>
-<td><span data-ttu-id="cc611-115">Sélectionnez ce que vous voyez au démarrage du Concepteur de rapports.</span><span class="sxs-lookup"><span data-stu-id="cc611-115">Select what you see when Report Designer starts.</span></span> <span data-ttu-id="cc611-116">Permet de sélectionner l'une des options suivantes :</span><span class="sxs-lookup"><span data-stu-id="cc611-116">Select one of the following options:</span></span>
+<td><span data-ttu-id="7e4d8-114">Au démarrage</span><span class="sxs-lookup"><span data-stu-id="7e4d8-114">At startup</span></span></td>
+<td><span data-ttu-id="7e4d8-115">Sélectionnez ce que vous voyez au démarrage du Concepteur de rapports.</span><span class="sxs-lookup"><span data-stu-id="7e4d8-115">Select what you see when Report Designer starts.</span></span> <span data-ttu-id="7e4d8-116">Permet de sélectionner l'une des options suivantes :</span><span class="sxs-lookup"><span data-stu-id="7e4d8-116">Select one of the following options:</span></span>
 <ul>
-<li><span data-ttu-id="cc611-117"><strong>Charger le dernier rapport chargé</strong> – Permet d'ouvrir l'état consulté en dernier.</span><span class="sxs-lookup"><span data-stu-id="cc611-117"><strong>Load last loaded report</strong> – Open the last report that you viewed.</span></span></li>
-<li><span data-ttu-id="cc611-118"><strong>Afficher la fenêtre active</strong> – Permet d'<strong>ouvrir</strong> la fenêtre.</span><span class="sxs-lookup"><span data-stu-id="cc611-118"><strong>Show Open window</strong> – Open the <strong>Open</strong> window.</span></span> <span data-ttu-id="cc611-119">La fenêtre <strong>active</strong> offre une fenêtre de recherche pour trouver rapidement les blocs élémentaires.</span><span class="sxs-lookup"><span data-stu-id="cc611-119">The <strong>Open</strong> window provides a search window that you can use to quickly find building blocks.</span></span></li>
-<li><span data-ttu-id="cc611-120"><strong>Afficher l’environnement vide</strong> – ouvrez une fenêtre de concepteur vide.</span><span class="sxs-lookup"><span data-stu-id="cc611-120"><strong>Show empty environment</strong> – Open an empty designer window.</span></span></li>
+<li><span data-ttu-id="7e4d8-117"><strong>Charger le dernier rapport chargé</strong> – Permet d'ouvrir l'état consulté en dernier.</span><span class="sxs-lookup"><span data-stu-id="7e4d8-117"><strong>Load last loaded report</strong> – Open the last report that you viewed.</span></span></li>
+<li><span data-ttu-id="7e4d8-118"><strong>Afficher la fenêtre active</strong> – Permet d'<strong>ouvrir</strong> la fenêtre.</span><span class="sxs-lookup"><span data-stu-id="7e4d8-118"><strong>Show Open window</strong> – Open the <strong>Open</strong> window.</span></span> <span data-ttu-id="7e4d8-119">La fenêtre <strong>active</strong> offre une fenêtre de recherche pour trouver rapidement les blocs élémentaires.</span><span class="sxs-lookup"><span data-stu-id="7e4d8-119">The <strong>Open</strong> window provides a search window that you can use to quickly find building blocks.</span></span></li>
+<li><span data-ttu-id="7e4d8-120"><strong>Afficher l’environnement vide</strong> – ouvrez une fenêtre de concepteur vide.</span><span class="sxs-lookup"><span data-stu-id="7e4d8-120"><strong>Show empty environment</strong> – Open an empty designer window.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="cc611-121">Afficher la confirmation avant de quitter le Concepteur de rapports</span><span class="sxs-lookup"><span data-stu-id="cc611-121">Display confirmation before exiting Report Designer</span></span></td>
-<td><span data-ttu-id="cc611-122">Sélectionnez si vous souhaitez recevoir un message d’avertissement lorsque vous quittez l’application.</span><span class="sxs-lookup"><span data-stu-id="cc611-122">Select whether to receive a warning message when you exit the application.</span></span> <span data-ttu-id="cc611-123">Ce message permet de garantir que vous ne quittiez le programme involontairement.</span><span class="sxs-lookup"><span data-stu-id="cc611-123">This message helps guarantee that you don&#39;t exit the program unintentionally.</span></span></td>
+<td><span data-ttu-id="7e4d8-121">Afficher la confirmation avant de quitter le Concepteur de rapports</span><span class="sxs-lookup"><span data-stu-id="7e4d8-121">Display confirmation before exiting Report Designer</span></span></td>
+<td><span data-ttu-id="7e4d8-122">Sélectionnez si vous souhaitez recevoir un message d’avertissement lorsque vous quittez l’application.</span><span class="sxs-lookup"><span data-stu-id="7e4d8-122">Select whether to receive a warning message when you exit the application.</span></span> <span data-ttu-id="7e4d8-123">Ce message permet de garantir que vous ne quittiez le programme involontairement.</span><span class="sxs-lookup"><span data-stu-id="7e4d8-123">This message helps guarantee that you don&#39;t exit the program unintentionally.</span></span></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="cc611-124">Appliquer automatiquement le soulignement de cellule dans les en-têtes de colonne</span><span class="sxs-lookup"><span data-stu-id="cc611-124">Automatically apply cell underline in column headers</span></span></td>
-<td><span data-ttu-id="cc611-125">Permet d'insérer un soulignement dans la cellule d'une nouvelle en-tête de colonne.</span><span class="sxs-lookup"><span data-stu-id="cc611-125">Select whether to insert an underline in the cell of a new column header.</span></span></td>
+<td><span data-ttu-id="7e4d8-124">Appliquer automatiquement le soulignement de cellule dans les en-têtes de colonne</span><span class="sxs-lookup"><span data-stu-id="7e4d8-124">Automatically apply cell underline in column headers</span></span></td>
+<td><span data-ttu-id="7e4d8-125">Permet d'insérer un soulignement dans la cellule d'une nouvelle en-tête de colonne.</span><span class="sxs-lookup"><span data-stu-id="7e4d8-125">Select whether to insert an underline in the cell of a new column header.</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="cc611-126">Emplacement des fichiers Management Reporter</span><span class="sxs-lookup"><span data-stu-id="cc611-126">Management Reporter files location</span></span></td>
-<td><span data-ttu-id="cc611-127">Permet de préciser l'emplacement par défaut des fichiers.</span><span class="sxs-lookup"><span data-stu-id="cc611-127">Specify the default location for files.</span></span> <span data-ttu-id="cc611-128">L’application utilise l’emplacement par défaut lors de l’exportation de groupes de blocs élémentaires.</span><span class="sxs-lookup"><span data-stu-id="cc611-128">The application uses the default location when you export building block groups.</span></span></td>
+<td><span data-ttu-id="7e4d8-126">Emplacement des fichiers Management Reporter</span><span class="sxs-lookup"><span data-stu-id="7e4d8-126">Management Reporter files location</span></span></td>
+<td><span data-ttu-id="7e4d8-127">Permet de préciser l'emplacement par défaut des fichiers.</span><span class="sxs-lookup"><span data-stu-id="7e4d8-127">Specify the default location for files.</span></span> <span data-ttu-id="7e4d8-128">L’application utilise l’emplacement par défaut lors de l’exportation de groupes de blocs élémentaires.</span><span class="sxs-lookup"><span data-stu-id="7e4d8-128">The application uses the default location when you export building block groups.</span></span></td>
 </tr>
 </tbody>
 </table>
 
 
 
-<a name="additional-resources"></a><span data-ttu-id="cc611-129">Ressources supplémentaires</span><span class="sxs-lookup"><span data-stu-id="cc611-129">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="7e4d8-129">Ressources supplémentaires</span><span class="sxs-lookup"><span data-stu-id="7e4d8-129">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="cc611-130">États financiers</span><span class="sxs-lookup"><span data-stu-id="cc611-130">Financial reporting</span></span>](financial-reporting-intro.md)
+[<span data-ttu-id="7e4d8-130">États financiers</span><span class="sxs-lookup"><span data-stu-id="7e4d8-130">Financial reporting</span></span>](financial-reporting-intro.md)
 
 
 
