@@ -1,5 +1,5 @@
 --- 
-title: "Ajouter à votre journal de performances et envoyer l'éloge à une personne"
+title: "Ajouter des informations à votre journal de performances et envoyer l'éloge"
 description: "Le journal des performance contient des informations relatives à la réalisation de vos objectifs ou à vos performances pendant une période."
 author: ShielaSogge
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9b898a5ab5ad2837ef1d9ef8ebf88aaa05f56b3a
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 92cbb25839b8f202ba37a19ad88a54194a73c179
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>Ajouter à votre journal de performances et envoyer l'éloge à une personne
+# <a name="add-information-to-your-performance-journal-and-send-praise"></a>Ajouter des informations à votre journal de performances et envoyer l'éloge
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

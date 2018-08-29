@@ -1,5 +1,5 @@
 ---
-title: "Configurer une étape d'approbation dans un workflow"
+title: "Configurer des étapes d'approbation dans un workflow"
 description: "Cette rubrique explique comment configurer les propriétés d'une étape d'approbation."
 author: sericks007
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b403a6f01a6c7ba95c2dd1cfd3bae8e58f0c6879
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 813866d63f38f5865666bad96f6f3590716a93ad
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="configure-an-approval-step-in-a-workflow"></a>Configurer une étape d'approbation dans un workflow
+# <a name="configure-approval-steps-in-a-workflow"></a>Configurer des étapes d'approbation dans un workflow
 
 [!include [banner](../includes/banner.md)]
 

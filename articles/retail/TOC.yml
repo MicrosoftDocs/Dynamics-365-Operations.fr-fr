@@ -4,7 +4,7 @@
   items:
     - name: Nouveautés ou changements
       href: get-started/whats-new.md
-    - name: "Avant d'acheter Dynamics\_365 for Retail"
+    - name: Avant d'acheter Retail
       href: get-started/before-you-buy.md
     - name: Souscrire un abonnement d'aperçu
       href: ../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/retail/toc.json
@@ -12,13 +12,44 @@
       href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/retail/toc.json
     - name: Options de déploiement
       href: dev-itpro/choose-deployment.md
+- name: Inclure le cycle de vie de l'implémentation
+  href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
+  items:
+    - name: "Microsoft FastTrack for Dynamics\_365"
+      href: ../fin-and-ops/get-started/fasttrack-dynamics-365-overview.md
+    - name: Intégration
+      href: ../fin-and-ops/imp-lifecycle/onboard.md
+    - name: Préparation au lancement
+      href: ../fin-and-ops/imp-lifecycle/prepare-go-live.md
+    - name: FAQ sur le lancement
+      href: ../fin-and-ops/imp-lifecycle/go-live-faq.md
+    - name: Soumission d'une demande de service
+      href: ../dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/fin-and-ops/toc.json
+    - name: 'FAQ sur les abonnements, les projets LCS et les locataires Azure Active Directory'
+      href: ../fin-and-ops/get-started/subscription-overview.md
+    - name: Déplacer les environnements entre les centres de données
+      href: ../fin-and-ops/get-started/move-environments-data-center.md
+    - name: Déplacer les licences entre les types de contrat
+      href: ../fin-and-ops/get-started/move-licenses-between-agreement-types.md
+    - name: Déplacer un projet de mise en œuvre LCS vers un autre locataire Azure Active Directory
+      href: ../fin-and-ops/get-started/move-lcs-implementation-project-tenant.md
+    - name: "Mettre en œuvre\_plusieurs projets LCS et plusieurs environnements de production sur le même locataire Azure Active Directory"
+      href: ../fin-and-ops/get-started/implement-multiple-projects-aad-tenant.md
+    - name: Mettre en œuvre des projets Retail dans Finance and Operations
+      href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
+    - name: 'Paramétrer de nouveaux environnements, VSTS et branches pour les projets Retail'
+      href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
+    - name: Mettre à jour le code et les environnements pour les projets Retail
+      href: dev-itpro/updating-environments.md
+    - name: Problèmes de test et de performances
+      href: dev-itpro/retail-implementation-testing-performance.md
 - name: Paiements
   items:
     - name: Modes de paiement
       href: payment-methods.md
     - name: 'Paramétrage, autorisation et capture de carte de crédit'
       href: ../financials/accounts-receivable/credit-card-authorizations.md
-    - name: Configurer les modes de paiement pour le POS
+    - name: Configurer les dénominations des espèces pour POS
       href: cash-denominations.md
     - name: FAQ Paiements
       href: dev-itpro/payments-retail.md
@@ -36,21 +67,21 @@
       href: ../supply-chain/procurement/purchase-order-mobile-workspace.md
 - name: Relevés
   items:
-    - name: Vue d'ensemble des relevés de vente au détail
+    - name: Relevés de vente au détail
       href: retail-statements.md
-    - name: 'Créer, calculer et valider un relevé pour un magasin de vente au détail'
+    - name: 'Créer, calculer et valider des relevés pour un magasin de vente au détail'
       href: tasks/create-calculate-post-statement-retail-store.md
-    - name: Améliorations de la validation du relevé
+    - name: Améliorations de la fonctionnalité de validation du relevé
       href: statement-posting-EOD.md
-    - name: Configurations de paramètres pour des relevés de vente au détail
+    - name: Configurer les paramètres Retail qui affectent les relevés de la vente au détail
       href: tasks/parameter-configurations-retail-statements.md
-    - name: Configurations de paiements pour les relevés de vente au détail
+    - name: Configurer les paramètres du mode de paiement qui affectent les relevés de la vente au détail
       href: tasks/payment-configurations-retail-statements.md
     - name: Configurer et exécuter une tâche de calcul des déclarations
       href: tasks/run-job-calculate-statements.md
     - name: Configurer et exécuter une tâche de validation des relevés
       href: tasks/run-job-post-statements.md
-    - name: Enregistrer les configurations pour les relevés de vente au détail
+    - name: Configurer les paramètres du magasin qui affectent les relevés de la vente au détail
       href: tasks/store-configurations-retail-statements.md
 - name: Taxe
   items:
@@ -64,7 +95,7 @@
       href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
 - name: Centre d'appels
   items:
-    - name: Vue d'ensemble du centre d'appels
+    - name: Fonctionnalité de vente du centre d'appels
       href: call-center-functionality.md
     - name: Catalogues de centre d'appels
       href: call-center-catalogs.md
@@ -72,55 +103,55 @@
       href: create-call-center-catalogs.md
     - name: Configurer les modes de livraison et les frais
       href: configure-call-center-delivery.md
-    - name: Paramétrer les alertes de fraude
+    - name: Paramétrer et utiliser les alertes pour fraude
       href: set-up-fraud-alerts.md
-    - name: Configurer un centre d'appels
+    - name: Paramétrer des canaux de centre d'appels
       href: set-up-order-processing-options.md
-    - name: Paramétrer un programme de continuité pour un centre d'appels
+    - name: Paramétrer des programmes périodiques pour les centres d'appels
       href: set-up-continuity-program.md
-    - name: Blocages des commandes du centre d'appels
+    - name: Configurer et utiliser les blocages de commande dans le centre d'appels
       href: work-with-order-holds.md
-    - name: Options de paiement
+    - name: Modes de paiement
       href: work-with-payments.md
-- name: Paramétrage et gestion du canal
+- name: Paramétrage et gestion de canal
   items:
-    - name: Initialiser les données d'origine dans un environnement Retail
+    - name: Initialiser les données d'origine dans de nouveaux environnement Retail
       href: enable-configure-retail-functionality.md
-    - name: Définir les canaux de vente au détail
+    - name: Définir et tenir à jour les canaux de vente au détail
       href: define-maintain-retail-channels.md
     - name: Gestion des assortiments
       href: assortments.md
-    - name: Vue d'ensemble du magasin en ligne
+    - name: Paramétrer des magasins en ligne
       href: online-stores.md
     - name: Configuration et installation d'une Retail hardware station
       href: retail-hardware-station-configuration-installation.md
-    - name: Pointage et présence - Retail
+    - name: Pointage et présence dans Retail
       href: retail-time-attendance.md
 - name: Modern Point of Sale (MPOS) et Cloud POS
   items:
-    - name: Choix entre Modern POS et Cloud POS
+    - name: Choix entre MPOS et Cloud POS
       href: MPOS-or-CPOS.md
-    - name: 'Opérations PDV, en ligne et hors connexion'
+    - name: Opérations POS en ligne et hors connexion
       href: pos-operations.md
-    - name: Mises en page de l'écran de données de démonstration dans MPOS/CPOS
+    - name: Mises en page de l'écran de données de démonstration dans MPOS et Cloud POS
       href: demo-data.md
-    - name: Vue d'ensemble de la recherche de produits et de clients dans un point de vente
+    - name: Recherche de produits et de clients dans POS
       href: POS-search-improvements.md
-    - name: Recherche de stock dans le point de vente
+    - name: Recherche de stock dans POS
       href: product-variants-POS.md
     - name: Périphériques matériels
       items:
-        - name: Vue d'ensemble des périphériques Retail
+        - name: Périphériques de vente au détail
           href: retail-peripherals-overview.md
         - name: Périphériques matériels de POS testés par Microsoft
           href: microsoft-tested-pos-hardware-peripherals.md
-        - name: Simulateur périphérique pour la vente au détail
+        - name: Simulateur de périphérique de vente au détail
           href: dev-itpro/retail-peripheral-simulator.md
-        - name: 'Définir et tenir à jour les clients de canal, y compris les caisses enregistreuses et les stations matérielles'
+        - name: Connecter des périphériques au POS
           href: define-maintain-channel-clients-registers-hw-stations.md
-    - name: Mise en page de l'écran
+    - name: Mises en page de l'écran
       items:
-        - name: Configurer les mises en page d'écran pour le POS
+        - name: Mises en page d'écran pour le POS
           href: pos-screen-layouts.md
         - name: Installer le concepteur de mise en page de Retail POS
           href: install-pos-layout-designer.md
@@ -128,17 +159,17 @@
           href: Notifications-POS.md
         - name: Paramètres de langue et d'utilisateur de POS
           href: pos-application-user-language-settings.md
-        - name: Définir des images pour MPOS
+        - name: Paramétrer et gérer des images pour MPOS
           href: set-up-manage-images-retail-mpos.md
-    - name: Vue d'ensemble des codes d'informations
+    - name: Codes info et groupes de codes info
       href: info-codes-retail.md
-    - name: Améliorations apportées aux PDV pour les produits sérialisés
+    - name: Améliorations du POS pour les produits sérialisés
       href: serialized-inventory.md
     - name: Recommandations produit
       items:
-        - name: Vue d'ensemble des recommandations produit personnalisées
+        - name: Recommandations de produit personnalisées
           href: personalized-product-recommendations.md
-        - name: Ajouter un contrôle de recommandations sur un périphérique POS
+        - name: Ajouter un contrôle de recommandations sur des périphérique POS
           href: add-recommendations-control-pos-screen.md
     - name: Fonctionnalité de POS hors connexion
       href: pos-offline-functionality.md
@@ -146,7 +177,7 @@
       href: shift-drawer-management.md
     - name: Commandes client
       items:
-        - name: Vue d'ensemble des commandes client
+        - name: Commandes client dans MPOS
           href: customer-orders-overview.md
         - name: Commandes client hybrides
           href: hybrid-customer-orders.md
@@ -154,31 +185,31 @@
       items:
         - name: Suivre les commissions dans POS avec des groupes de ventes
           href: pos-sales-groups-track-commissions.md
-    - name: Expédier une commande à partir d'un autre magasin
+    - name: Expédier des commandes à partir d'un autre magasin
       href: charge-send.md
     - name: Activation du périphérique
       items:
-        - name: Configurer et installer MPOS
+        - name: 'Configurer, installer et activer MPOS'
           href: retail-modern-pos-device-activation.md
-        - name: Paramétrer une connexion étendue pour le Cloud POS et MPOS
+        - name: Paramétrer une fonctionnalité de connexion étendue pour MPOS et Cloud POS
           href: extended-logon.md
-        - name: Gérer les comptes et les périphériques Retail depuis le siège
+        - name: Gérer les comptes d'activation Retail et valider les périphériques
           href: set-up-activation-accounts-validate-devices-hq.md
     - name: Réceptions
       items:
-        - name: Paramétrer des modèles de réception
+        - name: Paramétrer et créer des formats de réception
           href: receipt-templates-printing.md
         - name: Envoyer des reçus de caisse par e-mail depuis MPOS
           href: email-receipts.md
-    - name: Enregistreur de tâches et aide de POS
+    - name: Enregistreur de tâches et aide pour MPOS et Cloud POS
       href: task-recorder-retail-pos.md
-- name: Exécution de l'ordre
+- name: Exécution des commandes
   items:
-    - name: Vue d'ensemble de l'exécution des commandes de réapprovisionnement
+    - name: Exécution des commandes en magasin
       href: Order-fulfillment-overview.md
-    - name: Paramétrer l'exécution dans le magasin
+    - name: Paramétrer l'exécution des commandes pour les magasins
       href: Order-fulfillment-POS-setup.md
-    - name: Activer les notifications dans le point de vente
+    - name: Afficher les notifications de commande dans POS
       href: Notifications-POS.md
 - name: Surveillance et analyse
   items:
@@ -192,11 +223,11 @@
       href: assess-customer-product-profitability.md
     - name: Analyse des performances de magasin
       href: store-performance-information.md
-    - name: Paramétrer l'analyse RFM
+    - name: 'Paramétrer l''analyse RFM (récence, fréquence et valeur monétaire)'
       href: set-up-rfm-analysis.md
 - name: Remises et ajustements de prix
   items:
-    - name: Gestion des prix de vente au détail
+    - name: Gestion des prix de vente Retail
       href: price-management.md
     - name: Ajustements de prix et remises
       href: price-adjustments-discounts.md
@@ -204,9 +235,9 @@
       href: optimal-combination-overlapping-discounts.md
     - name: Définir les remises spécifiques à un canal
       href: define-channel-specific-discounts.md
-    - name: Empêcher les remises pour les produits vendus au détail
+    - name: Options pour empêcher les remises pour les produits vendus au détail
       href: prevent-discounts.md
-    - name: Créer des coupons pour les ventes au détail
+    - name: Paramétrer des coupons pour les ventes au détail
       href: retail-coupons.md
 - name: Produits et merchandising
   items:
@@ -214,13 +245,13 @@
       href: ../supply-chain/pim/product-information.md
     - name: Hiérarchies des ventes au détail
       href: retail-hierarchies.md
-    - name: Vue d'ensemble des attributs et des groupes d'attributs
+    - name: Attributs et groupes d'attributs
       href: attribute-attributegroups-lifecycle.md
     - name: Création et gestion des attributs
       href: create-manage-attributes.md
     - name: Paramétrer les produits vendus au détail
       href: set-up-retail-products.md
-    - name: Gestion améliorée des catégories et des produits
+    - name: Gérer les catégories de produits et les produits Retail
       href: category-management-product-creation.md
     - name: Dimensions de produit
       href: ../supply-chain/pim/product-dimensions.md
@@ -230,7 +261,7 @@
       href: set-up-bar-code-masks.md
     - name: Paramétrage d'assortiments
       href: set-up-assortments.md
-    - name: Vente et retour de produits en dehors d'un assortiment
+    - name: Vendre et retourner des produits non inclus dans l'assortiment d'un magasin
       href: sell-return-outside-assortments.md
     - name: Paramètres de commande par défaut pour les dimensions et les variantes de produits
       href: ../supply-chain/production-control/default-order-settings.md
@@ -238,11 +269,11 @@
       href: ../supply-chain/pim/search-products-product-variants.md
 - name: Fidélité
   items:
-    - name: Définition d'un programme de fidélisation des clients
+    - name: Définition de programmes de fidélisation des clients
       href: set-up-customer-loyalty-program.md
 - name: Stock
   items:
-    - name: Gérer le stock de magasin
+    - name: Gestion des stocks du magasin
       href: work-with-store-inventory.md
     - name: Numéros de série de la caisse enregistreuse dans le processus de vente
       href: ../supply-chain/sales-marketing/register-serial-numbers-sales-process.md
@@ -276,25 +307,25 @@
   items:
     - name: France
       items:
-        - name: Caisses enregistreuses pour la France
+        - name: Fonctionnalité de la caisse enregistreuse
           href: localizations/emea-fra-cash-registers.md
-        - name: Instructions de déploiement de caisses enregistreuses pour la France
+        - name: Instructions de déploiement de caisses enregistreuses
           href: localizations/emea-fra-deployment.md
     - name: Inde
       items:
-        - name: Intégration GST des caisses enregistreuses
+        - name: Intégration de la taxe sur les Produits et Services pour les caisses enregistreuses
           href: localizations/apac-ind-cash-registers.md
-        - name: Instructions de déploiement de caisses enregistreuses en Inde
+        - name: Instructions de déploiement de caisses enregistreuses
           href: localizations/apac-ind-loc-deployment-guidelines.md
     - name: Norvège
       items:
-        - name: Caisses enregistreuses pour la Norvège
+        - name: Fonctionnalité de la caisse enregistreuse
           href: localizations/emea-nor-cash-registers.md
-        - name: Instructions de déploiement de caisses enregistreuses en Norvège
+        - name: Instructions de déploiement de caisses enregistreuses
           href: localizations/emea-nor-loc-deployment-guidelines.md
     - name: Suède
       items:
-        - name: Caisses enregistreuses pour la Suède
+        - name: Fonctionnalité de la caisse enregistreuse
           href: localizations/emea-swe-cash-registers.md
         - name: Exemple pour l'intégration de Retail POS avec des unités de contrôle
           href: dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md
@@ -306,21 +337,21 @@
       href: ../supply-chain/pim/tasks/configure-linked-products.md
     - name: Lancer un produit/produit générique à destination des entités juridiques
       href: ../supply-chain/pim/tasks/release-product-product-master-legal-entities.md
-    - name: Prix de base et accords commerciaux
+    - name: Créer des accords commerciaux spécifiques au canal
       href: tasks/base-price-trade-agreements.md
-    - name: Règles de tarification de catégorie en vue de créer des accords commerciaux
+    - name: Créer des accords commerciaux à l'aide de règles de tarification de catégorie
       href: tasks/category-pricing-rules-trade-agreements.md
     - name: Configurer le traitement de carte de crédit
       href: tasks/configure-credit-card-processing.md
-    - name: Configurer le profil de fonctionnalité pour un commercial
+    - name: Configurer les profils de fonctionnalité des commerciaux
       href: tasks/configure-functionality-profile-sales-representative.md
     - name: Configurer des recommandations de produit exécutées par Machine Learning
       href: tasks/configure-machine-learning-product-recommendations.md
-    - name: ' Créer et associer un périphérique'
+    - name: Créer des appareils et les associer à des caisses enregistreuses
       href: tasks/create-associate-device.md
-    - name: Créer et associer une station matérielle
+    - name: Créer des stations matérielles
       href: tasks/create-associate-hardware-station.md
-    - name: Créer et associer des caisses enregistreuses
+    - name: Créer des caisses enregistreuses POS
       href: tasks/create-associate-registers.md
     - name: Créer des commandes de centre d'appels
       href: tasks/create-call-center-orders.md
@@ -332,11 +363,11 @@
       href: tasks/create-online-channel-define-channel-attributes.md
     - name: Créer des groupes d'autorisations POS
       href: tasks/create-pos-permission-groups.md
-    - name: 'Créer un profil visuel POS  '
+    - name: Créer des profils visuels POS
       href: tasks/create-pos-visual-profile-2016-02.md
     - name: Créer des modules de produit pour les commandes fournisseur
       href: tasks/create-product-packages-purchase-orders.md
-    - name: Définir un canal de centre d'appels et les attributs du canal
+    - name: Créer des canaux de centre d'appels et définir les attributs de canal
       href: tasks/define-call-center-channel-channel-attributes.md
     - name: Définir les attributs de canal
       href: tasks/define-channel-attributes.md
@@ -352,40 +383,40 @@
       href: tasks/design-relationships-between-organizational-units.md
     - name: Gérer les assortiments
       href: tasks/manage-assortments-2016-11.md
-    - name: Assurer le libre service pour télécharger une station matérielle
+    - name: Télécharger des stations matérielles à l'aide du libre service
       href: tasks/perform-self-service-download-hardware-station.md
     - name: Valider les ventes et les paiements en ligne
       href: tasks/posting-online-sales-payments.md
-    - name: Traiter les ajustements de points de récompense de fidélité
+    - name: Traiter les ajustements des points de récompense de fidélité
       href: tasks/process-loyalty-reward-point-adjustments.md
-    - name: Envoyer des produits du centre de distribution au magasin à l'aide de la procédure de réassort magasin
+    - name: Envoyer des produits des centres de distribution aux magasins via la procédure de réassort magasin
       href: tasks/push-products-distribution-center-store-buyers-push.md
-    - name: Ajustements de prix de la vente au détail
+    - name: Créer des ajustements de prix de la vente au détail
       href: tasks/retail-price-adjustments.md
     - name: Générer et exécuter les états prêts à l'emploi
       href: tasks/run-out-box-reports.md
     - name: Paramétrer les règles et les paramètres pour le cross-docking et le réassort magasin
       href: tasks/set-up-rules-parameters-cross-docking-buyers-push.md
-    - name: Utiliser un programme de continuité
+    - name: Vente de programmes périodiques et traitement des commandes client
       href: tasks/use-continuity-program.md
-    - name: Configurer un collaborateur
+    - name: Configurer des collaborateurs pour la vente au détail
       href: tasks/worker.md
 - name: Développement et administration de la vente au détail
   href: dev-itpro/dev-retail-home-page.md
   items:
     - name: Architecture
       items:
-        - name: "Composants de Microsoft Dynamics\_365 for Finance and Operations - Retail"
+        - name: Composants Retail
           href: retail-components.md
         - name: Architecture de Retail Server
           href: dev-itpro/retail-server-architecture.md
-        - name: Communications du canal de vente au détail
+        - name: Commerce Data Exchange et communications du canal de vente au détail
           href: dev-itpro/define-retail-channel-communications-cdx.md
-        - name: Architecture MPOS
+        - name: Architecture de Retail Modern POS
           href: dev-itpro/retail-modern-pos-architecture.md
         - name: Architecture de publication de magasin en ligne Retail
           href: dev-itpro/retail-online-store-publishing-architecture.md
-        - name: Contenu Power BI des performances du canal de vente au détail
+        - name: Contenu Retail Channel Performance Power BI
           href: ../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/retail/toc.json
         - name: Certification PA-DSS (Payment Application Data Security Standards)
           href: dev-itpro/PA-DSS-Certification.md
@@ -393,9 +424,9 @@
           href: retail-onprem.md
     - name: Déploiement et correctifs
       items:
-        - name: Vue d'ensemble de Retail Store Scale Unit
+        - name: Retail Store Scale Unit
           href: dev-itpro/retail-store-system-begin.md
-        - name: Configuration et installation de Retail Store Scale Unit
+        - name: Configurer et installer Retail Store Scale Unit
           href: dev-itpro/retail-store-scale-unit-configuration-installation.md
         - name: Configuration et installation de Retail Modern POS
           href: retail-modern-pos-device-activation.md
@@ -403,7 +434,7 @@
           href: set-up-activation-accounts-validate-devices-hq.md
         - name: Activation de périphérique Retail POS
           href: dev-itpro/retail-device-activation.md
-        - name: Sécuriser le Cloud POS de vente au détail
+        - name: Aide à sécuriser Cloud POS dans les environnements partagés
           href: dev-itpro/secure-retail-cloud-pos.md
         - name: Installation et configuration de Retail Hardware Station
           href: retail-hardware-station-configuration-installation.md
@@ -415,9 +446,9 @@
           href: ../dev-itpro/deployment/apply-deployable-package-system.md?toc=/retail/toc.json
     - name: Mise à niveau et assistance N-1
       items:
-        - name: Vue d'ensemble des mises à niveau et prise en charge N-1
+        - name: Mise à niveau et prise en charge N-1 pour Retail
           href: dev-itpro/overview-upgrade-n-minus1.md
-        - name: Installer des composants N-1
+        - name: 'Installation, configuration et basculement du déploiement échelonné (N-1)'
           href: dev-itpro/n-1-installation-configuration.md
     - name: Conseils de mise en œuvre
       items:
@@ -437,117 +468,119 @@
           href: pos-screen-layouts.md
         - name: Installer le concepteur de mise en page POS
           href: install-pos-layout-designer.md
-        - name: Configurer MPOS pour le mode hors connexion
+        - name: Retail Modern POS en mode hors connexion
           href: dev-itpro/retail-modern-pos-offline.md
         - name: Étendre le mode d'affichage de POS Dual
           href: dev-itpro/pos-dual-display-extension.md
-        - name: Extensibilité du déclencheur MPOS et Cloud POS
+        - name: Extensibilité du déclencheur de Retail Modern POS et Cloud POS
           href: dev-itpro/modern-pos-trigger-extensibility.md
-        - name: Ajouter un contrôle personnalisé à une vue POS
+        - name: Ajouter des contrôles personnalisés à des vues POS
           href: dev-itpro/pos-custom-control.md
-        - name: Ajouter une nouvelle opération POS à la mise en page POS
+        - name: Ajouter des opérations POS aux mises en page POS à l'aide du concepteur de groupe de boutons
           href: dev-itpro/add-POS-operations.md
         - name: Extension de paiement POS
           href: dev-itpro/pos-payment-extension.md
-        - name: Prise en charge de carte cadeau externe
+        - name: Prise en charge des cartes cadeaux externes
           href: dev-itpro/gift-card.md
-        - name: Créer une application Retail Experience
+        - name: Créer et appliquer la stratégie de marque à l'application Retail Experience
           href: dev-itpro/create-retail-experience-app.md
-    - name: Vue d'ensemble et extensibilité de station matérielle
+    - name: Station matérielle et extensibilité
       href: dev-itpro/hardware-station-extensibility.md
-    - name: Extensibilité du serveur Retail
+    - name: Extensibilité de Retail Server
       items:
         - name: Étendre un contrôleur Retail Server OData
           href: dev-itpro/extend-retail-server-odata-controller.md
-        - name: Contrôleurs d'API web et OData
+        - name: Créer un contrôleur API Web pour Retail Server
           href: dev-itpro/odata-controllers-api.md
         - name: API client et consommateur de Retail Server
           href: dev-itpro/retail-server-customer-consumer-api.md
-        - name: Étendre les métadonnées
+        - name: Étendre le contrôleur de métadonnées Retail Server par défaut
           href: dev-itpro/extend-metadata.md
-        - name: Étendre le runtime de commerce pour prendre en charge le mode hors connexion du POS
+        - name: Appeler le service CRT en mode hors connexion
           href: dev-itpro/call-crt-service-offline.md
-    - name: Extensibilité du runtime de commerce
+    - name: Extensibilité de Commerce runtime (CRT)
       items:
-        - name: Vue d'ensemble du runtime de commerce
+        - name: Architecture et configuration de CRT
           href: dev-itpro/commerce-runtime-overview.md
-        - name: Services du runtime de commerce
+        - name: Services CRT
           href: dev-itpro/crt-services.md
-        - name: Extensibilité du runtime de commerce et de Retail Server
+        - name: Extensibilité de CRT et de Retail Server
           href: dev-itpro/commerce-runtime-extensibility.md
-        - name: Ajouter les données de préférence des clients à une base de données de canal
+        - name: Ajouter les données de préférence des clients aux bases de données de canal
           href: dev-itpro/add-customer-preference-channel.md
-        - name: Ajouter des propriétés à une commande client
+        - name: Ajouter des propriétés aux commandes client
           href: dev-itpro/add-properties-sales-order.md
-        - name: Extensibilité et déclencheurs du runtime de commerce
+        - name: Extensibilité et déclencheurs CRT
           href: dev-itpro/commerce-runtime-extensibility-trigger.md
-        - name: "Exemple de déclencheur\_: blocage d'une transaction"
+        - name: Bloquer les transactions à l'aide de déclencheurs
           href: dev-itpro/trigger-example-blocking-transaction.md
-        - name: "Exemple de déclencheur\_: Stratégie de retour"
+        - name: Mettre en œuvre une stratégie de retour à l'aide de déclencheurs
           href: dev-itpro/trigger-example-return-policy.md
     - name: Extensibilité du e-Commerce
       items:
-        - name: Configurer un magasin en ligne
+        - name: Configurer les magasins en ligne
           href: dev-itpro/configure-online-store.md
         - name: Configurer les fournisseurs d'authentification
           href: dev-itpro/configure-authentication-providers.md
         - name: Plateforme de e-Commerce
           href: dev-itpro/ecommerce-platform.md
-        - name: SDK de plateforme de e-Commerce
+        - name: SDK de la plateforme de e-Commerce
           href: dev-itpro/ecommerce-platform-sdk.md
     - name: Extensibilité du connecteur de paiement
       items:
-        - name: Intégration de paiement avec un terminal de paiement
+        - name: Créer une intégration du paiement pour un terminal de paiement
           href: dev-itpro/end-to-end-payment-extension.md
         - name: Implémentation d'un connecteur de paiement et d'un périphérique de paiement (livre blanc)
           href: 'http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx'
-        - name: Déployer un connecteur de paiement
+        - name: Déployer des connecteurs de paiement
           href: dev-itpro/deploy-payment-connector.md
-        - name: Créer un programme d'installation Windows pour un connecteur de paiement
+        - name: Créer des messages d'erreur localisés personnalisés pour les extensions du terminal de paiement
+          href: dev-itpro/payment-custom-error-messages.md
+        - name: Créer des programmes d'installation Windows pour des connecteurs de paiement
           href: dev-itpro/create-windows-installer-payment-connector.md
-    - name: Retail SDK
+    - name: Kit de développement logiciel (SDK) Retail
       href: dev-itpro/retail-sdk/retail-sdk-overview.md
       items:
-        - name: Intégrer le kit Retail SDK dans le système d'élaboration continue
+        - name: Fusionner les systèmes de génération pour Retail et Finance and Operations
           href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
         - name: Exemples d'extensibilité du kit Retail SDK
           href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
-        - name: Package du kit Retail SDK
+        - name: Créer des packages déployables pour la vente au détail
           href: dev-itpro/retail-sdk/retail-sdk-packaging.md
-        - name: 'Exemples du kit Retail SDK '
+        - name: Exemples du kit Retail SDK
           href: dev-itpro/retail-sdk/retail-sdk-samples.md
           items:
             - name: Points d'extension pour les bons de livraison
               href: dev-itpro/extensions-shipping-carrier-integration.md
         - name: Extensions de la base de données de canal
           href: dev-itpro/channel-db-extensions.md
-        - name: Extensibilité CDX
+        - name: Activer la synchronisation CDX personnalisée via une extension
           href: dev-itpro/cdx-extensibility.md
-        - name: Ajouter des champs personnalisés au volet POS
+        - name: Ajouter des champs personnalisés au volet Totaux de POS
           href: dev-itpro/custom-field-pos-totals.md
-        - name: Attributs de commande
+        - name: Définir les attributs de commande
           href: dev-itpro/order-attributes.md
         - name: Attributs du client
           href: dev-itpro/customer-attributes.md
-        - name: 'Retail Typescript et C# proxy'
+        - name: 'Proxys Typescript et C# pour Retail'
           href: dev-itpro/typescript-proxy-retail-pos.md
-        - name: Exécuter des exemples de Retail POS
+        - name: Exécuter les exemples de Retail POS
           href: dev-itpro/pos-run-samples.md
-        - name: Étendre des vues POS existantes pour ajouter des colonnes personnalisées et des boutons à la barre d'application
+        - name: Étendre les vues POS pour ajouter des colonnes personnalisées et des boutons à la barre d'application
           href: dev-itpro/pos-view-extension.md
         - name: Ajouter des contrôles personnalisés aux pages de transaction Retail Modern POS
           href: dev-itpro/pos-custom-transaction.md
         - name: Ajouter des colonnes personnalisées à des grilles de transaction POS
           href: dev-itpro/pos-custom-transaction-column.md
-        - name: Appeler une API ou une opération POS à partir d'une extension POS
+        - name: Appeler les API ou les opérations POS à partir des extensions POS
           href: dev-itpro/pos-api-extension.md
         - name: Déclencheurs et impression de Retail Modern POS
           href: dev-itpro/pos-trigger-printing.md
-        - name: Ajouter un contrôle personnalisé à une vue de concepteur Retail Modern POS
+        - name: Ajouter des contrôles personnalisés aux vues POS basées sur un concepteur hors écran
           href: dev-itpro/pos-control-non-screen.md
-        - name: Étapes de configuration pour les développeurs Retail travaillant dans les zones de développement hébergées dans le cloud
+        - name: Développement dans les environnements de développement hébergés dans le cloud sans accès administrateur
           href: dev-itpro/cloud-dev-box.md
-    - name: Runtime de commerce
+    - name: Commerce runtime
       items:
         - name: Extension de fidélité
           href: dev-itpro/retail-sdk/loyalty-extension-sample.md

@@ -1,5 +1,5 @@
 ---
-title: Vue d'ensemble du workflow
+title: "Système de workflow"
 description: "Cette rubrique décrit le système de workflow dans Microsoft Dynamics 365 for Finance and Operations."
 author: sericks007
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6622f0e5ed6c38bb8131d13aa02061968862678b
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 770796b42e79ad616b469e1dbf5149789bff0788
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="workflow-overview"></a>Vue d'ensemble du workflow
+# <a name="workflow-system"></a>Système de workflow
 
 [!include [banner](../includes/banner.md)]
 

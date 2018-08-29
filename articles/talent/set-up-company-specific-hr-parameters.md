@@ -1,5 +1,5 @@
 ---
-title: "Définition des paramètres de RH spécifiques à la société"
+title: "Configurer des paramètres de ressources humaines (RH) spécifiques à la société"
 description: "Les réglages de certains paramètres des Ressources humaines (RH) sont partagés entre des sociétés, alors que les réglages d'autres paramètres sont spécifiques à la société. Cet article décrit comment définir les paramètres RH spécifiques à la société."
 author: rschloma
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: e195f9976465a933ceaaeb0bd2cbec4f814bc5f8
+ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.openlocfilehash: f7ecd72a2a6ba4ba15e412e40508462f6ef0d218
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="set-up-company-specific-hr-parameters"></a>Définition des paramètres de RH spécifiques à la société
+# <a name="set-up-company-specific-human-resources-hr-parameters"></a>Configurer des paramètres de ressources humaines (RH) spécifiques à la société
 
 [!include [banner](includes/banner.md)]
 

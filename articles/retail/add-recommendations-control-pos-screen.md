@@ -1,5 +1,5 @@
 ---
-title: "Ajouter un contrôle de recommandations à la page de transaction sur un périphérique de PDV"
+title: "Ajouter un contrôle de recommandations à l'écran de transaction sur des périphériques de PDV"
 description: "Cette rubrique décrit comment ajouter un contrôle de recommandations à l'écran de transaction sur un périphérique de point de vente (PDV) à l'aide du concepteur de mise en page de l'écran dans Microsoft Dynamics 365 for Retail."
 author: ashishmsft
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: eac70614770189d1e45f347b282c94e645e95b00
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 26b03b6712c97b12e1221598de308813c7986179
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="add-a-recommendations-control-to-the-transaction-page-on-a-pos-device"></a>Ajouter un contrôle de recommandations à la page de transaction sur un périphérique de PDV
+# <a name="add-a-recommendations-control-to-the-transaction-screen-on-pos-devices"></a>Ajouter un contrôle de recommandations à l'écran de transaction sur des périphériques de PDV
 
 [!include [banner](includes/banner.md)]
 

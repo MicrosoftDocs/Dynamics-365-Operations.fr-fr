@@ -1,5 +1,5 @@
 ---
-title: "Vue d'ensemble de la signature électronique"
+title: "Signatures électroniques"
 description: "Cet article fournit une vue d'ensemble des signatures électroniques et décrit leur utilisation dans Microsoft Dynamics 365 for Finance and Operations."
 author: maertenm
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: maertenm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d67ad79c068651f32ce7dc776bc460698557bc29
-ms.openlocfilehash: 069af29012f75aa1a15ba9df86fe1fc9e04eaf41
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 374fd017a86fa7da6f78c287ba099d904cce64c4
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="electronic-signature-overview"></a>Vue d'ensemble de la signature électronique
+# <a name="electronic-signatures"></a>Signatures électroniques
 
 [!include [banner](../includes/banner.md)]
 

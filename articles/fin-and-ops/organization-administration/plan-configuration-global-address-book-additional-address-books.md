@@ -1,5 +1,5 @@
 ---
-title: "Planification pour la configuration du carnet d'adresses global et de carnets d'adresses supplémentaires"
+title: Planifier le carnet d'adresses global et d'autres carnets d'adresses
 description: "Cette rubrique décrit les considérations et les décisions que vous devez prendre au cours du processus de planification avant de paramétrer et configurer le carnet d'adresses global et des carnets d'adresses supplémentaires dans Microsoft Dynamics 365 for Finance and Operations. Certaines de ces décisions nécessitent que vous confirmiez les décisions qui ont été prises pour d'autres zones du produit, telles que la hiérarchie d'organisation."
 author: ShivamPandey-msft
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b872603f987b72faacc0a987aa44c31e773636f8
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 69f1136e113fae5859d34a9a467da9c9cf4bf7dc
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="plan-how-to-configure-the-global-address-book-and-additional-address-books"></a>Planification pour la configuration du carnet d'adresses global et de carnets d'adresses supplémentaires
+# <a name="plan-for-the-global-address-book-and-other-address-books"></a>Planifier le carnet d'adresses global et d'autres carnets d'adresses
 
 [!include [banner](../includes/banner.md)]
 

@@ -1,5 +1,5 @@
 ---
-title: "Paramétrez un programme de continuité pour un centre d'appels"
+title: "Paramétrer des programmes de continuité pour les centres d'appels"
 description: "Cet article décrit le paramétrage d'un programme périodique pour un centre d'appels."
 author: josaw1
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 00504b62237ac4f121d603d5144ffa4e71956cc3
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 9952785afd8e5d1877e96239ee23f9de1c332bcf
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="set-up-a-continuity-program-for-a-call-center"></a>Paramétrez un programme de continuité pour un centre d'appels
+# <a name="set-up-continuity-programs-for-call-centers"></a>Paramétrer des programmes de continuité pour les centres d'appels
 
 [!include [banner](includes/banner.md)]
 

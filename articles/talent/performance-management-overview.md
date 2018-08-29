@@ -1,5 +1,5 @@
 ---
-title: Vue d'ensemble de la gestion des performances
+title: Gestion des performances
 description: "Le processus de gestion des performances permet aux employés de documenter et de discuter de leurs performances avec leur responsable. Les responsables peuvent ensuite à leur tour faire des commentaires et fournir des instructions aux employés."
 author: mikefalkner
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: mfalkner
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
-ms.openlocfilehash: 426e0f8096a65b2233cf04663c38335ee6e9bb2d
+ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.openlocfilehash: e7621b4c1358d1ecd6ff1c9ce2f1de08766a4bf6
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="performance-management-overview"></a>Vue d'ensemble de la gestion des performances
+# <a name="performance-management"></a>Gestion des performances
 
 [!include [banner](includes/banner.md)]
 

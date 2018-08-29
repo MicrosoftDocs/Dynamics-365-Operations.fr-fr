@@ -1,5 +1,5 @@
 --- 
-title: "Inscrire un employé à un régime de rémunération fixe"
+title: "Inscription d'employés à un régime de rémunération fixe"
 description: "La gestionnaire de rémunération et avantages peut affecter des employés à des régimes de rémunération fixe pour gérer leur salaire de base."
 author: kherr75
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b8701c42f2477055eae9dba69da30cce1a122f71
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: d84567f0d74b2ab0078eaeda622768e241332043
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="enroll-an-employee-in-a-fixed-compensation-plan"></a>Inscrire un employé à un régime de rémunération fixe
+# <a name="enroll-employees-in-a-fixed-compensation-plan"></a>Inscription d'employés à un régime de rémunération fixe
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

@@ -1,5 +1,5 @@
 ---
-title: "Configurer une décision manuelle dans un workflow"
+title: "Configurer des décisions manuelles dans un workflow"
 description: "Cette rubrique explique comment configurer les différentes propriétés d'une décision manuelle."
 author: sericks007
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 078d7d5e822a5ffa74131838b249563201b54c7f
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: e942942aac5e9973ebd0a4e3f3a134b0c667ff5b
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="configure-a-manual-decision-in-a-workflow"></a>Configurer une décision manuelle dans un workflow
+# <a name="configure-manual-decisions-in-a-workflow"></a>Configurer des décisions manuelles dans un workflow
 
 [!include [banner](../includes/banner.md)]
 

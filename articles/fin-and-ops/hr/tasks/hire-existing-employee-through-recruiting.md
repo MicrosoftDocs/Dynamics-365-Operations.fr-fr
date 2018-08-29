@@ -1,5 +1,5 @@
 --- 
-title: "Embaucher un employé existant via le recrutement"
+title: "Embaucher des employés existants via le recrutement"
 description: "Les postes vacants peuvent parfois être remplis par des candidats déjà employés de votre organisation."
 author: rschloma
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: rschloma
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5dfe5c25b299284267bed91d58e0acefb7250570
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 71793ce48142b19b288e2315dcd44a07d8e39f90
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="hire-an-existing-employee-through-recruiting"></a>Embaucher un employé existant via le recrutement
+# <a name="hire-existing-employees-through-recruitment"></a>Embaucher des employés existants via le recrutement
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

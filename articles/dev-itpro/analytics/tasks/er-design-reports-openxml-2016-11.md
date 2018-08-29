@@ -1,5 +1,5 @@
 --- 
-title: "Définir une configuration pour générer des états au format OpenXML pour la gestion des états électroniques (ER)"
+title: "Créer des configurations de gestion d'états électroniques pour générer des états au format OpenXML"
 description: "Les étapes suivantes expliquent comment un utilisateur dont le rôle est Administrateur système ou Développeur d'états électroniques peut créer une configuration de format pour la génération d'états électronique (ER) qui contient un modèle pour générer des documents électroniques au format OPENXML."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 8bbdbf882f6f73d03be0a036cb975109396e4a0d
-ms.openlocfilehash: 09789957839097ba2898544102af908c198090c7
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: b42cfe36c57a9526e585bbad0fcd31ff60b90397
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="design-a-configuration-for-generating-reports-in-openxml-format-for-electronic-reporting-er"></a>Définir une configuration pour générer des états au format OpenXML pour la gestion des états électroniques (ER)
+# <a name="design-er-configurations-to-generate-reports-in-openxml-format"></a>Créer des configurations de gestion d'états électroniques pour générer des états au format OpenXML
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

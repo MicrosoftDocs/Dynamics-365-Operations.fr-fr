@@ -1,5 +1,5 @@
 ---
-title: "Configurer une décision conditionnelle dans un workflow"
+title: "Configurer des décisions conditionnelles dans un workflow"
 description: "La procédure suivante permet de configurer les propriétés d'une décision conditionnelle."
 author: sericks007
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e9d5c8add546cad0446e863f64cac8f9cb603cbb
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 64e8b2ed5c538cb982f9f03c1db24e38472be868
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="configure-a-conditional-decision-in-a-workflow"></a>Configurer une décision conditionnelle dans un workflow
+# <a name="configure-conditional-decisions-in-a-workflow"></a>Configurer des décisions conditionnelles dans un workflow
 
 [!include [banner](../includes/banner.md)]
 
@@ -38,7 +38,7 @@ Procédez comme suit pour entrer un nom pour une décision conditionnelle.
 1.  Dans le volet gauche, cliquez sur **Paramètres de base**.
 2.  Dans le champ **Nom**, entrez un nom unique pour la décision conditionnelle.
 
-## <a name="set-conditions"></a> Définition des conditions
+## <a name="set-conditions"></a>Définition des conditions
 Le système détermine la branche utilisée en évaluant si le document soumis répond à des conditions spécifiques.
 1.  Dans le volet gauche, cliquez sur **Paramètres de base**.
 2.  Cliquez sur **Ajouter une condition**.

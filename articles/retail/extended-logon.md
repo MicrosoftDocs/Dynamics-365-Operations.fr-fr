@@ -1,5 +1,5 @@
 ---
-title: "Paramétrer une fonctionnalité de connexion étendue pour Cloud POS et MPOS"
+title: "Paramétrer une fonctionnalité de connexion étendue pour MPOS et Cloud POS"
 description: "Cette rubrique couvre les options de configuration de la connexion étendue pour Cloud POS et Retail Modern POS (MPOS)."
 author: rubencdelgado
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e29aea4509dd323c295b02f289fbcfa46fab3392
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 4e3f8042871e5e423b559bb0e0dae0006af00194
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="set-up-extended-logon-functionality-for-cloud-pos-and-mpos"></a>Paramétrer une fonctionnalité de connexion étendue pour Cloud POS et MPOS
+# <a name="set-up-extended-logon-functionality-for-mpos-and-cloud-pos"></a>Paramétrer une fonctionnalité de connexion étendue pour MPOS et Cloud POS
 
 [!include [banner](includes/banner.md)]
 

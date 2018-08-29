@@ -1,5 +1,5 @@
 ---
-title: Actions de workflow
+title: Actions dans les processus d'approbation d'un workflow
 description: "Cet article décrit les mesures que peut prendre chaque participant au processus d'approbation de workflow."
 author: sericks007
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: bbaac72d8adb764c4b186b022100248b1c5a3804
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 07f1ca7db8580041c412361a710d4ec97b3d0fd8
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="workflow-actions"></a>Actions de workflow
+# <a name="actions-in-workflow-approval-processes"></a>Actions dans les processus d'approbation d'un workflow
 
 [!include [banner](../includes/banner.md)]
 

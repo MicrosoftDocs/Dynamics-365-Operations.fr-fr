@@ -1,5 +1,5 @@
 ---
-title: "Création d'une documentation ou d'une formation à l'aide d'enregistrements de tâche"
+title: "Création d'une documentation ou d'une formation à l'aide d'enregistrements de tâches"
 description: "Cette rubrique explique ce que sont l'enregistreur de tâches et les guides de tâche, comment créer des enregistrements de tâches, et comment personnaliser les guides de tâches Microsoft et les inclure dans votre rubrique d'aide."
 author: josaw1
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: fbf7edbd141f5e94c333b64beedf9126d2900d47
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: fc5b0798397047d1adedfc19406a7875c853bea6
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="create-documentation-or-training-using-task-recordings"></a>Création d'une documentation ou d'une formation à l'aide d'enregistrements de tâche
+# <a name="create-documentation-or-training-by-using-task-recordings"></a>Création d'une documentation ou d'une formation à l'aide d'enregistrements de tâches
 
 [!include [banner](../includes/banner.md)]
 

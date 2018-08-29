@@ -1,5 +1,5 @@
 ---
-title: Espaces de travail mobiles
+title: Espaces de travail mobiles disponibles
 description: "Cette rubrique répertorie les espaces de travail mobiles disponibles."
 author: sericks007
 manager: AnnBe
@@ -16,14 +16,14 @@ ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: c73eeaaf28df8db720431d4bcd317c9721baa99d
-ms.openlocfilehash: d1650d351b5f7d476cea0d404ad261cfc7294dcc
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 75f7df4ca3b675d720eb46395118529d09f2f9d4
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="mobile-workspaces"></a>Espaces de travail mobiles
+# <a name="available-mobile-workspaces"></a>Espaces de travail mobiles disponibles
 
 [!include [banner](../includes/banner.md)]
 

@@ -1,5 +1,5 @@
 ---
-title: "Dimensions financières et comptes principaux dans une langue qui se lit de droite à gauche"
+title: "Dimensions financières et comptes principaux dans des langues s'écrivant de droite à gauche"
 description: "Cette rubrique décrit certaines des décisions d'implémentation que vous devez prendre en compte lorsque vous utilisez une langue qui se lit de droite à gauche, et vous devez paramétrer des dimensions financières et des comptes principaux."
 author: aprilolson
 manager: AnnBe
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 222564
 ms.assetid: 875dcebb-1bbb-4841-a8c6-9e134da07e96
@@ -18,14 +18,14 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b8ceee7486cae9ec0ff7dfedc35909e2f01d0616
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 9609c052083dc3157618584da9311211ea036eba
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="financial-dimensions-and-main-accounts-in-a-right-to-left-language"></a>Dimensions financières et comptes principaux dans une langue qui se lit de droite à gauche
+# <a name="financial-dimensions-and-main-accounts-in-right-to-left-languages"></a>Dimensions financières et comptes principaux dans des langues s'écrivant de droite à gauche
 
 [!include [banner](../includes/banner.md)]
 

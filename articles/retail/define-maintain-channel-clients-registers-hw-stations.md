@@ -1,5 +1,5 @@
 ---
-title: "Définir et tenir à jour les clients de canal, y compris les caisses enregistreuses et les stations matérielles"
+title: "Connecter des périphériques au point de vente (POS)"
 description: "Cette rubrique décrit comment connecter des périphériques à votre Retail POS."
 author: rubencdelgado
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f87293a105caf9327183e170aebd6978ffbd4a74
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 9952ece965f467a19c911219382da00dd25a29e7
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="define-and-maintain-channel-clients-registers-and-hardware-stations"></a>Définir et tenir à jour les clients de canal, y compris les caisses enregistreuses et les stations matérielles
+# <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Connecter des périphériques au point de vente (POS)
 
 [!include [banner](includes/banner.md)]
 

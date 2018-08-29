@@ -1,5 +1,5 @@
 ---
-title: Configuration d'un workflow pour ligne
+title: Configuration des workflows pour ligne
 description: "Cette rubrique explique comment configurer un élément de workflow pour ligne."
 author: sericks007
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d30d6aeda6be7bc81763c0b3f20c568d3fc81526
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 0a57baa3ecae727721f62477cfc5fa41f60ad06d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="configure-a-line-item-workflow"></a>Configuration d'un workflow pour ligne
+# <a name="configure-line-item-workflows"></a>Configuration des workflows pour ligne
 
 [!include [banner](../includes/banner.md)]
 

@@ -1,5 +1,5 @@
 ---
-title: Utiliser l'importation/exportation rapide
+title: Importation/exportation rapide
 description: "Le but de l’exportation/importation rapide est de vous permettre d’importer et d'exporter avec moins d’étapes."
 author: margoc
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: margoc
 ms.search.validFrom: 
 ms.dyn365.ops.version: AX 2012 R3 CU8
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5c54d0590856755e208ada9d97af7790a6de95ec
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 4f2edba4add691e9ad4c7829551c6f79b9804853
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="run-the-test-data-transfer-tool-beta-for-dynamics-ax-ax-2012"></a>Exécuter l'Outil de transfert de données de test (bêta) dans Dynamics AX (AX 2012)
+# <a name="quick-import-export"></a>Importation/exportation rapide
 
 [!include [banner](../../includes/banner.md)]
 

@@ -1,5 +1,5 @@
 --- 
-title: " Définir un canal de centre d'appels et les attributs du canal"
+title: "Créer des canaux de centre d'appels et définir des attributs de canal"
 description: "Cette procédure décrit la création d'un nouveau canal de vente au détail et la définition des attributs de canal."
 author: mugunthanm
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: mumani
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 1418f04d8fb4d05756ac7a5f4b92a1950037be1d
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 7ef094535214ecf4c65f95c36a93455446d7e388
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="define-call-center-channel-and-channel-attributes"></a> Définir un canal de centre d'appels et les attributs du canal
+# <a name="create-call-center-channels-and-define-channel-attributes"></a>Créer des canaux de centre d'appels et définir des attributs de canal
 
 [!include [task guide banner](../includes/task-guide-banner.md)]
 

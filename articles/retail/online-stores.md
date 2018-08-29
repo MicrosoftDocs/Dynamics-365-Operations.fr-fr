@@ -1,5 +1,5 @@
 ---
-title: Vue d'ensemble du magasin en ligne
+title: "Définir des magasins en ligne"
 description: "Cet article fournit des informations sur des stockages en ligne Retail et comment les paramétrer dans Microsoft Dynamics 365 for Retail."
 author: kfend
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: meeram
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 13d7f99766dabf35b80e7100a3017308033e3da6
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 640f134dff19b60c2b14259f8a6c838e44c8926e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="online-store-overview"></a>Vue d'ensemble du magasin en ligne
+# <a name="set-up-online-stores"></a>Définir des magasins en ligne
 
 [!include [banner](includes/banner.md)]
 

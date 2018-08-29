@@ -1,5 +1,5 @@
 ---
-title: Configuration d'un magasin en ligne
+title: Configurer les magasins en ligne
 description: "Cet article fournit des liens vers des rubriques qui vous aident à configurer et à gérer de manière centralisée un magasin en ligne."
 author: kfend
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: meeram
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5cd74a5bfcf121e759220750531165335cd34dab
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: d353baf67540b64168f29be3506d73e721e73523
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="configure-an-online-store"></a>Configuration d'un magasin en ligne
+# <a name="configure-online-stores"></a>Configurer les magasins en ligne
 
 [!include [banner](../includes/banner.md)]
 

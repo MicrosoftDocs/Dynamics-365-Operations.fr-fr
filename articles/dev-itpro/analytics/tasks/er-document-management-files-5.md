@@ -1,5 +1,5 @@
 --- 
-title: "Modifier et exécuter un format pour utiliser les fichiers de gestion des documents dans les sorties de format"
+title: "Modifier et exécuter des formats pour utiliser les fichiers de gestion des documents dans les sorties ER"
 description: "Les étapes suivantes expliquent comment un utilisateur affecté au rôle d'administrateur système ou de développeur d'états électroniques peut configurer un format de génération d'états électroniques pour utiliser les fichiers de gestion des documents (pièces jointes) dans la sortie ER."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b38f69fc169367aa56468b2c8f06b65fd1291c79
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 5effbecf98e633d07f9e5eb22d3df1a12967c1e4
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="modify-and-run-format-to-use-document-management-files-in-format-outputs"></a>Modifier et exécuter un format pour utiliser les fichiers de gestion des documents dans les sorties de format
+# <a name="modify-and-run-formats-to-use-document-management-files-in-er-output"></a>Modifier et exécuter des formats pour utiliser les fichiers de gestion des documents dans les sorties ER
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

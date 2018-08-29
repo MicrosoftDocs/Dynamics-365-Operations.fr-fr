@@ -1,5 +1,5 @@
 ---
-title: "Mises en page de l'écran de données de démonstration dans MPOS/CPOS"
+title: "Mises en page d'écran de données de démonstration dans Retail Modern POS (MPOS) et Cloud POS"
 description: "Cette rubrique fournit des informations sur les mises en page d'écran incluses dans le jeu de données de démonstration pour les expériences de point de vente (PDV) dans Microsoft Dynamics 365 for Retail."
 author: zlinster
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: zlinster
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 797058bdbbdb63a08eb35034ffe3c913307f38df
-ms.openlocfilehash: e812bb13c903e72e31e62effd0c70f9b9d62de55
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 41930e89a7cae5cdb84e728da47de3bc5de312ca
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="demo-data-screen-layouts-in-mposcpos"></a>Mises en page de l'écran de données de démonstration dans MPOS/CPOS
+# <a name="demo-data-screen-layouts-in-retail-modern-pos-mpos-and-cloud-pos"></a>Mises en page d'écran de données de démonstration dans Retail Modern POS (MPOS) et Cloud POS
 
 [!include [banner](includes/banner.md)]
 

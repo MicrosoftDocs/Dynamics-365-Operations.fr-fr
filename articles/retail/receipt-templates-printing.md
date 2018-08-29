@@ -1,5 +1,5 @@
 ---
-title: "Modèles et impression de ticket de caisse"
+title: "Définir et concevoir des formats de réception"
 description: "Cet article décrit comment modifier des mises en page d'impression pour contrôler la manière dont les tickets de caisse, les factures et d'autres documents sont imprimés. Microsoft Dynamics 365 for Retail comprend un concepteur de mise en page d'impression que vous pouvez utiliser pour créer et modifier facilement différents types de mises en page d'impression."
 author: rubencdelgado
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c95215af7004606bb3e000f68c56ea5c69bb9582
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 731b47ecaf7170967ac1f023881e6c6ca8c26d37
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="receipt-templates-and-printing"></a>Modèles et impression de ticket de caisse
+# <a name="set-up-and-design-receipt-formats"></a>Définir et concevoir des formats de réception
 
 [!include [banner](includes/banner.md)]
 
@@ -46,7 +46,7 @@ Cet article décrit comment modifier des mises en page d'impression pour contrô
     -   **Si nécessaire** – Cette option est utilisée uniquement pour les tickets de caisse de cadeau. Lorsque cette option est sélectionnée, l'utilisateur peut imprimer un ticket de caisse de cadeau à partir de la page **Modifier**, si nécessaire.
 
 ## <a name="design-a-receipt-format"></a>Conception du format d'un ticket de caisse
-Le concepteur de mise en page d'impression permet de créer graphiquement la mise en page du document d'écran. La page **Concepteur de format du ticket de caisse** contient trois sections : **En-tête****Lignes** et **Pied de page**. Certains types de mises en page d'impression utilisent des éléments provenant des trois sections, d'autres uniquement ceux d'une ou deux sections. Pour afficher les éléments disponibles pour chaque section, cliquez sur le bouton adéquat dans le volet de navigation à gauche de la page.
+Le concepteur de mise en page d'impression permet de créer graphiquement la mise en page du document d'écran. La page **Concepteur de format du ticket de caisse** contient trois sections : **En-tête** **Lignes** et **Pied de page**. Certains types de mises en page d'impression utilisent des éléments provenant des trois sections, d'autres uniquement ceux d'une ou deux sections. Pour afficher les éléments disponibles pour chaque section, cliquez sur le bouton adéquat dans le volet de navigation à gauche de la page.
 
 1.  Cliquez sur **Vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage POS** &gt; **PDV** &gt; **Formats de ticket de caisse**.
 2.  Dans la page **Format du ticket de caisse**, sélectionnez une mise en page de l'écran, puis cliquez sur **Concepteur**.

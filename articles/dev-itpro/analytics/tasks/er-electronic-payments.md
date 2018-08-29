@@ -1,5 +1,5 @@
 --- 
-title: "Générer les documents électroniques pour les paiements à l'aide d'une configuration de format pour la gestion des états électroniques (ER)"
+title: "Générer des documents électroniques pour les paiements à l'aide des configurations de format"
 description: "Les étapes suivantes expliquent comment un utilisateur dont le rôle est Administrateur système ou Développeur d'états électroniques peut utiliser une nouvelle configuration de format pour la génération d'états électronique (ER) pour générer des documents électroniques pour traiter les paiements."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: a5d958d3b55bfa76f3cfbb3c1a289e4e89c49146
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 805e6f377d452e9c50240c8c9fc2ea6f5cb487e6
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="generate-electronic-documents-for-payments-using-a-format-configuration-for-electronic-reporting-er"></a>Générer les documents électroniques pour les paiements à l'aide d'une configuration de format pour la gestion des états électroniques (ER)
+# <a name="generate-electronic-documents-for-payments-by-using-format-configurations"></a>Générer des documents électroniques pour les paiements à l'aide des configurations de format
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

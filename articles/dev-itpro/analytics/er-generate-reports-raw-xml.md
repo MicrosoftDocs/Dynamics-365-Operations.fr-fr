@@ -18,20 +18,20 @@ ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2fc887668171175d436b9eb281a35c1c9d089591
-ms.openlocfilehash: af594fb7879918e6b9fc423774ee1ec7f635dec0
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 56a5f53e1d3da8aa57e98e7d34fbc9c4005b6df8
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="generate-er-reports-by-adding-content-as-raw-xml"></a>Générer des états ER en ajoutant du contenu au format XML brut
+# <a name="generate-reports-by-adding-content-as-raw-xml"></a>Générer des états en ajoutant du contenu en tant que XML brut
 
 [!include[banner](../includes/banner.md)]
 
 Vous pouvez utiliser le nouvel élément de format **XML BRUT** pour créer des formats de gestion des états électroniques qui génèrent des documents sortants au format XML. Dans certains cas, vous préférez peut-être ajouter des données XML brutes à ces états pour une ou plusieurs des raisons suivantes :
 
-- Il est plus pratique d'utiliser le format XML brut pour la conception d'origine et la maintenance continue d'un état, car la structure XML peut être générée automatiquement en exécutant une expression au moment de l'exécution. Par conséquent, il n'est pas nécessaire de déterminer plusieurs liaisons pour plusieurs éléments de format au moment de la conception. Cela est possible lorsque les sources de données que vous utilisez contiennent des informations permettant de créer des éléments XML lors de la génération de l'état. 
+- Il est plus pratique d'utiliser le format XML brut pour la conception d'origine et la maintenance continue d'un état, car la structure XML peut être générée automatiquement en exécutant une expression au moment de l'exécution. Par conséquent, il n'est pas nécessaire de déterminer plusieurs liaisons pour plusieurs éléments de format au moment de la conception. Cela est possible lorsque les sources de données que vous utilisez contiennent des informations permettant de créer des éléments XML lors de la génération de l'état.
 - Aucune autre méthode ne peut être utilisée pour renseigner l'état avec le contenu XML qui a été précédemment reçu et enregistré dans le système. Par exemple, la réponse XML générée doit contenir le contenu d'une demande XML qui a été précédemment envoyée.
 - Aucune autre méthode ne peut être utilisée pour insérer des caractères dans le document généré en fonction de leurs codes numériques. Pour certaines langues et certains caractères, les codes de ce type n'existent pas. Il s'agit par exemple de la lettre grec rho (ρ) et des codes d'entité HTML tels que \&eacute; pour un *e* avec un accent aigu (é).
 

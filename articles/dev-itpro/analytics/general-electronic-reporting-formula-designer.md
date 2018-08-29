@@ -1,5 +1,5 @@
 ---
-title: "Concepteur de formule dans les états électroniques"
+title: "Concepteur de formule dans les états électroniques (ER)"
 description: "Cette rubrique décrit l'utilisation du concepteur de formule dans la génération d'états électroniques."
 author: NickSelin
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2fc887668171175d436b9eb281a35c1c9d089591
-ms.openlocfilehash: 8d8ab61b7aea84332120e6de9fc29a2a4c9598ca
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: d3ac6ea7b104428f364385e1fd3ed221cae8498d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="formula-designer-in-electronic-reporting"></a>Concepteur de formule dans les états électroniques
+# <a name="formula-designer-in-electronic-reporting-er"></a>Concepteur de formule dans les états électroniques (ER)
 
 [!include [banner](../includes/banner.md)]
 
@@ -385,7 +385,7 @@ SELECT ... FROM CUSTINVOICETABLE T1 CROSS JOIN CUSTINVOICEJOUR T2 CROSS JOIN CUS
 <p><a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="Format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a></p>
 <p>L'illustration suivante présente le résultat de l'exécution du format conçu.</p>
 <p><a href="./media/ger-listoffields-function-format-output.png"><img src="./media/ger-listoffields-function-format-output.png" alt="Format output" class="alignnone size-full wp-image-1204053" width="585" height="158" /></a></p>
-<blockquote>[!NOTE]<br>Selon les paramètres de langue configurés pour les éléments de format FILE et FOLDER parents, le texte traduit pour les étiquettes et les descriptions est renseigné dans la sortie du format ER.</blockquote>
+<blockquote>[!NOTE] Selon les paramètres de langue configurés pour les éléments de format FILE et FOLDER parents, le texte traduit pour les étiquettes et les descriptions est renseigné dans la sortie du format ER.</blockquote>
 </td>
 </tr>
 <tr>
@@ -426,7 +426,7 @@ Dans ce cas, vous pouvez utiliser l'expression suivante pour obtenir l'étiquett
 <p><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="Data sources for the adjusted format" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a></p>
 <p>L'illustration suivante présente le résultat de l'exécution du format ajusté.</p>
 <p><a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="Output of the adjusted format" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a></p>
-<blockquote>[!NOTE]<br>La limite n'est pas appliquée au dernier article de la liste d'origine, car la valeur (11) de la source de sa limite (poids) dépasse la limite définie (9). Utilisez la fonction <strong>WHERE</strong> ou l'expression <strong>Activé</strong> de l'élément de format correspondant pour ignorer les sous-listes lors de la génération d'états, si nécessaire.</blockquote>
+<blockquote>[!NOTE] La limite n'est pas appliquée au dernier article de la liste d'origine, car la valeur (11) de la source de sa limite (poids) dépasse la limite définie (9). Utilisez la fonction <strong>WHERE</strong> ou l'expression <strong>Activé</strong> de l'élément de format correspondant pour ignorer les sous-listes lors de la génération d'états, si nécessaire.</blockquote>
 </td>
 </tr>
 <tr>
@@ -456,8 +456,8 @@ Dans ce cas, vous pouvez utiliser l'expression suivante pour obtenir l'étiquett
 | NUMBERVALUE (string, decimal separator, digit grouping separator) | Convertit la chaîne spécifiée en un chiffre. Le séparateur décimal spécifié est utilisé entre les parties entières et fractionnaires d'un nombre décimal. Le séparateur de regroupement de chiffres spécifié est utilisé comme séparateur de milliers. | **NUMBERVALUE("1 234,56", ",", " ")** renvoie la valeur **1234.56**. |
 | VALUE (string) | Convertit la chaîne spécifiée en un chiffre. Les virgules et les points (.) sont considérés comme des séparateurs de nombres décimaux, et un trait d'union (-) est utilisé comme signe moins. Lève une exception si la chaîne spécifiée contient d'autres caractères non numériques. | **VALUE ("1 234,56")** entraîne une exception. |
 | ROUND (number, decimals) | Renvoie le nombre spécifié une fois qu'il a été arrondi au nombre de décimales spécifié :<ul><li>Si la valeur du paramètre **decimals** est supérieure à 0 (zéro), le numéro spécifié est arrondi au nombre de décimales.</li><li>Si la valeur du paramètre **decimals** est **0** (zéro), le numéro spécifié est arrondi à l'entier le plus proche.</li><li>Si la valeur du paramètre **decimals** est inférieure à 0 (zéro), le numéro spécifié est arrondi à gauche de la virgule.</li></ul> | **ROUND (1200.767, 2)** arrondit à deux décimales et renvoie **1200.77**. **ROND (1200.767), -3** arrondit au multiple de 1 000 le plus proche et renvoie **1 000**. |
-| ROUNDDOWN (number, decimals) | Renvoie le nombre spécifié une fois qu'il a été arrondi au nombre inférieur de décimales spécifié.<blockquote>[!NOTE]<br>Cette fonction se comporte comme **ROUND**, mais elle arrondit toujours le nombre spécifié vers le bas (vers zéro).</blockquote> | **ROUNDDOWN (1200.767, 2)** arrondit vers le bas à deux décimales et renvoie **1200.76**. **ROUNDDOWN (1700.767, -3)** arrondit vers le bas au multiple de 1 000 le plus proche et renvoie **1 000**. |
-| ROUNDUP (number, decimals) | Renvoie le nombre spécifié une fois qu'il a été arrondi au nombre supérieur de décimales spécifié.<blockquote>[!NOTE]<br>Cette fonction se comporte comme **ROUND**, mais elle arrondit toujours le nombre spécifié vers le haut (loin de zéro).</blockquote> | **ROUNDUP (1200.763, 2)** arrondit vers le haut à deux décimales et renvoie **1200.77**. **ROUNDUP (1200.767), -3** arrondit vers le haut au multiple de 1 000 le plus proche et renvoie **2 000**. |
+| ROUNDDOWN (number, decimals) | Renvoie le nombre spécifié une fois qu'il a été arrondi au nombre inférieur de décimales spécifié.<blockquote>[!NOTE] Cette fonction se comporte comme **ROUND**, mais elle arrondit toujours le nombre spécifié vers le bas (vers zéro).</blockquote> | **ROUNDDOWN (1200.767, 2)** arrondit vers le bas à deux décimales et renvoie **1200.76**. **ROUNDDOWN (1700.767, -3)** arrondit vers le bas au multiple de 1 000 le plus proche et renvoie **1 000**. |
+| ROUNDUP (number, decimals) | Renvoie le nombre spécifié une fois qu'il a été arrondi au nombre supérieur de décimales spécifié.<blockquote>[!NOTE] Cette fonction se comporte comme **ROUND**, mais elle arrondit toujours le nombre spécifié vers le haut (loin de zéro).</blockquote> | **ROUNDUP (1200.763, 2)** arrondit vers le haut à deux décimales et renvoie **1200.77**. **ROUNDUP (1200.767), -3** arrondit vers le haut au multiple de 1 000 le plus proche et renvoie **2 000**. |
 
 ### <a name="data-conversion-functions"></a>Fonctions de conversion des données
 
@@ -474,8 +474,8 @@ Dans ce cas, vous pouvez utiliser l'expression suivante pour obtenir l'étiquett
 
 | Fonction | Description | Exemple |
 |----------|-------------|---------|
-| NULLCONTAINER (list) | Renvoie un enregistrement **null** ayant la même structure que la liste d'enregistrements ou l'enregistrement spécifié.<blockquote>[!NOTE]<br>Cette fonction est obsolète. Utilisez **EMPTYRECORD** à la place.</blockquote> | **NULLCONTAINER (SPLIT ("abc", 1))** renvoie un nouvel enregistrement vide ayant la même structure que la liste qui est renvoyée par la fonction **SPLIT**. |
-| EMPTYRECORD (record) | Renvoie un enregistrement **null** ayant la même structure que la liste d'enregistrements ou l'enregistrement spécifié.<blockquote>[!NOTE]<br>Un enregistrement **null** est un enregistrement où tous les champs ont une valeur vide. Une valeur vide correspond à **0** (zéro) pour les nombres, à une chaîne vide pour les chaînes, etc.</blockquote> | **EMPTYRECORD (SPLIT ("abc", 1))** renvoie un nouvel enregistrement vide ayant la même structure que la liste qui est renvoyée par la fonction **SPLIT**. |
+| NULLCONTAINER (list) | Renvoie un enregistrement **null** ayant la même structure que la liste d'enregistrements ou l'enregistrement spécifié.<blockquote>[!NOTE] Cette fonction est obsolète. Utilisez **EMPTYRECORD** à la place.</blockquote> | **NULLCONTAINER (SPLIT ("abc", 1))** renvoie un nouvel enregistrement vide ayant la même structure que la liste qui est renvoyée par la fonction **SPLIT**. |
+| EMPTYRECORD (record) | Renvoie un enregistrement **null** ayant la même structure que la liste d'enregistrements ou l'enregistrement spécifié.<blockquote>[!NOTE] Un enregistrement **null** est un enregistrement où tous les champs ont une valeur vide. Une valeur vide correspond à **0** (zéro) pour les nombres, à une chaîne vide pour les chaînes, etc.</blockquote> | **EMPTYRECORD (SPLIT ("abc", 1))** renvoie un nouvel enregistrement vide ayant la même structure que la liste qui est renvoyée par la fonction **SPLIT**. |
 
 ### <a name="text-functions"></a>Fonctions texte
 
@@ -522,14 +522,14 @@ Dans ce cas, vous pouvez utiliser l'expression suivante pour obtenir l'étiquett
 <td>CHAR (number)</td>
 <td>Permet de renvoyer la chaîne de caractères référencée par le nombre Unicode spécifié.</td>
 <td><strong>CHAR (255)</strong> renvoie <strong>&quot;ÿ&quot;</strong>.
-<blockquote>[!NOTE]<br>La chaîne retournée par cette fonction dépend de l'encodage sélectionné dans l'élément de format FILE parent. Pour obtenir la liste des codages pris en charge, consultez <a href="https://msdn.microsoft.com/en-us/library/system.text.encoding(v=vs.110).aspx">Classe de codage</a>.</blockquote>
+<blockquote>[!NOTE] La chaîne retournée par cette fonction dépend de l'encodage sélectionné dans l'élément de format FILE parent. Pour obtenir la liste des codages pris en charge, consultez <a href="https://msdn.microsoft.com/en-us/library/system.text.encoding(v=vs.110).aspx">Classe de codage</a>.</blockquote>
 </td>
 </tr>
 <tr>
 <td>CONCATENATE (string 1 [, string 2, …])</td>
 <td>Renvoie toutes les chaînes de texte spécifiées une fois qu'elles ont été associées dans une chaîne.</td>
 <td><strong>CONCATENATE (&quot;abc&quot;, &quot;def&quot;)</strong> renvoie <strong>&quot;abcdef&quot;</strong>.
-<blockquote>[!NOTE]<br>L'expression <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> renvoie également <strong>&quot;abcdef&quot;</strong>.</blockquote>
+<blockquote>[!NOTE] L'expression <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> renvoie également <strong>&quot;abcdef&quot;</strong>.</blockquote>
 </td>
 </tr>
 <tr>
@@ -571,7 +571,7 @@ Dans ce cas, vous pouvez utiliser l'expression suivante pour obtenir l'étiquett
 <p>&quot;Nothing to print. Customer Litware Retail is stopped for 12/17/2015.&quot;</p>
 <p>Si le même état est traité pour le client <strong>Litware Retail</strong> le 17 décembre 2015, dans la culture <strong>DE</strong> et la langue <strong>DE</strong>, la formule renvoie le texte suivant, qui utilise un format de date différent :</p>
 <p>&quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt.&quot;</p>
-<blockquote>[!NOTE]<br>La syntaxe suivante est appliquée aux formules de génération d'états électroniques pour les libellés :
+<blockquote>[!NOTE] La syntaxe suivante est appliquée aux formules de génération d'états électroniques pour les libellés :
 <ul>
 <li><strong>Pour les libellés des ressources Finance and Operations :</strong> <strong>@&quot;X&quot;</strong>, où X est l'ID libellé de l'arbre d'objets d'application (AOA)</li>
 <li><strong>Pour les libellés se trouvant dans les configurations de génération d'états électroniques :</strong> <strong>@&quot;GER_LABEL:X&quot;</strong>, où X est l'ID libellé dans la configuration de génération d'états électroniques</li>
@@ -587,7 +587,7 @@ Dans ce cas, vous pouvez utiliser l'expression suivante pour obtenir l'étiquett
 <tr>
 <td>NUMERALSTOTEXT (number, language, currency, print currency name flag, decimal points)</td>
 <td>Renvoie le nombre spécifié une fois qu'il a été défini (converti en chaînes de texte) dans la langue spécifiée. Le code langue est facultatif. Lorsqu'il est défini comme une chaîne vide, le code langue du contexte d'exécution est utilisé. (Le code langue du contexte d'exécution est défini pour un dossier ou un fichier en cours de génération). Le code devise est également facultatif. Lorsqu'il est défini comme une chaîne vide, la devise de la société est utilisée.
-<blockquote>[!NOTE]<br>Les paramètres <strong>print currency name flag</strong> et <strong>decimal points</strong> sont analysés pour les codes de langue suivants uniquement : <strong>CS</strong>, <strong>ET</strong>, <strong>HU</strong>, <strong>LT</strong>, <strong>LV</strong>, <strong>PL</strong> et <strong>RU</strong>. En outre, le paramètre <strong>print currency name flag</strong> est analysé uniquement pour les sociétés Finance and Operations où le contexte du pays ou de la région prend en charge la déclinaison des noms de devise.</blockquote>
+<blockquote>[!NOTE] Les paramètres <strong>print currency name flag</strong> et <strong>decimal points</strong> sont analysés pour les codes de langue suivants uniquement : <strong>CS</strong>, <strong>ET</strong>, <strong>HU</strong>, <strong>LT</strong>, <strong>LV</strong>, <strong>PL</strong> et <strong>RU</strong>. En outre, le paramètre <strong>print currency name flag</strong> est analysé uniquement pour les sociétés Finance and Operations où le contexte du pays ou de la région prend en charge la déclinaison des noms de devise.</blockquote>
 </td>
 <td><strong>NUMERALSTOTEXT (1234.56, &quot;EN&quot;, &quot;&quot;, false, 2)</strong> renvoie <strong>&quot;One Thousand Two Hundred Thirty Four and 56&quot;</strong>. <strong>NUMERALSTOTEXT (120, &quot;PL&quot;, &quot;&quot;, false, 0)</strong> renvoie <strong>&quot;Sto dwadzieścia&quot;</strong>. <strong>NUMERALSTOTEXT (120.21, &quot;RU&quot;, &quot;EUR&quot;, true, 2)</strong> renvoie <strong>&quot;Сто двадцать евро 21 евроцент&quot;</strong>.</td>
 </tr>
@@ -635,7 +635,7 @@ Lorsque ces sources de données sont définies, vous pouvez utiliser une express
 
 ### <a name="data-conversion-functions"></a>Fonctions de conversion des données
 
-| Fonction | Description  | Exemple |
+| Fonction | Description | Exemple |
 |----------|-------------|---------|
 | TEXT (input) | Renvoie l'entrée spécifiée une fois qu'elle a été convertie en une chaîne de texte qui est mise en forme en fonction des paramètres régionaux du serveur de l'instance Finance and Operations actuelle. Pour les valeurs de type **real**, la conversion de chaîne est limitée à deux décimales. | Si les paramètres régionaux du serveur de l'instance Finance and Operations sont définis comme **EN-US**, **TEXT (NOW ())** renvoie la date de la session Finance and Operations actuelle, 17 décembre 2015, comme chaîne de texte **12/17/2015 07:59:23 AM**. **TEXT (1/3)** renvoie **"0.33"**. |
 | QRCODE (chaîne) | Renvoie une image de code à réponse rapide (code QR) au format binaire base64 pour la chaîne spécifiée. | **QRCODE ("Sample text")** renvoie **U2FtcGxlIHRleHQ=**. |
@@ -656,10 +656,10 @@ Lorsque ces sources de données sont définies, vous pouvez utiliser une express
 | Fonction | description ; | Exemple |
 |----------|-------------|---------|
 | CONVERTCURRENCY (amount, source currency, target currency, date, company) | Convertit le montant en devises spécifié de la devise source spécifiée dans la devise cible spécifiée à l'aide des paramètres de la société Finance and Operations spécifiée à la date spécifiée. | **CONVERTCURRENCY (1, "EUR", "USD", TODAY(), "DEMF")** renvoie l'équivalent d'un euro en dollars US à la date de session actuelle, basée sur les paramètre de la société DEMF. |
-| ROUNDAMOUNT (number, decimals, round rule) | Arrondit le montant spécifié au nombre de décimales spécifié en fonction de la règle d'arrondi spécifiée.<blockquote>[!NOTE]<br>La règle d'arrondi doit être spécifiée comme valeur d'énumération **RoundOffType** de Finance and Operations.</blockquote> | Si le paramètre **model.RoundOff** est défini sur **Inférieur**, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** renvoie la valeur **1000.78**. Si le paramètre **model.RoundOff** est défini sur **Normal** ou **Rounding-up**, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** renvoie la valeur **1000.79**. |
+| ROUNDAMOUNT (number, decimals, round rule) | Arrondit le montant spécifié au nombre de décimales spécifié en fonction de la règle d'arrondi spécifiée.<blockquote>[!NOTE] La règle d'arrondi doit être spécifiée comme valeur d'énumération **RoundOffType** de Finance and Operations.</blockquote> | Si le paramètre **model.RoundOff** est défini sur **Inférieur**, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** renvoie la valeur **1000.78**. Si le paramètre **model.RoundOff** est défini sur **Normal** ou **Rounding-up**, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** renvoie la valeur **1000.79**. |
 | CURCredRef (digits) | Renvoie une référence créditeur, selon les chiffres du numéro de facture spécifié. | **CURCredRef ("VEND-200002")** renvoie **"2200002"**. |
 | MOD\_97 (digits) | Renvoie une référence créditeur, comme une expression MOD97, selon les chiffres du numéro de facture spécifié. | **MOD\_97 ("VEND-200002")** renvoie **"20000285"**. |
-| ISOCredRef (digits) | Renvoie une référence créditeur ISO (Organisation internationale de normalisation), en fonction des chiffres et des symboles alphabétiques du numéro de facture spécifié.<blockquote>[!NOTE]<br>Pour éliminer des symboles de l'alphabet qui ne sont pas conformes à la norme ISO, le paramètre d'entrée doit être traduit avant d'être transmis à cette fonction.</blockquote> | **ISOCredRef ("VEND-200002")** renvoie **"RF23VEND-200002"**. |
+| ISOCredRef (digits) | Renvoie une référence créditeur ISO (Organisation internationale de normalisation), en fonction des chiffres et des symboles alphabétiques du numéro de facture spécifié.<blockquote>[!NOTE] Pour éliminer des symboles de l'alphabet qui ne sont pas conformes à la norme ISO, le paramètre d'entrée doit être traduit avant d'être transmis à cette fonction.</blockquote> | **ISOCredRef ("VEND-200002")** renvoie **"RF23VEND-200002"**. |
 | CN\_GBT\_AdditionalDimensionID (string, number) | Obtient l'ID de dimension financière supplémentaire spécifié. Dans le paramètre **string**, les dimensions sont représentées dans cette chaîne comme des ID séparés par des virgules. Le paramètre **number** définit le code souche de la dimension demandée dans la chaîne. | **CN\_GBT\_AdditionalDimensionID ("AA,BB,CC,DD,EE,FF,GG,HH",3)** renvoie **"CC"**. |
 | GetCurrentCompany () | Renvoie une représentation sous forme de texte du code de l'entité juridique (société) à laquelle un utilisateur est actuellement connecté. | **GETCURRENTCOMPANY ()** renvoie **USMF** pour un utilisateur connecté à la société **Contoso Entertainment System USA** dans Finance and Operations. |
 | CH\_BANK\_MOD\_10 (digits) | Renvoie une référence créditeur, comme une expression MOD10, selon les chiffres du numéro de facture spécifié. | **CH\_BANK\_MOD\_10 ("VEND-200002")** renvoie **3**. |

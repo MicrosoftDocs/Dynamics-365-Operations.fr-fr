@@ -1,5 +1,5 @@
 --- 
-title: "Mapper un modèle de données aux sources de données sélectionnées pour la gestion des états électroniques (ER)"
+title: "Mapper des modèles de données de gestion des états électroniques aux sources de données sélectionnées"
 description: "Les étapes suivantes expliquent comment un utilisateur bénéficiant du rôle Administrateur système ou Développeur d'états électroniques peut mapper un modèle de données de génération d'états électronique (ER) vers des sources de donnés Dynamics 365 for Finance and Operations, Enterprise edition (novembre 2016) sélectionnées."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 13b7fe7f7bfe24bd275428e931993aa46ecb9945
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: f347c19d940330c830509be4d11127f9e3324deb
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="map-a-data-model-to-selected-data-sources-for-electronic-reporting-er"></a>Mapper un modèle de données aux sources de données sélectionnées pour la gestion des états électroniques (ER)
+# <a name="map-electronic-reporting-er-data-models-to-selected-data-sources"></a>Mapper des modèles de données de gestion des états électroniques aux sources de données sélectionnées
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

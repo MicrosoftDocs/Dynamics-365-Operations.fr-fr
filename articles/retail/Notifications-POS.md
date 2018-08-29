@@ -1,5 +1,5 @@
 ---
-title: Afficher les notifications dans le point de vente
+title: Afficher les notifications dans le point de vente (PDV)
 description: "Cette rubrique décrit la procédure d'activation des notifications de commande dans le point de vente et l'infrastructure de notifications. Le cas échéant, les développeurs pourront étendre ces notifications aux opérations en plus des opérations d'exécution de commande."
 author: ShalabhjainMSFT
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: 0d409b3b7f19ca31d9c720bca191f1ddba81caa3
-ms.openlocfilehash: a55af4c26d74cc392d3c53aacb66e0a8bc97abf2
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 41f16d13051f6095bdb04af1586ec06fe0ce93f6
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="show-order-notifications-in-the-point-of-sale"></a>Afficher les notifications dans le point de vente
+# <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Afficher les notifications dans le point de vente (PDV)
 
 [!include [banner](includes/banner.md)]
 

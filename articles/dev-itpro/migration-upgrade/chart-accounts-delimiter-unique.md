@@ -1,5 +1,5 @@
 ---
-title: "Le délimiteur du plan de comptes doit être unique"
+title: "Rendre le délimiteur du plan de comptes unique"
 description: "Dans Dynamics 365 for Finance and Operations, vous ne pouvez pas avoir le même délimiteur pour le plan de comptes et les valeurs de dimension. Vous devez modifier les valeurs de délimiteur après la mise à niveau."
 author: ryansandness
 manager: AnnBe
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 265364
 ms.assetid: c61391e4-c4bf-4f09-bd18-8107a1bf055e
@@ -18,14 +18,14 @@ ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c9728714944b54f3bff1e2a8b43c7adcf5200f08
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: e197a1b44e038a97b8bf6db692dcc2eef2bc5f7b
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="chart-of-accounts-delimiter-must-be-unique"></a>Le délimiteur du plan de comptes doit être unique
+# <a name="make-the-chart-of-accounts-delimiter-unique"></a>Rendre le délimiteur du plan de comptes unique
 
 [!include [banner](../includes/banner.md)]
 

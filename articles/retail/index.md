@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Dynamics 365 for Retail"
+title: "Bienvenue dans Dynamics 365 for Retail"
 description: "Page d'accueil de Dynamics 365 for Retail"
 author: josaw1
 manager: AnnBe
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 164932ac3bc701696f5c0b08c5e2d585d9a8ba6a
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: fbdcfc747186e2d8f55ff294a477226a83fbe1b2
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
@@ -48,7 +48,7 @@ Les besoins des clients évoluent constamment. Vous devez pouvoir vous tenir à 
 En outre, les clients ont plusieurs options pour obtenir ce qu'ils souhaitent, quand ils le souhaitent et au prix qu'ils souhaitent. Pour assurer la fidélité des clients, vous pouvez utiliser des notifications et des offres personnalisées qui facilitent leurs achats.
 
 ## <a name="hardware-and-peripherals"></a>Matériel et périphériques
-MPOS (Modern point of sale) et Cloud POS Retail peuvent utiliser un large éventail de périphériques matériels. Aussi bien MPOS que Cloud POS offrent des interfaces et des options de déploiement multiples pour vous aider dans vos différents scénarios commerciaux.
+Retail Modern point of sale (MPOS) et Cloud POS peuvent utiliser un large éventail de périphériques matériels. Aussi bien MPOS que Cloud POS offrent des interfaces et des options de déploiement multiples pour vous aider dans vos différents scénarios commerciaux.
 
 Le simulateur de périphérique de Retail comprend un simulateur de périphérique virtuel et un simulateur de PDV. Le simulateur de périphérique virtuel prend en charge principalement le test de scénarios qui nécessitent des périphériques de PDV physiques. Le simulateur de PDV vous permet de tester la compatibilité des périphériques physiques avec Retail sans devoir déployer le client du PDV.
 

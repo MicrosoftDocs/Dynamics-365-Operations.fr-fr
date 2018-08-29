@@ -1,5 +1,5 @@
 ---
-title: "Modifier un format de gestion d'états électroniques en réappliquant un modèle Microsoft Excel"
+title: "Modifier des formats de gestion d'états électroniques en réappliquant des modèles Excel"
 description: "Cette rubrique fournit des informations sur la manière dont vous pouvez modifier le format des états électroniques (ER) utilisé pour générer des documents commerciaux en réappliquant un modèle Excel modifié."
 author: NickSelin
 manager: AnnBe
@@ -19,13 +19,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
-ms.openlocfilehash: fca7fb75b965886c2ebc06b12940434f2ffc2543
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 8707f7b184bb66648edd0e48672c5514a0a5caf1
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="modify-an-electronic-reporting-format-by-reapplying-a-microsoft-excel-template"></a>Modifier un format de gestion d'états électroniques en réappliquant un modèle Microsoft Excel
+# <a name="modify-electronic-reporting-formats-by-reapplying-excel-templates"></a>Modifier des formats de gestion d'états électroniques en réappliquant des modèles Excel
 
 [!include [banner](../includes/banner.md)]
 

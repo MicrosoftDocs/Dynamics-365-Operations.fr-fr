@@ -1,5 +1,5 @@
 --- 
-title: "Créer un projet d'embauche collective"
+title: "Créer des projets d'embauche collective"
 description: "Cette procédure décrit le processus de paramétrage d'un projet d'embauche collective."
 author: kherr75
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: a8789d7c5b06e83d0d1799b249b48a00e7c0ae34
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 7059ad6cc438473111e9a6116a4e6fadc7016904
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="create-a-mass-hire-project"></a>Créer un projet d'embauche collective
+# <a name="create-mass-hire-projects"></a>Créer des projets d'embauche collective
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

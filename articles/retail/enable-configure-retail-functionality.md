@@ -1,5 +1,5 @@
 ---
-title: "Initialiser les données de départ dans un nouvel environnement de vente au détail"
+title: "Initialiser les données de départ dans de nouveaux environnements de vente au détail"
 description: "Cet article décrit les données créées dans le cadre du processus d'initialisation de Microsoft Dynamics 365 for Retail."
 author: josaw1
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: ac4f651cd7e5df912ea2535eafd5e54c11377253
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 80fa443fc235496a111a8a866d2e703202721268
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="initialize-seed-data-in-a-new-retail-environment"></a>Initialiser les données de départ dans un nouvel environnement de vente au détail
+# <a name="initialize-seed-data-in-new-retail-environments"></a>Initialiser les données de départ dans de nouveaux environnements de vente au détail
 
 [!include [banner](includes/banner.md)]
 
