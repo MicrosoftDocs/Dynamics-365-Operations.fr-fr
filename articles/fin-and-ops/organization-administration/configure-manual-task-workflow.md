@@ -1,5 +1,5 @@
 ---
-title: "Configurer une tâche manuelle dans un workflow"
+title: "Configurer des tâches manuelles dans un workflow"
 description: "Cette rubrique explique comment configurer les propriétés d'une tâche manuelle."
 author: sericks007
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 98e25e1a132f0767b9c58334f177845c222c3863
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 130f0791e2adc9998101f66442a967e3b72a0fd1
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="configure-a-manual-task-in-a-workflow"></a>Configurer une tâche manuelle dans un workflow
+# <a name="configure-manual-tasks-in-a-workflow"></a>Configurer des tâches manuelles dans un workflow
 
 [!include [banner](../includes/banner.md)]
 

@@ -1,5 +1,5 @@
 ---
-title: "Pointage de vente au détail"
+title: Planifier la gestion du pointage dans Retail
 description: "Cette rubrique décrit les scénarios pris en charge pour la gestion des heures et de la présence dans Microsoft Dynamics 365 for Retail."
 author: aamirallaqaband
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: ebbf3c72b4c34cba95ecd2fb3ce506af393acc34
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 21c29c3c37dfacdd98f5c3ec7698f07623da2285
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="retail-time-and-attendance"></a>Pointage et présence - Vente au détail
+# <a name="time-and-attendance-management-in-retail"></a>Planifier la gestion du pointage dans Retail
 
 [!include [banner](includes/banner.md)]
 
@@ -45,7 +45,7 @@ Cette rubrique décrit les scénarios pris en charge pour la gestion des heures 
 
 -   Appliquez des profils à l'aide du Planificateur de travail. Pour plus d'informations, voir <https://technet.microsoft.com/en-us/library/aa551234.aspx>.
 
-Pour plus d'informations sur les étapes de configuration, voir <https://technet.microsoft.com/en-us/library/aa496971.aspx>.
+Pour plus d'informations sur la procédure de configuration, voir <https://technet.microsoft.com/en-us/library/aa496971.aspx>.
 
 ### <a name="retail-specific-configuration"></a>Configuration spécifique à la vente au détail
 
@@ -135,7 +135,7 @@ L'utilisateur de Dynamics 365 for Retail suit le workflow pour calculer, approu
 -   Pointage à la sortie en masse
 -   Enregistrer des absences
 
-Pour plus d'informations sur le traitement des enregistrements de pointage, voir <https://technet.microsoft.com/en-us/library/aa573180.aspx>.
+Pour plus d'informations sur la procédure de traitement des enregistrements de pointage, voir <https://technet.microsoft.com/en-us/library/aa573180.aspx>.
 
 
 

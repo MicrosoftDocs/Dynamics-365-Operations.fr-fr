@@ -1,7 +1,7 @@
 ---
-title: "Bonnes pratiques pour l’importation de numéros document à l’aide de l’entité du journal des opérations diverses"
+title: "Bonnes pratiques pour l'importation de numéros document à l'aide de l'entité du journal des opérations diverses"
 description: "Cette rubrique fournit des conseils pour l’importation de données dans le Journal des opérations diverses à l’aide de l'entité de Journal des opérations diverses."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 94363
 ms.assetid: 0b8149b5-32c5-4518-9ebd-09c9fd7f4cfc
@@ -18,14 +18,14 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: eea226fae902c19d66aff83b7ee2786d1586ef39
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 7bc24b5e3bc13d6dbb4313f25ff44d8fae0998cc
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="best-practices-for-importing-vouchers-using-the-general-journal-entity"></a>Bonnes pratiques pour l’importation de numéros document à l’aide de l’entité du journal des opérations diverses
+# <a name="best-practices-for-importing-vouchers-by-using-the-general-journal-entity"></a>Bonnes pratiques pour l'importation de numéros document à l'aide de l'entité du journal des opérations diverses
 
 [!include [banner](../includes/banner.md)]
 

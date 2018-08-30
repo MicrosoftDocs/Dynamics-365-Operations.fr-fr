@@ -1,5 +1,5 @@
 ---
-title: Caisses enregistreuses pour la France
+title: "Fonctionnalité de caisse enregistreuse pour la France"
 description: "Cette rubrique fournit une vue d'ensemble de la fonctionnalité de caisse enregistreuse disponible pour la France. Elle fournit également des instructions pour paramétrer la fonctionnalité."
 author: EvgenyPopovMBS
 manager: vastrup
@@ -18,13 +18,13 @@ ms.author: epopov
 ms.search.validFrom: 2018-2-28
 ms.dyn365.ops.version: 7.3.2
 ms.translationtype: HT
-ms.sourcegitcommit: 2e5dd8f852ac1a6c2997a50a60f03db6adfd218c
-ms.openlocfilehash: 2ce81e3ca1056c1ffdaed3dcd873b778e798efea
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: ad2ecbc6e184adf77cb30f98b586c11b8ec89248
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/01/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="cash-registers-for-france"></a>Caisses enregistreuses pour la France
+# <a name="cash-register-functionality-for-france"></a>Fonctionnalité de caisse enregistreuse pour la France
 
 [!include[banner](../includes/banner.md)]
 

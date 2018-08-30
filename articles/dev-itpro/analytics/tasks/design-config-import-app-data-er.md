@@ -1,5 +1,5 @@
 --- 
-title: "Concevoir des configurations pour analyser les documents entrants pour les mises à jour de données d'application (ER)"
+title: "Créer des configurations d'états électroniques pour analyser des documents entrants"
 description: "Cette procédure décrit comment créer des configurations d'états électroniques pour analyser un document électronique entrant."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 74606b1378e94e8a6945a408520c8b68648970d8
-ms.openlocfilehash: 96c9397c6a83d61b679492f66f4aa6661f1f8621
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 9e5f826afa141c0851a963b33e40c58513e60a07
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="design-configurations-to-parse-incoming-documents-for-application-data-updates-er"></a>Concevoir des configurations pour analyser les documents entrants pour les mises à jour de données d'application (ER)
+# <a name="design-er-configurations-to-parse-incoming-documents"></a>Créer des configurations d'états électroniques pour analyser des documents entrants
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -30,12 +30,12 @@ Cette procédure décrit comment créer des configurations d'états électroniqu
 
 Cette procédure est créée pour les utilisateurs auxquels le rôle Administrateur système ou Développeur d'états électroniques a été affecté. 
 
-Ces étapes peuvent être effectuées à l'aide d'un ensemble de données quelconque. Avant de commencer, téléchargez et enregistrez les fichiers répertoriés dans la rubrique, « Analyser les documents entrants pour mettre à jour les données d'application » (https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents). Les fichiers sont : Modèle EFSTA.xml, Format EFSTA.xml, Réponse1.xml, Réponse2.xml, Réponse3.xml, Réponse4.xml.
+Ces étapes peuvent être effectuées à l'aide d'un ensemble de données quelconque. Avant de commencer, téléchargez et enregistrer les fichiers répertoriés dans la rubrique « Analyser les documents entrants pour mettre à jour les données d'application » (https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents). Les fichiers sont : Modèle EFSTA.xml, Format EFSTA.xml, Réponse1.xml, Réponse2.xml, Réponse3.xml, Réponse4.xml.
 
 1. Accédez à Administration d'organisation > Espaces de travail > États électroniques.
     * Vérifiez que le fournisseur de configuration pour la société fictive, Litware, Inc., est disponible et marqué comme actif. Si ce fournisseur de configuration ne s'affiche pas, effectuez les étapes de la procédure, « Créer un fournisseur de configuration et le marquer comme actif ».  
 2. Cliquez sur Configurations des états.
-    * Le scénario suivant est utilisé pour afficher les fonctions d'analyse des documents électroniques entrants au format XML : l'application ERP (Dynamics 365 for Finance and Operations) demande des données au service Web (tel que le service fiscal EFSTA http://efsta.org/ EFSTA) et analyse les réponses entrantes pour mettre à jour les données d'application en conséquence. Pour optimiser l'analyse, un format ER unique est utilisé nonobstant la structure différente des documents entrants prévus au format XML.   
+    * Le scénario suivant est utilisé pour afficher les fonctions d'analyse des documents électroniques entrants au format XML : l'application ERP (Dynamics 365 for Finance and Operations) demande des données au service Web (tel que le service fiscal EFSTA http://efsta.org/) et analyse les réponses entrantes pour mettre à jour les données d'application en conséquence. Pour optimiser l'analyse, un format ER unique est utilisé nonobstant la structure différente des documents entrants prévus au format XML.   
 
 ## <a name="import-and-review-er-configurations"></a>Importer et examiner les configurations ER
 Importez la configuration du modèle ER contenant l'exemple de modèle de données conçu pour stocker les détails du fichier entrant.  

@@ -1,5 +1,5 @@
 --- 
-title: "Importer une configuration à partir de Lifecycle Services pour la gestion des états électroniques (ER)"
+title: "Importer des configurations de gestion des états électroniques à partir de Lifecycle Services"
 description: "Les étapes suivantes expliquent comment un utilisateur ayant le rôle d'administrateur système ou de développeur d'états électroniques peut importer une nouvelle version d'une configuration pour la génération d'états électroniques (ER) à partir de Microsoft Lifecycle Services (LCS)."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 9eb4f54897c84b98828c927f0f93613583fd4599
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: f3b8cdb722cf49194faccc19fbb95265a230d48b
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="import-a-configuration-from-lifecycle-services-for-electronic-reporting-er"></a>Importer une configuration à partir de Lifecycle Services pour la gestion des états électroniques (ER)
+# <a name="import-electronic-reporting-configurations-from-lifecycle-services"></a>Importer des configurations de gestion des états électroniques à partir de Lifecycle Services
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

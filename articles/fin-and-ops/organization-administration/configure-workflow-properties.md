@@ -3,7 +3,7 @@ title: "Configuration des propriétés de workflow"
 description: "Cette rubrique explique comment configurer les différentes propriétés d'un workflow."
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/17/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 19cc8f92b5bb6d9ddfdc77785e48de17ed005703
-ms.openlocfilehash: 7ea35d851613a19889392400e31cf8492d5dc799
+ms.sourcegitcommit: ba03473dd6fc31d51fd4e890acac1cd1494ef5a3
+ms.openlocfilehash: a327b85f18f03294a237c3795ae2e1f4a97095f0
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
@@ -107,6 +107,7 @@ Lorsqu'un document est soumis pour traitement, une instance de workflow est cré
     2.  Cliquez sur **Insérer un espace réservé**.
     3.  Dans la liste qui s'affiche, sélectionnez l'espace réservé que vous souhaitez insérer.
     4.  Cliquez sur **Insérer**
+    5.  Un espace réservé **Texte de notification** commun à inclure est « Last Notes: %Workflow.Last note% », qui affiche les commentaires de l'étape précédente.
 
 6.  Suivez les étapes suivantes pour ajouter une traduction du texte.
     1.  Cliquez sur **Traductions**.

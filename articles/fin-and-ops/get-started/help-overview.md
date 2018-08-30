@@ -1,9 +1,9 @@
 ---
-title: "Aperçu de l'aide"
+title: "Système d'aide de Finance and Operations"
 description: "Cette rubrique fournit une vue d'ensemble des composants du système d'aide Microsoft Dynamics 365 for Finance and Operations. Il décrit également comment fournir de la documentation et une formation personnalisées à votre organisation."
 author: margoc
 manager: AnnBe
-ms.date: 10/31/2017
+ms.date: 07/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,14 +19,14 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 2c02af887e662fd346d5e3e09cce755bfb58d520
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: e1ffd9cb90b2ffac8f89885aac2f614e2ae3cb71
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="help-system-overview"></a>Vue d'ensemble du système d'aide
+# <a name="finance-and-operations-help-system"></a>Système d'aide de Finance and Operations
 
 [!include [banner](../includes/banner.md)]
 
@@ -82,27 +82,19 @@ Pour vous abonner à un flux RSS de toutes les mises à jour du contenu Unified 
 [Flux RSS](https://docs.microsoft.com/api/search/rss?locale=en-us&$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))
 
 ### <a name="give-feedback"></a>Fournir une rétroaction 
-Nous apprécions réellement les commentaires client. Vous pouvez commenter ou suggérer des modifications à notre contenu via GitHub.
+Nous apprécions réellement les commentaires client. Vous pouvez commenter ou suggérer des modifications à notre contenu via GitHub. Pour plus d'informations sur notre système de commentaire, voir [ce billet de blog](https://docs.microsoft.com/teamblog/a-new-feedback-system-is-coming-to-docs).
 
-##### <a name="leave-us-a-comment"></a>Laissez-nous un commentaire 
+##### <a name="leave-us-feedback"></a>Laissez-nous des commentaires 
 Si vous avez des commentaires ou des questions sur une rubrique, laissez-nous un commentaire au bas de la page.  
 
-1 Cliquez sur **Commentaires** pour accéder aux commentaires en bas de la page.
+1. Cliquez sur **Rétroaction** pour obtenir des commentaires en bas de la page, puis cliquez sur **Commentaire sur le produit** ou **Connexion pour fournir des commentaires sur la documentation**.
 
-![Commentaires](./media/comments.png)
+![Commentaire](./media/comments.png)
 
-2 Commencez à taper vos commentaires, puis cliquez sur **Valider le commentaire**.
+2. Commencez à taper vos commentaires, puis cliquez sur **Envoyer les commentaires**.
 
-![Valider le commentaire](./media/before-signin.png)
+![Valider le commentaire](./media/feedback.png)
 
-3 Sélectionnez le type de compte avec lequel vous souhaitez vous connecter :  
-Cliquez sur l'une des icônes à gauche pour associer ce site à un compte existant, comme un compte Twitter, Facebook ou Microsoft. 
-
-Ou 
-
-Sur la droite, entrez une adresse e-mail et un mot de passe pour créer un compte pour le site. 
-
-![Options de connexion](./media/signin-options.png)
 
 
 ##### <a name="suggest-a-change-or-contribute-content-through-github"></a>Suggestion d'une modification ou contribution à du contenu via GitHub
@@ -115,7 +107,6 @@ Pour plus d'informations, reportez-vous à notre guide du contributeur : https:
 
 > [!NOTE]
 > Nous acceptons uniquement les contributions à nos référentiels en anglais à ce stade.  
-> Nous n'acceptons pas les problèmes signalés via GitHub, veillez à utiliser une demande d'extraction pour des suggestions de contenu. Les commentaires sur des produits et des fonctions se traitent via le portail des idées de Dynamics 365 : https://experience.dynamics.com/ideas/. 
 
 
 ## <a name="task-guides"></a>Guides de tâches

@@ -1,7 +1,7 @@
 ---
-title: "Mise à jour de document simple et de réévaluation de devise"
+title: "Mise à niveau de journaux de documents simples et de réévaluations de devises"
 description: "Certaines organisations saisissent des journaux qui contiennent un N° document unique pour plusieurs clients ou fournisseurs, et elles exécutent le processus de réévaluation des comptes en devises de la comptabilité client ou de la comptabilité fournisseur. Cette rubrique décrit les étapes à suivre par ces organisations lorsqu'elles effectuent la mise à niveau vers Microsoft Dynamics 365 for Operations, version 1611."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 265364
 ms.assetid: c61391e4-c4bf-4f09-bd18-8107a1bf055e
@@ -18,14 +18,14 @@ ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 13ad43cc77731727525aae1edc4d405c166acbc1
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 343fa226e1cf9072696082e9ebf0a1629e553ae9
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="single-voucher-and-currency-revaluation-upgrade"></a>Mise à jour de document simple et de réévaluation de devise
+# <a name="upgrade-single-voucher-journals-and-currency-revaluations"></a>Mise à niveau de journaux de documents simples et de réévaluations de devises
 
 [!include [banner](../includes/banner.md)]
 

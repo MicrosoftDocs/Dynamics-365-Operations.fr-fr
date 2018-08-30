@@ -1,5 +1,5 @@
 ---
-title: "Configurer la génération d'états électronique pour extraire les données dans Power BI"
+title: "Configurer la gestion des états électroniques (ER) pour extraire les données dans Power BI"
 description: "Cette rubrique explique comment vous pouvez utiliser la configuration de génération d'états électroniques (ER) pour organiser le transfert des données entre votre instance de Finance and Operations vers les services Power BI."
 author: NickSelin
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 45717bc1a7093c0282d214fc4ce5fdf153bb14a1
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 9f5a4d0c9fc4c5c9b439b4f184b25085f5d68077
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="configure-electronic-reporting-to-pull-data-into-power-bi"></a>Configurer la Gestion des états électroniques pour extraire les données dans Power BI
+# <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Configurer la gestion des états électroniques (ER) pour extraire les données dans Power BI
 
 [!include [banner](../includes/banner.md)]
 

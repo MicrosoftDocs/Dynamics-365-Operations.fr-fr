@@ -1,5 +1,5 @@
 ---
-title: Gestion d'un processus de recrutement
+title: Gestion de processus de recrutement
 description: "Cet article décrit un concept que les recruteurs peuvent utiliser pour suivre les étapes d'un processus de recrutement, notamment les moyens pour annoncer les postes vacants et recruter des candidats, en suivant les informations propres aux candidats et aux candidatures, en interviewant les candidats et en sélectionnant un ou plusieurs candidats pour pourvoir les postes vacants au sein de votre organisation."
 author: rschloma
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: f7a1db481105a5b3422414c3b4e53ddee0a563df
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 80072aebe99b0a7f244c9475dc9ba586bc697893
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="manage-a-recruiting-process"></a>Gestion d'un processus de recrutement
+# <a name="manage-recruiting-processes"></a>Gestion de processus de recrutement
 
 [!include [banner](../includes/banner.md)]
 

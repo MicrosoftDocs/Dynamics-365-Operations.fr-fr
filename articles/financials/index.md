@@ -21,7 +21,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: b8f2f3a33dc19c2ebc941d1a504eae0c276f3cdf
 ms.openlocfilehash: a64621c5310e5f68b9d6f1545bb39ce1519d71cf
 ms.contentlocale: fr-fr
-ms.lasthandoff: 06/25/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
@@ -33,16 +33,23 @@ Cette rubrique fournit une liste de ressources et d'autres informations sur les 
 
 Sélectionnez une zone de fonctionnalités pour en savoir plus.
 
-:::row::: :::column::: - [Comptabilité fournisseur](accounts-payable/accounts-payable.md) 
+:::row:::
+    :::column:::
+        - [Comptabilité fournisseur](accounts-payable/accounts-payable.md) 
         - [Comptabilité client](accounts-receivable/accounts-receivable.md)
-        - [Budget](budgeting/budgeting-overview.md) 
+        - [Budgétisation](budgeting/budgeting-overview.md) 
         - [Gestion de la trésorerie et de la banque](cash-bank-management/cash-bank-management.md)
-        - [Contrôle de gestion](cost-accounting/cost-accounting-home-page.md) :::column-end::: :::column::: - [Gestion des dépenses](expense-management/expense-management.md)
+        - [Contrôle de gestion](cost-accounting/cost-accounting-home-page.md)
+    :::column-end:::
+    :::column:::
+        - [Gestion des dépenses](expense-management/expense-management.md)
         - [États financiers](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
         - [Immobilisations](fixed-assets/fixed-assets.md)
         - [Comptabilité](general-ledger/general-ledger.md) 
-        - [Gestion de projets](project-management/overview-project-management-accounting.md)
-        - [Secteur public](public-sector/public-sector-functionality.md) :::column-end::: :::row-end:::
+        - [Gestion des projets](project-management/overview-project-management-accounting.md)
+        - [Secteur public](public-sector/public-sector-functionality.md) 
+    :::column-end:::
+:::row-end:::
 
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
@@ -60,7 +67,7 @@ Une aide supplémentaire est disponible sous forme de guides de tâche dans Fina
 
 ### <a name="videos"></a>Vidéos
 
-Consultez les vidéos de procédure qui sont désormais disponibles sur la [chaîne YouTube de Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+Consultez les vidéos de procédure qui sont désormais disponibles sur la [chaîne Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 ### <a name="countryregion-functionality"></a>Fonctionnalité spécifique à un pays/une région
 

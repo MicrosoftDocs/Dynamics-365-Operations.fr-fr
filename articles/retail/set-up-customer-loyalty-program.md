@@ -1,5 +1,5 @@
 ---
-title: "Paramétrer un programme de fidélisation des clients"
+title: "Définition de programmes de fidélisation des clients"
 description: "Cet article décrit le paramétrage des composants d'un programme de fidélité. Les programmes de fidélité peuvent améliorer la fidélité des clients en les récompensant pour l'achat de produits dans vos magasins de vente au détail. Dans Microsoft Dynamics 365 for Retail, vous pouvez paramétrer des programmes de fidélité simples ou complexes qui s'appliquent entre les entités juridiques de tout canal de vente au détail."
 author: scott-tucker
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 553a7a8535f4e293d71bab43bbef8d8460854f8d
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 8aa29282f80870b93d119c095bb95c3bcfbfc682
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="set-up-a-customer-loyalty-program"></a>Paramétrer un programme de fidélisation des clients
+# <a name="set-up-customer-loyalty-programs"></a>Définition de programmes de fidélisation des clients
 
 [!include [banner](includes/banner.md)]
 
@@ -70,7 +70,7 @@ Le tableau suivant décrit les processus qui doivent être exécutés pour envoy
 |--------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
 | 1050 (informations sur la fidélité)           | Exécutez ce processus pour envoyer les données de fidélité de Dynamics 365 for Retail aux magasins de vente au détail. Il est recommandé de planifier l'exécution régulière de ce processus, de manière à ce que les données de fidélité soient transmises à tous les magasins.                                                                                                                                                                                               | Programme de distribution                |
 | Traiter les programmes de fidélité              | Exécutez ce processus pour associer les plans de fidélité aux canaux de vente au détail auxquels le plan de fidélité est affecté. Ce processus peut être planifié pour s'exécuter en tant que processus de traitement par lots. Vous devez exécuter ce processus si vous modifiez les données de configuration de fidélité, telles que les plans de fidélité, les programmes de fidélité ou les points de récompense de fidélité.                                                                                               | Traiter les programmes de fidélité              |
-| Traiter les transactions de fidélité hors connexion | Exécutez ce processus pour mettre à jour les cartes de fidélité de manière à inclure les transactions qui ont été traitées hors connexion. Ce processus s'applique uniquement si la case à cocher **Gagner hors connexion** est activée dans la page **Paramètres partagés de la vente au détail **, afin que des récompenses puissent être gagnées hors connexion.                                                                                                                                               | Traiter les transactions de fidélité hors connexion |
+| Traiter les transactions de fidélité hors connexion | Exécutez ce processus pour mettre à jour les cartes de fidélité de manière à inclure les transactions qui ont été traitées hors connexion. Ce processus s'applique uniquement si la case à cocher **Gagner hors connexion** est activée dans la page **Paramètres partagés de la vente au détail**, afin que des récompenses puissent être gagnées hors connexion.                                                                                                                                               | Traiter les transactions de fidélité hors connexion |
 | Mettre à jour les niveaux de cartes de fidélité            | Exécutez ce processus pour évaluer l'activité de bénéfice du client par rapport aux règles de niveau d'un programme de fidélité et mettre à jour le statut de niveau du client. Ce processus est nécessaire uniquement si vous modifiez les règles de niveau dans les programmes de fidélité et que vous souhaitez que les règles mises à jour soient rétroactivement appliquées aux cartes de fidélité déjà émises. Ce processus peut être exécuté en tant que processus de traitement par lots ou pour des cartes individuelles. | Mettre à jour les niveaux de cartes de fidélité            |
 
 

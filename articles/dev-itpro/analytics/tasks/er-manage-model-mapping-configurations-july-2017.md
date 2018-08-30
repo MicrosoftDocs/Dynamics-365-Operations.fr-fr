@@ -1,5 +1,5 @@
 --- 
-title: "Gérer des configurations de mappage de modèle pour la gestion des états électroniques (ER)"
+title: "Gérer la mise en correspondance de modèle de gestion d'états électroniques dans des configurations de gestion d'états électroniques distinctes"
 description: "Les étapes suivantes expliquent comment un utilisateur affecté au rôle d'administrateur système ou de développeur d'états électroniques peut gérer des mises en correspondance de modèle d'états électroniques dans des configurations ER distinctes."
 author: NickSelin
 manager: AnnBe
@@ -16,19 +16,19 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 35fdc1e98897d449ce18fe38cc6b7896ca5c5278
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 24ca4124d190df94e7ca9ac31c2ea757fe9ff242
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="manage-model-mapping-configurations-for-electronic-reporting-er"></a>Gérer des configurations de mappage de modèle pour la gestion des états électroniques (ER)
+# <a name="manage-er-model-mapping-in-separate-er-configurations"></a>Gérer la mise en correspondance de modèle de gestion d'états électroniques dans des configurations de gestion d'états électroniques distinctes
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Les étapes suivantes expliquent comment un utilisateur affecté au rôle d'administrateur système ou de développeur d'états électroniques peut gérer des mises en correspondance de modèle d'états électroniques dans des configurations ER distinctes. Dans ce guide de tâche, vous allez créer les configurations ER requises pour l'exemple de société, Litware, Inc. Pour réaliser les étapes de ce guide de tâche, vous devez d'abord effectuer les étapes du guide de tâche, « ER Créer un fournisseur de configuration et le marquer comme actif ». 
 
-Comme les configurations ER sont partagées entre les sociétés, vous pouvez réaliser les étapes de ce guide de tâche en utilisant l'ensemble de données de société de votre choix. La fonctionnalité pour ce guide de tâche est disponible que si vous avez installé l'un des correctifs suivants : https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012872 pour la version 7.0 de Dynamics AX ou https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871 pour la version Dynamics 365 for Operations.
+Comme les configurations ER sont partagées entre les sociétés, vous pouvez réaliser les étapes de ce guide de tâche en utilisant l'ensemble de données de société de votre choix. La fonctionnalité de ce guide de tâche est disponible si vous avez installé l'un des correctifs suivants : https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012872 pour la version 7.0 de Dynamics AX ou https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871 pour la version Dynamics 365 for Operations.
 
 1. Accédez à Administration d'organisation > Espaces de travail > États électroniques.
     * Vérifiez que le fournisseur de la configuration pour la société fictive Litware, Inc. est disponible et marqué comme actif. Si ce fournisseur de configuration ne s'affiche pas, vous devez d'abord effectuer les étapes du guide de tâche, Créer un fournisseur de configuration et le marquer comme actif.   

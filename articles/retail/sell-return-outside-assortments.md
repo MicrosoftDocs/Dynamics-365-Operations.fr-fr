@@ -1,5 +1,5 @@
 ---
-title: Vente et retour de produits en dehors d'un assortiment
+title: Vente et retourner des produits ne faisant pas partie de l'assortiment d'un magasin
 description: "Avec Dynamics 365 for Retail, vous pouvez vendre et retourner des produits en dehors d'assortiments."
 author: pdp1207
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: prabhup
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 82b3076eba0d374c80e37572233cf7ba440cc65a
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 17981cef401085ad3af784950fff6260c2c6d9ee
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="sell-and-return-products-outside-of-an-assortment"></a>Vente et retour de produits en dehors d'un assortiment
+# <a name="sell-and-return-products-that-arent-part-of-a-stores-assortment"></a>Vente et retourner des produits ne faisant pas partie de l'assortiment d'un magasin
 
 [!include [banner](includes/banner.md)]
 

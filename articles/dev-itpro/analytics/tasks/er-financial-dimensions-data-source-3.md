@@ -1,5 +1,5 @@
 --- 
-title: "Concevoir un état pour utiliser les dimensions financières comme source de données pour la gestion des états électroniques (ER)"
+title: "Concevoir des états pour utiliser les dimensions financières comme sources de données"
 description: "Les étapes suivantes expliquent comment un utilisateur affecté au rôle d'administrateur système ou de développeur d'états électroniques peut configurer un modèle de génération d'états électroniques (ER) pour utiliser les dimensions financières comme source de données pour les états ER."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: c67bf235f3514a19893bcefcaae6e3bb11bbb151
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 055401104ae62c75694dff0b2ee64d12b2621686
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="design-a-report-to-use-financial-dimensions-as-a-data-source-for-electronic-reporting-er"></a>Concevoir un état pour utiliser les dimensions financières comme source de données pour la gestion des états électroniques (ER)
+# <a name="design-reports-to-use-financial-dimensions-as-data-sources"></a>Concevoir des états pour utiliser les dimensions financières comme sources de données
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

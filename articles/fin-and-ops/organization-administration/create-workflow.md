@@ -1,5 +1,5 @@
 ---
-title: "Création d'un workflow"
+title: "Créer des workflows"
 description: "Cette rubrique illustre la création d'un workflow."
 author: sericks007
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: donaldc
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ee3f60575d0eaaf56ce08adb1936728a76488dac
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 0edf6f1a97b3bbd074168a3cb8bb5c2375492b71
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="create-a-workflow"></a>Création d'un workflow
+# <a name="create-workflows"></a>Créer des workflows
 
 [!include [banner](../includes/banner.md)]
 

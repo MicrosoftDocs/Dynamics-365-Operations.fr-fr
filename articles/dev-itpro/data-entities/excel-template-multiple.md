@@ -1,5 +1,5 @@
 ---
-title: "Importer des données à partir des modèles d'entité de données Excel avec plusieurs feuilles de calcul"
+title: "Importer des données à partir des modèles d'entité de données Excel contenant plusieurs feuilles de calcul"
 description: "Cette rubrique décrit la procédure d'importation de données à l'aide des modèles d'entité de données Excel dans Microsoft Dynamics 365 for Finance and Operations."
 author: Sunil-Garg
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2aefea9373df20bd3e99026e30aed096dcea9814
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 5bc021ce9f0835f2eda310ef7818c9bc9be749f2
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="excel-templates-with-multiple-worksheets"></a>Modèles Excel avec plusieurs feuilles de calcul
+# <a name="import-data-from-excel-data-entity-templates-that-have-multiple-worksheets"></a>Importer des données à partir des modèles d'entité de données Excel contenant plusieurs feuilles de calcul
 
 [!include [banner](../includes/banner.md)]
 

@@ -1,5 +1,5 @@
 ---
-title: "Paramétrer et gérer des images pour Retail Modern POS"
+title: "Paramétrer et gérer des images pour Retail Modern POS (MPOS)"
 description: "Cet article décrit les étapes impliquées dans le paramétrage et la gestion des images pour les différentes entités qui apparaissent dans Retail Modern POS (MPOS)."
 author: athinesh99
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 2ec39137bcc68bd7d9b71f6798474e88fb89fd1e
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: e364cf988cc80d53605fe88bf0dc1be6021c52e7
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="set-up-and-manage-images-for-retail-modern-pos"></a>Paramétrer et gérer des images pour Retail Modern POS
+# <a name="set-up-and-manage-images-for-retail-modern-pos-mpos"></a>Paramétrer et gérer des images pour Retail Modern POS (MPOS)
 
 [!include [banner](includes/banner.md)]
 
@@ -48,7 +48,7 @@ Les images qui apparaissent dans Retail Modern POS (MPOS) doivent être héberg�
 
 1.  Cliquez sur **Vente au détail** &gt; **Gestion des catalogues** &gt; **Images de catalogue**.
 2.  Dans la page **Images de catalogue**, dans le Volet Actions, cliquez sur **Définir modèle de média**. Dans la boîte de dialogue **Définir modèle de média**, dans le champ **Entité**, **Catalogue** doit être sélectionné par défaut.
-3.  Dans l'organisateur **Chemin d'accès de média**, entrez le chemin restant de l'emplacement d'image. Le chemin d'accès de média prend en charge **LanguageID** comme variable. Par exemple, pour les données de démonstration, vous pouvez créer un dossier **Catalogues** pour toutes les image de catalogue sous l'URL de base de support pour votre serveur multimédia (https://testax3ret.cloud.test.dynamics.com/RetailServer/MediaServer). Vous pouvez ensuite avoir un dossier pour chaque langue (par ex., en-US ou fr-FR) et copier les images appropriées sous chaque dossier. Si vous n'avez pas différentes images pour les différentes langues, vous pouvez omettre la variable **LanguageID** de votre arborescence et pointer directement sur le dossier Catalogues qui contient les images du catalogue. **Remarque :** la version actuelle de Dynamics 365 for Retail prend en charge le jeton **{LanguageId}** pour les entités Catalogue, Produit et Catégorie. (Le jeton **{LanguageID}** n'est pas pris en charge pour les entités Client et Collaborateur, selon la norme existante effective depuis Microsoft Dynamics AX 6.x).
+3.  Dans l'organisateur **Chemin d'accès de média**, entrez le chemin restant de l'emplacement d'image. Le chemin d'accès de média prend en charge **LanguageID** comme variable. Par exemple, pour les données de démonstration, vous pouvez créer un dossier **Catalogues** pour toutes les image de catalogue sous l'URL de base de support pour votre serveur multimédia (https://testax3ret.cloud.test.dynamics.com/RetailServer/MediaServer)). Vous pouvez ensuite avoir un dossier pour chaque langue (par ex., en-US ou fr-FR) et copier les images appropriées sous chaque dossier. Si vous n'avez pas différentes images pour les différentes langues, vous pouvez omettre la variable **LanguageID** de votre arborescence et pointer directement sur le dossier Catalogues qui contient les images du catalogue. **Remarque :** la version actuelle de Dynamics 365 for Retail prend en charge le jeton **{LanguageId}** pour les entités Catalogue, Produit et Catégorie. (Le jeton **{LanguageID}** n'est pas pris en charge pour les entités Client et Collaborateur, selon la norme existante effective depuis Microsoft Dynamics AX 6.x).
 4.  Pour les images, le format du nom de fichier est codé de manière irréversible dans le nom du catalogue et ne peut pas être modifié. Renommez, par conséquent, les images afin qu'elles aient des noms de catalogue appropriés, pour aider à garantir que MPOS les gère correctement.
 5.  Dans le champ **Extension de fichier**, sélectionnez l'extension de nom de fichier prévue, selon le type d'image que vous avez. Par exemple, pour les données de démonstration, les images de catalogue sont définies sur l'extension .jpg. (Les fichiers image sont également renommés afin qu'ils aient des noms de catalogue.)
 6.  Cliquez sur **OK**.

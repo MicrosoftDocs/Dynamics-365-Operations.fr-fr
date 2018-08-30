@@ -1,5 +1,5 @@
 --- 
-title: "Exécuter un format qui utilise des plages extensibles horizontalement pour ajouter dynamiquement des colonnes dans les états Excel"
+title: "Exécuter des formats pour ajouter dynamiquement des colonnes dans les états Excel en tant que plages extensibles horizontalement"
 description: "Les étapes suivantes expliquent comment un utilisateur affecté au rôle d'administrateur système ou de développeur d'états électroniques peut configurer un format d'états électroniques pour générer des états en tant que fichiers de feuilles de calcul (Excel) OPENXML dans lesquels les colonnes requises peuvent être créées dynamiquement sous forme de plages extensibles horizontalement."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2d705d0d2803b5254adc27e6715c1eac311898a7
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: c7d563da9a02c91cce17cfa1d4a6915dd768ac3d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="run-a-format-that-uses-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports"></a>Exécuter un format qui utilise des plages extensibles horizontalement pour ajouter dynamiquement des colonnes dans les états Excel
+# <a name="run-formats-to-dynamically-add-columns-to-excel-reports-as-horizontally-expandable-ranges"></a>Exécuter des formats pour ajouter dynamiquement des colonnes dans les états Excel en tant que plages extensibles horizontalement
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

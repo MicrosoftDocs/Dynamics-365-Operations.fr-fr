@@ -1,5 +1,5 @@
 ---
-title: "Gérer le stock de magasin"
+title: Gestion de stock de magasin
 description: "Cet article décrit les types de documents qui peuvent être utilisés pour gérer le stock."
 author: rubencdelgado
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1fd37bcd7155c61492f5f4990685203ea97bca36
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 72f6f5e2645240ee3ddd31657176f27cb7db404f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="manage-store-inventory"></a>Gérer le stock de magasin
+# <a name="store-inventory-management"></a>Gestion de stock de magasin
 
 [!include [banner](includes/banner.md)]
 

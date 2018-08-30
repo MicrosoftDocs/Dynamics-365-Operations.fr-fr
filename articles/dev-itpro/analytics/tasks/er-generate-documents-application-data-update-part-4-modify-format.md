@@ -1,5 +1,5 @@
 --- 
-title: "Modifier le format pour générer des documents contenant des données d'application"
+title: "Modifier des formats pour générer des documents avec des données d'application"
 description: "Pour réaliser les étapes de cette procédure, vous devez commencer par effectuer la procédure, « ER Générer des documents avec la mise à jour des données d'application (Partie 3 : Modifier le modèle et la mise en correspondance) »."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6c7455e4293993f297aeede4d9d6a50f25ca6c07
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: a095d0326835b0ae7322d5d58307216ee828649e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="modify-format-to-generate-documents-with-application-data"></a>Modifier le format pour générer des documents contenant des données d'application
+# <a name="modify-formats-to-generate-documents-that-have-application-data"></a>Modifier des formats pour générer des documents avec des données d'application
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

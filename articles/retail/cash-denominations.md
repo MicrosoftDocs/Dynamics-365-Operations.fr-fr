@@ -1,5 +1,5 @@
 ---
-title: "Configurer les dénominations des disponibilités pour le PDV"
+title: "Configuration de dénominations des disponibilités pour le point de vente (PDV)"
 description: "Les dénominations des disponibilités pour les billets et les pièces peuvent être définies dans l'arrière-guichet qui sera utilisé par les caissiers, les associés de vente et les directeurs du magasin à partir du PDV."
 author: jblucher
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 45e70765c43b93e9d8abab5fbb9de1d67a739a74
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: afc53754c3ff5b1afed2380369cf8280cfffc5e4
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="configure-cash-denominations-for-pos"></a>Configurer les dénominations des disponibilités pour le PDV
+# <a name="configure-cash-denominations-for-the-point-of-sale-pos"></a>Configuration de dénominations des disponibilités pour le point de vente (PDV)
 
 [!include [banner](includes/banner.md)]
 

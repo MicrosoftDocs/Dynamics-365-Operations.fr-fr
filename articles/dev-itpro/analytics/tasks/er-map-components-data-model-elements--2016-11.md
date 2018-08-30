@@ -1,5 +1,5 @@
 --- 
-title: "Mapper les composants du format créé aux éléments de modèle de données pour la gestion des états électroniques (ER)"
+title: "Mapper les composants des formats à des éléments de modèle de données"
 description: "La procédure suivante explique comment un utilisateur dont le rôle est Administrateur système ou Développeur d'états électroniques peut mettre en correspondance des éléments de modèle de données aux composants de la configuration de la gestion des états électroniques, qui définit un format de document électronique pour le domaine de paiements de l'entreprise."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1c81a1268a56164e0d4465359a0f9ec425ee7c31
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: e065cfbfc645bb7ac48134fe43d87bec013e8c81
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="map-components-of-the-created-format-to-data-model-elements-for-electronic-reporting-er"></a>Mapper les composants du format créé aux éléments de modèle de données pour la gestion des états électroniques (ER)
+# <a name="map-the-components-of-formats-to-data-model-elements"></a>Mapper les composants des formats à des éléments de modèle de données
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

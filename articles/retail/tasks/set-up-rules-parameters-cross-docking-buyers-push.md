@@ -1,5 +1,5 @@
 --- 
-title: " Paramétrer les règles et les paramètres pour le cross-docking et le réassort magasin"
+title: "Paramétrer les règles et les paramètres pour le cross-docking et le réassort magasin"
 description: "Cette procédure décrit les étapes pour créer des règles de réapprovisionnement."
 author: josaw1
 manager: AnnBe
@@ -17,13 +17,13 @@ ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: f3a20b7bf476cae854c7f7c86d89d73e44b6749b
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 08f047ab38aea4958da97d80d7d274644b735cd7
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="set-up-rules-and-parameters-for-cross-docking-and-buyers-push"></a> Paramétrer les règles et les paramètres pour le cross-docking et le réassort magasin
+# <a name="set-up-rules-and-parameters-for-cross-docking-and-buyers-push"></a>Paramétrer les règles et les paramètres pour le cross-docking et le réassort magasin
 
 [!include [task guide banner](../includes/task-guide-banner.md)]
 

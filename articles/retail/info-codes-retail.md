@@ -1,5 +1,5 @@
 ---
-title: Codes info
+title: Codes info et groupes de codes info
 description: "Cet article fournit une vue d'ensemble à propos des codes d'informations, des groupes de codes d'informations et la manière de les utiliser."
 author: mugunthanm
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: ce7cdd22d10c98cef6bf7b2567f0c7b776e04483
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: af289f1c5612af8bc7406058d565649b75ac24d6
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="info-codes"></a>Codes info
+# <a name="info-codes-and-info-code-groups"></a>Codes info et groupes de codes info
 
 [!include [banner](includes/banner.md)]
 

@@ -1,5 +1,5 @@
 --- 
-title: "Définir le mappage de modèles et sélectionner des sources de données pour la gestion des états électroniques (ER)"
+title: "Définir les mises en correspondance de modèles de gestion d'états électroniques et sélectionner des sources de données pour eux"
 description: "Les étapes suivantes expliquent comment un utilisateur doté du rôle Administrateur système ou Développeur d'états électroniques peut sélectionner des sources de données pour un modèle de données de génération d'états électroniques (ER)."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 512e24b5d0e20f00890e2a9abfe45b660a913913
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 2beda3555274fee3f17ad13c54c6823307216385
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="define-model-mapping-and-select-data-sources-for-electronic-reporting-er"></a>Définir le mappage de modèles et sélectionner des sources de données pour la gestion des états électroniques (ER)
+# <a name="define-er-model-mappings-and-select-data-sources-for-them"></a>Définir les mises en correspondance de modèles de gestion d'états électroniques et sélectionner des sources de données pour eux
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -76,7 +76,7 @@ Les étapes suivantes expliquent comment un utilisateur doté du rôle Administr
 16. Dans l'arborescence , développer « Transactions ».
 17. Dans l'arborescence, sélectionnez « Transactions\Document ».
 18. Cliquez sur Ajouter une source de données.
-19. Dans le champ Formule, entrez « CONCATENATE(Transactions.Voucher, "-",  ».
+19. Dans le champ Formule, entrez « CONCATENATE(Transactions.Voucher, "-", ».
     * Tapez [ , “-“, ] à la fin de la formule.  
 20. Dans l'arborescence , sélectionnez « Chaîne\TEXTE ».
 21. Cliquez sur Ajouter une fonction.

@@ -1,5 +1,5 @@
 --- 
-title: "Concevoir un modèle de données spécifique au domaine pour la gestion des états électroniques (ER)"
+title: "Concevoir des modèles de données spécifiques au domaine"
 description: "Les étapes suivantes expliquent comment un utilisateur dont le rôle est Administrateur système ou Développeur d'états électroniques peut créer une configuration de format pour la génération d'états électronique (ER) qui contient un modèle de données pour les documents de paiement électronique."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: fadc5bc54654faf9e91e0831bdd0ff087cea3164
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: c59bdea789c4eafd2443a5d1cf802768259858c6
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="design-a-domain-specific-data-model-for-electronic-reporting-er"></a>Concevoir un modèle de données spécifique au domaine pour la gestion des états électroniques (ER)
+# <a name="design-domain-specific-data-models"></a>Concevoir des modèles de données spécifiques au domaine
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

@@ -1,5 +1,5 @@
 --- 
-title: "Préparer un modèle de données pour utiliser les fichiers de gestion des documents dans les sorties de format"
+title: "Préparer des modèles de données pour utiliser les fichiers dans la sortie ER"
 description: "Les étapes suivantes expliquent comment un utilisateur affecté au rôle d'administrateur système ou de développeur d'états électroniques peut configurer un format de génération d'états électroniques pour utiliser les fichiers de gestion des documents (pièces jointes) dans la sortie ER."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9f99259056fab2d56d1ccf7487681c183551c64f
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: fcafaf17315f54594116a143f36e924bc705d839
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="prepare-data-model-to-use-document-management-files-in-format-outputs"></a>Préparer un modèle de données pour utiliser les fichiers de gestion des documents dans les sorties de format
+# <a name="prepare-data-models-to-use-document-management-files-in-er-output"></a>Préparer des modèles de données pour utiliser les fichiers dans la sortie ER
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

@@ -1,5 +1,5 @@
 --- 
-title: "Définir le processus de rémunération et calculer les résultats"
+title: "Définir des processus de rémunération et calculer les résultats"
 description: "Des processus de rémunération permettent de déterminer de nouveaux montants et primes de rémunération pour les employés inscrits aux régimes de rémunération fixes et variables."
 author: kherr75
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 93f6cddd8d698dbc1a3539a156a762b8e6017aa6
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 350c18eb63e41da2cc26e2fd235a54ea5de2d990
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="define-compensation-process-and-calculate-results"></a>Définir le processus de rémunération et calculer les résultats
+# <a name="define-compensation-processes-and-calculate-results"></a>Définir des processus de rémunération et calculer les résultats
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

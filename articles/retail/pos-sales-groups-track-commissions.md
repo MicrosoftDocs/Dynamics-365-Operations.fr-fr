@@ -1,6 +1,6 @@
 ---
-title: "Suivre les commissions dans le PDV à l'aide des groupes de ventes"
-description: "Il s'agit d'une pratique de vente au détail courante pour suivre les ventes de l'associé qui a travaillé avec le client : fournir une assistance, vente, vente croisée et traitement de la transaction."
+title: Suivre les commissions dans le point de vente (PDV) avec des groupes de ventes
+description: "Il s'agit d'une pratique de vente au détail courante pour suivre les ventes de l'associé qui a travaillé avec le client : fournir une assistance, vente, vente croisée et traitement de la transaction."
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 46d93960932adfe89bccf73fd609de75e9ebd58d
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 737e07233d7ce972986be58cc739a86be3555f4f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="track-commissions-in-pos-using-sales-groups"></a>Suivre les commissions dans le PDV à l'aide des groupes de ventes
+# <a name="track-commissions-in-the-point-of-sale-pos-by-using-sales-groups"></a>Suivre les commissions dans le point de vente (PDV) avec des groupes de ventes
 
 [!include [banner](includes/banner.md)]
 
-Il s'agit d'une pratique de vente au détail courante pour suivre les ventes de l'associé qui a travaillé avec le client : fournir une assistance, vente, vente croisée et traitement de la transaction.
+Il s'agit d'une pratique de vente au détail courante pour suivre les ventes de l'associé qui a travaillé avec le client : fournir une assistance, vente, vente croisée et traitement de la transaction.
 
 Le suivi des ventes par le commercial est une mesure des associés vendant des capacités, tandis que les ventes par le caissier est une mesure de vitesse et de rendement. Les ventes suivies par le commercial sont également généralement utilisées pour calculer des commissions ou d'autres primes.
 

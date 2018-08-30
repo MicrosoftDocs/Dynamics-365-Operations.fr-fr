@@ -21,7 +21,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2fc887668171175d436b9eb281a35c1c9d089591
 ms.openlocfilehash: 1a598d0bd053c60c3f8df6b05ecb7ff15addfaa3
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2018
 Vous pouvez suivre les résultats des formats ER qui génèrent les documents électroniques sortants. Lorsque la génération du suivi est activée (paramètre utilisateur ER **Exécuter en mode débogage**), un nouvel enregistrement de suivi est généré dans le journal d'exécution du format ER chaque fois qu'un état ER est exécuté. Les détails suivants sont enregistrés dans chaque suivi généré :
 
 - Tous les avertissements générés par les règles de validation
-- Toutes les erreurs générées par les règles de validation 
+- Toutes les erreurs générées par les règles de validation
 - Tous les fichiers générés qui sont enregistrés en tant que pièces jointes de l'enregistrement de suivi
 
 Vous pouvez enregistrer plusieurs fichiers d'application de base pour un format ER. Les fichiers sont considérés comme des fichiers de base lorsqu'ils décrivent les résultats attendus des états exécutés. Si un fichier de base est disponible pour un format ER qui a été exécuté alors que la génération du suivi a été activée, le suivi enregistre, en plus des détails mentionnés précédemment, le résultat de la comparaison du document électronique généré au fichier de base. En un clic, vous pouvez également obtenir le document électronique généré et son fichier de base dans un fichier zip unique. Vous pouvez ensuite effectuer une comparaison détaillée à l'aide d'un outil externe tel que Windiff.

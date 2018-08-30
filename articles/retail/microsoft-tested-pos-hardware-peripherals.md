@@ -1,5 +1,5 @@
 ---
-title: "Périphériques matériels de PDV"
+title: "Périphériques matériels de point de vente (PDV) testés par Microsoft"
 description: "Retail Modern point of sale (PDV) et PDV Cloud peuvent utiliser un large éventail des périphériques matériels de PDV, avec des interfaces et des options de déploiement multiples pour exécuter différents scénarios métier d'un détaillant."
 author: jblucher
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 17738e794f18fddc7320b1b40ef55376fba0de24
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: e4191f6765faf9de5cbf8acf16dbd54d6b478252
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="pos-hardware-peripherals"></a>Périphériques matériels de PDV
+# <a name="microsoft-tested-point-of-sale-pos-hardware-peripherals"></a>Périphériques matériels de point de vente (PDV) testés par Microsoft
 
 [!include [banner](includes/banner.md)]
 

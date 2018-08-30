@@ -1,5 +1,5 @@
 --- 
-title: "Créer un format pour utiliser les fichiers de gestion des documents dans les sorties de format"
+title: "Créer des formats pour utiliser les fichiers de gestion des documents dans la sortie ER"
 description: "Les étapes suivantes expliquent comment un utilisateur affecté au rôle d'administrateur système ou de développeur d'états électroniques peut configurer un format de génération d'états électroniques pour utiliser les fichiers de gestion des documents (pièces jointes) dans la sortie ER."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6d5df842dbbf89f5df72c63919fc0bcbf811a09c
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 934775bbdda13238e16fba91dcb90d6d3249e812
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="create-format-to-use-document-management-files-in-format-outputs"></a>Créer un format pour utiliser les fichiers de gestion des documents dans les sorties de format
+# <a name="create-formats-to-use-document-management-files-in-er-output"></a>Créer des formats pour utiliser les fichiers de gestion des documents dans la sortie ER
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

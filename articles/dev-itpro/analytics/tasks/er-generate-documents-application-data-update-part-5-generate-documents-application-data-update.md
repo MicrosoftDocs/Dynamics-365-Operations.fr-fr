@@ -1,5 +1,5 @@
 --- 
-title: "Générer des documents avec des données d'application"
+title: "Générer des documents contenant des données d'application"
 description: "Pour réaliser les étapes de cette procédure, vous devez commencer par effectuer la procédure, « ER Générer des documents avec la mise à jour des données d'application (Partie 4 - Modifier le format) »."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5001adbc1c7fae96e94e7b31a64a5a04ba886dc8
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 90c6ebc456d3e137e43022fad7d59ce3ca2cdcab
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="generate-documents-with-application-data"></a>Générer des documents avec des données d'application
+# <a name="generate-documents-that-have-application-data"></a>Générer des documents contenant des données d'application
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

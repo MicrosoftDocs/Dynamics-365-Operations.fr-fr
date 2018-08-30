@@ -1,5 +1,5 @@
 --- 
-title: "Créer une configuration pour importer des données à partir d'un fichier externe au format CSV (ER)"
+title: "Créer des configurations d'états électroniques pour importer des données à partir de fichiers CSV externes"
 description: "Cette procédure permet de créer des configurations d'états électroniques pour importer des données dans l'application Dynamics 365 for Finance and Operations à partir d'un fichier externe au format CSV."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: f6bfa9f7c0638b0eaacf1a49bcd7d84ffab3acbf
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 8d3ea3d797de154979eae112658cf05d1914feeb
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="design-a-configuration-to-import-data-from-an-external-file-in-csv-format-er"></a>Créer une configuration pour importer des données à partir d'un fichier externe au format CSV (ER)
+# <a name="design-er-configurations-to-import-data-from-external-csv-files"></a>Créer des configurations d'états électroniques pour importer des données à partir de fichiers CSV externes
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -82,7 +82,7 @@ Vous devez également télécharger et enregistrer localement les fichiers suiva
     * Notez que l'élément Root\Line\Types\Record\CountryCode du type STRING a été configuré avec l'option « Zéro un » dans le champ « Multiplicité ». Ce paramètre prend en compte la valeur du champ CountryCode dans la ligne d'analyse comme facultative.   
 11. Dans l'arborescence, sélectionnez « Entrant : Fichier\Racine : Séquence\Ligne : Séquence 1..* \Types : Incident\Enregistrement : Séquence 1..1 (,)\Remarque : Séquence 1..1 (,) ».
     * Notez que l'élément Root\Line\Types\Record\Remark du type SEQUENCE a été configuré avec l'option « Tous » dans le champ « Application de devis » et le caractère double entre guillemets dans le champ « Guillemets ». Cela signifie que tous les champs de ce type de ligne dans le fichier d'analyse (décrits par les éléments imbriqués: Texte du type STRING) seront considérés comme encadrés par des guillemets.  
-12. Dans l'arborescence, sélectionnez « Entrant : Fichier\Racine : Séquence\Ligne : Séquence 1..* \Types : Incident\Non analysé : Séquence 1..1  ».
+12. Dans l'arborescence, sélectionnez « Entrant : Fichier\Racine : Séquence\Ligne : Séquence 1..* \Types : Incident\Non analysé : Séquence 1..1 ».
     * L'élément Root\Line\Types\Unparsed du type SEQUENCE a été configuré pour analyser les lignes de transaction de la structure qui ne correspond pas à celle décrite ci-dessus dans l'élément CASE parent.   
 
 ## <a name="review-the-setting-of-the-format-mapping-to-the-data-model"></a>Passer en revue les paramètres de la mise en correspondance des formats vers un modèle de données
