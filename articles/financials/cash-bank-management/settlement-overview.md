@@ -3,7 +3,7 @@ title: "Vue d'ensemble des règlements"
 description: "Cet article fournit des informations générales sur le processus de règlement. Il décrit les types de transactions pouvant être réglées, quand et comment les transactions peuvent être réglées ainsi que les résultats du processus de règlement."
 author: kweekley
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/24/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,8 +16,8 @@ ms.custom: 14551
 ms.assetid: 0968fa71-5984-415b-8689-759a0136d5d1
 ms.search.region: Global
 ms.author: kweekley
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.search.validFrom: 2018-10-31
+ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 4d45db11c1d5bf7a58f9117fca75679ddfababf5
@@ -51,7 +51,6 @@ Lorsque les transactions sont réglées, le solde impayé de chaque transaction 
 -   Si le montant du paiement est égal au montant de la facture, le paiement et la facture sont clôturés et leur solde est de 0,00.
 
 Si un [paiement est inférieur au montant de la facture](../accounts-payable/vendor-payments-partial-amount.md) en raison d'un escompte de règlement, d'une annulation ou d'un moins-perçu, la facture et le paiement peuvent toujours être clôturés, selon le paramétrage du règlement dans les paramètres de la comptabilité fournisseur et les paramètres de la comptabilité client. Le règlement peut également générer des transactions. Par exemple, le règlement d'une facture et d'un paiement peut produire un escompte de règlement, un profit ou une perte réalisé, des ajustements de taxe, des annulations ou des différences minimes.
-
 
 
 
