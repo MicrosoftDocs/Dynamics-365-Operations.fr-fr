@@ -3,7 +3,7 @@ title: "Vue d'ensemble des règlements"
 description: "Cet article fournit des informations générales sur le processus de règlement. Il décrit les types de transactions pouvant être réglées, quand et comment les transactions peuvent être réglées ainsi que les résultats du processus de règlement."
 author: kweekley
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/24/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,13 +16,13 @@ ms.custom: 14551
 ms.assetid: 0968fa71-5984-415b-8689-759a0136d5d1
 ms.search.region: Global
 ms.author: kweekley
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.search.validFrom: 2018-10-31
+ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: a96bdd8088e72bc0526589bde94242c3acf39a54
+ms.sourcegitcommit: 98ed3378ab05c0c69c9e5b2a82310113a81c2264
+ms.openlocfilehash: dc986b083082b590627f171a359f95099e21d2f5
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 08/31/2018
 
 ---
 
@@ -51,7 +51,6 @@ ms.lasthandoff: 08/07/2018
 -   <span data-ttu-id="fef2a-152">Si le montant du paiement est égal au montant de la facture, le paiement et la facture sont clôturés et leur solde est de 0,00.</span><span class="sxs-lookup"><span data-stu-id="fef2a-152">If the payment amount equals the invoice amount, both the payment and the invoice are closed, and the balance of both is 0.00.</span></span>
 
 <span data-ttu-id="fef2a-153">Si un [paiement est inférieur au montant de la facture](../accounts-payable/vendor-payments-partial-amount.md) en raison d'un escompte de règlement, d'une annulation ou d'un moins-perçu, la facture et le paiement peuvent toujours être clôturés, selon le paramétrage du règlement dans les paramètres de la comptabilité fournisseur et les paramètres de la comptabilité client.</span><span class="sxs-lookup"><span data-stu-id="fef2a-153">If a [payment is less than the invoice amount](../accounts-payable/vendor-payments-partial-amount.md) because of a cash discount, write-off, or underpayment, the invoice and payment might still be closed, depending on the setup of settlement in Accounts payable parameters and Accounts receivable parameters.</span></span> <span data-ttu-id="fef2a-154">Le règlement peut également générer des transactions.</span><span class="sxs-lookup"><span data-stu-id="fef2a-154">Settlement can also generate transactions.</span></span> <span data-ttu-id="fef2a-155">Par exemple, le règlement d'une facture et d'un paiement peut produire un escompte de règlement, un profit ou une perte réalisé, des ajustements de taxe, des annulations ou des différences minimes.</span><span class="sxs-lookup"><span data-stu-id="fef2a-155">For example, the settlement of an invoice and payment might produce a cash discount, realized gain or loss, sales tax adjustments, write-offs, or penny differences.</span></span>
-
 
 
 
