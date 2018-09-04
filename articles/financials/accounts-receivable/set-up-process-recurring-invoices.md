@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 056bc38fc69422b17b1b7720ce37089b27e8aa2e
+ms.sourcegitcommit: 96a9075294c1f2a9cfde03be1aaaa26af90de4c2
+ms.openlocfilehash: ac9e836b0baa24c40554844ea4f3288b80e0c654
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/04/2018
 
 ---
 
@@ -55,11 +55,13 @@ ms.lasthandoff: 08/07/2018
 
 ## <a name="generate-the-recurring-invoices"></a><span data-ttu-id="61d44-125">Générer les factures répétitives</span><span class="sxs-lookup"><span data-stu-id="61d44-125">Generate the recurring invoices</span></span>
 <span data-ttu-id="61d44-126">Dans la page **Factures récurrentes**, il existe une tâche qui traite les modèles de factures récurrentes.</span><span class="sxs-lookup"><span data-stu-id="61d44-126">On the **Recurring invoices** page, there is a task that processes recurring invoice templates.</span></span> <span data-ttu-id="61d44-127">Vous spécifiez la date de facture et le modèle à partir duquel générer les factures.</span><span class="sxs-lookup"><span data-stu-id="61d44-127">You specify the invoice date and the template to generate the invoices from.</span></span> <span data-ttu-id="61d44-128">Les factures sont générées et un même numéro d'identification de récurrence est affecté pour chaque groupe de factures traité.</span><span class="sxs-lookup"><span data-stu-id="61d44-128">Invoices will be generated and assigned a single recurrence ID number for each group of invoices that is processed.</span></span>
-<span data-ttu-id="61d44-129">Validation de factures financières récurrentes</span><span class="sxs-lookup"><span data-stu-id="61d44-129">Post recurring free text invoices</span></span>
+
+<a name="post-recurring-free-text-invoices"></a><span data-ttu-id="61d44-129">Validation de factures financières récurrentes</span><span class="sxs-lookup"><span data-stu-id="61d44-129">Post recurring free text invoices</span></span>
 ---------------------------------
 
 <span data-ttu-id="61d44-130">Une fois les factures récurrentes générées, les ID de récurrence de facture s'affichent dans une tâche de validation dans la page **Factures récurrentes**.</span><span class="sxs-lookup"><span data-stu-id="61d44-130">After recurring invoices are generated, the invoice recurrence IDs appear in a posting task on the **Recurring invoices** page.</span></span> <span data-ttu-id="61d44-131">Vous pouvez afficher toutes les factures pour un ID de récurrence en cliquant sur le lien.</span><span class="sxs-lookup"><span data-stu-id="61d44-131">You can view all of the invoices for a recurrence ID by clicking the link.</span></span> <span data-ttu-id="61d44-132">Lors de la révision des factures pour l'ID de récurrence, vous pouvez supprimer les factures individuelles.</span><span class="sxs-lookup"><span data-stu-id="61d44-132">During your review of the invoices for the recurrence ID, you can delete individual invoices.</span></span> <span data-ttu-id="61d44-133">Les paramètres de récurrence du client seront réinitialisés pour ce modèle, afin qu'il puisse être régénéré ultérieurement.</span><span class="sxs-lookup"><span data-stu-id="61d44-133">The customer's recurrence settings will be reset for that template, so that it can be regenerated later.</span></span> <span data-ttu-id="61d44-134">Vous pouvez valider une, plusieurs ou toutes les factures pour un ID de récurrence.</span><span class="sxs-lookup"><span data-stu-id="61d44-134">You can post one, many, or all of the invoices for a recurrence ID.</span></span> <span data-ttu-id="61d44-135">Si des workflows sont activés, vous devez cliquer sur **Envoyer** avant de pouvoir valider les factures.</span><span class="sxs-lookup"><span data-stu-id="61d44-135">If workflows are enabled, you must click **Submit** before you can post the invoices.</span></span>
-<span data-ttu-id="61d44-136">Impression de factures financières récurrentes</span><span class="sxs-lookup"><span data-stu-id="61d44-136">Print recurring free text invoices</span></span>
+
+<a name="print-recurring-free-text-invoices"></a><span data-ttu-id="61d44-136">Impression de factures financières récurrentes</span><span class="sxs-lookup"><span data-stu-id="61d44-136">Print recurring free text invoices</span></span>
 ----------------------------------
 
 <span data-ttu-id="61d44-137">Une fois les factures récurrentes validées, vous pouvez imprimer les factures à partir de la page de liste des factures financières.</span><span class="sxs-lookup"><span data-stu-id="61d44-137">After recurring invoices are posted, you can print the invoices from the free text invoice list page.</span></span> <span data-ttu-id="61d44-138">Vous pouvez imprimer les factures sélectionnées ou sélectionner une plage de factures à imprimer.</span><span class="sxs-lookup"><span data-stu-id="61d44-138">You can print the invoices that are selected, or you can select a range of invoices to print.</span></span>
