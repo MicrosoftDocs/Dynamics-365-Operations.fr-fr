@@ -3,23 +3,24 @@ title: "Modifier une prévision de la demande manuellement"
 description: "Cette procédure permet d'indiquer comment modifier la prévision pour un article."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/15/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: EcoResProductDetailsExtended, ForecastSales
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 799dd89433ff561fd8a5cc5c082165ef9bb74923
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 2e269ef7b33b4d7e171d284d68d28c825c2fe86c
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="modify-a-demand-forecast-manually"></a>Modifier une prévision de la demande manuellement
@@ -44,6 +45,6 @@ Cette procédure permet d'indiquer comment modifier la prévision pour un articl
 ## <a name="modify-the-forecast-in-excel"></a>Modifier la prévision dans Excel
 1. Cliquez sur Ouvrir dans Microsoft Office.
 2. Cliquez sur Modifier la prévision de la demande dans Excel.
-    * Dans Excel, vous pouvez ajouter, supprimer et modifier des lignes de prévision de la demande. Si vous ne pouvez pas afficher les données dans Excel, vous devez vous connecter à Microsoft Dynamics 365 for Finance and Operations avec l'option « Maintenir la connexion » activée et vous devez approuver l'application de connexion de données.  
+    * Dans Excel, vous pouvez ajouter, supprimer et modifier des lignes de prévision de la demande. Si vous ne pouvez pas afficher les données dans Excel, vous devez vous connecter à Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition avec l'option « Maintenir la connexion » activée et vous devez approuver l'application de connexion de données.  
 
 

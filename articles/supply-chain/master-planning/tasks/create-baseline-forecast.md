@@ -3,23 +3,24 @@ title: "Créer une prévision de base"
 description: "Un responsable de production peut créer une prévision de base à l'aide des modèles de prévision de série chronologiques ou en copiant la demande historique."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 111/02/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ReqIntercompanyPlanningGroupSetup, ReqIntercompanyPlanningGroupAllocKeys, ReqDemPlanForecastParameters, ReqDemPlanCreateForecastDialog, SysQueryForm, ReqDemPlanForecastViewer
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 76334f7ee4efe33df4a86aaa11a59748387cec89
-ms.openlocfilehash: 6a712077fed4a94ae6ae6ce7ea2cfba8848e5fa5
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: e6363ee48c0d13c79a6c623205dfa10f50d6070f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="create-a-baseline-forecast"></a>Créer une prévision de base
@@ -42,7 +43,7 @@ Un responsable de production peut créer une prévision de base à l'aide des mo
 7. Fermez la page.
 8. Fermez la page.
 
-## <a name="set-up-the-demand-forecasting-parameters"></a>Définir des paramètres de prévision de la demande
+## <a name="set-up-the-demand-forecasting-paramters"></a>Définir des paramètres de prévision de la demande 
 1. Accédez à Planification > Paramétrage> Prévision de la demande > Paramètres de prévision de la demande.
 2. Développez la section Paramètres de l'algorithme de prévision.
 3. Dans le champ Stratégie de génération de la prévision, sélectionnez Copier sur la demande historique.

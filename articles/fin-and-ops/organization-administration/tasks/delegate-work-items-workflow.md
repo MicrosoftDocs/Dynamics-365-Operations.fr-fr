@@ -3,18 +3,19 @@ title: "Délégation d'éléments de travail dans un workflow"
 description: "Si vous pensez vous absenter du bureau ou être dans l'incapacité d'agir sur des éléments de travail, vous pouvez déléguer ou réaffecter vos éléments de travail à d'autres utilisateurs."
 author: jasongre
 manager: AnnBe
-ms.date: 02/21/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: SysUserSetup, WorkflowDelegationUserListLookup
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: 4765fec0cdce0e2f8859c979ff97d20aa6b20bfa

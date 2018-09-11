@@ -3,19 +3,20 @@ title: " Configurer des recommandations de produit exécutées par Machine Learn
 description: "Cette procédure actualise les données du magasin des entités qui sont utilisées par le système Machine Learning exécutant les recommandations de produit, puis active les recommandations de produit pour les clients POS."
 author: ashishmsft
 manager: AnnBe
-ms.date: 10/27/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-retail
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BIMeasurementDeployManagementEntityStore, RetailParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
 ms.openlocfilehash: 277ffb879b80fe57deeaa2b52c1543baaf820274
@@ -25,7 +26,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="configure-machine-learning-powered-product-recommendations"></a> Configurer des recommandations de produit exécutées par Machine Learning
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include[task guide banner](../includes/task-guide-banner.md)]
 
 Cette procédure actualise les données du magasin des entités qui sont utilisées par le système Machine Learning exécutant les recommandations de produit, puis active les recommandations de produit pour les clients POS. Cette procédure utilise la société USRT dans les données de démonstration.
 

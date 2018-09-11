@@ -3,24 +3,25 @@ title: "Générer un état de la progression sur un périphérique mobile"
 description: "Cette procédure vous indique comment démarrer une tâche de production et générer un état de la progression de celle-ci dans le formulaire d'enregistrement du périphérique de tâche."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: JmgRegistrationTouch, JmgRegistrationTouchUserConfiguration, JmgRegistrationTouchStart, JmgRegistrationTouchReportFeedback, JmgRegistrationTouchAssignedJobs, JmgRegistrationTouchBreak, JmgRegistrationTouchLeave, JmgRegistrationTouchIndirectActivity, JmgDialogForm
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8a0432b5ff01bf88b9c18de0cac0661618c654ba
+ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
+ms.openlocfilehash: acbedc6d27624d9a8d1e6fb9bb0d9abed1b4377f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="report-progress-on-a-mobile-job-device"></a>Générer un état de la progression sur un périphérique mobile
@@ -34,7 +35,7 @@ Cette procédure vous indique comment démarrer une tâche de production et gén
 Pour que vous soyez en mesure d'exécuter cette procédure, le rôle Administrateur système ou Opérateur doit être associé au compte utilisateur.
 
 1. Accédez à Contrôle de la production > Contrôle et suivi de la production > Périphérique pour le bon de travail.
-2. Dans le champ WorkerTextField, entrez le numéro de badge d'un collaborateur. Dans la société fictive USMF, tapez « 123 » pour Christina. Portra.
+2. Dans le champ WorkerTextField, entrez le numéro de badge d'un collaborateur. Dans la société fictive USMF, tapez « 123 » pour Christina. Portra.
 3. Cliquez sur Connexion.
 4. Cliquez sur le bouton de filtre.
 5. Cochez ou décochez la case Appliquer le filtre de configuration. Si vous définissez un filtre, vous pouvez utiliser l'unité de production 110 dans USMF.

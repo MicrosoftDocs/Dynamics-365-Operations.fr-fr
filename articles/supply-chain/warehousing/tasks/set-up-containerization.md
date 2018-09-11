@@ -3,24 +3,25 @@ title: "Définir une logique de mise en conteneur"
 description: "Cette procédure décrit comment automatiser la mise en conteneur des charges dans la gestion des entrepôts."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSContainerType, WHSContainerGroup, WHSContainerizationTable, WHSContainerizationBreak, WHSCreateContainerBreak
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 76334f7ee4efe33df4a86aaa11a59748387cec89
-ms.openlocfilehash: c5faf926071dec5d2ddc1c9e921a98ecd0754917
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: aeb7d956560c513c08d5e20dcf20989b49137a52
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="set-up-containerization"></a>Définir une logique de mise en conteneur
@@ -83,7 +84,7 @@ Cette procédure décrit comment automatiser la mise en conteneur des charges da
 ## <a name="set-up-a-container-group"></a>Paramétrer un groupe de conteneurs
 1. Accédez à Gestion des entrepôts > Paramétrage > Conteneurs > Groupes de conteneurs.
 2. Cliquez sur Nouveau.
-    * Vous pouvez paramétrer des groupes logiques de types de conteneur. Pour chaque groupe, vous pouvez spécifier l'ordre dans lequel les conteneurs sont emballés, et le pourcentage de remplissage de chaque conteneur. Les dimensions de taille de l'article sont utilisées pour déterminer s'il tiendra dans un conteneur. Le conteneur qui est le plus proche des dimensions de taille de l'article est utilisé. Si vous avez plusieurs types de conteneur dans un groupe, nous vous recommandons de réorganiser l'ordre par taille, afin que le conteneur le plus grand soit en premier, numéro 1 dans l'ordre, et que le plus petit conteneur soit le dernier.    
+    * Vous pouvez paramétrer des groupes logiques de types de conteneur. Pour chaque groupe, vous pouvez spécifier l'ordre dans lequel conditionner les conteneurs et le pourcentage de conteneurs à remplir. Les dimensions de taille de l'article sont utilisées pour déterminer s'il passera dans un conteneur. Le conteneur qui est le plus proche des dimensions de taille de l'article est utilisé. Si vous avez plusieurs types de conteneur dans un groupe, nous vous recommandons de réorganiser l'ordre par taille, afin que le conteneur le plus grand soit en premier, numéro 1 dans l'ordre, et que le plus petit conteneur soit le dernier.    
 3. Tapez une valeur dans le champ ID groupe de conteneurs.
 4. Dans le champ Description, entrez une valeur.
 5. Cliquez sur Nouveau.

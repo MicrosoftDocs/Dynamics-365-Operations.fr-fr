@@ -1,28 +1,29 @@
 --- 
-title: "Créer des entités juridiques"
+title: "Créer une entité juridique"
 description: "Une entité juridique est une organisation identifiée par son enregistrement auprès d'une autorité juridique."
 author: sericks007
 manager: AnnBe
-ms.date: 06/09/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: OMLegalEntity, OMNewLegalEntity
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 4cbfbc5eab20cd94eb8e92f81f18b1f6b5b9cac1
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 89d3babc4447ca7398521b93634db7ecb6cfb5de
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 11/06/2017
 
 ---
-# <a name="create-legal-entities"></a>Créer des entités juridiques
+# <a name="create-a-legal-entity"></a>Créer une entité juridique
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

@@ -3,19 +3,20 @@ title: "Configurer un collaborateur à l'aide du périphérique de travail mobil
 description: "Cette procédure vous indique comment affecter des rôles corrects au compte utilisateur d'un collaborateur, puis autoriser ce collaborateur à effectuer des enregistrements d'atelier."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: SysUserManagement, HcmWorker, JmgRegistrationSetupTouch, JmgRegistrationSetupAssignUsers
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: dadf0e87eac8522f61bb094c146e37f46a21fc09
 ms.openlocfilehash: f9de2f79c68fead5ede714ff05bba97118874aad
@@ -68,4 +69,5 @@ Cette procédure vous indique comment affecter des rôles corrects au compte uti
 5. Cliquez sur Modifier.
 6. Dans le champ Unité de production, vous pouvez définir le filtre par défaut pour le collaborateur. Cela garantit que seules les tâches de production pour l'unité de production sélectionnée sont affichées lorsque le collaborateur se connecte au périphérique.
 7. Fermez la page.
+
 

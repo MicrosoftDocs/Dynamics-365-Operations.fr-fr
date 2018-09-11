@@ -1,28 +1,29 @@
 --- 
-title: "Créer des traitements par lots"
+title: "Création d'un traitement par lots"
 description: "Un traitement par lots est un groupe de tâches soumis à une instance Serveur d'objets d'application (AOS) pour un traitement automatique."
 author: maertenm
 manager: AnnBe
-ms.date: 11/10/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BatchJob, SysRecurrence, BatchAlerts
 audience: Application User
-ms.reviewer: sericks
-ms.search.scope: Operations
+ms.reviewer: margoc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: b32c16a0c0045e22128746f81c6e9fd03370ac1f
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 31c8e2ba87ef8c17a3147e1159104585258d4164
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 11/06/2017
 
 ---
-# <a name="create-batch-jobs"></a>Créer des traitements par lots
+# <a name="create-a-batch-job"></a>Création d'un traitement par lots
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

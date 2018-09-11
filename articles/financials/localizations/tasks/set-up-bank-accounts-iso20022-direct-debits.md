@@ -3,23 +3,24 @@ title: "Paramétrer les clients et les comptes bancaires du client pour les déb
 description: "Cette tâche vous guide dans le paramétrage d'un compte bancaire client et d'un mandat de débit direct client qui sont requis pour générer le fichier de paiement client, par exemple le débit direct ISO20022."
 author: mrolecki
 manager: AnnBe
-ms.date: 10/31/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CustTable, CustBankAccounts, CustDirectDebitMandate, BankAccountTableLookUp,  LogisticsAddressCityLookup
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 22fadf126dfa884520bc2fe6f94bc3fe3b612f77
-ms.openlocfilehash: 86c3f62e17d4955c12d09b512624eb5f576a9cd3
+ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
+ms.openlocfilehash: 5b4652b76e089d6beb2ce1513d06cf07a5ea3195
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="set-up-customers-and-customer-bank-accounts-for-iso20022-direct-debits"></a>Paramétrer les clients et les comptes bancaires du client pour les débits directs ISO20022

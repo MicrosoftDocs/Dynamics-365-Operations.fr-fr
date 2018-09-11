@@ -3,18 +3,19 @@ title: "Créer des types de sollicitation et des critères d'attribution pour le
 description: "Ce guide montre comment créer un type de sollicitation et l'associer à une méthode d'attribution de score."
 author: mkirknel
 manager: AnnBe
-ms.date: 08/23/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: PurchRFQSolicitationType, PurchRFQCaseTableListPage, PurchCreateRFQCase, PurchRFQCaseTable, PurchRFQScoringRFQCaseCriteria, PurchRFQScoringCriteriaCopy
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 095855d552d228375635bdbaa9fca37c47a3b952
@@ -42,6 +43,7 @@ Ce guide montre comment créer un type de sollicitation et l'associer à une mé
 1. Accédez à Approvisionnements > Demandes de devis > Toutes les demandes de devis
 2. Cliquez sur Nouveau.
 3. Dans le champ Type de sollicitation, choisissez le type de sollicitation que vous venez de créer. 
+    *   
 4. Cliquez sur OK.
 5. Cliquez sur Critères d'attribution de score.
     * Les critères d'attribution de score qui sont montrés sont ceux de la méthode d'attribution de score associée au type de sollicitation. Vous pouvez choisir d'ajouter ou de supprimer des critères sur cette page. Il est également possible d'ajouter de nouveaux critères en les copiant à partir d'autres méthodes d'attribution de score.  

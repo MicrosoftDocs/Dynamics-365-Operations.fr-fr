@@ -1,26 +1,27 @@
 --- 
 title: "Paramétrer les classifications de contrat d'achat dans le secteur public"
 description: "La classification de contrat d'achat vous permet de contrôler les informations administratives disponibles dans les contrats d'achat."
-author: ShylaThompson
+author: twheeloc
 manager: AnnBe
-ms.date: 10/30/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: AgreementClassification
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: shylaw
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e57db8f4b692aa9c27916625897e268f63031782
-ms.openlocfilehash: 1cbcbb267d10120e7fbe05dc56b36eeab9842b62
+ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
+ms.openlocfilehash: 1827f885d188ae04d35748c83698db7801b8eee1
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="set-up-purchase-agreement-classifications-in-the-public-sector"></a>Paramétrer les classifications de contrat d'achat dans le secteur public
@@ -31,7 +32,7 @@ La classification de contrat d'achat vous permet de contrôler les informations 
 
 Cette procédure a été créée pour le secteur public français, en utilisant les données de la société fictive PSUS dans la partition du secteur public.
 
-1. Accédez à Approvisionnements > Paramétrage > Classification de contrat d'achat.
+1. Accédez à Approvisionnements > Paramétrage > .. > Classifications du contrat d'achat.
 2. Cliquez sur Nouveau.
 3. Tapez une valeur dans le champ Nom.
 4. Dans le champ Description, entrez une valeur.
