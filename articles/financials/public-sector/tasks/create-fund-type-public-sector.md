@@ -1,26 +1,27 @@
 --- 
 title: "Créer un type de fonds dans le secteur public"
 description: "Les types de fonds sont des catégories que vous pouvez utiliser pour regrouper des fonds à des fins de suivi et de génération d'états fiscaux détaillés."
-author: ShylaThompson
+author: twheeloc
 manager: AnnBe
-ms.date: 02/12/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerFundType
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: shylaw
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: d83bbc362deaa2c5b257d761201ebbba5693366c
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 0ad2908f8ec68de045e26c5b0fe6dfd4a150e75f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="create-a-fund-type-in-the-public-sector"></a><span data-ttu-id="070e7-103">Créer un type de fonds dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="070e7-103">Create a fund type in the public sector</span></span>

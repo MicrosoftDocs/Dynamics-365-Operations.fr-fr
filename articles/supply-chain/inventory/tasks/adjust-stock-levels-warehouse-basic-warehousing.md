@@ -1,26 +1,27 @@
----
+--- 
 title: "Ajuster les niveaux des stocks dans l'entrepôt (entreposage de base)"
 description: "Cette procédure vous accompagne au long du processus de création et de validation d'un journal d'ajustement du stock afin d'ajuster les niveaux de stock des produits dans l'entrepôt."
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventJournalLossProfit, InventJournalCreate, InventLocationIdLookup
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 43083d52b6b656cd7dd31f4d4cf4225efd8fd28c
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 75ff53872fd81d5b25964c1ba65127f9feaf2b45
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="adjust-stock-levels-in-the-warehouse-basic-warehousing"></a><span data-ttu-id="8954e-103">Ajuster les niveaux des stocks dans l'entrepôt (entreposage de base)</span><span class="sxs-lookup"><span data-stu-id="8954e-103">Adjust stock levels in the warehouse (basic warehousing)</span></span>
@@ -58,4 +59,5 @@ ms.lasthandoff: 08/07/2018
 4. <span data-ttu-id="8954e-133">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="8954e-133">Click OK.</span></span>
 5. <span data-ttu-id="8954e-134">Permet de fermer l'écran.</span><span class="sxs-lookup"><span data-stu-id="8954e-134">Close the form.</span></span>
 6. <span data-ttu-id="8954e-135">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="8954e-135">Close the page.</span></span>
+
 

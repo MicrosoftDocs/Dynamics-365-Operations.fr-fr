@@ -1,26 +1,27 @@
 --- 
 title: "Paramétrer un fonds dans le secteur public"
 description: "Vous devez créer des types de fonds avant de pouvoir paramétrer des fonds."
-author: ShylaThompson
+author: twheeloc
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerFund
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: shylaw
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 02838dcca340e9b486e17afc1dbc6f6f13d69afe
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 3192bce38489be6d6ea1f6ba3ae57e10f88d2be5
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="set-up-a-fund-in-the-public-sector"></a><span data-ttu-id="7a04a-103">Paramétrer un fonds dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="7a04a-103">Set up a fund in the public sector</span></span>

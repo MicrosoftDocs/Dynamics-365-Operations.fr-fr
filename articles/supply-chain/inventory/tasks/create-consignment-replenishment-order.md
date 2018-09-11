@@ -1,26 +1,27 @@
----
+--- 
 title: "Créer une commande de réapprovisionnement avec consignation"
 description: "Cette procédure indique comment créer une commande de réapprovisionnement avec consignation pour vous permettre de suivre la livraison prévue d'un fournisseur dans le stock de consignation."
 author: mkirknel
 manager: AnnBe
-ms.date: 10/13/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ConsignmentReplenishmentOrder, ConsignmentReplenishmentOrderCreate, InventTrans, ConsignmentDraftReplenishmentOrderJournal, InventOnhandMovement, InventOnhandItem, InventItemIdLookupSimple
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 6366d6188d97ca54ba65c11699140be9ae2d4002
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 686a4bc1e9d752cc6d33354d03ba3c536c0854dc
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="create-a-consignment-replenishment-order"></a><span data-ttu-id="0acd0-103">Créer une commande de réapprovisionnement avec consignation</span><span class="sxs-lookup"><span data-stu-id="0acd0-103">Create a consignment replenishment order</span></span>
@@ -60,7 +61,7 @@ ms.lasthandoff: 08/07/2018
 ## <a name="receive-items"></a><span data-ttu-id="0acd0-132">Recevoir articles</span><span class="sxs-lookup"><span data-stu-id="0acd0-132">Receive items</span></span>
 1. <span data-ttu-id="0acd0-133">Cliquez sur Accusé de réception de marchandises.</span><span class="sxs-lookup"><span data-stu-id="0acd0-133">Click Product receipt.</span></span>
 2. <span data-ttu-id="0acd0-134">Dans le champ Accusé de réception de marchandises externe, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="0acd0-134">In the External product receipt field, type a value.</span></span>
-3. <span data-ttu-id="0acd0-135">Dans le champ Quantité, entrez un nombre inférieur au nombre indiqué ici.</span><span class="sxs-lookup"><span data-stu-id="0acd0-135">In the Quantity field, enter a number that’s lower than the number that’s shown there.</span></span>
+3. <span data-ttu-id="0acd0-135">Dans le champ Quantité, entrez un nombre inférieur au nombre indiqué ici.</span><span class="sxs-lookup"><span data-stu-id="0acd0-135">In the Quantity field, enter a number that’s lower than the number that’s shown there.</span></span> 
 4. <span data-ttu-id="0acd0-136">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="0acd0-136">Click OK.</span></span>
 
 ## <a name="check-the-on-hand-inventory"></a><span data-ttu-id="0acd0-137">Vérifier le stock disponible</span><span class="sxs-lookup"><span data-stu-id="0acd0-137">Check the on-hand inventory</span></span>
@@ -70,4 +71,5 @@ ms.lasthandoff: 08/07/2018
     * <span data-ttu-id="0acd0-141">Les articles reçus comme stock de consignation appartenant au fournisseur sont disponibles.</span><span class="sxs-lookup"><span data-stu-id="0acd0-141">The items that have been received as consignment inventory owned by the vendor are available on-hand.</span></span> <span data-ttu-id="0acd0-142">La quantité restante sur la commande de réapprovisionnement avec consignation est affichée dans le champ Total commandé.</span><span class="sxs-lookup"><span data-stu-id="0acd0-142">The remaining quantity on the consignment replenishment order is shown in the Ordered in total field.</span></span>  
 4. <span data-ttu-id="0acd0-143">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="0acd0-143">Close the page.</span></span>
 5. <span data-ttu-id="0acd0-144">Cliquez sur Fermer.</span><span class="sxs-lookup"><span data-stu-id="0acd0-144">Click Close.</span></span>
+
 

@@ -3,23 +3,24 @@ title: "Créer des types de sollicitation et des critères d'attribution pour le
 description: "Ce guide montre comment créer un type de sollicitation et l'associer à une méthode d'attribution de score."
 author: mkirknel
 manager: AnnBe
-ms.date: 08/23/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: PurchRFQSolicitationType, PurchRFQCaseTableListPage, PurchCreateRFQCase, PurchRFQCaseTable, PurchRFQScoringRFQCaseCriteria, PurchRFQScoringCriteriaCopy
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 94bede40e8830f8d51dde5e34a03a9ad0c0144eb
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 5d2b0d1e998149a5045c655d74591c56bff81246
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="create-solicitation-types-and-scoring-criteria-for-rfqs"></a><span data-ttu-id="4583b-103">Créer des types de sollicitation et des critères d'attribution pour les demandes de devis</span><span class="sxs-lookup"><span data-stu-id="4583b-103">Create solicitation types and scoring criteria for RFQs</span></span>
@@ -42,6 +43,7 @@ ms.lasthandoff: 08/07/2018
 1. <span data-ttu-id="4583b-118">Accédez à Approvisionnements > Demandes de devis > Toutes les demandes de devis</span><span class="sxs-lookup"><span data-stu-id="4583b-118">Go to Procurement and sourcing > Requests for quotations > All requests for quotations.</span></span>
 2. <span data-ttu-id="4583b-119">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="4583b-119">Click New.</span></span>
 3. <span data-ttu-id="4583b-120">Dans le champ Type de sollicitation, choisissez le type de sollicitation que vous venez de créer.</span><span class="sxs-lookup"><span data-stu-id="4583b-120">In the Solicitation type field, select the solicitation type that you have just created.</span></span> 
+    *   
 4. <span data-ttu-id="4583b-121">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="4583b-121">Click OK.</span></span>
 5. <span data-ttu-id="4583b-122">Cliquez sur Critères d'attribution de score.</span><span class="sxs-lookup"><span data-stu-id="4583b-122">Click Scoring criteria.</span></span>
     * <span data-ttu-id="4583b-123">Les critères d'attribution de score qui sont montrés sont ceux de la méthode d'attribution de score associée au type de sollicitation.</span><span class="sxs-lookup"><span data-stu-id="4583b-123">The scoring criteria that are shown are the ones from the scoring method that you associated with the solicitation type.</span></span> <span data-ttu-id="4583b-124">Vous pouvez choisir d'ajouter ou de supprimer des critères sur cette page.</span><span class="sxs-lookup"><span data-stu-id="4583b-124">You can choose to add or delete criteria on this page.</span></span> <span data-ttu-id="4583b-125">Il est également possible d'ajouter de nouveaux critères en les copiant à partir d'autres méthodes d'attribution de score.</span><span class="sxs-lookup"><span data-stu-id="4583b-125">It's also possible to add new criteria by copying them from other scoring methods.</span></span>  

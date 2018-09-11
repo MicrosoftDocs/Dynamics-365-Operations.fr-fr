@@ -3,23 +3,24 @@ title: "Générer et valider les factures financières récurrentes"
 description: "Les factures récurrentes permettent de facturer les clients régulièrement pour le même compte."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 10/23/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: SysLookupMultiSelectGrid, CustRecurrenceInvoiceGroup, CustFreeInvoice, CustRecurrenceInvoiceTotals
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: fc0829648d8129f0264da744ff9bb39017b714a2
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 817da36aebb4a8e7cbd986734ef9d5028982cbb6
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="generate-and-post-recurring-free-text-invoices"></a><span data-ttu-id="cda2a-103">Générer et valider les factures financières récurrentes</span><span class="sxs-lookup"><span data-stu-id="cda2a-103">Generate and post recurring free text invoices</span></span>

@@ -3,23 +3,24 @@ title: "Création d'un compte principal"
 description: "Ce guide accompagne l'utilisateur lors de l'ajout d'un compte principal à un plan de comptes existant."
 author: aprilolson
 manager: AnnBe
-ms.date: 11/10/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: MainAccount, CompanyInfoList
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 40a1247a84efbeae232b6f51c59a12e0333cbe44
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 0f37144b58ab6eb6873bb7e470cbfc1d59d56863
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="create-a-main-account"></a><span data-ttu-id="9d7c7-103">Création d'un compte principal</span><span class="sxs-lookup"><span data-stu-id="9d7c7-103">Create a main account</span></span>

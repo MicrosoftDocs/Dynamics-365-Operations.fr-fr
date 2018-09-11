@@ -1,2 +1,1 @@
-> [!NOTE]
-> <span data-ttu-id="bbdac-101">Nous n'accepterons pas de modifications à cette rubrique car elle est générée à partir d'un processus d'entreprise dans Lifecycle Services.</span><span class="sxs-lookup"><span data-stu-id="bbdac-101">We will not be accepting edits to this topic, because it is generated from a business process in Lifecycle Services.</span></span>
+

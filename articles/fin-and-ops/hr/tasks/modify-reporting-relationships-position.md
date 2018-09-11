@@ -1,46 +1,47 @@
 --- 
-title: "Modification des relations hiérarchiques de postes"
+title: "Modifier les relations hiérarchiques d'un poste"
 description: "Cette procédure illustre comment modifier la relation hiérarchique pour un employé."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 03/02/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: HcmPosition, HcmPositionReportsToDialog, HcmPositionLookup
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations, Talent
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 2e52552ec5bce957ac43c2e34ac9a0e42829accd
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: f227afcb8d2c8a5e4b7502e907721c4dff532881
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/11/2018
 
 ---
-# <a name="modify-the-reporting-relationships-for-positions"></a><span data-ttu-id="2e52d-103">Modification des relations hiérarchiques de postes</span><span class="sxs-lookup"><span data-stu-id="2e52d-103">Modify the reporting relationships for positions</span></span>
+# <a name="modify-reporting-relationships-for-a-position"></a><span data-ttu-id="7527a-103">Modifier les relations hiérarchiques d'un poste</span><span class="sxs-lookup"><span data-stu-id="7527a-103">Modify reporting relationships for a position</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="2e52d-104">Cette procédure illustre comment modifier la relation hiérarchique pour un employé.</span><span class="sxs-lookup"><span data-stu-id="2e52d-104">This procedure shows how to change the reporting relationship for an employee.</span></span> <span data-ttu-id="2e52d-105">La relation hiérarchique peut être utilisée pour acheminer des documents dans le workflow.</span><span class="sxs-lookup"><span data-stu-id="2e52d-105">The reporting relationship can be used for routing documents through workflow.</span></span> <span data-ttu-id="2e52d-106">La procédure illustre également la manière d'affecter l'employé à des hiérarchies supplémentaires.</span><span class="sxs-lookup"><span data-stu-id="2e52d-106">The procedure also shows how to assign the employee to additional hierarchies.</span></span> <span data-ttu-id="2e52d-107">Par exemple, un employé peut faire partie d'une équipe de projet avec une relation hiérarchique informelle envers un superviseur du projet.</span><span class="sxs-lookup"><span data-stu-id="2e52d-107">For example, an employee might be a part of a project team with an informal reporting relationship to a project supervisor.</span></span> <span data-ttu-id="2e52d-108">Les relations hiérarchiques supplémentaires peuvent être définies par rapport au poste afin de convenir à divers scénarios de projet ou de matrice.</span><span class="sxs-lookup"><span data-stu-id="2e52d-108">Additional reporting relationships can be defined on the position to accommodate various project or matrix scenarios.</span></span> <span data-ttu-id="2e52d-109">Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.</span><span class="sxs-lookup"><span data-stu-id="2e52d-109">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="7527a-104">Cette procédure illustre comment modifier la relation hiérarchique pour un employé.</span><span class="sxs-lookup"><span data-stu-id="7527a-104">This procedure shows how to change the reporting relationship for an employee.</span></span> <span data-ttu-id="7527a-105">La relation hiérarchique peut être utilisée pour acheminer des documents dans le workflow.</span><span class="sxs-lookup"><span data-stu-id="7527a-105">The reporting relationship can be used for routing documents through workflow.</span></span> <span data-ttu-id="7527a-106">La procédure illustre également la manière d'affecter l'employé à des hiérarchies supplémentaires.</span><span class="sxs-lookup"><span data-stu-id="7527a-106">The procedure also shows how to assign the employee to additional hierarchies.</span></span> <span data-ttu-id="7527a-107">Par exemple, un employé peut faire partie d'une équipe de projet avec une relation hiérarchique informelle envers un superviseur du projet.</span><span class="sxs-lookup"><span data-stu-id="7527a-107">For example, an employee might be a part of a project team with an informal reporting relationship to a project supervisor.</span></span> <span data-ttu-id="7527a-108">Les relations hiérarchiques supplémentaires peuvent être définies par rapport au poste afin de convenir à divers scénarios de projet ou de matrice.</span><span class="sxs-lookup"><span data-stu-id="7527a-108">Additional reporting relationships can be defined on the position to accommodate various project or matrix scenarios.</span></span> <span data-ttu-id="7527a-109">Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.</span><span class="sxs-lookup"><span data-stu-id="7527a-109">The demo data company used to create this procedure is USMF.</span></span>
 
-1. <span data-ttu-id="2e52d-110">Accédez à Ressources humaines > Postes > Postes.</span><span class="sxs-lookup"><span data-stu-id="2e52d-110">Go to Human resources > Positions > Positions.</span></span>
-2. <span data-ttu-id="2e52d-111">Utilisez le Filtre rapide pour rechercher les enregistrements.</span><span class="sxs-lookup"><span data-stu-id="2e52d-111">Use the Quick Filter to find records.</span></span> <span data-ttu-id="2e52d-112">Par exemple, filtrez sur le champ Poste avec une valeur de « 000091 ».</span><span class="sxs-lookup"><span data-stu-id="2e52d-112">For example, filter on the Position field with a value of '000091'.</span></span>
-3. <span data-ttu-id="2e52d-113">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="2e52d-113">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="2e52d-114">Développez la section Poste de référence.</span><span class="sxs-lookup"><span data-stu-id="2e52d-114">Expand the Reports to position section.</span></span>
-5. <span data-ttu-id="2e52d-115">Cliquez sur Nouveau pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="2e52d-115">Click New to open the drop dialog.</span></span>
-6. <span data-ttu-id="2e52d-116">Dans le champ Référence, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="2e52d-116">In the Reports to field, enter or select a value.</span></span>
-7. <span data-ttu-id="2e52d-117">Cliquez sur Créer.</span><span class="sxs-lookup"><span data-stu-id="2e52d-117">Click Create.</span></span>
-8. <span data-ttu-id="2e52d-118">Développez ou réduisez la section Relations.</span><span class="sxs-lookup"><span data-stu-id="2e52d-118">Expand the Relationships section.</span></span>
-9. <span data-ttu-id="2e52d-119">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="2e52d-119">Click Add.</span></span>
-10. <span data-ttu-id="2e52d-120">Cochez la case située à gauche de la grille.</span><span class="sxs-lookup"><span data-stu-id="2e52d-120">Select the check box on the left of the grid.</span></span>
-11. <span data-ttu-id="2e52d-121">Dans le champ Nom de la hiérarchie, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="2e52d-121">In the Hierarchy name field, enter or select a value.</span></span>
-    * <span data-ttu-id="2e52d-122">Exemple : Projet</span><span class="sxs-lookup"><span data-stu-id="2e52d-122">Example: Project</span></span>  
-12. <span data-ttu-id="2e52d-123">Dans le champ Poste de référence, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="2e52d-123">In the Reports to position field, enter or select a value.</span></span>  <span data-ttu-id="2e52d-124">Exemple : 000437</span><span class="sxs-lookup"><span data-stu-id="2e52d-124">Example:  000437</span></span>
-13. <span data-ttu-id="2e52d-125">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="2e52d-125">Click Save.</span></span>
+1. <span data-ttu-id="7527a-110">Accédez à Ressources humaines > Postes > Postes.</span><span class="sxs-lookup"><span data-stu-id="7527a-110">Go to Human resources > Positions > Positions.</span></span>
+2. <span data-ttu-id="7527a-111">Utilisez le Filtre rapide pour rechercher les enregistrements.</span><span class="sxs-lookup"><span data-stu-id="7527a-111">Use the Quick Filter to find records.</span></span> <span data-ttu-id="7527a-112">Par exemple, filtrez sur le champ Poste avec une valeur de « 000091 ».</span><span class="sxs-lookup"><span data-stu-id="7527a-112">For example, filter on the Position field with a value of '000091'.</span></span>
+3. <span data-ttu-id="7527a-113">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="7527a-113">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="7527a-114">Développez la section Poste de référence.</span><span class="sxs-lookup"><span data-stu-id="7527a-114">Expand the Reports to position section.</span></span>
+5. <span data-ttu-id="7527a-115">Cliquez sur Nouveau pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="7527a-115">Click New to open the drop dialog.</span></span>
+6. <span data-ttu-id="7527a-116">Dans le champ Référence, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="7527a-116">In the Reports to field, enter or select a value.</span></span>
+7. <span data-ttu-id="7527a-117">Cliquez sur Créer.</span><span class="sxs-lookup"><span data-stu-id="7527a-117">Click Create.</span></span>
+8. <span data-ttu-id="7527a-118">Développez ou réduisez la section Relations.</span><span class="sxs-lookup"><span data-stu-id="7527a-118">Expand the Relationships section.</span></span>
+9. <span data-ttu-id="7527a-119">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="7527a-119">Click Add.</span></span>
+10. <span data-ttu-id="7527a-120">Cochez la case située à gauche de la grille.</span><span class="sxs-lookup"><span data-stu-id="7527a-120">Select the check box on the left of the grid.</span></span>
+11. <span data-ttu-id="7527a-121">Dans le champ Nom de la hiérarchie, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="7527a-121">In the Hierarchy name field, enter or select a value.</span></span>
+    * <span data-ttu-id="7527a-122">Exemple : Projet</span><span class="sxs-lookup"><span data-stu-id="7527a-122">Example: Project</span></span>  
+12. <span data-ttu-id="7527a-123">Dans le champ Poste de référence, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="7527a-123">In the Reports to position field, enter or select a value.</span></span>  <span data-ttu-id="7527a-124">Exemple : 000437</span><span class="sxs-lookup"><span data-stu-id="7527a-124">Example:  000437</span></span>
+13. <span data-ttu-id="7527a-125">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="7527a-125">Click Save.</span></span>
 
 

@@ -3,24 +3,25 @@ title: "Enregistrer des articles pour un article activé pour l'entreposage avan
 description: "Cette procédure décrit la manière dont vous enregistrez des articles à l'aide des journaux d'arrivée des articles lorsque vous utilisez les processus de la gestion avancée des entrepôts."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 02/12/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: WMSJournalTable, WMSJournalCreate, WHSLicensePlate
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 1dab4ba973f5a9d3a2d8f1b5a5afcdd821d1a6d0
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 751e73be385606bc706b2e14ea83c1b56c96402c
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a><span data-ttu-id="3f6b9-103">Enregistrer des articles pour un article activé pour l'entreposage avancé à l'aide d'un journal des arrivées d'articles</span><span class="sxs-lookup"><span data-stu-id="3f6b9-103">Register items for an advanced warehousing enabled item using an item arrival journal</span></span>

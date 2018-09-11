@@ -3,23 +3,24 @@ title: "Créer un accord d'établissement bancaire pour une lettre de crédit"
 description: "Cette tâche illustre la création d'un accord d'établissement bancaire pour traiter une lettre de crédit."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 02/10/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BankDocumentFacilityAgreement, BankAccountTableLookUp, BankDocumentFacilityAgreementExtension, DefaultDashboard
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 00562a15028106c8d065ab9514621c505b1b9709
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 2d77572cf2dbca5055078b7c982ac0a3588f549e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="create-a-bank-facility-agreement-for-a-letter-of-credit"></a><span data-ttu-id="75157-103">Créer un accord d'établissement bancaire pour une lettre de crédit</span><span class="sxs-lookup"><span data-stu-id="75157-103">Create a bank facility agreement for a letter of credit</span></span>

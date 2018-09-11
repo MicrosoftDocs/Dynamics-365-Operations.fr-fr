@@ -1,26 +1,27 @@
----
+--- 
 title: "Contrôler le stock de consignation à l'aide de la collaboration fournisseur"
 description: "Cette procédure indique comment utiliser la collaboration du fournisseur pour afficher des informations sur le niveau de stock du produit que vous avez placé en consignation auprès d'un client."
 author: mkirknel
 manager: AnnBe
-ms.date: 10/13/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ConsignmentProductReceiptLines, PurchVendorPortalConfirmedOrders, DefaultDashboard, ConsignmentVendorPortalOnhand
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 8e4a620fe5f5ab3c0fae8b04d79e9912111b7ece
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: a110c7b85c6ed22622b059b657bd7b6028517335
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="monitor-consignment-inventory-using-vendor-collaboration"></a><span data-ttu-id="eb8ce-103">Contrôler le stock de consignation à l'aide de la collaboration fournisseur</span><span class="sxs-lookup"><span data-stu-id="eb8ce-103">Monitor consignment inventory using vendor collaboration</span></span>
@@ -41,4 +42,5 @@ ms.lasthandoff: 08/07/2018
 ## <a name="view-on-hand-inventory"></a><span data-ttu-id="eb8ce-118">Affichage du stock disponible</span><span class="sxs-lookup"><span data-stu-id="eb8ce-118">View on-hand inventory</span></span>
 1. <span data-ttu-id="eb8ce-119">Allez dans Collaborateur du fournisseur > Stock de consignation > Stock de consignation disponible.</span><span class="sxs-lookup"><span data-stu-id="eb8ce-119">Go to Vendor collaboration > Consignment inventory > On-hand consignment inventory.</span></span>
     * <span data-ttu-id="eb8ce-120">La page Stock de consignation disponible indique le stock que vous possédez dans l'entrepôt du client.</span><span class="sxs-lookup"><span data-stu-id="eb8ce-120">The On-hand consignment inventory page shows the stock that you own at the customer’s warehouse.</span></span> <span data-ttu-id="eb8ce-121">Vous pouvez afficher des dimensions supplémentaires, telles que le site et l'entrepôt, en cliquant sur l'onglet Afficher les dimensions.</span><span class="sxs-lookup"><span data-stu-id="eb8ce-121">You can show additional dimensions, such as the site and warehouse, by clicking the Display dimensions tab.</span></span>   
+
 

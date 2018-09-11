@@ -1,26 +1,27 @@
 --- 
 title: "Ajouter un type de certification à un fournisseur dans le secteur public"
 description: "Vous pouvez créer et affecter aux fournisseurs n'importe quel type de certification qu'ils sont susceptibles de détenir."
-author: ShylaThompson
+author: twheeloc
 manager: AnnBe
-ms.date: 11/10/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: VendTable, VendCertification, DirPartyLookup
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: shylaw
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 8a0cec7413c0f0d32776c2e4ebd9c845cbe07609
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: dc89fae37c277979d092cbda1b666ebb606e6218
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="add-a-certification-type-to-a-vendor-in-the-public-sector"></a><span data-ttu-id="fda74-103">Ajouter un type de certification à un fournisseur dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="fda74-103">Add a certification type to a vendor in the public sector</span></span>
