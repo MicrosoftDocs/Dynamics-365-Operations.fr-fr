@@ -44,11 +44,13 @@ Pour utiliser les cartes de crédit, vous devez paramétrer et activer un servic
 
 ## <a name="adding-a-new-credit-card"></a>Ajout d'une nouvelle carte de crédit
 Vous pouvez créer des enregistrements de carte de crédit sur la page Clients à l'aide des paramètres Client, Paramétrage, Carte de crédit. Vous pouvez également créer des enregistrements de carte de crédit lorsque vous entrez des commandes client sur la page Commande client à l'aide des paramètres Gérer, Client, Carte de crédit, Enregistrer.
-Ajout d'une carte de crédit à une commande client
+
+<a name="adding-a-credit-card-to-a-sales-order"></a>Ajout d'une carte de crédit à une commande client
 -------------------------------------
 
 Vous pouvez ajouter une carte de crédit à une commande client en sélectionnant une carte de crédit dans la recherche de carte de crédit sur l'organisateur Prix et remises sur la page Commande client. Pour démarrer le processus d'autorisation, dans le Volet Actions, sous l'onglet Gérer, sélectionnez Carte de crédit et Autoriser.
-Autorisation de carte de crédit
+
+<a name="authorizing-a-credit-card"></a>Autorisation de carte de crédit
 -------------------------
 
 Lors d'une autorisation d'une carte de crédit, le numéro de la carte et le nom de son titulaire sont vérifiés, et le solde créditeur disponible est confirmé. Le cas échéant, la valeur de vérification de la carte de crédit et l'adresse du titulaire sont vérifiés. Le montant de la facture est alors déduit du solde créditeur disponible du client. Le service de paiement indique alors si la carte a été acceptée ou refusée. Lors de la facturation de la commande client, le montant facturé est débité (capturé) de la carte de crédit.
