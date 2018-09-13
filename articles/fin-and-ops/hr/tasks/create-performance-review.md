@@ -3,7 +3,7 @@ title: "Créer une évaluation des performances"
 description: "Cette procédure indique comment créer une évaluation des performances et décrit l'objet de chaque section de l'évaluation."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

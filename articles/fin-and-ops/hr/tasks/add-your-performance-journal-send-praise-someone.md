@@ -3,7 +3,7 @@ title: "Ajouter à votre journal de performances et envoyer l'éloge à une pers
 description: "Le journal des performance contient des informations relatives à la réalisation de vos objectifs ou à vos performances pendant une période."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Créer une unité opérationnelle"
 description: "Une section est une organisation utilisée pour partager le contrôle des ressources économiques et des processus opérationnels dans une société."
 author: sericks007
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

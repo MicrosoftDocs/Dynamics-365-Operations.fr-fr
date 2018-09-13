@@ -3,7 +3,7 @@ title: "Créer une hiérarchie d'organisation"
 description: "Procédez comme suit pour créer une hiérarchie organisationnelle."
 author: sericks007
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

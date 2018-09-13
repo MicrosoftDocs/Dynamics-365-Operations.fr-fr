@@ -3,7 +3,7 @@ title: Configurer le carnet d'adresses global
 description: "Cette procédure permet de définir les valeurs par défaut et les stratégies de sécurité du carnet d'adresses global."
 author: kfend
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
