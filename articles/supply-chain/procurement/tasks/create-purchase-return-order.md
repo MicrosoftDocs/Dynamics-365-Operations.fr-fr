@@ -3,7 +3,7 @@ title: "Créer une commande fournisseur de retour"
 description: "Cette procédure vous montre comment créer une commande fournisseur retournée à l'aide de l'action Avoir pour copier des lignes d'un document de facturation fournisseur à une nouvelle CF."
 author: FrankDahl
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

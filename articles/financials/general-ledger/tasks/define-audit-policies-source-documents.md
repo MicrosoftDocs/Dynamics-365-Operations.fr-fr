@@ -3,7 +3,7 @@ title: "Définir des stratégies d'audit pour les documents sources"
 description: "Cette procédure décrit comment paramétrer et exécuter des règles de stratégie d'audit."
 author: ryansandness
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

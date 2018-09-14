@@ -3,7 +3,7 @@ title: "Créer des variantes de produits prédéfinies"
 description: "Cette procédure décrit la création des variantes de produit pour un produit générique à l'aide des combinaisons de dimensions de produit."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Créer les configurations basées sur les dimensions"
 description: "Cette procédure permet d'indiquer comment définir une configuration pour un produit fondé sur les dimensions."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

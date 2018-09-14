@@ -3,7 +3,7 @@ title: "Créer un plan pour un site"
 description: "Le gestionnaire de production calcule les besoins en matériaux et en capacité pour la production d'un article spécifique."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

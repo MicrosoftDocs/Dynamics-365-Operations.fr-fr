@@ -3,7 +3,7 @@ title: "Créer une règle de kanban de remplacement"
 description: "Cette procédure se concentre sur le remplacement d'une règle de kanban existante par une nouvelle règle de kanban à une date spécifique."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Finaliser le paramétrage de base d'un produit générique lancé"
 description: "Cette procédure indique comment terminer la configuration minimale requise avant que le produit générique puisse être utilisé dans les versions de nomenclature."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

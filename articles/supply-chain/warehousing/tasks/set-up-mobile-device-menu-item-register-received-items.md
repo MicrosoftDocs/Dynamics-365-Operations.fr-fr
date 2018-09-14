@@ -3,7 +3,7 @@ title: "Paramétrer une option de menu d'appareil mobile pour enregistrer les ar
 description: "Cette tâche consiste à réaliser le paramétrage d'une option de menu d'appareil mobile."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

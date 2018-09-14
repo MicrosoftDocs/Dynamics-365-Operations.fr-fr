@@ -3,7 +3,7 @@ title: "Ajouter un prédécesseur à une activité de flux de production"
 description: "Dans une version de flux de production, toutes les activités doivent être séquencées."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

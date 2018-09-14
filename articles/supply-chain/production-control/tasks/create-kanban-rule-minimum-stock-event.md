@@ -3,7 +3,7 @@ title: "Créer une règle de kanban à l'aide d'un événement de stock minimal"
 description: "Cette procédure consiste à réaliser le paramétrage nécessaire pour créer une règle de kanban à l'aide d'un événement de stock minimal pour s'assurer qu'un produit spécifique est toujours disponible à un emplacement spécifique."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

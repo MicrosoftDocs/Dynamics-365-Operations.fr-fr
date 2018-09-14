@@ -3,7 +3,7 @@ title: "Définir le processus de rémunération et calculer les résultats"
 description: "Des processus de rémunération permettent de déterminer de nouveaux montants et primes de rémunération pour les employés inscrits aux régimes de rémunération fixes et variables."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

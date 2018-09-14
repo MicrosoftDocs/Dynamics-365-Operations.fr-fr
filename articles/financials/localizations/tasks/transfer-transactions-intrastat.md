@@ -3,7 +3,7 @@ title: "Transférer des transactions dans la déclaration d'échanges de biens"
 description: "Cette procédure vous guide dans le paramétrage des paramètres de déclaration d'échanges de biens et le transfert des transactions dans la déclaration d'échanges de biens."
 author: Anasyash
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

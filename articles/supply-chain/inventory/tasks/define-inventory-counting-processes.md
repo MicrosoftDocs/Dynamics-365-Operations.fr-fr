@@ -3,7 +3,7 @@ title: "Définir les processus de comptage d'inventaire"
 description: "Cette procédure vous guide dans la configuration des processus de comptage d'inventaire basiques en créant un groupe de comptage et un journal d'inventaire."
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Configurer les emplacements dans un entrepôt compatible WMS"
 description: "Ce guide vous indique comment configurer le paramétrage d'emplacement pour un nouvel entrepôt compatible WMS (un entrepôt qui utilise des processus avancés de gestion des entrepôts)."
 author: perlynne
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

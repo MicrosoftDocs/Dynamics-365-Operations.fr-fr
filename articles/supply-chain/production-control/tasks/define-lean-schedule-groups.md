@@ -3,7 +3,7 @@ title: "Définir les groupes de calendriers de production au plus juste"
 description: "Les groupes de calendriers de production au plus juste sont définis pour regrouper et distinguer les produits dans le calendrier kanban."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

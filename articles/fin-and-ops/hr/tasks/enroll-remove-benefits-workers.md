@@ -3,7 +3,7 @@ title: "Inscrire et annuler l'inscription des travailleurs à des avantages"
 description: "Cette procédure illustre comment un collaborateur peut être inscrit à un ou plusieurs avantages, et comment plusieurs collaborateurs peuvent être inscrits à un avantage."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Créer des éléments de coût"
 description: "Il existe plusieurs façons de créer des éléments de coût dans le contrôle de gestion."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

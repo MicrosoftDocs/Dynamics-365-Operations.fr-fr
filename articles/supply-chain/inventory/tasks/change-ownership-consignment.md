@@ -3,7 +3,7 @@ title: "Modifier la propriété du stock de consignation en fonction de la deman
 description: "Cette procédure indique comment faire passer le propriétaire du stock de consignation du fournisseur à votre entité juridique lorsqu'il existe une demande de stock en production."
 author: perlynne
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

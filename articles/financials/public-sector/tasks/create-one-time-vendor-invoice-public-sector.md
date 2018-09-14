@@ -3,7 +3,7 @@ title: "Créer un fournisseur occasionnel et une facture dans le secteur public"
 description: "L'enregistrement fournisseur utilise les valeurs du compte fournisseur occasionnel par défaut."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

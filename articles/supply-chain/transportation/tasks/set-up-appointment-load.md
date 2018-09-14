@@ -3,7 +3,7 @@ title: "Paramétrer un rendez-vous pour une charge"
 description: "Cette procédure indique comment configurer et planifier un rendez-vous de quai pour une charge."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

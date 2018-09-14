@@ -3,7 +3,7 @@ title: "Créer une relation d'activité - Successeur"
 description: "Le flux des activités dans un flux de production lean est documenté via les relations d'activités."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Paramétrer des stratégies pour les hiérarchies de catégories d'appro
 description: "Cette procédure permet de définir des règles pour commander des produits dans une catégorie."
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

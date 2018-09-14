@@ -3,7 +3,7 @@ title: "Tenir à jour les modèles par défaut de dimension financière"
 description: "Cette procédure indique comment paramétrer les modèles par défaut de dimension financière."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

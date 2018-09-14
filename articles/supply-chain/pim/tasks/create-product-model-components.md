@@ -3,7 +3,7 @@ title: "Créer des composants de modèle de produit"
 description: "Les modèles de configuration de produit basés sur les contraintes utilisent des composants comme éléments constitutifs pour créer la structure du modèle de produit."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: " Créer des groupes d'autorisations de PDV"
 description: "Cette procédure indique comment créer un groupe d'autorisations de PDV."
 author: scott-tucker
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

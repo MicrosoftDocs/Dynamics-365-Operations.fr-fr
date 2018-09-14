@@ -3,7 +3,7 @@ title: "Afficher les transactions de taxe validées"
 description: "Vous pouvez afficher des transactions de taxe validées à partir de différentes pages en fonction de ce que vous devez afficher."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

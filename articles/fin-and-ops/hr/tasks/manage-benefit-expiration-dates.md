@@ -3,7 +3,7 @@ title: "Gérer les dates d'expiration des avantages"
 description: "Cette procédure indique comment faire expirer ou prolonger un avantage et gérer les dates d'inscription des collaborateurs inscrits dans cet avantage."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

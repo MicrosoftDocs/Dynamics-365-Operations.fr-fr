@@ -3,7 +3,7 @@ title: "Créer une option de menu d'appareil mobile pour la consolidation de con
 description: "Cette procédure décrit comment créer une option de menu d'appareil mobile pour le travail de consolidation de contenants."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

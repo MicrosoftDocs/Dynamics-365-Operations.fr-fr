@@ -3,7 +3,7 @@ title: "Créer et valider des journaux"
 description: "Ce guide crée et valide les journaux et les lignes de journal."
 author: ryansandness
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

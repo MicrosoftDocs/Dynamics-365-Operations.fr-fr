@@ -3,7 +3,7 @@ title: "Créer une règle de kanban d'événement de ligne de nomenclature"
 description: "Cette tâche se concentre sur le paramétrage nécessaire pour créer une règle de kanban d'événement pour vérifier l'approvisionnement des lignes de nomenclature de production dans un environnement de fabrication en mode mixte et classique."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

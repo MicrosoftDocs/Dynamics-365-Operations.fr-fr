@@ -3,7 +3,7 @@ title: "Paramétrer les informations sur les blessures et les maladies"
 description: "Les employeurs doivent savoir si leurs employés sont victimes de blessures ou de maladies en raison de risques sur le lieu de travail."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

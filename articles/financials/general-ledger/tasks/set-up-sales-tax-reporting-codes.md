@@ -3,7 +3,7 @@ title: "Paramétrer des codes déclaration de taxe"
 description: "Les codes déclaration de taxe font référence à un numéro de champ dans la déclaration de taxe."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Générer et traiter les remises client"
 description: "Cette procédure illustre comment traiter les remises client de la génération de la réclamation à l'étape pendant laquelle elles passent en régularisations à la comptabilité client."
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

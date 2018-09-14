@@ -3,7 +3,7 @@ title: "Création d'un compte principal"
 description: "Ce guide accompagne l'utilisateur lors de l'ajout d'un compte principal à un plan de comptes existant."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

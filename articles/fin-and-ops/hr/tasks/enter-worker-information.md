@@ -3,7 +3,7 @@ title: Saisir les informations du collaborateur
 description: "Une fois que le recruteur a créé un projet d'embauche collective et généré les postes, l'étape suivante consiste à entrer les informations sur les collaborateurs pour les personnes embauchées."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

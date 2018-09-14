@@ -3,7 +3,7 @@ title: "Création de plans de régularisation"
 description: "Ce guide accompagne l'utilisateur le long de la création d'un plan de régularisation."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

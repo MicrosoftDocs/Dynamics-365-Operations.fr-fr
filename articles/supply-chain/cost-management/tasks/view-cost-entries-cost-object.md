@@ -3,7 +3,7 @@ title: "Afficher les entrées de coût d'un objet de coût"
 description: "Cette procédure décrit la manière d'afficher les entrées de coût pour un objet de coût."
 author: AndersGirke
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

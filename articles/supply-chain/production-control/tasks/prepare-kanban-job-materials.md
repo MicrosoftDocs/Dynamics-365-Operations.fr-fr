@@ -3,7 +3,7 @@ title: "Préparer une tâche de kanban de processus lorsque les matières sont d
 description: "Cette tâche se concentre sur la préparation d'une tâche de kanban de processus lorsque toutes les matières ne sont pas disponibles pour la cellule de travail."
 author: johanhoffmann
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

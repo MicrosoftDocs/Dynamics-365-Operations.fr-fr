@@ -3,7 +3,7 @@ title: "Importer la configuration du virement ISO20022"
 description: "Cette procédure indique comment importer une configuration de génération d'états électroniques pour un paiement fournisseur."
 author: mrolecki
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

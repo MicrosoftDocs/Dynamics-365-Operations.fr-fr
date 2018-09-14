@@ -3,7 +3,7 @@ title: "Ajouter une contrainte d'expression à un modèle de configuration de pr
 description: "Cette procédure montre comment ajouter une nouvelle expression de contrainte à un modèle de configuration de produit."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

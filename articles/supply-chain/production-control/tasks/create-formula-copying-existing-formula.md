@@ -3,7 +3,7 @@ title: "Créer une formule par la copie d'une formule existante"
 description: "Cette procédure illustre comment créer rapidement une nouvelle formule en copiant sur une formule existante."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

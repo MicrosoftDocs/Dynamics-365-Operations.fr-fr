@@ -3,7 +3,7 @@ title: " Créer, calculer et valider un relevé pour un magasin de vente au dét
 description: "Cette procédure décrit les étapes manuelles pour créer, calculer et valider un relevé pour un magasin."
 author: jashanno
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

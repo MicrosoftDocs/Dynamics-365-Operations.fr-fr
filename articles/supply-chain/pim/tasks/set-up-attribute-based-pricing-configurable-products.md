@@ -3,7 +3,7 @@ title: "Paramétrer la tarification par attribut pour les produits configurables
 description: "Cette procédure décrit comment paramétrer la tarification basée sur des attributs."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

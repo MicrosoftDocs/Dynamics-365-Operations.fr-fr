@@ -3,7 +3,7 @@ title: "Paramétrer les classifications de contrat d'achat dans le secteur publi
 description: "La classification de contrat d'achat vous permet de contrôler les informations administratives disponibles dans les contrats d'achat."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

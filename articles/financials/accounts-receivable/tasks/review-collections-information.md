@@ -3,7 +3,7 @@ title: Revoir les informations de recouvrement
 description: "Cette procédure vous guide dans l'examen des informations de recouvrement ainsi que dans l'utilisation de diverses options relatives au paramétrage et aux transactions de recouvrement."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

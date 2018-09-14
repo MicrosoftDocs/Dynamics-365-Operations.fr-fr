@@ -3,7 +3,7 @@ title: "Paramétrage des catégories de compte principal"
 description: "Les catégories de compte principal sont utilisées pour les états par défaut dans les états financiers et dans Power BI."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

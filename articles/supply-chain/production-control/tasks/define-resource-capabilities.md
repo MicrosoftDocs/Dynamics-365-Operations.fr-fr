@@ -3,7 +3,7 @@ title: "Définir des capacités de ressources"
 description: "Les capacités de ressource décrivent ce que les ressources opérationnelles peuvent effectuer."
 author: sorenva
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

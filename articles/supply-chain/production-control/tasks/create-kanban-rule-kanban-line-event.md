@@ -3,7 +3,7 @@ title: "Créer une règle de kanban à l'aide d'un événement de ligne de kanba
 description: "Cette procédure crée une règle de kanban à l'aide du paramètre d'événement de ligne kanban pour déclencher l'extraction d'une activité de processus."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

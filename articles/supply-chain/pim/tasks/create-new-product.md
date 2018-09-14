@@ -3,7 +3,7 @@ title: "Créer un nouveau produit"
 description: "Cette tâche indique comment créer un nouveau produit partagé."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

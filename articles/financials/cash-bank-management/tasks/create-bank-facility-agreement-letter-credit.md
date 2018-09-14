@@ -3,7 +3,7 @@ title: "Créer un accord d'établissement bancaire pour une lettre de crédit"
 description: "Cette tâche illustre la création d'un accord d'établissement bancaire pour traiter une lettre de crédit."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

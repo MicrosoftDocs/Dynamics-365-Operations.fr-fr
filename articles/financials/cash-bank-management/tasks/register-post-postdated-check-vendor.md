@@ -3,7 +3,7 @@ title: "Enregistrement et validation d'un chèque postdaté pour un fournisseur"
 description: "Vous pouvez enregistrer les détails d'un chèque postdaté avant sa remise à un fournisseur, par l'intermédiaire du n° document de journal."
 author: kweekley
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

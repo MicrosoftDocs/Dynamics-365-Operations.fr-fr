@@ -3,7 +3,7 @@ title: "Gérer les modèles d'e-mails"
 description: "Vous pouvez transférer des informations à partir de la base de données de votre organisation vers les signets d'un nouveau document et les utiliser dans des modèles qui vous aident à mieux communiquer avec les candidats"
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

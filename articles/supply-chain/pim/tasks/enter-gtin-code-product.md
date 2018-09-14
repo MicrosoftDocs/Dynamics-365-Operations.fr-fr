@@ -3,7 +3,7 @@ title: Entrer le code GTIN d'un produit
 description: "Les codes GTIN sont affectés par l'organisation GS1."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

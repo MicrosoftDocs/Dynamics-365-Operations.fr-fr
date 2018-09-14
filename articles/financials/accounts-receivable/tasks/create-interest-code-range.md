@@ -3,7 +3,7 @@ title: "Créer un code intérêt avec une plage"
 description: "Vous pouvez paramétrer les codes intérêt de sorte à calculer différents montants d'intérêt en fonction d'une plage de valeurs."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

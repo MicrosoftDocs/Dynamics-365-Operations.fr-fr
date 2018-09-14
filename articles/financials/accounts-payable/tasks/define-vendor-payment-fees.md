@@ -3,7 +3,7 @@ title: "Définir les commissions de paiement fournisseur"
 description: "Paramétrez les frais de paiement fournisseur."
 author: abruer
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

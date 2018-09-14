@@ -3,7 +3,7 @@ title: "Comparer les coûts actifs, estimés et exécutés sur un ordre de fabri
 description: "Cette procédure permet d'afficher les motifs pour l'écart élevé de production pour un ordre de fabrication."
 author: AndersGirke
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

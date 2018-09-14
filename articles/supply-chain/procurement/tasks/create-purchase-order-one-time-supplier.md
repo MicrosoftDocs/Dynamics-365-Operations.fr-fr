@@ -3,7 +3,7 @@ title: "Créer une commande fournisseur pour un fournisseur occasionnel"
 description: "Cette procédure vous indique comment créer une commande fournisseur pour un fournisseur occasionnel."
 author: FrankDahl
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

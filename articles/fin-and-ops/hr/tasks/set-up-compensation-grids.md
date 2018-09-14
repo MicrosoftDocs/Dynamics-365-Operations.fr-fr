@@ -3,7 +3,7 @@ title: "Paramétrer les grilles de rémunération"
 description: "Les grilles de rémunération permettent de définir et de tenir à jour les structures de paie pour les régimes de rémunération fixe."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

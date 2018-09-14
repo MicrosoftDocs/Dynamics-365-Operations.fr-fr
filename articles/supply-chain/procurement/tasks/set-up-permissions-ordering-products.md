@@ -3,7 +3,7 @@ title: "Paramétrer des autorisations permettant de commander des produits au no
 description: "Cette procédure montre comment accorder à des collaborateurs l'autorisation de préparer des demandes d'achat au nom d'autres collaborateurs."
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

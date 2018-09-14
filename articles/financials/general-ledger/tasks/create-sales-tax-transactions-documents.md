@@ -3,7 +3,7 @@ title: "Créer des transactions de taxe sur les documents"
 description: "La taxe sur les documents est calculée en indiquant un groupe de taxe et un groupe de taxe d'article sur les lignes du document."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

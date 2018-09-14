@@ -3,7 +3,7 @@ title: " Ajustements de prix de la vente au détail"
 description: "Cette procédure décrit la création d'un ajustement du prix de vente au détail."
 author: josaw1
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

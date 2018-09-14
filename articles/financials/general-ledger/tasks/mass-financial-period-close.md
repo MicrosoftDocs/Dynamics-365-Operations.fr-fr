@@ -3,7 +3,7 @@ title: "Secteur de clôture de période comptable"
 description: "Cette procédure indique comment mettre une période en attente ou clôturer définitivement une période ou plusieurs entités juridiques simultanément."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

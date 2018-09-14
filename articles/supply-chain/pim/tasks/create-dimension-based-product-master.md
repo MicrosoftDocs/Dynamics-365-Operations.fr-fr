@@ -3,7 +3,7 @@ title: "Créer un produit générique fondé sur les dimensions"
 description: "Cette procédure indique comment créer un nouveau produit générique à l'aide de la technologie basée sur les dimensions."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Établir les conditions de paiement client"
 description: "Cette procédure définit un escompte de règlement et une date d'échéance."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

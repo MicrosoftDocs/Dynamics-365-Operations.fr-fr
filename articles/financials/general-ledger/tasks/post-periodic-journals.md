@@ -3,7 +3,7 @@ title: "Valider des journaux périodiques"
 description: "Les journaux périodiques sont parfois appelés journaux récurrents car le montant, le texte, ainsi que d'autres informations sont répétés à chaque extraction du journal périodique."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

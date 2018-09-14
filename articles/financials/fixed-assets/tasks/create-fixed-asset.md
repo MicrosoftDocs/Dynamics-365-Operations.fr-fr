@@ -3,7 +3,7 @@ title: "Création d'une immobilisation"
 description: "La société fictive USMF sert d'exemple dans ce guide de tâche."
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

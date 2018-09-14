@@ -3,7 +3,7 @@ title: "Enregistrer des articles pour un article activé pour l'entreposage avan
 description: "Cette procédure décrit la manière dont vous enregistrez des articles à l'aide des journaux d'arrivée des articles lorsque vous utilisez les processus de la gestion avancée des entrepôts."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

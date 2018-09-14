@@ -3,7 +3,7 @@ title: "Créer des factures de commande client"
 description: "Ce guide de tâche décrit la facturation d'une commande client, notamment la fusion des factures et le traitement par lots."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

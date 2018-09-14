@@ -3,7 +3,7 @@ title: "Copier les coproduits à partir d'une version de formule existante"
 description: "Cette procédure vous indique comment copier des coproduits à partir d'une version de formule existante vers une autre version de formule pour un produit lancé."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Modifier la bannière ou le logo"
 description: "La procédure suivante répertorie les étapes que les administrateurs système peuvent utiliser pour mettre à jour l'image de bannière ou de logo affichée pour une entité juridique."
 author: aneesmsft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

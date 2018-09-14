@@ -3,7 +3,7 @@ title: "Contrôler l'accès aux contrats d'achat dans le secteur public"
 description: "Vous pouvez vous assurer que seuls les départements approuvés peuvent accéder à un contrat d'achat."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

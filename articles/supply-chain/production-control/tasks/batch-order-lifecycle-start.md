@@ -3,7 +3,7 @@ title: "Cycle de vie d'un lot de commandes de la création au démarrage"
 description: "Cette procédure vous guide dans la première partie du cycle de vie d'un lot de commandes."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

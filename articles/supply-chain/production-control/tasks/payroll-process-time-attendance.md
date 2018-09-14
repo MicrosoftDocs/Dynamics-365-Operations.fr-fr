@@ -3,7 +3,7 @@ title: Activer le processus de paie pour le pointage
 description: "Cette procédure décrit comment activer le processus de paie pour le pointage."
 author: johanhoffmann
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

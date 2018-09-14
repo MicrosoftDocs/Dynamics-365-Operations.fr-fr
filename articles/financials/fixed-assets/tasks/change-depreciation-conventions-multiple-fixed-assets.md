@@ -3,7 +3,7 @@ title: Modification des conventions d'amortissement pour plusieurs immobilisatio
 description: "Cette tâche permet de mettre à jour la convention d'amortissement pour un groupe d'immobilisations spécifié."
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

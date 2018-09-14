@@ -3,7 +3,7 @@ title: "Paramétrer et créer des profils d'amortissement"
 description: "Les profils d'amortissement déterminent le type et la fréquence d'amortissement d'une immobilisation."
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

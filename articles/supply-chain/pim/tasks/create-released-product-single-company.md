@@ -3,7 +3,7 @@ title: "Créer un produit lancé pour une seule société"
 description: "Cette procédure commence par la création d'un produit unique dans le contexte d'une seule unité juridique."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

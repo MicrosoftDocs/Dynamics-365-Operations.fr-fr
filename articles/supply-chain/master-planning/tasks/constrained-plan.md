@@ -3,7 +3,7 @@ title: "Générer un plan avec contrainte"
 description: "Cette procédure indique comment créer un plan qui prend en compte des contraintes en termes de matière et de capacité."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

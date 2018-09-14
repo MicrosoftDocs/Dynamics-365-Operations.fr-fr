@@ -3,7 +3,7 @@ title: "Paramétrer les règles de commission sur les ventes"
 description: "Cette procédure vous montre comment paramétrer et activer le calcul et le suivi des commissions sur les ventes."
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Créer et modifier des devis de vente"
 description: "Cette procédure illustre comment créer et mettre à jour un devis de vente."
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

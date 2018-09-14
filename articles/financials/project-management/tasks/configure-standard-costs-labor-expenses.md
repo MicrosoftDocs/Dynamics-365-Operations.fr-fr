@@ -3,7 +3,7 @@ title: "Configurer les coûts standard pour le travail et les dépenses"
 description: "Cette procédure décrit comment paramétrer les coûts standard pour le travail et les dépenses d'un projet."
 author: KimANelson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

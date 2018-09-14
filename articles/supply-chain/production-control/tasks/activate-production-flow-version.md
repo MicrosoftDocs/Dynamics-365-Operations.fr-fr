@@ -3,7 +3,7 @@ title: Activer la version d'un flux de production
 description: "Avant que des tâche de kanban puissent être créées et des activités puissent être traitées pour une version de flux de production, vous devez activer la version."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

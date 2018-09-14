@@ -3,7 +3,7 @@ title: "Règlement d'un chèque postdaté provenant d'un client"
 description: "Vous pouvez régler un chèque postdaté après que celui-ci ait été compensé par la banque."
 author: kweekley
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

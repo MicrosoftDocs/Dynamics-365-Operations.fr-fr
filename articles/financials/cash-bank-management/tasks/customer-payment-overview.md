@@ -3,7 +3,7 @@ title: Vue d'ensemble des paiements client
 description: "Ce guide de tâche présente diverses méthodes utilisées pour entrer des paiements client."
 author: kweekley
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Approuver un modèle de configuration de produit"
 description: "L'exécution de cette procédure nécessite qu'il existe au moins un modèle de configuration de produit disponible."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

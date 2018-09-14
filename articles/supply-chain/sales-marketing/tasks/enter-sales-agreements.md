@@ -3,7 +3,7 @@ title: Entrer des contrats de vente
 description: "Cette procédure vous explique comment créer un contrat de vente qui engage l'un de vos clients à acheter un produit pour un montant convenu sur une période définie en échange de remises spéciales."
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

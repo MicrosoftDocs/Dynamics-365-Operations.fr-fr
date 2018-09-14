@@ -3,7 +3,7 @@ title: Rapprocher manuellement les frais de transport
 description: "Cette procédure indique comment rapprocher manuellement les frais de transport."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

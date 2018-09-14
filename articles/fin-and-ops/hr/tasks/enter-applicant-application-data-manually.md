@@ -3,7 +3,7 @@ title: "Entrer le candidat et les données de la candidature manuellement"
 description: "Cette procédure permet d'indiquer comment mettre à jour manuellement les informations sur les candidats et leur candidature."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

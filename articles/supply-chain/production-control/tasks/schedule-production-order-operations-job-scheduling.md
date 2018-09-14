@@ -3,7 +3,7 @@ title: "Programmer un ordre de fabrication avec la planification d'opérations e
 description: "Cette procédure se concentre sur la planification d’un ordre de fabrication avec la planification des opérations et la planification des tâches."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

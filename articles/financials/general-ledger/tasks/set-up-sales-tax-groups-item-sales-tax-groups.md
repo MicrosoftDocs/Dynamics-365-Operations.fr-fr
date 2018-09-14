@@ -3,7 +3,7 @@ title: "Paramétrer des groupes de taxe et groupes de taxe d'article"
 description: "Cet enregistrement de tâche décrit le paramétrage des groupes Taxe et Taxe d'article."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

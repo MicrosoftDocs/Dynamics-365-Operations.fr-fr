@@ -3,7 +3,7 @@ title: "Définir des règles de couverture pour les articles"
 description: "Les données fictives utilisées pour créer cette procédure correspondent à la société USMF."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

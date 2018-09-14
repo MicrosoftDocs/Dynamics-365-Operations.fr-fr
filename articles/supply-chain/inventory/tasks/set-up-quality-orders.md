@@ -3,7 +3,7 @@ title: "Paramétrer les ordres de qualité"
 description: "Cette procédure décrit comment activer un processus de gestion de la qualité dans lequel le stock entrant doit être inspecté immédiatement après l'enregistrement des arrivées."
 author: perlynne
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

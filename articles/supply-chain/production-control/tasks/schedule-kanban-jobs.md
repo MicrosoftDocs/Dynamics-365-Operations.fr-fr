@@ -3,7 +3,7 @@ title: "Planification des tâches de kanban"
 description: "Cette procédure se concentre sur des tâches de kanban du processus de planification pour une cellule de travail spécifique."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

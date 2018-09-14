@@ -3,7 +3,7 @@ title: "Modifier les règles de kanban pour une tâche de traitement"
 description: "Cette procédure traite de la modification de la règle de kanban utilisée pour un kanban donné."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

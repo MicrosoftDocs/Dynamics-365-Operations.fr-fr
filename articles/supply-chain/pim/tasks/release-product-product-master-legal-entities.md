@@ -3,7 +3,7 @@ title: "Lancer un produit/produit générique à destination des entités juridi
 description: "Cette procédure indique comment lancer un produit ou un produit générique dans une ou plusieurs entités juridiques."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

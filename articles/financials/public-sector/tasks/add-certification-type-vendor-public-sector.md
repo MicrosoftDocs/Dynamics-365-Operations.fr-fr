@@ -3,7 +3,7 @@ title: "Ajouter un type de certification à un fournisseur dans le secteur publi
 description: "Vous pouvez créer et affecter aux fournisseurs n'importe quel type de certification qu'ils sont susceptibles de détenir."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

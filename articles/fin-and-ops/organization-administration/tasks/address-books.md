@@ -3,7 +3,7 @@ title: Configurer les carnets d'adresses
 description: "Utilisez cette procédure et les décisions que vous avez prises dans la rubrique Planification et configuration du carnet d'adresses global et les autres rubriques du carnet d'adresses pour paramétrer des carnets d'adresses supplémentaires pour votre organisation."
 author: kfend
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

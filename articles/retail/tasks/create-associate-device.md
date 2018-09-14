@@ -3,7 +3,7 @@ title: " Créer et associer un périphérique"
 description: "Cette procédure décrit comment créer un périphérique et l'associer à une caisse enregistreuse."
 author: jashanno
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

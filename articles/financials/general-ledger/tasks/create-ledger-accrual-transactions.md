@@ -3,7 +3,7 @@ title: "Création de transactions de régularisation des comptes"
 description: "Ce guide accompagne l'utilisateur dans la génération de transactions de régularisation des comptes fondées sur des plans de régularisation."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Valider un flux de production et une version
 description: "Cette procédure montre comment créer un flux de production et une première version pour la lean manufacturing."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

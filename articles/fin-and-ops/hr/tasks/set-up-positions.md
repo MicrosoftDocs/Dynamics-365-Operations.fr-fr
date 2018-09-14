@@ -3,7 +3,7 @@ title: "Paramétrer les postes"
 description: "Les postes sont un élément important de niveau inférieur d'une hiérarchie d'organisation."
 author: DarinKramer
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

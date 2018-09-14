@@ -3,7 +3,7 @@ title: "Créer un type de certification fournisseur dans le secteur public"
 description: "Vous pouvez créer et affecter aux organisations de fournisseurs tout type de certification détenus par les fournisseurs, tels que des informations d'identification professionnelles, l'assurance en responsabilité civile, le statut minoritaire ou la conformité avec diverses normes de sécurité relatives à l'environnement ou au consommateur."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

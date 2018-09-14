@@ -3,7 +3,7 @@ title: "Créer un engagement de réserver des fonds budgétaires pour le secteur
 description: "Les engagements sont des documents source de contrôle budgétaire utilisés par les entités du secteur public en France."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

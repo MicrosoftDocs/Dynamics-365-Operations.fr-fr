@@ -3,7 +3,7 @@ title: "Créer un mandat de débit direct pour un client"
 description: "Ce guide de tâche montre comment créer un mandat de débit direct et l'utiliser dans une facture."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

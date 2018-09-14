@@ -3,7 +3,7 @@ title: "Établir le mode de paiement client"
 description: "Créez un mode de paiement pour les paiements client."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

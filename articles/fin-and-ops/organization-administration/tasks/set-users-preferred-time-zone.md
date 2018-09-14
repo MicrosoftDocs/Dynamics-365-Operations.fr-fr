@@ -3,7 +3,7 @@ title: "Configuration d'un fuseau horaire préféré de l'utilisateur"
 description: "Cette procédure suivante explique comment un utilisateur ayant un rôle d'administrateur système peut définir un fuseau horaire pour un utilisateur."
 author: pvillads
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

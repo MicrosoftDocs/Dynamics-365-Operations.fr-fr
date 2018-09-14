@@ -3,7 +3,7 @@ title: "Créer et affecter des structures de règle avancées"
 description: "Ce guide accompagne l'utilisateur le long de la création et de l'affectation d'une structure de règle avancée à une structure de compte."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

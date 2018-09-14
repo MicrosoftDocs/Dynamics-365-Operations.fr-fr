@@ -3,7 +3,7 @@ title: " Configurer le profil de fonctionnalité pour un commercial"
 description: "Cette procédure illustre comment configurer les paramètres du profil de fonctionnalité d'un magasin qui s'appliquent aux commerciaux."
 author: jblucher
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

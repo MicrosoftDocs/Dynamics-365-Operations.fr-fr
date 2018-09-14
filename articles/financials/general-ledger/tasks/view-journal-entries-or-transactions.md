@@ -3,7 +3,7 @@ title: "Afficher les entrées de journal ou les transactions"
 description: "Cette procédure indique comment utiliser la demande de transactions de N° document pour rechercher des entrées ou des transactions de journal."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

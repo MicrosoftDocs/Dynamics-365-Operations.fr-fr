@@ -3,7 +3,7 @@ title: "Créer une commande client pour un produit configurable"
 description: "Cette procédure explique comment appliquer un modèle de configuration à un produit dans une commande client."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

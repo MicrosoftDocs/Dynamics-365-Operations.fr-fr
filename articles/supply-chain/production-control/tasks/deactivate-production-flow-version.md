@@ -3,7 +3,7 @@ title: "Désactiver la version d'un flux de production"
 description: "Lorsqu'une version de flux de production active n'est plus nécessaire, elle peut être désactivée."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

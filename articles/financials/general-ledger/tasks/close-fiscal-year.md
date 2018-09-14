@@ -3,7 +3,7 @@ title: "Clôturer l'exercice"
 description: "Cette procédure guide l'utilisateur tout au long du processus de clôture de fin d'exercice qui transfère les soldes vers le nouvel exercice."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

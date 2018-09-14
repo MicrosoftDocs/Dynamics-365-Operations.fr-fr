@@ -3,7 +3,7 @@ title: "Règlement des transactions entre des comptes généraux"
 description: "Cette procédure montre comment régler les transactions entre les comptes généraux et annuler un règlement comptable."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

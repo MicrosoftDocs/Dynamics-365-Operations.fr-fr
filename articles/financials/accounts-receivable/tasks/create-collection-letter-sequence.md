@@ -3,7 +3,7 @@ title: "Créer une série de lettres de relance"
 description: "Utilisez ce guide de tâche pour créer une série de lettres de relance."
 author: mikefalkner
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

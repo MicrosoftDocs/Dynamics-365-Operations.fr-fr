@@ -3,7 +3,7 @@ title: "Distribuer des questionnaires à l'aide d'une planification"
 description: "La planification de questionnaire vous permet de planifier et répartir les questionnaires entre plusieurs personnes interrogées."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

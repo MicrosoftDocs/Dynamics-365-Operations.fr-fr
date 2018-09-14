@@ -3,7 +3,7 @@ title: "Générer et valider les factures financières récurrentes"
 description: "Les factures récurrentes permettent de facturer les clients régulièrement pour le même compte."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

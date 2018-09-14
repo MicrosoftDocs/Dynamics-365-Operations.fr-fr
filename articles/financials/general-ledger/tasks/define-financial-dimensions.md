@@ -3,7 +3,7 @@ title: "Définir des dimensions financières"
 description: "Ce guide illustre l'ajout d'une dimension financière soutenue par une entité et d'une dimension financière personnalisée."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

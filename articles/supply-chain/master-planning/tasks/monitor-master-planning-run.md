@@ -3,7 +3,7 @@ title: "Surveiller l'exécution d'une planification générale"
 description: "Le responsable de production veut voir si une exécution de la planification est en cours."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

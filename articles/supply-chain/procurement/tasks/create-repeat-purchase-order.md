@@ -3,7 +3,7 @@ title: "Créer une commande fournisseur répétée"
 description: "Cette procédure vous montre comment créer une commande fournisseur répétée (CF) en copiant des lignes d'un document de commande fournisseur précédent dans un nouveau CF ou un CF existant."
 author: FrankDahl
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

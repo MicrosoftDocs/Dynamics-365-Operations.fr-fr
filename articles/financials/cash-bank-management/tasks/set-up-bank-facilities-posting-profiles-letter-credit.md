@@ -3,7 +3,7 @@ title: "Paramétrer les établissements bancaires et les profils de validation p
 description: "Cette procédure décrit la création d'un établissement bancaire et un profil de validation requis pour traiter les lettres de crédit."
 author: kweekley
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

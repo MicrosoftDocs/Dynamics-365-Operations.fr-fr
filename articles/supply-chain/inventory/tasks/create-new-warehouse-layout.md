@@ -3,7 +3,7 @@ title: "Créer une structure d'entrepôt"
 description: "Cette procédure vous montre comment définir des informations sur les emplacements d'un entrepôt."
 author: perlynne
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Définir les conditions de paiement fournisseur"
 description: "Définissez les conditions de paiement pour les factures fournisseur."
 author: abruer
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

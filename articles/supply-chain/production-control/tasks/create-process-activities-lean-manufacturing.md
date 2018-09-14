@@ -3,7 +3,7 @@ title: "Créer des activités de processus pour la lean manufacturing"
 description: "Créez une activité de processus pour la lean manufacturing."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

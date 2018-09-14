@@ -3,7 +3,7 @@ title: Proposer des acquisitions d'immobilisations
 description: "Cette procédure indique comment acquérir une immobilisation à l'aide de la proposition d'acquisition du journal des immobilisations."
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

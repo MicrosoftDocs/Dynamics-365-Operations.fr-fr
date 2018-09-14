@@ -3,7 +3,7 @@ title: "Créer les propriétés de la planification du temps de travail"
 description: "Les propriétés de la planification du temps de travail sont utilisées pour classer les intervalles de temps de travail et définir les paramètres que les opérateurs doivent prendre en compte."
 author: sorenva
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Tenir à jour la nomenclature d'un modèle de configuration de produit"
 description: "L'exécution de cette procédure nécessite un modèle de configuration de produit existant."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Lancer un produit générique fondé sur les dimensions"
 description: "Cette procédure décrit la manière dont lancer un produit générique, qui sera utilisé pour les configurations basées sur les dimensions."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

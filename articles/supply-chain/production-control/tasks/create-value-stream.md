@@ -3,7 +3,7 @@ title: "Créer une chaîne de valeur"
 description: "Les chaînes de valeur sont des unités opérationnelles qui regroupent un ou plusieurs flux de production."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Modifier la date de la session
 description: "Par défaut, la date actuelle est utilisée lors de la saisie et la validation des écritures de journal ou des documents source."
 author: pvillads
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

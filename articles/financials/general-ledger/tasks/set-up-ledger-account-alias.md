@@ -3,7 +3,7 @@ title: "Paramétrage d'un alias de compte général"
 description: "Cette procédure montre comment créer un alias de compte qui fournit un raccourci pour entrer un numéro de compte."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

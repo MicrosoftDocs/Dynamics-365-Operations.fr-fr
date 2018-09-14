@@ -3,7 +3,7 @@ title: "Paramétrer un fonds dans le secteur public"
 description: "Vous devez créer des types de fonds avant de pouvoir paramétrer des fonds."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Créer une règle de kanban pour des activités multiples"
 description: "Cette procédure montre comment créer une règle de kanban qui inclut des activités multiples à partir d'un flux de production."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Créer un produit générique"
 description: "Créez un produit générique pour les variantes prédéfinies."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

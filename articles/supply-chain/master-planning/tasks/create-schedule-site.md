@@ -3,7 +3,7 @@ title: "Créer un programme pour un site"
 description: "Cette procédure décrit comment planifier les ordres de fabrication qui n'ont pas encore commencé pour un site."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

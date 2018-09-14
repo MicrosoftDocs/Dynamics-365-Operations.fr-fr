@@ -3,7 +3,7 @@ title: "Paramétrage de signatures électroniques"
 description: "Utilisez cette procédure pour configurer des signatures électroniques."
 author: maertenm
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

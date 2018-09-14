@@ -3,7 +3,7 @@ title: "Créer un type de fonds dans le secteur public"
 description: "Les types de fonds sont des catégories que vous pouvez utiliser pour regrouper des fonds à des fins de suivi et de génération d'états fiscaux détaillés."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

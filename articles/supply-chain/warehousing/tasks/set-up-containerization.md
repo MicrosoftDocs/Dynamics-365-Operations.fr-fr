@@ -3,7 +3,7 @@ title: "Définir une logique de mise en conteneur"
 description: "Cette procédure décrit comment automatiser la mise en conteneur des charges dans la gestion des entrepôts."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

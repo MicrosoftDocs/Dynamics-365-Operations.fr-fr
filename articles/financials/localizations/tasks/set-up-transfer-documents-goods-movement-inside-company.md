@@ -3,7 +3,7 @@ title: "Paramétrer les documents de transfert pour le mouvement de marchandises
 description: "Cette procédure indique comment créer des documents de transfert pour le mouvement de marchandises dans une société."
 author: v-oloski
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

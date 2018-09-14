@@ -3,7 +3,7 @@ title: "Inspecter la qualité des marchandises"
 description: "Cette procédure indique comment traiter un ordre de qualité."
 author: perlynne
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

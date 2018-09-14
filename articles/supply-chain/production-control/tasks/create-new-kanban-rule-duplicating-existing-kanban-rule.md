@@ -3,7 +3,7 @@ title: "Créer une règle de kanban en dupliquant une règle de kanban existante
 description: "Cette procédure consiste à créer un doublon d'une règle de kanban existante."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

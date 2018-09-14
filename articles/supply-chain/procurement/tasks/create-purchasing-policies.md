@@ -3,7 +3,7 @@ title: "Création des stratégies d'achat"
 description: "Cette procédure vous montre comment créer des stratégies d'achat pour les aligner avec vos processus d'entreprise pour les achats."
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

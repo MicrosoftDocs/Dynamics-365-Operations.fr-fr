@@ -3,7 +3,7 @@ title: "Mettre à jour des informations relatives aux blessures et aux maladies 
 description: "Il est recommandé de terminer d'abord le guide de tâche « Paramétrer les informations sur les blessures et les maladies », car certaines des informations de paramétrage sont utilisées ici."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

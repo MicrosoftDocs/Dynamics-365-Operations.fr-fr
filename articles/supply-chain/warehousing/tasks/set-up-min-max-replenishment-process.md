@@ -3,7 +3,7 @@ title: "Paramétrer un processus de réapprovisionnement minimum/maximum"
 description: "Cette procédure décrit la manière de paramétrer un nouveau processus de réapprovisionnement qui utilise une stratégie de réapprovisionnement minimal/maximal."
 author: perlynne
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

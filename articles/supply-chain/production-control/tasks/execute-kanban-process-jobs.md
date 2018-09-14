@@ -3,7 +3,7 @@ title: "Exécuter les opérations de traitement du kanban"
 description: "Cette procédure se concentre sur l'exécution des tâches de traitement de kanban."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

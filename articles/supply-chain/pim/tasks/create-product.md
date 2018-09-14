@@ -3,7 +3,7 @@ title: "Créer un produit"
 description: "Cette procédure décrit la création d'un produit dans la hiérarchie des produits vendus au détail."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

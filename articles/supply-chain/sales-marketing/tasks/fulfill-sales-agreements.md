@@ -3,7 +3,7 @@ title: Fournir des contrats de vente
 description: "Cette procédure montre comment honorer un contrat de vente en y associant des commandes client."
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

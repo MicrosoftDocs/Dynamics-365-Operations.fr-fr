@@ -3,7 +3,7 @@ title: " Traiter les ajustements de points de récompense de fidélité"
 description: "Cette procédure illustre comment rechercher des informations de carte de fidélité et ajuster les points de récompense de fidélité."
 author: scott-tucker
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

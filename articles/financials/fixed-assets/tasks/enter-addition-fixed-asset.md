@@ -3,7 +3,7 @@ title: "Saisie d'un supplément à une immobilisation"
 description: "Cette procédure décrit comment ajouter un supplément à une immobilisation existante."
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

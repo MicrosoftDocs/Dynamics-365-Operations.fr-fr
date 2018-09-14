@@ -3,7 +3,7 @@ title: "Journaliser les entrées de journal validées"
 description: "Cette procédure indique comment journaliser les entrées de journal validées."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

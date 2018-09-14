@@ -3,7 +3,7 @@ title: "Créer une couverture et des pages de signature pour un état de paiemen
 description: "Lorsque vous créez les pages de couverture et de signature pour un état de paiement, vous pouvez spécifier les informations qui doivent y figurer."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

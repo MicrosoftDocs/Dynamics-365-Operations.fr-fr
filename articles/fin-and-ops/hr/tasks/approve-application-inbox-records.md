@@ -3,7 +3,7 @@ title: "Approuver les enregistrements de la boîte de réception des candidature
 description: "Cette procédure décrit comment réviser les candidatures reçues via les pages Libre-service employé."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

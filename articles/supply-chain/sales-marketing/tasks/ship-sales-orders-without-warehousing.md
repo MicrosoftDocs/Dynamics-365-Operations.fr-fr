@@ -3,7 +3,7 @@ title: "Expédier des commandes client sans entreposage"
 description: "Ce guide montre comment mettre une commande client à jour lorsque les produits sont expédiés au client."
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

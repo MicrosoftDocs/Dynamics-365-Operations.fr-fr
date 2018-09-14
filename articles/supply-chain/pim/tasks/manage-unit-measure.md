@@ -3,7 +3,7 @@ title: "Gérer l'unité de mesure"
 description: "Cette procédure décrit comment définir une unité de mesure, fournir des traductions pour l'unité et sa description, et définir des règles de conversion pour les unités associées."
 author: sorenva
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Configurer la facturation de projets intersociétés"
 description: "Cette procédure décrit comment paramétrer la facturation d'un projet entre deux sociétés de votre organisation."
 author: KimANelson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Création d'une commande fournisseur à partir d'une commande client"
 description: "Cette procédure vous montre comment créer une commande fournisseur sur la base d'une commande client."
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

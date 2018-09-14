@@ -3,7 +3,7 @@ title: "Collaborer avec les clients de la chaîne d'approvisionnement interne"
 description: "Cette procédure indique comment afficher tous les ordres prévisionnels qui seront honorés par un fournisseur intersociétés."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

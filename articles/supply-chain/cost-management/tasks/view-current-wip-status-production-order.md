@@ -3,7 +3,7 @@ title: Afficher le statut actuel des travaux en cours d'un ordre de fabrication
 description: "Cette procédure indique comment afficher le relevé des travaux en cours d'un ordre de fabrication."
 author: AndersGirke
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

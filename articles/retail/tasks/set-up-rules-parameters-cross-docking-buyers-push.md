@@ -3,7 +3,7 @@ title: " Paramétrer les règles et les paramètres pour le cross-docking et le 
 description: "Cette procédure décrit les étapes pour créer des règles de réapprovisionnement."
 author: josaw1
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
