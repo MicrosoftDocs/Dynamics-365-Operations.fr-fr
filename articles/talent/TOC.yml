@@ -4,8 +4,10 @@
     - name: Mise en route
       href: talent-get-started.md
       items:
-        - name: Nouveautés ou changements
+        - name: Nouveautés ou modifications
           items:
+            - name: "Nouveautés ou modifications dans Dynamics\_365 for Talent Core HR (août\_2018)"
+              href: whats-new-talent-august2018.md
             - name: "Nouveautés ou modifications dans Dynamics\_365 for Talent Core HR (juillet\_2018)"
               href: whats-new-talent-july2018.md
         - name: Configuration système et politique de mise à jour
@@ -16,8 +18,8 @@
           href: remove-talent-environment.md
         - name: Mise en service des applications modulaires Talent
           href: modular-app-tech-faq.md
-        - name: Étendre la fonctionnalité Talent
-          href: extend-talent-functionality.md
+        - name: Incorporer les applications PowerApps
+          href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Accéder aux fonctionnalités d'aperçu
           href: access-preview-feature.md
         - name: Configurer l'intégration de la paie entre Talent et Dayforce

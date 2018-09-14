@@ -2,7 +2,7 @@
   href: index.md
 - name: Mise en route
   items:
-    - name: Nouveautés ou changements
+    - name: Nouveautés ou modifications
       href: get-started/whats-new.md
     - name: Avant d'acheter Retail
       href: get-started/before-you-buy.md
@@ -99,8 +99,6 @@
       href: call-center-functionality.md
     - name: Catalogues de centre d'appels
       href: call-center-catalogs.md
-    - name: Créer un catalogue de centre d'appels
-      href: create-call-center-catalogs.md
     - name: Configurer les modes de livraison et les frais
       href: configure-call-center-delivery.md
     - name: Paramétrer et utiliser les alertes pour fraude
@@ -129,13 +127,15 @@
       href: retail-time-attendance.md
 - name: Modern Point of Sale (MPOS) et Cloud POS
   items:
-    - name: Choix entre MPOS et Cloud POS
+    - name: Choix entre MPOS et PDV Cloud
       href: MPOS-or-CPOS.md
-    - name: Opérations POS en ligne et hors connexion
+    - name: Opérations PDV en ligne et hors connexion
       href: pos-operations.md
-    - name: Mises en page de l'écran de données de démonstration dans MPOS et Cloud POS
+    - name: Activation de l'appareil d'un Retail Modern POS personnalisé
+      href: dev-itpro/retail-POS-activation-changes.md
+    - name: Mises en page de l'écran de données de démonstration dans MPOS et PDV Cloud
       href: demo-data.md
-    - name: Recherche de produits et de clients dans POS
+    - name: Recherche de produits et de clients dans PDV
       href: POS-search-improvements.md
     - name: Recherche de stock dans POS
       href: product-variants-POS.md
