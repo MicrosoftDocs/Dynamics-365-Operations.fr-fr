@@ -263,9 +263,9 @@
               href: extensibility/naming-guidelines-extensions.md
             - name: Assouplir les restrictions du modèle pour refactoriser la surexposition dans les extensions
               href: extensibility/refactoring-over-layering.md
-        - name: Comment
+        - name: Création d'extensions
           items:
-            - name: Ajouter des valeurs à enums
+            - name: Ajouter des valeurs aux énumérations
               href: extensibility/add-enum-value.md
             - name: Modifier des Extended Data Types
               href: extensibility/modify-edt.md
@@ -311,15 +311,37 @@
               href: extensibility/maps-as-interfaces.md
             - name: Étendre les mises en correspondance de table utilisées pour le contrôle de version
               href: extensibility/maps-with-versioning.md
+        - name: Créer des solutions extensibles
+          items:
+            - name: Écrire du code extensible
+              href: extensibility/writing-extensible-code.md
+            - name: Classes
+              href: extensibility/extensible-classes.md
+            - name: Modes
+              href: extensibility/extensible-methods.md
+            - name: Écrans
+              href: extensibility/extensible-forms.md
+            - name: Extended Data Types
+              href: extensibility/extensible-edts.md
+            - name: Énumérations extensibles
+              href: extensibility/extensible-enums.md
+            - name: Délégués
+              href: extensibility/extensible-code-delegates.md
+            - name: Tables
+              href: extensibility/extensible-tables.md
+            - name: Attributs d'extensibilité pour les méthodes
+              href: extensibility/extensibility-attributes.md
+            - name: Dernières modifications
+              href: extensibility/breaking-changes.md
     - name: Performances
       items:
-        - name: Effectuer des suivis à l'aide de l'Analyseur de suivi
+        - name: Effectuer des suivis à l'aide de l'analyseur Trace
           href: perf-test/trace-trace-tutorial.md
         - name: SDK des performances et test multi-utilisateur à l'aide de Visual Studio Online
           href: perf-test/perfsdk-tutorial.md
         - name: SDK des performances et test multi-utilisateur dans les environnements sur site
           href: perf-test/perfsdk-tutorial-lbd.md
-        - name: Diagnostiquer les problèmes et analyser les performances à l'aide de l'Analyseur de suivi
+        - name: Diagnostiquer les problèmes et analyser les performances à l'aide de l'analyseur Trace
           href: perf-test/trace-parser.md
         - name: Minuteur de performance
           href: perf-test/performance-timer.md
@@ -1184,6 +1206,8 @@
       items:
         - name: Créer des règles pour le conseiller en optimisation
           href: sysadmin/create-rules-optimization-advisor.md
+    - name: Signaler une panne de production
+      href: lifecycle-services/report-production-outage.md
 - name: "Lifecycle\_Services"
   items:
     - name: Ressources pour Lifecycle Services
@@ -1236,6 +1260,8 @@
       href: lifecycle-services/monitoring-diagnostics.md
     - name: Redémarrer les services d'environnement
       href: lifecycle-services/restart-environment-services.md
+    - name: Signaler une panne de production
+      href: lifecycle-services/report-production-outage.md
     - name: Suivre les connexions des utilisateurs
       href: lifecycle-services/user-logins.md
     - name: Bibliothèque d'actifs

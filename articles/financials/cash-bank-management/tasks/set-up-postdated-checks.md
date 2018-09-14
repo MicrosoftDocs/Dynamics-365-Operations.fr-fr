@@ -3,7 +3,7 @@ title: "Paramétrage de chèques postdatés"
 description: "Cette rubrique explique comment indiquer s'il faut valider les écritures de journal pour les chèques postdatés et quels journaux de validation utiliser pour les écritures de compensation et les paiements fournisseur."
 author: kweekley
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 9cf1f6cc29f023977642380ee2583d4f07c53138
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: e4b18ebe1388998b45e5ef38318b0ade9153f7c8
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="set-up-postdated-checks"></a><span data-ttu-id="58e8f-103">Paramétrage de chèques postdatés</span><span class="sxs-lookup"><span data-stu-id="58e8f-103">Set up postdated checks</span></span>

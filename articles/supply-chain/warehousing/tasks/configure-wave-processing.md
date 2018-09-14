@@ -3,7 +3,7 @@ title: Configurer le traitement de la vague
 description: "Cette rubrique décrit la procédure de paramétrage des critères qui déterminent le travail généré pour un entrepôt lorsqu'une vague est traitée et si les vagues sont traitées manuellement ou automatiquement."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: cad9e21b575fb04abbf6630215dab747726a92cb
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 399146d35388a0151abb23e57bc36ec0173be928
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="configure-wave-processing"></a><span data-ttu-id="e0556-103">Configurer le traitement de la vague</span><span class="sxs-lookup"><span data-stu-id="e0556-103">Configure wave processing</span></span>

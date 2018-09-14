@@ -3,7 +3,7 @@ title: "Mettre à jour le statut d'opération kanban"
 description: "Lorsqu'un kanban est vidé par erreur ou qu'un kanban reçu doit être vidé, vous devez mettre le statut du kanban à jour."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: ab16376f00ba327f3f69b4b07479490d31809b38
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 1d069414829518c8c952a0e7a74cd0ae4f24c450
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="update-kanban-status"></a><span data-ttu-id="583a0-103">Mettre à jour le statut d'opération kanban</span><span class="sxs-lookup"><span data-stu-id="583a0-103">Update kanban status</span></span>

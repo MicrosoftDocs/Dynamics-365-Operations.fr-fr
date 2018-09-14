@@ -3,7 +3,7 @@ title: "Ajouter une stratégie de calcul de quantité kanban à une règle de ka
 description: "Cette procédure est orientée sur la création d'une stratégie de calcul de quantité de kanban et le fait de l'ajouter à une règle de kanban optimise la taille et les quantités de kanban."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 81a3bc9cf0f9853d9c5f795d835fc6cead2a47eb
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: fffd623104dc403e230128c9234521ad1e39c7bb
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="add-a-kanban-quantity-calculation-policy-to-a-kanban-rule"></a><span data-ttu-id="b6cb0-103">Ajouter une stratégie de calcul de quantité kanban à une règle de kanban</span><span class="sxs-lookup"><span data-stu-id="b6cb0-103">Add a kanban quantity calculation policy to a kanban rule</span></span>

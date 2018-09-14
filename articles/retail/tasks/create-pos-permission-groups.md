@@ -3,7 +3,7 @@ title: " Créer des groupes d'autorisations de PDV"
 description: "Cette procédure indique comment créer un groupe d'autorisations de PDV."
 author: scott-tucker
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: c5bb77b0cc4d81e2cceb8c17760fe0b84d2c575d
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 1b30c9a1d7fe4598695423ba700ebc88a794a49c
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="create-pos-permission-groups"></a><span data-ttu-id="61bf0-103"> Créer des groupes d'autorisations de PDV</span><span class="sxs-lookup"><span data-stu-id="61bf0-103">Create POS permission groups</span></span>

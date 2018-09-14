@@ -3,7 +3,7 @@ title: "Paramétrer les classifications de contrat d'achat dans le secteur publi
 description: "La classification de contrat d'achat vous permet de contrôler les informations administratives disponibles dans les contrats d'achat."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 380b71726cefa69ff7cbe8b8d765013cf07c11c0
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 8c7c36f348df39e9b91ddbc02237b3072c20e8ed
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="set-up-purchase-agreement-classifications-in-the-public-sector"></a><span data-ttu-id="b2519-103">Paramétrer les classifications de contrat d'achat dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="b2519-103">Set up purchase agreement classifications in the public sector</span></span>

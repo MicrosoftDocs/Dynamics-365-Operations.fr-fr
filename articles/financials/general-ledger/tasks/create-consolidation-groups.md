@@ -3,7 +3,7 @@ title: "Créer des groupes de consolidation et comptes de consolidation supplém
 description: "Cette procédure montre comment créer un groupe de comptes de consolidation puis ajouter des comptes au groupe."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: c8fe116b473478d6d2921c0a63979e8fa8b369d5
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 9e3b945b9b2c00ac4ec703db4fdafdcfb13b3412
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="create-consolidation-groups-and-additional-consolidation-accounts"></a><span data-ttu-id="4090c-103">Créer des groupes de consolidation et comptes de consolidation supplémentaires</span><span class="sxs-lookup"><span data-stu-id="4090c-103">Create consolidation groups and additional consolidation accounts</span></span>

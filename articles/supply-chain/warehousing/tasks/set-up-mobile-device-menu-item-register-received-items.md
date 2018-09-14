@@ -3,7 +3,7 @@ title: "Paramétrer une option de menu d'appareil mobile pour enregistrer les ar
 description: "Cette tâche consiste à réaliser le paramétrage d'une option de menu d'appareil mobile."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 588671b1cfff2f20f6bccaf416a0888df50d71ab
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 3cab7eced20111b82afabe69b6f994333b16209a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-register-received-items"></a><span data-ttu-id="efc1a-103">Paramétrer une option de menu d'appareil mobile pour enregistrer les articles reçus</span><span class="sxs-lookup"><span data-stu-id="efc1a-103">Set up a mobile device menu item to register received items</span></span>

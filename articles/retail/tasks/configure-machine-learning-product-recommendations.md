@@ -3,7 +3,7 @@ title: " Configurer des recommandations de produit exécutées par Machine Learn
 description: "Cette procédure actualise les données du magasin des entités qui sont utilisées par le système Machine Learning exécutant les recommandations de produit, puis active les recommandations de produit pour les clients POS."
 author: ashishmsft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: asharchw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 6c3f838372cc17414741ccc3165e129c46d19a6a
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 700af913f18e23c66db53a92033def06818af1ec
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="configure-machine-learning-powered-product-recommendations"></a><span data-ttu-id="df6c0-103"> Configurer des recommandations de produit exécutées par Machine Learning</span><span class="sxs-lookup"><span data-stu-id="df6c0-103">Configure machine learning-powered product recommendations</span></span>

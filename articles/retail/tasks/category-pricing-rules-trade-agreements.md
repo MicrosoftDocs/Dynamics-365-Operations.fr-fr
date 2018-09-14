@@ -3,7 +3,7 @@ title: " Règles de tarification de catégorie en vue de créer des accords comm
 description: "Cette procédure illustre comment créer des accords commerciaux sur les prix de vente à l'aide d'une règle de tarification de catégorie."
 author: scott-tucker
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 454f74627bd4811fa657b0c6b06003a8fdbdb599
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 8d252982cf1e4fa2f06646d0909e6f82d16f4cfc
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="category-pricing-rules-to-create-trade-agreements"></a><span data-ttu-id="df01f-103"> Règles de tarification de catégorie en vue de créer des accords commerciaux</span><span class="sxs-lookup"><span data-stu-id="df01f-103">Category pricing rules to create trade agreements</span></span>

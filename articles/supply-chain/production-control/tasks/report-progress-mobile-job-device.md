@@ -3,7 +3,7 @@ title: "Générer un état de la progression sur un périphérique mobile"
 description: "Cette procédure vous indique comment démarrer une tâche de production et générer un état de la progression de celle-ci dans le formulaire d'enregistrement du périphérique de tâche."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: f944d03d4ebdb714f8438df5baa0906cd587328b
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 1f5d06b0165a7a3cf7ed9dab46d0bca4d37fdc12
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="report-progress-on-a-mobile-job-device"></a><span data-ttu-id="9230b-103">Générer un état de la progression sur un périphérique mobile</span><span class="sxs-lookup"><span data-stu-id="9230b-103">Report progress on a mobile job device</span></span>

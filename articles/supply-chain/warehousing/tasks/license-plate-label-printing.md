@@ -3,7 +3,7 @@ title: "Activer l'impression d'étiquette de contenant"
 description: "Cette procédure active l'impression automatique d'un code conteneur d'expédition en série (SSCC) une fois le dernier article prélevé du stock dans un processus de prélèvements des ventes."
 author: perlynne
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: d562e3a757ed0d8dd0ccc88119cfaadb7d8e1c1f
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 8d906ca9f5a6536870fa0c322a0792ed5672c25e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="enable-license-plate-label-printing"></a><span data-ttu-id="f38e4-103">Activer l'impression d'étiquette de contenant</span><span class="sxs-lookup"><span data-stu-id="f38e4-103">Enable license plate label printing</span></span>

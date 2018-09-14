@@ -3,7 +3,7 @@ title: "Création de plans de régularisation"
 description: "Ce guide accompagne l'utilisateur le long de la création d'un plan de régularisation."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: b08f441d0dadf8ac33197188ba8aaf85db730e8f
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: ce96ccfb0dc3e4a723af967147dae93772c5b44f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="create-accrual-schemes"></a><span data-ttu-id="c2f3d-103">Création de plans de régularisation</span><span class="sxs-lookup"><span data-stu-id="c2f3d-103">Create accrual schemes</span></span>

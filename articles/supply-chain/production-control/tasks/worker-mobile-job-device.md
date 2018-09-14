@@ -3,7 +3,7 @@ title: "Configurer un collaborateur à l'aide du périphérique de travail mobil
 description: "Cette procédure vous indique comment affecter des rôles corrects au compte utilisateur d'un collaborateur, puis autoriser ce collaborateur à effectuer des enregistrements d'atelier."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: e3f839ba377a0c28aada2c2f56c8f45480d21f80
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 1bb4d806810660e55ef13a9ff21c07e0ce194496
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="configure-a-worker-using-the-mobile-job-device"></a><span data-ttu-id="7a773-103">Configurer un collaborateur à l'aide du périphérique de travail mobile</span><span class="sxs-lookup"><span data-stu-id="7a773-103">Configure a worker using the mobile job device</span></span>
