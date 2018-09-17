@@ -17,14 +17,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: cf5277bf90799692b4d9d43e3279dae6e1e1bdf7
+ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
+ms.openlocfilehash: 8bc9e533de40aa8fe8ddfe422cfe0f4078a360c7
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/17/2018
 
 ---
 
 # <a name="vat-recovery-in-expense-management"></a><span data-ttu-id="5ac09-103">Recouvrement de la TVA dans le module Gestion des dépenses</span><span class="sxs-lookup"><span data-stu-id="5ac09-103">VAT recovery in Expense management</span></span>
+
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="5ac09-104">Pour recevoir des remboursement sur des transactions de taxe sur la valeur ajoutée (TVA) admissibles, une société ou organisation doit identifier, collecter, vérifier et soumettre des informations précises.</span><span class="sxs-lookup"><span data-stu-id="5ac09-104">To receive refunds on eligible value-added tax (VAT) transactions, a company or organization must identify, collect, verify, and submit accurate information.</span></span> <span data-ttu-id="5ac09-105">Ce processus inclut plusieurs tâches, et selon la taille de votre société, peut inclure plusieurs employés ou rôles.</span><span class="sxs-lookup"><span data-stu-id="5ac09-105">This process includes multiple tasks and, depending on the size of your company, can include several employees or roles.</span></span>
 
