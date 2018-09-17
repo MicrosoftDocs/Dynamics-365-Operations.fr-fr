@@ -1,7 +1,7 @@
 --- 
 title: "Vérifier la disponibilité du stock"
 description: "Cette procédure vous indique comment contrôler le stock physique disponible pour un article spécifique."
-author: 
+author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
