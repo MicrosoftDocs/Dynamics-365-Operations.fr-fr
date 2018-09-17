@@ -1,21 +1,22 @@
----
+--- 
 title: "Transférer du stock physique au sein de l'entrepôt"
 description: "Cette procédure vous accompagne dans le processus de création et de validation d'un journal de transfert de stock en vue d'enregistrer le mouvement d'un article à partir d'un emplacement dans un entrepôt vers un autre."
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 03/02/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventJournalTransfer, InventJournalCreate, InventItemIdLookupSimple, InventLocationIdLookup, WMSLocationIdLookup, InventTrans
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: bfba69731a4897906d08ff9fb9ce69e79121efeb
@@ -67,4 +68,5 @@ Cette procédure vous accompagne dans le processus de création et de validation
 1. Cliquez sur Stock.
 2. Cliquez sur Transactions.
     * Ici vous pouvez afficher les transactions créées lorsque vous avez validé votre journal.  
+
 

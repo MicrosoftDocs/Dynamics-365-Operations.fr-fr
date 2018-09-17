@@ -1,21 +1,22 @@
----
+--- 
 title: "Créer une structure d'entrepôt"
 description: "Cette procédure vous montre comment définir des informations sur les emplacements d'un entrepôt."
 author: perlynne
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventParameters, DefaultDashboard, InventLocation, WMSLocationWizard
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 253440d81edd6f71b52ae349398e3c6a895bf05c
@@ -49,7 +50,7 @@ Cette procédure vous montre comment définir des informations sur les emplaceme
 7. Activez ou désactivez l'extension de la section Noms d'emplacement.
     * Les options de cette section définissent le format par défaut pour les noms d'emplacement. Dans notre exemple, le numéro d'allée, le nombre de rayon et le nombre d'étagère sont inclus.  
 8. Définissez l'option Inclure allée sur Oui.
-9. Définissez l'option Inclure rayon sur Oui.
+9. Définissez l'option Inclure rayon sur Oui. 
 10. Tapez une valeur pour le rayon dans le champ Format.
     * Par exemple : -##  
 11. Définissez l'option Inclure étagère sur Oui.
@@ -74,4 +75,5 @@ Cette procédure vous montre comment définir des informations sur les emplaceme
 14. Cliquez sur Terminer.
 15. Fermez la page.
 16. Actualisez la page.
+
 

@@ -1,21 +1,22 @@
 --- 
 title: "Créer une classification de facturation dans le secteur public"
 description: "Les organisations du secteur public peuvent utiliser les classifications de facturation pour gérer les factures financières."
-author: ShylaThompson
+author: twheeloc
 manager: AnnBe
-ms.date: 11/10/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CustBillingClassification
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: shylaw
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 8858ca9e11ba4e6345fc31b439a1b69540837519

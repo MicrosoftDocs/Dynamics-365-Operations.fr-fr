@@ -55,11 +55,13 @@ Un client peut avoir plusieurs modèles qui ont différentes fréquences.
 
 ## <a name="generate-the-recurring-invoices"></a>Générer les factures répétitives
 Dans la page **Factures récurrentes**, il existe une tâche qui traite les modèles de factures récurrentes. Vous spécifiez la date de facture et le modèle à partir duquel générer les factures. Les factures sont générées et un même numéro d'identification de récurrence est affecté pour chaque groupe de factures traité.
-Validation de factures financières récurrentes
+
+<a name="post-recurring-free-text-invoices"></a>Validation de factures financières récurrentes
 ---------------------------------
 
 Une fois les factures récurrentes générées, les ID de récurrence de facture s'affichent dans une tâche de validation dans la page **Factures récurrentes**. Vous pouvez afficher toutes les factures pour un ID de récurrence en cliquant sur le lien. Lors de la révision des factures pour l'ID de récurrence, vous pouvez supprimer les factures individuelles. Les paramètres de récurrence du client seront réinitialisés pour ce modèle, afin qu'il puisse être régénéré ultérieurement. Vous pouvez valider une, plusieurs ou toutes les factures pour un ID de récurrence. Si des workflows sont activés, vous devez cliquer sur **Envoyer** avant de pouvoir valider les factures.
-Impression de factures financières récurrentes
+
+<a name="print-recurring-free-text-invoices"></a>Impression de factures financières récurrentes
 ----------------------------------
 
 Une fois les factures récurrentes validées, vous pouvez imprimer les factures à partir de la page de liste des factures financières. Vous pouvez imprimer les factures sélectionnées ou sélectionner une plage de factures à imprimer.

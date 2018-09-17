@@ -1,21 +1,22 @@
----
+--- 
 title: Corriger les informations de suivi de stock
 description: "Cette procédure vous guide dans le processus de création et de validation d'un journal de transfert de stock afin de corriger les informations de suivi de stock."
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 03/02/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventJournalTransfer, InventJournalCreate, InventItemIdLookupSimple, InventBatchIdLookup, InventLocationIdLookup, InventDimTracking, InventTrans
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: e28d10646f01604098de8cedc30c8c7a7c89866b
@@ -62,4 +63,5 @@ Cette procédure vous guide dans le processus de création et de validation d'un
 1. Cliquez sur Stock.
 2. Cliquez sur Transactions.
     * Ici vous pouvez afficher les transactions créées lorsque vous avez validé votre journal.   
+
 

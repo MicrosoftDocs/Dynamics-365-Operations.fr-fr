@@ -1,31 +1,32 @@
 --- 
-title: "Envoyer des produits des centres de distribution aux magasins à l'aide de la procédure de réassort magasin"
+title: " Envoyer des produits du centre de distribution au magasin à l'aide de la procédure de réassort magasin"
 description: "Cette procédure décrit les étapes pour créer et traiter un réassort magasin afin de distribuer les produits depuis un emplacement vers un ou plusieurs magasins."
 author: rubencdelgado
 manager: AnnBe
-ms.date: 02/17/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-retail
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: RetailBuyersPush, InventLocationIdLookup, InventItemIdLookupSimple, RetailReplenishmentTreeLookup
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: ed47b4f052dab99dec058910e4b8558481b34e59
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 9d9a5d4fdece1cfb573224bd54d96ccd281c0f09
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 02/07/2018
 
 ---
-# <a name="push-products-from-distribution-centers-to-stores-via-buyers-push"></a>Envoyer des produits des centres de distribution aux magasins à l'aide de la procédure de réassort magasin
+# <a name="push-products-from-distribution-center-to-store-using-buyers-push"></a> Envoyer des produits du centre de distribution au magasin à l'aide de la procédure de réassort magasin
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include[task guide banner](../includes/task-guide-banner.md)]
 
 Cette procédure décrit les étapes pour créer et traiter un réassort magasin afin de distribuer les produits depuis un emplacement vers un ou plusieurs magasins. L'utilisateur peut définir plusieurs configurations et laisser le système décider de la distribution des produits, ou saisir manuellement l'emplacement de distribution des produits et la quantité distribuée dans chaque magasin. Cette procédure n'inclut pas le paramétrage des données pouvant être utilisées dans le réassort magasin, telles que les règles de réapprovisionnement, les hiérarchies organisationnelles et les poids des magasins. La société fictive USRT sert d'exemple dans cette procédure.
 

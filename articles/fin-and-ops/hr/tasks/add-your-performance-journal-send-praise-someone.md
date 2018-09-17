@@ -1,28 +1,29 @@
 --- 
-title: "Ajouter des informations à votre journal de performances et envoyer l'éloge"
+title: "Ajouter à votre journal de performances et envoyer l'éloge à une personne"
 description: "Le journal des performance contient des informations relatives à la réalisation de vos objectifs ou à vos performances pendant une période."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 10/13/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: EssWorkspace, HcmPerfJournal, HcmPerfJournalAddLink, HcmPerfPraise, HcmWorkerLookUpByPerson, HcmPerfJournalAdd
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations, Talent
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 92cbb25839b8f202ba37a19ad88a54194a73c179
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: e232ba1f5803f6dee148f23098563c99c1622cdf
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 11/06/2017
 
 ---
-# <a name="add-information-to-your-performance-journal-and-send-praise"></a>Ajouter des informations à votre journal de performances et envoyer l'éloge
+# <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>Ajouter à votre journal de performances et envoyer l'éloge à une personne
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -42,7 +43,7 @@ Le journal des performance contient des informations relatives à la réalisatio
 9. Dans le champ Mots clés, tapez une valeur.
 10. Cliquez sur Ajouter un lien externe.
 11. Dans le champ Description, tapez « Envision ».
-12. Dans le champ Adresse Internet, tapez « <https://www.microsoft.com/en/envision/default> ».
+12. Dans le champ d'adresse Internet, tapez « https://www.microsoft.com/en/envision/default ».
 13. Cliquez sur la légende sous le bouton d'enregistrement intitulée « Journal des performances » pour revenir à la grille.
     * Vous pouvez ajouter le ou les journaux sélectionnés à un objectif pour qu'ils s'affichent lorsque vous ouvrez l'objectif. Un lien est ajouté dans l'organisateur Liens.    Si vous ajoutez un journal à un objectif et ajoutez l'objectif à une révision, le journal apparaît automatiquement dans la révision.  
     * Vous pouvez ajouter le ou les journaux sélectionnés à une révision pour qu'ils s'affichent lorsque vous ouvrez la révision.    Un lien est ajouté dans l'organisateur Liens.  

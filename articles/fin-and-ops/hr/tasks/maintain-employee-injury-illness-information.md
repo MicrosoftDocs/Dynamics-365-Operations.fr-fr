@@ -3,18 +3,19 @@ title: "Mettre à jour des informations relatives aux blessures et aux maladies 
 description: "Il est recommandé de terminer d'abord le guide de tâche « Paramétrer les informations sur les blessures et les maladies », car certaines des informations de paramétrage sont utilisées ici."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 02/16/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: HRMInjuryIncident, HcmWorkerLookUp
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations, Talent
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
 ms.openlocfilehash: ee053759be244f04efaa6ef6e2cf98e6509da230
