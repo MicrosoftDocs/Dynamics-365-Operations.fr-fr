@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 78b41010e4ab56675121ab5479cada37645e9ee3
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 5483a1d40907fab3ed3da8174f1dfb8a5bc86960
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -30,25 +30,24 @@ ms.lasthandoff: 08/08/2018
 
 [!include [banner](../includes/banner.md)]
 
-Cet article explique comment définir les préférences de l’utilisateur pour personnaliser vos interactions utilisateur dans le générateur d'états financiers et de contrôler l’expérience de connexion initiale. Vous pouvez également contrôler comment les états individuels, la bibliothèque d'états et les emplacements de fichiers par défaut sont affichés. 
+Cet article explique comment définir les préférences de l’utilisateur pour personnaliser vos interactions utilisateur dans le générateur d'états financiers et de contrôler l’expérience de connexion initiale. Vous pouvez également contrôler comment les états individuels, la bibliothèque d'états et les emplacements de fichiers par défaut sont affichés.
 
-<a name="set-user-preferences"></a>Définition des préférences utilisateur
---------------------
+## <a name="set-user-preferences"></a>Définition des préférences utilisateur
 
-1.  Dans le générateur d'états, dans le menu **Outils**, cliquez sur **Options**.
-2.  Dans la boîte de dialogue **Options**, sélectionnez vos préférences.
-3.  Cliquez sur **OK**.
+1. Dans le générateur d'états, dans le menu **Outils**, cliquez sur **Options**.
+2. Dans la boîte de dialogue **Options**, sélectionnez vos préférences.
+3. Cliquez sur **OK**.
 
 ## <a name="options-dialog-box-options"></a>Options de la boîte de dialogue Options
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>Option utilisateur</th>
 <th>description ;</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Au démarrage</td>
 <td>Sélectionnez ce que vous voyez au démarrage du Concepteur de rapports. Permet de sélectionner l'une des options suivantes :
 <ul>
@@ -57,28 +56,22 @@ Cet article explique comment définir les préférences de l’utilisateur pour 
 <li><strong>Afficher l’environnement vide</strong> – ouvrez une fenêtre de concepteur vide.</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Afficher la confirmation avant de quitter le Concepteur de rapports</td>
 <td>Sélectionnez si vous souhaitez recevoir un message d’avertissement lorsque vous quittez l’application. Ce message permet de garantir que vous ne quittiez le programme involontairement.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Appliquer automatiquement le soulignement de cellule dans les en-têtes de colonne</td>
 <td>Permet d'insérer un soulignement dans la cellule d'une nouvelle en-tête de colonne.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Emplacement des fichiers Management Reporter</td>
 <td>Permet de préciser l'emplacement par défaut des fichiers. L’application utilise l’emplacement par défaut lors de l’exportation de groupes de blocs élémentaires.</td>
 </tr>
 </tbody>
 </table>
 
-
-
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [États financiers](financial-reporting-intro.md)
-
-
-
 

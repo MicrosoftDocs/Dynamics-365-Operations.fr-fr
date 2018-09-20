@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: e1ffd9cb90b2ffac8f89885aac2f614e2ae3cb71
+ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
+ms.openlocfilehash: 3f18a5d7b7f7639b864f579b758005c7a30803a2
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -74,7 +74,7 @@ Vous pouvez également rechercher notre contenu avec n'importe quel moteur de re
 Finance and Operations, Retail et Talent partagent tous une table des matières unique dans le site de documents, ce qui permet aux clients de voir le contexte de la rubrique dans laquelle ils se trouvent. Cela vous permet également d'utiliser le contrôle Filtrer situé au-dessus de la table des matières pour rechercher les rubriques souhaitées.
 
 ### <a name="follow-a-topic"></a>Suivre une rubrique
-Pour suivre une rubrique, cliquez sur le bouton +Suivre sous la zone de commentaires. Vous devrez vous connecter pour suivre la rubrique. Voir [Laissez-nous un commentaire](#leave-us-a-comment) pour plus de détails.  
+Pour suivre une rubrique, cliquez sur le bouton +Suivre sous la zone de commentaires. Vous devrez vous connecter pour suivre la rubrique. Voir [Laissez-nous un commentaire](#leave-us-feedback) pour plus de détails.  
 
 ### <a name="use-an-rss-feed"></a>Utiliser un flux RSS
 Pour vous abonner à un flux RSS de toutes les mises à jour du contenu Unified Operations utilisez le lien suivant à partir d'un navigateur qui prend en charge les flux RSS, comme Internet Explorer, ou d'un gestionnaire de flux RSS : 

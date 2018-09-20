@@ -19,10 +19,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 58653d6e991f1896673a07e3057bd516c74edd76
+ms.sourcegitcommit: 96a9075294c1f2a9cfde03be1aaaa26af90de4c2
+ms.openlocfilehash: f68e89422e7124874004a20c2bae5809dcdfb099
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/04/2018
 
 ---
 
@@ -49,6 +49,8 @@ Remarque : les opérations répertoriées ci-dessous s'appliquent à la version
 | 707 | Activer le périphérique | Permet d'activer le périphérique actuel en permettant à un utilisateur authentifié de fournir des informations de connexion et affectez un ID de périphérique et de caisse enregistreuse. | N° | N° | N° | N° | N° |
 | 134 | Ajouter une affiliation | Permet d'ajouter une adresse d'expédition à une transaction. Sélectionnez l'affiliation sur la page **Propriétés du bouton**. | Oui | Oui | N° | Oui | N° |
 | 135 | Ajouter une affiliation à partir de la liste | Permet d'ajouter une affiliation à une transaction en la sélectionnant dans une liste. | Oui | Oui | Oui | Oui | N° |
+| 137 | Ajouter une affiliation à un client | Ajouter une affiliation à un client sur la page **Détails du client**. | N° | N° | N° | Oui | N° |
+| 138 | Supprimer une affiliation d'un client | Supprimer une affiliation sur la page **Détails du client**. | N° | N° | N° | Oui | N° |
 | 643 | Ajouter un code coupon | Permet d'ajouter un coupon en entrant son code dans le PDV. | Oui | Oui | N° | Oui | N° |
 | 117 | Ajouter une carte de fidélité | Permet d'inviter l'utilisateur à entrer un numéro de carte de fidélité qui sera ajouté à la transaction actuelle. | Oui | Oui | N° | Oui | N° |
 | 136 | Ajouter un numéro de série | Cette opération permet à l'utilisateur de spécifier un numéro de série pour le produit sélectionné actuellement. | Oui | Oui | N° | Oui | N° |

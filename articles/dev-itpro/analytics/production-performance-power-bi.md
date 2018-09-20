@@ -17,10 +17,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: d59a7aef90ecef0cd947b833f1cce1e2372f3033
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 2bc4c409b831b78ef737a98ce985bf144853a454
 ms.contentlocale: fr-fr
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -43,7 +43,7 @@ Ce contenu Power BI vous permet également d'analyser les écarts de production.
 Le contenu Power BI **Performances de production** inclut les données provenant des ordres de fabrication et des lots de commandes. Les états n'incluent pas les données liées aux productions de kanban.
 
 ## <a name="accessing-the-power-bi-content"></a>Accès au contenu Power BI
-Le contenu Power BI **Performances de production** s'affiche sur la page **Performances de production** (**Contrôle de la production** > **Recherches et états** > **Analyse des performances de production** > **Performances de production**). 
+Le contenu Power BI **Performances de production** s'affiche sur la page **Performances de production** (**Contrôle de la production** \> **Recherches et états** \> **Analyse des performances de production** \> **Performances de production**). 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Mesures incluses dans le contenu Power BI
 
@@ -51,9 +51,9 @@ Le contenu Power BI **Performances de production** comprend un ensemble de pages
 
 Le tableau suivant offre une vue d'ensemble des visualisations incluses.
 
-| Page d'état                                | Graphiques                                               | Vignettes |
-|--------------------------------------------|------------------------------------------------------|-------|
-| Performances de production                     | <ul><li>Nombre de productions par date</li><li>Nombre de productions par groupe de produits et d'articles</li><li>Nombre de productions planifiées par date</li><li>10 derniers produits à temps et complet</li></ul> | <ul><li>Nombre total de commandes</li><li>Pourcentage à temps et complet</li><li>Pourcentage incomplet</li><li>Pourcentage en avance</li><li>Pourcentage en retard</li></ul> |
+| Page d'état                                | Graphiques | Vignettes |
+|--------------------------------------------|--------|-------|
+| Performances de production                     | <ul><li>Nombre de productions par date</li><li>Nombre de productions par groupe de produits et d'articles</li><li>Nombre de productions planifiées par date</li><li>10 derniers produits à temps &amp; complet</li></ul> | <ul><li>Nombre total de commandes</li><li>Pourcentage à temps &amp; complet</li><li>Pourcentage incomplet</li><li>Pourcentage en avance</li><li>Pourcentage en retard</li></ul> |
 | Défauts par produit                         | <ul><li>Taux de défectuosité (ppm) par date</li><li>Taux de défectuosité (ppm) par groupe de produits et d'articles</li><li>Quantité produite par date</li><li>10 premiers produits par taux effectif</li></ul> | <ul><li>Taux de défectuosité (ppm)</li><li>Quantité défectueuse</li><li>Quantité totale</li></ul> |
 | Tendance des défauts par produit                   | Taux de défectuosité (ppm) par quantité produite | Taux de défectuosité (ppm) |
 | Défauts par ressource                        | <ul><li>Taux de défectuosité (ppm) par date</li><li>Taux de défectuosité (ppm) par ressource et site</li><li>Taux de défectuosité (ppm) par opération</li><li>10 premières ressources par taux de défectuosité</li></ul> | Quantité défectueuse |
@@ -88,35 +88,35 @@ Le tableau suivant indique comment les mesures globales clés sont utilisées po
 
 | Mesure                  | Méthode de calcul de la mesure |
 |--------------------------|-------------------------------|
-| Écart de production, pourcentage   | SUM('Écart de production'[Écart de production]) / SUM('Écart de production'[Coût estimé]) |
+| Écart de production, pourcentage   | SUM('Écart de production'\[Écart de production\]) / SUM('Écart de production'\[Coût estimé\]) |
 | Tous les ordres prévisionnels       | COUNTROWS('Ordre de fabrication prévisionnel') |
-| En avance                    | COUNTROWS(FILTER('Ordre de fabrication prévisionnel', 'Ordre de fabrication prévisionnel'[Date de fin prévue] \< 'Ordre de fabrication prévisionnel'[Date de besoin])) |
-| En retard                     | COUNTROWS(FILTER('Ordre de fabrication prévisionnel', 'Ordre de fabrication prévisionnel'[Date de fin prévue] \> 'Ordre de fabrication prévisionnel'[Date de besoin])) |
-| À temps                  | COUNTROWS(FILTER('Ordre de fabrication prévisionnel', 'Ordre de fabrication prévisionnel'[Date de fin prévue] = 'Ordre de fabrication prévisionnel'[Date de besoin])) |
-| Pourcentage à temps                | IF ( 'Ordre de fabrication prévisionnel'[À temps] \<\> 0, 'Ordre de fabrication prévisionnel'[À temps], IF ('Ordre de fabrication prévisionnel'[Tous les ordres prévisionnels] \<\> 0, 0, BLANK()) ) / 'Ordre de fabrication prévisionnel'[Tous les ordres prévisionnels] |
-| Terminée                | COUNTROWS(FILTER('Ordre de fabrication', 'Ordre de fabrication'[Déclaré terminé] = TRUE)) |
-| Taux de défectuosité (ppm)     | IF( 'Ordre de fabrication'[Quantité totale] = 0, BLANK(), (SUM('Ordre de fabrication'[Quantité défectueuse]) / 'Ordre de fabrication'[Quantité totale]) \* 1000000) |
-| Taux de production différé  | 'Ordre de fabrication'[En retard \#] / 'Ordre de fabrication'[Terminé] |
-| En avance et complet          | COUNTROWS(FILTER('Ordre de fabrication', 'Ordre de fabrication'[Complet] = TRUE && 'Ordre de fabrication'[En avance] = TRUE)) |
-| En avance \#                 | COUNTROWS(FILTER('Ordre de fabrication', 'Ordre de fabrication'[En avance] = TRUE)) |
-| Pourcentage en avance                  | IFERROR( IF('Ordre de fabrication'[En avance \#] \<\> 0, 'Ordre de fabrication'[En avance \#], IF('Ordre de fabrication'[Nombre total de commandes] = 0, BLANK(), 0)) / 'Ordre de fabrication'[Nombre total de commandes], BLANK()) |
-| Incomplet               | COUNTROWS(FILTER('Ordre de fabrication', 'Ordre de fabrication'[Complet] = FALSE && 'Ordre de fabrication'[Déclaré terminé] = TRUE)) |
-| Pourcentage incomplet             | IFERROR( IF('Ordre de fabrication'[Incomplet] \<\> 0, 'Ordre de fabrication'[Incomplet], IF('Ordre de fabrication'[Nombre total de commandes] = 0, BLANK(), 0)) / 'Ordre de fabrication'[Nombre total de commandes], BLANK()) |
-| Différé               | 'Ordre de fabrication'[Déclaré terminé] = TRUE && 'Ordre de fabrication'[Valeur différée] = 1 |
-| En avance                 | 'Ordre de fabrication'[Déclaré terminé] = TRUE && 'Ordre de fabrication'[Jours de retard] \< 0 |
-| Complet               | 'Ordre de fabrication'[Quantité correcte] \>= 'Ordre de fabrication'[Quantité prévue] |
-| Déclaré terminé                | 'Ordre de fabrication'[Valeur du statut de production] = 5 \|\| 'Ordre de fabrication'[Valeur du statut de production] = 7 |
-| En retard et complet           | COUNTROWS(FILTER('Ordre de fabrication', 'Ordre de fabrication'[Complet] = TRUE && 'Ordre de fabrication'[Différé] = TRUE)) |
-| En retard \#                  | COUNTROWS(FILTER('Ordre de fabrication', 'Ordre de fabrication'[Différé] = TRUE)) |
-| Pourcentage en retard                   | IFERROR( IF('Ordre de fabrication'[En retard \#] \<\> 0, 'Ordre de fabrication'[En retard \#], IF('Ordre de fabrication'[Nombre total de commandes] = 0, BLANK(), 0)) / 'Ordre de fabrication'[Nombre total de commandes], BLANK()) |
-| À temps et complet        | COUNTROWS(FILTER('Ordre de fabrication', 'Ordre de fabrication'[Complet] = TRUE && 'Ordre de fabrication'[Différé] = FALSE && 'Ordre de fabrication'[En avance] = FALSE)) |
-| Pourcentage à temps et complet      | IFERROR( IF('Ordre de fabrication'[À temps et complet] \<\> 0, 'Ordre de fabrication'[À temps et complet], IF('Ordre de fabrication'[Terminé] = 0, BLANK(), 0)) / 'Ordre de fabrication'[Terminé], BLANK()) |
+| En avance                    | COUNTROWS(FILTER('Ordre de fabrication prévisionnel', 'Ordre de fabrication prévisionnel'\[Date de fin prévue\] \< 'Ordre de fabrication prévisionnel'\[Date de besoin\])) |
+| En retard                     | COUNTROWS(FILTER('Ordre de fabrication prévisionnel', 'Ordre de fabrication prévisionnel'\[Date de fin prévue\] \> 'Ordre de fabrication prévisionnel'\[Date de besoin\])) |
+| À temps                  | COUNTROWS(FILTER('Ordre de fabrication prévisionnel', 'Ordre de fabrication prévisionnel'\[Date de fin prévue\] = 'Ordre de fabrication prévisionnel'\[Date de besoin\])) |
+| Pourcentage à temps                | IF ( 'Ordre de fabrication prévisionnel'\[À temps\] \<\> 0, 'Ordre de fabrication prévisionnel'\[À temps\], IF ('Ordre de fabrication prévisionnel'\[Tous les ordres prévisionnels\] \<\> 0, 0, BLANK()) ) / 'Ordre de fabrication prévisionnel'\[Tous les ordres prévisionnels\] |
+| Terminée                | COUNTROWS(FILTER('Ordre de fabrication', 'Ordre de fabrication'\[Déclaré terminé\] = TRUE)) |
+| Taux de défectuosité (ppm)     | IF( 'Ordre de fabrication'\[Quantité totale\] = 0, BLANK(), (SUM('Ordre de fabrication'\[Quantité défectueuse\]) / 'Ordre de fabrication'\[Quantité totale\]) \* 1000000) |
+| Taux de production différé  | 'Ordre de fabrication'\[En retard \#\] / 'Ordre de fabrication'\[Terminé\] |
+| En avance et complet          | COUNTROWS(FILTER('Ordre de fabrication', 'Ordre de fabrication'\[Complet\] = TRUE && 'Ordre de fabrication'\[En avance\] = TRUE)) |
+| En avance \#                 | COUNTROWS(FILTER('Ordre de fabrication', 'Ordre de fabrication'\[En avance\] = TRUE)) |
+| Pourcentage en avance                  | IFERROR( IF('Ordre de fabrication'\[En avance \#\] \<\> 0, 'Ordre de fabrication'\[En avance \#\], IF('Ordre de fabrication'\[Nombre total de commandes\] = 0, BLANK(), 0)) / 'Ordre de fabrication'\[Nombre total de commandes\], BLANK()) |
+| Incomplet               | COUNTROWS(FILTER('Ordre de fabrication', 'Ordre de fabrication'\[Complet\] = FALSE && 'Ordre de fabrication'\[Déclaré terminé\] = TRUE)) |
+| Pourcentage incomplet             | IFERROR( IF('Ordre de fabrication'\[Incomplet\] \<\> 0, 'Ordre de fabrication'\[Incomplet\], IF('Ordre de fabrication'\[Nombre total de commandes\] = 0, BLANK(), 0)) / 'Ordre de fabrication'\[Nombre total de commandes\], BLANK()) |
+| Différé               | 'Ordre de fabrication'\[Déclaré terminé\] = TRUE && 'Ordre de fabrication'\[Valeur différée\] = 1 |
+| En avance                 | 'Ordre de fabrication'\[Déclaré terminé\] = TRUE && 'Ordre de fabrication'\[Jours de retard\] \< 0 |
+| Complet               | 'Ordre de fabrication'\[Quantité correcte\] \>= 'Ordre de fabrication'\[Quantité prévue\] |
+| Déclaré terminé                | 'Ordre de fabrication'\[Valeur du statut de production\] = 5 \|\| 'Ordre de fabrication'\[Valeur du statut de production\] = 7 |
+| En retard et complet           | COUNTROWS(FILTER('Ordre de fabrication', 'Ordre de fabrication'\[Complet\] = TRUE && 'Ordre de fabrication'\[Différé\] = TRUE)) |
+| En retard \#                  | COUNTROWS(FILTER('Ordre de fabrication', 'Ordre de fabrication'\[Différé\] = TRUE)) |
+| Pourcentage en retard                   | IFERROR( IF('Ordre de fabrication'\[En retard \#\] \<\> 0, 'Ordre de fabrication'\[En retard \#\], IF('Ordre de fabrication'\[Nombre total de commandes\] = 0, BLANK(), 0)) / 'Ordre de fabrication'\[Nombre total de commandes\], BLANK()) |
+| À temps et complet        | COUNTROWS(FILTER('Ordre de fabrication', 'Ordre de fabrication'\[Complet\] = TRUE && 'Ordre de fabrication'\[Différé\] = FALSE && 'Ordre de fabrication'\[En avance\] = FALSE)) |
+| Pourcentage à temps et complet      | IFERROR( IF('Ordre de fabrication'\[À temps et complet\] \<\> 0, 'Ordre de fabrication'\[À temps et complet\], IF('Ordre de fabrication'\[Terminé\] = 0, BLANK(), 0)) / 'Ordre de fabrication'\[Terminé\], BLANK()) |
 | Nombre total de commandes             | COUNTROWS('Ordre de fabrication') |
-| Quantité totale           | SUM('Ordre de fabrication'[Quantité correcte]) + SUM('Ordre de fabrication'[Quantité défectueuse]) |
-| Taux de défectuosité (ppm)        | IF( 'Transactions de gamme'[Quantité traitée] = 0, BLANK(), (SUM('Transactions de gamme'[Quantité défectueuse]) / 'Transactions de gamme'[Quantité traitée]) \* 1000000) |
-| Taux de défectuosité mixte (ppm) | IF( 'Transactions de gamme'[Quantité mixte totale] = 0, BLANK(), (SUM('Transactions de gamme'[Quantité défectueuse]) / 'Transactions de gamme'[Quantité mixte totale]) \* 1000000) |
-| Quantité traitée       | SUM('Transactions de gamme'[Quantité correcte]) + SUM('Transactions de gamme'[Quantité défectueuse]) |
-| Quantité mixte totale     | SUM('Ordre de fabrication'[Quantité correcte]) + SUM('Transactions de gamme'[Quantité défectueuse]) |
+| Quantité totale           | SUM('Ordre de fabrication'\[Quantité correcte\]) + SUM('Ordre de fabrication'\[Quantité défectueuse\]) |
+| Taux de défectuosité (ppm)        | IF( 'Transactions de gamme'\[Quantité traitée\] = 0, BLANK(), (SUM('Transactions de gamme'\[Quantité défectueuse\]) / 'Transactions de gamme'\[Quantité traitée\]) \* 1000000) |
+| Taux de défectuosité mixte (ppm) | IF( 'Transactions de gamme'\[Quantité mixte totale\] = 0, BLANK(), (SUM('Transactions de gamme'\[Quantité défectueuse\]) / 'Transactions de gamme'\[Quantité mixte totale\]) \* 1000000) |
+| Quantité traitée       | SUM('Transactions de gamme'\[Quantité correcte\]) + SUM('Transactions de gamme'\[Quantité défectueuse\]) |
+| Quantité mixte totale     | SUM('Ordre de fabrication'\[Quantité correcte\]) + SUM('Transactions de gamme'\[Quantité défectueuse\]) |
 
 Le tableau suivant affiche les dimensions clés utilisées comme filtres pour diviser les mesures globales afin d'atteindre une meilleure granularité et d'obtenir une analyse plus approfondie.
 
@@ -130,6 +130,4 @@ Le tableau suivant affiche les dimensions clés utilisées comme filtres pour di
 | Entités                  | ID et nom                                                   |
 | Ressources                 | ID de ressource, nom de la ressource, type de ressource et groupe de ressources |
 | Produits                  | Numéro de produit, nom du produit, ID d'article et groupe d'articles         |
-
-
 

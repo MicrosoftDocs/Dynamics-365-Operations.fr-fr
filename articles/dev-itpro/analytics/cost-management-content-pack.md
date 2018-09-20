@@ -20,10 +20,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
-ms.openlocfilehash: b06abae184d07cd3b914caf74bdb16a7803919af
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: caf1c13d48d1f8af5c88927ccb23118e99cb38e0
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 05/09/2018
 
 Le contenu Microsoft Power BI **Gestion des coûts** est prévu pour des comptables de stock ou des personnes de l'organisation responsables ou intéressés par le statut du stock ou des travaux en cours, ou responsables ou intéressés par l'analyse des écarts de coûts standard.
 
-> [!Note]
+> [!NOTE]
 > Le contenu Power BI de **Gestion des coûts** décrit dans cette rubrique s'applique à Dynamics 365 for Finance and Operations 8.0.
 > 
 > Le pack de contenu Power BI de **Gestion des coûts**, disponible sur le site AppSource, est devenu obsolète. Pour plus d'informations sur cette obsolescence, voir [Packs de contenu Power BI disponibles sur AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
@@ -171,7 +171,7 @@ Les tableaux suivants fournissent une vue d'ensemble des visualisations dans le 
 |                                         | 10 premières ressources par écart de production défavorable  |
 |                                         | 10 premières ressources par écart de production favorable    |
 
-### <a name="understanding-the-data-model-and-entities"></a>Compréhension du modèle de données et des entités
+## <a name="understanding-the-data-model-and-entities"></a>Compréhension du modèle de données et des entités
 
 Les données de Microsoft Dynamics 365 for Finance and Operations sont utilisées pour remplir les pages d'états du contenu Power BI de la **Gestion des coûts**. Ces données sont représentées sous forme de mesures globales stockées dans le magasin d'entité, qui est une base de données Microsoft SQL Server optimisée pour l'analyse. Pour plus d'informations, voir [Intégration de Power BI au magasin d'entité](power-bi-integration-entity-store.md)
 
@@ -188,26 +188,25 @@ Le tableau suivant montre les mesures clés calculées dans le contenu Power BI.
 
 | Mesure                            | Calcul |
 |------------------------------------|-------------|
-| Solde d'ouverture                  | Solde de début = [Solde de fin]-[Modification nette] |
-| Qté du solde de début             | Qté du solde de début = [Qté solde de fin]-[Qté modification nette] |
-| Solde de fin                     | Solde de fin = (CALCULATE(SUM([Amount]), FILTER(ALL(FiscalCalendar) ,FiscalCalendar[MONTHSTARTDATE] \<= MAX(FiscalCalendar[MONTHSTARTDATE])))) |
-| Qté de solde de fin                | Qté de solde de fin = (CALCULATE(SUM([QTY]), FILTER(ALL(FiscalCalendar),FiscalCalendar[MONTHSTARTDATE] \<= MAX(FiscalCalendar[MONTHSTARTDATE]))) |
-| Modification nette                         | Modification nette = SUM([AMOUNT]) |
-| Qté modification nette                    | Qté modification nette = SUM([QTY]) |
-| Taux de rotation du stock par montant | Taux de rotation du stock par montant = if(OR([Solde moyen de stock] \<= 0, [Problèmes de stock vendu ou utilisé] \>= 0), 0, ABS([Problèmes de stock vendu ou utilisé])/[Solde moyen de stock]) |
-| Solde moyen de stock          | Solde moyen de stock = (([Solde de fin] + [Solde de début]) / 2) |
-| Nombre de jours de stock disponible             | Nombre de jours de stock disponible = 365/CostObjectStatementEntries[Taux de rotation du stock par montant] |
-| Précision du stock                 | Précision du stock par montant = IF([Solde de fin] \<= 0, IF(OR([Montant de stock comptabilisé] \<\> 0, [Solde de fin] \< 0), 0, 1), MAX(0, ([Solde de fin] - ABS([Montant de stock comptabilisé]))/[Solde de fin])) |
+| Solde d'ouverture                  | Solde de début = \[Solde de fin\]-\[Modification nette\] |
+| Qté du solde de début             | Qté du solde de début = \[Qté solde de fin\]-\[Qté modification nette\] |
+| Solde de fin                     | Solde de fin = (CALCULATE(SUM(\[Amount\]), FILTER(ALL(FiscalCalendar) ,FiscalCalendar\[MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[MONTHSTARTDATE\])))) |
+| Qté de solde de fin                | Qté de solde de fin = (CALCULATE(SUM(\[QTY\]), FILTER(ALL(FiscalCalendar),FiscalCalendar\[MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[MONTHSTARTDATE\]))) |
+| Modification nette                         | Modification nette = SUM(\[AMOUNT\]) |
+| Qté modification nette                    | Qté modification nette = SUM(\[QTY\]) |
+| Taux de rotation du stock par montant | Taux de rotation du stock par montant = if(OR(\[Solde moyen de stock\] \<= 0, \[Problèmes de stock vendu ou utilisé\] \>= 0), 0, ABS(\[Problèmes de stock vendu ou utilisé\])/\[Solde moyen de stock\]) |
+| Solde moyen de stock          | Solde moyen de stock = ((\[Solde de fin\] + \[Solde de début\]) / 2) |
+| Nombre de jours de stock disponible             | Nombre de jours de stock disponible = 365/CostObjectStatementEntries\[Taux de rotation du stock par montant\] |
+| Précision du stock                 | Précision du stock par montant = IF(\[Solde de fin\] \<= 0, IF(OR(\[Montant de stock comptabilisé\] \<\> 0, \[Solde de fin\] \< 0), 0, 1), MAX(0, (\[Solde de fin\] - ABS(\[Montant de stock comptabilisé\]))/\[Solde de fin\])) |
 
 Les dimensions clés suivantes sont utilisées comme filtres pour diviser les mesures globales afin d'atteindre une meilleure granularité et d'obtenir une analyse plus approfondie.
 
 
-|                         Entité                          |             Exemples d'attributs              |
+| Entité                                                  | Exemples d'attributs                          |
 |---------------------------------------------------------|-------------------------------------------------|
-|                        Produits                         | Numéro de produit, Nom du produit, Unité, Groupes d'articles |
-| Hiérarchies de catégories (affectées au rôle Gestion des coûts) |       Hiérarchie de catégories, niveau de catégorie        |
-|                     Entités juridiques                      |               Noms d'entité juridique                |
-|                    Calendriers fiscaux                     |  Calendrier fiscal, Année, Trimestre, Période, Mois  |
-|                          Site                           |        ID, Nom, Adresse, Région, Pays        |
-
+| Produits                                                | Numéro de produit, Nom du produit, Unité, Groupes d'articles |
+| Hiérarchies de catégories (affectées au rôle Gestion des coûts) | Hiérarchie de catégories, niveau de catégorie              |
+| Entités juridiques                                          | Noms d'entité juridique                              |
+| Calendriers fiscaux                                        | Calendrier fiscal, Année, Trimestre, Période, Mois   |
+| Site                                                    | ID, Nom, Adresse, Région, Pays               |
 

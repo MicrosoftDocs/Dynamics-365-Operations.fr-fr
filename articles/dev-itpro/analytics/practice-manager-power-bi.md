@@ -18,10 +18,10 @@ ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
-ms.openlocfilehash: 44f017fc3460b83b730f2f7c909c6b88480dd918
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 7b2c13573aca2ceb0eca36cf4aeee80d2f56ab8a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -42,7 +42,6 @@ Tous les montants du contenu sont indiqués dans la devise du système. Vous pou
 ## <a name="accessing-the-power-bi-content"></a>Accès au contenu Power BI
 
 Le contenu Power BI **Gestionnaire de pratique** s'affiche dans l'espace de travail **Gestion de projets**.
-
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>États inclus dans le contenu Power BI
 
@@ -85,8 +84,7 @@ Les sections suivantes décrivent les mesures globales utilisées dans chaque en
 
 | Mesure globale clé | Champ                                             | Description  |
 |---------------------------|---------------------------------------------------|-------------|
-| Nombre de projets        | COUNTA(ProjectAccountingCube\_Projects[PROJECTS]) | Nombre de projets disponibles. |
-
+| Nombre de projets        | COUNTA(ProjectAccountingCube\_Projects\[PROJECTS\]) | Nombre de projets disponibles. |
 
 ### <a name="entity-projectaccountingcubeforecasts"></a>Entité : ProjectAccountingCube\_Forecasts
 **Source de données :** ProjTransBudget
@@ -109,18 +107,16 @@ Les sections suivantes décrivent les mesures globales utilisées dans chaque en
 
 | Mesure globale clé    | Champ | Description  |
 |------------------------------|-------|-------------|
-| Indice de performances des coûts       | ProjectAccountingCube\_Projects[Valeur gagnée] ÷ ProjectAccountingCube\_Projects[Coût réel total des tâches terminées] | Calcul de la valeur gagnée totale divisée par le coût réel total. |
-| Indice de performances de l'échéancier   | ProjectAccountingCube\_Projects[Valeur gagnée] ÷ ProjectAccountingCube\_Projects[Coût prévisionnel total des tâches terminées] | Calcul de la valeur gagnée totale divisée par le coût prévu total. |
-| Pourcentage de travail terminé | Pourcentage de travail terminé = ProjectAccountingCube\_Projects[Coût réel total des tâches terminées] ÷ (ProjectAccountingCube\_Projects[Coût réel total des tâches terminées] + ProjectAccountingCube\_Projects[Coût prévisionnel total du projet] – ProjectAccountingCube\_Projects[Coût prévisionnel total des tâches terminées]) | Pourcentage total de travail terminé basé sur le coût réel total des tâches terminées et le coût prévisionnel du projet. |
-| Taux d'heures facturables réelles  | ProjectAccountingCube\_Projects[Heures utilisées facturables réelles totales du projet] ÷(ProjectAccountingCube\_Projects[Heures utilisées facturables réelles totales du projet] + ProjectAccountingCube\_Projects[Heures non facturables réelles totales du projet]) | Le nombre total d'heures facturables réelles, en fonction des heures d'utilisation et des heures de charge. |
-| Valeur gagnée                 | ProjectAccountingCube\_Projects[Coût prévisionnel total du projet] × ProjectAccountingCube\_Projects[Pourcentage de travail terminé] | Coût prévisionnel total multiplié par le pourcentage de travail terminé. |
+| Indice de performances des coûts       | ProjectAccountingCube\_Projects\[Valeur gagnée\] ÷ ProjectAccountingCube\_Projects\[Coût réel total des tâches terminées\] | Calcul de la valeur gagnée totale divisée par le coût réel total. |
+| Indice de performances de l'échéancier   | ProjectAccountingCube\_Projects\[Valeur gagnée\] ÷ ProjectAccountingCube\_Projects\[Coût prévisionnel total des tâches terminées\] | Calcul de la valeur gagnée totale divisée par le coût prévu total. |
+| Pourcentage de travail terminé | Pourcentage de travail terminé = ProjectAccountingCube\_Projects\[Coût réel total des tâches terminées\] ÷ (ProjectAccountingCube\_Projects\[Coût réel total des tâches terminées\] + ProjectAccountingCube\_Projects\[Coût prévisionnel total du projet\] – ProjectAccountingCube\_Projects\[Coût prévisionnel total des tâches terminées\]) | Pourcentage total de travail terminé basé sur le coût réel total des tâches terminées et le coût prévisionnel du projet. |
+| Taux d'heures facturables réelles  | ProjectAccountingCube\_Projects\[Heures utilisées facturables réelles totales du projet\] ÷(ProjectAccountingCube\_Projects\[Heures utilisées facturables réelles totales du projet\] + ProjectAccountingCube\_Projects\[Heures non facturables réelles totales du projet\]) | Le nombre total d'heures facturables réelles, en fonction des heures d'utilisation et des heures de charge. |
+| Valeur gagnée                 | ProjectAccountingCube\_Projects\[Coût prévisionnel total du projet\] × ProjectAccountingCube\_Projects\[Pourcentage de travail terminé\] | Coût prévisionnel total multiplié par le pourcentage de travail terminé. |
 
 ### <a name="entity-projectaccountingcubetotalestimatedcosts"></a>Entité : ProjectAccountingCube\_TotalEstimatedCosts 
 **Source de données :** ProjTable
 
-
-|    Mesure globale clé    |        Champ        |                                          Description                                           |
-|---------------------------------|---------------------|------------------------------------------------------------------------------------------------|
+| Mesure globale clé       | Champ               | Description |
+|---------------------------------|---------------------|-------------|
 | Coût prévisionnel de l'activité terminée | Sum(TotalCostPrice) | Prix de revient total pour les estimations pour tous les types de transactions de projet avec des tâches terminées. |
-
 

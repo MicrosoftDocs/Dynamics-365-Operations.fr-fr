@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1a4e8c25fb65b35a52a0d1bc0f1a745c06ca53ab
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 8686d2639a3ab7f2e79944cc5eed51571d463261
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -34,35 +34,45 @@ Cette rubrique explique comment télécharger des configurations d'états élect
 
 Ce didacticiel vous guide via le processus de téléchargement de la version la plus récente des configurations d'états électroniques à partir de Microsoft Dynamics Lifecycle Services (LCS).
 
-1.  Se connecter à Finance and Operations en utilisant l'un des rôles suivants :
-    -   Développeur de gestion des états électroniques
-    -   Consultant fonctionnel de gestion des états électroniques
-    -   Administrateur système
+1. Se connecter à Finance and Operations en utilisant l'un des rôles suivants :
 
-2.  Allez dans **Administration d'organisation** &gt; **États électroniques**.
-3.  Dans la section **Fournisseurs de configuration**, sélectionnez la vignette **Microsoft**.
-4.  Dans la vignette **Microsoft**, cliquez sur **Référentiels**. [![update-er-from-lcs-for-ms-open-ms-repositories-list](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
-5.  Sur la page **Référentiels de configuration**, dans la grille, sélectionnez le référentiel existant du type **LCS**. Si ce référentiel n'apparaît pas dans la grille, procédez comme suit :
-    1.  Cliquez sur **Ajouter** pour ajouter un nouveau référentiel.
-    2.  Sélectionnez **LCS** comme type de référentiel.
-    3.  Cliquez sur **Créer un référentiel**.
+    - Développeur de gestion des états électroniques
+    - Consultant fonctionnel de gestion des états électroniques
+    - Administrateur système
+
+2. Allez dans **Administration d'organisation** &gt; **États électroniques**.
+3. Dans la section **Fournisseurs de configuration**, sélectionnez la vignette **Microsoft**.
+4. Dans la vignette **Microsoft**, cliquez sur **Référentiels**.
+
+    [![update-er-from-lcs-for-ms-open-ms-repositories-list](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
+
+5. Sur la page **Référentiels de configuration**, dans la grille, sélectionnez le référentiel existant du type **LCS**. Si ce référentiel n'apparaît pas dans la grille, procédez comme suit :
+
+    1. Cliquez sur **Ajouter** pour ajouter un nouveau référentiel.
+    2. Sélectionnez **LCS** comme type de référentiel.
+    3. Cliquez sur **Créer un référentiel**.
     4. Si vous recevez une invite, suivez les instructions d'autorisation.
-    5.  Entrez un nom et une description pour le référentiel.
-    6.  Cliquez **OK** pour confirmer la nouvelle entrée de référentiel.
-    7.  Dans la grille, sélectionnez le nouveau référentiel de type **LCS**.
+    5. Entrez un nom et une description pour le référentiel.
+    6. Cliquez **OK** pour confirmer la nouvelle entrée de référentiel.
+    7. Dans la grille, sélectionnez le nouveau référentiel de type **LCS**.
 
-6.  Cliquez sur **Ouvrir** pour afficher la liste des configurations ER pour le référentiel sélectionné. [![update-er-from-lcs-for-ms-make-lcs-repository](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
-7.  Dans l'arborescence de configurations du volet gauche, sélectionnez la configuration ER voulue.
-8.  Dans l'organisateur **Versions**, sélectionnez la version requise de la configuration ER sélectionnée.
-9.  Cliquez sur **Importer** pour télécharger la version sélectionnée de LCS vers l'instance Finance and Operations actuelle. **Remarque :** Le bouton **Importer** n'est pas disponible pour les versions de configuration ER qui sont déjà présentes dans l'instance Finance and Operations actuelle. [![update-er-from-lcs-for-ms-download-configuration](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
+6. Cliquez sur **Ouvrir** pour afficher la liste des configurations ER pour le référentiel sélectionné.
 
-**Remarque :** Selon les paramètres d'états électroniques, les configurations sont validées après leur importation. Il est possible que vous soyez averti des problèmes d'incohérences qui sont détectés. Vous devez résoudre ces problèmes avant d'utiliser la version de configuration importée. Pour plus d'informations, voir la liste des articles associés pour cette rubrique.
+    [![update-er-from-lcs-for-ms-make-lcs-repository](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
 
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+7. Dans l'arborescence de configurations du volet gauche, sélectionnez la configuration ER voulue.
+8. Dans l'organisateur **Versions**, sélectionnez la version requise de la configuration ER sélectionnée.
+9. Cliquez sur **Importer** pour télécharger la version sélectionnée de LCS vers l'instance Finance and Operations actuelle.
+
+    > [!NOTE]
+    > Le bouton **Importer** n'est pas disponible pour les versions de configuration des états électroniques qui sont déjà présentes dans l'instance Finance and Operations actuelle.
+
+    [![update-er-from-lcs-for-ms-download-configuration](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
+
+> [!NOTE]
+> Selon les paramètres d'états électroniques, les configurations sont validées après leur importation. Il est possible que vous soyez averti des problèmes d'incohérences qui sont détectés. Vous devez résoudre ces problèmes avant d'utiliser la version de configuration importée. Pour plus d'informations, voir la liste des articles associés pour cette rubrique.
+
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Vue d'ensemble des états électroniques](general-electronic-reporting.md)
-
-
-
 

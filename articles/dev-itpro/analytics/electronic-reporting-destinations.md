@@ -19,10 +19,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 3aa27b3ac263c6c952de7e4b508f48f21ba489ad
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 301dccaf154c3c12bcc4d611a147cdef03b8f851
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -37,21 +37,21 @@ Les configurations de format des états électroniques contiennent généralemen
 ## <a name="availability-and-general-prerequisites"></a>Disponibilité et conditions préalables générales
 La fonctionnalité des destinations d'états électroniques n’est pas disponible dans Microsoft Dynamics AX 7.0 (février 2016). Par conséquent, vous devez installer Microsoft Dynamics 365 for Operations version 1611 (novembre 2016) pour utiliser toutes les fonctions décrites dans cette rubrique. Vous pouvez également installer l'un des éléments requis suivants. Toutefois, notez que ces solutions de remplacement offrent une expérience plus limitée.
 
--   Application Microsoft Dynamics AX 7.0.1 (mai 2016)
--   [Correctif d’application](https://fix.lcs.dynamics.com/issue/results/?q=3160213) de gestion des destinations d'états électoniques
+- Application Microsoft Dynamics AX 7.0.1 (mai 2016)
+- [Correctif d’application](https://fix.lcs.dynamics.com/issue/results/?q=3160213) de gestion des destinations d'états électoniques
 
 Vous pouvez paramétrer des destinations uniquement pour les configurations d'états électroniques qui ont été importées et pour les formats qui sont disponibles sur la page **Configurations des états électroniques**.
 
 ## <a name="overview"></a>Vue d'ensemble
 La fonctionnalité de gestion des destinations d'états électroniques est disponible dans **Administration d’organisation** &gt; **États électroniques**. Ici, vous pouvez remplacer le comportement par défaut pour une configuration. Les configurations importées ne sont pas affichées ici tant que vous ne cliquez pas sur **Nouveau** puis, dans le champ **Référence**, sélectionnez une configuration pour créer des paramètres de destination.
 
-[![Sélection d'une configuration dans le champ Référence](./media/ger-destinations-2-1611-1024x574.jpg)](./media/ger-destinations-2-1611.jpg) 
+[![Sélection d'une configuration dans le champ Référence](./media/ger-destinations-2-1611-1024x574.jpg)](./media/ger-destinations-2-1611.jpg)
 
-Une fois que vous avez créé une référence, vous pouvez créer une destination de fichier pour chaque dossier ou pour un fichier. 
+Une fois que vous avez créé une référence, vous pouvez créer une destination de fichier pour chaque dossier ou pour un fichier.
 
 [![Création d'une destination de fichier](./media/ger-destinations-1611-1024x586.jpg)](./media/ger-destinations-1611.jpg)
 
-> [!NOTE] 
+> [!NOTE]
 > Vous pouvez créer une destination de fichier pour chaque composant de sortie de même format, tel qu'un dossier ou un fichier sélectionné dans le champ **Nom du fichier**. Vous pouvez ensuite activer et désactiver des destinations individuelles pour la destination de fichier dans la boîte de dialogue **Paramètres de destination**. Le bouton **Paramètres** est utilisé pour contrôler l’ensemble des destinations pour une destination de fichier sélectionnée. Dans la boîte de dialogue **Paramètres de destination**, vous pouvez contrôler séparément chaque destination en définissant l'option **Activé** pour celle-ci.
 
 [![Boîte de dialogue Paramètres de destination](./media/ger-destinations-settings-1611-1024x589.jpg)](./media/ger-destinations-settings-1611.jpg)
@@ -73,7 +73,7 @@ Lorsque vous cliquez sur **Modifier** pour le champ **À** ou **Cc**, la boîte 
 
 Si vous sélectionnez le type **E-mail de gestion de l'impression**, vous pouvez entrer des adresses électroniques fixes dans le champ **À**. Pour utiliser des adresses électroniques non fixes, vous devez sélectionner le type de source du courrier électronique pour une destination de fichier. Les valeurs suivantes sont prises en charge : **Client**, **Fournisseur**, **Prospect**, **Contact**, **Concurrent**, **Collaborateur**, **Candidat**, **Fournisseur potentiel** et **Fournisseur non autorisé**. Après avoir sélectionné un type de source de courrier électronique, utilisez le bouton en regard **Compte source de l'e-mail** pour ouvrir l'écran **Concepteur de formule**. Cet écran permet d'associer une formule qui représente le compte tiers sélectionné à la destination du courrier électronique.
 
-[![Configurer un type de courrier électronique de gestion de l'impression](./media/ger-destinations-email-2-1611-1024x588.jpg)](./media/ger-destinations-email-2-1611.jpg) 
+[![Configurer un type de courrier électronique de gestion de l'impression](./media/ger-destinations-email-2-1611-1024x588.jpg)](./media/ger-destinations-email-2-1611.jpg)
 
 Notez que les formules sont spécifiques à la configuration de l'état électronique. Dans le champ **Formule**, entrez une référence spécifique au document pour un type de partie Client ou Fournisseur. Au lieu de taper, vous pouvez rechercher un nœud de source de données qui représente le compte client ou fournisseur, puis cliquer sur le bouton **Ajouter une source de données** pour mettre la formule à jour. Par exemple, si vous utilisez la configuration de virement bancaire ISO 20022, le nœud représentant un compte fournisseur est : **'$PaymentsForCoveringLetter'.Creditor.Identification.SourceID**. Sinon, entrez une valeur de chaîne, par exemple **DE-001**, pour enregistrer une formule.
 
@@ -87,23 +87,27 @@ Dans la boîte de dialogue **E-mail à**, cliquez sur la corbeille de recyclage 
 
 Utilisez ce type de courrier électronique si la configuration que vous utilisez a un nœud dans les sources de données qui représente une adresse électronique. Vous pouvez utiliser les sources et fonctions de données du concepteur de formule pour obtenir une adresse électronique correctement mise en forme.
 
-[![Affectation d'une source de données d'adresse électronique pour une destination de courrier électronique](./media/ger-destinations-email-4-1611-1024x587.jpg)](./media/ger-destinations-email-4-1611.jpg) 
+[![Affectation d'une source de données d'adresse électronique pour une destination de courrier électronique](./media/ger-destinations-email-4-1611-1024x587.jpg)](./media/ger-destinations-email-4-1611.jpg)
 
-**Remarque :** un serveur SMTP (Simple Mail Transfer Protocol) doit être configuré et disponible. Vous pouvez spécifier votre serveur SMTP dans Finance and Operations sous **Administration système** &gt; **Paramétrage** &gt; **E-mail** &gt; **Paramètres d'e-mail**.
+> [!NOTE]
+> Un serveur SMTP (Simple Mail Transfer Protocol) doit être configuré et disponible. Vous pouvez spécifier votre serveur SMTP dans Finance and Operations sous **Administration système** &gt; **Paramétrage** &gt; **E-mail** &gt; **Paramètres d'e-mail**.
 
 ### <a name="archive-destination"></a>Destination de l'archive
 
 Vous pouvez utiliser cette option pour envoyer la sortie vers un dossier Microsoft SharePoint ou le stockage Microsoft Azure. Définissez **Activé** sur **Oui** pour envoyer la sortie vers une destination définie par le type de document sélectionné. Seuls les types de documents où le groupe est défini sur **Fichier** sont disponibles pour la sélection. Vous définissez les types de documents dans **Administration d’organisation** &gt; **Gestion de documents** &gt; **Types de documents**. La configuration des destinations d'états électroniques est identique à la configuration du système de gestion des documents.
 
-[![Page Types de documents](./media/ger_documenttypefile-1024x542.jpg)](./media/ger_documenttypefile.jpg) 
+[![Page Types de documents](./media/ger_documenttypefile-1024x542.jpg)](./media/ger_documenttypefile.jpg)
 
-L’emplacement détermine où le fichier est enregistré. Une fois la destination **Archive** activée, les résultats de l'exécution de la configuration peuvent être enregistrés dans l'archive Tâche. Vous pouvez afficher les résultats sous **Administration d'organisation** &gt; **Gestion des états électroniques** &gt; **Tâches de gestion des états électroniques archivées**. **Remarque :** vous pouvez sélectionner un type de document pour l'archive Tâche dans Finance and Operations, sous **Administration d'organisation** &gt; **Espaces de travail** &gt; **Gestion des états électroniques** &gt; **Paramètres de gestion des états électroniques**.
+L’emplacement détermine où le fichier est enregistré. Une fois la destination **Archive** activée, les résultats de l'exécution de la configuration peuvent être enregistrés dans l'archive Tâche. Vous pouvez afficher les résultats sous **Administration d'organisation** &gt; **Gestion des états électroniques** &gt; **Tâches de gestion des états électroniques archivées**.
+
+> [!NOTE]
+> Vous pouvez sélectionner un type de document pour l'archive Tâche dans Finance and Operations, sous **Administration d'organisation** &gt; **Espaces de travail** &gt; **Gestion des états électroniques** &gt; **Paramètres de gestion des états électroniques**.
 
 #### <a name="sharepoint"></a>SharePoint
 
-Vous pouvez enregistrer un fichier dans un dossier SharePoint désigné. Définissez le serveur SharePoint par défaut dans **Administration d'organisation** &gt; **Gestion des documents** &gt; **Paramètres de gestion des documents** dans l'onglet **SharePoint**. Une fois le dossier SharePoint configuré, vous pouvez le sélectionner comme dossier où la sortie d'état électronique sera enregistrée pour le type de document. 
+Vous pouvez enregistrer un fichier dans un dossier SharePoint désigné. Définissez le serveur SharePoint par défaut dans **Administration d'organisation** &gt; **Gestion des documents** &gt; **Paramètres de gestion des documents** dans l'onglet **SharePoint**. Une fois le dossier SharePoint configuré, vous pouvez le sélectionner comme dossier où la sortie d'état électronique sera enregistrée pour le type de document.
 
-[![Sélection d'un dossier SharePoint](./media/ger_sharepointfolderselection-1024x543.jpg)](./media/ger_sharepointfolderselection.jpg) 
+[![Sélection d'un dossier SharePoint](./media/ger_sharepointfolderselection-1024x543.jpg)](./media/ger_sharepointfolderselection.jpg)
 
 #### <a name="azure-storage"></a>Stockage Azure
 
@@ -119,7 +123,10 @@ Si vous définissez **Activé** sur **Oui**, un aperçu de la sortie est créé.
 
 ### <a name="power-bi-destination"></a>Destination Power BI
 
-Définissez **Activé** sur **Oui** pour utiliser la configuration de génération d'états électroniques pour organiser le transfert des données entre votre instance de Finance and Operations et les services Microsoft Power BI. Les fichiers transférés sont stockés sur une instance Microsoft SharePoint Server qui doit être configurée à cette fin. Pour plus d'informations, voir [Utiliser une configuration de génération d'états électroniques pour fournir à Power BI des données de Finance and Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md). **Conseil :** pour substituer le comportement par défaut (autrement dit, la boîte de dialogue de configuration), vous pouvez créer une référence de destination et une destination de fichier pour le composant de sortie principal et ensuite désactiver toutes les destinations.
+Définissez **Activé** sur **Oui** pour utiliser la configuration de génération d'états électroniques pour organiser le transfert des données entre votre instance de Finance and Operations et les services Microsoft Power BI. Les fichiers transférés sont stockés sur une instance Microsoft SharePoint Server qui doit être configurée à cette fin. Pour plus d'informations, voir [Utiliser une configuration de génération d'états électroniques pour fournir à Power BI des données de Finance and Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md).
+
+> [!TIP]
+> Pour substituer le comportement par défaut (autrement dit, la boîte de dialogue de configuration), vous pouvez créer une référence de destination et une destination de fichier pour le composant de sortie principal et ensuite désactiver toutes les destinations.
 
 ## <a name="security-considerations"></a>Considérations de sécurité
 Deux types de privilèges et de droits sont utilisés pour les destinations d'états électroniques. Un type contrôle la possibilité de mettre à jour les destinations globales qui sont configurées pour une entité juridique (autrement dit, il contrôle l’accès à la page **Destinations des états électroniques**). L’autre type contrôle la capacité de l’utilisateur d’une application à substituer, au moment de l’exécution, les paramètres de destination qui sont configurés par un développeur d'états électroniques ou un consultant fonctionnel d'états électroniques.
@@ -158,7 +165,4 @@ La condition préalable est que le format doit être disponible dans les configu
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Vue d'ensemble des états électroniques](general-electronic-reporting.md)
-
-
-
 

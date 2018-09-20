@@ -19,10 +19,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
-ms.openlocfilehash: 07b6f433a8355d7f9ed6dce8e26f78d38a86a713
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 069c4dc21959ab603ba6ca3da0ac68ef20325265
 ms.contentlocale: fr-fr
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -36,32 +36,27 @@ Cette rubrique décrit ce qui est inclus dans le contenu Microsoft Power BI **An
 
 Le contenu Power BI **Analyse des dépenses d'achat** a été conçu pour aider les directeurs des achats et autres gestionnaires qui sont responsables des budgets à garder un œil sur les dépenses d'achat. Les gestionnaires peuvent analyser les dépenses d'achat des manières suivantes :
 
--   Achat depuis le début de l'année (par groupe de fournisseurs et fournisseurs individuels, catégorie d'approvisionnement et produits individuels et emplacement du fournisseur)
--   Changement d'achat d'une année sur l'autre (par groupe de fournisseurs et catégorie d'approvisionnement)
+- Achat depuis le début de l'année (par groupe de fournisseurs et fournisseurs individuels, catégorie d'approvisionnement et produits individuels et emplacement du fournisseur)
+- Changement d'achat d'une année sur l'autre (par groupe de fournisseurs et catégorie d'approvisionnement)
 
 Le contenu utilise les données transactionnelles d'achats, et fournit une vue globale des chiffres d'achats à l'échelle de l'entreprise et une répartition des dépenses d'achat par fournisseur et produit. Les rapports mettent l'accent sur les changements dans les dépenses d'achat au fil du temps. Par conséquent, les états peuvent être utilisés pour avertir les responsables sur les tendances positives et négatives de dépenses pour chaque fournisseur et produit. En outre, les graphiques montrent les dépenses des différentes catégories d'approvisionnement et groupes de fournisseurs. Ainsi, les gestionnaires régionaux et de catégories peuvent utiliser les graphiques pour aider à identifier les changements dans le comportement des dépenses.
 
 ## <a name="accessing-the-power-bi-content"></a>Accès au contenu Power BI
-Le contenu Power BI **Analyse des dépenses d'achat** s'affiche sur la page **Analyse des dépenses et des achats** (**Approvisionnements** > **Recherches et états** > **Analyse des performances d'achat** > **Analyse des dépenses et des achats**). 
+Le contenu Power BI **Analyse des dépenses d'achat** s'affiche sur la page **Analyse des dépenses et des achats** (**Approvisionnements** \> **Recherches et états** \> **Analyse des performances d'achat** \> **Analyse des dépenses et des achats**).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Mesures incluses dans le contenu Power BI
 Le contenu Power BI **Analyse des dépenses d'achat** comprend un état constitué d'un ensemble d'éléments de mesure. Ces mesures sont visualisées sous forme de graphiques, vignettes et tableaux. Le tableau suivant offre une vue d'ensemble des visualisations.
 
 <table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Page d'état</th>
 <th>Graphiques</th>
 <th>Vignettes</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Achat par fournisseur</td>
 <td><ul>
 <li>Les 10 principaux vendeurs par achat (graphique à barres empilées)</li>
@@ -76,7 +71,7 @@ Le contenu Power BI **Analyse des dépenses d'achat** comprend un état constitu
 <li>Nombre total de fournisseurs actifs</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Achat par produit</td>
 <td><ul>
 <li>Achat par catégorie d'approvisionnement / nom du produit (histogramme)</li>
@@ -89,7 +84,7 @@ Le contenu Power BI **Analyse des dépenses d'achat** comprend un état constitu
 <li>Nombre de produits constituant 80 % de l'achat</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Achat par période*</td>
 <td><ul>
 <li>Achat par mois/jour (histogramme)</li>
@@ -102,7 +97,7 @@ Le contenu Power BI **Analyse des dépenses d'achat** comprend un état constitu
 <li>% de croissance des achats en cumul annuel</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Achat par emplacement de fournisseur</td>
 <td><ul>
 <li>Achat par ville</li>
@@ -111,7 +106,7 @@ Le contenu Power BI **Analyse des dépenses d'achat** comprend un état constitu
 </ul></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Analyse des dépenses d'achat par période</td>
 <td><ul>
 <li>Achats de l'année en cours par mois / jour (graphique en courbes)</li>
@@ -119,7 +114,7 @@ Le contenu Power BI **Analyse des dépenses d'achat** comprend un état constitu
 </ul></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Analyse des dépenses d'achat par fournisseur</td>
 <td><ul>
 <li>10 principaux achats fournisseur en % (icône conique)</li>

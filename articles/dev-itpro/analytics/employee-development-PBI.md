@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a451a3e936916c6bec750ddfbc2bf71fadb7c222
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 6b934b87cb5098641fba8c5b9214a0b2b6cde40d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -39,7 +39,7 @@ Les états inclus dans le contenu Power BI **Perfectionnement de l'employé** co
 | Analyse des niveaux de qualification de l'employé | Niveaux de qualification des employés par département, employés par niveau de qualification et type de qualification, niveaux le plus élevé et le plus bas par qualification |
 | Profil de qualification                 | Profil de qualification pour l'employé sélectionné |
 | Analyse des qualifications                | Qualification par type et classement |
-| Analyse des évaluations de performances   | Employés par classement le plus bas et le plus élevé par tâche, classement des employés par département, employés selon le classement et le type de poste, et classement le plus élevé et le moins élevé par poste  |
+| Analyse des évaluations de performances   | Employés par classement le plus bas et le plus élevé par tâche, classement des employés par département, employés selon le classement et le type de poste, et classement le plus élevé et le moins élevé par poste |
 | Analyses des performances des employés | Classements des employés pour le classement sélectionné par le responsable |
 
 Vous pouvez filtrer les graphiques et les vignettes affichés sur ces états et les épingler au tableau de bord. Pour savoir comment filtrer et épingler dans Power BI, voir [Créer et configurer un tableau de bord](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
@@ -48,7 +48,7 @@ Vous pouvez filtrer les graphiques et les vignettes affichés sur ces états et 
 
 | Entité                   | Sommaire                                                                                                   | Relations avec d'autres entités |
 |--------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------|
-| Décalage de calendrier          | Décalages de calendrier pour diviser les états                                                                          | Affectation antérieure de postes, Tendance du poste, Tendance de l'employé, Employé dont le contrat est terminé 
+| Décalage de calendrier          | Décalages de calendrier pour diviser les états                                                                          | Affectation antérieure de postes, Tendance du poste, Tendance de l'employé, Employé dont le contrat est terminé |
 | Société                  | Sociétés selon lesquelles filtrer les états                                                                             | Employé actuel, Employé dont le contrat est terminé, Tendance de l'employé |
 | Poste actuel         | Postes à compter de la date actuelle, postes équivalents à temps plein, postes vacants et postes vacants à pourvoir | Tâche, Poste |
 | Employé actuel         | Collaborateurs à compter de la date actuelle, âge et effectif                                                         | Société, Emplacement géographique, Nom de l'employé, Génère un état pour, Titre de l'employé, Démographie, Tâche, Emploi, Poste |
@@ -65,10 +65,9 @@ Vous pouvez filtrer les graphiques et les vignettes affichés sur ces états et 
 | Nom de l'employé            | Prénom, nom et nom complet                                                                       | Collaborateur actuel, Employé dont le contrat est terminé, Tendance de l'employé |
 | Titre de l'employé           | Titre et date d'ancienneté                                                                                   | Employé actuel, Employé dont le contrat est terminé, Tendance de l'employé |
 | Tendance de l'employé           | Collaborateurs dans le temps, effectif, société et poste                                                        | Société, Emplacement géographique, Nom de l'employé, Génère un état pour, Décalage de calendrier, Date, Titre de l'employé, Démographie, Emploi, Tâche |
-| Mission                      | Fonction, type et titre                                                                                      | Employé actuel, Poste actuel, Tendance de l'employé, Qualification préférée par tâche, Affectation antérieure de postes, Tendance du poste, Employé dont le contrat est terminé |
+| Mission                      | Fonction, type et titre                                                                                  | Employé actuel, Poste actuel, Tendance de l'employé, Qualification préférée par tâche, Affectation antérieure de postes, Tendance du poste, Employé dont le contrat est terminé |
 | Qualification préférée pour la tâche      | Importance, classement, qualification et niveau de qualification                                                                 | Mission |
-| Analyse des qualifications de l'employé  | Certifié, niveau, date du niveau et qualification                                                                    | Nom de l'employé, Qualification |  
+| Analyse des qualifications de l'employé  | Certifié, niveau, date du niveau et qualification                                                                    | Nom de l'employé, Qualification |
 | Performances              | Classement, description et modèle de classement                                                                      | Employé actuel, Poste actuel, Tendance de l'employé, Qualification préférée par tâche, Affectation antérieure de postes, Tendance du poste, Employé dont le contrat est terminé |
-|  Qualification                   | Qualification, type de qualification et évaluation                                                                              | Analyse des qualifications de l'employé, Qualification préférée pour la tâche |                                                                                                                        
-
+| Qualification                    | Qualification, type de qualification et évaluation                                                                              | Analyse des qualifications de l'employé, Qualification préférée pour la tâche |
 
