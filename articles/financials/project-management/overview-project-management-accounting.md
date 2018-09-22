@@ -35,7 +35,9 @@ La fonctionnalité de gestion de projets et de comptabilité peut être utilisé
 Un projet est un groupe d'activités qui est conçu pour fournir un service, fabriquer un produit, ou pour atteindre un résultat. Les projets consomment des ressources et génèrent des résultats financiers sous la forme de produits ou d'immobilisations.
 
 ## <a name="projects-across-industries"></a>Projets couvrant plusieurs secteurs
-La fonctionnalité de gestion de projets et de comptabilité peut être utilisée dans plusieurs secteurs d'activité, comme le montre l'illustration suivante. [![Projets couvrant plusieurs secteurs](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+La fonctionnalité de gestion de projets et de comptabilité peut être utilisée dans plusieurs secteurs d'activité, comme le montre l'illustration suivante.
+
+[![Projets couvrant plusieurs secteurs](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 Dans un centre d'appels, un ticket peut être utilisé pour décrire l'ensemble des actions requises pour résoudre un appel. Les sociétés de conseil, telles que les sociétés de gestion ou de consultance techniques ou les agences de publicité, désignent leurs activités comme des projets. En marketing, une campagne représente un ensemble de travail qui doit être livré. Dans la fabrication basée sur projet, un ordre de fabrication se rapporte à l'ensemble du travail varié qui doit être effectué pour produire des produits finis donnés. Quelque soit le nom que l'on emploie, ces projets impliquent des ressources, des programmes et des coûts, et la fonctionnalité de gestion de projets et de comptabilité dans Microsoft Dynamics 365 for Finance and Operations peut aider à organiser, exécuter et analyser ces projets.
 
