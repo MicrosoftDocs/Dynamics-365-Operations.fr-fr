@@ -19,10 +19,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 17b42ae7e177a42b732654f2952ec5fe35acb1a9
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 1bb4b55fd929c105c20a1d4b1086bbb7f07d5eb1
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -35,34 +35,34 @@ Cette rubrique décrit le contenu Microsoft Power BI **Mesures de la main-d'œuv
 ## <a name="accessing-the-power-bi-content"></a>Accès au contenu Power BI
 Le contenu Power BI **Mesures de la main-d'œuvre** s'affiche dans l'espace de travail **Gestion du personnel** si vous utilisez l'un des produits suivants :
 
-- Microsoft Dynamics 365 for Finance and Operations 
+- Microsoft Dynamics 365 for Finance and Operations
 - Microsoft Dynamics 365 for Talent
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Mesures incluses dans le contenu Power BI
 Le tableau suivant répertorie les mesures affichées dans chaque état.
 
-| Etat                                           | Métriques                                                                                                                                                                                                            |
-|--------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Mesures des employés                                   | Synthèse des autres états                                                                                                                           |
-| Analyse des effectifs Société, Service, Site | Comptage des effectifs par société, comptage des effectifs par service, comptage des effectifs par site et comptage des effectifs totaux                                                                                                                           |
-| Comptage des effectifs Poste, Échelon, Responsable            | Comptage des effectifs par poste, comptage des effectifs par échelon, comptage des effectifs par responsable et comptage des effectifs totaux                                                                                                                                      |
-| Analyse de tendance des effectifs                         | Comptage des effectifs cette année par rapport à l'année dernière et roulement des effectifs pour les 12 derniers mois                                                                                                                        |
+| Etat                                           | Métriques |
+|--------------------------------------------------|---------|
+| Mesures des employés                                   | Synthèse des autres états |
+| Analyse des effectifs Société, Service, Site | Comptage des effectifs par société, comptage des effectifs par service, comptage des effectifs par site et comptage des effectifs totaux |
+| Comptage des effectifs Poste, Échelon, Responsable            | Comptage des effectifs par poste, comptage des effectifs par échelon, comptage des effectifs par responsable et comptage des effectifs totaux |
+| Analyse de tendance des effectifs                         | Comptage des effectifs cette année par rapport à l'année dernière et roulement des effectifs pour les 12 derniers mois |
 | Analyse FTE                                     | Nombre total d'employés équivalents temps plein, nombre total d'employés équivalents temps plein affectés, employés équivalents temps plein par département, employés équivalents temps plein pour les 12 derniers mois et employés équivalents temps plein par tâche |
 | Démographie de la main-d'œuvre                           | Comptage des effectifs par âge et sexe, effectifs par origine ethnique, effectifs par statut de vétéran, effectifs par situation familiale, nombre d'étudiants à temps plein, ancienneté moyenne, âge moyen, rapport nombre de femmes/nombre d'hommes chez les employés et langues parlées par les employés |
-| Analyse des postes                                | Postes vacants par service, postes vacants à pourvoir, postes actifs à inactifs et postes par service                                                                                                   |
-| Analyse de la réduction naturelle des effectifs                               | Réduction naturelle des effectifs cette année par rapport à l'année dernière, employés sur le départ par âge et sexe, ancienneté moyenne des employés sur le départ, employés sur le départ ce mois-ci et employés sur le départ par motif                                                                   |
-| Personnes par département                             | Employés avec un matricule par service, poste et dates de début et de fin d'affectation                                                                                                                       |
-| Analyse d'ancienneté                               | Ancienneté moyenne, nombre moyen d'années de service par société et liste d'ancienneté                                                                                                                                                              |
-| Anniversaires des employés                           | Anniversaires ce mois-ci, anniversaires le mois suivant, employés par années de service et anniversaires, années de service par département                                                                                                                                                                    |
-| Anniversaires des employés                               | Anniversaires ce mois-ci, anniversaires le mois suivant, anniversaires des employés et anniversaires par mois et service                                                                                                                                                                    |
-| Projets d'embauche collective                               | Nombre total de projets d'embauche collective, projets d'embauche collective par statut, projets d'embauche collective par département et propriétaire, projets d'embauche collective par tâche et projets d'embauche collective                                                                                                                                                                    |
+| Analyse des postes                                | Postes vacants par service, postes vacants à pourvoir, postes actifs à inactifs et postes par service |
+| Analyse de la réduction naturelle des effectifs                               | Réduction naturelle des effectifs cette année par rapport à l'année dernière, employés sur le départ par âge et sexe, ancienneté moyenne des employés sur le départ, employés sur le départ ce mois-ci et employés sur le départ par motif |
+| Personnes par département                             | Employés avec un matricule par service, poste et dates de début et de fin d'affectation |
+| Analyse d'ancienneté                               | Ancienneté moyenne, nombre moyen d'années de service par société et liste d'ancienneté |
+| Anniversaires des employés                           | Anniversaires ce mois-ci, anniversaires le mois suivant, employés par années de service et anniversaires, années de service par département |
+| Anniversaires des employés                               | Anniversaires ce mois-ci, anniversaires le mois suivant, anniversaires des employés et anniversaires par mois et service |
+| Projets d'embauche collective                               | Nombre total de projets d'embauche collective, projets d'embauche collective par statut, projets d'embauche collective par département et propriétaire, projets d'embauche collective par tâche et projets d'embauche collective |
 
 Vous pouvez filtrer les graphiques et les vignettes affichés sur ces états et les épingler au tableau de bord. Pour savoir comment filtrer et épingler dans Power BI, voir [Créer et configurer un tableau de bord](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 Veillez à télécharger le contenu Power BI **Mesures de main-d'œuvre** qui s'applique à la version de Microsoft Dynamics 365 que vous utilisez.
 
->[!NOTE]
->Les fichiers .pbix disponibles dans Lifecycle Services s'appliquent uniquement à Finance and Operations.
+> [!NOTE]
+> Les fichiers .pbix disponibles dans Lifecycle Services s'appliquent uniquement à Finance and Operations.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Compréhension du modèle de données et des entités
 Le tableau suivant indique les entités sur lesquelles le contenu est basé.
@@ -88,6 +88,4 @@ Le tableau suivant indique les entités sur lesquelles le contenu est basé.
 | Tendance de l'employé           | Collaborateurs dans le temps, effectif, société et poste                                 | Société, Emplacement géographique, Nom de l'employé, Génère un état pour, Décalage de calendrier, Date, Titre de l'employé, Démographie, Emploi, Tâche |
 | Projet d'embauche collective        | Nombre de projets d'embauche collective, propriétaire du projet et statut du projet                     | Société, ligne d'embauche collective |
 | Ligne d'embauche collective           | Département, type d'emploi et poste                                           | Date, tâche, projet d'embauche collective |
-
-
 

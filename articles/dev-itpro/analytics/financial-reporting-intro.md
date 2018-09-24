@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 3e12037f14e7e01764fd6d18f52854c35a09d196
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: ae2087cf142fc2670bda3c542b336f12978178a6
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -35,34 +35,31 @@ La génération d'états financiers pour Finance and Operations permet aux profe
 La génération d’états financiers comprend la prise en charge de la dimension. Par conséquent, les segments de comptes ou de dimensions sont immédiatement disponibles. Aucun outil supplémentaire ni étape de configuration n'est nécessaire.
 
 ## <a name="financial-reporting-setup"></a>Configuration des états financiers
-La page **Configuration des états financiers** contient une liste de toutes les dimensions financières du système. **Comptabilité** > **Paramétrage de la comptabilité** > **Configuration des états financiers**. 
+La page **Configuration des états financiers** contient une liste de toutes les dimensions financières du système. **Comptabilité** \> **Paramétrage de la comptabilité** \> **Configuration des états financiers**.
 
 La page **Configuration des états financiers** comporte deux sections qui déterminent les données pour lesquelles vous générez un état dans les états financiers :
 
-•   **Onglet Dimensions** - Comme chaque société utilise des dimensions et des structures de compte différentes, il n'existe aucun moyen de déterminer l'ordre dans lequel les utilisateurs souhaitent afficher toutes les dimensions financières dans les états. Cette page vous permet de définir l'ordre dans lequel les dimensions financières doivent apparaître lorsque vous créez et affichez un état dans les états financiers.
-
-•   **Onglet Attributs** - Permet d'indiquer si vous souhaitez utiliser **Fournisseurs** et **Clients** comme attributs pour le filtrage et la conception d'états. La génération d'un état sur le fournisseur et le client n'est utile que si vous n'entrez pas plusieurs fournisseurs ou clients dans un document unique lors de la validation des transactions. Si vous sélectionnez Fournisseur et/ou Client, cela ajoute du temps supplémentaire à l'intégration.
-
-
+- **Onglet Dimensions** - Comme chaque société utilise des dimensions et des structures de compte différentes, il n'existe aucun moyen de déterminer l'ordre dans lequel les utilisateurs souhaitent afficher toutes les dimensions financières dans les états. Cette page vous permet de définir l'ordre dans lequel les dimensions financières doivent apparaître lorsque vous créez et affichez un état dans les états financiers.
+- **Onglet Attributs** - Permet d'indiquer si vous souhaitez utiliser **Fournisseurs** et **Clients** comme attributs pour le filtrage et la conception d'états. La génération d'un état sur le fournisseur et le client n'est utile que si vous n'entrez pas plusieurs fournisseurs ou clients dans un document unique lors de la validation des transactions. Si vous sélectionnez Fournisseur et/ou Client, cela ajoute du temps supplémentaire à l'intégration.
 
 ## <a name="financial-reporting-components"></a>Composants de la génération d'états financiers
 Les composants suivants la génération d'états financiers sont simples à utiliser pour créer, afficher et planifier les rapports.
 
-| Composant        | Fonctions                                                                                                                                                                                                                                                                           | Informations supplémentaires                                                                          |
-|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
-| Concepteur de rapports  | Créez des blocs élémentaires d'état pouvant être combinés pour définir et générer un état. L'Assistant de rapport dirige les utilisateurs peu expérimentés tout au long du processus de création. Les utilisateurs expérimentés peuvent créer des blocs élémentaires d'état ou modifier les blocs élémentaires existants pour répondre à leurs besoins. |                                                                                                 |
-| Planifications de rapport | Planifiez un état unique ou un groupe d'états afin qu’il soit généré régulièrement.                                                                                                                                                                                          | [Générer un état financier](generate-financial-report.md) |
+| Composant        | Fonctions | Informations supplémentaires |
+|------------------|-----------|------------------------|
+| Concepteur de rapports  | Créez des blocs élémentaires d'état pouvant être combinés pour définir et générer un état. L'Assistant de rapport dirige les utilisateurs peu expérimentés tout au long du processus de création. Les utilisateurs expérimentés peuvent créer des blocs élémentaires d'état ou modifier les blocs élémentaires existants pour répondre à leurs besoins. | |
+| Planifications de rapport | Planifiez un état unique ou un groupe d'états afin qu’il soit généré régulièrement. | [Générer un état financier](generate-financial-report.md) |
 
 ## <a name="features"></a>Fonctions
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>Fonction</th>
 <th>description ;</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Flexibilité de la conception des rapports</td>
 <td>Le générateur d'états fournit les options de génération d'états suivantes lorsque vous créez un état :
 <ul>
@@ -70,9 +67,10 @@ Les composants suivants la génération d'états financiers sont simples à util
 <li>Contrôlez la façon dont les descriptions de dimension sont affichées et mises en forme.</li>
 <li>Identifiez les comptes ou les dimensions qui ont été omis des blocs élémentaires de rapport.</li>
 <li>Mettez les en-têtes en forme pour les prévisions à court terme.</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Collaboration des rapports financiers</td>
 <td>Les fonctions suivantes vous permettent de gérer la génération et la distribution des rapports :
 <ul>
@@ -80,9 +78,10 @@ Les composants suivants la génération d'états financiers sont simples à util
 <li>Exportez au format XPS en lecture seule, offrant une sécurité optimale des documents grâce aux signatures numériques.</li>
 <li>Exportez vers une feuille de calcul Microsoft Excel.</li>
 <li>Pour partager des états, vous pouvez créer des e-mails contenant des liens vers les états en question.</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Affichage interactif des rapports</td>
 <td>Des fonctionnalités interactives vous permettent d'effectuer les tâches suivantes :
 <ul>
@@ -99,8 +98,4 @@ Les composants suivants la génération d'états financiers sont simples à util
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 [Générer un état financier](generate-financial-report.md)
-
-
-
-
 

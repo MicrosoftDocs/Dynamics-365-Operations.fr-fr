@@ -26,6 +26,8 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="vat-recovery-in-expense-management"></a>Recouvrement de la TVA dans le module Gestion des dépenses
 
+[!include [banner](../includes/banner.md)]
+
 Pour recevoir des remboursement sur des transactions de taxe sur la valeur ajoutée (TVA) admissibles, une société ou organisation doit identifier, collecter, vérifier et soumettre des informations précises. Ce processus inclut plusieurs tâches, et selon la taille de votre société, peut inclure plusieurs employés ou rôles.
 
 Pour récupérer la TVA à l'aide de Gestion des dépenses, les conditions préalables suivantes doivent être réunies :

@@ -26,6 +26,8 @@ ms.lasthandoff: 08/08/2018
 ---
 # <a name="remove-talent-environments"></a>Supprimer des environnements Talent
 
+[!include [banner](includes/banner.md)]
+
 Cette rubrique décrit le processus de suppression d'un environnement de test ou de production pour Microsoft Dynamics 365 for Talent.
 
 ## <a name="removing-a-test-drive-environment"></a>Suppression d'un environnement de test

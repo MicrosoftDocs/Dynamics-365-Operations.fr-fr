@@ -18,10 +18,10 @@ ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 5bc021ce9f0835f2eda310ef7818c9bc9be749f2
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 48239b48cbc24e34d74bbac36e8f827a15d7b840
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -36,7 +36,7 @@ Prenons l'exemple d'un fichier Excel avec des feuilles de calcul intitulées **S
 
 Si vous ajoutez la deuxième entité **Entrepôts** sans quitter l'écran **Ajouter un fichier**, la recherche de feuille de calcul vous permet de sélectionner la feuille de calcul **Entrepôts** sans avoir à télécharger à nouveau le fichier. Vous ne devez télécharger un nouveau fichier que si les données **Entrepôts** se trouvent dans un autre fichier.
 
-![Feuilles de calcul multiples](./media/AddFileMultipleWorkSheets.png) 
+![Feuilles de calcul multiples](./media/AddFileMultipleWorkSheets.png)
 
 ## <a name="fix-worksheet-to-entity-mapping"></a>Corriger la mise en correspondance de la feuille de calcul avec une entité
 
@@ -51,5 +51,4 @@ Si une nouvelle version du même fichier ou d'un fichier entièrement nouveau do
 ## <a name="upload-a-file-using-run-project"></a>Télécharger un fichier à l'aide de l'option Exécuter le projet
 
 Vous pouvez télécharger un fichier Excel tout en utilisant l'option **Exécuter le projet** pour exécuter un projet d'importation. Vous devez veiller à télécharger uniquement les fichiers ayant les mêmes feuilles de calcul que les mises en correspondance existantes dans les entités de données du projet de données. Si une feuille de calcul est introuvable dans le nouveau fichier téléchargé, le système affiche un message d'erreur et arrête l'importation. Si la mise en correspondance avec la feuille de calcul doit être modifiée pour une entité, les mises en correspondance du projet de données doivent d'abord être mises à jour dans le projet de données avant d'utiliser le fichier dans l'expérience **Exécuter le projet**.
-
 

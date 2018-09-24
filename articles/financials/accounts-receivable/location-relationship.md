@@ -28,6 +28,8 @@ ms.lasthandoff: 06/12/2018
 
 # <a name="add-location-roles-and-party-relationship-types"></a>Ajouter des rôles d'emplacement et des types de relation de partie 
 
+[!include [banner](../includes/banner.md)]
+
 ## <a name="add-location-roles"></a>Ajouter des rôles d'emplacement
 
 Vous pouvez ajouter un nouveau rôle d'emplacement pour les informations d'adresse et de contact de deux manières :

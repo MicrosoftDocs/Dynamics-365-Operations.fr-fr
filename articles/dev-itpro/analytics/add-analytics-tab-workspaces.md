@@ -16,10 +16,10 @@ ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d8cd3a6b3cbfa1219f0ebcf9d4d2132197167220
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 3f6b83166ba942e40e5e1f7c0ef9df40a44bfbc5
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -54,7 +54,7 @@ Avant de commencer, vous devez créer ou obtenir l'état Power BI que vous inclu
 Procédez comme suit pour ajouter un fichier .pbix comme artefact de projet Visual Studio.
 
 1. Créez un projet dans le modèle approprié.
-2. Dans l'Explorateur de solution, sélectionnez le projet, cliquez avec le bouton droit, puis sélectionnez **Ajouter** > **Nouvel article**.
+2. Dans l'Explorateur de solution, sélectionnez le projet, cliquez avec le bouton droit, puis sélectionnez **Ajouter** \> **Nouvel article**.
 3. Dans la boîte de dialogue **Ajouter le nouvel article**, sous **Artefacts d'opérations**, sélectionnez le modèle **Ressource**.
 4. Entrez un nom qui sera utilisé pour référencer l'état dans des métadonnées X++, puis cliquez sur **Ajouter**.
 
@@ -77,7 +77,7 @@ Procédez comme suit pour prolonger la définition d'écran pour l'espace de tra
 
 1. Ouvrez le concepteur d'écran pour étendre la définition de conception.
 2. Dans la définition de conception, sélectionnez l'élément supérieur qui est libellé **Mise en page | Modèle : Workspace Operational**.
-3. Cliquez avec le bouton droit, puis sélectionnez **Nouveau** > **Onglet** pour ajouter un nouveau contrôle nommé **FormTabControl1**.
+3. Cliquez avec le bouton droit, puis sélectionnez **Nouveau** \> **Onglet** pour ajouter un nouveau contrôle nommé **FormTabControl1**.
 4. Dans le concepteur d'écrans, sélectionnez **FormTabControl1**.
 5. Cliquez avec le bouton droit, puis sélectionnez la page **Nouvel onglet** pour ajouter un nouvel onglet.
 6. Renommez la page de l'onglet avec un nom évocatrice, tel qu'**Espace de travail**.
@@ -86,12 +86,12 @@ Procédez comme suit pour prolonger la définition d'écran pour l'espace de tra
 9. Renommez la page de l'onglet avec un nom évocateur, tel qu'**Analyses**.
 10. Dans le concepteur d'écrans, sélectionnez **Analyses (page d'onglet)**.
 11. Définissez la propriété **Légende** sur **Analyses**.
-12. Cliquez avec le bouton droit sur le contrôle, puis sélectionnez **Nouveau** > **Groupe** pour ajouter un nouveau contrôle de groupe d'écrans.
+12. Cliquez avec le bouton droit sur le contrôle, puis sélectionnez **Nouveau** \> **Groupe** pour ajouter un nouveau contrôle de groupe d'écrans.
 13. Renommez le groupe d'écrans avec un nom évocateur, tel que **powerBIReportGroup**.
 14. Dans le concepteur d'écrans, sélectionnez **PanoramaBody (onglet)**, puis faites glisser le contrôle dans l'onglet **Espace de travail**.
 15. Dans la définition de conception, sélectionnez l'élément supérieur qui est libellé **Mise en page | Modèle : Workspace Operational**.
 16. Cliquez avec le bouton droit et sélectionnez la page **Supprimer le modèle**.
-17. Cliquez avec le bouton droit de nouveau, puis sélectionnez **Ajouter un modèle** > **Espace de travail tabulé**.
+17. Cliquez avec le bouton droit de nouveau, puis sélectionnez **Ajouter un modèle** \> **Espace de travail à onglets**.
 18. Créez un build pour vérifier vos modifications.
 
 L'illustration suivante présente ce à quoi la conception ressemble une fois ces modifications appliquées.
@@ -116,7 +116,7 @@ Procédez comme suit pour ajouter une logique métier qui initialise le contrôl
     [Form] 
     public class FMClerkWorkspace extends FormRun
     {
-        private boolean initReportControl = true;     
+        private boolean initReportControl = true;
         protected void initAnalyticalReport()
         {
             if (!initReportControl)
@@ -126,11 +126,11 @@ Procédez comme suit pour ajouter une logique métier qui initialise le contrôl
             // Note: secure entry point into the Workspace's Analytics report
             if (Global::hasMenuItemAccess(menuItemDisplayStr(FMClerkWorkspace), MenuItemType::Display))
             {
-                FMPBIWorkspaceController controller = new FMPBIWorkspaceController();
+                // initialize the PBI report control using shared helper
                 PBIReportHelper::initializeReportControl('FMPBIWorkspaces', powerBIReportGroup);
             }
             initReportControl = false;
-    }
+        }
         /// <summary>
         /// Initializes the form.
         /// </summary>
@@ -159,23 +159,22 @@ Cette section fournit des informations sur la classe d'aide utilisée pour inclu
 #### <a name="syntax"></a>Syntaxe
 ```
 public static void initializeReportControl(
-     str                 _resourceName,
-     FormGroupControl    _formGroupControl,
-     str                 _defaultPageName = '',
-     boolean             _showFilterPane = false,
-     boolean             _showNavPane = false,
-     List                _defaultFilters = new List(Types::Class))
+    str                 _resourceName,
+    FormGroupControl    _formGroupControl,
+    str                 _defaultPageName = '',
+    boolean             _showFilterPane = false,
+    boolean             _showNavPane = false,
+    List                _defaultFilters = new List(Types::Class))
 ```
 
 #### <a name="parameters"></a>Paramètres
 
-|       Nom       |                                                              Description                                                               |
-|------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-|   resourceName   |                                                    Nom de la ressource .pbix                                                     |
-| formGroupControl |                                    Contrôle de groupe d'écrans auquel appliquer le contrôle de l'état Power BI.                                     |
-| defaultPageName  |                                                         Nom de la page par défaut                                                         |
-|  showFilterPane  |   Valeur booléenne qui indique si le volet de filtre doit être affiché (<strong>vrai</strong>) ou masqué (<strong>faux</strong>).   |
-|   showNavPane    | Valeur booléenne qui indique si le volet de navigation doit être affiché (<strong>vrai</strong>) ou masqué (<strong>faux</strong>). |
-|  defaultFilters  |                                              Filtres par défaut pour l'état Power BI.                                              |
-
+| Nom             | Description                                                                                                  |
+|------------------|--------------------------------------------------------------------------------------------------------------|
+| resourceName     | Nom de la ressource .pbix                                                                              |
+| formGroupControl | Contrôle de groupe d'écrans auquel appliquer le contrôle de l'état Power BI.                                              |
+| defaultPageName  | Nom de la page par défaut                                                                                       |
+| showFilterPane   | Valeur booléenne qui indique si le volet de filtre doit être affiché (**vrai**) ou masqué (**faux**).     |
+| showNavPane      | Valeur booléenne qui indique si le volet de navigation doit être affiché (**vrai**) ou masqué (**faux**). |
+| defaultFilters   | Filtres par défaut pour l'état Power BI.                                                                 |
 
