@@ -1,9 +1,9 @@
 ---
 title: "Journaux d'opérations diverses"
-description: "Cet article décrit les fonctionnalités de Microsoft Dynamics 365 for Finance and Operations qui vous permettent d'effectuer le traitement du journal des opérations diverses, ainsi que de garantir que les données correctes sont capturées et que le contrôle interne n'est pas compromis."
+description: "Cette rubrique décrit les fonctionnalités de Microsoft Dynamics 365 for Finance and Operations qui vous permettent d'effectuer le traitement du journal des opérations diverses, ainsi que de garantir que les données correctes sont capturées et que le contrôle interne n'est pas compromis."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 09/24/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: eb46613f805999753c2ab73ffb91a6fdae04c68e
+ms.sourcegitcommit: cf744bc41ffcca6d029da5dd2031ada607a0109b
+ms.openlocfilehash: e77aafafed5c972a6ad8c064107306d3ebde0b79
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 09/24/2018
 
 ---
 
@@ -30,9 +30,9 @@ ms.lasthandoff: 03/26/2018
 
 [!include [banner](../includes/banner.md)]
 
-Cet article décrit les fonctionnalités de Microsoft Dynamics 365 for Finance and Operations qui vous permettent d'effectuer le traitement du journal des opérations diverses, ainsi que de garantir que les données correctes sont capturées et que le contrôle interne n'est pas compromis.  
+Cette rubrique décrit les fonctionnalités de Microsoft Dynamics 365 for Finance and Operations qui vous permettent d'effectuer le traitement du journal des opérations diverses, ainsi que de garantir que les données correctes sont capturées et que le contrôle interne n'est pas compromis.  
 
-Noms de journal
+## <a name="journal-names"></a>Noms de journal
 
 Les noms des journaux font partie des zones les plus importantes à paramétrer. Il est judicieux de définir des noms de journaux spécifiques pour chaque objectif (intersociétés, régularisation et correction d'erreurs, par exemple). Vous pouvez modifier chaque nom de journal pour faciliter et sécuriser la saisie de données pour chaque objectif. 
 
@@ -44,9 +44,13 @@ Vous pouvez paramétrer les éléments suivants sur la page **Noms des journaux*
 
 **Exemples**
 
-Un nom de journal peut être utilisé uniquement pour les ajustements. Dans ce cas, vous pouvez spécifier que seul le type de compte **Comptabilité** est valide dans toutes les sociétés. [![Types de comptes du contrôle des journaux](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
+Un nom de journal peut être utilisé uniquement pour les ajustements. Dans ce cas, vous pouvez spécifier que seul le type de compte **Comptabilité** est valide dans toutes les sociétés. 
 
-Un nom de journal peut être uniquement utilisé pour un segment spécifique ou pour une plage pour des comptes principaux. [![Segment de contrôle des journaux](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
+[![Types de comptes du contrôle des journaux](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
+
+Un nom de journal peut être uniquement utilisé pour un segment spécifique ou pour une plage pour des comptes principaux. 
+
+[![Segment de contrôle des journaux](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
 
 L'option **Contrepassation automatique** est disponible dans les journaux des opérations diverses. Par exemple, vous avez un ajustement de régularisation dans lequel le document actif n'a pas encore été traité, comme le montre l'illustration suivante.
 [![Contrepassation du journal des opérations diverses](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
@@ -65,8 +69,9 @@ Le paramétrage suivant n'est pas spécifique aux journaux des opérations diver
 Le paramétrage de compte principal fournit de nombreuses options pour le traitement du journal des opérations diverses :
 
 -   **Obligation de DB/CR** : Utilisez cette option si un compte principal est limité à des transactions de débit ou de crédit. Le paramétrage est vérifié lors du contrôle ou de la validation du journal.
+
 -   **Compte de contrepartie par défaut**
--   **Suspendu** : Permet d'interrompre un compte principal pour la saisie de données dans toutes les sociétés ou pour une société spécifique/des entités juridiques.
+-   **Suspendu** : Permet d'interrompre un compte principal pour la saisie de données dans toutes les sociétés ou pour une société/entité juridique spécifique.
 -   **Ne pas autoriser la saisie manuelle** : Permet d'empêcher les utilisateurs d'entrer manuellement une valeur pour le compte dans les journaux.
 -   **Valeur par défaut/Contrôler la devise**
 -   **Remplacements des entités juridiques** : Ce paramétrage est spécifique à la société/à l'entité juridique définie :
@@ -78,7 +83,7 @@ Le paramétrage de compte principal fournit de nombreuses options pour le traite
 
 ### <a name="accounting-structures-and-advanced-rules-structures"></a>Structures de compte et structures de règles avancées
 
-Les structures de compte et les structures de règles avancées sont extrêmement importantes pour garantir que les données requises pour la génération d'états financiers et le suivi de performance sont capturées lors du traitement du journal des opérations diverses et de toute documentation. Les structures de compte et les structures de règles avancées vous permettent d'adapter l'expérience de saisie de données. Vous pouvez autoriser la saisie de données uniquement pour les dimensions financières pertinentes dans chaque cas, et également appliquer les conditions obligatoires et corriger les données qui sont capturées.
+Les structures de compte et les structures de règles avancées sont extrêmement importantes pour garantir que les données requises pour la génération d'états financiers et le suivi de performance sont capturées lors du traitement du journal des opérations diverses et de toute documentation. Les structures de compte et les structures de règles avancées vous permettent d'adapter l'expérience de saisie de données. Vous pouvez autoriser la saisie de données uniquement pour les dimensions financières pertinentes dans chaque cas, et également veiller à ce que les données requises et correctes soient toujours capturées.
 
 Pour plus d'informations, voir les rubriques suivantes :
 - [Planification : plan de comptes](plan-chart-of-accounts.md). 
@@ -88,5 +93,8 @@ Pour plus d'informations, voir les rubriques suivantes :
 - [Valider des journaux périodiques](tasks/post-periodic-journals.md)
 - [Traiter le journal de répartition comptable](tasks/process-ledger-allocation-journal.md)
 
+## <a name="simulate-posting"></a>Simuler la validation
+La fonction **Simuler la validation** est disponible dans le menu **Valider** pour la plupart des journaux. Lorsque vous validez un journal à l'aide de la fonction **Valider**, le système teste le journal pour rechercher des conditions d'erreur spécifiques. Si vous utilisez la fonction **Simuler la validation**, le système exécute les mêmes processus que ceux exécutés pendant la validation sans valider réellement le journal. Vous pouvez ensuite consulter les messages de validation affichés, corriger les erreurs trouvées, puis cliquer sur le menu **Valider** pour valider le journal. 
 
+La fonction **Simuler la validation** n'est pas disponible pour le traitement par lots. Toutefois, un code est disponible pour simuler la validation par lots et les développeurs peuvent étendre le code pour ajouter cette fonctionnalité.  
 

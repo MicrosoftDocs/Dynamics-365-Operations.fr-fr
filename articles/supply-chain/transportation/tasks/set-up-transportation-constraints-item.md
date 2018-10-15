@@ -3,24 +3,25 @@ title: "Paramétrer des contraintes de transport pour un article"
 description: "Cette procédure paramètrera une contrainte de transport pour empêcher un article sélectionné d'être transporté via un concentrateur sélectionné."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/07/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: TMSConstraint, InventLocationIdLookup, InventItemIdLookupSimple
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f2ef71e2d4d8fa0d0af0d8cb076ca59d32934181
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 900ea1476c95d295a151125afe46aebd9642630e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="set-up-transportation-constraints-for-an-item"></a>Paramétrer des contraintes de transport pour un article
@@ -30,7 +31,7 @@ ms.lasthandoff: 11/06/2017
 Cette procédure paramètrera une contrainte de transport pour empêcher un article sélectionné d'être transporté via un concentrateur sélectionné. Cette tâche est généralement effectuée par un coordinateur de transport. Vous pouvez utiliser cette procédure dans les données fictives de la société USMF ou utiliser vos propres données.
 
 
-## <a name="create-an-item-constraint"></a>Créer une contrainte d'article
+## <a name="create-an-item-constaint"></a>Créer une contrainte d'article
 1. Allez dans Contraintes.
 2. Cliquez sur Nouveau.
 3. Tapez une valeur dans le champ Contrainte d'article.

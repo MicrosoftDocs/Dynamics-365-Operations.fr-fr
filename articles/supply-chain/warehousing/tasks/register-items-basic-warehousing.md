@@ -3,27 +3,28 @@ title: "Enregistrer des articles pour un article activé pour l'entreposage de b
 description: "Cette procédure décrit la manière dont vous enregistrez des articles à l'aide des journaux d'arrivée des articles lorsque vous utilisez l'« entreposage de base » dans le module Gestion des stocks."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: PurchTable, PurchCreateOrder, WMSJournalTable, WMSJournalCreate, PurchEditLines
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 809a1466b0f4674f503bc654175d8f94b37a6508
-ms.openlocfilehash: c7148bd807ef29b0dd89204a0fbe9b8480095aba
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 5c53a38eb6afdf8d3cc1a316c8da5e84549ab60d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="register-items-for-a-basic-warehousing-enabled-item-using-an-item-arrival-journal"></a>Enregistrer des articles pour un article activé pour l'entreposage de base à l'aide d'un journal des arrivées d'articles
+# <a name="register-items-for-a-basic-warehousing-enabled-item-using-an-item-an-item-arrival-journal"></a>Enregistrer des articles pour un article activé pour l'entreposage de base à l'aide d'un journal des arrivées d'articles
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -34,7 +35,7 @@ Cette procédure décrit la manière dont vous enregistrez des articles à l'aid
 1. Accédez à Gestion des stocks > Entrées de journal > Arrivée d'articles > Arrivée d'articles.
 2. Cliquez sur Nouveau.
 3. Tapez une valeur dans le champ Nom.
-    * Si vous utilisez USMF, vous pouvez taper WHS. Si vous utilisez d'autres données, le journal dont vous choisissez le nom doit avoir les propriétés suivantes : vérifiez l'emplacement de prélèvement doit être définie sur Non et Gestion des contrôles doit être définie sur Non.  
+    * Si vous utilisez USMF, vous pouvez taper WHS. Si vous utilisez d'autres données, le journal dont vous choisissez le nom doit avoir les propriétés suivantes : Vérifier l'emplacement de prélèvement doit être définie sur Non et Gestion des contrôles doit être définie sur Non.  
 4. Tapez une valeur dans le champ Bon de livraison.
     * Il s'agit de l'ID bon de livraison du bon de livraison émis par le fournisseur. Ajoutez un numéro unique.  
 5. Sélectionnez la commande fournisseur dans le champ Nombre.

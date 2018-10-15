@@ -3,7 +3,7 @@ title: "États financiers"
 description: "Cette rubrique explique où accéder aux états financiers dans Microsoft Dynamics 365 for Finance and Operations et comment utiliser les fonctionnalités de génération d'états financiers. Elle inclut une description des états financiers par défaut fournis."
 author: aprilolson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 09/26/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: 613fcf941576b9fb05f5c059699e4cc9c4cabe3e
+ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
+ms.openlocfilehash: c6d504a7b0640f45de4aa9f8fb60d2b1d37818bb
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/27/2018
 
 ---
 
@@ -115,11 +115,13 @@ Les états financiers fournissent 22 états financiers par défaut. Chaque état
 Lorsque vous cliquez sur le menu **États financiers**, la liste des états financiers par défaut pour la société s'affiche. Vous pouvez ensuite ouvrir ou modifier un état. Pour ouvrir un des états par défaut, sélectionnez le nom de l'état. La première fois que l'état est ouvert, il est automatiquement généré pour le mois précédent. Par exemple, si vous ouvrez un état pour la première fois en août 2016, l'état est généré pour le 31 juillet 2016. Après l’ouverture d’un état, vous pouvez démarrer l'exploration en accédant à des ensembles de données spécifiques et en modifiant les options d'état.
 
 ## <a name="creating-and-modifying-financial-reports"></a>Création et modification d'états financiers
-Dans la liste des états financiers, vous pouvez créer un nouvel état ou modifier un état existant. Si vous disposez des autorisations appropriées, vous pouvez créer un état financier en cliquant sur **Nouveau** dans le volet Actions. Un programme de concepteur d'états est téléchargé sur votre périphérique. Une fois que le concepteur d'états démarre, vous pouvez créer l'état. Après avoir enregistré le nouvel état, il apparaît dans la liste des états financiers. La liste affiche uniquement les états créés pour la société utilisés dans Finance and Operations. Pour plus d'informations sur le processus de création et de modification d'états financiers dans Finance and Operations, reportez-vous à ces [publications de blog](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/tag/learning/) dans le blog de génération d'états financiers Dynamics. **Remarque :** la version 4.6.2 de Microsoft .NET Framework doit être installée sur l'ordinateur sur lequel vous téléchargez le client Concepteur d'états. Cette version de Microsoft .NET Framework peut être téléchargée et installée à partir d'[ici](https://www.microsoft.com/en-us/download/details.aspx?id=53345). Si vous utilisez Chrome, vous devez installer une extension ClickOnce afin de télécharger le client Concepteur d'états. Si vous utilisez le mode incognito, vérifiez que l'extension ClickOnce est activée pour le mode incognito. Vous pouvez également modifier un état qui apparaît dans la liste des états financiers. Lorsque la zone autour du nom de l'état est activée, cliquez sur **Édition** dans le Volet Actions. Le programme de concepteur d'état démarre.
+Dans la liste des états financiers, vous pouvez créer un nouvel état ou modifier un état existant. Si vous disposez des autorisations appropriées, vous pouvez créer un état financier en cliquant sur **Nouveau** dans le volet Actions. Un programme de concepteur d'états est téléchargé sur votre périphérique. Une fois que le concepteur d'états démarre, vous pouvez créer l'état. Après avoir enregistré le nouvel état, il apparaît dans la liste des états financiers. La liste affiche uniquement les états créés pour la société utilisés dans Finance and Operations. 
+
+> [!NOTE] 
+> La version 4.6.2 de Microsoft .NET Framework doit être installée sur l'ordinateur sur lequel vous téléchargez le client Concepteur d'états. Cette version de Microsoft .NET Framework peut être téléchargée et installée à partir du [Centre de téléchargement Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=53345). Si vous utilisez Chrome, vous devez installer une extension ClickOnce afin de télécharger le client Concepteur d'états. Si vous utilisez le mode incognito, vérifiez que l'extension ClickOnce est activée pour le mode incognito. Vous pouvez également modifier un état qui apparaît dans la liste des états financiers. Lorsque la zone autour du nom de l'état est activée, cliquez sur **Édition** dans le Volet Actions. Le programme de concepteur d'état démarre.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 - [Afficher les états financiers](view-financial-reports.md)
-- [États financiers Dynamics (blog)](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 
 

@@ -1,28 +1,29 @@
 --- 
-title: "Valider le journal de création et de contestation des lettres de change (France)"
+title: "FR-00004 Valider le journal de création et de contestation des lettres de change"
 description: "Cette procédure vous guide au cours des étapes des contestation d'une lettre de change impayée."
 author: EvgenyPopovMBS
 manager: AnnBe
-ms.date: 03/02/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerJournalTable, LedgerJournalTransCustBillOfExchange, CustOpenTrans
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 63efa66ea550ab91435155d5975c732288095593
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: a00c5422e0a7671a76345bb1652e99faaca11109
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="post-protest-draw-bill-of-exchange-journal-france"></a>Valider le journal de création et de contestation des lettres de change (France)
+# <a name="fr-00004-post-protest-draw-bill-of-exchange-journal"></a>FR-00004 Valider le journal de création et de contestation des lettres de change
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

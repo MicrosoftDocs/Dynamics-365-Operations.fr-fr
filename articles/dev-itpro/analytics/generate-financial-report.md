@@ -3,7 +3,7 @@ title: "Générer les états financiers"
 description: "Cette rubrique fournit des informations sur la génération d'un état financier."
 author: aprilolson
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 09/26/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: b1dea07589b7fe953ec47b204441d044c19b5020
+ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
+ms.openlocfilehash: 70fa1298c3af43f62b8fa0b833fa817f17858c47
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 09/27/2018
 
 ---
 
@@ -32,17 +32,14 @@ ms.lasthandoff: 08/13/2018
 
 Cette rubrique fournit des informations sur la génération d'un état financier.
 
-Pour générer un état, ouvrez la définition d'état, puis cliquez sur le bouton Générer dans la barre d'outils. La fenêtre État de la file d'attente de rapports s'ouvre et affiche l'emplacement de votre état dans la file d'attente. Par défaut, le rapport généré s'affiche dans la visionneuse Web.
-
-> [!NOTE]
-> Vous pouvez générer des états uniquement dans les dossiers et les emplacements auxquels vous êtes autorisé à accéder.
+Pour générer un état, ouvrez la définition d'état, puis cliquez sur le bouton Générer dans la barre d'outils. La fenêtre État de la file d'attente de rapports s'ouvre et affiche l'emplacement de votre état dans la file d'attente. Par défaut, l'état généré s'affiche dans la visionneuse Web.
 
 Les options suivantes sont disponibles pour la génération d'états :
 
 - Paramétrer un calendrier pour générer un état ou un groupe d'états automatiquement
 - Vérifier les comptes manquants ou les données manquants dans un état, et validez la précision d'un état
 
-Lorsque vous générez un état, les options que vous avez spécifiées sous les onglets Définition d'état sont utilisées. L'onglet Sortie et distribution permet de spécifier un emplacement de bibliothèque d'états, qui fournit une manière unique de partager l'état.
+Lorsque vous générez un état, les options que vous avez spécifiées sous les onglets Définition d'état sont utilisées.
 
 ## <a name="generate-a-financial-report"></a>Générer un état financier
 
@@ -55,10 +52,7 @@ Une fois que l'état a été généré, il est disponible dans la section **Éta
 
 Vous pouvez choisir d'**Afficher** ou de **Supprimer** l'état.
 
-Pour générer un état à l'aide du **Concepteurs d'états**, ouvrez la définition de l'état, puis cliquez sur le bouton Générer dans la barre d'outils. La fenêtre État de la file d'attente de rapports s'ouvre et affiche l'emplacement de votre état dans la file d'attente. Par défaut, le rapport généré s'affiche dans la visionneuse Web.
-
-> [!NOTE]
-> Vous pouvez générer des états uniquement dans les dossiers et les emplacements auxquels vous êtes autorisé à accéder.
+Pour générer un état à l'aide du **Concepteurs d'états**, ouvrez la définition de l'état, puis cliquez sur le bouton Générer dans la barre d'outils. La fenêtre État de la file d'attente de rapports s'ouvre et affiche l'emplacement de votre état dans la file d'attente. Par défaut, l'état généré s'affiche dans la visionneuse Web.
 
 ## <a name="schedule-report-generation"></a>Programme de génération des rapports
 De nombreuses sociétés disposent d'un ensemble principal de rapports qui sont exécutés à intervalles planifiés correspondant à leurs processus métiers. Vous pouvez programmer la génération régulière d'un état, par exemple chaque jour, chaque semaine, chaque mois ou chaque année. Il peut s'agir d'un seul rapport ou d'un groupe de rapports incluant plusieurs sociétés. Vous devez entrer vos informations d'identification pour chaque société spécifiée, par exemple, chaque société de la définition d'organigramme d'entreprise. Si les informations d'identification ne sont pas valides, l'état affiche uniquement les informations auxquelles vous êtes autorisé à accéder, comme la société à laquelle vous êtes connecté. Les informations de sortie sont lues d'abord à partir du groupe d'état, puis à partir des états individuels.

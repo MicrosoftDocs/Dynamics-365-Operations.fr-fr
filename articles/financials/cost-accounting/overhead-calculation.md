@@ -3,7 +3,7 @@ title: "Calcul des frais généraux"
 description: "Cette rubrique décrit les processus habituels pour calculer et affecter des frais généraux."
 author: AndersGirke
 manager: AnnBe
-ms.date: 04/20/2017
+ms.date: 10/04/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: shylaw
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 0ea6f7428cd5c7618d2d69f1fb66fd9539ad1073
+ms.sourcegitcommit: 12ae99c15bafcd9cc08b30903fe3f251f446b17d
+ms.openlocfilehash: 4de705324ac497cfb11fae3dadc6f57d038fd0b5
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/05/2018
 
 ---
 
@@ -191,8 +191,7 @@ Dans certains cas, une partie du coût est classifiée en frais fixes, et le co�
 </tbody>
 </table>
 
-Pour obtenir des informations détaillées sur le comportement de coûts, voir la stratégie de comportement de coûts. (Notez que cette rubrique n'est pas complète et sera bientôt mise à jour.)
-
+Pour plus d'informations, voir [Créer et affecter une stratégie de comportement de coûts à une unité de contrôle des coûts](tasks/create-assign-cost-behavior-policy-cost-control-unit.md).
 ### <a name="step-2-process-the-cost-distribution-calculation"></a>Étape 2 : Traiter le calcul de distribution des coûts
 
 La distribution des coûts est utilisée pour redistribuer le coût d'un objet de coût vers un ou plusieurs autres objets de coût en appliquant une base de répartition appropriée. La distribution et la répartition des coûts diffèrent car la distribution des coûts a toujours lieu au niveau de l'élément de coût principal du coût d'origine.
@@ -430,7 +429,7 @@ Le coût fixe doivt être attribué de façon égale aux différents objets de c
 </tbody>
 </table>
 
-Pour plus d'informations sur les bases de distribution et de répartition des coûts, consultez la stratégie de distribution des coûts et les bases de répartition. (Notez que cette rubrique n'est pas complète et sera bientôt mise à jour.)
+Pour plus d'informations, voir [Créer et affecter une stratégie de distribution des coûts à une unité de contrôle des coûts](tasks/create-assign-cost-distribution-policy-cost-control-unit.md). 
 
 ### <a name="step-3-process-the-overhead-rate-calculation"></a>Étape 3 : Traitement du calcul de taux de frais généraux
 
@@ -612,13 +611,13 @@ Le tableau suivant présente le résultat lorsque les projets HR sont utilisés 
 <td>10001</td>
 <td>Électricité</td>
 <td>Coût variable</td>
-<td>10,00</td>
+<td>10.00</td>
 <td>31 janvier 2017</td>
 </tr>
 </tbody>
 </table>
 
-Pour plus d'informations sur la stratégie de taux de frais généraux, voir la stratégie et les bases de répartition afférentes. (Notez que cette rubrique n'est pas complète et sera bientôt mise à jour.)
+Pour plus d'informations, voir [Exécuter le calcul des frais généraux](cost-rollup.md#perform-overhead-calculation).
 
 ### <a name="step-4-process-the-cost-allocation-calculation"></a>Étape 4 : Traiter le calcul de répartition des coûts
 
@@ -725,7 +724,8 @@ L'objet de coût CC004 Emballage contribue à plusieurs objets de coûts. Un me
 </tbody>
 </table>
 
-**Remarque :** dans Finance and Operations, les mesures statistiques telles que les heures de production qu'un produit consomme peuvent être dérivées des données sources. Pour des informations détaillées sur les fournisseurs de mesures statistiques, voir le modèle de fournisseur de mesures statistiques. (Notez que cette rubrique n'est pas complète et sera bientôt mise à jour.) Le tableau suivant présente le résultat lorsque les services HR sont utilisés comme base de répartition pour le coût total (coût fixe et coût variable).
+> [!NOTE]
+> Dans Finance and Operations, les mesures statistiques telles que les heures de production qu'un produit consomme peuvent être dérivées des données sources. Pour plus d'informations, voir [Modèle de fournisseur de mesures statistiques](statistical-measure-provider-template.md#statistical-measure-provider-template). Le tableau suivant présente le résultat lorsque les services RH sont utilisés comme base de répartition pour le coût total (coût fixe et coût variable).
 
 <table>
 <thead>
@@ -1412,7 +1412,7 @@ Dans la comptabilité financière, un coût de 10 000,00 pour l'électricité e
 </table>
 
 > [!NOTE]
-> Cette rubrique explique comment un élément de coût principal, 10001 Électricité, alimente les objets de coût. Par conséquent, ce coût de frais généraux est affecté au plus bas niveau dans l'organisation. Autrement dit, les objets de coût de plus bas niveau supportent le coût. Pour obtenir un flux visuel du coût entre les objets de coût, vous pouvez utiliser les règles de stratégie de repositionnement des coûts de visualiser le flux de coûts. Pour plus d'informations, voir la stratégie de repositionnement des coûts. (Notez que cette rubrique n'est pas complète et sera bientôt mise à jour.)
+> Cette rubrique explique comment un élément de coût principal, 10001 Électricité, alimente les objets de coût. Par conséquent, ce coût de frais généraux est affecté au plus bas niveau dans l'organisation. Autrement dit, les objets de coût de plus bas niveau supportent le coût. Pour obtenir un flux visuel du coût entre les objets de coût, vous pouvez utiliser les règles de stratégie de repositionnement des coûts de visualiser le flux de coûts. Pour plus d'informations, voir [Repositionnement des coûts](cost-rollup.md).
 
 
 

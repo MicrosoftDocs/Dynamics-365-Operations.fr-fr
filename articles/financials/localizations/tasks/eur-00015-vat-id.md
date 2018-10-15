@@ -1,28 +1,29 @@
 --- 
-title: "Paramétrer l'ID de TVA"
+title: "EUR-00015 Paramétrer l'ID de TVA"
 description: "Cette procédure décrit les conditions préalables à l'enregistrement de l'ID de TVA, par exemple le paramétrage d'un type d'enregistrement et son affectation à une catégorie d'enregistrement."
 author: v-oloski
 manager: AnnBe
-ms.date: 10/25/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: TaxRegistrationType, TaxRegistrationTypeCreate, TaxRegistrationLegislationTypes
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 20f64385b988ff48d865d2d521a9e580dc04c4a2
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 66ee7215dc21921f9d8e405c3f77d9b5e0b89a9e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="set-up-vat-id"></a>Paramétrer l'ID de TVA
+# <a name="eur-00015-set-up-vat-id"></a>EUR-00015 Paramétrer l'ID de TVA
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

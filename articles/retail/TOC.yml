@@ -12,6 +12,8 @@
       href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/retail/toc.json
     - name: Options de déploiement
       href: dev-itpro/choose-deployment.md
+    - name: Obtenir de l'aide sur Retail
+      href: retail-support.md
 - name: Inclure le cycle de vie de l'implémentation
   href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
   items:
@@ -35,9 +37,9 @@
       href: ../fin-and-ops/get-started/move-lcs-implementation-project-tenant.md
     - name: "Mettre en œuvre\_plusieurs projets LCS et plusieurs environnements de production sur le même locataire Azure Active Directory"
       href: ../fin-and-ops/get-started/implement-multiple-projects-aad-tenant.md
-    - name: Mettre en œuvre des projets Retail dans Finance and Operations
+    - name: Mettre en œuvre des projets Finance and Operations Retail
       href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
-    - name: 'Paramétrer de nouveaux environnements, VSTS et branches pour les projets Retail'
+    - name: 'Paramétrer de nouveaux environnements, Azure DevOps et branches pour les projets Retail'
       href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
     - name: Mettre à jour le code et les environnements pour les projets Retail
       href: dev-itpro/updating-environments.md
@@ -305,6 +307,14 @@
       href: ../talent/create-job.md
 - name: Fonctions locales et relatives aux réglementations
   items:
+    - name: Europe de l'Est
+      items:
+        - name: Factures d'acompte pour Retail pour l'Europe de l'Est
+          href: localizations/emea-eeu-advance-invoices-for-retail.md
+        - name: Gestion des fonds de caisse pour Retail pour l'Europe de l'Est
+          href: localizations/emea-eeu-petty-cash-for-retail.md
+        - name: Factures client Retail et commandes client de retour dans les pays d'Europe de l'Est
+          href: localizations/emea-eeu-retail-invoices.md
     - name: France
       items:
         - name: Fonctionnalité de la caisse enregistreuse
@@ -313,10 +323,12 @@
           href: localizations/emea-fra-deployment.md
     - name: Inde
       items:
-        - name: Intégration de la taxe sur les Produits et Services pour les caisses enregistreuses
+        - name: Intégration de la taxe sur les Produits et Services (GST) pour les caisses enregistreuses
           href: localizations/apac-ind-cash-registers.md
         - name: Instructions de déploiement de caisses enregistreuses
           href: localizations/apac-ind-loc-deployment-guidelines.md
+        - name: Prise en charge de la mise à niveau et de N-1 pour l'Inde
+          href: localizations/apac-ind-n-1-for-india.md
     - name: Norvège
       items:
         - name: Fonctionnalité de la caisse enregistreuse

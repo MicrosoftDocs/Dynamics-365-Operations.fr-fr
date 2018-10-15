@@ -1,9 +1,9 @@
 ---
-title: "Paramétrer des appareils mobiles pour un travail d'entrepôt"
-description: "Cet article décrit la manière de configurer les options de menu utilisées par les collaborateurs d'entrepôt pour travailler sur un appareil mobile."
+title: "Configuration des appareils mobiles pour le travail d'entrepôt"
+description: "Cette rubrique décrit la procédure de configuration des éléments de menu utilisés par les magasiniers pour effectuer le travail nécessaire sur un appareil mobile."
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 09/28/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,20 +19,20 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: bb0d6af3a17653ea33e3f84a416bda244a27507c
+ms.sourcegitcommit: 4c200c07ad576073ab5410b52ec237d31b2415d2
+ms.openlocfilehash: cc21b62026403e37dbcb90c24dd239d295f0e04e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 10/03/2018
 
 ---
 
-# <a name="set-up-mobile-devices-for-warehouse-work"></a>Paramétrer des appareils mobiles pour un travail d'entrepôt
+# <a name="set-up-mobile-devices-for-warehouse-work"></a>Configuration des appareils mobiles pour le travail d'entrepôt
 
 [!include [banner](../includes/banner.md)]
 
-Cet article décrit la manière de configurer les options de menu utilisées par les collaborateurs d'entrepôt pour travailler sur un appareil mobile.
+Cette rubrique décrit la procédure de configuration des éléments de menu utilisés par les magasiniers pour effectuer le travail nécessaire sur un appareil mobile.
 
-**Remarque :** cet article s'applique aux fonctionnalités du module Gestion de l'entrepôt. Il ne s'applique pas aux fonctionnalités du module Gestion du stock. Les options de menu qui s'affichent dans les menus d'un appareil mobile d'entrepôt sont configurées dans la page **Options de menu d'appareil mobile**. Comme les options de menu peuvent être placées dans différents menus, il est facile de configurer les structures de menu de manière à ce que seuls des types de travail spécifiques soient visibles par des utilisateurs spécifiques. Vous pouvez configurer les options de menu pour effectuer les tâches suivantes :
+**Remarque :** cette rubrique s'applique aux fonctionnalités du module Gestion des entrepôts. Il ne s'applique pas aux fonctionnalités du module Gestion du stock. Les options de menu qui s'affichent dans les menus d'un appareil mobile d'entrepôt sont configurées dans la page **Options de menu d'appareil mobile**. Comme les options de menu peuvent être placées dans différents menus, il est facile de configurer les structures de menu de manière à ce que seuls des types de travail spécifiques soient visibles par des utilisateurs spécifiques. Vous pouvez configurer les options de menu pour effectuer les tâches suivantes :
 
 -   Traiter une recherche ou effectuer une activité, telle que l'impression d'une étiquette, la génération de contenants, le démarrage d'un ordre d'exécution ou la recherche rapide d'informations sur les articles dans un emplacement.
 -   Créer le travail qui sera effectué via un autre processus. Par exemple, la réception d'un article pour une commande fournisseur peut créer le travail de rangement pour un autre collaborateur.
@@ -193,7 +193,7 @@ Vous pouvez paramétrer une option de menu qui crée un travail pour un autre co
 </table>
 
 ## <a name="configure-menu-items-to-process-existing-work"></a>Configurer des options de menu pour traiter le travail existant
-Outre la configuration des options de menu pour créer le travail d'entrepôt, vous pouvez paramétrer des options de menu pour traiter le travail qui a déjà été créé. Définissez le champ **Mode** sur **Travail**, puis sélectionnez l'option **Utiliser un travail existant**. Certaines options supplémentaires deviennent alors disponibles sous l'onglet **Général**. Vous pouvez contrôler l'accès à l'option de menu en affectant une ou plusieurs classes de travail dans l'organisateur **Classe de travail**. Les classes de travail définissent le travail que l'option de menu peut traiter. La classe de travail permet également d'autoriser l'accès à des rôles utilisateur spécifiques ou de séparer le traitement pour différents types d'opérations. Le tableau suivant décrit les options disponibles.
+Outre la configuration des options de menu pour créer le travail d'entrepôt, vous pouvez paramétrer des options de menu pour traiter le travail qui a déjà été créé. Définissez le champ **Mode** sur **Travail**, puis sélectionnez l'option **Utiliser un travail existant**. Certaines options supplémentaires deviennent alors disponibles sous l'onglet **Général**. Vous pouvez contrôler l'accès à l'option de menu en affectant une ou plusieurs classes de travail dans l'organisateur **Classe de travail**. Les classes de travail définissent le travail que l'option de menu peut traiter. La classe de travail permet également d'autoriser l'accès à des rôles utilisateur spécifiques ou de séparer le traitement pour différents types d'opérations. Le tableau suivant décrit les options disponibles. L'option est disponible sous le champ **Dirigé par** de la page **Options de menu d'appareil mobile**. 
 
 <table>
 
@@ -247,6 +247,10 @@ Cette option est utile, par exemple, lorsque plusieurs palettes sont prévues po
 <tr class="even">
 <td>Regroupement d'inventaires tournants</td>
 <td>Le collaborateur sélectionne une zone, un pool de travail ou un emplacement, et Microsoft Dynamics 365 for Finance and Operations affecte le travail en fonction de la sélection. Si cette option est sélectionnée, vous pouvez cliquer sur <strong>Inventaire tournant</strong> dans le volet Actions pour spécifier des informations supplémentaires à afficher, et vous pouvez également spécifier le nombre de fois que le collaborateur doit répéter l'opération si une différence est trouvée.</td>
+</tr>
+ <tr class="odd">
+<td>Chargement de transport</td>
+<td>Cette fonctionnalité permet à plusieurs magasiniers de charger le stock provenant des mêmes chargements ou de chargements différents sur le même camion, avec des chargements entièrement ou partiellement expédiées.</td>
 </tr>
 </tbody>
 </table>
@@ -349,7 +353,7 @@ Le tableau suivant décrit ces options.
 <td>Sélectionnez cette option pour permettre aux collaborateurs d'associer un travail pour une commande client ou un chargement dans une seule unité de travail. Un collaborateur peut effectuer le travail uniquement pour la commande client ou le chargement. Cette option est utile si, par exemple, vous devez augmenter une quantité pour une commande client après que le chargement et que l'expédition et le travail ont été créés pour la commande client. Cette option est disponible lorsque l'option de menu utilise le travail existant, et le travail est dirigé par l'utilisateur ou le système.</td>
 </tr>
 <tr class="even">
-<td>Aucun(e)</td>
+<td>Prélever le traitement par lots le plus ancien</td>
 <td>Indiquez si le collaborateur doit prélever en premier le lot le plus ancien dans un emplacement. Les options suivantes sont disponibles :
 <ul>
 <li><strong>Aucun</strong> – Le collaborateur peut prélever n'importe quel lot dans l'emplacement. Le collaborateur ne reçoit aucun message.</li>

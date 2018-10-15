@@ -3,26 +3,27 @@ title: "Importer une lettre de crédit"
 description: "Cette procédure décrit le processus d'importation d'une lettre de crédit."
 author: kweekley
 manager: AnnBe
-ms.date: 02/26/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: VendTable, VendBankAccounts, PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, BankLCImport,  PurchEditLines, VendEditInvoice, SrsReportViewerForm, LedgerJournalTable, LedgerJournalTransVendPaym, VendOpenTrans, SysQueryForm, BankAccountTableLookUp
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 02be2627186a149a05eaccfa3e5906a9fe1d74dd
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: c1768494182a79d7a33044498c1e768e61d937d1
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="import-a-letter-of-credit"></a>Importer une lettre de crédit
+# <a name="import-letter-of-credit"></a>Importer une lettre de crédit
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -110,7 +111,8 @@ La société fictive USMF sert d'exemple dans cette procédure.
 1. Accédez à Gestion de la trésorerie et de la banque > Lettres de crédit > Lettre de crédit d'importation/relance d'importation.
 2. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
 3. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-    * Vérifiez le statut de la lettre de crédit d'importation.  
+    * Vérifiez le statut de la lettre de crédit d'importation.    
+    *   
 4. Fermez la page.
 5. Fermez la page.
 

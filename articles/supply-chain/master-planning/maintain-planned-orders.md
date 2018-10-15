@@ -1,9 +1,9 @@
 ---
 title: "Tenir à jour les ordres prévisionnels"
-description: "Cet article fournit des informations sur la gestion des ordres prévisionnels. Il décrit la manière dont vous pouvez mettre à jour le statut des ordres prévisionnels, les confirmer et filtrer les ordres prévisionnels ayant le même statut qu'un ordre prévisionnel sélectionné."
+description: "Cette rubrique fournit des informations sur la gestion des ordres prévisionnels. Il décrit la manière dont vous pouvez mettre à jour le statut des ordres prévisionnels, les confirmer et filtrer les ordres prévisionnels ayant le même statut qu'un ordre prévisionnel sélectionné."
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 3d7afda9371b4d21e58f2e56de3d477b1c9950a1
+ms.sourcegitcommit: ad0083018d2734cb1e36cbf5f94105376c57cdf9
+ms.openlocfilehash: e0e3e86ae85b59b10dc8d9ca9b0130d218469118
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 10/02/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/08/2018
 
 [!include [banner](../includes/banner.md)]
 
-Cet article fournit des informations sur la gestion des ordres prévisionnels. Il décrit la manière dont vous pouvez mettre à jour le statut des ordres prévisionnels, les confirmer et filtrer les ordres prévisionnels ayant le même statut qu'un ordre prévisionnel sélectionné.
+Cette rubrique fournit des informations sur la gestion des ordres prévisionnels. Il décrit la manière dont vous pouvez mettre à jour le statut des ordres prévisionnels, les confirmer et filtrer les ordres prévisionnels ayant le même statut qu'un ordre prévisionnel sélectionné.
 
 Vous pouvez gérer les ordres prévisionnels à partir de l'espace de travail **Planification**, de la liste **Ordre prévisionnel** ou des listes **Ordres de fabrication prévisionnels**, **Commandes fournisseur prévisionnelles** et **Transfert prévisionnel**. Vous pouvez utiliser le champ **Statut** pour aider à suivre la progression. Les valeurs suivantes sont utilisées :
 
@@ -45,7 +45,7 @@ Vous pouvez gérer les ordres prévisionnels à partir de l'espace de travail **
 -   Plusieurs ordres prévisionnels.
 -   Ordres prévisionnels générés par un éclatement dans la page **Éclatement**. Cliquez sur **Ordres prévisionnels**, sélectionnez l'ordre prévisionnel, puis cliquez sur **Confirmer**.
 
-Après confirmation, l'ordre prévisionnel est déplacé vers la section Commandes du module approprié. **Remarque :** vous pouvez cliquer avec le bouton droit sur un ordre prévisionnel ayant un statut particulier et effectuer un filtrage afin de trouver d'autres ordres prévisionnels avec le même statut. Cette fonctionnalité est utile si, par exemple, vous souhaitez filtrer tous les ordres prévisionnels ayant le statut **Approuvé**, afin de les confirmer.
+Après confirmation, l'ordre prévisionnel est déplacé vers la section Commandes du module approprié. 
 
 <a name="additional-resources"></a>Ressources supplémentaires
 --------

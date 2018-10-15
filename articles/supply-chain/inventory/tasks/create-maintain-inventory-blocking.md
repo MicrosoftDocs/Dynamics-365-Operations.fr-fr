@@ -1,29 +1,30 @@
----
+--- 
 title: "Créer et tenir à jour un blocage du stock"
 description: "Cette procédure décrit comment empêcher le stock physique disponible d'être réservée par d'autres documents sources sortants en utilisant le blocage du stock."
 author: perlynne
 manager: AnnBe
-ms.date: 12/02/2015
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventBlocking, InventItemIdLookupSimple, InventLocationIdLookup
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7272349cf16b9459823a752b8d3df915f42606ef
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 09789dc0b89f8bd36cca9b3e5be366bf17246243
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="create-and-maintain-inventory-blocking"></a>Créer et tenir à jour un blocage du stock
+# <a name="create-and-maintain-an-inventory-blocking"></a>Créer et tenir à jour un blocage du stock
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -34,7 +35,7 @@ Cette procédure décrit comment empêcher le stock physique disponible d'être 
 1. Allez dans Gestion des stocks > Tâches périodiques > Blocage du stock.
 2. Cliquez sur Nouveau.
 3. Dans le champ Numéro d'article, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-4. Dans la liste, sélectionnez l'article que vous souhaitez choisir.
+4. Dans la liste, sélectionnez l'article que vous souhaitez choisir. 
     * Sélectionnez un numéro d'article avec le stock physique disponible à bloquer. Si vous utilisez USMF, vous pouvez sélectionner l'article M9201.  
 5. Dans le champ Quantité, entrer un numéro.
     * Si vous utilisez l'article M9201, vous devez sélectionner inférieur à 200.  
@@ -55,4 +56,5 @@ Cette procédure décrit comment empêcher le stock physique disponible d'être 
 1. Cliquez sur Supprimer.
 2. Cliquez sur Oui.
 3. Fermez la page.
+
 

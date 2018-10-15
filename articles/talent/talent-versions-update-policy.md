@@ -18,10 +18,10 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: 85318332b802aace7d705289e6a298b49799b847
+ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
+ms.openlocfilehash: 0fa2b7c2dc5b88349cb4012b6b0ba9009a361fa0
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/17/2018
 
 ---
 
@@ -47,7 +47,7 @@ Pour trouver la dernière version pour chaque navigateur Web, accédez au site I
 > * L'éditeur de workflow démarre en tant qu'application ClickOnce. Seuls Microsoft Edge et Internet Explorer (dans une version prise en charge de Microsoft Windows) prennent en charge les applications ClickOnce. L'application ClickOnce d'éditeur de workflow nécessite un système d'exploitation compatible 64 bits.
 > * Pour afficher un aperçu des fichiers PDF, nous vous recommandons d'utiliser des navigateurs tels que Microsoft Edge (dernière version disponible) sous Windows 10, ou Google Chrome (dernière version disponible) sous Windows 10, Windows 8,1, Windows 8, Windows 7, ou sur la tablette Google Nexus 10.
 >   Exigences réseau
-> * Dynamics 365 for Talent est conçu pour les réseaux ayant une latence de 250 à 300 millisecondes (ms) ou moins. C'est la latence entre un client de navigateur et le centre de données Microsoft Azure qui héberge Dynamics 365 for Talent. Nous vous recommandons de tester la latence du réseau à l'adresse [www.azurespeed.com](http://www.azurespeed.com "Test de latence Azure").
+> * Dynamics 365 for Talent est conçu pour les réseaux ayant une latence de 250 à 300 millisecondes (ms) ou moins. C'est la latence entre un client de navigateur et le centre de données Microsoft Azure qui héberge Dynamics 365 for Talent. Nous vous recommandons de tester la latence du réseau à l'adresse [www.azurespeed.com](https://www.azurespeed.com "Test de latence Azure").
 > * Les besoins en bande passante pour Dynamics 365 for Talent dépendent de votre scénario. La plupart des scénarios habituels nécessitent une bande passante de plus de 50 kilo-octets par seconde (KBps).
 > 
 > [!WARNING]
