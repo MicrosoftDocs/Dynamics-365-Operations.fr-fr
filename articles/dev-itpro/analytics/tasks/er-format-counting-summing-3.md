@@ -1,135 +1,136 @@
 --- 
-title: "Utiliser les calculs pour générer la sortie permettant d'effectuer le comptage et la synthèse"
+title: "ER Configurer le format pour effectuer le comptage et la synthèse (Partie 3 - Utiliser les calculs pour générer la sortie)"
 description: "Les étapes suivantes expliquent comment un utilisateur affecté au rôle d'administrateur système ou de développeur d'états électroniques peut configurer un format de génération d'états électroniques (ER) pour effectuer le comptage et la synthèse en fonction des données de la sortie de texte déjà générée."
 author: NickSelin
 manager: AnnBe
-ms.date: 10/28/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner, ERDataSourceAddDropDialog, ERExpressionDesignerFormula, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: e09b9fc87619d87c1de0e68ff370c0d6ebe72fc8
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 5c870c134a9dae81cd619268bed7ce545bdd5f52
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="use-computations-to-generate-the-output-for-counting-and-summing"></a><span data-ttu-id="22a52-103">Utiliser les calculs pour générer la sortie permettant d'effectuer le comptage et la synthèse</span><span class="sxs-lookup"><span data-stu-id="22a52-103">Use computations to generate the output for counting and summing</span></span>
+# <a name="er-configure-format-to-do-counting-and-summing-part-3-use-computations-to-make-the-output"></a><span data-ttu-id="ba56f-103">ER Configurer le format pour effectuer le comptage et la synthèse (Partie 3 : Utiliser les calculs pour générer la sortie)</span><span class="sxs-lookup"><span data-stu-id="ba56f-103">ER Configure format to do counting and summing (Part 3: Use computations to make the output)</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="22a52-104">Les étapes suivantes expliquent comment un utilisateur affecté au rôle d'administrateur système ou de développeur d'états électroniques peut configurer un format de génération d'états électroniques (ER) pour effectuer le comptage et la synthèse en fonction des données de la sortie de texte déjà générée.</span><span class="sxs-lookup"><span data-stu-id="22a52-104">The following steps explain how a user assigned to the system administrator or electronic reporting developer role can configure an Electronic reporting (ER) format to do counting and summing based on data of the already generated text output.</span></span> <span data-ttu-id="22a52-105">Ces étapes peuvent être effectuées dans n'importe quelle société.</span><span class="sxs-lookup"><span data-stu-id="22a52-105">These steps can be performed in any company.</span></span>
+<span data-ttu-id="ba56f-104">Les étapes suivantes expliquent comment un utilisateur affecté au rôle d'administrateur système ou de développeur d'états électroniques peut configurer un format de génération d'états électroniques (ER) pour effectuer le comptage et la synthèse en fonction des données de la sortie de texte déjà générée.</span><span class="sxs-lookup"><span data-stu-id="ba56f-104">The following steps explain how a user assigned to the system administrator or electronic reporting developer role can configure an Electronic reporting (ER) format to do counting and summing based on data of the already generated text output.</span></span> <span data-ttu-id="ba56f-105">Ces étapes peuvent être effectuées dans n'importe quelle société.</span><span class="sxs-lookup"><span data-stu-id="ba56f-105">These steps can be performed in any company.</span></span>
 
-<span data-ttu-id="22a52-106">Pour effectuer ces étapes, vous devez d'abord effectuer les étapes de la procédure « ER Configurer le format pour effectuer le comptage et la synthèse (Partie 2 : Configurer des calculs) ».</span><span class="sxs-lookup"><span data-stu-id="22a52-106">To complete these steps, you must first complete the steps in the “ER Configure format to do counting and summing (Part 2: Configure computations)” procedure.</span></span>
+<span data-ttu-id="ba56f-106">Pour effectuer ces étapes, vous devez d'abord effectuer les étapes de la procédure « ER Configurer le format pour effectuer le comptage et la synthèse (Partie 2 : Configurer des calculs) ».</span><span class="sxs-lookup"><span data-stu-id="ba56f-106">To complete these steps, you must first complete the steps in the “ER Configure format to do counting and summing (Part 2: Configure computations)” procedure.</span></span>
 
-<span data-ttu-id="22a52-107">Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.</span><span class="sxs-lookup"><span data-stu-id="22a52-107">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
+<span data-ttu-id="ba56f-107">Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.</span><span class="sxs-lookup"><span data-stu-id="ba56f-107">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
 
-## <a name="configure-this-report-to-use-counting-and-summing-info"></a><span data-ttu-id="22a52-108">Configurer cet état pour utiliser les informations de comptage et de synthèse</span><span class="sxs-lookup"><span data-stu-id="22a52-108">Configure this report to use counting and summing info</span></span>
-1. <span data-ttu-id="22a52-109">Accédez à Administration d'organisation > Espaces de travail > États électroniques.</span><span class="sxs-lookup"><span data-stu-id="22a52-109">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
-2. <span data-ttu-id="22a52-110">Cliquez sur Configurations des états.</span><span class="sxs-lookup"><span data-stu-id="22a52-110">Click Reporting configurations.</span></span>
-3. <span data-ttu-id="22a52-111">Dans l'arborescence, développez « Modèle de déclaration d'échanges de biens ».</span><span class="sxs-lookup"><span data-stu-id="22a52-111">In the tree, expand 'Intrastat model'.</span></span>
-4. <span data-ttu-id="22a52-112">Dans l'arborescence, développez « Modèle de déclaration d'échanges de biens\Déclaration d'échanges de biens (Allemagne) ».</span><span class="sxs-lookup"><span data-stu-id="22a52-112">In the tree, expand 'Intrastat model\Intrastat (DE)'.</span></span>
-5. <span data-ttu-id="22a52-113">Dans l'arborescence, sélectionnez « Modèle de déclaration d'échanges de biens\Déclaration d'échanges de biens (Allemagne)\Déclaration d'échanges de biens (Allemagne) avec comptage et synthèse ».</span><span class="sxs-lookup"><span data-stu-id="22a52-113">In the tree, select 'Intrastat model\Intrastat (DE)\Intrastat (DE) with counting & summing'.</span></span>
-6. <span data-ttu-id="22a52-114">Cliquez sur Concepteur.</span><span class="sxs-lookup"><span data-stu-id="22a52-114">Click Designer.</span></span>
-7. <span data-ttu-id="22a52-115">Cliquez sur l'onglet Mise en relation.</span><span class="sxs-lookup"><span data-stu-id="22a52-115">Click the Mapping tab.</span></span>
-8. <span data-ttu-id="22a52-116">Cliquez sur Ajouter racine pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="22a52-116">Click Add root to open the drop dialog.</span></span>
-    * <span data-ttu-id="22a52-117">Ajoutez une nouvelle source de données pour obtenir la liste des blocs mémorisés.</span><span class="sxs-lookup"><span data-stu-id="22a52-117">Add a new data source to get the list of memorized blocks.</span></span>  
-9. <span data-ttu-id="22a52-118">Dans l'arborescence, sélectionnez « Fonctions\Champ calculé ».</span><span class="sxs-lookup"><span data-stu-id="22a52-118">In the tree, select 'Functions\Calculated field'.</span></span>
-10. <span data-ttu-id="22a52-119">Dans le champ Nom, tapez « $BlocksList ».</span><span class="sxs-lookup"><span data-stu-id="22a52-119">In the Name field, type '$BlocksList'.</span></span>
-    * <span data-ttu-id="22a52-120">$BlocksList</span><span class="sxs-lookup"><span data-stu-id="22a52-120">$BlocksList</span></span>  
-11. <span data-ttu-id="22a52-121">Cliquez sur Modifier la formule.</span><span class="sxs-lookup"><span data-stu-id="22a52-121">Click Edit formula.</span></span>
-12. <span data-ttu-id="22a52-122">Dans l'arborescence, sélectionnez « Fonctions de collecte des données\COLLECTEDLIST ».</span><span class="sxs-lookup"><span data-stu-id="22a52-122">In the tree, select 'Data collection functions\COLLECTEDLIST'.</span></span>
-13. <span data-ttu-id="22a52-123">Cliquez sur Ajouter une fonction.</span><span class="sxs-lookup"><span data-stu-id="22a52-123">Click Add function.</span></span>
-14. <span data-ttu-id="22a52-124">Cliquez sur Ajouter une source de données.</span><span class="sxs-lookup"><span data-stu-id="22a52-124">Click Add data source.</span></span>
-15. <span data-ttu-id="22a52-125">Dans le champ Formule, entrez 'COLLECTEDLIST('$BlockName', '.</span><span class="sxs-lookup"><span data-stu-id="22a52-125">In the Formula field, enter 'COLLECTEDLIST('$BlockName', '.</span></span>
-    * <span data-ttu-id="22a52-126">COLLECTEDLIST('$BlockName',</span><span class="sxs-lookup"><span data-stu-id="22a52-126">COLLECTEDLIST('$BlockName',</span></span>  
-16. <span data-ttu-id="22a52-127">Dans le champ Formule, entrez 'COLLECTEDLIST('$BlockName', "\*")'.</span><span class="sxs-lookup"><span data-stu-id="22a52-127">In the Formula field, enter 'COLLECTEDLIST('$BlockName', "\*")'.</span></span>
-    * <span data-ttu-id="22a52-128">COLLECTEDLIST('$BlockName', "\*")</span><span class="sxs-lookup"><span data-stu-id="22a52-128">COLLECTEDLIST('$BlockName', "\*")</span></span>  
-17. <span data-ttu-id="22a52-129">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="22a52-129">Click Save.</span></span>
-    * <span data-ttu-id="22a52-130">Le modèle « \* » signifie que tous les blocs sont inclus dans la liste pour cet enregistrement.</span><span class="sxs-lookup"><span data-stu-id="22a52-130">The pattern “\*” means that all blocks will be included to the list for this record.</span></span>  
-18. <span data-ttu-id="22a52-131">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="22a52-131">Close the page.</span></span>
-19. <span data-ttu-id="22a52-132">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="22a52-132">Click OK.</span></span>
-20. <span data-ttu-id="22a52-133">Cliquez sur l'onglet Format.</span><span class="sxs-lookup"><span data-stu-id="22a52-133">Click the Format tab.</span></span>
-21. <span data-ttu-id="22a52-134">Dans l'arborescence, sélectionnez « Déclaration d'échanges de biens\Données ».</span><span class="sxs-lookup"><span data-stu-id="22a52-134">In the tree, select 'Intrastat\Data'.</span></span>
-22. <span data-ttu-id="22a52-135">Cliquez sur Ajouter pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="22a52-135">Click Add to open the drop dialog.</span></span>
-23. <span data-ttu-id="22a52-136">Dans l'arborescence, sélectionnez « Texte\Souche ».</span><span class="sxs-lookup"><span data-stu-id="22a52-136">In the tree, select 'Text\Sequence'.</span></span>
-24. <span data-ttu-id="22a52-137">Dans le champ Nom, tapez « Totaux par bloc ».</span><span class="sxs-lookup"><span data-stu-id="22a52-137">In the Name field, type 'Totals by blocks'.</span></span>
-    * <span data-ttu-id="22a52-138">Totaux par bloc</span><span class="sxs-lookup"><span data-stu-id="22a52-138">Totals by blocks</span></span>  
-25. <span data-ttu-id="22a52-139">Dans le champ Caractères spéciaux, sélectionnez « Nouvelle ligne - Windows (CR LF) ».</span><span class="sxs-lookup"><span data-stu-id="22a52-139">In the Special characters field, select 'New line - Windows (CR LF)'.</span></span>
-26. <span data-ttu-id="22a52-140">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="22a52-140">Click OK.</span></span>
-27. <span data-ttu-id="22a52-141">Dans l'arborescence, sélectionnez « Déclaration d'échanges de biens\Données\Totaux par bloc ».</span><span class="sxs-lookup"><span data-stu-id="22a52-141">In the tree, select 'Intrastat\Data\Totals by blocks'.</span></span>
-28. <span data-ttu-id="22a52-142">Cliquez sur Ajouter pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="22a52-142">Click Add to open the drop dialog.</span></span>
-29. <span data-ttu-id="22a52-143">Dans l'arborescence, sélectionnez « Texte\Chaîne ».</span><span class="sxs-lookup"><span data-stu-id="22a52-143">In the tree, select 'Text\String'.</span></span>
-30. <span data-ttu-id="22a52-144">Dans le champ Nom, tapez « Code du bloc ».</span><span class="sxs-lookup"><span data-stu-id="22a52-144">In the Name field, type 'Block code'.</span></span>
-    * <span data-ttu-id="22a52-145">Code du bloc</span><span class="sxs-lookup"><span data-stu-id="22a52-145">Block code</span></span>  
-31. <span data-ttu-id="22a52-146">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="22a52-146">Click OK.</span></span>
-32. <span data-ttu-id="22a52-147">Cliquez sur Ajouter une chaîne.</span><span class="sxs-lookup"><span data-stu-id="22a52-147">Click Add String.</span></span>
-33. <span data-ttu-id="22a52-148">Dans le champ Nom, tapez « Comptage des lignes ».</span><span class="sxs-lookup"><span data-stu-id="22a52-148">In the Name field, type 'Lines counting'.</span></span>
-    * <span data-ttu-id="22a52-149">Comptage des lignes</span><span class="sxs-lookup"><span data-stu-id="22a52-149">Lines counting</span></span>  
-34. <span data-ttu-id="22a52-150">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="22a52-150">Click OK.</span></span>
-35. <span data-ttu-id="22a52-151">Cliquez sur Ajouter une chaîne.</span><span class="sxs-lookup"><span data-stu-id="22a52-151">Click Add String.</span></span>
-36. <span data-ttu-id="22a52-152">Dans le champ Nom, tapez « Montant total ».</span><span class="sxs-lookup"><span data-stu-id="22a52-152">In the Name field, type 'Total amount'.</span></span>
-    * <span data-ttu-id="22a52-153">Montant total</span><span class="sxs-lookup"><span data-stu-id="22a52-153">Total amount</span></span>  
-37. <span data-ttu-id="22a52-154">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="22a52-154">Click OK.</span></span>
-38. <span data-ttu-id="22a52-155">Cliquez sur l'onglet Mise en relation.</span><span class="sxs-lookup"><span data-stu-id="22a52-155">Click the Mapping tab.</span></span>
-39. <span data-ttu-id="22a52-156">Dans l'arborescence, sélectionnez « $BlocksList ».</span><span class="sxs-lookup"><span data-stu-id="22a52-156">In the tree, select '$BlocksList'.</span></span>
-40. <span data-ttu-id="22a52-157">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="22a52-157">Click Bind.</span></span>
-    * <span data-ttu-id="22a52-158">Créez une ligne de synthèse pour chaque bloc mémorisé.</span><span class="sxs-lookup"><span data-stu-id="22a52-158">Create a summary line for each memorized block.</span></span>  
-41. <span data-ttu-id="22a52-159">Cliquez sur l'onglet Format.</span><span class="sxs-lookup"><span data-stu-id="22a52-159">Click the Format tab.</span></span>
-42. <span data-ttu-id="22a52-160">Dans l'arborescence, sélectionnez « Déclaration d'échanges de biens\Données\Totaux par bloc\Code du bloc ».</span><span class="sxs-lookup"><span data-stu-id="22a52-160">In the tree, select 'Intrastat\Data\Totals by blocks\Block code'.</span></span>
-43. <span data-ttu-id="22a52-161">Cliquez sur l'onglet Mise en relation.</span><span class="sxs-lookup"><span data-stu-id="22a52-161">Click the Mapping tab.</span></span>
-44. <span data-ttu-id="22a52-162">Cliquez sur Modifier la formule.</span><span class="sxs-lookup"><span data-stu-id="22a52-162">Click Edit formula.</span></span>
-45. <span data-ttu-id="22a52-163">Dans le champ Formule, entrez '"ID bloc : " & '.</span><span class="sxs-lookup"><span data-stu-id="22a52-163">In the Formula field, enter '"Block id: " & '.</span></span>
-    * <span data-ttu-id="22a52-164">"ID bloc : " &</span><span class="sxs-lookup"><span data-stu-id="22a52-164">"Block id: " &</span></span>  
-46. <span data-ttu-id="22a52-165">Dans l'arborescence, développez « $BlocksList ».</span><span class="sxs-lookup"><span data-stu-id="22a52-165">In the tree, expand '$BlocksList'.</span></span>
-47. <span data-ttu-id="22a52-166">Dans l'arborescence, sélectionnez « $BlocksList\Valeur ».</span><span class="sxs-lookup"><span data-stu-id="22a52-166">In the tree, select '$BlocksList\Value'.</span></span>
-48. <span data-ttu-id="22a52-167">Cliquez sur Ajouter une source de données.</span><span class="sxs-lookup"><span data-stu-id="22a52-167">Click Add data source.</span></span>
-49. <span data-ttu-id="22a52-168">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="22a52-168">Click Save.</span></span>
-50. <span data-ttu-id="22a52-169">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="22a52-169">Close the page.</span></span>
-51. <span data-ttu-id="22a52-170">Cliquez sur l'onglet Format.</span><span class="sxs-lookup"><span data-stu-id="22a52-170">Click the Format tab.</span></span>
-52. <span data-ttu-id="22a52-171">Dans l'arborescence, sélectionnez « Déclaration d'échanges de biens\Données\Totaux par bloc\Comptage des lignes ».</span><span class="sxs-lookup"><span data-stu-id="22a52-171">In the tree, select 'Intrastat\Data\Totals by blocks\Lines counting'.</span></span>
-53. <span data-ttu-id="22a52-172">Cliquez sur l'onglet Mise en relation.</span><span class="sxs-lookup"><span data-stu-id="22a52-172">Click the Mapping tab.</span></span>
-54. <span data-ttu-id="22a52-173">Cliquez sur Modifier la formule.</span><span class="sxs-lookup"><span data-stu-id="22a52-173">Click Edit formula.</span></span>
-    * <span data-ttu-id="22a52-174">Créez une sortie pour le nombre de lignes pour chaque bloc présenté dans cet état.</span><span class="sxs-lookup"><span data-stu-id="22a52-174">Create output for the number of lines for each block presented in this report.</span></span>  
-55. <span data-ttu-id="22a52-175">Dans le champ Formule, entrez '"Nombre de lignes dans ce bloc : " & '.</span><span class="sxs-lookup"><span data-stu-id="22a52-175">In the Formula field, enter '"Number of lines in this block: " & '.</span></span>
-    * <span data-ttu-id="22a52-176">"Nombre de lignes dans ce bloc : " &</span><span class="sxs-lookup"><span data-stu-id="22a52-176">"Number of lines in this block: " &</span></span>  
-56. <span data-ttu-id="22a52-177">Dans le champ Formule, entrez '"Nombre de lignes dans ce bloc : " & TEXT('.</span><span class="sxs-lookup"><span data-stu-id="22a52-177">In the Formula field, enter '"Number of lines in this block: " & TEXT('.</span></span>
-    * <span data-ttu-id="22a52-178">"Nombre de lignes dans ce bloc : " & TEXT(</span><span class="sxs-lookup"><span data-stu-id="22a52-178">"Number of lines in this block: " & TEXT(</span></span>  
-57. <span data-ttu-id="22a52-179">Dans l'arborescence, sélectionnez « Fonctions de collecte des données\COUNTIFS ».</span><span class="sxs-lookup"><span data-stu-id="22a52-179">In the tree, select 'Data collection functions\COUNTIFS'.</span></span>
-58. <span data-ttu-id="22a52-180">Cliquez sur Ajouter une fonction.</span><span class="sxs-lookup"><span data-stu-id="22a52-180">Click Add function.</span></span>
-59. <span data-ttu-id="22a52-181">Cliquez sur Ajouter une source de données.</span><span class="sxs-lookup"><span data-stu-id="22a52-181">Click Add data source.</span></span>
-60. <span data-ttu-id="22a52-182">Dans le champ Formule, entrez '"Nombre de lignes dans ce bloc: " & TEXT(COUNTIFS('$BlockName', '.</span><span class="sxs-lookup"><span data-stu-id="22a52-182">In the Formula field, enter '"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '.</span></span>
-    * <span data-ttu-id="22a52-183">"Nombre de lignes dans ce bloc: " & TEXT(COUNTIFS('$BlockName',</span><span class="sxs-lookup"><span data-stu-id="22a52-183">"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName',</span></span>  
-61. <span data-ttu-id="22a52-184">Dans l'arborescence, développez « $BlocksList ».</span><span class="sxs-lookup"><span data-stu-id="22a52-184">In the tree, expand '$BlocksList'.</span></span>
-62. <span data-ttu-id="22a52-185">Dans l'arborescence, sélectionnez « $BlocksList\Valeur ».</span><span class="sxs-lookup"><span data-stu-id="22a52-185">In the tree, select '$BlocksList\Value'.</span></span>
-63. <span data-ttu-id="22a52-186">Cliquez sur Ajouter une source de données.</span><span class="sxs-lookup"><span data-stu-id="22a52-186">Click Add data source.</span></span>
-64. <span data-ttu-id="22a52-187">Dans le champ Formule, entrez '"Nombre de lignes dans ce bloc: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '.</span><span class="sxs-lookup"><span data-stu-id="22a52-187">In the Formula field, enter '"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '.</span></span>
-    * <span data-ttu-id="22a52-188">"Nombre de lignes dans ce bloc: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value,</span><span class="sxs-lookup"><span data-stu-id="22a52-188">"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value,</span></span>  
-65. <span data-ttu-id="22a52-189">Dans l'arborescence, sélectionnez « RecName ».</span><span class="sxs-lookup"><span data-stu-id="22a52-189">In the tree, select '$RecName'.</span></span>
-66. <span data-ttu-id="22a52-190">Cliquez sur Ajouter une source de données.</span><span class="sxs-lookup"><span data-stu-id="22a52-190">Click Add data source.</span></span>
-67. <span data-ttu-id="22a52-191">Dans le champ Formule, entrez '"Nombre de lignes dans ce bloc: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '$RecName', "\*"))'.</span><span class="sxs-lookup"><span data-stu-id="22a52-191">In the Formula field, enter '"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '$RecName', "\*"))'.</span></span>
-    * <span data-ttu-id="22a52-192">"Nombre de lignes dans ce bloc: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '$RecName', "\*"))</span><span class="sxs-lookup"><span data-stu-id="22a52-192">"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '$RecName', "\*"))</span></span>  
-68. <span data-ttu-id="22a52-193">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="22a52-193">Click Save.</span></span>
-69. <span data-ttu-id="22a52-194">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="22a52-194">Close the page.</span></span>
-70. <span data-ttu-id="22a52-195">Cliquez sur l'onglet Format.</span><span class="sxs-lookup"><span data-stu-id="22a52-195">Click the Format tab.</span></span>
-71. <span data-ttu-id="22a52-196">Dans l'arborescence, sélectionnez « Déclaration d'échanges de biens\Données\Totaux par bloc\Montant total ».</span><span class="sxs-lookup"><span data-stu-id="22a52-196">In the tree, select 'Intrastat\Data\Totals by blocks\Total amount'.</span></span>
-72. <span data-ttu-id="22a52-197">Cliquez sur l'onglet Mise en relation.</span><span class="sxs-lookup"><span data-stu-id="22a52-197">Click the Mapping tab.</span></span>
-73. <span data-ttu-id="22a52-198">Cliquez sur Modifier la formule.</span><span class="sxs-lookup"><span data-stu-id="22a52-198">Click Edit formula.</span></span>
-    * <span data-ttu-id="22a52-199">Créez une sortie qui est égale au total du montant facturé pour chaque bloc présenté dans cet état.</span><span class="sxs-lookup"><span data-stu-id="22a52-199">Create output that will be the total of the invoiced amount for each block presented in this report.</span></span>  
-74. <span data-ttu-id="22a52-200">Dans le champ Formule, entrez '"Somme du montant facturé : " & TEXT(SUMIFS('$InvName', '$BlockName', '$BlocksList'.Value, '$RecName', "\*"))'.</span><span class="sxs-lookup"><span data-stu-id="22a52-200">In the Formula field, enter '"Sum of invoiced amount: " & TEXT(SUMIFS('$InvName', '$BlockName', '$BlocksList'.Value, '$RecName', "\*"))'.</span></span>
-    * <span data-ttu-id="22a52-201">"Somme du montant facturé : " & TEXT(SUMIFS('$InvName', '$BlockName', '$BlocksList'.Value, '$RecName', "\*"))</span><span class="sxs-lookup"><span data-stu-id="22a52-201">"Sum of invoiced amount: " & TEXT(SUMIFS('$InvName', '$BlockName', '$BlocksList'.Value, '$RecName', "\*"))</span></span>  
-75. <span data-ttu-id="22a52-202">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="22a52-202">Click Save.</span></span>
-76. <span data-ttu-id="22a52-203">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="22a52-203">Close the page.</span></span>
-77. <span data-ttu-id="22a52-204">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="22a52-204">Click Save.</span></span>
-78. <span data-ttu-id="22a52-205">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="22a52-205">Close the page.</span></span>
+## <a name="configure-this-report-to-use-counting-and-summing-info"></a><span data-ttu-id="ba56f-108">Configurer cet état pour utiliser les informations de comptage et de synthèse</span><span class="sxs-lookup"><span data-stu-id="ba56f-108">Configure this report to use counting and summing info</span></span>
+1. <span data-ttu-id="ba56f-109">Accédez à Administration d'organisation > Espaces de travail > États électroniques.</span><span class="sxs-lookup"><span data-stu-id="ba56f-109">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+2. <span data-ttu-id="ba56f-110">Cliquez sur Configurations des états.</span><span class="sxs-lookup"><span data-stu-id="ba56f-110">Click Reporting configurations.</span></span>
+3. <span data-ttu-id="ba56f-111">Dans l'arborescence, développez « Modèle de déclaration d'échanges de biens ».</span><span class="sxs-lookup"><span data-stu-id="ba56f-111">In the tree, expand 'Intrastat model'.</span></span>
+4. <span data-ttu-id="ba56f-112">Dans l'arborescence, développez « Modèle de déclaration d'échanges de biens\Déclaration d'échanges de biens (Allemagne) ».</span><span class="sxs-lookup"><span data-stu-id="ba56f-112">In the tree, expand 'Intrastat model\Intrastat (DE)'.</span></span>
+5. <span data-ttu-id="ba56f-113">Dans l'arborescence, sélectionnez « Modèle de déclaration d'échanges de biens\Déclaration d'échanges de biens (Allemagne)\Déclaration d'échanges de biens (Allemagne) avec comptage et synthèse ».</span><span class="sxs-lookup"><span data-stu-id="ba56f-113">In the tree, select 'Intrastat model\Intrastat (DE)\Intrastat (DE) with counting & summing'.</span></span>
+6. <span data-ttu-id="ba56f-114">Cliquez sur Concepteur.</span><span class="sxs-lookup"><span data-stu-id="ba56f-114">Click Designer.</span></span>
+7. <span data-ttu-id="ba56f-115">Cliquez sur l'onglet Mise en relation.</span><span class="sxs-lookup"><span data-stu-id="ba56f-115">Click the Mapping tab.</span></span>
+8. <span data-ttu-id="ba56f-116">Cliquez sur Ajouter racine pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="ba56f-116">Click Add root to open the drop dialog.</span></span>
+    * <span data-ttu-id="ba56f-117">Ajoutez une nouvelle source de données pour obtenir la liste des blocs mémorisés.</span><span class="sxs-lookup"><span data-stu-id="ba56f-117">Add a new data source to get the list of memorized blocks.</span></span>  
+9. <span data-ttu-id="ba56f-118">Dans l'arborescence, sélectionnez « Fonctions\Champ calculé ».</span><span class="sxs-lookup"><span data-stu-id="ba56f-118">In the tree, select 'Functions\Calculated field'.</span></span>
+10. <span data-ttu-id="ba56f-119">Dans le champ Nom, tapez « $BlocksList ».</span><span class="sxs-lookup"><span data-stu-id="ba56f-119">In the Name field, type '$BlocksList'.</span></span>
+    * <span data-ttu-id="ba56f-120">$BlocksList</span><span class="sxs-lookup"><span data-stu-id="ba56f-120">$BlocksList</span></span>  
+11. <span data-ttu-id="ba56f-121">Cliquez sur Modifier la formule.</span><span class="sxs-lookup"><span data-stu-id="ba56f-121">Click Edit formula.</span></span>
+12. <span data-ttu-id="ba56f-122">Dans l'arborescence, sélectionnez « Fonctions de collecte des données\COLLECTEDLIST ».</span><span class="sxs-lookup"><span data-stu-id="ba56f-122">In the tree, select 'Data collection functions\COLLECTEDLIST'.</span></span>
+13. <span data-ttu-id="ba56f-123">Cliquez sur Ajouter une fonction.</span><span class="sxs-lookup"><span data-stu-id="ba56f-123">Click Add function.</span></span>
+14. <span data-ttu-id="ba56f-124">Cliquez sur Ajouter une source de données.</span><span class="sxs-lookup"><span data-stu-id="ba56f-124">Click Add data source.</span></span>
+15. <span data-ttu-id="ba56f-125">Dans le champ Formule, entrez 'COLLECTEDLIST('$BlockName', '.</span><span class="sxs-lookup"><span data-stu-id="ba56f-125">In the Formula field, enter 'COLLECTEDLIST('$BlockName', '.</span></span>
+    * <span data-ttu-id="ba56f-126">COLLECTEDLIST('$BlockName',</span><span class="sxs-lookup"><span data-stu-id="ba56f-126">COLLECTEDLIST('$BlockName',</span></span>  
+16. <span data-ttu-id="ba56f-127">Dans le champ Formule, entrez 'COLLECTEDLIST('$BlockName', "\*")'.</span><span class="sxs-lookup"><span data-stu-id="ba56f-127">In the Formula field, enter 'COLLECTEDLIST('$BlockName', "\*")'.</span></span>
+    * <span data-ttu-id="ba56f-128">COLLECTEDLIST('$BlockName', "\*")</span><span class="sxs-lookup"><span data-stu-id="ba56f-128">COLLECTEDLIST('$BlockName', "\*")</span></span>  
+17. <span data-ttu-id="ba56f-129">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="ba56f-129">Click Save.</span></span>
+    * <span data-ttu-id="ba56f-130">Le modèle « \* » signifie que tous les blocs sont inclus dans la liste pour cet enregistrement.</span><span class="sxs-lookup"><span data-stu-id="ba56f-130">The pattern “\*” means that all blocks will be included to the list for this record.</span></span>  
+18. <span data-ttu-id="ba56f-131">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="ba56f-131">Close the page.</span></span>
+19. <span data-ttu-id="ba56f-132">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="ba56f-132">Click OK.</span></span>
+20. <span data-ttu-id="ba56f-133">Cliquez sur l'onglet Format.</span><span class="sxs-lookup"><span data-stu-id="ba56f-133">Click the Format tab.</span></span>
+21. <span data-ttu-id="ba56f-134">Dans l'arborescence, sélectionnez « Déclaration d'échanges de biens\Données ».</span><span class="sxs-lookup"><span data-stu-id="ba56f-134">In the tree, select 'Intrastat\Data'.</span></span>
+22. <span data-ttu-id="ba56f-135">Cliquez sur Ajouter pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="ba56f-135">Click Add to open the drop dialog.</span></span>
+23. <span data-ttu-id="ba56f-136">Dans l'arborescence, sélectionnez « Texte\Souche ».</span><span class="sxs-lookup"><span data-stu-id="ba56f-136">In the tree, select 'Text\Sequence'.</span></span>
+24. <span data-ttu-id="ba56f-137">Dans le champ Nom, tapez « Totaux par bloc ».</span><span class="sxs-lookup"><span data-stu-id="ba56f-137">In the Name field, type 'Totals by blocks'.</span></span>
+    * <span data-ttu-id="ba56f-138">Totaux par bloc</span><span class="sxs-lookup"><span data-stu-id="ba56f-138">Totals by blocks</span></span>  
+25. <span data-ttu-id="ba56f-139">Dans le champ Caractères spéciaux, sélectionnez « Nouvelle ligne - Windows (CR LF) ».</span><span class="sxs-lookup"><span data-stu-id="ba56f-139">In the Special characters field, select 'New line - Windows (CR LF)'.</span></span>
+26. <span data-ttu-id="ba56f-140">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="ba56f-140">Click OK.</span></span>
+27. <span data-ttu-id="ba56f-141">Dans l'arborescence, sélectionnez « Déclaration d'échanges de biens\Données\Totaux par bloc ».</span><span class="sxs-lookup"><span data-stu-id="ba56f-141">In the tree, select 'Intrastat\Data\Totals by blocks'.</span></span>
+28. <span data-ttu-id="ba56f-142">Cliquez sur Ajouter pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="ba56f-142">Click Add to open the drop dialog.</span></span>
+29. <span data-ttu-id="ba56f-143">Dans l'arborescence, sélectionnez « Texte\Chaîne ».</span><span class="sxs-lookup"><span data-stu-id="ba56f-143">In the tree, select 'Text\String'.</span></span>
+30. <span data-ttu-id="ba56f-144">Dans le champ Nom, tapez « Code du bloc ».</span><span class="sxs-lookup"><span data-stu-id="ba56f-144">In the Name field, type 'Block code'.</span></span>
+    * <span data-ttu-id="ba56f-145">Code du bloc</span><span class="sxs-lookup"><span data-stu-id="ba56f-145">Block code</span></span>  
+31. <span data-ttu-id="ba56f-146">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="ba56f-146">Click OK.</span></span>
+32. <span data-ttu-id="ba56f-147">Cliquez sur Ajouter une chaîne.</span><span class="sxs-lookup"><span data-stu-id="ba56f-147">Click Add String.</span></span>
+33. <span data-ttu-id="ba56f-148">Dans le champ Nom, tapez « Comptage des lignes ».</span><span class="sxs-lookup"><span data-stu-id="ba56f-148">In the Name field, type 'Lines counting'.</span></span>
+    * <span data-ttu-id="ba56f-149">Comptage des lignes</span><span class="sxs-lookup"><span data-stu-id="ba56f-149">Lines counting</span></span>  
+34. <span data-ttu-id="ba56f-150">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="ba56f-150">Click OK.</span></span>
+35. <span data-ttu-id="ba56f-151">Cliquez sur Ajouter une chaîne.</span><span class="sxs-lookup"><span data-stu-id="ba56f-151">Click Add String.</span></span>
+36. <span data-ttu-id="ba56f-152">Dans le champ Nom, tapez « Montant total ».</span><span class="sxs-lookup"><span data-stu-id="ba56f-152">In the Name field, type 'Total amount'.</span></span>
+    * <span data-ttu-id="ba56f-153">Montant total</span><span class="sxs-lookup"><span data-stu-id="ba56f-153">Total amount</span></span>  
+37. <span data-ttu-id="ba56f-154">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="ba56f-154">Click OK.</span></span>
+38. <span data-ttu-id="ba56f-155">Cliquez sur l'onglet Mise en relation.</span><span class="sxs-lookup"><span data-stu-id="ba56f-155">Click the Mapping tab.</span></span>
+39. <span data-ttu-id="ba56f-156">Dans l'arborescence, sélectionnez « $BlocksList ».</span><span class="sxs-lookup"><span data-stu-id="ba56f-156">In the tree, select '$BlocksList'.</span></span>
+40. <span data-ttu-id="ba56f-157">Cliquez sur Lier.</span><span class="sxs-lookup"><span data-stu-id="ba56f-157">Click Bind.</span></span>
+    * <span data-ttu-id="ba56f-158">Créez une ligne de synthèse pour chaque bloc mémorisé.</span><span class="sxs-lookup"><span data-stu-id="ba56f-158">Create a summary line for each memorized block.</span></span>  
+41. <span data-ttu-id="ba56f-159">Cliquez sur l'onglet Format.</span><span class="sxs-lookup"><span data-stu-id="ba56f-159">Click the Format tab.</span></span>
+42. <span data-ttu-id="ba56f-160">Dans l'arborescence, sélectionnez « Déclaration d'échanges de biens\Données\Totaux par bloc\Code du bloc ».</span><span class="sxs-lookup"><span data-stu-id="ba56f-160">In the tree, select 'Intrastat\Data\Totals by blocks\Block code'.</span></span>
+43. <span data-ttu-id="ba56f-161">Cliquez sur l'onglet Mise en relation.</span><span class="sxs-lookup"><span data-stu-id="ba56f-161">Click the Mapping tab.</span></span>
+44. <span data-ttu-id="ba56f-162">Cliquez sur Modifier la formule.</span><span class="sxs-lookup"><span data-stu-id="ba56f-162">Click Edit formula.</span></span>
+45. <span data-ttu-id="ba56f-163">Dans le champ Formule, entrez '"ID bloc : " & '.</span><span class="sxs-lookup"><span data-stu-id="ba56f-163">In the Formula field, enter '"Block id: " & '.</span></span>
+    * <span data-ttu-id="ba56f-164">"ID bloc : " &</span><span class="sxs-lookup"><span data-stu-id="ba56f-164">"Block id: " &</span></span>  
+46. <span data-ttu-id="ba56f-165">Dans l'arborescence, développez « $BlocksList ».</span><span class="sxs-lookup"><span data-stu-id="ba56f-165">In the tree, expand '$BlocksList'.</span></span>
+47. <span data-ttu-id="ba56f-166">Dans l'arborescence, sélectionnez « $BlocksList\Valeur ».</span><span class="sxs-lookup"><span data-stu-id="ba56f-166">In the tree, select '$BlocksList\Value'.</span></span>
+48. <span data-ttu-id="ba56f-167">Cliquez sur Ajouter une source de données.</span><span class="sxs-lookup"><span data-stu-id="ba56f-167">Click Add data source.</span></span>
+49. <span data-ttu-id="ba56f-168">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="ba56f-168">Click Save.</span></span>
+50. <span data-ttu-id="ba56f-169">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="ba56f-169">Close the page.</span></span>
+51. <span data-ttu-id="ba56f-170">Cliquez sur l'onglet Format.</span><span class="sxs-lookup"><span data-stu-id="ba56f-170">Click the Format tab.</span></span>
+52. <span data-ttu-id="ba56f-171">Dans l'arborescence, sélectionnez « Déclaration d'échanges de biens\Données\Totaux par bloc\Comptage des lignes ».</span><span class="sxs-lookup"><span data-stu-id="ba56f-171">In the tree, select 'Intrastat\Data\Totals by blocks\Lines counting'.</span></span>
+53. <span data-ttu-id="ba56f-172">Cliquez sur l'onglet Mise en relation.</span><span class="sxs-lookup"><span data-stu-id="ba56f-172">Click the Mapping tab.</span></span>
+54. <span data-ttu-id="ba56f-173">Cliquez sur Modifier la formule.</span><span class="sxs-lookup"><span data-stu-id="ba56f-173">Click Edit formula.</span></span>
+    * <span data-ttu-id="ba56f-174">Créez une sortie pour le nombre de lignes pour chaque bloc présenté dans cet état.</span><span class="sxs-lookup"><span data-stu-id="ba56f-174">Create output for the number of lines for each block presented in this report.</span></span>  
+55. <span data-ttu-id="ba56f-175">Dans le champ Formule, entrez '"Nombre de lignes dans ce bloc : " & '.</span><span class="sxs-lookup"><span data-stu-id="ba56f-175">In the Formula field, enter '"Number of lines in this block: " & '.</span></span>
+    * <span data-ttu-id="ba56f-176">"Nombre de lignes dans ce bloc : " &</span><span class="sxs-lookup"><span data-stu-id="ba56f-176">"Number of lines in this block: " &</span></span>  
+56. <span data-ttu-id="ba56f-177">Dans le champ Formule, entrez '"Nombre de lignes dans ce bloc : " & TEXT('.</span><span class="sxs-lookup"><span data-stu-id="ba56f-177">In the Formula field, enter '"Number of lines in this block: " & TEXT('.</span></span>
+    * <span data-ttu-id="ba56f-178">"Nombre de lignes dans ce bloc : " & TEXT(</span><span class="sxs-lookup"><span data-stu-id="ba56f-178">"Number of lines in this block: " & TEXT(</span></span>  
+57. <span data-ttu-id="ba56f-179">Dans l'arborescence, sélectionnez « Fonctions de collecte des données\COUNTIFS ».</span><span class="sxs-lookup"><span data-stu-id="ba56f-179">In the tree, select 'Data collection functions\COUNTIFS'.</span></span>
+58. <span data-ttu-id="ba56f-180">Cliquez sur Ajouter une fonction.</span><span class="sxs-lookup"><span data-stu-id="ba56f-180">Click Add function.</span></span>
+59. <span data-ttu-id="ba56f-181">Cliquez sur Ajouter une source de données.</span><span class="sxs-lookup"><span data-stu-id="ba56f-181">Click Add data source.</span></span>
+60. <span data-ttu-id="ba56f-182">Dans le champ Formule, entrez '"Nombre de lignes dans ce bloc: " & TEXT(COUNTIFS('$BlockName', '.</span><span class="sxs-lookup"><span data-stu-id="ba56f-182">In the Formula field, enter '"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '.</span></span>
+    * <span data-ttu-id="ba56f-183">"Nombre de lignes dans ce bloc: " & TEXT(COUNTIFS('$BlockName',</span><span class="sxs-lookup"><span data-stu-id="ba56f-183">"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName',</span></span>  
+61. <span data-ttu-id="ba56f-184">Dans l'arborescence, développez « $BlocksList ».</span><span class="sxs-lookup"><span data-stu-id="ba56f-184">In the tree, expand '$BlocksList'.</span></span>
+62. <span data-ttu-id="ba56f-185">Dans l'arborescence, sélectionnez « $BlocksList\Valeur ».</span><span class="sxs-lookup"><span data-stu-id="ba56f-185">In the tree, select '$BlocksList\Value'.</span></span>
+63. <span data-ttu-id="ba56f-186">Cliquez sur Ajouter une source de données.</span><span class="sxs-lookup"><span data-stu-id="ba56f-186">Click Add data source.</span></span>
+64. <span data-ttu-id="ba56f-187">Dans le champ Formule, entrez '"Nombre de lignes dans ce bloc: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '.</span><span class="sxs-lookup"><span data-stu-id="ba56f-187">In the Formula field, enter '"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '.</span></span>
+    * <span data-ttu-id="ba56f-188">"Nombre de lignes dans ce bloc: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value,</span><span class="sxs-lookup"><span data-stu-id="ba56f-188">"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value,</span></span>  
+65. <span data-ttu-id="ba56f-189">Dans l'arborescence, sélectionnez « RecName ».</span><span class="sxs-lookup"><span data-stu-id="ba56f-189">In the tree, select '$RecName'.</span></span>
+66. <span data-ttu-id="ba56f-190">Cliquez sur Ajouter une source de données.</span><span class="sxs-lookup"><span data-stu-id="ba56f-190">Click Add data source.</span></span>
+67. <span data-ttu-id="ba56f-191">Dans le champ Formule, entrez '"Nombre de lignes dans ce bloc: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '$RecName', "\*"))'.</span><span class="sxs-lookup"><span data-stu-id="ba56f-191">In the Formula field, enter '"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '$RecName', "\*"))'.</span></span>
+    * <span data-ttu-id="ba56f-192">"Nombre de lignes dans ce bloc: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '$RecName', "\*"))</span><span class="sxs-lookup"><span data-stu-id="ba56f-192">"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '$RecName', "\*"))</span></span>  
+68. <span data-ttu-id="ba56f-193">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="ba56f-193">Click Save.</span></span>
+69. <span data-ttu-id="ba56f-194">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="ba56f-194">Close the page.</span></span>
+70. <span data-ttu-id="ba56f-195">Cliquez sur l'onglet Format.</span><span class="sxs-lookup"><span data-stu-id="ba56f-195">Click the Format tab.</span></span>
+71. <span data-ttu-id="ba56f-196">Dans l'arborescence, sélectionnez « Déclaration d'échanges de biens\Données\Totaux par bloc\Montant total ».</span><span class="sxs-lookup"><span data-stu-id="ba56f-196">In the tree, select 'Intrastat\Data\Totals by blocks\Total amount'.</span></span>
+72. <span data-ttu-id="ba56f-197">Cliquez sur l'onglet Mise en relation.</span><span class="sxs-lookup"><span data-stu-id="ba56f-197">Click the Mapping tab.</span></span>
+73. <span data-ttu-id="ba56f-198">Cliquez sur Modifier la formule.</span><span class="sxs-lookup"><span data-stu-id="ba56f-198">Click Edit formula.</span></span>
+    * <span data-ttu-id="ba56f-199">Créez une sortie qui est égale au total du montant facturé pour chaque bloc présenté dans cet état.</span><span class="sxs-lookup"><span data-stu-id="ba56f-199">Create output that will be the total of the invoiced amount for each block presented in this report.</span></span>  
+74. <span data-ttu-id="ba56f-200">Dans le champ Formule, entrez '"Somme du montant facturé : " & TEXT(SUMIFS('$InvName', '$BlockName', '$BlocksList'.Value, '$RecName', "\*"))'.</span><span class="sxs-lookup"><span data-stu-id="ba56f-200">In the Formula field, enter '"Sum of invoiced amount: " & TEXT(SUMIFS('$InvName', '$BlockName', '$BlocksList'.Value, '$RecName', "\*"))'.</span></span>
+    * <span data-ttu-id="ba56f-201">"Somme du montant facturé : " & TEXT(SUMIFS('$InvName', '$BlockName', '$BlocksList'.Value, '$RecName', "\*"))</span><span class="sxs-lookup"><span data-stu-id="ba56f-201">"Sum of invoiced amount: " & TEXT(SUMIFS('$InvName', '$BlockName', '$BlocksList'.Value, '$RecName', "\*"))</span></span>  
+75. <span data-ttu-id="ba56f-202">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="ba56f-202">Click Save.</span></span>
+76. <span data-ttu-id="ba56f-203">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="ba56f-203">Close the page.</span></span>
+77. <span data-ttu-id="ba56f-204">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="ba56f-204">Click Save.</span></span>
+78. <span data-ttu-id="ba56f-205">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="ba56f-205">Close the page.</span></span>
 
 
