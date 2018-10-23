@@ -1,28 +1,29 @@
 --- 
-title: "Approuver et valider la création des lettres de change client (France)"
+title: "FR-00004 Approuver et valider la création des lettres de change client"
 description: "Cette procédure vous guide dans l'approbation et la validation des lettres de change."
 author: EvgenyPopovMBS
 manager: AnnBe
-ms.date: 03/02/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerJournalTable, LedgerJournalTransCustBillOfExchange, CustBillOfExchangeJour
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: dbf8c9603fa620fc6c75d5b6c3fd143798b7f9ad
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 6e0d81a0dfd869345f2556f8425c722f66ee8770
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="approve-and-post-draw-bill-of-exchange-france"></a>Approuver et valider la création des lettres de change client (France)
+# <a name="fr-00004-approve-and-post-draw-bill-of-exchange"></a>FR-00004 Approuver et valider la création des lettres de change client
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

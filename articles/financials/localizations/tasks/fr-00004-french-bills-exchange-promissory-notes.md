@@ -1,28 +1,29 @@
 --- 
-title: "Lettres de change et billets à ordre français (France)"
+title: "FR-00004 Effets de commerce et billets à ordre français"
 description: "L'état de remise de lettre de change française affiche les détails sur les lettres de change renvoyées."
 author: EvgenyPopovMBS
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CustPaymMode, CustVendPaymFormat
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 13b9f49364ec99af6c6a8d11106499380044bd0d
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 31caed0c1eb94992a2c1dae50ccfbdaa9f8f8196
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="french-bills-of-exchange-and-promissory-notes-france"></a>Lettres de change et billets à ordre français (France)
+# <a name="fr-00004-french-bills-of-exchange-and-promissory-notes"></a>FR-00004 Effets de commerce et billets à ordre français
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

@@ -7,9 +7,9 @@
 - name: Données de démonstration
   href: ../fin-and-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json
   items:
-    - name: Générer des données de démonstration à l'aide de packages de démonstration
+    - name: Générer des données de démonstration à l'aide de packages de données
       href: data-entities/generate-demo-data-packages.md
-- name: Développement et personnalisation à l'aide de Visual Studio
+- name: Développer et personnaliser
   href: dev-tools/developer-home-page.md
   items:
     - name: Applications et architecture de serveur
@@ -27,7 +27,7 @@
           href: dev-tools/enable-development-machine.md
         - name: FAQ sur les ordinateurs virtuels de développement et de version n'accordant pas l'accès à un administrateur
           href: sysadmin/VMs-no-admin-access.md
-        - name: Renommer des environnements locaux pour accéder à Visual Studio Team Services
+        - name: Renommer les environnements locaux pour accéder à Azure DevOps
           href: migration-upgrade/vso-machine-renaming.md
         - name: Configuration requise pour le développement
           href: dev-tools/development-system-requirements.md
@@ -106,6 +106,8 @@
               href: dev-ref/xpp-variables-data-types.md
             - name: 'Instructions, boucles et gestion des exceptions X++'
               href: dev-ref/xpp-statements-loops.md
+            - name: Exception X++ des erreurs de connexion SQL
+              href: dev-ref/sql-connection-error.md
             - name: Opérateurs X++
               href: dev-ref/xpp-operators.md
             - name: Priorité des opérateurs X++
@@ -251,6 +253,10 @@
               href: extensibility/extensibility-changes-802.md
             - name: "Modifications de l'extensibilité (version\_8.0.3)"
               href: extensibility/extensibility-changes-803.md
+            - name: "Modifications de l'extensibilité (version\_8.0.4)"
+              href: extensibility/extensibility-changes-804.md
+            - name: "Modifications de l'extensibilité (version\_8.1)"
+              href: extensibility/extensibility-changes-81.md
         - name: Principes fondamentaux
           items:
             - name: Personnalisations intrusives
@@ -914,8 +920,10 @@
           href: gdpr/gdpr-ax2012.md
         - name: Demandes de données de RGPD pour LCS
           href: gdpr/gdpr-lcs.md
-    - name: Espace de travail Liste de contrôle de contrôle des données
+    - name: Espace de travail Liste de contrôle de validation des données
       href: user-interface/data-validation-workspace.md
+    - name: Descriptions des erreurs de gestion des données
+      href: data-entities/dm-error-descriptions.md
 - name: Livraison continue
   href: dev-tools/continuous-delivery-home-page.md
   items:
@@ -1109,12 +1117,27 @@
               href: migration-upgrade/migrate-upgraded-cube-entity-store.md
             - name: Mettre à niveau la planification budgétaire
               href: migration-upgrade/upgrade-budget-planning.md
+    - name: Migrer des données d'AX 2009 vers Finance and Operations
+      href: migration-upgrade/data-migration-tool.md
+      items:
+        - name: "Migration d'AX\_2009 - Installer l'outil de migration des données"
+          href: migration-upgrade/install-dmt.md
+        - name: "Migration d'AX\_2009 - Générer des cartes"
+          href: migration-upgrade/generate-maps.md
+        - name: "Migration d'AX\_2009 - Créer des modèles"
+          href: migration-upgrade/create-package-templates-dmt.md
+        - name: "Migration d'AX\_2009 - Créer des groupes de migration"
+          href: migration-upgrade/create-definition.md
+        - name: "Migration d'AX\_2009 - Exporter des packages"
+          href: migration-upgrade/ax2009-upgrade-export-package.md
+        - name: "Migration d'AX\_2009 - Importer des packages"
+          href: migration-upgrade/ax2009-upgrade-import-package.md
     - name: Migration et mise à niveau de code
       href: migration-upgrade/code-migration-home-page.md
       items:
         - name: Préparer la migration du code
           href: migration-upgrade/prepare-migration.md
-        - name: Configurer la mise en correspondance Visual Studio Team Services
+        - name: Configurer la mise en correspondance d'Azure DevOps
           href: migration-upgrade/configure-vso-solution.md
         - name: Modèle fractionné
           href: dev-tools/model-split.md
@@ -1124,6 +1147,8 @@
       items:
         - name: Processus de déplacement vers la dernière mise à jour
           href: migration-upgrade/upgrade-latest-update.md
+        - name: "Mettre à jour les environnements de la version\_8.0 vers la version 8.1"
+          href: migration-upgrade/appupdate-80-81.md
         - name: Stratégie du cycle de vie de logiciel et versions de cloud
           href: migration-upgrade/versions-update-policy.md
         - name: Appliquer la dernière mise à jour de plateforme aux environnements
@@ -1248,7 +1273,7 @@
       href: lifecycle-services/complete-tasks-bpm.md
     - name: Utiliser des diagrammes d'activités dans les bibliothèques BPM
       href: lifecycle-services/using-activity-diagrams.md
-    - name: Synchroniser des bibliothèques BPM avec Visual Studio Team Services
+    - name: Synchroniser les bibliothèques BPM avec Azure DevOps
       href: lifecycle-services/synchronize-bpm-vsts.md
     - name: Créer des bibliothèques de test d'acceptation utilisateur à l'aide de guides de tâche et de BPM
       href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
@@ -1266,6 +1291,10 @@
       href: lifecycle-services/user-logins.md
     - name: Bibliothèque d'actifs
       href: lifecycle-services/asset-library.md
+    - name: Résolution des problèmes de performances à l'aide des outils dans LCS
+      href: lifecycle-services/performancetroubleshooting.md
+    - name: Livre de recettes pour les requêtes
+      href: lifecycle-services/querycookbook.md
     - name: Microsoft Dynamics 365 Translation Service
       href: lifecycle-services/translation-service-overview.md
       items:

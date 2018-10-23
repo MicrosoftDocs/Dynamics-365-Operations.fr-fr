@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: c9772d45cf9d9941dd8fe0de13ce624ea3aa3b53
+ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
+ms.openlocfilehash: 3f2b34cccfd84a9e4bb76e7a1da64e5cefa9982e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 09/27/2018
 
 ---
 
@@ -37,12 +37,9 @@ Vous pouvez renommer des dossiers, des états, des blocs élémentaires, ainsi q
 ## <a name="rename-a-folder-or-building-block-in-report-designer"></a>Renommer un dossier ou un bloc élémentaire dans Report Designer
 Dans le Concepteur de rapports, vous pouvez renommer des dossiers, des définitions de rapport, des définitions de ligne, des définitions de colonne et des définitions d'organigramme d'entreprise.
 
-> [!NOTE]
-> Lorsque vous renommez un bloc élémentaire, vous devez mettre à jour toutes les définitions d'état qui utilisent le bloc élémentaire. Sinon, aucun nouvel état ne peut être généré.
+### <a name="rename-a-folder-or-building-block-in-report-designer"></a>Attribution d'un nouveau nom à un dossier ou à un bloc élémentaire dans le Concepteur de rapports
 
-### <a name="rename-a-folder-or-building-block-in-report-designer"></a>Renommer un dossier ou un bloc élémentaire dans Report Designer
-
-1. Dans Report Designer, utilisez le volet de navigation pour rechercher le dossier ou l'objet à renommer.
+1. Dans le Concepteur de rapports, utilisez le volet de navigation pour localiser le dossier ou l'objet à renommer.
 2. Cliquez avec le bouton droit sur le dossier ou l'objet, puis cliquez sur **Renommer**. Le champ **Nom** dans le volet de navigation devient disponible.
 3. Entrez un nouveau nom, puis appuyez sur Entrer.
 4. Si le bloc élémentaire est une définition de ligne, une définition de colonne, ou une définition d'arborescence de génération d'états, vous devez mettre à jour d'autres blocs élémentaires associés à lui. Cliquez avec le bouton droit sur le bloc élémentaire que vous avez renommé à l'étape 3, sélectionnez **Associations**, puis sélectionnez un article dans la liste pour le mettre à jour.

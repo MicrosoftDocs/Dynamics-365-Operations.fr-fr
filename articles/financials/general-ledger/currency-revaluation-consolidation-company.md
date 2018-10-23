@@ -3,7 +3,7 @@ title: "Réévaluer une devise dans une société de consolidation"
 description: "Cette rubrique décrit la procédure de réévaluation de la devise dans une société de consolidation."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: hminzner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b4c91399e96c54f7cf9968a15e3fff90c3a71ca6
+ms.sourcegitcommit: ad0083018d2734cb1e36cbf5f94105376c57cdf9
+ms.openlocfilehash: 76290564037ab6f5c7a1cd4508a819bd603e8148
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/02/2018
 
 ---
 
@@ -35,7 +35,7 @@ Lorsque vous consolidez des données d'une devise comptable vers une autre, vous
 ## <a name="company-setup"></a>Paramétrage de la société
 -   **Source/société d'exploitation (USMF)**  : Les dollars US (USD) sont utilisés comme devise comptable et devise de reporting.
 -   **Société consolidée (CON)** : Les Euros (EUR) sont utilisés comme devise comptable et devise de reporting.
-    -   **Profit réalisé** : Compte général 801500
+    -   **Profit réalisé** : Compte général 801500
     -   **Perte réalisée** : Compte général 801600
     -   **Profit non réalisé** : Compte général 801600
     -   **Perte non réalisée** : Compte général 801400

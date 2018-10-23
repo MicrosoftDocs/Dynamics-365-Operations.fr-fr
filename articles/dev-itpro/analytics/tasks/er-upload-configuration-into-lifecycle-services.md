@@ -1,28 +1,29 @@
 --- 
-title: "Charger des configurations pour la gestion des états électroniques dans Lifecycle Services"
+title: ER Charger une configuration dans Lifecycle Services
 description: "Les étapes suivantes expliquent comment un utilisateur ayant le rôle d'administrateur système ou de développeur d'états électroniques peut créer une configuration pour la génération d'états électronique (ER) et la charger dans Microsoft Lifecycle Services (LCS)."
 author: NickSelin
 manager: AnnBe
-ms.date: 05/13/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, ERDataModelDesigner, ERDataModelContentsItemCreationDialog, ERSolutionRepositoryTable, ERSolutionRepositoryCreateDropDialog, ERSolutionImport
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 6aa6bf7e08285d18210741ba6618878955009280
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 19ae8820e5d4a798a5789e9632edb431fe9fede4
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="upload-electronic-reporting-configurations-into-lifecycle-services"></a>Charger des configurations pour la gestion des états électroniques dans Lifecycle Services
+# <a name="er-upload-a-configuration-into-lifecycle-services"></a>ER Charger une configuration dans Lifecycle Services
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -92,6 +93,6 @@ Dans cet exemple, vous allez créer une configuration et la télécharger dans L
 10. Cliquez sur Ouvrir.
     * Sélectionnez le référentiel LCS et ouvrez- le.  
     * Notez que la configuration sélectionnée est indiquée comme un actif du projet LCS sélectionné.  
-    * Ouvrez LCS à l'aide de https://lcs.dynamics.com. Ouvrez un projet utilisé précédemment pour l'enregistrement du référentiel, ouvrez la bibliothèque d'actifs de ce projet, et développez le contenu du type d'actif Configuration GER, la configuration ER téléchargée est disponible. Notez que la configuration LCS téléchargée peut être importée dans une autre instance de Microsoft Dynamics 365 for Finance and Operations si les fournisseurs ont accès à ce projet LCS.  
+    * Ouvrez LCS à l'aide de https://lcs.dynamics.com. Ouvrez un projet utilisé précédemment pour l'enregistrement du référentiel, ouvrez la bibliothèque d'actifs de ce projet, et développez le contenu du type d'actif Configuration GER, la configuration ER téléchargée est disponible. Notez que la configuration LCS téléchargée peut être importée dans une autre instance de Microsoft Dynamics 365 for Finance and Operations, Enterprise edition si les fournisseurs ont accès à ce projet LCS.  
 
 

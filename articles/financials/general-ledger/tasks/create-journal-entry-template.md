@@ -3,26 +3,27 @@ title: "Créer une entrée de journal à l'aide d'un modèle"
 description: "Les N° document du journal validés peuvent être enregistrés comme Modèles de n° document et être appliqués dans un nouveau N° document de journal."
 author: aprilolson
 manager: AnnBe
-ms.date: 02/17/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerJournalTable, LedgerJournalTransDaily, LedgerJournalTransVoucherTemplate
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 055fe129b9fc9cf50e1d9e1a5b4cb77285f20c92
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 4a749740b62e39202d502a112f947679f85ca085
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="create-a-journal-entry-using-a-template"></a>Créer une entrée de journal à l'aide d'un modèle
+# <a name="create-a-journal-entry-using-template"></a>Créer une entrée de journal à l'aide d'un modèle
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

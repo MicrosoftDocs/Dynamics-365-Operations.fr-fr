@@ -1,28 +1,29 @@
 --- 
-title: "Calcul des intérêts quotidien de paiement tardif et de montant forfaitaire dans la facture et la lettre de relance (France)"
+title: "FR-00018 Calcul des intérêts quotidiens de paiement tardif et de montant forfaitaire dans la facture et la lettre de relance"
 description: "Indiquez le calcul des intérêts sur une facture."
 author: EvgenyPopovMBS
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: SalesTableListPage, SalesEditLines
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: e95bf759cb8d4d33f69ecde9f813969b5b264e41
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: b9ce7f2beb38308cc9c00b4775303bbab917e730
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="daily-interest-calculation-for-late-payment-and-lump-sum-in-the-invoice-and-collection-letter-france"></a>Calcul des intérêts quotidien de paiement tardif et de montant forfaitaire dans la facture et la lettre de relance (France)
+# <a name="fr-00018-daily-interest-calculation-for-late-payment-and-lump-sum-in-the-invoice-and-collection-letter"></a>FR-00018 Calcul des intérêts quotidiens de paiement tardif et de montant forfaitaire dans la facture et la lettre de relance
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

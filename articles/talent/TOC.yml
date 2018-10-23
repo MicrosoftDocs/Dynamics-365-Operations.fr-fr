@@ -6,6 +6,14 @@
       items:
         - name: Nouveautés ou modifications
           items:
+            - name: "Nouveautés ou modifications dans Dynamics\_365 for Talent Core HR (1er octobre 2018)"
+              href: whats-new-talent-october-01.md
+            - name: "Nouveautés ou modifications dans Dynamics\_365 for Talent Core HR (24 septembre 2018)"
+              href: whats-new-talent-september-24.md
+            - name: "Nouveautés ou modifications dans Dynamics\_365 for Talent Core HR (17 septembre 2018)"
+              href: whats-new-talent-september-17-2018.md
+            - name: "Nouveautés ou modifications dans Dynamics\_365 for Talent Core HR (10 septembre 2018)"
+              href: whats-new-talent-september-10.md
             - name: "Nouveautés ou modifications dans Dynamics\_365 for Talent Core HR (août\_2018)"
               href: whats-new-talent-august2018.md
             - name: "Nouveautés ou modifications dans Dynamics\_365 for Talent Core HR (juillet\_2018)"
@@ -20,10 +28,14 @@
           href: modular-app-tech-faq.md
         - name: Incorporer les applications PowerApps
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Core HR et Common Data Service pour les applications
+          href: CoreHREntities.md
         - name: Accéder aux fonctionnalités d'aperçu
           href: access-preview-feature.md
         - name: Configurer l'intégration de la paie entre Talent et Dayforce
           href: configure-payroll-integration.md
+        - name: Obtenir de l'aide sur Talent
+          href: talent-support.md
     - name: 'Organisation du personnel à l''aide des départements, tâches et postes'
       href: departments-jobs-positions.md
       items:
@@ -41,8 +53,13 @@
           href: formalize-business-processes.md
         - name: Utiliser des workflows pour gérer les informations relatives aux employés
           href: workflow-manage-employee-information.md
-        - name: Gestion des congés et des absences
-          href: leave-absence-overview.md
+    - name: Gérer les congés et les absences
+      href: leave-absence-overview.md
+      items:
+        - name: Cumuler des congés sur la base des heures travaillées
+          href: leave-accrue-hours-worked.md
+        - name: Calendriers de temps de travail
+          href: working-time-calendars.md
     - name: Dotation en personnel de votre organisation
       items:
         - name: Fonctionnalités de Attract
@@ -59,6 +76,8 @@
           href: create-variable-compensation-plans.md
         - name: Traiter la rémunération
           href: process-compensation.md
+        - name: Paramétrer les composants d'une tâche
+          href: create-job.md
     - name: Faire évoluer et former les employés
       items:
         - name: Gestion des performances

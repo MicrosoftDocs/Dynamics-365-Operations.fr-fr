@@ -1,28 +1,29 @@
 --- 
-title: "Créer des configurations de gestion d'états électroniques pour générer des états au format OpenXML"
+title: "ER Concevoir une configuration pour générer des états au format OPENXML (novembre 2016)"
 description: "Les étapes suivantes expliquent comment un utilisateur dont le rôle est Administrateur système ou Développeur d'états électroniques peut créer une configuration de format pour la génération d'états électronique (ER) qui contient un modèle pour générer des documents électroniques au format OPENXML."
 author: NickSelin
 manager: AnnBe
-ms.date: 01/16/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionRepositoryCreateDropDialog, ERSolutionImport,  ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERDataSourceAddDropDialog, ERModelGroupByFunctionEditor, VendPaymMode, LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: b42cfe36c57a9526e585bbad0fcd31ff60b90397
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 3e6b6b16f202af051ccff02051eb438ea49ff6da
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="design-er-configurations-to-generate-reports-in-openxml-format"></a>Créer des configurations de gestion d'états électroniques pour générer des états au format OpenXML
+# <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ER Concevoir une configuration pour générer des états au format OPENXML (novembre 2016)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -34,7 +35,8 @@ Dans cet exemple, vous allez créer une configuration pour la société témoin,
 
 
 
-Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de la procédure « Créer un fournisseur de configuration et le marquer comme actif ». Vous devez également télécharger et enregistrer le fichier Microsoft Excel [Modèle d'état de paiement](https://go.microsoft.com/fwlink/?linkid=862266). 
+Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de la procédure « Créer un fournisseur de configuration et le marquer comme actif ». Vous devez également avoir un fichier Excel qui sera importé lorsque vous créez le modèle. Ce fichier est accessible depuis le [Modèle d'état de paiement](https://go.microsoft.com/fwlink/?linkid=862266).
+
 
 ## <a name="upload-the-payments-data-model-configuration"></a>Téléchargez la configuration du modèle de données des paiements
 1. Accédez à Administration d'organisation > Espaces de travail > États électroniques.

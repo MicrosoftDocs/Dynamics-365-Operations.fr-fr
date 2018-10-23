@@ -1,28 +1,29 @@
 --- 
-title: "Concevoir des formats pour ajouter dynamiquement des colonnes dans les états Excel en tant que plages extensibles horizontalement"
+title: "ER Utiliser des plages extensibles horizontalement pour ajouter dynamiquement des colonnes dans les états Excel (Partie 1 - Créer un format)"
 description: "Les étapes suivantes expliquent comment un utilisateur affecté au rôle d'administrateur système ou de développeur d'états électroniques peut configurer un format d'états électroniques pour générer des états en tant que fichiers de feuilles de calcul (Excel) OPENXML dans lesquels les colonnes requises peuvent être créées dynamiquement sous forme de plages extensibles horizontalement."
 author: NickSelin
 manager: AnnBe
-ms.date: 10/28/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 80cd2603ba5ee47f861077d75a955037ffbde96e
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 7f0481a09e2ff4ae06fc53011067050c3373d6bc
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="design-formats-to-dynamically-add-columns-to-excel-reports-as-horizontally-expandable-ranges"></a>Concevoir des formats pour ajouter dynamiquement des colonnes dans les états Excel en tant que plages extensibles horizontalement
+# <a name="er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-1-design-format"></a>ER Utiliser des plages extensibles horizontalement pour ajouter dynamiquement des colonnes dans les états Excel (Partie 1 : Créer un format)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -36,8 +37,7 @@ Pour réaliser ces étapes, vous devez d'abord effectuer les étapes des trois g
 
 « ER Utiliser les dimensions financières comme source de données (Partie 2 : Mise en correspondance des modèles) »
 
-Vous devez également télécharger et enregistrer une copie locale du modèle avec un exemple d'état indiqué ici, [https://go.microsoft.com/fwlink/?linkid=862266](https://go.microsoft.com/fwlink/?linkid=862266). 
-
+Vous devez également télécharger et enregistrer une copie locale du modèle avec un exemple d'état disponible ici, [Exemple d'état de service Web pour les dimensions financières](https://go.microsoft.com/fwlink/?linkid=862266).
 
 Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.
 

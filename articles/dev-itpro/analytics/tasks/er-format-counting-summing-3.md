@@ -1,28 +1,29 @@
 --- 
-title: "Utiliser les calculs pour générer la sortie permettant d'effectuer le comptage et la synthèse"
+title: "ER Configurer le format pour effectuer le comptage et la synthèse (Partie 3 - Utiliser les calculs pour générer la sortie)"
 description: "Les étapes suivantes expliquent comment un utilisateur affecté au rôle d'administrateur système ou de développeur d'états électroniques peut configurer un format de génération d'états électroniques (ER) pour effectuer le comptage et la synthèse en fonction des données de la sortie de texte déjà générée."
 author: NickSelin
 manager: AnnBe
-ms.date: 10/28/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner, ERDataSourceAddDropDialog, ERExpressionDesignerFormula, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: e09b9fc87619d87c1de0e68ff370c0d6ebe72fc8
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 5c870c134a9dae81cd619268bed7ce545bdd5f52
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="use-computations-to-generate-the-output-for-counting-and-summing"></a>Utiliser les calculs pour générer la sortie permettant d'effectuer le comptage et la synthèse
+# <a name="er-configure-format-to-do-counting-and-summing-part-3-use-computations-to-make-the-output"></a>ER Configurer le format pour effectuer le comptage et la synthèse (Partie 3 : Utiliser les calculs pour générer la sortie)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

@@ -1,28 +1,29 @@
 --- 
-title: "Spécifier une adresse de chargement pour une transaction intracommunautaire"
+title: "EUR-00002 Définition d'une adresse de chargement pour une transaction intracommunautaire"
 description: "Cette procédure indique comment spécifier une adresse de chargement pour une transaction d'échanges intracommunautaires."
 author: v-oloski
 manager: AnnBe
-ms.date: 10/27/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, TransportationDocument, LogisticsPostalAddress, SysLookupMultiSelectGrid,  VendEditInvoice, VendEditInvoiceDefaultQuantityForLinesDropDialog, Intrastat, SysQueryForm
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: fc54b59f6cf8aec8d489955c57cbcf34c4e6be0a
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 4db22444bee1590770a47ca5946941b530ae85ce
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="specify-a-lading-address-for-an-intra-community-transaction"></a>Spécifier une adresse de chargement pour une transaction intracommunautaire
+# <a name="eur-00002-specifying-a-lading-address-for-an-intra-community-transaction"></a>EUR-00002 Définition d'une adresse de chargement pour une transaction intracommunautaire
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

@@ -1,28 +1,29 @@
 --- 
-title: "Mapper les modèles pour utiliser les dimensions financières comme sources de données"
+title: "ER Utiliser les dimensions financières comme source de données (Partie 2 - Mise en correspondance des modèles)"
 description: "Les étapes suivantes expliquent comment un utilisateur affecté au rôle d'administrateur système ou de développeur d'états électroniques peut configurer un modèle de génération d'états électroniques (ER) pour utiliser les dimensions financières comme source de données pour les états ER."
 author: NickSelin
 manager: AnnBe
-ms.date: 10/14/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 4d9c0f50a724582941ac11e4f01b3cfd3b1cf262
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 92efd6a0b36471286c292a80542b81cd14a8eff3
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="map-models-to-use-financial-dimensions-as-data-sources"></a>Mapper les modèles pour utiliser les dimensions financières comme sources de données 
+# <a name="er-use-financial-dimensions-as-a-data-source-part-2-model-mapping"></a>ER Utiliser les dimensions financières comme source de données (Partie 2 : Mise en correspondance des modèles)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

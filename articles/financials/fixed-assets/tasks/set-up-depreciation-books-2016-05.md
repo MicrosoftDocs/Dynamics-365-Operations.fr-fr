@@ -1,29 +1,29 @@
 --- 
-title: "Paramétrer les registres d'amortissement "
+title: "Paramétrer les registres des amortissements (mai 2016)"
 description: "Ce guide de tâche va créer un registre des amortissements et l'associera à un groupe d'immobilisations."
 author: saraschi2
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: AssetDepBookTable, AssetGroupDepBookSetup
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d06d5f92e91e33dc752bf45ab890c37dfea3888d
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 1fd53ea1dff9b116d19c525c5d6967ece0993b6f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-
-# <a name="set-up-depreciation-books"></a>Paramétrer les registres d'amortissement  
+# <a name="set-up-depreciation-books-may-2016"></a>Paramétrer les registres des amortissements (mai 2016)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

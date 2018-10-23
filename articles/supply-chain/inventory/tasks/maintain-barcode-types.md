@@ -1,29 +1,30 @@
----
-title: "Mettre à jour les types de codes-barres"
+--- 
+title: "Tenir à jour les types de code-barres"
 description: "Cette procédure montre comment paramétrer une nouvelle définition de code-barres pouvant être utilisée dans le cadre de l'état de la liste de prélèvements."
 author: perlynne
 manager: AnnBe
-ms.date: 03/02/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BarcodeSetup, InventParameters
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 45323206550d1b0ed66d89f4be7b995c60af63fc
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: a0d7092228f078f528ec1cb9ac56d7034c44bccf
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="maintain-bar-code-types"></a>Mettre à jour les types de codes-barres
+# <a name="maintain-barcode-types"></a>Tenir à jour les types de code-barres
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -44,4 +45,5 @@ Cette procédure montre comment paramétrer une nouvelle définition de code-bar
     * Sélectionnez le paramétrage de code-barres que vous avez créé précédemment, mais gardez à l'esprit que le format de code-barres doit correspondre au format de l'identificateur unique du type d'enregistrement utilisé dans le processus. Par exemple, pour les parcours de prélèvement, le format de code-barres doit correspondre au format de la référence du parcours de prélèvement, qui est généralement une souche de numéros.  
 12. Cliquez sur Enregistrer.
 13. Fermez la page.
+
 

@@ -3,7 +3,7 @@ title: "Personnaliser l'expérience de l'utilisateur"
 description: Cette rubrique explique comment vous pouvez personnaliser Microsoft Dynamics 365 for Finance and Operations.
 author: TLeforMicrosoft
 manager: AnnBe
-ms.date: 05/24/2018
+ms.date: 09/28/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 862bbf4d1d9b0dc2b6dc418ee766ed4dedef49fe
-ms.openlocfilehash: 8ad5bd607f08d4e0b266d86a96a0b7f3e352c4cd
+ms.sourcegitcommit: 7344f460fcb443a78b254e2387fbf5c9134bf674
+ms.openlocfilehash: 1860b603f789aabca1ca58848a88e11a6e08e31f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -64,7 +64,7 @@ Chaque personne et société a sa propre perspective des données qui lui semble
 ### <a name="shortcut-menu-options"></a>Options de menu contextuel
 Les menus contextuels permettent de modifier explicitement une page pour l'adapter à vos besoins ou à ceux de votre société. (Un menu contextuel est également appelé *menu par clic droit* ou *menu contextuel*.)
 
-Certaines des modifications les plus courantes et importantes qui peuvent être apportées à une page sont disponibles directement en tant qu'options dans un menu contextuel. Par exemple, pour ajouter ou masquer des colonnes dans une grille, cliquez avec le bouton droit sur un en-tête de colonne de la grille, puis sélectionnez **Ajouter des colonnes** ou **Masquer cette colonne**.
+Certaines des modifications les plus courantes et importantes qui peuvent être apportées à une page sont disponibles directement en tant qu'options dans un menu contextuel. Par exemple, à compter de Platform update 17, si vous souhaitez ajouter ou masquer des colonnes dans une grille, cliquez avec le bouton droit sur un en-tête de colonne de la grille, puis sélectionnez **Ajouter des colonnes** ou **Masquer cette colonne**.
 
 En outre, les types les plus classiques de personnalisations explicites sont disponibles en cliquant avec le bouton droit sur un élément et en sélectionnant **Personnaliser**. (Notez que tous les éléments sur la page ne peuvent pas être personnalisés). Lorsque vous utilisez cette méthode de personnalisation, la fenêtre des propriétés de l'élément s'affiche.
 
@@ -81,27 +81,38 @@ Vous pouvez utiliser la fenêtre des propriétés pour personnaliser un élémen
 La fenêtre des propriétés peut contenir d'autres fonctionnalités de personnalisation, selon l'élément. Par exemple, la fenêtre des propriétés d'une vignette vous permet de promouvoir cette vignette sur un tableau de bord, et la fenêtre des propriétés d'un tableau de bord vous permet de créer un espace de travail dans ce tableau de bord.
 
 ### <a name="the-personalization-toolbar"></a>Barre d'outils de personnalisation
-Lorsque vous souhaitez déplacer ou masquer des éléments, ou encore apporter plusieurs modifications à une page, vous pouvez utiliser la barre d'outils **Personnalisation**. Pour ouvrir la barre d'outils **Personnalisation**, sélectionnez **Personnaliser cet écran** dans la fenêtre des propriétés d'un élément. Vous pouvez également sélectionner **Personnaliser cet écran** dans le groupe **Personnaliser** de l'onglet **Options** du volet Actions de chaque page.
+Si vous souhaitez apporter plusieurs modifications à une page ou effectuer des modifications qui ne sont pas disponibles par le biais d'autres mécanismes (comme la réorganisation des éléments), vous pouvez utiliser la barre d'outils **Personnalisation**. Pour ouvrir la barre d'outils **Personnalisation**, sélectionnez **Personnaliser cet écran** dans la fenêtre des propriétés d'un élément. Vous pouvez également sélectionner **Personnaliser cet écran** dans le groupe **Personnaliser** de l'onglet **Options** du volet Actions de chaque page.
 
 [![Barre d'outils de personnalisation](./media/personalization-personalizationtoolbar.jpg)](./media/personalization-personalizationtoolbar.jpg)
 
-Lorsque la barre d'outils **Personnalisation** est ouverte, la page n'est pas interactive. Par conséquent, vous ne pouvez pas entrer des données, ni développer ou réduire les sections. Vous pouvez seulement modifier les éléments qui composent la page.
+#### <a name="navigating-the-page"></a>Navigation dans la page 
+La possibilité de naviguer dans la page lorsque la **Barre d'outils de personnalisation** est ouverte dépend de la version de la plateforme que vous exécutez. 
 
+- Avant Platform update 19, lorsque la barre d'outils **Personnalisation** est ouverte, la page est en lecture seule (vous ne pouvez effectuer aucune saisie) et n'est pas interactive (vous pouvez uniquement apporter des modifications aux éléments visibles sur la page). Si vous souhaitez modifier des éléments dans une section réduite ou sous un autre onglet, vous devez fermer la barre d'outils **Personnalisation**, développer une section ou passer à l'onglet souhaité, puis rouvrir la barre d'outils **Personnalisation**.  
+
+- À partir de Platform update 19, si la barre d'outils **Personnalisation** est ouverte, la page est toujours en lecture seule mais est beaucoup plus interactive. Spécifiquement, vous pouvez développer ou réduire le volet Récapitulatif, changer d'onglet et développer ou réduire des sections lorsque la barre d'outils **Personnalisation** est ouverte comme vous le feriez normalement sur la page. Pour appliquer une modification de personnalisation à une section ou un onglet réductible (comme par exemple masquer un organisateur), vous déclenchez le bouton qui apparaît en regard de la section ou de l'onglet réductible lorsqu'il est activé au moyen du clavier ou lorsque vous passez le curseur dessus.  
+
+#### <a name="personalization-tools"></a>Outils de personnalisation
 Les outils suivants sont disponibles dans la barre d'outils **Personnalisation** :
 
 - Utilisez l'outil **Sélectionner** pour sélectionner et modifier les propriétés d'un élément. Sélectionnez l'outil **Sélectionner**, puis sélectionnez l'élément dont vous souhaitez modifier les propriétés. Lorsque vous sélectionnez un élément, la fenêtre des propriétés de l'élément s'affiche pour vous permettre de modifier les propriétés de cet élément. Vous pouvez répéter le processus pour d'autres éléments qui peuvent être personnalisés sur cette page. Toutefois, en raison du mode d'utilisation de certains éléments, Finance and Operations ne vous permet pas modifier certaines de leurs propriétés. Par conséquent, si vous sélectionnez un élément, il se peut que certaines de ses propriétés ne puissent pas être modifiées. Par exemple, vous ne pouvez pas masquer un champ obligatoire.
-- Utilisez l'outil **Déplacer** pour déplacer un élément vers un autre emplacement au sein du groupe actuel d'éléments. (Vous ne pouvez pas déplacer un élément en dehors de son groupe parent). Sélectionnez l'outil **Déplacer**, puis sélectionnez l'élément à déplacer. Lorsque vous sélectionnez un élément, Finance and Operations analyse la page pour déterminer où l'élément peut être déplacé. Il crée ensuite une série de « zones de largage ». Lorsque vous faites glisser l'élément dans le groupe actuel, chaque « zone de largage » est indiquée par une ligne colorée et grasse en regard de la zone où l'élément peut être déplacé.
-- Utilisez l'outil **Masquer** pour masquer un élément sur la page. Sélectionnez l'outil **Masquer**, puis sélectionnez l'élément à masquer. Lorsque vous sélectionnez l'outil **Masquer**, tous les éléments actuellement masqués sont rendus visibles et affichés dans un conteneur grisé. Vous pouvez ensuite les afficher. Sélectionnez l'outil **Sélectionner** pour voir la manière dont la page s'affiche lorsque les éléments sélectionnés sont masqués.
-- Utilisez l'outil **Récapitulatif** pour faire apparaître un élément dans la section récapitulative de l'organisateur. L'outil Récapitulatif s'applique uniquement aux champs contenus dans une section de l'organisateur. Lorsque vous sélectionnez l'outil **Récapitulatif**, tous les champs sélectionnés comme champs récapitulatifs sont affichés dans un conteneur grisé. Vous pouvez en mode interactif ajouter des champs au récapitulatif de l'organisateur et supprimer des champs du récapitulatif de l'organisateur en sélectionnant les champs.
-- Utilisez l'outil **Ignorer** pour supprimer un élément de la séquence de tabulation du clavier de la page. Lorsque vous sélectionnez l'outil **Ignorer**, tous les éléments actuellement ignorés sont affichés dans un conteneur grisé. Vous pouvez ensuite les réintégrer dans la séquence de tabulation.
-- Utilisez l'outil **Modifier** pour marquer un élément comme modifiable ou non modifiable. Lorsque vous sélectionnez l'outil **Modifier**, tous les éléments actuellement non modifiables sont affichés dans un conteneur grisé. Vous pouvez ensuite les rendre modifiables à nouveau. Notez que certains champs sont obligatoires et ne peuvent pas être rendus non modifiables. Un symbole de cadenas apparaît en regard de ces champs.
-- Utilisez le bouton **Insérer** pour afficher la liste des éléments pouvant être insérés sur une page.
 
+- Utilisez l'outil **Déplacer** pour déplacer un élément vers un autre emplacement au sein du groupe actuel d'éléments. (Vous ne pouvez pas déplacer un élément en dehors de son groupe parent). Sélectionnez l'outil **Déplacer**, puis sélectionnez l'élément à déplacer. Lorsque vous sélectionnez un élément, Finance and Operations analyse la page pour déterminer où l'élément peut être déplacé. Il crée ensuite une série de « zones de largage ». Lorsque vous faites glisser l'élément dans le groupe actuel, chaque « zone de largage » est indiquée par une ligne colorée et grasse en regard de la zone où l'élément peut être déplacé.
+
+- Utilisez l'outil **Masquer** pour masquer un élément sur la page. Sélectionnez l'outil **Masquer**, puis sélectionnez l'élément à masquer. Lorsque vous sélectionnez l'outil **Masquer**, tous les éléments actuellement masqués sont rendus visibles et affichés dans un conteneur grisé. Vous pouvez ensuite les afficher. Sélectionnez l'outil **Sélectionner** pour voir la manière dont la page s'affiche lorsque les éléments sélectionnés sont masqués.
+    - À compter de Platform update 18, vous pouvez masquer les champs obligatoires et les sections contenant des champs obligatoires. Cela vous permet de créer une expérience simplifiée lorsque des champs obligatoires définis par défaut par la logique métier ne sont pas affichés. Les champs obligatoires masqués sont également temporairement visibles s'ils sont vides lorsque un enregistrement est effectué. 
+
+- Utilisez l'outil **Récapitulatif** pour faire apparaître un élément dans la section récapitulative de l'organisateur. L'outil Récapitulatif s'applique uniquement aux champs contenus dans une section de l'organisateur. Lorsque vous sélectionnez l'outil **Récapitulatif**, tous les champs sélectionnés comme champs récapitulatifs sont affichés dans un conteneur grisé. Vous pouvez en mode interactif ajouter des champs au récapitulatif de l'organisateur et supprimer des champs du récapitulatif de l'organisateur en sélectionnant les champs.
+
+- Utilisez l'outil **Ignorer** pour supprimer un élément de la séquence de tabulation du clavier de la page. Lorsque vous sélectionnez l'outil **Ignorer**, tous les éléments actuellement ignorés sont affichés dans un conteneur grisé. Vous pouvez ensuite les réintégrer dans la séquence de tabulation.
+
+- Utilisez l'outil **Modifier** pour marquer un élément comme modifiable ou non modifiable. Lorsque vous sélectionnez l'outil **Modifier**, tous les éléments actuellement non modifiables sont affichés dans un conteneur grisé. Vous pouvez ensuite les rendre modifiables à nouveau. Notez que certains champs sont obligatoires et ne peuvent pas être rendus non modifiables. Un symbole de cadenas apparaît en regard de ces champs.
+
+- Utilisez le bouton **Insérer** pour afficher la liste des éléments pouvant être insérés sur une page.
     - Sélectionnez l'outil **Champ** sous **Insérer** pour ajouter un champ à la page. Lorsque vous utilisez l'outil **Champ**, vous pouvez ajouter uniquement les champs qui font partie de la définition de page, mais qui ne sont pas actuellement affichés sur la page. Pour plus d'informations sur la création de champs qui ne font pas partie de la définition de page actuelle, voir [Champs personnalisés](user-defined-fields.md). Après avoir sélectionné l'outil **Champ**, vous devez d'abord sélectionner le groupe ou la zone où vous souhaitez ajouter un champ. Une boîte de dialogue affiche la liste des champs associés au groupe ou à la zone sélectionné. Dans la boîte de dialogue, sélectionnez un ou plusieurs champs à ajouter, puis sélectionnez **Insérer**. Pour supprimer un champ que vous avez précédemment ajouté, répétez le processus, mais effacez la sélection du champ dans la boîte de dialogue.
     - Sélectionnez l'outil **PowerApp** sous **Insérer** pour incorporer une application créée à l'aide de Microsoft PowerApps dans la page. Pour plus d'informations sur l'incorporation d'une application PowerApps dans une page, voir [Incorporer PowerApps](embed-power-apps.md).
 
 - Sélectionnez le bouton **Gérer** pour afficher la liste des options de gestion associées à toutes les personnalisations de la page actuelle.
-
     - Sélectionnez **Effacer** pour réinitialiser la page à son état installé par défaut. Toutes les personnalisations de la page actuelle sont effacées. Il n'est pas possible d'annuler l'action. Par conséquent, n'utilisez cette option que si vous êtes sûr de vouloir réinitialiser la page.
     - Sélectionnez **Importer** pour charger une personnalisation à partir d'un fichier que vous ou un tiers avez précédemment créé pour la page. Toutes vos personnalisations actuelles de la page sont remplacées par les personnalisations du fichier sélectionné.
     - Sélectionnez **Exporter** pour enregistrer vos personnalisations de la page dans un fichier. Vous pouvez partager vos personnalisations avec d'autres utilisateurs. Ces utilisateurs doivent simplement importer le fichier contenant vos personnalisations de la page.

@@ -1,29 +1,30 @@
 --- 
-title: "Paramétrer les stratégies de travail d'entrepôt"
+title: "Paramétrer des stratégies de travail d'entrepôt (Application, mai 2016)"
 description: "Les processus d'entrepôt n'incluent pas systématiquement les tâches d'entrepôt."
 author: johanhoffmann
 manager: AnnBe
-ms.date: 06/23/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: WHSWorkPolicy, WMSLocationIdLookup
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b7d579ca7e2b9ca8cbead74b2c2ababfd142f171
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 34b4255c85bb53f7e238b60559890571070953a6
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="set-up-warehouse-work-policies"></a>Paramétrer les stratégies de travail d'entrepôt 
+# <a name="set-up-warehouse-work-policies-application-may-2016"></a>Paramétrer des stratégies de travail d'entrepôt (Application, mai 2016)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

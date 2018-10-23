@@ -16,10 +16,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
-ms.openlocfilehash: 9399df070d450b6eb89dc33ca47ddb77fe8e60b1
+ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
+ms.openlocfilehash: 137fb8cae0766bed16b6b32d99e1d2c6c9f7b606
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 09/17/2018
 
 ---
 
@@ -27,7 +27,7 @@ ms.lasthandoff: 08/13/2018
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique inclut des informations et des liens vers des ressources qui peuvent vous aider à paramétrer Dynamics 365 for Finance and Operations pour les entités juridiques dont l'adresse principale est au Brésil. 
+Cette rubrique inclut des informations et des liens vers des ressources qui peuvent vous aider à paramétrer Dynamics 365 for Finance and Operations pour les entités juridiques dont l'adresse principale est en Europe. 
 
 - [Détenteurs d'avance](emea-advance-holders.md)
  - [Transactions des détenteurs d'avance](emea-advance-holders-transactions.md)
@@ -44,9 +44,7 @@ Cette rubrique inclut des informations et des liens vers des ressources qui peuv
 - [Formats de fichier des modes de paiement](emea-select-file-formats-for-the-method-of-payments.md)
 - [Intégration du service fiscal (ESR)](emea-fiscal-service-integration.md)
 - [Cession d'immobilisations pour l'Estonie et la Lituanie](emea-credit-note-reverse-fixed-asset-sale.md)
-- [Réévaluation des comptes en devises](emea-foreign-currency-revaluation.md)
 - [Générer un document de transfert pour un transfert de stock interne](tasks/transfer-document-internal-inventory-transfer.md)
-- [Générer un fichier de déclaration d'échanges de biens de l'UE](tasks/eur-00002-eu-intrastat-declaration.md)
 - [Générer un état Liste des ventes intracommunautaires](tasks/eur-00011-eu-sales-list-report.md)
 - Fichiers ISO20022
   - [Importer des fichiers ISO20022](emea-ISO20022-file-formats.md)
@@ -61,6 +59,8 @@ Cette rubrique inclut des informations et des liens vers des ressources qui peuv
   - [Créer et exporter des paiements fournisseur à l'aide du format de paiement ISO20022](tasks/create-export-vendor-payments-iso20022-payment-format.md)
 - [Déclaration d'échanges de biens](emea-intrastat.md)
   - [Transférer des transactions dans la déclaration d'échanges de biens](tasks/transfer-transactions-intrastat.md)
+  - [Spécifier une adresse de chargement pour une transaction intracommunautaire](tasks/eur-00002-specify-lading-address-intra-community.md)
+  - [Générer un fichier de déclaration d'échanges de biens de l'UE](tasks/eur-00002-eu-intrastat-declaration.md)
 - [États du journal de stock](emea-set-up-report-inventory-journal-names.md)
 - [Délais d'émission de facture](emea-invoice-issue-deadline.md)
 - [Traitement des factures](emea-invoice-processing.md)
@@ -82,8 +82,6 @@ Cette rubrique inclut des informations et des liens vers des ressources qui peuv
 - [Paramétrer une déclaration de la liste des ventes intracommunautaires](tasks/eur-00011-eu-sales-list-reporting.md)
 - [Paramétrer un format de bordereau de paiement pour les factures de projet](tasks/set-up-payment-slip-format-project-invoices.md)
 - [Paramétrage de signataires pour l'impression d'écrans](emea-set-up-signers-for-printing-forms.md)
-- [Paramétrer les documents de transfert pour le mouvement de marchandises dans une société](tasks/set-up-transfer-documents-goods-movement-inside-company.md)
-- [Spécifier une adresse de chargement pour une transaction intracommunautaire](tasks/eur-00002-specify-lading-address-intra-community.md)
 - [Contre-passation](emea-storno.md)
 - [Instructions relatives à la taxe](emea-tax-directives.md)
 - [Modification du mode d'affichage des montants dans les états et documents](emea-amount-printing-forms.md)

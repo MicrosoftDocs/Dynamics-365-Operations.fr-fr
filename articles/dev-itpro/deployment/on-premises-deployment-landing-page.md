@@ -3,7 +3,7 @@ title: "Page d'accueil des déploiements sur site"
 description: "Cette rubrique fournit des informations et des liens vers du contenu sur les déploiements sur site."
 author: kfend
 manager: AnnBe
-ms.date: 07/16/2018
+ms.date: 09/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: aba11ae99393eb0d8c3e1df2276faa95ad831d29
+ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
+ms.openlocfilehash: e65edc9d613c9898776e30ea5ab4104a3ce5b4c8
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/17/2018
 
 ---
 # <a name="on-premises-deployments-home-page"></a>Page d'accueil des déploiements sur site
@@ -59,6 +59,7 @@ Vous pouvez déployer Microsoft Dynamics 365 for Finance and Operations (sur si
 
 ## <a name="other-resources"></a>Ressources connexes
 - [Résolution des problèmes de Dynamics 365 for Finance and Operations (sur site)](troubleshoot-on-prem.md)
+- [Diagnostics sur site](on-premises-diagnostics.md)
 - [Fonctions non implémentées dans les déploiements sur site](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
 - [Fonctionnalités obsolètes](../migration-upgrade/deprecated-features.md)
 - [Stratégie du cycle de vie de logiciel et versions sur site](../migration-upgrade/on-prem-version-update-policy.md)

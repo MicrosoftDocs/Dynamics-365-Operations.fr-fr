@@ -3,7 +3,7 @@ title: "Règlement des transactions entre des comptes généraux"
 description: "Cette procédure montre comment régler les transactions entre les comptes généraux et annuler un règlement comptable."
 author: aprilolson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 10/03/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 97a28069f8d560c98099a667852c932ba7658996
+ms.sourcegitcommit: 4c200c07ad576073ab5410b52ec237d31b2415d2
+ms.openlocfilehash: 4aff64fa1c017f295752e913de7fb320f0662ef8
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 10/03/2018
 
 ---
 # <a name="settle-transactions-between-ledger-accounts"></a>Règlement des transactions entre des comptes généraux
@@ -33,19 +33,20 @@ Cette procédure montre comment régler les transactions entre les comptes gén�
 ## <a name="settle-transaction-between-ledger-accounts"></a>Régler une transaction entre des comptes généraux
 1. Accédez à Comptabilité > Tâches périodiques > Règlements comptables.
 2. Dans la liste, cherchez la transaction que vous souhaitez régler.
-    * Le solde du montant doit être nul.  
+   > [!NOTE]
+   > Le solde du montant doit être nul.  
 3. Cliquez sur Inclure.
 4. Cliquez sur Accepter.
 
 ## <a name="cancel-a-ledger-settlement"></a>Annulation d'un règlement comptable
-1. Fermez la page.
-2. Accédez à Comptabilité > Recherches et états > Balance comptable.
-3. Cliquez sur Paramètres pour ouvrir la boîte de dialogue.
-4. Cliquez sur Mise à jour.
-5. Dans la liste, cherchez le compte qui présente la transaction réglée.
-6. Cliquez sur Toutes les transactions.
-7. Utilisez un filtre pour rechercher facilement la transaction dans la liste.
-8. Cliquez sur Règlements comptables.
-9. Dans la liste, marquez la ligne sélectionnée.
+
+1. Accédez à Comptabilité > Recherches et états > Balance comptable.
+2. Cliquez sur Paramètres pour ouvrir la boîte de dialogue.
+3. Cliquez sur Mise à jour.
+4. Dans la liste, cherchez le compte qui présente la transaction réglée.
+5. Cliquez sur Toutes les transactions.
+6. Utilisez un filtre pour rechercher facilement la transaction dans la liste.
+7. Cliquez sur Règlements comptables.
+8. Dans la liste, marquez la ligne sélectionnée.
 
 

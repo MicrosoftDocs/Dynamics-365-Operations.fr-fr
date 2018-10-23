@@ -3,7 +3,7 @@ title: "Fonctions supprimées ou obsolètes"
 description: "Cette rubrique décrit les fonctions qui ont été supprimées, ou qu'il est prévu de supprimer."
 author: sericks007
 manager: AnnBe
-ms.date: 08/07/2018
+ms.date: 10/01/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 8a3c4ed8f3ed79ab0cb3e59076734877d270bd68
-ms.openlocfilehash: cd620dcdeb1cd5fd3a89be9ae31c4d35e29a03d0
+ms.sourcegitcommit: d6b7b1219974cb5de1a625d87c3bce2a4439470b
+ms.openlocfilehash: ea24d6d63edc6f3bb1bf4a99d24d348af0d6cdbf
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 10/01/2018
 
 ---
 
@@ -41,6 +41,52 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 
 > [!Note]
 > Des informations détaillées sur les objets dans Finance and Operations peuvent être consultés dans les [États de référence technique](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés de chaque version de Finance and Operations.
+
+## <a name="dynamics-365-for-finance-and-operations-81-with-platform-update-20"></a>Dynamics 365 for Finance and Operations 8.1 avec platform update 20
+
+### <a name="batch-transfer-rules-for-subledger-journal-account-entries"></a>Règles de transfert par lots des écritures de compte de journal de comptabilité auxiliaire
+Le mode de transfert synchrone n'est plus utilisé dans les paramètres de comptabilité.  Ce mode est remplacé par le mode asynchrone et le traitement par lots planifié uniquement, qui existent déjà comme options de transfert. 
+
+|   |  |
+|------------|--------------------|
+| **Motif de l'abandon/de la suppression** | Nous supprimons l'option synchrone en raison de l'impact sur les performances du système. |
+| **Remplacé par une autre fonctionnalité ?**   | Le mode asynchrone et le traitement par lots planifié sont les options à utiliser à la place du mode synchrone.   |
+| **Zones de produit affectées**         | Comptabilité, Comptabilité fournisseur, Comptabilité client, Approvisionnement, Dépenses    |
+| **Option de déploiement**              | Tous  |
+| **Statut**                         | Obsolète - Le délai cible pour la suppression de la fonctionnalité est la version 10.0.|
+
+### <a name="electronic-reporting-for-russia"></a>Gestion des états électroniques pour la Russie
+Fonction de configuration des formats de fichier .txt et .xml des déclarations. 
+
+|   |  |
+|------------|--------------------|
+| **Motif de l'abandon/de la suppression** | Remplacé par l'outil de gestion des états électroniques. |
+| **Remplacé par une autre fonctionnalité ?**   | Oui. |
+| **Zones de produit affectées**         | Comptabilité générale |
+| **Option de déploiement**              | Tous |
+| **Statut**                         | Supprimé à compter de Dynamics 365 for Finance and Operations 8.1 avec platform update 20. |
+
+### <a name="financial-reports-generator-for-russia"></a>Générateur d'états financiers pour la Russie
+Outil pour paramétrer la collecte des données pour la comptabilité et les états fiscaux et pour exporter les données vers les modèles d'état XLS et DOC. Parties fonctionnelles : la fonction d'exportation des données vers les modèles d'état XLS et DOC, les requêtes, les conditions requises fixes sont supprimées. 
+
+|   |  |
+|------------|--------------------|
+| **Motif de l'abandon/de la suppression** | Les parties supprimées sont remplacées par l'outil de gestion des états électroniques. |
+| **Remplacé par une autre fonctionnalité ?**   | Oui. L'interface utilisateur de paramétrage des états financiers doit être utilisée pour paramétrer les règles de collecte de données par les comptes généraux ou les registres de taxe. La fonction d'exportation des données vers divers types de fichiers, les conditions requises fixes et les règles de collecte des données de type requête doivent être configurées dans l'outil de gestion des états électroniques. |
+| **Zones de produit affectées**         | Comptabilité générale. |
+| **Option de déploiement**              | Tous |
+| **Statut**                         | Supprimé à compter de Dynamics 365 for Finance and Operations 8.1 avec platform update 20. |
+
+### <a name="integration-with-external-providers-for-sending-electronic-reporting-through-communication-channels-for-russia"></a>Intégration avec les fournisseurs externes pour l'envoi des états électroniques via les canaux de communication pour la Russie
+Fonction d'exportation des fichiers électroniques générés des déclarations vers un dossier pour l'envoi ultérieur aux fournisseurs officiels d'états électroniques, ainsi que pour la réimportation de l'état.
+
+|   |  |
+|------------|--------------------|
+| **Motif de l'abandon/de la suppression** | Remplacé par la fonction configurable des messages électroniques. |
+| **Remplacé par une autre fonctionnalité ?**   | Oui.  |
+| **Zones de produit affectées**         | Comptabilité générale, Taxe |
+| **Option de déploiement**              | Tous |
+| **Statut**                         | Supprimé à compter de Dynamics 365 for Finance and Operations 8.1 avec platform update 20. |
 
 ## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>Dynamics 365 for Finance and Operations avec platform update 15
 Aucune fonctionnalité n'a été supprimée ou rendue obsolète avec cette version. Platform update 15 est cumulative et contient les fonctionnalités, nouvelles ou modifiées, depuis Platform update 13, Platform update 14, et Platform update 15.

@@ -1,28 +1,29 @@
 --- 
-title: Valider le journal de renouvellement des lettres de change (France)
+title: FR-00004 Valider le journal de renouvellement de lettres de change
 description: "Cette procédure vous guide dans l'approbation d'un journal de renouvellement de lettres de change."
 author: EvgenyPopovMBS
 manager: AnnBe
-ms.date: 03/02/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerJournalTable, LedgerJournalTransCustBillOfExchange, CustOpenTrans
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 9e05054e0a6f5f9a56f9e32cda24c761d8920f65
+ms.sourcegitcommit: 033c9bdfce0840e1af1c63708905aec6829bbe90
+ms.openlocfilehash: ce5da2c6613ea00c060eb7e575387b8c90bbf095
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 09/13/2018
 
 ---
-# <a name="post-re-draw-bill-of-exchange-journal-france"></a>Valider le journal de renouvellement des lettres de change (France)
+# <a name="fr-00004-post-re-draw-bill-of-exchange-journal"></a>FR-00004 Valider le journal de renouvellement de lettres de change
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

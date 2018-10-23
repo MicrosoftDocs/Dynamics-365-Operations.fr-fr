@@ -1,25 +1,26 @@
 --- 
 title: "Créer des configurations de gestion d'états électroniques pour générer des états au format Word"
-description: "Les étapes suivantes expliquent comment un utilisateur bénéficiant du rôle Administrateur système ou Développeur d'états électroniques peut configurer des formats de données de génération d'états électronique (ER) pour générer des états sous forme de fichiers Microsoft Word."
+description: "Les étapes suivantes expliquent comment un utilisateur bénéficiant du rôle Administrateur système ou Développeur d'états électroniques peut configurer des formats de données de génération d'états électroniques pour générer des états sous forme de fichiers Microsoft Word."
 author: NickSelin
 manager: AnnBe
-ms.date: 12/21/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 615ab4a4f932478b8b847112d4fed8310187f03b
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: dc47d44285af4c720d2f450d11fb1004ef461d0f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="design-er-configurations-to-generate-reports-in-word-format"></a>Créer des configurations de gestion d'états électroniques pour générer des états au format Word
@@ -30,9 +31,9 @@ Les étapes suivantes expliquent comment un utilisateur bénéficiant du rôle A
 
 Pour réaliser ces étapes, vous devez d'abord effectuer les étapes du Guide de tâche de la section « Créer une configuration ER pour générer des états au format OPENXML ». Au préalable, vous devez également télécharger et enregistrer localement les modèles suivants pour l'exemple d'état : http://msdynamics.blob.core.windows.net/media/2016/10/SampleVendPaymDocReport.docx http://msdynamics.blob.core.windows.net/media/2016/10/SampleVendPaymDocReportBounded.docx. Au préalable, vous devez également télécharger et enregistrer localement les modèles suivants pour l'exemple d'état :
 
-[Modèle d'état de paiement](https://go.microsoft.com/fwlink/?linkid=862266)
+- [Modèle d'état de paiement](https://go.microsoft.com/fwlink/?linkid=862266)
+- [Modèle lié d'état de paiement](https://go.microsoft.com/fwlink/?linkid=862266)
 
-[Modèle lié d'état de paiement](https://go.microsoft.com/fwlink/?linkid=862266)
 
 Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Microsoft Dynamics 365 for Operations.
 
@@ -49,7 +50,7 @@ Cette procédure s'applique à une fonction qui a été ajoutée dans la version
 ## <a name="replace-the-excel-template-with-the-word-template"></a>Remplacez le modèle Excel par le modèle Word
     * Actuellement, le document Excel est utilisé comme modèle pour générer la sortie au format OPENXML. Nous importerons le modèle de l'état au format de Word.  
 1. Cliquez sur Documents joints.
-    * Remplacez le modèle Excel existant par le modèle Word que vous avez téléchargé antérieurement, Modèle d'état de paiement. Notez que ce modèle ne contient que la mise en page du document que nous souhaitons générer comme sortie ER.  
+    * Remplacez le modèle Excel existant par le modèle Word SampleVendPaymDocReport.docx, que vous avez téléchargé antérieurement. Notez que ce modèle ne contient que la mise en page du document que nous souhaitons générer comme sortie ER.  
 2. Cliquez sur Supprimer.
 3. Cliquez sur Oui.
 4. Cliquez sur Nouveau.
