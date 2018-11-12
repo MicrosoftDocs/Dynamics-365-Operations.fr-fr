@@ -25,6 +25,7 @@ ms.lasthandoff: 09/24/2018
 ---
 # <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a>Céder des immobilisations à l'aide d'une facture financière
 
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cette procédure explique comment céder une immobilisation à l'aide de la facture financière.
 
