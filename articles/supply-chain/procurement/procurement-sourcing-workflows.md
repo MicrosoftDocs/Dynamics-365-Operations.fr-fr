@@ -50,11 +50,12 @@ Les types de workflows suivants sont disponibles pour le module Approvisionnemen
 | Workflow d'application d'ajout de fournisseur  | Permet de créer des workflows de révision et d'approbation pour ajouter de nouveaux fournisseurs via les demandes fournisseur. |
 
 ## <a name="creating-a-workflow"></a>Création d'un workflow
+
 Pour créer un workflow, accédez à Approvisionnements &gt; Paramétrage &gt; Workflows d'approvisionnement, puis créez un workflow en sélectionnant le type de workflow à créer.  
 
 Dans le canevas de workflow, vous pouvez faire glisser des éléments de workflow dans le concepteur et lier les éléments dans un flux. Les éléments de workflow doivent être configurés. Pour les éléments de workflow d'approbation et de tâche, vous pouvez configurer le participant qui doit effectuer l'action.
-Types de participants
-----------------------
+
+## <a name="types-of-participants"></a>Types de participants
 
 Vous pouvez affecter une étape d'approbation aux groupes suivants de participants.
 
@@ -68,13 +69,12 @@ Vous pouvez affecter une étape d'approbation aux groupes suivants de participan
 
 
 
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Définition des flux de travail de processus entreprise pour les demandes d'achat](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions) (livre blanc)
+- [Définition des flux de travail de processus entreprise pour les demandes d'achat](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions) (livre blanc)
 
-[Workflow de demande d'achat](purchase-requisitions-workflow.md)
+- [Workflow de demande d'achat](purchase-requisitions-workflow.md)
 
-[Intégration des fournisseurs](vendor-onboarding.md)
+- [Intégration des fournisseurs](vendor-onboarding.md)
 
 
