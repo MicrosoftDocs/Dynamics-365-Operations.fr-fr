@@ -3,7 +3,7 @@ title: "Système d'aide de Finance and Operations"
 description: "Cette rubrique fournit une vue d'ensemble des composants du système d'aide Microsoft Dynamics 365 for Finance and Operations. Il décrit également comment fournir de la documentation et une formation personnalisées à votre organisation."
 author: margoc
 manager: AnnBe
-ms.date: 07/12/2018
+ms.date: 10/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
-ms.openlocfilehash: 3f18a5d7b7f7639b864f579b758005c7a30803a2
+ms.sourcegitcommit: 75be5c5f675885aececb8ac0b25e699882ea77ab
+ms.openlocfilehash: dc2a3d49041acf42814149eb71d4cc021bdad838
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 10/17/2018
 
 ---
 
@@ -45,14 +45,14 @@ Finance and Operations comprend un système d'aide basé sur deux composants pri
 -   Site de documentation
 -   Guides de tâches
 
-Vous pouvez accéder aux rubriques d'aide et aux guides de tâches à partir du volet d'aide quel que soit le produit que vous utilisez. La capture d'écran suivante montre Dynamics 365 for Finance and Operations
+Vous pouvez accéder au volet d'aide depuis tous les produits que vous utilisez. La capture d'écran suivante montre Finance and Operations.
 
 ![Volet Aide](./media/help-pane-ops-task-guides.png)
 
 Cette rubrique décrit le système d'aide, et explique comment créer une documentation personnalisée et des ressources de formation pour votre organisation.
 
 > [!IMPORTANT]
-> L'onglet **Guides de tâches** n'est pas disponible dans Microsoft Dynamics 365 for Talent et Microsoft Dynamics 365 for Retail. Nous œuvrons actuellement pour activer cette fonctionnalité dans une future version. Les guides des tâches dans l'expérience Mise en route dans Talent restent disponibles pour couvrir les fonctionnalités de base. L'aide procédurale est également disponible sur le site docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md) pour Retail et Talent.
+> Les **Guides de tâches** ne sont actuellement pas disponibles pour Retail ou dans le volet d'aide de Talent (certains guides de tâches sont disponibles dans le volet de mise en route de Talent). L'aide procédurale est disponible sur le site docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) pour Retail et Talent.
 
 ## <a name="help-on-docsmicrosoftcom"></a>Aide sur docs.microsoft.com
 
@@ -64,17 +64,16 @@ Le site docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](
 -   **Un contenu utile pour vos processus métier** – Le site inclut des contenus orientés sur les processus métier, qui tirent profit du modeleur de processus métier (BPM) des LCS (Lifecycle Services) de Microsoft Dynamics.
 
 ### <a name="searching-on-docsmicrosoftcom"></a>Recherche sur docs.microsoft.com
-Nous recevons de nombreuses questions sur la recherche de notre contenu. Sur notre site, si vous démarrez à partir d'une page sur Finance and Operations, nous limitons votre recherche au contenu Finance and Operations. Vous pouvez supprimer la portée en cliquant sur la croix (X) en regard de Operations dans la zone de recherche. 
+Nous recevons de nombreuses questions sur la recherche de notre contenu. Sur notre site, si vous démarrez à partir d'une page sur Finance and Operations, nous limitons votre recherche au contenu Finance and Operations. Vous pouvez supprimer la portée en cliquant sur la croix (X) en regard de Unified Operations dans la zone de recherche. 
 
 ![Rechercher des commandes](./media/search-scope-2.png)
 
 Vous pouvez également rechercher notre contenu avec n'importe quel moteur de recherche. Pour optimiser les résultats, il est recommandé d'effectuer une recherche de site, par exemple le « terme de recherche » site:docs.microsoft.com dynamics 365  
 
 ### <a name="the-docsmicrosoftcom-table-of-contents"></a>Table des matières de docs.microsoft.com
-Finance and Operations, Retail et Talent partagent tous une table des matières unique dans le site de documents, ce qui permet aux clients de voir le contexte de la rubrique dans laquelle ils se trouvent. Cela vous permet également d'utiliser le contrôle Filtrer situé au-dessus de la table des matières pour rechercher les rubriques souhaitées.
+Finance and Operations et Retail partagent tous une table des matières unique dans le site de documents, ce qui permet aux clients de voir le contexte de la rubrique dans laquelle ils se trouvent. Cela vous permet également d'utiliser le contrôle Filtrer situé au-dessus de la table des matières pour rechercher les rubriques souhaitées. 
 
-### <a name="follow-a-topic"></a>Suivre une rubrique
-Pour suivre une rubrique, cliquez sur le bouton +Suivre sous la zone de commentaires. Vous devrez vous connecter pour suivre la rubrique. Voir [Laissez-nous un commentaire](#leave-us-feedback) pour plus de détails.  
+Vous pouvez obtenir de l'aide sur d'autres produits Dynamics 365 en les recherchant, ou en cliquant sur Dynamics 365 dans la navigation du site pour obtenir à notre page de concentrateur. 
 
 ### <a name="use-an-rss-feed"></a>Utiliser un flux RSS
 Pour vous abonner à un flux RSS de toutes les mises à jour du contenu Unified Operations utilisez le lien suivant à partir d'un navigateur qui prend en charge les flux RSS, comme Internet Explorer, ou d'un gestionnaire de flux RSS : 
@@ -106,17 +105,18 @@ Pour plus d'informations, reportez-vous à notre guide du contributeur : https:
 
 
 > [!NOTE]
-> Nous acceptons uniquement les contributions à nos référentiels en anglais à ce stade.  
+> Nous acceptons uniquement les contributions à notre ensemble de contenus en anglais à ce stade.  
 
 
 ## <a name="task-guides"></a>Guides de tâches
 Un guide de tâche est une expérience contrôlée, guidée, interactive qui vous accompagne le long des étapes d'une tâche ou d'un processus métier. Vous pouvez lire un guide de tâche à partir du volet Aide. Lorsque vous cliquez sur un guide de tâche, le volet Aide affiche les instructions pas-à-pas concernant la tâche. Des guides des tâches localisés sont désormais disponibles. 
 
-Nous fournirons différents ensembles de guides de tâches pour chaque produit comme Dynamics 365 for Retail, Dynamics 365 for Finance and Operations ou Dynamics 365 for Talent. La section Accès aux guides de tâches à partir du volet Aide décrit comment trouver les guides de tâches appropriés à votre produit. 
+Microsoft a fourni des bibliothèques de guides de tâches pour des versions jusqu'en décembre 2017 pour Finance and Operations. La section [Accès aux guides de tâches à partir du volet Aide](help-overview.md#accessing-task-guides-from-the-help-pane) décrit comment trouver les guides de tâches appropriés à votre produit. 
 
 ![Vue de lecture du Guide de tâche](./media/task-guide-ops.png)
 
 Pour démarrer l'expérience guidée et interactive, cliquez sur **Démarrer le guide de tâche** au bas du volet Aide. Un pointeur noir apparaît et indique l'action que vous devez effectuer. Suivez les instructions qui s'affichent dans l'IU et entrez les données telles qu'elles sont indiquées. 
+
 ![Instruction d'étape du Guide de tâche](./media/task-guide-step-1-ops.png)
 
 > [!IMPORTANT] 
@@ -126,7 +126,11 @@ Pour démarrer l'expérience guidée et interactive, cliquez sur **Démarrer le 
 
 Les guides de tâche sont créés à l'aide de l'enregistreur de tâches. Lorsque vous utilisez Enregistreur de tâches, toutes les actions effectuées dans l'IU de Finance and Operations (cliquer sur des menus, modifier les paramètres, entrer des données) sont enregistrées. Les étapes que vous enregistrez sont collectivement appelées un enregistrement de tâche. Comme nous l'avons expliqué dans la section précédente, les enregistrements de tâche peuvent être affichés dans le volet Aide et lus en tant que guides de tâche. Il existe toutefois d'autres manières d'utiliser les enregistrements de tâches :
 
--   **Enregistrer les enregistrements de tâches dans BPM** – Vous pouvez enregistrer un enregistrement de tâche dans la bibliothèque BPM dans le crédit. Lorsque vous enregistrez un enregistrement de tâche dans BPM, un organigramme est généré et affiché avec les étapes de l'enregistrement. **Remarque :** pour afficher un enregistrement de tâche dans le volet Aide de Finance and Operations et le lire comme un guide de tâche, vous devrez enregistrer l'enregistrement dans une bibliothèque BPM.
+-   **Enregistrer les enregistrements de tâches dans BPM** – Vous pouvez enregistrer un enregistrement de tâche dans la bibliothèque BPM dans le crédit. Lorsque vous enregistrez un enregistrement de tâche dans BPM, un organigramme est généré et affiché avec les étapes de l'enregistrement. 
+
+    > [!Note]
+    > Pour afficher un enregistrement de tâche dans le volet Aide de Finance and Operations et le lire comme un guide de tâche, vous devrez enregistrer l'enregistrement dans une bibliothèque BPM.
+    
 -   **Enregistrer les enregistrements de tâche en tant que documents Word** – en enregistrant un enregistrement de tâche en tant que document Microsoft Word, vous pouvez facilement créer des manuels de formation imprimables pour votre organisation.
 
 Pour plus d'informations sur l'enregistrement de tâche, consultez [Enregistreur de tâches dans Finance and Operations](../../dev-itpro/user-interface/task-recorder.md).
@@ -142,7 +146,7 @@ Pour accéder au contenu de l'aide dans Finance and Operations, cliquez sur l'ic
 
 ### <a name="accessing-help-topics-from-the-help-pane"></a>Accès aux rubriques d'aide à partir du volet Aide
 
-À partir du volet Aide, vous pouvez accéder aux articles qui s'appliquent au client Finance and Operations. Lorsque vous ouvrez le volet d'aide et que vous cliquez sur l'onglet **Wiki**, vous verrez les articles qui s'appliquent à la page sur laquelle vous vous trouvez dans Finance and Operations. Si aucun article n'est trouvé, vous pouvez entrer des mots clés pour affiner votre recherche. Lorsque vous cliquez sur un article dans le volet Aide, un nouvel onglet s'ouvre dans votre navigateur et affiche l'article. 
+À partir du volet Aide, vous pouvez accéder aux articles qui s'appliquent au client Finance and Operations. Lorsque vous ouvrez le volet d'aide et que vous cliquez sur l'onglet **Aide**, vous verrez les articles qui s'appliquent à la page sur laquelle vous vous trouvez dans Finance and Operations. Si aucun article n'est trouvé, vous pouvez entrer des mots clés pour affiner votre recherche. Lorsque vous cliquez sur un article dans le volet Aide, un nouvel onglet s'ouvre dans votre navigateur et affiche l'article. 
 
 > [!IMPORTANT]
 > Cette section ne s'applique pas à Dynamics 365 for Talent. Le système d'aide de Talent est automatiquement connecté aux guides de tâches pour le produit. De même, vous ne pouvez pas créer de guides de tâche personnalisés pour Talent. 
@@ -160,7 +164,9 @@ Avant de pouvoir accéder aux guides de tâche à partir du volet Aide, un admin
 Sur la page **Paramètres système**, procédez comme suit :
 
 1.  **Important** : la première fois que vous ouvrez l'onglet Aide, vous devez vous connecter à Lifecycle Services. Veillez à cliquer sur le lien au milieu de l'écran, attendez la connexion, fermez la boîte de dialogue, puis cliquez sur **OK** pour accéder à l'écran Paramètres.
+
 ![Se connecter à LCS](./media/connect-to-lcs-crop-1024x365.png)
+
 2.  Sélectionnez le projet Lifecycle Services auquel se connecter.
 3.  Sélectionnez les bibliothèques BPM (dans le projet sélectionné) à partir desquelles récupérer les enregistrements de tâche.
     - Pour le contenu Finance and Operations et Microsoft, sélectionnez la bibliothèque unifiée QPC de février 2017 pour Microsoft Dynamics 365 for Finance and Operations. 
@@ -173,38 +179,29 @@ Une fois que l'administrateur système a effectué ces étapes, vous pouvez ouvr
 
 ![Vue de lecture du Guide de tâche](./media/task-guide-ops.png)
 
-### <a name="where-are-the-translated-task-guides"></a>Où se trouvent les guides de tâche traduits ?
+### <a name="where-are-the-translated-task-guides-for-microsoft-libraries"></a>Où se trouvent les guides de tâches traduits pour les bibliothèques Microsoft ?
 
 Les guides de tâche traduits sont disponibles dans les bibliothèques avec la mention « All languages » dans le titre. Dans Finance and Operations, pour afficher l'aide du guide de tâche localisé, assurez-vous que vous êtes connecté à une bibliothèque appropriée. La langue dans laquelle s'affiche un guide de tâche est contrôlée pour chaque utilisateur par les paramètres de langue sous **Options** &gt; **Préférences**. 
 -   Si un guide de tâche a été traduit, lorsque vous ouvrez ce guide de tâche, tout le texte du guide de tâche s’affiche dans la langue sélectionnée.
 -   Si un guide de tâche n'a pas encore été traduit, lorsque vous ouvrez ce guide de tâche, une partie du texte (texte des commandes) s’affiche dans la langue sélectionnée.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
-Le tableau suivant répertorie nos sites Web. Le contenu de nos sites Web est organisé de manière à suivre le cycle de vie du client. Chaque phase est prise en charge par un ensemble de sites différent. Les sites qui ont un astérisque (\*) en regard de leur nom nécessitent une identification de connexion à l'aide d'un compte associé à un plan de service.
+
+- [Système d'aide de Finance and Operations (fiche téléchargeable)](https://mbs.microsoft.com/customersource/global/AX/learning/fact-sheets/msdaxhelpsystemfactsheet)
+- [Enregistreur de tâches](../../dev-itpro/user-interface/task-recorder.md)
+- [Création d'une documentation ou d'une formation à l'aide d'enregistrements de tâche](../../dev-itpro/user-interface/task-recorder.md)
+
+Le tableau suivant répertorie nos sites Web. Les sites qui ont un astérisque (\*) en regard de leur nom nécessitent une identification de connexion à l'aide d'un compte associé à un plan de service.
 
 | site ;                                                                     | description ;                                                                                                                                                                                                                                |
 |--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Docs.microsoft.com](/dynamics365/) | Hôtes ou liens vers toute la documentation produit pour Dynamics 365.                                                                                                                                                               |
-| [Lifecycle Services](http://lcs.dynamics.com/en/)\*                      | Fournit un espace de travail collaboratif basé sur le cloud que les clients et leurs partenaires peuvent utiliser pour gérer les projets Dynamics 365 for Finance and Operations des préventes à la mise en œuvre et aux opérations. Ce site est utile dans toutes les phases d'une implémentation. |
-| [CustomerSource](http://www.customersource.com/)\*                       | Héberge des ressources de formation approfondie et est le principal site de support pour Dynamics 365 for Finance and Operations. Une identification peut être demander pour accéder à des ressources spécifiques sur le site.                                                                      |
+| [Microsoft Learn](https://docs.microsoft.com/learn/) | Site d'eLearning gratuit de Microsoft.                                                                                                                                                               |
+| [Lifecycle Services](https://lcs.dynamics.com/en/)\*                      | Fournit un espace de travail collaboratif basé sur le cloud que les clients et leurs partenaires peuvent utiliser pour gérer les projets Dynamics 365 for Finance and Operations des préventes à la mise en œuvre et aux opérations. Ce site est utile dans toutes les phases d'une implémentation. |
 | [Blog de support](http://aka.ms/AXSupportBlog)                              | Fournit des conseils et des astuces publiés par l'équipe de support de Dynamics 365 for Finance and Operations.                                                                                                                                                  |
-| [MSDN](http://aka.ms/AXMSDN)                                             | Héberge du contenu de versions précédentes, rédigé pour les développeurs.                                                                                                                                                                       |
-| [TechNet](http://aka.ms/TechNet)                                         | Héberge du contenu de versions précédent rédigé pour les informaticiens et les utilisateurs de l'application.                                                                                                                                           |
-| [Communauté Dynamics](http://community.dynamics.com/)                  | Héberge des blogs, des forums et des vidéos.                                                                                                                                                                                                           |
+| [Docs.microsoft.com/previous versions](https://docs.microsoft.com/en-us/previous-versions/dynamics/)                                             | Héberge le contenu des versions précédentes.                                                                                                                                                                       |
+| [Communauté Dynamics](https://community.dynamics.com/)                  | Héberge des blogs, des forums et des vidéos.                                                                                                                                                                                                           |
 | [Microsoft.com/dynamics365/](https://www.microsoft.com/en-us/dynamics365/home)                 | Fournit une évaluation et des informations commerciales.                                                                                                                                                                                                 |
+| [CustomerSource](https://mbs.microsoft.com/customersource/)\*                      | Héberge certains ressources de formation pour Finance and Operations, des états et des livres blancs téléchargeables, et est le principal site de support pour les titulaires d'un plan de services. Peut nécessiter un plan de services pour accéder à certaines ressources sur le site.     |
 
-
-
-<a name="additional-resources"></a>Ressources supplémentaires
---------
-[Système d'aide de Finance and Operations (fiche téléchargeable)](https://mbs.microsoft.com/customersource/global/AX/learning/fact-sheets/msdaxhelpsystemfactsheet)
-
-[Enregistreur de tâches](../../dev-itpro/user-interface/task-recorder.md)
-
-[Création d'une documentation ou d'une formation à l'aide d'enregistrements de tâche](../../dev-itpro/user-interface/task-recorder.md)
-
-[Guides de tâches nouveaux ou mis à jour (novembre 2016)](new-task-guides-november-2016.md)
-[Guides de tâches nouveaux ou mis à jour (août 2016)](new-updated-task-guides-available-august-2016.md)
-[Guides de tâches nouveaux ou mis à jour (mai 2016)](new-updated-task-guides-available-may-2016.md)
-[Guides de tâches nouveaux ou mis à jour (février 2016)](new-task-guides-available-february-2016.md)
 

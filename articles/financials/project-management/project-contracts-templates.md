@@ -3,7 +3,7 @@ title: Synchroniser les contrats de projet et les projets directement de Project
 description: "Cette rubrique décrit le modèle et les tâches sous-jacentes qui sont utilisés pour synchroniser les contrats de projet et les projets directement entre Microsoft Dynamics 365 for Project Service Automation et Microsoft Dynamics 365 for Finance and Operations."
 author: KimANelson
 manager: AnnBe
-ms.date: 07/20/2018
+ms.date: 10/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: knelson
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 65a274323a2d95c9c76727c9e40aa7e649e6350a
+ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
+ms.openlocfilehash: 0889bc233674cb80dd056ac77edb5c936c6633a7
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 11/01/2018
 
 ---
 
@@ -95,8 +95,8 @@ Lorsque la solution d'intégration de Project Service Automation avec Finance an
 ## <a name="prerequisites-and-mapping-setup"></a>Conditions préalables et paramétrage de mise en correspondance
 
 - Avant toute synchronisation des contrats de projet et des projets, vous devez synchroniser les comptes.
-- Dans votre ensemble de connexions, ajoutez une mise en correspondance des champs de clé d'intégration pour **msdyn\_organizationalunits** à **msdyn\_name \[Name\]**. Vous devez d'abord ajouter un projet à l'ensemble de connexions. Pour plus d'informations sur les clés d'intégration, voir [Intégration des données de Dynamics 365](https://docs.microsoft.com/en-us/common-data-service/entity-reference/dynamics-365-integration).
-- Dans votre ensemble de connexions, ajoutez une mise en correspondance des champs de clé d'intégration pour **msdyn\_projects** à **msdynce\_projectnumber \[Project Number\]**. Vous devez d'abord ajouter un projet à l'ensemble de connexions. Pour plus d'informations sur les clés d'intégration, voir [Intégration des données de Dynamics 365](https://docs.microsoft.com/en-us/common-data-service/entity-reference/dynamics-365-integration).
+- Dans votre ensemble de connexions, ajoutez une mise en correspondance des champs de clé d'intégration pour **msdyn\_organizationalunits** à **msdyn\_name \[Name\]**. Vous pouvez d'abord devoir ajouter un projet à l'ensemble de connexions. Pour plus d'informations, voir [Intégration de données dans Common Data Service pour les applications](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
+- Dans votre ensemble de connexions, ajoutez une mise en correspondance des champs de clé d'intégration pour **msdyn\_projects** à **msdynce\_projectnumber \[Project Number\]**. Vous pouvez d'abord devoir ajouter un projet à l'ensemble de connexions. Pour plus d'informations, voir [Intégration de données dans Common Data Service pour les applications](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
 - **SourceDataID** pour les contrats de projet et les projets peut être mis à jour sur une autre valeur ou supprimé de la mise en correspondance. La valeur de modèle par défaut est **Project Service Automation**.
 - La mise en correspondance **PaymentTerms** doit être mise à jour pour refléter les conditions de paiement valides dans Finance and Operations. Vous pouvez également supprimer la mise en correspondance de la tâche de projet. La mise en correspondance des valeurs par défaut a des valeurs par défaut pour les données de démonstration. Le tableau suivant indique les valeurs dans Project Service Automation.
 

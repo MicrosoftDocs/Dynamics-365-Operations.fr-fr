@@ -3,7 +3,7 @@ title: "Page d'accueil de l'application Dynamics 365 for Unified Operations Mob
 description: "Cette rubrique décrit l'application mobile Microsoft Dynamics 365 for Unified Operations et fournit des liens vers des ressources qui peuvent vous aider à l'implémentation de votre organisation."
 author: sericks007
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 10/26/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: 96a9075294c1f2a9cfde03be1aaaa26af90de4c2
-ms.openlocfilehash: d6d26da330974305fa3725fe7c2506d198b17e2c
+ms.sourcegitcommit: 3e9ec83e2cecdf8a7ec4ce3db1a80a310fe07255
+ms.openlocfilehash: 5666bee776e3d97244ce4830ac59971831848e71
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/04/2018
+ms.lasthandoff: 10/26/2018
 
 ---
 
@@ -61,7 +61,7 @@ La navigation dans l'application mobile utilise quatre éléments de base : le 
 ## <a name="implementation-process"></a>Processus d'implémentation
 L'illustration suivante présente le processus pour implémenter les deux espaces de travail mobiles qui sont fournis par Microsoft et les espaces de travail mobiles personnalisés. 
 
-![Processus d'implémentation d'applications mobiles](./media/Mobile-implementation-process-5.png)
+[![Processus d'implémentation d'applications mobiles](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
 
 Le tableau suivant contient des liens vers des ressources qui vous aident à implémenter les deux espaces de travail mobiles qui sont fournis par Microsoft et les espaces de travail mobiles personnalisés. Les numéros dans la première colonne correspondent aux étapes numérotées dans l'illustration précédente.
 

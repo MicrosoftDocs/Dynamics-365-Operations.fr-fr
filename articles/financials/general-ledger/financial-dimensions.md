@@ -3,7 +3,7 @@ title: "Dimensions financières"
 description: "Cette rubrique décrit les différents types de dimensions financières et leur configuration."
 author: aprilolson
 manager: AnnBe
-ms.date: 08/24/2018
+ms.date: 10/26/2018
 ms.topic: article
 ems.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: d6b7b1219974cb5de1a625d87c3bce2a4439470b
-ms.openlocfilehash: 9973d03de031ad2fa5647bb167c12b9231633a22
+ms.sourcegitcommit: 003b7eac16c1be50bc982da0672df42a87a69722
+ms.openlocfilehash: bda8b14b1752ca67fc4eeec6d6345dcf3968179d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 10/01/2018
+ms.lasthandoff: 11/05/2018
 
 ---
 
@@ -51,9 +51,9 @@ Voici certaines des limitations :
 
 ## <a name="custom-dimensions"></a>Dimensions personnalisées
 
-Pour créer une dimension financière définie par l'utilisateur, dans le champ **Utiliser les valeurs à partir de**, sélectionnez **&lt;&nbsp;Dimension personnalisée&nbsp;&gt;**.
+Pour créer une dimension financière définie par l'utilisateur, dans le champ **Utiliser les valeurs à partir de**, sélectionnez **Dimension personnalisée**.
 
-Vous pouvez également spécifier un masque de compte pour limiter la quantité et le type d'informations qu peuvent être entrées pour les valeurs de dimension. Vous pouvez entrer des caractères qui restent identiques pour chaque valeur de dimension, telles que des lettres ou un trait d'union (-). Vous pouvez également entrer des symboles dièse (\#) et des esperluettes (&) comme espaces réservés pour les caractères qui changent chaque fois qu'une valeur de dimension est créée. Utilisez un symbole dièse (\#) comme espace réservé pour un nombre et une esperluette (&) comme espace réservé pour une lettre. Le champ du masque de format est disponible uniquement lorsque vous sélectionnez **&lt;&nbsp;Dimension personnalisée&nbsp;&gt;** dans le champ **Utiliser les valeurs à partir de**.
+Vous pouvez également spécifier un masque de compte pour limiter la quantité et le type d'informations qu peuvent être entrées pour les valeurs de dimension. Vous pouvez entrer des caractères qui restent identiques pour chaque valeur de dimension, telles que des lettres ou un trait d'union (-). Vous pouvez également entrer des symboles dièse (\#) et des esperluettes (&) comme espaces réservés pour les caractères qui changent chaque fois qu'une valeur de dimension est créée. Utilisez un symbole dièse (\#) comme espace réservé pour un nombre et une esperluette (&) comme espace réservé pour une lettre. Le champ du masque de format est disponible uniquement lorsque vous sélectionnez **Dimension personnalisée** dans le champ **Utiliser les valeurs à partir de**.
 
 **Exemple**
 
@@ -108,14 +108,30 @@ Vous pouvez paramétrer des valeurs dérivées sur la page des dimensions.
 
 Entrez les combinaisons de dimensions qui doivent être dérivées de la dimension dans la première colonne. Par exemple, pour utiliser le centre de coût comme dimension d'où sont dérivées le département et l'emplacement, entrez le centre de coût 10, le département 20 et l'emplacement 30. Ensuite, lorsque vous entrez le centre de coût 10 dans un enregistrement principal ou sur une page de transaction, le département 20 et l'emplacement 30 sont entrés par défaut.
 
-Le processus de dimension dérivée ne remplace pas les valeurs existantes des dimensions dérivées. Par exemple, si vous entrez le centre de coût 10 et qu'aucune autre dimension n'est entrée, le département 20 et l'emplacement 30 sont entrés par défaut. Cependant, si vous modifiez le centre de coût, les valeurs qui ont déjà été établies ne sont pas modifiées. Par conséquent, vous pouvez établir des dimensions par défaut sur les enregistrements principaux, et ces dimensions ne seront pas modifiées par les dimensions dérivées.
+### <a name="overriding-existing-values-with-derived-dimensions"></a>Remplacement des valeurs existantes par des dimensions dérivées
+ 
+Par défaut, le processus de dimension dérivée ne remplace pas les valeurs existantes des dimensions dérivées. Par exemple, si vous entrez le centre de coût 10 et qu'aucune autre dimension n'est entrée, le département 20 et l'emplacement 30 sont entrés par défaut. Cependant, si vous modifiez le centre de coût, les valeurs qui ont déjà été établies ne sont pas modifiées. Par conséquent, vous pouvez établir des dimensions par défaut sur les enregistrements principaux, et ces dimensions ne seront pas modifiées par les dimensions dérivées.
+
+Vous pouvez modifier le comportement des dimensions dérivées pour remplacer les valeurs existantes en activant la case à cocher **Remplacer les valeurs de dimension existantes par les valeurs dérivées** sur la page **Dimensions dérivées**. Si ce champ est sélectionné, vous pouvez entrer une dimension avec des valeurs de dimension dérivées et ces valeurs de dimension dérivées remplacent toutes les valeurs déjà existantes. À l'aide de l'exemple précédent, si vous entrez le centre de coût 10 et qu'aucune autre dimension n'est entrée, le département 20 et l'emplacement 30 sont entrés par défaut. Toutefois, si les valeurs étaient déjà le département 50 et l'emplacement 60, les valeurs sont désormais modifiées avec le département 20 et l'emplacement 30.
+ 
+Les dimensions dérivées avec ce paramètre ne remplacent pas automatiquement les valeurs de dimensions par défaut existantes lorsque des valeurs de dimension sont utilisées par défaut. Les valeurs de dimension seront uniquement remplacées lorsque vous entrerez une nouvelle valeur de dimension sur une page et qu'il existera des valeurs dérivées pour cette dimension sur la page.
+
+### <a name="preventing-changes-with-derived-dimensions"></a>Empêcher des modifications avec des dimensions dérivées
+ 
+Lorsque vous utilisez **Ajouter un segment** sur **Page de dimensions dérivées** pour ajouter un segment comme dimension dérivée, une option est fournie au bas de la page **Ajouter un segment** vous permettant d'empêcher que des modifications soient apportées à cette dimension lorsqu'elle est dérivée sur une page. Le paramètre par défaut est désactivé afin de ne pas empêcher les valeurs de dimension dérivées d'être modifiées. Modifiez le paramètre sur **Oui** si vous voulez empêcher la dimension d'être modifiée après avoir été dérivée. Par exemple, si la valeur de la dimension Département est dérivée de la valeur de la dimension Centre de coût, la valeur Département ne peut pas être modifiée si le paramètre **Empêcher les modifications** est **Oui**. 
+ 
+Le paramètre n'empêche pas les modifications si la valeur de dimension est valide mais qu'elle n'est pas répertoriée dans la liste de dimensions dérivées. Par exemple, si le département 20 est dérivé du centre de coût 10 et que vous entrez le centre de coût 10, vous ne pourrez pas modifier le département 20. Toutefois, si vous entrez le centre de coût 20 et qu'il n'est pas dans la liste des dimensions dérivées pour le centre de coût, vous pouvez modifier la valeur Département. 
+ 
+Dans tous les cas, la valeur du compte et toutes les valeurs des dimensions seront validées par rapport aux structures de compte une fois les valeurs de dimensions dérivées appliquées. Si vous utilisez des dimensions dérivées et que leur validation échoue une fois utilisées sur une page, vous devez modifier les valeurs de dimensions dérivées sur la page de dimensions dérivées avant de pouvoir les utiliser dans les transactions. 
+ 
+Lorsque vous modifiez les dimensions de l'organisateur **Dimensions financières**, la dimension marquée pour empêcher les modifications ne sera pas modifiable. Si vous entrez un compte et des dimensions dans le contrôle d'entrée segmenté d'une page, les dimensions sont modifiables. Toutefois, lorsque vous déplacez la mise en surbrillance du contrôle d'entrée segmenté et que vous passez à un autre champ ou effectuez une action, le compte et les dimensions seront validés par rapport à la liste de dimensions dérivées et les structures de compte pour s'assurer que vous avez entré les valeurs appropriées. 
 
 ### <a name="derived-dimensions-and-entities"></a>Dimensions dérivées et entités
 
 Vous pouvez paramétrer les segments et les valeurs des dimensions dérivées à l'aide d'entités.
 
 - L'entité Dimensions dérivées paramètre les dimensions pilotes et les segments utilisés pour ces dimensions.
-- L'entité DerivedDimensionValue permet d'importer les valeurs qui doivent être dérivées pour chaque dimension pilote.
+- L'entité Valeur de dimensions dérivées permet d'importer les valeurs qui doivent être dérivées pour chaque dimension pilote.
 
 Lorsque vous utilisez une entité pour importer des données, si cette entité importe des dimensions, les règles des dimensions dérivées sont appliquées pendant l'importation sauf si l'entité remplace spécifiquement ces dimensions.
 

@@ -3,14 +3,14 @@ title: "Concepteur de formule dans les états électroniques (ER)"
 description: "Cette rubrique décrit l'utilisation du concepteur de formule dans la génération d'états électroniques."
 author: NickSelin
 manager: AnnBe
-ms.date: 04/04/2018
+ms.date: 10/03/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
-ms.reviewer: kfend
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: d3ac6ea7b104428f364385e1fd3ed221cae8498d
+ms.sourcegitcommit: f0ded563ecf0b6d0ce67f046f631d8c4dcfc7802
+ms.openlocfilehash: 1dc584355c8992ee701169fd5d29ad7b0300a498
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 10/22/2018
 
 ---
 
@@ -252,6 +252,12 @@ Les tables suivantes décrivent les fonctions de manipulation des données que v
 <td><strong>SPLIT (&quot;abcd&quot;, 3)</strong> renvoie une liste composée de deux enregistrements avec un champ <strong>CHAÎNE</strong>. Le champ du premier enregistrement contient le texte <strong>&quot;abc&quot;</strong>, et le champ du deuxième enregistrement contient le texte <strong>&quot;d&quot;</strong>.</td>
 </tr>
 <tr>
+<td>SPLIT (entrée, séparateur)</td>
+<td>Fractionne la chaîne d'entrée spécifiée en sous-chaînes, en fonction du délimiteur spécifié.</td>
+<td><strong>SPLIT (&quot;XAb aBy&quot;, &quot;aB&quot;)</strong> renvoie une liste composée de trois enregistrements avec un champ <strong>CHAÎNE</strong>. Le champ dans le premier enregistrement contient le texte <strong>&quot;X&quot;</strong>, le champ du deuxième enregistrement contient le texte &quot;&nbsp;&quot; et le champ dans le troisième enregistrement contient le texte <strong>&quot;y&quot;</strong>. Si le séparateur est vide, une nouvelle liste est retournée, composée d'un enregistrement avec un champ <strong>CHAÎNE</strong> qui contient le texte d'entrée. Si l'entrée est vide, une nouvelle liste vide est retournée.
+Si l'entrée ou le séparateur n'est pas spécifié (null), une exception d'application est levée.</td>
+</tr>
+<tr>
 <td>SPLITLIST (list, number)</td>
 <td>Fractionne la liste spécifiée en lots, dont chacun contient le nombre d'enregistrements spécifié. Renvoie le résultat comme nouvelle liste de traitements par lots contenant les éléments suivants :
 <ul>
@@ -399,12 +405,13 @@ SELECT ... FROM CUSTINVOICETABLE T1 CROSS JOIN CUSTINVOICEJOUR T2 CROSS JOIN CUS
 </ul>
 À l'exécution, les champs <strong>Étiquette</strong> et <strong>Description</strong> renvoient des valeurs basées sur les paramètres de langue du format et la langue spécifiée. Le champ <strong>Est traduit</strong> indique si le champ <strong>Libellé</strong> a été traduit dans la langue spécifiée.
 </td>
-<td>Par exemple, vous utilisez le type de source de données <strong>Champ calculé</strong> pour configurer les sources de données <strong>enumType_de</strong> et <strong>enumType_deCH</strong> pour l'énumération du modèle de données <strong>enumType</strong> :
+<td>Par exemple, vous utilisez le type de source de données <strong>Champ calculé</strong> pour configurer les sources de données <strong>enumType_de</strong> et <strong>enumType_deCH</strong> pour l'énumération du modèle de données <strong>enumType</strong>.
 <ul>
 <li>enumType_de = <strong>LISTOFFIELDS</strong> (enumType, &quot;de&quot;)</li>
 <li>enumType_deCH = <strong>LISTOFFIELDS</strong> (enumType, &quot;de-CH&quot;)</li>
 </ul>
-Dans ce cas, vous pouvez utiliser l'expression suivante pour obtenir l'étiquette de la valeur d'énumération en allemand suisse, si la traduction est disponible. Si la traduction en suisse allemand n'est pas disponible, l'étiquette est en allemand : <strong>IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)</strong>.
+<p>Dans ce cas, vous pouvez utiliser l'expression suivante pour obtenir l'étiquette de la valeur d'énumération en allemand suisse, si la traduction est disponible. Si la traduction suisse-allemande n'est pas disponible, l'étiquette est en allemand.</p>
+IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)
 </td>
 </tr>
 <tr>
@@ -421,7 +428,7 @@ Dans ce cas, vous pouvez utiliser l'expression suivante pour obtenir l'étiquett
 <p><a href="./media/ger-splitlistbylimit-datasources.png"><img src="./media/ger-splitlistbylimit-datasources.png" alt="Data sources" class="alignnone size-full wp-image-1204073" width="320" height="208" /></a></p>
 <p>L'illustration suivante présente le résultat de l'exécution du format. Dans ce cas, la sortie est une liste plate des articles de marchandise.</p>
 <p><a href="./media/ger-splitlistbylimit-output.png"><img src="./media/ger-splitlistbylimit-output.png" alt="Output" class="alignnone size-full wp-image-1204083" width="462" height="204" /></a></p>
-<p>Dans les illustrations suivantes, le même format a été ajusté de manière à présenter la liste des articles de marchandise par lots lorsqu'un seul lot doit inclure des marchandises et le poids total ne doit pas dépasser la limite de 9.</p>
+<p>Dans les illustrations suivantes, le même format a été ajusté de manière à présenter la liste des articles de marchandise par lots lorsqu'un seul lot doit inclure des marchandises et le poids total ne doit pas dépasser la limite de 9.</p>
 <p><a href="./media/ger-splitlistbylimit-format-1.png"><img src="./media/ger-splitlistbylimit-format-1.png" alt="Adjusted format" class="alignnone size-full wp-image-1204103" width="466" height="438" /></a></p>
 <p><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="Data sources for the adjusted format" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a></p>
 <p>L'illustration suivante présente le résultat de l'exécution du format ajusté.</p>
@@ -432,7 +439,7 @@ Dans ce cas, vous pouvez utiliser l'expression suivante pour obtenir l'étiquett
 <tr>
 <td>FILTER (list, condition)</td>
 <td>Renvoie la liste spécifiée une fois que la requête a été modifiée pour filtrer la condition spécifiée. Cette fonction diffère de la fonction <strong>WHERE</strong>, car la condition spécifiée est appliquée à toute source de données ER du type <strong>Enregistrements de table</strong> au niveau de la base de données. La liste et la condition peuvent être définies à l'aide de tables et de relations.</td>
-<td>Si <strong>Fournisseur</strong> est configuré comme source de données de génération d'états électroniques qui fait référence à la table VendTable, <strong>FILTER (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> renvoie la liste des fournisseurs faisant partie du groupe de fournisseurs 40. Si <strong>Fournisseur</strong> est configuré comme source de données ER qui fait référence à la table <strong>VendTable</strong> et si <strong>parmVendorBankGroup</strong> est configuré comme source de données ER qui renvoie une valeur du type de données <strong>Chaîne</strong>, <strong>FILTER (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> renvoie la liste des comptes fournisseurs appartenant à un groupe bancaire spécifique.</td>
+<td>Si <strong>Fournisseur</strong> est configuré comme source de données de génération d'états électroniques qui fait référence à la table VendTable, <strong>FILTER (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> renvoie la liste des fournisseurs faisant partie du groupe de fournisseurs 40. Si <strong>Fournisseur</strong> est configuré comme source de données de génération d'états électroniques qui fait référence à la table VendTable et si <strong>parmVendorBankGroup</strong> est configuré comme source de données de génération d'états électroniques qui renvoie une valeur du type de données <strong>Chaîne</strong>, <strong>FILTER (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> renvoie la liste des comptes fournisseurs appartenant à un groupe bancaire spécifique.</td>
 </tr>
 </tbody>
 </table>
@@ -446,12 +453,69 @@ Dans ce cas, vous pouvez utiliser l'expression suivante pour obtenir l'étiquett
 | NOT (condition) | Renvoie la valeur logique inversée de la condition spécifiée. | **NOT (TRUE)** renvoie **FALSE**. |
 | AND (condition 1\[, condition 2, …\]) | Renvoie la valeur **TRUE** si *toutes* les conditions spécifiées sont vraies. Sinon, renvoie la valeur **FALSE**. | **AND (1=1, "a"="a")** renvoie **TRUE**. **AND (1=2, "a"="a")** renvoie **FALSE**. |
 | OR (condition 1\[, condition 2, …\]) | Renvoie la valeur **FALSE** si *toutes* les conditions spécifiées sont fausses. Renvoie la valeur **TRUE** si *l'une* des conditions spécifiées est vraie. | **OR (1=2, "a"="a")** renvoie **TRUE**. |
+| VALUEIN (entrée, liste, expression d'élément de liste) | Détermine si l'entrée spécifiée correspond à une valeur quelconque d'un article dans la liste spécifiée. Retourne **TRUE** si l'entrée spécifiée correspond au résultat de l'exécution de l'expression spécifiée pour au moins un enregistrement. Sinon, renvoie la valeur **FALSE**. Le paramètre **entrée** représente le chemin d'accès d'un élément de données source. La valeur de cet élément est mise en correspondance. Le paramètre **liste** représente le chemin d'accès d'un élément de source de données du type de liste d'enregistrements comme une liste d'enregistrements qui contient une expression. La valeur de cet élément est comparée à l'entrée spécifiée. L'argument **expression d'article de liste** représente une expression qui indique ou contient un champ unique de la liste spécifiée à utiliser pour la mise en correspondance. | Pour obtenir des exemples, consultez la section [Exemples : VALUEIN (entrée, liste, expression d'élément de liste)](#examples-valuein-input-list-list-item-expression) ci-après. |
+
+#### <a name="examples-valuein-input-list-list-item-expression"></a>Exemples : VALUEIN (entrée, liste, expression d'élément de liste)
+En général la fonction **VALUEIN** est traduite en un ensemble de conditions **OR** :
+
+(input = list.item1.value) OR (input = list.item2.value) OR …
+
+##### <a name="example-1"></a>Exemple 1 :
+Vous définissez la source de données suivante dans votre modèle de mise en correspondance : **Liste** (type **Champ calculé**). Cette source de données contient l'expression **SPLIT ("a,b,c", ",")**.
+
+Lorsqu'une source de données est appelée qui est configurée comme l'expression **VALUEIN ("B", List, List.Value)**, elle retourne **TRUE**. Dans ce cas, la fonction **VALUEIN** est traduite en l'ensemble de conditions suivant :
+
+**(("B" = "a") or ("B" = "b") or ("B" = "c"))**, où **("B" = "b")** est égal à **TRUE**
+
+Lorsqu'une source de données est appelée qui est configurée comme l'expression **VALUEIN ("B", List, LEFT(List.Value, 0))**, elle retourne **FALSE**. Dans ce cas, la fonction **VALUEIN** est traduite en la condition suivante :
+
+**("B" = "")**, qui n'est pas égal à **TRUE**
+
+Notez que la limite supérieure du nombre de caractères dans le texte d'une telle condition est de 32 768 caractères. Par conséquent, vous ne devez pas créer de sources de données susceptibles de dépasser cette limite au moment de l'exécution. Si la limite est dépassée, l'application cesse de s'exécuter, et une exception est levée. Par exemple, cette situation peut se produire si la source de données est configurée comme **WHERE (List1, VALUEIN (List1.ID, List2, List2.ID)**, et les listes **List1** et **List2** contiennent un grand nombre d'enregistrements.
+
+Dans certains cas, la fonction **VALUEIN** est traduite en une instruction de base de données à l'aide de l'opérateur **EXISTS JOIN**. Ce comportement se produit lorsque la fonction **FILTER** est utilisée et que les conditions suivantes sont remplies :
+
+- L'option **ASK FOR QUERY** est désactivée pour la source de données de la fonction **VALUEIN** qui fait référence à la liste d'enregistrements. (Aucune condition supplémentaire n'est appliquée à cette source de données au moment de l'exécution.)
+- Aucune expression imbriquée n'est configurée pour la source de données de la fonction **VALUEIN** qui fait référence à la liste d'enregistrements.
+- Un élément de liste de la fonction **VALUEIN** fait référence à un champ (pas à une expression ou à une méthode) de la source de données spécifiée.
+
+Envisagez d'utiliser cette option au lieu de la fonction **WHERE** comme décrit précédemment dans cet exemple.
+
+##### <a name="example-2"></a>Exemple 2 :
+
+Vous définissez les sources de données suivantes dans la mise en correspondance des modèles :
+
+- **In** (type **Enregistrements de la table**), qui fait référence à la table Intrastat
+- **Port** (type **Enregistrements de la table**), qui fait référence à la table IntrastatPort
+
+Lorsqu'une source de données est appelée qui est configurée comme l'expression **FILTER (In, VALUEIN(In.Port, Port, Port.PortId)**, l'instruction SQL suivante est générée pour retourner les enregistrements filtrés de la table Intrastat :
+
+```
+select … from Intrastat
+exists join TableId from IntrastatPort
+where IntrastatPort.PortId = Intrastat.Port
+```
+
+Pour les champs **dataAreaId**, l'instruction SQL finale est générée en utilisant l'opérateur **IN**.
+
+##### <a name="example-3"></a>Exemple 3
+
+Vous définissez les sources de données suivantes dans la mise en correspondance des modèles :
+
+- **Le** (type **Champ calculé**), qui contient l'expression **SPLIT ("DEMF,GBSI,USMF", ",")**
+- **In** (type **Enregistrements de table**), qui fait référence à la table Intrastat et pour laquelle l'option **Cross-company** est activée
+
+Lorsqu'une source de données est appelée qui est configurée comme expression **FILTER (In, VALUEIN (In.dataAreaId, Le, Le.Value)**, l'instruction SQL finale contient la condition suivante :
+
+```
+Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
+```
 
 ### <a name="mathematical-functions"></a>Fonctions mathématiques
 
-| Fonction | Description | Exemple |
+| Fonction | Description  | Exemple |
 |----------|-------------|---------|
-| Retour marchandises (numéro) | Renvoie la valeur absolue du nombre spécifié. (En d'autres termes, renvoie le nombre sans son signe). | **ABS (-1)** renvoie **1**. |
+| Retour marchandises (numéro) | Renvoie la valeur absolue du nombre spécifié. (En d'autres termes, renvoie le nombre sans son signe.) | **ABS (-1)** renvoie **1**. |
 | POWER (number, power) | Renvoie le résultat d'élever le nombre positif spécifié à la puissance spécifiée. | **POWER (10, 2)** renvoie **100**. |
 | NUMBERVALUE (string, decimal separator, digit grouping separator) | Convertit la chaîne spécifiée en un chiffre. Le séparateur décimal spécifié est utilisé entre les parties entières et fractionnaires d'un nombre décimal. Le séparateur de regroupement de chiffres spécifié est utilisé comme séparateur de milliers. | **NUMBERVALUE("1 234,56", ",", " ")** renvoie la valeur **1234.56**. |
 | VALUE (string) | Convertit la chaîne spécifiée en un chiffre. Les virgules et les points (.) sont considérés comme des séparateurs de nombres décimaux, et un trait d'union (-) est utilisé comme signe moins. Lève une exception si la chaîne spécifiée contient d'autres caractères non numériques. | **VALUE ("1 234,56")** entraîne une exception. |
@@ -539,7 +603,7 @@ Dans ce cas, vous pouvez utiliser l'expression suivante pour obtenir l'étiquett
 </tr>
 <tr>
 <td>REPLACE (string, pattern, replacement, regular expression flag)</td>
-<td>Lorsque l'indicateur d'expression régulière spécifié a la valeur <strong>true</strong>, renvoie la chaîne spécifiée une fois qu'elle a été modifiée en appliquant l'expression régulière spécifiée sous la forme d'un argument de modèle pour cette fonction. Cette expression est utilisée pour rechercher les caractères qui doivent être remplacés. Les caractères de l'argument de remplacement spécifié sont utilisés pour remplacer les caractères qui sont recherchés. Lorsque l'indicateur d'expression régulière spécifié est <strong>false</strong>, cette fonction se comporte comme <strong>TRANSLATE</strong>.</td>
+<td>Lorsque le paramètre <strong>indicateur d'expression régulière</strong> spécifié a la valeur <strong>true</strong>, renvoie la chaîne spécifiée une fois qu'elle a été modifiée en appliquant l'expression régulière spécifiée sous la forme de l'argument <strong>modèle</strong> pour cette fonction. Cette expression est utilisée pour rechercher les caractères qui doivent être remplacés. Les caractères de l'argument <strong>remplacement</strong> spécifié sont utilisés pour remplacer les caractères qui sont recherchés. Lorsque le paramètre <strong>indicateur d'expression régulière</strong> spécifié a la valeur <strong>false</strong>, cette fonction se comporte comme <strong>TRANSLATE</strong>.</td>
 <td><strong>REPLACE (&quot;+1 923 456 4971&quot;, &quot;[^0-9]&quot;, &quot;&quot;, true)</strong> applique une expression régulière qui supprime tous les symboles non-numériques, et renvoie <strong>&quot;19234564971&quot;</strong>. <strong>REPLACE (&quot;abcdef&quot;, &quot;cd&quot;, &quot;GH&quot;, false)</strong> remplace le modèle <strong>&quot;cd&quot;</strong> par la chaîne <strong>&quot;GH&quot;</strong> et renvoie <strong>&quot;abGHef&quot;</strong>.</td>
 </tr>
 <tr>
@@ -567,14 +631,14 @@ Dans ce cas, vous pouvez utiliser l'expression suivante pour obtenir l'étiquett
 </ul>
 <p>Voici la formule qui peut être conçue :</p>
 <p>FORMAT (CONCATENATE (@&quot;SYS70894&quot;, &quot;. &quot;, @&quot;SYS18389&quot;), model.Customer.Name, DATETIMEFORMAT (model.ProcessingDate, &quot;d&quot;))</p>
-<p>Si un rapport est traité pour le client <strong>Litware Retail</strong> le 17 décembre 2015, dans la culture <strong>EN-US</strong> et la langue <strong>EN-US</strong>, cette formule renvoie le texte suivant, qui peut être présenté comme message d'exception à l'utilisateur :</p>
+<p>Si un rapport est traité pour le client <strong>Litware Retail</strong> le 17 décembre 2015, dans la culture <strong>EN-US</strong> et la langue <strong>EN-US</strong>, cette formule renvoie le texte suivant, qui peut être présenté à l'utilisateur comme message d'exception :</p>
 <p>&quot;Nothing to print. Customer Litware Retail is stopped for 12/17/2015.&quot;</p>
 <p>Si le même état est traité pour le client <strong>Litware Retail</strong> le 17 décembre 2015, dans la culture <strong>DE</strong> et la langue <strong>DE</strong>, la formule renvoie le texte suivant, qui utilise un format de date différent :</p>
 <p>&quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt.&quot;</p>
 <blockquote>[!NOTE] La syntaxe suivante est appliquée aux formules de génération d'états électroniques pour les libellés :
 <ul>
-<li><strong>Pour les libellés des ressources Finance and Operations :</strong> <strong>@&quot;X&quot;</strong>, où X est l'ID libellé de l'arbre d'objets d'application (AOA)</li>
-<li><strong>Pour les libellés se trouvant dans les configurations de génération d'états électroniques :</strong> <strong>@&quot;GER_LABEL:X&quot;</strong>, où X est l'ID libellé dans la configuration de génération d'états électroniques</li>
+<li><strong>Pour les libellés des ressources Finance and Operations :</strong> <strong>@&quot;X&quot;</strong>, où <strong>X</strong> est l'ID libellé de l'arbre d'objets d'application (AOA)</li>
+<li><strong>Pour les libellés se trouvant dans les configurations de génération d'états électroniques :</strong> <strong>@&quot;GER_LABEL:X&quot;</strong>, où <strong>X</strong> est l'ID libellé dans la configuration de génération d'états électroniques</li>
 </ul>
 </blockquote>
 </td>
@@ -616,7 +680,7 @@ Dans ce cas, vous pouvez utiliser l'expression suivante pour obtenir l'étiquett
 </tr>
 <tr>
 <td>GUIDVALUE (input)</td>
-<td>Convertissez l'entrée spécifiée du type de données <strong>Chaîne</strong> en un élément de données du type de données <strong>GUID</strong>.</td>
+<td>Convertissez l'entrée spécifiée du type de données <strong>Chaîne</strong> en un élément de données du type de données <strong>GUID</strong>.<blockquote>[!NOTE] Pour créer une conversion dans la direction opposée (c'est-à-dire, pour convertir l'entrée spécifiée du type de données <strong>GUID</strong> en un élément de données de type de données <strong>Chaîne</strong>), vous pouvez utiliser la fonction <strong>TEXT()</strong>.</blockquote></td>
 <td>Vous définissez les sources de données suivantes dans la mise en correspondance des modèles :
 <ul>
 <li><strong>myID</strong> (type <strong>Champ calculé</strong>), qui contient l'expression <strong>GUIDVALUE(&quot;AF5CCDAC-F728-4609-8C8B- A4B30B0C0AA0&quot;)</strong></li>
@@ -637,7 +701,7 @@ Lorsque ces sources de données sont définies, vous pouvez utiliser une express
 
 | Fonction | Description | Exemple |
 |----------|-------------|---------|
-| TEXT (input) | Renvoie l'entrée spécifiée une fois qu'elle a été convertie en une chaîne de texte qui est mise en forme en fonction des paramètres régionaux du serveur de l'instance Finance and Operations actuelle. Pour les valeurs de type **real**, la conversion de chaîne est limitée à deux décimales. | Si les paramètres régionaux du serveur de l'instance Finance and Operations sont définis comme **EN-US**, **TEXT (NOW ())** renvoie la date de la session Finance and Operations actuelle, 17 décembre 2015, comme chaîne de texte **12/17/2015 07:59:23 AM**. **TEXT (1/3)** renvoie **"0.33"**. |
+| TEXT (input) | Renvoie l'entrée spécifiée une fois qu'elle a été convertie en une chaîne de texte qui est mise en forme en fonction des paramètres régionaux du serveur de l'instance Finance and Operations actuelle. Pour les valeurs de type **real**, la conversion de chaîne est limitée à deux décimales. | Si les paramètres régionaux du serveur de l'instance Finance and Operations sont définis comme **EN-US**, **TEXT (NOW ())** renvoie la date de la session Finance and Operations actuelle, 17 décembre 2015, comme chaîne de texte **"12/17/2015 07:59:23 AM"**. **TEXT (1/3)** renvoie **"0.33"**. |
 | QRCODE (chaîne) | Renvoie une image de code à réponse rapide (code QR) au format binaire base64 pour la chaîne spécifiée. | **QRCODE ("Sample text")** renvoie **U2FtcGxlIHRleHQ=**. |
 
 ### <a name="data-collection-functions"></a>Fonctions de collecte des données
@@ -645,11 +709,11 @@ Lorsque ces sources de données sont définies, vous pouvez utiliser une express
 | Fonction | Description | Exemple |
 |----------|-------------|---------|
 | FORMATELEMENTNAME () | Renvoie le nom de l'élément du format actuel. Renvoie une chaîne vide lorsque l'indicateur **Collecter les détails sur les sorties** des fichiers actuels est désactivé. | Pour en savoir plus sur l'utilisation de cette fonction, consultez le guide de tâche **ER Utiliser les données de la sortie du format pour compter et additionner**, qui fait partie du processus d'entreprise **Acquérir/Développer des composants de services/solutions informatiques**. |
-| SUMIFS (key string for summing, criteria range1 string, criteria value1 string \[, criteria range2 string, criteria value2 string, …\]) | Renvoie la somme des valeurs des nœuds XML (où le nom est défini comme clé) qui a été collectée durant l'exécution du format et qui remplit les conditions spécifiées (paires de plages et de valeurs). Renvoie une valeur **0** (zéro) lorsque l'indicateur **Collecter les détails sur les sorties** des fichiers actuels est désactivé. | |
-| SUMIF (key string for summing, criteria range string, criteria value string) | Renvoie la somme des valeurs des nœuds XML (où le nom est défini comme clé) qui a été collectée durant l'exécution du format et qui remplit la condition spécifiée (plage et valeur). Renvoie une valeur **0** (zéro) lorsque l'indicateur **Collecter les détails sur les sorties** des fichiers actuels est désactivé. | |
-| COUNTIFS (criteria range1 string, criteria value1 string \[, criteria range2 string, criteria value2 string, …\]) | Renvoie le nombre de nœuds XML, qui a été collecté durant l'exécution du format et qui remplit les conditions spécifiées (paires de plages et de valeurs). Renvoie une valeur **0** (zéro) lorsque l'indicateur **Collecter les détails sur les sorties** des fichiers actuels est désactivé. | |
-| COUNTIF (criteria range string, criteria value string) | Renvoie le nombre de nœuds XML, qui a été collecté durant l'exécution du format et qui remplit la condition spécifiée (plage et valeur). Renvoie une valeur **0** (zéro) lorsque l'indicateur **Collecter les détails sur les sorties** des fichiers actuels est désactivé. | |
-| COLLECTEDLIST (criteria range1 string, criteria value1 string \[, criteria range2 string, criteria value2 string, …\]) | Renvoie la liste des valeurs de nœuds XML, qui a été collectée durant l'exécution du format et qui remplit les conditions spécifiées (plage et valeur). Renvoie une liste vide lorsque l'indicateur **Collecter les détails sur les sorties** des fichiers actuels est désactivé. | |
+| SUMIFS (key string for summing, criteria range1 string, criteria value1 string \[, criteria range2 string, criteria value2 string, …\]) | Renvoie la somme des valeurs collectées pour les nœuds XML (où le nom est défini comme clé) durant l'exécution du format et qui remplit les conditions spécifiées (paires de plages et de valeurs). Renvoie une valeur **0** (zéro) lorsque l'indicateur **Collecter les détails sur les sorties** des fichiers actuels est désactivé. | |
+| SUMIF (key string for summing, criteria range string, criteria value string) | Renvoie la somme des valeurs collectées pour les nœuds XML (où le nom est défini comme clé) durant l'exécution du format et qui remplit la condition spécifiée (une plage et valeur). Renvoie une valeur **0** (zéro) lorsque l'indicateur **Collecter les détails sur les sorties** des fichiers actuels est désactivé. | |
+| COUNTIFS (criteria range1 string, criteria value1 string \[, criteria range2 string, criteria value2 string, …\]) | Renvoie le nombre de nœuds XML, qui a été collecté durant l'exécution du format, et qui remplit les conditions spécifiées (paires de plages et de valeurs). Renvoie une valeur **0** (zéro) lorsque l'indicateur **Collecter les détails sur les sorties** des fichiers actuels est désactivé. | |
+| COUNTIF (criteria range string, criteria value string) | Renvoie le nombre de nœuds XML, qui a été collecté durant l'exécution du format, et qui remplit la condition spécifiée (une plage et valeur). Renvoie une valeur **0** (zéro) lorsque l'indicateur **Collecter les détails sur les sorties** des fichiers actuels est désactivé. | |
+| COLLECTEDLIST (criteria range1 string, criteria value1 string \[, criteria range2 string, criteria value2 string, …\]) | Renvoie la liste des valeurs collectées pour les nœuds XML durant l'exécution du format, et qui remplit les conditions spécifiées (une plage et valeur). Renvoie une liste vide lorsque l'indicateur **Collecter les détails sur les sorties** des fichiers actuels est désactivé. | |
 
 ### <a name="other-business-domainspecific-functions"></a>Autre fonctions (spécifiques au domaine d'affaires)
 
@@ -667,6 +731,9 @@ Lorsque ces sources de données sont définies, vous pouvez utiliser une express
 | FA\_BALANCE (fixed asset code, value model code, reporting year, reporting date) | Renvoie le conteneur de données préparé du solde des immobilisations. L'année de génération d'états doit être spécifiée comme valeur de l'énumération **AssetYear** dans Finance and Operations. | **FA\_SUM ("COMP-000001", "Current", AxEnumAssetYear.ThisYear, SESSIONTODAY ())** renvoie le conteneur de données préparé des soldes de l'immobilisation **"COMP-000001"** avec le modèle de valeur **"Current"** à la date de la session Finance and Operations actuelle. |
 | TABLENAME2ID (string) | Renvoie une représentation sous forme d'entier d'un ID table pour le nom de table spécifié. | **TABLENAME2ID ("Intrastat")** renvoie **1510**. |
 | ISVALIDCHARACTERISO7064 (string) | Renvoie la valeur booléenne **TRUE** lorsque la chaîne donnée représente un numéro de compte bancaire international (IBAN) valide. Sinon, renvoie la valeur booléenne **FALSE**. | **ISVALIDCHARACTERISO7064 ("AT61 1904 3002 3457 3201")** retourne **TRUE**. **ISVALIDCHARACTERISO7064 ("AT61")** retourne **FALSE**. |
+| NUMSEQVALUE (code souche de numéros, portée, ID portée) | Retourne la nouvelle valeur générée à partir d'une souche de numéros, selon le code souche de numéros, la portée, ainsi que l'ID portée spécifiés. La portée doit être spécifié comme valeur de l'énumération **ERExpressionNumberSequenceScopeType** (**Partagé**, **Entité juridique**, ou **Société**). Pour la portée **Partagé**, spécifiez une chaîne vide comme ID portée. Pour les portées **Société** et **Entité juridique**, spécifiez le code société comme ID portée. Pour les portées **Société** et **Entité juridique**, si vous spécifiez une chaîne vide comme ID portée, le code société actuel est utilisé. | Vous définissez les sources de données suivantes dans la mise en correspondance des modèles :<ul><li>**enumScope** (type **énumération Dynamics 365 for Operations**), qui fait référence à l'énumération **ERExpressionNumberSequenceScopeType**</li><li>**NumSeq** (type **Champ calculé**), qui contient l'expression **NUMSEQVALUE ("Gene\_1", enumScope.Company, "")**</li></ul>Lorsque la source de données **NumSeq** est appelée, elle renvoie la nouvelle valeur générée de la souche de numéros **Gene\_1** qui a été configurée pour la société qui fournit le contexte sous lequel le format ER est exécuté. |
+| NUMSEQVALUE (code souche de numéros) | Retourne la nouvelle valeur générée d'une souche de numéros, d'après la souche de numéros spécifiée, la portée **Société**, et (comme ID portée) le code société qui fournit le contexte sous lequel format ER est exécuté. | Vous définissez la source de données suivante dans votre modèle de mise en correspondance : **NumSeq** (type **Champ calculé**). Cette source de données contient l'expression **NUMSEQVALUE ("Gene\_1")**. Lorsque la source de données **NumSeq** est appelée, elle renvoie la nouvelle valeur générée de la souche de numéros **Gene\_1** qui a été configurée pour la société qui fournit le contexte sous lequel le format ER est exécuté. |
+| NUMSEQVALUE (ID enregistrement de souche de numéros) | Retourne la nouvelle valeur générée à partir d'une souche de numéros, selon l'ID enregistrement de la souche de numéros spécifié. | Vous définissez les sources de données suivantes dans la mise en correspondance des modèles :<ul><li>**LedgerParms** (type **Table**), qui fait référence à la table LedgerParameters</li><li>**NumSeq** (type **Champ calculé**), qui contient l'expression **NUMSEQVALUE (LedgerParameters.'numRefJournalNum()'.NumberSequenceId)**</li></ul>Lorsque la source de données **NumSeq** est appelée, elle renvoie la nouvelle valeur générée de la souche de numéros qui a été configurée dans les paramètres de la comptabilité pour la société qui fournit le contexte sous lequel le format ER est exécuté. Cette souche de numéros identifie de manière unique les journaux et sert de numéro de lot qui relie les transactions. |
 
 ### <a name="functions-list-extension"></a>Extension de la liste des fonctions
 
@@ -674,7 +741,6 @@ La génération d'état électroniques prend en charge une capacité d'extension
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Vue d'ensemble des États électroniques](general-electronic-reporting.md)
-
-[Extension de la liste des fonctions de génération d'états électroniques (ER)](general-electronic-reporting-formulas-list-extension.md)
+- [Vue d'ensemble des États électroniques](general-electronic-reporting.md)
+- [Extension de la liste des fonctions de génération d'états électroniques (ER)](general-electronic-reporting-formulas-list-extension.md)
 

@@ -17,10 +17,10 @@ ms.author: mikefalkner
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
-ms.openlocfilehash: 53740f6ed0d463de5ba962f1ba15b208634a0739
+ms.sourcegitcommit: c6502a6fb0ceaed75fd5bb6ec5b2f13db1879eea
+ms.openlocfilehash: 45033b8b015d468b7ee0f6c3fba5e6fb6201433e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 10/01/2018
+ms.lasthandoff: 10/12/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 10/01/2018
 
 ## <a name="view-settlements"></a>Afficher les règlements
 
-Le bouton **Afficher les règlements** dans le volet Actions permet d'accéder rapidement à l'historique des règlements et à d'autres informations sur l'ensemble de la transaction de règlement. Vous pouvez également afficher des transactions supplémentaires associées à la transaction sélectionnée, soit parce qu'elles faisaient partie du même règlement, soit parce qu'il s'agit de paiements créés dans le même journal des paiements.
+Le bouton **Afficher les règlements** dans le volet Actions permet d'accéder rapidement à l'historique des règlements et à des informations détaillées sur la transaction de règlement. Vous pouvez également afficher des transactions supplémentaires associées à la transaction sélectionnée, soit parce qu'elles faisaient partie du même règlement, soit parce qu'il s'agit de paiements créés dans le même journal des paiements.
 
 1. Sélectionnez **Comptabilité fournisseur \> Tous les fournisseurs**.
 2. Sélectionnez un fournisseur doté de transactions puis, dans le volet Actions, sous l'onglet **Fournisseur**, sélectionnez **Transactions**.
@@ -49,7 +49,7 @@ Le bouton **Afficher les règlements** dans le volet Actions permet d'accéder r
 
 ## <a name="global-transactions"></a>Transactions globales
 
-Le bouton **Transactions globales** a été ajouté à la page du fournisseur. Ce bouton vous permet d'afficher toutes les transactions d'un fournisseur dans toutes les entités juridiques. La page de liste **Transactions fournisseur** affiche les transactions uniquement pour les entités juridiques auxquelles l'utilisateur a accès, selon ses paramètres de sécurité.
+Le bouton **Transactions globales** s'affiche également sur la page de liste **Transactions fournisseur**. Ce bouton vous permet d'afficher toutes les transactions d'un fournisseur dans toutes les entités juridiques. La page de liste **Transactions fournisseur** affiche les transactions uniquement pour les entités juridiques auxquelles l'utilisateur a accès, selon ses paramètres de sécurité.
 
 La page de liste affiche toutes les transactions des fournisseurs qui ont le même ID de partie que le fournisseur par lequel vous avez commencé. Par exemple, si le fournisseur US-001 dans une entité juridique a le même ID de partie que le fournisseur DE-001 dans une autre entité juridique, toutes les transactions des deux ID fournisseur sont affichées.
 
@@ -67,13 +67,13 @@ Le filtre d'affichage des transactions en cours a été remplacé par un nouveau
 - **Tous** – Affiche toutes les transactions pour les fournisseurs sélectionnés (en cours et clôturées).
 - **Clôturé** – Affiche uniquement les transactions qui ont été totalement réglées et clôturées.
 - **En cours** – Affiche uniquement les transactions qui n'ont pas été totalement réglées.
-- **En cours à la date de référence** – Affiche uniquement les transactions qui n'ont pas été totalement réglées à une date que vous spécifiez. Lorsque vous sélectionnez cette option, vous pouvez modifier la date affichée en regard du filtre. Les transactions dont la valeur **Dernière date de règlement** est postérieure à la date spécifiée sont répertoriées dans la liste, même si ces transactions sont totalement réglées à la date actuelle. Toutefois, le solde représente les soldes à la date actuelle, et non à la date sélectionnée.
+- **Transactions en cours et clôturées à la date indiquée ou ultérieurement** – Affiche uniquement les transactions n'ayant pas été complètement réglées ou après une date que vous spécifiez. Lorsque vous sélectionnez cette option, vous pouvez modifier la date affichée en regard du filtre. Les transactions dont la valeur **Dernière date de règlement** est la date ou après la date spécifiée sont répertoriées dans la liste, même si ces transactions sont totalement réglées à la date actuelle. Toutefois, le solde représente les soldes à la date actuelle, et non à la date sélectionnée.
 
-Un filtre a été ajouté pour vous permettre de masquer les transactions de conversion de devise. Activez simplement la case à cocher **Masquer les réévaluations de devise**.
+Activez la case à cocher **Masquer les réévaluations de devise** pour masquer les transactions de conversion de devises.
 
-## <a name="more-easily-modify-due-dates-and-discount-dates"></a>Modifier plus facilement les dates d'échéance et les dates d'escompte
+## <a name="modify-due-dates-and-discount-dates"></a>Modifier les dates d'échéance et les dates d'escompte
 
-Vous pouvez mettre à jour les dates d'échéance et les dates d'escompte pour les transactions client en cours. Dans la version 8,1, l'expérience a été améliorée. Vous pouvez maintenant ajouter des dates d'échéance à la page de liste **Transactions fournisseur**. En cliquant sur la date d'échéance dans la page de liste **Transactions fournisseur**, vous pouvez également modifier les dates d'échéance, les dates d'escompte, les conditions de paiement et les conditions d'escompte de règlement dans la boîte de dialogue **Mettre à jour la date d'échéance et les dates d'escompte de règlement**.
+Vous pouvez mettre à jour les dates d'échéance et les dates d'escompte pour les transactions client en cours. Dans la version 8.1, vous pouvez maintenant ajouter des dates d'échéance à la page de liste **Transactions fournisseur**. En cliquant sur la date d'échéance dans la page de liste **Transactions fournisseur**, vous pouvez également modifier les dates d'échéance, les dates d'escompte, les conditions de paiement et les conditions d'escompte de règlement dans la boîte de dialogue **Mettre à jour la date d'échéance et les dates d'escompte de règlement**.
 
 ### <a name="activate-the-feature"></a>Activer la fonctionnalité
 
@@ -83,19 +83,19 @@ Pour ajouter des dates d'échéance à la page de liste **Transactions fournisse
 2. Sous l'onglet **Règlements**, définissez l'option **Afficher la date d'échéance et autoriser la modification** sur **Oui**.
 3. Pour activer cette fonctionnalité, de nouveaux champs ont été ajoutés aux transactions fournisseur. Ces champs seront renseignés lorsqu'une nouvelle transaction sera terminée. Ils seront également renseignés lorsque vous ouvrirez la boîte de dialogue **Mettre à jour la date d'échéance et les dates d'escompte de règlement**. Lorsque vous définissez l'option **Afficher la date d'échéance et autoriser la modification** sur **Oui**, la boîte de dialogue **Mettre à jour les informations de paiement** s'affiche.  Pour mettre à jour les transactions existantes immédiatement, sélectionnez **Mettre à jour toutes les transactions existantes**. Sinon, pour renseigner les champs uniquement pour les nouvelles transactions, sélectionnez **Poursuivre sans la mise à jour**.
 
-La date d'échéance est maintenant ajoutée à la page de liste **Transactions fournisseur**, et vous pouvez plus facilement modifier la date d'échéance et les dates d'escompte de règlement pour les transactions.
+La date d'échéance est maintenant ajoutée à la page de liste **Transactions fournisseur**, afin que vous puissiez facilement modifier la date d'échéance et les dates d'escompte de règlement pour les transactions.
 
 ### <a name="modify-the-payment-settings"></a>Modifier les paramètres de paiement
 
-La page de liste **Transactions fournisseur** affiche toutes les transactions d'un fournisseur. Lorsque vous sélectionnez la date d'échéance d'une transaction, une boîte de dialogue s'affiche. Cette boîte de dialogue affiche la date de référence pour les calculs de la date d'échéance et de l'escompte, ainsi que la date d'échéance, les conditions de paiement, les conditions d'escompte de règlement et les dates d'escompte de règlement.
+La page de liste **Transactions fournisseur** affiche toutes les transactions d'un fournisseur. Lorsque vous sélectionnez la date d'échéance d'une transaction, une boîte de dialogue s'affiche. Cette boîte de dialogue affiche la date de référence pour les calculs de la date d'échéance et de l'escompte, la date d'échéance, les conditions de paiement, les conditions d'escompte de règlement et les dates d'escompte de règlement.
 
 Chaque champ a un impact différent sur la transaction lorsque vous le modifiez :
 
-- **Modifier la date de référence :** la date d'échéance et les dates d'escompte sont modifiées comme si la date de référence était la date du document.
-- **Modifier la date d'échéance :** seule la date d'échéance est modifiée.
-- **Modifier les dates d'escompte :** seules les dates d'escompte sont modifiées.
-- **Modifier les conditions de paiement :** la date d'échéance est modifiée, selon la date de référence et les conditions de paiement.
-- **Modifier les conditions d'escompte de règlement :** les escomptes de règlement sont modifiés, selon la date de référence et les conditions d'escompte de règlement.
+- **Modifier la date de référence** - La date d'échéance et les dates d'escompte sont modifiées comme si la date de référence était la date du document.
+- **Modifier la date d'échéance** - Seule la date d'échéance est modifiée
+- **Modifier les dates d'escompte** - Seules les dates d'escompte sont modifiées.
+- **Modifier les conditions de paiement** - La date d'échéance est modifiée, selon la date de référence et les conditions de paiement.
+- **Modifier les conditions d'escompte de règlement** - Les escomptes de règlement sont modifiés, selon la date de référence et les conditions d'escompte de règlement.
 
 Lorsque vous avez terminé de modifier les paramètres de paiement, cliquez sur **Fermer** pour enregistrer vos modifications.
 

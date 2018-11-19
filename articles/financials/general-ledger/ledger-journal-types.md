@@ -1,9 +1,9 @@
 ---
 title: Types de journaux comptables
-description: "Cet article décrit les types de journaux que vous pouvez paramétrer pour les journaux financiers. Utilisez la page **Noms de journal** pour paramétrer les journaux que vous pouvez utiliser dans Microsoft Dynamics 365 for Finance and Operations."
+description: "Cette rubrique décrit les types de journaux que vous pouvez paramétrer pour les journaux financiers."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9f8fc40f199b83a9e0cb36ce905163c3ed547057
+ms.sourcegitcommit: 81214cc52b1488bb70ac5fd6ccc817f6f979163d
+ms.openlocfilehash: fff557d20a230922b5512aea9e49aa9993a694dd
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 10/16/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/26/2018
 
 [!include [banner](../includes/banner.md)]
 
-Cet article décrit les types de journaux que vous pouvez paramétrer pour les journaux financiers. Utilisez la page **Noms de journal** pour paramétrer les journaux que vous pouvez utiliser dans Microsoft Dynamics 365 for Finance and Operations.
+Cette rubrique décrit les types de journaux que vous pouvez paramétrer pour les journaux financiers. Utilisez la page **Noms de journal** pour paramétrer les journaux que vous pouvez utiliser dans Microsoft Dynamics 365 for Finance and Operations.
 
 | Type de journal                      | Objectif                       | Entrer les transactions sur cette page                                |
 |-----------------------------------|-------------------------------|----------------------------------------------------------------|
@@ -53,7 +53,8 @@ Cet article décrit les types de journaux que vous pouvez paramétrer pour les j
 | Décaissement de la paie              | Émettre des paiements basés sur les bordereaux de salaire. Vous ne pouvez pas entrer manuellement des transactions dans ce journal. Vous devez générer les bordereaux de salaire puis envoyer ces instructions pour le paiement.                                                                                                                                                              |                                                                |
 | Périodique                          | Créer des transactions périodiques pour le journal périodique.                                                                                                                                                                                                                                                                                                      | Journaux périodiques                                              |
 | Valider les immobilisations                 | Valider des transactions d'immobilisation.                                                                                                                                                                                                                                                                                                                              | Immobilisations                                                   |
-| Projet - dépenses                | Créer des transactions de dépense du projet.                                                                                                                                                                                                                                                                                                                        | Dépenses                                                        |
+| Projet - dépenses                | Créer des transactions de dépense du projet.                                                                                                                                                                                                                                                                                                                        | Dépense                                                        |
+| Ajustement de la devise de déclaration     | Créer des ajustements dans la devise de déclaration pour les soldes des comptes généraux.               | Journaux des ajustements de la devise de déclaration                         |
 | Transactions statistiques            | Créer des transactions de statistiques.                                                                                                                                                                                                                                                                                                                            |                                                                |
 | Remises de billets à ordre            | Créer une remise de billet à ordre qui peut être envoyée à la banque de votre organisation.                                                                                                                                                                                                                                                                      | Journal des remises                                             |
 | Fournisseur - Paiements               | Créer des transactions de déboursement fournisseur.                                                                                                                                                                                                                                                                                                                    | Journal des paiements                                                |
