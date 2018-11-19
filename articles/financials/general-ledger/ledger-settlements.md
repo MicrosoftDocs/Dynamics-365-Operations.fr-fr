@@ -27,7 +27,6 @@ ms.lasthandoff: 10/12/2018
 # <a name="ledger-settlements"></a>Règlements comptables
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Les règlements comptables vous permettent de mettre en correspondance les transactions de débit et de crédit dans la comptabilité, et de les marquer comme réglés. De cette manière, vous pouvez vous assurer que les transactions associées ont été effacées. Vous pouvez également contrepasser les règlements si ils ont été effectuer par erreur.
 
