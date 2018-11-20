@@ -3,7 +3,7 @@ title: Synchronisation entre les commandes client directement entre Sales et Fin
 description: "La rubrique présente les modèles et les tâches sous-jacentes utilisés pour exécuter la synchronisation des commandes client directement entre Microsoft Dynamics 365 for Sales et Microsoft Dynamics 365 for Finance and Operations."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 03/13/2018
+ms.date: 10/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: e26244ffc380291a40edfbd2c2cb5911b0d8b3cb
+ms.sourcegitcommit: a8c033caa8a4c4cf579ec166dce7a9982408d816
+ms.openlocfilehash: 985a5a908308bc2268b80e8eef7117fdd6d54af6
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 10/11/2018
 
 ---
 
@@ -32,6 +32,12 @@ ms.lasthandoff: 03/26/2018
 [!include [banner](../includes/banner.md)]
 
 La rubrique présente les modèles et les tâches sous-jacentes utilisés pour exécuter la synchronisation des commandes client directement entre Microsoft Dynamics 365 for Sales et Microsoft Dynamics 365 for Finance and Operations.
+
+## <a name="data-flow-in-prospect-to-cash"></a>Flux de données dans Prospect en disponibilités
+
+La solution Prospect en disponibilités utilise la fonction d'intégration de données pour synchroniser les données entre plusieurs instances de Finance and Operations et Sales. Les modèles Prospect en disponibilités disponibles avec la fonction d'intégration de données activent le flux de données pour les comptes, contacts, produits, devis de vente, commandes client et factures client entre Finance and Operations et Sales. L'illustration ci-dessous indique comment les données sont synchronisées entre Finance and Operations et Sales.
+
+[![Flux de données dans Prospect en disponibilités](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="templates-and-tasks"></a>Modèles et tâches
 

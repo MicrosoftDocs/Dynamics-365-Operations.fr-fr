@@ -1,12 +1,21 @@
-- name: "Bienvenue dans Dynamics\_365 for Talent"
+- name: "Dynamics\_365 for Talent"
   href: index.md
   items:
     - name: Mise en route
       href: talent-get-started.md
       items:
         - name: Nouveautés ou modifications
+          href: whats-new.md
           items:
-            - name: "Nouveautés ou modifications dans Dynamics\_365 for Talent Core HR (1er octobre 2018)"
+            - name: "Nouveautés ou modifications dans Dynamics\_365 for Talent Core HR (31\_octobre\_2018)"
+              href: whats-new-talent-october-31.md
+            - name: "Nouveautés ou modifications dans Dynamics\_365 for Talent Core HR (19\_octobre\_2018)"
+              href: whats-new-talent-october-19.md
+            - name: "Nouveautés ou modifications dans Dynamics\_365 for Talent Core HR (15\_octobre\_2018)"
+              href: whats-new-talent-october-11.md
+            - name: "Nouveautés ou modifications dans Dynamics\_365 for Talent Core HR (8\_octobre\_2018)"
+              href: whats-new-talent-october-8.md
+            - name: "Nouveautés ou modifications dans Dynamics\_365 for Talent Core HR (1er\_octobre\_2018)"
               href: whats-new-talent-october-01.md
             - name: "Nouveautés ou modifications dans Dynamics\_365 for Talent Core HR (24 septembre 2018)"
               href: whats-new-talent-september-24.md
@@ -30,6 +39,8 @@
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Core HR et Common Data Service pour les applications
           href: CoreHREntities.md
+        - name: Intégrations
+          href: talent-financeandoperations-integration.md
         - name: Accéder aux fonctionnalités d'aperçu
           href: access-preview-feature.md
         - name: Configurer l'intégration de la paie entre Talent et Dayforce
@@ -64,6 +75,34 @@
       items:
         - name: Fonctionnalités de Attract
           href: attract-overview.md
+        - name: Création d'un modèle de processus dans Attract
+          href: Process-templates-Attract.md
+        - name: 'Création, approbation et validation des tâches dans Attract'
+          href: Creating-jobs-Attract.md
+        - name: Approvisionnement avec les viviers de talents
+          href: attract-talent-pools.md
+        - name: Approvisionnement avec LinkedIn Recruiter
+          href: attract-linked-in-recruiter.md
+        - name: Activités du processus d'embauche dans Attract
+          href: activities-attract.md
+        - name: Extensibilité
+          href: extensibility-attract.md
+        - name: Site de carrière et expériences des candidats
+          href: career-site.md
+        - name: Paramétrage de la gestion des offres
+          href: offer-setup.md
+        - name: 'Création, approbation et signature des offres'
+          href: creating-offers.md
+        - name: Création et gestion des modèles d'e-mail
+          href: email-templates.md
+        - name: Génération d'états et analyses
+          href: Reporting-Analytics-Attract.md
+        - name: Gestion de la sécurité et des rôles dans Attract
+          href: security-attract.md
+        - name: Paramètres d'administration dans Attract
+          href: Admin-Settings-Attract.md
+        - name: Recommandations intelligentes
+          href: Intelligent-Recommendations.md
         - name: Créer une expérience d'intégration attractive
           href: create-onboarding-experience.md
     - name: Motiver les employés

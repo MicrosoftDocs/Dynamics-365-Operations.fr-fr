@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: eb99f169ada2a227ebe8e64ee56bbb38cdfda4e0
+ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
+ms.openlocfilehash: cd738cafc97477182e574ee0f363fdcf1df7da7a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 10/22/2018
 
 ---
 
@@ -48,9 +48,10 @@ Vous pouvez utiliser le paramètre **Fonctionnalités d'aperçu** dans le centre
 1. Connectez-vous à Microsoft Dynamics 365 for Talent.
 2. Dans le menu **Paramétrage** (symbole en forme d'engrenage) dans le coin supérieur droit, sélectionnez **Paramètres d'administration**.
 3. Sous l'onglet **Gestion des fonctionnalités**, sélectionnez l'option en regard de **Fonctionnalités d'aperçu** afin qu'elle devienne bleu.
-4. Actualisez votre navigateur pour commencer à voir les nouvelles fonctionnalités. (Les utilisateurs qui sont déjà connectés verront les fonctionnalités lors de leur prochaine connexion, ou ils peuvent actualiser leur navigateur pour voir les fonctionnalités immédiatement.)
+4. Vous pouvez éventuellement contrôler certaines fonctionnalités en activant/désactivant des fonctionnalités spécifiques sur cette page.
+5. Actualisez votre navigateur pour commencer à voir les nouvelles fonctionnalités. (Les utilisateurs qui sont déjà connectés verront les fonctionnalités lors de leur prochaine connexion, ou ils peuvent actualiser leur navigateur pour voir les fonctionnalités immédiatement.)
 
-#### <a name="core-hr"></a>Ressources humaines principales
+#### <a name="core-hr"></a>Core HR
 
 1. Connectez-vous à Talent. L'espace de travail Ressources humaines principales s'ouvre pour vous permettre d'effectuer les étapes restantes. 
 2. Sélectionnez **Administration système \> Paramètres système**.
@@ -63,10 +64,9 @@ Vous pouvez utiliser le paramètre **Fonctionnalités d'aperçu** dans le centre
 
 ### <a name="attract"></a>Attract
 
-- **Modèles de poste** – Vous pouvez désormais créer des modèles de processus de recrutement. Les utilisateurs peuvent déjà personnaliser le processus de recrutement pour un poste spécifique. Toutefois, ils peuvent maintenant créer des modèles pour le processus et sélectionner le modèle approprié lorsqu'un poste spécifique est créé. Par conséquent, cette fonctionnalité permet de rationnaliser le processus de paramétrage des postes.
-- **Site de carrière** – La version actuelle du site de carrière répertorie tous les postes vacants. Toutefois, d'autres fonctionnalités seront ajoutées au site ultérieurement. Les postes peuvent être marqués comme internes ou externes. Les utilisateurs internes qui se connectent au site voient les postes internes et externes. Toutefois, les utilisateurs qui ne sont pas internes et les utilisateurs qui ne sont pas connectés ne voient que les postes externes.
-- **Annonce d'emploi** – Vous pouvez maintenant publier des postes sur le site de carrière.
-- **Annonce d'emploi LinkedIn** – Vous pouvez maintenant publier des postes sur LinkedIn.
+- **Candidats correspondant à une mission** : Les recruteurs et les responsables de l'embauche peuvent aisément voir les candidats pouvant être les plus pertinents pour la mission parmi tous les candidats. Les 5 principaux candidats sont affichés selon la pertinence de leur CV/profil par rapport la description de la mission.
+- **Missions pertinentes** : Les candidats voient maintenant une liste d'autres missions qui leur correspondent selon leur CV/profil et les descriptions de mission.  Actuellement les candidats sont affichés une fois qu'ils postulent comme suggestion pour d'autres opportunités.
+- **Prise en charge d'Égalité des chances d'emploi/Bureau des programmes fédéraux de conformité des contrats** : De nouveaux types d'activités permettent l'utilisation d'un écran prédéfini pour la collecte de données relatives à l'Égalité des chances d'emploi/Bureau des programmes fédéraux de conformité des contrats du candidat.  Il s'agit d'un écran prédéfini qui peut pas être modifié.
 
     > [!NOTE]
     > Les postes publiés sont visibles uniquement par les clients qui se sont abonnés à un ou plusieurs produits de la liste des postes sur LinkedIn. Sinon, les clients voient un poste uniquement s'ils effectuent une recherche explicite. Les postes sont publiés sur LinkedIn avec du retard. L'affichage d'un poste peut prendre quelques heures après sa publication depuis Attract.

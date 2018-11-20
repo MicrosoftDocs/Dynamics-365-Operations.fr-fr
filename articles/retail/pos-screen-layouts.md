@@ -20,10 +20,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: e4c1f8c7435a901431286960581754e5b2820dad
-ms.openlocfilehash: 34e744884b4bae890d7990103ecc7157c6883869
+ms.sourcegitcommit: dda9c8cb7f3da99fb2e7df0372e59769cfaf77d1
+ms.openlocfilehash: ced27adb8fe481270cb008e187693cda96773339
 ms.contentlocale: fr-fr
-ms.lasthandoff: 10/03/2018
+ms.lasthandoff: 11/13/2018
 
 ---
 
@@ -71,7 +71,7 @@ Les configurations de la mise en page de l'écran déterminent les actions, le c
 
 ### <a name="assignment"></a>Affectation
 
-Les mises en page de l'écran peuvent être affectées au magasin ou à l'utilisateur. L'affectation d'utilisateur remplace les affectations de registre et de magasin, et l'affectation de registre remplace l'affectation de magasin. Dans un scénario unique où tous les utilisateurs utilisent la même mise en page, quel que soit le registre ou le rôle, la mise en page de l'écran peut être paramétrée uniquement au niveau du magasin. Dans les scénarios où des registres ou utilisateurs spécifiques nécessitent des mises en page spécialisées, celles-ci peuvent être affectées.
+Les mises en page de l'écran peuvent être affectées au magasin, au registre ou à l'utilisateur. L'affectation d'utilisateur remplace les affectations de registre et de magasin, et l'affectation de registre remplace l'affectation de magasin. Dans un scénario unique où tous les utilisateurs utilisent la même mise en page, quel que soit le registre ou le rôle, la mise en page de l'écran peut être paramétrée uniquement au niveau du magasin. Dans les scénarios où des registres ou utilisateurs spécifiques nécessitent des mises en page spécialisées, celles-ci peuvent être affectées.
 
 ### <a name="layout-sizes"></a>Tailles de mise en page
 

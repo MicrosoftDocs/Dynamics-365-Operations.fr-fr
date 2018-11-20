@@ -3,7 +3,7 @@ title: "Paramétrer le rapprochement automatique des frais de transport"
 description: "Cette procédure indique comment paramétrer des données pour le rapprochement automatique des frais de transport."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 10/16/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 97f0c4d8fe06ab2fc252b9543cb688306214c79f
+ms.sourcegitcommit: d990efd7c929b15d57d64e850bc3308349abb978
+ms.openlocfilehash: b7772ad779495b36941a3dc86cc456d80a964467
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 10/17/2018
 
 ---
 # <a name="set-up-automatic-freight-reconciliation"></a>Paramétrer le rapprochement automatique des frais de transport
@@ -36,9 +36,9 @@ Cette procédure indique comment paramétrer des données pour le rapprochement 
     * Le type de facture des frais de transport définit comment les factures de frais de transport et les factures du transporteur doivent être mises en correspondance.  
 2. Cliquez sur Nouveau.
 3. Dans le champ Type de facture des frais de transport, tapez une valeur.
-4. Dans le champ Assembly de moteur, tapez « Microsoft.Dynamics.Ax.Tms.Bll.GenericNormalizer ».
+4. Dans le champ Assembly de moteur, tapez « Microsoft.Dynamics.Ax.Tms.dll ».
     * Il s'agit de la gestion de transport standard correspondant à la bibliothèque de code du moteur.  
-5. Dans le champ Classe de moteur, tapez « Microsoft.Dynamics.Ax.Tms.dll ».
+5. Dans le champ Classe de moteur, tapez « Microsoft.Dynamics.Ax.Tms.Bll.GenericNormalizer ».
     * Il s'agit de la gestion de transport standard correspondant à la classe du moteur.  
 6. Cliquez sur Nouveau.
 7. Dans le champ Description, sélectionnez la valeur qui doit correspondre sur la facture des frais de transport et la facture du transporteur.  
