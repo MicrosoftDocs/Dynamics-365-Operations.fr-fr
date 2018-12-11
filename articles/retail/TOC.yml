@@ -47,21 +47,25 @@
       href: dev-itpro/updating-environments.md
     - name: Problèmes de test et de performances
       href: dev-itpro/retail-implementation-testing-performance.md
+- name: Gestion des commandes distribuées (DOM)
+  href: dom.md
 - name: Paiements
   items:
     - name: Modes de paiement
       href: payment-methods.md
     - name: 'Paramétrage, autorisation et capture de carte de crédit'
       href: ../financials/accounts-receivable/credit-card-authorizations.md
-    - name: Configurer les dénominations des espèces pour POS
+    - name: Configurer les dénominations des espèces pour le point de vente
       href: cash-denominations.md
+    - name: Paramétrer des scénarios de règlement de facture
+      href: payinvoice.md
     - name: FAQ Paiements
       href: dev-itpro/payments-retail.md
 - name: Commandes fournisseur
   items:
     - name: Présentation des commandes fournisseur
       href: ../supply-chain/procurement/purchase-order-overview.md
-    - name: Création de commandes fournisseur
+    - name: Créer des commandes fournisseur
       href: ../supply-chain/procurement/purchase-order-creation.md
     - name: Accusé de réception de marchandises et commandes fournisseur
       href: ../supply-chain/procurement/product-receipt-against-purchase-orders.md
@@ -211,8 +215,10 @@
       href: Order-fulfillment-overview.md
     - name: Paramétrer l'exécution des commandes pour les magasins
       href: Order-fulfillment-POS-setup.md
-    - name: Afficher les notifications de commande dans POS
+    - name: Afficher les notifications de commande dans le point de vente
       href: Notifications-POS.md
+- name: Configurer et traiter un échange suite à un ordre de retour
+  href: orderexchanges.md
 - name: Surveillance et analyse
   items:
     - name: Surveiller les performances des ventes et des marges
@@ -235,6 +241,8 @@
       href: price-management.md
     - name: Ajustements de prix et remises
       href: price-adjustments-discounts.md
+    - name: Appliquer plusieurs remises de vente au détail à un produit
+      href: Apply-multiple-retail-discounts.md
     - name: Déterminer la combinaison optimale de cumuls de remises
       href: optimal-combination-overlapping-discounts.md
     - name: Définir les remises spécifiques à un canal
@@ -405,7 +413,7 @@
       href: tasks/design-relationships-between-organizational-units.md
     - name: Gérer les assortiments
       href: tasks/manage-assortments-2016-11.md
-    - name: Télécharger des stations matérielles à l'aide du libre service
+    - name: Télécharger des stations matérielles à l'aide du libre-service
       href: tasks/perform-self-service-download-hardware-station.md
     - name: Valider les ventes et les paiements en ligne
       href: tasks/posting-online-sales-payments.md
@@ -460,7 +468,7 @@
           href: dev-itpro/secure-retail-cloud-pos.md
         - name: Installation et configuration de Retail Hardware Station
           href: retail-hardware-station-configuration-installation.md
-        - name: Déploiement en masse des composants en libre service Retail
+        - name: Déploiement en masse des composants en libre-service Retail
           href: dev-itpro/retail-mass-deployment.md
         - name: Événements des composants Retail pour les diagnostics et le dépannage
           href: dev-itpro/retail-component-events-diagnostics-troubleshooting.md
@@ -488,7 +496,9 @@
       items:
         - name: Mise en page de l'écran Retail POS
           href: pos-screen-layouts.md
-        - name: Installer le concepteur de mise en page POS
+        - name: Ouvrir une URL dans le point de vente
+          href: Open-URL-in-POS.md
+        - name: Installer le concepteur de mise en page de pointe de vente
           href: install-pos-layout-designer.md
         - name: Retail Modern POS en mode hors connexion
           href: dev-itpro/retail-modern-pos-offline.md
@@ -504,10 +514,14 @@
           href: dev-itpro/POS-APIs.md
         - name: Extension de paiement POS
           href: dev-itpro/pos-payment-extension.md
-        - name: Prise en charge des cartes cadeaux externes
+        - name: Prendre en charge des cartes cadeaux externes
           href: dev-itpro/gift-card.md
         - name: Créer et appliquer la stratégie de marque à l'application Retail Experience
           href: dev-itpro/create-retail-experience-app.md
+        - name: Paramétrer l'application POS Hybrid sur Android et iOS
+          href: dev-itpro/hybridApp.md
+        - name: Remplacer le gestionnaire de demandes du point de vente
+          href: dev-itpro/pos-handler.md
     - name: Station matérielle et extensibilité
       href: dev-itpro/hardware-station-extensibility.md
     - name: Extensibilité de Retail Server
@@ -562,9 +576,13 @@
           href: dev-itpro/payment-custom-error-messages.md
         - name: Créer des programmes d'installation Windows pour des connecteurs de paiement
           href: dev-itpro/create-windows-installer-payment-connector.md
+        - name: Utilisation des données de paiement
+          href: payment-connector-data-fields.md
     - name: Kit de développement logiciel (SDK) Retail
       href: dev-itpro/retail-sdk/retail-sdk-overview.md
       items:
+        - name: Prochaines modifications dans le kit de développement logiciel (SDK) Retail
+          href: dev-itpro/UpcomingSDKChanges.md
         - name: Fusionner les systèmes de génération pour Retail et Finance and Operations
           href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
         - name: Exemples d'extensibilité du kit Retail SDK
