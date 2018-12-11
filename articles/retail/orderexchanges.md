@@ -1,0 +1,54 @@
+---
+title: "Configurer et traiter un échange suite à un ordre de retour"
+description: "Cette rubrique explique comment configurer un échange suite à un retour dans Microsoft Dynamics 365 for Retail."
+author: josaw1
+manager: AnnBe
+ms.date: 11/12/2018
+ms.topic: index-page
+ms.prod: 
+ms.service: dynamics-365-retail
+ms.technology: 
+audience: Application User
+ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
+ms.custom: 
+ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
+ms.search.region: global
+ms.search.industry: Retail
+ms.author: josaw
+ms.search.validFrom: 2018-11-15
+ms.dyn365.ops.version: 
+ms.translationtype: HT
+ms.sourcegitcommit: 3331b984693c58c6ee8c49b98ed7d3a8df5b79ff
+ms.openlocfilehash: 45b628376a483d3d639e5c018dd93570ed8ce7af
+ms.contentlocale: fr-fr
+ms.lasthandoff: 12/04/2018
+
+---
+# <a name="configure-and-process-an-exchange-on-a-return-order"></a><span data-ttu-id="322f2-103">Configurer et traiter un échange suite à un ordre de retour</span><span class="sxs-lookup"><span data-stu-id="322f2-103">Configure and process an exchange on a return order</span></span>
+
+[!include [banner](includes/banner.md)]
+
+<span data-ttu-id="322f2-104">Dans les versions antérieures de Microsoft Dynamics 365 for Retail, les retours suite à des commandes client étaient traités à l'aide du document d'ordre de retour dans Retail Siège.</span><span class="sxs-lookup"><span data-stu-id="322f2-104">In previous versions of Microsoft Dynamics 365 for Retail, returns against customer orders were processed by using the return order document in Retail headquarters.</span></span> <span data-ttu-id="322f2-105">Toutefois, un document d'ordre de retour peut être utilisé pour traiter uniquement les produits retournés.</span><span class="sxs-lookup"><span data-stu-id="322f2-105">However, the return order document can be used to process only products that are being returned.</span></span> <span data-ttu-id="322f2-106">Les produits retournés sont signalés par une quantité négative dans les lignes de l'ordre de retour.</span><span class="sxs-lookup"><span data-stu-id="322f2-106">The returned products are indicated by a negative quantity on the return order lines.</span></span> <span data-ttu-id="322f2-107">Les ventes sont en revanche indiquées par une quantité positive.</span><span class="sxs-lookup"><span data-stu-id="322f2-107">By contrast, sales are indicated by a positive quantity.</span></span> <span data-ttu-id="322f2-108">Toutefois, le document d'ordre de retour ne prend pas en charge les quantités positives.</span><span class="sxs-lookup"><span data-stu-id="322f2-108">However, the return order document doesn't support positive quantities.</span></span> <span data-ttu-id="322f2-109">En raison de cette limitation, les versions précédentes de Retail ne prenaient pas en charge les scénarios où les échanges de produit étaient effectués à l'aide du document d'ordre de retour.</span><span class="sxs-lookup"><span data-stu-id="322f2-109">Because of this limitation, previous versions of Retail didn't support scenarios where product exchanges are done by using the return order document.</span></span>
+
+<span data-ttu-id="322f2-110">Toutefois, une fonctionnalité a été ajoutée pour prendre en charge les scénarios au cours desquels les échanges sont effectués avec des ordres de retour.</span><span class="sxs-lookup"><span data-stu-id="322f2-110">However, functionality has been added to support scenarios where exchanges are done on return orders.</span></span> <span data-ttu-id="322f2-111">Retail utilise désormais le document de commande client au lieu du document d'ordre de retour pour traiter ces transactions.</span><span class="sxs-lookup"><span data-stu-id="322f2-111">Retail now uses the sales order document instead of the return order document to process these types of transactions.</span></span>
+
+## <a name="configure-retail-to-support-exchanges-on-return-orders"></a><span data-ttu-id="322f2-112">Configurer Retail pour prendre en charge les échanges suite aux ordres de retour</span><span class="sxs-lookup"><span data-stu-id="322f2-112">Configure Retail to support exchanges on return orders</span></span>
+
+<span data-ttu-id="322f2-113">Procédez comme suit pour configurer le système pour prendre en charge les échanges suite aux ordres de retour.</span><span class="sxs-lookup"><span data-stu-id="322f2-113">Follow these steps to configure the system to support exchanges on return orders.</span></span>
+
+1. <span data-ttu-id="322f2-114">Accédez à **Vente au détail \> Configuration du siège \> Paramètres \> Paramètres des ventes au détail**.</span><span class="sxs-lookup"><span data-stu-id="322f2-114">Go to **Retail \> Headquarters setup \> Parameters \> Retail parameters**.</span></span> <span data-ttu-id="322f2-115">Dans le raccourci **Commandes client**, définissez l'option **Traiter les ordres de retour en tant que commandes client** sur **Activé**.</span><span class="sxs-lookup"><span data-stu-id="322f2-115">On the **Customer orders** FastTab, set the **Process return orders as sales orders** option to **Yes**.</span></span>
+2. <span data-ttu-id="322f2-116">Exécutez la tâche **Programme de distribution de la configuration globale** (**1110**).</span><span class="sxs-lookup"><span data-stu-id="322f2-116">Run the **Global configuration distribution schedule** job (**1110**).</span></span>
+
+## <a name="make-an-exchange"></a><span data-ttu-id="322f2-117">Effectuer un échange</span><span class="sxs-lookup"><span data-stu-id="322f2-117">Make an exchange</span></span>
+
+<span data-ttu-id="322f2-118">Une fois le système configuré comme décrit dans la section précédente, l'utilisateur du point de vente sélectionne toujours une commande client ou une facture client pour traiter un retour, comme dans les versions précédentes de Retail.</span><span class="sxs-lookup"><span data-stu-id="322f2-118">After the system is configured as described in the previous section, the point of sale (POS) user will still select a sales order or sales invoice to process a return, as in previous versions of Retail.</span></span> <span data-ttu-id="322f2-119">Toutefois, une fois les articles retournés ajoutés au chariot, l'utilisateur peut ajouter de nouvelles lignes de vente.</span><span class="sxs-lookup"><span data-stu-id="322f2-119">However, after the return items are added to the cart, the user will be able to add new sales lines to the cart.</span></span>
+
+<span data-ttu-id="322f2-120">Pour ces nouvelles lignes de vente, l'utilisateur doit définir tous les attributs nécessaires afin de traiter une ligne de commande client.</span><span class="sxs-lookup"><span data-stu-id="322f2-120">For these new sales lines, the user must define all the attributes that are required in order to process a customer order line.</span></span> <span data-ttu-id="322f2-121">Ces attributs comprennent l'emplacement d'exécution et le mode de livraison.</span><span class="sxs-lookup"><span data-stu-id="322f2-121">These attributes include the delivery method and fulfillment location.</span></span> <span data-ttu-id="322f2-122">Le paiement dû pour la transaction sera la montant net des lignes d'ordre de retour et des lignes de commande client.</span><span class="sxs-lookup"><span data-stu-id="322f2-122">The payment that is due for the transaction will be a net of the return order lines and sales order lines.</span></span> <span data-ttu-id="322f2-123">Lorsque le paiement est fourni pour la transaction, l'ordre de retour sera validé comme document de commande client dans Retail Siège et le système facturera immédiatement les lignes de retour.</span><span class="sxs-lookup"><span data-stu-id="322f2-123">When payment is tendered for the transaction, the return order will be posted as a sales order document in Retail headquarters, and the system will immediately invoice the return lines.</span></span>
+
+<span data-ttu-id="322f2-124">Pour fournir une meilleure visibilité sur les différents montants du chariot, trois nouveaux champs de montant ont été ajoutés dans celui-ci.</span><span class="sxs-lookup"><span data-stu-id="322f2-124">To provide better visibility into the various amounts for the cart, three new amount fields have been added to the cart.</span></span> <span data-ttu-id="322f2-125">Vous pouvez utiliser le concepteur de l'écran pour rendre ces nouveaux champs disponibles dans l'interface utilisateur (UI) du point de vente.</span><span class="sxs-lookup"><span data-stu-id="322f2-125">You can use the screen designer to make these new fields available in the POS user interface (UI).</span></span>
+
+- <span data-ttu-id="322f2-126">**Dépôt appliqué** : Montant du dépôt qui est appliqué sur une transaction lorsque l'utilisateur effectue un prélèvement de commande client.</span><span class="sxs-lookup"><span data-stu-id="322f2-126">**Deposit applied** – The deposit amount that is applied on a transaction when the user does a customer order pickup.</span></span> <span data-ttu-id="322f2-127">S'il n'y a aucun remplacement de dépôt et qu'un dépôt de 10 % est configuré, le montant de ce champ correspond à 90 % du montant total de la commande client.</span><span class="sxs-lookup"><span data-stu-id="322f2-127">If there is no deposit override, and a 10-percent deposit is configured, the amount in this field is 90 percent of the total amount of the customer order.</span></span>
+- <span data-ttu-id="322f2-128">**Exécuter le montant** : Montant total des lignes dans lesquelles le mode de livraison a été défini sur **Exécuter** lorsque la commande client a été créée ou modifiée, ou lors d'un échange de commande client.</span><span class="sxs-lookup"><span data-stu-id="322f2-128">**Carry out amount** – The total amount for lines where the delivery mode was set to **Carry out** when the customer order was created or edited, or during a customer order exchange.</span></span> <span data-ttu-id="322f2-129">Le montant de ce champ inclut des taxes et des frais.</span><span class="sxs-lookup"><span data-stu-id="322f2-129">The amount in this field includes taxes and charges.</span></span>
+- <span data-ttu-id="322f2-130">**Montant du retour** : Montant total des lignes ayant des quantités négatives lors de l'échange de la commande client.</span><span class="sxs-lookup"><span data-stu-id="322f2-130">**Return amount** – The total amount for lines that have negative quantities during the customer order exchange.</span></span> <span data-ttu-id="322f2-131">Le montant de ce champ inclut des taxes et des frais.</span><span class="sxs-lookup"><span data-stu-id="322f2-131">The amount in this field includes taxes and charges.</span></span>
+

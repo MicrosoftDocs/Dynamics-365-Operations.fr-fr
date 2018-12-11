@@ -48,6 +48,10 @@
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: Fonctions non implémentées dans les déploiements sur site
               href: get-started/features-not-implemented-on-prem.md
+            - name: "Finance and Operations version\_8.1.3 (décembre\_2018)"
+              href: get-started/whats-new-changed-8-1-3.md
+            - name: "Platform update\_23 (décembre\_2018)"
+              href: get-started/whats-new-platform-update-23.md
             - name: "Platform update\_22 (novembre\_2018)"
               href: get-started/whats-new-platform-update-22.md
             - name: "Finance and Operations version\_8.1.2 (novembre\_2018)"
@@ -152,6 +156,8 @@
               href: get-started/help-overview.md
             - name: Connexion au système d'aide
               href: get-started/help-connect.md
+            - name: Connecter un site d'aide personnalisé
+              href: get-started/help-custom.md
             - name: Afficher et exporter les descriptions de champ
               href: get-started/view-export-field-descriptions.md
             - name: Guides de tâches et enregistreur de tâches
@@ -1243,6 +1249,8 @@
               href: ../dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/fin-and-ops/toc.json
             - name: Réinitialiser le mini-data warehouse d'états financiers
               href: ../dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/fin-and-ops/toc.json
+        - name: Messages électroniques
+          href: ../financials/general-ledger/electronic-messaging.md
     - name: Fonctions locales et relatives aux réglementations
       href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
       items:
@@ -1975,7 +1983,7 @@
               href: ../financials/localizations/tasks/propose-post-impairment-amount-cash-generating-unit.md
             - name: Proposer un amortissement spécial
               href: ../financials/localizations/tasks/propose-special-depreciation.md
-            - name: Réouvrir et modifier une facture consolidée client
+            - name: Rouvrir et modifier une facture consolidée client
               href: ../financials/localizations/tasks/reopen-edit-customer-consolidated-invoice.md
             - name: Réouvrir et modifier une facture consolidée fournisseur
               href: ../financials/localizations/tasks/reopen-edit-vendor-consolidated-invoice.md
@@ -2222,6 +2230,10 @@
               href: ../financials/localizations/rus-transactions-settlement-date.md
             - name: Factures pour le paiement
               href: ../financials/localizations/rus-invoice-payment.md
+            - name: États financiers
+              href: ../financials/localizations/rus-financial-reports.md
+            - name: Créer un registre d'achat
+              href: ../financials/localizations/rus-sales-books-purchase-books.md
         - name: Arabie saoudite
           href: ../financials/localizations/saudi-arabia.md
           items:
@@ -2741,6 +2753,8 @@
                   href: ../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json
                 - name: Importer des configurations à partir de Lifecycle Services
                   href: ../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json
+                - name: Importer les configurations des états électroniques (ER) des services de configuration réglementaires (RCS)
+                  href: ../dev-itpro/analytics/rcs-download-configurations.md
                 - name: Télécharger des configurations à partir de Lifecycle Services
                   href: ../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json
                 - name: Importer des configurations
@@ -4145,10 +4159,12 @@
               href: ../supply-chain/warehousing/change-warehouse-mobile-device-displays.md
             - name: Réception d'un contenant mixte sur un appareil mobile
               href: ../supply-chain/warehousing/mixed-license-plate-receiving.md
-            - name: Configuration des lots plus anciens d'affichage dans l'entrepôt sur un périphérique mobile
+            - name: Configurer des lots plus anciens d'affichage dans l'entrepôt sur un appareil mobile
               href: ../supply-chain/warehousing/display-older-batches-within-warehouses.md
             - name: Prélever le lot le plus ancien sur un appareil mobile
               href: ../supply-chain/warehousing/pick-oldest-batch.md
+            - name: Traiter la structure du guide
+              href: ../supply-chain/warehousing/process-guide-framework.md
         - name: Mise à niveau et migration
           items:
             - name: "Mettre à niveau les processus de gestion des entrepôts de Microsoft Dynamics AX\_2012 vers Finance and Operations"
