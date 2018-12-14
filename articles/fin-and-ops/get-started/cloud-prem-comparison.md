@@ -18,10 +18,10 @@ ms.author: robinr
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: 53c0da5e9697deaf946ccd4fbcd2102faa62b195
-ms.openlocfilehash: bc2b8aafa28d3998e223891fa95e3fe8175349e6
+ms.sourcegitcommit: 596cfa056c6f2e64f554b643bb5a61d09c7bf20c
+ms.openlocfilehash: 58bba3dead4d2a8ed3ae424694377e410df16f4c
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/02/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -90,7 +90,7 @@ Les tableaux suivants décrivent les zones de produit. La prise en charge en clo
 | Gestion des services| | Oui | Oui |
 | Gestion de la chaîne d'approvisionnement.| | Oui | Oui |
 | Gestion du transport| | Oui | Oui |
-| Collaboration du fournisseur| | Oui | Oui|
+| Collaboration du fournisseur| | Oui | N° |
 | Gestion des entrepôts| | Oui | Oui |
 | | Application d'entrepôt mobile| Oui | Oui |
 | | États Power BI d'entrepôt| Oui | Non |

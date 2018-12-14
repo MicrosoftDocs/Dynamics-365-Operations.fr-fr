@@ -17,10 +17,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
-ms.openlocfilehash: 70a7a1f7d7a8221a72addfbee1d21f813df4eb46
+ms.sourcegitcommit: cc995b474e86272b49629f97e1b4d4b4fb597b9d
+ms.openlocfilehash: 946076d682a10becdc2c4a8baff7f52de7893119
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/14/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 # <a name="audit-invoices-and-key-data-in-ap-system"></a>Auditer les factures et les données clé dans le système de comptabilité fournisseur
@@ -35,34 +35,31 @@ La société fictive USMF sert d'exemple dans cette procédure. Les différentes
 
 
 ## <a name="create-a-purchase-order"></a>Créer une commande fournisseur
-1. Allez dans Toutes les commandes fournisseur.
-2. Cliquez sur Nouveau.
-3. Dans le champ Compte fournisseur, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-4. Tapez une valeur dans le champ Compte fournisseur.
-5. Cliquez sur OK.
-6. Cliquez sur Ajouter une ligne.
-7. Tapez une valeur dans le champ Numéro d'article.
-8. Cliquez sur Achats dans le volet Actions.
-9. Cliquez sur Confirmer.
+1. Accédez à **Toutes les commandes fournisseur**.
+2. Cliquez sur **Nouveau**.
+3. Dans le champ **Compte fournisseur**, tapez une valeur.
+4. Cliquez sur **OK**.
+5. Cliquez sur **Ajouter une ligne**.
+6. Dans le champ **Numéro d'article**, tapez une valeur.
+7. Dans le volet Actions, cliquez sur **Achat**.
+8. Cliquez sur **Confirmer**.
 
 ## <a name="post-a-product-receipt"></a>Valider un accusé de réception de marchandises
-1. Dans le volet Actions, cliquez sur Recevoir.
-2. Cliquez sur Accusé de réception de marchandises.
-3. Dans la liste, marquez la ligne sélectionnée.
-4. Tapez une valeur dans le champ Accusé de réception de marchandises.
-5. Cliquez sur OK.
+1. Dans le volet Action, cliquez sur **Recevoir**.
+2. Cliquez sur **Accusé de réception de marchandises**.
+3. Dans le champ **Accusé de réception de marchandises**, tapez une valeur.
+4. Cliquez sur **OK**.
 
 ## <a name="record-and-match-a-vendor-invoice-to-a-product-receipt"></a>Enregistrer et mettre en correspondance une facture fournisseur avec un accusé de réception de marchandises
-1. Dans le volet Actions, cliquez sur Facture.
-2. Cliquez sur Facture.
-3. Tapez une valeur dans le champ Nombre.
-4. Cliquez sur Valeur par défaut de : Quantité commandée pour ouvrir la boîte de dialogue.
-5. Sélectionnez une option dans le champ Quantité par défaut pour les lignes.
-6. Cliquez sur OK.
-7. Cliquez sur Oui.
-8. Cliquez sur Mettre en correspondance les accusés de réception de marchandises.
-9. Cliquez sur OK.
-10. Cliquez sur Revoir dans le volet Actions.
-11. Cliquez sur Mise en correspondance des détails.
+1. Dans le volet Actions, cliquez sur **Facture > Facture**.
+2. Dans le champ **Nombre**, tapez une valeur.
+3. Cliquez sur **Valeur par défaut de : Quantité commandée** pour ouvrir la boîte de dialogue.
+4. Dans le champ **Quantité par défaut pour les lignes**, sélectionnez une option.
+5. Cliquez sur **OK**.
+6. Cliquez sur **Oui**.
+7. Cliquez sur **Mettre en correspondance les accusés de réception de marchandises**.
+8. Cliquez sur **OK**.
+9. Cliquez sur **Revoir** dans le volet Actions.
+10. Cliquez sur **Mise en correspondance des détails**.
 
 

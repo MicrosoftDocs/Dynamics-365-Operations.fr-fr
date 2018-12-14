@@ -3,7 +3,7 @@ title: "Connexion au système d'aide"
 description: "Cette rubrique décrit les composants du système Aide pour Microsoft Dynamics 365 for Finance and Operations, explique comment les connecter entre eux et résume la création de l'aide personnalisée."
 author: margoc
 manager: AnnBe
-ms.date: 09/11/2017
+ms.date: 11/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: a1449d44149f328f780f02e798c5200595557474
+ms.sourcegitcommit: 87ca6afe817d27de12479f1b7d8155d11d800233
+ms.openlocfilehash: a2ca5f5302751ad2c4ddc3c6921a8a9b6c2d57df
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -68,9 +68,19 @@ Les guides de tâches traduits ont été expédiés pour la première fois dans 
 > -   Si un guide de tâche n'a pas encore été traduit, lorsque vous ouvrez ce guide de tâche, une partie du texte (texte des commandes) s’affiche dans la langue sélectionnée.
 
 ## <a name="creating-custom-help"></a>Création d'une aide personnalisée
+Vous pouvez utiliser des guides de tâche pour créer de l'aide personnalisée, ou connecter un site Web au volet d'aide. 
+
+### <a name="create-custom-help-with-task-guides"></a>Créer une aide personnalisée à l'aide des guides de tâches
 Vous pouvez créer une aide personnalisée pour votre implémentation de Finance and Operations, et pour Retail en créant des enregistrements de tâche qui reflètent votre implémentation, et en les enregistrant dans une bibliothèque de processus d'entreprise LCS. Vous ne pouvez pas créer de guides de tâche personnalisés pour Talent. 
 
 Pour les partenaires, si vous faites d'une bibliothèque une bibliothèque d'entreprise et la comprenez dans une solution, elle sera à la disposition de vos clients. Vous pouvez également faire une copie de la bibliothèque globale unifiée APQC, puis ouvrir votre copie, ouvrir des enregistrements de tâches à partit de celle-ci et enregistrer les enregistrements avec vos modifications. Pour plus d'informations, consultez [Création d'un enregistrement de tâche pour l'utiliser comme documentation ou formation](../../dev-itpro/user-interface/task-recorder.md).
+
+### <a name="connect-a-custom-site"></a>Connecter un site personnalisé
+Microsoft a fourni un livre blanc et un exemple de code qui expliquent comment créer et connecter un site d'aide personnalisée au volet d'aide. Pour plus d'informations, voir : 
+- [Créer de l'aide personnalisée pour Finance and Operations (livre blanc)](https://go.microsoft.com/fwlink/?linkid=2041185)
+- [Référentiel GitHub d'aide personnalisée](https://github.com/microsoft/dynamics356f-o-custom-help)
+
+
 
 <a name="additional-resources"></a>Ressources supplémentaires
 --------

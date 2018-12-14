@@ -1,9 +1,9 @@
 ---
 title: "Accusé de réception de marchandises et commandes fournisseur"
-description: "Cet article décrit les différentes options d’enregistrement des marchandises comme étant reçues."
+description: "Cette rubrique décrit les différentes options d'enregistrement des marchandises comme étant reçues."
 author: FrankDahl
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/15/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: c227664da360f6f8d54b49f15e1b7160aa142ba9
+ms.sourcegitcommit: 09432d278c51301f8b01fef8cbd3353af75a88f3
+ms.openlocfilehash: fea28da19c0aa1e9083091d0693404e0d8cb173c
 ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/08/2018
 
 [!include [retail name](../includes/retail-name.md)]
 
-Cet article décrit les différentes options d’enregistrement des marchandises comme étant reçues.
+Cette rubrique décrit les différentes options d'enregistrement des marchandises comme étant reçues.
 
 L'accusé de réception de machandises est le processus permettant d'enregistrer que les produits commandés ont été reçus, afin que les lignes de commande fournisseur (CF) puissent ensuite être traitées pour la facturation. Dans certains cas, les produits passent par le préenregistrement, où des informations supplémentaires du fournisseur sont enregistrées avant que les produits soient réceptionnés. Lors de l’arrivée des produits, ils sont tout d’abord marqués comme **Enregistrés**. Les produits peuvent ensuite passer par des processus supplémentaires, tels que la gestion de la qualité, avant d'être enfin marqués comme **Reçus**.
 
@@ -46,8 +46,6 @@ Les produits qui sont reçus dans un entrepôt peuvent passer par contrôle de l
 
 ## <a name="product-receipt"></a>Accusé de réception de marchandises
 Le plus souvent, l'action **Accusé de réception de marchandises** sur la page **Commandes fournisseur** sert à marquer des produits comme **Reçus** sur la commande fournisseur. La page **Validation de l'accusé de réception de produits** comporte diverses options pour la quantité qui est prises en compte comme reçue. Par exemple, vous pouvez définir le champ **Quantité** sur **Quantité commandée** ou **Quantité à recevoir maintenant**. Sinon, si un processus d’arrivée à l'entrepôt a été utilisé, vous définirez souvent ce champ sur **Quantité enregistrée**. Vous pouvez modifier les quantités sur chaque ligne de commande qui seront marquées comme **Reçues**, pour tenir compte de toutes les différences, par exemple de livraison excédentaire et de livraison incomplète. Lors de la réception des marchandises, vous devez spécifier un identificateur de l'accusé de réception de marchandises, qui fait généralement référence au bon de livraison du fournisseur. Cet identificateur est nécessaire pour la comptabilité, car il permet de contrôler ou d'auditer les bons de livraison des fournisseurs par rapport à ce qui a été reçu, et le stock et les frais comptabilisés.  
-
-Si un employé a commandé les marchandises à l’aide d’une demande d’achat, on peut lui demander de confirmer la réception des marchandises lui-même. Vous configurez ce comportement à l’aide d’un workflow. Vous pouvez configurer les conditions du workflow afin qu’elles correspondent à votre processus d’entreprise.  
 
 Des CF peuvent être créés pour les marchandises qui ne sont pas destinées au stock mais qui sont considérées comme une dépense. Cette catégorie comprend les lignes de commande où les marchandises sont marquées comme **Non stockés** par leur groupe de modèles de stock et les lignes qui utilisent des catégories d’approvisionnement. Dans ce cas, les articles ne peuvent pas passer par l'enregistrement des arrivées et l’accusé de réception dans l’entrepôt. Au lieu de cela, l'action **Accusé de réception de marchandises** est utilisée pour enregistrer la réception directement sur la CF et l’accusé de réception est basé sur la quantité commandée, pas sur une quantité enregistrée.  
 

@@ -3,7 +3,7 @@ title: "Fonctions supprimées ou obsolètes"
 description: "Cette rubrique décrit les fonctions qui ont été supprimées, ou qu'il est prévu de supprimer."
 author: sericks007
 manager: AnnBe
-ms.date: 10/01/2018
+ms.date: 12/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
-ms.openlocfilehash: 6750cfc62e2d151ddf760ff3dc36bab9c078b2d9
+ms.sourcegitcommit: 48e2eea2cc986edc49d5192945c3d913c3bb9756
+ms.openlocfilehash: 8a3405c434e402af68e59950f1e4d1a31cbf2813
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/01/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -87,6 +87,19 @@ Fonction d'exportation des fichiers électroniques générés des déclarations 
 | **Zones de produit affectées**         | Comptabilité générale, Taxe |
 | **Option de déploiement**              | Tous |
 | **Statut**                         | Supprimé à compter de Dynamics 365 for Finance and Operations 8.1 avec platform update 20. |
+
+
+### <a name="profit-tax-register-wizard"></a>Assistant de registre de l'impôt sur les bénéfices
+Fonctionnalité pour créer des modèles de nouveaux registres de l'impôt sur les bénéfices. Cette fonctionnalité permet de créer des objets X++ pour les nouveaux livres, qui sont ensuite créés en tant que modèles avec la logique de calcul appropriée.
+
+|   |  |
+|------------|--------------------|
+| **Motif de l'abandon/de la suppression** | La fonctionnalité n'est pas compatible avec le modèle d'extensibilité Dynamics 365 for Finance and Operations. |
+| **Remplacé par une autre fonctionnalité ?**   | N° |
+| **Zones de produit affectées**         | Taxes |
+| **Option de déploiement**              | Tous |
+| **Statut**                         | Supprimé à compter de Dynamics 365 for Finance and Operations 8.1 avec platform update 20. |
+
 
 ## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>Dynamics 365 for Finance and Operations avec platform update 15
 Aucune fonctionnalité n'a été supprimée ou rendue obsolète avec cette version. Platform update 15 est cumulative et contient les fonctionnalités, nouvelles ou modifiées, depuis Platform update 13, Platform update 14, et Platform update 15.
@@ -993,6 +1006,17 @@ Le configurateur était utilisé pour la configuration dynamique d'articles à p
 | **Remplacé par une autre fonctionnalité ?**   | Oui. La configuration basée sur les contraintes a été introduite dans Dynamics AX 2012 où l'abandon du configurateur dans les prochaines versions était déjà annoncé. La technologie de configuration basée sur les contraintes est sélectionnée sur les produits génériques pour activer la configuration. Pour en savoir plus, voir [Créer un modèle de configuration de produit](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/pim/build-product-configuration-model). |
 | **Zones de produit affectées**         | Gestion d'informations sur les produits, Ventes et marketing  |
 | **Statut**                         | Supprimé à partir de Dynamics AX 7.0.      |
+
+### <a name="production-floor-app"></a>Application Atelier de production
+Il s'agit de l'application pour les tablettes s'exécutant sous Windows 8.1 et Windows 8.1 Pro.
+
+|   |  |
+|------------|--------------------|
+| **Motif de l'abandon/de la suppression** | La modification apportée à un client basé sur le Web, il est possible de fournir des fonctionnalités similaires via le client natif Dynamics AX 7.0. Le périphérique des bons de travail fournit une interface utilisateur d'atelier de production optimisée pour les facteurs d'écrans tactiles et de tablettes. |
+| **Remplacé par une autre fonctionnalité ?**   | Oui. Le périphérique des bons de travail, qui fait une partie native de Dynamics AX 7.0.                                                                           |
+| **Zones de produit affectées**         | Contrôle de la production                                                |
+| **Statut**                         | Obsolète : Une date de suppression de Microsoft Store n'a pas encore été définie pour cette fonctionnalité.                                                |
+
 
 ### <a name="rename-product-dimension"></a>Renommer la dimension de produit
 

@@ -1,9 +1,9 @@
 ---
 title: "Système d'aide de Finance and Operations"
-description: "Cette rubrique fournit une vue d'ensemble des composants du système d'aide Microsoft Dynamics 365 for Finance and Operations. Il décrit également comment fournir de la documentation et une formation personnalisées à votre organisation."
+description: "Cette rubrique fournit une vue d'ensemble des composants du système d'aide Microsoft Dynamics 365 for Finance and Operations."
 author: margoc
 manager: AnnBe
-ms.date: 10/10/2018
+ms.date: 11/13/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 75be5c5f675885aececb8ac0b25e699882ea77ab
-ms.openlocfilehash: dc2a3d49041acf42814149eb71d4cc021bdad838
+ms.sourcegitcommit: 87ca6afe817d27de12479f1b7d8155d11d800233
+ms.openlocfilehash: dc057faf3cd08ea1c939d0cc35ae404bde59e514
 ms.contentlocale: fr-fr
-ms.lasthandoff: 10/17/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 10/17/2018
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit une vue d'ensemble des composants du système d'aide Microsoft Dynamics 365 for Finance and Operations. Il décrit également comment fournir de la documentation et une formation personnalisées à votre organisation. 
+Cette rubrique fournit une vue d'ensemble des composants du système d'aide Microsoft Dynamics 365 for Finance and Operations. 
 
 > [!NOTE] 
 > Les produits suivants sont étroitement liés : Dynamics 365 for Finance and Operations, Dynamics 365 for Retail et Dynamics 365 for Talent. Les mêmes fonctionnalités peuvent apparaître dans les trois produits. Par conséquent, dans les rubriques qui sont généralement liées à la vente au détail, le nom du produit sera Dynamics 365 for Retail ; dans les rubriques qui sont généralement liées à Talent, le nom du produit sera Dynamics 365 for Talent ; et dans les rubriques associées au produit central, le nom du produit sera Dynamics 365 Finance and Operations. Les rubriques qui sont écrites pour un produit peuvent s'appliquer à la même fonctionnalité d'un produit associé.
@@ -48,8 +48,6 @@ Finance and Operations comprend un système d'aide basé sur deux composants pri
 Vous pouvez accéder au volet d'aide depuis tous les produits que vous utilisez. La capture d'écran suivante montre Finance and Operations.
 
 ![Volet Aide](./media/help-pane-ops-task-guides.png)
-
-Cette rubrique décrit le système d'aide, et explique comment créer une documentation personnalisée et des ressources de formation pour votre organisation.
 
 > [!IMPORTANT]
 > Les **Guides de tâches** ne sont actuellement pas disponibles pour Retail ou dans le volet d'aide de Talent (certains guides de tâches sont disponibles dans le volet de mise en route de Talent). L'aide procédurale est disponible sur le site docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) pour Retail et Talent.
@@ -83,7 +81,7 @@ Pour vous abonner à un flux RSS de toutes les mises à jour du contenu Unified 
 ### <a name="give-feedback"></a>Fournir une rétroaction 
 Nous apprécions réellement les commentaires client. Vous pouvez commenter ou suggérer des modifications à notre contenu via GitHub. Pour plus d'informations sur notre système de commentaire, voir [ce billet de blog](https://docs.microsoft.com/teamblog/a-new-feedback-system-is-coming-to-docs).
 
-##### <a name="leave-us-feedback"></a>Laissez-nous des commentaires 
+#### <a name="leave-us-feedback"></a>Laissez-nous des commentaires 
 Si vous avez des commentaires ou des questions sur une rubrique, laissez-nous un commentaire au bas de la page.  
 
 1. Cliquez sur **Rétroaction** pour obtenir des commentaires en bas de la page, puis cliquez sur **Commentaire sur le produit** ou **Connexion pour fournir des commentaires sur la documentation**.
@@ -93,8 +91,6 @@ Si vous avez des commentaires ou des questions sur une rubrique, laissez-nous un
 2. Commencez à taper vos commentaires, puis cliquez sur **Envoyer les commentaires**.
 
 ![Valider le commentaire](./media/feedback.png)
-
-
 
 ##### <a name="suggest-a-change-or-contribute-content-through-github"></a>Suggestion d'une modification ou contribution à du contenu via GitHub
 Pour proposer une modification, vous devez disposer d'un compte de GitHub, et signer un accord de licence de contributeur.  Après avoir soumis une demande d'extraction, nous examinerons vos modifications proposées. Si nécessaire, nous les aborderons en interne, et nous vous recontacterons.  
@@ -122,22 +118,7 @@ Pour démarrer l'expérience guidée et interactive, cliquez sur **Démarrer le 
 > [!IMPORTANT] 
 > Les données que vous entrez dans un guide de tâche sont réelles. Si vous êtes dans un environnement de production, les données seront saisies dans la société que vous utilisez actuellement.
 
-### <a name="it-all-begins-with-task-recorder"></a>Tout commence avec l'enregistreur de tâches
-
-Les guides de tâche sont créés à l'aide de l'enregistreur de tâches. Lorsque vous utilisez Enregistreur de tâches, toutes les actions effectuées dans l'IU de Finance and Operations (cliquer sur des menus, modifier les paramètres, entrer des données) sont enregistrées. Les étapes que vous enregistrez sont collectivement appelées un enregistrement de tâche. Comme nous l'avons expliqué dans la section précédente, les enregistrements de tâche peuvent être affichés dans le volet Aide et lus en tant que guides de tâche. Il existe toutefois d'autres manières d'utiliser les enregistrements de tâches :
-
--   **Enregistrer les enregistrements de tâches dans BPM** – Vous pouvez enregistrer un enregistrement de tâche dans la bibliothèque BPM dans le crédit. Lorsque vous enregistrez un enregistrement de tâche dans BPM, un organigramme est généré et affiché avec les étapes de l'enregistrement. 
-
-    > [!Note]
-    > Pour afficher un enregistrement de tâche dans le volet Aide de Finance and Operations et le lire comme un guide de tâche, vous devrez enregistrer l'enregistrement dans une bibliothèque BPM.
-    
--   **Enregistrer les enregistrements de tâche en tant que documents Word** – en enregistrant un enregistrement de tâche en tant que document Microsoft Word, vous pouvez facilement créer des manuels de formation imprimables pour votre organisation.
-
-Pour plus d'informations sur l'enregistrement de tâche, consultez [Enregistreur de tâches dans Finance and Operations](../../dev-itpro/user-interface/task-recorder.md).
-
-### <a name="creating-customized-task-recordings"></a>Création d'enregistrements de tâche personnalisés
-
-Vous pouvez créer vos propres enregistrements de tâche, ou vous pouvez télécharger et personnaliser un enregistrement de tâche fourni par Microsoft. Par conséquent, vous pouvez créer une Aide personnalisée pour votre organisation qui reflète votre implémentation particulière de Finance and Operations. Pour afficher un enregistrement de tâche dans le volet Aide de Finance and Operations et le lire comme un guide de tâche, vous devrez enregistrer l'enregistrement dans une bibliothèque BPM dans LCS. Si vous êtes un partenaire et que vous faites d'une bibliothèque une bibliothèque d'entreprise et la comprenez dans une solution, elle sera à la disposition de vos clients. Pour obtenir des instructions complètes, consultez [Utiliser des enregistrements de tâche pour créer de la documentation ou des formations](../../dev-itpro/user-interface/task-recorder.md).
+L'enregistreur de tâches vous permet de créer vos propres guides de tâches personnalisés. Pour plus d'informations, consultez [Créer une documentation ou une formation à l'aide des enregistrements de tâches](../../dev-itpro/user-interface/task-recorder-training-docs.md).
 
 ## <a name="in-product-help"></a>Aide intégrée au produit
 Pour accéder au contenu de l'aide dans Finance and Operations, cliquez sur l'icône (**?**) ou sur **Aide**, puis choisissez Aide ou appuyez sur Ctrl+Shift+ ?. Dans les deux cas, le volet Aide s'ouvre. Dans le volet Aide, vous pouvez accéder à des articles ou à des guides de tâche. 
@@ -184,6 +165,11 @@ Une fois que l'administrateur système a effectué ces étapes, vous pouvez ouvr
 Les guides de tâche traduits sont disponibles dans les bibliothèques avec la mention « All languages » dans le titre. Dans Finance and Operations, pour afficher l'aide du guide de tâche localisé, assurez-vous que vous êtes connecté à une bibliothèque appropriée. La langue dans laquelle s'affiche un guide de tâche est contrôlée pour chaque utilisateur par les paramètres de langue sous **Options** &gt; **Préférences**. 
 -   Si un guide de tâche a été traduit, lorsque vous ouvrez ce guide de tâche, tout le texte du guide de tâche s’affiche dans la langue sélectionnée.
 -   Si un guide de tâche n'a pas encore été traduit, lorsque vous ouvrez ce guide de tâche, une partie du texte (texte des commandes) s’affiche dans la langue sélectionnée.
+
+## <a name="creating-custom-help"></a>Création d'une aide personnalisée
+Vous pouvez créer de l'aide pour vos utilisateurs en créant des guides de tâches personnalisés, ou connecter votre propre site Web au volet d'aide. Pour plus d'informations, voir : 
+- [Procédure de création d'un enregistrement de tâche à utiliser comme documentation ou formation](../../dev-itpro/user-interface/task-recorder.md).
+- [Créer de l'aide personnalisée pour Finance and Operations (livre blanc)](https://go.microsoft.com/fwlink/?linkid=2041185)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

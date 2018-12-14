@@ -19,10 +19,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 96a9075294c1f2a9cfde03be1aaaa26af90de4c2
-ms.openlocfilehash: f68e89422e7124874004a20c2bae5809dcdfb099
+ms.sourcegitcommit: c9f9368dc3e0fb4ed63250889016d6abe7d15a8c
+ms.openlocfilehash: 557e43c05f7015b04380f45fbd69f58a7250829a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 09/04/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -152,6 +152,7 @@ Remarque : les opérations répertoriées ci-dessous s'appliquent à la version
 | 644 | Supprimer le code coupon | Permet d'inviter l'utilisateur à supprimer des coupons en les sélectionnant dans une liste de coupons actuellement associés à la transaction. | Oui | Oui | N° | Oui | N° |
 | 1 057 | Réimprimer Z | Permet de réimprimer le Z de caisse pour l'équipe précédente ou une équipe sélectionnée. | Oui | Oui | Oui | N° | N° |
 | 1 216 | Entrer un nouveau mot de passe | Cette opération permet à un utilisateur ayant une autorisation de réinitialisation de mot de passe de réinitialiser le mot de passe d'un autre employé à l'aide d'un mot de passe temporaire. | Oui | Oui | Oui | N° | N° |
+| 1219 | Ouvrir une URL dans PDV | Cette opération permet à un utilisateur d'ouvrir une URL configurée par un administrateur dans le PDV. | Oui | Oui | Oui | Oui | N° | 
 | 109 | Retourner le produit | Permet d'effectuer un retour de produits individuels. Le prochain produit scanné est affiché comme étant un produit retourné avec une quantité et un prix négatifs. | Oui | Oui | N° | Oui | N° |
 | 114 | Transaction de retour | Permet de rappeler une transaction précédente par son numéro de ticket de caisse pour retourner certains ou tous les produits. | Oui | Oui | Oui | Oui§ | N° |
 | 1 211 | Mise en coffre-fort | Permet de déplacer l'argent de la caisse vers un coffre-fort. | Oui | Oui | Oui | Oui | N° |

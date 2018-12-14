@@ -17,14 +17,16 @@ ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
-ms.openlocfilehash: c026a540fb7d30644d485b6a057c2c46bd7c091d
+ms.sourcegitcommit: b589a6ce02cdc02436e256f9e81346fe8b766687
+ms.openlocfilehash: 8de178ec80f7408d657e746b633703f386c8e02d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/01/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
 # <a name="dual-currency"></a>Devise double
+
+[!include [banner](../includes/banner.md)]
 
 La fonctionnalité qui a été introduite dans Microsoft Dynamics 365 for Finance and Operations version 8.1 (octobre 2018) permet à la devise de déclaration d'être redéfinie et utilisée comme seconde devise comptable. Cette fonctionnalité est parfois désignée *devise double*. Les modifications pour la devise double ne peuvent pas être désactivées via une clé de configuration ou un paramètre. Comme la devise de déclaration est utilisée comme seconde devise comptable, la manière dont la devise de déclaration est calculée dans la logique de validation a changé.
 
@@ -67,8 +69,8 @@ Les modules suivants utilisent la devise de déclaration comme seconde devise co
 
 - [Comptabilité](#general-ledger)
 - [États financiers](#financial-reporting)
-- [Module Comptabilité fournisseur](#accounts-payable/accounts-receivable)
-- [Module Comptabilité client](#accounts-payable/accounts-receivable)
+- [Module Comptabilité fournisseur](#accounts-payable-and-accounts-receivable)
+- [Module Comptabilité client](#accounts-payable-and-accounts-receivable)
 - [Gestion de la trésorerie et de la banque](#cash-and-bank-management)
 - [Immobilisations](#fixed-assets)
 
@@ -90,7 +92,7 @@ Une amélioration apportée au module **États financiers** vous permet d'inclur
 
 Cette modification est disponible via le paramètre **Devise affichée** dans la définition de colonne. Si vous sélectionnez **Devise de déclaration de la comptabilité**, les montants dans la colonne ne sont pas convertis. Au lieu de cela, ils sont déclarés directement dans la comptabilité. Si vous souhaitez que la colonne affiche les montants convertis, sélectionnez l'option **Convertir en XXXX**, où *XXXX* est la devise de déclaration que la colonne doit afficher. Dans ce cas, les montants en devise comptable sont convertis dans la devise sélectionnée à l'aide de la fonctionnalité de conversion existante.
 
-### <a name="accounts-payableaccounts-receivable"></a>Comptabilité fournisseur/Comptabilité client
+### <a name="accounts-payable-and-accounts-receivable"></a>Comptabilité fournisseur et Comptabilité client
 
 Les modules **Comptabilité fournisseur** et **Comptabilité client** effectuaient déjà le suivi des montants en devise de la déclaration. Toutefois, les montants n'étaient pas affichés ou utilisés pour différents processus. Les modifications suivantes ont été apportées :
 

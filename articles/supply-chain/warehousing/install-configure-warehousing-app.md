@@ -3,7 +3,7 @@ title: Installation et configuration de Microsoft Dynamics 365 for Finance and O
 description: "Cette rubrique décrit la procédure d'installation et de configuration de Microsoft Dynamics 365 for Finance and Operations - Entreposage."
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 11/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 608543c9cfd93c4772e93089e1d174312d8b23a6
-ms.openlocfilehash: 411bb28668f5aa9d07774211814da4e9757ac43c
+ms.sourcegitcommit: 0967b10c2037c24c044f38c49b1b998f6771c66b
+ms.openlocfilehash: a1f3cb65e370154e8f3f94780ffb5cab223c85f8
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/06/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -74,13 +74,12 @@ Pour permettre à l'application d'interagir avec un serveur Finance and Operatio
 ## <a name="create-and-configure-a-user-account-in-finance-and-operations"></a>Créer et configurer un compte d'utilisateur dans Finance and Operations
 Pour permettre à Finance and Operations d'utiliser votre application Azure AD, vous devez effectuer les étapes de configuration suivantes :
 
-1.  Créez un nouveau compte d'utilisateur dans Azure Active Directory pour le locataire Finance and Operations. L'objectif de ce compte utilisateur est d'accéder au service personnalisé spécifique de l'application Entreposage, que le serveur Finance and Operations expose. Après avoir accompli cette étape, vous avez les informations d'identification de l'utilisateur WMDP, qui se composent d'une adresse e-mail WMDP et d'un mot de passe WMDP. Pour connaître les étapes de base permettant d'ajouter des utilisateurs à Azure AD et Finance and Operations, reportez-vous à ce didacticiel : [Inscription à Finance and Operations](../../dev-itpro/dev-tools/sign-up-preview-subscription.md).
-2.  Créez un utilisateur Finance and Operations qui correspond aux informations d'identification de l'utilisateur de l'application Entreposage.
+1.  Créez un utilisateur Finance and Operations qui correspond aux informations d'identification de l'utilisateur de l'application Entreposage.
     1.  Dans Finance and Operations, accédez à **Administration du système** &gt; **Commun** &gt; **Utilisateurs**.
     2.  Créez un nouvel utilisateur.
     3.  Affectez l'utilisateur d'appareil mobile d'entrepôt, comme illustré dans la capture d'écran suivante. [![wh-09-add-user-security-role](./media/wh-09-add-user-security-role.png)](./media/wh-09-add-user-security-role.png)
 
-3.  Associez votre application Azure Active Directory à l'utilisateur de l'application Entreposage.
+2.  Associez votre application Azure Active Directory à l'utilisateur de l'application Entreposage.
     1.  Dans Finance and Operations, accédez à **Administration du système** &gt; **Paramétrage** &gt; **Applications Azure Active Directory**.
     2.  Créez une ligne.
     3.  Entrez l'**ID client** (obtenu en dernière section), attribuez-lui un nom, puis sélectionnez l'utilisateur précédemment créé. Nous vous recommandons de référencer tous vos périphériques afin de faciliter la suppression de l'accès à Finance and Operations à partir de cette page en cas de perte. [![wh-10-ad-applications-form](./media/wh-10-ad-applications-form.png)](./media/wh-10-ad-applications-form.png)
