@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: 185d1adc88a29bc3ae722ae2c6f0a2769428bce3
+ms.sourcegitcommit: 99c10649d7683265fcac86c1825c5a965bbdb415
+ms.openlocfilehash: f27f228e48da653a9caf666f9053fe45a7c23745
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -164,13 +164,23 @@ Pour savoir comment enregistrer un nouveau fournisseur d'états électroniques, 
 
 #### <a name="repository"></a>Référentiel
 
-Un référentiel d'états électroniques enregistre les configurations d'états électroniques. Deux types de référentiels d'états électroniques suivants sont actuellement pris en charge : **Ressources opérationnelles** et **Projet LCS**.
+Un référentiel d'états électroniques enregistre les configurations d'états électroniques. Quatre types de référentiels ER sont actuellement pris en charge : **Ressources opérationnelles**, **Projet LCS (LCS)**, **Système de fichiers** et **Service de configuration réglementaire (RCS)**.
 
 Un référentiel **Ressources opérationnelles** permet d'accéder à la liste des configurations que Microsoft, en tant que fournisseur de configurations d'états électroniques, livre dans le cadre de la solution Finance and Operations. Ces configurations peuvent être importées dans l’instance actuelle de Finance and Operations et utilisées pour l'état électronique. Elles peuvent également être utilisées pour des localisations et personnalisations.
 
 Un référentiel de **projet LCS** permet d'accéder à la liste des configurations d'un projet LCS spécifique (bibliothèque d'actifs de projet LCS) sélectionné à l'enregistrement du référentiel. Les états électroniques vous permettent de télécharger des configurations partagées de l'instance Finance and Operations actuelle vers un référentiel **Projet LCS** donné. Vous pouvez également importer des configurations depuis un référentiel **Projet LCS** vers l'instance Finance and Operations actuelle.
 
-Les référentiels **Projet LCS** requis peuvent être enregistrés individuellement pour chaque fournisseur de configuration de l'instance Finance and Operations actuelle. Chaque référentiel peut être consacré à un fournisseur de configuration spécifique.
+Un référentiel **Système de fichiers** permet d'accéder à la liste des configurations situées en tant que fichiers xml dans le dossier spécifique du système de fichiers local de l'ordinateur où le service AOS est hébergé. Le dossier requis est sélectionné au stade d'enregistrement du référentiel. Vous pouvez importer des configurations depuis un référentiel **Système de fichiers** vers l'instance Finance and Operations actuelle. Notez que ce type de référentiel est accessible dans les environnements Dynamics 365 for Finance and Operations suivants :
+- environnements hébergés dans le cloud déployés à des fins de développement (contenant des modèles de test de suites incluses)
+- environnements déployés localement (déploiement sur site ou de données commerciales locales)
+
+Visitez la page [Importer des configurations de gestion des états électroniques (ER)](/electronic-reporting-import-ger-configurations.md) pour plus d'informations.
+
+Un référentiel d'**Instance RCS** permet d'accéder à la liste des configurations d'une instance RCS spécifique sélectionnée à l'enregistrement du référentiel. La génération d'états électroniques permet d'importer des configurations terminées ou partagées de l'instance RCS sélectionnée dans l'instance Finance and Operations actuelle et utilisée pour la génération d'états électroniques.
+
+Visitez la page [Importer des configurations de gestion des états électroniques (ER) depuis les Services de configuration réglementaire (RCS)](/rcs-download-configurations.md) pour plus d'informations.
+
+Les référentiels **Projet LCS**, **Système de fichiers** et **Services de configuration réglementaire (RCS)** requis peuvent être enregistrés individuellement pour chaque fournisseur de configuration de l'instance Finance and Operations actuelle. Chaque référentiel peut être consacré à un fournisseur de configuration spécifique.
 
 ## <a name="supported-scenarios"></a>Scénarios pris en charge
 ### <a name="building-a-data-model"></a>Élaboration d'un modèle de données

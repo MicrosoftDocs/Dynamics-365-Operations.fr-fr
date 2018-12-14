@@ -3,7 +3,7 @@ title: Page d'accueil de la planification
 description: "La planification permet aux sociétés de déterminer et d'équilibrer les futurs besoins en matières premières et en capacités afin d'atteindre leurs objectifs."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/20/2017
+ms.date: 12/03/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 18ed011fa1c1aa35b4a401d51bffc6af19395577
-ms.openlocfilehash: 030579ac73d6333ac4ed55433b9679a58247c088
+ms.sourcegitcommit: 99c10649d7683265fcac86c1825c5a965bbdb415
+ms.openlocfilehash: 1a294327149cf46202fed8b63377ee77f13c11d5
 ms.contentlocale: fr-fr
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -58,13 +58,13 @@ Le programme de formation suivant montre les principaux concepts et tâches qui 
 
 ## <a name="quick-links"></a>Liens rapides
 
-|      |   |
-|------|---|
-|        [Plans généraux](master-plans.md)       |     [Générer un plan avec contrainte](./tasks/constrained-plan.md)  |
-| [Créer un plan matières pour des coproduits](./tasks/create-material-plan-co-products.md)   |  [Planification et fonctionnalité multisite](master-plan-multisite-functionality.md)  |
-| [Créer un plan intersociétés](./tasks/create-intercompany-plan.md) | [Vue d'ensemble de la prévision de la demande](introduction-demand-forecasting.md)  | 
-|[Clés de réduction](reduction-keys.md)| [Notions de base de la planification](https://mbspartner.microsoft.com/AX/CourseOverview/1275) (eLearning) (nécessite un compte CustomerSource)     |
-|  [Planification pour la conception de processus](https://mbspartner.microsoft.com/D365E/CourseOverview/1514) (eLearning) (nécessite un compte CustomerSource) | [Planification intersociétés](https://mbspartner.microsoft.com/AX/CourseOverview/1276) (eLearning) (nécessite un compte CustomerSource)|
+- [Plans généraux](master-plans.md)  
+- [Générer un plan avec contrainte](./tasks/constrained-plan.md)
+- [Créer un plan matières pour des coproduits](./tasks/create-material-plan-co-products.md)
+- [Planification et fonctionnalité multisite](master-plan-multisite-functionality.md)
+- [Créer un plan intersociétés](./tasks/create-intercompany-plan.md)
+- [Vue d'ensemble de la prévision de la demande](introduction-demand-forecasting.md)
+- [Clés de réduction](reduction-keys.md)
                                   
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
