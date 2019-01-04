@@ -20,10 +20,10 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 4e3f8042871e5e423b559bb0e0dae0006af00194
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: c5771146723b791eb0b3eb5f571ef012cfaadcb9
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -68,7 +68,4 @@ ms.lasthandoff: 08/08/2018
 ## <a name="using-extended-logon"></a><span data-ttu-id="a6977-133">Utilisation d'une connexion étendue</span><span class="sxs-lookup"><span data-stu-id="a6977-133">Using extended logon</span></span>
 
 <span data-ttu-id="a6977-134">Lorsque la connexion étendue est configurée, et qu'un collaborateur a été affecté à un code-barres ou une bande magnétique, celui-ci doit juste faire glisser ou scanner sa carte lorsque la page de connexion de PDV s'affiche.</span><span class="sxs-lookup"><span data-stu-id="a6977-134">When extended logon is configured, and a worker has been assigned a bar code or magnetic stripe, the worker just has to swipe or scan his or her card while the POS logon page is displayed.</span></span> <span data-ttu-id="a6977-135">Si un mot de passe est également requis pour pouvoir continuer la connexion, le collaborateur est invité à entrer son mot de passe.</span><span class="sxs-lookup"><span data-stu-id="a6977-135">If a password is also required before logon can proceed, the worker is prompted to enter his or her password.</span></span>
-
-
-
 

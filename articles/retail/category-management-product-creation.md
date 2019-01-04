@@ -20,10 +20,10 @@ ms.author: asharchw
 ms.search.validFrom: 2017-09-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 19c972164474c972aab642c3cccc67cf396a6cb2
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 0bcc5989edd9913fce414c0c24068f111d8c1aeb
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -58,5 +58,4 @@ ms.lasthandoff: 08/08/2018
 <span data-ttu-id="8ab94-124">Vous pouvez utiliser la nouvelle structure améliorées pour les propriétés de produit afin de sélectionner les propriétés de produit mises à jour devant être incluses dans les produits associés.</span><span class="sxs-lookup"><span data-stu-id="8ab94-124">You can use the new enhanced structure for product properties to select updated product properties that must be pushed to the associated products.</span></span> <span data-ttu-id="8ab94-125">Dans la page **Hiérarchie des produits vendus au détail**, dans le volet Actions, sélectionnez **Catégorie**, puis **Mettre à jour les produits** pour ouvrir la boîte de dialogue **Mettre à jour les produits**.</span><span class="sxs-lookup"><span data-stu-id="8ab94-125">On the **Retail product hierarchy** page, on the Action Pane, select **Category**, and then select **Update products** to open the **Update products** dialog box.</span></span>
 
 ![Boîte de dialogue Mettre à jour les produits](media/NewUpdateProductsEnhancedView.PNG)
-
 
