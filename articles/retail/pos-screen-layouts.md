@@ -40,6 +40,7 @@ L'illustration suivante présente les relations entre les différentes entités 
 ![Entité Mise en page de l'écran du POS](../retail/media/POS-layout-configuration-entities-diagram.png)
 
 ## <a name="visual-profile"></a>Profil visuel
+
 Les profils visuels sont affectés aux registres et ils spécifient les éléments visuels qui sont spécifiques aux registres et qui sont partagés par plusieurs utilisateurs. Chaque utilisateur qui se connecte au registre voit les mêmes thèmes, couleurs et images.
 
 ![Écran d'accueil de POS avec un thème clair](../retail/media/POS-Welcome-Screen-with-Light-theme.png)
@@ -55,6 +56,7 @@ Les profils visuels sont affectés aux registres et ils spécifient les élémen
 - **Arrière-plan d'application** – Vous pouvez spécifier une image d'arrière-plan qui est utilisée à la place de la couleur de thème unie dans l'application. Comme pour les arrières-plans de connexion, la taille de fichier devrait être aussi petite que possible.
 
 ## <a name="screen-layouts"></a>Mises en page de l'écran
+
 Les configurations de la mise en page de l'écran déterminent les actions, le contenu et le placement des contrôles de l'interface utilisateur dans l'écran d'accueil et l'écran **Transaction** du POS.
 
 ![Vue de l'entité Mise en page de l'écran POS](../retail/media/POS-Screen-Layout-View.png)
@@ -95,6 +97,7 @@ Au démarrage, l'application POS sélectionne automatiquement la taille la plus 
 ![Tailles de mise en page du POS](../retail/media/POS-Session-Information.png)
 
 ### <a name="button-grids"></a>Groupes de boutons
+
 Pour chaque taille de mise en page dans une mise en page de l'écran, vous pouvez configurer et affecter des groupes de boutons pour l'écran d'accueil et l'écran **Transaction** du POS. Les groupes de boutons de l'écran d'accueil sont automatiquement alignés de gauche à droite, du plus petit numéro (écran d'accueil 1) au plus grand numéro.
 
 Dans les mises en page complètes du POS, la position des groupes de boutons est spécifiée dans le concepteur de mise en page de l'écran.
@@ -104,6 +107,7 @@ Dans les mises en page compactes du POS, les groupes de boutons sont automatique
 ![Groupes de boutons pour la mise en page compacte](../retail/media/Compact-View-Button-Grids.png)
 
 ### <a name="images"></a>Images
+
 Pour chaque taille de mise en page dans une mise en page de l'écran, vous pouvez spécifier des images à inclure dans l'interface utilisateur du POS. Pour les mises en page complètes du POS, une image peut être spécifiée pour l'écran d'accueil. Cette image s'affiche comme premier élément de l'interface utilisateur à gauche. Dans l'écran **Transaction**, des images peuvent être utilisées comme images d'onglet ou comme logo. Les mises en page compactes du POS n'utilisent pas ces images.
 
 ### <a name="screen-layout-designer"></a>Concepteur de mise en page de l'écran
@@ -141,11 +145,13 @@ Le concepteur de mise en page complète permet aux utilisateurs de déplacer les
     - **Contrôle personnalisé** – Le contrôle personnalisé agit comme un espace réservé dans la mise en page de l'écran pour vous permettre de réserver de l'espace pour un contenu personnalisé. Le contrôle personnalisé est disponible uniquement pour les mises en page complètes.
 
 ### <a name="compact-layout-designer"></a>Concepteur de mise en page compacte
+
 Comme le concepteur de mise en page complète, le concepteur de mise en page compacte vous permet de configurer la mise en page de l'écran du POS pour les téléphones et les petites tablettes. Toutefois, dans ce cas, la mise en page proprement dite est fixe. Vous pouvez configurer les contrôles de la mise en page en cliquant avec le bouton droit et en utilisant le menu contextuel. Toutefois, vous ne pouvez pas utiliser les opérations de glisser-déplacer pour le contenu supplémentaire.
 
 ![Concepteur de mise en page compacte](../retail/media/Compact-Layout-Designer.png)
 
 ### <a name="button-grid-designer"></a>Concepteur du groupe de boutons
+
 Le concepteur du groupe de boutons vous permet de configurer les groupes de boutons qui peuvent être utilisés dans l'écran d'accueil et l'écran **Transaction** du POS pour les mises en page complètes et compactes. Le même groupe de boutons peut être utilisé dans les mises en page et les types de mise en page. Comme le concepteur de mise en page de l'écran, le groupe de boutons utilise la technologie de déploiement ClickOnce pour télécharger, installer et lancer la dernière version de l'application chaque fois que les utilisateurs y accèdent. Pensez à vérifier la configuration requise du navigateur pour ClickOnce. Certains navigateurs, tels que Google Chrome, requièrent des extensions.
 
 ![Concepteur du groupe de boutons](../retail/media/Button-Grid-Designer.png)

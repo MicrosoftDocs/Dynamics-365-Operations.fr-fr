@@ -59,4 +59,3 @@ Vous pouvez utiliser la nouvelle structure améliorées pour les propriétés de
 
 ![Boîte de dialogue Mettre à jour les produits](media/NewUpdateProductsEnhancedView.PNG)
 
-

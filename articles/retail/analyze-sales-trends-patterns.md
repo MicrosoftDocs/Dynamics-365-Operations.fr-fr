@@ -35,15 +35,13 @@ Vous pouvez étudier les évolutions et les modèles des ventes en temps réel d
 
 Dans le cadre de Microsoft Dynamics 365 for Retail, les utilisateurs peuvent étudier les évolutions et les modèles des ventes en temps réel entre différents niveaux de la hiérarchie d'organisation sur une période annuelle à l'aide de l'état prêt à l'emploi **Ventes de canal par année**. Vous pouvez ouvrir cet état à partir de tous les emplacements suivants :
 
--   Espace de travail **Gestion du magasin de vente au détail** &gt; **Vente au détail** &gt; **Canaux** &gt; **Gestion du magasin de vente au détail** &gt; **États** &gt; **État des ventes de canal par année**
--   Espace de travail **Finances du magasin de vente au détail** &gt; **Vente au détail** &gt; **Canaux** &gt; **Finances du magasin de vente au détail** &gt; **États** &gt; **État des ventes de canal par année**
--   Section **Recherches et états** &gt; **Vente au détail** &gt; **Recherches et états** &gt; **États des ventes** &gt; **État des ventes de canal par année**
+- Espace de travail **Gestion du magasin de vente au détail** &gt; **Vente au détail** &gt; **Canaux** &gt; **Gestion du magasin de vente au détail** &gt; **États** &gt; **État des ventes de canal par année**
+- Espace de travail **Finances du magasin de vente au détail** &gt; **Vente au détail** &gt; **Canaux** &gt; **Finances du magasin de vente au détail** &gt; **États** &gt; **État des ventes de canal par année**
+- Section **Recherches et états** &gt; **Vente au détail** &gt; **Recherches et états** &gt; **États des ventes** &gt; **État des ventes de canal par année**
 
 Les utilisateurs peuvent également étudier les évolutions et les modèles des ventes par heure entre différents niveaux de la hiérarchie d'organisation sur une période sélectionnée à l'aide de l'état prêt à l'emploi **Ventes de canal par heure**. Vous pouvez ouvrir cet état à partir de tous les emplacements suivants :
 
--   Espace de travail **Gestion du magasin de vente au détail** &gt; **Vente au détail** &gt; **Canaux** &gt; **Gestion du magasin de vente au détail** &gt; **États** &gt; **État des ventes de canal par heure**
--   Espace de travail **Finances du magasin de vente au détail** &gt; **Vente au détail** &gt; **Canaux** &gt; **Finances du magasin de vente au détail** &gt; **États** &gt; **État des ventes de canal par heure**
--   Section **Recherches et états** &gt; **Vente au détail** &gt; **Recherches et états** &gt; **États des ventes** &gt; **État des ventes de canal par heure**
-
-
+- Espace de travail **Gestion du magasin de vente au détail** &gt; **Vente au détail** &gt; **Canaux** &gt; **Gestion du magasin de vente au détail** &gt; **États** &gt; **État des ventes de canal par heure**
+- Espace de travail **Finances du magasin de vente au détail** &gt; **Vente au détail** &gt; **Canaux** &gt; **Finances du magasin de vente au détail** &gt; **États** &gt; **État des ventes de canal par heure**
+- Section **Recherches et états** &gt; **Vente au détail** &gt; **Recherches et états** &gt; **États des ventes** &gt; **État des ventes de canal par heure**
 

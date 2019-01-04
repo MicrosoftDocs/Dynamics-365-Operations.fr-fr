@@ -66,7 +66,7 @@ L'expérience en matière de recherche de produit locale est devenue plus conviv
 - Les détaillants peuvent désormais configurer la recherche de produit pour afficher des suggestions de recherche sous la forme de noms de produit de type utilisateurs. Un nouveau paramètre pour cette fonctionnalité est disponible dans le profil de fonctionnalité du PDV, dans un nouveau groupe nommé **Recherche du produit**. Le paramètre est appelé **Afficher des suggestions de recherche lors de la saisie**. Cette fonctionnalité peut aider les employés à rechercher rapidement le produit pour lequel il effectue une recherche, car ils ne doivent pas entrer le nom entier manuellement.
 - Désormais, l'algorithme de la recherche de produit recherche également les critères de recherche contenus dans la propriété **Nom de recherche** du produit.
 
-![Suggestions de produit](./media/Productsuggestions.png "Suggestions de produit")
+    ![Suggestions de produit](./media/Productsuggestions.png "Suggestions de produit")
 
 ## <a name="customer-search"></a>Recherche du client
 
