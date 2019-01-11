@@ -261,6 +261,8 @@
               href: extensibility/extensibility-changes-811.md
             - name: "Modifications de l'extensibilité (version\_8.1.2)"
               href: extensibility/extensibility-changes-812.md
+            - name: "Modifications de l'extensibilité (version\_8.1.3)"
+              href: extensibility/extensibility-changes-813.md
         - name: Principes fondamentaux
           items:
             - name: Personnalisations intrusives
@@ -883,12 +885,33 @@
       href: deployment/deploy-demo-environment.md
     - name: Déploiement Cloud
       items:
+        - name: Déploiement libre service
+          href: deployment/infrastructure-stack.md
+          items:
+            - name: Déployer un nouvel environnement
+              href: deployment/deployenvironment-newinfrastructure.md
+            - name: FAQ sur le déploiement
+              href: deployment/deploymentFAQ.md
+            - name: Problèmes connus de déploiement libre-service
+              href: deployment/known-issues-new-deployment-experience.md
+            - name: Opérations de maintenance pour les déploiements
+              href: deployment/maintenanceoperationsguide-newinfrastructure.md
+            - name: Mettre à jour un environnement
+              href: deployment/updateenvironment-newinfrastructure.md
+            - name: Résoudre les problèmes liés aux environnements déployés par le biais du déploiement libre-service
+              href: deployment/troubleshoot-newinfrastructure.md
         - name: Terminer l'intégration de Azure Resource Manager
           href: deployment/arm-onboarding.md
         - name: Azure ExpressRoute et Finance and Operations
           href: deployment/expressroute.md
         - name: Architecture de Finance and Operations
           href: ../fin-and-ops/imp-lifecycle/architecture-overview.md
+        - name: Appliquer des mises à jour à des environnements cloud
+          href: deployment/apply-deployable-package-system.md
+        - name: Appliquer les mises à jour et les extensions aux composants du canal Retail hébergés dans le cloud
+          href: deployment/Update-retail-channel.md
+        - name: Initialiser les composants du canal Retail hébergés dans le cloud
+          href: deployment/Initialize-Retail-Channels.md
     - name: Déploiement sur site
       href: deployment/on-premises-deployment-landing-page.md
       items:
@@ -931,8 +954,6 @@
       items:
         - name: Créer des packages déployables de modèles
           href: deployment/create-apply-deployable-package.md
-        - name: Appliquer des mises à jour à des environnements cloud
-          href: deployment/apply-deployable-package-system.md
         - name: Installer des modules déployables à partir de la ligne de commande
           href: deployment/install-deployable-package.md
         - name: Désinstaller un package
@@ -1021,8 +1042,6 @@
           href: migration-upgrade/upgrade-latest-platform-update.md
         - name: "Mise à niveau de la plateforme Dynamics AX vers la version d'août\_2016"
           href: migration-upgrade/update-platform-each-release.md
-        - name: Mise à niveau des environnements de bac à sable
-          href: migration-upgrade/upgrade-sandbox-environment.md
         - name: 'Mise à niveau des données dans un environnement de développement, de démonstration ou de bac à sable'
           href: migration-upgrade/upgrade-data-to-latest-update.md
         - name: Mise à niveau des outils de développement
