@@ -20,48 +20,54 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 80fa443fc235496a111a8a866d2e703202721268
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 52f0c52748958f0bebb6c40df01cfac10c0ed427
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
-# <a name="initialize-seed-data-in-new-retail-environments"></a><span data-ttu-id="93977-103">Initialiser les données de départ dans de nouveaux environnements de vente au détail</span><span class="sxs-lookup"><span data-stu-id="93977-103">Initialize seed data in new Retail environments</span></span>
+# <a name="initialize-seed-data-in-new-retail-environments"></a><span data-ttu-id="6e538-103">Initialiser les données de départ dans de nouveaux environnements de vente au détail</span><span class="sxs-lookup"><span data-stu-id="6e538-103">Initialize seed data in new Retail environments</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="93977-104">Cet article décrit les données créées dans le cadre du processus d'initialisation de Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="93977-104">This article describes the data that's created as part of the initialization process for Microsoft Dynamics 365 for Retail.</span></span>
+<span data-ttu-id="6e538-104">Cet article décrit les données créées dans le cadre du processus d'initialisation de Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="6e538-104">This article describes the data that's created as part of the initialization process for Microsoft Dynamics 365 for Retail.</span></span>
 
-<span data-ttu-id="93977-105">Une fois la solution Retail déployée via les Microsoft Dynamics Lifecycle Services (LCS), vous devez initialiser la configuration de vente au détail pour créer les données de configuration de base.</span><span class="sxs-lookup"><span data-stu-id="93977-105">After the Retail solution has been deployed through Microsoft Dynamics Lifecycle Services (LCS), you must initialize the retail configuration to create the basic configuration data.</span></span> <span data-ttu-id="93977-106">**Important :** avant d'initialiser la configuration de vente au détail, vérifiez que vous avez spécifié une langue et une adresse postale pour chaque entité juridique dans laquelle vous paramètrez des magasins de vente au détail.</span><span class="sxs-lookup"><span data-stu-id="93977-106">**Important:** Before you initialize the retail configuration, make sure that you've specified a language and a postal address for each legal entity where you will set up retail stores.</span></span> <span data-ttu-id="93977-107">Cette étape doit être exécutée pour chaque entité juridique que vous utilisez pour la vente au détail.</span><span class="sxs-lookup"><span data-stu-id="93977-107">This step must be completed for each legal entity that you use for retail.</span></span> <span data-ttu-id="93977-108">Pour initialiser la configuration de vente au détail, procédez comme suit.</span><span class="sxs-lookup"><span data-stu-id="93977-108">To initialize the retail configuration, follow these steps.</span></span>
+<span data-ttu-id="6e538-105">Une fois la solution Retail déployée via les Microsoft Dynamics Lifecycle Services (LCS), vous devez initialiser la configuration de vente au détail pour créer les données de configuration de base.</span><span class="sxs-lookup"><span data-stu-id="6e538-105">After the Retail solution has been deployed through Microsoft Dynamics Lifecycle Services (LCS), you must initialize the retail configuration to create the basic configuration data.</span></span>
 
-1.  <span data-ttu-id="93977-109">Démarrez le client Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="93977-109">Start the Dynamics 365 for Retail client.</span></span>
-2.  <span data-ttu-id="93977-110">Cliquez sur **Vente au détail** &gt; **Configuration du siège** &gt; **Paramètres** &gt; **Paramètres des ventes au détail**.</span><span class="sxs-lookup"><span data-stu-id="93977-110">Click **Retail** &gt; **Headquarters setup** &gt; **Parameters** &gt; **Retail parameters**.</span></span>
-3.  <span data-ttu-id="93977-111">Cliquez sur **Initialiser**.</span><span class="sxs-lookup"><span data-stu-id="93977-111">Click **Initialize**.</span></span>
+> [!IMPORTANT]
+> <span data-ttu-id="6e538-106">Avant d'initialiser la configuration de vente au détail, vérifiez que vous avez spécifié une langue et une adresse postale pour chaque entité juridique dans laquelle vous paramétrez des magasins de vente au détail.</span><span class="sxs-lookup"><span data-stu-id="6e538-106">Before you initialize the retail configuration, make sure that you've specified a language and a postal address for each legal entity where you will set up retail stores.</span></span> <span data-ttu-id="6e538-107">Cette étape doit être exécutée pour chaque entité juridique que vous utilisez pour la vente au détail.</span><span class="sxs-lookup"><span data-stu-id="6e538-107">This step must be completed for each legal entity that you use for retail.</span></span>
 
-<span data-ttu-id="93977-112">L'initialisation crée les données de configuration par défaut suivantes :</span><span class="sxs-lookup"><span data-stu-id="93977-112">Initialization creates the following default configuration data:</span></span>
+<span data-ttu-id="6e538-108">Pour initialiser la configuration de vente au détail, procédez comme suit.</span><span class="sxs-lookup"><span data-stu-id="6e538-108">To initialize the retail configuration, follow these steps.</span></span>
 
--   <span data-ttu-id="93977-113">Tâches et sous-tâches de Retail Planification</span><span class="sxs-lookup"><span data-stu-id="93977-113">Retail scheduler jobs and subjobs</span></span>
--   <span data-ttu-id="93977-114">Schéma de canal de vente au détail</span><span class="sxs-lookup"><span data-stu-id="93977-114">Retail channel schema</span></span>
--   <span data-ttu-id="93977-115">Programmes de distribution de vente au détail</span><span class="sxs-lookup"><span data-stu-id="93977-115">Retail distribution schedules</span></span>
--   <span data-ttu-id="93977-116">Structures d'écran par défaut, qui incluent des grilles de boutons, des images et des rubriques</span><span class="sxs-lookup"><span data-stu-id="93977-116">Default screen layouts, which include button grids, images, and themes</span></span>
--   <span data-ttu-id="93977-117">Informations sur le fuseau horaire</span><span class="sxs-lookup"><span data-stu-id="93977-117">Time zone information</span></span>
--   <span data-ttu-id="93977-118">Opérations de point de vente (PDV)</span><span class="sxs-lookup"><span data-stu-id="93977-118">Point-of-sale (POS) operations</span></span>
--   <span data-ttu-id="93977-119">Autorisations PDV</span><span class="sxs-lookup"><span data-stu-id="93977-119">POS permissions</span></span>
--   <span data-ttu-id="93977-120">Rapports sur les canaux</span><span class="sxs-lookup"><span data-stu-id="93977-120">Channel reports</span></span>
--   <span data-ttu-id="93977-121">Métadonnées d'attribut</span><span class="sxs-lookup"><span data-stu-id="93977-121">Attribute metadata</span></span>
--   <span data-ttu-id="93977-122">Modèles de validation de l'entité</span><span class="sxs-lookup"><span data-stu-id="93977-122">Entity validation templates</span></span>
--   <span data-ttu-id="93977-123">Traitement par lots pour vider l'historique des sessions Commerce Data Exchange</span><span class="sxs-lookup"><span data-stu-id="93977-123">Batch job to purge Commerce Data Exchange session history</span></span>
+1. <span data-ttu-id="6e538-109">Démarrez le client Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="6e538-109">Start the Dynamics 365 for Retail client.</span></span>
+2. <span data-ttu-id="6e538-110">Cliquez sur **Vente au détail** &gt; **Configuration du siège** &gt; **Paramètres** &gt; **Paramètres des ventes au détail**.</span><span class="sxs-lookup"><span data-stu-id="6e538-110">Click **Retail** &gt; **Headquarters setup** &gt; **Parameters** &gt; **Retail parameters**.</span></span>
+3. <span data-ttu-id="6e538-111">Cliquez sur **Initialiser**.</span><span class="sxs-lookup"><span data-stu-id="6e538-111">Click **Initialize**.</span></span>
 
-<span data-ttu-id="93977-124">En outre, l'enregistrement qui est liée à PCI (Payment Card Industry) est activé pour la base de données Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="93977-124">Additionally, logging that is related to the payment card industry (PCI) is enabled for the Dynamics 365 for Retail database.</span></span> <span data-ttu-id="93977-125">**Remarque :** il existe une option pour configurer séparément le Retail Planification.</span><span class="sxs-lookup"><span data-stu-id="93977-125">**Note:** There is an option to separately configure the Retail scheduler.</span></span> <span data-ttu-id="93977-126">Cette option permet de rétablir les paramètres par défaut de la configuration de Retail Planification.</span><span class="sxs-lookup"><span data-stu-id="93977-126">This option lets you reset the Retail scheduler configuration to its default settings.</span></span> <span data-ttu-id="93977-127">Une fois l'initialisation terminée, vous devez configurer les données de vente au détail supplémentaires.</span><span class="sxs-lookup"><span data-stu-id="93977-127">After initialization is completed, you must configure additional retail data.</span></span> <span data-ttu-id="93977-128">Voici quelques exemples :</span><span class="sxs-lookup"><span data-stu-id="93977-128">Here are some examples:</span></span>
+<span data-ttu-id="6e538-112">L'initialisation crée les données de configuration par défaut suivantes :</span><span class="sxs-lookup"><span data-stu-id="6e538-112">Initialization creates the following default configuration data:</span></span>
 
--   <span data-ttu-id="93977-129">Paramètres des ventes au détail</span><span class="sxs-lookup"><span data-stu-id="93977-129">Retail parameters</span></span>
--   <span data-ttu-id="93977-130">Paramètres de Retail scheduler</span><span class="sxs-lookup"><span data-stu-id="93977-130">Retail scheduler parameters</span></span>
--   <span data-ttu-id="93977-131">Canaux de vente au détail</span><span class="sxs-lookup"><span data-stu-id="93977-131">Retail channels</span></span>
--   <span data-ttu-id="93977-132">Registres et périphériques</span><span class="sxs-lookup"><span data-stu-id="93977-132">Registers and devices</span></span>
--   <span data-ttu-id="93977-133">Assortiments</span><span class="sxs-lookup"><span data-stu-id="93977-133">Assortments</span></span>
+- <span data-ttu-id="6e538-113">Tâches et sous-tâches de Retail Planification</span><span class="sxs-lookup"><span data-stu-id="6e538-113">Retail scheduler jobs and subjobs</span></span>
+- <span data-ttu-id="6e538-114">Schéma de canal de vente au détail</span><span class="sxs-lookup"><span data-stu-id="6e538-114">Retail channel schema</span></span>
+- <span data-ttu-id="6e538-115">Programmes de distribution de vente au détail</span><span class="sxs-lookup"><span data-stu-id="6e538-115">Retail distribution schedules</span></span>
+- <span data-ttu-id="6e538-116">Structures d'écran par défaut, qui incluent des grilles de boutons, des images et des rubriques</span><span class="sxs-lookup"><span data-stu-id="6e538-116">Default screen layouts, which include button grids, images, and themes</span></span>
+- <span data-ttu-id="6e538-117">Informations sur le fuseau horaire</span><span class="sxs-lookup"><span data-stu-id="6e538-117">Time zone information</span></span>
+- <span data-ttu-id="6e538-118">Opérations de point de vente (PDV)</span><span class="sxs-lookup"><span data-stu-id="6e538-118">Point-of-sale (POS) operations</span></span>
+- <span data-ttu-id="6e538-119">Autorisations PDV</span><span class="sxs-lookup"><span data-stu-id="6e538-119">POS permissions</span></span>
+- <span data-ttu-id="6e538-120">Rapports sur les canaux</span><span class="sxs-lookup"><span data-stu-id="6e538-120">Channel reports</span></span>
+- <span data-ttu-id="6e538-121">Métadonnées d'attribut</span><span class="sxs-lookup"><span data-stu-id="6e538-121">Attribute metadata</span></span>
+- <span data-ttu-id="6e538-122">Modèles de validation de l'entité</span><span class="sxs-lookup"><span data-stu-id="6e538-122">Entity validation templates</span></span>
+- <span data-ttu-id="6e538-123">Traitement par lots pour vider l'historique des sessions Commerce Data Exchange</span><span class="sxs-lookup"><span data-stu-id="6e538-123">Batch job to purge Commerce Data Exchange session history</span></span>
 
+<span data-ttu-id="6e538-124">En outre, l'enregistrement qui est liée à PCI (Payment Card Industry) est activé pour la base de données Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="6e538-124">Additionally, logging that is related to the payment card industry (PCI) is enabled for the Dynamics 365 for Retail database.</span></span>
 
+> [!NOTE]
+> <span data-ttu-id="6e538-125">Il existe une option pour configurer séparément Retail Planification.</span><span class="sxs-lookup"><span data-stu-id="6e538-125">There is an option to separately configure the Retail scheduler.</span></span> <span data-ttu-id="6e538-126">Cette option permet de rétablir les paramètres par défaut de la configuration de Retail Planification.</span><span class="sxs-lookup"><span data-stu-id="6e538-126">This option lets you reset the Retail scheduler configuration to its default settings.</span></span>
 
+<span data-ttu-id="6e538-127">Une fois l'initialisation terminée, vous devez configurer les données de vente au détail supplémentaires.</span><span class="sxs-lookup"><span data-stu-id="6e538-127">After initialization is completed, you must configure additional retail data.</span></span> <span data-ttu-id="6e538-128">Voici quelques exemples :</span><span class="sxs-lookup"><span data-stu-id="6e538-128">Here are some examples:</span></span>
 
+- <span data-ttu-id="6e538-129">Paramètres des ventes au détail</span><span class="sxs-lookup"><span data-stu-id="6e538-129">Retail parameters</span></span>
+- <span data-ttu-id="6e538-130">Paramètres de Retail scheduler</span><span class="sxs-lookup"><span data-stu-id="6e538-130">Retail scheduler parameters</span></span>
+- <span data-ttu-id="6e538-131">Canaux de vente au détail</span><span class="sxs-lookup"><span data-stu-id="6e538-131">Retail channels</span></span>
+- <span data-ttu-id="6e538-132">Registres et périphériques</span><span class="sxs-lookup"><span data-stu-id="6e538-132">Registers and devices</span></span>
+- <span data-ttu-id="6e538-133">Assortiments</span><span class="sxs-lookup"><span data-stu-id="6e538-133">Assortments</span></span>
 
