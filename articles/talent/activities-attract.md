@@ -3,7 +3,7 @@ title: "Activités dans les processus"
 description: "Cette rubrique fournit des informations sur les différents types d'activités qui peuvent être utilisés dans le processus de recrutement."
 author: 
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 12/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: ccd9e2d0ff1f7fb6825c6823936b4013b3054f5d
+ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
+ms.openlocfilehash: 4f59193991420fd9ec05a83049e569058bf81932
 ms.contentlocale: fr-fr
-ms.lasthandoff: 10/22/2018
+ms.lasthandoff: 12/07/2018
 
 ---
 
@@ -62,6 +62,10 @@ L'activité d'entretien est facultative. Cette activité a trois composants : D
 - Pour envoyer un e-mail aux candidats pour leur demander leur disponibilité, définissez l'option **Demander la disponibilité du candidat** sur **Activé**. Si vous définissez l'option sur **Désactivé**, cette étape n'est pas affichée dans le processus de recrutement sur la mission.
 - Pour diffuser en continu ou faire une conférence téléphonique à l'aide de Skype Entreprise, définissez le champ **Réunion en ligne** sur **Skype Entreprise**. Le lien **Rejoindre la réunion de Skype** correct est alors ajouté à la demande de réunion d'entretien.
 - Pour envoyer un e-mail aux candidats pour finaliser le programme, définissez l'option **Envoyer l'e-mail au candidat** sur **Activé**. Si vous définissez l'option sur **Désactivé**, les candidats recevront le programme d'entretien uniquement lorsqu'ils se connecteront au portail du candidat.
+
+>[!NOTE]
+> - Pour tous les entretiens individuels, des rappels sont envoyés aux interviewers toutes les 24 heures si l'interviewer n'a pas répondu (accepté ou refusé) à la demande d'entretien.
+> - Pour tous les entretiens collectifs, il n'existe aucun rappel automatisé auquel répondre à une demande d'entretien. Pour déclencher un rappel manuellement, modifiez l'entretien et utilisez l'option **Mettre à jour et envoyer** pour renvoyer la demande aux interviewers.
 
 Le composant de commentaire permet aux personnes d'entrer des recommandations sur un candidat. Ils peuvent également entrer leurs commentaires de rétroaction. Si vous activez l'option **Hériter les participants aux commentaires de l'équipe de recrutement**, le recruteur, le responsable de l'embauche, et les intervieweurs sont automatiquement entrés dans le composant de rétroaction. Les organisations peuvent permettre aux intervieweurs d'afficher les commentaires d'autres personnes avant d'envoyer leurs propres commentaires. Les organisations peuvent également autoriser les intervieweurs à modifier leur commentaire l'avoir envoyé.
 

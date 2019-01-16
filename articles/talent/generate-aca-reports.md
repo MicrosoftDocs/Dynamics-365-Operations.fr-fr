@@ -3,7 +3,7 @@ title: "Générer des états sur la Loi sur les soins abordables (ACA)"
 description: "La fonctionnalité est disponible pour aider les employeurs qui ont besoin de suivre les informations déclarées dans les formulaires 1095-B et 1095-C à l'appui de la partie Mandat de l'employeur de la Loi sur les soins abordables. Notez que cette fonctionnalité est uniquement activée pour les entités juridiques aux États-Unis."
 author: kherr75
 manager: AnnBe
-ms.date: 07/01/2017
+ms.date: 12/17/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -18,10 +18,10 @@ ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: 25d2b8326bba69ac627f3fa7e05a6c850bd04c91
+ms.sourcegitcommit: f1456b91d6fc29ec65d0e9382d3f5f7682a8b516
+ms.openlocfilehash: 0ea2824093d33b9f233cd992399de22198bfc27a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 12/17/2018
 
 ---
 # <a name="generate-affordable-care-act-aca-reports"></a>Générer des états sur la Loi sur les soins abordables (ACA)
@@ -54,7 +54,7 @@ Dans la page **Gestionnaire des dates de la couverture des personnes à charge**
 ## <a name="generate-1095b-and-1095c-forms"></a>Générer les formulaires 1095B and 1095C
 Vous pouvez également générer les formulaires 109-B and 1095-C à partir du produit, et les distribuer à chacun de vos employés. La génération électronique du formulaire 1095-C et des fichiers de transmission 1094-C correspondants, qui peuvent être utilisés pour un envoi à l'administration fiscale, peuvent également être générés à partir du système.  
 
-Lorsque vous générez le formulaire 1095-C, saisissez le calendrier ou l'année fiscale approprié(e), et imprimez le formulaire à deux ou trois pages. Le formulaire de trois pages n'est nécessaire que si l'employeur a fourni une couverture personnelle et qu'un employé a plus de six personnes à charge couvertes, y compris lui-même. Lorsque vous générez le formulaire de deux pages, le système détectera automatiquement si un employé a plus de 6 personnes à charge couvertes, sans inclure cet employé lors de la génération du formulaire. En outre, lors de la génération du formulaire de trois pages, le système inclut uniquement les employés ayant plus de six personnes à charge couvertes.
+Lorsque vous générez le formulaire 1095-C, entrez l'exercice fiscal approprié et indiquez si les numéros de sécurité sociale doivent être masqués. Si vous imprimez des formulaires 1095-C pour plus de 500 employés, vous recevrez plusieurs fichiers PDF. Nous vous recommandons d'augmenter la **Taille maximale de fichier** dans la fenêtre **Paramètres de gestion des documents** à 150 Mo.
 
 ## <a name="viewing-information"></a>Affichage des informations
 Vous pouvez utiliser la page **Couverture du collaborateur en matière de soins abordables** pour voir quels employés ont été affectés à chaque groupe de couverture, quels employés ne doivent pas être inclus dans un état et quels employés ne sont pas affectés.

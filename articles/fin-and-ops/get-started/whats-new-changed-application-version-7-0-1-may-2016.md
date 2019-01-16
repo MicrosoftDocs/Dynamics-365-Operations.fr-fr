@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 29a46eb2ec36fdc7e52b148efdadd4401bc8bca2
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: c830952b5d9e4887a816b5ab66d0944bddf5b505
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -31,59 +31,80 @@ ms.lasthandoff: 08/08/2018
 
 Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans la version 7.0.1 de Microsoft Dynamics AX. Cette version a été publiée en mai 2016 et a pour numéro de version 7.0.1265.23014.
 
-<a name="electronic-reporting-er"></a>Gestion des états électroniques
--------------------------
+## <a name="electronic-reporting-er"></a>Gestion des états électroniques
 
-|                                                                                                                                                                                        |                                                                                                                                                                                                                                                                                                                                                        |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Que pouvez-vous faire ?**                                                                                                                                                                   | **Pourquoi est-ce important ?**                                                                                                                                                                                                                                                                                                                             |
-| Configurez une boîte de dialogue d’exécution pour les états électroniques afin que les utilisateurs puissent sélectionner les dimensions financières de leur choix.                                     | Au moment de l’exécution, dans la boîte de dialogue d’exécution d'un état électronique, les utilisateurs peuvent sélectionner plusieurs dimensions financières. Les détails des dimensions financières sélectionnées seront affichées dans le document électronique qui est généré.                                                                                                                              |
-| Configurez l’accès à plusieurs dimensions financières lors de la conception d’un état électronique, via un seul mappage à la source de données souhaitée.                                                  | La même configuration d'états électroniques peut servir à générer des documents électroniques qui présentent les données transactionnelles ainsi que des détails des dimensions financières, quel que soit le nombre de dimensions financières qui sont sélectionnées par l’utilisateur ou configurées pour l’entité juridique ou l'instance actuelle.                                             |
-| Configurez un état électronique pour entrer des données dans les colonnes générées de manière dynamique d’un document électronique qui est créé au format de feuille de calcul OPENXML.                                           | Un état électronique peut entrer des données dans une feuille de calcul OPENXML qui est générée, par la réplication des colonnes horizontalement. Par conséquent, la même configuration d'états électroniques peut être réutilisée pour générer des documents électroniques ayant un nombre différent de colonnes générées de façon dynamique.                                                                                 |
+| Que pouvez-vous faire ? | Pourquoi est-ce important ? |
+|------------------|------------------------|
+| Configurez une boîte de dialogue d’exécution pour les états électroniques afin que les utilisateurs puissent sélectionner les dimensions financières de leur choix. | Au moment de l’exécution, dans la boîte de dialogue d’exécution d'un état électronique, les utilisateurs peuvent sélectionner plusieurs dimensions financières. Les détails des dimensions financières sélectionnées seront affichées dans le document électronique qui est généré. |
+| Configurez l’accès à plusieurs dimensions financières lors de la conception d’un état électronique, via un seul mappage à la source de données souhaitée. | La même configuration d'états électroniques peut servir à générer des documents électroniques qui présentent les données transactionnelles ainsi que des détails des dimensions financières, quel que soit le nombre de dimensions financières qui sont sélectionnées par l’utilisateur ou configurées pour l’entité juridique ou l'instance actuelle. |
+| Configurez un état électronique pour entrer des données dans les colonnes générées de manière dynamique d’un document électronique qui est créé au format de feuille de calcul OPENXML. | Un état électronique peut entrer des données dans une feuille de calcul OPENXML qui est générée, par la réplication des colonnes horizontalement. Par conséquent, la même configuration d'états électroniques peut être réutilisée pour générer des documents électroniques ayant un nombre différent de colonnes générées de façon dynamique. |
 | Configurez les destinations d'états électroniques afin que le résultat d’un format de sortie soit dirigé vers une destination spécifique : fichier, courrier électronique ou archive (dossier Microsoft SharePoint ou stockage Microsoft Azure). | Auparavant, lorsque vous exécutiez une configuration d'état électronique, une zone de message apparaissait nécessitant une de l'utilisateur pour enregistrer ou ouvrir un fichier. Vous pouvez maintenant configurer une destination pour chaque configuration de format et pour chaque composant de sortie (un dossier ou un fichier) séparément. Les utilisateurs qui disposent des droits d’accès appropriés peuvent également modifier les paramètres de destination au moment de l’exécution. |
 
 ## <a name="pos--microsoft-dynamics-ax-retail"></a>POS – Microsoft Dynamics AX Retail
 
-|                                |                                                                                                                                                                                         |
-|--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Que pouvez-vous faire ?**           | **Pourquoi est-ce important ?**                                                                                                                                                              |
+| Que pouvez-vous faire ? | Pourquoi est-ce important ? |
+|------------------|------------------------|
 | Utilisez le navigateur Google Chrome. | Les détaillants peuvent maintenant démarrer Cloud POS depuis le navigateur Chrome et peuvent bénéficier de toutes les fonctionnalités qui sont disponible dans la version de Cloud POS sur Internet Explorer et Microsoft Edge. |
 
 ## <a name="financial-reporting"></a>États financiers
 
-|                                                                     |                                                                                                                                                                                                                                                                                                                    |
-|---------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Que pouvez-vous faire ?**                                                | **Pourquoi est-ce important ?**                                                                                                                                                                                                                                                                                         |
-| Recréez le magasin de données d'états financiers.                          | Lorsque vous déplacez des bases de données Dynamics AX entre différents environnements ou que vous apportez d'autres modifications invasives à l’environnement Dynamics AX, la base de données de génération d'états financiers peut devoir être recréée.  Un script Windows PowerShell est désormais fourni pour recréer la base de données pour vous.                                                                |
+| Que pouvez-vous faire ? | Pourquoi est-ce important ? |
+|------------------|------------------------|
+| Recréez le magasin de données d'états financiers. | Lorsque vous déplacez des bases de données Dynamics AX entre différents environnements ou que vous apportez d'autres modifications invasives à l’environnement Dynamics AX, la base de données de génération d'états financiers peut devoir être recréée. Un script Windows PowerShell est désormais fourni pour recréer la base de données pour vous. |
 | Vous ne pouvez plus sélectionner les options du générateur d'états qui ne sont pas valides. | Plusieurs options du générateur d'états qui étaient utilisées dans les versions de mise sur le marché de Management reporter ne s’appliquent pas à cette version de Dynamics AX. Ces options étaient liées à la génération, la sortie et la liaison d'états financiers. Ces options ont été supprimées du générateur d'états financiers pour empêcher les erreurs de l’utilisateur. |
 
 ## <a name="financial-management"></a>Gestion financière
 
-|                                                            |                                                                  |
-|------------------------------------------------------------|------------------------------------------------------------------|
-| **Que pouvez-vous faire ?**                                       | **Pourquoi est-ce important ?**                                       |
+| Que pouvez-vous faire ? | Pourquoi est-ce important ? |
+|------------------|------------------------|
 | Générez des fichiers de paiement positif pour les paiemets de Comptabilité fournisseur. | Les fichiers de paiement positifs peuvent être générés pour aider les banques à empêcher les fraudes par chèque. |
 
 ## <a name="warehouse-and-production"></a>Entrepôt et production
 
-|                                                                                                                                                                                                                                                                                                                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Que pouvez-vous faire ?**                                                                                                                                                                                                                                                                                                                                                                    | **Pourquoi est-ce important ?**                                                                                                                                                                                                                                                                                                                                                                                                              |
-| Définissez une stratégie de travail d’entrepôt qui contrôle la création du travail pour un ensemble de produits à des emplacements spécifiques.                                                                                                                                                                                                                                                                          | Les processus d'entrepôt n'incluent pas systématiquement les tâches. À l'aide de la nouvelle stratégie de travail d'entrepôt, vous pouvez empêcher la création de tâche pour le prélèvement de matières premières et le rangement de produits finis pour un ensemble de produits à des emplacements spécifiques.                                                                                                                                                                                                     |
-| Spécifiez que les plaques d’immatriculation d’un emplacement de sortie de production ne font pas l'objet d'un contrôle.                                                                                                                                                                                                                                                                                                               | Vous pouvez maintenant spécifier que les plaques d’immatriculation d’un emplacement de sortie de production ne font pas l'objet d'un contrôle. Par exemple, cette fonctionnalité est utile lorsqu’un ordre de fabrication en amont signale les éléments terminés directement à un emplacement qui sert d’emplacement d’entrée en production pour un ordre de fabrication en aval.                                                                                                                                                     |
-| Prenez en charge les nomenclatures qui incluent des articles dotés de dimensions de produit différentes d’un même article.                                                                                                                                                                                                                                                                                                     | Lorsque vous utilisez une ou plusieurs des dimensions de produit dans la production, vous pouvez avoir des situations où vous souhaitez produire un article, basé sur une autre variante du même article. Pour plus d'informations, voir [ce blog](https://blogs.msdn.microsoft.com/axmfg/2015/12/22/support-for-boms-that-includes-items-with-different-product-dimensions-of-the-same-item/).                                                                  |
-| Les ordres de fabrication avec des structures circulaires au premier niveau de leurs nomenclatures sont exclus du calcul de nomenclature pour la planification de la ressource matérielle.                                                                                                                                                                                                                                     | Il n’est pas possible d’affecter des niveaux de nomenclature corrects aux variantes de produit pour les ordres de fabrication entraînant une circularité dans la hiérarchie de nomenclature.                                                                                                                                                                                                                                                                                                  |
-| Calculez les différents niveaux de nomenclature pour la planification des ressources matérielles et le calcul de coût : • Pour la planification de ressource matérielle, les niveaux de nomenclature sont calculés dans la nouvelle table **ReqItemLevel**. Les ordres de fabrication terminés sont ignorés dans le calcul. • Pour le calcul des coûts de production, les niveaux de nomenclature sont calculés dans la table **InventTable**. Les ordres de fabrication terminés sont inclus dans le calcul. | • Lors de l’exécution de planification des ressources matérielles, par exemple, la planification planifie le plan et les explosions, seuls les niveaux de nomenclature utilisés pour la planification de ressource matérielle doivent être recalculés. Autrement dit, il n’est pas nécessaire de calculer les niveaux de la nomenclature utilisés pour le calcul de la production. • Lors de l’exécution des opérations d’évaluation des coûts, par exemple, les stocks de clôture, seuls les niveaux de nomenclature utilisés pour le calcul de coût de la production doivent être recalculés. |
+<table>
+<thead>
+<tr>
+<th>Que pouvez-vous faire ?</th>
+<th>Pourquoi est-ce important ?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Définissez une stratégie de travail d’entrepôt qui contrôle la création du travail pour un ensemble de produits à des emplacements spécifiques.</td>
+<td>Les processus d'entrepôt n'incluent pas systématiquement les tâches. À l'aide de la nouvelle stratégie de travail d'entrepôt, vous pouvez empêcher la création de tâche pour le prélèvement de matières premières et le rangement de produits finis pour un ensemble de produits à des emplacements spécifiques.</td>
+</tr>
+<tr>
+<td>Spécifiez que les plaques d’immatriculation d’un emplacement de sortie de production ne font pas l'objet d'un contrôle.</td>
+<td>Vous pouvez maintenant spécifier que les plaques d’immatriculation d’un emplacement de sortie de production ne font pas l'objet d'un contrôle. Par exemple, cette fonctionnalité est utile lorsqu’un ordre de fabrication en amont signale les éléments terminés directement à un emplacement qui sert d’emplacement d’entrée en production pour un ordre de fabrication en aval.</td>
+</tr>
+<tr>
+<td>Prenez en charge les nomenclatures qui incluent des articles dotés de dimensions de produit différentes d’un même article.</td>
+<td>Lorsque vous utilisez une ou plusieurs des dimensions de produit dans la production, vous pouvez avoir des situations où vous souhaitez produire un article, basé sur une autre variante du même article. Pour plus d'informations, voir <a href="https://blogs.msdn.microsoft.com/axmfg/2015/12/22/support-for-boms-that-includes-items-with-different-product-dimensions-of-the-same-item/">ce blog</a>.</td>
+</tr>
+<tr>
+<td>Les ordres de fabrication avec des structures circulaires au premier niveau de leurs nomenclatures sont exclus du calcul de nomenclature pour la planification de la ressource matérielle.</td>
+<td>Il n’est pas possible d’affecter des niveaux de nomenclature corrects aux variantes de produit pour les ordres de fabrication entraînant une circularité dans la hiérarchie de nomenclature.</td>
+</tr>
+<tr>
+<td>Calculez les différents niveaux de nomenclature pour la planification des ressources matérielles et le calcul de coût :
+<ul>
+<li>Pour la planification de ressource matérielle, les niveaux de nomenclature sont calculés dans la nouvelle table <strong>ReqItemLevel</strong>. Les ordres de fabrication terminés sont ignorés dans le calcul.</li>
+<li>Pour le calcul des coûts de production, les niveaux de nomenclature sont calculés dans la table <strong>InventTable</strong>. Les ordres de fabrication terminés sont inclus dans le calcul.</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Lors de l’exécution de planification des ressources matérielles, par exemple, la planification planifie le plan et les explosions, seuls les niveaux de nomenclature utilisés pour la planification de ressource matérielle doivent être recalculés. Autrement dit, il n’est pas nécessaire de calculer les niveaux de la nomenclature utilisés pour le calcul de la production.</li>
+<li>Lors de l’exécution des opérations d’évaluation des coûts, par exemple, les stocks de clôture, seuls les niveaux de nomenclature utilisés pour le calcul de coût de la production doivent être recalculés.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
 
-
-
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Nouveautés ou changements](whats-new-changed.md)
 
 [Guides de tâches nouveaux ou mis à jour (mai 2016)](new-updated-task-guides-available-may-2016.md)
-
-
-
 

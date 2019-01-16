@@ -17,10 +17,10 @@ ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: d428da2a6fb8ce5d63c3373def879c9b32cfd492
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 3e8c5466a68fa87326c46a4e36bf7399be1279c6
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -59,11 +59,12 @@ Dans le cadre des améliorations de la fonction de validation des relevés, troi
 
 En outre, le champ **Nombre maximal de validation de relevés en parallèle** a été introduit dans l'organisateur **Traitement par lots**. Ce champ définit le nombre de tâches de traitement par lots à exécuter simultanément. Pour le moment, vous devez définir manuellement la valeur de ce champ.
 
-En outre, avec le nouveau processus de validation, il est nécessaire de définir un **Produit de la carte cadeau** dans l'organisateur **Carte cadeau** sous l'onglet **Validation** de la page **Paramètres des ventes au détail**. Cela est valable même si aucune carte cadeau n'est utilisée par l'organisation. 
+En outre, avec le nouveau processus de validation, il est nécessaire de définir un **Produit de la carte cadeau** dans l'organisateur **Carte cadeau** sous l'onglet **Validation** de la page **Paramètres des ventes au détail**. Cela est valable même si aucune carte cadeau n'est utilisée par l'organisation.
 
 Notez que tous les paramètres associés aux validations de relevé et définis dans les magasins de vente au détail et sur la page **Paramètres des ventes au détail** s'appliquent à la fonction améliorée de validation des relevés.
 
 ## <a name="processing"></a>Traitement
+
 Les relevés peuvent être calculés et validés par lots à l'aide des options de menu **Calcul des relevés en mode de traitement par lots** et **Valider les relevés en mode de traitement par lots**. Les relevés peuvent également être calculés et validés manuellement à l'aide de l'option de menu **Relevés de vente au détail** fournie par la fonction améliorée de validation des relevés.
 
 Le processus et les étapes de calcul et de validation des relevés en mode de traitement par lots sont les mêmes que ceux pour la fonction héritée de validation des relevés. Toutefois, des améliorations importantes ont été apportées au traitement principal des relevés. Ces améliorations rendent le processus plus résilient et offrent une meilleure visibilité sur les états et les informations d'erreur. Par conséquent, les utilisateurs peuvent déterminer la cause principale des erreurs et continuer le processus de validation sans entraîner l'altération des données, ni nécessiter des correctifs de données.
@@ -71,6 +72,7 @@ Le processus et les étapes de calcul et de validation des relevés en mode de t
 Les sections suivantes décrivent quelques-unes des principales améliorations de la fonction de validation des relevés qui s'affichent dans l'interface utilisateur pour les relevés de vente au détail et les relevés validés.
 
 ### <a name="status-details"></a>Détails du statut
+
 Un nouveau modèle d'état a été introduit dans la routine de validation des relevés pour les processus de calcul et de validation.
 
 Le tableau suivant décrit les différents états et leur ordre lors du processus de calcul.
@@ -109,9 +111,11 @@ Chaque état dans les tableaux précédents est indépendant par nature, et une 
 En outre, l'en-tête des deuxième et troisième sections présente le statut global du processus approprié.
 
 ### <a name="event-logs"></a>Journaux des événements
+
 Un relevé passe par différentes opérations (par exemple, créer, calculer, effacer et valider), et plusieurs instances de la même opération peuvent être appelées pendant le cycle de vie du relevé. Par exemple, une fois qu'un relevé est créé et calculé, un utilisateur peut l'effacer et le recalculer. Le bouton **Journaux des événements** dans le groupe **Détails d'exécution** du relevé fournit une piste d'audit complète des différentes opérations appelées sur un relevé, ainsi que des informations sur le moment où ces opérations ont été appelées.
 
 ### <a name="aggregated-transactions"></a>Transactions regroupées
+
 Lors du processus de validation, les transactions de vente sont regroupées selon la configuration. Ces transactions regroupées sont stockées dans le système et utilisées pour créer des commandes client. Chaque transaction regroupée crée une commande client correspondante dans le système. Vous pouvez afficher les transactions regroupées à l'aide du bouton **Transactions regroupées** dans le groupe **Détails d'exécution** du relevé.
 
 L'onglet **Détails de la commande client** d'une transaction regroupée affiche les informations suivantes :
@@ -136,11 +140,13 @@ La vue Transaction regroupée offre les avantages suivantes :
 - Le fichier XML regroupé facilite l'identification des problèmes lors de la création et de la facturation de la commande client.
 
 ### <a name="journal-vouchers"></a>N° documents de journal
+
 Le bouton **N° document de journal** dans le groupe **Détails d'exécution** du relevé affiche les différentes transactions de N° document créées pour un relevé et associées aux remises, comptes de revenus/dépenses, cartes cadeaux, etc.
 
 Pour le moment, le programme affiche ces données uniquement pour les relevés validés.
 
 ### <a name="payment-journals"></a>Journaux des paiements
+
 Le bouton **Journaux des paiements** dans le groupe **Détails d'exécution** du relevé affiche les différents journaux des paiements créés pour un relevé.
 
 Pour le moment, le programme affiche ces données uniquement pour les relevés validés.

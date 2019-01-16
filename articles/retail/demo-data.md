@@ -20,10 +20,10 @@ ms.author: zlinster
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 41930e89a7cae5cdb84e728da47de3bc5de312ca
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 8fe0ea3e7715fcbebc3ed590c85ee399c6192584
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -41,7 +41,7 @@ Les exemple de mises en page d'écran qui sont inclus dans les données de démo
 
 ## <a name="anatomy-of-a-screen-layout-id"></a>Anatomie d'un ID mise en page de l'écran
 
-Pour rechercher des mises en page d'écran dans Retail, accédez à **Retail** > **Paramétrage de canal** > **Paramétrage POS** > **PDV** > **Mises en page de l'écran**.
+Pour rechercher des mises en page d'écran dans Retail, accédez à **Retail** \> **Paramétrage de canal** \> **Paramétrage POS** \> **PDV** \> **Mises en page de l'écran**.
 
 ![Page des mises en page de l'écran dans Retail](../retail/media/demo-screen-layouts-fig-2-1.png)
 
@@ -107,10 +107,8 @@ Le tableau suivant indique les tailles de mise en page autorisées pour les rés
 
 \* Ces tailles de mise en page supplémentaires sont disponibles uniquement dans les mises en page Adventure Works et Fabrikam.
 
-
->[!TIP]
-> Le PDV sélectionne automatiquement les tailles de mise en page, selon la taille la plus proche disponible pour la résolution d'écran de la fenêtre d'application active. Pour trouver l'ID mise en page de l'écran et la résolution de mise en page qui sont actuellement utilisés, le Retail Modern POS (MPOS) ou Retail Cloud POS (CPOS), ouvrez la page **Paramètres**, et consultez la section **Informations de session**. Vous pouvez également afficher la résolution réelle de la fenêtre pour votre trame d'application ou de navigateur actuelle. Une fois que vous disposez de ces informations, vous pouvez trouver la source du contenu de la mise en page dans Retail en accédant à **Paramétrage de canal** > **Paramétrage POS** > **PDV** > **Mises en page de l'écran**.
-
+> [!TIP]
+> Le PDV sélectionne automatiquement les tailles de mise en page, selon la taille la plus proche disponible pour la résolution d'écran de la fenêtre d'application active. Pour trouver l'ID mise en page de l'écran et la résolution de mise en page qui sont actuellement utilisés, le Retail Modern POS (MPOS) ou Retail Cloud POS (CPOS), ouvrez la page **Paramètres**, et consultez la section **Informations de session**. Vous pouvez également afficher la résolution réelle de la fenêtre pour votre trame d'application ou de navigateur actuelle. Une fois que vous disposez de ces informations, vous pouvez trouver la source du contenu de la mise en page dans Retail en accédant à **Paramétrage de canal** \> **Paramétrage POS** \> **PDV** \> **Mises en page de l'écran**.
 
 ![Mises en page de l'écran et résolutions/tailles de mise en page dans Retail et PDV](../retail/media/demo-screen-layouts-fig-3-1.png)
 
@@ -126,10 +124,8 @@ Chaque société fictive est spécifique à un segment de vente au détail diff�
 | Fabrikam        | Houston  | Mode        | Vert  | Léger |
 | Contoso         | Boston   | Électronique    | Rouge    | Sombre  |
 
-
->[!NOTE]
+> [!NOTE]
 > Adventure Works et Fabrikam sont les deux marques principales. Contoso est disponible, mais toutes les mises en page n'ont pas été livrées.
-
 
 Les exemples d'illustrations suivantes présentent la page d'accueil et la page de transaction des trois sociétés fictives.
 
@@ -153,28 +149,26 @@ Les exemples d'illustrations suivantes présentent la page d'accueil et la page 
 
 Différentes mises en page de l'écran ont été fournies aux utilisateurs. En utilisant la table suivante, vous devriez pouvoir accéder à tous ces écrans. Il vous suffit de vous connecter à l'aide d'un ID opérateur approprié.
 
-| Société         | ID mise en page de l'écran | Personnage          | ID opérateurs           |
-|-----------------|------------------|---------------   |------------------------|
-| Adventure Works | A3MGR            | Directeur de magasin    | 000154, 000137, 000073 |
-| Adventure Works | A3CSH            | Caissier          | 000150, 000175, 000165 |
-| Adventure Works | A3STK            | Employé au stock      | 000155, 000181, 000152 |
-| Fabrikam        | F3MGR            | Directeur de magasin    | 000160, 000168, 000163 |
-| Fabrikam        | F3CSH            | Caissier          | 000161, 000113, 000114 |
-| Fabrikam        | F3STK            | Employé au stock      | 000164, 000112, 000123 |
-| Contoso         | C3MGR            | Directeur de magasin    | 000100, 000111         |
-| Contoso         | C3CSH            | Caissier          | 000110, 000120         |
-| Contoso         | Non applicable   | Employé au stock      | Non applicable         |
+| Société         | ID mise en page de l'écran | Personnage       | ID opérateurs           |
+|-----------------|------------------|---------------|------------------------|
+| Adventure Works | A3MGR            | Directeur de magasin | 000154, 000137, 000073 |
+| Adventure Works | A3CSH            | Caissier       | 000150, 000175, 000165 |
+| Adventure Works | A3STK            | Employé au stock   | 000155, 000181, 000152 |
+| Fabrikam        | F3MGR            | Directeur de magasin | 000160, 000168, 000163 |
+| Fabrikam        | F3CSH            | Caissier       | 000161, 000113, 000114 |
+| Fabrikam        | F3STK            | Employé au stock   | 000164, 000112, 000123 |
+| Contoso         | C3MGR            | Directeur de magasin | 000100, 000111         |
+| Contoso         | C3CSH            | Caissier       | 000110, 000120         |
+| Contoso         | Non applicable   | Employé au stock   | Non applicable         |
 
-
->[!TIP]
+> [!TIP]
 > Pour de meilleurs résultats, activez un registre dans l'emplacement du magasin correspondant, puis définissez la société sur la société du personnage que vous comptez utiliser lorsque vous vous connecterez. Ainsi, cela vous garantit que le profil visuel et les images de marque sont alignés tout au long de l'expérience. Par exemple, si vous souhaitez consulter une mise en page de Fabrikam pour un caissier, vous devez activer une caisse enregistreuse dans le magasin de Houston.
-
 
 <!-- Hiding until the content page is available on CustomerSource -->
 
 <!-- ## Reference icons and images -->
 
-<!-- The screen layouts, button grids, and visual profiles were created using images and icons that can be found in **Retail > Channel setup > POS setup > POS > Images**. -->
+<!-- The screen layouts, button grids, and visual profiles were created using images and icons that can be found in **Retail \> Channel setup \> POS setup \> POS \> Images**. -->
 
 <!-- ![Images in Dynamics 365 for Retail](../retail/media/demo-screen-layouts-fig-5-1.png) -->
 

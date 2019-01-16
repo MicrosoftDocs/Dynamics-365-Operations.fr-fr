@@ -3,7 +3,7 @@ title: "Créer, approuver et publier des missions dans Attract"
 description: "Cette rubrique décrit les éléments d'une mission dans Attract. Elle décrit également comment créer une mission."
 author: josaw
 manager: AnnBe
-ms.date: 10/24/2018
+ms.date: 12/21/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -20,10 +20,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2fc6bf25d303d7d8de8002a923a080b90dcfbeab
-ms.openlocfilehash: af945042c150fff1a95cdb046f2a712cb2c2c061
+ms.sourcegitcommit: 95031534c43dc0578e258bc3e5376c429d72b0ab
+ms.openlocfilehash: 6c5daa4050d63303f1ac10c24901e5b1182cb62b
 ms.contentlocale: fr-fr
-ms.lasthandoff: 10/24/2018
+ms.lasthandoff: 12/23/2018
 
 ---
 
@@ -75,7 +75,25 @@ Pour plus d'informations sur les activités qui peuvent être ajoutées au proce
 
 ## <a name="postings"></a>Publications
 
-Une fois la mission activée, elle peut être publiée. Seuls les recruteurs et les administrateurs peuvent publier des tâches. La mission peut être publiée dans Carrières Talent (site de carrières de Microsoft Dynamics 365 for Talent) ou LinkedIn. L'équipe Attract travaille continuellement pour créer des partenariats avec des agrégateurs d'offres d'emploi. Par conséquent, cette liste se développera au fil du temps.
+Une fois la mission activée, elle peut être publiée. Seuls les recruteurs et les administrateurs peuvent publier des tâches. La mission peut être publiée dans Carrières Talent (site de carrières de Microsoft Dynamics 365 for Talent) ou LinkedIn. 
+
+> [!NOTE]
+> Il existe trois éléments importantes à noter sur le processus de publications de mission dans LinkedIn.
+> 1. Les missions publiées dans LinkedIn sont publiées comme des « offres d'emploi limitées ». Les offres d'emploi limitées ne peuvent pas être promues sur le site de LinkedIn. Si vous souhaitez promouvoir les offres d'emploi limitées publiées sur LinkedIn à partir d'Attract, vous devez utiliser LinkedIn pour activer la « diffusion automatique des offres d'emploi ». Consultez les liens ci-dessous et contactez le support technique de LinkedIn pour plus de détails.
+>
+>    [Offres d'emploi limitées et job slots Premium pour la diffusion automatique des offres d'emploi](https://www.linkedin.com/help/recruiter/answer/79049/limited-listings-vs-premium-job-slots-for-job-wrapping)
+>
+>    [FAQ sur la diffusion automatique des offres d'emploi](https://www.linkedin.com/help/recruiter/answer/79050/job-wrapping-frequently-asked-questions)
+>
+> 1. Lors de la publication de mission sur LinkedIn, Attract transmet le nom de l'organisation Microsoft 365 à la mission. LinkedIn lie les missions à une société côté LinkedIn selon le nom de l'organisation transmise. Si votre mission est référencée selon la mauvaise société dans LinkedIn, vérifiez que votre nom d'organisation Microsoft 365 correspond à celui de la société sur LinkedIn.  
+>
+>    [Modifier le contact d'adresse et plus encore](https://docs.microsoft.com/en-us/office365/admin/manage/change-address-contact-and-more)
+>
+>    Si vous rencontrez des problèmes après cette étape, contactez le support LinkedIn. 
+> 
+> 1. Les missions publiées sur LinkedIn peuvent prendre jusqu'à 24 heures pour être visibles aux candidats à partir de LinkedIn, en raison du processus actuel de publication par traitement par lots de LinkedIn.
+
+L'équipe Attract travaille continuellement pour créer des partenariats avec des agrégateurs d'offres d'emploi. Cette liste se développera au fil du temps.
 
 Pour plus d'informations sur les publications de postes, voir [Fonctionnalité de site de carrière dans Attract](./career-site.md).
 

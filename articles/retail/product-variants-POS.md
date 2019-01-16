@@ -20,10 +20,10 @@ ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: e40c558e03ef230fee6726994bc94979d40493c2
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: cd2dc460c9e862503ebbf1942dcf998d67829d86
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -52,8 +52,8 @@ Les quantités**Réservé** et **Commandé** sont également affichées pour cha
 
 La liste des emplacements inclut deux types d'entités :
 
-- **Magasins de vente au détail** – La liste affiche les magasins configurés à l'aide du groupe de localisateurs de magasin du magasin actuel dans Retail Siège. 
-- **Centres de distribution** – Différents types de centres de distribution (tels que les entrepôts) peuvent être configurés dans Microsoft Dynamics 365 for Retail. Toutefois, la liste affiche les informations de stock disponible uniquement pour les centres de distribution de type par défaut **Standard**. 
+- **Magasins de vente au détail** – La liste affiche les magasins configurés à l'aide du groupe de localisateurs de magasin du magasin actuel dans Retail Siège.
+- **Centres de distribution** – Différents types de centres de distribution (tels que les entrepôts) peuvent être configurés dans Microsoft Dynamics 365 for Retail. Toutefois, la liste affiche les informations de stock disponible uniquement pour les centres de distribution de type par défaut **Standard**.
 
     > [!NOTE]
     > Les informations de stock disponible ne sont pas affichées pour les entrepôts de type **Transit**, **Contrôle**, et **Marchandises en route** du PDV.
@@ -86,7 +86,7 @@ Dans la vue **Matrice basée sur les dimensions**, les cellules des variantes de
 | **0** (zéro)                             | Une variante a été lancée à l'emplacement sélectionné, mais l'article n'est pas disponible à l'emplacement sélectionné. Toutefois, vous pouvez exécuter des actions supplémentaires dans la cellule. (Ces actions sont décrites en détail plus loin dans cette rubrique.) |
 | **s/o** ou une cellule inactive              | Aucune variante n'a été lancée à l'emplacement sélectionné, et vous ne pouvez pas exécuter des actions supplémentaires dans la cellule. |
 
-Vous pouvez également modifier le tableau croisé dynamique pour les dimensions en sélectionnant la nouvelle dimension à utiliser. 
+Vous pouvez également modifier le tableau croisé dynamique pour les dimensions en sélectionnant la nouvelle dimension à utiliser.
 
 ![Modification du tableau croisé dynamique](media/ChangePivot.png)
 
@@ -108,14 +108,12 @@ En outre, dans la vue **Matrice basée sur les dimensions**, d'autres actions pe
 
 Le tableau suivant fournit d'autres informations sur les actions supplémentaires disponibles.
 
-
-|        Action        |                                                                                                                    Description                                                                                                                    |
-|----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|       Vendre maintenant       |                               Ajoutez la variante d'article sélectionnée à la transaction, et redirigez l'utilisateur vers l'écran de transaction. (Cette action n'est pas disponible lorsque l'emplacement sélectionné est un centre de distribution.)                               |
-|   Prélever dans un magasin   |      Créez une commande client pour la variante de produit qui sera prélevée à l'emplacement sélectionné, et redirigez l'utilisateur vers l'écran de transaction. (Cette action n'est pas disponible lorsque l'emplacement sélectionné est un centre de distribution.)       |
-|     Expédier le produit     |                                                 Créez une commande client pour la variante de produit qui sera expédiée depuis l'emplacement sélectionné, et redirigez l'utilisateur vers l'écran de transaction.                                                 |
-|     Disponibilité     |                                                                             Affichez des informations DAV pour la combinaison de variables sélectionnée pour l'emplacement sélectionné.                                                                              |
-|  Afficher tous les emplacements  | Passez à la vue de recherche de stock standard, et mettez en surbrillance les informations de stock disponible pour la variante d'article dans tous les magasins du groupe de localisateurs de magasin, ainsi que dans les centres de distribution de type <strong>Standard/Par défaut</strong>. |
-| Afficher les détails du produit |                                                                         Redirigez l'utilisateur vers la page <strong>Détails du produit</strong> du produit générique associé.                                                                          |
-
+| Action               | Description |
+|----------------------|-------------|
+| Vendre maintenant             | Ajoutez la variante d'article sélectionnée à la transaction, et redirigez l'utilisateur vers l'écran de transaction. (Cette action n'est pas disponible lorsque l'emplacement sélectionné est un centre de distribution.) |
+| Prélever dans un magasin     | Créez une commande client pour la variante de produit qui sera prélevée à l'emplacement sélectionné, et redirigez l'utilisateur vers l'écran de transaction. (Cette action n'est pas disponible lorsque l'emplacement sélectionné est un centre de distribution.) |
+| Expédier le produit         | Créez une commande client pour la variante de produit qui sera expédiée depuis l'emplacement sélectionné, et redirigez l'utilisateur vers l'écran de transaction. |
+| Disponibilité         | Affichez des informations DAV pour la combinaison de variables sélectionnée pour l'emplacement sélectionné. |
+| Afficher tous les emplacements   | Passez à la vue de recherche de stock standard, et mettez en surbrillance les informations de stock disponible pour la variante d'article dans tous les magasins du groupe de localisateurs de magasin, ainsi que dans les centres de distribution de type **Standard/Par défaut**. |
+| Afficher les détails du produit | Redirigez l'utilisateur vers la page **Détails du produit** du produit générique associé. |
 

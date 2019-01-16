@@ -3,7 +3,7 @@ title: "Paramétrer la gestion des offres"
 description: "Cette rubrique décrit comment paramétrer les offres dans Talent."
 author: josaw
 manager: AnnBe
-ms.date: 10/18/2018
+ms.date: 12/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -18,10 +18,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: fa2f2f9f67562524961352a87a7db49992776e46
+ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
+ms.openlocfilehash: bb90f0a3c87c64a74ca63610105abfeb8223900a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 10/22/2018
+ms.lasthandoff: 12/07/2018
 
 ---
 # <a name="set-up-offer-management"></a>Paramétrer la gestion des offres 
@@ -105,7 +105,7 @@ Pour charge le fichier de règles de données de l'offre, procédez comme suit.
 
 1.  Vous pouvez supprimer un chargement de l'ensemble de règles existant si l'espace réservé est défini comme inutilisé dans un autre modèle de document.
 
->[!REMARQUES]
+>[!NOTE]
 > - Chaque espace réservé ne peut disposer que d'un seul ensemble de colonnes dont il dépend. Par exemple, si **Salaire annuel** dépend d'**Emplacement de la mission** et de **Niveau**, vous ne pouvez pas charger un autre ensemble de règles où **Salaire annuel** dépend d'un ensemble de colonnes différent.
 
 > - Vous pouvez télécharger des exemples d'ensembles de règles de données de l'offre dans l'onglet **Exemples** de la page **Règles de données de l'offre**.
@@ -136,7 +136,7 @@ Pour créer un modèle de document d'offre, procédez comme suit.
 
     - Ajoutant une balise de hachage directement à l'emplacement de l'espace réservé de données de l'offre. Entrez **\#** puis commencez à saisir le nom de l'espace réservé de données de l'offre. Des options s'afficheront dans la liste déroulante. Cliquez ou appuyez sur **Entrée** pour insérer l'espace réservé de données de l'offre.
 
-    >[!REMARQUES]
+    >[!NOTE]
     > - Pour associer un espace réservé au modèle de document d'offre sans exposer sa valeur au candidat, placez votre pointeur sur l'espace réservé de données de l'offre et cliquez sur l'icône **Épingler**. Cela placera l'espace réservé dans la section **Données de l'offre épinglées** du modèle de document de l'offre. Pour annuler l'épinglage, suivez les mêmes étapes mais cliquez sur **Annuler l'épinglage** dans la liste des espaces réservés de données de l'offre.
 
     > - Pour afficher la liste des espaces réservés de données de l'offre actifs, basculez vers l'onglet **Actif** dans le volet de droite.
@@ -175,7 +175,7 @@ Les packages d'offre sont les artefacts d'offre qui sont partagés avec le candi
 
 1.  Cliquez sur **Ajouter un modèle**.
 
-    >[!REMARQUES]
+    >[!NOTE]
     > - Vous pouvez choisir de créer un modèle ou d'utiliser un modèle existant.
 
     > - Si vous choisissez d'ajouter un modèle existant, vous devez vous assurer que le modèle de document d'offre a été enregistré, terminé et marqué comme actif.
@@ -198,8 +198,10 @@ Il existe plusieurs parties du processus de création d'offre qui peuvent être 
 
 - **Expérience d'offre du candidat** : En tant qu'administrateur, vous pouvez choisir de définir si toutes les offres ont une date d'expiration et, le cas échéant, quelle doit être la contrepartie par défaut pour la date d'expiration. Vous pouvez également configurer si les candidats peuvent refuser une offre.
 
-- **Signatures électroniques** : Actuellement, la seule option de signature électronique disponible pour les candidats consiste à entrer leur nom dans le package d'offre pour accepter l'offre. Nous introduirons des intégrations partenaires avec d'autres fournisseurs de signature électronique à l'avenir.
+- **Signatures électroniques** - Tant donc qu'administrateur, vous pouvez également sélectionner la méthode que les candidats peuvent utiliser pour signer des offres.
+    - Adobe Sign - Tous les packages d'offre sont envoyés et signés via Adobe Sign. Chaque créateur d'offre publiant l'offre doit avoir sa licence Adobe Sign connectée Attract. 
 
+    - ESign - Il s'agit de l'option par défaut, prédéfinie, permettant à l'utilisateur de signer une offre en entrant son nom et ses initiales.
 
 Pour en savoir plus sur le processus de création d'offre, voir [Création, approbation et signature des offres](./creating-offers.md).
 

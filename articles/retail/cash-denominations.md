@@ -20,10 +20,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: afc53754c3ff5b1afed2380369cf8280cfffc5e4
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 24775044e5a502a5615392a6a8c4030bdfafb0ab
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -34,11 +34,13 @@ ms.lasthandoff: 08/08/2018
 Les dénominations des disponibilités pour les billets et les pièces peuvent être définies dans l'arrière-guichet qui sera utilisé par les caissiers, les associés de vente et les directeurs du magasin à partir du PDV. Ces dénominations peuvent être utilisées pour faciliter le comptage de caisse en fin de journée ou pour enregistrer rapidement une vente.
 
 ## <a name="define-denominations"></a>Définir des dénominations
-Les dénominations sont paramétrées par magasin dans la page **Paramétrage** > **Option de déclaration des montants en caisse à partir de la propriété du magasin**. 
+
+Les dénominations sont paramétrées par magasin dans la page **Paramétrage** \> **Option de déclaration des montants en caisse à partir de la propriété du magasin**.
 
 ![dénominations des disponibilités](./media/image1-denomination.png)
 
 Pour définir une dénomination :
+
 1. Cliquez sur **Nouveau**.
 1. Spécifiez le type (pièce ou billet).
 1. Spécifiez le montant (valeur).
@@ -46,9 +48,9 @@ Pour définir une dénomination :
 ![dénominations des disponibilités](./media/image2-denomination.png)
 
 ## <a name="configure-the-functionality-profile"></a>Configurer le profil de la fonctionnalité
+
 Lors du règlement en espèces dans le PVD, l'utilisateur peut utiliser les dénominations de billet pour entrer rapidement le montant payé par le client. Dans le profil de la fonctionnalité, vous pouvez configurer les deux options pour afficher la dénomination dans le PDV.
 
-**Supérieur ou égal au montant dû** : par défaut, le PDV n'affiche que les dénominations de billet qui sont supérieures au montant dû, ce qui permet d'effectuer la transaction en une seule étape. Par exemple, si le montant dû est $7,50, le PDV affiche les dénominations suivantes : $10, $20, $50 et $100 Si vous touchez l'un de ces montants, la vente est automatiquement enregistrée pour ce montant. Les billets de $1 et $5 ne sont pas affichés, car ces montants sont inférieurs au montant dû.
-
-**Toutes les dénominations** : sélectionnez cette option pour afficher systématiquement toutes les dénominations de billet dans le PDV, quel que soit le montant dû. Cela signifie que l'utilisateur peut utiliser une combinaison de billets pour atteindre le montant dû. Par exemple, si le montant dû est $25,00, l'utilisateur peut choisir $20 et $5 pour terminer la vente.
+- **Supérieur ou égal au montant dû** : par défaut, le PDV n'affiche que les dénominations de billet qui sont supérieures au montant dû, ce qui permet d'effectuer la transaction en une seule étape. Par exemple, si le montant dû est $7,50, le PDV affiche les dénominations suivantes : $10, $20, $50 et $100 Si vous touchez l'un de ces montants, la vente est automatiquement enregistrée pour ce montant. Les billets de $1 et $5 ne sont pas affichés, car ces montants sont inférieurs au montant dû.
+- **Toutes les dénominations** : sélectionnez cette option pour afficher systématiquement toutes les dénominations de billet dans le PDV, quel que soit le montant dû. Cela signifie que l'utilisateur peut utiliser une combinaison de billets pour atteindre le montant dû. Par exemple, si le montant dû est $25,00, l'utilisateur peut choisir $20 et $5 pour terminer la vente.
 

@@ -20,10 +20,10 @@ ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 918f8555bc3d2e4a79262b428d5c7ba278fa7409
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 76b78a898a619f1bc7faa4749e5380a0ccfef527
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 08/08/2018
 [!include [banner](includes/banner.md)]
 
 Les *Attributs* permettent de décrire de façon plus précise un produit et ses caractéristiques dans les champs définis par l'utilisateur (tels que **Capacité de stockage**, **Capacité du disque dur**, **Est conforme à la norme Energy Star**, etc.). Dans Microsoft Dynamics 365 for Finance and Operations, les attributs peuvent être associés à diverses entités Retail, telles que des catégories de produits et des canaux de vente au détail, et des valeurs par défaut peuvent être définies pour eux. Les produits héritent ensuite les attributs et les valeurs par défaut lorsqu'ils sont associés aux catégories de produits ou à des canaux de vente au détail. Les valeurs par défaut peuvent être remplacées au niveau du produit individuel, au niveau de canal de vente au détail, ou dans un catalogue de vente au détail.
- 
+
 Par exemple, un produit de télévision classique peut avoir les attributs suivants.
 
 | Catégorie   | Attribut                | Valeurs autorisées          | Valeur par défaut |
@@ -50,7 +50,7 @@ Par exemple, un produit de télévision classique peut avoir les attributs suiva
 | Plasma     | Température de fonctionnement      | 0–43 degrés              | 32            |
 |            | Température de fonctionnement        | 0–43 degrés              | 100           |
 | Projection | Garantie du tube de projection | 612 ou 18 mois         | 12            |
-|            | # de tubes de projection    | 1–5                         | 3             |
+|            | \# de tubes de projection   | 1–5                         | 3             |
 
 ## <a name="attributes-and-attribute-types"></a>Attributs et types d'attribut
 
@@ -90,7 +90,7 @@ Les attributs sont basés sur les *types d'attributs*. Le type d'attribut identi
 
 Pour les articles vendus au détail, les paramètres de métadonnées d'attribut peuvent être remplacés au niveau du canal. Cette capacité sera traitée plus loin dans cette rubrique.
 
-Comme vous pouvez le remarquer, la page **Attributs** contient des options liées aux métadonnées d'attribut. Sous **Métadonnées d'attribut du PDV**, une option nommée **« Peut être affiné »** affecte le comportement des valeurs d'attribut du point de vente au détail (PDV) ou la façon dont le système gère ces valeurs d'attribut. Seuls les attributs pour lesquels vous pouvez définir l'option **« Peut être affiné »** sur **« Oui »** s'affichent à des fins d'affinement ou de filtrage des produits dans Retail POS.
+Comme vous pouvez le remarquer, la page **Attributs** contient des options liées aux métadonnées d'attribut. Sous **Métadonnées d'attribut du PDV**, une option nommée **Peut être affiné** affecte le comportement des valeurs d'attribut du point de vente au détail (PDV) ou la façon dont le système gère ces valeurs d'attribut. Seuls les attributs pour lesquels vous pouvez définir l'option **Peut être affiné** sur **Oui** s'affichent à des fins d'affinement ou de filtrage des produits dans Retail POS.
 
 Voici les options de métadonnées d'attributs restantes sur la page **Attributs** :
 
@@ -104,7 +104,7 @@ Voici les options de métadonnées d'attributs restantes sur la page **Attributs
 
 Ces options ont été initialement prévues pour optimiser la fonctionnalité de recherche pour la vitrine en ligne. Bien que Finance and Operations ne comprenne pas de vitrine en ligne prête à l'emploi, un kit de développement logiciel (SDK) de publication de commerce électronique est inclus. Les clients peuvent utiliser ce kit SDK pour placer des produits dans un index de recherche de leur choix. Bien que les données de produit soient importées, les clients doivent toujours pouvoir distinguer les données pouvant faire l'objet d'une recherche, les données pouvant être interrogées, et ainsi de suite. Ainsi, ils peuvent créer un index optimal pour s'assurer qu'ils indexent uniquement les attributs qui, *selon eux*, doivent être indexés.
 
-Pour plus d'informations sur l'objectif de ces options restantes, voir [Vue d'ensemble du schéma de recherche de SharePoint Server 2013](https://technet.microsoft.com/en-us/library/jj219669.aspx).
+Pour plus d'informations sur l'objectif de ces options restantes, voir [Vue d'ensemble du schéma de recherche de SharePoint Server 2013](https://technet.microsoft.com/library/jj219669.aspx).
 
 ## <a name="filter-settings-for-attributes"></a>Paramètres de filtre pour les attributs
 
@@ -121,7 +121,7 @@ La page **Préférences d'affichage du filtre** inclut les champs suivants :
 - **Contrôle d'affichage** – Les options disponibles sont les suivantes :
 
     - **Liste** – Cette option est disponible pour tous les types d'attributs.
-    - **Plage** – Cette option est disponible pour les types d'attributs suivants : **Devise**, **Décimal** et **Entier**. 
+    - **Plage** – Cette option est disponible pour les types d'attributs suivants : **Devise**, **Décimal** et **Entier**.
     - **Curseur** – Cette option est disponible pour les types d'attributs suivants : **Devise**, **Décimal** et **Entier**.
     - **Curseur avec barres** – Cette option est disponible pour les types d'attributs suivants : **Devise**, **Décimal** et **Entier**.
 
@@ -228,13 +228,13 @@ Les valeurs par défaut des attributs peuvent être remplacées pour les produit
 5. Dans l'organisateur **Produits**, sélectionnez le produit requis, puis sélectionnez **Attributs** au-dessus de la grille de produit.
 6. Dans les organisateurs suivants, mettez à jour les valeurs des attributs exigés :
 
-   - Support de produit partagé
-   - Attributs de produit partagés
-   - Canal du support
-   - Attributs de produit de canal
+    - Support de produit partagé
+    - Attributs de produit partagés
+    - Canal du support
+    - Attributs de produit de canal
 
-     > [!NOTE]
-     > Si le support de produit partagé et les attributs de produit partagés sont créés dans Finance and Operations, ils s'appliquent à tous les produits vendus au détail.
+    > [!NOTE]
+    > Si le support de produit partagé et les attributs de produit partagés sont créés dans Finance and Operations, ils s'appliquent à tous les produits vendus au détail.
 
 ![Groupe d'attributs de produit du catalogue](media/CatalogProdAttrValues.png)
 
@@ -250,11 +250,11 @@ Les valeurs par défaut des attributs peuvent être remplacées pour les produit
 
 5. Dans les organisateurs suivants, mettez à jour les valeurs des attributs exigés :
 
-   - Support de produit partagé
-   - Attributs de produit partagés
-   - Canal du support
-   - Attributs de produit de canal
+    - Support de produit partagé
+    - Attributs de produit partagés
+    - Canal du support
+    - Attributs de produit de canal
 
-     > [!NOTE]
-     > Si le support de produit partagé et les attributs de produit partagés sont créés dans Finance and Operations, ils s'appliquent à tous les produits vendus au détail.
+    > [!NOTE]
+    > Si le support de produit partagé et les attributs de produit partagés sont créés dans Finance and Operations, ils s'appliquent à tous les produits vendus au détail.
 

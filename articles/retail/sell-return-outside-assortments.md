@@ -19,10 +19,10 @@ ms.author: prabhup
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 17981cef401085ad3af784950fff6260c2c6d9ee
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 653a388de1a972fae488abd81f349d1b138fc716
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -31,14 +31,15 @@ ms.lasthandoff: 08/08/2018
 [!include [banner](includes/banner.md)]
 
 Un scénario courant pour un détaillant est de vendre des produits à ses clients ou d'accepter des retours de ses clients même s'il ne propose pas les produits spécifiques dans son magasin (autrement dit, les produits ne sont pas assortis au magasin).
+
 Voici quelques scénarios classiques :
 
 + Un détaillant ne propose pas tous ses produits dans un magasin spécifique. Les articles restants sont stockés dans l'entrepôt. L'associé du magasin aide le client en recherchant ou en parcourant les produits dans l'entrepôt, les ajoute au chariot et procède à la validation en sélectionnant un mode de livraison, par exemple expédier le produit une adresse à partir de l'entrepôt ou laisser le client récupérer le produit dans le magasin actuel ou dans un autre magasin.
 + Un détaillant ne propose pas des produits spécifiques dans le magasin ou n'en a pas en stock dans le magasin où le client s'est rendu, mais les produits sont disponibles dans d'autres magasins. L'associé du magasin aide le client en recherchant ou en parcourant les produits dans l'autre magasin, les ajoute au chariot et procède à la validation en sélectionnant un mode de livraison.
 + Un détaillant a plusieurs magasins dans et autour d'une ville ou d'un code postal spécifique et ne souhaite pas obliger les clients à retourner les produits dans le magasin d'achat. À la place, les clients peuvent retourner les produits dans n'importe quel magasin.
 
-
 Ces scénarios courants sont disponibles pour les détaillants qui utilisent Dynamics 365 for Retail. Retail vous permet de :
+
 + Rechercher ou parcourir les produits dans d'autres magasins.
 + Rechercher ou parcourir tous les produits lancés.
 + Créer des transactions ou des commandes client avec paiement comptant sans livraison.

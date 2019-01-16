@@ -3,7 +3,7 @@ title: "Création, approbation et signature des offres"
 description: "Cette rubrique explique comment créer, approuver, et signer une offre pour un candidat à l'aide de Dynamics 365 for Talent."
 author: josaw
 manager: AnnBe
-ms.date: 10/19/2018
+ms.date: 12/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-10-19
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: f6b17dca13431a9d674920833b4a44141fac0bd8
+ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
+ms.openlocfilehash: f189df052ef299a2cca1d92065a7a4d377d25399
 ms.contentlocale: fr-fr
-ms.lasthandoff: 10/22/2018
+ms.lasthandoff: 12/07/2018
 
 ---
 
@@ -104,6 +104,11 @@ Il existe plusieurs actions que vous pouvez entreprendre avant d'envoyer l'offre
 -  Vous pouvez spécifier une date d'expiration de l'offre. Les candidats doivent accepter ou refuser l'offre avant la date d'expiration.  Le candidat recevra un rappel 48 heures avant que l'offre expire.
 
 -  Il peut y avoir des documents supplémentaires à inclure dans le processus d'acceptation de l'offre. Vous avez la possibilité de répertorier le type de document requis.
+
+- Option de signature électronique : Si Adobe Sign a été sélectionné comme méthode favorite de signature électronique, les créateurs d'offres doivent connecter leur licence Adobe Sign. Il existe deux manières de le faire. Accédez aux **Paramètres** utilisateur dans **Offre**, sous **Connexions** connectez-vous à **Adobe Sign**. Sinon, vous êtes invité à connecter l'écran Envoyer l'offre au candidat si la connexion n'a pas encore été établie en fonction des paramètres utilisateur. 
+
+> [!NOTE]
+> Les utilisateurs doivent uniquement connecter leurs comptes Adobe Sign une seule fois. La même licence utilisateur est utilisée pour tous les futurs packages d'offre qui seront envoyés par le même utilisateur. 
 
 -  Vous pouvez afficher et modifier le modèle d'e-mail si nécessaire.
 

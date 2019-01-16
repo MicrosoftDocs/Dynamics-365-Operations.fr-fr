@@ -3,13 +3,13 @@ title: "Configurer l'importation des données à partir de SharePoint"
 description: "Cette rubrique décrit la procédure d'importation des données à partir de Microsoft SharePoint."
 author: NickSelin
 manager: AnnBe
-ms.date: 05/21/2018
+ms.date: 11/29/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
-ms.reviewer: kfend
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
@@ -18,10 +18,10 @@ ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: 9f23f73e9a98fc50c622255bf6ed027c41ec8010
+ms.sourcegitcommit: 060c3dec71e2b953d9341c5b5c89e60925fda34d
+ms.openlocfilehash: 8053b0316c86c614b87b0e658dffade3a135f2cc
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 12/08/2018
 
 ---
 # <a name="configure-data-import-from-sharepoint"></a>Configurer l'importation des données à partir de SharePoint
@@ -39,66 +39,71 @@ Pour exécuter les exemples décrits dans cette rubrique, vous devez disposer de
     - Consultant fonctionnel de gestion des états électroniques
     - Administrateur système
 
-- L'accès à l'instance de Microsoft SharePoint Server qui est configurée pour être utilisée avec Finance and Operations
-- Configurations du format et du modèle ER pour les paiements de déclaration des honoraires
+- L'accès à l'instance de Microsoft SharePoint Server qui est configurée pour être utilisée avec Finance and Operations.
+- Configurations du format et du modèle ER pour les paiements 1099.
 
 ### <a name="create-required-er-configurations"></a>Créer les configurations ER requises
-Lisez les guides de tâches **ER Importer des données à partir d'un fichier Microsoft Excel**, qui font partie du processus d'entreprise **7.5.4.3 Acquérir/Développer des composants de services/solutions informatiques (10677)**. Ces guides de tâches vous aident tout au long du processus de création et d'utilisation des configurations ER pour importer en mode interactif des transactions fournisseur à partir de fichiers Microsoft Excel externes. Pour plus d'informations, voir [Analyser les documents entrants dans Microsoft Excel](parse-incoming-documents-excel.md). Enfin, vous aurez :
+Lisez les guides de tâches **ER Importer des données à partir d'un fichier Microsoft Excel**, qui font partie du processus d'entreprise **7.5.4.3 Acquérir/Développer des composants de services/solutions informatiques (10677)**. Ces guides de tâches vous aident tout au long du processus de création et d'utilisation des configurations ER pour importer en mode interactif des transactions fournisseur à partir de fichiers Microsoft Excel. Pour plus d'informations, voir [Analyser les documents entrants dans Microsoft Excel](parse-incoming-documents-excel.md). Après avoir terminé les guides de tâche, vous devrez effectuer le paramétrage suivant.
 
-- Configurations ER :
+#### <a name="er-configurations"></a>Configurations ER
 
-    - Configuration du modèle ER, **Modèle de paiements de déclaration des honoraires**
-    - Configuration du format ER, **Format d'importation des transactions des fournisseurs à partir d'Excel**
+- Configuration du modèle ER, **Modèle de paiements de déclaration des honoraires**
+- Configuration du format ER, **Format d'importation des transactions des fournisseurs à partir d'Excel**
 
-    [![Configurations ER pour l'importation des données à partir de SharePoint](./media/GERImportFromSharePoint-01-Configurations.PNG)](./media/GERImportFromSharePoint-01-Configurations.PNG)
+![Configurations ER pour l'importation des données à partir de SharePoint](./media/GERImportFromSharePoint-01-Configurations.PNG)
 
-- Exemple de fichier entrant pour l'importation des données :
+#### <a name="sample-of-the-incoming-file-for-data-import"></a>Exemple de fichier entrant pour l'importation des données
 
-    - Fichier Excel **1099import-data.xlsx**, avec les transactions fournisseur qui doivent être importées dans Finance and Operations
+- Fichier Excel **1099import-data.xlsx**, avec les transactions fournisseur qui doivent être importées dans Finance and Operations.
 
-    [![Exemple de fichier Microsoft Excel pour l'importation à partir de SharePoint](./media/GERImportFromSharePoint-02-Excel.PNG)](./media/GERImportFromSharePoint-02-Excel.PNG)
-
+![Exemple de fichier Microsoft Excel pour l'importation à partir de SharePoint](./media/GERImportFromSharePoint-02-Excel.PNG)
+    
 > [!NOTE]
 > Le format d'importation des transactions fournisseur est sélectionné comme mise en correspondance des modèles par défaut. Par conséquent, si vous exécutez une mise en correspondance du **Modèle de paiements de déclaration des honoraires** et si cette mise en correspondance du modèle est de type **Vers la destination**, la mise en correspondance des modèles exécute ce format pour importer les données à partir de fichiers externes. Elle utilise ensuite ces données pour mettre à jour les tables d'application.
 
-## <a name="configure-document-management-parameters"></a>Configurer les paramètres de gestion des documents
-1. Dans la page **Paramètres de gestion des documents**, configurez l'accès à l'instance de SharePoint Server qui sera utilisée par la société à laquelle vous êtes actuellement connecté. Dans cet exemple, la société est USMF.
-2. Testez la connexion à l'instance de SharePoint Server pour vous assurer que vous en avez obtenu l'accès.
+## <a name="configure-access-to-sharepoint-for-file-storage"></a>Configuration de l'accès à SharePoint pour le stockage des fichiers
+Pour stocker des fichiers d'état électroniques dans un emplacement SharePoint, vous devez configurer l'accès à l'instance de SharePoint Server qui sera utilisée par la société actuelle. Dans cet exemple, la société est USMF. Pour obtenir des instructions, voir [Configurer le stockage SharePoint](../../fin-and-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
 
-    [![Paramètre de gestion des documents – Serveur SharePoint](./media/GERImportFromSharePoint-03-SharePointSetup.png)](./media/GERImportFromSharePoint-03-SharePointSetup.png)
+1. Effectuez les étapes dans [Configurer le stockage SharePoint](../../fin-and-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
+2. Ouvrez le site SharePoint configuré.
+3. Créez les dossiers suivants dans lesquels les fichiers de gestion des états électroniques entrants peuvent être enregistrés :
 
-3. Ouvrez le site SharePoint configuré, puis créez les dossiers suivants dans lesquels les fichiers entrants peuvent être enregistrés :
+     - Source d'importation de fichiers (principale) (exemple affiché dans la capture d'écran ci-dessous)
+     - Source d'importation de fichiers (secondaire)
 
-    - Source d'importation de fichiers (principale)
-    - Source d'importation de fichiers (secondaire)
+    ![Source d'importation de fichiers (principale)](./media/GERImportFromSharePoint-04-SharePointFolder1.png)
 
-    [![Paramètre de gestion des documents – Serveur SharePoint](./media/GERImportFromSharePoint-04-SharePointFolder1.png)](./media/GERImportFromSharePoint-04-SharePointFolder1.png)
+4. (Facultatif) Créez les dossiers suivants dans lesquels les fichiers peuvent être stockés après l'importation. 
 
-    [![Paramètre de gestion des documents – Serveur SharePoint](./media/GERImportFromSharePoint-05-SharePointFolder2.png)](./media/GERImportFromSharePoint-05-SharePointFolder2.png)
+    - Dossier d'archivage de fichiers - Ce dossier serait dédié aux fichiers importés avec succès.
+    - Dossier d'avertissement de fichiers - Ce dossier serait dédié aux fichiers importés avec un avertissement.
+    - Dossier d'erreur de fichiers - Ce dossier serait dédié aux fichiers dont l'importation aurait échoué.
 
-4. Dans Finance and Operations, dans la page **Types de document**, créez les types de documents suivants qui seront utilisés pour accéder aux dossiers SharePoint que vous venez de créer :
+4. Dans Finance and Operations, accédez à **Administration d'organisation > Gestion des documents > Types de documents**.
+5. Créez les types de documents suivants qui seront utilisés pour accéder aux dossiers SharePoint que vous venez de créer. Pour obtenir des instructions, voir [Configurer les types de documents](../../fin-and-ops/organization-administration/configure-document-management.md#configure-document-types).
 
-    - SP principal
-    - SP secondaire
+|Type de document       | Regrouper              | Entrepôt      | Dossier SharePoint      |
+|--------------------|--------------------|---------------|------------------------|
+|SP principal             |Fichier                |SharePoint     |Source d'importation de fichiers (principale)|
+|SP secondaire             |Fichier                |SharePoint     |Source d'importation de fichiers (secondaire)|
+|Archive SP             |Fichier                |SharePoint     |Dossier d'archivage de fichiers|
+|Avertissement SP             |Fichier                |SharePoint     |Dossier d'avertissement de fichiers|
+|Erreur SP             |Fichier                |SharePoint     |Dossier d'erreur de fichiers|
 
-5. Pour les types de documents créés, dans le champ **Groupe**, entrez **Fichier** et dans le champ **Emplacement**, entrez **SharePoint**. Entrez ensuite l'adresse du dossier SharePoint :
-
-    - Pour le type de document **SP principal** : Source d'importation de fichiers (principale)
-    - Pour le type de document **SP secondaire** : Source d'importation de fichiers (secondaire)
-
-    [![Paramètre SharePoint – Nouveau type de document](./media/GERImportFromSharePoint-06-SharePointDocumentTypesSetup.png)](./media/GERImportFromSharePoint-06-SharePointDocumentTypesSetup.png)
+![Paramètre SharePoint – Nouveau type de document](./media/GERImportFromSharePoint-06-SharePointDocumentTypesSetup.png)
 
 ## <a name="configure-er-sources-for-the-er-format"></a>Configurer les sources ER pour le format ER
 1. Cliquez sur **Administration d'organisation** \> **Gestion des états électroniques** \> **Source de la gestion des états électroniques**.
 2. Dans la page **Source de la gestion des états électroniques**, configurez les fichiers source pour l'importation des données à l'aide du format ER configuré.
 3. Définissez un masque de nom de fichier, afin que seuls les fichiers portant l'extension .xlsx soient importés. Le masque de nom de fichier est facultatif et est utilisé uniquement s'il a été défini. Vous ne pouvez définir qu'un seul masque pour chaque format ER.
-4. Sélectionnez les deux dossiers SharePoint que vous avez créés précédemment.
+4. Modifiez **Trier les fichiers avant l'importation** avec **Ne pas trier**, s'il existe de nombreux fichiers d'importation et que l'ordre d'importation n'est pas important
+5. Sélectionnez tous les dossiers SharePoint que vous avez créés précédemment.
 
     [![Paramètre de source de fichiers ER](./media/GERImportFromSharePoint-07-FormatSourceSetup.PNG)](./media/GERImportFromSharePoint-07-FormatSourceSetup.PNG)
 
 > [!NOTE]
 > - La *source* ER est définie individuellement pour chaque société d'application. En revanche, les *configurations* ER sont partagées entre les sociétés.
-> - Lorsque vous supprimez un paramètre de source ER pour un format ER, tous les états de fichier connectés (voir ci-dessous) sont également supprimés.
+> - Lorsque vous supprimez un paramètre de source ER pour un format ER, tous les états de fichier connectés (voir ci-dessous) sont également supprimés sur confirmation.
 
 ## <a name="review-the-files-states-for-the-er-format"></a>Examiner les états de fichier pour le format ER
 1. Dans la page **Source de la gestion des états électroniques**, sélectionnez **États de fichier pour les sources** pour examiner le contenu des sources de fichier configurées pour le format ER actuel.
@@ -114,13 +119,13 @@ Vous pouvez également ouvrir la page **États de fichier pour les sources** en 
 
     [![Contenu SharePoint – Fichier Microsoft Excel pour l'importation](./media/GERImportFromSharePoint-08-UploadFile.png)](./media/GERImportFromSharePoint-08-UploadFile.png)
 
-2. Dans Finance and Operations, dans la page **États de fichier pour les sources**, sélectionnez **Actualiser** pour actualiser la page. Notez que le fichier Excel qui a été transféré vers SharePoint est affiché dans cet écran avec le statut **Prêt**. Les statuts suivants sont actuellement pris en charge :
+2. Dans Finance and Operations, dans la page **États de fichier pour les sources**, sélectionnez **Actualiser** pour actualiser la page. Notez que le fichier Excel qui a été transféré vers SharePoint est affiché sur cette page avec le statut **Prêt**. Les statuts suivants sont actuellement pris en charge :
 
     - **Prêt** – Affecté automatiquement pour chaque nouveau fichier dans un dossier SharePoint. Ce statut signifie que le fichier est prêt pour l'importation.
     - **Importation** – Affecté automatiquement par un état électronique lorsque le fichier est verrouillé par le processus d'importation pour empêcher son utilisation par d'autres processus (si plusieurs d'entre eux sont exécutés simultanément).
     - **Importé** – Affecté automatiquement par un état électronique lorsque l'importation du fichier s'est déroulée correctement. Ce statut signifie que le fichier importé a été supprimé de la source de fichier configurée (dossier SharePoint).
     - **Échec** – Affecté automatiquement par un état électronique lorsque l'importation du fichier s'est terminée avec des erreurs ou des exceptions.
-    - **En attente** – Affecté manuellement par l'utilisateur dans cet écran. Ce statut signifie que le fichier n'est pas importé pour l'instant. Ce statut peut être utilisé pour différer l'importation de certains fichiers.
+    - **En attente** – Affecté manuellement par l'utilisateur sur cette page. Ce statut signifie que le fichier n'est pas importé pour l'instant. Ce statut peut être utilisé pour différer l'importation de certains fichiers.
 
     [![Page d'états de fichier ER pour les sources sélectionnées](./media/GERImportFromSharePoint-09-FileStatesForm.png)](./media/GERImportFromSharePoint-09-FileStatesForm.png)
 
@@ -130,19 +135,15 @@ Vous pouvez également ouvrir la page **États de fichier pour les sources** en 
 
     [![Page d'états de fichier ER pour les sources sélectionnées](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)
 
-3. Sélectionnez **Exécuter** pour exécuter la mise en correspondance des modèles sélectionnée. Comme vous avez configuré les sources de fichier pour le format ER, vous pouvez modifier le paramètre de l'option **Source de fichier** si besoin. Si vous conservez le paramètre de cette option, les fichiers .xslx sont importés à partir des sources configurées (les dossiers SharePoint, dans cet exemple).
+3. Sélectionnez **Exécuter** pour exécuter la mise en correspondance des modèles sélectionnée. Comme vous avez configuré les sources de fichier pour le format ER, vous pouvez modifier le paramètre de l'option **Source de fichier**, si nécessaire. Si vous conservez le paramètre de cette option, les fichiers .xslx sont importés à partir des sources configurées (les dossiers SharePoint, dans cet exemple).
 
     Dans cet exemple, vous n'importez qu'un seul fichier. Toutefois, s'il existe plusieurs fichiers, ils sont sélectionnés pour l'importation dans leur ordre d'ajout au dossier SharePoint. Chaque exécution d'un format ER importe un fichier sélectionné unique.
 
     [![Exécuter la mise en correspondance des modèles ER](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)
 
-4. La mise en correspondance des modèles peut s'exécuter sans assistance en mode de traitement par lots. Dans ce cas, chaque fois qu'un traitement par lots exécute ce format ER, un fichier unique est importé à partir des sources de fichier configurées. Utilisez le code suivant pour implémenter cette exécution du traitement par lots.
+4. La mise en correspondance des modèles peut s'exécuter sans assistance en mode de traitement par lots. Dans ce cas, chaque fois qu'un traitement par lots exécute ce format ER, un fichier unique est importé à partir des sources de fichier configurées.
 
-    ```
-    ERObjectsFactory::createMappingDestinationRunByImportFormatMappingId().run()
-    ```
-
-    Lorsqu'un fichier est correctement importé à partir du dossier SharePoint, il est supprimé de celui-ci.
+    Lorsqu'un fichier est correctement importé depuis le dossier SharePoint, il est supprimé de celui-ci et est déplacé vers le dossier des fichiers importés correctement ou vers le dossier des fichiers importés avec des avertissements. Sinon il est déplacé vers le dossier des fichiers ayant échoué ou reste dans ce dossier si le dossier des fichiers ayant échoué n'est pas paramétré. 
 
 5. Entrez l'ID du document, tel que **V-00001**, puis cliquez sur **OK**.
 
@@ -178,7 +179,7 @@ Vous pouvez également ouvrir la page **États de fichier pour les sources** en 
 8. Sélectionnez **Exécuter** pour exécuter la mise en correspondance des modèles ER modifiée.
 9. Entrez l'ID du document, tel que **V-00002**, puis cliquez sur **OK**.
 
-    Notez que la fenêtre Informations contient une notification informant que le fichier résidant dans le dossier SharePoint contient un compte fournisseur incorrect et ne peut pas être importé.
+    Notez que la fenêtre Informations contient une notification indiquant qu'il existe un fichier dans le dossier SharePoint contenant un compte fournisseur incorrect et qu'il ne peut pas être importé.
 
     [![Exécuter la mise en correspondance des modèles ER](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)
 
@@ -186,10 +187,9 @@ Vous pouvez également ouvrir la page **États de fichier pour les sources** en 
 
     [![Page d'états de fichier ER pour les sources sélectionnées](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)
 
-    La section **Journaux source pour le format d'importation** indique que le processus d'importation a échoué et que le fichier se trouve toujours dans le dossier SharePoint (la case à cocher **Est supprimé** n'est pas sélectionnée). Si vous corrigez ce fichier dans SharePoint en ajoutant le code fournisseur correct, puis modifiez le statut du fichier de **Échec** à **Prêt** dans la section **Journaux source pour le format d'importation**, vous pouvez réimporter le fichier.
+   La section **Journaux source pour le format d'importation** indique que le processus d'importation a échoué et que le fichier se trouve toujours dans le dossier Erreur de fichiers SharePoint (la case à cocher **Est supprimé** n'est pas sélectionnée). Si vous corrigez ce fichier dans SharePoint en ajoutant le code fournisseur adéquat, que vous le déplacez vers le dossier SharePoint (principal) source d'importation de fichiers, vous pouvez importer le fichier de nouveau.
 
-11. Examinez le dossier SharePoint **Source d'importation de fichiers (principale)**. Notez que le fichier Excel qui n'a pas été importé est toujours dans ce dossier.
-12. Dans Finance and Operations, sélectionnez **Comptabilité fournisseur** \> **Tâches périodiques** \> **Taxe sur les honoraires** \> **Règlement fournisseur pour les déclarations d'honoraires**, entrez les valeurs appropriées dans les champs **Date de début** et **Date de fin**, puis sélectionnez **Transactions manuelles de déclaration d'honoraires**.
+11. Dans Finance and Operations, sélectionnez **Comptabilité fournisseur** \> **Tâches périodiques** \> **Taxe sur les honoraires** \> **Règlement fournisseur pour les déclarations d'honoraires**, entrez les valeurs appropriées dans les champs **Date de début** et **Date de fin**, puis sélectionnez **Transactions manuelles de déclaration d'honoraires**.
 
     Seules les transactions pour le document V-00001 sont disponibles. Aucune transaction pour le document V-00002 n'est disponible même si l'erreur pour la dernière transaction importée a été trouvée dans le fichier Excel.
 

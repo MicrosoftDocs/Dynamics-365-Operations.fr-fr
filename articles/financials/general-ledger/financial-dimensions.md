@@ -3,7 +3,7 @@ title: "Dimensions financières"
 description: "Cette rubrique décrit les différents types de dimensions financières et leur configuration."
 author: aprilolson
 manager: AnnBe
-ms.date: 10/26/2018
+ms.date: 01/03/2019
 ms.topic: article
 ems.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: 003b7eac16c1be50bc982da0672df42a87a69722
-ms.openlocfilehash: bda8b14b1752ca67fc4eeec6d6345dcf3968179d
+ms.sourcegitcommit: 92d1f2997ca8ea1bd47dfe47d91bf7f6234833b0
+ms.openlocfilehash: 2fb325e143eff067e1c9d0f23a1f913fc2dc36f3
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/05/2018
+ms.lasthandoff: 01/03/2019
 
 ---
 
@@ -93,6 +93,8 @@ Vous pouvez utiliser les valeurs des enregistrements principaux, tels que les en
 Cette fonctionnalité est contrôlée par un paramètre de la dimension. Ce paramètre est appelé **Copier les valeurs dans cette dimension pour chaque nouveau DimensionName créé**, où **DimensionName** est le nom de la dimension. Par défaut, la fonctionnalité est désactivée. Toutefois, elle peut être activée à tout moment.
 
 Si des enregistrements existent déjà pour la dimension, les enregistrements principaux sont mis à jour lorsque vous activez la fonctionnalité. Toutefois, les documents et les transactions existants ne sont pas mis à jour.
+
+Si vous utilisez un modèle pour créer un enregistrement principal, vérifiez que la valeur du modèle de la dimension principale est vide. Par exemple, si vous créez des clients à partir d'un modèle, vérifiez que la dimension du client dans le modèle est vide. La valeur de la dimension du client est par défaut celle du nouveau numéro de client lorsque vous créez le client.  
 
 ## <a name="derived-dimensions"></a>Dimensions dérivées
 

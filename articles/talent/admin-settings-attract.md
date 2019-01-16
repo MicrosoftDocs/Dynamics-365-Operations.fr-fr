@@ -3,7 +3,7 @@ title: "Paramètres d'administration dans Attract"
 description: "Cette rubrique explique comment activer la fonctionnalité de fonction pour les organisations et les utilisateurs dans Attract."
 author: 
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 12/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: 52b48d5daab985c43d59f29ad7b80dda99a7fcef
+ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
+ms.openlocfilehash: fb7b5e5b98ddb8e0e44fccbb0ddbb05199265414
 ms.contentlocale: fr-fr
-ms.lasthandoff: 10/22/2018
+ms.lasthandoff: 12/07/2018
 
 ---
 
@@ -37,7 +37,7 @@ Entrez un nom d'affichage pour la société, puis ajoutez un logo de la sociét�
 
 ## <a name="linkedin-integration"></a>Intégration de LinkedIn
 
-Paramétrez l'intégration avec le Recruiter System Connect (RSC) de LinkedIn. Une fois connecté à LinkedIn à l'aide de vos informations d'identification LinkedIn, vous pouvez synchroniser le profil LinkedIn, les candidatures, les commentaires d'entretien et les notes de l'équipement de recrutement d'un candidat. Une licence recruteur LinkedIn complète est requise. Pour plus d'informations sur RSC, voir [Recruiter System Connect (RSC) – FAQ](https://www.linkedin.com/help/recruiter/answer/90483).
+Paramétrez l'intégration avec le Recruiter System Connect (RSC) de LinkedIn. Une fois connecté à LinkedIn à l'aide de vos informations d'identification LinkedIn, vous pouvez synchroniser le profil LinkedIn, les candidatures, les commentaires d'entretien et les notes de l'équipement de recrutement d'un candidat. Une licence recruteur LinkedIn complète est requise. Pour plus d'informations sur LinkedIn Recruiter, voir [Recruiter System Connect (RSC) – FAQ](https://www.linkedin.com/help/recruiter/answer/90483).
 
 ## <a name="user-permissions"></a>Autorisations utilisateur
 

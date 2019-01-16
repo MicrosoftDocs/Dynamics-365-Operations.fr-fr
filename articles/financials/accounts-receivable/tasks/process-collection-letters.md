@@ -3,69 +3,82 @@ title: Traiter les lettres de relance
 description: "Cette procédure indique comment créer, imprimer, et valider les lettres de relance."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 12/04/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: CustPosting, SysQueryForm, CustCollectionLetterNote
+ms.search.form: CustPosting, CustCollectionLetterNote
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
-ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
+ms.search.validFrom: 2018-12-01
+ms.dyn365.ops.version: 8.1.3
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: dc837ea6513992a5f94e48baa366e279df297866
+ms.sourcegitcommit: 075d0f5dc0c9dc4e46dc92a2da75da9f7a207472
+ms.openlocfilehash: 33d9fd62a780ab109474eefa9e322a9c529f9e72
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 12/06/2018
 
 ---
 # <a name="process-collection-letters"></a>Traiter les lettres de relance
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
+[!include [preview banner](../../includes/preview-banner.md)]
 
 Cette procédure indique comment créer, imprimer, et valider les lettres de relance. La société fictive USMF est citée en exemple dans cette tâche.
 
-
 ## <a name="set-up-a-collection-letter-sequence-on-the-posting-profile"></a>Configuration d'une séquence de lettres de relance sur le profil de validation
-1. Accédez à Crédit et relances > Paramétrage > Profils de validation client.
-2. Cliquez sur Modifier.
-    * Sélectionnez une séquence de lettres de relance dans la liste déroulante. Si vous ne souhaitez pas générer de lettres de relance pour les transactions utilisant ce profil de validation, laissez le champ vide.  
-    * L'onglet Restrictions de table vous permet de modifier la manière dont les lettres de relance sont traitées. Si ce champ est défini sur Oui, les lettres de relance sont créées pour ce profil de validation.  
-3. Fermez la page.
+1. Accédez à **Crédit et relances > Paramétrage > Profils de validation client**.
+2. Cliquez sur **Modifier**.
+3. Sélectionnez une séquence de lettres de relance dans la liste déroulante. Si vous ne souhaitez pas générer de lettres de relance pour les transactions utilisant ce profil de validation, laissez le champ vide.  
+4. Développez l'onglet Restrictions de table pour modifier la manière dont les lettres de relance sont traitées. Si ce champ est défini sur **Oui**, les lettres de relance sont créées pour ce profil de validation.  
 
 ## <a name="create-collection-letters"></a>Créer des lettres de relance
-1. Accédez à Crédit et relances > Lettre de relance > Créer des lettres de relance.
-    * Vous devez sélectionner les types de transaction pour lesquels vous allez recueillir des lettres. Toutes les transactions en cours pour ces types sont incluses dans le calcul de ces montants.  
-2. Dans le champ Lettre de relance, sélectionnez une option.
+1. Accédez à **Crédit et relances > Lettre de relance > Créer des lettres de relance**.
+2. Sélectionnez les types de transaction pour lesquels vous allez recueillir des lettres. Toutes les transactions en cours pour ces types sont incluses dans le calcul de ces montants.  
+2. Dans le champ **Lettre de relance**, sélectionnez une option.
 3. Spécifiez la date de la lettre de relance.
-    * Il existe deux options de profil de validation : Compte : utilisez le profil de validation affecté au compte client pour chaque note d'intérêt.   Sélectionner : Utilisez le profil de validation sélectionné dans le champ Profil de validation.  
-    * Sélectionnez un profil de validation si vous avez remplacé « Origine du profil de validation » par « Sélectionner ».  
-4. Développez les enregistrements pour inclure la section.
-5. Cliquez sur Filtre.
-6. Dans le champ Critères, entrez un ID client. Par exemple, entrez US-001.
-7. Cliquez sur OK.
-8. Cliquez sur OK.
+4. Sélectionnez un profil de validation si vous avez remplacé **Origine du profil de validation** par **Sélectionner**. Il existe deux options de profil de validation :   
+   - **Compte** : Utilisez le profil de validation affecté au compte client pour chaque note d'intérêt.   
+   - **Sélectionner** : Utilisez le profil de validation sélectionné dans le champ **Profil de validation**.  
+5. Développez la section **Enregistrements à inclure**.
+6. Cliquez sur **Filtre**.
+7. Dans le champ **Critères**, entrez un ID client. Par exemple, entrez US-001.
+8. Cliquez sur **OK**.
+9. Cliquez sur **OK**.
 
 ## <a name="print-collection-letters"></a>Imprimer/valider des lettres de relance
-1. Accédez à Crédit et relances > Lettre de relance > Examiner et traiter les lettres de relance.
-2. Sélectionnez Créé dans le champ Statut.
-3. Dans le champ Imprimé, sélectionnez « Non imprimé ».
-4. Cliquez sur Imprimer.
-5. Cliquez sur Note de lettre de relance.
-6. Développez les enregistrements pour inclure la section.
+1. Accédez à **Crédit et relances > Lettre de relance > Examiner et traiter les lettres de relance**.
+2. Dans le champ **Statut**, sélectionnez **Créé**.
+3. Dans le champ **Imprimé**, sélectionnez **Non imprimé**.
+4. Cliquez sur **Imprimer**.
+5. Cliquez sur **Note de lettre de relance**.
+6. Développez la section **Enregistrements à inclure**.
 7. Spécifiez la date limite pour les validations.
-8. Cliquez sur OK pour imprimer la lettre de relance.
+8. Cliquez sur **OK** pour imprimer la lettre de relance.
+9. Validez la lettre de relance.
+   1. Cliquez sur **Valider**.
+   2. Entrer la date de validation pour la lettre de relance.
+   3. Développez la section **Enregistrements à inclure**.
+   4. Cliquez sur **OK**.
+   5. Dans le champ **Statut**, sélectionnez **Validé**.
+   6. Dans le champ **Imprimé**, sélectionnez une option.
 
-## <a name="post-the-collection-letter"></a>Valider la lettre de relance
-1. Cliquez sur Valider.
-2. Entrer la date de validation pour la lettre de relance.
-3. Développez les enregistrements pour inclure la section.
-4. Cliquez sur OK.
-5. Sélectionnez Validé dans le champ Statut.
-6. Dans le champ Imprimé, sélectionnez une option.
+## <a name="control-collection-letters-at-the-customer-level"></a>Contrôler les lettres de relance au niveau du client
+Vous pouvez également paramétrer des lettres de relance au niveau du client afin que le code lettre de relance de chaque transaction soit suivi, mais le processus de lettre de relance sera basé sur un niveau de lettre de relance unique stocké pour le client. La lettre de relance unique contiendra toutes les transactions en retard pour le client. Comme les jours de grâce sont désormais suivis au niveau du client, la prochaine lettre de relance ne sera pas envoyée tant que le nombre de jours de grâce ne sera pas dépassé pour la lettre de relance suivante de la série, même si les transactions sont en retard après l'envoi de la dernière lettre de relance. Cette option permet de réduire le nombre de lettres de relance que vous envoyez par client. 
 
+### <a name="set-up-the-customer-to-control-collection-letters-at-the-customer-level"></a>Paramétrer le client pour contrôler les lettres de relance au niveau du client
+1.  Accédez à **Crédit et relances > Paramétrage > Paramètres de la comptabilité client** et cliquez sur l'onglet **Recouvrements**. 
+2.  Modifiez la valeur de **Créer une lettre de relance par** avec **Client**. 
+3.  Accédez à **Crédit et relances > Lettre de relance > Examiner et traiter les lettres de relance**. Une seule lettre de relance est générée pour un client avec toutes les transactions en retard.
+
+## <a name="ignore-payments-and-credit-memos-when-calculating-the-collection-letter-code"></a>Ignorer les paiements et les avoirs lors du calcul du code lettre de relance
+Si vous incluez des paiements et des avoirs dans les transactions à inclure dans les lettres de relance, vous pouvez avoir des paiements ou des avoirs qui déclenchent une lettre de relance. Vous pouvez contrôler la façon dont les paiements et les avoirs contrôlent le code lettre de relance en modifiant la valeur du paramètre **Ignorer les paiements et les avoirs lors du calcul du code lettre de relance**. 
+
+Pour ignorer les paiements et les avoirs lors du calcul du code lettre de relance, procédez comme suit.
+1. Accédez à **Crédit et relances > Paramétrage > Paramètres de la comptabilité client** et cliquez sur l'onglet **Recouvrements**. 
+2. Modifiez la valeur de **Ignorer les paiements et les avoirs lors du calcul du code lettre de relance** avec **Oui**.
 

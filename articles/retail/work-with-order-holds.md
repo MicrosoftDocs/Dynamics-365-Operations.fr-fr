@@ -20,10 +20,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 8dcba52526dd9dad1bd8b9753224f6386923f5a1
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: ba8fade84358c960dcfd1e8d9ffef1ffede34871
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -57,7 +57,7 @@ Une fois que les informations de blocage sont saisies et enregistrées, l'utilis
 
 Si l'indicateur **Activer l'achèvement de la commande** est activé dans le canal du centre d'appels, il n'est pas nécessaire d'appliquer le paiement à une commande mise en attente. En revanche, pour une commande client qui n'est pas mise en attente, les utilisateurs ne peuvent pas quitter la page de saisie de la commande client jusqu'à ce que le paiement soit appliqué. Bien évidemment, le paiement est requis pour débloquer la commande.
 
-En outre, les utilisateurs du centre d'appels peuvent bloquer manuellement pour fraude des commandes suspectes pour une raison quelconque. Les commandes peuvent également être mises en attente automatiquement lorsqu'elles correspondent aux critères et règles de fraude actifs. Pour plus d'informations sur ce type de blocage de commande, voir [Paramétrer les alertes de fraude](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/set-up-fraud-alerts).
+En outre, les utilisateurs du centre d'appels peuvent bloquer manuellement pour fraude des commandes suspectes pour une raison quelconque. Les commandes peuvent également être mises en attente automatiquement lorsqu'elles correspondent aux critères et règles de fraude actifs. Pour plus d'informations sur ce type de blocage de commande, voir [Paramétrer les alertes de fraude](https://docs.microsoft.com/dynamics365/unified-operations/retail/set-up-fraud-alerts).
 
 ## <a name="viewing-and-managing-orders-that-are-on-hold"></a>Affichage et gestion des commandes en attente
 

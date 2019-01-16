@@ -16,10 +16,10 @@ ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a67b51ced4bea11be258aed359a758d88294beb1
-ms.openlocfilehash: bc48aa5ccf50705ef0c5087608798875953fe888
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: f88b485b0bdbf66532adff530e399bdd9d5b0ed5
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/05/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -41,7 +41,7 @@ Pour la plupart des utilisateurs, l'utilisation quotidienne du système implique
 
 Toute page accessible à l'aide du menu du volet de navigation, c'est-à-dire le volet le plus à gauche, est également accessible à partir de la zone de **Recherche**. Appuyez sur Alt+G pour activer la zone de **Recherche**, puis tapez le nom ou la description de la page.
 
-![« Comptes bancaires » entrés dans la zone Rechercher](media/6d08b0be32808221023e2aa92d69fd70.png  "« Comptes bancaires » entrés dans la zone Rechercher")
+![« Comptes bancaires » entrés dans la zone Rechercher](media/6d08b0be32808221023e2aa92d69fd70.png "« Comptes bancaires » entrés dans la zone Rechercher")
 
 Pour plus d'informations, voir [Recherche lors de la navigation](navigation-search.md).
 
@@ -56,17 +56,17 @@ Chaque action disponible sur une page est accessible à partir d'un clavier, via
 
 Vous souhaitez exécuter l'action **Journal de notification par e-mail** qui s'affiche dans le groupe **Notification par e-mail** de l'onglet **Commande client** du volet Actions.
 
-![Action du journal de notification par e-mail du volet Actions](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg  "Action du « journal de notification par e-mail » du volet Actions")
+![Action du journal de notification par e-mail du volet Actions](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "Action du « journal de notification par e-mail » du volet Actions")
 
 Une option consiste à utiliser le clavier. Appuyez sur Ctrl+F6 pour activer le volet Actions, puis appuyez sur Tab à plusieurs reprises pour parcourir les onglets et actions, jusqu'à ce que l'action **Journal de notification par e-mail** soit active.
 
 Toutefois, vous pouvez également exécuter l'action plus directement. À partir de n'importe quel emplacement sur la page, appuyez sur Ctrl+Apostrophe (') pour afficher la zone de recherche d'actions.
 
-![Zone Rechercher pour les actions](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg  "Zone Rechercher pour les actions")
+![Zone Rechercher pour les actions](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "Zone Rechercher pour les actions")
 
 Dans la zone de recherche, tapez des mots qui décrivent l'action. L'action devient accessible, et vous pouvez l'exécuter directement. Par exemple, en tapant **e-mail**, **notific** (mot partiel) ou **journal**, vous pouvez « accéder » à la fonctionnalité Journal de notification par e-mail.
 
-![« Adresse électronique » entrée dans la zone Rechercher](media/image4.png "« Adresse électronique » entrée dans la zone Rechercher") 
+![« Adresse électronique » entrée dans la zone Rechercher](media/image4.png "« Adresse électronique » entrée dans la zone Rechercher")
 
 ![« Notific » entrée dans la zone Rechercher](media/image5.png "« Notific » entrée dans la zone Rechercher")
 
@@ -82,7 +82,7 @@ Lors de l'utilisation quotidienne du système, certains champs sont obligatoires
 
 Toutefois, il se peut que certains champs que vous utilisez souvent pour exécuter des tâches ne soient pas inclus dans la séquence de tabulations par défaut. Dans ce cas, si vous utilisez Windows Narrator, vous pouvez utiliser les actions du clavier de Windows Narrator pour accéder à ces champs et inspecter leur contenu. Vous pouvez également activer l'option **Séquence des tabulations améliorées** sur la page **Options**. Cette option permet à tous les champs modifiables et en lecture seule de faire partie de la séquence de tabulations. Vous pouvez ensuite utiliser la personnalisation de page pour créer une séquence de tabulations personnalisée et omettre les champs qui ne doivent pas faire partie de la séquence de tabulations. Pour plus d'informations sur la personnalisation, voir [Personnaliser l'expérience de l'utilisateur](personalize-user-experience.md).
 
-![Option « Séquence des tabulations améliorées »](media/8c0f12bbb3f26032997ef0ba95d89b6a.png  "Option « Séquence des tabulations améliorées »")
+![Option « Séquence des tabulations améliorées »](media/8c0f12bbb3f26032997ef0ba95d89b6a.png "Option « Séquence des tabulations améliorées »")
 
 ## <a name="form-patterns"></a>Modèles d'écran
 
