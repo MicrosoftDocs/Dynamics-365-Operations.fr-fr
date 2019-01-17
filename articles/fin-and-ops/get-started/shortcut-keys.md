@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 58551a26d9f3a55e8a6ab8b4ca0805aaca4a4c28
-ms.openlocfilehash: d9d3ace80e49b8dc29259c8c16925f474c9e74b3
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: 497fdb303abb9fe94caa1ebc03da005b88a40e4b
 ms.contentlocale: fr-fr
-ms.lasthandoff: 10/25/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -29,36 +29,35 @@ ms.lasthandoff: 10/25/2018
 
 [!include [banner](../includes/banner.md)]
 
-Les raccourcis clavier suivants s'appliquent à l'ensemble de Dynamics 365 for Finance and Operations. 
+Les raccourcis clavier suivants s'appliquent à l'ensemble de Dynamics 365 for Finance and Operations.
 
-**Remarque :** les raccourcis clavier décrits ici font référence au type de clavier en usage aux États-Unis. Il se peut que les touches des autres types de claviers ne correspondent pas exactement aux touches des claviers en usage aux États-Unis.
+> [!NOTE]
+> Les raccourcis clavier décrits ici font référence au type de clavier en usage aux États-Unis. Il se peut que les touches des autres types de claviers ne correspondent pas exactement aux touches des claviers en usage aux États-Unis.
 
 ## <a name="finding-a-shortcut"></a>Recherche d'un raccourci
-À partir de la mise à jour 11 de la plateforme, les utilisateurs peuvent découvrir les raccourcis actuellement disponibles directement à partir de l'interface utilisateur. Cliquez simplement avec le bouton droit sur un contrôle et sélectionnez **Afficher les raccourcis**. Une boîte de dialogue s'ouvre pour afficher les raccourcis que vous pouvez utiliser en fonction de là où vous êtes sur la page. 
 
+À partir de la mise à jour 11 de la plateforme, les utilisateurs peuvent découvrir les raccourcis actuellement disponibles directement à partir de l'interface utilisateur. Cliquez simplement avec le bouton droit sur un contrôle et sélectionnez **Afficher les raccourcis**. Une boîte de dialogue s'ouvre pour afficher les raccourcis que vous pouvez utiliser en fonction de là où vous êtes sur la page.
 
 ## <a name="action-shortcuts"></a>Raccourcis d'action
 
-|                                                   |                                  |
-|---------------------------------------------------|----------------------------------|
-| **Opération**                                    | **Raccourci**                        |
-| Ouvrir la recherche d'action                                | Ctrl+' ou Alt+Q                  |
-| Effectuer un déplacement vers le volet Actions standard                  | Alt+M, A ou Ctrl+F6               |
-| Ouvrir un onglet du volet Actions ou un menu           | Entrée ou Espace ou Alt+Flèche Bas |
-| Accéder à l'option suivante/précédente dans un menu            | Flèche Haut/Flèche Bas            |
-| Fermer un onglet du volet Actions ou un menu          | Échap                              |
-| Simuler un clic droit                            | Maj+F10                        |
-| Ouvrir le menu contextuel Finance and Operations      | Ctrl+F10                         |
-| Exécuter le bouton par défaut dans un écran ou une boîte de dialogue   | Alt+Entrée                        |
-| Cliquer sur un bouton ou une vignette                            | Entrée ou Espace                   |
-| Afficher les informations actualisées pour une vignette de comptage         | Alt + Flèche Haut                     |
-| Afficher les raccourcis actuellement disponibles                | Alt+Maj+ K                      |                              
+| Opération                                      | Raccourci                            |
+|-------------------------------------------------|----------------------------------|
+| Ouvrir la recherche d'action                              | Ctrl+' ou Alt+Q                  |
+| Effectuer un déplacement vers le volet Actions standard                | Alt+M, A ou Ctrl+F6               |
+| Ouvrir un onglet du volet Actions ou un menu         | Entrée ou Espace ou Alt+Flèche Bas |
+| Accéder à l'option suivante/précédente dans un menu          | Flèche Haut/Flèche Bas            |
+| Fermer un onglet du volet Actions ou un menu        | Échap                              |
+| Simuler un clic droit                          | Maj+F10                        |
+| Ouvrir le menu contextuel Finance and Operations    | Ctrl+F10                         |
+| Exécuter le bouton par défaut dans un écran ou une boîte de dialogue | Alt+Entrée                        |
+| Cliquer sur un bouton ou une vignette                          | Entrée ou Espace                   |
+| Afficher les informations actualisées pour une vignette de comptage       | Alt + Flèche Haut                     |
+| Afficher les raccourcis actuellement disponibles              | Alt+Maj+ K                      |
 
 ## <a name="date-picker-shortcuts"></a>Raccourcis du sélecteur de date
 
-|                                       |                                           |
+| Opération                            | Raccourci                                     |
 |---------------------------------------|-------------------------------------------|
-| **Opération**                        | **Raccourci**                                 |
 | Ouvrir le sélecteur de date                  | Alt + Flèche Bas                            |
 | Se déplacer entre les dates du sélecteur de date | Ctrl+Touches de direction                           |
 | Accéder au mois suivant/précédent       | Page suivante/Page précédente                       |
@@ -70,9 +69,8 @@ Les raccourcis clavier suivants s'appliquent à l'ensemble de Dynamics 365 for 
 
 ## <a name="factbox-shortcuts"></a>Raccourcis de récapitulatif
 
-|                                                                                 |                                           |
+| Opération                                                                      | Raccourci                                     |
 |---------------------------------------------------------------------------------|-------------------------------------------|
-| **Opération**                                                                  | **Raccourci**                                 |
 | Ouvrir le volet Récapitulatif (ou déplacer le focus sur le volet Récapitulatif s'il est déjà ouvert) | Alt+M, B ou Ctrl+F2                        |
 | Fermer le volet Récapitulatif (avec le focus sur le volet Récapitulatif)                         | Échap                                       |
 | Accéder au récapitulatif suivant/précédent (avec le focus sur le volet Récapitulatif)              | Alt+Maj+Flèche Bas/Alt+Maj+Flèche Haut |
@@ -82,42 +80,39 @@ Les raccourcis clavier suivants s'appliquent à l'ensemble de Dynamics 365 for 
 
 ## <a name="filtering-shortcuts"></a>Raccourcis de filtrage
 
-|                                    |                          |
-|------------------------------------|--------------------------|
-| **Opération**                     | **Appuyer**                |
-| Ouvrir le filtrage de grille pour la colonne active                        | Ctrl+G                   |
-| Fermer le filtrage de grille pour la colonne active                       | Échap                      |
+| Opération                                                                                                          | Raccourci                    |
+|---------------------------------------------------------------------------------------------------------------------|--------------------------|
+| Ouvrir le filtrage de grille pour la colonne active                                                                          | Ctrl+G                   |
+| Fermer le filtrage de grille pour la colonne active                                                                         | Échap                      |
 | Ouvrir le volet de filtre (ou permuter le focus entre le volet de filtre et l'écran principal si le volet de filtre est déjà ouvert) | Alt+M, F ou Ctrl+F3       |
-| Fermer le volet de filtre (avec le focus sur le volet de filtre)             | Échap                      |
-| Ouvrir le filtrage ou le tri avancé                                      | Ctrl+Maj+F3            | 
+| Fermer le volet de filtre (avec le focus sur le volet de filtre)                                                               | Échap                      |
+| Ouvrir le filtrage ou le tri avancé                                                                                        | Ctrl+Maj+F3            |
 
 ## <a name="form-shortcuts"></a>Raccourcis d'écran
 
-|                                                     |                   |
-|-----------------------------------------------------|-------------------|
-| **Opération**                                      | **Appuyer**         |
-| Créer un enregistrement                                 | Alt+N             |
-| Supprimer un enregistrement                                     | Alt+Suppr ou Alt+F9 |
-| Sauvegarder un enregistrement                                         | Alt+S ou Ctrl+S   |
-| Rétablir (restaurer)                                    | Ctrl+Maj+F5     |
-| Actualisation des données                                        | Maj+F5          |
-| Accéder au premier champ visible dans l'écran         | Alt+Maj+F       |
-| Activer ou désactiver le mode d'édition                                    | F2                |
-| Joindre un document                                   | Ctrl+Maj+A      |
-| Exporter vers Excel                                     | Ctrl+Maj+E      |
-| Accéder à l'enregistrement précédent (en dehors d'une grille)        | Ctrl+Flèche Haut     |
-| Accéder à l'enregistrement suivant (en dehors d'une grille)            | Ctrl+Flèche Bas   |
-| Accéder au premier enregistrement (en dehors d'une grille)           | Ctrl + Début         |
-| Accéder au dernier enregistrement (en dehors d'une grille)            | Ctrl + Fin          |
-| Fermer l'écran (cliquer sur Précédent)                         | Échap               |
-| Fermer l'écran avec la sauvegarde explicite                   | Maj+Échap         |
-| Fermer l'écran en ignorant les modifications non enregistrées       | Alt+Maj+Q       |
+| Opération                                    | Raccourci             |
+|-----------------------------------------------|-------------------|
+| Créer un enregistrement                           | Alt+N             |
+| Supprimer un enregistrement                               | Alt+Suppr ou Alt+F9 |
+| Sauvegarder un enregistrement                                   | Alt+S ou Ctrl+S   |
+| Rétablir (restaurer)                              | Ctrl+Maj+F5     |
+| Actualisation des données                                  | Maj+F5          |
+| Accéder au premier champ visible dans l'écran   | Alt+Maj+F       |
+| Activer ou désactiver le mode d'édition                              | F2                |
+| Joindre un document                             | Ctrl+Maj+A      |
+| Exporter vers Excel                               | Ctrl+Maj+E      |
+| Accéder à l'enregistrement précédent (en dehors d'une grille)  | Ctrl+Flèche Haut     |
+| Accéder à l'enregistrement suivant (en dehors d'une grille)      | Ctrl+Flèche Bas   |
+| Accéder au premier enregistrement (en dehors d'une grille)     | Ctrl + Début         |
+| Accéder au dernier enregistrement (en dehors d'une grille)      | Ctrl + Fin          |
+| Fermer l'écran (cliquer sur Précédent)                   | Échap               |
+| Fermer l'écran avec la sauvegarde explicite             | Maj+Échap         |
+| Fermer l'écran en ignorant les modifications non enregistrées | Alt+Maj+Q       |
 
 ## <a name="form-navigation-shortcuts"></a>Raccourcis de navigation dans les écrans
 
-|                                                     |                                              |
+| Opération                                          | Raccourci                                        |
 |-----------------------------------------------------|----------------------------------------------|
-| **Opération**                                      | **Raccourci**                                    |
 | Accéder au champ suivant/précédent                     | Tab/Maj+Tab                              |
 | Accéder à l'onglet suivant/précédent                       | Alt+Maj+Flèche Droite/Alt+Maj+Flèche Gauche |
 | Accéder au &lt;n&gt;ième onglet                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
@@ -134,30 +129,28 @@ Les raccourcis clavier suivants s'appliquent à l'ensemble de Dynamics 365 for 
 
 ## <a name="grid-shortcuts"></a>Raccourcis de grille
 
-|                                                                                                                        |                                 |
+| Opération                                                                                                             | Raccourci                           |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
-| **Opération**                                                                                                         | **Raccourci**                       |
 | Accéder à la colonne suivante/précédente                                                                                       | Tab/Maj+Tab                 |
 | Accéder à la ligne suivante/précédente                                                                                          | Flèche Haut/Flèche Bas           |
-| Se déplacer jusqu'à la ligne suivante/précédente sans la sélectionner<br><br>**Remarque :** Ce raccourci s'applique uniquement aux scénarios de sélection multiple. | Ctrl+Flèche Haut/Ctrl+Flèche Bas |
-| Sélectionner/désélectionner la ligne actuelle<br><br>**Remarque :** Ce raccourci s'applique uniquement aux scénarios de sélection multiple.                    | Ctrl+Espace/Ctrl+Clic         |
-| Ajouter la ligne suivante/précédente à l'ensemble sélectionné<br><br>**Remarque :** Ce raccourci s'applique uniquement aux scénarios de sélection multiple.   | Shift+Space                     |
-| Ajouter une plage de lignes à l'ensemble sélectionné<br><br>**Remarque :** Ce raccourci s'applique uniquement aux scénarios de sélection multiple.         | Maj+Clic                     |
+| Se déplacer jusqu'à la ligne suivante/précédente sans la sélectionner<blockquote>[!NOTE] Ce raccourci s'applique uniquement aux scénarios de sélection multiple.</blockquote> | Ctrl+Flèche Haut/Ctrl+Flèche Bas |
+| Sélectionner/désélectionner la ligne actuelle<blockquote>[!NOTE] Ce raccourci s'applique uniquement aux scénarios de sélection multiple.</blockquote>                    | Ctrl+Espace/Ctrl+Clic         |
+| Ajouter la ligne suivante/précédente à l'ensemble sélectionné<blockquote>[!NOTE] Ce raccourci s'applique uniquement aux scénarios de sélection multiple.</blockquote>   | Shift+Space                     |
+| Ajouter une plage de lignes à l'ensemble sélectionné<blockquote>[!NOTE] Ce raccourci s'applique uniquement aux scénarios de sélection multiple.</blockquote>         | Maj+Clic                     |
 | Accéder à la page de données suivante/précédente                                                                                   | Page précédente / Page suivante             |
 | Créer une nouvelle ligne en bas de la grille                                                                             | Flèche Bas (à partir de la dernière ligne)  |
 | Sélectionner ou désélectionner toutes les lignes                                                                                               | Ctrl+Maj+M                    |
 | Accéder au premier enregistrement                                                                                               | Ctrl + Début                       |
 | Accéder au dernier enregistrement                                                                                                | Ctrl + Fin                        |
-| Exécuter l'action par défaut dans une grille<br><br>**Remarque :** Ce raccourci est activé lorsque le focus est sur une cellule contenant un lien hypertexte et que toutes les cellules de cette colonne ont des liens hypertexte.                 | Entrer                           |
+| Exécuter l'action par défaut dans une grille<blockquote>[!NOTE] Ce raccourci est activé lorsque le focus est sur une cellule contenant un lien hypertexte et que toutes les cellules de cette colonne ont des liens hypertexte.</blockquote> | Entrer                           |
 | Basculer la vue entre la ligne sélectionnée et la ligne d'en-tête                                                               | Alt+Maj+H                     |
 | Agrandir/réduire la colonne active (avec le focus sur la ligne d'en-tête)                                                  | Flèche droite/Flèche gauche        |
 | Ouvrir le filtrage de grille pour la colonne active (avec le focus sur la ligne d'en-tête)                                              | Entrer                           |
 
 ## <a name="input-control-shortcuts"></a>Raccourcis de contrôle d'entrée
 
-|                                                                              |                               |
+| Opération                                                                   | Raccourci                         |
 |------------------------------------------------------------------------------|-------------------------------|
-| **Opération**                                                               | **Raccourci**                     |
 | Ouvrir le lien hypertexte                                                           | Ctrl+Entrée                    |
 | Entrer la date de session dans un champ de date                                       | D+Tab                         |
 | Entrer la date actuelle dans un champ de date                                       | T+Tab                         |
@@ -171,17 +164,15 @@ Les raccourcis clavier suivants s'appliquent à l'ensemble de Dynamics 365 for 
 
 ## <a name="messaging-shortcuts"></a>Raccourcis de messagerie
 
-|                          |               |
+| Opération               | Raccourci         |
 |--------------------------|---------------|
-| **Opération**           | **Raccourci**     |
 | Accéder au centre de messages | Ctrl+Maj+F7 |
 | Accéder à la barre de messages    | Ctrl+F7       |
 
 ## <a name="navigation-shortcuts"></a>Raccourcis de navigation
 
-|                                                                               |                            |
+| Opération                                                                    | Raccourci                      |
 |-------------------------------------------------------------------------------|----------------------------|
-| **Opération**                                                                | **Raccourci**                  |
 | Accéder au Tableau de bord                                                           | Alt+Maj+Début             |
 | Effectuer un déplacement vers la barre de navigation                                                    | Alt+M, N ou Alt+Maj+F1    |
 | Effectuer un déplacement vers le sélecteur de société                                                    | Ctrl+Maj+O               |
@@ -201,9 +192,8 @@ Les raccourcis clavier suivants s'appliquent à l'ensemble de Dynamics 365 for 
 
 ## <a name="personalization-shortcuts"></a>Raccourcis de personnalisation
 
-|                                                                                                                        |                                     |
+| Opération                                                                                                             | Raccourci                               |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
-| **Opération**                                                                                                         | **Raccourci**                           |
 | Effectuer un basculement de la page en mode personnalisation                                                                          | (Ctrl+Maj+P)                        |
 | Utiliser l'outil Sélectionner (lorsque vous êtes en mode personnalisation)                                                                     | S                                   |
 | Ouvrir la boîte de dialogue de personnalisation rapide du contrôle sélectionné (à l'aide de l'outil Sélectionner)                              | Espace ou Entrée                      |
@@ -230,9 +220,8 @@ Les raccourcis clavier suivants s'appliquent à l'ensemble de Dynamics 365 for 
 
 ## <a name="segmented-entry-shortcuts"></a>Raccourcis d'entrée segmentée
 
-|                                                                                                                         |                                  |
+| Opération                                                                                                              | Raccourci                            |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
-| **Opération**                                                                                                          | **Raccourci**                        |
 | Ouvrir la liste déroulante (lorsqu'elle est fermée)                                                             | Alt + Flèche Bas                   |
 | Déplacer le focus sur le champ de saisie pour le segment actif dans la liste déroulante (lorsque la liste déroulante est déjà ouverte) | Alt + Flèche Bas                   |
 | Fermer la liste déroulante                                                                                                | Alt + Flèche Haut                     |
@@ -244,5 +233,4 @@ Les raccourcis clavier suivants s'appliquent à l'ensemble de Dynamics 365 for 
 | Monter/descendre d'une ligne dans la recherche                                                                                        | Flèche Haut/Flèche Bas            |
 | Monter/descendre d'une page dans la recherche                                                                                       | Page précédente / Page suivante              |
 | Atteindre le haut ou le bas de la recherche                                                                                    | Début/Fin                       |
-
 

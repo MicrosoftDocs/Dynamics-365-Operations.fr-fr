@@ -17,10 +17,10 @@ ms.author: mikefalkner
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
-ms.openlocfilehash: 08e939f87bc4a1769533b205bc5706648e1d1dce
+ms.sourcegitcommit: c093c9af7184d93b1200a8bcab16573f2bb4be09
+ms.openlocfilehash: 7a1e6c6e3a995ad745522d58960e850d72c2ee57
 ms.contentlocale: fr-fr
-ms.lasthandoff: 10/01/2018
+ms.lasthandoff: 01/03/2019
 
 ---
 
@@ -62,7 +62,7 @@ Lorsque vous copiez un client, le système essaie d'enregistrer les nouvelles in
 
 ## <a name="copy-a-customer-by-using-tax-exempt-number-search-feature"></a>Copie d'un client à l'aide de la fonction de recherche du numéro identifiant TVA
 
-Vous pouvez également copier des fournisseurs à l'aide de la fonction de recherche du numéro identifiant TVA qui est disponible dans le groupe **Enregistrement** sous l'onglet **Client** du volet Actions de la page **Tous les clients**. La boîte de dialogue **Recherche du numéro identifiant TVA** qui s'affiche répertorie les numéros identifiant TVA, l'ID client, le nom du client et l'entité juridique où l'ID identifiant TVA est utilisé. Vous pouvez copier un client uniquement s'il se trouve dans une entité juridique qui n'est pas l'entité juridique actuelle. Après avoir sélectionné un client qui répond à ce critère, procédez comme suit.
+Vous pouvez également copier des clients à l'aide de la fonction de recherche du numéro identifiant TVA qui est disponible dans le groupe **Enregistrement** sous l'onglet **Client** du volet Actions de la page **Tous les clients**. La boîte de dialogue **Recherche du numéro identifiant TVA** qui s'affiche répertorie les numéros identifiant TVA, l'ID client, le nom du client et l'entité juridique où l'ID identifiant TVA est utilisé. Vous pouvez copier un client uniquement s'il se trouve dans une entité juridique qui n'est pas l'entité juridique actuelle. Après avoir sélectionné un client qui répond à ce critère, procédez comme suit.
 
 1. L'option **Copier un client** s'affiche. Par défaut, cette option est définie sur **Non**. Pour copier le client dans l'entité juridique actuelle, définissez l'option sur **Oui**. 
 2. Cliquez sur **Sélectionner**. Le nouveau client est créé.

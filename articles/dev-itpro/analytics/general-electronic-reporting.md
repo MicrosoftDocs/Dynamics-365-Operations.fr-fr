@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 99c10649d7683265fcac86c1825c5a965bbdb415
-ms.openlocfilehash: f27f228e48da653a9caf666f9053fe45a7c23745
+ms.sourcegitcommit: 67dc5b5cdec797f19a742addd05c6002aa31cf15
+ms.openlocfilehash: e619b24fc790399452d6233b2d04987357d87186
 ms.contentlocale: fr-fr
-ms.lasthandoff: 12/04/2018
+ms.lasthandoff: 01/03/2019
 
 ---
 
@@ -174,11 +174,11 @@ Un référentiel **Système de fichiers** permet d'accéder à la liste des conf
 - environnements hébergés dans le cloud déployés à des fins de développement (contenant des modèles de test de suites incluses)
 - environnements déployés localement (déploiement sur site ou de données commerciales locales)
 
-Visitez la page [Importer des configurations de gestion des états électroniques (ER)](/electronic-reporting-import-ger-configurations.md) pour plus d'informations.
+Visitez la page [Importer des configurations de gestion des états électroniques (ER)](./electronic-reporting-import-ger-configurations.md) pour plus d'informations.
 
 Un référentiel d'**Instance RCS** permet d'accéder à la liste des configurations d'une instance RCS spécifique sélectionnée à l'enregistrement du référentiel. La génération d'états électroniques permet d'importer des configurations terminées ou partagées de l'instance RCS sélectionnée dans l'instance Finance and Operations actuelle et utilisée pour la génération d'états électroniques.
 
-Visitez la page [Importer des configurations de gestion des états électroniques (ER) depuis les Services de configuration réglementaire (RCS)](/rcs-download-configurations.md) pour plus d'informations.
+Visitez la page [Importer des configurations de gestion des états électroniques (ER) depuis les Services de configuration réglementaire (RCS)](./rcs-download-configurations.md) pour plus d'informations.
 
 Les référentiels **Projet LCS**, **Système de fichiers** et **Services de configuration réglementaire (RCS)** requis peuvent être enregistrés individuellement pour chaque fournisseur de configuration de l'instance Finance and Operations actuelle. Chaque référentiel peut être consacré à un fournisseur de configuration spécifique.
 

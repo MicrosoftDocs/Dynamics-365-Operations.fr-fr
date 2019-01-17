@@ -35,21 +35,19 @@ Vous pouvez surveiller les ventes et les performances de marge en temps réel à
 
 Dans le cadre de Microsoft Dynamics 365 for Retail, les utilisateurs peuvent surveiller les performances des ventes et des marges en temps réel entre différents niveaux de la hiérarchie d'organisation pour les dimensions suivantes :
 
--   Produits
--   Catégories
--   Remises
--   Années comme période de temps
--   Registres/terminaux
--   Personnel/employés
--   Clients
--   Unités opérationnelles
+- Produits
+- Catégories
+- Remises
+- Années comme période de temps
+- Registres/terminaux
+- Personnel/employés
+- Clients
+- Unités opérationnelles
 
 En outre, deux états uniques qui tirent profit d'une structuration de la grille hiérarchique permettent aux utilisateurs de contrôler les performances des ventes et des marges en zoomant en avant depuis le nœud de catégorie supérieure jusqu'aux nœuds terminaux individuels de la catégorie dans la hiérarchie de catégories de produits vendus au détail par défaut. Les utilisateurs peuvent également zoomer en avant à partir de l'unité opérationnelle supérieure à un canal individuel dans la hiérarchie d'organisation définie comme la hiérarchie d'organisation par défaut pour les objectifs de la hiérarchie d'organisation de la génération d'états sur les ventes au détail. Vous pouvez ouvrir ces états à partir de tous les emplacements suivants :
 
--   Espace de travail **Gestion du magasin de vente au détail** &gt; **Vente au détail** &gt; **Canaux** &gt; **Gestion du magasin de vente au détail** &gt; **États**
--   Espace de travail **Gestion des catégories et des produits** &gt; **Vente au détail** &gt; **Produit et catégories** &gt; **Gestion du magasin de vente au détail** &gt; **États**
--   Espace de travail **Gestion de la tarification et des remises** &gt; **Vente au détail** &gt; **Tarification et remises** &gt; **Gestion du magasin de vente au détail** &gt; **États**
--   Section **Recherches et états** &gt; **Vente au détail** &gt; **Recherches et états** &gt; **États des ventes**
-
-
+- Espace de travail **Gestion du magasin de vente au détail** &gt; **Vente au détail** &gt; **Canaux** &gt; **Gestion du magasin de vente au détail** &gt; **États**
+- Espace de travail **Gestion des catégories et des produits** &gt; **Vente au détail** &gt; **Produit et catégories** &gt; **Gestion du magasin de vente au détail** &gt; **États**
+- Espace de travail **Gestion de la tarification et des remises** &gt; **Vente au détail** &gt; **Tarification et remises** &gt; **Gestion du magasin de vente au détail** &gt; **États**
+- Section **Recherches et états** &gt; **Vente au détail** &gt; **Recherches et états** &gt; **États des ventes**
 

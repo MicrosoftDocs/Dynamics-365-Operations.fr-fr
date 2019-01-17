@@ -34,24 +34,24 @@ La procédure suivante permet de configurer les propriétés d'une décision con
 Une décision conditionnelle est un point où le workflow se divise en deux branches. Pour configurer une décision conditionnelle, dans l'éditeur de workflow, cliquez avec le bouton droit sur la décision conditionnelle, puis cliquez sur **Propriétés** pour ouvrir l'écran **Propriétés**.
 
 ## <a name="name-a-decision"></a>Nommer une décision
+
 Procédez comme suit pour entrer un nom pour une décision conditionnelle.
-1.  Dans le volet gauche, cliquez sur **Paramètres de base**.
-2.  Dans le champ **Nom**, entrez un nom unique pour la décision conditionnelle.
+
+1. Dans le volet gauche, cliquez sur **Paramètres de base**.
+2. Dans le champ **Nom**, entrez un nom unique pour la décision conditionnelle.
 
 ## <a name="set-conditions"></a>Définition des conditions
+
 Le système détermine la branche utilisée en évaluant si le document soumis répond à des conditions spécifiques.
-1.  Dans le volet gauche, cliquez sur **Paramètres de base**.
-2.  Cliquez sur **Ajouter une condition**.
-3.  Permet d'entrer une condition.
-4.  Entrez des conditions supplémentaires, si nécessaire.
-5.  Pour vérifier que les conditions que vous avez entrées sont correctement configurées, procédez comme suit :
-    1.  Cliquez sur **Test** pour ouvrir l'écran **Condition de workflow de test**.
-    2.  Sélectionnez un enregistrement dans la zone **Contrôler la condition** de l'écran.
-    3.  Cliquez sur **Tester**. Le système évalue l'enregistrement pour déterminer s'il répond aux conditions que vous avez spécifiées.
-    4.  Cliquez sur **OK** ou sur **Annuler** pour revenir à l'écran **Propriétés**.
 
+1. Dans le volet gauche, cliquez sur **Paramètres de base**.
+2. Cliquez sur **Ajouter une condition**.
+3. Permet d'entrer une condition.
+4. Entrez des conditions supplémentaires, si nécessaire.
+5. Pour vérifier que les conditions que vous avez entrées sont correctement configurées, procédez comme suit :
 
-
-
-
+    1. Cliquez sur **Test** pour ouvrir l'écran **Condition de workflow de test**.
+    2. Sélectionnez un enregistrement dans la zone **Contrôler la condition** de l'écran.
+    3. Cliquez sur **Tester**. Le système évalue l'enregistrement pour déterminer s'il répond aux conditions que vous avez spécifiées.
+    4. Cliquez sur **OK** ou sur **Annuler** pour revenir à l'écran **Propriétés**.
 

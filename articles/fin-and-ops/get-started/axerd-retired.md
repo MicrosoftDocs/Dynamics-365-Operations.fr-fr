@@ -18,10 +18,10 @@ ms.author: margoc
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: AX 2012
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 5250a75655b23f1bc92b332a48dfec094af049cf
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: 71c61764ca2dd79df110d257b61bd656804519ef
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -29,13 +29,11 @@ ms.lasthandoff: 08/08/2018
 
 [!include [banner](../includes/banner.md)]
 
-Nous avons malheureusement dû supprimer la page Web AxErd, qui fournissait des diagrammes de relations d'entités (ERD) pour de nombreuses tables Microsoft Dynamics AX 2012. Nous avons pu publier à la fois le code source du projet et les fichiers HTML de la page Web dans un référentiel GitHub : https://github.com/Microsoft/ax-2012-doc-tools
+Nous avons malheureusement dû supprimer la page Web AxErd, qui fournissait des diagrammes de relations d'entités (ERD) pour de nombreuses tables Microsoft Dynamics AX 2012. Nous avons pu publier à la fois le code source du projet et les fichiers HTML de la page Web dans un référentiel GitHub : https://github.com/Microsoft/ax-2012-doc-tools
 
 Les pages HTML sont dans le référentiel, à l'adresse [https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Default.htm](https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Default.htm)
 
 Une description de la création de vos propres ERD est accessible à l'adresse suivante : [https://github.com/Microsoft/ax-2012-doc-tools/blob/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Help-HowToUse-AxErd.htm](https://github.com/Microsoft/ax-2012-doc-tools/blob/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Help-HowToUse-AxErd.htm)
 
-La solution se trouve à la racine du dossier AxErd [https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd](https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd). 
-
-
+La solution se trouve à la racine du dossier AxErd [https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd](https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd).
 

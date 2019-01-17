@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: 3331b984693c58c6ee8c49b98ed7d3a8df5b79ff
-ms.openlocfilehash: 53c4b9a9c9dac1add7021d909b2c8900d11e5c0c
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: b7132dc9b3c78fa04fcfc38ea72b5678ad08deb2
 ms.contentlocale: fr-fr
-ms.lasthandoff: 12/04/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 # <a name="set-up-pay-invoice-scenarios"></a>Paramétrer des scénarios de règlement de facture
@@ -30,21 +30,18 @@ ms.lasthandoff: 12/04/2018
 [!include [banner](includes/banner.md)]
 
 La fonctionnalité Payer la facture de Dynamics 365 for Retail a été développée pour prendre en charge ce qui suit :
+
 - Le règlement de plusieurs factures de commande client dans une transaction de point de vente unique.
 - Le paiement de différents types de facture client, y compris des factures financières, des factures basées sur des projets et des avoirs.
 
-Pour activer ces scénarios, le profil de fonctionnalité pour les magasins doit être configuré, comme indiqué ci-dessous.  
+Pour activer ces scénarios, le profil de fonctionnalité pour les magasins doit être configuré, comme indiqué ci-dessous.
 
-1. Accédez à **Vente au détail > Paramétrage du canal > Paramétrage Point de vente > Profils Point de vente > Profils de fonctionnalité** et sélectionnez un profil associé au magasin auquel vous souhaitez apporter des modifications.
-
-1. Dans l'onglet **Fonctions**, configurez les paramètres suivants selon les besoins.
+1. Accédez à **Vente au détail \> Paramétrage du canal \> Paramétrage Point de vente \> Profils Point de vente \> Profils de fonctionnalité** et sélectionnez un profil associé au magasin auquel vous souhaitez apporter des modifications.
+2. Dans l'onglet **Fonctions**, configurez les paramètres suivants selon les besoins.
 
     - **Facture de commande client** : Sélectionnez **Oui** pour autoriser les utilisateurs à régler une ou plusieurs factures basées sur une commande client dans une transaction de point de vente unique.
-
     - **Facture financière** : Sélectionnez **Oui** pour autoriser les utilisateurs à régler une ou plusieurs factures financières dans une transaction de point de vente unique.
-
     - **Facture de projet** : Sélectionnez **Oui** pour autoriser les utilisateurs à régler une ou plusieurs factures de projet dans une transaction de point de vente unique.
-
     - **Commande client - Avoir** : Sélectionnez **Oui** pour autoriser les utilisateurs à régler plusieurs avoirs basés sur des commandes dans le cadre des factures en cours ou pour rembourser un avoir en cours à un client.
 
 > [!NOTE]

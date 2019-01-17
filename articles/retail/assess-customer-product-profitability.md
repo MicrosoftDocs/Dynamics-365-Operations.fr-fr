@@ -31,33 +31,30 @@ ms.lasthandoff: 09/29/2017
 
 [!include [banner](includes/banner.md)]
 
-Cet article détaille la manière dont vous pouvez utiliser les analyses en mémoire et en temps réel pour accéder, explorer et obtenir un aperçu de la rentabilité client et produit, à partir de vos données Microsoft Dynamics 365 for Retail. 
+Cet article détaille la manière dont vous pouvez utiliser les analyses en mémoire et en temps réel pour accéder, explorer et obtenir un aperçu de la rentabilité client et produit, à partir de vos données Microsoft Dynamics 365 for Retail.
 
 Dans le cadre de Dynamics 365 for Retail, les utilisateurs peuvent étudier la rentabilité des principaux clients (10 à 100) entre différents niveaux de la hiérarchie d'organisation, selon l'un des critères suivants :
 
--   Montant des ventes
--   Quantité
--   Marge bénéficiaire brut
--   Pourcentage de marge
+- Montant des ventes
+- Quantité
+- Marge bénéficiaire brut
+- Pourcentage de marge
 
 Pour cette évaluation, vous pouvez utiliser l'état prêt à l'emploi **Principaux clients**, que vous pouvez ouvrir à partir de l'un des emplacements suivants :
 
--   Espace de travail **Gestion du magasin de vente au détail** &gt; **Vente au détail** &gt; **Canaux** &gt; **Gestion du magasin de vente au détail** &gt; **États** &gt; **État des principaux clients**
--   Section **Recherches et états** &gt; **Vente au détail** &gt; **Recherches et états** &gt; **États des ventes** &gt; **État des principaux clients**
+- Espace de travail **Gestion du magasin de vente au détail** &gt; **Vente au détail** &gt; **Canaux** &gt; **Gestion du magasin de vente au détail** &gt; **États** &gt; **État des principaux clients**
+- Section **Recherches et états** &gt; **Vente au détail** &gt; **Recherches et états** &gt; **États des ventes** &gt; **État des principaux clients**
 
 De même, les utilisateurs peuvent étudier la rentabilité des principaux produits (10 à 100) entre différents niveaux de la hiérarchie d'organisation, selon l'un des critères suivants :
 
--   Montant des ventes
--   Quantité
--   Marge bénéficiaire brut
--   Pourcentage de marge
+- Montant des ventes
+- Quantité
+- Marge bénéficiaire brut
+- Pourcentage de marge
 
 Pour cette évaluation, vous pouvez utiliser l'état prêt à l'emploi **Principaux produits**, que vous pouvez ouvrir à partir de l'un des emplacements suivants :
 
--   Espace de travail **Gestion du magasin de vente au détail** &gt; **Vente au détail** &gt; **Canaux** &gt; **Gestion du magasin de vente au détail** &gt; **États** &gt; **État Principaux produits**
--   Espace de travail **Gestion des catégories et des produits** &gt; **Vente au détail** &gt; **Produits et catégories** &gt; **Gestion du magasin de vente au détail** &gt; **États** &gt; **État des principaux produits**
--   Section **Recherches et états** &gt; **Vente au détail** &gt; **Recherches et états** &gt; **États des ventes** &gt; **État Principaux produits**
-
-
-
+- Espace de travail **Gestion du magasin de vente au détail** &gt; **Vente au détail** &gt; **Canaux** &gt; **Gestion du magasin de vente au détail** &gt; **États** &gt; **État Principaux produits**
+- Espace de travail **Gestion des catégories et des produits** &gt; **Vente au détail** &gt; **Produits et catégories** &gt; **Gestion du magasin de vente au détail** &gt; **États** &gt; **État des principaux produits**
+- Section **Recherches et états** &gt; **Vente au détail** &gt; **Recherches et états** &gt; **États des ventes** &gt; **État Principaux produits**
 

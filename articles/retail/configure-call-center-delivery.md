@@ -36,6 +36,7 @@ Lorsque vous créez une commande client, vous pouvez sélectionner un mode de li
 Retail a des fonctionnalités permettant aux utilisateurs de limiter les modes de livraison qui peuvent être utilisés par un canal, les modes de livraison qui peuvent être utilisés pour un produit et les modes de livraison qui sont valides pour des destinations d'expédition spécifiques. Les frais peuvent également être définis afin que des frais supplémentaires soient ajoutés à la commande d'un client, selon les modes de livraison sélectionnés pour la commande client et la valeur totale de la commande.
 
 ## <a name="define-delivery-modes"></a>Définir les modes de livraison
+
 Avant de spécifier les modes de livraison qui peuvent être utilisés pour les commandes du centre d'appels et de définir les règles et les frais associés, vous devez définir les modes de livraison. Allez dans **Ventes et marketing \> Paramétrage \> Distribution \> Modes de livraison**. Sélectionnez **Nouveau** pour créer un mode de livraison. Sinon, sélectionnez un mode de livraison existant dans la liste, puis sélectionnez **Modifier** pour apporter des modifications.
 
 Dans le champ **Mode de livraison**, vous pouvez saisir une combinaison de caractères alphanumériques, selon les besoins de votre entreprise. Vous pouvez ensuite utiliser le champ **Description** pour fournir un contexte supplémentaire. Les champs **Groupe de frais** et **Expédition** sont facultatifs et sont expliqués en détail plus loin dans cette rubrique.
@@ -47,11 +48,13 @@ Dans l'organisateur **Produits**, vous pouvez spécifier les produits et/ou les 
 Dans l'organisateur **Adresses**, vous pouvez spécifier les pays, régions ou états pour lesquels le mode de livraison peut ou pas être utilisé. Par exemple, les commandes à destination d'Hawaï ou de l'Alaska ne peuvent pas être expédiées par voie terrestre. Par conséquent, ces états doivent être exclus des modes de livraison associés à un service de livraison terrestre, mais inclus dans les modes de livraison associés à un service de livraison aérienne.
 
 ## <a name="validate-delivery-modes-for-a-call-center-order"></a>Valider les modes de livraison pour une commande du centre d'appels
+
 Une fois que les modes de livraison sont définis, vous devez exécuter le traitement par lots **Traiter les modes de livraison**. Cette tâche rend les modes de livraison disponibles afin qu'ils puissent être utilisés dans les processus de commande client pour les canaux de vente au détail. Pour exécuter la tâche **Traiter les modes de livraison**, accédez à **Vente au détail \> Informatique au détail \> Traiter les modes de livraison**. Cette tâche doit être exécutée chaque fois que de nouveaux modes de livraison sont ajoutés à un canal de vente au détail ou que des modifications sont apportées aux relations existantes entre le mode de livraison et le canal.
 
 Lorsque vous exécutez le traitement par lots **Traiter les modes de livraison**, vous pouvez accéder à **Vente au détail \> Canaux \> Centres d'appels \> Tous les centres d'appels**. Dans la page **Tous les centres d'appels**, dans le volet Actions, sous l'onglet **Paramétrage**, sélectionnez **Modes de livraison**. La page **Modes de livraison** répertorie tous les modes de livraison valides pour le canal sélectionné du centre d'appels. Pour modifier les modes de livraison existants ou pour ajouter de nouveaux modes de livraison, sélectionnez **Gérer les modes de livraison**. Notez que la tâche **Traiter les modes de livraison** doit être exécutée chaque fois que des modifications sont apportées.
 
 ## <a name="define-charges-for-delivery-services"></a>Définir les frais pour les services de livraison
+
 Lorsque des commandes client sont créées pour les clients, une société peut ajouter des frais qui sont automatiquement calculés selon les modes de livraison sélectionnés pour la commande. Ces frais peuvent être configurés pour être identiques pour tous les clients et modes de livraison. Les frais peuvent également varier, selon le client et/ou les modes de livraison sélectionnés pour la commande client.
 
 Pour définir les frais, accédez à **Vente au détail \> Paramétrage du canal \> Frais \> Frais auto**. Sélectionnez **Nouveau** pour ajouter de nouveaux frais. Sinon, sélectionnez une entrée existante, puis sélectionnez **Modifier**.
@@ -73,6 +76,7 @@ Vous pouvez utiliser une combinaison de catégories pour les frais, selon les be
 ![Exemple de frais progressifs mixtes](media/mixedtieredcharges.png)
 
 ## <a name="apply-delivery-modes-during-order-entry-in-a-call-center"></a>Appliquer les modes de livraison lors de la saisie d'une commande dans un centre d'appels
+
 Lorsqu'une commande client est créée, une valeur doit être spécifiée dans le champ **Mode de livraison** de l'organisateur **Livraison** de l'en-tête de la commande client. Ce champ peut être renseigné automatiquement, selon les valeurs par défaut de l'enregistrement client.
 
 Le mode de livraison défini dans l'en-tête de la commande est automatiquement copié sur les lignes de la commande client lors de leur création. Toutefois, vous pouvez modifier le paramétrage du mode de livraison pour une ligne spécifique dans l'onglet **Livraison** de la section **Détails de ligne** de la page de saisie de la commande client.
@@ -80,11 +84,13 @@ Le mode de livraison défini dans l'en-tête de la commande est automatiquement 
 Si le mode de livraison sélectionné n'est pas valide pour le produit ou l'adresse de livraison définie pour la commande ou la ligne de commande, vous recevez un message d'erreur. Vous devez alors sélectionner un mode de livraison qui a été défini pour prendre en charge cette configuration de produit ou d'adresse.
 
 ## <a name="calculation-of-delivery-charges-during-entry-of-order"></a>Calcul des frais de livraison lors de la saisie d'une commande
+
 Si le paramètre **Activer l'achèvement de la commande** est activé pour le canal du centre d'appels, les frais d'expédition sont automatiquement calculés pour les commandes client lorsque les utilisateurs sélectionnent **Terminer**. Le message suivant s'affiche en haut de la page **Résumé de la commande client** : « Frais progressifs calculés ». Les frais calculés sont ajoutés à la valeur du champ **Total des ventes**. Dans l'organisateur **Montant**, le champ **Frais** affiche le montant total des frais qui ont été calculés pour la commande et les lignes. Pour afficher une analyse plus détaillée des frais, sélectionnez **Commande** dans la page **Résumé de la commande client**, puis sélectionnez l'option **Frais** pour afficher, ajouter ou modifier les frais. Notez que le calcul des frais de livraison dans l'en-tête de la commande est basé sur le mode de livraison associé à l'en-tête. Les frais de livraison au niveau de la ligne sont calculés sur la base du mode de livraison configuré pour la ligne de vente. Si plusieurs modes de livraison sont utilisés sur différentes lignes, des frais multiples peuvent être appliqués et ajoutés simultanément. Le montant total est alors affiché dans le champ **Frais** de la page **Résumé de la commande client**.
 
 Si le paramètre **Activer l'achèvement de la commande** est désactivé, les utilisateurs doivent déclencher manuellement le calcul des frais. Dans la page **Commande client**, dans le volet Actions, sous l'onglet **Vendre**, dans le groupe **Calculer**, sélectionnez **Frais progressifs**. Le message « Frais progressifs calculés » s'affiche. Vous pouvez alors sélectionner l'option **Frais** sous l'onglet **Vendre** pour afficher, modifier ou supprimer les frais calculés.
 
 ## <a name="use-expedited-delivery-modes-on-call-center-orders"></a>Utiliser les modes de livraison expédiés dans les commandes du centre d'appels
+
 Vous pouvez éventuellement associer un code d'expédition à un mode de livraison que vous configurez. Ce code est utilisé comme outil de tri de l'ordre de priorité et de génération d'états. Il ne génère pas actuellement de frais supplémentaires à appliquer à la commande. Pour paramétrer des codes d'expédition, accédez à **Ventes et marketing \> Paramétrage \> Distribution \> Codes d'expédition**.
 
 Par exemple, pour les commandes à expédier par avion le lendemain, le prélèvement doit être effectué dans l'entrepôt avant 13h chaque jour. Dans ce cas, un code d'expédition peut être créé, et ce code peut être associé à tout mode de livraison le lendemain qui est configuré dans le système. Lorsque l'entrepôt crée sa vague de prélèvement, le code d'expédition approprié dans le champ **Expédition** peut être utilisé comme filtre, afin que le prélèvement soit exécuté uniquement pour les commandes dont les modes de livraison sont associés à ce code.

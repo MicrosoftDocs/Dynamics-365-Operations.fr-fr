@@ -18,10 +18,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: c7fc274bb9d942e85012211b1a7a14873447e5f3
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: 4fac04d1ea028bae9323b7961e64f3e49b74e482
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -31,8 +31,7 @@ ms.lasthandoff: 08/08/2018
 
 Cette rubrique répertorie les guides de tâches nouveaux ou mis à jour ont été publiés dans la bibliothèque unifiée APQC (août 2016 - toutes les langues) de Microsoft pour Microsoft Dynamics AX. Aucune nouvelle Bibliothèque de mise en route n'a été publiée.
 
-<a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Guides de tâches dans la bibliothèque unifiée APQC (août 2016 - toutes les langues) pour Microsoft Dynamics AX
----------------------------------------------------------------------------------------------------
+## <a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Guides de tâches dans la bibliothèque unifiée APQC (août 2016 - toutes les langues) pour Microsoft Dynamics AX
 
 La bibliothèque unifiée APQC (août 2016 - toutes les langues) contient les guides de tâches qui sont destinés à être utilisés pour de l’aide avec la mise à jour 2 de Microsoft Dynamics AX Platform, la mise à jour 2016 de l'application Dynamics AX et la version de février 2016 de Microsoft Dynamics AX. Pour plus d'informations sur ces versions, voir [Nouveautés ou changements](whats-new-changed.md). Les versions localisées aux guides de tâche sont disponibles dans cette bibliothèque. Pour plus d’informations sur la façon de se connecter au système d’aide dans une bibliothèque de guide de tâche, voir [Prise en main de l'aide](help-overview.md).
 
@@ -95,17 +94,11 @@ La bibliothèque unifiée APQC (août 2016 - toutes les langues) contient les gu
 |-----------------------------------------------------------------------------|----------------|
 | Configurer une option de menu d'appareil mobile pour terminer le travail du type commande fournisseur | Général         |
 
-
-
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Nouveaux guides des tâches (février 2016)](new-task-guides-available-february-2016.md)
 
 [Guides de tâches nouveaux ou mis à jour (mai 2016)](new-updated-task-guides-available-may-2016.md)
 
 [Guides de tâches nouveaux ou mis à jour (novembre 2016)](new-task-guides-november-2016.md)
-
-
-
 

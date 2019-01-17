@@ -19,10 +19,10 @@ ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: c718a71ca270c67118a90456bac0cf182032d3db
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: bd3596b6c78c5959ca289c73bcc5785eb770be39
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -32,13 +32,13 @@ ms.lasthandoff: 08/08/2018
 
 ## <a name="overview-of-coupons"></a>Vue d'ensemble des coupons
 
-Les coupons sont des codes et des codes-barres utilisés pour ajouter des remises de vente au détail aux transactions. Chaque coupon peut avoir plusieurs codes, et chaque code peut avoir ses propres dates d'effet. 
+Les coupons sont des codes et des codes-barres utilisés pour ajouter des remises de vente au détail aux transactions. Chaque coupon peut avoir plusieurs codes, et chaque code peut avoir ses propres dates d'effet.
 
-Chaque coupon est associé à une remise de vente au détail. Les groupes de prix associés à la remise définissent les clients qui peuvent utiliser un coupon ou les canaux dans lesquels un coupon est valide. 
+Chaque coupon est associé à une remise de vente au détail. Les groupes de prix associés à la remise définissent les clients qui peuvent utiliser un coupon ou les canaux dans lesquels un coupon est valide.
 
 Les coupons sont essentiellement une validation supplémentaire en plus des remises de vente au détail. Le coupon fournit les codes de coupon et les codes-barres requis, ainsi que les plages de dates pour ces codes. Le coupon fournit également les limites d'utilisation facultatives et les propriétés requises par le client. La remise définit l'ensemble des produits pour lesquels le coupon est valide. Les groupes de prix de la remise définissent l'ensemble des clients, canaux ou catalogues pour lesquels le coupon est valide.
 
-Pour créer un coupon, vous devez créer la remise et le coupon séparément. Vous les liez ensuite en sélectionnant la remise sur la page de coupon dans Microsoft Dynamics 365 for Retail. 
+Pour créer un coupon, vous devez créer la remise et le coupon séparément. Vous les liez ensuite en sélectionnant la remise sur la page de coupon dans Microsoft Dynamics 365 for Retail.
 
 > [!NOTE]
 > Une fois qu'un coupon est lié à une remise, plusieurs champs de la page de remise dans Microsoft Dynamics 365 for Retail passent en lecture seule, car ils sont gérés par les paramètres du coupon. Ces champs comprennent les champs associés au statut et aux plages de date standard.
@@ -54,25 +54,25 @@ La limite est appliquée par code de coupon sur un coupon. Par exemple, un coupo
 
 ## <a name="managing-coupons"></a>Gestion des coupons
 
-Vous devez créer la remise et le coupon séparément. Vous les liez ensuite en sélectionnant la remise sur la page de coupon. Après avoir lié un coupon à une remise, plusieurs champs de la remise passent en lecture seule, car ils sont gérés par les paramètres du coupon. Ces champs comprennent les champs associés au statut et aux plages de date standard.  
+Vous devez créer la remise et le coupon séparément. Vous les liez ensuite en sélectionnant la remise sur la page de coupon. Après avoir lié un coupon à une remise, plusieurs champs de la remise passent en lecture seule, car ils sont gérés par les paramètres du coupon. Ces champs comprennent les champs associés au statut et aux plages de date standard.
 
 Les coupons sont essentiellement une validation supplémentaire en plus des remises de vente au détail. Le coupon fournit les codes de coupon et les codes-barres, ainsi que les plages de dates, les limites d'utilisation et les propriétés requises par le client. La remise définit l'ensemble des produits pour lesquels le coupon est valide. Les groupes de prix de la remise définissent l'ensemble des clients, canaux ou catalogues pour lesquels le coupon est valide.
 
-## <a name="system-setup-for-coupons"></a>Paramétrage du système pour les coupons 
+## <a name="system-setup-for-coupons"></a>Paramétrage du système pour les coupons
 
-Avant de paramétrer un coupon, vous devez paramétrer le code-barres du coupon et deux souches de numéros de coupon. 
+Avant de paramétrer un coupon, vous devez paramétrer le code-barres du coupon et deux souches de numéros de coupon.
 
-1.  Dans la page **Caractères de masque**, créez un caractère de masque pour le code de coupon. Vous pouvez sélectionner n'importe quel caractère inutilisé.
-2.  Dans la page **Paramétrage du masque de code-barres**, créez un masque de code-barres. Définissez le champ **Type** sur **Coupon**.
-3.  Dans la page **Paramétrage des codes-barres**, créez un code-barres qui utilise le masque de code-barres que vous venez de créer.
-4.  Dans la page **Souches de numéros**, créez deux souches de numéros. Une souche est pour l'ID du code de coupon, et l'autre souche est pour le numéro de coupon. L'ID du code de coupon est l'identificateur unique de chaque code de coupon d'un coupon. Le numéro de coupon est l'identificateur unique d'un coupon. Chaque coupon peut avoir plusieurs codes et codes-barres qui déclenchent le coupon.
+1. Dans la page **Caractères de masque**, créez un caractère de masque pour le code de coupon. Vous pouvez sélectionner n'importe quel caractère inutilisé.
+2. Dans la page **Paramétrage du masque de code-barres**, créez un masque de code-barres. Définissez le champ **Type** sur **Coupon**.
+3. Dans la page **Paramétrage des codes-barres**, créez un code-barres qui utilise le masque de code-barres que vous venez de créer.
+4. Dans la page **Souches de numéros**, créez deux souches de numéros. Une souche est pour l'ID du code de coupon, et l'autre souche est pour le numéro de coupon. L'ID du code de coupon est l'identificateur unique de chaque code de coupon d'un coupon. Le numéro de coupon est l'identificateur unique d'un coupon. Chaque coupon peut avoir plusieurs codes et codes-barres qui déclenchent le coupon.
 
     > [!NOTE]
     > Pour les deux souches de numéros, vous devez définir le champ **Portée** sur **Société**. Dans la plupart des cas, vous devez générer automatiquement les deux souches de numéros.
 
-5.  Dans la page **Paramètres Retail**, sous l'onglet **Codes-barres**, sélectionnez le code-barres créé précédemment.
-6.  Dans la page **Paramètres partagés Retail**, sous l'onglet **Souches de numéros**, sélectionnez les souches de numéros que vous avez créées pour le numéro de coupon et l'ID du code de coupon.
-7.  Vous pouvez maintenant ouvrir la page **Coupons** et créer des coupons.
+5. Dans la page **Paramètres Retail**, sous l'onglet **Codes-barres**, sélectionnez le code-barres créé précédemment.
+6. Dans la page **Paramètres partagés Retail**, sous l'onglet **Souches de numéros**, sélectionnez les souches de numéros que vous avez créées pour le numéro de coupon et l'ID du code de coupon.
+7. Vous pouvez maintenant ouvrir la page **Coupons** et créer des coupons.
 
 ## <a name="the-effect-of-partial-updates-on-coupons"></a>Effet des mises à jour partielles des coupons
 

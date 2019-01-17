@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 658d5a1a031f2292dbd445fa7fb345be01c61947
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: 74f85f7a1c390d1f21d0423a794ff16c7250d9fa
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -31,18 +31,19 @@ ms.lasthandoff: 11/06/2017
 
 Cet article fournit des réponses aux questions fréquemment posées sur le client Microsoft Dynamics 365 for Finance and Operations.
 
-<a name="why-arent-symbols-loaded-when-i-use-finance-and-operations"></a>Pourquoi est-ce que les symboles ne sont pas chargés lorsque j'utilise Finance and Operations ?
------------------------------------------------------------------
+## <a name="why-arent-symbols-loaded-when-i-use-finance-and-operations"></a>Pourquoi est-ce que les symboles ne sont pas chargés lorsque j'utilise Finance and Operations ?
 
 Les paramètres de sécurité de votre navigateur peuvent empêcher les symboles d'être chargés correctement. Pour résoudre ce problème, procédez comme suit :
 
--   Si vous rencontrez ce problème dans Internet Explorer, cliquez sur **Outils**, puis sur **Options Internet**.  Dans la boîte de dialogue Options Internet, sous l'onglet **Confidentialité**, cliquez sur **Niveau personnalisé** et vérifiez que l'option **Chargement des polices** est sélectionnée.
--   Sinon, vous devrez peut-être ajouter le site Finance and Operations à la liste des sites de confiance.
+- Si vous rencontrez ce problème dans Internet Explorer, cliquez sur **Outils**, puis sur **Options Internet**. Dans la boîte de dialogue Options Internet, sous l'onglet **Confidentialité**, cliquez sur **Niveau personnalisé** et vérifiez que l'option **Chargement des polices** est sélectionnée.
+- Sinon, vous devrez peut-être ajouter le site Finance and Operations à la liste des sites de confiance.
 
 ## <a name="i-miss-the-ribbon-from-dynamics-ax-2012-can-i-keep-action-pane-tabs-open-all-the-time"></a>Il me manque le ruban de Dynamics AX 2012. Puis-je conserver les onglets du volet Actions ouverts en permanence ?
+
 Nous prévoyons d'implémenter cette fonction bientôt. Les utilisateurs pourront alors choisir de conserver les onglets du volet Actions ouverts en permanence. Sinon, les onglets seront réduits lorsqu'ils ne seront pas utilisés, permettant de conserver davantage d'espace d'écran pour la page.
 
 ## <a name="why-do-i-sometimes-see-different-shortcut-menus-when-i-right-click"></a>Pourquoi vois-je parfois différents menus contextuels lorsque je clique avec le bouton droit ?
+
 Si vous cliquez avec le bouton droit sur un champ modifiable (ou si le texte est sélectionné), le menu contextuel du navigateur s'affiche. Ce menu vous donne accès aux commandes **Couper**, **Copier** et **Coller**. Nous pouvons ne pas inclure ces commandes dans les menus contextuels de Finance and Operations car, pour des raisons de sécurité, les navigateurs ne nous permettent pas d'accéder par programme au presse-papiers du système.
 
 Si vous cliquez avec le bouton droit sur une étiquette de champ ou sur la valeur d'un contrôle en lecture seule, vous verrez le menu contextuel de Finance and Operations.
@@ -50,12 +51,9 @@ Si vous cliquez avec le bouton droit sur une étiquette de champ ou sur la valeu
 Pour faciliter l'accès au clavier, nous envisageons d'implémenter un raccourci clavier qui ouvrira le menu contextuel de Finance and Operations.
 
 ## <a name="where-is-the-view-details-functionality-in-finance-and-operations"></a>Où est la fonctionnalité Afficher les détails dans Finance and Operations ?
+
 L'option **Afficher les détails** est disponible de plusieurs manières :
 
--   Si un contrôle a des fonctionnalités **Afficher les détails**, et si le contrôle a une valeur, cette valeur est affichée comme lien hypertexte. Vous pouvez cliquer sur le lien hypertexte pour ouvrir une page qui contient des informations supplémentaires.
--   **Afficher les détails** est également une option des menus contextuels de Finance and Operations. Pour plus d'informations sur les affichage des menus contextuels de Finance and Operations après avoir cliqué sur le bouton droit, consultez la section précédente.
-
-
-
-
+- Si un contrôle a des fonctionnalités **Afficher les détails**, et si le contrôle a une valeur, cette valeur est affichée comme lien hypertexte. Vous pouvez cliquer sur le lien hypertexte pour ouvrir une page qui contient des informations supplémentaires.
+- **Afficher les détails** est également une option des menus contextuels de Finance and Operations. Pour plus d'informations sur les affichage des menus contextuels de Finance and Operations après avoir cliqué sur le bouton droit, consultez la section précédente.
 

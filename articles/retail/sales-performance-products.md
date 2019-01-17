@@ -31,20 +31,18 @@ ms.lasthandoff: 09/29/2017
 
 [!include [banner](includes/banner.md)]
 
-Vous pouvez étudier la rentabilité pour les 10 premiers produits à l'aide de Microsoft Dynamics 365 for Retail. 
+Vous pouvez étudier la rentabilité pour les 10 premiers produits à l'aide de Microsoft Dynamics 365 for Retail.
 
 Dans le cadre de Dynamics 365 for Retail, les utilisateurs peuvent également étudier la rentabilité des principaux produits (10 à 100) entre différents niveaux de la hiérarchie d'organisation, selon l'un des critères suivants :
 
--   Montant des ventes
--   Quantité
--   Marge bénéficiaire brut
--   Pourcentage de marge
+- Montant des ventes
+- Quantité
+- Marge bénéficiaire brut
+- Pourcentage de marge
 
 Pour cette évaluation, vous pouvez utiliser l'état prêt à l'emploi **Principaux produits**, que vous pouvez ouvrir à partir de l'un des emplacements suivants :
 
--   Espace de travail **Gestion du magasin de vente au détail** &gt; **Vente au détail** &gt; **Canaux** &gt; **Gestion du magasin de vente au détail** &gt; **États** &gt; **État Principaux produits**
--   Espace de travail **Gestion des catégories et des produits** &gt; **Vente au détail** &gt; **Canaux** &gt; **Gestion du magasin de vente au détail** &gt; **États** &gt; **État des principaux produits**
--   Section **Recherches et états** &gt; **Vente au détail** &gt; **Recherches et états** &gt; **États des ventes** &gt; **État Principaux produits**
-
-
+- Espace de travail **Gestion du magasin de vente au détail** &gt; **Vente au détail** &gt; **Canaux** &gt; **Gestion du magasin de vente au détail** &gt; **États** &gt; **État Principaux produits**
+- Espace de travail **Gestion des catégories et des produits** &gt; **Vente au détail** &gt; **Canaux** &gt; **Gestion du magasin de vente au détail** &gt; **États** &gt; **État des principaux produits**
+- Section **Recherches et états** &gt; **Vente au détail** &gt; **Recherches et états** &gt; **États des ventes** &gt; **État Principaux produits**
 

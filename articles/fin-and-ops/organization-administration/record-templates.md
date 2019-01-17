@@ -31,15 +31,12 @@ ms.lasthandoff: 09/29/2017
 
 Cet article présente le concept des modèles d'enregistrement et explique comment ils permettent de créer des enregistrements partageant des informations.
 
-Les modèles d'enregistrement vous aident à créer des enregistrements plus rapidement dans Microsoft Dynamics 365 for Finance and Operations. Vous pouvez créer des modèles d'enregistrement pour seulement certains types d'enregistrements dans Microsoft Dynamics 365 for Finance and Operations. 
+Les modèles d'enregistrement vous aident à créer des enregistrements plus rapidement dans Microsoft Dynamics 365 for Finance and Operations. Vous pouvez créer des modèles d'enregistrement pour seulement certains types d'enregistrements dans Microsoft Dynamics 365 for Finance and Operations.
 
-Imaginez par exemple que vous entrez des informations relatives à la location pour une agence de location de voitures située à San Francisco. Comme la plupart des clients sont susceptibles d'être de la région de San Francisco, il serait judicieux de remplir automatiquement les valeurs des champs **État**, **Pays** et **Ville** dans le formulaire de location. 
+Imaginez par exemple que vous entrez des informations relatives à la location pour une agence de location de voitures située à San Francisco. Comme la plupart des clients sont susceptibles d'être de la région de San Francisco, il serait judicieux de remplir automatiquement les valeurs des champs **État**, **Pays** et **Ville** dans le formulaire de location.
 
-> [!Note]
-> Vous pouvez uniquement appliquer des modèles pour les zones de Finance and Operations auxquelles vous avez accès. Toutefois, tous les titres de modèle sont visibles par vous lorsque vous créez un enregistrement et par tous les autres utilisateurs également, si vous créez des modèles disponibles pour tous les utilisateurs. Prenez cela en considération lorsque vous donnez un nom aux modèles. Par exemple, évitez d'utiliser des noms comportant des mots tels que « commission » si tous les utilisateurs ne sont pas supposés savoir que certains employés de la société sont rémunérés à la commission. 
+> [!NOTE]
+> Vous pouvez uniquement appliquer des modèles pour les zones de Finance and Operations auxquelles vous avez accès. Toutefois, tous les titres de modèle sont visibles par vous lorsque vous créez un enregistrement et par tous les autres utilisateurs également, si vous créez des modèles disponibles pour tous les utilisateurs. Prenez cela en considération lorsque vous donnez un nom aux modèles. Par exemple, évitez d'utiliser des noms comportant des mots tels que « commission » si tous les utilisateurs ne sont pas supposés savoir que certains employés de la société sont rémunérés à la commission.
 
 Lorsqu'un ou plusieurs modèles auxquels vous avez accès existent pour un écran spécifique et que vous tentez de créer un enregistrement dans l'écran, la page **Sélectionner un modèle pour** est affichée. Lorsque vous sélectionnez un modèle dans la liste, le nouvel enregistrement créé contient les informations par défaut basées sur le modèle sélectionné. Si vous ne souhaitez pas utiliser de modèles lorsque vous créez des enregistrements, activez la case à cocher **Ne plus demander** dans l'écran **Sélectionner un modèle pour**. Pour afficher de nouveau la boîte de dialogue de sélection du modèle, cliquez avec le bouton droit sur un enregistrement quelconque, cliquez sur **Infos sur l'enregistrement**, puis sur **Afficher la sélection de modèle**.
-
-
-
 

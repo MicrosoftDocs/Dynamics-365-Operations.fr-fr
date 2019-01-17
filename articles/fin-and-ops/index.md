@@ -51,7 +51,7 @@ La majeure partie de ces contenus s'applique également aux produits associés 
 <p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></p>
 <p><a href="imp-lifecycle/onboard.md">Intégration d'un projet</a></p>
 <p><a href="imp-lifecycle/prepare-go-live.md">Préparation au lancement</a></p>
-  
+
 <h3><a href="../financials/index.md">Gestion financière</a></h3>
 <p><a href="../financials/accounts-payable/accounts-payable.md">Comptabilité fournisseur</a></p>
 <p><a href="../financials/accounts-receivable/accounts-receivable.md">Comptabilité client</a></p>
@@ -65,7 +65,7 @@ La majeure partie de ces contenus s'applique également aux produits associés 
 <p><a href="../financials/public-sector/public-sector-functionality.md">Secteur public</a></p>
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">Fonctions de réglementation régionale</a></p>
 
-<H3><a href="hr/hr-landing-page.md">Ressources humaines</a></h3>
+<h3><a href="hr/hr-landing-page.md">Ressources humaines</a></h3>
 <p><a href="../talent/manage-benefit-program.md">Avantages</a></p>
 <p><a href="../talent/performance-management-overview.md">Perfectionnement et formation des employés</a></p>
 <p><a href="../talent/questionnaires.md">Questionnaire</a></p>

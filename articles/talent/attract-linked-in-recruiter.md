@@ -3,7 +3,7 @@ title: Approvisionnement avec LinkedIn Recruiter
 description: "Cette rubrique fournit des informations sur l'utilisation du Machine Learning pour obtenir des recommandations de poste et de candidat à un poste."
 author: josaw
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 12/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -20,10 +20,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2fc6bf25d303d7d8de8002a923a080b90dcfbeab
-ms.openlocfilehash: 106103e2c3d8f3d89aac5140174e5794da22536f
+ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
+ms.openlocfilehash: 9bb323728923ff3b09ff0bfba3849f3c5d84eb34
 ms.contentlocale: fr-fr
-ms.lasthandoff: 10/24/2018
+ms.lasthandoff: 12/07/2018
 
 ---
 
@@ -83,7 +83,12 @@ Une fois les fonctionnalités de LinkedIn Recruiter activées par l'administrate
 
 Vous pouvez afficher le profil LinkedIn du candidat dans Attract. Le widget LinkedIn affiche le profil du candidat lorsque les informations d'ATS correspondent aux informations de LinkedIn de ses utilisateurs.
 
-Pour afficher un profil, accédez au profil du candidat depuis un poste ou un vivier de talents. Dans le profil du candidat, sélectionnez l'onglet **LinkedIn** et le widget du profil se chargera. À l'aide du widget du profil, indiquez si la correspondance est exacte. Si ne n'est pas le cas, recherchez la bonne personne. Vous pouvez également enregistrer le candidat dans vos projets LinkedIn Recruiter depuis cette page.
+Pour afficher un profil, accédez au profil du candidat depuis un poste ou un vivier de talents. Dans le profil du candidat, sélectionnez l'onglet **LinkedIn** et le widget du profil se chargera. Vous pouvez également enregistrer le candidat dans vos projets LinkedIn Recruiter depuis cette page.
+1. Si LinkedIn a trouvé la correspondance selon l'e-mail et l'ID de membre LinkedIn (correspondance exacte), le profil du candidat sera affiché. L'utilisateur a toujours la possibilité de lier ou d'annuler le lien avec le profil.
+
+2. Si LinkedIn ne trouve pas le candidat selon son e-mail ou son ID de membre, il affiche une liste de correspondances de candidats possibles selon le nom des candidats et l'utilisateur peut sélectionner l'un d'entre eux et lier le profil.  
+
+3. Si LinkedIn ne trouve pas de candidat selon le nom, il affiche qu'aucune correspondance n'a trouvée.
 
 ### <a name="1-click-export"></a>Exportation en 1 clic 
 
@@ -117,11 +122,14 @@ Lors de l'approvisionnement en candidats dans LinkedIn, vous pouvez exporter en 
 
 6.  Sélectionnez l'onglet **Notes** pour afficher les notes qui ont été capturées pour ce candidat dans Attract.
 
+> [!NOTE]
+> Le candidat et les données de candidature ne seront pas synchronisés avec LinkedIn Recruiter si le candidat n'a pas dépassé le stade de prospect.
+
 ### <a name="inmail-history"></a>Historique InMail
 
 L'historique LinkedIn InMail est disponible avec l'accès au niveau du contrat avec LinkedIn Recruiter. Lorsqu'il est activé, vous pouvez afficher l'historique InMail complet avec le candidat. Vous pouvez également voir qui d'autre dans votre organisation a échangé sur InMail avec le candidat, mais vous ne pouvez pas afficher les messages entre eux.
 
-Pour afficher l'historique InMail, accédez au profil d'un candidat, accédez à l'onglet **LinkedIn** et faites défiler vers le bas de page pour afficher l'historique. Vous pouvez afficher l'historique InMail uniquement si le candidat a répondu à votre demande et choisi de partager son profil avec vous dans LinkedIn. Les messages InMail se synchronisent avec Attract toutes les deux heures.
+Pour afficher l'historique InMail, accédez au profil d'un candidat, accédez à l'onglet **LinkedIn** et faites défiler vers le bas de page pour afficher l'historique. Vous pouvez afficher l'historique des InMail si vous avez eu une discussion avec le candidat. Les messages InMail se synchronisent avec Attract toutes les deux heures.
 
 ### <a name="notes-history"></a>Historique Notes 
 
@@ -131,7 +139,7 @@ Pour afficher l'historique Notes, accédez au profil d'un candidat, accédez à 
 
 ### <a name="inmail-stub-profile"></a>Profil de bordereau InMail
 
-Le profil de bordereau InMail est disponible avec l'accès au niveau du contrat avec LinkedIn Recruiter. Si les candidats acceptent de partager leurs profils LinkedIn avec tout utilisateur de votre organisation, vous pouvez suivre les candidats dans Attract et un nouvel enregistrement de candidat sera créé pour chaque candidat.
+Le profil de bordereau InMail est disponible avec l'accès au niveau du contrat avec LinkedIn Recruiter. Si les candidats acceptent de partager leurs profils LinkedIn avec tout utilisateur de votre organisation, vous pouvez suivre les candidats dans Attract et un nouvel enregistrement de candidat sera créé pour chaque candidat. Vous pouvez afficher l'adresse e-mail du candidat si le candidat existe déjà dans le système avec une adresse e-mail ou a choisi de partager son adresse avec le recruteur.
 
 Pour afficher la liste des candidats, accédez à **Viviers de talents** pour afficher un vivier de talents LinkedIn créé par le système. Ce vivier de talents contient les candidats de liste et leurs profils de bordereau reçus de LinkedIn, affichant le prénom et le nom du candidat. L'ID e-mail du candidat sera affiché si le candidat a choisi de partager son adresse e-mail.
 

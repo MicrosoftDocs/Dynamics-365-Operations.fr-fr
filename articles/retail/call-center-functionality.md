@@ -42,25 +42,30 @@ Outre la prise en charge de la création des commandes, le module Centre d'appel
 Cette page fournit des liens vers la documentation appropriée associée au paramétrage, à la configuration et à l'utilisation fonctionnelle des fonctionnalités du centre d'appels dans Dynamics 365 for Retail.
 
 ## <a name="configure-the-call-center"></a>Configurer le centre d'appels
+
 [Paramétrer des options de traitement des commandes](set-up-order-processing-options.md)
 
 ## <a name="configure-order-processing"></a>Configurer le traitement des commandes
+
 [Paramétrer les alertes de fraude](set-up-fraud-alerts.md)
 
 [Blocage manuel des commandes](work-with-order-holds.md)
 
 ## <a name="configure-payment-processing"></a>Configurer le traitement des paiements
+
 [Modes de paiement dans un centre d'appels](work-with-payments.md)
 
 ## <a name="configure-delivery-modes"></a>Configurer les modes de livraison
+
 [Configurer les modes de livraison et les frais du centre d'appels](configure-call-center-delivery.md)
 
 ## <a name="configure-direct-marketing"></a>Configurer le marketing direct
+
 [Catalogues de centre d'appels](call-center-catalogs.md)
 
 [Paramétrer l'analyse RFM](set-up-rfm-analysis.md)
 
 ## <a name="configure-continuity-programs"></a>Configurer les programmes de continuité
-[Paramétrer un programme de continuité pour un centre d'appels](set-up-continuity-program.md)
 
+[Paramétrer un programme de continuité pour un centre d'appels](set-up-continuity-program.md)
 
