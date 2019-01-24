@@ -1,5 +1,5 @@
 --- 
-title: " Configurations de paiements pour les relevés de vente au détail"
+title: "Configurations de paiements pour les relevés de vente au détail"
 description: "Cette procédure illustre les configurations de modes de paiement des magasins de vente au détail qui affectent la manière dont les relevés de vente au détail sont créés et validés."
 author: jashanno
 manager: AnnBe
@@ -18,13 +18,13 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: f12d8ac9be11b92eaef4acce094ae183906278d4
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 0ffd6dc5fff6d27ec3cfdcd68c53b2299c4100b9
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 02/07/2018
 
 ---
-# <a name="payment-configurations-for-retail-statements"></a> Configurations de paiements pour les relevés de vente au détail
+# <a name="payment-configurations-for-retail-statements"></a>Configurations de paiements pour les relevés de vente au détail
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
@@ -44,11 +44,11 @@ La société fictive USRT sert d'exemple dans cet enregistrement.
     * Sélectionnez un compte pour valider les différences possibles entre le montant total de la transaction reçu et le montant compté pour ce mode de paiement.  
     * Ce champ vous permet de spécifier un montant à contrôler lorsque le montant de la différence doit être validé dans un autre compte de différence. Vous pouvez utiliser cette option pour effectuer le suivi des grandes différences.  
     * Sélectionnez un compte pour la validation des différences possibles entre le montant total de la transaction reçu et le montant compté, lorsqu'il dépasse la valeur définie dans le champ « Montant de différence maximale ».  
-    * Sélectionnez « Oui » pour valider les montants de remise en banque dans un compte distinct.  
+    * Sélectionnez « Oui » pour valider les montants de remise en banque dans un compte distinct.  
     * Ce champ vous permet de sélectionner si les montants de remise en banque doivent être validés dans un compte général ou sur un compte bancaire.  
     * Sélectionnez le compte sur lequel valider les montants de remise en banque.  
     * Sélectionnez le type de transaction bancaire à utiliser lors de la validation de montants de remise en banque sur le compte bancaire.  
-    * Sélectionnez « Oui » pour valider les montants de mise en coffre-fort sur un compte distinct.  
+    * Sélectionnez « Oui » pour valider les montants de mise en coffre-fort sur un compte distinct.  
     * Sélectionnez si les montants de mise en coffre-fort doivent être validés sur le compte général ou le compte bancaire.  
     * Sélectionnez le compte sur lequel valider les montants de mise en coffre-fort.  
 8. Cliquez sur Enregistrer.
