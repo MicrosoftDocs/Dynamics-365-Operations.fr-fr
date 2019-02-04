@@ -30,7 +30,6 @@ ms.lasthandoff: 08/08/2018
 
 [!include [banner](includes/banner.md)]
 
-[!include [retail name](includes/retail-name.md)]
 
 Les départements, les tâches et les postes sont des éléments d'organisation qui sont tenus à jour au sein des Ressources humaines. Cette rubrique décrit des informations conceptuelles sur ces éléments. 
 
