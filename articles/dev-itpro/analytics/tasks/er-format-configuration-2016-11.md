@@ -35,8 +35,10 @@ es étapes suivantes expliquent comment un utilisateur dans l'administrateur sys
 2. Cliquez sur **Configurations des états**.
 3. Dans l'arborescence, sélectionnez **Paiements (modèle simplifié)**.
 4. Cliquez sur **Créer la configuration** pour ouvrir la boîte de dialogue.
+
  > [!NOTE]
  > Si vous ne voyez pas **Créer la configuration**, vous devez activer le mode Configuration de la page **Paramètres de gestion des états électroniques**. 
+ 
 5. Dans le champ **Nouveau**, entrez **Format basé sur le PaymentModel du modèle du paiement**.
 6. Dans le champ **Nom**, tapez **LE SYSTÈME BACS (R-U factice)**.
 7. Dans le champ **Description**, entrez **Format de paiement fournisseur du SYSTÈME BACS (R-U factice)**.
@@ -44,6 +46,7 @@ es étapes suivantes expliquent comment un utilisateur dans l'administrateur sys
     * Un format spécifique de document électronique peut être défini. Laissez ce champ vide si vous souhaitez sélectionner un format au moment de l'exécution.  
 8. Dans le champ **Définition du modèle de données**, entrez ou sélectionnez une valeur.
 9. Cliquez sur **Créer une configuration**. Une nouvelle configuration client a été créée. La version temporaire peut servir à enregistrer le format de conception pour gérer des documents électroniques.  
+
  > [!NOTE]
  > Si vous ne voyez pas **Créer la configuration**, vous devez activer le mode Configuration de la page **Paramètres de gestion des états électroniques**.
 
