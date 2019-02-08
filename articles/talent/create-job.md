@@ -30,7 +30,6 @@ ms.lasthandoff: 08/08/2018
 
 [!include [banner](includes/banner.md)]
 
-[!include [retail name](includes/retail-name.md)]
 
 Cette rubrique décrit les éléments conceptuels pouvant être inclus dans une tâche et fournit des exemples d'utilisation de ces éléments dans votre organisation. 
 
