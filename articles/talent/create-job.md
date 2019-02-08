@@ -19,10 +19,10 @@ ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: b40b81fc24086e73b54cfe0cb5e6a81ec5838ab5
+ms.sourcegitcommit: 901ab6e309754338925c34c2cbecb3b83a0b0452
+ms.openlocfilehash: 48787d1eb662322c726698573b27023ae9eed56f
 ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 02/07/2019
 
 ---
 
@@ -30,7 +30,6 @@ ms.lasthandoff: 08/08/2018
 
 [!include [banner](includes/banner.md)]
 
-[!include [retail name](includes/retail-name.md)]
 
 <span data-ttu-id="6ef38-104">Cette rubrique décrit les éléments conceptuels pouvant être inclus dans une tâche et fournit des exemples d'utilisation de ces éléments dans votre organisation.</span><span class="sxs-lookup"><span data-stu-id="6ef38-104">This topic describes the conceptual elements that a job can include and provides examples of how you can use those elements in your organization.</span></span> 
 
@@ -41,7 +40,7 @@ ms.lasthandoff: 08/08/2018
 ## <a name="job-titles"></a><span data-ttu-id="6ef38-115">Titres de tâche</span><span class="sxs-lookup"><span data-stu-id="6ef38-115">Job titles</span></span>
 <span data-ttu-id="6ef38-116">Avant de créer des tâches, vous devez paramétrer des titres pour celles-ci.</span><span class="sxs-lookup"><span data-stu-id="6ef38-116">Before you create jobs, you must set up titles for those jobs.</span></span> <span data-ttu-id="6ef38-117">Les postes héritent des titres des tâches auxquelles ils sont associés.</span><span class="sxs-lookup"><span data-stu-id="6ef38-117">Positions inherit job titles from the jobs that the positions are associated with.</span></span> 
 
-<span data-ttu-id="6ef38-118">Tenez à jour les titres de tâche à l'aide de la page **Titres**, que vous pouvez ouvrir en utilisant la fonction de recherche.</span><span class="sxs-lookup"><span data-stu-id="6ef38-118">Maintain job titles using the **Titles** page, which you can open by using the Search function.</span></span> <span data-ttu-id="6ef38-119">Sur la page **Titres**, entrez les titres que vous prévoyez d'utiliser pour vos tâches.</span><span class="sxs-lookup"><span data-stu-id="6ef38-119">On the **Titles **page, enter the titles that you plan to use for your jobs.</span></span>
+<span data-ttu-id="6ef38-118">Tenez à jour les titres de tâche à l'aide de la page **Titres**, que vous pouvez ouvrir en utilisant la fonction de recherche.</span><span class="sxs-lookup"><span data-stu-id="6ef38-118">Maintain job titles using the **Titles** page, which you can open by using the Search function.</span></span> <span data-ttu-id="6ef38-119">Sur la page **Titres**, entrez les titres que vous prévoyez d'utiliser pour vos tâches.</span><span class="sxs-lookup"><span data-stu-id="6ef38-119">On the \*\*Titles \*\*page, enter the titles that you plan to use for your jobs.</span></span>
 
 ## <a name="job-types"></a><span data-ttu-id="6ef38-120">Types de missions</span><span class="sxs-lookup"><span data-stu-id="6ef38-120">Job types</span></span>
 <span data-ttu-id="6ef38-121">Utilisez les types de tâches pour regrouper les tâches similaires en catégories.</span><span class="sxs-lookup"><span data-stu-id="6ef38-121">You use job types to group similar jobs into categories.</span></span> <span data-ttu-id="6ef38-122">Les types de tâches sont facultatifs.</span><span class="sxs-lookup"><span data-stu-id="6ef38-122">Job types aren't required.</span></span> <span data-ttu-id="6ef38-123">si vous envisagez de les utiliser lors du paramétrage des règles d'admissibilité pour la gestion des rémunérations, vous devez les paramétrer avant de configurer des tâches.</span><span class="sxs-lookup"><span data-stu-id="6ef38-123">However, if you plan to use job types when you set up eligibility rules for compensation management, you should set up job types before you set up jobs.</span></span> <span data-ttu-id="6ef38-124">Certains exemples de types de tâches sont à temps plein et à temps partiel, ou payés à l'heure.</span><span class="sxs-lookup"><span data-stu-id="6ef38-124">Some examples of job types are full-time and part-time, or salary and hourly pay.</span></span> <span data-ttu-id="6ef38-125">Tenez à jour les types de tâches à l'aide de la page **Types de tâches**.</span><span class="sxs-lookup"><span data-stu-id="6ef38-125">You maintain job types by using the **Job types** page.</span></span> <span data-ttu-id="6ef38-126">Sur la page **Types de tâches**, entrez un nom et une brève description du type de tâche.</span><span class="sxs-lookup"><span data-stu-id="6ef38-126">On the **Job types** page, enter a name and a brief description for the job type.</span></span> <span data-ttu-id="6ef38-127">Dans le champ **Statut de l'exemption**, sélectionnez l'une des options suivantes pour indiquer le statut d'exemption FLSA (Fair Labor Standards Act) des tâches de ce type :</span><span class="sxs-lookup"><span data-stu-id="6ef38-127">In the **Exempt status** field, select one of the following options to indicate the Fair Labor Standards Act (FLSA) exempt status of jobs that have this job type:</span></span>
