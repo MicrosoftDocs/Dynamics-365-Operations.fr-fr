@@ -1,13 +1,13 @@
 ---
-title: "Page d'accueil de la fonctionnalité Secteur public"
-description: "Microsoft Dynamics 365 for Finance and Operations active les processus communs aux secteurs public et privé, comme les tâches de budgétisation, d'achats, de comptabilité fournisseur et de comptabilité client."
+title: Page d'accueil de la fonctionnalité Secteur public
+description: Microsoft Dynamics 365 for Finance and Operations active les processus entreprise communs aux secteurs public et privé, comme les tâches de budgétisation, d'achat, de comptabilité fournisseur et de comptabilité client.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysConfiguration
 audience: Application User
 ms.reviewer: shylaw
@@ -19,60 +19,58 @@ ms.search.industry: Public sector
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
 ms.openlocfilehash: 1b77e9289bd360631ea646951809705d58c9e189
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302269"
 ---
-
-# <a name="public-sector-home-page"></a><span data-ttu-id="df82a-103">Page d'accueil de la fonctionnalité Secteur public</span><span class="sxs-lookup"><span data-stu-id="df82a-103">Public sector home page</span></span>
+# <a name="public-sector-home-page"></a><span data-ttu-id="5bf21-103">Page d'accueil de la fonctionnalité Secteur public</span><span class="sxs-lookup"><span data-stu-id="5bf21-103">Public sector home page</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="df82a-104">Finance and Operations active les processus d'entreprise communs aux secteurs public et privé, comme les tâches de budgétisation, de comptabilité fournisseur et de comptabilité client.</span><span class="sxs-lookup"><span data-stu-id="df82a-104">Finance and Operations enable business processes that are common to both the public and private sectors, such as budgeting, purchasing, accounts payable, and accounts receivable tasks.</span></span> 
+<span data-ttu-id="5bf21-104">Finance and Operations active les processus entreprise communs aux secteurs public et privé, comme les tâches de budgétisation, d'achat, de comptabilité fournisseur et de comptabilité client.</span><span class="sxs-lookup"><span data-stu-id="5bf21-104">Finance and Operations enable business processes that are common to both the public and private sectors, such as budgeting, purchasing, accounts payable, and accounts receivable tasks.</span></span> 
 
-<span data-ttu-id="df82a-105">La fonctionnalité Secteur public permet de se conformer aux règles, aux réglementations et aux conditions de génération d'états pour les organisations du domaine public :</span><span class="sxs-lookup"><span data-stu-id="df82a-105">Use the Public sector functionality to meet the rules, regulations, and reporting requirements for organizations that serve the public.</span></span> <span data-ttu-id="df82a-106">Les processus entreprise affectés sont :</span><span class="sxs-lookup"><span data-stu-id="df82a-106">The business processes affected include:</span></span> 
+<span data-ttu-id="5bf21-105">La fonctionnalité Secteur public permet de se conformer aux règles, aux réglementations et aux conditions de génération d'états pour les organisations du domaine public.</span><span class="sxs-lookup"><span data-stu-id="5bf21-105">Use the Public sector functionality to meet the rules, regulations, and reporting requirements for organizations that serve the public.</span></span> <span data-ttu-id="5bf21-106">Les processus entreprise affectés sont :</span><span class="sxs-lookup"><span data-stu-id="5bf21-106">The business processes affected include:</span></span> 
 
-- <span data-ttu-id="df82a-107">Comptabilité de fonds, hiérarchies financières dérivées et définitions de validation pour les modules Ventes et Comptabilité.</span><span class="sxs-lookup"><span data-stu-id="df82a-107">Fund accounting, derived financial hierarchies, and posting definitions for accounts receivable and the general ledger.</span></span>
-- <span data-ttu-id="df82a-108">Budgets préliminaires, répartitions et engagements.</span><span class="sxs-lookup"><span data-stu-id="df82a-108">Preliminary budgets, apportionments, and commitments.</span></span>
-- <span data-ttu-id="df82a-109">Codes facturation, classifications de facturation, codes partenaire commerciale et champs personnalisés pour les factures financières.</span><span class="sxs-lookup"><span data-stu-id="df82a-109">Billing codes, billing classifications, trading partner codes, and custom fields for free text invoices.</span></span>
-- <span data-ttu-id="df82a-110">Processus de fin d'exercice comptable comprenant les engagements sur les commandes fournisseur.</span><span class="sxs-lookup"><span data-stu-id="df82a-110">General ledger year-end processing, which includes encumbrances and commitments on purchase orders.</span></span>
-- <span data-ttu-id="df82a-111">Paiements électroniques aux fournisseurs, pages de signature pour les états de paiement et mise en attente du paiement des factures.</span><span class="sxs-lookup"><span data-stu-id="df82a-111">Electronic payments to vendors, signature pages for payment reports, and invoice payment holds.</span></span>
+- <span data-ttu-id="5bf21-107">Comptabilité de fonds, hiérarchies financières dérivées et définitions de validation pour les modules Comptabilité client et Comptabilité.</span><span class="sxs-lookup"><span data-stu-id="5bf21-107">Fund accounting, derived financial hierarchies, and posting definitions for accounts receivable and the general ledger.</span></span>
+- <span data-ttu-id="5bf21-108">Budgets préliminaires, répartitions et engagements.</span><span class="sxs-lookup"><span data-stu-id="5bf21-108">Preliminary budgets, apportionments, and commitments.</span></span>
+- <span data-ttu-id="5bf21-109">Codes facturation, classifications de facturation, codes partenaire commerciale et champs personnalisés pour les factures financières.</span><span class="sxs-lookup"><span data-stu-id="5bf21-109">Billing codes, billing classifications, trading partner codes, and custom fields for free text invoices.</span></span>
+- <span data-ttu-id="5bf21-110">Processus de fin d'exercice comptable comprenant les engagements sur les commandes fournisseur.</span><span class="sxs-lookup"><span data-stu-id="5bf21-110">General ledger year-end processing, which includes encumbrances and commitments on purchase orders.</span></span>
+- <span data-ttu-id="5bf21-111">Paiements électroniques aux fournisseurs, pages de signature pour les états de paiement et mise en attente du paiement des factures.</span><span class="sxs-lookup"><span data-stu-id="5bf21-111">Electronic payments to vendors, signature pages for payment reports, and invoice payment holds.</span></span>
 
-  <span data-ttu-id="df82a-112">Pour plus d'informations, voir les rubriques suivantes :</span><span class="sxs-lookup"><span data-stu-id="df82a-112">For more information, see the following topics:</span></span>
+  <span data-ttu-id="5bf21-112">Pour plus d'informations, voir les rubriques suivantes :</span><span class="sxs-lookup"><span data-stu-id="5bf21-112">For more information, see the following topics:</span></span>
 
-- [<span data-ttu-id="df82a-113">Planification pour la fonctionnalité Secteur public</span><span class="sxs-lookup"><span data-stu-id="df82a-113">Planning for Public sector functionality</span></span>](plan-public-sector-functionality.md)
-- [<span data-ttu-id="df82a-114">Comptabilité fournisseur dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="df82a-114">Accounts payable in the Public sector</span></span>](accounts-payable-public-sector.md)
-- [<span data-ttu-id="df82a-115">Comptabilité client dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="df82a-115">Accounts receivable in the Public sector</span></span>](accounts-receivable-public-sector.md)
-- [<span data-ttu-id="df82a-116">Budgétisation dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="df82a-116">Budgeting in the Public sector</span></span>](budgeting-public-sector.md)
-- [<span data-ttu-id="df82a-117">Immobilisations dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="df82a-117">Fixed assets in the Public sector</span></span>](fixed-asset-public-sector.md)
-- [<span data-ttu-id="df82a-118">Fonctions de réglementation française</span><span class="sxs-lookup"><span data-stu-id="df82a-118">French regulatory features</span></span>](../localizations/emea-fra-public-sector-accounting.md)
-- [<span data-ttu-id="df82a-119">Comptabilité dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="df82a-119">General ledger in the Public sector</span></span>](general-ledger-public-sector.md)
-- [<span data-ttu-id="df82a-120">Approvisionnements dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="df82a-120">Procurement and sourcing in the Public sector</span></span>](procurement-sourcing-public-sector.md)
-- [<span data-ttu-id="df82a-121">Rôles de sécurité dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="df82a-121">Security roles in the Public sector</span></span>](security-roles-public-sector.md)
+- [<span data-ttu-id="5bf21-113">Planification de la fonctionnalité Secteur public</span><span class="sxs-lookup"><span data-stu-id="5bf21-113">Planning for Public sector functionality</span></span>](plan-public-sector-functionality.md)
+- [<span data-ttu-id="5bf21-114">Comptabilité fournisseur (Secteur public)</span><span class="sxs-lookup"><span data-stu-id="5bf21-114">Accounts payable in the Public sector</span></span>](accounts-payable-public-sector.md)
+- [<span data-ttu-id="5bf21-115">Comptabilité client (Secteur public)</span><span class="sxs-lookup"><span data-stu-id="5bf21-115">Accounts receivable in the Public sector</span></span>](accounts-receivable-public-sector.md)
+- [<span data-ttu-id="5bf21-116">Budgétisation (Secteur public)</span><span class="sxs-lookup"><span data-stu-id="5bf21-116">Budgeting in the Public sector</span></span>](budgeting-public-sector.md)
+- [<span data-ttu-id="5bf21-117">Immobilisations (Secteur public)</span><span class="sxs-lookup"><span data-stu-id="5bf21-117">Fixed assets in the Public sector</span></span>](fixed-asset-public-sector.md)
+- [<span data-ttu-id="5bf21-118">Fonctions de réglementation française</span><span class="sxs-lookup"><span data-stu-id="5bf21-118">French regulatory features</span></span>](../localizations/emea-fra-public-sector-accounting.md)
+- [<span data-ttu-id="5bf21-119">Comptabilité (Secteur public)</span><span class="sxs-lookup"><span data-stu-id="5bf21-119">General ledger in the Public sector</span></span>](general-ledger-public-sector.md)
+- [<span data-ttu-id="5bf21-120">Approvisionnements (Secteur public)</span><span class="sxs-lookup"><span data-stu-id="5bf21-120">Procurement and sourcing in the Public sector</span></span>](procurement-sourcing-public-sector.md)
+- [<span data-ttu-id="5bf21-121">Rôles de sécurité (Secteur public)</span><span class="sxs-lookup"><span data-stu-id="5bf21-121">Security roles in the Public sector</span></span>](security-roles-public-sector.md)
 
-<span data-ttu-id="df82a-122">\* Applicable uniquement si votre organisation est en France.</span><span class="sxs-lookup"><span data-stu-id="df82a-122">\* Applicable only if your organization is in France.</span></span>
+<span data-ttu-id="5bf21-122">\* Applicable uniquement si votre organisation est en France.</span><span class="sxs-lookup"><span data-stu-id="5bf21-122">\* Applicable only if your organization is in France.</span></span>
 
-## <a name="why-do-i-need-the-public-sector-configuration-key"></a><span data-ttu-id="df82a-123">Pourquoi ai-je besoin de la clé de configuration du secteur public ?</span><span class="sxs-lookup"><span data-stu-id="df82a-123">Why do I need the Public sector configuration key?</span></span>
-<span data-ttu-id="df82a-124">La clé de configuration du **Secteur public** active les pages et les contrôles qui complètent les applications de base .</span><span class="sxs-lookup"><span data-stu-id="df82a-124">The **Public sector** configuration key enables pages and controls that supplement the core apps .</span></span> <span data-ttu-id="df82a-125">Vous pouvez également activer ou désactiver cette clé sur la page **Configuration des licences**.</span><span class="sxs-lookup"><span data-stu-id="df82a-125">You can enable or disable this key on the **License configuration** page.</span></span>
+## <a name="why-do-i-need-the-public-sector-configuration-key"></a><span data-ttu-id="5bf21-123">Pourquoi ai-je besoin de la clé de configuration du secteur public ?</span><span class="sxs-lookup"><span data-stu-id="5bf21-123">Why do I need the Public sector configuration key?</span></span>
+<span data-ttu-id="5bf21-124">La clé de configuration du **Secteur public** active les pages et les contrôles qui complètent les applications de base.</span><span class="sxs-lookup"><span data-stu-id="5bf21-124">The **Public sector** configuration key enables pages and controls that supplement the core apps .</span></span> <span data-ttu-id="5bf21-125">Vous pouvez également activer ou désactiver cette clé sur la page **Configuration des licences**.</span><span class="sxs-lookup"><span data-stu-id="5bf21-125">You can enable or disable this key on the **License configuration** page.</span></span>
 
-## <a name="how-does-the-public-sector-configuration-key-relate-to-other-configuration-keys"></a><span data-ttu-id="df82a-126">Comment la clé de configuration du Secteur public est-elle liée à d'autres clés de configuration ?</span><span class="sxs-lookup"><span data-stu-id="df82a-126">How does the Public sector configuration key relate to other configuration keys?</span></span>
-<span data-ttu-id="df82a-127">Le tableau suivant fournit des informations sur le lien entre cette clé de configuration et les autres clés de configuration.</span><span class="sxs-lookup"><span data-stu-id="df82a-127">The following table provides information about how this configuration key relates to other configuration keys.</span></span>
+## <a name="how-does-the-public-sector-configuration-key-relate-to-other-configuration-keys"></a><span data-ttu-id="5bf21-126">Comment la clé de configuration du Secteur public est-elle liée à d'autres clés de configuration ?</span><span class="sxs-lookup"><span data-stu-id="5bf21-126">How does the Public sector configuration key relate to other configuration keys?</span></span>
+<span data-ttu-id="5bf21-127">Le tableau suivant fournit des informations sur le lien entre cette clé de configuration et les autres clés de configuration.</span><span class="sxs-lookup"><span data-stu-id="5bf21-127">The following table provides information about how this configuration key relates to other configuration keys.</span></span>
 
 |            |                                                                                                                                                                                                                     |
 |------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="df82a-128">**Détails**</span><span class="sxs-lookup"><span data-stu-id="df82a-128">**Detail**</span></span> | <span data-ttu-id="df82a-129">**Description**</span><span class="sxs-lookup"><span data-stu-id="df82a-129">**Description**</span></span>                                                                                                                                                                                                     |
-| <span data-ttu-id="df82a-130">Clé parente</span><span class="sxs-lookup"><span data-stu-id="df82a-130">Parent key</span></span> | <span data-ttu-id="df82a-131">Aucun</span><span class="sxs-lookup"><span data-stu-id="df82a-131">None</span></span>                                                                                                                                                                                                                |
-| <span data-ttu-id="df82a-132">Clés enfants</span><span class="sxs-lookup"><span data-stu-id="df82a-132">Child keys</span></span> | <span data-ttu-id="df82a-133">**Clé de configuration Écriture comptable avancée** (AdvancedLedgerEntry) **Clé de configuration Secteur public 1099G** (Tax1099G) **Clé de configuration Secteur public 1099S** (Tax1099S) **Clé de configuration Réglementation française**</span><span class="sxs-lookup"><span data-stu-id="df82a-133">**Advanced ledger entry** configuration key (AdvancedLedgerEntry) **Public sector 1099G** configuration key (Tax1099G) **Public sector 1099S** configuration key (Tax1099S) **French regulatory** configuration key</span></span> |
+| <span data-ttu-id="5bf21-128">**Détail**</span><span class="sxs-lookup"><span data-stu-id="5bf21-128">**Detail**</span></span> | <span data-ttu-id="5bf21-129">**Description**</span><span class="sxs-lookup"><span data-stu-id="5bf21-129">**Description**</span></span>                                                                                                                                                                                                     |
+| <span data-ttu-id="5bf21-130">Clé parente</span><span class="sxs-lookup"><span data-stu-id="5bf21-130">Parent key</span></span> | <span data-ttu-id="5bf21-131">Aucune</span><span class="sxs-lookup"><span data-stu-id="5bf21-131">None</span></span>                                                                                                                                                                                                                |
+| <span data-ttu-id="5bf21-132">Clés enfants</span><span class="sxs-lookup"><span data-stu-id="5bf21-132">Child keys</span></span> | <span data-ttu-id="5bf21-133">**Clé de configuration Écriture comptable avancée** (AdvancedLedgerEntry) **Clé de configuration Secteur public 1099G** (Tax1099G) **Clé de configuration Secteur public 1099S** (Tax1099S) **Clé de configuration Réglementation française**</span><span class="sxs-lookup"><span data-stu-id="5bf21-133">**Advanced ledger entry** configuration key (AdvancedLedgerEntry) **Public sector 1099G** configuration key (Tax1099G) **Public sector 1099S** configuration key (Tax1099S) **French regulatory** configuration key</span></span> |
 
 
-<a name="additional-resources"></a><span data-ttu-id="df82a-134">Ressources supplémentaires</span><span class="sxs-lookup"><span data-stu-id="df82a-134">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="5bf21-134">Ressources supplémentaires</span><span class="sxs-lookup"><span data-stu-id="5bf21-134">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="df82a-135">Planification pour la fonctionnalité Secteur public</span><span class="sxs-lookup"><span data-stu-id="df82a-135">Planning for public sector functionality</span></span>](plan-public-sector-functionality.md)
-
+[<span data-ttu-id="5bf21-135">Planification de la fonctionnalité Secteur public</span><span class="sxs-lookup"><span data-stu-id="5bf21-135">Planning for public sector functionality</span></span>](plan-public-sector-functionality.md)
 
 
 
