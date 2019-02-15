@@ -1,13 +1,13 @@
 ---
-title: "Bienvenue dans Dynamics 365 for Talent"
-description: "Le module Talent simplifie de nombreuses tâches d'archivage de routine et automatise un certain nombre de processus liés à la dotation en personnel de votre organisation. Ces processus incluent la rétention des employés, l'administration des avantages, la formation, les évaluations des performances et la gestion des modifications."
+title: Bienvenue dans Dynamics 365 for Talent
+description: Le module Talent simplifie de nombreuses tâches d'archivage de routine et automatise un certain nombre de processus liés à la dotation en personnel de votre organisation. Ces processus incluent la rétention des employés, l'administration des avantages, la formation, les évaluations des performances et la gestion des modifications.
 author: josaw
 manager: AnnBe
 ms.date: 06/04/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations, Talent
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: e31cd1e0acc8f3ab450ec4acda62b88b189f036d
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302257"
 ---
-
-# <a name="welcome-to-dynamics-365-for-talent"></a>Bienvenue dans Dynamics 365 for Talent
+# <a name="welcome-to-dynamics-365-for-talent"></a>Bienvenue dans Dynamics 365 for Talent
 
 [!include [banner](includes/banner.md)]
 
-Le module Microsoft Dynamics 365 for Talent simplifie de nombreuses tâches d'archivage de routine et automatise un certain nombre de processus liés à la dotation en personnel de votre organisation. Ces processus incluent la rétention des employés, l'administration des avantages, la formation, les évaluations des performances et la gestion des modifications. Il fournit également un cadre permettant au personnel des ressources humaines d'assurer une supervision appropriée.
+Microsoft Dynamics 365 for Talent simplifie de nombreuses tâches d'archivage de routine et automatise un certain nombre de processus liés à la dotation en personnel de votre organisation. Ces processus incluent la rétention des employés, l'administration des avantages, la formation, les évaluations des performances et la gestion des modifications. Il fournit également un cadre permettant au personnel des ressources humaines d'assurer une supervision appropriée.
 
 Le module Talent vous permet d'effectuer les tâches suivantes :
 
@@ -42,11 +41,11 @@ Le module Talent vous permet d'effectuer les tâches suivantes :
 + Évaluer les performances et implémenter les objectifs des collaborateurs.
 + Paramétrer, fournir et analyser des formations, notamment sur les emplois du temps, les sessions et les suivis.
 
-Explorer Dynamics 365 for Talent en consultant la vidéo [Comment démarrer avec Dynamics 365 for Talent.](https://www.youtube.com/watch?v=6rg2ByadbN0)
+Explorez Dynamics 365 for Talent en consultant la vidéo [Comment démarrer avec Dynamics 365 for Talent.](https://www.youtube.com/watch?v=6rg2ByadbN0)
 
 
 > [!NOTE] 
-> Dynamics 365 for Talent est étroitement lié au module Ressources humaines dans Dynamics 365 for Finance and Operations. Les mêmes fonctionnalités peuvent apparaître dans les deux produits. Par conséquent, dans les rubriques qui sont principalement dédiées aux Ressources humaines, le nom du produit sera Dynamics 365 for Finance and Operations ; dans les rubriques qui sont principalement dédiées à Talent, le nom du produit sera Dynamics 365 for Talent. Les rubriques qui sont écrites pour un produit peuvent s'appliquer à la même fonctionnalité d'un produit associé.
+> Dynamics 365 for Talent est étroitement lié au module Ressources humaines dans Dynamics 365 for Finance and Operations. Les mêmes fonctionnalités peuvent apparaître dans les deux produits. Par conséquent, dans les rubriques qui sont principalement dédiées aux Ressources humaines, le nom du produit sera Dynamics 365 for Finance and Operations ; dans les rubriques qui sont principalement dédiées à Talent, le nom du produit sera Dynamics 365 for Talent. Les rubriques qui sont écrites pour un produit peuvent s'appliquer à la même fonctionnalité d'un produit associé.
 
 <a name="develop-a-strategy-for-managing-your-human-resources"></a>Développer une stratégie de gestion de vos ressources humaines
 ---------------------------------------------------------
@@ -58,12 +57,12 @@ Lorsque vous travaillez avec le module Talent, vous décidez comment structurer 
 -   [Configuration des paramètres RH dans les entités juridiques](set-up-hr-parameters-across-legal-entities.md) 
 -   [FAQ sur les actions du personnel](personnel-actions-faq.md)
 -   [Vue d'ensemble des congés et des absences](leave-absence-overview.md)
--   [Comment utiliser Dynamics 365 for Talent : Congé et absence (vidéo)](https://www.youtube.com/watch?v=1q1UhKmO4tw)
+-   [Procédure d'utilisation de Dynamics 365 for Talent : Congé et absence (vidéo)](https://www.youtube.com/watch?v=1q1UhKmO4tw)
 -   [Procédure de gestion du personnel dans Dynamics 365 for Talent (vidéo)](https://www.youtube.com/watch?v=h1T5IjKKAuA)
 
 ## <a name="staffing-your-organization"></a>Dotation en personnel de votre organisation
 
-Dynamics 365 for Talent comprend l'application Attract, qui peut vous aider à identifier, interviewer et embaucher les candidats dotés des compétences requises. Lorsque vous passez du recrutement à l'embauche, l'application Onboard peut vous aider à intégrer vos nouveaux employés dans votre organisation en définissant des attentes précises, en leur fournissant les informations dont ils ont besoin pour démarrer, en les mettant en relation avec les collègues et en leur donnant les moyens de s'acquitter de leur nouveau rôle avec succès.  
+Dynamics 365 for Talent comprend l'application Attract, qui peut vous aider à identifier, interviewer et embaucher les candidats dotés des compétences requises. Lorsque vous passez du recrutement à l'embauche, l'application Onboard peut vous aider à intégrer vos nouveaux employés dans votre organisation en définissant des attentes précises, en leur fournissant les informations dont ils ont besoin pour démarrer, en les mettant en relation avec les collègues et en leur donnant les moyens de s'acquitter de leur nouveau rôle avec succès.  
 
 - [Vue d'ensemble de l'application Attract](attract-overview.md)
 - [Vue d'ensemble de l'application Onboard](create-onboarding-experience.md)
@@ -76,7 +75,7 @@ Vous pouvez définir des plans pour gérer efficacement et équitablement la ré
 -   [Traiter la rémunération](process-compensation.md)
 -   [Créer des régimes de rémunération fixe](create-fixed-compensation-plans.md)
 -   [Créer des régimes de rémunération variable](create-variable-compensation-plans.md)
--   [Procédure de gestion de la compensation dans Dynamics 365 for Talent (vidéo)](https://www.youtube.com/watch?v=lEw5oKopHDk)
+-   [Procédure de gestion de la rémunération dans Dynamics 365 for Talent (vidéo)](https://www.youtube.com/watch?v=lEw5oKopHDk)
 
 ## <a name="develop-and-train-employees"></a>Faire évoluer et former les employés
 
@@ -111,4 +110,3 @@ Vous pouvez concevoir et administrer des questionnaires afin de recueillir des i
 -   [Conception d'un questionnaire](design-questionnaires.md)
 -   [Distribuer et remplir un questionnaire](distribute-questionnaires.md)
 -   [Afficher et évaluer les résultats d'un questionnaire](evaluate-questionnaire-results.md)
-

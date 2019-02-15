@@ -1,29 +1,29 @@
 ---
-title: "Gestion des commandes distribuées (DOM)"
-description: "Cette rubrique décrit la fonctionnalité de gestion des commandes distribuées (DOM) dans Microsoft Dynamics 365 for Retail."
+title: Gestion des commandes distribuées (DOM)
+description: Cette rubrique décrit la fonctionnalité de gestion des commandes distribuées (DOM) dans Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 11/15/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
+ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
-ms.dyn365.ops.version: 
-ms.translationtype: HT
-ms.sourcegitcommit: 3331b984693c58c6ee8c49b98ed7d3a8df5b79ff
+ms.dyn365.ops.version: ''
 ms.openlocfilehash: 8f1b07243ec2d42e47073d8d90f00ea563020d82
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302281"
 ---
 # <a name="distributed-order-management-dom"></a>Gestion des commandes distribuées (DOM)
 
@@ -64,7 +64,7 @@ L'illustration suivante présente le cycle de vie d'une commande client dans un 
         1. Dans Microsoft Dynamics Lifecycle Services, ouvrez la bibliothèque d'actifs partagés, sélectionnez **Modèle** comme type d'actif, puis chargez le fichier **Licence DOM**.
         2. Démarrez le gestionnaire Microsoft Internet Information Services (IIS), cliquez avec le bouton droit sur **Site Web AOSService**, puis sélectionnez **Exploration**. Une fenêtre de l'Explorateur Windows s'ouvre dans **\<Racine du service AOS\>\\webroot**. Notez le chemin \<Racine du service AOS\>, car vous allez l'utiliser dans l'étape suivante.
         3. Copiez le fichier de configuration dans le répertoire **\<Racine de service AOS\>\\PackagesLocalDirectory\\DOM\\Corbeille**.
-        4. Accédez au client Retail Siège et ouvrez la page **Paramètres DOM**. Dans l'onglet **Solveur**, dans le champ **Type de solveur**, sélectionnez **Solveur de production**, et vérifiez qu'il n'y a pas de message d'erreur.
+        4. Accédez au client Retail Headquarters et ouvrez la page **Paramètres DOM**. Dans l'onglet **Solveur**, dans le champ **Type de solveur**, sélectionnez **Solveur de production**, et vérifiez qu'il n'y a pas de message d'erreur.
 
         > [!NOTE]
         > Le solveur simplifié est fourni pour que les détaillants puissent essayer la fonctionnalité DOM sans avoir à déployer une licence spéciale. Les organisations ne doivent pas utiliser le solveur simplifié dans les environnements de production.
@@ -229,4 +229,3 @@ Voici quelques éléments à prendre en considération lorsque vous utilisez la 
 - Actuellement, DOM vérifie uniquement les commandes créées à partir des canaux de vente au détail. Les commandes client sont identifiées en tant que commandes client de vente au détail lorsque l'option **Vente au détail** est définie sur **Oui**.
 - Microsoft n'a pas testé DOM avec des fonctionnalités de gestion des entrepôts avancées. Les clients et les partenaires doivent déterminer avec précaution si DOM est compatible avec les capacités et les processus de gestion des entrepôts avancés qui leur sont appropriés.
 - DOM est disponible uniquement dans la version Cloud de Retail. Il n'est pas pris en charge dans les déploiements locaux.
-

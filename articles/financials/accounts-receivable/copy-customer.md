@@ -1,13 +1,13 @@
 ---
-title: "Copier des clients à l'aide de souches de numéros partagées"
-description: "Cette rubrique explique comment utiliser des souches de numéros partagées pour copier un client dans une autre entité juridique tout en conservant le même ID client."
+title: Copier des clients à l'aide de souches de numéros partagées
+description: Cette rubrique explique comment utiliser des souches de numéros partagées pour copier un client dans une autre entité juridique tout en conservant le même ID client.
 author: mikefalkner
 manager: aolson
 ms.date: 08/31/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustTable
 audience: Application User
 ms.reviewer: shylaw
@@ -15,15 +15,14 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-10-31
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: c093c9af7184d93b1200a8bcab16573f2bb4be09
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 7a1e6c6e3a995ad745522d58960e850d72c2ee57
-ms.contentlocale: fr-fr
-ms.lasthandoff: 01/03/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302251"
 ---
-
 # <a name="copy-customers-by-using-shared-number-sequences"></a>Copier des clients à l'aide de souches de numéros partagées
 
 [!include [banner](../includes/banner.md)]
@@ -40,7 +39,7 @@ Vous pouvez également copier des clients entre entités juridiques si vous util
 
 ## <a name="copy-a-customer"></a>Copier un client
 
-Pour copier un client, sélectionnez **Nouveau** dans la page de liste **Tous les clients** pour ouvrir la boîte de dialogue **Créer un client**. Notez que le nouvel ID client n'est pas affecté immédiatement. Ce comportement est différent du comportement dans les versions précédentes de Microsoft Dynamics 365 for Finance and Operations. Comme vous n'avez pas encore sélectionné le groupe de clients, le système ne peut pas déterminer la souche de numéros appropriée à utiliser. En outre, il ne peut pas déterminer si vous essayez de créer un client ou de copier un client. Par conséquent, l'ID client n'est pas affecté tant que vous ne cliquez pas sur **Enregistrer** en bas de la boîte de dialogue.
+Pour copier un client, sélectionnez **Nouveau** dans la page de liste **Tous les clients** pour ouvrir la boîte de dialogue **Créer un client**. Notez que le nouvel ID client n'est pas affecté immédiatement. Ce comportement est différent du comportement dans les versions précédentes de Microsoft Dynamics 365 for Finance and Operations. Comme vous n'avez pas encore sélectionné le groupe de clients, le système ne peut pas déterminer la souche de numéros appropriée à utiliser. En outre, il ne peut pas déterminer si vous essayez de créer un client ou de copier un client. Par conséquent, l'ID client n'est pas affecté tant que vous ne cliquez pas sur **Enregistrer** en bas de la boîte de dialogue.
 
 Si vous créez un nouveau client, vous pouvez continuer à renseigner tous les champs comme vous le faites habituellement. Lorsque vous avez terminé et que vous cliquez sur **Enregistrer**, vous verrez que l'ID client a été affecté automatiquement. Sinon, pour les souches de numéros manuelles, vous verrez que votre ID client manuel a été utilisé.
 
@@ -66,4 +65,3 @@ Vous pouvez également copier des clients à l'aide de la fonction de recherche 
 
 1. L'option **Copier un client** s'affiche. Par défaut, cette option est définie sur **Non**. Pour copier le client dans l'entité juridique actuelle, définissez l'option sur **Oui**. 
 2. Cliquez sur **Sélectionner**. Le nouveau client est créé.
-

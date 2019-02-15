@@ -1,13 +1,13 @@
 ---
-title: "Page d'accueil de la comptabilité client"
-description: "Le module Comptabilité client permet d'assurer le suivi des paiements entrants et des factures client."
+title: Page d'accueil de la comptabilité client
+description: Le module Comptabilité client permet d'assurer le suivi des paiements entrants et des factures client.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/18/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustomerInvoiceWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
 ms.openlocfilehash: 303d67c0b662e6c21cebb5aa10ed28555459522e
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302289"
 ---
-
 # <a name="accounts-receivable-home-page"></a>Page d'accueil de la comptabilité client
 
 [!include [banner](../includes/banner.md)]
@@ -97,23 +96,22 @@ Acceptez différents types de paiement de la part des clients, tels que des lett
 
 #### <a name="whats-new-and-in-development"></a>Nouveautés et développements
 
-Accédez au [Calendrier de lancement de Microsoft Dynamics 365](https://roadmap.dynamics.com/) pour découvrir les nouvelles fonctions qui ont été lancées ou qui sont en développement. 
+Accédez au [Calendrier de lancement de Microsoft Dynamics 365](https://roadmap.dynamics.com/) pour découvrir les nouvelles fonctions qui ont été lancées ou qui sont en développement. 
 
 #### <a name="blogs"></a>Blogs
 
-Vous trouverez des avis, des actualités et d'autres informations concernant la Comptabilité client et d'autres solutions sur le [Blog de Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
+Vous trouverez des avis, des actualités et d'autres informations concernant la Comptabilité client et d'autres solutions sur le [blog de Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
 
-De nombreuses publications concernent la Comptabilité client dans le [blog de l'équipe de produit Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/). Bien que certaines de ces publications aient été rédigées pour la version précédente du module Comptabilité client, les mêmes concepts s'appliquent toujours et les procédures sont également similaires dans la version actuelle.
+De nombreuses publications concernent la Comptabilité client dans le [blog de l'équipe de produit Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/). Bien que certaines de ces publications aient été rédigées pour la version précédente du module Comptabilité client, les mêmes concepts s'appliquent toujours. et les procédures sont également similaires dans la version actuelle.
 
-Le [Blog de la communauté de partenaires Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) offre aux partenaires de Microsoft Dynamics une ressource unique pour découvrir les nouveautés et les tendances de MBS Operations.
+Le [blog de la communauté de partenaires Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) offre aux partenaires de Microsoft Dynamics une ressource unique pour découvrir les nouveautés et les tendances de MBS Operations.
 
 #### <a name="task-guides"></a>Guides de tâches
 Une aide supplémentaire est disponible sous forme de guides de tâche dans Finance and Operations. Pour accéder aux guides de tâche, cliquez sur le bouton Aide de n'importe quelle page.
 
 #### <a name="videos"></a>Vidéos
 
-Consultez les vidéos de procédure qui sont désormais disponibles sur la [chaîne Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
+Consultez les vidéos de procédure qui sont désormais disponibles sur la [chaîne YouTube Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 
 

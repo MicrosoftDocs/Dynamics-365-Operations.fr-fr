@@ -1,13 +1,13 @@
 ---
-title: "Page d'accueil de la gestion financière"
-description: "Cette rubrique fournit une liste de ressources et d'autres informations sur les fonctionnalités de gestion financière de Microsoft Dynamics 365 for Finance and Operations."
+title: Page d'accueil de la gestion financière
+description: Cette rubrique fournit une liste de ressources et d'autres informations pour les fonctionnalités de gestion financière dans Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 437c9ba7142dadcb49c9255b119586598511453d
+ms.sourcegitcommit: cbc5a4f0d752d4f147fe269e4d7a2460f772c95b
 ms.translationtype: HT
-ms.sourcegitcommit: b8f2f3a33dc19c2ebc941d1a504eae0c276f3cdf
-ms.openlocfilehash: a64621c5310e5f68b9d6f1545bb39ce1519d71cf
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "307938"
 ---
-
 # <a name="financial-management-home-page"></a>Page d'accueil de la gestion financière
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique fournit une liste de ressources et d'autres informations sur les fonctionnalités de gestion financière de Microsoft Dynamics 365 for Finance and Operations. 
+Cette rubrique fournit une liste de ressources et d'autres informations pour les fonctionnalités de gestion financière dans Microsoft Dynamics 365 for Finance and Operations. 
 
 Sélectionnez une zone de fonctionnalités pour en savoir plus.
 
@@ -37,7 +36,7 @@ Sélectionnez une zone de fonctionnalités pour en savoir plus.
     :::column:::
         - [Comptabilité fournisseur](accounts-payable/accounts-payable.md) 
         - [Comptabilité client](accounts-receivable/accounts-receivable.md)
-        - [Budgétisation](budgeting/budgeting-overview.md) 
+        - [Budget](budgeting/budgeting-overview.md) 
         - [Gestion de la trésorerie et de la banque](cash-bank-management/cash-bank-management.md)
         - [Contrôle de gestion](cost-accounting/cost-accounting-home-page.md)
     :::column-end:::
@@ -46,7 +45,7 @@ Sélectionnez une zone de fonctionnalités pour en savoir plus.
         - [États financiers](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
         - [Immobilisations](fixed-assets/fixed-assets.md)
         - [Comptabilité](general-ledger/general-ledger.md) 
-        - [Gestion des projets](project-management/overview-project-management-accounting.md)
+        - [Gestion de projets](project-management/overview-project-management-accounting.md)
         - [Secteur public](public-sector/public-sector-functionality.md) 
     :::column-end:::
 :::row-end:::
@@ -56,21 +55,18 @@ Sélectionnez une zone de fonctionnalités pour en savoir plus.
 
 ### <a name="blogs"></a>Blogs
 
-Vous trouverez des avis, des actualités et d'autres informations concernant la Comptabilité fournisseur et d'autres solutions sur le [Blog de Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
-
-De nombreuses publications concernent la gestion financière dans le [blog de l'équipe de produit Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/). Bien que certains de ces articles aient été rédigés pour une version antérieure du produit, les mêmes concepts s'appliquent toujours et les procédures sont également similaires dans la version actuelle.
-
-Le [Blog de la communauté de partenaires Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) offre aux partenaires de Microsoft Dynamics une ressource unique pour découvrir les nouveautés et les tendances de MBS Operations.
+- [Blog de Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)
+- [Blog sur Financials](https://community.dynamics.com/365/financeandoperations/b/financials) 
+- [Blog de la communauté de partenaires Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog)
 
 ### <a name="task-guides"></a>Guides de tâches
 Une aide supplémentaire est disponible sous forme de guides de tâche dans Finance and Operations. Pour accéder aux guides de tâche, cliquez sur le bouton Aide de n'importe quelle page.
 
 ### <a name="videos"></a>Vidéos
 
-Consultez les vidéos de procédure qui sont désormais disponibles sur la [chaîne Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+Consultez les vidéos de procédure qui sont désormais disponibles sur la [chaîne YouTube Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 ### <a name="countryregion-functionality"></a>Fonctionnalité spécifique à un pays/une région
 
 Les réglementations spécifiques à un pays/une région affectent le paramétrage des taxes et d'autres domaines de la gestion financière. Reportez-vous à la section [Fonctions locales et relatives aux réglementations](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json) de notre contenu d'aide pour en savoir plus sur les fonctionnalités spécifiques à un pays/une région.
-
 

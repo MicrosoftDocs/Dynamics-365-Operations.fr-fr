@@ -1,13 +1,13 @@
 ---
-title: "Documentation de Microsoft Dynamics 365 for Finance and Operations"
-description: "Documentation de Microsoft Dynamics 365 for Finance and Operations."
+title: Documentation de Microsoft Dynamics 365 for Finance and Operations
+description: Documentation pour Microsoft Dynamics 365 for Finance and Operations.
 author: margoc
 manager: AnnBe
 ms.date: 08/30/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
 ms.reviewer: margoc
@@ -17,21 +17,20 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5b9921883d952ebc42eff9f678bb300d8304e379
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: edacf76866cf3e078e08dd6e5a69132d0eb15176
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302261"
 ---
-
-# <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a>Documentation de Microsoft Dynamics 365 for Finance and Operations
+# <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a>Documentation de Microsoft Dynamics 365 for Finance and Operations
 
 [!include [banner](includes/banner.md)]
 
-Découvrez comment adapter Microsoft Dynamics 365 for Finance and Operations à votre entreprise, en utilisant les ressources ci-dessous pour rechercher des contenus utiles pour les utilisateurs, les développeurs et les professionnels de l'informatique. 
+Découvrez comment adapter Microsoft Dynamics 365 for Finance and Operations à votre entreprise, en utilisant les ressources ci-dessous pour rechercher des contenus utiles pour les utilisateurs, les développeurs et les professionnels de l'informatique. 
 
-La majeure partie de ces contenus s'applique également aux produits associés : Microsoft Dynamics 365 for Retail et Microsoft Dynamics 365 for Talent. 
+La majeure partie de ce contenu s'applique également aux produits associés : Microsoft Dynamics 365 for Retail et Microsoft Dynamics 365 for Talent. 
 
 <table>
 <colgroup>
@@ -115,13 +114,13 @@ La majeure partie de ces contenus s'applique également aux produits associés 
 </td>
 <td>
 <h3>Produits associés</h3>
-<h4><a href="../retail/index.md">Dynamics 365 for Retail</a></h4>
+<h4><a href="../retail/index.md">Dynamics 365 for Retail</a></h4>
 <p><a href="../retail/call-center-functionality.md">Centre d'appels</p>
 <p><a href="../retail/define-maintain-retail-channels.md">Paramétrage et gestion de canal</p>
 <p><a href="../retail/retail-peripherals-overview.md">MPOS et Cloud POS</p>
 <p><a href="../retail/dev-itpro/dev-retail-home-page.md">Développeur et administration Retail</p>
 
-<h4><a href="../talent/index.md">Dynamics 365 for Talent</a></h4>
+<h4><a href="../talent/index.md">Dynamics 365 for Talent</a></h4>
 <p><a href="../talent/manage-benefit-program.md">Avantages</a></p>
 <p><a href="../talent/performance-management-overview.md">Perfectionnement et formation des employés</a></p>
 <p><a href="../talent/questionnaires.md">Questionnaire</a></p>
@@ -131,4 +130,3 @@ La majeure partie de ces contenus s'applique également aux produits associés 
 
 </tbody>
 </table>
-

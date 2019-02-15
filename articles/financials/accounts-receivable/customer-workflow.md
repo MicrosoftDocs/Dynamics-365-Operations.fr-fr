@@ -1,13 +1,13 @@
 ---
 title: Workflow de client
-description: "Cette rubrique fournit des informations sur le workflow de client. Vous pouvez modifier des champs spécifiques à un client puis envoyer les modifications pour approbation à l'aide du workflow avant de les ajouter au client."
+description: Cette rubrique fournit des informations sur le workflow de client. Vous pouvez modifier des champs spécifiques à un client puis envoyer les modifications pour approbation à l'aide du workflow avant de les ajouter au client.
 author: mikefalkner
 manager: aolson
 ms.date: 08/24/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: shylaw
@@ -16,19 +16,18 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.translationtype: HT
-ms.sourcegitcommit: 98ed3378ab05c0c69c9e5b2a82310113a81c2264
 ms.openlocfilehash: 1b0e1621b256e6bbb42f97134b87dd65fa146193
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/31/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302277"
 ---
-
 # <a name="customer-workflow"></a>Workflow de client
 
 [!include [banner](../includes/banner.md)]
 
-Le workflow de client a été ajouté à Microsoft Dynamics 365 for Finance and Operations version 8.0.4. Vous pouvez modifier des champs spécifiques à un client puis envoyer les modifications pour approbation à l'aide du workflow avant de les ajouter au client.
+Le workflow de client a été ajouté à Microsoft Dynamics 365 for Finance and Operations version 8.0.4. Vous pouvez modifier des champs spécifiques à un client puis envoyer les modifications pour approbation à l'aide du workflow avant de les ajouter au client.
 
 ## <a name="set-up-the-customer-workflow"></a>Paramétrer le workflow de client
 
@@ -62,4 +61,3 @@ Une fois que vous avez au moins une modification proposée, deux menus suppléme
     Le statut dans la page est remplacé par **Modifications en attente d'approbation**.
 
 Le workflow suit le processus de workflow standard dans Finance and Operations. L'approbateur est dirigé vers la page **Client**, où il peut revoir les modifications sur la page **Modifications proposées**, puis sélectionner **Workflow \> Approuver** pour approuver le workflow. Une fois toutes les approbations effectuées, les champs sont mis à jour avec les valeurs que vous avez proposées.
-
